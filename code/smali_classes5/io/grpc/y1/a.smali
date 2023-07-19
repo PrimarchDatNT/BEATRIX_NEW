@@ -69,7 +69,6 @@
 
     invoke-static {}, Lio/grpc/y1/a;->q0()V
 
-    .line 1
     invoke-static {}, Lio/grpc/y1/a;->s0()Ljava/lang/Class;
 
     move-result-object v0
@@ -89,12 +88,10 @@
         }
     .end annotation
 
-    .line 8
     invoke-direct {p0}, Lio/grpc/w;-><init>()V
 
     const-string v0, "delegateBuilder"
 
-    .line 9
     invoke-static {p1, v0}, Lcom/google/common/base/t;->F(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -109,10 +106,8 @@
 .method private constructor <init>(Ljava/lang/String;)V
     .locals 7
 
-    .line 1
     invoke-direct {p0}, Lio/grpc/w;-><init>()V
 
-    .line 2
     sget-object v0, Lio/grpc/y1/a;->d:Ljava/lang/Class;
 
     if-eqz v0, :cond_0
@@ -124,14 +119,12 @@
 
     new-array v3, v2, [Ljava/lang/Class;
 
-    .line 3
     const-class v4, Ljava/lang/String;
 
     const/4 v5, 0x0
 
     aput-object v4, v3, v5
 
-    .line 4
     invoke-virtual {v0, v1, v3}, Ljava/lang/Class;->getMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
 
     move-result-object v0
@@ -186,7 +179,6 @@
 
     move-result-object p1
 
-    .line 5
     check-cast p1, Lio/grpc/x0;
 
     iput-object p1, p0, Lio/grpc/y1/a;->a:Lio/grpc/x0;
@@ -198,7 +190,6 @@
     :catch_0
     move-exception p1
 
-    .line 6
     new-instance v0, Ljava/lang/RuntimeException;
 
     const-string v1, "Failed to create ManagedChannelBuilder"
@@ -207,7 +198,6 @@
 
     throw v0
 
-    .line 7
     :cond_0
     new-instance p1, Ljava/lang/UnsupportedOperationException;
 
@@ -221,7 +211,6 @@
 .method private static synthetic q0()V
     .locals 10
 
-    .line 1
     new-instance v8, Ln/a/b/c/e;
 
     const-class v0, Lio/grpc/y1/a;
@@ -360,7 +349,6 @@
     :try_start_0
     const-string v0, "io.grpc.okhttp.OkHttpChannelBuilder"
 
-    .line 1
     invoke-static {v0}, Ljava/lang/Class;->forName(Ljava/lang/String;)Ljava/lang/Class;
 
     move-result-object v0
@@ -378,7 +366,6 @@
 .method public static t0(Ljava/lang/String;I)Lio/grpc/y1/a;
     .locals 0
 
-    .line 1
     invoke-static {p0, p1}, Lio/grpc/internal/GrpcUtil;->b(Ljava/lang/String;I)Ljava/lang/String;
 
     move-result-object p0
@@ -393,7 +380,6 @@
 .method public static final u0(Ljava/lang/String;)Lio/grpc/y1/a;
     .locals 1
 
-    .line 1
     new-instance v0, Lio/grpc/y1/a;
 
     invoke-direct {v0, p0}, Lio/grpc/y1/a;-><init>(Ljava/lang/String;)V
@@ -412,7 +398,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lio/grpc/y1/a;
 
     invoke-direct {v0, p0}, Lio/grpc/y1/a;-><init>(Lio/grpc/x0;)V
@@ -423,7 +408,6 @@
 .method static final synthetic w0(Lio/grpc/y1/a;Ljava/lang/reflect/Method;Ljava/lang/Object;[Ljava/lang/Object;Lorg/aspectj/lang/c;)Ljava/lang/Object;
     .locals 0
 
-    .line 1
     invoke-virtual {p1, p2, p3}, Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p0
@@ -434,7 +418,6 @@
 .method static final synthetic x0(Lio/grpc/y1/a;Ljava/lang/reflect/Method;Ljava/lang/Object;[Ljava/lang/Object;Lorg/aspectj/lang/c;)Ljava/lang/Object;
     .locals 0
 
-    .line 1
     invoke-virtual {p1, p2, p3}, Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p0
@@ -445,7 +428,6 @@
 .method static final synthetic y0(Lio/grpc/y1/a;Ljava/lang/reflect/Method;Ljava/lang/Object;[Ljava/lang/Object;Lorg/aspectj/lang/c;)Ljava/lang/Object;
     .locals 0
 
-    .line 1
     invoke-virtual {p1, p2, p3}, Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p0
@@ -456,7 +438,6 @@
 .method static final synthetic z0(Lio/grpc/y1/a;Ljava/lang/reflect/Method;Ljava/lang/Object;[Ljava/lang/Object;Lorg/aspectj/lang/c;)Ljava/lang/Object;
     .locals 0
 
-    .line 1
     invoke-virtual {p1, p2, p3}, Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p0
@@ -471,7 +452,6 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    .line 1
     :try_start_0
     sget-object v0, Lio/grpc/y1/a;->d:Ljava/lang/Class;
 
@@ -487,7 +467,6 @@
 
     aput-object v4, v3, v5
 
-    .line 2
     invoke-virtual {v0, v1, v3}, Ljava/lang/Class;->getMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
 
     move-result-object v0
@@ -547,7 +526,6 @@
     :catch_0
     move-exception p1
 
-    .line 3
     new-instance v0, Ljava/lang/RuntimeException;
 
     const-string v1, "Failed to invoke scheduledExecutorService on delegate builder"
@@ -562,7 +540,6 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    .line 1
     :try_start_0
     sget-object v0, Lio/grpc/y1/a;->d:Ljava/lang/Class;
 
@@ -578,7 +555,6 @@
 
     aput-object v4, v3, v5
 
-    .line 2
     invoke-virtual {v0, v1, v3}, Ljava/lang/Class;->getMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
 
     move-result-object v0
@@ -638,7 +614,6 @@
     :catch_0
     move-exception p1
 
-    .line 3
     new-instance v0, Ljava/lang/RuntimeException;
 
     const-string v1, "Failed to invoke sslSocketFactory on delegate builder"
@@ -657,7 +632,6 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    .line 1
     :try_start_0
     sget-object v0, Lio/grpc/y1/a;->d:Ljava/lang/Class;
 
@@ -673,7 +647,6 @@
 
     aput-object v4, v3, v5
 
-    .line 2
     invoke-virtual {v0, v1, v3}, Ljava/lang/Class;->getMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
 
     move-result-object v0
@@ -733,7 +706,6 @@
     :catch_0
     move-exception p1
 
-    .line 3
     new-instance v0, Ljava/lang/RuntimeException;
 
     const-string v1, "Failed to invoke transportExecutor on delegate builder"
@@ -753,7 +725,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lio/grpc/y1/a;->a:Lio/grpc/x0;
 
     return-object v0
@@ -762,7 +733,6 @@
 .method public a()Lio/grpc/w0;
     .locals 3
 
-    .line 1
     new-instance v0, Lio/grpc/y1/a$b;
 
     iget-object v1, p0, Lio/grpc/y1/a;->a:Lio/grpc/x0;
@@ -781,7 +751,6 @@
 .method public r0(Landroid/content/Context;)Lio/grpc/y1/a;
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lio/grpc/y1/a;->b:Landroid/content/Context;
 
     return-object p0

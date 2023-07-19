@@ -60,7 +60,6 @@
 .method public bridge synthetic invoke(Ljava/lang/Object;)Ljava/lang/Object;
     .locals 0
 
-    .line 1
     check-cast p1, Lkshark/HeapObject;
 
     invoke-virtual {p0, p1}, Lkshark/AndroidObjectInspectors$CONTEXT_WRAPPER$leakingObjectFilter$1;->invoke(Lkshark/HeapObject;)Z
@@ -85,12 +84,10 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 2
     instance-of v0, p1, Lkshark/HeapObject$HeapInstance;
 
     if-eqz v0, :cond_1
 
-    .line 3
     check-cast p1, Lkshark/HeapObject$HeapInstance;
 
     const-string v0, "android.app.Activity"
@@ -101,7 +98,6 @@
 
     if-eqz v1, :cond_1
 
-    .line 4
     invoke-static {p1}, Lkshark/b;->e(Lkshark/HeapObject$HeapInstance;)Lkshark/HeapObject$HeapInstance;
 
     move-result-object p1
@@ -110,7 +106,6 @@
 
     const-string v1, "mDestroyed"
 
-    .line 5
     invoke-virtual {p1, v0, v1}, Lkshark/HeapObject$HeapInstance;->j(Ljava/lang/String;Ljava/lang/String;)Lkshark/h;
 
     move-result-object p1

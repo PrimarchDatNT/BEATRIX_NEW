@@ -48,15 +48,12 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-direct {p0, p1}, Landroidx/lifecycle/AndroidViewModel;-><init>(Landroid/app/Application;)V
 
     const/4 p1, -0x6
 
-    .line 2
     iput p1, p0, Lcom/commsource/store/doodle/DoodleStoreViewModel;->a:I
 
-    .line 3
     sget-object p1, Lcom/commsource/store/doodle/DoodleStoreViewModel$tagDataEvent$2;->INSTANCE:Lcom/commsource/store/doodle/DoodleStoreViewModel$tagDataEvent$2;
 
     invoke-static {p1}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
@@ -65,7 +62,6 @@
 
     iput-object p1, p0, Lcom/commsource/store/doodle/DoodleStoreViewModel;->c:Lcotlin/w;
 
-    .line 4
     sget-object p1, Lcom/commsource/store/doodle/DoodleStoreViewModel$subscribeEvent$2;->INSTANCE:Lcom/commsource/store/doodle/DoodleStoreViewModel$subscribeEvent$2;
 
     invoke-static {p1}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
@@ -74,7 +70,6 @@
 
     iput-object p1, p0, Lcom/commsource/store/doodle/DoodleStoreViewModel;->d:Lcotlin/w;
 
-    .line 5
     sget-object p1, Lcom/commsource/store/doodle/DoodleStoreViewModel$subscribeResultEvent$2;->INSTANCE:Lcom/commsource/store/doodle/DoodleStoreViewModel$subscribeResultEvent$2;
 
     invoke-static {p1}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
@@ -83,7 +78,6 @@
 
     iput-object p1, p0, Lcom/commsource/store/doodle/DoodleStoreViewModel;->e:Lcotlin/w;
 
-    .line 6
     sget-object p1, Lcom/commsource/store/doodle/DoodleStoreViewModel$uiReplyEvent$2;->INSTANCE:Lcom/commsource/store/doodle/DoodleStoreViewModel$uiReplyEvent$2;
 
     invoke-static {p1}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
@@ -229,7 +223,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/store/doodle/DoodleStoreViewModel;->C()Landroidx/lifecycle/MutableLiveData;
 
     move-result-object v1
@@ -246,7 +239,6 @@
 
     invoke-virtual {v1, v2}, Landroidx/lifecycle/MutableLiveData;->setValue(Ljava/lang/Object;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -263,7 +255,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/store/doodle/DoodleStoreViewModel;->b:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -278,7 +269,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/store/doodle/DoodleStoreViewModel;->a:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -295,7 +285,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/store/doodle/DoodleStoreViewModel;->b:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -310,7 +299,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/store/doodle/DoodleStoreViewModel;->a:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

@@ -54,7 +54,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p2, Ljava/lang/Integer;
 
     invoke-virtual {p0, p1, p2}, Lcom/commsource/studio/sticker/StickerFragment$d;->b(ILjava/lang/Integer;)Z
@@ -73,7 +72,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p2, p0, Lcom/commsource/studio/sticker/StickerFragment$d;->a:Lcom/commsource/studio/sticker/StickerFragment;
 
     invoke-static {p2}, Lcom/commsource/studio/sticker/StickerFragment;->X(Lcom/commsource/studio/sticker/StickerFragment;)Lcom/commsource/beautyplus/f0/ma;
@@ -84,7 +82,6 @@
 
     invoke-virtual {p2}, Lcom/commsource/studio/doodle/shop/ColorPickerComponent;->s()V
 
-    .line 2
     iget-object p2, p0, Lcom/commsource/studio/sticker/StickerFragment$d;->a:Lcom/commsource/studio/sticker/StickerFragment;
 
     invoke-static {p2}, Lcom/commsource/studio/sticker/StickerFragment;->Y(Lcom/commsource/studio/sticker/StickerFragment;)Lcom/commsource/studio/sticker/StickerViewModel;
@@ -95,7 +92,6 @@
 
     invoke-virtual {p2, v0}, Lcom/commsource/studio/sticker/StickerViewModel;->O(Lcom/meitu/template/bean/Sticker;)V
 
-    .line 3
     iget-object p2, p0, Lcom/commsource/studio/sticker/StickerFragment$d;->a:Lcom/commsource/studio/sticker/StickerFragment;
 
     invoke-static {p2}, Lcom/commsource/studio/sticker/StickerFragment;->Y(Lcom/commsource/studio/sticker/StickerFragment;)Lcom/commsource/studio/sticker/StickerViewModel;
@@ -104,7 +100,6 @@
 
     invoke-virtual {p2, v0}, Lcom/commsource/studio/sticker/StickerViewModel;->P(Lcom/meitu/template/bean/StickerGroup;)V
 
-    .line 4
     iget-object p2, p0, Lcom/commsource/studio/sticker/StickerFragment$d;->a:Lcom/commsource/studio/sticker/StickerFragment;
 
     invoke-virtual {p2}, Lcom/commsource/studio/sub/BaseSubTabFragment;->K()Lcom/commsource/beautyplus/f0/k0;
@@ -119,14 +114,12 @@
 
     invoke-static {p2}, Lcom/commsource/util/l0;->w(Landroid/view/View;)V
 
-    .line 5
     sget-object p2, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/FragmentBuilder;->d:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/FragmentBuilder$a;
 
     invoke-virtual {p2}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/FragmentBuilder$a;->a()Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/FragmentBuilder;
 
     move-result-object v0
 
-    .line 6
     iget-object p2, p0, Lcom/commsource/studio/sticker/StickerFragment$d;->a:Lcom/commsource/studio/sticker/StickerFragment;
 
     invoke-virtual {p2}, Lcom/commsource/beautyplus/i0/a;->q()Landroidx/fragment/app/FragmentActivity;
@@ -137,7 +130,6 @@
 
     invoke-static {v1, p2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 7
     iget-object p2, p0, Lcom/commsource/studio/sticker/StickerFragment$d;->a:Lcom/commsource/studio/sticker/StickerFragment;
 
     invoke-virtual {p2}, Lcom/commsource/studio/sub/BaseSubTabFragment;->K()Lcom/commsource/beautyplus/f0/k0;
@@ -154,7 +146,6 @@
 
     move-result v2
 
-    .line 8
     const-class v3, Lcom/commsource/studio/sticker/manage/StickerManagerFragment;
 
     const/4 v4, 0x0
@@ -165,10 +156,8 @@
 
     const/4 v7, 0x0
 
-    .line 9
     invoke-static/range {v0 .. v7}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/FragmentBuilder;->k(Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/FragmentBuilder;Landroidx/fragment/app/FragmentActivity;ILjava/lang/Class;IIILjava/lang/Object;)Lcom/commsource/beautyplus/i0/a;
 
-    .line 10
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const/4 p1, 0x1

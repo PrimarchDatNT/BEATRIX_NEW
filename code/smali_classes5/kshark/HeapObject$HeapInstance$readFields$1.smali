@@ -60,7 +60,6 @@
 .method public bridge synthetic invoke(Ljava/lang/Object;)Ljava/lang/Object;
     .locals 0
 
-    .line 1
     check-cast p1, Lkshark/HeapObject$HeapClass;
 
     invoke-virtual {p0, p1}, Lkshark/HeapObject$HeapInstance$readFields$1;->invoke(Lkshark/HeapObject$HeapClass;)Lcotlin/sequences/m;
@@ -94,7 +93,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 2
     invoke-virtual {p1}, Lkshark/HeapObject$HeapClass;->z()Lkshark/m$b$c$a;
 
     move-result-object v0
@@ -103,12 +101,10 @@
 
     move-result-object v0
 
-    .line 3
     invoke-static {v0}, Lcotlin/collections/s;->n1(Ljava/lang/Iterable;)Lcotlin/sequences/m;
 
     move-result-object v0
 
-    .line 4
     new-instance v1, Lkshark/HeapObject$HeapInstance$readFields$1$1;
 
     invoke-direct {v1, p0, p1}, Lkshark/HeapObject$HeapInstance$readFields$1$1;-><init>(Lkshark/HeapObject$HeapInstance$readFields$1;Lkshark/HeapObject$HeapClass;)V

@@ -31,12 +31,10 @@
 .method private constructor <init>(Lcom/squareup/okhttp/internal/http/Http1xStream;J)V
     .locals 1
 
-    .line 2
     iput-object p1, p0, Lcom/squareup/okhttp/internal/http/Http1xStream$FixedLengthSink;->this$0:Lcom/squareup/okhttp/internal/http/Http1xStream;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 3
     new-instance v0, Lokio/ForwardingTimeout;
 
     invoke-static {p1}, Lcom/squareup/okhttp/internal/http/Http1xStream;->access$300(Lcom/squareup/okhttp/internal/http/Http1xStream;)Lokio/BufferedSink;
@@ -51,7 +49,6 @@
 
     iput-object v0, p0, Lcom/squareup/okhttp/internal/http/Http1xStream$FixedLengthSink;->timeout:Lokio/ForwardingTimeout;
 
-    .line 4
     iput-wide p2, p0, Lcom/squareup/okhttp/internal/http/Http1xStream$FixedLengthSink;->bytesRemaining:J
 
     return-void
@@ -60,7 +57,6 @@
 .method synthetic constructor <init>(Lcom/squareup/okhttp/internal/http/Http1xStream;JLcom/squareup/okhttp/internal/http/Http1xStream$1;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1, p2, p3}, Lcom/squareup/okhttp/internal/http/Http1xStream$FixedLengthSink;-><init>(Lcom/squareup/okhttp/internal/http/Http1xStream;J)V
 
     return-void
@@ -76,7 +72,6 @@
         }
     .end annotation
 
-    .line 1
     iget-boolean v0, p0, Lcom/squareup/okhttp/internal/http/Http1xStream$FixedLengthSink;->closed:Z
 
     if-eqz v0, :cond_0
@@ -86,10 +81,8 @@
     :cond_0
     const/4 v0, 0x1
 
-    .line 2
     iput-boolean v0, p0, Lcom/squareup/okhttp/internal/http/Http1xStream$FixedLengthSink;->closed:Z
 
-    .line 3
     iget-wide v0, p0, Lcom/squareup/okhttp/internal/http/Http1xStream$FixedLengthSink;->bytesRemaining:J
 
     const-wide/16 v2, 0x0
@@ -98,14 +91,12 @@
 
     if-gtz v4, :cond_1
 
-    .line 4
     iget-object v0, p0, Lcom/squareup/okhttp/internal/http/Http1xStream$FixedLengthSink;->this$0:Lcom/squareup/okhttp/internal/http/Http1xStream;
 
     iget-object v1, p0, Lcom/squareup/okhttp/internal/http/Http1xStream$FixedLengthSink;->timeout:Lokio/ForwardingTimeout;
 
     invoke-static {v0, v1}, Lcom/squareup/okhttp/internal/http/Http1xStream;->access$400(Lcom/squareup/okhttp/internal/http/Http1xStream;Lokio/ForwardingTimeout;)V
 
-    .line 5
     iget-object v0, p0, Lcom/squareup/okhttp/internal/http/Http1xStream$FixedLengthSink;->this$0:Lcom/squareup/okhttp/internal/http/Http1xStream;
 
     const/4 v1, 0x3
@@ -114,7 +105,6 @@
 
     return-void
 
-    .line 6
     :cond_1
     new-instance v0, Ljava/net/ProtocolException;
 
@@ -133,14 +123,12 @@
         }
     .end annotation
 
-    .line 1
     iget-boolean v0, p0, Lcom/squareup/okhttp/internal/http/Http1xStream$FixedLengthSink;->closed:Z
 
     if-eqz v0, :cond_0
 
     return-void
 
-    .line 2
     :cond_0
     iget-object v0, p0, Lcom/squareup/okhttp/internal/http/Http1xStream$FixedLengthSink;->this$0:Lcom/squareup/okhttp/internal/http/Http1xStream;
 
@@ -156,7 +144,6 @@
 .method public timeout()Lokio/Timeout;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/squareup/okhttp/internal/http/Http1xStream$FixedLengthSink;->timeout:Lokio/ForwardingTimeout;
 
     return-object v0
@@ -170,12 +157,10 @@
         }
     .end annotation
 
-    .line 1
     iget-boolean v0, p0, Lcom/squareup/okhttp/internal/http/Http1xStream$FixedLengthSink;->closed:Z
 
     if-nez v0, :cond_1
 
-    .line 2
     invoke-virtual {p1}, Lokio/Buffer;->size()J
 
     move-result-wide v1
@@ -186,14 +171,12 @@
 
     invoke-static/range {v1 .. v6}, Lcom/squareup/okhttp/internal/Util;->checkOffsetAndCount(JJJ)V
 
-    .line 3
     iget-wide v0, p0, Lcom/squareup/okhttp/internal/http/Http1xStream$FixedLengthSink;->bytesRemaining:J
 
     cmp-long v2, p2, v0
 
     if-gtz v2, :cond_0
 
-    .line 4
     iget-object v0, p0, Lcom/squareup/okhttp/internal/http/Http1xStream$FixedLengthSink;->this$0:Lcom/squareup/okhttp/internal/http/Http1xStream;
 
     invoke-static {v0}, Lcom/squareup/okhttp/internal/http/Http1xStream;->access$300(Lcom/squareup/okhttp/internal/http/Http1xStream;)Lokio/BufferedSink;
@@ -202,7 +185,6 @@
 
     invoke-interface {v0, p1, p2, p3}, Lokio/Sink;->write(Lokio/Buffer;J)V
 
-    .line 5
     iget-wide v0, p0, Lcom/squareup/okhttp/internal/http/Http1xStream$FixedLengthSink;->bytesRemaining:J
 
     sub-long/2addr v0, p2
@@ -211,7 +193,6 @@
 
     return-void
 
-    .line 6
     :cond_0
     new-instance p1, Ljava/net/ProtocolException;
 
@@ -241,7 +222,6 @@
 
     throw p1
 
-    .line 7
     :cond_1
     new-instance p1, Ljava/lang/IllegalStateException;
 

@@ -38,7 +38,6 @@
 
     invoke-static {p2, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/function/makeup/StudioMakeupFragment$a;->a:Lcom/commsource/studio/function/makeup/StudioMakeupFragment;
 
     invoke-direct {p0, p2}, Landroidx/viewpager2/adapter/FragmentStateAdapter;-><init>(Landroidx/fragment/app/Fragment;)V
@@ -57,7 +56,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/studio/function/makeup/StudioMakeupChildFragment;->N:Lcom/commsource/studio/function/makeup/StudioMakeupChildFragment$a;
 
     invoke-virtual {v1, p1}, Lcom/commsource/studio/function/makeup/StudioMakeupChildFragment$a;->a(I)Lcom/commsource/studio/function/makeup/StudioMakeupChildFragment;
@@ -76,7 +74,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/function/makeup/StudioMakeupFragment$a;->a:Lcom/commsource/studio/function/makeup/StudioMakeupFragment;
 
     invoke-virtual {v1}, Lcom/commsource/studio/function/makeup/StudioMakeupFragment;->N1()Ljava/util/List;

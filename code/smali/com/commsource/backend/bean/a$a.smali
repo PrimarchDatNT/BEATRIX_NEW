@@ -28,7 +28,6 @@
 .method public constructor <init>(Lcom/commsource/backend/bean/a;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/backend/bean/a$a;->b:Lcom/commsource/backend/bean/a;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V

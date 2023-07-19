@@ -11,10 +11,8 @@
 .method static constructor <clinit>()V
     .locals 3
 
-    .line 1
     new-instance v0, Ljava/util/concurrent/atomic/AtomicInteger;
 
-    .line 2
     invoke-static {}, Landroid/os/SystemClock;->elapsedRealtime()J
 
     move-result-wide v1
@@ -31,7 +29,6 @@
 .method private static a(Landroid/content/pm/PackageManager;Landroid/content/res/Resources;Ljava/lang/String;Ljava/lang/String;Landroid/os/Bundle;)I
     .locals 3
 
-    .line 1
     invoke-static {p3}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v0
@@ -42,14 +39,12 @@
 
     const-string v0, "drawable"
 
-    .line 2
     invoke-virtual {p1, p3, v0, p2}, Landroid/content/res/Resources;->getIdentifier(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)I
 
     move-result v0
 
     if-eqz v0, :cond_0
 
-    .line 3
     invoke-static {p1, v0}, Lcom/google/firebase/messaging/h;->f(Landroid/content/res/Resources;I)Z
 
     move-result v2
@@ -61,14 +56,12 @@
     :cond_0
     const-string v0, "mipmap"
 
-    .line 4
     invoke-virtual {p1, p3, v0, p2}, Landroid/content/res/Resources;->getIdentifier(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)I
 
     move-result v0
 
     if-eqz v0, :cond_1
 
-    .line 5
     invoke-static {p1, v0}, Lcom/google/firebase/messaging/h;->f(Landroid/content/res/Resources;I)Z
 
     move-result v2
@@ -77,7 +70,6 @@
 
     return v0
 
-    .line 6
     :cond_1
     invoke-static {p3}, Ljava/lang/String;->valueOf(Ljava/lang/Object;)Ljava/lang/String;
 
@@ -114,21 +106,18 @@
 
     const/4 v0, 0x0
 
-    .line 7
     invoke-virtual {p4, p3, v0}, Landroid/os/Bundle;->getInt(Ljava/lang/String;I)I
 
     move-result p3
 
     if-eqz p3, :cond_3
 
-    .line 8
     invoke-static {p1, p3}, Lcom/google/firebase/messaging/h;->f(Landroid/content/res/Resources;I)Z
 
     move-result p4
 
     if-nez p4, :cond_4
 
-    .line 9
     :cond_3
     :try_start_0
     invoke-virtual {p0, p2, v0}, Landroid/content/pm/PackageManager;->getApplicationInfo(Ljava/lang/String;I)Landroid/content/pm/ApplicationInfo;
@@ -144,7 +133,6 @@
     :catch_0
     move-exception p0
 
-    .line 10
     invoke-static {p0}, Ljava/lang/String;->valueOf(Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object p0
@@ -179,7 +167,6 @@
     :goto_0
     if-eqz p3, :cond_5
 
-    .line 11
     invoke-static {p1, p3}, Lcom/google/firebase/messaging/h;->f(Landroid/content/res/Resources;I)Z
 
     move-result p0
@@ -196,14 +183,12 @@
 .method private static b(Landroid/content/Context;Landroid/content/Intent;)Landroid/app/PendingIntent;
     .locals 4
 
-    .line 1
     sget-object v0, Lcom/google/firebase/messaging/h;->a:Ljava/util/concurrent/atomic/AtomicInteger;
 
     invoke-virtual {v0}, Ljava/util/concurrent/atomic/AtomicInteger;->incrementAndGet()I
 
     move-result v0
 
-    .line 2
     new-instance v1, Landroid/content/Intent;
 
     const-string v2, "com.google.firebase.MESSAGING_EVENT"
@@ -216,21 +201,18 @@
 
     invoke-direct {v2, p0, v3}, Landroid/content/ComponentName;-><init>(Landroid/content/Context;Ljava/lang/String;)V
 
-    .line 3
     invoke-virtual {v1, v2}, Landroid/content/Intent;->setComponent(Landroid/content/ComponentName;)Landroid/content/Intent;
 
     move-result-object v1
 
     const-string v2, "wrapped_intent"
 
-    .line 4
     invoke-virtual {v1, v2, p1}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Landroid/os/Parcelable;)Landroid/content/Intent;
 
     move-result-object p1
 
     const/high16 v1, 0x40000000    # 2.0f
 
-    .line 5
     invoke-static {p0, v0, p1, v1}, Landroid/app/PendingIntent;->getBroadcast(Landroid/content/Context;ILandroid/content/Intent;I)Landroid/app/PendingIntent;
 
     move-result-object p0
@@ -243,7 +225,6 @@
 
     const/16 v0, 0x80
 
-    .line 1
     :try_start_0
     invoke-virtual {p0, p1, v0}, Landroid/content/pm/PackageManager;->getApplicationInfo(Ljava/lang/String;I)Landroid/content/pm/ApplicationInfo;
 
@@ -251,7 +232,6 @@
 
     if-eqz p0, :cond_0
 
-    .line 2
     iget-object p0, p0, Landroid/content/pm/ApplicationInfo;->metaData:Landroid/os/Bundle;
     :try_end_0
     .catch Landroid/content/pm/PackageManager$NameNotFoundException; {:try_start_0 .. :try_end_0} :catch_0
@@ -263,7 +243,6 @@
     :catch_0
     move-exception p0
 
-    .line 3
     invoke-static {p0}, Ljava/lang/String;->valueOf(Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object p0
@@ -296,7 +275,6 @@
 
     invoke-static {p1, p0}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 4
     :cond_0
     sget-object p0, Landroid/os/Bundle;->EMPTY:Landroid/os/Bundle;
 
@@ -306,7 +284,6 @@
 .method static d(Landroid/content/Context;Lcom/google/firebase/messaging/y;)Lcom/google/firebase/messaging/c;
     .locals 9
 
-    .line 1
     invoke-virtual {p0}, Landroid/content/Context;->getPackageManager()Landroid/content/pm/PackageManager;
 
     move-result-object v0
@@ -319,74 +296,61 @@
 
     move-result-object v0
 
-    .line 2
     invoke-virtual {p0}, Landroid/content/Context;->getPackageName()Ljava/lang/String;
 
     move-result-object v1
 
     const-string v2, "gcm.n.android_channel_id"
 
-    .line 3
     invoke-virtual {p1, v2}, Lcom/google/firebase/messaging/y;->c(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v2
 
-    .line 4
     invoke-static {p0, v2, v0}, Lcom/google/firebase/messaging/h;->g(Landroid/content/Context;Ljava/lang/String;Landroid/os/Bundle;)Ljava/lang/String;
 
     move-result-object v2
 
-    .line 5
     invoke-virtual {p0}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
 
     move-result-object v3
 
-    .line 6
     invoke-virtual {p0}, Landroid/content/Context;->getPackageManager()Landroid/content/pm/PackageManager;
 
     move-result-object v4
 
-    .line 7
     new-instance v5, Landroidx/core/app/NotificationCompat$Builder;
 
     invoke-direct {v5, p0, v2}, Landroidx/core/app/NotificationCompat$Builder;-><init>(Landroid/content/Context;Ljava/lang/String;)V
 
     const-string v2, "gcm.n.title"
 
-    .line 8
     invoke-virtual {p1, v3, v1, v2}, Lcom/google/firebase/messaging/y;->b(Landroid/content/res/Resources;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v2
 
-    .line 9
     invoke-static {v2}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v6
 
     if-nez v6, :cond_0
 
-    .line 10
     invoke-virtual {v5, v2}, Landroidx/core/app/NotificationCompat$Builder;->setContentTitle(Ljava/lang/CharSequence;)Landroidx/core/app/NotificationCompat$Builder;
 
     :cond_0
     const-string v2, "gcm.n.body"
 
-    .line 11
     invoke-virtual {p1, v3, v1, v2}, Lcom/google/firebase/messaging/y;->b(Landroid/content/res/Resources;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v2
 
-    .line 12
     invoke-static {v2}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v6
 
     if-nez v6, :cond_1
 
-    .line 13
     invoke-virtual {v5, v2}, Landroidx/core/app/NotificationCompat$Builder;->setContentText(Ljava/lang/CharSequence;)Landroidx/core/app/NotificationCompat$Builder;
 
-    .line 14
     new-instance v6, Landroidx/core/app/NotificationCompat$BigTextStyle;
 
     invoke-direct {v6}, Landroidx/core/app/NotificationCompat$BigTextStyle;-><init>()V
@@ -400,25 +364,20 @@
     :cond_1
     const-string v2, "gcm.n.icon"
 
-    .line 15
     invoke-virtual {p1, v2}, Lcom/google/firebase/messaging/y;->c(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v2
 
-    .line 16
     invoke-static {v4, v3, v1, v2, v0}, Lcom/google/firebase/messaging/h;->a(Landroid/content/pm/PackageManager;Landroid/content/res/Resources;Ljava/lang/String;Ljava/lang/String;Landroid/os/Bundle;)I
 
     move-result v2
 
-    .line 17
     invoke-virtual {v5, v2}, Landroidx/core/app/NotificationCompat$Builder;->setSmallIcon(I)Landroidx/core/app/NotificationCompat$Builder;
 
-    .line 18
     invoke-virtual {p1}, Lcom/google/firebase/messaging/y;->e()Ljava/lang/String;
 
     move-result-object v2
 
-    .line 19
     invoke-static {v2}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v6
@@ -436,7 +395,6 @@
     :cond_2
     const-string v6, "default"
 
-    .line 20
     invoke-virtual {v6, v2}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v6
@@ -445,14 +403,12 @@
 
     const-string v6, "raw"
 
-    .line 21
     invoke-virtual {v3, v2, v6, v1}, Landroid/content/res/Resources;->getIdentifier(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)I
 
     move-result v3
 
     if-eqz v3, :cond_3
 
-    .line 22
     invoke-static {v1}, Ljava/lang/String;->valueOf(Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object v3
@@ -499,7 +455,6 @@
 
     goto :goto_0
 
-    .line 23
     :cond_3
     invoke-static {v7}, Landroid/media/RingtoneManager;->getDefaultUri(I)Landroid/net/Uri;
 
@@ -508,18 +463,15 @@
     :goto_0
     if-eqz v2, :cond_4
 
-    .line 24
     invoke-virtual {v5, v2}, Landroidx/core/app/NotificationCompat$Builder;->setSound(Landroid/net/Uri;)Landroidx/core/app/NotificationCompat$Builder;
 
     :cond_4
     const-string v2, "gcm.n.click_action"
 
-    .line 25
     invoke-virtual {p1, v2}, Lcom/google/firebase/messaging/y;->c(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v2
 
-    .line 26
     invoke-static {v2}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v3
@@ -528,22 +480,18 @@
 
     if-nez v3, :cond_5
 
-    .line 27
     new-instance v3, Landroid/content/Intent;
 
     invoke-direct {v3, v2}, Landroid/content/Intent;-><init>(Ljava/lang/String;)V
 
-    .line 28
     invoke-virtual {v3, v1}, Landroid/content/Intent;->setPackage(Ljava/lang/String;)Landroid/content/Intent;
 
     const/high16 v1, 0x10000000
 
-    .line 29
     invoke-virtual {v3, v1}, Landroid/content/Intent;->setFlags(I)Landroid/content/Intent;
 
     goto :goto_1
 
-    .line 30
     :cond_5
     invoke-virtual {p1}, Lcom/google/firebase/messaging/y;->a()Landroid/net/Uri;
 
@@ -551,22 +499,18 @@
 
     if-eqz v2, :cond_6
 
-    .line 31
     new-instance v3, Landroid/content/Intent;
 
     const-string v4, "android.intent.action.VIEW"
 
     invoke-direct {v3, v4}, Landroid/content/Intent;-><init>(Ljava/lang/String;)V
 
-    .line 32
     invoke-virtual {v3, v1}, Landroid/content/Intent;->setPackage(Ljava/lang/String;)Landroid/content/Intent;
 
-    .line 33
     invoke-virtual {v3, v2}, Landroid/content/Intent;->setData(Landroid/net/Uri;)Landroid/content/Intent;
 
     goto :goto_1
 
-    .line 34
     :cond_6
     invoke-virtual {v4, v1}, Landroid/content/pm/PackageManager;->getLaunchIntentForPackage(Ljava/lang/String;)Landroid/content/Intent;
 
@@ -576,7 +520,6 @@
 
     const-string v2, "No activity found to launch app"
 
-    .line 35
     invoke-static {v6, v2}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;)I
 
     :cond_7
@@ -594,17 +537,14 @@
     :cond_8
     const/high16 v2, 0x4000000
 
-    .line 36
     invoke-virtual {v3, v2}, Landroid/content/Intent;->addFlags(I)Landroid/content/Intent;
 
-    .line 37
     invoke-virtual {p1}, Lcom/google/firebase/messaging/y;->l()Landroid/os/Bundle;
 
     move-result-object v2
 
     invoke-virtual {v3, v2}, Landroid/content/Intent;->putExtras(Landroid/os/Bundle;)Landroid/content/Intent;
 
-    .line 38
     sget-object v2, Lcom/google/firebase/messaging/h;->a:Ljava/util/concurrent/atomic/AtomicInteger;
 
     invoke-virtual {v2}, Ljava/util/concurrent/atomic/AtomicInteger;->incrementAndGet()I
@@ -613,26 +553,22 @@
 
     const/high16 v4, 0x40000000    # 2.0f
 
-    .line 39
     invoke-static {p0, v2, v3, v4}, Landroid/app/PendingIntent;->getActivity(Landroid/content/Context;ILandroid/content/Intent;I)Landroid/app/PendingIntent;
 
     move-result-object v2
 
-    .line 40
     invoke-virtual {p1, v1}, Lcom/google/firebase/messaging/y;->g(Ljava/lang/String;)Z
 
     move-result v3
 
     if-eqz v3, :cond_9
 
-    .line 41
     new-instance v3, Landroid/content/Intent;
 
     const-string v4, "com.google.firebase.messaging.NOTIFICATION_OPEN"
 
     invoke-direct {v3, v4}, Landroid/content/Intent;-><init>(Ljava/lang/String;)V
 
-    .line 42
     invoke-virtual {p1}, Lcom/google/firebase/messaging/y;->n()Landroid/os/Bundle;
 
     move-result-object v4
@@ -643,22 +579,18 @@
 
     const-string v4, "pending_intent"
 
-    .line 43
     invoke-virtual {v3, v4, v2}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Landroid/os/Parcelable;)Landroid/content/Intent;
 
     move-result-object v2
 
-    .line 44
     invoke-static {p0, v2}, Lcom/google/firebase/messaging/h;->b(Landroid/content/Context;Landroid/content/Intent;)Landroid/app/PendingIntent;
 
     move-result-object v2
 
-    .line 45
     :cond_9
     :goto_2
     invoke-virtual {v5, v2}, Landroidx/core/app/NotificationCompat$Builder;->setContentIntent(Landroid/app/PendingIntent;)Landroidx/core/app/NotificationCompat$Builder;
 
-    .line 46
     invoke-virtual {p1, v1}, Lcom/google/firebase/messaging/y;->g(Ljava/lang/String;)Z
 
     move-result v1
@@ -669,7 +601,6 @@
 
     goto :goto_3
 
-    .line 47
     :cond_a
     new-instance v1, Landroid/content/Intent;
 
@@ -677,7 +608,6 @@
 
     invoke-direct {v1, v2}, Landroid/content/Intent;-><init>(Ljava/lang/String;)V
 
-    .line 48
     invoke-virtual {p1}, Lcom/google/firebase/messaging/y;->n()Landroid/os/Bundle;
 
     move-result-object v2
@@ -686,7 +616,6 @@
 
     move-result-object v1
 
-    .line 49
     invoke-static {p0, v1}, Lcom/google/firebase/messaging/h;->b(Landroid/content/Context;Landroid/content/Intent;)Landroid/app/PendingIntent;
 
     move-result-object v1
@@ -694,13 +623,11 @@
     :goto_3
     if-eqz v1, :cond_b
 
-    .line 50
     invoke-virtual {v5, v1}, Landroidx/core/app/NotificationCompat$Builder;->setDeleteIntent(Landroid/app/PendingIntent;)Landroidx/core/app/NotificationCompat$Builder;
 
     :cond_b
     const-string v1, "gcm.n.color"
 
-    .line 51
     invoke-virtual {p1, v1}, Lcom/google/firebase/messaging/y;->c(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v1
@@ -711,7 +638,6 @@
 
     if-eqz p0, :cond_c
 
-    .line 52
     invoke-virtual {p0}, Ljava/lang/Integer;->intValue()I
 
     move-result p0
@@ -721,7 +647,6 @@
     :cond_c
     const-string p0, "gcm.n.sticky"
 
-    .line 53
     invoke-virtual {p1, p0}, Lcom/google/firebase/messaging/y;->g(Ljava/lang/String;)Z
 
     move-result p0
@@ -730,35 +655,29 @@
 
     xor-int/2addr p0, v0
 
-    .line 54
     invoke-virtual {v5, p0}, Landroidx/core/app/NotificationCompat$Builder;->setAutoCancel(Z)Landroidx/core/app/NotificationCompat$Builder;
 
     const-string p0, "gcm.n.local_only"
 
-    .line 55
     invoke-virtual {p1, p0}, Lcom/google/firebase/messaging/y;->g(Ljava/lang/String;)Z
 
     move-result p0
 
-    .line 56
     invoke-virtual {v5, p0}, Landroidx/core/app/NotificationCompat$Builder;->setLocalOnly(Z)Landroidx/core/app/NotificationCompat$Builder;
 
     const-string p0, "gcm.n.ticker"
 
-    .line 57
     invoke-virtual {p1, p0}, Lcom/google/firebase/messaging/y;->c(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p0
 
     if-eqz p0, :cond_d
 
-    .line 58
     invoke-virtual {v5, p0}, Landroidx/core/app/NotificationCompat$Builder;->setTicker(Ljava/lang/CharSequence;)Landroidx/core/app/NotificationCompat$Builder;
 
     :cond_d
     const-string p0, "gcm.n.notification_priority"
 
-    .line 59
     invoke-virtual {p1, p0}, Lcom/google/firebase/messaging/y;->h(Ljava/lang/String;)Ljava/lang/Integer;
 
     move-result-object p0
@@ -770,7 +689,6 @@
 
     goto :goto_5
 
-    .line 60
     :cond_e
     invoke-virtual {p0}, Ljava/lang/Integer;->intValue()I
 
@@ -780,14 +698,12 @@
 
     if-lt v1, v2, :cond_f
 
-    .line 61
     invoke-virtual {p0}, Ljava/lang/Integer;->intValue()I
 
     move-result v1
 
     if-le v1, v7, :cond_10
 
-    .line 62
     :cond_f
     invoke-static {p0}, Ljava/lang/String;->valueOf(Ljava/lang/Object;)Ljava/lang/String;
 
@@ -829,7 +745,6 @@
     :goto_5
     if-eqz p0, :cond_11
 
-    .line 63
     invoke-virtual {p0}, Ljava/lang/Integer;->intValue()I
 
     move-result p0
@@ -839,7 +754,6 @@
     :cond_11
     const-string p0, "gcm.n.visibility"
 
-    .line 64
     invoke-virtual {p1, p0}, Lcom/google/firebase/messaging/y;->h(Ljava/lang/String;)Ljava/lang/Integer;
 
     move-result-object p0
@@ -851,7 +765,6 @@
 
     goto :goto_7
 
-    .line 65
     :cond_12
     invoke-virtual {p0}, Ljava/lang/Integer;->intValue()I
 
@@ -867,7 +780,6 @@
 
     if-le v1, v0, :cond_14
 
-    .line 66
     :cond_13
     invoke-static {p0}, Ljava/lang/String;->valueOf(Ljava/lang/Object;)Ljava/lang/String;
 
@@ -911,7 +823,6 @@
     :goto_7
     if-eqz p0, :cond_15
 
-    .line 67
     invoke-virtual {p0}, Ljava/lang/Integer;->intValue()I
 
     move-result p0
@@ -921,7 +832,6 @@
     :cond_15
     const-string p0, "gcm.n.notification_count"
 
-    .line 68
     invoke-virtual {p1, p0}, Lcom/google/firebase/messaging/y;->h(Ljava/lang/String;)Ljava/lang/Integer;
 
     move-result-object p0
@@ -930,7 +840,6 @@
 
     goto :goto_8
 
-    .line 69
     :cond_16
     invoke-virtual {p0}, Ljava/lang/Integer;->intValue()I
 
@@ -938,7 +847,6 @@
 
     if-gez v1, :cond_17
 
-    .line 70
     invoke-static {p0}, Ljava/lang/String;->valueOf(Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object p0
@@ -981,7 +889,6 @@
     :goto_8
     if-eqz v8, :cond_18
 
-    .line 71
     invoke-virtual {v8}, Ljava/lang/Integer;->intValue()I
 
     move-result p0
@@ -991,24 +898,20 @@
     :cond_18
     const-string p0, "gcm.n.event_time"
 
-    .line 72
     invoke-virtual {p1, p0}, Lcom/google/firebase/messaging/y;->j(Ljava/lang/String;)Ljava/lang/Long;
 
     move-result-object p0
 
     if-eqz p0, :cond_19
 
-    .line 73
     invoke-virtual {v5, v0}, Landroidx/core/app/NotificationCompat$Builder;->setShowWhen(Z)Landroidx/core/app/NotificationCompat$Builder;
 
-    .line 74
     invoke-virtual {p0}, Ljava/lang/Long;->longValue()J
 
     move-result-wide v1
 
     invoke-virtual {v5, v1, v2}, Landroidx/core/app/NotificationCompat$Builder;->setWhen(J)Landroidx/core/app/NotificationCompat$Builder;
 
-    .line 75
     :cond_19
     invoke-virtual {p1}, Lcom/google/firebase/messaging/y;->i()[J
 
@@ -1016,10 +919,8 @@
 
     if-eqz p0, :cond_1a
 
-    .line 76
     invoke-virtual {v5, p0}, Landroidx/core/app/NotificationCompat$Builder;->setVibrate([J)Landroidx/core/app/NotificationCompat$Builder;
 
-    .line 77
     :cond_1a
     invoke-virtual {p1}, Lcom/google/firebase/messaging/y;->k()[I
 
@@ -1029,7 +930,6 @@
 
     if-eqz p0, :cond_1b
 
-    .line 78
     aget v2, p0, v1
 
     aget v0, p0, v0
@@ -1041,14 +941,12 @@
     :cond_1b
     const-string p0, "gcm.n.default_sound"
 
-    .line 79
     invoke-virtual {p1, p0}, Lcom/google/firebase/messaging/y;->g(Ljava/lang/String;)Z
 
     move-result p0
 
     const-string v0, "gcm.n.default_vibrate_timings"
 
-    .line 80
     invoke-virtual {p1, v0}, Lcom/google/firebase/messaging/y;->g(Ljava/lang/String;)Z
 
     move-result v0
@@ -1060,7 +958,6 @@
     :cond_1c
     const-string v0, "gcm.n.default_light_settings"
 
-    .line 81
     invoke-virtual {p1, v0}, Lcom/google/firebase/messaging/y;->g(Ljava/lang/String;)Z
 
     move-result v0
@@ -1069,21 +966,17 @@
 
     or-int/lit8 p0, p0, 0x4
 
-    .line 82
     :cond_1d
     invoke-virtual {v5, p0}, Landroidx/core/app/NotificationCompat$Builder;->setDefaults(I)Landroidx/core/app/NotificationCompat$Builder;
 
-    .line 83
     new-instance p0, Lcom/google/firebase/messaging/c;
 
     const-string v0, "gcm.n.tag"
 
-    .line 84
     invoke-virtual {p1, v0}, Lcom/google/firebase/messaging/y;->c(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p1
 
-    .line 85
     invoke-static {p1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v0
@@ -1092,7 +985,6 @@
 
     goto :goto_9
 
-    .line 86
     :cond_1e
     invoke-static {}, Landroid/os/SystemClock;->uptimeMillis()J
 
@@ -1114,7 +1006,6 @@
 
     move-result-object p1
 
-    .line 87
     :goto_9
     invoke-direct {p0, v5, p1, v1}, Lcom/google/firebase/messaging/c;-><init>(Landroidx/core/app/NotificationCompat$Builder;Ljava/lang/String;I)V
 
@@ -1124,7 +1015,6 @@
 .method private static e(Landroid/content/Context;Ljava/lang/String;Landroid/os/Bundle;)Ljava/lang/Integer;
     .locals 4
 
-    .line 1
     sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
 
     const/4 v1, 0x0
@@ -1135,7 +1025,6 @@
 
     return-object v1
 
-    .line 2
     :cond_0
     invoke-static {p1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
@@ -1145,7 +1034,6 @@
 
     if-nez v0, :cond_1
 
-    .line 3
     :try_start_0
     invoke-static {p1}, Landroid/graphics/Color;->parseColor(Ljava/lang/String;)I
 
@@ -1159,7 +1047,6 @@
 
     return-object p0
 
-    .line 4
     :catch_0
     invoke-static {p1}, Ljava/lang/String;->valueOf(Ljava/lang/Object;)Ljava/lang/String;
 
@@ -1196,14 +1083,12 @@
 
     const-string v0, "com.google.firebase.messaging.default_notification_color"
 
-    .line 5
     invoke-virtual {p2, v0, p1}, Landroid/os/Bundle;->getInt(Ljava/lang/String;I)I
 
     move-result p1
 
     if-eqz p1, :cond_2
 
-    .line 6
     :try_start_1
     invoke-static {p0, p1}, Landroidx/core/content/ContextCompat;->getColor(Landroid/content/Context;I)I
 
@@ -1220,7 +1105,6 @@
     :catch_1
     const-string p0, "Cannot find the color resource referenced in AndroidManifest."
 
-    .line 7
     invoke-static {v2, p0}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;)I
 
     :cond_2
@@ -1235,7 +1119,6 @@
 
     const-string v0, "FirebaseMessaging"
 
-    .line 1
     sget v1, Landroid/os/Build$VERSION;->SDK_INT:I
 
     const/4 v2, 0x1
@@ -1251,20 +1134,17 @@
 
     const/4 v3, 0x0
 
-    .line 2
     :try_start_0
     invoke-virtual {p0, p1, v1}, Landroid/content/res/Resources;->getDrawable(ILandroid/content/res/Resources$Theme;)Landroid/graphics/drawable/Drawable;
 
     move-result-object p0
 
-    .line 3
     instance-of p0, p0, Landroid/graphics/drawable/AdaptiveIconDrawable;
 
     if-eqz p0, :cond_1
 
     const/16 p0, 0x4d
 
-    .line 4
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1, p0}, Ljava/lang/StringBuilder;-><init>(I)V
@@ -1291,7 +1171,6 @@
     :catch_0
     const/16 p0, 0x42
 
-    .line 5
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1, p0}, Ljava/lang/StringBuilder;-><init>(I)V
@@ -1321,7 +1200,6 @@
         value = 0x1a
     .end annotation
 
-    .line 1
     sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
 
     const/16 v1, 0x1a
@@ -1332,14 +1210,12 @@
 
     return-object v2
 
-    .line 2
     :cond_0
     :try_start_0
     invoke-virtual {p0}, Landroid/content/Context;->getPackageManager()Landroid/content/pm/PackageManager;
 
     move-result-object v0
 
-    .line 3
     invoke-virtual {p0}, Landroid/content/Context;->getPackageName()Ljava/lang/String;
 
     move-result-object v3
@@ -1358,7 +1234,6 @@
 
     return-object v2
 
-    .line 4
     :cond_1
     const-class v0, Landroid/app/NotificationManager;
 
@@ -1368,7 +1243,6 @@
 
     check-cast v0, Landroid/app/NotificationManager;
 
-    .line 5
     invoke-static {p1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v1
@@ -1377,7 +1251,6 @@
 
     if-nez v1, :cond_3
 
-    .line 6
     invoke-virtual {v0, p1}, Landroid/app/NotificationManager;->getNotificationChannel(Ljava/lang/String;)Landroid/app/NotificationChannel;
 
     move-result-object v1
@@ -1386,7 +1259,6 @@
 
     return-object p1
 
-    .line 7
     :cond_2
     invoke-static {p1}, Ljava/lang/String;->valueOf(Ljava/lang/Object;)Ljava/lang/String;
 
@@ -1421,19 +1293,16 @@
     :cond_3
     const-string p1, "com.google.firebase.messaging.default_notification_channel_id"
 
-    .line 8
     invoke-virtual {p2, p1}, Landroid/os/Bundle;->getString(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p1
 
-    .line 9
     invoke-static {p1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result p2
 
     if-nez p2, :cond_5
 
-    .line 10
     invoke-virtual {v0, p1}, Landroid/app/NotificationManager;->getNotificationChannel(Ljava/lang/String;)Landroid/app/NotificationChannel;
 
     move-result-object p2
@@ -1445,7 +1314,6 @@
     :cond_4
     const-string p1, "Notification Channel set in AndroidManifest.xml has not been created by the app. Default value will be used."
 
-    .line 11
     invoke-static {v2, p1}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;)I
 
     goto :goto_0
@@ -1453,25 +1321,21 @@
     :cond_5
     const-string p1, "Missing Default Notification Channel metadata in AndroidManifest. Default value will be used."
 
-    .line 12
     invoke-static {v2, p1}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;)I
 
     :goto_0
     const-string p1, "fcm_fallback_notification_channel"
 
-    .line 13
     invoke-virtual {v0, p1}, Landroid/app/NotificationManager;->getNotificationChannel(Ljava/lang/String;)Landroid/app/NotificationChannel;
 
     move-result-object p2
 
     if-nez p2, :cond_6
 
-    .line 14
     invoke-virtual {p0}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
 
     move-result-object p2
 
-    .line 15
     invoke-virtual {p0}, Landroid/content/Context;->getPackageName()Ljava/lang/String;
 
     move-result-object v1
@@ -1480,15 +1344,12 @@
 
     const-string v3, "string"
 
-    .line 16
     invoke-virtual {p2, v2, v3, v1}, Landroid/content/res/Resources;->getIdentifier(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)I
 
     move-result p2
 
-    .line 17
     new-instance v1, Landroid/app/NotificationChannel;
 
-    .line 18
     invoke-virtual {p0, p2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
     move-result-object p0
@@ -1497,7 +1358,6 @@
 
     invoke-direct {v1, p1, p0, p2}, Landroid/app/NotificationChannel;-><init>(Ljava/lang/String;Ljava/lang/CharSequence;I)V
 
-    .line 19
     invoke-virtual {v0, v1}, Landroid/app/NotificationManager;->createNotificationChannel(Landroid/app/NotificationChannel;)V
 
     :cond_6

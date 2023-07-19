@@ -37,7 +37,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/store/sticker/StickerStoreDetailFragment$g;->c:Lcom/commsource/store/sticker/StickerStoreDetailFragment;
 
     invoke-direct {p0}, Lcom/commsource/beautyfilter/NoStickLiveData$a;-><init>()V
@@ -54,7 +53,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Lcom/meitu/template/bean/StickerGroup;
 
     invoke-virtual {p0, p1}, Lcom/commsource/store/sticker/StickerStoreDetailFragment$g;->e(Lcom/meitu/template/bean/StickerGroup;)V
@@ -77,7 +75,6 @@
 
     if-eqz p1, :cond_2
 
-    .line 1
     invoke-virtual {p1}, Lcom/meitu/template/bean/StickerGroup;->getGroupId()I
 
     move-result v1
@@ -116,12 +113,10 @@
     :goto_1
     if-eqz v1, :cond_2
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/store/sticker/StickerStoreDetailFragment$g;->c:Lcom/commsource/store/sticker/StickerStoreDetailFragment;
 
     invoke-static {v1, p1}, Lcom/commsource/store/sticker/StickerStoreDetailFragment;->G(Lcom/commsource/store/sticker/StickerStoreDetailFragment;Lcom/meitu/template/bean/StickerGroup;)V
 
-    .line 3
     :cond_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

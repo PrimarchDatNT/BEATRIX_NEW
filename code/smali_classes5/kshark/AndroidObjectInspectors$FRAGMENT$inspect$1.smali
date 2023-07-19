@@ -62,7 +62,6 @@
 .method public bridge synthetic invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
     .locals 0
 
-    .line 1
     check-cast p1, Lkshark/v;
 
     check-cast p2, Lkshark/HeapObject$HeapInstance;
@@ -97,7 +96,6 @@
 
     const-string v1, "mFragmentManager"
 
-    .line 2
     invoke-virtual {p2, v0, v1}, Lkshark/HeapObject$HeapInstance;->j(Ljava/lang/String;Ljava/lang/String;)Lkshark/h;
 
     move-result-object v1
@@ -106,7 +104,6 @@
 
     invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
-    .line 3
     :cond_0
     invoke-virtual {v1}, Lkshark/h;->c()Lkshark/j;
 
@@ -118,7 +115,6 @@
 
     if-eqz v2, :cond_1
 
-    .line 4
     invoke-virtual {p1}, Lkshark/v;->c()Ljava/util/Set;
 
     move-result-object v2
@@ -133,7 +129,6 @@
 
     goto :goto_0
 
-    .line 5
     :cond_1
     invoke-virtual {p1}, Lkshark/v;->e()Ljava/util/Set;
 
@@ -150,7 +145,6 @@
     :goto_0
     const-string v1, "mTag"
 
-    .line 6
     invoke-virtual {p2, v0, v1}, Lkshark/HeapObject$HeapInstance;->j(Ljava/lang/String;Ljava/lang/String;)Lkshark/h;
 
     move-result-object p2
@@ -175,7 +169,6 @@
     :goto_1
     if-eqz p2, :cond_4
 
-    .line 7
     invoke-interface {p2}, Ljava/lang/CharSequence;->length()I
 
     move-result v0
@@ -196,7 +189,6 @@
     :goto_3
     if-nez v0, :cond_5
 
-    .line 8
     invoke-virtual {p1}, Lkshark/v;->b()Ljava/util/LinkedHashSet;
 
     move-result-object p1

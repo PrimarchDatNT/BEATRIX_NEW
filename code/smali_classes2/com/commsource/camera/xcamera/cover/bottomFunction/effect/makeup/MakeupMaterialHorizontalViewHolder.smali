@@ -44,10 +44,8 @@
 
     sget v0, Lcom/res/provider/ResLAYOUT;->item_new_makeup_item:I
 
-    .line 1
     invoke-direct {p0, p1, p2, v0}, Lcom/commsource/widget/h1/f;-><init>(Landroid/content/Context;Landroid/view/ViewGroup;I)V
 
-    .line 2
     new-instance p1, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/MakeupMaterialHorizontalViewHolder$mViewBinding$2;
 
     invoke-direct {p1, p0}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/MakeupMaterialHorizontalViewHolder$mViewBinding$2;-><init>(Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/MakeupMaterialHorizontalViewHolder;)V
@@ -89,10 +87,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0, p1, p2, p3}, Lcom/commsource/widget/h1/f;->k(ILcom/commsource/widget/h1/d;Ljava/util/List;)V
 
-    .line 2
     invoke-virtual {p0}, Lcom/commsource/widget/h1/f;->b()Lcom/commsource/widget/h1/e;
 
     move-result-object p1
@@ -103,7 +99,6 @@
 
     if-eqz p2, :cond_f
 
-    .line 3
     invoke-virtual {p2}, Lcom/commsource/widget/h1/d;->b()Ljava/lang/Object;
 
     move-result-object v1
@@ -114,14 +109,12 @@
 
     if-eqz p3, :cond_0
 
-    .line 4
     invoke-interface {p3}, Ljava/util/List;->isEmpty()Z
 
     move-result p3
 
     if-eqz p3, :cond_4
 
-    .line 5
     :cond_0
     iget-object p3, p0, Lcom/commsource/widget/h1/f;->d:Landroid/content/Context;
 
@@ -129,7 +122,6 @@
 
     move-result-object p3
 
-    .line 6
     sget-object v2, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/h;->b:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/h$a;
 
     invoke-virtual {v2, v1}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/h$a;->i(Lcom/commsource/repository/child/makeup/h;)Ljava/lang/String;
@@ -140,7 +132,6 @@
 
     move-result-object p3
 
-    .line 7
     iget-object v2, p0, Lcom/commsource/widget/h1/f;->d:Landroid/content/Context;
 
     invoke-static {v2}, Lcom/commsource/util/u0;->i(Landroid/content/Context;)Lcom/commsource/util/u0$d;
@@ -149,22 +140,18 @@
 
     sget v3, Lcom/res/provider/ResDRAWABLE;->placeholder_stickers_45:I
 
-    .line 8
     invoke-virtual {v2, v3}, Lcom/commsource/util/u0$d;->k(I)Lcom/commsource/util/u0$d;
 
     move-result-object v2
 
-    .line 9
     invoke-virtual {p3, v2}, Lcom/commsource/util/u0$d;->c(Lcom/commsource/util/u0$d;)Lcom/commsource/util/u0$d;
 
     move-result-object p3
 
-    .line 10
     invoke-virtual {p3, v3}, Lcom/commsource/util/u0$d;->q(I)Lcom/commsource/util/u0$d;
 
     move-result-object p3
 
-    .line 11
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/MakeupMaterialHorizontalViewHolder;->v()Lcom/commsource/beautyplus/f0/kh;
 
     move-result-object v2
@@ -173,7 +160,6 @@
 
     invoke-virtual {p3, v2}, Lcom/commsource/util/u0$d;->e(Landroid/widget/ImageView;)V
 
-    .line 12
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/MakeupMaterialHorizontalViewHolder;->v()Lcom/commsource/beautyplus/f0/kh;
 
     move-result-object p3
@@ -186,7 +172,6 @@
 
     invoke-virtual {p3, v2}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 13
     invoke-virtual {v1}, Lcom/commsource/repository/child/makeup/h;->S()Z
 
     move-result p3
@@ -203,7 +188,6 @@
 
     goto :goto_0
 
-    .line 14
     :cond_1
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/MakeupMaterialHorizontalViewHolder;->v()Lcom/commsource/beautyplus/f0/kh;
 
@@ -217,7 +201,6 @@
 
     goto :goto_1
 
-    .line 15
     :cond_2
     :goto_0
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/MakeupMaterialHorizontalViewHolder;->v()Lcom/commsource/beautyplus/f0/kh;
@@ -230,7 +213,6 @@
 
     invoke-virtual {p3, v3}, Landroid/widget/ImageView;->setImageResource(I)V
 
-    .line 16
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/MakeupMaterialHorizontalViewHolder;->v()Lcom/commsource/beautyplus/f0/kh;
 
     move-result-object p3
@@ -241,7 +223,6 @@
 
     invoke-static {p3}, Lcom/commsource/util/l0;->v0(Landroid/view/View;)V
 
-    .line 17
     :goto_1
     invoke-virtual {v1}, Lcom/commsource/repository/child/makeup/h;->U()Z
 
@@ -251,7 +232,6 @@
 
     if-eqz p3, :cond_3
 
-    .line 18
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/MakeupMaterialHorizontalViewHolder;->v()Lcom/commsource/beautyplus/f0/kh;
 
     move-result-object p3
@@ -262,7 +242,6 @@
 
     invoke-static {p3}, Lcom/commsource/util/l0;->v0(Landroid/view/View;)V
 
-    .line 19
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/MakeupMaterialHorizontalViewHolder;->v()Lcom/commsource/beautyplus/f0/kh;
 
     move-result-object p3
@@ -275,7 +254,6 @@
 
     goto :goto_2
 
-    .line 20
     :cond_3
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/MakeupMaterialHorizontalViewHolder;->v()Lcom/commsource/beautyplus/f0/kh;
 
@@ -287,7 +265,6 @@
 
     invoke-static {p3}, Lcom/commsource/util/l0;->w(Landroid/view/View;)V
 
-    .line 21
     :cond_4
     :goto_2
     invoke-virtual {p2}, Lcom/commsource/widget/h1/d;->b()Ljava/lang/Object;
@@ -304,7 +281,6 @@
 
     if-eqz p3, :cond_5
 
-    .line 22
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/MakeupMaterialHorizontalViewHolder;->v()Lcom/commsource/beautyplus/f0/kh;
 
     move-result-object p3
@@ -317,7 +293,6 @@
 
     goto :goto_3
 
-    .line 23
     :cond_5
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/MakeupMaterialHorizontalViewHolder;->v()Lcom/commsource/beautyplus/f0/kh;
 
@@ -329,7 +304,6 @@
 
     invoke-static {p3}, Lcom/commsource/util/l0;->w(Landroid/view/View;)V
 
-    .line 24
     :goto_3
     invoke-virtual {p1}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/d;->X()Z
 
@@ -337,7 +311,6 @@
 
     if-eqz p3, :cond_8
 
-    .line 25
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/MakeupMaterialHorizontalViewHolder;->v()Lcom/commsource/beautyplus/f0/kh;
 
     move-result-object p3
@@ -364,7 +337,6 @@
     :goto_4
     invoke-virtual {p3, v2}, Landroid/widget/TextView;->setTextColor(I)V
 
-    .line 26
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/MakeupMaterialHorizontalViewHolder;->v()Lcom/commsource/beautyplus/f0/kh;
 
     move-result-object p3
@@ -393,7 +365,6 @@
 
     goto :goto_8
 
-    .line 27
     :cond_8
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/MakeupMaterialHorizontalViewHolder;->v()Lcom/commsource/beautyplus/f0/kh;
 
@@ -421,7 +392,6 @@
     :goto_6
     invoke-virtual {p3, v2}, Landroid/widget/TextView;->setTextColor(I)V
 
-    .line 28
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/MakeupMaterialHorizontalViewHolder;->v()Lcom/commsource/beautyplus/f0/kh;
 
     move-result-object p3
@@ -448,7 +418,6 @@
     :goto_7
     invoke-virtual {p3, p1}, Landroid/widget/TextView;->setTextColor(I)V
 
-    .line 29
     :goto_8
     invoke-virtual {p2}, Lcom/commsource/widget/h1/d;->g()Z
 
@@ -458,7 +427,6 @@
 
     if-eqz p1, :cond_b
 
-    .line 30
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/MakeupMaterialHorizontalViewHolder;->v()Lcom/commsource/beautyplus/f0/kh;
 
     move-result-object p1
@@ -471,7 +439,6 @@
 
     goto :goto_9
 
-    .line 31
     :cond_b
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/MakeupMaterialHorizontalViewHolder;->v()Lcom/commsource/beautyplus/f0/kh;
 
@@ -483,7 +450,6 @@
 
     invoke-static {p1}, Lcom/commsource/util/l0;->w(Landroid/view/View;)V
 
-    .line 32
     :goto_9
     invoke-virtual {v1}, Lcom/commsource/repository/child/makeup/h;->I()Z
 
@@ -495,7 +461,6 @@
 
     if-eqz p1, :cond_c
 
-    .line 33
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/MakeupMaterialHorizontalViewHolder;->v()Lcom/commsource/beautyplus/f0/kh;
 
     move-result-object p1
@@ -506,7 +471,6 @@
 
     invoke-static {p1}, Lcom/commsource/util/l0;->w(Landroid/view/View;)V
 
-    .line 34
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/MakeupMaterialHorizontalViewHolder;->v()Lcom/commsource/beautyplus/f0/kh;
 
     move-result-object p1
@@ -519,7 +483,6 @@
 
     goto :goto_a
 
-    .line 35
     :cond_c
     invoke-virtual {v1}, Lcom/commsource/repository/child/makeup/h;->K()Z
 
@@ -527,7 +490,6 @@
 
     if-eqz p1, :cond_d
 
-    .line 36
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/MakeupMaterialHorizontalViewHolder;->v()Lcom/commsource/beautyplus/f0/kh;
 
     move-result-object p1
@@ -538,7 +500,6 @@
 
     invoke-static {p1}, Lcom/commsource/util/l0;->w(Landroid/view/View;)V
 
-    .line 37
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/MakeupMaterialHorizontalViewHolder;->v()Lcom/commsource/beautyplus/f0/kh;
 
     move-result-object p1
@@ -551,7 +512,6 @@
 
     goto :goto_a
 
-    .line 38
     :cond_d
     invoke-virtual {v1}, Lcom/commsource/repository/child/makeup/h;->N()Z
 
@@ -559,7 +519,6 @@
 
     if-eqz p1, :cond_e
 
-    .line 39
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/MakeupMaterialHorizontalViewHolder;->v()Lcom/commsource/beautyplus/f0/kh;
 
     move-result-object p1
@@ -570,7 +529,6 @@
 
     invoke-static {p1}, Lcom/commsource/util/l0;->w(Landroid/view/View;)V
 
-    .line 40
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/MakeupMaterialHorizontalViewHolder;->v()Lcom/commsource/beautyplus/f0/kh;
 
     move-result-object p1
@@ -583,7 +541,6 @@
 
     goto :goto_a
 
-    .line 41
     :cond_e
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/MakeupMaterialHorizontalViewHolder;->v()Lcom/commsource/beautyplus/f0/kh;
 
@@ -595,7 +552,6 @@
 
     invoke-static {p1}, Lcom/commsource/util/l0;->v0(Landroid/view/View;)V
 
-    .line 42
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/MakeupMaterialHorizontalViewHolder;->v()Lcom/commsource/beautyplus/f0/kh;
 
     move-result-object p1
@@ -606,14 +562,12 @@
 
     invoke-static {p1}, Lcom/commsource/util/l0;->w(Landroid/view/View;)V
 
-    .line 43
     :cond_f
     :goto_a
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 44
     :cond_10
     new-instance p1, Lcotlin/TypeCastException;
 

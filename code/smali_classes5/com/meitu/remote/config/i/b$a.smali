@@ -39,7 +39,6 @@
 .method constructor <init>(Lcom/meitu/remote/config/i/b;ZLcom/meitu/remote/config/i/c;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/remote/config/i/b$a;->c:Lcom/meitu/remote/config/i/b;
 
     iput-boolean p2, p0, Lcom/meitu/remote/config/i/b$a;->a:Z
@@ -83,19 +82,16 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v0, p0, Lcom/meitu/remote/config/i/b$a;->a:Z
 
     if-eqz v0, :cond_0
 
-    .line 2
     iget-object v0, p0, Lcom/meitu/remote/config/i/b$a;->c:Lcom/meitu/remote/config/i/b;
 
     iget-object v1, p0, Lcom/meitu/remote/config/i/b$a;->b:Lcom/meitu/remote/config/i/c;
 
     invoke-static {v0, v1}, Lcom/meitu/remote/config/i/b;->a(Lcom/meitu/remote/config/i/b;Lcom/meitu/remote/config/i/c;)V
 
-    .line 3
     :cond_0
     iget-object v0, p0, Lcom/meitu/remote/config/i/b$a;->b:Lcom/meitu/remote/config/i/c;
 

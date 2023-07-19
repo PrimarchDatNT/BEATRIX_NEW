@@ -43,7 +43,6 @@
 
     move-object v0, p0
 
-    .line 1
     invoke-direct/range {v0 .. v5}, Lcom/qiniu/android/http/a;-><init>(Lcom/qiniu/android/http/f;IILcom/qiniu/android/http/h;Lcom/qiniu/android/dns/a;)V
 
     return-void
@@ -52,27 +51,22 @@
 .method public constructor <init>(Lcom/qiniu/android/http/f;IILcom/qiniu/android/http/h;Lcom/qiniu/android/dns/a;)V
     .locals 1
 
-    .line 2
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 3
     iput-object p4, p0, Lcom/qiniu/android/http/a;->a:Lcom/qiniu/android/http/h;
 
-    .line 4
     new-instance p4, Lokhttp3/OkHttpClient$Builder;
 
     invoke-direct {p4}, Lokhttp3/OkHttpClient$Builder;-><init>()V
 
     if-eqz p1, :cond_0
 
-    .line 5
     invoke-virtual {p1}, Lcom/qiniu/android/http/f;->b()Ljava/net/Proxy;
 
     move-result-object v0
 
     invoke-virtual {p4, v0}, Lokhttp3/OkHttpClient$Builder;->proxy(Ljava/net/Proxy;)Lokhttp3/OkHttpClient$Builder;
 
-    .line 6
     iget-object v0, p1, Lcom/qiniu/android/http/f;->c:Ljava/lang/String;
 
     if-eqz v0, :cond_0
@@ -81,7 +75,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 7
     invoke-virtual {p1}, Lcom/qiniu/android/http/f;->a()Lokhttp3/Authenticator;
 
     move-result-object p1
@@ -91,14 +84,12 @@
     :cond_0
     if-eqz p5, :cond_1
 
-    .line 8
     new-instance p1, Lcom/qiniu/android/http/a$a;
 
     invoke-direct {p1, p0, p5}, Lcom/qiniu/android/http/a$a;-><init>(Lcom/qiniu/android/http/a;Lcom/qiniu/android/dns/a;)V
 
     invoke-virtual {p4, p1}, Lokhttp3/OkHttpClient$Builder;->dns(Lokhttp3/Dns;)Lokhttp3/OkHttpClient$Builder;
 
-    .line 9
     :cond_1
     invoke-virtual {p4}, Lokhttp3/OkHttpClient$Builder;->networkInterceptors()Ljava/util/List;
 
@@ -112,22 +103,18 @@
 
     int-to-long p1, p2
 
-    .line 10
     sget-object p5, Ljava/util/concurrent/TimeUnit;->SECONDS:Ljava/util/concurrent/TimeUnit;
 
     invoke-virtual {p4, p1, p2, p5}, Lokhttp3/OkHttpClient$Builder;->connectTimeout(JLjava/util/concurrent/TimeUnit;)Lokhttp3/OkHttpClient$Builder;
 
     int-to-long p1, p3
 
-    .line 11
     invoke-virtual {p4, p1, p2, p5}, Lokhttp3/OkHttpClient$Builder;->readTimeout(JLjava/util/concurrent/TimeUnit;)Lokhttp3/OkHttpClient$Builder;
 
     const-wide/16 p1, 0x0
 
-    .line 12
     invoke-virtual {p4, p1, p2, p5}, Lokhttp3/OkHttpClient$Builder;->writeTimeout(JLjava/util/concurrent/TimeUnit;)Lokhttp3/OkHttpClient$Builder;
 
-    .line 13
     invoke-virtual {p4}, Lokhttp3/OkHttpClient$Builder;->build()Lokhttp3/OkHttpClient;
 
     move-result-object p1
@@ -140,7 +127,6 @@
 .method static synthetic a(Lokhttp3/Response;Ljava/lang/String;JLf/n/a/c/j;Lcom/qiniu/android/http/b;)V
     .locals 0
 
-    .line 1
     invoke-static/range {p0 .. p5}, Lcom/qiniu/android/http/a;->l(Lokhttp3/Response;Ljava/lang/String;JLf/n/a/c/j;Lcom/qiniu/android/http/b;)V
 
     return-void
@@ -149,17 +135,14 @@
 .method private d(Ljava/lang/String;Lf/n/a/d/i;Lf/n/a/c/j;Lcom/qiniu/android/http/e;Ljava/lang/String;Lokhttp3/RequestBody;Lcom/qiniu/android/http/b;Lcom/qiniu/android/http/CancellationHandler;)V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/qiniu/android/http/a;->a:Lcom/qiniu/android/http/h;
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-interface {v0, p1}, Lcom/qiniu/android/http/h;->a(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p1
 
-    .line 3
     :cond_0
     new-instance v0, Lokhttp3/MultipartBody$Builder;
 
@@ -167,10 +150,8 @@
 
     const-string v1, "file"
 
-    .line 4
     invoke-virtual {v0, v1, p5, p6}, Lokhttp3/MultipartBody$Builder;->addFormDataPart(Ljava/lang/String;Ljava/lang/String;Lokhttp3/RequestBody;)Lokhttp3/MultipartBody$Builder;
 
-    .line 5
     new-instance p5, Lcom/qiniu/android/http/a$f;
 
     invoke-direct {p5, p0, v0}, Lcom/qiniu/android/http/a$f;-><init>(Lcom/qiniu/android/http/a;Lokhttp3/MultipartBody$Builder;)V
@@ -179,14 +160,12 @@
 
     const-string p2, "multipart/form-data"
 
-    .line 6
     invoke-static {p2}, Lokhttp3/MediaType;->parse(Ljava/lang/String;)Lokhttp3/MediaType;
 
     move-result-object p2
 
     invoke-virtual {v0, p2}, Lokhttp3/MultipartBody$Builder;->setType(Lokhttp3/MediaType;)Lokhttp3/MultipartBody$Builder;
 
-    .line 7
     invoke-virtual {v0}, Lokhttp3/MultipartBody$Builder;->build()Lokhttp3/MultipartBody;
 
     move-result-object p2
@@ -195,7 +174,6 @@
 
     if-eqz p8, :cond_2
 
-    .line 8
     :cond_1
     new-instance p5, Lcom/qiniu/android/http/c;
 
@@ -203,7 +181,6 @@
 
     move-object p2, p5
 
-    .line 9
     :cond_2
     new-instance p4, Lokhttp3/Request$Builder;
 
@@ -219,7 +196,6 @@
 
     const/4 p2, 0x0
 
-    .line 10
     invoke-virtual {p0, p1, p2, p3, p7}, Lcom/qiniu/android/http/a;->g(Lokhttp3/Request$Builder;Lf/n/a/d/i;Lf/n/a/c/j;Lcom/qiniu/android/http/b;)V
 
     return-void
@@ -233,28 +209,24 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/lang/String;
 
     const-string v1, "utf-8"
 
     invoke-direct {v0, p0, v1}, Ljava/lang/String;-><init>([BLjava/lang/String;)V
 
-    .line 2
     invoke-static {v0}, Lf/n/a/d/j;->a(Ljava/lang/String;)Z
 
     move-result p0
 
     if-eqz p0, :cond_0
 
-    .line 3
     new-instance p0, Lorg/json/JSONObject;
 
     invoke-direct {p0}, Lorg/json/JSONObject;-><init>()V
 
     return-object p0
 
-    .line 4
     :cond_0
     new-instance p0, Lorg/json/JSONObject;
 
@@ -268,14 +240,12 @@
 
     move-object/from16 v1, p0
 
-    .line 1
     invoke-virtual/range {p0 .. p0}, Lokhttp3/Response;->code()I
 
     move-result v2
 
     const-string v0, "X-Reqid"
 
-    .line 2
     invoke-virtual {v1, v0}, Lokhttp3/Response;->header(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
@@ -288,7 +258,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_0
     invoke-virtual {v0}, Ljava/lang/String;->trim()Ljava/lang/String;
 
@@ -296,7 +265,6 @@
 
     move-object v4, v0
 
-    .line 4
     :goto_0
     :try_start_0
     invoke-virtual/range {p0 .. p0}, Lokhttp3/Response;->body()Lokhttp3/ResponseBody;
@@ -316,7 +284,6 @@
     :catch_0
     move-exception v0
 
-    .line 5
     invoke-virtual {v0}, Ljava/io/IOException;->getMessage()Ljava/lang/String;
 
     move-result-object v0
@@ -325,7 +292,6 @@
 
     move-object v0, v3
 
-    .line 6
     :goto_1
     invoke-static/range {p0 .. p0}, Lcom/qiniu/android/http/a;->j(Lokhttp3/Response;)Ljava/lang/String;
 
@@ -341,13 +307,11 @@
 
     if-eqz v0, :cond_2
 
-    .line 7
     :try_start_1
     invoke-static {v0}, Lcom/qiniu/android/http/a;->h([B)Lorg/json/JSONObject;
 
     move-result-object v3
 
-    .line 8
     invoke-virtual/range {p0 .. p0}, Lokhttp3/Response;->code()I
 
     move-result v6
@@ -356,7 +320,6 @@
 
     if-eq v6, v7, :cond_1
 
-    .line 9
     new-instance v6, Ljava/lang/String;
 
     const-string v7, "utf-8"
@@ -365,7 +328,6 @@
 
     const-string v0, "error"
 
-    .line 10
     invoke-virtual {v3, v0, v6}, Lorg/json/JSONObject;->optString(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v5
@@ -377,7 +339,6 @@
     :catch_1
     move-exception v0
 
-    .line 11
     invoke-virtual/range {p0 .. p0}, Lokhttp3/Response;->code()I
 
     move-result v6
@@ -386,7 +347,6 @@
 
     if-ge v6, v7, :cond_1
 
-    .line 12
     invoke-virtual {v0}, Ljava/lang/Exception;->getMessage()Ljava/lang/String;
 
     move-result-object v5
@@ -404,7 +364,6 @@
 
     goto :goto_3
 
-    .line 13
     :cond_3
     new-instance v5, Ljava/lang/String;
 
@@ -415,7 +374,6 @@
     :goto_3
     move-object v14, v0
 
-    .line 14
     :goto_4
     invoke-virtual/range {p0 .. p0}, Lokhttp3/Response;->request()Lokhttp3/Request;
 
@@ -427,12 +385,10 @@
 
     const-string v5, "X-Log"
 
-    .line 15
     invoke-virtual {v1, v5}, Lokhttp3/Response;->header(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v5
 
-    .line 16
     invoke-static/range {p0 .. p0}, Lcom/qiniu/android/http/a;->q(Lokhttp3/Response;)Ljava/lang/String;
 
     move-result-object v6
@@ -473,7 +429,6 @@
 
     move-object/from16 v15, p4
 
-    .line 17
     invoke-static/range {v1 .. v15}, Lcom/qiniu/android/http/g;->b(Lorg/json/JSONObject;ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;IDJLjava/lang/String;Lf/n/a/c/j;)Lcom/qiniu/android/http/g;
 
     move-result-object v0
@@ -484,7 +439,6 @@
 .method private static j(Lokhttp3/Response;)Ljava/lang/String;
     .locals 2
 
-    .line 1
     invoke-virtual {p0}, Lokhttp3/Response;->body()Lokhttp3/ResponseBody;
 
     move-result-object p0
@@ -499,7 +453,6 @@
 
     return-object p0
 
-    .line 2
     :cond_0
     new-instance v0, Ljava/lang/StringBuilder;
 
@@ -531,7 +484,6 @@
 .method private static k(Lokhttp3/Response;)J
     .locals 2
 
-    .line 1
     :try_start_0
     invoke-virtual {p0}, Lokhttp3/Response;->request()Lokhttp3/Request;
 
@@ -547,7 +499,6 @@
 
     return-wide v0
 
-    .line 2
     :cond_0
     invoke-virtual {p0}, Lokhttp3/RequestBody;->contentLength()J
 
@@ -566,12 +517,10 @@
 .method private static l(Lokhttp3/Response;Ljava/lang/String;JLf/n/a/c/j;Lcom/qiniu/android/http/b;)V
     .locals 0
 
-    .line 1
     invoke-static {p0, p1, p2, p3, p4}, Lcom/qiniu/android/http/a;->i(Lokhttp3/Response;Ljava/lang/String;JLf/n/a/c/j;)Lcom/qiniu/android/http/g;
 
     move-result-object p0
 
-    .line 2
     new-instance p1, Lcom/qiniu/android/http/a$c;
 
     invoke-direct {p1, p5, p0}, Lcom/qiniu/android/http/a$c;-><init>(Lcom/qiniu/android/http/b;Lcom/qiniu/android/http/g;)V
@@ -584,17 +533,14 @@
 .method private o(Ljava/lang/String;Lf/n/a/d/i;Lf/n/a/c/j;Ljava/lang/String;Lokhttp3/RequestBody;)Lcom/qiniu/android/http/g;
     .locals 2
 
-    .line 1
     new-instance v0, Lokhttp3/MultipartBody$Builder;
 
     invoke-direct {v0}, Lokhttp3/MultipartBody$Builder;-><init>()V
 
     const-string v1, "file"
 
-    .line 2
     invoke-virtual {v0, v1, p4, p5}, Lokhttp3/MultipartBody$Builder;->addFormDataPart(Ljava/lang/String;Ljava/lang/String;Lokhttp3/RequestBody;)Lokhttp3/MultipartBody$Builder;
 
-    .line 3
     new-instance p4, Lcom/qiniu/android/http/a$h;
 
     invoke-direct {p4, p0, v0}, Lcom/qiniu/android/http/a$h;-><init>(Lcom/qiniu/android/http/a;Lokhttp3/MultipartBody$Builder;)V
@@ -603,19 +549,16 @@
 
     const-string p2, "multipart/form-data"
 
-    .line 4
     invoke-static {p2}, Lokhttp3/MediaType;->parse(Ljava/lang/String;)Lokhttp3/MediaType;
 
     move-result-object p2
 
     invoke-virtual {v0, p2}, Lokhttp3/MultipartBody$Builder;->setType(Lokhttp3/MediaType;)Lokhttp3/MultipartBody$Builder;
 
-    .line 5
     invoke-virtual {v0}, Lokhttp3/MultipartBody$Builder;->build()Lokhttp3/MultipartBody;
 
     move-result-object p2
 
-    .line 6
     new-instance p4, Lokhttp3/Request$Builder;
 
     invoke-direct {p4}, Lokhttp3/Request$Builder;-><init>()V
@@ -630,7 +573,6 @@
 
     const/4 p2, 0x0
 
-    .line 7
     invoke-virtual {p0, p1, p2, p3}, Lcom/qiniu/android/http/a;->p(Lokhttp3/Request$Builder;Lf/n/a/d/i;Lf/n/a/c/j;)Lcom/qiniu/android/http/g;
 
     move-result-object p1
@@ -645,7 +587,6 @@
 
     const-string v1, ""
 
-    .line 1
     invoke-virtual {p0, v0, v1}, Lokhttp3/Response;->header(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
@@ -661,7 +602,6 @@
     :cond_0
     const-string v0, "X-Px"
 
-    .line 2
     invoke-virtual {p0, v0, v1}, Lokhttp3/Response;->header(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
@@ -677,7 +617,6 @@
     :cond_1
     const-string v0, "Fw-Via"
 
-    .line 3
     invoke-virtual {p0, v0, v1}, Lokhttp3/Response;->header(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p0
@@ -697,7 +636,6 @@
 .method public b(Ljava/lang/String;Lf/n/a/d/i;Lf/n/a/c/j;Lcom/qiniu/android/http/b;)V
     .locals 1
 
-    .line 1
     new-instance v0, Lokhttp3/Request$Builder;
 
     invoke-direct {v0}, Lokhttp3/Request$Builder;-><init>()V
@@ -710,7 +648,6 @@
 
     move-result-object p1
 
-    .line 2
     invoke-virtual {p0, p1, p2, p3, p4}, Lcom/qiniu/android/http/a;->g(Lokhttp3/Request$Builder;Lf/n/a/d/i;Lf/n/a/c/j;Lcom/qiniu/android/http/b;)V
 
     return-void
@@ -721,12 +658,10 @@
 
     move-object v0, p2
 
-    .line 1
     iget-object v1, v0, Lcom/qiniu/android/http/d;->b:Ljava/io/File;
 
     if-eqz v1, :cond_0
 
-    .line 2
     iget-object v1, v0, Lcom/qiniu/android/http/d;->e:Ljava/lang/String;
 
     invoke-static {v1}, Lokhttp3/MediaType;->parse(Ljava/lang/String;)Lokhttp3/MediaType;
@@ -741,7 +676,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_0
     iget-object v1, v0, Lcom/qiniu/android/http/d;->e:Ljava/lang/String;
 
@@ -758,7 +692,6 @@
     :goto_0
     move-object v8, v1
 
-    .line 4
     iget-object v4, v0, Lcom/qiniu/android/http/d;->c:Lf/n/a/d/i;
 
     iget-object v7, v0, Lcom/qiniu/android/http/d;->d:Ljava/lang/String;
@@ -783,12 +716,10 @@
 .method public e(Ljava/lang/String;[BIILf/n/a/d/i;Lf/n/a/c/j;Lcom/qiniu/android/http/e;Lcom/qiniu/android/http/b;Lcom/qiniu/android/http/CancellationHandler;)V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/qiniu/android/http/a;->a:Lcom/qiniu/android/http/h;
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-interface {v0, p1}, Lcom/qiniu/android/http/h;->a(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p1
@@ -796,19 +727,16 @@
     :cond_0
     if-eqz p2, :cond_1
 
-    .line 3
     array-length v0, p2
 
     if-lez v0, :cond_1
 
     const-string v0, "application/octet-stream"
 
-    .line 4
     invoke-static {v0}, Lokhttp3/MediaType;->parse(Ljava/lang/String;)Lokhttp3/MediaType;
 
     move-result-object v0
 
-    .line 5
     invoke-static {v0, p2, p3, p4}, Lokhttp3/RequestBody;->create(Lokhttp3/MediaType;[BII)Lokhttp3/RequestBody;
 
     move-result-object p2
@@ -822,7 +750,6 @@
 
     new-array p3, p3, [B
 
-    .line 6
     invoke-static {p2, p3}, Lokhttp3/RequestBody;->create(Lokhttp3/MediaType;[B)Lokhttp3/RequestBody;
 
     move-result-object p2
@@ -830,14 +757,12 @@
     :goto_0
     if-eqz p7, :cond_2
 
-    .line 7
     new-instance p3, Lcom/qiniu/android/http/c;
 
     invoke-direct {p3, p2, p7, p9}, Lcom/qiniu/android/http/c;-><init>(Lokhttp3/RequestBody;Lcom/qiniu/android/http/e;Lcom/qiniu/android/http/CancellationHandler;)V
 
     move-object p2, p3
 
-    .line 8
     :cond_2
     new-instance p3, Lokhttp3/Request$Builder;
 
@@ -851,7 +776,6 @@
 
     move-result-object p1
 
-    .line 9
     invoke-virtual {p0, p1, p5, p6, p8}, Lcom/qiniu/android/http/a;->g(Lokhttp3/Request$Builder;Lf/n/a/d/i;Lf/n/a/c/j;Lcom/qiniu/android/http/b;)V
 
     return-void
@@ -862,7 +786,6 @@
 
     move-object v2, p2
 
-    .line 1
     array-length v4, v2
 
     const/4 v3, 0x0
@@ -891,14 +814,12 @@
 
     if-eqz p2, :cond_0
 
-    .line 1
     new-instance v0, Lcom/qiniu/android/http/a$d;
 
     invoke-direct {v0, p0, p1}, Lcom/qiniu/android/http/a$d;-><init>(Lcom/qiniu/android/http/a;Lokhttp3/Request$Builder;)V
 
     invoke-virtual {p2, v0}, Lf/n/a/d/i;->a(Lf/n/a/d/i$b;)V
 
-    .line 2
     :cond_0
     invoke-static {}, Lcom/qiniu/android/http/i;->f()Lcom/qiniu/android/http/i;
 
@@ -914,14 +835,12 @@
 
     invoke-virtual {p1, v0, p2}, Lokhttp3/Request$Builder;->header(Ljava/lang/String;Ljava/lang/String;)Lokhttp3/Request$Builder;
 
-    .line 3
     new-instance p2, Lcom/qiniu/android/http/a$j;
 
     const/4 v0, 0x0
 
     invoke-direct {p2, v0}, Lcom/qiniu/android/http/a$j;-><init>(Lcom/qiniu/android/http/a$a;)V
 
-    .line 4
     iget-object v0, p0, Lcom/qiniu/android/http/a;->b:Lokhttp3/OkHttpClient;
 
     invoke-virtual {p1, p2}, Lokhttp3/Request$Builder;->tag(Ljava/lang/Object;)Lokhttp3/Request$Builder;
@@ -958,14 +877,12 @@
 
     if-eqz v2, :cond_0
 
-    .line 1
     new-instance v3, Lcom/qiniu/android/http/a$g;
 
     invoke-direct {v3, v1, v0}, Lcom/qiniu/android/http/a$g;-><init>(Lcom/qiniu/android/http/a;Lokhttp3/Request$Builder;)V
 
     invoke-virtual {v2, v3}, Lf/n/a/d/i;->a(Lf/n/a/d/i$b;)V
 
-    .line 2
     :cond_0
     invoke-static {}, Lcom/qiniu/android/http/i;->f()Lcom/qiniu/android/http/i;
 
@@ -981,17 +898,14 @@
 
     invoke-virtual {v0, v3, v2}, Lokhttp3/Request$Builder;->header(Ljava/lang/String;Ljava/lang/String;)Lokhttp3/Request$Builder;
 
-    .line 3
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
-    .line 4
     new-instance v2, Lcom/qiniu/android/http/a$j;
 
     const/4 v3, 0x0
 
     invoke-direct {v2, v3}, Lcom/qiniu/android/http/a$j;-><init>(Lcom/qiniu/android/http/a$a;)V
 
-    .line 5
     invoke-virtual {v0, v2}, Lokhttp3/Request$Builder;->tag(Ljava/lang/Object;)Lokhttp3/Request$Builder;
 
     move-result-object v0
@@ -1000,7 +914,6 @@
 
     move-result-object v3
 
-    .line 6
     :try_start_0
     iget-object v0, v1, Lcom/qiniu/android/http/a;->b:Lokhttp3/OkHttpClient;
 
@@ -1014,7 +927,6 @@
     :try_end_0
     .catch Ljava/io/IOException; {:try_start_0 .. :try_end_0} :catch_0
 
-    .line 7
     iget-object v3, v2, Lcom/qiniu/android/http/a$j;->a:Ljava/lang/String;
 
     iget-wide v4, v2, Lcom/qiniu/android/http/a$j;->b:J
@@ -1028,14 +940,12 @@
     :catch_0
     move-exception v0
 
-    .line 8
     invoke-virtual {v0}, Ljava/io/IOException;->printStackTrace()V
 
     const/4 v4, 0x0
 
     const/4 v5, -0x1
 
-    .line 9
     invoke-virtual {v3}, Lokhttp3/Request;->url()Lokhttp3/HttpUrl;
 
     move-result-object v6
@@ -1068,7 +978,6 @@
 
     const-wide/16 v13, -0x1
 
-    .line 10
     invoke-virtual {v0}, Ljava/io/IOException;->getMessage()Ljava/lang/String;
 
     move-result-object v0
@@ -1093,7 +1002,6 @@
 
     move-object/from16 v16, p3
 
-    .line 11
     invoke-static/range {v2 .. v16}, Lcom/qiniu/android/http/g;->b(Lorg/json/JSONObject;ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;IDJLjava/lang/String;Lf/n/a/c/j;)Lcom/qiniu/android/http/g;
 
     move-result-object v0
@@ -1104,12 +1012,10 @@
 .method public n(Ljava/lang/String;Lcom/qiniu/android/http/d;Lf/n/a/c/j;)Lcom/qiniu/android/http/g;
     .locals 7
 
-    .line 1
     iget-object v0, p2, Lcom/qiniu/android/http/d;->b:Ljava/io/File;
 
     if-eqz v0, :cond_0
 
-    .line 2
     iget-object v0, p2, Lcom/qiniu/android/http/d;->e:Ljava/lang/String;
 
     invoke-static {v0}, Lokhttp3/MediaType;->parse(Ljava/lang/String;)Lokhttp3/MediaType;
@@ -1124,7 +1030,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_0
     iget-object v0, p2, Lcom/qiniu/android/http/d;->e:Ljava/lang/String;
 
@@ -1141,7 +1046,6 @@
     :goto_0
     move-object v6, v0
 
-    .line 4
     iget-object v3, p2, Lcom/qiniu/android/http/d;->c:Lf/n/a/d/i;
 
     iget-object v5, p2, Lcom/qiniu/android/http/d;->d:Ljava/lang/String;
@@ -1172,14 +1076,12 @@
 
     if-eqz v2, :cond_0
 
-    .line 1
     new-instance v3, Lcom/qiniu/android/http/a$i;
 
     invoke-direct {v3, v1, v0}, Lcom/qiniu/android/http/a$i;-><init>(Lcom/qiniu/android/http/a;Lokhttp3/Request$Builder;)V
 
     invoke-virtual {v2, v3}, Lf/n/a/d/i;->a(Lf/n/a/d/i$b;)V
 
-    .line 2
     :cond_0
     invoke-static {}, Lcom/qiniu/android/http/i;->f()Lcom/qiniu/android/http/i;
 
@@ -1195,14 +1097,12 @@
 
     invoke-virtual {v0, v3, v2}, Lokhttp3/Request$Builder;->header(Ljava/lang/String;Ljava/lang/String;)Lokhttp3/Request$Builder;
 
-    .line 3
     new-instance v2, Lcom/qiniu/android/http/a$j;
 
     const/4 v3, 0x0
 
     invoke-direct {v2, v3}, Lcom/qiniu/android/http/a$j;-><init>(Lcom/qiniu/android/http/a$a;)V
 
-    .line 4
     :try_start_0
     invoke-virtual {v0, v2}, Lokhttp3/Request$Builder;->tag(Ljava/lang/Object;)Lokhttp3/Request$Builder;
 
@@ -1212,7 +1112,6 @@
 
     move-result-object v3
 
-    .line 5
     iget-object v0, v1, Lcom/qiniu/android/http/a;->b:Lokhttp3/OkHttpClient;
 
     invoke-virtual {v0, v3}, Lokhttp3/OkHttpClient;->newCall(Lokhttp3/Request;)Lokhttp3/Call;
@@ -1223,7 +1122,6 @@
 
     move-result-object v0
 
-    .line 6
     iget-object v4, v2, Lcom/qiniu/android/http/a$j;->a:Ljava/lang/String;
 
     iget-wide v5, v2, Lcom/qiniu/android/http/a$j;->b:J
@@ -1239,17 +1137,14 @@
     :catch_0
     move-exception v0
 
-    .line 7
     invoke-virtual {v0}, Ljava/lang/Exception;->printStackTrace()V
 
     const/4 v2, -0x1
 
-    .line 8
     invoke-virtual {v0}, Ljava/lang/Exception;->getMessage()Ljava/lang/String;
 
     move-result-object v4
 
-    .line 9
     instance-of v5, v0, Ljava/net/UnknownHostException;
 
     if-eqz v5, :cond_1
@@ -1265,7 +1160,6 @@
 
     const-string v5, "Broken pipe"
 
-    .line 10
     invoke-virtual {v4, v5}, Ljava/lang/String;->indexOf(Ljava/lang/String;)I
 
     move-result v4
@@ -1278,7 +1172,6 @@
 
     goto :goto_0
 
-    .line 11
     :cond_2
     instance-of v4, v0, Ljava/net/SocketTimeoutException;
 
@@ -1290,7 +1183,6 @@
 
     goto :goto_0
 
-    .line 12
     :cond_3
     instance-of v4, v0, Ljava/net/ConnectException;
 
@@ -1305,7 +1197,6 @@
     :cond_4
     const/4 v4, -0x1
 
-    .line 13
     :goto_0
     invoke-virtual {v3}, Lokhttp3/Request;->url()Lokhttp3/HttpUrl;
 
@@ -1313,7 +1204,6 @@
 
     const/4 v3, 0x0
 
-    .line 14
     invoke-virtual {v2}, Lokhttp3/HttpUrl;->host()Ljava/lang/String;
 
     move-result-object v7

@@ -13,7 +13,6 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     new-instance v0, Lorg/apache/thrift/protocol/TBinaryProtocol$Factory;
 
     invoke-direct {v0}, Lorg/apache/thrift/protocol/TBinaryProtocol$Factory;-><init>()V
@@ -26,17 +25,14 @@
 .method public constructor <init>(Lorg/apache/thrift/protocol/TProtocolFactory;)V
     .locals 1
 
-    .line 2
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 3
     new-instance v0, Lorg/apache/thrift/transport/TMemoryInputTransport;
 
     invoke-direct {v0}, Lorg/apache/thrift/transport/TMemoryInputTransport;-><init>()V
 
     iput-object v0, p0, Lorg/apache/thrift/TDeserializer;->trans_:Lorg/apache/thrift/transport/TMemoryInputTransport;
 
-    .line 4
     invoke-interface {p1, v0}, Lorg/apache/thrift/protocol/TProtocolFactory;->getProtocol(Lorg/apache/thrift/transport/TTransport;)Lorg/apache/thrift/protocol/TProtocol;
 
     move-result-object p1
@@ -54,12 +50,10 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lorg/apache/thrift/TDeserializer;->trans_:Lorg/apache/thrift/transport/TMemoryInputTransport;
 
     invoke-virtual {v0, p1}, Lorg/apache/thrift/transport/TMemoryInputTransport;->reset([B)V
 
-    .line 2
     array-length p1, p3
 
     add-int/lit8 p1, p1, 0x1
@@ -68,12 +62,10 @@
 
     const/4 v1, 0x0
 
-    .line 3
     aput-object p2, v0, v1
 
     const/4 p2, 0x0
 
-    .line 4
     :goto_0
     array-length v2, p3
 
@@ -81,7 +73,6 @@
 
     add-int/lit8 v2, p2, 0x1
 
-    .line 5
     aget-object p2, p3, p2
 
     aput-object p2, v0, v2
@@ -90,7 +81,6 @@
 
     goto :goto_0
 
-    .line 6
     :cond_0
     iget-object p2, p0, Lorg/apache/thrift/TDeserializer;->protocol_:Lorg/apache/thrift/protocol/TProtocol;
 
@@ -104,14 +94,12 @@
     :goto_1
     if-ge v1, p1, :cond_5
 
-    .line 7
     iget-object p3, p0, Lorg/apache/thrift/TDeserializer;->protocol_:Lorg/apache/thrift/protocol/TProtocol;
 
     invoke-virtual {p3}, Lorg/apache/thrift/protocol/TProtocol;->readFieldBegin()Lorg/apache/thrift/protocol/TField;
 
     move-result-object p3
 
-    .line 8
     iget-byte v2, p3, Lorg/apache/thrift/protocol/TField;->type:B
 
     if-eqz v2, :cond_4
@@ -128,7 +116,6 @@
 
     goto :goto_2
 
-    .line 9
     :cond_2
     iget-short v2, p3, Lorg/apache/thrift/protocol/TField;->id:S
 
@@ -140,14 +127,12 @@
 
     if-eq v2, v3, :cond_3
 
-    .line 10
     iget-object v2, p0, Lorg/apache/thrift/TDeserializer;->protocol_:Lorg/apache/thrift/protocol/TProtocol;
 
     iget-byte v3, p3, Lorg/apache/thrift/protocol/TField;->type:B
 
     invoke-static {v2, v3}, Lorg/apache/thrift/protocol/TProtocolUtil;->skip(Lorg/apache/thrift/protocol/TProtocol;B)V
 
-    .line 11
     iget-object v2, p0, Lorg/apache/thrift/TDeserializer;->protocol_:Lorg/apache/thrift/protocol/TProtocol;
 
     invoke-virtual {v2}, Lorg/apache/thrift/protocol/TProtocol;->readFieldEnd()V
@@ -159,7 +144,6 @@
 
     if-ge v1, p1, :cond_1
 
-    .line 12
     iget-object v2, p0, Lorg/apache/thrift/TDeserializer;->protocol_:Lorg/apache/thrift/protocol/TProtocol;
 
     invoke-virtual {v2}, Lorg/apache/thrift/protocol/TProtocol;->readStructBegin()Lorg/apache/thrift/protocol/TStruct;
@@ -182,7 +166,6 @@
         }
     .end annotation
 
-    .line 1
     :try_start_0
     invoke-direct {p0, p2, p3, p4}, Lorg/apache/thrift/TDeserializer;->locateField([BLorg/apache/thrift/TFieldIdEnum;[Lorg/apache/thrift/TFieldIdEnum;)Lorg/apache/thrift/protocol/TField;
 
@@ -224,13 +207,11 @@
 
     goto/16 :goto_1
 
-    .line 2
     :cond_0
     iget-byte p1, p2, Lorg/apache/thrift/protocol/TField;->type:B
 
     if-ne p1, p4, :cond_8
 
-    .line 3
     iget-object p1, p0, Lorg/apache/thrift/TDeserializer;->protocol_:Lorg/apache/thrift/protocol/TProtocol;
 
     invoke-virtual {p1}, Lorg/apache/thrift/protocol/TProtocol;->readString()Ljava/lang/String;
@@ -240,27 +221,23 @@
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 4
     :goto_0
     iget-object p2, p0, Lorg/apache/thrift/TDeserializer;->trans_:Lorg/apache/thrift/transport/TMemoryInputTransport;
 
     invoke-virtual {p2}, Lorg/apache/thrift/transport/TMemoryInputTransport;->clear()V
 
-    .line 5
     iget-object p2, p0, Lorg/apache/thrift/TDeserializer;->protocol_:Lorg/apache/thrift/protocol/TProtocol;
 
     invoke-virtual {p2}, Lorg/apache/thrift/protocol/TProtocol;->reset()V
 
     return-object p1
 
-    .line 6
     :cond_1
     :try_start_1
     iget-byte p1, p2, Lorg/apache/thrift/protocol/TField;->type:B
 
     if-ne p1, p3, :cond_8
 
-    .line 7
     iget-object p1, p0, Lorg/apache/thrift/TDeserializer;->protocol_:Lorg/apache/thrift/protocol/TProtocol;
 
     invoke-virtual {p1}, Lorg/apache/thrift/protocol/TProtocol;->readI64()J
@@ -273,13 +250,11 @@
 
     goto :goto_0
 
-    .line 8
     :cond_2
     iget-byte p1, p2, Lorg/apache/thrift/protocol/TField;->type:B
 
     if-ne p1, p4, :cond_8
 
-    .line 9
     iget-object p1, p0, Lorg/apache/thrift/TDeserializer;->protocol_:Lorg/apache/thrift/protocol/TProtocol;
 
     invoke-virtual {p1}, Lorg/apache/thrift/protocol/TProtocol;->readBinary()Ljava/nio/ByteBuffer;
@@ -288,13 +263,11 @@
 
     goto :goto_0
 
-    .line 10
     :cond_3
     iget-byte p1, p2, Lorg/apache/thrift/protocol/TField;->type:B
 
     if-ne p1, p3, :cond_8
 
-    .line 11
     iget-object p1, p0, Lorg/apache/thrift/TDeserializer;->protocol_:Lorg/apache/thrift/protocol/TProtocol;
 
     invoke-virtual {p1}, Lorg/apache/thrift/protocol/TProtocol;->readI32()I
@@ -307,13 +280,11 @@
 
     goto :goto_0
 
-    .line 12
     :cond_4
     iget-byte p1, p2, Lorg/apache/thrift/protocol/TField;->type:B
 
     if-ne p1, p3, :cond_8
 
-    .line 13
     iget-object p1, p0, Lorg/apache/thrift/TDeserializer;->protocol_:Lorg/apache/thrift/protocol/TProtocol;
 
     invoke-virtual {p1}, Lorg/apache/thrift/protocol/TProtocol;->readI16()S
@@ -326,13 +297,11 @@
 
     goto :goto_0
 
-    .line 14
     :cond_5
     iget-byte p1, p2, Lorg/apache/thrift/protocol/TField;->type:B
 
     if-ne p1, p3, :cond_8
 
-    .line 15
     iget-object p1, p0, Lorg/apache/thrift/TDeserializer;->protocol_:Lorg/apache/thrift/protocol/TProtocol;
 
     invoke-virtual {p1}, Lorg/apache/thrift/protocol/TProtocol;->readDouble()D
@@ -345,13 +314,11 @@
 
     goto :goto_0
 
-    .line 16
     :cond_6
     iget-byte p1, p2, Lorg/apache/thrift/protocol/TField;->type:B
 
     if-ne p1, p3, :cond_8
 
-    .line 17
     iget-object p1, p0, Lorg/apache/thrift/TDeserializer;->protocol_:Lorg/apache/thrift/protocol/TProtocol;
 
     invoke-virtual {p1}, Lorg/apache/thrift/protocol/TProtocol;->readByte()B
@@ -364,13 +331,11 @@
 
     goto :goto_0
 
-    .line 18
     :cond_7
     iget-byte p1, p2, Lorg/apache/thrift/protocol/TField;->type:B
 
     if-ne p1, p3, :cond_8
 
-    .line 19
     iget-object p1, p0, Lorg/apache/thrift/TDeserializer;->protocol_:Lorg/apache/thrift/protocol/TProtocol;
 
     invoke-virtual {p1}, Lorg/apache/thrift/protocol/TProtocol;->readBool()Z
@@ -400,7 +365,6 @@
     :catch_0
     move-exception p1
 
-    .line 20
     :try_start_2
     new-instance p2, Lorg/apache/thrift/TException;
 
@@ -410,13 +374,11 @@
     :try_end_2
     .catchall {:try_start_2 .. :try_end_2} :catchall_0
 
-    .line 21
     :goto_2
     iget-object p2, p0, Lorg/apache/thrift/TDeserializer;->trans_:Lorg/apache/thrift/transport/TMemoryInputTransport;
 
     invoke-virtual {p2}, Lorg/apache/thrift/transport/TMemoryInputTransport;->clear()V
 
-    .line 22
     iget-object p2, p0, Lorg/apache/thrift/TDeserializer;->protocol_:Lorg/apache/thrift/protocol/TProtocol;
 
     invoke-virtual {p2}, Lorg/apache/thrift/protocol/TProtocol;->reset()V
@@ -434,7 +396,6 @@
         }
     .end annotation
 
-    .line 8
     :try_start_0
     invoke-virtual {p2, p3}, Ljava/lang/String;->getBytes(Ljava/lang/String;)[B
 
@@ -445,7 +406,6 @@
     .catch Ljava/io/UnsupportedEncodingException; {:try_start_0 .. :try_end_0} :catch_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 9
     iget-object p1, p0, Lorg/apache/thrift/TDeserializer;->protocol_:Lorg/apache/thrift/protocol/TProtocol;
 
     invoke-virtual {p1}, Lorg/apache/thrift/protocol/TProtocol;->reset()V
@@ -457,7 +417,6 @@
 
     goto :goto_0
 
-    .line 10
     :catch_0
     :try_start_1
     new-instance p1, Lorg/apache/thrift/TException;
@@ -482,7 +441,6 @@
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
-    .line 11
     :goto_0
     iget-object p2, p0, Lorg/apache/thrift/TDeserializer;->protocol_:Lorg/apache/thrift/protocol/TProtocol;
 
@@ -499,7 +457,6 @@
         }
     .end annotation
 
-    .line 1
     array-length v0, p2
 
     const/4 v1, 0x0
@@ -517,25 +474,21 @@
         }
     .end annotation
 
-    .line 2
     :try_start_0
     iget-object v0, p0, Lorg/apache/thrift/TDeserializer;->trans_:Lorg/apache/thrift/transport/TMemoryInputTransport;
 
     invoke-virtual {v0, p2, p3, p4}, Lorg/apache/thrift/transport/TMemoryInputTransport;->reset([BII)V
 
-    .line 3
     iget-object p2, p0, Lorg/apache/thrift/TDeserializer;->protocol_:Lorg/apache/thrift/protocol/TProtocol;
 
     invoke-interface {p1, p2}, Lorg/apache/thrift/TSerializable;->read(Lorg/apache/thrift/protocol/TProtocol;)V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 4
     iget-object p1, p0, Lorg/apache/thrift/TDeserializer;->trans_:Lorg/apache/thrift/transport/TMemoryInputTransport;
 
     invoke-virtual {p1}, Lorg/apache/thrift/transport/TMemoryInputTransport;->clear()V
 
-    .line 5
     iget-object p1, p0, Lorg/apache/thrift/TDeserializer;->protocol_:Lorg/apache/thrift/protocol/TProtocol;
 
     invoke-virtual {p1}, Lorg/apache/thrift/protocol/TProtocol;->reset()V
@@ -545,12 +498,10 @@
     :catchall_0
     move-exception p1
 
-    .line 6
     iget-object p2, p0, Lorg/apache/thrift/TDeserializer;->trans_:Lorg/apache/thrift/transport/TMemoryInputTransport;
 
     invoke-virtual {p2}, Lorg/apache/thrift/transport/TMemoryInputTransport;->clear()V
 
-    .line 7
     iget-object p2, p0, Lorg/apache/thrift/TDeserializer;->protocol_:Lorg/apache/thrift/protocol/TProtocol;
 
     invoke-virtual {p2}, Lorg/apache/thrift/protocol/TProtocol;->reset()V
@@ -566,7 +517,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p2}, Ljava/lang/String;->getBytes()[B
 
     move-result-object p2
@@ -584,7 +534,6 @@
         }
     .end annotation
 
-    .line 1
     :try_start_0
     invoke-direct {p0, p2, p3, p4}, Lorg/apache/thrift/TDeserializer;->locateField([BLorg/apache/thrift/TFieldIdEnum;[Lorg/apache/thrift/TFieldIdEnum;)Lorg/apache/thrift/protocol/TField;
 
@@ -592,7 +541,6 @@
 
     if-eqz p2, :cond_0
 
-    .line 2
     iget-object p2, p0, Lorg/apache/thrift/TDeserializer;->protocol_:Lorg/apache/thrift/protocol/TProtocol;
 
     invoke-interface {p1, p2}, Lorg/apache/thrift/TSerializable;->read(Lorg/apache/thrift/protocol/TProtocol;)V
@@ -600,13 +548,11 @@
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 3
     :cond_0
     iget-object p1, p0, Lorg/apache/thrift/TDeserializer;->trans_:Lorg/apache/thrift/transport/TMemoryInputTransport;
 
     invoke-virtual {p1}, Lorg/apache/thrift/transport/TMemoryInputTransport;->clear()V
 
-    .line 4
     iget-object p1, p0, Lorg/apache/thrift/TDeserializer;->protocol_:Lorg/apache/thrift/protocol/TProtocol;
 
     invoke-virtual {p1}, Lorg/apache/thrift/protocol/TProtocol;->reset()V
@@ -621,7 +567,6 @@
     :catch_0
     move-exception p1
 
-    .line 5
     :try_start_1
     new-instance p2, Lorg/apache/thrift/TException;
 
@@ -631,13 +576,11 @@
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
-    .line 6
     :goto_0
     iget-object p2, p0, Lorg/apache/thrift/TDeserializer;->trans_:Lorg/apache/thrift/transport/TMemoryInputTransport;
 
     invoke-virtual {p2}, Lorg/apache/thrift/transport/TMemoryInputTransport;->clear()V
 
-    .line 7
     iget-object p2, p0, Lorg/apache/thrift/TDeserializer;->protocol_:Lorg/apache/thrift/protocol/TProtocol;
 
     invoke-virtual {p2}, Lorg/apache/thrift/protocol/TProtocol;->reset()V
@@ -655,7 +598,6 @@
 
     const/4 v0, 0x2
 
-    .line 1
     invoke-direct {p0, v0, p1, p2, p3}, Lorg/apache/thrift/TDeserializer;->partialDeserializeField(B[BLorg/apache/thrift/TFieldIdEnum;[Lorg/apache/thrift/TFieldIdEnum;)Ljava/lang/Object;
 
     move-result-object p1
@@ -675,7 +617,6 @@
 
     const/4 v0, 0x3
 
-    .line 1
     invoke-direct {p0, v0, p1, p2, p3}, Lorg/apache/thrift/TDeserializer;->partialDeserializeField(B[BLorg/apache/thrift/TFieldIdEnum;[Lorg/apache/thrift/TFieldIdEnum;)Ljava/lang/Object;
 
     move-result-object p1
@@ -695,7 +636,6 @@
 
     const/16 v0, 0x64
 
-    .line 1
     invoke-direct {p0, v0, p1, p2, p3}, Lorg/apache/thrift/TDeserializer;->partialDeserializeField(B[BLorg/apache/thrift/TFieldIdEnum;[Lorg/apache/thrift/TFieldIdEnum;)Ljava/lang/Object;
 
     move-result-object p1
@@ -715,7 +655,6 @@
 
     const/4 v0, 0x4
 
-    .line 1
     invoke-direct {p0, v0, p1, p2, p3}, Lorg/apache/thrift/TDeserializer;->partialDeserializeField(B[BLorg/apache/thrift/TFieldIdEnum;[Lorg/apache/thrift/TFieldIdEnum;)Ljava/lang/Object;
 
     move-result-object p1
@@ -735,7 +674,6 @@
 
     const/4 v0, 0x6
 
-    .line 1
     invoke-direct {p0, v0, p1, p2, p3}, Lorg/apache/thrift/TDeserializer;->partialDeserializeField(B[BLorg/apache/thrift/TFieldIdEnum;[Lorg/apache/thrift/TFieldIdEnum;)Ljava/lang/Object;
 
     move-result-object p1
@@ -755,7 +693,6 @@
 
     const/16 v0, 0x8
 
-    .line 1
     invoke-direct {p0, v0, p1, p2, p3}, Lorg/apache/thrift/TDeserializer;->partialDeserializeField(B[BLorg/apache/thrift/TFieldIdEnum;[Lorg/apache/thrift/TFieldIdEnum;)Ljava/lang/Object;
 
     move-result-object p1
@@ -775,7 +712,6 @@
 
     const/16 v0, 0xa
 
-    .line 1
     invoke-direct {p0, v0, p1, p2, p3}, Lorg/apache/thrift/TDeserializer;->partialDeserializeField(B[BLorg/apache/thrift/TFieldIdEnum;[Lorg/apache/thrift/TFieldIdEnum;)Ljava/lang/Object;
 
     move-result-object p1
@@ -793,7 +729,6 @@
         }
     .end annotation
 
-    .line 1
     :try_start_0
     invoke-direct {p0, p1, p2, p3}, Lorg/apache/thrift/TDeserializer;->locateField([BLorg/apache/thrift/TFieldIdEnum;[Lorg/apache/thrift/TFieldIdEnum;)Lorg/apache/thrift/protocol/TField;
 
@@ -801,12 +736,10 @@
 
     if-eqz p1, :cond_0
 
-    .line 2
     iget-object p1, p0, Lorg/apache/thrift/TDeserializer;->protocol_:Lorg/apache/thrift/protocol/TProtocol;
 
     invoke-virtual {p1}, Lorg/apache/thrift/protocol/TProtocol;->readStructBegin()Lorg/apache/thrift/protocol/TStruct;
 
-    .line 3
     iget-object p1, p0, Lorg/apache/thrift/TDeserializer;->protocol_:Lorg/apache/thrift/protocol/TProtocol;
 
     invoke-virtual {p1}, Lorg/apache/thrift/protocol/TProtocol;->readFieldBegin()Lorg/apache/thrift/protocol/TField;
@@ -822,13 +755,11 @@
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 4
     :goto_0
     iget-object p2, p0, Lorg/apache/thrift/TDeserializer;->trans_:Lorg/apache/thrift/transport/TMemoryInputTransport;
 
     invoke-virtual {p2}, Lorg/apache/thrift/transport/TMemoryInputTransport;->clear()V
 
-    .line 5
     iget-object p2, p0, Lorg/apache/thrift/TDeserializer;->protocol_:Lorg/apache/thrift/protocol/TProtocol;
 
     invoke-virtual {p2}, Lorg/apache/thrift/protocol/TProtocol;->reset()V
@@ -848,7 +779,6 @@
     :catch_0
     move-exception p1
 
-    .line 6
     :try_start_1
     new-instance p2, Lorg/apache/thrift/TException;
 
@@ -858,13 +788,11 @@
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
-    .line 7
     :goto_1
     iget-object p2, p0, Lorg/apache/thrift/TDeserializer;->trans_:Lorg/apache/thrift/transport/TMemoryInputTransport;
 
     invoke-virtual {p2}, Lorg/apache/thrift/transport/TMemoryInputTransport;->clear()V
 
-    .line 8
     iget-object p2, p0, Lorg/apache/thrift/TDeserializer;->protocol_:Lorg/apache/thrift/protocol/TProtocol;
 
     invoke-virtual {p2}, Lorg/apache/thrift/protocol/TProtocol;->reset()V
@@ -882,7 +810,6 @@
 
     const/16 v0, 0xb
 
-    .line 1
     invoke-direct {p0, v0, p1, p2, p3}, Lorg/apache/thrift/TDeserializer;->partialDeserializeField(B[BLorg/apache/thrift/TFieldIdEnum;[Lorg/apache/thrift/TFieldIdEnum;)Ljava/lang/Object;
 
     move-result-object p1

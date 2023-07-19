@@ -99,14 +99,12 @@
 
     const/high16 v1, 0x40e00000    # 7.0f
 
-    .line 1
     invoke-static {v1}, Lcom/meitu/library/p/f/i;->d(F)I
 
     move-result v1
 
     sput v1, Lcom/commsource/studio/function/ar/a;->S:I
 
-    .line 2
     invoke-static {}, Lcom/meitu/library/p/f/i;->z()I
 
     move-result v1
@@ -145,7 +143,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     sget-object v0, Lcom/commsource/studio/function/ar/a;->U:Lcom/commsource/studio/function/ar/a$a;
 
     invoke-static {v0, p1}, Lcom/commsource/studio/function/ar/a$a;->a(Lcom/commsource/studio/function/ar/a$a;Landroid/content/Context;)Landroid/view/View;
@@ -154,7 +151,6 @@
 
     invoke-direct {p0, p1, p2, v0}, Lcom/commsource/widget/h1/f;-><init>(Landroid/content/Context;Landroid/view/ViewGroup;Landroid/view/View;)V
 
-    .line 2
     iget-object p1, p0, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->itemView:Landroid/view/View;
 
     sget p2, Lcom/res/provider/ResID;->rl_content:I
@@ -171,7 +167,6 @@
 
     iput-object p1, p0, Lcom/commsource/studio/function/ar/a;->J:Lcom/commsource/widget/round/RoundFrameLayout;
 
-    .line 3
     iget-object p1, p0, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->itemView:Landroid/view/View;
 
     sget p2, Lcom/res/provider/ResID;->ar_material_item_iv:I
@@ -188,7 +183,6 @@
 
     iput-object p1, p0, Lcom/commsource/studio/function/ar/a;->K:Lcom/commsource/widget/PressImageView;
 
-    .line 4
     iget-object p1, p0, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->itemView:Landroid/view/View;
 
     sget p2, Lcom/res/provider/ResID;->select_iv:I
@@ -203,7 +197,6 @@
 
     iput-object p1, p0, Lcom/commsource/studio/function/ar/a;->L:Landroid/view/View;
 
-    .line 5
     iget-object p1, p0, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->itemView:Landroid/view/View;
 
     sget p2, Lcom/res/provider/ResID;->iv_red:I
@@ -218,7 +211,6 @@
 
     iput-object p1, p0, Lcom/commsource/studio/function/ar/a;->M:Landroid/view/View;
 
-    .line 6
     iget-object p1, p0, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->itemView:Landroid/view/View;
 
     sget p2, Lcom/res/provider/ResID;->progress:I
@@ -235,7 +227,6 @@
 
     iput-object p1, p0, Lcom/commsource/studio/function/ar/a;->N:Lcom/commsource/widget/RotateLoadingView;
 
-    .line 7
     iget-object p1, p0, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->itemView:Landroid/view/View;
 
     sget p2, Lcom/res/provider/ResID;->iv_right:I
@@ -252,7 +243,6 @@
 
     iput-object p1, p0, Lcom/commsource/studio/function/ar/a;->O:Landroid/widget/ImageView;
 
-    .line 8
     iget-object p1, p0, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->itemView:Landroid/view/View;
 
     sget p2, Lcom/res/provider/ResID;->iv_left:I
@@ -269,7 +259,6 @@
 
     iput-object p1, p0, Lcom/commsource/studio/function/ar/a;->P:Landroid/widget/ImageView;
 
-    .line 9
     iget-object p1, p0, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->itemView:Landroid/view/View;
 
     sget p2, Lcom/res/provider/ResID;->iv_right_top:I
@@ -286,7 +275,6 @@
 
     iput-object p1, p0, Lcom/commsource/studio/function/ar/a;->Q:Landroid/widget/ImageView;
 
-    .line 10
     iget-object p1, p0, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->itemView:Landroid/view/View;
 
     sget p2, Lcom/res/provider/ResID;->iv:I
@@ -313,7 +301,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/widget/h1/f;->c()Lcom/commsource/widget/h1/d;
 
     move-result-object v1
@@ -330,28 +317,24 @@
 
     if-eqz v1, :cond_c
 
-    .line 2
     invoke-static {v1}, Lcom/commsource/widget/i0;->c(Lcom/meitu/template/bean/ArMaterial;)Z
 
     move-result v3
 
     if-eqz v3, :cond_0
 
-    .line 3
     iget-object v3, p0, Lcom/commsource/studio/function/ar/a;->P:Landroid/widget/ImageView;
 
     sget v4, Lcom/res/provider/ResDRAWABLE;->selfie_ar_icon_arcore_mark:I
 
     invoke-virtual {v3, v4}, Landroid/widget/ImageView;->setImageResource(I)V
 
-    .line 4
     iget-object v3, p0, Lcom/commsource/studio/function/ar/a;->P:Landroid/widget/ImageView;
 
     invoke-static {v3}, Lcom/commsource/util/l0;->v0(Landroid/view/View;)V
 
     goto :goto_0
 
-    .line 5
     :cond_0
     invoke-virtual {v1}, Lcom/meitu/template/bean/ArMaterial;->isNeedShare()Z
 
@@ -365,27 +348,23 @@
 
     if-nez v3, :cond_1
 
-    .line 6
     iget-object v3, p0, Lcom/commsource/studio/function/ar/a;->P:Landroid/widget/ImageView;
 
     sget v4, Lcom/res/provider/ResDRAWABLE;->selfie_ar_icon_share:I
 
     invoke-virtual {v3, v4}, Landroid/widget/ImageView;->setImageResource(I)V
 
-    .line 7
     iget-object v3, p0, Lcom/commsource/studio/function/ar/a;->P:Landroid/widget/ImageView;
 
     invoke-static {v3}, Lcom/commsource/util/l0;->v0(Landroid/view/View;)V
 
     goto :goto_0
 
-    .line 8
     :cond_1
     iget-object v3, p0, Lcom/commsource/studio/function/ar/a;->P:Landroid/widget/ImageView;
 
     invoke-static {v3}, Lcom/commsource/util/l0;->w(Landroid/view/View;)V
 
-    .line 9
     :goto_0
     invoke-virtual {v1}, Lcom/meitu/template/bean/ArMaterial;->isNeedRedirect()Z
 
@@ -393,26 +372,22 @@
 
     if-eqz v3, :cond_2
 
-    .line 10
     iget-object v3, p0, Lcom/commsource/studio/function/ar/a;->O:Landroid/widget/ImageView;
 
     sget v4, Lcom/res/provider/ResDRAWABLE;->selfie_ar_icon_jump:I
 
     invoke-virtual {v3, v4}, Landroid/widget/ImageView;->setImageResource(I)V
 
-    .line 11
     iget-object v3, p0, Lcom/commsource/studio/function/ar/a;->O:Landroid/widget/ImageView;
 
     invoke-static {v3}, Lcom/commsource/util/l0;->v0(Landroid/view/View;)V
 
-    .line 12
     iget-object v3, p0, Lcom/commsource/studio/function/ar/a;->N:Lcom/commsource/widget/RotateLoadingView;
 
     invoke-static {v3}, Lcom/commsource/util/l0;->w(Landroid/view/View;)V
 
     goto :goto_1
 
-    .line 13
     :cond_2
     invoke-virtual {v1}, Lcom/meitu/template/bean/ArMaterial;->isDownload()Z
 
@@ -420,19 +395,16 @@
 
     if-eqz v3, :cond_3
 
-    .line 14
     iget-object v3, p0, Lcom/commsource/studio/function/ar/a;->N:Lcom/commsource/widget/RotateLoadingView;
 
     invoke-static {v3}, Lcom/commsource/util/l0;->w(Landroid/view/View;)V
 
-    .line 15
     iget-object v3, p0, Lcom/commsource/studio/function/ar/a;->O:Landroid/widget/ImageView;
 
     invoke-static {v3}, Lcom/commsource/util/l0;->w(Landroid/view/View;)V
 
     goto :goto_1
 
-    .line 16
     :cond_3
     invoke-virtual {v1}, Lcom/meitu/template/bean/ArMaterial;->isDownLoading()Z
 
@@ -440,19 +412,16 @@
 
     if-eqz v3, :cond_4
 
-    .line 17
     iget-object v3, p0, Lcom/commsource/studio/function/ar/a;->N:Lcom/commsource/widget/RotateLoadingView;
 
     invoke-static {v3}, Lcom/commsource/util/l0;->v0(Landroid/view/View;)V
 
-    .line 18
     iget-object v3, p0, Lcom/commsource/studio/function/ar/a;->O:Landroid/widget/ImageView;
 
     invoke-static {v3}, Lcom/commsource/util/l0;->w(Landroid/view/View;)V
 
     goto :goto_1
 
-    .line 19
     :cond_4
     iget-object v3, p0, Lcom/commsource/studio/function/ar/a;->O:Landroid/widget/ImageView;
 
@@ -460,17 +429,14 @@
 
     invoke-virtual {v3, v4}, Landroid/widget/ImageView;->setImageResource(I)V
 
-    .line 20
     iget-object v3, p0, Lcom/commsource/studio/function/ar/a;->O:Landroid/widget/ImageView;
 
     invoke-static {v3}, Lcom/commsource/util/l0;->v0(Landroid/view/View;)V
 
-    .line 21
     iget-object v3, p0, Lcom/commsource/studio/function/ar/a;->N:Lcom/commsource/widget/RotateLoadingView;
 
     invoke-static {v3}, Lcom/commsource/util/l0;->w(Landroid/view/View;)V
 
-    .line 22
     :goto_1
     invoke-virtual {v1}, Lcom/meitu/template/bean/ArMaterial;->isDownLoading()Z
 
@@ -478,7 +444,6 @@
 
     if-eqz v3, :cond_5
 
-    .line 23
     iget-object v3, p0, Lcom/commsource/studio/function/ar/a;->J:Lcom/commsource/widget/round/RoundFrameLayout;
 
     const/high16 v4, 0x3f000000    # 0.5f
@@ -487,7 +452,6 @@
 
     goto :goto_2
 
-    .line 24
     :cond_5
     iget-object v3, p0, Lcom/commsource/studio/function/ar/a;->J:Lcom/commsource/widget/round/RoundFrameLayout;
 
@@ -495,7 +459,6 @@
 
     invoke-virtual {v3, v4}, Landroid/widget/FrameLayout;->setAlpha(F)V
 
-    .line 25
     :goto_2
     invoke-virtual {p0}, Lcom/commsource/widget/h1/f;->c()Lcom/commsource/widget/h1/d;
 
@@ -509,27 +472,23 @@
 
     if-eqz v2, :cond_6
 
-    .line 26
     iget-object v2, p0, Lcom/commsource/studio/function/ar/a;->L:Landroid/view/View;
 
     sget v3, Lcom/res/provider/ResDRAWABLE;->selfie_ar_icon_used_black:I
 
     invoke-virtual {v2, v3}, Landroid/view/View;->setBackgroundResource(I)V
 
-    .line 27
     iget-object v2, p0, Lcom/commsource/studio/function/ar/a;->L:Landroid/view/View;
 
     invoke-static {v2}, Lcom/commsource/util/l0;->v0(Landroid/view/View;)V
 
     goto :goto_3
 
-    .line 28
     :cond_6
     iget-object v2, p0, Lcom/commsource/studio/function/ar/a;->L:Landroid/view/View;
 
     invoke-static {v2}, Lcom/commsource/util/l0;->w(Landroid/view/View;)V
 
-    .line 29
     :goto_3
     invoke-static {}, Lf/d/i/c;->L()Z
 
@@ -539,7 +498,6 @@
 
     if-eqz v2, :cond_7
 
-    .line 30
     invoke-static {}, Lcom/commsource/camera/z0/e;->x()Lcom/commsource/camera/z0/e;
 
     move-result-object v2
@@ -568,7 +526,6 @@
     :goto_4
     if-eqz v2, :cond_8
 
-    .line 31
     iget-object v4, p0, Lcom/commsource/studio/function/ar/a;->Q:Landroid/widget/ImageView;
 
     const/16 v5, 0x10
@@ -583,7 +540,6 @@
 
     invoke-static {v4, v6, v5}, Lcom/commsource/util/l0;->Z(Landroid/view/View;II)V
 
-    .line 32
     iget-object v4, p0, Lcom/commsource/studio/function/ar/a;->Q:Landroid/widget/ImageView;
 
     const/4 v5, 0x3
@@ -598,21 +554,18 @@
 
     invoke-static {v4, v3, v6, v5, v3}, Lcom/commsource/util/l0;->V(Landroid/view/View;IIII)V
 
-    .line 33
     iget-object v3, p0, Lcom/commsource/studio/function/ar/a;->Q:Landroid/widget/ImageView;
 
     sget v4, Lcom/res/provider/ResDRAWABLE;->vip_diamond_ip_store_stciker_icon:I
 
     invoke-virtual {v3, v4}, Landroid/widget/ImageView;->setImageResource(I)V
 
-    .line 34
     iget-object v3, p0, Lcom/commsource/studio/function/ar/a;->Q:Landroid/widget/ImageView;
 
     invoke-static {v3}, Lcom/commsource/util/l0;->v0(Landroid/view/View;)V
 
     goto :goto_5
 
-    .line 35
     :cond_8
     invoke-virtual {v1}, Lcom/meitu/template/bean/ArMaterial;->isSubscriberAr()Z
 
@@ -620,7 +573,6 @@
 
     if-eqz v4, :cond_9
 
-    .line 36
     iget-object v4, p0, Lcom/commsource/studio/function/ar/a;->Q:Landroid/widget/ImageView;
 
     const/16 v5, 0x12
@@ -635,7 +587,6 @@
 
     invoke-static {v4, v6, v5}, Lcom/commsource/util/l0;->Z(Landroid/view/View;II)V
 
-    .line 37
     iget-object v4, p0, Lcom/commsource/studio/function/ar/a;->Q:Landroid/widget/ImageView;
 
     const/4 v5, 0x2
@@ -650,27 +601,23 @@
 
     invoke-static {v4, v3, v6, v5, v3}, Lcom/commsource/util/l0;->V(Landroid/view/View;IIII)V
 
-    .line 38
     iget-object v3, p0, Lcom/commsource/studio/function/ar/a;->Q:Landroid/widget/ImageView;
 
     sget v4, Lcom/res/provider/ResDRAWABLE;->common_corner_premium_white_shadow:I
 
     invoke-virtual {v3, v4}, Landroid/widget/ImageView;->setImageResource(I)V
 
-    .line 39
     iget-object v3, p0, Lcom/commsource/studio/function/ar/a;->Q:Landroid/widget/ImageView;
 
     invoke-static {v3}, Lcom/commsource/util/l0;->v0(Landroid/view/View;)V
 
     goto :goto_5
 
-    .line 40
     :cond_9
     iget-object v3, p0, Lcom/commsource/studio/function/ar/a;->Q:Landroid/widget/ImageView;
 
     invoke-static {v3}, Lcom/commsource/util/l0;->w(Landroid/view/View;)V
 
-    .line 41
     :goto_5
     invoke-virtual {v1}, Lcom/meitu/template/bean/ArMaterial;->isNeedSwitching()Z
 
@@ -678,27 +625,23 @@
 
     if-eqz v3, :cond_a
 
-    .line 42
     iget-object v3, p0, Lcom/commsource/studio/function/ar/a;->R:Landroid/widget/ImageView;
 
     sget v4, Lcom/res/provider/ResDRAWABLE;->selfie_ar_icon_switch:I
 
     invoke-virtual {v3, v4}, Landroid/widget/ImageView;->setImageResource(I)V
 
-    .line 43
     iget-object v3, p0, Lcom/commsource/studio/function/ar/a;->R:Landroid/widget/ImageView;
 
     invoke-static {v3}, Lcom/commsource/util/l0;->v0(Landroid/view/View;)V
 
     goto :goto_6
 
-    .line 44
     :cond_a
     iget-object v3, p0, Lcom/commsource/studio/function/ar/a;->R:Landroid/widget/ImageView;
 
     invoke-static {v3}, Lcom/commsource/util/l0;->w(Landroid/view/View;)V
 
-    .line 45
     :goto_6
     invoke-virtual {v1}, Lcom/meitu/template/bean/ArMaterial;->isRed()Z
 
@@ -708,33 +651,28 @@
 
     if-nez v2, :cond_b
 
-    .line 46
     iget-object v1, p0, Lcom/commsource/studio/function/ar/a;->M:Landroid/view/View;
 
     sget v2, Lcom/res/provider/ResDRAWABLE;->camera_ar_material_red:I
 
     invoke-virtual {v1, v2}, Landroid/view/View;->setBackgroundResource(I)V
 
-    .line 47
     iget-object v1, p0, Lcom/commsource/studio/function/ar/a;->M:Landroid/view/View;
 
     invoke-static {v1}, Lcom/commsource/util/l0;->v0(Landroid/view/View;)V
 
     goto :goto_7
 
-    .line 48
     :cond_b
     iget-object v1, p0, Lcom/commsource/studio/function/ar/a;->M:Landroid/view/View;
 
     invoke-static {v1}, Lcom/commsource/util/l0;->w(Landroid/view/View;)V
 
-    .line 49
     :goto_7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 50
     :cond_c
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -752,7 +690,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/function/ar/a;->O:Landroid/widget/ImageView;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -769,7 +706,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/function/ar/a;->Q:Landroid/widget/ImageView;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -786,7 +722,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/function/ar/a;->N:Lcom/commsource/widget/RotateLoadingView;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -803,7 +738,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/function/ar/a;->J:Lcom/commsource/widget/round/RoundFrameLayout;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -820,7 +754,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/function/ar/a;->L:Landroid/view/View;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -854,15 +787,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
-    .line 2
     invoke-super {p0, p1, p2, p3}, Lcom/commsource/widget/h1/f;->k(ILcom/commsource/widget/h1/d;Ljava/util/List;)V
 
     if-eqz p2, :cond_0
 
-    .line 3
     invoke-virtual {p2}, Lcom/commsource/widget/h1/d;->b()Ljava/lang/Object;
 
     move-result-object p1
@@ -877,12 +807,10 @@
     :goto_0
     if-nez p1, :cond_1
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 5
     :cond_1
     invoke-virtual {p2}, Lcom/commsource/widget/h1/d;->b()Ljava/lang/Object;
 
@@ -894,7 +822,6 @@
 
     if-eqz p3, :cond_3
 
-    .line 6
     invoke-interface {p3}, Ljava/util/List;->isEmpty()Z
 
     move-result p2
@@ -903,13 +830,11 @@
 
     goto :goto_1
 
-    .line 7
     :cond_2
     invoke-direct {p0}, Lcom/commsource/studio/function/ar/a;->F()V
 
     goto/16 :goto_7
 
-    .line 8
     :cond_3
     :goto_1
     iget-object p2, p0, Lcom/commsource/studio/function/ar/a;->J:Lcom/commsource/widget/round/RoundFrameLayout;
@@ -924,7 +849,6 @@
 
     invoke-virtual {p2, p3}, Landroid/widget/FrameLayout;->setTag(Ljava/lang/Object;)V
 
-    .line 9
     invoke-virtual {p0}, Lcom/commsource/widget/h1/f;->b()Lcom/commsource/widget/h1/e;
 
     move-result-object p2
@@ -937,12 +861,10 @@
 
     move-result-object p2
 
-    .line 10
     instance-of p3, p2, Ljava/lang/Boolean;
 
     if-eqz p3, :cond_4
 
-    .line 11
     check-cast p2, Ljava/lang/Boolean;
 
     invoke-virtual {p2}, Ljava/lang/Boolean;->booleanValue()Z
@@ -951,7 +873,6 @@
 
     iput-boolean p2, p0, Lcom/commsource/studio/function/ar/a;->p:Z
 
-    .line 12
     :cond_4
     invoke-virtual {p1}, Lcom/meitu/template/bean/ArMaterial;->getArCoreIcon()Ljava/lang/String;
 
@@ -980,18 +901,15 @@
     :cond_5
     const/4 p2, 0x0
 
-    .line 13
     :goto_2
     iget-object v2, p0, Lcom/commsource/studio/function/ar/a;->K:Lcom/commsource/widget/PressImageView;
 
     invoke-virtual {v2, p3}, Lcom/commsource/widget/PressImageView;->setZoomEnable(Z)V
 
-    .line 14
     iget-object v2, p0, Lcom/commsource/studio/function/ar/a;->K:Lcom/commsource/widget/PressImageView;
 
     invoke-virtual {v2, p3}, Lcom/commsource/widget/PressImageView;->setPressEnable(Z)V
 
-    .line 15
     invoke-virtual {p1}, Lcom/meitu/template/bean/ArMaterial;->isDownload()Z
 
     move-result p3
@@ -1004,7 +922,6 @@
 
     if-eqz p3, :cond_a
 
-    .line 16
     new-instance p3, Ljava/lang/StringBuilder;
 
     invoke-direct {p3}, Ljava/lang/StringBuilder;-><init>()V
@@ -1031,7 +948,6 @@
 
     invoke-virtual {p3, v5}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 17
     invoke-virtual {p1}, Lcom/meitu/template/bean/ArMaterial;->getNumber()I
 
     move-result v5
@@ -1046,7 +962,6 @@
 
     move-result-object p3
 
-    .line 18
     iget-object v5, p0, Lcom/commsource/widget/h1/f;->d:Landroid/content/Context;
 
     if-eqz v5, :cond_9
@@ -1059,7 +974,6 @@
 
     if-eqz p2, :cond_6
 
-    .line 19
     invoke-virtual {p1}, Lcom/meitu/template/bean/ArMaterial;->getArCoreIcon()Ljava/lang/String;
 
     move-result-object p3
@@ -1069,7 +983,6 @@
 
     move-result-object p3
 
-    .line 20
     iget-object v5, p0, Lcom/commsource/widget/h1/f;->d:Landroid/content/Context;
 
     if-eqz v5, :cond_8
@@ -1082,7 +995,6 @@
 
     if-eqz p2, :cond_7
 
-    .line 21
     invoke-virtual {p1}, Lcom/meitu/template/bean/ArMaterial;->getArCoreIcon()Ljava/lang/String;
 
     move-result-object p2
@@ -1099,7 +1011,6 @@
 
     move-result-object p2
 
-    .line 22
     invoke-static {v3}, Lcom/meitu/library/p/f/i;->d(F)I
 
     move-result v4
@@ -1108,17 +1019,14 @@
 
     move-result-object p2
 
-    .line 23
     invoke-virtual {p2, v2}, Lcom/commsource/util/u0$d;->q(I)Lcom/commsource/util/u0$d;
 
     move-result-object p2
 
-    .line 24
     invoke-virtual {p3, p2}, Lcom/commsource/util/u0$d;->c(Lcom/commsource/util/u0$d;)Lcom/commsource/util/u0$d;
 
     move-result-object p2
 
-    .line 25
     invoke-static {v3}, Lcom/meitu/library/p/f/i;->d(F)I
 
     move-result p3
@@ -1127,26 +1035,22 @@
 
     move-result-object p2
 
-    .line 26
     sget p3, Lcom/commsource/studio/function/ar/a;->T:I
 
     invoke-virtual {p2, p3, p3}, Lcom/commsource/util/u0$d;->p(II)Lcom/commsource/util/u0$d;
 
     move-result-object p2
 
-    .line 27
     invoke-virtual {p2, v2}, Lcom/commsource/util/u0$d;->q(I)Lcom/commsource/util/u0$d;
 
     move-result-object p2
 
-    .line 28
     iget-object p3, p0, Lcom/commsource/studio/function/ar/a;->K:Lcom/commsource/widget/PressImageView;
 
     invoke-virtual {p2, p3}, Lcom/commsource/util/u0$d;->e(Landroid/widget/ImageView;)V
 
     goto :goto_5
 
-    .line 29
     :cond_8
     new-instance p1, Lcotlin/TypeCastException;
 
@@ -1156,7 +1060,6 @@
 
     throw p1
 
-    .line 30
     :cond_9
     new-instance p1, Lcotlin/TypeCastException;
 
@@ -1166,7 +1069,6 @@
 
     throw p1
 
-    .line 31
     :cond_a
     iget-object p3, p0, Lcom/commsource/widget/h1/f;->d:Landroid/content/Context;
 
@@ -1180,7 +1082,6 @@
 
     if-eqz p2, :cond_b
 
-    .line 32
     invoke-virtual {p1}, Lcom/meitu/template/bean/ArMaterial;->getArCoreIcon()Ljava/lang/String;
 
     move-result-object p2
@@ -1197,7 +1098,6 @@
 
     move-result-object p2
 
-    .line 33
     invoke-static {v3}, Lcom/meitu/library/p/f/i;->d(F)I
 
     move-result p3
@@ -1206,24 +1106,20 @@
 
     move-result-object p2
 
-    .line 34
     sget p3, Lcom/commsource/studio/function/ar/a;->T:I
 
     invoke-virtual {p2, p3, p3}, Lcom/commsource/util/u0$d;->p(II)Lcom/commsource/util/u0$d;
 
     move-result-object p2
 
-    .line 35
     invoke-virtual {p2, v2}, Lcom/commsource/util/u0$d;->q(I)Lcom/commsource/util/u0$d;
 
     move-result-object p2
 
-    .line 36
     iget-object p3, p0, Lcom/commsource/studio/function/ar/a;->K:Lcom/commsource/widget/PressImageView;
 
     invoke-virtual {p2, p3}, Lcom/commsource/util/u0$d;->e(Landroid/widget/ImageView;)V
 
-    .line 37
     :goto_5
     invoke-virtual {p1}, Lcom/meitu/template/bean/ArMaterial;->isMontageAr()Z
 
@@ -1231,7 +1127,6 @@
 
     if-eqz p1, :cond_c
 
-    .line 38
     iget-object p1, p0, Lcom/commsource/studio/function/ar/a;->K:Lcom/commsource/widget/PressImageView;
 
     sget p2, Lcom/commsource/studio/function/ar/a;->S:I
@@ -1240,19 +1135,16 @@
 
     goto :goto_6
 
-    .line 39
     :cond_c
     iget-object p1, p0, Lcom/commsource/studio/function/ar/a;->K:Lcom/commsource/widget/PressImageView;
 
     invoke-virtual {p1, v1, v1, v1, v1}, Landroid/widget/ImageView;->setPadding(IIII)V
 
-    .line 40
     :goto_6
     invoke-direct {p0}, Lcom/commsource/studio/function/ar/a;->F()V
 
     goto :goto_7
 
-    .line 41
     :cond_d
     new-instance p1, Lcotlin/TypeCastException;
 
@@ -1262,7 +1154,6 @@
 
     throw p1
 
-    .line 42
     :cond_e
     :goto_7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1279,7 +1170,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/function/ar/a;->K:Lcom/commsource/widget/PressImageView;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1296,7 +1186,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/function/ar/a;->P:Landroid/widget/ImageView;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1313,7 +1202,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/function/ar/a;->R:Landroid/widget/ImageView;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1330,7 +1218,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/function/ar/a;->M:Landroid/view/View;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

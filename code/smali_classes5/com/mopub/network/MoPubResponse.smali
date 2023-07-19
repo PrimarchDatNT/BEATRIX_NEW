@@ -74,12 +74,10 @@
 .method private constructor <init>(Lcom/mopub/network/MoPubNetworkError;)V
     .locals 1
 
-    .line 3
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     iput-object p1, p0, Lcom/mopub/network/MoPubResponse;->moPubNetworkError:Lcom/mopub/network/MoPubNetworkError;
 
-    .line 4
     invoke-virtual {p1}, Lcom/mopub/network/MoPubNetworkError;->getVolleyErrorFromMoPubNetworkError$mopub_sdk_networking_release()Lcom/mopub/volley/VolleyError;
 
     move-result-object p1
@@ -100,7 +98,6 @@
 .method public synthetic constructor <init>(Lcom/mopub/network/MoPubNetworkError;Lcotlin/jvm/internal/u;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/mopub/network/MoPubResponse;-><init>(Lcom/mopub/network/MoPubNetworkError;)V
 
     return-void
@@ -116,12 +113,10 @@
         }
     .end annotation
 
-    .line 5
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     iput-object p1, p0, Lcom/mopub/network/MoPubResponse;->moPubResult:Ljava/lang/Object;
 
-    .line 6
     invoke-static {p1, p2}, Lcom/mopub/volley/Response;->success(Ljava/lang/Object;Lcom/mopub/volley/Cache$Entry;)Lcom/mopub/volley/Response;
 
     move-result-object p1
@@ -138,7 +133,6 @@
 .method public synthetic constructor <init>(Ljava/lang/Object;Lcom/mopub/volley/Cache$Entry;Lcotlin/jvm/internal/u;)V
     .locals 0
 
-    .line 2
     invoke-direct {p0, p1, p2}, Lcom/mopub/network/MoPubResponse;-><init>(Ljava/lang/Object;Lcom/mopub/volley/Cache$Entry;)V
 
     return-void
@@ -237,7 +231,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/network/MoPubResponse;->moPubNetworkError:Lcom/mopub/network/MoPubNetworkError;
 
     return-object v0
@@ -254,7 +247,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/network/MoPubResponse;->moPubResult:Ljava/lang/Object;
 
     return-object v0
@@ -273,7 +265,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/network/MoPubResponse;->volleyResponse:Lcom/mopub/volley/Response;
 
     return-object v0

@@ -65,7 +65,6 @@
 
     invoke-static {p3, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     iput-object p1, p0, Lcotlin/reflect/ParameterizedTypeImpl;->b:Ljava/lang/Class;
@@ -76,7 +75,6 @@
 
     new-array p1, p1, [Ljava/lang/reflect/Type;
 
-    .line 2
     invoke-interface {p3, p1}, Ljava/util/Collection;->toArray([Ljava/lang/Object;)[Ljava/lang/Object;
 
     move-result-object p1
@@ -101,7 +99,6 @@
         .end annotation
     .end param
 
-    .line 1
     instance-of v0, p1, Ljava/lang/reflect/ParameterizedType;
 
     if-eqz v0, :cond_0
@@ -132,7 +129,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-virtual {p0}, Lcotlin/reflect/ParameterizedTypeImpl;->getActualTypeArguments()[Ljava/lang/reflect/Type;
 
     move-result-object v0
@@ -163,7 +159,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcotlin/reflect/ParameterizedTypeImpl;->a:[Ljava/lang/reflect/Type;
 
     return-object v0
@@ -174,7 +169,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcotlin/reflect/ParameterizedTypeImpl;->c:Ljava/lang/reflect/Type;
 
     return-object v0
@@ -185,7 +179,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcotlin/reflect/ParameterizedTypeImpl;->b:Ljava/lang/Class;
 
     return-object v0
@@ -196,17 +189,14 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     new-instance v10, Ljava/lang/StringBuilder;
 
     invoke-direct {v10}, Ljava/lang/StringBuilder;-><init>()V
 
-    .line 2
     iget-object v0, p0, Lcotlin/reflect/ParameterizedTypeImpl;->c:Ljava/lang/reflect/Type;
 
     if-eqz v0, :cond_0
 
-    .line 3
     invoke-static {v0}, Lcotlin/reflect/TypesJVMKt;->b(Ljava/lang/reflect/Type;)Ljava/lang/String;
 
     move-result-object v0
@@ -215,10 +205,8 @@
 
     const-string v0, "$"
 
-    .line 4
     invoke-virtual {v10, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 5
     iget-object v0, p0, Lcotlin/reflect/ParameterizedTypeImpl;->b:Ljava/lang/Class;
 
     invoke-virtual {v0}, Ljava/lang/Class;->getSimpleName()Ljava/lang/String;
@@ -229,7 +217,6 @@
 
     goto :goto_0
 
-    .line 6
     :cond_0
     iget-object v0, p0, Lcotlin/reflect/ParameterizedTypeImpl;->b:Ljava/lang/Class;
 
@@ -239,7 +226,6 @@
 
     invoke-virtual {v10, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 7
     :goto_0
     iget-object v0, p0, Lcotlin/reflect/ParameterizedTypeImpl;->a:[Ljava/lang/reflect/Type;
 
@@ -267,7 +253,6 @@
 
     const/4 v6, 0x0
 
-    .line 8
     sget-object v7, Lcotlin/reflect/ParameterizedTypeImpl$getTypeName$1$1;->INSTANCE:Lcotlin/reflect/ParameterizedTypeImpl$getTypeName$1$1;
 
     const/16 v8, 0x32
@@ -282,7 +267,6 @@
 
     invoke-static/range {v0 .. v9}, Lcotlin/collections/k;->og([Ljava/lang/Object;Ljava/lang/Appendable;Ljava/lang/CharSequence;Ljava/lang/CharSequence;Ljava/lang/CharSequence;ILjava/lang/CharSequence;Lcotlin/jvm/u/l;ILjava/lang/Object;)Ljava/lang/Appendable;
 
-    .line 9
     :cond_2
     invoke-virtual {v10}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
@@ -298,7 +282,6 @@
 .method public hashCode()I
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcotlin/reflect/ParameterizedTypeImpl;->b:Ljava/lang/Class;
 
     invoke-virtual {v0}, Ljava/lang/Class;->hashCode()I
@@ -339,7 +322,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcotlin/reflect/ParameterizedTypeImpl;->getTypeName()Ljava/lang/String;
 
     move-result-object v0

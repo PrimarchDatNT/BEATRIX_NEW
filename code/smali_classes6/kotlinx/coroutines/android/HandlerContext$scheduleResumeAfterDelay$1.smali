@@ -54,7 +54,6 @@
 .method public bridge synthetic invoke(Ljava/lang/Object;)Ljava/lang/Object;
     .locals 0
 
-    .line 1
     check-cast p1, Ljava/lang/Throwable;
 
     invoke-virtual {p0, p1}, Lcotlinx/coroutines/android/HandlerContext$scheduleResumeAfterDelay$1;->invoke(Ljava/lang/Throwable;)V
@@ -71,7 +70,6 @@
         .end annotation
     .end param
 
-    .line 2
     iget-object p1, p0, Lcotlinx/coroutines/android/HandlerContext$scheduleResumeAfterDelay$1;->this$0:Lcotlinx/coroutines/android/HandlerContext;
 
     invoke-static {p1}, Lcotlinx/coroutines/android/HandlerContext;->E(Lcotlinx/coroutines/android/HandlerContext;)Landroid/os/Handler;

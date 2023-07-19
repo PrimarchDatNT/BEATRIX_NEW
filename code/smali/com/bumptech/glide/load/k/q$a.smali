@@ -106,21 +106,16 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p2, p0, Lcom/bumptech/glide/load/k/q$a;->b:Landroidx/core/util/Pools$Pool;
 
-    .line 3
     invoke-static {p1}, Lcom/bumptech/glide/s/k;->c(Ljava/util/Collection;)Ljava/util/Collection;
 
-    .line 4
     iput-object p1, p0, Lcom/bumptech/glide/load/k/q$a;->a:Ljava/util/List;
 
     const/4 p1, 0x0
 
-    .line 5
     iput p1, p0, Lcom/bumptech/glide/load/k/q$a;->c:I
 
     return-void
@@ -129,14 +124,12 @@
 .method private g()V
     .locals 4
 
-    .line 1
     iget-boolean v0, p0, Lcom/bumptech/glide/load/k/q$a;->p:Z
 
     if-eqz v0, :cond_0
 
     return-void
 
-    .line 2
     :cond_0
     iget v0, p0, Lcom/bumptech/glide/load/k/q$a;->c:I
 
@@ -150,14 +143,12 @@
 
     if-ge v0, v1, :cond_1
 
-    .line 3
     iget v0, p0, Lcom/bumptech/glide/load/k/q$a;->c:I
 
     add-int/lit8 v0, v0, 0x1
 
     iput v0, p0, Lcom/bumptech/glide/load/k/q$a;->c:I
 
-    .line 4
     iget-object v0, p0, Lcom/bumptech/glide/load/k/q$a;->d:Lcom/bumptech/glide/Priority;
 
     iget-object v1, p0, Lcom/bumptech/glide/load/k/q$a;->f:Lcom/bumptech/glide/load/j/d$a;
@@ -166,13 +157,11 @@
 
     goto :goto_0
 
-    .line 5
     :cond_1
     iget-object v0, p0, Lcom/bumptech/glide/load/k/q$a;->g:Ljava/util/List;
 
     invoke-static {v0}, Lcom/bumptech/glide/s/k;->d(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 6
     iget-object v0, p0, Lcom/bumptech/glide/load/k/q$a;->f:Lcom/bumptech/glide/load/j/d$a;
 
     new-instance v1, Lcom/bumptech/glide/load/engine/GlideException;
@@ -208,7 +197,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/bumptech/glide/load/k/q$a;->a:Ljava/util/List;
 
     const/4 v1, 0x0
@@ -229,12 +217,10 @@
 .method public b()V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/bumptech/glide/load/k/q$a;->g:Ljava/util/List;
 
     if-eqz v0, :cond_0
 
-    .line 2
     iget-object v1, p0, Lcom/bumptech/glide/load/k/q$a;->b:Landroidx/core/util/Pools$Pool;
 
     invoke-interface {v1, v0}, Landroidx/core/util/Pools$Pool;->release(Ljava/lang/Object;)Z
@@ -242,10 +228,8 @@
     :cond_0
     const/4 v0, 0x0
 
-    .line 3
     iput-object v0, p0, Lcom/bumptech/glide/load/k/q$a;->g:Ljava/util/List;
 
-    .line 4
     iget-object v0, p0, Lcom/bumptech/glide/load/k/q$a;->a:Ljava/util/List;
 
     invoke-interface {v0}, Ljava/util/List;->iterator()Ljava/util/Iterator;
@@ -265,7 +249,6 @@
 
     check-cast v1, Lcom/bumptech/glide/load/j/d;
 
-    .line 5
     invoke-interface {v1}, Lcom/bumptech/glide/load/j/d;->b()V
 
     goto :goto_0
@@ -281,7 +264,6 @@
         .end annotation
     .end param
 
-    .line 1
     iget-object v0, p0, Lcom/bumptech/glide/load/k/q$a;->g:Ljava/util/List;
 
     invoke-static {v0}, Lcom/bumptech/glide/s/k;->d(Ljava/lang/Object;)Ljava/lang/Object;
@@ -292,7 +274,6 @@
 
     invoke-interface {v0, p1}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
-    .line 2
     invoke-direct {p0}, Lcom/bumptech/glide/load/k/q$a;->g()V
 
     return-void
@@ -303,10 +284,8 @@
 
     const/4 v0, 0x1
 
-    .line 1
     iput-boolean v0, p0, Lcom/bumptech/glide/load/k/q$a;->p:Z
 
-    .line 2
     iget-object v0, p0, Lcom/bumptech/glide/load/k/q$a;->a:Ljava/util/List;
 
     invoke-interface {v0}, Ljava/util/List;->iterator()Ljava/util/Iterator;
@@ -326,7 +305,6 @@
 
     check-cast v1, Lcom/bumptech/glide/load/j/d;
 
-    .line 3
     invoke-interface {v1}, Lcom/bumptech/glide/load/j/d;->cancel()V
 
     goto :goto_0
@@ -340,7 +318,6 @@
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/bumptech/glide/load/k/q$a;->a:Ljava/util/List;
 
     const/4 v1, 0x0
@@ -377,13 +354,10 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/bumptech/glide/load/k/q$a;->d:Lcom/bumptech/glide/Priority;
 
-    .line 2
     iput-object p2, p0, Lcom/bumptech/glide/load/k/q$a;->f:Lcom/bumptech/glide/load/j/d$a;
 
-    .line 3
     iget-object p2, p0, Lcom/bumptech/glide/load/k/q$a;->b:Landroidx/core/util/Pools$Pool;
 
     invoke-interface {p2}, Landroidx/core/util/Pools$Pool;->acquire()Ljava/lang/Object;
@@ -394,7 +368,6 @@
 
     iput-object p2, p0, Lcom/bumptech/glide/load/k/q$a;->g:Ljava/util/List;
 
-    .line 4
     iget-object p2, p0, Lcom/bumptech/glide/load/k/q$a;->a:Ljava/util/List;
 
     iget v0, p0, Lcom/bumptech/glide/load/k/q$a;->c:I
@@ -407,12 +380,10 @@
 
     invoke-interface {p2, p1, p0}, Lcom/bumptech/glide/load/j/d;->e(Lcom/bumptech/glide/Priority;Lcom/bumptech/glide/load/j/d$a;)V
 
-    .line 5
     iget-boolean p1, p0, Lcom/bumptech/glide/load/k/q$a;->p:Z
 
     if-eqz p1, :cond_0
 
-    .line 6
     invoke-virtual {p0}, Lcom/bumptech/glide/load/k/q$a;->cancel()V
 
     :cond_0
@@ -433,14 +404,12 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     iget-object v0, p0, Lcom/bumptech/glide/load/k/q$a;->f:Lcom/bumptech/glide/load/j/d$a;
 
     invoke-interface {v0, p1}, Lcom/bumptech/glide/load/j/d$a;->f(Ljava/lang/Object;)V
 
     goto :goto_0
 
-    .line 2
     :cond_0
     invoke-direct {p0}, Lcom/bumptech/glide/load/k/q$a;->g()V
 

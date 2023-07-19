@@ -95,7 +95,6 @@
 
     check-cast p2, Lkshark/d;
 
-    .line 1
     invoke-virtual {p2}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
     move-result-object p2
@@ -124,7 +123,6 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     iget-object p1, p0, Lkshark/internal/PathFinder$c;->a:Lcotlin/jvm/u/l;
 
@@ -153,7 +151,6 @@
 .method public bridge synthetic compare(Ljava/lang/Object;Ljava/lang/Object;)I
     .locals 0
 
-    .line 1
     check-cast p1, Lcotlin/Pair;
 
     check-cast p2, Lcotlin/Pair;

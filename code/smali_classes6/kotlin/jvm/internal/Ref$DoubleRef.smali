@@ -25,7 +25,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -36,7 +35,6 @@
 .method public toString()Ljava/lang/String;
     .locals 2
 
-    .line 1
     iget-wide v0, p0, Lcotlin/jvm/internal/Ref$DoubleRef;->element:D
 
     invoke-static {v0, v1}, Ljava/lang/String;->valueOf(D)Ljava/lang/String;

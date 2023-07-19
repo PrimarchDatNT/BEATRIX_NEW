@@ -7,7 +7,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -26,14 +25,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1, p2}, Lf/k/c/c/e;->c(II)Landroid/graphics/drawable/StateListDrawable;
 
     move-result-object p1
 
     invoke-virtual {p0, p1}, Landroid/view/View;->setBackground(Landroid/graphics/drawable/Drawable;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -52,14 +49,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1, p2}, Lf/k/c/c/e;->d(Landroid/graphics/drawable/Drawable;Landroid/graphics/drawable/Drawable;)Landroid/graphics/drawable/StateListDrawable;
 
     move-result-object p1
 
     invoke-virtual {p0, p1}, Landroid/view/View;->setBackground(Landroid/graphics/drawable/Drawable;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -72,7 +67,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
     move-result-object v1
@@ -85,7 +79,6 @@
 
     move-result-object v1
 
-    .line 2
     iget v1, v1, Landroid/util/DisplayMetrics;->density:F
 
     mul-float p0, p0, v1
@@ -134,7 +127,6 @@
 
     new-array v1, v1, [F
 
-    .line 1
     invoke-static {p5}, Lf/k/c/c/c;->c(F)I
 
     move-result v3
@@ -152,7 +144,6 @@
 
     new-array v3, v3, [F
 
-    .line 2
     invoke-static/range {p6 .. p6}, Lf/k/c/c/c;->c(F)I
 
     move-result v4
@@ -181,7 +172,6 @@
 
     const/4 v1, 0x3
 
-    .line 3
     invoke-static/range {p8 .. p8}, Lf/k/c/c/c;->c(F)I
 
     move-result v2
@@ -222,7 +212,6 @@
 
     const/4 v1, 0x7
 
-    .line 4
     invoke-static/range {p7 .. p7}, Lf/k/c/c/c;->c(F)I
 
     move-result v2
@@ -233,7 +222,6 @@
 
     move-object v9, v3
 
-    .line 5
     :goto_0
     sget-object v4, Lf/k/c/c/d;->a:Lf/k/c/c/d;
 
@@ -253,7 +241,6 @@
 
     invoke-virtual {p0, v1}, Landroid/view/View;->setBackground(Landroid/graphics/drawable/Drawable;)V
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -266,22 +253,18 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Landroid/view/ViewGroup;->getTouchDelegate()Landroid/view/TouchDelegate;
 
     move-result-object v1
 
-    .line 2
     new-instance v2, Landroid/graphics/Rect;
 
     invoke-direct {v2}, Landroid/graphics/Rect;-><init>()V
 
-    .line 3
     invoke-static {p0, p1, v2}, Landroidx/coordinatorlayout/widget/ViewGroupUtils;->getDescendantRect(Landroid/view/ViewGroup;Landroid/view/View;Landroid/graphics/Rect;)V
 
     const/4 v3, 0x0
 
-    .line 4
     aget v4, p2, v3
 
     neg-int v4, v4
@@ -304,26 +287,21 @@
 
     invoke-virtual {v2, v4, p2}, Landroid/graphics/Rect;->inset(II)V
 
-    .line 5
     instance-of p2, v1, Lf/k/c/c/g;
 
     if-nez p2, :cond_1
 
-    .line 6
     new-instance v1, Lf/k/c/c/g;
 
     invoke-direct {v1, v2, p1}, Lf/k/c/c/g;-><init>(Landroid/graphics/Rect;Landroid/view/View;)V
 
-    .line 7
     invoke-virtual {p0, v1}, Landroid/view/ViewGroup;->setTouchDelegate(Landroid/view/TouchDelegate;)V
 
-    .line 8
     :cond_1
     check-cast v1, Lf/k/c/c/g;
 
     invoke-virtual {v1, v2, p1}, Lf/k/c/c/g;->a(Landroid/graphics/Rect;Landroid/view/View;)V
 
-    .line 9
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -342,14 +320,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1, p2}, Lf/k/c/c/e;->c(II)Landroid/graphics/drawable/StateListDrawable;
 
     move-result-object p1
 
     invoke-virtual {p0, p1}, Landroid/view/View;->setBackground(Landroid/graphics/drawable/Drawable;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -368,14 +344,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1, p2}, Lf/k/c/c/e;->d(Landroid/graphics/drawable/Drawable;Landroid/graphics/drawable/Drawable;)Landroid/graphics/drawable/StateListDrawable;
 
     move-result-object p1
 
     invoke-virtual {p0, p1}, Landroid/view/View;->setBackground(Landroid/graphics/drawable/Drawable;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -394,14 +368,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1, p2}, Lf/k/c/c/e;->e(II)Landroid/graphics/drawable/StateListDrawable;
 
     move-result-object p1
 
     invoke-virtual {p0, p1}, Landroid/view/View;->setBackground(Landroid/graphics/drawable/Drawable;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -420,14 +392,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1, p2}, Lf/k/c/c/e;->f(Landroid/graphics/drawable/Drawable;Landroid/graphics/drawable/Drawable;)Landroid/graphics/drawable/StateListDrawable;
 
     move-result-object p1
 
     invoke-virtual {p0, p1}, Landroid/view/View;->setBackground(Landroid/graphics/drawable/Drawable;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -445,7 +415,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget v1, Landroid/os/Build$VERSION;->SDK_INT:I
 
     const/16 v2, 0x15
@@ -454,10 +423,8 @@
 
     int-to-float p1, p1
 
-    .line 2
     invoke-virtual {p0, p1}, Landroid/view/View;->setElevation(F)V
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -484,32 +451,26 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     array-length v1, p1
 
     if-lez v1, :cond_0
 
-    .line 2
     invoke-virtual {p0}, Landroid/view/View;->getParent()Landroid/view/ViewParent;
 
     move-result-object v1
 
-    .line 3
     instance-of v2, v1, Landroid/view/ViewGroup;
 
     if-eqz v2, :cond_0
 
-    .line 4
     check-cast v1, Landroid/view/ViewGroup;
 
-    .line 5
     new-instance v2, Lf/k/c/c/a;
 
     invoke-direct {v2, v1, p0, p1}, Lf/k/c/c/a;-><init>(Landroid/view/ViewGroup;Landroid/view/View;[I)V
 
     invoke-virtual {v1, v2}, Landroid/view/ViewGroup;->post(Ljava/lang/Runnable;)Z
 
-    .line 6
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -530,7 +491,6 @@
 
     invoke-static {p0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -548,20 +508,16 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Landroid/view/View;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
 
     move-result-object v1
 
     float-to-int p1, p1
 
-    .line 2
     iput p1, v1, Landroid/view/ViewGroup$LayoutParams;->height:I
 
-    .line 3
     invoke-virtual {p0, v1}, Landroid/view/View;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -579,20 +535,16 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Landroid/view/View;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
 
     move-result-object v1
 
     float-to-int p1, p1
 
-    .line 2
     iput p1, v1, Landroid/view/ViewGroup$LayoutParams;->width:I
 
-    .line 3
     invoke-virtual {p0, v1}, Landroid/view/View;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -610,20 +562,16 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Landroid/view/View;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
 
     move-result-object v1
 
     check-cast v1, Landroid/view/ViewGroup$MarginLayoutParams;
 
-    .line 2
     iput p1, v1, Landroid/view/ViewGroup$MarginLayoutParams;->bottomMargin:I
 
-    .line 3
     invoke-virtual {p0, v1}, Landroid/view/View;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -641,20 +589,16 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Landroid/view/View;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
 
     move-result-object v1
 
     check-cast v1, Landroid/view/ViewGroup$MarginLayoutParams;
 
-    .line 2
     iput p1, v1, Landroid/view/ViewGroup$MarginLayoutParams;->leftMargin:I
 
-    .line 3
     invoke-virtual {p0, v1}, Landroid/view/View;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -672,20 +616,16 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Landroid/view/View;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
 
     move-result-object v1
 
     check-cast v1, Landroid/view/ViewGroup$MarginLayoutParams;
 
-    .line 2
     iput p1, v1, Landroid/view/ViewGroup$MarginLayoutParams;->rightMargin:I
 
-    .line 3
     invoke-virtual {p0, v1}, Landroid/view/View;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -703,20 +643,16 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Landroid/view/View;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
 
     move-result-object v1
 
     check-cast v1, Landroid/view/ViewGroup$MarginLayoutParams;
 
-    .line 2
     iput p1, v1, Landroid/view/ViewGroup$MarginLayoutParams;->topMargin:I
 
-    .line 3
     invoke-virtual {p0, v1}, Landroid/view/View;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -736,7 +672,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     invoke-virtual {p0}, Landroid/widget/TextView;->getPaintFlags()I
 
     move-result p1
@@ -745,7 +680,6 @@
 
     invoke-virtual {p0, p1}, Landroid/widget/TextView;->setPaintFlags(I)V
 
-    .line 2
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -766,7 +700,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     invoke-virtual {p0}, Landroid/widget/TextView;->getPaintFlags()I
 
     move-result p1
@@ -775,7 +708,6 @@
 
     invoke-virtual {p0, p1}, Landroid/widget/TextView;->setPaintFlags(I)V
 
-    .line 2
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -796,7 +728,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Landroid/content/res/ColorStateList;
 
     const/4 v2, 0x3
@@ -839,10 +770,8 @@
 
     invoke-direct {v1, v3, v2}, Landroid/content/res/ColorStateList;-><init>([[I[I)V
 
-    .line 2
     invoke-virtual {p0, v1}, Landroid/widget/TextView;->setTextColor(Landroid/content/res/ColorStateList;)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

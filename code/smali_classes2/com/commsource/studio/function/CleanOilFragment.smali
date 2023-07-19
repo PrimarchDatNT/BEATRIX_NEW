@@ -92,10 +92,8 @@
 .method public constructor <init>()V
     .locals 2
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/studio/function/BaseSubFragment;-><init>()V
 
-    .line 2
     sget-object v0, Lcom/commsource/studio/n0;->z:Lcom/commsource/studio/n0;
 
     invoke-virtual {v0}, Lcom/commsource/studio/n0;->t()I
@@ -106,7 +104,6 @@
 
     iput v0, p0, Lcom/commsource/studio/function/CleanOilFragment;->c0:F
 
-    .line 3
     new-instance v0, Lcom/commsource/studio/function/CleanOilFragment$undoRedoViewModel$2;
 
     invoke-direct {v0, p0}, Lcom/commsource/studio/function/CleanOilFragment$undoRedoViewModel$2;-><init>(Lcom/commsource/studio/function/CleanOilFragment;)V
@@ -117,7 +114,6 @@
 
     iput-object v0, p0, Lcom/commsource/studio/function/CleanOilFragment;->h0:Lcotlin/w;
 
-    .line 4
     new-instance v0, Lcom/commsource/studio/effect/c;
 
     sget-object v1, Lcom/commsource/studio/sub/SubModuleEnum;->CleanOil:Lcom/commsource/studio/sub/SubModuleEnum;
@@ -126,7 +122,6 @@
 
     iput-object v0, p0, Lcom/commsource/studio/function/CleanOilFragment;->i0:Lcom/commsource/studio/effect/c;
 
-    .line 5
     new-instance v0, Lcom/commsource/studio/function/CleanOilFragment$autoManualStackLogic$2;
 
     invoke-direct {v0, p0}, Lcom/commsource/studio/function/CleanOilFragment$autoManualStackLogic$2;-><init>(Lcom/commsource/studio/function/CleanOilFragment;)V
@@ -139,7 +134,6 @@
 
     const/4 v0, 0x1
 
-    .line 6
     invoke-virtual {p0, v0}, Lcom/commsource/studio/function/BaseSubFragment;->q1(Z)V
 
     return-void
@@ -152,7 +146,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/studio/function/CleanOilFragment;->e0:Lcom/commsource/studio/processor/MultiFaceEffectProcessor;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -167,7 +160,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/studio/function/CleanOilFragment;->j0:Lcom/commsource/studio/layer/MultiFaceSelectLayer;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -182,7 +174,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/studio/function/CleanOilFragment;->d0:Lcom/commsource/beautyplus/f0/cb;
 
     if-nez p0, :cond_0
@@ -204,7 +195,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/studio/function/CleanOilFragment;->g0:Lcom/commsource/studio/layer/PaintMaskLayer;
 
     if-nez p0, :cond_0
@@ -226,7 +216,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/studio/function/CleanOilFragment;->N1()V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -241,7 +230,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/studio/function/CleanOilFragment;->O1()V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -256,7 +244,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/function/CleanOilFragment;->e0:Lcom/commsource/studio/processor/MultiFaceEffectProcessor;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -271,7 +258,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/function/CleanOilFragment;->j0:Lcom/commsource/studio/layer/MultiFaceSelectLayer;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -286,7 +272,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/function/CleanOilFragment;->d0:Lcom/commsource/beautyplus/f0/cb;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -301,7 +286,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/function/CleanOilFragment;->g0:Lcom/commsource/studio/layer/PaintMaskLayer;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -356,14 +340,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/studio/function/CleanOilFragment;->K1()Lcom/commsource/studio/function/automanual/AutoManualStackLogic;
 
     move-result-object v1
 
     invoke-virtual {v1}, Lcom/commsource/studio/function/automanual/AutoManualStackLogic;->l()V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/function/CleanOilFragment;->d0:Lcom/commsource/beautyplus/f0/cb;
 
     if-nez v1, :cond_0
@@ -393,7 +375,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/widget/XSeekBar;->setProgress(I)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -406,7 +387,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/studio/function/CleanOilFragment;->K1()Lcom/commsource/studio/function/automanual/AutoManualStackLogic;
 
     move-result-object v1
@@ -423,7 +403,6 @@
 
     if-eqz v1, :cond_1
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/function/CleanOilFragment;->d0:Lcom/commsource/beautyplus/f0/cb;
 
     if-nez v1, :cond_0
@@ -437,7 +416,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_1
     iget-object v1, p0, Lcom/commsource/studio/function/CleanOilFragment;->d0:Lcom/commsource/beautyplus/f0/cb;
 
@@ -454,7 +432,6 @@
 
     if-eqz v1, :cond_4
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/studio/function/CleanOilFragment;->d0:Lcom/commsource/beautyplus/f0/cb;
 
     if-nez v1, :cond_3
@@ -470,7 +447,6 @@
     :goto_0
     const-string v1, "KEY_FIRST_MANUAL_TIP_OILINESS"
 
-    .line 5
     invoke-static {v1}, Lf/d/i/h;->C0(Ljava/lang/String;)Z
 
     move-result v2
@@ -479,15 +455,12 @@
 
     sget v2, Lcom/res/provider/ResSTRING;->t_toast_beauty_remove_oiliness:I
 
-    .line 6
     invoke-static {v2}, Lf/k/c/c/f;->r(I)V
 
     const/4 v2, 0x0
 
-    .line 7
     invoke-static {v1, v2}, Lf/d/i/h;->v1(Ljava/lang/String;Z)V
 
-    .line 8
     :cond_5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -501,7 +474,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/studio/function/CleanOilFragment;->K1()Lcom/commsource/studio/function/automanual/AutoManualStackLogic;
 
     move-result-object p0
@@ -520,10 +492,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0}, Lcom/commsource/studio/function/BaseSubFragment;->G()V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/function/CleanOilFragment;->j0:Lcom/commsource/studio/layer/MultiFaceSelectLayer;
 
     if-eqz v1, :cond_0
@@ -538,7 +508,6 @@
 
     invoke-virtual {v1, v2}, Landroid/view/View;->setAlpha(F)V
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -552,14 +521,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/util/HashMap;
 
     const/4 v2, 0x4
 
     invoke-direct {v1, v2}, Ljava/util/HashMap;-><init>(I)V
 
-    .line 2
     sget-object v2, Lcom/commsource/studio/effect/c;->p:Lcom/commsource/studio/effect/c$a;
 
     invoke-virtual {p0}, Lcom/commsource/studio/function/CleanOilFragment;->L1()Lcom/commsource/studio/effect/c;
@@ -574,7 +541,6 @@
 
     invoke-interface {v1, v4, v3}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 3
     invoke-virtual {p0}, Lcom/commsource/studio/function/CleanOilFragment;->L1()Lcom/commsource/studio/effect/c;
 
     move-result-object v3
@@ -589,10 +555,8 @@
 
     const-string v2, "beau_oiliness_yes"
 
-    .line 4
     invoke-static {v2, v1}, Lcom/commsource/statistics/i;->s(Ljava/lang/String;Ljava/util/Map;)V
 
-    .line 5
     invoke-virtual {p0}, Lcom/commsource/studio/function/CleanOilFragment;->L1()Lcom/commsource/studio/effect/c;
 
     move-result-object v4
@@ -609,7 +573,6 @@
 
     invoke-static/range {v3 .. v8}, Lcom/commsource/studio/function/BaseSubFragment;->W(Lcom/commsource/studio/function/BaseSubFragment;Lcom/commsource/studio/effect/k;Landroid/graphics/Bitmap;ZILjava/lang/Object;)V
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -622,7 +585,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/commsource/studio/function/CleanOilFragment$b;
 
     new-instance v2, Lcom/commsource/studio/r0/g;
@@ -633,10 +595,8 @@
 
     invoke-direct {v1, p0, v2}, Lcom/commsource/studio/function/CleanOilFragment$b;-><init>(Lcom/commsource/studio/function/CleanOilFragment;Lcom/commsource/camera/newrender/renderproxy/n;)V
 
-    .line 2
     invoke-virtual {p0, v1}, Lcom/commsource/studio/function/BaseSubFragment;->D(Lcom/commsource/studio/processor/BaseEffectProcessor;)V
 
-    .line 3
     invoke-virtual {v1}, Lcom/commsource/studio/processor/BaseEffectProcessor;->d()Lcom/commsource/studio/o;
 
     move-result-object v2
@@ -647,7 +607,6 @@
 
     if-nez v2, :cond_0
 
-    .line 4
     invoke-virtual {v1}, Lcom/commsource/studio/processor/BaseEffectProcessor;->d()Lcom/commsource/studio/o;
 
     move-result-object v2
@@ -656,7 +615,6 @@
 
     invoke-direct {v3}, Lcom/commsource/camera/d1/g/r;-><init>()V
 
-    .line 5
     invoke-virtual {p0}, Lcom/commsource/studio/function/BaseSubFragment;->r0()Lcom/commsource/studio/ImageStudioViewModel;
 
     move-result-object v4
@@ -671,13 +629,10 @@
 
     invoke-virtual {v3, v4}, Lcom/commsource/camera/d1/g/r;->a(Landroid/graphics/Bitmap;)V
 
-    .line 6
     invoke-virtual {v3}, Lcom/commsource/camera/d1/g/r;->m()V
 
-    .line 7
     invoke-virtual {v2, v3}, Lcom/commsource/studio/o;->C(Lcom/commsource/camera/d1/g/r;)V
 
-    .line 8
     :cond_0
     invoke-virtual {v1}, Lcom/commsource/studio/processor/BaseEffectProcessor;->d()Lcom/commsource/studio/o;
 
@@ -689,7 +644,6 @@
 
     if-nez v2, :cond_1
 
-    .line 9
     invoke-virtual {v1}, Lcom/commsource/studio/processor/BaseEffectProcessor;->d()Lcom/commsource/studio/o;
 
     move-result-object v2
@@ -698,7 +652,6 @@
 
     invoke-direct {v3}, Lcom/commsource/camera/d1/g/l;-><init>()V
 
-    .line 10
     invoke-virtual {p0}, Lcom/commsource/studio/function/BaseSubFragment;->r0()Lcom/commsource/studio/ImageStudioViewModel;
 
     move-result-object v4
@@ -715,21 +668,18 @@
 
     move-result-object v4
 
-    .line 11
     sget-object v5, Lf/d/e/b/b;->b:Lf/d/e/b/b;
 
     invoke-virtual {v5, v4}, Lf/d/e/b/b;->f(Lcom/meitu/core/types/NativeBitmap;)Lcom/meitu/mtlab/MTAiInterface/MTSegmentModule/MTSegment;
 
     move-result-object v6
 
-    .line 12
     invoke-virtual {v5, v6}, Lf/d/e/b/b;->l(Lcom/meitu/mtlab/MTAiInterface/MTSegmentModule/MTSegment;)I
 
     move-result v7
 
     invoke-virtual {v3, v7}, Lcom/commsource/camera/d1/g/l;->j(I)V
 
-    .line 13
     invoke-virtual {p0}, Lcom/commsource/studio/function/BaseSubFragment;->r0()Lcom/commsource/studio/ImageStudioViewModel;
 
     move-result-object v7
@@ -748,7 +698,6 @@
 
     invoke-virtual {v3, v7}, Lcom/commsource/camera/d1/g/l;->k(I)V
 
-    .line 14
     invoke-virtual {p0}, Lcom/commsource/studio/function/BaseSubFragment;->r0()Lcom/commsource/studio/ImageStudioViewModel;
 
     move-result-object v7
@@ -767,20 +716,16 @@
 
     invoke-virtual {v3, v7}, Lcom/commsource/camera/d1/g/l;->i(I)V
 
-    .line 15
     invoke-virtual {v5, v6}, Lf/d/e/b/b;->k(Lcom/meitu/mtlab/MTAiInterface/MTSegmentModule/MTSegment;)Landroid/graphics/Bitmap;
 
     move-result-object v5
 
     invoke-virtual {v3, v5}, Lcom/commsource/camera/d1/g/l;->h(Landroid/graphics/Bitmap;)V
 
-    .line 16
     invoke-virtual {v4}, Lcom/meitu/core/types/NativeBitmap;->recycle()V
 
-    .line 17
     invoke-virtual {v2, v3}, Lcom/commsource/studio/o;->A(Lcom/commsource/camera/d1/g/l;)V
 
-    .line 18
     :cond_1
     invoke-virtual {v1}, Lcom/commsource/studio/processor/m;->J()Lcom/commsource/camera/newrender/renderproxy/n;
 
@@ -794,14 +739,12 @@
 
     invoke-virtual {v2, v3}, Lcom/commsource/studio/r0/g;->I(Z)V
 
-    .line 19
     invoke-virtual {p0}, Lcom/commsource/studio/function/BaseSubFragment;->F0()Z
 
     move-result v2
 
     if-nez v2, :cond_2
 
-    .line 20
     invoke-virtual {p0}, Lcom/commsource/studio/function/CleanOilFragment;->L1()Lcom/commsource/studio/effect/c;
 
     move-result-object v2
@@ -818,7 +761,6 @@
 
     invoke-virtual {v2, v3, v4}, Lcom/commsource/studio/effect/c;->G(II)V
 
-    .line 21
     invoke-virtual {v1}, Lcom/commsource/studio/processor/m;->J()Lcom/commsource/camera/newrender/renderproxy/n;
 
     move-result-object v2
@@ -849,14 +791,12 @@
 
     invoke-virtual {v2, v3}, Lcom/commsource/studio/r0/g;->H(F)V
 
-    .line 22
     invoke-virtual {v1}, Lcom/commsource/studio/processor/BaseEffectProcessor;->e()Lcom/commsource/easyeditor/utils/opengl/f;
 
     move-result-object v2
 
     invoke-virtual {v1, v2}, Lcom/commsource/studio/processor/MultiFaceEffectProcessor;->s(Lcom/commsource/easyeditor/utils/opengl/f;)V
 
-    .line 23
     :cond_2
     invoke-direct {p0}, Lcom/commsource/studio/function/CleanOilFragment;->K1()Lcom/commsource/studio/function/automanual/AutoManualStackLogic;
 
@@ -868,13 +808,10 @@
 
     invoke-virtual {v2, v3}, Lcom/commsource/studio/function/automanual/AutoManualStackLogic;->p(Lcom/commsource/studio/function/automanual/a;)V
 
-    .line 24
     iput-object v1, p0, Lcom/commsource/studio/function/CleanOilFragment;->e0:Lcom/commsource/studio/processor/MultiFaceEffectProcessor;
 
-    .line 25
     new-instance v1, Lcom/commsource/studio/processor/f;
 
-    .line 26
     invoke-virtual {p0}, Lcom/commsource/studio/function/BaseSubFragment;->r0()Lcom/commsource/studio/ImageStudioViewModel;
 
     move-result-object v2
@@ -887,7 +824,6 @@
 
     move-result v2
 
-    .line 27
     invoke-virtual {p0}, Lcom/commsource/studio/function/BaseSubFragment;->r0()Lcom/commsource/studio/ImageStudioViewModel;
 
     move-result-object v3
@@ -900,13 +836,10 @@
 
     move-result v3
 
-    .line 28
     invoke-direct {v1, v2, v3}, Lcom/commsource/studio/processor/f;-><init>(II)V
 
-    .line 29
     invoke-virtual {p0, v1}, Lcom/commsource/studio/function/BaseSubFragment;->D(Lcom/commsource/studio/processor/BaseEffectProcessor;)V
 
-    .line 30
     invoke-direct {p0}, Lcom/commsource/studio/function/CleanOilFragment;->K1()Lcom/commsource/studio/function/automanual/AutoManualStackLogic;
 
     move-result-object v2
@@ -926,10 +859,8 @@
 
     invoke-virtual {v2, v3}, Lcom/commsource/studio/function/automanual/AutoManualStackLogic;->q(Lcom/commsource/studio/function/automanual/d;)V
 
-    .line 31
     iput-object v1, p0, Lcom/commsource/studio/function/CleanOilFragment;->f0:Lcom/commsource/studio/processor/f;
 
-    .line 32
     iget-object v1, p0, Lcom/commsource/studio/function/CleanOilFragment;->d0:Lcom/commsource/beautyplus/f0/cb;
 
     if-nez v1, :cond_4
@@ -941,7 +872,6 @@
     :cond_4
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/cb;->f:Lcom/commsource/studio/MagnifyComponent;
 
-    .line 33
     invoke-virtual {p0}, Lcom/commsource/studio/function/BaseSubFragment;->r0()Lcom/commsource/studio/ImageStudioViewModel;
 
     move-result-object v2
@@ -968,7 +898,6 @@
 
     invoke-static {v2, v3}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 34
     invoke-virtual {p0}, Lcom/commsource/studio/function/BaseSubFragment;->s0()Lcom/commsource/easyeditor/utils/opengl/f;
 
     move-result-object v3
@@ -977,16 +906,13 @@
 
     invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
-    .line 35
     :cond_5
     invoke-virtual {v1, v2, v3}, Lcom/commsource/studio/MagnifyComponent;->i(Landroid/opengl/EGLContext;Lcom/commsource/easyeditor/utils/opengl/f;)V
 
-    .line 36
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 37
     :cond_6
     new-instance v1, Lcotlin/TypeCastException;
 
@@ -1006,24 +932,20 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0}, Lcom/commsource/studio/function/BaseSubFragment;->L0()V
 
-    .line 2
     invoke-virtual {p0}, Landroidx/fragment/app/Fragment;->isAdded()Z
 
     move-result v1
 
     if-eqz v1, :cond_0
 
-    .line 3
     invoke-direct {p0}, Lcom/commsource/studio/function/CleanOilFragment;->M1()Lcom/commsource/studio/component/UndoRedoComponent$c;
 
     move-result-object v1
 
     invoke-virtual {v1}, Lcom/commsource/studio/component/UndoRedoComponent$c;->B()V
 
-    .line 4
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1039,7 +961,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/function/CleanOilFragment;->i0:Lcom/commsource/studio/effect/c;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1054,17 +975,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0}, Lcom/commsource/studio/function/BaseSubFragment;->M0()V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/function/CleanOilFragment;->f0:Lcom/commsource/studio/processor/f;
 
     if-eqz v1, :cond_0
 
     invoke-virtual {v1, p0}, Lcom/commsource/studio/processor/f;->L(Landroidx/fragment/app/Fragment;)V
 
-    .line 3
     :cond_0
     const-class v1, Lcom/commsource/studio/component/AutoManualComponent$b;
 
@@ -1074,7 +992,6 @@
 
     check-cast v1, Lcom/commsource/studio/component/AutoManualComponent$b;
 
-    .line 4
     invoke-virtual {v1}, Lcom/commsource/studio/component/AutoManualComponent$b;->y()Landroidx/lifecycle/MutableLiveData;
 
     move-result-object v1
@@ -1089,7 +1006,6 @@
 
     invoke-virtual {v1, v2, v3}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1110,7 +1026,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/function/CleanOilFragment;->i0:Lcom/commsource/studio/effect/c;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1125,7 +1040,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/studio/function/CleanOilFragment;->L1()Lcom/commsource/studio/effect/c;
 
     move-result-object v1
@@ -1142,7 +1056,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Lcom/commsource/studio/effect/c;
 
     invoke-virtual {p0, p1}, Lcom/commsource/studio/function/CleanOilFragment;->P1(Lcom/commsource/studio/effect/c;)V
@@ -1159,7 +1072,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/function/CleanOilFragment;->c0:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1174,7 +1086,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/studio/function/CleanOilFragment;->c0:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1207,7 +1118,6 @@
 
     invoke-static {p1, p3}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     new-instance p3, Lcom/commsource/studio/layer/PaintMaskLayer;
 
     iget-object v0, p0, Lcom/commsource/beautyplus/i0/a;->b:Landroid/app/Activity;
@@ -1220,27 +1130,22 @@
 
     const/4 v0, 0x0
 
-    .line 2
     invoke-virtual {p3, v0}, Lcom/commsource/studio/layer/PaintMaskLayer;->R0(Z)V
 
     const/4 v2, 0x2
 
     const/4 v3, 0x0
 
-    .line 3
     invoke-static {p0, p3, v0, v2, v3}, Lcom/commsource/studio/function/BaseSubFragment;->F(Lcom/commsource/studio/function/BaseSubFragment;Lcom/commsource/studio/layer/d;IILjava/lang/Object;)V
 
-    .line 4
     new-instance v4, Lcom/commsource/studio/function/CleanOilFragment$onCreateView$$inlined$apply$lambda$1;
 
     invoke-direct {v4, p0}, Lcom/commsource/studio/function/CleanOilFragment$onCreateView$$inlined$apply$lambda$1;-><init>(Lcom/commsource/studio/function/CleanOilFragment;)V
 
     invoke-virtual {p3, v4}, Lcom/commsource/studio/layer/PaintMaskLayer;->Q0(Lcotlin/jvm/u/p;)V
 
-    .line 5
     iput-object p3, p0, Lcom/commsource/studio/function/CleanOilFragment;->g0:Lcom/commsource/studio/layer/PaintMaskLayer;
 
-    .line 6
     invoke-virtual {p0}, Lcom/commsource/studio/function/BaseSubFragment;->r0()Lcom/commsource/studio/ImageStudioViewModel;
 
     move-result-object p3
@@ -1261,7 +1166,6 @@
 
     if-le p3, v4, :cond_0
 
-    .line 7
     new-instance p3, Lcom/commsource/studio/layer/MultiFaceSelectLayer;
 
     iget-object v4, p0, Lcom/commsource/beautyplus/i0/a;->b:Landroid/app/Activity;
@@ -1270,10 +1174,8 @@
 
     invoke-direct {p3, v4}, Lcom/commsource/studio/layer/MultiFaceSelectLayer;-><init>(Landroid/content/Context;)V
 
-    .line 8
     invoke-static {p0, p3, v0, v2, v3}, Lcom/commsource/studio/function/BaseSubFragment;->F(Lcom/commsource/studio/function/BaseSubFragment;Lcom/commsource/studio/layer/d;IILjava/lang/Object;)V
 
-    .line 9
     invoke-virtual {p3}, Lcom/commsource/studio/layer/BaseLayer;->F()Landroid/view/View;
 
     move-result-object v0
@@ -1282,10 +1184,8 @@
 
     invoke-virtual {v0, v1}, Landroid/view/View;->setAlpha(F)V
 
-    .line 10
     iput-object p3, p0, Lcom/commsource/studio/function/CleanOilFragment;->j0:Lcom/commsource/studio/layer/MultiFaceSelectLayer;
 
-    .line 11
     :cond_0
     invoke-static {p1}, Lcom/commsource/beautyplus/f0/cb;->d(Landroid/view/LayoutInflater;)Lcom/commsource/beautyplus/f0/cb;
 
@@ -1297,7 +1197,6 @@
 
     iput-object p1, p0, Lcom/commsource/studio/function/CleanOilFragment;->d0:Lcom/commsource/beautyplus/f0/cb;
 
-    .line 12
     invoke-virtual {p0}, Lcom/commsource/studio/function/BaseSubFragment;->F0()Z
 
     move-result p1
@@ -1306,7 +1205,6 @@
 
     if-nez p1, :cond_2
 
-    .line 13
     iget-object p1, p0, Lcom/commsource/studio/function/CleanOilFragment;->d0:Lcom/commsource/beautyplus/f0/cb;
 
     if-nez p1, :cond_1
@@ -1320,7 +1218,6 @@
 
     invoke-virtual {p1, v0}, Lcom/commsource/widget/XSeekBar;->setProgress(I)V
 
-    .line 14
     :cond_2
     iget-object p1, p0, Lcom/commsource/studio/function/CleanOilFragment;->d0:Lcom/commsource/beautyplus/f0/cb;
 
@@ -1331,7 +1228,6 @@
     :cond_3
     invoke-virtual {p1, p0}, Lcom/commsource/beautyplus/f0/cb;->i(Landroidx/fragment/app/Fragment;)V
 
-    .line 15
     iget-object p1, p0, Lcom/commsource/studio/function/CleanOilFragment;->d0:Lcom/commsource/beautyplus/f0/cb;
 
     if-nez p1, :cond_4
@@ -1383,13 +1279,10 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-super {p0, p1, p2}, Lcom/commsource/studio/function/BaseSubFragment;->onViewCreated(Landroid/view/View;Landroid/os/Bundle;)V
 
-    .line 2
     invoke-direct {p0}, Lcom/commsource/studio/function/CleanOilFragment;->M1()Lcom/commsource/studio/component/UndoRedoComponent$c;
 
-    .line 3
     iget-object p1, p0, Lcom/commsource/studio/function/CleanOilFragment;->d0:Lcom/commsource/beautyplus/f0/cb;
 
     const-string p2, "mViewBinding"
@@ -1407,7 +1300,6 @@
 
     invoke-virtual {p0, p1}, Lcom/commsource/studio/function/BaseSubFragment;->C(Landroid/view/View;)V
 
-    .line 4
     iget-object p1, p0, Lcom/commsource/studio/function/CleanOilFragment;->d0:Lcom/commsource/beautyplus/f0/cb;
 
     if-nez p1, :cond_1
@@ -1423,7 +1315,6 @@
 
     invoke-virtual {p0, p1}, Lcom/commsource/studio/function/BaseSubFragment;->C(Landroid/view/View;)V
 
-    .line 5
     iget-object p1, p0, Lcom/commsource/studio/function/CleanOilFragment;->d0:Lcom/commsource/beautyplus/f0/cb;
 
     if-nez p1, :cond_2
@@ -1439,7 +1330,6 @@
 
     invoke-virtual {p0, p1}, Lcom/commsource/studio/function/BaseSubFragment;->C(Landroid/view/View;)V
 
-    .line 6
     iget-object p1, p0, Lcom/commsource/studio/function/CleanOilFragment;->d0:Lcom/commsource/beautyplus/f0/cb;
 
     if-nez p1, :cond_3
@@ -1455,7 +1345,6 @@
 
     invoke-virtual {p0, p1}, Lcom/commsource/studio/function/BaseSubFragment;->C(Landroid/view/View;)V
 
-    .line 7
     iget-object p1, p0, Lcom/commsource/studio/function/CleanOilFragment;->d0:Lcom/commsource/beautyplus/f0/cb;
 
     if-nez p1, :cond_4
@@ -1467,7 +1356,6 @@
 
     const/16 v1, 0x32
 
-    .line 8
     invoke-static {}, Lcom/meitu/library/p/f/i;->z()I
 
     move-result v2
@@ -1478,7 +1366,6 @@
 
     mul-float v2, v2, v3
 
-    .line 9
     invoke-static {}, Lcom/meitu/library/p/f/i;->z()I
 
     move-result v3
@@ -1489,10 +1376,8 @@
 
     mul-float v3, v3, v4
 
-    .line 10
     invoke-virtual {p1, v1, v2, v3}, Lcom/commsource/studio/component/PaintEraserComponent;->m(IFF)V
 
-    .line 11
     iget-object p1, p0, Lcom/commsource/studio/function/CleanOilFragment;->d0:Lcom/commsource/beautyplus/f0/cb;
 
     if-nez p1, :cond_5
@@ -1508,7 +1393,6 @@
 
     invoke-virtual {p1, v1}, Lcom/commsource/studio/component/AutoManualComponent;->setForceManualMode(Z)V
 
-    .line 12
     iget-object p1, p0, Lcom/commsource/studio/function/CleanOilFragment;->d0:Lcom/commsource/beautyplus/f0/cb;
 
     if-nez p1, :cond_6
@@ -1526,7 +1410,6 @@
 
     invoke-virtual {p1, v1}, Lcom/commsource/studio/component/AutoManualComponent;->setForceTips(Ljava/lang/String;)V
 
-    .line 13
     iget-object p1, p0, Lcom/commsource/studio/function/CleanOilFragment;->d0:Lcom/commsource/beautyplus/f0/cb;
 
     if-nez p1, :cond_7
@@ -1542,7 +1425,6 @@
 
     invoke-virtual {p1, p2}, Lcom/commsource/widget/XSeekBar;->f(Lcom/commsource/widget/XSeekBar$b;)V
 
-    .line 14
     invoke-virtual {p0}, Lcom/commsource/studio/function/BaseSubFragment;->r0()Lcom/commsource/studio/ImageStudioViewModel;
 
     move-result-object p1
@@ -1551,7 +1433,6 @@
 
     move-result-object p1
 
-    .line 15
     invoke-virtual {p0}, Landroidx/fragment/app/Fragment;->getViewLifecycleOwner()Landroidx/lifecycle/LifecycleOwner;
 
     move-result-object p2
@@ -1560,15 +1441,12 @@
 
     invoke-static {p2, v1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 16
     new-instance v1, Lcom/commsource/studio/function/CleanOilFragment$e;
 
     invoke-direct {v1, p0}, Lcom/commsource/studio/function/CleanOilFragment$e;-><init>(Lcom/commsource/studio/function/CleanOilFragment;)V
 
-    .line 17
     invoke-virtual {p1, p2, v1}, Lcom/commsource/beautyfilter/NoStickLiveData;->a(Landroidx/lifecycle/LifecycleOwner;Lcom/commsource/beautyfilter/NoStickLiveData$a;)V
 
-    .line 18
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

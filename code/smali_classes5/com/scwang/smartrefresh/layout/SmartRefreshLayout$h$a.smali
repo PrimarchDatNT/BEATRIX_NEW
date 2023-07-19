@@ -27,7 +27,6 @@
 .method constructor <init>(Lcom/scwang/smartrefresh/layout/SmartRefreshLayout$h;I)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/scwang/smartrefresh/layout/SmartRefreshLayout$h$a;->b:Lcom/scwang/smartrefresh/layout/SmartRefreshLayout$h;
 
     iput p2, p0, Lcom/scwang/smartrefresh/layout/SmartRefreshLayout$h$a;->a:I
@@ -42,7 +41,6 @@
 .method public run()V
     .locals 7
 
-    .line 1
     iget-object v0, p0, Lcom/scwang/smartrefresh/layout/SmartRefreshLayout$h$a;->b:Lcom/scwang/smartrefresh/layout/SmartRefreshLayout$h;
 
     iget-object v0, v0, Lcom/scwang/smartrefresh/layout/SmartRefreshLayout$h;->f:Lcom/scwang/smartrefresh/layout/SmartRefreshLayout;
@@ -57,7 +55,6 @@
 
     if-gez v1, :cond_0
 
-    .line 2
     iget-object v1, v0, Lcom/scwang/smartrefresh/layout/SmartRefreshLayout;->X0:Lcom/scwang/smartrefresh/layout/c/e;
 
     iget v0, v0, Lcom/scwang/smartrefresh/layout/SmartRefreshLayout;->b:I
@@ -78,7 +75,6 @@
 
     new-array v1, v1, [I
 
-    .line 3
     fill-array-data v1, :array_0
 
     invoke-static {v1}, Landroid/animation/ValueAnimator;->ofInt([I)Landroid/animation/ValueAnimator;
@@ -87,13 +83,11 @@
 
     invoke-interface {v0, v1}, Landroid/animation/ValueAnimator$AnimatorUpdateListener;->onAnimationUpdate(Landroid/animation/ValueAnimator;)V
 
-    .line 4
     :cond_1
     new-instance v1, Lcom/scwang/smartrefresh/layout/SmartRefreshLayout$h$a$a;
 
     invoke-direct {v1, p0}, Lcom/scwang/smartrefresh/layout/SmartRefreshLayout$h$a$a;-><init>(Lcom/scwang/smartrefresh/layout/SmartRefreshLayout$h$a;)V
 
-    .line 5
     iget-object v3, p0, Lcom/scwang/smartrefresh/layout/SmartRefreshLayout$h$a;->b:Lcom/scwang/smartrefresh/layout/SmartRefreshLayout$h;
 
     iget-object v4, v3, Lcom/scwang/smartrefresh/layout/SmartRefreshLayout$h;->f:Lcom/scwang/smartrefresh/layout/SmartRefreshLayout;
@@ -104,7 +98,6 @@
 
     if-lez v5, :cond_2
 
-    .line 6
     iget-object v0, v4, Lcom/scwang/smartrefresh/layout/SmartRefreshLayout;->a1:Lcom/scwang/smartrefresh/layout/c/i;
 
     invoke-interface {v0, v6}, Lcom/scwang/smartrefresh/layout/c/i;->d(I)Landroid/animation/ValueAnimator;
@@ -120,7 +113,6 @@
 
     goto :goto_1
 
-    .line 7
     :cond_3
     iget-boolean v0, v3, Lcom/scwang/smartrefresh/layout/SmartRefreshLayout$h;->c:Z
 
@@ -130,21 +122,18 @@
 
     if-eqz v0, :cond_5
 
-    .line 8
     iget v0, v4, Lcom/scwang/smartrefresh/layout/SmartRefreshLayout;->N0:I
 
     neg-int v3, v0
 
     if-lt v5, v3, :cond_4
 
-    .line 9
     sget-object v0, Lcom/scwang/smartrefresh/layout/constant/RefreshState;->None:Lcom/scwang/smartrefresh/layout/constant/RefreshState;
 
     invoke-virtual {v4, v0}, Lcom/scwang/smartrefresh/layout/SmartRefreshLayout;->v0(Lcom/scwang/smartrefresh/layout/constant/RefreshState;)V
 
     goto :goto_2
 
-    .line 10
     :cond_4
     iget-object v3, v4, Lcom/scwang/smartrefresh/layout/SmartRefreshLayout;->a1:Lcom/scwang/smartrefresh/layout/c/i;
 
@@ -156,7 +145,6 @@
 
     goto :goto_3
 
-    .line 11
     :cond_5
     iget-object v0, v4, Lcom/scwang/smartrefresh/layout/SmartRefreshLayout;->a1:Lcom/scwang/smartrefresh/layout/c/i;
 
@@ -166,24 +154,20 @@
 
     goto :goto_3
 
-    .line 12
     :cond_6
     :goto_1
     iget-object v0, v4, Lcom/scwang/smartrefresh/layout/SmartRefreshLayout;->n1:Landroid/animation/ValueAnimator;
 
     if-eqz v0, :cond_7
 
-    .line 13
     invoke-virtual {v0}, Landroid/animation/ValueAnimator;->cancel()V
 
-    .line 14
     iget-object v0, p0, Lcom/scwang/smartrefresh/layout/SmartRefreshLayout$h$a;->b:Lcom/scwang/smartrefresh/layout/SmartRefreshLayout$h;
 
     iget-object v0, v0, Lcom/scwang/smartrefresh/layout/SmartRefreshLayout$h;->f:Lcom/scwang/smartrefresh/layout/SmartRefreshLayout;
 
     iput-object v2, v0, Lcom/scwang/smartrefresh/layout/SmartRefreshLayout;->n1:Landroid/animation/ValueAnimator;
 
-    .line 15
     :cond_7
     iget-object v0, p0, Lcom/scwang/smartrefresh/layout/SmartRefreshLayout$h$a;->b:Lcom/scwang/smartrefresh/layout/SmartRefreshLayout$h;
 
@@ -193,7 +177,6 @@
 
     invoke-interface {v0, v6, v6}, Lcom/scwang/smartrefresh/layout/c/i;->g(IZ)Lcom/scwang/smartrefresh/layout/c/i;
 
-    .line 16
     iget-object v0, p0, Lcom/scwang/smartrefresh/layout/SmartRefreshLayout$h$a;->b:Lcom/scwang/smartrefresh/layout/SmartRefreshLayout$h;
 
     iget-object v0, v0, Lcom/scwang/smartrefresh/layout/SmartRefreshLayout$h;->f:Lcom/scwang/smartrefresh/layout/SmartRefreshLayout;
@@ -210,12 +193,10 @@
     :goto_3
     if-eqz v0, :cond_8
 
-    .line 17
     invoke-virtual {v0, v1}, Landroid/animation/ValueAnimator;->addListener(Landroid/animation/Animator$AnimatorListener;)V
 
     goto :goto_4
 
-    .line 18
     :cond_8
     invoke-virtual {v1, v2}, Landroid/animation/AnimatorListenerAdapter;->onAnimationEnd(Landroid/animation/Animator;)V
 

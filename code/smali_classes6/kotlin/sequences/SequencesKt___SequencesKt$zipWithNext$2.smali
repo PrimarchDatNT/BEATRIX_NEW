@@ -163,7 +163,6 @@
 
     move-result-object v0
 
-    .line 1
     iget v1, p0, Lcotlin/sequences/SequencesKt___SequencesKt$zipWithNext$2;->label:I
 
     const/4 v2, 0x1
@@ -188,7 +187,6 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     new-instance p1, Ljava/lang/IllegalStateException;
 
@@ -198,7 +196,6 @@
 
     throw p1
 
-    .line 3
     :cond_1
     invoke-static {p1}, Lcotlin/r0;->n(Ljava/lang/Object;)V
 
@@ -206,14 +203,12 @@
 
     check-cast p1, Lcotlin/sequences/o;
 
-    .line 4
     iget-object v1, p0, Lcotlin/sequences/SequencesKt___SequencesKt$zipWithNext$2;->$this_zipWithNext:Lcotlin/sequences/m;
 
     invoke-interface {v1}, Lcotlin/sequences/m;->iterator()Ljava/util/Iterator;
 
     move-result-object v1
 
-    .line 5
     invoke-interface {v1}, Ljava/util/Iterator;->hasNext()Z
 
     move-result v3
@@ -224,7 +219,6 @@
 
     return-object p1
 
-    .line 6
     :cond_2
     invoke-interface {v1}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
@@ -239,7 +233,6 @@
     :goto_0
     move-object v1, p0
 
-    .line 7
     :goto_1
     invoke-interface {v3}, Ljava/util/Iterator;->hasNext()Z
 
@@ -247,12 +240,10 @@
 
     if-eqz v5, :cond_4
 
-    .line 8
     invoke-interface {v3}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
     move-result-object v5
 
-    .line 9
     iget-object v6, v1, Lcotlin/sequences/SequencesKt___SequencesKt$zipWithNext$2;->$transform:Lcotlin/jvm/u/p;
 
     invoke-interface {v6, p1, v5}, Lcotlin/jvm/u/p;->invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
@@ -280,7 +271,6 @@
 
     goto :goto_1
 
-    .line 10
     :cond_4
     sget-object p1, Lcotlin/t1;->a:Lcotlin/t1;
 

@@ -15,7 +15,6 @@
 .method public constructor <init>(Ljava/lang/String;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1}, Lf/k/k/d;-><init>(Ljava/lang/String;)V
 
     return-void
@@ -30,10 +29,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lf/k/k/l;->p:Ljava/io/File;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
@@ -46,10 +43,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lf/k/k/l;->o:Ljava/lang/String;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
@@ -66,13 +61,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lf/k/k/l;->q:Lf/k/k/n;
 
-    .line 2
     invoke-super {p0, p1}, Lf/k/k/d;->j(Lf/k/k/p;)Lf/k/k/d;
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -91,7 +83,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0, p1}, Lf/k/k/d;->j(Lf/k/k/p;)Lf/k/k/d;
 
     move-result-object p1
@@ -108,7 +99,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const-string v0, "post"
@@ -135,10 +125,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p1, p2}, Lokhttp3/Request$Builder;->url(Ljava/lang/String;)Lokhttp3/Request$Builder;
 
-    .line 2
     new-instance v1, Lokhttp3/MultipartBody$Builder;
 
     invoke-direct {v1}, Lokhttp3/MultipartBody$Builder;-><init>()V
@@ -149,7 +137,6 @@
 
     move-result-object v1
 
-    .line 3
     invoke-interface {p3}, Ljava/util/Map;->keySet()Ljava/util/Set;
 
     move-result-object v2
@@ -171,7 +158,6 @@
 
     check-cast v3, Ljava/lang/String;
 
-    .line 4
     invoke-interface {p3, v3}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v4
@@ -184,7 +170,6 @@
 
     goto :goto_0
 
-    .line 5
     :cond_0
     new-instance p3, Lf/k/k/t/a;
 
@@ -206,7 +191,6 @@
 
     invoke-virtual {v1, p3}, Lokhttp3/MultipartBody$Builder;->addPart(Lokhttp3/RequestBody;)Lokhttp3/MultipartBody$Builder;
 
-    .line 6
     invoke-virtual {p1, p2}, Lokhttp3/Request$Builder;->url(Ljava/lang/String;)Lokhttp3/Request$Builder;
 
     move-result-object p1

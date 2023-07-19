@@ -14,7 +14,6 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-interface {p0}, Lcotlinx/coroutines/scheduling/i;->i()V
 
     return-void
@@ -29,7 +28,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget-object p0, p0, Lcotlinx/coroutines/scheduling/h;->b:Lcotlinx/coroutines/scheduling/i;
 
     return-object p0

@@ -33,7 +33,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/commsource/easyeditor/utils/opengl/Rotation;
 
     const-string v2, "NORMAL"
@@ -86,7 +85,6 @@
 
     aput-object v6, v8, v9
 
-    .line 2
     sput-object v8, Lcom/commsource/easyeditor/utils/opengl/Rotation;->$VALUES:[Lcom/commsource/easyeditor/utils/opengl/Rotation;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -102,7 +100,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
     return-void
@@ -133,14 +130,12 @@
 
     if-ne p0, v1, :cond_0
 
-    .line 1
     sget-object p0, Lcom/commsource/easyeditor/utils/opengl/Rotation;->NORMAL:Lcom/commsource/easyeditor/utils/opengl/Rotation;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
 
-    .line 2
     :cond_0
     new-instance v1, Ljava/lang/IllegalStateException;
 
@@ -164,7 +159,6 @@
 
     throw v1
 
-    .line 3
     :cond_1
     sget-object p0, Lcom/commsource/easyeditor/utils/opengl/Rotation;->ROTATION_270:Lcom/commsource/easyeditor/utils/opengl/Rotation;
 
@@ -172,7 +166,6 @@
 
     return-object p0
 
-    .line 4
     :cond_2
     sget-object p0, Lcom/commsource/easyeditor/utils/opengl/Rotation;->ROTATION_180:Lcom/commsource/easyeditor/utils/opengl/Rotation;
 
@@ -180,7 +173,6 @@
 
     return-object p0
 
-    .line 5
     :cond_3
     sget-object p0, Lcom/commsource/easyeditor/utils/opengl/Rotation;->ROTATION_90:Lcom/commsource/easyeditor/utils/opengl/Rotation;
 
@@ -188,7 +180,6 @@
 
     return-object p0
 
-    .line 6
     :cond_4
     sget-object p0, Lcom/commsource/easyeditor/utils/opengl/Rotation;->NORMAL:Lcom/commsource/easyeditor/utils/opengl/Rotation;
 
@@ -204,7 +195,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     const-class v1, Lcom/commsource/easyeditor/utils/opengl/Rotation;
 
     invoke-static {v1, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -225,7 +215,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/easyeditor/utils/opengl/Rotation;->$VALUES:[Lcom/commsource/easyeditor/utils/opengl/Rotation;
 
     invoke-virtual {v1}, [Lcom/commsource/easyeditor/utils/opengl/Rotation;->clone()Ljava/lang/Object;
@@ -248,7 +237,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/easyeditor/utils/opengl/Rotation$a;->a:[I
 
     invoke-virtual {p0}, Ljava/lang/Enum;->ordinal()I
@@ -275,12 +263,10 @@
 
     const/16 v1, 0x10e
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
 
-    .line 3
     :cond_0
     new-instance v1, Ljava/lang/IllegalStateException;
 
@@ -295,7 +281,6 @@
     :cond_1
     const/16 v1, 0xb4
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
@@ -303,7 +288,6 @@
     :cond_2
     const/16 v1, 0x5a
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
@@ -311,7 +295,6 @@
     :cond_3
     const/4 v1, 0x0
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1

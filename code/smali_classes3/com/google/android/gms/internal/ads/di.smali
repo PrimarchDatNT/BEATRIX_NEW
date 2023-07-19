@@ -12,7 +12,6 @@
 
     const-string v0, "com.google.android.gms.ads.internal.reward.client.IRewardItem"
 
-    .line 1
     invoke-direct {p0, v0}, Lcom/google/android/gms/internal/ads/l82;-><init>(Ljava/lang/String;)V
 
     return-void
@@ -40,30 +39,24 @@
 
     return p1
 
-    .line 1
     :cond_0
     invoke-interface {p0}, Lcom/google/android/gms/internal/ads/ei;->r()I
 
     move-result p1
 
-    .line 2
     invoke-virtual {p3}, Landroid/os/Parcel;->writeNoException()V
 
-    .line 3
     invoke-virtual {p3, p1}, Landroid/os/Parcel;->writeInt(I)V
 
     goto :goto_0
 
-    .line 4
     :cond_1
     invoke-interface {p0}, Lcom/google/android/gms/internal/ads/ei;->getType()Ljava/lang/String;
 
     move-result-object p1
 
-    .line 5
     invoke-virtual {p3}, Landroid/os/Parcel;->writeNoException()V
 
-    .line 6
     invoke-virtual {p3, p1}, Landroid/os/Parcel;->writeString(Ljava/lang/String;)V
 
     :goto_0

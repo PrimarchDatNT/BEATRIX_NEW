@@ -67,17 +67,14 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     new-instance v0, Lcotlinx/coroutines/selects/b;
 
     invoke-direct {v0, p1}, Lcotlinx/coroutines/selects/b;-><init>(Lcotlin/coroutines/c;)V
 
     iput-object v0, p0, Lcotlinx/coroutines/selects/UnbiasedSelectBuilderImpl;->a:Lcotlinx/coroutines/selects/b;
 
-    .line 3
     new-instance p1, Ljava/util/ArrayList;
 
     invoke-direct {p1}, Ljava/util/ArrayList;-><init>()V
@@ -104,7 +101,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcotlinx/coroutines/selects/UnbiasedSelectBuilderImpl;->b:Ljava/util/ArrayList;
 
     return-object v0
@@ -133,7 +129,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcotlinx/coroutines/selects/UnbiasedSelectBuilderImpl;->b:Ljava/util/ArrayList;
 
     new-instance v1, Lcotlinx/coroutines/selects/UnbiasedSelectBuilderImpl$invoke$1;
@@ -158,7 +153,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcotlinx/coroutines/selects/UnbiasedSelectBuilderImpl;->a:Lcotlinx/coroutines/selects/b;
 
     return-object v0
@@ -173,7 +167,6 @@
     .annotation build Lcotlin/p0;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcotlinx/coroutines/selects/UnbiasedSelectBuilderImpl;->a:Lcotlinx/coroutines/selects/b;
 
     invoke-virtual {v0, p1}, Lcotlinx/coroutines/selects/b;->n0(Ljava/lang/Throwable;)V
@@ -189,7 +182,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcotlinx/coroutines/selects/UnbiasedSelectBuilderImpl;->a:Lcotlinx/coroutines/selects/b;
 
     invoke-virtual {v0}, Lcotlinx/coroutines/selects/b;->g()Z
@@ -198,16 +190,13 @@
 
     if-nez v0, :cond_0
 
-    .line 2
     :try_start_0
     iget-object v0, p0, Lcotlinx/coroutines/selects/UnbiasedSelectBuilderImpl;->b:Ljava/util/ArrayList;
 
     invoke-static {v0}, Ljava/util/Collections;->shuffle(Ljava/util/List;)V
 
-    .line 3
     iget-object v0, p0, Lcotlinx/coroutines/selects/UnbiasedSelectBuilderImpl;->b:Ljava/util/ArrayList;
 
-    .line 4
     invoke-interface {v0}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v0
@@ -225,7 +214,6 @@
 
     check-cast v1, Lcotlin/jvm/u/a;
 
-    .line 5
     invoke-interface {v1}, Lcotlin/jvm/u/a;->invoke()Ljava/lang/Object;
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
@@ -235,12 +223,10 @@
     :catchall_0
     move-exception v0
 
-    .line 6
     iget-object v1, p0, Lcotlinx/coroutines/selects/UnbiasedSelectBuilderImpl;->a:Lcotlinx/coroutines/selects/b;
 
     invoke-virtual {v1, v0}, Lcotlinx/coroutines/selects/b;->n0(Ljava/lang/Throwable;)V
 
-    .line 7
     :cond_0
     iget-object v0, p0, Lcotlinx/coroutines/selects/UnbiasedSelectBuilderImpl;->a:Lcotlinx/coroutines/selects/b;
 
@@ -279,7 +265,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcotlinx/coroutines/selects/UnbiasedSelectBuilderImpl;->b:Ljava/util/ArrayList;
 
     new-instance v1, Lcotlinx/coroutines/selects/UnbiasedSelectBuilderImpl$invoke$3;
@@ -309,7 +294,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcotlinx/coroutines/selects/UnbiasedSelectBuilderImpl;->b:Ljava/util/ArrayList;
 
     new-instance v1, Lcotlinx/coroutines/selects/UnbiasedSelectBuilderImpl$onTimeout$1;
@@ -349,7 +333,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p0, p1, p2}, Lcotlinx/coroutines/selects/a$a;->a(Lcotlinx/coroutines/selects/a;Lcotlinx/coroutines/selects/e;Lcotlin/jvm/u/p;)V
 
     return-void
@@ -381,7 +364,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcotlinx/coroutines/selects/UnbiasedSelectBuilderImpl;->b:Ljava/util/ArrayList;
 
     new-instance v1, Lcotlinx/coroutines/selects/UnbiasedSelectBuilderImpl$invoke$2;

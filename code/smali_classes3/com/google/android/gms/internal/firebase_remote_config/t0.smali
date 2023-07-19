@@ -38,14 +38,12 @@
 .method constructor <init>(Lcom/google/android/gms/internal/firebase_remote_config/r0;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/android/gms/internal/firebase_remote_config/t0;->p:Lcom/google/android/gms/internal/firebase_remote_config/r0;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/4 p1, -0x1
 
-    .line 2
     iput p1, p0, Lcom/google/android/gms/internal/firebase_remote_config/t0;->a:I
 
     return-void
@@ -56,22 +54,18 @@
 .method public final hasNext()Z
     .locals 4
 
-    .line 1
     iget-boolean v0, p0, Lcom/google/android/gms/internal/firebase_remote_config/t0;->f:Z
 
     const/4 v1, 0x1
 
     if-nez v0, :cond_0
 
-    .line 2
     iput-boolean v1, p0, Lcom/google/android/gms/internal/firebase_remote_config/t0;->f:Z
 
     const/4 v0, 0x0
 
-    .line 3
     iput-object v0, p0, Lcom/google/android/gms/internal/firebase_remote_config/t0;->c:Ljava/lang/Object;
 
-    .line 4
     :goto_0
     iget-object v0, p0, Lcom/google/android/gms/internal/firebase_remote_config/t0;->c:Ljava/lang/Object;
 
@@ -95,7 +89,6 @@
 
     if-ge v0, v2, :cond_0
 
-    .line 5
     iget-object v0, p0, Lcom/google/android/gms/internal/firebase_remote_config/t0;->p:Lcom/google/android/gms/internal/firebase_remote_config/r0;
 
     iget-object v0, v0, Lcom/google/android/gms/internal/firebase_remote_config/r0;->b:Lcom/google/android/gms/internal/firebase_remote_config/q0;
@@ -116,7 +109,6 @@
 
     iput-object v0, p0, Lcom/google/android/gms/internal/firebase_remote_config/t0;->b:Lcom/google/android/gms/internal/firebase_remote_config/w0;
 
-    .line 6
     iget-object v2, p0, Lcom/google/android/gms/internal/firebase_remote_config/t0;->p:Lcom/google/android/gms/internal/firebase_remote_config/r0;
 
     iget-object v2, v2, Lcom/google/android/gms/internal/firebase_remote_config/r0;->a:Ljava/lang/Object;
@@ -129,7 +121,6 @@
 
     goto :goto_0
 
-    .line 7
     :cond_0
     iget-object v0, p0, Lcom/google/android/gms/internal/firebase_remote_config/t0;->c:Ljava/lang/Object;
 
@@ -146,38 +137,30 @@
 .method public final synthetic next()Ljava/lang/Object;
     .locals 4
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/android/gms/internal/firebase_remote_config/t0;->hasNext()Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
-    .line 2
     iget-object v0, p0, Lcom/google/android/gms/internal/firebase_remote_config/t0;->b:Lcom/google/android/gms/internal/firebase_remote_config/w0;
 
     iput-object v0, p0, Lcom/google/android/gms/internal/firebase_remote_config/t0;->g:Lcom/google/android/gms/internal/firebase_remote_config/w0;
 
-    .line 3
     iget-object v1, p0, Lcom/google/android/gms/internal/firebase_remote_config/t0;->c:Ljava/lang/Object;
 
     const/4 v2, 0x0
 
-    .line 4
     iput-boolean v2, p0, Lcom/google/android/gms/internal/firebase_remote_config/t0;->f:Z
 
-    .line 5
     iput-boolean v2, p0, Lcom/google/android/gms/internal/firebase_remote_config/t0;->d:Z
 
     const/4 v2, 0x0
 
-    .line 6
     iput-object v2, p0, Lcom/google/android/gms/internal/firebase_remote_config/t0;->b:Lcom/google/android/gms/internal/firebase_remote_config/w0;
 
-    .line 7
     iput-object v2, p0, Lcom/google/android/gms/internal/firebase_remote_config/t0;->c:Ljava/lang/Object;
 
-    .line 8
     new-instance v2, Lcom/google/android/gms/internal/firebase_remote_config/u0;
 
     iget-object v3, p0, Lcom/google/android/gms/internal/firebase_remote_config/t0;->p:Lcom/google/android/gms/internal/firebase_remote_config/r0;
@@ -186,7 +169,6 @@
 
     return-object v2
 
-    .line 9
     :cond_0
     new-instance v0, Ljava/util/NoSuchElementException;
 
@@ -198,7 +180,6 @@
 .method public final remove()V
     .locals 3
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/firebase_remote_config/t0;->g:Lcom/google/android/gms/internal/firebase_remote_config/w0;
 
     const/4 v1, 0x1
@@ -216,14 +197,11 @@
     :cond_0
     const/4 v0, 0x0
 
-    .line 2
     :goto_0
     invoke-static {v0}, Lcom/google/android/gms/internal/firebase_remote_config/s2;->b(Z)V
 
-    .line 3
     iput-boolean v1, p0, Lcom/google/android/gms/internal/firebase_remote_config/t0;->d:Z
 
-    .line 4
     iget-object v0, p0, Lcom/google/android/gms/internal/firebase_remote_config/t0;->g:Lcom/google/android/gms/internal/firebase_remote_config/w0;
 
     iget-object v1, p0, Lcom/google/android/gms/internal/firebase_remote_config/t0;->p:Lcom/google/android/gms/internal/firebase_remote_config/r0;

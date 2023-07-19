@@ -10,13 +10,10 @@
 .method constructor <init>([B)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/google/android/gms/internal/firebase_auth/zzgq;-><init>()V
 
-    .line 2
     invoke-static {p1}, Ljava/util/Objects;->requireNonNull(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 3
     iput-object p1, p0, Lcom/google/android/gms/internal/firebase_auth/zzgp;->zzwd:[B
 
     return-void
@@ -33,7 +30,6 @@
 
     return v0
 
-    .line 1
     :cond_0
     instance-of v1, p1, Lcom/google/android/gms/internal/firebase_auth/zzgf;
 
@@ -43,7 +39,6 @@
 
     return v2
 
-    .line 2
     :cond_1
     invoke-virtual {p0}, Lcom/google/android/gms/internal/firebase_auth/zzgf;->size()I
 
@@ -61,7 +56,6 @@
 
     return v2
 
-    .line 3
     :cond_2
     invoke-virtual {p0}, Lcom/google/android/gms/internal/firebase_auth/zzgf;->size()I
 
@@ -71,21 +65,17 @@
 
     return v0
 
-    .line 4
     :cond_3
     instance-of v0, p1, Lcom/google/android/gms/internal/firebase_auth/zzgp;
 
     if-eqz v0, :cond_5
 
-    .line 5
     check-cast p1, Lcom/google/android/gms/internal/firebase_auth/zzgp;
 
-    .line 6
     invoke-virtual {p0}, Lcom/google/android/gms/internal/firebase_auth/zzgf;->zzge()I
 
     move-result v0
 
-    .line 7
     invoke-virtual {p1}, Lcom/google/android/gms/internal/firebase_auth/zzgf;->zzge()I
 
     move-result v1
@@ -98,7 +88,6 @@
 
     return v2
 
-    .line 8
     :cond_4
     invoke-virtual {p0}, Lcom/google/android/gms/internal/firebase_auth/zzgf;->size()I
 
@@ -110,7 +99,6 @@
 
     return p1
 
-    .line 9
     :cond_5
     invoke-virtual {p1, p0}, Ljava/lang/Object;->equals(Ljava/lang/Object;)Z
 
@@ -122,7 +110,6 @@
 .method public size()I
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/firebase_auth/zzgp;->zzwd:[B
 
     array-length v0, v0
@@ -133,7 +120,6 @@
 .method protected final zza(Ljava/nio/charset/Charset;)Ljava/lang/String;
     .locals 4
 
-    .line 2
     new-instance v0, Ljava/lang/String;
 
     iget-object v1, p0, Lcom/google/android/gms/internal/firebase_auth/zzgp;->zzwd:[B
@@ -159,7 +145,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/firebase_auth/zzgp;->zzwd:[B
 
     invoke-virtual {p0}, Lcom/google/android/gms/internal/firebase_auth/zzgp;->zzgf()I
@@ -178,49 +163,40 @@
 .method final zza(Lcom/google/android/gms/internal/firebase_auth/zzgf;II)Z
     .locals 5
 
-    .line 3
     invoke-virtual {p1}, Lcom/google/android/gms/internal/firebase_auth/zzgf;->size()I
 
     move-result p2
 
     if-gt p3, p2, :cond_4
 
-    .line 4
     invoke-virtual {p1}, Lcom/google/android/gms/internal/firebase_auth/zzgf;->size()I
 
     move-result p2
 
     if-gt p3, p2, :cond_3
 
-    .line 5
     instance-of p2, p1, Lcom/google/android/gms/internal/firebase_auth/zzgp;
 
     const/4 v0, 0x0
 
     if-eqz p2, :cond_2
 
-    .line 6
     check-cast p1, Lcom/google/android/gms/internal/firebase_auth/zzgp;
 
-    .line 7
     iget-object p2, p0, Lcom/google/android/gms/internal/firebase_auth/zzgp;->zzwd:[B
 
-    .line 8
     iget-object v1, p1, Lcom/google/android/gms/internal/firebase_auth/zzgp;->zzwd:[B
 
-    .line 9
     invoke-virtual {p0}, Lcom/google/android/gms/internal/firebase_auth/zzgp;->zzgf()I
 
     move-result v2
 
     add-int/2addr v2, p3
 
-    .line 10
     invoke-virtual {p0}, Lcom/google/android/gms/internal/firebase_auth/zzgp;->zzgf()I
 
     move-result p3
 
-    .line 11
     invoke-virtual {p1}, Lcom/google/android/gms/internal/firebase_auth/zzgp;->zzgf()I
 
     move-result p1
@@ -228,7 +204,6 @@
     :goto_0
     if-ge p3, v2, :cond_1
 
-    .line 12
     aget-byte v3, p2, p3
 
     aget-byte v4, v1, p1
@@ -249,7 +224,6 @@
 
     return p1
 
-    .line 13
     :cond_2
     invoke-virtual {p1, v0, p3}, Lcom/google/android/gms/internal/firebase_auth/zzgf;->zzd(II)Lcom/google/android/gms/internal/firebase_auth/zzgf;
 
@@ -265,11 +239,9 @@
 
     return p1
 
-    .line 14
     :cond_3
     new-instance p2, Ljava/lang/IllegalArgumentException;
 
-    .line 15
     invoke-virtual {p1}, Lcom/google/android/gms/internal/firebase_auth/zzgf;->size()I
 
     move-result p1
@@ -300,7 +272,6 @@
 
     throw p2
 
-    .line 16
     :cond_4
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -334,7 +305,6 @@
 .method protected final zzb(III)I
     .locals 1
 
-    .line 1
     iget-object p2, p0, Lcom/google/android/gms/internal/firebase_auth/zzgp;->zzwd:[B
 
     invoke-virtual {p0}, Lcom/google/android/gms/internal/firebase_auth/zzgp;->zzgf()I
@@ -351,7 +321,6 @@
 .method public final zzd(II)Lcom/google/android/gms/internal/firebase_auth/zzgf;
     .locals 2
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/android/gms/internal/firebase_auth/zzgf;->size()I
 
     move-result p1
@@ -364,12 +333,10 @@
 
     if-nez p1, :cond_0
 
-    .line 2
     sget-object p1, Lcom/google/android/gms/internal/firebase_auth/zzgf;->zzvv:Lcom/google/android/gms/internal/firebase_auth/zzgf;
 
     return-object p1
 
-    .line 3
     :cond_0
     new-instance p2, Lcom/google/android/gms/internal/firebase_auth/zzgm;
 
@@ -387,12 +354,10 @@
 .method public final zzgd()Z
     .locals 3
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/android/gms/internal/firebase_auth/zzgp;->zzgf()I
 
     move-result v0
 
-    .line 2
     iget-object v1, p0, Lcom/google/android/gms/internal/firebase_auth/zzgp;->zzwd:[B
 
     invoke-virtual {p0}, Lcom/google/android/gms/internal/firebase_auth/zzgf;->size()I
@@ -419,7 +384,6 @@
 .method public zzp(I)B
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/firebase_auth/zzgp;->zzwd:[B
 
     aget-byte p1, v0, p1
@@ -430,7 +394,6 @@
 .method zzq(I)B
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/firebase_auth/zzgp;->zzwd:[B
 
     aget-byte p1, v0, p1

@@ -54,7 +54,6 @@
 
     const-wide/16 v0, 0x1
 
-    .line 1
     invoke-virtual {p3, v0, v1, p2}, Ljava/util/concurrent/TimeUnit;->convert(JLjava/util/concurrent/TimeUnit;)J
 
     move-result-wide v2
@@ -71,7 +70,6 @@
 
     return-wide p0
 
-    .line 2
     :cond_0
     invoke-virtual {p2, v0, v1, p3}, Ljava/util/concurrent/TimeUnit;->convert(JLjava/util/concurrent/TimeUnit;)J
 

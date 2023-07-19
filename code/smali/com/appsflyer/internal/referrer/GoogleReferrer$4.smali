@@ -29,7 +29,6 @@
 .method constructor <init>(Lcom/appsflyer/internal/referrer/GoogleReferrer;Landroid/content/Context;Lcom/android/installreferrer/api/InstallReferrerClient;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/appsflyer/internal/referrer/GoogleReferrer$4;->this$0:Lcom/appsflyer/internal/referrer/GoogleReferrer;
 
     iput-object p2, p0, Lcom/appsflyer/internal/referrer/GoogleReferrer$4;->val$context:Landroid/content/Context;
@@ -48,7 +47,6 @@
 
     const-string v0, "Install Referrer service disconnected"
 
-    .line 1
     invoke-static {v0}, Lcom/appsflyer/AFLogger;->afDebugLog(Ljava/lang/String;)V
 
     return-void
@@ -63,7 +61,6 @@
 
     const-string v2, "err"
 
-    .line 1
     iget-object v3, p0, Lcom/appsflyer/internal/referrer/GoogleReferrer$4;->this$0:Lcom/appsflyer/internal/referrer/GoogleReferrer;
 
     iget-object v3, v3, Lcom/appsflyer/internal/referrer/GoogleReferrer;->oldMap:Ljava/util/Map;
@@ -76,7 +73,6 @@
 
     invoke-interface {v3, v5, v4}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 2
     iget-object v3, p0, Lcom/appsflyer/internal/referrer/GoogleReferrer$4;->this$0:Lcom/appsflyer/internal/referrer/GoogleReferrer;
 
     iget-object v3, v3, Lcom/appsflyer/internal/referrer/Referrer;->map:Ljava/util/Map;
@@ -97,7 +93,6 @@
 
     invoke-interface {v3, v6, v4}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 3
     iget-object v3, p0, Lcom/appsflyer/internal/referrer/GoogleReferrer$4;->this$0:Lcom/appsflyer/internal/referrer/GoogleReferrer;
 
     iget-object v3, v3, Lcom/appsflyer/internal/referrer/Referrer;->map:Ljava/util/Map;
@@ -134,7 +129,6 @@
 
     const-string p1, "responseCode not found."
 
-    .line 4
     invoke-static {p1}, Lcom/appsflyer/AFLogger;->afWarnLog(Ljava/lang/String;)V
 
     goto/16 :goto_0
@@ -142,10 +136,8 @@
     :cond_0
     const-string p1, "InstallReferrer DEVELOPER_ERROR"
 
-    .line 5
     invoke-static {p1}, Lcom/appsflyer/AFLogger;->afWarnLog(Ljava/lang/String;)V
 
-    .line 6
     iget-object p1, p0, Lcom/appsflyer/internal/referrer/GoogleReferrer$4;->this$0:Lcom/appsflyer/internal/referrer/GoogleReferrer;
 
     iget-object p1, p1, Lcom/appsflyer/internal/referrer/Referrer;->map:Ljava/util/Map;
@@ -159,10 +151,8 @@
     :cond_1
     const-string p1, "InstallReferrer FEATURE_NOT_SUPPORTED"
 
-    .line 7
     invoke-static {p1}, Lcom/appsflyer/AFLogger;->afWarnLog(Ljava/lang/String;)V
 
-    .line 8
     iget-object p1, p0, Lcom/appsflyer/internal/referrer/GoogleReferrer$4;->this$0:Lcom/appsflyer/internal/referrer/GoogleReferrer;
 
     iget-object p1, p1, Lcom/appsflyer/internal/referrer/Referrer;->map:Ljava/util/Map;
@@ -173,7 +163,6 @@
 
     goto/16 :goto_0
 
-    .line 9
     :cond_2
     iget-object p1, p0, Lcom/appsflyer/internal/referrer/GoogleReferrer$4;->this$0:Lcom/appsflyer/internal/referrer/GoogleReferrer;
 
@@ -185,12 +174,10 @@
 
     const-string p1, "InstallReferrer not supported"
 
-    .line 10
     invoke-static {p1}, Lcom/appsflyer/AFLogger;->afWarnLog(Ljava/lang/String;)V
 
     goto/16 :goto_0
 
-    .line 11
     :cond_3
     iget-object p1, p0, Lcom/appsflyer/internal/referrer/GoogleReferrer$4;->this$0:Lcom/appsflyer/internal/referrer/GoogleReferrer;
 
@@ -203,10 +190,8 @@
     :try_start_0
     const-string p1, "InstallReferrer connected"
 
-    .line 12
     invoke-static {p1}, Lcom/appsflyer/AFLogger;->afDebugLog(Ljava/lang/String;)V
 
-    .line 13
     iget-object p1, p0, Lcom/appsflyer/internal/referrer/GoogleReferrer$4;->val$referrerClient:Lcom/android/installreferrer/api/InstallReferrerClient;
 
     invoke-virtual {p1}, Lcom/android/installreferrer/api/InstallReferrerClient;->isReady()Z
@@ -215,21 +200,18 @@
 
     if-eqz p1, :cond_5
 
-    .line 14
     iget-object p1, p0, Lcom/appsflyer/internal/referrer/GoogleReferrer$4;->val$referrerClient:Lcom/android/installreferrer/api/InstallReferrerClient;
 
     invoke-virtual {p1}, Lcom/android/installreferrer/api/InstallReferrerClient;->getInstallReferrer()Lcom/android/installreferrer/api/ReferrerDetails;
 
     move-result-object p1
 
-    .line 15
     invoke-virtual {p1}, Lcom/android/installreferrer/api/ReferrerDetails;->getInstallReferrer()Ljava/lang/String;
 
     move-result-object v1
 
     if-eqz v1, :cond_4
 
-    .line 16
     iget-object v3, p0, Lcom/appsflyer/internal/referrer/GoogleReferrer$4;->this$0:Lcom/appsflyer/internal/referrer/GoogleReferrer;
 
     iget-object v3, v3, Lcom/appsflyer/internal/referrer/GoogleReferrer;->oldMap:Ljava/util/Map;
@@ -238,7 +220,6 @@
 
     invoke-interface {v3, v4, v1}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 17
     iget-object v3, p0, Lcom/appsflyer/internal/referrer/GoogleReferrer$4;->this$0:Lcom/appsflyer/internal/referrer/GoogleReferrer;
 
     iget-object v3, v3, Lcom/appsflyer/internal/referrer/Referrer;->map:Ljava/util/Map;
@@ -247,13 +228,11 @@
 
     invoke-interface {v3, v4, v1}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 18
     :cond_4
     invoke-virtual {p1}, Lcom/android/installreferrer/api/ReferrerDetails;->getReferrerClickTimestampSeconds()J
 
     move-result-wide v3
 
-    .line 19
     iget-object v1, p0, Lcom/appsflyer/internal/referrer/GoogleReferrer$4;->this$0:Lcom/appsflyer/internal/referrer/GoogleReferrer;
 
     iget-object v1, v1, Lcom/appsflyer/internal/referrer/GoogleReferrer;->oldMap:Ljava/util/Map;
@@ -266,7 +245,6 @@
 
     invoke-interface {v1, v5, v6}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 20
     iget-object v1, p0, Lcom/appsflyer/internal/referrer/GoogleReferrer$4;->this$0:Lcom/appsflyer/internal/referrer/GoogleReferrer;
 
     iget-object v1, v1, Lcom/appsflyer/internal/referrer/Referrer;->map:Ljava/util/Map;
@@ -279,12 +257,10 @@
 
     invoke-interface {v1, v5, v3}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 21
     invoke-virtual {p1}, Lcom/android/installreferrer/api/ReferrerDetails;->getInstallBeginTimestampSeconds()J
 
     move-result-wide v3
 
-    .line 22
     iget-object v1, p0, Lcom/appsflyer/internal/referrer/GoogleReferrer$4;->this$0:Lcom/appsflyer/internal/referrer/GoogleReferrer;
 
     iget-object v1, v1, Lcom/appsflyer/internal/referrer/GoogleReferrer;->oldMap:Ljava/util/Map;
@@ -297,7 +273,6 @@
 
     invoke-interface {v1, v5, v6}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 23
     iget-object v1, p0, Lcom/appsflyer/internal/referrer/GoogleReferrer$4;->this$0:Lcom/appsflyer/internal/referrer/GoogleReferrer;
 
     iget-object v1, v1, Lcom/appsflyer/internal/referrer/Referrer;->map:Ljava/util/Map;
@@ -310,20 +285,17 @@
 
     invoke-interface {v1, v5, v3}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 24
     new-instance v1, Ljava/util/HashMap;
 
     invoke-direct {v1}, Ljava/util/HashMap;-><init>()V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 25
     :try_start_1
     invoke-virtual {p1}, Lcom/android/installreferrer/api/ReferrerDetails;->getGooglePlayInstantParam()Z
 
     move-result v3
 
-    .line 26
     iget-object v4, p0, Lcom/appsflyer/internal/referrer/GoogleReferrer$4;->this$0:Lcom/appsflyer/internal/referrer/GoogleReferrer;
 
     iget-object v4, v4, Lcom/appsflyer/internal/referrer/GoogleReferrer;->oldMap:Ljava/util/Map;
@@ -334,7 +306,6 @@
 
     invoke-interface {v4, v0, v5}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 27
     invoke-static {v3}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
 
     move-result-object v3
@@ -348,7 +319,6 @@
     :try_start_2
     const-string v0, "click_server_ts"
 
-    .line 28
     invoke-virtual {p1}, Lcom/android/installreferrer/api/ReferrerDetails;->getReferrerClickTimestampServerSeconds()J
 
     move-result-wide v3
@@ -361,7 +331,6 @@
 
     const-string v0, "install_begin_server_ts"
 
-    .line 29
     invoke-virtual {p1}, Lcom/android/installreferrer/api/ReferrerDetails;->getInstallBeginTimestampServerSeconds()J
 
     move-result-wide v3
@@ -374,7 +343,6 @@
 
     const-string v0, "install_version"
 
-    .line 30
     invoke-virtual {p1}, Lcom/android/installreferrer/api/ReferrerDetails;->getInstallVersion()Ljava/lang/String;
 
     move-result-object p1
@@ -384,7 +352,6 @@
     .catch Ljava/lang/NoSuchMethodError; {:try_start_2 .. :try_end_2} :catch_1
     .catchall {:try_start_2 .. :try_end_2} :catchall_0
 
-    .line 31
     :catch_1
     :try_start_3
     invoke-virtual {v1}, Ljava/util/HashMap;->isEmpty()Z
@@ -403,11 +370,9 @@
 
     goto :goto_0
 
-    .line 32
     :cond_5
     invoke-static {v1}, Lcom/appsflyer/AFLogger;->afWarnLog(Ljava/lang/String;)V
 
-    .line 33
     iget-object p1, p0, Lcom/appsflyer/internal/referrer/GoogleReferrer$4;->this$0:Lcom/appsflyer/internal/referrer/GoogleReferrer;
 
     iget-object p1, p1, Lcom/appsflyer/internal/referrer/GoogleReferrer;->oldMap:Ljava/util/Map;
@@ -421,7 +386,6 @@
     :catchall_0
     move-exception p1
 
-    .line 34
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -442,7 +406,6 @@
 
     invoke-static {v0}, Lcom/appsflyer/AFLogger;->afWarnLog(Ljava/lang/String;)V
 
-    .line 35
     iget-object v0, p0, Lcom/appsflyer/internal/referrer/GoogleReferrer$4;->this$0:Lcom/appsflyer/internal/referrer/GoogleReferrer;
 
     iget-object v0, v0, Lcom/appsflyer/internal/referrer/GoogleReferrer;->oldMap:Ljava/util/Map;
@@ -458,10 +421,8 @@
     :cond_6
     const-string p1, "InstallReferrer SERVICE_DISCONNECTED"
 
-    .line 36
     invoke-static {p1}, Lcom/appsflyer/AFLogger;->afWarnLog(Ljava/lang/String;)V
 
-    .line 37
     iget-object p1, p0, Lcom/appsflyer/internal/referrer/GoogleReferrer$4;->this$0:Lcom/appsflyer/internal/referrer/GoogleReferrer;
 
     iget-object p1, p1, Lcom/appsflyer/internal/referrer/Referrer;->map:Ljava/util/Map;
@@ -474,15 +435,12 @@
     :goto_0
     const-string p1, "Install Referrer collected locally"
 
-    .line 38
     invoke-static {p1}, Lcom/appsflyer/AFLogger;->afDebugLog(Ljava/lang/String;)V
 
-    .line 39
     iget-object p1, p0, Lcom/appsflyer/internal/referrer/GoogleReferrer$4;->this$0:Lcom/appsflyer/internal/referrer/GoogleReferrer;
 
     invoke-virtual {p1}, Lcom/appsflyer/internal/referrer/Referrer;->finish()V
 
-    .line 40
     iget-object p1, p0, Lcom/appsflyer/internal/referrer/GoogleReferrer$4;->val$referrerClient:Lcom/android/installreferrer/api/InstallReferrerClient;
 
     invoke-virtual {p1}, Lcom/android/installreferrer/api/InstallReferrerClient;->endConnection()V

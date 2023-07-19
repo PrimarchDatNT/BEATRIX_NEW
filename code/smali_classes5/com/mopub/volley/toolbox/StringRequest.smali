@@ -53,17 +53,14 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1, p2, p4}, Lcom/mopub/volley/Request;-><init>(ILjava/lang/String;Lcom/mopub/volley/Response$ErrorListener;)V
 
-    .line 2
     new-instance p1, Ljava/lang/Object;
 
     invoke-direct {p1}, Ljava/lang/Object;-><init>()V
 
     iput-object p1, p0, Lcom/mopub/volley/toolbox/StringRequest;->mLock:Ljava/lang/Object;
 
-    .line 3
     iput-object p3, p0, Lcom/mopub/volley/toolbox/StringRequest;->mListener:Lcom/mopub/volley/Response$Listener;
 
     return-void
@@ -89,7 +86,6 @@
 
     const/4 v0, 0x0
 
-    .line 4
     invoke-direct {p0, v0, p1, p2, p3}, Lcom/mopub/volley/toolbox/StringRequest;-><init>(ILjava/lang/String;Lcom/mopub/volley/Response$Listener;Lcom/mopub/volley/Response$ErrorListener;)V
 
     return-void
@@ -100,21 +96,17 @@
 .method public cancel()V
     .locals 2
 
-    .line 1
     invoke-super {p0}, Lcom/mopub/volley/Request;->cancel()V
 
-    .line 2
     iget-object v0, p0, Lcom/mopub/volley/toolbox/StringRequest;->mLock:Ljava/lang/Object;
 
     monitor-enter v0
 
     const/4 v1, 0x0
 
-    .line 3
     :try_start_0
     iput-object v1, p0, Lcom/mopub/volley/toolbox/StringRequest;->mListener:Lcom/mopub/volley/Response$Listener;
 
-    .line 4
     monitor-exit v0
 
     return-void
@@ -132,7 +124,6 @@
 .method protected bridge synthetic deliverResponse(Ljava/lang/Object;)V
     .locals 0
 
-    .line 1
     check-cast p1, Ljava/lang/String;
 
     invoke-virtual {p0, p1}, Lcom/mopub/volley/toolbox/StringRequest;->deliverResponse(Ljava/lang/String;)V
@@ -143,23 +134,19 @@
 .method protected deliverResponse(Ljava/lang/String;)V
     .locals 2
 
-    .line 2
     iget-object v0, p0, Lcom/mopub/volley/toolbox/StringRequest;->mLock:Ljava/lang/Object;
 
     monitor-enter v0
 
-    .line 3
     :try_start_0
     iget-object v1, p0, Lcom/mopub/volley/toolbox/StringRequest;->mListener:Lcom/mopub/volley/Response$Listener;
 
-    .line 4
     monitor-exit v0
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
     if-eqz v1, :cond_0
 
-    .line 5
     invoke-interface {v1, p1}, Lcom/mopub/volley/Response$Listener;->onResponse(Ljava/lang/Object;)V
 
     :cond_0
@@ -168,7 +155,6 @@
     :catchall_0
     move-exception p1
 
-    .line 6
     :try_start_1
     monitor-exit v0
     :try_end_1
@@ -190,7 +176,6 @@
         }
     .end annotation
 
-    .line 1
     :try_start_0
     new-instance v0, Ljava/lang/String;
 
@@ -208,7 +193,6 @@
 
     goto :goto_0
 
-    .line 2
     :catch_0
     new-instance v0, Ljava/lang/String;
 
@@ -216,7 +200,6 @@
 
     invoke-direct {v0, v1}, Ljava/lang/String;-><init>([B)V
 
-    .line 3
     :goto_0
     invoke-static {p1}, Lcom/mopub/volley/toolbox/HttpHeaderParser;->parseCacheHeaders(Lcom/mopub/volley/NetworkResponse;)Lcom/mopub/volley/Cache$Entry;
 

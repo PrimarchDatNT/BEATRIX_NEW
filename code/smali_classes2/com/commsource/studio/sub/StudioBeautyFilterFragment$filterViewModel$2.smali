@@ -55,7 +55,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 2
     new-instance v1, Landroidx/lifecycle/ViewModelProvider;
 
     iget-object v2, p0, Lcom/commsource/studio/sub/StudioBeautyFilterFragment$filterViewModel$2;->this$0:Lcom/commsource/studio/sub/StudioBeautyFilterFragment;
@@ -66,17 +65,14 @@
 
     invoke-direct {v1, v2}, Landroidx/lifecycle/ViewModelProvider;-><init>(Landroidx/lifecycle/ViewModelStoreOwner;)V
 
-    .line 3
     const-class v2, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;
 
-    .line 4
     invoke-virtual {v1, v2}, Landroidx/lifecycle/ViewModelProvider;->get(Ljava/lang/Class;)Landroidx/lifecycle/ViewModel;
 
     move-result-object v1
 
     check-cast v1, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
@@ -89,7 +85,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/studio/sub/StudioBeautyFilterFragment$filterViewModel$2;->invoke()Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;
 
     move-result-object v1

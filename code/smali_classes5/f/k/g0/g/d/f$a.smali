@@ -38,19 +38,14 @@
 .method public constructor <init>(Ljava/lang/String;Ljava/lang/String;JJ)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lf/k/g0/g/d/f$a;->a:Ljava/lang/String;
 
-    .line 3
     iput-object p2, p0, Lf/k/g0/g/d/f$a;->b:Ljava/lang/String;
 
-    .line 4
     iput-wide p3, p0, Lf/k/g0/g/d/f$a;->c:J
 
-    .line 5
     iput-wide p5, p0, Lf/k/g0/g/d/f$a;->d:J
 
     return-void
@@ -68,33 +63,28 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v8, Lf/k/g0/g/d/f$a;
 
     const-string v1, "name"
 
-    .line 2
     invoke-virtual {p0, v1}, Lorg/json/JSONObject;->getString(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v2
 
     const-string v1, "value"
 
-    .line 3
     invoke-virtual {p0, v1}, Lorg/json/JSONObject;->getString(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v3
 
     const-string v1, "timeToLive"
 
-    .line 4
     invoke-virtual {p0, v1}, Lorg/json/JSONObject;->getLong(Ljava/lang/String;)J
 
     move-result-wide v4
 
     const-string v1, "creationTimestamp"
 
-    .line 5
     invoke-virtual {p0, v1}, Lorg/json/JSONObject;->getLong(Ljava/lang/String;)J
 
     move-result-wide v6
@@ -103,7 +93,6 @@
 
     invoke-direct/range {v1 .. v7}, Lf/k/g0/g/d/f$a;-><init>(Ljava/lang/String;Ljava/lang/String;JJ)V
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v8
@@ -123,40 +112,34 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lorg/json/JSONObject;
 
     invoke-direct {v1}, Lorg/json/JSONObject;-><init>()V
 
-    .line 2
     iget-object v2, p0, Lf/k/g0/g/d/f$a;->a:Ljava/lang/String;
 
     const-string v3, "name"
 
     invoke-virtual {v1, v3, v2}, Lorg/json/JSONObject;->put(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;
 
-    .line 3
     iget-object v2, p0, Lf/k/g0/g/d/f$a;->b:Ljava/lang/String;
 
     const-string v3, "value"
 
     invoke-virtual {v1, v3, v2}, Lorg/json/JSONObject;->put(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;
 
-    .line 4
     iget-wide v2, p0, Lf/k/g0/g/d/f$a;->c:J
 
     const-string v4, "timeToLive"
 
     invoke-virtual {v1, v4, v2, v3}, Lorg/json/JSONObject;->put(Ljava/lang/String;J)Lorg/json/JSONObject;
 
-    .line 5
     iget-wide v2, p0, Lf/k/g0/g/d/f$a;->d:J
 
     const-string v4, "creationTimestamp"
 
     invoke-virtual {v1, v4, v2, v3}, Lorg/json/JSONObject;->put(Ljava/lang/String;J)Lorg/json/JSONObject;
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1

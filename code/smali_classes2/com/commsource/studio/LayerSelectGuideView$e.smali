@@ -43,7 +43,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     :try_start_0
     iget-object v1, p0, Lcom/commsource/studio/LayerSelectGuideView$e;->a:Lcom/commsource/studio/LayerSelectGuideView;
 
@@ -61,19 +60,16 @@
 
     move-result v1
 
-    .line 2
     new-instance v2, Ljava/util/LinkedHashMap;
 
     invoke-direct {v2}, Ljava/util/LinkedHashMap;-><init>()V
 
     const/high16 v3, 0x42700000    # 60.0f
 
-    .line 3
     invoke-static {v3}, Lcom/meitu/library/p/f/i;->b(F)F
 
     move-result v3
 
-    .line 4
     iget-object v4, p0, Lcom/commsource/studio/LayerSelectGuideView$e;->a:Lcom/commsource/studio/LayerSelectGuideView;
 
     invoke-virtual {v4}, Lcom/commsource/studio/LayerSelectGuideView;->getContentBinding()Lcom/commsource/beautyplus/f0/ym;
@@ -110,7 +106,6 @@
 
     check-cast v5, Ljava/util/Map$Entry;
 
-    .line 5
     invoke-interface {v5}, Ljava/util/Map$Entry;->getValue()Ljava/lang/Object;
 
     move-result-object v5
@@ -121,14 +116,12 @@
 
     new-array v7, v7, [I
 
-    .line 6
     invoke-virtual {v5}, Lcom/commsource/studio/d0;->g()Landroid/view/ViewGroup;
 
     move-result-object v8
 
     invoke-virtual {v8, v7}, Landroid/view/ViewGroup;->getLocationInWindow([I)V
 
-    .line 7
     aget v8, v7, v6
 
     int-to-float v8, v8
@@ -149,7 +142,6 @@
 
     if-gtz v8, :cond_0
 
-    .line 8
     aget v6, v7, v6
 
     invoke-static {v6}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -160,7 +152,6 @@
 
     goto :goto_0
 
-    .line 9
     :cond_1
     new-instance v1, Ljava/util/TreeMap;
 
@@ -168,10 +159,8 @@
 
     invoke-direct {v1, v3}, Ljava/util/TreeMap;-><init>(Ljava/util/Comparator;)V
 
-    .line 10
     invoke-virtual {v1, v2}, Ljava/util/TreeMap;->putAll(Ljava/util/Map;)V
 
-    .line 11
     new-instance v2, Ljava/util/ArrayList;
 
     invoke-virtual {v1}, Ljava/util/TreeMap;->keySet()Ljava/util/Set;
@@ -180,7 +169,6 @@
 
     invoke-direct {v2, v1}, Ljava/util/ArrayList;-><init>(Ljava/util/Collection;)V
 
-    .line 12
     invoke-interface {v2}, Ljava/util/List;->size()I
 
     move-result v1
@@ -201,7 +189,6 @@
 
     float-to-int v1, v1
 
-    .line 13
     invoke-interface {v2}, Ljava/util/List;->size()I
 
     move-result v3
@@ -212,7 +199,6 @@
 
     const/4 v1, 0x0
 
-    .line 14
     :cond_2
     invoke-interface {v2, v1}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
@@ -224,7 +210,6 @@
 
     move-result v1
 
-    .line 15
     iget-object v2, p0, Lcom/commsource/studio/LayerSelectGuideView$e;->a:Lcom/commsource/studio/LayerSelectGuideView;
 
     invoke-static {v2}, Lcom/commsource/studio/LayerSelectGuideView;->c(Lcom/commsource/studio/LayerSelectGuideView;)Lcom/airbnb/lottie/LottieAnimationView;
@@ -244,7 +229,6 @@
     :try_start_1
     check-cast v2, Landroid/widget/FrameLayout$LayoutParams;
 
-    .line 16
     sget-object v4, Lcom/commsource/studio/n0;->z:Lcom/commsource/studio/n0;
 
     invoke-virtual {v4}, Lcom/commsource/studio/n0;->v()F
@@ -255,7 +239,6 @@
 
     iput v5, v2, Landroid/widget/FrameLayout$LayoutParams;->width:I
 
-    .line 17
     invoke-virtual {v4}, Lcom/commsource/studio/n0;->u()F
 
     move-result v5
@@ -264,10 +247,8 @@
 
     iput v5, v2, Landroid/widget/FrameLayout$LayoutParams;->height:I
 
-    .line 18
     iput v1, v2, Landroid/widget/FrameLayout$LayoutParams;->topMargin:I
 
-    .line 19
     iget-object v5, p0, Lcom/commsource/studio/LayerSelectGuideView$e;->a:Lcom/commsource/studio/LayerSelectGuideView;
 
     invoke-static {v5}, Lcom/commsource/studio/LayerSelectGuideView;->c(Lcom/commsource/studio/LayerSelectGuideView;)Lcom/airbnb/lottie/LottieAnimationView;
@@ -276,7 +257,6 @@
 
     invoke-virtual {v5, v2}, Landroid/widget/ImageView;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
 
-    .line 20
     iget-object v2, p0, Lcom/commsource/studio/LayerSelectGuideView$e;->a:Lcom/commsource/studio/LayerSelectGuideView;
 
     invoke-static {v2}, Lcom/commsource/studio/LayerSelectGuideView;->c(Lcom/commsource/studio/LayerSelectGuideView;)Lcom/airbnb/lottie/LottieAnimationView;
@@ -287,7 +267,6 @@
 
     invoke-virtual {v2, v5}, Lcom/airbnb/lottie/LottieAnimationView;->setAnimation(Ljava/lang/String;)V
 
-    .line 21
     iget-object v2, p0, Lcom/commsource/studio/LayerSelectGuideView$e;->a:Lcom/commsource/studio/LayerSelectGuideView;
 
     invoke-static {v2}, Lcom/commsource/studio/LayerSelectGuideView;->c(Lcom/commsource/studio/LayerSelectGuideView;)Lcom/airbnb/lottie/LottieAnimationView;
@@ -298,7 +277,6 @@
 
     invoke-virtual {v2, v5}, Lcom/airbnb/lottie/LottieAnimationView;->setRepeatCount(I)V
 
-    .line 22
     iget-object v2, p0, Lcom/commsource/studio/LayerSelectGuideView$e;->a:Lcom/commsource/studio/LayerSelectGuideView;
 
     invoke-static {v2}, Lcom/commsource/studio/LayerSelectGuideView;->e(Lcom/commsource/studio/LayerSelectGuideView;)Landroidx/appcompat/widget/AppCompatTextView;
@@ -313,7 +291,6 @@
 
     check-cast v2, Landroid/widget/FrameLayout$LayoutParams;
 
-    .line 23
     invoke-virtual {v4}, Lcom/commsource/studio/n0;->v()F
 
     move-result v3
@@ -330,7 +307,6 @@
 
     iput v3, v2, Landroid/widget/FrameLayout$LayoutParams;->rightMargin:I
 
-    .line 24
     invoke-virtual {v4}, Lcom/commsource/studio/n0;->u()F
 
     move-result v3
@@ -339,10 +315,8 @@
 
     iput v3, v2, Landroid/widget/FrameLayout$LayoutParams;->height:I
 
-    .line 25
     iput v1, v2, Landroid/widget/FrameLayout$LayoutParams;->topMargin:I
 
-    .line 26
     iget-object v1, p0, Lcom/commsource/studio/LayerSelectGuideView$e;->a:Lcom/commsource/studio/LayerSelectGuideView;
 
     invoke-static {v1}, Lcom/commsource/studio/LayerSelectGuideView;->e(Lcom/commsource/studio/LayerSelectGuideView;)Landroidx/appcompat/widget/AppCompatTextView;
@@ -353,7 +327,6 @@
 
     invoke-virtual {v1, v2}, Landroid/widget/TextView;->setGravity(I)V
 
-    .line 27
     iget-object v1, p0, Lcom/commsource/studio/LayerSelectGuideView$e;->a:Lcom/commsource/studio/LayerSelectGuideView;
 
     invoke-static {v1}, Lcom/commsource/studio/LayerSelectGuideView;->e(Lcom/commsource/studio/LayerSelectGuideView;)Landroidx/appcompat/widget/AppCompatTextView;
@@ -366,7 +339,6 @@
 
     goto :goto_1
 
-    .line 28
     :cond_3
     new-instance v1, Lcotlin/TypeCastException;
 
@@ -376,7 +348,6 @@
 
     throw v1
 
-    .line 29
     :cond_4
     new-instance v1, Lcotlin/TypeCastException;
 
@@ -391,10 +362,8 @@
     :catch_0
     move-exception v1
 
-    .line 30
     invoke-virtual {v1}, Ljava/lang/Exception;->printStackTrace()V
 
-    .line 31
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

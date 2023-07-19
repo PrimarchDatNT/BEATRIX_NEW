@@ -21,7 +21,6 @@
 .method public constructor <init>(ILjava/lang/String;Lorg/aspectj/lang/f;Lorg/aspectj/lang/reflect/z;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1, p2, p3, p4}, Ln/a/b/c/h$b;-><init>(ILjava/lang/String;Lorg/aspectj/lang/f;Lorg/aspectj/lang/reflect/z;)V
 
     return-void

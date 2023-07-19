@@ -20,7 +20,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -29,7 +28,6 @@
 .method public synthetic constructor <init>(Lcotlin/jvm/internal/u;)V
     .locals 0
 
-    .line 2
     invoke-direct {p0}, Lcom/commsource/studio/function/ar/a$a;-><init>()V
 
     return-void
@@ -42,7 +40,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/commsource/studio/function/ar/a$a;->b(Landroid/content/Context;)Landroid/view/View;
 
     move-result-object p0
@@ -59,17 +56,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Landroid/widget/FrameLayout;
 
     invoke-direct {v1, p1}, Landroid/widget/FrameLayout;-><init>(Landroid/content/Context;)V
 
-    .line 2
     new-instance v2, Lcom/commsource/widget/round/RoundFrameLayout;
 
     invoke-direct {v2, p1}, Lcom/commsource/widget/round/RoundFrameLayout;-><init>(Landroid/content/Context;)V
 
-    .line 3
     invoke-virtual {v2}, Lcom/commsource/widget/round/RoundFrameLayout;->getDelegate()Lcom/commsource/widget/round/a;
 
     move-result-object v3
@@ -82,7 +76,6 @@
 
     invoke-virtual {v3, v5}, Lcom/commsource/widget/round/a;->t(I)V
 
-    .line 4
     invoke-virtual {v2}, Lcom/commsource/widget/round/RoundFrameLayout;->getDelegate()Lcom/commsource/widget/round/a;
 
     move-result-object v3
@@ -99,20 +92,16 @@
 
     sget v3, Lcom/res/provider/ResID;->rl_content:I
 
-    .line 5
     invoke-virtual {v2, v3}, Landroid/widget/FrameLayout;->setId(I)V
 
-    .line 6
     new-instance v3, Lcom/commsource/widget/PressImageView;
 
     invoke-direct {v3, p1}, Lcom/commsource/widget/PressImageView;-><init>(Landroid/content/Context;)V
 
     sget v4, Lcom/res/provider/ResID;->ar_material_item_iv:I
 
-    .line 7
     invoke-virtual {v3, v4}, Landroid/widget/ImageView;->setId(I)V
 
-    .line 8
     new-instance v4, Landroid/widget/FrameLayout$LayoutParams;
 
     sget v5, Lcom/commsource/studio/function/ar/a;->T:I
@@ -121,52 +110,40 @@
 
     const/16 v6, 0x11
 
-    .line 9
     iput v6, v4, Landroid/widget/FrameLayout$LayoutParams;->gravity:I
 
-    .line 10
     invoke-virtual {v2, v3, v4}, Landroid/widget/FrameLayout;->addView(Landroid/view/View;Landroid/view/ViewGroup$LayoutParams;)V
 
-    .line 11
     new-instance v3, Landroid/view/View;
 
     invoke-direct {v3, p1}, Landroid/view/View;-><init>(Landroid/content/Context;)V
 
     sget v4, Lcom/res/provider/ResID;->select_iv:I
 
-    .line 12
     invoke-virtual {v3, v4}, Landroid/view/View;->setId(I)V
 
     const/16 v4, 0x8
 
-    .line 13
     invoke-virtual {v3, v4}, Landroid/view/View;->setVisibility(I)V
 
-    .line 14
     new-instance v7, Landroid/widget/FrameLayout$LayoutParams;
 
     invoke-direct {v7, v5, v5}, Landroid/widget/FrameLayout$LayoutParams;-><init>(II)V
 
-    .line 15
     iput v6, v7, Landroid/widget/FrameLayout$LayoutParams;->gravity:I
 
-    .line 16
     invoke-virtual {v2, v3, v7}, Landroid/widget/FrameLayout;->addView(Landroid/view/View;Landroid/view/ViewGroup$LayoutParams;)V
 
-    .line 17
     new-instance v3, Landroid/view/View;
 
     invoke-direct {v3, p1}, Landroid/view/View;-><init>(Landroid/content/Context;)V
 
     sget v6, Lcom/res/provider/ResID;->iv_red:I
 
-    .line 18
     invoke-virtual {v3, v6}, Landroid/view/View;->setId(I)V
 
-    .line 19
     invoke-virtual {v3, v4}, Landroid/view/View;->setVisibility(I)V
 
-    .line 20
     new-instance v6, Landroid/widget/FrameLayout$LayoutParams;
 
     const/high16 v7, 0x40c00000    # 6.0f
@@ -183,26 +160,20 @@
 
     const v7, 0x800035
 
-    .line 21
     iput v7, v6, Landroid/widget/FrameLayout$LayoutParams;->gravity:I
 
-    .line 22
     invoke-virtual {v2, v3, v6}, Landroid/widget/FrameLayout;->addView(Landroid/view/View;Landroid/view/ViewGroup$LayoutParams;)V
 
-    .line 23
     new-instance v3, Landroid/widget/ImageView;
 
     invoke-direct {v3, p1}, Landroid/widget/ImageView;-><init>(Landroid/content/Context;)V
 
     sget v6, Lcom/res/provider/ResID;->iv_right:I
 
-    .line 24
     invoke-virtual {v3, v6}, Landroid/widget/ImageView;->setId(I)V
 
-    .line 25
     invoke-virtual {v3, v4}, Landroid/widget/ImageView;->setVisibility(I)V
 
-    .line 26
     new-instance v6, Landroid/widget/FrameLayout$LayoutParams;
 
     const/high16 v8, 0x41900000    # 18.0f
@@ -219,42 +190,34 @@
 
     const v9, 0x800055
 
-    .line 27
     iput v9, v6, Landroid/widget/FrameLayout$LayoutParams;->gravity:I
 
     const/high16 v10, 0x40400000    # 3.0f
 
-    .line 28
     invoke-static {v10}, Lcom/meitu/library/p/f/i;->d(F)I
 
     move-result v11
 
     iput v11, v6, Landroid/widget/FrameLayout$LayoutParams;->rightMargin:I
 
-    .line 29
     invoke-static {v10}, Lcom/meitu/library/p/f/i;->d(F)I
 
     move-result v11
 
     iput v11, v6, Landroid/widget/FrameLayout$LayoutParams;->bottomMargin:I
 
-    .line 30
     invoke-virtual {v2, v3, v6}, Landroid/widget/FrameLayout;->addView(Landroid/view/View;Landroid/view/ViewGroup$LayoutParams;)V
 
-    .line 31
     new-instance v3, Landroid/widget/ImageView;
 
     invoke-direct {v3, p1}, Landroid/widget/ImageView;-><init>(Landroid/content/Context;)V
 
     sget v6, Lcom/res/provider/ResID;->iv_left:I
 
-    .line 32
     invoke-virtual {v3, v6}, Landroid/widget/ImageView;->setId(I)V
 
-    .line 33
     invoke-virtual {v3, v4}, Landroid/widget/ImageView;->setVisibility(I)V
 
-    .line 34
     new-instance v6, Landroid/widget/FrameLayout$LayoutParams;
 
     const/high16 v11, 0x41800000    # 16.0f
@@ -271,40 +234,32 @@
 
     const v12, 0x800053
 
-    .line 35
     iput v12, v6, Landroid/widget/FrameLayout$LayoutParams;->gravity:I
 
-    .line 36
     invoke-static {v10}, Lcom/meitu/library/p/f/i;->d(F)I
 
     move-result v12
 
     iput v12, v6, Landroid/widget/FrameLayout$LayoutParams;->leftMargin:I
 
-    .line 37
     invoke-static {v10}, Lcom/meitu/library/p/f/i;->d(F)I
 
     move-result v12
 
     iput v12, v6, Landroid/widget/FrameLayout$LayoutParams;->bottomMargin:I
 
-    .line 38
     invoke-virtual {v2, v3, v6}, Landroid/widget/FrameLayout;->addView(Landroid/view/View;Landroid/view/ViewGroup$LayoutParams;)V
 
-    .line 39
     new-instance v3, Landroid/widget/ImageView;
 
     invoke-direct {v3, p1}, Landroid/widget/ImageView;-><init>(Landroid/content/Context;)V
 
     sget v6, Lcom/res/provider/ResID;->iv_right_top:I
 
-    .line 40
     invoke-virtual {v3, v6}, Landroid/widget/ImageView;->setId(I)V
 
-    .line 41
     invoke-virtual {v3, v4}, Landroid/widget/ImageView;->setVisibility(I)V
 
-    .line 42
     new-instance v6, Landroid/widget/FrameLayout$LayoutParams;
 
     invoke-static {v11}, Lcom/meitu/library/p/f/i;->d(F)I
@@ -317,40 +272,32 @@
 
     invoke-direct {v6, v12, v13}, Landroid/widget/FrameLayout$LayoutParams;-><init>(II)V
 
-    .line 43
     iput v7, v6, Landroid/widget/FrameLayout$LayoutParams;->gravity:I
 
-    .line 44
     invoke-static {v10}, Lcom/meitu/library/p/f/i;->d(F)I
 
     move-result v7
 
     iput v7, v6, Landroid/widget/FrameLayout$LayoutParams;->topMargin:I
 
-    .line 45
     invoke-static {v10}, Lcom/meitu/library/p/f/i;->d(F)I
 
     move-result v7
 
     iput v7, v6, Landroid/widget/FrameLayout$LayoutParams;->rightMargin:I
 
-    .line 46
     invoke-virtual {v2, v3, v6}, Landroid/widget/FrameLayout;->addView(Landroid/view/View;Landroid/view/ViewGroup$LayoutParams;)V
 
-    .line 47
     new-instance v3, Landroid/widget/ImageView;
 
     invoke-direct {v3, p1}, Landroid/widget/ImageView;-><init>(Landroid/content/Context;)V
 
     sget v6, Lcom/res/provider/ResID;->iv:I
 
-    .line 48
     invoke-virtual {v3, v6}, Landroid/widget/ImageView;->setId(I)V
 
-    .line 49
     invoke-virtual {v3, v4}, Landroid/widget/ImageView;->setVisibility(I)V
 
-    .line 50
     new-instance v6, Landroid/widget/FrameLayout$LayoutParams;
 
     invoke-static {v11}, Lcom/meitu/library/p/f/i;->d(F)I
@@ -365,30 +312,24 @@
 
     const v7, 0x800033
 
-    .line 51
     iput v7, v6, Landroid/widget/FrameLayout$LayoutParams;->gravity:I
 
-    .line 52
     invoke-static {v10}, Lcom/meitu/library/p/f/i;->d(F)I
 
     move-result v7
 
     iput v7, v6, Landroid/widget/FrameLayout$LayoutParams;->topMargin:I
 
-    .line 53
     invoke-static {v10}, Lcom/meitu/library/p/f/i;->d(F)I
 
     move-result v7
 
     iput v7, v6, Landroid/widget/FrameLayout$LayoutParams;->leftMargin:I
 
-    .line 54
     invoke-virtual {v2, v3, v6}, Landroid/widget/FrameLayout;->addView(Landroid/view/View;Landroid/view/ViewGroup$LayoutParams;)V
 
-    .line 55
     invoke-virtual {v1, v2, v5, v5}, Landroid/widget/FrameLayout;->addView(Landroid/view/View;II)V
 
-    .line 56
     new-instance v2, Lcom/commsource/widget/RotateLoadingView;
 
     const/4 v3, 0x0
@@ -399,22 +340,18 @@
 
     sget p1, Lcom/res/provider/ResID;->progress:I
 
-    .line 57
     invoke-virtual {v2, p1}, Landroid/view/View;->setId(I)V
 
-    .line 58
     invoke-virtual {v2, v4}, Lcom/commsource/widget/RotateLoadingView;->setVisibility(I)V
 
     sget p1, Lcom/res/provider/ResDRAWABLE;->common_loading_white_rotate_icon:I
 
-    .line 59
     invoke-static {p1}, Lcom/commsource/util/u1;->g(I)Landroid/graphics/drawable/Drawable;
 
     move-result-object p1
 
     invoke-virtual {v2, p1}, Landroid/view/View;->setBackground(Landroid/graphics/drawable/Drawable;)V
 
-    .line 60
     new-instance p1, Landroid/widget/FrameLayout$LayoutParams;
 
     invoke-static {v8}, Lcom/meitu/library/p/f/i;->d(F)I
@@ -427,29 +364,24 @@
 
     invoke-direct {p1, v3, v4}, Landroid/widget/FrameLayout$LayoutParams;-><init>(II)V
 
-    .line 61
     iput v9, p1, Landroid/widget/FrameLayout$LayoutParams;->gravity:I
 
     const/4 v3, 0x2
 
-    .line 62
     invoke-static {v3}, Lcom/commsource/util/l0;->n(I)I
 
     move-result v4
 
     iput v4, p1, Landroid/widget/FrameLayout$LayoutParams;->rightMargin:I
 
-    .line 63
     invoke-static {v3}, Lcom/commsource/util/l0;->n(I)I
 
     move-result v3
 
     iput v3, p1, Landroid/widget/FrameLayout$LayoutParams;->bottomMargin:I
 
-    .line 64
     invoke-virtual {v1, v2, p1}, Landroid/widget/FrameLayout;->addView(Landroid/view/View;Landroid/view/ViewGroup$LayoutParams;)V
 
-    .line 65
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1

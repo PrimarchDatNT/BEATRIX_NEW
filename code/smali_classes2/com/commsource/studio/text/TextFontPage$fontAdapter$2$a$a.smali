@@ -28,7 +28,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/text/TextFontPage$fontAdapter$2$a$a;->a:Lcom/commsource/studio/text/TextFontPage$fontAdapter$2$a;
 
     invoke-direct {p0}, Landroidx/recyclerview/widget/GridLayoutManager$SpanSizeLookup;-><init>()V
@@ -45,7 +44,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/text/TextFontPage$fontAdapter$2$a$a;->a:Lcom/commsource/studio/text/TextFontPage$fontAdapter$2$a;
 
     invoke-virtual {v1, p1}, Lcom/commsource/widget/h1/e;->getItemViewType(I)I

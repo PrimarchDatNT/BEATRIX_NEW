@@ -47,7 +47,6 @@
 
     const/4 v1, 0x0
 
-    .line 1
     sput-object v1, Lf/k/m/i/a;->h:Lf/k/m/i/a;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -58,20 +57,16 @@
 .method private constructor <init>()V
     .locals 4
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const-string v0, "IPStore"
 
-    .line 2
     iput-object v0, p0, Lf/k/m/i/a;->a:Ljava/lang/String;
 
     const-string v1, "DBHelper"
 
-    .line 3
     iput-object v1, p0, Lf/k/m/i/a;->b:Ljava/lang/String;
 
-    .line 4
     invoke-static {}, Lf/k/m/b;->i()Lf/k/m/b;
 
     move-result-object v1
@@ -80,7 +75,6 @@
 
     move-result-object v1
 
-    .line 5
     new-instance v2, Lf/k/m/i/b;
 
     const/4 v3, 0x0
@@ -89,14 +83,12 @@
 
     iput-object v2, p0, Lf/k/m/i/a;->c:Lcom/meitu/ipstore/storage/bean/dao/a$b;
 
-    .line 6
     invoke-virtual {v2}, Landroid/database/sqlite/SQLiteOpenHelper;->getWritableDatabase()Landroid/database/sqlite/SQLiteDatabase;
 
     move-result-object v0
 
     iput-object v0, p0, Lf/k/m/i/a;->e:Landroid/database/sqlite/SQLiteDatabase;
 
-    .line 7
     new-instance v0, Lcom/meitu/ipstore/storage/bean/dao/a;
 
     iget-object v1, p0, Lf/k/m/i/a;->c:Lcom/meitu/ipstore/storage/bean/dao/a$b;
@@ -113,14 +105,12 @@
 
     iput-object v0, p0, Lf/k/m/i/a;->d:Lcom/meitu/ipstore/storage/bean/dao/b;
 
-    .line 8
     new-instance v0, Lf/k/m/i/f/a;
 
     invoke-direct {v0}, Lf/k/m/i/f/a;-><init>()V
 
     iput-object v0, p0, Lf/k/m/i/a;->f:Lf/k/m/i/f/a;
 
-    .line 9
     new-instance v0, Lf/k/m/i/f/b;
 
     invoke-direct {v0}, Lf/k/m/i/f/b;-><init>()V
@@ -137,30 +127,25 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lf/k/m/i/a;->h:Lf/k/m/i/a;
 
     if-nez v1, :cond_1
 
-    .line 2
     const-class v1, Lf/k/m/i/a;
 
     monitor-enter v1
 
-    .line 3
     :try_start_0
     sget-object v2, Lf/k/m/i/a;->h:Lf/k/m/i/a;
 
     if-nez v2, :cond_0
 
-    .line 4
     new-instance v2, Lf/k/m/i/a;
 
     invoke-direct {v2}, Lf/k/m/i/a;-><init>()V
 
     sput-object v2, Lf/k/m/i/a;->h:Lf/k/m/i/a;
 
-    .line 5
     :cond_0
     monitor-exit v1
 
@@ -177,7 +162,6 @@
 
     throw v2
 
-    .line 6
     :cond_1
     :goto_0
     sget-object v1, Lf/k/m/i/a;->h:Lf/k/m/i/a;
@@ -194,7 +178,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lf/k/m/i/a;->h:Lf/k/m/i/a;
 
     iget-object v1, v1, Lf/k/m/i/a;->e:Landroid/database/sqlite/SQLiteDatabase;
@@ -205,7 +188,6 @@
 
     if-nez v1, :cond_0
 
-    .line 2
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -228,7 +210,6 @@
 
     invoke-static {v2, v1}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 3
     sget-object v1, Lf/k/m/i/a;->h:Lf/k/m/i/a;
 
     iget-object v3, v1, Lf/k/m/i/a;->c:Lcom/meitu/ipstore/storage/bean/dao/a$b;
@@ -239,7 +220,6 @@
 
     iput-object v3, v1, Lf/k/m/i/a;->e:Landroid/database/sqlite/SQLiteDatabase;
 
-    .line 4
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -260,7 +240,6 @@
 
     invoke-static {v2, v1}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 5
     sget-object v1, Lf/k/m/i/a;->h:Lf/k/m/i/a;
 
     new-instance v2, Lcom/meitu/ipstore/storage/bean/dao/a;
@@ -275,7 +254,6 @@
 
     iput-object v2, v1, Lf/k/m/i/a;->d:Lcom/meitu/ipstore/storage/bean/dao/b;
 
-    .line 6
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -289,7 +267,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lf/k/m/i/a;->h:Lf/k/m/i/a;
 
     if-eqz v1, :cond_0
@@ -338,7 +315,6 @@
 
     if-eqz p1, :cond_3
 
-    .line 1
     invoke-interface {p1}, Ljava/util/List;->size()I
 
     move-result v1
@@ -350,17 +326,14 @@
     :cond_0
     const/4 v1, 0x0
 
-    .line 2
     invoke-interface {p1, v1}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object v1
 
-    .line 3
     instance-of v2, v1, Lcom/meitu/ipstore/storage/bean/PartnerBean;
 
     if-eqz v2, :cond_1
 
-    .line 4
     invoke-interface {p1}, Ljava/util/List;->size()I
 
     move-result v1
@@ -375,20 +348,17 @@
 
     move-result-object p1
 
-    .line 5
     iget-object v1, p0, Lf/k/m/i/a;->f:Lf/k/m/i/f/a;
 
     invoke-virtual {v1, p1}, Lf/k/m/i/f/a;->a(Ljava/util/List;)V
 
     goto :goto_0
 
-    .line 6
     :cond_1
     instance-of v1, v1, Lcom/meitu/ipstore/storage/bean/SubsShortBean;
 
     if-eqz v1, :cond_2
 
-    .line 7
     invoke-interface {p1}, Ljava/util/List;->size()I
 
     move-result v1
@@ -403,19 +373,16 @@
 
     move-result-object p1
 
-    .line 8
     iget-object v1, p0, Lf/k/m/i/a;->g:Lf/k/m/i/f/b;
 
     invoke-virtual {v1, p1}, Lf/k/m/i/f/b;->a(Ljava/util/List;)V
 
-    .line 9
     :cond_2
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 10
     :cond_3
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -441,7 +408,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     const-class v1, Lcom/meitu/ipstore/storage/bean/SubsShortBean;
 
     invoke-virtual {v1}, Ljava/lang/Class;->getCanonicalName()Ljava/lang/String;
@@ -454,7 +420,6 @@
 
     if-eqz v1, :cond_0
 
-    .line 2
     iget-object v1, p0, Lf/k/m/i/a;->g:Lf/k/m/i/f/b;
 
     invoke-virtual {v1, p1, p2, p3}, Lf/k/m/i/f/b;->b(Ljava/lang/String;ZLjava/util/List;)Ljava/lang/String;
@@ -466,7 +431,6 @@
     :cond_0
     const/4 p1, 0x0
 
-    .line 3
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -490,7 +454,6 @@
 
     if-eqz p1, :cond_3
 
-    .line 1
     invoke-interface {p1}, Ljava/util/List;->size()I
 
     move-result v1
@@ -502,17 +465,14 @@
     :cond_0
     const/4 v1, 0x0
 
-    .line 2
     invoke-interface {p1, v1}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object v1
 
-    .line 3
     instance-of v2, v1, Lcom/meitu/ipstore/storage/bean/PartnerBean;
 
     if-eqz v2, :cond_1
 
-    .line 4
     invoke-interface {p1}, Ljava/util/List;->size()I
 
     move-result v1
@@ -527,20 +487,17 @@
 
     move-result-object p1
 
-    .line 5
     iget-object v1, p0, Lf/k/m/i/a;->f:Lf/k/m/i/f/a;
 
     invoke-virtual {v1, p1}, Lf/k/m/i/f/a;->c(Ljava/util/List;)V
 
     goto :goto_0
 
-    .line 6
     :cond_1
     instance-of v1, v1, Lcom/meitu/ipstore/storage/bean/SubsShortBean;
 
     if-eqz v1, :cond_2
 
-    .line 7
     invoke-interface {p1}, Ljava/util/List;->size()I
 
     move-result v1
@@ -555,19 +512,16 @@
 
     move-result-object p1
 
-    .line 8
     iget-object v1, p0, Lf/k/m/i/a;->g:Lf/k/m/i/f/b;
 
     invoke-virtual {v1, p1}, Lf/k/m/i/f/b;->c(Ljava/util/List;)V
 
-    .line 9
     :cond_2
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 10
     :cond_3
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -592,7 +546,6 @@
 
     if-eqz p1, :cond_3
 
-    .line 1
     invoke-interface {p1}, Ljava/util/List;->size()I
 
     move-result v1
@@ -604,17 +557,14 @@
     :cond_0
     const/4 v1, 0x0
 
-    .line 2
     invoke-interface {p1, v1}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object v1
 
-    .line 3
     instance-of v2, v1, Lcom/meitu/ipstore/storage/bean/PartnerBean;
 
     if-eqz v2, :cond_1
 
-    .line 4
     invoke-interface {p1}, Ljava/util/List;->size()I
 
     move-result v1
@@ -629,20 +579,17 @@
 
     move-result-object p1
 
-    .line 5
     iget-object v1, p0, Lf/k/m/i/a;->f:Lf/k/m/i/f/a;
 
     invoke-virtual {v1, p1}, Lf/k/m/i/f/a;->d(Ljava/util/List;)V
 
     goto :goto_0
 
-    .line 6
     :cond_1
     instance-of v1, v1, Lcom/meitu/ipstore/storage/bean/SubsShortBean;
 
     if-eqz v1, :cond_2
 
-    .line 7
     invoke-interface {p1}, Ljava/util/List;->size()I
 
     move-result v1
@@ -657,19 +604,16 @@
 
     move-result-object p1
 
-    .line 8
     iget-object v1, p0, Lf/k/m/i/a;->g:Lf/k/m/i/f/b;
 
     invoke-virtual {v1, p1}, Lf/k/m/i/f/b;->d(Ljava/util/List;)V
 
-    .line 9
     :cond_2
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 10
     :cond_3
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -684,19 +628,16 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lf/k/m/i/a;->i()Z
 
     move-result v1
 
     if-nez v1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 3
     :cond_0
     invoke-virtual {p0}, Lf/k/m/i/a;->f()Lcom/meitu/ipstore/storage/bean/dao/b;
 
@@ -704,7 +645,6 @@
 
     invoke-virtual {v1}, Lcom/meitu/ipstore/storage/bean/dao/b;->u()V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -717,17 +657,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lf/k/m/i/a;->i()Z
 
     move-result v1
 
     if-nez v1, :cond_0
 
-    .line 2
     invoke-direct {p0}, Lf/k/m/i/a;->h()V
 
-    .line 3
     :cond_0
     sget-object v1, Lf/k/m/i/a;->h:Lf/k/m/i/a;
 

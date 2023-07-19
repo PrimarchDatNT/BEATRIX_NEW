@@ -35,7 +35,6 @@
 .method constructor <init>([I)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcotlin/collections/unsigned/b$a;->b:[I
 
     invoke-direct {p0}, Lcotlin/collections/c;-><init>()V
@@ -48,7 +47,6 @@
 .method public b()I
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcotlin/collections/unsigned/b$a;->b:[I
 
     invoke-static {v0}, Lcotlin/g1;->s([I)I
@@ -61,7 +59,6 @@
 .method public c(I)Z
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcotlin/collections/unsigned/b$a;->b:[I
 
     invoke-static {v0, p1}, Lcotlin/g1;->j([II)Z
@@ -74,7 +71,6 @@
 .method public final bridge contains(Ljava/lang/Object;)Z
     .locals 1
 
-    .line 1
     instance-of v0, p1, Lcotlin/f1;
 
     if-eqz v0, :cond_0
@@ -100,7 +96,6 @@
 .method public e(I)I
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcotlin/collections/unsigned/b$a;->b:[I
 
     invoke-static {v0, p1}, Lcotlin/g1;->q([II)I
@@ -113,7 +108,6 @@
 .method public bridge synthetic get(I)Ljava/lang/Object;
     .locals 0
 
-    .line 1
     invoke-virtual {p0, p1}, Lcotlin/collections/unsigned/b$a;->e(I)I
 
     move-result p1
@@ -128,7 +122,6 @@
 .method public h(I)I
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcotlin/collections/unsigned/b$a;->b:[I
 
     invoke-static {v0, p1}, Lcotlin/collections/k;->bf([II)I
@@ -141,7 +134,6 @@
 .method public i(I)I
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcotlin/collections/unsigned/b$a;->b:[I
 
     invoke-static {v0, p1}, Lcotlin/collections/k;->fh([II)I
@@ -154,7 +146,6 @@
 .method public final bridge indexOf(Ljava/lang/Object;)I
     .locals 1
 
-    .line 1
     instance-of v0, p1, Lcotlin/f1;
 
     if-eqz v0, :cond_0
@@ -180,7 +171,6 @@
 .method public isEmpty()Z
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcotlin/collections/unsigned/b$a;->b:[I
 
     invoke-static {v0}, Lcotlin/g1;->y([I)Z
@@ -193,7 +183,6 @@
 .method public final bridge lastIndexOf(Ljava/lang/Object;)I
     .locals 1
 
-    .line 1
     instance-of v0, p1, Lcotlin/f1;
 
     if-eqz v0, :cond_0

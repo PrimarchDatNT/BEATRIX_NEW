@@ -16,7 +16,6 @@
 .method protected constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -27,7 +26,6 @@
 .method public getBooleanParameter(Ljava/lang/String;Z)Z
     .locals 0
 
-    .line 1
     invoke-interface {p0, p1}, Lorg/apache/http/params/HttpParams;->getParameter(Ljava/lang/String;)Ljava/lang/Object;
 
     move-result-object p1
@@ -36,7 +34,6 @@
 
     return p2
 
-    .line 2
     :cond_0
     check-cast p1, Ljava/lang/Boolean;
 
@@ -50,7 +47,6 @@
 .method public getDoubleParameter(Ljava/lang/String;D)D
     .locals 0
 
-    .line 1
     invoke-interface {p0, p1}, Lorg/apache/http/params/HttpParams;->getParameter(Ljava/lang/String;)Ljava/lang/Object;
 
     move-result-object p1
@@ -59,7 +55,6 @@
 
     return-wide p2
 
-    .line 2
     :cond_0
     check-cast p1, Ljava/lang/Double;
 
@@ -73,7 +68,6 @@
 .method public getIntParameter(Ljava/lang/String;I)I
     .locals 0
 
-    .line 1
     invoke-interface {p0, p1}, Lorg/apache/http/params/HttpParams;->getParameter(Ljava/lang/String;)Ljava/lang/Object;
 
     move-result-object p1
@@ -82,7 +76,6 @@
 
     return p2
 
-    .line 2
     :cond_0
     check-cast p1, Ljava/lang/Integer;
 
@@ -96,7 +89,6 @@
 .method public getLongParameter(Ljava/lang/String;J)J
     .locals 0
 
-    .line 1
     invoke-interface {p0, p1}, Lorg/apache/http/params/HttpParams;->getParameter(Ljava/lang/String;)Ljava/lang/Object;
 
     move-result-object p1
@@ -105,7 +97,6 @@
 
     return-wide p2
 
-    .line 2
     :cond_0
     check-cast p1, Ljava/lang/Long;
 
@@ -127,7 +118,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/lang/UnsupportedOperationException;
 
     invoke-direct {v0}, Ljava/lang/UnsupportedOperationException;-><init>()V
@@ -140,7 +130,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-virtual {p0, p1, v0}, Lorg/apache/http/params/AbstractHttpParams;->getBooleanParameter(Ljava/lang/String;Z)Z
 
     move-result p1
@@ -155,7 +144,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-virtual {p0, p1, v0}, Lorg/apache/http/params/AbstractHttpParams;->getBooleanParameter(Ljava/lang/String;Z)Z
 
     move-result p1
@@ -168,7 +156,6 @@
 
     if-eqz p2, :cond_0
 
-    .line 1
     sget-object p2, Ljava/lang/Boolean;->TRUE:Ljava/lang/Boolean;
 
     goto :goto_0
@@ -185,7 +172,6 @@
 .method public setDoubleParameter(Ljava/lang/String;D)Lorg/apache/http/params/HttpParams;
     .locals 0
 
-    .line 1
     invoke-static {p2, p3}, Ljava/lang/Double;->valueOf(D)Ljava/lang/Double;
 
     move-result-object p2
@@ -198,7 +184,6 @@
 .method public setIntParameter(Ljava/lang/String;I)Lorg/apache/http/params/HttpParams;
     .locals 0
 
-    .line 1
     invoke-static {p2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object p2
@@ -211,7 +196,6 @@
 .method public setLongParameter(Ljava/lang/String;J)Lorg/apache/http/params/HttpParams;
     .locals 0
 
-    .line 1
     invoke-static {p2, p3}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
 
     move-result-object p2

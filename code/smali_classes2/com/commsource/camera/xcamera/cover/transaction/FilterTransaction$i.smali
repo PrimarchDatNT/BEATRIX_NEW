@@ -55,7 +55,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/transaction/FilterTransaction$i;->a:Lcom/commsource/camera/xcamera/cover/transaction/FilterTransaction;
 
     invoke-static {v1}, Lcom/commsource/camera/xcamera/cover/transaction/FilterTransaction;->A(Lcom/commsource/camera/xcamera/cover/transaction/FilterTransaction;)Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/EffectFunctionViewModel;
@@ -72,7 +71,6 @@
 
     if-eqz p1, :cond_1
 
-    .line 2
     invoke-virtual {p1}, Lcom/meitu/template/bean/Filter;->getFilterId()I
 
     move-result v1
@@ -87,7 +85,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_0
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/transaction/FilterTransaction$i;->a:Lcom/commsource/camera/xcamera/cover/transaction/FilterTransaction;
 
@@ -101,7 +98,6 @@
 
     goto :goto_1
 
-    .line 4
     :cond_1
     :goto_0
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/transaction/FilterTransaction$i;->a:Lcom/commsource/camera/xcamera/cover/transaction/FilterTransaction;
@@ -116,7 +112,6 @@
     :goto_1
     if-eqz p1, :cond_5
 
-    .line 5
     invoke-static {p1}, Lcom/commsource/camera/f1/f;->r(Lcom/meitu/template/bean/Filter;)Z
 
     move-result v1
@@ -155,7 +150,6 @@
     :goto_3
     if-eqz v1, :cond_5
 
-    .line 6
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/transaction/FilterTransaction$i;->a:Lcom/commsource/camera/xcamera/cover/transaction/FilterTransaction;
 
     invoke-static {v1}, Lcom/commsource/camera/xcamera/cover/transaction/FilterTransaction;->z(Lcom/commsource/camera/xcamera/cover/transaction/FilterTransaction;)Lcom/commsource/camera/xcamera/BpCameraViewModel;
@@ -164,7 +158,6 @@
 
     invoke-virtual {v1}, Lcom/commsource/camera/xcamera/BpCameraViewModel;->A1()V
 
-    .line 7
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/transaction/FilterTransaction$i;->a:Lcom/commsource/camera/xcamera/cover/transaction/FilterTransaction;
 
     invoke-static {v1}, Lcom/commsource/camera/xcamera/cover/transaction/FilterTransaction;->D(Lcom/commsource/camera/xcamera/cover/transaction/FilterTransaction;)Lcom/commsource/camera/xcamera/cover/tips/a;
@@ -195,7 +188,6 @@
 
     invoke-virtual {v1, v3, v4, v5}, Lcom/commsource/camera/xcamera/cover/tips/a;->Q(Ljava/lang/String;J)V
 
-    .line 8
     :cond_5
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/transaction/FilterTransaction$i;->a:Lcom/commsource/camera/xcamera/cover/transaction/FilterTransaction;
 
@@ -219,7 +211,6 @@
 
     const/16 v3, 0xe
 
-    .line 9
     invoke-virtual {v1, v3}, Landroid/util/SparseArray;->get(I)Ljava/lang/Object;
 
     move-result-object v1
@@ -228,7 +219,6 @@
 
     if-eqz v1, :cond_7
 
-    .line 10
     invoke-static {p1}, Lcom/commsource/camera/f1/f;->r(Lcom/meitu/template/bean/Filter;)Z
 
     move-result v3
@@ -240,7 +230,6 @@
     :cond_6
     if-eqz v2, :cond_7
 
-    .line 11
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/transaction/FilterTransaction$i;->a:Lcom/commsource/camera/xcamera/cover/transaction/FilterTransaction;
 
     invoke-static {v1}, Lcom/commsource/camera/xcamera/cover/transaction/FilterTransaction;->D(Lcom/commsource/camera/xcamera/cover/transaction/FilterTransaction;)Lcom/commsource/camera/xcamera/cover/tips/a;
@@ -265,7 +254,6 @@
 
     invoke-static/range {v2 .. v7}, Lcom/commsource/camera/xcamera/cover/tips/a;->R(Lcom/commsource/camera/xcamera/cover/tips/a;Ljava/lang/String;JILjava/lang/Object;)V
 
-    .line 12
     :cond_7
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/transaction/FilterTransaction$i;->a:Lcom/commsource/camera/xcamera/cover/transaction/FilterTransaction;
 
@@ -277,19 +265,16 @@
 
     move-result-object v1
 
-    .line 13
     invoke-virtual {v1}, Lcom/commsource/camera/xcamera/h;->d()Lcom/meitu/template/bean/ArMaterial;
 
     move-result-object v2
 
     if-eqz v2, :cond_8
 
-    .line 14
     invoke-virtual {v1, p1}, Lcom/commsource/camera/xcamera/h;->t(Lcom/meitu/template/bean/Filter;)V
 
     goto :goto_4
 
-    .line 15
     :cond_8
     invoke-virtual {v1}, Lcom/commsource/camera/xcamera/h;->p()Lcom/meitu/template/bean/k;
 
@@ -305,7 +290,6 @@
 
     goto :goto_5
 
-    .line 16
     :cond_a
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/transaction/FilterTransaction$i;->a:Lcom/commsource/camera/xcamera/cover/transaction/FilterTransaction;
 
@@ -337,7 +321,6 @@
 
     goto :goto_5
 
-    .line 17
     :cond_b
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/transaction/FilterTransaction$i;->a:Lcom/commsource/camera/xcamera/cover/transaction/FilterTransaction;
 
@@ -349,7 +332,6 @@
 
     move-result-object p1
 
-    .line 18
     :goto_5
     invoke-virtual {p1}, Lcom/meitu/template/bean/Filter;->getFilterInfo()Lcom/commsource/camera/xcamera/bean/FilterInfo;
 
@@ -357,7 +339,6 @@
 
     if-nez v1, :cond_c
 
-    .line 19
     new-instance v1, Lcom/commsource/camera/xcamera/cover/transaction/FilterTransaction$i$a;
 
     const-string v2, "loadFilterPlist"
@@ -368,7 +349,6 @@
 
     goto :goto_6
 
-    .line 20
     :cond_c
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/transaction/FilterTransaction$i;->a:Lcom/commsource/camera/xcamera/cover/transaction/FilterTransaction;
 
@@ -378,7 +358,6 @@
 
     invoke-virtual {v1, p1}, Lcom/commsource/camera/xcamera/BpCameraViewModel;->t1(Lcom/meitu/template/bean/Filter;)V
 
-    .line 21
     :goto_6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -392,7 +371,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Lcom/meitu/template/bean/Filter;
 
     invoke-virtual {p0, p1}, Lcom/commsource/camera/xcamera/cover/transaction/FilterTransaction$i;->a(Lcom/meitu/template/bean/Filter;)V

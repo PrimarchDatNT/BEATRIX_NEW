@@ -55,7 +55,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/mixlayer/ImageLayerStyleFragment$c;->a:Lcom/commsource/studio/mixlayer/ImageLayerStyleFragment;
 
     invoke-static {v1}, Lcom/commsource/studio/mixlayer/ImageLayerStyleFragment;->A1(Lcom/commsource/studio/mixlayer/ImageLayerStyleFragment;)Lcom/commsource/studio/bean/FocusLayerInfo;
@@ -64,21 +63,18 @@
 
     if-eqz v1, :cond_0
 
-    .line 2
     iget-object v2, p0, Lcom/commsource/studio/mixlayer/ImageLayerStyleFragment$c;->a:Lcom/commsource/studio/mixlayer/ImageLayerStyleFragment;
 
     invoke-static {v2}, Lcom/commsource/studio/mixlayer/ImageLayerStyleFragment;->E1(Lcom/commsource/studio/mixlayer/ImageLayerStyleFragment;)Lcom/commsource/studio/mixlayer/ShadowPosLayer;
 
     move-result-object v2
 
-    .line 3
     iget-object v3, p0, Lcom/commsource/studio/mixlayer/ImageLayerStyleFragment$c;->a:Lcom/commsource/studio/mixlayer/ImageLayerStyleFragment;
 
     invoke-static {v3}, Lcom/commsource/studio/mixlayer/ImageLayerStyleFragment;->B1(Lcom/commsource/studio/mixlayer/ImageLayerStyleFragment;)Lcom/commsource/studio/mixlayer/ImageStyleViewModel;
 
     move-result-object v3
 
-    .line 4
     iget-object v4, p0, Lcom/commsource/studio/mixlayer/ImageLayerStyleFragment$c;->a:Lcom/commsource/studio/mixlayer/ImageLayerStyleFragment;
 
     invoke-virtual {v4}, Lcom/commsource/studio/function/BaseSubFragment;->r0()Lcom/commsource/studio/ImageStudioViewModel;
@@ -93,7 +89,6 @@
 
     move-result v4
 
-    .line 5
     iget-object v5, p0, Lcom/commsource/studio/mixlayer/ImageLayerStyleFragment$c;->a:Lcom/commsource/studio/mixlayer/ImageLayerStyleFragment;
 
     invoke-virtual {v5}, Lcom/commsource/studio/function/BaseSubFragment;->r0()Lcom/commsource/studio/ImageStudioViewModel;
@@ -110,22 +105,18 @@
 
     const-string v6, "it"
 
-    .line 6
     invoke-static {p1, v6}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {p1}, Ljava/lang/Boolean;->booleanValue()Z
 
     move-result p1
 
-    .line 7
     invoke-virtual {v3, v4, v5, p1}, Lcom/commsource/studio/mixlayer/ImageStyleViewModel;->J(IIZ)[F
 
     move-result-object p1
 
-    .line 8
     invoke-virtual {v2, v1, p1}, Lcom/commsource/studio/mixlayer/ShadowPosLayer;->K0(Lcom/commsource/studio/bean/FocusLayerInfo;[F)V
 
-    .line 9
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -139,7 +130,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Ljava/lang/Boolean;
 
     invoke-virtual {p0, p1}, Lcom/commsource/studio/mixlayer/ImageLayerStyleFragment$c;->a(Ljava/lang/Boolean;)V

@@ -27,7 +27,6 @@
 .method constructor <init>(Lcom/sdk/api/CommonAdView;Lcom/sdk/imp/internal/loader/Ad;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/sdk/api/CommonAdView$b;->b:Lcom/sdk/api/CommonAdView;
 
     iput-object p2, p0, Lcom/sdk/api/CommonAdView$b;->a:Lcom/sdk/imp/internal/loader/Ad;
@@ -42,7 +41,6 @@
 .method public run()V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/sdk/api/CommonAdView$b;->b:Lcom/sdk/api/CommonAdView;
 
     invoke-static {v0}, Lcom/sdk/api/CommonAdView;->i(Lcom/sdk/api/CommonAdView;)Ljava/lang/String;

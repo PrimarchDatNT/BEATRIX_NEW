@@ -25,12 +25,10 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Lcom/meitu/core/NativeBaseClass;-><init>()V
 
     const/4 v0, 0x6
 
-    .line 2
     iput v0, p0, Lcom/meitu/core/processor/SmartBeautyProcessor;->SCENARIO_DEFOG:I
 
     return-void
@@ -53,19 +51,16 @@
 
     if-nez p0, :cond_0
 
-    .line 11
     sget-object p0, Lcom/meitu/core/types/NDebug;->TAG:Ljava/lang/String;
 
     const-string p1, "effectcore smartBeauty bitmap is null."
 
     invoke-static {p0, p1}, Lcom/meitu/core/types/NDebug;->i(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 12
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
 
-    .line 13
     :cond_0
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
@@ -79,7 +74,6 @@
 
     if-eqz p1, :cond_1
 
-    .line 14
     invoke-virtual {p1}, Lcom/meitu/core/types/FaceData;->getFaceCount()I
 
     move-result p1
@@ -88,32 +82,27 @@
 
     if-eqz p2, :cond_1
 
-    .line 15
     invoke-static {p0, p2, p4}, Lcom/meitu/core/processor/FaceSlimProcessor;->autoSlimFace(Landroid/graphics/Bitmap;Lcom/meitu/core/face/InterPoint;F)Z
 
     const/high16 p1, 0x3f800000    # 1.0f
 
-    .line 16
     invoke-static {p0, p1}, Lcom/meitu/core/processor/BeautyProcessor;->lazyBeauty(Landroid/graphics/Bitmap;F)Z
 
     move-result v1
 
     goto :goto_0
 
-    .line 17
     :cond_1
     invoke-static {p0, p3, p4}, Lcom/meitu/core/processor/SmartBeautyProcessor;->nativeSmartFilter_bitmap(Landroid/graphics/Bitmap;IF)Z
 
     move-result v1
 
-    .line 18
     :cond_2
     :goto_0
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide p1
 
-    .line 19
     sget-object p3, Lcom/meitu/core/types/NDebug;->TAG:Ljava/lang/String;
 
     new-instance p4, Ljava/lang/StringBuilder;
@@ -158,7 +147,6 @@
 
     invoke-static {p3, p0}, Lcom/meitu/core/types/NDebug;->i(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 20
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
@@ -175,19 +163,16 @@
 
     if-nez p0, :cond_0
 
-    .line 1
     sget-object p0, Lcom/meitu/core/types/NDebug;->TAG:Ljava/lang/String;
 
     const-string p1, "effectcore smartBeauty bitmap is null."
 
     invoke-static {p0, p1}, Lcom/meitu/core/types/NDebug;->i(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
 
-    .line 3
     :cond_0
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
@@ -201,7 +186,6 @@
 
     if-eqz p1, :cond_1
 
-    .line 4
     invoke-virtual {p1}, Lcom/meitu/core/types/FaceData;->getFaceCount()I
 
     move-result p1
@@ -210,19 +194,16 @@
 
     if-eqz p2, :cond_1
 
-    .line 5
     invoke-static {p0, p2, p4}, Lcom/meitu/core/processor/FaceSlimProcessor;->autoSlimFace(Lcom/meitu/core/types/NativeBitmap;Lcom/meitu/core/face/InterPoint;F)Z
 
     const/high16 p1, 0x3f800000    # 1.0f
 
-    .line 6
     invoke-static {p0, p1}, Lcom/meitu/core/processor/BeautyProcessor;->lazyBeauty(Lcom/meitu/core/types/NativeBitmap;F)Z
 
     move-result v1
 
     goto :goto_0
 
-    .line 7
     :cond_1
     invoke-virtual {p0}, Lcom/meitu/core/types/NativeBitmap;->nativeInstance()J
 
@@ -232,14 +213,12 @@
 
     move-result v1
 
-    .line 8
     :cond_2
     :goto_0
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide p1
 
-    .line 9
     sget-object p3, Lcom/meitu/core/types/NDebug;->TAG:Ljava/lang/String;
 
     new-instance p4, Ljava/lang/StringBuilder;
@@ -284,7 +263,6 @@
 
     invoke-static {p3, p0}, Lcom/meitu/core/types/NDebug;->i(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 10
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1

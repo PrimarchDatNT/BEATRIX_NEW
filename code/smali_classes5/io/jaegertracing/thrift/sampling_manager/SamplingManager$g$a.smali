@@ -32,7 +32,6 @@
 
     const-string v0, "getSamplingStrategy"
 
-    .line 1
     invoke-direct {p0, v0}, Lorg/apache/thrift/ProcessFunction;-><init>(Ljava/lang/String;)V
 
     return-void
@@ -43,7 +42,6 @@
 .method public a()Lio/jaegertracing/thrift/sampling_manager/SamplingManager$getSamplingStrategy_args;
     .locals 1
 
-    .line 1
     new-instance v0, Lio/jaegertracing/thrift/sampling_manager/SamplingManager$getSamplingStrategy_args;
 
     invoke-direct {v0}, Lio/jaegertracing/thrift/sampling_manager/SamplingManager$getSamplingStrategy_args;-><init>()V
@@ -68,12 +66,10 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lio/jaegertracing/thrift/sampling_manager/SamplingManager$getSamplingStrategy_result;
 
     invoke-direct {v0}, Lio/jaegertracing/thrift/sampling_manager/SamplingManager$getSamplingStrategy_result;-><init>()V
 
-    .line 2
     iget-object p2, p2, Lio/jaegertracing/thrift/sampling_manager/SamplingManager$getSamplingStrategy_args;->serviceName:Ljava/lang/String;
 
     invoke-interface {p1, p2}, Lio/jaegertracing/thrift/sampling_manager/SamplingManager$f;->b(Ljava/lang/String;)Lio/jaegertracing/thrift/sampling_manager/SamplingStrategyResponse;
@@ -88,7 +84,6 @@
 .method public bridge synthetic getEmptyArgsInstance()Lorg/apache/thrift/TBase;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lio/jaegertracing/thrift/sampling_manager/SamplingManager$g$a;->a()Lio/jaegertracing/thrift/sampling_manager/SamplingManager$getSamplingStrategy_args;
 
     move-result-object v0
@@ -104,7 +99,6 @@
         }
     .end annotation
 
-    .line 1
     check-cast p1, Lio/jaegertracing/thrift/sampling_manager/SamplingManager$f;
 
     check-cast p2, Lio/jaegertracing/thrift/sampling_manager/SamplingManager$getSamplingStrategy_args;

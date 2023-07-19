@@ -42,10 +42,8 @@
 
     sget v0, Lcom/res/provider/ResLAYOUT;->item_camera_filter_normal:I
 
-    .line 1
     invoke-direct {p0, p1, p2, v0}, Lcom/commsource/widget/h1/f;-><init>(Landroid/content/Context;Landroid/view/ViewGroup;I)V
 
-    .line 2
     new-instance p1, Lcom/commsource/studio/function/MaskFragment$MaskItemViewHolder$mViewBinding$2;
 
     invoke-direct {p1, p0}, Lcom/commsource/studio/function/MaskFragment$MaskItemViewHolder$mViewBinding$2;-><init>(Lcom/commsource/studio/function/MaskFragment$MaskItemViewHolder;)V
@@ -87,14 +85,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0, p1, p2, p3}, Lcom/commsource/widget/h1/f;->k(ILcom/commsource/widget/h1/d;Ljava/util/List;)V
 
     const-string p3, "mViewBinding.vIvFilterCover"
 
     if-eqz p2, :cond_0
 
-    .line 2
     invoke-virtual {p2}, Lcom/commsource/widget/h1/d;->g()Z
 
     move-result v1
@@ -103,7 +99,6 @@
 
     if-ne v1, v2, :cond_0
 
-    .line 3
     invoke-virtual {p0}, Lcom/commsource/studio/function/MaskFragment$MaskItemViewHolder;->v()Lcom/commsource/beautyplus/f0/ee;
 
     move-result-object v1
@@ -120,7 +115,6 @@
 
     invoke-virtual {v1, v3}, Lcom/commsource/widget/CircleImageView;->setBorderColor(I)V
 
-    .line 4
     invoke-virtual {p0}, Lcom/commsource/studio/function/MaskFragment$MaskItemViewHolder;->v()Lcom/commsource/beautyplus/f0/ee;
 
     move-result-object v1
@@ -137,7 +131,6 @@
 
     goto :goto_0
 
-    .line 5
     :cond_0
     invoke-virtual {p0}, Lcom/commsource/studio/function/MaskFragment$MaskItemViewHolder;->v()Lcom/commsource/beautyplus/f0/ee;
 
@@ -155,7 +148,6 @@
 
     invoke-virtual {v1, p3}, Lcom/commsource/widget/CircleImageView;->setBorderColor(I)V
 
-    .line 6
     :goto_0
     invoke-virtual {p0}, Lcom/commsource/studio/function/MaskFragment$MaskItemViewHolder;->v()Lcom/commsource/beautyplus/f0/ee;
 
@@ -169,7 +161,6 @@
 
     invoke-static {p3}, Lcom/commsource/util/l0;->w(Landroid/view/View;)V
 
-    .line 7
     invoke-virtual {p0}, Lcom/commsource/studio/function/MaskFragment$MaskItemViewHolder;->v()Lcom/commsource/beautyplus/f0/ee;
 
     move-result-object p3
@@ -182,7 +173,6 @@
 
     invoke-static {p3}, Lcom/commsource/util/l0;->w(Landroid/view/View;)V
 
-    .line 8
     invoke-virtual {p0}, Lcom/commsource/studio/function/MaskFragment$MaskItemViewHolder;->v()Lcom/commsource/beautyplus/f0/ee;
 
     move-result-object p3
@@ -197,14 +187,12 @@
 
     if-eqz p2, :cond_1
 
-    .line 9
     iget-object p3, p0, Lcom/commsource/widget/h1/f;->d:Landroid/content/Context;
 
     invoke-static {p3}, Lcom/commsource/util/u0;->i(Landroid/content/Context;)Lcom/commsource/util/u0$d;
 
     move-result-object p3
 
-    .line 10
     invoke-virtual {p2}, Lcom/commsource/widget/h1/d;->b()Ljava/lang/Object;
 
     move-result-object p2
@@ -219,14 +207,12 @@
 
     move-result-object p2
 
-    .line 11
     sget-object p3, Landroid/widget/ImageView$ScaleType;->FIT_CENTER:Landroid/widget/ImageView$ScaleType;
 
     invoke-virtual {p2, p3}, Lcom/commsource/util/u0$d;->u(Landroid/widget/ImageView$ScaleType;)Lcom/commsource/util/u0$d;
 
     move-result-object p2
 
-    .line 12
     invoke-virtual {p0}, Lcom/commsource/studio/function/MaskFragment$MaskItemViewHolder;->v()Lcom/commsource/beautyplus/f0/ee;
 
     move-result-object p3
@@ -235,7 +221,6 @@
 
     invoke-virtual {p2, p3}, Lcom/commsource/util/u0$d;->e(Landroid/widget/ImageView;)V
 
-    .line 13
     :cond_1
     invoke-virtual {p0}, Lcom/commsource/studio/function/MaskFragment$MaskItemViewHolder;->v()Lcom/commsource/beautyplus/f0/ee;
 
@@ -269,7 +254,6 @@
 
     invoke-virtual {p2, p1}, Landroid/view/View;->setTag(Ljava/lang/Object;)V
 
-    .line 14
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

@@ -25,7 +25,6 @@
 .method constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lio/grpc/ChannelLogger;-><init>()V
 
     return-void
@@ -36,7 +35,6 @@
 .method public a(Lio/grpc/ChannelLogger$ChannelLogLevel;Ljava/lang/String;)V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lio/grpc/internal/f1$o;->a:Lio/grpc/j0;
 
     invoke-static {v0, p1, p2}, Lio/grpc/internal/s;->d(Lio/grpc/j0;Lio/grpc/ChannelLogger$ChannelLogLevel;Ljava/lang/String;)V
@@ -47,7 +45,6 @@
 .method public varargs b(Lio/grpc/ChannelLogger$ChannelLogLevel;Ljava/lang/String;[Ljava/lang/Object;)V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lio/grpc/internal/f1$o;->a:Lio/grpc/j0;
 
     invoke-static {v0, p1, p2, p3}, Lio/grpc/internal/s;->e(Lio/grpc/j0;Lio/grpc/ChannelLogger$ChannelLogLevel;Ljava/lang/String;[Ljava/lang/Object;)V

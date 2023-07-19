@@ -55,7 +55,6 @@
 .method public bridge synthetic invoke(Ljava/lang/Object;)Ljava/lang/Object;
     .locals 0
 
-    .line 1
     check-cast p1, Lcotlin/Pair;
 
     invoke-virtual {p0, p1}, Lkshark/HprofHeapGraph$objects$1;->invoke(Lcotlin/Pair;)Lkshark/HeapObject;
@@ -90,7 +89,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 2
     iget-object v0, p0, Lkshark/HprofHeapGraph$objects$1;->this$0:Lkshark/HprofHeapGraph;
 
     invoke-virtual {p1}, Lcotlin/Pair;->getSecond()Ljava/lang/Object;

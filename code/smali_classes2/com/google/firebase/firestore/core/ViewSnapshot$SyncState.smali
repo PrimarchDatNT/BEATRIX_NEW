@@ -36,7 +36,6 @@
 .method static constructor <clinit>()V
     .locals 7
 
-    .line 1
     new-instance v0, Lcom/google/firebase/firestore/core/ViewSnapshot$SyncState;
 
     const-string v1, "NONE"
@@ -47,7 +46,6 @@
 
     sput-object v0, Lcom/google/firebase/firestore/core/ViewSnapshot$SyncState;->NONE:Lcom/google/firebase/firestore/core/ViewSnapshot$SyncState;
 
-    .line 2
     new-instance v1, Lcom/google/firebase/firestore/core/ViewSnapshot$SyncState;
 
     const-string v3, "LOCAL"
@@ -58,7 +56,6 @@
 
     sput-object v1, Lcom/google/firebase/firestore/core/ViewSnapshot$SyncState;->LOCAL:Lcom/google/firebase/firestore/core/ViewSnapshot$SyncState;
 
-    .line 3
     new-instance v3, Lcom/google/firebase/firestore/core/ViewSnapshot$SyncState;
 
     const-string v5, "SYNCED"
@@ -79,7 +76,6 @@
 
     aput-object v3, v5, v6
 
-    .line 4
     sput-object v5, Lcom/google/firebase/firestore/core/ViewSnapshot$SyncState;->$VALUES:[Lcom/google/firebase/firestore/core/ViewSnapshot$SyncState;
 
     return-void
@@ -93,7 +89,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
     return-void
@@ -102,7 +97,6 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/google/firebase/firestore/core/ViewSnapshot$SyncState;
     .locals 1
 
-    .line 1
     const-class v0, Lcom/google/firebase/firestore/core/ViewSnapshot$SyncState;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -117,7 +111,6 @@
 .method public static values()[Lcom/google/firebase/firestore/core/ViewSnapshot$SyncState;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/google/firebase/firestore/core/ViewSnapshot$SyncState;->$VALUES:[Lcom/google/firebase/firestore/core/ViewSnapshot$SyncState;
 
     invoke-virtual {v0}, [Lcom/google/firebase/firestore/core/ViewSnapshot$SyncState;->clone()Ljava/lang/Object;

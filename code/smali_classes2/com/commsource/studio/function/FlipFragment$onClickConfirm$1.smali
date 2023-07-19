@@ -54,7 +54,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/studio/function/FlipFragment$onClickConfirm$1;->invoke()V
 
     sget-object v1, Lcotlin/t1;->a:Lcotlin/t1;
@@ -73,7 +72,6 @@
 
     invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 2
     iget-object v2, v0, Lcom/commsource/studio/function/FlipFragment$onClickConfirm$1;->this$0:Lcom/commsource/studio/function/FlipFragment;
 
     invoke-virtual {v2}, Lcom/commsource/studio/function/BaseSubFragment;->r0()Lcom/commsource/studio/ImageStudioViewModel;
@@ -112,7 +110,6 @@
 
     move-result-object v2
 
-    .line 3
     iget-object v3, v0, Lcom/commsource/studio/function/FlipFragment$onClickConfirm$1;->this$0:Lcom/commsource/studio/function/FlipFragment;
 
     invoke-static {v3}, Lcom/commsource/studio/function/FlipFragment;->z1(Lcom/commsource/studio/function/FlipFragment;)Lcom/commsource/studio/bean/FocusLayerInfo;
@@ -125,7 +122,6 @@
 
     invoke-virtual {v3, v4}, Lcom/commsource/studio/bean/FocusLayerInfo;->setFlipX(Z)V
 
-    .line 4
     :cond_0
     iget-object v3, v0, Lcom/commsource/studio/function/FlipFragment$onClickConfirm$1;->this$0:Lcom/commsource/studio/function/FlipFragment;
 
@@ -137,7 +133,6 @@
 
     invoke-virtual {v3, v4}, Lcom/commsource/studio/bean/FocusLayerInfo;->setFlipY(Z)V
 
-    .line 5
     :cond_1
     iget-object v3, v0, Lcom/commsource/studio/function/FlipFragment$onClickConfirm$1;->this$0:Lcom/commsource/studio/function/FlipFragment;
 
@@ -149,7 +144,6 @@
 
     if-eqz v3, :cond_8
 
-    .line 6
     iget-object v6, v0, Lcom/commsource/studio/function/FlipFragment$onClickConfirm$1;->this$0:Lcom/commsource/studio/function/FlipFragment;
 
     invoke-virtual {v6}, Lcom/commsource/studio/function/FlipFragment;->C1()Lcom/commsource/studio/effect/i;
@@ -185,7 +179,6 @@
     :goto_0
     invoke-virtual {v3, v6}, Lcom/commsource/studio/bean/FocusLayerInfo;->setRealFlipX(Z)V
 
-    .line 7
     iget-object v6, v0, Lcom/commsource/studio/function/FlipFragment$onClickConfirm$1;->this$0:Lcom/commsource/studio/function/FlipFragment;
 
     invoke-virtual {v6}, Lcom/commsource/studio/function/FlipFragment;->C1()Lcom/commsource/studio/effect/i;
@@ -217,14 +210,12 @@
     :goto_1
     invoke-virtual {v3, v4}, Lcom/commsource/studio/bean/FocusLayerInfo;->setRealFlipY(Z)V
 
-    .line 8
     invoke-virtual {v3}, Lcom/commsource/studio/bean/FocusLayerInfo;->hasMaskEffect()Z
 
     move-result v4
 
     if-eqz v4, :cond_8
 
-    .line 9
     iget-object v4, v0, Lcom/commsource/studio/function/FlipFragment$onClickConfirm$1;->this$0:Lcom/commsource/studio/function/FlipFragment;
 
     invoke-virtual {v4}, Lcom/commsource/studio/function/FlipFragment;->C1()Lcom/commsource/studio/effect/i;
@@ -245,7 +236,6 @@
 
     if-eqz v4, :cond_6
 
-    .line 10
     invoke-virtual {v3}, Lcom/commsource/studio/bean/FocusLayerInfo;->getBitmapMatrixBox()Lcom/commsource/studio/MatrixBox;
 
     move-result-object v4
@@ -254,7 +244,6 @@
 
     invoke-direct {v10}, Landroid/graphics/Matrix;-><init>()V
 
-    .line 11
     invoke-static {v2, v6}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v2}, Landroid/graphics/Bitmap;->getWidth()I
@@ -275,14 +264,12 @@
 
     invoke-virtual {v10, v9, v8, v11, v12}, Landroid/graphics/Matrix;->preScale(FFFF)Z
 
-    .line 12
     new-instance v11, Lcom/commsource/studio/MatrixBox;
 
     invoke-direct {v11, v10}, Lcom/commsource/studio/MatrixBox;-><init>(Landroid/graphics/Matrix;)V
 
     invoke-virtual {v4, v11}, Lcom/commsource/studio/MatrixBox;->preConcat(Lcom/commsource/studio/MatrixBox;)V
 
-    .line 13
     invoke-virtual {v3}, Lcom/commsource/studio/bean/FocusLayerInfo;->getBitmapMatrixBox()Lcom/commsource/studio/MatrixBox;
 
     move-result-object v4
@@ -305,7 +292,6 @@
 
     invoke-virtual {v4, v9, v8, v10, v11}, Lcom/commsource/studio/MatrixBox;->postScale(FFFF)V
 
-    .line 14
     :cond_6
     iget-object v4, v0, Lcom/commsource/studio/function/FlipFragment$onClickConfirm$1;->this$0:Lcom/commsource/studio/function/FlipFragment;
 
@@ -319,7 +305,6 @@
 
     if-eqz v4, :cond_7
 
-    .line 15
     invoke-virtual {v3}, Lcom/commsource/studio/bean/FocusLayerInfo;->getBitmapMatrixBox()Lcom/commsource/studio/MatrixBox;
 
     move-result-object v4
@@ -328,7 +313,6 @@
 
     invoke-direct {v10}, Landroid/graphics/Matrix;-><init>()V
 
-    .line 16
     invoke-static {v2, v6}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v2}, Landroid/graphics/Bitmap;->getWidth()I
@@ -349,14 +333,12 @@
 
     invoke-virtual {v10, v8, v9, v11, v12}, Landroid/graphics/Matrix;->preScale(FFFF)Z
 
-    .line 17
     new-instance v7, Lcom/commsource/studio/MatrixBox;
 
     invoke-direct {v7, v10}, Lcom/commsource/studio/MatrixBox;-><init>(Landroid/graphics/Matrix;)V
 
     invoke-virtual {v4, v7}, Lcom/commsource/studio/MatrixBox;->preConcat(Lcom/commsource/studio/MatrixBox;)V
 
-    .line 18
     invoke-virtual {v3}, Lcom/commsource/studio/bean/FocusLayerInfo;->getBitmapMatrixBox()Lcom/commsource/studio/MatrixBox;
 
     move-result-object v4
@@ -379,18 +361,15 @@
 
     invoke-virtual {v4, v8, v9, v7, v10}, Lcom/commsource/studio/MatrixBox;->postScale(FFFF)V
 
-    .line 19
     :cond_7
     invoke-virtual {v3}, Lcom/commsource/studio/bean/FocusLayerInfo;->getBitmapPosition()Lcom/commsource/studio/layer/Position;
 
     move-result-object v11
 
-    .line 20
     invoke-virtual {v3}, Lcom/commsource/studio/bean/FocusLayerInfo;->getBitmapMatrixBox()Lcom/commsource/studio/MatrixBox;
 
     move-result-object v12
 
-    .line 21
     iget-object v3, v0, Lcom/commsource/studio/function/FlipFragment$onClickConfirm$1;->this$0:Lcom/commsource/studio/function/FlipFragment;
 
     invoke-virtual {v3}, Lcom/commsource/studio/function/BaseSubFragment;->q0()Lcom/commsource/beautyplus/f0/k0;
@@ -405,7 +384,6 @@
 
     int-to-float v13, v3
 
-    .line 22
     iget-object v3, v0, Lcom/commsource/studio/function/FlipFragment$onClickConfirm$1;->this$0:Lcom/commsource/studio/function/FlipFragment;
 
     invoke-virtual {v3}, Lcom/commsource/studio/function/BaseSubFragment;->q0()Lcom/commsource/beautyplus/f0/k0;
@@ -420,7 +398,6 @@
 
     int-to-float v14, v3
 
-    .line 23
     invoke-static {v2, v6}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v2}, Landroid/graphics/Bitmap;->getWidth()I
@@ -429,7 +406,6 @@
 
     int-to-float v15, v3
 
-    .line 24
     invoke-virtual {v2}, Landroid/graphics/Bitmap;->getHeight()I
 
     move-result v3
@@ -438,10 +414,8 @@
 
     move/from16 v16, v3
 
-    .line 25
     invoke-virtual/range {v11 .. v16}, Lcom/commsource/studio/layer/Position;->set(Lcom/commsource/studio/MatrixBox;FFFF)V
 
-    .line 26
     :cond_8
     iget-object v3, v0, Lcom/commsource/studio/function/FlipFragment$onClickConfirm$1;->this$0:Lcom/commsource/studio/function/FlipFragment;
 
@@ -451,7 +425,6 @@
 
     invoke-virtual {v3, v4, v2, v5}, Lcom/commsource/studio/function/BaseSubFragment;->V(Lcom/commsource/studio/effect/k;Landroid/graphics/Bitmap;Z)V
 
-    .line 27
     invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

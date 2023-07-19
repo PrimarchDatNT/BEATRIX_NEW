@@ -30,25 +30,20 @@
 .method public constructor <init>(Lcom/commsource/camera/f1/d;)V
     .locals 2
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/camera/f1/d$b;->e:Lcom/commsource/camera/f1/d;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const-wide/16 v0, 0x0
 
-    .line 2
     iput-wide v0, p0, Lcom/commsource/camera/f1/d$b;->a:J
 
-    .line 3
     iput-wide v0, p0, Lcom/commsource/camera/f1/d$b;->b:J
 
     const/4 p1, 0x0
 
-    .line 4
     iput p1, p0, Lcom/commsource/camera/f1/d$b;->c:I
 
-    .line 5
     iput p1, p0, Lcom/commsource/camera/f1/d$b;->d:I
 
     return-void

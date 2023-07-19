@@ -41,20 +41,16 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     new-instance v0, Ljava/util/HashMap;
 
     invoke-direct {v0}, Ljava/util/HashMap;-><init>()V
 
     iput-object v0, p0, Lcom/meitu/remote/abt/c/a;->a:Ljava/util/Map;
 
-    .line 3
     iput-object p1, p0, Lcom/meitu/remote/abt/c/a;->b:Landroid/content/Context;
 
-    .line 4
     iput-object p2, p0, Lcom/meitu/remote/abt/c/a;->c:Lf/k/g0/g/d/d;
 
     return-void
@@ -71,7 +67,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/meitu/remote/abt/a;
 
     iget-object v2, p0, Lcom/meitu/remote/abt/c/a;->b:Landroid/content/Context;
@@ -95,7 +90,6 @@
     :try_start_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/remote/abt/c/a;->a:Ljava/util/Map;
 
     invoke-interface {v1, p1}, Ljava/util/Map;->containsKey(Ljava/lang/Object;)Z
@@ -104,7 +98,6 @@
 
     if-nez v1, :cond_0
 
-    .line 2
     iget-object v1, p0, Lcom/meitu/remote/abt/c/a;->a:Ljava/util/Map;
 
     invoke-virtual {p0, p1}, Lcom/meitu/remote/abt/c/a;->a(Ljava/lang/String;)Lcom/meitu/remote/abt/a;
@@ -113,7 +106,6 @@
 
     invoke-interface {v1, p1, v2}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 3
     :cond_0
     iget-object v1, p0, Lcom/meitu/remote/abt/c/a;->a:Ljava/util/Map;
 

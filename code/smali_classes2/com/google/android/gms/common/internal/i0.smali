@@ -11,7 +11,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -28,7 +27,6 @@
 
     goto :goto_0
 
-    .line 1
     :cond_0
     invoke-interface {p3, p0, p1}, Landroid/util/AttributeSet;->getAttributeValue(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
@@ -39,7 +37,6 @@
 
     const-string p3, "@string/"
 
-    .line 2
     invoke-virtual {p0, p3}, Ljava/lang/String;->startsWith(Ljava/lang/String;)Z
 
     move-result p3
@@ -50,22 +47,18 @@
 
     const/16 p3, 0x8
 
-    .line 3
     invoke-virtual {p0, p3}, Ljava/lang/String;->substring(I)Ljava/lang/String;
 
     move-result-object p4
 
-    .line 4
     invoke-virtual {p2}, Landroid/content/Context;->getPackageName()Ljava/lang/String;
 
     move-result-object v0
 
-    .line 5
     new-instance v1, Landroid/util/TypedValue;
 
     invoke-direct {v1}, Landroid/util/TypedValue;-><init>()V
 
-    .line 6
     :try_start_0
     invoke-virtual {p2}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
 
@@ -115,7 +108,6 @@
 
     goto :goto_1
 
-    .line 7
     :catch_0
     invoke-static {p1}, Ljava/lang/String;->valueOf(Ljava/lang/Object;)Ljava/lang/String;
 
@@ -159,20 +151,17 @@
 
     invoke-static {p6, p2}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 8
     :goto_1
     iget-object p2, v1, Landroid/util/TypedValue;->string:Ljava/lang/CharSequence;
 
     if-eqz p2, :cond_1
 
-    .line 9
     invoke-interface {p2}, Ljava/lang/CharSequence;->toString()Ljava/lang/String;
 
     move-result-object p0
 
     goto :goto_2
 
-    .line 10
     :cond_1
     invoke-static {v1}, Ljava/lang/String;->valueOf(Ljava/lang/Object;)Ljava/lang/String;
 
@@ -226,7 +215,6 @@
 
     if-nez p0, :cond_3
 
-    .line 11
     invoke-static {p1}, Ljava/lang/String;->valueOf(Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object p2

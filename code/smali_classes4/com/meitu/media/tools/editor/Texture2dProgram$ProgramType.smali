@@ -42,7 +42,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/meitu/media/tools/editor/Texture2dProgram$ProgramType;
 
     const-string v2, "TEXTURE_2D"
@@ -95,7 +94,6 @@
 
     aput-object v6, v8, v9
 
-    .line 2
     sput-object v8, Lcom/meitu/media/tools/editor/Texture2dProgram$ProgramType;->$VALUES:[Lcom/meitu/media/tools/editor/Texture2dProgram$ProgramType;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -111,7 +109,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
     return-void
@@ -124,7 +121,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     const-class v1, Lcom/meitu/media/tools/editor/Texture2dProgram$ProgramType;
 
     invoke-static {v1, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -145,7 +141,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/meitu/media/tools/editor/Texture2dProgram$ProgramType;->$VALUES:[Lcom/meitu/media/tools/editor/Texture2dProgram$ProgramType;
 
     invoke-virtual {v1}, [Lcom/meitu/media/tools/editor/Texture2dProgram$ProgramType;->clone()Ljava/lang/Object;

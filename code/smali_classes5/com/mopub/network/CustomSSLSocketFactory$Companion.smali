@@ -19,7 +19,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -28,7 +27,6 @@
 .method public synthetic constructor <init>(Lcotlin/jvm/internal/u;)V
     .locals 0
 
-    .line 2
     invoke-direct {p0}, Lcom/mopub/network/CustomSSLSocketFactory$Companion;-><init>()V
 
     return-void
@@ -44,14 +42,12 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/mopub/network/CustomSSLSocketFactory;
 
     const/4 v1, 0x0
 
     invoke-direct {v0, v1}, Lcom/mopub/network/CustomSSLSocketFactory;-><init>(Lcotlin/jvm/internal/u;)V
 
-    .line 2
     invoke-static {p1, v1}, Landroid/net/SSLCertificateSocketFactory;->getDefault(ILandroid/net/SSLSessionCache;)Ljavax/net/ssl/SSLSocketFactory;
 
     move-result-object p1
@@ -87,15 +83,12 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-virtual {p1}, Ljavax/net/ssl/SSLSocket;->startHandshake()V
 
-    .line 2
     invoke-static {}, Ljavax/net/ssl/HttpsURLConnection;->getDefaultHostnameVerifier()Ljavax/net/ssl/HostnameVerifier;
 
     move-result-object v0
 
-    .line 3
     invoke-virtual {p1}, Ljavax/net/ssl/SSLSocket;->getSession()Ljavax/net/ssl/SSLSession;
 
     move-result-object p1
@@ -108,7 +101,6 @@
 
     return-void
 
-    .line 4
     :cond_0
     new-instance p1, Ljavax/net/ssl/SSLHandshakeException;
 

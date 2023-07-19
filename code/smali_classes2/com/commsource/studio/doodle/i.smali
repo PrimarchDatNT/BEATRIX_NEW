@@ -38,7 +38,6 @@
 
     invoke-static {p2, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     iput-object p1, p0, Lcom/commsource/studio/doodle/i;->a:Lcom/commsource/studio/doodle/DoodleMaterial;
@@ -59,7 +58,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/doodle/i;->b:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -76,7 +74,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/doodle/i;->a:Lcom/commsource/studio/doodle/DoodleMaterial;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -93,7 +90,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/doodle/i;->b:Ljava/lang/String;
 
     iget-object v2, p0, Lcom/commsource/studio/doodle/i;->a:Lcom/commsource/studio/doodle/DoodleMaterial;
@@ -126,12 +122,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     instance-of v1, p1, Lcom/commsource/studio/doodle/i;
 
     if-eqz v1, :cond_1
 
-    .line 2
     check-cast p1, Lcom/commsource/studio/doodle/i;
 
     iget-object v1, p1, Lcom/commsource/studio/doodle/i;->a:Lcom/commsource/studio/doodle/DoodleMaterial;
@@ -166,7 +160,6 @@
 
     return p1
 
-    .line 3
     :cond_1
     invoke-super {p0, p1}, Ljava/lang/Object;->equals(Ljava/lang/Object;)Z
 
@@ -184,7 +177,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/doodle/i;->a:Lcom/commsource/studio/doodle/DoodleMaterial;
 
     invoke-virtual {v1}, Lcom/commsource/studio/doodle/DoodleMaterial;->hashCode()I

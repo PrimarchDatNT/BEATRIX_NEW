@@ -27,7 +27,6 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
     new-instance v0, Lcom/google/firebase/database/collection/m;
 
     invoke-direct {v0}, Lcom/google/firebase/database/collection/m;-><init>()V
@@ -40,7 +39,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -60,7 +58,6 @@
         }
     .end annotation
 
-    .line 1
     sget-object p0, Lcom/google/firebase/database/collection/m;->a:Lcom/google/firebase/database/collection/m;
 
     return-object p0
@@ -76,7 +73,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-interface {p1, p2}, Ljava/lang/Comparable;->compareTo(Ljava/lang/Object;)I
 
     move-result p1
@@ -87,7 +83,6 @@
 .method public bridge synthetic compare(Ljava/lang/Object;Ljava/lang/Object;)I
     .locals 0
 
-    .line 1
     check-cast p1, Ljava/lang/Comparable;
 
     check-cast p2, Ljava/lang/Comparable;

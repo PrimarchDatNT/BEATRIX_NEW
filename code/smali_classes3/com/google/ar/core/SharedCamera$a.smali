@@ -38,25 +38,20 @@
 .method private constructor <init>()V
     .locals 2
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/4 v0, 0x0
 
-    .line 2
     iput-object v0, p0, Lcom/google/ar/core/SharedCamera$a;->a:Landroid/hardware/camera2/CameraDevice;
 
-    .line 3
     new-instance v1, Ljava/util/HashMap;
 
     invoke-direct {v1}, Ljava/util/HashMap;-><init>()V
 
     iput-object v1, p0, Lcom/google/ar/core/SharedCamera$a;->b:Ljava/util/Map;
 
-    .line 4
     iput-object v0, p0, Lcom/google/ar/core/SharedCamera$a;->c:Landroid/graphics/SurfaceTexture;
 
-    .line 5
     iput-object v0, p0, Lcom/google/ar/core/SharedCamera$a;->d:Landroid/view/Surface;
 
     return-void
@@ -65,7 +60,6 @@
 .method synthetic constructor <init>(B)V
     .locals 0
 
-    .line 6
     invoke-direct {p0}, Lcom/google/ar/core/SharedCamera$a;-><init>()V
 
     return-void
@@ -76,7 +70,6 @@
 .method public final a()Landroid/hardware/camera2/CameraDevice;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/ar/core/SharedCamera$a;->a:Landroid/hardware/camera2/CameraDevice;
 
     return-object v0
@@ -85,7 +78,6 @@
 .method public final b(Landroid/graphics/SurfaceTexture;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/ar/core/SharedCamera$a;->c:Landroid/graphics/SurfaceTexture;
 
     return-void
@@ -94,7 +86,6 @@
 .method public final c(Landroid/hardware/camera2/CameraDevice;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/ar/core/SharedCamera$a;->a:Landroid/hardware/camera2/CameraDevice;
 
     return-void
@@ -103,7 +94,6 @@
 .method public final d(Landroid/view/Surface;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/ar/core/SharedCamera$a;->d:Landroid/view/Surface;
 
     return-void
@@ -121,7 +111,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/ar/core/SharedCamera$a;->b:Ljava/util/Map;
 
     invoke-interface {v0, p1, p2}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
@@ -132,7 +121,6 @@
 .method public final f()Landroid/graphics/SurfaceTexture;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/ar/core/SharedCamera$a;->c:Landroid/graphics/SurfaceTexture;
 
     return-object v0
@@ -141,7 +129,6 @@
 .method public final g()Landroid/view/Surface;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/ar/core/SharedCamera$a;->d:Landroid/view/Surface;
 
     return-object v0

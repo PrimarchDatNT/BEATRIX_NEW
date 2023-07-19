@@ -29,13 +29,10 @@
 .method public constructor <init>(Lcom/google/android/gms/internal/ads/ia;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/google/android/gms/internal/ads/ja;->a:Lcom/google/android/gms/internal/ads/ia;
 
-    .line 3
     new-instance p1, Ljava/util/HashSet;
 
     invoke-direct {p1}, Ljava/util/HashSet;-><init>()V
@@ -66,7 +63,6 @@
 .method public final a(Ljava/lang/String;)V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/ja;->a:Lcom/google/android/gms/internal/ads/ia;
 
     invoke-interface {v0, p1}, Lcom/google/android/gms/internal/ads/g9;->a(Ljava/lang/String;)V
@@ -95,12 +91,10 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/ja;->a:Lcom/google/android/gms/internal/ads/ia;
 
     invoke-interface {v0, p1, p2}, Lcom/google/android/gms/internal/ads/ia;->g(Ljava/lang/String;Lcom/google/android/gms/internal/ads/g6;)V
 
-    .line 2
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/ja;->b:Ljava/util/HashSet;
 
     new-instance v1, Ljava/util/AbstractMap$SimpleEntry;
@@ -125,12 +119,10 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/ja;->a:Lcom/google/android/gms/internal/ads/ia;
 
     invoke-interface {v0, p1, p2}, Lcom/google/android/gms/internal/ads/ia;->i(Ljava/lang/String;Lcom/google/android/gms/internal/ads/g6;)V
 
-    .line 2
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/ja;->b:Ljava/util/HashSet;
 
     new-instance v1, Ljava/util/AbstractMap$SimpleEntry;
@@ -145,7 +137,6 @@
 .method public final l0()V
     .locals 5
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/ja;->b:Ljava/util/HashSet;
 
     invoke-virtual {v0}, Ljava/util/HashSet;->iterator()Ljava/util/Iterator;
@@ -167,7 +158,6 @@
 
     const-string v2, "Unregistering eventhandler: "
 
-    .line 2
     invoke-virtual {v1}, Ljava/util/AbstractMap$SimpleEntry;->getValue()Ljava/lang/Object;
 
     move-result-object v3
@@ -204,7 +194,6 @@
     :goto_1
     invoke-static {v2}, Lcom/google/android/gms/internal/ads/sm;->m(Ljava/lang/String;)V
 
-    .line 3
     iget-object v2, p0, Lcom/google/android/gms/internal/ads/ja;->a:Lcom/google/android/gms/internal/ads/ia;
 
     invoke-virtual {v1}, Ljava/util/AbstractMap$SimpleEntry;->getKey()Ljava/lang/Object;
@@ -223,7 +212,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/ja;->b:Ljava/util/HashSet;
 

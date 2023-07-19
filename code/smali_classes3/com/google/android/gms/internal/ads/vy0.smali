@@ -36,10 +36,8 @@
 .method public final apply(Ljava/lang/Object;)Ljava/lang/Object;
     .locals 0
 
-    .line 1
     check-cast p1, Lcom/google/android/gms/internal/ads/oh0;
 
-    .line 2
     invoke-static {p1}, Lcom/google/android/gms/internal/ads/jq1;->g(Ljava/lang/Object;)Lcom/google/android/gms/internal/ads/rq1;
 
     move-result-object p1

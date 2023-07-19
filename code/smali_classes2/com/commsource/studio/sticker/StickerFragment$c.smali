@@ -54,7 +54,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p2, Lcom/meitu/template/bean/StickerGroup;
 
     invoke-virtual {p0, p1, p2}, Lcom/commsource/studio/sticker/StickerFragment$c;->b(ILcom/meitu/template/bean/StickerGroup;)Z
@@ -73,7 +72,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/sticker/StickerFragment$c;->a:Lcom/commsource/studio/sticker/StickerFragment;
 
     invoke-static {v1}, Lcom/commsource/studio/sticker/StickerFragment;->X(Lcom/commsource/studio/sticker/StickerFragment;)Lcom/commsource/beautyplus/f0/ma;
@@ -88,7 +86,6 @@
 
     invoke-virtual {v1, p1}, Landroidx/viewpager/widget/ViewPager;->setCurrentItem(I)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/sticker/StickerFragment$c;->a:Lcom/commsource/studio/sticker/StickerFragment;
 
     invoke-static {v1}, Lcom/commsource/studio/sticker/StickerFragment;->X(Lcom/commsource/studio/sticker/StickerFragment;)Lcom/commsource/beautyplus/f0/ma;
@@ -99,12 +96,10 @@
 
     invoke-virtual {v1, p1}, Landroidx/recyclerview/widget/RecyclerView;->smoothScrollToPosition(I)V
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/studio/sticker/StickerFragment$c;->a:Lcom/commsource/studio/sticker/StickerFragment;
 
     invoke-static {v1, p1}, Lcom/commsource/studio/sticker/StickerFragment;->b0(Lcom/commsource/studio/sticker/StickerFragment;I)V
 
-    .line 4
     iget-object p1, p0, Lcom/commsource/studio/sticker/StickerFragment$c;->a:Lcom/commsource/studio/sticker/StickerFragment;
 
     invoke-static {p1}, Lcom/commsource/studio/sticker/StickerFragment;->Y(Lcom/commsource/studio/sticker/StickerFragment;)Lcom/commsource/studio/sticker/StickerViewModel;
@@ -117,7 +112,6 @@
 
     invoke-virtual {p1, p2}, Lcom/commsource/studio/sticker/StickerViewModel;->N(Lcom/meitu/template/bean/StickerGroup;)V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const/4 p1, 0x1

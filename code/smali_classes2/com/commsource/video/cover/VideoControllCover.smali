@@ -41,10 +41,8 @@
 
     sget v0, Lcom/res/provider/ResLAYOUT;->video_cover_video_controll:I
 
-    .line 1
     invoke-direct {p0, v0}, Lcom/commsource/video/cover/a;-><init>(I)V
 
-    .line 2
     new-instance v0, Lcom/commsource/video/cover/VideoControllCover$positionTimer$2;
 
     invoke-direct {v0, p0}, Lcom/commsource/video/cover/VideoControllCover$positionTimer$2;-><init>(Lcom/commsource/video/cover/VideoControllCover;)V
@@ -67,7 +65,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/video/cover/VideoControllCover;->j:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -82,7 +79,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/video/cover/VideoControllCover;->i:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -101,7 +97,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/video/cover/VideoControllCover;->f:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -116,7 +111,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0, p1}, Lcom/commsource/video/cover/a;->a(I)V
 
     const/4 v1, 0x1
@@ -125,7 +119,6 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     invoke-virtual {p0}, Lcom/commsource/video/cover/a;->m()Landroidx/databinding/ViewDataBinding;
 
@@ -143,7 +136,6 @@
 
     invoke-virtual {p1, v1}, Landroidx/appcompat/widget/AppCompatImageView;->setImageResource(I)V
 
-    .line 3
     :cond_1
     invoke-virtual {p0}, Lcom/commsource/video/cover/VideoControllCover;->u()Lcom/commsource/video/decoder/d;
 
@@ -151,14 +143,12 @@
 
     invoke-virtual {p1}, Lcom/commsource/video/decoder/d;->h()V
 
-    .line 4
     invoke-virtual {p0}, Lcom/commsource/video/cover/a;->k()Lcom/commsource/video/view/XVideoUIGroup;
 
     move-result-object p1
 
     invoke-virtual {p1}, Lcom/commsource/video/view/XVideoUIGroup;->o()V
 
-    .line 5
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -172,29 +162,23 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0, p1}, Lcom/commsource/video/cover/a;->b(I)V
 
-    .line 2
     iget-boolean v1, p0, Lcom/commsource/video/cover/VideoControllCover;->i:Z
 
     if-eqz v1, :cond_0
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 4
     :cond_0
     iput p1, p0, Lcom/commsource/video/cover/VideoControllCover;->h:I
 
-    .line 5
     iget-object v1, p0, Lcom/commsource/video/cover/VideoControllCover;->f:Ljava/lang/String;
 
     if-eqz v1, :cond_1
 
-    .line 6
     invoke-virtual {p0}, Lcom/commsource/video/cover/a;->m()Landroidx/databinding/ViewDataBinding;
 
     move-result-object v2
@@ -217,7 +201,6 @@
 
     invoke-virtual {v2, v1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 7
     :cond_1
     iget v1, p0, Lcom/commsource/video/cover/VideoControllCover;->g:I
 
@@ -240,7 +223,6 @@
     :cond_2
     const/4 v1, 0x0
 
-    .line 8
     :goto_0
     invoke-virtual {p0}, Lcom/commsource/video/cover/a;->m()Landroidx/databinding/ViewDataBinding;
 
@@ -274,7 +256,6 @@
 
     invoke-virtual {v1, p1, v2}, Lcom/commsource/widget/XSeekBar;->t(IZ)V
 
-    .line 9
     :cond_3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -288,13 +269,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0, p1}, Lcom/commsource/video/cover/a;->c(I)V
 
-    .line 2
     iput p1, p0, Lcom/commsource/video/cover/VideoControllCover;->g:I
 
-    .line 3
     sget-object v1, Lcom/commsource/video/d;->d:Lcom/commsource/video/d;
 
     int-to-long v2, p1
@@ -307,7 +285,6 @@
 
     if-eqz v4, :cond_0
 
-    .line 4
     invoke-virtual {p0}, Lcom/commsource/video/cover/a;->m()Landroidx/databinding/ViewDataBinding;
 
     move-result-object v5
@@ -326,7 +303,6 @@
 
     invoke-virtual {v5, v1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 5
     :cond_0
     invoke-static {p1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -347,7 +323,6 @@
     :cond_1
     const/4 v1, 0x0
 
-    .line 6
     :goto_0
     invoke-virtual {p0}, Lcom/commsource/video/cover/a;->m()Landroidx/databinding/ViewDataBinding;
 
@@ -377,7 +352,6 @@
 
     invoke-virtual {v1, p1, v2}, Lcom/commsource/widget/XSeekBar;->t(IZ)V
 
-    .line 7
     :cond_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -391,10 +365,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0, p1}, Lcom/commsource/video/cover/a;->e(I)V
 
-    .line 2
     invoke-virtual {p0}, Lcom/commsource/video/cover/a;->j()V
 
     if-eqz p1, :cond_2
@@ -413,7 +385,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_0
     invoke-virtual {p0}, Lcom/commsource/video/cover/a;->m()Landroidx/databinding/ViewDataBinding;
 
@@ -431,7 +402,6 @@
 
     invoke-virtual {p1, v1}, Landroidx/appcompat/widget/AppCompatImageView;->setImageResource(I)V
 
-    .line 4
     :cond_1
     invoke-virtual {p0}, Lcom/commsource/video/cover/VideoControllCover;->u()Lcom/commsource/video/decoder/d;
 
@@ -439,7 +409,6 @@
 
     invoke-virtual {p1}, Lcom/commsource/video/decoder/d;->h()V
 
-    .line 5
     invoke-virtual {p0}, Lcom/commsource/video/cover/a;->k()Lcom/commsource/video/view/XVideoUIGroup;
 
     move-result-object p1
@@ -448,7 +417,6 @@
 
     goto :goto_0
 
-    .line 6
     :cond_2
     invoke-virtual {p0}, Lcom/commsource/video/cover/a;->m()Landroidx/databinding/ViewDataBinding;
 
@@ -466,7 +434,6 @@
 
     invoke-virtual {p1, v1}, Landroidx/appcompat/widget/AppCompatImageView;->setImageResource(I)V
 
-    .line 7
     :cond_3
     invoke-virtual {p0}, Lcom/commsource/video/cover/VideoControllCover;->u()Lcom/commsource/video/decoder/d;
 
@@ -474,7 +441,6 @@
 
     invoke-virtual {p1}, Lcom/commsource/video/decoder/d;->c()V
 
-    .line 8
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -488,10 +454,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0, p1}, Lcom/commsource/video/cover/a;->g(Z)V
 
-    .line 2
     invoke-virtual {p0}, Lcom/commsource/video/cover/a;->m()Landroidx/databinding/ViewDataBinding;
 
     move-result-object v1
@@ -510,29 +474,24 @@
 
     if-eqz p1, :cond_0
 
-    .line 3
     invoke-virtual {v1}, Landroid/widget/RelativeLayout;->animate()Landroid/view/ViewPropertyAnimator;
 
     move-result-object p1
 
-    .line 4
     invoke-virtual {p1, v4}, Landroid/view/ViewPropertyAnimator;->translationY(F)Landroid/view/ViewPropertyAnimator;
 
     move-result-object p1
 
     const/high16 v1, 0x3f800000    # 1.0f
 
-    .line 5
     invoke-virtual {p1, v1}, Landroid/view/ViewPropertyAnimator;->alpha(F)Landroid/view/ViewPropertyAnimator;
 
     move-result-object p1
 
-    .line 6
     invoke-virtual {p1, v2, v3}, Landroid/view/ViewPropertyAnimator;->setDuration(J)Landroid/view/ViewPropertyAnimator;
 
     move-result-object p1
 
-    .line 7
     new-instance v1, Lcom/commsource/widget/r0;
 
     invoke-direct {v1}, Lcom/commsource/widget/r0;-><init>()V
@@ -541,12 +500,10 @@
 
     move-result-object p1
 
-    .line 8
     invoke-virtual {p1}, Landroid/view/ViewPropertyAnimator;->start()V
 
     goto :goto_0
 
-    .line 9
     :cond_0
     invoke-virtual {v1}, Landroid/widget/RelativeLayout;->animate()Landroid/view/ViewPropertyAnimator;
 
@@ -554,7 +511,6 @@
 
     const/16 v1, 0x32
 
-    .line 10
     invoke-static {v1}, Lcom/commsource/util/l0;->p(I)F
 
     move-result v1
@@ -563,17 +519,14 @@
 
     move-result-object p1
 
-    .line 11
     invoke-virtual {p1, v4}, Landroid/view/ViewPropertyAnimator;->alpha(F)Landroid/view/ViewPropertyAnimator;
 
     move-result-object p1
 
-    .line 12
     invoke-virtual {p1, v2, v3}, Landroid/view/ViewPropertyAnimator;->setDuration(J)Landroid/view/ViewPropertyAnimator;
 
     move-result-object p1
 
-    .line 13
     new-instance v1, Lcom/commsource/widget/r0;
 
     invoke-direct {v1}, Lcom/commsource/widget/r0;-><init>()V
@@ -582,10 +535,8 @@
 
     move-result-object p1
 
-    .line 14
     invoke-virtual {p1}, Landroid/view/ViewPropertyAnimator;->start()V
 
-    .line 15
     :cond_1
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -600,7 +551,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/video/cover/a;->m()Landroidx/databinding/ViewDataBinding;
 
     move-result-object v1
@@ -617,7 +567,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/widget/PressImageView;->setZoomEnable(Z)V
 
-    .line 2
     :cond_0
     invoke-virtual {p0}, Lcom/commsource/video/cover/a;->m()Landroidx/databinding/ViewDataBinding;
 
@@ -635,7 +584,6 @@
 
     invoke-virtual {v1, v2}, Landroid/widget/RelativeLayout;->setAlpha(F)V
 
-    .line 3
     :cond_1
     invoke-virtual {p0}, Lcom/commsource/video/cover/a;->m()Landroidx/databinding/ViewDataBinding;
 
@@ -657,7 +605,6 @@
 
     invoke-virtual {v1, v2}, Landroid/widget/RelativeLayout;->setTranslationY(F)V
 
-    .line 4
     :cond_2
     invoke-virtual {p0}, Lcom/commsource/video/cover/a;->m()Landroidx/databinding/ViewDataBinding;
 
@@ -677,7 +624,6 @@
 
     invoke-virtual {v1, v2}, Landroid/widget/ImageView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 5
     :cond_3
     invoke-virtual {p0}, Lcom/commsource/video/cover/a;->m()Landroidx/databinding/ViewDataBinding;
 
@@ -697,7 +643,6 @@
 
     invoke-virtual {v1, v2}, Landroid/widget/ImageView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 6
     :cond_4
     invoke-virtual {p0}, Lcom/commsource/video/cover/a;->m()Landroidx/databinding/ViewDataBinding;
 
@@ -717,7 +662,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/widget/XSeekBar;->f(Lcom/commsource/widget/XSeekBar$b;)V
 
-    .line 7
     :cond_5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -731,7 +675,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/video/cover/VideoControllCover;->h:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -746,7 +689,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/video/cover/VideoControllCover;->g:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -785,7 +727,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/video/cover/VideoControllCover;->f:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -800,7 +741,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/video/cover/VideoControllCover;->j:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -815,7 +755,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/video/cover/VideoControllCover;->i:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -830,7 +769,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/video/cover/VideoControllCover;->h:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -845,7 +783,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/video/cover/VideoControllCover;->g:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

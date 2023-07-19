@@ -58,7 +58,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p2, Lcom/commsource/studio/effect/remold/a;
 
     invoke-virtual {p0, p1, p2}, Lcom/commsource/studio/function/s/b$a;->b(ILcom/commsource/studio/effect/remold/a;)Z
@@ -77,7 +76,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/function/s/b$a;->b:Lcom/commsource/studio/function/s/b;
 
     invoke-static {v1}, Lcom/commsource/studio/function/s/b;->B1(Lcom/commsource/studio/function/s/b;)Lcom/commsource/studio/effect/remold/a;
@@ -102,7 +100,6 @@
 
     if-eq v1, v2, :cond_1
 
-    .line 2
     invoke-virtual {p2}, Lcom/commsource/studio/effect/remold/a;->b()Lcom/commsource/studio/effect/remold/RemoldEnum;
 
     move-result-object v1
@@ -117,7 +114,6 @@
 
     invoke-static {v2, v3, v1}, Lcom/commsource/statistics/i;->r(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 3
     :cond_1
     iget-object v1, p0, Lcom/commsource/studio/function/s/b$a;->b:Lcom/commsource/studio/function/s/b;
 
@@ -129,7 +125,6 @@
 
     const/4 p1, 0x0
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1

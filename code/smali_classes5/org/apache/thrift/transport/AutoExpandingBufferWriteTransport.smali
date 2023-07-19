@@ -13,10 +13,8 @@
 .method public constructor <init>(ID)V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Lorg/apache/thrift/transport/TTransport;-><init>()V
 
-    .line 2
     new-instance v0, Lorg/apache/thrift/transport/AutoExpandingBuffer;
 
     invoke-direct {v0, p1, p2, p3}, Lorg/apache/thrift/transport/AutoExpandingBuffer;-><init>(ID)V
@@ -25,7 +23,6 @@
 
     const/4 p1, 0x0
 
-    .line 3
     iput p1, p0, Lorg/apache/thrift/transport/AutoExpandingBufferWriteTransport;->pos:I
 
     return-void
@@ -42,7 +39,6 @@
 .method public getBuf()Lorg/apache/thrift/transport/AutoExpandingBuffer;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lorg/apache/thrift/transport/AutoExpandingBufferWriteTransport;->buf:Lorg/apache/thrift/transport/AutoExpandingBuffer;
 
     return-object v0
@@ -51,7 +47,6 @@
 .method public getPos()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lorg/apache/thrift/transport/AutoExpandingBufferWriteTransport;->pos:I
 
     return v0
@@ -84,7 +79,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance p1, Ljava/lang/UnsupportedOperationException;
 
     invoke-direct {p1}, Ljava/lang/UnsupportedOperationException;-><init>()V
@@ -97,7 +91,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     iput v0, p0, Lorg/apache/thrift/transport/AutoExpandingBufferWriteTransport;->pos:I
 
     return-void
@@ -111,7 +104,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lorg/apache/thrift/transport/AutoExpandingBufferWriteTransport;->buf:Lorg/apache/thrift/transport/AutoExpandingBuffer;
 
     iget v1, p0, Lorg/apache/thrift/transport/AutoExpandingBufferWriteTransport;->pos:I
@@ -120,7 +112,6 @@
 
     invoke-virtual {v0, v1}, Lorg/apache/thrift/transport/AutoExpandingBuffer;->resizeIfNecessary(I)V
 
-    .line 2
     iget-object v0, p0, Lorg/apache/thrift/transport/AutoExpandingBufferWriteTransport;->buf:Lorg/apache/thrift/transport/AutoExpandingBuffer;
 
     invoke-virtual {v0}, Lorg/apache/thrift/transport/AutoExpandingBuffer;->array()[B
@@ -131,7 +122,6 @@
 
     invoke-static {p1, p2, v0, v1, p3}, Ljava/lang/System;->arraycopy(Ljava/lang/Object;ILjava/lang/Object;II)V
 
-    .line 3
     iget p1, p0, Lorg/apache/thrift/transport/AutoExpandingBufferWriteTransport;->pos:I
 
     add-int/2addr p1, p3

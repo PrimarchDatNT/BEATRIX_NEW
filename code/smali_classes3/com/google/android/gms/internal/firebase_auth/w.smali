@@ -16,7 +16,6 @@
 
     const/16 v0, 0xf
 
-    .line 1
     invoke-static {p0, v0}, Ljava/lang/Integer;->rotateLeft(II)I
 
     move-result p0

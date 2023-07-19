@@ -30,7 +30,6 @@
 .method constructor <init>(Lcom/google/common/collect/RegularImmutableMap$EntrySet;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/common/collect/RegularImmutableMap$EntrySet$1;->this$0:Lcom/google/common/collect/RegularImmutableMap$EntrySet;
 
     invoke-direct {p0}, Lcom/google/common/collect/ImmutableList;-><init>()V
@@ -43,7 +42,6 @@
 .method public bridge synthetic get(I)Ljava/lang/Object;
     .locals 0
 
-    .line 1
     invoke-virtual {p0, p1}, Lcom/google/common/collect/RegularImmutableMap$EntrySet$1;->get(I)Ljava/util/Map$Entry;
 
     move-result-object p1
@@ -61,7 +59,6 @@
         }
     .end annotation
 
-    .line 2
     iget-object v0, p0, Lcom/google/common/collect/RegularImmutableMap$EntrySet$1;->this$0:Lcom/google/common/collect/RegularImmutableMap$EntrySet;
 
     invoke-static {v0}, Lcom/google/common/collect/RegularImmutableMap$EntrySet;->access$000(Lcom/google/common/collect/RegularImmutableMap$EntrySet;)I
@@ -70,7 +67,6 @@
 
     invoke-static {p1, v0}, Lcom/google/common/base/t;->C(II)I
 
-    .line 3
     iget-object v0, p0, Lcom/google/common/collect/RegularImmutableMap$EntrySet$1;->this$0:Lcom/google/common/collect/RegularImmutableMap$EntrySet;
 
     invoke-static {v0}, Lcom/google/common/collect/RegularImmutableMap$EntrySet;->access$100(Lcom/google/common/collect/RegularImmutableMap$EntrySet;)[Ljava/lang/Object;
@@ -89,7 +85,6 @@
 
     aget-object v0, v0, v1
 
-    .line 4
     iget-object v1, p0, Lcom/google/common/collect/RegularImmutableMap$EntrySet$1;->this$0:Lcom/google/common/collect/RegularImmutableMap$EntrySet;
 
     invoke-static {v1}, Lcom/google/common/collect/RegularImmutableMap$EntrySet;->access$100(Lcom/google/common/collect/RegularImmutableMap$EntrySet;)[Ljava/lang/Object;
@@ -108,7 +103,6 @@
 
     aget-object p1, v1, p1
 
-    .line 5
     new-instance v1, Ljava/util/AbstractMap$SimpleImmutableEntry;
 
     invoke-direct {v1, v0, p1}, Ljava/util/AbstractMap$SimpleImmutableEntry;-><init>(Ljava/lang/Object;Ljava/lang/Object;)V
@@ -127,7 +121,6 @@
 .method public size()I
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/RegularImmutableMap$EntrySet$1;->this$0:Lcom/google/common/collect/RegularImmutableMap$EntrySet;
 
     invoke-static {v0}, Lcom/google/common/collect/RegularImmutableMap$EntrySet;->access$000(Lcom/google/common/collect/RegularImmutableMap$EntrySet;)I

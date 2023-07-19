@@ -25,7 +25,6 @@
 .method constructor <init>(Lcom/bumptech/glide/j;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/bumptech/glide/j$a;->a:Lcom/bumptech/glide/j;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -38,7 +37,6 @@
 .method public run()V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/bumptech/glide/j$a;->a:Lcom/bumptech/glide/j;
 
     iget-object v1, v0, Lcom/bumptech/glide/j;->c:Lcom/bumptech/glide/manager/h;

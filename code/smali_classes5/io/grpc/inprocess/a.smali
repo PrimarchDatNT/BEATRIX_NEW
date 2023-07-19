@@ -37,7 +37,6 @@
 .method private constructor <init>(Ljava/lang/String;)V
     .locals 2
 
-    .line 1
     new-instance v0, Lio/grpc/inprocess/InProcessSocketAddress;
 
     invoke-direct {v0, p1}, Lio/grpc/inprocess/InProcessSocketAddress;-><init>(Ljava/lang/String;)V
@@ -48,17 +47,14 @@
 
     const v0, 0x7fffffff
 
-    .line 2
     iput v0, p0, Lio/grpc/inprocess/a;->V:I
 
     const/4 v0, 0x0
 
-    .line 3
     iput-boolean v0, p0, Lio/grpc/inprocess/a;->W:Z
 
     const-string v1, "name"
 
-    .line 4
     invoke-static {p1, v1}, Lcom/google/common/base/t;->F(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -67,10 +63,8 @@
 
     iput-object p1, p0, Lio/grpc/inprocess/a;->T:Ljava/lang/String;
 
-    .line 5
     invoke-virtual {p0, v0}, Lio/grpc/internal/d;->y0(Z)V
 
-    .line 6
     invoke-virtual {p0, v0}, Lio/grpc/internal/d;->w0(Z)V
 
     return-void
@@ -79,7 +73,6 @@
 .method public static C0(Ljava/lang/String;I)Lio/grpc/inprocess/a;
     .locals 0
 
-    .line 1
     new-instance p0, Ljava/lang/UnsupportedOperationException;
 
     const-string p1, "call forName() instead"
@@ -92,7 +85,6 @@
 .method public static D0(Ljava/lang/String;)Lio/grpc/inprocess/a;
     .locals 1
 
-    .line 1
     new-instance v0, Lio/grpc/inprocess/a;
 
     invoke-direct {v0, p0}, Lio/grpc/inprocess/a;-><init>(Ljava/lang/String;)V
@@ -103,7 +95,6 @@
 .method public static E0(Ljava/lang/String;)Lio/grpc/inprocess/a;
     .locals 1
 
-    .line 1
     new-instance p0, Ljava/lang/UnsupportedOperationException;
 
     const-string v0, "call forName() instead"
@@ -124,7 +115,6 @@
 .method public bridge synthetic G()Lio/grpc/x0;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lio/grpc/inprocess/a;->M0()Lio/grpc/inprocess/a;
 
     move-result-object v0
@@ -141,7 +131,6 @@
 .method public bridge synthetic H()Lio/grpc/x0;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lio/grpc/inprocess/a;->N0()Lio/grpc/inprocess/a;
 
     move-result-object v0
@@ -158,7 +147,6 @@
 .method public final I0(I)Lio/grpc/inprocess/a;
     .locals 0
 
-    .line 1
     invoke-super {p0, p1}, Lio/grpc/internal/d;->l0(I)Lio/grpc/internal/d;
 
     move-result-object p1
@@ -183,10 +171,8 @@
     :goto_0
     const-string v1, "maxInboundMetadataSize must be > 0"
 
-    .line 1
     invoke-static {v0, v1}, Lcom/google/common/base/t;->e(ZLjava/lang/Object;)V
 
-    .line 2
     iput p1, p0, Lio/grpc/inprocess/a;->V:I
 
     return-object p0
@@ -197,7 +183,6 @@
     .annotation build Lio/grpc/d0;
     .end annotation
 
-    .line 1
     new-instance v6, Lio/grpc/inprocess/a$b;
 
     iget-object v1, p0, Lio/grpc/inprocess/a;->T:Ljava/lang/String;
@@ -220,7 +205,6 @@
 .method public K0(Z)Lio/grpc/inprocess/a;
     .locals 0
 
-    .line 1
     iput-boolean p1, p0, Lio/grpc/inprocess/a;->W:Z
 
     return-object p0
@@ -231,7 +215,6 @@
 
     const-string v0, "scheduledExecutorService"
 
-    .line 1
     invoke-static {p1, v0}, Lcom/google/common/base/t;->F(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -258,7 +241,6 @@
 .method public bridge synthetic l0(I)Lio/grpc/internal/d;
     .locals 0
 
-    .line 1
     invoke-virtual {p0, p1}, Lio/grpc/inprocess/a;->I0(I)Lio/grpc/inprocess/a;
 
     move-result-object p1
@@ -269,7 +251,6 @@
 .method public bridge synthetic q(JLjava/util/concurrent/TimeUnit;)Lio/grpc/x0;
     .locals 0
 
-    .line 1
     invoke-virtual {p0, p1, p2, p3}, Lio/grpc/inprocess/a;->F0(JLjava/util/concurrent/TimeUnit;)Lio/grpc/inprocess/a;
 
     move-result-object p1
@@ -280,7 +261,6 @@
 .method public bridge synthetic r(JLjava/util/concurrent/TimeUnit;)Lio/grpc/x0;
     .locals 0
 
-    .line 1
     invoke-virtual {p0, p1, p2, p3}, Lio/grpc/inprocess/a;->G0(JLjava/util/concurrent/TimeUnit;)Lio/grpc/inprocess/a;
 
     move-result-object p1
@@ -291,7 +271,6 @@
 .method public bridge synthetic s(Z)Lio/grpc/x0;
     .locals 0
 
-    .line 1
     invoke-virtual {p0, p1}, Lio/grpc/inprocess/a;->H0(Z)Lio/grpc/inprocess/a;
 
     move-result-object p1
@@ -302,7 +281,6 @@
 .method public bridge synthetic u(I)Lio/grpc/x0;
     .locals 0
 
-    .line 1
     invoke-virtual {p0, p1}, Lio/grpc/inprocess/a;->I0(I)Lio/grpc/inprocess/a;
 
     move-result-object p1
@@ -313,7 +291,6 @@
 .method public bridge synthetic v(I)Lio/grpc/x0;
     .locals 0
 
-    .line 1
     invoke-virtual {p0, p1}, Lio/grpc/inprocess/a;->J0(I)Lio/grpc/inprocess/a;
 
     move-result-object p1

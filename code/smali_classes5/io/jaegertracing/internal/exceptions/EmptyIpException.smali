@@ -13,7 +13,6 @@
 
     const-string v0, "Empty string given for ip"
 
-    .line 1
     invoke-direct {p0, v0}, Ljava/lang/RuntimeException;-><init>(Ljava/lang/String;)V
 
     return-void

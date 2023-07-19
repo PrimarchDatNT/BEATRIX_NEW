@@ -70,15 +70,12 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-direct {p0, p1}, Landroid/view/OrientationEventListener;-><init>(Landroid/content/Context;)V
 
     const/4 p1, -0x1
 
-    .line 2
     iput p1, p0, Lcom/commsource/camera/m0;->a:I
 
-    .line 3
     iput-object p2, p0, Lcom/commsource/camera/m0;->b:Lcom/commsource/camera/m0$b;
 
     return-void
@@ -148,7 +145,6 @@
 
     const/16 p2, 0x10e
 
-    .line 1
     :cond_5
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -169,29 +165,24 @@
 
     if-eq p1, v1, :cond_0
 
-    .line 1
     iget v1, p0, Lcom/commsource/camera/m0;->a:I
 
     invoke-direct {p0, p1, v1}, Lcom/commsource/camera/m0;->a(II)I
 
     move-result p1
 
-    .line 2
     iget v1, p0, Lcom/commsource/camera/m0;->a:I
 
     if-eq v1, p1, :cond_0
 
-    .line 3
     iput p1, p0, Lcom/commsource/camera/m0;->a:I
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/camera/m0;->b:Lcom/commsource/camera/m0$b;
 
     if-eqz v1, :cond_0
 
     invoke-interface {v1, p1}, Lcom/commsource/camera/m0$b;->a(I)V
 
-    .line 5
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

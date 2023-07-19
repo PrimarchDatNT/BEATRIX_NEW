@@ -60,17 +60,14 @@
 .method private constructor <init>(II)V
     .locals 0
 
-    .line 2
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 3
     invoke-static {p1}, Ldagger/internal/d;->e(I)Ljava/util/List;
 
     move-result-object p1
 
     iput-object p1, p0, Ldagger/internal/r$b;->a:Ljava/util/List;
 
-    .line 4
     invoke-static {p2}, Ldagger/internal/d;->e(I)Ljava/util/List;
 
     move-result-object p1
@@ -83,7 +80,6 @@
 .method synthetic constructor <init>(IILdagger/internal/r$a;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1, p2}, Ldagger/internal/r$b;-><init>(II)V
 
     return-void
@@ -105,7 +101,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Ldagger/internal/r$b;->b:Ljava/util/List;
 
     invoke-interface {v0, p1}, Ljava/util/List;->add(Ljava/lang/Object;)Z
@@ -125,7 +120,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Ldagger/internal/r$b;->a:Ljava/util/List;
 
     invoke-interface {v0, p1}, Ljava/util/List;->add(Ljava/lang/Object;)Z
@@ -143,7 +137,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Ldagger/internal/r;
 
     iget-object v1, p0, Ldagger/internal/r$b;->a:Ljava/util/List;

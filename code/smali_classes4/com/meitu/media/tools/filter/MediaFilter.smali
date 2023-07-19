@@ -13,7 +13,6 @@
 .method public constructor <init>()V
     .locals 3
 
-    .line 4
     invoke-static {}, Lcom/meitu/media/tools/filter/MediaEditJNI;->new_MediaFilter()J
 
     move-result-wide v0
@@ -28,13 +27,10 @@
 .method protected constructor <init>(JZ)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-boolean p3, p0, Lcom/meitu/media/tools/filter/MediaFilter;->b:Z
 
-    .line 3
     iput-wide p1, p0, Lcom/meitu/media/tools/filter/MediaFilter;->a:J
 
     return-void
@@ -47,7 +43,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p0}, Lcom/meitu/media/tools/filter/MediaEditJNI;->MediaFilter_CreateJniCallBack(Lcom/meitu/media/tools/editor/VideoFilterEdit;)J
 
     move-result-wide v1
@@ -70,7 +65,6 @@
 
     goto :goto_0
 
-    .line 1
     :cond_0
     iget-wide v1, p0, Lcom/meitu/media/tools/filter/MediaFilter;->a:J
 
@@ -89,7 +83,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/media/tools/filter/MediaFilter;->a:J
 
     invoke-static {v1, v2, p0}, Lcom/meitu/media/tools/filter/MediaEditJNI;->MediaFilter_getMediaShowWidth(JLcom/meitu/media/tools/filter/MediaFilter;)I
@@ -108,7 +101,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/media/tools/filter/MediaFilter;->a:J
 
     invoke-static {v1, v2, p0}, Lcom/meitu/media/tools/filter/MediaEditJNI;->MediaFilter_getMediaVideoRate(JLcom/meitu/media/tools/filter/MediaFilter;)J
@@ -127,7 +119,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/media/tools/filter/MediaFilter;->a:J
 
     invoke-static {v1, v2, p0}, Lcom/meitu/media/tools/filter/MediaEditJNI;->MediaFilter_getMediaShowHeight(JLcom/meitu/media/tools/filter/MediaFilter;)I
@@ -146,7 +137,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/media/tools/filter/MediaFilter;->a:J
 
     invoke-static {v1, v2, p0, p1}, Lcom/meitu/media/tools/filter/MediaEditJNI;->MediaFilter_getNextResampleOutBufferSizeWithNextInputSamples(JLcom/meitu/media/tools/filter/MediaFilter;I)I
@@ -165,7 +155,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/media/tools/filter/MediaFilter;->a:J
 
     invoke-static {v1, v2, p0, p1}, Lcom/meitu/media/tools/filter/MediaEditJNI;->MediaFilter_getNextResampleOutBufferSizeWithNextInputSize(JLcom/meitu/media/tools/filter/MediaFilter;I)I
@@ -184,7 +173,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/media/tools/filter/MediaFilter;->a:J
 
     invoke-static {v1, v2, p0}, Lcom/meitu/media/tools/filter/MediaEditJNI;->MediaFilter_getProgressListener(JLcom/meitu/media/tools/filter/MediaFilter;)J
@@ -201,7 +189,6 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     new-instance v3, Lcom/meitu/media/tools/filter/MediaFilterProgressListener;
 
@@ -224,7 +211,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/media/tools/filter/MediaFilter;->a:J
 
     invoke-static {v1, v2, p0}, Lcom/meitu/media/tools/filter/MediaEditJNI;->MediaFilter_getRealFrameRate(JLcom/meitu/media/tools/filter/MediaFilter;)F
@@ -243,7 +229,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/media/tools/filter/MediaFilter;->a:J
 
     invoke-static {v1, v2, p0}, Lcom/meitu/media/tools/filter/MediaEditJNI;->MediaFilter_getReverseEnd(JLcom/meitu/media/tools/filter/MediaFilter;)F
@@ -262,7 +247,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/media/tools/filter/MediaFilter;->a:J
 
     invoke-static {v1, v2, p0}, Lcom/meitu/media/tools/filter/MediaEditJNI;->MediaFilter_getReverseMedia(JLcom/meitu/media/tools/filter/MediaFilter;)I
@@ -281,7 +265,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/media/tools/filter/MediaFilter;->a:J
 
     invoke-static {v1, v2, p0}, Lcom/meitu/media/tools/filter/MediaEditJNI;->MediaFilter_getReverseStart(JLcom/meitu/media/tools/filter/MediaFilter;)F
@@ -300,7 +283,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/media/tools/filter/MediaFilter;->a:J
 
     invoke-static {v1, v2, p0}, Lcom/meitu/media/tools/filter/MediaEditJNI;->MediaFilter_getStreamNum(JLcom/meitu/media/tools/filter/MediaFilter;)I
@@ -319,7 +301,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/media/tools/filter/MediaFilter;->a:J
 
     invoke-static {v1, v2, p0}, Lcom/meitu/media/tools/filter/MediaEditJNI;->MediaFilter_getVideoStreamDuration(JLcom/meitu/media/tools/filter/MediaFilter;)I
@@ -338,7 +319,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/media/tools/filter/MediaFilter;->a:J
 
     invoke-static {v1, v2, p0, p1}, Lcom/meitu/media/tools/filter/MediaEditJNI;->MediaFilter_getCodecName(JLcom/meitu/media/tools/filter/MediaFilter;I)Ljava/lang/String;
@@ -357,7 +337,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/media/tools/filter/MediaFilter;->a:J
 
     invoke-static {v1, v2, p0}, Lcom/meitu/media/tools/filter/MediaEditJNI;->MediaFilter_init(JLcom/meitu/media/tools/filter/MediaFilter;)I
@@ -376,7 +355,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/media/tools/filter/MediaFilter;->a:J
 
     invoke-static {v1, v2, p0, p1}, Lcom/meitu/media/tools/filter/MediaEditJNI;->MediaFilter_initInFile(JLcom/meitu/media/tools/filter/MediaFilter;Ljava/lang/String;)I
@@ -395,7 +373,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/media/tools/filter/MediaFilter;->a:J
 
     invoke-static {v1, v2, p0, p1}, Lcom/meitu/media/tools/filter/MediaEditJNI;->MediaFilter_initOutFileWithoutEncode(JLcom/meitu/media/tools/filter/MediaFilter;Ljava/lang/String;)I
@@ -416,7 +393,6 @@
 
     move-object v10, p0
 
-    .line 1
     iget-wide v1, v10, Lcom/meitu/media/tools/filter/MediaFilter;->a:J
 
     move-object v3, p0
@@ -435,7 +411,6 @@
 
     invoke-static/range {v1 .. v9}, Lcom/meitu/media/tools/filter/MediaEditJNI;->MediaFilter_initResample(JLcom/meitu/media/tools/filter/MediaFilter;IIIIII)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -448,7 +423,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/media/tools/filter/MediaFilter;->a:J
 
     invoke-static {v1, v2, p0, p1}, Lcom/meitu/media/tools/filter/MediaEditJNI;->MediaFilter_load(JLcom/meitu/media/tools/filter/MediaFilter;Ljava/lang/String;)I
@@ -467,7 +441,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/media/tools/filter/MediaFilter;->a:J
 
     move-object v3, p0
@@ -492,7 +465,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/media/tools/filter/MediaFilter;->a:J
 
     invoke-static {v1, v2, p0}, Lcom/meitu/media/tools/filter/MediaEditJNI;->MediaFilter_process(JLcom/meitu/media/tools/filter/MediaFilter;)I
@@ -511,7 +483,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/media/tools/filter/MediaFilter;->a:J
 
     invoke-static {v1, v2, p0}, Lcom/meitu/media/tools/filter/MediaEditJNI;->MediaFilter_progress(JLcom/meitu/media/tools/filter/MediaFilter;)F
@@ -530,7 +501,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/media/tools/filter/MediaFilter;->a:J
 
     invoke-static {v1, v2, p0, p1, p2}, Lcom/meitu/media/tools/filter/MediaEditJNI;->MediaFilter_quickCropVideo(JLcom/meitu/media/tools/filter/MediaFilter;FF)I
@@ -549,7 +519,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/media/tools/filter/MediaFilter;->a:J
 
     move-object v3, p0
@@ -578,7 +547,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/media/tools/filter/MediaFilter;->a:J
 
     move-object v3, p0
@@ -607,7 +575,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/media/tools/filter/MediaFilter;->a:J
 
     invoke-static {v1, v2, p0, p1, p2}, Lcom/meitu/media/tools/filter/MediaEditJNI;->MediaFilter_setCropPos(JLcom/meitu/media/tools/filter/MediaFilter;II)I
@@ -626,7 +593,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/media/tools/filter/MediaFilter;->a:J
 
     invoke-static {v1, v2, p0, p1, p2}, Lcom/meitu/media/tools/filter/MediaEditJNI;->MediaFilter_setCropResolution(JLcom/meitu/media/tools/filter/MediaFilter;II)I
@@ -645,7 +611,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/media/tools/filter/MediaFilter;->a:J
 
     invoke-static {v1, v2, p0, p1, p2}, Lcom/meitu/media/tools/filter/MediaEditJNI;->MediaFilter_setCropTime(JLcom/meitu/media/tools/filter/MediaFilter;FF)I
@@ -664,7 +629,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/media/tools/filter/MediaFilter;->a:J
 
     invoke-static {v1, v2, p0}, Lcom/meitu/media/tools/filter/MediaEditJNI;->MediaFilter_abort(JLcom/meitu/media/tools/filter/MediaFilter;)Z
@@ -683,7 +647,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/media/tools/filter/MediaFilter;->a:J
 
     invoke-static {p1}, Lcom/meitu/media/tools/filter/MediaFilterProgressListener;->f(Lcom/meitu/media/tools/filter/MediaFilterProgressListener;)J
@@ -696,7 +659,6 @@
 
     invoke-static/range {v1 .. v6}, Lcom/meitu/media/tools/filter/MediaEditJNI;->MediaFilter_listener_set(JLcom/meitu/media/tools/filter/MediaFilter;JLcom/meitu/media/tools/filter/MediaFilterProgressListener;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -709,12 +671,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/media/tools/filter/MediaFilter;->a:J
 
     invoke-static {v1, v2, p0}, Lcom/meitu/media/tools/filter/MediaEditJNI;->MediaFilter_abortCombineMedia(JLcom/meitu/media/tools/filter/MediaFilter;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -727,7 +687,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/media/tools/filter/MediaFilter;->a:J
 
     invoke-static {v1, v2, p0, p1}, Lcom/meitu/media/tools/filter/MediaEditJNI;->MediaFilter_setMinEdge(JLcom/meitu/media/tools/filter/MediaFilter;I)I
@@ -746,7 +705,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/media/tools/filter/MediaFilter;->a:J
 
     move-object v3, p0
@@ -759,7 +717,6 @@
 
     invoke-static/range {v1 .. v6}, Lcom/meitu/media/tools/filter/MediaEditJNI;->MediaFilter_addCombineAudioSrcFile(JLcom/meitu/media/tools/filter/MediaFilter;Ljava/lang/String;ZF)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -772,12 +729,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/media/tools/filter/MediaFilter;->a:J
 
     invoke-static {v1, v2, p0, p1}, Lcom/meitu/media/tools/filter/MediaEditJNI;->MediaFilter_setNeedFillAudioTrack(JLcom/meitu/media/tools/filter/MediaFilter;Z)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -790,7 +745,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/media/tools/filter/MediaFilter;->a:J
 
     invoke-static {v1, v2, p0, p1}, Lcom/meitu/media/tools/filter/MediaEditJNI;->MediaFilter_addConcatInVideo(JLcom/meitu/media/tools/filter/MediaFilter;Ljava/lang/String;)I
@@ -809,7 +763,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/media/tools/filter/MediaFilter;->a:J
 
     invoke-static {v1, v2, p0, p1}, Lcom/meitu/media/tools/filter/MediaEditJNI;->MediaFilter_setOutFileName(JLcom/meitu/media/tools/filter/MediaFilter;Ljava/lang/String;)I
@@ -828,7 +781,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/media/tools/filter/MediaFilter;->a:J
 
     invoke-static {v1, v2, p0}, Lcom/meitu/media/tools/filter/MediaEditJNI;->MediaFilter_cancelReverseMedia(JLcom/meitu/media/tools/filter/MediaFilter;)I
@@ -847,7 +799,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/media/tools/filter/MediaFilter;->a:J
 
     invoke-static {v1, v2, p0, p1}, Lcom/meitu/media/tools/filter/MediaEditJNI;->MediaFilter_setOutVideoFrameRate(JLcom/meitu/media/tools/filter/MediaFilter;F)I
@@ -866,10 +817,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/meitu/media/tools/filter/MediaFilter;->l()V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -882,12 +831,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/media/tools/filter/MediaFilter;->a:J
 
     invoke-static {v1, v2, p0}, Lcom/meitu/media/tools/filter/MediaEditJNI;->MediaFilter_close(JLcom/meitu/media/tools/filter/MediaFilter;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -900,7 +847,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/media/tools/filter/MediaFilter;->a:J
 
     invoke-static {v1, v2, p0, p1, p2}, Lcom/meitu/media/tools/filter/MediaEditJNI;->MediaFilter_setOutResolution(JLcom/meitu/media/tools/filter/MediaFilter;II)I
@@ -919,7 +865,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/media/tools/filter/MediaFilter;->a:J
 
     move-object v3, p0
@@ -948,7 +893,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/media/tools/filter/MediaFilter;->a:J
 
     invoke-static {v1, v2, p0, p1, p2}, Lcom/meitu/media/tools/filter/MediaEditJNI;->MediaFilter_setOutVideoBitrate(JLcom/meitu/media/tools/filter/MediaFilter;J)I
@@ -967,7 +911,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/media/tools/filter/MediaFilter;->a:J
 
     move-object v3, p0
@@ -992,7 +935,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/media/tools/filter/MediaFilter;->a:J
 
     invoke-static {p1}, Lcom/meitu/media/tools/filter/MediaFilterProgressListener;->f(Lcom/meitu/media/tools/filter/MediaFilterProgressListener;)J
@@ -1005,7 +947,6 @@
 
     invoke-static/range {v1 .. v6}, Lcom/meitu/media/tools/filter/MediaEditJNI;->MediaFilter_setProgressListener(JLcom/meitu/media/tools/filter/MediaFilter;JLcom/meitu/media/tools/filter/MediaFilterProgressListener;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1018,7 +959,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/media/tools/filter/MediaFilter;->a:J
 
     move-object v3, p0
@@ -1049,7 +989,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/media/tools/filter/MediaFilter;->a:J
 
     invoke-static {v1, v2, p0, p1, p2}, Lcom/meitu/media/tools/filter/MediaEditJNI;->MediaFilter_setReverseInterval(JLcom/meitu/media/tools/filter/MediaFilter;FF)I
@@ -1068,7 +1007,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/media/tools/filter/MediaFilter;->a:J
 
     move-object v3, p0
@@ -1097,7 +1035,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/media/tools/filter/MediaFilter;->a:J
 
     invoke-static {v1, v2, p0, p1}, Lcom/meitu/media/tools/filter/MediaEditJNI;->MediaFilter_setReverseMedia(JLcom/meitu/media/tools/filter/MediaFilter;I)I
@@ -1119,7 +1056,6 @@
     :try_start_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/media/tools/filter/MediaFilter;->a:J
 
     const-wide/16 v3, 0x0
@@ -1128,24 +1064,19 @@
 
     if-eqz v5, :cond_1
 
-    .line 2
     iget-boolean v5, p0, Lcom/meitu/media/tools/filter/MediaFilter;->b:Z
 
     if-eqz v5, :cond_0
 
     const/4 v5, 0x0
 
-    .line 3
     iput-boolean v5, p0, Lcom/meitu/media/tools/filter/MediaFilter;->b:Z
 
-    .line 4
     invoke-static {v1, v2}, Lcom/meitu/media/tools/filter/MediaEditJNI;->delete_MediaFilter(J)V
 
-    .line 5
     :cond_0
     iput-wide v3, p0, Lcom/meitu/media/tools/filter/MediaFilter;->a:J
 
-    .line 6
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
     :try_end_0
@@ -1170,7 +1101,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/media/tools/filter/MediaFilter;->a:J
 
     move-object v3, p0
@@ -1201,7 +1131,6 @@
 
     move-object v11, p0
 
-    .line 1
     iget-wide v1, v11, Lcom/meitu/media/tools/filter/MediaFilter;->a:J
 
     move-object v3, p0
@@ -1234,7 +1163,6 @@
 
     move-object v11, p0
 
-    .line 1
     iget-wide v1, v11, Lcom/meitu/media/tools/filter/MediaFilter;->a:J
 
     move-object v3, p0
@@ -1269,7 +1197,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/media/tools/filter/MediaFilter;->a:J
 
     invoke-static {v1, v2, p0}, Lcom/meitu/media/tools/filter/MediaEditJNI;->MediaFilter_getAudioStreamDuration(JLcom/meitu/media/tools/filter/MediaFilter;)I
@@ -1290,7 +1217,6 @@
 
     move-object v10, p0
 
-    .line 1
     iget-wide v1, v10, Lcom/meitu/media/tools/filter/MediaFilter;->a:J
 
     move-object v3, p0
@@ -1321,7 +1247,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/media/tools/filter/MediaFilter;->a:J
 
     invoke-static {v1, v2, p0}, Lcom/meitu/media/tools/filter/MediaEditJNI;->MediaFilter_getAverFrameRate(JLcom/meitu/media/tools/filter/MediaFilter;)F
@@ -1340,7 +1265,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/media/tools/filter/MediaFilter;->a:J
 
     invoke-static {v1, v2, p0}, Lcom/meitu/media/tools/filter/MediaEditJNI;->MediaFilter_getConcatSegmentDuration(JLcom/meitu/media/tools/filter/MediaFilter;)[F
@@ -1359,7 +1283,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/media/tools/filter/MediaFilter;->a:J
 
     invoke-static {v1, v2, p0}, Lcom/meitu/media/tools/filter/MediaEditJNI;->MediaFilter_getFileInfo(JLcom/meitu/media/tools/filter/MediaFilter;)I
@@ -1378,7 +1301,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/media/tools/filter/MediaFilter;->a:J
 
     move-object v3, p0
@@ -1407,7 +1329,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/media/tools/filter/MediaFilter;->a:J
 
     invoke-static {v1, v2, p0, p1, p2}, Lcom/meitu/media/tools/filter/MediaEditJNI;->MediaFilter_getFrameRGBASize(JLcom/meitu/media/tools/filter/MediaFilter;[I[I)I
@@ -1426,7 +1347,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/media/tools/filter/MediaFilter;->a:J
 
     invoke-static {v1, v2, p0}, Lcom/meitu/media/tools/filter/MediaEditJNI;->MediaFilter_listener_get(JLcom/meitu/media/tools/filter/MediaFilter;)J
@@ -1443,7 +1363,6 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     new-instance v3, Lcom/meitu/media/tools/filter/MediaFilterProgressListener;
 
@@ -1466,7 +1385,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/media/tools/filter/MediaFilter;->a:J
 
     invoke-static {v1, v2, p0}, Lcom/meitu/media/tools/filter/MediaEditJNI;->MediaFilter_getMediaAudioRate(JLcom/meitu/media/tools/filter/MediaFilter;)J
@@ -1485,7 +1403,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/media/tools/filter/MediaFilter;->a:J
 
     invoke-static {v1, v2, p0}, Lcom/meitu/media/tools/filter/MediaEditJNI;->MediaFilter_getMediaDuration(JLcom/meitu/media/tools/filter/MediaFilter;)D
@@ -1504,7 +1421,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/media/tools/filter/MediaFilter;->a:J
 
     invoke-static {v1, v2, p0}, Lcom/meitu/media/tools/filter/MediaEditJNI;->MediaFilter_getMediaRealHeight(JLcom/meitu/media/tools/filter/MediaFilter;)I
@@ -1523,7 +1439,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/media/tools/filter/MediaFilter;->a:J
 
     invoke-static {v1, v2, p0}, Lcom/meitu/media/tools/filter/MediaEditJNI;->MediaFilter_getMediaRealWidth(JLcom/meitu/media/tools/filter/MediaFilter;)I
@@ -1542,7 +1457,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/media/tools/filter/MediaFilter;->a:J
 
     invoke-static {v1, v2, p0}, Lcom/meitu/media/tools/filter/MediaEditJNI;->MediaFilter_getMediaRotate(JLcom/meitu/media/tools/filter/MediaFilter;)I

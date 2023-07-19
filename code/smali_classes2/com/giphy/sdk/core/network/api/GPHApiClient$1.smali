@@ -36,7 +36,6 @@
 .method constructor <init>(Lcom/giphy/sdk/core/network/api/GPHApiClient;Lcom/giphy/sdk/core/network/api/CompletionHandler;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/giphy/sdk/core/network/api/GPHApiClient$1;->this$0:Lcom/giphy/sdk/core/network/api/GPHApiClient;
 
     iput-object p2, p0, Lcom/giphy/sdk/core/network/api/GPHApiClient$1;->val$completionHandler:Lcom/giphy/sdk/core/network/api/CompletionHandler;
@@ -55,7 +54,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 2
     iget-object p2, p0, Lcom/giphy/sdk/core/network/api/GPHApiClient$1;->val$completionHandler:Lcom/giphy/sdk/core/network/api/CompletionHandler;
 
     invoke-virtual {p1}, Lcom/giphy/sdk/core/network/response/RandomGifResponse;->toGifResponse()Lcom/giphy/sdk/core/network/response/MediaResponse;
@@ -66,7 +64,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_0
     iget-object p1, p0, Lcom/giphy/sdk/core/network/api/GPHApiClient$1;->val$completionHandler:Lcom/giphy/sdk/core/network/api/CompletionHandler;
 
@@ -79,7 +76,6 @@
 .method public bridge synthetic onComplete(Ljava/lang/Object;Ljava/lang/Throwable;)V
     .locals 0
 
-    .line 1
     check-cast p1, Lcom/giphy/sdk/core/network/response/RandomGifResponse;
 
     invoke-virtual {p0, p1, p2}, Lcom/giphy/sdk/core/network/api/GPHApiClient$1;->onComplete(Lcom/giphy/sdk/core/network/response/RandomGifResponse;Ljava/lang/Throwable;)V

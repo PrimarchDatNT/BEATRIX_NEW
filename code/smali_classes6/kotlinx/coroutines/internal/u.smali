@@ -20,7 +20,6 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
     new-instance v0, Lcotlinx/coroutines/internal/u;
 
     invoke-direct {v0}, Lcotlinx/coroutines/internal/u;-><init>()V
@@ -33,7 +32,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -46,7 +44,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     invoke-static {p0}, Lcotlinx/coroutines/internal/MainDispatcherFactory$a;->a(Lcotlinx/coroutines/internal/MainDispatcherFactory;)Ljava/lang/String;
 
     move-result-object v0
@@ -74,7 +71,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     new-instance p1, Lcotlinx/coroutines/internal/t;
 
     const/4 v0, 0x0

@@ -17,12 +17,10 @@
 .method public constructor <init>(Ljava/lang/String;)V
     .locals 2
 
-    .line 1
     invoke-direct {p0, p1}, Lf/k/k/d;-><init>(Ljava/lang/String;)V
 
     const-wide/16 v0, -0x1
 
-    .line 2
     iput-wide v0, p0, Lf/k/k/f;->p:J
 
     return-void
@@ -35,7 +33,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lf/k/k/f;->K()I
 
     move-result p0
@@ -52,7 +49,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lf/k/k/f;->p:J
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -67,7 +63,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-wide p1, p0, Lf/k/k/f;->p:J
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -82,7 +77,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0, p1}, Lf/k/k/f;->M(Lokhttp3/Response;)J
 
     move-result-wide p0
@@ -99,7 +93,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lf/k/k/f;->o:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -114,7 +107,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const/high16 v0, 0x40000
@@ -129,7 +121,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p1}, Lokhttp3/Response;->request()Lokhttp3/Request;
 
     move-result-object v1
@@ -144,14 +135,12 @@
 
     const-string v1, "Content-Length"
 
-    .line 2
     invoke-virtual {p1, v1}, Lokhttp3/Response;->header(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p1
 
     if-eqz p1, :cond_1
 
-    .line 3
     invoke-static {p1}, Ljava/lang/Long;->valueOf(Ljava/lang/String;)Ljava/lang/Long;
 
     move-result-object p1
@@ -167,7 +156,6 @@
     :cond_0
     const-string v1, "Content-Range"
 
-    .line 4
     invoke-virtual {p1, v1}, Lokhttp3/Response;->header(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p1
@@ -176,14 +164,12 @@
 
     const-string v1, "/"
 
-    .line 5
     invoke-virtual {p1, v1}, Ljava/lang/String;->contains(Ljava/lang/CharSequence;)Z
 
     move-result v2
 
     if-eqz v2, :cond_1
 
-    .line 6
     invoke-virtual {p1, v1}, Ljava/lang/String;->indexOf(Ljava/lang/String;)I
 
     move-result v1
@@ -213,7 +199,6 @@
     :cond_1
     const-wide/16 v1, -0x1
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-wide v1
@@ -228,10 +213,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lf/k/k/f;->o:Ljava/lang/String;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
@@ -248,7 +231,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lf/k/k/d;->o()Z
 
     move-result v1
@@ -257,7 +239,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 2
     new-instance v1, Lcom/commsource/material/DownloadException;
 
     const-string v2, "\u4e0b\u8f7d\u4efb\u52a1\u88ab\u53d6\u6d88"
@@ -266,7 +247,6 @@
 
     invoke-interface {p1, v1}, Lf/k/k/p;->b(Ljava/lang/Throwable;)V
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -284,14 +264,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lf/k/k/f$a;
 
     invoke-direct {v1, p0, p1}, Lf/k/k/f$a;-><init>(Lf/k/k/f;Lf/k/k/n;)V
 
     invoke-super {p0, v1}, Lf/k/k/d;->j(Lf/k/k/p;)Lf/k/k/d;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -304,7 +282,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lf/k/k/d;->m()Ljava/lang/String;
 
     move-result-object v1
@@ -327,7 +304,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0, p1}, Lf/k/k/d;->j(Lf/k/k/p;)Lf/k/k/d;
 
     move-result-object p1
@@ -344,7 +320,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const-string v0, "get"
@@ -373,10 +348,8 @@
 
     const-string v0, "XHttp_Download_Tag"
 
-    .line 1
     invoke-virtual {p1, v0, v0}, Lokhttp3/Request$Builder;->addHeader(Ljava/lang/String;Ljava/lang/String;)Lokhttp3/Request$Builder;
 
-    .line 2
     invoke-virtual {p1, p2}, Lokhttp3/Request$Builder;->url(Ljava/lang/String;)Lokhttp3/Request$Builder;
 
     move-result-object p1

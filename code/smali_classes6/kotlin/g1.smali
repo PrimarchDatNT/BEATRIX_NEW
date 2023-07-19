@@ -50,7 +50,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     iput-object p1, p0, Lcotlin/g1;->a:[I
@@ -63,7 +62,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     new-instance v0, Lcotlin/g1$a;
 
     invoke-direct {v0, p0}, Lcotlin/g1$a;-><init>([I)V
@@ -74,7 +72,6 @@
 .method public static final C([III)V
     .locals 0
 
-    .line 1
     aput p2, p0, p1
 
     return-void
@@ -127,7 +124,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     new-array p0, p0, [I
 
     invoke-static {p0}, Lcotlin/g1;->h([I)[I
@@ -159,7 +155,6 @@
 .method public static j([II)Z
     .locals 0
 
-    .line 1
     invoke-static {p0, p1}, Lcotlin/collections/k;->N7([II)Z
 
     move-result p0
@@ -186,7 +181,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-interface {p1}, Ljava/util/Collection;->isEmpty()Z
 
     move-result v0
@@ -202,7 +196,6 @@
 
     goto :goto_1
 
-    .line 2
     :cond_1
     invoke-interface {p1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
@@ -219,7 +212,6 @@
 
     move-result-object v0
 
-    .line 3
     instance-of v3, v0, Lcotlin/f1;
 
     if-eqz v3, :cond_3
@@ -292,7 +284,6 @@
 .method public static final q([II)I
     .locals 0
 
-    .line 1
     aget p0, p0, p1
 
     invoke-static {p0}, Lcotlin/f1;->s(I)I
@@ -305,7 +296,6 @@
 .method public static s([I)I
     .locals 0
 
-    .line 1
     array-length p0, p0
 
     return p0
@@ -340,7 +330,6 @@
 .method public static y([I)Z
     .locals 0
 
-    .line 1
     array-length p0, p0
 
     if-nez p0, :cond_0
@@ -426,7 +415,6 @@
 .method public final bridge contains(Ljava/lang/Object;)Z
     .locals 1
 
-    .line 1
     instance-of v0, p1, Lcotlin/f1;
 
     if-eqz v0, :cond_0
@@ -465,7 +453,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcotlin/g1;->a:[I
 
     invoke-static {v0, p1}, Lcotlin/g1;->k([ILjava/util/Collection;)Z
@@ -478,7 +465,6 @@
 .method public equals(Ljava/lang/Object;)Z
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcotlin/g1;->a:[I
 
     invoke-static {v0, p1}, Lcotlin/g1;->l([ILjava/lang/Object;)Z
@@ -491,7 +477,6 @@
 .method public hashCode()I
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcotlin/g1;->a:[I
 
     invoke-static {v0}, Lcotlin/g1;->v([I)I
@@ -504,7 +489,6 @@
 .method public i(I)Z
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcotlin/g1;->a:[I
 
     invoke-static {v0, p1}, Lcotlin/g1;->j([II)Z
@@ -517,7 +501,6 @@
 .method public isEmpty()Z
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcotlin/g1;->a:[I
 
     invoke-static {v0}, Lcotlin/g1;->y([I)Z
@@ -530,7 +513,6 @@
 .method public bridge synthetic iterator()Ljava/util/Iterator;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcotlin/g1;->z()Lcotlin/collections/l1;
 
     move-result-object v0
@@ -541,7 +523,6 @@
 .method public r()I
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcotlin/g1;->a:[I
 
     invoke-static {v0}, Lcotlin/g1;->s([I)I
@@ -608,7 +589,6 @@
 .method public final bridge size()I
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcotlin/g1;->r()I
 
     move-result v0
@@ -646,7 +626,6 @@
 .method public toString()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcotlin/g1;->a:[I
 
     invoke-static {v0}, Lcotlin/g1;->M([I)Ljava/lang/String;
@@ -661,7 +640,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcotlin/g1;->a:[I
 
     invoke-static {v0}, Lcotlin/g1;->A([I)Lcotlin/collections/l1;

@@ -31,14 +31,12 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
 
     sput-object v0, Lcom/sdk/utils/internal/ReceiverUtils;->b:Ljava/util/List;
 
-    .line 2
     new-instance v0, Ljava/lang/Object;
 
     invoke-direct {v0}, Ljava/lang/Object;-><init>()V
@@ -51,7 +49,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Landroid/content/BroadcastReceiver;-><init>()V
 
     return-void
@@ -60,20 +57,17 @@
 .method public static a(Lcom/sdk/utils/internal/ReceiverUtils$a;)V
     .locals 2
 
-    .line 1
     sget-object v0, Lcom/sdk/utils/internal/ReceiverUtils;->c:Ljava/lang/Object;
 
     monitor-enter v0
 
     if-eqz p0, :cond_0
 
-    .line 2
     :try_start_0
     sget-object v1, Lcom/sdk/utils/internal/ReceiverUtils;->b:Ljava/util/List;
 
     invoke-interface {v1, p0}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
-    .line 3
     :cond_0
     monitor-exit v0
 
@@ -96,7 +90,6 @@
 
     return-void
 
-    .line 1
     :cond_0
     new-instance v0, Landroid/content/IntentFilter;
 
@@ -104,27 +97,22 @@
 
     const-string v1, "android.intent.action.SCREEN_OFF"
 
-    .line 2
     invoke-virtual {v0, v1}, Landroid/content/IntentFilter;->addAction(Ljava/lang/String;)V
 
     const-string v1, "android.intent.action.SCREEN_ON"
 
-    .line 3
     invoke-virtual {v0, v1}, Landroid/content/IntentFilter;->addAction(Ljava/lang/String;)V
 
-    .line 4
     sget-object v1, Lcom/sdk/utils/internal/ReceiverUtils;->a:Lcom/sdk/utils/internal/ReceiverUtils;
 
     if-nez v1, :cond_1
 
-    .line 5
     new-instance v1, Lcom/sdk/utils/internal/ReceiverUtils;
 
     invoke-direct {v1}, Lcom/sdk/utils/internal/ReceiverUtils;-><init>()V
 
     sput-object v1, Lcom/sdk/utils/internal/ReceiverUtils;->a:Lcom/sdk/utils/internal/ReceiverUtils;
 
-    .line 6
     :cond_1
     sget-object v1, Lcom/sdk/utils/internal/ReceiverUtils;->a:Lcom/sdk/utils/internal/ReceiverUtils;
 
@@ -136,20 +124,17 @@
 .method public static c(Lcom/sdk/utils/internal/ReceiverUtils$a;)V
     .locals 2
 
-    .line 1
     sget-object v0, Lcom/sdk/utils/internal/ReceiverUtils;->c:Ljava/lang/Object;
 
     monitor-enter v0
 
     if-eqz p0, :cond_0
 
-    .line 2
     :try_start_0
     sget-object v1, Lcom/sdk/utils/internal/ReceiverUtils;->b:Ljava/util/List;
 
     invoke-interface {v1, p0}, Ljava/util/List;->remove(Ljava/lang/Object;)Z
 
-    .line 3
     :cond_0
     monitor-exit v0
 
@@ -170,20 +155,17 @@
 
     if-eqz p0, :cond_1
 
-    .line 1
     sget-object v0, Lcom/sdk/utils/internal/ReceiverUtils;->a:Lcom/sdk/utils/internal/ReceiverUtils;
 
     if-nez v0, :cond_0
 
     goto :goto_0
 
-    .line 2
     :cond_0
     invoke-virtual {p0, v0}, Landroid/content/Context;->unregisterReceiver(Landroid/content/BroadcastReceiver;)V
 
     const/4 p0, 0x0
 
-    .line 3
     sput-object p0, Lcom/sdk/utils/internal/ReceiverUtils;->a:Lcom/sdk/utils/internal/ReceiverUtils;
 
     :cond_1
@@ -196,21 +178,18 @@
 .method public onReceive(Landroid/content/Context;Landroid/content/Intent;)V
     .locals 0
 
-    .line 1
     invoke-virtual {p2}, Landroid/content/Intent;->getAction()Ljava/lang/String;
 
     move-result-object p1
 
     const-string p2, "android.intent.action.SCREEN_OFF"
 
-    .line 2
     invoke-virtual {p2, p1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p2
 
     if-eqz p2, :cond_0
 
-    .line 3
     sget-object p1, Lcom/sdk/utils/internal/ReceiverUtils;->b:Ljava/util/List;
 
     invoke-interface {p1}, Ljava/util/List;->iterator()Ljava/util/Iterator;
@@ -230,7 +209,6 @@
 
     check-cast p2, Lcom/sdk/utils/internal/ReceiverUtils$a;
 
-    .line 4
     invoke-interface {p2}, Lcom/sdk/utils/internal/ReceiverUtils$a;->b()V
 
     goto :goto_0
@@ -238,14 +216,12 @@
     :cond_0
     const-string p2, "android.intent.action.SCREEN_ON"
 
-    .line 5
     invoke-virtual {p2, p1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p1
 
     if-eqz p1, :cond_1
 
-    .line 6
     sget-object p1, Lcom/sdk/utils/internal/ReceiverUtils;->b:Ljava/util/List;
 
     invoke-interface {p1}, Ljava/util/List;->iterator()Ljava/util/Iterator;
@@ -265,7 +241,6 @@
 
     check-cast p2, Lcom/sdk/utils/internal/ReceiverUtils$a;
 
-    .line 7
     invoke-interface {p2}, Lcom/sdk/utils/internal/ReceiverUtils$a;->a()V
 
     goto :goto_1

@@ -71,7 +71,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 2
     new-instance v1, Lcom/commsource/beautyfilter/NewFilterConfig;
 
     const-string v2, "NewFilterConfig"
@@ -92,7 +91,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/beautyfilter/NewFilterConfig$Companion$instance$2;->invoke()Lcom/commsource/beautyfilter/NewFilterConfig;
 
     move-result-object v1

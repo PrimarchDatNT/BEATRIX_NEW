@@ -22,7 +22,6 @@
 .method constructor <init>(Lcom/commsource/material/download/c/e;Ljava/lang/String;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/material/download/c/e$a;->g:Lcom/commsource/material/download/c/e;
 
     invoke-direct {p0, p2}, Lcom/commsource/util/u2/a;-><init>(Ljava/lang/String;)V
@@ -39,7 +38,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
     move-result-object v1
@@ -62,7 +60,6 @@
 
     if-eqz v1, :cond_0
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/material/download/c/e$a;->g:Lcom/commsource/material/download/c/e;
 
     invoke-virtual {v1}, Lcom/commsource/material/DownloadTask;->l()Ljava/lang/String;
@@ -73,7 +70,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_0
     iget-object v1, p0, Lcom/commsource/material/download/c/e$a;->g:Lcom/commsource/material/download/c/e;
 
@@ -85,7 +81,6 @@
 
     invoke-virtual {v1, v1, v2}, Lcom/commsource/material/download/c/c;->a(Lcom/commsource/material/DownloadTask;Ljava/lang/Exception;)V
 
-    .line 4
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

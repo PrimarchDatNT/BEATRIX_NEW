@@ -17,7 +17,6 @@
 .method public constructor <init>(Landroid/content/Context;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1}, Landroid/view/View;-><init>(Landroid/content/Context;)V
 
     return-void
@@ -30,7 +29,6 @@
         .end annotation
     .end param
 
-    .line 2
     invoke-direct {p0, p1, p2}, Landroid/view/View;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
     return-void
@@ -43,7 +41,6 @@
         .end annotation
     .end param
 
-    .line 3
     invoke-direct {p0, p1, p2, p3}, Landroid/view/View;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
     return-void
@@ -58,10 +55,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0, p1}, Landroid/view/View;->onDraw(Landroid/graphics/Canvas;)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/widget/DoubleLayerImageView;->a:Landroid/graphics/drawable/BitmapDrawable;
 
     if-eqz v1, :cond_4
@@ -72,13 +67,11 @@
 
     goto :goto_0
 
-    .line 3
     :cond_0
     iget-object v1, p0, Lcom/commsource/widget/DoubleLayerImageView;->d:Landroid/graphics/Paint;
 
     if-nez v1, :cond_1
 
-    .line 4
     new-instance v1, Landroid/graphics/Paint;
 
     const/4 v2, 0x2
@@ -87,7 +80,6 @@
 
     iput-object v1, p0, Lcom/commsource/widget/DoubleLayerImageView;->d:Landroid/graphics/Paint;
 
-    .line 5
     :cond_1
     iget v1, p0, Lcom/commsource/widget/DoubleLayerImageView;->c:F
 
@@ -101,7 +93,6 @@
 
     if-eqz v5, :cond_2
 
-    .line 6
     iget-object v5, p0, Lcom/commsource/widget/DoubleLayerImageView;->d:Landroid/graphics/Paint;
 
     sub-float/2addr v3, v1
@@ -114,7 +105,6 @@
 
     invoke-virtual {v5, v1}, Landroid/graphics/Paint;->setAlpha(I)V
 
-    .line 7
     iget-object v1, p0, Lcom/commsource/widget/DoubleLayerImageView;->a:Landroid/graphics/drawable/BitmapDrawable;
 
     invoke-virtual {v1}, Landroid/graphics/drawable/BitmapDrawable;->getBitmap()Landroid/graphics/Bitmap;
@@ -125,7 +115,6 @@
 
     invoke-virtual {p1, v1, v4, v4, v3}, Landroid/graphics/Canvas;->drawBitmap(Landroid/graphics/Bitmap;FFLandroid/graphics/Paint;)V
 
-    .line 8
     :cond_2
     iget v1, p0, Lcom/commsource/widget/DoubleLayerImageView;->c:F
 
@@ -133,7 +122,6 @@
 
     if-eqz v3, :cond_3
 
-    .line 9
     iget-object v3, p0, Lcom/commsource/widget/DoubleLayerImageView;->d:Landroid/graphics/Paint;
 
     mul-float v1, v1, v2
@@ -144,7 +132,6 @@
 
     invoke-virtual {v3, v1}, Landroid/graphics/Paint;->setAlpha(I)V
 
-    .line 10
     iget-object v1, p0, Lcom/commsource/widget/DoubleLayerImageView;->b:Landroid/graphics/drawable/BitmapDrawable;
 
     invoke-virtual {v1}, Landroid/graphics/drawable/BitmapDrawable;->getBitmap()Landroid/graphics/Bitmap;
@@ -155,13 +142,11 @@
 
     invoke-virtual {p1, v1, v4, v4, v2}, Landroid/graphics/Canvas;->drawBitmap(Landroid/graphics/Bitmap;FFLandroid/graphics/Paint;)V
 
-    .line 11
     :cond_3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 12
     :cond_4
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -176,10 +161,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0, p1, p2, p3, p4}, Landroid/view/View;->onSizeChanged(IIII)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -192,12 +175,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Landroid/graphics/drawable/BitmapDrawable;
 
     iput-object p1, p0, Lcom/commsource/widget/DoubleLayerImageView;->a:Landroid/graphics/drawable/BitmapDrawable;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -210,12 +191,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Landroid/graphics/drawable/BitmapDrawable;
 
     iput-object p1, p0, Lcom/commsource/widget/DoubleLayerImageView;->b:Landroid/graphics/drawable/BitmapDrawable;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -230,13 +209,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/widget/DoubleLayerImageView;->c:F
 
-    .line 2
     invoke-virtual {p0}, Landroid/view/View;->invalidate()V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

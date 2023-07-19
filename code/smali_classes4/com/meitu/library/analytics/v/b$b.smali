@@ -24,13 +24,10 @@
 .method public constructor <init>([BLjava/lang/String;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/meitu/library/analytics/v/b$b;->a:[B
 
-    .line 3
     iput-object p2, p0, Lcom/meitu/library/analytics/v/b$b;->b:Ljava/lang/String;
 
     return-void
@@ -45,7 +42,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/library/analytics/v/b$b;->a:[B
 
     array-length v1, v1
@@ -56,7 +52,6 @@
 
     if-eq v1, v2, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v3
@@ -64,7 +59,6 @@
     :cond_0
     const/4 v1, 0x0
 
-    .line 3
     :goto_0
     iget-object v2, p0, Lcom/meitu/library/analytics/v/b$b;->a:[B
 
@@ -72,14 +66,12 @@
 
     if-ge v1, v4, :cond_2
 
-    .line 4
     aget-byte v2, v2, v1
 
     aget-byte v4, p1, v1
 
     if-eq v2, v4, :cond_1
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v3
@@ -89,7 +81,6 @@
 
     goto :goto_0
 
-    .line 6
     :cond_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

@@ -11,15 +11,12 @@
 .method public constructor <init>(Lorg/apache/thrift/transport/TTransport;)V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/io/InputStream;-><init>()V
 
     const/4 v0, 0x0
 
-    .line 2
     iput-object v0, p0, Lorg/apache/thrift/transport/TTransportInputStream;->transport:Lorg/apache/thrift/transport/TTransport;
 
-    .line 3
     iput-object p1, p0, Lorg/apache/thrift/transport/TTransportInputStream;->transport:Lorg/apache/thrift/transport/TTransport;
 
     return-void
@@ -40,14 +37,12 @@
     :try_start_0
     new-array v1, v0, [B
 
-    .line 1
     iget-object v2, p0, Lorg/apache/thrift/transport/TTransportInputStream;->transport:Lorg/apache/thrift/transport/TTransport;
 
     const/4 v3, 0x0
 
     invoke-virtual {v2, v1, v3, v0}, Lorg/apache/thrift/transport/TTransport;->read([BII)I
 
-    .line 2
     aget-byte v0, v1, v3
     :try_end_0
     .catch Lorg/apache/thrift/transport/TTransportException; {:try_start_0 .. :try_end_0} :catch_0
@@ -57,7 +52,6 @@
     :catch_0
     move-exception v0
 
-    .line 3
     new-instance v1, Ljava/io/IOException;
 
     invoke-direct {v1, v0}, Ljava/io/IOException;-><init>(Ljava/lang/Throwable;)V
@@ -73,7 +67,6 @@
         }
     .end annotation
 
-    .line 4
     :try_start_0
     iget-object v0, p0, Lorg/apache/thrift/transport/TTransportInputStream;->transport:Lorg/apache/thrift/transport/TTransport;
 
@@ -88,7 +81,6 @@
     :catch_0
     move-exception p1
 
-    .line 5
     new-instance p2, Ljava/io/IOException;
 
     invoke-direct {p2, p1}, Ljava/io/IOException;-><init>(Ljava/lang/Throwable;)V

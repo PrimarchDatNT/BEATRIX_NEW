@@ -79,14 +79,12 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     instance-of v0, p1, Lcotlin/coroutines/b;
 
     const/4 v1, 0x0
 
     if-eqz v0, :cond_2
 
-    .line 2
     check-cast p1, Lcotlin/coroutines/b;
 
     invoke-interface {p0}, Lcotlin/coroutines/CoroutineContext$a;->getKey()Lcotlin/coroutines/CoroutineContext$b;
@@ -116,7 +114,6 @@
     :goto_0
     return-object v1
 
-    .line 3
     :cond_2
     sget-object v0, Lcotlin/coroutines/d;->s:Lcotlin/coroutines/d$b;
 
@@ -162,12 +159,10 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     instance-of v0, p1, Lcotlin/coroutines/b;
 
     if-eqz v0, :cond_1
 
-    .line 2
     check-cast p1, Lcotlin/coroutines/b;
 
     invoke-interface {p0}, Lcotlin/coroutines/CoroutineContext$a;->getKey()Lcotlin/coroutines/CoroutineContext$b;
@@ -191,7 +186,6 @@
     :cond_0
     return-object p0
 
-    .line 3
     :cond_1
     sget-object v0, Lcotlin/coroutines/d;->s:Lcotlin/coroutines/d$b;
 

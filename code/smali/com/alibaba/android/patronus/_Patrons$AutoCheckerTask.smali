@@ -18,7 +18,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/util/TimerTask;-><init>()V
 
     return-void
@@ -29,7 +28,6 @@
 .method public run()V
     .locals 12
 
-    .line 1
     invoke-static {}, Lcom/alibaba/android/patronus/_Patrons;->access$000()Ljava/util/concurrent/atomic/AtomicInteger;
 
     move-result-object v0
@@ -56,7 +54,6 @@
 
     if-le v0, v3, :cond_0
 
-    .line 2
     invoke-static {}, Lcom/alibaba/android/patronus/_Patrons;->access$000()Ljava/util/concurrent/atomic/AtomicInteger;
 
     move-result-object v0
@@ -67,10 +64,8 @@
 
     const-string v0, "exit strict mode after check 5 times"
 
-    .line 3
     invoke-static {v2, v0}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 4
     invoke-static {}, Lcom/alibaba/android/patronus/_Patrons;->access$100()Lcom/alibaba/android/patronus/Patrons$PatronsConfig;
 
     move-result-object v0
@@ -79,7 +74,6 @@
 
     invoke-static {v0}, Lcom/alibaba/android/patronus/_Patrons;->access$200(I)V
 
-    .line 5
     :cond_0
     invoke-static {}, Lcom/alibaba/android/patronus/_Patrons;->readVssSize()J
 
@@ -91,7 +85,6 @@
 
     div-float/2addr v0, v5
 
-    .line 6
     invoke-static {}, Lcom/alibaba/android/patronus/_Patrons;->access$300()J
 
     move-result-wide v5
@@ -118,7 +111,6 @@
 
     if-gez v9, :cond_1
 
-    .line 7
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -139,12 +131,10 @@
 
     invoke-static {v2, v0}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 8
     invoke-static {}, Lcom/alibaba/android/patronus/_Patrons;->access$400()V
 
     return-void
 
-    .line 9
     :cond_1
     invoke-static {}, Lcom/alibaba/android/patronus/_Patrons;->access$100()Lcom/alibaba/android/patronus/Patrons$PatronsConfig;
 
@@ -158,7 +148,6 @@
 
     if-lez v5, :cond_3
 
-    .line 10
     new-instance v5, Ljava/lang/StringBuilder;
 
     invoke-direct {v5}, Ljava/lang/StringBuilder;-><init>()V
@@ -183,7 +172,6 @@
 
     invoke-static {v2, v0}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 11
     invoke-static {}, Lcom/alibaba/android/patronus/_Patrons;->access$300()J
 
     move-result-wide v3
@@ -212,21 +200,17 @@
 
     const-string/jumbo v0, "vss resize failed, stop watching."
 
-    .line 12
     invoke-static {v2, v0}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 13
     invoke-static {}, Lcom/alibaba/android/patronus/_Patrons;->access$400()V
 
     return-void
 
-    .line 14
     :cond_2
     invoke-static {}, Lcom/alibaba/android/patronus/_Patrons;->readVssSize()J
 
     move-result-wide v3
 
-    .line 15
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -263,17 +247,14 @@
 
     const-string v0, "enter strict mode after resize"
 
-    .line 16
     invoke-static {v2, v0}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 17
     invoke-static {}, Lcom/alibaba/android/patronus/_Patrons;->access$000()Ljava/util/concurrent/atomic/AtomicInteger;
 
     move-result-object v0
 
     invoke-virtual {v0, v1}, Ljava/util/concurrent/atomic/AtomicInteger;->set(I)V
 
-    .line 18
     invoke-static {}, Lcom/alibaba/android/patronus/_Patrons;->access$100()Lcom/alibaba/android/patronus/Patrons$PatronsConfig;
 
     move-result-object v0
@@ -286,7 +267,6 @@
 
     goto/16 :goto_0
 
-    .line 19
     :cond_3
     invoke-static {}, Lcom/alibaba/android/patronus/_Patrons;->getCurrentRegionSpaceSize()J
 
@@ -306,7 +286,6 @@
 
     if-gez v1, :cond_4
 
-    .line 20
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -345,12 +324,10 @@
 
     invoke-static {v2, v0}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 21
     invoke-static {}, Lcom/alibaba/android/patronus/_Patrons;->access$400()V
 
     goto :goto_0
 
-    .line 22
     :cond_4
     invoke-static {}, Lcom/alibaba/android/patronus/_Patrons;->access$100()Lcom/alibaba/android/patronus/Patrons$PatronsConfig;
 
@@ -360,7 +337,6 @@
 
     if-eqz v1, :cond_5
 
-    .line 23
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V

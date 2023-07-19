@@ -25,7 +25,6 @@
 .method constructor <init>(Lcom/mopub/common/privacy/ConsentDialogActivity;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/mopub/common/privacy/ConsentDialogActivity$2;->this$0:Lcom/mopub/common/privacy/ConsentDialogActivity;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -38,7 +37,6 @@
 .method public run()V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/common/privacy/ConsentDialogActivity$2;->this$0:Lcom/mopub/common/privacy/ConsentDialogActivity;
 
     const/4 v1, 0x1

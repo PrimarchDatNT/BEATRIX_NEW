@@ -25,7 +25,6 @@
 .method constructor <init>(Lcom/commsource/camera/ArVideoConfirmActivity$a;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/camera/ArVideoConfirmActivity$a$a;->a:Lcom/commsource/camera/ArVideoConfirmActivity$a;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -44,7 +43,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     iget-object p1, p0, Lcom/commsource/camera/ArVideoConfirmActivity$a$a;->a:Lcom/commsource/camera/ArVideoConfirmActivity$a;
 
     iget-object p1, p1, Lcom/commsource/camera/ArVideoConfirmActivity$a;->a:Lcom/commsource/camera/ArVideoConfirmActivity;
@@ -53,7 +51,6 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     iget-object p1, p0, Lcom/commsource/camera/ArVideoConfirmActivity$a$a;->a:Lcom/commsource/camera/ArVideoConfirmActivity$a;
 
@@ -63,14 +60,12 @@
 
     if-nez v1, :cond_1
 
-    .line 3
     invoke-static {p1}, Lcom/commsource/camera/ArVideoConfirmActivity;->c1(Lcom/commsource/camera/ArVideoConfirmActivity;)Lf/d/k/l;
 
     move-result-object p1
 
     invoke-virtual {p1}, Lf/d/k/l;->T()V
 
-    .line 4
     :cond_1
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

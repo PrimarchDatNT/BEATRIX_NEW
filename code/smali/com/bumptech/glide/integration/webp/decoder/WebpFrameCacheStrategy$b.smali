@@ -24,7 +24,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -33,7 +32,6 @@
 .method static synthetic a(Lcom/bumptech/glide/integration/webp/decoder/WebpFrameCacheStrategy$b;)Lcom/bumptech/glide/integration/webp/decoder/WebpFrameCacheStrategy$CacheControl;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lcom/bumptech/glide/integration/webp/decoder/WebpFrameCacheStrategy$b;->a:Lcom/bumptech/glide/integration/webp/decoder/WebpFrameCacheStrategy$CacheControl;
 
     return-object p0
@@ -42,7 +40,6 @@
 .method static synthetic b(Lcom/bumptech/glide/integration/webp/decoder/WebpFrameCacheStrategy$b;)I
     .locals 0
 
-    .line 1
     iget p0, p0, Lcom/bumptech/glide/integration/webp/decoder/WebpFrameCacheStrategy$b;->b:I
 
     return p0
@@ -53,7 +50,6 @@
 .method public c()Lcom/bumptech/glide/integration/webp/decoder/WebpFrameCacheStrategy;
     .locals 2
 
-    .line 1
     new-instance v0, Lcom/bumptech/glide/integration/webp/decoder/WebpFrameCacheStrategy;
 
     const/4 v1, 0x0
@@ -66,7 +62,6 @@
 .method public d()Lcom/bumptech/glide/integration/webp/decoder/WebpFrameCacheStrategy$b;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/bumptech/glide/integration/webp/decoder/WebpFrameCacheStrategy$CacheControl;->CACHE_ALL:Lcom/bumptech/glide/integration/webp/decoder/WebpFrameCacheStrategy$CacheControl;
 
     iput-object v0, p0, Lcom/bumptech/glide/integration/webp/decoder/WebpFrameCacheStrategy$b;->a:Lcom/bumptech/glide/integration/webp/decoder/WebpFrameCacheStrategy$CacheControl;
@@ -77,7 +72,6 @@
 .method public e()Lcom/bumptech/glide/integration/webp/decoder/WebpFrameCacheStrategy$b;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/bumptech/glide/integration/webp/decoder/WebpFrameCacheStrategy$CacheControl;->CACHE_AUTO:Lcom/bumptech/glide/integration/webp/decoder/WebpFrameCacheStrategy$CacheControl;
 
     iput-object v0, p0, Lcom/bumptech/glide/integration/webp/decoder/WebpFrameCacheStrategy$b;->a:Lcom/bumptech/glide/integration/webp/decoder/WebpFrameCacheStrategy$CacheControl;
@@ -88,7 +82,6 @@
 .method public f(Lcom/bumptech/glide/integration/webp/decoder/WebpFrameCacheStrategy$CacheControl;)Lcom/bumptech/glide/integration/webp/decoder/WebpFrameCacheStrategy$b;
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/bumptech/glide/integration/webp/decoder/WebpFrameCacheStrategy$b;->a:Lcom/bumptech/glide/integration/webp/decoder/WebpFrameCacheStrategy$CacheControl;
 
     return-object p0
@@ -97,7 +90,6 @@
 .method public g()Lcom/bumptech/glide/integration/webp/decoder/WebpFrameCacheStrategy$b;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/bumptech/glide/integration/webp/decoder/WebpFrameCacheStrategy$CacheControl;->CACHE_LIMITED:Lcom/bumptech/glide/integration/webp/decoder/WebpFrameCacheStrategy$CacheControl;
 
     iput-object v0, p0, Lcom/bumptech/glide/integration/webp/decoder/WebpFrameCacheStrategy$b;->a:Lcom/bumptech/glide/integration/webp/decoder/WebpFrameCacheStrategy$CacheControl;
@@ -108,12 +100,10 @@
 .method public h(I)Lcom/bumptech/glide/integration/webp/decoder/WebpFrameCacheStrategy$b;
     .locals 1
 
-    .line 1
     iput p1, p0, Lcom/bumptech/glide/integration/webp/decoder/WebpFrameCacheStrategy$b;->b:I
 
     if-nez p1, :cond_0
 
-    .line 2
     sget-object p1, Lcom/bumptech/glide/integration/webp/decoder/WebpFrameCacheStrategy$CacheControl;->CACHE_NONE:Lcom/bumptech/glide/integration/webp/decoder/WebpFrameCacheStrategy$CacheControl;
 
     iput-object p1, p0, Lcom/bumptech/glide/integration/webp/decoder/WebpFrameCacheStrategy$b;->a:Lcom/bumptech/glide/integration/webp/decoder/WebpFrameCacheStrategy$CacheControl;
@@ -125,14 +115,12 @@
 
     if-ne p1, v0, :cond_1
 
-    .line 3
     sget-object p1, Lcom/bumptech/glide/integration/webp/decoder/WebpFrameCacheStrategy$CacheControl;->CACHE_ALL:Lcom/bumptech/glide/integration/webp/decoder/WebpFrameCacheStrategy$CacheControl;
 
     iput-object p1, p0, Lcom/bumptech/glide/integration/webp/decoder/WebpFrameCacheStrategy$b;->a:Lcom/bumptech/glide/integration/webp/decoder/WebpFrameCacheStrategy$CacheControl;
 
     goto :goto_0
 
-    .line 4
     :cond_1
     sget-object p1, Lcom/bumptech/glide/integration/webp/decoder/WebpFrameCacheStrategy$CacheControl;->CACHE_LIMITED:Lcom/bumptech/glide/integration/webp/decoder/WebpFrameCacheStrategy$CacheControl;
 
@@ -145,7 +133,6 @@
 .method public i()Lcom/bumptech/glide/integration/webp/decoder/WebpFrameCacheStrategy$b;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/bumptech/glide/integration/webp/decoder/WebpFrameCacheStrategy$CacheControl;->CACHE_NONE:Lcom/bumptech/glide/integration/webp/decoder/WebpFrameCacheStrategy$CacheControl;
 
     iput-object v0, p0, Lcom/bumptech/glide/integration/webp/decoder/WebpFrameCacheStrategy$b;->a:Lcom/bumptech/glide/integration/webp/decoder/WebpFrameCacheStrategy$CacheControl;

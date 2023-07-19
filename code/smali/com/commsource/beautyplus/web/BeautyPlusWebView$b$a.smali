@@ -24,7 +24,6 @@
 .method constructor <init>(Lcom/commsource/beautyplus/web/BeautyPlusWebView$b;Ljava/lang/String;Ljava/lang/String;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/beautyplus/web/BeautyPlusWebView$b$a;->p:Lcom/commsource/beautyplus/web/BeautyPlusWebView$b;
 
     iput-object p3, p0, Lcom/commsource/beautyplus/web/BeautyPlusWebView$b$a;->g:Ljava/lang/String;
@@ -41,7 +40,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
     move-result-object v1
@@ -54,7 +52,6 @@
 
     invoke-static {v1}, Lcom/meitu/webview/utils/g;->v(Ljava/lang/String;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -69,7 +66,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     :try_start_0
     iget-object v1, p0, Lcom/commsource/beautyplus/web/BeautyPlusWebView$b$a;->g:Ljava/lang/String;
 
@@ -81,21 +77,18 @@
 
     const/4 v2, 0x0
 
-    .line 2
     array-length v3, v1
 
     invoke-static {v1, v2, v3}, Landroid/graphics/BitmapFactory;->decodeByteArray([BII)Landroid/graphics/Bitmap;
 
     move-result-object v1
 
-    .line 3
     invoke-static {v1}, Lcom/meitu/library/p/e/a;->z(Landroid/graphics/Bitmap;)Z
 
     move-result v2
 
     if-eqz v2, :cond_1
 
-    .line 4
     invoke-static {}, Lcom/commsource/beautyplus/util/v;->U()Z
 
     move-result v2
@@ -104,12 +97,10 @@
 
     if-eqz v2, :cond_0
 
-    .line 5
     invoke-static {}, Lcom/commsource/beautyplus/util/v;->J()Ljava/lang/String;
 
     move-result-object v2
 
-    .line 6
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
     move-result-object v4
@@ -118,28 +109,23 @@
 
     move-result-object v2
 
-    .line 7
     sget-object v4, Landroid/graphics/Bitmap$CompressFormat;->JPEG:Landroid/graphics/Bitmap$CompressFormat;
 
     invoke-static {v1, v2, v3, v4}, Lcom/commsource/util/common/e;->B(Landroid/graphics/Bitmap;Landroid/net/Uri;ILandroid/graphics/Bitmap$CompressFormat;)Z
 
     goto :goto_0
 
-    .line 8
     :cond_0
     invoke-static {}, Lcom/meitu/webview/utils/b;->d()Ljava/lang/String;
 
     move-result-object v2
 
-    .line 9
     sget-object v4, Landroid/graphics/Bitmap$CompressFormat;->JPEG:Landroid/graphics/Bitmap$CompressFormat;
 
     invoke-static {v1, v2, v3, v4}, Lcom/commsource/util/common/e;->D(Landroid/graphics/Bitmap;Ljava/lang/String;ILandroid/graphics/Bitmap$CompressFormat;)Z
 
-    .line 10
     invoke-static {v2}, Lcom/meitu/webview/utils/g;->t(Ljava/lang/String;)V
 
-    .line 11
     :goto_0
     sget-object v1, Lcom/commsource/beautyplus/web/a;->a:Lcom/commsource/beautyplus/web/a;
 
@@ -152,10 +138,8 @@
     :catch_0
     move-exception v1
 
-    .line 12
     invoke-virtual {v1}, Ljava/lang/Exception;->printStackTrace()V
 
-    .line 13
     :cond_1
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

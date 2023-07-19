@@ -7,7 +7,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -23,7 +22,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v1
@@ -48,7 +46,6 @@
 
     aput p4, v3, p2
 
-    .line 2
     invoke-virtual {p0}, Lcom/meitu/core/types/NativeBitmap;->nativeInstance()J
 
     move-result-wide p2
@@ -59,12 +56,10 @@
 
     invoke-static {p2, p3, v4, v5, v3}, Lcom/meitu/core/processor/MteAfterTakeBeautyARGL;->nativeRunStretchEffect_MYXJ(JJ[F)Z
 
-    .line 3
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide p1
 
-    .line 4
     sget-object p3, Lcom/meitu/core/types/NDebug;->TAG:Ljava/lang/String;
 
     new-instance p4, Ljava/lang/StringBuilder;
@@ -109,7 +104,6 @@
 
     invoke-static {p3, p0}, Lcom/meitu/core/types/NDebug;->i(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

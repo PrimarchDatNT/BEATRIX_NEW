@@ -36,7 +36,6 @@
 .method static constructor <clinit>()V
     .locals 7
 
-    .line 1
     new-instance v0, Lcom/airbnb/lottie/model/content/ShapeStroke$LineJoinType;
 
     const-string v1, "MITER"
@@ -47,7 +46,6 @@
 
     sput-object v0, Lcom/airbnb/lottie/model/content/ShapeStroke$LineJoinType;->MITER:Lcom/airbnb/lottie/model/content/ShapeStroke$LineJoinType;
 
-    .line 2
     new-instance v1, Lcom/airbnb/lottie/model/content/ShapeStroke$LineJoinType;
 
     const-string v3, "ROUND"
@@ -58,7 +56,6 @@
 
     sput-object v1, Lcom/airbnb/lottie/model/content/ShapeStroke$LineJoinType;->ROUND:Lcom/airbnb/lottie/model/content/ShapeStroke$LineJoinType;
 
-    .line 3
     new-instance v3, Lcom/airbnb/lottie/model/content/ShapeStroke$LineJoinType;
 
     const-string v5, "BEVEL"
@@ -79,7 +76,6 @@
 
     aput-object v3, v5, v6
 
-    .line 4
     sput-object v5, Lcom/airbnb/lottie/model/content/ShapeStroke$LineJoinType;->$VALUES:[Lcom/airbnb/lottie/model/content/ShapeStroke$LineJoinType;
 
     return-void
@@ -93,7 +89,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
     return-void
@@ -102,7 +97,6 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/airbnb/lottie/model/content/ShapeStroke$LineJoinType;
     .locals 1
 
-    .line 1
     const-class v0, Lcom/airbnb/lottie/model/content/ShapeStroke$LineJoinType;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -117,7 +111,6 @@
 .method public static values()[Lcom/airbnb/lottie/model/content/ShapeStroke$LineJoinType;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/airbnb/lottie/model/content/ShapeStroke$LineJoinType;->$VALUES:[Lcom/airbnb/lottie/model/content/ShapeStroke$LineJoinType;
 
     invoke-virtual {v0}, [Lcom/airbnb/lottie/model/content/ShapeStroke$LineJoinType;->clone()Ljava/lang/Object;
@@ -134,7 +127,6 @@
 .method public toPaintJoin()Landroid/graphics/Paint$Join;
     .locals 2
 
-    .line 1
     sget-object v0, Lcom/airbnb/lottie/model/content/ShapeStroke$a;->b:[I
 
     invoke-virtual {p0}, Ljava/lang/Enum;->ordinal()I
@@ -159,19 +151,16 @@
 
     return-object v0
 
-    .line 2
     :cond_0
     sget-object v0, Landroid/graphics/Paint$Join;->ROUND:Landroid/graphics/Paint$Join;
 
     return-object v0
 
-    .line 3
     :cond_1
     sget-object v0, Landroid/graphics/Paint$Join;->MITER:Landroid/graphics/Paint$Join;
 
     return-object v0
 
-    .line 4
     :cond_2
     sget-object v0, Landroid/graphics/Paint$Join;->BEVEL:Landroid/graphics/Paint$Join;
 

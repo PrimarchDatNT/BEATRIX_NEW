@@ -55,7 +55,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p2, Lcom/commsource/sharelink/d;
 
     invoke-virtual {p0, p1, p2}, Lcom/commsource/sharelink/ShareDialog$b;->b(ILcom/commsource/sharelink/d;)Z
@@ -74,7 +73,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p2}, Lcom/commsource/sharelink/d;->h()Ljava/lang/String;
 
     move-result-object v0
@@ -87,7 +85,6 @@
 
     if-eqz v0, :cond_1
 
-    .line 2
     iget-object v0, p0, Lcom/commsource/sharelink/ShareDialog$b;->a:Lcom/commsource/sharelink/ShareDialog;
 
     invoke-virtual {v0}, Lcom/commsource/sharelink/ShareDialog;->X()Lcom/commsource/sharelink/b;
@@ -113,7 +110,6 @@
     :cond_0
     const-string v0, "adx"
 
-    .line 3
     :goto_0
     iget-object v1, p0, Lcom/commsource/sharelink/ShareDialog$b;->a:Lcom/commsource/sharelink/ShareDialog;
 
@@ -129,13 +125,10 @@
 
     const-string v3, "platform"
 
-    .line 4
     invoke-static {v1, v2, v3, v0}, Lcom/commsource/statistics/m;->i(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 5
     invoke-static {v2, v3, v0}, Lcom/commsource/statistics/i;->r(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 6
     iget-object v0, p0, Lcom/commsource/sharelink/ShareDialog$b;->a:Lcom/commsource/sharelink/ShareDialog;
 
     invoke-virtual {v0}, Lcom/commsource/sharelink/ShareDialog;->X()Lcom/commsource/sharelink/b;
@@ -148,28 +141,22 @@
 
     if-eqz v0, :cond_3
 
-    .line 7
     new-instance v1, Landroid/content/Intent;
 
-    .line 8
     iget-object v2, p0, Lcom/commsource/sharelink/ShareDialog$b;->a:Lcom/commsource/sharelink/ShareDialog;
 
     invoke-virtual {v2}, Landroidx/fragment/app/Fragment;->getActivity()Landroidx/fragment/app/FragmentActivity;
 
     move-result-object v2
 
-    .line 9
     const-class v3, Lcom/commsource/advertisiting/ImageShareAdvertActivity;
 
-    .line 10
     invoke-direct {v1, v2, v3}, Landroid/content/Intent;-><init>(Landroid/content/Context;Ljava/lang/Class;)V
 
-    .line 11
     invoke-virtual {v0, v1}, Landroid/app/Activity;->startActivity(Landroid/content/Intent;)V
 
     goto :goto_1
 
-    .line 12
     :cond_1
     invoke-virtual {p2}, Lcom/commsource/sharelink/d;->h()Ljava/lang/String;
 
@@ -183,7 +170,6 @@
 
     if-eqz v0, :cond_3
 
-    .line 13
     iget-object v0, p0, Lcom/commsource/sharelink/ShareDialog$b;->a:Lcom/commsource/sharelink/ShareDialog;
 
     invoke-virtual {v0}, Lcom/commsource/sharelink/ShareDialog;->X()Lcom/commsource/sharelink/b;
@@ -198,12 +184,10 @@
 
     if-eqz v0, :cond_3
 
-    .line 14
     new-instance v1, Lcom/commsource/util/p2/c;
 
     invoke-direct {v1, v0}, Lcom/commsource/util/p2/c;-><init>(Landroidx/fragment/app/FragmentActivity;)V
 
-    .line 15
     new-instance v0, Lcom/commsource/sharelink/ShareDialog$b$a;
 
     iget-object v2, p0, Lcom/commsource/sharelink/ShareDialog$b;->a:Lcom/commsource/sharelink/ShareDialog;
@@ -225,7 +209,6 @@
 
     invoke-virtual {v1, v0}, Lcom/commsource/util/p2/c;->c(Lcom/commsource/util/p2/b;)V
 
-    .line 16
     :cond_3
     :goto_1
     iget-object v0, p0, Lcom/commsource/sharelink/ShareDialog$b;->a:Lcom/commsource/sharelink/ShareDialog;
@@ -249,7 +232,6 @@
     :cond_4
     const/4 p2, 0x0
 
-    .line 17
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p2

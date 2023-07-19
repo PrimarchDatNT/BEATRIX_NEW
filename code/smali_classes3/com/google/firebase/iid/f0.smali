@@ -19,10 +19,8 @@
 .method public constructor <init>(Lcom/google/firebase/iid/g0;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Landroid/content/BroadcastReceiver;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/google/firebase/iid/f0;->a:Lcom/google/firebase/iid/g0;
 
     return-void
@@ -33,7 +31,6 @@
 .method public final a()V
     .locals 2
 
-    .line 1
     invoke-static {}, Lcom/google/firebase/iid/FirebaseInstanceId;->B()Z
 
     move-result v0
@@ -44,10 +41,8 @@
 
     const-string v1, "Connectivity change received registered"
 
-    .line 2
     invoke-static {v0, v1}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 3
     :cond_0
     new-instance v0, Landroid/content/IntentFilter;
 
@@ -55,7 +50,6 @@
 
     invoke-direct {v0, v1}, Landroid/content/IntentFilter;-><init>(Ljava/lang/String;)V
 
-    .line 4
     iget-object v1, p0, Lcom/google/firebase/iid/f0;->a:Lcom/google/firebase/iid/g0;
 
     invoke-virtual {v1}, Lcom/google/firebase/iid/g0;->a()Landroid/content/Context;
@@ -70,14 +64,12 @@
 .method public final onReceive(Landroid/content/Context;Landroid/content/Intent;)V
     .locals 2
 
-    .line 1
     iget-object p1, p0, Lcom/google/firebase/iid/f0;->a:Lcom/google/firebase/iid/g0;
 
     if-nez p1, :cond_0
 
     return-void
 
-    .line 2
     :cond_0
     invoke-virtual {p1}, Lcom/google/firebase/iid/g0;->b()Z
 
@@ -87,7 +79,6 @@
 
     return-void
 
-    .line 3
     :cond_1
     invoke-static {}, Lcom/google/firebase/iid/FirebaseInstanceId;->B()Z
 
@@ -99,10 +90,8 @@
 
     const-string p2, "Connectivity changed. Starting background sync."
 
-    .line 4
     invoke-static {p1, p2}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 5
     :cond_2
     iget-object p1, p0, Lcom/google/firebase/iid/f0;->a:Lcom/google/firebase/iid/g0;
 
@@ -110,7 +99,6 @@
 
     invoke-static {p1, v0, v1}, Lcom/google/firebase/iid/FirebaseInstanceId;->s(Ljava/lang/Runnable;J)V
 
-    .line 6
     iget-object p1, p0, Lcom/google/firebase/iid/f0;->a:Lcom/google/firebase/iid/g0;
 
     invoke-virtual {p1}, Lcom/google/firebase/iid/g0;->a()Landroid/content/Context;
@@ -121,7 +109,6 @@
 
     const/4 p1, 0x0
 
-    .line 7
     iput-object p1, p0, Lcom/google/firebase/iid/f0;->a:Lcom/google/firebase/iid/g0;
 
     return-void

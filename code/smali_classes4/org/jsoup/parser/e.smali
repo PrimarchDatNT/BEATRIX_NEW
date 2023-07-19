@@ -15,20 +15,16 @@
 .method public constructor <init>(Lorg/jsoup/parser/i;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lorg/jsoup/parser/e;->a:Lorg/jsoup/parser/i;
 
-    .line 3
     invoke-virtual {p1}, Lorg/jsoup/parser/i;->b()Lorg/jsoup/parser/d;
 
     move-result-object p1
 
     iput-object p1, p0, Lorg/jsoup/parser/e;->c:Lorg/jsoup/parser/d;
 
-    .line 4
     invoke-static {}, Lorg/jsoup/parser/ParseErrorList;->noTracking()Lorg/jsoup/parser/ParseErrorList;
 
     move-result-object p1
@@ -41,7 +37,6 @@
 .method public static c()Lorg/jsoup/parser/e;
     .locals 2
 
-    .line 1
     new-instance v0, Lorg/jsoup/parser/e;
 
     new-instance v1, Lorg/jsoup/parser/b;
@@ -56,12 +51,10 @@
 .method public static e(Ljava/lang/String;Ljava/lang/String;)Lorg/jsoup/nodes/Document;
     .locals 2
 
-    .line 1
     new-instance v0, Lorg/jsoup/parser/b;
 
     invoke-direct {v0}, Lorg/jsoup/parser/b;-><init>()V
 
-    .line 2
     new-instance v1, Ljava/io/StringReader;
 
     invoke-direct {v1, p0}, Ljava/io/StringReader;-><init>(Ljava/lang/String;)V
@@ -80,17 +73,14 @@
 .method public static f(Ljava/lang/String;Ljava/lang/String;)Lorg/jsoup/nodes/Document;
     .locals 4
 
-    .line 1
     invoke-static {p1}, Lorg/jsoup/nodes/Document;->v2(Ljava/lang/String;)Lorg/jsoup/nodes/Document;
 
     move-result-object v0
 
-    .line 2
     invoke-virtual {v0}, Lorg/jsoup/nodes/Document;->q2()Lorg/jsoup/nodes/Element;
 
     move-result-object v1
 
-    .line 3
     invoke-static {p0, v1, p1}, Lorg/jsoup/parser/e;->g(Ljava/lang/String;Lorg/jsoup/nodes/Element;Ljava/lang/String;)Ljava/util/List;
 
     move-result-object p0
@@ -99,14 +89,12 @@
 
     new-array v2, p1, [Lorg/jsoup/nodes/j;
 
-    .line 4
     invoke-interface {p0, v2}, Ljava/util/List;->toArray([Ljava/lang/Object;)[Ljava/lang/Object;
 
     move-result-object p0
 
     check-cast p0, [Lorg/jsoup/nodes/j;
 
-    .line 5
     array-length v2, p0
 
     add-int/lit8 v2, v2, -0x1
@@ -114,7 +102,6 @@
     :goto_0
     if-lez v2, :cond_0
 
-    .line 6
     aget-object v3, p0, v2
 
     invoke-virtual {v3}, Lorg/jsoup/nodes/j;->R()V
@@ -123,7 +110,6 @@
 
     goto :goto_0
 
-    .line 7
     :cond_0
     array-length v2, p0
 
@@ -132,7 +118,6 @@
 
     aget-object v3, p0, p1
 
-    .line 8
     invoke-virtual {v1, v3}, Lorg/jsoup/nodes/Element;->o0(Lorg/jsoup/nodes/j;)Lorg/jsoup/nodes/Element;
 
     add-int/lit8 p1, p1, 0x1
@@ -158,12 +143,10 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lorg/jsoup/parser/b;
 
     invoke-direct {v0}, Lorg/jsoup/parser/b;-><init>()V
 
-    .line 2
     new-instance v1, Lorg/jsoup/parser/e;
 
     invoke-direct {v1, v0}, Lorg/jsoup/parser/e;-><init>(Lorg/jsoup/parser/i;)V
@@ -191,20 +174,16 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lorg/jsoup/parser/b;
 
     invoke-direct {v0}, Lorg/jsoup/parser/b;-><init>()V
 
-    .line 2
     new-instance v1, Lorg/jsoup/parser/e;
 
     invoke-direct {v1, v0}, Lorg/jsoup/parser/e;-><init>(Lorg/jsoup/parser/i;)V
 
-    .line 3
     iput-object p3, v1, Lorg/jsoup/parser/e;->b:Lorg/jsoup/parser/ParseErrorList;
 
-    .line 4
     invoke-virtual {v0, p0, p1, p2, v1}, Lorg/jsoup/parser/b;->f(Ljava/lang/String;Lorg/jsoup/nodes/Element;Ljava/lang/String;Lorg/jsoup/parser/e;)Ljava/util/List;
 
     move-result-object p0
@@ -226,12 +205,10 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lorg/jsoup/parser/j;
 
     invoke-direct {v0}, Lorg/jsoup/parser/j;-><init>()V
 
-    .line 2
     new-instance v1, Lorg/jsoup/parser/e;
 
     invoke-direct {v1, v0}, Lorg/jsoup/parser/e;-><init>(Lorg/jsoup/parser/i;)V
@@ -246,7 +223,6 @@
 .method public static q(Ljava/lang/String;Z)Ljava/lang/String;
     .locals 2
 
-    .line 1
     new-instance v0, Lorg/jsoup/parser/h;
 
     new-instance v1, Lorg/jsoup/parser/a;
@@ -259,7 +235,6 @@
 
     invoke-direct {v0, v1, p0}, Lorg/jsoup/parser/h;-><init>(Lorg/jsoup/parser/a;Lorg/jsoup/parser/ParseErrorList;)V
 
-    .line 2
     invoke-virtual {v0, p1}, Lorg/jsoup/parser/h;->z(Z)Ljava/lang/String;
 
     move-result-object p0
@@ -270,7 +245,6 @@
 .method public static r()Lorg/jsoup/parser/e;
     .locals 2
 
-    .line 1
     new-instance v0, Lorg/jsoup/parser/e;
 
     new-instance v1, Lorg/jsoup/parser/j;
@@ -287,7 +261,6 @@
 .method public a()Lorg/jsoup/parser/ParseErrorList;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lorg/jsoup/parser/e;->b:Lorg/jsoup/parser/ParseErrorList;
 
     return-object v0
@@ -296,7 +269,6 @@
 .method public b()Lorg/jsoup/parser/i;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lorg/jsoup/parser/e;->a:Lorg/jsoup/parser/i;
 
     return-object v0
@@ -305,7 +277,6 @@
 .method public d()Z
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lorg/jsoup/parser/e;->b:Lorg/jsoup/parser/ParseErrorList;
 
     invoke-virtual {v0}, Lorg/jsoup/parser/ParseErrorList;->getMaxSize()I
@@ -340,7 +311,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lorg/jsoup/parser/e;->a:Lorg/jsoup/parser/i;
 
     invoke-virtual {v0, p1, p2, p3, p0}, Lorg/jsoup/parser/i;->f(Ljava/lang/String;Lorg/jsoup/nodes/Element;Ljava/lang/String;Lorg/jsoup/parser/e;)Ljava/util/List;
@@ -353,7 +323,6 @@
 .method public j(Ljava/io/Reader;Ljava/lang/String;)Lorg/jsoup/nodes/Document;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lorg/jsoup/parser/e;->a:Lorg/jsoup/parser/i;
 
     invoke-virtual {v0, p1, p2, p0}, Lorg/jsoup/parser/i;->e(Ljava/io/Reader;Ljava/lang/String;Lorg/jsoup/parser/e;)Lorg/jsoup/nodes/Document;
@@ -366,7 +335,6 @@
 .method public k(Ljava/lang/String;Ljava/lang/String;)Lorg/jsoup/nodes/Document;
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lorg/jsoup/parser/e;->a:Lorg/jsoup/parser/i;
 
     new-instance v1, Ljava/io/StringReader;
@@ -385,7 +353,6 @@
 
     if-lez p1, :cond_0
 
-    .line 1
     invoke-static {p1}, Lorg/jsoup/parser/ParseErrorList;->tracking(I)Lorg/jsoup/parser/ParseErrorList;
 
     move-result-object p1
@@ -406,10 +373,8 @@
 .method public n(Lorg/jsoup/parser/i;)Lorg/jsoup/parser/e;
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lorg/jsoup/parser/e;->a:Lorg/jsoup/parser/i;
 
-    .line 2
     iput-object p0, p1, Lorg/jsoup/parser/i;->a:Lorg/jsoup/parser/e;
 
     return-object p0
@@ -418,7 +383,6 @@
 .method public o()Lorg/jsoup/parser/d;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lorg/jsoup/parser/e;->c:Lorg/jsoup/parser/d;
 
     return-object v0
@@ -427,7 +391,6 @@
 .method public p(Lorg/jsoup/parser/d;)Lorg/jsoup/parser/e;
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lorg/jsoup/parser/e;->c:Lorg/jsoup/parser/d;
 
     return-object p0

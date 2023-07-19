@@ -40,7 +40,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v7, Lorg/greenrobot/greendao/h;
 
     const-class v3, Ljava/lang/String;
@@ -59,7 +58,6 @@
 
     sput-object v7, Lcom/meitu/ipstore/storage/bean/dao/PartnerBeanDao$Properties;->Id:Lorg/greenrobot/greendao/h;
 
-    .line 2
     new-instance v1, Lorg/greenrobot/greendao/h;
 
     const-class v10, Ljava/lang/String;
@@ -78,7 +76,6 @@
 
     sput-object v1, Lcom/meitu/ipstore/storage/bean/dao/PartnerBeanDao$Properties;->Name:Lorg/greenrobot/greendao/h;
 
-    .line 3
     new-instance v1, Lorg/greenrobot/greendao/h;
 
     const-class v4, Ljava/lang/String;
@@ -97,7 +94,6 @@
 
     sput-object v1, Lcom/meitu/ipstore/storage/bean/dao/PartnerBeanDao$Properties;->Thumb:Lorg/greenrobot/greendao/h;
 
-    .line 4
     new-instance v1, Lorg/greenrobot/greendao/h;
 
     const-class v10, Ljava/lang/String;
@@ -114,7 +110,6 @@
 
     sput-object v1, Lcom/meitu/ipstore/storage/bean/dao/PartnerBeanDao$Properties;->Rights:Lorg/greenrobot/greendao/h;
 
-    .line 5
     new-instance v1, Lorg/greenrobot/greendao/h;
 
     const-class v4, Ljava/lang/String;
@@ -131,7 +126,6 @@
 
     sput-object v1, Lcom/meitu/ipstore/storage/bean/dao/PartnerBeanDao$Properties;->Test:Lorg/greenrobot/greendao/h;
 
-    .line 6
     new-instance v1, Lorg/greenrobot/greendao/h;
 
     const-class v10, Ljava/lang/String;
@@ -148,7 +142,6 @@
 
     sput-object v1, Lcom/meitu/ipstore/storage/bean/dao/PartnerBeanDao$Properties;->Test2:Lorg/greenrobot/greendao/h;
 
-    .line 7
     new-instance v1, Lorg/greenrobot/greendao/h;
 
     const-class v4, Ljava/lang/String;
@@ -165,7 +158,6 @@
 
     sput-object v1, Lcom/meitu/ipstore/storage/bean/dao/PartnerBeanDao$Properties;->Test3:Lorg/greenrobot/greendao/h;
 
-    .line 8
     new-instance v1, Lorg/greenrobot/greendao/h;
 
     const-class v10, Ljava/lang/String;
@@ -190,7 +182,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void

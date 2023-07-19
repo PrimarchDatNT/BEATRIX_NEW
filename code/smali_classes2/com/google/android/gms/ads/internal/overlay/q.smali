@@ -17,21 +17,16 @@
 .method public constructor <init>(Landroid/app/Activity;Lcom/google/android/gms/ads/internal/overlay/AdOverlayInfoParcel;)V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Lcom/google/android/gms/internal/ads/jf;-><init>()V
 
     const/4 v0, 0x0
 
-    .line 2
     iput-boolean v0, p0, Lcom/google/android/gms/ads/internal/overlay/q;->d:Z
 
-    .line 3
     iput-boolean v0, p0, Lcom/google/android/gms/ads/internal/overlay/q;->f:Z
 
-    .line 4
     iput-object p2, p0, Lcom/google/android/gms/ads/internal/overlay/q;->b:Lcom/google/android/gms/ads/internal/overlay/AdOverlayInfoParcel;
 
-    .line 5
     iput-object p1, p0, Lcom/google/android/gms/ads/internal/overlay/q;->c:Landroid/app/Activity;
 
     return-void
@@ -42,31 +37,26 @@
 
     monitor-enter p0
 
-    .line 1
     :try_start_0
     iget-boolean v0, p0, Lcom/google/android/gms/ads/internal/overlay/q;->f:Z
 
     if-nez v0, :cond_1
 
-    .line 2
     iget-object v0, p0, Lcom/google/android/gms/ads/internal/overlay/q;->b:Lcom/google/android/gms/ads/internal/overlay/AdOverlayInfoParcel;
 
     iget-object v0, v0, Lcom/google/android/gms/ads/internal/overlay/AdOverlayInfoParcel;->c:Lcom/google/android/gms/ads/internal/overlay/l;
 
     if-eqz v0, :cond_0
 
-    .line 3
     invoke-interface {v0}, Lcom/google/android/gms/ads/internal/overlay/l;->N()V
 
     :cond_0
     const/4 v0, 0x1
 
-    .line 4
     iput-boolean v0, p0, Lcom/google/android/gms/ads/internal/overlay/q;->f:Z
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 5
     :cond_1
     monitor-exit p0
 
@@ -126,7 +116,6 @@
 
     const-string v2, "com.google.android.gms.ads.internal.overlay.hasResumed"
 
-    .line 1
     invoke-virtual {p1, v2, v1}, Landroid/os/Bundle;->getBoolean(Ljava/lang/String;Z)Z
 
     move-result v2
@@ -135,13 +124,11 @@
 
     const/4 v1, 0x1
 
-    .line 2
     :cond_0
     iget-object v2, p0, Lcom/google/android/gms/ads/internal/overlay/q;->b:Lcom/google/android/gms/ads/internal/overlay/AdOverlayInfoParcel;
 
     if-nez v2, :cond_1
 
-    .line 3
     iget-object p1, p0, Lcom/google/android/gms/ads/internal/overlay/q;->c:Landroid/app/Activity;
 
     invoke-virtual {p1}, Landroid/app/Activity;->finish()V
@@ -151,7 +138,6 @@
     :cond_1
     if-eqz v1, :cond_2
 
-    .line 4
     iget-object p1, p0, Lcom/google/android/gms/ads/internal/overlay/q;->c:Landroid/app/Activity;
 
     invoke-virtual {p1}, Landroid/app/Activity;->finish()V
@@ -161,15 +147,12 @@
     :cond_2
     if-nez p1, :cond_4
 
-    .line 5
     iget-object p1, v2, Lcom/google/android/gms/ads/internal/overlay/AdOverlayInfoParcel;->b:Lcom/google/android/gms/internal/ads/sl2;
 
     if-eqz p1, :cond_3
 
-    .line 6
     invoke-interface {p1}, Lcom/google/android/gms/internal/ads/sl2;->onAdClicked()V
 
-    .line 7
     :cond_3
     iget-object p1, p0, Lcom/google/android/gms/ads/internal/overlay/q;->c:Landroid/app/Activity;
 
@@ -179,7 +162,6 @@
 
     if-eqz p1, :cond_4
 
-    .line 8
     iget-object p1, p0, Lcom/google/android/gms/ads/internal/overlay/q;->c:Landroid/app/Activity;
 
     invoke-virtual {p1}, Landroid/app/Activity;->getIntent()Landroid/content/Intent;
@@ -194,17 +176,14 @@
 
     if-eqz p1, :cond_4
 
-    .line 9
     iget-object p1, p0, Lcom/google/android/gms/ads/internal/overlay/q;->b:Lcom/google/android/gms/ads/internal/overlay/AdOverlayInfoParcel;
 
     iget-object p1, p1, Lcom/google/android/gms/ads/internal/overlay/AdOverlayInfoParcel;->c:Lcom/google/android/gms/ads/internal/overlay/l;
 
     if-eqz p1, :cond_4
 
-    .line 10
     invoke-interface {p1}, Lcom/google/android/gms/ads/internal/overlay/l;->J()V
 
-    .line 11
     :cond_4
     invoke-static {}, Lcom/google/android/gms/ads/internal/p;->a()Lcom/google/android/gms/ads/internal/overlay/b;
 
@@ -216,14 +195,12 @@
 
     iget-object v0, v0, Lcom/google/android/gms/ads/internal/overlay/AdOverlayInfoParcel;->K:Lcom/google/android/gms/ads/internal/overlay/p;
 
-    .line 12
     invoke-static {p1, v1, v0}, Lcom/google/android/gms/ads/internal/overlay/b;->b(Landroid/content/Context;Lcom/google/android/gms/ads/internal/overlay/zzd;Lcom/google/android/gms/ads/internal/overlay/p;)Z
 
     move-result p1
 
     if-nez p1, :cond_5
 
-    .line 13
     iget-object p1, p0, Lcom/google/android/gms/ads/internal/overlay/q;->c:Landroid/app/Activity;
 
     invoke-virtual {p1}, Landroid/app/Activity;->finish()V
@@ -240,7 +217,6 @@
         }
     .end annotation
 
-    .line 1
     iget-boolean v0, p0, Lcom/google/android/gms/ads/internal/overlay/q;->d:Z
 
     const-string v1, "com.google.android.gms.ads.internal.overlay.hasResumed"
@@ -280,7 +256,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/ads/internal/overlay/q;->c:Landroid/app/Activity;
 
     invoke-virtual {v0}, Landroid/app/Activity;->isFinishing()Z
@@ -289,7 +264,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-direct {p0}, Lcom/google/android/gms/ads/internal/overlay/q;->J5()V
 
     :cond_0
@@ -304,17 +278,14 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/ads/internal/overlay/q;->b:Lcom/google/android/gms/ads/internal/overlay/AdOverlayInfoParcel;
 
     iget-object v0, v0, Lcom/google/android/gms/ads/internal/overlay/AdOverlayInfoParcel;->c:Lcom/google/android/gms/ads/internal/overlay/l;
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-interface {v0}, Lcom/google/android/gms/ads/internal/overlay/l;->onPause()V
 
-    .line 3
     :cond_0
     iget-object v0, p0, Lcom/google/android/gms/ads/internal/overlay/q;->c:Landroid/app/Activity;
 
@@ -324,7 +295,6 @@
 
     if-eqz v0, :cond_1
 
-    .line 4
     invoke-direct {p0}, Lcom/google/android/gms/ads/internal/overlay/q;->J5()V
 
     :cond_1
@@ -339,12 +309,10 @@
         }
     .end annotation
 
-    .line 1
     iget-boolean v0, p0, Lcom/google/android/gms/ads/internal/overlay/q;->d:Z
 
     if-eqz v0, :cond_0
 
-    .line 2
     iget-object v0, p0, Lcom/google/android/gms/ads/internal/overlay/q;->c:Landroid/app/Activity;
 
     invoke-virtual {v0}, Landroid/app/Activity;->finish()V
@@ -354,17 +322,14 @@
     :cond_0
     const/4 v0, 0x1
 
-    .line 3
     iput-boolean v0, p0, Lcom/google/android/gms/ads/internal/overlay/q;->d:Z
 
-    .line 4
     iget-object v0, p0, Lcom/google/android/gms/ads/internal/overlay/q;->b:Lcom/google/android/gms/ads/internal/overlay/AdOverlayInfoParcel;
 
     iget-object v0, v0, Lcom/google/android/gms/ads/internal/overlay/AdOverlayInfoParcel;->c:Lcom/google/android/gms/ads/internal/overlay/l;
 
     if-eqz v0, :cond_1
 
-    .line 5
     invoke-interface {v0}, Lcom/google/android/gms/ads/internal/overlay/l;->onResume()V
 
     :cond_1
@@ -390,7 +355,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/ads/internal/overlay/q;->c:Landroid/app/Activity;
 
     invoke-virtual {v0}, Landroid/app/Activity;->isFinishing()Z
@@ -399,7 +363,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-direct {p0}, Lcom/google/android/gms/ads/internal/overlay/q;->J5()V
 
     :cond_0

@@ -35,7 +35,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/camera/xcamera/BpCameraViewModel$d;->a:Lcom/commsource/camera/xcamera/BpCameraViewModel;
 
     iput-object p2, p0, Lcom/commsource/camera/xcamera/BpCameraViewModel$d;->b:Lcom/meitu/template/bean/ArMaterial;
@@ -54,7 +53,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -67,31 +65,26 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/BpCameraViewModel$d;->a:Lcom/commsource/camera/xcamera/BpCameraViewModel;
 
     invoke-virtual {v1}, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;->T()Lcom/commsource/camera/xcamera/util/ArPerformanceRecorder;
 
     move-result-object v1
 
-    .line 2
     iget-object v2, p0, Lcom/commsource/camera/xcamera/BpCameraViewModel$d;->b:Lcom/meitu/template/bean/ArMaterial;
 
     invoke-virtual {v2}, Lcom/meitu/template/bean/ArMaterial;->getNumber()I
 
     move-result v2
 
-    .line 3
     iget-object v3, p0, Lcom/commsource/camera/xcamera/BpCameraViewModel$d;->b:Lcom/meitu/template/bean/ArMaterial;
 
     invoke-virtual {v3}, Lcom/meitu/template/bean/ArMaterial;->getFileUrl()Ljava/lang/String;
 
     move-result-object v3
 
-    .line 4
     invoke-virtual {v1, v2, p1, p2, v3}, Lcom/commsource/camera/xcamera/util/ArPerformanceRecorder;->n(IJLjava/lang/String;)V
 
-    .line 5
     iget-object v1, p0, Lcom/commsource/camera/xcamera/BpCameraViewModel$d;->a:Lcom/commsource/camera/xcamera/BpCameraViewModel;
 
     invoke-virtual {v1}, Lcom/commsource/camera/xcamera/BpCameraViewModel;->M1()Landroidx/lifecycle/MutableLiveData;
@@ -104,7 +97,6 @@
 
     invoke-virtual {v1, p1}, Landroidx/lifecycle/MutableLiveData;->postValue(Ljava/lang/Object;)V
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

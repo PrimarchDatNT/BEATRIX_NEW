@@ -36,20 +36,16 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/commsource/studio/layer/c;-><init>(Landroid/content/Context;)V
 
-    .line 2
     new-instance p1, Lcom/commsource/studio/layer/o;
 
     invoke-direct {p1, p0}, Lcom/commsource/studio/layer/o;-><init>(Lcom/commsource/studio/layer/c;)V
 
     const/4 v0, 0x0
 
-    .line 3
     invoke-virtual {p1, v0}, Lcom/commsource/studio/layer/l;->e(Z)V
 
-    .line 4
     iput-object p1, p0, Lcom/commsource/studio/layer/ScrawlLayer;->S:Lcom/commsource/studio/layer/o;
 
     return-void
@@ -62,7 +58,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean p0, p0, Lcom/commsource/studio/layer/ScrawlLayer;->U:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -77,7 +72,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/studio/layer/ScrawlLayer;->T:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -92,7 +86,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/studio/layer/ScrawlLayer;->U:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -107,7 +100,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/studio/layer/ScrawlLayer;->E0()V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -126,7 +118,6 @@
 
     new-array v1, v1, [F
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/studio/layer/BaseLayer;->F()Landroid/view/View;
 
     move-result-object v2
@@ -161,10 +152,8 @@
 
     aput v2, v1, v3
 
-    .line 2
     invoke-virtual {p0, v1}, Lcom/commsource/studio/layer/BaseLayer;->U([F)V
 
-    .line 3
     iget-object v2, p0, Lcom/commsource/studio/layer/ScrawlLayer;->S:Lcom/commsource/studio/layer/o;
 
     invoke-virtual {v2}, Lcom/commsource/studio/layer/o;->k()Landroid/graphics/PointF;
@@ -177,14 +166,12 @@
 
     invoke-virtual {v2, v4, v1}, Landroid/graphics/PointF;->set(FF)V
 
-    .line 4
     invoke-virtual {p0}, Lcom/commsource/studio/layer/BaseLayer;->F()Landroid/view/View;
 
     move-result-object v1
 
     invoke-virtual {v1}, Landroid/view/View;->invalidate()V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -197,7 +184,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/studio/layer/ScrawlLayer;->S:Lcom/commsource/studio/layer/o;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -212,7 +198,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean p0, p0, Lcom/commsource/studio/layer/ScrawlLayer;->T:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -231,7 +216,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/commsource/studio/layer/ScrawlLayer$DrawPathView;
 
     invoke-virtual {p0}, Lcom/commsource/studio/layer/BaseLayer;->A()Landroid/content/Context;
@@ -260,7 +244,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/studio/layer/ScrawlLayer;->T:Z
 
     if-nez v1, :cond_0
@@ -269,13 +252,11 @@
 
     if-eqz v1, :cond_1
 
-    .line 2
     :cond_0
     iget-object v1, p0, Lcom/commsource/studio/layer/ScrawlLayer;->S:Lcom/commsource/studio/layer/o;
 
     invoke-virtual {v1, p1}, Lcom/commsource/studio/layer/l;->d(Landroid/graphics/Canvas;)V
 
-    .line 3
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -305,10 +286,8 @@
 
     invoke-static {p2, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-super {p0, p1, p2}, Lcom/commsource/studio/layer/c;->p(Landroidx/lifecycle/ViewModelStoreOwner;Landroidx/lifecycle/LifecycleOwner;)V
 
-    .line 2
     const-class p1, Lcom/commsource/studio/component/PaintSelectComponent$b;
 
     invoke-virtual {p0, p1}, Lcom/commsource/studio/layer/d;->e(Ljava/lang/Class;)Landroidx/lifecycle/AndroidViewModel;
@@ -317,7 +296,6 @@
 
     check-cast p1, Lcom/commsource/studio/component/PaintSelectComponent$b;
 
-    .line 3
     invoke-virtual {p1}, Lcom/commsource/studio/component/PaintSelectComponent$b;->z()Landroidx/lifecycle/MutableLiveData;
 
     move-result-object v1
@@ -328,7 +306,6 @@
 
     invoke-virtual {v1, p2, v2}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 4
     invoke-virtual {p1}, Lcom/commsource/studio/component/PaintSelectComponent$b;->A()Landroidx/lifecycle/MutableLiveData;
 
     move-result-object p1
@@ -339,7 +316,6 @@
 
     invoke-virtual {p1, p2, v1}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 5
     const-class p1, Lcom/commsource/studio/component/e;
 
     invoke-virtual {p0, p1}, Lcom/commsource/studio/layer/d;->e(Ljava/lang/Class;)Landroidx/lifecycle/AndroidViewModel;
@@ -348,7 +324,6 @@
 
     check-cast p1, Lcom/commsource/studio/component/e;
 
-    .line 6
     invoke-virtual {p1}, Lcom/commsource/studio/component/e;->y()Landroidx/lifecycle/MutableLiveData;
 
     move-result-object p1
@@ -359,7 +334,6 @@
 
     invoke-virtual {p1, p2, v1}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 7
     const-class p1, Lcom/commsource/studio/MagnifyComponent$a;
 
     invoke-virtual {p0, p1}, Lcom/commsource/studio/layer/d;->e(Ljava/lang/Class;)Landroidx/lifecycle/AndroidViewModel;
@@ -370,7 +344,6 @@
 
     invoke-virtual {p1, p0}, Lcom/commsource/studio/MagnifyComponent$a;->y(Lcom/commsource/studio/p0;)V
 
-    .line 8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

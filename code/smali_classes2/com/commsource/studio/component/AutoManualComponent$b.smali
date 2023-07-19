@@ -49,10 +49,8 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-direct {p0, p1}, Landroidx/lifecycle/AndroidViewModel;-><init>(Landroid/app/Application;)V
 
-    .line 2
     new-instance p1, Landroidx/lifecycle/MutableLiveData;
 
     invoke-direct {p1}, Landroidx/lifecycle/MutableLiveData;-><init>()V
@@ -71,7 +69,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/studio/component/AutoManualComponent$b;->c:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -90,7 +87,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/component/AutoManualComponent$b;->a:Ljava/lang/Boolean;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -107,20 +103,16 @@
 
     invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/studio/component/AutoManualComponent$b;->c:Z
 
-    .line 2
     iget-object p1, p0, Lcom/commsource/studio/component/AutoManualComponent$b;->a:Ljava/lang/Boolean;
 
     if-nez p1, :cond_0
 
-    .line 3
     iput-object v0, p0, Lcom/commsource/studio/component/AutoManualComponent$b;->a:Ljava/lang/Boolean;
 
     goto :goto_0
 
-    .line 4
     :cond_0
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
@@ -128,12 +120,10 @@
 
     if-eqz p1, :cond_1
 
-    .line 5
     sget-object p1, Ljava/lang/Boolean;->FALSE:Ljava/lang/Boolean;
 
     iput-object p1, p0, Lcom/commsource/studio/component/AutoManualComponent$b;->a:Ljava/lang/Boolean;
 
-    .line 6
     :cond_1
     :goto_0
     iget-object p1, p0, Lcom/commsource/studio/component/AutoManualComponent$b;->b:Landroidx/lifecycle/MutableLiveData;
@@ -146,7 +136,6 @@
 
     invoke-virtual {p1, v0}, Landroidx/lifecycle/MutableLiveData;->setValue(Ljava/lang/Object;)V
 
-    .line 7
     invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -170,7 +159,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/component/AutoManualComponent$b;->b:Landroidx/lifecycle/MutableLiveData;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -187,7 +175,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/component/AutoManualComponent$b;->a:Ljava/lang/Boolean;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

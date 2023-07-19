@@ -19,7 +19,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/commsource/util/s1;
 
     invoke-direct {v1}, Lcom/commsource/util/s1;-><init>()V
@@ -34,7 +33,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -52,17 +50,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p1}, Ljava/io/InputStream;->read()I
 
     move-result v1
 
-    .line 2
     invoke-virtual {p1}, Ljava/io/InputStream;->read()I
 
     move-result v2
 
-    .line 3
     invoke-virtual {p1}, Ljava/io/InputStream;->read()I
 
     move-result v3
@@ -85,12 +80,10 @@
 
     const-wide/16 v1, 0x3
 
-    .line 4
     invoke-virtual {p1, v1, v2}, Ljava/io/InputStream;->skip(J)J
 
     const/4 v1, 0x0
 
-    .line 5
     invoke-direct {p0, p1, v7, v1}, Lcom/commsource/util/s1;->d(Ljava/io/InputStream;IZ)I
 
     move-result v2
@@ -99,7 +92,6 @@
 
     move-result-object v2
 
-    .line 6
     invoke-direct {p0, p1, v7, v1}, Lcom/commsource/util/s1;->d(Ljava/io/InputStream;IZ)I
 
     move-result p1
@@ -124,12 +116,10 @@
     :goto_0
     if-ne v3, v9, :cond_5
 
-    .line 7
     invoke-virtual {p1}, Ljava/io/InputStream;->read()I
 
     move-result v1
 
-    .line 8
     invoke-direct {p0, p1, v7, v8}, Lcom/commsource/util/s1;->d(Ljava/io/InputStream;IZ)I
 
     move-result v2
@@ -153,10 +143,8 @@
 
     int-to-long v1, v2
 
-    .line 9
     invoke-virtual {p1, v1, v2}, Ljava/io/InputStream;->skip(J)J
 
-    .line 10
     invoke-virtual {p1}, Ljava/io/InputStream;->read()I
 
     move-result v3
@@ -167,10 +155,8 @@
     :goto_1
     const-wide/16 v1, 0x1
 
-    .line 11
     invoke-virtual {p1, v1, v2}, Ljava/io/InputStream;->skip(J)J
 
-    .line 12
     invoke-direct {p0, p1, v7, v8}, Lcom/commsource/util/s1;->d(Ljava/io/InputStream;IZ)I
 
     move-result v1
@@ -179,7 +165,6 @@
 
     move-result-object v1
 
-    .line 13
     invoke-direct {p0, p1, v7, v8}, Lcom/commsource/util/s1;->d(Ljava/io/InputStream;IZ)I
 
     move-result p1
@@ -207,10 +192,8 @@
 
     const-wide/16 v1, 0xf
 
-    .line 14
     invoke-virtual {p1, v1, v2}, Ljava/io/InputStream;->skip(J)J
 
-    .line 15
     invoke-direct {p0, p1, v7, v8}, Lcom/commsource/util/s1;->d(Ljava/io/InputStream;IZ)I
 
     move-result v1
@@ -221,10 +204,8 @@
 
     const-wide/16 v3, 0x2
 
-    .line 16
     invoke-virtual {p1, v3, v4}, Ljava/io/InputStream;->skip(J)J
 
-    .line 17
     invoke-direct {p0, p1, v7, v8}, Lcom/commsource/util/s1;->d(Ljava/io/InputStream;IZ)I
 
     move-result p1
@@ -248,12 +229,10 @@
 
     new-array v1, v1, [B
 
-    .line 18
     invoke-virtual {p1, v1}, Ljava/io/InputStream;->read([B)I
 
     const/16 p1, 0x18
 
-    .line 19
     aget-byte p1, v1, p1
 
     and-int/2addr p1, v9
@@ -274,7 +253,6 @@
 
     const/16 p1, 0x1a
 
-    .line 20
     aget-byte p1, v1, p1
 
     and-int/2addr p1, v9
@@ -305,7 +283,6 @@
 
     if-eqz p1, :cond_6
 
-    .line 21
     invoke-virtual {v2}, Ljava/lang/Integer;->intValue()I
 
     move-result v1
@@ -334,7 +311,6 @@
 
     invoke-virtual {v2, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 22
     invoke-virtual {p1}, Ljava/lang/Integer;->intValue()I
 
     move-result p1
@@ -349,7 +325,6 @@
 
     move-result-object v6
 
-    .line 23
     :cond_6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -394,7 +369,6 @@
     :goto_1
     if-ge v2, p2, :cond_2
 
-    .line 1
     invoke-virtual {p1}, Ljava/io/InputStream;->read()I
 
     move-result v4
@@ -409,7 +383,6 @@
 
     goto :goto_1
 
-    .line 2
     :cond_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -435,7 +408,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     new-instance v1, Ljava/io/FileInputStream;
 
     new-instance v2, Ljava/io/File;
@@ -444,7 +416,6 @@
 
     invoke-direct {v1, v2}, Ljava/io/FileInputStream;-><init>(Ljava/io/File;)V
 
-    .line 2
     :try_start_0
     sget-object p1, Lcom/commsource/util/s1;->a:Lcom/commsource/util/s1;
 
@@ -452,17 +423,14 @@
 
     move-result-object p1
 
-    .line 3
     sget-object v2, Lcotlin/t1;->a:Lcotlin/t1;
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
     const/4 v2, 0x0
 
-    .line 4
     invoke-static {v1, v2}, Lcotlin/io/b;->a(Ljava/io/Closeable;Ljava/lang/Throwable;)V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p1
@@ -470,7 +438,6 @@
     :catchall_0
     move-exception p1
 
-    .line 6
     :try_start_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -513,7 +480,6 @@
 
     const/4 v4, 0x0
 
-    .line 1
     :try_start_0
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
@@ -523,7 +489,6 @@
 
     move-result-object v5
 
-    .line 2
     invoke-virtual {v5, p1}, Lcom/meitu/media/tools/editor/f;->open(Ljava/lang/String;)Z
 
     move-result v6
@@ -532,7 +497,6 @@
 
     const-string v6, "videoEditor"
 
-    .line 3
     invoke-static {v5, v6}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v5}, Lcom/meitu/media/tools/editor/f;->getVideoWidth()I
@@ -580,12 +544,10 @@
     :cond_0
     move-object v6, v4
 
-    .line 4
     :goto_0
     :try_start_1
     invoke-virtual {v5}, Lcom/meitu/media/tools/editor/f;->close()V
 
-    .line 5
     new-instance v5, Ljava/lang/StringBuilder;
 
     invoke-direct {v5}, Ljava/lang/StringBuilder;-><init>()V
@@ -615,7 +577,6 @@
     :catchall_0
     move-object v6, v4
 
-    .line 6
     :catchall_1
     new-instance v5, Ljava/lang/StringBuilder;
 
@@ -637,7 +598,6 @@
 
     invoke-static {p1, v0, v4, v3, v4}, Lcom/commsource/util/l0;->L(Ljava/lang/String;Ljava/lang/String;Lcom/meitu/library/util/Debug/Debug$DebugLevel;ILjava/lang/Object;)V
 
-    .line 7
     :goto_1
     invoke-static {v2}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

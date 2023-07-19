@@ -102,28 +102,22 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const-wide/32 v0, 0x493e0
 
-    .line 2
     iput-wide v0, p0, Lcom/mopub/common/privacy/PersonalInfoManager;->mSyncDelayMs:J
 
-    .line 3
     invoke-static {p1}, Lcom/mopub/common/Preconditions;->checkNotNull(Ljava/lang/Object;)V
 
-    .line 4
     invoke-static {p2}, Lcom/mopub/common/Preconditions;->checkNotNull(Ljava/lang/Object;)V
 
-    .line 5
     invoke-virtual {p1}, Landroid/content/Context;->getApplicationContext()Landroid/content/Context;
 
     move-result-object p1
 
     iput-object p1, p0, Lcom/mopub/common/privacy/PersonalInfoManager;->mAppContext:Landroid/content/Context;
 
-    .line 6
     new-instance v0, Ljava/util/HashSet;
 
     invoke-direct {v0}, Ljava/util/HashSet;-><init>()V
@@ -134,7 +128,6 @@
 
     iput-object v0, p0, Lcom/mopub/common/privacy/PersonalInfoManager;->mConsentStatusChangeListeners:Ljava/util/Set;
 
-    .line 7
     new-instance v0, Lcom/mopub/common/privacy/PersonalInfoManager$PersonalInfoSyncRequestListener;
 
     const/4 v1, 0x0
@@ -143,38 +136,32 @@
 
     iput-object v0, p0, Lcom/mopub/common/privacy/PersonalInfoManager;->mSyncRequestListener:Lcom/mopub/common/privacy/SyncRequest$Listener;
 
-    .line 8
     new-instance v0, Lcom/mopub/common/privacy/PersonalInfoManager$PersonalInfoServerOverrideListener;
 
     invoke-direct {v0, p0, v1}, Lcom/mopub/common/privacy/PersonalInfoManager$PersonalInfoServerOverrideListener;-><init>(Lcom/mopub/common/privacy/PersonalInfoManager;Lcom/mopub/common/privacy/PersonalInfoManager$1;)V
 
     iput-object v0, p0, Lcom/mopub/common/privacy/PersonalInfoManager;->mServerOverrideListener:Lcom/mopub/network/MultiAdResponse$ServerOverrideListener;
 
-    .line 9
     invoke-static {v0}, Lcom/mopub/network/MultiAdResponse;->setServerOverrideListener(Lcom/mopub/network/MultiAdResponse$ServerOverrideListener;)V
 
-    .line 10
     new-instance v0, Lcom/mopub/common/privacy/ConsentDialogController;
 
     invoke-direct {v0, p1}, Lcom/mopub/common/privacy/ConsentDialogController;-><init>(Landroid/content/Context;)V
 
     iput-object v0, p0, Lcom/mopub/common/privacy/PersonalInfoManager;->mConsentDialogController:Lcom/mopub/common/privacy/ConsentDialogController;
 
-    .line 11
     new-instance v0, Lcom/mopub/common/privacy/PersonalInfoData;
 
     invoke-direct {v0, p1}, Lcom/mopub/common/privacy/PersonalInfoData;-><init>(Landroid/content/Context;)V
 
     iput-object v0, p0, Lcom/mopub/common/privacy/PersonalInfoManager;->mPersonalInfoData:Lcom/mopub/common/privacy/PersonalInfoData;
 
-    .line 12
     invoke-static {p2}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v1
 
     if-nez v1, :cond_0
 
-    .line 13
     invoke-virtual {v0}, Lcom/mopub/common/privacy/PersonalInfoData;->getCachedLastAdUnitIdUsedForInit()Ljava/lang/String;
 
     move-result-object v1
@@ -187,16 +174,12 @@
 
     const-string v1, ""
 
-    .line 14
     invoke-virtual {v0, v1}, Lcom/mopub/common/privacy/PersonalInfoData;->setAdUnit(Ljava/lang/String;)V
 
-    .line 15
     invoke-virtual {v0, p2}, Lcom/mopub/common/privacy/PersonalInfoData;->setCachedLastAdUnitIdUsedForInit(Ljava/lang/String;)V
 
-    .line 16
     invoke-virtual {v0}, Lcom/mopub/common/privacy/PersonalInfoData;->writeToDisk()V
 
-    .line 17
     :cond_0
     new-instance p2, Lcom/mopub/mobileads/MoPubConversionTracker;
 
@@ -204,28 +187,22 @@
 
     iput-object p2, p0, Lcom/mopub/common/privacy/PersonalInfoManager;->mConversionTracker:Lcom/mopub/mobileads/MoPubConversionTracker;
 
-    .line 18
     new-instance p2, Lcom/mopub/common/privacy/PersonalInfoManager$1;
 
     invoke-direct {p2, p0}, Lcom/mopub/common/privacy/PersonalInfoManager$1;-><init>(Lcom/mopub/common/privacy/PersonalInfoManager;)V
 
-    .line 19
     iput-object p3, p0, Lcom/mopub/common/privacy/PersonalInfoManager;->mSdkInitializationListener:Lcom/mopub/common/SdkInitializationListener;
 
-    .line 20
     invoke-static {p1}, Lcom/mopub/common/ClientMetadata;->getInstance(Landroid/content/Context;)Lcom/mopub/common/ClientMetadata;
 
     move-result-object p1
 
-    .line 21
     invoke-virtual {p1}, Lcom/mopub/common/ClientMetadata;->getMoPubIdentifier()Lcom/mopub/common/privacy/MoPubIdentifier;
 
     move-result-object p1
 
-    .line 22
     invoke-virtual {p1, p2}, Lcom/mopub/common/privacy/MoPubIdentifier;->setIdChangeListener(Lcom/mopub/common/privacy/MoPubIdentifier$AdvertisingIdChangeListener;)V
 
-    .line 23
     invoke-direct {p0}, Lcom/mopub/common/privacy/PersonalInfoManager;->createInitializationListener()Lcom/mopub/common/SdkInitializationListener;
 
     move-result-object p2
@@ -238,7 +215,6 @@
 .method static synthetic access$1000(Lcom/mopub/common/privacy/PersonalInfoManager;Lcom/mopub/common/privacy/ConsentStatus;Lcom/mopub/common/privacy/ConsentStatus;Z)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1, p2, p3}, Lcom/mopub/common/privacy/PersonalInfoManager;->fireOnConsentStateChangeListeners(Lcom/mopub/common/privacy/ConsentStatus;Lcom/mopub/common/privacy/ConsentStatus;Z)V
 
     return-void
@@ -247,7 +223,6 @@
 .method static synthetic access$1100(Lcom/mopub/common/privacy/PersonalInfoManager;)Lcom/mopub/common/privacy/ConsentStatus;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lcom/mopub/common/privacy/PersonalInfoManager;->mSyncRequestConsentStatus:Lcom/mopub/common/privacy/ConsentStatus;
 
     return-object p0
@@ -256,7 +231,6 @@
 .method static synthetic access$1200(Lcom/mopub/common/privacy/PersonalInfoManager;)Lcom/mopub/network/MultiAdResponse$ServerOverrideListener;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lcom/mopub/common/privacy/PersonalInfoManager;->mServerOverrideListener:Lcom/mopub/network/MultiAdResponse$ServerOverrideListener;
 
     return-object p0
@@ -265,7 +239,6 @@
 .method static synthetic access$1300(Lcom/mopub/common/privacy/PersonalInfoManager;)Z
     .locals 0
 
-    .line 1
     iget-boolean p0, p0, Lcom/mopub/common/privacy/PersonalInfoManager;->mForceGdprAppliesChangedSending:Z
 
     return p0
@@ -274,7 +247,6 @@
 .method static synthetic access$1302(Lcom/mopub/common/privacy/PersonalInfoManager;Z)Z
     .locals 0
 
-    .line 1
     iput-boolean p1, p0, Lcom/mopub/common/privacy/PersonalInfoManager;->mForceGdprAppliesChangedSending:Z
 
     return p1
@@ -283,7 +255,6 @@
 .method static synthetic access$200(Lcom/mopub/common/privacy/PersonalInfoManager;Lcom/mopub/common/privacy/ConsentStatus;Lcom/mopub/common/privacy/ConsentChangeReason;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1, p2}, Lcom/mopub/common/privacy/PersonalInfoManager;->attemptStateTransition(Lcom/mopub/common/privacy/ConsentStatus;Lcom/mopub/common/privacy/ConsentChangeReason;)V
 
     return-void
@@ -292,7 +263,6 @@
 .method static synthetic access$300(Lcom/mopub/common/privacy/PersonalInfoManager;)Lcom/mopub/common/privacy/PersonalInfoData;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lcom/mopub/common/privacy/PersonalInfoManager;->mPersonalInfoData:Lcom/mopub/common/privacy/PersonalInfoData;
 
     return-object p0
@@ -301,7 +271,6 @@
 .method static synthetic access$400(Lcom/mopub/common/privacy/PersonalInfoManager;)Landroid/content/Context;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lcom/mopub/common/privacy/PersonalInfoManager;->mAppContext:Landroid/content/Context;
 
     return-object p0
@@ -310,7 +279,6 @@
 .method static synthetic access$500(Lcom/mopub/common/privacy/PersonalInfoManager;)Z
     .locals 0
 
-    .line 1
     iget-boolean p0, p0, Lcom/mopub/common/privacy/PersonalInfoManager;->mSyncRequestInFlight:Z
 
     return p0
@@ -319,7 +287,6 @@
 .method static synthetic access$502(Lcom/mopub/common/privacy/PersonalInfoManager;Z)Z
     .locals 0
 
-    .line 1
     iput-boolean p1, p0, Lcom/mopub/common/privacy/PersonalInfoManager;->mSyncRequestInFlight:Z
 
     return p1
@@ -328,7 +295,6 @@
 .method static synthetic access$600(Lcom/mopub/common/privacy/PersonalInfoManager;)Ljava/lang/Long;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lcom/mopub/common/privacy/PersonalInfoManager;->mLastSyncRequestTimeUptimeMs:Ljava/lang/Long;
 
     return-object p0
@@ -337,7 +303,6 @@
 .method static synthetic access$700(Lcom/mopub/common/privacy/PersonalInfoManager;)J
     .locals 2
 
-    .line 1
     iget-wide v0, p0, Lcom/mopub/common/privacy/PersonalInfoManager;->mSyncDelayMs:J
 
     return-wide v0
@@ -346,7 +311,6 @@
 .method static synthetic access$702(Lcom/mopub/common/privacy/PersonalInfoManager;J)J
     .locals 0
 
-    .line 1
     iput-wide p1, p0, Lcom/mopub/common/privacy/PersonalInfoManager;->mSyncDelayMs:J
 
     return-wide p1
@@ -355,7 +319,6 @@
 .method static synthetic access$800(Lcom/mopub/common/privacy/PersonalInfoManager;)Lcom/mopub/common/SdkInitializationListener;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lcom/mopub/common/privacy/PersonalInfoManager;->mSdkInitializationListener:Lcom/mopub/common/SdkInitializationListener;
 
     return-object p0
@@ -364,7 +327,6 @@
 .method static synthetic access$802(Lcom/mopub/common/privacy/PersonalInfoManager;Lcom/mopub/common/SdkInitializationListener;)Lcom/mopub/common/SdkInitializationListener;
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/mopub/common/privacy/PersonalInfoManager;->mSdkInitializationListener:Lcom/mopub/common/SdkInitializationListener;
 
     return-object p1
@@ -373,7 +335,6 @@
 .method static synthetic access$902(Lcom/mopub/common/privacy/PersonalInfoManager;Z)Z
     .locals 0
 
-    .line 1
     iput-boolean p1, p0, Lcom/mopub/common/privacy/PersonalInfoManager;->mForceGdprAppliesChanged:Z
 
     return p1
@@ -390,7 +351,6 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-virtual {p2}, Lcom/mopub/common/privacy/ConsentChangeReason;->getReason()Ljava/lang/String;
 
     move-result-object p2
@@ -403,7 +363,6 @@
 .method private createInitializationListener()Lcom/mopub/common/SdkInitializationListener;
     .locals 1
 
-    .line 1
     new-instance v0, Lcom/mopub/common/privacy/PersonalInfoManager$5;
 
     invoke-direct {v0, p0}, Lcom/mopub/common/privacy/PersonalInfoManager$5;-><init>(Lcom/mopub/common/privacy/PersonalInfoManager;)V
@@ -422,12 +381,10 @@
         .end annotation
     .end param
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/common/privacy/PersonalInfoManager;->mConsentStatusChangeListeners:Ljava/util/Set;
 
     monitor-enter v0
 
-    .line 2
     :try_start_0
     iget-object v1, p0, Lcom/mopub/common/privacy/PersonalInfoManager;->mConsentStatusChangeListeners:Ljava/util/Set;
 
@@ -450,7 +407,6 @@
 
     check-cast v5, Lcom/mopub/common/privacy/ConsentStatusChangeListener;
 
-    .line 3
     new-instance v2, Landroid/os/Handler;
 
     invoke-static {}, Landroid/os/Looper;->getMainLooper()Landroid/os/Looper;
@@ -477,7 +433,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_0
     monitor-exit v0
 
@@ -523,7 +478,6 @@
 
     return p0
 
-    .line 1
     :cond_1
     invoke-virtual {p1}, Ljava/lang/Boolean;->booleanValue()Z
 
@@ -541,7 +495,6 @@
     :cond_3
     if-eqz p7, :cond_4
 
-    .line 2
     invoke-static {p6}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result p1
@@ -555,7 +508,6 @@
 
     return p0
 
-    .line 3
     :cond_5
     invoke-static {}, Landroid/os/SystemClock;->uptimeMillis()J
 
@@ -588,7 +540,6 @@
         .end annotation
     .end param
 
-    .line 1
     sget-object v0, Lcom/mopub/common/privacy/ConsentStatus;->EXPLICIT_NO:Lcom/mopub/common/privacy/ConsentStatus;
 
     invoke-virtual {v0, p1}, Ljava/lang/Enum;->equals(Ljava/lang/Object;)Z
@@ -601,7 +552,6 @@
 
     return v1
 
-    .line 2
     :cond_0
     sget-object v0, Lcom/mopub/common/privacy/ConsentStatus;->POTENTIAL_WHITELIST:Lcom/mopub/common/privacy/ConsentStatus;
 
@@ -613,7 +563,6 @@
 
     return v1
 
-    .line 3
     :cond_1
     invoke-virtual {v0, p0}, Ljava/lang/Enum;->equals(Ljava/lang/Object;)Z
 
@@ -623,7 +572,6 @@
 
     sget-object p0, Lcom/mopub/common/privacy/ConsentStatus;->EXPLICIT_YES:Lcom/mopub/common/privacy/ConsentStatus;
 
-    .line 4
     invoke-virtual {p0, p1}, Ljava/lang/Enum;->equals(Ljava/lang/Object;)Z
 
     move-result p0
@@ -653,20 +601,16 @@
     .annotation build Lcom/mopub/common/VisibleForTesting;
     .end annotation
 
-    .line 2
     invoke-static {p1}, Lcom/mopub/common/Preconditions;->checkNotNull(Ljava/lang/Object;)V
 
-    .line 3
     invoke-static {p2}, Lcom/mopub/common/Preconditions;->checkNotNull(Ljava/lang/Object;)V
 
-    .line 4
     iget-object v0, p0, Lcom/mopub/common/privacy/PersonalInfoManager;->mPersonalInfoData:Lcom/mopub/common/privacy/PersonalInfoData;
 
     invoke-virtual {v0}, Lcom/mopub/common/privacy/PersonalInfoData;->getConsentStatus()Lcom/mopub/common/privacy/ConsentStatus;
 
     move-result-object v0
 
-    .line 5
     iget-object v1, p0, Lcom/mopub/common/privacy/PersonalInfoManager;->mPersonalInfoData:Lcom/mopub/common/privacy/PersonalInfoData;
 
     invoke-virtual {v1}, Lcom/mopub/common/privacy/PersonalInfoData;->shouldReacquireConsent()Z
@@ -685,7 +629,6 @@
 
     if-eqz v1, :cond_0
 
-    .line 6
     sget-object p1, Lcom/mopub/common/logging/MoPubLog$ConsentLogEvent;->CUSTOM:Lcom/mopub/common/logging/MoPubLog$ConsentLogEvent;
 
     new-array p2, v2, [Ljava/lang/Object;
@@ -714,7 +657,6 @@
 
     return-void
 
-    .line 7
     :cond_0
     iget-object v1, p0, Lcom/mopub/common/privacy/PersonalInfoManager;->mPersonalInfoData:Lcom/mopub/common/privacy/PersonalInfoData;
 
@@ -742,57 +684,44 @@
 
     invoke-virtual {v1, v4}, Lcom/mopub/common/privacy/PersonalInfoData;->setLastChangedMs(Ljava/lang/String;)V
 
-    .line 8
     iget-object v1, p0, Lcom/mopub/common/privacy/PersonalInfoManager;->mPersonalInfoData:Lcom/mopub/common/privacy/PersonalInfoData;
 
     invoke-virtual {v1, p2}, Lcom/mopub/common/privacy/PersonalInfoData;->setConsentChangeReason(Ljava/lang/String;)V
 
-    .line 9
     iget-object v1, p0, Lcom/mopub/common/privacy/PersonalInfoManager;->mPersonalInfoData:Lcom/mopub/common/privacy/PersonalInfoData;
 
     invoke-virtual {v1, p1}, Lcom/mopub/common/privacy/PersonalInfoData;->setConsentStatus(Lcom/mopub/common/privacy/ConsentStatus;)V
 
-    .line 10
     invoke-static {v0, p1}, Lcom/mopub/common/privacy/PersonalInfoManager;->shouldSetConsentedVersions(Lcom/mopub/common/privacy/ConsentStatus;Lcom/mopub/common/privacy/ConsentStatus;)Z
 
     move-result v1
 
     if-eqz v1, :cond_1
 
-    .line 11
     iget-object v1, p0, Lcom/mopub/common/privacy/PersonalInfoManager;->mPersonalInfoData:Lcom/mopub/common/privacy/PersonalInfoData;
 
-    .line 12
     invoke-virtual {v1}, Lcom/mopub/common/privacy/PersonalInfoData;->getCurrentPrivacyPolicyVersion()Ljava/lang/String;
 
     move-result-object v4
 
-    .line 13
     invoke-virtual {v1, v4}, Lcom/mopub/common/privacy/PersonalInfoData;->setConsentedPrivacyPolicyVersion(Ljava/lang/String;)V
 
-    .line 14
     iget-object v1, p0, Lcom/mopub/common/privacy/PersonalInfoManager;->mPersonalInfoData:Lcom/mopub/common/privacy/PersonalInfoData;
 
-    .line 15
     invoke-virtual {v1}, Lcom/mopub/common/privacy/PersonalInfoData;->getCurrentVendorListVersion()Ljava/lang/String;
 
     move-result-object v4
 
-    .line 16
     invoke-virtual {v1, v4}, Lcom/mopub/common/privacy/PersonalInfoData;->setConsentedVendorListVersion(Ljava/lang/String;)V
 
-    .line 17
     iget-object v1, p0, Lcom/mopub/common/privacy/PersonalInfoManager;->mPersonalInfoData:Lcom/mopub/common/privacy/PersonalInfoData;
 
-    .line 18
     invoke-virtual {v1}, Lcom/mopub/common/privacy/PersonalInfoData;->getCurrentVendorListIabFormat()Ljava/lang/String;
 
     move-result-object v4
 
-    .line 19
     invoke-virtual {v1, v4}, Lcom/mopub/common/privacy/PersonalInfoData;->setConsentedVendorListIabFormat(Ljava/lang/String;)V
 
-    .line 20
     :cond_1
     sget-object v1, Lcom/mopub/common/privacy/ConsentStatus;->DNT:Lcom/mopub/common/privacy/ConsentStatus;
 
@@ -804,14 +733,12 @@
 
     sget-object v4, Lcom/mopub/common/privacy/ConsentStatus;->UNKNOWN:Lcom/mopub/common/privacy/ConsentStatus;
 
-    .line 21
     invoke-virtual {v4, p1}, Ljava/lang/Enum;->equals(Ljava/lang/Object;)Z
 
     move-result v4
 
     if-eqz v4, :cond_3
 
-    .line 22
     :cond_2
     iget-object v4, p0, Lcom/mopub/common/privacy/PersonalInfoManager;->mPersonalInfoData:Lcom/mopub/common/privacy/PersonalInfoData;
 
@@ -819,17 +746,14 @@
 
     invoke-virtual {v4, v5}, Lcom/mopub/common/privacy/PersonalInfoData;->setConsentedPrivacyPolicyVersion(Ljava/lang/String;)V
 
-    .line 23
     iget-object v4, p0, Lcom/mopub/common/privacy/PersonalInfoManager;->mPersonalInfoData:Lcom/mopub/common/privacy/PersonalInfoData;
 
     invoke-virtual {v4, v5}, Lcom/mopub/common/privacy/PersonalInfoData;->setConsentedVendorListVersion(Ljava/lang/String;)V
 
-    .line 24
     iget-object v4, p0, Lcom/mopub/common/privacy/PersonalInfoManager;->mPersonalInfoData:Lcom/mopub/common/privacy/PersonalInfoData;
 
     invoke-virtual {v4, v5}, Lcom/mopub/common/privacy/PersonalInfoData;->setConsentedVendorListIabFormat(Ljava/lang/String;)V
 
-    .line 25
     :cond_3
     sget-object v4, Lcom/mopub/common/privacy/ConsentStatus;->EXPLICIT_YES:Lcom/mopub/common/privacy/ConsentStatus;
 
@@ -839,7 +763,6 @@
 
     if-eqz v4, :cond_4
 
-    .line 26
     iget-object v4, p0, Lcom/mopub/common/privacy/PersonalInfoManager;->mPersonalInfoData:Lcom/mopub/common/privacy/PersonalInfoData;
 
     iget-object v5, p0, Lcom/mopub/common/privacy/PersonalInfoManager;->mAppContext:Landroid/content/Context;
@@ -848,7 +771,6 @@
 
     move-result-object v5
 
-    .line 27
     invoke-virtual {v5}, Lcom/mopub/common/ClientMetadata;->getMoPubIdentifier()Lcom/mopub/common/privacy/MoPubIdentifier;
 
     move-result-object v5
@@ -861,10 +783,8 @@
 
     move-result-object v5
 
-    .line 28
     invoke-virtual {v4, v5}, Lcom/mopub/common/privacy/PersonalInfoData;->setIfa(Ljava/lang/String;)V
 
-    .line 29
     :cond_4
     invoke-virtual {v1, p1}, Ljava/lang/Enum;->equals(Ljava/lang/Object;)Z
 
@@ -872,30 +792,25 @@
 
     if-eqz v1, :cond_5
 
-    .line 30
     iget-object v1, p0, Lcom/mopub/common/privacy/PersonalInfoManager;->mPersonalInfoData:Lcom/mopub/common/privacy/PersonalInfoData;
 
     invoke-virtual {v1, v0}, Lcom/mopub/common/privacy/PersonalInfoData;->setConsentStatusBeforeDnt(Lcom/mopub/common/privacy/ConsentStatus;)V
 
-    .line 31
     :cond_5
     iget-object v1, p0, Lcom/mopub/common/privacy/PersonalInfoManager;->mPersonalInfoData:Lcom/mopub/common/privacy/PersonalInfoData;
 
     invoke-virtual {v1, v3}, Lcom/mopub/common/privacy/PersonalInfoData;->setShouldReacquireConsent(Z)V
 
-    .line 32
     iget-object v1, p0, Lcom/mopub/common/privacy/PersonalInfoManager;->mPersonalInfoData:Lcom/mopub/common/privacy/PersonalInfoData;
 
     invoke-virtual {v1}, Lcom/mopub/common/privacy/PersonalInfoData;->writeToDisk()V
 
-    .line 33
     invoke-virtual {p0}, Lcom/mopub/common/privacy/PersonalInfoManager;->canCollectPersonalInformation()Z
 
     move-result v1
 
     if-eqz v1, :cond_6
 
-    .line 34
     iget-object v4, p0, Lcom/mopub/common/privacy/PersonalInfoManager;->mAppContext:Landroid/content/Context;
 
     invoke-static {v4}, Lcom/mopub/common/ClientMetadata;->getInstance(Landroid/content/Context;)Lcom/mopub/common/ClientMetadata;
@@ -904,7 +819,6 @@
 
     invoke-virtual {v4}, Lcom/mopub/common/ClientMetadata;->repopulateCountryData()V
 
-    .line 35
     iget-object v4, p0, Lcom/mopub/common/privacy/PersonalInfoManager;->mConversionTracker:Lcom/mopub/mobileads/MoPubConversionTracker;
 
     invoke-virtual {v4}, Lcom/mopub/mobileads/MoPubConversionTracker;->shouldTrack()Z
@@ -913,12 +827,10 @@
 
     if-eqz v4, :cond_6
 
-    .line 36
     iget-object v4, p0, Lcom/mopub/common/privacy/PersonalInfoManager;->mConversionTracker:Lcom/mopub/mobileads/MoPubConversionTracker;
 
     invoke-virtual {v4, v3}, Lcom/mopub/mobileads/MoPubConversionTracker;->reportAppOpen(Z)V
 
-    .line 37
     :cond_6
     sget-object v4, Lcom/mopub/common/logging/MoPubLog$ConsentLogEvent;->UPDATED:Lcom/mopub/common/logging/MoPubLog$ConsentLogEvent;
 
@@ -948,7 +860,6 @@
 
     invoke-static {v4, v5}, Lcom/mopub/common/logging/MoPubLog;->log(Lcom/mopub/common/logging/MoPubLog$MPLogEventType;[Ljava/lang/Object;)V
 
-    .line 38
     invoke-direct {p0, v0, p1, v1}, Lcom/mopub/common/privacy/PersonalInfoManager;->fireOnConsentStateChangeListeners(Lcom/mopub/common/privacy/ConsentStatus;Lcom/mopub/common/privacy/ConsentStatus;Z)V
 
     return-void
@@ -957,7 +868,6 @@
 .method public canCollectPersonalInformation()Z
     .locals 4
 
-    .line 1
     invoke-virtual {p0}, Lcom/mopub/common/privacy/PersonalInfoManager;->gdprApplies()Ljava/lang/Boolean;
 
     move-result-object v0
@@ -968,7 +878,6 @@
 
     return v1
 
-    .line 2
     :cond_0
     invoke-virtual {v0}, Ljava/lang/Boolean;->booleanValue()Z
 
@@ -980,7 +889,6 @@
 
     return v2
 
-    .line 3
     :cond_1
     invoke-virtual {p0}, Lcom/mopub/common/privacy/PersonalInfoManager;->getPersonalInfoConsentStatus()Lcom/mopub/common/privacy/ConsentStatus;
 
@@ -996,7 +904,6 @@
 
     iget-object v0, p0, Lcom/mopub/common/privacy/PersonalInfoManager;->mAppContext:Landroid/content/Context;
 
-    .line 4
     invoke-static {v0}, Lcom/mopub/common/ClientMetadata;->getInstance(Landroid/content/Context;)Lcom/mopub/common/ClientMetadata;
 
     move-result-object v0
@@ -1009,7 +916,6 @@
 
     move-result-object v0
 
-    .line 5
     invoke-virtual {v0}, Lcom/mopub/common/privacy/AdvertisingId;->isDoNotTrack()Z
 
     move-result v0
@@ -1029,10 +935,8 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-static {p1}, Lcom/mopub/common/Preconditions;->checkNotNull(Ljava/lang/Object;)V
 
-    .line 2
     sget-object v0, Lcom/mopub/common/privacy/PersonalInfoManager$6;->$SwitchMap$com$mopub$common$privacy$ConsentStatus:[I
 
     invoke-virtual {p1}, Ljava/lang/Enum;->ordinal()I
@@ -1049,7 +953,6 @@
 
     if-eq v0, v2, :cond_0
 
-    .line 3
     sget-object v0, Lcom/mopub/common/logging/MoPubLog$ConsentLogEvent;->CUSTOM:Lcom/mopub/common/logging/MoPubLog$ConsentLogEvent;
 
     new-array v1, v1, [Ljava/lang/Object;
@@ -1080,24 +983,20 @@
 
     goto :goto_0
 
-    .line 4
     :cond_0
     sget-object v0, Lcom/mopub/common/privacy/ConsentChangeReason;->DENIED_BY_USER:Lcom/mopub/common/privacy/ConsentChangeReason;
 
     invoke-direct {p0, p1, v0}, Lcom/mopub/common/privacy/PersonalInfoManager;->attemptStateTransition(Lcom/mopub/common/privacy/ConsentStatus;Lcom/mopub/common/privacy/ConsentChangeReason;)V
 
-    .line 5
     invoke-virtual {p0, v1}, Lcom/mopub/common/privacy/PersonalInfoManager;->requestSync(Z)V
 
     goto :goto_0
 
-    .line 6
     :cond_1
     sget-object v0, Lcom/mopub/common/privacy/ConsentChangeReason;->GRANTED_BY_USER:Lcom/mopub/common/privacy/ConsentChangeReason;
 
     invoke-direct {p0, p1, v0}, Lcom/mopub/common/privacy/PersonalInfoManager;->attemptStateTransition(Lcom/mopub/common/privacy/ConsentStatus;Lcom/mopub/common/privacy/ConsentChangeReason;)V
 
-    .line 7
     invoke-virtual {p0, v1}, Lcom/mopub/common/privacy/PersonalInfoManager;->requestSync(Z)V
 
     :goto_0
@@ -1107,7 +1006,6 @@
 .method public forceGdprApplies()V
     .locals 4
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/common/privacy/PersonalInfoManager;->mPersonalInfoData:Lcom/mopub/common/privacy/PersonalInfoData;
 
     invoke-virtual {v0}, Lcom/mopub/common/privacy/PersonalInfoData;->isForceGdprApplies()Z
@@ -1118,35 +1016,29 @@
 
     return-void
 
-    .line 2
     :cond_0
     invoke-virtual {p0}, Lcom/mopub/common/privacy/PersonalInfoManager;->canCollectPersonalInformation()Z
 
     move-result v0
 
-    .line 3
     iget-object v1, p0, Lcom/mopub/common/privacy/PersonalInfoManager;->mPersonalInfoData:Lcom/mopub/common/privacy/PersonalInfoData;
 
     const/4 v2, 0x1
 
     invoke-virtual {v1, v2}, Lcom/mopub/common/privacy/PersonalInfoData;->setForceGdprApplies(Z)V
 
-    .line 4
     iput-boolean v2, p0, Lcom/mopub/common/privacy/PersonalInfoManager;->mForceGdprAppliesChanged:Z
 
-    .line 5
     iget-object v1, p0, Lcom/mopub/common/privacy/PersonalInfoManager;->mPersonalInfoData:Lcom/mopub/common/privacy/PersonalInfoData;
 
     invoke-virtual {v1}, Lcom/mopub/common/privacy/PersonalInfoData;->writeToDisk()V
 
-    .line 6
     invoke-virtual {p0}, Lcom/mopub/common/privacy/PersonalInfoManager;->canCollectPersonalInformation()Z
 
     move-result v1
 
     if-eq v0, v1, :cond_1
 
-    .line 7
     iget-object v0, p0, Lcom/mopub/common/privacy/PersonalInfoManager;->mPersonalInfoData:Lcom/mopub/common/privacy/PersonalInfoData;
 
     invoke-virtual {v0}, Lcom/mopub/common/privacy/PersonalInfoData;->getConsentStatus()Lcom/mopub/common/privacy/ConsentStatus;
@@ -1155,15 +1047,12 @@
 
     iget-object v3, p0, Lcom/mopub/common/privacy/PersonalInfoManager;->mPersonalInfoData:Lcom/mopub/common/privacy/PersonalInfoData;
 
-    .line 8
     invoke-virtual {v3}, Lcom/mopub/common/privacy/PersonalInfoData;->getConsentStatus()Lcom/mopub/common/privacy/ConsentStatus;
 
     move-result-object v3
 
-    .line 9
     invoke-direct {p0, v0, v3, v1}, Lcom/mopub/common/privacy/PersonalInfoManager;->fireOnConsentStateChangeListeners(Lcom/mopub/common/privacy/ConsentStatus;Lcom/mopub/common/privacy/ConsentStatus;Z)V
 
-    .line 10
     :cond_1
     invoke-virtual {p0, v2}, Lcom/mopub/common/privacy/PersonalInfoManager;->requestSync(Z)V
 
@@ -1175,7 +1064,6 @@
     .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/common/privacy/PersonalInfoManager;->mPersonalInfoData:Lcom/mopub/common/privacy/PersonalInfoData;
 
     invoke-virtual {v0}, Lcom/mopub/common/privacy/PersonalInfoData;->isForceGdprApplies()Z
@@ -1184,12 +1072,10 @@
 
     if-eqz v0, :cond_0
 
-    .line 2
     sget-object v0, Ljava/lang/Boolean;->TRUE:Ljava/lang/Boolean;
 
     return-object v0
 
-    .line 3
     :cond_0
     iget-object v0, p0, Lcom/mopub/common/privacy/PersonalInfoManager;->mPersonalInfoData:Lcom/mopub/common/privacy/PersonalInfoData;
 
@@ -1203,7 +1089,6 @@
 .method public getConsentData()Lcom/mopub/common/privacy/ConsentData;
     .locals 2
 
-    .line 1
     new-instance v0, Lcom/mopub/common/privacy/PersonalInfoData;
 
     iget-object v1, p0, Lcom/mopub/common/privacy/PersonalInfoManager;->mAppContext:Landroid/content/Context;
@@ -1218,7 +1103,6 @@
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/common/privacy/PersonalInfoManager;->mPersonalInfoData:Lcom/mopub/common/privacy/PersonalInfoData;
 
     invoke-virtual {v0}, Lcom/mopub/common/privacy/PersonalInfoData;->getConsentStatus()Lcom/mopub/common/privacy/ConsentStatus;
@@ -1239,7 +1123,6 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/common/privacy/PersonalInfoManager;->mPersonalInfoData:Lcom/mopub/common/privacy/PersonalInfoData;
 
     return-object v0
@@ -1256,7 +1139,6 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/common/privacy/PersonalInfoManager;->mServerOverrideListener:Lcom/mopub/network/MultiAdResponse$ServerOverrideListener;
 
     return-object v0
@@ -1265,7 +1147,6 @@
 .method public grantConsent()V
     .locals 5
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/common/privacy/PersonalInfoManager;->mAppContext:Landroid/content/Context;
 
     invoke-static {v0}, Lcom/mopub/common/ClientMetadata;->getInstance(Landroid/content/Context;)Lcom/mopub/common/ClientMetadata;
@@ -1280,7 +1161,6 @@
 
     move-result-object v0
 
-    .line 2
     invoke-virtual {v0}, Lcom/mopub/common/privacy/AdvertisingId;->isDoNotTrack()Z
 
     move-result v0
@@ -1291,7 +1171,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 3
     sget-object v0, Lcom/mopub/common/logging/MoPubLog$ConsentLogEvent;->CUSTOM:Lcom/mopub/common/logging/MoPubLog$ConsentLogEvent;
 
     new-array v2, v2, [Ljava/lang/Object;
@@ -1304,7 +1183,6 @@
 
     return-void
 
-    .line 4
     :cond_0
     iget-object v0, p0, Lcom/mopub/common/privacy/PersonalInfoManager;->mPersonalInfoData:Lcom/mopub/common/privacy/PersonalInfoData;
 
@@ -1314,7 +1192,6 @@
 
     if-eqz v0, :cond_1
 
-    .line 5
     sget-object v0, Lcom/mopub/common/privacy/ConsentStatus;->EXPLICIT_YES:Lcom/mopub/common/privacy/ConsentStatus;
 
     sget-object v1, Lcom/mopub/common/privacy/ConsentChangeReason;->GRANTED_BY_WHITELISTED_PUB:Lcom/mopub/common/privacy/ConsentChangeReason;
@@ -1323,7 +1200,6 @@
 
     goto :goto_0
 
-    .line 6
     :cond_1
     sget-object v0, Lcom/mopub/common/logging/MoPubLog$ConsentLogEvent;->CUSTOM:Lcom/mopub/common/logging/MoPubLog$ConsentLogEvent;
 
@@ -1335,14 +1211,12 @@
 
     invoke-static {v0, v3}, Lcom/mopub/common/logging/MoPubLog;->log(Lcom/mopub/common/logging/MoPubLog$MPLogEventType;[Ljava/lang/Object;)V
 
-    .line 7
     sget-object v0, Lcom/mopub/common/privacy/ConsentStatus;->POTENTIAL_WHITELIST:Lcom/mopub/common/privacy/ConsentStatus;
 
     sget-object v1, Lcom/mopub/common/privacy/ConsentChangeReason;->GRANTED_BY_NOT_WHITELISTED_PUB:Lcom/mopub/common/privacy/ConsentChangeReason;
 
     invoke-direct {p0, v0, v1}, Lcom/mopub/common/privacy/PersonalInfoManager;->attemptStateTransition(Lcom/mopub/common/privacy/ConsentStatus;Lcom/mopub/common/privacy/ConsentChangeReason;)V
 
-    .line 8
     :goto_0
     invoke-virtual {p0, v2}, Lcom/mopub/common/privacy/PersonalInfoManager;->requestSync(Z)V
 
@@ -1352,7 +1226,6 @@
 .method public isConsentDialogReady()Z
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/common/privacy/PersonalInfoManager;->mConsentDialogController:Lcom/mopub/common/privacy/ConsentDialogController;
 
     invoke-virtual {v0}, Lcom/mopub/common/privacy/ConsentDialogController;->isReady()Z
@@ -1369,7 +1242,6 @@
         .end annotation
     .end param
 
-    .line 1
     sget-object v0, Lcom/mopub/common/logging/MoPubLog$ConsentLogEvent;->LOAD_ATTEMPTED:Lcom/mopub/common/logging/MoPubLog$ConsentLogEvent;
 
     const/4 v1, 0x0
@@ -1378,19 +1250,16 @@
 
     invoke-static {v0, v1}, Lcom/mopub/common/logging/MoPubLog;->log(Lcom/mopub/common/logging/MoPubLog$MPLogEventType;[Ljava/lang/Object;)V
 
-    .line 2
     iget-object v0, p0, Lcom/mopub/common/privacy/PersonalInfoManager;->mAppContext:Landroid/content/Context;
 
     invoke-static {v0}, Lcom/mopub/common/util/ManifestUtils;->checkGdprActivitiesDeclared(Landroid/content/Context;)V
 
-    .line 3
     iget-object v0, p0, Lcom/mopub/common/privacy/PersonalInfoManager;->mAppContext:Landroid/content/Context;
 
     invoke-static {v0}, Lcom/mopub/common/ClientMetadata;->getInstance(Landroid/content/Context;)Lcom/mopub/common/ClientMetadata;
 
     move-result-object v0
 
-    .line 4
     invoke-virtual {v0}, Lcom/mopub/common/ClientMetadata;->getMoPubIdentifier()Lcom/mopub/common/privacy/MoPubIdentifier;
 
     move-result-object v0
@@ -1407,7 +1276,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 5
     new-instance v0, Landroid/os/Handler;
 
     invoke-direct {v0}, Landroid/os/Handler;-><init>()V
@@ -1421,7 +1289,6 @@
     :cond_0
     return-void
 
-    .line 6
     :cond_1
     invoke-virtual {p0}, Lcom/mopub/common/privacy/PersonalInfoManager;->gdprApplies()Ljava/lang/Boolean;
 
@@ -1429,7 +1296,6 @@
 
     if-eqz v0, :cond_3
 
-    .line 7
     invoke-virtual {v0}, Ljava/lang/Boolean;->booleanValue()Z
 
     move-result v1
@@ -1438,7 +1304,6 @@
 
     if-eqz p1, :cond_2
 
-    .line 8
     new-instance v0, Landroid/os/Handler;
 
     invoke-direct {v0}, Landroid/os/Handler;-><init>()V
@@ -1452,7 +1317,6 @@
     :cond_2
     return-void
 
-    .line 9
     :cond_3
     iget-object v1, p0, Lcom/mopub/common/privacy/PersonalInfoManager;->mConsentDialogController:Lcom/mopub/common/privacy/ConsentDialogController;
 
@@ -1468,7 +1332,6 @@
     .annotation build Lcom/mopub/common/VisibleForTesting;
     .end annotation
 
-    .line 10
     sget-object v0, Lcom/mopub/common/logging/MoPubLog$ConsentLogEvent;->SYNC_ATTEMPTED:Lcom/mopub/common/logging/MoPubLog$ConsentLogEvent;
 
     const/4 v1, 0x0
@@ -1477,7 +1340,6 @@
 
     invoke-static {v0, v1}, Lcom/mopub/common/logging/MoPubLog;->log(Lcom/mopub/common/logging/MoPubLog$MPLogEventType;[Ljava/lang/Object;)V
 
-    .line 11
     iget-object v0, p0, Lcom/mopub/common/privacy/PersonalInfoManager;->mPersonalInfoData:Lcom/mopub/common/privacy/PersonalInfoData;
 
     invoke-virtual {v0}, Lcom/mopub/common/privacy/PersonalInfoData;->getConsentStatus()Lcom/mopub/common/privacy/ConsentStatus;
@@ -1488,10 +1350,8 @@
 
     const/4 v0, 0x1
 
-    .line 12
     iput-boolean v0, p0, Lcom/mopub/common/privacy/PersonalInfoManager;->mSyncRequestInFlight:Z
 
-    .line 13
     invoke-static {}, Landroid/os/SystemClock;->uptimeMillis()J
 
     move-result-wide v1
@@ -1502,21 +1362,18 @@
 
     iput-object v1, p0, Lcom/mopub/common/privacy/PersonalInfoManager;->mLastSyncRequestTimeUptimeMs:Ljava/lang/Long;
 
-    .line 14
     new-instance v1, Lcom/mopub/common/privacy/SyncUrlGenerator;
 
     iget-object v2, p0, Lcom/mopub/common/privacy/PersonalInfoManager;->mAppContext:Landroid/content/Context;
 
     iget-object v3, p0, Lcom/mopub/common/privacy/PersonalInfoManager;->mSyncRequestConsentStatus:Lcom/mopub/common/privacy/ConsentStatus;
 
-    .line 15
     invoke-virtual {v3}, Lcom/mopub/common/privacy/ConsentStatus;->getValue()Ljava/lang/String;
 
     move-result-object v3
 
     invoke-direct {v1, v2, v3}, Lcom/mopub/common/privacy/SyncUrlGenerator;-><init>(Landroid/content/Context;Ljava/lang/String;)V
 
-    .line 16
     iget-object v2, p0, Lcom/mopub/common/privacy/PersonalInfoManager;->mPersonalInfoData:Lcom/mopub/common/privacy/PersonalInfoData;
 
     invoke-virtual {v2}, Lcom/mopub/common/privacy/PersonalInfoData;->chooseAdUnit()Ljava/lang/String;
@@ -1529,7 +1386,6 @@
 
     iget-object v3, p0, Lcom/mopub/common/privacy/PersonalInfoManager;->mPersonalInfoData:Lcom/mopub/common/privacy/PersonalInfoData;
 
-    .line 17
     invoke-virtual {v3}, Lcom/mopub/common/privacy/PersonalInfoData;->getIfa()Ljava/lang/String;
 
     move-result-object v3
@@ -1540,7 +1396,6 @@
 
     iget-object v3, p0, Lcom/mopub/common/privacy/PersonalInfoManager;->mPersonalInfoData:Lcom/mopub/common/privacy/PersonalInfoData;
 
-    .line 18
     invoke-virtual {v3}, Lcom/mopub/common/privacy/PersonalInfoData;->getLastChangedMs()Ljava/lang/String;
 
     move-result-object v3
@@ -1551,7 +1406,6 @@
 
     iget-object v3, p0, Lcom/mopub/common/privacy/PersonalInfoManager;->mPersonalInfoData:Lcom/mopub/common/privacy/PersonalInfoData;
 
-    .line 19
     invoke-virtual {v3}, Lcom/mopub/common/privacy/PersonalInfoData;->getLastSuccessfullySyncedConsentStatus()Lcom/mopub/common/privacy/ConsentStatus;
 
     move-result-object v3
@@ -1562,7 +1416,6 @@
 
     iget-object v3, p0, Lcom/mopub/common/privacy/PersonalInfoManager;->mPersonalInfoData:Lcom/mopub/common/privacy/PersonalInfoData;
 
-    .line 20
     invoke-virtual {v3}, Lcom/mopub/common/privacy/PersonalInfoData;->getConsentChangeReason()Ljava/lang/String;
 
     move-result-object v3
@@ -1573,7 +1426,6 @@
 
     iget-object v3, p0, Lcom/mopub/common/privacy/PersonalInfoManager;->mPersonalInfoData:Lcom/mopub/common/privacy/PersonalInfoData;
 
-    .line 21
     invoke-virtual {v3}, Lcom/mopub/common/privacy/PersonalInfoData;->getConsentedVendorListVersion()Ljava/lang/String;
 
     move-result-object v3
@@ -1584,19 +1436,16 @@
 
     iget-object v3, p0, Lcom/mopub/common/privacy/PersonalInfoManager;->mPersonalInfoData:Lcom/mopub/common/privacy/PersonalInfoData;
 
-    .line 22
     invoke-virtual {v3}, Lcom/mopub/common/privacy/PersonalInfoData;->getConsentedPrivacyPolicyVersion()Ljava/lang/String;
 
     move-result-object v3
 
-    .line 23
     invoke-virtual {v2, v3}, Lcom/mopub/common/privacy/SyncUrlGenerator;->withConsentedPrivacyPolicyVersion(Ljava/lang/String;)Lcom/mopub/common/privacy/SyncUrlGenerator;
 
     move-result-object v2
 
     iget-object v3, p0, Lcom/mopub/common/privacy/PersonalInfoManager;->mPersonalInfoData:Lcom/mopub/common/privacy/PersonalInfoData;
 
-    .line 24
     invoke-virtual {v3}, Lcom/mopub/common/privacy/PersonalInfoData;->getCurrentVendorListIabHash()Ljava/lang/String;
 
     move-result-object v3
@@ -1607,7 +1456,6 @@
 
     iget-object v3, p0, Lcom/mopub/common/privacy/PersonalInfoManager;->mPersonalInfoData:Lcom/mopub/common/privacy/PersonalInfoData;
 
-    .line 25
     invoke-virtual {v3}, Lcom/mopub/common/privacy/PersonalInfoData;->getExtras()Ljava/lang/String;
 
     move-result-object v3
@@ -1616,7 +1464,6 @@
 
     move-result-object v2
 
-    .line 26
     invoke-virtual {p0}, Lcom/mopub/common/privacy/PersonalInfoManager;->gdprApplies()Ljava/lang/Boolean;
 
     move-result-object v3
@@ -1627,27 +1474,22 @@
 
     iget-object v3, p0, Lcom/mopub/common/privacy/PersonalInfoManager;->mPersonalInfoData:Lcom/mopub/common/privacy/PersonalInfoData;
 
-    .line 27
     invoke-virtual {v3}, Lcom/mopub/common/privacy/PersonalInfoData;->isForceGdprApplies()Z
 
     move-result v3
 
     invoke-virtual {v2, v3}, Lcom/mopub/common/privacy/SyncUrlGenerator;->withForceGdprApplies(Z)Lcom/mopub/common/privacy/SyncUrlGenerator;
 
-    .line 28
     iget-boolean v2, p0, Lcom/mopub/common/privacy/PersonalInfoManager;->mForceGdprAppliesChanged:Z
 
     if-eqz v2, :cond_0
 
-    .line 29
     iput-boolean v0, p0, Lcom/mopub/common/privacy/PersonalInfoManager;->mForceGdprAppliesChangedSending:Z
 
-    .line 30
     sget-object v0, Ljava/lang/Boolean;->TRUE:Ljava/lang/Boolean;
 
     invoke-virtual {v1, v0}, Lcom/mopub/common/privacy/SyncUrlGenerator;->withForceGdprAppliesChanged(Ljava/lang/Boolean;)Lcom/mopub/common/privacy/SyncUrlGenerator;
 
-    .line 31
     :cond_0
     new-instance v0, Lcom/mopub/common/privacy/SyncRequest;
 
@@ -1655,7 +1497,6 @@
 
     sget-object v3, Lcom/mopub/common/Constants;->HOST:Ljava/lang/String;
 
-    .line 32
     invoke-virtual {v1, v3}, Lcom/mopub/common/privacy/SyncUrlGenerator;->generateUrlString(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v1
@@ -1664,7 +1505,6 @@
 
     invoke-direct {v0, v2, v1, v3}, Lcom/mopub/common/privacy/SyncRequest;-><init>(Landroid/content/Context;Ljava/lang/String;Lcom/mopub/common/privacy/SyncRequest$Listener;)V
 
-    .line 33
     iget-object v1, p0, Lcom/mopub/common/privacy/PersonalInfoManager;->mAppContext:Landroid/content/Context;
 
     invoke-static {v1}, Lcom/mopub/network/Networking;->getRequestQueue(Landroid/content/Context;)Lcom/mopub/network/MoPubRequestQueue;
@@ -1679,7 +1519,6 @@
 .method public requestSync(Z)V
     .locals 9
 
-    .line 1
     invoke-static {}, Lcom/mopub/common/MoPub;->isSdkInitialized()Z
 
     move-result v0
@@ -1688,7 +1527,6 @@
 
     return-void
 
-    .line 2
     :cond_0
     iget-object v0, p0, Lcom/mopub/common/privacy/PersonalInfoManager;->mAppContext:Landroid/content/Context;
 
@@ -1696,7 +1534,6 @@
 
     move-result-object v0
 
-    .line 3
     invoke-virtual {v0}, Lcom/mopub/common/ClientMetadata;->getMoPubIdentifier()Lcom/mopub/common/privacy/MoPubIdentifier;
 
     move-result-object v0
@@ -1705,10 +1542,8 @@
 
     move-result-object v0
 
-    .line 4
     iget-boolean v1, p0, Lcom/mopub/common/privacy/PersonalInfoManager;->mSyncRequestInFlight:Z
 
-    .line 5
     invoke-virtual {p0}, Lcom/mopub/common/privacy/PersonalInfoManager;->gdprApplies()Ljava/lang/Boolean;
 
     move-result-object v2
@@ -1719,19 +1554,16 @@
 
     iget-object v3, p0, Lcom/mopub/common/privacy/PersonalInfoManager;->mPersonalInfoData:Lcom/mopub/common/privacy/PersonalInfoData;
 
-    .line 6
     invoke-virtual {v3}, Lcom/mopub/common/privacy/PersonalInfoData;->getIfa()Ljava/lang/String;
 
     move-result-object v7
 
-    .line 7
     invoke-virtual {v0}, Lcom/mopub/common/privacy/AdvertisingId;->isDoNotTrack()Z
 
     move-result v8
 
     move v3, p1
 
-    .line 8
     invoke-static/range {v1 .. v8}, Lcom/mopub/common/privacy/PersonalInfoManager;->shouldMakeSyncRequest(ZLjava/lang/Boolean;ZLjava/lang/Long;JLjava/lang/String;Z)Z
 
     move-result p1
@@ -1740,7 +1572,6 @@
 
     return-void
 
-    .line 9
     :cond_1
     invoke-virtual {p0}, Lcom/mopub/common/privacy/PersonalInfoManager;->requestSync()V
 
@@ -1750,7 +1581,6 @@
 .method public revokeConsent()V
     .locals 4
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/common/privacy/PersonalInfoManager;->mAppContext:Landroid/content/Context;
 
     invoke-static {v0}, Lcom/mopub/common/ClientMetadata;->getInstance(Landroid/content/Context;)Lcom/mopub/common/ClientMetadata;
@@ -1765,7 +1595,6 @@
 
     move-result-object v0
 
-    .line 2
     invoke-virtual {v0}, Lcom/mopub/common/privacy/AdvertisingId;->isDoNotTrack()Z
 
     move-result v0
@@ -1774,7 +1603,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 3
     sget-object v0, Lcom/mopub/common/logging/MoPubLog$ConsentLogEvent;->CUSTOM:Lcom/mopub/common/logging/MoPubLog$ConsentLogEvent;
 
     new-array v1, v1, [Ljava/lang/Object;
@@ -1789,7 +1617,6 @@
 
     return-void
 
-    .line 4
     :cond_0
     sget-object v0, Lcom/mopub/common/privacy/ConsentStatus;->EXPLICIT_NO:Lcom/mopub/common/privacy/ConsentStatus;
 
@@ -1797,7 +1624,6 @@
 
     invoke-direct {p0, v0, v2}, Lcom/mopub/common/privacy/PersonalInfoManager;->attemptStateTransition(Lcom/mopub/common/privacy/ConsentStatus;Lcom/mopub/common/privacy/ConsentChangeReason;)V
 
-    .line 5
     invoke-virtual {p0, v1}, Lcom/mopub/common/privacy/PersonalInfoManager;->requestSync(Z)V
 
     return-void
@@ -1806,7 +1632,6 @@
 .method public setAllowLegitimateInterest(Z)V
     .locals 0
 
-    .line 1
     iput-boolean p1, p0, Lcom/mopub/common/privacy/PersonalInfoManager;->mLegitimateInterestAllowed:Z
 
     return-void
@@ -1815,7 +1640,6 @@
 .method public shouldAllowLegitimateInterest()Z
     .locals 1
 
-    .line 1
     iget-boolean v0, p0, Lcom/mopub/common/privacy/PersonalInfoManager;->mLegitimateInterestAllowed:Z
 
     return v0
@@ -1824,14 +1648,12 @@
 .method public shouldShowConsentDialog()Z
     .locals 2
 
-    .line 1
     invoke-virtual {p0}, Lcom/mopub/common/privacy/PersonalInfoManager;->gdprApplies()Ljava/lang/Boolean;
 
     move-result-object v0
 
     if-eqz v0, :cond_2
 
-    .line 2
     invoke-virtual {v0}, Ljava/lang/Boolean;->booleanValue()Z
 
     move-result v0
@@ -1840,7 +1662,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_0
     iget-object v0, p0, Lcom/mopub/common/privacy/PersonalInfoManager;->mPersonalInfoData:Lcom/mopub/common/privacy/PersonalInfoData;
 
@@ -1854,7 +1675,6 @@
 
     return v0
 
-    .line 4
     :cond_1
     iget-object v0, p0, Lcom/mopub/common/privacy/PersonalInfoManager;->mPersonalInfoData:Lcom/mopub/common/privacy/PersonalInfoData;
 
@@ -1880,7 +1700,6 @@
 .method public showConsentDialog()Z
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/common/privacy/PersonalInfoManager;->mConsentDialogController:Lcom/mopub/common/privacy/ConsentDialogController;
 
     invoke-virtual {v0}, Lcom/mopub/common/privacy/ConsentDialogController;->showConsentDialog()Z
@@ -1901,7 +1720,6 @@
 
     return-void
 
-    .line 1
     :cond_0
     iget-object v0, p0, Lcom/mopub/common/privacy/PersonalInfoManager;->mConsentStatusChangeListeners:Ljava/util/Set;
 
@@ -1917,7 +1735,6 @@
         .end annotation
     .end param
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/common/privacy/PersonalInfoManager;->mConsentStatusChangeListeners:Ljava/util/Set;
 
     invoke-interface {v0, p1}, Ljava/util/Set;->remove(Ljava/lang/Object;)Z

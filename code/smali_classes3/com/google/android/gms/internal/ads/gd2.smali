@@ -10,7 +10,6 @@
 .method constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -26,7 +25,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p1, p2}, Lcom/google/android/gms/internal/ads/fd2;->c(Ljava/lang/String;Z)Lcom/google/android/gms/internal/ads/dd2;
 
     move-result-object p1
@@ -42,7 +40,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {}, Lcom/google/android/gms/internal/ads/fd2;->f()Lcom/google/android/gms/internal/ads/dd2;
 
     move-result-object v0

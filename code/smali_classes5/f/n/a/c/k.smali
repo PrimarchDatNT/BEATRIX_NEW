@@ -13,7 +13,6 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     new-instance v0, Lf/n/a/c/a$b;
 
     invoke-direct {v0}, Lf/n/a/c/a$b;-><init>()V
@@ -30,13 +29,10 @@
 .method public constructor <init>(Lf/n/a/c/a;)V
     .locals 7
 
-    .line 2
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 3
     iput-object p1, p0, Lf/n/a/c/k;->a:Lf/n/a/c/a;
 
-    .line 4
     new-instance v6, Lcom/qiniu/android/http/a;
 
     iget-object v1, p1, Lf/n/a/c/a;->c:Lcom/qiniu/android/http/f;
@@ -63,7 +59,6 @@
 
     const/4 v0, 0x0
 
-    .line 6
     invoke-direct {p0, p1, v0}, Lf/n/a/c/k;-><init>(Lf/n/a/c/e;Lf/n/a/c/c;)V
 
     return-void
@@ -72,7 +67,6 @@
 .method public constructor <init>(Lf/n/a/c/e;Lf/n/a/c/c;)V
     .locals 1
 
-    .line 5
     new-instance v0, Lf/n/a/c/a$b;
 
     invoke-direct {v0}, Lf/n/a/c/a$b;-><init>()V
@@ -93,7 +87,6 @@
 .method static synthetic a(Lf/n/a/c/k;)Lcom/qiniu/android/http/a;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lf/n/a/c/k;->b:Lcom/qiniu/android/http/a;
 
     return-object p0
@@ -102,7 +95,6 @@
 .method static synthetic b(Lf/n/a/c/k;)Lf/n/a/c/a;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lf/n/a/c/k;->a:Lf/n/a/c/a;
 
     return-object p0
@@ -126,7 +118,6 @@
 
     const-string v0, ""
 
-    .line 1
     invoke-virtual {p3, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p3
@@ -147,14 +138,12 @@
     :goto_1
     if-eqz p3, :cond_3
 
-    .line 2
     invoke-static {p3, p4}, Lcom/qiniu/android/http/g;->e(Ljava/lang/String;Lf/n/a/c/j;)Lcom/qiniu/android/http/g;
 
     move-result-object p0
 
     return-object p0
 
-    .line 3
     :cond_3
     sget-object p3, Lf/n/a/c/j;->d:Lf/n/a/c/j;
 
@@ -167,7 +156,6 @@
     :cond_4
     if-eqz p2, :cond_5
 
-    .line 4
     invoke-virtual {p2}, Ljava/io/File;->length()J
 
     move-result-wide p2
@@ -185,7 +173,6 @@
 
     if-nez p1, :cond_7
 
-    .line 5
     :cond_6
     invoke-static {p4}, Lcom/qiniu/android/http/g;->n(Lf/n/a/c/j;)Lcom/qiniu/android/http/g;
 
@@ -198,7 +185,6 @@
     :goto_2
     const-string p0, "invalid token"
 
-    .line 6
     invoke-static {p0}, Lcom/qiniu/android/http/g;->f(Ljava/lang/String;)Lcom/qiniu/android/http/g;
 
     move-result-object p0
@@ -226,7 +212,6 @@
 
     const-string v1, ""
 
-    .line 1
     invoke-virtual {p3, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p3
@@ -247,14 +232,12 @@
     :goto_1
     if-eqz p3, :cond_3
 
-    .line 2
     invoke-static {p3, p4}, Lcom/qiniu/android/http/g;->e(Ljava/lang/String;Lf/n/a/c/j;)Lcom/qiniu/android/http/g;
 
     move-result-object v0
 
     goto :goto_3
 
-    .line 3
     :cond_3
     sget-object p3, Lf/n/a/c/j;->d:Lf/n/a/c/j;
 
@@ -267,7 +250,6 @@
     :cond_4
     if-eqz p2, :cond_5
 
-    .line 4
     invoke-virtual {p2}, Ljava/io/File;->length()J
 
     move-result-wide p2
@@ -285,7 +267,6 @@
 
     if-nez p1, :cond_8
 
-    .line 5
     :cond_6
     invoke-static {p4}, Lcom/qiniu/android/http/g;->n(Lf/n/a/c/j;)Lcom/qiniu/android/http/g;
 
@@ -297,7 +278,6 @@
     :goto_2
     const-string p1, "invalid token"
 
-    .line 6
     invoke-static {p1}, Lcom/qiniu/android/http/g;->f(Ljava/lang/String;)Lcom/qiniu/android/http/g;
 
     move-result-object v0
@@ -306,7 +286,6 @@
     :goto_3
     if-eqz v0, :cond_9
 
-    .line 7
     new-instance p1, Lf/n/a/c/k$a;
 
     invoke-direct {p1, p5, p0, v0}, Lf/n/a/c/k$a;-><init>(Lf/n/a/c/h;Ljava/lang/String;Lcom/qiniu/android/http/g;)V
@@ -322,7 +301,6 @@
 
     return p0
 
-    .line 8
     :cond_a
     new-instance p0, Ljava/lang/IllegalArgumentException;
 
@@ -338,7 +316,6 @@
 .method public e(Ljava/io/File;Ljava/lang/String;Ljava/lang/String;Lf/n/a/c/h;Lf/n/a/c/l;)V
     .locals 8
 
-    .line 1
     invoke-static {p3}, Lf/n/a/c/j;->b(Ljava/lang/String;)Lf/n/a/c/j;
 
     move-result-object v6
@@ -355,7 +332,6 @@
 
     move-object v5, p4
 
-    .line 2
     invoke-static/range {v0 .. v5}, Lf/n/a/c/k;->d(Ljava/lang/String;[BLjava/io/File;Ljava/lang/String;Lf/n/a/c/j;Lf/n/a/c/h;)Z
 
     move-result v0
@@ -364,18 +340,15 @@
 
     return-void
 
-    .line 3
     :cond_0
     new-instance v5, Lf/n/a/c/k$d;
 
     invoke-direct {v5, p0, p4}, Lf/n/a/c/k$d;-><init>(Lf/n/a/c/k;Lf/n/a/c/h;)V
 
-    .line 4
     iget-object p4, p0, Lf/n/a/c/k;->a:Lf/n/a/c/a;
 
     iget-object p4, p4, Lf/n/a/c/a;->k:Lf/n/a/b/e;
 
-    .line 5
     new-instance v7, Lf/n/a/c/k$e;
 
     move-object v0, v7
@@ -400,7 +373,6 @@
 .method public f(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lf/n/a/c/h;Lf/n/a/c/l;)V
     .locals 6
 
-    .line 1
     new-instance v1, Ljava/io/File;
 
     invoke-direct {v1, p1}, Ljava/io/File;-><init>(Ljava/lang/String;)V
@@ -423,7 +395,6 @@
 .method public g([BLjava/lang/String;Ljava/lang/String;Lf/n/a/c/h;Lf/n/a/c/l;)V
     .locals 8
 
-    .line 1
     invoke-static {p3}, Lf/n/a/c/j;->b(Ljava/lang/String;)Lf/n/a/c/j;
 
     move-result-object v6
@@ -440,7 +411,6 @@
 
     move-object v5, p4
 
-    .line 2
     invoke-static/range {v0 .. v5}, Lf/n/a/c/k;->d(Ljava/lang/String;[BLjava/io/File;Ljava/lang/String;Lf/n/a/c/j;Lf/n/a/c/h;)Z
 
     move-result v0
@@ -449,18 +419,15 @@
 
     return-void
 
-    .line 3
     :cond_0
     new-instance v5, Lf/n/a/c/k$b;
 
     invoke-direct {v5, p0, p4}, Lf/n/a/c/k$b;-><init>(Lf/n/a/c/k;Lf/n/a/c/h;)V
 
-    .line 4
     iget-object p4, p0, Lf/n/a/c/k;->a:Lf/n/a/c/a;
 
     iget-object p4, p4, Lf/n/a/c/a;->k:Lf/n/a/b/e;
 
-    .line 5
     new-instance v7, Lf/n/a/c/k$c;
 
     move-object v0, v7
@@ -485,14 +452,12 @@
 .method public h(Ljava/io/File;Ljava/lang/String;Ljava/lang/String;Lf/n/a/c/l;)Lcom/qiniu/android/http/g;
     .locals 6
 
-    .line 1
     invoke-static {p3}, Lf/n/a/c/j;->b(Ljava/lang/String;)Lf/n/a/c/j;
 
     move-result-object v4
 
     const/4 v0, 0x0
 
-    .line 2
     invoke-static {p2, v0, p1, p3, v4}, Lf/n/a/c/k;->c(Ljava/lang/String;[BLjava/io/File;Ljava/lang/String;Lf/n/a/c/j;)Lcom/qiniu/android/http/g;
 
     move-result-object p3
@@ -501,7 +466,6 @@
 
     return-object p3
 
-    .line 3
     :cond_0
     iget-object v0, p0, Lf/n/a/c/k;->b:Lcom/qiniu/android/http/a;
 
@@ -523,7 +487,6 @@
 .method public i(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lf/n/a/c/l;)Lcom/qiniu/android/http/g;
     .locals 1
 
-    .line 1
     new-instance v0, Ljava/io/File;
 
     invoke-direct {v0, p1}, Ljava/io/File;-><init>(Ljava/lang/String;)V
@@ -538,14 +501,12 @@
 .method public j([BLjava/lang/String;Ljava/lang/String;Lf/n/a/c/l;)Lcom/qiniu/android/http/g;
     .locals 6
 
-    .line 1
     invoke-static {p3}, Lf/n/a/c/j;->b(Ljava/lang/String;)Lf/n/a/c/j;
 
     move-result-object v4
 
     const/4 v0, 0x0
 
-    .line 2
     invoke-static {p2, p1, v0, p3, v4}, Lf/n/a/c/k;->c(Ljava/lang/String;[BLjava/io/File;Ljava/lang/String;Lf/n/a/c/j;)Lcom/qiniu/android/http/g;
 
     move-result-object p3
@@ -554,7 +515,6 @@
 
     return-object p3
 
-    .line 3
     :cond_0
     iget-object v0, p0, Lf/n/a/c/k;->b:Lcom/qiniu/android/http/a;
 

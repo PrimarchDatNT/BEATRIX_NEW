@@ -22,7 +22,6 @@
 .method constructor <init>(Lcom/commsource/mypage/album/t;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/mypage/album/t$b;->a:Lcom/commsource/mypage/album/t;
 
     invoke-direct {p0}, Landroid/animation/AnimatorListenerAdapter;-><init>()V
@@ -39,10 +38,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0, p1}, Landroid/animation/AnimatorListenerAdapter;->onAnimationEnd(Landroid/animation/Animator;)V
 
-    .line 2
     iget-object p1, p0, Lcom/commsource/mypage/album/t$b;->a:Lcom/commsource/mypage/album/t;
 
     invoke-static {p1}, Lcom/commsource/mypage/album/t;->a(Lcom/commsource/mypage/album/t;)Landroid/widget/ImageView;
@@ -53,7 +50,6 @@
 
     invoke-virtual {p1, v1}, Landroid/widget/ImageView;->setVisibility(I)V
 
-    .line 3
     iget-object p1, p0, Lcom/commsource/mypage/album/t$b;->a:Lcom/commsource/mypage/album/t;
 
     invoke-static {p1}, Lcom/commsource/mypage/album/t;->a(Lcom/commsource/mypage/album/t;)Landroid/widget/ImageView;
@@ -64,7 +60,6 @@
 
     invoke-virtual {p1, v1}, Landroid/widget/ImageView;->setImageDrawable(Landroid/graphics/drawable/Drawable;)V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

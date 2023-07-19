@@ -27,7 +27,6 @@
 .method constructor <init>(Lcom/meitu/mtlab/g/g/d$b;Ljava/lang/String;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/mtlab/g/g/d$b$a;->b:Lcom/meitu/mtlab/g/g/d$b;
 
     iput-object p2, p0, Lcom/meitu/mtlab/g/g/d$b$a;->a:Ljava/lang/String;
@@ -46,19 +45,16 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/mtlab/g/g/d$b$a;->b:Lcom/meitu/mtlab/g/g/d$b;
 
     iget-object v1, v1, Lcom/meitu/mtlab/g/g/d$b;->a:Lcom/meitu/mtlab/g/d/b;
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v1
 
-    .line 3
     invoke-static {}, Lcom/meitu/mtlab/g/e/a;->d()Lcom/meitu/mtlab/g/e/a;
 
     move-result-object v3
@@ -71,7 +67,6 @@
 
     invoke-virtual {v3, v4, v5}, Lcom/meitu/mtlab/g/e/a;->n(J)V
 
-    .line 4
     invoke-static {}, Lcom/meitu/mtlab/g/e/a;->d()Lcom/meitu/mtlab/g/e/a;
 
     move-result-object v3
@@ -88,10 +83,8 @@
 
     invoke-virtual {v3, v1, v2}, Lcom/meitu/mtlab/g/e/a;->s(J)V
 
-    .line 5
     invoke-static {}, Lcom/meitu/mtlab/g/e/b;->d()V
 
-    .line 6
     iget-object v1, p0, Lcom/meitu/mtlab/g/g/d$b$a;->b:Lcom/meitu/mtlab/g/g/d$b;
 
     iget-object v1, v1, Lcom/meitu/mtlab/g/g/d$b;->a:Lcom/meitu/mtlab/g/d/b;
@@ -100,7 +93,6 @@
 
     invoke-interface {v1, v2}, Lcom/meitu/mtlab/g/d/b;->a(Ljava/lang/Object;)V
 
-    .line 7
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

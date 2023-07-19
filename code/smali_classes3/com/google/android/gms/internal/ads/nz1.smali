@@ -11,10 +11,8 @@
 .method constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Lcom/google/android/gms/internal/ads/iz1;-><init>()V
 
-    .line 2
     new-instance v0, Lcom/google/android/gms/internal/ads/mz1;
 
     invoke-direct {v0}, Lcom/google/android/gms/internal/ads/mz1;-><init>()V
@@ -29,10 +27,8 @@
 .method public final a(Ljava/lang/Throwable;Ljava/io/PrintWriter;)V
     .locals 3
 
-    .line 1
     invoke-virtual {p1, p2}, Ljava/lang/Throwable;->printStackTrace(Ljava/io/PrintWriter;)V
 
-    .line 2
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/nz1;->b:Lcom/google/android/gms/internal/ads/mz1;
 
     const/4 v1, 0x0
@@ -45,11 +41,9 @@
 
     return-void
 
-    .line 3
     :cond_0
     monitor-enter p1
 
-    .line 4
     :try_start_0
     invoke-interface {p1}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
@@ -70,15 +64,12 @@
 
     const-string v2, "Suppressed: "
 
-    .line 5
     invoke-virtual {p2, v2}, Ljava/io/PrintWriter;->print(Ljava/lang/String;)V
 
-    .line 6
     invoke-virtual {v1, p2}, Ljava/lang/Throwable;->printStackTrace(Ljava/io/PrintWriter;)V
 
     goto :goto_0
 
-    .line 7
     :cond_1
     monitor-exit p1
 
@@ -101,10 +92,8 @@
 
     const-string v0, "The suppressed exception cannot be null."
 
-    .line 1
     invoke-static {p2, v0}, Ljava/util/Objects;->requireNonNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
 
-    .line 2
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/nz1;->b:Lcom/google/android/gms/internal/ads/mz1;
 
     const/4 v1, 0x1
@@ -117,7 +106,6 @@
 
     return-void
 
-    .line 3
     :cond_0
     new-instance p1, Ljava/lang/IllegalArgumentException;
 

@@ -59,7 +59,6 @@
 
     const-string v17, "/system/xbin/conbb"
 
-    .line 1
     filled-new-array/range {v0 .. v17}, [Ljava/lang/String;
 
     move-result-object v0
@@ -170,7 +169,6 @@
 
     const-string v52, "com.duoyi.giftcenter.giftcenter"
 
-    .line 2
     filled-new-array/range {v1 .. v52}, [Ljava/lang/String;
 
     move-result-object v0
@@ -193,7 +191,6 @@
 
     const-string v8, "/dev/socket/genyd"
 
-    .line 3
     filled-new-array/range {v1 .. v8}, [Ljava/lang/String;
 
     move-result-object v0
@@ -206,7 +203,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -215,7 +211,6 @@
 .method public static a()Ljava/lang/String;
     .locals 2
 
-    .line 1
     :try_start_0
     sget-object v0, Landroid/os/Build;->MODEL:Ljava/lang/String;
     :try_end_0
@@ -226,14 +221,12 @@
     :catchall_0
     move-exception v0
 
-    .line 2
     invoke-static {v0}, Lcom/tencent/bugly/proguard/x;->a(Ljava/lang/Throwable;)Z
 
     move-result v1
 
     if-nez v1, :cond_0
 
-    .line 3
     invoke-virtual {v0}, Ljava/lang/Throwable;->printStackTrace()V
 
     :cond_0
@@ -254,7 +247,6 @@
     :cond_0
     const/4 v1, 0x0
 
-    .line 4
     :try_start_0
     invoke-virtual {p0}, Landroid/content/Context;->getContentResolver()Landroid/content/ContentResolver;
 
@@ -311,7 +303,6 @@
 
     goto :goto_1
 
-    .line 5
     :cond_1
     invoke-virtual {p0}, Ljava/lang/String;->toLowerCase()Ljava/lang/String;
 
@@ -335,7 +326,6 @@
 
     move-object p0, v6
 
-    .line 6
     :goto_0
     invoke-static {v0}, Lcom/tencent/bugly/proguard/x;->a(Ljava/lang/Throwable;)Z
 
@@ -347,7 +337,6 @@
 
     const-string v1, "Failed to get Android ID."
 
-    .line 7
     invoke-static {v1, v0}, Lcom/tencent/bugly/proguard/x;->a(Ljava/lang/String;[Ljava/lang/Object;)Z
 
     :cond_2
@@ -367,12 +356,10 @@
     :try_start_0
     const-string p1, "ro.product.cpu.abilist"
 
-    .line 8
     invoke-static {p0, p1}, Lcom/tencent/bugly/proguard/z;->a(Landroid/content/Context;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p1
 
-    .line 9
     invoke-static {p1}, Lcom/tencent/bugly/proguard/z;->a(Ljava/lang/String;)Z
 
     move-result v2
@@ -388,12 +375,10 @@
     :cond_0
     const-string p1, "ro.product.cpu.abi"
 
-    .line 10
     invoke-static {p0, p1}, Lcom/tencent/bugly/proguard/z;->a(Landroid/content/Context;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p1
 
-    .line 11
     :cond_1
     invoke-static {p1}, Lcom/tencent/bugly/proguard/z;->a(Ljava/lang/String;)Z
 
@@ -409,7 +394,6 @@
 
     goto :goto_0
 
-    .line 12
     :cond_2
     const-class p0, Lcom/tencent/bugly/crashreport/common/info/b;
 
@@ -433,7 +417,6 @@
 
     const-string p0, ","
 
-    .line 13
     invoke-virtual {p1, p0}, Ljava/lang/String;->split(Ljava/lang/String;)[Ljava/lang/String;
 
     move-result-object p0
@@ -453,12 +436,10 @@
 
     const-string p0, "os.arch"
 
-    .line 14
     invoke-static {p0}, Ljava/lang/System;->getProperty(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
 
-    .line 15
     :cond_4
     new-instance p0, Ljava/lang/StringBuilder;
 
@@ -474,7 +455,6 @@
 
     return-object p0
 
-    .line 16
     :goto_1
     invoke-static {p0}, Lcom/tencent/bugly/proguard/x;->a(Ljava/lang/Throwable;)Z
 
@@ -482,7 +462,6 @@
 
     if-nez p1, :cond_5
 
-    .line 17
     invoke-virtual {p0}, Ljava/lang/Throwable;->printStackTrace()V
 
     :cond_5
@@ -492,7 +471,6 @@
 .method private static synthetic ajc$preClinit()V
     .locals 10
 
-    .line 1
     new-instance v8, Ln/a/b/c/e;
 
     const-class v0, Lcom/tencent/bugly/crashreport/common/info/b;
@@ -593,7 +571,6 @@
 .method public static b()Ljava/lang/String;
     .locals 2
 
-    .line 1
     :try_start_0
     sget-object v0, Landroid/os/Build$VERSION;->RELEASE:Ljava/lang/String;
     :try_end_0
@@ -604,14 +581,12 @@
     :catchall_0
     move-exception v0
 
-    .line 2
     invoke-static {v0}, Lcom/tencent/bugly/proguard/x;->a(Ljava/lang/Throwable;)Z
 
     move-result v1
 
     if-nez v1, :cond_0
 
-    .line 3
     invoke-virtual {v0}, Ljava/lang/Throwable;->printStackTrace()V
 
     :cond_0
@@ -628,14 +603,12 @@
     :try_start_0
     const-string v1, "connectivity"
 
-    .line 4
     invoke-virtual {p0, v1}, Landroid/content/Context;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
 
     move-result-object v1
 
     check-cast v1, Landroid/net/ConnectivityManager;
 
-    .line 5
     sget-object v2, Lcom/tencent/bugly/crashreport/common/info/b;->ajc$tjp_1:Lorg/aspectj/lang/c$b;
 
     const/4 v3, 0x0
@@ -680,7 +653,6 @@
 
     return-object v3
 
-    .line 6
     :cond_0
     invoke-virtual {v2}, Landroid/net/NetworkInfo;->getType()I
 
@@ -692,7 +664,6 @@
 
     goto/16 :goto_1
 
-    .line 7
     :cond_1
     invoke-virtual {v2}, Landroid/net/NetworkInfo;->getType()I
 
@@ -702,7 +673,6 @@
 
     const-string v1, "phone"
 
-    .line 8
     invoke-virtual {p0, v1}, Landroid/content/Context;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
 
     move-result-object p0
@@ -711,14 +681,12 @@
 
     if-eqz p0, :cond_2
 
-    .line 9
     invoke-virtual {p0}, Landroid/telephony/TelephonyManager;->getNetworkType()I
 
     move-result p0
 
     packed-switch p0, :pswitch_data_0
 
-    .line 10
     new-instance v1, Ljava/lang/StringBuilder;
 
     goto :goto_0
@@ -822,14 +790,12 @@
     :catch_0
     move-exception p0
 
-    .line 11
     invoke-static {p0}, Lcom/tencent/bugly/proguard/x;->a(Ljava/lang/Throwable;)Z
 
     move-result v1
 
     if-nez v1, :cond_2
 
-    .line 12
     invoke-virtual {p0}, Ljava/lang/Exception;->printStackTrace()V
 
     :cond_2
@@ -861,7 +827,6 @@
 .method public static c()I
     .locals 2
 
-    .line 1
     :try_start_0
     sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
     :try_end_0
@@ -872,14 +837,12 @@
     :catchall_0
     move-exception v0
 
-    .line 2
     invoke-static {v0}, Lcom/tencent/bugly/proguard/x;->a(Ljava/lang/Throwable;)Z
 
     move-result v1
 
     if-nez v1, :cond_0
 
-    .line 3
     invoke-virtual {v0}, Ljava/lang/Throwable;->printStackTrace()V
 
     :cond_0
@@ -893,12 +856,10 @@
 
     const-string v0, "ro.miui.ui.version.name"
 
-    .line 4
     invoke-static {p0, v0}, Lcom/tencent/bugly/proguard/z;->a(Landroid/content/Context;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
 
-    .line 5
     invoke-static {v0}, Lcom/tencent/bugly/proguard/z;->a(Ljava/lang/String;)Z
 
     move-result v1
@@ -913,7 +874,6 @@
 
     if-nez v1, :cond_0
 
-    .line 6
     new-instance p0, Ljava/lang/StringBuilder;
 
     const-string v1, "XiaoMi/MIUI/"
@@ -931,12 +891,10 @@
     :cond_0
     const-string v0, "ro.build.version.emui"
 
-    .line 7
     invoke-static {p0, v0}, Lcom/tencent/bugly/proguard/z;->a(Landroid/content/Context;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
 
-    .line 8
     invoke-static {v0}, Lcom/tencent/bugly/proguard/z;->a(Ljava/lang/String;)Z
 
     move-result v1
@@ -949,7 +907,6 @@
 
     if-nez v1, :cond_1
 
-    .line 9
     new-instance p0, Ljava/lang/StringBuilder;
 
     const-string v1, "HuaWei/EMOTION/"
@@ -967,12 +924,10 @@
     :cond_1
     const-string v0, "ro.lenovo.series"
 
-    .line 10
     invoke-static {p0, v0}, Lcom/tencent/bugly/proguard/z;->a(Landroid/content/Context;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
 
-    .line 11
     invoke-static {v0}, Lcom/tencent/bugly/proguard/z;->a(Ljava/lang/String;)Z
 
     move-result v1
@@ -987,12 +942,10 @@
 
     const-string v0, "ro.build.version.incremental"
 
-    .line 12
     invoke-static {p0, v0}, Lcom/tencent/bugly/proguard/z;->a(Landroid/content/Context;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p0
 
-    .line 13
     new-instance v0, Ljava/lang/StringBuilder;
 
     const-string v1, "Lenovo/VIBE/"
@@ -1010,12 +963,10 @@
     :cond_2
     const-string v0, "ro.build.nubia.rom.name"
 
-    .line 14
     invoke-static {p0, v0}, Lcom/tencent/bugly/proguard/z;->a(Landroid/content/Context;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
 
-    .line 15
     invoke-static {v0}, Lcom/tencent/bugly/proguard/z;->a(Ljava/lang/String;)Z
 
     move-result v1
@@ -1028,7 +979,6 @@
 
     if-nez v1, :cond_3
 
-    .line 16
     new-instance v1, Ljava/lang/StringBuilder;
 
     const-string v2, "Zte/NUBIA/"
@@ -1058,12 +1008,10 @@
     :cond_3
     const-string v0, "ro.meizu.product.model"
 
-    .line 17
     invoke-static {p0, v0}, Lcom/tencent/bugly/proguard/z;->a(Landroid/content/Context;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
 
-    .line 18
     invoke-static {v0}, Lcom/tencent/bugly/proguard/z;->a(Ljava/lang/String;)Z
 
     move-result v1
@@ -1078,7 +1026,6 @@
 
     if-nez v0, :cond_4
 
-    .line 19
     new-instance v0, Ljava/lang/StringBuilder;
 
     const-string v1, "Meizu/FLYME/"
@@ -1100,12 +1047,10 @@
     :cond_4
     const-string v0, "ro.build.version.opporom"
 
-    .line 20
     invoke-static {p0, v0}, Lcom/tencent/bugly/proguard/z;->a(Landroid/content/Context;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
 
-    .line 21
     invoke-static {v0}, Lcom/tencent/bugly/proguard/z;->a(Ljava/lang/String;)Z
 
     move-result v1
@@ -1118,7 +1063,6 @@
 
     if-nez v1, :cond_5
 
-    .line 22
     new-instance p0, Ljava/lang/StringBuilder;
 
     const-string v1, "Oppo/COLOROS/"
@@ -1136,12 +1080,10 @@
     :cond_5
     const-string v0, "ro.vivo.os.build.display.id"
 
-    .line 23
     invoke-static {p0, v0}, Lcom/tencent/bugly/proguard/z;->a(Landroid/content/Context;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
 
-    .line 24
     invoke-static {v0}, Lcom/tencent/bugly/proguard/z;->a(Ljava/lang/String;)Z
 
     move-result v1
@@ -1154,7 +1096,6 @@
 
     if-nez v1, :cond_6
 
-    .line 25
     new-instance p0, Ljava/lang/StringBuilder;
 
     const-string v1, "vivo/FUNTOUCH/"
@@ -1172,12 +1113,10 @@
     :cond_6
     const-string v0, "ro.aa.romver"
 
-    .line 26
     invoke-static {p0, v0}, Lcom/tencent/bugly/proguard/z;->a(Landroid/content/Context;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
 
-    .line 27
     invoke-static {v0}, Lcom/tencent/bugly/proguard/z;->a(Ljava/lang/String;)Z
 
     move-result v1
@@ -1192,7 +1131,6 @@
 
     if-nez v1, :cond_7
 
-    .line 28
     new-instance v1, Ljava/lang/StringBuilder;
 
     const-string v2, "htc/"
@@ -1220,12 +1158,10 @@
     :cond_7
     const-string v0, "ro.lewa.version"
 
-    .line 29
     invoke-static {p0, v0}, Lcom/tencent/bugly/proguard/z;->a(Landroid/content/Context;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
 
-    .line 30
     invoke-static {v0}, Lcom/tencent/bugly/proguard/z;->a(Ljava/lang/String;)Z
 
     move-result v1
@@ -1238,7 +1174,6 @@
 
     if-nez v1, :cond_8
 
-    .line 31
     new-instance v1, Ljava/lang/StringBuilder;
 
     const-string v2, "tcl/"
@@ -1264,12 +1199,10 @@
     :cond_8
     const-string v0, "ro.gn.gnromvernumber"
 
-    .line 32
     invoke-static {p0, v0}, Lcom/tencent/bugly/proguard/z;->a(Landroid/content/Context;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
 
-    .line 33
     invoke-static {v0}, Lcom/tencent/bugly/proguard/z;->a(Ljava/lang/String;)Z
 
     move-result v1
@@ -1282,7 +1215,6 @@
 
     if-nez v1, :cond_9
 
-    .line 34
     new-instance v1, Ljava/lang/StringBuilder;
 
     const-string v2, "amigo/"
@@ -1308,12 +1240,10 @@
     :cond_9
     const-string v0, "ro.build.tyd.kbstyle_version"
 
-    .line 35
     invoke-static {p0, v0}, Lcom/tencent/bugly/proguard/z;->a(Landroid/content/Context;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
 
-    .line 36
     invoke-static {v0}, Lcom/tencent/bugly/proguard/z;->a(Ljava/lang/String;)Z
 
     move-result v1
@@ -1326,7 +1256,6 @@
 
     if-nez v1, :cond_a
 
-    .line 37
     new-instance p0, Ljava/lang/StringBuilder;
 
     const-string v1, "dido/"
@@ -1341,7 +1270,6 @@
 
     return-object p0
 
-    .line 38
     :cond_a
     new-instance v0, Ljava/lang/StringBuilder;
 
@@ -1375,13 +1303,11 @@
 .method public static d()J
     .locals 4
 
-    .line 1
     :try_start_0
     invoke-static {}, Landroid/os/Environment;->getDataDirectory()Ljava/io/File;
 
     move-result-object v0
 
-    .line 2
     new-instance v1, Landroid/os/StatFs;
 
     invoke-virtual {v0}, Ljava/io/File;->getPath()Ljava/lang/String;
@@ -1390,14 +1316,12 @@
 
     invoke-direct {v1, v0}, Landroid/os/StatFs;-><init>(Ljava/lang/String;)V
 
-    .line 3
     invoke-virtual {v1}, Landroid/os/StatFs;->getBlockSize()I
 
     move-result v0
 
     int-to-long v2, v0
 
-    .line 4
     invoke-virtual {v1}, Landroid/os/StatFs;->getBlockCount()I
 
     move-result v0
@@ -1413,14 +1337,12 @@
     :catchall_0
     move-exception v0
 
-    .line 5
     invoke-static {v0}, Lcom/tencent/bugly/proguard/x;->a(Ljava/lang/Throwable;)Z
 
     move-result v1
 
     if-nez v1, :cond_0
 
-    .line 6
     invoke-virtual {v0}, Ljava/lang/Throwable;->printStackTrace()V
 
     :cond_0
@@ -1435,7 +1357,6 @@
 
     const-string v0, "ro.board.platform"
 
-    .line 7
     invoke-static {p0, v0}, Lcom/tencent/bugly/proguard/z;->a(Landroid/content/Context;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p0
@@ -1446,13 +1367,11 @@
 .method public static e()J
     .locals 4
 
-    .line 1
     :try_start_0
     invoke-static {}, Landroid/os/Environment;->getDataDirectory()Ljava/io/File;
 
     move-result-object v0
 
-    .line 2
     new-instance v1, Landroid/os/StatFs;
 
     invoke-virtual {v0}, Ljava/io/File;->getPath()Ljava/lang/String;
@@ -1461,14 +1380,12 @@
 
     invoke-direct {v1, v0}, Landroid/os/StatFs;-><init>(Ljava/lang/String;)V
 
-    .line 3
     invoke-virtual {v1}, Landroid/os/StatFs;->getBlockSize()I
 
     move-result v0
 
     int-to-long v2, v0
 
-    .line 4
     invoke-virtual {v1}, Landroid/os/StatFs;->getAvailableBlocks()I
 
     move-result v0
@@ -1484,14 +1401,12 @@
     :catchall_0
     move-exception v0
 
-    .line 5
     invoke-static {v0}, Lcom/tencent/bugly/proguard/x;->a(Ljava/lang/Throwable;)Z
 
     move-result v1
 
     if-nez v1, :cond_0
 
-    .line 6
     invoke-virtual {v0}, Ljava/lang/Throwable;->printStackTrace()V
 
     :cond_0
@@ -1504,7 +1419,6 @@
 .method public static e(Landroid/content/Context;)Z
     .locals 4
 
-    .line 7
     invoke-static {p0}, Lcom/tencent/bugly/crashreport/common/info/b;->g(Landroid/content/Context;)Ljava/lang/String;
 
     move-result-object p0
@@ -1603,7 +1517,6 @@
 
     const/4 v1, 0x0
 
-    .line 1
     :try_start_0
     new-instance v2, Ljava/io/FileReader;
 
@@ -1611,7 +1524,6 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_2
 
-    .line 2
     :try_start_1
     new-instance v0, Ljava/io/BufferedReader;
 
@@ -1621,7 +1533,6 @@
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_1
 
-    .line 3
     :try_start_2
     invoke-virtual {v0}, Ljava/io/BufferedReader;->readLine()Ljava/lang/String;
 
@@ -1631,7 +1542,6 @@
 
     if-nez v1, :cond_2
 
-    .line 4
     :try_start_3
     invoke-virtual {v0}, Ljava/io/BufferedReader;->close()V
     :try_end_3
@@ -1642,17 +1552,14 @@
     :catch_0
     move-exception v0
 
-    .line 5
     invoke-static {v0}, Lcom/tencent/bugly/proguard/x;->a(Ljava/lang/Throwable;)Z
 
     move-result v1
 
     if-nez v1, :cond_0
 
-    .line 6
     invoke-virtual {v0}, Ljava/io/IOException;->printStackTrace()V
 
-    .line 7
     :cond_0
     :goto_0
     :try_start_4
@@ -1665,14 +1572,12 @@
     :catch_1
     move-exception v0
 
-    .line 8
     invoke-static {v0}, Lcom/tencent/bugly/proguard/x;->a(Ljava/lang/Throwable;)Z
 
     move-result v1
 
     if-nez v1, :cond_1
 
-    .line 9
     invoke-virtual {v0}, Ljava/io/IOException;->printStackTrace()V
 
     :cond_1
@@ -1687,14 +1592,12 @@
 
     const/4 v4, 0x2
 
-    .line 10
     invoke-virtual {v1, v3, v4}, Ljava/lang/String;->split(Ljava/lang/String;I)[Ljava/lang/String;
 
     move-result-object v1
 
     const/4 v3, 0x1
 
-    .line 11
     aget-object v1, v1, v3
 
     invoke-virtual {v1}, Ljava/lang/String;->toLowerCase()Ljava/lang/String;
@@ -1705,7 +1608,6 @@
 
     const-string v4, ""
 
-    .line 12
     invoke-virtual {v1, v3, v4}, Ljava/lang/String;->replace(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)Ljava/lang/String;
 
     move-result-object v1
@@ -1714,7 +1616,6 @@
 
     move-result-object v1
 
-    .line 13
     invoke-static {v1}, Ljava/lang/Long;->parseLong(Ljava/lang/String;)J
 
     move-result-wide v3
@@ -1725,7 +1626,6 @@
 
     shl-long/2addr v3, v1
 
-    .line 14
     :try_start_6
     invoke-virtual {v0}, Ljava/io/BufferedReader;->close()V
     :try_end_6
@@ -1736,17 +1636,14 @@
     :catch_2
     move-exception v0
 
-    .line 15
     invoke-static {v0}, Lcom/tencent/bugly/proguard/x;->a(Ljava/lang/Throwable;)Z
 
     move-result v1
 
     if-nez v1, :cond_3
 
-    .line 16
     invoke-virtual {v0}, Ljava/io/IOException;->printStackTrace()V
 
-    .line 17
     :cond_3
     :goto_2
     :try_start_7
@@ -1759,14 +1656,12 @@
     :catch_3
     move-exception v0
 
-    .line 18
     invoke-static {v0}, Lcom/tencent/bugly/proguard/x;->a(Ljava/lang/Throwable;)Z
 
     move-result v1
 
     if-nez v1, :cond_4
 
-    .line 19
     invoke-virtual {v0}, Ljava/io/IOException;->printStackTrace()V
 
     :cond_4
@@ -1798,7 +1693,6 @@
 
     move-object v0, v2
 
-    .line 20
     :goto_4
     :try_start_8
     invoke-static {v1}, Lcom/tencent/bugly/proguard/x;->a(Ljava/lang/Throwable;)Z
@@ -1807,7 +1701,6 @@
 
     if-nez v3, :cond_5
 
-    .line 21
     invoke-virtual {v1}, Ljava/lang/Throwable;->printStackTrace()V
     :try_end_8
     .catchall {:try_start_8 .. :try_end_8} :catchall_3
@@ -1815,7 +1708,6 @@
     :cond_5
     if-eqz v0, :cond_6
 
-    .line 22
     :try_start_9
     invoke-virtual {v0}, Ljava/io/BufferedReader;->close()V
     :try_end_9
@@ -1826,21 +1718,18 @@
     :catch_4
     move-exception v0
 
-    .line 23
     invoke-static {v0}, Lcom/tencent/bugly/proguard/x;->a(Ljava/lang/Throwable;)Z
 
     move-result v1
 
     if-nez v1, :cond_6
 
-    .line 24
     invoke-virtual {v0}, Ljava/io/IOException;->printStackTrace()V
 
     :cond_6
     :goto_5
     if-eqz v2, :cond_7
 
-    .line 25
     :try_start_a
     invoke-virtual {v2}, Ljava/io/FileReader;->close()V
     :try_end_a
@@ -1851,14 +1740,12 @@
     :catch_5
     move-exception v0
 
-    .line 26
     invoke-static {v0}, Lcom/tencent/bugly/proguard/x;->a(Ljava/lang/Throwable;)Z
 
     move-result v1
 
     if-nez v1, :cond_7
 
-    .line 27
     invoke-virtual {v0}, Ljava/io/IOException;->printStackTrace()V
 
     :cond_7
@@ -1872,7 +1759,6 @@
 
     if-eqz v0, :cond_8
 
-    .line 28
     :try_start_b
     invoke-virtual {v0}, Ljava/io/BufferedReader;->close()V
     :try_end_b
@@ -1883,21 +1769,18 @@
     :catch_6
     move-exception v0
 
-    .line 29
     invoke-static {v0}, Lcom/tencent/bugly/proguard/x;->a(Ljava/lang/Throwable;)Z
 
     move-result v3
 
     if-nez v3, :cond_8
 
-    .line 30
     invoke-virtual {v0}, Ljava/io/IOException;->printStackTrace()V
 
     :cond_8
     :goto_7
     if-eqz v2, :cond_9
 
-    .line 31
     :try_start_c
     invoke-virtual {v2}, Ljava/io/FileReader;->close()V
     :try_end_c
@@ -1908,17 +1791,14 @@
     :catch_7
     move-exception v0
 
-    .line 32
     invoke-static {v0}, Lcom/tencent/bugly/proguard/x;->a(Ljava/lang/Throwable;)Z
 
     move-result v2
 
     if-nez v2, :cond_9
 
-    .line 33
     invoke-virtual {v0}, Ljava/io/IOException;->printStackTrace()V
 
-    .line 34
     :cond_9
     :goto_8
     throw v1
@@ -1927,7 +1807,6 @@
 .method public static f(Landroid/content/Context;)Z
     .locals 1
 
-    .line 35
     invoke-static {p0}, Lcom/tencent/bugly/crashreport/common/info/b;->h(Landroid/content/Context;)I
 
     move-result p0
@@ -1975,7 +1854,6 @@
 
     const/4 v4, 0x0
 
-    .line 1
     :try_start_0
     new-instance v5, Ljava/io/FileReader;
 
@@ -1983,7 +1861,6 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_2
 
-    .line 2
     :try_start_1
     new-instance v3, Ljava/io/BufferedReader;
 
@@ -1993,11 +1870,9 @@
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_1
 
-    .line 3
     :try_start_2
     invoke-virtual {v3}, Ljava/io/BufferedReader;->readLine()Ljava/lang/String;
 
-    .line 4
     invoke-virtual {v3}, Ljava/io/BufferedReader;->readLine()Ljava/lang/String;
 
     move-result-object v4
@@ -2008,7 +1883,6 @@
 
     if-nez v4, :cond_2
 
-    .line 5
     :try_start_3
     invoke-virtual {v3}, Ljava/io/BufferedReader;->close()V
     :try_end_3
@@ -2019,17 +1893,14 @@
     :catch_0
     move-exception v0
 
-    .line 6
     invoke-static {v0}, Lcom/tencent/bugly/proguard/x;->a(Ljava/lang/Throwable;)Z
 
     move-result v1
 
     if-nez v1, :cond_0
 
-    .line 7
     invoke-virtual {v0}, Ljava/io/IOException;->printStackTrace()V
 
-    .line 8
     :cond_0
     :goto_0
     :try_start_4
@@ -2042,14 +1913,12 @@
     :catch_1
     move-exception v0
 
-    .line 9
     invoke-static {v0}, Lcom/tencent/bugly/proguard/x;->a(Ljava/lang/Throwable;)Z
 
     move-result v1
 
     if-nez v1, :cond_1
 
-    .line 10
     invoke-virtual {v0}, Ljava/io/IOException;->printStackTrace()V
 
     :cond_1
@@ -2059,7 +1928,6 @@
     :cond_2
     const/4 v8, 0x2
 
-    .line 11
     :try_start_5
     invoke-virtual {v4, v2, v8}, Ljava/lang/String;->split(Ljava/lang/String;I)[Ljava/lang/String;
 
@@ -2067,14 +1935,12 @@
 
     const/4 v9, 0x1
 
-    .line 12
     aget-object v4, v4, v9
 
     invoke-virtual {v4}, Ljava/lang/String;->toLowerCase()Ljava/lang/String;
 
     move-result-object v4
 
-    .line 13
     invoke-virtual {v4, v1, v0}, Ljava/lang/String;->replace(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)Ljava/lang/String;
 
     move-result-object v4
@@ -2085,7 +1951,6 @@
 
     const-wide/16 v10, 0x0
 
-    .line 14
     invoke-static {v4}, Ljava/lang/Long;->parseLong(Ljava/lang/String;)J
 
     move-result-wide v12
@@ -2096,7 +1961,6 @@
 
     add-long/2addr v12, v10
 
-    .line 15
     invoke-virtual {v3}, Ljava/io/BufferedReader;->readLine()Ljava/lang/String;
 
     move-result-object v10
@@ -2105,7 +1969,6 @@
 
     if-nez v10, :cond_5
 
-    .line 16
     :try_start_6
     invoke-virtual {v3}, Ljava/io/BufferedReader;->close()V
     :try_end_6
@@ -2116,17 +1979,14 @@
     :catch_2
     move-exception v0
 
-    .line 17
     invoke-static {v0}, Lcom/tencent/bugly/proguard/x;->a(Ljava/lang/Throwable;)Z
 
     move-result v1
 
     if-nez v1, :cond_3
 
-    .line 18
     invoke-virtual {v0}, Ljava/io/IOException;->printStackTrace()V
 
-    .line 19
     :cond_3
     :goto_2
     :try_start_7
@@ -2139,35 +1999,30 @@
     :catch_3
     move-exception v0
 
-    .line 20
     invoke-static {v0}, Lcom/tencent/bugly/proguard/x;->a(Ljava/lang/Throwable;)Z
 
     move-result v1
 
     if-nez v1, :cond_4
 
-    .line 21
     invoke-virtual {v0}, Ljava/io/IOException;->printStackTrace()V
 
     :cond_4
     :goto_3
     return-wide v6
 
-    .line 22
     :cond_5
     :try_start_8
     invoke-virtual {v10, v2, v8}, Ljava/lang/String;->split(Ljava/lang/String;I)[Ljava/lang/String;
 
     move-result-object v10
 
-    .line 23
     aget-object v10, v10, v9
 
     invoke-virtual {v10}, Ljava/lang/String;->toLowerCase()Ljava/lang/String;
 
     move-result-object v10
 
-    .line 24
     invoke-virtual {v10, v1, v0}, Ljava/lang/String;->replace(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)Ljava/lang/String;
 
     move-result-object v10
@@ -2176,7 +2031,6 @@
 
     move-result-object v10
 
-    .line 25
     invoke-static {v10}, Ljava/lang/Long;->parseLong(Ljava/lang/String;)J
 
     move-result-wide v10
@@ -2185,7 +2039,6 @@
 
     add-long/2addr v12, v10
 
-    .line 26
     invoke-virtual {v3}, Ljava/io/BufferedReader;->readLine()Ljava/lang/String;
 
     move-result-object v10
@@ -2194,7 +2047,6 @@
 
     if-nez v10, :cond_8
 
-    .line 27
     :try_start_9
     invoke-virtual {v3}, Ljava/io/BufferedReader;->close()V
     :try_end_9
@@ -2205,17 +2057,14 @@
     :catch_4
     move-exception v0
 
-    .line 28
     invoke-static {v0}, Lcom/tencent/bugly/proguard/x;->a(Ljava/lang/Throwable;)Z
 
     move-result v1
 
     if-nez v1, :cond_6
 
-    .line 29
     invoke-virtual {v0}, Ljava/io/IOException;->printStackTrace()V
 
-    .line 30
     :cond_6
     :goto_4
     :try_start_a
@@ -2228,35 +2077,30 @@
     :catch_5
     move-exception v0
 
-    .line 31
     invoke-static {v0}, Lcom/tencent/bugly/proguard/x;->a(Ljava/lang/Throwable;)Z
 
     move-result v1
 
     if-nez v1, :cond_7
 
-    .line 32
     invoke-virtual {v0}, Ljava/io/IOException;->printStackTrace()V
 
     :cond_7
     :goto_5
     return-wide v6
 
-    .line 33
     :cond_8
     :try_start_b
     invoke-virtual {v10, v2, v8}, Ljava/lang/String;->split(Ljava/lang/String;I)[Ljava/lang/String;
 
     move-result-object v2
 
-    .line 34
     aget-object v2, v2, v9
 
     invoke-virtual {v2}, Ljava/lang/String;->toLowerCase()Ljava/lang/String;
 
     move-result-object v2
 
-    .line 35
     invoke-virtual {v2, v1, v0}, Ljava/lang/String;->replace(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)Ljava/lang/String;
 
     move-result-object v0
@@ -2265,7 +2109,6 @@
 
     move-result-object v0
 
-    .line 36
     invoke-static {v0}, Ljava/lang/Long;->parseLong(Ljava/lang/String;)J
 
     move-result-wide v0
@@ -2276,7 +2119,6 @@
 
     add-long/2addr v12, v0
 
-    .line 37
     :try_start_c
     invoke-virtual {v3}, Ljava/io/BufferedReader;->close()V
     :try_end_c
@@ -2287,17 +2129,14 @@
     :catch_6
     move-exception v0
 
-    .line 38
     invoke-static {v0}, Lcom/tencent/bugly/proguard/x;->a(Ljava/lang/Throwable;)Z
 
     move-result v1
 
     if-nez v1, :cond_9
 
-    .line 39
     invoke-virtual {v0}, Ljava/io/IOException;->printStackTrace()V
 
-    .line 40
     :cond_9
     :goto_6
     :try_start_d
@@ -2310,14 +2149,12 @@
     :catch_7
     move-exception v0
 
-    .line 41
     invoke-static {v0}, Lcom/tencent/bugly/proguard/x;->a(Ljava/lang/Throwable;)Z
 
     move-result v1
 
     if-nez v1, :cond_a
 
-    .line 42
     invoke-virtual {v0}, Ljava/io/IOException;->printStackTrace()V
 
     :cond_a
@@ -2341,7 +2178,6 @@
 
     move-object v5, v4
 
-    .line 43
     :goto_8
     :try_start_e
     invoke-static {v0}, Lcom/tencent/bugly/proguard/x;->a(Ljava/lang/Throwable;)Z
@@ -2350,7 +2186,6 @@
 
     if-nez v1, :cond_b
 
-    .line 44
     invoke-virtual {v0}, Ljava/lang/Throwable;->printStackTrace()V
     :try_end_e
     .catchall {:try_start_e .. :try_end_e} :catchall_3
@@ -2358,7 +2193,6 @@
     :cond_b
     if-eqz v4, :cond_c
 
-    .line 45
     :try_start_f
     invoke-virtual {v4}, Ljava/io/BufferedReader;->close()V
     :try_end_f
@@ -2369,21 +2203,18 @@
     :catch_8
     move-exception v0
 
-    .line 46
     invoke-static {v0}, Lcom/tencent/bugly/proguard/x;->a(Ljava/lang/Throwable;)Z
 
     move-result v1
 
     if-nez v1, :cond_c
 
-    .line 47
     invoke-virtual {v0}, Ljava/io/IOException;->printStackTrace()V
 
     :cond_c
     :goto_9
     if-eqz v5, :cond_d
 
-    .line 48
     :try_start_10
     invoke-virtual {v5}, Ljava/io/FileReader;->close()V
     :try_end_10
@@ -2394,14 +2225,12 @@
     :catch_9
     move-exception v0
 
-    .line 49
     invoke-static {v0}, Lcom/tencent/bugly/proguard/x;->a(Ljava/lang/Throwable;)Z
 
     move-result v1
 
     if-nez v1, :cond_d
 
-    .line 50
     invoke-virtual {v0}, Ljava/io/IOException;->printStackTrace()V
 
     :cond_d
@@ -2415,7 +2244,6 @@
 
     if-eqz v4, :cond_e
 
-    .line 51
     :try_start_11
     invoke-virtual {v4}, Ljava/io/BufferedReader;->close()V
     :try_end_11
@@ -2426,21 +2254,18 @@
     :catch_a
     move-exception v1
 
-    .line 52
     invoke-static {v1}, Lcom/tencent/bugly/proguard/x;->a(Ljava/lang/Throwable;)Z
 
     move-result v2
 
     if-nez v2, :cond_e
 
-    .line 53
     invoke-virtual {v1}, Ljava/io/IOException;->printStackTrace()V
 
     :cond_e
     :goto_b
     if-eqz v5, :cond_f
 
-    .line 54
     :try_start_12
     invoke-virtual {v5}, Ljava/io/FileReader;->close()V
     :try_end_12
@@ -2451,17 +2276,14 @@
     :catch_b
     move-exception v1
 
-    .line 55
     invoke-static {v1}, Lcom/tencent/bugly/proguard/x;->a(Ljava/lang/Throwable;)Z
 
     move-result v2
 
     if-nez v2, :cond_f
 
-    .line 56
     invoke-virtual {v1}, Ljava/io/IOException;->printStackTrace()V
 
-    .line 57
     :cond_f
     :goto_c
     throw v0
@@ -2470,19 +2292,16 @@
 .method private static g(Landroid/content/Context;)Ljava/lang/String;
     .locals 4
 
-    .line 58
     invoke-virtual {p0}, Landroid/content/Context;->getPackageManager()Landroid/content/pm/PackageManager;
 
     move-result-object p0
 
-    .line 59
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
 
     const/4 v1, 0x0
 
-    .line 60
     :goto_0
     sget-object v2, Lcom/tencent/bugly/crashreport/common/info/b;->b:[Ljava/lang/String;
 
@@ -2490,7 +2309,6 @@
 
     if-ge v1, v3, :cond_0
 
-    .line 61
     :try_start_0
     aget-object v2, v2, v1
 
@@ -2498,7 +2316,6 @@
 
     invoke-virtual {p0, v2, v3}, Landroid/content/pm/PackageManager;->getPackageInfo(Ljava/lang/String;I)Landroid/content/pm/PackageInfo;
 
-    .line 62
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v2
@@ -2512,7 +2329,6 @@
 
     goto :goto_0
 
-    .line 63
     :cond_0
     invoke-virtual {v0}, Ljava/util/ArrayList;->isEmpty()Z
 
@@ -2535,7 +2351,6 @@
 .method static final synthetic getActiveNetworkInfo_aroundBody2(Landroid/net/ConnectivityManager;Lorg/aspectj/lang/c;)Landroid/net/NetworkInfo;
     .locals 0
 
-    .line 1
     invoke-virtual {p0}, Landroid/net/ConnectivityManager;->getActiveNetworkInfo()Landroid/net/NetworkInfo;
 
     move-result-object p0
@@ -2546,7 +2361,6 @@
 .method static final synthetic getString_aroundBody0(Landroid/content/ContentResolver;Ljava/lang/String;Lorg/aspectj/lang/c;)Ljava/lang/String;
     .locals 0
 
-    .line 1
     invoke-static {p0, p1}, Landroid/provider/Settings$Secure;->getString(Landroid/content/ContentResolver;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p0
@@ -2557,7 +2371,6 @@
 .method private static h(Landroid/content/Context;)I
     .locals 2
 
-    .line 7
     invoke-virtual {p0}, Landroid/content/Context;->getPackageManager()Landroid/content/pm/PackageManager;
 
     move-result-object p0
@@ -2565,7 +2378,6 @@
     :try_start_0
     const-string v0, "de.robv.android.xposed.installer"
 
-    .line 8
     invoke-virtual {p0, v0}, Landroid/content/pm/PackageManager;->getInstallerPackageName(Ljava/lang/String;)Ljava/lang/String;
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
@@ -2581,7 +2393,6 @@
     :try_start_1
     const-string v1, "com.saurik.substrate"
 
-    .line 9
     invoke-virtual {p0, v1}, Landroid/content/pm/PackageManager;->getInstallerPackageName(Ljava/lang/String;)Ljava/lang/String;
     :try_end_1
     .catch Ljava/lang/Exception; {:try_start_1 .. :try_end_1} :catch_1
@@ -2595,7 +2406,6 @@
 .method public static h()J
     .locals 4
 
-    .line 1
     invoke-static {}, Lcom/tencent/bugly/crashreport/common/info/b;->n()Z
 
     move-result v0
@@ -2606,7 +2416,6 @@
 
     return-wide v0
 
-    .line 2
     :cond_0
     :try_start_0
     new-instance v0, Landroid/os/StatFs;
@@ -2621,12 +2430,10 @@
 
     invoke-direct {v0, v1}, Landroid/os/StatFs;-><init>(Ljava/lang/String;)V
 
-    .line 3
     invoke-virtual {v0}, Landroid/os/StatFs;->getBlockSize()I
 
     move-result v1
 
-    .line 4
     invoke-virtual {v0}, Landroid/os/StatFs;->getBlockCount()I
 
     move-result v0
@@ -2644,14 +2451,12 @@
     :catchall_0
     move-exception v0
 
-    .line 5
     invoke-static {v0}, Lcom/tencent/bugly/proguard/x;->a(Ljava/lang/Throwable;)Z
 
     move-result v1
 
     if-nez v1, :cond_1
 
-    .line 6
     invoke-virtual {v0}, Ljava/lang/Throwable;->printStackTrace()V
 
     :cond_1
@@ -2663,7 +2468,6 @@
 .method public static i()J
     .locals 4
 
-    .line 1
     invoke-static {}, Lcom/tencent/bugly/crashreport/common/info/b;->n()Z
 
     move-result v0
@@ -2674,7 +2478,6 @@
 
     return-wide v0
 
-    .line 2
     :cond_0
     :try_start_0
     new-instance v0, Landroid/os/StatFs;
@@ -2689,12 +2492,10 @@
 
     invoke-direct {v0, v1}, Landroid/os/StatFs;-><init>(Ljava/lang/String;)V
 
-    .line 3
     invoke-virtual {v0}, Landroid/os/StatFs;->getBlockSize()I
 
     move-result v1
 
-    .line 4
     invoke-virtual {v0}, Landroid/os/StatFs;->getAvailableBlocks()I
 
     move-result v0
@@ -2712,14 +2513,12 @@
     :catchall_0
     move-exception v0
 
-    .line 5
     invoke-static {v0}, Lcom/tencent/bugly/proguard/x;->a(Ljava/lang/Throwable;)Z
 
     move-result v1
 
     if-nez v1, :cond_1
 
-    .line 6
     invoke-virtual {v0}, Ljava/lang/Throwable;->printStackTrace()V
 
     :cond_1
@@ -2731,7 +2530,6 @@
 .method static final synthetic invoke_aroundBody4(Ljava/lang/reflect/Method;Ljava/lang/Object;[Ljava/lang/Object;Lorg/aspectj/lang/c;)Ljava/lang/Object;
     .locals 0
 
-    .line 1
     invoke-virtual {p0, p1, p2}, Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p0
@@ -2750,7 +2548,6 @@
 .method public static k()Ljava/lang/String;
     .locals 2
 
-    .line 1
     :try_start_0
     sget-object v0, Landroid/os/Build;->BRAND:Ljava/lang/String;
     :try_end_0
@@ -2761,14 +2558,12 @@
     :catchall_0
     move-exception v0
 
-    .line 2
     invoke-static {v0}, Lcom/tencent/bugly/proguard/x;->a(Ljava/lang/Throwable;)Z
 
     move-result v1
 
     if-nez v1, :cond_0
 
-    .line 3
     invoke-virtual {v0}, Ljava/lang/Throwable;->printStackTrace()V
 
     :cond_0
@@ -2781,7 +2576,6 @@
 .method public static l()Z
     .locals 7
 
-    .line 1
     sget-object v0, Lcom/tencent/bugly/crashreport/common/info/b;->a:[Ljava/lang/String;
 
     array-length v1, v0
@@ -2797,7 +2591,6 @@
 
     aget-object v5, v0, v3
 
-    .line 2
     new-instance v6, Ljava/io/File;
 
     invoke-direct {v6, v5}, Ljava/io/File;-><init>(Ljava/lang/String;)V
@@ -2820,7 +2613,6 @@
     :cond_1
     const/4 v0, 0x0
 
-    .line 3
     :goto_1
     sget-object v1, Landroid/os/Build;->TAGS:Ljava/lang/String;
 
@@ -2859,7 +2651,6 @@
 .method public static m()Z
     .locals 6
 
-    .line 1
     invoke-static {}, Ljava/lang/Runtime;->getRuntime()Ljava/lang/Runtime;
 
     move-result-object v0
@@ -2876,7 +2667,6 @@
 
     double-to-float v0, v0
 
-    .line 2
     invoke-static {}, Ljava/lang/Runtime;->getRuntime()Ljava/lang/Runtime;
 
     move-result-object v1
@@ -2897,7 +2687,6 @@
 
     new-array v4, v3, [Ljava/lang/Object;
 
-    .line 3
     invoke-static {v0}, Ljava/lang/Float;->valueOf(F)Ljava/lang/Float;
 
     move-result-object v0
@@ -2912,7 +2701,6 @@
 
     new-array v0, v3, [Ljava/lang/Object;
 
-    .line 4
     invoke-static {v1}, Ljava/lang/Float;->valueOf(F)Ljava/lang/Float;
 
     move-result-object v1
@@ -2925,7 +2713,6 @@
 
     new-array v0, v3, [Ljava/lang/Object;
 
-    .line 5
     invoke-static {v2}, Ljava/lang/Float;->valueOf(F)Ljava/lang/Float;
 
     move-result-object v1
@@ -2951,7 +2738,6 @@
 .method private static n()Z
     .locals 2
 
-    .line 1
     :try_start_0
     invoke-static {}, Landroid/os/Environment;->getExternalStorageState()Ljava/lang/String;
 
@@ -2974,14 +2760,12 @@
     :catchall_0
     move-exception v0
 
-    .line 2
     invoke-static {v0}, Lcom/tencent/bugly/proguard/x;->a(Ljava/lang/Throwable;)Z
 
     move-result v1
 
     if-nez v1, :cond_0
 
-    .line 3
     invoke-virtual {v0}, Ljava/lang/Throwable;->printStackTrace()V
 
     :cond_0
@@ -2998,7 +2782,6 @@
     :try_start_0
     const-string v1, "android.app.ActivityManagerNative"
 
-    .line 1
     invoke-static {v1}, Ljava/lang/Class;->forName(Ljava/lang/String;)Ljava/lang/Class;
 
     move-result-object v1
@@ -3009,19 +2792,16 @@
 
     new-array v4, v3, [Ljava/lang/Class;
 
-    .line 2
     invoke-virtual {v1, v2, v4}, Ljava/lang/Class;->getMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
 
     move-result-object v1
 
     const/4 v2, 0x1
 
-    .line 3
     invoke-virtual {v1, v2}, Ljava/lang/reflect/Method;->setAccessible(Z)V
 
     new-array v4, v3, [Ljava/lang/Object;
 
-    .line 4
     sget-object v5, Lcom/tencent/bugly/crashreport/common/info/b;->ajc$tjp_2:Lorg/aspectj/lang/c$b;
 
     const/4 v6, 0x0
@@ -3074,7 +2854,6 @@
 
     const-string v2, "$Proxy"
 
-    .line 5
     invoke-virtual {v1, v2}, Ljava/lang/String;->startsWith(Ljava/lang/String;)Z
 
     move-result v1
@@ -3096,7 +2875,6 @@
 .method private static p()I
     .locals 9
 
-    .line 1
     :try_start_0
     new-instance v0, Ljava/lang/Exception;
 
@@ -3111,12 +2889,10 @@
     :catch_0
     move-exception v0
 
-    .line 2
     invoke-virtual {v0}, Ljava/lang/Exception;->getStackTrace()[Ljava/lang/StackTraceElement;
 
     move-result-object v0
 
-    .line 3
     array-length v1, v0
 
     const/4 v2, 0x0
@@ -3128,10 +2904,8 @@
     :goto_0
     if-ge v2, v1, :cond_4
 
-    .line 4
     aget-object v5, v0, v2
 
-    .line 5
     invoke-virtual {v5}, Ljava/lang/StackTraceElement;->getClassName()Ljava/lang/String;
 
     move-result-object v6
@@ -3158,7 +2932,6 @@
 
     or-int/lit8 v3, v3, 0x4
 
-    .line 6
     :cond_0
     invoke-virtual {v5}, Ljava/lang/StackTraceElement;->getClassName()Ljava/lang/String;
 
@@ -3184,7 +2957,6 @@
 
     or-int/lit8 v3, v3, 0x8
 
-    .line 7
     :cond_1
     invoke-virtual {v5}, Ljava/lang/StackTraceElement;->getClassName()Ljava/lang/String;
 
@@ -3212,7 +2984,6 @@
 
     or-int/lit8 v3, v3, 0x10
 
-    .line 8
     :cond_2
     invoke-virtual {v5}, Ljava/lang/StackTraceElement;->getClassName()Ljava/lang/String;
 
@@ -3250,13 +3021,11 @@
 
     const/4 v1, 0x0
 
-    .line 1
     :try_start_0
     new-instance v2, Ljava/util/HashSet;
 
     invoke-direct {v2}, Ljava/util/HashSet;-><init>()V
 
-    .line 2
     new-instance v3, Ljava/io/BufferedReader;
 
     new-instance v4, Ljava/io/InputStreamReader;
@@ -3296,7 +3065,6 @@
     .catch Ljava/io/IOException; {:try_start_0 .. :try_end_0} :catch_4
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 3
     :cond_0
     :goto_0
     :try_start_1
@@ -3308,7 +3076,6 @@
 
     const-string v4, ".so"
 
-    .line 4
     invoke-virtual {v1, v4}, Ljava/lang/String;->endsWith(Ljava/lang/String;)Z
 
     move-result v4
@@ -3326,7 +3093,6 @@
     :cond_1
     const-string v4, " "
 
-    .line 5
     invoke-virtual {v1, v4}, Ljava/lang/String;->lastIndexOf(Ljava/lang/String;)I
 
     move-result v4
@@ -3341,13 +3107,11 @@
 
     goto :goto_0
 
-    .line 6
     :cond_2
     invoke-virtual {v2}, Ljava/util/HashSet;->iterator()Ljava/util/Iterator;
 
     move-result-object v1
 
-    .line 7
     :cond_3
     :goto_1
     invoke-interface {v1}, Ljava/util/Iterator;->hasNext()Z
@@ -3356,12 +3120,10 @@
 
     if-eqz v2, :cond_5
 
-    .line 8
     invoke-interface {v1}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
     move-result-object v2
 
-    .line 9
     move-object v4, v2
 
     check-cast v4, Ljava/lang/String;
@@ -3380,7 +3142,6 @@
 
     or-int/lit8 v0, v0, 0x40
 
-    .line 10
     :cond_4
     check-cast v2, Ljava/lang/String;
 
@@ -3401,7 +3162,6 @@
 
     goto :goto_1
 
-    .line 11
     :cond_5
     :try_start_2
     invoke-virtual {v3}, Ljava/io/BufferedReader;->close()V
@@ -3413,7 +3173,6 @@
     :catch_0
     move-exception v1
 
-    .line 12
     invoke-virtual {v1}, Ljava/io/IOException;->printStackTrace()V
 
     goto :goto_5
@@ -3445,7 +3204,6 @@
 
     move-object v1, v2
 
-    .line 13
     :goto_2
     :try_start_3
     invoke-virtual {v1}, Ljava/io/IOException;->printStackTrace()V
@@ -3454,7 +3212,6 @@
 
     if-eqz v3, :cond_6
 
-    .line 14
     :try_start_4
     invoke-virtual {v3}, Ljava/io/BufferedReader;->close()V
     :try_end_4
@@ -3469,7 +3226,6 @@
 
     move-object v1, v2
 
-    .line 15
     :goto_3
     :try_start_5
     invoke-virtual {v1}, Ljava/io/FileNotFoundException;->printStackTrace()V
@@ -3478,7 +3234,6 @@
 
     if-eqz v3, :cond_6
 
-    .line 16
     :try_start_6
     invoke-virtual {v3}, Ljava/io/BufferedReader;->close()V
     :try_end_6
@@ -3493,7 +3248,6 @@
 
     move-object v1, v2
 
-    .line 17
     :goto_4
     :try_start_7
     invoke-virtual {v1}, Ljava/io/UnsupportedEncodingException;->printStackTrace()V
@@ -3502,7 +3256,6 @@
 
     if-eqz v3, :cond_6
 
-    .line 18
     :try_start_8
     invoke-virtual {v3}, Ljava/io/BufferedReader;->close()V
     :try_end_8
@@ -3530,10 +3283,8 @@
     :catch_7
     move-exception v1
 
-    .line 19
     invoke-virtual {v1}, Ljava/io/IOException;->printStackTrace()V
 
-    .line 20
     :cond_7
     :goto_7
     throw v0

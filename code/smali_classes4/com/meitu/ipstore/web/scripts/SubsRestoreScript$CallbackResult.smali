@@ -48,13 +48,10 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/meitu/ipstore/web/scripts/SubsRestoreScript$CallbackResult;->subsId:[Ljava/lang/String;
 
-    .line 3
     iput-object p2, p0, Lcom/meitu/ipstore/web/scripts/SubsRestoreScript$CallbackResult;->material:Ljava/util/Map;
 
     return-void

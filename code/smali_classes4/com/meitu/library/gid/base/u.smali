@@ -58,20 +58,16 @@
 .method private constructor <init>(Lcom/meitu/library/gid/base/u$b;)V
     .locals 3
 
-    .line 2
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 3
     sput-object p0, Lcom/meitu/library/gid/base/u;->H:Lcom/meitu/library/gid/base/u;
 
-    .line 4
     invoke-static {p1}, Lcom/meitu/library/gid/base/u$b;->a(Lcom/meitu/library/gid/base/u$b;)Lcom/meitu/library/j/g/b;
 
     move-result-object v0
 
     iput-object v0, p0, Lcom/meitu/library/gid/base/u;->x:Lcom/meitu/library/j/g/b;
 
-    .line 5
     invoke-static {p1}, Lcom/meitu/library/gid/base/u$b;->b(Lcom/meitu/library/gid/base/u$b;)Lcom/meitu/library/j/g/e;
 
     move-result-object v0
@@ -84,7 +80,6 @@
 
     invoke-static {v0, v1}, Lcom/meitu/library/gid/base/v;->h(II)V
 
-    .line 6
     invoke-static {p1}, Lcom/meitu/library/gid/base/u$b;->c(Lcom/meitu/library/gid/base/u$b;)Landroid/app/Application;
 
     move-result-object v0
@@ -95,7 +90,6 @@
 
     iput-boolean v0, p0, Lcom/meitu/library/gid/base/u;->w:Z
 
-    .line 7
     new-instance v0, Lcom/meitu/library/gid/base/u$c;
 
     const/4 v1, 0x0
@@ -104,33 +98,28 @@
 
     iput-object v0, p0, Lcom/meitu/library/gid/base/u;->y:Lcom/meitu/library/gid/base/u$c;
 
-    .line 8
     iget-boolean v1, p1, Lcom/meitu/library/gid/base/u$b;->b:Z
 
     invoke-static {v0, v1}, Lcom/meitu/library/gid/base/u$c;->o(Lcom/meitu/library/gid/base/u$c;Z)Z
 
-    .line 9
     new-instance v0, Lcom/meitu/library/gid/base/f;
 
     invoke-direct {v0}, Lcom/meitu/library/gid/base/f;-><init>()V
 
     iput-object v0, p0, Lcom/meitu/library/gid/base/u;->A:Lcom/meitu/library/gid/base/j0/c;
 
-    .line 10
     new-instance v0, Lcom/meitu/library/gid/base/s0/f;
 
     invoke-direct {v0, p0}, Lcom/meitu/library/gid/base/s0/f;-><init>(Lcom/meitu/library/gid/base/u;)V
 
     iput-object v0, p0, Lcom/meitu/library/gid/base/u;->z:Lcom/meitu/library/gid/base/s0/f;
 
-    .line 11
     invoke-static {p1}, Lcom/meitu/library/gid/base/u$b;->c(Lcom/meitu/library/gid/base/u$b;)Landroid/app/Application;
 
     move-result-object v1
 
     iput-object v1, p0, Lcom/meitu/library/gid/base/u;->E:Landroid/app/Application;
 
-    .line 12
     new-instance v1, Lcom/meitu/library/gid/base/e0;
 
     iget-boolean v2, p1, Lcom/meitu/library/gid/base/u$b;->e:Z
@@ -139,12 +128,10 @@
 
     iput-object v1, p0, Lcom/meitu/library/gid/base/u;->B:Lcom/meitu/library/gid/base/e0;
 
-    .line 13
     iget-object p1, p1, Lcom/meitu/library/gid/base/u$b;->d:[Z
 
     if-eqz p1, :cond_0
 
-    .line 14
     array-length v0, p1
 
     invoke-static {p1, v0}, Ljava/util/Arrays;->copyOf([ZI)[Z
@@ -155,7 +142,6 @@
 
     goto :goto_0
 
-    .line 15
     :cond_0
     invoke-static {}, Lcom/meitu/library/gid/base/PrivacyControl;->values()[Lcom/meitu/library/gid/base/PrivacyControl;
 
@@ -167,21 +153,17 @@
 
     iput-object p1, p0, Lcom/meitu/library/gid/base/u;->C:[Z
 
-    .line 16
     invoke-static {p1}, Lcom/meitu/library/gid/base/PrivacyControl;->setDefaultPrivacyControls([Z)V
 
-    .line 17
     :goto_0
     invoke-static {}, Lcom/meitu/library/gid/base/d;->a()Landroid/app/Application$ActivityLifecycleCallbacks;
 
     move-result-object p1
 
-    .line 18
     iget-object v0, p0, Lcom/meitu/library/gid/base/u;->E:Landroid/app/Application;
 
     invoke-virtual {v0, p1}, Landroid/app/Application;->registerActivityLifecycleCallbacks(Landroid/app/Application$ActivityLifecycleCallbacks;)V
 
-    .line 19
     iget-object p1, p0, Lcom/meitu/library/gid/base/u;->E:Landroid/app/Application;
 
     invoke-static {p1, p0}, Lcom/meitu/library/j/f/g;->a(Landroid/app/Application;Lcom/meitu/library/gid/base/u;)Lcom/meitu/library/gid/base/r0/a;
@@ -190,12 +172,10 @@
 
     iput-object p1, p0, Lcom/meitu/library/gid/base/u;->F:Lcom/meitu/library/gid/base/r0/a;
 
-    .line 20
     new-instance p1, Lcom/meitu/library/gid/base/u$a;
 
     invoke-direct {p1, p0}, Lcom/meitu/library/gid/base/u$a;-><init>(Lcom/meitu/library/gid/base/u;)V
 
-    .line 21
     new-instance v0, Ljava/lang/Thread;
 
     new-instance v1, Lcom/meitu/library/gid/base/m0/e;
@@ -214,7 +194,6 @@
 .method synthetic constructor <init>(Lcom/meitu/library/gid/base/u$b;Lcom/meitu/library/gid/base/u$a;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/meitu/library/gid/base/u;-><init>(Lcom/meitu/library/gid/base/u$b;)V
 
     return-void
@@ -227,19 +206,16 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/meitu/library/gid/base/u;->x()Lcom/meitu/library/gid/base/u;
 
     move-result-object v1
 
     if-eqz v1, :cond_0
 
-    .line 2
     iget-object v1, v1, Lcom/meitu/library/gid/base/u;->y:Lcom/meitu/library/gid/base/u$c;
 
     invoke-static {v1, p0}, Lcom/meitu/library/gid/base/u$c;->o(Lcom/meitu/library/gid/base/u$c;Z)Z
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -253,7 +229,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/meitu/library/gid/base/u;->E:Landroid/app/Application;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -268,7 +243,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/meitu/library/gid/base/u;->x:Lcom/meitu/library/j/g/b;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -283,7 +257,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/meitu/library/gid/base/u;->F:Lcom/meitu/library/gid/base/r0/a;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -298,7 +271,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/meitu/library/gid/base/u;->H:Lcom/meitu/library/gid/base/u;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -315,7 +287,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/meitu/library/gid/base/u;->w:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -330,7 +301,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/library/gid/base/u;->E:Landroid/app/Application;
 
     invoke-static {v1}, Lcom/meitu/library/gid/base/l;->i(Landroid/content/Context;)Z
@@ -349,7 +319,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/library/gid/base/u;->C:[Z
 
     invoke-virtual {p1}, Ljava/lang/Enum;->ordinal()I
@@ -370,7 +339,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/library/gid/base/u;->y:Lcom/meitu/library/gid/base/u$c;
 
     invoke-static {v1}, Lcom/meitu/library/gid/base/u$c;->f(Lcom/meitu/library/gid/base/u$c;)Z
@@ -389,14 +357,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p1}, Lcom/meitu/library/gid/base/Switcher;->isCloudControlOnly()Z
 
     move-result v1
 
     if-nez v1, :cond_0
 
-    .line 2
     iget-object v1, p0, Lcom/meitu/library/gid/base/u;->B:Lcom/meitu/library/gid/base/e0;
 
     invoke-virtual {v1, p1}, Lcom/meitu/library/gid/base/e0;->p(Lcom/meitu/library/gid/base/Switcher;)Z
@@ -410,7 +376,6 @@
     :cond_0
     const/4 p1, 0x0
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
@@ -423,7 +388,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/library/gid/base/u;->y:Lcom/meitu/library/gid/base/u$c;
 
     invoke-static {v1}, Lcom/meitu/library/gid/base/u$c;->p(Lcom/meitu/library/gid/base/u$c;)Ljava/lang/String;
@@ -448,12 +412,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/library/gid/base/u;->C:[Z
 
     invoke-static {v1, p1}, Ljava/util/Arrays;->fill([ZZ)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -466,7 +428,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/library/gid/base/u;->C:[Z
 
     invoke-virtual {p1}, Ljava/lang/Enum;->ordinal()I
@@ -475,7 +436,6 @@
 
     aput-boolean p2, v1, p1
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -488,12 +448,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/library/gid/base/u;->B:Lcom/meitu/library/gid/base/e0;
 
     invoke-virtual {v1, p1, p2}, Lcom/meitu/library/gid/base/e0;->u(Z[Lcom/meitu/library/gid/base/Switcher;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -506,12 +464,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/library/gid/base/u;->B:Lcom/meitu/library/gid/base/e0;
 
     invoke-virtual {v1, p1, p2}, Lcom/meitu/library/gid/base/e0;->w(Z[Lcom/meitu/library/gid/base/Switcher;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -524,7 +480,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/library/gid/base/u;->y:Lcom/meitu/library/gid/base/u$c;
 
     if-eqz v1, :cond_4
@@ -548,15 +503,12 @@
 
     const-string v3, "tryLoadTestConfigAfterPermission===="
 
-    .line 2
     invoke-static {v1, v3}, Lcom/meitu/library/gid/base/v;->b(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 3
     invoke-static {}, Lcom/meitu/library/j/g/a;->a()Ljava/util/Map;
 
     move-result-object v3
 
-    .line 4
     new-instance v4, Ljava/lang/StringBuilder;
 
     invoke-direct {v4}, Ljava/lang/StringBuilder;-><init>()V
@@ -585,7 +537,6 @@
 
     invoke-static {v1, v4}, Lcom/meitu/library/gid/base/v;->b(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 5
     iget-object v4, p0, Lcom/meitu/library/gid/base/u;->y:Lcom/meitu/library/gid/base/u$c;
 
     if-nez v3, :cond_2
@@ -606,7 +557,6 @@
     :goto_1
     invoke-static {v4, v5}, Lcom/meitu/library/gid/base/u$c;->q(Lcom/meitu/library/gid/base/u$c;Ljava/lang/String;)Ljava/lang/String;
 
-    .line 6
     iget-object v4, p0, Lcom/meitu/library/gid/base/u;->y:Lcom/meitu/library/gid/base/u$c;
 
     invoke-static {v4}, Lcom/meitu/library/gid/base/u$c;->p(Lcom/meitu/library/gid/base/u$c;)Ljava/lang/String;
@@ -619,7 +569,6 @@
 
     if-eqz v2, :cond_3
 
-    .line 7
     iget-object v2, p0, Lcom/meitu/library/gid/base/u;->y:Lcom/meitu/library/gid/base/u$c;
 
     const-string v4, "gid_app_key"
@@ -632,7 +581,6 @@
 
     invoke-static {v2, v4}, Lcom/meitu/library/gid/base/u$c;->s(Lcom/meitu/library/gid/base/u$c;Ljava/lang/String;)Ljava/lang/String;
 
-    .line 8
     iget-object v2, p0, Lcom/meitu/library/gid/base/u;->y:Lcom/meitu/library/gid/base/u$c;
 
     const-string v4, "gid_rsa_key"
@@ -645,7 +593,6 @@
 
     invoke-static {v2, v4}, Lcom/meitu/library/gid/base/u$c;->i(Lcom/meitu/library/gid/base/u$c;Ljava/lang/String;)Ljava/lang/String;
 
-    .line 9
     iget-object v2, p0, Lcom/meitu/library/gid/base/u;->y:Lcom/meitu/library/gid/base/u$c;
 
     const-string v4, "gid_et_version"
@@ -662,7 +609,6 @@
 
     invoke-static {v2, v4}, Lcom/meitu/library/gid/base/u$c;->k(Lcom/meitu/library/gid/base/u$c;S)S
 
-    .line 10
     iget-object v2, p0, Lcom/meitu/library/gid/base/u;->y:Lcom/meitu/library/gid/base/u$c;
 
     const-string v4, "gid_url_gid_refresh"
@@ -678,14 +624,12 @@
     :try_start_0
     const-string v2, "gid_time_out"
 
-    .line 11
     invoke-interface {v3, v2}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v2
 
     check-cast v2, Ljava/lang/String;
 
-    .line 12
     iget-object v4, p0, Lcom/meitu/library/gid/base/u;->y:Lcom/meitu/library/gid/base/u$c;
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(Ljava/lang/String;)Ljava/lang/Integer;
@@ -698,7 +642,6 @@
 
     invoke-static {v4, v2}, Lcom/meitu/library/gid/base/u$c;->u(Lcom/meitu/library/gid/base/u$c;I)I
 
-    .line 13
     iget-object v2, p0, Lcom/meitu/library/gid/base/u;->y:Lcom/meitu/library/gid/base/u$c;
 
     const-string v4, "gid_refresh_force"
@@ -726,21 +669,18 @@
     :catch_0
     move-exception v2
 
-    .line 14
     invoke-virtual {v2}, Ljava/lang/Exception;->toString()Ljava/lang/String;
 
     move-result-object v2
 
     invoke-static {v1, v2}, Lcom/meitu/library/gid/base/v;->d(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 15
     :cond_3
     :goto_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 16
     :cond_4
     :goto_3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -755,22 +695,18 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/library/gid/base/u;->y:Lcom/meitu/library/gid/base/u$c;
 
     invoke-virtual {v1}, Lcom/meitu/library/gid/base/u$c;->e()V
 
-    .line 2
     iget-object v1, p0, Lcom/meitu/library/gid/base/u;->z:Lcom/meitu/library/gid/base/s0/f;
 
     invoke-virtual {v1}, Lcom/meitu/library/gid/base/s0/f;->e()V
 
-    .line 3
     iget-object v1, p0, Lcom/meitu/library/gid/base/u;->B:Lcom/meitu/library/gid/base/e0;
 
     invoke-virtual {v1}, Lcom/meitu/library/gid/base/e0;->e()V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -792,7 +728,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/library/gid/base/u;->A:Lcom/meitu/library/gid/base/j0/c;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -807,7 +742,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/library/gid/base/u;->y:Lcom/meitu/library/gid/base/u$c;
 
     invoke-virtual {v1}, Lcom/meitu/library/gid/base/u$c;->isInitialized()Z
@@ -818,7 +752,6 @@
 
     iget-object v1, p0, Lcom/meitu/library/gid/base/u;->z:Lcom/meitu/library/gid/base/s0/f;
 
-    .line 2
     invoke-virtual {v1}, Lcom/meitu/library/gid/base/s0/f;->isInitialized()Z
 
     move-result v1
@@ -827,7 +760,6 @@
 
     iget-object v1, p0, Lcom/meitu/library/gid/base/u;->B:Lcom/meitu/library/gid/base/e0;
 
-    .line 3
     invoke-virtual {v1}, Lcom/meitu/library/gid/base/e0;->isInitialized()Z
 
     move-result v1
@@ -841,7 +773,6 @@
     :cond_0
     const/4 v1, 0x0
 
-    .line 4
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -855,7 +786,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/library/gid/base/u;->y:Lcom/meitu/library/gid/base/u$c;
 
     invoke-static {v1}, Lcom/meitu/library/gid/base/u$c;->r(Lcom/meitu/library/gid/base/u$c;)Ljava/lang/String;
@@ -876,7 +806,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/meitu/library/gid/base/o$a;->b()Ljava/lang/String;
 
     move-result-object v1
@@ -885,12 +814,10 @@
 
     const/4 v1, 0x0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
 
-    .line 3
     :cond_0
     new-instance v2, Ljava/lang/StringBuilder;
 
@@ -912,7 +839,6 @@
 
     move-result-object v2
 
-    .line 4
     new-instance v3, Lcom/meitu/library/gid/base/l0/a;
 
     new-instance v4, Ljava/io/File;
@@ -933,7 +859,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/library/gid/base/u;->E:Landroid/app/Application;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -948,7 +873,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/library/gid/base/u;->y:Lcom/meitu/library/gid/base/u$c;
 
     invoke-static {v1}, Lcom/meitu/library/gid/base/u$c;->j(Lcom/meitu/library/gid/base/u$c;)S
@@ -967,7 +891,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/library/gid/base/u;->x:Lcom/meitu/library/j/g/b;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -982,7 +905,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/meitu/library/j/f/a;->q()Lcom/meitu/library/gid/base/j0/a$c;
 
     move-result-object v1
@@ -999,7 +921,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/library/gid/base/u;->y:Lcom/meitu/library/gid/base/u$c;
 
     invoke-static {v1}, Lcom/meitu/library/gid/base/u$c;->l(Lcom/meitu/library/gid/base/u$c;)Ljava/lang/String;
@@ -1018,7 +939,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/library/gid/base/u;->y:Lcom/meitu/library/gid/base/u$c;
 
     invoke-static {v1}, Lcom/meitu/library/gid/base/u$c;->t(Lcom/meitu/library/gid/base/u$c;)I
@@ -1039,7 +959,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/meitu/library/gid/base/o$a;->b()Ljava/lang/String;
 
     move-result-object v1
@@ -1048,12 +967,10 @@
 
     const/4 v1, 0x0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
 
-    .line 3
     :cond_0
     new-instance v2, Ljava/lang/StringBuilder;
 
@@ -1075,7 +992,6 @@
 
     move-result-object v2
 
-    .line 4
     new-instance v3, Lcom/meitu/library/gid/base/l0/a;
 
     new-instance v4, Ljava/io/File;
@@ -1098,19 +1014,16 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/library/gid/base/u;->D:Lcom/meitu/library/gid/base/u$e;
 
     if-nez v1, :cond_0
 
-    .line 2
     new-instance v1, Lcom/meitu/library/gid/base/u$e;
 
     invoke-direct {v1}, Lcom/meitu/library/gid/base/u$e;-><init>()V
 
     iput-object v1, p0, Lcom/meitu/library/gid/base/u;->D:Lcom/meitu/library/gid/base/u$e;
 
-    .line 3
     :cond_0
     iget-object v1, p0, Lcom/meitu/library/gid/base/u;->D:Lcom/meitu/library/gid/base/u$e;
 
@@ -1128,7 +1041,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/library/gid/base/u;->E:Landroid/app/Application;
 
     sget-object v2, Lcom/meitu/library/gid/base/o;->f:Ljava/lang/String;
@@ -1139,7 +1051,6 @@
 
     move-result-object v1
 
-    .line 2
     invoke-static {}, Lcom/meitu/library/gid/base/u;->x()Lcom/meitu/library/gid/base/u;
 
     move-result-object v2
@@ -1148,7 +1059,6 @@
 
     move-result-object v2
 
-    .line 3
     new-instance v3, Lcom/meitu/library/gid/base/l0/a;
 
     if-eqz v2, :cond_0
@@ -1185,7 +1095,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/library/gid/base/u;->y:Lcom/meitu/library/gid/base/u$c;
 
     invoke-static {v1}, Lcom/meitu/library/gid/base/u$c;->h(Lcom/meitu/library/gid/base/u$c;)Ljava/lang/String;
@@ -1206,7 +1115,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/meitu/library/gid/base/o$a;->b()Ljava/lang/String;
 
     move-result-object v1
@@ -1215,12 +1123,10 @@
 
     const/4 v1, 0x0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
 
-    .line 3
     :cond_0
     invoke-static {}, Lcom/meitu/library/gid/base/u;->x()Lcom/meitu/library/gid/base/u;
 
@@ -1230,7 +1136,6 @@
 
     move-result-object v2
 
-    .line 4
     new-instance v3, Lcom/meitu/library/gid/base/l0/a;
 
     new-instance v4, Ljava/io/File;
@@ -1265,7 +1170,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/library/gid/base/u;->z:Lcom/meitu/library/gid/base/s0/f;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1280,7 +1184,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/library/gid/base/u;->y:Lcom/meitu/library/gid/base/u$c;
 
     invoke-static {v1}, Lcom/meitu/library/gid/base/u$c;->n(Lcom/meitu/library/gid/base/u$c;)Z
@@ -1299,7 +1202,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/library/gid/base/u;->y:Lcom/meitu/library/gid/base/u$c;
 
     invoke-static {v1}, Lcom/meitu/library/gid/base/u$c;->p(Lcom/meitu/library/gid/base/u$c;)Ljava/lang/String;

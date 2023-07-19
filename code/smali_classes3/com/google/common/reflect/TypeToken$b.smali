@@ -29,7 +29,6 @@
 .method constructor <init>(Lcom/google/common/reflect/TypeToken;Ljava/lang/reflect/Constructor;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/common/reflect/TypeToken$b;->d:Lcom/google/common/reflect/TypeToken;
 
     invoke-direct {p0, p2}, Lcom/google/common/reflect/e$a;-><init>(Ljava/lang/reflect/Constructor;)V
@@ -49,7 +48,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/reflect/TypeToken$b;->d:Lcom/google/common/reflect/TypeToken;
 
     return-object v0
@@ -58,7 +56,6 @@
 .method public toString()Ljava/lang/String;
     .locals 3
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -103,7 +100,6 @@
 .method w0()[Ljava/lang/reflect/Type;
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/reflect/TypeToken$b;->d:Lcom/google/common/reflect/TypeToken;
 
     invoke-static {v0}, Lcom/google/common/reflect/TypeToken;->access$000(Lcom/google/common/reflect/TypeToken;)Lcom/google/common/reflect/l;
@@ -124,7 +120,6 @@
 .method x0()[Ljava/lang/reflect/Type;
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/reflect/TypeToken$b;->d:Lcom/google/common/reflect/TypeToken;
 
     invoke-static {v0}, Lcom/google/common/reflect/TypeToken;->access$100(Lcom/google/common/reflect/TypeToken;)Lcom/google/common/reflect/l;
@@ -145,7 +140,6 @@
 .method y0()Ljava/lang/reflect/Type;
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/reflect/TypeToken$b;->d:Lcom/google/common/reflect/TypeToken;
 
     invoke-static {v0}, Lcom/google/common/reflect/TypeToken;->access$000(Lcom/google/common/reflect/TypeToken;)Lcom/google/common/reflect/l;

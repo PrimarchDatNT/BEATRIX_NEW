@@ -62,7 +62,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p2, Lcom/commsource/studio/text/TextConfig$TemplateAttrEnum;
 
     invoke-virtual {p0, p1, p2}, Lcom/commsource/studio/text/TextStylePanel$a;->b(ILcom/commsource/studio/text/TextConfig$TemplateAttrEnum;)Z
@@ -81,17 +80,14 @@
 
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/studio/text/TextStylePanel$a;->a:Lcom/commsource/widget/h1/e;
 
     invoke-virtual {v0, p1}, Lcom/commsource/widget/h1/e;->G(I)V
 
-    .line 2
     iget-object v0, p0, Lcom/commsource/studio/text/TextStylePanel$a;->b:Landroidx/recyclerview/widget/RecyclerView;
 
     invoke-virtual {v0, p1}, Landroidx/recyclerview/widget/RecyclerView;->smoothScrollToPosition(I)V
 
-    .line 3
     iget-object v0, p0, Lcom/commsource/studio/text/TextStylePanel$a;->c:Lcom/commsource/studio/text/TextStylePanel;
 
     invoke-virtual {v0}, Lcom/commsource/studio/text/TextStylePanel;->h()Lcom/commsource/beautyplus/f0/cc;
@@ -108,7 +104,6 @@
 
     invoke-static {v0, p1, v1, v2, v3}, Lcom/commsource/widget/LineSelectView;->j(Lcom/commsource/widget/LineSelectView;IZILjava/lang/Object;)V
 
-    .line 4
     iget-object v0, p0, Lcom/commsource/studio/text/TextStylePanel$a;->c:Lcom/commsource/studio/text/TextStylePanel;
 
     invoke-virtual {v0}, Lcom/commsource/studio/text/TextStylePanel;->h()Lcom/commsource/beautyplus/f0/cc;
@@ -123,7 +118,6 @@
 
     invoke-virtual {v0, p1}, Landroidx/viewpager/widget/ViewPager;->setCurrentItem(I)V
 
-    .line 5
     iget-object p1, p0, Lcom/commsource/studio/text/TextStylePanel$a;->c:Lcom/commsource/studio/text/TextStylePanel;
 
     invoke-static {p1}, Lcom/commsource/studio/text/TextStylePanel;->a(Lcom/commsource/studio/text/TextStylePanel;)Lcom/commsource/studio/text/TextViewModel;
@@ -138,7 +132,6 @@
 
     invoke-virtual {p1, v0}, Landroidx/lifecycle/MutableLiveData;->setValue(Ljava/lang/Object;)V
 
-    .line 6
     iget-object p1, p0, Lcom/commsource/studio/text/TextStylePanel$a;->c:Lcom/commsource/studio/text/TextStylePanel;
 
     invoke-static {p1}, Lcom/commsource/studio/text/TextStylePanel;->b(Lcom/commsource/studio/text/TextStylePanel;)Lcom/commsource/studio/text/d;
@@ -147,7 +140,6 @@
 
     invoke-virtual {p1}, Landroidx/viewpager/widget/PagerAdapter;->notifyDataSetChanged()V
 
-    .line 7
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const/4 p1, 0x1

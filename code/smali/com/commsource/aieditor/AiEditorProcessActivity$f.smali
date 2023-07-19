@@ -34,7 +34,6 @@
 .method constructor <init>(Lcom/commsource/aieditor/AiEditorProcessActivity;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/aieditor/AiEditorProcessActivity$f;->a:Lcom/commsource/aieditor/AiEditorProcessActivity;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -55,14 +54,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/p/e/a;->z(Landroid/graphics/Bitmap;)Z
 
     move-result v1
 
     if-eqz v1, :cond_1
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/aieditor/AiEditorProcessActivity$f;->a:Lcom/commsource/aieditor/AiEditorProcessActivity;
 
     invoke-static {v1}, Lcom/commsource/aieditor/AiEditorProcessActivity;->L0(Lcom/commsource/aieditor/AiEditorProcessActivity;)I
@@ -73,7 +70,6 @@
 
     if-ne v1, v2, :cond_0
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/aieditor/AiEditorProcessActivity$f;->a:Lcom/commsource/aieditor/AiEditorProcessActivity;
 
     invoke-static {v1}, Lcom/commsource/aieditor/AiEditorProcessActivity;->M0(Lcom/commsource/aieditor/AiEditorProcessActivity;)Lcom/commsource/beautyplus/f0/e;
@@ -86,7 +82,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/aieditor/EffectContactView;->setShowMode(I)V
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/aieditor/AiEditorProcessActivity$f;->a:Lcom/commsource/aieditor/AiEditorProcessActivity;
 
     invoke-static {v1}, Lcom/commsource/aieditor/AiEditorProcessActivity;->M0(Lcom/commsource/aieditor/AiEditorProcessActivity;)Lcom/commsource/beautyplus/f0/e;
@@ -99,7 +94,6 @@
 
     goto :goto_0
 
-    .line 5
     :cond_0
     iget-object v1, p0, Lcom/commsource/aieditor/AiEditorProcessActivity$f;->a:Lcom/commsource/aieditor/AiEditorProcessActivity;
 
@@ -113,7 +107,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/beautymain/widget/gesturewidget/RealtimeFilterImageView;->setShowOriginalBitmap(Z)V
 
-    .line 6
     iget-object v1, p0, Lcom/commsource/aieditor/AiEditorProcessActivity$f;->a:Lcom/commsource/aieditor/AiEditorProcessActivity;
 
     invoke-static {v1}, Lcom/commsource/aieditor/AiEditorProcessActivity;->M0(Lcom/commsource/aieditor/AiEditorProcessActivity;)Lcom/commsource/beautyplus/f0/e;
@@ -124,7 +117,6 @@
 
     invoke-virtual {v1, p1}, Lcom/commsource/beautymain/widget/gesturewidget/RealtimeFilterImageView;->setImageBitmap(Landroid/graphics/Bitmap;)V
 
-    .line 7
     :cond_1
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -143,7 +135,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Landroid/graphics/Bitmap;
 
     invoke-virtual {p0, p1}, Lcom/commsource/aieditor/AiEditorProcessActivity$f;->a(Landroid/graphics/Bitmap;)V

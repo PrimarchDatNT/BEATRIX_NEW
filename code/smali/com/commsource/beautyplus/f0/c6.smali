@@ -59,37 +59,26 @@
 .method protected constructor <init>(Ljava/lang/Object;Landroid/view/View;ILandroidx/cardview/widget/CardView;Landroid/widget/ImageView;Lcom/commsource/widget/PressImageView;Landroid/widget/ImageView;Landroid/widget/LinearLayout;Landroid/widget/LinearLayout;Landroid/widget/TextView;Landroid/widget/TextView;Lcom/commsource/widget/BoldTextView;Lcom/commsource/video/view/XVideoContainer;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1, p2, p3}, Landroidx/databinding/ViewDataBinding;-><init>(Ljava/lang/Object;Landroid/view/View;I)V
 
-    .line 2
     iput-object p4, p0, Lcom/commsource/beautyplus/f0/c6;->a:Landroidx/cardview/widget/CardView;
 
-    .line 3
     iput-object p5, p0, Lcom/commsource/beautyplus/f0/c6;->b:Landroid/widget/ImageView;
 
-    .line 4
     iput-object p6, p0, Lcom/commsource/beautyplus/f0/c6;->c:Lcom/commsource/widget/PressImageView;
 
-    .line 5
     iput-object p7, p0, Lcom/commsource/beautyplus/f0/c6;->d:Landroid/widget/ImageView;
 
-    .line 6
     iput-object p8, p0, Lcom/commsource/beautyplus/f0/c6;->f:Landroid/widget/LinearLayout;
 
-    .line 7
     iput-object p9, p0, Lcom/commsource/beautyplus/f0/c6;->g:Landroid/widget/LinearLayout;
 
-    .line 8
     iput-object p10, p0, Lcom/commsource/beautyplus/f0/c6;->p:Landroid/widget/TextView;
 
-    .line 9
     iput-object p11, p0, Lcom/commsource/beautyplus/f0/c6;->J:Landroid/widget/TextView;
 
-    .line 10
     iput-object p12, p0, Lcom/commsource/beautyplus/f0/c6;->K:Lcom/commsource/widget/BoldTextView;
 
-    .line 11
     iput-object p13, p0, Lcom/commsource/beautyplus/f0/c6;->L:Lcom/commsource/video/view/XVideoContainer;
 
     return-void
@@ -102,7 +91,6 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-static {}, Landroidx/databinding/DataBindingUtil;->getDefaultComponent()Landroidx/databinding/DataBindingComponent;
 
     move-result-object v0
@@ -129,7 +117,6 @@
 
     sget v0, Lcom/res/provider/ResLAYOUT;->dialog_picture_tips:I
 
-    .line 1
     invoke-static {p1, p0, v0}, Landroidx/databinding/ViewDataBinding;->bind(Ljava/lang/Object;Landroid/view/View;I)Landroidx/databinding/ViewDataBinding;
 
     move-result-object p0
@@ -148,7 +135,6 @@
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
-    .line 1
     invoke-static {}, Landroidx/databinding/DataBindingUtil;->getDefaultComponent()Landroidx/databinding/DataBindingComponent;
 
     move-result-object v0
@@ -173,7 +159,6 @@
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
-    .line 1
     invoke-static {}, Landroidx/databinding/DataBindingUtil;->getDefaultComponent()Landroidx/databinding/DataBindingComponent;
 
     move-result-object v0
@@ -207,7 +192,6 @@
 
     sget v0, Lcom/res/provider/ResLAYOUT;->dialog_picture_tips:I
 
-    .line 1
     invoke-static {p0, v0, p1, p2, p3}, Landroidx/databinding/ViewDataBinding;->inflateInternal(Landroid/view/LayoutInflater;ILandroid/view/ViewGroup;ZLjava/lang/Object;)Landroidx/databinding/ViewDataBinding;
 
     move-result-object p0
@@ -239,7 +223,6 @@
 
     const/4 v2, 0x0
 
-    .line 1
     invoke-static {p0, v0, v1, v2, p1}, Landroidx/databinding/ViewDataBinding;->inflateInternal(Landroid/view/LayoutInflater;ILandroid/view/ViewGroup;ZLjava/lang/Object;)Landroidx/databinding/ViewDataBinding;
 
     move-result-object p0

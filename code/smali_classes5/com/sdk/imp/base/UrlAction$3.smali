@@ -20,7 +20,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-direct {p0, p1, p2, p3, v0}, Lcom/sdk/imp/base/UrlAction;-><init>(Ljava/lang/String;IZLcom/sdk/imp/base/UrlAction$1;)V
 
     return-void
@@ -48,7 +47,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance p3, Ljava/lang/StringBuilder;
 
     invoke-direct {p3}, Ljava/lang/StringBuilder;-><init>()V
@@ -67,7 +65,6 @@
 
     move-result-object p3
 
-    .line 2
     invoke-static {p1, p2, p3}, Lcom/sdk/imp/base/h;->e(Landroid/content/Context;Landroid/net/Uri;Ljava/lang/String;)V
 
     return-void
@@ -80,14 +77,12 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-virtual {p1}, Landroid/net/Uri;->getScheme()Ljava/lang/String;
 
     move-result-object p1
 
     const-string v0, "tel"
 
-    .line 2
     invoke-virtual {v0, p1}, Ljava/lang/String;->equalsIgnoreCase(Ljava/lang/String;)Z
 
     move-result v0
@@ -104,7 +99,6 @@
 
     const-string v0, "sms"
 
-    .line 3
     invoke-virtual {v0, p1}, Ljava/lang/String;->equalsIgnoreCase(Ljava/lang/String;)Z
 
     move-result v0
@@ -121,7 +115,6 @@
 
     const-string v0, "geo"
 
-    .line 4
     invoke-virtual {v0, p1}, Ljava/lang/String;->equalsIgnoreCase(Ljava/lang/String;)Z
 
     move-result v0
@@ -130,7 +123,6 @@
 
     const-string v0, "google.streetview"
 
-    .line 5
     invoke-virtual {v0, p1}, Ljava/lang/String;->equalsIgnoreCase(Ljava/lang/String;)Z
 
     move-result p1

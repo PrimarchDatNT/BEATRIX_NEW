@@ -53,7 +53,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/studio/doodle/DoodleFragment$onViewCreated$1;->invoke()V
 
     sget-object v1, Lcotlin/t1;->a:Lcotlin/t1;
@@ -70,7 +69,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/doodle/DoodleFragment$onViewCreated$1;->this$0:Lcom/commsource/studio/doodle/DoodleFragment;
 
     new-instance v2, Lcom/commsource/studio/processor/DoodleProcessor;
@@ -79,7 +77,6 @@
 
     invoke-static {v1, v2}, Lcom/commsource/studio/doodle/DoodleFragment;->h0(Lcom/commsource/studio/doodle/DoodleFragment;Lcom/commsource/studio/processor/DoodleProcessor;)V
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/studio/doodle/DoodleFragment$onViewCreated$1;->this$0:Lcom/commsource/studio/doodle/DoodleFragment;
 
     invoke-static {v1}, Lcom/commsource/studio/doodle/DoodleFragment;->X(Lcom/commsource/studio/doodle/DoodleFragment;)Lcom/commsource/studio/processor/DoodleProcessor;
@@ -92,7 +89,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/studio/processor/DoodleProcessor;->Z(Lcom/commsource/beautyplus/i0/a;)V
 
-    .line 4
     :cond_0
     iget-object v1, p0, Lcom/commsource/studio/doodle/DoodleFragment$onViewCreated$1;->this$0:Lcom/commsource/studio/doodle/DoodleFragment;
 
@@ -124,7 +120,6 @@
     :goto_0
     invoke-virtual {v1, v2}, Lcom/commsource/studio/bean/a;->l0(Ljava/util/List;)V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

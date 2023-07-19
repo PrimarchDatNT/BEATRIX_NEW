@@ -44,22 +44,18 @@
 
     const-string v0, "beauty_layer_set_clk"
 
-    .line 1
     invoke-static {v0}, Lcom/commsource/statistics/i;->p(Ljava/lang/String;)V
 
-    .line 2
     iget-object v0, p0, Lcom/commsource/studio/gesture/LayerSelectComponent$l;->a:Lcom/commsource/studio/gesture/LayerSelectComponent;
 
     invoke-static {v0}, Lcom/commsource/studio/gesture/LayerSelectComponent;->m(Lcom/commsource/studio/gesture/LayerSelectComponent;)V
 
-    .line 3
     iget-object v0, p0, Lcom/commsource/studio/gesture/LayerSelectComponent$l;->a:Lcom/commsource/studio/gesture/LayerSelectComponent;
 
     const/4 v1, 0x0
 
     invoke-virtual {v0, v1}, Lcom/commsource/studio/gesture/LayerSelectComponent;->setCollapseState(Z)V
 
-    .line 4
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

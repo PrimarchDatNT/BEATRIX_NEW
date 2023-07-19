@@ -68,7 +68,6 @@
 
     if-eqz p1, :cond_3
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/WaterMarkFragment$f;->a:Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/WaterMarkFragment;
 
     invoke-virtual {v1}, Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/WaterMarkFragment;->H()Lcom/commsource/widget/h1/e;
@@ -91,7 +90,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/widget/h1/e;->Q(Ljava/util/List;)V
 
-    .line 2
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
     move-result-object v1
@@ -100,7 +98,6 @@
 
     move-result v1
 
-    .line 3
     invoke-interface {p1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object p1
@@ -146,7 +143,6 @@
 
     if-eqz v2, :cond_3
 
-    .line 4
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/WaterMarkFragment$f;->a:Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/WaterMarkFragment;
 
     invoke-virtual {p1}, Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/WaterMarkFragment;->H()Lcom/commsource/widget/h1/e;
@@ -155,7 +151,6 @@
 
     invoke-virtual {p1, v2}, Lcom/commsource/widget/h1/e;->E(Ljava/lang/Object;)V
 
-    .line 5
     :cond_3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -169,7 +164,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Ljava/util/List;
 
     invoke-virtual {p0, p1}, Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/WaterMarkFragment$f;->a(Ljava/util/List;)V

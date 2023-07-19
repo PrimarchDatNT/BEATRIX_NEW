@@ -79,7 +79,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     const-class v1, Lcom/commsource/camera/d1/f;
 
     invoke-virtual {v1}, Ljava/lang/Class;->getSimpleName()Ljava/lang/String;
@@ -96,17 +95,14 @@
 .method public constructor <init>(Lcom/meitu/library/n/a/o/e;)V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     new-instance v0, Ljava/util/concurrent/CopyOnWriteArrayList;
 
     invoke-direct {v0}, Ljava/util/concurrent/CopyOnWriteArrayList;-><init>()V
 
     iput-object v0, p0, Lcom/commsource/camera/d1/f;->a:Ljava/util/List;
 
-    .line 3
     iput-object p1, p0, Lcom/commsource/camera/d1/f;->N:Lcom/meitu/library/n/a/o/e;
 
     return-void
@@ -119,17 +115,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/d1/f;->a:Ljava/util/List;
 
     if-nez v1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 3
     :cond_0
     invoke-interface {v1}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
@@ -148,61 +141,50 @@
 
     check-cast v2, Lcom/commsource/camera/newrender/renderproxy/n;
 
-    .line 4
     const-class v3, Lcom/commsource/camera/d1/g/j;
 
     const/4 v4, 0x0
 
     invoke-virtual {v2, v4, v3}, Lcom/commsource/camera/newrender/renderproxy/n;->s(Ljava/lang/Object;Ljava/lang/Class;)V
 
-    .line 5
     const-class v3, Lcom/commsource/camera/d1/g/a;
 
     invoke-virtual {v2, v4, v3}, Lcom/commsource/camera/newrender/renderproxy/n;->s(Ljava/lang/Object;Ljava/lang/Class;)V
 
-    .line 6
     const-class v3, Lcom/commsource/camera/d1/g/b;
 
     invoke-virtual {v2, v4, v3}, Lcom/commsource/camera/newrender/renderproxy/n;->s(Ljava/lang/Object;Ljava/lang/Class;)V
 
-    .line 7
     const-class v3, Lcom/commsource/camera/d1/g/e;
 
     invoke-virtual {v2, v4, v3}, Lcom/commsource/camera/newrender/renderproxy/n;->s(Ljava/lang/Object;Ljava/lang/Class;)V
 
-    .line 8
     const-class v3, Lcom/commsource/camera/d1/g/c;
 
     invoke-virtual {v2, v4, v3}, Lcom/commsource/camera/newrender/renderproxy/n;->s(Ljava/lang/Object;Ljava/lang/Class;)V
 
-    .line 9
     const-class v3, Lcom/commsource/camera/d1/g/m;
 
     invoke-virtual {v2, v4, v3}, Lcom/commsource/camera/newrender/renderproxy/n;->s(Ljava/lang/Object;Ljava/lang/Class;)V
 
-    .line 10
     const-class v3, Lcom/commsource/camera/d1/g/l;
 
     invoke-virtual {v2, v4, v3}, Lcom/commsource/camera/newrender/renderproxy/n;->s(Ljava/lang/Object;Ljava/lang/Class;)V
 
-    .line 11
     const-class v3, Lcom/commsource/camera/d1/g/g;
 
     invoke-virtual {v2, v4, v3}, Lcom/commsource/camera/newrender/renderproxy/n;->s(Ljava/lang/Object;Ljava/lang/Class;)V
 
-    .line 12
     const-class v3, Lcom/commsource/camera/c1/a;
 
     invoke-virtual {v2, v4, v3}, Lcom/commsource/camera/newrender/renderproxy/n;->s(Ljava/lang/Object;Ljava/lang/Class;)V
 
-    .line 13
     const-class v3, Lcom/commsource/camera/d1/g/d;
 
     invoke-virtual {v2, v4, v3}, Lcom/commsource/camera/newrender/renderproxy/n;->s(Ljava/lang/Object;Ljava/lang/Class;)V
 
     goto :goto_0
 
-    .line 14
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -216,13 +198,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-interface {p0}, Ljava/lang/Runnable;->run()V
 
-    .line 2
     invoke-static {}, Landroid/opengl/GLES20;->glFlush()V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -237,7 +216,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/d1/f;->a:Ljava/util/List;
 
     invoke-interface {v1}, Ljava/util/List;->iterator()Ljava/util/Iterator;
@@ -257,7 +235,6 @@
 
     check-cast v2, Lcom/commsource/camera/newrender/renderproxy/n;
 
-    .line 2
     const-class v3, Lcom/commsource/camera/d1/g/b;
 
     invoke-virtual {v2, v3}, Lcom/commsource/camera/newrender/renderproxy/n;->g(Ljava/lang/Class;)Z
@@ -268,7 +245,6 @@
 
     const/4 v1, 0x1
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
@@ -276,7 +252,6 @@
     :cond_1
     const/4 v1, 0x0
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
@@ -289,7 +264,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -302,7 +276,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -315,7 +288,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/d1/f;->a:Ljava/util/List;
 
     invoke-interface {v1}, Ljava/util/List;->iterator()Ljava/util/Iterator;
@@ -335,7 +307,6 @@
 
     check-cast v2, Lcom/commsource/camera/newrender/renderproxy/n;
 
-    .line 2
     const-class v3, Lcom/commsource/camera/d1/g/c;
 
     invoke-virtual {v2, v3}, Lcom/commsource/camera/newrender/renderproxy/n;->g(Ljava/lang/Class;)Z
@@ -346,7 +317,6 @@
 
     const/4 v1, 0x1
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
@@ -354,7 +324,6 @@
     :cond_1
     const/4 v1, 0x0
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
@@ -367,17 +336,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/d1/f;->J:Lcom/commsource/camera/d1/g/p;
 
     if-eqz v1, :cond_0
 
     const/4 v2, 0x0
 
-    .line 2
     invoke-virtual {v1, v2}, Lcom/commsource/camera/d1/g/p;->l(Z)V
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -403,44 +369,35 @@
 
     if-eqz p1, :cond_6
 
-    .line 1
     iget-object v3, p1, Lcom/meitu/mtlab/MTAiInterface/MTHandModule/MTHandResult;->hands:[Lcom/meitu/mtlab/MTAiInterface/MTHandModule/MTHand;
 
     if-eqz v3, :cond_6
 
-    .line 2
     iget-object v3, p0, Lcom/commsource/camera/d1/f;->p:Lcom/commsource/camera/d1/g/m;
 
     if-nez v3, :cond_0
 
-    .line 3
     new-instance v3, Lcom/commsource/camera/d1/g/m;
 
     invoke-direct {v3}, Lcom/commsource/camera/d1/g/m;-><init>()V
 
     iput-object v3, p0, Lcom/commsource/camera/d1/f;->p:Lcom/commsource/camera/d1/g/m;
 
-    .line 4
     :cond_0
     iget-object v3, p1, Lcom/meitu/mtlab/MTAiInterface/MTHandModule/MTHandResult;->hands:[Lcom/meitu/mtlab/MTAiInterface/MTHandModule/MTHand;
 
     array-length v3, v3
 
-    .line 5
     iget-object v4, p0, Lcom/commsource/camera/d1/f;->p:Lcom/commsource/camera/d1/g/m;
 
     invoke-virtual {v4, v3}, Lcom/commsource/camera/d1/g/m;->i(I)V
 
-    .line 6
     new-array v4, v3, [Landroid/graphics/RectF;
 
-    .line 7
     new-array v5, v3, [I
 
-    .line 8
     new-array v6, v3, [F
 
-    .line 9
     new-array v7, v3, [Landroid/graphics/PointF;
 
     const/4 v8, 0x0
@@ -450,32 +407,26 @@
     :goto_0
     if-ge v9, v3, :cond_3
 
-    .line 10
     iget-object v10, p1, Lcom/meitu/mtlab/MTAiInterface/MTHandModule/MTHandResult;->hands:[Lcom/meitu/mtlab/MTAiInterface/MTHandModule/MTHand;
 
     aget-object v10, v10, v9
 
-    .line 11
     iget-object v11, v10, Lcom/meitu/mtlab/MTAiInterface/MTHandModule/MTHand;->handBounds:Landroid/graphics/RectF;
 
     aput-object v11, v4, v9
 
-    .line 12
     iget v11, v10, Lcom/meitu/mtlab/MTAiInterface/MTHandModule/MTHand;->gesture:I
 
     aput v11, v5, v9
 
-    .line 13
     iget v11, v10, Lcom/meitu/mtlab/MTAiInterface/MTHandModule/MTHand;->score:F
 
     aput v11, v6, v9
 
-    .line 14
     iget-object v11, v10, Lcom/meitu/mtlab/MTAiInterface/MTHandModule/MTHand;->handPoint:Landroid/graphics/PointF;
 
     aput-object v11, v7, v9
 
-    .line 15
     iget-object v10, v10, Lcom/meitu/mtlab/MTAiInterface/MTHandModule/MTHand;->handPosePoints:[Landroid/graphics/PointF;
 
     if-eqz v10, :cond_2
@@ -484,20 +435,17 @@
 
     if-lez v11, :cond_2
 
-    .line 16
     array-length v11, v10
 
     if-nez v2, :cond_1
 
     mul-int v2, v11, v3
 
-    .line 17
     new-array v2, v2, [Landroid/graphics/PointF;
 
     :cond_1
     mul-int v12, v11, v9
 
-    .line 18
     invoke-static {v10, v8, v2, v12, v11}, Ljava/lang/System;->arraycopy(Ljava/lang/Object;ILjava/lang/Object;II)V
 
     :cond_2
@@ -505,35 +453,29 @@
 
     goto :goto_0
 
-    .line 19
     :cond_3
     iget-object p1, p0, Lcom/commsource/camera/d1/f;->p:Lcom/commsource/camera/d1/g/m;
 
     invoke-virtual {p1, v4}, Lcom/commsource/camera/d1/g/m;->l([Landroid/graphics/RectF;)V
 
-    .line 20
     iget-object p1, p0, Lcom/commsource/camera/d1/f;->p:Lcom/commsource/camera/d1/g/m;
 
     invoke-virtual {p1, v5}, Lcom/commsource/camera/d1/g/m;->g([I)V
 
-    .line 21
     iget-object p1, p0, Lcom/commsource/camera/d1/f;->p:Lcom/commsource/camera/d1/g/m;
 
     invoke-virtual {p1, v6}, Lcom/commsource/camera/d1/g/m;->h([F)V
 
-    .line 22
     iget-object p1, p0, Lcom/commsource/camera/d1/f;->p:Lcom/commsource/camera/d1/g/m;
 
     invoke-virtual {p1, v7}, Lcom/commsource/camera/d1/g/m;->j([Landroid/graphics/PointF;)V
 
     if-eqz v2, :cond_4
 
-    .line 23
     iget-object p1, p0, Lcom/commsource/camera/d1/f;->p:Lcom/commsource/camera/d1/g/m;
 
     invoke-virtual {p1, v2}, Lcom/commsource/camera/d1/g/m;->k([Landroid/graphics/PointF;)V
 
-    .line 24
     :cond_4
     iget-object p1, p0, Lcom/commsource/camera/d1/f;->a:Ljava/util/List;
 
@@ -555,21 +497,18 @@
 
     check-cast v2, Lcom/commsource/camera/newrender/renderproxy/n;
 
-    .line 25
     invoke-virtual {v2, v0}, Lcom/commsource/camera/newrender/renderproxy/n;->g(Ljava/lang/Class;)Z
 
     move-result v3
 
     if-eqz v3, :cond_5
 
-    .line 26
     iget-object v3, p0, Lcom/commsource/camera/d1/f;->p:Lcom/commsource/camera/d1/g/m;
 
     invoke-virtual {v2, v3, v0}, Lcom/commsource/camera/newrender/renderproxy/n;->s(Ljava/lang/Object;Ljava/lang/Class;)V
 
     goto :goto_1
 
-    .line 27
     :cond_6
     iget-object p1, p0, Lcom/commsource/camera/d1/f;->a:Ljava/util/List;
 
@@ -591,19 +530,16 @@
 
     check-cast v3, Lcom/commsource/camera/newrender/renderproxy/n;
 
-    .line 28
     invoke-virtual {v3, v0}, Lcom/commsource/camera/newrender/renderproxy/n;->g(Ljava/lang/Class;)Z
 
     move-result v4
 
     if-eqz v4, :cond_7
 
-    .line 29
     invoke-virtual {v3, v2, v0}, Lcom/commsource/camera/newrender/renderproxy/n;->s(Ljava/lang/Object;Ljava/lang/Class;)V
 
     goto :goto_2
 
-    .line 30
     :cond_8
     invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -617,7 +553,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/d1/f;->a:Ljava/util/List;
 
     invoke-interface {v1}, Ljava/util/List;->iterator()Ljava/util/Iterator;
@@ -637,7 +572,6 @@
 
     check-cast v2, Lcom/commsource/camera/newrender/renderproxy/n;
 
-    .line 2
     const-class v3, Lcom/commsource/camera/d1/g/a;
 
     invoke-virtual {v2, v3}, Lcom/commsource/camera/newrender/renderproxy/n;->g(Ljava/lang/Class;)Z
@@ -648,7 +582,6 @@
 
     const/4 v1, 0x1
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
@@ -656,7 +589,6 @@
     :cond_1
     const/4 v1, 0x0
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
@@ -669,7 +601,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -682,7 +613,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/d1/f;->a:Ljava/util/List;
 
     invoke-interface {v1}, Ljava/util/List;->iterator()Ljava/util/Iterator;
@@ -702,7 +632,6 @@
 
     check-cast v2, Lcom/commsource/camera/newrender/renderproxy/n;
 
-    .line 2
     const-class v3, Lcom/commsource/camera/d1/g/n;
 
     invoke-virtual {v2, v3}, Lcom/commsource/camera/newrender/renderproxy/n;->g(Ljava/lang/Class;)Z
@@ -713,7 +642,6 @@
 
     const/4 v1, 0x1
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
@@ -721,7 +649,6 @@
     :cond_1
     const/4 v1, 0x0
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
@@ -734,7 +661,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -747,7 +673,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/d1/f;->a:Ljava/util/List;
 
     invoke-interface {v1}, Ljava/util/List;->iterator()Ljava/util/Iterator;
@@ -767,7 +692,6 @@
 
     check-cast v2, Lcom/commsource/camera/newrender/renderproxy/n;
 
-    .line 2
     const-class v3, Lcom/commsource/camera/d1/g/l;
 
     invoke-virtual {v2, v3}, Lcom/commsource/camera/newrender/renderproxy/n;->g(Ljava/lang/Class;)Z
@@ -776,7 +700,6 @@
 
     if-eqz v2, :cond_0
 
-    .line 3
     invoke-static {}, Lcom/commsource/beautyplus/q;->b()Lcom/commsource/beautyplus/q;
 
     move-result-object v1
@@ -785,12 +708,10 @@
 
     iput-boolean v2, v1, Lcom/commsource/beautyplus/q;->i:Z
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v2
 
-    .line 5
     :cond_1
     invoke-static {}, Lcom/commsource/beautyplus/q;->b()Lcom/commsource/beautyplus/q;
 
@@ -800,7 +721,6 @@
 
     iput-boolean v2, v1, Lcom/commsource/beautyplus/q;->i:Z
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v2
@@ -813,7 +733,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/d1/f;->a:Ljava/util/List;
 
     invoke-interface {v1}, Ljava/util/List;->iterator()Ljava/util/Iterator;
@@ -833,7 +752,6 @@
 
     check-cast v2, Lcom/commsource/camera/newrender/renderproxy/n;
 
-    .line 2
     const-class v3, Lcom/commsource/camera/d1/g/j;
 
     invoke-virtual {v2, v3}, Lcom/commsource/camera/newrender/renderproxy/n;->g(Ljava/lang/Class;)Z
@@ -844,7 +762,6 @@
 
     const/4 v1, 0x1
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
@@ -852,7 +769,6 @@
     :cond_1
     const/4 v1, 0x0
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
@@ -865,12 +781,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/camera/d1/f;->Q:Z
 
     if-nez v1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -878,10 +792,8 @@
     :cond_0
     const/4 v1, 0x0
 
-    .line 3
     iput-boolean v1, p0, Lcom/commsource/camera/d1/f;->Q:Z
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/camera/d1/f;->a:Ljava/util/List;
 
     invoke-interface {v1}, Ljava/util/List;->iterator()Ljava/util/Iterator;
@@ -901,12 +813,10 @@
 
     check-cast v2, Lcom/commsource/camera/newrender/renderproxy/n;
 
-    .line 5
     invoke-virtual {v2}, Lcom/commsource/camera/newrender/renderproxy/n;->i()V
 
     goto :goto_0
 
-    .line 6
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -920,35 +830,29 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/d1/f;->b:Lcom/commsource/camera/d1/g/a;
 
     if-nez v1, :cond_0
 
-    .line 2
     new-instance v1, Lcom/commsource/camera/d1/g/a;
 
     invoke-direct {v1}, Lcom/commsource/camera/d1/g/a;-><init>()V
 
     iput-object v1, p0, Lcom/commsource/camera/d1/f;->b:Lcom/commsource/camera/d1/g/a;
 
-    .line 3
     :cond_0
     iget-object v1, p0, Lcom/commsource/camera/d1/f;->b:Lcom/commsource/camera/d1/g/a;
 
     invoke-virtual {v1, p2}, Lcom/commsource/camera/d1/g/a;->f(I)V
 
-    .line 4
     iget-object p2, p0, Lcom/commsource/camera/d1/f;->b:Lcom/commsource/camera/d1/g/a;
 
     invoke-virtual {p2, p3}, Lcom/commsource/camera/d1/g/a;->e(I)V
 
-    .line 5
     iget-object p2, p0, Lcom/commsource/camera/d1/f;->b:Lcom/commsource/camera/d1/g/a;
 
     invoke-virtual {p2, p1}, Lcom/commsource/camera/d1/g/a;->d(Lcom/meitu/mtobjdetect/MTAnimalData;)V
 
-    .line 6
     iget-object p1, p0, Lcom/commsource/camera/d1/f;->a:Ljava/util/List;
 
     invoke-interface {p1}, Ljava/util/List;->iterator()Ljava/util/Iterator;
@@ -968,7 +872,6 @@
 
     check-cast p2, Lcom/commsource/camera/newrender/renderproxy/n;
 
-    .line 7
     iget-object p3, p0, Lcom/commsource/camera/d1/f;->b:Lcom/commsource/camera/d1/g/a;
 
     const-class v1, Lcom/commsource/camera/d1/g/a;
@@ -977,7 +880,6 @@
 
     goto :goto_0
 
-    .line 8
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -991,25 +893,21 @@
 
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/camera/d1/f;->g:Lcom/commsource/camera/d1/g/c;
 
     if-nez v0, :cond_0
 
-    .line 2
     new-instance v0, Lcom/commsource/camera/d1/g/c;
 
     invoke-direct {v0}, Lcom/commsource/camera/d1/g/c;-><init>()V
 
     iput-object v0, p0, Lcom/commsource/camera/d1/f;->g:Lcom/commsource/camera/d1/g/c;
 
-    .line 3
     :cond_0
     iget-object v0, p0, Lcom/commsource/camera/d1/f;->g:Lcom/commsource/camera/d1/g/c;
 
     invoke-virtual {v0, p1}, Lcom/commsource/camera/d1/g/c;->b(Lcom/meitu/library/d/b/f$b;)V
 
-    .line 4
     iget-object p1, p0, Lcom/commsource/camera/d1/f;->a:Ljava/util/List;
 
     invoke-interface {p1}, Ljava/util/List;->iterator()Ljava/util/Iterator;
@@ -1029,7 +927,6 @@
 
     check-cast v0, Lcom/commsource/camera/newrender/renderproxy/n;
 
-    .line 5
     iget-object v1, p0, Lcom/commsource/camera/d1/f;->g:Lcom/commsource/camera/d1/g/c;
 
     const-class v2, Lcom/commsource/camera/d1/g/c;
@@ -1038,7 +935,6 @@
 
     goto :goto_0
 
-    .line 6
     :cond_1
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1058,12 +954,10 @@
 
     invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v2, p0, Lcom/commsource/camera/d1/f;->L:Lcom/commsource/camera/d1/g/g;
 
     if-nez v2, :cond_0
 
-    .line 2
     new-instance v2, Lcom/commsource/camera/d1/g/g;
 
     invoke-direct {v2}, Lcom/commsource/camera/d1/g/g;-><init>()V
@@ -1073,28 +967,24 @@
     :cond_0
     if-eqz p1, :cond_1
 
-    .line 3
     iget-object v2, p0, Lcom/commsource/camera/d1/f;->L:Lcom/commsource/camera/d1/g/g;
 
     iget v3, p1, Lcom/meitu/mtlab/MTAiInterface/MTSegmentModule/MTSegment;->textureWidth:I
 
     invoke-virtual {v2, v3}, Lcom/commsource/camera/d1/g/g;->i(I)V
 
-    .line 4
     iget-object v2, p0, Lcom/commsource/camera/d1/f;->L:Lcom/commsource/camera/d1/g/g;
 
     iget v3, p1, Lcom/meitu/mtlab/MTAiInterface/MTSegmentModule/MTSegment;->textureHeight:I
 
     invoke-virtual {v2, v3}, Lcom/commsource/camera/d1/g/g;->f(I)V
 
-    .line 5
     iget-object v2, p0, Lcom/commsource/camera/d1/f;->L:Lcom/commsource/camera/d1/g/g;
 
     iget p1, p1, Lcom/meitu/mtlab/MTAiInterface/MTSegmentModule/MTSegment;->textureID:I
 
     invoke-virtual {v2, p1}, Lcom/commsource/camera/d1/g/g;->h(I)V
 
-    .line 6
     :cond_1
     iget-object p1, p0, Lcom/commsource/camera/d1/f;->a:Ljava/util/List;
 
@@ -1116,21 +1006,18 @@
 
     check-cast v2, Lcom/commsource/camera/newrender/renderproxy/n;
 
-    .line 7
     invoke-virtual {v2, v0}, Lcom/commsource/camera/newrender/renderproxy/n;->g(Ljava/lang/Class;)Z
 
     move-result v3
 
     if-eqz v3, :cond_2
 
-    .line 8
     iget-object v3, p0, Lcom/commsource/camera/d1/f;->L:Lcom/commsource/camera/d1/g/g;
 
     invoke-virtual {v2, v3, v0}, Lcom/commsource/camera/newrender/renderproxy/n;->s(Ljava/lang/Object;Ljava/lang/Class;)V
 
     goto :goto_0
 
-    .line 9
     :cond_3
     invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1144,7 +1031,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1165,25 +1051,21 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/d1/f;->f:Lcom/commsource/camera/d1/g/e;
 
     if-nez v1, :cond_0
 
-    .line 2
     new-instance v1, Lcom/commsource/camera/d1/g/e;
 
     invoke-direct {v1}, Lcom/commsource/camera/d1/g/e;-><init>()V
 
     iput-object v1, p0, Lcom/commsource/camera/d1/f;->f:Lcom/commsource/camera/d1/g/e;
 
-    .line 3
     :cond_0
     iget-object v1, p0, Lcom/commsource/camera/d1/f;->f:Lcom/commsource/camera/d1/g/e;
 
     invoke-virtual {v1, p1}, Lcom/commsource/camera/d1/g/e;->b(Ljava/util/List;)V
 
-    .line 4
     iget-object p1, p0, Lcom/commsource/camera/d1/f;->a:Ljava/util/List;
 
     invoke-interface {p1}, Ljava/util/List;->iterator()Ljava/util/Iterator;
@@ -1203,7 +1085,6 @@
 
     check-cast v1, Lcom/commsource/camera/newrender/renderproxy/n;
 
-    .line 5
     iget-object v2, p0, Lcom/commsource/camera/d1/f;->f:Lcom/commsource/camera/d1/g/e;
 
     const-class v3, Lcom/commsource/camera/d1/g/e;
@@ -1212,7 +1093,6 @@
 
     goto :goto_0
 
-    .line 6
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1226,25 +1106,21 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/d1/f;->O:Lcom/commsource/camera/d1/g/d;
 
     if-nez v1, :cond_0
 
-    .line 2
     new-instance v1, Lcom/commsource/camera/d1/g/d;
 
     invoke-direct {v1}, Lcom/commsource/camera/d1/g/d;-><init>()V
 
     iput-object v1, p0, Lcom/commsource/camera/d1/f;->O:Lcom/commsource/camera/d1/g/d;
 
-    .line 3
     :cond_0
     iget-object v1, p0, Lcom/commsource/camera/d1/f;->O:Lcom/commsource/camera/d1/g/d;
 
     invoke-virtual {v1, p1}, Lcom/commsource/camera/d1/g/d;->b(Lcom/meitu/library/d/b/c$c;)V
 
-    .line 4
     iget-object p1, p0, Lcom/commsource/camera/d1/f;->a:Ljava/util/List;
 
     invoke-interface {p1}, Ljava/util/List;->iterator()Ljava/util/Iterator;
@@ -1264,7 +1140,6 @@
 
     check-cast v1, Lcom/commsource/camera/newrender/renderproxy/n;
 
-    .line 5
     iget-object v2, p0, Lcom/commsource/camera/d1/f;->O:Lcom/commsource/camera/d1/g/d;
 
     const-class v3, Lcom/commsource/camera/d1/g/d;
@@ -1273,7 +1148,6 @@
 
     goto :goto_0
 
-    .line 6
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1287,7 +1161,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/d1/f;->a:Ljava/util/List;
 
     invoke-interface {v1}, Ljava/util/List;->iterator()Ljava/util/Iterator;
@@ -1307,7 +1180,6 @@
 
     check-cast v2, Lcom/commsource/camera/newrender/renderproxy/n;
 
-    .line 2
     const-class v3, Lcom/commsource/camera/d1/g/h$a;
 
     invoke-virtual {v2, v3}, Lcom/commsource/camera/newrender/renderproxy/n;->g(Ljava/lang/Class;)Z
@@ -1318,7 +1190,6 @@
 
     const/4 v1, 0x1
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
@@ -1326,7 +1197,6 @@
     :cond_1
     const/4 v1, 0x0
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
@@ -1339,7 +1209,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/d1/f;->a:Ljava/util/List;
 
     invoke-interface {v1}, Ljava/util/List;->iterator()Ljava/util/Iterator;
@@ -1359,7 +1228,6 @@
 
     check-cast v2, Lcom/commsource/camera/newrender/renderproxy/n;
 
-    .line 2
     const-class v3, Lcom/commsource/camera/c1/a;
 
     invoke-virtual {v2, v3}, Lcom/commsource/camera/newrender/renderproxy/n;->g(Ljava/lang/Class;)Z
@@ -1370,7 +1238,6 @@
 
     const/4 v1, 0x1
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
@@ -1378,7 +1245,6 @@
     :cond_1
     const/4 v1, 0x0
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
@@ -1391,7 +1257,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const/4 v0, 0x1
@@ -1412,12 +1277,10 @@
 
     invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v2, p0, Lcom/commsource/camera/d1/f;->K:Lcom/commsource/camera/d1/g/l;
 
     if-nez v2, :cond_0
 
-    .line 2
     new-instance v2, Lcom/commsource/camera/d1/g/l;
 
     invoke-direct {v2}, Lcom/commsource/camera/d1/g/l;-><init>()V
@@ -1427,28 +1290,24 @@
     :cond_0
     if-eqz p1, :cond_1
 
-    .line 3
     iget-object v2, p0, Lcom/commsource/camera/d1/f;->K:Lcom/commsource/camera/d1/g/l;
 
     iget v3, p1, Lcom/meitu/mtlab/MTAiInterface/MTSegmentModule/MTSegment;->textureWidth:I
 
     invoke-virtual {v2, v3}, Lcom/commsource/camera/d1/g/l;->k(I)V
 
-    .line 4
     iget-object v2, p0, Lcom/commsource/camera/d1/f;->K:Lcom/commsource/camera/d1/g/l;
 
     iget v3, p1, Lcom/meitu/mtlab/MTAiInterface/MTSegmentModule/MTSegment;->textureHeight:I
 
     invoke-virtual {v2, v3}, Lcom/commsource/camera/d1/g/l;->i(I)V
 
-    .line 5
     iget-object v2, p0, Lcom/commsource/camera/d1/f;->K:Lcom/commsource/camera/d1/g/l;
 
     iget p1, p1, Lcom/meitu/mtlab/MTAiInterface/MTSegmentModule/MTSegment;->textureID:I
 
     invoke-virtual {v2, p1}, Lcom/commsource/camera/d1/g/l;->j(I)V
 
-    .line 6
     :cond_1
     iget-object p1, p0, Lcom/commsource/camera/d1/f;->a:Ljava/util/List;
 
@@ -1470,21 +1329,18 @@
 
     check-cast v2, Lcom/commsource/camera/newrender/renderproxy/n;
 
-    .line 7
     invoke-virtual {v2, v0}, Lcom/commsource/camera/newrender/renderproxy/n;->g(Ljava/lang/Class;)Z
 
     move-result v3
 
     if-eqz v3, :cond_2
 
-    .line 8
     iget-object v3, p0, Lcom/commsource/camera/d1/f;->K:Lcom/commsource/camera/d1/g/l;
 
     invoke-virtual {v2, v3, v0}, Lcom/commsource/camera/newrender/renderproxy/n;->s(Ljava/lang/Object;Ljava/lang/Class;)V
 
     goto :goto_0
 
-    .line 9
     :cond_3
     invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1498,25 +1354,21 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/d1/f;->J:Lcom/commsource/camera/d1/g/p;
 
     if-nez v1, :cond_0
 
-    .line 2
     new-instance v1, Lcom/commsource/camera/d1/g/p;
 
     invoke-direct {v1}, Lcom/commsource/camera/d1/g/p;-><init>()V
 
     iput-object v1, p0, Lcom/commsource/camera/d1/f;->J:Lcom/commsource/camera/d1/g/p;
 
-    .line 3
     :cond_0
     iget-object v1, p0, Lcom/commsource/camera/d1/f;->J:Lcom/commsource/camera/d1/g/p;
 
     invoke-virtual {v1, p1}, Lcom/commsource/camera/d1/g/p;->k(I)V
 
-    .line 4
     iget-object p1, p0, Lcom/commsource/camera/d1/f;->a:Ljava/util/List;
 
     invoke-interface {p1}, Ljava/util/List;->iterator()Ljava/util/Iterator;
@@ -1536,7 +1388,6 @@
 
     check-cast v1, Lcom/commsource/camera/newrender/renderproxy/n;
 
-    .line 5
     iget-object v2, p0, Lcom/commsource/camera/d1/f;->J:Lcom/commsource/camera/d1/g/p;
 
     const-class v3, Lcom/commsource/camera/d1/g/p;
@@ -1545,7 +1396,6 @@
 
     goto :goto_0
 
-    .line 6
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1559,7 +1409,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/d1/f;->a:Ljava/util/List;
 
     invoke-interface {v1}, Ljava/util/List;->iterator()Ljava/util/Iterator;
@@ -1579,12 +1428,10 @@
 
     check-cast v2, Lcom/commsource/camera/newrender/renderproxy/n;
 
-    .line 2
     invoke-virtual {v2, p1}, Lcom/commsource/camera/newrender/renderproxy/n;->t(Z)V
 
     goto :goto_0
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1598,7 +1445,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/d1/f;->a:Ljava/util/List;
 
     invoke-interface {v1}, Ljava/util/List;->iterator()Ljava/util/Iterator;
@@ -1618,7 +1464,6 @@
 
     check-cast v2, Lcom/commsource/camera/newrender/renderproxy/n;
 
-    .line 2
     const-class v3, Lcom/commsource/camera/d1/g/g;
 
     invoke-virtual {v2, v3}, Lcom/commsource/camera/newrender/renderproxy/n;->g(Ljava/lang/Class;)Z
@@ -1627,7 +1472,6 @@
 
     if-eqz v2, :cond_0
 
-    .line 3
     invoke-static {}, Lcom/commsource/beautyplus/q;->b()Lcom/commsource/beautyplus/q;
 
     move-result-object v1
@@ -1636,12 +1480,10 @@
 
     iput-boolean v2, v1, Lcom/commsource/beautyplus/q;->j:Z
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v2
 
-    .line 5
     :cond_1
     invoke-static {}, Lcom/commsource/beautyplus/q;->b()Lcom/commsource/beautyplus/q;
 
@@ -1651,7 +1493,6 @@
 
     iput-boolean v2, v1, Lcom/commsource/beautyplus/q;->j:Z
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v2
@@ -1664,10 +1505,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/camera/d1/f;->V()V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/camera/d1/f;->a:Ljava/util/List;
 
     invoke-interface {v1}, Ljava/util/List;->iterator()Ljava/util/Iterator;
@@ -1689,12 +1528,10 @@
 
     const/4 v3, 0x1
 
-    .line 3
     invoke-virtual {v2, v3}, Lcom/commsource/camera/newrender/renderproxy/n;->r(Z)V
 
     goto :goto_0
 
-    .line 4
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1708,7 +1545,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/d1/f;->a:Ljava/util/List;
 
     invoke-interface {v1}, Ljava/util/List;->iterator()Ljava/util/Iterator;
@@ -1728,7 +1564,6 @@
 
     check-cast v2, Lcom/commsource/camera/newrender/renderproxy/n;
 
-    .line 2
     const-class v3, Lcom/commsource/camera/d1/g/d;
 
     invoke-virtual {v2, v3}, Lcom/commsource/camera/newrender/renderproxy/n;->g(Ljava/lang/Class;)Z
@@ -1739,7 +1574,6 @@
 
     const/4 v1, 0x1
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
@@ -1747,7 +1581,6 @@
     :cond_1
     const/4 v1, 0x0
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
@@ -1764,12 +1597,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/d1/f;->J:Lcom/commsource/camera/d1/g/p;
 
     if-nez v1, :cond_0
 
-    .line 2
     new-instance v1, Lcom/commsource/camera/d1/g/p;
 
     invoke-direct {v1}, Lcom/commsource/camera/d1/g/p;-><init>()V
@@ -1781,17 +1612,14 @@
 
     const-string v2, "afterAspectRatioChanged"
 
-    .line 3
     invoke-static {v1, v2}, Lcom/meitu/library/util/Debug/Debug;->P(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/camera/d1/f;->J:Lcom/commsource/camera/d1/g/p;
 
     const/4 v2, 0x0
 
     invoke-virtual {v1, v2}, Lcom/commsource/camera/d1/g/p;->l(Z)V
 
-    .line 5
     invoke-virtual {p1}, Lcom/meitu/library/camera/MTCamera$c;->toString()Ljava/lang/String;
 
     move-result-object p1
@@ -1864,7 +1692,6 @@
 
     if-eq v2, v5, :cond_5
 
-    .line 6
     iget-object p1, p0, Lcom/commsource/camera/d1/f;->J:Lcom/commsource/camera/d1/g/p;
 
     new-instance v1, Landroid/graphics/Point;
@@ -1879,7 +1706,6 @@
 
     goto :goto_2
 
-    .line 7
     :cond_5
     iget-object p1, p0, Lcom/commsource/camera/d1/f;->J:Lcom/commsource/camera/d1/g/p;
 
@@ -1891,7 +1717,6 @@
 
     goto :goto_2
 
-    .line 8
     :cond_6
     iget-object p1, p0, Lcom/commsource/camera/d1/f;->J:Lcom/commsource/camera/d1/g/p;
 
@@ -1905,7 +1730,6 @@
 
     invoke-virtual {p1, v1}, Lcom/commsource/camera/d1/g/p;->i(Landroid/graphics/Point;)V
 
-    .line 9
     :goto_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1919,7 +1743,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/d1/f;->a:Ljava/util/List;
 
     invoke-interface {v1}, Ljava/util/List;->iterator()Ljava/util/Iterator;
@@ -1939,7 +1762,6 @@
 
     check-cast v2, Lcom/commsource/camera/newrender/renderproxy/n;
 
-    .line 2
     const-class v3, Lcom/commsource/camera/d1/g/h;
 
     invoke-virtual {v2, v3}, Lcom/commsource/camera/newrender/renderproxy/n;->g(Ljava/lang/Class;)Z
@@ -1948,7 +1770,6 @@
 
     if-eqz v2, :cond_0
 
-    .line 3
     invoke-static {}, Lcom/commsource/beautyplus/q;->b()Lcom/commsource/beautyplus/q;
 
     move-result-object v1
@@ -1957,12 +1778,10 @@
 
     iput-boolean v2, v1, Lcom/commsource/beautyplus/q;->h:Z
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v2
 
-    .line 5
     :cond_1
     invoke-static {}, Lcom/commsource/beautyplus/q;->b()Lcom/commsource/beautyplus/q;
 
@@ -1972,7 +1791,6 @@
 
     iput-boolean v2, v1, Lcom/commsource/beautyplus/q;->h:Z
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v2
@@ -1993,12 +1811,10 @@
 
     invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v2, p0, Lcom/commsource/camera/d1/f;->M:Lcom/commsource/camera/d1/g/r;
 
     if-nez v2, :cond_0
 
-    .line 2
     new-instance v2, Lcom/commsource/camera/d1/g/r;
 
     invoke-direct {v2}, Lcom/commsource/camera/d1/g/r;-><init>()V
@@ -2008,28 +1824,24 @@
     :cond_0
     if-eqz p1, :cond_1
 
-    .line 3
     iget-object v2, p0, Lcom/commsource/camera/d1/f;->M:Lcom/commsource/camera/d1/g/r;
 
     iget v3, p1, Lcom/meitu/mtlab/MTAiInterface/MTSegmentModule/MTSegment;->textureWidth:I
 
     invoke-virtual {v2, v3}, Lcom/commsource/camera/d1/g/r;->l(I)V
 
-    .line 4
     iget-object v2, p0, Lcom/commsource/camera/d1/f;->M:Lcom/commsource/camera/d1/g/r;
 
     iget v3, p1, Lcom/meitu/mtlab/MTAiInterface/MTSegmentModule/MTSegment;->textureHeight:I
 
     invoke-virtual {v2, v3}, Lcom/commsource/camera/d1/g/r;->j(I)V
 
-    .line 5
     iget-object v2, p0, Lcom/commsource/camera/d1/f;->M:Lcom/commsource/camera/d1/g/r;
 
     iget p1, p1, Lcom/meitu/mtlab/MTAiInterface/MTSegmentModule/MTSegment;->textureID:I
 
     invoke-virtual {v2, p1}, Lcom/commsource/camera/d1/g/r;->k(I)V
 
-    .line 6
     :cond_1
     iget-object p1, p0, Lcom/commsource/camera/d1/f;->a:Ljava/util/List;
 
@@ -2051,21 +1863,18 @@
 
     check-cast v2, Lcom/commsource/camera/newrender/renderproxy/n;
 
-    .line 7
     invoke-virtual {v2, v0}, Lcom/commsource/camera/newrender/renderproxy/n;->g(Ljava/lang/Class;)Z
 
     move-result v3
 
     if-eqz v3, :cond_2
 
-    .line 8
     iget-object v3, p0, Lcom/commsource/camera/d1/f;->M:Lcom/commsource/camera/d1/g/r;
 
     invoke-virtual {v2, v3, v0}, Lcom/commsource/camera/newrender/renderproxy/n;->s(Ljava/lang/Object;Ljava/lang/Class;)V
 
     goto :goto_0
 
-    .line 9
     :cond_3
     invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -2079,7 +1888,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2092,22 +1900,18 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/d1/f;->a:Ljava/util/List;
 
     invoke-interface {v1, p1}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
-    .line 2
     invoke-virtual {p1, p0}, Lcom/commsource/camera/newrender/renderproxy/n;->o(Lcom/commsource/camera/d1/b;)V
 
-    .line 3
     instance-of v1, p1, Lcom/commsource/camera/newrender/renderproxy/p;
 
     if-eqz v1, :cond_0
 
     const/4 v1, 0x1
 
-    .line 4
     invoke-virtual {p1, v1}, Lcom/commsource/camera/newrender/renderproxy/n;->r(Z)V
 
     goto :goto_0
@@ -2115,10 +1919,8 @@
     :cond_0
     const/4 v1, 0x0
 
-    .line 5
     invoke-virtual {p1, v1}, Lcom/commsource/camera/newrender/renderproxy/n;->r(Z)V
 
-    .line 6
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -2132,12 +1934,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/camera/d1/f;->Q:Z
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2145,10 +1945,8 @@
     :cond_0
     const/4 v1, 0x1
 
-    .line 3
     iput-boolean v1, p0, Lcom/commsource/camera/d1/f;->Q:Z
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/camera/d1/f;->a:Ljava/util/List;
 
     invoke-interface {v1}, Ljava/util/List;->iterator()Ljava/util/Iterator;
@@ -2168,12 +1966,10 @@
 
     check-cast v2, Lcom/commsource/camera/newrender/renderproxy/n;
 
-    .line 5
     invoke-virtual {v2}, Lcom/commsource/camera/newrender/renderproxy/n;->h()V
 
     goto :goto_0
 
-    .line 6
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -2187,7 +1983,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/d1/f;->N:Lcom/meitu/library/n/a/o/e;
 
     if-eqz v1, :cond_1
@@ -2204,7 +1999,6 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     iget-object v1, p0, Lcom/commsource/camera/d1/f;->N:Lcom/meitu/library/n/a/o/e;
 
@@ -2214,12 +2008,10 @@
 
     invoke-interface {v1, p1}, Lcom/meitu/library/n/a/o/n/c;->j(Ljava/lang/Runnable;)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 4
     :cond_1
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2234,7 +2026,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2247,35 +2038,29 @@
 
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p4, p0, Lcom/commsource/camera/d1/f;->J:Lcom/commsource/camera/d1/g/p;
 
     if-nez p4, :cond_0
 
-    .line 2
     new-instance p4, Lcom/commsource/camera/d1/g/p;
 
     invoke-direct {p4}, Lcom/commsource/camera/d1/g/p;-><init>()V
 
     iput-object p4, p0, Lcom/commsource/camera/d1/f;->J:Lcom/commsource/camera/d1/g/p;
 
-    .line 3
     :cond_0
     iget-object p4, p0, Lcom/commsource/camera/d1/f;->J:Lcom/commsource/camera/d1/g/p;
 
     invoke-virtual {p4, p3}, Lcom/commsource/camera/d1/g/p;->j(Landroid/graphics/Rect;)V
 
-    .line 4
     iget-object p3, p0, Lcom/commsource/camera/d1/f;->J:Lcom/commsource/camera/d1/g/p;
 
     invoke-virtual {p3, p1}, Lcom/commsource/camera/d1/g/p;->o(Landroid/graphics/RectF;)V
 
-    .line 5
     iget-object p1, p0, Lcom/commsource/camera/d1/f;->J:Lcom/commsource/camera/d1/g/p;
 
     invoke-virtual {p1, p5}, Lcom/commsource/camera/d1/g/p;->n(Landroid/graphics/Rect;)V
 
-    .line 6
     iget-object p1, p0, Lcom/commsource/camera/d1/f;->a:Ljava/util/List;
 
     invoke-interface {p1}, Ljava/util/List;->iterator()Ljava/util/Iterator;
@@ -2295,7 +2080,6 @@
 
     check-cast p3, Lcom/commsource/camera/newrender/renderproxy/n;
 
-    .line 7
     iget-object p4, p0, Lcom/commsource/camera/d1/f;->J:Lcom/commsource/camera/d1/g/p;
 
     const-class p5, Lcom/commsource/camera/d1/g/p;
@@ -2304,7 +2088,6 @@
 
     goto :goto_0
 
-    .line 8
     :cond_1
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -2318,7 +2101,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const/4 v0, 0x0
@@ -2333,7 +2115,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2346,7 +2127,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/d1/f;->a:Ljava/util/List;
 
     invoke-interface {v1}, Ljava/util/List;->iterator()Ljava/util/Iterator;
@@ -2366,7 +2146,6 @@
 
     check-cast v2, Lcom/commsource/camera/newrender/renderproxy/n;
 
-    .line 2
     const-class v3, Lcom/commsource/camera/d1/g/r;
 
     invoke-virtual {v2, v3}, Lcom/commsource/camera/newrender/renderproxy/n;->g(Ljava/lang/Class;)Z
@@ -2377,7 +2156,6 @@
 
     const/4 v1, 0x1
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
@@ -2385,7 +2163,6 @@
     :cond_1
     const/4 v1, 0x0
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
@@ -2398,7 +2175,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2419,17 +2195,14 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p2, p0, Lcom/commsource/camera/d1/f;->J:Lcom/commsource/camera/d1/g/p;
 
     if-eqz p2, :cond_0
 
     const/4 v0, 0x1
 
-    .line 2
     invoke-virtual {p2, v0}, Lcom/commsource/camera/d1/g/p;->l(Z)V
 
-    .line 3
     :cond_0
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -2443,7 +2216,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const/4 v0, 0x0
@@ -2458,7 +2230,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/d1/f;->N:Lcom/meitu/library/n/a/o/e;
 
     if-eqz v1, :cond_2
@@ -2475,7 +2246,6 @@
 
     goto :goto_1
 
-    .line 2
     :cond_0
     iget-object v1, p0, Lcom/commsource/camera/d1/f;->N:Lcom/meitu/library/n/a/o/e;
 
@@ -2489,12 +2259,10 @@
 
     if-eqz v1, :cond_1
 
-    .line 3
     new-instance v1, Lcom/commsource/camera/d1/a;
 
     invoke-direct {v1, p1}, Lcom/commsource/camera/d1/a;-><init>(Ljava/lang/Runnable;)V
 
-    .line 4
     iget-object p1, p0, Lcom/commsource/camera/d1/f;->N:Lcom/meitu/library/n/a/o/e;
 
     invoke-interface {p1}, Lcom/meitu/library/n/a/o/g;->b()Lcom/meitu/library/n/a/o/n/a;
@@ -2505,7 +2273,6 @@
 
     goto :goto_0
 
-    .line 5
     :cond_1
     iget-object v1, p0, Lcom/commsource/camera/d1/f;->N:Lcom/meitu/library/n/a/o/e;
 
@@ -2515,13 +2282,11 @@
 
     invoke-interface {v1, p1}, Lcom/meitu/library/n/a/o/n/c;->j(Ljava/lang/Runnable;)V
 
-    .line 6
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 7
     :cond_2
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2548,24 +2313,20 @@
 
     if-eqz p1, :cond_3
 
-    .line 1
     iget-object v3, p1, Lcom/meitu/mtlab/MTAiInterface/MTDL3DModule/MTDL3DResult;->dl3ds:[Lcom/meitu/mtlab/MTAiInterface/MTDL3DModule/MTDL3D;
 
     if-eqz v3, :cond_3
 
-    .line 2
     iget-object v3, p0, Lcom/commsource/camera/d1/f;->P:Lcom/commsource/camera/d1/g/h;
 
     if-nez v3, :cond_0
 
-    .line 3
     new-instance v3, Lcom/commsource/camera/d1/g/h;
 
     invoke-direct {v3}, Lcom/commsource/camera/d1/g/h;-><init>()V
 
     iput-object v3, p0, Lcom/commsource/camera/d1/f;->P:Lcom/commsource/camera/d1/g/h;
 
-    .line 4
     :cond_0
     iget-object v3, p0, Lcom/commsource/camera/d1/f;->P:Lcom/commsource/camera/d1/g/h;
 
@@ -2575,17 +2336,14 @@
 
     iput v5, v3, Lcom/commsource/camera/d1/g/h;->a:I
 
-    .line 5
     iget v4, v4, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineSize;->height:I
 
     iput v4, v3, Lcom/commsource/camera/d1/g/h;->b:I
 
-    .line 6
     iget-object p1, p1, Lcom/meitu/mtlab/MTAiInterface/MTDL3DModule/MTDL3DResult;->dl3ds:[Lcom/meitu/mtlab/MTAiInterface/MTDL3DModule/MTDL3D;
 
     iput-object p1, v3, Lcom/commsource/camera/d1/g/h;->c:[Lcom/meitu/mtlab/MTAiInterface/MTDL3DModule/MTDL3D;
 
-    .line 7
     iget-object p1, p0, Lcom/commsource/camera/d1/f;->a:Ljava/util/List;
 
     invoke-interface {p1}, Ljava/util/List;->iterator()Ljava/util/Iterator;
@@ -2606,7 +2364,6 @@
 
     check-cast v3, Lcom/commsource/camera/newrender/renderproxy/n;
 
-    .line 8
     invoke-virtual {v3, v1}, Lcom/commsource/camera/newrender/renderproxy/n;->g(Ljava/lang/Class;)Z
 
     move-result v4
@@ -2619,7 +2376,6 @@
 
     if-eqz v4, :cond_1
 
-    .line 9
     :cond_2
     iget-object v4, p0, Lcom/commsource/camera/d1/f;->P:Lcom/commsource/camera/d1/g/h;
 
@@ -2627,7 +2383,6 @@
 
     goto :goto_0
 
-    .line 10
     :cond_3
     iget-object p1, p0, Lcom/commsource/camera/d1/f;->a:Ljava/util/List;
 
@@ -2649,7 +2404,6 @@
 
     check-cast v3, Lcom/commsource/camera/newrender/renderproxy/n;
 
-    .line 11
     invoke-virtual {v3, v1}, Lcom/commsource/camera/newrender/renderproxy/n;->g(Ljava/lang/Class;)Z
 
     move-result v4
@@ -2665,12 +2419,10 @@
     :cond_5
     const/4 v4, 0x0
 
-    .line 12
     invoke-virtual {v3, v4, v1}, Lcom/commsource/camera/newrender/renderproxy/n;->s(Ljava/lang/Object;Ljava/lang/Class;)V
 
     goto :goto_1
 
-    .line 13
     :cond_6
     invoke-static {v2}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -2684,7 +2436,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/d1/f;->a:Ljava/util/List;
 
     invoke-interface {v1}, Ljava/util/List;->iterator()Ljava/util/Iterator;
@@ -2704,7 +2455,6 @@
 
     check-cast v2, Lcom/commsource/camera/newrender/renderproxy/n;
 
-    .line 2
     const-class v3, Lcom/commsource/camera/d1/g/m;
 
     invoke-virtual {v2, v3}, Lcom/commsource/camera/newrender/renderproxy/n;->g(Ljava/lang/Class;)Z
@@ -2715,7 +2465,6 @@
 
     const/4 v1, 0x1
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
@@ -2723,7 +2472,6 @@
     :cond_1
     const/4 v1, 0x0
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
@@ -2736,7 +2484,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2751,30 +2498,25 @@
 
     invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v2, p0, Lcom/commsource/camera/d1/f;->d:Lcom/commsource/camera/d1/g/b;
 
     if-nez v2, :cond_0
 
-    .line 2
     new-instance v2, Lcom/commsource/camera/d1/g/b;
 
     invoke-direct {v2}, Lcom/commsource/camera/d1/g/b;-><init>()V
 
     iput-object v2, p0, Lcom/commsource/camera/d1/f;->d:Lcom/commsource/camera/d1/g/b;
 
-    .line 3
     :cond_0
     iget-object v2, p0, Lcom/commsource/camera/d1/f;->d:Lcom/commsource/camera/d1/g/b;
 
     invoke-virtual {v2, p1}, Lcom/commsource/camera/d1/g/b;->d([F)V
 
-    .line 4
     iget-object p1, p0, Lcom/commsource/camera/d1/f;->d:Lcom/commsource/camera/d1/g/b;
 
     invoke-virtual {p1, p2}, Lcom/commsource/camera/d1/g/b;->c([F)V
 
-    .line 5
     iget-object p1, p0, Lcom/commsource/camera/d1/f;->a:Ljava/util/List;
 
     invoke-interface {p1}, Ljava/util/List;->iterator()Ljava/util/Iterator;
@@ -2795,21 +2537,18 @@
 
     check-cast p2, Lcom/commsource/camera/newrender/renderproxy/n;
 
-    .line 6
     invoke-virtual {p2, v0}, Lcom/commsource/camera/newrender/renderproxy/n;->g(Ljava/lang/Class;)Z
 
     move-result v2
 
     if-eqz v2, :cond_1
 
-    .line 7
     iget-object v2, p0, Lcom/commsource/camera/d1/f;->d:Lcom/commsource/camera/d1/g/b;
 
     invoke-virtual {p2, v2, v0}, Lcom/commsource/camera/newrender/renderproxy/n;->s(Ljava/lang/Object;Ljava/lang/Class;)V
 
     goto :goto_0
 
-    .line 8
     :cond_2
     invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -2823,7 +2562,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2836,7 +2574,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const/4 p1, 0x0
@@ -2851,7 +2588,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const/4 p1, 0x0
@@ -2866,7 +2602,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const/4 p1, 0x0
@@ -2881,7 +2616,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const/4 p1, 0x0
@@ -2896,7 +2630,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const/4 p1, 0x0
@@ -2911,7 +2644,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const/4 p1, 0x0
@@ -2926,7 +2658,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const/4 p1, 0x0
@@ -2941,7 +2672,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const/4 p1, 0x0
@@ -2956,7 +2686,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const/4 p1, 0x0
@@ -2971,7 +2700,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const/4 p1, 0x0
@@ -2986,7 +2714,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const/4 p1, 0x0
@@ -3001,7 +2728,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const/4 p1, 0x0
@@ -3016,7 +2742,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const/4 p1, 0x0
@@ -3031,7 +2756,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const/4 p1, 0x0
@@ -3046,7 +2770,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const/4 p1, 0x0
@@ -3061,7 +2784,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -3074,7 +2796,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const/4 p1, 0x0
@@ -3089,7 +2810,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/d1/f;->a:Ljava/util/List;
 
     invoke-interface {v1}, Ljava/util/List;->iterator()Ljava/util/Iterator;
@@ -3111,7 +2831,6 @@
 
     check-cast v3, Lcom/commsource/camera/newrender/renderproxy/n;
 
-    .line 2
     invoke-virtual {v3, p1}, Lcom/commsource/camera/newrender/renderproxy/n;->l(Landroid/view/MotionEvent;)Z
 
     move-result v3
@@ -3120,7 +2839,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -3134,7 +2852,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -3147,25 +2864,21 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/d1/f;->J:Lcom/commsource/camera/d1/g/p;
 
     if-nez v1, :cond_0
 
-    .line 2
     new-instance v1, Lcom/commsource/camera/d1/g/p;
 
     invoke-direct {v1}, Lcom/commsource/camera/d1/g/p;-><init>()V
 
     iput-object v1, p0, Lcom/commsource/camera/d1/f;->J:Lcom/commsource/camera/d1/g/p;
 
-    .line 3
     :cond_0
     iget-object v1, p0, Lcom/commsource/camera/d1/f;->J:Lcom/commsource/camera/d1/g/p;
 
     invoke-virtual {v1, p1}, Lcom/commsource/camera/d1/g/p;->m(I)V
 
-    .line 4
     iget-object p1, p0, Lcom/commsource/camera/d1/f;->a:Ljava/util/List;
 
     invoke-interface {p1}, Ljava/util/List;->iterator()Ljava/util/Iterator;
@@ -3185,7 +2898,6 @@
 
     check-cast v1, Lcom/commsource/camera/newrender/renderproxy/n;
 
-    .line 5
     iget-object v2, p0, Lcom/commsource/camera/d1/f;->J:Lcom/commsource/camera/d1/g/p;
 
     const-class v3, Lcom/commsource/camera/d1/g/p;
@@ -3194,7 +2906,6 @@
 
     goto :goto_0
 
-    .line 6
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -3214,25 +2925,21 @@
 
     invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v2, p0, Lcom/commsource/camera/d1/f;->c:Lcom/commsource/camera/d1/g/j;
 
     if-nez v2, :cond_0
 
-    .line 2
     new-instance v2, Lcom/commsource/camera/d1/g/j;
 
     invoke-direct {v2}, Lcom/commsource/camera/d1/g/j;-><init>()V
 
     iput-object v2, p0, Lcom/commsource/camera/d1/f;->c:Lcom/commsource/camera/d1/g/j;
 
-    .line 3
     :cond_0
     iget-object v2, p0, Lcom/commsource/camera/d1/f;->c:Lcom/commsource/camera/d1/g/j;
 
     invoke-virtual {v2, p1}, Lcom/commsource/camera/d1/g/j;->q(Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/MTFaceResult;)V
 
-    .line 4
     iget-object p1, p0, Lcom/commsource/camera/d1/f;->a:Ljava/util/List;
 
     invoke-interface {p1}, Ljava/util/List;->iterator()Ljava/util/Iterator;
@@ -3253,21 +2960,18 @@
 
     check-cast v2, Lcom/commsource/camera/newrender/renderproxy/n;
 
-    .line 5
     invoke-virtual {v2, v0}, Lcom/commsource/camera/newrender/renderproxy/n;->g(Ljava/lang/Class;)Z
 
     move-result v3
 
     if-eqz v3, :cond_1
 
-    .line 6
     iget-object v3, p0, Lcom/commsource/camera/d1/f;->c:Lcom/commsource/camera/d1/g/j;
 
     invoke-virtual {v2, v3, v0}, Lcom/commsource/camera/newrender/renderproxy/n;->s(Ljava/lang/Object;Ljava/lang/Class;)V
 
     goto :goto_0
 
-    .line 7
     :cond_2
     invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -3281,7 +2985,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -3294,7 +2997,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -3307,7 +3009,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -3320,7 +3021,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/d1/f;->a:Ljava/util/List;
 
     invoke-interface {v1}, Ljava/util/List;->iterator()Ljava/util/Iterator;
@@ -3340,12 +3040,10 @@
 
     check-cast v2, Lcom/commsource/camera/newrender/renderproxy/n;
 
-    .line 2
     invoke-virtual {v2, p1}, Lcom/commsource/camera/newrender/renderproxy/n;->k(Lcom/meitu/library/renderarch/arch/data/b/d;)V
 
     goto :goto_0
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -3359,7 +3057,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

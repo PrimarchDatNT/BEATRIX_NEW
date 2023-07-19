@@ -22,7 +22,6 @@
 .method constructor <init>(Ljava/lang/String;Landroid/app/Application;)V
     .locals 0
 
-    .line 1
     iput-object p2, p0, Lcom/commsource/beautyplus/l$d;->g:Landroid/app/Application;
 
     invoke-direct {p0, p1}, Lcom/commsource/util/u2/a;-><init>(Ljava/lang/String;)V
@@ -39,13 +38,11 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     :try_start_0
     iget-object v1, p0, Lcom/commsource/beautyplus/l$d;->g:Landroid/app/Application;
 
     invoke-static {v1}, Lcom/commsource/beautyplus/l;->d(Landroid/app/Application;)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/beautyplus/l$d;->g:Landroid/app/Application;
 
     const/4 v2, 0x0
@@ -59,10 +56,8 @@
     :catch_0
     move-exception v1
 
-    .line 3
     invoke-static {v1}, Lcom/meitu/library/util/Debug/Debug;->a0(Ljava/lang/Throwable;)V
 
-    .line 4
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

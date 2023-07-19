@@ -29,7 +29,6 @@
 .method constructor <init>(Lcom/commsource/camera/beauty/n;Lcom/commsource/camera/beauty/n$b;Ljava/lang/String;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/camera/beauty/n$a;->c:Lcom/commsource/camera/beauty/n;
 
     iput-object p2, p0, Lcom/commsource/camera/beauty/n$a;->a:Lcom/commsource/camera/beauty/n$b;
@@ -50,7 +49,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -63,7 +61,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -76,7 +73,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -89,17 +85,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/beauty/n$a;->a:Lcom/commsource/camera/beauty/n$b;
 
     if-eqz v1, :cond_0
 
-    .line 2
     iget-object v2, p0, Lcom/commsource/camera/beauty/n$a;->b:Ljava/lang/String;
 
     invoke-interface {v1, v2}, Lcom/commsource/camera/beauty/n$b;->a(Ljava/lang/String;)V
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

@@ -52,25 +52,20 @@
 .method public constructor <init>()V
     .locals 3
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const-string v0, "subs_info"
 
-    .line 2
     iput-object v0, p0, Lf/k/m/g/d/a;->b:Ljava/lang/String;
 
     const-string v1, "subs_update_time"
 
-    .line 3
     iput-object v1, p0, Lf/k/m/g/d/a;->c:Ljava/lang/String;
 
     const v1, 0x5265c00
 
-    .line 4
     iput v1, p0, Lf/k/m/g/d/a;->d:I
 
-    .line 5
     invoke-static {}, Lf/k/m/b;->i()Lf/k/m/b;
 
     move-result-object v1
@@ -85,7 +80,6 @@
 
     const/4 v2, 0x0
 
-    .line 6
     invoke-virtual {v1, v0, v2}, Landroid/app/Application;->getSharedPreferences(Ljava/lang/String;I)Landroid/content/SharedPreferences;
 
     move-result-object v0
@@ -106,7 +100,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lf/k/m/g/d/a;->e:Lf/k/m/g/d/a;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -121,7 +114,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sput-object p0, Lf/k/m/g/d/a;->e:Lf/k/m/g/d/a;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -138,7 +130,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lf/k/m/g/d/a;->a:Landroid/content/SharedPreferences;
 
     iget-object v2, p0, Lf/k/m/g/d/a;->c:Ljava/lang/String;
@@ -149,14 +140,12 @@
 
     move-result-wide v1
 
-    .line 2
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v3
 
     sub-long/2addr v3, v1
 
-    .line 3
     iget v1, p0, Lf/k/m/g/d/a;->d:I
 
     int-to-long v1, v1
@@ -185,22 +174,18 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lf/k/m/g/d/a;->a:Landroid/content/SharedPreferences;
 
     invoke-interface {v1}, Landroid/content/SharedPreferences;->edit()Landroid/content/SharedPreferences$Editor;
 
     move-result-object v1
 
-    .line 2
     iget-object v2, p0, Lf/k/m/g/d/a;->c:Ljava/lang/String;
 
     invoke-interface {v1, v2, p1, p2}, Landroid/content/SharedPreferences$Editor;->putLong(Ljava/lang/String;J)Landroid/content/SharedPreferences$Editor;
 
-    .line 3
     invoke-interface {v1}, Landroid/content/SharedPreferences$Editor;->apply()V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

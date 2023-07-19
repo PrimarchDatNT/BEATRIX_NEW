@@ -15,7 +15,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/meitu/library/gid/base/k0/b/e;
 
     invoke-direct {v1}, Lcom/meitu/library/gid/base/k0/b/e;-><init>()V
@@ -30,7 +29,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -43,7 +41,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/meitu/library/gid/base/k0/b/e;->a:Lcom/meitu/library/gid/base/k0/b/e;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -62,7 +59,6 @@
 
     if-eqz p2, :cond_1
 
-    .line 1
     invoke-virtual {p2}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
     move-result-object v1
@@ -77,7 +73,6 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     check-cast p2, Lcom/meitu/library/gid/base/k0/b/c;
 
@@ -89,7 +84,6 @@
 
     return-object p1
 
-    .line 3
     :cond_1
     :goto_0
     new-instance p2, Lcom/meitu/library/gid/base/k0/b/c;

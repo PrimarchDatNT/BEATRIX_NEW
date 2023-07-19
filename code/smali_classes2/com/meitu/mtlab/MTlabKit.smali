@@ -33,10 +33,8 @@
 
     const-string v1, "MTAiInterface"
 
-    .line 1
     invoke-static {v1}, Ljava/lang/System;->loadLibrary(Ljava/lang/String;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -45,7 +43,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -58,19 +55,16 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/meitu/mtlab/MTlabKit;->i:Lcom/meitu/mtlab/MTlabKit;
 
     if-nez v1, :cond_0
 
-    .line 2
     new-instance v1, Lcom/meitu/mtlab/MTlabKit;
 
     invoke-direct {v1}, Lcom/meitu/mtlab/MTlabKit;-><init>()V
 
     sput-object v1, Lcom/meitu/mtlab/MTlabKit;->i:Lcom/meitu/mtlab/MTlabKit;
 
-    .line 3
     :cond_0
     sget-object v1, Lcom/meitu/mtlab/MTlabKit;->i:Lcom/meitu/mtlab/MTlabKit;
 
@@ -97,7 +91,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/meitu/mtlab/MTlabKit;->nativeGetDetailsErrorCode()Ljava/lang/String;
 
     move-result-object v1
@@ -114,7 +107,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/mtlab/MTlabKit;->nativeGetRegisterInfo(I)Ljava/lang/String;
 
     move-result-object p1
@@ -147,7 +139,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1, p2, p3, p4, p5}, Lcom/meitu/mtlab/MTlabKit;->nativeInit(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)I
 
     move-result p1

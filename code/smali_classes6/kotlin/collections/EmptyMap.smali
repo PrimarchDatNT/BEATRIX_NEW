@@ -24,7 +24,6 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
     new-instance v0, Lcotlin/collections/EmptyMap;
 
     invoke-direct {v0}, Lcotlin/collections/EmptyMap;-><init>()V
@@ -37,7 +36,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -46,7 +44,6 @@
 .method private final readResolve()Ljava/lang/Object;
     .locals 1
 
-    .line 1
     sget-object v0, Lcotlin/collections/EmptyMap;->INSTANCE:Lcotlin/collections/EmptyMap;
 
     return-object v0
@@ -81,7 +78,6 @@
 .method public final bridge containsValue(Ljava/lang/Object;)Z
     .locals 1
 
-    .line 1
     instance-of v0, p1, Ljava/lang/Void;
 
     if-eqz v0, :cond_0
@@ -127,7 +123,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcotlin/collections/EmptyMap;->getEntries()Ljava/util/Set;
 
     move-result-object v0
@@ -142,7 +137,6 @@
         .end annotation
     .end param
 
-    .line 1
     instance-of v0, p1, Ljava/util/Map;
 
     if-eqz v0, :cond_0
@@ -169,7 +163,6 @@
 .method public final bridge get(Ljava/lang/Object;)Ljava/lang/Object;
     .locals 0
 
-    .line 1
     invoke-virtual {p0, p1}, Lcotlin/collections/EmptyMap;->get(Ljava/lang/Object;)Ljava/lang/Void;
 
     move-result-object p1
@@ -205,7 +198,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     sget-object v0, Lcotlin/collections/EmptySet;->INSTANCE:Lcotlin/collections/EmptySet;
 
     return-object v0
@@ -225,7 +217,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     sget-object v0, Lcotlin/collections/EmptySet;->INSTANCE:Lcotlin/collections/EmptySet;
 
     return-object v0
@@ -244,7 +235,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     sget-object v0, Lcotlin/collections/EmptyList;->INSTANCE:Lcotlin/collections/EmptyList;
 
     return-object v0
@@ -277,7 +267,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcotlin/collections/EmptyMap;->getKeys()Ljava/util/Set;
 
     move-result-object v0
@@ -336,7 +325,6 @@
 .method public final bridge size()I
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcotlin/collections/EmptyMap;->getSize()I
 
     move-result v0
@@ -357,7 +345,6 @@
 .method public final bridge values()Ljava/util/Collection;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcotlin/collections/EmptyMap;->getValues()Ljava/util/Collection;
 
     move-result-object v0

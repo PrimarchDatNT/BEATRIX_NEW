@@ -23,7 +23,6 @@
 .method constructor <init>(Lcom/commsource/studio/formula/JsFormula;Ljava/lang/String;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/formula/FormulaRepo$i;->g:Lcom/commsource/studio/formula/JsFormula;
 
     invoke-direct {p0, p2}, Lcom/commsource/util/u2/a;-><init>(Ljava/lang/String;)V
@@ -40,7 +39,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/studio/formula/FormulaRepo;->x:Lcom/commsource/studio/formula/FormulaRepo;
 
     invoke-static {v1}, Lcom/commsource/studio/formula/FormulaRepo;->r(Lcom/commsource/studio/formula/FormulaRepo;)Lf/k/i0/a/x;
@@ -51,7 +49,6 @@
 
     invoke-interface {v1, v2}, Lf/k/i0/a/x;->D1(Lcom/commsource/studio/formula/JsFormula;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

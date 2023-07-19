@@ -27,7 +27,6 @@
 .method constructor <init>(Landroid/content/Context;I)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/alibaba/android/patronus/_Patrons$1;->val$context:Landroid/content/Context;
 
     iput p2, p0, Lcom/alibaba/android/patronus/_Patrons$1;->val$code:I
@@ -42,7 +41,6 @@
 .method public run()V
     .locals 5
 
-    .line 1
     :try_start_0
     new-instance v0, Ljava/lang/StringBuilder;
 
@@ -72,7 +70,6 @@
 
     move-result-object v0
 
-    .line 2
     iget v1, p0, Lcom/alibaba/android/patronus/_Patrons$1;->val$code:I
 
     invoke-static {v1}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
@@ -95,12 +92,10 @@
 
     invoke-static {v1, v2}, Lcom/alibaba/android/patronus/_Patrons;->access$500(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 3
     iget v1, p0, Lcom/alibaba/android/patronus/_Patrons$1;->val$code:I
 
     if-eqz v1, :cond_0
 
-    .line 4
     invoke-static {v3}, Lcom/alibaba/android/patronus/_Patrons;->dumpNativeLogs(Z)Ljava/lang/String;
 
     move-result-object v1
@@ -128,7 +123,6 @@
     :catch_0
     move-exception v0
 
-    .line 5
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V

@@ -55,7 +55,6 @@
 .method public bridge synthetic invoke(Ljava/lang/Object;)Ljava/lang/Object;
     .locals 0
 
-    .line 1
     check-cast p1, Lcotlin/Pair;
 
     invoke-virtual {p0, p1}, Lkshark/HprofHeapGraph$instances$1;->invoke(Lcotlin/Pair;)Lkshark/HeapObject$HeapInstance;
@@ -89,7 +88,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 2
     invoke-virtual {p1}, Lcotlin/Pair;->getFirst()Ljava/lang/Object;
 
     move-result-object v0
@@ -100,7 +98,6 @@
 
     move-result-wide v4
 
-    .line 3
     invoke-virtual {p1}, Lcotlin/Pair;->getSecond()Ljava/lang/Object;
 
     move-result-object p1
@@ -109,7 +106,6 @@
 
     check-cast v3, Lkshark/internal/d$b;
 
-    .line 4
     iget-object p1, p0, Lkshark/HprofHeapGraph$instances$1;->this$0:Lkshark/HprofHeapGraph;
 
     invoke-static {p1}, Lkshark/HprofHeapGraph;->m(Lkshark/HprofHeapGraph;)Lkshark/internal/HprofInMemoryIndex;
@@ -132,7 +128,6 @@
 
     move-result v6
 
-    .line 5
     new-instance p1, Lkshark/HeapObject$HeapInstance;
 
     iget-object v2, p0, Lkshark/HprofHeapGraph$instances$1;->this$0:Lkshark/HprofHeapGraph;

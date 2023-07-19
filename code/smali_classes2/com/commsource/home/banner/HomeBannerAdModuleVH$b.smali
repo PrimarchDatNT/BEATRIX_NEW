@@ -40,7 +40,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/home/banner/HomeBannerAdModuleVH$b;->a:Lcom/commsource/home/banner/HomeBannerAdModuleVH;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -57,7 +56,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p1}, Ljava/lang/Integer;->intValue()I
 
     move-result p1
@@ -76,7 +74,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -93,7 +90,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/home/banner/HomeBannerAdModuleVH$b;->a:Lcom/commsource/home/banner/HomeBannerAdModuleVH;
 
     if-eqz p1, :cond_0
@@ -110,7 +106,6 @@
     :goto_0
     invoke-static {v1, p1}, Lcom/commsource/home/banner/HomeBannerAdModuleVH;->W(Lcom/commsource/home/banner/HomeBannerAdModuleVH;Ljava/lang/String;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -123,7 +118,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Lcom/commsource/beautyplus/j0/c/a$b;
 
     invoke-virtual {p0, p1}, Lcom/commsource/home/banner/HomeBannerAdModuleVH$b;->c(Lcom/commsource/beautyplus/j0/c/a$b;)V

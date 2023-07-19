@@ -85,7 +85,6 @@
 
     const-string v0, "T"
 
-    .line 1
     invoke-direct {p0, p1, v0}, Lorg/greenrobot/greendao/l/k;-><init>(Lorg/greenrobot/greendao/a;Ljava/lang/String;)V
 
     return-void
@@ -103,30 +102,24 @@
         }
     .end annotation
 
-    .line 2
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 3
     iput-object p1, p0, Lorg/greenrobot/greendao/l/k;->e:Lorg/greenrobot/greendao/a;
 
-    .line 4
     iput-object p2, p0, Lorg/greenrobot/greendao/l/k;->f:Ljava/lang/String;
 
-    .line 5
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
 
     iput-object v0, p0, Lorg/greenrobot/greendao/l/k;->c:Ljava/util/List;
 
-    .line 6
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
 
     iput-object v0, p0, Lorg/greenrobot/greendao/l/k;->d:Ljava/util/List;
 
-    .line 7
     new-instance v0, Lorg/greenrobot/greendao/l/l;
 
     invoke-direct {v0, p1, p2}, Lorg/greenrobot/greendao/l/l;-><init>(Lorg/greenrobot/greendao/a;Ljava/lang/String;)V
@@ -135,7 +128,6 @@
 
     const-string p1, " COLLATE NOCASE"
 
-    .line 8
     iput-object p1, p0, Lorg/greenrobot/greendao/l/k;->j:Ljava/lang/String;
 
     return-void
@@ -144,7 +136,6 @@
 .method private varargs C(Ljava/lang/String;[Lorg/greenrobot/greendao/h;)V
     .locals 4
 
-    .line 1
     array-length v0, p2
 
     const/4 v1, 0x0
@@ -154,15 +145,12 @@
 
     aget-object v2, p2, v1
 
-    .line 2
     invoke-direct {p0}, Lorg/greenrobot/greendao/l/k;->l()V
 
-    .line 3
     iget-object v3, p0, Lorg/greenrobot/greendao/l/k;->b:Ljava/lang/StringBuilder;
 
     invoke-virtual {p0, v3, v2}, Lorg/greenrobot/greendao/l/k;->c(Ljava/lang/StringBuilder;Lorg/greenrobot/greendao/h;)Ljava/lang/StringBuilder;
 
-    .line 4
     const-class v3, Ljava/lang/String;
 
     iget-object v2, v2, Lorg/greenrobot/greendao/h;->b:Ljava/lang/Class;
@@ -177,12 +165,10 @@
 
     if-eqz v2, :cond_0
 
-    .line 5
     iget-object v3, p0, Lorg/greenrobot/greendao/l/k;->b:Ljava/lang/StringBuilder;
 
     invoke-virtual {v3, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 6
     :cond_0
     iget-object v2, p0, Lorg/greenrobot/greendao/l/k;->b:Ljava/lang/StringBuilder;
 
@@ -214,7 +200,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -237,7 +222,6 @@
 
     move-result-object v7
 
-    .line 2
     new-instance v0, Lorg/greenrobot/greendao/l/h;
 
     move-object v2, v0
@@ -252,7 +236,6 @@
 
     invoke-direct/range {v2 .. v7}, Lorg/greenrobot/greendao/l/h;-><init>(Ljava/lang/String;Lorg/greenrobot/greendao/h;Lorg/greenrobot/greendao/a;Lorg/greenrobot/greendao/h;Ljava/lang/String;)V
 
-    .line 3
     iget-object p1, p0, Lorg/greenrobot/greendao/l/k;->d:Ljava/util/List;
 
     invoke-interface {p1, v0}, Ljava/util/List;->add(Ljava/lang/Object;)Z
@@ -263,12 +246,10 @@
 .method private d(Ljava/lang/StringBuilder;Ljava/lang/String;)V
     .locals 6
 
-    .line 1
     iget-object v0, p0, Lorg/greenrobot/greendao/l/k;->c:Ljava/util/List;
 
     invoke-interface {v0}, Ljava/util/List;->clear()V
 
-    .line 2
     iget-object v0, p0, Lorg/greenrobot/greendao/l/k;->d:Ljava/util/List;
 
     invoke-interface {v0}, Ljava/util/List;->iterator()Ljava/util/Iterator;
@@ -290,12 +271,10 @@
 
     const-string v2, " JOIN "
 
-    .line 3
     invoke-virtual {p1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     const/16 v2, 0x22
 
-    .line 4
     invoke-virtual {p1, v2}, Ljava/lang/StringBuilder;->append(C)Ljava/lang/StringBuilder;
 
     iget-object v3, v1, Lorg/greenrobot/greendao/l/h;->b:Lorg/greenrobot/greendao/a;
@@ -312,7 +291,6 @@
 
     invoke-virtual {p1, v2}, Ljava/lang/StringBuilder;->append(C)Ljava/lang/StringBuilder;
 
-    .line 5
     iget-object v2, v1, Lorg/greenrobot/greendao/l/h;->e:Ljava/lang/String;
 
     invoke-virtual {p1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
@@ -321,7 +299,6 @@
 
     invoke-virtual {p1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 6
     iget-object v2, v1, Lorg/greenrobot/greendao/l/h;->a:Ljava/lang/String;
 
     iget-object v3, v1, Lorg/greenrobot/greendao/l/h;->c:Lorg/greenrobot/greendao/h;
@@ -334,7 +311,6 @@
 
     invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(C)Ljava/lang/StringBuilder;
 
-    .line 7
     iget-object v2, v1, Lorg/greenrobot/greendao/l/h;->e:Ljava/lang/String;
 
     iget-object v1, v1, Lorg/greenrobot/greendao/l/h;->d:Lorg/greenrobot/greendao/h;
@@ -343,7 +319,6 @@
 
     goto :goto_0
 
-    .line 8
     :cond_0
     iget-object v0, p0, Lorg/greenrobot/greendao/l/k;->a:Lorg/greenrobot/greendao/l/l;
 
@@ -359,17 +334,14 @@
 
     if-eqz v0, :cond_1
 
-    .line 9
     invoke-virtual {p1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 10
     iget-object v3, p0, Lorg/greenrobot/greendao/l/k;->a:Lorg/greenrobot/greendao/l/l;
 
     iget-object v4, p0, Lorg/greenrobot/greendao/l/k;->c:Ljava/util/List;
 
     invoke-virtual {v3, p1, p2, v4}, Lorg/greenrobot/greendao/l/l;->c(Ljava/lang/StringBuilder;Ljava/lang/String;Ljava/util/List;)V
 
-    .line 11
     :cond_1
     iget-object p2, p0, Lorg/greenrobot/greendao/l/k;->d:Ljava/util/List;
 
@@ -391,7 +363,6 @@
 
     check-cast v3, Lorg/greenrobot/greendao/l/h;
 
-    .line 12
     iget-object v4, v3, Lorg/greenrobot/greendao/l/h;->f:Lorg/greenrobot/greendao/l/l;
 
     invoke-virtual {v4}, Lorg/greenrobot/greendao/l/l;->g()Z
@@ -402,7 +373,6 @@
 
     if-nez v0, :cond_3
 
-    .line 13
     invoke-virtual {p1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     const/4 v0, 0x1
@@ -412,10 +382,8 @@
     :cond_3
     const-string v4, " AND "
 
-    .line 14
     invoke-virtual {p1, v4}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 15
     :goto_2
     iget-object v4, v3, Lorg/greenrobot/greendao/l/h;->f:Lorg/greenrobot/greendao/l/l;
 
@@ -434,24 +402,20 @@
 .method private i(Ljava/lang/StringBuilder;)I
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lorg/greenrobot/greendao/l/k;->g:Ljava/lang/Integer;
 
     if-eqz v0, :cond_0
 
     const-string v0, " LIMIT ?"
 
-    .line 2
     invoke-virtual {p1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 3
     iget-object p1, p0, Lorg/greenrobot/greendao/l/k;->c:Ljava/util/List;
 
     iget-object v0, p0, Lorg/greenrobot/greendao/l/k;->g:Ljava/lang/Integer;
 
     invoke-interface {p1, v0}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
-    .line 4
     iget-object p1, p0, Lorg/greenrobot/greendao/l/k;->c:Ljava/util/List;
 
     invoke-interface {p1}, Ljava/util/List;->size()I
@@ -472,29 +436,24 @@
 .method private j(Ljava/lang/StringBuilder;)I
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lorg/greenrobot/greendao/l/k;->h:Ljava/lang/Integer;
 
     if-eqz v0, :cond_1
 
-    .line 2
     iget-object v0, p0, Lorg/greenrobot/greendao/l/k;->g:Ljava/lang/Integer;
 
     if-eqz v0, :cond_0
 
     const-string v0, " OFFSET ?"
 
-    .line 3
     invoke-virtual {p1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 4
     iget-object p1, p0, Lorg/greenrobot/greendao/l/k;->c:Ljava/util/List;
 
     iget-object v0, p0, Lorg/greenrobot/greendao/l/k;->h:Ljava/lang/Integer;
 
     invoke-interface {p1, v0}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
-    .line 5
     iget-object p1, p0, Lorg/greenrobot/greendao/l/k;->c:Ljava/util/List;
 
     invoke-interface {p1}, Ljava/util/List;->size()I
@@ -505,7 +464,6 @@
 
     goto :goto_0
 
-    .line 6
     :cond_0
     new-instance p1, Ljava/lang/IllegalStateException;
 
@@ -525,12 +483,10 @@
 .method private k(Ljava/lang/String;)V
     .locals 2
 
-    .line 1
     sget-boolean v0, Lorg/greenrobot/greendao/l/k;->k:Z
 
     if-eqz v0, :cond_0
 
-    .line 2
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -547,13 +503,11 @@
 
     invoke-static {p1}, Lorg/greenrobot/greendao/d;->a(Ljava/lang/String;)I
 
-    .line 3
     :cond_0
     sget-boolean p1, Lorg/greenrobot/greendao/l/k;->l:Z
 
     if-eqz p1, :cond_1
 
-    .line 4
     new-instance p1, Ljava/lang/StringBuilder;
 
     invoke-direct {p1}, Ljava/lang/StringBuilder;-><init>()V
@@ -579,12 +533,10 @@
 .method private l()V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lorg/greenrobot/greendao/l/k;->b:Ljava/lang/StringBuilder;
 
     if-nez v0, :cond_0
 
-    .line 2
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -593,7 +545,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_0
     invoke-virtual {v0}, Ljava/lang/StringBuilder;->length()I
 
@@ -601,7 +552,6 @@
 
     if-lez v0, :cond_1
 
-    .line 4
     iget-object v0, p0, Lorg/greenrobot/greendao/l/k;->b:Ljava/lang/StringBuilder;
 
     const-string v1, ","
@@ -616,7 +566,6 @@
 .method private n()Ljava/lang/StringBuilder;
     .locals 4
 
-    .line 1
     iget-object v0, p0, Lorg/greenrobot/greendao/l/k;->e:Lorg/greenrobot/greendao/a;
 
     invoke-virtual {v0}, Lorg/greenrobot/greendao/a;->D()Ljava/lang/String;
@@ -637,17 +586,14 @@
 
     move-result-object v0
 
-    .line 2
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1, v0}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
-    .line 3
     iget-object v0, p0, Lorg/greenrobot/greendao/l/k;->f:Ljava/lang/String;
 
     invoke-direct {p0, v1, v0}, Lorg/greenrobot/greendao/l/k;->d(Ljava/lang/StringBuilder;Ljava/lang/String;)V
 
-    .line 4
     iget-object v0, p0, Lorg/greenrobot/greendao/l/k;->b:Ljava/lang/StringBuilder;
 
     if-eqz v0, :cond_0
@@ -660,7 +606,6 @@
 
     const-string v0, " ORDER BY "
 
-    .line 5
     invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     iget-object v0, p0, Lorg/greenrobot/greendao/l/k;->b:Ljava/lang/StringBuilder;
@@ -685,7 +630,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lorg/greenrobot/greendao/l/k;
 
     invoke-direct {v0, p0}, Lorg/greenrobot/greendao/l/k;-><init>(Lorg/greenrobot/greendao/a;)V
@@ -698,7 +642,6 @@
 .method public varargs A(Lorg/greenrobot/greendao/l/m;Lorg/greenrobot/greendao/l/m;[Lorg/greenrobot/greendao/l/m;)Lorg/greenrobot/greendao/l/m;
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lorg/greenrobot/greendao/l/k;->a:Lorg/greenrobot/greendao/l/l;
 
     const-string v1, " OR "
@@ -724,7 +667,6 @@
 
     const-string v0, " ASC"
 
-    .line 1
     invoke-direct {p0, v0, p1}, Lorg/greenrobot/greendao/l/k;->C(Ljava/lang/String;[Lorg/greenrobot/greendao/h;)V
 
     return-object p0
@@ -743,10 +685,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Lorg/greenrobot/greendao/l/k;->l()V
 
-    .line 2
     iget-object v0, p0, Lorg/greenrobot/greendao/l/k;->b:Ljava/lang/StringBuilder;
 
     invoke-virtual {p0, v0, p1}, Lorg/greenrobot/greendao/l/k;->c(Ljava/lang/StringBuilder;Lorg/greenrobot/greendao/h;)Ljava/lang/StringBuilder;
@@ -757,7 +697,6 @@
 
     invoke-virtual {p1, v0}, Ljava/lang/StringBuilder;->append(C)Ljava/lang/StringBuilder;
 
-    .line 3
     iget-object p1, p0, Lorg/greenrobot/greendao/l/k;->b:Ljava/lang/StringBuilder;
 
     invoke-virtual {p1, p2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
@@ -779,7 +718,6 @@
 
     const-string v0, " DESC"
 
-    .line 1
     invoke-direct {p0, v0, p1}, Lorg/greenrobot/greendao/l/k;->C(Ljava/lang/String;[Lorg/greenrobot/greendao/h;)V
 
     return-object p0
@@ -797,10 +735,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Lorg/greenrobot/greendao/l/k;->l()V
 
-    .line 2
     iget-object v0, p0, Lorg/greenrobot/greendao/l/k;->b:Ljava/lang/StringBuilder;
 
     invoke-virtual {v0, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
@@ -818,7 +754,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lorg/greenrobot/greendao/l/k;->e:Lorg/greenrobot/greendao/a;
 
     invoke-virtual {v0}, Lorg/greenrobot/greendao/a;->u()Lorg/greenrobot/greendao/database/a;
@@ -835,7 +770,6 @@
 
     const-string v0, " COLLATE LOCALIZED"
 
-    .line 2
     iput-object v0, p0, Lorg/greenrobot/greendao/l/k;->j:Ljava/lang/String;
 
     :cond_0
@@ -855,7 +789,6 @@
     .annotation build Lorg/greenrobot/greendao/i/p/b;
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lorg/greenrobot/greendao/l/k;->e()Lorg/greenrobot/greendao/l/j;
 
     move-result-object v0
@@ -880,7 +813,6 @@
     .annotation build Lorg/greenrobot/greendao/i/p/b;
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lorg/greenrobot/greendao/l/k;->e()Lorg/greenrobot/greendao/l/j;
 
     move-result-object v0
@@ -908,7 +840,6 @@
 
     const-string v0, " "
 
-    .line 1
     invoke-virtual {p1, v0}, Ljava/lang/String;->startsWith(Ljava/lang/String;)Z
 
     move-result v1
@@ -917,7 +848,6 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     new-instance v1, Ljava/lang/StringBuilder;
 
@@ -946,7 +876,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lorg/greenrobot/greendao/l/k;->e()Lorg/greenrobot/greendao/l/j;
 
     move-result-object v0
@@ -966,7 +895,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lorg/greenrobot/greendao/l/k;->e()Lorg/greenrobot/greendao/l/j;
 
     move-result-object v0
@@ -992,7 +920,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lorg/greenrobot/greendao/l/k;->a:Lorg/greenrobot/greendao/l/l;
 
     invoke-virtual {v0, p1, p2}, Lorg/greenrobot/greendao/l/l;->a(Lorg/greenrobot/greendao/l/m;[Lorg/greenrobot/greendao/l/m;)V
@@ -1015,7 +942,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lorg/greenrobot/greendao/l/k;->a:Lorg/greenrobot/greendao/l/l;
 
     invoke-virtual {p0, p1, p2, p3}, Lorg/greenrobot/greendao/l/k;->A(Lorg/greenrobot/greendao/l/m;Lorg/greenrobot/greendao/l/m;[Lorg/greenrobot/greendao/l/m;)Lorg/greenrobot/greendao/l/m;
@@ -1034,7 +960,6 @@
 .method public varargs b(Lorg/greenrobot/greendao/l/m;Lorg/greenrobot/greendao/l/m;[Lorg/greenrobot/greendao/l/m;)Lorg/greenrobot/greendao/l/m;
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lorg/greenrobot/greendao/l/k;->a:Lorg/greenrobot/greendao/l/l;
 
     const-string v1, " AND "
@@ -1049,12 +974,10 @@
 .method protected c(Ljava/lang/StringBuilder;Lorg/greenrobot/greendao/h;)Ljava/lang/StringBuilder;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lorg/greenrobot/greendao/l/k;->a:Lorg/greenrobot/greendao/l/l;
 
     invoke-virtual {v0, p2}, Lorg/greenrobot/greendao/l/l;->e(Lorg/greenrobot/greendao/h;)V
 
-    .line 2
     iget-object v0, p0, Lorg/greenrobot/greendao/l/k;->f:Ljava/lang/String;
 
     invoke-virtual {p1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
@@ -1086,30 +1009,24 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Lorg/greenrobot/greendao/l/k;->n()Ljava/lang/StringBuilder;
 
     move-result-object v0
 
-    .line 2
     invoke-direct {p0, v0}, Lorg/greenrobot/greendao/l/k;->i(Ljava/lang/StringBuilder;)I
 
     move-result v1
 
-    .line 3
     invoke-direct {p0, v0}, Lorg/greenrobot/greendao/l/k;->j(Ljava/lang/StringBuilder;)I
 
     move-result v2
 
-    .line 4
     invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     move-result-object v0
 
-    .line 5
     invoke-direct {p0, v0}, Lorg/greenrobot/greendao/l/k;->k(Ljava/lang/String;)V
 
-    .line 6
     iget-object v3, p0, Lorg/greenrobot/greendao/l/k;->e:Lorg/greenrobot/greendao/a;
 
     iget-object v4, p0, Lorg/greenrobot/greendao/l/k;->c:Ljava/util/List;
@@ -1135,39 +1052,32 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lorg/greenrobot/greendao/l/k;->e:Lorg/greenrobot/greendao/a;
 
     invoke-virtual {v0}, Lorg/greenrobot/greendao/a;->D()Ljava/lang/String;
 
     move-result-object v0
 
-    .line 2
     iget-object v1, p0, Lorg/greenrobot/greendao/l/k;->f:Ljava/lang/String;
 
     invoke-static {v0, v1}, Lorg/greenrobot/greendao/k/d;->m(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
 
-    .line 3
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1, v0}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
-    .line 4
     iget-object v0, p0, Lorg/greenrobot/greendao/l/k;->f:Ljava/lang/String;
 
     invoke-direct {p0, v1, v0}, Lorg/greenrobot/greendao/l/k;->d(Ljava/lang/StringBuilder;Ljava/lang/String;)V
 
-    .line 5
     invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     move-result-object v0
 
-    .line 6
     invoke-direct {p0, v0}, Lorg/greenrobot/greendao/l/k;->k(Ljava/lang/String;)V
 
-    .line 7
     iget-object v1, p0, Lorg/greenrobot/greendao/l/k;->e:Lorg/greenrobot/greendao/a;
 
     iget-object v2, p0, Lorg/greenrobot/greendao/l/k;->c:Ljava/util/List;
@@ -1186,30 +1096,24 @@
 .method public g()Lorg/greenrobot/greendao/l/f;
     .locals 5
 
-    .line 1
     invoke-direct {p0}, Lorg/greenrobot/greendao/l/k;->n()Ljava/lang/StringBuilder;
 
     move-result-object v0
 
-    .line 2
     invoke-direct {p0, v0}, Lorg/greenrobot/greendao/l/k;->i(Ljava/lang/StringBuilder;)I
 
     move-result v1
 
-    .line 3
     invoke-direct {p0, v0}, Lorg/greenrobot/greendao/l/k;->j(Ljava/lang/StringBuilder;)I
 
     move-result v2
 
-    .line 4
     invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     move-result-object v0
 
-    .line 5
     invoke-direct {p0, v0}, Lorg/greenrobot/greendao/l/k;->k(Ljava/lang/String;)V
 
-    .line 6
     iget-object v3, p0, Lorg/greenrobot/greendao/l/k;->e:Lorg/greenrobot/greendao/a;
 
     iget-object v4, p0, Lorg/greenrobot/greendao/l/k;->c:Ljava/util/List;
@@ -1235,7 +1139,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lorg/greenrobot/greendao/l/k;->d:Ljava/util/List;
 
     invoke-interface {v0}, Ljava/util/List;->isEmpty()Z
@@ -1244,7 +1147,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 2
     iget-object v0, p0, Lorg/greenrobot/greendao/l/k;->e:Lorg/greenrobot/greendao/a;
 
     invoke-virtual {v0}, Lorg/greenrobot/greendao/a;->D()Ljava/lang/String;
@@ -1253,27 +1155,22 @@
 
     const/4 v1, 0x0
 
-    .line 3
     invoke-static {v0, v1}, Lorg/greenrobot/greendao/k/d;->j(Ljava/lang/String;[Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v1
 
-    .line 4
     new-instance v2, Ljava/lang/StringBuilder;
 
     invoke-direct {v2, v1}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
-    .line 5
     iget-object v1, p0, Lorg/greenrobot/greendao/l/k;->f:Ljava/lang/String;
 
     invoke-direct {p0, v2, v1}, Lorg/greenrobot/greendao/l/k;->d(Ljava/lang/StringBuilder;Ljava/lang/String;)V
 
-    .line 6
     invoke-virtual {v2}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     move-result-object v1
 
-    .line 7
     new-instance v2, Ljava/lang/StringBuilder;
 
     invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
@@ -1312,10 +1209,8 @@
 
     move-result-object v0
 
-    .line 8
     invoke-direct {p0, v0}, Lorg/greenrobot/greendao/l/k;->k(Ljava/lang/String;)V
 
-    .line 9
     iget-object v1, p0, Lorg/greenrobot/greendao/l/k;->e:Lorg/greenrobot/greendao/a;
 
     iget-object v2, p0, Lorg/greenrobot/greendao/l/k;->c:Ljava/util/List;
@@ -1330,7 +1225,6 @@
 
     return-object v0
 
-    .line 10
     :cond_0
     new-instance v0, Lorg/greenrobot/greendao/DaoException;
 
@@ -1344,7 +1238,6 @@
 .method public m()J
     .locals 2
 
-    .line 1
     invoke-virtual {p0}, Lorg/greenrobot/greendao/l/k;->f()Lorg/greenrobot/greendao/l/e;
 
     move-result-object v0
@@ -1368,7 +1261,6 @@
 
     const/4 v0, 0x1
 
-    .line 1
     iput-boolean v0, p0, Lorg/greenrobot/greendao/l/k;->i:Z
 
     return-object p0
@@ -1390,7 +1282,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lorg/greenrobot/greendao/l/k;->e:Lorg/greenrobot/greendao/a;
 
     invoke-virtual {v0}, Lorg/greenrobot/greendao/a;->z()Lorg/greenrobot/greendao/h;
@@ -1419,7 +1310,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lorg/greenrobot/greendao/l/k;->e:Lorg/greenrobot/greendao/a;
 
     invoke-virtual {v0}, Lorg/greenrobot/greendao/a;->B()Lorg/greenrobot/greendao/c;
@@ -1430,12 +1320,10 @@
 
     move-result-object p2
 
-    .line 2
     invoke-virtual {p2}, Lorg/greenrobot/greendao/a;->z()Lorg/greenrobot/greendao/h;
 
     move-result-object v0
 
-    .line 3
     iget-object v1, p0, Lorg/greenrobot/greendao/l/k;->f:Ljava/lang/String;
 
     invoke-direct {p0, v1, p1, p2, v0}, Lorg/greenrobot/greendao/l/k;->a(Ljava/lang/String;Lorg/greenrobot/greendao/h;Lorg/greenrobot/greendao/a;Lorg/greenrobot/greendao/h;)Lorg/greenrobot/greendao/l/h;
@@ -1462,7 +1350,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lorg/greenrobot/greendao/l/k;->e:Lorg/greenrobot/greendao/a;
 
     invoke-virtual {v0}, Lorg/greenrobot/greendao/a;->B()Lorg/greenrobot/greendao/c;
@@ -1473,7 +1360,6 @@
 
     move-result-object p2
 
-    .line 2
     iget-object v0, p0, Lorg/greenrobot/greendao/l/k;->f:Ljava/lang/String;
 
     invoke-direct {p0, v0, p1, p2, p3}, Lorg/greenrobot/greendao/l/k;->a(Ljava/lang/String;Lorg/greenrobot/greendao/h;Lorg/greenrobot/greendao/a;Lorg/greenrobot/greendao/h;)Lorg/greenrobot/greendao/l/h;
@@ -1502,7 +1388,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lorg/greenrobot/greendao/l/k;->e:Lorg/greenrobot/greendao/a;
 
     invoke-virtual {v0}, Lorg/greenrobot/greendao/a;->B()Lorg/greenrobot/greendao/c;
@@ -1513,7 +1398,6 @@
 
     move-result-object p3
 
-    .line 2
     iget-object p1, p1, Lorg/greenrobot/greendao/l/h;->e:Ljava/lang/String;
 
     invoke-direct {p0, p1, p2, p3, p4}, Lorg/greenrobot/greendao/l/k;->a(Ljava/lang/String;Lorg/greenrobot/greendao/h;Lorg/greenrobot/greendao/a;Lorg/greenrobot/greendao/h;)Lorg/greenrobot/greendao/l/h;
@@ -1533,7 +1417,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object p1
@@ -1553,7 +1436,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lorg/greenrobot/greendao/l/k;->e()Lorg/greenrobot/greendao/l/j;
 
     move-result-object v0
@@ -1575,7 +1457,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lorg/greenrobot/greendao/l/k;->e()Lorg/greenrobot/greendao/l/j;
 
     move-result-object v0
@@ -1597,7 +1478,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lorg/greenrobot/greendao/l/k;->e()Lorg/greenrobot/greendao/l/j;
 
     move-result-object v0
@@ -1619,7 +1499,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lorg/greenrobot/greendao/l/k;->e()Lorg/greenrobot/greendao/l/j;
 
     move-result-object v0
@@ -1641,7 +1520,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object p1

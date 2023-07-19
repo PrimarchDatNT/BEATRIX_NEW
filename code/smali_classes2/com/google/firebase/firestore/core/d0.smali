@@ -11,10 +11,8 @@
 .method public constructor <init>(Lcom/google/firebase/firestore/model/h;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/google/firebase/firestore/core/Filter;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/google/firebase/firestore/core/d0;->a:Lcom/google/firebase/firestore/model/h;
 
     return-void
@@ -25,7 +23,6 @@
 .method public b()Ljava/lang/String;
     .locals 2
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -52,7 +49,6 @@
 .method public c()Lcom/google/firebase/firestore/model/h;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/firestore/core/d0;->a:Lcom/google/firebase/firestore/model/h;
 
     return-object v0
@@ -61,7 +57,6 @@
 .method public d(Lcom/google/firebase/firestore/model/Document;)Z
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/firestore/core/d0;->a:Lcom/google/firebase/firestore/model/h;
 
     invoke-virtual {p1, v0}, Lcom/google/firebase/firestore/model/Document;->e(Lcom/google/firebase/firestore/model/h;)Lcom/google/firebase/firestore/model/value/e;
@@ -70,7 +65,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 2
     invoke-static {}, Lcom/google/firebase/firestore/model/value/h;->o()Lcom/google/firebase/firestore/model/value/h;
 
     move-result-object v0
@@ -97,18 +91,15 @@
 
     if-eqz p1, :cond_1
 
-    .line 1
     instance-of v0, p1, Lcom/google/firebase/firestore/core/d0;
 
     if-nez v0, :cond_0
 
     goto :goto_0
 
-    .line 2
     :cond_0
     check-cast p1, Lcom/google/firebase/firestore/core/d0;
 
-    .line 3
     iget-object v0, p0, Lcom/google/firebase/firestore/core/d0;->a:Lcom/google/firebase/firestore/model/h;
 
     iget-object p1, p1, Lcom/google/firebase/firestore/core/d0;->a:Lcom/google/firebase/firestore/model/h;
@@ -129,7 +120,6 @@
 .method public hashCode()I
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/firestore/core/d0;->a:Lcom/google/firebase/firestore/model/h;
 
     invoke-virtual {v0}, Lcom/google/firebase/firestore/model/a;->hashCode()I
@@ -146,7 +136,6 @@
 .method public toString()Ljava/lang/String;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/firebase/firestore/core/d0;->b()Ljava/lang/String;
 
     move-result-object v0

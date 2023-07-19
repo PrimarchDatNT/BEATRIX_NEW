@@ -41,7 +41,6 @@
 .method static constructor <clinit>()V
     .locals 2
 
-    .line 1
     const-class v0, Lcom/sdk/imp/PicksLoadingActivity;
 
     invoke-virtual {v0}, Ljava/lang/Class;->getSimpleName()Ljava/lang/String;
@@ -52,15 +51,12 @@
 
     const/4 v0, 0x1
 
-    .line 2
     sput-boolean v0, Lcom/sdk/imp/PicksLoadingActivity;->b:Z
 
     const/4 v0, 0x0
 
-    .line 3
     sput v0, Lcom/sdk/imp/PicksLoadingActivity;->p:I
 
-    .line 4
     new-instance v0, Landroid/os/Handler;
 
     invoke-static {}, Landroid/os/Looper;->getMainLooper()Landroid/os/Looper;
@@ -77,7 +73,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Landroid/app/Activity;-><init>()V
 
     return-void
@@ -86,7 +81,6 @@
 .method static synthetic a(Lcom/sdk/imp/PicksLoadingActivity;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/sdk/imp/PicksLoadingActivity;->i()V
 
     return-void
@@ -95,7 +89,6 @@
 .method static synthetic b()I
     .locals 1
 
-    .line 1
     sget v0, Lcom/sdk/imp/PicksLoadingActivity;->p:I
 
     return v0
@@ -104,7 +97,6 @@
 .method static synthetic c(I)I
     .locals 0
 
-    .line 1
     sput p0, Lcom/sdk/imp/PicksLoadingActivity;->p:I
 
     return p0
@@ -113,7 +105,6 @@
 .method static synthetic d()Landroid/widget/ProgressBar;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/sdk/imp/PicksLoadingActivity;->g:Landroid/widget/ProgressBar;
 
     return-object v0
@@ -122,7 +113,6 @@
 .method static synthetic e()Ljava/lang/String;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/sdk/imp/PicksLoadingActivity;->a:Ljava/lang/String;
 
     return-object v0
@@ -131,23 +121,19 @@
 .method public static g(Landroid/content/Context;)V
     .locals 2
 
-    .line 1
     sget-object v0, Lcom/sdk/imp/PicksLoadingActivity;->g:Landroid/widget/ProgressBar;
 
     if-eqz v0, :cond_0
 
     const/16 v1, 0x64
 
-    .line 2
     sput v1, Lcom/sdk/imp/PicksLoadingActivity;->p:I
 
-    .line 3
     invoke-virtual {v0, v1}, Landroid/widget/ProgressBar;->setProgress(I)V
 
     :cond_0
     const/4 v0, 0x1
 
-    .line 4
     invoke-static {p0, v0}, Lcom/sdk/imp/PicksLoadingActivity;->h(Landroid/content/Context;I)V
 
     return-void
@@ -156,7 +142,6 @@
 .method public static h(Landroid/content/Context;I)V
     .locals 2
 
-    .line 1
     new-instance v0, Landroid/content/Intent;
 
     const-class v1, Lcom/sdk/imp/PicksLoadingActivity;
@@ -167,7 +152,6 @@
 
     if-nez p1, :cond_0
 
-    .line 2
     sput-boolean v1, Lcom/sdk/imp/PicksLoadingActivity;->b:Z
 
     goto :goto_0
@@ -175,16 +159,13 @@
     :cond_0
     const-string p1, "tag_close_dialog"
 
-    .line 3
     invoke-virtual {v0, p1, v1}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Z)Landroid/content/Intent;
 
     :goto_0
     const/high16 p1, 0x10000000
 
-    .line 4
     invoke-virtual {v0, p1}, Landroid/content/Intent;->addFlags(I)Landroid/content/Intent;
 
-    .line 5
     invoke-virtual {p0, v0}, Landroid/content/Context;->startActivity(Landroid/content/Intent;)V
 
     return-void
@@ -193,7 +174,6 @@
 .method private i()V
     .locals 5
 
-    .line 1
     sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
 
     const/16 v1, 0x5e
@@ -202,7 +182,6 @@
 
     if-lt v0, v2, :cond_0
 
-    .line 2
     sget v0, Lcom/sdk/imp/PicksLoadingActivity;->p:I
 
     const/4 v2, 0x0
@@ -211,7 +190,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_0
     sget-object v0, Lcom/sdk/imp/PicksLoadingActivity;->J:Landroid/os/Handler;
 
@@ -232,7 +210,6 @@
 .method private k()V
     .locals 3
 
-    .line 1
     :try_start_0
     sget v0, Lcom/sdk/api/i$e;->Q0:I
 
@@ -246,17 +223,14 @@
 
     const/4 v1, 0x0
 
-    .line 2
     invoke-virtual {v0, v1}, Landroid/widget/ProgressBar;->setProgress(I)V
 
-    .line 3
     sget-object v0, Lcom/sdk/imp/PicksLoadingActivity;->a:Ljava/lang/String;
 
     const-string v1, "initUI"
 
     invoke-static {v0, v1}, Lf/q/b/g;->b(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 4
     sget-object v0, Lcom/sdk/imp/PicksLoadingActivity;->g:Landroid/widget/ProgressBar;
 
     const/16 v1, 0x64
@@ -274,10 +248,8 @@
 
     const-string v2, "stackerror:"
 
-    .line 5
     invoke-static {v1, v2, v0}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
 
-    .line 6
     invoke-virtual {p0}, Lcom/sdk/imp/PicksLoadingActivity;->finish()V
 
     :goto_0
@@ -289,7 +261,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-static {p0, v0}, Lcom/sdk/imp/PicksLoadingActivity;->h(Landroid/content/Context;I)V
 
     return-void
@@ -298,7 +269,6 @@
 .method private m()V
     .locals 5
 
-    .line 1
     sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
 
     const/16 v1, 0x50
@@ -311,12 +281,10 @@
 
     const/4 v2, 0x1
 
-    .line 2
     invoke-virtual {p0, v0, v1, v2}, Lcom/sdk/imp/PicksLoadingActivity;->f(IIZ)V
 
     goto :goto_0
 
-    .line 3
     :cond_0
     sget-object v0, Lcom/sdk/imp/PicksLoadingActivity;->J:Landroid/os/Handler;
 
@@ -330,7 +298,6 @@
 
     invoke-virtual {v0, v2, v3, v4}, Landroid/os/Handler;->postDelayed(Ljava/lang/Runnable;J)Z
 
-    .line 4
     :goto_0
     sget-object v0, Lcom/sdk/imp/PicksLoadingActivity;->J:Landroid/os/Handler;
 
@@ -350,7 +317,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-static {p0, v0}, Lcom/sdk/imp/PicksLoadingActivity;->h(Landroid/content/Context;I)V
 
     return-void
@@ -364,7 +330,6 @@
         value = 0xb
     .end annotation
 
-    .line 1
     sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
 
     const/16 v1, 0xb
@@ -386,7 +351,6 @@
 
     aput p2, v0, p1
 
-    .line 2
     invoke-static {v0}, Landroid/animation/ValueAnimator;->ofInt([I)Landroid/animation/ValueAnimator;
 
     move-result-object p1
@@ -395,10 +359,8 @@
 
     const-wide/16 p2, 0x1f4
 
-    .line 3
     invoke-virtual {p1, p2, p3}, Landroid/animation/ValueAnimator;->setDuration(J)Landroid/animation/ValueAnimator;
 
-    .line 4
     :cond_1
     new-instance p2, Lcom/sdk/imp/PicksLoadingActivity$b;
 
@@ -406,7 +368,6 @@
 
     invoke-virtual {p1, p2}, Landroid/animation/ValueAnimator;->addUpdateListener(Landroid/animation/ValueAnimator$AnimatorUpdateListener;)V
 
-    .line 5
     invoke-virtual {p1}, Landroid/animation/ValueAnimator;->start()V
 
     return-void
@@ -415,19 +376,16 @@
 .method public finish()V
     .locals 2
 
-    .line 1
     sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
 
     const/16 v1, 0x15
 
     if-lt v0, v1, :cond_0
 
-    .line 2
     invoke-super {p0}, Landroid/app/Activity;->finishAndRemoveTask()V
 
     goto :goto_0
 
-    .line 3
     :cond_0
     invoke-super {p0}, Landroid/app/Activity;->finish()V
 
@@ -444,7 +402,6 @@
 
     return-object p1
 
-    .line 1
     :cond_0
     new-instance v0, Ljava/lang/StringBuilder;
 
@@ -503,7 +460,6 @@
 
     if-ge v2, p2, :cond_0
 
-    .line 1
     new-instance v5, Ljava/lang/StringBuilder;
 
     invoke-direct {v5}, Ljava/lang/StringBuilder;-><init>()V
@@ -525,7 +481,6 @@
 
     return-object v1
 
-    .line 2
     :cond_1
     new-instance v2, Ljava/lang/StringBuilder;
 
@@ -549,7 +504,6 @@
 
     move-result-object v2
 
-    .line 3
     new-instance v5, Ljava/lang/StringBuilder;
 
     invoke-direct {v5}, Ljava/lang/StringBuilder;-><init>()V
@@ -562,7 +516,6 @@
 
     move-result-object v3
 
-    .line 4
     :goto_1
     invoke-virtual {p1}, Landroid/view/ViewGroup;->getChildCount()I
 
@@ -570,17 +523,14 @@
 
     if-ge v0, v4, :cond_4
 
-    .line 5
     invoke-virtual {p1, v0}, Landroid/view/ViewGroup;->getChildAt(I)Landroid/view/View;
 
     move-result-object v4
 
-    .line 6
     instance-of v5, v4, Landroid/view/ViewGroup;
 
     if-eqz v5, :cond_2
 
-    .line 7
     new-instance v5, Ljava/lang/StringBuilder;
 
     invoke-direct {v5}, Ljava/lang/StringBuilder;-><init>()V
@@ -606,7 +556,6 @@
     :cond_2
     if-eqz v4, :cond_3
 
-    .line 8
     new-instance v5, Ljava/lang/StringBuilder;
 
     invoke-direct {v5}, Ljava/lang/StringBuilder;-><init>()V
@@ -640,17 +589,14 @@
 .method protected onCreate(Landroid/os/Bundle;)V
     .locals 4
 
-    .line 1
     invoke-super {p0, p1}, Landroid/app/Activity;->onCreate(Landroid/os/Bundle;)V
 
-    .line 2
     sget-object p1, Lcom/sdk/imp/PicksLoadingActivity;->a:Ljava/lang/String;
 
     const-string v0, "oncreate"
 
     invoke-static {p1, v0}, Lf/q/b/g;->f(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 3
     invoke-virtual {p0}, Landroid/app/Activity;->getIntent()Landroid/content/Intent;
 
     move-result-object v0
@@ -663,7 +609,6 @@
 
     move-result v0
 
-    .line 4
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -682,7 +627,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 5
     invoke-virtual {p0}, Lcom/sdk/imp/PicksLoadingActivity;->finish()V
 
     return-void
@@ -690,20 +634,16 @@
     :cond_0
     const/4 p1, 0x2
 
-    .line 6
     invoke-virtual {p0, p1}, Landroid/app/Activity;->requestWindowFeature(I)Z
 
     const/4 p1, 0x5
 
-    .line 7
     invoke-virtual {p0, p1}, Landroid/app/Activity;->requestWindowFeature(I)Z
 
-    .line 8
     sget p1, Lcom/sdk/api/i$g;->K:I
 
     invoke-virtual {p0, p1}, Landroid/app/Activity;->setContentView(I)V
 
-    .line 9
     invoke-virtual {p0}, Landroid/app/Activity;->getWindow()Landroid/view/Window;
 
     move-result-object p1
@@ -720,13 +660,10 @@
 
     const-string v0, "ADSDK"
 
-    .line 10
     invoke-static {v0, p1}, Lf/q/b/g;->b(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 11
     invoke-direct {p0}, Lcom/sdk/imp/PicksLoadingActivity;->k()V
 
-    .line 12
     invoke-direct {p0}, Lcom/sdk/imp/PicksLoadingActivity;->m()V
 
     return-void
@@ -735,10 +672,8 @@
 .method protected onDestroy()V
     .locals 2
 
-    .line 1
     invoke-super {p0}, Landroid/app/Activity;->onDestroy()V
 
-    .line 2
     sget-object v0, Lcom/sdk/imp/PicksLoadingActivity;->a:Ljava/lang/String;
 
     const-string v1, "onDestory"
@@ -747,12 +682,10 @@
 
     const/4 v0, 0x0
 
-    .line 3
     sput v0, Lcom/sdk/imp/PicksLoadingActivity;->p:I
 
     const/4 v0, 0x0
 
-    .line 4
     sput-object v0, Lcom/sdk/imp/PicksLoadingActivity;->g:Landroid/widget/ProgressBar;
 
     return-void
@@ -761,10 +694,8 @@
 .method protected onNewIntent(Landroid/content/Intent;)V
     .locals 2
 
-    .line 1
     invoke-super {p0, p1}, Landroid/app/Activity;->onNewIntent(Landroid/content/Intent;)V
 
-    .line 2
     sget-object v0, Lcom/sdk/imp/PicksLoadingActivity;->a:Ljava/lang/String;
 
     const-string v1, "onNewIntent"
@@ -775,14 +706,12 @@
 
     const/4 v1, 0x0
 
-    .line 3
     invoke-virtual {p1, v0, v1}, Landroid/content/Intent;->getBooleanExtra(Ljava/lang/String;Z)Z
 
     move-result p1
 
     if-eqz p1, :cond_0
 
-    .line 4
     invoke-virtual {p0}, Lcom/sdk/imp/PicksLoadingActivity;->finish()V
 
     :cond_0

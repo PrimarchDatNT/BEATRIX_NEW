@@ -54,7 +54,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Ljava/lang/Boolean;
 
     invoke-virtual {p1}, Ljava/lang/Boolean;->booleanValue()Z
@@ -81,7 +80,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 2
     iget-object p1, p0, Lcom/commsource/studio/function/makeup/StudioMakeupFragment$onViewCreated$1;->this$0:Lcom/commsource/studio/function/makeup/StudioMakeupFragment;
 
     invoke-virtual {p1}, Lcom/commsource/studio/function/makeup/StudioMakeupFragment;->S1()Lcom/commsource/beautyplus/f0/qb;
@@ -94,7 +92,6 @@
 
     invoke-static {p1}, Lcom/commsource/util/l0;->w(Landroid/view/View;)V
 
-    .line 3
     iget-object p1, p0, Lcom/commsource/studio/function/makeup/StudioMakeupFragment$onViewCreated$1;->this$0:Lcom/commsource/studio/function/makeup/StudioMakeupFragment;
 
     invoke-virtual {p1}, Lcom/commsource/studio/function/makeup/StudioMakeupFragment;->K1()Lcom/commsource/studio/layer/MultiFaceSelectLayer;
@@ -113,7 +110,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_0
     iget-object p1, p0, Lcom/commsource/studio/function/makeup/StudioMakeupFragment$onViewCreated$1;->this$0:Lcom/commsource/studio/function/makeup/StudioMakeupFragment;
 
@@ -127,7 +123,6 @@
 
     invoke-static {p1}, Lcom/commsource/util/l0;->v0(Landroid/view/View;)V
 
-    .line 5
     iget-object p1, p0, Lcom/commsource/studio/function/makeup/StudioMakeupFragment$onViewCreated$1;->this$0:Lcom/commsource/studio/function/makeup/StudioMakeupFragment;
 
     invoke-virtual {p1}, Lcom/commsource/studio/function/makeup/StudioMakeupFragment;->K1()Lcom/commsource/studio/layer/MultiFaceSelectLayer;
@@ -144,7 +139,6 @@
 
     invoke-static {p1}, Lcom/commsource/util/l0;->v0(Landroid/view/View;)V
 
-    .line 6
     :cond_1
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

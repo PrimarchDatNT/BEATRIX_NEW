@@ -14,10 +14,8 @@
 .method public constructor <init>(Landroid/content/Context;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lf/k/j0/e/a;->a:Landroid/content/Context;
 
     return-void
@@ -32,17 +30,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lf/k/j0/e/b;
 
     iget-object v2, p0, Lf/k/j0/e/a;->a:Landroid/content/Context;
 
     invoke-direct {v1, v2}, Lf/k/j0/e/b;-><init>(Landroid/content/Context;)V
 
-    .line 2
     invoke-virtual {v1}, Lf/k/j0/e/b;->g()V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

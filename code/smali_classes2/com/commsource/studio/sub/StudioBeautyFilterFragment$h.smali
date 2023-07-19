@@ -57,7 +57,6 @@
 
     if-eqz p1, :cond_1
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/sub/StudioBeautyFilterFragment$h;->a:Lcom/commsource/studio/sub/StudioBeautyFilterFragment;
 
     invoke-virtual {v1}, Lcom/commsource/studio/sub/StudioBeautyFilterFragment;->x0()Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/d;
@@ -70,7 +69,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/d;->d(Ljava/util/List;)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/sub/StudioBeautyFilterFragment$h;->a:Lcom/commsource/studio/sub/StudioBeautyFilterFragment;
 
     invoke-static {v1}, Lcom/commsource/studio/sub/StudioBeautyFilterFragment;->W(Lcom/commsource/studio/sub/StudioBeautyFilterFragment;)Lcom/commsource/widget/h1/e;
@@ -85,7 +83,6 @@
 
     new-array v4, v3, [Lcom/meitu/template/bean/Filter;
 
-    .line 3
     invoke-virtual {p1}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/f;->p()Lcom/meitu/template/bean/Filter;
 
     move-result-object v5
@@ -98,15 +95,12 @@
 
     move-result-object v4
 
-    .line 4
     const-class v5, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/g;
 
-    .line 5
     invoke-virtual {v2, v4, v5}, Lcom/commsource/widget/h1/c;->c(Ljava/util/List;Ljava/lang/Class;)Lcom/commsource/widget/h1/c;
 
     move-result-object v2
 
-    .line 6
     invoke-virtual {p1}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/f;->i()Ljava/util/List;
 
     move-result-object v4
@@ -117,7 +111,6 @@
 
     move-result-object v2
 
-    .line 7
     invoke-virtual {p1}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/f;->r()Lcom/meitu/template/bean/Filter;
 
     move-result-object v4
@@ -128,7 +121,6 @@
 
     aput-object v4, v5, v6
 
-    .line 8
     invoke-static {v5}, Lcotlin/collections/s;->r([Ljava/lang/Object;)Ljava/util/ArrayList;
 
     move-result-object v4
@@ -137,7 +129,6 @@
 
     invoke-virtual {v2, v4, v5}, Lcom/commsource/widget/h1/c;->c(Ljava/util/List;Ljava/lang/Class;)Lcom/commsource/widget/h1/c;
 
-    .line 9
     :cond_0
     invoke-virtual {p1}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/f;->x()Ljava/util/List;
 
@@ -149,7 +140,6 @@
 
     move-result-object v2
 
-    .line 10
     invoke-virtual {p1}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/f;->m()Ljava/util/List;
 
     move-result-object p1
@@ -162,7 +152,6 @@
 
     new-array v2, v3, [Ljava/lang/Integer;
 
-    .line 11
     invoke-static {v3}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v3
@@ -179,7 +168,6 @@
 
     move-result-object p1
 
-    .line 12
     invoke-virtual {p1}, Lcom/commsource/widget/h1/c;->i()Ljava/util/List;
 
     move-result-object p1
@@ -198,10 +186,8 @@
 
     move-result v2
 
-    .line 13
     invoke-virtual {v1, p1, v2}, Lcom/commsource/widget/h1/e;->R(Ljava/util/List;Z)V
 
-    .line 14
     iget-object p1, p0, Lcom/commsource/studio/sub/StudioBeautyFilterFragment$h;->a:Lcom/commsource/studio/sub/StudioBeautyFilterFragment;
 
     invoke-static {p1}, Lcom/commsource/studio/sub/StudioBeautyFilterFragment;->W(Lcom/commsource/studio/sub/StudioBeautyFilterFragment;)Lcom/commsource/widget/h1/e;
@@ -210,7 +196,6 @@
 
     invoke-virtual {p1}, Lcom/commsource/widget/h1/e;->p()V
 
-    .line 15
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -224,7 +209,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/f;
 
     invoke-virtual {p0, p1}, Lcom/commsource/studio/sub/StudioBeautyFilterFragment$h;->a(Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/f;)V

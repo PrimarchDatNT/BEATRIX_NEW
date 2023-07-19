@@ -57,7 +57,6 @@
 
     if-eqz p1, :cond_2
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/function/background/BackgroundAdjustFragment$f;->a:Lcom/commsource/studio/function/background/BackgroundAdjustFragment;
 
     invoke-virtual {v1}, Lcom/commsource/studio/function/background/BackgroundAdjustFragment;->E()Lcom/commsource/studio/function/background/BackgroundViewModel;
@@ -103,7 +102,6 @@
     :goto_0
     if-eqz v1, :cond_2
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/function/background/BackgroundAdjustFragment$f;->a:Lcom/commsource/studio/function/background/BackgroundAdjustFragment;
 
     invoke-virtual {v1}, Lcom/commsource/studio/function/background/BackgroundAdjustFragment;->L()Lcom/commsource/beautyplus/f0/eb;
@@ -116,7 +114,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/studio/doodle/ColorItemView;->setFillColor(I)V
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/studio/function/background/BackgroundAdjustFragment$f;->a:Lcom/commsource/studio/function/background/BackgroundAdjustFragment;
 
     invoke-virtual {v1}, Lcom/commsource/studio/function/background/BackgroundAdjustFragment;->L()Lcom/commsource/beautyplus/f0/eb;
@@ -129,7 +126,6 @@
 
     invoke-virtual {v1, v2}, Landroid/widget/TextView;->setTextColor(I)V
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/studio/function/background/BackgroundAdjustFragment$f;->a:Lcom/commsource/studio/function/background/BackgroundAdjustFragment;
 
     invoke-virtual {v1}, Lcom/commsource/studio/function/background/BackgroundAdjustFragment;->L()Lcom/commsource/beautyplus/f0/eb;
@@ -144,14 +140,12 @@
 
     invoke-virtual {v1, p1}, Lcom/commsource/studio/function/background/GradientDrawer;->a(Lcom/commsource/studio/function/background/BackgroundType;)V
 
-    .line 5
     iget-object p1, p0, Lcom/commsource/studio/function/background/BackgroundAdjustFragment$f;->a:Lcom/commsource/studio/function/background/BackgroundAdjustFragment;
 
     const/4 v1, 0x1
 
     invoke-virtual {p1, v1}, Lcom/commsource/studio/function/background/BackgroundAdjustFragment;->T(Z)V
 
-    .line 6
     :cond_2
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -166,7 +160,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Lcom/commsource/studio/function/background/BackgroundType;
 
     invoke-virtual {p0, p1}, Lcom/commsource/studio/function/background/BackgroundAdjustFragment$f;->a(Lcom/commsource/studio/function/background/BackgroundType;)V

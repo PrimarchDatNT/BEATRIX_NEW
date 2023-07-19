@@ -60,10 +60,8 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/beautyplus/i0/a;-><init>()V
 
-    .line 2
     new-instance v0, Lcom/commsource/studio/mixlayer/MixLayerFragment$studioViewModel$2;
 
     invoke-direct {v0, p0}, Lcom/commsource/studio/mixlayer/MixLayerFragment$studioViewModel$2;-><init>(Lcom/commsource/studio/mixlayer/MixLayerFragment;)V
@@ -74,7 +72,6 @@
 
     iput-object v0, p0, Lcom/commsource/studio/mixlayer/MixLayerFragment;->f:Lcotlin/w;
 
-    .line 3
     new-instance v0, Lcom/commsource/studio/mixlayer/MixLayerFragment$imageStyleViewModel$2;
 
     invoke-direct {v0, p0}, Lcom/commsource/studio/mixlayer/MixLayerFragment$imageStyleViewModel$2;-><init>(Lcom/commsource/studio/mixlayer/MixLayerFragment;)V
@@ -95,7 +92,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/studio/mixlayer/MixLayerFragment;->J()Lcom/commsource/studio/mixlayer/ImageStyleViewModel;
 
     move-result-object p0
@@ -112,7 +108,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/beautyplus/i0/a;->b:Landroid/app/Activity;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -127,7 +122,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/studio/mixlayer/MixLayerFragment;->c:Lcom/commsource/beautyplus/f0/g9;
 
     if-nez p0, :cond_0
@@ -149,7 +143,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/studio/mixlayer/MixLayerFragment;->K()Lcom/commsource/studio/ImageStudioViewModel;
 
     move-result-object p0
@@ -166,7 +159,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/studio/mixlayer/MixLayerFragment;->L()V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -181,7 +173,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/mixlayer/MixLayerFragment;->p:Lcom/meitu/mtpasterrender/MTPasterRenderFilter$MtPsBlendType;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -196,7 +187,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/mixlayer/MixLayerFragment;->d:Lcom/commsource/studio/bean/FocusLayerInfo;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -211,7 +201,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/beautyplus/i0/a;->b:Landroid/app/Activity;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -226,7 +215,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/mixlayer/MixLayerFragment;->c:Lcom/commsource/beautyplus/f0/g9;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -281,7 +269,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/mixlayer/MixLayerFragment;->c:Lcom/commsource/beautyplus/f0/g9;
 
     if-nez v1, :cond_0
@@ -297,7 +284,6 @@
 
     invoke-static {v1, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 2
     invoke-virtual {v1}, Landroid/view/ViewGroup;->getChildCount()I
 
     move-result v2
@@ -309,7 +295,6 @@
     :goto_0
     if-ge v4, v2, :cond_3
 
-    .line 3
     invoke-virtual {v1, v4}, Landroid/view/ViewGroup;->getChildAt(I)Landroid/view/View;
 
     move-result-object v5
@@ -318,12 +303,10 @@
 
     invoke-static {v5, v6}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 4
     instance-of v6, v5, Landroid/widget/TextView;
 
     if-eqz v6, :cond_2
 
-    .line 5
     move-object v6, v5
 
     check-cast v6, Landroid/widget/TextView;
@@ -338,7 +321,6 @@
 
     const/4 v7, 0x1
 
-    .line 6
     invoke-static {v7}, Landroid/graphics/Typeface;->defaultFromStyle(I)Landroid/graphics/Typeface;
 
     move-result-object v7
@@ -347,15 +329,12 @@
 
     sget v6, Lcom/res/provider/ResDRAWABLE;->radius_4_f5f5f5_333333:I
 
-    .line 7
     invoke-virtual {v5, v6}, Landroid/view/View;->setBackgroundResource(I)V
 
-    .line 8
     invoke-direct {p0, v5}, Lcom/commsource/studio/mixlayer/MixLayerFragment;->M(Landroid/view/View;)V
 
     goto :goto_1
 
-    .line 9
     :cond_1
     invoke-static {v3}, Landroid/graphics/Typeface;->defaultFromStyle(I)Landroid/graphics/Typeface;
 
@@ -365,7 +344,6 @@
 
     sget v6, Lcom/res/provider/ResDRAWABLE;->radius_4_f5f5f5:I
 
-    .line 10
     invoke-virtual {v5, v6}, Landroid/view/View;->setBackgroundResource(I)V
 
     :cond_2
@@ -374,7 +352,6 @@
 
     goto :goto_0
 
-    .line 11
     :cond_3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -388,14 +365,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/commsource/studio/mixlayer/MixLayerFragment$d;
 
     invoke-direct {v1, p0, p1}, Lcom/commsource/studio/mixlayer/MixLayerFragment$d;-><init>(Lcom/commsource/studio/mixlayer/MixLayerFragment;Landroid/view/View;)V
 
     invoke-virtual {p1, v1}, Landroid/view/View;->post(Ljava/lang/Runnable;)Z
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -408,7 +383,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/studio/mixlayer/MixLayerFragment;->p:Lcom/meitu/mtpasterrender/MTPasterRenderFilter$MtPsBlendType;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -423,7 +397,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/studio/mixlayer/MixLayerFragment;->d:Lcom/commsource/studio/bean/FocusLayerInfo;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -458,7 +431,6 @@
 
     invoke-static {p1, p3}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-static {p1}, Lcom/commsource/beautyplus/f0/g9;->d(Landroid/view/LayoutInflater;)Lcom/commsource/beautyplus/f0/g9;
 
     move-result-object p1
@@ -473,13 +445,11 @@
 
     if-nez p1, :cond_0
 
-    .line 2
     invoke-static {p3}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
     invoke-virtual {p1, p0}, Lcom/commsource/beautyplus/f0/g9;->i(Landroidx/fragment/app/Fragment;)V
 
-    .line 3
     iget-object p1, p0, Lcom/commsource/studio/mixlayer/MixLayerFragment;->c:Lcom/commsource/beautyplus/f0/g9;
 
     if-nez p1, :cond_1
@@ -523,10 +493,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0}, Lcom/commsource/beautyplus/i0/a;->onResume()V
 
-    .line 2
     invoke-direct {p0}, Lcom/commsource/studio/mixlayer/MixLayerFragment;->J()Lcom/commsource/studio/mixlayer/ImageStyleViewModel;
 
     move-result-object v1
@@ -539,7 +507,6 @@
 
     invoke-virtual {v1, v2}, Landroidx/lifecycle/MutableLiveData;->setValue(Ljava/lang/Object;)V
 
-    .line 3
     invoke-direct {p0}, Lcom/commsource/studio/mixlayer/MixLayerFragment;->J()Lcom/commsource/studio/mixlayer/ImageStyleViewModel;
 
     move-result-object v1
@@ -550,7 +517,6 @@
 
     invoke-virtual {v1, v2}, Landroidx/lifecycle/MutableLiveData;->setValue(Ljava/lang/Object;)V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -575,10 +541,8 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-super {p0, p1, p2}, Landroidx/fragment/app/Fragment;->onViewCreated(Landroid/view/View;Landroid/os/Bundle;)V
 
-    .line 2
     invoke-direct {p0}, Lcom/commsource/studio/mixlayer/MixLayerFragment;->K()Lcom/commsource/studio/ImageStudioViewModel;
 
     move-result-object p1
@@ -597,7 +561,6 @@
 
     iput-object p1, p0, Lcom/commsource/studio/mixlayer/MixLayerFragment;->d:Lcom/commsource/studio/bean/FocusLayerInfo;
 
-    .line 3
     iget-object p1, p0, Lcom/commsource/studio/mixlayer/MixLayerFragment;->c:Lcom/commsource/beautyplus/f0/g9;
 
     const-string p2, "mViewBinding"
@@ -633,7 +596,6 @@
 
     invoke-virtual {p1, v1}, Lcom/commsource/widget/XSeekBar;->setProgress(I)V
 
-    .line 4
     iget-object p1, p0, Lcom/commsource/studio/mixlayer/MixLayerFragment;->c:Lcom/commsource/beautyplus/f0/g9;
 
     if-nez p1, :cond_2
@@ -649,12 +611,10 @@
 
     const/4 v2, 0x0
 
-    .line 5
     sget-object v3, Lcom/meitu/mtpasterrender/MTPasterRenderFilter$MtPsBlendType;->MTPSBlend_Normal:Lcom/meitu/mtpasterrender/MTPasterRenderFilter$MtPsBlendType;
 
     aput-object v3, v1, v2
 
-    .line 6
     sget-object v2, Lcom/meitu/mtpasterrender/MTPasterRenderFilter$MtPsBlendType;->MTPSBlend_Multiply:Lcom/meitu/mtpasterrender/MTPasterRenderFilter$MtPsBlendType;
 
     const/4 v3, 0x1
@@ -663,59 +623,50 @@
 
     const/4 v2, 0x2
 
-    .line 7
     sget-object v4, Lcom/meitu/mtpasterrender/MTPasterRenderFilter$MtPsBlendType;->MTPSBlend_ColorDeep:Lcom/meitu/mtpasterrender/MTPasterRenderFilter$MtPsBlendType;
 
     aput-object v4, v1, v2
 
     const/4 v2, 0x3
 
-    .line 8
     sget-object v4, Lcom/meitu/mtpasterrender/MTPasterRenderFilter$MtPsBlendType;->MTPSBlend_Overlay:Lcom/meitu/mtpasterrender/MTPasterRenderFilter$MtPsBlendType;
 
     aput-object v4, v1, v2
 
     const/4 v2, 0x4
 
-    .line 9
     sget-object v4, Lcom/meitu/mtpasterrender/MTPasterRenderFilter$MtPsBlendType;->MTPSBlend_SoftLight:Lcom/meitu/mtpasterrender/MTPasterRenderFilter$MtPsBlendType;
 
     aput-object v4, v1, v2
 
     const/4 v2, 0x5
 
-    .line 10
     sget-object v4, Lcom/meitu/mtpasterrender/MTPasterRenderFilter$MtPsBlendType;->MTPSBlend_HardLight:Lcom/meitu/mtpasterrender/MTPasterRenderFilter$MtPsBlendType;
 
     aput-object v4, v1, v2
 
     const/4 v2, 0x6
 
-    .line 11
     sget-object v4, Lcom/meitu/mtpasterrender/MTPasterRenderFilter$MtPsBlendType;->MTPSBlend_Different:Lcom/meitu/mtpasterrender/MTPasterRenderFilter$MtPsBlendType;
 
     aput-object v4, v1, v2
 
     const/4 v2, 0x7
 
-    .line 12
     sget-object v4, Lcom/meitu/mtpasterrender/MTPasterRenderFilter$MtPsBlendType;->MTPSBlend_Screen:Lcom/meitu/mtpasterrender/MTPasterRenderFilter$MtPsBlendType;
 
     aput-object v4, v1, v2
 
     const/16 v2, 0x8
 
-    .line 13
     sget-object v4, Lcom/meitu/mtpasterrender/MTPasterRenderFilter$MtPsBlendType;->MTPSBlend_Divide:Lcom/meitu/mtpasterrender/MTPasterRenderFilter$MtPsBlendType;
 
     aput-object v4, v1, v2
 
-    .line 14
     invoke-static {v1}, Lcotlin/collections/s;->r([Ljava/lang/Object;)Ljava/util/ArrayList;
 
     move-result-object v1
 
-    .line 15
     invoke-interface {v1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v1
@@ -733,7 +684,6 @@
 
     check-cast v2, Lcom/meitu/mtpasterrender/MTPasterRenderFilter$MtPsBlendType;
 
-    .line 16
     new-instance v4, Landroid/widget/TextView;
 
     invoke-virtual {p0}, Lcom/commsource/beautyplus/i0/a;->q()Landroidx/fragment/app/FragmentActivity;
@@ -744,7 +694,6 @@
 
     const/high16 v5, 0x41400000    # 12.0f
 
-    .line 17
     invoke-static {v5}, Lcom/meitu/library/p/f/i;->d(F)I
 
     move-result v6
@@ -755,7 +704,6 @@
 
     move-result v8
 
-    .line 18
     invoke-static {v5}, Lcom/meitu/library/p/f/i;->d(F)I
 
     move-result v5
@@ -764,10 +712,8 @@
 
     move-result v7
 
-    .line 19
     invoke-virtual {v4, v6, v8, v5, v7}, Landroid/widget/TextView;->setPadding(IIII)V
 
-    .line 20
     iget-object v5, p0, Lcom/commsource/studio/mixlayer/MixLayerFragment;->d:Lcom/commsource/studio/bean/FocusLayerInfo;
 
     if-eqz v5, :cond_3
@@ -786,7 +732,6 @@
 
     sget v5, Lcom/res/provider/ResCOLOR;->color_333333:I
 
-    .line 21
     invoke-static {v5}, Lcom/commsource/util/u1;->b(I)I
 
     move-result v5
@@ -795,10 +740,8 @@
 
     const/high16 v5, 0x41600000    # 14.0f
 
-    .line 22
     invoke-virtual {v4, v3, v5}, Landroid/widget/TextView;->setTextSize(IF)V
 
-    .line 23
     invoke-direct {p0}, Lcom/commsource/studio/mixlayer/MixLayerFragment;->J()Lcom/commsource/studio/mixlayer/ImageStyleViewModel;
 
     move-result-object v5
@@ -809,26 +752,21 @@
 
     invoke-virtual {v4, v5}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 24
     invoke-virtual {v4, v2}, Landroid/widget/TextView;->setTag(Ljava/lang/Object;)V
 
-    .line 25
     new-instance v5, Lcom/commsource/studio/mixlayer/MixLayerFragment$b;
 
     invoke-direct {v5, v2, p1, p0}, Lcom/commsource/studio/mixlayer/MixLayerFragment$b;-><init>(Lcom/meitu/mtpasterrender/MTPasterRenderFilter$MtPsBlendType;Lcom/commsource/store/filter/search/TagFlowLayout;Lcom/commsource/studio/mixlayer/MixLayerFragment;)V
 
     invoke-virtual {v4, v5}, Landroid/widget/TextView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 26
     invoke-virtual {p1, v4}, Landroid/view/ViewGroup;->addView(Landroid/view/View;)V
 
     goto :goto_1
 
-    .line 27
     :cond_4
     invoke-direct {p0}, Lcom/commsource/studio/mixlayer/MixLayerFragment;->L()V
 
-    .line 28
     iget-object p1, p0, Lcom/commsource/studio/mixlayer/MixLayerFragment;->c:Lcom/commsource/beautyplus/f0/g9;
 
     if-nez p1, :cond_5
@@ -844,7 +782,6 @@
 
     invoke-virtual {p1, p2}, Lcom/commsource/widget/XSeekBar;->f(Lcom/commsource/widget/XSeekBar$b;)V
 
-    .line 29
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

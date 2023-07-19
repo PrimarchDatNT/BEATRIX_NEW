@@ -49,7 +49,6 @@
 .method static constructor <clinit>()V
     .locals 8
 
-    .line 1
     new-instance v0, Lcom/google/protobuf/Syntax;
 
     const-string v1, "SYNTAX_PROTO2"
@@ -60,7 +59,6 @@
 
     sput-object v0, Lcom/google/protobuf/Syntax;->SYNTAX_PROTO2:Lcom/google/protobuf/Syntax;
 
-    .line 2
     new-instance v1, Lcom/google/protobuf/Syntax;
 
     const-string v3, "SYNTAX_PROTO3"
@@ -71,7 +69,6 @@
 
     sput-object v1, Lcom/google/protobuf/Syntax;->SYNTAX_PROTO3:Lcom/google/protobuf/Syntax;
 
-    .line 3
     new-instance v3, Lcom/google/protobuf/Syntax;
 
     const-string v5, "UNRECOGNIZED"
@@ -94,10 +91,8 @@
 
     aput-object v3, v5, v6
 
-    .line 4
     sput-object v5, Lcom/google/protobuf/Syntax;->$VALUES:[Lcom/google/protobuf/Syntax;
 
-    .line 5
     new-instance v0, Lcom/google/protobuf/Syntax$a;
 
     invoke-direct {v0}, Lcom/google/protobuf/Syntax$a;-><init>()V
@@ -115,10 +110,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 2
     iput p3, p0, Lcom/google/protobuf/Syntax;->value:I
 
     return-void
@@ -137,13 +130,11 @@
 
     return-object p0
 
-    .line 1
     :cond_0
     sget-object p0, Lcom/google/protobuf/Syntax;->SYNTAX_PROTO3:Lcom/google/protobuf/Syntax;
 
     return-object p0
 
-    .line 2
     :cond_1
     sget-object p0, Lcom/google/protobuf/Syntax;->SYNTAX_PROTO2:Lcom/google/protobuf/Syntax;
 
@@ -161,7 +152,6 @@
         }
     .end annotation
 
-    .line 1
     sget-object v0, Lcom/google/protobuf/Syntax;->internalValueMap:Lcom/google/protobuf/z0$d;
 
     return-object v0
@@ -172,7 +162,6 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    .line 2
     invoke-static {p0}, Lcom/google/protobuf/Syntax;->forNumber(I)Lcom/google/protobuf/Syntax;
 
     move-result-object p0
@@ -183,7 +172,6 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/google/protobuf/Syntax;
     .locals 1
 
-    .line 1
     const-class v0, Lcom/google/protobuf/Syntax;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -198,7 +186,6 @@
 .method public static values()[Lcom/google/protobuf/Syntax;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/google/protobuf/Syntax;->$VALUES:[Lcom/google/protobuf/Syntax;
 
     invoke-virtual {v0}, [Lcom/google/protobuf/Syntax;->clone()Ljava/lang/Object;
@@ -215,7 +202,6 @@
 .method public final getNumber()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lcom/google/protobuf/Syntax;->value:I
 
     return v0

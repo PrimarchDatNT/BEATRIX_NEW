@@ -67,7 +67,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/studio/function/RemoveWrinkleFragment$d;->a:Lcom/commsource/studio/function/RemoveWrinkleFragment;
 
     invoke-virtual {v0}, Lcom/commsource/studio/function/RemoveWrinkleFragment;->J1()Lcom/commsource/studio/effect/c;
@@ -92,7 +91,6 @@
 
     invoke-virtual {v0, v1}, Lcom/commsource/studio/effect/c;->K(Z)V
 
-    .line 2
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -105,7 +103,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Lcotlin/Pair;
 
     invoke-virtual {p0, p1}, Lcom/commsource/studio/function/RemoveWrinkleFragment$d;->a(Lcotlin/Pair;)V

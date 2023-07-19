@@ -23,18 +23,14 @@
 .method public constructor <init>()V
     .locals 2
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/4 v0, 0x0
 
-    .line 2
     iput v0, p0, Lcom/meitu/mtlab/beautyplus/opengl/MTlabEglEnvironment;->c:I
 
-    .line 3
     iput v0, p0, Lcom/meitu/mtlab/beautyplus/opengl/MTlabEglEnvironment;->d:I
 
-    .line 4
     invoke-static {}, Lcom/meitu/mtlab/beautyplus/opengl/MTlabEglEnvironment;->nativeCreate()J
 
     move-result-wide v0
@@ -65,17 +61,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/mtlab/beautyplus/opengl/MTlabEglEnvironment;->a:J
 
     invoke-static {v1, v2}, Lcom/meitu/mtlab/beautyplus/opengl/MTlabEglEnvironment;->nativeDestroyEGL(J)Z
 
     const/4 v1, 0x0
 
-    .line 2
     iput-boolean v1, p0, Lcom/meitu/mtlab/beautyplus/opengl/MTlabEglEnvironment;->b:Z
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -90,7 +83,6 @@
 
     const/16 v1, 0x20
 
-    .line 1
     invoke-virtual {p0, v1, v1}, Lcom/meitu/mtlab/beautyplus/opengl/MTlabEglEnvironment;->c(II)Z
 
     move-result v1
@@ -107,7 +99,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/meitu/mtlab/beautyplus/opengl/MTlabEglEnvironment;->b:Z
 
     if-eqz v1, :cond_0
@@ -120,23 +111,19 @@
 
     if-eq p2, v2, :cond_2
 
-    .line 2
     :cond_0
     iput p1, p0, Lcom/meitu/mtlab/beautyplus/opengl/MTlabEglEnvironment;->c:I
 
-    .line 3
     iput p2, p0, Lcom/meitu/mtlab/beautyplus/opengl/MTlabEglEnvironment;->d:I
 
     const/4 v2, 0x1
 
     if-ne v1, v2, :cond_1
 
-    .line 4
     iget-wide v1, p0, Lcom/meitu/mtlab/beautyplus/opengl/MTlabEglEnvironment;->a:J
 
     invoke-static {v1, v2}, Lcom/meitu/mtlab/beautyplus/opengl/MTlabEglEnvironment;->nativeDestroyEGL(J)Z
 
-    .line 5
     :cond_1
     iget-wide v1, p0, Lcom/meitu/mtlab/beautyplus/opengl/MTlabEglEnvironment;->a:J
 
@@ -146,7 +133,6 @@
 
     iput-boolean p1, p0, Lcom/meitu/mtlab/beautyplus/opengl/MTlabEglEnvironment;->b:Z
 
-    .line 6
     :cond_2
     iget-boolean p1, p0, Lcom/meitu/mtlab/beautyplus/opengl/MTlabEglEnvironment;->b:Z
 
@@ -162,7 +148,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/meitu/mtlab/beautyplus/opengl/MTlabEglEnvironment;->b:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -182,21 +167,17 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0}, Ljava/lang/Object;->finalize()V
 
-    .line 2
     :try_start_0
     invoke-virtual {p0}, Lcom/meitu/mtlab/beautyplus/opengl/MTlabEglEnvironment;->a()V
 
-    .line 3
     iget-wide v1, p0, Lcom/meitu/mtlab/beautyplus/opengl/MTlabEglEnvironment;->a:J
 
     invoke-static {v1, v2}, Lcom/meitu/mtlab/beautyplus/opengl/MTlabEglEnvironment;->nativeFinalize(J)V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 4
     :catchall_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

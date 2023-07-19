@@ -34,7 +34,6 @@
 .method constructor <init>(Lcom/mopub/nativeads/ServerPositioningSource;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/mopub/nativeads/ServerPositioningSource$2;->this$0:Lcom/mopub/nativeads/ServerPositioningSource;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -51,14 +50,12 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-virtual {p1}, Lcom/mopub/network/MoPubNetworkError;->getReason()Lcom/mopub/network/MoPubNetworkError$Reason;
 
     move-result-object v0
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-virtual {p1}, Lcom/mopub/network/MoPubNetworkError;->getReason()Lcom/mopub/network/MoPubNetworkError$Reason;
 
     move-result-object v0
@@ -71,7 +68,6 @@
 
     if-eqz v0, :cond_1
 
-    .line 3
     :cond_0
     sget-object v0, Lcom/mopub/common/logging/MoPubLog$SdkLogEvent;->ERROR_WITH_THROWABLE:Lcom/mopub/common/logging/MoPubLog$SdkLogEvent;
 
@@ -91,7 +87,6 @@
 
     invoke-static {v0, v1}, Lcom/mopub/common/logging/MoPubLog;->log(Lcom/mopub/common/logging/MoPubLog$MPLogEventType;[Ljava/lang/Object;)V
 
-    .line 4
     invoke-virtual {p1}, Lcom/mopub/network/MoPubNetworkError;->getNetworkResponse()Lcom/mopub/network/MoPubNetworkResponse;
 
     move-result-object p1
@@ -110,7 +105,6 @@
 
     if-nez p1, :cond_1
 
-    .line 5
     sget-object p1, Lcom/mopub/common/logging/MoPubLog$SdkLogEvent;->CUSTOM:Lcom/mopub/common/logging/MoPubLog$SdkLogEvent;
 
     new-array v0, v2, [Ljava/lang/Object;
@@ -125,7 +119,6 @@
 
     invoke-static {p1, v0}, Lcom/mopub/common/logging/MoPubLog;->log(Lcom/mopub/common/logging/MoPubLog$MPLogEventType;[Ljava/lang/Object;)V
 
-    .line 6
     :cond_1
     iget-object p1, p0, Lcom/mopub/nativeads/ServerPositioningSource$2;->this$0:Lcom/mopub/nativeads/ServerPositioningSource;
 
@@ -141,7 +134,6 @@
         .end annotation
     .end param
 
-    .line 2
     iget-object v0, p0, Lcom/mopub/nativeads/ServerPositioningSource$2;->this$0:Lcom/mopub/nativeads/ServerPositioningSource;
 
     invoke-static {v0, p1}, Lcom/mopub/nativeads/ServerPositioningSource;->access$100(Lcom/mopub/nativeads/ServerPositioningSource;Lcom/mopub/nativeads/MoPubNativeAdPositioning$MoPubClientPositioning;)V
@@ -156,7 +148,6 @@
         .end annotation
     .end param
 
-    .line 1
     check-cast p1, Lcom/mopub/nativeads/MoPubNativeAdPositioning$MoPubClientPositioning;
 
     invoke-virtual {p0, p1}, Lcom/mopub/nativeads/ServerPositioningSource$2;->onResponse(Lcom/mopub/nativeads/MoPubNativeAdPositioning$MoPubClientPositioning;)V

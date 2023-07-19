@@ -53,7 +53,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/video/view/XVideoContainer$registerVideoListener$3;->invoke()V
 
     sget-object v1, Lcotlin/t1;->a:Lcotlin/t1;
@@ -70,7 +69,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 2
     sget-object v1, Lcom/commsource/video/XPlayer;->f:Lcom/commsource/video/XPlayer;
 
     new-instance v2, Lcom/commsource/video/b;
@@ -81,7 +79,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/video/XPlayer;->b(Lcom/commsource/video/b;)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

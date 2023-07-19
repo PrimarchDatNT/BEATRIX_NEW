@@ -34,7 +34,6 @@
 .method constructor <init>(Lcom/google/common/collect/AbstractMapBasedMultimap$l;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/common/collect/AbstractMapBasedMultimap$l$a;->d:Lcom/google/common/collect/AbstractMapBasedMultimap$l;
 
     invoke-direct {p0, p1}, Lcom/google/common/collect/AbstractMapBasedMultimap$k$a;-><init>(Lcom/google/common/collect/AbstractMapBasedMultimap$k;)V
@@ -45,10 +44,8 @@
 .method public constructor <init>(Lcom/google/common/collect/AbstractMapBasedMultimap$l;I)V
     .locals 1
 
-    .line 2
     iput-object p1, p0, Lcom/google/common/collect/AbstractMapBasedMultimap$l$a;->d:Lcom/google/common/collect/AbstractMapBasedMultimap$l;
 
-    .line 3
     invoke-virtual {p1}, Lcom/google/common/collect/AbstractMapBasedMultimap$l;->k()Ljava/util/List;
 
     move-result-object v0
@@ -72,7 +69,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/collect/AbstractMapBasedMultimap$k$a;->a()Ljava/util/Iterator;
 
     move-result-object v0
@@ -92,21 +88,18 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/AbstractMapBasedMultimap$l$a;->d:Lcom/google/common/collect/AbstractMapBasedMultimap$l;
 
     invoke-virtual {v0}, Ljava/util/AbstractCollection;->isEmpty()Z
 
     move-result v0
 
-    .line 2
     invoke-direct {p0}, Lcom/google/common/collect/AbstractMapBasedMultimap$l$a;->c()Ljava/util/ListIterator;
 
     move-result-object v1
 
     invoke-interface {v1, p1}, Ljava/util/ListIterator;->add(Ljava/lang/Object;)V
 
-    .line 3
     iget-object p1, p0, Lcom/google/common/collect/AbstractMapBasedMultimap$l$a;->d:Lcom/google/common/collect/AbstractMapBasedMultimap$l;
 
     iget-object p1, p1, Lcom/google/common/collect/AbstractMapBasedMultimap$l;->g:Lcom/google/common/collect/AbstractMapBasedMultimap;
@@ -115,7 +108,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 4
     iget-object p1, p0, Lcom/google/common/collect/AbstractMapBasedMultimap$l$a;->d:Lcom/google/common/collect/AbstractMapBasedMultimap$l;
 
     invoke-virtual {p1}, Lcom/google/common/collect/AbstractMapBasedMultimap$k;->b()V
@@ -127,7 +119,6 @@
 .method public hasPrevious()Z
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Lcom/google/common/collect/AbstractMapBasedMultimap$l$a;->c()Ljava/util/ListIterator;
 
     move-result-object v0
@@ -142,7 +133,6 @@
 .method public nextIndex()I
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Lcom/google/common/collect/AbstractMapBasedMultimap$l$a;->c()Ljava/util/ListIterator;
 
     move-result-object v0
@@ -162,7 +152,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Lcom/google/common/collect/AbstractMapBasedMultimap$l$a;->c()Ljava/util/ListIterator;
 
     move-result-object v0
@@ -177,7 +166,6 @@
 .method public previousIndex()I
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Lcom/google/common/collect/AbstractMapBasedMultimap$l$a;->c()Ljava/util/ListIterator;
 
     move-result-object v0
@@ -197,7 +185,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Lcom/google/common/collect/AbstractMapBasedMultimap$l$a;->c()Ljava/util/ListIterator;
 
     move-result-object v0

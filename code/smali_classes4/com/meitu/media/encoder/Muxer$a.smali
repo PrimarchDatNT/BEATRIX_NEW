@@ -26,7 +26,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/meitu/media/encoder/Muxer$FORMAT;->values()[Lcom/meitu/media/encoder/Muxer$FORMAT;
 
     move-result-object v1

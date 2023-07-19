@@ -30,7 +30,6 @@
 .method constructor <init>(Lcom/google/common/collect/b0$c;I)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/common/collect/b0$c$a;->c:Lcom/google/common/collect/b0$c;
 
     invoke-direct {p0, p2}, Lcom/google/common/collect/a;-><init>(I)V
@@ -43,7 +42,6 @@
 .method public bridge synthetic a(I)Ljava/lang/Object;
     .locals 0
 
-    .line 1
     invoke-virtual {p0, p1}, Lcom/google/common/collect/b0$c$a;->b(I)Ljava/util/Iterator;
 
     move-result-object p1
@@ -61,7 +59,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/b0$c$a;->c:Lcom/google/common/collect/b0$c;
 
     iget-object v0, v0, Lcom/google/common/collect/b0$c;->b:[Ljava/lang/Iterable;

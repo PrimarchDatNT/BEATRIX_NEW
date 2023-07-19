@@ -20,7 +20,6 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
     new-instance v0, Lcom/google/android/gms/common/internal/f0;
 
     invoke-direct {v0}, Lcom/google/android/gms/common/internal/f0;-><init>()V
@@ -35,7 +34,6 @@
 
     const-string v0, "com.google.android.gms.common.ui.SignInButtonCreatorImpl"
 
-    .line 1
     invoke-direct {p0, v0}, Lcom/google/android/gms/dynamic/RemoteCreator;-><init>(Ljava/lang/String;)V
 
     return-void
@@ -49,7 +47,6 @@
         }
     .end annotation
 
-    .line 1
     sget-object v0, Lcom/google/android/gms/common/internal/f0;->c:Lcom/google/android/gms/common/internal/f0;
 
     invoke-direct {v0, p0, p1, p2}, Lcom/google/android/gms/common/internal/f0;->e(Landroid/content/Context;II)Landroid/view/View;
@@ -67,7 +64,6 @@
         }
     .end annotation
 
-    .line 1
     :try_start_0
     new-instance v0, Lcom/google/android/gms/common/internal/SignInButtonConfig;
 
@@ -75,12 +71,10 @@
 
     invoke-direct {v0, p2, p3, v1}, Lcom/google/android/gms/common/internal/SignInButtonConfig;-><init>(II[Lcom/google/android/gms/common/api/Scope;)V
 
-    .line 2
     invoke-static {p1}, Lcom/google/android/gms/dynamic/f;->a1(Ljava/lang/Object;)Lcom/google/android/gms/dynamic/d;
 
     move-result-object v1
 
-    .line 3
     invoke-virtual {p0, p1}, Lcom/google/android/gms/dynamic/RemoteCreator;->b(Landroid/content/Context;)Ljava/lang/Object;
 
     move-result-object p1
@@ -91,7 +85,6 @@
 
     move-result-object p1
 
-    .line 4
     invoke-static {p1}, Lcom/google/android/gms/dynamic/f;->B0(Lcom/google/android/gms/dynamic/d;)Ljava/lang/Object;
 
     move-result-object p1
@@ -105,7 +98,6 @@
     :catch_0
     move-exception p1
 
-    .line 5
     new-instance v0, Lcom/google/android/gms/dynamic/RemoteCreator$RemoteCreatorException;
 
     const/16 v1, 0x40
@@ -140,7 +132,6 @@
 .method public final bridge synthetic a(Landroid/os/IBinder;)Ljava/lang/Object;
     .locals 0
 
-    .line 1
     invoke-virtual {p0, p1}, Lcom/google/android/gms/common/internal/f0;->d(Landroid/os/IBinder;)Lcom/google/android/gms/common/internal/v;
 
     move-result-object p1
@@ -160,22 +151,18 @@
     :cond_0
     const-string v0, "com.google.android.gms.common.internal.ISignInButtonCreator"
 
-    .line 1
     invoke-interface {p1, v0}, Landroid/os/IBinder;->queryLocalInterface(Ljava/lang/String;)Landroid/os/IInterface;
 
     move-result-object v0
 
-    .line 2
     instance-of v1, v0, Lcom/google/android/gms/common/internal/v;
 
     if-eqz v1, :cond_1
 
-    .line 3
     check-cast v0, Lcom/google/android/gms/common/internal/v;
 
     return-object v0
 
-    .line 4
     :cond_1
     new-instance v0, Lcom/google/android/gms/common/internal/s0;
 

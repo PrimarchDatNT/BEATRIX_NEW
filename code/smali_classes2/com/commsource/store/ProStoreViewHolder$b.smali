@@ -35,7 +35,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/store/ProStoreViewHolder$b;->a:Lcom/commsource/store/ProStoreViewHolder;
 
     iput-boolean p2, p0, Lcom/commsource/store/ProStoreViewHolder$b;->b:Z
@@ -60,7 +59,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -77,7 +75,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -102,12 +99,10 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v0, p0, Lcom/commsource/store/ProStoreViewHolder$b;->b:Z
 
     if-eqz v0, :cond_0
 
-    .line 2
     iget-object v0, p0, Lcom/commsource/store/ProStoreViewHolder$b;->a:Lcom/commsource/store/ProStoreViewHolder;
 
     invoke-static {v0}, Lcom/commsource/store/ProStoreViewHolder;->v(Lcom/commsource/store/ProStoreViewHolder;)Lcom/commsource/beautyplus/f0/y0;
@@ -124,7 +119,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_0
     iget-object v0, p0, Lcom/commsource/store/ProStoreViewHolder$b;->a:Lcom/commsource/store/ProStoreViewHolder;
 
@@ -140,7 +134,6 @@
 
     invoke-static {v0}, Lcom/commsource/util/l0;->v0(Landroid/view/View;)V
 
-    .line 4
     :cond_1
     :goto_0
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -155,19 +148,16 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v0, p0, Lcom/commsource/store/ProStoreViewHolder$b;->c:I
 
     int-to-float v0, v0
 
     mul-float p2, p2, v0
 
-    .line 2
     iget-boolean v0, p0, Lcom/commsource/store/ProStoreViewHolder$b;->b:Z
 
     if-eqz v0, :cond_1
 
-    .line 3
     iget-object v0, p0, Lcom/commsource/store/ProStoreViewHolder$b;->a:Lcom/commsource/store/ProStoreViewHolder;
 
     invoke-static {v0}, Lcom/commsource/store/ProStoreViewHolder;->v(Lcom/commsource/store/ProStoreViewHolder;)Lcom/commsource/beautyplus/f0/y0;
@@ -184,7 +174,6 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/RelativeLayout;->setTranslationY(F)V
 
-    .line 4
     :cond_0
     iget-object v0, p0, Lcom/commsource/store/ProStoreViewHolder$b;->a:Lcom/commsource/store/ProStoreViewHolder;
 
@@ -208,7 +197,6 @@
 
     goto :goto_0
 
-    .line 5
     :cond_1
     iget-object v0, p0, Lcom/commsource/store/ProStoreViewHolder$b;->a:Lcom/commsource/store/ProStoreViewHolder;
 
@@ -230,7 +218,6 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/RelativeLayout;->setTranslationY(F)V
 
-    .line 6
     :cond_2
     iget-object v0, p0, Lcom/commsource/store/ProStoreViewHolder$b;->a:Lcom/commsource/store/ProStoreViewHolder;
 
@@ -248,7 +235,6 @@
 
     invoke-virtual {v0, p2}, Landroid/widget/LinearLayout;->setTranslationY(F)V
 
-    .line 7
     :cond_3
     :goto_0
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V

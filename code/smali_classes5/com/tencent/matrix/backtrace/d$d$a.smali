@@ -27,7 +27,6 @@
 .method constructor <init>(Lcom/tencent/matrix/backtrace/d$d;[J)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/tencent/matrix/backtrace/d$d$a;->b:Lcom/tencent/matrix/backtrace/d$d;
 
     iput-object p2, p0, Lcom/tencent/matrix/backtrace/d$d$a;->a:[J
@@ -42,7 +41,6 @@
 .method public accept(Ljava/io/File;)Z
     .locals 7
 
-    .line 1
     iget-object v0, p0, Lcom/tencent/matrix/backtrace/d$d$a;->a:[J
 
     const/4 v1, 0x0
@@ -57,7 +55,6 @@
 
     const/4 v2, 0x1
 
-    .line 2
     aget-wide v3, v0, v2
 
     invoke-virtual {p1}, Ljava/io/File;->isFile()Z

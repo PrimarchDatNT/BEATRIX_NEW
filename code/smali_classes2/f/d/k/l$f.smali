@@ -22,7 +22,6 @@
 .method constructor <init>(Lf/d/k/l;Ljava/lang/String;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lf/d/k/l$f;->g:Lf/d/k/l;
 
     invoke-direct {p0, p2}, Lcom/commsource/util/u2/a;-><init>(Ljava/lang/String;)V
@@ -39,7 +38,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lf/d/k/l$f;->g:Lf/d/k/l;
 
     invoke-static {v1}, Lf/d/k/l;->C(Lf/d/k/l;)Ljava/lang/String;
@@ -48,7 +46,6 @@
 
     invoke-static {v1, v2}, Lf/d/k/l;->G(Lf/d/k/l;Ljava/lang/String;)V
 
-    .line 2
     iget-object v1, p0, Lf/d/k/l$f;->g:Lf/d/k/l;
 
     invoke-static {v1}, Lf/d/k/l;->C(Lf/d/k/l;)Ljava/lang/String;
@@ -57,19 +54,16 @@
 
     invoke-static {v1}, Lcom/meitu/library/p/g/b;->m(Ljava/lang/String;)Z
 
-    .line 3
     iget-object v1, p0, Lf/d/k/l$f;->g:Lf/d/k/l;
 
     const/4 v2, 0x0
 
     invoke-static {v1, v2}, Lf/d/k/l;->D(Lf/d/k/l;Ljava/lang/String;)Ljava/lang/String;
 
-    .line 4
     iget-object v1, p0, Lf/d/k/l$f;->g:Lf/d/k/l;
 
     invoke-static {v1}, Lf/d/k/l;->w(Lf/d/k/l;)V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

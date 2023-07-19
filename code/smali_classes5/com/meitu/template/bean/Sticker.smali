@@ -169,7 +169,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/meitu/template/bean/e;-><init>()V
 
     return-void
@@ -188,7 +187,6 @@
 
     const/4 p1, 0x0
 
-    .line 1
     :cond_0
     invoke-virtual {p0, p1}, Lcom/meitu/template/bean/Sticker;->copy(I)Lcom/meitu/template/bean/Sticker;
 
@@ -214,7 +212,6 @@
 
     const/4 p1, 0x1
 
-    .line 1
     :cond_0
     invoke-virtual {p0, p1}, Lcom/meitu/template/bean/Sticker;->getStickerPath(Z)Ljava/lang/String;
 
@@ -236,7 +233,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0}, Ljava/lang/Object;->clone()Ljava/lang/Object;
 
     move-result-object v1
@@ -255,7 +251,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/meitu/template/bean/Sticker;->clone()Ljava/lang/Object;
 
     move-result-object v1
@@ -264,15 +259,12 @@
 
     check-cast v1, Lcom/meitu/template/bean/Sticker;
 
-    .line 2
     iput p1, v1, Lcom/meitu/template/bean/Sticker;->cloneType:I
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
 
-    .line 4
     :cond_0
     new-instance p1, Lcotlin/TypeCastException;
 
@@ -296,7 +288,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     instance-of v1, p1, Lcom/meitu/template/bean/Sticker;
 
     if-eqz v1, :cond_0
@@ -335,7 +326,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/template/bean/Sticker;->cloneType:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -350,7 +340,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/template/bean/Sticker;->containInHistory:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -365,7 +354,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/template/bean/Sticker;->custom:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -380,7 +368,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/template/bean/Sticker;->downloadFrom:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -397,7 +384,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -436,7 +422,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/template/bean/Sticker;->stickerFile:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -453,7 +438,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/template/bean/Sticker;->formulaMid:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -468,7 +452,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/template/bean/Sticker;->groupId:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -483,7 +466,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/template/bean/Sticker;->historyTime:J
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -500,7 +482,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 2
     iget v1, p0, Lcom/meitu/template/bean/Sticker;->stickerId:I
 
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -519,7 +500,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/meitu/template/bean/Sticker;->getMaterialId()Ljava/lang/Integer;
 
     move-result-object v1
@@ -538,7 +518,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/template/bean/Sticker;->stickerFile:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -553,7 +532,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/template/bean/Sticker;->stickerId:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -570,7 +548,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/template/bean/Sticker;->formulaMid:Ljava/lang/String;
 
     if-eqz v1, :cond_1
@@ -586,7 +563,6 @@
 
     goto :goto_0
 
-    .line 2
     :cond_1
     invoke-virtual {p0}, Lcom/meitu/template/bean/e;->getInternalState()I
 
@@ -600,7 +576,6 @@
 
     if-nez p1, :cond_2
 
-    .line 3
     new-instance p1, Ljava/lang/StringBuilder;
 
     invoke-direct {p1}, Ljava/lang/StringBuilder;-><init>()V
@@ -629,7 +604,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_2
     new-instance p1, Ljava/lang/StringBuilder;
 
@@ -659,7 +633,6 @@
 
     goto :goto_0
 
-    .line 5
     :cond_3
     new-instance p1, Ljava/lang/StringBuilder;
 
@@ -681,7 +654,6 @@
 
     move-result-object p1
 
-    .line 6
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -695,7 +667,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/template/bean/Sticker;->stickerRecommendState:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -710,7 +681,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/template/bean/Sticker;->stickerSort:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -727,7 +697,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/template/bean/Sticker;->stickerThumbnail:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -742,7 +711,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0}, Ljava/lang/Object;->hashCode()I
 
     move-result v1
@@ -759,7 +727,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/template/bean/Sticker;->custom:I
 
     const/4 v2, 0x1
@@ -784,7 +751,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/meitu/template/bean/e;->getDownloadState()I
 
     move-result v1
@@ -817,7 +783,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/template/bean/Sticker;->formulaMid:Ljava/lang/String;
 
     if-eqz v1, :cond_0
@@ -842,7 +807,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/meitu/template/bean/e;->getInternalState()I
 
     move-result v1
@@ -851,7 +815,6 @@
 
     if-eq v1, v2, :cond_0
 
-    .line 2
     new-instance v1, Ljava/io/File;
 
     const/4 v3, 0x0
@@ -866,7 +829,6 @@
 
     invoke-virtual {v1}, Ljava/io/File;->deleteOnExit()V
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -880,7 +842,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/meitu/template/bean/e;->getDownloadState()I
 
     move-result v1
@@ -913,7 +874,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Lcom/meitu/template/bean/Sticker;
 
     invoke-virtual {p0, p1}, Lcom/meitu/template/bean/Sticker;->onCompareLocal(Lcom/meitu/template/bean/Sticker;)Z
@@ -940,48 +900,40 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 2
     invoke-virtual {p1}, Lcom/meitu/template/bean/e;->getDownloadState()I
 
     move-result v1
 
     invoke-virtual {p0, v1}, Lcom/meitu/template/bean/e;->setDownloadState(I)V
 
-    .line 3
     invoke-virtual {p1}, Lcom/meitu/template/bean/e;->getInternalState()I
 
     move-result v1
 
     invoke-virtual {p0, v1}, Lcom/meitu/template/bean/e;->setInternalState(I)V
 
-    .line 4
     invoke-virtual {p1}, Lcom/meitu/template/bean/e;->getDownloadProgress()I
 
     move-result v1
 
     invoke-virtual {p0, v1}, Lcom/meitu/template/bean/e;->setDownloadProgress(I)V
 
-    .line 5
     iget v1, p1, Lcom/meitu/template/bean/Sticker;->containInHistory:I
 
     iput v1, p0, Lcom/meitu/template/bean/Sticker;->containInHistory:I
 
-    .line 6
     iget-wide v1, p1, Lcom/meitu/template/bean/Sticker;->historyTime:J
 
     iput-wide v1, p0, Lcom/meitu/template/bean/Sticker;->historyTime:J
 
-    .line 7
     iget v1, p1, Lcom/meitu/template/bean/Sticker;->cloneType:I
 
     iput v1, p0, Lcom/meitu/template/bean/Sticker;->cloneType:I
 
-    .line 8
     iget v1, p1, Lcom/meitu/template/bean/Sticker;->downloadFrom:I
 
     iput v1, p0, Lcom/meitu/template/bean/Sticker;->downloadFrom:I
 
-    .line 9
     iget-object v1, p0, Lcom/meitu/template/bean/Sticker;->stickerThumbnail:Ljava/lang/String;
 
     iget-object v2, p1, Lcom/meitu/template/bean/Sticker;->stickerThumbnail:Ljava/lang/String;
@@ -990,7 +942,6 @@
 
     move-result v1
 
-    .line 10
     iget v2, p0, Lcom/meitu/template/bean/Sticker;->stickerRecommendState:I
 
     iget v3, p1, Lcom/meitu/template/bean/Sticker;->stickerRecommendState:I
@@ -1011,7 +962,6 @@
     :goto_0
     and-int/2addr v1, v2
 
-    .line 11
     iget v2, p0, Lcom/meitu/template/bean/Sticker;->groupId:I
 
     iget v3, p1, Lcom/meitu/template/bean/Sticker;->groupId:I
@@ -1028,7 +978,6 @@
     :goto_1
     and-int/2addr v1, v2
 
-    .line 12
     iget v2, p0, Lcom/meitu/template/bean/Sticker;->stickerSort:I
 
     iget v3, p1, Lcom/meitu/template/bean/Sticker;->stickerSort:I
@@ -1045,14 +994,12 @@
     :goto_2
     and-int/2addr v1, v2
 
-    .line 13
     invoke-virtual {p0}, Lcom/meitu/template/bean/e;->getInternalState()I
 
     move-result v2
 
     if-eq v2, v5, :cond_4
 
-    .line 14
     iget-object v2, p0, Lcom/meitu/template/bean/Sticker;->stickerFile:Ljava/lang/String;
 
     iget-object p1, p1, Lcom/meitu/template/bean/Sticker;->stickerFile:Ljava/lang/String;
@@ -1067,14 +1014,12 @@
 
     const/4 v2, 0x0
 
-    .line 15
     invoke-static {p0, v4, v5, v2}, Lcom/meitu/template/bean/Sticker;->getStickerPath$default(Lcom/meitu/template/bean/Sticker;ZILjava/lang/Object;)Ljava/lang/String;
 
     move-result-object v2
 
     invoke-static {v2}, Lcom/meitu/library/p/g/b;->m(Ljava/lang/String;)Z
 
-    .line 16
     invoke-virtual {p0, v4}, Lcom/meitu/template/bean/e;->setDownloadState(I)V
 
     :cond_3
@@ -1084,13 +1029,11 @@
 
     goto :goto_3
 
-    .line 17
     :cond_4
     iget-object p1, p1, Lcom/meitu/template/bean/Sticker;->stickerFile:Ljava/lang/String;
 
     iput-object p1, p0, Lcom/meitu/template/bean/Sticker;->stickerFile:Ljava/lang/String;
 
-    .line 18
     :goto_3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1104,7 +1047,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Lcom/meitu/template/bean/Sticker;
 
     invoke-virtual {p0, p1}, Lcom/meitu/template/bean/Sticker;->onSortCompare(Lcom/meitu/template/bean/Sticker;)I
@@ -1131,7 +1073,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 2
     invoke-virtual {p0, p1}, Lcom/meitu/template/bean/Sticker;->equals(Ljava/lang/Object;)Z
 
     move-result v1
@@ -1140,12 +1081,10 @@
 
     const/4 p1, 0x0
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
 
-    .line 4
     :cond_0
     iget v1, p0, Lcom/meitu/template/bean/Sticker;->stickerId:I
 
@@ -1173,7 +1112,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/meitu/template/bean/Sticker;->cloneType:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1188,7 +1126,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/meitu/template/bean/Sticker;->containInHistory:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1203,7 +1140,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/meitu/template/bean/Sticker;->custom:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1218,7 +1154,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/meitu/template/bean/Sticker;->downloadFrom:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1237,7 +1172,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/template/bean/Sticker;->formulaMid:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1252,7 +1186,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/meitu/template/bean/Sticker;->groupId:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1267,7 +1200,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-wide p1, p0, Lcom/meitu/template/bean/Sticker;->historyTime:J
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1286,7 +1218,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/template/bean/Sticker;->stickerFile:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1301,7 +1232,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/meitu/template/bean/Sticker;->stickerId:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1316,7 +1246,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/meitu/template/bean/Sticker;->stickerRecommendState:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1331,7 +1260,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/meitu/template/bean/Sticker;->stickerSort:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1350,7 +1278,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/template/bean/Sticker;->stickerThumbnail:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1367,7 +1294,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/template/bean/Sticker;->stickerId:I
 
     invoke-static {v1}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;

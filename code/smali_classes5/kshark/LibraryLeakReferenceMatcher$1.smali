@@ -60,7 +60,6 @@
 .method public bridge synthetic invoke(Ljava/lang/Object;)Ljava/lang/Object;
     .locals 0
 
-    .line 1
     check-cast p1, Lkshark/i;
 
     invoke-virtual {p0, p1}, Lkshark/LibraryLeakReferenceMatcher$1;->invoke(Lkshark/i;)Z

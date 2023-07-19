@@ -12,17 +12,14 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Ljava/security/spec/EllipticCurve;->getField()Ljava/security/spec/ECField;
 
     move-result-object p0
 
-    .line 2
     instance-of v0, p0, Ljava/security/spec/ECFieldFp;
 
     if-eqz v0, :cond_0
 
-    .line 3
     check-cast p0, Ljava/security/spec/ECFieldFp;
 
     invoke-virtual {p0}, Ljava/security/spec/ECFieldFp;->getP()Ljava/math/BigInteger;
@@ -31,7 +28,6 @@
 
     return-object p0
 
-    .line 4
     :cond_0
     new-instance p0, Ljava/security/GeneralSecurityException;
 
@@ -50,7 +46,6 @@
         }
     .end annotation
 
-    .line 1
     sget-object v0, Lcom/google/android/gms/internal/ads/oy1;->k:Lcom/google/android/gms/internal/ads/oy1;
 
     const-string v1, "EC"
@@ -61,10 +56,8 @@
 
     check-cast v0, Ljava/security/KeyPairGenerator;
 
-    .line 2
     invoke-virtual {v0, p0}, Ljava/security/KeyPairGenerator;->initialize(Ljava/security/spec/AlgorithmParameterSpec;)V
 
-    .line 3
     invoke-virtual {v0}, Ljava/security/KeyPairGenerator;->generateKeyPair()Ljava/security/KeyPair;
 
     move-result-object p0
@@ -80,41 +73,34 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p0}, Lcom/google/android/gms/internal/ads/ny1;->d(Lcom/google/android/gms/internal/ads/zzede;)Ljava/security/spec/ECParameterSpec;
 
     move-result-object p0
 
-    .line 2
     new-instance v0, Ljava/math/BigInteger;
 
     const/4 v1, 0x1
 
     invoke-direct {v0, v1, p1}, Ljava/math/BigInteger;-><init>(I[B)V
 
-    .line 3
     new-instance p1, Ljava/math/BigInteger;
 
     invoke-direct {p1, v1, p2}, Ljava/math/BigInteger;-><init>(I[B)V
 
-    .line 4
     new-instance p2, Ljava/security/spec/ECPoint;
 
     invoke-direct {p2, v0, p1}, Ljava/security/spec/ECPoint;-><init>(Ljava/math/BigInteger;Ljava/math/BigInteger;)V
 
-    .line 5
     invoke-virtual {p0}, Ljava/security/spec/ECParameterSpec;->getCurve()Ljava/security/spec/EllipticCurve;
 
     move-result-object p1
 
     invoke-static {p2, p1}, Lcom/google/android/gms/internal/ads/ny1;->f(Ljava/security/spec/ECPoint;Ljava/security/spec/EllipticCurve;)V
 
-    .line 6
     new-instance p1, Ljava/security/spec/ECPublicKeySpec;
 
     invoke-direct {p1, p2, p0}, Ljava/security/spec/ECPublicKeySpec;-><init>(Ljava/security/spec/ECPoint;Ljava/security/spec/ECParameterSpec;)V
 
-    .line 7
     sget-object p0, Lcom/google/android/gms/internal/ads/oy1;->l:Lcom/google/android/gms/internal/ads/oy1;
 
     const-string p2, "EC"
@@ -125,7 +111,6 @@
 
     check-cast p0, Ljava/security/KeyFactory;
 
-    .line 8
     invoke-virtual {p0, p1}, Ljava/security/KeyFactory;->generatePublic(Ljava/security/spec/KeySpec;)Ljava/security/PublicKey;
 
     move-result-object p0
@@ -143,7 +128,6 @@
         }
     .end annotation
 
-    .line 1
     sget-object v0, Lcom/google/android/gms/internal/ads/my1;->b:[I
 
     invoke-virtual {p0}, Ljava/lang/Enum;->ordinal()I
@@ -174,14 +158,12 @@
 
     const-string v3, "11839296a789a3bc0045c8a5fb42c7d1bd998f54449579b446817afbd17273e662c97ee72995ef42640c550b9013fad0761353c7086a272c24088be94769fd16650"
 
-    .line 2
     invoke-static {p0, v0, v1, v2, v3}, Lcom/google/android/gms/internal/ads/ny1;->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/security/spec/ECParameterSpec;
 
     move-result-object p0
 
     return-object p0
 
-    .line 3
     :cond_0
     new-instance v0, Ljava/security/NoSuchAlgorithmException;
 
@@ -228,7 +210,6 @@
 
     const-string v3, "3617de4a96262c6f5d9e98bf9292dc29f8f41dbd289a147ce9da3113b5f0b8c00a60b1ce1d7e819d7a431d7c90ea0e5f"
 
-    .line 4
     invoke-static {p0, v0, v1, v2, v3}, Lcom/google/android/gms/internal/ads/ny1;->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/security/spec/ECParameterSpec;
 
     move-result-object p0
@@ -246,7 +227,6 @@
 
     const-string v3, "4fe342e2fe1a7f9b8ee7eb4a7c0f9e162bce33576b315ececbb6406837bf51f5"
 
-    .line 5
     invoke-static {p0, v0, v1, v2, v3}, Lcom/google/android/gms/internal/ads/ny1;->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/security/spec/ECParameterSpec;
 
     move-result-object p0
@@ -257,61 +237,50 @@
 .method private static e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/security/spec/ECParameterSpec;
     .locals 3
 
-    .line 1
     new-instance v0, Ljava/math/BigInteger;
 
     invoke-direct {v0, p0}, Ljava/math/BigInteger;-><init>(Ljava/lang/String;)V
 
-    .line 2
     new-instance p0, Ljava/math/BigInteger;
 
     invoke-direct {p0, p1}, Ljava/math/BigInteger;-><init>(Ljava/lang/String;)V
 
-    .line 3
     new-instance p1, Ljava/math/BigInteger;
 
     const-string v1, "3"
 
     invoke-direct {p1, v1}, Ljava/math/BigInteger;-><init>(Ljava/lang/String;)V
 
-    .line 4
     invoke-virtual {v0, p1}, Ljava/math/BigInteger;->subtract(Ljava/math/BigInteger;)Ljava/math/BigInteger;
 
     move-result-object p1
 
-    .line 5
     new-instance v1, Ljava/math/BigInteger;
 
     const/16 v2, 0x10
 
     invoke-direct {v1, p2, v2}, Ljava/math/BigInteger;-><init>(Ljava/lang/String;I)V
 
-    .line 6
     new-instance p2, Ljava/math/BigInteger;
 
     invoke-direct {p2, p3, v2}, Ljava/math/BigInteger;-><init>(Ljava/lang/String;I)V
 
-    .line 7
     new-instance p3, Ljava/math/BigInteger;
 
     invoke-direct {p3, p4, v2}, Ljava/math/BigInteger;-><init>(Ljava/lang/String;I)V
 
-    .line 8
     new-instance p4, Ljava/security/spec/ECFieldFp;
 
     invoke-direct {p4, v0}, Ljava/security/spec/ECFieldFp;-><init>(Ljava/math/BigInteger;)V
 
-    .line 9
     new-instance v0, Ljava/security/spec/EllipticCurve;
 
     invoke-direct {v0, p4, p1, v1}, Ljava/security/spec/EllipticCurve;-><init>(Ljava/security/spec/ECField;Ljava/math/BigInteger;Ljava/math/BigInteger;)V
 
-    .line 10
     new-instance p1, Ljava/security/spec/ECPoint;
 
     invoke-direct {p1, p2, p3}, Ljava/security/spec/ECPoint;-><init>(Ljava/math/BigInteger;Ljava/math/BigInteger;)V
 
-    .line 11
     new-instance p2, Ljava/security/spec/ECParameterSpec;
 
     const/4 p3, 0x1
@@ -329,17 +298,14 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p1}, Lcom/google/android/gms/internal/ads/ny1;->a(Ljava/security/spec/EllipticCurve;)Ljava/math/BigInteger;
 
     move-result-object v0
 
-    .line 2
     invoke-virtual {p0}, Ljava/security/spec/ECPoint;->getAffineX()Ljava/math/BigInteger;
 
     move-result-object v1
 
-    .line 3
     invoke-virtual {p0}, Ljava/security/spec/ECPoint;->getAffineY()Ljava/math/BigInteger;
 
     move-result-object p0
@@ -348,7 +314,6 @@
 
     if-eqz p0, :cond_3
 
-    .line 4
     invoke-virtual {v1}, Ljava/math/BigInteger;->signum()I
 
     move-result v2
@@ -363,7 +328,6 @@
 
     if-gez v2, :cond_2
 
-    .line 5
     invoke-virtual {p0}, Ljava/math/BigInteger;->signum()I
 
     move-result v2
@@ -376,7 +340,6 @@
 
     if-gez v2, :cond_1
 
-    .line 6
     invoke-virtual {p0, p0}, Ljava/math/BigInteger;->multiply(Ljava/math/BigInteger;)Ljava/math/BigInteger;
 
     move-result-object p0
@@ -385,7 +348,6 @@
 
     move-result-object p0
 
-    .line 7
     invoke-virtual {v1, v1}, Ljava/math/BigInteger;->multiply(Ljava/math/BigInteger;)Ljava/math/BigInteger;
 
     move-result-object v2
@@ -414,7 +376,6 @@
 
     move-result-object p1
 
-    .line 8
     invoke-virtual {p0, p1}, Ljava/math/BigInteger;->equals(Ljava/lang/Object;)Z
 
     move-result p0
@@ -423,7 +384,6 @@
 
     return-void
 
-    .line 9
     :cond_0
     new-instance p0, Ljava/security/GeneralSecurityException;
 
@@ -433,7 +393,6 @@
 
     throw p0
 
-    .line 10
     :cond_1
     new-instance p0, Ljava/security/GeneralSecurityException;
 
@@ -443,7 +402,6 @@
 
     throw p0
 
-    .line 11
     :cond_2
     new-instance p0, Ljava/security/GeneralSecurityException;
 
@@ -453,7 +411,6 @@
 
     throw p0
 
-    .line 12
     :cond_3
     new-instance p0, Ljava/security/GeneralSecurityException;
 
@@ -472,7 +429,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-interface {p0}, Ljava/security/interfaces/ECPrivateKey;->getParams()Ljava/security/spec/ECParameterSpec;
 
     move-result-object v0
@@ -483,17 +439,14 @@
 
     invoke-static {p1, v0}, Lcom/google/android/gms/internal/ads/ny1;->f(Ljava/security/spec/ECPoint;Ljava/security/spec/EllipticCurve;)V
 
-    .line 2
     invoke-interface {p0}, Ljava/security/interfaces/ECPrivateKey;->getParams()Ljava/security/spec/ECParameterSpec;
 
     move-result-object v0
 
-    .line 3
     new-instance v1, Ljava/security/spec/ECPublicKeySpec;
 
     invoke-direct {v1, p1, v0}, Ljava/security/spec/ECPublicKeySpec;-><init>(Ljava/security/spec/ECPoint;Ljava/security/spec/ECParameterSpec;)V
 
-    .line 4
     sget-object p1, Lcom/google/android/gms/internal/ads/oy1;->l:Lcom/google/android/gms/internal/ads/oy1;
 
     const-string v0, "EC"
@@ -504,12 +457,10 @@
 
     check-cast p1, Ljava/security/KeyFactory;
 
-    .line 5
     invoke-virtual {p1, v1}, Ljava/security/KeyFactory;->generatePublic(Ljava/security/spec/KeySpec;)Ljava/security/PublicKey;
 
     move-result-object p1
 
-    .line 6
     sget-object v0, Lcom/google/android/gms/internal/ads/oy1;->j:Lcom/google/android/gms/internal/ads/oy1;
 
     const-string v1, "ECDH"
@@ -520,21 +471,17 @@
 
     check-cast v0, Ljavax/crypto/KeyAgreement;
 
-    .line 7
     invoke-virtual {v0, p0}, Ljavax/crypto/KeyAgreement;->init(Ljava/security/Key;)V
 
     const/4 v1, 0x1
 
-    .line 8
     :try_start_0
     invoke-virtual {v0, p1, v1}, Ljavax/crypto/KeyAgreement;->doPhase(Ljava/security/Key;Z)Ljava/security/Key;
 
-    .line 9
     invoke-virtual {v0}, Ljavax/crypto/KeyAgreement;->generateSecret()[B
 
     move-result-object p1
 
-    .line 10
     invoke-interface {p0}, Ljava/security/interfaces/ECPrivateKey;->getParams()Ljava/security/spec/ECParameterSpec;
 
     move-result-object p0
@@ -543,12 +490,10 @@
 
     move-result-object p0
 
-    .line 11
     new-instance v0, Ljava/math/BigInteger;
 
     invoke-direct {v0, v1, p1}, Ljava/math/BigInteger;-><init>(I[B)V
 
-    .line 12
     invoke-virtual {v0}, Ljava/math/BigInteger;->signum()I
 
     move-result v2
@@ -567,22 +512,18 @@
 
     if-gez v2, :cond_e
 
-    .line 13
     invoke-static {p0}, Lcom/google/android/gms/internal/ads/ny1;->a(Ljava/security/spec/EllipticCurve;)Ljava/math/BigInteger;
 
     move-result-object v2
 
-    .line 14
     invoke-virtual {p0}, Ljava/security/spec/EllipticCurve;->getA()Ljava/math/BigInteger;
 
     move-result-object v3
 
-    .line 15
     invoke-virtual {p0}, Ljava/security/spec/EllipticCurve;->getB()Ljava/math/BigInteger;
 
     move-result-object p0
 
-    .line 16
     invoke-virtual {v0, v0}, Ljava/math/BigInteger;->multiply(Ljava/math/BigInteger;)Ljava/math/BigInteger;
 
     move-result-object v4
@@ -603,21 +544,18 @@
 
     move-result-object p0
 
-    .line 17
     invoke-virtual {v2}, Ljava/math/BigInteger;->signum()I
 
     move-result v0
 
     if-ne v0, v1, :cond_d
 
-    .line 18
     invoke-virtual {p0, v2}, Ljava/math/BigInteger;->mod(Ljava/math/BigInteger;)Ljava/math/BigInteger;
 
     move-result-object p0
 
     const/4 v0, 0x0
 
-    .line 19
     sget-object v3, Ljava/math/BigInteger;->ZERO:Ljava/math/BigInteger;
 
     invoke-virtual {p0, v3}, Ljava/math/BigInteger;->equals(Ljava/lang/Object;)Z
@@ -630,7 +568,6 @@
 
     goto/16 :goto_5
 
-    .line 20
     :cond_0
     invoke-virtual {v2, v5}, Ljava/math/BigInteger;->testBit(I)Z
 
@@ -646,7 +583,6 @@
 
     if-eqz v3, :cond_1
 
-    .line 21
     sget-object v0, Ljava/math/BigInteger;->ONE:Ljava/math/BigInteger;
 
     invoke-virtual {v2, v0}, Ljava/math/BigInteger;->add(Ljava/math/BigInteger;)Ljava/math/BigInteger;
@@ -657,14 +593,12 @@
 
     move-result-object v0
 
-    .line 22
     invoke-virtual {p0, v0, v2}, Ljava/math/BigInteger;->modPow(Ljava/math/BigInteger;Ljava/math/BigInteger;)Ljava/math/BigInteger;
 
     move-result-object v0
 
     goto/16 :goto_3
 
-    .line 23
     :cond_1
     invoke-virtual {v2, v5}, Ljava/math/BigInteger;->testBit(I)Z
 
@@ -678,10 +612,8 @@
 
     if-nez v3, :cond_9
 
-    .line 24
     sget-object v0, Ljava/math/BigInteger;->ONE:Ljava/math/BigInteger;
 
-    .line 25
     invoke-virtual {v2, v0}, Ljava/math/BigInteger;->subtract(Ljava/math/BigInteger;)Ljava/math/BigInteger;
 
     move-result-object v3
@@ -692,7 +624,6 @@
 
     const/4 v6, 0x0
 
-    .line 26
     :cond_2
     :goto_0
     invoke-virtual {v0, v0}, Ljava/math/BigInteger;->multiply(Ljava/math/BigInteger;)Ljava/math/BigInteger;
@@ -707,7 +638,6 @@
 
     move-result-object v7
 
-    .line 27
     sget-object v8, Ljava/math/BigInteger;->ZERO:Ljava/math/BigInteger;
 
     invoke-virtual {v7, v8}, Ljava/math/BigInteger;->equals(Ljava/lang/Object;)Z
@@ -718,13 +648,11 @@
 
     goto/16 :goto_4
 
-    .line 28
     :cond_3
     invoke-virtual {v7, v3, v2}, Ljava/math/BigInteger;->modPow(Ljava/math/BigInteger;Ljava/math/BigInteger;)Ljava/math/BigInteger;
 
     move-result-object v8
 
-    .line 29
     sget-object v9, Ljava/math/BigInteger;->ONE:Ljava/math/BigInteger;
 
     invoke-virtual {v8, v9}, Ljava/math/BigInteger;->add(Ljava/math/BigInteger;)Ljava/math/BigInteger;
@@ -737,7 +665,6 @@
 
     if-nez v10, :cond_6
 
-    .line 30
     invoke-virtual {v8, v9}, Ljava/math/BigInteger;->equals(Ljava/lang/Object;)Z
 
     move-result v7
@@ -748,7 +675,6 @@
 
     if-eqz v7, :cond_5
 
-    .line 31
     :try_start_1
     invoke-virtual {v0, v9}, Ljava/math/BigInteger;->add(Ljava/math/BigInteger;)Ljava/math/BigInteger;
 
@@ -762,7 +688,6 @@
 
     const/16 v7, 0x50
 
-    .line 32
     invoke-virtual {v2, v7}, Ljava/math/BigInteger;->isProbablePrime(I)Z
 
     move-result v7
@@ -771,7 +696,6 @@
 
     goto :goto_0
 
-    .line 33
     :cond_4
     new-instance p0, Ljava/security/InvalidAlgorithmParameterException;
 
@@ -779,7 +703,6 @@
 
     throw p0
 
-    .line 34
     :cond_5
     new-instance p0, Ljava/security/InvalidAlgorithmParameterException;
 
@@ -787,7 +710,6 @@
 
     throw p0
 
-    .line 35
     :cond_6
     invoke-virtual {v2, v9}, Ljava/math/BigInteger;->add(Ljava/math/BigInteger;)Ljava/math/BigInteger;
 
@@ -797,7 +719,6 @@
 
     move-result-object v3
 
-    .line 36
     invoke-virtual {v3}, Ljava/math/BigInteger;->bitLength()I
 
     move-result v6
@@ -809,12 +730,10 @@
     :goto_1
     if-ltz v6, :cond_8
 
-    .line 37
     invoke-virtual {v4, v9}, Ljava/math/BigInteger;->multiply(Ljava/math/BigInteger;)Ljava/math/BigInteger;
 
     move-result-object v8
 
-    .line 38
     invoke-virtual {v4, v4}, Ljava/math/BigInteger;->multiply(Ljava/math/BigInteger;)Ljava/math/BigInteger;
 
     move-result-object v4
@@ -839,7 +758,6 @@
 
     move-result-object v4
 
-    .line 39
     invoke-virtual {v8, v8}, Ljava/math/BigInteger;->add(Ljava/math/BigInteger;)Ljava/math/BigInteger;
 
     move-result-object v8
@@ -848,14 +766,12 @@
 
     move-result-object v8
 
-    .line 40
     invoke-virtual {v3, v6}, Ljava/math/BigInteger;->testBit(I)Z
 
     move-result v9
 
     if-eqz v9, :cond_7
 
-    .line 41
     invoke-virtual {v4, v0}, Ljava/math/BigInteger;->multiply(Ljava/math/BigInteger;)Ljava/math/BigInteger;
 
     move-result-object v9
@@ -872,7 +788,6 @@
 
     move-result-object v9
 
-    .line 42
     invoke-virtual {v0, v8}, Ljava/math/BigInteger;->multiply(Ljava/math/BigInteger;)Ljava/math/BigInteger;
 
     move-result-object v8
@@ -908,7 +823,6 @@
     :goto_3
     if-eqz v0, :cond_b
 
-    .line 43
     invoke-virtual {v0, v0}, Ljava/math/BigInteger;->multiply(Ljava/math/BigInteger;)Ljava/math/BigInteger;
 
     move-result-object v3
@@ -925,7 +839,6 @@
 
     goto :goto_4
 
-    .line 44
     :cond_a
     new-instance p0, Ljava/security/GeneralSecurityException;
 
@@ -939,7 +852,6 @@
     :goto_4
     move-object v3, v0
 
-    .line 45
     :goto_5
     invoke-virtual {v3, v5}, Ljava/math/BigInteger;->testBit(I)Z
 
@@ -947,7 +859,6 @@
 
     if-eq v1, p0, :cond_c
 
-    .line 46
     invoke-virtual {v2, v3}, Ljava/math/BigInteger;->subtract(Ljava/math/BigInteger;)Ljava/math/BigInteger;
 
     move-result-object p0
@@ -957,7 +868,6 @@
     :cond_c
     return-object p1
 
-    .line 47
     :cond_d
     new-instance p0, Ljava/security/InvalidAlgorithmParameterException;
 
@@ -967,7 +877,6 @@
 
     throw p0
 
-    .line 48
     :cond_e
     new-instance p0, Ljava/security/GeneralSecurityException;
 
@@ -982,7 +891,6 @@
     :catch_0
     move-exception p0
 
-    .line 49
     new-instance p1, Ljava/security/GeneralSecurityException;
 
     invoke-virtual {p0}, Ljava/lang/IllegalStateException;->toString()Ljava/lang/String;

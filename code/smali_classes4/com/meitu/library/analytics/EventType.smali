@@ -51,7 +51,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/meitu/library/analytics/EventType;
 
     const-string v2, "ACTION"
@@ -64,7 +63,6 @@
 
     sput-object v1, Lcom/meitu/library/analytics/EventType;->ACTION:Lcom/meitu/library/analytics/EventType;
 
-    .line 2
     new-instance v2, Lcom/meitu/library/analytics/EventType;
 
     const-string v4, "DEBUG"
@@ -77,7 +75,6 @@
 
     sput-object v2, Lcom/meitu/library/analytics/EventType;->DEBUG:Lcom/meitu/library/analytics/EventType;
 
-    .line 3
     new-instance v4, Lcom/meitu/library/analytics/EventType;
 
     const-string v6, "AUTO"
@@ -90,7 +87,6 @@
 
     sput-object v4, Lcom/meitu/library/analytics/EventType;->AUTO:Lcom/meitu/library/analytics/EventType;
 
-    .line 4
     new-instance v6, Lcom/meitu/library/analytics/EventType;
 
     const-string v8, "IMAGE"
@@ -115,10 +111,8 @@
 
     aput-object v6, v8, v9
 
-    .line 5
     sput-object v8, Lcom/meitu/library/analytics/EventType;->$VALUES:[Lcom/meitu/library/analytics/EventType;
 
-    .line 6
     new-instance v1, Lcom/meitu/library/analytics/EventType$a;
 
     invoke-direct {v1}, Lcom/meitu/library/analytics/EventType$a;-><init>()V
@@ -140,10 +134,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 2
     iput-object p3, p0, Lcom/meitu/library/analytics/EventType;->value:Ljava/lang/String;
 
     return-void
@@ -156,7 +148,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     const-class v1, Lcom/meitu/library/analytics/EventType;
 
     invoke-static {v1, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -177,7 +168,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/meitu/library/analytics/EventType;->$VALUES:[Lcom/meitu/library/analytics/EventType;
 
     invoke-virtual {v1}, [Lcom/meitu/library/analytics/EventType;->clone()Ljava/lang/Object;
@@ -200,7 +190,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const/4 v0, 0x0
@@ -215,7 +204,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/library/analytics/EventType;->value:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -230,14 +218,12 @@
 
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Ljava/lang/Enum;->ordinal()I
 
     move-result v0
 
     invoke-virtual {p1, v0}, Landroid/os/Parcel;->writeInt(I)V
 
-    .line 2
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

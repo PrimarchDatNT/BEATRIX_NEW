@@ -90,21 +90,18 @@
 
     invoke-static {p2, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     iput-object p1, p0, Lkshark/HprofHeapGraph;->d:Lkshark/Hprof;
 
     iput-object p2, p0, Lkshark/HprofHeapGraph;->e:Lkshark/internal/HprofInMemoryIndex;
 
-    .line 2
     new-instance p1, Lkshark/e;
 
     invoke-direct {p1}, Lkshark/e;-><init>()V
 
     iput-object p1, p0, Lkshark/HprofHeapGraph;->a:Lkshark/e;
 
-    .line 3
     new-instance p1, Lkshark/internal/LruCache;
 
     const/16 p2, 0xbb8
@@ -113,7 +110,6 @@
 
     iput-object p1, p0, Lkshark/HprofHeapGraph;->b:Lkshark/internal/LruCache;
 
-    .line 4
     new-instance p1, Ljava/util/LinkedHashMap;
 
     invoke-direct {p1}, Ljava/util/LinkedHashMap;-><init>()V
@@ -126,7 +122,6 @@
 .method public static final synthetic l(Lkshark/HprofHeapGraph;)Lkshark/Hprof;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lkshark/HprofHeapGraph;->d:Lkshark/Hprof;
 
     return-object p0
@@ -135,7 +130,6 @@
 .method public static final synthetic m(Lkshark/HprofHeapGraph;)Lkshark/internal/HprofInMemoryIndex;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lkshark/HprofHeapGraph;->e:Lkshark/internal/HprofInMemoryIndex;
 
     return-object p0
@@ -144,7 +138,6 @@
 .method public static final synthetic n(Lkshark/HprofHeapGraph;Lkshark/internal/d;J)Lkshark/HeapObject;
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1, p2, p3}, Lkshark/HprofHeapGraph;->z(Lkshark/internal/d;J)Lkshark/HeapObject;
 
     move-result-object p0
@@ -165,7 +158,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lkshark/HprofHeapGraph;->b:Lkshark/internal/LruCache;
 
     invoke-static {p1, p2}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
@@ -182,7 +174,6 @@
 
     return-object v0
 
-    .line 2
     :cond_0
     iget-object v0, p0, Lkshark/HprofHeapGraph;->d:Lkshark/Hprof;
 
@@ -192,7 +183,6 @@
 
     invoke-virtual {v0, v1, v2}, Lkshark/Hprof;->f(J)V
 
-    .line 3
     invoke-interface {p4}, Lcotlin/jvm/u/a;->invoke()Ljava/lang/Object;
 
     move-result-object p3
@@ -213,7 +203,6 @@
 .method private final z(Lkshark/internal/d;J)Lkshark/HeapObject;
     .locals 7
 
-    .line 1
     instance-of v0, p1, Lkshark/internal/d$a;
 
     if-eqz v0, :cond_0
@@ -226,13 +215,11 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     instance-of v0, p1, Lkshark/internal/d$b;
 
     if-eqz v0, :cond_1
 
-    .line 3
     iget-object v0, p0, Lkshark/HprofHeapGraph;->e:Lkshark/internal/HprofInMemoryIndex;
 
     invoke-virtual {v0}, Lkshark/internal/HprofInMemoryIndex;->g()Ljava/util/Set;
@@ -255,7 +242,6 @@
 
     move-result v6
 
-    .line 4
     new-instance v0, Lkshark/HeapObject$HeapInstance;
 
     move-object v1, v0
@@ -268,13 +254,11 @@
 
     goto :goto_0
 
-    .line 5
     :cond_1
     instance-of v0, p1, Lkshark/internal/d$c;
 
     if-eqz v0, :cond_2
 
-    .line 6
     iget-object v0, p0, Lkshark/HprofHeapGraph;->e:Lkshark/internal/HprofInMemoryIndex;
 
     invoke-virtual {v0}, Lkshark/internal/HprofInMemoryIndex;->g()Ljava/util/Set;
@@ -297,7 +281,6 @@
 
     move-result v6
 
-    .line 7
     new-instance v0, Lkshark/HeapObject$HeapObjectArray;
 
     move-object v1, v0
@@ -310,7 +293,6 @@
 
     goto :goto_0
 
-    .line 8
     :cond_2
     instance-of v0, p1, Lkshark/internal/d$d;
 
@@ -349,14 +331,12 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lkshark/HprofHeapGraph;->e:Lkshark/internal/HprofInMemoryIndex;
 
     invoke-virtual {v0}, Lkshark/internal/HprofInMemoryIndex;->m()Lcotlin/sequences/m;
 
     move-result-object v0
 
-    .line 2
     new-instance v1, Lkshark/HprofHeapGraph$objects$1;
 
     invoke-direct {v1, p0}, Lkshark/HprofHeapGraph$objects$1;-><init>(Lkshark/HprofHeapGraph;)V
@@ -382,7 +362,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lkshark/HprofHeapGraph;->e:Lkshark/internal/HprofInMemoryIndex;
 
     invoke-virtual {v0}, Lkshark/internal/HprofInMemoryIndex;->n()Lcotlin/sequences/m;
@@ -403,7 +382,6 @@
 .method public c(J)Z
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lkshark/HprofHeapGraph;->e:Lkshark/internal/HprofInMemoryIndex;
 
     invoke-virtual {v0, p1, p2}, Lkshark/internal/HprofInMemoryIndex;->o(J)Z
@@ -426,7 +404,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object v0, p0, Lkshark/HprofHeapGraph;->e:Lkshark/internal/HprofInMemoryIndex;
 
     invoke-virtual {v0, p1}, Lkshark/internal/HprofInMemoryIndex;->c(Ljava/lang/String;)Ljava/lang/Long;
@@ -439,7 +416,6 @@
 
     return-object p1
 
-    .line 2
     :cond_0
     invoke-virtual {p1}, Ljava/lang/Long;->longValue()J
 
@@ -470,7 +446,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     invoke-virtual {p0, p1, p2}, Lkshark/HprofHeapGraph;->k(J)Lkshark/HeapObject;
 
     move-result-object v0
@@ -482,7 +457,6 @@
     :cond_0
     new-instance v0, Ljava/lang/IllegalArgumentException;
 
-    .line 2
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -501,7 +475,6 @@
 
     move-result-object p1
 
-    .line 3
     invoke-direct {v0, p1}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
     throw v0
@@ -521,14 +494,12 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lkshark/HprofHeapGraph;->e:Lkshark/internal/HprofInMemoryIndex;
 
     invoke-virtual {v0}, Lkshark/internal/HprofInMemoryIndex;->j()Lcotlin/sequences/m;
 
     move-result-object v0
 
-    .line 2
     new-instance v1, Lkshark/HprofHeapGraph$instances$1;
 
     invoke-direct {v1, p0}, Lkshark/HprofHeapGraph$instances$1;-><init>(Lkshark/HprofHeapGraph;)V
@@ -554,14 +525,12 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lkshark/HprofHeapGraph;->e:Lkshark/internal/HprofInMemoryIndex;
 
     invoke-virtual {v0}, Lkshark/internal/HprofInMemoryIndex;->i()Lcotlin/sequences/m;
 
     move-result-object v0
 
-    .line 2
     new-instance v1, Lkshark/HprofHeapGraph$classes$1;
 
     invoke-direct {v1, p0}, Lkshark/HprofHeapGraph$classes$1;-><init>(Lkshark/HprofHeapGraph;)V
@@ -578,7 +547,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lkshark/HprofHeapGraph;->a:Lkshark/e;
 
     return-object v0
@@ -598,7 +566,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lkshark/HprofHeapGraph;->e:Lkshark/internal/HprofInMemoryIndex;
 
     invoke-virtual {v0}, Lkshark/internal/HprofInMemoryIndex;->f()Ljava/util/List;
@@ -611,7 +578,6 @@
 .method public i()I
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lkshark/HprofHeapGraph;->d:Lkshark/Hprof;
 
     invoke-virtual {v0}, Lkshark/Hprof;->e()Lkshark/l;
@@ -639,7 +605,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lkshark/HprofHeapGraph;->e:Lkshark/internal/HprofInMemoryIndex;
 
     invoke-virtual {v0}, Lkshark/internal/HprofInMemoryIndex;->k()Lcotlin/sequences/m;
@@ -662,7 +627,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lkshark/HprofHeapGraph;->e:Lkshark/internal/HprofInMemoryIndex;
 
     invoke-virtual {v0, p1, p2}, Lkshark/internal/HprofInMemoryIndex;->l(J)Lkshark/internal/d;
@@ -671,7 +635,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-direct {p0, v0, p1, p2}, Lkshark/HprofHeapGraph;->z(Lkshark/internal/d;J)Lkshark/HeapObject;
 
     move-result-object p1
@@ -689,7 +652,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lkshark/HprofHeapGraph;->e:Lkshark/internal/HprofInMemoryIndex;
 
     invoke-virtual {v0, p1, p2}, Lkshark/internal/HprofInMemoryIndex;->d(J)Ljava/lang/String;
@@ -712,7 +674,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     new-instance v0, Lkshark/internal/c;
 
     invoke-virtual {p0}, Lkshark/HprofHeapGraph;->i()I
@@ -737,7 +698,6 @@
 
     invoke-static {p3, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object v0, p0, Lkshark/HprofHeapGraph;->e:Lkshark/internal/HprofInMemoryIndex;
 
     invoke-virtual {p3}, Lkshark/m$b$c$a$a;->e()J
@@ -766,7 +726,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lkshark/HprofHeapGraph;->c:Ljava/util/Map;
 
     return-object v0
@@ -785,7 +744,6 @@
 
     invoke-static {p3, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object v0, p0, Lkshark/HprofHeapGraph;->c:Ljava/util/Map;
 
     invoke-static {p1, p2}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
@@ -800,7 +758,6 @@
 
     if-nez v0, :cond_0
 
-    .line 2
     new-instance v0, Lkshark/HprofHeapGraph$readClassDumpRecord$1;
 
     invoke-direct {v0, p0}, Lkshark/HprofHeapGraph$readClassDumpRecord$1;-><init>(Lkshark/HprofHeapGraph;)V
@@ -813,7 +770,6 @@
 
     check-cast v0, Lkshark/m$b$c$a;
 
-    .line 3
     iget-object p3, p0, Lkshark/HprofHeapGraph;->c:Ljava/util/Map;
 
     invoke-static {p1, p2}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
@@ -839,7 +795,6 @@
 
     invoke-static {p3, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     new-instance v0, Lkshark/HprofHeapGraph$readInstanceDumpRecord$1;
 
     invoke-direct {v0, p0}, Lkshark/HprofHeapGraph$readInstanceDumpRecord$1;-><init>(Lkshark/HprofHeapGraph;)V
@@ -866,7 +821,6 @@
 
     invoke-static {p3, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     new-instance v0, Lkshark/HprofHeapGraph$readObjectArrayDumpRecord$1;
 
     invoke-direct {v0, p0}, Lkshark/HprofHeapGraph$readObjectArrayDumpRecord$1;-><init>(Lkshark/HprofHeapGraph;)V
@@ -893,7 +847,6 @@
 
     invoke-static {p3, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     new-instance v0, Lkshark/HprofHeapGraph$readPrimitiveArrayDumpRecord$1;
 
     invoke-direct {v0, p0}, Lkshark/HprofHeapGraph$readPrimitiveArrayDumpRecord$1;-><init>(Lkshark/HprofHeapGraph;)V
@@ -927,7 +880,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iput-object p1, p0, Lkshark/HprofHeapGraph;->c:Ljava/util/Map;
 
     return-void
@@ -946,7 +898,6 @@
 
     invoke-static {p3, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object v0, p0, Lkshark/HprofHeapGraph;->e:Lkshark/internal/HprofInMemoryIndex;
 
     invoke-virtual {p3}, Lkshark/m$b$c$a$b;->f()J

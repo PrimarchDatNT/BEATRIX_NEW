@@ -20,7 +20,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -29,7 +28,6 @@
 .method public synthetic constructor <init>(Lcotlin/jvm/internal/u;)V
     .locals 0
 
-    .line 2
     invoke-direct {p0}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/h$a;-><init>()V
 
     return-void
@@ -69,7 +67,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/util/HashSet;
 
     invoke-direct {v1}, Ljava/util/HashSet;-><init>()V
@@ -84,7 +81,6 @@
 
     if-eqz p1, :cond_1
 
-    .line 2
     invoke-virtual {p1}, Landroid/util/SparseArray;->size()I
 
     move-result v6
@@ -96,7 +92,6 @@
     :goto_0
     if-ge v8, v6, :cond_2
 
-    .line 3
     invoke-virtual {p1, v8}, Landroid/util/SparseArray;->valueAt(I)Ljava/lang/Object;
 
     move-result-object v9
@@ -121,7 +116,6 @@
 
     if-eqz v9, :cond_0
 
-    .line 4
     invoke-virtual {p1, v8}, Landroid/util/SparseArray;->valueAt(I)Ljava/lang/Object;
 
     move-result-object v9
@@ -132,10 +126,8 @@
 
     move-result-object v9
 
-    .line 5
     invoke-virtual {v1, v9}, Ljava/util/HashSet;->add(Ljava/lang/Object;)Z
 
-    .line 6
     new-instance v10, Ljava/lang/StringBuilder;
 
     invoke-direct {v10}, Ljava/lang/StringBuilder;-><init>()V
@@ -150,7 +142,6 @@
 
     move-result-object v4
 
-    .line 7
     new-instance v9, Ljava/lang/StringBuilder;
 
     invoke-direct {v9}, Ljava/lang/StringBuilder;-><init>()V
@@ -174,7 +165,6 @@
     :cond_2
     if-eqz p2, :cond_4
 
-    .line 8
     invoke-virtual {p2}, Landroid/util/SparseArray;->size()I
 
     move-result p1
@@ -184,7 +174,6 @@
     :goto_1
     if-ge v6, p1, :cond_4
 
-    .line 9
     invoke-virtual {p2, v6}, Landroid/util/SparseArray;->valueAt(I)Ljava/lang/Object;
 
     move-result-object v8
@@ -209,7 +198,6 @@
 
     if-eqz v8, :cond_3
 
-    .line 10
     invoke-virtual {p2, v6}, Landroid/util/SparseArray;->valueAt(I)Ljava/lang/Object;
 
     move-result-object v8
@@ -220,10 +208,8 @@
 
     move-result-object v8
 
-    .line 11
     invoke-virtual {v1, v8}, Ljava/util/HashSet;->add(Ljava/lang/Object;)Z
 
-    .line 12
     new-instance v9, Ljava/lang/StringBuilder;
 
     invoke-direct {v9}, Ljava/lang/StringBuilder;-><init>()V
@@ -238,7 +224,6 @@
 
     move-result-object v4
 
-    .line 13
     new-instance v8, Ljava/lang/StringBuilder;
 
     invoke-direct {v8}, Ljava/lang/StringBuilder;-><init>()V
@@ -256,7 +241,6 @@
 
     goto :goto_1
 
-    .line 14
     :cond_4
     invoke-static {v4}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
@@ -268,10 +252,8 @@
 
     if-nez p1, :cond_6
 
-    .line 15
     sget-object p1, Lcom/meitu/library/hwanalytics/spm/d;->b:Lcom/meitu/library/hwanalytics/spm/d;
 
-    .line 16
     invoke-virtual {v4}, Ljava/lang/String;->length()I
 
     move-result v3
@@ -288,12 +270,10 @@
 
     const-string v4, "mids_material"
 
-    .line 17
     invoke-virtual {p1, v4, v3}, Lcom/meitu/library/hwanalytics/spm/d;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_2
 
-    .line 18
     :cond_5
     new-instance p1, Ljava/lang/NullPointerException;
 
@@ -303,7 +283,6 @@
 
     throw p1
 
-    .line 19
     :cond_6
     :goto_2
     invoke-static {v7}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
@@ -312,10 +291,8 @@
 
     if-nez p1, :cond_8
 
-    .line 20
     sget-object p1, Lcom/meitu/library/hwanalytics/spm/d;->b:Lcom/meitu/library/hwanalytics/spm/d;
 
-    .line 21
     invoke-virtual {v7}, Ljava/lang/String;->length()I
 
     move-result v3
@@ -332,12 +309,10 @@
 
     const-string v2, "mids_material_tag"
 
-    .line 22
     invoke-virtual {p1, v2, p2}, Lcom/meitu/library/hwanalytics/spm/d;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_3
 
-    .line 23
     :cond_7
     new-instance p1, Ljava/lang/NullPointerException;
 
@@ -347,7 +322,6 @@
 
     throw p1
 
-    .line 24
     :cond_8
     :goto_3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -390,7 +364,6 @@
 
     packed-switch p1, :pswitch_data_0
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v2
@@ -398,7 +371,6 @@
     :pswitch_0
     sget p1, Lcom/res/provider/ResSTRING;->if_new_makeup_highlight:I
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
@@ -406,7 +378,6 @@
     :pswitch_1
     sget p1, Lcom/res/provider/ResSTRING;->if_new_makeup_brush:I
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
@@ -414,7 +385,6 @@
     :pswitch_2
     sget p1, Lcom/res/provider/ResSTRING;->if_new_makeup_eye_lash:I
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
@@ -422,7 +392,6 @@
     :cond_0
     sget p1, Lcom/res/provider/ResSTRING;->if_new_makeup_eye_smiles:I
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
@@ -430,7 +399,6 @@
     :cond_1
     sget p1, Lcom/res/provider/ResSTRING;->if_new_makeup_hair:I
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
@@ -438,7 +406,6 @@
     :cond_2
     sget p1, Lcom/res/provider/ResSTRING;->if_new_makeup_eye_shadow:I
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
@@ -446,12 +413,10 @@
     :cond_3
     sget p1, Lcom/res/provider/ResSTRING;->if_new_makeup_beauty_pupil:I
 
-    .line 8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
 
-    .line 9
     :cond_4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -460,7 +425,6 @@
     :cond_5
     sget p1, Lcom/res/provider/ResSTRING;->if_new_makeup_lipstick:I
 
-    .line 10
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
@@ -561,7 +525,6 @@
     :cond_5
     const-string v2, "\u4e00\u952e\u7f8e\u5986\u6ed1\u7aff\u503c"
 
-    .line 1
     :cond_6
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -662,7 +625,6 @@
     :cond_5
     const-string v2, "\u4e00\u952e\u7f8e\u5986\u7d20\u6750ID"
 
-    .line 1
     :cond_6
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -763,7 +725,6 @@
     :cond_5
     const-string v2, "\u4e00\u952e\u7f8e\u5986"
 
-    .line 1
     :cond_6
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -793,7 +754,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-virtual {p1}, Ljava/lang/String;->hashCode()I
 
     move-result v1
@@ -807,7 +767,6 @@
     :pswitch_0
     const-string v1, "9"
 
-    .line 2
     invoke-virtual {p1, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p1
@@ -823,7 +782,6 @@
     :pswitch_1
     const-string v1, "8"
 
-    .line 3
     invoke-virtual {p1, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p1
@@ -839,7 +797,6 @@
     :pswitch_2
     const-string v1, "7"
 
-    .line 4
     invoke-virtual {p1, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p1
@@ -855,7 +812,6 @@
     :pswitch_3
     const-string v1, "6"
 
-    .line 5
     invoke-virtual {p1, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p1
@@ -871,7 +827,6 @@
     :pswitch_4
     const-string v1, "5"
 
-    .line 6
     invoke-virtual {p1, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p1
@@ -887,7 +842,6 @@
     :pswitch_5
     const-string v1, "4"
 
-    .line 7
     invoke-virtual {p1, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p1
@@ -903,7 +857,6 @@
     :pswitch_6
     const-string v1, "3"
 
-    .line 8
     invoke-virtual {p1, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p1
@@ -919,7 +872,6 @@
     :pswitch_7
     const-string v1, "2"
 
-    .line 9
     invoke-virtual {p1, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p1
@@ -935,7 +887,6 @@
     :pswitch_8
     const-string v1, "1"
 
-    .line 10
     invoke-virtual {p1, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p1
@@ -946,7 +897,6 @@
 
     return v2
 
-    .line 11
     :cond_0
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1004,7 +954,6 @@
 
     packed-switch p1, :pswitch_data_0
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v2
@@ -1012,7 +961,6 @@
     :pswitch_0
     sget p1, Lcom/res/provider/ResSTRING;->makeup_type_trimming:I
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
@@ -1020,7 +968,6 @@
     :pswitch_1
     sget p1, Lcom/res/provider/ResSTRING;->blush:I
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
@@ -1028,7 +975,6 @@
     :pswitch_2
     sget p1, Lcom/res/provider/ResSTRING;->makeup_type_eye_lash:I
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
@@ -1036,7 +982,6 @@
     :cond_0
     sget p1, Lcom/res/provider/ResSTRING;->t_edit_makeup_eyesmiles:I
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
@@ -1044,7 +989,6 @@
     :cond_1
     sget p1, Lcom/res/provider/ResSTRING;->hair_dye:I
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
@@ -1052,7 +996,6 @@
     :cond_2
     sget p1, Lcom/res/provider/ResSTRING;->eye_shadow:I
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
@@ -1060,12 +1003,10 @@
     :cond_3
     sget p1, Lcom/res/provider/ResSTRING;->makeup_type_beauty_pupil:I
 
-    .line 8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
 
-    .line 9
     :cond_4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1074,7 +1015,6 @@
     :cond_5
     sget p1, Lcom/res/provider/ResSTRING;->lip_stick:I
 
-    .line 10
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
@@ -1124,14 +1064,12 @@
 
     packed-switch p1, :pswitch_data_0
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const-string p1, "0"
 
     return-object p1
 
-    .line 2
     :pswitch_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1139,7 +1077,6 @@
 
     return-object p1
 
-    .line 3
     :pswitch_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1147,7 +1084,6 @@
 
     return-object p1
 
-    .line 4
     :pswitch_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1155,7 +1091,6 @@
 
     return-object p1
 
-    .line 5
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1163,7 +1098,6 @@
 
     return-object p1
 
-    .line 6
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1171,7 +1105,6 @@
 
     return-object p1
 
-    .line 7
     :cond_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1179,7 +1112,6 @@
 
     return-object p1
 
-    .line 8
     :cond_3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1187,7 +1119,6 @@
 
     return-object p1
 
-    .line 9
     :cond_4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1195,7 +1126,6 @@
 
     return-object p1
 
-    .line 10
     :cond_5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1228,7 +1158,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-virtual {p1}, Lcom/commsource/repository/child/makeup/h;->J()Z
 
     move-result v1
@@ -1237,14 +1166,12 @@
 
     if-eqz v1, :cond_2
 
-    .line 2
     invoke-virtual {p1}, Lcom/commsource/repository/child/makeup/h;->P()Z
 
     move-result v1
 
     if-eqz v1, :cond_1
 
-    .line 3
     invoke-virtual {p1}, Lcom/commsource/repository/child/makeup/h;->A()Ljava/lang/String;
 
     move-result-object v1
@@ -1255,7 +1182,6 @@
 
     if-nez v1, :cond_0
 
-    .line 4
     invoke-virtual {p1}, Lcom/commsource/repository/child/makeup/h;->A()Ljava/lang/String;
 
     move-result-object p1
@@ -1264,7 +1190,6 @@
 
     return-object p1
 
-    .line 5
     :cond_0
     new-instance v1, Ljava/lang/StringBuilder;
 
@@ -1294,7 +1219,6 @@
 
     return-object p1
 
-    .line 6
     :cond_1
     invoke-virtual {p1}, Lcom/commsource/repository/child/makeup/h;->A()Ljava/lang/String;
 
@@ -1304,7 +1228,6 @@
 
     return-object p1
 
-    .line 7
     :cond_2
     invoke-virtual {p1}, Lcom/commsource/repository/child/makeup/h;->P()Z
 
@@ -1312,7 +1235,6 @@
 
     if-eqz v1, :cond_4
 
-    .line 8
     invoke-virtual {p1}, Lcom/commsource/repository/child/makeup/h;->A()Ljava/lang/String;
 
     move-result-object v1
@@ -1323,7 +1245,6 @@
 
     if-nez v1, :cond_3
 
-    .line 9
     invoke-virtual {p1}, Lcom/commsource/repository/child/makeup/h;->A()Ljava/lang/String;
 
     move-result-object p1
@@ -1332,7 +1253,6 @@
 
     return-object p1
 
-    .line 10
     :cond_3
     new-instance v1, Ljava/lang/StringBuilder;
 
@@ -1370,7 +1290,6 @@
 
     return-object p1
 
-    .line 11
     :cond_4
     invoke-virtual {p1}, Lcom/commsource/repository/child/makeup/h;->A()Ljava/lang/String;
 
@@ -1398,7 +1317,6 @@
 
     const/4 p1, 0x0
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
@@ -1406,7 +1324,6 @@
     :cond_0
     const/4 p1, 0x1
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
@@ -1427,7 +1344,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-virtual {p1}, Ljava/lang/String;->hashCode()I
 
     move-result v1
@@ -1439,7 +1355,6 @@
     :pswitch_0
     const-string v1, "9"
 
-    .line 2
     invoke-virtual {p1, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p1
@@ -1545,7 +1460,6 @@
     :goto_1
     const/4 p1, 0x0
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
@@ -1579,7 +1493,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const/4 p1, 0x0
@@ -1600,33 +1513,27 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     :try_start_0
     invoke-static {p1}, Landroid/graphics/Color;->parseColor(Ljava/lang/String;)I
 
     move-result p1
 
-    .line 2
     invoke-static {p1}, Landroid/graphics/Color;->red(I)I
 
     move-result v1
 
-    .line 3
     invoke-static {p1}, Landroid/graphics/Color;->green(I)I
 
     move-result v2
 
-    .line 4
     invoke-static {p1}, Landroid/graphics/Color;->blue(I)I
 
     move-result v3
 
-    .line 5
     invoke-static {p1}, Landroid/graphics/Color;->alpha(I)I
 
     move-result p1
 
-    .line 6
     new-instance v4, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/a;
 
     invoke-direct {v4, v1, v2, v3, p1}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/a;-><init>(IIII)V
@@ -1637,7 +1544,6 @@
 
     return-object v4
 
-    .line 7
     :catchall_0
     new-instance p1, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/a;
 

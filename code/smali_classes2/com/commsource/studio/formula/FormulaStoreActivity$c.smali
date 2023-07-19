@@ -67,7 +67,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/formula/FormulaStoreActivity$c;->a:Lcom/commsource/studio/formula/FormulaStoreActivity;
 
     invoke-static {v1}, Lcom/commsource/studio/formula/FormulaStoreActivity;->P0(Lcom/commsource/studio/formula/FormulaStoreActivity;)Lcom/commsource/widget/h1/e;
@@ -78,14 +77,12 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/widget/h1/e;->E(Ljava/lang/Object;)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/formula/FormulaStoreActivity$c;->a:Lcom/commsource/studio/formula/FormulaStoreActivity;
 
     invoke-static {v1}, Lcom/commsource/studio/formula/FormulaStoreActivity;->P0(Lcom/commsource/studio/formula/FormulaStoreActivity;)Lcom/commsource/widget/h1/e;
 
     move-result-object v1
 
-    .line 3
     invoke-static {}, Lcom/commsource/widget/h1/c;->j()Lcom/commsource/widget/h1/c;
 
     move-result-object v2
@@ -96,17 +93,14 @@
 
     move-result-object v2
 
-    .line 4
     invoke-virtual {v2}, Lcom/commsource/widget/h1/c;->i()Ljava/util/List;
 
     move-result-object v2
 
     const/4 v3, 0x0
 
-    .line 5
     invoke-virtual {v1, v2, v3}, Lcom/commsource/widget/h1/e;->R(Ljava/util/List;Z)V
 
-    .line 6
     iget-object v1, p0, Lcom/commsource/studio/formula/FormulaStoreActivity$c;->a:Lcom/commsource/studio/formula/FormulaStoreActivity;
 
     invoke-static {v1}, Lcom/commsource/studio/formula/FormulaStoreActivity;->Q0(Lcom/commsource/studio/formula/FormulaStoreActivity;)Lcom/commsource/beautyplus/f0/e0;
@@ -127,7 +121,6 @@
 
     invoke-virtual {v1, v2}, Landroidx/viewpager2/widget/ViewPager2;->setAdapter(Landroidx/recyclerview/widget/RecyclerView$Adapter;)V
 
-    .line 7
     iget-object p1, p0, Lcom/commsource/studio/formula/FormulaStoreActivity$c;->a:Lcom/commsource/studio/formula/FormulaStoreActivity;
 
     invoke-static {p1}, Lcom/commsource/studio/formula/FormulaStoreActivity;->P0(Lcom/commsource/studio/formula/FormulaStoreActivity;)Lcom/commsource/widget/h1/e;
@@ -136,7 +129,6 @@
 
     invoke-virtual {p1, v3}, Lcom/commsource/widget/h1/e;->G(I)V
 
-    .line 8
     iget-object p1, p0, Lcom/commsource/studio/formula/FormulaStoreActivity$c;->a:Lcom/commsource/studio/formula/FormulaStoreActivity;
 
     invoke-static {p1}, Lcom/commsource/studio/formula/FormulaStoreActivity;->Q0(Lcom/commsource/studio/formula/FormulaStoreActivity;)Lcom/commsource/beautyplus/f0/e0;
@@ -147,7 +139,6 @@
 
     invoke-virtual {p1, v3, v3}, Landroidx/viewpager2/widget/ViewPager2;->setCurrentItem(IZ)V
 
-    .line 9
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -161,7 +152,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Ljava/util/List;
 
     invoke-virtual {p0, p1}, Lcom/commsource/studio/formula/FormulaStoreActivity$c;->a(Ljava/util/List;)V

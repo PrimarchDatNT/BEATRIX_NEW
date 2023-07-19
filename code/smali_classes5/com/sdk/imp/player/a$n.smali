@@ -43,26 +43,22 @@
 .method public constructor <init>(Lcom/sdk/imp/player/a;)V
     .locals 2
 
-    .line 1
     iput-object p1, p0, Lcom/sdk/imp/player/a$n;->g:Lcom/sdk/imp/player/a;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     new-instance v0, Lcom/sdk/imp/player/a$n$a;
 
     invoke-direct {v0, p0}, Lcom/sdk/imp/player/a$n$a;-><init>(Lcom/sdk/imp/player/a$n;)V
 
     iput-object v0, p0, Lcom/sdk/imp/player/a$n;->f:Ljava/lang/Runnable;
 
-    .line 3
     new-instance v0, Ljava/util/HashMap;
 
     invoke-direct {v0}, Ljava/util/HashMap;-><init>()V
 
     iput-object v0, p0, Lcom/sdk/imp/player/a$n;->a:Ljava/util/HashMap;
 
-    .line 4
     new-instance v0, Lcom/sdk/imp/player/a$p;
 
     const/4 v1, 0x0
@@ -73,10 +69,8 @@
 
     const/4 p1, 0x0
 
-    .line 5
     iput p1, p0, Lcom/sdk/imp/player/a$n;->c:I
 
-    .line 6
     iput p1, p0, Lcom/sdk/imp/player/a$n;->d:I
 
     return-void
@@ -85,7 +79,6 @@
 .method static synthetic a(Lcom/sdk/imp/player/a$n;)I
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/sdk/imp/player/a$n;->p()I
 
     move-result p0
@@ -96,7 +89,6 @@
 .method static synthetic b(Lcom/sdk/imp/player/a$n;I)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/sdk/imp/player/a$n;->r(I)V
 
     return-void
@@ -105,7 +97,6 @@
 .method static synthetic c(Lcom/sdk/imp/player/a$n;I)I
     .locals 0
 
-    .line 1
     iput p1, p0, Lcom/sdk/imp/player/a$n;->d:I
 
     return p1
@@ -114,7 +105,6 @@
 .method static synthetic d(Lcom/sdk/imp/player/a$n;)Landroid/view/Surface;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lcom/sdk/imp/player/a$n;->e:Landroid/view/Surface;
 
     return-object p0
@@ -123,7 +113,6 @@
 .method static synthetic e(Lcom/sdk/imp/player/a$n;Landroid/view/Surface;)Landroid/view/Surface;
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/sdk/imp/player/a$n;->e:Landroid/view/Surface;
 
     return-object p1
@@ -132,7 +121,6 @@
 .method static synthetic f(Lcom/sdk/imp/player/a$n;I)Lcom/sdk/imp/player/a$l;
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/sdk/imp/player/a$n;->n(I)Lcom/sdk/imp/player/a$l;
 
     move-result-object p0
@@ -143,7 +131,6 @@
 .method static synthetic g(Lcom/sdk/imp/player/a$n;I)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/sdk/imp/player/a$n;->t(I)V
 
     return-void
@@ -152,7 +139,6 @@
 .method static synthetic h(Lcom/sdk/imp/player/a$n;)I
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/sdk/imp/player/a$n;->m()I
 
     move-result p0
@@ -163,7 +149,6 @@
 .method static synthetic i(Lcom/sdk/imp/player/a$n;)I
     .locals 0
 
-    .line 1
     iget p0, p0, Lcom/sdk/imp/player/a$n;->c:I
 
     return p0
@@ -172,7 +157,6 @@
 .method static synthetic j(Lcom/sdk/imp/player/a$n;I)I
     .locals 0
 
-    .line 1
     iput p1, p0, Lcom/sdk/imp/player/a$n;->c:I
 
     return p1
@@ -181,7 +165,6 @@
 .method static synthetic k(Lcom/sdk/imp/player/a$n;)Lcom/sdk/imp/player/a$p;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lcom/sdk/imp/player/a$n;->b:Lcom/sdk/imp/player/a$p;
 
     return-object p0
@@ -190,7 +173,6 @@
 .method private m()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lcom/sdk/imp/player/a$n;->c:I
 
     return v0
@@ -199,7 +181,6 @@
 .method private n(I)Lcom/sdk/imp/player/a$l;
     .locals 3
 
-    .line 1
     iget-object v0, p0, Lcom/sdk/imp/player/a$n;->a:Ljava/util/HashMap;
 
     invoke-static {p1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -212,7 +193,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 2
     iget-object v0, p0, Lcom/sdk/imp/player/a$n;->a:Ljava/util/HashMap;
 
     invoke-static {p1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -236,7 +216,6 @@
 
     goto :goto_0
 
-    .line 3
     :pswitch_0
     new-instance v1, Lcom/sdk/imp/player/a$c;
 
@@ -246,7 +225,6 @@
 
     goto :goto_0
 
-    .line 4
     :pswitch_1
     new-instance v1, Lcom/sdk/imp/player/a$j;
 
@@ -256,7 +234,6 @@
 
     goto :goto_0
 
-    .line 5
     :pswitch_2
     new-instance v1, Lcom/sdk/imp/player/a$o;
 
@@ -266,7 +243,6 @@
 
     goto :goto_0
 
-    .line 6
     :pswitch_3
     new-instance v1, Lcom/sdk/imp/player/a$g;
 
@@ -276,7 +252,6 @@
 
     goto :goto_0
 
-    .line 7
     :pswitch_4
     new-instance v1, Lcom/sdk/imp/player/a$f;
 
@@ -286,7 +261,6 @@
 
     goto :goto_0
 
-    .line 8
     :pswitch_5
     new-instance v1, Lcom/sdk/imp/player/a$k;
 
@@ -296,7 +270,6 @@
 
     goto :goto_0
 
-    .line 9
     :pswitch_6
     new-instance v1, Lcom/sdk/imp/player/a$h;
 
@@ -306,7 +279,6 @@
 
     goto :goto_0
 
-    .line 10
     :pswitch_7
     new-instance v1, Lcom/sdk/imp/player/a$e;
 
@@ -316,7 +288,6 @@
 
     goto :goto_0
 
-    .line 11
     :pswitch_8
     new-instance v1, Lcom/sdk/imp/player/a$d;
 
@@ -327,7 +298,6 @@
     :goto_0
     if-eqz v1, :cond_1
 
-    .line 12
     iget-object v0, p0, Lcom/sdk/imp/player/a$n;->a:Ljava/util/HashMap;
 
     invoke-static {p1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -361,7 +331,6 @@
 .method private p()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lcom/sdk/imp/player/a$n;->d:I
 
     return v0
@@ -370,7 +339,6 @@
 .method private r(I)V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/sdk/imp/player/a$n;->b:Lcom/sdk/imp/player/a$p;
 
     new-instance v1, Lcom/sdk/imp/player/a$n$e;
@@ -385,7 +353,6 @@
 .method private t(I)V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/sdk/imp/player/a$n;->b:Lcom/sdk/imp/player/a$p;
 
     new-instance v1, Lcom/sdk/imp/player/a$n$b;
@@ -402,7 +369,6 @@
 .method public l()V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/sdk/imp/player/a$n;->b:Lcom/sdk/imp/player/a$p;
 
     new-instance v1, Lcom/sdk/imp/player/a$n$f;
@@ -417,7 +383,6 @@
 .method public o()Landroid/view/Surface;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/sdk/imp/player/a$n;->e:Landroid/view/Surface;
 
     return-object v0
@@ -428,7 +393,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     iget-object p1, p0, Lcom/sdk/imp/player/a$n;->b:Lcom/sdk/imp/player/a$p;
 
     iget-object v0, p0, Lcom/sdk/imp/player/a$n;->f:Ljava/lang/Runnable;
@@ -437,7 +401,6 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     iget-object p1, p0, Lcom/sdk/imp/player/a$n;->b:Lcom/sdk/imp/player/a$p;
 
@@ -452,25 +415,21 @@
 .method public s()V
     .locals 3
 
-    .line 1
     iget-object v0, p0, Lcom/sdk/imp/player/a$n;->e:Landroid/view/Surface;
 
     if-eqz v0, :cond_1
 
-    .line 2
     sget v1, Landroid/os/Build$VERSION;->SDK_INT:I
 
     const/16 v2, 0xe
 
     if-lt v1, v2, :cond_0
 
-    .line 3
     invoke-virtual {v0}, Landroid/view/Surface;->release()V
 
     :cond_0
     const/4 v0, 0x0
 
-    .line 4
     iput-object v0, p0, Lcom/sdk/imp/player/a$n;->e:Landroid/view/Surface;
 
     :cond_1
@@ -480,7 +439,6 @@
 .method public u(Landroid/view/Surface;)V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/sdk/imp/player/a$n;->b:Lcom/sdk/imp/player/a$p;
 
     new-instance v1, Lcom/sdk/imp/player/a$n$d;
@@ -495,7 +453,6 @@
 .method public v(I)V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/sdk/imp/player/a$n;->b:Lcom/sdk/imp/player/a$p;
 
     new-instance v1, Lcom/sdk/imp/player/a$n$c;

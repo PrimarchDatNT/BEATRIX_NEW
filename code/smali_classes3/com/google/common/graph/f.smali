@@ -43,10 +43,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     invoke-static {p1}, Lcom/google/common/base/t;->E(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -70,7 +68,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-interface {p0}, Lcom/google/common/graph/g0;->c()Ljava/util/Set;
 
     move-result-object v0
@@ -88,7 +85,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-interface {p0}, Lcom/google/common/graph/g0;->c()Ljava/util/Set;
 
     move-result-object v0
@@ -106,7 +102,6 @@
 
     if-nez p2, :cond_0
 
-    .line 1
     invoke-virtual {p0, p1}, Lcom/google/common/graph/f;->j(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -127,7 +122,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/graph/f;->a:Ljava/util/Map;
 
     invoke-interface {v0, p1, p2}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
@@ -143,7 +137,6 @@
     :cond_0
     const/4 p1, 0x0
 
-    .line 2
     :goto_0
     invoke-static {p1}, Lcom/google/common/base/t;->g0(Z)V
 
@@ -160,7 +153,6 @@
 
     if-nez p3, :cond_0
 
-    .line 1
     invoke-virtual {p0, p1, p2}, Lcom/google/common/graph/f;->e(Ljava/lang/Object;Ljava/lang/Object;)V
 
     :cond_0
@@ -177,7 +169,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/graph/f;->a:Ljava/util/Map;
 
     invoke-interface {v0}, Ljava/util/Map;->keySet()Ljava/util/Set;
@@ -199,7 +190,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/graph/f;->a:Ljava/util/Map;
 
     invoke-interface {v0, p1}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
@@ -223,7 +213,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/graph/f;->g()Ljava/util/Set;
 
     move-result-object v0
@@ -239,14 +228,12 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/graph/f;->a:Ljava/util/Map;
 
     invoke-interface {v0, p1}, Ljava/util/Map;->remove(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
 
-    .line 2
     invoke-static {p1}, Lcom/google/common/base/t;->E(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -264,7 +251,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/graph/f;->g()Ljava/util/Set;
 
     move-result-object v0

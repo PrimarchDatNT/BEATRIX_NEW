@@ -27,20 +27,16 @@
 .method public constructor <init>(IILjava/lang/String;Landroid/content/Context;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput p1, p0, Lcom/meitu/media/tools/editor/c;->a:I
 
     iput p1, p0, Lcom/meitu/media/tools/editor/c;->d:I
 
-    .line 3
     iput p2, p0, Lcom/meitu/media/tools/editor/c;->b:I
 
     iput p2, p0, Lcom/meitu/media/tools/editor/c;->e:I
 
-    .line 4
     iput-object p3, p0, Lcom/meitu/media/tools/editor/c;->c:Ljava/lang/String;
 
     return-void
@@ -55,7 +51,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -68,22 +63,18 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/media/tools/editor/c;->f:Ljava/nio/ByteBuffer;
 
     invoke-virtual {v1}, Ljava/nio/ByteBuffer;->clear()Ljava/nio/Buffer;
 
-    .line 2
     iget-object v1, p0, Lcom/meitu/media/tools/editor/c;->g:Ljava/nio/ByteBuffer;
 
     invoke-virtual {v1}, Ljava/nio/ByteBuffer;->clear()Ljava/nio/Buffer;
 
     const/4 v1, 0x0
 
-    .line 3
     iput-object v1, p0, Lcom/meitu/media/tools/editor/c;->h:Ljava/nio/ByteBuffer;
 
-    .line 4
     iget v2, p0, Lcom/meitu/media/tools/editor/c;->i:I
 
     const/16 v3, 0x27
@@ -102,7 +93,6 @@
 
     goto :goto_0
 
-    .line 5
     :pswitch_0
     iget-object v2, p0, Lcom/meitu/media/tools/editor/c;->f:Ljava/nio/ByteBuffer;
 
@@ -118,20 +108,17 @@
 
     if-eqz v2, :cond_0
 
-    .line 6
     iget-object v1, p0, Lcom/meitu/media/tools/editor/c;->g:Ljava/nio/ByteBuffer;
 
     iput-object v1, p0, Lcom/meitu/media/tools/editor/c;->h:Ljava/nio/ByteBuffer;
 
     goto :goto_0
 
-    .line 7
     :cond_0
     iput-object v1, p0, Lcom/meitu/media/tools/editor/c;->h:Ljava/nio/ByteBuffer;
 
     goto :goto_0
 
-    .line 8
     :pswitch_1
     new-instance v1, Ljava/lang/IllegalStateException;
 
@@ -160,14 +147,12 @@
     :pswitch_2
     const/4 v2, 0x1
 
-    .line 9
     iget-object v1, p0, Lcom/meitu/media/tools/editor/c;->f:Ljava/nio/ByteBuffer;
 
     iput-object v1, p0, Lcom/meitu/media/tools/editor/c;->h:Ljava/nio/ByteBuffer;
 
     goto :goto_0
 
-    .line 10
     :cond_1
     iget-object v2, p0, Lcom/meitu/media/tools/editor/c;->f:Ljava/nio/ByteBuffer;
 
@@ -183,20 +168,17 @@
 
     if-eqz v2, :cond_2
 
-    .line 11
     iget-object v1, p0, Lcom/meitu/media/tools/editor/c;->g:Ljava/nio/ByteBuffer;
 
     iput-object v1, p0, Lcom/meitu/media/tools/editor/c;->h:Ljava/nio/ByteBuffer;
 
     goto :goto_0
 
-    .line 12
     :cond_2
     iput-object v1, p0, Lcom/meitu/media/tools/editor/c;->h:Ljava/nio/ByteBuffer;
 
     goto :goto_0
 
-    .line 13
     :cond_3
     iget-object v2, p0, Lcom/meitu/media/tools/editor/c;->f:Ljava/nio/ByteBuffer;
 
@@ -212,14 +194,12 @@
 
     if-eqz v2, :cond_4
 
-    .line 14
     iget-object v1, p0, Lcom/meitu/media/tools/editor/c;->g:Ljava/nio/ByteBuffer;
 
     iput-object v1, p0, Lcom/meitu/media/tools/editor/c;->h:Ljava/nio/ByteBuffer;
 
     goto :goto_0
 
-    .line 15
     :cond_4
     iput-object v1, p0, Lcom/meitu/media/tools/editor/c;->h:Ljava/nio/ByteBuffer;
 
@@ -231,7 +211,6 @@
     :cond_5
     const/4 v4, -0x1
 
-    .line 16
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -254,7 +233,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const/4 v0, -0x1
@@ -269,7 +247,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const/4 v0, -0x1
@@ -284,7 +261,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/media/tools/editor/c;->h:Ljava/nio/ByteBuffer;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -299,7 +275,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const/4 p1, -0x1
@@ -314,7 +289,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -327,7 +301,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const/4 p1, 0x0
@@ -342,10 +315,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/meitu/media/tools/editor/c;->i:I
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -358,7 +329,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const/4 v0, 0x0
@@ -373,7 +343,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

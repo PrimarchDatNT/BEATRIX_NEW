@@ -11,10 +11,8 @@
 .method protected constructor <init>(J)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-wide p1, p0, Lcom/meitu/mtmvcore/application/media/MTVFXView;->a:J
 
     return-void
@@ -27,7 +25,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p0, p1}, Lcom/meitu/mtmvcore/application/media/MTVFXView;->nativeCreate(FF)J
 
     move-result-wide p0
@@ -42,7 +39,6 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     new-instance v1, Lcom/meitu/mtmvcore/application/media/MTVFXView;
 
@@ -63,7 +59,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p0, p1, p2, p3}, Lcom/meitu/mtmvcore/application/media/MTVFXView;->nativeCreate(FFLjava/lang/String;Ljava/lang/String;)J
 
     move-result-wide p0
@@ -78,7 +73,6 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     new-instance p2, Lcom/meitu/mtmvcore/application/media/MTVFXView;
 
@@ -107,7 +101,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/mtmvcore/application/media/MTVFXView;->a:J
 
     invoke-virtual {p0, v1, v2}, Lcom/meitu/mtmvcore/application/media/MTVFXView;->nativeIsEnableSize(J)Z
@@ -126,12 +119,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/mtmvcore/application/media/MTVFXView;->a:J
 
     invoke-virtual {p0, v1, v2}, Lcom/meitu/mtmvcore/application/media/MTVFXView;->nativePauseRender(J)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -144,17 +135,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/mtmvcore/application/media/MTVFXView;->a:J
 
     invoke-virtual {p0, v1, v2}, Lcom/meitu/mtmvcore/application/media/MTVFXView;->nativeRelease(J)V
 
     const-wide/16 v1, 0x0
 
-    .line 2
     iput-wide v1, p0, Lcom/meitu/mtmvcore/application/media/MTVFXView;->a:J
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -167,12 +155,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/mtmvcore/application/media/MTVFXView;->a:J
 
     invoke-virtual {p0, v1, v2}, Lcom/meitu/mtmvcore/application/media/MTVFXView;->nativeResumeRender(J)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -185,7 +171,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/mtmvcore/application/media/MTVFXView;->a:J
 
     invoke-virtual {p0, v1, v2, p1, p2}, Lcom/meitu/mtmvcore/application/media/MTVFXView;->nativeSetConfigs(JLjava/lang/String;Ljava/lang/String;)Z
@@ -204,12 +189,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/mtmvcore/application/media/MTVFXView;->a:J
 
     invoke-virtual {p0, v1, v2, p1, p2}, Lcom/meitu/mtmvcore/application/media/MTVFXView;->nativeSetContentColor(JII)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -222,12 +205,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/mtmvcore/application/media/MTVFXView;->a:J
 
     invoke-virtual {p0, v1, v2, p1}, Lcom/meitu/mtmvcore/application/media/MTVFXView;->nativeSetContentRotation(JF)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -240,12 +221,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/mtmvcore/application/media/MTVFXView;->a:J
 
     invoke-virtual {p0, v1, v2, p1}, Lcom/meitu/mtmvcore/application/media/MTVFXView;->nativeSetContentSize(JF)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -258,12 +237,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/mtmvcore/application/media/MTVFXView;->a:J
 
     invoke-virtual {p0, v1, v2, p1}, Lcom/meitu/mtmvcore/application/media/MTVFXView;->nativeSetContentSpeed(JF)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -276,14 +253,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/mtmvcore/application/media/MTVFXView;->a:J
 
     long-to-float p1, p1
 
     invoke-virtual {p0, v1, v2, p1}, Lcom/meitu/mtmvcore/application/media/MTVFXView;->nativeSetDuration(JF)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -296,12 +271,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/mtmvcore/application/media/MTVFXView;->a:J
 
     invoke-virtual {p0, v1, v2, p1, p2}, Lcom/meitu/mtmvcore/application/media/MTVFXView;->nativeSetTouchEndTime(JJ)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -314,12 +287,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/mtmvcore/application/media/MTVFXView;->a:J
 
     invoke-virtual {p0, v1, v2, p1, p2}, Lcom/meitu/mtmvcore/application/media/MTVFXView;->nativeSetTouchStartTime(JJ)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -332,12 +303,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/mtmvcore/application/media/MTVFXView;->a:J
 
     invoke-virtual {p0, v1, v2, p0, p1}, Lcom/meitu/mtmvcore/application/media/MTVFXView;->nativeSetTouchCallback(JLcom/meitu/mtmvcore/application/media/MTVFXView;Lcom/meitu/mtmvcore/application/media/MTTouchInterface;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -350,12 +319,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/mtmvcore/application/media/MTVFXView;->a:J
 
     invoke-virtual {p0, v1, v2, p1}, Lcom/meitu/mtmvcore/application/media/MTVFXView;->nativeSetUpdateMode(JI)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -368,12 +335,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/mtmvcore/application/media/MTVFXView;->a:J
 
     invoke-virtual {p0, v1, v2}, Lcom/meitu/mtmvcore/application/media/MTVFXView;->nativeShow(J)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -386,12 +351,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/mtmvcore/application/media/MTVFXView;->a:J
 
     invoke-virtual {p0, v1, v2}, Lcom/meitu/mtmvcore/application/media/MTVFXView;->nativeStartRender(J)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -404,12 +367,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/mtmvcore/application/media/MTVFXView;->a:J
 
     invoke-virtual {p0, v1, v2}, Lcom/meitu/mtmvcore/application/media/MTVFXView;->nativeStopRender(J)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -422,12 +383,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/mtmvcore/application/media/MTVFXView;->a:J
 
     invoke-virtual {p0, v1, v2, p1, p2}, Lcom/meitu/mtmvcore/application/media/MTVFXView;->nativeTouchBy(JFF)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -440,12 +399,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/mtmvcore/application/media/MTVFXView;->a:J
 
     invoke-virtual {p0, v1, v2, p1, p2}, Lcom/meitu/mtmvcore/application/media/MTVFXView;->nativeTouchTo(JFF)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -458,7 +415,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v2, p0, Lcom/meitu/mtmvcore/application/media/MTVFXView;->a:J
 
     invoke-virtual {p1}, Lcom/meitu/media/mtmvcore/MTMVTimeLine;->getNativeTimeLine()J
@@ -471,7 +427,6 @@
 
     invoke-virtual/range {v1 .. v6}, Lcom/meitu/mtmvcore/application/media/MTVFXView;->nativeAddToTimeLine(JJLcom/meitu/media/mtmvcore/MTMVTimeLine;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -484,12 +439,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/mtmvcore/application/media/MTVFXView;->a:J
 
     invoke-virtual {p0, v1, v2}, Lcom/meitu/mtmvcore/application/media/MTVFXView;->nativeDisableRecordAction(J)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -502,7 +455,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/mtmvcore/application/media/MTVFXView;->a:J
 
     invoke-virtual {p0, v1, v2}, Lcom/meitu/mtmvcore/application/media/MTVFXView;->nativeDisableRender(J)V
@@ -519,12 +471,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/mtmvcore/application/media/MTVFXView;->a:J
 
     invoke-virtual {p0, v1, v2}, Lcom/meitu/mtmvcore/application/media/MTVFXView;->nativeDisableTail(J)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -537,12 +487,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/mtmvcore/application/media/MTVFXView;->a:J
 
     invoke-virtual {p0, v1, v2}, Lcom/meitu/mtmvcore/application/media/MTVFXView;->nativeDisableTouchEvent(J)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -555,12 +503,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/mtmvcore/application/media/MTVFXView;->a:J
 
     invoke-virtual {p0, v1, v2}, Lcom/meitu/mtmvcore/application/media/MTVFXView;->nativeEnableRecordAction(J)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -573,7 +519,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/mtmvcore/application/media/MTVFXView;->a:J
 
     invoke-virtual {p0, v1, v2}, Lcom/meitu/mtmvcore/application/media/MTVFXView;->nativeEnableRender(J)V
@@ -590,12 +535,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/mtmvcore/application/media/MTVFXView;->a:J
 
     invoke-virtual {p0, v1, v2}, Lcom/meitu/mtmvcore/application/media/MTVFXView;->nativeEnableTail(J)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -608,12 +551,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/mtmvcore/application/media/MTVFXView;->a:J
 
     invoke-virtual {p0, v1, v2}, Lcom/meitu/mtmvcore/application/media/MTVFXView;->nativeEnableTouchEvent(J)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -626,7 +567,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/mtmvcore/application/media/MTVFXView;->a:J
 
     invoke-virtual {p0, v1, v2}, Lcom/meitu/mtmvcore/application/media/MTVFXView;->nativeEndTouchEvent(J)V
@@ -643,7 +583,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/mtmvcore/application/media/MTVFXView;->a:J
 
     invoke-virtual {p0, v1, v2}, Lcom/meitu/mtmvcore/application/media/MTVFXView;->nativeGetContentRotation(J)F
@@ -662,7 +601,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/mtmvcore/application/media/MTVFXView;->a:J
 
     invoke-virtual {p0, v1, v2}, Lcom/meitu/mtmvcore/application/media/MTVFXView;->nativeGetContentSize(J)F
@@ -810,7 +748,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/mtmvcore/application/media/MTVFXView;->a:J
 
     invoke-virtual {p0, v1, v2}, Lcom/meitu/mtmvcore/application/media/MTVFXView;->nativeGetDuration(J)F
@@ -831,7 +768,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/mtmvcore/application/media/MTVFXView;->a:J
 
     invoke-virtual {p0, v1, v2}, Lcom/meitu/mtmvcore/application/media/MTVFXView;->nativeGetMaxSize(J)F
@@ -850,7 +786,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/mtmvcore/application/media/MTVFXView;->a:J
 
     invoke-virtual {p0, v1, v2}, Lcom/meitu/mtmvcore/application/media/MTVFXView;->nativeGetMemorySize(J)F
@@ -869,7 +804,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/mtmvcore/application/media/MTVFXView;->a:J
 
     invoke-virtual {p0, v1, v2}, Lcom/meitu/mtmvcore/application/media/MTVFXView;->nativeGetMinSize(J)F
@@ -888,7 +822,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/mtmvcore/application/media/MTVFXView;->a:J
 
     invoke-virtual {p0, v1, v2}, Lcom/meitu/mtmvcore/application/media/MTVFXView;->nativeGetTouchEndTime(J)J
@@ -907,7 +840,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/mtmvcore/application/media/MTVFXView;->a:J
 
     invoke-virtual {p0, v1, v2}, Lcom/meitu/mtmvcore/application/media/MTVFXView;->nativeGetTouchStartTime(J)J
@@ -926,7 +858,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/mtmvcore/application/media/MTVFXView;->a:J
 
     invoke-virtual {p0, v1, v2}, Lcom/meitu/mtmvcore/application/media/MTVFXView;->nativeGetTrack(J)J
@@ -943,7 +874,6 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     new-instance v3, Lcom/meitu/mtmvcore/application/media/MTVFXTrack;
 
@@ -964,7 +894,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/mtmvcore/application/media/MTVFXView;->a:J
 
     invoke-virtual {p0, v1, v2}, Lcom/meitu/mtmvcore/application/media/MTVFXView;->nativeGetUpdateMode(J)I
@@ -983,7 +912,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/mtmvcore/application/media/MTVFXView;->a:J
 
     invoke-virtual {p0, v1, v2}, Lcom/meitu/mtmvcore/application/media/MTVFXView;->nativeGetVFXType(J)I
@@ -1002,12 +930,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/mtmvcore/application/media/MTVFXView;->a:J
 
     invoke-virtual {p0, v1, v2}, Lcom/meitu/mtmvcore/application/media/MTVFXView;->nativeHide(J)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1020,7 +946,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/mtmvcore/application/media/MTVFXView;->a:J
 
     invoke-virtual {p0, v1, v2}, Lcom/meitu/mtmvcore/application/media/MTVFXView;->nativeIsEnableColor(J)Z
@@ -1039,7 +964,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/mtmvcore/application/media/MTVFXView;->a:J
 
     invoke-virtual {p0, v1, v2}, Lcom/meitu/mtmvcore/application/media/MTVFXView;->nativeIsEnableRotation(J)Z

@@ -46,17 +46,14 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
 
     iput-object v0, p0, Lcom/commsource/puzzle/patchedworld/v/b$c;->a:Ljava/util/List;
 
-    .line 3
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
@@ -65,17 +62,14 @@
 
     const/4 v0, 0x0
 
-    .line 4
     iput-object v0, p0, Lcom/commsource/puzzle/patchedworld/v/b$c;->c:Lcom/commsource/puzzle/patchedworld/v/b$b;
 
     const/4 v0, 0x1
 
-    .line 5
     iput-boolean v0, p0, Lcom/commsource/puzzle/patchedworld/v/b$c;->d:Z
 
     const/4 v0, 0x0
 
-    .line 6
     iput-boolean v0, p0, Lcom/commsource/puzzle/patchedworld/v/b$c;->e:Z
 
     return-void
@@ -88,12 +82,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/puzzle/patchedworld/v/b$c;->d:Z
 
     if-eqz v1, :cond_0
 
-    .line 2
     new-instance v1, Lcom/commsource/puzzle/patchedworld/v/b$b;
 
     const/4 v2, 0x0
@@ -102,30 +94,24 @@
 
     iput-object v1, p0, Lcom/commsource/puzzle/patchedworld/v/b$c;->c:Lcom/commsource/puzzle/patchedworld/v/b$b;
 
-    .line 3
     iget v2, p1, Landroid/graphics/PointF;->x:F
 
     iput v2, v1, Lcom/commsource/puzzle/patchedworld/v/b$b;->a:F
 
-    .line 4
     iput v2, v1, Lcom/commsource/puzzle/patchedworld/v/b$b;->b:F
 
-    .line 5
     iget p1, p1, Landroid/graphics/PointF;->y:F
 
     iput p1, v1, Lcom/commsource/puzzle/patchedworld/v/b$b;->c:F
 
-    .line 6
     iput p1, v1, Lcom/commsource/puzzle/patchedworld/v/b$b;->d:F
 
     const/4 p1, 0x0
 
-    .line 7
     iput-boolean p1, p0, Lcom/commsource/puzzle/patchedworld/v/b$c;->d:Z
 
     goto :goto_1
 
-    .line 8
     :cond_0
     iget v1, p1, Landroid/graphics/PointF;->x:F
 
@@ -137,12 +123,10 @@
 
     if-lez v3, :cond_1
 
-    .line 9
     iput v1, v2, Lcom/commsource/puzzle/patchedworld/v/b$b;->a:F
 
     goto :goto_0
 
-    .line 10
     :cond_1
     iget v3, v2, Lcom/commsource/puzzle/patchedworld/v/b$b;->b:F
 
@@ -150,10 +134,8 @@
 
     if-gez v3, :cond_2
 
-    .line 11
     iput v1, v2, Lcom/commsource/puzzle/patchedworld/v/b$b;->b:F
 
-    .line 12
     :cond_2
     :goto_0
     iget p1, p1, Landroid/graphics/PointF;->y:F
@@ -164,12 +146,10 @@
 
     if-lez v1, :cond_3
 
-    .line 13
     iput p1, v2, Lcom/commsource/puzzle/patchedworld/v/b$b;->c:F
 
     goto :goto_1
 
-    .line 14
     :cond_3
     iget v1, v2, Lcom/commsource/puzzle/patchedworld/v/b$b;->d:F
 
@@ -177,10 +157,8 @@
 
     if-gez v1, :cond_4
 
-    .line 15
     iput p1, v2, Lcom/commsource/puzzle/patchedworld/v/b$b;->d:F
 
-    .line 16
     :cond_4
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -195,7 +173,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/puzzle/patchedworld/v/b$c;->a:Ljava/util/List;
 
     invoke-interface {v1}, Ljava/util/List;->size()I
@@ -206,12 +183,10 @@
 
     if-lt v1, v2, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 3
     :cond_0
     new-instance v1, Ljava/lang/RuntimeException;
 
@@ -233,12 +208,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/puzzle/patchedworld/v/b$c;->e:Z
 
     if-eqz v1, :cond_0
 
-    .line 2
     new-instance v1, Ljava/util/ArrayList;
 
     invoke-direct {v1}, Ljava/util/ArrayList;-><init>()V
@@ -247,19 +220,15 @@
 
     const/4 v1, 0x0
 
-    .line 3
     iput-boolean v1, p0, Lcom/commsource/puzzle/patchedworld/v/b$c;->e:Z
 
-    .line 4
     :cond_0
     invoke-direct {p0, p1}, Lcom/commsource/puzzle/patchedworld/v/b$c;->d(Landroid/graphics/PointF;)V
 
-    .line 5
     iget-object v1, p0, Lcom/commsource/puzzle/patchedworld/v/b$c;->a:Ljava/util/List;
 
     invoke-interface {v1, p1}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
-    .line 6
     iget-object v1, p0, Lcom/commsource/puzzle/patchedworld/v/b$c;->a:Ljava/util/List;
 
     invoke-interface {v1}, Ljava/util/List;->size()I
@@ -270,7 +239,6 @@
 
     if-le v1, v2, :cond_1
 
-    .line 7
     new-instance v1, Lcom/commsource/puzzle/patchedworld/v/a;
 
     iget-object v2, p0, Lcom/commsource/puzzle/patchedworld/v/b$c;->a:Ljava/util/List;
@@ -289,12 +257,10 @@
 
     invoke-direct {v1, v2, p1}, Lcom/commsource/puzzle/patchedworld/v/a;-><init>(Landroid/graphics/PointF;Landroid/graphics/PointF;)V
 
-    .line 8
     iget-object p1, p0, Lcom/commsource/puzzle/patchedworld/v/b$c;->b:Ljava/util/List;
 
     invoke-interface {p1, v1}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
-    .line 9
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -308,15 +274,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/puzzle/patchedworld/v/b$c;->e()V
 
-    .line 2
     iget-boolean v1, p0, Lcom/commsource/puzzle/patchedworld/v/b$c;->e:Z
 
     if-nez v1, :cond_0
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/puzzle/patchedworld/v/b$c;->b:Ljava/util/List;
 
     new-instance v2, Lcom/commsource/puzzle/patchedworld/v/a;
@@ -349,7 +312,6 @@
 
     invoke-interface {v1, v2}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
-    .line 4
     :cond_0
     new-instance v1, Lcom/commsource/puzzle/patchedworld/v/b;
 
@@ -373,10 +335,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/puzzle/patchedworld/v/b$c;->e()V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/puzzle/patchedworld/v/b$c;->b:Ljava/util/List;
 
     new-instance v2, Lcom/commsource/puzzle/patchedworld/v/a;
@@ -411,10 +371,8 @@
 
     invoke-interface {v1, v2}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
-    .line 3
     iput-boolean v5, p0, Lcom/commsource/puzzle/patchedworld/v/b$c;->e:Z
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0

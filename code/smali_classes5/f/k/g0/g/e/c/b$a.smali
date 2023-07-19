@@ -34,7 +34,6 @@
 .method constructor <init>(Lf/k/g0/g/e/c/b;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lf/k/g0/g/e/c/b$a;->a:Lf/k/g0/g/e/c/b;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -56,7 +55,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lf/k/g0/g/e/c/b$a;->a:Lf/k/g0/g/e/c/b;
 
     invoke-static {v1}, Lf/k/g0/g/e/c/b;->a(Lf/k/g0/g/e/c/b;)Landroid/content/Context;
@@ -67,12 +65,10 @@
 
     move-result-object v1
 
-    .line 2
     invoke-static {}, Lf/k/g0/g/e/b$a;->a()Lf/k/g0/g/e/b$a$a;
 
     move-result-object v2
 
-    .line 3
     invoke-virtual {v1}, Lcom/google/android/gms/ads/identifier/AdvertisingIdClient$Info;->getId()Ljava/lang/String;
 
     move-result-object v3
@@ -81,17 +77,14 @@
 
     const-string v3, "google"
 
-    .line 4
     invoke-virtual {v2, v3}, Lf/k/g0/g/e/b$a$a;->d(Ljava/lang/String;)Lf/k/g0/g/e/b$a$a;
 
-    .line 5
     invoke-virtual {v1}, Lcom/google/android/gms/ads/identifier/AdvertisingIdClient$Info;->isLimitAdTrackingEnabled()Z
 
     move-result v1
 
     invoke-virtual {v2, v1}, Lf/k/g0/g/e/b$a$a;->c(Z)Lf/k/g0/g/e/b$a$a;
 
-    .line 6
     invoke-virtual {v2}, Lf/k/g0/g/e/b$a$a;->a()Lf/k/g0/g/e/b$a;
 
     move-result-object v1
@@ -113,7 +106,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lf/k/g0/g/e/c/b$a;->a()Lf/k/g0/g/e/b$a;
 
     move-result-object v1

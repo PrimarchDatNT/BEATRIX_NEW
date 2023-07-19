@@ -47,7 +47,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/util/p2/c$a;->a:Lcom/commsource/util/p2/c;
 
     invoke-static {v1}, Lcom/commsource/util/p2/c;->a(Lcom/commsource/util/p2/c;)Ljava/lang/ref/WeakReference;
@@ -64,12 +63,10 @@
 
     if-eqz v1, :cond_0
 
-    .line 2
     iget-object v2, p0, Lcom/commsource/util/p2/c$a;->b:Lcom/commsource/util/p2/b;
 
     invoke-virtual {v1, v2}, Lcom/commsource/util/p2/a;->u(Lcom/commsource/util/p2/b;)V
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

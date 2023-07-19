@@ -36,7 +36,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmTransaction$n;->a:Lcom/commsource/camera/xcamera/cover/confirm/ConfirmTransaction;
 
     iput-object p2, p0, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmTransaction$n;->b:Lcotlin/jvm/internal/Ref$BooleanRef;
@@ -65,7 +64,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmTransaction$n;->a:Lcom/commsource/camera/xcamera/cover/confirm/ConfirmTransaction;
 
     invoke-virtual {v1}, Lcom/commsource/camera/xcamera/cover/a;->q()Lcom/commsource/camera/xcamera/cover/CoverGroup;
@@ -78,7 +76,6 @@
 
     invoke-static {v1, p1}, Lcom/commsource/beautyplus/util/j;->a(Landroid/app/Activity;Lcom/meitu/hwbusinesskit/core/bean/AdData;)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmTransaction$n;->b:Lcotlin/jvm/internal/Ref$BooleanRef;
 
     iget-boolean v1, v1, Lcotlin/jvm/internal/Ref$BooleanRef;->element:Z
@@ -92,11 +89,9 @@
     :cond_0
     const-string v1, "ad_selfie_save_popup_click"
 
-    .line 3
     :goto_0
     invoke-static {v1, p1}, Lcom/commsource/advertisiting/g/b;->c(Ljava/lang/String;Lcom/meitu/hwbusinesskit/core/bean/AdData;)V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -109,7 +104,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmTransaction$n;->a:Lcom/commsource/camera/xcamera/cover/confirm/ConfirmTransaction;
 
     invoke-virtual {v0}, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmTransaction;->G()Landroid/app/Dialog;
@@ -134,16 +128,13 @@
     :goto_0
     if-eqz v0, :cond_1
 
-    .line 2
     invoke-virtual {v0}, Landroid/app/Dialog;->dismiss()V
 
-    .line 3
     :cond_1
     iget-object v0, p0, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmTransaction$n;->c:Lcom/meitu/hwbusinesskit/core/ad/NativeAd;
 
     invoke-virtual {v0}, Lcom/meitu/hwbusinesskit/core/ad/NativeAd;->destroy()V
 
-    .line 4
     iget-object v0, p0, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmTransaction$n;->a:Lcom/commsource/camera/xcamera/cover/confirm/ConfirmTransaction;
 
     invoke-static {v0}, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmTransaction;->A(Lcom/commsource/camera/xcamera/cover/confirm/ConfirmTransaction;)Lcom/commsource/camera/xcamera/cover/confirm/b;
@@ -156,7 +147,6 @@
 
     invoke-static {v0, v2, v3, v1}, Lcom/commsource/camera/xcamera/cover/confirm/b;->N(Lcom/commsource/camera/xcamera/cover/confirm/b;ZILjava/lang/Object;)V
 
-    .line 5
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -177,7 +167,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-static {}, Lcom/meitu/library/application/BaseApplication;->getApplication()Landroid/app/Application;
 
     move-result-object v1
@@ -190,7 +179,6 @@
 
     invoke-static {v1}, Lcom/meitu/hwbusinesskit/core/HWBusinessSDK;->countIntervalTime(Ljava/lang/String;)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmTransaction$n;->b:Lcotlin/jvm/internal/Ref$BooleanRef;
 
     iget-boolean v1, v1, Lcotlin/jvm/internal/Ref$BooleanRef;->element:Z
@@ -207,10 +195,8 @@
     :goto_0
     const/4 v2, 0x0
 
-    .line 3
     invoke-static {v1, p1, v2, v2}, Lcom/commsource/advertisiting/g/b;->d(Ljava/lang/String;Lcom/meitu/hwbusinesskit/core/bean/AdData;Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 4
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmTransaction$n;->a:Lcom/commsource/camera/xcamera/cover/confirm/ConfirmTransaction;
 
     invoke-virtual {p1}, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmTransaction;->G()Landroid/app/Dialog;
@@ -256,10 +242,8 @@
     :cond_2
     if-eqz v2, :cond_3
 
-    .line 5
     invoke-virtual {v2}, Landroid/app/Dialog;->show()V
 
-    .line 6
     :cond_3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

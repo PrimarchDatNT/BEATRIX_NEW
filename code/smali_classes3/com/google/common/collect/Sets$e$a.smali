@@ -32,12 +32,10 @@
 .method constructor <init>(Lcom/google/common/collect/Sets$e;)V
     .locals 1
 
-    .line 1
     iput-object p1, p0, Lcom/google/common/collect/Sets$e$a;->d:Lcom/google/common/collect/Sets$e;
 
     invoke-direct {p0}, Lcom/google/common/collect/AbstractIterator;-><init>()V
 
-    .line 2
     new-instance v0, Ljava/util/BitSet;
 
     iget-object p1, p1, Lcom/google/common/collect/Sets$e;->b:Lcom/google/common/collect/ImmutableMap;
@@ -58,7 +56,6 @@
 .method protected bridge synthetic a()Ljava/lang/Object;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/collect/Sets$e$a;->d()Ljava/util/Set;
 
     move-result-object v0
@@ -76,7 +73,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/Sets$e$a;->c:Ljava/util/BitSet;
 
     invoke-virtual {v0}, Ljava/util/BitSet;->isEmpty()Z
@@ -87,7 +83,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 2
     iget-object v0, p0, Lcom/google/common/collect/Sets$e$a;->c:Ljava/util/BitSet;
 
     iget-object v2, p0, Lcom/google/common/collect/Sets$e$a;->d:Lcom/google/common/collect/Sets$e;
@@ -98,7 +93,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_0
     iget-object v0, p0, Lcom/google/common/collect/Sets$e$a;->c:Ljava/util/BitSet;
 
@@ -106,14 +100,12 @@
 
     move-result v0
 
-    .line 4
     iget-object v2, p0, Lcom/google/common/collect/Sets$e$a;->c:Ljava/util/BitSet;
 
     invoke-virtual {v2, v0}, Ljava/util/BitSet;->nextClearBit(I)I
 
     move-result v2
 
-    .line 5
     iget-object v3, p0, Lcom/google/common/collect/Sets$e$a;->d:Lcom/google/common/collect/Sets$e;
 
     iget-object v3, v3, Lcom/google/common/collect/Sets$e;->b:Lcom/google/common/collect/ImmutableMap;
@@ -124,7 +116,6 @@
 
     if-ne v2, v3, :cond_1
 
-    .line 6
     invoke-virtual {p0}, Lcom/google/common/collect/AbstractIterator;->b()Ljava/lang/Object;
 
     move-result-object v0
@@ -133,7 +124,6 @@
 
     return-object v0
 
-    .line 7
     :cond_1
     iget-object v3, p0, Lcom/google/common/collect/Sets$e$a;->c:Ljava/util/BitSet;
 
@@ -143,17 +133,14 @@
 
     invoke-virtual {v3, v1, v0}, Ljava/util/BitSet;->set(II)V
 
-    .line 8
     iget-object v1, p0, Lcom/google/common/collect/Sets$e$a;->c:Ljava/util/BitSet;
 
     invoke-virtual {v1, v0, v2}, Ljava/util/BitSet;->clear(II)V
 
-    .line 9
     iget-object v0, p0, Lcom/google/common/collect/Sets$e$a;->c:Ljava/util/BitSet;
 
     invoke-virtual {v0, v2}, Ljava/util/BitSet;->set(I)V
 
-    .line 10
     :goto_0
     iget-object v0, p0, Lcom/google/common/collect/Sets$e$a;->c:Ljava/util/BitSet;
 
@@ -163,7 +150,6 @@
 
     check-cast v0, Ljava/util/BitSet;
 
-    .line 11
     new-instance v1, Lcom/google/common/collect/Sets$e$a$a;
 
     invoke-direct {v1, p0, v0}, Lcom/google/common/collect/Sets$e$a$a;-><init>(Lcom/google/common/collect/Sets$e$a;Ljava/util/BitSet;)V

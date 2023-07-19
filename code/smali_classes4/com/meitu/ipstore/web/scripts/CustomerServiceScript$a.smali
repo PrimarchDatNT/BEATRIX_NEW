@@ -30,7 +30,6 @@
 .method constructor <init>(Lcom/meitu/ipstore/web/scripts/CustomerServiceScript;Ljava/lang/Class;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/ipstore/web/scripts/CustomerServiceScript$a;->c:Lcom/meitu/ipstore/web/scripts/CustomerServiceScript;
 
     invoke-direct {p0, p1, p2}, Lcom/meitu/webview/mtscript/i$c;-><init>(Lcom/meitu/webview/mtscript/i;Ljava/lang/Class;)V
@@ -47,7 +46,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Lcom/meitu/ipstore/web/scripts/CustomerServiceScript$Model;
 
     invoke-virtual {p0, p1}, Lcom/meitu/ipstore/web/scripts/CustomerServiceScript$a;->d(Lcom/meitu/ipstore/web/scripts/CustomerServiceScript$Model;)V
@@ -66,10 +64,8 @@
 
     const-string v0, "customerService"
 
-    .line 1
     invoke-static {v0}, Lf/k/m/j/e;->a(Ljava/lang/String;)V
 
-    .line 2
     invoke-static {}, Lf/k/m/b;->i()Lf/k/m/b;
 
     move-result-object v0
@@ -80,7 +76,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 3
     new-instance v1, Lcom/meitu/ipstore/web/scripts/CustomerServiceScript$a$a;
 
     invoke-direct {v1, p0, v0}, Lcom/meitu/ipstore/web/scripts/CustomerServiceScript$a$a;-><init>(Lcom/meitu/ipstore/web/scripts/CustomerServiceScript$a;Lf/k/m/d;)V
@@ -92,10 +87,8 @@
     :cond_0
     const-string v0, "can\'t call the customer service now!"
 
-    .line 4
     invoke-static {v0}, Lf/k/m/j/e;->c(Ljava/lang/String;)V
 
-    .line 5
     :goto_0
     iget-object v0, p0, Lcom/meitu/ipstore/web/scripts/CustomerServiceScript$a;->c:Lcom/meitu/ipstore/web/scripts/CustomerServiceScript;
 
@@ -105,12 +98,10 @@
 
     if-nez v0, :cond_1
 
-    .line 6
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 7
     :cond_1
     iget-object v1, p0, Lcom/meitu/ipstore/web/scripts/CustomerServiceScript$a;->c:Lcom/meitu/ipstore/web/scripts/CustomerServiceScript;
 
@@ -128,7 +119,6 @@
 
     invoke-virtual {v0, v1}, Lcom/meitu/webview/core/CommonWebView;->loadUrl(Ljava/lang/String;)V
 
-    .line 8
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

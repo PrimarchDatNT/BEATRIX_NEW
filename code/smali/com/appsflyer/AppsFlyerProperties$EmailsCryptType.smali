@@ -38,7 +38,6 @@
 .method static constructor <clinit>()V
     .locals 6
 
-    .line 1
     new-instance v0, Lcom/appsflyer/AppsFlyerProperties$EmailsCryptType;
 
     const-string v1, "NONE"
@@ -49,7 +48,6 @@
 
     sput-object v0, Lcom/appsflyer/AppsFlyerProperties$EmailsCryptType;->NONE:Lcom/appsflyer/AppsFlyerProperties$EmailsCryptType;
 
-    .line 2
     new-instance v1, Lcom/appsflyer/AppsFlyerProperties$EmailsCryptType;
 
     const-string v3, "SHA256"
@@ -70,7 +68,6 @@
 
     aput-object v1, v3, v4
 
-    .line 3
     sput-object v3, Lcom/appsflyer/AppsFlyerProperties$EmailsCryptType;->values:[Lcom/appsflyer/AppsFlyerProperties$EmailsCryptType;
 
     return-void
@@ -84,10 +81,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 2
     iput p3, p0, Lcom/appsflyer/AppsFlyerProperties$EmailsCryptType;->$$a:I
 
     return-void
@@ -96,7 +91,6 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/appsflyer/AppsFlyerProperties$EmailsCryptType;
     .locals 1
 
-    .line 1
     const-class v0, Lcom/appsflyer/AppsFlyerProperties$EmailsCryptType;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -111,7 +105,6 @@
 .method public static values()[Lcom/appsflyer/AppsFlyerProperties$EmailsCryptType;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/appsflyer/AppsFlyerProperties$EmailsCryptType;->values:[Lcom/appsflyer/AppsFlyerProperties$EmailsCryptType;
 
     invoke-virtual {v0}, [Lcom/appsflyer/AppsFlyerProperties$EmailsCryptType;->clone()Ljava/lang/Object;
@@ -128,7 +121,6 @@
 .method public final getValue()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lcom/appsflyer/AppsFlyerProperties$EmailsCryptType;->$$a:I
 
     return v0

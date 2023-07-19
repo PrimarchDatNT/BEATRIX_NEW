@@ -28,18 +28,14 @@
 .method public constructor <init>(Ljava/lang/String;Ljava/lang/Object;)V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const-string v0, "UTF-8"
 
-    .line 2
     iput-object v0, p0, Lcom/meitu/libmtsns/framwork/util/h$a;->d:Ljava/lang/String;
 
-    .line 3
     iput-object p1, p0, Lcom/meitu/libmtsns/framwork/util/h$a;->a:Ljava/lang/String;
 
-    .line 4
     iput-object p2, p0, Lcom/meitu/libmtsns/framwork/util/h$a;->c:Ljava/lang/Object;
 
     return-void
@@ -48,21 +44,16 @@
 .method public constructor <init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Object;)V
     .locals 1
 
-    .line 5
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const-string v0, "UTF-8"
 
-    .line 6
     iput-object v0, p0, Lcom/meitu/libmtsns/framwork/util/h$a;->d:Ljava/lang/String;
 
-    .line 7
     iput-object p1, p0, Lcom/meitu/libmtsns/framwork/util/h$a;->a:Ljava/lang/String;
 
-    .line 8
     iput-object p2, p0, Lcom/meitu/libmtsns/framwork/util/h$a;->b:Ljava/lang/String;
 
-    .line 9
     iput-object p3, p0, Lcom/meitu/libmtsns/framwork/util/h$a;->c:Ljava/lang/Object;
 
     return-void
@@ -71,24 +62,18 @@
 .method public constructor <init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Object;Ljava/lang/String;)V
     .locals 1
 
-    .line 10
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const-string v0, "UTF-8"
 
-    .line 11
     iput-object v0, p0, Lcom/meitu/libmtsns/framwork/util/h$a;->d:Ljava/lang/String;
 
-    .line 12
     iput-object p1, p0, Lcom/meitu/libmtsns/framwork/util/h$a;->a:Ljava/lang/String;
 
-    .line 13
     iput-object p2, p0, Lcom/meitu/libmtsns/framwork/util/h$a;->b:Ljava/lang/String;
 
-    .line 14
     iput-object p3, p0, Lcom/meitu/libmtsns/framwork/util/h$a;->c:Ljava/lang/Object;
 
-    .line 15
     iput-object p4, p0, Lcom/meitu/libmtsns/framwork/util/h$a;->d:Ljava/lang/String;
 
     return-void
@@ -101,7 +86,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/meitu/libmtsns/framwork/util/h$a;->a:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -118,7 +102,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/libmtsns/framwork/util/h$a;->c:Ljava/lang/Object;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -133,7 +116,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/libmtsns/framwork/util/h$a;->d:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -148,7 +130,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/libmtsns/framwork/util/h$a;->b:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -163,7 +144,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/libmtsns/framwork/util/h$a;->a:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -178,10 +158,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/libmtsns/framwork/util/h$a;->c:Ljava/lang/Object;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -194,10 +172,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/libmtsns/framwork/util/h$a;->d:Ljava/lang/String;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -210,10 +186,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/libmtsns/framwork/util/h$a;->b:Ljava/lang/String;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -226,10 +200,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/libmtsns/framwork/util/h$a;->a:Ljava/lang/String;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

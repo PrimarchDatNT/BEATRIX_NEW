@@ -64,7 +64,6 @@
 
     return-object p1
 
-    .line 1
     :cond_0
     new-instance p1, Ljava/lang/IllegalArgumentException;
 

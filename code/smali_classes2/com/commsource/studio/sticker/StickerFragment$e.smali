@@ -28,7 +28,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/sticker/StickerFragment$e;->a:Lcom/commsource/studio/sticker/StickerFragment;
 
     invoke-direct {p0}, Landroidx/viewpager/widget/ViewPager$SimpleOnPageChangeListener;-><init>()V
@@ -45,7 +44,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/sticker/StickerFragment$e;->a:Lcom/commsource/studio/sticker/StickerFragment;
 
     invoke-static {v1}, Lcom/commsource/studio/sticker/StickerFragment;->W(Lcom/commsource/studio/sticker/StickerFragment;)Lcom/commsource/widget/h1/e;
@@ -54,7 +52,6 @@
 
     invoke-virtual {v1, p1}, Lcom/commsource/widget/h1/e;->G(I)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/sticker/StickerFragment$e;->a:Lcom/commsource/studio/sticker/StickerFragment;
 
     invoke-static {v1}, Lcom/commsource/studio/sticker/StickerFragment;->X(Lcom/commsource/studio/sticker/StickerFragment;)Lcom/commsource/beautyplus/f0/ma;
@@ -65,17 +62,14 @@
 
     invoke-virtual {v1, p1}, Landroidx/recyclerview/widget/RecyclerView;->smoothScrollToPosition(I)V
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/studio/sticker/StickerFragment$e;->a:Lcom/commsource/studio/sticker/StickerFragment;
 
     invoke-static {v1, p1}, Lcom/commsource/studio/sticker/StickerFragment;->b0(Lcom/commsource/studio/sticker/StickerFragment;I)V
 
-    .line 4
     iget-object p1, p0, Lcom/commsource/studio/sticker/StickerFragment$e;->a:Lcom/commsource/studio/sticker/StickerFragment;
 
     invoke-static {p1}, Lcom/commsource/studio/sticker/StickerFragment;->l0(Lcom/commsource/studio/sticker/StickerFragment;)V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

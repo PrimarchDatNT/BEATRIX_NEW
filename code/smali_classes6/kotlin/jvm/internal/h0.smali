@@ -10,7 +10,6 @@
 .method public static final synthetic a()Ljava/lang/Void;
     .locals 1
 
-    .line 1
     invoke-static {}, Lcotlin/jvm/internal/h0;->b()Ljava/lang/Void;
 
     move-result-object v0
@@ -21,7 +20,6 @@
 .method private static final b()Ljava/lang/Void;
     .locals 2
 
-    .line 1
     new-instance v0, Ljava/lang/UnsupportedOperationException;
 
     const-string v1, "Not supported for local property reference."

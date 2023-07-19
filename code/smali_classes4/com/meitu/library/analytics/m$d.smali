@@ -25,7 +25,6 @@
 .method constructor <init>(Lcom/meitu/library/analytics/m;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/library/analytics/m$d;->a:Lcom/meitu/library/analytics/m;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -42,7 +41,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/library/analytics/m$d;->a:Lcom/meitu/library/analytics/m;
 
     iget-object v1, v1, Lcom/meitu/library/analytics/a;->a:Lcom/meitu/library/analytics/sdk/content/f;
@@ -53,7 +51,6 @@
 
     invoke-virtual {v1, v2}, Lcom/meitu/library/analytics/sdk/content/f;->j([Lcom/meitu/library/analytics/sdk/content/Switcher;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

@@ -20,7 +20,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -29,7 +28,6 @@
 .method public synthetic constructor <init>(Lcotlin/jvm/internal/u;)V
     .locals 0
 
-    .line 2
     invoke-direct {p0}, Lkshark/AndroidResourceIdNames$Companion;-><init>()V
 
     return-void
@@ -51,7 +49,6 @@
 
     const/high16 v0, 0x7f010000
 
-    .line 1
     :goto_0
     invoke-static {v0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -89,7 +86,6 @@
 
     if-eqz v1, :cond_2
 
-    .line 2
     invoke-static {v0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object p1
@@ -128,7 +124,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-interface {p1}, Lkshark/i;->getContext()Lkshark/e;
 
     move-result-object v0
@@ -161,7 +156,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-static {v0}, Lkshark/AndroidResourceIdNames;->access$setHolderField$cp(Lkshark/AndroidResourceIdNames;)V
 
     return-void
@@ -204,7 +198,6 @@
 
     invoke-static {p2, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-static {}, Lkshark/AndroidResourceIdNames;->access$getHolderField$cp()Lkshark/AndroidResourceIdNames;
 
     move-result-object v0
@@ -213,19 +206,16 @@
 
     if-eqz v0, :cond_0
 
-    .line 2
     monitor-exit p0
 
     return-void
 
-    .line 3
     :cond_0
     :try_start_1
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
 
-    .line 4
     invoke-direct {p0, p1}, Lkshark/AndroidResourceIdNames$Companion;->a(Lcotlin/jvm/u/l;)Ljava/lang/Integer;
 
     move-result-object p1
@@ -236,7 +226,6 @@
 
     move-result p1
 
-    .line 5
     :goto_0
     invoke-static {p1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -250,7 +239,6 @@
 
     if-eqz v1, :cond_1
 
-    .line 6
     invoke-static {p1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v2
@@ -265,7 +253,6 @@
 
     goto :goto_0
 
-    .line 7
     :cond_1
     new-instance p1, Ljava/util/ArrayList;
 
@@ -277,7 +264,6 @@
 
     invoke-direct {p1, v1}, Ljava/util/ArrayList;-><init>(I)V
 
-    .line 8
     invoke-interface {v0}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v1
@@ -293,10 +279,8 @@
 
     move-result-object v2
 
-    .line 9
     check-cast v2, Lcotlin/Pair;
 
-    .line 10
     invoke-virtual {v2}, Lcotlin/Pair;->getFirst()Ljava/lang/Object;
 
     move-result-object v2
@@ -315,13 +299,11 @@
 
     goto :goto_1
 
-    .line 11
     :cond_2
     invoke-static {p1}, Lcotlin/collections/s;->H5(Ljava/util/Collection;)[I
 
     move-result-object p1
 
-    .line 12
     new-instance v1, Ljava/util/ArrayList;
 
     invoke-static {v0, p2}, Lcotlin/collections/s;->Y(Ljava/lang/Iterable;I)I
@@ -330,7 +312,6 @@
 
     invoke-direct {v1, p2}, Ljava/util/ArrayList;-><init>(I)V
 
-    .line 13
     invoke-interface {v0}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object p2
@@ -346,10 +327,8 @@
 
     move-result-object v0
 
-    .line 14
     check-cast v0, Lcotlin/Pair;
 
-    .line 15
     invoke-virtual {v0}, Lcotlin/Pair;->getSecond()Ljava/lang/Object;
 
     move-result-object v0
@@ -365,17 +344,14 @@
 
     new-array p2, p2, [Ljava/lang/String;
 
-    .line 16
     invoke-interface {v1, p2}, Ljava/util/Collection;->toArray([Ljava/lang/Object;)[Ljava/lang/Object;
 
     move-result-object p2
 
     if-eqz p2, :cond_4
 
-    .line 17
     check-cast p2, [Ljava/lang/String;
 
-    .line 18
     new-instance v0, Lkshark/AndroidResourceIdNames;
 
     const/4 v1, 0x0
@@ -386,12 +362,10 @@
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
-    .line 19
     monitor-exit p0
 
     return-void
 
-    .line 20
     :cond_4
     :try_start_2
     new-instance p1, Lcotlin/TypeCastException;

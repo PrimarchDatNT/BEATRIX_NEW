@@ -58,7 +58,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/mypage/album/MoreComponent$l;->a:Lcom/commsource/mypage/album/MoreComponent;
 
     invoke-static {v1, p1}, Lcom/commsource/mypage/album/MoreComponent;->n(Lcom/commsource/mypage/album/MoreComponent;Lcom/commsource/mypage/album/z$g;)V
@@ -75,7 +74,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Lcom/commsource/mypage/album/z$g;
 
     invoke-virtual {p0, p1}, Lcom/commsource/mypage/album/MoreComponent$l;->a(Lcom/commsource/mypage/album/z$g;)V

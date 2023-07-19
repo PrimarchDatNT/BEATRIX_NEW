@@ -46,7 +46,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lf/k/m/g/b$b$b;->b:I
 
     const-string v2, "product.productId"
@@ -55,7 +54,6 @@
 
     if-eq v1, v3, :cond_0
 
-    .line 2
     iget-object v1, p0, Lf/k/m/g/b$b$b;->a:Lf/k/m/g/b$b;
 
     iget-object v3, v1, Lf/k/m/g/b$b;->b:Lcom/meitu/ipstore/core/c$a;
@@ -84,7 +82,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_0
     iget-object v1, p0, Lf/k/m/g/b$b$b;->a:Lf/k/m/g/b$b;
 
@@ -108,7 +105,6 @@
 
     invoke-interface {v3, v1}, Lcom/meitu/ipstore/core/c$a;->b(Ljava/lang/String;)V
 
-    .line 4
     :cond_1
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

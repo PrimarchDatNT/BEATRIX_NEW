@@ -26,15 +26,12 @@
 .method public final L(Lcom/google/android/gms/internal/ads/th2;)V
     .locals 3
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/jl0;->a:Lcom/google/android/gms/internal/ads/lu;
 
-    .line 2
     new-instance v1, Ljava/util/HashMap;
 
     invoke-direct {v1}, Ljava/util/HashMap;-><init>()V
 
-    .line 3
     iget-boolean p1, p1, Lcom/google/android/gms/internal/ads/th2;->m:Z
 
     if-eqz p1, :cond_0
@@ -53,7 +50,6 @@
 
     const-string p1, "onAdVisibilityChanged"
 
-    .line 4
     invoke-interface {v0, p1, v1}, Lcom/google/android/gms/internal/ads/i8;->y(Ljava/lang/String;Ljava/util/Map;)V
 
     return-void

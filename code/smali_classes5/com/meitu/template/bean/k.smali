@@ -105,14 +105,12 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     iput-object p1, p0, Lcom/meitu/template/bean/k;->l:Ljava/lang/String;
 
     iput-boolean p2, p0, Lcom/meitu/template/bean/k;->m:Z
 
-    .line 2
     new-instance p1, Landroid/util/SparseArray;
 
     invoke-direct {p1}, Landroid/util/SparseArray;-><init>()V
@@ -121,7 +119,6 @@
 
     const/16 p1, -0x64
 
-    .line 3
     iput p1, p0, Lcom/meitu/template/bean/k;->j:I
 
     return-void
@@ -138,7 +135,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/meitu/template/bean/k;
 
     iget-object v2, p0, Lcom/meitu/template/bean/k;->l:Ljava/lang/String;
@@ -147,7 +143,6 @@
 
     invoke-direct {v1, v2, v3}, Lcom/meitu/template/bean/k;-><init>(Ljava/lang/String;Z)V
 
-    .line 2
     iget-object v2, p0, Lcom/meitu/template/bean/k;->b:Lcom/meitu/template/bean/Filter;
 
     const/4 v3, 0x0
@@ -170,7 +165,6 @@
     :goto_0
     iput-object v2, v1, Lcom/meitu/template/bean/k;->b:Lcom/meitu/template/bean/Filter;
 
-    .line 3
     iget-object v2, p0, Lcom/meitu/template/bean/k;->c:Lcom/commsource/camera/param/MakeupParam;
 
     if-eqz v2, :cond_1
@@ -187,7 +181,6 @@
     :goto_1
     iput-object v2, v1, Lcom/meitu/template/bean/k;->c:Lcom/commsource/camera/param/MakeupParam;
 
-    .line 4
     iget-object v2, p0, Lcom/meitu/template/bean/k;->d:Lcom/commsource/camera/param/MakeupParam;
 
     if-eqz v2, :cond_2
@@ -204,7 +197,6 @@
     :goto_2
     iput-object v2, v1, Lcom/meitu/template/bean/k;->d:Lcom/commsource/camera/param/MakeupParam;
 
-    .line 5
     iget-object v2, p0, Lcom/meitu/template/bean/k;->e:Lcom/commsource/camera/lookwheel/StyleEffectDegree;
 
     if-eqz v2, :cond_3
@@ -221,30 +213,24 @@
     :goto_3
     iput-object v2, v1, Lcom/meitu/template/bean/k;->e:Lcom/commsource/camera/lookwheel/StyleEffectDegree;
 
-    .line 6
     iget-object v2, p0, Lcom/meitu/template/bean/k;->f:Ljava/lang/String;
 
     iput-object v2, v1, Lcom/meitu/template/bean/k;->f:Ljava/lang/String;
 
-    .line 7
     iget-object v2, p0, Lcom/meitu/template/bean/k;->g:Ljava/util/HashMap;
 
     if-eqz v2, :cond_4
 
-    .line 8
     new-instance v4, Ljava/util/HashMap;
 
     const/4 v5, 0x4
 
     invoke-direct {v4, v5}, Ljava/util/HashMap;-><init>(I)V
 
-    .line 9
     invoke-virtual {v4, v2}, Ljava/util/HashMap;->putAll(Ljava/util/Map;)V
 
-    .line 10
     iput-object v4, v1, Lcom/meitu/template/bean/k;->g:Ljava/util/HashMap;
 
-    .line 11
     :cond_4
     iget-object v2, p0, Lcom/meitu/template/bean/k;->h:Landroid/util/SparseArray;
 
@@ -257,12 +243,10 @@
     :cond_5
     iput-object v3, v1, Lcom/meitu/template/bean/k;->h:Landroid/util/SparseArray;
 
-    .line 12
     iget v2, p0, Lcom/meitu/template/bean/k;->j:I
 
     iput v2, v1, Lcom/meitu/template/bean/k;->j:I
 
-    .line 13
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
@@ -277,7 +261,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/template/bean/k;->k:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -294,7 +277,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/template/bean/k;->c:Lcom/commsource/camera/param/MakeupParam;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -311,7 +293,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/template/bean/k;->f:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -328,7 +309,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/template/bean/k;->e:Lcom/commsource/camera/lookwheel/StyleEffectDegree;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -345,7 +325,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/template/bean/k;->d:Lcom/commsource/camera/param/MakeupParam;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -362,7 +341,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/template/bean/k;->b:Lcom/meitu/template/bean/Filter;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -377,7 +355,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/template/bean/k;->b:Lcom/meitu/template/bean/Filter;
 
     if-eqz v1, :cond_0
@@ -404,7 +381,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/template/bean/k;->j:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -430,7 +406,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/template/bean/k;->i:Landroid/util/SparseArray;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -456,7 +431,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/template/bean/k;->h:Landroid/util/SparseArray;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -483,7 +457,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/template/bean/k;->g:Ljava/util/HashMap;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -500,7 +473,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/template/bean/k;->l:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -517,7 +489,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/template/bean/k;->a:Lcom/meitu/template/bean/Filter;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -532,7 +503,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/meitu/template/bean/k;->m:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -551,7 +521,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/template/bean/k;->k:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -570,7 +539,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/template/bean/k;->c:Lcom/commsource/camera/param/MakeupParam;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -589,7 +557,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/template/bean/k;->f:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -608,7 +575,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/template/bean/k;->e:Lcom/commsource/camera/lookwheel/StyleEffectDegree;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -627,7 +593,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/template/bean/k;->d:Lcom/commsource/camera/param/MakeupParam;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -646,7 +611,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/template/bean/k;->b:Lcom/meitu/template/bean/Filter;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -661,7 +625,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/meitu/template/bean/k;->j:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -692,7 +655,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/template/bean/k;->i:Landroid/util/SparseArray;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -719,7 +681,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/template/bean/k;->h:Landroid/util/SparseArray;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -747,7 +708,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/template/bean/k;->g:Ljava/util/HashMap;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -766,7 +726,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/template/bean/k;->a:Lcom/meitu/template/bean/Filter;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

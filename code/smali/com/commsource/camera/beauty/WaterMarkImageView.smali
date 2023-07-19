@@ -36,7 +36,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-direct {p0, p1, v0}, Lcom/commsource/camera/beauty/WaterMarkImageView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
     return-void
@@ -47,7 +46,6 @@
 
     const/4 v0, 0x0
 
-    .line 2
     invoke-direct {p0, p1, p2, v0}, Lcom/commsource/camera/beauty/WaterMarkImageView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
     return-void
@@ -56,17 +54,14 @@
 .method public constructor <init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
     .locals 0
 
-    .line 3
     invoke-direct {p0, p1, p2, p3}, Lcom/commsource/beautymain/widget/gesturewidget/RealtimeFilterImageView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
-    .line 4
     new-instance p1, Landroid/graphics/RectF;
 
     invoke-direct {p1}, Landroid/graphics/RectF;-><init>()V
 
     iput-object p1, p0, Lcom/commsource/camera/beauty/WaterMarkImageView;->X1:Landroid/graphics/RectF;
 
-    .line 5
     new-instance p1, Landroid/graphics/RectF;
 
     invoke-direct {p1}, Landroid/graphics/RectF;-><init>()V
@@ -85,7 +80,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/camera/beauty/WaterMarkImageView;->Y1:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -100,7 +94,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/beauty/WaterMarkImageView;->X1:Landroid/graphics/RectF;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -117,12 +110,10 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/beauty/WaterMarkImageView;->W1:Landroid/graphics/Bitmap;
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-virtual {p1}, Landroid/graphics/Bitmap;->getWidth()I
 
     move-result v1
@@ -149,14 +140,11 @@
 
     iput-object v1, p0, Lcom/commsource/camera/beauty/WaterMarkImageView;->X1:Landroid/graphics/RectF;
 
-    .line 3
     :cond_0
     invoke-virtual {p0, p1}, Lcom/commsource/camera/beauty/WaterMarkImageView;->r0(Landroid/graphics/Bitmap;)V
 
-    .line 4
     invoke-super {p0, p1, p2}, Lcom/commsource/beautymain/widget/gesturewidget/RealtimeFilterImageView;->o0(Landroid/graphics/Bitmap;Z)V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -169,27 +157,22 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0, p1}, Lcom/commsource/beautymain/widget/gesturewidget/RealtimeFilterImageView;->onDraw(Landroid/graphics/Canvas;)V
 
-    .line 2
     iget-boolean v1, p0, Lcom/commsource/beautymain/widget/gesturewidget/RealtimeFilterImageView;->Q1:Z
 
     if-nez v1, :cond_1
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/camera/beauty/WaterMarkImageView;->W1:Landroid/graphics/Bitmap;
 
     const/4 v2, 0x0
 
     if-eqz v1, :cond_0
 
-    .line 4
     iget-object v3, p0, Lcom/commsource/camera/beauty/WaterMarkImageView;->X1:Landroid/graphics/RectF;
 
     invoke-virtual {p1, v1, v2, v3, v2}, Landroid/graphics/Canvas;->drawBitmap(Landroid/graphics/Bitmap;Landroid/graphics/Rect;Landroid/graphics/RectF;Landroid/graphics/Paint;)V
 
-    .line 5
     :cond_0
     iget-object v1, p0, Lcom/commsource/camera/beauty/WaterMarkImageView;->a2:Landroid/graphics/Bitmap;
 
@@ -199,10 +182,8 @@
 
     if-eqz v3, :cond_1
 
-    .line 6
     invoke-virtual {p1, v1, v2, v3, v2}, Landroid/graphics/Canvas;->drawBitmap(Landroid/graphics/Bitmap;Landroid/graphics/Rect;Landroid/graphics/RectF;Landroid/graphics/Paint;)V
 
-    .line 7
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -218,12 +199,10 @@
 
     if-eqz p1, :cond_1
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/beauty/WaterMarkImageView;->a2:Landroid/graphics/Bitmap;
 
     if-eqz v1, :cond_1
 
-    .line 2
     invoke-virtual {p1}, Landroid/graphics/Bitmap;->getWidth()I
 
     move-result v1
@@ -240,14 +219,12 @@
 
     if-ge v1, v2, :cond_0
 
-    .line 3
     invoke-virtual {p1}, Landroid/graphics/Bitmap;->getWidth()I
 
     move-result v1
 
     goto :goto_0
 
-    .line 4
     :cond_0
     invoke-virtual {p1}, Landroid/graphics/Bitmap;->getHeight()I
 
@@ -266,15 +243,12 @@
 
     const/high16 v2, 0x40a00000    # 5.0f
 
-    .line 5
     invoke-static {v2}, Lcom/meitu/library/p/f/i;->d(F)I
 
     move-result v2
 
-    .line 6
     new-instance v4, Landroid/graphics/RectF;
 
-    .line 7
     invoke-virtual {p1}, Landroid/graphics/Bitmap;->getWidth()I
 
     move-result v5
@@ -305,7 +279,6 @@
 
     int-to-float v1, v1
 
-    .line 8
     invoke-virtual {p1}, Landroid/graphics/Bitmap;->getHeight()I
 
     move-result p1
@@ -318,7 +291,6 @@
 
     iput-object v4, p0, Lcom/commsource/camera/beauty/WaterMarkImageView;->b2:Landroid/graphics/RectF;
 
-    .line 9
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -336,12 +308,10 @@
 
     if-nez p1, :cond_0
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
 
-    .line 2
     :cond_0
     invoke-virtual {p0}, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->getCurrentScaleY()F
 
@@ -384,23 +354,18 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/camera/beauty/WaterMarkImageView;->a2:Landroid/graphics/Bitmap;
 
-    .line 2
     invoke-virtual {p0}, Lcom/commsource/beautymain/widget/gesturewidget/RealtimeFilterImageView;->getFilterBitmap()Landroid/graphics/Bitmap;
 
     move-result-object p1
 
     invoke-virtual {p0, p1}, Lcom/commsource/camera/beauty/WaterMarkImageView;->r0(Landroid/graphics/Bitmap;)V
 
-    .line 3
     invoke-virtual {p0}, Lcom/commsource/camera/beauty/WaterMarkImageView;->t0()V
 
-    .line 4
     invoke-virtual {p0}, Landroid/widget/ImageView;->invalidate()V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -413,13 +378,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0, p1}, Landroid/widget/ImageView;->setImageMatrix(Landroid/graphics/Matrix;)V
 
-    .line 2
     invoke-virtual {p0}, Lcom/commsource/camera/beauty/WaterMarkImageView;->t0()V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -436,18 +398,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/camera/beauty/WaterMarkImageView;->Y1:I
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/camera/beauty/WaterMarkImageView;->c2:Lcom/commsource/camera/beauty/WaterMarkImageView$b;
 
     if-eqz v1, :cond_0
 
-    .line 3
     invoke-interface {v1, p1}, Lcom/commsource/camera/beauty/WaterMarkImageView$b;->a(I)V
 
-    .line 4
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -461,10 +419,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/camera/beauty/WaterMarkImageView;->c2:Lcom/commsource/camera/beauty/WaterMarkImageView$b;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -477,10 +433,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/camera/beauty/WaterMarkImageView;->W1:Landroid/graphics/Bitmap;
 
-    .line 2
     invoke-virtual {p0}, Lcom/commsource/beautymain/widget/gesturewidget/RealtimeFilterImageView;->getFilterBitmap()Landroid/graphics/Bitmap;
 
     move-result-object p1
@@ -491,7 +445,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 3
     invoke-virtual {p0}, Lcom/commsource/beautymain/widget/gesturewidget/RealtimeFilterImageView;->getFilterBitmap()Landroid/graphics/Bitmap;
 
     move-result-object p1
@@ -526,14 +479,11 @@
 
     iput-object p1, p0, Lcom/commsource/camera/beauty/WaterMarkImageView;->X1:Landroid/graphics/RectF;
 
-    .line 4
     :cond_0
     invoke-virtual {p0}, Lcom/commsource/camera/beauty/WaterMarkImageView;->t0()V
 
-    .line 5
     invoke-virtual {p0}, Landroid/widget/ImageView;->invalidate()V
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -546,10 +496,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/camera/beauty/WaterMarkImageView;->X1:Landroid/graphics/RectF;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -562,14 +510,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/beauty/WaterMarkImageView;->d2:Landroid/graphics/RectF;
 
     iget-object v2, p0, Lcom/commsource/camera/beauty/WaterMarkImageView;->X1:Landroid/graphics/RectF;
 
     invoke-virtual {v1, v2}, Landroid/graphics/RectF;->set(Landroid/graphics/RectF;)V
 
-    .line 2
     invoke-virtual {p0}, Landroid/widget/ImageView;->getImageMatrix()Landroid/graphics/Matrix;
 
     move-result-object v1
@@ -578,7 +524,6 @@
 
     invoke-virtual {v1, v2}, Landroid/graphics/Matrix;->mapRect(Landroid/graphics/RectF;)Z
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

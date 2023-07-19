@@ -21,7 +21,6 @@
 
     const/4 v1, 0x0
 
-    .line 1
     sput-object v1, Lcom/commsource/camera/w0/a;->b:Lcom/commsource/camera/w0/a;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -32,7 +31,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -45,30 +43,25 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/camera/w0/a;->b:Lcom/commsource/camera/w0/a;
 
     if-nez v1, :cond_1
 
-    .line 2
     const-class v1, Lcom/commsource/camera/w0/a;
 
     monitor-enter v1
 
-    .line 3
     :try_start_0
     sget-object v2, Lcom/commsource/camera/w0/a;->b:Lcom/commsource/camera/w0/a;
 
     if-nez v2, :cond_0
 
-    .line 4
     new-instance v2, Lcom/commsource/camera/w0/a;
 
     invoke-direct {v2}, Lcom/commsource/camera/w0/a;-><init>()V
 
     sput-object v2, Lcom/commsource/camera/w0/a;->b:Lcom/commsource/camera/w0/a;
 
-    .line 5
     :cond_0
     monitor-exit v1
 
@@ -85,7 +78,6 @@
 
     throw v2
 
-    .line 6
     :cond_1
     :goto_0
     sget-object v1, Lcom/commsource/camera/w0/a;->b:Lcom/commsource/camera/w0/a;
@@ -104,12 +96,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/w0/a;->a:Lcom/meitu/library/d/e/a;
 
     if-nez v1, :cond_0
 
-    .line 2
     invoke-static {}, Lcom/meitu/library/camera/s/d;->d()Lcom/meitu/library/camera/s/d;
 
     move-result-object v1
@@ -124,7 +114,6 @@
 
     move-result-object v1
 
-    .line 3
     new-instance v2, Lcom/meitu/library/d/e/a$b;
 
     invoke-direct {v2}, Lcom/meitu/library/d/e/a$b;-><init>()V
@@ -137,21 +126,18 @@
 
     check-cast v2, Lcom/meitu/library/d/e/a$b;
 
-    .line 4
     invoke-virtual {v2, v1}, Lcom/meitu/library/camera/s/g/a$a;->g(Lcom/meitu/library/camera/s/k/k;)Ljava/lang/Object;
 
     move-result-object v1
 
     check-cast v1, Lcom/meitu/library/d/e/a$b;
 
-    .line 5
     invoke-virtual {v1}, Lcom/meitu/library/d/e/a$b;->i()Lcom/meitu/library/d/e/a;
 
     move-result-object v1
 
     iput-object v1, p0, Lcom/commsource/camera/w0/a;->a:Lcom/meitu/library/d/e/a;
 
-    .line 6
     :cond_0
     iget-object v1, p0, Lcom/commsource/camera/w0/a;->a:Lcom/meitu/library/d/e/a;
 
@@ -167,12 +153,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/camera/w0/a;->a()Lcom/meitu/library/d/e/a;
 
     move-result-object v1
 
-    .line 2
     invoke-virtual {v1}, Lcom/meitu/library/camera/s/g/a;->e()Z
 
     move-result v2

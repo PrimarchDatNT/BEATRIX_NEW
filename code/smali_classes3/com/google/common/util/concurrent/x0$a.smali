@@ -33,7 +33,6 @@
 .method constructor <init>(Lcom/google/common/util/concurrent/x0;Ljava/lang/Object;JLjava/util/concurrent/TimeUnit;Ljava/util/Set;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/common/util/concurrent/x0$a;->e:Lcom/google/common/util/concurrent/x0;
 
     iput-object p2, p0, Lcom/google/common/util/concurrent/x0$a;->a:Ljava/lang/Object;
@@ -59,12 +58,10 @@
         }
     .end annotation
 
-    .line 1
     new-instance v1, Lcom/google/common/util/concurrent/x0$a$a;
 
     invoke-direct {v1, p0, p2, p3}, Lcom/google/common/util/concurrent/x0$a$a;-><init>(Lcom/google/common/util/concurrent/x0$a;Ljava/lang/reflect/Method;[Ljava/lang/Object;)V
 
-    .line 2
     iget-object v0, p0, Lcom/google/common/util/concurrent/x0$a;->e:Lcom/google/common/util/concurrent/x0;
 
     iget-wide v2, p0, Lcom/google/common/util/concurrent/x0$a;->b:J
@@ -73,12 +70,10 @@
 
     iget-object p1, p0, Lcom/google/common/util/concurrent/x0$a;->d:Ljava/util/Set;
 
-    .line 3
     invoke-interface {p1, p2}, Ljava/util/Set;->contains(Ljava/lang/Object;)Z
 
     move-result v5
 
-    .line 4
     invoke-static/range {v0 .. v5}, Lcom/google/common/util/concurrent/x0;->g(Lcom/google/common/util/concurrent/x0;Ljava/util/concurrent/Callable;JLjava/util/concurrent/TimeUnit;Z)Ljava/lang/Object;
 
     move-result-object p1

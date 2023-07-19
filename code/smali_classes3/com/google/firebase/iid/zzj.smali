@@ -36,7 +36,6 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
     new-instance v0, Lcom/google/firebase/iid/v0;
 
     invoke-direct {v0}, Lcom/google/firebase/iid/v0;-><init>()V
@@ -49,17 +48,14 @@
 .method public constructor <init>(Landroid/os/IBinder;)V
     .locals 2
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
 
     const/16 v1, 0x15
 
     if-lt v0, v1, :cond_0
 
-    .line 3
     new-instance v0, Landroid/os/Messenger;
 
     invoke-direct {v0, p1}, Landroid/os/Messenger;-><init>(Landroid/os/IBinder;)V
@@ -68,7 +64,6 @@
 
     return-void
 
-    .line 4
     :cond_0
     new-instance v0, Lcom/google/firebase/iid/i1;
 
@@ -82,7 +77,6 @@
 .method private final a()Landroid/os/IBinder;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/iid/zzj;->a:Landroid/os/Messenger;
 
     if-eqz v0, :cond_0
@@ -113,17 +107,14 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/iid/zzj;->a:Landroid/os/Messenger;
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-virtual {v0, p1}, Landroid/os/Messenger;->send(Landroid/os/Message;)V
 
     return-void
 
-    .line 3
     :cond_0
     iget-object v0, p0, Lcom/google/firebase/iid/zzj;->b:Lcom/google/firebase/iid/j1;
 
@@ -149,7 +140,6 @@
 
     return v0
 
-    .line 1
     :cond_0
     :try_start_0
     invoke-direct {p0}, Lcom/google/firebase/iid/zzj;->a()Landroid/os/IBinder;
@@ -177,7 +167,6 @@
 .method public hashCode()I
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Lcom/google/firebase/iid/zzj;->a()Landroid/os/IBinder;
 
     move-result-object v0
@@ -192,12 +181,10 @@
 .method public writeToParcel(Landroid/os/Parcel;I)V
     .locals 0
 
-    .line 1
     iget-object p2, p0, Lcom/google/firebase/iid/zzj;->a:Landroid/os/Messenger;
 
     if-eqz p2, :cond_0
 
-    .line 2
     invoke-virtual {p2}, Landroid/os/Messenger;->getBinder()Landroid/os/IBinder;
 
     move-result-object p2
@@ -206,7 +193,6 @@
 
     return-void
 
-    .line 3
     :cond_0
     iget-object p2, p0, Lcom/google/firebase/iid/zzj;->b:Lcom/google/firebase/iid/j1;
 

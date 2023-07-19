@@ -35,7 +35,6 @@
 .method constructor <init>(Lcom/google/common/collect/Maps$r;Ljava/lang/Object;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/common/collect/Maps$a;->a:Lcom/google/common/collect/Maps$r;
 
     iput-object p2, p0, Lcom/google/common/collect/Maps$a;->b:Ljava/lang/Object;
@@ -59,7 +58,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/Maps$a;->a:Lcom/google/common/collect/Maps$r;
 
     iget-object v1, p0, Lcom/google/common/collect/Maps$a;->b:Ljava/lang/Object;

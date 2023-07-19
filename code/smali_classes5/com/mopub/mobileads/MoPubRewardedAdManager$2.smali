@@ -27,7 +27,6 @@
 .method constructor <init>(Lcom/mopub/common/AdUrlGenerator;Ljava/lang/String;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/mopub/mobileads/MoPubRewardedAdManager$2;->val$urlGenerator:Lcom/mopub/common/AdUrlGenerator;
 
     iput-object p2, p0, Lcom/mopub/mobileads/MoPubRewardedAdManager$2;->val$adUnitId:Ljava/lang/String;
@@ -46,12 +45,10 @@
         .end annotation
     .end param
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/mobileads/MoPubRewardedAdManager$2;->val$urlGenerator:Lcom/mopub/common/AdUrlGenerator;
 
     invoke-virtual {v0, p1}, Lcom/mopub/common/AdUrlGenerator;->withCeSettingsHash(Ljava/lang/String;)Lcom/mopub/common/AdUrlGenerator;
 
-    .line 2
     iget-object p1, p0, Lcom/mopub/mobileads/MoPubRewardedAdManager$2;->val$adUnitId:Ljava/lang/String;
 
     iget-object v0, p0, Lcom/mopub/mobileads/MoPubRewardedAdManager$2;->val$urlGenerator:Lcom/mopub/common/AdUrlGenerator;

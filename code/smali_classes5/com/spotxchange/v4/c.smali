@@ -19,7 +19,6 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
     const-class v0, Lcom/spotxchange/v4/c;
 
     invoke-virtual {v0}, Ljava/lang/Class;->getSimpleName()Ljava/lang/String;
@@ -34,15 +33,12 @@
 .method protected constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Lf/r/c/c/b;-><init>()V
 
     const/4 v0, 0x0
 
-    .line 2
     iput-object v0, p0, Lcom/spotxchange/v4/c;->o:Landroid/widget/FrameLayout;
 
-    .line 3
     iput-object v0, p0, Lcom/spotxchange/v4/c;->p:Landroid/app/Activity;
 
     return-void
@@ -51,13 +47,10 @@
 .method public constructor <init>(Landroid/widget/FrameLayout;)V
     .locals 1
 
-    .line 4
     invoke-direct {p0}, Lf/r/c/c/b;-><init>()V
 
-    .line 5
     iput-object p1, p0, Lcom/spotxchange/v4/c;->o:Landroid/widget/FrameLayout;
 
-    .line 6
     invoke-virtual {p1}, Landroid/widget/FrameLayout;->getContext()Landroid/content/Context;
 
     move-result-object p1
@@ -72,7 +65,6 @@
 
     return-void
 
-    .line 7
     :cond_0
     new-instance p1, Ljava/lang/RuntimeException;
 
@@ -90,13 +82,10 @@
         .end annotation
     .end param
 
-    .line 8
     invoke-direct {p0}, Lf/r/c/c/b;-><init>()V
 
-    .line 9
     iput-object p1, p0, Lcom/spotxchange/v4/c;->o:Landroid/widget/FrameLayout;
 
-    .line 10
     iput-object p2, p0, Lcom/spotxchange/v4/c;->p:Landroid/app/Activity;
 
     return-void
@@ -105,7 +94,6 @@
 .method static synthetic E0(Lcom/spotxchange/v4/c;)V
     .locals 0
 
-    .line 1
     invoke-virtual {p0}, Lf/r/c/c/b;->s0()V
 
     return-void
@@ -116,7 +104,6 @@
 .method public F0()V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/spotxchange/v4/c;->p:Landroid/app/Activity;
 
     invoke-virtual {p0, v0}, Lf/r/c/c/b;->f(Landroid/app/Activity;)V
@@ -127,7 +114,6 @@
 .method public G0()V
     .locals 2
 
-    .line 1
     iget-boolean v0, p0, Lf/r/c/c/b;->j:Z
 
     if-eqz v0, :cond_1
@@ -141,10 +127,8 @@
     :cond_0
     const/4 v1, 0x0
 
-    .line 2
     iput-boolean v1, v0, Lcom/spotxchange/internal/view/SpotXContainerView;->a:Z
 
-    .line 3
     new-instance v0, Landroid/os/Handler;
 
     invoke-static {}, Landroid/os/Looper;->getMainLooper()Landroid/os/Looper;
@@ -167,14 +151,12 @@
 .method public H0()V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/spotxchange/v4/c;->q:Lcom/spotxchange/internal/view/SpotXContainerView;
 
     if-nez v0, :cond_0
 
     return-void
 
-    .line 2
     :cond_0
     new-instance v0, Landroid/os/Handler;
 
@@ -196,7 +178,6 @@
 .method public e()Z
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/spotxchange/v4/c;->q:Lcom/spotxchange/internal/view/SpotXContainerView;
 
     if-eqz v0, :cond_0
@@ -229,12 +210,10 @@
 .method public t()V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lf/r/c/c/b;->g:Lcom/spotxchange/v4/h/c;
 
     if-nez v0, :cond_0
 
-    .line 2
     sget-object v0, Lcom/spotxchange/v4/c;->r:Ljava/lang/String;
 
     const-string v1, "Ignoring attempt to start AdPlayer with no ads available."
@@ -243,13 +222,11 @@
 
     return-void
 
-    .line 3
     :cond_0
     iget-boolean v0, p0, Lf/r/c/c/b;->k:Z
 
     if-eqz v0, :cond_1
 
-    .line 4
     sget-object v0, Lcom/spotxchange/v4/c;->r:Ljava/lang/String;
 
     const-string v1, "Ignoring secondary call to start(). Player objects must not be re-used."
@@ -261,10 +238,8 @@
     :cond_1
     const/4 v0, 0x1
 
-    .line 5
     iput-boolean v0, p0, Lf/r/c/c/b;->k:Z
 
-    .line 6
     new-instance v0, Landroid/os/Handler;
 
     invoke-static {}, Landroid/os/Looper;->getMainLooper()Landroid/os/Looper;
@@ -293,12 +268,10 @@
 .method protected y0()Lf/r/c/c/b$m0;
     .locals 3
 
-    .line 1
     iget-object v0, p0, Lcom/spotxchange/v4/c;->o:Landroid/widget/FrameLayout;
 
     if-nez v0, :cond_0
 
-    .line 2
     new-instance v0, Lf/r/c/c/b$m0;
 
     const/4 v1, 0x0
@@ -307,7 +280,6 @@
 
     return-object v0
 
-    .line 3
     :cond_0
     new-instance v1, Lf/r/c/c/b$m0;
 
@@ -329,7 +301,6 @@
 .method protected z0()Landroid/view/View;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/spotxchange/v4/c;->q:Lcom/spotxchange/internal/view/SpotXContainerView;
 
     return-object v0

@@ -49,7 +49,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-direct {p0, p1, v0}, Lcom/commsource/widget/LineSelectView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
     return-void
@@ -72,7 +71,6 @@
 
     const/4 v0, 0x0
 
-    .line 2
     invoke-direct {p0, p1, p2, v0}, Lcom/commsource/widget/LineSelectView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
     return-void
@@ -93,29 +91,24 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 3
     invoke-direct {p0, p1, p2, p3}, Landroid/view/View;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
-    .line 4
     new-instance p1, Landroid/graphics/Paint;
 
     const/4 p2, 0x1
 
     invoke-direct {p1, p2}, Landroid/graphics/Paint;-><init>(I)V
 
-    .line 5
     sget-object p2, Landroid/graphics/Paint$Style;->STROKE:Landroid/graphics/Paint$Style;
 
     invoke-virtual {p1, p2}, Landroid/graphics/Paint;->setStyle(Landroid/graphics/Paint$Style;)V
 
-    .line 6
     sget-object p2, Landroid/graphics/Paint$Cap;->ROUND:Landroid/graphics/Paint$Cap;
 
     invoke-virtual {p1, p2}, Landroid/graphics/Paint;->setStrokeCap(Landroid/graphics/Paint$Cap;)V
 
     const/4 p2, 0x2
 
-    .line 7
     invoke-static {p2}, Lcom/commsource/util/l0;->p(I)F
 
     move-result p3
@@ -126,22 +119,18 @@
 
     long-to-int p3, v0
 
-    .line 8
     invoke-virtual {p1, p3}, Landroid/graphics/Paint;->setColor(I)V
 
-    .line 9
     iput-object p1, p0, Lcom/commsource/widget/LineSelectView;->a:Landroid/graphics/Paint;
 
     new-array p1, p2, [F
 
-    .line 10
     fill-array-data p1, :array_0
 
     invoke-static {p1}, Landroid/animation/ValueAnimator;->ofFloat([F)Landroid/animation/ValueAnimator;
 
     move-result-object p1
 
-    .line 11
     new-instance p2, Landroid/view/animation/AccelerateDecelerateInterpolator;
 
     invoke-direct {p2}, Landroid/view/animation/AccelerateDecelerateInterpolator;-><init>()V
@@ -150,13 +139,10 @@
 
     const-wide/16 p2, 0xfa
 
-    .line 12
     invoke-virtual {p1, p2, p3}, Landroid/animation/ValueAnimator;->setDuration(J)Landroid/animation/ValueAnimator;
 
-    .line 13
     iput-object p1, p0, Lcom/commsource/widget/LineSelectView;->f:Landroid/animation/ValueAnimator;
 
-    .line 14
     new-instance p1, Lcom/commsource/widget/LineSelectView$d;
 
     invoke-direct {p1, p0}, Lcom/commsource/widget/LineSelectView$d;-><init>(Lcom/commsource/widget/LineSelectView;)V
@@ -181,7 +167,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget p0, p0, Lcom/commsource/widget/LineSelectView;->b:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -196,7 +181,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget p0, p0, Lcom/commsource/widget/LineSelectView;->c:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -211,7 +195,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget p0, p0, Lcom/commsource/widget/LineSelectView;->d:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -226,7 +209,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/widget/LineSelectView;->b:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -241,7 +223,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/widget/LineSelectView;->c:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -256,7 +237,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/widget/LineSelectView;->d:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -277,7 +257,6 @@
 
     const/4 p2, 0x1
 
-    .line 1
     :cond_0
     invoke-virtual {p0, p1, p2}, Lcom/commsource/widget/LineSelectView;->i(IZ)V
 
@@ -364,7 +343,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/widget/LineSelectView;->p:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -379,7 +357,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/widget/LineSelectView;->J:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -396,7 +373,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/widget/LineSelectView;->g:Landroidx/recyclerview/widget/RecyclerView;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -413,7 +389,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/widget/LineSelectView;->K:Landroidx/recyclerview/widget/RecyclerView$OnScrollListener;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -428,34 +403,28 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/widget/LineSelectView;->d:I
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/widget/LineSelectView;->g:Landroidx/recyclerview/widget/RecyclerView;
 
     if-eqz v1, :cond_2
 
-    .line 3
     iget-object v2, p0, Lcom/commsource/widget/LineSelectView;->K:Landroidx/recyclerview/widget/RecyclerView$OnScrollListener;
 
     invoke-virtual {v1, v2}, Landroidx/recyclerview/widget/RecyclerView;->removeOnScrollListener(Landroidx/recyclerview/widget/RecyclerView$OnScrollListener;)V
 
-    .line 4
     invoke-virtual {v1, p1}, Landroidx/recyclerview/widget/RecyclerView;->findViewHolderForAdapterPosition(I)Landroidx/recyclerview/widget/RecyclerView$ViewHolder;
 
     move-result-object v2
 
     if-nez v2, :cond_0
 
-    .line 5
     iget-object p1, p0, Lcom/commsource/widget/LineSelectView;->K:Landroidx/recyclerview/widget/RecyclerView$OnScrollListener;
 
     invoke-virtual {v1, p1}, Landroidx/recyclerview/widget/RecyclerView;->addOnScrollListener(Landroidx/recyclerview/widget/RecyclerView$OnScrollListener;)V
 
     goto :goto_0
 
-    .line 6
     :cond_0
     iget-object v1, v2, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->itemView:Landroid/view/View;
 
@@ -481,7 +450,6 @@
 
     sub-float v6, v1, v4
 
-    .line 7
     iget-object v1, v2, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->itemView:Landroid/view/View;
 
     invoke-static {v1, v3}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
@@ -508,18 +476,14 @@
 
     sub-float v7, v1, v2
 
-    .line 8
     iget-object v1, p0, Lcom/commsource/widget/LineSelectView;->f:Landroid/animation/ValueAnimator;
 
-    .line 9
     invoke-virtual {v1}, Landroid/animation/ValueAnimator;->removeAllUpdateListeners()V
 
-    .line 10
     invoke-virtual {v1}, Landroid/animation/ValueAnimator;->cancel()V
 
     if-eqz p2, :cond_1
 
-    .line 11
     iget v1, p0, Lcom/commsource/widget/LineSelectView;->c:F
 
     const/4 v2, 0x0
@@ -528,7 +492,6 @@
 
     if-eqz v1, :cond_1
 
-    .line 12
     iget-object v1, p0, Lcom/commsource/widget/LineSelectView;->f:Landroid/animation/ValueAnimator;
 
     new-instance v2, Lcom/commsource/widget/LineSelectView$c;
@@ -545,14 +508,12 @@
 
     invoke-virtual {v1, v2}, Landroid/animation/ValueAnimator;->addUpdateListener(Landroid/animation/ValueAnimator$AnimatorUpdateListener;)V
 
-    .line 13
     iget-object p1, p0, Lcom/commsource/widget/LineSelectView;->f:Landroid/animation/ValueAnimator;
 
     invoke-virtual {p1}, Landroid/animation/ValueAnimator;->start()V
 
     goto :goto_0
 
-    .line 14
     :cond_1
     iget p1, p0, Lcom/commsource/widget/LineSelectView;->b:F
 
@@ -560,13 +521,10 @@
 
     iput p1, p0, Lcom/commsource/widget/LineSelectView;->b:F
 
-    .line 15
     iput v7, p0, Lcom/commsource/widget/LineSelectView;->c:F
 
-    .line 16
     invoke-virtual {p0}, Landroid/view/View;->invalidate()V
 
-    .line 17
     :cond_2
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -589,13 +547,10 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-super {p0, p1}, Landroid/view/View;->onDraw(Landroid/graphics/Canvas;)V
 
-    .line 2
     iget v3, p0, Lcom/commsource/widget/LineSelectView;->b:F
 
-    .line 3
     invoke-virtual {p0}, Landroid/view/View;->getHeight()I
 
     move-result v1
@@ -614,14 +569,12 @@
 
     sub-float/2addr v1, v2
 
-    .line 4
     iget v2, p0, Lcom/commsource/widget/LineSelectView;->b:F
 
     iget v5, p0, Lcom/commsource/widget/LineSelectView;->c:F
 
     add-float/2addr v5, v2
 
-    .line 5
     invoke-virtual {p0}, Landroid/view/View;->getHeight()I
 
     move-result v2
@@ -638,17 +591,14 @@
 
     sub-float v6, v2, v6
 
-    .line 6
     iget-object v7, p0, Lcom/commsource/widget/LineSelectView;->a:Landroid/graphics/Paint;
 
     move-object v2, p1
 
     move v4, v1
 
-    .line 7
     invoke-virtual/range {v2 .. v7}, Landroid/graphics/Canvas;->drawLine(FFFFLandroid/graphics/Paint;)V
 
-    .line 8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -661,7 +611,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/widget/LineSelectView;->p:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -676,7 +625,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/widget/LineSelectView;->J:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -697,14 +645,12 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     new-instance v1, Lcom/commsource/widget/LineSelectView$a;
 
     invoke-direct {v1, p0}, Lcom/commsource/widget/LineSelectView$a;-><init>(Lcom/commsource/widget/LineSelectView;)V
 
     invoke-virtual {p1, v1}, Landroidx/recyclerview/widget/RecyclerView;->addOnScrollListener(Landroidx/recyclerview/widget/RecyclerView$OnScrollListener;)V
 
-    .line 2
     new-instance v1, Lcom/commsource/widget/LineSelectView$b;
 
     invoke-direct {v1, p0}, Lcom/commsource/widget/LineSelectView$b;-><init>(Lcom/commsource/widget/LineSelectView;)V
@@ -716,11 +662,9 @@
     :cond_0
     const/4 p1, 0x0
 
-    .line 3
     :goto_0
     iput-object p1, p0, Lcom/commsource/widget/LineSelectView;->g:Landroidx/recyclerview/widget/RecyclerView;
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

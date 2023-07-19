@@ -30,7 +30,6 @@
 .method constructor <init>(Lcom/commsource/mypage/g0;Ljava/lang/String;IIII)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/mypage/g0$f;->L:Lcom/commsource/mypage/g0;
 
     iput p3, p0, Lcom/commsource/mypage/g0$f;->g:I
@@ -53,7 +52,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/mypage/g0$f;->L:Lcom/commsource/mypage/g0;
 
     invoke-static {v1}, Lcom/commsource/mypage/g0;->z(Lcom/commsource/mypage/g0;)Landroid/graphics/Bitmap;
@@ -74,7 +72,6 @@
 
     if-nez v1, :cond_0
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/mypage/g0$f;->L:Lcom/commsource/mypage/g0;
 
     invoke-static {v1}, Lcom/commsource/mypage/g0;->w(Lcom/commsource/mypage/g0;)Lcom/commsource/beautyplus/f0/i7;
@@ -87,7 +84,6 @@
 
     invoke-virtual {v1, v2}, Landroid/widget/TextView;->setVisibility(I)V
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/mypage/g0$f;->L:Lcom/commsource/mypage/g0;
 
     invoke-static {v1}, Lcom/commsource/mypage/g0;->w(Lcom/commsource/mypage/g0;)Lcom/commsource/beautyplus/f0/i7;
@@ -106,7 +102,6 @@
 
     invoke-virtual {v1, v2, v3}, Lcom/commsource/beautymain/widget/EditCropView;->x(Landroid/graphics/Bitmap;Lcom/commsource/beautymain/widget/EditCropView$CutMode;)V
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/mypage/g0$f;->L:Lcom/commsource/mypage/g0;
 
     invoke-static {v1}, Lcom/commsource/mypage/g0;->w(Lcom/commsource/mypage/g0;)Lcom/commsource/beautyplus/f0/i7;
@@ -117,7 +112,6 @@
 
     invoke-virtual {v1}, Lcom/commsource/beautymain/widget/EditCropView;->v()V
 
-    .line 5
     iget-object v1, p0, Lcom/commsource/mypage/g0$f;->L:Lcom/commsource/mypage/g0;
 
     invoke-static {v1}, Lcom/commsource/mypage/g0;->w(Lcom/commsource/mypage/g0;)Lcom/commsource/beautyplus/f0/i7;
@@ -128,7 +122,6 @@
 
     invoke-virtual {v1}, Lcom/commsource/beautymain/widget/EditCropView;->m()V
 
-    .line 6
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -144,7 +137,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/mypage/g0$f;->g:I
 
     iget v2, p0, Lcom/commsource/mypage/g0$f;->p:I
@@ -161,12 +153,10 @@
 
     if-lt v5, v6, :cond_0
 
-    .line 2
     invoke-static {v2, v6}, Ljava/lang/Math;->max(II)I
 
     move-result v1
 
-    .line 3
     iget-object v2, p0, Lcom/commsource/mypage/g0$f;->L:Lcom/commsource/mypage/g0;
 
     invoke-static {v2}, Lcom/commsource/mypage/g0;->F(Lcom/commsource/mypage/g0;)Lcom/commsource/cloudalbum/bean/CAImageInfo;
@@ -196,7 +186,6 @@
 
     div-float/2addr v5, v7
 
-    .line 4
     iget v7, p0, Lcom/commsource/mypage/g0$f;->J:I
 
     int-to-float v8, v7
@@ -225,12 +214,10 @@
 
     float-to-int v2, v5
 
-    .line 5
     invoke-static {v1, v2}, Ljava/lang/Math;->max(II)I
 
     move-result v1
 
-    .line 6
     iget-object v2, p0, Lcom/commsource/mypage/g0$f;->L:Lcom/commsource/mypage/g0;
 
     invoke-static {v2}, Lcom/commsource/mypage/g0;->F(Lcom/commsource/mypage/g0;)Lcom/commsource/cloudalbum/bean/CAImageInfo;
@@ -262,12 +249,10 @@
 
     float-to-int v1, v1
 
-    .line 7
     invoke-static {v7, v1}, Ljava/lang/Math;->max(II)I
 
     move-result v1
 
-    .line 8
     iget-object v2, p0, Lcom/commsource/mypage/g0$f;->L:Lcom/commsource/mypage/g0;
 
     invoke-static {v2}, Lcom/commsource/mypage/g0;->F(Lcom/commsource/mypage/g0;)Lcom/commsource/cloudalbum/bean/CAImageInfo;
@@ -284,7 +269,6 @@
 
     invoke-static {v2, v1}, Lcom/commsource/mypage/g0;->A(Lcom/commsource/mypage/g0;Landroid/graphics/Bitmap;)Landroid/graphics/Bitmap;
 
-    .line 9
     :goto_0
     new-instance v1, Landroid/os/Handler;
 
@@ -300,7 +284,6 @@
 
     invoke-virtual {v1, v2}, Landroid/os/Handler;->post(Ljava/lang/Runnable;)Z
 
-    .line 10
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

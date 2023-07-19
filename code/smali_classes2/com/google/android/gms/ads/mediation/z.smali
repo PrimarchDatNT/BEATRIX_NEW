@@ -34,7 +34,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/google/android/gms/ads/mediation/x;-><init>()V
 
     return-void
@@ -45,7 +44,6 @@
 .method public final getAdvertiser()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/ads/mediation/z;->zzepy:Ljava/lang/String;
 
     return-object v0
@@ -54,7 +52,6 @@
 .method public final getBody()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/ads/mediation/z;->zzdrd:Ljava/lang/String;
 
     return-object v0
@@ -63,7 +60,6 @@
 .method public final getCallToAction()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/ads/mediation/z;->zzepx:Ljava/lang/String;
 
     return-object v0
@@ -72,7 +68,6 @@
 .method public final getHeadline()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/ads/mediation/z;->zzepu:Ljava/lang/String;
 
     return-object v0
@@ -89,7 +84,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/ads/mediation/z;->zzepv:Ljava/util/List;
 
     return-object v0
@@ -98,7 +92,6 @@
 .method public final getLogo()Lcom/google/android/gms/ads/formats/a$b;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/ads/mediation/z;->zzepw:Lcom/google/android/gms/ads/formats/a$b;
 
     return-object v0
@@ -107,7 +100,6 @@
 .method public final setAdvertiser(Ljava/lang/String;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/android/gms/ads/mediation/z;->zzepy:Ljava/lang/String;
 
     return-void
@@ -116,7 +108,6 @@
 .method public final setBody(Ljava/lang/String;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/android/gms/ads/mediation/z;->zzdrd:Ljava/lang/String;
 
     return-void
@@ -125,7 +116,6 @@
 .method public final setCallToAction(Ljava/lang/String;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/android/gms/ads/mediation/z;->zzepx:Ljava/lang/String;
 
     return-void
@@ -134,7 +124,6 @@
 .method public final setHeadline(Ljava/lang/String;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/android/gms/ads/mediation/z;->zzepu:Ljava/lang/String;
 
     return-void
@@ -151,7 +140,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/google/android/gms/ads/mediation/z;->zzepv:Ljava/util/List;
 
     return-void
@@ -160,7 +148,6 @@
 .method public final setLogo(Lcom/google/android/gms/ads/formats/a$b;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/android/gms/ads/mediation/z;->zzepw:Lcom/google/android/gms/ads/formats/a$b;
 
     return-void

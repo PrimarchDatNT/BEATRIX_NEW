@@ -21,7 +21,6 @@
 .method constructor <init>(Lcom/google/android/gms/internal/ads/fe1;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -34,7 +33,6 @@
 
     const-string p1, "Notification of cache hit failed."
 
-    .line 1
     invoke-static {p1}, Lcom/google/android/gms/internal/ads/sm;->m(Ljava/lang/String;)V
 
     return-void
@@ -47,12 +45,10 @@
         .end annotation
     .end param
 
-    .line 1
     check-cast p1, Ljava/lang/Void;
 
     const-string p1, "Notification of cache hit successful."
 
-    .line 2
     invoke-static {p1}, Lcom/google/android/gms/internal/ads/sm;->m(Ljava/lang/String;)V
 
     return-void

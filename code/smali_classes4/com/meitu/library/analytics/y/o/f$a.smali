@@ -30,7 +30,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -45,28 +44,23 @@
 
     if-nez p0, :cond_0
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 2
     :cond_0
     iget-object v1, p0, Landroid/content/pm/PackageInfo;->packageName:Ljava/lang/String;
 
     sput-object v1, Lcom/meitu/library/analytics/y/o/f$a;->b:Ljava/lang/String;
 
-    .line 3
     iget v1, p0, Landroid/content/pm/PackageInfo;->versionCode:I
 
     sput v1, Lcom/meitu/library/analytics/y/o/f$a;->e:I
 
-    .line 4
     iget-object p0, p0, Landroid/content/pm/PackageInfo;->versionName:Ljava/lang/String;
 
     sput-object p0, Lcom/meitu/library/analytics/y/o/f$a;->d:Ljava/lang/String;
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

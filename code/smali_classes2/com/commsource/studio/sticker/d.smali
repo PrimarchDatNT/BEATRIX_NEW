@@ -15,12 +15,10 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/studio/sticker/i;-><init>()V
 
     const/high16 v0, 0x41200000    # 10.0f
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/p/f/i;->d(F)I
 
     move-result v0
@@ -71,21 +69,18 @@
 
     invoke-static {p4, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-virtual {p3}, Landroidx/recyclerview/widget/RecyclerView;->getAdapter()Landroidx/recyclerview/widget/RecyclerView$Adapter;
 
     move-result-object p4
 
     if-eqz p4, :cond_1
 
-    .line 2
     invoke-virtual {p3, p2}, Landroidx/recyclerview/widget/RecyclerView;->getChildAdapterPosition(Landroid/view/View;)I
 
     move-result p2
 
     const-string p3, "it"
 
-    .line 3
     invoke-static {p4, p3}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {p4}, Landroidx/recyclerview/widget/RecyclerView$Adapter;->getItemCount()I
@@ -98,7 +93,6 @@
 
     if-ne p2, p3, :cond_0
 
-    .line 4
     sget-object p2, Lcom/commsource/studio/sticker/i;->d:Lcom/commsource/studio/sticker/i$a;
 
     invoke-virtual {p2}, Lcom/commsource/studio/sticker/i$a;->a()I
@@ -115,7 +109,6 @@
 
     goto :goto_0
 
-    .line 5
     :cond_0
     sget-object p2, Lcom/commsource/studio/sticker/i;->d:Lcom/commsource/studio/sticker/i$a;
 
@@ -129,7 +122,6 @@
 
     invoke-virtual {p1, p3, p2, p4, p4}, Landroid/graphics/Rect;->set(IIII)V
 
-    .line 6
     :cond_1
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

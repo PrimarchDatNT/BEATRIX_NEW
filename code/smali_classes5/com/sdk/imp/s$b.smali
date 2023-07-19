@@ -29,7 +29,6 @@
 .method constructor <init>(Ljava/util/ArrayList;Lcom/sdk/imp/s$f;Landroid/content/Context;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/sdk/imp/s$b;->a:Ljava/util/ArrayList;
 
     iput-object p2, p0, Lcom/sdk/imp/s$b;->b:Lcom/sdk/imp/s$f;
@@ -44,7 +43,6 @@
 .method private c()V
     .locals 3
 
-    .line 1
     iget-object v0, p0, Lcom/sdk/imp/s$b;->a:Ljava/util/ArrayList;
 
     invoke-virtual {v0}, Ljava/util/ArrayList;->isEmpty()Z
@@ -53,14 +51,12 @@
 
     if-eqz v0, :cond_0
 
-    .line 2
     iget-object v0, p0, Lcom/sdk/imp/s$b;->b:Lcom/sdk/imp/s$f;
 
     invoke-static {v0}, Lcom/sdk/imp/s;->h(Lcom/sdk/imp/s$f;)V
 
     goto :goto_0
 
-    .line 3
     :cond_0
     iget-object v0, p0, Lcom/sdk/imp/s$b;->c:Landroid/content/Context;
 
@@ -79,7 +75,6 @@
 .method public a(Ljava/lang/String;Lcom/sdk/api/InternalAdError;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/sdk/imp/s$b;->c()V
 
     return-void
@@ -88,7 +83,6 @@
 .method public b(Ljava/lang/String;Ljava/lang/String;Z)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/sdk/imp/s$b;->c()V
 
     return-void

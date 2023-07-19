@@ -25,7 +25,6 @@
 .method constructor <init>(Lcom/meitu/media/encoder/h;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/media/encoder/h$d;->a:Lcom/meitu/media/encoder/h;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -42,7 +41,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     :cond_0
     :goto_0
     iget-object v1, p0, Lcom/meitu/media/encoder/h$d;->a:Lcom/meitu/media/encoder/h;
@@ -51,17 +49,14 @@
 
     if-nez v2, :cond_1
 
-    .line 2
     iget-boolean v2, v1, Lcom/meitu/media/encoder/h;->s:Z
 
     if-eqz v2, :cond_0
 
-    .line 3
     iget-object v1, v1, Lcom/meitu/media/encoder/h;->v:Ljava/nio/ByteBuffer;
 
     invoke-virtual {v1}, Ljava/nio/ByteBuffer;->clear()Ljava/nio/Buffer;
 
-    .line 4
     iget-object v1, p0, Lcom/meitu/media/encoder/h$d;->a:Lcom/meitu/media/encoder/h;
 
     iget-object v2, v1, Lcom/meitu/media/encoder/h;->t:Lcom/meitu/media/encoder/h$e;
@@ -78,7 +73,6 @@
 
     if-lez v1, :cond_0
 
-    .line 5
     iget-object v2, p0, Lcom/meitu/media/encoder/h$d;->a:Lcom/meitu/media/encoder/h;
 
     iget-object v3, v2, Lcom/meitu/media/encoder/h;->v:Ljava/nio/ByteBuffer;
@@ -89,7 +83,6 @@
 
     invoke-virtual {v3, v2, v4, v1}, Ljava/nio/ByteBuffer;->get([BII)Ljava/nio/ByteBuffer;
 
-    .line 6
     iget-object v2, p0, Lcom/meitu/media/encoder/h$d;->a:Lcom/meitu/media/encoder/h;
 
     iget-object v3, v2, Lcom/meitu/media/encoder/h;->a:Lcom/meitu/media/encoder/a;
@@ -105,10 +98,8 @@
 
     const-string v2, "AudioFetchRunnable is run finish"
 
-    .line 7
     invoke-static {v1, v2}, Lcom/meitu/debug/Logger;->b(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

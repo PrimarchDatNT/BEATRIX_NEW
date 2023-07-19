@@ -27,7 +27,6 @@
 .method constructor <init>(Lcom/google/firebase/crashlytics/internal/common/i;Ljava/util/Set;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/firebase/crashlytics/internal/common/i$g;->b:Lcom/google/firebase/crashlytics/internal/common/i;
 
     iput-object p2, p0, Lcom/google/firebase/crashlytics/internal/common/i$g;->a:Ljava/util/Set;
@@ -42,7 +41,6 @@
 .method public accept(Ljava/io/File;Ljava/lang/String;)Z
     .locals 2
 
-    .line 1
     invoke-virtual {p2}, Ljava/lang/String;->length()I
 
     move-result p1
@@ -55,7 +53,6 @@
 
     return v0
 
-    .line 2
     :cond_0
     iget-object p1, p0, Lcom/google/firebase/crashlytics/internal/common/i$g;->a:Ljava/util/Set;
 

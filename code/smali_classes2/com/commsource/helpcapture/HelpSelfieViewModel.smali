@@ -125,66 +125,56 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/commsource/autocamera/SimpleCameraViewModel;-><init>(Landroid/app/Application;)V
 
-    .line 2
     new-instance p1, Landroidx/lifecycle/MutableLiveData;
 
     invoke-direct {p1}, Landroidx/lifecycle/MutableLiveData;-><init>()V
 
     iput-object p1, p0, Lcom/commsource/helpcapture/HelpSelfieViewModel;->e0:Landroidx/lifecycle/MutableLiveData;
 
-    .line 3
     new-instance p1, Landroidx/lifecycle/MutableLiveData;
 
     invoke-direct {p1}, Landroidx/lifecycle/MutableLiveData;-><init>()V
 
     iput-object p1, p0, Lcom/commsource/helpcapture/HelpSelfieViewModel;->f0:Landroidx/lifecycle/MutableLiveData;
 
-    .line 4
     new-instance p1, Landroidx/lifecycle/MutableLiveData;
 
     invoke-direct {p1}, Landroidx/lifecycle/MutableLiveData;-><init>()V
 
     iput-object p1, p0, Lcom/commsource/helpcapture/HelpSelfieViewModel;->g0:Landroidx/lifecycle/MutableLiveData;
 
-    .line 5
     new-instance p1, Landroidx/lifecycle/MutableLiveData;
 
     invoke-direct {p1}, Landroidx/lifecycle/MutableLiveData;-><init>()V
 
     iput-object p1, p0, Lcom/commsource/helpcapture/HelpSelfieViewModel;->h0:Landroidx/lifecycle/MutableLiveData;
 
-    .line 6
     new-instance p1, Landroidx/lifecycle/MutableLiveData;
 
     invoke-direct {p1}, Landroidx/lifecycle/MutableLiveData;-><init>()V
 
     iput-object p1, p0, Lcom/commsource/helpcapture/HelpSelfieViewModel;->i0:Landroidx/lifecycle/MutableLiveData;
 
-    .line 7
     new-instance p1, Landroidx/lifecycle/MutableLiveData;
 
     invoke-direct {p1}, Landroidx/lifecycle/MutableLiveData;-><init>()V
 
     iput-object p1, p0, Lcom/commsource/helpcapture/HelpSelfieViewModel;->j0:Landroidx/lifecycle/MutableLiveData;
 
-    .line 8
     new-instance p1, Landroidx/lifecycle/MutableLiveData;
 
     invoke-direct {p1}, Landroidx/lifecycle/MutableLiveData;-><init>()V
 
     iput-object p1, p0, Lcom/commsource/helpcapture/HelpSelfieViewModel;->k0:Landroidx/lifecycle/MutableLiveData;
 
-    .line 9
     new-instance p1, Ljava/util/ArrayList;
 
     invoke-direct {p1}, Ljava/util/ArrayList;-><init>()V
 
     iput-object p1, p0, Lcom/commsource/helpcapture/HelpSelfieViewModel;->m0:Ljava/util/List;
 
-    .line 10
     new-instance p1, Landroid/graphics/Matrix;
 
     invoke-direct {p1}, Landroid/graphics/Matrix;-><init>()V
@@ -195,12 +185,10 @@
 
     new-array v0, p1, [F
 
-    .line 11
     iput-object v0, p0, Lcom/commsource/helpcapture/HelpSelfieViewModel;->q0:[F
 
     new-array p1, p1, [F
 
-    .line 12
     iput-object p1, p0, Lcom/commsource/helpcapture/HelpSelfieViewModel;->r0:[F
 
     return-void
@@ -213,7 +201,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/helpcapture/HelpSelfieViewModel;->p0:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -228,7 +215,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/helpcapture/HelpSelfieViewModel;->p0:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -243,7 +229,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/helpcapture/HelpSelfieViewModel;->i0:Landroidx/lifecycle/MutableLiveData;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -258,7 +243,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/helpcapture/HelpSelfieViewModel;->k0:Landroidx/lifecycle/MutableLiveData;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -273,7 +257,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/helpcapture/HelpSelfieViewModel;->h0:Landroidx/lifecycle/MutableLiveData;
 
     invoke-virtual {v1, p1}, Landroidx/lifecycle/MutableLiveData;->postValue(Ljava/lang/Object;)V
@@ -292,7 +275,6 @@
 
     if-eqz p2, :cond_0
 
-    .line 1
     invoke-interface {p2}, Ljava/util/List;->size()I
 
     move-result v1
@@ -311,48 +293,40 @@
 
     const-string v3, "\u72b6\u6001"
 
-    .line 2
     invoke-static {v2, v3, v1}, Lcom/commsource/statistics/i;->r(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     if-eqz p2, :cond_1
 
-    .line 3
     invoke-interface {p2}, Ljava/util/List;->size()I
 
     move-result v1
 
     if-lez v1, :cond_1
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/helpcapture/HelpSelfieViewModel;->m0:Ljava/util/List;
 
     invoke-interface {v1}, Ljava/util/List;->clear()V
 
-    .line 5
     iget-object v1, p0, Lcom/commsource/helpcapture/HelpSelfieViewModel;->m0:Ljava/util/List;
 
     invoke-interface {v1, p2}, Ljava/util/List;->addAll(Ljava/util/Collection;)Z
 
-    .line 6
     iget-object v1, p0, Lcom/commsource/helpcapture/HelpSelfieViewModel;->e0:Landroidx/lifecycle/MutableLiveData;
 
     new-instance v2, Lcom/commsource/helpcapture/HelpSelfieViewModel$e;
 
     iget-object v3, p0, Lcom/commsource/helpcapture/HelpSelfieViewModel;->o0:Landroid/graphics/Bitmap;
 
-    .line 7
     invoke-virtual {p1}, Lcom/commsource/autocamera/SimpleCameraViewModel$f;->d()I
 
     move-result p1
 
     invoke-direct {v2, p0, v3, p1, p2}, Lcom/commsource/helpcapture/HelpSelfieViewModel$e;-><init>(Lcom/commsource/helpcapture/HelpSelfieViewModel;Landroid/graphics/Bitmap;ILjava/util/List;)V
 
-    .line 8
     invoke-virtual {v1, v2}, Landroidx/lifecycle/MutableLiveData;->postValue(Ljava/lang/Object;)V
 
     goto :goto_1
 
-    .line 9
     :cond_1
     iget-object p1, p0, Lcom/commsource/helpcapture/HelpSelfieViewModel;->e0:Landroidx/lifecycle/MutableLiveData;
 
@@ -360,7 +334,6 @@
 
     invoke-virtual {p1, p2}, Landroidx/lifecycle/MutableLiveData;->postValue(Ljava/lang/Object;)V
 
-    .line 10
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -376,21 +349,18 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/commsource/helpcapture/j0;
 
     invoke-direct {v1}, Lcom/commsource/helpcapture/j0;-><init>()V
 
     iput-object v1, p0, Lcom/commsource/helpcapture/HelpSelfieViewModel;->l0:Lcom/commsource/helpcapture/j0;
 
-    .line 2
     new-instance v2, Lcom/commsource/helpcapture/i0;
 
     invoke-direct {v2, p0}, Lcom/commsource/helpcapture/i0;-><init>(Lcom/commsource/helpcapture/HelpSelfieViewModel;)V
 
     invoke-virtual {v1, v2}, Lcom/commsource/helpcapture/j0;->y1(Lcom/commsource/helpcapture/j0$d;)V
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/helpcapture/HelpSelfieViewModel;->l0:Lcom/commsource/helpcapture/j0;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -405,19 +375,16 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/helpcapture/HelpSelfieViewModel;->n0:Landroid/graphics/Matrix;
 
     invoke-virtual {v1}, Landroid/graphics/Matrix;->reset()V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/helpcapture/HelpSelfieViewModel;->n0:Landroid/graphics/Matrix;
 
     double-to-float p4, p4
 
     invoke-virtual {v1, p4, p2, p3}, Landroid/graphics/Matrix;->postRotate(FFF)Z
 
-    .line 3
     iget-object p2, p0, Lcom/commsource/helpcapture/HelpSelfieViewModel;->r0:[F
 
     invoke-virtual {p1}, Landroid/view/View;->getLeft()I
@@ -440,7 +407,6 @@
 
     aput p3, p2, p5
 
-    .line 4
     iget-object p2, p0, Lcom/commsource/helpcapture/HelpSelfieViewModel;->r0:[F
 
     invoke-virtual {p1}, Landroid/view/View;->getTop()I
@@ -461,7 +427,6 @@
 
     aput p3, p2, p4
 
-    .line 5
     iget-object p2, p0, Lcom/commsource/helpcapture/HelpSelfieViewModel;->n0:Landroid/graphics/Matrix;
 
     iget-object p3, p0, Lcom/commsource/helpcapture/HelpSelfieViewModel;->q0:[F
@@ -470,7 +435,6 @@
 
     invoke-virtual {p2, p3, v1}, Landroid/graphics/Matrix;->mapPoints([F[F)V
 
-    .line 6
     iget-object p2, p0, Lcom/commsource/helpcapture/HelpSelfieViewModel;->q0:[F
 
     aget p3, p2, p5
@@ -483,7 +447,6 @@
 
     aput p3, p2, p5
 
-    .line 7
     aget p3, p2, p4
 
     aget v1, v1, p4
@@ -514,7 +477,6 @@
 
     if-ne p6, p3, :cond_2
 
-    .line 8
     :cond_1
     aget p2, p2, p5
 
@@ -530,13 +492,11 @@
 
     goto :goto_1
 
-    .line 9
     :cond_2
     aget p2, p2, p5
 
     invoke-virtual {p1, p2}, Landroid/view/View;->setTranslationX(F)V
 
-    .line 10
     :goto_1
     iget-object p2, p0, Lcom/commsource/helpcapture/HelpSelfieViewModel;->q0:[F
 
@@ -546,10 +506,8 @@
 
     int-to-float p2, v2
 
-    .line 11
     invoke-virtual {p1, p2}, Landroid/view/View;->setRotation(F)V
 
-    .line 12
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -569,7 +527,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/helpcapture/HelpSelfieViewModel;->h0:Landroidx/lifecycle/MutableLiveData;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -584,7 +541,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1, p2, p3, p4}, Ljava/lang/Math;->atan2(DD)D
 
     move-result-wide p1
@@ -609,7 +565,6 @@
 
     int-to-double p1, p5
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-wide p1
@@ -626,7 +581,6 @@
     :cond_1
     mul-double p3, p1, v2
 
-    .line 3
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -644,7 +598,6 @@
     :cond_3
     neg-double p1, p1
 
-    .line 4
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -658,7 +611,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/commsource/helpcapture/HelpSelfieViewModel$c;
 
     invoke-direct {v1, p0}, Lcom/commsource/helpcapture/HelpSelfieViewModel$c;-><init>(Lcom/commsource/helpcapture/HelpSelfieViewModel;)V
@@ -683,7 +635,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/helpcapture/HelpSelfieViewModel;->e0:Landroidx/lifecycle/MutableLiveData;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -706,7 +657,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/helpcapture/HelpSelfieViewModel;->m0:Ljava/util/List;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -721,7 +671,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/helpcapture/HelpSelfieViewModel;->o0:Landroid/graphics/Bitmap;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -736,7 +685,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/helpcapture/HelpSelfieViewModel;->p0:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -759,7 +707,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/helpcapture/HelpSelfieViewModel;->j0:Landroidx/lifecycle/MutableLiveData;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -782,7 +729,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/helpcapture/HelpSelfieViewModel;->f0:Landroidx/lifecycle/MutableLiveData;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -805,7 +751,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/helpcapture/HelpSelfieViewModel;->i0:Landroidx/lifecycle/MutableLiveData;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -828,7 +773,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/helpcapture/HelpSelfieViewModel;->k0:Landroidx/lifecycle/MutableLiveData;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -851,7 +795,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/helpcapture/HelpSelfieViewModel;->g0:Landroidx/lifecycle/MutableLiveData;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -886,7 +829,6 @@
 
     if-eqz p1, :cond_9
 
-    .line 1
     invoke-virtual {p1}, Lcom/commsource/autocamera/SimpleCameraViewModel$f;->a()Landroid/graphics/Bitmap;
 
     move-result-object v2
@@ -899,10 +841,8 @@
 
     const-string v2, "handover_pre_creat_point_clk"
 
-    .line 2
     invoke-static {v2}, Lcom/commsource/statistics/i;->p(Ljava/lang/String;)V
 
-    .line 3
     invoke-virtual {p1}, Lcom/commsource/autocamera/SimpleCameraViewModel$f;->a()Landroid/graphics/Bitmap;
 
     move-result-object v2
@@ -917,31 +857,26 @@
 
     iput-object v2, p0, Lcom/commsource/helpcapture/HelpSelfieViewModel;->o0:Landroid/graphics/Bitmap;
 
-    .line 4
     invoke-virtual {p1}, Lcom/commsource/autocamera/SimpleCameraViewModel$f;->d()I
 
     move-result v2
 
-    .line 5
     iget-object v3, p0, Lcom/commsource/helpcapture/HelpSelfieViewModel;->o0:Landroid/graphics/Bitmap;
 
     invoke-virtual {v3}, Landroid/graphics/Bitmap;->getHeight()I
 
     move-result v9
 
-    .line 6
     iget-object v3, p0, Lcom/commsource/helpcapture/HelpSelfieViewModel;->o0:Landroid/graphics/Bitmap;
 
     invoke-virtual {v3}, Landroid/graphics/Bitmap;->getWidth()I
 
     move-result v8
 
-    .line 7
     new-instance v10, Landroid/graphics/Matrix;
 
     invoke-direct {v10}, Landroid/graphics/Matrix;-><init>()V
 
-    .line 8
     invoke-virtual {p1}, Lcom/commsource/autocamera/SimpleCameraViewModel$f;->d()I
 
     move-result v3
@@ -976,7 +911,6 @@
 
     if-eqz v3, :cond_2
 
-    .line 9
     invoke-static {}, Lcom/meitu/library/p/f/i;->z()I
 
     move-result v3
@@ -989,7 +923,6 @@
 
     goto :goto_2
 
-    .line 10
     :cond_2
     invoke-static {}, Lcom/meitu/library/p/f/i;->z()I
 
@@ -1004,7 +937,6 @@
     :goto_2
     div-float/2addr v3, v11
 
-    .line 11
     invoke-virtual {p1}, Lcom/commsource/autocamera/SimpleCameraViewModel$f;->d()I
 
     move-result v11
@@ -1023,7 +955,6 @@
 
     goto :goto_3
 
-    .line 12
     :cond_3
     invoke-static {}, Lcom/meitu/library/p/f/i;->z()I
 
@@ -1031,7 +962,6 @@
 
     if-eq v2, v8, :cond_4
 
-    .line 13
     invoke-virtual {v10, v3, v3, v13, v13}, Landroid/graphics/Matrix;->postScale(FFFF)Z
 
     goto :goto_4
@@ -1055,24 +985,20 @@
 
     div-float/2addr v6, v12
 
-    .line 14
     invoke-virtual {v10, v2, v5, v6}, Landroid/graphics/Matrix;->postRotate(FFF)Z
 
-    .line 15
     invoke-static {}, Lcom/meitu/library/p/f/i;->z()I
 
     move-result v2
 
     if-eq v2, v9, :cond_6
 
-    .line 16
     invoke-virtual {v10, v3, v3, v13, v13}, Landroid/graphics/Matrix;->postScale(FFFF)Z
 
     :cond_6
     :goto_4
     if-eqz v4, :cond_7
 
-    .line 17
     iget-object v5, p0, Lcom/commsource/helpcapture/HelpSelfieViewModel;->o0:Landroid/graphics/Bitmap;
 
     const/4 v6, 0x0
@@ -1087,7 +1013,6 @@
 
     iput-object v2, p0, Lcom/commsource/helpcapture/HelpSelfieViewModel;->o0:Landroid/graphics/Bitmap;
 
-    .line 18
     :cond_7
     iget-object v2, p0, Lcom/commsource/helpcapture/HelpSelfieViewModel;->o0:Landroid/graphics/Bitmap;
 
@@ -1109,22 +1034,18 @@
 
     div-float/2addr v2, v12
 
-    .line 19
     invoke-static {}, Lcom/commsource/helpcapture/k0;->L()F
 
     move-result v3
 
     mul-float v2, v2, v3
 
-    .line 20
     invoke-static {v2}, Lcom/commsource/helpcapture/k0;->b0(F)V
 
-    .line 21
     iget-object v2, p0, Lcom/commsource/helpcapture/HelpSelfieViewModel;->l0:Lcom/commsource/helpcapture/j0;
 
     if-eqz v2, :cond_8
 
-    .line 22
     iget-object v1, p0, Lcom/commsource/helpcapture/HelpSelfieViewModel;->o0:Landroid/graphics/Bitmap;
 
     new-instance v3, Lcom/commsource/helpcapture/h0;
@@ -1135,7 +1056,6 @@
 
     goto :goto_5
 
-    .line 23
     :cond_8
     iget-object p1, p0, Lcom/commsource/helpcapture/HelpSelfieViewModel;->e0:Landroidx/lifecycle/MutableLiveData;
 
@@ -1143,13 +1063,11 @@
 
     goto :goto_5
 
-    .line 24
     :cond_9
     iget-object p1, p0, Lcom/commsource/helpcapture/HelpSelfieViewModel;->e0:Landroidx/lifecycle/MutableLiveData;
 
     invoke-virtual {p1, v1}, Landroidx/lifecycle/MutableLiveData;->postValue(Ljava/lang/Object;)V
 
-    .line 25
     :goto_5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1169,11 +1087,9 @@
 
     const/4 v3, 0x0
 
-    .line 1
     :try_start_0
     sget-object v5, Landroid/provider/MediaStore$Images$Media;->EXTERNAL_CONTENT_URI:Landroid/net/Uri;
 
-    .line 2
     filled-new-array {v1}, [Ljava/lang/String;
 
     move-result-object v6
@@ -1192,7 +1108,6 @@
 
     const/4 v4, 0x1
 
-    .line 3
     new-instance v9, Ljava/lang/StringBuilder;
 
     invoke-direct {v9}, Ljava/lang/StringBuilder;-><init>()V
@@ -1213,7 +1128,6 @@
 
     aput-object v0, v8, v4
 
-    .line 4
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
     move-result-object v0
@@ -1230,10 +1144,8 @@
 
     if-eqz v3, :cond_0
 
-    .line 5
     invoke-interface {v3}, Landroid/database/Cursor;->moveToFirst()Z
 
-    .line 6
     invoke-interface {v3, v1}, Landroid/database/Cursor;->getColumnIndex(Ljava/lang/String;)I
 
     move-result v0
@@ -1242,7 +1154,6 @@
 
     move-result-object v0
 
-    .line 7
     iget-object v1, p0, Lcom/commsource/helpcapture/HelpSelfieViewModel;->f0:Landroidx/lifecycle/MutableLiveData;
 
     invoke-virtual {v1, v0}, Landroidx/lifecycle/MutableLiveData;->postValue(Ljava/lang/Object;)V
@@ -1260,10 +1171,8 @@
 
     if-eqz v3, :cond_1
 
-    .line 8
     invoke-interface {v3}, Landroid/database/Cursor;->close()V
 
-    .line 9
     :cond_1
     invoke-static {v2}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1274,11 +1183,9 @@
 
     if-eqz v3, :cond_2
 
-    .line 10
     :goto_0
     invoke-interface {v3}, Landroid/database/Cursor;->close()V
 
-    .line 11
     :cond_2
     invoke-static {v2}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1292,7 +1199,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/commsource/helpcapture/HelpSelfieViewModel$b;
 
     const-string v2, "QUERY-PIC-COUNT"
@@ -1301,7 +1207,6 @@
 
     invoke-static {v1}, Lcom/commsource/util/c2;->e(Lcom/commsource/util/u2/a;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1327,7 +1232,6 @@
     :cond_0
     int-to-float p2, p2
 
-    .line 1
     invoke-virtual {p1, p2}, Landroid/view/View;->setRotation(F)V
 
     goto :goto_1
@@ -1338,10 +1242,8 @@
 
     int-to-float p2, p2
 
-    .line 2
     invoke-virtual {p1, p2}, Landroid/view/View;->setRotation(F)V
 
-    .line 3
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1355,7 +1257,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/commsource/helpcapture/HelpSelfieViewModel$a;
 
     const-string v2, "Save-HelpSelfie_Image"
@@ -1364,7 +1265,6 @@
 
     invoke-static {v1}, Lcom/commsource/util/c2;->g(Lcom/commsource/util/u2/a;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1377,15 +1277,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/helpcapture/HelpSelfieViewModel;->l0:Lcom/commsource/helpcapture/j0;
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-virtual {v1, p1}, Lcom/commsource/helpcapture/j0;->F1(Z)V
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

@@ -67,7 +67,6 @@
 
     if-eqz p1, :cond_1
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/store/doodle/DoodleChildStoreFragment$f;->a:Lcom/commsource/store/doodle/DoodleChildStoreFragment;
 
     invoke-static {v1}, Lcom/commsource/store/doodle/DoodleChildStoreFragment;->C(Lcom/commsource/store/doodle/DoodleChildStoreFragment;)I
@@ -88,7 +87,6 @@
     :goto_0
     if-eqz p1, :cond_1
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/store/doodle/DoodleChildStoreFragment$f;->a:Lcom/commsource/store/doodle/DoodleChildStoreFragment;
 
     invoke-static {v1}, Lcom/commsource/store/doodle/DoodleChildStoreFragment;->C(Lcom/commsource/store/doodle/DoodleChildStoreFragment;)I
@@ -103,12 +101,10 @@
 
     invoke-static {v1, p1}, Lcom/commsource/store/doodle/DoodleChildStoreFragment;->E(Lcom/commsource/store/doodle/DoodleChildStoreFragment;Lcom/commsource/studio/doodle/j;)V
 
-    .line 3
     iget-object p1, p0, Lcom/commsource/store/doodle/DoodleChildStoreFragment$f;->a:Lcom/commsource/store/doodle/DoodleChildStoreFragment;
 
     invoke-static {p1}, Lcom/commsource/store/doodle/DoodleChildStoreFragment;->D(Lcom/commsource/store/doodle/DoodleChildStoreFragment;)V
 
-    .line 4
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -122,7 +118,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Ljava/util/List;
 
     invoke-virtual {p0, p1}, Lcom/commsource/store/doodle/DoodleChildStoreFragment$f;->a(Ljava/util/List;)V

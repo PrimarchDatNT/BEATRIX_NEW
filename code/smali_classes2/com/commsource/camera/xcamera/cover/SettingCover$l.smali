@@ -29,7 +29,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/camera/xcamera/cover/SettingCover$l;->a:Lcom/commsource/camera/xcamera/cover/SettingCover;
 
     invoke-direct {p0}, Lcom/commsource/util/delegate/process/f;-><init>()V
@@ -46,7 +45,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/SettingCover$l;->a:Lcom/commsource/camera/xcamera/cover/SettingCover;
 
     invoke-virtual {v1}, Lcom/commsource/camera/xcamera/cover/SettingCover;->Q()Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/e;
@@ -63,7 +61,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/e;->E(Z)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/SettingCover$l;->a:Lcom/commsource/camera/xcamera/cover/SettingCover;
 
     invoke-virtual {v1}, Lcom/commsource/camera/xcamera/cover/AbsBaseCover;->c()Lcom/commsource/camera/xcamera/cover/CoverGroup;
@@ -78,7 +75,6 @@
 
     move-result v1
 
-    .line 3
     iget-object v2, p0, Lcom/commsource/camera/xcamera/cover/SettingCover$l;->a:Lcom/commsource/camera/xcamera/cover/SettingCover;
 
     invoke-virtual {v2}, Lcom/commsource/camera/xcamera/cover/SettingCover;->M()Lcom/commsource/camera/xcamera/FastCaptureViewModel;
@@ -87,7 +83,6 @@
 
     invoke-virtual {v2, v1}, Lcom/commsource/camera/xcamera/FastCaptureViewModel;->G(Z)V
 
-    .line 4
     iget-object v2, p0, Lcom/commsource/camera/xcamera/cover/SettingCover$l;->a:Lcom/commsource/camera/xcamera/cover/SettingCover;
 
     invoke-virtual {v2}, Lcom/commsource/camera/xcamera/cover/AbsLazyCover;->A()Landroidx/databinding/ViewDataBinding;
@@ -104,7 +99,6 @@
 
     invoke-virtual {v2, v1}, Lcom/commsource/camera/xcamera/widget/CameraSwitchButton;->j(Z)V
 
-    .line 5
     :cond_0
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/SettingCover$l;->a:Lcom/commsource/camera/xcamera/cover/SettingCover;
 
@@ -128,7 +122,6 @@
 
     if-eqz v1, :cond_3
 
-    .line 6
     invoke-interface {v1}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
     move-result-object v1
@@ -149,7 +142,6 @@
 
     const-string v3, "entity"
 
-    .line 7
     invoke-static {v2, v3}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v2}, Lcom/commsource/beautyplus/data/BeautyFaceBodyEntity;->getBeautyType()I
@@ -160,7 +152,6 @@
 
     if-ne v3, v4, :cond_1
 
-    .line 8
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
     move-result-object v3
@@ -178,7 +169,6 @@
     :cond_2
     const/16 v3, -0x64
 
-    .line 9
     :goto_1
     invoke-virtual {v2}, Lcom/commsource/beautyplus/data/BeautyFaceBodyEntity;->getProgress()I
 
@@ -186,10 +176,8 @@
 
     if-eq v4, v3, :cond_1
 
-    .line 10
     invoke-virtual {v2, v3}, Lcom/commsource/beautyplus/data/BeautyFaceBodyEntity;->setProgress(I)V
 
-    .line 11
     iget-object v2, p0, Lcom/commsource/camera/xcamera/cover/SettingCover$l;->a:Lcom/commsource/camera/xcamera/cover/SettingCover;
 
     invoke-virtual {v2}, Lcom/commsource/camera/xcamera/cover/SettingCover;->H()Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/beauty/d;
@@ -210,7 +198,6 @@
 
     goto :goto_0
 
-    .line 12
     :cond_3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

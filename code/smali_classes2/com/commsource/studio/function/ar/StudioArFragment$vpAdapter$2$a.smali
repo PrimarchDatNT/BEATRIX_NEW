@@ -31,7 +31,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/function/ar/StudioArFragment$vpAdapter$2$a;->a:Lcom/commsource/studio/function/ar/StudioArFragment$vpAdapter$2;
 
     invoke-direct {p0, p2}, Landroidx/fragment/app/FragmentStatePagerAdapter;-><init>(Landroidx/fragment/app/FragmentManager;)V
@@ -48,7 +47,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/function/ar/StudioArFragment$vpAdapter$2$a;->a:Lcom/commsource/studio/function/ar/StudioArFragment$vpAdapter$2;
 
     iget-object v1, v1, Lcom/commsource/studio/function/ar/StudioArFragment$vpAdapter$2;->this$0:Lcom/commsource/studio/function/ar/StudioArFragment;
@@ -103,33 +101,27 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     new-instance v1, Lcom/commsource/studio/function/ar/StudioArChildFragment;
 
     invoke-direct {v1}, Lcom/commsource/studio/function/ar/StudioArChildFragment;-><init>()V
 
-    .line 2
     new-instance v2, Landroid/os/Bundle;
 
     invoke-direct {v2}, Landroid/os/Bundle;-><init>()V
 
     const-string v3, "position"
 
-    .line 3
     invoke-virtual {v2, v3, p1}, Landroid/os/Bundle;->putInt(Ljava/lang/String;I)V
 
-    .line 4
     invoke-virtual {v1, v2}, Landroidx/fragment/app/Fragment;->setArguments(Landroid/os/Bundle;)V
 
     goto :goto_0
 
-    .line 5
     :cond_0
     new-instance v1, Lcom/commsource/studio/function/ar/StudioMyArFragment;
 
     invoke-direct {v1}, Lcom/commsource/studio/function/ar/StudioMyArFragment;-><init>()V
 
-    .line 6
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

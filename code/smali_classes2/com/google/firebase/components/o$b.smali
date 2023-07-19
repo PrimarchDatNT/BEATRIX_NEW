@@ -56,24 +56,20 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     new-instance v0, Ljava/util/HashSet;
 
     invoke-direct {v0}, Ljava/util/HashSet;-><init>()V
 
     iput-object v0, p0, Lcom/google/firebase/components/o$b;->b:Ljava/util/Set;
 
-    .line 3
     new-instance v0, Ljava/util/HashSet;
 
     invoke-direct {v0}, Ljava/util/HashSet;-><init>()V
 
     iput-object v0, p0, Lcom/google/firebase/components/o$b;->c:Ljava/util/Set;
 
-    .line 4
     iput-object p1, p0, Lcom/google/firebase/components/o$b;->a:Lcom/google/firebase/components/f;
 
     return-void
@@ -84,7 +80,6 @@
 .method a(Lcom/google/firebase/components/o$b;)V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/components/o$b;->b:Ljava/util/Set;
 
     invoke-interface {v0, p1}, Ljava/util/Set;->add(Ljava/lang/Object;)Z
@@ -95,7 +90,6 @@
 .method b(Lcom/google/firebase/components/o$b;)V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/components/o$b;->c:Ljava/util/Set;
 
     invoke-interface {v0, p1}, Ljava/util/Set;->add(Ljava/lang/Object;)Z
@@ -113,7 +107,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/components/o$b;->a:Lcom/google/firebase/components/f;
 
     return-object v0
@@ -130,7 +123,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/components/o$b;->b:Ljava/util/Set;
 
     return-object v0
@@ -139,7 +131,6 @@
 .method e()Z
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/components/o$b;->b:Ljava/util/Set;
 
     invoke-interface {v0}, Ljava/util/Set;->isEmpty()Z
@@ -152,7 +143,6 @@
 .method f()Z
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/components/o$b;->c:Ljava/util/Set;
 
     invoke-interface {v0}, Ljava/util/Set;->isEmpty()Z
@@ -165,7 +155,6 @@
 .method g(Lcom/google/firebase/components/o$b;)V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/components/o$b;->c:Ljava/util/Set;
 
     invoke-interface {v0, p1}, Ljava/util/Set;->remove(Ljava/lang/Object;)Z

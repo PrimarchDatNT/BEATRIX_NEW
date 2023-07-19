@@ -19,7 +19,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -28,7 +27,6 @@
 .method public synthetic constructor <init>(Lcotlin/jvm/internal/u;)V
     .locals 0
 
-    .line 2
     invoke-direct {p0}, Lcom/commsource/camera/xcamera/CameraNewActivity$a;-><init>()V
 
     return-void
@@ -43,12 +41,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v1
 
-    .line 2
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/CameraNewActivity$a;->b()J
 
     move-result-wide v3
@@ -63,12 +59,10 @@
 
     if-lez v7, :cond_0
 
-    .line 3
     invoke-virtual {p0, v1, v2}, Lcom/commsource/camera/xcamera/CameraNewActivity$a;->c(J)V
 
     const/4 v1, 0x1
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
@@ -76,7 +70,6 @@
     :cond_0
     const/4 v1, 0x0
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
@@ -89,7 +82,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/commsource/camera/xcamera/CameraNewActivity;->i1()J
 
     move-result-wide v1
@@ -106,7 +98,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1, p2}, Lcom/commsource/camera/xcamera/CameraNewActivity;->r1(J)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

@@ -14,7 +14,6 @@
 .method constructor <init>(Lcom/google/android/gms/internal/ads/ue;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/android/gms/internal/ads/te;->a:Lcom/google/android/gms/internal/ads/ue;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -27,7 +26,6 @@
 .method public final onClick(Landroid/view/View;)V
     .locals 1
 
-    .line 1
     iget-object p1, p0, Lcom/google/android/gms/internal/ads/te;->a:Lcom/google/android/gms/internal/ads/ue;
 
     const/4 v0, 0x1

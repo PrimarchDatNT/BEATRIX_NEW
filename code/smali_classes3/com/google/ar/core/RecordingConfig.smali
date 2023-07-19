@@ -13,17 +13,14 @@
 .method protected constructor <init>()V
     .locals 2
 
-    .line 4
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/4 v0, 0x0
 
-    .line 5
     iput-object v0, p0, Lcom/google/ar/core/RecordingConfig;->session:Lcom/google/ar/core/Session;
 
     const-wide/16 v0, 0x0
 
-    .line 6
     iput-wide v0, p0, Lcom/google/ar/core/RecordingConfig;->nativeHandle:J
 
     return-void
@@ -32,13 +29,10 @@
 .method public constructor <init>(Lcom/google/ar/core/Session;)V
     .locals 2
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/google/ar/core/RecordingConfig;->session:Lcom/google/ar/core/Session;
 
-    .line 3
     iget-wide v0, p1, Lcom/google/ar/core/Session;->nativeWrapperHandle:J
 
     invoke-static {v0, v1}, Lcom/google/ar/core/RecordingConfig;->nativeCreateRecordingConfig(J)J
@@ -78,7 +72,6 @@
         }
     .end annotation
 
-    .line 1
     iget-wide v0, p0, Lcom/google/ar/core/RecordingConfig;->nativeHandle:J
 
     const-wide/16 v2, 0x0
@@ -87,13 +80,10 @@
 
     if-eqz v4, :cond_0
 
-    .line 2
     invoke-static {v0, v1}, Lcom/google/ar/core/RecordingConfig;->nativeDestroyRecordingConfig(J)V
 
-    .line 3
     iput-wide v2, p0, Lcom/google/ar/core/RecordingConfig;->nativeHandle:J
 
-    .line 4
     :cond_0
     invoke-super {p0}, Ljava/lang/Object;->finalize()V
 
@@ -103,7 +93,6 @@
 .method public getAutoStopOnPause()Z
     .locals 4
 
-    .line 1
     iget-object v0, p0, Lcom/google/ar/core/RecordingConfig;->session:Lcom/google/ar/core/Session;
 
     iget-wide v0, v0, Lcom/google/ar/core/Session;->nativeWrapperHandle:J
@@ -120,7 +109,6 @@
 .method public getMp4DatasetFilePath()Ljava/lang/String;
     .locals 4
 
-    .line 1
     iget-object v0, p0, Lcom/google/ar/core/RecordingConfig;->session:Lcom/google/ar/core/Session;
 
     iget-wide v0, v0, Lcom/google/ar/core/Session;->nativeWrapperHandle:J
@@ -137,7 +125,6 @@
 .method public setAutoStopOnPause(Z)Lcom/google/ar/core/RecordingConfig;
     .locals 7
 
-    .line 1
     iget-object v0, p0, Lcom/google/ar/core/RecordingConfig;->session:Lcom/google/ar/core/Session;
 
     iget-wide v2, v0, Lcom/google/ar/core/Session;->nativeWrapperHandle:J
@@ -156,7 +143,6 @@
 .method public setMp4DatasetFilePath(Ljava/lang/String;)Lcom/google/ar/core/RecordingConfig;
     .locals 7
 
-    .line 1
     iget-object v0, p0, Lcom/google/ar/core/RecordingConfig;->session:Lcom/google/ar/core/Session;
 
     iget-wide v2, v0, Lcom/google/ar/core/Session;->nativeWrapperHandle:J

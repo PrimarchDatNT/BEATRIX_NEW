@@ -21,7 +21,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -30,7 +29,6 @@
 .method synthetic constructor <init>(Lorg/apache/thrift/TUnion$1;)V
     .locals 0
 
-    .line 2
     invoke-direct {p0}, Lorg/apache/thrift/TUnion$TUnionStandardSchemeFactory;-><init>()V
 
     return-void
@@ -41,7 +39,6 @@
 .method public getScheme()Lorg/apache/thrift/TUnion$TUnionStandardScheme;
     .locals 2
 
-    .line 2
     new-instance v0, Lorg/apache/thrift/TUnion$TUnionStandardScheme;
 
     const/4 v1, 0x0
@@ -54,7 +51,6 @@
 .method public bridge synthetic getScheme()Lorg/apache/thrift/scheme/IScheme;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lorg/apache/thrift/TUnion$TUnionStandardSchemeFactory;->getScheme()Lorg/apache/thrift/TUnion$TUnionStandardScheme;
 
     move-result-object v0

@@ -27,7 +27,6 @@
 .method constructor <init>(Landroid/os/AsyncTask;[Ljava/lang/Object;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/sdk/imp/base/a$a;->a:Landroid/os/AsyncTask;
 
     iput-object p2, p0, Lcom/sdk/imp/base/a$a;->b:[Ljava/lang/Object;
@@ -42,14 +41,12 @@
 .method public run()V
     .locals 3
 
-    .line 1
     sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
 
     const/16 v1, 0xb
 
     if-lt v0, v1, :cond_0
 
-    .line 2
     iget-object v0, p0, Lcom/sdk/imp/base/a$a;->a:Landroid/os/AsyncTask;
 
     invoke-static {}, Lcom/sdk/imp/base/a;->a()Ljava/util/concurrent/Executor;
@@ -62,7 +59,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_0
     iget-object v0, p0, Lcom/sdk/imp/base/a$a;->a:Landroid/os/AsyncTask;
 

@@ -58,7 +58,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Ljava/lang/Boolean;
 
     invoke-virtual {p1}, Ljava/lang/Boolean;->booleanValue()Z
@@ -83,7 +82,6 @@
 
     if-nez p1, :cond_0
 
-    .line 2
     iget-object p1, p0, Lcom/commsource/puzzle/StitchComponent$gestureDetector$1$onLongPress$$inlined$let$lambda$1;->this$0:Lcom/commsource/puzzle/StitchComponent$gestureDetector$1;
 
     iget-object p1, p1, Lcom/commsource/puzzle/StitchComponent$gestureDetector$1;->a:Lcom/commsource/puzzle/StitchComponent;
@@ -92,7 +90,6 @@
 
     invoke-static {p1, v1}, Lcom/commsource/puzzle/StitchComponent;->z(Lcom/commsource/puzzle/StitchComponent;I)V
 
-    .line 3
     iget-object p1, p0, Lcom/commsource/puzzle/StitchComponent$gestureDetector$1$onLongPress$$inlined$let$lambda$1;->this$0:Lcom/commsource/puzzle/StitchComponent$gestureDetector$1;
 
     iget-object p1, p1, Lcom/commsource/puzzle/StitchComponent$gestureDetector$1;->a:Lcom/commsource/puzzle/StitchComponent;
@@ -105,14 +102,12 @@
 
     invoke-virtual {p1, v1}, Lcom/commsource/puzzle/StitchComponent$StitchContainer;->o(I)V
 
-    .line 4
     iget-object p1, p0, Lcom/commsource/puzzle/StitchComponent$gestureDetector$1$onLongPress$$inlined$let$lambda$1;->this$0:Lcom/commsource/puzzle/StitchComponent$gestureDetector$1;
 
     iget-object p1, p1, Lcom/commsource/puzzle/StitchComponent$gestureDetector$1;->a:Lcom/commsource/puzzle/StitchComponent;
 
     invoke-virtual {p1}, Landroid/widget/FrameLayout;->invalidate()V
 
-    .line 5
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

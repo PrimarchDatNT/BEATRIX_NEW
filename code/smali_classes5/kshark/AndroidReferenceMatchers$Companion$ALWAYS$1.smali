@@ -60,7 +60,6 @@
 .method public bridge synthetic invoke(Ljava/lang/Object;)Ljava/lang/Object;
     .locals 0
 
-    .line 1
     check-cast p1, Lkshark/AndroidBuildMirror;
 
     invoke-virtual {p0, p1}, Lkshark/AndroidReferenceMatchers$Companion$ALWAYS$1;->invoke(Lkshark/AndroidBuildMirror;)Z

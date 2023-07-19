@@ -24,12 +24,10 @@
 .method constructor <init>(Lcom/meitu/libmtsns/c/d/b;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/libmtsns/c/d/b$a;->b:Lcom/meitu/libmtsns/c/d/b;
 
     invoke-direct {p0}, Ljava/lang/Thread;-><init>()V
 
-    .line 2
     invoke-static {p1}, Lcom/meitu/libmtsns/c/d/b;->b(Lcom/meitu/libmtsns/c/d/b;)Landroid/app/Dialog;
 
     move-result-object p1
@@ -48,7 +46,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     :try_start_0
     iget-object v1, p0, Lcom/meitu/libmtsns/c/d/b$a;->b:Lcom/meitu/libmtsns/c/d/b;
 
@@ -57,7 +54,6 @@
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_1
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 2
     :try_start_1
     iget-object v1, p0, Lcom/meitu/libmtsns/c/d/b$a;->b:Lcom/meitu/libmtsns/c/d/b;
 
@@ -73,14 +69,12 @@
 
     if-eqz v1, :cond_0
 
-    .line 3
     invoke-virtual {v1}, Landroid/app/Activity;->isFinishing()Z
 
     move-result v1
 
     if-nez v1, :cond_0
 
-    .line 4
     iget-object v1, p0, Lcom/meitu/libmtsns/c/d/b$a;->a:Landroid/app/Dialog;
 
     invoke-virtual {v1}, Landroid/app/Dialog;->isShowing()Z
@@ -89,7 +83,6 @@
 
     if-eqz v1, :cond_0
 
-    .line 5
     iget-object v1, p0, Lcom/meitu/libmtsns/c/d/b$a;->a:Landroid/app/Dialog;
 
     invoke-virtual {v1}, Landroid/app/Dialog;->dismiss()V
@@ -101,7 +94,6 @@
     :catch_0
     move-exception v1
 
-    .line 6
     invoke-virtual {v1}, Ljava/lang/Exception;->printStackTrace()V
 
     goto :goto_0
@@ -114,7 +106,6 @@
     :catch_1
     move-exception v1
 
-    .line 7
     :try_start_2
     invoke-virtual {v1}, Ljava/lang/Exception;->getMessage()Ljava/lang/String;
 
@@ -124,7 +115,6 @@
     :try_end_2
     .catchall {:try_start_2 .. :try_end_2} :catchall_0
 
-    .line 8
     :try_start_3
     iget-object v1, p0, Lcom/meitu/libmtsns/c/d/b$a;->b:Lcom/meitu/libmtsns/c/d/b;
 
@@ -140,14 +130,12 @@
 
     if-eqz v1, :cond_0
 
-    .line 9
     invoke-virtual {v1}, Landroid/app/Activity;->isFinishing()Z
 
     move-result v1
 
     if-nez v1, :cond_0
 
-    .line 10
     iget-object v1, p0, Lcom/meitu/libmtsns/c/d/b$a;->a:Landroid/app/Dialog;
 
     invoke-virtual {v1}, Landroid/app/Dialog;->isShowing()Z
@@ -156,21 +144,18 @@
 
     if-eqz v1, :cond_0
 
-    .line 11
     iget-object v1, p0, Lcom/meitu/libmtsns/c/d/b$a;->a:Landroid/app/Dialog;
 
     invoke-virtual {v1}, Landroid/app/Dialog;->dismiss()V
     :try_end_3
     .catch Ljava/lang/Exception; {:try_start_3 .. :try_end_3} :catch_0
 
-    .line 12
     :cond_0
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 13
     :goto_1
     :try_start_4
     iget-object v2, p0, Lcom/meitu/libmtsns/c/d/b$a;->b:Lcom/meitu/libmtsns/c/d/b;
@@ -187,14 +172,12 @@
 
     if-eqz v2, :cond_1
 
-    .line 14
     invoke-virtual {v2}, Landroid/app/Activity;->isFinishing()Z
 
     move-result v2
 
     if-nez v2, :cond_1
 
-    .line 15
     iget-object v2, p0, Lcom/meitu/libmtsns/c/d/b$a;->a:Landroid/app/Dialog;
 
     invoke-virtual {v2}, Landroid/app/Dialog;->isShowing()Z
@@ -203,7 +186,6 @@
 
     if-eqz v2, :cond_1
 
-    .line 16
     iget-object v2, p0, Lcom/meitu/libmtsns/c/d/b$a;->a:Landroid/app/Dialog;
 
     invoke-virtual {v2}, Landroid/app/Dialog;->dismiss()V
@@ -215,10 +197,8 @@
     :catch_2
     move-exception v2
 
-    .line 17
     invoke-virtual {v2}, Ljava/lang/Exception;->printStackTrace()V
 
-    .line 18
     :cond_1
     :goto_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

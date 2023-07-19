@@ -19,13 +19,10 @@
 .method public constructor <init>(FZ)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lf/f/b/c/j/c;-><init>()V
 
-    .line 2
     iput p1, p0, Lf/f/b/c/j/i;->a:F
 
-    .line 3
     iput-boolean p2, p0, Lf/f/b/c/j/i;->b:Z
 
     return-void
@@ -40,7 +37,6 @@
 
     div-float v0, p1, v0
 
-    .line 1
     iget v1, p0, Lf/f/b/c/j/i;->a:F
 
     mul-float v1, v1, p2
@@ -51,7 +47,6 @@
 
     invoke-virtual {p3, v1, v2}, Lf/f/b/c/j/g;->c(FF)V
 
-    .line 2
     iget-boolean v1, p0, Lf/f/b/c/j/i;->b:Z
 
     if-eqz v1, :cond_0
@@ -70,7 +65,6 @@
 
     invoke-virtual {p3, v0, v1}, Lf/f/b/c/j/g;->c(FF)V
 
-    .line 3
     iget v1, p0, Lf/f/b/c/j/i;->a:F
 
     mul-float v1, v1, p2
@@ -79,7 +73,6 @@
 
     invoke-virtual {p3, v0, v2}, Lf/f/b/c/j/g;->c(FF)V
 
-    .line 4
     invoke-virtual {p3, p1, v2}, Lf/f/b/c/j/g;->c(FF)V
 
     return-void

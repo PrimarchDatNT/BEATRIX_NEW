@@ -28,7 +28,6 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
     new-instance v0, Lcom/google/common/collect/EmptyImmutableSetMultimap;
 
     invoke-direct {v0}, Lcom/google/common/collect/EmptyImmutableSetMultimap;-><init>()V
@@ -41,7 +40,6 @@
 .method private constructor <init>()V
     .locals 3
 
-    .line 1
     invoke-static {}, Lcom/google/common/collect/ImmutableMap;->of()Lcom/google/common/collect/ImmutableMap;
 
     move-result-object v0
@@ -58,7 +56,6 @@
 .method private readResolve()Ljava/lang/Object;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/google/common/collect/EmptyImmutableSetMultimap;->INSTANCE:Lcom/google/common/collect/EmptyImmutableSetMultimap;
 
     return-object v0

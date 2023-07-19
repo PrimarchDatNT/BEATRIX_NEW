@@ -17,7 +17,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-direct {p0, p1, v0}, Lcom/commsource/widget/SingleLineTextView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
     return-void
@@ -26,7 +25,6 @@
 .method public constructor <init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
     .locals 0
 
-    .line 2
     invoke-direct {p0, p1, p2}, Landroid/widget/TextView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
     return-void
@@ -39,7 +37,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p2}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v1
@@ -48,12 +45,10 @@
 
     const/4 p1, 0x0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
 
-    .line 3
     :cond_0
     iget-object v1, p0, Lcom/commsource/widget/SingleLineTextView;->a:Landroid/text/TextPaint;
 
@@ -61,7 +56,6 @@
 
     const/4 p1, 0x0
 
-    .line 4
     invoke-virtual {p2}, Ljava/lang/String;->length()I
 
     move-result v1
@@ -88,12 +82,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/widget/SingleLineTextView;->a:Landroid/text/TextPaint;
 
     if-nez v1, :cond_0
 
-    .line 2
     invoke-virtual {p0}, Landroid/widget/TextView;->getPaint()Landroid/text/TextPaint;
 
     move-result-object v1
@@ -103,14 +95,12 @@
     :cond_0
     if-lez p2, :cond_4
 
-    .line 3
     invoke-virtual {p0}, Landroid/widget/TextView;->getTextSize()F
 
     move-result v1
 
     iput v1, p0, Lcom/commsource/widget/SingleLineTextView;->b:F
 
-    .line 4
     invoke-virtual {p0}, Landroid/widget/TextView;->getCompoundDrawables()[Landroid/graphics/drawable/Drawable;
 
     move-result-object v1
@@ -121,18 +111,15 @@
 
     const/4 v4, 0x0
 
-    .line 5
     :goto_0
     array-length v5, v1
 
     if-ge v3, v5, :cond_2
 
-    .line 6
     aget-object v5, v1, v3
 
     if-eqz v5, :cond_1
 
-    .line 7
     aget-object v5, v1, v3
 
     invoke-virtual {v5}, Landroid/graphics/drawable/Drawable;->getBounds()Landroid/graphics/Rect;
@@ -150,7 +137,6 @@
 
     goto :goto_0
 
-    .line 8
     :cond_2
     invoke-virtual {p0}, Landroid/widget/TextView;->getPaddingLeft()I
 
@@ -172,7 +158,6 @@
 
     sub-int/2addr p2, v4
 
-    .line 9
     iget v1, p0, Lcom/commsource/widget/SingleLineTextView;->b:F
 
     invoke-direct {p0, v1, p1}, Lcom/commsource/widget/SingleLineTextView;->a(FLjava/lang/String;)F
@@ -181,7 +166,6 @@
 
     iput v1, p0, Lcom/commsource/widget/SingleLineTextView;->c:F
 
-    .line 10
     :goto_1
     iget v1, p0, Lcom/commsource/widget/SingleLineTextView;->c:F
 
@@ -191,7 +175,6 @@
 
     if-lez v1, :cond_3
 
-    .line 11
     iget-object v1, p0, Lcom/commsource/widget/SingleLineTextView;->a:Landroid/text/TextPaint;
 
     iget v3, p0, Lcom/commsource/widget/SingleLineTextView;->b:F
@@ -204,7 +187,6 @@
 
     invoke-virtual {v1, v3}, Landroid/text/TextPaint;->setTextSize(F)V
 
-    .line 12
     iget v1, p0, Lcom/commsource/widget/SingleLineTextView;->b:F
 
     invoke-direct {p0, v1, p1}, Lcom/commsource/widget/SingleLineTextView;->a(FLjava/lang/String;)F
@@ -215,13 +197,11 @@
 
     goto :goto_1
 
-    .line 13
     :cond_3
     iget p1, p0, Lcom/commsource/widget/SingleLineTextView;->b:F
 
     invoke-virtual {p0, v2, p1}, Landroid/widget/TextView;->setTextSize(IF)V
 
-    .line 14
     :cond_4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -237,7 +217,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Landroid/widget/TextView;->getText()Ljava/lang/CharSequence;
 
     move-result-object v1
@@ -252,7 +231,6 @@
 
     invoke-direct {p0, v1, v2}, Lcom/commsource/widget/SingleLineTextView;->b(Ljava/lang/String;I)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/widget/SingleLineTextView;->a:Landroid/text/TextPaint;
 
     invoke-virtual {p0}, Landroid/widget/TextView;->getCurrentTextColor()I
@@ -261,7 +239,6 @@
 
     invoke-virtual {v1, v2}, Landroid/text/TextPaint;->setColor(I)V
 
-    .line 3
     invoke-virtual {p0}, Landroid/widget/TextView;->getHeight()I
 
     move-result v1
@@ -288,7 +265,6 @@
 
     div-float/2addr v1, v2
 
-    .line 4
     invoke-virtual {p0}, Landroid/widget/TextView;->getText()Ljava/lang/CharSequence;
 
     move-result-object v3
@@ -313,7 +289,6 @@
 
     invoke-virtual {p1, v3, v4, v1, v2}, Landroid/graphics/Canvas;->drawText(Ljava/lang/String;FFLandroid/graphics/Paint;)V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -326,10 +301,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0, p1, p2, p3, p4}, Landroid/widget/TextView;->onSizeChanged(IIII)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

@@ -10,7 +10,6 @@
 .method constructor <init>(Lcom/google/android/gms/internal/ads/np2;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -37,7 +36,6 @@
 .method public final i1()Lcom/google/android/gms/ads/initialization/AdapterStatus$State;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/google/android/gms/ads/initialization/AdapterStatus$State;->READY:Lcom/google/android/gms/ads/initialization/AdapterStatus$State;
 
     return-object v0

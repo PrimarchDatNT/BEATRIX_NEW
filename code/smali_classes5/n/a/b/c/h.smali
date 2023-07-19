@@ -41,27 +41,20 @@
 .method public constructor <init>(Lorg/aspectj/lang/c$b;Ljava/lang/Object;Ljava/lang/Object;[Ljava/lang/Object;)V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/4 v0, 0x0
 
-    .line 2
     iput-object v0, p0, Ln/a/b/c/h;->r:Ln/a/b/b/a;
 
-    .line 3
     iput-object v0, p0, Ln/a/b/c/h;->s:Ljava/util/Stack;
 
-    .line 4
     iput-object p1, p0, Ln/a/b/c/h;->q:Lorg/aspectj/lang/c$b;
 
-    .line 5
     iput-object p2, p0, Ln/a/b/c/h;->n:Ljava/lang/Object;
 
-    .line 6
     iput-object p3, p0, Ln/a/b/c/h;->o:Ljava/lang/Object;
 
-    .line 7
     iput-object p4, p0, Ln/a/b/c/h;->p:[Ljava/lang/Object;
 
     return-void
@@ -72,7 +65,6 @@
 .method public J1()Ljava/lang/Object;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Ln/a/b/c/h;->o:Ljava/lang/Object;
 
     return-object v0
@@ -81,7 +73,6 @@
 .method public a()Lorg/aspectj/lang/c$b;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Ln/a/b/c/h;->q:Lorg/aspectj/lang/c$b;
 
     return-object v0
@@ -90,7 +81,6 @@
 .method public final b()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Ln/a/b/c/h;->q:Lorg/aspectj/lang/c$b;
 
     invoke-interface {v0}, Lorg/aspectj/lang/c$b;->b()Ljava/lang/String;
@@ -108,12 +98,10 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Ln/a/b/c/h;->s:Ljava/util/Stack;
 
     if-nez v0, :cond_1
 
-    .line 2
     iget-object v0, p0, Ln/a/b/c/h;->r:Ln/a/b/b/a;
 
     if-nez v0, :cond_0
@@ -122,7 +110,6 @@
 
     return-object v0
 
-    .line 3
     :cond_0
     invoke-virtual {v0}, Ln/a/b/b/a;->getState()[Ljava/lang/Object;
 
@@ -134,7 +121,6 @@
 
     return-object v0
 
-    .line 4
     :cond_1
     invoke-virtual {v0}, Ljava/util/Stack;->peek()Ljava/lang/Object;
 
@@ -169,17 +155,14 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Ln/a/b/c/h;->s:Ljava/util/Stack;
 
     if-nez v0, :cond_0
 
-    .line 2
     iget-object v0, p0, Ln/a/b/c/h;->r:Ln/a/b/b/a;
 
     goto :goto_0
 
-    .line 3
     :cond_0
     invoke-virtual {v0}, Ljava/util/Stack;->peek()Ljava/lang/Object;
 
@@ -194,7 +177,6 @@
 
     return-object p1
 
-    .line 4
     :cond_1
     invoke-virtual {v0}, Ln/a/b/b/a;->getFlags()I
 
@@ -269,7 +251,6 @@
     :cond_6
     const/4 v1, 0x0
 
-    .line 5
     :goto_5
     invoke-virtual {v0}, Ln/a/b/b/a;->getState()[Ljava/lang/Object;
 
@@ -295,7 +276,6 @@
 
     if-eqz v6, :cond_8
 
-    .line 6
     aget-object v10, p1, v4
 
     aput-object v10, v8, v4
@@ -316,7 +296,6 @@
 
     add-int/lit8 v10, v6, 0x1
 
-    .line 7
     aget-object v1, p1, v6
 
     aput-object v1, v8, v4
@@ -362,7 +341,6 @@
     :goto_a
     add-int v1, v6, v3
 
-    .line 8
     aget-object v2, p1, v10
 
     aput-object v2, v8, v5
@@ -373,7 +351,6 @@
     :goto_b
     move v1, v10
 
-    .line 9
     :goto_c
     array-length v2, p1
 
@@ -383,7 +360,6 @@
 
     add-int/2addr v2, v9
 
-    .line 10
     aget-object v3, p1, v1
 
     aput-object v3, v8, v2
@@ -392,7 +368,6 @@
 
     goto :goto_c
 
-    .line 11
     :cond_e
     invoke-virtual {v0, v8}, Ln/a/b/b/a;->run([Ljava/lang/Object;)Ljava/lang/Object;
 
@@ -404,7 +379,6 @@
 .method public final e()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Ln/a/b/c/h;->q:Lorg/aspectj/lang/c$b;
 
     invoke-interface {v0}, Lorg/aspectj/lang/c$b;->e()Ljava/lang/String;
@@ -417,7 +391,6 @@
 .method public f()Lorg/aspectj/lang/reflect/z;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Ln/a/b/c/h;->q:Lorg/aspectj/lang/c$b;
 
     invoke-interface {v0}, Lorg/aspectj/lang/c$b;->f()Lorg/aspectj/lang/reflect/z;
@@ -430,7 +403,6 @@
 .method public g()Lorg/aspectj/lang/f;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Ln/a/b/c/h;->q:Lorg/aspectj/lang/c$b;
 
     invoke-interface {v0}, Lorg/aspectj/lang/c$b;->g()Lorg/aspectj/lang/f;
@@ -443,7 +415,6 @@
 .method public h()Ljava/lang/Object;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Ln/a/b/c/h;->n:Ljava/lang/Object;
 
     return-object v0
@@ -452,7 +423,6 @@
 .method public i()[Ljava/lang/Object;
     .locals 4
 
-    .line 1
     iget-object v0, p0, Ln/a/b/c/h;->p:[Ljava/lang/Object;
 
     const/4 v1, 0x0
@@ -461,10 +431,8 @@
 
     new-array v0, v1, [Ljava/lang/Object;
 
-    .line 2
     iput-object v0, p0, Ln/a/b/c/h;->p:[Ljava/lang/Object;
 
-    .line 3
     :cond_0
     iget-object v0, p0, Ln/a/b/c/h;->p:[Ljava/lang/Object;
 
@@ -472,7 +440,6 @@
 
     new-array v2, v2, [Ljava/lang/Object;
 
-    .line 4
     array-length v3, v0
 
     invoke-static {v0, v1, v2, v1, v3}, Ljava/lang/System;->arraycopy(Ljava/lang/Object;ILjava/lang/Object;II)V
@@ -483,7 +450,6 @@
 .method public j(Ln/a/b/b/a;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Ln/a/b/c/h;->r:Ln/a/b/b/a;
 
     return-void
@@ -492,7 +458,6 @@
 .method public k()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Ln/a/b/c/h;->q:Lorg/aspectj/lang/c$b;
 
     invoke-interface {v0}, Lorg/aspectj/lang/c$b;->k()Ljava/lang/String;
@@ -505,12 +470,10 @@
 .method public l(Ln/a/b/b/a;)V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Ln/a/b/c/h;->s:Ljava/util/Stack;
 
     if-nez v0, :cond_0
 
-    .line 2
     new-instance v0, Ljava/util/Stack;
 
     invoke-direct {v0}, Ljava/util/Stack;-><init>()V
@@ -520,14 +483,12 @@
     :cond_0
     if-nez p1, :cond_1
 
-    .line 3
     iget-object p1, p0, Ln/a/b/c/h;->s:Ljava/util/Stack;
 
     invoke-virtual {p1}, Ljava/util/Stack;->pop()Ljava/lang/Object;
 
     goto :goto_0
 
-    .line 4
     :cond_1
     iget-object v0, p0, Ln/a/b/c/h;->s:Ljava/util/Stack;
 
@@ -540,7 +501,6 @@
 .method public final toString()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Ln/a/b/c/h;->q:Lorg/aspectj/lang/c$b;
 
     invoke-interface {v0}, Lorg/aspectj/lang/c$b;->toString()Ljava/lang/String;

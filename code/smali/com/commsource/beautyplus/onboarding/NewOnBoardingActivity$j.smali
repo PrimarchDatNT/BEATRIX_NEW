@@ -54,7 +54,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity$j;->a:Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity;
 
     invoke-static {v0}, Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity;->S0(Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity;)Lcom/commsource/billing/activity/SubscribeViewModel;
@@ -71,12 +70,10 @@
 
     if-eqz v0, :cond_0
 
-    .line 2
     iget-object v0, p0, Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity$j;->a:Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity;
 
     invoke-static {v0}, Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity;->U0(Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity;)V
 
-    .line 3
     :cond_0
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -90,7 +87,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Ljava/lang/Boolean;
 
     invoke-virtual {p0, p1}, Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity$j;->a(Ljava/lang/Boolean;)V

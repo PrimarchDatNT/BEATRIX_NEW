@@ -46,22 +46,18 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Landroid/graphics/Rect;
 
     invoke-direct {v1}, Landroid/graphics/Rect;-><init>()V
 
-    .line 2
     iget-object v2, p0, Lcom/commsource/studio/mixlayer/MixLayerFragment$d;->b:Landroid/view/View;
 
     invoke-virtual {v2, v1}, Landroid/view/View;->getGlobalVisibleRect(Landroid/graphics/Rect;)Z
 
-    .line 3
     new-instance v2, Landroid/graphics/Rect;
 
     invoke-direct {v2}, Landroid/graphics/Rect;-><init>()V
 
-    .line 4
     iget-object v3, p0, Lcom/commsource/studio/mixlayer/MixLayerFragment$d;->a:Lcom/commsource/studio/mixlayer/MixLayerFragment;
 
     invoke-static {v3}, Lcom/commsource/studio/mixlayer/MixLayerFragment;->C(Lcom/commsource/studio/mixlayer/MixLayerFragment;)Lcom/commsource/beautyplus/f0/g9;
@@ -74,7 +70,6 @@
 
     invoke-virtual {v3, v2}, Landroid/view/View;->getGlobalVisibleRect(Landroid/graphics/Rect;)Z
 
-    .line 5
     iget v3, v1, Landroid/graphics/Rect;->top:I
 
     iget-object v4, p0, Lcom/commsource/studio/mixlayer/MixLayerFragment$d;->b:Landroid/view/View;
@@ -89,7 +84,6 @@
 
     if-le v3, v4, :cond_0
 
-    .line 6
     iget-object v3, p0, Lcom/commsource/studio/mixlayer/MixLayerFragment$d;->a:Lcom/commsource/studio/mixlayer/MixLayerFragment;
 
     invoke-static {v3}, Lcom/commsource/studio/mixlayer/MixLayerFragment;->C(Lcom/commsource/studio/mixlayer/MixLayerFragment;)Lcom/commsource/beautyplus/f0/g9;
@@ -116,7 +110,6 @@
 
     invoke-virtual {v3, v4, v1}, Landroid/widget/ScrollView;->smoothScrollBy(II)V
 
-    .line 7
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

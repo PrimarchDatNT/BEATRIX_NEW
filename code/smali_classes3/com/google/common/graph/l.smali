@@ -41,10 +41,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/util/AbstractSet;-><init>()V
 
-    .line 2
     invoke-static {p1}, Lcom/google/common/base/t;->E(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -53,7 +51,6 @@
 
     iput-object p1, p0, Lcom/google/common/graph/l;->a:Ljava/util/Map;
 
-    .line 3
     invoke-static {p2}, Lcom/google/common/base/t;->E(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -74,7 +71,6 @@
     .annotation runtime Ln/b/a/a/a/g;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/graph/l;->a:Ljava/util/Map;
 
     iget-object v1, p0, Lcom/google/common/graph/l;->b:Ljava/lang/Object;
@@ -98,14 +94,12 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Lcom/google/common/graph/l;->b()Ljava/lang/Object;
 
     move-result-object v0
 
     if-nez v0, :cond_0
 
-    .line 2
     invoke-static {}, Lcom/google/common/collect/ImmutableSet;->of()Lcom/google/common/collect/ImmutableSet;
 
     move-result-object v0
@@ -116,7 +110,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/google/common/collect/Iterators;->Y(Ljava/lang/Object;)Lcom/google/common/collect/l2;
 
@@ -133,14 +126,12 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-direct {p0}, Lcom/google/common/graph/l;->b()Ljava/lang/Object;
 
     move-result-object v0
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-virtual {v0, p1}, Ljava/lang/Object;->equals(Ljava/lang/Object;)Z
 
     move-result p1
@@ -161,7 +152,6 @@
 .method public bridge synthetic iterator()Ljava/util/Iterator;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/graph/l;->c()Lcom/google/common/collect/l2;
 
     move-result-object v0
@@ -172,7 +162,6 @@
 .method public size()I
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Lcom/google/common/graph/l;->b()Ljava/lang/Object;
 
     move-result-object v0

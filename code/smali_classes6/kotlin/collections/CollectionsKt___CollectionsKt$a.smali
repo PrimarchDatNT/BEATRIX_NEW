@@ -37,7 +37,6 @@
 
     iput-object p1, p0, Lcotlin/collections/CollectionsKt___CollectionsKt$a;->a:Ljava/lang/Iterable;
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -58,7 +57,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcotlin/collections/CollectionsKt___CollectionsKt$a;->a:Ljava/lang/Iterable;
 
     invoke-interface {v0}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;

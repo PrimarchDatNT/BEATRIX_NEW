@@ -16,7 +16,6 @@
 .method constructor <init>(Lcom/android/billingclient/api/e$a;Lcom/android/billingclient/api/h;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/android/billingclient/api/v;->b:Lcom/android/billingclient/api/e$a;
 
     iput-object p2, p0, Lcom/android/billingclient/api/v;->a:Lcom/android/billingclient/api/h;
@@ -31,7 +30,6 @@
 .method public final run()V
     .locals 3
 
-    .line 1
     iget-object v0, p0, Lcom/android/billingclient/api/v;->b:Lcom/android/billingclient/api/e$a;
 
     invoke-static {v0}, Lcom/android/billingclient/api/e$a;->a(Lcom/android/billingclient/api/e$a;)Ljava/lang/Object;
@@ -40,7 +38,6 @@
 
     monitor-enter v0
 
-    .line 2
     :try_start_0
     iget-object v1, p0, Lcom/android/billingclient/api/v;->b:Lcom/android/billingclient/api/e$a;
 
@@ -50,7 +47,6 @@
 
     if-eqz v1, :cond_0
 
-    .line 3
     iget-object v1, p0, Lcom/android/billingclient/api/v;->b:Lcom/android/billingclient/api/e$a;
 
     invoke-static {v1}, Lcom/android/billingclient/api/e$a;->e(Lcom/android/billingclient/api/e$a;)Lcom/android/billingclient/api/f;
@@ -61,7 +57,6 @@
 
     invoke-interface {v1, v2}, Lcom/android/billingclient/api/f;->a(Lcom/android/billingclient/api/h;)V
 
-    .line 4
     :cond_0
     monitor-exit v0
 

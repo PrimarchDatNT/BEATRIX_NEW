@@ -32,17 +32,14 @@
 
     sget v0, Lcom/res/provider/ResLAYOUT;->video_cover_gesture:I
 
-    .line 1
     invoke-direct {p0, v0}, Lcom/commsource/video/cover/a;-><init>(I)V
 
-    .line 2
     new-instance v0, Lcom/commsource/video/cover/GestureVideoCover$a;
 
     invoke-direct {v0, p0}, Lcom/commsource/video/cover/GestureVideoCover$a;-><init>(Lcom/commsource/video/cover/GestureVideoCover;)V
 
     iput-object v0, p0, Lcom/commsource/video/cover/GestureVideoCover;->f:Ljava/lang/Runnable;
 
-    .line 3
     new-instance v0, Lcom/commsource/video/cover/GestureVideoCover$gestureDetector$2;
 
     invoke-direct {v0, p0}, Lcom/commsource/video/cover/GestureVideoCover$gestureDetector$2;-><init>(Lcom/commsource/video/cover/GestureVideoCover;)V
@@ -63,7 +60,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/video/cover/GestureVideoCover;->v()Lcom/commsource/beautymain/widget/gesturewidget/e;
 
     move-result-object p0
@@ -102,13 +98,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0, p1}, Lcom/commsource/video/cover/a;->e(I)V
 
-    .line 2
     invoke-virtual {p0}, Lcom/commsource/video/cover/a;->j()V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -121,7 +114,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/video/cover/a;->m()Landroidx/databinding/ViewDataBinding;
 
     move-result-object v1
@@ -142,7 +134,6 @@
 
     invoke-virtual {v1, v2}, Landroid/view/View;->setOnTouchListener(Landroid/view/View$OnTouchListener;)V
 
-    .line 2
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -156,12 +147,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/video/cover/GestureVideoCover;->e:Z
 
     if-eqz v1, :cond_0
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/video/cover/GestureVideoCover;->f:Ljava/lang/Runnable;
 
     invoke-static {v1}, Lcom/commsource/util/g2;->h(Ljava/lang/Runnable;)V
@@ -171,17 +160,14 @@
     :cond_0
     const/4 v1, 0x1
 
-    .line 3
     iput-boolean v1, p0, Lcom/commsource/video/cover/GestureVideoCover;->e:Z
 
-    .line 4
     invoke-virtual {p0}, Lcom/commsource/video/cover/a;->k()Lcom/commsource/video/view/XVideoUIGroup;
 
     move-result-object v2
 
     invoke-virtual {v2, v1}, Lcom/commsource/video/view/XVideoUIGroup;->i(Z)V
 
-    .line 5
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -197,7 +183,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/video/cover/GestureVideoCover;->f:Ljava/lang/Runnable;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -212,7 +197,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/video/cover/GestureVideoCover;->e:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -227,24 +211,20 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/video/cover/GestureVideoCover;->e:Z
 
     if-eqz v1, :cond_0
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/video/cover/GestureVideoCover;->f:Ljava/lang/Runnable;
 
     invoke-static {v1}, Lcom/commsource/util/g2;->h(Ljava/lang/Runnable;)V
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/video/cover/GestureVideoCover;->f:Ljava/lang/Runnable;
 
     const-wide/16 v2, 0xfa0
 
     invoke-static {v1, v2, v3}, Lcom/commsource/util/g2;->l(Ljava/lang/Runnable;J)V
 
-    .line 4
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -258,7 +238,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/video/cover/GestureVideoCover;->e:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

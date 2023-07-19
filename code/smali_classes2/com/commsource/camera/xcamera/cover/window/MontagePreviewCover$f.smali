@@ -56,19 +56,16 @@
 
     if-eqz p1, :cond_2
 
-    .line 1
     invoke-virtual {p1}, Lcom/meitu/template/bean/ArMaterial;->isMontageAr()Z
 
     move-result v1
 
     if-eqz v1, :cond_2
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/window/MontagePreviewCover$f;->a:Lcom/commsource/camera/xcamera/cover/window/MontagePreviewCover;
 
     invoke-virtual {v1}, Lcom/commsource/camera/xcamera/cover/AbsLazyCover;->z()V
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/window/MontagePreviewCover$f;->a:Lcom/commsource/camera/xcamera/cover/window/MontagePreviewCover;
 
     invoke-virtual {v1}, Lcom/commsource/camera/xcamera/cover/window/MontagePreviewCover;->P()Lcom/commsource/camera/xcamera/BpCameraViewModel;
@@ -96,7 +93,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/camera/xcamera/BpCameraViewModel;->P2(Landroid/view/TextureView;)V
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/window/MontagePreviewCover$f;->a:Lcom/commsource/camera/xcamera/cover/window/MontagePreviewCover;
 
     invoke-virtual {v1}, Lcom/commsource/camera/xcamera/cover/AbsLazyCover;->A()Landroidx/databinding/ViewDataBinding;
@@ -113,7 +109,6 @@
 
     invoke-static {v1}, Lcom/commsource/util/l0;->v0(Landroid/view/View;)V
 
-    .line 5
     :cond_1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/window/MontagePreviewCover$f;->a:Lcom/commsource/camera/xcamera/cover/window/MontagePreviewCover;
 
@@ -121,7 +116,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/camera/xcamera/cover/window/MontagePreviewCover;->W(Z)V
 
-    .line 6
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/window/MontagePreviewCover$f;->a:Lcom/commsource/camera/xcamera/cover/window/MontagePreviewCover;
 
     invoke-virtual {v1}, Lcom/commsource/camera/xcamera/cover/window/MontagePreviewCover;->P()Lcom/commsource/camera/xcamera/BpCameraViewModel;
@@ -132,7 +126,6 @@
 
     goto :goto_0
 
-    .line 7
     :cond_2
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/window/MontagePreviewCover$f;->a:Lcom/commsource/camera/xcamera/cover/window/MontagePreviewCover;
 
@@ -150,7 +143,6 @@
 
     invoke-static {v1}, Lcom/commsource/util/l0;->w(Landroid/view/View;)V
 
-    .line 8
     :cond_3
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/window/MontagePreviewCover$f;->a:Lcom/commsource/camera/xcamera/cover/window/MontagePreviewCover;
 
@@ -158,7 +150,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/camera/xcamera/cover/window/MontagePreviewCover;->W(Z)V
 
-    .line 9
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/window/MontagePreviewCover$f;->a:Lcom/commsource/camera/xcamera/cover/window/MontagePreviewCover;
 
     invoke-virtual {v1}, Lcom/commsource/camera/xcamera/cover/window/MontagePreviewCover;->P()Lcom/commsource/camera/xcamera/BpCameraViewModel;
@@ -167,7 +158,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/camera/xcamera/BpCameraViewModel;->O2(Z)V
 
-    .line 10
     :goto_0
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/window/MontagePreviewCover$f;->a:Lcom/commsource/camera/xcamera/cover/window/MontagePreviewCover;
 
@@ -177,7 +167,6 @@
 
     invoke-virtual {v1, p1}, Lcom/commsource/camera/montage/w;->L(Lcom/meitu/template/bean/ArMaterial;)V
 
-    .line 11
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -190,7 +179,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Lcom/meitu/template/bean/ArMaterial;
 
     invoke-virtual {p0, p1}, Lcom/commsource/camera/xcamera/cover/window/MontagePreviewCover$f;->a(Lcom/meitu/template/bean/ArMaterial;)V

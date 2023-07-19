@@ -60,7 +60,6 @@
 .method public bridge synthetic invoke(Ljava/lang/Object;)Ljava/lang/Object;
     .locals 0
 
-    .line 1
     check-cast p1, Lkshark/j;
 
     invoke-virtual {p0, p1}, Lkshark/AndroidResourceIdNames$Companion$readFromHeap$1$1$1$names$1;->invoke(Lkshark/j;)Ljava/lang/String;
@@ -83,7 +82,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 2
     invoke-virtual {p1}, Lkshark/j;->p()Ljava/lang/String;
 
     move-result-object p1

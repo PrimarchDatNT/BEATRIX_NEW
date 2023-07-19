@@ -26,10 +26,8 @@
 .method public constructor <init>()V
     .locals 2
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     new-instance v0, Ljava/util/concurrent/CountDownLatch;
 
     const/4 v1, 0x1
@@ -46,7 +44,6 @@
 .method public e()V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/meitu/library/abtest/k/d;->w:Ljava/util/concurrent/CountDownLatch;
 
     invoke-virtual {v0}, Ljava/util/concurrent/CountDownLatch;->countDown()V
@@ -57,7 +54,6 @@
 .method protected f()V
     .locals 6
 
-    .line 1
     invoke-interface {p0}, Lcom/meitu/library/abtest/k/c;->isInitialized()Z
 
     move-result v0
@@ -66,7 +62,6 @@
 
     return-void
 
-    .line 2
     :cond_0
     invoke-virtual {p0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
@@ -88,10 +83,8 @@
 
     const-string v5, "Current %s not initialization."
 
-    .line 3
     invoke-static {v4, v5, v2}, Lcom/meitu/library/abtest/g/a;->g(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
-    .line 4
     :try_start_0
     iget-object v2, p0, Lcom/meitu/library/abtest/k/d;->w:Ljava/util/concurrent/CountDownLatch;
 
@@ -108,10 +101,8 @@
 
     const-string v2, "Await %s initialization error."
 
-    .line 5
     invoke-static {v4, v2, v1}, Lcom/meitu/library/abtest/g/a;->g(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
-    .line 6
     new-instance v1, Ljava/lang/IllegalAccessError;
 
     new-instance v2, Ljava/lang/StringBuilder;

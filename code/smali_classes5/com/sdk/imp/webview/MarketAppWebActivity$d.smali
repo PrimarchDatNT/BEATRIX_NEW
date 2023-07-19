@@ -28,23 +28,18 @@
 .method constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/16 v0, 0x64
 
-    .line 2
     iput v0, p0, Lcom/sdk/imp/webview/MarketAppWebActivity$d;->a:I
 
     const/4 v0, 0x0
 
-    .line 3
     iput-boolean v0, p0, Lcom/sdk/imp/webview/MarketAppWebActivity$d;->b:Z
 
-    .line 4
     iput v0, p0, Lcom/sdk/imp/webview/MarketAppWebActivity$d;->c:I
 
-    .line 5
     iput v0, p0, Lcom/sdk/imp/webview/MarketAppWebActivity$d;->d:I
 
     return-void
@@ -57,15 +52,12 @@
 
     const/4 v0, 0x1
 
-    .line 1
     iput-boolean v0, p0, Lcom/sdk/imp/webview/MarketAppWebActivity$d;->b:Z
 
     const/16 v0, 0x64
 
-    .line 2
     iput v0, p0, Lcom/sdk/imp/webview/MarketAppWebActivity$d;->c:I
 
-    .line 3
     iput v0, p0, Lcom/sdk/imp/webview/MarketAppWebActivity$d;->d:I
 
     return-void
@@ -76,13 +68,10 @@
 
     const/4 v0, 0x0
 
-    .line 1
     iput-boolean v0, p0, Lcom/sdk/imp/webview/MarketAppWebActivity$d;->b:Z
 
-    .line 2
     iput v0, p0, Lcom/sdk/imp/webview/MarketAppWebActivity$d;->c:I
 
-    .line 3
     iput v0, p0, Lcom/sdk/imp/webview/MarketAppWebActivity$d;->d:I
 
     return-void

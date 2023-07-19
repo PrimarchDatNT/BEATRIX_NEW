@@ -51,10 +51,8 @@
 .method private constructor <init>(Lcom/google/common/collect/MapMaker;)V
     .locals 1
 
-    .line 2
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 3
     invoke-static {}, Lcom/google/common/base/Equivalence;->equals()Lcom/google/common/base/Equivalence;
 
     move-result-object v0
@@ -75,7 +73,6 @@
 .method synthetic constructor <init>(Lcom/google/common/collect/MapMaker;Lcom/google/common/collect/g1$a;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/google/common/collect/g1$d;-><init>(Lcom/google/common/collect/MapMaker;)V
 
     return-void
@@ -91,7 +88,6 @@
         }
     .end annotation
 
-    .line 1
     :cond_0
     iget-object v0, p0, Lcom/google/common/collect/g1$d;->a:Lcom/google/common/collect/MapMakerInternalMap;
 
@@ -101,7 +97,6 @@
 
     if-eqz v0, :cond_1
 
-    .line 2
     invoke-interface {v0}, Lcom/google/common/collect/MapMakerInternalMap$i;->getKey()Ljava/lang/Object;
 
     move-result-object v0
@@ -110,7 +105,6 @@
 
     return-object v0
 
-    .line 3
     :cond_1
     iget-object v0, p0, Lcom/google/common/collect/g1$d;->a:Lcom/google/common/collect/MapMakerInternalMap;
 

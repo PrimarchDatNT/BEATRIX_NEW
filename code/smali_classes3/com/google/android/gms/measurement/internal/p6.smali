@@ -22,7 +22,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0, p1}, Landroid/os/Bundle;->get(Ljava/lang/String;)Ljava/lang/Object;
 
     move-result-object p0
@@ -31,7 +30,6 @@
 
     return-object p3
 
-    .line 2
     :cond_0
     invoke-virtual {p0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
@@ -45,7 +43,6 @@
 
     return-object p0
 
-    .line 3
     :cond_1
     new-instance p3, Ljava/lang/IllegalStateException;
 
@@ -59,7 +56,6 @@
 
     const/4 p1, 0x1
 
-    .line 4
     invoke-virtual {p2}, Ljava/lang/Class;->getCanonicalName()Ljava/lang/String;
 
     move-result-object p2
@@ -80,7 +76,6 @@
 
     const-string p0, "Invalid conditional user property field type. \'%s\' expected [%s] but was [%s]"
 
-    .line 5
     invoke-static {p0, v0}, Ljava/lang/String;->format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object p0
@@ -101,14 +96,12 @@
         .end annotation
     .end param
 
-    .line 1
     instance-of v0, p1, Ljava/lang/Double;
 
     const-string v1, "value"
 
     if-eqz v0, :cond_0
 
-    .line 2
     check-cast p1, Ljava/lang/Double;
 
     invoke-virtual {p1}, Ljava/lang/Double;->doubleValue()D
@@ -119,13 +112,11 @@
 
     return-void
 
-    .line 3
     :cond_0
     instance-of v0, p1, Ljava/lang/Long;
 
     if-eqz v0, :cond_1
 
-    .line 4
     check-cast p1, Ljava/lang/Long;
 
     invoke-virtual {p1}, Ljava/lang/Long;->longValue()J
@@ -136,7 +127,6 @@
 
     return-void
 
-    .line 5
     :cond_1
     invoke-virtual {p1}, Ljava/lang/Object;->toString()Ljava/lang/String;
 

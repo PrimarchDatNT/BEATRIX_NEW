@@ -72,7 +72,6 @@
 
     goto/16 :goto_5
 
-    .line 1
     :cond_0
     invoke-virtual {p1}, Ljava/lang/Integer;->intValue()I
 
@@ -84,7 +83,6 @@
 
     const-string p1, "viewHolder"
 
-    .line 2
     invoke-static {p2, p1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {p2}, Lcom/commsource/widget/h1/f;->c()Lcom/commsource/widget/h1/d;
@@ -111,7 +109,6 @@
     :goto_0
     if-eqz p1, :cond_8
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/studio/formula/FormulaFragment$m;->a:Lcom/commsource/studio/formula/FormulaFragment;
 
     invoke-static {v1}, Lcom/commsource/studio/formula/FormulaFragment;->b0(Lcom/commsource/studio/formula/FormulaFragment;)Lcom/commsource/studio/formula/FormulaViewModel;
@@ -145,10 +142,8 @@
     :goto_1
     if-eqz p1, :cond_7
 
-    .line 4
     check-cast p1, Lcom/commsource/studio/formula/JsFormula;
 
-    .line 5
     iget-object v1, p0, Lcom/commsource/studio/formula/FormulaFragment$m;->a:Lcom/commsource/studio/formula/FormulaFragment;
 
     invoke-static {v1}, Lcom/commsource/studio/formula/FormulaFragment;->Y(Lcom/commsource/studio/formula/FormulaFragment;)Lcom/commsource/beautyplus/f0/m8;
@@ -163,7 +158,6 @@
 
     move-result p2
 
-    .line 6
     iget-object v1, p0, Lcom/commsource/studio/formula/FormulaFragment$m;->a:Lcom/commsource/studio/formula/FormulaFragment;
 
     invoke-static {v1}, Lcom/commsource/studio/formula/FormulaFragment;->b0(Lcom/commsource/studio/formula/FormulaFragment;)Lcom/commsource/studio/formula/FormulaViewModel;
@@ -174,7 +168,6 @@
 
     move-result-object v1
 
-    .line 7
     invoke-virtual {v1}, Ljava/util/ArrayList;->size()I
 
     move-result v2
@@ -188,7 +181,6 @@
     :goto_2
     if-ge v3, v2, :cond_6
 
-    .line 8
     invoke-virtual {v1, v3}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
 
     move-result-object v6
@@ -199,7 +191,6 @@
 
     check-cast v6, Lcom/commsource/studio/formula/FormulaCategory;
 
-    .line 9
     invoke-virtual {v6}, Lcom/commsource/studio/formula/FormulaCategory;->getDisplayFormulaList()Ljava/util/List;
 
     move-result-object v7
@@ -220,7 +211,6 @@
 
     if-ge p2, v5, :cond_5
 
-    .line 10
     invoke-virtual {v6}, Lcom/commsource/studio/formula/FormulaCategory;->getCategoryId()Ljava/lang/String;
 
     move-result-object p2
@@ -235,7 +225,6 @@
     :cond_6
     const-string p2, "-2"
 
-    .line 11
     :goto_4
     iget-object v1, p0, Lcom/commsource/studio/formula/FormulaFragment$m;->a:Lcom/commsource/studio/formula/FormulaFragment;
 
@@ -253,14 +242,12 @@
 
     if-eqz v1, :cond_8
 
-    .line 12
     new-instance v1, Ljava/util/HashMap;
 
     const/16 v2, 0x8
 
     invoke-direct {v1, v2}, Ljava/util/HashMap;-><init>(I)V
 
-    .line 13
     invoke-virtual {p1}, Lcom/commsource/studio/formula/JsFormula;->getFormulaId()Ljava/lang/String;
 
     move-result-object p1
@@ -269,7 +256,6 @@
 
     invoke-interface {v1, v2, p1}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 14
     invoke-static {p2}, Lcom/commsource/statistics/q;->j(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p1
@@ -284,12 +270,10 @@
 
     const-string p1, "beauty_template_material_appr"
 
-    .line 15
     invoke-static {p1, v1}, Lcom/commsource/statistics/i;->s(Ljava/lang/String;Ljava/util/Map;)V
 
     goto :goto_5
 
-    .line 16
     :cond_7
     new-instance p1, Lcotlin/TypeCastException;
 
@@ -301,7 +285,6 @@
 
     throw p1
 
-    .line 17
     :cond_8
     :goto_5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -316,7 +299,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Ljava/lang/Integer;
 
     check-cast p2, Lcom/commsource/widget/h1/f;

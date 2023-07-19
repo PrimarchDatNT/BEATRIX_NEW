@@ -90,7 +90,6 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
     new-instance v0, Lcom/google/android/gms/common/server/converter/b;
 
     invoke-direct {v0}, Lcom/google/android/gms/common/server/converter/b;-><init>()V
@@ -105,22 +104,18 @@
     .annotation build Lcom/google/android/gms/common/annotation/a;
     .end annotation
 
-    .line 8
     invoke-direct {p0}, Lcom/google/android/gms/common/internal/safeparcel/AbstractSafeParcelable;-><init>()V
 
     const/4 v0, 0x1
 
-    .line 9
     iput v0, p0, Lcom/google/android/gms/common/server/converter/StringToIntConverter;->a:I
 
-    .line 10
     new-instance v0, Ljava/util/HashMap;
 
     invoke-direct {v0}, Ljava/util/HashMap;-><init>()V
 
     iput-object v0, p0, Lcom/google/android/gms/common/server/converter/StringToIntConverter;->b:Ljava/util/HashMap;
 
-    .line 11
     new-instance v0, Landroid/util/SparseArray;
 
     invoke-direct {v0}, Landroid/util/SparseArray;-><init>()V
@@ -129,7 +124,6 @@
 
     const/4 v0, 0x0
 
-    .line 12
     iput-object v0, p0, Lcom/google/android/gms/common/server/converter/StringToIntConverter;->d:Ljava/util/ArrayList;
 
     return-void
@@ -159,20 +153,16 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Lcom/google/android/gms/common/internal/safeparcel/AbstractSafeParcelable;-><init>()V
 
-    .line 2
     iput p1, p0, Lcom/google/android/gms/common/server/converter/StringToIntConverter;->a:I
 
-    .line 3
     new-instance p1, Ljava/util/HashMap;
 
     invoke-direct {p1}, Ljava/util/HashMap;-><init>()V
 
     iput-object p1, p0, Lcom/google/android/gms/common/server/converter/StringToIntConverter;->b:Ljava/util/HashMap;
 
-    .line 4
     new-instance p1, Landroid/util/SparseArray;
 
     invoke-direct {p1}, Landroid/util/SparseArray;-><init>()V
@@ -181,10 +171,8 @@
 
     const/4 p1, 0x0
 
-    .line 5
     iput-object p1, p0, Lcom/google/android/gms/common/server/converter/StringToIntConverter;->d:Ljava/util/ArrayList;
 
-    .line 6
     invoke-virtual {p2}, Ljava/util/ArrayList;->size()I
 
     move-result p1
@@ -202,7 +190,6 @@
 
     check-cast v1, Lcom/google/android/gms/common/server/converter/StringToIntConverter$zaa;
 
-    .line 7
     iget-object v2, v1, Lcom/google/android/gms/common/server/converter/StringToIntConverter$zaa;->b:Ljava/lang/String;
 
     iget v1, v1, Lcom/google/android/gms/common/server/converter/StringToIntConverter$zaa;->c:I
@@ -220,10 +207,8 @@
 .method public final synthetic b(Ljava/lang/Object;)Ljava/lang/Object;
     .locals 1
 
-    .line 1
     check-cast p1, Ljava/lang/String;
 
-    .line 2
     iget-object v0, p0, Lcom/google/android/gms/common/server/converter/StringToIntConverter;->b:Ljava/util/HashMap;
 
     invoke-virtual {v0, p1}, Ljava/util/HashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
@@ -234,7 +219,6 @@
 
     if-nez p1, :cond_0
 
-    .line 3
     iget-object p1, p0, Lcom/google/android/gms/common/server/converter/StringToIntConverter;->b:Ljava/util/HashMap;
 
     const-string v0, "gms_unknown"
@@ -252,10 +236,8 @@
 .method public final synthetic c(Ljava/lang/Object;)Ljava/lang/Object;
     .locals 2
 
-    .line 1
     check-cast p1, Ljava/lang/Integer;
 
-    .line 2
     iget-object v0, p0, Lcom/google/android/gms/common/server/converter/StringToIntConverter;->c:Landroid/util/SparseArray;
 
     invoke-virtual {p1}, Ljava/lang/Integer;->intValue()I
@@ -270,7 +252,6 @@
 
     if-nez p1, :cond_0
 
-    .line 3
     iget-object v0, p0, Lcom/google/android/gms/common/server/converter/StringToIntConverter;->b:Ljava/util/HashMap;
 
     const-string v1, "gms_unknown"
@@ -306,24 +287,20 @@
 .method public final writeToParcel(Landroid/os/Parcel;I)V
     .locals 5
 
-    .line 1
     invoke-static {p1}, Lcom/google/android/gms/common/internal/safeparcel/a;->a(Landroid/os/Parcel;)I
 
     move-result p2
 
-    .line 2
     iget v0, p0, Lcom/google/android/gms/common/server/converter/StringToIntConverter;->a:I
 
     const/4 v1, 0x1
 
     invoke-static {p1, v1, v0}, Lcom/google/android/gms/common/internal/safeparcel/a;->F(Landroid/os/Parcel;II)V
 
-    .line 3
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
 
-    .line 4
     iget-object v1, p0, Lcom/google/android/gms/common/server/converter/StringToIntConverter;->b:Ljava/util/HashMap;
 
     invoke-virtual {v1}, Ljava/util/HashMap;->keySet()Ljava/util/Set;
@@ -347,7 +324,6 @@
 
     check-cast v2, Ljava/lang/String;
 
-    .line 5
     new-instance v3, Lcom/google/android/gms/common/server/converter/StringToIntConverter$zaa;
 
     iget-object v4, p0, Lcom/google/android/gms/common/server/converter/StringToIntConverter;->b:Ljava/util/HashMap;
@@ -373,10 +349,8 @@
 
     const/4 v2, 0x2
 
-    .line 6
     invoke-static {p1, v2, v0, v1}, Lcom/google/android/gms/common/internal/safeparcel/a;->c0(Landroid/os/Parcel;ILjava/util/List;Z)V
 
-    .line 7
     invoke-static {p1, p2}, Lcom/google/android/gms/common/internal/safeparcel/a;->b(Landroid/os/Parcel;I)V
 
     return-void
@@ -387,7 +361,6 @@
     .annotation build Lcom/google/android/gms/common/annotation/a;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/common/server/converter/StringToIntConverter;->b:Ljava/util/HashMap;
 
     invoke-static {p2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -396,7 +369,6 @@
 
     invoke-virtual {v0, p1, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 2
     iget-object v0, p0, Lcom/google/android/gms/common/server/converter/StringToIntConverter;->c:Landroid/util/SparseArray;
 
     invoke-virtual {v0, p2, p1}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V

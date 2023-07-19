@@ -45,7 +45,6 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
     new-instance v0, Lio/jaegertracing/a/l/d;
 
     invoke-direct {v0}, Lio/jaegertracing/a/l/d;-><init>()V
@@ -58,31 +57,26 @@
 .method private constructor <init>(Lio/jaegertracing/a/l/e$b;)V
     .locals 1
 
-    .line 3
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 4
     invoke-static {p1}, Lio/jaegertracing/a/l/e$b;->a(Lio/jaegertracing/a/l/e$b;)Z
 
     move-result v0
 
     iput-boolean v0, p0, Lio/jaegertracing/a/l/e;->c:Z
 
-    .line 5
     invoke-static {p1}, Lio/jaegertracing/a/l/e$b;->b(Lio/jaegertracing/a/l/e$b;)Ljava/lang/String;
 
     move-result-object v0
 
     iput-object v0, p0, Lio/jaegertracing/a/l/e;->a:Ljava/lang/String;
 
-    .line 6
     invoke-static {p1}, Lio/jaegertracing/a/l/e$b;->c(Lio/jaegertracing/a/l/e$b;)Ljava/lang/String;
 
     move-result-object v0
 
     iput-object v0, p0, Lio/jaegertracing/a/l/e;->b:Ljava/lang/String;
 
-    .line 7
     invoke-static {p1}, Lio/jaegertracing/a/l/e$b;->d(Lio/jaegertracing/a/l/e$b;)Lio/jaegertracing/a/b;
 
     move-result-object p1
@@ -95,7 +89,6 @@
 .method synthetic constructor <init>(Lio/jaegertracing/a/l/e$b;Lio/jaegertracing/a/l/e$a;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1}, Lio/jaegertracing/a/l/e;-><init>(Lio/jaegertracing/a/l/e$b;)V
 
     return-void
@@ -104,7 +97,6 @@
 .method public constructor <init>(Z)V
     .locals 1
 
-    .line 2
     invoke-static {}, Lio/jaegertracing/a/l/e;->c()Lio/jaegertracing/a/l/e$b;
 
     move-result-object v0
@@ -121,7 +113,6 @@
 .method public static c()Lio/jaegertracing/a/l/e$b;
     .locals 1
 
-    .line 1
     new-instance v0, Lio/jaegertracing/a/l/e$b;
 
     invoke-direct {v0}, Lio/jaegertracing/a/l/e$b;-><init>()V
@@ -132,19 +123,16 @@
 .method public static d(Lio/jaegertracing/a/d;)Ljava/lang/String;
     .locals 5
 
-    .line 1
     invoke-virtual {p0}, Lio/jaegertracing/a/d;->e()B
 
     move-result v0
 
     and-int/lit16 v0, v0, 0xff
 
-    .line 2
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
 
-    .line 3
     invoke-virtual {p0}, Lio/jaegertracing/a/d;->h()J
 
     move-result-wide v2
@@ -159,7 +147,6 @@
 
     invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 4
     invoke-virtual {p0}, Lio/jaegertracing/a/d;->g()J
 
     move-result-wide v3
@@ -172,7 +159,6 @@
 
     invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 5
     invoke-virtual {p0}, Lio/jaegertracing/a/d;->f()J
 
     move-result-wide v3
@@ -185,14 +171,12 @@
 
     invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 6
     invoke-static {v0}, Ljava/lang/Integer;->toHexString(I)Ljava/lang/String;
 
     move-result-object p0
 
     invoke-virtual {v1, p0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 7
     invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     move-result-object p0
@@ -213,7 +197,6 @@
 
     const-string v0, ""
 
-    .line 1
     invoke-virtual {p0, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v0
@@ -222,19 +205,16 @@
 
     const-string v0, ":"
 
-    .line 2
     invoke-virtual {p0, v0}, Ljava/lang/String;->split(Ljava/lang/String;)[Ljava/lang/String;
 
     move-result-object v0
 
-    .line 3
     array-length v1, v0
 
     const/4 v2, 0x4
 
     if-ne v1, v2, :cond_0
 
-    .line 4
     new-instance p0, Lio/jaegertracing/a/d;
 
     new-instance v1, Ljava/math/BigInteger;
@@ -247,7 +227,6 @@
 
     invoke-direct {v1, v2, v3}, Ljava/math/BigInteger;-><init>(Ljava/lang/String;I)V
 
-    .line 5
     invoke-virtual {v1}, Ljava/math/BigInteger;->longValue()J
 
     move-result-wide v4
@@ -260,7 +239,6 @@
 
     invoke-direct {v1, v2, v3}, Ljava/math/BigInteger;-><init>(Ljava/lang/String;I)V
 
-    .line 6
     invoke-virtual {v1}, Ljava/math/BigInteger;->longValue()J
 
     move-result-wide v6
@@ -273,7 +251,6 @@
 
     invoke-direct {v1, v2, v3}, Ljava/math/BigInteger;-><init>(Ljava/lang/String;I)V
 
-    .line 7
     invoke-virtual {v1}, Ljava/math/BigInteger;->longValue()J
 
     move-result-wide v8
@@ -286,7 +263,6 @@
 
     invoke-direct {v1, v0, v3}, Ljava/math/BigInteger;-><init>(Ljava/lang/String;I)V
 
-    .line 8
     invoke-virtual {v1}, Ljava/math/BigInteger;->byteValue()B
 
     move-result v10
@@ -297,7 +273,6 @@
 
     return-object p0
 
-    .line 9
     :cond_0
     new-instance v0, Lio/jaegertracing/internal/exceptions/MalformedTracerStateStringException;
 
@@ -305,7 +280,6 @@
 
     throw v0
 
-    .line 10
     :cond_1
     new-instance p0, Lio/jaegertracing/internal/exceptions/EmptyTracerStateStringException;
 
@@ -317,7 +291,6 @@
 .method private f(Ljava/lang/String;)Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-boolean v0, p0, Lio/jaegertracing/a/l/e;->c:Z
 
     if-nez v0, :cond_0
@@ -328,7 +301,6 @@
     :try_start_0
     const-string v0, "UTF-8"
 
-    .line 2
     invoke-static {p1, v0}, Ljava/net/URLDecoder;->decode(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p1
@@ -342,7 +314,6 @@
 .method private g(Ljava/lang/String;)Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-boolean v0, p0, Lio/jaegertracing/a/l/e;->c:Z
 
     if-nez v0, :cond_0
@@ -353,7 +324,6 @@
     :try_start_0
     const-string v0, "UTF-8"
 
-    .line 2
     invoke-static {p1, v0}, Ljava/net/URLEncoder;->encode(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p1
@@ -383,7 +353,6 @@
 
     const-string v0, "\\s*,\\s*"
 
-    .line 1
     invoke-virtual {p1, v0}, Ljava/lang/String;->split(Ljava/lang/String;)[Ljava/lang/String;
 
     move-result-object p1
@@ -401,12 +370,10 @@
 
     const-string v4, "\\s*=\\s*"
 
-    .line 2
     invoke-virtual {v3, v4}, Ljava/lang/String;->split(Ljava/lang/String;)[Ljava/lang/String;
 
     move-result-object v4
 
-    .line 3
     array-length v5, v4
 
     const/4 v6, 0x2
@@ -415,12 +382,10 @@
 
     if-nez p2, :cond_0
 
-    .line 4
     new-instance p2, Ljava/util/HashMap;
 
     invoke-direct {p2}, Ljava/util/HashMap;-><init>()V
 
-    .line 5
     :cond_0
     aget-object v3, v4, v1
 
@@ -432,7 +397,6 @@
 
     goto :goto_1
 
-    .line 6
     :cond_1
     new-instance v4, Ljava/lang/StringBuilder;
 
@@ -464,7 +428,6 @@
 .method public bridge synthetic a(Ljava/lang/Object;)Lio/jaegertracing/a/d;
     .locals 0
 
-    .line 1
     check-cast p1, Li/a/i/b;
 
     invoke-virtual {p0, p1}, Lio/jaegertracing/a/l/e;->h(Li/a/i/b;)Lio/jaegertracing/a/d;
@@ -477,7 +440,6 @@
 .method public bridge synthetic b(Lio/jaegertracing/a/d;Ljava/lang/Object;)V
     .locals 0
 
-    .line 1
     check-cast p2, Li/a/i/b;
 
     invoke-virtual {p0, p1, p2}, Lio/jaegertracing/a/l/e;->i(Lio/jaegertracing/a/d;Li/a/i/b;)V
@@ -488,7 +450,6 @@
 .method public h(Li/a/i/b;)Lio/jaegertracing/a/d;
     .locals 13
 
-    .line 1
     invoke-interface {p1}, Li/a/i/b;->iterator()Ljava/util/Iterator;
 
     move-result-object p1
@@ -513,7 +474,6 @@
 
     check-cast v1, Ljava/util/Map$Entry;
 
-    .line 2
     invoke-interface {v1}, Ljava/util/Map$Entry;->getKey()Ljava/lang/Object;
 
     move-result-object v2
@@ -526,7 +486,6 @@
 
     move-result-object v2
 
-    .line 3
     iget-object v3, p0, Lio/jaegertracing/a/l/e;->a:Ljava/lang/String;
 
     invoke-virtual {v2, v3}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -535,7 +494,6 @@
 
     if-eqz v3, :cond_1
 
-    .line 4
     invoke-interface {v1}, Ljava/util/Map$Entry;->getValue()Ljava/lang/Object;
 
     move-result-object v0
@@ -555,14 +513,12 @@
     :cond_1
     const-string v3, "jaeger-debug-id"
 
-    .line 5
     invoke-virtual {v2, v3}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v3
 
     if-eqz v3, :cond_2
 
-    .line 6
     invoke-interface {v1}, Ljava/util/Map$Entry;->getValue()Ljava/lang/Object;
 
     move-result-object v1
@@ -577,7 +533,6 @@
 
     goto :goto_0
 
-    .line 7
     :cond_2
     iget-object v3, p0, Lio/jaegertracing/a/l/e;->b:Ljava/lang/String;
 
@@ -589,12 +544,10 @@
 
     if-nez v9, :cond_3
 
-    .line 8
     new-instance v9, Ljava/util/HashMap;
 
     invoke-direct {v9}, Ljava/util/HashMap;-><init>()V
 
-    .line 9
     :cond_3
     sget-object v3, Lio/jaegertracing/a/l/e;->g:Lio/jaegertracing/a/l/d;
 
@@ -621,14 +574,12 @@
     :cond_4
     const-string v3, "jaeger-baggage"
 
-    .line 10
     invoke-virtual {v2, v3}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v2
 
     if-eqz v2, :cond_0
 
-    .line 11
     invoke-interface {v1}, Ljava/util/Map$Entry;->getValue()Ljava/lang/Object;
 
     move-result-object v1
@@ -654,7 +605,6 @@
 
     return-object v0
 
-    .line 12
     :cond_6
     iget-object v1, p0, Lio/jaegertracing/a/l/e;->d:Lio/jaegertracing/a/b;
 
@@ -666,7 +616,6 @@
 
     goto :goto_1
 
-    .line 13
     :cond_7
     invoke-virtual {v0}, Lio/jaegertracing/a/d;->h()J
 
@@ -679,7 +628,6 @@
 
     goto :goto_2
 
-    .line 14
     :cond_8
     invoke-virtual {v0}, Lio/jaegertracing/a/d;->g()J
 
@@ -690,7 +638,6 @@
 
     goto :goto_3
 
-    .line 15
     :cond_9
     invoke-virtual {v0}, Lio/jaegertracing/a/d;->f()J
 
@@ -707,7 +654,6 @@
 
     goto :goto_4
 
-    .line 16
     :cond_a
     invoke-virtual {v0}, Lio/jaegertracing/a/d;->e()B
 
@@ -722,7 +668,6 @@
 
     move-wide v6, v11
 
-    .line 17
     invoke-virtual/range {v1 .. v10}, Lio/jaegertracing/a/b;->c(JJJBLjava/util/Map;Ljava/lang/String;)Lio/jaegertracing/a/d;
 
     move-result-object p1
@@ -733,7 +678,6 @@
 .method public i(Lio/jaegertracing/a/d;Li/a/i/b;)V
     .locals 4
 
-    .line 1
     iget-object v0, p0, Lio/jaegertracing/a/l/e;->a:Ljava/lang/String;
 
     invoke-static {p1}, Lio/jaegertracing/a/l/e;->d(Lio/jaegertracing/a/d;)Ljava/lang/String;
@@ -746,7 +690,6 @@
 
     invoke-interface {p2, v0, v1}, Li/a/i/b;->a(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 2
     invoke-virtual {p1}, Lio/jaegertracing/a/d;->d()Ljava/lang/Iterable;
 
     move-result-object p1
@@ -768,7 +711,6 @@
 
     check-cast v0, Ljava/util/Map$Entry;
 
-    .line 3
     sget-object v1, Lio/jaegertracing/a/l/e;->g:Lio/jaegertracing/a/l/d;
 
     invoke-interface {v0}, Ljava/util/Map$Entry;->getKey()Ljava/lang/Object;
@@ -804,60 +746,48 @@
 .method public toString()Ljava/lang/String;
     .locals 3
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
 
     const-string v1, "TextMapCodec{"
 
-    .line 2
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     const-string v1, "contextKey="
 
-    .line 3
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     iget-object v1, p0, Lio/jaegertracing/a/l/e;->a:Ljava/lang/String;
 
-    .line 4
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     const/16 v1, 0x2c
 
-    .line 5
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(C)Ljava/lang/StringBuilder;
 
     const-string v2, "baggagePrefix="
 
-    .line 6
     invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     iget-object v2, p0, Lio/jaegertracing/a/l/e;->b:Ljava/lang/String;
 
-    .line 7
     invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 8
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(C)Ljava/lang/StringBuilder;
 
     const-string v1, "urlEncoding="
 
-    .line 9
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     iget-boolean v1, p0, Lio/jaegertracing/a/l/e;->c:Z
 
-    .line 10
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Z)Ljava/lang/StringBuilder;
 
     const/16 v1, 0x7d
 
-    .line 11
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(C)Ljava/lang/StringBuilder;
 
-    .line 12
     invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     move-result-object v0

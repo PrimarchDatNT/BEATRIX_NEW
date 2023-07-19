@@ -22,7 +22,6 @@
 .method private constructor <init>(Lf/r/c/d/e;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lf/r/c/d/e$e;->a:Lf/r/c/d/e;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -33,7 +32,6 @@
 .method synthetic constructor <init>(Lf/r/c/d/e;Lf/r/c/d/e$a;)V
     .locals 0
 
-    .line 2
     invoke-direct {p0, p1}, Lf/r/c/d/e$e;-><init>(Lf/r/c/d/e;)V
 
     return-void
@@ -46,7 +44,6 @@
     .annotation runtime Landroid/webkit/JavascriptInterface;
     .end annotation
 
-    .line 1
     invoke-static {}, Lf/r/c/d/e;->m()Ljava/lang/String;
 
     move-result-object v0

@@ -27,7 +27,6 @@
 .method constructor <init>(Lcom/meitu/core/magicpen/MtPenGLSurfaceView;Lcom/meitu/core/magicpen/MtPenGLSurfaceView$FinishSave2Bitmap;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/core/magicpen/MtPenGLSurfaceView$23;->this$0:Lcom/meitu/core/magicpen/MtPenGLSurfaceView;
 
     iput-object p2, p0, Lcom/meitu/core/magicpen/MtPenGLSurfaceView$23;->val$callback:Lcom/meitu/core/magicpen/MtPenGLSurfaceView$FinishSave2Bitmap;
@@ -46,7 +45,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/core/magicpen/MtPenGLSurfaceView$23;->this$0:Lcom/meitu/core/magicpen/MtPenGLSurfaceView;
 
     invoke-static {v1}, Lcom/meitu/core/magicpen/MtPenGLSurfaceView;->access$000(Lcom/meitu/core/magicpen/MtPenGLSurfaceView;)Lcom/meitu/core/magicpen/NativeGLMagicPen;
@@ -57,12 +55,10 @@
 
     move-result-object v1
 
-    .line 2
     iget-object v2, p0, Lcom/meitu/core/magicpen/MtPenGLSurfaceView$23;->val$callback:Lcom/meitu/core/magicpen/MtPenGLSurfaceView$FinishSave2Bitmap;
 
     invoke-interface {v2, v1}, Lcom/meitu/core/magicpen/MtPenGLSurfaceView$FinishSave2Bitmap;->successfulSave2Bitmap(Landroid/graphics/Bitmap;)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

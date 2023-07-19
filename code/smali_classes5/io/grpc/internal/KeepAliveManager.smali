@@ -77,7 +77,6 @@
 .method static constructor <clinit>()V
     .locals 5
 
-    .line 1
     sget-object v0, Ljava/util/concurrent/TimeUnit;->SECONDS:Ljava/util/concurrent/TimeUnit;
 
     const-wide/16 v1, 0xa
@@ -88,7 +87,6 @@
 
     sput-wide v3, Lio/grpc/internal/KeepAliveManager;->l:J
 
-    .line 2
     sget-object v0, Ljava/util/concurrent/TimeUnit;->MILLISECONDS:Ljava/util/concurrent/TimeUnit;
 
     invoke-virtual {v0, v1, v2}, Ljava/util/concurrent/TimeUnit;->toNanos(J)J
@@ -103,7 +101,6 @@
 .method public constructor <init>(Lio/grpc/internal/KeepAliveManager$d;Ljava/util/concurrent/ScheduledExecutorService;JJZ)V
     .locals 9
 
-    .line 1
     invoke-static {}, Lcom/google/common/base/x;->e()Lcom/google/common/base/x;
 
     move-result-object v3
@@ -130,15 +127,12 @@
     .annotation build Lf/f/e/a/d;
     .end annotation
 
-    .line 2
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 3
     sget-object v0, Lio/grpc/internal/KeepAliveManager$State;->IDLE:Lio/grpc/internal/KeepAliveManager$State;
 
     iput-object v0, p0, Lio/grpc/internal/KeepAliveManager;->e:Lio/grpc/internal/KeepAliveManager$State;
 
-    .line 4
     new-instance v0, Lio/grpc/internal/j1;
 
     new-instance v1, Lio/grpc/internal/KeepAliveManager$a;
@@ -149,7 +143,6 @@
 
     iput-object v0, p0, Lio/grpc/internal/KeepAliveManager;->h:Ljava/lang/Runnable;
 
-    .line 5
     new-instance v0, Lio/grpc/internal/j1;
 
     new-instance v1, Lio/grpc/internal/KeepAliveManager$b;
@@ -162,7 +155,6 @@
 
     const-string v0, "keepAlivePinger"
 
-    .line 6
     invoke-static {p1, v0}, Lcom/google/common/base/t;->F(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -173,7 +165,6 @@
 
     const-string p1, "scheduler"
 
-    .line 7
     invoke-static {p2, p1}, Lcom/google/common/base/t;->F(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -184,7 +175,6 @@
 
     const-string p1, "stopwatch"
 
-    .line 8
     invoke-static {p3, p1}, Lcom/google/common/base/t;->F(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -193,16 +183,12 @@
 
     iput-object p1, p0, Lio/grpc/internal/KeepAliveManager;->b:Lcom/google/common/base/x;
 
-    .line 9
     iput-wide p4, p0, Lio/grpc/internal/KeepAliveManager;->j:J
 
-    .line 10
     iput-wide p6, p0, Lio/grpc/internal/KeepAliveManager;->k:J
 
-    .line 11
     iput-boolean p8, p0, Lio/grpc/internal/KeepAliveManager;->d:Z
 
-    .line 12
     invoke-virtual {p3}, Lcom/google/common/base/x;->j()Lcom/google/common/base/x;
 
     move-result-object p1
@@ -215,7 +201,6 @@
 .method static synthetic a(Lio/grpc/internal/KeepAliveManager;)Lio/grpc/internal/KeepAliveManager$State;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lio/grpc/internal/KeepAliveManager;->e:Lio/grpc/internal/KeepAliveManager$State;
 
     return-object p0
@@ -224,7 +209,6 @@
 .method static synthetic b(Lio/grpc/internal/KeepAliveManager;Lio/grpc/internal/KeepAliveManager$State;)Lio/grpc/internal/KeepAliveManager$State;
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lio/grpc/internal/KeepAliveManager;->e:Lio/grpc/internal/KeepAliveManager$State;
 
     return-object p1
@@ -233,7 +217,6 @@
 .method static synthetic c(Lio/grpc/internal/KeepAliveManager;)Lio/grpc/internal/KeepAliveManager$d;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lio/grpc/internal/KeepAliveManager;->c:Lio/grpc/internal/KeepAliveManager$d;
 
     return-object p0
@@ -242,7 +225,6 @@
 .method static synthetic d(Lio/grpc/internal/KeepAliveManager;Ljava/util/concurrent/ScheduledFuture;)Ljava/util/concurrent/ScheduledFuture;
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lio/grpc/internal/KeepAliveManager;->g:Ljava/util/concurrent/ScheduledFuture;
 
     return-object p1
@@ -251,7 +233,6 @@
 .method static synthetic e(Lio/grpc/internal/KeepAliveManager;Ljava/util/concurrent/ScheduledFuture;)Ljava/util/concurrent/ScheduledFuture;
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lio/grpc/internal/KeepAliveManager;->f:Ljava/util/concurrent/ScheduledFuture;
 
     return-object p1
@@ -260,7 +241,6 @@
 .method static synthetic f(Lio/grpc/internal/KeepAliveManager;)Ljava/lang/Runnable;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lio/grpc/internal/KeepAliveManager;->h:Ljava/lang/Runnable;
 
     return-object p0
@@ -269,7 +249,6 @@
 .method static synthetic g(Lio/grpc/internal/KeepAliveManager;)J
     .locals 2
 
-    .line 1
     iget-wide v0, p0, Lio/grpc/internal/KeepAliveManager;->k:J
 
     return-wide v0
@@ -278,7 +257,6 @@
 .method static synthetic h(Lio/grpc/internal/KeepAliveManager;)Ljava/util/concurrent/ScheduledExecutorService;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lio/grpc/internal/KeepAliveManager;->a:Ljava/util/concurrent/ScheduledExecutorService;
 
     return-object p0
@@ -287,7 +265,6 @@
 .method static synthetic i(Lio/grpc/internal/KeepAliveManager;)Ljava/lang/Runnable;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lio/grpc/internal/KeepAliveManager;->i:Ljava/lang/Runnable;
 
     return-object p0
@@ -296,7 +273,6 @@
 .method static synthetic j(Lio/grpc/internal/KeepAliveManager;)J
     .locals 2
 
-    .line 1
     iget-wide v0, p0, Lio/grpc/internal/KeepAliveManager;->j:J
 
     return-wide v0
@@ -305,7 +281,6 @@
 .method static synthetic k(Lio/grpc/internal/KeepAliveManager;)Lcom/google/common/base/x;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lio/grpc/internal/KeepAliveManager;->b:Lcom/google/common/base/x;
 
     return-object p0
@@ -314,7 +289,6 @@
 .method public static l(J)J
     .locals 2
 
-    .line 1
     sget-wide v0, Lio/grpc/internal/KeepAliveManager;->l:J
 
     invoke-static {p0, p1, v0, v1}, Ljava/lang/Math;->max(JJ)J
@@ -327,7 +301,6 @@
 .method public static m(J)J
     .locals 2
 
-    .line 1
     sget-wide v0, Lio/grpc/internal/KeepAliveManager;->m:J
 
     invoke-static {p0, p1, v0, v1}, Ljava/lang/Math;->max(JJ)J
@@ -344,7 +317,6 @@
 
     monitor-enter p0
 
-    .line 1
     :try_start_0
     iget-object v0, p0, Lio/grpc/internal/KeepAliveManager;->b:Lcom/google/common/base/x;
 
@@ -354,21 +326,18 @@
 
     invoke-virtual {v0}, Lcom/google/common/base/x;->k()Lcom/google/common/base/x;
 
-    .line 2
     iget-object v0, p0, Lio/grpc/internal/KeepAliveManager;->e:Lio/grpc/internal/KeepAliveManager$State;
 
     sget-object v1, Lio/grpc/internal/KeepAliveManager$State;->PING_SCHEDULED:Lio/grpc/internal/KeepAliveManager$State;
 
     if-ne v0, v1, :cond_0
 
-    .line 3
     sget-object v0, Lio/grpc/internal/KeepAliveManager$State;->PING_DELAYED:Lio/grpc/internal/KeepAliveManager$State;
 
     iput-object v0, p0, Lio/grpc/internal/KeepAliveManager;->e:Lio/grpc/internal/KeepAliveManager$State;
 
     goto :goto_0
 
-    .line 4
     :cond_0
     sget-object v2, Lio/grpc/internal/KeepAliveManager$State;->PING_SENT:Lio/grpc/internal/KeepAliveManager$State;
 
@@ -378,7 +347,6 @@
 
     if-ne v0, v2, :cond_5
 
-    .line 5
     :cond_1
     iget-object v0, p0, Lio/grpc/internal/KeepAliveManager;->f:Ljava/util/concurrent/ScheduledFuture;
 
@@ -386,10 +354,8 @@
 
     if-eqz v0, :cond_2
 
-    .line 6
     invoke-interface {v0, v2}, Ljava/util/concurrent/ScheduledFuture;->cancel(Z)Z
 
-    .line 7
     :cond_2
     iget-object v0, p0, Lio/grpc/internal/KeepAliveManager;->e:Lio/grpc/internal/KeepAliveManager$State;
 
@@ -397,24 +363,20 @@
 
     if-ne v0, v3, :cond_3
 
-    .line 8
     sget-object v0, Lio/grpc/internal/KeepAliveManager$State;->IDLE:Lio/grpc/internal/KeepAliveManager$State;
 
     iput-object v0, p0, Lio/grpc/internal/KeepAliveManager;->e:Lio/grpc/internal/KeepAliveManager$State;
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 9
     monitor-exit p0
 
     return-void
 
-    .line 10
     :cond_3
     :try_start_1
     iput-object v1, p0, Lio/grpc/internal/KeepAliveManager;->e:Lio/grpc/internal/KeepAliveManager$State;
 
-    .line 11
     iget-object v0, p0, Lio/grpc/internal/KeepAliveManager;->g:Ljava/util/concurrent/ScheduledFuture;
 
     if-nez v0, :cond_4
@@ -426,7 +388,6 @@
 
     invoke-static {v2, v0}, Lcom/google/common/base/t;->h0(ZLjava/lang/Object;)V
 
-    .line 12
     iget-object v0, p0, Lio/grpc/internal/KeepAliveManager;->a:Ljava/util/concurrent/ScheduledExecutorService;
 
     iget-object v1, p0, Lio/grpc/internal/KeepAliveManager;->i:Ljava/lang/Runnable;
@@ -443,7 +404,6 @@
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
-    .line 13
     :cond_5
     :goto_0
     monitor-exit p0
@@ -463,7 +423,6 @@
 
     monitor-enter p0
 
-    .line 1
     :try_start_0
     iget-object v0, p0, Lio/grpc/internal/KeepAliveManager;->e:Lio/grpc/internal/KeepAliveManager$State;
 
@@ -471,17 +430,14 @@
 
     if-ne v0, v1, :cond_0
 
-    .line 2
     sget-object v0, Lio/grpc/internal/KeepAliveManager$State;->PING_SCHEDULED:Lio/grpc/internal/KeepAliveManager$State;
 
     iput-object v0, p0, Lio/grpc/internal/KeepAliveManager;->e:Lio/grpc/internal/KeepAliveManager$State;
 
-    .line 3
     iget-object v0, p0, Lio/grpc/internal/KeepAliveManager;->g:Ljava/util/concurrent/ScheduledFuture;
 
     if-nez v0, :cond_1
 
-    .line 4
     iget-object v0, p0, Lio/grpc/internal/KeepAliveManager;->a:Ljava/util/concurrent/ScheduledExecutorService;
 
     iget-object v1, p0, Lio/grpc/internal/KeepAliveManager;->i:Ljava/lang/Runnable;
@@ -492,14 +448,12 @@
 
     sget-object v5, Ljava/util/concurrent/TimeUnit;->NANOSECONDS:Ljava/util/concurrent/TimeUnit;
 
-    .line 5
     invoke-virtual {v4, v5}, Lcom/google/common/base/x;->g(Ljava/util/concurrent/TimeUnit;)J
 
     move-result-wide v6
 
     sub-long/2addr v2, v6
 
-    .line 6
     invoke-interface {v0, v1, v2, v3, v5}, Ljava/util/concurrent/ScheduledExecutorService;->schedule(Ljava/lang/Runnable;JLjava/util/concurrent/TimeUnit;)Ljava/util/concurrent/ScheduledFuture;
 
     move-result-object v0
@@ -508,20 +462,17 @@
 
     goto :goto_0
 
-    .line 7
     :cond_0
     sget-object v1, Lio/grpc/internal/KeepAliveManager$State;->IDLE_AND_PING_SENT:Lio/grpc/internal/KeepAliveManager$State;
 
     if-ne v0, v1, :cond_1
 
-    .line 8
     sget-object v0, Lio/grpc/internal/KeepAliveManager$State;->PING_SENT:Lio/grpc/internal/KeepAliveManager$State;
 
     iput-object v0, p0, Lio/grpc/internal/KeepAliveManager;->e:Lio/grpc/internal/KeepAliveManager$State;
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 9
     :cond_1
     :goto_0
     monitor-exit p0
@@ -541,7 +492,6 @@
 
     monitor-enter p0
 
-    .line 1
     :try_start_0
     iget-boolean v0, p0, Lio/grpc/internal/KeepAliveManager;->d:Z
     :try_end_0
@@ -549,12 +499,10 @@
 
     if-eqz v0, :cond_0
 
-    .line 2
     monitor-exit p0
 
     return-void
 
-    .line 3
     :cond_0
     :try_start_1
     iget-object v0, p0, Lio/grpc/internal/KeepAliveManager;->e:Lio/grpc/internal/KeepAliveManager$State;
@@ -567,13 +515,11 @@
 
     if-ne v0, v1, :cond_2
 
-    .line 4
     :cond_1
     sget-object v0, Lio/grpc/internal/KeepAliveManager$State;->IDLE:Lio/grpc/internal/KeepAliveManager$State;
 
     iput-object v0, p0, Lio/grpc/internal/KeepAliveManager;->e:Lio/grpc/internal/KeepAliveManager$State;
 
-    .line 5
     :cond_2
     iget-object v0, p0, Lio/grpc/internal/KeepAliveManager;->e:Lio/grpc/internal/KeepAliveManager$State;
 
@@ -581,14 +527,12 @@
 
     if-ne v0, v1, :cond_3
 
-    .line 6
     sget-object v0, Lio/grpc/internal/KeepAliveManager$State;->IDLE_AND_PING_SENT:Lio/grpc/internal/KeepAliveManager$State;
 
     iput-object v0, p0, Lio/grpc/internal/KeepAliveManager;->e:Lio/grpc/internal/KeepAliveManager$State;
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
-    .line 7
     :cond_3
     monitor-exit p0
 
@@ -607,18 +551,15 @@
 
     monitor-enter p0
 
-    .line 1
     :try_start_0
     iget-boolean v0, p0, Lio/grpc/internal/KeepAliveManager;->d:Z
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-virtual {p0}, Lio/grpc/internal/KeepAliveManager;->o()V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 3
     :cond_0
     monitor-exit p0
 
@@ -637,7 +578,6 @@
 
     monitor-enter p0
 
-    .line 1
     :try_start_0
     iget-object v0, p0, Lio/grpc/internal/KeepAliveManager;->e:Lio/grpc/internal/KeepAliveManager$State;
 
@@ -645,36 +585,29 @@
 
     if-eq v0, v1, :cond_1
 
-    .line 2
     iput-object v1, p0, Lio/grpc/internal/KeepAliveManager;->e:Lio/grpc/internal/KeepAliveManager$State;
 
-    .line 3
     iget-object v0, p0, Lio/grpc/internal/KeepAliveManager;->f:Ljava/util/concurrent/ScheduledFuture;
 
     const/4 v1, 0x0
 
     if-eqz v0, :cond_0
 
-    .line 4
     invoke-interface {v0, v1}, Ljava/util/concurrent/ScheduledFuture;->cancel(Z)Z
 
-    .line 5
     :cond_0
     iget-object v0, p0, Lio/grpc/internal/KeepAliveManager;->g:Ljava/util/concurrent/ScheduledFuture;
 
     if-eqz v0, :cond_1
 
-    .line 6
     invoke-interface {v0, v1}, Ljava/util/concurrent/ScheduledFuture;->cancel(Z)Z
 
     const/4 v0, 0x0
 
-    .line 7
     iput-object v0, p0, Lio/grpc/internal/KeepAliveManager;->g:Ljava/util/concurrent/ScheduledFuture;
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 8
     :cond_1
     monitor-exit p0
 

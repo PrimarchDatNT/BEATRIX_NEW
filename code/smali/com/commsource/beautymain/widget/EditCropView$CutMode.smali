@@ -54,7 +54,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/commsource/beautymain/widget/EditCropView$CutMode;
 
     const-string v2, "MODE_ORIGINAL"
@@ -65,7 +64,6 @@
 
     sput-object v1, Lcom/commsource/beautymain/widget/EditCropView$CutMode;->MODE_ORIGINAL:Lcom/commsource/beautymain/widget/EditCropView$CutMode;
 
-    .line 2
     new-instance v2, Lcom/commsource/beautymain/widget/EditCropView$CutMode;
 
     const-string v4, "MOED_FREE_CUT"
@@ -76,7 +74,6 @@
 
     sput-object v2, Lcom/commsource/beautymain/widget/EditCropView$CutMode;->MOED_FREE_CUT:Lcom/commsource/beautymain/widget/EditCropView$CutMode;
 
-    .line 3
     new-instance v4, Lcom/commsource/beautymain/widget/EditCropView$CutMode;
 
     const-string v6, "MOED_1_1"
@@ -87,7 +84,6 @@
 
     sput-object v4, Lcom/commsource/beautymain/widget/EditCropView$CutMode;->MOED_1_1:Lcom/commsource/beautymain/widget/EditCropView$CutMode;
 
-    .line 4
     new-instance v6, Lcom/commsource/beautymain/widget/EditCropView$CutMode;
 
     const-string v8, "MOED_2_3"
@@ -98,7 +94,6 @@
 
     sput-object v6, Lcom/commsource/beautymain/widget/EditCropView$CutMode;->MOED_2_3:Lcom/commsource/beautymain/widget/EditCropView$CutMode;
 
-    .line 5
     new-instance v8, Lcom/commsource/beautymain/widget/EditCropView$CutMode;
 
     const-string v10, "MOED_3_2"
@@ -109,7 +104,6 @@
 
     sput-object v8, Lcom/commsource/beautymain/widget/EditCropView$CutMode;->MOED_3_2:Lcom/commsource/beautymain/widget/EditCropView$CutMode;
 
-    .line 6
     new-instance v10, Lcom/commsource/beautymain/widget/EditCropView$CutMode;
 
     const-string v12, "MOED_3_4"
@@ -120,7 +114,6 @@
 
     sput-object v10, Lcom/commsource/beautymain/widget/EditCropView$CutMode;->MOED_3_4:Lcom/commsource/beautymain/widget/EditCropView$CutMode;
 
-    .line 7
     new-instance v12, Lcom/commsource/beautymain/widget/EditCropView$CutMode;
 
     const-string v14, "MODE_4_5"
@@ -131,7 +124,6 @@
 
     sput-object v12, Lcom/commsource/beautymain/widget/EditCropView$CutMode;->MODE_4_5:Lcom/commsource/beautymain/widget/EditCropView$CutMode;
 
-    .line 8
     new-instance v14, Lcom/commsource/beautymain/widget/EditCropView$CutMode;
 
     const-string v0, "MOED_4_3"
@@ -142,7 +134,6 @@
 
     sput-object v14, Lcom/commsource/beautymain/widget/EditCropView$CutMode;->MOED_4_3:Lcom/commsource/beautymain/widget/EditCropView$CutMode;
 
-    .line 9
     new-instance v0, Lcom/commsource/beautymain/widget/EditCropView$CutMode;
 
     const-string v15, "MOED_9_16"
@@ -153,7 +144,6 @@
 
     sput-object v0, Lcom/commsource/beautymain/widget/EditCropView$CutMode;->MOED_9_16:Lcom/commsource/beautymain/widget/EditCropView$CutMode;
 
-    .line 10
     new-instance v15, Lcom/commsource/beautymain/widget/EditCropView$CutMode;
 
     const-string v13, "MOED_16_9"
@@ -198,7 +188,6 @@
 
     aput-object v15, v13, v11
 
-    .line 11
     sput-object v13, Lcom/commsource/beautymain/widget/EditCropView$CutMode;->$VALUES:[Lcom/commsource/beautymain/widget/EditCropView$CutMode;
 
     const/16 v0, 0x7634
@@ -216,7 +205,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
     return-void
@@ -229,7 +217,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     const-class v1, Lcom/commsource/beautymain/widget/EditCropView$CutMode;
 
     invoke-static {v1, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -250,7 +237,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/beautymain/widget/EditCropView$CutMode;->$VALUES:[Lcom/commsource/beautymain/widget/EditCropView$CutMode;
 
     invoke-virtual {v1}, [Lcom/commsource/beautymain/widget/EditCropView$CutMode;->clone()Ljava/lang/Object;

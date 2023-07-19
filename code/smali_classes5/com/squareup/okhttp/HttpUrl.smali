@@ -79,7 +79,6 @@
 
     new-array v0, v0, [C
 
-    .line 1
     fill-array-data v0, :array_0
 
     sput-object v0, Lcom/squareup/okhttp/HttpUrl;->HEX_DIGITS:[C
@@ -110,15 +109,12 @@
 .method private constructor <init>(Lcom/squareup/okhttp/HttpUrl$Builder;)V
     .locals 4
 
-    .line 2
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 3
     iget-object v0, p1, Lcom/squareup/okhttp/HttpUrl$Builder;->scheme:Ljava/lang/String;
 
     iput-object v0, p0, Lcom/squareup/okhttp/HttpUrl;->scheme:Ljava/lang/String;
 
-    .line 4
     iget-object v0, p1, Lcom/squareup/okhttp/HttpUrl$Builder;->encodedUsername:Ljava/lang/String;
 
     const/4 v1, 0x0
@@ -129,7 +125,6 @@
 
     iput-object v0, p0, Lcom/squareup/okhttp/HttpUrl;->username:Ljava/lang/String;
 
-    .line 5
     iget-object v0, p1, Lcom/squareup/okhttp/HttpUrl$Builder;->encodedPassword:Ljava/lang/String;
 
     invoke-static {v0, v1}, Lcom/squareup/okhttp/HttpUrl;->percentDecode(Ljava/lang/String;Z)Ljava/lang/String;
@@ -138,19 +133,16 @@
 
     iput-object v0, p0, Lcom/squareup/okhttp/HttpUrl;->password:Ljava/lang/String;
 
-    .line 6
     iget-object v0, p1, Lcom/squareup/okhttp/HttpUrl$Builder;->host:Ljava/lang/String;
 
     iput-object v0, p0, Lcom/squareup/okhttp/HttpUrl;->host:Ljava/lang/String;
 
-    .line 7
     invoke-virtual {p1}, Lcom/squareup/okhttp/HttpUrl$Builder;->effectivePort()I
 
     move-result v0
 
     iput v0, p0, Lcom/squareup/okhttp/HttpUrl;->port:I
 
-    .line 8
     iget-object v0, p1, Lcom/squareup/okhttp/HttpUrl$Builder;->encodedPathSegments:Ljava/util/List;
 
     invoke-direct {p0, v0, v1}, Lcom/squareup/okhttp/HttpUrl;->percentDecode(Ljava/util/List;Z)Ljava/util/List;
@@ -159,7 +151,6 @@
 
     iput-object v0, p0, Lcom/squareup/okhttp/HttpUrl;->pathSegments:Ljava/util/List;
 
-    .line 9
     iget-object v0, p1, Lcom/squareup/okhttp/HttpUrl$Builder;->encodedQueryNamesAndValues:Ljava/util/List;
 
     const/4 v2, 0x0
@@ -168,7 +159,6 @@
 
     const/4 v3, 0x1
 
-    .line 10
     invoke-direct {p0, v0, v3}, Lcom/squareup/okhttp/HttpUrl;->percentDecode(Ljava/util/List;Z)Ljava/util/List;
 
     move-result-object v0
@@ -181,12 +171,10 @@
     :goto_0
     iput-object v0, p0, Lcom/squareup/okhttp/HttpUrl;->queryNamesAndValues:Ljava/util/List;
 
-    .line 11
     iget-object v0, p1, Lcom/squareup/okhttp/HttpUrl$Builder;->encodedFragment:Ljava/lang/String;
 
     if-eqz v0, :cond_1
 
-    .line 12
     invoke-static {v0, v1}, Lcom/squareup/okhttp/HttpUrl;->percentDecode(Ljava/lang/String;Z)Ljava/lang/String;
 
     move-result-object v2
@@ -194,7 +182,6 @@
     :cond_1
     iput-object v2, p0, Lcom/squareup/okhttp/HttpUrl;->fragment:Ljava/lang/String;
 
-    .line 13
     invoke-virtual {p1}, Lcom/squareup/okhttp/HttpUrl$Builder;->toString()Ljava/lang/String;
 
     move-result-object p1
@@ -207,7 +194,6 @@
 .method synthetic constructor <init>(Lcom/squareup/okhttp/HttpUrl$Builder;Lcom/squareup/okhttp/HttpUrl$1;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/squareup/okhttp/HttpUrl;-><init>(Lcom/squareup/okhttp/HttpUrl$Builder;)V
 
     return-void
@@ -216,7 +202,6 @@
 .method static synthetic access$100(Lcom/squareup/okhttp/HttpUrl;)Ljava/lang/String;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lcom/squareup/okhttp/HttpUrl;->scheme:Ljava/lang/String;
 
     return-object p0
@@ -225,7 +210,6 @@
 .method static synthetic access$200(Ljava/lang/String;IILjava/lang/String;)I
     .locals 0
 
-    .line 1
     invoke-static {p0, p1, p2, p3}, Lcom/squareup/okhttp/HttpUrl;->delimiterOffset(Ljava/lang/String;IILjava/lang/String;)I
 
     move-result p0
@@ -236,7 +220,6 @@
 .method static synthetic access$300(Lcom/squareup/okhttp/HttpUrl;)Ljava/lang/String;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lcom/squareup/okhttp/HttpUrl;->host:Ljava/lang/String;
 
     return-object p0
@@ -245,7 +228,6 @@
 .method static synthetic access$400(Lcom/squareup/okhttp/HttpUrl;)I
     .locals 0
 
-    .line 1
     iget p0, p0, Lcom/squareup/okhttp/HttpUrl;->port:I
 
     return p0
@@ -259,7 +241,6 @@
     :goto_0
     if-ge v2, p2, :cond_4
 
-    .line 1
     invoke-virtual {p0, v2}, Ljava/lang/String;->codePointAt(I)I
 
     move-result v0
@@ -278,7 +259,6 @@
 
     if-nez p6, :cond_3
 
-    .line 2
     :cond_0
     invoke-virtual {p3, v0}, Ljava/lang/String;->indexOf(I)I
 
@@ -303,7 +283,6 @@
 
     goto :goto_1
 
-    .line 3
     :cond_2
     invoke-static {v0}, Ljava/lang/Character;->charCount(I)I
 
@@ -313,14 +292,12 @@
 
     goto :goto_0
 
-    .line 4
     :cond_3
     :goto_1
     new-instance v8, Lokio/Buffer;
 
     invoke-direct {v8}, Lokio/Buffer;-><init>()V
 
-    .line 5
     invoke-virtual {v8, p0, p1, v2}, Lokio/Buffer;->writeUtf8(Ljava/lang/String;II)Lokio/Buffer;
 
     move-object v0, v8
@@ -337,17 +314,14 @@
 
     move v7, p6
 
-    .line 6
     invoke-static/range {v0 .. v7}, Lcom/squareup/okhttp/HttpUrl;->canonicalize(Lokio/Buffer;Ljava/lang/String;IILjava/lang/String;ZZZ)V
 
-    .line 7
     invoke-virtual {v8}, Lokio/Buffer;->readUtf8()Ljava/lang/String;
 
     move-result-object p0
 
     return-object p0
 
-    .line 8
     :cond_4
     invoke-virtual {p0, p1, p2}, Ljava/lang/String;->substring(II)Ljava/lang/String;
 
@@ -359,7 +333,6 @@
 .method static canonicalize(Ljava/lang/String;Ljava/lang/String;ZZZ)Ljava/lang/String;
     .locals 7
 
-    .line 21
     invoke-virtual {p0}, Ljava/lang/String;->length()I
 
     move-result v2
@@ -376,7 +349,6 @@
 
     move v6, p4
 
-    .line 22
     invoke-static/range {v0 .. v6}, Lcom/squareup/okhttp/HttpUrl;->canonicalize(Ljava/lang/String;IILjava/lang/String;ZZZ)Ljava/lang/String;
 
     move-result-object p0
@@ -392,7 +364,6 @@
     :goto_0
     if-ge p2, p3, :cond_8
 
-    .line 9
     invoke-virtual {p1, p2}, Ljava/lang/String;->codePointAt(I)I
 
     move-result v1
@@ -433,7 +404,6 @@
     :cond_1
     const-string v2, "%2B"
 
-    .line 10
     :goto_1
     invoke-virtual {p0, v2}, Lokio/Buffer;->writeUtf8(Ljava/lang/String;)Lokio/Buffer;
 
@@ -456,7 +426,6 @@
 
     if-nez p7, :cond_5
 
-    .line 11
     :cond_3
     invoke-virtual {p4, v1}, Ljava/lang/String;->indexOf(I)I
 
@@ -472,7 +441,6 @@
 
     goto :goto_2
 
-    .line 12
     :cond_4
     invoke-virtual {p0, v1}, Lokio/Buffer;->writeUtf8CodePoint(I)Lokio/Buffer;
 
@@ -482,16 +450,13 @@
     :goto_2
     if-nez v0, :cond_6
 
-    .line 13
     new-instance v0, Lokio/Buffer;
 
     invoke-direct {v0}, Lokio/Buffer;-><init>()V
 
-    .line 14
     :cond_6
     invoke-virtual {v0, v1}, Lokio/Buffer;->writeUtf8CodePoint(I)Lokio/Buffer;
 
-    .line 15
     :goto_3
     invoke-virtual {v0}, Lokio/Buffer;->exhausted()Z
 
@@ -499,17 +464,14 @@
 
     if-nez v2, :cond_7
 
-    .line 16
     invoke-virtual {v0}, Lokio/Buffer;->readByte()B
 
     move-result v2
 
     and-int/lit16 v2, v2, 0xff
 
-    .line 17
     invoke-virtual {p0, v3}, Lokio/Buffer;->writeByte(I)Lokio/Buffer;
 
-    .line 18
     sget-object v4, Lcom/squareup/okhttp/HttpUrl;->HEX_DIGITS:[C
 
     shr-int/lit8 v5, v2, 0x4
@@ -522,14 +484,12 @@
 
     and-int/lit8 v2, v2, 0xf
 
-    .line 19
     aget-char v2, v4, v2
 
     invoke-virtual {p0, v2}, Lokio/Buffer;->writeByte(I)Lokio/Buffer;
 
     goto :goto_3
 
-    .line 20
     :cond_7
     :goto_4
     invoke-static {v1}, Ljava/lang/Character;->charCount(I)I
@@ -597,7 +557,6 @@
 
     const-string v0, "http"
 
-    .line 1
     invoke-virtual {p0, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v0
@@ -611,7 +570,6 @@
     :cond_0
     const-string v0, "https"
 
-    .line 2
     invoke-virtual {p0, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p0
@@ -634,7 +592,6 @@
     :goto_0
     if-ge p1, p2, :cond_1
 
-    .line 1
     invoke-virtual {p0, p1}, Ljava/lang/String;->charAt(I)C
 
     move-result v0
@@ -661,7 +618,6 @@
 .method public static get(Ljava/net/URI;)Lcom/squareup/okhttp/HttpUrl;
     .locals 0
 
-    .line 2
     invoke-virtual {p0}, Ljava/net/URI;->toString()Ljava/lang/String;
 
     move-result-object p0
@@ -676,7 +632,6 @@
 .method public static get(Ljava/net/URL;)Lcom/squareup/okhttp/HttpUrl;
     .locals 0
 
-    .line 1
     invoke-virtual {p0}, Ljava/net/URL;->toString()Ljava/lang/String;
 
     move-result-object p0
@@ -697,19 +652,16 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/squareup/okhttp/HttpUrl$Builder;
 
     invoke-direct {v0}, Lcom/squareup/okhttp/HttpUrl$Builder;-><init>()V
 
     const/4 v1, 0x0
 
-    .line 2
     invoke-virtual {v0, v1, p0}, Lcom/squareup/okhttp/HttpUrl$Builder;->parse(Lcom/squareup/okhttp/HttpUrl;Ljava/lang/String;)Lcom/squareup/okhttp/HttpUrl$Builder$ParseResult;
 
     move-result-object v1
 
-    .line 3
     sget-object v2, Lcom/squareup/okhttp/HttpUrl$1;->$SwitchMap$com$squareup$okhttp$HttpUrl$Builder$ParseResult:[I
 
     invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
@@ -726,7 +678,6 @@
 
     if-eq v2, v0, :cond_0
 
-    .line 4
     new-instance v0, Ljava/net/MalformedURLException;
 
     new-instance v2, Ljava/lang/StringBuilder;
@@ -753,7 +704,6 @@
 
     throw v0
 
-    .line 5
     :cond_0
     new-instance v0, Ljava/net/UnknownHostException;
 
@@ -775,7 +725,6 @@
 
     throw v0
 
-    .line 6
     :cond_1
     invoke-virtual {v0}, Lcom/squareup/okhttp/HttpUrl$Builder;->build()Lcom/squareup/okhttp/HttpUrl;
 
@@ -796,7 +745,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-interface {p1}, Ljava/util/List;->size()I
 
     move-result v0
@@ -806,7 +754,6 @@
     :goto_0
     if-ge v1, v0, :cond_2
 
-    .line 2
     invoke-interface {p1, v1}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object v2
@@ -815,7 +762,6 @@
 
     add-int/lit8 v3, v1, 0x1
 
-    .line 3
     invoke-interface {p1, v3}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object v3
@@ -826,10 +772,8 @@
 
     const/16 v4, 0x26
 
-    .line 4
     invoke-virtual {p0, v4}, Ljava/lang/StringBuilder;->append(C)Ljava/lang/StringBuilder;
 
-    .line 5
     :cond_0
     invoke-virtual {p0, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
@@ -837,10 +781,8 @@
 
     const/16 v2, 0x3d
 
-    .line 6
     invoke-virtual {p0, v2}, Ljava/lang/StringBuilder;->append(C)Ljava/lang/StringBuilder;
 
-    .line 7
     invoke-virtual {p0, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     :cond_1
@@ -855,19 +797,16 @@
 .method public static parse(Ljava/lang/String;)Lcom/squareup/okhttp/HttpUrl;
     .locals 3
 
-    .line 1
     new-instance v0, Lcom/squareup/okhttp/HttpUrl$Builder;
 
     invoke-direct {v0}, Lcom/squareup/okhttp/HttpUrl$Builder;-><init>()V
 
     const/4 v1, 0x0
 
-    .line 2
     invoke-virtual {v0, v1, p0}, Lcom/squareup/okhttp/HttpUrl$Builder;->parse(Lcom/squareup/okhttp/HttpUrl;Ljava/lang/String;)Lcom/squareup/okhttp/HttpUrl$Builder$ParseResult;
 
     move-result-object p0
 
-    .line 3
     sget-object v2, Lcom/squareup/okhttp/HttpUrl$Builder$ParseResult;->SUCCESS:Lcom/squareup/okhttp/HttpUrl$Builder$ParseResult;
 
     if-ne p0, v2, :cond_0
@@ -892,7 +831,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-interface {p1}, Ljava/util/List;->size()I
 
     move-result v0
@@ -904,10 +842,8 @@
 
     const/16 v2, 0x2f
 
-    .line 2
     invoke-virtual {p0, v2}, Ljava/lang/StringBuilder;->append(C)Ljava/lang/StringBuilder;
 
-    .line 3
     invoke-interface {p1, v1}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object v2
@@ -932,7 +868,6 @@
     :goto_0
     if-ge v0, p2, :cond_2
 
-    .line 6
     invoke-virtual {p0, v0}, Ljava/lang/String;->charAt(I)C
 
     move-result v1
@@ -954,27 +889,22 @@
 
     goto :goto_0
 
-    .line 7
     :cond_1
     :goto_1
     new-instance v1, Lokio/Buffer;
 
     invoke-direct {v1}, Lokio/Buffer;-><init>()V
 
-    .line 8
     invoke-virtual {v1, p0, p1, v0}, Lokio/Buffer;->writeUtf8(Ljava/lang/String;II)Lokio/Buffer;
 
-    .line 9
     invoke-static {v1, p0, v0, p2, p3}, Lcom/squareup/okhttp/HttpUrl;->percentDecode(Lokio/Buffer;Ljava/lang/String;IIZ)V
 
-    .line 10
     invoke-virtual {v1}, Lokio/Buffer;->readUtf8()Ljava/lang/String;
 
     move-result-object p0
 
     return-object p0
 
-    .line 11
     :cond_2
     invoke-virtual {p0, p1, p2}, Ljava/lang/String;->substring(II)Ljava/lang/String;
 
@@ -986,7 +916,6 @@
 .method static percentDecode(Ljava/lang/String;Z)Ljava/lang/String;
     .locals 2
 
-    .line 1
     invoke-virtual {p0}, Ljava/lang/String;->length()I
 
     move-result v0
@@ -1014,7 +943,6 @@
         }
     .end annotation
 
-    .line 2
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-interface {p1}, Ljava/util/List;->size()I
@@ -1023,7 +951,6 @@
 
     invoke-direct {v0, v1}, Ljava/util/ArrayList;-><init>(I)V
 
-    .line 3
     invoke-interface {p1}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
     move-result-object p1
@@ -1043,7 +970,6 @@
 
     if-eqz v1, :cond_0
 
-    .line 4
     invoke-static {v1, p2}, Lcom/squareup/okhttp/HttpUrl;->percentDecode(Ljava/lang/String;Z)Ljava/lang/String;
 
     move-result-object v1
@@ -1058,7 +984,6 @@
 
     goto :goto_0
 
-    .line 5
     :cond_1
     invoke-static {v0}, Ljava/util/Collections;->unmodifiableList(Ljava/util/List;)Ljava/util/List;
 
@@ -1073,7 +998,6 @@
     :goto_0
     if-ge p2, p3, :cond_2
 
-    .line 12
     invoke-virtual {p1, p2}, Ljava/lang/String;->codePointAt(I)I
 
     move-result v0
@@ -1088,7 +1012,6 @@
 
     add-int/lit8 v2, p2, 0x1
 
-    .line 13
     invoke-virtual {p1, v2}, Ljava/lang/String;->charAt(I)C
 
     move-result v2
@@ -1097,7 +1020,6 @@
 
     move-result v2
 
-    .line 14
     invoke-virtual {p1, v1}, Ljava/lang/String;->charAt(I)C
 
     move-result v3
@@ -1116,7 +1038,6 @@
 
     add-int/2addr p2, v3
 
-    .line 15
     invoke-virtual {p0, p2}, Lokio/Buffer;->writeByte(I)Lokio/Buffer;
 
     move p2, v1
@@ -1132,16 +1053,13 @@
 
     const/16 v1, 0x20
 
-    .line 16
     invoke-virtual {p0, v1}, Lokio/Buffer;->writeByte(I)Lokio/Buffer;
 
     goto :goto_1
 
-    .line 17
     :cond_1
     invoke-virtual {p0, v0}, Lokio/Buffer;->writeUtf8CodePoint(I)Lokio/Buffer;
 
-    .line 18
     :goto_1
     invoke-static {v0}, Ljava/lang/Character;->charCount(I)I
 
@@ -1168,14 +1086,12 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
 
     const/4 v1, 0x0
 
-    .line 2
     :goto_0
     invoke-virtual {p0}, Ljava/lang/String;->length()I
 
@@ -1185,7 +1101,6 @@
 
     const/16 v2, 0x26
 
-    .line 3
     invoke-virtual {p0, v2, v1}, Ljava/lang/String;->indexOf(II)I
 
     move-result v2
@@ -1194,7 +1109,6 @@
 
     if-ne v2, v3, :cond_0
 
-    .line 4
     invoke-virtual {p0}, Ljava/lang/String;->length()I
 
     move-result v2
@@ -1202,7 +1116,6 @@
     :cond_0
     const/16 v4, 0x3d
 
-    .line 5
     invoke-virtual {p0, v4, v1}, Ljava/lang/String;->indexOf(II)I
 
     move-result v4
@@ -1213,7 +1126,6 @@
 
     goto :goto_1
 
-    .line 6
     :cond_1
     invoke-virtual {p0, v1, v4}, Ljava/lang/String;->substring(II)Ljava/lang/String;
 
@@ -1223,7 +1135,6 @@
 
     add-int/lit8 v4, v4, 0x1
 
-    .line 7
     invoke-virtual {p0, v4, v2}, Ljava/lang/String;->substring(II)Ljava/lang/String;
 
     move-result-object v1
@@ -1232,7 +1143,6 @@
 
     goto :goto_2
 
-    .line 8
     :cond_2
     :goto_1
     invoke-virtual {p0, v1, v2}, Ljava/lang/String;->substring(II)Ljava/lang/String;
@@ -1243,7 +1153,6 @@
 
     const/4 v1, 0x0
 
-    .line 9
     invoke-interface {v0, v1}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
     :goto_2
@@ -1260,7 +1169,6 @@
 .method public encodedFragment()Ljava/lang/String;
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/squareup/okhttp/HttpUrl;->fragment:Ljava/lang/String;
 
     if-nez v0, :cond_0
@@ -1269,7 +1177,6 @@
 
     return-object v0
 
-    .line 2
     :cond_0
     iget-object v0, p0, Lcom/squareup/okhttp/HttpUrl;->url:Ljava/lang/String;
 
@@ -1281,7 +1188,6 @@
 
     add-int/lit8 v0, v0, 0x1
 
-    .line 3
     iget-object v1, p0, Lcom/squareup/okhttp/HttpUrl;->url:Ljava/lang/String;
 
     invoke-virtual {v1, v0}, Ljava/lang/String;->substring(I)Ljava/lang/String;
@@ -1294,7 +1200,6 @@
 .method public encodedPassword()Ljava/lang/String;
     .locals 3
 
-    .line 1
     iget-object v0, p0, Lcom/squareup/okhttp/HttpUrl;->password:Ljava/lang/String;
 
     invoke-virtual {v0}, Ljava/lang/String;->isEmpty()Z
@@ -1307,7 +1212,6 @@
 
     return-object v0
 
-    .line 2
     :cond_0
     iget-object v0, p0, Lcom/squareup/okhttp/HttpUrl;->url:Ljava/lang/String;
 
@@ -1327,7 +1231,6 @@
 
     add-int/lit8 v0, v0, 0x1
 
-    .line 3
     iget-object v1, p0, Lcom/squareup/okhttp/HttpUrl;->url:Ljava/lang/String;
 
     const/16 v2, 0x40
@@ -1336,7 +1239,6 @@
 
     move-result v1
 
-    .line 4
     iget-object v2, p0, Lcom/squareup/okhttp/HttpUrl;->url:Ljava/lang/String;
 
     invoke-virtual {v2, v0, v1}, Ljava/lang/String;->substring(II)Ljava/lang/String;
@@ -1349,7 +1251,6 @@
 .method public encodedPath()Ljava/lang/String;
     .locals 4
 
-    .line 1
     iget-object v0, p0, Lcom/squareup/okhttp/HttpUrl;->url:Ljava/lang/String;
 
     iget-object v1, p0, Lcom/squareup/okhttp/HttpUrl;->scheme:Ljava/lang/String;
@@ -1366,7 +1267,6 @@
 
     move-result v0
 
-    .line 2
     iget-object v1, p0, Lcom/squareup/okhttp/HttpUrl;->url:Ljava/lang/String;
 
     invoke-virtual {v1}, Ljava/lang/String;->length()I
@@ -1379,7 +1279,6 @@
 
     move-result v1
 
-    .line 3
     iget-object v2, p0, Lcom/squareup/okhttp/HttpUrl;->url:Ljava/lang/String;
 
     invoke-virtual {v2, v0, v1}, Ljava/lang/String;->substring(II)Ljava/lang/String;
@@ -1400,7 +1299,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/squareup/okhttp/HttpUrl;->url:Ljava/lang/String;
 
     iget-object v1, p0, Lcom/squareup/okhttp/HttpUrl;->scheme:Ljava/lang/String;
@@ -1417,7 +1315,6 @@
 
     move-result v0
 
-    .line 2
     iget-object v1, p0, Lcom/squareup/okhttp/HttpUrl;->url:Ljava/lang/String;
 
     invoke-virtual {v1}, Ljava/lang/String;->length()I
@@ -1430,7 +1327,6 @@
 
     move-result v1
 
-    .line 3
     new-instance v2, Ljava/util/ArrayList;
 
     invoke-direct {v2}, Ljava/util/ArrayList;-><init>()V
@@ -1440,7 +1336,6 @@
 
     add-int/lit8 v0, v0, 0x1
 
-    .line 4
     iget-object v3, p0, Lcom/squareup/okhttp/HttpUrl;->url:Ljava/lang/String;
 
     const-string v4, "/"
@@ -1449,7 +1344,6 @@
 
     move-result v3
 
-    .line 5
     iget-object v4, p0, Lcom/squareup/okhttp/HttpUrl;->url:Ljava/lang/String;
 
     invoke-virtual {v4, v0, v3}, Ljava/lang/String;->substring(II)Ljava/lang/String;
@@ -1469,7 +1363,6 @@
 .method public encodedQuery()Ljava/lang/String;
     .locals 5
 
-    .line 1
     iget-object v0, p0, Lcom/squareup/okhttp/HttpUrl;->queryNamesAndValues:Ljava/util/List;
 
     if-nez v0, :cond_0
@@ -1478,7 +1371,6 @@
 
     return-object v0
 
-    .line 2
     :cond_0
     iget-object v0, p0, Lcom/squareup/okhttp/HttpUrl;->url:Ljava/lang/String;
 
@@ -1490,7 +1382,6 @@
 
     add-int/lit8 v0, v0, 0x1
 
-    .line 3
     iget-object v1, p0, Lcom/squareup/okhttp/HttpUrl;->url:Ljava/lang/String;
 
     add-int/lit8 v2, v0, 0x1
@@ -1505,7 +1396,6 @@
 
     move-result v1
 
-    .line 4
     iget-object v2, p0, Lcom/squareup/okhttp/HttpUrl;->url:Ljava/lang/String;
 
     invoke-virtual {v2, v0, v1}, Ljava/lang/String;->substring(II)Ljava/lang/String;
@@ -1518,7 +1408,6 @@
 .method public encodedUsername()Ljava/lang/String;
     .locals 4
 
-    .line 1
     iget-object v0, p0, Lcom/squareup/okhttp/HttpUrl;->username:Ljava/lang/String;
 
     invoke-virtual {v0}, Ljava/lang/String;->isEmpty()Z
@@ -1531,7 +1420,6 @@
 
     return-object v0
 
-    .line 2
     :cond_0
     iget-object v0, p0, Lcom/squareup/okhttp/HttpUrl;->scheme:Ljava/lang/String;
 
@@ -1541,7 +1429,6 @@
 
     add-int/lit8 v0, v0, 0x3
 
-    .line 3
     iget-object v1, p0, Lcom/squareup/okhttp/HttpUrl;->url:Ljava/lang/String;
 
     invoke-virtual {v1}, Ljava/lang/String;->length()I
@@ -1554,7 +1441,6 @@
 
     move-result v1
 
-    .line 4
     iget-object v2, p0, Lcom/squareup/okhttp/HttpUrl;->url:Ljava/lang/String;
 
     invoke-virtual {v2, v0, v1}, Ljava/lang/String;->substring(II)Ljava/lang/String;
@@ -1567,7 +1453,6 @@
 .method public equals(Ljava/lang/Object;)Z
     .locals 1
 
-    .line 1
     instance-of v0, p1, Lcom/squareup/okhttp/HttpUrl;
 
     if-eqz v0, :cond_0
@@ -1598,7 +1483,6 @@
 .method public fragment()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/squareup/okhttp/HttpUrl;->fragment:Ljava/lang/String;
 
     return-object v0
@@ -1607,7 +1491,6 @@
 .method public hashCode()I
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/squareup/okhttp/HttpUrl;->url:Ljava/lang/String;
 
     invoke-virtual {v0}, Ljava/lang/String;->hashCode()I
@@ -1620,7 +1503,6 @@
 .method public host()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/squareup/okhttp/HttpUrl;->host:Ljava/lang/String;
 
     return-object v0
@@ -1629,7 +1511,6 @@
 .method public isHttps()Z
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/squareup/okhttp/HttpUrl;->scheme:Ljava/lang/String;
 
     const-string v1, "https"
@@ -1644,36 +1525,30 @@
 .method public newBuilder()Lcom/squareup/okhttp/HttpUrl$Builder;
     .locals 3
 
-    .line 1
     new-instance v0, Lcom/squareup/okhttp/HttpUrl$Builder;
 
     invoke-direct {v0}, Lcom/squareup/okhttp/HttpUrl$Builder;-><init>()V
 
-    .line 2
     iget-object v1, p0, Lcom/squareup/okhttp/HttpUrl;->scheme:Ljava/lang/String;
 
     iput-object v1, v0, Lcom/squareup/okhttp/HttpUrl$Builder;->scheme:Ljava/lang/String;
 
-    .line 3
     invoke-virtual {p0}, Lcom/squareup/okhttp/HttpUrl;->encodedUsername()Ljava/lang/String;
 
     move-result-object v1
 
     iput-object v1, v0, Lcom/squareup/okhttp/HttpUrl$Builder;->encodedUsername:Ljava/lang/String;
 
-    .line 4
     invoke-virtual {p0}, Lcom/squareup/okhttp/HttpUrl;->encodedPassword()Ljava/lang/String;
 
     move-result-object v1
 
     iput-object v1, v0, Lcom/squareup/okhttp/HttpUrl$Builder;->encodedPassword:Ljava/lang/String;
 
-    .line 5
     iget-object v1, p0, Lcom/squareup/okhttp/HttpUrl;->host:Ljava/lang/String;
 
     iput-object v1, v0, Lcom/squareup/okhttp/HttpUrl$Builder;->host:Ljava/lang/String;
 
-    .line 6
     iget v1, p0, Lcom/squareup/okhttp/HttpUrl;->port:I
 
     iget-object v2, p0, Lcom/squareup/okhttp/HttpUrl;->scheme:Ljava/lang/String;
@@ -1694,12 +1569,10 @@
     :goto_0
     iput v1, v0, Lcom/squareup/okhttp/HttpUrl$Builder;->port:I
 
-    .line 7
     iget-object v1, v0, Lcom/squareup/okhttp/HttpUrl$Builder;->encodedPathSegments:Ljava/util/List;
 
     invoke-interface {v1}, Ljava/util/List;->clear()V
 
-    .line 8
     iget-object v1, v0, Lcom/squareup/okhttp/HttpUrl$Builder;->encodedPathSegments:Ljava/util/List;
 
     invoke-virtual {p0}, Lcom/squareup/okhttp/HttpUrl;->encodedPathSegments()Ljava/util/List;
@@ -1708,14 +1581,12 @@
 
     invoke-interface {v1, v2}, Ljava/util/List;->addAll(Ljava/util/Collection;)Z
 
-    .line 9
     invoke-virtual {p0}, Lcom/squareup/okhttp/HttpUrl;->encodedQuery()Ljava/lang/String;
 
     move-result-object v1
 
     invoke-virtual {v0, v1}, Lcom/squareup/okhttp/HttpUrl$Builder;->encodedQuery(Ljava/lang/String;)Lcom/squareup/okhttp/HttpUrl$Builder;
 
-    .line 10
     invoke-virtual {p0}, Lcom/squareup/okhttp/HttpUrl;->encodedFragment()Ljava/lang/String;
 
     move-result-object v1
@@ -1728,7 +1599,6 @@
 .method public password()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/squareup/okhttp/HttpUrl;->password:Ljava/lang/String;
 
     return-object v0
@@ -1745,7 +1615,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/squareup/okhttp/HttpUrl;->pathSegments:Ljava/util/List;
 
     return-object v0
@@ -1754,7 +1623,6 @@
 .method public pathSize()I
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/squareup/okhttp/HttpUrl;->pathSegments:Ljava/util/List;
 
     invoke-interface {v0}, Ljava/util/List;->size()I
@@ -1767,7 +1635,6 @@
 .method public port()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lcom/squareup/okhttp/HttpUrl;->port:I
 
     return v0
@@ -1776,7 +1643,6 @@
 .method public query()Ljava/lang/String;
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/squareup/okhttp/HttpUrl;->queryNamesAndValues:Ljava/util/List;
 
     if-nez v0, :cond_0
@@ -1785,18 +1651,15 @@
 
     return-object v0
 
-    .line 2
     :cond_0
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
 
-    .line 3
     iget-object v1, p0, Lcom/squareup/okhttp/HttpUrl;->queryNamesAndValues:Ljava/util/List;
 
     invoke-static {v0, v1}, Lcom/squareup/okhttp/HttpUrl;->namesAndValuesToQueryString(Ljava/lang/StringBuilder;Ljava/util/List;)V
 
-    .line 4
     invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     move-result-object v0
@@ -1807,7 +1670,6 @@
 .method public queryParameter(Ljava/lang/String;)Ljava/lang/String;
     .locals 4
 
-    .line 1
     iget-object v0, p0, Lcom/squareup/okhttp/HttpUrl;->queryNamesAndValues:Ljava/util/List;
 
     const/4 v1, 0x0
@@ -1819,7 +1681,6 @@
     :cond_0
     const/4 v2, 0x0
 
-    .line 2
     invoke-interface {v0}, Ljava/util/List;->size()I
 
     move-result v0
@@ -1827,7 +1688,6 @@
     :goto_0
     if-ge v2, v0, :cond_2
 
-    .line 3
     iget-object v3, p0, Lcom/squareup/okhttp/HttpUrl;->queryNamesAndValues:Ljava/util/List;
 
     invoke-interface {v3, v2}, Ljava/util/List;->get(I)Ljava/lang/Object;
@@ -1840,7 +1700,6 @@
 
     if-eqz v3, :cond_1
 
-    .line 4
     iget-object p1, p0, Lcom/squareup/okhttp/HttpUrl;->queryNamesAndValues:Ljava/util/List;
 
     add-int/lit8 v2, v2, 0x1
@@ -1865,7 +1724,6 @@
 .method public queryParameterName(I)Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/squareup/okhttp/HttpUrl;->queryNamesAndValues:Ljava/util/List;
 
     mul-int/lit8 p1, p1, 0x2
@@ -1890,7 +1748,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/squareup/okhttp/HttpUrl;->queryNamesAndValues:Ljava/util/List;
 
     if-nez v0, :cond_0
@@ -1901,7 +1758,6 @@
 
     return-object v0
 
-    .line 2
     :cond_0
     new-instance v0, Ljava/util/LinkedHashSet;
 
@@ -1909,7 +1765,6 @@
 
     const/4 v1, 0x0
 
-    .line 3
     iget-object v2, p0, Lcom/squareup/okhttp/HttpUrl;->queryNamesAndValues:Ljava/util/List;
 
     invoke-interface {v2}, Ljava/util/List;->size()I
@@ -1919,7 +1774,6 @@
     :goto_0
     if-ge v1, v2, :cond_1
 
-    .line 4
     iget-object v3, p0, Lcom/squareup/okhttp/HttpUrl;->queryNamesAndValues:Ljava/util/List;
 
     invoke-interface {v3, v1}, Ljava/util/List;->get(I)Ljava/lang/Object;
@@ -1932,7 +1786,6 @@
 
     goto :goto_0
 
-    .line 5
     :cond_1
     invoke-static {v0}, Ljava/util/Collections;->unmodifiableSet(Ljava/util/Set;)Ljava/util/Set;
 
@@ -1944,7 +1797,6 @@
 .method public queryParameterValue(I)Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/squareup/okhttp/HttpUrl;->queryNamesAndValues:Ljava/util/List;
 
     mul-int/lit8 p1, p1, 0x2
@@ -1973,7 +1825,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/squareup/okhttp/HttpUrl;->queryNamesAndValues:Ljava/util/List;
 
     if-nez v0, :cond_0
@@ -1984,7 +1835,6 @@
 
     return-object p1
 
-    .line 2
     :cond_0
     new-instance v0, Ljava/util/ArrayList;
 
@@ -1992,7 +1842,6 @@
 
     const/4 v1, 0x0
 
-    .line 3
     iget-object v2, p0, Lcom/squareup/okhttp/HttpUrl;->queryNamesAndValues:Ljava/util/List;
 
     invoke-interface {v2}, Ljava/util/List;->size()I
@@ -2002,7 +1851,6 @@
     :goto_0
     if-ge v1, v2, :cond_2
 
-    .line 4
     iget-object v3, p0, Lcom/squareup/okhttp/HttpUrl;->queryNamesAndValues:Ljava/util/List;
 
     invoke-interface {v3, v1}, Ljava/util/List;->get(I)Ljava/lang/Object;
@@ -2015,7 +1863,6 @@
 
     if-eqz v3, :cond_1
 
-    .line 5
     iget-object v3, p0, Lcom/squareup/okhttp/HttpUrl;->queryNamesAndValues:Ljava/util/List;
 
     add-int/lit8 v4, v1, 0x1
@@ -2031,7 +1878,6 @@
 
     goto :goto_0
 
-    .line 6
     :cond_2
     invoke-static {v0}, Ljava/util/Collections;->unmodifiableList(Ljava/util/List;)Ljava/util/List;
 
@@ -2043,7 +1889,6 @@
 .method public querySize()I
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/squareup/okhttp/HttpUrl;->queryNamesAndValues:Ljava/util/List;
 
     if-eqz v0, :cond_0
@@ -2066,17 +1911,14 @@
 .method public resolve(Ljava/lang/String;)Lcom/squareup/okhttp/HttpUrl;
     .locals 2
 
-    .line 1
     new-instance v0, Lcom/squareup/okhttp/HttpUrl$Builder;
 
     invoke-direct {v0}, Lcom/squareup/okhttp/HttpUrl$Builder;-><init>()V
 
-    .line 2
     invoke-virtual {v0, p0, p1}, Lcom/squareup/okhttp/HttpUrl$Builder;->parse(Lcom/squareup/okhttp/HttpUrl;Ljava/lang/String;)Lcom/squareup/okhttp/HttpUrl$Builder$ParseResult;
 
     move-result-object p1
 
-    .line 3
     sget-object v1, Lcom/squareup/okhttp/HttpUrl$Builder$ParseResult;->SUCCESS:Lcom/squareup/okhttp/HttpUrl$Builder$ParseResult;
 
     if-ne p1, v1, :cond_0
@@ -2097,7 +1939,6 @@
 .method public scheme()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/squareup/okhttp/HttpUrl;->scheme:Ljava/lang/String;
 
     return-object v0
@@ -2106,7 +1947,6 @@
 .method public toString()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/squareup/okhttp/HttpUrl;->url:Ljava/lang/String;
 
     return-object v0
@@ -2115,7 +1955,6 @@
 .method public uri()Ljava/net/URI;
     .locals 3
 
-    .line 1
     :try_start_0
     invoke-virtual {p0}, Lcom/squareup/okhttp/HttpUrl;->newBuilder()Lcom/squareup/okhttp/HttpUrl$Builder;
 
@@ -2129,7 +1968,6 @@
 
     move-result-object v0
 
-    .line 2
     new-instance v1, Ljava/net/URI;
 
     invoke-direct {v1, v0}, Ljava/net/URI;-><init>(Ljava/lang/String;)V
@@ -2138,7 +1976,6 @@
 
     return-object v1
 
-    .line 3
     :catch_0
     new-instance v0, Ljava/lang/IllegalStateException;
 
@@ -2166,7 +2003,6 @@
 .method public url()Ljava/net/URL;
     .locals 2
 
-    .line 1
     :try_start_0
     new-instance v0, Ljava/net/URL;
 
@@ -2181,7 +2017,6 @@
     :catch_0
     move-exception v0
 
-    .line 2
     new-instance v1, Ljava/lang/RuntimeException;
 
     invoke-direct {v1, v0}, Ljava/lang/RuntimeException;-><init>(Ljava/lang/Throwable;)V
@@ -2192,7 +2027,6 @@
 .method public username()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/squareup/okhttp/HttpUrl;->username:Ljava/lang/String;
 
     return-object v0

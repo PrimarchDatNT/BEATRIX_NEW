@@ -59,7 +59,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
     move-result-object v1
@@ -70,12 +69,10 @@
 
     if-nez v1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 3
     :cond_0
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
@@ -85,14 +82,12 @@
 
     move-result v1
 
-    .line 4
     sget-object v2, Lcom/commsource/studio/doodle/NewDoodleRepository;->y:Lcom/commsource/studio/doodle/NewDoodleRepository;
 
     invoke-static {v2}, Lcom/commsource/studio/doodle/NewDoodleRepository;->s(Lcom/commsource/studio/doodle/NewDoodleRepository;)Ljava/util/HashMap;
 
     move-result-object v2
 
-    .line 5
     invoke-interface {v2}, Ljava/util/Map;->entrySet()Ljava/util/Set;
 
     move-result-object v2
@@ -115,21 +110,18 @@
 
     check-cast v3, Ljava/util/Map$Entry;
 
-    .line 6
     invoke-interface {v3}, Ljava/util/Map$Entry;->getValue()Ljava/lang/Object;
 
     move-result-object v3
 
     check-cast v3, Lcom/commsource/studio/doodle/DoodleMaterial;
 
-    .line 7
     invoke-virtual {v3}, Lcom/commsource/studio/doodle/DoodleMaterial;->needDownload()Z
 
     move-result v4
 
     if-eqz v4, :cond_1
 
-    .line 8
     invoke-virtual {v3}, Lcom/commsource/studio/doodle/DoodleMaterial;->getDownloadType()I
 
     move-result v4
@@ -148,7 +140,6 @@
 
     if-eqz v1, :cond_1
 
-    .line 9
     :cond_2
     sget-object v4, Lcom/commsource/studio/doodle/NewDoodleRepository;->y:Lcom/commsource/studio/doodle/NewDoodleRepository;
 
@@ -160,7 +151,6 @@
 
     goto :goto_0
 
-    .line 10
     :cond_3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

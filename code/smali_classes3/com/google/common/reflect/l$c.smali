@@ -31,10 +31,8 @@
 .method constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     invoke-static {}, Lcom/google/common/collect/ImmutableMap;->of()Lcom/google/common/collect/ImmutableMap;
 
     move-result-object v0
@@ -56,10 +54,8 @@
         }
     .end annotation
 
-    .line 3
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 4
     iput-object p1, p0, Lcom/google/common/reflect/l$c;->a:Lcom/google/common/collect/ImmutableMap;
 
     return-void
@@ -78,12 +74,10 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/google/common/reflect/l$c$a;
 
     invoke-direct {v0, p0, p1, p0}, Lcom/google/common/reflect/l$c$a;-><init>(Lcom/google/common/reflect/l$c;Ljava/lang/reflect/TypeVariable;Lcom/google/common/reflect/l$c;)V
 
-    .line 2
     invoke-virtual {p0, p1, v0}, Lcom/google/common/reflect/l$c;->b(Ljava/lang/reflect/TypeVariable;Lcom/google/common/reflect/l$c;)Ljava/lang/reflect/Type;
 
     move-result-object p1
@@ -104,7 +98,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/reflect/l$c;->a:Lcom/google/common/collect/ImmutableMap;
 
     new-instance v1, Lcom/google/common/reflect/l$d;
@@ -121,19 +114,16 @@
 
     if-nez v0, :cond_2
 
-    .line 2
     invoke-interface {p1}, Ljava/lang/reflect/TypeVariable;->getBounds()[Ljava/lang/reflect/Type;
 
     move-result-object v0
 
-    .line 3
     array-length v2, v0
 
     if-nez v2, :cond_0
 
     return-object p1
 
-    .line 4
     :cond_0
     new-instance v2, Lcom/google/common/reflect/l;
 
@@ -143,12 +133,10 @@
 
     move-result-object p2
 
-    .line 5
     sget-boolean v1, Lcom/google/common/reflect/Types$c;->a:Z
 
     if-eqz v1, :cond_1
 
-    .line 6
     invoke-static {v0, p2}, Ljava/util/Arrays;->equals([Ljava/lang/Object;[Ljava/lang/Object;)Z
 
     move-result v0
@@ -157,7 +145,6 @@
 
     return-object p1
 
-    .line 7
     :cond_1
     invoke-interface {p1}, Ljava/lang/reflect/TypeVariable;->getGenericDeclaration()Ljava/lang/reflect/GenericDeclaration;
 
@@ -167,14 +154,12 @@
 
     move-result-object p1
 
-    .line 8
     invoke-static {v0, p1, p2}, Lcom/google/common/reflect/Types;->l(Ljava/lang/reflect/GenericDeclaration;Ljava/lang/String;[Ljava/lang/reflect/Type;)Ljava/lang/reflect/TypeVariable;
 
     move-result-object p1
 
     return-object p1
 
-    .line 9
     :cond_2
     new-instance p1, Lcom/google/common/reflect/l;
 
@@ -201,17 +186,14 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {}, Lcom/google/common/collect/ImmutableMap;->builder()Lcom/google/common/collect/ImmutableMap$b;
 
     move-result-object v0
 
-    .line 2
     iget-object v1, p0, Lcom/google/common/reflect/l$c;->a:Lcom/google/common/collect/ImmutableMap;
 
     invoke-virtual {v0, v1}, Lcom/google/common/collect/ImmutableMap$b;->g(Ljava/util/Map;)Lcom/google/common/collect/ImmutableMap$b;
 
-    .line 3
     invoke-interface {p1}, Ljava/util/Map;->entrySet()Ljava/util/Set;
 
     move-result-object p1
@@ -233,21 +215,18 @@
 
     check-cast v1, Ljava/util/Map$Entry;
 
-    .line 4
     invoke-interface {v1}, Ljava/util/Map$Entry;->getKey()Ljava/lang/Object;
 
     move-result-object v2
 
     check-cast v2, Lcom/google/common/reflect/l$d;
 
-    .line 5
     invoke-interface {v1}, Ljava/util/Map$Entry;->getValue()Ljava/lang/Object;
 
     move-result-object v1
 
     check-cast v1, Ljava/lang/reflect/Type;
 
-    .line 6
     invoke-virtual {v2, v1}, Lcom/google/common/reflect/l$d;->a(Ljava/lang/reflect/Type;)Z
 
     move-result v3
@@ -258,12 +237,10 @@
 
     invoke-static {v3, v4, v2}, Lcom/google/common/base/t;->u(ZLjava/lang/String;Ljava/lang/Object;)V
 
-    .line 7
     invoke-virtual {v0, v2, v1}, Lcom/google/common/collect/ImmutableMap$b;->d(Ljava/lang/Object;Ljava/lang/Object;)Lcom/google/common/collect/ImmutableMap$b;
 
     goto :goto_0
 
-    .line 8
     :cond_0
     new-instance p1, Lcom/google/common/reflect/l$c;
 

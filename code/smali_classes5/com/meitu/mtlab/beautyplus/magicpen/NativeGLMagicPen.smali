@@ -43,15 +43,12 @@
 .method public constructor <init>()V
     .locals 2
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const-wide/16 v0, 0x0
 
-    .line 2
     iput-wide v0, p0, Lcom/meitu/mtlab/beautyplus/magicpen/NativeGLMagicPen;->a:J
 
-    .line 3
     invoke-direct {p0}, Lcom/meitu/mtlab/beautyplus/magicpen/NativeGLMagicPen;->nCreate()J
 
     move-result-wide v0
@@ -181,7 +178,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/mtlab/beautyplus/magicpen/NativeGLMagicPen;->a:J
 
     invoke-direct {p0, v1, v2, p1, p2}, Lcom/meitu/mtlab/beautyplus/magicpen/NativeGLMagicPen;->nTranslate(JFF)Z
@@ -200,7 +196,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/mtlab/beautyplus/magicpen/NativeGLMagicPen;->a:J
 
     invoke-direct {p0, v1, v2, p1, p2}, Lcom/meitu/mtlab/beautyplus/magicpen/NativeGLMagicPen;->nTranslateInCenter(JFF)Z
@@ -219,7 +214,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/mtlab/beautyplus/magicpen/NativeGLMagicPen;->a:J
 
     invoke-direct {p0, v1, v2, p1, p2}, Lcom/meitu/mtlab/beautyplus/magicpen/NativeGLMagicPen;->nTranslateInOrigin(JFF)Z
@@ -238,7 +232,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/mtlab/beautyplus/magicpen/NativeGLMagicPen;->a:J
 
     invoke-direct {p0, v1, v2}, Lcom/meitu/mtlab/beautyplus/magicpen/NativeGLMagicPen;->nUndo(J)Z
@@ -257,7 +250,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/mtlab/beautyplus/magicpen/NativeGLMagicPen;->a:J
 
     invoke-direct {p0, v1, v2, p1}, Lcom/meitu/mtlab/beautyplus/magicpen/NativeGLMagicPen;->nBackgroundInit_bitmap(JLandroid/graphics/Bitmap;)Z
@@ -276,7 +268,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/mtlab/beautyplus/magicpen/NativeGLMagicPen;->a:J
 
     invoke-virtual {p1}, Lcom/meitu/core/types/NativeBitmap;->nativeInstance()J
@@ -299,7 +290,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/mtlab/beautyplus/magicpen/NativeGLMagicPen;->a:J
 
     invoke-direct {p0, v1, v2}, Lcom/meitu/mtlab/beautyplus/magicpen/NativeGLMagicPen;->nHasProcess(J)Z
@@ -318,12 +308,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/mtlab/beautyplus/magicpen/NativeGLMagicPen;->a:J
 
     invoke-direct {p0, v1, v2, p1}, Lcom/meitu/mtlab/beautyplus/magicpen/NativeGLMagicPen;->nShowOriginalTexture(JZ)Z
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -336,7 +324,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/mtlab/beautyplus/magicpen/NativeGLMagicPen;->a:J
 
     invoke-direct {p0, v1, v2}, Lcom/meitu/mtlab/beautyplus/magicpen/NativeGLMagicPen;->nCanRedo(J)Z
@@ -355,7 +342,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/mtlab/beautyplus/magicpen/NativeGLMagicPen;->a:J
 
     invoke-direct {p0, v1, v2}, Lcom/meitu/mtlab/beautyplus/magicpen/NativeGLMagicPen;->nCanUndo(J)Z
@@ -374,7 +360,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/mtlab/beautyplus/magicpen/NativeGLMagicPen;->a:J
 
     invoke-direct {p0, v1, v2}, Lcom/meitu/mtlab/beautyplus/magicpen/NativeGLMagicPen;->nGLRelease(J)Z
@@ -393,7 +378,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/mtlab/beautyplus/magicpen/NativeGLMagicPen;->a:J
 
     invoke-direct {p0, v1, v2, p1}, Lcom/meitu/mtlab/beautyplus/magicpen/NativeGLMagicPen;->nGetTranslateInOrigin(J[F)Z
@@ -412,7 +396,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v2, p0, Lcom/meitu/mtlab/beautyplus/magicpen/NativeGLMagicPen;->a:J
 
     move-object v1, p0
@@ -439,7 +422,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v2, p0, Lcom/meitu/mtlab/beautyplus/magicpen/NativeGLMagicPen;->a:J
 
     move-object v1, p0
@@ -473,20 +455,16 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/mtlab/beautyplus/magicpen/NativeGLMagicPen;->a:J
 
     invoke-direct {p0, v1, v2}, Lcom/meitu/mtlab/beautyplus/magicpen/NativeGLMagicPen;->nFinalize(J)Z
 
     const-wide/16 v1, 0x0
 
-    .line 2
     iput-wide v1, p0, Lcom/meitu/mtlab/beautyplus/magicpen/NativeGLMagicPen;->a:J
 
-    .line 3
     invoke-super {p0}, Ljava/lang/Object;->finalize()V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -499,7 +477,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v2, p0, Lcom/meitu/mtlab/beautyplus/magicpen/NativeGLMagicPen;->a:J
 
     move-object v1, p0
@@ -530,7 +507,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/mtlab/beautyplus/magicpen/NativeGLMagicPen;->a:J
 
     invoke-direct {p0, v1, v2, p1}, Lcom/meitu/mtlab/beautyplus/magicpen/NativeGLMagicPen;->nOnDrawFrame(JF)Z
@@ -549,7 +525,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/mtlab/beautyplus/magicpen/NativeGLMagicPen;->a:J
 
     invoke-direct {p0, v1, v2, p1, p2}, Lcom/meitu/mtlab/beautyplus/magicpen/NativeGLMagicPen;->nOnFingerDown(JFF)Z
@@ -568,7 +543,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/mtlab/beautyplus/magicpen/NativeGLMagicPen;->a:J
 
     invoke-direct {p0, v1, v2, p1, p2}, Lcom/meitu/mtlab/beautyplus/magicpen/NativeGLMagicPen;->nOnFingerMove(JFF)Z
@@ -587,7 +561,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/mtlab/beautyplus/magicpen/NativeGLMagicPen;->a:J
 
     invoke-direct {p0, v1, v2, p1, p2}, Lcom/meitu/mtlab/beautyplus/magicpen/NativeGLMagicPen;->nOnSurfaceChanged(JII)Z
@@ -606,7 +579,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/mtlab/beautyplus/magicpen/NativeGLMagicPen;->a:J
 
     invoke-direct {p0, v1, v2}, Lcom/meitu/mtlab/beautyplus/magicpen/NativeGLMagicPen;->nOnSurfaceCreated(J)Z
@@ -625,7 +597,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/mtlab/beautyplus/magicpen/NativeGLMagicPen;->a:J
 
     invoke-direct {p0, v1, v2}, Lcom/meitu/mtlab/beautyplus/magicpen/NativeGLMagicPen;->nRedo(J)Z
@@ -644,7 +615,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/mtlab/beautyplus/magicpen/NativeGLMagicPen;->a:J
 
     invoke-direct {p0, v1, v2}, Lcom/meitu/mtlab/beautyplus/magicpen/NativeGLMagicPen;->nRelease(J)Z
@@ -663,7 +633,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/mtlab/beautyplus/magicpen/NativeGLMagicPen;->a:J
 
     invoke-direct {p0, v1, v2}, Lcom/meitu/mtlab/beautyplus/magicpen/NativeGLMagicPen;->nRenderForSave_bitmap(J)Landroid/graphics/Bitmap;
@@ -682,12 +651,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/meitu/core/types/NativeBitmap;->createBitmap()Lcom/meitu/core/types/NativeBitmap;
 
     move-result-object v1
 
-    .line 2
     iget-wide v2, p0, Lcom/meitu/mtlab/beautyplus/magicpen/NativeGLMagicPen;->a:J
 
     invoke-virtual {v1}, Lcom/meitu/core/types/NativeBitmap;->nativeInstance()J
@@ -696,7 +663,6 @@
 
     invoke-direct {p0, v2, v3, v4, v5}, Lcom/meitu/mtlab/beautyplus/magicpen/NativeGLMagicPen;->nRenderForSave(JJ)Z
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
@@ -709,7 +675,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/mtlab/beautyplus/magicpen/NativeGLMagicPen;->a:J
 
     invoke-direct {p0, v1, v2, p1}, Lcom/meitu/mtlab/beautyplus/magicpen/NativeGLMagicPen;->nRenderForSave_path(JLjava/lang/String;)Z
@@ -728,7 +693,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/mtlab/beautyplus/magicpen/NativeGLMagicPen;->a:J
 
     invoke-direct {p0, v1, v2}, Lcom/meitu/mtlab/beautyplus/magicpen/NativeGLMagicPen;->nRenderToView(J)Z
@@ -747,7 +711,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/mtlab/beautyplus/magicpen/NativeGLMagicPen;->a:J
 
     invoke-direct {p0, v1, v2, p1}, Lcom/meitu/mtlab/beautyplus/magicpen/NativeGLMagicPen;->nScale(JF)Z
@@ -766,7 +729,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v2, p0, Lcom/meitu/mtlab/beautyplus/magicpen/NativeGLMagicPen;->a:J
 
     move-object v1, p0
@@ -793,7 +755,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v2, p0, Lcom/meitu/mtlab/beautyplus/magicpen/NativeGLMagicPen;->a:J
 
     move-object v1, p0
@@ -820,7 +781,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v2, p0, Lcom/meitu/mtlab/beautyplus/magicpen/NativeGLMagicPen;->a:J
 
     move-object v1, p0
@@ -849,7 +809,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/mtlab/beautyplus/magicpen/NativeGLMagicPen;->a:J
 
     invoke-direct {p0, v1, v2, p1}, Lcom/meitu/mtlab/beautyplus/magicpen/NativeGLMagicPen;->nSetDensity(JF)Z
@@ -868,7 +827,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/mtlab/beautyplus/magicpen/NativeGLMagicPen;->a:J
 
     invoke-direct {p0, v1, v2, p1}, Lcom/meitu/mtlab/beautyplus/magicpen/NativeGLMagicPen;->nSetMagicPenSize(JF)Z
@@ -887,7 +845,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/mtlab/beautyplus/magicpen/NativeGLMagicPen;->a:J
 
     invoke-direct {p0, v1, v2, p1}, Lcom/meitu/mtlab/beautyplus/magicpen/NativeGLMagicPen;->nSetMosaicPenSize(JF)Z
@@ -906,7 +863,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v2, p0, Lcom/meitu/mtlab/beautyplus/magicpen/NativeGLMagicPen;->a:J
 
     move-object v1, p0

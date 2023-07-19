@@ -13,10 +13,8 @@
 .method private constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     new-instance v0, Ljava/lang/IllegalAccessError;
 
     invoke-direct {v0}, Ljava/lang/IllegalAccessError;-><init>()V
@@ -33,13 +31,11 @@
 
     if-eqz p0, :cond_0
 
-    .line 1
     :try_start_0
     invoke-interface {p0}, Ljava/io/Closeable;->close()V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 2
     :catchall_0
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -61,7 +57,6 @@
 
     const/4 v1, 0x0
 
-    .line 1
     :try_start_0
     new-instance v2, Ljava/io/FileOutputStream;
 
@@ -74,7 +69,6 @@
     :goto_0
     const/4 p1, -0x1
 
-    .line 2
     :try_start_1
     invoke-virtual {p0, p2}, Ljava/io/InputStream;->read([B)I
 
@@ -84,7 +78,6 @@
 
     const/4 p1, 0x0
 
-    .line 3
     invoke-virtual {v2, p2, p1, v1}, Ljava/io/FileOutputStream;->write([BII)V
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
@@ -95,14 +88,11 @@
 
     goto :goto_0
 
-    .line 4
     :cond_0
     invoke-static {p0}, Lcom/commsource/util/z;->a(Ljava/io/Closeable;)V
 
-    .line 5
     invoke-static {v2}, Lcom/commsource/util/z;->a(Ljava/io/Closeable;)V
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-wide v3
@@ -117,14 +107,11 @@
     :catchall_1
     move-exception p1
 
-    .line 7
     :goto_1
     invoke-static {p0}, Lcom/commsource/util/z;->a(Ljava/io/Closeable;)V
 
-    .line 8
     invoke-static {v1}, Lcom/commsource/util/z;->a(Ljava/io/Closeable;)V
 
-    .line 9
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     throw p1
@@ -154,7 +141,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     :try_start_0
     invoke-virtual {p0, p1}, Landroid/content/res/AssetManager;->open(Ljava/lang/String;)Ljava/io/InputStream;
 
@@ -174,7 +160,6 @@
 
     if-nez p0, :cond_1
 
-    .line 2
     invoke-virtual {p2}, Ljava/io/File;->mkdirs()Z
 
     move-result p3
@@ -189,7 +174,6 @@
 
     goto/16 :goto_3
 
-    .line 3
     :cond_0
     new-instance p0, Ljava/io/IOException;
 
@@ -213,7 +197,6 @@
 
     throw p0
 
-    .line 4
     :cond_1
     invoke-virtual {p2}, Ljava/io/File;->getParentFile()Ljava/io/File;
 
@@ -221,7 +204,6 @@
 
     if-eqz v2, :cond_3
 
-    .line 5
     invoke-virtual {v2}, Ljava/io/File;->mkdirs()Z
 
     move-result v3
@@ -236,7 +218,6 @@
 
     goto :goto_1
 
-    .line 6
     :cond_2
     new-instance p0, Ljava/io/IOException;
 
@@ -260,7 +241,6 @@
 
     throw p0
 
-    .line 7
     :cond_3
     :goto_1
     invoke-virtual {p2}, Ljava/io/File;->exists()Z
@@ -277,7 +257,6 @@
 
     goto :goto_2
 
-    .line 8
     :cond_4
     new-instance p0, Ljava/io/IOException;
 
@@ -303,7 +282,6 @@
 
     throw p0
 
-    .line 9
     :cond_5
     :goto_2
     invoke-static {p0, p2, p3}, Lcom/commsource/util/z;->b(Ljava/io/InputStream;Ljava/io/File;[B)J
@@ -319,7 +297,6 @@
     :cond_7
     const/4 p0, 0x0
 
-    .line 10
     :goto_4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -358,15 +335,12 @@
 
     new-array v1, v1, [B
 
-    .line 1
     invoke-static {p0, p1, p2, v1}, Lcom/commsource/util/z;->e(Landroid/content/res/AssetManager;Ljava/lang/String;Ljava/io/File;[B)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 3
     :cond_0
     new-instance p0, Ljava/lang/NullPointerException;
 
@@ -378,7 +352,6 @@
 
     throw p0
 
-    .line 4
     :cond_1
     new-instance p0, Ljava/lang/NullPointerException;
 
@@ -419,19 +392,16 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0, p1}, Landroid/content/res/AssetManager;->list(Ljava/lang/String;)[Ljava/lang/String;
 
     move-result-object v1
 
     if-eqz v1, :cond_3
 
-    .line 2
     array-length v2, v1
 
     if-lez v2, :cond_3
 
-    .line 3
     invoke-virtual {p2}, Ljava/io/File;->exists()Z
 
     move-result v2
@@ -446,7 +416,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_0
     new-instance p0, Ljava/io/IOException;
 
@@ -474,7 +443,6 @@
 
     throw p0
 
-    .line 5
     :cond_1
     :goto_0
     array-length v2, v1
@@ -486,7 +454,6 @@
 
     aget-object v4, v1, v3
 
-    .line 6
     new-instance v5, Ljava/lang/StringBuilder;
 
     invoke-direct {v5}, Ljava/lang/StringBuilder;-><init>()V
@@ -503,19 +470,16 @@
 
     move-result-object v5
 
-    .line 7
     new-instance v6, Ljava/io/File;
 
     invoke-direct {v6, p2, v4}, Ljava/io/File;-><init>(Ljava/io/File;Ljava/lang/String;)V
 
-    .line 8
     invoke-static {p0, v5, v6, p3}, Lcom/commsource/util/z;->c(Landroid/content/res/AssetManager;Ljava/lang/String;Ljava/io/File;[B)Z
 
     move-result v4
 
     if-nez v4, :cond_2
 
-    .line 9
     invoke-static {p0, v5, v6, p3}, Lcom/commsource/util/z;->e(Landroid/content/res/AssetManager;Ljava/lang/String;Ljava/io/File;[B)V
 
     :cond_2
@@ -523,7 +487,6 @@
 
     goto :goto_1
 
-    .line 10
     :cond_3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -537,7 +500,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     :try_start_0
     invoke-virtual {p0}, Landroid/content/Context;->getAssets()Landroid/content/res/AssetManager;
 
@@ -554,12 +516,10 @@
     :catch_0
     move-exception p0
 
-    .line 2
     invoke-virtual {p0}, Ljava/io/IOException;->printStackTrace()V
 
     const/4 p0, 0x0
 
-    .line 3
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

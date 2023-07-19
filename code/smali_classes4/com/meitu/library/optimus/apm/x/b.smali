@@ -11,7 +11,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -28,31 +27,25 @@
 
     new-array v1, v1, [B
 
-    .line 1
     :try_start_0
     new-instance v2, Ljava/io/FileOutputStream;
 
     invoke-direct {v2, p1}, Ljava/io/FileOutputStream;-><init>(Ljava/lang/String;)V
 
-    .line 2
     new-instance p1, Ljava/util/zip/ZipOutputStream;
 
     invoke-direct {p1, v2}, Ljava/util/zip/ZipOutputStream;-><init>(Ljava/io/OutputStream;)V
 
-    .line 3
     new-instance v2, Ljava/io/FileInputStream;
 
     invoke-direct {v2, p0}, Ljava/io/FileInputStream;-><init>(Ljava/io/File;)V
 
-    .line 4
     new-instance p0, Ljava/util/zip/ZipEntry;
 
     invoke-direct {p0, p2}, Ljava/util/zip/ZipEntry;-><init>(Ljava/lang/String;)V
 
-    .line 5
     invoke-virtual {p1, p0}, Ljava/util/zip/ZipOutputStream;->putNextEntry(Ljava/util/zip/ZipEntry;)V
 
-    .line 6
     :goto_0
     invoke-virtual {v2, v1}, Ljava/io/FileInputStream;->read([B)I
 
@@ -62,19 +55,15 @@
 
     const/4 p2, 0x0
 
-    .line 7
     invoke-virtual {p1, v1, p2, p0}, Ljava/util/zip/ZipOutputStream;->write([BII)V
 
     goto :goto_0
 
-    .line 8
     :cond_0
     invoke-virtual {v2}, Ljava/io/FileInputStream;->close()V
 
-    .line 9
     invoke-virtual {p1}, Ljava/util/zip/ZipOutputStream;->closeEntry()V
 
-    .line 10
     invoke-virtual {p1}, Ljava/util/zip/ZipOutputStream;->close()V
     :try_end_0
     .catch Ljava/io/IOException; {:try_start_0 .. :try_end_0} :catch_0
@@ -84,10 +73,8 @@
     :catch_0
     move-exception p0
 
-    .line 11
     invoke-virtual {p0}, Ljava/io/IOException;->printStackTrace()V
 
-    .line 12
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -118,12 +105,10 @@
 
     if-nez p0, :cond_0
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
 
-    .line 2
     :cond_0
     new-instance v2, Ljava/util/ArrayList;
 
@@ -137,7 +122,6 @@
 
     const/4 v4, 0x0
 
-    .line 3
     :goto_0
     invoke-interface {p0}, Ljava/util/List;->size()I
 
@@ -145,14 +129,12 @@
 
     if-ge v4, v5, :cond_9
 
-    .line 4
     invoke-interface {p2}, Lcom/meitu/library/optimus/apm/b;->isCanceled()Z
 
     move-result v5
 
     if-eqz v5, :cond_2
 
-    .line 5
     invoke-static {}, Lcom/meitu/library/optimus/apm/x/a;->h()Z
 
     move-result p0
@@ -161,16 +143,13 @@
 
     const-string p0, "compressApmFile cancel!"
 
-    .line 6
     invoke-static {p0}, Lcom/meitu/library/optimus/apm/x/a;->a(Ljava/lang/String;)V
 
-    .line 7
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
 
-    .line 8
     :cond_2
     invoke-interface {p0, v4}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
@@ -180,7 +159,6 @@
 
     if-eqz v5, :cond_8
 
-    .line 9
     invoke-virtual {v5}, Lcom/meitu/library/optimus/apm/File/a;->g()Z
 
     move-result v6
@@ -197,7 +175,6 @@
 
     if-lez v10, :cond_8
 
-    .line 10
     :cond_3
     invoke-virtual {v5}, Lcom/meitu/library/optimus/apm/File/a;->a()Ljava/io/File;
 
@@ -205,7 +182,6 @@
 
     if-eqz v6, :cond_8
 
-    .line 11
     invoke-virtual {v6}, Ljava/io/File;->exists()Z
 
     move-result v7
@@ -214,7 +190,6 @@
 
     goto/16 :goto_3
 
-    .line 12
     :cond_4
     invoke-virtual {v5}, Lcom/meitu/library/optimus/apm/File/a;->g()Z
 
@@ -222,12 +197,10 @@
 
     if-eqz v7, :cond_7
 
-    .line 13
     invoke-virtual {v6}, Ljava/io/File;->getName()Ljava/lang/String;
 
     move-result-object v7
 
-    .line 14
     new-instance v8, Ljava/io/File;
 
     invoke-virtual {v6}, Ljava/io/File;->getParentFile()Ljava/io/File;
@@ -256,24 +229,20 @@
 
     if-eqz p1, :cond_5
 
-    .line 15
     invoke-virtual {v6}, Ljava/io/File;->getAbsolutePath()Ljava/lang/String;
 
     move-result-object v9
 
-    .line 16
     invoke-virtual {v8}, Ljava/io/File;->getAbsolutePath()Ljava/lang/String;
 
     move-result-object v10
 
-    .line 17
     invoke-static {v9, v10, v7}, Lcom/meitu/library/optimus/apm/DataProcessor;->compressFile(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Z
 
     move-result v7
 
     if-nez v7, :cond_6
 
-    .line 18
     invoke-static {}, Lcom/meitu/library/optimus/apm/x/a;->h()Z
 
     move-result v7
@@ -282,12 +251,10 @@
 
     const-string v7, "compress by native failed"
 
-    .line 19
     invoke-static {v7}, Lcom/meitu/library/optimus/apm/x/a;->c(Ljava/lang/String;)V
 
     goto :goto_1
 
-    .line 20
     :cond_5
     invoke-virtual {v8}, Ljava/io/File;->getAbsolutePath()Ljava/lang/String;
 
@@ -295,7 +262,6 @@
 
     invoke-static {v6, v9, v7}, Lcom/meitu/library/optimus/apm/x/b;->a(Ljava/io/File;Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 21
     :cond_6
     :goto_1
     invoke-virtual {v5}, Lcom/meitu/library/optimus/apm/File/a;->c()J
@@ -310,7 +276,6 @@
 
     goto :goto_2
 
-    .line 22
     :cond_7
     invoke-virtual {v5}, Lcom/meitu/library/optimus/apm/File/a;->c()J
 
@@ -325,14 +290,12 @@
 
     if-eq v7, v6, :cond_8
 
-    .line 23
     invoke-virtual {v7}, Ljava/io/File;->exists()Z
 
     move-result v6
 
     if-eqz v6, :cond_8
 
-    .line 24
     new-instance v6, Lcom/meitu/library/optimus/apm/File/a;
 
     invoke-virtual {v5}, Lcom/meitu/library/optimus/apm/File/a;->d()Ljava/lang/String;
@@ -341,10 +304,8 @@
 
     invoke-direct {v6, v5, v7}, Lcom/meitu/library/optimus/apm/File/a;-><init>(Ljava/lang/String;Ljava/io/File;)V
 
-    .line 25
     invoke-interface {p0, v4, v6}, Ljava/util/List;->set(ILjava/lang/Object;)Ljava/lang/Object;
 
-    .line 26
     invoke-interface {v2, v7}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
     :cond_8
@@ -353,7 +314,6 @@
 
     goto/16 :goto_0
 
-    .line 27
     :cond_9
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -373,7 +333,6 @@
 
     if-lez v3, :cond_d
 
-    .line 1
     invoke-virtual {p2}, Ljava/io/File;->exists()Z
 
     move-result v3
@@ -385,7 +344,6 @@
     :cond_0
     const/4 v3, 0x0
 
-    .line 2
     :try_start_0
     invoke-virtual {p2}, Ljava/io/File;->length()J
 
@@ -395,14 +353,12 @@
 
     if-ltz v6, :cond_2
 
-    .line 3
     invoke-static {}, Lcom/meitu/library/optimus/apm/x/a;->h()Z
 
     move-result v1
 
     if-eqz v1, :cond_1
 
-    .line 4
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -422,13 +378,11 @@
     .catch Ljava/io/IOException; {:try_start_0 .. :try_end_0} :catch_4
     .catchall {:try_start_0 .. :try_end_0} :catchall_2
 
-    .line 5
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p2
 
-    .line 6
     :cond_2
     :try_start_1
     new-instance v4, Ljava/io/RandomAccessFile;
@@ -440,7 +394,6 @@
     .catch Ljava/io/IOException; {:try_start_1 .. :try_end_1} :catch_4
     .catchall {:try_start_1 .. :try_end_1} :catchall_2
 
-    .line 7
     :try_start_2
     invoke-virtual {v4}, Ljava/io/RandomAccessFile;->length()J
 
@@ -457,16 +410,13 @@
     :cond_3
     move-wide v1, v5
 
-    .line 8
     :goto_0
     invoke-virtual {v4, v1, v2}, Ljava/io/RandomAccessFile;->seek(J)V
 
-    .line 9
     invoke-virtual {p2}, Ljava/io/File;->getName()Ljava/lang/String;
 
     move-result-object v1
 
-    .line 10
     new-instance v2, Ljava/io/File;
 
     invoke-virtual {p2}, Ljava/io/File;->getParentFile()Ljava/io/File;
@@ -496,7 +446,6 @@
     .catch Ljava/io/IOException; {:try_start_2 .. :try_end_2} :catch_3
     .catchall {:try_start_2 .. :try_end_2} :catchall_1
 
-    .line 11
     :try_start_3
     new-instance v1, Ljava/io/FileOutputStream;
 
@@ -513,7 +462,6 @@
     :goto_1
     const/4 v6, 0x0
 
-    .line 12
     invoke-virtual {v4, v5, v6, v3}, Ljava/io/RandomAccessFile;->read([BII)I
 
     move-result v7
@@ -522,7 +470,6 @@
 
     if-eq v7, v8, :cond_4
 
-    .line 13
     invoke-virtual {v1, v5, v6, v7}, Ljava/io/FileOutputStream;->write([BII)V
     :try_end_4
     .catch Ljava/io/IOException; {:try_start_4 .. :try_end_4} :catch_1
@@ -530,12 +477,10 @@
 
     goto :goto_1
 
-    .line 14
     :cond_4
     :try_start_5
     invoke-virtual {v4}, Ljava/io/RandomAccessFile;->close()V
 
-    .line 15
     invoke-virtual {v1}, Ljava/io/FileOutputStream;->close()V
     :try_end_5
     .catch Ljava/io/IOException; {:try_start_5 .. :try_end_5} :catch_0
@@ -545,7 +490,6 @@
     :catch_0
     move-exception v1
 
-    .line 16
     invoke-virtual {v1}, Ljava/io/IOException;->printStackTrace()V
 
     goto :goto_8
@@ -617,7 +561,6 @@
     :goto_3
     move-object v4, v2
 
-    .line 17
     :goto_4
     :try_start_6
     invoke-virtual {v1}, Ljava/io/IOException;->printStackTrace()V
@@ -626,7 +569,6 @@
 
     if-eqz v3, :cond_5
 
-    .line 18
     :try_start_7
     invoke-virtual {v3}, Ljava/io/RandomAccessFile;->close()V
 
@@ -641,14 +583,12 @@
     :goto_5
     if-eqz v2, :cond_6
 
-    .line 19
     invoke-virtual {v2}, Ljava/io/FileOutputStream;->close()V
     :try_end_7
     .catch Ljava/io/IOException; {:try_start_7 .. :try_end_7} :catch_5
 
     goto :goto_7
 
-    .line 20
     :goto_6
     invoke-virtual {v1}, Ljava/io/IOException;->printStackTrace()V
 
@@ -659,21 +599,18 @@
     :goto_8
     if-eqz v2, :cond_9
 
-    .line 21
     invoke-virtual {v2}, Ljava/io/File;->exists()Z
 
     move-result v1
 
     if-eqz v1, :cond_9
 
-    .line 22
     invoke-static {}, Lcom/meitu/library/optimus/apm/x/a;->h()Z
 
     move-result v1
 
     if-eqz v1, :cond_7
 
-    .line 23
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -693,16 +630,13 @@
     :cond_7
     if-eqz p3, :cond_8
 
-    .line 24
     invoke-virtual {p2}, Ljava/io/File;->delete()Z
 
-    .line 25
     :cond_8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v2
 
-    .line 26
     :cond_9
     invoke-static {}, Lcom/meitu/library/optimus/apm/x/a;->h()Z
 
@@ -710,7 +644,6 @@
 
     if-eqz p3, :cond_a
 
-    .line 27
     new-instance p3, Ljava/lang/StringBuilder;
 
     invoke-direct {p3}, Ljava/lang/StringBuilder;-><init>()V
@@ -727,7 +660,6 @@
 
     invoke-static {p0}, Lcom/meitu/library/optimus/apm/x/a;->a(Ljava/lang/String;)V
 
-    .line 28
     :cond_a
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -741,7 +673,6 @@
     :goto_9
     if-eqz v3, :cond_b
 
-    .line 29
     :try_start_8
     invoke-virtual {v3}, Ljava/io/RandomAccessFile;->close()V
 
@@ -756,25 +687,21 @@
     :goto_a
     if-eqz v1, :cond_c
 
-    .line 30
     invoke-virtual {v1}, Ljava/io/FileOutputStream;->close()V
     :try_end_8
     .catch Ljava/io/IOException; {:try_start_8 .. :try_end_8} :catch_6
 
     goto :goto_c
 
-    .line 31
     :goto_b
     invoke-virtual {p1}, Ljava/io/IOException;->printStackTrace()V
 
-    .line 32
     :cond_c
     :goto_c
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     throw p0
 
-    .line 33
     :cond_d
     :goto_d
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

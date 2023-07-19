@@ -38,7 +38,6 @@
 .method public constructor <init>(Ljava/lang/CharSequence;Lcotlin/jvm/u/l;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcotlin/text/StringsKt___StringsKt$c;->a:Ljava/lang/CharSequence;
 
     iput-object p2, p0, Lcotlin/text/StringsKt___StringsKt$c;->b:Lcotlin/jvm/u/l;
@@ -53,7 +52,6 @@
 .method public bridge synthetic a(Ljava/lang/Object;)Ljava/lang/Object;
     .locals 0
 
-    .line 1
     check-cast p1, Ljava/lang/Character;
 
     invoke-virtual {p1}, Ljava/lang/Character;->charValue()C
@@ -81,7 +79,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcotlin/text/StringsKt___StringsKt$c;->a:Ljava/lang/CharSequence;
 
     invoke-static {v0}, Lcotlin/text/StringsKt__StringsKt;->x3(Ljava/lang/CharSequence;)Lcotlin/collections/r;
@@ -99,7 +96,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcotlin/text/StringsKt___StringsKt$c;->b:Lcotlin/jvm/u/l;
 
     invoke-static {p1}, Ljava/lang/Character;->valueOf(C)Ljava/lang/Character;

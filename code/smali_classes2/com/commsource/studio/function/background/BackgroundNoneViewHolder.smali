@@ -33,10 +33,8 @@
 
     sget v0, Lcom/res/provider/ResLAYOUT;->item_background_none:I
 
-    .line 1
     invoke-direct {p0, p1, p2, v0}, Lcom/commsource/widget/h1/f;-><init>(Landroid/content/Context;Landroid/view/ViewGroup;I)V
 
-    .line 2
     new-instance p1, Lcom/commsource/studio/function/background/BackgroundNoneViewHolder$mViewBinding$2;
 
     invoke-direct {p1, p0}, Lcom/commsource/studio/function/background/BackgroundNoneViewHolder$mViewBinding$2;-><init>(Lcom/commsource/studio/function/background/BackgroundNoneViewHolder;)V
@@ -47,7 +45,6 @@
 
     iput-object p1, p0, Lcom/commsource/studio/function/background/BackgroundNoneViewHolder;->p:Lcotlin/w;
 
-    .line 3
     invoke-virtual {p0}, Lcom/commsource/studio/function/background/BackgroundNoneViewHolder;->v()Lcom/commsource/beautyplus/f0/qd;
 
     move-result-object p1
@@ -68,7 +65,6 @@
 
     invoke-static {p1, v1}, Lcom/commsource/util/l2;->N(Landroid/view/View;I)V
 
-    .line 4
     invoke-virtual {p0}, Lcom/commsource/studio/function/background/BackgroundNoneViewHolder;->v()Lcom/commsource/beautyplus/f0/qd;
 
     move-result-object p1
@@ -116,10 +112,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0, p1, p2, p3}, Lcom/commsource/widget/h1/f;->k(ILcom/commsource/widget/h1/d;Ljava/util/List;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

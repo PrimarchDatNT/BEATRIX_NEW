@@ -113,42 +113,34 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/commsource/studio/layer/c;-><init>(Landroid/content/Context;)V
 
-    .line 2
     new-instance p1, Lcom/commsource/studio/layer/n;
 
     invoke-direct {p1, p0}, Lcom/commsource/studio/layer/n;-><init>(Lcom/commsource/studio/layer/c;)V
 
     const/4 v0, 0x1
 
-    .line 3
     invoke-virtual {p1, v0}, Lcom/commsource/studio/layer/n;->p(Z)V
 
     const v1, -0x7f04a67a
 
-    .line 4
     invoke-virtual {p1, v1}, Lcom/commsource/studio/layer/n;->q(I)V
 
-    .line 5
     iput-object p1, p0, Lcom/commsource/studio/layer/PaintMaskLayer;->S:Lcom/commsource/studio/layer/n;
 
-    .line 6
     new-instance p1, Lcom/commsource/studio/layer/f;
 
     invoke-direct {p1, p0}, Lcom/commsource/studio/layer/f;-><init>(Lcom/commsource/studio/layer/c;)V
 
     iput-object p1, p0, Lcom/commsource/studio/layer/PaintMaskLayer;->T:Lcom/commsource/studio/layer/f;
 
-    .line 7
     new-instance p1, Lcom/commsource/studio/layer/o;
 
     invoke-direct {p1, p0}, Lcom/commsource/studio/layer/o;-><init>(Lcom/commsource/studio/layer/c;)V
 
     const/high16 v1, 0x40000000    # 2.0f
 
-    .line 8
     invoke-static {v1}, Lcom/meitu/library/p/f/i;->b(F)F
 
     move-result v1
@@ -157,49 +149,38 @@
 
     const/4 v1, 0x0
 
-    .line 9
     invoke-virtual {p1, v1}, Lcom/commsource/studio/layer/l;->e(Z)V
 
-    .line 10
     iput-object p1, p0, Lcom/commsource/studio/layer/PaintMaskLayer;->U:Lcom/commsource/studio/layer/o;
 
-    .line 11
     new-instance p1, Landroid/graphics/Paint;
 
     invoke-direct {p1, v0}, Landroid/graphics/Paint;-><init>(I)V
 
-    .line 12
     invoke-virtual {p1, v1}, Landroid/graphics/Paint;->setAlpha(I)V
 
-    .line 13
     iput-object p1, p0, Lcom/commsource/studio/layer/PaintMaskLayer;->V:Landroid/graphics/Paint;
 
-    .line 14
     new-instance p1, Lcom/commsource/beautymain/widget/gesturewidget/g;
 
     invoke-direct {p1}, Lcom/commsource/beautymain/widget/gesturewidget/g;-><init>()V
 
     iput-object p1, p0, Lcom/commsource/studio/layer/PaintMaskLayer;->W:Lcom/commsource/beautymain/widget/gesturewidget/g;
 
-    .line 15
     new-instance p1, Lcom/commsource/beautymain/widget/gesturewidget/g;
 
     invoke-direct {p1}, Lcom/commsource/beautymain/widget/gesturewidget/g;-><init>()V
 
     iput-object p1, p0, Lcom/commsource/studio/layer/PaintMaskLayer;->X:Lcom/commsource/beautymain/widget/gesturewidget/g;
 
-    .line 16
     iput-boolean v0, p0, Lcom/commsource/studio/layer/PaintMaskLayer;->Z:Z
 
-    .line 17
     iput-boolean v0, p0, Lcom/commsource/studio/layer/PaintMaskLayer;->a0:Z
 
     const/high16 p1, 0x3f800000    # 1.0f
 
-    .line 18
     iput p1, p0, Lcom/commsource/studio/layer/PaintMaskLayer;->b0:F
 
-    .line 19
     new-instance p1, Lcom/commsource/studio/h;
 
     const-string v0, "paintMask"
@@ -210,7 +191,6 @@
 
     iput-object p1, p0, Lcom/commsource/studio/layer/PaintMaskLayer;->e0:Lcom/commsource/studio/h;
 
-    .line 20
     invoke-virtual {p0, p0, v1}, Lcom/commsource/studio/layer/c;->q0(Lcom/commsource/studio/layer/c$a;I)V
 
     return-void
@@ -223,7 +203,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/studio/layer/PaintMaskLayer;->U:Lcom/commsource/studio/layer/o;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -238,7 +217,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/commsource/studio/layer/PaintMaskLayer;->N0(F)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -253,7 +231,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/studio/layer/PaintMaskLayer;->S0()V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -268,7 +245,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/studio/layer/PaintMaskLayer;->T0()V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -283,17 +259,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/studio/layer/PaintMaskLayer;->b0:F
 
-    .line 2
     invoke-virtual {p0}, Lcom/commsource/studio/layer/BaseLayer;->F()Landroid/view/View;
 
     move-result-object p1
 
     invoke-virtual {p1}, Landroid/view/View;->postInvalidate()V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -308,14 +281,12 @@
 
     const/high16 v1, 0x3f800000    # 1.0f
 
-    .line 1
     invoke-direct {p0, v1}, Lcom/commsource/studio/layer/PaintMaskLayer;->N0(F)V
 
     const/4 v1, 0x2
 
     new-array v1, v1, [F
 
-    .line 2
     fill-array-data v1, :array_0
 
     invoke-static {v1}, Landroid/animation/ValueAnimator;->ofFloat([F)Landroid/animation/ValueAnimator;
@@ -324,25 +295,20 @@
 
     const-wide/16 v2, 0x1f4
 
-    .line 3
     invoke-virtual {v1, v2, v3}, Landroid/animation/ValueAnimator;->setDuration(J)Landroid/animation/ValueAnimator;
 
     const-wide/16 v2, 0x12c
 
-    .line 4
     invoke-virtual {v1, v2, v3}, Landroid/animation/ValueAnimator;->setStartDelay(J)V
 
-    .line 5
     new-instance v2, Lcom/commsource/studio/layer/PaintMaskLayer$f;
 
     invoke-direct {v2, v1, p0}, Lcom/commsource/studio/layer/PaintMaskLayer$f;-><init>(Landroid/animation/ValueAnimator;Lcom/commsource/studio/layer/PaintMaskLayer;)V
 
     invoke-virtual {v1, v2}, Landroid/animation/ValueAnimator;->addUpdateListener(Landroid/animation/ValueAnimator$AnimatorUpdateListener;)V
 
-    .line 6
     invoke-virtual {v1}, Landroid/animation/ValueAnimator;->start()V
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -367,7 +333,6 @@
 
     new-array v1, v1, [F
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/studio/layer/BaseLayer;->F()Landroid/view/View;
 
     move-result-object v2
@@ -402,10 +367,8 @@
 
     aput v2, v1, v3
 
-    .line 2
     invoke-virtual {p0, v1}, Lcom/commsource/studio/layer/BaseLayer;->U([F)V
 
-    .line 3
     iget-object v2, p0, Lcom/commsource/studio/layer/PaintMaskLayer;->U:Lcom/commsource/studio/layer/o;
 
     invoke-virtual {v2}, Lcom/commsource/studio/layer/o;->k()Landroid/graphics/PointF;
@@ -418,14 +381,12 @@
 
     invoke-virtual {v2, v4, v1}, Landroid/graphics/PointF;->set(FF)V
 
-    .line 4
     invoke-virtual {p0}, Lcom/commsource/studio/layer/BaseLayer;->F()Landroid/view/View;
 
     move-result-object v1
 
     invoke-virtual {v1}, Landroid/view/View;->invalidate()V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -438,7 +399,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/studio/layer/PaintMaskLayer;->T:Lcom/commsource/studio/layer/f;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -453,7 +413,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget p0, p0, Lcom/commsource/studio/layer/PaintMaskLayer;->b0:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -472,7 +431,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/layer/PaintMaskLayer;->e0:Lcom/commsource/studio/h;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -487,7 +445,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/studio/layer/PaintMaskLayer;->c0:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -515,7 +472,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/layer/PaintMaskLayer;->d0:Lcotlin/jvm/u/p;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -532,7 +488,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/layer/PaintMaskLayer;->S:Lcom/commsource/studio/layer/n;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -549,7 +504,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/layer/PaintMaskLayer;->X:Lcom/commsource/beautymain/widget/gesturewidget/g;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -564,7 +518,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/studio/layer/PaintMaskLayer;->Y:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -579,7 +532,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/studio/layer/PaintMaskLayer;->a0:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -594,7 +546,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/studio/layer/PaintMaskLayer;->Z:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -609,17 +560,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/studio/layer/PaintMaskLayer;->Y:Z
 
-    .line 2
     invoke-virtual {p0}, Lcom/commsource/studio/layer/BaseLayer;->F()Landroid/view/View;
 
     move-result-object p1
 
     invoke-virtual {p1}, Landroid/view/View;->postInvalidate()V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -632,7 +580,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/studio/layer/PaintMaskLayer;->a0:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -647,7 +594,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/studio/layer/PaintMaskLayer;->c0:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -678,7 +624,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/layer/PaintMaskLayer;->d0:Lcotlin/jvm/u/p;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -693,17 +638,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/studio/layer/PaintMaskLayer;->Z:Z
 
-    .line 2
     invoke-virtual {p0}, Lcom/commsource/studio/layer/BaseLayer;->F()Landroid/view/View;
 
     move-result-object p1
 
     invoke-virtual {p1}, Landroid/view/View;->postInvalidate()V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -716,12 +658,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/studio/layer/PaintMaskLayer;->a0:Z
 
     if-eqz v1, :cond_0
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/layer/PaintMaskLayer;->X:Lcom/commsource/beautymain/widget/gesturewidget/g;
 
     invoke-virtual {p0}, Lcom/commsource/studio/layer/BaseLayer;->O()F
@@ -738,7 +678,6 @@
 
     invoke-virtual {v1, v2, v3}, Lcom/commsource/beautymain/widget/gesturewidget/g;->b(II)Z
 
-    .line 3
     :cond_0
     iget-object v1, p0, Lcom/commsource/studio/layer/PaintMaskLayer;->e0:Lcom/commsource/studio/h;
 
@@ -746,7 +685,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/studio/e0;->l(Ljava/lang/Object;)V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -759,12 +697,10 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean p2, p0, Lcom/commsource/studio/layer/PaintMaskLayer;->a0:Z
 
     if-eqz p2, :cond_0
 
-    .line 2
     iget-object p2, p0, Lcom/commsource/studio/layer/PaintMaskLayer;->W:Lcom/commsource/beautymain/widget/gesturewidget/g;
 
     invoke-virtual {p0}, Lcom/commsource/studio/layer/BaseLayer;->E()F
@@ -781,7 +717,6 @@
 
     invoke-virtual {p2, v0, v1}, Lcom/commsource/beautymain/widget/gesturewidget/g;->b(II)Z
 
-    .line 3
     :cond_0
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -797,7 +732,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/commsource/studio/layer/PaintMaskLayer$DrawPathView;
 
     invoke-virtual {p0}, Lcom/commsource/studio/layer/BaseLayer;->A()Landroid/content/Context;
@@ -826,17 +760,14 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/studio/layer/PaintMaskLayer;->a0:Z
 
     if-eqz v1, :cond_2
 
-    .line 2
     iget-boolean v1, p0, Lcom/commsource/studio/layer/PaintMaskLayer;->Y:Z
 
     if-eqz v1, :cond_1
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/studio/layer/PaintMaskLayer;->V:Landroid/graphics/Paint;
 
     const/16 v2, 0x80
@@ -851,17 +782,14 @@
 
     invoke-virtual {v1, v2}, Landroid/graphics/Paint;->setAlpha(I)V
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/studio/layer/PaintMaskLayer;->X:Lcom/commsource/beautymain/widget/gesturewidget/g;
 
-    .line 5
     invoke-virtual {v1}, Lcom/commsource/beautymain/widget/gesturewidget/g;->h()Landroid/graphics/Canvas;
 
     move-result-object v1
 
     if-eqz v1, :cond_2
 
-    .line 6
     iget-object v2, p0, Lcom/commsource/studio/layer/PaintMaskLayer;->T:Lcom/commsource/studio/layer/f;
 
     const-string v3, "maskCanvas"
@@ -870,7 +798,6 @@
 
     invoke-virtual {v2, v1}, Lcom/commsource/studio/layer/l;->d(Landroid/graphics/Canvas;)V
 
-    .line 7
     iget-object v1, p0, Lcom/commsource/studio/layer/PaintMaskLayer;->X:Lcom/commsource/beautymain/widget/gesturewidget/g;
 
     invoke-virtual {v1}, Lcom/commsource/beautymain/widget/gesturewidget/g;->g()Landroid/graphics/Bitmap;
@@ -890,7 +817,6 @@
 
     goto :goto_0
 
-    .line 8
     :cond_1
     iget-boolean v1, p0, Lcom/commsource/studio/layer/PaintMaskLayer;->Z:Z
 
@@ -904,19 +830,16 @@
 
     if-eqz v1, :cond_2
 
-    .line 9
     iget-object v1, p0, Lcom/commsource/studio/layer/PaintMaskLayer;->S:Lcom/commsource/studio/layer/n;
 
     invoke-virtual {v1, p1}, Lcom/commsource/studio/layer/l;->d(Landroid/graphics/Canvas;)V
 
-    .line 10
     :cond_2
     :goto_0
     iget-object v1, p0, Lcom/commsource/studio/layer/PaintMaskLayer;->U:Lcom/commsource/studio/layer/o;
 
     invoke-virtual {v1, p1}, Lcom/commsource/studio/layer/l;->d(Landroid/graphics/Canvas;)V
 
-    .line 11
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -937,14 +860,12 @@
 
     invoke-static {p3, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-virtual {p0, p1, p2}, Lcom/commsource/studio/layer/BaseLayer;->P(FF)Z
 
     move-result p1
 
     iput-boolean p1, p0, Lcom/commsource/studio/layer/PaintMaskLayer;->f0:Z
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -965,7 +886,6 @@
 
     invoke-static {p3, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-virtual {p0, p1, p2}, Lcom/commsource/studio/layer/BaseLayer;->P(FF)Z
 
     move-result p1
@@ -974,10 +894,8 @@
 
     const/4 p1, 0x1
 
-    .line 2
     iput-boolean p1, p0, Lcom/commsource/studio/layer/PaintMaskLayer;->f0:Z
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -999,14 +917,12 @@
 
     invoke-static {p3, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-virtual {p0, p1, p2}, Lcom/commsource/studio/layer/BaseLayer;->P(FF)Z
 
     move-result p1
 
     iput-boolean p1, p0, Lcom/commsource/studio/layer/PaintMaskLayer;->f0:Z
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1035,15 +951,12 @@
 
     invoke-static {p2, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-super {p0, p1, p2}, Lcom/commsource/studio/layer/c;->p(Landroidx/lifecycle/ViewModelStoreOwner;Landroidx/lifecycle/LifecycleOwner;)V
 
-    .line 2
     iget-boolean p1, p0, Lcom/commsource/studio/layer/PaintMaskLayer;->c0:Z
 
     if-eqz p1, :cond_0
 
-    .line 3
     const-class p1, Lcom/commsource/studio/component/UndoRedoComponent$c;
 
     invoke-virtual {p0, p1}, Lcom/commsource/studio/layer/d;->e(Ljava/lang/Class;)Landroidx/lifecycle/AndroidViewModel;
@@ -1052,14 +965,12 @@
 
     check-cast p1, Lcom/commsource/studio/component/UndoRedoComponent$c;
 
-    .line 4
     new-instance v1, Lcom/commsource/studio/layer/PaintMaskLayer$StackAction;
 
     invoke-direct {v1, p0}, Lcom/commsource/studio/layer/PaintMaskLayer$StackAction;-><init>(Lcom/commsource/studio/layer/PaintMaskLayer;)V
 
     invoke-virtual {p1, v1}, Lcom/commsource/studio/component/UndoRedoComponent$c;->y(Lcom/commsource/studio/v;)V
 
-    .line 5
     :cond_0
     const-class p1, Lcom/commsource/studio/component/PaintSelectComponent$b;
 
@@ -1069,7 +980,6 @@
 
     check-cast p1, Lcom/commsource/studio/component/PaintSelectComponent$b;
 
-    .line 6
     invoke-virtual {p1}, Lcom/commsource/studio/component/PaintSelectComponent$b;->z()Landroidx/lifecycle/MutableLiveData;
 
     move-result-object v1
@@ -1080,7 +990,6 @@
 
     invoke-virtual {v1, p2, v2}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 7
     invoke-virtual {p1}, Lcom/commsource/studio/component/PaintSelectComponent$b;->A()Landroidx/lifecycle/MutableLiveData;
 
     move-result-object p1
@@ -1091,7 +1000,6 @@
 
     invoke-virtual {p1, p2, v1}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 8
     const-class p1, Lcom/commsource/studio/component/ContrastComponent$a;
 
     invoke-virtual {p0, p1}, Lcom/commsource/studio/layer/d;->e(Ljava/lang/Class;)Landroidx/lifecycle/AndroidViewModel;
@@ -1104,15 +1012,12 @@
 
     move-result-object p1
 
-    .line 9
     new-instance v1, Lcom/commsource/studio/layer/PaintMaskLayer$d;
 
     invoke-direct {v1, p0}, Lcom/commsource/studio/layer/PaintMaskLayer$d;-><init>(Lcom/commsource/studio/layer/PaintMaskLayer;)V
 
-    .line 10
     invoke-virtual {p1, p2, v1}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 11
     const-class p1, Lcom/commsource/studio/component/e;
 
     invoke-virtual {p0, p1}, Lcom/commsource/studio/layer/d;->e(Ljava/lang/Class;)Landroidx/lifecycle/AndroidViewModel;
@@ -1125,15 +1030,12 @@
 
     move-result-object p1
 
-    .line 12
     new-instance v1, Lcom/commsource/studio/layer/PaintMaskLayer$e;
 
     invoke-direct {v1, p0}, Lcom/commsource/studio/layer/PaintMaskLayer$e;-><init>(Lcom/commsource/studio/layer/PaintMaskLayer;)V
 
-    .line 13
     invoke-virtual {p1, p2, v1}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 14
     const-class p1, Lcom/commsource/studio/MagnifyComponent$a;
 
     invoke-virtual {p0, p1}, Lcom/commsource/studio/layer/d;->e(Ljava/lang/Class;)Landroidx/lifecycle/AndroidViewModel;
@@ -1144,7 +1046,6 @@
 
     invoke-virtual {p1, p0}, Lcom/commsource/studio/MagnifyComponent$a;->y(Lcom/commsource/studio/p0;)V
 
-    .line 15
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1165,7 +1066,6 @@
 
     invoke-static {p3, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-static {p0, p1, p2, p3}, Lcom/commsource/studio/layer/c$a$a;->e(Lcom/commsource/studio/layer/c$a;FFLandroid/view/MotionEvent;)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1186,34 +1086,28 @@
 
     if-nez p4, :cond_0
 
-    .line 1
     invoke-static {p3}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 2
     :cond_0
     iget-boolean p4, p0, Lcom/commsource/studio/layer/PaintMaskLayer;->a0:Z
 
     if-nez p4, :cond_1
 
-    .line 3
     invoke-static {p3}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 4
     :cond_1
     iget-boolean p4, p0, Lcom/commsource/studio/layer/PaintMaskLayer;->f0:Z
 
     if-nez p4, :cond_2
 
-    .line 5
     invoke-static {p3}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 6
     :cond_2
     iget-object p4, p0, Lcom/commsource/studio/layer/PaintMaskLayer;->S:Lcom/commsource/studio/layer/n;
 
@@ -1229,30 +1123,25 @@
 
     if-nez p1, :cond_3
 
-    .line 7
     invoke-static {p3}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 8
     :cond_3
     iget-object p1, p0, Lcom/commsource/studio/layer/PaintMaskLayer;->X:Lcom/commsource/beautymain/widget/gesturewidget/g;
 
-    .line 9
     iget-boolean p2, p0, Lcom/commsource/studio/layer/PaintMaskLayer;->Y:Z
 
     const-string p4, "it"
 
     if-nez p2, :cond_4
 
-    .line 10
     invoke-virtual {p1}, Lcom/commsource/beautymain/widget/gesturewidget/g;->h()Landroid/graphics/Canvas;
 
     move-result-object p1
 
     if-eqz p1, :cond_5
 
-    .line 11
     iget-object p2, p0, Lcom/commsource/studio/layer/PaintMaskLayer;->S:Lcom/commsource/studio/layer/n;
 
     invoke-virtual {p2}, Lcom/commsource/studio/layer/n;->i()Landroid/graphics/Paint;
@@ -1263,14 +1152,12 @@
 
     invoke-virtual {p2, p5}, Landroid/graphics/Paint;->setAlpha(I)V
 
-    .line 12
     iget-object p2, p0, Lcom/commsource/studio/layer/PaintMaskLayer;->S:Lcom/commsource/studio/layer/n;
 
     invoke-static {p1, p4}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {p2, p1}, Lcom/commsource/studio/layer/l;->d(Landroid/graphics/Canvas;)V
 
-    .line 13
     iget-object p1, p0, Lcom/commsource/studio/layer/PaintMaskLayer;->S:Lcom/commsource/studio/layer/n;
 
     invoke-virtual {p1}, Lcom/commsource/studio/layer/n;->i()Landroid/graphics/Paint;
@@ -1283,7 +1170,6 @@
 
     goto :goto_0
 
-    .line 14
     :cond_4
     invoke-virtual {p1}, Lcom/commsource/beautymain/widget/gesturewidget/g;->h()Landroid/graphics/Canvas;
 
@@ -1291,7 +1177,6 @@
 
     if-eqz p1, :cond_5
 
-    .line 15
     iget-object p2, p0, Lcom/commsource/studio/layer/PaintMaskLayer;->T:Lcom/commsource/studio/layer/f;
 
     const-string p5, "maskCanvas"
@@ -1300,42 +1185,35 @@
 
     invoke-virtual {p2, p1}, Lcom/commsource/studio/layer/l;->d(Landroid/graphics/Canvas;)V
 
-    .line 16
     :cond_5
     :goto_0
     iget-boolean p1, p0, Lcom/commsource/studio/layer/PaintMaskLayer;->c0:Z
 
     if-eqz p1, :cond_6
 
-    .line 17
     new-instance p1, Lcom/commsource/studio/layer/PaintMaskLayer$onStopSingleFinger$$inlined$apply$lambda$1;
 
     invoke-direct {p1, p0}, Lcom/commsource/studio/layer/PaintMaskLayer$onStopSingleFinger$$inlined$apply$lambda$1;-><init>(Lcom/commsource/studio/layer/PaintMaskLayer;)V
 
     invoke-virtual {p0, p1}, Lcom/commsource/studio/layer/BaseLayer;->f0(Lcotlin/jvm/u/a;)V
 
-    .line 18
     :cond_6
     iget-object p1, p0, Lcom/commsource/studio/layer/PaintMaskLayer;->W:Lcom/commsource/beautymain/widget/gesturewidget/g;
 
-    .line 19
     invoke-virtual {p1}, Lcom/commsource/beautymain/widget/gesturewidget/g;->a()Z
 
-    .line 20
     invoke-virtual {p1}, Lcom/commsource/beautymain/widget/gesturewidget/g;->h()Landroid/graphics/Canvas;
 
     move-result-object p2
 
     if-eqz p2, :cond_7
 
-    .line 21
     invoke-virtual {p2}, Landroid/graphics/Canvas;->save()I
 
     const/4 p5, 0x1
 
     int-to-float p5, p5
 
-    .line 22
     invoke-virtual {p0}, Lcom/commsource/studio/layer/BaseLayer;->r()Lcom/commsource/studio/MatrixBox;
 
     move-result-object v0
@@ -1358,31 +1236,26 @@
 
     invoke-virtual {p2, v0, p5}, Landroid/graphics/Canvas;->scale(FF)V
 
-    .line 23
     iget-object p5, p0, Lcom/commsource/studio/layer/PaintMaskLayer;->S:Lcom/commsource/studio/layer/n;
 
     const/4 v0, -0x1
 
     invoke-virtual {p5, v0}, Lcom/commsource/studio/layer/n;->q(I)V
 
-    .line 24
     iget-object p5, p0, Lcom/commsource/studio/layer/PaintMaskLayer;->S:Lcom/commsource/studio/layer/n;
 
     invoke-static {p2, p4}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {p5, p2}, Lcom/commsource/studio/layer/l;->d(Landroid/graphics/Canvas;)V
 
-    .line 25
     iget-object p4, p0, Lcom/commsource/studio/layer/PaintMaskLayer;->S:Lcom/commsource/studio/layer/n;
 
     const p5, -0x7f04a67a
 
     invoke-virtual {p4, p5}, Lcom/commsource/studio/layer/n;->q(I)V
 
-    .line 26
     invoke-virtual {p2}, Landroid/graphics/Canvas;->restore()V
 
-    .line 27
     invoke-virtual {p1}, Lcom/commsource/beautymain/widget/gesturewidget/g;->g()Landroid/graphics/Bitmap;
 
     move-result-object p1
@@ -1409,7 +1282,6 @@
 
     check-cast p1, Lcotlin/t1;
 
-    .line 28
     :cond_7
     invoke-static {p3}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

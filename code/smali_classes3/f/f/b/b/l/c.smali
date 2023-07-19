@@ -17,7 +17,6 @@
 .method constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/google/android/gms/common/api/a$a;-><init>()V
 
     return-void
@@ -28,18 +27,15 @@
 .method public final synthetic c(Landroid/content/Context;Landroid/os/Looper;Lcom/google/android/gms/common/internal/f;Ljava/lang/Object;Lcom/google/android/gms/common/api/i$b;Lcom/google/android/gms/common/api/i$c;)Lcom/google/android/gms/common/api/a$f;
     .locals 8
 
-    .line 1
     check-cast p4, Lf/f/b/b/l/a;
 
     if-nez p4, :cond_0
 
-    .line 2
     sget-object p4, Lf/f/b/b/l/a;->K:Lf/f/b/b/l/a;
 
     :cond_0
     move-object v5, p4
 
-    .line 3
     new-instance p4, Lcom/google/android/gms/signin/internal/a;
 
     const/4 v3, 0x1

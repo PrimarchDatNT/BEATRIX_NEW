@@ -30,20 +30,16 @@
 .method public constructor <init>()V
     .locals 2
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/16 v0, 0x3e8
 
-    .line 2
     iput v0, p0, Lio/jaegertracing/a/m/e$c;->b:I
 
     const/16 v1, 0x64
 
-    .line 3
     iput v1, p0, Lio/jaegertracing/a/m/e$c;->c:I
 
-    .line 4
     iput v0, p0, Lio/jaegertracing/a/m/e$c;->d:I
 
     return-void
@@ -54,25 +50,21 @@
 .method public a()Lio/jaegertracing/a/m/e;
     .locals 9
 
-    .line 1
     iget-object v0, p0, Lio/jaegertracing/a/m/e$c;->a:Lio/jaegertracing/b/j;
 
     if-nez v0, :cond_0
 
-    .line 2
     invoke-static {}, Lio/jaegertracing/a/o/c;->b()Lio/jaegertracing/b/j;
 
     move-result-object v0
 
     iput-object v0, p0, Lio/jaegertracing/a/m/e$c;->a:Lio/jaegertracing/b/j;
 
-    .line 3
     :cond_0
     iget-object v0, p0, Lio/jaegertracing/a/m/e$c;->e:Lio/jaegertracing/a/k/e;
 
     if-nez v0, :cond_1
 
-    .line 4
     new-instance v0, Lio/jaegertracing/a/k/e;
 
     new-instance v1, Lio/jaegertracing/a/k/c;
@@ -83,7 +75,6 @@
 
     iput-object v0, p0, Lio/jaegertracing/a/m/e$c;->e:Lio/jaegertracing/a/k/e;
 
-    .line 5
     :cond_1
     new-instance v0, Lio/jaegertracing/a/m/e;
 
@@ -109,7 +100,6 @@
 .method public b(I)Lio/jaegertracing/a/m/e$c;
     .locals 0
 
-    .line 1
     iput p1, p0, Lio/jaegertracing/a/m/e$c;->d:I
 
     return-object p0
@@ -118,7 +108,6 @@
 .method public c(I)Lio/jaegertracing/a/m/e$c;
     .locals 0
 
-    .line 1
     iput p1, p0, Lio/jaegertracing/a/m/e$c;->b:I
 
     return-object p0
@@ -127,7 +116,6 @@
 .method public d(I)Lio/jaegertracing/a/m/e$c;
     .locals 0
 
-    .line 1
     iput p1, p0, Lio/jaegertracing/a/m/e$c;->c:I
 
     return-object p0
@@ -136,7 +124,6 @@
 .method public e(Lio/jaegertracing/a/k/e;)Lio/jaegertracing/a/m/e$c;
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lio/jaegertracing/a/m/e$c;->e:Lio/jaegertracing/a/k/e;
 
     return-object p0
@@ -145,7 +132,6 @@
 .method public f(Lio/jaegertracing/b/j;)Lio/jaegertracing/a/m/e$c;
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lio/jaegertracing/a/m/e$c;->a:Lio/jaegertracing/b/j;
 
     return-object p0

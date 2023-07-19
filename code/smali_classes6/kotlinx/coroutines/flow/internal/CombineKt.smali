@@ -11,7 +11,6 @@
 .method public static final synthetic a(Lcotlinx/coroutines/m0;Lcotlinx/coroutines/flow/d;)Lcotlinx/coroutines/channels/y;
     .locals 0
 
-    .line 1
     invoke-static {p0, p1}, Lcotlinx/coroutines/flow/internal/CombineKt;->d(Lcotlinx/coroutines/m0;Lcotlinx/coroutines/flow/d;)Lcotlinx/coroutines/channels/y;
 
     move-result-object p0
@@ -22,7 +21,6 @@
 .method public static final synthetic b(Lcotlinx/coroutines/m0;Lcotlinx/coroutines/flow/d;)Lcotlinx/coroutines/channels/y;
     .locals 0
 
-    .line 1
     invoke-static {p0, p1}, Lcotlinx/coroutines/flow/internal/CombineKt;->e(Lcotlinx/coroutines/m0;Lcotlinx/coroutines/flow/d;)Lcotlinx/coroutines/channels/y;
 
     move-result-object p0
@@ -33,7 +31,6 @@
 .method public static final synthetic c(Lcotlinx/coroutines/selects/a;ZLcotlinx/coroutines/channels/y;Lcotlin/jvm/u/a;Lcotlin/jvm/u/p;)V
     .locals 0
 
-    .line 1
     invoke-static {p0, p1, p2, p3, p4}, Lcotlinx/coroutines/flow/internal/CombineKt;->i(Lcotlinx/coroutines/selects/a;ZLcotlinx/coroutines/channels/y;Lcotlin/jvm/u/a;Lcotlin/jvm/u/p;)V
 
     return-void
@@ -57,7 +54,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v3, Lcotlinx/coroutines/flow/internal/CombineKt$asChannel$1;
 
     const/4 v0, 0x0
@@ -99,7 +95,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v3, Lcotlinx/coroutines/flow/internal/CombineKt$asFairChannel$1;
 
     const/4 v0, 0x0
@@ -182,7 +177,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     new-instance v6, Lcotlinx/coroutines/flow/internal/CombineKt$combineInternal$2;
 
     const/4 v5, 0x0
@@ -275,7 +269,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     new-instance v6, Lcotlinx/coroutines/flow/internal/CombineKt$combineTransformInternal$2;
 
     const/4 v5, 0x0
@@ -304,7 +297,6 @@
 
     return-object p0
 
-    .line 2
     :cond_0
     sget-object p0, Lcotlin/t1;->a:Lcotlin/t1;
 
@@ -316,7 +308,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     sget-object v0, Lcotlinx/coroutines/flow/internal/i;->a:Lcotlinx/coroutines/internal/c0;
 
     return-object v0
@@ -358,7 +349,6 @@
 
     return-void
 
-    .line 1
     :cond_0
     invoke-interface {p2}, Lcotlinx/coroutines/channels/y;->K()Lcotlinx/coroutines/selects/d;
 
@@ -416,7 +406,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     new-instance v0, Lcotlinx/coroutines/flow/internal/CombineKt$zipImpl$$inlined$unsafeFlow$1;
 
     invoke-direct {v0, p0, p1, p2}, Lcotlinx/coroutines/flow/internal/CombineKt$zipImpl$$inlined$unsafeFlow$1;-><init>(Lcotlinx/coroutines/flow/d;Lcotlinx/coroutines/flow/d;Lcotlin/jvm/u/q;)V

@@ -54,12 +54,10 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/studio/text/TextStylePage$a;->a:Lcom/commsource/studio/text/TextStylePage;
 
     invoke-static {v0}, Lcom/commsource/studio/text/TextStylePage;->g(Lcom/commsource/studio/text/TextStylePage;)V
 
-    .line 2
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -72,7 +70,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Ljava/lang/Boolean;
 
     invoke-virtual {p0, p1}, Lcom/commsource/studio/text/TextStylePage$a;->a(Ljava/lang/Boolean;)V

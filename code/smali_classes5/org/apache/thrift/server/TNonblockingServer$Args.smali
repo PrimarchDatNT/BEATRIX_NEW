@@ -26,7 +26,6 @@
 .method public constructor <init>(Lorg/apache/thrift/transport/TNonblockingServerTransport;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1}, Lorg/apache/thrift/server/AbstractNonblockingServer$AbstractNonblockingServerArgs;-><init>(Lorg/apache/thrift/transport/TNonblockingServerTransport;)V
 
     return-void

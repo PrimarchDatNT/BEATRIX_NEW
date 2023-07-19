@@ -44,7 +44,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-interface {p2, p0}, Landroid/database/Cursor;->getColumnIndex(Ljava/lang/String;)I
 
     move-result v0
@@ -55,7 +54,6 @@
 
     return-void
 
-    .line 2
     :cond_0
     invoke-interface {p2, v0}, Landroid/database/Cursor;->getLong(I)J
 
@@ -69,7 +67,6 @@
 
     return-void
 
-    .line 3
     :cond_1
     invoke-static {v0, v1}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
 
@@ -95,7 +92,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-interface {p2, p0}, Landroid/database/Cursor;->getColumnIndex(Ljava/lang/String;)I
 
     move-result v0
@@ -106,7 +102,6 @@
 
     return-void
 
-    .line 2
     :cond_0
     invoke-interface {p2, v0}, Landroid/database/Cursor;->getString(I)Ljava/lang/String;
 
@@ -116,7 +111,6 @@
 
     return-void
 
-    .line 3
     :cond_1
     invoke-interface {p1, p0, p2}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
@@ -126,7 +120,6 @@
 .method varargs constructor <init>(Lcom/appsflyer/internal/referrer/SamsungReferrer;Landroid/content/Context;Ljava/lang/String;[Ljava/lang/String;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/appsflyer/internal/referrer/SamsungReferrer$3;->$$a:Lcom/appsflyer/internal/referrer/SamsungReferrer;
 
     invoke-direct {p0, p2, p3, p4}, Lcom/appsflyer/internal/ContentFetcher;-><init>(Landroid/content/Context;Ljava/lang/String;[Ljava/lang/String;)V
@@ -152,7 +145,6 @@
 
     const/4 v2, 0x0
 
-    .line 1
     :try_start_0
     iget-object v3, p0, Lcom/appsflyer/internal/ContentFetcher;->context:Landroid/content/Context;
 
@@ -192,14 +184,12 @@
 
     if-eqz v2, :cond_2
 
-    .line 2
     invoke-interface {v2}, Landroid/database/Cursor;->moveToFirst()Z
 
     move-result v3
 
     if-eqz v3, :cond_1
 
-    .line 3
     iget-object v3, p0, Lcom/appsflyer/internal/referrer/SamsungReferrer$3;->$$a:Lcom/appsflyer/internal/referrer/SamsungReferrer;
 
     iget-object v3, v3, Lcom/appsflyer/internal/referrer/Referrer;->map:Ljava/util/Map;
@@ -210,7 +200,6 @@
 
     const-string v3, "referrer"
 
-    .line 4
     iget-object v4, p0, Lcom/appsflyer/internal/referrer/SamsungReferrer$3;->$$a:Lcom/appsflyer/internal/referrer/SamsungReferrer;
 
     iget-object v4, v4, Lcom/appsflyer/internal/referrer/Referrer;->map:Ljava/util/Map;
@@ -219,7 +208,6 @@
 
     const-string v3, "click_ts"
 
-    .line 5
     iget-object v4, p0, Lcom/appsflyer/internal/referrer/SamsungReferrer$3;->$$a:Lcom/appsflyer/internal/referrer/SamsungReferrer;
 
     iget-object v4, v4, Lcom/appsflyer/internal/referrer/Referrer;->map:Ljava/util/Map;
@@ -228,7 +216,6 @@
 
     const-string v3, "install_begin_ts"
 
-    .line 6
     iget-object v4, p0, Lcom/appsflyer/internal/referrer/SamsungReferrer$3;->$$a:Lcom/appsflyer/internal/referrer/SamsungReferrer;
 
     iget-object v4, v4, Lcom/appsflyer/internal/referrer/Referrer;->map:Ljava/util/Map;
@@ -237,7 +224,6 @@
 
     const-string v3, "install_end_ts"
 
-    .line 7
     iget-object v4, p0, Lcom/appsflyer/internal/referrer/SamsungReferrer$3;->$$a:Lcom/appsflyer/internal/referrer/SamsungReferrer;
 
     iget-object v4, v4, Lcom/appsflyer/internal/referrer/Referrer;->map:Ljava/util/Map;
@@ -246,7 +232,6 @@
 
     const-string v3, "organic_keywords"
 
-    .line 8
     iget-object v4, p0, Lcom/appsflyer/internal/referrer/SamsungReferrer$3;->$$a:Lcom/appsflyer/internal/referrer/SamsungReferrer;
 
     iget-object v4, v4, Lcom/appsflyer/internal/referrer/Referrer;->map:Ljava/util/Map;
@@ -255,21 +240,18 @@
 
     const-string v3, "attr_type"
 
-    .line 9
     iget-object v4, p0, Lcom/appsflyer/internal/referrer/SamsungReferrer$3;->$$a:Lcom/appsflyer/internal/referrer/SamsungReferrer;
 
     iget-object v4, v4, Lcom/appsflyer/internal/referrer/Referrer;->map:Ljava/util/Map;
 
     invoke-static {v3, v4, v2}, Lcom/appsflyer/internal/referrer/SamsungReferrer$3;->$$b(Ljava/lang/String;Ljava/util/Map;Landroid/database/Cursor;)V
 
-    .line 10
     new-instance v3, Ljava/util/HashMap;
 
     invoke-direct {v3}, Ljava/util/HashMap;-><init>()V
 
     const-string v4, "instant"
 
-    .line 11
     invoke-interface {v2, v4}, Landroid/database/Cursor;->getColumnIndex(Ljava/lang/String;)I
 
     move-result v5
@@ -278,14 +260,12 @@
 
     if-eq v5, v6, :cond_0
 
-    .line 12
     invoke-interface {v2, v5}, Landroid/database/Cursor;->getString(I)Ljava/lang/String;
 
     move-result-object v5
 
     if-eqz v5, :cond_0
 
-    .line 13
     invoke-static {v5}, Ljava/lang/Boolean;->parseBoolean(Ljava/lang/String;)Z
 
     move-result v5
@@ -299,20 +279,16 @@
     :cond_0
     const-string v4, "click_server_ts"
 
-    .line 14
     invoke-static {v4, v3, v2}, Lcom/appsflyer/internal/referrer/SamsungReferrer$3;->$$a(Ljava/lang/String;Ljava/util/Map;Landroid/database/Cursor;)V
 
     const-string v4, "install_begin_server_ts"
 
-    .line 15
     invoke-static {v4, v3, v2}, Lcom/appsflyer/internal/referrer/SamsungReferrer$3;->$$a(Ljava/lang/String;Ljava/util/Map;Landroid/database/Cursor;)V
 
     const-string v4, "install_version"
 
-    .line 16
     invoke-static {v4, v3, v2}, Lcom/appsflyer/internal/referrer/SamsungReferrer$3;->$$b(Ljava/lang/String;Ljava/util/Map;Landroid/database/Cursor;)V
 
-    .line 17
     invoke-interface {v3}, Ljava/util/Map;->isEmpty()Z
 
     move-result v4
@@ -329,7 +305,6 @@
 
     goto :goto_0
 
-    .line 18
     :cond_1
     iget-object v3, p0, Lcom/appsflyer/internal/referrer/SamsungReferrer$3;->$$a:Lcom/appsflyer/internal/referrer/SamsungReferrer;
 
@@ -339,7 +314,6 @@
 
     goto :goto_0
 
-    .line 19
     :cond_2
     iget-object v3, p0, Lcom/appsflyer/internal/referrer/SamsungReferrer$3;->$$a:Lcom/appsflyer/internal/referrer/SamsungReferrer;
 
@@ -366,7 +340,6 @@
     :catch_0
     move-exception v3
 
-    .line 20
     :try_start_1
     iget-object v4, p0, Lcom/appsflyer/internal/referrer/SamsungReferrer$3;->$$a:Lcom/appsflyer/internal/referrer/SamsungReferrer;
 
@@ -374,18 +347,15 @@
 
     invoke-interface {v4, v1, v0}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 21
     invoke-virtual {p0, v3}, Lcom/appsflyer/internal/ContentFetcher;->onError(Ljava/lang/Exception;)V
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
     if-eqz v2, :cond_4
 
-    .line 22
     :goto_1
     invoke-interface {v2}, Landroid/database/Cursor;->close()V
 
-    .line 23
     :cond_4
     iget-object v0, p0, Lcom/appsflyer/internal/ContentFetcher;->context:Landroid/content/Context;
 
@@ -397,14 +367,12 @@
 
     const/16 v2, 0x80
 
-    .line 24
     invoke-virtual {v0, v1, v2}, Landroid/content/pm/PackageManager;->resolveContentProvider(Ljava/lang/String;I)Landroid/content/pm/ProviderInfo;
 
     move-result-object v0
 
     iget-object v0, v0, Landroid/content/pm/PackageItemInfo;->packageName:Ljava/lang/String;
 
-    .line 25
     iget-object v1, p0, Lcom/appsflyer/internal/referrer/SamsungReferrer$3;->$$a:Lcom/appsflyer/internal/referrer/SamsungReferrer;
 
     iget-object v1, v1, Lcom/appsflyer/internal/referrer/Referrer;->map:Ljava/util/Map;
@@ -423,7 +391,6 @@
 
     invoke-interface {v1, v3, v2}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 26
     iget-object v1, p0, Lcom/appsflyer/internal/referrer/SamsungReferrer$3;->$$a:Lcom/appsflyer/internal/referrer/SamsungReferrer;
 
     iget-object v1, v1, Lcom/appsflyer/internal/referrer/Referrer;->map:Ljava/util/Map;
@@ -438,12 +405,10 @@
 
     invoke-interface {v1, v2, v0}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 27
     iget-object v0, p0, Lcom/appsflyer/internal/referrer/SamsungReferrer$3;->$$a:Lcom/appsflyer/internal/referrer/SamsungReferrer;
 
     invoke-virtual {v0}, Lcom/appsflyer/internal/referrer/Referrer;->finish()V
 
-    .line 28
     iget-object v0, p0, Lcom/appsflyer/internal/referrer/SamsungReferrer$3;->$$a:Lcom/appsflyer/internal/referrer/SamsungReferrer;
 
     iget-object v0, v0, Lcom/appsflyer/internal/referrer/Referrer;->map:Ljava/util/Map;
@@ -453,10 +418,8 @@
     :goto_2
     if-eqz v2, :cond_5
 
-    .line 29
     invoke-interface {v2}, Landroid/database/Cursor;->close()V
 
-    .line 30
     :cond_5
     throw v0
 .end method
@@ -466,7 +429,6 @@
 .method public final synthetic query()Ljava/lang/Object;
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Lcom/appsflyer/internal/referrer/SamsungReferrer$3;->valueOf()Ljava/util/Map;
 
     move-result-object v0

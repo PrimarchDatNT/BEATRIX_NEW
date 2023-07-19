@@ -27,7 +27,6 @@
 .method constructor <init>(Lcom/tencent/bugly/crashreport/crash/anr/b$a;Ljava/lang/String;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/tencent/bugly/crashreport/crash/anr/b$a$a;->b:Lcom/tencent/bugly/crashreport/crash/anr/b$a;
 
     iput-object p2, p0, Lcom/tencent/bugly/crashreport/crash/anr/b$a$a;->a:Ljava/lang/String;
@@ -42,7 +41,6 @@
 .method public final run()V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/tencent/bugly/crashreport/crash/anr/b$a$a;->b:Lcom/tencent/bugly/crashreport/crash/anr/b$a;
 
     iget-object v0, v0, Lcom/tencent/bugly/crashreport/crash/anr/b$a;->a:Lcom/tencent/bugly/crashreport/crash/anr/b;

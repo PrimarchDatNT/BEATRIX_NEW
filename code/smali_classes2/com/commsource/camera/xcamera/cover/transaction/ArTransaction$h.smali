@@ -58,7 +58,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/commsource/beautyplus/advert/d;->q()Lcom/commsource/beautyplus/advert/d;
 
     move-result-object v1
@@ -71,7 +70,6 @@
 
     invoke-virtual {v1, v2, v3}, Lcom/commsource/beautyplus/advert/e;->a(Landroid/content/Context;I)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

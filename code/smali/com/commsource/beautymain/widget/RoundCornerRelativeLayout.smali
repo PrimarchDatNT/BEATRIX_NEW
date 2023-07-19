@@ -17,24 +17,20 @@
 .method public constructor <init>(Landroid/content/Context;)V
     .locals 2
 
-    .line 1
     invoke-direct {p0, p1}, Landroid/widget/RelativeLayout;-><init>(Landroid/content/Context;)V
 
-    .line 2
     new-instance p1, Landroid/graphics/RectF;
 
     invoke-direct {p1}, Landroid/graphics/RectF;-><init>()V
 
     iput-object p1, p0, Lcom/commsource/beautymain/widget/RoundCornerRelativeLayout;->b:Landroid/graphics/RectF;
 
-    .line 3
     new-instance p1, Landroid/graphics/Path;
 
     invoke-direct {p1}, Landroid/graphics/Path;-><init>()V
 
     iput-object p1, p0, Lcom/commsource/beautymain/widget/RoundCornerRelativeLayout;->c:Landroid/graphics/Path;
 
-    .line 4
     new-instance p1, Landroid/graphics/PaintFlagsDrawFilter;
 
     const/4 v0, 0x0
@@ -51,24 +47,20 @@
 .method public constructor <init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
     .locals 1
 
-    .line 5
     invoke-direct {p0, p1, p2}, Landroid/widget/RelativeLayout;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
-    .line 6
     new-instance p1, Landroid/graphics/RectF;
 
     invoke-direct {p1}, Landroid/graphics/RectF;-><init>()V
 
     iput-object p1, p0, Lcom/commsource/beautymain/widget/RoundCornerRelativeLayout;->b:Landroid/graphics/RectF;
 
-    .line 7
     new-instance p1, Landroid/graphics/Path;
 
     invoke-direct {p1}, Landroid/graphics/Path;-><init>()V
 
     iput-object p1, p0, Lcom/commsource/beautymain/widget/RoundCornerRelativeLayout;->c:Landroid/graphics/Path;
 
-    .line 8
     new-instance p1, Landroid/graphics/PaintFlagsDrawFilter;
 
     const/4 p2, 0x0
@@ -91,20 +83,16 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/beautymain/widget/RoundCornerRelativeLayout;->c:Landroid/graphics/Path;
 
     invoke-virtual {p1, v1}, Landroid/graphics/Canvas;->clipPath(Landroid/graphics/Path;)Z
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/beautymain/widget/RoundCornerRelativeLayout;->d:Landroid/graphics/DrawFilter;
 
     invoke-virtual {p1, v1}, Landroid/graphics/Canvas;->setDrawFilter(Landroid/graphics/DrawFilter;)V
 
-    .line 3
     invoke-super {p0, p1}, Landroid/widget/RelativeLayout;->dispatchDraw(Landroid/graphics/Canvas;)V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -117,10 +105,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0, p1, p2, p3, p4}, Landroid/widget/RelativeLayout;->onSizeChanged(IIII)V
 
-    .line 2
     iget-object p1, p0, Lcom/commsource/beautymain/widget/RoundCornerRelativeLayout;->b:Landroid/graphics/RectF;
 
     invoke-virtual {p0}, Landroid/widget/RelativeLayout;->getWidth()I
@@ -139,12 +125,10 @@
 
     invoke-virtual {p1, p4, p4, p2, p3}, Landroid/graphics/RectF;->set(FFFF)V
 
-    .line 3
     iget-object p1, p0, Lcom/commsource/beautymain/widget/RoundCornerRelativeLayout;->c:Landroid/graphics/Path;
 
     invoke-virtual {p1}, Landroid/graphics/Path;->reset()V
 
-    .line 4
     iget-object p1, p0, Lcom/commsource/beautymain/widget/RoundCornerRelativeLayout;->c:Landroid/graphics/Path;
 
     iget-object p2, p0, Lcom/commsource/beautymain/widget/RoundCornerRelativeLayout;->b:Landroid/graphics/RectF;
@@ -155,7 +139,6 @@
 
     invoke-virtual {p1, p2, p3, p3, p4}, Landroid/graphics/Path;->addRoundRect(Landroid/graphics/RectF;FFLandroid/graphics/Path$Direction;)V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -176,7 +159,6 @@
 
     goto :goto_0
 
-    .line 1
     :cond_0
     invoke-static {p1}, Lcom/meitu/library/p/f/i;->b(F)F
 
@@ -185,10 +167,8 @@
     :goto_0
     iput v1, p0, Lcom/commsource/beautymain/widget/RoundCornerRelativeLayout;->a:F
 
-    .line 2
     invoke-virtual {p0}, Landroid/widget/RelativeLayout;->invalidate()V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

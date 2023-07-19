@@ -57,12 +57,10 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     iget-object p1, p0, Lcom/commsource/studio/function/background/BackgroundFragment$c;->a:Lcom/commsource/studio/function/background/BackgroundFragment;
 
     invoke-static {p1}, Lcom/commsource/studio/function/background/BackgroundFragment;->X(Lcom/commsource/studio/function/background/BackgroundFragment;)V
 
-    .line 2
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -76,7 +74,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Lcom/commsource/studio/function/background/BackgroundType;
 
     invoke-virtual {p0, p1}, Lcom/commsource/studio/function/background/BackgroundFragment$c;->a(Lcom/commsource/studio/function/background/BackgroundType;)V

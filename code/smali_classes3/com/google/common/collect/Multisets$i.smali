@@ -29,7 +29,6 @@
 .method constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/google/common/collect/Sets$j;-><init>()V
 
     return-void
@@ -50,7 +49,6 @@
 .method public clear()V
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/collect/Multisets$i;->b()Lcom/google/common/collect/m1;
 
     move-result-object v0
@@ -67,17 +65,14 @@
         .end annotation
     .end param
 
-    .line 1
     instance-of v0, p1, Lcom/google/common/collect/m1$a;
 
     const/4 v1, 0x0
 
     if-eqz v0, :cond_1
 
-    .line 2
     check-cast p1, Lcom/google/common/collect/m1$a;
 
-    .line 3
     invoke-interface {p1}, Lcom/google/common/collect/m1$a;->getCount()I
 
     move-result v0
@@ -86,7 +81,6 @@
 
     return v1
 
-    .line 4
     :cond_0
     invoke-virtual {p0}, Lcom/google/common/collect/Multisets$i;->b()Lcom/google/common/collect/m1;
 
@@ -100,7 +94,6 @@
 
     move-result v0
 
-    .line 5
     invoke-interface {p1}, Lcom/google/common/collect/m1$a;->getCount()I
 
     move-result p1
@@ -116,34 +109,28 @@
 .method public remove(Ljava/lang/Object;)Z
     .locals 3
 
-    .line 1
     instance-of v0, p1, Lcom/google/common/collect/m1$a;
 
     const/4 v1, 0x0
 
     if-eqz v0, :cond_0
 
-    .line 2
     check-cast p1, Lcom/google/common/collect/m1$a;
 
-    .line 3
     invoke-interface {p1}, Lcom/google/common/collect/m1$a;->getElement()Ljava/lang/Object;
 
     move-result-object v0
 
-    .line 4
     invoke-interface {p1}, Lcom/google/common/collect/m1$a;->getCount()I
 
     move-result p1
 
     if-eqz p1, :cond_0
 
-    .line 5
     invoke-virtual {p0}, Lcom/google/common/collect/Multisets$i;->b()Lcom/google/common/collect/m1;
 
     move-result-object v2
 
-    .line 6
     invoke-interface {v2, v0, p1, v1}, Lcom/google/common/collect/m1;->setCount(Ljava/lang/Object;II)Z
 
     move-result p1

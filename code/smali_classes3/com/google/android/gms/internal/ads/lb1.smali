@@ -36,7 +36,6 @@
 .method public final apply(Ljava/lang/Object;)Ljava/lang/Object;
     .locals 1
 
-    .line 1
     check-cast p1, Ljava/lang/String;
 
     if-nez p1, :cond_0
@@ -45,7 +44,6 @@
 
     return-object p1
 
-    .line 2
     :cond_0
     new-instance v0, Lcom/google/android/gms/internal/ads/gb1;
 

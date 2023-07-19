@@ -17,7 +17,6 @@
 .method public constructor <init>(Landroid/content/res/AssetManager;Ljava/lang/String;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1, p2}, Lcom/bumptech/glide/load/j/b;-><init>(Landroid/content/res/AssetManager;Ljava/lang/String;)V
 
     return-void
@@ -39,7 +38,6 @@
         }
     .end annotation
 
-    .line 1
     const-class v0, Landroid/os/ParcelFileDescriptor;
 
     return-object v0
@@ -53,7 +51,6 @@
         }
     .end annotation
 
-    .line 1
     check-cast p1, Landroid/os/ParcelFileDescriptor;
 
     invoke-virtual {p0, p1}, Lcom/bumptech/glide/load/j/h;->g(Landroid/os/ParcelFileDescriptor;)V
@@ -69,7 +66,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0, p1, p2}, Lcom/bumptech/glide/load/j/h;->h(Landroid/content/res/AssetManager;Ljava/lang/String;)Landroid/os/ParcelFileDescriptor;
 
     move-result-object p1
@@ -85,7 +81,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p1}, Landroid/os/ParcelFileDescriptor;->close()V
 
     return-void
@@ -99,7 +94,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p1, p2}, Landroid/content/res/AssetManager;->openFd(Ljava/lang/String;)Landroid/content/res/AssetFileDescriptor;
 
     move-result-object p1

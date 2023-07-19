@@ -20,7 +20,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -29,7 +28,6 @@
 .method public synthetic constructor <init>(Lcotlin/jvm/internal/u;)V
     .locals 0
 
-    .line 2
     invoke-direct {p0}, Lcom/meitu/library/devicelevellib/utils/CachedSharedPreferences$a;-><init>()V
 
     return-void
@@ -54,19 +52,16 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-static {}, Lcom/meitu/library/devicelevellib/utils/CachedSharedPreferences;->a()Lcom/meitu/library/devicelevellib/utils/CachedSharedPreferences;
 
     move-result-object v1
 
     if-nez v1, :cond_1
 
-    .line 2
     const-class v1, Lcom/meitu/library/devicelevellib/utils/CachedSharedPreferences$a;
 
     monitor-enter v1
 
-    .line 3
     :try_start_0
     invoke-static {}, Lcom/meitu/library/devicelevellib/utils/CachedSharedPreferences;->a()Lcom/meitu/library/devicelevellib/utils/CachedSharedPreferences;
 
@@ -74,7 +69,6 @@
 
     if-nez v2, :cond_0
 
-    .line 4
     new-instance v2, Lcom/meitu/library/devicelevellib/utils/CachedSharedPreferences;
 
     const/4 v3, 0x0
@@ -83,13 +77,11 @@
 
     invoke-static {v2}, Lcom/meitu/library/devicelevellib/utils/CachedSharedPreferences;->b(Lcom/meitu/library/devicelevellib/utils/CachedSharedPreferences;)V
 
-    .line 5
     :cond_0
     sget-object p1, Lcotlin/t1;->a:Lcotlin/t1;
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 6
     monitor-exit v1
 
     goto :goto_0
@@ -103,7 +95,6 @@
 
     throw p1
 
-    .line 7
     :cond_1
     :goto_0
     invoke-static {}, Lcom/meitu/library/devicelevellib/utils/CachedSharedPreferences;->a()Lcom/meitu/library/devicelevellib/utils/CachedSharedPreferences;

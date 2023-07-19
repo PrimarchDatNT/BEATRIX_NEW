@@ -42,7 +42,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/ImageStudioActivity$i0$a;->a:Lcom/commsource/studio/ImageStudioActivity$i0;
 
     iget-object v1, v1, Lcom/commsource/studio/ImageStudioActivity$i0;->b:Lcom/commsource/studio/ImageStudioActivity;
@@ -67,7 +66,6 @@
 
     invoke-static {v1}, Lcom/commsource/util/l0;->w(Landroid/view/View;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

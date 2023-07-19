@@ -45,14 +45,12 @@
 
     const/16 v0, 0x2c
 
-    .line 1
     invoke-static {v0}, Lcom/google/common/base/o;->o(C)Lcom/google/common/base/o;
 
     move-result-object v0
 
     sput-object v0, Lio/grpc/s;->c:Lcom/google/common/base/o;
 
-    .line 2
     invoke-static {}, Lio/grpc/s;->a()Lio/grpc/s;
 
     move-result-object v0
@@ -63,7 +61,6 @@
 
     const/4 v2, 0x1
 
-    .line 3
     invoke-virtual {v0, v1, v2}, Lio/grpc/s;->g(Lio/grpc/r;Z)Lio/grpc/s;
 
     move-result-object v0
@@ -72,7 +69,6 @@
 
     const/4 v2, 0x0
 
-    .line 4
     invoke-virtual {v0, v1, v2}, Lio/grpc/s;->g(Lio/grpc/r;Z)Lio/grpc/s;
 
     move-result-object v0
@@ -85,10 +81,8 @@
 .method private constructor <init>()V
     .locals 2
 
-    .line 15
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 16
     new-instance v0, Ljava/util/LinkedHashMap;
 
     const/4 v1, 0x0
@@ -99,7 +93,6 @@
 
     new-array v0, v1, [B
 
-    .line 17
     iput-object v0, p0, Lio/grpc/s;->b:[B
 
     return-void
@@ -108,17 +101,14 @@
 .method private constructor <init>(Lio/grpc/r;ZLio/grpc/s;)V
     .locals 6
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     invoke-interface {p1}, Lio/grpc/r;->a()Ljava/lang/String;
 
     move-result-object v0
 
     const-string v1, ","
 
-    .line 3
     invoke-virtual {v0, v1}, Ljava/lang/String;->contains(Ljava/lang/CharSequence;)Z
 
     move-result v1
@@ -129,14 +119,12 @@
 
     invoke-static {v1, v2}, Lcom/google/common/base/t;->e(ZLjava/lang/Object;)V
 
-    .line 4
     iget-object v1, p3, Lio/grpc/s;->a:Ljava/util/Map;
 
     invoke-interface {v1}, Ljava/util/Map;->size()I
 
     move-result v1
 
-    .line 5
     iget-object v2, p3, Lio/grpc/s;->a:Ljava/util/Map;
 
     invoke-interface {p1}, Lio/grpc/r;->a()Ljava/lang/String;
@@ -151,13 +139,11 @@
 
     add-int/lit8 v1, v1, 0x1
 
-    .line 6
     :cond_0
     new-instance v2, Ljava/util/LinkedHashMap;
 
     invoke-direct {v2, v1}, Ljava/util/LinkedHashMap;-><init>(I)V
 
-    .line 7
     iget-object p3, p3, Lio/grpc/s;->a:Ljava/util/Map;
 
     invoke-interface {p3}, Ljava/util/Map;->values()Ljava/util/Collection;
@@ -182,21 +168,18 @@
 
     check-cast v1, Lio/grpc/s$a;
 
-    .line 8
     iget-object v3, v1, Lio/grpc/s$a;->a:Lio/grpc/r;
 
     invoke-interface {v3}, Lio/grpc/r;->a()Ljava/lang/String;
 
     move-result-object v3
 
-    .line 9
     invoke-virtual {v3, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v4
 
     if-nez v4, :cond_1
 
-    .line 10
     new-instance v4, Lio/grpc/s$a;
 
     iget-object v5, v1, Lio/grpc/s$a;->a:Lio/grpc/r;
@@ -209,7 +192,6 @@
 
     goto :goto_0
 
-    .line 11
     :cond_2
     new-instance p3, Lio/grpc/s$a;
 
@@ -217,14 +199,12 @@
 
     invoke-interface {v2, v0, p3}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 12
     invoke-static {v2}, Ljava/util/Collections;->unmodifiableMap(Ljava/util/Map;)Ljava/util/Map;
 
     move-result-object p1
 
     iput-object p1, p0, Lio/grpc/s;->a:Ljava/util/Map;
 
-    .line 13
     sget-object p1, Lio/grpc/s;->c:Lcom/google/common/base/o;
 
     invoke-virtual {p0}, Lio/grpc/s;->b()Ljava/util/Set;
@@ -237,7 +217,6 @@
 
     const-string p2, "US-ASCII"
 
-    .line 14
     invoke-static {p2}, Ljava/nio/charset/Charset;->forName(Ljava/lang/String;)Ljava/nio/charset/Charset;
 
     move-result-object p2
@@ -254,7 +233,6 @@
 .method public static a()Lio/grpc/s;
     .locals 1
 
-    .line 1
     new-instance v0, Lio/grpc/s;
 
     invoke-direct {v0}, Lio/grpc/s;-><init>()V
@@ -265,7 +243,6 @@
 .method public static c()Lio/grpc/s;
     .locals 1
 
-    .line 1
     sget-object v0, Lio/grpc/s;->d:Lio/grpc/s;
 
     return-object v0
@@ -288,7 +265,6 @@
         value = "https://github.com/grpc/grpc-java/issues/1704"
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/util/HashSet;
 
     iget-object v1, p0, Lio/grpc/s;->a:Ljava/util/Map;
@@ -299,7 +275,6 @@
 
     invoke-direct {v0, v1}, Ljava/util/HashSet;-><init>(I)V
 
-    .line 2
     iget-object v1, p0, Lio/grpc/s;->a:Ljava/util/Map;
 
     invoke-interface {v1}, Ljava/util/Map;->entrySet()Ljava/util/Set;
@@ -324,7 +299,6 @@
 
     check-cast v2, Ljava/util/Map$Entry;
 
-    .line 3
     invoke-interface {v2}, Ljava/util/Map$Entry;->getValue()Ljava/lang/Object;
 
     move-result-object v3
@@ -335,7 +309,6 @@
 
     if-eqz v3, :cond_0
 
-    .line 4
     invoke-interface {v2}, Ljava/util/Map$Entry;->getKey()Ljava/lang/Object;
 
     move-result-object v2
@@ -344,7 +317,6 @@
 
     goto :goto_0
 
-    .line 5
     :cond_1
     invoke-static {v0}, Ljava/util/Collections;->unmodifiableSet(Ljava/util/Set;)Ljava/util/Set;
 
@@ -364,7 +336,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lio/grpc/s;->a:Ljava/util/Map;
 
     invoke-interface {v0}, Ljava/util/Map;->keySet()Ljava/util/Set;
@@ -377,7 +348,6 @@
 .method e()[B
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lio/grpc/s;->b:[B
 
     return-object v0
@@ -388,7 +358,6 @@
     .annotation runtime Ljavax/annotation/j;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lio/grpc/s;->a:Ljava/util/Map;
 
     invoke-interface {v0, p1}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
@@ -399,7 +368,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 2
     iget-object p1, p1, Lio/grpc/s$a;->a:Lio/grpc/r;
 
     goto :goto_0
@@ -414,7 +382,6 @@
 .method public g(Lio/grpc/r;Z)Lio/grpc/s;
     .locals 1
 
-    .line 1
     new-instance v0, Lio/grpc/s;
 
     invoke-direct {v0, p1, p2, p0}, Lio/grpc/s;-><init>(Lio/grpc/r;ZLio/grpc/s;)V

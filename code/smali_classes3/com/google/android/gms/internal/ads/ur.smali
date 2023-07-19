@@ -32,12 +32,10 @@
 .method constructor <init>(Landroid/content/Context;)V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const-string v0, "sensor"
 
-    .line 2
     invoke-virtual {p1, v0}, Landroid/content/Context;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
 
     move-result-object v0
@@ -48,14 +46,12 @@
 
     const-string v0, "window"
 
-    .line 3
     invoke-virtual {p1, v0}, Landroid/content/Context;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
 
     move-result-object p1
 
     check-cast p1, Landroid/view/WindowManager;
 
-    .line 4
     invoke-interface {p1}, Landroid/view/WindowManager;->getDefaultDisplay()Landroid/view/Display;
 
     move-result-object p1
@@ -66,15 +62,12 @@
 
     new-array v0, p1, [F
 
-    .line 5
     iput-object v0, p0, Lcom/google/android/gms/internal/ads/ur;->d:[F
 
     new-array p1, p1, [F
 
-    .line 6
     iput-object p1, p0, Lcom/google/android/gms/internal/ads/ur;->e:[F
 
-    .line 7
     new-instance p1, Ljava/lang/Object;
 
     invoke-direct {p1}, Ljava/lang/Object;-><init>()V
@@ -87,17 +80,14 @@
 .method private final e(II)V
     .locals 3
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/ur;->e:[F
 
     aget v1, v0, p1
 
-    .line 2
     aget v2, v0, p2
 
     aput v2, v0, p1
 
-    .line 3
     aput v1, v0, p2
 
     return-void
@@ -108,14 +98,12 @@
 .method final a()V
     .locals 4
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/ur;->g:Landroid/os/Handler;
 
     if-eqz v0, :cond_0
 
     return-void
 
-    .line 2
     :cond_0
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/ur;->a:Landroid/hardware/SensorManager;
 
@@ -129,12 +117,10 @@
 
     const-string v0, "No Sensor of TYPE_ROTATION_VECTOR"
 
-    .line 3
     invoke-static {v0}, Lcom/google/android/gms/internal/ads/aq;->g(Ljava/lang/String;)V
 
     return-void
 
-    .line 4
     :cond_1
     new-instance v1, Landroid/os/HandlerThread;
 
@@ -142,10 +128,8 @@
 
     invoke-direct {v1, v2}, Landroid/os/HandlerThread;-><init>(Ljava/lang/String;)V
 
-    .line 5
     invoke-virtual {v1}, Landroid/os/HandlerThread;->start()V
 
-    .line 6
     new-instance v2, Lcom/google/android/gms/internal/ads/vn1;
 
     invoke-virtual {v1}, Landroid/os/HandlerThread;->getLooper()Landroid/os/Looper;
@@ -156,12 +140,10 @@
 
     iput-object v2, p0, Lcom/google/android/gms/internal/ads/ur;->g:Landroid/os/Handler;
 
-    .line 7
     iget-object v1, p0, Lcom/google/android/gms/internal/ads/ur;->a:Landroid/hardware/SensorManager;
 
     const/4 v3, 0x0
 
-    .line 8
     invoke-virtual {v1, p0, v0, v3, v2}, Landroid/hardware/SensorManager;->registerListener(Landroid/hardware/SensorEventListener;Landroid/hardware/Sensor;ILandroid/os/Handler;)Z
 
     move-result v0
@@ -170,10 +152,8 @@
 
     const-string v0, "SensorManager.registerListener failed."
 
-    .line 9
     invoke-static {v0}, Lcom/google/android/gms/internal/ads/aq;->g(Ljava/lang/String;)V
 
-    .line 10
     invoke-virtual {p0}, Lcom/google/android/gms/internal/ads/ur;->b()V
 
     :cond_2
@@ -183,20 +163,17 @@
 .method final b()V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/ur;->g:Landroid/os/Handler;
 
     if-nez v0, :cond_0
 
     return-void
 
-    .line 2
     :cond_0
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/ur;->a:Landroid/hardware/SensorManager;
 
     invoke-virtual {v0, p0}, Landroid/hardware/SensorManager;->unregisterListener(Landroid/hardware/SensorEventListener;)V
 
-    .line 3
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/ur;->g:Landroid/os/Handler;
 
     new-instance v1, Lcom/google/android/gms/internal/ads/tr;
@@ -207,7 +184,6 @@
 
     const/4 v0, 0x0
 
-    .line 4
     iput-object v0, p0, Lcom/google/android/gms/internal/ads/ur;->g:Landroid/os/Handler;
 
     return-void
@@ -216,7 +192,6 @@
 .method final c(Lcom/google/android/gms/internal/ads/xr;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/android/gms/internal/ads/ur;->h:Lcom/google/android/gms/internal/ads/xr;
 
     return-void
@@ -225,12 +200,10 @@
 .method final d([F)Z
     .locals 4
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/ur;->b:Ljava/lang/Object;
 
     monitor-enter v0
 
-    .line 2
     :try_start_0
     iget-object v1, p0, Lcom/google/android/gms/internal/ads/ur;->f:[F
 
@@ -238,12 +211,10 @@
 
     if-nez v1, :cond_0
 
-    .line 3
     monitor-exit v0
 
     return v2
 
-    .line 4
     :cond_0
     array-length v3, v1
 
@@ -251,7 +222,6 @@
 
     const/4 p1, 0x1
 
-    .line 5
     monitor-exit v0
 
     return p1
@@ -259,7 +229,6 @@
     :catchall_0
     move-exception p1
 
-    .line 6
     monitor-exit v0
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
@@ -276,12 +245,10 @@
 .method public final onSensorChanged(Landroid/hardware/SensorEvent;)V
     .locals 8
 
-    .line 1
     iget-object p1, p1, Landroid/hardware/SensorEvent;->values:[F
 
     const/4 v0, 0x0
 
-    .line 2
     aget v1, p1, v0
 
     const/4 v2, 0x0
@@ -306,13 +273,11 @@
 
     if-eqz v1, :cond_5
 
-    .line 3
     :cond_0
     iget-object v1, p0, Lcom/google/android/gms/internal/ads/ur;->b:Ljava/lang/Object;
 
     monitor-enter v1
 
-    .line 4
     :try_start_0
     iget-object v2, p0, Lcom/google/android/gms/internal/ads/ur;->f:[F
 
@@ -322,21 +287,17 @@
 
     new-array v2, v5, [F
 
-    .line 5
     iput-object v2, p0, Lcom/google/android/gms/internal/ads/ur;->f:[F
 
-    .line 6
     :cond_1
     monitor-exit v1
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_1
 
-    .line 7
     iget-object v1, p0, Lcom/google/android/gms/internal/ads/ur;->d:[F
 
     invoke-static {v1, p1}, Landroid/hardware/SensorManager;->getRotationMatrixFromVector([F[F)V
 
-    .line 8
     iget-object p1, p0, Lcom/google/android/gms/internal/ads/ur;->c:Landroid/view/Display;
 
     invoke-virtual {p1}, Landroid/view/Display;->getRotation()I
@@ -355,7 +316,6 @@
 
     if-eq p1, v2, :cond_2
 
-    .line 9
     iget-object p1, p0, Lcom/google/android/gms/internal/ads/ur;->d:[F
 
     iget-object v1, p0, Lcom/google/android/gms/internal/ads/ur;->e:[F
@@ -364,7 +324,6 @@
 
     goto :goto_0
 
-    .line 10
     :cond_2
     iget-object p1, p0, Lcom/google/android/gms/internal/ads/ur;->d:[F
 
@@ -374,7 +333,6 @@
 
     goto :goto_0
 
-    .line 11
     :cond_3
     iget-object p1, p0, Lcom/google/android/gms/internal/ads/ur;->d:[F
 
@@ -384,7 +342,6 @@
 
     goto :goto_0
 
-    .line 12
     :cond_4
     iget-object p1, p0, Lcom/google/android/gms/internal/ads/ur;->d:[F
 
@@ -392,28 +349,23 @@
 
     invoke-static {p1, v3, v1, v6}, Landroid/hardware/SensorManager;->remapCoordinateSystem([FII[F)Z
 
-    .line 13
     :goto_0
     invoke-direct {p0, v4, v2}, Lcom/google/android/gms/internal/ads/ur;->e(II)V
 
     const/4 p1, 0x6
 
-    .line 14
     invoke-direct {p0, v3, p1}, Lcom/google/android/gms/internal/ads/ur;->e(II)V
 
     const/4 p1, 0x5
 
     const/4 v1, 0x7
 
-    .line 15
     invoke-direct {p0, p1, v1}, Lcom/google/android/gms/internal/ads/ur;->e(II)V
 
-    .line 16
     iget-object p1, p0, Lcom/google/android/gms/internal/ads/ur;->b:Ljava/lang/Object;
 
     monitor-enter p1
 
-    .line 17
     :try_start_1
     iget-object v1, p0, Lcom/google/android/gms/internal/ads/ur;->e:[F
 
@@ -421,17 +373,14 @@
 
     invoke-static {v1, v0, v2, v0, v5}, Ljava/lang/System;->arraycopy(Ljava/lang/Object;ILjava/lang/Object;II)V
 
-    .line 18
     monitor-exit p1
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
-    .line 19
     iget-object p1, p0, Lcom/google/android/gms/internal/ads/ur;->h:Lcom/google/android/gms/internal/ads/xr;
 
     if-eqz p1, :cond_5
 
-    .line 20
     invoke-interface {p1}, Lcom/google/android/gms/internal/ads/xr;->a()V
 
     :cond_5
@@ -440,7 +389,6 @@
     :catchall_0
     move-exception v0
 
-    .line 21
     :try_start_2
     monitor-exit p1
     :try_end_2
@@ -451,7 +399,6 @@
     :catchall_1
     move-exception p1
 
-    .line 22
     :try_start_3
     monitor-exit v1
     :try_end_3

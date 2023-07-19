@@ -25,7 +25,6 @@
 .method public constructor <init>(Lcom/appsflyer/internal/m$e;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/appsflyer/internal/m$4;->$$b:Lcom/appsflyer/internal/m$e;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -38,7 +37,6 @@
 .method public final invoke(Ljava/lang/Object;Ljava/lang/reflect/Method;[Ljava/lang/Object;)Ljava/lang/Object;
     .locals 3
 
-    .line 1
     invoke-virtual {p2}, Ljava/lang/reflect/Method;->getName()Ljava/lang/String;
 
     move-result-object p1
@@ -55,12 +53,10 @@
 
     if-eqz p1, :cond_5
 
-    .line 2
     aget-object p1, p3, v1
 
     if-eqz p1, :cond_0
 
-    .line 3
     aget-object p1, p3, v1
 
     check-cast p1, Ljava/lang/String;
@@ -73,12 +69,10 @@
     :goto_0
     const/4 p2, 0x1
 
-    .line 4
     aget-object v1, p3, p2
 
     if-eqz v1, :cond_1
 
-    .line 5
     aget-object p2, p3, p2
 
     check-cast p2, Ljava/lang/String;
@@ -88,7 +82,6 @@
     :cond_1
     move-object p2, v0
 
-    .line 6
     :goto_1
     iget-object p3, p0, Lcom/appsflyer/internal/m$4;->$$b:Lcom/appsflyer/internal/m$e;
 
@@ -98,7 +91,6 @@
 
     if-eqz p2, :cond_2
 
-    .line 7
     invoke-interface {p3, p1, p2}, Lcom/appsflyer/internal/m$e;->valueOf(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_2
@@ -108,7 +100,6 @@
 
     if-nez p2, :cond_3
 
-    .line 8
     new-instance p2, Ljava/lang/Exception;
 
     const-string v1, "AFLVL Invalid signature"
@@ -119,7 +110,6 @@
 
     goto :goto_2
 
-    .line 9
     :cond_3
     new-instance p2, Ljava/lang/Exception;
 
@@ -134,12 +124,10 @@
     :cond_4
     const-string p1, "onLvlResult invocation succeeded, but listener is null"
 
-    .line 10
     invoke-static {p1}, Lcom/appsflyer/AFLogger;->afDebugLog(Ljava/lang/String;)V
 
     goto :goto_2
 
-    .line 11
     :cond_5
     invoke-virtual {p2}, Ljava/lang/reflect/Method;->getName()Ljava/lang/String;
 
@@ -153,29 +141,24 @@
 
     if-eqz p1, :cond_8
 
-    .line 12
     iget-object p1, p0, Lcom/appsflyer/internal/m$4;->$$b:Lcom/appsflyer/internal/m$e;
 
     if-eqz p1, :cond_7
 
-    .line 13
     aget-object v2, p3, v1
 
     if-eqz v2, :cond_6
 
-    .line 14
     aget-object p2, p3, v1
 
     check-cast p2, Ljava/lang/Exception;
 
     const-string p3, "onLvlFailure with exception"
 
-    .line 15
     invoke-interface {p1, p3, p2}, Lcom/appsflyer/internal/m$e;->$$a(Ljava/lang/String;Ljava/lang/Exception;)V
 
     goto :goto_2
 
-    .line 16
     :cond_6
     new-instance p3, Ljava/lang/Exception;
 
@@ -190,18 +173,15 @@
     :cond_7
     const-string p1, "onLvlFailure: listener is null"
 
-    .line 17
     invoke-static {p1}, Lcom/appsflyer/AFLogger;->afDebugLog(Ljava/lang/String;)V
 
     goto :goto_2
 
-    .line 18
     :cond_8
     iget-object p1, p0, Lcom/appsflyer/internal/m$4;->$$b:Lcom/appsflyer/internal/m$e;
 
     if-eqz p1, :cond_9
 
-    .line 19
     new-instance p2, Ljava/lang/Exception;
 
     const-string p3, "com.appsflyer.lvl.AppsFlyerLVL$resultListener invocation failed"

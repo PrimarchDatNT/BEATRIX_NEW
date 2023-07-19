@@ -60,7 +60,6 @@
 
     const-string v5, "\u81ea\u62cd\u62cd\u6444_"
 
-    .line 1
     invoke-direct {v2, v3, v4, v5}, Lcom/commsource/util/delegate/process/PaidFilterProcess$ModuleEnum;-><init>(Ljava/lang/String;ILjava/lang/String;)V
 
     sput-object v2, Lcom/commsource/util/delegate/process/PaidFilterProcess$ModuleEnum;->CAMERA_TAKE:Lcom/commsource/util/delegate/process/PaidFilterProcess$ModuleEnum;
@@ -75,7 +74,6 @@
 
     const-string v5, "\u81ea\u62cd\u4fdd\u5b58_"
 
-    .line 2
     invoke-direct {v2, v3, v4, v5}, Lcom/commsource/util/delegate/process/PaidFilterProcess$ModuleEnum;-><init>(Ljava/lang/String;ILjava/lang/String;)V
 
     sput-object v2, Lcom/commsource/util/delegate/process/PaidFilterProcess$ModuleEnum;->CAMERA_SAVE_CONFIRM:Lcom/commsource/util/delegate/process/PaidFilterProcess$ModuleEnum;
@@ -90,7 +88,6 @@
 
     const-string v5, "\u7f16\u8f91_"
 
-    .line 3
     invoke-direct {v2, v3, v4, v5}, Lcom/commsource/util/delegate/process/PaidFilterProcess$ModuleEnum;-><init>(Ljava/lang/String;ILjava/lang/String;)V
 
     sput-object v2, Lcom/commsource/util/delegate/process/PaidFilterProcess$ModuleEnum;->BEAUTY:Lcom/commsource/util/delegate/process/PaidFilterProcess$ModuleEnum;
@@ -114,7 +111,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
     iput-object p3, p0, Lcom/commsource/util/delegate/process/PaidFilterProcess$ModuleEnum;->moduleName:Ljava/lang/String;
@@ -173,7 +169,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/util/delegate/process/PaidFilterProcess$ModuleEnum;->moduleName:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

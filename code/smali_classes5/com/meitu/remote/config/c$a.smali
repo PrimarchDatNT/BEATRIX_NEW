@@ -34,7 +34,6 @@
 .method constructor <init>(Lcom/meitu/remote/config/c;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/remote/config/c$a;->a:Lcom/meitu/remote/config/c;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -56,7 +55,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/remote/config/c$a;->a:Lcom/meitu/remote/config/c;
 
     invoke-virtual {v1}, Lcom/meitu/remote/config/c;->p()Lcom/meitu/remote/config/f;
@@ -80,7 +78,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/meitu/remote/config/c$a;->a()Lcom/meitu/remote/config/f;
 
     move-result-object v1

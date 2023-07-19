@@ -36,7 +36,6 @@
 
     iput-object p3, p0, Lcom/commsource/beautyfilter/NewBeautyFilterManager$j;->c:Lcom/meitu/template/bean/j;
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -51,17 +50,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/beautyfilter/NewBeautyFilterManager$j;->a:Lcom/meitu/template/bean/j;
 
     invoke-virtual {v1}, Lcom/meitu/template/bean/j;->b()I
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/beautyfilter/NewBeautyFilterManager$j;->a:Lcom/meitu/template/bean/j;
 
     invoke-virtual {v1, p1}, Lcom/meitu/template/bean/j;->O(I)V
 
-    .line 3
     iget-object p1, p0, Lcom/commsource/beautyfilter/NewBeautyFilterManager$j;->b:Lcom/commsource/beautyfilter/NewBeautyFilterManager;
 
     invoke-virtual {p1}, Lcom/commsource/beautyfilter/NewBeautyFilterManager;->Q()Lcom/commsource/material/download/b/a;
@@ -72,7 +68,6 @@
 
     invoke-virtual {p1, v1}, Lcom/commsource/material/download/b/a;->h(Ljava/lang/Object;)V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -93,14 +88,12 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/beautyfilter/NewBeautyFilterManager$j;->a:Lcom/meitu/template/bean/j;
 
     const/4 v2, 0x0
 
     invoke-virtual {v1, v2}, Lcom/meitu/template/bean/j;->O(I)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/beautyfilter/NewBeautyFilterManager$j;->b:Lcom/commsource/beautyfilter/NewBeautyFilterManager;
 
     invoke-virtual {v1}, Lcom/commsource/beautyfilter/NewBeautyFilterManager;->Q()Lcom/commsource/material/download/b/a;
@@ -119,7 +112,6 @@
 
     invoke-static/range {v2 .. v7}, Lcom/commsource/material/download/b/a;->g(Lcom/commsource/material/download/b/a;Ljava/lang/Object;Ljava/lang/Throwable;ZILjava/lang/Object;)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -132,19 +124,16 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/beautyfilter/NewBeautyFilterManager$j;->a:Lcom/meitu/template/bean/j;
 
     invoke-virtual {v1}, Lcom/meitu/template/bean/j;->b()I
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/beautyfilter/NewBeautyFilterManager$j;->a:Lcom/meitu/template/bean/j;
 
     const/4 v2, 0x0
 
     invoke-virtual {v1, v2}, Lcom/meitu/template/bean/j;->O(I)V
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/beautyfilter/NewBeautyFilterManager$j;->b:Lcom/commsource/beautyfilter/NewBeautyFilterManager;
 
     invoke-virtual {v1}, Lcom/commsource/beautyfilter/NewBeautyFilterManager;->Q()Lcom/commsource/material/download/b/a;
@@ -155,7 +144,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/material/download/b/a;->i(Ljava/lang/Object;)V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -168,19 +156,16 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/beautyfilter/NewBeautyFilterManager$j;->a:Lcom/meitu/template/bean/j;
 
     invoke-virtual {v1}, Lcom/meitu/template/bean/j;->b()I
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/beautyfilter/NewBeautyFilterManager$j;->a:Lcom/meitu/template/bean/j;
 
     const/4 v2, 0x0
 
     invoke-virtual {v1, v2}, Lcom/meitu/template/bean/j;->O(I)V
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/beautyfilter/NewBeautyFilterManager$j;->b:Lcom/commsource/beautyfilter/NewBeautyFilterManager;
 
     invoke-virtual {v1}, Lcom/commsource/beautyfilter/NewBeautyFilterManager;->Q()Lcom/commsource/material/download/b/a;
@@ -191,7 +176,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/material/download/b/a;->j(Ljava/lang/Object;)V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

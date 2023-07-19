@@ -25,7 +25,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-direct {p0, p1, v0}, Lcom/google/android/gms/internal/ads/sf2;-><init>(Landroid/net/Uri;I)V
 
     return-void
@@ -46,7 +45,6 @@
 
     move-object v1, p1
 
-    .line 2
     invoke-direct/range {v0 .. v7}, Lcom/google/android/gms/internal/ads/sf2;-><init>(Landroid/net/Uri;JJLjava/lang/String;I)V
 
     return-void
@@ -71,7 +69,6 @@
 
     move/from16 v10, p9
 
-    .line 5
     invoke-direct/range {v0 .. v10}, Lcom/google/android/gms/internal/ads/sf2;-><init>(Landroid/net/Uri;[BJJJLjava/lang/String;I)V
 
     return-void
@@ -94,7 +91,6 @@
 
     move-object/from16 v8, p6
 
-    .line 3
     invoke-direct/range {v0 .. v9}, Lcom/google/android/gms/internal/ads/sf2;-><init>(Landroid/net/Uri;JJJLjava/lang/String;I)V
 
     return-void
@@ -117,7 +113,6 @@
 
     move-object v1, p1
 
-    .line 4
     invoke-direct/range {v0 .. v9}, Lcom/google/android/gms/internal/ads/sf2;-><init>(Landroid/net/Uri;JJJLjava/lang/String;I)V
 
     return-void
@@ -126,7 +121,6 @@
 .method public constructor <init>(Landroid/net/Uri;[BJJJLjava/lang/String;I)V
     .locals 5
 
-    .line 6
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/4 v0, 0x1
@@ -146,7 +140,6 @@
     :cond_0
     const/4 v4, 0x0
 
-    .line 7
     :goto_0
     invoke-static {v4}, Lcom/google/android/gms/internal/ads/cg2;->a(Z)V
 
@@ -161,7 +154,6 @@
     :cond_1
     const/4 v4, 0x0
 
-    .line 8
     :goto_1
     invoke-static {v4}, Lcom/google/android/gms/internal/ads/cg2;->a(Z)V
 
@@ -180,30 +172,22 @@
     :cond_2
     const/4 v0, 0x0
 
-    .line 9
     :cond_3
     :goto_2
     invoke-static {v0}, Lcom/google/android/gms/internal/ads/cg2;->a(Z)V
 
-    .line 10
     iput-object p1, p0, Lcom/google/android/gms/internal/ads/sf2;->a:Landroid/net/Uri;
 
-    .line 11
     iput-object p2, p0, Lcom/google/android/gms/internal/ads/sf2;->b:[B
 
-    .line 12
     iput-wide p3, p0, Lcom/google/android/gms/internal/ads/sf2;->c:J
 
-    .line 13
     iput-wide p5, p0, Lcom/google/android/gms/internal/ads/sf2;->d:J
 
-    .line 14
     iput-wide p7, p0, Lcom/google/android/gms/internal/ads/sf2;->e:J
 
-    .line 15
     iput-object p9, p0, Lcom/google/android/gms/internal/ads/sf2;->f:Ljava/lang/String;
 
-    .line 16
     iput p10, p0, Lcom/google/android/gms/internal/ads/sf2;->g:I
 
     return-void
@@ -214,7 +198,6 @@
 .method public final a(I)Z
     .locals 1
 
-    .line 1
     iget p1, p0, Lcom/google/android/gms/internal/ads/sf2;->g:I
 
     const/4 v0, 0x1
@@ -234,7 +217,6 @@
 .method public final toString()Ljava/lang/String;
     .locals 12
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/sf2;->a:Landroid/net/Uri;
 
     invoke-static {v0}, Ljava/lang/String;->valueOf(Ljava/lang/Object;)Ljava/lang/String;

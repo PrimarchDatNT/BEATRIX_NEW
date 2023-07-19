@@ -22,20 +22,16 @@
 .method public constructor <init>(Lcom/google/android/gms/internal/ads/fc2;)V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iget-object p1, p1, Lcom/google/android/gms/internal/ads/fc2;->Q0:Lcom/google/android/gms/internal/ads/jg2;
 
     iput-object p1, p0, Lcom/google/android/gms/internal/ads/lc2;->a:Lcom/google/android/gms/internal/ads/jg2;
 
     const/16 v0, 0xc
 
-    .line 3
     invoke-virtual {p1, v0}, Lcom/google/android/gms/internal/ads/jg2;->l(I)V
 
-    .line 4
     invoke-virtual {p1}, Lcom/google/android/gms/internal/ads/jg2;->v()I
 
     move-result v0
@@ -44,7 +40,6 @@
 
     iput v0, p0, Lcom/google/android/gms/internal/ads/lc2;->c:I
 
-    .line 5
     invoke-virtual {p1}, Lcom/google/android/gms/internal/ads/jg2;->v()I
 
     move-result p1
@@ -59,7 +54,6 @@
 .method public final M0()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lcom/google/android/gms/internal/ads/lc2;->b:I
 
     return v0
@@ -68,14 +62,12 @@
 .method public final N0()I
     .locals 2
 
-    .line 1
     iget v0, p0, Lcom/google/android/gms/internal/ads/lc2;->c:I
 
     const/16 v1, 0x8
 
     if-ne v0, v1, :cond_0
 
-    .line 2
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/lc2;->a:Lcom/google/android/gms/internal/ads/jg2;
 
     invoke-virtual {v0}, Lcom/google/android/gms/internal/ads/jg2;->g()I
@@ -89,7 +81,6 @@
 
     if-ne v0, v1, :cond_1
 
-    .line 3
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/lc2;->a:Lcom/google/android/gms/internal/ads/jg2;
 
     invoke-virtual {v0}, Lcom/google/android/gms/internal/ads/jg2;->h()I
@@ -98,7 +89,6 @@
 
     return v0
 
-    .line 4
     :cond_1
     iget v0, p0, Lcom/google/android/gms/internal/ads/lc2;->d:I
 
@@ -110,7 +100,6 @@
 
     if-nez v0, :cond_2
 
-    .line 5
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/lc2;->a:Lcom/google/android/gms/internal/ads/jg2;
 
     invoke-virtual {v0}, Lcom/google/android/gms/internal/ads/jg2;->g()I
@@ -125,7 +114,6 @@
 
     return v0
 
-    .line 6
     :cond_2
     iget v0, p0, Lcom/google/android/gms/internal/ads/lc2;->e:I
 

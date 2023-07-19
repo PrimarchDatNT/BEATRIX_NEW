@@ -29,7 +29,6 @@
 .method constructor <init>(Lio/grpc/w1;Lio/grpc/w1$b;Ljava/lang/Runnable;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lio/grpc/w1$a;->c:Lio/grpc/w1;
 
     iput-object p2, p0, Lio/grpc/w1$a;->a:Lio/grpc/w1$b;
@@ -46,7 +45,6 @@
 .method public run()V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lio/grpc/w1$a;->c:Lio/grpc/w1;
 
     iget-object v1, p0, Lio/grpc/w1$a;->a:Lio/grpc/w1$b;
@@ -59,7 +57,6 @@
 .method public toString()Ljava/lang/String;
     .locals 2
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V

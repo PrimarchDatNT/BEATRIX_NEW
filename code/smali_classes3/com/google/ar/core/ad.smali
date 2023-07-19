@@ -19,7 +19,6 @@
 
     move-object v1, p1
 
-    .line 1
     invoke-direct/range {v0 .. v5}, Lcom/google/ar/core/Session$b;-><init>(Ljava/lang/String;IILjava/lang/Class;B)V
 
     return-void

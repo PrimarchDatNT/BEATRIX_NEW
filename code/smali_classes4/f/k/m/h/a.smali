@@ -32,7 +32,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/util/concurrent/ConcurrentHashMap;
 
     const/16 v2, 0xa
@@ -41,7 +40,6 @@
 
     sput-object v1, Lf/k/m/h/a;->c:Ljava/util/concurrent/ConcurrentHashMap;
 
-    .line 2
     new-instance v1, Lcom/google/gson/Gson;
 
     invoke-direct {v1}, Lcom/google/gson/Gson;-><init>()V
@@ -50,7 +48,6 @@
 
     const/16 v1, 0xc8
 
-    .line 3
     sput v1, Lf/k/m/h/a;->e:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -61,10 +58,8 @@
 .method private constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     new-instance v0, Ljava/lang/UnsupportedOperationException;
 
     invoke-direct {v0}, Ljava/lang/UnsupportedOperationException;-><init>()V
@@ -90,12 +85,10 @@
 
     if-eqz p0, :cond_0
 
-    .line 1
     sget-object v1, Lf/k/m/h/a;->c:Ljava/util/concurrent/ConcurrentHashMap;
 
     invoke-virtual {v1, p0}, Ljava/util/concurrent/ConcurrentHashMap;->putAll(Ljava/util/Map;)V
 
-    .line 2
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -111,7 +104,6 @@
 
     if-nez p0, :cond_0
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -121,45 +113,38 @@
 
     const-string v2, "Mozilla/5.0 (IPStore;Android;)"
 
-    .line 2
     invoke-virtual {p0, v1, v2}, Ljava/net/HttpURLConnection;->setRequestProperty(Ljava/lang/String;Ljava/lang/String;)V
 
     const-string v1, "Accept"
 
     const-string v2, "application/json,text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3"
 
-    .line 3
     invoke-virtual {p0, v1, v2}, Ljava/net/HttpURLConnection;->setRequestProperty(Ljava/lang/String;Ljava/lang/String;)V
 
     const-string v1, "Content-type"
 
     const-string v2, "application/json"
 
-    .line 4
     invoke-virtual {p0, v1, v2}, Ljava/net/HttpURLConnection;->setRequestProperty(Ljava/lang/String;Ljava/lang/String;)V
 
     const-string v1, "Accept-Charset"
 
     const-string v2, "utf-8;q=0.5"
 
-    .line 5
     invoke-virtual {p0, v1, v2}, Ljava/net/HttpURLConnection;->setRequestProperty(Ljava/lang/String;Ljava/lang/String;)V
 
     const-string v1, "Keep-Alive"
 
     const-string v2, "timeout=5, max=1000"
 
-    .line 6
     invoke-virtual {p0, v1, v2}, Ljava/net/HttpURLConnection;->setRequestProperty(Ljava/lang/String;Ljava/lang/String;)V
 
     const-string v1, "Connection"
 
     const-string v2, "keep-alive"
 
-    .line 7
     invoke-virtual {p0, v1, v2}, Ljava/net/HttpURLConnection;->setRequestProperty(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -189,12 +174,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p0, p1}, Lf/k/m/h/a;->d(Ljava/lang/String;Ljava/util/Map;)Ljava/lang/String;
 
     move-result-object p0
 
-    .line 2
     invoke-static {p0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result p1
@@ -203,12 +186,10 @@
 
     if-eqz p1, :cond_0
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
 
-    .line 4
     :cond_0
     :try_start_0
     sget-object p1, Lf/k/m/h/a;->d:Lcom/google/gson/Gson;
@@ -228,10 +209,8 @@
 
     const-string p1, "Get method failure!"
 
-    .line 5
     invoke-static {p1, p0}, Lf/k/m/j/e;->f(Ljava/lang/String;Ljava/lang/Throwable;)V
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
@@ -262,7 +241,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v1
@@ -271,7 +249,6 @@
 
     const/4 p0, 0x0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
@@ -281,7 +258,6 @@
 
     new-array v1, v1, [Ljava/util/Map;
 
-    .line 3
     sget-object v2, Lf/k/m/h/a;->c:Ljava/util/concurrent/ConcurrentHashMap;
 
     const/4 v3, 0x0
@@ -296,10 +272,8 @@
 
     move-result-object p0
 
-    .line 4
     invoke-static {p0}, Lf/k/m/j/e;->a(Ljava/lang/String;)V
 
-    .line 5
     :try_start_0
     new-instance p1, Ljava/net/URL;
 
@@ -313,22 +287,16 @@
 
     const-string p1, "GET"
 
-    .line 6
     invoke-virtual {p0, p1}, Ljava/net/HttpURLConnection;->setRequestMethod(Ljava/lang/String;)V
 
-    .line 7
     invoke-virtual {p0, v2}, Ljava/net/HttpURLConnection;->setDoInput(Z)V
 
-    .line 8
     invoke-virtual {p0, v3}, Ljava/net/HttpURLConnection;->setDoOutput(Z)V
 
-    .line 9
     invoke-virtual {p0, v3}, Ljava/net/HttpURLConnection;->setUseCaches(Z)V
 
-    .line 10
     invoke-static {p0}, Lf/k/m/h/a;->b(Ljava/net/HttpURLConnection;)V
 
-    .line 11
     invoke-virtual {p0}, Ljava/net/HttpURLConnection;->getInputStream()Ljava/io/InputStream;
 
     move-result-object p0
@@ -348,10 +316,8 @@
 
     const-string p1, "Get method failure!"
 
-    .line 12
     invoke-static {p1, p0}, Lf/k/m/j/e;->f(Ljava/lang/String;Ljava/lang/Throwable;)V
 
-    .line 13
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const-string p0, ""
@@ -375,7 +341,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lf/k/m/h/a;->c:Ljava/util/concurrent/ConcurrentHashMap;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -402,14 +367,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/lang/StringBuilder;
 
     const/16 v2, 0x100
 
     invoke-direct {v1, v2}, Ljava/lang/StringBuilder;-><init>(I)V
 
-    .line 2
     invoke-static {p0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v2
@@ -420,25 +383,21 @@
 
     const-string v2, "?"
 
-    .line 3
     invoke-virtual {p0, v2}, Ljava/lang/String;->indexOf(Ljava/lang/String;)I
 
     move-result v4
 
     if-lez v4, :cond_0
 
-    .line 4
     invoke-virtual {p0, v3, v4}, Ljava/lang/String;->substring(II)Ljava/lang/String;
 
     move-result-object p0
 
-    .line 5
     :cond_0
     invoke-virtual {v1, p0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 6
     :cond_1
     array-length p0, p1
 
@@ -451,7 +410,6 @@
 
     goto :goto_2
 
-    .line 7
     :cond_2
     invoke-interface {v2}, Ljava/util/Map;->entrySet()Ljava/util/Set;
 
@@ -475,7 +433,6 @@
 
     check-cast v4, Ljava/util/Map$Entry;
 
-    .line 8
     invoke-interface {v4}, Ljava/util/Map$Entry;->getKey()Ljava/lang/Object;
 
     move-result-object v5
@@ -502,7 +459,6 @@
 
     goto :goto_1
 
-    .line 9
     :cond_4
     invoke-interface {v4}, Ljava/util/Map$Entry;->getKey()Ljava/lang/Object;
 
@@ -536,7 +492,6 @@
 
     goto :goto_0
 
-    .line 10
     :cond_6
     invoke-virtual {v1}, Ljava/lang/StringBuilder;->length()I
 
@@ -544,7 +499,6 @@
 
     if-lez p0, :cond_7
 
-    .line 11
     invoke-virtual {v1}, Ljava/lang/StringBuilder;->length()I
 
     move-result p0
@@ -553,7 +507,6 @@
 
     invoke-virtual {v1, p0}, Ljava/lang/StringBuilder;->deleteCharAt(I)Ljava/lang/StringBuilder;
 
-    .line 12
     :cond_7
     invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
@@ -575,7 +528,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     :try_start_0
     new-instance v1, Ljava/io/BufferedReader;
 
@@ -587,12 +539,10 @@
 
     invoke-direct {v1, v2}, Ljava/io/BufferedReader;-><init>(Ljava/io/Reader;)V
 
-    .line 2
     new-instance p0, Ljava/lang/StringBuilder;
 
     invoke-direct {p0}, Ljava/lang/StringBuilder;-><init>()V
 
-    .line 3
     :goto_0
     invoke-virtual {v1}, Ljava/io/BufferedReader;->readLine()Ljava/lang/String;
 
@@ -600,12 +550,10 @@
 
     if-eqz v2, :cond_0
 
-    .line 4
     invoke-virtual {p0, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     goto :goto_0
 
-    .line 5
     :cond_0
     invoke-virtual {p0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
@@ -622,10 +570,8 @@
 
     const-string v1, "receive data string failure!"
 
-    .line 6
     invoke-static {v1, p0}, Lf/k/m/j/e;->f(Ljava/lang/String;Ljava/lang/Throwable;)V
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const-string p0, ""
@@ -656,12 +602,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p0, p1}, Lf/k/m/h/a;->i(Ljava/lang/String;Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object p0
 
-    .line 2
     invoke-static {p0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result p1
@@ -670,12 +614,10 @@
 
     if-eqz p1, :cond_0
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
 
-    .line 4
     :cond_0
     :try_start_0
     sget-object p1, Lf/k/m/h/a;->d:Lcom/google/gson/Gson;
@@ -690,7 +632,6 @@
 
     return-object p0
 
-    .line 5
     :catch_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -717,7 +658,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v1
@@ -726,7 +666,6 @@
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v2
@@ -737,7 +676,6 @@
     :try_start_0
     new-array v3, v1, [Ljava/util/Map;
 
-    .line 3
     sget-object v4, Lf/k/m/h/a;->c:Ljava/util/concurrent/ConcurrentHashMap;
 
     const/4 v5, 0x0
@@ -748,7 +686,6 @@
 
     move-result-object p0
 
-    .line 4
     new-instance v3, Ljava/net/URL;
 
     invoke-direct {v3, p0}, Ljava/net/URL;-><init>(Ljava/lang/String;)V
@@ -761,25 +698,18 @@
 
     const-string v3, "POST"
 
-    .line 5
     invoke-virtual {p0, v3}, Ljava/net/HttpURLConnection;->setRequestMethod(Ljava/lang/String;)V
 
-    .line 6
     invoke-virtual {p0, v1}, Ljava/net/HttpURLConnection;->setDoOutput(Z)V
 
-    .line 7
     invoke-virtual {p0, v1}, Ljava/net/HttpURLConnection;->setDoInput(Z)V
 
-    .line 8
     invoke-virtual {p0, v5}, Ljava/net/HttpURLConnection;->setUseCaches(Z)V
 
-    .line 9
     invoke-static {p0}, Lf/k/m/h/a;->b(Ljava/net/HttpURLConnection;)V
 
-    .line 10
     invoke-virtual {p0}, Ljava/net/HttpURLConnection;->connect()V
 
-    .line 11
     new-instance v1, Lcom/google/gson/Gson;
 
     invoke-direct {v1}, Lcom/google/gson/Gson;-><init>()V
@@ -788,10 +718,8 @@
 
     move-result-object p1
 
-    .line 12
     invoke-static {p1}, Lf/k/m/j/e;->a(Ljava/lang/String;)V
 
-    .line 13
     new-instance v1, Ljava/io/BufferedWriter;
 
     new-instance v3, Ljava/io/OutputStreamWriter;
@@ -806,13 +734,10 @@
 
     invoke-direct {v1, v3}, Ljava/io/BufferedWriter;-><init>(Ljava/io/Writer;)V
 
-    .line 14
     invoke-virtual {v1, p1}, Ljava/io/BufferedWriter;->write(Ljava/lang/String;)V
 
-    .line 15
     invoke-virtual {v1}, Ljava/io/BufferedWriter;->close()V
 
-    .line 16
     invoke-virtual {p0}, Ljava/net/HttpURLConnection;->getResponseCode()I
 
     move-result p1
@@ -821,7 +746,6 @@
 
     if-ne p1, v1, :cond_1
 
-    .line 17
     invoke-virtual {p0}, Ljava/net/HttpURLConnection;->getInputStream()Ljava/io/InputStream;
 
     move-result-object p0
@@ -836,7 +760,6 @@
 
     return-object p0
 
-    .line 18
     :cond_1
     :try_start_1
     new-instance v1, Ljava/lang/StringBuilder;
@@ -874,10 +797,8 @@
 
     const-string p1, "post data failure"
 
-    .line 19
     invoke-static {p1, p0}, Lf/k/m/j/e;->f(Ljava/lang/String;Ljava/lang/Throwable;)V
 
-    .line 20
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -900,17 +821,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lf/k/m/h/a;->c:Ljava/util/concurrent/ConcurrentHashMap;
 
     invoke-virtual {v1}, Ljava/util/concurrent/ConcurrentHashMap;->clear()V
 
     if-eqz p0, :cond_0
 
-    .line 2
     invoke-virtual {v1, p0}, Ljava/util/concurrent/ConcurrentHashMap;->putAll(Ljava/util/Map;)V
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

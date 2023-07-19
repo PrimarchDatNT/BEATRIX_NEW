@@ -29,7 +29,6 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
     const-class v0, Lcom/sdk/imp/base/f;
 
     invoke-virtual {v0}, Ljava/lang/Class;->getSimpleName()Ljava/lang/String;
@@ -44,10 +43,8 @@
 .method constructor <init>(Lcom/sdk/imp/base/g;Landroid/content/Context;Lcom/sdk/imp/base/BaseHtmlWebView;)V
     .locals 5
 
-    .line 1
     invoke-direct {p0}, Landroid/webkit/WebViewClient;-><init>()V
 
-    .line 2
     sget-object v0, Lcom/sdk/imp/base/UrlAction;->HANDLE_US_SCHEME:Lcom/sdk/imp/base/UrlAction;
 
     const/4 v1, 0x6
@@ -96,23 +93,18 @@
 
     iput-object v0, p0, Lcom/sdk/imp/base/f;->a:Ljava/util/EnumSet;
 
-    .line 3
     iput-object p1, p0, Lcom/sdk/imp/base/f;->c:Lcom/sdk/imp/base/g;
 
-    .line 4
     iput-object p3, p0, Lcom/sdk/imp/base/f;->d:Lcom/sdk/imp/base/BaseHtmlWebView;
 
-    .line 5
     instance-of p1, p3, Lcom/sdk/imp/base/HtmlBannerWebView;
 
     if-eqz p1, :cond_0
 
-    .line 6
     check-cast p3, Lcom/sdk/imp/base/HtmlBannerWebView;
 
     invoke-virtual {p3, v3}, Lcom/sdk/imp/base/HtmlBannerWebView;->setIsImgLoadSuccess(Z)V
 
-    .line 7
     :cond_0
     iput-object p2, p0, Lcom/sdk/imp/base/f;->b:Landroid/content/Context;
 
@@ -122,7 +114,6 @@
 .method static synthetic a(Lcom/sdk/imp/base/f;)Lcom/sdk/imp/base/BaseHtmlWebView;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lcom/sdk/imp/base/f;->d:Lcom/sdk/imp/base/BaseHtmlWebView;
 
     return-object p0
@@ -131,7 +122,6 @@
 .method static synthetic b(Lcom/sdk/imp/base/f;)Lcom/sdk/imp/base/g;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lcom/sdk/imp/base/f;->c:Lcom/sdk/imp/base/g;
 
     return-object p0
@@ -148,10 +138,8 @@
 .method public onReceivedError(Landroid/webkit/WebView;ILjava/lang/String;Ljava/lang/String;)V
     .locals 4
 
-    .line 1
     invoke-super {p0, p1, p2, p3, p4}, Landroid/webkit/WebViewClient;->onReceivedError(Landroid/webkit/WebView;ILjava/lang/String;Ljava/lang/String;)V
 
-    .line 2
     iget-object p1, p0, Lcom/sdk/imp/base/f;->c:Lcom/sdk/imp/base/g;
 
     const-string v0, ", failingUrl:"
@@ -162,7 +150,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 3
     new-instance v3, Ljava/lang/StringBuilder;
 
     invoke-direct {v3}, Ljava/lang/StringBuilder;-><init>()V
@@ -187,7 +174,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_0
     sget-object p1, Lcom/sdk/imp/base/f;->e:Ljava/lang/String;
 
@@ -223,14 +209,12 @@
         api = 0x17
     .end annotation
 
-    .line 5
     invoke-super {p0, p1, p2, p3}, Landroid/webkit/WebViewClient;->onReceivedError(Landroid/webkit/WebView;Landroid/webkit/WebResourceRequest;Landroid/webkit/WebResourceError;)V
 
     const-string v0, "null"
 
     if-eqz p2, :cond_0
 
-    .line 6
     invoke-interface {p2}, Landroid/webkit/WebResourceRequest;->getUrl()Landroid/net/Uri;
 
     move-result-object v1
@@ -253,7 +237,6 @@
     :goto_0
     if-eqz p3, :cond_1
 
-    .line 7
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -282,7 +265,6 @@
 
     move-result-object v0
 
-    .line 8
     :cond_1
     iget-object p3, p0, Lcom/sdk/imp/base/f;->c:Lcom/sdk/imp/base/g;
 
@@ -294,7 +276,6 @@
 
     if-eqz p3, :cond_2
 
-    .line 9
     new-instance v4, Ljava/lang/StringBuilder;
 
     invoke-direct {v4}, Ljava/lang/StringBuilder;-><init>()V
@@ -319,7 +300,6 @@
 
     goto :goto_1
 
-    .line 10
     :cond_2
     sget-object p3, Lcom/sdk/imp/base/f;->e:Ljava/lang/String;
 
@@ -355,12 +335,10 @@
         api = 0x15
     .end annotation
 
-    .line 1
     invoke-super {p0, p1, p2, p3}, Landroid/webkit/WebViewClient;->onReceivedHttpError(Landroid/webkit/WebView;Landroid/webkit/WebResourceRequest;Landroid/webkit/WebResourceResponse;)V
 
     if-eqz p2, :cond_0
 
-    .line 2
     invoke-interface {p2}, Landroid/webkit/WebResourceRequest;->getUrl()Landroid/net/Uri;
 
     move-result-object v0
@@ -380,7 +358,6 @@
     :cond_0
     const-string p2, "null"
 
-    .line 3
     :goto_0
     iget-object v0, p0, Lcom/sdk/imp/base/f;->c:Lcom/sdk/imp/base/g;
 
@@ -392,7 +369,6 @@
 
     if-eqz v0, :cond_1
 
-    .line 4
     new-instance v4, Ljava/lang/StringBuilder;
 
     invoke-direct {v4}, Ljava/lang/StringBuilder;-><init>()V
@@ -417,7 +393,6 @@
 
     goto :goto_1
 
-    .line 5
     :cond_1
     sget-object v0, Lcom/sdk/imp/base/f;->e:Ljava/lang/String;
 
@@ -450,7 +425,6 @@
 .method public onReceivedSslError(Landroid/webkit/WebView;Landroid/webkit/SslErrorHandler;Landroid/net/http/SslError;)V
     .locals 0
 
-    .line 1
     invoke-super {p0, p1, p2, p3}, Landroid/webkit/WebViewClient;->onReceivedSslError(Landroid/webkit/WebView;Landroid/webkit/SslErrorHandler;Landroid/net/http/SslError;)V
 
     return-void
@@ -459,7 +433,6 @@
 .method public shouldOverrideUrlLoading(Landroid/webkit/WebView;Ljava/lang/String;)Z
     .locals 2
 
-    .line 1
     sget-object p1, Lcom/sdk/imp/base/f;->e:Ljava/lang/String;
 
     new-instance v0, Ljava/lang/StringBuilder;
@@ -478,14 +451,12 @@
 
     invoke-static {p1, v0}, Lf/q/b/g;->b(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 2
     new-instance p1, Lcom/sdk/imp/base/k$c;
 
     invoke-direct {p1}, Lcom/sdk/imp/base/k$c;-><init>()V
 
     iget-object v0, p0, Lcom/sdk/imp/base/f;->a:Ljava/util/EnumSet;
 
-    .line 3
     invoke-virtual {p1, v0}, Lcom/sdk/imp/base/k$c;->d(Ljava/util/EnumSet;)Lcom/sdk/imp/base/k$c;
 
     move-result-object p1
@@ -494,7 +465,6 @@
 
     invoke-direct {v0, p0}, Lcom/sdk/imp/base/f$b;-><init>(Lcom/sdk/imp/base/f;)V
 
-    .line 4
     invoke-virtual {p1, v0}, Lcom/sdk/imp/base/k$c;->b(Lcom/sdk/imp/base/k$d;)Lcom/sdk/imp/base/k$c;
 
     move-result-object p1
@@ -503,12 +473,10 @@
 
     invoke-direct {v0, p0}, Lcom/sdk/imp/base/f$a;-><init>(Lcom/sdk/imp/base/f;)V
 
-    .line 5
     invoke-virtual {p1, v0}, Lcom/sdk/imp/base/k$c;->e(Lcom/sdk/imp/base/k$e;)Lcom/sdk/imp/base/k$c;
 
     move-result-object p1
 
-    .line 6
     invoke-virtual {p1}, Lcom/sdk/imp/base/k$c;->a()Lcom/sdk/imp/base/k;
 
     move-result-object p1

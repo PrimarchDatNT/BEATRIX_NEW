@@ -31,7 +31,6 @@
 .method constructor <init>(Lcom/google/common/graph/y$a;Ljava/util/Iterator;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/common/graph/y$a$a;->b:Lcom/google/common/graph/y$a;
 
     iput-object p2, p0, Lcom/google/common/graph/y$a$a;->a:Ljava/util/Iterator;
@@ -46,7 +45,6 @@
 .method public hasNext()Z
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/graph/y$a$a;->a:Ljava/util/Iterator;
 
     invoke-interface {v0}, Ljava/util/Iterator;->hasNext()Z
@@ -64,7 +62,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/graph/y$a$a;->a:Ljava/util/Iterator;
 
     invoke-interface {v0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
@@ -73,14 +70,12 @@
 
     check-cast v0, Ljava/util/Map$Entry;
 
-    .line 2
     iget-object v1, p0, Lcom/google/common/graph/y$a$a;->b:Lcom/google/common/graph/y$a;
 
     iget-object v1, v1, Lcom/google/common/graph/y$a;->a:Lcom/google/common/graph/y;
 
     invoke-static {v1, v0}, Lcom/google/common/graph/y;->b(Lcom/google/common/graph/y;Ljava/util/Map$Entry;)Ljava/util/Map$Entry;
 
-    .line 3
     invoke-interface {v0}, Ljava/util/Map$Entry;->getKey()Ljava/lang/Object;
 
     move-result-object v0

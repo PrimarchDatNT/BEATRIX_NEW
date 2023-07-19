@@ -34,10 +34,8 @@
 .method private constructor <init>(Ljava/lang/String;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lio/grpc/a$c;->a:Ljava/lang/String;
 
     return-void
@@ -57,7 +55,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lio/grpc/a$c;
 
     invoke-direct {v0, p0}, Lio/grpc/a$c;-><init>(Ljava/lang/String;)V
@@ -82,7 +79,6 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    .line 1
     new-instance v0, Lio/grpc/a$c;
 
     invoke-direct {v0, p0}, Lio/grpc/a$c;-><init>(Ljava/lang/String;)V
@@ -95,7 +91,6 @@
 .method public toString()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lio/grpc/a$c;->a:Ljava/lang/String;
 
     return-object v0

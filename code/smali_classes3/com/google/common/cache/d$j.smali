@@ -18,7 +18,6 @@
 .method constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/google/common/cache/d$h;-><init>()V
 
     return-void
@@ -29,7 +28,6 @@
 .method protected b(Lcom/google/common/cache/d;J)V
     .locals 5
 
-    .line 1
     iget-object v0, p1, Lcom/google/common/cache/d;->c:Ljava/lang/Long;
 
     const/4 v1, 0x1
@@ -50,7 +48,6 @@
 
     invoke-static {v3, v4, v0}, Lcom/google/common/base/t;->u(ZLjava/lang/String;Ljava/lang/Object;)V
 
-    .line 2
     iget-object v0, p1, Lcom/google/common/cache/d;->b:Ljava/lang/Long;
 
     if-nez v0, :cond_1
@@ -65,7 +62,6 @@
 
     invoke-static {v1, v2, v0}, Lcom/google/common/base/t;->u(ZLjava/lang/String;Ljava/lang/Object;)V
 
-    .line 3
     invoke-static {p2, p3}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
 
     move-result-object p2

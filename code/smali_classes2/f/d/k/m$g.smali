@@ -22,7 +22,6 @@
 .method private constructor <init>(Lf/d/k/m;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lf/d/k/m$g;->a:Lf/d/k/m;
 
     invoke-direct {p0}, Ljava/util/TimerTask;-><init>()V
@@ -33,7 +32,6 @@
 .method synthetic constructor <init>(Lf/d/k/m;Lf/d/k/m$a;)V
     .locals 0
 
-    .line 2
     invoke-direct {p0, p1}, Lf/d/k/m$g;-><init>(Lf/d/k/m;)V
 
     return-void
@@ -48,7 +46,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lf/d/k/m$g;->a:Lf/d/k/m;
 
     invoke-static {v1}, Lf/d/k/m;->h(Lf/d/k/m;)Ljava/lang/Object;
@@ -57,7 +54,6 @@
 
     monitor-enter v1
 
-    .line 2
     :try_start_0
     iget-object v2, p0, Lf/d/k/m$g;->a:Lf/d/k/m;
 
@@ -87,7 +83,6 @@
 
     if-eqz v2, :cond_1
 
-    .line 3
     iget-object v2, p0, Lf/d/k/m$g;->a:Lf/d/k/m;
 
     invoke-static {v2}, Lf/d/k/m;->i(Lf/d/k/m;)Lcom/meitu/mtmvcore/application/MTMVPlayer;
@@ -130,7 +125,6 @@
 
     const/16 v2, 0x64
 
-    .line 4
     :cond_0
     iget-object v3, p0, Lf/d/k/m$g;->a:Lf/d/k/m;
 
@@ -140,13 +134,11 @@
 
     invoke-interface {v3, v2}, Lf/d/k/m$f;->n(I)V
 
-    .line 5
     :cond_1
     monitor-exit v1
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -154,7 +146,6 @@
     :catchall_0
     move-exception v2
 
-    .line 7
     :try_start_1
     monitor-exit v1
     :try_end_1

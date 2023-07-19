@@ -62,7 +62,6 @@
 .method static constructor <clinit>()V
     .locals 27
 
-    .line 1
     new-instance v6, Lcom/google/android/gms/internal/firebase_auth/zzie;
 
     const-class v3, Ljava/lang/Void;
@@ -81,7 +80,6 @@
 
     sput-object v6, Lcom/google/android/gms/internal/firebase_auth/zzie;->zzabg:Lcom/google/android/gms/internal/firebase_auth/zzie;
 
-    .line 2
     new-instance v0, Lcom/google/android/gms/internal/firebase_auth/zzie;
 
     sget-object v1, Ljava/lang/Integer;->TYPE:Ljava/lang/Class;
@@ -104,7 +102,6 @@
 
     sput-object v0, Lcom/google/android/gms/internal/firebase_auth/zzie;->zzabh:Lcom/google/android/gms/internal/firebase_auth/zzie;
 
-    .line 3
     new-instance v3, Lcom/google/android/gms/internal/firebase_auth/zzie;
 
     sget-object v16, Ljava/lang/Long;->TYPE:Ljava/lang/Class;
@@ -127,7 +124,6 @@
 
     sput-object v3, Lcom/google/android/gms/internal/firebase_auth/zzie;->zzabi:Lcom/google/android/gms/internal/firebase_auth/zzie;
 
-    .line 4
     new-instance v4, Lcom/google/android/gms/internal/firebase_auth/zzie;
 
     sget-object v10, Ljava/lang/Float;->TYPE:Ljava/lang/Class;
@@ -150,7 +146,6 @@
 
     sput-object v4, Lcom/google/android/gms/internal/firebase_auth/zzie;->zzabj:Lcom/google/android/gms/internal/firebase_auth/zzie;
 
-    .line 5
     new-instance v5, Lcom/google/android/gms/internal/firebase_auth/zzie;
 
     sget-object v16, Ljava/lang/Double;->TYPE:Ljava/lang/Class;
@@ -173,7 +168,6 @@
 
     sput-object v5, Lcom/google/android/gms/internal/firebase_auth/zzie;->zzabk:Lcom/google/android/gms/internal/firebase_auth/zzie;
 
-    .line 6
     new-instance v13, Lcom/google/android/gms/internal/firebase_auth/zzie;
 
     sget-object v10, Ljava/lang/Boolean;->TYPE:Ljava/lang/Class;
@@ -192,7 +186,6 @@
 
     sput-object v13, Lcom/google/android/gms/internal/firebase_auth/zzie;->zzabl:Lcom/google/android/gms/internal/firebase_auth/zzie;
 
-    .line 7
     new-instance v20, Lcom/google/android/gms/internal/firebase_auth/zzie;
 
     const-class v17, Ljava/lang/String;
@@ -211,7 +204,6 @@
 
     sput-object v20, Lcom/google/android/gms/internal/firebase_auth/zzie;->zzabm:Lcom/google/android/gms/internal/firebase_auth/zzie;
 
-    .line 8
     new-instance v14, Lcom/google/android/gms/internal/firebase_auth/zzie;
 
     const-class v10, Lcom/google/android/gms/internal/firebase_auth/zzgf;
@@ -230,7 +222,6 @@
 
     sput-object v14, Lcom/google/android/gms/internal/firebase_auth/zzie;->zzabn:Lcom/google/android/gms/internal/firebase_auth/zzie;
 
-    .line 9
     new-instance v15, Lcom/google/android/gms/internal/firebase_auth/zzie;
 
     const-class v11, Ljava/lang/Integer;
@@ -249,7 +240,6 @@
 
     sput-object v15, Lcom/google/android/gms/internal/firebase_auth/zzie;->zzabo:Lcom/google/android/gms/internal/firebase_auth/zzie;
 
-    .line 10
     new-instance v1, Lcom/google/android/gms/internal/firebase_auth/zzie;
 
     const-class v24, Ljava/lang/Object;
@@ -310,7 +300,6 @@
 
     aput-object v1, v7, v0
 
-    .line 11
     sput-object v7, Lcom/google/android/gms/internal/firebase_auth/zzie;->zzabt:[Lcom/google/android/gms/internal/firebase_auth/zzie;
 
     return-void
@@ -330,16 +319,12 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 2
     iput-object p3, p0, Lcom/google/android/gms/internal/firebase_auth/zzie;->zzabq:Ljava/lang/Class;
 
-    .line 3
     iput-object p4, p0, Lcom/google/android/gms/internal/firebase_auth/zzie;->zzabr:Ljava/lang/Class;
 
-    .line 4
     iput-object p5, p0, Lcom/google/android/gms/internal/firebase_auth/zzie;->zzabs:Ljava/lang/Object;
 
     return-void
@@ -348,7 +333,6 @@
 .method public static values()[Lcom/google/android/gms/internal/firebase_auth/zzie;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/google/android/gms/internal/firebase_auth/zzie;->zzabt:[Lcom/google/android/gms/internal/firebase_auth/zzie;
 
     invoke-virtual {v0}, [Lcom/google/android/gms/internal/firebase_auth/zzie;->clone()Ljava/lang/Object;
@@ -372,7 +356,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/firebase_auth/zzie;->zzabr:Ljava/lang/Class;
 
     return-object v0

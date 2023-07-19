@@ -65,7 +65,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Lcotlinx/coroutines/channels/x;-><init>()V
 
     iput-object p1, p0, Lcotlinx/coroutines/channels/a$b;->d:Lcotlinx/coroutines/m;
@@ -91,7 +90,6 @@
         }
     .end annotation
 
-    .line 1
     iget v0, p0, Lcotlinx/coroutines/channels/a$b;->f:I
 
     const/4 v1, 0x1
@@ -121,15 +119,12 @@
 
     if-ne v0, v1, :cond_1
 
-    .line 2
     iget-object v0, p0, Lcotlinx/coroutines/channels/a$b;->d:Lcotlinx/coroutines/m;
 
-    .line 3
     sget-object v1, Lcotlinx/coroutines/channels/f0;->b:Lcotlinx/coroutines/channels/f0$b;
 
     iget-object p1, p1, Lcotlinx/coroutines/channels/p;->d:Ljava/lang/Throwable;
 
-    .line 4
     new-instance v1, Lcotlinx/coroutines/channels/f0$a;
 
     invoke-direct {v1, p1}, Lcotlinx/coroutines/channels/f0$a;-><init>(Ljava/lang/Throwable;)V
@@ -138,12 +133,10 @@
 
     move-result-object p1
 
-    .line 5
     invoke-static {p1}, Lcotlinx/coroutines/channels/f0;->a(Ljava/lang/Object;)Lcotlinx/coroutines/channels/f0;
 
     move-result-object p1
 
-    .line 6
     sget-object v1, Lcotlin/Result;->Companion:Lcotlin/Result$a;
 
     invoke-static {p1}, Lcotlin/Result;->constructor-impl(Ljava/lang/Object;)Ljava/lang/Object;
@@ -154,7 +147,6 @@
 
     goto :goto_0
 
-    .line 7
     :cond_1
     iget-object v0, p0, Lcotlinx/coroutines/channels/a$b;->d:Lcotlinx/coroutines/m;
 
@@ -190,7 +182,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     iget v0, p0, Lcotlinx/coroutines/channels/a$b;->f:I
 
     const/4 v1, 0x2
@@ -199,11 +190,9 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     sget-object v0, Lcotlinx/coroutines/channels/f0;->b:Lcotlinx/coroutines/channels/f0$b;
 
-    .line 3
     invoke-static {p1}, Lcotlinx/coroutines/channels/f0;->c(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -224,7 +213,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object p1, p0, Lcotlinx/coroutines/channels/a$b;->d:Lcotlinx/coroutines/m;
 
     sget-object v0, Lcotlinx/coroutines/o;->d:Lcotlinx/coroutines/internal/c0;
@@ -239,7 +227,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -291,7 +278,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcotlinx/coroutines/channels/a$b;->d:Lcotlinx/coroutines/m;
 
     invoke-virtual {p0, p1}, Lcotlinx/coroutines/channels/a$b;->g0(Ljava/lang/Object;)Ljava/lang/Object;
@@ -316,7 +302,6 @@
 
     if-eqz p1, :cond_5
 
-    .line 2
     invoke-static {}, Lcotlinx/coroutines/p0;->b()Z
 
     move-result v0
@@ -350,10 +335,8 @@
     :goto_2
     if-eqz p2, :cond_4
 
-    .line 3
     invoke-virtual {p2}, Lcotlinx/coroutines/internal/m$d;->d()V
 
-    .line 4
     :cond_4
     sget-object p1, Lcotlinx/coroutines/o;->d:Lcotlinx/coroutines/internal/c0;
 

@@ -13,7 +13,6 @@
 .method constructor <init>(Lcom/google/android/gms/internal/measurement/qc;Lcom/google/android/gms/internal/measurement/k8;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/android/gms/internal/measurement/u;->g:Lcom/google/android/gms/internal/measurement/qc;
 
     iput-object p2, p0, Lcom/google/android/gms/internal/measurement/u;->f:Lcom/google/android/gms/internal/measurement/k8;
@@ -33,7 +32,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/measurement/u;->g:Lcom/google/android/gms/internal/measurement/qc;
 
     invoke-static {v0}, Lcom/google/android/gms/internal/measurement/qc;->O(Lcom/google/android/gms/internal/measurement/qc;)Lcom/google/android/gms/internal/measurement/ma;
@@ -50,7 +48,6 @@
 .method protected final b()V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/measurement/u;->f:Lcom/google/android/gms/internal/measurement/k8;
 
     const/4 v1, 0x0

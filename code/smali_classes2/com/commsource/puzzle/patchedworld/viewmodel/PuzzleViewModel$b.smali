@@ -26,7 +26,6 @@
 .method constructor <init>(Lcom/commsource/puzzle/patchedworld/viewmodel/PuzzleViewModel;Ljava/lang/String;Landroid/graphics/Bitmap;I)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/puzzle/patchedworld/viewmodel/PuzzleViewModel$b;->J:Lcom/commsource/puzzle/patchedworld/viewmodel/PuzzleViewModel;
 
     iput-object p3, p0, Lcom/commsource/puzzle/patchedworld/viewmodel/PuzzleViewModel$b;->g:Landroid/graphics/Bitmap;
@@ -47,12 +46,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/commsource/beautyplus/util/v;->H()Ljava/lang/String;
 
     move-result-object v1
 
-    .line 2
     iget-object v2, p0, Lcom/commsource/puzzle/patchedworld/viewmodel/PuzzleViewModel$b;->g:Landroid/graphics/Bitmap;
 
     const/4 v3, 0x0
@@ -63,14 +60,12 @@
 
     if-eqz v2, :cond_0
 
-    .line 3
     new-instance v3, Ljava/util/HashMap;
 
     const/4 v4, 0x4
 
     invoke-direct {v3, v4}, Ljava/util/HashMap;-><init>(I)V
 
-    .line 4
     iget v4, p0, Lcom/commsource/puzzle/patchedworld/viewmodel/PuzzleViewModel$b;->p:I
 
     invoke-static {v4}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
@@ -85,15 +80,12 @@
 
     const-string v5, "\u62fc\u63a5"
 
-    .line 5
     invoke-interface {v3, v4, v5}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v4, "puzzle_save"
 
-    .line 6
     invoke-static {v4, v3}, Lcom/commsource/statistics/i;->s(Ljava/lang/String;Ljava/util/Map;)V
 
-    .line 7
     :cond_0
     iget-object v3, p0, Lcom/commsource/puzzle/patchedworld/viewmodel/PuzzleViewModel$b;->J:Lcom/commsource/puzzle/patchedworld/viewmodel/PuzzleViewModel;
 
@@ -105,7 +97,6 @@
 
     invoke-virtual {v3, v4}, Landroidx/lifecycle/MutableLiveData;->postValue(Ljava/lang/Object;)V
 
-    .line 8
     iget-object v3, p0, Lcom/commsource/puzzle/patchedworld/viewmodel/PuzzleViewModel$b;->J:Lcom/commsource/puzzle/patchedworld/viewmodel/PuzzleViewModel;
 
     invoke-static {v3}, Lcom/commsource/puzzle/patchedworld/viewmodel/PuzzleViewModel;->z(Lcom/commsource/puzzle/patchedworld/viewmodel/PuzzleViewModel;)Landroidx/lifecycle/MutableLiveData;
@@ -124,17 +115,14 @@
     :goto_0
     invoke-virtual {v3, v2}, Landroidx/lifecycle/MutableLiveData;->postValue(Ljava/lang/Object;)V
 
-    .line 9
     iget-object v2, p0, Lcom/commsource/puzzle/patchedworld/viewmodel/PuzzleViewModel$b;->J:Lcom/commsource/puzzle/patchedworld/viewmodel/PuzzleViewModel;
 
     invoke-static {v2, v1}, Lcom/commsource/puzzle/patchedworld/viewmodel/PuzzleViewModel;->A(Lcom/commsource/puzzle/patchedworld/viewmodel/PuzzleViewModel;Ljava/lang/String;)Ljava/lang/String;
 
-    .line 10
     iget-object v1, p0, Lcom/commsource/puzzle/patchedworld/viewmodel/PuzzleViewModel$b;->g:Landroid/graphics/Bitmap;
 
     invoke-virtual {v1}, Landroid/graphics/Bitmap;->recycle()V
 
-    .line 11
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

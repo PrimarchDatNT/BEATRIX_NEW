@@ -87,26 +87,22 @@
 
     new-array v2, v1, [F
 
-    .line 1
     fill-array-data v2, :array_0
 
     sput-object v2, Lcom/meitu/media/encoder/h;->y:[F
 
     new-array v1, v1, [F
 
-    .line 2
     fill-array-data v1, :array_1
 
     sput-object v1, Lcom/meitu/media/encoder/h;->z:[F
 
-    .line 3
     invoke-static {v2}, Lcom/meitu/opengl/a;->e([F)Ljava/nio/FloatBuffer;
 
     move-result-object v2
 
     sput-object v2, Lcom/meitu/media/encoder/h;->A:Ljava/nio/FloatBuffer;
 
-    .line 4
     invoke-static {v1}, Lcom/meitu/opengl/a;->e([F)Ljava/nio/FloatBuffer;
 
     move-result-object v1
@@ -117,7 +113,6 @@
 
     new-array v1, v1, [F
 
-    .line 5
     fill-array-data v1, :array_2
 
     sput-object v1, Lcom/meitu/media/encoder/h;->C:[F
@@ -126,7 +121,6 @@
 
     new-array v1, v1, [F
 
-    .line 6
     fill-array-data v1, :array_3
 
     sput-object v1, Lcom/meitu/media/encoder/h;->D:[F
@@ -193,45 +187,36 @@
 .method public constructor <init>()V
     .locals 3
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/4 v0, 0x0
 
-    .line 2
     iput-boolean v0, p0, Lcom/meitu/media/encoder/h;->d:Z
 
-    .line 3
     iput-boolean v0, p0, Lcom/meitu/media/encoder/h;->e:Z
 
     const/4 v1, 0x1
 
     new-array v2, v1, [I
 
-    .line 4
     iput-object v2, p0, Lcom/meitu/media/encoder/h;->o:[I
 
-    .line 5
     new-instance v2, Lcom/meitu/media/encoder/h$d;
 
     invoke-direct {v2, p0}, Lcom/meitu/media/encoder/h$d;-><init>(Lcom/meitu/media/encoder/h;)V
 
     iput-object v2, p0, Lcom/meitu/media/encoder/h;->q:Ljava/lang/Runnable;
 
-    .line 6
     iput-boolean v0, p0, Lcom/meitu/media/encoder/h;->r:Z
 
-    .line 7
     iput-boolean v1, p0, Lcom/meitu/media/encoder/h;->s:Z
 
     const/16 v0, 0x800
 
     new-array v1, v0, [B
 
-    .line 8
     iput-object v1, p0, Lcom/meitu/media/encoder/h;->u:[B
 
-    .line 9
     invoke-static {v0}, Ljava/nio/ByteBuffer;->allocateDirect(I)Ljava/nio/ByteBuffer;
 
     move-result-object v0
@@ -252,7 +237,6 @@
 
     new-array v3, v1, [I
 
-    .line 1
     fill-array-data v3, :array_0
 
     iput-object v3, p0, Lcom/meitu/media/encoder/h;->m:[I
@@ -263,7 +247,6 @@
 
     new-array v8, v1, [I
 
-    .line 2
     iget-object v2, p0, Lcom/meitu/media/encoder/h;->h:Landroid/opengl/EGLDisplay;
 
     const/4 v4, 0x0
@@ -284,14 +267,12 @@
 
     const/4 v1, 0x0
 
-    .line 3
     aget-object v1, v10, v1
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
 
-    .line 4
     :cond_0
     new-instance v1, Ljava/lang/RuntimeException;
 
@@ -339,63 +320,48 @@
 
     const-string v2, "beforeReleaseGLContext"
 
-    .line 1
     invoke-static {v1, v2}, Lcom/meitu/debug/Logger;->b(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 2
     iget-object v2, p0, Lcom/meitu/media/encoder/h;->n:Lcom/meitu/opengl/b;
 
     const/4 v3, 0x0
 
     if-eqz v2, :cond_0
 
-    .line 3
     invoke-virtual {v2}, Lcom/meitu/opengl/b;->b()V
 
-    .line 4
     iput-object v3, p0, Lcom/meitu/media/encoder/h;->n:Lcom/meitu/opengl/b;
 
-    .line 5
     :cond_0
     iget-object v2, p0, Lcom/meitu/media/encoder/h;->k:Landroid/opengl/EGLSurface;
 
     if-eqz v2, :cond_1
 
-    .line 6
     iget-object v4, p0, Lcom/meitu/media/encoder/h;->h:Landroid/opengl/EGLDisplay;
 
     invoke-static {v4, v2}, Landroid/opengl/EGL14;->eglDestroySurface(Landroid/opengl/EGLDisplay;Landroid/opengl/EGLSurface;)Z
 
-    .line 7
     iput-object v3, p0, Lcom/meitu/media/encoder/h;->k:Landroid/opengl/EGLSurface;
 
     const/4 v2, 0x0
 
-    .line 8
     iput-boolean v2, p0, Lcom/meitu/media/encoder/h;->d:Z
 
-    .line 9
     iput-boolean v2, p0, Lcom/meitu/media/encoder/h;->e:Z
 
     const-string v2, "reset mEglSurface object to null"
 
-    .line 10
     invoke-static {v1, v2}, Lcom/meitu/debug/Logger;->x(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 11
     :cond_1
     iput-object v3, p0, Lcom/meitu/media/encoder/h;->i:Landroid/opengl/EGLSurface;
 
-    .line 12
     iput-object v3, p0, Lcom/meitu/media/encoder/h;->j:Landroid/opengl/EGLSurface;
 
-    .line 13
     iput-object v3, p0, Lcom/meitu/media/encoder/h;->h:Landroid/opengl/EGLDisplay;
 
-    .line 14
     iput-object v3, p0, Lcom/meitu/media/encoder/h;->g:Landroid/opengl/EGLContext;
 
-    .line 15
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -408,7 +374,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/media/encoder/h;->b:Lcom/meitu/media/encoder/b;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -423,7 +388,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/media/encoder/h;->a:Lcom/meitu/media/encoder/a;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -438,27 +402,22 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/media/encoder/h;->b:Lcom/meitu/media/encoder/b;
 
-    .line 2
     new-instance v1, Lcom/meitu/media/encoder/a;
 
     invoke-direct {v1}, Lcom/meitu/media/encoder/a;-><init>()V
 
     iput-object v1, p0, Lcom/meitu/media/encoder/h;->a:Lcom/meitu/media/encoder/a;
 
-    .line 3
     invoke-virtual {v1}, Lcom/meitu/media/encoder/a;->e0()V
 
-    .line 4
     iget-object v1, p0, Lcom/meitu/media/encoder/h;->a:Lcom/meitu/media/encoder/a;
 
     const-wide/32 v2, 0x124f80
 
     invoke-virtual {v1, v2, v3}, Lcom/meitu/media/encoder/a;->y0(J)V
 
-    .line 5
     iget-object v1, p0, Lcom/meitu/media/encoder/h;->a:Lcom/meitu/media/encoder/a;
 
     invoke-virtual {p1}, Lcom/meitu/media/encoder/b;->j()Z
@@ -467,7 +426,6 @@
 
     invoke-virtual {v1, v2}, Lcom/meitu/media/encoder/a;->x0(Z)V
 
-    .line 6
     iget-object v1, p0, Lcom/meitu/media/encoder/h;->a:Lcom/meitu/media/encoder/a;
 
     invoke-virtual {p1}, Lcom/meitu/media/encoder/b;->l()I
@@ -476,14 +434,12 @@
 
     invoke-virtual {v1, v2}, Lcom/meitu/media/encoder/a;->E0(I)V
 
-    .line 7
     invoke-virtual {p1}, Lcom/meitu/media/encoder/b;->j()Z
 
     move-result v1
 
     if-eqz v1, :cond_0
 
-    .line 8
     iget-object v1, p0, Lcom/meitu/media/encoder/h;->a:Lcom/meitu/media/encoder/a;
 
     invoke-virtual {p1}, Lcom/meitu/media/encoder/b;->c()Ljava/lang/String;
@@ -492,7 +448,6 @@
 
     invoke-virtual {v1, v2}, Lcom/meitu/media/encoder/a;->s0(Ljava/lang/String;)V
 
-    .line 9
     iget-object v1, p0, Lcom/meitu/media/encoder/h;->a:Lcom/meitu/media/encoder/a;
 
     invoke-virtual {p1}, Lcom/meitu/media/encoder/b;->o()Ljava/lang/String;
@@ -501,7 +456,6 @@
 
     invoke-virtual {v1, v2}, Lcom/meitu/media/encoder/a;->J0(Ljava/lang/String;)V
 
-    .line 10
     iget-object v1, p0, Lcom/meitu/media/encoder/h;->a:Lcom/meitu/media/encoder/a;
 
     invoke-virtual {p1}, Lcom/meitu/media/encoder/b;->i()F
@@ -510,7 +464,6 @@
 
     invoke-virtual {v1, v2}, Lcom/meitu/media/encoder/a;->r0(F)V
 
-    .line 11
     iget-object v1, p0, Lcom/meitu/media/encoder/h;->a:Lcom/meitu/media/encoder/a;
 
     invoke-virtual {p1}, Lcom/meitu/media/encoder/b;->i()F
@@ -519,7 +472,6 @@
 
     invoke-virtual {v1, v2}, Lcom/meitu/media/encoder/a;->I0(F)V
 
-    .line 12
     :cond_0
     iget-object v1, p0, Lcom/meitu/media/encoder/h;->a:Lcom/meitu/media/encoder/a;
 
@@ -529,7 +481,6 @@
 
     invoke-virtual {v1, v2}, Lcom/meitu/media/encoder/a;->K(Lcom/meitu/media/encoder/a$l;)V
 
-    .line 13
     iget-object v1, p0, Lcom/meitu/media/encoder/h;->a:Lcom/meitu/media/encoder/a;
 
     new-instance v2, Lcom/meitu/media/encoder/h$b;
@@ -538,7 +489,6 @@
 
     invoke-virtual {v1, v2}, Lcom/meitu/media/encoder/a;->D0(Lcom/meitu/media/encoder/a$o;)V
 
-    .line 14
     iget-object v1, p0, Lcom/meitu/media/encoder/h;->a:Lcom/meitu/media/encoder/a;
 
     new-instance v2, Lcom/meitu/media/encoder/h$c;
@@ -547,10 +497,8 @@
 
     invoke-virtual {v1, v2}, Lcom/meitu/media/encoder/a;->m0(Lcom/meitu/media/encoder/a$j;)V
 
-    .line 15
     invoke-virtual {p0, p1}, Lcom/meitu/media/encoder/h;->h(Lcom/meitu/media/encoder/b;)V
 
-    .line 16
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -563,10 +511,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/meitu/media/encoder/h;->s:Z
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -579,12 +525,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/media/encoder/h;->a:Lcom/meitu/media/encoder/a;
 
     invoke-virtual {v1}, Lcom/meitu/media/encoder/a;->j0()V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -597,7 +541,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/media/encoder/h;->a:Lcom/meitu/media/encoder/a;
 
     invoke-virtual {p1}, Lcom/meitu/media/encoder/b;->h()Ljava/lang/String;
@@ -606,7 +549,6 @@
 
     invoke-virtual {v1, v2}, Lcom/meitu/media/encoder/a;->z0(Ljava/lang/String;)V
 
-    .line 2
     iget-object v1, p0, Lcom/meitu/media/encoder/h;->a:Lcom/meitu/media/encoder/a;
 
     invoke-virtual {p1}, Lcom/meitu/media/encoder/b;->p()I
@@ -619,7 +561,6 @@
 
     invoke-virtual {v1, v2, v3}, Lcom/meitu/media/encoder/a;->K0(II)V
 
-    .line 3
     iget-object v1, p0, Lcom/meitu/media/encoder/h;->a:Lcom/meitu/media/encoder/a;
 
     invoke-virtual {p1}, Lcom/meitu/media/encoder/b;->d()I
@@ -628,7 +569,6 @@
 
     invoke-virtual {v1, v2}, Lcom/meitu/media/encoder/a;->H0(I)V
 
-    .line 4
     iget-object v1, p0, Lcom/meitu/media/encoder/h;->a:Lcom/meitu/media/encoder/a;
 
     invoke-virtual {p1}, Lcom/meitu/media/encoder/b;->m()I
@@ -637,7 +577,6 @@
 
     invoke-virtual {v1, v2}, Lcom/meitu/media/encoder/a;->G0(I)V
 
-    .line 5
     iget-object v1, p0, Lcom/meitu/media/encoder/h;->a:Lcom/meitu/media/encoder/a;
 
     invoke-virtual {p1}, Lcom/meitu/media/encoder/b;->k()I
@@ -646,7 +585,6 @@
 
     invoke-virtual {v1, v2}, Lcom/meitu/media/encoder/a;->F0(I)V
 
-    .line 6
     iget-object v1, p0, Lcom/meitu/media/encoder/h;->a:Lcom/meitu/media/encoder/a;
 
     invoke-virtual {p1}, Lcom/meitu/media/encoder/b;->a()I
@@ -655,7 +593,6 @@
 
     invoke-virtual {v1, v2}, Lcom/meitu/media/encoder/a;->p0(I)V
 
-    .line 7
     iget-object v1, p0, Lcom/meitu/media/encoder/h;->a:Lcom/meitu/media/encoder/a;
 
     invoke-virtual {p1}, Lcom/meitu/media/encoder/b;->b()I
@@ -664,7 +601,6 @@
 
     invoke-virtual {v1, v2}, Lcom/meitu/media/encoder/a;->q0(I)V
 
-    .line 8
     iget-object v1, p0, Lcom/meitu/media/encoder/h;->a:Lcom/meitu/media/encoder/a;
 
     invoke-virtual {p1}, Lcom/meitu/media/encoder/b;->f()I
@@ -673,7 +609,6 @@
 
     invoke-virtual {v1, p1}, Lcom/meitu/media/encoder/a;->n0(I)V
 
-    .line 9
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -686,10 +621,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/media/encoder/h;->t:Lcom/meitu/media/encoder/h$e;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -706,7 +639,6 @@
 
     invoke-static {v3}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v4, v0, Lcom/meitu/media/encoder/h;->e:Z
 
     const-string v5, "MTAVRecorder"
@@ -725,34 +657,27 @@
 
     if-eqz v8, :cond_0
 
-    .line 2
     iput-boolean v7, v0, Lcom/meitu/media/encoder/h;->e:Z
 
-    .line 3
     invoke-static {v4, v8}, Landroid/opengl/EGL14;->eglDestroySurface(Landroid/opengl/EGLDisplay;Landroid/opengl/EGLSurface;)Z
 
     const/4 v1, 0x0
 
-    .line 4
     iput-object v1, v0, Lcom/meitu/media/encoder/h;->k:Landroid/opengl/EGLSurface;
 
     const-string v1, "mRequestDestroyWindowSurface has been set to: true, reset mEglSurface to null"
 
-    .line 5
     invoke-static {v5, v1}, Lcom/meitu/debug/Logger;->x(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 6
     invoke-static {v3}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v6
 
-    .line 7
     :cond_0
     iget-boolean v4, v0, Lcom/meitu/media/encoder/h;->d:Z
 
     if-eqz v4, :cond_4
 
-    .line 8
     iput-boolean v7, v0, Lcom/meitu/media/encoder/h;->d:Z
 
     new-array v4, v6, [I
@@ -761,7 +686,6 @@
 
     aput v8, v4, v7
 
-    .line 9
     iget-object v8, v0, Lcom/meitu/media/encoder/h;->c:Landroid/view/Surface;
 
     if-eqz v8, :cond_3
@@ -774,7 +698,6 @@
 
     goto :goto_0
 
-    .line 10
     :cond_1
     iget-object v8, v0, Lcom/meitu/media/encoder/h;->h:Landroid/opengl/EGLDisplay;
 
@@ -788,12 +711,10 @@
 
     iput-object v4, v0, Lcom/meitu/media/encoder/h;->k:Landroid/opengl/EGLSurface;
 
-    .line 11
     sget-object v8, Landroid/opengl/EGL14;->EGL_NO_SURFACE:Landroid/opengl/EGLSurface;
 
     if-eq v4, v8, :cond_2
 
-    .line 12
     iget-object v4, v0, Lcom/meitu/media/encoder/h;->a:Lcom/meitu/media/encoder/a;
 
     invoke-virtual {v4}, Lcom/meitu/media/encoder/a;->c0()Lcom/meitu/media/encoder/a$n;
@@ -804,12 +725,10 @@
 
     const-string v4, "mRequestCreateWindowSurface has been set to: true, createWindowSurface success, mEglSurface is assign"
 
-    .line 13
     invoke-static {v5, v4}, Lcom/meitu/debug/Logger;->x(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_1
 
-    .line 14
     :cond_2
     new-instance v1, Ljava/lang/RuntimeException;
 
@@ -841,7 +760,6 @@
 
     throw v1
 
-    .line 15
     :cond_3
     :goto_0
     new-instance v1, Ljava/lang/StringBuilder;
@@ -862,12 +780,10 @@
 
     invoke-static {v5, v1}, Lcom/meitu/debug/Logger;->j(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 16
     invoke-static {v3}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v7
 
-    .line 17
     :cond_4
     :goto_1
     iget-object v4, v0, Lcom/meitu/media/encoder/h;->k:Landroid/opengl/EGLSurface;
@@ -888,7 +804,6 @@
 
     const/16 v4, 0x3059
 
-    .line 18
     invoke-static {v4}, Landroid/opengl/EGL14;->eglGetCurrentSurface(I)Landroid/opengl/EGLSurface;
 
     move-result-object v4
@@ -897,7 +812,6 @@
 
     const/16 v4, 0x305a
 
-    .line 19
     invoke-static {v4}, Landroid/opengl/EGL14;->eglGetCurrentSurface(I)Landroid/opengl/EGLSurface;
 
     move-result-object v4
@@ -913,7 +827,6 @@
 
     if-ge v4, v9, :cond_6
 
-    .line 20
     iget-object v8, v0, Lcom/meitu/media/encoder/h;->h:Landroid/opengl/EGLDisplay;
 
     iget-object v10, v0, Lcom/meitu/media/encoder/h;->k:Landroid/opengl/EGLSurface;
@@ -937,7 +850,6 @@
     :goto_3
     if-nez v8, :cond_8
 
-    .line 21
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -962,14 +874,12 @@
 
     invoke-static {v5, v1}, Lcom/meitu/debug/Logger;->j(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 22
     sget v1, Landroid/os/Build$VERSION;->SDK_INT:I
 
     const/16 v2, 0x15
 
     if-lt v1, v2, :cond_7
 
-    .line 23
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -1004,19 +914,16 @@
 
     invoke-static {v5, v1}, Lcom/meitu/debug/Logger;->j(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 24
     :cond_7
     invoke-static {v3}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v7
 
-    .line 25
     :cond_8
     iget-object v4, v0, Lcom/meitu/media/encoder/h;->o:[I
 
     aput p1, v4, v7
 
-    .line 26
     iget-object v4, v0, Lcom/meitu/media/encoder/h;->f:Lcom/meitu/media/encoder/a$n;
 
     iget v5, v4, Lcom/meitu/media/encoder/a$n;->a:I
@@ -1025,7 +932,6 @@
 
     invoke-static {v7, v7, v5, v4}, Landroid/opengl/GLES20;->glViewport(IIII)V
 
-    .line 27
     iget-object v10, v0, Lcom/meitu/media/encoder/h;->n:Lcom/meitu/opengl/b;
 
     sget-object v11, Lcom/meitu/media/encoder/h;->A:Ljava/nio/FloatBuffer;
@@ -1044,12 +950,10 @@
 
     invoke-virtual/range {v10 .. v17}, Lcom/meitu/opengl/b;->a(Ljava/nio/FloatBuffer;Ljava/nio/FloatBuffer;[III[F[F)V
 
-    .line 28
     iget-object v4, v0, Lcom/meitu/media/encoder/h;->a:Lcom/meitu/media/encoder/a;
 
     invoke-virtual {v4, v1, v2}, Lcom/meitu/media/encoder/a;->T0(J)V
 
-    .line 29
     iget-object v4, v0, Lcom/meitu/media/encoder/h;->h:Landroid/opengl/EGLDisplay;
 
     iget-object v5, v0, Lcom/meitu/media/encoder/h;->k:Landroid/opengl/EGLSurface;
@@ -1060,7 +964,6 @@
 
     invoke-static {v4, v5, v1, v2}, Landroid/opengl/EGLExt;->eglPresentationTimeANDROID(Landroid/opengl/EGLDisplay;Landroid/opengl/EGLSurface;J)Z
 
-    .line 30
     iget-object v1, v0, Lcom/meitu/media/encoder/h;->h:Landroid/opengl/EGLDisplay;
 
     iget-object v2, v0, Lcom/meitu/media/encoder/h;->k:Landroid/opengl/EGLSurface;
@@ -1072,7 +975,6 @@
     :goto_4
     if-ge v7, v9, :cond_a
 
-    .line 31
     iget-object v1, v0, Lcom/meitu/media/encoder/h;->h:Landroid/opengl/EGLDisplay;
 
     iget-object v2, v0, Lcom/meitu/media/encoder/h;->i:Landroid/opengl/EGLSurface;
@@ -1100,7 +1002,6 @@
 
     goto :goto_6
 
-    .line 32
     :cond_b
     new-instance v1, Ljava/lang/RuntimeException;
 
@@ -1132,7 +1033,6 @@
 
     throw v1
 
-    .line 33
     :cond_c
     :goto_6
     invoke-static {v3}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1154,13 +1054,10 @@
 
     const-string v2, "updateGLContext"
 
-    .line 1
     invoke-static {v1, v2}, Lcom/meitu/debug/Logger;->b(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 2
     invoke-virtual {p0}, Lcom/meitu/media/encoder/h;->a()V
 
-    .line 3
     new-instance v1, Lcom/meitu/opengl/b;
 
     const/4 v2, 0x1
@@ -1169,28 +1066,24 @@
 
     iput-object v1, p0, Lcom/meitu/media/encoder/h;->n:Lcom/meitu/opengl/b;
 
-    .line 4
     invoke-static {}, Landroid/opengl/EGL14;->eglGetCurrentContext()Landroid/opengl/EGLContext;
 
     move-result-object v1
 
     iput-object v1, p0, Lcom/meitu/media/encoder/h;->g:Landroid/opengl/EGLContext;
 
-    .line 5
     invoke-static {}, Landroid/opengl/EGL14;->eglGetCurrentDisplay()Landroid/opengl/EGLDisplay;
 
     move-result-object v1
 
     iput-object v1, p0, Lcom/meitu/media/encoder/h;->h:Landroid/opengl/EGLDisplay;
 
-    .line 6
     invoke-direct {p0}, Lcom/meitu/media/encoder/h;->b()Landroid/opengl/EGLConfig;
 
     move-result-object v1
 
     iput-object v1, p0, Lcom/meitu/media/encoder/h;->l:Landroid/opengl/EGLConfig;
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

@@ -46,7 +46,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/meitu/core/MTRtEffectRender$MLabRtEffectType;
 
     const-string v2, "MLabRtEffectType_NO"
@@ -57,7 +56,6 @@
 
     sput-object v1, Lcom/meitu/core/MTRtEffectRender$MLabRtEffectType;->MLabRtEffectType_NO:Lcom/meitu/core/MTRtEffectRender$MLabRtEffectType;
 
-    .line 2
     new-instance v2, Lcom/meitu/core/MTRtEffectRender$MLabRtEffectType;
 
     const-string v4, "MLabRtEffectType_MYXJ"
@@ -68,7 +66,6 @@
 
     sput-object v2, Lcom/meitu/core/MTRtEffectRender$MLabRtEffectType;->MLabRtEffectType_MYXJ:Lcom/meitu/core/MTRtEffectRender$MLabRtEffectType;
 
-    .line 3
     new-instance v4, Lcom/meitu/core/MTRtEffectRender$MLabRtEffectType;
 
     const-string v6, "MLabRtEffectType_O2Cam"
@@ -79,7 +76,6 @@
 
     sput-object v4, Lcom/meitu/core/MTRtEffectRender$MLabRtEffectType;->MLabRtEffectType_O2Cam:Lcom/meitu/core/MTRtEffectRender$MLabRtEffectType;
 
-    .line 4
     new-instance v6, Lcom/meitu/core/MTRtEffectRender$MLabRtEffectType;
 
     const-string v8, "MLabRtEffectType_MTXX"
@@ -90,7 +86,6 @@
 
     sput-object v6, Lcom/meitu/core/MTRtEffectRender$MLabRtEffectType;->MLabRtEffectType_MTXX:Lcom/meitu/core/MTRtEffectRender$MLabRtEffectType;
 
-    .line 5
     new-instance v8, Lcom/meitu/core/MTRtEffectRender$MLabRtEffectType;
 
     const-string v10, "MLabRtEffectType_BeautyPlus"
@@ -101,7 +96,6 @@
 
     sput-object v8, Lcom/meitu/core/MTRtEffectRender$MLabRtEffectType;->MLabRtEffectType_BeautyPlus:Lcom/meitu/core/MTRtEffectRender$MLabRtEffectType;
 
-    .line 6
     new-instance v10, Lcom/meitu/core/MTRtEffectRender$MLabRtEffectType;
 
     const-string v12, "MLabRtEffectType_EasyEditor"
@@ -128,7 +122,6 @@
 
     aput-object v10, v12, v13
 
-    .line 7
     sput-object v12, Lcom/meitu/core/MTRtEffectRender$MLabRtEffectType;->$VALUES:[Lcom/meitu/core/MTRtEffectRender$MLabRtEffectType;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -144,7 +137,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
     return-void
@@ -157,7 +149,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     const-class v1, Lcom/meitu/core/MTRtEffectRender$MLabRtEffectType;
 
     invoke-static {v1, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -178,7 +169,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/meitu/core/MTRtEffectRender$MLabRtEffectType;->$VALUES:[Lcom/meitu/core/MTRtEffectRender$MLabRtEffectType;
 
     invoke-virtual {v1}, [Lcom/meitu/core/MTRtEffectRender$MLabRtEffectType;->clone()Ljava/lang/Object;

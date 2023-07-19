@@ -16,7 +16,6 @@
 .method public constructor <init>(Lcom/google/common/hash/i;Ljava/io/InputStream;)V
     .locals 0
 
-    .line 1
     invoke-static {p2}, Lcom/google/common/base/t;->E(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p2
@@ -25,7 +24,6 @@
 
     invoke-direct {p0, p2}, Ljava/io/FilterInputStream;-><init>(Ljava/io/InputStream;)V
 
-    .line 2
     invoke-interface {p1}, Lcom/google/common/hash/i;->newHasher()Lcom/google/common/hash/j;
 
     move-result-object p1
@@ -46,7 +44,6 @@
 .method public a()Lcom/google/common/hash/HashCode;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/hash/k;->a:Lcom/google/common/hash/j;
 
     invoke-interface {v0}, Lcom/google/common/hash/j;->hash()Lcom/google/common/hash/HashCode;
@@ -81,7 +78,6 @@
     .annotation build Lf/f/f/a/a;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Ljava/io/FilterInputStream;->in:Ljava/io/InputStream;
 
     invoke-virtual {v0}, Ljava/io/InputStream;->read()I
@@ -92,7 +88,6 @@
 
     if-eq v0, v1, :cond_0
 
-    .line 2
     iget-object v1, p0, Lcom/google/common/hash/k;->a:Lcom/google/common/hash/j;
 
     int-to-byte v2, v0
@@ -114,7 +109,6 @@
     .annotation build Lf/f/f/a/a;
     .end annotation
 
-    .line 3
     iget-object v0, p0, Ljava/io/FilterInputStream;->in:Ljava/io/InputStream;
 
     invoke-virtual {v0, p1, p2, p3}, Ljava/io/InputStream;->read([BII)I
@@ -125,7 +119,6 @@
 
     if-eq p3, v0, :cond_0
 
-    .line 4
     iget-object v0, p0, Lcom/google/common/hash/k;->a:Lcom/google/common/hash/j;
 
     invoke-interface {v0, p1, p2, p3}, Lcom/google/common/hash/j;->g([BII)Lcom/google/common/hash/j;
@@ -142,7 +135,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/io/IOException;
 
     const-string v1, "reset not supported"

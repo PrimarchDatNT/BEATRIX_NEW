@@ -10,7 +10,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -46,7 +45,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     new-instance v1, Lcom/meitu/http/api/FeedbackApi$feedback$1;
 
     invoke-direct {v1, p1}, Lcom/meitu/http/api/FeedbackApi$feedback$1;-><init>(Lf/k/l0/a/a;)V

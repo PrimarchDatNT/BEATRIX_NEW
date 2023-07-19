@@ -34,7 +34,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/text/b$d;->q:Lcom/commsource/studio/text/b;
 
     iput-object p2, p0, Lcom/commsource/studio/text/b$d;->r:Lcotlin/jvm/u/a;
@@ -65,7 +64,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p2, p0, Lcom/commsource/studio/text/b$d;->q:Lcom/commsource/studio/text/b;
 
     invoke-static {p2}, Lcom/commsource/studio/text/b;->k(Lcom/commsource/studio/text/b;)Z
@@ -74,7 +72,6 @@
 
     if-eqz p2, :cond_0
 
-    .line 2
     iget-object p2, p0, Lcom/commsource/studio/text/b$d;->r:Lcotlin/jvm/u/a;
 
     if-eqz p2, :cond_0
@@ -85,7 +82,6 @@
 
     check-cast p2, Lcotlin/t1;
 
-    .line 3
     :cond_0
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

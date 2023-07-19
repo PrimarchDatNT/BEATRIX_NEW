@@ -36,7 +36,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1, p2}, Lcotlinx/coroutines/internal/y;-><init>(Lcotlin/coroutines/CoroutineContext;Lcotlin/coroutines/c;)V
 
     return-void
@@ -51,7 +50,6 @@
         .end annotation
     .end param
 
-    .line 1
     instance-of v0, p1, Lcotlinx/coroutines/flow/internal/ChildCancelledException;
 
     if-eqz v0, :cond_0
@@ -60,7 +58,6 @@
 
     return p1
 
-    .line 2
     :cond_0
     invoke-virtual {p0, p1}, Lcotlinx/coroutines/JobSupport;->h0(Ljava/lang/Object;)Z
 

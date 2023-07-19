@@ -39,7 +39,6 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-direct {p0}, Lcotlinx/coroutines/channels/b0;-><init>()V
 
     iput-object p1, p0, Lcotlinx/coroutines/channels/p;->d:Ljava/lang/Throwable;
@@ -52,7 +51,6 @@
 .method public bridge synthetic d()Ljava/lang/Object;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcotlinx/coroutines/channels/p;->j0()Lcotlinx/coroutines/channels/p;
 
     move-result-object v0
@@ -69,7 +67,6 @@
 .method public bridge synthetic g0()Ljava/lang/Object;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcotlinx/coroutines/channels/p;->k0()Lcotlinx/coroutines/channels/p;
 
     move-result-object v0
@@ -91,7 +88,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {}, Lcotlinx/coroutines/p0;->b()Z
 
     move-result p1
@@ -117,7 +113,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     sget-object v0, Lcotlinx/coroutines/o;->d:Lcotlinx/coroutines/internal/c0;
 
     if-eqz p1, :cond_0
@@ -176,7 +171,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcotlinx/coroutines/channels/p;->d:Ljava/lang/Throwable;
 
     if-eqz v0, :cond_0
@@ -199,7 +193,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcotlinx/coroutines/channels/p;->d:Ljava/lang/Throwable;
 
     if-eqz v0, :cond_0
@@ -222,7 +215,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -274,7 +266,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     sget-object p1, Lcotlinx/coroutines/o;->d:Lcotlinx/coroutines/internal/c0;
 
     if-eqz p2, :cond_0

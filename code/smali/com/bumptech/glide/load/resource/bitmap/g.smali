@@ -37,12 +37,10 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const-string v0, "Bitmap must not be null"
 
-    .line 2
     invoke-static {p1, v0}, Lcom/bumptech/glide/s/k;->e(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
 
     move-result-object p1
@@ -53,7 +51,6 @@
 
     const-string p1, "BitmapPool must not be null"
 
-    .line 3
     invoke-static {p2, p1}, Lcom/bumptech/glide/s/k;->e(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
 
     move-result-object p1
@@ -84,7 +81,6 @@
 
     return-object p0
 
-    .line 1
     :cond_0
     new-instance v0, Lcom/bumptech/glide/load/resource/bitmap/g;
 
@@ -98,7 +94,6 @@
 .method public a()I
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/bumptech/glide/load/resource/bitmap/g;->a:Landroid/graphics/Bitmap;
 
     invoke-static {v0}, Lcom/bumptech/glide/s/m;->h(Landroid/graphics/Bitmap;)I
@@ -111,7 +106,6 @@
 .method public b()V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/bumptech/glide/load/resource/bitmap/g;->b:Lcom/bumptech/glide/load/engine/bitmap_recycle/e;
 
     iget-object v1, p0, Lcom/bumptech/glide/load/resource/bitmap/g;->a:Landroid/graphics/Bitmap;
@@ -135,7 +129,6 @@
         }
     .end annotation
 
-    .line 1
     const-class v0, Landroid/graphics/Bitmap;
 
     return-object v0
@@ -146,7 +139,6 @@
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/bumptech/glide/load/resource/bitmap/g;->a:Landroid/graphics/Bitmap;
 
     return-object v0
@@ -157,7 +149,6 @@
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/bumptech/glide/load/resource/bitmap/g;->d()Landroid/graphics/Bitmap;
 
     move-result-object v0
@@ -168,7 +159,6 @@
 .method public initialize()V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/bumptech/glide/load/resource/bitmap/g;->a:Landroid/graphics/Bitmap;
 
     invoke-virtual {v0}, Landroid/graphics/Bitmap;->prepareToDraw()V

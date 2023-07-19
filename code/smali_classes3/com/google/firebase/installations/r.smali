@@ -21,7 +21,6 @@
 .method static constructor <clinit>()V
     .locals 3
 
-    .line 1
     sget-object v0, Ljava/util/concurrent/TimeUnit;->HOURS:Ljava/util/concurrent/TimeUnit;
 
     const-wide/16 v1, 0x1
@@ -34,7 +33,6 @@
 
     const-string v0, "\\AA[\\w-]{38}\\z"
 
-    .line 2
     invoke-static {v0}, Ljava/util/regex/Pattern;->compile(Ljava/lang/String;)Ljava/util/regex/Pattern;
 
     move-result-object v0
@@ -47,10 +45,8 @@
 .method private constructor <init>(Lcom/google/firebase/installations/t/a;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/google/firebase/installations/r;->a:Lcom/google/firebase/installations/t/a;
 
     return-void
@@ -59,7 +55,6 @@
 .method public static c()Lcom/google/firebase/installations/r;
     .locals 1
 
-    .line 1
     invoke-static {}, Lcom/google/firebase/installations/t/b;->b()Lcom/google/firebase/installations/t/b;
 
     move-result-object v0
@@ -74,19 +69,16 @@
 .method public static d(Lcom/google/firebase/installations/t/a;)Lcom/google/firebase/installations/r;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/google/firebase/installations/r;->e:Lcom/google/firebase/installations/r;
 
     if-nez v0, :cond_0
 
-    .line 2
     new-instance v0, Lcom/google/firebase/installations/r;
 
     invoke-direct {v0, p0}, Lcom/google/firebase/installations/r;-><init>(Lcom/google/firebase/installations/t/a;)V
 
     sput-object v0, Lcom/google/firebase/installations/r;->e:Lcom/google/firebase/installations/r;
 
-    .line 3
     :cond_0
     sget-object p0, Lcom/google/firebase/installations/r;->e:Lcom/google/firebase/installations/r;
 
@@ -100,7 +92,6 @@
         .end annotation
     .end param
 
-    .line 1
     sget-object v0, Lcom/google/firebase/installations/r;->d:Ljava/util/regex/Pattern;
 
     invoke-virtual {v0, p0}, Ljava/util/regex/Pattern;->matcher(Ljava/lang/CharSequence;)Ljava/util/regex/Matcher;
@@ -123,7 +114,6 @@
 
     const-string v0, ":"
 
-    .line 1
     invoke-virtual {p0, v0}, Ljava/lang/String;->contains(Ljava/lang/CharSequence;)Z
 
     move-result p0
@@ -136,7 +126,6 @@
 .method public a()J
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/installations/r;->a:Lcom/google/firebase/installations/t/a;
 
     invoke-interface {v0}, Lcom/google/firebase/installations/t/a;->a()J
@@ -149,7 +138,6 @@
 .method public b()J
     .locals 3
 
-    .line 1
     sget-object v0, Ljava/util/concurrent/TimeUnit;->MILLISECONDS:Ljava/util/concurrent/TimeUnit;
 
     invoke-virtual {p0}, Lcom/google/firebase/installations/r;->a()J
@@ -166,7 +154,6 @@
 .method public e()J
     .locals 4
 
-    .line 1
     invoke-static {}, Ljava/lang/Math;->random()D
 
     move-result-wide v0
@@ -187,7 +174,6 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-virtual {p1}, Lcom/google/firebase/installations/local/c;->b()Ljava/lang/String;
 
     move-result-object v0
@@ -202,7 +188,6 @@
 
     return v1
 
-    .line 2
     :cond_0
     invoke-virtual {p1}, Lcom/google/firebase/installations/local/c;->h()J
 
@@ -214,7 +199,6 @@
 
     add-long/2addr v2, v4
 
-    .line 3
     invoke-virtual {p0}, Lcom/google/firebase/installations/r;->b()J
 
     move-result-wide v4

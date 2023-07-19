@@ -26,10 +26,8 @@
 .method public final a()Lcom/google/android/gms/internal/ads/of2;
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/ts;->a:[B
 
-    .line 2
     new-instance v1, Lcom/google/android/gms/internal/ads/pf2;
 
     invoke-direct {v1, v0}, Lcom/google/android/gms/internal/ads/pf2;-><init>([B)V

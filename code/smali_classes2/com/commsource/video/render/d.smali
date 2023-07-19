@@ -28,12 +28,10 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/4 v0, 0x5
 
-    .line 2
     iput v0, p0, Lcom/commsource/video/render/d;->g:I
 
     return-void
@@ -62,7 +60,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/video/render/d;->h:I
 
     const/16 v2, 0x10e
@@ -80,7 +77,6 @@
 
     move p1, v9
 
-    .line 2
     :cond_1
     iget v1, p0, Lcom/commsource/video/render/d;->a:I
 
@@ -88,14 +84,12 @@
 
     move-result v1
 
-    .line 3
     iget v4, p0, Lcom/commsource/video/render/d;->b:I
 
     invoke-static {v4, p2}, Landroid/view/View;->getDefaultSize(II)I
 
     move-result v4
 
-    .line 4
     iget v5, p0, Lcom/commsource/video/render/d;->g:I
 
     const/4 v6, 0x3
@@ -104,7 +98,6 @@
 
     goto/16 :goto_8
 
-    .line 5
     :cond_2
     iget v5, p0, Lcom/commsource/video/render/d;->a:I
 
@@ -114,22 +107,18 @@
 
     if-lez v5, :cond_16
 
-    .line 6
     invoke-static {p1}, Landroid/view/View$MeasureSpec;->getMode(I)I
 
     move-result v1
 
-    .line 7
     invoke-static {p1}, Landroid/view/View$MeasureSpec;->getSize(I)I
 
     move-result p1
 
-    .line 8
     invoke-static {p2}, Landroid/view/View$MeasureSpec;->getMode(I)I
 
     move-result v4
 
-    .line 9
     invoke-static {p2}, Landroid/view/View$MeasureSpec;->getSize(I)I
 
     move-result p2
@@ -146,12 +135,10 @@
 
     div-float v5, v1, v4
 
-    .line 10
     iget v6, p0, Lcom/commsource/video/render/d;->g:I
 
     packed-switch v6, :pswitch_data_0
 
-    .line 11
     :pswitch_0
     iget v2, p0, Lcom/commsource/video/render/d;->a:I
 
@@ -163,7 +150,6 @@
 
     div-float/2addr v2, v3
 
-    .line 12
     iget v3, p0, Lcom/commsource/video/render/d;->c:I
 
     if-lez v3, :cond_7
@@ -183,7 +169,6 @@
 
     goto :goto_3
 
-    .line 13
     :pswitch_1
     iget v2, p0, Lcom/commsource/video/render/d;->a:I
 
@@ -195,7 +180,6 @@
 
     div-float/2addr v2, v3
 
-    .line 14
     iget v3, p0, Lcom/commsource/video/render/d;->c:I
 
     if-lez v3, :cond_7
@@ -209,7 +193,6 @@
     :pswitch_2
     const v7, 0x3faaaaab
 
-    .line 15
     iget v8, p0, Lcom/commsource/video/render/d;->h:I
 
     if-eq v8, v3, :cond_4
@@ -232,7 +215,6 @@
     :pswitch_3
     const v7, 0x3fe38e39
 
-    .line 16
     iget v8, p0, Lcom/commsource/video/render/d;->h:I
 
     if-eq v8, v3, :cond_6
@@ -269,7 +251,6 @@
     :pswitch_4
     if-eqz v3, :cond_c
 
-    .line 17
     iget p2, p0, Lcom/commsource/video/render/d;->a:I
 
     invoke-static {p2, p1}, Ljava/lang/Math;->min(II)I
@@ -278,7 +259,6 @@
 
     goto :goto_5
 
-    .line 18
     :pswitch_5
     iget p1, p0, Lcom/commsource/video/render/d;->a:I
 
@@ -290,7 +270,6 @@
 
     goto/16 :goto_8
 
-    .line 19
     :pswitch_6
     iget p2, p0, Lcom/commsource/video/render/d;->b:I
 
@@ -305,7 +284,6 @@
     :pswitch_7
     if-eqz v3, :cond_9
 
-    .line 20
     iget p2, p0, Lcom/commsource/video/render/d;->a:I
 
     invoke-static {p2, p1}, Ljava/lang/Math;->min(II)I
@@ -321,7 +299,6 @@
 
     goto/16 :goto_8
 
-    .line 21
     :cond_9
     iget p1, p0, Lcom/commsource/video/render/d;->b:I
 
@@ -360,7 +337,6 @@
 
     goto/16 :goto_8
 
-    .line 22
     :cond_c
     iget p1, p0, Lcom/commsource/video/render/d;->b:I
 
@@ -389,7 +365,6 @@
 
     if-ne v4, v2, :cond_f
 
-    .line 23
     iget v1, p0, Lcom/commsource/video/render/d;->a:I
 
     mul-int v2, v1, p2
@@ -402,7 +377,6 @@
 
     mul-int v1, v1, p2
 
-    .line 24
     div-int p1, v1, v3
 
     goto :goto_8
@@ -416,7 +390,6 @@
 
     mul-int v3, v3, p1
 
-    .line 25
     div-int/2addr v3, v1
 
     move p2, v3
@@ -426,7 +399,6 @@
     :cond_f
     if-ne v1, v2, :cond_11
 
-    .line 26
     iget v1, p0, Lcom/commsource/video/render/d;->b:I
 
     mul-int v1, v1, p1
@@ -449,7 +421,6 @@
     :cond_11
     if-ne v4, v2, :cond_13
 
-    .line 27
     iget v2, p0, Lcom/commsource/video/render/d;->a:I
 
     mul-int v2, v2, p2
@@ -469,11 +440,9 @@
 
     goto :goto_8
 
-    .line 28
     :cond_13
     iget v2, p0, Lcom/commsource/video/render/d;->a:I
 
-    .line 29
     iget v3, p0, Lcom/commsource/video/render/d;->b:I
 
     if-ne v4, v5, :cond_14
@@ -482,7 +451,6 @@
 
     mul-int v4, p2, v2
 
-    .line 30
     div-int/2addr v4, v3
 
     goto :goto_7
@@ -499,7 +467,6 @@
 
     mul-int v3, v3, p1
 
-    .line 31
     div-int p2, v3, v2
 
     goto :goto_8
@@ -514,15 +481,12 @@
 
     move p2, v4
 
-    .line 32
     :cond_17
     :goto_8
     iput p1, p0, Lcom/commsource/video/render/d;->e:I
 
-    .line 33
     iput p2, p0, Lcom/commsource/video/render/d;->f:I
 
-    .line 34
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -559,7 +523,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/video/render/d;->f:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -574,7 +537,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/video/render/d;->e:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -593,10 +555,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/video/render/d;->g:I
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -609,10 +569,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/video/render/d;->h:I
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -625,13 +583,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/video/render/d;->c:I
 
-    .line 2
     iput p2, p0, Lcom/commsource/video/render/d;->d:I
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -644,13 +599,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/video/render/d;->a:I
 
-    .line 2
     iput p2, p0, Lcom/commsource/video/render/d;->b:I
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

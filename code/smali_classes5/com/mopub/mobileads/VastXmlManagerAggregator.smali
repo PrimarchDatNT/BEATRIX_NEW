@@ -86,12 +86,10 @@
 
     const-string v1, "video/3gpp"
 
-    .line 1
     filled-new-array {v0, v1}, [Ljava/lang/String;
 
     move-result-object v0
 
-    .line 2
     invoke-static {v0}, Ljava/util/Arrays;->asList([Ljava/lang/Object;)Ljava/util/List;
 
     move-result-object v0
@@ -112,29 +110,22 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-direct {p0}, Landroid/os/AsyncTask;-><init>()V
 
-    .line 2
     invoke-static {p1}, Lcom/mopub/common/Preconditions;->checkNotNull(Ljava/lang/Object;)V
 
-    .line 3
     invoke-static {p5}, Lcom/mopub/common/Preconditions;->checkNotNull(Ljava/lang/Object;)V
 
-    .line 4
     new-instance v0, Ljava/lang/ref/WeakReference;
 
     invoke-direct {v0, p1}, Ljava/lang/ref/WeakReference;-><init>(Ljava/lang/Object;)V
 
     iput-object v0, p0, Lcom/mopub/mobileads/VastXmlManagerAggregator;->mVastXmlManagerAggregatorListener:Ljava/lang/ref/WeakReference;
 
-    .line 5
     iput-wide p2, p0, Lcom/mopub/mobileads/VastXmlManagerAggregator;->mScreenAspectRatio:D
 
-    .line 6
     iput p4, p0, Lcom/mopub/mobileads/VastXmlManagerAggregator;->mScreenWidthDp:I
 
-    .line 7
     invoke-virtual {p5}, Landroid/content/Context;->getApplicationContext()Landroid/content/Context;
 
     move-result-object p1
@@ -153,7 +144,6 @@
 
     if-eqz p1, :cond_1
 
-    .line 1
     invoke-virtual {p1}, Ljava/lang/Integer;->intValue()I
 
     move-result v0
@@ -189,7 +179,6 @@
     :cond_2
     rsub-int v1, p1, 0x2bc
 
-    .line 2
     invoke-static {v1}, Ljava/lang/Math;->abs(I)I
 
     move-result v1
@@ -204,7 +193,6 @@
 
     sub-int/2addr v0, p1
 
-    .line 3
     invoke-static {v0}, Ljava/lang/Math;->abs(I)I
 
     move-result p1
@@ -217,7 +205,6 @@
 
     float-to-double v3, p1
 
-    .line 4
     invoke-static {v1, v2, v3, v4}, Ljava/lang/Math;->min(DD)D
 
     move-result-wide v0
@@ -236,17 +223,14 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-direct {p0, p1, p2}, Lcom/mopub/mobileads/VastXmlManagerAggregator;->calculateScreenFitnessFactor(II)D
 
     move-result-wide p1
 
-    .line 2
     invoke-direct {p0, p3}, Lcom/mopub/mobileads/VastXmlManagerAggregator;->calculateBitrateFitnessFactor(Ljava/lang/Integer;)D
 
     move-result-wide v0
 
-    .line 3
     invoke-direct {p0, p4}, Lcom/mopub/mobileads/VastXmlManagerAggregator;->calculateFormatFitnessFactor(Ljava/lang/String;)D
 
     move-result-wide p3
@@ -274,7 +258,6 @@
     :cond_0
     const/4 v0, -0x1
 
-    .line 1
     invoke-virtual {p1}, Ljava/lang/String;->hashCode()I
 
     move-result v1
@@ -336,7 +319,6 @@
 
     div-double/2addr v0, v2
 
-    .line 1
     iget-wide v2, p0, Lcom/mopub/mobileads/VastXmlManagerAggregator;->mScreenAspectRatio:D
 
     sub-double/2addr v2, v0
@@ -345,7 +327,6 @@
 
     move-result-wide v0
 
-    .line 2
     iget p2, p0, Lcom/mopub/mobileads/VastXmlManagerAggregator;->mScreenWidthDp:I
 
     sub-int p1, p2, p1
@@ -387,18 +368,14 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p1}, Lcom/mopub/common/Preconditions;->checkNotNull(Ljava/lang/Object;)V
 
-    .line 2
     invoke-static {p2}, Lcom/mopub/common/Preconditions;->checkNotNull(Ljava/lang/Object;)V
 
-    .line 3
     invoke-virtual {p1}, Lcom/mopub/mobileads/VastBaseInLineWrapperXmlManager;->getLinearXmlManagers()Ljava/util/List;
 
     move-result-object v0
 
-    .line 4
     invoke-interface {v0}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
     move-result-object v0
@@ -416,7 +393,6 @@
 
     check-cast v1, Lcom/mopub/mobileads/VastLinearXmlManager;
 
-    .line 5
     invoke-virtual {v1}, Lcom/mopub/mobileads/VastLinearXmlManager;->getMediaXmlManagers()Ljava/util/List;
 
     move-result-object v2
@@ -427,60 +403,48 @@
 
     if-eqz v2, :cond_0
 
-    .line 6
     new-instance v0, Lcom/mopub/mobileads/VastVideoConfig;
 
     invoke-direct {v0}, Lcom/mopub/mobileads/VastVideoConfig;-><init>()V
 
-    .line 7
     invoke-virtual {p1}, Lcom/mopub/mobileads/VastBaseInLineWrapperXmlManager;->getImpressionTrackers()Ljava/util/List;
 
     move-result-object v3
 
     invoke-virtual {v0, v3}, Lcom/mopub/mobileads/VastVideoConfig;->addImpressionTrackers(Ljava/util/List;)V
 
-    .line 8
     invoke-direct {p0, v1, v0}, Lcom/mopub/mobileads/VastXmlManagerAggregator;->populateLinearTrackersAndIcon(Lcom/mopub/mobileads/VastLinearXmlManager;Lcom/mopub/mobileads/VastVideoConfig;)V
 
-    .line 9
     invoke-virtual {v1}, Lcom/mopub/mobileads/VastLinearXmlManager;->getClickThroughUrl()Ljava/lang/String;
 
     move-result-object v1
 
     invoke-virtual {v0, v1}, Lcom/mopub/mobileads/VastVideoConfig;->setClickThroughUrl(Ljava/lang/String;)V
 
-    .line 10
     invoke-virtual {v0, v2}, Lcom/mopub/mobileads/VastVideoConfig;->setNetworkMediaFileUrl(Ljava/lang/String;)V
 
-    .line 11
     invoke-virtual {p1}, Lcom/mopub/mobileads/VastBaseInLineWrapperXmlManager;->getCompanionAdXmlManagers()Ljava/util/List;
 
     move-result-object v1
 
-    .line 12
     invoke-virtual {p0, v1}, Lcom/mopub/mobileads/VastXmlManagerAggregator;->getAllCompanionAds(Ljava/util/List;)Ljava/util/Set;
 
     move-result-object v1
 
     invoke-virtual {v0, v1}, Lcom/mopub/mobileads/VastVideoConfig;->addVastCompanionAdConfigs(Ljava/lang/Iterable;)V
 
-    .line 13
     invoke-virtual {p1}, Lcom/mopub/mobileads/VastBaseInLineWrapperXmlManager;->getErrorTrackers()Ljava/util/List;
 
     move-result-object v1
 
     invoke-interface {p2, v1}, Ljava/util/List;->addAll(Ljava/util/Collection;)Z
 
-    .line 14
     invoke-virtual {v0, p2}, Lcom/mopub/mobileads/VastVideoConfig;->addErrorTrackers(Ljava/util/List;)V
 
-    .line 15
     invoke-direct {p0, p1, v0}, Lcom/mopub/mobileads/VastXmlManagerAggregator;->populateVideoViewabilityTracker(Lcom/mopub/mobileads/VastBaseInLineWrapperXmlManager;Lcom/mopub/mobileads/VastVideoConfig;)V
 
-    .line 16
     invoke-direct {p0, p1, v0}, Lcom/mopub/mobileads/VastXmlManagerAggregator;->populateViewabilityMetadata(Lcom/mopub/mobileads/VastBaseInLineWrapperXmlManager;Lcom/mopub/mobileads/VastVideoConfig;)V
 
-    .line 17
     iget-object p1, p1, Lcom/mopub/mobileads/VastBaseInLineWrapperXmlManager;->mNode:Lorg/w3c/dom/Node;
 
     invoke-direct {p0, p1, v0}, Lcom/mopub/mobileads/VastXmlManagerAggregator;->populateAdVerificationsOmid(Lorg/w3c/dom/Node;Lcom/mopub/mobileads/VastVideoConfig;)V
@@ -517,7 +481,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p1}, Lcom/mopub/mobileads/VastWrapperXmlManager;->getVastAdTagURI()Ljava/lang/String;
 
     move-result-object p1
@@ -528,7 +491,6 @@
 
     return-object v0
 
-    .line 2
     :cond_0
     :try_start_0
     invoke-direct {p0, p1}, Lcom/mopub/mobileads/VastXmlManagerAggregator;->followVastRedirect(Ljava/lang/String;)Ljava/lang/String;
@@ -542,7 +504,6 @@
     :catch_0
     move-exception p1
 
-    .line 3
     sget-object v1, Lcom/mopub/common/logging/MoPubLog$SdkLogEvent;->ERROR_WITH_THROWABLE:Lcom/mopub/common/logging/MoPubLog$SdkLogEvent;
 
     const/4 v2, 0x2
@@ -561,14 +522,12 @@
 
     invoke-static {v1, v2}, Lcom/mopub/common/logging/MoPubLog;->log(Lcom/mopub/common/logging/MoPubLog$MPLogEventType;[Ljava/lang/Object;)V
 
-    .line 4
     invoke-interface {p2}, Ljava/util/List;->isEmpty()Z
 
     move-result p1
 
     if-nez p1, :cond_1
 
-    .line 5
     sget-object p1, Lcom/mopub/mobileads/VastErrorCode;->WRAPPER_TIMEOUT:Lcom/mopub/mobileads/VastErrorCode;
 
     iget-object v1, p0, Lcom/mopub/mobileads/VastXmlManagerAggregator;->mContext:Landroid/content/Context;
@@ -606,7 +565,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-interface {p1}, Ljava/util/List;->isEmpty()Z
 
     move-result p1
@@ -619,7 +577,6 @@
 
     if-eqz p1, :cond_1
 
-    .line 2
     invoke-virtual {p2}, Lcom/mopub/mobileads/VastXmlManager;->getErrorTracker()Lcom/mopub/mobileads/VastTracker;
 
     move-result-object p1
@@ -642,7 +599,6 @@
     :goto_0
     const/4 v0, 0x0
 
-    .line 3
     invoke-static {p1, p2, v0, v0, p3}, Lcom/mopub/network/TrackingRequest;->makeVastTrackingHttpRequest(Ljava/util/List;Lcom/mopub/mobileads/VastErrorCode;Ljava/lang/Integer;Ljava/lang/String;Landroid/content/Context;)V
 
     const/4 p1, 0x1
@@ -670,10 +626,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p1}, Lcom/mopub/common/Preconditions;->checkNotNull(Ljava/lang/Object;)V
 
-    .line 2
     iget v0, p0, Lcom/mopub/mobileads/VastXmlManagerAggregator;->mTimesFollowedVastRedirect:I
 
     const/4 v1, 0x0
@@ -684,10 +638,8 @@
 
     add-int/lit8 v0, v0, 0x1
 
-    .line 3
     iput v0, p0, Lcom/mopub/mobileads/VastXmlManagerAggregator;->mTimesFollowedVastRedirect:I
 
-    .line 4
     :try_start_0
     invoke-static {p1}, Lcom/mopub/common/MoPubHttpUrlConnection;->getHttpUrlConnection(Ljava/lang/String;)Ljava/net/HttpURLConnection;
 
@@ -695,7 +647,6 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_2
 
-    .line 5
     :try_start_1
     new-instance v0, Ljava/io/BufferedInputStream;
 
@@ -707,7 +658,6 @@
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_1
 
-    .line 6
     :try_start_2
     invoke-static {v0}, Lcom/mopub/common/util/Strings;->fromStream(Ljava/io/InputStream;)Ljava/lang/String;
 
@@ -715,12 +665,10 @@
     :try_end_2
     .catchall {:try_start_2 .. :try_end_2} :catchall_0
 
-    .line 7
     invoke-static {v0}, Lcom/mopub/common/util/Streams;->closeStream(Ljava/io/Closeable;)V
 
     if-eqz p1, :cond_0
 
-    .line 8
     invoke-virtual {p1}, Ljava/net/HttpURLConnection;->disconnect()V
 
     :cond_0
@@ -751,13 +699,11 @@
 
     move-object p1, v0
 
-    .line 9
     :goto_0
     invoke-static {v0}, Lcom/mopub/common/util/Streams;->closeStream(Ljava/io/Closeable;)V
 
     if-eqz p1, :cond_1
 
-    .line 10
     invoke-virtual {p1}, Ljava/net/HttpURLConnection;->disconnect()V
 
     :cond_1
@@ -774,7 +720,6 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-static {p0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v0
@@ -785,7 +730,6 @@
 
     return v1
 
-    .line 2
     :cond_0
     :try_start_0
     invoke-static {p0}, Ljava/lang/Integer;->parseInt(Ljava/lang/String;)I
@@ -819,17 +763,14 @@
         .end annotation
     .end param
 
-    .line 1
     new-instance v0, Lcom/mopub/mobileads/VastAdVerificationsParser;
 
     invoke-direct {v0, p1}, Lcom/mopub/mobileads/VastAdVerificationsParser;-><init>(Lorg/w3c/dom/Node;)V
 
-    .line 2
     invoke-virtual {v0}, Lcom/mopub/mobileads/VastAdVerificationsParser;->getViewabilityVendors()Ljava/util/Set;
 
     move-result-object p1
 
-    .line 3
     invoke-virtual {p2, p1}, Lcom/mopub/mobileads/VastVideoConfig;->addViewabilityVendors(Ljava/util/Set;)V
 
     return-void
@@ -848,79 +789,66 @@
 
     const-string v0, "linearXmlManager cannot be null"
 
-    .line 1
     invoke-static {p1, v0}, Lcom/mopub/common/Preconditions;->checkNotNull(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "vastVideoConfig cannot be null"
 
-    .line 2
     invoke-static {p2, v0}, Lcom/mopub/common/Preconditions;->checkNotNull(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 3
     invoke-virtual {p1}, Lcom/mopub/mobileads/VastLinearXmlManager;->getAbsoluteProgressTrackers()Ljava/util/List;
 
     move-result-object v0
 
     invoke-virtual {p2, v0}, Lcom/mopub/mobileads/VastVideoConfig;->addAbsoluteTrackers(Ljava/util/List;)V
 
-    .line 4
     invoke-virtual {p1}, Lcom/mopub/mobileads/VastLinearXmlManager;->getFractionalProgressTrackers()Ljava/util/List;
 
     move-result-object v0
 
-    .line 5
     invoke-virtual {p2, v0}, Lcom/mopub/mobileads/VastVideoConfig;->addFractionalTrackers(Ljava/util/List;)V
 
-    .line 6
     invoke-virtual {p1}, Lcom/mopub/mobileads/VastLinearXmlManager;->getPauseTrackers()Ljava/util/List;
 
     move-result-object v0
 
     invoke-virtual {p2, v0}, Lcom/mopub/mobileads/VastVideoConfig;->addPauseTrackers(Ljava/util/List;)V
 
-    .line 7
     invoke-virtual {p1}, Lcom/mopub/mobileads/VastLinearXmlManager;->getResumeTrackers()Ljava/util/List;
 
     move-result-object v0
 
     invoke-virtual {p2, v0}, Lcom/mopub/mobileads/VastVideoConfig;->addResumeTrackers(Ljava/util/List;)V
 
-    .line 8
     invoke-virtual {p1}, Lcom/mopub/mobileads/VastLinearXmlManager;->getVideoCompleteTrackers()Ljava/util/List;
 
     move-result-object v0
 
     invoke-virtual {p2, v0}, Lcom/mopub/mobileads/VastVideoConfig;->addCompleteTrackers(Ljava/util/List;)V
 
-    .line 9
     invoke-virtual {p1}, Lcom/mopub/mobileads/VastLinearXmlManager;->getVideoCloseTrackers()Ljava/util/List;
 
     move-result-object v0
 
     invoke-virtual {p2, v0}, Lcom/mopub/mobileads/VastVideoConfig;->addCloseTrackers(Ljava/util/List;)V
 
-    .line 10
     invoke-virtual {p1}, Lcom/mopub/mobileads/VastLinearXmlManager;->getVideoSkipTrackers()Ljava/util/List;
 
     move-result-object v0
 
     invoke-virtual {p2, v0}, Lcom/mopub/mobileads/VastVideoConfig;->addSkipTrackers(Ljava/util/List;)V
 
-    .line 11
     invoke-virtual {p1}, Lcom/mopub/mobileads/VastLinearXmlManager;->getClickTrackers()Ljava/util/List;
 
     move-result-object v0
 
     invoke-virtual {p2, v0}, Lcom/mopub/mobileads/VastVideoConfig;->addClickTrackers(Ljava/util/List;)V
 
-    .line 12
     invoke-virtual {p2}, Lcom/mopub/mobileads/VastVideoConfig;->getVastIconConfig()Lcom/mopub/mobileads/VastIconConfig;
 
     move-result-object v0
 
     if-nez v0, :cond_0
 
-    .line 13
     invoke-virtual {p1}, Lcom/mopub/mobileads/VastLinearXmlManager;->getIconXmlManagers()Ljava/util/List;
 
     move-result-object p1
@@ -948,36 +876,30 @@
 
     const-string v0, "xmlManager cannot be null"
 
-    .line 1
     invoke-static {p1, v0}, Lcom/mopub/common/Preconditions;->checkNotNull(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "vastVideoConfig cannot be null"
 
-    .line 2
     invoke-static {p2, v0}, Lcom/mopub/common/Preconditions;->checkNotNull(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 3
     invoke-virtual {p1}, Lcom/mopub/mobileads/VastXmlManager;->getMoPubImpressionTrackers()Ljava/util/List;
 
     move-result-object v0
 
     invoke-virtual {p2, v0}, Lcom/mopub/mobileads/VastVideoConfig;->addImpressionTrackers(Ljava/util/List;)V
 
-    .line 4
     invoke-virtual {p2}, Lcom/mopub/mobileads/VastVideoConfig;->getCustomCtaText()Ljava/lang/String;
 
     move-result-object v0
 
     if-nez v0, :cond_0
 
-    .line 5
     invoke-virtual {p1}, Lcom/mopub/mobileads/VastXmlManager;->getCustomCtaText()Ljava/lang/String;
 
     move-result-object v0
 
     invoke-virtual {p2, v0}, Lcom/mopub/mobileads/VastVideoConfig;->setCustomCtaText(Ljava/lang/String;)V
 
-    .line 6
     :cond_0
     invoke-virtual {p2}, Lcom/mopub/mobileads/VastVideoConfig;->getCustomSkipText()Ljava/lang/String;
 
@@ -985,14 +907,12 @@
 
     if-nez v0, :cond_1
 
-    .line 7
     invoke-virtual {p1}, Lcom/mopub/mobileads/VastXmlManager;->getCustomSkipText()Ljava/lang/String;
 
     move-result-object v0
 
     invoke-virtual {p2, v0}, Lcom/mopub/mobileads/VastVideoConfig;->setCustomSkipText(Ljava/lang/String;)V
 
-    .line 8
     :cond_1
     invoke-virtual {p2}, Lcom/mopub/mobileads/VastVideoConfig;->getCustomCloseIconUrl()Ljava/lang/String;
 
@@ -1000,7 +920,6 @@
 
     if-nez v0, :cond_2
 
-    .line 9
     invoke-virtual {p1}, Lcom/mopub/mobileads/VastXmlManager;->getCustomCloseIconUrl()Ljava/lang/String;
 
     move-result-object p1
@@ -1022,13 +941,10 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-static {p1}, Lcom/mopub/common/Preconditions;->checkNotNull(Ljava/lang/Object;)V
 
-    .line 2
     invoke-static {p2}, Lcom/mopub/common/Preconditions;->checkNotNull(Ljava/lang/Object;)V
 
-    .line 3
     invoke-virtual {p2}, Lcom/mopub/mobileads/VastVideoConfig;->getVideoViewabilityTracker()Lcom/mopub/mobileads/VideoViewabilityTracker;
 
     move-result-object v0
@@ -1037,7 +953,6 @@
 
     return-void
 
-    .line 4
     :cond_0
     invoke-virtual {p1}, Lcom/mopub/mobileads/VastBaseInLineWrapperXmlManager;->getVastExtensionParentXmlManager()Lcom/mopub/mobileads/VastExtensionParentXmlManager;
 
@@ -1045,12 +960,10 @@
 
     if-eqz p1, :cond_2
 
-    .line 5
     invoke-virtual {p1}, Lcom/mopub/mobileads/VastExtensionParentXmlManager;->getVastExtensionXmlManagers()Ljava/util/List;
 
     move-result-object p1
 
-    .line 6
     invoke-interface {p1}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
     move-result-object p1
@@ -1068,7 +981,6 @@
 
     check-cast v0, Lcom/mopub/mobileads/VastExtensionXmlManager;
 
-    .line 7
     invoke-virtual {v0}, Lcom/mopub/mobileads/VastExtensionXmlManager;->getType()Ljava/lang/String;
 
     move-result-object v1
@@ -1081,12 +993,10 @@
 
     if-eqz v1, :cond_1
 
-    .line 8
     invoke-virtual {v0}, Lcom/mopub/mobileads/VastExtensionXmlManager;->getVideoViewabilityTracker()Lcom/mopub/mobileads/VideoViewabilityTracker;
 
     move-result-object p1
 
-    .line 9
     invoke-virtual {p2, p1}, Lcom/mopub/mobileads/VastVideoConfig;->setVideoViewabilityTracker(Lcom/mopub/mobileads/VideoViewabilityTracker;)V
 
     :cond_2
@@ -1104,19 +1014,16 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-virtual {p1}, Lcom/mopub/mobileads/VastBaseInLineWrapperXmlManager;->getVastExtensionParentXmlManager()Lcom/mopub/mobileads/VastExtensionParentXmlManager;
 
     move-result-object p1
 
     if-eqz p1, :cond_1
 
-    .line 2
     invoke-virtual {p1}, Lcom/mopub/mobileads/VastExtensionParentXmlManager;->getVastExtensionXmlManagers()Ljava/util/List;
 
     move-result-object p1
 
-    .line 3
     invoke-interface {p1}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
     move-result-object p1
@@ -1137,7 +1044,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 4
     iget-object v0, v0, Lcom/mopub/mobileads/VastExtensionXmlManager;->mExtensionNode:Lorg/w3c/dom/Node;
 
     invoke-direct {p0, v0, p2}, Lcom/mopub/mobileads/VastXmlManagerAggregator;->populateAdVerificationsOmid(Lorg/w3c/dom/Node;Lcom/mopub/mobileads/VastVideoConfig;)V
@@ -1161,7 +1067,6 @@
 
     if-eqz p1, :cond_1
 
-    .line 2
     array-length v1, p1
 
     if-eqz v1, :cond_1
@@ -1174,12 +1079,10 @@
 
     goto :goto_0
 
-    .line 3
     :cond_0
     :try_start_0
     aget-object p1, p1, v1
 
-    .line 4
     new-instance v2, Ljava/util/ArrayList;
 
     invoke-direct {v2}, Ljava/util/ArrayList;-><init>()V
@@ -1195,7 +1098,6 @@
     :catch_0
     move-exception p1
 
-    .line 5
     sget-object v2, Lcom/mopub/common/logging/MoPubLog$SdkLogEvent;->ERROR_WITH_THROWABLE:Lcom/mopub/common/logging/MoPubLog$SdkLogEvent;
 
     const/4 v3, 0x2
@@ -1224,7 +1126,6 @@
         .end annotation
     .end param
 
-    .line 1
     check-cast p1, [Ljava/lang/String;
 
     invoke-virtual {p0, p1}, Lcom/mopub/mobileads/VastXmlManagerAggregator;->doInBackground([Ljava/lang/String;)Lcom/mopub/mobileads/VastVideoConfig;
@@ -1263,33 +1164,27 @@
 
     const-string v0, "vastXml cannot be null"
 
-    .line 1
     invoke-static {p1, v0}, Lcom/mopub/common/Preconditions;->checkNotNull(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "errorTrackers cannot be null"
 
-    .line 2
     invoke-static {p2, v0}, Lcom/mopub/common/Preconditions;->checkNotNull(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 3
     new-instance v0, Lcom/mopub/mobileads/VastXmlManager;
 
     invoke-direct {v0}, Lcom/mopub/mobileads/VastXmlManager;-><init>()V
 
     const/4 v1, 0x0
 
-    .line 4
     :try_start_0
     invoke-virtual {v0, p1}, Lcom/mopub/mobileads/VastXmlManager;->parseVastXml(Ljava/lang/String;)V
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
-    .line 5
     invoke-virtual {v0}, Lcom/mopub/mobileads/VastXmlManager;->getAdXmlManagers()Ljava/util/List;
 
     move-result-object p1
 
-    .line 6
     iget-object v2, p0, Lcom/mopub/mobileads/VastXmlManagerAggregator;->mContext:Landroid/content/Context;
 
     invoke-direct {p0, p1, v0, v2}, Lcom/mopub/mobileads/VastXmlManagerAggregator;->fireErrorTrackerIfNoAds(Ljava/util/List;Lcom/mopub/mobileads/VastXmlManager;Landroid/content/Context;)Z
@@ -1300,7 +1195,6 @@
 
     return-object v1
 
-    .line 7
     :cond_0
     invoke-interface {p1}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
@@ -1320,7 +1214,6 @@
 
     check-cast v2, Lcom/mopub/mobileads/VastAdXmlManager;
 
-    .line 8
     invoke-virtual {v2}, Lcom/mopub/mobileads/VastAdXmlManager;->getSequence()Ljava/lang/String;
 
     move-result-object v3
@@ -1333,7 +1226,6 @@
 
     goto :goto_0
 
-    .line 9
     :cond_2
     invoke-virtual {v2}, Lcom/mopub/mobileads/VastAdXmlManager;->getInLineXmlManager()Lcom/mopub/mobileads/VastInLineXmlManager;
 
@@ -1341,19 +1233,16 @@
 
     if-eqz v3, :cond_3
 
-    .line 10
     invoke-direct {p0, v3, p2}, Lcom/mopub/mobileads/VastXmlManagerAggregator;->evaluateInLineXmlManager(Lcom/mopub/mobileads/VastInLineXmlManager;Ljava/util/List;)Lcom/mopub/mobileads/VastVideoConfig;
 
     move-result-object v3
 
     if-eqz v3, :cond_3
 
-    .line 11
     invoke-direct {p0, v0, v3}, Lcom/mopub/mobileads/VastXmlManagerAggregator;->populateMoPubCustomElements(Lcom/mopub/mobileads/VastXmlManager;Lcom/mopub/mobileads/VastVideoConfig;)V
 
     return-object v3
 
-    .line 12
     :cond_3
     invoke-virtual {v2}, Lcom/mopub/mobileads/VastAdXmlManager;->getWrapperXmlManager()Lcom/mopub/mobileads/VastWrapperXmlManager;
 
@@ -1361,19 +1250,16 @@
 
     if-eqz v2, :cond_1
 
-    .line 13
     new-instance v3, Ljava/util/ArrayList;
 
     invoke-direct {v3, p2}, Ljava/util/ArrayList;-><init>(Ljava/util/Collection;)V
 
-    .line 14
     invoke-virtual {v2}, Lcom/mopub/mobileads/VastBaseInLineWrapperXmlManager;->getErrorTrackers()Ljava/util/List;
 
     move-result-object v4
 
     invoke-interface {v3, v4}, Ljava/util/List;->addAll(Ljava/util/Collection;)Z
 
-    .line 15
     invoke-direct {p0, v2, v3}, Lcom/mopub/mobileads/VastXmlManagerAggregator;->evaluateWrapperRedirect(Lcom/mopub/mobileads/VastWrapperXmlManager;Ljava/util/List;)Ljava/lang/String;
 
     move-result-object v4
@@ -1382,7 +1268,6 @@
 
     goto :goto_0
 
-    .line 16
     :cond_4
     invoke-virtual {p0, v4, v3}, Lcom/mopub/mobileads/VastXmlManagerAggregator;->evaluateVastXmlManager(Ljava/lang/String;Ljava/util/List;)Lcom/mopub/mobileads/VastVideoConfig;
 
@@ -1392,21 +1277,17 @@
 
     goto :goto_0
 
-    .line 17
     :cond_5
     invoke-virtual {v2}, Lcom/mopub/mobileads/VastBaseInLineWrapperXmlManager;->getImpressionTrackers()Ljava/util/List;
 
     move-result-object p1
 
-    .line 18
     invoke-virtual {v3, p1}, Lcom/mopub/mobileads/VastVideoConfig;->addImpressionTrackers(Ljava/util/List;)V
 
-    .line 19
     invoke-virtual {v2}, Lcom/mopub/mobileads/VastBaseInLineWrapperXmlManager;->getLinearXmlManagers()Ljava/util/List;
 
     move-result-object p1
 
-    .line 20
     invoke-interface {p1}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
     move-result-object p1
@@ -1424,52 +1305,42 @@
 
     check-cast p2, Lcom/mopub/mobileads/VastLinearXmlManager;
 
-    .line 21
     invoke-direct {p0, p2, v3}, Lcom/mopub/mobileads/VastXmlManagerAggregator;->populateLinearTrackersAndIcon(Lcom/mopub/mobileads/VastLinearXmlManager;Lcom/mopub/mobileads/VastVideoConfig;)V
 
     goto :goto_1
 
-    .line 22
     :cond_6
     invoke-direct {p0, v2, v3}, Lcom/mopub/mobileads/VastXmlManagerAggregator;->populateVideoViewabilityTracker(Lcom/mopub/mobileads/VastBaseInLineWrapperXmlManager;Lcom/mopub/mobileads/VastVideoConfig;)V
 
-    .line 23
     invoke-direct {p0, v2, v3}, Lcom/mopub/mobileads/VastXmlManagerAggregator;->populateViewabilityMetadata(Lcom/mopub/mobileads/VastBaseInLineWrapperXmlManager;Lcom/mopub/mobileads/VastVideoConfig;)V
 
-    .line 24
     iget-object p1, v2, Lcom/mopub/mobileads/VastBaseInLineWrapperXmlManager;->mNode:Lorg/w3c/dom/Node;
 
     invoke-direct {p0, p1, v3}, Lcom/mopub/mobileads/VastXmlManagerAggregator;->populateAdVerificationsOmid(Lorg/w3c/dom/Node;Lcom/mopub/mobileads/VastVideoConfig;)V
 
-    .line 25
     invoke-virtual {v2}, Lcom/mopub/mobileads/VastBaseInLineWrapperXmlManager;->getCompanionAdXmlManagers()Ljava/util/List;
 
     move-result-object p1
 
-    .line 26
     invoke-virtual {v3}, Lcom/mopub/mobileads/VastVideoConfig;->hasCompanionAd()Z
 
     move-result p2
 
     if-nez p2, :cond_7
 
-    .line 27
     invoke-virtual {p0, p1}, Lcom/mopub/mobileads/VastXmlManagerAggregator;->getAllCompanionAds(Ljava/util/List;)Ljava/util/Set;
 
     move-result-object p1
 
-    .line 28
     invoke-virtual {v3, p1}, Lcom/mopub/mobileads/VastVideoConfig;->addVastCompanionAdConfigs(Ljava/lang/Iterable;)V
 
     goto :goto_3
 
-    .line 29
     :cond_7
     invoke-virtual {v3}, Lcom/mopub/mobileads/VastVideoConfig;->getVastCompanionAdConfigs()Ljava/util/Set;
 
     move-result-object p2
 
-    .line 30
     invoke-interface {p2}, Ljava/util/Set;->iterator()Ljava/util/Iterator;
 
     move-result-object p2
@@ -1487,7 +1358,6 @@
 
     check-cast v1, Lcom/mopub/mobileads/VastCompanionAdConfig;
 
-    .line 31
     invoke-interface {p1}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
     move-result-object v2
@@ -1506,32 +1376,26 @@
 
     check-cast v4, Lcom/mopub/mobileads/VastCompanionAdXmlManager;
 
-    .line 32
     invoke-virtual {v4}, Lcom/mopub/mobileads/VastCompanionAdXmlManager;->hasResources()Z
 
     move-result v5
 
     if-nez v5, :cond_9
 
-    .line 33
     invoke-virtual {v4}, Lcom/mopub/mobileads/VastCompanionAdXmlManager;->getClickTrackers()Ljava/util/List;
 
     move-result-object v5
 
-    .line 34
     invoke-virtual {v1, v5}, Lcom/mopub/mobileads/VastCompanionAdConfig;->addClickTrackers(Ljava/util/Collection;)V
 
-    .line 35
     invoke-virtual {v4}, Lcom/mopub/mobileads/VastCompanionAdXmlManager;->getCompanionCreativeViewTrackers()Ljava/util/List;
 
     move-result-object v4
 
-    .line 36
     invoke-virtual {v1, v4}, Lcom/mopub/mobileads/VastCompanionAdConfig;->addCreativeViewTrackers(Ljava/util/Collection;)V
 
     goto :goto_2
 
-    .line 37
     :cond_a
     :goto_3
     invoke-direct {p0, v0, v3}, Lcom/mopub/mobileads/VastXmlManagerAggregator;->populateMoPubCustomElements(Lcom/mopub/mobileads/VastXmlManager;Lcom/mopub/mobileads/VastVideoConfig;)V
@@ -1544,7 +1408,6 @@
     :catch_0
     move-exception p1
 
-    .line 38
     sget-object v0, Lcom/mopub/common/logging/MoPubLog$SdkLogEvent;->ERROR_WITH_THROWABLE:Lcom/mopub/common/logging/MoPubLog$SdkLogEvent;
 
     const/4 v2, 0x2
@@ -1563,7 +1426,6 @@
 
     invoke-static {v0, v2}, Lcom/mopub/common/logging/MoPubLog;->log(Lcom/mopub/common/logging/MoPubLog$MPLogEventType;[Ljava/lang/Object;)V
 
-    .line 39
     sget-object p1, Lcom/mopub/mobileads/VastErrorCode;->XML_PARSING_ERROR:Lcom/mopub/mobileads/VastErrorCode;
 
     iget-object v0, p0, Lcom/mopub/mobileads/VastXmlManagerAggregator;->mContext:Landroid/content/Context;
@@ -1601,20 +1463,16 @@
 
     const-string v1, "managers cannot be null"
 
-    .line 1
     invoke-static {v0, v1}, Lcom/mopub/common/Preconditions;->checkNotNull(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 2
     new-instance v1, Ljava/util/HashSet;
 
     invoke-direct {v1}, Ljava/util/HashSet;-><init>()V
 
-    .line 3
     new-instance v2, Ljava/util/ArrayList;
 
     invoke-direct {v2, v0}, Ljava/util/ArrayList;-><init>(Ljava/util/Collection;)V
 
-    .line 4
     invoke-static {}, Lcom/mopub/mobileads/VastResource$Type;->values()[Lcom/mopub/mobileads/VastResource$Type;
 
     move-result-object v0
@@ -1628,7 +1486,6 @@
 
     aget-object v5, v0, v4
 
-    .line 5
     invoke-interface {v2}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
     move-result-object v6
@@ -1646,19 +1503,16 @@
 
     check-cast v7, Lcom/mopub/mobileads/VastCompanionAdXmlManager;
 
-    .line 6
     invoke-virtual {v7}, Lcom/mopub/mobileads/VastCompanionAdXmlManager;->getWidth()Ljava/lang/Integer;
 
     move-result-object v8
 
-    .line 7
     invoke-virtual {v7}, Lcom/mopub/mobileads/VastCompanionAdXmlManager;->getHeight()Ljava/lang/Integer;
 
     move-result-object v9
 
     if-eqz v8, :cond_2
 
-    .line 8
     invoke-virtual {v8}, Ljava/lang/Integer;->intValue()I
 
     move-result v10
@@ -1669,7 +1523,6 @@
 
     if-eqz v9, :cond_2
 
-    .line 9
     invoke-virtual {v9}, Ljava/lang/Integer;->intValue()I
 
     move-result v10
@@ -1680,7 +1533,6 @@
 
     goto :goto_1
 
-    .line 10
     :cond_0
     invoke-virtual {v8}, Ljava/lang/Integer;->intValue()I
 
@@ -1696,7 +1548,6 @@
 
     move-result-object v8
 
-    .line 11
     invoke-virtual {v7}, Lcom/mopub/mobileads/VastCompanionAdXmlManager;->getResourceXmlManager()Lcom/mopub/mobileads/VastResourceXmlManager;
 
     move-result-object v9
@@ -1705,7 +1556,6 @@
 
     iget v12, v8, Landroid/graphics/Point;->y:I
 
-    .line 12
     invoke-static {v9, v5, v11, v12}, Lcom/mopub/mobileads/VastResource;->fromVastResourceXmlManager(Lcom/mopub/mobileads/VastResourceXmlManager;Lcom/mopub/mobileads/VastResource$Type;II)Lcom/mopub/mobileads/VastResource;
 
     move-result-object v16
@@ -1714,7 +1564,6 @@
 
     goto :goto_1
 
-    .line 13
     :cond_1
     new-instance v9, Lcom/mopub/mobileads/VastCompanionAdConfig;
 
@@ -1722,17 +1571,14 @@
 
     iget v15, v8, Landroid/graphics/Point;->y:I
 
-    .line 14
     invoke-virtual {v7}, Lcom/mopub/mobileads/VastCompanionAdXmlManager;->getClickThroughUrl()Ljava/lang/String;
 
     move-result-object v17
 
-    .line 15
     invoke-virtual {v7}, Lcom/mopub/mobileads/VastCompanionAdXmlManager;->getClickTrackers()Ljava/util/List;
 
     move-result-object v18
 
-    .line 16
     invoke-virtual {v7}, Lcom/mopub/mobileads/VastCompanionAdXmlManager;->getCompanionCreativeViewTrackers()Ljava/util/List;
 
     move-result-object v19
@@ -1743,7 +1589,6 @@
 
     invoke-direct/range {v13 .. v20}, Lcom/mopub/mobileads/VastCompanionAdConfig;-><init>(IILcom/mopub/mobileads/VastResource;Ljava/lang/String;Ljava/util/List;Ljava/util/List;Ljava/lang/String;)V
 
-    .line 17
     invoke-interface {v1, v9}, Ljava/util/Set;->add(Ljava/lang/Object;)Z
 
     goto :goto_1
@@ -1792,15 +1637,12 @@
 
     const-string v1, "managers cannot be null"
 
-    .line 1
     invoke-static {v0, v1}, Lcom/mopub/common/Preconditions;->checkNotNull(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 2
     new-instance v1, Ljava/util/ArrayList;
 
     invoke-direct {v1, v0}, Ljava/util/ArrayList;-><init>(Ljava/util/Collection;)V
 
-    .line 3
     invoke-static {}, Lcom/mopub/mobileads/VastResource$Type;->values()[Lcom/mopub/mobileads/VastResource$Type;
 
     move-result-object v0
@@ -1814,12 +1656,10 @@
 
     aget-object v4, v0, v3
 
-    .line 4
     invoke-interface {v1}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
     move-result-object v5
 
-    .line 5
     :cond_0
     :goto_1
     invoke-interface {v5}, Ljava/util/Iterator;->hasNext()Z
@@ -1828,26 +1668,22 @@
 
     if-eqz v6, :cond_3
 
-    .line 6
     invoke-interface {v5}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
     move-result-object v6
 
     check-cast v6, Lcom/mopub/mobileads/VastIconXmlManager;
 
-    .line 7
     invoke-virtual {v6}, Lcom/mopub/mobileads/VastIconXmlManager;->getWidth()Ljava/lang/Integer;
 
     move-result-object v7
 
-    .line 8
     invoke-virtual {v6}, Lcom/mopub/mobileads/VastIconXmlManager;->getHeight()Ljava/lang/Integer;
 
     move-result-object v8
 
     if-eqz v7, :cond_0
 
-    .line 9
     invoke-virtual {v7}, Ljava/lang/Integer;->intValue()I
 
     move-result v9
@@ -1864,7 +1700,6 @@
 
     if-eqz v8, :cond_0
 
-    .line 10
     invoke-virtual {v8}, Ljava/lang/Integer;->intValue()I
 
     move-result v9
@@ -1879,7 +1714,6 @@
 
     goto :goto_1
 
-    .line 11
     :cond_1
     invoke-virtual {v6}, Lcom/mopub/mobileads/VastIconXmlManager;->getResourceXmlManager()Lcom/mopub/mobileads/VastResourceXmlManager;
 
@@ -1893,7 +1727,6 @@
 
     move-result v8
 
-    .line 12
     invoke-static {v9, v4, v7, v8}, Lcom/mopub/mobileads/VastResource;->fromVastResourceXmlManager(Lcom/mopub/mobileads/VastResourceXmlManager;Lcom/mopub/mobileads/VastResource$Type;II)Lcom/mopub/mobileads/VastResource;
 
     move-result-object v15
@@ -1902,11 +1735,9 @@
 
     goto :goto_1
 
-    .line 13
     :cond_2
     new-instance v0, Lcom/mopub/mobileads/VastIconConfig;
 
-    .line 14
     invoke-virtual {v6}, Lcom/mopub/mobileads/VastIconXmlManager;->getWidth()Ljava/lang/Integer;
 
     move-result-object v1
@@ -1915,7 +1746,6 @@
 
     move-result v11
 
-    .line 15
     invoke-virtual {v6}, Lcom/mopub/mobileads/VastIconXmlManager;->getHeight()Ljava/lang/Integer;
 
     move-result-object v1
@@ -1924,27 +1754,22 @@
 
     move-result v12
 
-    .line 16
     invoke-virtual {v6}, Lcom/mopub/mobileads/VastIconXmlManager;->getOffsetMS()Ljava/lang/Integer;
 
     move-result-object v13
 
-    .line 17
     invoke-virtual {v6}, Lcom/mopub/mobileads/VastIconXmlManager;->getDurationMS()Ljava/lang/Integer;
 
     move-result-object v14
 
-    .line 18
     invoke-virtual {v6}, Lcom/mopub/mobileads/VastIconXmlManager;->getClickTrackingUris()Ljava/util/List;
 
     move-result-object v16
 
-    .line 19
     invoke-virtual {v6}, Lcom/mopub/mobileads/VastIconXmlManager;->getClickThroughUri()Ljava/lang/String;
 
     move-result-object v17
 
-    .line 20
     invoke-virtual {v6}, Lcom/mopub/mobileads/VastIconXmlManager;->getViewTrackingUris()Ljava/util/List;
 
     move-result-object v18
@@ -1990,15 +1815,12 @@
 
     const-string v0, "managers cannot be null"
 
-    .line 1
     invoke-static {p1, v0}, Lcom/mopub/common/Preconditions;->checkNotNull(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 2
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0, p1}, Ljava/util/ArrayList;-><init>(Ljava/util/Collection;)V
 
-    .line 3
     invoke-interface {v0}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
     move-result-object p1
@@ -2007,7 +1829,6 @@
 
     const/4 v2, 0x0
 
-    .line 4
     :cond_0
     :goto_0
     invoke-interface {p1}, Ljava/util/Iterator;->hasNext()Z
@@ -2016,24 +1837,20 @@
 
     if-eqz v3, :cond_4
 
-    .line 5
     invoke-interface {p1}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
     move-result-object v3
 
     check-cast v3, Lcom/mopub/mobileads/VastMediaXmlManager;
 
-    .line 6
     invoke-virtual {v3}, Lcom/mopub/mobileads/VastMediaXmlManager;->getType()Ljava/lang/String;
 
     move-result-object v4
 
-    .line 7
     invoke-virtual {v3}, Lcom/mopub/mobileads/VastMediaXmlManager;->getMediaUrl()Ljava/lang/String;
 
     move-result-object v5
 
-    .line 8
     sget-object v6, Lcom/mopub/mobileads/VastXmlManagerAggregator;->VIDEO_MIME_TYPES:Ljava/util/List;
 
     invoke-interface {v6, v4}, Ljava/util/List;->contains(Ljava/lang/Object;)Z
@@ -2046,25 +1863,21 @@
 
     goto :goto_1
 
-    .line 9
     :cond_1
     invoke-virtual {v3}, Lcom/mopub/mobileads/VastMediaXmlManager;->getWidth()Ljava/lang/Integer;
 
     move-result-object v6
 
-    .line 10
     invoke-virtual {v3}, Lcom/mopub/mobileads/VastMediaXmlManager;->getHeight()Ljava/lang/Integer;
 
     move-result-object v7
 
-    .line 11
     invoke-virtual {v3}, Lcom/mopub/mobileads/VastMediaXmlManager;->getBitrate()Ljava/lang/Integer;
 
     move-result-object v3
 
     if-eqz v6, :cond_0
 
-    .line 12
     invoke-virtual {v6}, Ljava/lang/Integer;->intValue()I
 
     move-result v8
@@ -2081,18 +1894,15 @@
 
     goto :goto_0
 
-    .line 13
     :cond_2
     invoke-virtual {v6}, Ljava/lang/Integer;->intValue()I
 
     move-result v6
 
-    .line 14
     invoke-virtual {v7}, Ljava/lang/Integer;->intValue()I
 
     move-result v7
 
-    .line 15
     invoke-direct {p0, v6, v7, v3, v4}, Lcom/mopub/mobileads/VastXmlManagerAggregator;->calculateFitness(IILjava/lang/Integer;Ljava/lang/String;)D
 
     move-result-wide v3
@@ -2107,7 +1917,6 @@
 
     goto :goto_0
 
-    .line 16
     :cond_3
     :goto_1
     invoke-interface {p1}, Ljava/util/Iterator;->remove()V
@@ -2126,12 +1935,10 @@
     .annotation build Lcom/mopub/common/VisibleForTesting;
     .end annotation
 
-    .line 1
     new-instance v0, Landroid/graphics/Point;
 
     invoke-direct {v0, p1, p2}, Landroid/graphics/Point;-><init>(II)V
 
-    .line 2
     iget-object v1, p0, Lcom/mopub/mobileads/VastXmlManagerAggregator;->mContext:Landroid/content/Context;
 
     const-string v2, "window"
@@ -2142,24 +1949,20 @@
 
     check-cast v1, Landroid/view/WindowManager;
 
-    .line 3
     invoke-interface {v1}, Landroid/view/WindowManager;->getDefaultDisplay()Landroid/view/Display;
 
     move-result-object v1
 
-    .line 4
     invoke-virtual {v1}, Landroid/view/Display;->getWidth()I
 
     move-result v2
 
-    .line 5
     invoke-virtual {v1}, Landroid/view/Display;->getHeight()I
 
     move-result v1
 
     int-to-float p1, p1
 
-    .line 6
     iget-object v3, p0, Lcom/mopub/mobileads/VastXmlManagerAggregator;->mContext:Landroid/content/Context;
 
     invoke-static {p1, v3}, Lcom/mopub/common/util/Dips;->dipsToIntPixels(FLandroid/content/Context;)I
@@ -2168,7 +1971,6 @@
 
     int-to-float p2, p2
 
-    .line 7
     iget-object v3, p0, Lcom/mopub/mobileads/VastXmlManagerAggregator;->mContext:Landroid/content/Context;
 
     invoke-static {p2, v3}, Lcom/mopub/common/util/Dips;->dipsToIntPixels(FLandroid/content/Context;)I
@@ -2185,25 +1987,21 @@
 
     return-object v0
 
-    .line 8
     :cond_0
     new-instance v3, Landroid/graphics/Point;
 
     invoke-direct {v3}, Landroid/graphics/Point;-><init>()V
 
-    .line 9
     sget-object v4, Lcom/mopub/mobileads/VastResource$Type;->HTML_RESOURCE:Lcom/mopub/mobileads/VastResource$Type;
 
     if-ne v4, p3, :cond_1
 
-    .line 10
     invoke-static {v2, p1}, Ljava/lang/Math;->min(II)I
 
     move-result p1
 
     iput p1, v3, Landroid/graphics/Point;->x:I
 
-    .line 11
     invoke-static {v1, p2}, Ljava/lang/Math;->min(II)I
 
     move-result p1
@@ -2229,14 +2027,12 @@
 
     if-ltz v5, :cond_2
 
-    .line 12
     iput v2, v3, Landroid/graphics/Point;->x:I
 
     div-float/2addr p2, p3
 
     float-to-int p1, p2
 
-    .line 13
     iput p1, v3, Landroid/graphics/Point;->y:I
 
     goto :goto_0
@@ -2246,13 +2042,10 @@
 
     float-to-int p1, p1
 
-    .line 14
     iput p1, v3, Landroid/graphics/Point;->x:I
 
-    .line 15
     iput v1, v3, Landroid/graphics/Point;->y:I
 
-    .line 16
     :goto_0
     iget p1, v3, Landroid/graphics/Point;->x:I
 
@@ -2260,7 +2053,6 @@
 
     iput p1, v3, Landroid/graphics/Point;->x:I
 
-    .line 17
     iget p2, v3, Landroid/graphics/Point;->y:I
 
     add-int/lit8 p2, p2, -0x10
@@ -2276,7 +2068,6 @@
     :cond_3
     int-to-float p1, p1
 
-    .line 18
     iget-object p2, p0, Lcom/mopub/mobileads/VastXmlManagerAggregator;->mContext:Landroid/content/Context;
 
     invoke-static {p1, p2}, Lcom/mopub/common/util/Dips;->pixelsToIntDips(FLandroid/content/Context;)I
@@ -2285,7 +2076,6 @@
 
     iput p1, v3, Landroid/graphics/Point;->x:I
 
-    .line 19
     iget p1, v3, Landroid/graphics/Point;->y:I
 
     int-to-float p1, p1
@@ -2308,7 +2098,6 @@
 .method protected onCancelled()V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/mobileads/VastXmlManagerAggregator;->mVastXmlManagerAggregatorListener:Ljava/lang/ref/WeakReference;
 
     invoke-virtual {v0}, Ljava/lang/ref/WeakReference;->get()Ljava/lang/Object;
@@ -2321,7 +2110,6 @@
 
     const/4 v1, 0x0
 
-    .line 2
     invoke-interface {v0, v1}, Lcom/mopub/mobileads/VastXmlManagerAggregator$VastXmlManagerAggregatorListener;->onAggregationComplete(Lcom/mopub/mobileads/VastVideoConfig;)V
 
     :cond_0
@@ -2335,7 +2123,6 @@
         .end annotation
     .end param
 
-    .line 2
     iget-object v0, p0, Lcom/mopub/mobileads/VastXmlManagerAggregator;->mVastXmlManagerAggregatorListener:Ljava/lang/ref/WeakReference;
 
     invoke-virtual {v0}, Ljava/lang/ref/WeakReference;->get()Ljava/lang/Object;
@@ -2346,7 +2133,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 3
     invoke-interface {v0, p1}, Lcom/mopub/mobileads/VastXmlManagerAggregator$VastXmlManagerAggregatorListener;->onAggregationComplete(Lcom/mopub/mobileads/VastVideoConfig;)V
 
     :cond_0
@@ -2360,7 +2146,6 @@
         .end annotation
     .end param
 
-    .line 1
     check-cast p1, Lcom/mopub/mobileads/VastVideoConfig;
 
     invoke-virtual {p0, p1}, Lcom/mopub/mobileads/VastXmlManagerAggregator;->onPostExecute(Lcom/mopub/mobileads/VastVideoConfig;)V
@@ -2371,7 +2156,6 @@
 .method protected onPreExecute()V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/mobileads/VastXmlManagerAggregator;->mContext:Landroid/content/Context;
 
     invoke-static {v0}, Lcom/mopub/network/Networking;->getUserAgent(Landroid/content/Context;)Ljava/lang/String;
@@ -2387,7 +2171,6 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    .line 1
     iput p1, p0, Lcom/mopub/mobileads/VastXmlManagerAggregator;->mTimesFollowedVastRedirect:I
 
     return-void

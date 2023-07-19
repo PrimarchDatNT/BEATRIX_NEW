@@ -31,19 +31,14 @@
 .method constructor <init>([BII)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/bumptech/glide/integration/webp/WebpHeaderParser$a;->a:[B
 
-    .line 3
     iput p2, p0, Lcom/bumptech/glide/integration/webp/WebpHeaderParser$a;->b:I
 
-    .line 4
     iput p3, p0, Lcom/bumptech/glide/integration/webp/WebpHeaderParser$a;->c:I
 
-    .line 5
     iput p2, p0, Lcom/bumptech/glide/integration/webp/WebpHeaderParser$a;->d:I
 
     return-void
@@ -59,7 +54,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/bumptech/glide/integration/webp/WebpHeaderParser$a;->b()I
 
     move-result v0
@@ -89,7 +83,6 @@
         }
     .end annotation
 
-    .line 1
     iget v0, p0, Lcom/bumptech/glide/integration/webp/WebpHeaderParser$a;->d:I
 
     iget v1, p0, Lcom/bumptech/glide/integration/webp/WebpHeaderParser$a;->b:I
@@ -104,7 +97,6 @@
 
     return v0
 
-    .line 2
     :cond_0
     iget-object v1, p0, Lcom/bumptech/glide/integration/webp/WebpHeaderParser$a;->a:[B
 
@@ -125,7 +117,6 @@
         }
     .end annotation
 
-    .line 1
     iget v0, p0, Lcom/bumptech/glide/integration/webp/WebpHeaderParser$a;->b:I
 
     iget v1, p0, Lcom/bumptech/glide/integration/webp/WebpHeaderParser$a;->c:I
@@ -146,7 +137,6 @@
 
     return p1
 
-    .line 2
     :cond_0
     iget-object v0, p0, Lcom/bumptech/glide/integration/webp/WebpHeaderParser$a;->a:[B
 
@@ -167,7 +157,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/bumptech/glide/integration/webp/WebpHeaderParser$a;->b()I
 
     move-result v0
@@ -187,7 +176,6 @@
         }
     .end annotation
 
-    .line 1
     iget v0, p0, Lcom/bumptech/glide/integration/webp/WebpHeaderParser$a;->b:I
 
     iget v1, p0, Lcom/bumptech/glide/integration/webp/WebpHeaderParser$a;->c:I
@@ -206,7 +194,6 @@
 
     long-to-int p2, p1
 
-    .line 2
     iget p1, p0, Lcom/bumptech/glide/integration/webp/WebpHeaderParser$a;->d:I
 
     add-int/2addr p1, p2

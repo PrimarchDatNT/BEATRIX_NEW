@@ -11,7 +11,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -20,7 +19,6 @@
 .method private AFDateFormat(Ljava/lang/String;Ljava/lang/String;)V
     .locals 4
 
-    .line 1
     :try_start_0
     new-instance v0, Lorg/json/JSONObject;
 
@@ -30,17 +28,14 @@
 
     const-string v2, "failure"
 
-    .line 2
     invoke-virtual {v0, v1, v2}, Lorg/json/JSONObject;->put(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;
 
     const-string v1, "data"
 
-    .line 3
     invoke-virtual {v0, v1, p2}, Lorg/json/JSONObject;->put(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;
 
     const/4 p2, -0x1
 
-    .line 4
     invoke-virtual {p1}, Ljava/lang/Object;->hashCode()I
 
     move-result v1
@@ -89,14 +84,12 @@
 
     goto :goto_1
 
-    .line 5
     :cond_3
     invoke-virtual {p0, v0}, Lcom/appsflyer/AppsFlyer2dXConversionCallback;->onAttributionFailureNative(Ljava/lang/Object;)V
 
     :goto_1
     return-void
 
-    .line 6
     :cond_4
     invoke-virtual {p0, v0}, Lcom/appsflyer/AppsFlyer2dXConversionCallback;->onInstallConversionFailureNative(Ljava/lang/Object;)V
     :try_end_0
@@ -107,7 +100,6 @@
     :catch_0
     move-exception p1
 
-    .line 7
     invoke-virtual {p1}, Ljava/lang/Throwable;->printStackTrace()V
 
     return-void
@@ -127,7 +119,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0, p1}, Lcom/appsflyer/AppsFlyer2dXConversionCallback;->onAppOpenAttributionNative(Ljava/lang/Object;)V
 
     return-void
@@ -141,7 +132,6 @@
 
     const-string v0, "onInstallConversionFailure"
 
-    .line 1
     invoke-direct {p0, v0, p1}, Lcom/appsflyer/AppsFlyer2dXConversionCallback;->AFDateFormat(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
@@ -155,7 +145,6 @@
 
     const-string v0, "onAttributionFailure"
 
-    .line 1
     invoke-direct {p0, v0, p1}, Lcom/appsflyer/AppsFlyer2dXConversionCallback;->AFDateFormat(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
@@ -173,7 +162,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0, p1}, Lcom/appsflyer/AppsFlyer2dXConversionCallback;->onInstallConversionDataLoadedNative(Ljava/lang/Object;)V
 
     return-void
@@ -186,7 +174,6 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-virtual {p0, p1}, Lcom/appsflyer/AppsFlyer2dXConversionCallback;->onDeepLinkingNative(Lcom/appsflyer/deeplink/DeepLinkResult;)V
 
     return-void

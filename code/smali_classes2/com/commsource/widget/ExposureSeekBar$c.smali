@@ -31,7 +31,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/widget/ExposureSeekBar$c;->a:Lcom/commsource/widget/ExposureSeekBar;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -52,7 +51,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -69,7 +67,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/widget/ExposureSeekBar$c;->a:Lcom/commsource/widget/ExposureSeekBar;
 
     invoke-static {v0}, Lcom/commsource/widget/ExposureSeekBar;->c(Lcom/commsource/widget/ExposureSeekBar;)Lcom/commsource/camera/f1/n;
@@ -86,7 +83,6 @@
 
     invoke-virtual {v0, v1, v2}, Lcom/commsource/camera/f1/n;->f(FF)V
 
-    .line 2
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -111,7 +107,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -124,7 +119,6 @@
 
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/widget/ExposureSeekBar$c;->a:Lcom/commsource/widget/ExposureSeekBar;
 
     invoke-static {v0}, Lcom/commsource/widget/ExposureSeekBar;->c(Lcom/commsource/widget/ExposureSeekBar;)Lcom/commsource/camera/f1/n;
@@ -137,12 +131,10 @@
 
     invoke-static {v0, p1}, Lcom/commsource/widget/ExposureSeekBar;->f(Lcom/commsource/widget/ExposureSeekBar;F)V
 
-    .line 2
     iget-object p1, p0, Lcom/commsource/widget/ExposureSeekBar$c;->a:Lcom/commsource/widget/ExposureSeekBar;
 
     invoke-virtual {p1}, Landroid/view/View;->invalidate()V
 
-    .line 3
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

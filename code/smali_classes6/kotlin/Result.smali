@@ -64,7 +64,6 @@
     .annotation build Lcotlin/p0;
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     iput-object p1, p0, Lcotlin/Result;->value:Ljava/lang/Object;
@@ -141,7 +140,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     instance-of v0, p0, Lcotlin/Result$Failure;
 
     if-eqz v0, :cond_0
@@ -172,7 +170,6 @@
     .annotation build Lcotlin/internal/f;
     .end annotation
 
-    .line 1
     invoke-static {p0}, Lcotlin/Result;->isFailure-impl(Ljava/lang/Object;)Z
 
     move-result v0
@@ -214,7 +211,6 @@
 .method public static final isFailure-impl(Ljava/lang/Object;)Z
     .locals 0
 
-    .line 1
     instance-of p0, p0, Lcotlin/Result$Failure;
 
     return p0
@@ -223,7 +219,6 @@
 .method public static final isSuccess-impl(Ljava/lang/Object;)Z
     .locals 0
 
-    .line 1
     instance-of p0, p0, Lcotlin/Result$Failure;
 
     xor-int/lit8 p0, p0, 0x1
@@ -236,7 +231,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     instance-of v0, p0, Lcotlin/Result$Failure;
 
     if-eqz v0, :cond_0
@@ -247,7 +241,6 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     new-instance v0, Ljava/lang/StringBuilder;
 
@@ -276,7 +269,6 @@
 .method public equals(Ljava/lang/Object;)Z
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcotlin/Result;->value:Ljava/lang/Object;
 
     invoke-static {v0, p1}, Lcotlin/Result;->equals-impl(Ljava/lang/Object;Ljava/lang/Object;)Z
@@ -289,7 +281,6 @@
 .method public hashCode()I
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcotlin/Result;->value:Ljava/lang/Object;
 
     invoke-static {v0}, Lcotlin/Result;->hashCode-impl(Ljava/lang/Object;)I
@@ -304,7 +295,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcotlin/Result;->value:Ljava/lang/Object;
 
     invoke-static {v0}, Lcotlin/Result;->toString-impl(Ljava/lang/Object;)Ljava/lang/String;

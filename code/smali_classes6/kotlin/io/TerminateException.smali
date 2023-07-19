@@ -30,7 +30,6 @@
 
     move-object v2, p1
 
-    .line 1
     invoke-direct/range {v1 .. v6}, Lcotlin/io/FileSystemException;-><init>(Ljava/io/File;Ljava/io/File;Ljava/lang/String;ILcotlin/jvm/internal/u;)V
 
     return-void

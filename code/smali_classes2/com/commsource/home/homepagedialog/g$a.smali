@@ -42,14 +42,12 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/home/homepagedialog/g$a;->a:Lcom/commsource/home/homepagedialog/g;
 
     const/4 v1, 0x0
 
     invoke-virtual {v0, v1}, Lcom/commsource/home/homepagedialog/g;->n(Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/LookGuideDialog;)V
 
-    .line 2
     iget-object v0, p0, Lcom/commsource/home/homepagedialog/g$a;->a:Lcom/commsource/home/homepagedialog/g;
 
     invoke-virtual {v0}, Lcom/commsource/home/homepagedialog/g;->j()Lcom/commsource/camera/xcamera/cover/bottomFunction/b;
@@ -60,7 +58,6 @@
 
     invoke-virtual {v0, v1}, Lcom/commsource/camera/xcamera/cover/bottomFunction/b;->S(Lcom/commsource/camera/xcamera/cover/bottomFunction/BottomFunction;)V
 
-    .line 3
     iget-object v0, p0, Lcom/commsource/home/homepagedialog/g$a;->a:Lcom/commsource/home/homepagedialog/g;
 
     invoke-virtual {v0}, Lcom/commsource/home/homepagedialog/g;->m()Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/EffectFunctionViewModel;
@@ -71,7 +68,6 @@
 
     invoke-virtual {v0, v1}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/EffectFunctionViewModel;->G(Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/EffectFunction;)V
 
-    .line 4
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

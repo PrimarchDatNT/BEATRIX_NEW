@@ -22,7 +22,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lio/grpc/u0;-><init>()V
 
     return-void
@@ -33,7 +32,6 @@
 .method public a(Lio/grpc/t0$d;)Lio/grpc/t0;
     .locals 1
 
-    .line 1
     new-instance v0, Lio/grpc/a2/g;
 
     invoke-direct {v0, p1}, Lio/grpc/a2/g;-><init>(Lio/grpc/t0$d;)V
@@ -79,7 +77,6 @@
 
     const-string p1, "no service config"
 
-    .line 1
     invoke-static {p1}, Lio/grpc/z0$c;->a(Ljava/lang/Object;)Lio/grpc/z0$c;
 
     move-result-object p1

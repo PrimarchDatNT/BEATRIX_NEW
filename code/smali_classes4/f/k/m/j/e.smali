@@ -25,12 +25,10 @@
 
     const/4 v1, 0x0
 
-    .line 1
     sput-boolean v1, Lf/k/m/j/e;->c:Z
 
     const-wide/16 v1, 0x0
 
-    .line 2
     sput-wide v1, Lf/k/m/j/e;->e:J
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -41,10 +39,8 @@
 .method private constructor <init>()V
     .locals 2
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     new-instance v0, Ljava/lang/UnsupportedOperationException;
 
     const-string v1, "Prohibited!"
@@ -61,25 +57,20 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-boolean v1, Lf/k/m/j/e;->c:Z
 
     if-eqz v1, :cond_0
 
     const-string v1, "IPStore"
 
-    .line 2
     invoke-static {v1, p0}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 3
     sget-object v2, Lf/k/m/j/e;->d:Lf/k/m/j/c;
 
     if-eqz v2, :cond_0
 
-    .line 4
     invoke-interface {v2, v1, p0}, Lf/k/m/j/c;->b(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 5
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -93,12 +84,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-boolean v1, Lf/k/m/j/e;->c:Z
 
     if-eqz v1, :cond_0
 
-    .line 2
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -115,12 +104,10 @@
 
     invoke-static {v1, p1}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 3
     sget-object v1, Lf/k/m/j/e;->d:Lf/k/m/j/c;
 
     if-eqz v1, :cond_0
 
-    .line 4
     new-instance v3, Ljava/lang/StringBuilder;
 
     invoke-direct {v3}, Ljava/lang/StringBuilder;-><init>()V
@@ -135,7 +122,6 @@
 
     invoke-interface {v1, p0, p1}, Lf/k/m/j/c;->b(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 5
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -151,18 +137,14 @@
 
     const-string v1, "IPStore"
 
-    .line 1
     invoke-static {v1, p0}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 2
     sget-object v2, Lf/k/m/j/e;->d:Lf/k/m/j/c;
 
     if-eqz v2, :cond_0
 
-    .line 3
     invoke-interface {v2, v1, p0}, Lf/k/m/j/c;->a(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 4
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -176,7 +158,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -193,12 +174,10 @@
 
     invoke-static {v1, p1}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 2
     sget-object v1, Lf/k/m/j/e;->d:Lf/k/m/j/c;
 
     if-eqz v1, :cond_0
 
-    .line 3
     new-instance v3, Ljava/lang/StringBuilder;
 
     invoke-direct {v3}, Ljava/lang/StringBuilder;-><init>()V
@@ -213,7 +192,6 @@
 
     invoke-interface {v1, p0, p1}, Lf/k/m/j/c;->a(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 4
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -227,7 +205,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -244,12 +221,10 @@
 
     invoke-static {v1, p1, p2}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
 
-    .line 2
     sget-object v1, Lf/k/m/j/e;->d:Lf/k/m/j/c;
 
     if-eqz v1, :cond_0
 
-    .line 3
     new-instance v3, Ljava/lang/StringBuilder;
 
     invoke-direct {v3}, Ljava/lang/StringBuilder;-><init>()V
@@ -280,7 +255,6 @@
 
     invoke-interface {v1, p0, p1}, Lf/k/m/j/c;->a(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 4
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -296,15 +270,12 @@
 
     const-string v1, "IPStore"
 
-    .line 1
     invoke-static {v1, p0, p1}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
 
-    .line 2
     sget-object v2, Lf/k/m/j/e;->d:Lf/k/m/j/c;
 
     if-eqz v2, :cond_0
 
-    .line 3
     new-instance v3, Ljava/lang/StringBuilder;
 
     invoke-direct {v3}, Ljava/lang/StringBuilder;-><init>()V
@@ -323,7 +294,6 @@
 
     invoke-interface {v2, v1, p0}, Lf/k/m/j/c;->a(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 4
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -339,18 +309,14 @@
 
     const-string v1, "IPStore"
 
-    .line 1
     invoke-static {v1, p0}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 2
     sget-object v2, Lf/k/m/j/e;->d:Lf/k/m/j/c;
 
     if-eqz v2, :cond_0
 
-    .line 3
     invoke-interface {v2, v1, p0}, Lf/k/m/j/c;->c(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 4
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -364,7 +330,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -381,12 +346,10 @@
 
     invoke-static {v1, p1}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 2
     sget-object v1, Lf/k/m/j/e;->d:Lf/k/m/j/c;
 
     if-eqz v1, :cond_0
 
-    .line 3
     new-instance v3, Ljava/lang/StringBuilder;
 
     invoke-direct {v3}, Ljava/lang/StringBuilder;-><init>()V
@@ -401,7 +364,6 @@
 
     invoke-interface {v1, p0, p1}, Lf/k/m/j/c;->c(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 4
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -415,7 +377,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-boolean v1, Lf/k/m/j/e;->c:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -430,17 +391,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-boolean v1, Lf/k/m/j/e;->c:Z
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-static {}, Landroid/os/SystemClock;->elapsedRealtime()J
 
     move-result-wide v1
 
-    .line 3
     new-instance v3, Ljava/lang/StringBuilder;
 
     invoke-direct {v3}, Ljava/lang/StringBuilder;-><init>()V
@@ -465,10 +423,8 @@
 
     invoke-static {v3, p0}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 4
     sput-wide v1, Lf/k/m/j/e;->e:J
 
-    .line 5
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -482,10 +438,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sput-boolean p0, Lf/k/m/j/e;->c:Z
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -498,10 +452,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sput-object p0, Lf/k/m/j/e;->d:Lf/k/m/j/c;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -514,25 +466,20 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-boolean v1, Lf/k/m/j/e;->c:Z
 
     if-eqz v1, :cond_0
 
     const-string v1, "IPStore"
 
-    .line 2
     invoke-static {v1, p0}, Landroid/util/Log;->v(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 3
     sget-object v2, Lf/k/m/j/e;->d:Lf/k/m/j/c;
 
     if-eqz v2, :cond_0
 
-    .line 4
     invoke-interface {v2, v1, p0}, Lf/k/m/j/c;->e(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 5
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -546,12 +493,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-boolean v1, Lf/k/m/j/e;->c:Z
 
     if-eqz v1, :cond_0
 
-    .line 2
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -568,12 +513,10 @@
 
     invoke-static {v1, p1}, Landroid/util/Log;->v(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 3
     sget-object v1, Lf/k/m/j/e;->d:Lf/k/m/j/c;
 
     if-eqz v1, :cond_0
 
-    .line 4
     new-instance v3, Ljava/lang/StringBuilder;
 
     invoke-direct {v3}, Ljava/lang/StringBuilder;-><init>()V
@@ -588,7 +531,6 @@
 
     invoke-interface {v1, p0, p1}, Lf/k/m/j/c;->e(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 5
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -604,18 +546,14 @@
 
     const-string v1, "IPStore"
 
-    .line 1
     invoke-static {v1, p0}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 2
     sget-object v2, Lf/k/m/j/e;->d:Lf/k/m/j/c;
 
     if-eqz v2, :cond_0
 
-    .line 3
     invoke-interface {v2, v1, p0}, Lf/k/m/j/c;->d(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 4
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -629,7 +567,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -646,12 +583,10 @@
 
     invoke-static {v1, p1}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 2
     sget-object v1, Lf/k/m/j/e;->d:Lf/k/m/j/c;
 
     if-eqz v1, :cond_0
 
-    .line 3
     new-instance v3, Ljava/lang/StringBuilder;
 
     invoke-direct {v3}, Ljava/lang/StringBuilder;-><init>()V
@@ -666,7 +601,6 @@
 
     invoke-interface {v1, p0, p1}, Lf/k/m/j/c;->d(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 4
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

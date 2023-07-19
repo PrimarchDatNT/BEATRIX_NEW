@@ -20,7 +20,6 @@
 .method public constructor <init>(Landroid/database/sqlite/SQLiteDatabase;)V
     .locals 1
 
-    .line 1
     new-instance v0, Lorg/greenrobot/greendao/database/f;
 
     invoke-direct {v0, p1}, Lorg/greenrobot/greendao/database/f;-><init>(Landroid/database/sqlite/SQLiteDatabase;)V
@@ -35,15 +34,12 @@
 
     const/16 v0, 0xa
 
-    .line 2
     invoke-direct {p0, p1, v0}, Lorg/greenrobot/greendao/b;-><init>(Lorg/greenrobot/greendao/database/a;I)V
 
-    .line 3
     const-class p1, Lcom/meitu/ipstore/storage/bean/dao/PartnerBeanDao;
 
     invoke-virtual {p0, p1}, Lorg/greenrobot/greendao/b;->e(Ljava/lang/Class;)V
 
-    .line 4
     const-class p1, Lcom/meitu/ipstore/storage/bean/dao/SubsShortBeanDao;
 
     invoke-virtual {p0, p1}, Lorg/greenrobot/greendao/b;->e(Ljava/lang/Class;)V
@@ -58,13 +54,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p0, p1}, Lcom/meitu/ipstore/storage/bean/dao/PartnerBeanDao;->y0(Lorg/greenrobot/greendao/database/a;Z)V
 
-    .line 2
     invoke-static {p0, p1}, Lcom/meitu/ipstore/storage/bean/dao/SubsShortBeanDao;->x0(Lorg/greenrobot/greendao/database/a;Z)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -77,13 +70,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p0, p1}, Lcom/meitu/ipstore/storage/bean/dao/PartnerBeanDao;->z0(Lorg/greenrobot/greendao/database/a;Z)V
 
-    .line 2
     invoke-static {p0, p1}, Lcom/meitu/ipstore/storage/bean/dao/SubsShortBeanDao;->y0(Lorg/greenrobot/greendao/database/a;Z)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -96,7 +86,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/meitu/ipstore/storage/bean/dao/a$a;
 
     invoke-direct {v1, p0, p1}, Lcom/meitu/ipstore/storage/bean/dao/a$a;-><init>(Landroid/content/Context;Ljava/lang/String;)V
@@ -105,12 +94,10 @@
 
     move-result-object p0
 
-    .line 2
     new-instance p1, Lcom/meitu/ipstore/storage/bean/dao/a;
 
     invoke-direct {p1, p0}, Lcom/meitu/ipstore/storage/bean/dao/a;-><init>(Lorg/greenrobot/greendao/database/a;)V
 
-    .line 3
     invoke-virtual {p1}, Lcom/meitu/ipstore/storage/bean/dao/a;->i()Lcom/meitu/ipstore/storage/bean/dao/b;
 
     move-result-object p0
@@ -129,7 +116,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/meitu/ipstore/storage/bean/dao/a;->i()Lcom/meitu/ipstore/storage/bean/dao/b;
 
     move-result-object v1
@@ -146,7 +132,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0, p1}, Lcom/meitu/ipstore/storage/bean/dao/a;->j(Lorg/greenrobot/greendao/identityscope/IdentityScopeType;)Lcom/meitu/ipstore/storage/bean/dao/b;
 
     move-result-object p1
@@ -163,7 +148,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/meitu/ipstore/storage/bean/dao/b;
 
     iget-object v2, p0, Lorg/greenrobot/greendao/b;->a:Lorg/greenrobot/greendao/database/a;
@@ -186,7 +170,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/meitu/ipstore/storage/bean/dao/b;
 
     iget-object v2, p0, Lorg/greenrobot/greendao/b;->a:Lorg/greenrobot/greendao/database/a;

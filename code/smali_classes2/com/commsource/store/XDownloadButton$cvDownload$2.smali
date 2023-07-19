@@ -56,7 +56,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 2
     new-instance v1, Lcom/commsource/widget/CircleDownloadProgressView;
 
     iget-object v2, p0, Lcom/commsource/store/XDownloadButton$cvDownload$2;->$context:Landroid/content/Context;
@@ -67,7 +66,6 @@
 
     const/4 v2, 0x2
 
-    .line 3
     invoke-static {v2}, Lcom/commsource/util/l0;->n(I)I
 
     move-result v2
@@ -76,7 +74,6 @@
 
     sget v2, Lcom/res/provider/ResCOLOR;->Primary_A:I
 
-    .line 4
     invoke-static {v2}, Lcom/commsource/util/u1;->b(I)I
 
     move-result v2
@@ -85,7 +82,6 @@
 
     const/16 v2, 0xc
 
-    .line 5
     invoke-static {v2}, Lcom/commsource/util/l0;->n(I)I
 
     move-result v2
@@ -94,7 +90,6 @@
 
     sget v2, Lcom/res/provider/ResCOLOR;->Primary_C:I
 
-    .line 6
     invoke-static {v2}, Lcom/commsource/util/u1;->b(I)I
 
     move-result v2
@@ -103,14 +98,12 @@
 
     sget v2, Lcom/res/provider/ResCOLOR;->transparent:I
 
-    .line 7
     invoke-static {v2}, Lcom/commsource/util/u1;->b(I)I
 
     move-result v2
 
     invoke-virtual {v1, v2}, Lcom/commsource/widget/CircleDownloadProgressView;->setmMaskColor(I)V
 
-    .line 8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
@@ -123,7 +116,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/store/XDownloadButton$cvDownload$2;->invoke()Lcom/commsource/widget/CircleDownloadProgressView;
 
     move-result-object v1

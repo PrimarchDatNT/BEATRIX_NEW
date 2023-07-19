@@ -42,7 +42,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/material/d$b;->a:Lcom/commsource/material/d;
 
     invoke-static {v1}, Lcom/commsource/material/d;->d(Lcom/commsource/material/d;)V

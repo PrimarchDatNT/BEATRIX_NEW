@@ -42,7 +42,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Landroid/graphics/RectF;
 
     iget-object v2, p0, Lcom/commsource/studio/function/composition/CompositionView$GestureListener$onMajorFingerUp$1;->a:Lcom/commsource/studio/function/composition/CompositionView$GestureListener;
@@ -55,12 +54,10 @@
 
     invoke-direct {v1, v2}, Landroid/graphics/RectF;-><init>(Landroid/graphics/RectF;)V
 
-    .line 2
     new-instance v2, Landroid/graphics/Matrix;
 
     invoke-direct {v2}, Landroid/graphics/Matrix;-><init>()V
 
-    .line 3
     iget-object v3, p0, Lcom/commsource/studio/function/composition/CompositionView$GestureListener$onMajorFingerUp$1;->a:Lcom/commsource/studio/function/composition/CompositionView$GestureListener;
 
     iget-object v3, v3, Lcom/commsource/studio/function/composition/CompositionView$GestureListener;->c:Lcom/commsource/studio/function/composition/CompositionView;
@@ -81,17 +78,14 @@
 
     invoke-virtual {v2, v3, v4, v5}, Landroid/graphics/Matrix;->setRectToRect(Landroid/graphics/RectF;Landroid/graphics/RectF;Landroid/graphics/Matrix$ScaleToFit;)Z
 
-    .line 4
     invoke-virtual {v2, v1}, Landroid/graphics/Matrix;->mapRect(Landroid/graphics/RectF;)Z
 
-    .line 5
     iget-object v3, p0, Lcom/commsource/studio/function/composition/CompositionView$GestureListener$onMajorFingerUp$1;->a:Lcom/commsource/studio/function/composition/CompositionView$GestureListener;
 
     iget-object v3, v3, Lcom/commsource/studio/function/composition/CompositionView$GestureListener;->c:Lcom/commsource/studio/function/composition/CompositionView;
 
     invoke-static {v3, v1}, Lcom/commsource/studio/function/composition/CompositionView;->c(Lcom/commsource/studio/function/composition/CompositionView;Landroid/graphics/RectF;)V
 
-    .line 6
     iget-object v1, p0, Lcom/commsource/studio/function/composition/CompositionView$GestureListener$onMajorFingerUp$1;->a:Lcom/commsource/studio/function/composition/CompositionView$GestureListener;
 
     iget-object v1, v1, Lcom/commsource/studio/function/composition/CompositionView$GestureListener;->c:Lcom/commsource/studio/function/composition/CompositionView;
@@ -106,7 +100,6 @@
 
     invoke-virtual {v2, v1}, Landroid/graphics/Matrix;->preConcat(Landroid/graphics/Matrix;)Z
 
-    .line 7
     iget-object v1, p0, Lcom/commsource/studio/function/composition/CompositionView$GestureListener$onMajorFingerUp$1;->a:Lcom/commsource/studio/function/composition/CompositionView$GestureListener;
 
     iget-object v1, v1, Lcom/commsource/studio/function/composition/CompositionView$GestureListener;->c:Lcom/commsource/studio/function/composition/CompositionView;
@@ -121,7 +114,6 @@
 
     invoke-virtual {v2, v1}, Landroid/graphics/Matrix;->postConcat(Landroid/graphics/Matrix;)Z
 
-    .line 8
     iget-object v1, p0, Lcom/commsource/studio/function/composition/CompositionView$GestureListener$onMajorFingerUp$1;->a:Lcom/commsource/studio/function/composition/CompositionView$GestureListener;
 
     iget-object v1, v1, Lcom/commsource/studio/function/composition/CompositionView$GestureListener;->c:Lcom/commsource/studio/function/composition/CompositionView;
@@ -148,7 +140,6 @@
 
     invoke-static/range {v3 .. v10}, Lcom/commsource/studio/MatrixBox;->animateByMatrix$default(Lcom/commsource/studio/MatrixBox;Lcom/commsource/studio/MatrixBox;JLcotlin/jvm/u/a;Lcotlin/jvm/u/a;ILjava/lang/Object;)V
 
-    .line 9
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

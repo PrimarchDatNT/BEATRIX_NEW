@@ -25,7 +25,6 @@
 .method constructor <init>(Lcom/meitu/ipstore/core/b$b$a;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/ipstore/core/b$b$a$a;->a:Lcom/meitu/ipstore/core/b$b$a;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -42,7 +41,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/ipstore/core/b$b$a$a;->a:Lcom/meitu/ipstore/core/b$b$a;
 
     iget-object v1, v1, Lcom/meitu/ipstore/core/b$b$a;->b:Lcom/meitu/ipstore/core/b$b;
@@ -53,10 +51,8 @@
 
     const-string v2, "can\'t get result"
 
-    .line 2
     invoke-interface {v1, v2}, Lf/k/m/c$a;->b(Ljava/lang/String;)V
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

@@ -31,7 +31,6 @@
 .method constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -46,7 +45,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Lcom/meitu/http/api/AdvanceApi$a;
 
     invoke-virtual {p0, p1}, Lcom/commsource/camera/z0/e$b;->c(Lcom/meitu/http/api/AdvanceApi$a;)V
@@ -81,7 +79,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     invoke-virtual {p1}, Lcom/meitu/http/api/AdvanceApi$a;->d()Ljava/lang/Object;
 
     move-result-object v1
@@ -107,18 +104,15 @@
     :cond_0
     const/4 p1, 0x0
 
-    .line 2
     :goto_0
     invoke-static {p1}, Lf/d/i/c;->N(Z)V
 
-    .line 3
     invoke-static {}, Lf/k/m/b;->i()Lf/k/m/b;
 
     move-result-object v1
 
     invoke-virtual {v1, p1}, Lf/k/m/b;->c(Z)V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

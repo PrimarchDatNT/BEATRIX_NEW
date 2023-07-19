@@ -31,7 +31,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-direct {p0, p1, v0}, Lcom/commsource/beautyplus/onboarding/IconFontTransView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
     return-void
@@ -54,7 +53,6 @@
 
     const/4 v0, 0x0
 
-    .line 2
     invoke-direct {p0, p1, p2, v0}, Lcom/commsource/beautyplus/onboarding/IconFontTransView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
     return-void
@@ -75,15 +73,12 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 3
     invoke-direct {p0, p1, p2, p3}, Landroid/widget/FrameLayout;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
     const/4 p1, -0x1
 
-    .line 4
     iput p1, p0, Lcom/commsource/beautyplus/onboarding/IconFontTransView;->c:I
 
-    .line 5
     new-instance p1, Lcom/commsource/widget/IconFrontView;
 
     invoke-virtual {p0}, Landroid/widget/FrameLayout;->getContext()Landroid/content/Context;
@@ -94,14 +89,12 @@
 
     iput-object p1, p0, Lcom/commsource/beautyplus/onboarding/IconFontTransView;->a:Lcom/commsource/widget/IconFrontView;
 
-    .line 6
     invoke-direct {p0}, Lcom/commsource/beautyplus/onboarding/IconFontTransView;->e()Landroid/widget/FrameLayout$LayoutParams;
 
     move-result-object p2
 
     invoke-virtual {p0, p1, p2}, Landroid/widget/FrameLayout;->addView(Landroid/view/View;Landroid/view/ViewGroup$LayoutParams;)V
 
-    .line 7
     iget-object p1, p0, Lcom/commsource/beautyplus/onboarding/IconFontTransView;->a:Lcom/commsource/widget/IconFrontView;
 
     sget p2, Lcom/res/provider/ResCOLOR;->color_333333:I
@@ -112,7 +105,6 @@
 
     invoke-virtual {p1, p2}, Landroid/widget/TextView;->setTextColor(I)V
 
-    .line 8
     iget-object p1, p0, Lcom/commsource/beautyplus/onboarding/IconFontTransView;->a:Lcom/commsource/widget/IconFrontView;
 
     const/4 p2, 0x1
@@ -131,7 +123,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/beautyplus/onboarding/IconFontTransView;->b:Lcom/commsource/widget/IconFrontView;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -146,7 +137,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/beautyplus/onboarding/IconFontTransView;->b:Lcom/commsource/widget/IconFrontView;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -161,7 +151,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Landroid/widget/FrameLayout$LayoutParams;
 
     const/4 v2, -0x1
@@ -170,20 +159,16 @@
 
     const/high16 v2, 0x41580000    # 13.5f
 
-    .line 2
     invoke-static {v2}, Lcom/meitu/library/p/f/i;->d(F)I
 
     move-result v2
 
-    .line 3
     invoke-virtual {v1, v2, v2, v2, v2}, Landroid/view/ViewGroup$MarginLayoutParams;->setMargins(IIII)V
 
     const/16 v2, 0x11
 
-    .line 4
     iput v2, v1, Landroid/widget/FrameLayout$LayoutParams;->gravity:I
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
@@ -267,15 +252,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/beautyplus/onboarding/IconFontTransView;->c:I
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/beautyplus/onboarding/IconFontTransView;->a:Lcom/commsource/widget/IconFrontView;
 
     invoke-virtual {v1, p1}, Landroid/widget/TextView;->setText(I)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -288,26 +270,21 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/beautyplus/onboarding/IconFontTransView;->c:I
 
     if-ne v1, p1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 3
     :cond_0
     iput p1, p0, Lcom/commsource/beautyplus/onboarding/IconFontTransView;->c:I
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/beautyplus/onboarding/IconFontTransView;->a:Lcom/commsource/widget/IconFrontView;
 
     iput-object v1, p0, Lcom/commsource/beautyplus/onboarding/IconFontTransView;->b:Lcom/commsource/widget/IconFrontView;
 
-    .line 5
     new-instance v1, Lcom/commsource/widget/IconFrontView;
 
     invoke-virtual {p0}, Landroid/widget/FrameLayout;->getContext()Landroid/content/Context;
@@ -318,14 +295,12 @@
 
     iput-object v1, p0, Lcom/commsource/beautyplus/onboarding/IconFontTransView;->a:Lcom/commsource/widget/IconFrontView;
 
-    .line 6
     invoke-direct {p0}, Lcom/commsource/beautyplus/onboarding/IconFontTransView;->e()Landroid/widget/FrameLayout$LayoutParams;
 
     move-result-object v2
 
     invoke-virtual {p0, v1, v2}, Landroid/widget/FrameLayout;->addView(Landroid/view/View;Landroid/view/ViewGroup$LayoutParams;)V
 
-    .line 7
     iget-object v1, p0, Lcom/commsource/beautyplus/onboarding/IconFontTransView;->a:Lcom/commsource/widget/IconFrontView;
 
     sget v2, Lcom/res/provider/ResCOLOR;->color_333333:I
@@ -336,7 +311,6 @@
 
     invoke-virtual {v1, v2}, Landroid/widget/TextView;->setTextColor(I)V
 
-    .line 8
     iget-object v1, p0, Lcom/commsource/beautyplus/onboarding/IconFontTransView;->a:Lcom/commsource/widget/IconFrontView;
 
     const/4 v2, 0x1
@@ -345,12 +319,10 @@
 
     invoke-virtual {v1, v2, v3}, Landroidx/appcompat/widget/AppCompatTextView;->setTextSize(IF)V
 
-    .line 9
     iget-object v1, p0, Lcom/commsource/beautyplus/onboarding/IconFontTransView;->a:Lcom/commsource/widget/IconFrontView;
 
     invoke-virtual {v1, p1}, Landroid/widget/TextView;->setText(I)V
 
-    .line 10
     iget-object p1, p0, Lcom/commsource/beautyplus/onboarding/IconFontTransView;->b:Lcom/commsource/widget/IconFrontView;
 
     const v1, 0x3f35c28f    # 0.71f
@@ -363,7 +335,6 @@
 
     if-eqz p1, :cond_1
 
-    .line 11
     new-instance v5, Landroidx/dynamicanimation/animation/SpringAnimation;
 
     sget-object v6, Landroidx/dynamicanimation/animation/DynamicAnimation;->TRANSLATION_X:Landroidx/dynamicanimation/animation/DynamicAnimation$ViewProperty;
@@ -376,7 +347,6 @@
 
     invoke-direct {v5, p1, v6, v7}, Landroidx/dynamicanimation/animation/SpringAnimation;-><init>(Ljava/lang/Object;Landroidx/dynamicanimation/animation/FloatPropertyCompat;F)V
 
-    .line 12
     invoke-virtual {v5}, Landroidx/dynamicanimation/animation/SpringAnimation;->getSpring()Landroidx/dynamicanimation/animation/SpringForce;
 
     move-result-object v6
@@ -385,26 +355,20 @@
 
     move-result-object v6
 
-    .line 13
     invoke-virtual {v6, v1}, Landroidx/dynamicanimation/animation/SpringForce;->setDampingRatio(F)Landroidx/dynamicanimation/animation/SpringForce;
 
-    .line 14
     invoke-virtual {v5, v4}, Landroidx/dynamicanimation/animation/DynamicAnimation;->setStartVelocity(F)Landroidx/dynamicanimation/animation/DynamicAnimation;
 
-    .line 15
     invoke-virtual {v5, v4}, Landroidx/dynamicanimation/animation/DynamicAnimation;->setStartValue(F)Landroidx/dynamicanimation/animation/DynamicAnimation;
 
-    .line 16
     new-instance v6, Lcom/commsource/beautyplus/onboarding/IconFontTransView$a;
 
     invoke-direct {v6, p1, p0}, Lcom/commsource/beautyplus/onboarding/IconFontTransView$a;-><init>(Lcom/commsource/widget/IconFrontView;Lcom/commsource/beautyplus/onboarding/IconFontTransView;)V
 
     invoke-virtual {v5, v6}, Landroidx/dynamicanimation/animation/DynamicAnimation;->addEndListener(Landroidx/dynamicanimation/animation/DynamicAnimation$OnAnimationEndListener;)Landroidx/dynamicanimation/animation/DynamicAnimation;
 
-    .line 17
     invoke-virtual {v5}, Landroidx/dynamicanimation/animation/SpringAnimation;->start()V
 
-    .line 18
     :cond_1
     new-instance p1, Landroidx/dynamicanimation/animation/SpringAnimation;
 
@@ -414,7 +378,6 @@
 
     invoke-direct {p1, v5, v6, v4}, Landroidx/dynamicanimation/animation/SpringAnimation;-><init>(Ljava/lang/Object;Landroidx/dynamicanimation/animation/FloatPropertyCompat;F)V
 
-    .line 19
     invoke-virtual {p1}, Landroidx/dynamicanimation/animation/SpringAnimation;->getSpring()Landroidx/dynamicanimation/animation/SpringForce;
 
     move-result-object v5
@@ -423,23 +386,18 @@
 
     move-result-object v2
 
-    .line 20
     invoke-virtual {v2, v1}, Landroidx/dynamicanimation/animation/SpringForce;->setDampingRatio(F)Landroidx/dynamicanimation/animation/SpringForce;
 
-    .line 21
     invoke-virtual {p1, v4}, Landroidx/dynamicanimation/animation/DynamicAnimation;->setStartVelocity(F)Landroidx/dynamicanimation/animation/DynamicAnimation;
 
-    .line 22
     invoke-static {v3}, Lcom/commsource/util/l0;->p(I)F
 
     move-result v1
 
     invoke-virtual {p1, v1}, Landroidx/dynamicanimation/animation/DynamicAnimation;->setStartValue(F)Landroidx/dynamicanimation/animation/DynamicAnimation;
 
-    .line 23
     invoke-virtual {p1}, Landroidx/dynamicanimation/animation/SpringAnimation;->start()V
 
-    .line 24
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

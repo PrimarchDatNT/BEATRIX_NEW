@@ -32,7 +32,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     const-class v1, Lcom/meitu/ipstore/web/IPStoreInternalWebViewActivity;
 
     invoke-virtual {v1}, Ljava/lang/Class;->getSimpleName()Ljava/lang/String;
@@ -49,10 +48,8 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Landroidx/appcompat/app/AppCompatActivity;-><init>()V
 
-    .line 2
     new-instance v0, Lcom/meitu/ipstore/web/IPStoreInternalWebViewActivity$d;
 
     invoke-direct {v0, p0}, Lcom/meitu/ipstore/web/IPStoreInternalWebViewActivity$d;-><init>(Lcom/meitu/ipstore/web/IPStoreInternalWebViewActivity;)V
@@ -69,7 +66,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/meitu/ipstore/web/IPStoreInternalWebViewActivity;->b:Landroid/widget/FrameLayout;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -84,7 +80,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/meitu/ipstore/web/IPStoreInternalWebViewActivity;->f:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -99,7 +94,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/meitu/ipstore/web/IPStoreInternalWebViewActivity;->c:Landroid/widget/ProgressBar;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -114,7 +108,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget v1, Lf/k/m/e$g;->j1:I
 
     invoke-virtual {p0, v1}, Landroidx/appcompat/app/AppCompatActivity;->findViewById(I)Landroid/view/View;
@@ -125,7 +118,6 @@
 
     iput-object v1, p0, Lcom/meitu/ipstore/web/IPStoreInternalWebViewActivity;->a:Lcom/meitu/webview/core/CommonWebView;
 
-    .line 2
     sget v1, Lf/k/m/e$g;->P:I
 
     invoke-virtual {p0, v1}, Landroidx/appcompat/app/AppCompatActivity;->findViewById(I)Landroid/view/View;
@@ -136,7 +128,6 @@
 
     iput-object v1, p0, Lcom/meitu/ipstore/web/IPStoreInternalWebViewActivity;->b:Landroid/widget/FrameLayout;
 
-    .line 3
     sget v1, Lf/k/m/e$g;->m0:I
 
     invoke-virtual {p0, v1}, Landroidx/appcompat/app/AppCompatActivity;->findViewById(I)Landroid/view/View;
@@ -147,21 +138,18 @@
 
     iput-object v1, p0, Lcom/meitu/ipstore/web/IPStoreInternalWebViewActivity;->c:Landroid/widget/ProgressBar;
 
-    .line 4
     iget-object v1, p0, Lcom/meitu/ipstore/web/IPStoreInternalWebViewActivity;->a:Lcom/meitu/webview/core/CommonWebView;
 
     const/4 v2, 0x0
 
     invoke-virtual {v1, v2}, Lcom/meitu/webview/core/CommonWebView;->setIsCanDownloadApk(Z)V
 
-    .line 5
     iget-object v1, p0, Lcom/meitu/ipstore/web/IPStoreInternalWebViewActivity;->a:Lcom/meitu/webview/core/CommonWebView;
 
     const/4 v3, 0x1
 
     invoke-virtual {v1, v3}, Lcom/meitu/webview/core/CommonWebView;->setIsCanSaveImageOnLongPress(Z)V
 
-    .line 6
     sget v1, Lf/k/m/e$g;->h1:I
 
     invoke-virtual {p0, v1}, Landroidx/appcompat/app/AppCompatActivity;->findViewById(I)Landroid/view/View;
@@ -174,7 +162,6 @@
 
     invoke-virtual {v1, v3}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 7
     iget-object v1, p0, Lcom/meitu/ipstore/web/IPStoreInternalWebViewActivity;->a:Lcom/meitu/webview/core/CommonWebView;
 
     invoke-virtual {v1}, Landroid/webkit/WebView;->getSettings()Landroid/webkit/WebSettings;
@@ -183,7 +170,6 @@
 
     if-eqz v1, :cond_0
 
-    .line 8
     invoke-static {}, Lf/k/m/j/f;->h()Ljava/lang/String;
 
     move-result-object v3
@@ -194,7 +180,6 @@
 
     if-nez v3, :cond_0
 
-    .line 9
     new-instance v3, Ljava/lang/StringBuilder;
 
     invoke-direct {v3}, Ljava/lang/StringBuilder;-><init>()V
@@ -215,10 +200,8 @@
 
     move-result-object v3
 
-    .line 10
     invoke-virtual {v1, v3}, Landroid/webkit/WebSettings;->setUserAgentString(Ljava/lang/String;)V
 
-    .line 11
     :cond_0
     iget-object v1, p0, Lcom/meitu/ipstore/web/IPStoreInternalWebViewActivity;->a:Lcom/meitu/webview/core/CommonWebView;
 
@@ -228,7 +211,6 @@
 
     invoke-virtual {v1, v3}, Lcom/meitu/webview/core/CommonWebView;->setCommonWebViewListener(Lf/k/o0/c/a;)V
 
-    .line 12
     iget-object v1, p0, Lcom/meitu/ipstore/web/IPStoreInternalWebViewActivity;->a:Lcom/meitu/webview/core/CommonWebView;
 
     new-instance v3, Lcom/meitu/ipstore/web/IPStoreInternalWebViewActivity$c;
@@ -237,14 +219,12 @@
 
     invoke-virtual {v1, v3}, Lcom/meitu/webview/core/CommonWebView;->setWebChromeClient(Landroid/webkit/WebChromeClient;)V
 
-    .line 13
     invoke-static {p0}, Lf/k/m/j/f;->b(Landroid/content/Context;)Z
 
     move-result v1
 
     if-nez v1, :cond_1
 
-    .line 14
     sget v1, Lf/k/m/e$g;->Q:I
 
     invoke-virtual {p0, v1}, Landroidx/appcompat/app/AppCompatActivity;->findViewById(I)Landroid/view/View;
@@ -255,7 +235,6 @@
 
     goto :goto_0
 
-    .line 15
     :cond_1
     iget-object v1, p0, Lcom/meitu/ipstore/web/IPStoreInternalWebViewActivity;->a:Lcom/meitu/webview/core/CommonWebView;
 
@@ -271,12 +250,10 @@
 
     invoke-virtual {v1, v3}, Lcom/meitu/webview/core/CommonWebView;->C(Ljava/lang/String;)V
 
-    .line 16
     iget-object v1, p0, Lcom/meitu/ipstore/web/IPStoreInternalWebViewActivity;->b:Landroid/widget/FrameLayout;
 
     invoke-virtual {v1, v2}, Landroid/widget/FrameLayout;->setVisibility(I)V
 
-    .line 17
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -292,7 +269,6 @@
 
     const/4 v1, 0x0
 
-    .line 1
     invoke-static {p0, p1, v1}, Lcom/meitu/ipstore/web/IPStoreInternalWebViewActivity;->r0(Landroid/content/Context;Ljava/lang/String;I)Z
 
     move-result p0
@@ -309,14 +285,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lf/k/m/j/d;->a()Z
 
     move-result v1
 
     if-nez v1, :cond_0
 
-    .line 2
     sget-object p0, Lcom/meitu/ipstore/web/IPStoreInternalWebViewActivity;->f:Ljava/lang/String;
 
     const-string p1, "can\'t get CommonWebView!"
@@ -325,12 +299,10 @@
 
     const/4 p0, 0x0
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p0
 
-    .line 4
     :cond_0
     new-instance v1, Landroid/content/Intent;
 
@@ -340,20 +312,16 @@
 
     const-string v2, "web_url"
 
-    .line 5
     invoke-virtual {v1, v2, p1}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
 
     const-string p1, "use_scroll_down"
 
-    .line 6
     invoke-virtual {v1, p1, p2}, Landroid/content/Intent;->putExtra(Ljava/lang/String;I)Landroid/content/Intent;
 
-    .line 7
     invoke-static {p0, v1}, Lf/k/m/j/i;->f(Landroid/content/Context;Landroid/content/Intent;)V
 
     const/4 p0, 0x1
 
-    .line 8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p0
@@ -368,10 +336,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0}, Landroid/app/Activity;->finish()V
 
-    .line 2
     invoke-virtual {p0}, Landroid/app/Activity;->getIntent()Landroid/content/Intent;
 
     move-result-object v1
@@ -386,10 +352,8 @@
 
     if-eqz v1, :cond_0
 
-    .line 3
     invoke-virtual {p0, v3, v1}, Landroid/app/Activity;->overridePendingTransition(II)V
 
-    .line 4
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -407,19 +371,16 @@
 
     const-string v1, "true"
 
-    .line 1
     invoke-static {p1, v1}, Landroid/text/TextUtils;->equals(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)Z
 
     move-result p1
 
     if-eqz p1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 3
     :cond_0
     invoke-virtual {p0}, Landroid/app/Activity;->isFinishing()Z
 
@@ -427,12 +388,10 @@
 
     if-eqz p1, :cond_1
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 5
     :cond_1
     sget p1, Landroid/os/Build$VERSION;->SDK_INT:I
 
@@ -446,12 +405,10 @@
 
     if-eqz p1, :cond_2
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 7
     :cond_2
     iget-object p1, p0, Lcom/meitu/ipstore/web/IPStoreInternalWebViewActivity;->a:Lcom/meitu/webview/core/CommonWebView;
 
@@ -463,14 +420,12 @@
 
     if-eqz p1, :cond_3
 
-    .line 8
     iget-object p1, p0, Lcom/meitu/ipstore/web/IPStoreInternalWebViewActivity;->a:Lcom/meitu/webview/core/CommonWebView;
 
     invoke-virtual {p1}, Landroid/webkit/WebView;->goBack()V
 
     goto :goto_0
 
-    .line 9
     :cond_3
     :try_start_0
     invoke-super {p0}, Landroidx/activity/ComponentActivity;->onBackPressed()V
@@ -482,14 +437,12 @@
     :catch_0
     move-exception p1
 
-    .line 10
     sget-object v1, Lcom/meitu/ipstore/web/IPStoreInternalWebViewActivity;->f:Ljava/lang/String;
 
     const-string v2, "onBackPressed"
 
     invoke-static {v1, v2, p1}, Lf/k/m/j/e;->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V
 
-    .line 11
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -503,10 +456,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0}, Landroidx/activity/ComponentActivity;->onBackPressed()V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -523,21 +474,16 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0, p1}, Landroidx/appcompat/app/AppCompatActivity;->onCreate(Landroid/os/Bundle;)V
 
-    .line 2
     invoke-static {p0}, Lf/k/m/j/i;->e(Landroid/app/Activity;)V
 
-    .line 3
     sget p1, Lf/k/m/e$i;->C:I
 
     invoke-virtual {p0, p1}, Landroidx/appcompat/app/AppCompatActivity;->setContentView(I)V
 
-    .line 4
     invoke-direct {p0}, Lcom/meitu/ipstore/web/IPStoreInternalWebViewActivity;->p0()V
 
-    .line 5
     invoke-static {}, Lf/k/m/b;->i()Lf/k/m/b;
 
     move-result-object p1
@@ -548,10 +494,8 @@
 
     if-eqz p1, :cond_0
 
-    .line 6
     invoke-interface {p1, p0}, Lf/k/m/d;->c(Landroid/app/Activity;)V
 
-    .line 7
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -565,7 +509,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lf/k/m/b;->i()Lf/k/m/b;
 
     move-result-object v1
@@ -576,16 +519,13 @@
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-interface {v1, p0}, Lf/k/m/d;->g(Landroid/app/Activity;)V
 
-    .line 3
     :cond_0
     iget-object v1, p0, Lcom/meitu/ipstore/web/IPStoreInternalWebViewActivity;->a:Lcom/meitu/webview/core/CommonWebView;
 
     if-eqz v1, :cond_2
 
-    .line 4
     invoke-virtual {v1}, Landroid/webkit/WebView;->getParent()Landroid/view/ViewParent;
 
     move-result-object v1
@@ -594,7 +534,6 @@
 
     if-eqz v1, :cond_1
 
-    .line 5
     iget-object v1, p0, Lcom/meitu/ipstore/web/IPStoreInternalWebViewActivity;->a:Lcom/meitu/webview/core/CommonWebView;
 
     invoke-virtual {v1}, Landroid/webkit/WebView;->getParent()Landroid/view/ViewParent;
@@ -605,7 +544,6 @@
 
     invoke-virtual {v1}, Landroid/view/ViewGroup;->removeAllViews()V
 
-    .line 6
     :cond_1
     iget-object v1, p0, Lcom/meitu/ipstore/web/IPStoreInternalWebViewActivity;->a:Lcom/meitu/webview/core/CommonWebView;
 
@@ -613,14 +551,11 @@
 
     const/4 v1, 0x0
 
-    .line 7
     iput-object v1, p0, Lcom/meitu/ipstore/web/IPStoreInternalWebViewActivity;->a:Lcom/meitu/webview/core/CommonWebView;
 
-    .line 8
     :cond_2
     invoke-super {p0}, Landroidx/appcompat/app/AppCompatActivity;->onDestroy()V
 
-    .line 9
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -633,18 +568,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0}, Landroidx/fragment/app/FragmentActivity;->onPause()V
 
-    .line 2
     iget-object v1, p0, Lcom/meitu/ipstore/web/IPStoreInternalWebViewActivity;->a:Lcom/meitu/webview/core/CommonWebView;
 
     if-eqz v1, :cond_0
 
-    .line 3
     invoke-virtual {v1}, Lcom/meitu/webview/core/CommonWebView;->onPause()V
 
-    .line 4
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -658,22 +589,17 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0}, Landroidx/fragment/app/FragmentActivity;->onResume()V
 
-    .line 2
     iget-object v1, p0, Lcom/meitu/ipstore/web/IPStoreInternalWebViewActivity;->a:Lcom/meitu/webview/core/CommonWebView;
 
     if-eqz v1, :cond_0
 
-    .line 3
     invoke-virtual {v1}, Lcom/meitu/webview/core/CommonWebView;->onResume()V
 
-    .line 4
     :cond_0
     invoke-static {p0}, Lf/k/m/j/i;->d(Landroid/app/Activity;)V
 
-    .line 5
     invoke-virtual {p0}, Landroid/app/Activity;->getWindow()Landroid/view/Window;
 
     move-result-object v1
@@ -686,7 +612,6 @@
 
     invoke-virtual {v1, v2}, Landroid/view/View;->setOnSystemUiVisibilityChangeListener(Landroid/view/View$OnSystemUiVisibilityChangeListener;)V
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -699,10 +624,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0}, Landroidx/appcompat/app/AppCompatActivity;->onStart()V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -715,10 +638,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0}, Landroidx/appcompat/app/AppCompatActivity;->onStop()V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

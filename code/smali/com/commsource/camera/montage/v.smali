@@ -94,7 +94,6 @@
 
     new-array v1, v1, [I
 
-    .line 1
     fill-array-data v1, :array_0
 
     sput-object v1, Lcom/commsource/camera/montage/v;->w:[I
@@ -103,12 +102,10 @@
 
     new-array v1, v1, [I
 
-    .line 2
     fill-array-data v1, :array_1
 
     sput-object v1, Lcom/commsource/camera/montage/v;->x:[I
 
-    .line 3
     invoke-static {}, Lcom/meitu/library/p/d/a;->f()Ljava/lang/String;
 
     move-result-object v1
@@ -150,7 +147,6 @@
 .method public constructor <init>(Landroid/content/Context;Ljava/lang/String;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1, p2}, Lcom/commsource/util/common/l;-><init>(Landroid/content/Context;Ljava/lang/String;)V
 
     return-void
@@ -181,7 +177,6 @@
 
     const/4 p0, 0x0
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p0
@@ -189,7 +184,6 @@
     :cond_0
     const/4 p0, 0x5
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p0
@@ -197,12 +191,10 @@
     :cond_1
     const/16 p0, 0x9
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p0
 
-    .line 4
     :cond_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -230,12 +222,10 @@
 
     const/4 p0, 0x0
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
 
-    .line 2
     :pswitch_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -243,7 +233,6 @@
 
     return-object p0
 
-    .line 3
     :pswitch_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -251,7 +240,6 @@
 
     return-object p0
 
-    .line 4
     :pswitch_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -259,7 +247,6 @@
 
     return-object p0
 
-    .line 5
     :pswitch_3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -267,7 +254,6 @@
 
     return-object p0
 
-    .line 6
     :pswitch_4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -275,7 +261,6 @@
 
     return-object p0
 
-    .line 7
     :pswitch_5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -283,7 +268,6 @@
 
     return-object p0
 
-    .line 8
     :pswitch_6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -291,7 +275,6 @@
 
     return-object p0
 
-    .line 9
     :pswitch_7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -299,7 +282,6 @@
 
     return-object p0
 
-    .line 10
     :pswitch_8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -307,7 +289,6 @@
 
     return-object p0
 
-    .line 11
     :pswitch_9
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -315,7 +296,6 @@
 
     return-object p0
 
-    .line 12
     :pswitch_a
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -323,7 +303,6 @@
 
     return-object p0
 
-    .line 13
     :pswitch_b
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -331,7 +310,6 @@
 
     return-object p0
 
-    .line 14
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -393,12 +371,10 @@
 
     const/4 p0, 0x0
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
 
-    .line 2
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -406,7 +382,6 @@
 
     return-object p0
 
-    .line 3
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -414,7 +389,6 @@
 
     return-object p0
 
-    .line 4
     :cond_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -422,7 +396,6 @@
 
     return-object p0
 
-    .line 5
     :cond_3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -430,7 +403,6 @@
 
     return-object p0
 
-    .line 6
     :cond_4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -455,12 +427,10 @@
     :pswitch_0
     const/4 p0, 0x0
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
 
-    .line 2
     :pswitch_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -468,7 +438,6 @@
 
     return-object p0
 
-    .line 3
     :pswitch_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -476,7 +445,6 @@
 
     return-object p0
 
-    .line 4
     :pswitch_3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -484,7 +452,6 @@
 
     return-object p0
 
-    .line 5
     :pswitch_4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -533,12 +500,10 @@
 
     const/4 p0, 0x0
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
 
-    .line 2
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -546,7 +511,6 @@
 
     return-object p0
 
-    .line 3
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -554,7 +518,6 @@
 
     return-object p0
 
-    .line 4
     :cond_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -562,7 +525,6 @@
 
     return-object p0
 
-    .line 5
     :cond_3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -578,7 +540,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/commsource/camera/montage/v$c;
 
     invoke-direct {v1}, Lcom/commsource/camera/montage/v$c;-><init>()V
@@ -617,7 +578,6 @@
 
     goto/16 :goto_1
 
-    .line 2
     :cond_0
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
@@ -629,7 +589,6 @@
 
     iput-object p0, v1, Lcom/commsource/camera/montage/v$c;->a:Ljava/lang/String;
 
-    .line 3
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
     move-result-object p0
@@ -642,27 +601,22 @@
 
     new-array p0, v4, [I
 
-    .line 4
     fill-array-data p0, :array_0
 
     iput-object p0, v1, Lcom/commsource/camera/montage/v$c;->b:[I
 
     new-array p0, v4, [I
 
-    .line 5
     fill-array-data p0, :array_1
 
     iput-object p0, v1, Lcom/commsource/camera/montage/v$c;->e:[I
 
-    .line 6
     iput-wide v2, v1, Lcom/commsource/camera/montage/v$c;->c:D
 
-    .line 7
     iput-wide v7, v1, Lcom/commsource/camera/montage/v$c;->f:D
 
     goto/16 :goto_1
 
-    .line 8
     :cond_1
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
@@ -676,7 +630,6 @@
 
     iput-object p0, v1, Lcom/commsource/camera/montage/v$c;->a:Ljava/lang/String;
 
-    .line 9
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
     move-result-object p0
@@ -687,7 +640,6 @@
 
     iput-object p0, v1, Lcom/commsource/camera/montage/v$c;->d:Ljava/lang/String;
 
-    .line 10
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
     move-result-object p0
@@ -700,37 +652,30 @@
 
     new-array p0, v4, [I
 
-    .line 11
     fill-array-data p0, :array_2
 
     iput-object p0, v1, Lcom/commsource/camera/montage/v$c;->b:[I
 
     new-array p0, v4, [I
 
-    .line 12
     fill-array-data p0, :array_3
 
     iput-object p0, v1, Lcom/commsource/camera/montage/v$c;->e:[I
 
     new-array p0, v4, [I
 
-    .line 13
     fill-array-data p0, :array_4
 
     iput-object p0, v1, Lcom/commsource/camera/montage/v$c;->h:[I
 
-    .line 14
     iput-wide v2, v1, Lcom/commsource/camera/montage/v$c;->c:D
 
-    .line 15
     iput-wide v10, v1, Lcom/commsource/camera/montage/v$c;->f:D
 
-    .line 16
     iput-wide v7, v1, Lcom/commsource/camera/montage/v$c;->i:D
 
     goto/16 :goto_1
 
-    .line 17
     :cond_2
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
@@ -742,7 +687,6 @@
 
     iput-object p0, v1, Lcom/commsource/camera/montage/v$c;->a:Ljava/lang/String;
 
-    .line 18
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
     move-result-object p0
@@ -753,7 +697,6 @@
 
     iput-object p0, v1, Lcom/commsource/camera/montage/v$c;->d:Ljava/lang/String;
 
-    .line 19
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
     move-result-object p0
@@ -766,37 +709,30 @@
 
     new-array p0, v4, [I
 
-    .line 20
     fill-array-data p0, :array_5
 
     iput-object p0, v1, Lcom/commsource/camera/montage/v$c;->b:[I
 
     new-array p0, v4, [I
 
-    .line 21
     fill-array-data p0, :array_6
 
     iput-object p0, v1, Lcom/commsource/camera/montage/v$c;->e:[I
 
     new-array p0, v4, [I
 
-    .line 22
     fill-array-data p0, :array_7
 
     iput-object p0, v1, Lcom/commsource/camera/montage/v$c;->h:[I
 
-    .line 23
     iput-wide v2, v1, Lcom/commsource/camera/montage/v$c;->c:D
 
-    .line 24
     iput-wide v10, v1, Lcom/commsource/camera/montage/v$c;->f:D
 
-    .line 25
     iput-wide v7, v1, Lcom/commsource/camera/montage/v$c;->i:D
 
     goto :goto_1
 
-    .line 26
     :cond_3
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
@@ -808,7 +744,6 @@
 
     iput-object p0, v1, Lcom/commsource/camera/montage/v$c;->a:Ljava/lang/String;
 
-    .line 27
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
     move-result-object p0
@@ -821,27 +756,22 @@
 
     new-array p0, v4, [I
 
-    .line 28
     fill-array-data p0, :array_8
 
     iput-object p0, v1, Lcom/commsource/camera/montage/v$c;->b:[I
 
     new-array p0, v4, [I
 
-    .line 29
     fill-array-data p0, :array_9
 
     iput-object p0, v1, Lcom/commsource/camera/montage/v$c;->e:[I
 
-    .line 30
     iput-wide v2, v1, Lcom/commsource/camera/montage/v$c;->c:D
 
-    .line 31
     iput-wide v7, v1, Lcom/commsource/camera/montage/v$c;->f:D
 
     goto :goto_1
 
-    .line 32
     :cond_4
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
@@ -855,7 +785,6 @@
 
     iput-object p0, v1, Lcom/commsource/camera/montage/v$c;->a:Ljava/lang/String;
 
-    .line 33
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
     move-result-object p0
@@ -870,12 +799,10 @@
 
     new-array p0, v4, [I
 
-    .line 34
     fill-array-data p0, :array_a
 
     iput-object p0, v1, Lcom/commsource/camera/montage/v$c;->b:[I
 
-    .line 35
     invoke-static {}, Lcom/commsource/camera/montage/bean/c;->v()Lcom/commsource/camera/montage/bean/c;
 
     move-result-object p0
@@ -902,13 +829,10 @@
     :goto_0
     iput-object p0, v1, Lcom/commsource/camera/montage/v$c;->e:[I
 
-    .line 36
     iput-wide v2, v1, Lcom/commsource/camera/montage/v$c;->c:D
 
-    .line 37
     iput-wide v2, v1, Lcom/commsource/camera/montage/v$c;->f:D
 
-    .line 38
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1002,7 +926,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
     move-result-object v1
@@ -1031,7 +954,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/meitu/http/api/a;->d:Lcom/meitu/http/api/a$a;
 
     invoke-virtual {v1}, Lcom/meitu/http/api/a$a;->a()Z
@@ -1047,7 +969,6 @@
     :cond_0
     const-string v1, "https://api-intl.mr.meitu.com/v1/category_anime_me"
 
-    .line 2
     :goto_0
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
@@ -1061,7 +982,6 @@
 
     move-result-object v2
 
-    .line 3
     new-instance v3, Ljava/lang/StringBuilder;
 
     invoke-direct {v3}, Ljava/lang/StringBuilder;-><init>()V
@@ -1104,7 +1024,6 @@
 
     invoke-virtual {v3, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 4
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
     move-result-object v1
@@ -1121,7 +1040,6 @@
 
     move-result-object v1
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
@@ -1134,7 +1052,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/camera/montage/v;->o:Ljava/lang/String;
 
     invoke-static {v1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
@@ -1143,7 +1060,6 @@
 
     if-eqz v1, :cond_0
 
-    .line 2
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -1162,7 +1078,6 @@
 
     sput-object v1, Lcom/commsource/camera/montage/v;->o:Ljava/lang/String;
 
-    .line 3
     :cond_0
     new-instance v1, Ljava/io/File;
 
@@ -1170,25 +1085,21 @@
 
     invoke-direct {v1, v2}, Ljava/io/File;-><init>(Ljava/lang/String;)V
 
-    .line 4
     invoke-virtual {v1}, Ljava/io/File;->exists()Z
 
     move-result v2
 
     if-eqz v2, :cond_1
 
-    .line 5
     sget-object v1, Lcom/commsource/camera/montage/v;->o:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
 
-    .line 6
     :cond_1
     invoke-virtual {v1}, Ljava/io/File;->mkdirs()Z
 
-    .line 7
     sget-object v1, Lcom/commsource/camera/montage/v;->o:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1203,7 +1114,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
     move-result-object v1
@@ -1232,7 +1142,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/meitu/http/api/a;->d:Lcom/meitu/http/api/a$a;
 
     invoke-virtual {v1}, Lcom/meitu/http/api/a$a;->a()Z
@@ -1248,7 +1157,6 @@
     :cond_0
     const-string v1, "https://api-intl.mr.meitu.com/v1/material_anime_me"
 
-    .line 2
     :goto_0
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
@@ -1262,7 +1170,6 @@
 
     move-result-object v2
 
-    .line 3
     new-instance v3, Ljava/lang/StringBuilder;
 
     invoke-direct {v3}, Ljava/lang/StringBuilder;-><init>()V
@@ -1317,7 +1224,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
     move-result-object v1
@@ -1358,7 +1264,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const-string v0, "aaf5Jiach6_aPAAyWDsRFhfdAP6N1S8L"
@@ -1373,7 +1278,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const-string v0, "IjISO4g72kLvXigwe0ykwEYUb_3I1F6c"
@@ -1388,7 +1292,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
     move-result-object v1
@@ -1429,7 +1332,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
     move-result-object v1
@@ -1488,7 +1390,6 @@
 
     goto :goto_0
 
-    .line 1
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1496,7 +1397,6 @@
 
     return-object p0
 
-    .line 2
     :cond_1
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1518,12 +1418,10 @@
     :try_start_0
     invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v2, Lcom/commsource/camera/montage/v;->p:Lcom/commsource/camera/montage/v;
 
     if-nez v2, :cond_0
 
-    .line 2
     new-instance v2, Lcom/commsource/camera/montage/v;
 
     const-string v3, "MONTAGE_CONFIG"
@@ -1532,7 +1430,6 @@
 
     sput-object v2, Lcom/commsource/camera/montage/v;->p:Lcom/commsource/camera/montage/v;
 
-    .line 3
     :cond_0
     sget-object p0, Lcom/commsource/camera/montage/v;->p:Lcom/commsource/camera/montage/v;
 
@@ -1567,12 +1464,10 @@
 
     const/4 p0, 0x0
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
 
-    .line 2
     :pswitch_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1580,7 +1475,6 @@
 
     return-object p0
 
-    .line 3
     :pswitch_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1588,7 +1482,6 @@
 
     return-object p0
 
-    .line 4
     :pswitch_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1596,7 +1489,6 @@
 
     return-object p0
 
-    .line 5
     :pswitch_3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1604,7 +1496,6 @@
 
     return-object p0
 
-    .line 6
     :pswitch_4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1612,7 +1503,6 @@
 
     return-object p0
 
-    .line 7
     :pswitch_5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1640,7 +1530,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/camera/montage/v;->w:[I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1655,7 +1544,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/camera/montage/v;->n:Ljava/lang/String;
 
     invoke-static {v1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
@@ -1664,7 +1552,6 @@
 
     if-eqz v1, :cond_0
 
-    .line 2
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -1683,7 +1570,6 @@
 
     sput-object v1, Lcom/commsource/camera/montage/v;->n:Ljava/lang/String;
 
-    .line 3
     :cond_0
     new-instance v1, Ljava/io/File;
 
@@ -1691,25 +1577,21 @@
 
     invoke-direct {v1, v2}, Ljava/io/File;-><init>(Ljava/lang/String;)V
 
-    .line 4
     invoke-virtual {v1}, Ljava/io/File;->exists()Z
 
     move-result v2
 
     if-eqz v2, :cond_1
 
-    .line 5
     sget-object v1, Lcom/commsource/camera/montage/v;->n:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
 
-    .line 6
     :cond_1
     invoke-virtual {v1}, Ljava/io/File;->mkdirs()Z
 
-    .line 7
     sget-object v1, Lcom/commsource/camera/montage/v;->n:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1724,7 +1606,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -1755,7 +1636,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
     move-result-object v1
@@ -1796,7 +1676,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
     move-result-object v1
@@ -1855,7 +1734,6 @@
 
     const/4 p0, 0x0
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p0
@@ -1863,7 +1741,6 @@
     :cond_0
     const/4 p0, 0x1
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p0
@@ -1876,7 +1753,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
     move-result-object v1
@@ -1921,7 +1797,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p0}, Lcom/commsource/camera/montage/v;->b0(Landroid/content/Context;)Lcom/commsource/util/common/l;
 
     move-result-object p0
@@ -1950,12 +1825,10 @@
 
     if-nez p0, :cond_0
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
 
-    .line 2
     :cond_0
     invoke-static {p0}, Lcom/commsource/camera/montage/v;->b0(Landroid/content/Context;)Lcom/commsource/util/common/l;
 
@@ -1969,7 +1842,6 @@
 
     move-result v2
 
-    .line 3
     invoke-static {p0}, Lcom/commsource/camera/montage/v;->b0(Landroid/content/Context;)Lcom/commsource/util/common/l;
 
     move-result-object p0
@@ -1987,7 +1859,6 @@
     :cond_1
     const/4 v1, 0x1
 
-    .line 4
     :cond_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -2001,7 +1872,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
     move-result-object v1
@@ -2014,7 +1884,6 @@
 
     invoke-virtual {v1, v2, p0}, Lcom/commsource/util/common/l;->H(Ljava/lang/String;Ljava/lang/String;)Z
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2027,7 +1896,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
     move-result-object v1
@@ -2052,7 +1920,6 @@
 
     invoke-virtual {v1, p0, p1}, Lcom/commsource/util/common/l;->I(Ljava/lang/String;Z)Z
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2065,7 +1932,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
     move-result-object v1
@@ -2078,7 +1944,6 @@
 
     invoke-virtual {v1, v2, p0}, Lcom/commsource/util/common/l;->H(Ljava/lang/String;Ljava/lang/String;)Z
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2091,7 +1956,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
     move-result-object v1
@@ -2116,7 +1980,6 @@
 
     invoke-virtual {v1, p0, p1}, Lcom/commsource/util/common/l;->H(Ljava/lang/String;Ljava/lang/String;)Z
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2129,7 +1992,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
     move-result-object v1
@@ -2154,7 +2016,6 @@
 
     invoke-virtual {v1, p0, p2}, Lcom/commsource/util/common/l;->F(Ljava/lang/String;I)Z
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2176,7 +2037,6 @@
     :cond_0
     const/4 p2, 0x2
 
-    .line 1
     :goto_0
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
@@ -2202,7 +2062,6 @@
 
     invoke-virtual {v1, p0, p2}, Lcom/commsource/util/common/l;->F(Ljava/lang/String;I)Z
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2219,7 +2078,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p0}, Lcom/commsource/camera/montage/v;->b0(Landroid/content/Context;)Lcom/commsource/util/common/l;
 
     move-result-object p0
@@ -2228,7 +2086,6 @@
 
     invoke-virtual {p0, v1, p1}, Lcom/commsource/util/common/l;->I(Ljava/lang/String;Z)Z
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2241,7 +2098,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
     move-result-object v1
@@ -2266,7 +2122,6 @@
 
     invoke-virtual {v1, p0, p1}, Lcom/commsource/util/common/l;->H(Ljava/lang/String;Ljava/lang/String;)Z
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2279,7 +2134,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
     move-result-object v1
@@ -2304,7 +2158,6 @@
 
     invoke-virtual {v1, p0, p1}, Lcom/commsource/util/common/l;->F(Ljava/lang/String;I)Z
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

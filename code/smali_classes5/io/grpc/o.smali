@@ -19,12 +19,10 @@
 .method private constructor <init>(Lio/grpc/ConnectivityState;Lio/grpc/Status;)V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const-string v0, "state is null"
 
-    .line 2
     invoke-static {p1, v0}, Lcom/google/common/base/t;->F(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -35,7 +33,6 @@
 
     const-string p1, "status is null"
 
-    .line 3
     invoke-static {p2, p1}, Lcom/google/common/base/t;->F(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -50,7 +47,6 @@
 .method public static a(Lio/grpc/ConnectivityState;)Lio/grpc/o;
     .locals 2
 
-    .line 1
     sget-object v0, Lio/grpc/ConnectivityState;->TRANSIENT_FAILURE:Lio/grpc/ConnectivityState;
 
     if-eq p0, v0, :cond_0
@@ -67,7 +63,6 @@
 
     invoke-static {v0, v1}, Lcom/google/common/base/t;->e(ZLjava/lang/Object;)V
 
-    .line 2
     new-instance v0, Lio/grpc/o;
 
     sget-object v1, Lio/grpc/Status;->g:Lio/grpc/Status;
@@ -80,7 +75,6 @@
 .method public static b(Lio/grpc/Status;)Lio/grpc/o;
     .locals 2
 
-    .line 1
     invoke-virtual {p0}, Lio/grpc/Status;->r()Z
 
     move-result v0
@@ -91,7 +85,6 @@
 
     invoke-static {v0, v1}, Lcom/google/common/base/t;->e(ZLjava/lang/Object;)V
 
-    .line 2
     new-instance v0, Lio/grpc/o;
 
     sget-object v1, Lio/grpc/ConnectivityState;->TRANSIENT_FAILURE:Lio/grpc/ConnectivityState;
@@ -106,7 +99,6 @@
 .method public c()Lio/grpc/ConnectivityState;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lio/grpc/o;->a:Lio/grpc/ConnectivityState;
 
     return-object v0
@@ -115,7 +107,6 @@
 .method public d()Lio/grpc/Status;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lio/grpc/o;->b:Lio/grpc/Status;
 
     return-object v0
@@ -124,7 +115,6 @@
 .method public equals(Ljava/lang/Object;)Z
     .locals 3
 
-    .line 1
     instance-of v0, p1, Lio/grpc/o;
 
     const/4 v1, 0x0
@@ -133,11 +123,9 @@
 
     return v1
 
-    .line 2
     :cond_0
     check-cast p1, Lio/grpc/o;
 
-    .line 3
     iget-object v0, p0, Lio/grpc/o;->a:Lio/grpc/ConnectivityState;
 
     iget-object v2, p1, Lio/grpc/o;->a:Lio/grpc/ConnectivityState;
@@ -167,7 +155,6 @@
 .method public hashCode()I
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lio/grpc/o;->a:Lio/grpc/ConnectivityState;
 
     invoke-virtual {v0}, Ljava/lang/Enum;->hashCode()I
@@ -188,7 +175,6 @@
 .method public toString()Ljava/lang/String;
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lio/grpc/o;->b:Lio/grpc/Status;
 
     invoke-virtual {v0}, Lio/grpc/Status;->r()Z
@@ -197,7 +183,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 2
     iget-object v0, p0, Lio/grpc/o;->a:Lio/grpc/ConnectivityState;
 
     invoke-virtual {v0}, Ljava/lang/Enum;->toString()Ljava/lang/String;
@@ -206,7 +191,6 @@
 
     return-object v0
 
-    .line 3
     :cond_0
     new-instance v0, Ljava/lang/StringBuilder;
 

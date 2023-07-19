@@ -24,24 +24,20 @@
 .method public constructor <init>(Ljava/lang/Exception;)V
     .locals 4
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Exception;-><init>()V
 
-    .line 2
     invoke-virtual {p1}, Ljava/lang/Exception;->getMessage()Ljava/lang/String;
 
     move-result-object v0
 
     iput-object v0, p0, Lcom/mopub/mobileads/AdAdapter$BaseAdNotFoundException;->message:Ljava/lang/String;
 
-    .line 3
     invoke-virtual {p1}, Ljava/lang/Exception;->getCause()Ljava/lang/Throwable;
 
     move-result-object v0
 
     iput-object v0, p0, Lcom/mopub/mobileads/AdAdapter$BaseAdNotFoundException;->cause:Ljava/lang/Throwable;
 
-    .line 4
     sget-object v0, Lcom/mopub/common/logging/MoPubLog$AdLogEvent;->CUSTOM_WITH_THROWABLE:Lcom/mopub/common/logging/MoPubLog$AdLogEvent;
 
     const/4 v1, 0x2

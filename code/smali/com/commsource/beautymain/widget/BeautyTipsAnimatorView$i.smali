@@ -25,7 +25,6 @@
 .method constructor <init>(Lcom/commsource/beautymain/widget/BeautyTipsAnimatorView;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/beautymain/widget/BeautyTipsAnimatorView$i;->a:Lcom/commsource/beautymain/widget/BeautyTipsAnimatorView;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -42,7 +41,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p1}, Landroid/animation/ValueAnimator;->getAnimatedValue()Ljava/lang/Object;
 
     move-result-object p1
@@ -53,7 +51,6 @@
 
     move-result p1
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/beautymain/widget/BeautyTipsAnimatorView$i;->a:Lcom/commsource/beautymain/widget/BeautyTipsAnimatorView;
 
     invoke-static {v1}, Lcom/commsource/beautymain/widget/BeautyTipsAnimatorView;->g(Lcom/commsource/beautymain/widget/BeautyTipsAnimatorView;)Landroid/graphics/drawable/Drawable;
@@ -62,7 +59,6 @@
 
     invoke-virtual {v1, p1}, Landroid/graphics/drawable/Drawable;->setAlpha(I)V
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/beautymain/widget/BeautyTipsAnimatorView$i;->a:Lcom/commsource/beautymain/widget/BeautyTipsAnimatorView;
 
     invoke-static {v1}, Lcom/commsource/beautymain/widget/BeautyTipsAnimatorView;->e(Lcom/commsource/beautymain/widget/BeautyTipsAnimatorView;)Landroid/graphics/drawable/Drawable;
@@ -71,12 +67,10 @@
 
     invoke-virtual {v1, p1}, Landroid/graphics/drawable/Drawable;->setAlpha(I)V
 
-    .line 4
     iget-object p1, p0, Lcom/commsource/beautymain/widget/BeautyTipsAnimatorView$i;->a:Lcom/commsource/beautymain/widget/BeautyTipsAnimatorView;
 
     invoke-virtual {p1}, Landroid/view/View;->invalidate()V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

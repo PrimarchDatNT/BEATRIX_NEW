@@ -41,7 +41,6 @@
 
     const-string v13, "session_id"
 
-    .line 1
     filled-new-array/range {v0 .. v13}, [Ljava/lang/String;
 
     move-result-object v0
@@ -76,7 +75,6 @@
 
     const-string v14, "_sid"
 
-    .line 2
     filled-new-array/range {v1 .. v14}, [Ljava/lang/String;
 
     move-result-object v0
@@ -89,7 +87,6 @@
 .method protected constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -98,7 +95,6 @@
 .method public static a(Ljava/lang/String;)Ljava/lang/String;
     .locals 2
 
-    .line 1
     sget-object v0, Lcom/google/android/gms/measurement/internal/q6;->a:[Ljava/lang/String;
 
     sget-object v1, Lcom/google/android/gms/measurement/internal/q6;->b:[Ljava/lang/String;

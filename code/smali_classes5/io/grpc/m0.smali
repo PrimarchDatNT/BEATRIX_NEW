@@ -16,12 +16,10 @@
 .method public constructor <init>(Lio/grpc/InternalKnownTransport;)V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const-string v0, "transport"
 
-    .line 2
     invoke-static {p1, v0}, Lcom/google/common/base/t;->F(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -46,7 +44,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lio/grpc/m0;->a:Lio/grpc/InternalKnownTransport;
 
     invoke-virtual {v0}, Ljava/lang/Enum;->ordinal()I
@@ -72,7 +69,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lio/grpc/m0;->a:Lio/grpc/InternalKnownTransport;
 
     invoke-virtual {v0}, Ljava/lang/Enum;->ordinal()I

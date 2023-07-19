@@ -58,7 +58,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Lf/k/k/h;
 
     invoke-virtual {p0, p1}, Lcom/commsource/home/OnlineDialogRepo$requestDialogData$1$1;->invoke(Lf/k/k/h;)V
@@ -94,7 +93,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 2
     invoke-virtual {p1}, Lf/k/k/h;->d()Ljava/lang/String;
 
     move-result-object v1
@@ -109,7 +107,6 @@
 
     if-eqz v1, :cond_0
 
-    .line 3
     sget-object v1, Lcom/commsource/home/OnlineDialogRepo;->m:Lcom/commsource/home/OnlineDialogRepo;
 
     const/4 v2, 0x0
@@ -118,7 +115,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_0
     sget-object v1, Lcom/commsource/home/OnlineDialogRepo;->m:Lcom/commsource/home/OnlineDialogRepo;
 
@@ -130,7 +126,6 @@
 
     invoke-static {v1, v2}, Lcom/commsource/home/OnlineDialogRepo;->c(Lcom/commsource/home/OnlineDialogRepo;Ljava/util/List;)V
 
-    .line 5
     :goto_0
     invoke-virtual {p1}, Lf/k/k/h;->d()Ljava/lang/String;
 
@@ -138,7 +133,6 @@
 
     invoke-static {p1}, Lf/d/i/e;->p3(Ljava/lang/String;)V
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

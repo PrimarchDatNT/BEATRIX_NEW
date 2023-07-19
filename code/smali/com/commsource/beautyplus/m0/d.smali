@@ -24,10 +24,8 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     new-instance v0, Ljava/util/concurrent/ConcurrentHashMap;
 
     invoke-direct {v0}, Ljava/util/concurrent/ConcurrentHashMap;-><init>()V
@@ -44,30 +42,25 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/beautyplus/m0/d;->b:Lcom/commsource/beautyplus/m0/d;
 
     if-nez v1, :cond_1
 
-    .line 2
     const-class v1, Lcom/commsource/beautyplus/m0/d;
 
     monitor-enter v1
 
-    .line 3
     :try_start_0
     sget-object v2, Lcom/commsource/beautyplus/m0/d;->b:Lcom/commsource/beautyplus/m0/d;
 
     if-nez v2, :cond_0
 
-    .line 4
     new-instance v2, Lcom/commsource/beautyplus/m0/d;
 
     invoke-direct {v2}, Lcom/commsource/beautyplus/m0/d;-><init>()V
 
     sput-object v2, Lcom/commsource/beautyplus/m0/d;->b:Lcom/commsource/beautyplus/m0/d;
 
-    .line 5
     :cond_0
     monitor-exit v1
 
@@ -84,7 +77,6 @@
 
     throw v2
 
-    .line 6
     :cond_1
     :goto_0
     sget-object v1, Lcom/commsource/beautyplus/m0/d;->b:Lcom/commsource/beautyplus/m0/d;
@@ -103,7 +95,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/beautyplus/m0/d;->a:Ljava/util/concurrent/ConcurrentHashMap;
 
     invoke-virtual {v1, p1}, Ljava/util/concurrent/ConcurrentHashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
@@ -124,12 +115,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/beautyplus/m0/d;->a:Ljava/util/concurrent/ConcurrentHashMap;
 
     invoke-virtual {v1, p1, p2}, Ljava/util/concurrent/ConcurrentHashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -142,12 +131,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/beautyplus/m0/d;->a:Ljava/util/concurrent/ConcurrentHashMap;
 
     invoke-virtual {v1, p1}, Ljava/util/concurrent/ConcurrentHashMap;->remove(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

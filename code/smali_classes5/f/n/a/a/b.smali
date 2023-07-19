@@ -31,26 +31,20 @@
 .method private constructor <init>()V
     .locals 2
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/4 v0, 0x0
 
-    .line 2
     iput-object v0, p0, Lf/n/a/a/b;->a:Ljava/util/concurrent/ExecutorService;
 
     const-string v1, "_qiniu_record_file_hu3z9lo7anx03"
 
-    .line 3
     iput-object v1, p0, Lf/n/a/a/b;->b:Ljava/lang/String;
 
-    .line 4
     iput-object v0, p0, Lf/n/a/a/b;->c:Ljava/io/File;
 
-    .line 5
     iput-object v0, p0, Lf/n/a/a/b;->e:Lokhttp3/OkHttpClient;
 
-    .line 6
     :try_start_0
     invoke-direct {p0}, Lf/n/a/a/b;->m()V
     :try_end_0
@@ -61,7 +55,6 @@
     :catch_0
     move-exception v0
 
-    .line 7
     invoke-virtual {v0}, Ljava/io/IOException;->printStackTrace()V
 
     :goto_0
@@ -71,7 +64,6 @@
 .method static synthetic a(Lf/n/a/a/b;Ljava/lang/String;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1}, Lf/n/a/a/b;->n(Ljava/lang/String;)V
 
     return-void
@@ -80,7 +72,6 @@
 .method static synthetic b(Lf/n/a/a/b;Lf/n/a/c/j;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1}, Lf/n/a/a/b;->o(Lf/n/a/c/j;)V
 
     return-void
@@ -89,7 +80,6 @@
 .method public static c()V
     .locals 1
 
-    .line 1
     :try_start_0
     invoke-static {}, Lf/n/a/a/b;->e()Lf/n/a/a/b;
 
@@ -104,13 +94,11 @@
     :catch_0
     move-exception v0
 
-    .line 2
     invoke-virtual {v0}, Ljava/lang/Exception;->printStackTrace()V
 
     :goto_0
     const/4 v0, 0x0
 
-    .line 3
     sput-object v0, Lf/n/a/a/b;->f:Lf/n/a/a/b;
 
     return-void
@@ -119,13 +107,11 @@
 .method private d()V
     .locals 4
 
-    .line 1
     :try_start_0
     iget-object v0, p0, Lf/n/a/a/b;->a:Ljava/util/concurrent/ExecutorService;
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-interface {v0}, Ljava/util/concurrent/ExecutorService;->shutdown()V
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
@@ -134,24 +120,19 @@
     :cond_0
     const/4 v0, 0x0
 
-    .line 3
     iput-object v0, p0, Lf/n/a/a/b;->a:Ljava/util/concurrent/ExecutorService;
 
-    .line 4
     iput-object v0, p0, Lf/n/a/a/b;->e:Lokhttp3/OkHttpClient;
 
-    .line 5
     :try_start_1
     iget-object v1, p0, Lf/n/a/a/b;->c:Ljava/io/File;
 
     if-eqz v1, :cond_1
 
-    .line 6
     invoke-virtual {v1}, Ljava/io/File;->delete()Z
 
     goto :goto_0
 
-    .line 7
     :cond_1
     new-instance v1, Ljava/io/File;
 
@@ -169,7 +150,6 @@
     :try_end_1
     .catch Ljava/lang/Exception; {:try_start_1 .. :try_end_1} :catch_1
 
-    .line 8
     :catch_1
     :goto_0
     iput-object v0, p0, Lf/n/a/a/b;->c:Ljava/io/File;
@@ -180,19 +160,16 @@
 .method private static e()Lf/n/a/a/b;
     .locals 1
 
-    .line 1
     sget-object v0, Lf/n/a/a/b;->f:Lf/n/a/a/b;
 
     if-nez v0, :cond_0
 
-    .line 2
     new-instance v0, Lf/n/a/a/b;
 
     invoke-direct {v0}, Lf/n/a/a/b;-><init>()V
 
     sput-object v0, Lf/n/a/a/b;->f:Lf/n/a/a/b;
 
-    .line 3
     :cond_0
     sget-object v0, Lf/n/a/a/b;->f:Lf/n/a/a/b;
 
@@ -202,29 +179,24 @@
 .method private f()Lokhttp3/OkHttpClient;
     .locals 4
 
-    .line 1
     iget-object v0, p0, Lf/n/a/a/b;->e:Lokhttp3/OkHttpClient;
 
     if-nez v0, :cond_0
 
-    .line 2
     new-instance v0, Lokhttp3/OkHttpClient$Builder;
 
     invoke-direct {v0}, Lokhttp3/OkHttpClient$Builder;-><init>()V
 
     const-wide/16 v1, 0xa
 
-    .line 3
     sget-object v3, Ljava/util/concurrent/TimeUnit;->SECONDS:Ljava/util/concurrent/TimeUnit;
 
     invoke-virtual {v0, v1, v2, v3}, Lokhttp3/OkHttpClient$Builder;->connectTimeout(JLjava/util/concurrent/TimeUnit;)Lokhttp3/OkHttpClient$Builder;
 
     const-wide/16 v1, 0xf
 
-    .line 4
     invoke-virtual {v0, v1, v2, v3}, Lokhttp3/OkHttpClient$Builder;->readTimeout(JLjava/util/concurrent/TimeUnit;)Lokhttp3/OkHttpClient$Builder;
 
-    .line 5
     sget v1, Lf/n/a/a/a;->f:I
 
     div-int/lit8 v1, v1, 0x2
@@ -239,14 +211,12 @@
 
     invoke-virtual {v0, v1, v2, v3}, Lokhttp3/OkHttpClient$Builder;->writeTimeout(JLjava/util/concurrent/TimeUnit;)Lokhttp3/OkHttpClient$Builder;
 
-    .line 6
     invoke-virtual {v0}, Lokhttp3/OkHttpClient$Builder;->build()Lokhttp3/OkHttpClient;
 
     move-result-object v0
 
     iput-object v0, p0, Lf/n/a/a/b;->e:Lokhttp3/OkHttpClient;
 
-    .line 7
     :cond_0
     iget-object v0, p0, Lf/n/a/a/b;->e:Lokhttp3/OkHttpClient;
 
@@ -256,7 +226,6 @@
 .method private g(Ljava/lang/String;)Ljava/io/File;
     .locals 1
 
-    .line 1
     new-instance v0, Ljava/io/File;
 
     invoke-direct {v0, p1}, Ljava/io/File;-><init>(Ljava/lang/String;)V
@@ -267,13 +236,11 @@
 .method public static h(Lf/n/a/c/j;Lf/n/a/a/b$c;)V
     .locals 1
 
-    .line 1
     :try_start_0
     sget-boolean v0, Lf/n/a/a/a;->a:Z
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-static {}, Lf/n/a/a/b;->e()Lf/n/a/a/b;
 
     move-result-object v0
@@ -290,7 +257,6 @@
 .method private i(Lf/n/a/c/j;Lf/n/a/a/b$c;)V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lf/n/a/a/b;->a:Ljava/util/concurrent/ExecutorService;
 
     if-eqz v0, :cond_0
@@ -301,17 +267,14 @@
 
     if-nez v0, :cond_0
 
-    .line 2
     new-instance v0, Lf/n/a/a/b$a;
 
     invoke-direct {v0, p0, p2}, Lf/n/a/a/b$a;-><init>(Lf/n/a/a/b;Lf/n/a/a/b$c;)V
 
-    .line 3
     iget-object p2, p0, Lf/n/a/a/b;->a:Ljava/util/concurrent/ExecutorService;
 
     invoke-interface {p2, v0}, Ljava/util/concurrent/ExecutorService;->submit(Ljava/lang/Runnable;)Ljava/util/concurrent/Future;
 
-    .line 4
     sget-boolean p2, Lf/n/a/a/a;->b:Z
 
     if-eqz p2, :cond_0
@@ -320,12 +283,10 @@
 
     if-eq p1, p2, :cond_0
 
-    .line 5
     new-instance p2, Lf/n/a/a/b$b;
 
     invoke-direct {p2, p0, p1}, Lf/n/a/a/b$b;-><init>(Lf/n/a/a/b;Lf/n/a/c/j;)V
 
-    .line 6
     iget-object p1, p0, Lf/n/a/a/b;->a:Ljava/util/concurrent/ExecutorService;
 
     invoke-interface {p1, p2}, Ljava/util/concurrent/ExecutorService;->submit(Ljava/lang/Runnable;)Ljava/util/concurrent/Future;
@@ -344,14 +305,12 @@
 
     if-eqz p1, :cond_3
 
-    .line 1
     invoke-virtual {p1}, Ljava/io/File;->exists()Z
 
     move-result v0
 
     if-nez v0, :cond_1
 
-    .line 2
     invoke-virtual {p1}, Ljava/io/File;->mkdirs()Z
 
     move-result v0
@@ -360,7 +319,6 @@
 
     return-void
 
-    .line 3
     :cond_0
     new-instance v0, Ljava/io/IOException;
 
@@ -386,7 +344,6 @@
 
     throw v0
 
-    .line 4
     :cond_1
     invoke-virtual {p1}, Ljava/io/File;->isDirectory()Z
 
@@ -394,7 +351,6 @@
 
     if-eqz v0, :cond_2
 
-    .line 5
     new-instance v0, Ljava/io/File;
 
     const-string v1, "_qiniu_record_file_hu3z9lo7anx03"
@@ -405,7 +361,6 @@
 
     return-void
 
-    .line 6
     :cond_2
     new-instance v0, Ljava/io/IOException;
 
@@ -431,7 +386,6 @@
 
     throw v0
 
-    .line 7
     :cond_3
     new-instance p1, Ljava/io/IOException;
 
@@ -445,7 +399,6 @@
 .method private k(Lokhttp3/Response;)Z
     .locals 1
 
-    .line 1
     invoke-virtual {p1}, Lokhttp3/Response;->isSuccessful()Z
 
     move-result v0
@@ -474,7 +427,6 @@
 .method public static l()V
     .locals 1
 
-    .line 1
     :try_start_0
     invoke-static {}, Lf/n/a/a/b;->e()Lf/n/a/a/b;
 
@@ -489,7 +441,6 @@
     :catch_0
     move-exception v0
 
-    .line 2
     invoke-virtual {v0}, Ljava/lang/Exception;->printStackTrace()V
 
     :goto_0
@@ -504,12 +455,10 @@
         }
     .end annotation
 
-    .line 1
     sget-boolean v0, Lf/n/a/a/a;->a:Z
 
     if-eqz v0, :cond_0
 
-    .line 2
     sget-object v0, Lf/n/a/a/a;->c:Ljava/lang/String;
 
     invoke-direct {p0, v0}, Lf/n/a/a/b;->g(Ljava/lang/String;)Ljava/io/File;
@@ -518,7 +467,6 @@
 
     invoke-direct {p0, v0}, Lf/n/a/a/b;->j(Ljava/io/File;)V
 
-    .line 3
     :cond_0
     sget-boolean v0, Lf/n/a/a/a;->a:Z
 
@@ -528,10 +476,8 @@
 
     if-eqz v0, :cond_1
 
-    .line 4
     invoke-interface {v0}, Ljava/util/concurrent/ExecutorService;->shutdown()V
 
-    .line 5
     :cond_1
     sget-boolean v0, Lf/n/a/a/a;->a:Z
 
@@ -547,7 +493,6 @@
 
     if-eqz v0, :cond_3
 
-    .line 6
     :cond_2
     invoke-static {}, Ljava/util/concurrent/Executors;->newSingleThreadExecutor()Ljava/util/concurrent/ExecutorService;
 
@@ -562,7 +507,6 @@
 .method private n(Ljava/lang/String;)V
     .locals 5
 
-    .line 1
     sget-boolean v0, Lf/n/a/a/a;->a:Z
 
     if-eqz v0, :cond_0
@@ -581,7 +525,6 @@
 
     if-gez v4, :cond_0
 
-    .line 2
     iget-object v0, p0, Lf/n/a/a/b;->c:Ljava/io/File;
 
     new-instance v1, Ljava/lang/StringBuilder;
@@ -609,7 +552,6 @@
 .method private o(Lf/n/a/c/j;)V
     .locals 6
 
-    .line 1
     sget-boolean v0, Lf/n/a/a/a;->b:Z
 
     if-eqz v0, :cond_0
@@ -628,7 +570,6 @@
 
     if-lez v4, :cond_0
 
-    .line 2
     new-instance v0, Ljava/util/Date;
 
     invoke-direct {v0}, Ljava/util/Date;-><init>()V
@@ -637,7 +578,6 @@
 
     move-result-wide v0
 
-    .line 3
     iget-wide v2, p0, Lf/n/a/a/b;->d:J
 
     sget v4, Lf/n/a/a/a;->f:I
@@ -654,17 +594,14 @@
 
     if-lez v4, :cond_0
 
-    .line 4
     iput-wide v0, p0, Lf/n/a/a/b;->d:J
 
-    .line 5
     invoke-direct {p0, p1}, Lf/n/a/a/b;->p(Lf/n/a/c/j;)Z
 
     move-result p1
 
     if-eqz p1, :cond_0
 
-    .line 6
     iget-object p1, p0, Lf/n/a/a/b;->c:Ljava/io/File;
 
     const-string v0, ""
@@ -673,7 +610,6 @@
 
     invoke-static {p1, v0, v1}, Lf/n/a/a/b;->q(Ljava/io/File;Ljava/lang/String;Z)V
 
-    .line 7
     iget-object p1, p0, Lf/n/a/a/b;->c:Ljava/io/File;
 
     invoke-static {p1, v0, v1}, Lf/n/a/a/b;->q(Ljava/io/File;Ljava/lang/String;Z)V
@@ -685,18 +621,15 @@
 .method private p(Lf/n/a/c/j;)Z
     .locals 6
 
-    .line 1
     :try_start_0
     sget-object v0, Lf/n/a/a/a;->g:Ljava/lang/String;
 
-    .line 2
     invoke-direct {p0}, Lf/n/a/a/b;->f()Lokhttp3/OkHttpClient;
 
     move-result-object v1
 
     const-string v2, "text/plain"
 
-    .line 3
     invoke-static {v2}, Lokhttp3/MediaType;->parse(Ljava/lang/String;)Lokhttp3/MediaType;
 
     move-result-object v2
@@ -707,7 +640,6 @@
 
     move-result-object v2
 
-    .line 4
     new-instance v3, Lokhttp3/Request$Builder;
 
     invoke-direct {v3}, Lokhttp3/Request$Builder;-><init>()V
@@ -734,14 +666,12 @@
 
     move-result-object v4
 
-    .line 5
     invoke-virtual {v0, v3, v4}, Lokhttp3/Request$Builder;->addHeader(Ljava/lang/String;Ljava/lang/String;)Lokhttp3/Request$Builder;
 
     move-result-object v0
 
     const-string v3, "User-Agent"
 
-    .line 6
     invoke-static {}, Lcom/qiniu/android/http/i;->f()Lcom/qiniu/android/http/i;
 
     move-result-object v4
@@ -756,7 +686,6 @@
 
     move-result-object p1
 
-    .line 7
     invoke-virtual {p1, v2}, Lokhttp3/Request$Builder;->post(Lokhttp3/RequestBody;)Lokhttp3/Request$Builder;
 
     move-result-object p1
@@ -765,7 +694,6 @@
 
     move-result-object p1
 
-    .line 8
     invoke-virtual {v1, p1}, Lokhttp3/OkHttpClient;->newCall(Lokhttp3/Request;)Lokhttp3/Call;
 
     move-result-object p1
@@ -774,7 +702,6 @@
 
     move-result-object p1
 
-    .line 9
     invoke-direct {p0, p1}, Lf/n/a/a/b;->k(Lokhttp3/Response;)Z
 
     move-result p1
@@ -786,7 +713,6 @@
     :catch_0
     move-exception p1
 
-    .line 10
     invoke-virtual {p1}, Ljava/lang/Exception;->printStackTrace()V
 
     const/4 p1, 0x0
@@ -799,7 +725,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     :try_start_0
     new-instance v1, Ljava/io/FileOutputStream;
 
@@ -812,7 +737,6 @@
     :try_start_1
     const-string p0, "UTF-8"
 
-    .line 2
     invoke-static {p0}, Ljava/nio/charset/Charset;->forName(Ljava/lang/String;)Ljava/nio/charset/Charset;
 
     move-result-object p0
@@ -823,14 +747,12 @@
 
     invoke-virtual {v1, p0}, Ljava/io/FileOutputStream;->write([B)V
 
-    .line 3
     invoke-virtual {v1}, Ljava/io/FileOutputStream;->flush()V
     :try_end_1
     .catch Ljava/io/FileNotFoundException; {:try_start_1 .. :try_end_1} :catch_1
     .catch Ljava/io/IOException; {:try_start_1 .. :try_end_1} :catch_0
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
-    .line 4
     :try_start_2
     invoke-virtual {v1}, Ljava/io/FileOutputStream;->close()V
     :try_end_2
@@ -867,7 +789,6 @@
     :catch_2
     move-exception p0
 
-    .line 5
     :goto_0
     :try_start_3
     invoke-virtual {p0}, Ljava/io/IOException;->printStackTrace()V
@@ -876,7 +797,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 6
     :goto_1
     :try_start_4
     invoke-virtual {v0}, Ljava/io/FileOutputStream;->close()V
@@ -888,7 +808,6 @@
     :catch_3
     move-exception p0
 
-    .line 7
     :goto_2
     :try_start_5
     invoke-virtual {p0}, Ljava/io/FileNotFoundException;->printStackTrace()V
@@ -907,13 +826,11 @@
     :goto_4
     if-eqz v0, :cond_1
 
-    .line 8
     :try_start_6
     invoke-virtual {v0}, Ljava/io/FileOutputStream;->close()V
     :try_end_6
     .catch Ljava/io/IOException; {:try_start_6 .. :try_end_6} :catch_5
 
-    .line 9
     :catch_5
     :cond_1
     throw p0

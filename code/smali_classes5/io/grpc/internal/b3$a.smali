@@ -25,7 +25,6 @@
 .method constructor <init>(Lio/grpc/internal/b3;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lio/grpc/internal/b3$a;->a:Lio/grpc/internal/b3;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -50,7 +49,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lio/grpc/internal/b3$a;->a:Lio/grpc/internal/b3;
 
     invoke-static {v0}, Lio/grpc/internal/b3;->k(Lio/grpc/internal/b3;)Lio/grpc/internal/f1;
@@ -63,18 +61,15 @@
 
     if-nez v0, :cond_0
 
-    .line 2
     invoke-static {}, Lio/grpc/internal/b3;->l()Lio/grpc/internal/l0;
 
     move-result-object v0
 
-    .line 3
     :cond_0
     invoke-virtual {p4}, Lio/grpc/Context;->b()Lio/grpc/Context;
 
     move-result-object v1
 
-    .line 4
     :try_start_0
     invoke-interface {v0, p1, p3, p2}, Lio/grpc/internal/v;->i(Lio/grpc/MethodDescriptor;Lio/grpc/y0;Lio/grpc/f;)Lio/grpc/internal/u;
 
@@ -82,7 +77,6 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 5
     invoke-virtual {p4, v1}, Lio/grpc/Context;->i(Lio/grpc/Context;)V
 
     return-object p1

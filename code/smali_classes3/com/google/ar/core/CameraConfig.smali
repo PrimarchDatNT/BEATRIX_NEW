@@ -23,17 +23,14 @@
 .method protected constructor <init>()V
     .locals 2
 
-    .line 4
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/4 v0, 0x0
 
-    .line 5
     iput-object v0, p0, Lcom/google/ar/core/CameraConfig;->session:Lcom/google/ar/core/Session;
 
     const-wide/16 v0, 0x0
 
-    .line 6
     iput-wide v0, p0, Lcom/google/ar/core/CameraConfig;->nativeHandle:J
 
     return-void
@@ -42,13 +39,10 @@
 .method constructor <init>(Lcom/google/ar/core/Session;J)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/google/ar/core/CameraConfig;->session:Lcom/google/ar/core/Session;
 
-    .line 3
     iput-wide p2, p0, Lcom/google/ar/core/CameraConfig;->nativeHandle:J
 
     return-void
@@ -85,7 +79,6 @@
         }
     .end annotation
 
-    .line 1
     iget-wide v0, p0, Lcom/google/ar/core/CameraConfig;->nativeHandle:J
 
     const-wide/16 v2, 0x0
@@ -94,13 +87,10 @@
 
     if-eqz v4, :cond_0
 
-    .line 2
     invoke-static {v0, v1}, Lcom/google/ar/core/CameraConfig;->nativeDestroyCameraConfig(J)V
 
-    .line 3
     iput-wide v2, p0, Lcom/google/ar/core/CameraConfig;->nativeHandle:J
 
-    .line 4
     :cond_0
     invoke-super {p0}, Ljava/lang/Object;->finalize()V
 
@@ -110,7 +100,6 @@
 .method public getCameraId()Ljava/lang/String;
     .locals 4
 
-    .line 1
     iget-object v0, p0, Lcom/google/ar/core/CameraConfig;->session:Lcom/google/ar/core/Session;
 
     iget-wide v0, v0, Lcom/google/ar/core/Session;->nativeWrapperHandle:J
@@ -127,19 +116,16 @@
 .method public getDepthSensorUsage()Lcom/google/ar/core/CameraConfig$DepthSensorUsage;
     .locals 4
 
-    .line 1
     iget-object v0, p0, Lcom/google/ar/core/CameraConfig;->session:Lcom/google/ar/core/Session;
 
     iget-wide v0, v0, Lcom/google/ar/core/Session;->nativeWrapperHandle:J
 
     iget-wide v2, p0, Lcom/google/ar/core/CameraConfig;->nativeHandle:J
 
-    .line 2
     invoke-direct {p0, v0, v1, v2, v3}, Lcom/google/ar/core/CameraConfig;->nativeGetDepthSensorUsage(JJ)I
 
     move-result v0
 
-    .line 3
     invoke-static {v0}, Lcom/google/ar/core/CameraConfig$DepthSensorUsage;->forNumber(I)Lcom/google/ar/core/CameraConfig$DepthSensorUsage;
 
     move-result-object v0
@@ -150,19 +136,16 @@
 .method public getFacingDirection()Lcom/google/ar/core/CameraConfig$FacingDirection;
     .locals 4
 
-    .line 1
     iget-object v0, p0, Lcom/google/ar/core/CameraConfig;->session:Lcom/google/ar/core/Session;
 
     iget-wide v0, v0, Lcom/google/ar/core/Session;->nativeWrapperHandle:J
 
     iget-wide v2, p0, Lcom/google/ar/core/CameraConfig;->nativeHandle:J
 
-    .line 2
     invoke-direct {p0, v0, v1, v2, v3}, Lcom/google/ar/core/CameraConfig;->nativeGetFacingDirection(JJ)I
 
     move-result v0
 
-    .line 3
     invoke-static {v0}, Lcom/google/ar/core/CameraConfig$FacingDirection;->forNumber(I)Lcom/google/ar/core/CameraConfig$FacingDirection;
 
     move-result-object v0
@@ -185,7 +168,6 @@
 
     new-array v0, v0, [I
 
-    .line 1
     iget-object v1, p0, Lcom/google/ar/core/CameraConfig;->session:Lcom/google/ar/core/Session;
 
     iget-wide v2, v1, Lcom/google/ar/core/Session;->nativeWrapperHandle:J
@@ -198,7 +180,6 @@
 
     invoke-direct/range {v1 .. v6}, Lcom/google/ar/core/CameraConfig;->nativeGetFpsRange(JJ[I)V
 
-    .line 2
     new-instance v1, Landroid/util/Range;
 
     const/4 v2, 0x0
@@ -229,7 +210,6 @@
 
     new-array v0, v0, [I
 
-    .line 1
     iget-object v1, p0, Lcom/google/ar/core/CameraConfig;->session:Lcom/google/ar/core/Session;
 
     iget-wide v2, v1, Lcom/google/ar/core/Session;->nativeWrapperHandle:J
@@ -242,7 +222,6 @@
 
     invoke-direct/range {v1 .. v6}, Lcom/google/ar/core/CameraConfig;->nativeGetImageDimensions(JJ[I)V
 
-    .line 2
     new-instance v1, Landroid/util/Size;
 
     const/4 v2, 0x0
@@ -265,7 +244,6 @@
 
     new-array v0, v0, [I
 
-    .line 1
     iget-object v1, p0, Lcom/google/ar/core/CameraConfig;->session:Lcom/google/ar/core/Session;
 
     iget-wide v2, v1, Lcom/google/ar/core/Session;->nativeWrapperHandle:J
@@ -278,7 +256,6 @@
 
     invoke-direct/range {v1 .. v6}, Lcom/google/ar/core/CameraConfig;->nativeGetTextureDimensions(JJ[I)V
 
-    .line 2
     new-instance v1, Landroid/util/Size;
 
     const/4 v2, 0x0

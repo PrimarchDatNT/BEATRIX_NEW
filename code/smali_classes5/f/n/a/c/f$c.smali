@@ -27,7 +27,6 @@
 .method constructor <init>(Lf/n/a/c/f;J)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lf/n/a/c/f$c;->b:Lf/n/a/c/f;
 
     iput-wide p2, p0, Lf/n/a/c/f$c;->a:J
@@ -42,7 +41,6 @@
 .method public a(II)V
     .locals 3
 
-    .line 1
     iget-wide v0, p0, Lf/n/a/c/f$c;->a:J
 
     int-to-long p1, p1
@@ -69,7 +67,6 @@
 
     move-wide p1, v0
 
-    .line 2
     :cond_0
     iget-object v0, p0, Lf/n/a/c/f$c;->b:Lf/n/a/c/f;
 

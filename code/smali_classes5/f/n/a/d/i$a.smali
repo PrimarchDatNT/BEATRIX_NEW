@@ -29,7 +29,6 @@
 .method constructor <init>(Lf/n/a/d/i;Ljava/lang/StringBuilder;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lf/n/a/d/i$a;->c:Lf/n/a/d/i;
 
     iput-object p2, p0, Lf/n/a/d/i$a;->b:Ljava/lang/StringBuilder;
@@ -38,7 +37,6 @@
 
     const/4 p1, 0x0
 
-    .line 2
     iput-boolean p1, p0, Lf/n/a/d/i$a;->a:Z
 
     return-void
@@ -51,19 +49,16 @@
 
     const-string v0, "UTF-8"
 
-    .line 1
     iget-boolean v1, p0, Lf/n/a/d/i$a;->a:Z
 
     if-eqz v1, :cond_0
 
-    .line 2
     iget-object v1, p0, Lf/n/a/d/i$a;->b:Ljava/lang/StringBuilder;
 
     const-string v2, "&"
 
     invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 3
     :cond_0
     :try_start_0
     iget-object v1, p0, Lf/n/a/d/i$a;->b:Ljava/lang/StringBuilder;
@@ -78,7 +73,6 @@
 
     invoke-virtual {v1, p1}, Ljava/lang/StringBuilder;->append(C)Ljava/lang/StringBuilder;
 
-    .line 4
     invoke-virtual {p2}, Ljava/lang/Object;->toString()Ljava/lang/String;
 
     move-result-object p1
@@ -93,7 +87,6 @@
 
     const/4 p1, 0x1
 
-    .line 5
     iput-boolean p1, p0, Lf/n/a/d/i$a;->a:Z
 
     return-void
@@ -101,7 +94,6 @@
     :catch_0
     move-exception p1
 
-    .line 6
     new-instance p2, Ljava/lang/AssertionError;
 
     invoke-direct {p2, p1}, Ljava/lang/AssertionError;-><init>(Ljava/lang/Object;)V

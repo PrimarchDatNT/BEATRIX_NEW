@@ -25,7 +25,6 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
     new-instance v0, Lcom/google/protobuf/GeneratedMessageLite$j;
 
     invoke-direct {v0}, Lcom/google/protobuf/GeneratedMessageLite$j;-><init>()V
@@ -38,7 +37,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -49,12 +47,10 @@
 .method public A(Lcom/google/protobuf/z0$h;Lcom/google/protobuf/z0$h;)Lcom/google/protobuf/z0$h;
     .locals 3
 
-    .line 1
     invoke-interface {p1}, Ljava/util/List;->size()I
 
     move-result v0
 
-    .line 2
     invoke-interface {p2}, Ljava/util/List;->size()I
 
     move-result v1
@@ -63,7 +59,6 @@
 
     if-lez v1, :cond_1
 
-    .line 3
     invoke-interface {p1}, Lcom/google/protobuf/z0$j;->s0()Z
 
     move-result v2
@@ -72,12 +67,10 @@
 
     add-int/2addr v1, v0
 
-    .line 4
     invoke-interface {p1, v1}, Lcom/google/protobuf/z0$h;->g(I)Lcom/google/protobuf/z0$h;
 
     move-result-object p1
 
-    .line 5
     :cond_0
     invoke-interface {p1, p2}, Ljava/util/List;->addAll(Ljava/util/Collection;)Z
 
@@ -95,7 +88,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     check-cast p2, Lcom/google/protobuf/i1;
 
     check-cast p3, Lcom/google/protobuf/i1;
@@ -127,19 +119,16 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p1}, Lcom/google/protobuf/o0;->t()Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-virtual {p1}, Lcom/google/protobuf/o0;->d()Lcom/google/protobuf/o0;
 
     move-result-object p1
 
-    .line 3
     :cond_0
     invoke-virtual {p1, p2}, Lcom/google/protobuf/o0;->y(Lcom/google/protobuf/o0;)V
 
@@ -149,12 +138,10 @@
 .method public b(Lcom/google/protobuf/z0$e;Lcom/google/protobuf/z0$e;)Lcom/google/protobuf/z0$e;
     .locals 3
 
-    .line 1
     invoke-interface {p1}, Ljava/util/List;->size()I
 
     move-result v0
 
-    .line 2
     invoke-interface {p2}, Ljava/util/List;->size()I
 
     move-result v1
@@ -163,7 +150,6 @@
 
     if-lez v1, :cond_1
 
-    .line 3
     invoke-interface {p1}, Lcom/google/protobuf/z0$j;->s0()Z
 
     move-result v2
@@ -172,12 +158,10 @@
 
     add-int/2addr v1, v0
 
-    .line 4
     invoke-interface {p1, v1}, Lcom/google/protobuf/z0$e;->g(I)Lcom/google/protobuf/z0$e;
 
     move-result-object p1
 
-    .line 5
     :cond_0
     invoke-interface {p1, p2}, Ljava/util/List;->addAll(Ljava/util/Collection;)Z
 
@@ -226,26 +210,22 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p2}, Ljava/util/LinkedHashMap;->isEmpty()Z
 
     move-result v0
 
     if-nez v0, :cond_1
 
-    .line 2
     invoke-virtual {p1}, Lcom/google/protobuf/MapFieldLite;->isMutable()Z
 
     move-result v0
 
     if-nez v0, :cond_0
 
-    .line 3
     invoke-virtual {p1}, Lcom/google/protobuf/MapFieldLite;->mutableCopy()Lcom/google/protobuf/MapFieldLite;
 
     move-result-object p1
 
-    .line 4
     :cond_0
     invoke-virtual {p1, p2}, Lcom/google/protobuf/MapFieldLite;->mergeFrom(Lcom/google/protobuf/MapFieldLite;)V
 
@@ -256,7 +236,6 @@
 .method public g(Lcom/google/protobuf/p2;Lcom/google/protobuf/p2;)Lcom/google/protobuf/p2;
     .locals 1
 
-    .line 1
     invoke-static {}, Lcom/google/protobuf/p2;->c()Lcom/google/protobuf/p2;
 
     move-result-object v0
@@ -265,7 +244,6 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     invoke-static {p1, p2}, Lcom/google/protobuf/p2;->j(Lcom/google/protobuf/p2;Lcom/google/protobuf/p2;)Lcom/google/protobuf/p2;
 
@@ -295,12 +273,10 @@
 .method public j(Lcom/google/protobuf/z0$b;Lcom/google/protobuf/z0$b;)Lcom/google/protobuf/z0$b;
     .locals 3
 
-    .line 1
     invoke-interface {p1}, Ljava/util/List;->size()I
 
     move-result v0
 
-    .line 2
     invoke-interface {p2}, Ljava/util/List;->size()I
 
     move-result v1
@@ -309,7 +285,6 @@
 
     if-lez v1, :cond_1
 
-    .line 3
     invoke-interface {p1}, Lcom/google/protobuf/z0$j;->s0()Z
 
     move-result v2
@@ -318,12 +293,10 @@
 
     add-int/2addr v1, v0
 
-    .line 4
     invoke-interface {p1, v1}, Lcom/google/protobuf/z0$b;->g(I)Lcom/google/protobuf/z0$b;
 
     move-result-object p1
 
-    .line 5
     :cond_0
     invoke-interface {p1, p2}, Ljava/util/List;->addAll(Ljava/util/Collection;)Z
 
@@ -347,7 +320,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     check-cast p2, Lcom/google/protobuf/b1;
 
     goto :goto_0
@@ -357,7 +329,6 @@
 
     invoke-direct {p2}, Lcom/google/protobuf/b1;-><init>()V
 
-    .line 2
     :goto_0
     check-cast p3, Lcom/google/protobuf/b1;
 
@@ -369,12 +340,10 @@
 .method public m(Lcom/google/protobuf/z0$f;Lcom/google/protobuf/z0$f;)Lcom/google/protobuf/z0$f;
     .locals 3
 
-    .line 1
     invoke-interface {p1}, Ljava/util/List;->size()I
 
     move-result v0
 
-    .line 2
     invoke-interface {p2}, Ljava/util/List;->size()I
 
     move-result v1
@@ -383,7 +352,6 @@
 
     if-lez v1, :cond_1
 
-    .line 3
     invoke-interface {p1}, Lcom/google/protobuf/z0$j;->s0()Z
 
     move-result v2
@@ -392,12 +360,10 @@
 
     add-int/2addr v1, v0
 
-    .line 4
     invoke-interface {p1, v1}, Lcom/google/protobuf/z0$f;->g(I)Lcom/google/protobuf/z0$f;
 
     move-result-object p1
 
-    .line 5
     :cond_0
     invoke-interface {p1, p2}, Ljava/util/List;->addAll(Ljava/util/Collection;)Z
 
@@ -424,7 +390,6 @@
 
     if-eqz p2, :cond_0
 
-    .line 1
     invoke-interface {p1}, Lcom/google/protobuf/i1;->C3()Lcom/google/protobuf/i1$a;
 
     move-result-object p1
@@ -470,12 +435,10 @@
 
     if-nez p1, :cond_0
 
-    .line 1
     new-instance p1, Lcom/google/protobuf/b1;
 
     invoke-direct {p1}, Lcom/google/protobuf/b1;-><init>()V
 
-    .line 2
     :cond_0
     invoke-virtual {p1, p2}, Lcom/google/protobuf/b1;->h(Lcom/google/protobuf/b1;)V
 
@@ -486,12 +449,10 @@
 .method public r(Lcom/google/protobuf/z0$a;Lcom/google/protobuf/z0$a;)Lcom/google/protobuf/z0$a;
     .locals 3
 
-    .line 1
     invoke-interface {p1}, Ljava/util/List;->size()I
 
     move-result v0
 
-    .line 2
     invoke-interface {p2}, Ljava/util/List;->size()I
 
     move-result v1
@@ -500,7 +461,6 @@
 
     if-lez v1, :cond_1
 
-    .line 3
     invoke-interface {p1}, Lcom/google/protobuf/z0$j;->s0()Z
 
     move-result v2
@@ -509,12 +469,10 @@
 
     add-int/2addr v1, v0
 
-    .line 4
     invoke-interface {p1, v1}, Lcom/google/protobuf/z0$a;->g(I)Lcom/google/protobuf/z0$a;
 
     move-result-object p1
 
-    .line 5
     :cond_0
     invoke-interface {p1, p2}, Ljava/util/List;->addAll(Ljava/util/Collection;)Z
 
@@ -582,12 +540,10 @@
         }
     .end annotation
 
-    .line 1
     invoke-interface {p1}, Ljava/util/List;->size()I
 
     move-result v0
 
-    .line 2
     invoke-interface {p2}, Ljava/util/List;->size()I
 
     move-result v1
@@ -596,7 +552,6 @@
 
     if-lez v1, :cond_1
 
-    .line 3
     invoke-interface {p1}, Lcom/google/protobuf/z0$j;->s0()Z
 
     move-result v2
@@ -605,12 +560,10 @@
 
     add-int/2addr v1, v0
 
-    .line 4
     invoke-interface {p1, v1}, Lcom/google/protobuf/z0$j;->g(I)Lcom/google/protobuf/z0$j;
 
     move-result-object p1
 
-    .line 5
     :cond_0
     invoke-interface {p1, p2}, Ljava/util/List;->addAll(Ljava/util/Collection;)Z
 

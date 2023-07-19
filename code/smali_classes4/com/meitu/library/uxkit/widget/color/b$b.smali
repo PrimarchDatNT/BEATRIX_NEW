@@ -27,14 +27,12 @@
 .method constructor <init>(Lcom/meitu/library/uxkit/widget/color/b;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/library/uxkit/widget/color/b$b;->b:Lcom/meitu/library/uxkit/widget/color/b;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/4 p1, -0x1
 
-    .line 2
     iput p1, p0, Lcom/meitu/library/uxkit/widget/color/b$b;->a:I
 
     return-void
@@ -49,7 +47,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/library/uxkit/widget/color/b$b;->b:Lcom/meitu/library/uxkit/widget/color/b;
 
     invoke-static {v1}, Lcom/meitu/library/uxkit/widget/color/b;->j(Lcom/meitu/library/uxkit/widget/color/b;)Landroidx/recyclerview/widget/RecyclerView;
@@ -60,7 +57,6 @@
 
     move-result-object v1
 
-    .line 2
     iget-object v2, p0, Lcom/meitu/library/uxkit/widget/color/b$b;->b:Lcom/meitu/library/uxkit/widget/color/b;
 
     iget v3, v2, Lcom/meitu/library/uxkit/widget/color/a;->c:I
@@ -93,7 +89,6 @@
 
     if-gt v2, v3, :cond_2
 
-    .line 3
     invoke-virtual {v1}, Landroid/view/View;->getTag()Ljava/lang/Object;
 
     move-result-object v1
@@ -110,12 +105,10 @@
 
     if-ne v1, v2, :cond_0
 
-    .line 4
     iput p2, p0, Lcom/meitu/library/uxkit/widget/color/b$b;->a:I
 
     add-int/lit8 p1, p1, -0x1
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
@@ -125,7 +118,6 @@
 
     if-ne p2, p1, :cond_2
 
-    .line 6
     iget p1, p0, Lcom/meitu/library/uxkit/widget/color/b$b;->a:I
 
     if-gt p1, p2, :cond_1
@@ -137,7 +129,6 @@
 
     return p2
 
-    .line 7
     :cond_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

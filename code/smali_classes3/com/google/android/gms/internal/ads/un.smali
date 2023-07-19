@@ -13,17 +13,14 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/4 v0, 0x0
 
-    .line 2
     iput-boolean v0, p0, Lcom/google/android/gms/internal/ads/un;->a:Z
 
     const/high16 v0, 0x3f800000    # 1.0f
 
-    .line 3
     iput v0, p0, Lcom/google/android/gms/internal/ads/un;->b:F
 
     return-void
@@ -34,7 +31,6 @@
 
     const-string v0, "audio"
 
-    .line 1
     invoke-virtual {p0, v0}, Landroid/content/Context;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
 
     move-result-object p0
@@ -50,12 +46,10 @@
     :cond_0
     const/4 v1, 0x3
 
-    .line 2
     invoke-virtual {p0, v1}, Landroid/media/AudioManager;->getStreamMaxVolume(I)I
 
     move-result v2
 
-    .line 3
     invoke-virtual {p0, v1}, Landroid/media/AudioManager;->getStreamVolume(I)I
 
     move-result p0
@@ -79,7 +73,6 @@
 
     monitor-enter p0
 
-    .line 1
     :try_start_0
     iget v0, p0, Lcom/google/android/gms/internal/ads/un;->b:F
     :try_end_0
@@ -118,13 +111,11 @@
 
     monitor-enter p0
 
-    .line 1
     :try_start_0
     iput-boolean p1, p0, Lcom/google/android/gms/internal/ads/un;->a:Z
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 2
     monitor-exit p0
 
     return-void
@@ -142,13 +133,11 @@
 
     monitor-enter p0
 
-    .line 1
     :try_start_0
     iput p1, p0, Lcom/google/android/gms/internal/ads/un;->b:F
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 2
     monitor-exit p0
 
     return-void
@@ -166,7 +155,6 @@
 
     monitor-enter p0
 
-    .line 1
     :try_start_0
     invoke-direct {p0}, Lcom/google/android/gms/internal/ads/un;->f()Z
 
@@ -202,7 +190,6 @@
 
     monitor-enter p0
 
-    .line 1
     :try_start_0
     iget-boolean v0, p0, Lcom/google/android/gms/internal/ads/un;->a:Z
     :try_end_0

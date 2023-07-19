@@ -13,7 +13,6 @@
 .method private constructor <init>(Lcom/google/android/gms/common/api/internal/k0;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/android/gms/common/api/internal/u0;->a:Lcom/google/android/gms/common/api/internal/k0;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -24,7 +23,6 @@
 .method synthetic constructor <init>(Lcom/google/android/gms/common/api/internal/k0;Lcom/google/android/gms/common/api/internal/l0;)V
     .locals 0
 
-    .line 2
     invoke-direct {p0, p1}, Lcom/google/android/gms/common/api/internal/u0;-><init>(Lcom/google/android/gms/common/api/internal/k0;)V
 
     return-void
@@ -42,7 +40,6 @@
     .annotation build Landroidx/annotation/WorkerThread;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/common/api/internal/u0;->a:Lcom/google/android/gms/common/api/internal/k0;
 
     invoke-static {v0}, Lcom/google/android/gms/common/api/internal/k0;->r(Lcom/google/android/gms/common/api/internal/k0;)Ljava/util/concurrent/locks/Lock;
@@ -51,7 +48,6 @@
 
     invoke-interface {v0}, Ljava/util/concurrent/locks/Lock;->lock()V
 
-    .line 2
     :try_start_0
     invoke-static {}, Ljava/lang/Thread;->interrupted()Z
 
@@ -62,7 +58,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 3
     iget-object v0, p0, Lcom/google/android/gms/common/api/internal/u0;->a:Lcom/google/android/gms/common/api/internal/k0;
 
     invoke-static {v0}, Lcom/google/android/gms/common/api/internal/k0;->r(Lcom/google/android/gms/common/api/internal/k0;)Ljava/util/concurrent/locks/Lock;
@@ -73,7 +68,6 @@
 
     return-void
 
-    .line 4
     :cond_0
     :try_start_1
     invoke-virtual {p0}, Lcom/google/android/gms/common/api/internal/u0;->a()V
@@ -81,7 +75,6 @@
     .catch Ljava/lang/RuntimeException; {:try_start_1 .. :try_end_1} :catch_0
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
-    .line 5
     iget-object v0, p0, Lcom/google/android/gms/common/api/internal/u0;->a:Lcom/google/android/gms/common/api/internal/k0;
 
     invoke-static {v0}, Lcom/google/android/gms/common/api/internal/k0;->r(Lcom/google/android/gms/common/api/internal/k0;)Ljava/util/concurrent/locks/Lock;
@@ -100,7 +93,6 @@
     :catch_0
     move-exception v0
 
-    .line 6
     :try_start_2
     iget-object v1, p0, Lcom/google/android/gms/common/api/internal/u0;->a:Lcom/google/android/gms/common/api/internal/k0;
 
@@ -112,7 +104,6 @@
     :try_end_2
     .catchall {:try_start_2 .. :try_end_2} :catchall_0
 
-    .line 7
     iget-object v0, p0, Lcom/google/android/gms/common/api/internal/u0;->a:Lcom/google/android/gms/common/api/internal/k0;
 
     invoke-static {v0}, Lcom/google/android/gms/common/api/internal/k0;->r(Lcom/google/android/gms/common/api/internal/k0;)Ljava/util/concurrent/locks/Lock;
@@ -123,7 +114,6 @@
 
     return-void
 
-    .line 8
     :goto_0
     iget-object v1, p0, Lcom/google/android/gms/common/api/internal/u0;->a:Lcom/google/android/gms/common/api/internal/k0;
 

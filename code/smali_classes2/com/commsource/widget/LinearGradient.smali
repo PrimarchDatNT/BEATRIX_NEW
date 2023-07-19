@@ -105,17 +105,14 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 2
     invoke-direct {p0, p1, p2, p3}, Landroid/view/View;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
-    .line 3
     new-instance p1, Landroid/graphics/RectF;
 
     invoke-direct {p1}, Landroid/graphics/RectF;-><init>()V
 
     iput-object p1, p0, Lcom/commsource/widget/LinearGradient;->d:Landroid/graphics/RectF;
 
-    .line 4
     new-instance p1, Landroid/graphics/RectF;
 
     invoke-direct {p1}, Landroid/graphics/RectF;-><init>()V
@@ -124,21 +121,18 @@
 
     const/high16 p1, 0x40c00000    # 6.0f
 
-    .line 5
     invoke-static {p1}, Lcom/meitu/library/p/f/i;->b(F)F
 
     move-result p1
 
     iput p1, p0, Lcom/commsource/widget/LinearGradient;->K:F
 
-    .line 6
     invoke-static {}, Lcom/meitu/library/p/f/i;->z()I
 
     move-result p1
 
     iput p1, p0, Lcom/commsource/widget/LinearGradient;->L:I
 
-    .line 7
     invoke-direct {p0, p1}, Lcom/commsource/widget/LinearGradient;->d(I)V
 
     return-void
@@ -160,7 +154,6 @@
 
     const/4 p3, 0x0
 
-    .line 1
     :cond_1
     invoke-direct {p0, p1, p2, p3}, Lcom/commsource/widget/LinearGradient;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
@@ -180,14 +173,11 @@
 
     goto :goto_0
 
-    .line 1
     :cond_0
     iput p1, p0, Lcom/commsource/widget/LinearGradient;->p:I
 
-    .line 2
     iput p2, p0, Lcom/commsource/widget/LinearGradient;->J:I
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/widget/LinearGradient;->d:Landroid/graphics/RectF;
 
     int-to-float p1, p1
@@ -198,12 +188,10 @@
 
     invoke-virtual {v1, v2, v2, p1, p2}, Landroid/graphics/RectF;->set(FFFF)V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 5
     :cond_1
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -218,7 +206,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Landroid/graphics/Paint;
 
     const/4 v2, 0x1
@@ -251,10 +238,8 @@
 
     new-array v9, v1, [F
 
-    .line 2
     fill-array-data v9, :array_0
 
-    .line 3
     new-instance v1, Landroid/graphics/LinearGradient;
 
     int-to-float v6, p1
@@ -273,14 +258,12 @@
 
     iput-object v1, p0, Lcom/commsource/widget/LinearGradient;->b:Landroid/graphics/LinearGradient;
 
-    .line 4
     iget-object p1, p0, Lcom/commsource/widget/LinearGradient;->a:Landroid/graphics/Paint;
 
     if-eqz p1, :cond_0
 
     invoke-virtual {p1, v1}, Landroid/graphics/Paint;->setShader(Landroid/graphics/Shader;)Landroid/graphics/Shader;
 
-    .line 5
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -374,7 +357,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/widget/LinearGradient;->g:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -393,10 +375,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0, p1}, Landroid/view/View;->onDraw(Landroid/graphics/Canvas;)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/widget/LinearGradient;->a:Landroid/graphics/Paint;
 
     if-eqz v1, :cond_2
@@ -405,12 +385,10 @@
 
     if-eqz p1, :cond_0
 
-    .line 3
     iget v3, p0, Lcom/commsource/widget/LinearGradient;->c:F
 
     invoke-virtual {p1, v3, v2}, Landroid/graphics/Canvas;->translate(FF)V
 
-    .line 4
     :cond_0
     iget-object v3, p0, Lcom/commsource/widget/LinearGradient;->d:Landroid/graphics/RectF;
 
@@ -424,7 +402,6 @@
 
     invoke-virtual {v3, v2, v2, v4, v5}, Landroid/graphics/RectF;->set(FFFF)V
 
-    .line 5
     iget-object v3, p0, Lcom/commsource/widget/LinearGradient;->d:Landroid/graphics/RectF;
 
     iget v4, p0, Lcom/commsource/widget/LinearGradient;->c:F
@@ -435,27 +412,23 @@
 
     if-eqz p1, :cond_1
 
-    .line 6
     iget-object v2, p0, Lcom/commsource/widget/LinearGradient;->d:Landroid/graphics/RectF;
 
     iget v3, p0, Lcom/commsource/widget/LinearGradient;->K:F
 
     invoke-virtual {p1, v2, v3, v3, v1}, Landroid/graphics/Canvas;->drawRoundRect(Landroid/graphics/RectF;FFLandroid/graphics/Paint;)V
 
-    .line 7
     :cond_1
     iget-boolean v2, p0, Lcom/commsource/widget/LinearGradient;->g:Z
 
     if-eqz v2, :cond_2
 
-    .line 8
     iget-object v2, p0, Lcom/commsource/widget/LinearGradient;->f:Landroid/graphics/RectF;
 
     iget-object v3, p0, Lcom/commsource/widget/LinearGradient;->d:Landroid/graphics/RectF;
 
     invoke-virtual {v2, v3}, Landroid/graphics/RectF;->set(Landroid/graphics/RectF;)V
 
-    .line 9
     iget-object v2, p0, Lcom/commsource/widget/LinearGradient;->f:Landroid/graphics/RectF;
 
     iget v3, p0, Lcom/commsource/widget/LinearGradient;->J:I
@@ -470,10 +443,8 @@
 
     if-eqz p1, :cond_2
 
-    .line 10
     invoke-virtual {p1, v2, v1}, Landroid/graphics/Canvas;->drawRect(Landroid/graphics/RectF;Landroid/graphics/Paint;)V
 
-    .line 11
     :cond_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -487,13 +458,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0, p1, p2, p3, p4}, Landroid/view/View;->onSizeChanged(IIII)V
 
-    .line 2
     invoke-direct {p0, p1, p2}, Lcom/commsource/widget/LinearGradient;->c(II)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -506,7 +474,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/widget/LinearGradient;->g:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -521,26 +488,21 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/widget/LinearGradient;->K:F
 
     cmpg-float v1, v1, p1
 
     if-nez v1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 3
     :cond_0
     iput p1, p0, Lcom/commsource/widget/LinearGradient;->K:F
 
-    .line 4
     invoke-virtual {p0}, Landroid/view/View;->postInvalidate()V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

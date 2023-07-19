@@ -41,7 +41,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/meitu/library/gid/base/v$a;
 
     invoke-direct {v1}, Lcom/meitu/library/gid/base/v$a;-><init>()V
@@ -56,20 +55,16 @@
 .method private constructor <init>()V
     .locals 2
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     new-instance v0, Lcom/meitu/library/gid/base/n;
 
     invoke-direct {v0}, Lcom/meitu/library/gid/base/n;-><init>()V
 
-    .line 3
     new-instance v1, Lcom/meitu/library/gid/base/m;
 
     invoke-direct {v1}, Lcom/meitu/library/gid/base/m;-><init>()V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/gid/base/g0;->c(Ljava/lang/Object;)Lcom/meitu/library/gid/base/g0;
 
     move-result-object v0
@@ -90,7 +85,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/meitu/library/gid/base/v$a;->a:Lcom/meitu/library/gid/base/g0;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -107,27 +101,23 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/library/gid/base/v$a;->a:Lcom/meitu/library/gid/base/g0;
 
     :goto_0
     if-eqz v1, :cond_0
 
-    .line 2
     iget-object v2, v1, Lcom/meitu/library/gid/base/g0;->a:Ljava/lang/Object;
 
     check-cast v2, Lcom/meitu/library/gid/base/a0;
 
     invoke-interface {v2, p1, p2, p3}, Lcom/meitu/library/gid/base/a0;->a(ILjava/lang/String;Ljava/lang/String;)V
 
-    .line 3
     invoke-virtual {v1}, Lcom/meitu/library/gid/base/g0;->b()Lcom/meitu/library/gid/base/g0;
 
     move-result-object v1
 
     goto :goto_0
 
-    .line 4
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -141,7 +131,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/library/gid/base/v$a;->a:Lcom/meitu/library/gid/base/g0;
 
     const/4 v2, 0x7
@@ -149,7 +138,6 @@
     :goto_0
     if-eqz v1, :cond_0
 
-    .line 2
     iget-object v3, v1, Lcom/meitu/library/gid/base/g0;->a:Ljava/lang/Object;
 
     check-cast v3, Lcom/meitu/library/gid/base/a0;
@@ -162,14 +150,12 @@
 
     move-result v2
 
-    .line 3
     invoke-virtual {v1}, Lcom/meitu/library/gid/base/g0;->b()Lcom/meitu/library/gid/base/g0;
 
     move-result-object v1
 
     goto :goto_0
 
-    .line 4
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

@@ -24,12 +24,10 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Lorg/apache/http/impl/AbstractHttpClientConnection;-><init>()V
 
     const/4 v0, 0x0
 
-    .line 2
     iput-object v0, p0, Lorg/apache/http/impl/SocketHttpClientConnection;->socket:Ljava/net/Socket;
 
     return-void
@@ -38,15 +36,12 @@
 .method private static formatAddress(Ljava/lang/StringBuilder;Ljava/net/SocketAddress;)V
     .locals 1
 
-    .line 1
     instance-of v0, p1, Ljava/net/InetSocketAddress;
 
     if-eqz v0, :cond_1
 
-    .line 2
     check-cast p1, Ljava/net/InetSocketAddress;
 
-    .line 3
     invoke-virtual {p1}, Ljava/net/InetSocketAddress;->getAddress()Ljava/net/InetAddress;
 
     move-result-object v0
@@ -83,7 +78,6 @@
 
     goto :goto_1
 
-    .line 4
     :cond_1
     invoke-virtual {p0, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
 
@@ -96,7 +90,6 @@
 .method protected assertNotOpen()V
     .locals 2
 
-    .line 1
     iget-boolean v0, p0, Lorg/apache/http/impl/SocketHttpClientConnection;->open:Z
 
     xor-int/lit8 v0, v0, 0x1
@@ -111,7 +104,6 @@
 .method protected assertOpen()V
     .locals 2
 
-    .line 1
     iget-boolean v0, p0, Lorg/apache/http/impl/SocketHttpClientConnection;->open:Z
 
     const-string v1, "Connection is not open"
@@ -131,27 +123,22 @@
 
     const-string v0, "Socket"
 
-    .line 1
     invoke-static {p1, v0}, Lorg/apache/http/util/Args;->notNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
 
     const-string v0, "HTTP parameters"
 
-    .line 2
     invoke-static {p2, v0}, Lorg/apache/http/util/Args;->notNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
 
-    .line 3
     iput-object p1, p0, Lorg/apache/http/impl/SocketHttpClientConnection;->socket:Ljava/net/Socket;
 
     const-string v0, "http.socket.buffer-size"
 
     const/4 v1, -0x1
 
-    .line 4
     invoke-interface {p2, v0, v1}, Lorg/apache/http/params/HttpParams;->getIntParameter(Ljava/lang/String;I)I
 
     move-result v0
 
-    .line 5
     invoke-virtual {p0, p1, v0, p2}, Lorg/apache/http/impl/SocketHttpClientConnection;->createSessionInputBuffer(Ljava/net/Socket;ILorg/apache/http/params/HttpParams;)Lorg/apache/http/io/SessionInputBuffer;
 
     move-result-object v1
@@ -164,7 +151,6 @@
 
     const/4 p1, 0x1
 
-    .line 6
     iput-boolean p1, p0, Lorg/apache/http/impl/SocketHttpClientConnection;->open:Z
 
     return-void
@@ -178,7 +164,6 @@
         }
     .end annotation
 
-    .line 1
     iget-boolean v0, p0, Lorg/apache/http/impl/SocketHttpClientConnection;->open:Z
 
     if-nez v0, :cond_0
@@ -188,19 +173,15 @@
     :cond_0
     const/4 v0, 0x0
 
-    .line 2
     iput-boolean v0, p0, Lorg/apache/http/impl/SocketHttpClientConnection;->open:Z
 
-    .line 3
     iget-object v0, p0, Lorg/apache/http/impl/SocketHttpClientConnection;->socket:Ljava/net/Socket;
 
-    .line 4
     :try_start_0
     invoke-virtual {p0}, Lorg/apache/http/impl/AbstractHttpClientConnection;->doFlush()V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 5
     :try_start_1
     invoke-virtual {v0}, Ljava/net/Socket;->shutdownOutput()V
     :try_end_1
@@ -208,7 +189,6 @@
     .catch Ljava/lang/UnsupportedOperationException; {:try_start_1 .. :try_end_1} :catch_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
-    .line 6
     :catch_0
     :try_start_2
     invoke-virtual {v0}, Ljava/net/Socket;->shutdownInput()V
@@ -217,7 +197,6 @@
     .catch Ljava/lang/UnsupportedOperationException; {:try_start_2 .. :try_end_2} :catch_1
     .catchall {:try_start_2 .. :try_end_2} :catchall_0
 
-    .line 7
     :catch_1
     invoke-virtual {v0}, Ljava/net/Socket;->close()V
 
@@ -239,7 +218,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lorg/apache/http/impl/io/SocketInputBuffer;
 
     invoke-direct {v0, p1, p2, p3}, Lorg/apache/http/impl/io/SocketInputBuffer;-><init>(Ljava/net/Socket;ILorg/apache/http/params/HttpParams;)V
@@ -255,7 +233,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lorg/apache/http/impl/io/SocketOutputBuffer;
 
     invoke-direct {v0, p1, p2, p3}, Lorg/apache/http/impl/io/SocketOutputBuffer;-><init>(Ljava/net/Socket;ILorg/apache/http/params/HttpParams;)V
@@ -266,12 +243,10 @@
 .method public getLocalAddress()Ljava/net/InetAddress;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lorg/apache/http/impl/SocketHttpClientConnection;->socket:Ljava/net/Socket;
 
     if-eqz v0, :cond_0
 
-    .line 2
     iget-object v0, p0, Lorg/apache/http/impl/SocketHttpClientConnection;->socket:Ljava/net/Socket;
 
     invoke-virtual {v0}, Ljava/net/Socket;->getLocalAddress()Ljava/net/InetAddress;
@@ -289,12 +264,10 @@
 .method public getLocalPort()I
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lorg/apache/http/impl/SocketHttpClientConnection;->socket:Ljava/net/Socket;
 
     if-eqz v0, :cond_0
 
-    .line 2
     iget-object v0, p0, Lorg/apache/http/impl/SocketHttpClientConnection;->socket:Ljava/net/Socket;
 
     invoke-virtual {v0}, Ljava/net/Socket;->getLocalPort()I
@@ -312,12 +285,10 @@
 .method public getRemoteAddress()Ljava/net/InetAddress;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lorg/apache/http/impl/SocketHttpClientConnection;->socket:Ljava/net/Socket;
 
     if-eqz v0, :cond_0
 
-    .line 2
     iget-object v0, p0, Lorg/apache/http/impl/SocketHttpClientConnection;->socket:Ljava/net/Socket;
 
     invoke-virtual {v0}, Ljava/net/Socket;->getInetAddress()Ljava/net/InetAddress;
@@ -335,12 +306,10 @@
 .method public getRemotePort()I
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lorg/apache/http/impl/SocketHttpClientConnection;->socket:Ljava/net/Socket;
 
     if-eqz v0, :cond_0
 
-    .line 2
     iget-object v0, p0, Lorg/apache/http/impl/SocketHttpClientConnection;->socket:Ljava/net/Socket;
 
     invoke-virtual {v0}, Ljava/net/Socket;->getPort()I
@@ -358,7 +327,6 @@
 .method protected getSocket()Ljava/net/Socket;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lorg/apache/http/impl/SocketHttpClientConnection;->socket:Ljava/net/Socket;
 
     return-object v0
@@ -367,14 +335,12 @@
 .method public getSocketTimeout()I
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lorg/apache/http/impl/SocketHttpClientConnection;->socket:Ljava/net/Socket;
 
     const/4 v1, -0x1
 
     if-eqz v0, :cond_0
 
-    .line 2
     :try_start_0
     iget-object v0, p0, Lorg/apache/http/impl/SocketHttpClientConnection;->socket:Ljava/net/Socket;
 
@@ -394,7 +360,6 @@
 .method public isOpen()Z
     .locals 1
 
-    .line 1
     iget-boolean v0, p0, Lorg/apache/http/impl/SocketHttpClientConnection;->open:Z
 
     return v0
@@ -403,15 +368,12 @@
 .method public setSocketTimeout(I)V
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lorg/apache/http/impl/SocketHttpClientConnection;->assertOpen()V
 
-    .line 2
     iget-object v0, p0, Lorg/apache/http/impl/SocketHttpClientConnection;->socket:Ljava/net/Socket;
 
     if-eqz v0, :cond_0
 
-    .line 3
     :try_start_0
     iget-object v0, p0, Lorg/apache/http/impl/SocketHttpClientConnection;->socket:Ljava/net/Socket;
 
@@ -434,15 +396,12 @@
 
     const/4 v0, 0x0
 
-    .line 1
     iput-boolean v0, p0, Lorg/apache/http/impl/SocketHttpClientConnection;->open:Z
 
-    .line 2
     iget-object v0, p0, Lorg/apache/http/impl/SocketHttpClientConnection;->socket:Ljava/net/Socket;
 
     if-eqz v0, :cond_0
 
-    .line 3
     invoke-virtual {v0}, Ljava/net/Socket;->close()V
 
     :cond_0
@@ -452,24 +411,20 @@
 .method public toString()Ljava/lang/String;
     .locals 3
 
-    .line 1
     iget-object v0, p0, Lorg/apache/http/impl/SocketHttpClientConnection;->socket:Ljava/net/Socket;
 
     if-eqz v0, :cond_1
 
-    .line 2
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
 
-    .line 3
     iget-object v1, p0, Lorg/apache/http/impl/SocketHttpClientConnection;->socket:Ljava/net/Socket;
 
     invoke-virtual {v1}, Ljava/net/Socket;->getRemoteSocketAddress()Ljava/net/SocketAddress;
 
     move-result-object v1
 
-    .line 4
     iget-object v2, p0, Lorg/apache/http/impl/SocketHttpClientConnection;->socket:Ljava/net/Socket;
 
     invoke-virtual {v2}, Ljava/net/Socket;->getLocalSocketAddress()Ljava/net/SocketAddress;
@@ -480,18 +435,14 @@
 
     if-eqz v2, :cond_0
 
-    .line 5
     invoke-static {v0, v2}, Lorg/apache/http/impl/SocketHttpClientConnection;->formatAddress(Ljava/lang/StringBuilder;Ljava/net/SocketAddress;)V
 
     const-string v2, "<->"
 
-    .line 6
     invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 7
     invoke-static {v0, v1}, Lorg/apache/http/impl/SocketHttpClientConnection;->formatAddress(Ljava/lang/StringBuilder;Ljava/net/SocketAddress;)V
 
-    .line 8
     :cond_0
     invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
@@ -499,7 +450,6 @@
 
     return-object v0
 
-    .line 9
     :cond_1
     invoke-super {p0}, Ljava/lang/Object;->toString()Ljava/lang/String;
 

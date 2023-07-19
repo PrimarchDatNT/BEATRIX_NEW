@@ -42,7 +42,6 @@
 .method static constructor <clinit>()V
     .locals 13
 
-    .line 1
     new-instance v0, Lcom/airbnb/lottie/model/layer/Layer$MatteType;
 
     const-string v1, "NONE"
@@ -53,7 +52,6 @@
 
     sput-object v0, Lcom/airbnb/lottie/model/layer/Layer$MatteType;->NONE:Lcom/airbnb/lottie/model/layer/Layer$MatteType;
 
-    .line 2
     new-instance v1, Lcom/airbnb/lottie/model/layer/Layer$MatteType;
 
     const-string v3, "ADD"
@@ -64,7 +62,6 @@
 
     sput-object v1, Lcom/airbnb/lottie/model/layer/Layer$MatteType;->ADD:Lcom/airbnb/lottie/model/layer/Layer$MatteType;
 
-    .line 3
     new-instance v3, Lcom/airbnb/lottie/model/layer/Layer$MatteType;
 
     const-string v5, "INVERT"
@@ -75,7 +72,6 @@
 
     sput-object v3, Lcom/airbnb/lottie/model/layer/Layer$MatteType;->INVERT:Lcom/airbnb/lottie/model/layer/Layer$MatteType;
 
-    .line 4
     new-instance v5, Lcom/airbnb/lottie/model/layer/Layer$MatteType;
 
     const-string v7, "LUMA"
@@ -86,7 +82,6 @@
 
     sput-object v5, Lcom/airbnb/lottie/model/layer/Layer$MatteType;->LUMA:Lcom/airbnb/lottie/model/layer/Layer$MatteType;
 
-    .line 5
     new-instance v7, Lcom/airbnb/lottie/model/layer/Layer$MatteType;
 
     const-string v9, "LUMA_INVERTED"
@@ -97,7 +92,6 @@
 
     sput-object v7, Lcom/airbnb/lottie/model/layer/Layer$MatteType;->LUMA_INVERTED:Lcom/airbnb/lottie/model/layer/Layer$MatteType;
 
-    .line 6
     new-instance v9, Lcom/airbnb/lottie/model/layer/Layer$MatteType;
 
     const-string v11, "UNKNOWN"
@@ -124,7 +118,6 @@
 
     aput-object v9, v11, v12
 
-    .line 7
     sput-object v11, Lcom/airbnb/lottie/model/layer/Layer$MatteType;->$VALUES:[Lcom/airbnb/lottie/model/layer/Layer$MatteType;
 
     return-void
@@ -138,7 +131,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
     return-void
@@ -147,7 +139,6 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/airbnb/lottie/model/layer/Layer$MatteType;
     .locals 1
 
-    .line 1
     const-class v0, Lcom/airbnb/lottie/model/layer/Layer$MatteType;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -162,7 +153,6 @@
 .method public static values()[Lcom/airbnb/lottie/model/layer/Layer$MatteType;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/airbnb/lottie/model/layer/Layer$MatteType;->$VALUES:[Lcom/airbnb/lottie/model/layer/Layer$MatteType;
 
     invoke-virtual {v0}, [Lcom/airbnb/lottie/model/layer/Layer$MatteType;->clone()Ljava/lang/Object;

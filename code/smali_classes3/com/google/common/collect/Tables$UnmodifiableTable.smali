@@ -58,10 +58,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Lcom/google/common/collect/c1;-><init>()V
 
-    .line 2
     invoke-static {p1}, Lcom/google/common/base/t;->E(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -86,7 +84,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-super {p0}, Lcom/google/common/collect/c1;->cellSet()Ljava/util/Set;
 
     move-result-object v0
@@ -101,7 +98,6 @@
 .method public clear()V
     .locals 1
 
-    .line 1
     new-instance v0, Ljava/lang/UnsupportedOperationException;
 
     invoke-direct {v0}, Ljava/lang/UnsupportedOperationException;-><init>()V
@@ -123,7 +119,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-super {p0, p1}, Lcom/google/common/collect/c1;->column(Ljava/lang/Object;)Ljava/util/Map;
 
     move-result-object p1
@@ -145,7 +140,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-super {p0}, Lcom/google/common/collect/c1;->columnKeySet()Ljava/util/Set;
 
     move-result-object v0
@@ -169,12 +163,10 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {}, Lcom/google/common/collect/Tables;->a()Lcom/google/common/base/n;
 
     move-result-object v0
 
-    .line 2
     invoke-super {p0}, Lcom/google/common/collect/c1;->columnMap()Ljava/util/Map;
 
     move-result-object v1
@@ -200,7 +192,6 @@
         }
     .end annotation
 
-    .line 2
     iget-object v0, p0, Lcom/google/common/collect/Tables$UnmodifiableTable;->delegate:Lcom/google/common/collect/f2;
 
     return-object v0
@@ -209,7 +200,6 @@
 .method protected bridge synthetic delegate()Ljava/lang/Object;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/collect/Tables$UnmodifiableTable;->delegate()Lcom/google/common/collect/f2;
 
     move-result-object v0
@@ -237,7 +227,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance p1, Ljava/lang/UnsupportedOperationException;
 
     invoke-direct {p1}, Ljava/lang/UnsupportedOperationException;-><init>()V
@@ -255,7 +244,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance p1, Ljava/lang/UnsupportedOperationException;
 
     invoke-direct {p1}, Ljava/lang/UnsupportedOperationException;-><init>()V
@@ -282,7 +270,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance p1, Ljava/lang/UnsupportedOperationException;
 
     invoke-direct {p1}, Ljava/lang/UnsupportedOperationException;-><init>()V
@@ -304,7 +291,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-super {p0, p1}, Lcom/google/common/collect/c1;->row(Ljava/lang/Object;)Ljava/util/Map;
 
     move-result-object p1
@@ -326,7 +312,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-super {p0}, Lcom/google/common/collect/c1;->rowKeySet()Ljava/util/Set;
 
     move-result-object v0
@@ -350,12 +335,10 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {}, Lcom/google/common/collect/Tables;->a()Lcom/google/common/base/n;
 
     move-result-object v0
 
-    .line 2
     invoke-super {p0}, Lcom/google/common/collect/c1;->rowMap()Ljava/util/Map;
 
     move-result-object v1
@@ -381,7 +364,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-super {p0}, Lcom/google/common/collect/c1;->values()Ljava/util/Collection;
 
     move-result-object v0

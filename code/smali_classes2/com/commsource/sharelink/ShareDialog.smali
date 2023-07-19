@@ -81,10 +81,8 @@
 .method public constructor <init>()V
     .locals 2
 
-    .line 1
     invoke-direct {p0}, Lf/d/a;-><init>()V
 
-    .line 2
     new-instance v0, Lcom/commsource/sharelink/b;
 
     const/4 v1, 0x0
@@ -93,7 +91,6 @@
 
     iput-object v0, p0, Lcom/commsource/sharelink/ShareDialog;->Y:Lcom/commsource/sharelink/b;
 
-    .line 3
     new-instance v0, Lcom/commsource/sharelink/ShareDialog$mAdapter$2;
 
     invoke-direct {v0, p0}, Lcom/commsource/sharelink/ShareDialog$mAdapter$2;-><init>(Lcom/commsource/sharelink/ShareDialog;)V
@@ -104,7 +101,6 @@
 
     iput-object v0, p0, Lcom/commsource/sharelink/ShareDialog;->Z:Lcotlin/w;
 
-    .line 4
     sget-object v0, Lcom/commsource/sharelink/ShareDialog$mFeedBackManager$2;->INSTANCE:Lcom/commsource/sharelink/ShareDialog$mFeedBackManager$2;
 
     invoke-static {v0}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
@@ -113,7 +109,6 @@
 
     iput-object v0, p0, Lcom/commsource/sharelink/ShareDialog;->a0:Lcotlin/w;
 
-    .line 5
     new-instance v0, Lcom/commsource/sharelink/ShareDialog$mFeedBackDialog$2;
 
     invoke-direct {v0, p0}, Lcom/commsource/sharelink/ShareDialog$mFeedBackDialog$2;-><init>(Lcom/commsource/sharelink/ShareDialog;)V
@@ -134,7 +129,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lf/d/a;->W:Landroidx/databinding/ViewDataBinding;
 
     check-cast p0, Lcom/commsource/beautyplus/f0/i6;
@@ -151,7 +145,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/sharelink/ShareDialog;->V()Landroid/app/Dialog;
 
     move-result-object p0
@@ -168,7 +161,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/sharelink/ShareDialog;->W()Lcom/commsource/beautyplus/m0/a;
 
     move-result-object p0
@@ -185,7 +177,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/sharelink/ShareDialog;->Y()V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -200,7 +191,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/sharelink/ShareDialog;->b0()V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -215,7 +205,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lf/d/a;->W:Landroidx/databinding/ViewDataBinding;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -290,7 +279,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/sharelink/ShareDialog;->Y:Lcom/commsource/sharelink/b;
 
     invoke-virtual {v1}, Lcom/commsource/sharelink/b;->l()Z
@@ -305,12 +293,10 @@
 
     const-string v1, "puzzle_save_page_clk"
 
-    .line 2
     invoke-static {v1, v3, v2}, Lcom/commsource/statistics/i;->r(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_0
 
-    .line 3
     :cond_0
     iget-object v1, p0, Lcom/commsource/sharelink/ShareDialog;->Y:Lcom/commsource/sharelink/b;
 
@@ -326,25 +312,20 @@
 
     if-eqz v1, :cond_1
 
-    .line 4
     new-instance v1, Ljava/util/HashMap;
 
     invoke-direct {v1, v6}, Ljava/util/HashMap;-><init>(I)V
 
     const-string v6, "\u62cd\u7167\u9875"
 
-    .line 5
     invoke-virtual {v1, v5, v6}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 6
     invoke-virtual {v1, v3, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 7
     invoke-static {v4, v1}, Lcom/commsource/statistics/i;->s(Ljava/lang/String;Ljava/util/Map;)V
 
     goto :goto_0
 
-    .line 8
     :cond_1
     iget-object v1, p0, Lcom/commsource/sharelink/ShareDialog;->Y:Lcom/commsource/sharelink/b;
 
@@ -354,23 +335,18 @@
 
     if-eqz v1, :cond_2
 
-    .line 9
     new-instance v1, Ljava/util/HashMap;
 
     invoke-direct {v1, v6}, Ljava/util/HashMap;-><init>(I)V
 
     const-string v6, "\u5176\u4ed6"
 
-    .line 10
     invoke-virtual {v1, v5, v6}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 11
     invoke-virtual {v1, v3, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 12
     invoke-static {v4, v1}, Lcom/commsource/statistics/i;->s(Ljava/lang/String;Ljava/util/Map;)V
 
-    .line 13
     :cond_2
     :goto_0
     new-instance v1, Landroid/content/Intent;
@@ -385,20 +361,16 @@
 
     const/high16 v2, 0x24000000
 
-    .line 14
     invoke-virtual {v1, v2}, Landroid/content/Intent;->setFlags(I)Landroid/content/Intent;
 
-    .line 15
     invoke-virtual {p0}, Landroidx/fragment/app/Fragment;->isAdded()Z
 
     move-result v2
 
     if-eqz v2, :cond_3
 
-    .line 16
     invoke-virtual {p0, v1}, Landroidx/fragment/app/Fragment;->startActivity(Landroid/content/Intent;)V
 
-    .line 17
     invoke-virtual {p0}, Landroidx/fragment/app/Fragment;->getActivity()Landroidx/fragment/app/FragmentActivity;
 
     move-result-object v1
@@ -407,7 +379,6 @@
 
     invoke-virtual {v1}, Landroid/app/Activity;->finish()V
 
-    .line 18
     :cond_3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -421,7 +392,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Landroid/content/Intent;
 
     invoke-virtual {p0}, Landroidx/fragment/app/Fragment;->getActivity()Landroidx/fragment/app/FragmentActivity;
@@ -432,12 +402,10 @@
 
     invoke-direct {v1, v2, v3}, Landroid/content/Intent;-><init>(Landroid/content/Context;Ljava/lang/Class;)V
 
-    .line 2
     new-instance v2, Lcom/commsource/beautyplus/router/RouterEntity;
 
     invoke-direct {v2}, Lcom/commsource/beautyplus/router/RouterEntity;-><init>()V
 
-    .line 3
     sget-object v3, Lcom/commsource/beautyfilter/NewBeautyFilterManager;->q:Lcom/commsource/beautyfilter/NewBeautyFilterManager$a;
 
     invoke-virtual {v3}, Lcom/commsource/beautyfilter/NewBeautyFilterManager$a;->b()Lcom/commsource/beautyfilter/NewBeautyFilterManager;
@@ -450,7 +418,6 @@
 
     move-result-object v3
 
-    .line 4
     invoke-static {v3}, Lcom/commsource/camera/f1/f;->b(Lcom/meitu/template/bean/Filter;)Z
 
     move-result v3
@@ -461,38 +428,31 @@
 
     const-string v4, "888"
 
-    .line 5
     invoke-virtual {v2, v3, v4}, Lcom/commsource/beautyplus/router/RouterEntity;->addParameter(Ljava/lang/String;Ljava/lang/String;)V
 
     const-string v3, "type"
 
     const-string v4, "filter"
 
-    .line 6
     invoke-virtual {v2, v3, v4}, Lcom/commsource/beautyplus/router/RouterEntity;->addParameter(Ljava/lang/String;Ljava/lang/String;)V
 
     :cond_0
     const-string v3, "DEEP_LINK"
 
-    .line 7
     invoke-virtual {v1, v3, v2}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/io/Serializable;)Landroid/content/Intent;
 
     const/high16 v2, 0x4000000
 
-    .line 8
     invoke-virtual {v1, v2}, Landroid/content/Intent;->setFlags(I)Landroid/content/Intent;
 
-    .line 9
     invoke-virtual {p0}, Landroidx/fragment/app/Fragment;->isAdded()Z
 
     move-result v2
 
     if-eqz v2, :cond_1
 
-    .line 10
     invoke-virtual {p0, v1}, Landroidx/fragment/app/Fragment;->startActivity(Landroid/content/Intent;)V
 
-    .line 11
     invoke-virtual {p0}, Landroidx/fragment/app/Fragment;->getActivity()Landroidx/fragment/app/FragmentActivity;
 
     move-result-object v1
@@ -501,7 +461,6 @@
 
     invoke-virtual {v1}, Landroid/app/Activity;->finish()V
 
-    .line 12
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -517,14 +476,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/sharelink/ShareDialog;->Y:Lcom/commsource/sharelink/b;
 
     invoke-virtual {v1}, Lcom/commsource/sharelink/b;->b()Ljava/util/List;
 
     move-result-object v1
 
-    .line 2
     iget-object v2, p0, Lcom/commsource/sharelink/ShareDialog;->Y:Lcom/commsource/sharelink/b;
 
     invoke-virtual {v2}, Lcom/commsource/sharelink/b;->k()Z
@@ -543,42 +500,34 @@
 
     sget v2, Lcom/res/provider/ResSTRING;->ad_slot_selfie_save_icon:I
 
-    .line 3
     invoke-virtual {p0, v2}, Landroidx/fragment/app/Fragment;->getString(I)Ljava/lang/String;
 
     move-result-object v2
 
-    .line 4
     invoke-static {v2}, Lcom/meitu/hwbusinesskit/core/HWBusinessSDK;->isAdSlotOpen(Ljava/lang/String;)Z
 
     move-result v2
 
     if-eqz v2, :cond_0
 
-    .line 5
     iput-boolean v3, p0, Lcom/commsource/sharelink/ShareDialog;->b0:Z
 
-    .line 6
     new-instance v2, Lcom/commsource/sharelink/d;
 
     sget v4, Lcom/res/provider/ResSTRING;->edit_share_icon_surprise_ad:I
 
     sget v5, Lcom/res/provider/ResSTRING;->t_surprise:I
 
-    .line 7
     invoke-static {v5}, Lcom/commsource/util/l0;->e0(I)Ljava/lang/String;
 
     move-result-object v5
 
     const-string v6, "AD"
 
-    .line 8
     invoke-direct {v2, v4, v6, v5}, Lcom/commsource/sharelink/d;-><init>(ILjava/lang/String;Ljava/lang/String;)V
 
-    .line 9
     invoke-interface {v1, v2}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
-    .line 10
     :cond_0
     iget-object v2, p0, Lf/d/a;->W:Landroidx/databinding/ViewDataBinding;
 
@@ -606,7 +555,6 @@
 
     invoke-virtual {v2, v5}, Landroidx/recyclerview/widget/RecyclerView;->setLayoutManager(Landroidx/recyclerview/widget/RecyclerView$LayoutManager;)V
 
-    .line 11
     iget-object v2, p0, Lf/d/a;->W:Landroidx/databinding/ViewDataBinding;
 
     check-cast v2, Lcom/commsource/beautyplus/f0/i6;
@@ -621,32 +569,26 @@
 
     invoke-virtual {v2, v3}, Landroidx/recyclerview/widget/RecyclerView;->setAdapter(Landroidx/recyclerview/widget/RecyclerView$Adapter;)V
 
-    .line 12
     invoke-direct {p0}, Lcom/commsource/sharelink/ShareDialog;->U()Lcom/commsource/widget/h1/e;
 
     move-result-object v2
 
-    .line 13
     invoke-static {}, Lcom/commsource/widget/h1/c;->j()Lcom/commsource/widget/h1/c;
 
     move-result-object v3
 
-    .line 14
     const-class v4, Lcom/commsource/sharelink/e;
 
     invoke-virtual {v3, v1, v4}, Lcom/commsource/widget/h1/c;->c(Ljava/util/List;Ljava/lang/Class;)Lcom/commsource/widget/h1/c;
 
     move-result-object v1
 
-    .line 15
     invoke-virtual {v1}, Lcom/commsource/widget/h1/c;->i()Ljava/util/List;
 
     move-result-object v1
 
-    .line 16
     invoke-virtual {v2, v1}, Lcom/commsource/widget/h1/e;->Q(Ljava/util/List;)V
 
-    .line 17
     invoke-direct {p0}, Lcom/commsource/sharelink/ShareDialog;->U()Lcom/commsource/widget/h1/e;
 
     move-result-object v1
@@ -659,7 +601,6 @@
 
     invoke-virtual {v1, v2, v3}, Lcom/commsource/widget/h1/e;->J(Ljava/lang/Class;Lcom/commsource/widget/h1/e$b;)V
 
-    .line 18
     iget-object v1, p0, Lcom/commsource/sharelink/ShareDialog;->Y:Lcom/commsource/sharelink/b;
 
     invoke-virtual {v1}, Lcom/commsource/sharelink/b;->m()Z
@@ -670,7 +611,6 @@
 
     if-eqz v1, :cond_1
 
-    .line 19
     iget-object v1, p0, Lf/d/a;->W:Landroidx/databinding/ViewDataBinding;
 
     check-cast v1, Lcom/commsource/beautyplus/f0/i6;
@@ -687,7 +627,6 @@
 
     invoke-virtual {v1, v3}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 20
     iget-object v1, p0, Lf/d/a;->W:Landroidx/databinding/ViewDataBinding;
 
     check-cast v1, Lcom/commsource/beautyplus/f0/i6;
@@ -700,7 +639,6 @@
 
     goto :goto_0
 
-    .line 21
     :cond_1
     iget-object v1, p0, Lf/d/a;->W:Landroidx/databinding/ViewDataBinding;
 
@@ -712,13 +650,11 @@
 
     invoke-static {v1}, Lcom/commsource/util/l0;->w(Landroid/view/View;)V
 
-    .line 22
     :goto_0
     invoke-static {}, Lf/d/i/o;->o0()Z
 
     move-result v1
 
-    .line 23
     iget-object v2, p0, Lcom/commsource/sharelink/ShareDialog;->Y:Lcom/commsource/sharelink/b;
 
     invoke-virtual {v2}, Lcom/commsource/sharelink/b;->k()Z
@@ -739,7 +675,6 @@
 
     if-nez v1, :cond_2
 
-    .line 24
     iget-object v1, p0, Lf/d/a;->W:Landroidx/databinding/ViewDataBinding;
 
     check-cast v1, Lcom/commsource/beautyplus/f0/i6;
@@ -764,7 +699,6 @@
 
     goto :goto_1
 
-    .line 25
     :cond_2
     iget-object v2, p0, Lcom/commsource/sharelink/ShareDialog;->Y:Lcom/commsource/sharelink/b;
 
@@ -776,7 +710,6 @@
 
     if-nez v1, :cond_3
 
-    .line 26
     iget-object v1, p0, Lf/d/a;->W:Landroidx/databinding/ViewDataBinding;
 
     check-cast v1, Lcom/commsource/beautyplus/f0/i6;
@@ -789,7 +722,6 @@
 
     invoke-virtual {p0, v1}, Lcom/commsource/sharelink/ShareDialog;->Z(Landroid/widget/RelativeLayout;)V
 
-    .line 27
     :cond_3
     :goto_1
     iget-object v1, p0, Lf/d/a;->W:Landroidx/databinding/ViewDataBinding;
@@ -804,7 +736,6 @@
 
     invoke-virtual {v1, v2}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 28
     iget-object v1, p0, Lf/d/a;->W:Landroidx/databinding/ViewDataBinding;
 
     check-cast v1, Lcom/commsource/beautyplus/f0/i6;
@@ -817,7 +748,6 @@
 
     invoke-virtual {v1, v2}, Landroid/widget/ImageView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 29
     iget-object v1, p0, Lf/d/a;->W:Landroidx/databinding/ViewDataBinding;
 
     check-cast v1, Lcom/commsource/beautyplus/f0/i6;
@@ -830,7 +760,6 @@
 
     invoke-virtual {v1, v2}, Landroid/widget/ImageView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 30
     iget-object v1, p0, Lf/d/a;->W:Landroidx/databinding/ViewDataBinding;
 
     check-cast v1, Lcom/commsource/beautyplus/f0/i6;
@@ -843,7 +772,6 @@
 
     invoke-virtual {v1, v2}, Landroid/widget/TextView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 31
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -856,7 +784,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     sget v0, Lcom/res/provider/ResSTYLE;->up_down_animation:I
@@ -871,7 +798,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     sget v0, Lcom/res/provider/ResLAYOUT;->dialog_share_content:I
@@ -968,7 +894,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/sharelink/ShareDialog;->d0:Lcom/meitu/hwbusinesskit/core/ad/NativeAd;
 
     const/4 v2, 0x0
@@ -977,7 +902,6 @@
 
     invoke-virtual {v1, v2}, Lcom/meitu/hwbusinesskit/core/ad/BaseAd;->setOnAdListener(Lcom/meitu/hwbusinesskit/core/listener/OnAdListener;)V
 
-    .line 2
     :cond_0
     iget-object v1, p0, Lcom/commsource/sharelink/ShareDialog;->d0:Lcom/meitu/hwbusinesskit/core/ad/NativeAd;
 
@@ -985,11 +909,9 @@
 
     invoke-virtual {v1}, Lcom/meitu/hwbusinesskit/core/ad/NativeAd;->destroy()V
 
-    .line 3
     :cond_1
     iput-object v2, p0, Lcom/commsource/sharelink/ShareDialog;->d0:Lcom/meitu/hwbusinesskit/core/ad/NativeAd;
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1013,7 +935,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/sharelink/ShareDialog;->X:Lcotlin/jvm/u/a;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1030,7 +951,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/sharelink/ShareDialog;->Y:Lcom/commsource/sharelink/b;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1055,10 +975,8 @@
 
     const/4 v1, 0x0
 
-    .line 1
     invoke-virtual {p1, v1}, Landroid/widget/RelativeLayout;->setVisibility(I)V
 
-    .line 2
     iget-object v1, p0, Lf/d/a;->W:Landroidx/databinding/ViewDataBinding;
 
     check-cast v1, Lcom/commsource/beautyplus/f0/i6;
@@ -1069,14 +987,12 @@
 
     invoke-virtual {v1, v2}, Landroid/widget/ImageView;->setImageResource(I)V
 
-    .line 3
     new-instance v1, Lcom/commsource/sharelink/ShareDialog$g;
 
     invoke-direct {v1, p0}, Lcom/commsource/sharelink/ShareDialog$g;-><init>(Lcom/commsource/sharelink/ShareDialog;)V
 
     invoke-virtual {p1, v1}, Landroid/widget/RelativeLayout;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1107,7 +1023,6 @@
 
     sget v1, Lcom/res/provider/ResSTRING;->ad_slot_save_via_selfie:I
 
-    .line 1
     invoke-static {v1}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
 
     move-result-object v1
@@ -1122,7 +1037,6 @@
 
     if-eqz v1, :cond_2
 
-    .line 2
     invoke-virtual {v1}, Lcom/meitu/hwbusinesskit/core/ad/BaseAd;->hasCacheAd()Z
 
     move-result v3
@@ -1141,7 +1055,6 @@
     :goto_0
     invoke-virtual {p2, v3}, Landroid/widget/RelativeLayout;->setVisibility(I)V
 
-    .line 3
     invoke-virtual {v1}, Lcom/meitu/hwbusinesskit/core/ad/BaseAd;->hasCacheAd()Z
 
     move-result v3
@@ -1156,14 +1069,12 @@
     :goto_1
     invoke-virtual {p1, v2}, Landroid/widget/RelativeLayout;->setVisibility(I)V
 
-    .line 4
     new-instance v2, Lcom/commsource/sharelink/ShareDialog$h;
 
     invoke-direct {v2, p0, p2, p1}, Lcom/commsource/sharelink/ShareDialog$h;-><init>(Lcom/commsource/sharelink/ShareDialog;Landroid/widget/RelativeLayout;Lcom/meitu/hwbusinesskit/core/widget/NativeAdView;)V
 
     invoke-virtual {v1, v2}, Lcom/meitu/hwbusinesskit/core/ad/BaseAd;->setOnAdListener(Lcom/meitu/hwbusinesskit/core/listener/OnAdListener;)V
 
-    .line 5
     :try_start_0
     invoke-virtual {p0}, Landroidx/fragment/app/Fragment;->getActivity()Landroidx/fragment/app/FragmentActivity;
 
@@ -1178,18 +1089,15 @@
     :catch_0
     move-exception p1
 
-    .line 6
     invoke-static {p1}, Lcom/meitu/library/util/Debug/Debug;->a0(Ljava/lang/Throwable;)V
 
     :goto_2
     const/4 p1, 0x1
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
 
-    .line 8
     :cond_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1215,7 +1123,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/sharelink/ShareDialog;->X:Lcotlin/jvm/u/a;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1230,10 +1137,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/sharelink/ShareDialog;->Q()V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/sharelink/ShareDialog;->X:Lcotlin/jvm/u/a;
 
     if-eqz v1, :cond_0
@@ -1244,11 +1149,9 @@
 
     check-cast v1, Lcotlin/t1;
 
-    .line 3
     :cond_0
     invoke-super {p0}, Lcom/commsource/widget/dialog/i0;->dismissAllowingStateLoss()V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1269,7 +1172,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/sharelink/ShareDialog;->Y:Lcom/commsource/sharelink/b;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1284,13 +1186,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0}, Landroidx/fragment/app/Fragment;->onDestroy()V
 
-    .line 2
     invoke-virtual {p0}, Lcom/commsource/sharelink/ShareDialog;->Q()V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1319,10 +1218,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0}, Landroidx/fragment/app/Fragment;->onResume()V
 
-    .line 2
     invoke-virtual {p0}, Landroidx/fragment/app/Fragment;->getActivity()Landroidx/fragment/app/FragmentActivity;
 
     move-result-object v1
@@ -1369,7 +1266,6 @@
     :cond_1
     const/4 v1, 0x0
 
-    .line 3
     :goto_0
     iget-boolean v2, p0, Lcom/commsource/sharelink/ShareDialog;->b0:Z
 
@@ -1377,7 +1273,6 @@
 
     if-nez v1, :cond_2
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/sharelink/ShareDialog;->Y:Lcom/commsource/sharelink/b;
 
     invoke-virtual {v1}, Lcom/commsource/sharelink/b;->d()Landroidx/fragment/app/FragmentActivity;
@@ -1388,13 +1283,10 @@
 
     const/4 v3, 0x0
 
-    .line 5
     invoke-static {v1, v2, v3}, Lcom/commsource/statistics/m;->j(Landroid/content/Context;Ljava/lang/String;Ljava/util/Map;)V
 
-    .line 6
     invoke-static {v2, v3}, Lcom/commsource/statistics/i;->s(Ljava/lang/String;Ljava/util/Map;)V
 
-    .line 7
     :cond_2
     iget-object v1, p0, Lcom/commsource/sharelink/ShareDialog;->Y:Lcom/commsource/sharelink/b;
 
@@ -1404,7 +1296,6 @@
 
     if-nez v1, :cond_3
 
-    .line 8
     iget-object v1, p0, Lcom/commsource/sharelink/ShareDialog;->Y:Lcom/commsource/sharelink/b;
 
     invoke-virtual {v1}, Lcom/commsource/sharelink/b;->d()Landroidx/fragment/app/FragmentActivity;
@@ -1413,13 +1304,10 @@
 
     const-string v2, "ad_save_page_show"
 
-    .line 9
     invoke-static {v1, v2}, Lcom/commsource/statistics/m;->h(Landroid/content/Context;Ljava/lang/String;)V
 
-    .line 10
     invoke-static {v2}, Lcom/commsource/statistics/i;->p(Ljava/lang/String;)V
 
-    .line 11
     :cond_3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

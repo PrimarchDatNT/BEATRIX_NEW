@@ -27,7 +27,6 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
     new-instance v0, Lcotlin/i2/m;
 
     invoke-direct {v0}, Lcotlin/i2/m;-><init>()V
@@ -40,7 +39,6 @@
 .method private constructor <init>()V
     .locals 1
 
-    .line 1
     sget-object v0, Ljava/util/concurrent/TimeUnit;->NANOSECONDS:Ljava/util/concurrent/TimeUnit;
 
     invoke-direct {p0, v0}, Lcotlin/i2/b;-><init>(Ljava/util/concurrent/TimeUnit;)V
@@ -53,7 +51,6 @@
 .method protected c()J
     .locals 2
 
-    .line 1
     invoke-static {}, Ljava/lang/System;->nanoTime()J
 
     move-result-wide v0

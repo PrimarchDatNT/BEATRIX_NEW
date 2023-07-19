@@ -58,7 +58,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/layer/PaintMaskLayer$b;->a:Lcom/commsource/studio/layer/PaintMaskLayer;
 
     invoke-virtual {v1}, Lcom/commsource/studio/layer/PaintMaskLayer;->H0()Lcom/commsource/studio/layer/n;
@@ -75,7 +74,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/studio/layer/n;->r(F)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/layer/PaintMaskLayer$b;->a:Lcom/commsource/studio/layer/PaintMaskLayer;
 
     invoke-static {v1}, Lcom/commsource/studio/layer/PaintMaskLayer;->y0(Lcom/commsource/studio/layer/PaintMaskLayer;)Lcom/commsource/studio/layer/f;
@@ -88,7 +86,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/studio/layer/f;->l(F)V
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/studio/layer/PaintMaskLayer$b;->a:Lcom/commsource/studio/layer/PaintMaskLayer;
 
     invoke-static {v1}, Lcom/commsource/studio/layer/PaintMaskLayer;->A0(Lcom/commsource/studio/layer/PaintMaskLayer;)Lcom/commsource/studio/layer/o;
@@ -101,7 +98,6 @@
 
     invoke-virtual {v1, p1}, Lcom/commsource/studio/layer/o;->n(F)V
 
-    .line 4
     iget-object p1, p0, Lcom/commsource/studio/layer/PaintMaskLayer$b;->a:Lcom/commsource/studio/layer/PaintMaskLayer;
 
     invoke-virtual {p1}, Lcom/commsource/studio/layer/BaseLayer;->F()Landroid/view/View;
@@ -110,7 +106,6 @@
 
     invoke-virtual {p1}, Landroid/view/View;->invalidate()V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -123,7 +118,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Ljava/lang/Float;
 
     invoke-virtual {p0, p1}, Lcom/commsource/studio/layer/PaintMaskLayer$b;->a(Ljava/lang/Float;)V

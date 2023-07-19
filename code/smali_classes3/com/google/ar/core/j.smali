@@ -22,7 +22,6 @@
 
     const/high16 p2, 0x3f400000    # 0.75f
 
-    .line 1
     invoke-direct {p0, p1, p2, p1}, Ljava/util/LinkedHashMap;-><init>(IFZ)V
 
     return-void
@@ -42,7 +41,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Ljava/util/LinkedHashMap;->size()I
 
     move-result p1

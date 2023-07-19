@@ -49,10 +49,8 @@
         }
     .end annotation
 
-    .line 1
     check-cast p2, Lcom/mopub/mobileads/VastSkipThreshold;
 
-    .line 2
     invoke-virtual {p2}, Lcom/mopub/mobileads/VastSkipThreshold;->getSkipMinSecs()I
 
     move-result p2

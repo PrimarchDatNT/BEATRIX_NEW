@@ -46,7 +46,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     array-length v0, p1
 
     const/4 v1, 0x0
@@ -56,7 +55,6 @@
 
     aget-object v2, p1, v1
 
-    .line 2
     invoke-interface {p0, v2}, Ljava/lang/Appendable;->append(Ljava/lang/CharSequence;)Ljava/lang/Appendable;
 
     add-int/lit8 v1, v1, 0x1
@@ -97,7 +95,6 @@
 
     if-eqz p2, :cond_0
 
-    .line 1
     invoke-interface {p2, p1}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -111,7 +108,6 @@
     :cond_0
     if-eqz p1, :cond_1
 
-    .line 2
     instance-of p2, p1, Ljava/lang/CharSequence;
 
     goto :goto_0
@@ -128,7 +124,6 @@
 
     goto :goto_1
 
-    .line 3
     :cond_2
     instance-of p2, p1, Ljava/lang/Character;
 
@@ -144,7 +139,6 @@
 
     goto :goto_1
 
-    .line 4
     :cond_3
     invoke-static {p1}, Ljava/lang/String;->valueOf(Ljava/lang/Object;)Ljava/lang/String;
 
@@ -167,7 +161,6 @@
 
     const/16 v0, 0xa
 
-    .line 1
     invoke-interface {p0, v0}, Ljava/lang/Appendable;->append(C)Ljava/lang/Appendable;
 
     move-result-object p0
@@ -188,7 +181,6 @@
         version = "1.4"
     .end annotation
 
-    .line 1
     invoke-interface {p0, p1}, Ljava/lang/Appendable;->append(C)Ljava/lang/Appendable;
 
     move-result-object p0
@@ -219,7 +211,6 @@
         version = "1.4"
     .end annotation
 
-    .line 1
     invoke-interface {p0, p1}, Ljava/lang/Appendable;->append(Ljava/lang/CharSequence;)Ljava/lang/Appendable;
 
     move-result-object p0
@@ -282,7 +273,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-interface {p0, p1, p2, p3}, Ljava/lang/Appendable;->append(Ljava/lang/CharSequence;II)Ljava/lang/Appendable;
 
     move-result-object p0

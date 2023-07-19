@@ -28,7 +28,6 @@
 
     iput-object p1, p0, Lcom/commsource/studio/component/SeekComponent$a;->a:Lcom/commsource/studio/component/SeekComponent$b;
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -43,10 +42,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p0, p1, p2}, Lcom/commsource/widget/XSeekBar$b$a;->c(Lcom/commsource/widget/XSeekBar$b;IF)V
 
-    .line 2
     iget-object p2, p0, Lcom/commsource/studio/component/SeekComponent$a;->a:Lcom/commsource/studio/component/SeekComponent$b;
 
     invoke-virtual {p2}, Lcom/commsource/studio/component/SeekComponent$b;->f()Lcotlin/jvm/u/l;
@@ -65,7 +62,6 @@
 
     check-cast p1, Lcotlin/t1;
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -79,7 +75,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p0, p1, p2, p3}, Lcom/commsource/widget/XSeekBar$b$a;->a(Lcom/commsource/widget/XSeekBar$b;IFZ)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -94,10 +89,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p0, p1, p2, p3}, Lcom/commsource/widget/XSeekBar$b$a;->b(Lcom/commsource/widget/XSeekBar$b;IFZ)V
 
-    .line 2
     iget-object p2, p0, Lcom/commsource/studio/component/SeekComponent$a;->a:Lcom/commsource/studio/component/SeekComponent$b;
 
     invoke-virtual {p2}, Lcom/commsource/studio/component/SeekComponent$b;->e()Lcotlin/jvm/u/p;
@@ -120,7 +113,6 @@
 
     check-cast p1, Lcotlin/t1;
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -134,10 +126,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p0, p1, p2, p3}, Lcom/commsource/widget/XSeekBar$b$a;->d(Lcom/commsource/widget/XSeekBar$b;IFZ)V
 
-    .line 2
     iget-object p2, p0, Lcom/commsource/studio/component/SeekComponent$a;->a:Lcom/commsource/studio/component/SeekComponent$b;
 
     invoke-virtual {p2}, Lcom/commsource/studio/component/SeekComponent$b;->g()Lcotlin/jvm/u/l;
@@ -156,7 +146,6 @@
 
     check-cast p1, Lcotlin/t1;
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

@@ -24,7 +24,6 @@
 .method constructor <init>(Lcom/meitu/template/bean/StickerGroup;Ljava/lang/String;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/sticker/StickerManager$i;->g:Lcom/meitu/template/bean/StickerGroup;
 
     invoke-direct {p0, p2}, Lcom/commsource/util/u2/a;-><init>(Ljava/lang/String;)V
@@ -41,7 +40,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/sticker/StickerManager$i;->g:Lcom/meitu/template/bean/StickerGroup;
 
     invoke-virtual {v1}, Lcom/meitu/template/bean/StickerGroup;->getStickerList()Ljava/util/ArrayList;
@@ -52,7 +50,6 @@
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-interface {v1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v1
@@ -72,16 +69,12 @@
 
     const-wide/16 v4, 0x0
 
-    .line 3
     invoke-virtual {v3, v4, v5}, Lcom/meitu/template/bean/Sticker;->setHistoryTime(J)V
 
-    .line 4
     invoke-virtual {v3, v2}, Lcom/meitu/template/bean/e;->setDownloadProgress(I)V
 
-    .line 5
     invoke-virtual {v3, v2}, Lcom/meitu/template/bean/e;->setDownloadState(I)V
 
-    .line 6
     sget-object v4, Lcom/commsource/studio/k;->V:Lcom/commsource/studio/k;
 
     invoke-virtual {v4}, Lcom/commsource/studio/k;->j()I
@@ -90,34 +83,29 @@
 
     invoke-virtual {v3, v4}, Lcom/meitu/template/bean/Sticker;->setContainInHistory(I)V
 
-    .line 7
     sget-object v4, Lcom/commsource/studio/sticker/StickerRepository;->d:Lcom/commsource/studio/sticker/StickerRepository;
 
     invoke-virtual {v4, v3}, Lcom/commsource/studio/sticker/StickerRepository;->u(Lcom/meitu/template/bean/Sticker;)V
 
     goto :goto_0
 
-    .line 8
     :cond_0
     iget-object v1, p0, Lcom/commsource/studio/sticker/StickerManager$i;->g:Lcom/meitu/template/bean/StickerGroup;
 
     invoke-virtual {v1, v2}, Lcom/meitu/template/bean/StickerGroup;->setDownloadAllState(Z)V
 
-    .line 9
     iget-object v1, p0, Lcom/commsource/studio/sticker/StickerManager$i;->g:Lcom/meitu/template/bean/StickerGroup;
 
     invoke-virtual {v1}, Lcom/meitu/template/bean/StickerGroup;->getDownloadPath()Ljava/lang/String;
 
     move-result-object v1
 
-    .line 10
     new-instance v2, Ljava/io/File;
 
     invoke-direct {v2, v1}, Ljava/io/File;-><init>(Ljava/lang/String;)V
 
     invoke-virtual {v2}, Ljava/io/File;->deleteOnExit()V
 
-    .line 11
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

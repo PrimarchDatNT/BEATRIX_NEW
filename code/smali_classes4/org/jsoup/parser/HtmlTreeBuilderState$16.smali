@@ -20,7 +20,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-direct {p0, p1, p2, v0}, Lorg/jsoup/parser/HtmlTreeBuilderState;-><init>(Ljava/lang/String;ILorg/jsoup/parser/HtmlTreeBuilderState$1;)V
 
     return-void
@@ -29,7 +28,6 @@
 .method private anythingElse(Lorg/jsoup/parser/Token;Lorg/jsoup/parser/b;)Z
     .locals 0
 
-    .line 1
     invoke-virtual {p2, p0}, Lorg/jsoup/parser/b;->r(Lorg/jsoup/parser/HtmlTreeBuilderState;)V
 
     const/4 p1, 0x0
@@ -42,7 +40,6 @@
 .method process(Lorg/jsoup/parser/Token;Lorg/jsoup/parser/b;)Z
     .locals 8
 
-    .line 1
     sget-object v0, Lorg/jsoup/parser/HtmlTreeBuilderState$a;->a:[I
 
     iget-object v1, p1, Lorg/jsoup/parser/Token;->a:Lorg/jsoup/parser/Token$TokenType;
@@ -67,14 +64,12 @@
 
     packed-switch v0, :pswitch_data_0
 
-    .line 2
     invoke-direct {p0, p1, p2}, Lorg/jsoup/parser/HtmlTreeBuilderState$16;->anythingElse(Lorg/jsoup/parser/Token;Lorg/jsoup/parser/b;)Z
 
     move-result p1
 
     return p1
 
-    .line 3
     :pswitch_0
     invoke-virtual {p2}, Lorg/jsoup/parser/i;->a()Lorg/jsoup/nodes/Element;
 
@@ -90,18 +85,15 @@
 
     if-nez p1, :cond_12
 
-    .line 4
     invoke-virtual {p2, p0}, Lorg/jsoup/parser/b;->r(Lorg/jsoup/parser/HtmlTreeBuilderState;)V
 
     goto/16 :goto_1
 
-    .line 5
     :pswitch_1
     invoke-virtual {p1}, Lorg/jsoup/parser/Token;->a()Lorg/jsoup/parser/Token$c;
 
     move-result-object p1
 
-    .line 6
     invoke-virtual {p1}, Lorg/jsoup/parser/Token$c;->q()Ljava/lang/String;
 
     move-result-object v0
@@ -116,29 +108,24 @@
 
     if-eqz v0, :cond_0
 
-    .line 7
     invoke-virtual {p2, p0}, Lorg/jsoup/parser/b;->r(Lorg/jsoup/parser/HtmlTreeBuilderState;)V
 
     return v4
 
-    .line 8
     :cond_0
     invoke-virtual {p2, p1}, Lorg/jsoup/parser/b;->P(Lorg/jsoup/parser/Token$c;)V
 
     goto/16 :goto_1
 
-    .line 9
     :pswitch_2
     invoke-virtual {p1}, Lorg/jsoup/parser/Token;->d()Lorg/jsoup/parser/Token$g;
 
     move-result-object v0
 
-    .line 10
     invoke-virtual {v0}, Lorg/jsoup/parser/Token$i;->E()Ljava/lang/String;
 
     move-result-object v0
 
-    .line 11
     invoke-virtual {v0}, Ljava/lang/String;->hashCode()I
 
     const/4 v2, -0x1
@@ -194,14 +181,12 @@
     :goto_0
     packed-switch v2, :pswitch_data_1
 
-    .line 12
     invoke-direct {p0, p1, p2}, Lorg/jsoup/parser/HtmlTreeBuilderState$16;->anythingElse(Lorg/jsoup/parser/Token;Lorg/jsoup/parser/b;)Z
 
     move-result p1
 
     return p1
 
-    .line 13
     :pswitch_3
     invoke-virtual {p2}, Lorg/jsoup/parser/i;->a()Lorg/jsoup/nodes/Element;
 
@@ -245,10 +230,8 @@
 
     if-eqz p1, :cond_4
 
-    .line 14
     invoke-virtual {p2, v6}, Lorg/jsoup/parser/i;->h(Ljava/lang/String;)Z
 
-    .line 15
     :cond_4
     invoke-virtual {p2}, Lorg/jsoup/parser/i;->a()Lorg/jsoup/nodes/Element;
 
@@ -264,18 +247,15 @@
 
     if-eqz p1, :cond_5
 
-    .line 16
     invoke-virtual {p2}, Lorg/jsoup/parser/b;->k0()Lorg/jsoup/nodes/Element;
 
     goto/16 :goto_1
 
-    .line 17
     :cond_5
     invoke-virtual {p2, p0}, Lorg/jsoup/parser/b;->r(Lorg/jsoup/parser/HtmlTreeBuilderState;)V
 
     goto/16 :goto_1
 
-    .line 18
     :pswitch_4
     invoke-virtual {p2, v0}, Lorg/jsoup/parser/b;->J(Ljava/lang/String;)Z
 
@@ -283,21 +263,17 @@
 
     if-nez p1, :cond_6
 
-    .line 19
     invoke-virtual {p2, p0}, Lorg/jsoup/parser/b;->r(Lorg/jsoup/parser/HtmlTreeBuilderState;)V
 
     return v4
 
-    .line 20
     :cond_6
     invoke-virtual {p2, v0}, Lorg/jsoup/parser/b;->m0(Ljava/lang/String;)Lorg/jsoup/nodes/Element;
 
-    .line 21
     invoke-virtual {p2}, Lorg/jsoup/parser/b;->y0()V
 
     goto/16 :goto_1
 
-    .line 22
     :pswitch_5
     invoke-virtual {p2}, Lorg/jsoup/parser/i;->a()Lorg/jsoup/nodes/Element;
 
@@ -313,36 +289,30 @@
 
     if-eqz p1, :cond_7
 
-    .line 23
     invoke-virtual {p2}, Lorg/jsoup/parser/b;->k0()Lorg/jsoup/nodes/Element;
 
     goto/16 :goto_1
 
-    .line 24
     :cond_7
     invoke-virtual {p2, p0}, Lorg/jsoup/parser/b;->r(Lorg/jsoup/parser/HtmlTreeBuilderState;)V
 
     goto/16 :goto_1
 
-    .line 25
     :pswitch_6
     invoke-virtual {p1}, Lorg/jsoup/parser/Token;->e()Lorg/jsoup/parser/Token$h;
 
     move-result-object v0
 
-    .line 26
     invoke-virtual {v0}, Lorg/jsoup/parser/Token$i;->E()Ljava/lang/String;
 
     move-result-object v7
 
-    .line 27
     invoke-virtual {v7, v2}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v2
 
     if-eqz v2, :cond_8
 
-    .line 28
     sget-object p1, Lorg/jsoup/parser/HtmlTreeBuilderState;->InBody:Lorg/jsoup/parser/HtmlTreeBuilderState;
 
     invoke-virtual {p2, v0, p1}, Lorg/jsoup/parser/b;->o0(Lorg/jsoup/parser/Token;Lorg/jsoup/parser/HtmlTreeBuilderState;)Z
@@ -351,7 +321,6 @@
 
     return p1
 
-    .line 29
     :cond_8
     invoke-virtual {v7, v6}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
@@ -359,7 +328,6 @@
 
     if-eqz v2, :cond_a
 
-    .line 30
     invoke-virtual {p2}, Lorg/jsoup/parser/i;->a()Lorg/jsoup/nodes/Element;
 
     move-result-object p1
@@ -374,16 +342,13 @@
 
     if-eqz p1, :cond_9
 
-    .line 31
     invoke-virtual {p2, v6}, Lorg/jsoup/parser/i;->h(Ljava/lang/String;)Z
 
-    .line 32
     :cond_9
     invoke-virtual {p2, v0}, Lorg/jsoup/parser/b;->N(Lorg/jsoup/parser/Token$h;)Lorg/jsoup/nodes/Element;
 
     goto :goto_1
 
-    .line 33
     :cond_a
     invoke-virtual {v7, v5}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
@@ -391,7 +356,6 @@
 
     if-eqz v2, :cond_d
 
-    .line 34
     invoke-virtual {p2}, Lorg/jsoup/parser/i;->a()Lorg/jsoup/nodes/Element;
 
     move-result-object p1
@@ -406,10 +370,8 @@
 
     if-eqz p1, :cond_b
 
-    .line 35
     invoke-virtual {p2, v6}, Lorg/jsoup/parser/i;->h(Ljava/lang/String;)Z
 
-    .line 36
     :cond_b
     invoke-virtual {p2}, Lorg/jsoup/parser/i;->a()Lorg/jsoup/nodes/Element;
 
@@ -425,16 +387,13 @@
 
     if-eqz p1, :cond_c
 
-    .line 37
     invoke-virtual {p2, v5}, Lorg/jsoup/parser/i;->h(Ljava/lang/String;)Z
 
-    .line 38
     :cond_c
     invoke-virtual {p2, v0}, Lorg/jsoup/parser/b;->N(Lorg/jsoup/parser/Token$h;)Lorg/jsoup/nodes/Element;
 
     goto :goto_1
 
-    .line 39
     :cond_d
     invoke-virtual {v7, v3}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
@@ -442,17 +401,14 @@
 
     if-eqz v1, :cond_e
 
-    .line 40
     invoke-virtual {p2, p0}, Lorg/jsoup/parser/b;->r(Lorg/jsoup/parser/HtmlTreeBuilderState;)V
 
-    .line 41
     invoke-virtual {p2, v3}, Lorg/jsoup/parser/i;->h(Ljava/lang/String;)Z
 
     move-result p1
 
     return p1
 
-    .line 42
     :cond_e
     sget-object v1, Lorg/jsoup/parser/HtmlTreeBuilderState$b;->H:[Ljava/lang/String;
 
@@ -462,10 +418,8 @@
 
     if-eqz v1, :cond_10
 
-    .line 43
     invoke-virtual {p2, p0}, Lorg/jsoup/parser/b;->r(Lorg/jsoup/parser/HtmlTreeBuilderState;)V
 
-    .line 44
     invoke-virtual {p2, v3}, Lorg/jsoup/parser/b;->J(Ljava/lang/String;)Z
 
     move-result p1
@@ -474,11 +428,9 @@
 
     return v4
 
-    .line 45
     :cond_f
     invoke-virtual {p2, v3}, Lorg/jsoup/parser/i;->h(Ljava/lang/String;)Z
 
-    .line 46
     invoke-virtual {p2, v0}, Lorg/jsoup/parser/b;->g(Lorg/jsoup/parser/Token;)Z
 
     move-result p1
@@ -488,14 +440,12 @@
     :cond_10
     const-string v0, "script"
 
-    .line 47
     invoke-virtual {v7, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v0
 
     if-eqz v0, :cond_11
 
-    .line 48
     sget-object v0, Lorg/jsoup/parser/HtmlTreeBuilderState;->InHead:Lorg/jsoup/parser/HtmlTreeBuilderState;
 
     invoke-virtual {p2, p1, v0}, Lorg/jsoup/parser/b;->o0(Lorg/jsoup/parser/Token;Lorg/jsoup/parser/HtmlTreeBuilderState;)Z
@@ -504,7 +454,6 @@
 
     return p1
 
-    .line 49
     :cond_11
     invoke-direct {p0, p1, p2}, Lorg/jsoup/parser/HtmlTreeBuilderState$16;->anythingElse(Lorg/jsoup/parser/Token;Lorg/jsoup/parser/b;)Z
 
@@ -512,13 +461,11 @@
 
     return p1
 
-    .line 50
     :pswitch_7
     invoke-virtual {p2, p0}, Lorg/jsoup/parser/b;->r(Lorg/jsoup/parser/HtmlTreeBuilderState;)V
 
     return v4
 
-    .line 51
     :pswitch_8
     invoke-virtual {p1}, Lorg/jsoup/parser/Token;->b()Lorg/jsoup/parser/Token$d;
 

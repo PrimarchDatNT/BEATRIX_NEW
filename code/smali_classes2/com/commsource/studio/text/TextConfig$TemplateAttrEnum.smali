@@ -65,7 +65,6 @@
 
     sget v5, Lcom/res/provider/ResSTRING;->t_fonts:I
 
-    .line 1
     invoke-direct {v2, v3, v4, v4, v5}, Lcom/commsource/studio/text/TextConfig$TemplateAttrEnum;-><init>(Ljava/lang/String;III)V
 
     sput-object v2, Lcom/commsource/studio/text/TextConfig$TemplateAttrEnum;->Font:Lcom/commsource/studio/text/TextConfig$TemplateAttrEnum;
@@ -80,7 +79,6 @@
 
     sget v5, Lcom/res/provider/ResSTRING;->t_text:I
 
-    .line 2
     invoke-direct {v2, v3, v4, v4, v5}, Lcom/commsource/studio/text/TextConfig$TemplateAttrEnum;-><init>(Ljava/lang/String;III)V
 
     sput-object v2, Lcom/commsource/studio/text/TextConfig$TemplateAttrEnum;->Text:Lcom/commsource/studio/text/TextConfig$TemplateAttrEnum;
@@ -95,7 +93,6 @@
 
     sget v5, Lcom/res/provider/ResSTRING;->t_stroke:I
 
-    .line 3
     invoke-direct {v2, v3, v4, v4, v5}, Lcom/commsource/studio/text/TextConfig$TemplateAttrEnum;-><init>(Ljava/lang/String;III)V
 
     sput-object v2, Lcom/commsource/studio/text/TextConfig$TemplateAttrEnum;->Stroke:Lcom/commsource/studio/text/TextConfig$TemplateAttrEnum;
@@ -112,7 +109,6 @@
 
     sget v6, Lcom/res/provider/ResSTRING;->t_background:I
 
-    .line 4
     invoke-direct {v2, v3, v4, v5, v6}, Lcom/commsource/studio/text/TextConfig$TemplateAttrEnum;-><init>(Ljava/lang/String;III)V
 
     sput-object v2, Lcom/commsource/studio/text/TextConfig$TemplateAttrEnum;->Background:Lcom/commsource/studio/text/TextConfig$TemplateAttrEnum;
@@ -127,7 +123,6 @@
 
     sget v7, Lcom/res/provider/ResSTRING;->t_shadow:I
 
-    .line 5
     invoke-direct {v2, v3, v6, v6, v7}, Lcom/commsource/studio/text/TextConfig$TemplateAttrEnum;-><init>(Ljava/lang/String;III)V
 
     sput-object v2, Lcom/commsource/studio/text/TextConfig$TemplateAttrEnum;->Shadow:Lcom/commsource/studio/text/TextConfig$TemplateAttrEnum;
@@ -140,7 +135,6 @@
 
     sget v6, Lcom/res/provider/ResSTRING;->t_order:I
 
-    .line 6
     invoke-direct {v2, v3, v5, v4, v6}, Lcom/commsource/studio/text/TextConfig$TemplateAttrEnum;-><init>(Ljava/lang/String;III)V
 
     sput-object v2, Lcom/commsource/studio/text/TextConfig$TemplateAttrEnum;->Space:Lcom/commsource/studio/text/TextConfig$TemplateAttrEnum;
@@ -162,7 +156,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
     iput p3, p0, Lcom/commsource/studio/text/TextConfig$TemplateAttrEnum;->id:I
@@ -221,7 +214,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/text/TextConfig$TemplateAttrEnum;->attName:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -236,7 +228,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/text/TextConfig$TemplateAttrEnum;->id:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -251,7 +242,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/studio/text/TextConfig$TemplateAttrEnum;->attName:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -266,7 +256,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/studio/text/TextConfig$TemplateAttrEnum;->id:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

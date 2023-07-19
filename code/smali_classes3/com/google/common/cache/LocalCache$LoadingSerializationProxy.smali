@@ -62,7 +62,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/google/common/cache/LocalCache$ManualSerializationProxy;-><init>(Lcom/google/common/cache/LocalCache;)V
 
     return-void
@@ -77,15 +76,12 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p1}, Ljava/io/ObjectInputStream;->defaultReadObject()V
 
-    .line 2
     invoke-virtual {p0}, Lcom/google/common/cache/LocalCache$ManualSerializationProxy;->recreateCacheBuilder()Lcom/google/common/cache/CacheBuilder;
 
     move-result-object p1
 
-    .line 3
     iget-object v0, p0, Lcom/google/common/cache/LocalCache$ManualSerializationProxy;->loader:Lcom/google/common/cache/CacheLoader;
 
     invoke-virtual {p1, v0}, Lcom/google/common/cache/CacheBuilder;->b(Lcom/google/common/cache/CacheLoader;)Lcom/google/common/cache/h;
@@ -100,7 +96,6 @@
 .method private readResolve()Ljava/lang/Object;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/cache/LocalCache$LoadingSerializationProxy;->autoDelegate:Lcom/google/common/cache/h;
 
     return-object v0
@@ -116,7 +111,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/cache/LocalCache$LoadingSerializationProxy;->autoDelegate:Lcom/google/common/cache/h;
 
     invoke-interface {v0, p1}, Lcom/google/common/cache/h;->apply(Ljava/lang/Object;)Ljava/lang/Object;
@@ -140,7 +134,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/cache/LocalCache$LoadingSerializationProxy;->autoDelegate:Lcom/google/common/cache/h;
 
     invoke-interface {v0, p1}, Lcom/google/common/cache/h;->get(Ljava/lang/Object;)Ljava/lang/Object;
@@ -168,7 +161,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/cache/LocalCache$LoadingSerializationProxy;->autoDelegate:Lcom/google/common/cache/h;
 
     invoke-interface {v0, p1}, Lcom/google/common/cache/h;->getAll(Ljava/lang/Iterable;)Lcom/google/common/collect/ImmutableMap;
@@ -186,7 +178,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/cache/LocalCache$LoadingSerializationProxy;->autoDelegate:Lcom/google/common/cache/h;
 
     invoke-interface {v0, p1}, Lcom/google/common/cache/h;->getUnchecked(Ljava/lang/Object;)Ljava/lang/Object;
@@ -204,7 +195,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/cache/LocalCache$LoadingSerializationProxy;->autoDelegate:Lcom/google/common/cache/h;
 
     invoke-interface {v0, p1}, Lcom/google/common/cache/h;->refresh(Ljava/lang/Object;)V

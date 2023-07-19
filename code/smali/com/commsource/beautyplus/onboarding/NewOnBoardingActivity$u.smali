@@ -28,7 +28,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity$u;->a:Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity;
 
     invoke-direct {p0}, Landroidx/recyclerview/widget/RecyclerView$OnScrollListener;-><init>()V
@@ -53,10 +52,8 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-super {p0, p1, p2, p3}, Landroidx/recyclerview/widget/RecyclerView$OnScrollListener;->onScrolled(Landroidx/recyclerview/widget/RecyclerView;II)V
 
-    .line 2
     iget-object p2, p0, Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity$u;->a:Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity;
 
     invoke-static {p2}, Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity;->T0(Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity;)Landroid/view/View;
@@ -67,7 +64,6 @@
 
     if-nez p2, :cond_1
 
-    .line 3
     iget-object p2, p0, Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity$u;->a:Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity;
 
     const/4 v1, 0x1
@@ -88,7 +84,6 @@
     :goto_0
     invoke-static {p2, v1}, Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity;->e1(Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity;Landroid/view/View;)V
 
-    .line 4
     :cond_1
     iget-object p2, p0, Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity$u;->a:Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity;
 
@@ -98,7 +93,6 @@
 
     if-nez p2, :cond_3
 
-    .line 5
     iget-object p2, p0, Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity$u;->a:Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity;
 
     const/4 v1, 0x0
@@ -119,7 +113,6 @@
     :goto_1
     invoke-static {p2, v1}, Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity;->Y0(Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity;Landroid/view/View;)V
 
-    .line 6
     :cond_3
     iget-object p2, p0, Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity$u;->a:Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity;
 
@@ -129,7 +122,6 @@
 
     if-nez p2, :cond_5
 
-    .line 7
     iget-object p2, p0, Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity$u;->a:Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity;
 
     const/4 v1, 0x2
@@ -145,7 +137,6 @@
     :cond_4
     invoke-static {p2, p3}, Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity;->b1(Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity;Landroid/view/View;)V
 
-    .line 8
     :cond_5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

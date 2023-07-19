@@ -51,10 +51,8 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/google/common/collect/AbstractMapBasedMultimap$o;->g:Lcom/google/common/collect/AbstractMapBasedMultimap;
 
-    .line 2
     invoke-direct {p0, p1, p2, p3, p4}, Lcom/google/common/collect/AbstractMapBasedMultimap$k;-><init>(Lcom/google/common/collect/AbstractMapBasedMultimap;Ljava/lang/Object;Ljava/util/Collection;Lcom/google/common/collect/AbstractMapBasedMultimap$k;)V
 
     return-void
@@ -72,7 +70,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/collect/AbstractMapBasedMultimap$o;->k()Ljava/util/SortedSet;
 
     move-result-object v0
@@ -92,10 +89,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/collect/AbstractMapBasedMultimap$k;->i()V
 
-    .line 2
     invoke-virtual {p0}, Lcom/google/common/collect/AbstractMapBasedMultimap$o;->k()Ljava/util/SortedSet;
 
     move-result-object v0
@@ -117,20 +112,16 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/collect/AbstractMapBasedMultimap$k;->i()V
 
-    .line 2
     new-instance v0, Lcom/google/common/collect/AbstractMapBasedMultimap$o;
 
     iget-object v1, p0, Lcom/google/common/collect/AbstractMapBasedMultimap$o;->g:Lcom/google/common/collect/AbstractMapBasedMultimap;
 
-    .line 3
     invoke-virtual {p0}, Lcom/google/common/collect/AbstractMapBasedMultimap$k;->h()Ljava/lang/Object;
 
     move-result-object v2
 
-    .line 4
     invoke-virtual {p0}, Lcom/google/common/collect/AbstractMapBasedMultimap$o;->k()Ljava/util/SortedSet;
 
     move-result-object v3
@@ -139,7 +130,6 @@
 
     move-result-object p1
 
-    .line 5
     invoke-virtual {p0}, Lcom/google/common/collect/AbstractMapBasedMultimap$k;->c()Lcom/google/common/collect/AbstractMapBasedMultimap$k;
 
     move-result-object v3
@@ -171,7 +161,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/collect/AbstractMapBasedMultimap$k;->e()Ljava/util/Collection;
 
     move-result-object v0
@@ -189,10 +178,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/collect/AbstractMapBasedMultimap$k;->i()V
 
-    .line 2
     invoke-virtual {p0}, Lcom/google/common/collect/AbstractMapBasedMultimap$o;->k()Ljava/util/SortedSet;
 
     move-result-object v0
@@ -214,20 +201,16 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/collect/AbstractMapBasedMultimap$k;->i()V
 
-    .line 2
     new-instance v0, Lcom/google/common/collect/AbstractMapBasedMultimap$o;
 
     iget-object v1, p0, Lcom/google/common/collect/AbstractMapBasedMultimap$o;->g:Lcom/google/common/collect/AbstractMapBasedMultimap;
 
-    .line 3
     invoke-virtual {p0}, Lcom/google/common/collect/AbstractMapBasedMultimap$k;->h()Ljava/lang/Object;
 
     move-result-object v2
 
-    .line 4
     invoke-virtual {p0}, Lcom/google/common/collect/AbstractMapBasedMultimap$o;->k()Ljava/util/SortedSet;
 
     move-result-object v3
@@ -236,7 +219,6 @@
 
     move-result-object p1
 
-    .line 5
     invoke-virtual {p0}, Lcom/google/common/collect/AbstractMapBasedMultimap$k;->c()Lcom/google/common/collect/AbstractMapBasedMultimap$k;
 
     move-result-object p2
@@ -268,20 +250,16 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/collect/AbstractMapBasedMultimap$k;->i()V
 
-    .line 2
     new-instance v0, Lcom/google/common/collect/AbstractMapBasedMultimap$o;
 
     iget-object v1, p0, Lcom/google/common/collect/AbstractMapBasedMultimap$o;->g:Lcom/google/common/collect/AbstractMapBasedMultimap;
 
-    .line 3
     invoke-virtual {p0}, Lcom/google/common/collect/AbstractMapBasedMultimap$k;->h()Ljava/lang/Object;
 
     move-result-object v2
 
-    .line 4
     invoke-virtual {p0}, Lcom/google/common/collect/AbstractMapBasedMultimap$o;->k()Ljava/util/SortedSet;
 
     move-result-object v3
@@ -290,7 +268,6 @@
 
     move-result-object p1
 
-    .line 5
     invoke-virtual {p0}, Lcom/google/common/collect/AbstractMapBasedMultimap$k;->c()Lcom/google/common/collect/AbstractMapBasedMultimap$k;
 
     move-result-object v3

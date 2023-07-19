@@ -66,7 +66,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     invoke-interface {p1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object p1
@@ -84,7 +83,6 @@
 
     check-cast v1, Lcom/meitu/template/bean/ArMaterial;
 
-    .line 2
     iget-object v2, p0, Lcom/commsource/studio/function/ar/StudioArChildFragment$f;->a:Lcom/commsource/studio/function/ar/StudioArChildFragment;
 
     invoke-virtual {v2}, Lcom/commsource/studio/function/ar/StudioArChildFragment;->x()Lcom/commsource/widget/h1/e;
@@ -95,7 +93,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -109,7 +106,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Ljava/util/List;
 
     invoke-virtual {p0, p1}, Lcom/commsource/studio/function/ar/StudioArChildFragment$f;->a(Ljava/util/List;)V

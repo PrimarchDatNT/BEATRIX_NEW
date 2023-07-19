@@ -39,12 +39,10 @@
 .method public constructor <init>(Lcom/commsource/beautymain/activity/BeautyHelpActivity;Landroid/content/Context;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/beautymain/activity/BeautyHelpActivity$e;->b:Lcom/commsource/beautymain/activity/BeautyHelpActivity;
 
     invoke-direct {p0}, Landroidx/recyclerview/widget/RecyclerView$Adapter;-><init>()V
 
-    .line 2
     iput-object p2, p0, Lcom/commsource/beautymain/activity/BeautyHelpActivity$e;->a:Landroid/content/Context;
 
     return-void
@@ -57,7 +55,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/beautymain/activity/BeautyHelpActivity$e;->a:Landroid/content/Context;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -74,7 +71,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/beautymain/activity/BeautyHelpActivity$e;->b:Lcom/commsource/beautymain/activity/BeautyHelpActivity;
 
     invoke-static {v1}, Lcom/commsource/beautymain/activity/BeautyHelpActivity;->L0(Lcom/commsource/beautymain/activity/BeautyHelpActivity;)[I
@@ -101,7 +97,6 @@
 
     const/4 p1, 0x0
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
@@ -109,7 +104,6 @@
     :cond_0
     const/4 p1, 0x1
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
@@ -122,12 +116,10 @@
 
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     instance-of v0, p1, Lcom/commsource/beautymain/activity/BeautyHelpActivity$e$a;
 
     if-eqz v0, :cond_0
 
-    .line 2
     move-object v0, p1
 
     check-cast v0, Lcom/commsource/beautymain/activity/BeautyHelpActivity$e$a;
@@ -140,7 +132,6 @@
 
     invoke-virtual {v0, p1}, Lcom/commsource/beautymain/activity/BeautyHelpActivity$e$a;->a(I)V
 
-    .line 3
     :cond_0
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -160,7 +151,6 @@
 
     if-ne p2, v2, :cond_0
 
-    .line 1
     iget-object p2, p0, Lcom/commsource/beautymain/activity/BeautyHelpActivity$e;->a:Landroid/content/Context;
 
     invoke-static {p2}, Landroid/view/LayoutInflater;->from(Landroid/content/Context;)Landroid/view/LayoutInflater;
@@ -173,24 +163,20 @@
 
     move-result-object p1
 
-    .line 2
     invoke-static {p1}, Lcom/commsource/beautyplus/f0/m1;->a(Landroid/view/View;)Lcom/commsource/beautyplus/f0/m1;
 
     move-result-object p2
 
     invoke-virtual {p2}, Landroidx/databinding/ViewDataBinding;->executePendingBindings()V
 
-    .line 3
     new-instance p2, Lcom/commsource/beautymain/activity/BeautyHelpActivity$e$a;
 
     invoke-direct {p2, p0, p1}, Lcom/commsource/beautymain/activity/BeautyHelpActivity$e$a;-><init>(Lcom/commsource/beautymain/activity/BeautyHelpActivity$e;Landroid/view/View;)V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p2
 
-    .line 5
     :cond_0
     iget-object p2, p0, Lcom/commsource/beautymain/activity/BeautyHelpActivity$e;->a:Landroid/content/Context;
 
@@ -204,7 +190,6 @@
 
     move-result-object p1
 
-    .line 6
     new-instance p2, Lcom/commsource/beautymain/activity/BeautyHelpActivity$e$b;
 
     invoke-direct {p2, p0, p1}, Lcom/commsource/beautymain/activity/BeautyHelpActivity$e$b;-><init>(Lcom/commsource/beautymain/activity/BeautyHelpActivity$e;Landroid/view/View;)V
@@ -221,15 +206,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0, p1}, Landroidx/recyclerview/widget/RecyclerView$Adapter;->onViewAttachedToWindow(Landroidx/recyclerview/widget/RecyclerView$ViewHolder;)V
 
-    .line 2
     instance-of v1, p1, Lcom/commsource/beautymain/activity/BeautyHelpActivity$e$a;
 
     if-eqz v1, :cond_0
 
-    .line 3
     move-object v1, p1
 
     check-cast v1, Lcom/commsource/beautymain/activity/BeautyHelpActivity$e$a;
@@ -242,7 +224,6 @@
 
     invoke-virtual {v1, p1}, Lcom/commsource/beautymain/activity/BeautyHelpActivity$e$a;->a(I)V
 
-    .line 4
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

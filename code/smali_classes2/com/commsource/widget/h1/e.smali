@@ -95,17 +95,14 @@
 .method public constructor <init>(Landroid/content/Context;)V
     .locals 2
 
-    .line 1
     invoke-direct {p0}, Landroidx/recyclerview/widget/RecyclerView$Adapter;-><init>()V
 
-    .line 2
     new-instance v0, Landroid/util/SparseArray;
 
     invoke-direct {v0}, Landroid/util/SparseArray;-><init>()V
 
     iput-object v0, p0, Lcom/commsource/widget/h1/e;->c:Landroid/util/SparseArray;
 
-    .line 3
     new-instance v0, Ljava/util/HashMap;
 
     const/16 v1, 0x10
@@ -116,31 +113,26 @@
 
     const/4 v0, 0x0
 
-    .line 4
     iput-boolean v0, p0, Lcom/commsource/widget/h1/e;->i:Z
 
-    .line 5
     new-instance v0, Ljava/util/HashMap;
 
     invoke-direct {v0, v1}, Ljava/util/HashMap;-><init>(I)V
 
     iput-object v0, p0, Lcom/commsource/widget/h1/e;->j:Ljava/util/Map;
 
-    .line 6
     new-instance v0, Lcom/commsource/widget/h1/a;
 
     invoke-direct {v0, p0}, Lcom/commsource/widget/h1/a;-><init>(Lcom/commsource/widget/h1/e;)V
 
     iput-object v0, p0, Lcom/commsource/widget/h1/e;->l:Lcom/commsource/widget/h1/f$a;
 
-    .line 7
     new-instance v0, Lcom/commsource/widget/h1/b;
 
     invoke-direct {v0, p0}, Lcom/commsource/widget/h1/b;-><init>(Lcom/commsource/widget/h1/e;)V
 
     iput-object v0, p0, Lcom/commsource/widget/h1/e;->m:Lcom/commsource/widget/h1/f$b;
 
-    .line 8
     iput-object p1, p0, Lcom/commsource/widget/h1/e;->a:Landroid/content/Context;
 
     return-void
@@ -153,7 +145,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/widget/h1/e;->g:Lcom/commsource/widget/h1/d;
 
     if-eq p1, v1, :cond_2
@@ -162,10 +153,8 @@
 
     const/4 v2, 0x0
 
-    .line 2
     invoke-virtual {v1, v2}, Lcom/commsource/widget/h1/d;->k(Z)V
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/widget/h1/e;->g:Lcom/commsource/widget/h1/d;
 
     invoke-direct {p0, v1}, Lcom/commsource/widget/h1/e;->t(Lcom/commsource/widget/h1/d;)V
@@ -175,17 +164,13 @@
 
     const/4 v1, 0x1
 
-    .line 4
     invoke-virtual {p1, v1}, Lcom/commsource/widget/h1/d;->k(Z)V
 
-    .line 5
     invoke-direct {p0, p1}, Lcom/commsource/widget/h1/e;->t(Lcom/commsource/widget/h1/d;)V
 
-    .line 6
     :cond_1
     iput-object p1, p0, Lcom/commsource/widget/h1/e;->g:Lcom/commsource/widget/h1/d;
 
-    .line 7
     iget-object v1, p0, Lcom/commsource/widget/h1/e;->b:Ljava/util/List;
 
     invoke-interface {v1, p1}, Ljava/util/List;->indexOf(Ljava/lang/Object;)I
@@ -194,7 +179,6 @@
 
     iput p1, p0, Lcom/commsource/widget/h1/e;->h:I
 
-    .line 8
     :cond_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -208,7 +192,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/widget/h1/e;->b:Ljava/util/List;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -227,12 +210,10 @@
 
     if-nez p2, :cond_0
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
 
-    .line 2
     :cond_0
     invoke-virtual {p2}, Lcom/commsource/widget/h1/d;->b()Ljava/lang/Object;
 
@@ -240,12 +221,10 @@
 
     if-nez v2, :cond_1
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
 
-    .line 4
     :cond_1
     iget-object v2, p0, Lcom/commsource/widget/h1/e;->d:Ljava/util/HashMap;
 
@@ -263,18 +242,15 @@
 
     check-cast v2, Lcom/commsource/widget/h1/e$b;
 
-    .line 5
     iget-object v3, p0, Lcom/commsource/widget/h1/e;->f:Lcom/commsource/widget/h1/e$c;
 
     if-eqz v3, :cond_2
 
-    .line 6
     invoke-interface {v3, p1, p2}, Lcom/commsource/widget/h1/e$c;->a(ILcom/commsource/widget/h1/d;)Z
 
     :cond_2
     if-eqz v2, :cond_3
 
-    .line 7
     invoke-virtual {p2}, Lcom/commsource/widget/h1/d;->b()Ljava/lang/Object;
 
     move-result-object v3
@@ -285,7 +261,6 @@
 
     if-nez p1, :cond_4
 
-    .line 8
     :cond_3
     invoke-virtual {p2}, Lcom/commsource/widget/h1/d;->h()Z
 
@@ -297,10 +272,8 @@
 
     if-nez p1, :cond_4
 
-    .line 9
     invoke-direct {p0, p2}, Lcom/commsource/widget/h1/e;->F(Lcom/commsource/widget/h1/d;)V
 
-    .line 10
     :cond_4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -314,15 +287,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/widget/h1/e;->e:Lcom/commsource/widget/h1/f$b;
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-interface {v1, p1, p2, p3}, Lcom/commsource/widget/h1/f$b;->a(ZILcom/commsource/widget/h1/d;)V
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -338,14 +308,12 @@
 
     const/16 v1, 0x7b
 
-    .line 1
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v1
 
     invoke-direct {p0, p1, v1}, Lcom/commsource/widget/h1/e;->u(Lcom/commsource/widget/h1/d;Ljava/lang/Object;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -358,17 +326,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/widget/h1/e;->b:Ljava/util/List;
 
     if-nez v1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 3
     :cond_0
     invoke-interface {v1, p1}, Ljava/util/List;->indexOf(Ljava/lang/Object;)I
 
@@ -378,10 +343,8 @@
 
     if-le p1, v1, :cond_1
 
-    .line 4
     invoke-super {p0, p1, p2}, Landroidx/recyclerview/widget/RecyclerView$Adapter;->notifyItemChanged(ILjava/lang/Object;)V
 
-    .line 5
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -401,10 +364,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p1}, Lcom/commsource/widget/h1/f;->j()V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -421,10 +382,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p1}, Lcom/commsource/widget/h1/f;->n()V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -441,10 +400,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p1}, Lcom/commsource/widget/h1/f;->o()V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -468,7 +425,6 @@
 
     if-eqz p2, :cond_0
 
-    .line 1
     new-instance p2, Lcom/commsource/widget/h1/e$a;
 
     invoke-direct {p2, p0, p1}, Lcom/commsource/widget/h1/e$a;-><init>(Lcom/commsource/widget/h1/e;Ljava/util/List;)V
@@ -477,20 +433,16 @@
 
     move-result-object p2
 
-    .line 2
     invoke-virtual {p2, p0}, Landroidx/recyclerview/widget/DiffUtil$DiffResult;->dispatchUpdatesTo(Landroidx/recyclerview/widget/RecyclerView$Adapter;)V
 
     goto :goto_0
 
-    .line 3
     :cond_0
     invoke-virtual {p0}, Landroidx/recyclerview/widget/RecyclerView$Adapter;->notifyDataSetChanged()V
 
-    .line 4
     :goto_0
     iput-object p1, p0, Lcom/commsource/widget/h1/e;->b:Ljava/util/List;
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -503,12 +455,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/widget/h1/e;->b:Ljava/util/List;
 
     if-nez v1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -518,7 +468,6 @@
 
     if-eqz p1, :cond_3
 
-    .line 3
     invoke-interface {v1}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
     move-result-object v1
@@ -536,7 +485,6 @@
 
     check-cast v3, Lcom/commsource/widget/h1/d;
 
-    .line 4
     invoke-virtual {v3}, Lcom/commsource/widget/h1/d;->b()Ljava/lang/Object;
 
     move-result-object v4
@@ -547,25 +495,20 @@
 
     if-eqz v4, :cond_1
 
-    .line 5
     invoke-direct {p0, v3}, Lcom/commsource/widget/h1/e;->F(Lcom/commsource/widget/h1/d;)V
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 7
     :cond_2
     invoke-direct {p0, v2}, Lcom/commsource/widget/h1/e;->F(Lcom/commsource/widget/h1/d;)V
 
     goto :goto_0
 
-    .line 8
     :cond_3
     invoke-direct {p0, v2}, Lcom/commsource/widget/h1/e;->F(Lcom/commsource/widget/h1/d;)V
 
-    .line 9
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -579,12 +522,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/widget/h1/e;->b:Ljava/util/List;
 
     if-nez v1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -594,14 +535,12 @@
 
     if-ltz p1, :cond_2
 
-    .line 3
     invoke-interface {v1}, Ljava/util/List;->size()I
 
     move-result v1
 
     if-ge p1, v1, :cond_2
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/widget/h1/e;->b:Ljava/util/List;
 
     invoke-interface {v1, p1}, Ljava/util/List;->get(I)Ljava/lang/Object;
@@ -612,22 +551,18 @@
 
     if-eqz p1, :cond_1
 
-    .line 5
     invoke-direct {p0, p1}, Lcom/commsource/widget/h1/e;->F(Lcom/commsource/widget/h1/d;)V
 
     goto :goto_0
 
-    .line 6
     :cond_1
     invoke-direct {p0, v2}, Lcom/commsource/widget/h1/e;->F(Lcom/commsource/widget/h1/d;)V
 
     goto :goto_0
 
-    .line 7
     :cond_2
     invoke-direct {p0, v2}, Lcom/commsource/widget/h1/e;->F(Lcom/commsource/widget/h1/d;)V
 
-    .line 8
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -641,10 +576,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/widget/h1/e;->i:Z
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -671,12 +604,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/widget/h1/e;->d:Ljava/util/HashMap;
 
     invoke-virtual {v1, p2, p1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -700,12 +631,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/widget/h1/e;->d:Ljava/util/HashMap;
 
     invoke-virtual {v1, p1, p2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -718,10 +647,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/widget/h1/e;->k:Lcom/commsource/widget/h1/h;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -734,10 +661,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/widget/h1/e;->f:Lcom/commsource/widget/h1/e$c;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -750,10 +675,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/widget/h1/e;->e:Lcom/commsource/widget/h1/f$b;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -781,10 +704,8 @@
 
     const/4 v1, 0x0
 
-    .line 1
     invoke-virtual {p0, p1, p2, v1}, Lcom/commsource/widget/h1/e;->O(Ljava/util/List;Ljava/lang/Class;Z)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -810,14 +731,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/util/LinkedList;
 
     invoke-direct {v1}, Ljava/util/LinkedList;-><init>()V
 
     if-eqz p1, :cond_1
 
-    .line 2
     invoke-interface {p1}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
     move-result-object p1
@@ -833,18 +752,14 @@
 
     move-result-object v2
 
-    .line 3
     new-instance v3, Lcom/commsource/widget/h1/d;
 
     invoke-direct {v3, v2}, Lcom/commsource/widget/h1/d;-><init>(Ljava/lang/Object;)V
 
-    .line 4
     invoke-virtual {v3, p3}, Lcom/commsource/widget/h1/d;->l(Z)V
 
-    .line 5
     invoke-virtual {v3, p2}, Lcom/commsource/widget/h1/d;->m(Ljava/lang/Class;)V
 
-    .line 6
     iget-object v2, p0, Lcom/commsource/widget/h1/e;->c:Landroid/util/SparseArray;
 
     invoke-virtual {v3}, Lcom/commsource/widget/h1/d;->c()I
@@ -857,7 +772,6 @@
 
     if-nez v2, :cond_0
 
-    .line 7
     iget-object v2, p0, Lcom/commsource/widget/h1/e;->c:Landroid/util/SparseArray;
 
     invoke-virtual {v3}, Lcom/commsource/widget/h1/d;->c()I
@@ -866,7 +780,6 @@
 
     invoke-virtual {v2, v4, p2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
-    .line 8
     :cond_0
     invoke-interface {v1, v3}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
@@ -875,10 +788,8 @@
     :cond_1
     const/4 p1, 0x0
 
-    .line 9
     invoke-virtual {p0, v1, p1}, Lcom/commsource/widget/h1/e;->R(Ljava/util/List;Z)V
 
-    .line 10
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -891,10 +802,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/widget/h1/e;->n:Ljava/lang/Object;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -918,10 +827,8 @@
 
     const/4 v1, 0x1
 
-    .line 1
     invoke-virtual {p0, p1, v1}, Lcom/commsource/widget/h1/e;->R(Ljava/util/List;Z)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -945,7 +852,6 @@
 
     if-eqz p1, :cond_1
 
-    .line 1
     invoke-interface {p1}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
     move-result-object v1
@@ -964,7 +870,6 @@
 
     check-cast v2, Lcom/commsource/widget/h1/d;
 
-    .line 2
     iget-object v3, p0, Lcom/commsource/widget/h1/e;->c:Landroid/util/SparseArray;
 
     invoke-virtual {v2}, Lcom/commsource/widget/h1/d;->c()I
@@ -977,12 +882,10 @@
 
     if-nez v3, :cond_0
 
-    .line 3
     invoke-virtual {v2}, Lcom/commsource/widget/h1/d;->e()Ljava/lang/Class;
 
     move-result-object v3
 
-    .line 4
     iget-object v4, p0, Lcom/commsource/widget/h1/e;->c:Landroid/util/SparseArray;
 
     invoke-virtual {v2}, Lcom/commsource/widget/h1/d;->c()I
@@ -995,7 +898,6 @@
 
     if-nez v4, :cond_0
 
-    .line 5
     iget-object v4, p0, Lcom/commsource/widget/h1/e;->c:Landroid/util/SparseArray;
 
     invoke-virtual {v2}, Lcom/commsource/widget/h1/d;->c()I
@@ -1006,11 +908,9 @@
 
     goto :goto_0
 
-    .line 6
     :cond_1
     invoke-virtual {p0, p1, p2}, Lcom/commsource/widget/h1/e;->D(Ljava/util/List;Z)V
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1023,12 +923,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/widget/h1/e;->j:Ljava/util/Map;
 
     invoke-interface {v1, p1, p2}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1043,7 +941,6 @@
 
     if-eqz p1, :cond_1
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/widget/h1/e;->b:Ljava/util/List;
 
     invoke-interface {v1}, Ljava/util/List;->iterator()Ljava/util/Iterator;
@@ -1063,7 +960,6 @@
 
     check-cast v2, Lcom/commsource/widget/h1/d;
 
-    .line 2
     invoke-virtual {v2}, Lcom/commsource/widget/h1/d;->b()Ljava/lang/Object;
 
     move-result-object v3
@@ -1074,18 +970,14 @@
 
     if-eqz v3, :cond_0
 
-    .line 3
     invoke-virtual {v2, p2}, Lcom/commsource/widget/h1/d;->i(Z)V
 
-    .line 4
     invoke-virtual {p0, p1}, Lcom/commsource/widget/h1/e;->v(Ljava/lang/Object;)V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 6
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1099,7 +991,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/widget/h1/e;->h:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1114,7 +1005,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/widget/h1/e;->g:Lcom/commsource/widget/h1/d;
 
     if-eqz v1, :cond_0
@@ -1141,7 +1031,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/widget/h1/e;->b:Ljava/util/List;
 
     if-eqz v1, :cond_1
@@ -1154,7 +1043,6 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     iget-object v1, p0, Lcom/commsource/widget/h1/e;->b:Ljava/util/List;
 
@@ -1174,7 +1062,6 @@
     :goto_0
     const/4 p1, 0x0
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p1
@@ -1191,18 +1078,15 @@
 
     if-nez p1, :cond_0
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
 
-    .line 2
     :cond_0
     iget-object v2, p0, Lcom/commsource/widget/h1/e;->b:Ljava/util/List;
 
     if-nez v2, :cond_1
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
@@ -1210,7 +1094,6 @@
     :cond_1
     const/4 v2, 0x0
 
-    .line 4
     :goto_0
     iget-object v3, p0, Lcom/commsource/widget/h1/e;->b:Ljava/util/List;
 
@@ -1220,7 +1103,6 @@
 
     if-ge v2, v3, :cond_3
 
-    .line 5
     iget-object v3, p0, Lcom/commsource/widget/h1/e;->b:Ljava/util/List;
 
     invoke-interface {v3, v2}, Ljava/util/List;->get(I)Ljava/lang/Object;
@@ -1229,7 +1111,6 @@
 
     check-cast v3, Lcom/commsource/widget/h1/d;
 
-    .line 6
     invoke-virtual {v3}, Lcom/commsource/widget/h1/d;->b()Ljava/lang/Object;
 
     move-result-object v3
@@ -1240,7 +1121,6 @@
 
     if-eqz v3, :cond_2
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v2
@@ -1250,7 +1130,6 @@
 
     goto :goto_0
 
-    .line 8
     :cond_3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1264,7 +1143,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/widget/h1/e;->b:Ljava/util/List;
 
     if-nez v1, :cond_0
@@ -1291,7 +1169,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/widget/h1/e;->b:Ljava/util/List;
 
     if-eqz v1, :cond_0
@@ -1302,7 +1179,6 @@
 
     if-le v1, p1, :cond_0
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/widget/h1/e;->b:Ljava/util/List;
 
     invoke-interface {v1, p1}, Ljava/util/List;->get(I)Ljava/lang/Object;
@@ -1322,7 +1198,6 @@
     :cond_0
     const/4 p1, 0x0
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
@@ -1344,7 +1219,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/widget/h1/e;->b:Ljava/util/List;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1359,7 +1233,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/widget/h1/e;->k:Lcom/commsource/widget/h1/h;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1374,7 +1247,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/widget/h1/e;->n:Ljava/lang/Object;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1389,7 +1261,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/widget/h1/e;->j:Ljava/util/Map;
 
     invoke-interface {v1, p1}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
@@ -1426,7 +1297,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Lcom/commsource/widget/h1/f;
 
     invoke-virtual {p0, p1, p2}, Lcom/commsource/widget/h1/e;->x(Lcom/commsource/widget/h1/f;I)V
@@ -1443,7 +1313,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 2
     check-cast p1, Lcom/commsource/widget/h1/f;
 
     invoke-virtual {p0, p1, p2, p3}, Lcom/commsource/widget/h1/e;->y(Lcom/commsource/widget/h1/f;ILjava/util/List;)V
@@ -1460,7 +1329,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0, p1, p2}, Lcom/commsource/widget/h1/e;->z(Landroid/view/ViewGroup;I)Lcom/commsource/widget/h1/f;
 
     move-result-object p1
@@ -1481,7 +1349,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Lcom/commsource/widget/h1/f;
 
     invoke-virtual {p0, p1}, Lcom/commsource/widget/h1/e;->A(Lcom/commsource/widget/h1/f;)V
@@ -1502,7 +1369,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Lcom/commsource/widget/h1/f;
 
     invoke-virtual {p0, p1}, Lcom/commsource/widget/h1/e;->B(Lcom/commsource/widget/h1/f;)V
@@ -1523,7 +1389,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Lcom/commsource/widget/h1/f;
 
     invoke-virtual {p0, p1}, Lcom/commsource/widget/h1/e;->C(Lcom/commsource/widget/h1/f;)V
@@ -1542,14 +1407,12 @@
 
     const/16 v1, 0x7b
 
-    .line 1
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v1
 
     invoke-virtual {p0, v1}, Lcom/commsource/widget/h1/e;->q(Ljava/lang/Object;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1562,7 +1425,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/widget/h1/e;->getItemCount()I
 
     move-result v1
@@ -1571,7 +1433,6 @@
 
     invoke-virtual {p0, v2, v1, p1}, Landroidx/recyclerview/widget/RecyclerView$Adapter;->notifyItemRangeChanged(IILjava/lang/Object;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1586,14 +1447,12 @@
 
     const/16 v1, 0x7b
 
-    .line 1
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v1
 
     invoke-virtual {p0, p1, v1}, Lcom/commsource/widget/h1/e;->s(Ljava/lang/Object;Ljava/lang/Object;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1606,7 +1465,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/widget/h1/e;->b:Ljava/util/List;
 
     if-eqz v1, :cond_3
@@ -1615,7 +1473,6 @@
 
     goto :goto_1
 
-    .line 2
     :cond_0
     invoke-interface {v1}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
@@ -1635,7 +1492,6 @@
 
     check-cast v2, Lcom/commsource/widget/h1/d;
 
-    .line 3
     invoke-virtual {v2}, Lcom/commsource/widget/h1/d;->b()Ljava/lang/Object;
 
     move-result-object v3
@@ -1646,18 +1502,15 @@
 
     if-eqz v3, :cond_1
 
-    .line 4
     invoke-direct {p0, v2, p2}, Lcom/commsource/widget/h1/e;->u(Lcom/commsource/widget/h1/d;Ljava/lang/Object;)V
 
     goto :goto_0
 
-    .line 5
     :cond_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 6
     :cond_3
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1672,7 +1525,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/widget/h1/e;->b:Ljava/util/List;
 
     if-eqz v1, :cond_3
@@ -1681,7 +1533,6 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     invoke-interface {v1}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
@@ -1700,7 +1551,6 @@
 
     check-cast v2, Lcom/commsource/widget/h1/d;
 
-    .line 3
     invoke-virtual {v2}, Lcom/commsource/widget/h1/d;->b()Ljava/lang/Object;
 
     move-result-object v3
@@ -1711,21 +1561,17 @@
 
     if-eqz v3, :cond_1
 
-    .line 4
     invoke-direct {p0, v2}, Lcom/commsource/widget/h1/e;->t(Lcom/commsource/widget/h1/d;)V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 6
     :cond_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 7
     :cond_3
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1740,7 +1586,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/widget/h1/e;->b:Ljava/util/List;
 
     if-eqz v1, :cond_3
@@ -1752,7 +1597,6 @@
     :cond_0
     const/4 v1, 0x0
 
-    .line 2
     :goto_0
     iget-object v2, p0, Lcom/commsource/widget/h1/e;->b:Ljava/util/List;
 
@@ -1762,7 +1606,6 @@
 
     if-ge v1, v2, :cond_2
 
-    .line 3
     iget-object v2, p0, Lcom/commsource/widget/h1/e;->b:Ljava/util/List;
 
     invoke-interface {v2, v1}, Ljava/util/List;->get(I)Ljava/lang/Object;
@@ -1781,10 +1624,8 @@
 
     if-eqz v2, :cond_1
 
-    .line 4
     invoke-virtual {p0, v1, p2}, Landroidx/recyclerview/widget/RecyclerView$Adapter;->notifyItemChanged(ILjava/lang/Object;)V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1794,13 +1635,11 @@
 
     goto :goto_0
 
-    .line 6
     :cond_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 7
     :cond_3
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1815,7 +1654,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/widget/h1/e;->b:Ljava/util/List;
 
     invoke-interface {v1, p2}, Ljava/util/List;->get(I)Ljava/lang/Object;
@@ -1828,7 +1666,6 @@
 
     invoke-virtual {p1, p2, v1, v2}, Lcom/commsource/widget/h1/f;->k(ILcom/commsource/widget/h1/d;Ljava/util/List;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1853,7 +1690,6 @@
 
     if-eqz p3, :cond_1
 
-    .line 1
     invoke-interface {p3}, Ljava/util/List;->isEmpty()Z
 
     move-result v1
@@ -1862,7 +1698,6 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     iget-object v1, p0, Lcom/commsource/widget/h1/e;->b:Ljava/util/List;
 
@@ -1876,12 +1711,10 @@
 
     goto :goto_1
 
-    .line 3
     :cond_1
     :goto_0
     invoke-virtual {p0, p1, p2}, Lcom/commsource/widget/h1/e;->x(Lcom/commsource/widget/h1/f;I)V
 
-    .line 4
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1895,7 +1728,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/widget/h1/e;->c:Landroid/util/SparseArray;
 
     invoke-virtual {v1, p2}, Landroid/util/SparseArray;->get(I)Ljava/lang/Object;
@@ -1911,7 +1743,6 @@
     :try_start_0
     new-array v2, v1, [Ljava/lang/Class;
 
-    .line 2
     const-class v3, Landroid/content/Context;
 
     const/4 v4, 0x0
@@ -1942,22 +1773,18 @@
 
     check-cast p2, Lcom/commsource/widget/h1/f;
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/widget/h1/e;->l:Lcom/commsource/widget/h1/f$a;
 
     invoke-virtual {p2, v1}, Lcom/commsource/widget/h1/f;->q(Lcom/commsource/widget/h1/f$a;)V
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/widget/h1/e;->m:Lcom/commsource/widget/h1/f$b;
 
     invoke-virtual {p2, v1}, Lcom/commsource/widget/h1/f;->r(Lcom/commsource/widget/h1/f$b;)V
 
-    .line 5
     invoke-virtual {p2, p0}, Lcom/commsource/widget/h1/f;->p(Lcom/commsource/widget/h1/e;)V
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p2
@@ -1965,7 +1792,6 @@
     :catch_0
     move-exception p2
 
-    .line 7
     invoke-virtual {p2}, Ljava/lang/Exception;->printStackTrace()V
 
     :cond_0
@@ -1973,10 +1799,8 @@
 
     const-string v1, "\u672a\u8bbe\u7f6e\u7279\u5b9aItem\u72b6\u6001\u7684VH\u3002"
 
-    .line 8
     invoke-static {p2, v1}, Lcom/meitu/library/util/Debug/Debug;->n(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 9
     new-instance p2, Lcom/commsource/widget/h1/g;
 
     iget-object v1, p0, Lcom/commsource/widget/h1/e;->a:Landroid/content/Context;

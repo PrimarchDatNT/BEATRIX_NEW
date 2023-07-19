@@ -54,7 +54,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p2, Lcom/commsource/studio/doodle/j;
 
     invoke-virtual {p0, p1, p2}, Lcom/commsource/studio/doodle/DoodleFragment$b;->b(ILcom/commsource/studio/doodle/j;)Z
@@ -73,7 +72,6 @@
 
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/studio/doodle/DoodleFragment$b;->a:Lcom/commsource/studio/doodle/DoodleFragment;
 
     invoke-static {v0}, Lcom/commsource/studio/doodle/DoodleFragment;->Z(Lcom/commsource/studio/doodle/DoodleFragment;)Lcom/commsource/beautyplus/f0/o7;
@@ -88,7 +86,6 @@
 
     invoke-virtual {v0, p1}, Landroidx/viewpager/widget/ViewPager;->setCurrentItem(I)V
 
-    .line 2
     iget-object v0, p0, Lcom/commsource/studio/doodle/DoodleFragment$b;->a:Lcom/commsource/studio/doodle/DoodleFragment;
 
     invoke-static {v0}, Lcom/commsource/studio/doodle/DoodleFragment;->Z(Lcom/commsource/studio/doodle/DoodleFragment;)Lcom/commsource/beautyplus/f0/o7;
@@ -99,7 +96,6 @@
 
     invoke-virtual {v0, p1}, Landroidx/recyclerview/widget/RecyclerView;->smoothScrollToPosition(I)V
 
-    .line 3
     iget-object v0, p0, Lcom/commsource/studio/doodle/DoodleFragment$b;->a:Lcom/commsource/studio/doodle/DoodleFragment;
 
     invoke-static {v0}, Lcom/commsource/studio/doodle/DoodleFragment;->Z(Lcom/commsource/studio/doodle/DoodleFragment;)Lcom/commsource/beautyplus/f0/o7;
@@ -116,7 +112,6 @@
 
     invoke-static {v0, p1, v1, v2, v3}, Lcom/commsource/widget/LineSelectView;->j(Lcom/commsource/widget/LineSelectView;IZILjava/lang/Object;)V
 
-    .line 4
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const/4 p1, 0x1

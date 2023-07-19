@@ -58,12 +58,10 @@
     :goto_1
     if-eqz v1, :cond_3
 
-    .line 1
     instance-of v1, p0, Lcotlinx/coroutines/flow/internal/ChannelFlow;
 
     if-eqz v1, :cond_2
 
-    .line 2
     check-cast p0, Lcotlinx/coroutines/flow/internal/ChannelFlow;
 
     const/4 v1, 0x0
@@ -74,7 +72,6 @@
 
     goto :goto_2
 
-    .line 3
     :cond_2
     new-instance v6, Lcotlinx/coroutines/flow/internal/b;
 
@@ -97,7 +94,6 @@
     :goto_2
     return-object p0
 
-    .line 4
     :cond_3
     new-instance p0, Ljava/lang/StringBuilder;
 
@@ -113,7 +109,6 @@
 
     move-result-object p0
 
-    .line 5
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
     invoke-virtual {p0}, Ljava/lang/Object;->toString()Ljava/lang/String;
@@ -134,7 +129,6 @@
 
     const/4 p1, -0x2
 
-    .line 1
     :cond_0
     invoke-static {p0, p1}, Lcotlinx/coroutines/flow/f;->o(Lcotlinx/coroutines/flow/d;I)Lcotlinx/coroutines/flow/d;
 
@@ -146,7 +140,6 @@
 .method private static final c(Lcotlin/coroutines/CoroutineContext;)V
     .locals 2
 
-    .line 1
     sget-object v0, Lcotlinx/coroutines/c2;->u:Lcotlinx/coroutines/c2$b;
 
     invoke-interface {p0, v0}, Lcotlin/coroutines/CoroutineContext;->get(Lcotlin/coroutines/CoroutineContext$b;)Lcotlin/coroutines/CoroutineContext$a;
@@ -167,7 +160,6 @@
 
     return-void
 
-    .line 2
     :cond_1
     new-instance v0, Ljava/lang/StringBuilder;
 
@@ -183,7 +175,6 @@
 
     move-result-object p0
 
-    .line 3
     new-instance v0, Ljava/lang/IllegalArgumentException;
 
     invoke-virtual {p0}, Ljava/lang/Object;->toString()Ljava/lang/String;
@@ -221,7 +212,6 @@
 
     const/4 v0, -0x1
 
-    .line 1
     invoke-static {p0, v0}, Lcotlinx/coroutines/flow/f;->o(Lcotlinx/coroutines/flow/d;I)Lcotlinx/coroutines/flow/d;
 
     move-result-object p0
@@ -259,10 +249,8 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     invoke-static {p1}, Lcotlinx/coroutines/flow/g;->c(Lcotlin/coroutines/CoroutineContext;)V
 
-    .line 2
     sget-object v0, Lcotlin/coroutines/EmptyCoroutineContext;->INSTANCE:Lcotlin/coroutines/EmptyCoroutineContext;
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
@@ -273,7 +261,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_0
     instance-of v0, p0, Lcotlinx/coroutines/flow/internal/ChannelFlow;
 
@@ -293,7 +280,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_1
     new-instance v6, Lcotlinx/coroutines/flow/internal/b;
 
@@ -364,10 +350,8 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     invoke-static {p1}, Lcotlinx/coroutines/flow/g;->c(Lcotlin/coroutines/CoroutineContext;)V
 
-    .line 2
     new-instance v0, Lcotlinx/coroutines/flow/g$a;
 
     invoke-direct {v0, p0, p2, p3, p1}, Lcotlinx/coroutines/flow/g$a;-><init>(Lcotlinx/coroutines/flow/d;ILcotlin/jvm/u/l;Lcotlin/coroutines/CoroutineContext;)V
@@ -384,7 +368,6 @@
 
     const/4 p2, -0x2
 
-    .line 1
     :cond_0
     invoke-static {p0, p1, p2, p3}, Lcotlinx/coroutines/flow/f;->M0(Lcotlinx/coroutines/flow/d;Lcotlin/coroutines/CoroutineContext;ILcotlin/jvm/u/l;)Lcotlinx/coroutines/flow/d;
 

@@ -14,24 +14,20 @@
 .method private constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     new-instance v0, Lorg/json/JSONObject;
 
     invoke-direct {v0}, Lorg/json/JSONObject;-><init>()V
 
     iput-object v0, p0, Lcom/google/android/gms/internal/firebase_remote_config/p3;->a:Lorg/json/JSONObject;
 
-    .line 3
     invoke-static {}, Lcom/google/android/gms/internal/firebase_remote_config/n3;->f()Ljava/util/Date;
 
     move-result-object v0
 
     iput-object v0, p0, Lcom/google/android/gms/internal/firebase_remote_config/p3;->b:Ljava/util/Date;
 
-    .line 4
     new-instance v0, Lorg/json/JSONArray;
 
     invoke-direct {v0}, Lorg/json/JSONArray;-><init>()V
@@ -44,7 +40,6 @@
 .method synthetic constructor <init>(Lcom/google/android/gms/internal/firebase_remote_config/m3;)V
     .locals 0
 
-    .line 5
     invoke-direct {p0}, Lcom/google/android/gms/internal/firebase_remote_config/p3;-><init>()V
 
     return-void
@@ -64,12 +59,10 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lorg/json/JSONArray;
 
     invoke-direct {v0}, Lorg/json/JSONArray;-><init>()V
 
-    .line 2
     invoke-interface {p1}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
     move-result-object p1
@@ -87,7 +80,6 @@
 
     check-cast v1, Lcom/google/android/gms/internal/firebase_remote_config/c2;
 
-    .line 3
     new-instance v2, Lorg/json/JSONObject;
 
     invoke-direct {v2, v1}, Lorg/json/JSONObject;-><init>(Ljava/util/Map;)V
@@ -96,7 +88,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_0
     iput-object v0, p0, Lcom/google/android/gms/internal/firebase_remote_config/p3;->c:Lorg/json/JSONArray;
 
@@ -106,7 +97,6 @@
 .method public final b(Ljava/util/Date;)Lcom/google/android/gms/internal/firebase_remote_config/p3;
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/android/gms/internal/firebase_remote_config/p3;->b:Ljava/util/Date;
 
     return-object p0
@@ -120,7 +110,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/google/android/gms/internal/firebase_remote_config/n3;
 
     iget-object v1, p0, Lcom/google/android/gms/internal/firebase_remote_config/p3;->a:Lorg/json/JSONObject;
@@ -149,7 +138,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lorg/json/JSONObject;
 
     invoke-direct {v0, p1}, Lorg/json/JSONObject;-><init>(Ljava/util/Map;)V

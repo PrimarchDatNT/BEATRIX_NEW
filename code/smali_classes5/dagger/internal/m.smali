@@ -46,7 +46,6 @@
         }
     .end annotation
 
-    .line 2
     invoke-direct {p0, p1}, Ldagger/internal/a;-><init>(Ljava/util/Map;)V
 
     return-void
@@ -55,7 +54,6 @@
 .method synthetic constructor <init>(Ljava/util/Map;Ldagger/internal/m$a;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1}, Ldagger/internal/m;-><init>(Ljava/util/Map;)V
 
     return-void
@@ -75,7 +73,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Ldagger/internal/m$b;
 
     const/4 v1, 0x0
@@ -99,7 +96,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Ldagger/internal/a;->b()Ljava/util/Map;
 
     move-result-object v0
@@ -110,7 +106,6 @@
 .method public bridge synthetic get()Ljava/lang/Object;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Ldagger/internal/m;->d()Ljava/util/Map;
 
     move-result-object v0

@@ -53,7 +53,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/meitu/library/hwanalytics/spm/SPMManager$init$2;->invoke()V
 
     sget-object v1, Lcotlin/t1;->a:Lcotlin/t1;
@@ -70,7 +69,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 2
     sget-object v1, Lcom/meitu/library/k/e/a;->m:Lcom/meitu/library/k/e/a;
 
     invoke-virtual {v1}, Lcom/meitu/library/k/e/a;->b()Z
@@ -85,7 +83,6 @@
 
     if-nez v1, :cond_0
 
-    .line 3
     sget-object v1, Lcom/meitu/library/k/c/a;->d:Lcom/meitu/library/k/c/a;
 
     sget-object v2, Lcom/meitu/library/k/d/a/b;->e:Lcom/meitu/library/k/d/a/b;
@@ -100,7 +97,6 @@
 
     invoke-virtual {v1, v3, v2}, Lcom/meitu/library/k/c/a;->b(Ljava/lang/String;Ljava/util/Map;)V
 
-    .line 4
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

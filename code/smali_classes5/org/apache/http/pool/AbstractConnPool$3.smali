@@ -35,7 +35,6 @@
 .method constructor <init>(Lorg/apache/http/pool/AbstractConnPool;J)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lorg/apache/http/pool/AbstractConnPool$3;->this$0:Lorg/apache/http/pool/AbstractConnPool;
 
     iput-wide p2, p0, Lorg/apache/http/pool/AbstractConnPool$3;->val$deadline:J
@@ -57,7 +56,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p1}, Lorg/apache/http/pool/PoolEntry;->getUpdated()J
 
     move-result-wide v0
@@ -68,7 +66,6 @@
 
     if-gtz v4, :cond_0
 
-    .line 2
     invoke-virtual {p1}, Lorg/apache/http/pool/PoolEntry;->close()V
 
     :cond_0

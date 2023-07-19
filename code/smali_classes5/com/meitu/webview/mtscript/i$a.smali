@@ -27,7 +27,6 @@
 .method constructor <init>(Lcom/meitu/webview/mtscript/i;Ljava/lang/String;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/webview/mtscript/i$a;->b:Lcom/meitu/webview/mtscript/i;
 
     iput-object p2, p0, Lcom/meitu/webview/mtscript/i$a;->a:Ljava/lang/String;
@@ -46,7 +45,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/webview/mtscript/i$a;->b:Lcom/meitu/webview/mtscript/i;
 
     invoke-static {v1}, Lcom/meitu/webview/mtscript/i;->i(Lcom/meitu/webview/mtscript/i;)Ljava/lang/ref/WeakReference;
@@ -61,12 +59,10 @@
 
     if-eqz v1, :cond_0
 
-    .line 2
     iget-object v2, p0, Lcom/meitu/webview/mtscript/i$a;->a:Ljava/lang/String;
 
     invoke-virtual {v1, v2}, Lcom/meitu/webview/core/CommonWebView;->loadUrl(Ljava/lang/String;)V
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

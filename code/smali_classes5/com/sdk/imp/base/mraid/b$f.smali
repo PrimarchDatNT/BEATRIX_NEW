@@ -25,7 +25,6 @@
 .method constructor <init>(Lcom/sdk/imp/base/mraid/b;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/sdk/imp/base/mraid/b$f;->a:Lcom/sdk/imp/base/mraid/b;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -38,7 +37,6 @@
 .method public run()V
     .locals 7
 
-    .line 1
     iget-object v0, p0, Lcom/sdk/imp/base/mraid/b$f;->a:Lcom/sdk/imp/base/mraid/b;
 
     invoke-static {v0}, Lcom/sdk/imp/base/mraid/b;->b(Lcom/sdk/imp/base/mraid/b;)Lcom/sdk/imp/base/mraid/MraidBridge;
@@ -47,7 +45,6 @@
 
     iget-object v0, p0, Lcom/sdk/imp/base/mraid/b$f;->a:Lcom/sdk/imp/base/mraid/b;
 
-    .line 2
     invoke-static {v0}, Lcom/sdk/imp/base/mraid/b;->j(Lcom/sdk/imp/base/mraid/b;)Lcom/sdk/imp/base/mraid/e;
 
     move-result-object v0
@@ -64,7 +61,6 @@
 
     iget-object v0, p0, Lcom/sdk/imp/base/mraid/b$f;->a:Lcom/sdk/imp/base/mraid/b;
 
-    .line 3
     invoke-static {v0}, Lcom/sdk/imp/base/mraid/b;->j(Lcom/sdk/imp/base/mraid/b;)Lcom/sdk/imp/base/mraid/e;
 
     move-result-object v0
@@ -81,7 +77,6 @@
 
     iget-object v0, p0, Lcom/sdk/imp/base/mraid/b$f;->a:Lcom/sdk/imp/base/mraid/b;
 
-    .line 4
     invoke-static {v0}, Lcom/sdk/imp/base/mraid/b;->j(Lcom/sdk/imp/base/mraid/b;)Lcom/sdk/imp/base/mraid/e;
 
     iget-object v0, p0, Lcom/sdk/imp/base/mraid/b$f;->a:Lcom/sdk/imp/base/mraid/b;
@@ -96,7 +91,6 @@
 
     iget-object v0, p0, Lcom/sdk/imp/base/mraid/b$f;->a:Lcom/sdk/imp/base/mraid/b;
 
-    .line 5
     invoke-static {v0}, Lcom/sdk/imp/base/mraid/b;->j(Lcom/sdk/imp/base/mraid/b;)Lcom/sdk/imp/base/mraid/e;
 
     iget-object v0, p0, Lcom/sdk/imp/base/mraid/b$f;->a:Lcom/sdk/imp/base/mraid/b;
@@ -111,15 +105,12 @@
 
     iget-object v0, p0, Lcom/sdk/imp/base/mraid/b$f;->a:Lcom/sdk/imp/base/mraid/b;
 
-    .line 6
     invoke-static {v0}, Lcom/sdk/imp/base/mraid/b;->k(Lcom/sdk/imp/base/mraid/b;)Z
 
     move-result v6
 
-    .line 7
     invoke-virtual/range {v1 .. v6}, Lcom/sdk/imp/base/mraid/MraidBridge;->u(ZZZZZ)V
 
-    .line 8
     iget-object v0, p0, Lcom/sdk/imp/base/mraid/b$f;->a:Lcom/sdk/imp/base/mraid/b;
 
     invoke-static {v0}, Lcom/sdk/imp/base/mraid/b;->b(Lcom/sdk/imp/base/mraid/b;)Lcom/sdk/imp/base/mraid/MraidBridge;
@@ -134,7 +125,6 @@
 
     invoke-virtual {v0, v1}, Lcom/sdk/imp/base/mraid/MraidBridge;->v(Lcom/sdk/imp/base/mraid/ViewState;)V
 
-    .line 9
     iget-object v0, p0, Lcom/sdk/imp/base/mraid/b$f;->a:Lcom/sdk/imp/base/mraid/b;
 
     invoke-static {v0}, Lcom/sdk/imp/base/mraid/b;->b(Lcom/sdk/imp/base/mraid/b;)Lcom/sdk/imp/base/mraid/MraidBridge;
@@ -149,7 +139,6 @@
 
     invoke-virtual {v0, v1}, Lcom/sdk/imp/base/mraid/MraidBridge;->r(Lcom/sdk/imp/base/mraid/PlacementType;)V
 
-    .line 10
     iget-object v0, p0, Lcom/sdk/imp/base/mraid/b$f;->a:Lcom/sdk/imp/base/mraid/b;
 
     invoke-static {v0}, Lcom/sdk/imp/base/mraid/b;->b(Lcom/sdk/imp/base/mraid/b;)Lcom/sdk/imp/base/mraid/MraidBridge;
@@ -168,7 +157,6 @@
 
     invoke-virtual {v0, v1}, Lcom/sdk/imp/base/mraid/MraidBridge;->w(Z)V
 
-    .line 11
     iget-object v0, p0, Lcom/sdk/imp/base/mraid/b$f;->a:Lcom/sdk/imp/base/mraid/b;
 
     invoke-static {v0}, Lcom/sdk/imp/base/mraid/b;->b(Lcom/sdk/imp/base/mraid/b;)Lcom/sdk/imp/base/mraid/MraidBridge;

@@ -71,10 +71,8 @@
 
     sget v0, Lcom/res/provider/ResLAYOUT;->item_mixmode_tag:I
 
-    .line 1
     invoke-direct {p0, p1, p2, v0}, Lcom/commsource/widget/h1/f;-><init>(Landroid/content/Context;Landroid/view/ViewGroup;I)V
 
-    .line 2
     iget-object p1, p0, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->itemView:Landroid/view/View;
 
     invoke-static {p1}, Lcom/commsource/beautyplus/f0/ah;->a(Landroid/view/View;)Lcom/commsource/beautyplus/f0/ah;
@@ -83,7 +81,6 @@
 
     iput-object p1, p0, Lcom/commsource/studio/mixlayer/g;->p:Lcom/commsource/beautyplus/f0/ah;
 
-    .line 3
     invoke-virtual {p1}, Landroidx/databinding/ViewDataBinding;->executePendingBindings()V
 
     return-void
@@ -117,12 +114,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0, p1, p2, p3}, Lcom/commsource/widget/h1/f;->k(ILcom/commsource/widget/h1/d;Ljava/util/List;)V
 
     if-eqz p2, :cond_1
 
-    .line 2
     invoke-virtual {p2}, Lcom/commsource/widget/h1/d;->b()Ljava/lang/Object;
 
     move-result-object p1
@@ -131,7 +126,6 @@
 
     if-eqz p1, :cond_1
 
-    .line 3
     invoke-virtual {p2}, Lcom/commsource/widget/h1/d;->g()Z
 
     move-result p1
@@ -142,7 +136,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 4
     iget-object p1, p0, Lcom/commsource/studio/mixlayer/g;->p:Lcom/commsource/beautyplus/f0/ah;
 
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/ah;->a:Landroid/widget/TextView;
@@ -157,29 +150,24 @@
 
     invoke-static {p1, v2}, Lcom/commsource/util/l0;->X(Landroid/view/View;I)V
 
-    .line 5
     iget-object p1, p0, Lcom/commsource/studio/mixlayer/g;->p:Lcom/commsource/beautyplus/f0/ah;
 
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/ah;->a:Landroid/widget/TextView;
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 6
     invoke-static {p3}, Lcom/commsource/util/l0;->n(I)I
 
     move-result p3
 
     sget v2, Lcom/res/provider/ResCOLOR;->Primary_A:I
 
-    .line 7
     invoke-static {v2}, Lcom/commsource/util/u1;->b(I)I
 
     move-result v3
 
-    .line 8
     invoke-static {p1, p3, v3}, Lcom/commsource/util/l0;->Y(Landroid/view/View;II)V
 
-    .line 9
     iget-object p1, p0, Lcom/commsource/studio/mixlayer/g;->p:Lcom/commsource/beautyplus/f0/ah;
 
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/ah;->a:Landroid/widget/TextView;
@@ -192,7 +180,6 @@
 
     goto :goto_0
 
-    .line 10
     :cond_0
     iget-object p1, p0, Lcom/commsource/studio/mixlayer/g;->p:Lcom/commsource/beautyplus/f0/ah;
 
@@ -200,22 +187,18 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 11
     invoke-static {p3}, Lcom/commsource/util/l0;->n(I)I
 
     move-result p3
 
     sget v2, Lcom/res/provider/ResCOLOR;->Gray_Background:I
 
-    .line 12
     invoke-static {v2}, Lcom/commsource/util/u1;->b(I)I
 
     move-result v3
 
-    .line 13
     invoke-static {p1, p3, v3}, Lcom/commsource/util/l0;->Y(Landroid/view/View;II)V
 
-    .line 14
     iget-object p1, p0, Lcom/commsource/studio/mixlayer/g;->p:Lcom/commsource/beautyplus/f0/ah;
 
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/ah;->a:Landroid/widget/TextView;
@@ -228,7 +211,6 @@
 
     invoke-static {p1, p3}, Lcom/commsource/util/l0;->X(Landroid/view/View;I)V
 
-    .line 15
     iget-object p1, p0, Lcom/commsource/studio/mixlayer/g;->p:Lcom/commsource/beautyplus/f0/ah;
 
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/ah;->a:Landroid/widget/TextView;
@@ -241,7 +223,6 @@
 
     invoke-virtual {p1, p3}, Landroid/widget/TextView;->setTextColor(I)V
 
-    .line 16
     :goto_0
     invoke-virtual {p2}, Lcom/commsource/widget/h1/d;->b()Ljava/lang/Object;
 
@@ -265,7 +246,6 @@
 
     invoke-virtual {p2, p1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 17
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -279,7 +259,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/mixlayer/g;->p:Lcom/commsource/beautyplus/f0/ah;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

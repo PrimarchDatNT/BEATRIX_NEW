@@ -63,7 +63,6 @@
 
     sput-object v1, Lcom/commsource/home/material/HomeFilter2ModuleVH;->T:Lcom/commsource/home/material/HomeFilter2ModuleVH$e;
 
-    .line 1
     sget-object v1, Lcom/commsource/home/c;->y:Lcom/commsource/home/c;
 
     invoke-virtual {v1}, Lcom/commsource/home/c;->p()I
@@ -118,37 +117,30 @@
 
     sget v0, Lcom/res/provider/ResLAYOUT;->item_home_filter2_module:I
 
-    .line 1
     invoke-direct {p0, p1, p2, v0}, Lcom/commsource/home/BaseHomeModuleVH;-><init>(Landroid/content/Context;Landroid/view/ViewGroup;I)V
 
-    .line 2
     new-instance p2, Lcom/commsource/widget/h1/e;
 
     invoke-direct {p2, p1}, Lcom/commsource/widget/h1/e;-><init>(Landroid/content/Context;)V
 
     iput-object p2, p0, Lcom/commsource/home/material/HomeFilter2ModuleVH;->L:Lcom/commsource/widget/h1/e;
 
-    .line 3
     new-instance p1, Lcom/commsource/widget/infiniteview/InfinitePagerLayoutManager;
 
     invoke-direct {p1}, Lcom/commsource/widget/infiniteview/InfinitePagerLayoutManager;-><init>()V
 
     const/4 p2, 0x1
 
-    .line 4
     invoke-virtual {p1, p2}, Lcom/commsource/widget/infiniteview/InfinitePagerLayoutManager;->q(Z)V
 
-    .line 5
     iput-object p1, p0, Lcom/commsource/home/material/HomeFilter2ModuleVH;->M:Lcom/commsource/widget/infiniteview/InfinitePagerLayoutManager;
 
-    .line 6
     new-instance p1, Landroid/animation/ValueAnimator;
 
     invoke-direct {p1}, Landroid/animation/ValueAnimator;-><init>()V
 
     iput-object p1, p0, Lcom/commsource/home/material/HomeFilter2ModuleVH;->N:Landroid/animation/ValueAnimator;
 
-    .line 7
     iget-object p2, p0, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->itemView:Landroid/view/View;
 
     invoke-static {p2}, Lcom/commsource/beautyplus/f0/uf;->a(Landroid/view/View;)Lcom/commsource/beautyplus/f0/uf;
@@ -157,17 +149,14 @@
 
     invoke-virtual {p2}, Landroidx/databinding/ViewDataBinding;->executePendingBindings()V
 
-    .line 8
     iget-object p2, p0, Lcom/commsource/home/material/HomeFilter2ModuleVH;->M:Lcom/commsource/widget/infiniteview/InfinitePagerLayoutManager;
 
-    .line 9
     new-instance v0, Lcom/commsource/home/material/HomeFilter2ModuleVH$a;
 
     invoke-direct {v0, p0}, Lcom/commsource/home/material/HomeFilter2ModuleVH$a;-><init>(Lcom/commsource/home/material/HomeFilter2ModuleVH;)V
 
     invoke-virtual {p2, v0}, Lcom/commsource/widget/infiniteview/InfinitePagerLayoutManager;->o(Lcom/commsource/util/common/d;)V
 
-    .line 10
     iget-object v0, p0, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->itemView:Landroid/view/View;
 
     const-string v1, "itemView"
@@ -184,22 +173,18 @@
 
     if-eqz v0, :cond_0
 
-    .line 11
     invoke-virtual {v0, p2}, Landroidx/recyclerview/widget/RecyclerView;->setLayoutManager(Landroidx/recyclerview/widget/RecyclerView$LayoutManager;)V
 
-    .line 12
     iget-object v1, p0, Lcom/commsource/home/material/HomeFilter2ModuleVH;->L:Lcom/commsource/widget/h1/e;
 
     invoke-virtual {v0, v1}, Landroidx/recyclerview/widget/RecyclerView;->setAdapter(Landroidx/recyclerview/widget/RecyclerView$Adapter;)V
 
-    .line 13
     new-instance v1, Lcom/commsource/home/material/HomeFilter2ModuleVH$c;
 
     invoke-direct {v1}, Lcom/commsource/home/material/HomeFilter2ModuleVH$c;-><init>()V
 
     invoke-virtual {v0, v1}, Landroidx/recyclerview/widget/RecyclerView;->addItemDecoration(Landroidx/recyclerview/widget/RecyclerView$ItemDecoration;)V
 
-    .line 14
     new-instance v1, Lcom/commsource/home/material/HomeFilter2ModuleVH$b;
 
     invoke-direct {v1, p0, p2}, Lcom/commsource/home/material/HomeFilter2ModuleVH$b;-><init>(Lcom/commsource/home/material/HomeFilter2ModuleVH;Lcom/commsource/widget/infiniteview/InfinitePagerLayoutManager;)V
@@ -209,19 +194,16 @@
     :cond_0
     const-wide/16 v0, 0xc8
 
-    .line 15
     invoke-virtual {p1, v0, v1}, Landroid/animation/ValueAnimator;->setDuration(J)Landroid/animation/ValueAnimator;
 
     const/4 p2, 0x2
 
     new-array p2, p2, [F
 
-    .line 16
     fill-array-data p2, :array_0
 
     invoke-virtual {p1, p2}, Landroid/animation/ValueAnimator;->setFloatValues([F)V
 
-    .line 17
     iget-object p1, p0, Lcom/commsource/home/material/HomeFilter2ModuleVH;->L:Lcom/commsource/widget/h1/e;
 
     const-class p2, Lcom/commsource/home/entity/g;
@@ -248,7 +230,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget v1, Lcom/commsource/home/material/HomeFilter2ModuleVH;->S:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -263,7 +244,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget p0, p0, Lcom/commsource/home/material/HomeFilter2ModuleVH;->P:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -278,7 +258,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget p0, p0, Lcom/commsource/home/material/HomeFilter2ModuleVH;->O:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -293,7 +272,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/home/material/HomeFilter2ModuleVH;->L:Lcom/commsource/widget/h1/e;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -308,7 +286,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/home/material/HomeFilter2ModuleVH;->P:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -323,7 +300,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/home/material/HomeFilter2ModuleVH;->O:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -338,7 +314,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/home/material/HomeFilter2ModuleVH;->L:Lcom/commsource/widget/h1/e;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -353,7 +328,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/widget/h1/f;->c()Lcom/commsource/widget/h1/d;
 
     move-result-object v1
@@ -388,7 +362,6 @@
     :goto_0
     if-eqz v1, :cond_2
 
-    .line 2
     invoke-virtual {v1}, Lcom/commsource/home/entity/g;->d()Ljava/lang/String;
 
     move-result-object v1
@@ -399,10 +372,8 @@
 
     move-result v1
 
-    .line 3
     invoke-direct {p0, v1, p2}, Lcom/commsource/home/material/HomeFilter2ModuleVH;->L(IZ)V
 
-    .line 4
     :cond_1
     invoke-virtual {p0}, Lcom/commsource/widget/h1/f;->c()Lcom/commsource/widget/h1/d;
 
@@ -418,7 +389,6 @@
 
     invoke-virtual {p2, v1, p1}, Lcom/commsource/widget/h1/d;->a(Ljava/lang/String;Ljava/lang/Object;)V
 
-    .line 5
     :cond_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -438,7 +408,6 @@
 
     const/4 p2, 0x1
 
-    .line 1
     :cond_0
     invoke-direct {p0, p1, p2}, Lcom/commsource/home/material/HomeFilter2ModuleVH;->J(IZ)V
 
@@ -456,22 +425,16 @@
 
     if-eqz p2, :cond_0
 
-    .line 1
     iget p2, p0, Lcom/commsource/home/material/HomeFilter2ModuleVH;->O:I
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/home/material/HomeFilter2ModuleVH;->N:Landroid/animation/ValueAnimator;
 
-    .line 3
     invoke-virtual {v1}, Landroid/animation/ValueAnimator;->removeAllUpdateListeners()V
 
-    .line 4
     invoke-virtual {v1}, Landroid/animation/ValueAnimator;->cancel()V
 
-    .line 5
     invoke-virtual {v1}, Landroid/animation/ValueAnimator;->start()V
 
-    .line 6
     new-instance v2, Lcom/commsource/home/material/HomeFilter2ModuleVH$h;
 
     invoke-direct {v2, p0, p2, p1}, Lcom/commsource/home/material/HomeFilter2ModuleVH$h;-><init>(Lcom/commsource/home/material/HomeFilter2ModuleVH;II)V
@@ -480,11 +443,9 @@
 
     goto :goto_0
 
-    .line 7
     :cond_0
     iput p1, p0, Lcom/commsource/home/material/HomeFilter2ModuleVH;->O:I
 
-    .line 8
     iget-object p1, p0, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->itemView:Landroid/view/View;
 
     const-string p2, "itemView"
@@ -513,7 +474,6 @@
 
     invoke-static {p1, p2}, Lcom/commsource/util/l0;->X(Landroid/view/View;I)V
 
-    .line 9
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -533,7 +493,6 @@
 
     const/4 p2, 0x1
 
-    .line 1
     :cond_0
     invoke-direct {p0, p1, p2}, Lcom/commsource/home/material/HomeFilter2ModuleVH;->L(IZ)V
 
@@ -567,7 +526,6 @@
 
     goto :goto_0
 
-    .line 1
     :cond_0
     invoke-virtual {p0}, Lcom/commsource/home/BaseHomeModuleVH;->y()Lcom/commsource/home/NewHomeContentViewModel;
 
@@ -597,7 +555,6 @@
 
     invoke-virtual {v3, v4, v5}, Lcom/commsource/home/d;->h(ILcom/commsource/home/entity/ContentModule;)V
 
-    .line 2
     invoke-virtual {p0}, Lcom/commsource/home/BaseHomeModuleVH;->y()Lcom/commsource/home/NewHomeContentViewModel;
 
     move-result-object v3
@@ -628,7 +585,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_1
     invoke-virtual {p0}, Lcom/commsource/home/BaseHomeModuleVH;->y()Lcom/commsource/home/NewHomeContentViewModel;
 
@@ -663,12 +619,10 @@
 
     const/4 p1, 0x0
 
-    .line 4
     iput p1, p0, Lcom/commsource/home/material/HomeFilter2ModuleVH;->P:I
 
     goto :goto_1
 
-    .line 5
     :cond_2
     iget-object v1, p0, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->itemView:Landroid/view/View;
 
@@ -698,10 +652,8 @@
 
     iput p1, p0, Lcom/commsource/home/material/HomeFilter2ModuleVH;->P:I
 
-    .line 6
     invoke-virtual {p0}, Lcom/commsource/home/material/HomeFilter2ModuleVH;->I()V
 
-    .line 7
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -715,17 +667,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/home/material/HomeFilter2ModuleVH;->P:I
 
     if-nez v1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 3
     :cond_0
     iget-object v1, p0, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->itemView:Landroid/view/View;
 
@@ -753,7 +702,6 @@
 
     invoke-static {v1, v2, v3}, Lcom/commsource/util/l0;->s0(Landroidx/recyclerview/widget/RecyclerView;ZLcom/commsource/util/common/b;)V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -785,10 +733,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0, p1, p2, p3}, Lcom/commsource/widget/h1/f;->k(ILcom/commsource/widget/h1/d;Ljava/util/List;)V
 
-    .line 2
     iget-object p1, p0, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->itemView:Landroid/view/View;
 
     const-string p3, "itemView"
@@ -815,7 +761,6 @@
 
     invoke-virtual {p1, v1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 3
     iget-object p1, p0, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->itemView:Landroid/view/View;
 
     invoke-static {p1, p3}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
@@ -856,7 +801,6 @@
     :goto_0
     invoke-virtual {p1, v2}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 4
     iget-object p1, p0, Lcom/commsource/home/material/HomeFilter2ModuleVH;->L:Lcom/commsource/widget/h1/e;
 
     invoke-static {}, Lcom/commsource/widget/h1/c;->j()Lcom/commsource/widget/h1/c;
@@ -897,7 +841,6 @@
 
     invoke-virtual {p1, v2, v3}, Lcom/commsource/widget/h1/e;->R(Ljava/util/List;Z)V
 
-    .line 5
     iget-object p1, p0, Lcom/commsource/home/material/HomeFilter2ModuleVH;->M:Lcom/commsource/widget/infiniteview/InfinitePagerLayoutManager;
 
     iget-object v2, p0, Lcom/commsource/home/material/HomeFilter2ModuleVH;->L:Lcom/commsource/widget/h1/e;
@@ -922,7 +865,6 @@
 
     if-eqz p2, :cond_3
 
-    .line 6
     invoke-virtual {p0}, Lcom/commsource/home/BaseHomeModuleVH;->v()Ljava/lang/String;
 
     move-result-object p1
@@ -960,11 +902,9 @@
     :cond_5
     const/4 p1, 0x0
 
-    .line 7
     :goto_5
     invoke-direct {p0, p1, v3}, Lcom/commsource/home/material/HomeFilter2ModuleVH;->J(IZ)V
 
-    .line 8
     iget-object p2, p0, Lcom/commsource/home/material/HomeFilter2ModuleVH;->L:Lcom/commsource/widget/h1/e;
 
     invoke-static {p1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -975,7 +915,6 @@
 
     invoke-virtual {p2, v2, v1}, Lcom/commsource/widget/h1/e;->b(Ljava/lang/String;Ljava/lang/Object;)V
 
-    .line 9
     iget-object p2, p0, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->itemView:Landroid/view/View;
 
     invoke-static {p2, p3}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
@@ -990,7 +929,6 @@
 
     invoke-virtual {p2, p1}, Landroidx/recyclerview/widget/RecyclerView;->scrollToPosition(I)V
 
-    .line 10
     iget-object p2, p0, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->itemView:Landroid/view/View;
 
     invoke-static {p2, p3}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
@@ -1011,7 +949,6 @@
 
     invoke-virtual {p2, v2}, Lcom/commsource/widget/IndicatorLineView;->setCount(I)V
 
-    .line 11
     iget-object p2, p0, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->itemView:Landroid/view/View;
 
     invoke-static {p2, p3}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
@@ -1024,7 +961,6 @@
 
     invoke-virtual {p2, p1, v3}, Lcom/commsource/widget/IndicatorLineView;->e(IZ)V
 
-    .line 12
     iget-object p1, p0, Lcom/commsource/widget/h1/f;->d:Landroid/content/Context;
 
     invoke-static {p1}, Lcom/commsource/util/u0;->i(Landroid/content/Context;)Lcom/commsource/util/u0$d;
@@ -1051,7 +987,6 @@
 
     invoke-virtual {p1, p2}, Lcom/commsource/util/u0$d;->e(Landroid/widget/ImageView;)V
 
-    .line 13
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

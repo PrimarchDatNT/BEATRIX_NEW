@@ -15,7 +15,6 @@
 .method constructor <init>(Lcom/google/firebase/auth/FirebaseAuth;Lcom/google/firebase/auth/FirebaseAuth$b;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/firebase/auth/d0;->b:Lcom/google/firebase/auth/FirebaseAuth;
 
     iput-object p2, p0, Lcom/google/firebase/auth/d0;->a:Lcom/google/firebase/auth/FirebaseAuth$b;
@@ -30,7 +29,6 @@
 .method public final run()V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/auth/d0;->a:Lcom/google/firebase/auth/FirebaseAuth$b;
 
     iget-object v1, p0, Lcom/google/firebase/auth/d0;->b:Lcom/google/firebase/auth/FirebaseAuth;

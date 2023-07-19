@@ -10,7 +10,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -21,7 +20,6 @@
 .method public a()Lcom/google/firebase/firestore/model/e;
     .locals 2
 
-    .line 1
     new-instance v0, Ljava/lang/RuntimeException;
 
     const-string v1, "Not yet implemented."
@@ -34,7 +32,6 @@
 .method public b()Z
     .locals 2
 
-    .line 1
     new-instance v0, Ljava/lang/RuntimeException;
 
     const-string v1, "Not yet implemented."
@@ -47,7 +44,6 @@
 .method public close()V
     .locals 2
 
-    .line 1
     new-instance v0, Ljava/lang/RuntimeException;
 
     const-string v1, "Not yet implemented."

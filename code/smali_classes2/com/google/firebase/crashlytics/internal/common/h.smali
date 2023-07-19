@@ -33,36 +33,30 @@
 .method public constructor <init>(Ljava/util/concurrent/ExecutorService;)V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/4 v0, 0x0
 
-    .line 2
     invoke-static {v0}, Lcom/google/android/gms/tasks/n;->g(Ljava/lang/Object;)Lcom/google/android/gms/tasks/k;
 
     move-result-object v0
 
     iput-object v0, p0, Lcom/google/firebase/crashlytics/internal/common/h;->b:Lcom/google/android/gms/tasks/k;
 
-    .line 3
     new-instance v0, Ljava/lang/Object;
 
     invoke-direct {v0}, Ljava/lang/Object;-><init>()V
 
     iput-object v0, p0, Lcom/google/firebase/crashlytics/internal/common/h;->c:Ljava/lang/Object;
 
-    .line 4
     new-instance v0, Ljava/lang/ThreadLocal;
 
     invoke-direct {v0}, Ljava/lang/ThreadLocal;-><init>()V
 
     iput-object v0, p0, Lcom/google/firebase/crashlytics/internal/common/h;->d:Ljava/lang/ThreadLocal;
 
-    .line 5
     iput-object p1, p0, Lcom/google/firebase/crashlytics/internal/common/h;->a:Ljava/util/concurrent/ExecutorService;
 
-    .line 6
     new-instance v0, Lcom/google/firebase/crashlytics/internal/common/h$a;
 
     invoke-direct {v0, p0}, Lcom/google/firebase/crashlytics/internal/common/h$a;-><init>(Lcom/google/firebase/crashlytics/internal/common/h;)V
@@ -75,7 +69,6 @@
 .method static synthetic a(Lcom/google/firebase/crashlytics/internal/common/h;)Ljava/lang/ThreadLocal;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lcom/google/firebase/crashlytics/internal/common/h;->d:Ljava/lang/ThreadLocal;
 
     return-object p0
@@ -96,7 +89,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/crashlytics/internal/common/h;->a:Ljava/util/concurrent/ExecutorService;
 
     new-instance v1, Lcom/google/firebase/crashlytics/internal/common/h$d;
@@ -113,7 +105,6 @@
 .method private e()Z
     .locals 2
 
-    .line 1
     sget-object v0, Ljava/lang/Boolean;->TRUE:Ljava/lang/Boolean;
 
     iget-object v1, p0, Lcom/google/firebase/crashlytics/internal/common/h;->d:Ljava/lang/ThreadLocal;
@@ -144,7 +135,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/google/firebase/crashlytics/internal/common/h$c;
 
     invoke-direct {v0, p0, p1}, Lcom/google/firebase/crashlytics/internal/common/h$c;-><init>(Lcom/google/firebase/crashlytics/internal/common/h;Ljava/util/concurrent/Callable;)V
@@ -157,7 +147,6 @@
 .method public b()V
     .locals 2
 
-    .line 1
     invoke-direct {p0}, Lcom/google/firebase/crashlytics/internal/common/h;->e()Z
 
     move-result v0
@@ -166,7 +155,6 @@
 
     return-void
 
-    .line 2
     :cond_0
     new-instance v0, Ljava/lang/IllegalStateException;
 
@@ -180,7 +168,6 @@
 .method public c()Ljava/util/concurrent/Executor;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/crashlytics/internal/common/h;->a:Ljava/util/concurrent/ExecutorService;
 
     return-object v0
@@ -199,7 +186,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/google/firebase/crashlytics/internal/common/h$b;
 
     invoke-direct {v0, p0, p1}, Lcom/google/firebase/crashlytics/internal/common/h$b;-><init>(Lcom/google/firebase/crashlytics/internal/common/h;Ljava/lang/Runnable;)V
@@ -225,12 +211,10 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/crashlytics/internal/common/h;->c:Ljava/lang/Object;
 
     monitor-enter v0
 
-    .line 2
     :try_start_0
     iget-object v1, p0, Lcom/google/firebase/crashlytics/internal/common/h;->b:Lcom/google/android/gms/tasks/k;
 
@@ -244,14 +228,12 @@
 
     move-result-object p1
 
-    .line 3
     invoke-direct {p0, p1}, Lcom/google/firebase/crashlytics/internal/common/h;->d(Lcom/google/android/gms/tasks/k;)Lcom/google/android/gms/tasks/k;
 
     move-result-object v1
 
     iput-object v1, p0, Lcom/google/firebase/crashlytics/internal/common/h;->b:Lcom/google/android/gms/tasks/k;
 
-    .line 4
     monitor-exit v0
 
     return-object p1
@@ -259,7 +241,6 @@
     :catchall_0
     move-exception p1
 
-    .line 5
     monitor-exit v0
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
@@ -282,12 +263,10 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/crashlytics/internal/common/h;->c:Ljava/lang/Object;
 
     monitor-enter v0
 
-    .line 2
     :try_start_0
     iget-object v1, p0, Lcom/google/firebase/crashlytics/internal/common/h;->b:Lcom/google/android/gms/tasks/k;
 
@@ -301,14 +280,12 @@
 
     move-result-object p1
 
-    .line 3
     invoke-direct {p0, p1}, Lcom/google/firebase/crashlytics/internal/common/h;->d(Lcom/google/android/gms/tasks/k;)Lcom/google/android/gms/tasks/k;
 
     move-result-object v1
 
     iput-object v1, p0, Lcom/google/firebase/crashlytics/internal/common/h;->b:Lcom/google/android/gms/tasks/k;
 
-    .line 4
     monitor-exit v0
 
     return-object p1
@@ -316,7 +293,6 @@
     :catchall_0
     move-exception p1
 
-    .line 5
     monitor-exit v0
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0

@@ -33,7 +33,6 @@
 .method static constructor <clinit>()V
     .locals 2
 
-    .line 1
     const-class v0, Ljava/lang/Throwable;
 
     const/4 v1, -0x1
@@ -44,14 +43,12 @@
 
     sput v0, Lcotlinx/coroutines/internal/ExceptionsConstuctorKt;->a:I
 
-    .line 2
     new-instance v0, Ljava/util/concurrent/locks/ReentrantReadWriteLock;
 
     invoke-direct {v0}, Ljava/util/concurrent/locks/ReentrantReadWriteLock;-><init>()V
 
     sput-object v0, Lcotlinx/coroutines/internal/ExceptionsConstuctorKt;->b:Ljava/util/concurrent/locks/ReentrantReadWriteLock;
 
-    .line 3
     new-instance v0, Ljava/util/WeakHashMap;
 
     invoke-direct {v0}, Ljava/util/WeakHashMap;-><init>()V
@@ -75,14 +72,12 @@
         }
     .end annotation
 
-    .line 1
     const-class v0, Ljava/lang/String;
 
     invoke-virtual {p0}, Ljava/lang/reflect/Constructor;->getParameterTypes()[Ljava/lang/Class;
 
     move-result-object v1
 
-    .line 2
     array-length v2, v1
 
     const/4 v3, 0x0
@@ -101,7 +96,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_0
     aget-object v2, v1, v4
 
@@ -121,18 +115,15 @@
 
     if-eqz v0, :cond_4
 
-    .line 4
     new-instance v3, Lcotlinx/coroutines/internal/ExceptionsConstuctorKt$createConstructor$$inlined$safeCtor$1;
 
     invoke-direct {v3, p0}, Lcotlinx/coroutines/internal/ExceptionsConstuctorKt$createConstructor$$inlined$safeCtor$1;-><init>(Ljava/lang/reflect/Constructor;)V
 
     goto :goto_0
 
-    .line 5
     :cond_1
     aget-object v1, v1, v4
 
-    .line 6
     const-class v2, Ljava/lang/Throwable;
 
     invoke-static {v1, v2}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
@@ -141,14 +132,12 @@
 
     if-eqz v2, :cond_2
 
-    .line 7
     new-instance v3, Lcotlinx/coroutines/internal/ExceptionsConstuctorKt$createConstructor$$inlined$safeCtor$2;
 
     invoke-direct {v3, p0}, Lcotlinx/coroutines/internal/ExceptionsConstuctorKt$createConstructor$$inlined$safeCtor$2;-><init>(Ljava/lang/reflect/Constructor;)V
 
     goto :goto_0
 
-    .line 8
     :cond_2
     invoke-static {v1, v0}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
@@ -156,14 +145,12 @@
 
     if-eqz v0, :cond_4
 
-    .line 9
     new-instance v3, Lcotlinx/coroutines/internal/ExceptionsConstuctorKt$createConstructor$$inlined$safeCtor$3;
 
     invoke-direct {v3, p0}, Lcotlinx/coroutines/internal/ExceptionsConstuctorKt$createConstructor$$inlined$safeCtor$3;-><init>(Ljava/lang/reflect/Constructor;)V
 
     goto :goto_0
 
-    .line 10
     :cond_3
     new-instance v3, Lcotlinx/coroutines/internal/ExceptionsConstuctorKt$createConstructor$$inlined$safeCtor$4;
 
@@ -188,13 +175,11 @@
         }
     .end annotation
 
-    .line 1
     :goto_0
     invoke-virtual {p0}, Ljava/lang/Class;->getDeclaredFields()[Ljava/lang/reflect/Field;
 
     move-result-object v0
 
-    .line 2
     array-length v1, v0
 
     const/4 v2, 0x0
@@ -206,7 +191,6 @@
 
     aget-object v4, v0, v2
 
-    .line 3
     invoke-virtual {v4}, Ljava/lang/reflect/Field;->getModifiers()I
 
     move-result v4
@@ -229,7 +213,6 @@
     :cond_1
     add-int/2addr p1, v3
 
-    .line 4
     invoke-virtual {p0}, Ljava/lang/Class;->getSuperclass()Ljava/lang/Class;
 
     move-result-object p0
@@ -251,7 +234,6 @@
 
     const/4 p1, 0x0
 
-    .line 1
     :cond_0
     invoke-static {p0, p1}, Lcotlinx/coroutines/internal/ExceptionsConstuctorKt;->b(Ljava/lang/Class;I)I
 
@@ -274,7 +256,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p0}, Lcotlin/jvm/a;->g(Ljava/lang/Class;)Lcotlin/reflect/d;
 
     :try_start_0
@@ -356,7 +337,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lcotlinx/coroutines/internal/ExceptionsConstuctorKt$safeCtor$1;
 
     invoke-direct {v0, p0}, Lcotlinx/coroutines/internal/ExceptionsConstuctorKt$safeCtor$1;-><init>(Lcotlin/jvm/u/l;)V
@@ -381,14 +361,12 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     instance-of v0, p0, Lcotlinx/coroutines/g0;
 
     const/4 v1, 0x0
 
     if-eqz v0, :cond_1
 
-    .line 2
     :try_start_0
     sget-object v0, Lcotlin/Result;->Companion:Lcotlin/Result$a;
 
@@ -436,7 +414,6 @@
 
     return-object v1
 
-    .line 3
     :cond_1
     sget-object v0, Lcotlinx/coroutines/internal/ExceptionsConstuctorKt;->b:Ljava/util/concurrent/locks/ReentrantReadWriteLock;
 
@@ -465,7 +442,6 @@
 
     if-eqz v3, :cond_2
 
-    .line 4
     invoke-interface {v3, p0}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p0
@@ -474,7 +450,6 @@
 
     return-object p0
 
-    .line 5
     :cond_2
     sget v2, Lcotlinx/coroutines/internal/ExceptionsConstuctorKt;->a:I
 
@@ -490,7 +465,6 @@
 
     if-eq v2, v3, :cond_7
 
-    .line 6
     invoke-virtual {v0}, Ljava/util/concurrent/locks/ReentrantReadWriteLock;->readLock()Ljava/util/concurrent/locks/ReentrantReadWriteLock$ReadLock;
 
     move-result-object v2
@@ -575,7 +549,6 @@
 
     throw p0
 
-    .line 7
     :cond_7
     invoke-virtual {p0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
@@ -585,7 +558,6 @@
 
     move-result-object v0
 
-    .line 8
     new-instance v2, Lcotlinx/coroutines/internal/ExceptionsConstuctorKt$a;
 
     invoke-direct {v2}, Lcotlinx/coroutines/internal/ExceptionsConstuctorKt$a;-><init>()V
@@ -594,7 +566,6 @@
 
     move-result-object v0
 
-    .line 9
     invoke-interface {v0}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
     move-result-object v0
@@ -614,14 +585,12 @@
 
     check-cast v2, Ljava/lang/reflect/Constructor;
 
-    .line 10
     invoke-static {v2}, Lcotlinx/coroutines/internal/ExceptionsConstuctorKt;->a(Ljava/lang/reflect/Constructor;)Lcotlin/jvm/u/l;
 
     move-result-object v2
 
     if-eqz v2, :cond_8
 
-    .line 11
     :cond_9
     sget-object v0, Lcotlinx/coroutines/internal/ExceptionsConstuctorKt;->b:Ljava/util/concurrent/locks/ReentrantReadWriteLock;
 
@@ -700,7 +669,6 @@
 
     if-eqz v2, :cond_e
 
-    .line 12
     invoke-interface {v2, p0}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p0
@@ -718,7 +686,6 @@
     :goto_a
     if-ge v4, v5, :cond_f
 
-    .line 13
     invoke-virtual {v3}, Ljava/util/concurrent/locks/ReentrantReadWriteLock$ReadLock;->lock()V
 
     add-int/lit8 v4, v4, 0x1
@@ -733,7 +700,6 @@
     :catchall_3
     move-exception p0
 
-    .line 14
     invoke-virtual {v2}, Ljava/util/concurrent/locks/ReentrantReadWriteLock$ReadLock;->unlock()V
 
     throw p0

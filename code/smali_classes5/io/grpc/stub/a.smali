@@ -30,7 +30,6 @@
 .method protected constructor <init>(Lio/grpc/g;)V
     .locals 1
 
-    .line 1
     sget-object v0, Lio/grpc/f;->k:Lio/grpc/f;
 
     invoke-direct {p0, p1, v0}, Lio/grpc/stub/a;-><init>(Lio/grpc/g;Lio/grpc/f;)V
@@ -41,12 +40,10 @@
 .method protected constructor <init>(Lio/grpc/g;Lio/grpc/f;)V
     .locals 1
 
-    .line 2
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const-string v0, "channel"
 
-    .line 3
     invoke-static {p1, v0}, Lcom/google/common/base/t;->F(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -57,7 +54,6 @@
 
     const-string p1, "callOptions"
 
-    .line 4
     invoke-static {p2, p1}, Lcom/google/common/base/t;->F(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -85,7 +81,6 @@
 .method public final b()Lio/grpc/f;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lio/grpc/stub/a;->b:Lio/grpc/f;
 
     return-object v0
@@ -94,7 +89,6 @@
 .method public final c()Lio/grpc/g;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lio/grpc/stub/a;->a:Lio/grpc/g;
 
     return-object v0
@@ -110,7 +104,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lio/grpc/stub/a;->a:Lio/grpc/g;
 
     iget-object v1, p0, Lio/grpc/stub/a;->b:Lio/grpc/f;
@@ -139,7 +132,6 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lio/grpc/stub/a;->b:Lio/grpc/f;
 
     invoke-virtual {p0, p1, v0}, Lio/grpc/stub/a;->a(Lio/grpc/g;Lio/grpc/f;)Lio/grpc/stub/a;
@@ -163,7 +155,6 @@
         value = "https://github.com/grpc/grpc-java/issues/1704"
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lio/grpc/stub/a;->a:Lio/grpc/g;
 
     iget-object v1, p0, Lio/grpc/stub/a;->b:Lio/grpc/f;
@@ -193,7 +184,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lio/grpc/stub/a;->a:Lio/grpc/g;
 
     iget-object v1, p0, Lio/grpc/stub/a;->b:Lio/grpc/f;
@@ -219,7 +209,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lio/grpc/stub/a;->a:Lio/grpc/g;
 
     iget-object v1, p0, Lio/grpc/stub/a;->b:Lio/grpc/f;
@@ -245,7 +234,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lio/grpc/stub/a;->a:Lio/grpc/g;
 
     iget-object v1, p0, Lio/grpc/stub/a;->b:Lio/grpc/f;
@@ -271,7 +259,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lio/grpc/stub/a;->a:Lio/grpc/g;
 
     invoke-static {v0, p1}, Lio/grpc/j;->c(Lio/grpc/g;[Lio/grpc/i;)Lio/grpc/g;
@@ -299,7 +286,6 @@
         value = "https://github.com/grpc/grpc-java/issues/2563"
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lio/grpc/stub/a;->a:Lio/grpc/g;
 
     iget-object v1, p0, Lio/grpc/stub/a;->b:Lio/grpc/f;
@@ -327,7 +313,6 @@
         value = "https://github.com/grpc/grpc-java/issues/2563"
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lio/grpc/stub/a;->a:Lio/grpc/g;
 
     iget-object v1, p0, Lio/grpc/stub/a;->b:Lio/grpc/f;
@@ -359,7 +344,6 @@
         value = "https://github.com/grpc/grpc-java/issues/1869"
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lio/grpc/stub/a;->a:Lio/grpc/g;
 
     iget-object v1, p0, Lio/grpc/stub/a;->b:Lio/grpc/f;
@@ -383,7 +367,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lio/grpc/stub/a;->a:Lio/grpc/g;
 
     iget-object v1, p0, Lio/grpc/stub/a;->b:Lio/grpc/f;

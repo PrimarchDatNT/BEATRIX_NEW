@@ -54,12 +54,10 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/camera/xcamera/cover/ProCover$d;->a:Lcom/commsource/camera/xcamera/cover/ProCover;
 
     invoke-static {v0}, Lcom/commsource/camera/xcamera/cover/ProCover;->F(Lcom/commsource/camera/xcamera/cover/ProCover;)V
 
-    .line 2
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -72,7 +70,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Lcom/commsource/beautyplus/data/BeautyFaceBodyEntity;
 
     invoke-virtual {p0, p1}, Lcom/commsource/camera/xcamera/cover/ProCover$d;->a(Lcom/commsource/beautyplus/data/BeautyFaceBodyEntity;)V

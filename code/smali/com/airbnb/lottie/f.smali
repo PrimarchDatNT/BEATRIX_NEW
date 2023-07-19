@@ -7,7 +7,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -20,17 +19,14 @@
         .end annotation
     .end param
 
-    .line 1
     iget-object v0, p0, Lcom/airbnb/lottie/i;->a:Lcom/airbnb/lottie/network/e;
 
     invoke-static {v0}, Lcom/airbnb/lottie/e;->f(Lcom/airbnb/lottie/network/e;)V
 
-    .line 2
     iget-object v0, p0, Lcom/airbnb/lottie/i;->b:Lcom/airbnb/lottie/network/d;
 
     invoke-static {v0}, Lcom/airbnb/lottie/e;->e(Lcom/airbnb/lottie/network/d;)V
 
-    .line 3
     iget-boolean p0, p0, Lcom/airbnb/lottie/i;->c:Z
 
     invoke-static {p0}, Lcom/airbnb/lottie/e;->g(Z)V

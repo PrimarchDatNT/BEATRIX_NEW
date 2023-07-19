@@ -25,7 +25,6 @@
 .method constructor <init>(Lf/k/c/b/h/c;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lf/k/c/b/h/c$a;->a:Lf/k/c/b/h/c;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -42,7 +41,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lf/k/c/b/h/c$a;->a:Lf/k/c/b/h/c;
 
     invoke-static {v1}, Lf/k/c/b/h/c;->a(Lf/k/c/b/h/c;)Z
@@ -51,7 +49,6 @@
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-virtual {p1}, Landroidx/recyclerview/widget/GridLayoutManager;->getSpanCount()I
 
     move-result p1
@@ -63,7 +60,6 @@
     :cond_0
     if-eqz p2, :cond_1
 
-    .line 3
     invoke-virtual {p2, p3}, Landroidx/recyclerview/widget/GridLayoutManager$SpanSizeLookup;->getSpanSize(I)I
 
     move-result p1
@@ -75,7 +71,6 @@
     :cond_1
     const/4 p1, 0x1
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1

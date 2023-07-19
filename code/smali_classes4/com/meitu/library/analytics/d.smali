@@ -7,7 +7,6 @@
 .method public varargs constructor <init>(IILjava/lang/String;JI[Lcom/meitu/library/analytics/y/l/j/b$a;)V
     .locals 0
 
-    .line 2
     invoke-direct/range {p0 .. p7}, Lcom/meitu/library/analytics/y/l/j/b;-><init>(IILjava/lang/String;JI[Lcom/meitu/library/analytics/y/l/j/b$a;)V
 
     return-void
@@ -30,7 +29,6 @@
 
     move-object v7, p5
 
-    .line 1
     invoke-direct/range {v0 .. v7}, Lcom/meitu/library/analytics/y/l/j/b;-><init>(IILjava/lang/String;JI[Lcom/meitu/library/analytics/y/l/j/b$a;)V
 
     return-void

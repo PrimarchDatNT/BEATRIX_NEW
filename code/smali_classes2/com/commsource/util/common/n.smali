@@ -45,38 +45,28 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/4 v0, 0x0
 
-    .line 2
     iput-object v0, p0, Lcom/commsource/util/common/n;->a:Landroid/media/SoundPool;
 
-    .line 3
     iput-object v0, p0, Lcom/commsource/util/common/n;->b:Ljava/util/Map;
 
-    .line 4
     iput-object v0, p0, Lcom/commsource/util/common/n;->c:Landroid/media/AudioManager;
 
-    .line 5
     iput-object v0, p0, Lcom/commsource/util/common/n;->d:Landroid/content/Context;
 
     const/4 v1, 0x0
 
-    .line 6
     iput-boolean v1, p0, Lcom/commsource/util/common/n;->e:Z
 
-    .line 7
     iput-boolean v1, p0, Lcom/commsource/util/common/n;->f:Z
 
-    .line 8
     iput v1, p0, Lcom/commsource/util/common/n;->g:I
 
-    .line 9
     iput-object p1, p0, Lcom/commsource/util/common/n;->d:Landroid/content/Context;
 
-    .line 10
     new-instance p1, Landroid/media/SoundPool;
 
     const/4 v2, 0x3
@@ -85,14 +75,12 @@
 
     iput-object p1, p0, Lcom/commsource/util/common/n;->a:Landroid/media/SoundPool;
 
-    .line 11
     new-instance p2, Lcom/commsource/util/common/n$b;
 
     invoke-direct {p2, p0, v0}, Lcom/commsource/util/common/n$b;-><init>(Lcom/commsource/util/common/n;Lcom/commsource/util/common/n$a;)V
 
     invoke-virtual {p1, p2}, Landroid/media/SoundPool;->setOnLoadCompleteListener(Landroid/media/SoundPool$OnLoadCompleteListener;)V
 
-    .line 12
     new-instance p1, Ljava/util/HashMap;
 
     const/16 p2, 0x10
@@ -101,7 +89,6 @@
 
     iput-object p1, p0, Lcom/commsource/util/common/n;->b:Ljava/util/Map;
 
-    .line 13
     iget-object p1, p0, Lcom/commsource/util/common/n;->d:Landroid/content/Context;
 
     const-string p2, "audio"
@@ -124,7 +111,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/util/common/n;->e:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -139,7 +125,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean p0, p0, Lcom/commsource/util/common/n;->f:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -154,7 +139,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget p0, p0, Lcom/commsource/util/common/n;->g:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -171,7 +155,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/util/common/n;->b:Ljava/util/Map;
 
     invoke-static {p1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -194,7 +177,6 @@
 
     invoke-interface {v1, v2, p1}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -207,15 +189,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/util/common/n;->g:I
 
     const/4 v1, 0x1
 
-    .line 2
     iput-boolean v1, p0, Lcom/commsource/util/common/n;->f:Z
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/util/common/n;->c:Landroid/media/AudioManager;
 
     const/4 v2, 0x3
@@ -226,7 +205,6 @@
 
     int-to-float v1, v1
 
-    .line 4
     iget-object v3, p0, Lcom/commsource/util/common/n;->c:Landroid/media/AudioManager;
 
     invoke-virtual {v3, v2}, Landroid/media/AudioManager;->getStreamMaxVolume(I)I
@@ -237,12 +215,10 @@
 
     div-float v6, v1, v2
 
-    .line 5
     iget-boolean v1, p0, Lcom/commsource/util/common/n;->e:Z
 
     if-eqz v1, :cond_0
 
-    .line 6
     iget-object v3, p0, Lcom/commsource/util/common/n;->a:Landroid/media/SoundPool;
 
     iget-object v1, p0, Lcom/commsource/util/common/n;->b:Ljava/util/Map;
@@ -273,10 +249,8 @@
 
     const/4 p1, 0x0
 
-    .line 7
     iput-boolean p1, p0, Lcom/commsource/util/common/n;->f:Z
 
-    .line 8
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

@@ -24,7 +24,6 @@
 .method constructor <init>(Lio/grpc/internal/x;Ljava/io/OutputStream;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lio/grpc/internal/x$e;->d:Lio/grpc/internal/x;
 
     iput-object p2, p0, Lio/grpc/internal/x$e;->c:Ljava/io/OutputStream;
@@ -46,7 +45,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lio/grpc/internal/x$e;->c:Ljava/io/OutputStream;
 
     invoke-interface {p1, v0, p2}, Lio/grpc/internal/a2;->L9(Ljava/io/OutputStream;I)V

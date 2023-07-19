@@ -24,14 +24,12 @@
 
     const-string v0, "[~*/\\[\\]]"
 
-    .line 1
     invoke-static {v0}, Ljava/util/regex/Pattern;->compile(Ljava/lang/String;)Ljava/util/regex/Pattern;
 
     move-result-object v0
 
     sput-object v0, Lcom/google/firebase/firestore/k;->b:Ljava/util/regex/Pattern;
 
-    .line 2
     new-instance v0, Lcom/google/firebase/firestore/k;
 
     sget-object v1, Lcom/google/firebase/firestore/model/h;->b:Lcom/google/firebase/firestore/model/h;
@@ -46,10 +44,8 @@
 .method private constructor <init>(Lcom/google/firebase/firestore/model/h;)V
     .locals 0
 
-    .line 3
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 4
     iput-object p1, p0, Lcom/google/firebase/firestore/k;->a:Lcom/google/firebase/firestore/model/h;
 
     return-void
@@ -66,10 +62,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     invoke-static {p1}, Lcom/google/firebase/firestore/model/h;->I(Ljava/util/List;)Lcom/google/firebase/firestore/model/h;
 
     move-result-object p1
@@ -87,7 +81,6 @@
     .annotation build Lcom/google/firebase/n/a;
     .end annotation
 
-    .line 1
     sget-object v0, Lcom/google/firebase/firestore/k;->c:Lcom/google/firebase/firestore/k;
 
     return-object v0
@@ -102,13 +95,10 @@
 
     const-string v0, "Provided field path must not be null."
 
-    .line 1
     invoke-static {p0, v0}, Lcom/google/common/base/t;->F(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 2
     sget-object v0, Lcom/google/firebase/firestore/k;->b:Ljava/util/regex/Pattern;
 
-    .line 3
     invoke-virtual {v0, p0}, Ljava/util/regex/Pattern;->matcher(Ljava/lang/CharSequence;)Ljava/util/regex/Matcher;
 
     move-result-object v0
@@ -137,7 +127,6 @@
 
     move-result-object v1
 
-    .line 4
     invoke-static {v0, v1}, Lcom/google/common/base/t;->e(ZLjava/lang/Object;)V
 
     :try_start_0
@@ -145,7 +134,6 @@
 
     const/4 v1, -0x1
 
-    .line 5
     invoke-virtual {p0, v0, v1}, Ljava/lang/String;->split(Ljava/lang/String;I)[Ljava/lang/String;
 
     move-result-object v0
@@ -158,7 +146,6 @@
 
     return-object p0
 
-    .line 6
     :catch_0
     new-instance v0, Ljava/lang/IllegalArgumentException;
 
@@ -192,7 +179,6 @@
     .annotation build Lcom/google/firebase/n/a;
     .end annotation
 
-    .line 1
     array-length v0, p0
 
     const/4 v1, 0x1
@@ -215,20 +201,17 @@
 
     const/4 v0, 0x0
 
-    .line 2
     :goto_1
     array-length v3, p0
 
     if-ge v0, v3, :cond_2
 
-    .line 3
     aget-object v3, p0, v0
 
     if-eqz v3, :cond_1
 
     aget-object v3, p0, v0
 
-    .line 4
     invoke-virtual {v3}, Ljava/lang/String;->isEmpty()Z
 
     move-result v3
@@ -263,12 +246,10 @@
 
     move-result-object v4
 
-    .line 5
     invoke-static {v3, v4}, Lcom/google/common/base/t;->e(ZLjava/lang/Object;)V
 
     goto :goto_1
 
-    .line 6
     :cond_2
     new-instance v0, Lcom/google/firebase/firestore/k;
 
@@ -286,7 +267,6 @@
 .method c()Lcom/google/firebase/firestore/model/h;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/firestore/k;->a:Lcom/google/firebase/firestore/model/h;
 
     return-object v0
@@ -304,7 +284,6 @@
     :cond_0
     if-eqz p1, :cond_2
 
-    .line 1
     const-class v0, Lcom/google/firebase/firestore/k;
 
     invoke-virtual {p1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
@@ -315,11 +294,9 @@
 
     goto :goto_0
 
-    .line 2
     :cond_1
     check-cast p1, Lcom/google/firebase/firestore/k;
 
-    .line 3
     iget-object v0, p0, Lcom/google/firebase/firestore/k;->a:Lcom/google/firebase/firestore/model/h;
 
     iget-object p1, p1, Lcom/google/firebase/firestore/k;->a:Lcom/google/firebase/firestore/model/h;
@@ -340,7 +317,6 @@
 .method public hashCode()I
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/firestore/k;->a:Lcom/google/firebase/firestore/model/h;
 
     invoke-virtual {v0}, Lcom/google/firebase/firestore/model/a;->hashCode()I
@@ -353,7 +329,6 @@
 .method public toString()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/firestore/k;->a:Lcom/google/firebase/firestore/model/h;
 
     invoke-virtual {v0}, Lcom/google/firebase/firestore/model/a;->toString()Ljava/lang/String;

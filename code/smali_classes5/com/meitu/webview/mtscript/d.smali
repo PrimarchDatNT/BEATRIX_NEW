@@ -17,7 +17,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/meitu/webview/mtscript/d;->I()V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -28,7 +27,6 @@
 .method public constructor <init>(Landroid/app/Activity;Lcom/meitu/webview/core/CommonWebView;Landroid/net/Uri;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1, p2, p3}, Lcom/meitu/webview/mtscript/i;-><init>(Landroid/app/Activity;Lcom/meitu/webview/core/CommonWebView;Landroid/net/Uri;)V
 
     return-void
@@ -41,7 +39,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v9, Ln/a/b/c/e;
 
     const-class v1, Lcom/meitu/webview/mtscript/d;
@@ -92,7 +89,6 @@
 
     invoke-static {p0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p1}, Landroid/net/ConnectivityManager;->getActiveNetworkInfo()Landroid/net/NetworkInfo;
 
     move-result-object p1
@@ -109,7 +105,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p2}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v1
@@ -118,7 +113,6 @@
 
     const-string p2, "0"
 
-    .line 2
     :cond_0
     new-instance v1, Ljava/lang/StringBuilder;
 
@@ -158,7 +152,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const/4 v0, 0x0
@@ -173,7 +166,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/meitu/library/application/BaseApplication;->getApplication()Landroid/app/Application;
 
     move-result-object v1
@@ -186,7 +178,6 @@
 
     check-cast v1, Landroid/net/ConnectivityManager;
 
-    .line 2
     sget-object v2, Lcom/meitu/webview/mtscript/d;->h:Lorg/aspectj/lang/c$b;
 
     invoke-static {v2, p0, v1}, Ln/a/b/c/e;->E(Lorg/aspectj/lang/c$b;Ljava/lang/Object;Ljava/lang/Object;)Lorg/aspectj/lang/c;
@@ -233,14 +224,12 @@
 
     if-eqz v1, :cond_3
 
-    .line 3
     invoke-virtual {v1}, Landroid/net/NetworkInfo;->isConnected()Z
 
     move-result v3
 
     if-eqz v3, :cond_3
 
-    .line 4
     invoke-virtual {v1}, Landroid/net/NetworkInfo;->getType()I
 
     move-result v3
@@ -251,7 +240,6 @@
 
     goto :goto_2
 
-    .line 5
     :cond_0
     invoke-virtual {v1}, Landroid/net/NetworkInfo;->getType()I
 
@@ -259,12 +247,10 @@
 
     if-nez v3, :cond_3
 
-    .line 6
     invoke-virtual {v1}, Landroid/net/NetworkInfo;->getSubtypeName()Ljava/lang/String;
 
     move-result-object v3
 
-    .line 7
     new-instance v4, Ljava/lang/StringBuilder;
 
     invoke-direct {v4}, Ljava/lang/StringBuilder;-><init>()V
@@ -281,7 +267,6 @@
 
     invoke-static {v2, v4}, Lcom/meitu/webview/utils/g;->b(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 8
     invoke-virtual {v1}, Landroid/net/NetworkInfo;->getSubtype()I
 
     move-result v1
@@ -292,7 +277,6 @@
 
     const-string v5, "TD-SCDMA"
 
-    .line 9
     invoke-virtual {v3, v5}, Ljava/lang/String;->equalsIgnoreCase(Ljava/lang/String;)Z
 
     move-result v5
@@ -309,7 +293,6 @@
 
     const-string v5, "CDMA2000"
 
-    .line 10
     invoke-virtual {v3, v5}, Ljava/lang/String;->equalsIgnoreCase(Ljava/lang/String;)Z
 
     move-result v5
@@ -333,7 +316,6 @@
     :pswitch_2
     const-string v3, "2g"
 
-    .line 11
     :cond_2
     :goto_1
     new-instance v4, Ljava/lang/StringBuilder;
@@ -367,7 +349,6 @@
     :cond_3
     const-string v1, "0"
 
-    .line 12
     :goto_2
     new-instance v3, Ljava/lang/StringBuilder;
 
@@ -385,7 +366,6 @@
 
     invoke-static {v2, v3}, Lcom/meitu/webview/utils/g;->b(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 13
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
@@ -419,7 +399,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/meitu/webview/mtscript/i;->p()Ljava/lang/String;
 
     move-result-object v1
@@ -432,20 +411,17 @@
 
     move-result-object v1
 
-    .line 2
     invoke-static {v1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v2
 
     if-nez v2, :cond_0
 
-    .line 3
     invoke-virtual {p0, v1}, Lcom/meitu/webview/mtscript/i;->k(Ljava/lang/String;)V
 
     :cond_0
     const/4 v1, 0x1
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1

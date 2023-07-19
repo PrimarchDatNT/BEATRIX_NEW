@@ -18,7 +18,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -31,7 +30,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Ljava/lang/String;->hashCode()I
 
     invoke-virtual {p0}, Ljava/lang/String;->hashCode()I
@@ -225,7 +223,6 @@
 
     goto :goto_1
 
-    .line 2
     :pswitch_0
     new-instance p0, Lcom/meitu/library/analytics/x/c$k;
 
@@ -233,7 +230,6 @@
 
     goto :goto_1
 
-    .line 3
     :pswitch_1
     new-instance p0, Lcom/meitu/library/analytics/x/c$j;
 
@@ -241,7 +237,6 @@
 
     goto :goto_1
 
-    .line 4
     :pswitch_2
     new-instance p0, Lcom/meitu/library/analytics/x/c$l;
 
@@ -249,7 +244,6 @@
 
     goto :goto_1
 
-    .line 5
     :pswitch_3
     new-instance p0, Lcom/meitu/library/analytics/x/c$n;
 
@@ -257,7 +251,6 @@
 
     goto :goto_1
 
-    .line 6
     :pswitch_4
     new-instance p0, Lcom/meitu/library/analytics/x/c$o;
 
@@ -265,13 +258,11 @@
 
     goto :goto_1
 
-    .line 7
     :pswitch_5
     new-instance p0, Lcom/meitu/library/analytics/x/c$m;
 
     invoke-direct {p0}, Lcom/meitu/library/analytics/x/c$m;-><init>()V
 
-    .line 8
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

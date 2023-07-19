@@ -47,22 +47,16 @@
         .end annotation
     .end param
 
-    .line 2
     invoke-direct {p0}, Lcom/google/firebase/installations/remote/InstallationResponse;-><init>()V
 
-    .line 3
     iput-object p1, p0, Lcom/google/firebase/installations/remote/a;->a:Ljava/lang/String;
 
-    .line 4
     iput-object p2, p0, Lcom/google/firebase/installations/remote/a;->b:Ljava/lang/String;
 
-    .line 5
     iput-object p3, p0, Lcom/google/firebase/installations/remote/a;->c:Ljava/lang/String;
 
-    .line 6
     iput-object p4, p0, Lcom/google/firebase/installations/remote/a;->d:Lcom/google/firebase/installations/remote/TokenResult;
 
-    .line 7
     iput-object p5, p0, Lcom/google/firebase/installations/remote/a;->e:Lcom/google/firebase/installations/remote/InstallationResponse$ResponseCode;
 
     return-void
@@ -71,7 +65,6 @@
 .method synthetic constructor <init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lcom/google/firebase/installations/remote/TokenResult;Lcom/google/firebase/installations/remote/InstallationResponse$ResponseCode;Lcom/google/firebase/installations/remote/a$a;)V
     .locals 0
 
-    .line 1
     invoke-direct/range {p0 .. p5}, Lcom/google/firebase/installations/remote/a;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lcom/google/firebase/installations/remote/TokenResult;Lcom/google/firebase/installations/remote/InstallationResponse$ResponseCode;)V
 
     return-void
@@ -84,7 +77,6 @@
     .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/installations/remote/a;->d:Lcom/google/firebase/installations/remote/TokenResult;
 
     return-object v0
@@ -95,7 +87,6 @@
     .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/installations/remote/a;->b:Ljava/lang/String;
 
     return-object v0
@@ -106,7 +97,6 @@
     .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/installations/remote/a;->c:Ljava/lang/String;
 
     return-object v0
@@ -117,7 +107,6 @@
     .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/installations/remote/a;->e:Lcom/google/firebase/installations/remote/InstallationResponse$ResponseCode;
 
     return-object v0
@@ -132,7 +121,6 @@
 
     return v0
 
-    .line 1
     :cond_0
     instance-of v1, p1, Lcom/google/firebase/installations/remote/InstallationResponse;
 
@@ -140,10 +128,8 @@
 
     if-eqz v1, :cond_7
 
-    .line 2
     check-cast p1, Lcom/google/firebase/installations/remote/InstallationResponse;
 
-    .line 3
     iget-object v1, p0, Lcom/google/firebase/installations/remote/a;->a:Ljava/lang/String;
 
     if-nez v1, :cond_1
@@ -172,7 +158,6 @@
 
     if-nez v1, :cond_2
 
-    .line 4
     invoke-virtual {p1}, Lcom/google/firebase/installations/remote/InstallationResponse;->c()Ljava/lang/String;
 
     move-result-object v1
@@ -197,7 +182,6 @@
 
     if-nez v1, :cond_3
 
-    .line 5
     invoke-virtual {p1}, Lcom/google/firebase/installations/remote/InstallationResponse;->d()Ljava/lang/String;
 
     move-result-object v1
@@ -222,7 +206,6 @@
 
     if-nez v1, :cond_4
 
-    .line 6
     invoke-virtual {p1}, Lcom/google/firebase/installations/remote/InstallationResponse;->b()Lcom/google/firebase/installations/remote/TokenResult;
 
     move-result-object v1
@@ -247,7 +230,6 @@
 
     if-nez v1, :cond_5
 
-    .line 7
     invoke-virtual {p1}, Lcom/google/firebase/installations/remote/InstallationResponse;->e()Lcom/google/firebase/installations/remote/InstallationResponse$ResponseCode;
 
     move-result-object p1
@@ -284,7 +266,6 @@
     .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/installations/remote/a;->a:Ljava/lang/String;
 
     return-object v0
@@ -293,7 +274,6 @@
 .method public g()Lcom/google/firebase/installations/remote/InstallationResponse$a;
     .locals 2
 
-    .line 1
     new-instance v0, Lcom/google/firebase/installations/remote/a$b;
 
     const/4 v1, 0x0
@@ -306,7 +286,6 @@
 .method public hashCode()I
     .locals 4
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/installations/remote/a;->a:Ljava/lang/String;
 
     const/4 v1, 0x0
@@ -329,7 +308,6 @@
 
     mul-int v0, v0, v2
 
-    .line 2
     iget-object v3, p0, Lcom/google/firebase/installations/remote/a;->b:Ljava/lang/String;
 
     if-nez v3, :cond_1
@@ -348,7 +326,6 @@
 
     mul-int v0, v0, v2
 
-    .line 3
     iget-object v3, p0, Lcom/google/firebase/installations/remote/a;->c:Ljava/lang/String;
 
     if-nez v3, :cond_2
@@ -367,7 +344,6 @@
 
     mul-int v0, v0, v2
 
-    .line 4
     iget-object v3, p0, Lcom/google/firebase/installations/remote/a;->d:Lcom/google/firebase/installations/remote/TokenResult;
 
     if-nez v3, :cond_3
@@ -386,7 +362,6 @@
 
     mul-int v0, v0, v2
 
-    .line 5
     iget-object v2, p0, Lcom/google/firebase/installations/remote/a;->e:Lcom/google/firebase/installations/remote/InstallationResponse$ResponseCode;
 
     if-nez v2, :cond_4
@@ -407,7 +382,6 @@
 .method public toString()Ljava/lang/String;
     .locals 2
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V

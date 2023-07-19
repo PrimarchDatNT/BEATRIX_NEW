@@ -25,12 +25,10 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/4 v0, 0x0
 
-    .line 2
     iput-boolean v0, p0, Lorg/apache/thrift/protocol/TJSONProtocol$Factory;->fieldNamesAsString_:Z
 
     return-void
@@ -39,15 +37,12 @@
 .method public constructor <init>(Z)V
     .locals 1
 
-    .line 3
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/4 v0, 0x0
 
-    .line 4
     iput-boolean v0, p0, Lorg/apache/thrift/protocol/TJSONProtocol$Factory;->fieldNamesAsString_:Z
 
-    .line 5
     iput-boolean p1, p0, Lorg/apache/thrift/protocol/TJSONProtocol$Factory;->fieldNamesAsString_:Z
 
     return-void
@@ -58,7 +53,6 @@
 .method public getProtocol(Lorg/apache/thrift/transport/TTransport;)Lorg/apache/thrift/protocol/TProtocol;
     .locals 2
 
-    .line 1
     new-instance v0, Lorg/apache/thrift/protocol/TJSONProtocol;
 
     iget-boolean v1, p0, Lorg/apache/thrift/protocol/TJSONProtocol$Factory;->fieldNamesAsString_:Z

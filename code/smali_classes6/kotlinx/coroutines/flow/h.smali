@@ -30,7 +30,6 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     iput-object p1, p0, Lcotlinx/coroutines/flow/h;->a:Ljava/lang/Throwable;
@@ -65,7 +64,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     iget-object p1, p0, Lcotlinx/coroutines/flow/h;->a:Ljava/lang/Throwable;
 
     throw p1

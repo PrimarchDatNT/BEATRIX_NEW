@@ -15,15 +15,12 @@
 .method private constructor <init>(Lcom/google/android/gms/internal/firebase_remote_config/q9;)V
     .locals 2
 
-    .line 2
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const-wide/16 v0, -0x1
 
-    .line 3
     iput-wide v0, p0, Lcom/google/android/gms/internal/firebase_remote_config/h9;->b:J
 
-    .line 4
     iput-object p1, p0, Lcom/google/android/gms/internal/firebase_remote_config/h9;->a:Lcom/google/android/gms/internal/firebase_remote_config/q9;
 
     return-void
@@ -38,7 +35,6 @@
 
     goto :goto_0
 
-    .line 1
     :cond_0
     new-instance v0, Lcom/google/android/gms/internal/firebase_remote_config/q9;
 
@@ -57,7 +53,6 @@
 .method protected final a()Ljava/nio/charset/Charset;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/firebase_remote_config/h9;->a:Lcom/google/android/gms/internal/firebase_remote_config/q9;
 
     if-eqz v0, :cond_1
@@ -70,7 +65,6 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     iget-object v0, p0, Lcom/google/android/gms/internal/firebase_remote_config/h9;->a:Lcom/google/android/gms/internal/firebase_remote_config/q9;
 
@@ -103,7 +97,6 @@
         }
     .end annotation
 
-    .line 1
     iget-wide v0, p0, Lcom/google/android/gms/internal/firebase_remote_config/h9;->b:J
 
     const-wide/16 v2, -0x1
@@ -112,15 +105,12 @@
 
     if-nez v4, :cond_0
 
-    .line 2
     invoke-static {p0}, Lcom/google/android/gms/internal/firebase_remote_config/y0;->a(Lcom/google/android/gms/internal/firebase_remote_config/k1;)J
 
     move-result-wide v0
 
-    .line 3
     iput-wide v0, p0, Lcom/google/android/gms/internal/firebase_remote_config/h9;->b:J
 
-    .line 4
     :cond_0
     iget-wide v0, p0, Lcom/google/android/gms/internal/firebase_remote_config/h9;->b:J
 
@@ -130,7 +120,6 @@
 .method public final getType()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/firebase_remote_config/h9;->a:Lcom/google/android/gms/internal/firebase_remote_config/q9;
 
     if-nez v0, :cond_0

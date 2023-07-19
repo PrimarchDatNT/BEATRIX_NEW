@@ -55,7 +55,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Lcom/meitu/template/bean/LookMaterial;
 
     invoke-virtual {p0, p1}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/c$c;->b(Lcom/meitu/template/bean/LookMaterial;)V
@@ -74,14 +73,12 @@
 
     if-eqz p1, :cond_5
 
-    .line 1
     new-instance v1, Ljava/util/HashMap;
 
     const/4 v2, 0x4
 
     invoke-direct {v1, v2}, Ljava/util/HashMap;-><init>(I)V
 
-    .line 2
     invoke-virtual {p1}, Lcom/meitu/template/bean/LookMaterial;->getStatisticId()Ljava/lang/String;
 
     move-result-object v2
@@ -90,7 +87,6 @@
 
     invoke-interface {v1, v3, v2}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 3
     invoke-virtual {p1}, Lcom/meitu/template/bean/LookMaterial;->getSex()I
 
     move-result v2
@@ -122,10 +118,8 @@
 
     const-string v2, "selfielook_material_clk"
 
-    .line 4
     invoke-static {v2, v1}, Lcom/commsource/statistics/i;->s(Ljava/lang/String;Ljava/util/Map;)V
 
-    .line 5
     invoke-virtual {p1}, Lcom/meitu/template/bean/LookMaterial;->isAvailable()I
 
     move-result v1
@@ -134,7 +128,6 @@
 
     if-nez v1, :cond_2
 
-    .line 6
     invoke-static {}, Lcom/commsource/beautyplus/k;->d()Lcom/commsource/beautyplus/k;
 
     move-result-object p1
@@ -149,7 +142,6 @@
 
     goto :goto_1
 
-    .line 7
     :cond_2
     invoke-virtual {p1}, Lcom/meitu/template/bean/LookMaterial;->isDownload()Z
 
@@ -157,14 +149,12 @@
 
     if-eqz v1, :cond_3
 
-    .line 8
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/c$c;->a:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/c;
 
     invoke-virtual {v1, p1}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/c;->y(Lcom/meitu/template/bean/LookMaterial;)V
 
     goto :goto_1
 
-    .line 9
     :cond_3
     invoke-virtual {p1}, Lcom/meitu/template/bean/LookMaterial;->isDownloading()Z
 
@@ -172,7 +162,6 @@
 
     if-nez v1, :cond_5
 
-    .line 10
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
     move-result-object v1
@@ -183,7 +172,6 @@
 
     if-nez v1, :cond_4
 
-    .line 11
     invoke-static {}, Lcom/commsource/beautyplus/k;->d()Lcom/commsource/beautyplus/k;
 
     move-result-object p1
@@ -198,13 +186,11 @@
 
     goto :goto_1
 
-    .line 12
     :cond_4
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/c$c;->a:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/c;
 
     invoke-virtual {v1, v3, p1}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/c;->Q(ZLcom/meitu/template/bean/LookMaterial;)V
 
-    .line 13
     :cond_5
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

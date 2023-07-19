@@ -22,7 +22,6 @@
 .method constructor <init>(Lcom/commsource/helpcapture/HelpSelfieViewModel;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/helpcapture/HelpSelfieViewModel$c;->h:Lcom/commsource/helpcapture/HelpSelfieViewModel;
 
     invoke-direct {p0, p1}, Lcom/commsource/autocamera/SimpleCameraViewModel$d;-><init>(Lcom/commsource/autocamera/SimpleCameraViewModel;)V
@@ -39,7 +38,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const-string p1, "BACK_FACING"
@@ -58,7 +56,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const-string p1, "off"

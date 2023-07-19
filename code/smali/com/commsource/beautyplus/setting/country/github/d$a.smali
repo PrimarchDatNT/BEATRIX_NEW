@@ -22,7 +22,6 @@
 .method constructor <init>(Lcom/commsource/beautyplus/setting/country/github/d;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/beautyplus/setting/country/github/d$a;->a:Lcom/commsource/beautyplus/setting/country/github/d;
 
     invoke-direct {p0}, Landroidx/recyclerview/widget/RecyclerView$AdapterDataObserver;-><init>()V
@@ -39,14 +38,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/beautyplus/setting/country/github/d$a;->a:Lcom/commsource/beautyplus/setting/country/github/d;
 
     const/4 v2, 0x1
 
     invoke-static {v1, v2}, Lcom/commsource/beautyplus/setting/country/github/d;->a(Lcom/commsource/beautyplus/setting/country/github/d;Z)Z
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

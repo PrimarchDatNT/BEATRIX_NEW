@@ -34,10 +34,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/google/android/gms/internal/ads/bc0;-><init>(Ljava/util/Set;)V
 
-    .line 2
     new-instance p1, Landroid/os/Bundle;
 
     invoke-direct {p1}, Landroid/os/Bundle;-><init>()V
@@ -54,7 +52,6 @@
 
     monitor-enter p0
 
-    .line 1
     :try_start_0
     new-instance v0, Landroid/os/Bundle;
 
@@ -81,20 +78,17 @@
 
     monitor-enter p0
 
-    .line 1
     :try_start_0
     iget-object p1, p0, Lcom/google/android/gms/internal/ads/d90;->b:Landroid/os/Bundle;
 
     invoke-virtual {p1, p2}, Landroid/os/Bundle;->putAll(Landroid/os/Bundle;)V
 
-    .line 2
     sget-object p1, Lcom/google/android/gms/internal/ads/h90;->a:Lcom/google/android/gms/internal/ads/dc0;
 
     invoke-virtual {p0, p1}, Lcom/google/android/gms/internal/ads/bc0;->B0(Lcom/google/android/gms/internal/ads/dc0;)V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 3
     monitor-exit p0
 
     return-void

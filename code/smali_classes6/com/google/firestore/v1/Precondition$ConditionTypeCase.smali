@@ -44,7 +44,6 @@
 .method static constructor <clinit>()V
     .locals 7
 
-    .line 1
     new-instance v0, Lcom/google/firestore/v1/Precondition$ConditionTypeCase;
 
     const-string v1, "EXISTS"
@@ -57,7 +56,6 @@
 
     sput-object v0, Lcom/google/firestore/v1/Precondition$ConditionTypeCase;->EXISTS:Lcom/google/firestore/v1/Precondition$ConditionTypeCase;
 
-    .line 2
     new-instance v1, Lcom/google/firestore/v1/Precondition$ConditionTypeCase;
 
     const-string v4, "UPDATE_TIME"
@@ -68,7 +66,6 @@
 
     sput-object v1, Lcom/google/firestore/v1/Precondition$ConditionTypeCase;->UPDATE_TIME:Lcom/google/firestore/v1/Precondition$ConditionTypeCase;
 
-    .line 3
     new-instance v4, Lcom/google/firestore/v1/Precondition$ConditionTypeCase;
 
     const-string v6, "CONDITIONTYPE_NOT_SET"
@@ -87,7 +84,6 @@
 
     aput-object v4, v6, v5
 
-    .line 4
     sput-object v6, Lcom/google/firestore/v1/Precondition$ConditionTypeCase;->$VALUES:[Lcom/google/firestore/v1/Precondition$ConditionTypeCase;
 
     return-void
@@ -101,10 +97,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 2
     iput p3, p0, Lcom/google/firestore/v1/Precondition$ConditionTypeCase;->value:I
 
     return-void
@@ -127,19 +121,16 @@
 
     return-object p0
 
-    .line 1
     :cond_0
     sget-object p0, Lcom/google/firestore/v1/Precondition$ConditionTypeCase;->UPDATE_TIME:Lcom/google/firestore/v1/Precondition$ConditionTypeCase;
 
     return-object p0
 
-    .line 2
     :cond_1
     sget-object p0, Lcom/google/firestore/v1/Precondition$ConditionTypeCase;->EXISTS:Lcom/google/firestore/v1/Precondition$ConditionTypeCase;
 
     return-object p0
 
-    .line 3
     :cond_2
     sget-object p0, Lcom/google/firestore/v1/Precondition$ConditionTypeCase;->CONDITIONTYPE_NOT_SET:Lcom/google/firestore/v1/Precondition$ConditionTypeCase;
 
@@ -151,7 +142,6 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    .line 2
     invoke-static {p0}, Lcom/google/firestore/v1/Precondition$ConditionTypeCase;->forNumber(I)Lcom/google/firestore/v1/Precondition$ConditionTypeCase;
 
     move-result-object p0
@@ -162,7 +152,6 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/google/firestore/v1/Precondition$ConditionTypeCase;
     .locals 1
 
-    .line 1
     const-class v0, Lcom/google/firestore/v1/Precondition$ConditionTypeCase;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -177,7 +166,6 @@
 .method public static values()[Lcom/google/firestore/v1/Precondition$ConditionTypeCase;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/google/firestore/v1/Precondition$ConditionTypeCase;->$VALUES:[Lcom/google/firestore/v1/Precondition$ConditionTypeCase;
 
     invoke-virtual {v0}, [Lcom/google/firestore/v1/Precondition$ConditionTypeCase;->clone()Ljava/lang/Object;
@@ -194,7 +182,6 @@
 .method public getNumber()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lcom/google/firestore/v1/Precondition$ConditionTypeCase;->value:I
 
     return v0

@@ -25,14 +25,12 @@
 .method public final a(Ljava/lang/Object;Ljava/lang/Object;)V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/common/api/internal/k2;->a:Lcom/google/android/gms/common/util/d;
 
     check-cast p1, Lcom/google/android/gms/common/api/a$b;
 
     check-cast p2, Lcom/google/android/gms/tasks/l;
 
-    .line 2
     invoke-interface {v0, p1, p2}, Lcom/google/android/gms/common/util/d;->a(Ljava/lang/Object;Ljava/lang/Object;)V
 
     return-void

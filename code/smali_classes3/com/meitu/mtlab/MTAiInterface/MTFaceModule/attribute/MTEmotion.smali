@@ -47,38 +47,28 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/4 v0, -0x1
 
-    .line 2
     iput v0, p0, Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/attribute/MTEmotion;->top:I
 
     const/4 v0, 0x0
 
-    .line 3
     iput v0, p0, Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/attribute/MTEmotion;->sadScore:F
 
-    .line 4
     iput v0, p0, Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/attribute/MTEmotion;->neutralScore:F
 
-    .line 5
     iput v0, p0, Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/attribute/MTEmotion;->smileScore:F
 
-    .line 6
     iput v0, p0, Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/attribute/MTEmotion;->laughScore:F
 
-    .line 7
     iput v0, p0, Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/attribute/MTEmotion;->surpriseScore:F
 
-    .line 8
     iput v0, p0, Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/attribute/MTEmotion;->fearScore:F
 
-    .line 9
     iput v0, p0, Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/attribute/MTEmotion;->angryScore:F
 
-    .line 10
     iput v0, p0, Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/attribute/MTEmotion;->disgustScore:F
 
     return-void

@@ -25,7 +25,6 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
     new-instance v0, Lcom/airbnb/lottie/y/d0;
 
     invoke-direct {v0}, Lcom/airbnb/lottie/y/d0;-><init>()V
@@ -38,7 +37,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -54,7 +52,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0, p1, p2}, Lcom/airbnb/lottie/y/d0;->b(Lcom/airbnb/lottie/parser/moshi/JsonReader;F)Lcom/airbnb/lottie/a0/k;
 
     move-result-object p1
@@ -70,7 +67,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p1}, Lcom/airbnb/lottie/parser/moshi/JsonReader;->m()Lcom/airbnb/lottie/parser/moshi/JsonReader$Token;
 
     move-result-object v0
@@ -89,10 +85,8 @@
     :goto_0
     if-eqz v0, :cond_1
 
-    .line 2
     invoke-virtual {p1}, Lcom/airbnb/lottie/parser/moshi/JsonReader;->b()V
 
-    .line 3
     :cond_1
     invoke-virtual {p1}, Lcom/airbnb/lottie/parser/moshi/JsonReader;->h()D
 
@@ -100,14 +94,12 @@
 
     double-to-float v1, v1
 
-    .line 4
     invoke-virtual {p1}, Lcom/airbnb/lottie/parser/moshi/JsonReader;->h()D
 
     move-result-wide v2
 
     double-to-float v2, v2
 
-    .line 5
     :goto_1
     invoke-virtual {p1}, Lcom/airbnb/lottie/parser/moshi/JsonReader;->f()Z
 
@@ -115,7 +107,6 @@
 
     if-eqz v3, :cond_2
 
-    .line 6
     invoke-virtual {p1}, Lcom/airbnb/lottie/parser/moshi/JsonReader;->q()V
 
     goto :goto_1
@@ -123,10 +114,8 @@
     :cond_2
     if-eqz v0, :cond_3
 
-    .line 7
     invoke-virtual {p1}, Lcom/airbnb/lottie/parser/moshi/JsonReader;->d()V
 
-    .line 8
     :cond_3
     new-instance p1, Lcom/airbnb/lottie/a0/k;
 

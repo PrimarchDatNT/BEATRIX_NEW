@@ -41,7 +41,6 @@
 
     aput v0, v1, v2
 
-    .line 1
     sput-object v1, Lcom/google/ar/core/n0;->d:[I
 
     return-void

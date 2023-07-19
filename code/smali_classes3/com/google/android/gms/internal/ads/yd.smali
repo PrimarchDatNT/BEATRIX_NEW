@@ -12,7 +12,6 @@
 
     const-string v0, "com.google.android.gms.ads.internal.mediation.client.rtb.IRewardedCallback"
 
-    .line 1
     invoke-direct {p0, v0}, Lcom/google/android/gms/internal/ads/l82;-><init>(Ljava/lang/String;)V
 
     return-void
@@ -40,22 +39,18 @@
 
     return p1
 
-    .line 1
     :cond_0
     invoke-virtual {p2}, Landroid/os/Parcel;->readString()Ljava/lang/String;
 
     move-result-object p1
 
-    .line 2
     invoke-interface {p0, p1}, Lcom/google/android/gms/internal/ads/vd;->m(Ljava/lang/String;)V
 
     goto :goto_0
 
-    .line 3
     :cond_1
     invoke-interface {p0}, Lcom/google/android/gms/internal/ads/vd;->D0()V
 
-    .line 4
     :goto_0
     invoke-virtual {p3}, Landroid/os/Parcel;->writeNoException()V
 

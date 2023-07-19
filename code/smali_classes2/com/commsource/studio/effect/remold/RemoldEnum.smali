@@ -114,7 +114,6 @@
 
     move-object v2, v11
 
-    .line 1
     invoke-direct/range {v2 .. v10}, Lcom/commsource/studio/effect/remold/RemoldEnum;-><init>(Ljava/lang/String;IIIILjava/lang/String;ZLjava/lang/String;)V
 
     sput-object v11, Lcom/commsource/studio/effect/remold/RemoldEnum;->SlimFace:Lcom/commsource/studio/effect/remold/RemoldEnum;
@@ -143,7 +142,6 @@
 
     move-object v12, v2
 
-    .line 2
     invoke-direct/range {v12 .. v20}, Lcom/commsource/studio/effect/remold/RemoldEnum;-><init>(Ljava/lang/String;IIIILjava/lang/String;ZLjava/lang/String;)V
 
     sput-object v2, Lcom/commsource/studio/effect/remold/RemoldEnum;->FaceWidth:Lcom/commsource/studio/effect/remold/RemoldEnum;
@@ -172,7 +170,6 @@
 
     move-object v4, v2
 
-    .line 3
     invoke-direct/range {v4 .. v12}, Lcom/commsource/studio/effect/remold/RemoldEnum;-><init>(Ljava/lang/String;IIIILjava/lang/String;ZLjava/lang/String;)V
 
     sput-object v2, Lcom/commsource/studio/effect/remold/RemoldEnum;->JawReduction:Lcom/commsource/studio/effect/remold/RemoldEnum;
@@ -199,7 +196,6 @@
 
     move-object v4, v2
 
-    .line 4
     invoke-direct/range {v4 .. v12}, Lcom/commsource/studio/effect/remold/RemoldEnum;-><init>(Ljava/lang/String;IIIILjava/lang/String;ZLjava/lang/String;)V
 
     sput-object v2, Lcom/commsource/studio/effect/remold/RemoldEnum;->Chin:Lcom/commsource/studio/effect/remold/RemoldEnum;
@@ -226,7 +222,6 @@
 
     move-object v4, v2
 
-    .line 5
     invoke-direct/range {v4 .. v12}, Lcom/commsource/studio/effect/remold/RemoldEnum;-><init>(Ljava/lang/String;IIIILjava/lang/String;ZLjava/lang/String;)V
 
     sput-object v2, Lcom/commsource/studio/effect/remold/RemoldEnum;->BottomHalfOfFace:Lcom/commsource/studio/effect/remold/RemoldEnum;
@@ -253,7 +248,6 @@
 
     move-object v4, v2
 
-    .line 6
     invoke-direct/range {v4 .. v12}, Lcom/commsource/studio/effect/remold/RemoldEnum;-><init>(Ljava/lang/String;IIIILjava/lang/String;ZLjava/lang/String;)V
 
     sput-object v2, Lcom/commsource/studio/effect/remold/RemoldEnum;->HairLine:Lcom/commsource/studio/effect/remold/RemoldEnum;
@@ -280,7 +274,6 @@
 
     move-object v4, v2
 
-    .line 7
     invoke-direct/range {v4 .. v12}, Lcom/commsource/studio/effect/remold/RemoldEnum;-><init>(Ljava/lang/String;IIIILjava/lang/String;ZLjava/lang/String;)V
 
     sput-object v2, Lcom/commsource/studio/effect/remold/RemoldEnum;->EyeEnlarge:Lcom/commsource/studio/effect/remold/RemoldEnum;
@@ -307,7 +300,6 @@
 
     move-object v4, v2
 
-    .line 8
     invoke-direct/range {v4 .. v12}, Lcom/commsource/studio/effect/remold/RemoldEnum;-><init>(Ljava/lang/String;IIIILjava/lang/String;ZLjava/lang/String;)V
 
     sput-object v2, Lcom/commsource/studio/effect/remold/RemoldEnum;->EyeHeight:Lcom/commsource/studio/effect/remold/RemoldEnum;
@@ -334,7 +326,6 @@
 
     move-object v4, v2
 
-    .line 9
     invoke-direct/range {v4 .. v12}, Lcom/commsource/studio/effect/remold/RemoldEnum;-><init>(Ljava/lang/String;IIIILjava/lang/String;ZLjava/lang/String;)V
 
     sput-object v2, Lcom/commsource/studio/effect/remold/RemoldEnum;->EyeWidth:Lcom/commsource/studio/effect/remold/RemoldEnum;
@@ -361,7 +352,6 @@
 
     move-object v4, v2
 
-    .line 10
     invoke-direct/range {v4 .. v12}, Lcom/commsource/studio/effect/remold/RemoldEnum;-><init>(Ljava/lang/String;IIIILjava/lang/String;ZLjava/lang/String;)V
 
     sput-object v2, Lcom/commsource/studio/effect/remold/RemoldEnum;->EyeAngle:Lcom/commsource/studio/effect/remold/RemoldEnum;
@@ -388,7 +378,6 @@
 
     move-object v4, v2
 
-    .line 11
     invoke-direct/range {v4 .. v12}, Lcom/commsource/studio/effect/remold/RemoldEnum;-><init>(Ljava/lang/String;IIIILjava/lang/String;ZLjava/lang/String;)V
 
     sput-object v2, Lcom/commsource/studio/effect/remold/RemoldEnum;->EyeBrowHeight:Lcom/commsource/studio/effect/remold/RemoldEnum;
@@ -415,7 +404,6 @@
 
     move-object v4, v2
 
-    .line 12
     invoke-direct/range {v4 .. v12}, Lcom/commsource/studio/effect/remold/RemoldEnum;-><init>(Ljava/lang/String;IIIILjava/lang/String;ZLjava/lang/String;)V
 
     sput-object v2, Lcom/commsource/studio/effect/remold/RemoldEnum;->EyeBrowAngle:Lcom/commsource/studio/effect/remold/RemoldEnum;
@@ -442,7 +430,6 @@
 
     move-object v4, v2
 
-    .line 13
     invoke-direct/range {v4 .. v12}, Lcom/commsource/studio/effect/remold/RemoldEnum;-><init>(Ljava/lang/String;IIIILjava/lang/String;ZLjava/lang/String;)V
 
     sput-object v2, Lcom/commsource/studio/effect/remold/RemoldEnum;->EyeBrowSize:Lcom/commsource/studio/effect/remold/RemoldEnum;
@@ -469,7 +456,6 @@
 
     move-object v4, v2
 
-    .line 14
     invoke-direct/range {v4 .. v12}, Lcom/commsource/studio/effect/remold/RemoldEnum;-><init>(Ljava/lang/String;IIIILjava/lang/String;ZLjava/lang/String;)V
 
     sput-object v2, Lcom/commsource/studio/effect/remold/RemoldEnum;->NoseSize:Lcom/commsource/studio/effect/remold/RemoldEnum;
@@ -496,7 +482,6 @@
 
     move-object v4, v2
 
-    .line 15
     invoke-direct/range {v4 .. v12}, Lcom/commsource/studio/effect/remold/RemoldEnum;-><init>(Ljava/lang/String;IIIILjava/lang/String;ZLjava/lang/String;)V
 
     sput-object v2, Lcom/commsource/studio/effect/remold/RemoldEnum;->NoseHeight:Lcom/commsource/studio/effect/remold/RemoldEnum;
@@ -523,7 +508,6 @@
 
     move-object v4, v2
 
-    .line 16
     invoke-direct/range {v4 .. v12}, Lcom/commsource/studio/effect/remold/RemoldEnum;-><init>(Ljava/lang/String;IIIILjava/lang/String;ZLjava/lang/String;)V
 
     sput-object v2, Lcom/commsource/studio/effect/remold/RemoldEnum;->NoseSwing:Lcom/commsource/studio/effect/remold/RemoldEnum;
@@ -550,7 +534,6 @@
 
     move-object v4, v2
 
-    .line 17
     invoke-direct/range {v4 .. v12}, Lcom/commsource/studio/effect/remold/RemoldEnum;-><init>(Ljava/lang/String;IIIILjava/lang/String;ZLjava/lang/String;)V
 
     sput-object v2, Lcom/commsource/studio/effect/remold/RemoldEnum;->NoseBridge:Lcom/commsource/studio/effect/remold/RemoldEnum;
@@ -577,7 +560,6 @@
 
     move-object v4, v2
 
-    .line 18
     invoke-direct/range {v4 .. v12}, Lcom/commsource/studio/effect/remold/RemoldEnum;-><init>(Ljava/lang/String;IIIILjava/lang/String;ZLjava/lang/String;)V
 
     sput-object v2, Lcom/commsource/studio/effect/remold/RemoldEnum;->NoseTip:Lcom/commsource/studio/effect/remold/RemoldEnum;
@@ -604,7 +586,6 @@
 
     move-object v4, v2
 
-    .line 19
     invoke-direct/range {v4 .. v12}, Lcom/commsource/studio/effect/remold/RemoldEnum;-><init>(Ljava/lang/String;IIIILjava/lang/String;ZLjava/lang/String;)V
 
     sput-object v2, Lcom/commsource/studio/effect/remold/RemoldEnum;->MouthSize:Lcom/commsource/studio/effect/remold/RemoldEnum;
@@ -633,7 +614,6 @@
 
     move-object v4, v2
 
-    .line 20
     invoke-direct/range {v4 .. v12}, Lcom/commsource/studio/effect/remold/RemoldEnum;-><init>(Ljava/lang/String;IIIILjava/lang/String;ZLjava/lang/String;)V
 
     sput-object v2, Lcom/commsource/studio/effect/remold/RemoldEnum;->Smile:Lcom/commsource/studio/effect/remold/RemoldEnum;
@@ -662,7 +642,6 @@
 
     move-object v4, v2
 
-    .line 21
     invoke-direct/range {v4 .. v12}, Lcom/commsource/studio/effect/remold/RemoldEnum;-><init>(Ljava/lang/String;IIIILjava/lang/String;ZLjava/lang/String;)V
 
     sput-object v2, Lcom/commsource/studio/effect/remold/RemoldEnum;->MouthHeight:Lcom/commsource/studio/effect/remold/RemoldEnum;
@@ -689,7 +668,6 @@
 
     move-object v4, v2
 
-    .line 22
     invoke-direct/range {v4 .. v12}, Lcom/commsource/studio/effect/remold/RemoldEnum;-><init>(Ljava/lang/String;IIIILjava/lang/String;ZLjava/lang/String;)V
 
     sput-object v2, Lcom/commsource/studio/effect/remold/RemoldEnum;->MouthThick:Lcom/commsource/studio/effect/remold/RemoldEnum;
@@ -717,7 +695,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
     iput p3, p0, Lcom/commsource/studio/effect/remold/RemoldEnum;->id:I
@@ -768,7 +745,6 @@
 
     move-object/from16 v9, p8
 
-    .line 2
     invoke-direct/range {v1 .. v9}, Lcom/commsource/studio/effect/remold/RemoldEnum;-><init>(Ljava/lang/String;IIIILjava/lang/String;ZLjava/lang/String;)V
 
     return-void
@@ -823,7 +799,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/studio/effect/remold/RemoldEnum;->bothWay:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -840,7 +815,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/effect/remold/RemoldEnum;->dictValue:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -855,7 +829,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/effect/remold/RemoldEnum;->iconFontRes:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -870,7 +843,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/effect/remold/RemoldEnum;->id:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -885,7 +857,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/effect/remold/RemoldEnum;->nameRes:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -902,7 +873,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/effect/remold/RemoldEnum;->statisticName:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

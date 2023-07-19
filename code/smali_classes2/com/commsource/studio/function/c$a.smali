@@ -55,10 +55,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/function/c$a;->a:Lcom/commsource/studio/function/c;
 
-    .line 2
     const-class v2, Lcom/meitu/http/api/OpenLabApi;
 
     invoke-static {v2}, Lf/k/k/s;->n(Ljava/lang/Class;)Ljava/lang/Object;
@@ -67,17 +65,14 @@
 
     check-cast v2, Lcom/meitu/http/api/OpenLabApi;
 
-    .line 3
     new-instance v3, Lcom/meitu/http/api/OpenLabApi$b;
 
     invoke-direct {v3}, Lcom/meitu/http/api/OpenLabApi$b;-><init>()V
 
-    .line 4
     iget-object v4, p0, Lcom/commsource/studio/function/c$a;->b:Landroid/graphics/Bitmap;
 
     invoke-virtual {v3, v4}, Lcom/meitu/http/api/OpenLabApi$b;->i(Landroid/graphics/Bitmap;)V
 
-    .line 5
     invoke-static {}, Lcom/commsource/util/x;->C()Z
 
     move-result v4
@@ -96,32 +91,26 @@
 
     const-string v4, "be148bd2d1df48ffad8b63604d893144"
 
-    .line 6
     invoke-virtual {v3, v4}, Lcom/meitu/http/api/OpenLabApi$b;->h(Ljava/lang/String;)V
 
     const-string v4, "04b01fcc25fd4e459561a54adb2344d2"
 
-    .line 7
     invoke-virtual {v3, v4}, Lcom/meitu/http/api/OpenLabApi$b;->k(Ljava/lang/String;)V
 
     const-string v4, "117829"
 
-    .line 8
     invoke-virtual {v3, v4}, Lcom/meitu/http/api/OpenLabApi$b;->g(Ljava/lang/String;)V
 
-    .line 9
     new-instance v4, Lcom/commsource/studio/function/c$a$a;
 
     invoke-direct {v4, p0}, Lcom/commsource/studio/function/c$a$a;-><init>(Lcom/commsource/studio/function/c$a;)V
 
-    .line 10
     invoke-virtual {v2, v3, v4}, Lcom/meitu/http/api/OpenLabApi;->a(Lcom/meitu/http/api/OpenLabApi$b;Lf/k/k/p;)Lf/k/k/d;
 
     move-result-object v2
 
     invoke-virtual {v1, v2}, Lcom/commsource/studio/function/c;->H(Lf/k/k/d;)V
 
-    .line 11
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

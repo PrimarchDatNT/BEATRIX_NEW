@@ -73,7 +73,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/mypage/album/BpAlbumActivity$e;->a:Lcom/commsource/mypage/album/BpAlbumActivity;
 
     invoke-static {v1, p1}, Lcom/commsource/mypage/album/BpAlbumActivity;->N0(Lcom/commsource/mypage/album/BpAlbumActivity;Lcotlin/Pair;)V
@@ -90,7 +89,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Lcotlin/Pair;
 
     invoke-virtual {p0, p1}, Lcom/commsource/mypage/album/BpAlbumActivity$e;->a(Lcotlin/Pair;)V

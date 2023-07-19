@@ -22,7 +22,6 @@
 .method static constructor <clinit>()V
     .locals 3
 
-    .line 1
     invoke-static {}, Lorg/apache/thrift/async/TAsyncMethodCall$State;->values()[Lorg/apache/thrift/async/TAsyncMethodCall$State;
 
     move-result-object v0

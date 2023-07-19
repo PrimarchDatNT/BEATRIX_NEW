@@ -42,7 +42,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 2
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -51,7 +50,6 @@
 .method synthetic constructor <init>(Lcom/google/common/collect/MultimapBuilder$a;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/google/common/collect/MultimapBuilder;-><init>()V
 
     return-void
@@ -71,10 +69,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p0}, Lcom/google/common/base/t;->E(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 2
     new-instance v0, Lcom/google/common/collect/MultimapBuilder$d;
 
     invoke-direct {v0, p0}, Lcom/google/common/collect/MultimapBuilder$d;-><init>(Ljava/lang/Class;)V
@@ -95,7 +91,6 @@
 
     const/16 v0, 0x8
 
-    .line 1
     invoke-static {v0}, Lcom/google/common/collect/MultimapBuilder;->e(I)Lcom/google/common/collect/MultimapBuilder$f;
 
     move-result-object v0
@@ -116,10 +111,8 @@
 
     const-string v0, "expectedKeys"
 
-    .line 1
     invoke-static {p0, v0}, Lcom/google/common/collect/m;->b(ILjava/lang/String;)I
 
-    .line 2
     new-instance v0, Lcom/google/common/collect/MultimapBuilder$a;
 
     invoke-direct {v0, p0}, Lcom/google/common/collect/MultimapBuilder$a;-><init>(I)V
@@ -140,7 +133,6 @@
 
     const/16 v0, 0x8
 
-    .line 1
     invoke-static {v0}, Lcom/google/common/collect/MultimapBuilder;->g(I)Lcom/google/common/collect/MultimapBuilder$f;
 
     move-result-object v0
@@ -161,10 +153,8 @@
 
     const-string v0, "expectedKeys"
 
-    .line 1
     invoke-static {p0, v0}, Lcom/google/common/collect/m;->b(ILjava/lang/String;)I
 
-    .line 2
     new-instance v0, Lcom/google/common/collect/MultimapBuilder$b;
 
     invoke-direct {v0, p0}, Lcom/google/common/collect/MultimapBuilder$b;-><init>(I)V
@@ -183,7 +173,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {}, Lcom/google/common/collect/Ordering;->natural()Lcom/google/common/collect/Ordering;
 
     move-result-object v0
@@ -209,10 +198,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p0}, Lcom/google/common/base/t;->E(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 2
     new-instance v0, Lcom/google/common/collect/MultimapBuilder$c;
 
     invoke-direct {v0, p0}, Lcom/google/common/collect/MultimapBuilder$c;-><init>(Ljava/util/Comparator;)V
@@ -244,12 +231,10 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/collect/MultimapBuilder;->a()Lcom/google/common/collect/l1;
 
     move-result-object v0
 
-    .line 2
     invoke-interface {v0, p1}, Lcom/google/common/collect/l1;->putAll(Lcom/google/common/collect/l1;)Z
 
     return-object v0

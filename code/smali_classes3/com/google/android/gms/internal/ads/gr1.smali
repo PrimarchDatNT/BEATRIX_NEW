@@ -24,7 +24,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     :goto_0
     :try_start_0
     invoke-interface {p0}, Ljava/util/concurrent/Future;->get()Ljava/lang/Object;
@@ -36,7 +35,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-static {}, Ljava/lang/Thread;->currentThread()Ljava/lang/Thread;
 
     move-result-object v0
@@ -51,14 +49,12 @@
 
     if-eqz v0, :cond_1
 
-    .line 3
     invoke-static {}, Ljava/lang/Thread;->currentThread()Ljava/lang/Thread;
 
     move-result-object v0
 
     invoke-virtual {v0}, Ljava/lang/Thread;->interrupt()V
 
-    .line 4
     :cond_1
     throw p0
 

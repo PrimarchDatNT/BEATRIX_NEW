@@ -25,7 +25,6 @@
 .method constructor <init>(Lio/jaegertracing/a/m/e;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lio/jaegertracing/a/m/e$f;->a:Lio/jaegertracing/a/m/e;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -43,7 +42,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lio/jaegertracing/a/m/e$f;->a:Lio/jaegertracing/a/m/e;
 
     invoke-static {v0}, Lio/jaegertracing/a/m/e;->b(Lio/jaegertracing/a/m/e;)Lio/jaegertracing/b/j;
@@ -54,7 +52,6 @@
 
     move-result v0
 
-    .line 2
     iget-object v1, p0, Lio/jaegertracing/a/m/e$f;->a:Lio/jaegertracing/a/m/e;
 
     invoke-static {v1}, Lio/jaegertracing/a/m/e;->d(Lio/jaegertracing/a/m/e;)Lio/jaegertracing/a/k/e;

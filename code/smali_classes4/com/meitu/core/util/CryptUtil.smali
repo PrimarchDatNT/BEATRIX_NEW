@@ -16,10 +16,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/meitu/core/MteApplication;->loadLibrary()V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -28,7 +26,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -43,12 +40,10 @@
 
     if-eqz p0, :cond_0
 
-    .line 1
     array-length v1, p0
 
     if-lez v1, :cond_0
 
-    .line 2
     :try_start_0
     invoke-static {p0, p1}, Lcom/meitu/core/util/CryptUtil;->nativeDeCryptBytes2Bytes([BZ)[B
 
@@ -61,13 +56,10 @@
     :catch_0
     const-string v1, "nativeDeCryptBytes2Bytes catch fail, try again! "
 
-    .line 3
     invoke-static {v1}, Lcom/meitu/core/types/NDebug;->e(Ljava/lang/String;)V
 
-    .line 4
     invoke-static {}, Lcom/meitu/core/MteApplication;->loadLibrary()V
 
-    .line 5
     invoke-static {p0, p1}, Lcom/meitu/core/util/CryptUtil;->nativeDeCryptBytes2Bytes([BZ)[B
 
     move-result-object p0
@@ -77,7 +69,6 @@
     :cond_0
     const/4 p0, 0x0
 
-    .line 6
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -93,12 +84,10 @@
 
     if-eqz p0, :cond_0
 
-    .line 1
     array-length v1, p0
 
     if-lez v1, :cond_0
 
-    .line 2
     :try_start_0
     invoke-static {p0, p1}, Lcom/meitu/core/util/CryptUtil;->nativeDeCryptBytes2String([BZ)Ljava/lang/String;
 
@@ -111,13 +100,10 @@
     :catch_0
     const-string v1, "nativeDeCryptBytes2String catch fail, try again! "
 
-    .line 3
     invoke-static {v1}, Lcom/meitu/core/types/NDebug;->e(Ljava/lang/String;)V
 
-    .line 4
     invoke-static {}, Lcom/meitu/core/MteApplication;->loadLibrary()V
 
-    .line 5
     invoke-static {p0, p1}, Lcom/meitu/core/util/CryptUtil;->nativeDeCryptBytes2String([BZ)Ljava/lang/String;
 
     move-result-object p0
@@ -127,7 +113,6 @@
     :cond_0
     const/4 p0, 0x0
 
-    .line 6
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -143,7 +128,6 @@
 
     if-eqz p0, :cond_0
 
-    .line 1
     :try_start_0
     invoke-static {p0, p1}, Lcom/meitu/core/util/CryptUtil;->nativeDeCryptFile2Bytes(Ljava/lang/String;Z)[B
 
@@ -156,13 +140,10 @@
     :catch_0
     const-string v1, "nativeDeCryptFile2Bytes catch fail, try again! "
 
-    .line 2
     invoke-static {v1}, Lcom/meitu/core/types/NDebug;->e(Ljava/lang/String;)V
 
-    .line 3
     invoke-static {}, Lcom/meitu/core/MteApplication;->loadLibrary()V
 
-    .line 4
     invoke-static {p0, p1}, Lcom/meitu/core/util/CryptUtil;->nativeDeCryptFile2Bytes(Ljava/lang/String;Z)[B
 
     move-result-object p0
@@ -172,7 +153,6 @@
     :cond_0
     const/4 p0, 0x0
 
-    .line 5
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -190,7 +170,6 @@
 
     if-eqz p2, :cond_0
 
-    .line 1
     :try_start_0
     invoke-static {p0, p1, p2}, Lcom/meitu/core/util/CryptUtil;->nativeDeCryptFile2BytesFromAssets(Ljava/lang/String;ZLandroid/content/res/AssetManager;)[B
 
@@ -203,20 +182,16 @@
     :catch_0
     const-string v1, "nativeDeCryptFile2BytesFromAssets catch fail, try again! "
 
-    .line 2
     invoke-static {v1}, Lcom/meitu/core/types/NDebug;->e(Ljava/lang/String;)V
 
-    .line 3
     invoke-static {}, Lcom/meitu/core/MteApplication;->loadLibrary()V
 
-    .line 4
     invoke-static {p0, p1, p2}, Lcom/meitu/core/util/CryptUtil;->nativeDeCryptFile2BytesFromAssets(Ljava/lang/String;ZLandroid/content/res/AssetManager;)[B
 
     move-result-object p0
 
     goto :goto_0
 
-    .line 5
     :cond_0
     new-instance p1, Ljava/lang/StringBuilder;
 
@@ -244,7 +219,6 @@
 
     const/4 p0, 0x0
 
-    .line 6
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -260,7 +234,6 @@
 
     if-eqz p0, :cond_0
 
-    .line 1
     :try_start_0
     invoke-static {p0, p1}, Lcom/meitu/core/util/CryptUtil;->nativeDeCryptFile2String(Ljava/lang/String;Z)Ljava/lang/String;
 
@@ -273,13 +246,10 @@
     :catch_0
     const-string v1, "nativeDeCryptFile2String catch fail, try again! "
 
-    .line 2
     invoke-static {v1}, Lcom/meitu/core/types/NDebug;->e(Ljava/lang/String;)V
 
-    .line 3
     invoke-static {}, Lcom/meitu/core/MteApplication;->loadLibrary()V
 
-    .line 4
     invoke-static {p0, p1}, Lcom/meitu/core/util/CryptUtil;->nativeDeCryptFile2String(Ljava/lang/String;Z)Ljava/lang/String;
 
     move-result-object p0
@@ -289,7 +259,6 @@
     :cond_0
     const/4 p0, 0x0
 
-    .line 5
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -307,7 +276,6 @@
 
     if-eqz p2, :cond_0
 
-    .line 1
     :try_start_0
     invoke-static {p0, p1, p2}, Lcom/meitu/core/util/CryptUtil;->nativeDeCryptFile2StringFromAssets(Ljava/lang/String;ZLandroid/content/res/AssetManager;)Ljava/lang/String;
 
@@ -320,20 +288,16 @@
     :catch_0
     const-string v1, "nativeDeCryptFile2StringFromAssets catch fail, try again! "
 
-    .line 2
     invoke-static {v1}, Lcom/meitu/core/types/NDebug;->e(Ljava/lang/String;)V
 
-    .line 3
     invoke-static {}, Lcom/meitu/core/MteApplication;->loadLibrary()V
 
-    .line 4
     invoke-static {p0, p1, p2}, Lcom/meitu/core/util/CryptUtil;->nativeDeCryptFile2StringFromAssets(Ljava/lang/String;ZLandroid/content/res/AssetManager;)Ljava/lang/String;
 
     move-result-object p0
 
     goto :goto_0
 
-    .line 5
     :cond_0
     new-instance p1, Ljava/lang/StringBuilder;
 
@@ -361,7 +325,6 @@
 
     const/4 p0, 0x0
 
-    .line 6
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

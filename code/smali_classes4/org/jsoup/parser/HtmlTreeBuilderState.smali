@@ -75,7 +75,6 @@
 .method static constructor <clinit>()V
     .locals 25
 
-    .line 1
     new-instance v0, Lorg/jsoup/parser/HtmlTreeBuilderState$1;
 
     const-string v1, "Initial"
@@ -86,7 +85,6 @@
 
     sput-object v0, Lorg/jsoup/parser/HtmlTreeBuilderState;->Initial:Lorg/jsoup/parser/HtmlTreeBuilderState;
 
-    .line 2
     new-instance v1, Lorg/jsoup/parser/HtmlTreeBuilderState$2;
 
     const-string v3, "BeforeHtml"
@@ -97,7 +95,6 @@
 
     sput-object v1, Lorg/jsoup/parser/HtmlTreeBuilderState;->BeforeHtml:Lorg/jsoup/parser/HtmlTreeBuilderState;
 
-    .line 3
     new-instance v3, Lorg/jsoup/parser/HtmlTreeBuilderState$3;
 
     const-string v5, "BeforeHead"
@@ -108,7 +105,6 @@
 
     sput-object v3, Lorg/jsoup/parser/HtmlTreeBuilderState;->BeforeHead:Lorg/jsoup/parser/HtmlTreeBuilderState;
 
-    .line 4
     new-instance v5, Lorg/jsoup/parser/HtmlTreeBuilderState$4;
 
     const-string v7, "InHead"
@@ -119,7 +115,6 @@
 
     sput-object v5, Lorg/jsoup/parser/HtmlTreeBuilderState;->InHead:Lorg/jsoup/parser/HtmlTreeBuilderState;
 
-    .line 5
     new-instance v7, Lorg/jsoup/parser/HtmlTreeBuilderState$5;
 
     const-string v9, "InHeadNoscript"
@@ -130,7 +125,6 @@
 
     sput-object v7, Lorg/jsoup/parser/HtmlTreeBuilderState;->InHeadNoscript:Lorg/jsoup/parser/HtmlTreeBuilderState;
 
-    .line 6
     new-instance v9, Lorg/jsoup/parser/HtmlTreeBuilderState$6;
 
     const-string v11, "AfterHead"
@@ -141,7 +135,6 @@
 
     sput-object v9, Lorg/jsoup/parser/HtmlTreeBuilderState;->AfterHead:Lorg/jsoup/parser/HtmlTreeBuilderState;
 
-    .line 7
     new-instance v11, Lorg/jsoup/parser/HtmlTreeBuilderState$7;
 
     const-string v13, "InBody"
@@ -152,7 +145,6 @@
 
     sput-object v11, Lorg/jsoup/parser/HtmlTreeBuilderState;->InBody:Lorg/jsoup/parser/HtmlTreeBuilderState;
 
-    .line 8
     new-instance v13, Lorg/jsoup/parser/HtmlTreeBuilderState$8;
 
     const-string v15, "Text"
@@ -163,7 +155,6 @@
 
     sput-object v13, Lorg/jsoup/parser/HtmlTreeBuilderState;->Text:Lorg/jsoup/parser/HtmlTreeBuilderState;
 
-    .line 9
     new-instance v15, Lorg/jsoup/parser/HtmlTreeBuilderState$9;
 
     const-string v14, "InTable"
@@ -174,7 +165,6 @@
 
     sput-object v15, Lorg/jsoup/parser/HtmlTreeBuilderState;->InTable:Lorg/jsoup/parser/HtmlTreeBuilderState;
 
-    .line 10
     new-instance v14, Lorg/jsoup/parser/HtmlTreeBuilderState$10;
 
     const-string v12, "InTableText"
@@ -185,7 +175,6 @@
 
     sput-object v14, Lorg/jsoup/parser/HtmlTreeBuilderState;->InTableText:Lorg/jsoup/parser/HtmlTreeBuilderState;
 
-    .line 11
     new-instance v12, Lorg/jsoup/parser/HtmlTreeBuilderState$11;
 
     const-string v10, "InCaption"
@@ -196,7 +185,6 @@
 
     sput-object v12, Lorg/jsoup/parser/HtmlTreeBuilderState;->InCaption:Lorg/jsoup/parser/HtmlTreeBuilderState;
 
-    .line 12
     new-instance v10, Lorg/jsoup/parser/HtmlTreeBuilderState$12;
 
     const-string v8, "InColumnGroup"
@@ -207,7 +195,6 @@
 
     sput-object v10, Lorg/jsoup/parser/HtmlTreeBuilderState;->InColumnGroup:Lorg/jsoup/parser/HtmlTreeBuilderState;
 
-    .line 13
     new-instance v8, Lorg/jsoup/parser/HtmlTreeBuilderState$13;
 
     const-string v6, "InTableBody"
@@ -218,7 +205,6 @@
 
     sput-object v8, Lorg/jsoup/parser/HtmlTreeBuilderState;->InTableBody:Lorg/jsoup/parser/HtmlTreeBuilderState;
 
-    .line 14
     new-instance v6, Lorg/jsoup/parser/HtmlTreeBuilderState$14;
 
     const-string v4, "InRow"
@@ -229,7 +215,6 @@
 
     sput-object v6, Lorg/jsoup/parser/HtmlTreeBuilderState;->InRow:Lorg/jsoup/parser/HtmlTreeBuilderState;
 
-    .line 15
     new-instance v4, Lorg/jsoup/parser/HtmlTreeBuilderState$15;
 
     const-string v2, "InCell"
@@ -242,7 +227,6 @@
 
     sput-object v4, Lorg/jsoup/parser/HtmlTreeBuilderState;->InCell:Lorg/jsoup/parser/HtmlTreeBuilderState;
 
-    .line 16
     new-instance v2, Lorg/jsoup/parser/HtmlTreeBuilderState$16;
 
     const-string v6, "InSelect"
@@ -255,7 +239,6 @@
 
     sput-object v2, Lorg/jsoup/parser/HtmlTreeBuilderState;->InSelect:Lorg/jsoup/parser/HtmlTreeBuilderState;
 
-    .line 17
     new-instance v6, Lorg/jsoup/parser/HtmlTreeBuilderState$17;
 
     const-string v4, "InSelectInTable"
@@ -268,7 +251,6 @@
 
     sput-object v6, Lorg/jsoup/parser/HtmlTreeBuilderState;->InSelectInTable:Lorg/jsoup/parser/HtmlTreeBuilderState;
 
-    .line 18
     new-instance v4, Lorg/jsoup/parser/HtmlTreeBuilderState$18;
 
     const-string v2, "AfterBody"
@@ -281,7 +263,6 @@
 
     sput-object v4, Lorg/jsoup/parser/HtmlTreeBuilderState;->AfterBody:Lorg/jsoup/parser/HtmlTreeBuilderState;
 
-    .line 19
     new-instance v2, Lorg/jsoup/parser/HtmlTreeBuilderState$19;
 
     const-string v6, "InFrameset"
@@ -294,7 +275,6 @@
 
     sput-object v2, Lorg/jsoup/parser/HtmlTreeBuilderState;->InFrameset:Lorg/jsoup/parser/HtmlTreeBuilderState;
 
-    .line 20
     new-instance v6, Lorg/jsoup/parser/HtmlTreeBuilderState$20;
 
     const-string v4, "AfterFrameset"
@@ -307,7 +287,6 @@
 
     sput-object v6, Lorg/jsoup/parser/HtmlTreeBuilderState;->AfterFrameset:Lorg/jsoup/parser/HtmlTreeBuilderState;
 
-    .line 21
     new-instance v4, Lorg/jsoup/parser/HtmlTreeBuilderState$21;
 
     const-string v2, "AfterAfterBody"
@@ -320,7 +299,6 @@
 
     sput-object v4, Lorg/jsoup/parser/HtmlTreeBuilderState;->AfterAfterBody:Lorg/jsoup/parser/HtmlTreeBuilderState;
 
-    .line 22
     new-instance v2, Lorg/jsoup/parser/HtmlTreeBuilderState$22;
 
     const-string v6, "AfterAfterFrameset"
@@ -333,7 +311,6 @@
 
     sput-object v2, Lorg/jsoup/parser/HtmlTreeBuilderState;->AfterAfterFrameset:Lorg/jsoup/parser/HtmlTreeBuilderState;
 
-    .line 23
     new-instance v6, Lorg/jsoup/parser/HtmlTreeBuilderState$23;
 
     const-string v4, "ForeignContent"
@@ -442,12 +419,10 @@
 
     aput-object v6, v2, v0
 
-    .line 24
     sput-object v2, Lorg/jsoup/parser/HtmlTreeBuilderState;->$VALUES:[Lorg/jsoup/parser/HtmlTreeBuilderState;
 
     const/4 v0, 0x0
 
-    .line 25
     invoke-static {v0}, Ljava/lang/String;->valueOf(C)Ljava/lang/String;
 
     move-result-object v0
@@ -465,7 +440,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
     return-void
@@ -474,7 +448,6 @@
 .method synthetic constructor <init>(Ljava/lang/String;ILorg/jsoup/parser/HtmlTreeBuilderState$1;)V
     .locals 0
 
-    .line 2
     invoke-direct {p0, p1, p2}, Lorg/jsoup/parser/HtmlTreeBuilderState;-><init>(Ljava/lang/String;I)V
 
     return-void
@@ -483,7 +456,6 @@
 .method static synthetic access$100(Lorg/jsoup/parser/Token;)Z
     .locals 0
 
-    .line 1
     invoke-static {p0}, Lorg/jsoup/parser/HtmlTreeBuilderState;->isWhitespace(Lorg/jsoup/parser/Token;)Z
 
     move-result p0
@@ -494,7 +466,6 @@
 .method static synthetic access$200(Lorg/jsoup/parser/Token$h;Lorg/jsoup/parser/b;)V
     .locals 0
 
-    .line 1
     invoke-static {p0, p1}, Lorg/jsoup/parser/HtmlTreeBuilderState;->handleRcData(Lorg/jsoup/parser/Token$h;Lorg/jsoup/parser/b;)V
 
     return-void
@@ -503,7 +474,6 @@
 .method static synthetic access$300(Lorg/jsoup/parser/Token$h;Lorg/jsoup/parser/b;)V
     .locals 0
 
-    .line 1
     invoke-static {p0, p1}, Lorg/jsoup/parser/HtmlTreeBuilderState;->handleRawtext(Lorg/jsoup/parser/Token$h;Lorg/jsoup/parser/b;)V
 
     return-void
@@ -512,7 +482,6 @@
 .method static synthetic access$400()Ljava/lang/String;
     .locals 1
 
-    .line 1
     sget-object v0, Lorg/jsoup/parser/HtmlTreeBuilderState;->nullString:Ljava/lang/String;
 
     return-object v0
@@ -521,7 +490,6 @@
 .method static synthetic access$500(Ljava/lang/String;)Z
     .locals 0
 
-    .line 1
     invoke-static {p0}, Lorg/jsoup/parser/HtmlTreeBuilderState;->isWhitespace(Ljava/lang/String;)Z
 
     move-result p0
@@ -532,22 +500,18 @@
 .method private static handleRawtext(Lorg/jsoup/parser/Token$h;Lorg/jsoup/parser/b;)V
     .locals 2
 
-    .line 1
     iget-object v0, p1, Lorg/jsoup/parser/i;->c:Lorg/jsoup/parser/h;
 
     sget-object v1, Lorg/jsoup/parser/TokeniserState;->Rawtext:Lorg/jsoup/parser/TokeniserState;
 
     invoke-virtual {v0, v1}, Lorg/jsoup/parser/h;->y(Lorg/jsoup/parser/TokeniserState;)V
 
-    .line 2
     invoke-virtual {p1}, Lorg/jsoup/parser/b;->f0()V
 
-    .line 3
     sget-object v0, Lorg/jsoup/parser/HtmlTreeBuilderState;->Text:Lorg/jsoup/parser/HtmlTreeBuilderState;
 
     invoke-virtual {p1, v0}, Lorg/jsoup/parser/b;->D0(Lorg/jsoup/parser/HtmlTreeBuilderState;)V
 
-    .line 4
     invoke-virtual {p1, p0}, Lorg/jsoup/parser/b;->N(Lorg/jsoup/parser/Token$h;)Lorg/jsoup/nodes/Element;
 
     return-void
@@ -556,22 +520,18 @@
 .method private static handleRcData(Lorg/jsoup/parser/Token$h;Lorg/jsoup/parser/b;)V
     .locals 2
 
-    .line 1
     iget-object v0, p1, Lorg/jsoup/parser/i;->c:Lorg/jsoup/parser/h;
 
     sget-object v1, Lorg/jsoup/parser/TokeniserState;->Rcdata:Lorg/jsoup/parser/TokeniserState;
 
     invoke-virtual {v0, v1}, Lorg/jsoup/parser/h;->y(Lorg/jsoup/parser/TokeniserState;)V
 
-    .line 2
     invoke-virtual {p1}, Lorg/jsoup/parser/b;->f0()V
 
-    .line 3
     sget-object v0, Lorg/jsoup/parser/HtmlTreeBuilderState;->Text:Lorg/jsoup/parser/HtmlTreeBuilderState;
 
     invoke-virtual {p1, v0}, Lorg/jsoup/parser/b;->D0(Lorg/jsoup/parser/HtmlTreeBuilderState;)V
 
-    .line 4
     invoke-virtual {p1, p0}, Lorg/jsoup/parser/b;->N(Lorg/jsoup/parser/Token$h;)Lorg/jsoup/nodes/Element;
 
     return-void
@@ -580,7 +540,6 @@
 .method private static isWhitespace(Ljava/lang/String;)Z
     .locals 0
 
-    .line 4
     invoke-static {p0}, Lorg/jsoup/b/c;->f(Ljava/lang/String;)Z
 
     move-result p0
@@ -591,14 +550,12 @@
 .method private static isWhitespace(Lorg/jsoup/parser/Token;)Z
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lorg/jsoup/parser/Token;->g()Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-virtual {p0}, Lorg/jsoup/parser/Token;->a()Lorg/jsoup/parser/Token$c;
 
     move-result-object p0
@@ -607,7 +564,6 @@
 
     move-result-object p0
 
-    .line 3
     invoke-static {p0}, Lorg/jsoup/b/c;->f(Ljava/lang/String;)Z
 
     move-result p0
@@ -623,7 +579,6 @@
 .method public static valueOf(Ljava/lang/String;)Lorg/jsoup/parser/HtmlTreeBuilderState;
     .locals 1
 
-    .line 1
     const-class v0, Lorg/jsoup/parser/HtmlTreeBuilderState;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -638,7 +593,6 @@
 .method public static values()[Lorg/jsoup/parser/HtmlTreeBuilderState;
     .locals 1
 
-    .line 1
     sget-object v0, Lorg/jsoup/parser/HtmlTreeBuilderState;->$VALUES:[Lorg/jsoup/parser/HtmlTreeBuilderState;
 
     invoke-virtual {v0}, [Lorg/jsoup/parser/HtmlTreeBuilderState;->clone()Ljava/lang/Object;

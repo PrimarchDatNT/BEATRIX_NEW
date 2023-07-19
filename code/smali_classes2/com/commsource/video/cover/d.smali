@@ -21,7 +21,6 @@
 
     sget v0, Lcom/res/provider/ResLAYOUT;->video_cover_video_title:I
 
-    .line 1
     invoke-direct {p0, v0}, Lcom/commsource/video/cover/a;-><init>(I)V
 
     return-void
@@ -36,13 +35,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0, p1}, Lcom/commsource/video/cover/a;->e(I)V
 
-    .line 2
     invoke-virtual {p0}, Lcom/commsource/video/cover/a;->j()V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -55,10 +51,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0, p1}, Lcom/commsource/video/cover/a;->g(Z)V
 
-    .line 2
     invoke-virtual {p0}, Lcom/commsource/video/cover/a;->m()Landroidx/databinding/ViewDataBinding;
 
     move-result-object v1
@@ -77,29 +71,24 @@
 
     if-eqz p1, :cond_0
 
-    .line 3
     invoke-virtual {v1}, Landroid/widget/RelativeLayout;->animate()Landroid/view/ViewPropertyAnimator;
 
     move-result-object p1
 
-    .line 4
     invoke-virtual {p1, v4}, Landroid/view/ViewPropertyAnimator;->translationY(F)Landroid/view/ViewPropertyAnimator;
 
     move-result-object p1
 
     const/high16 v1, 0x3f800000    # 1.0f
 
-    .line 5
     invoke-virtual {p1, v1}, Landroid/view/ViewPropertyAnimator;->alpha(F)Landroid/view/ViewPropertyAnimator;
 
     move-result-object p1
 
-    .line 6
     invoke-virtual {p1, v2, v3}, Landroid/view/ViewPropertyAnimator;->setDuration(J)Landroid/view/ViewPropertyAnimator;
 
     move-result-object p1
 
-    .line 7
     new-instance v1, Lcom/commsource/widget/r0;
 
     invoke-direct {v1}, Lcom/commsource/widget/r0;-><init>()V
@@ -108,12 +97,10 @@
 
     move-result-object p1
 
-    .line 8
     invoke-virtual {p1}, Landroid/view/ViewPropertyAnimator;->start()V
 
     goto :goto_0
 
-    .line 9
     :cond_0
     invoke-virtual {v1}, Landroid/widget/RelativeLayout;->animate()Landroid/view/ViewPropertyAnimator;
 
@@ -121,7 +108,6 @@
 
     const/16 v1, 0x32
 
-    .line 10
     invoke-static {v1}, Lcom/commsource/util/l0;->p(I)F
 
     move-result v1
@@ -132,17 +118,14 @@
 
     move-result-object p1
 
-    .line 11
     invoke-virtual {p1, v4}, Landroid/view/ViewPropertyAnimator;->alpha(F)Landroid/view/ViewPropertyAnimator;
 
     move-result-object p1
 
-    .line 12
     invoke-virtual {p1, v2, v3}, Landroid/view/ViewPropertyAnimator;->setDuration(J)Landroid/view/ViewPropertyAnimator;
 
     move-result-object p1
 
-    .line 13
     new-instance v1, Lcom/commsource/widget/r0;
 
     invoke-direct {v1}, Lcom/commsource/widget/r0;-><init>()V
@@ -151,10 +134,8 @@
 
     move-result-object p1
 
-    .line 14
     invoke-virtual {p1}, Landroid/view/ViewPropertyAnimator;->start()V
 
-    .line 15
     :cond_1
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -169,7 +150,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/video/cover/a;->m()Landroidx/databinding/ViewDataBinding;
 
     move-result-object v1
@@ -186,7 +166,6 @@
 
     invoke-virtual {v1, v2}, Landroid/widget/RelativeLayout;->setAlpha(F)V
 
-    .line 2
     :cond_0
     invoke-virtual {p0}, Lcom/commsource/video/cover/a;->m()Landroidx/databinding/ViewDataBinding;
 
@@ -210,7 +189,6 @@
 
     invoke-virtual {v1, v2}, Landroid/widget/RelativeLayout;->setTranslationY(F)V
 
-    .line 3
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

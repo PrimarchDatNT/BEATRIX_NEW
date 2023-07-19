@@ -85,7 +85,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/widget/dialog/delegate/XDialogKt$createOnlinePopupDialog$1$1;->this$0:Lcom/commsource/widget/dialog/delegate/XDialogKt$createOnlinePopupDialog$1;
 
     iget-object v1, v1, Lcom/commsource/widget/dialog/delegate/XDialogKt$createOnlinePopupDialog$1;->$config:Lcom/commsource/home/entity/PopupConfig;
@@ -116,10 +115,8 @@
 
     if-eqz v1, :cond_4
 
-    .line 2
     new-instance v1, Lcom/commsource/widget/dialog/delegate/d/f;
 
-    .line 3
     sget-object v3, Lcom/commsource/video/c;->d:Lcom/commsource/video/c$a;
 
     iget-object v4, p0, Lcom/commsource/widget/dialog/delegate/XDialogKt$createOnlinePopupDialog$1$1;->this$0:Lcom/commsource/widget/dialog/delegate/XDialogKt$createOnlinePopupDialog$1;
@@ -153,7 +150,6 @@
 
     move-result-object v3
 
-    .line 4
     iget-object v4, p0, Lcom/commsource/widget/dialog/delegate/XDialogKt$createOnlinePopupDialog$1$1;->this$0:Lcom/commsource/widget/dialog/delegate/XDialogKt$createOnlinePopupDialog$1;
 
     iget-object v4, v4, Lcom/commsource/widget/dialog/delegate/XDialogKt$createOnlinePopupDialog$1;->$config:Lcom/commsource/home/entity/PopupConfig;
@@ -180,19 +176,16 @@
 
     move-result v4
 
-    .line 5
     new-instance v5, Lcom/commsource/widget/dialog/delegate/XDialogKt$createOnlinePopupDialog$1$1$1;
 
     invoke-direct {v5, p0}, Lcom/commsource/widget/dialog/delegate/XDialogKt$createOnlinePopupDialog$1$1$1;-><init>(Lcom/commsource/widget/dialog/delegate/XDialogKt$createOnlinePopupDialog$1$1;)V
 
-    .line 6
     invoke-direct {v1, v3, v4, v5}, Lcom/commsource/widget/dialog/delegate/d/f;-><init>(Lcom/commsource/video/c;FLcotlin/jvm/u/l;)V
 
     invoke-virtual {p1, v1}, Lcom/commsource/widget/dialog/delegate/d/g;->N(Lcom/commsource/widget/dialog/delegate/d/f;)V
 
     goto :goto_5
 
-    .line 7
     :cond_4
     new-instance v1, Lcom/commsource/widget/dialog/delegate/d/e;
 
@@ -264,7 +257,6 @@
 
     invoke-virtual {p1, v1}, Lcom/commsource/widget/dialog/delegate/d/g;->M(Lcom/commsource/widget/dialog/delegate/d/e;)V
 
-    .line 8
     :goto_5
     iget-object v1, p0, Lcom/commsource/widget/dialog/delegate/XDialogKt$createOnlinePopupDialog$1$1;->this$0:Lcom/commsource/widget/dialog/delegate/XDialogKt$createOnlinePopupDialog$1;
 
@@ -284,7 +276,6 @@
     :goto_6
     invoke-static {p1, v1}, Lcom/commsource/widget/dialog/delegate/XDialogKt;->h(Lcom/commsource/widget/dialog/delegate/d/a;Ljava/lang/String;)V
 
-    .line 9
     iget-object v1, p0, Lcom/commsource/widget/dialog/delegate/XDialogKt$createOnlinePopupDialog$1$1;->this$0:Lcom/commsource/widget/dialog/delegate/XDialogKt$createOnlinePopupDialog$1;
 
     iget-object v1, v1, Lcom/commsource/widget/dialog/delegate/XDialogKt$createOnlinePopupDialog$1;->$config:Lcom/commsource/home/entity/PopupConfig;
@@ -303,7 +294,6 @@
     :goto_7
     invoke-static {p1, v1}, Lcom/commsource/widget/dialog/delegate/XDialogKt;->b(Lcom/commsource/widget/dialog/delegate/d/a;Ljava/lang/String;)V
 
-    .line 10
     iget-object v1, p0, Lcom/commsource/widget/dialog/delegate/XDialogKt$createOnlinePopupDialog$1$1;->this$0:Lcom/commsource/widget/dialog/delegate/XDialogKt$createOnlinePopupDialog$1;
 
     iget-object v1, v1, Lcom/commsource/widget/dialog/delegate/XDialogKt$createOnlinePopupDialog$1;->$config:Lcom/commsource/home/entity/PopupConfig;
@@ -322,7 +312,6 @@
     :goto_8
     invoke-static {p1, v1}, Lcom/commsource/widget/dialog/delegate/XDialogKt;->b(Lcom/commsource/widget/dialog/delegate/d/a;Ljava/lang/String;)V
 
-    .line 11
     iget-object v1, p0, Lcom/commsource/widget/dialog/delegate/XDialogKt$createOnlinePopupDialog$1$1;->this$0:Lcom/commsource/widget/dialog/delegate/XDialogKt$createOnlinePopupDialog$1;
 
     iget-object v1, v1, Lcom/commsource/widget/dialog/delegate/XDialogKt$createOnlinePopupDialog$1;->$config:Lcom/commsource/home/entity/PopupConfig;
@@ -375,7 +364,6 @@
     :goto_a
     if-eqz v1, :cond_10
 
-    .line 12
     invoke-virtual {v1}, Lcom/commsource/home/entity/PopupConfig$ConfirmButton;->getText()Ljava/lang/String;
 
     move-result-object v6
@@ -404,14 +392,12 @@
 
     sget v6, Lcom/res/provider/ResSTRING;->dialog_confirm:I
 
-    .line 13
     invoke-static {v6}, Lcom/commsource/util/l0;->e0(I)Ljava/lang/String;
 
     move-result-object v6
 
     goto :goto_d
 
-    .line 14
     :cond_e
     invoke-virtual {v1}, Lcom/commsource/home/entity/PopupConfig$ConfirmButton;->getText()Ljava/lang/String;
 
@@ -421,17 +407,14 @@
 
     invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
-    .line 15
     :cond_f
     :goto_d
     new-instance v7, Lcom/commsource/widget/dialog/delegate/XDialogKt$createOnlinePopupDialog$1$1$$special$$inlined$let$lambda$1;
 
     invoke-direct {v7, v1, p0, p1}, Lcom/commsource/widget/dialog/delegate/XDialogKt$createOnlinePopupDialog$1$1$$special$$inlined$let$lambda$1;-><init>(Lcom/commsource/home/entity/PopupConfig$ConfirmButton;Lcom/commsource/widget/dialog/delegate/XDialogKt$createOnlinePopupDialog$1$1;Lcom/commsource/widget/dialog/delegate/d/g;)V
 
-    .line 16
     invoke-static {p1, v6, v7}, Lcom/commsource/widget/dialog/delegate/XDialogKt;->e(Lcom/commsource/widget/dialog/delegate/d/a;Ljava/lang/String;Lcotlin/jvm/u/l;)V
 
-    .line 17
     :cond_10
     iget-object v1, p0, Lcom/commsource/widget/dialog/delegate/XDialogKt$createOnlinePopupDialog$1$1;->this$0:Lcom/commsource/widget/dialog/delegate/XDialogKt$createOnlinePopupDialog$1;
 
@@ -476,7 +459,6 @@
     :cond_12
     if-eqz v2, :cond_17
 
-    .line 18
     invoke-virtual {v2}, Lcom/commsource/home/entity/PopupConfig$CancelButton;->getText()Ljava/lang/String;
 
     move-result-object v1
@@ -505,14 +487,12 @@
 
     sget v1, Lcom/res/provider/ResSTRING;->cancel:I
 
-    .line 19
     invoke-static {v1}, Lcom/commsource/util/l0;->e0(I)Ljava/lang/String;
 
     move-result-object v1
 
     goto :goto_11
 
-    .line 20
     :cond_15
     invoke-virtual {v2}, Lcom/commsource/home/entity/PopupConfig$CancelButton;->getText()Ljava/lang/String;
 
@@ -522,19 +502,15 @@
 
     invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
-    .line 21
     :cond_16
     :goto_11
     sget-object v2, Lcom/commsource/widget/dialog/delegate/XDialogKt$createOnlinePopupDialog$1$1$6$1;->INSTANCE:Lcom/commsource/widget/dialog/delegate/XDialogKt$createOnlinePopupDialog$1$1$6$1;
 
-    .line 22
     invoke-static {p1, v1, v2}, Lcom/commsource/widget/dialog/delegate/XDialogKt;->c(Lcom/commsource/widget/dialog/delegate/d/a;Ljava/lang/String;Lcotlin/jvm/u/l;)V
 
-    .line 23
     :cond_17
     invoke-static {p1}, Lcom/commsource/widget/dialog/delegate/XDialogKt;->p(Lcom/commsource/widget/dialog/delegate/d/a;)Lcom/commsource/widget/dialog/delegate/d/a;
 
-    .line 24
     iget-object v1, p0, Lcom/commsource/widget/dialog/delegate/XDialogKt$createOnlinePopupDialog$1$1;->this$0:Lcom/commsource/widget/dialog/delegate/XDialogKt$createOnlinePopupDialog$1;
 
     iget-object v1, v1, Lcom/commsource/widget/dialog/delegate/XDialogKt$createOnlinePopupDialog$1;->$this_createOnlinePopupDialog:Lcom/commsource/home/entity/DialogDataEntity;
@@ -569,7 +545,6 @@
     :goto_13
     invoke-static {p1, v4}, Lcom/commsource/widget/dialog/delegate/XDialogKt;->a(Lcom/commsource/widget/dialog/delegate/d/a;Z)V
 
-    .line 25
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

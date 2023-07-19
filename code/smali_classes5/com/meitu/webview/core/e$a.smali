@@ -27,7 +27,6 @@
 .method constructor <init>(Lcom/meitu/webview/core/e;Lcom/meitu/webview/core/e$b;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/webview/core/e$a;->b:Lcom/meitu/webview/core/e;
 
     iput-object p2, p0, Lcom/meitu/webview/core/e$a;->a:Lcom/meitu/webview/core/e$b;
@@ -46,15 +45,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/webview/core/e$a;->a:Lcom/meitu/webview/core/e$b;
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-interface {v1, p1, p2}, Lcom/meitu/webview/core/e$b;->onReceivedIcon(Ljava/lang/String;Landroid/graphics/Bitmap;)V
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

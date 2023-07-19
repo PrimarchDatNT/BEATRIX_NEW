@@ -31,7 +31,6 @@
 .method constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -53,7 +52,6 @@
 
     const/4 v0, 0x2
 
-    .line 1
     invoke-virtual {p0, v0}, Lcom/google/common/collect/MultimapBuilder$f;->b(I)Lcom/google/common/collect/MultimapBuilder$e;
 
     move-result-object v0
@@ -75,10 +73,8 @@
 
     const-string v0, "expectedValuesPerKey"
 
-    .line 1
     invoke-static {p1, v0}, Lcom/google/common/collect/m;->b(ILjava/lang/String;)I
 
-    .line 2
     new-instance v0, Lcom/google/common/collect/MultimapBuilder$f$a;
 
     invoke-direct {v0, p0, p1}, Lcom/google/common/collect/MultimapBuilder$f$a;-><init>(Lcom/google/common/collect/MultimapBuilder$f;I)V
@@ -116,10 +112,8 @@
 
     const-string v0, "valueClass"
 
-    .line 1
     invoke-static {p1, v0}, Lcom/google/common/base/t;->F(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 2
     new-instance v0, Lcom/google/common/collect/MultimapBuilder$f$f;
 
     invoke-direct {v0, p0, p1}, Lcom/google/common/collect/MultimapBuilder$f$f;-><init>(Lcom/google/common/collect/MultimapBuilder$f;Ljava/lang/Class;)V
@@ -141,7 +135,6 @@
 
     const/4 v0, 0x2
 
-    .line 1
     invoke-virtual {p0, v0}, Lcom/google/common/collect/MultimapBuilder$f;->f(I)Lcom/google/common/collect/MultimapBuilder$g;
 
     move-result-object v0
@@ -163,10 +156,8 @@
 
     const-string v0, "expectedValuesPerKey"
 
-    .line 1
     invoke-static {p1, v0}, Lcom/google/common/collect/m;->b(ILjava/lang/String;)I
 
-    .line 2
     new-instance v0, Lcom/google/common/collect/MultimapBuilder$f$c;
 
     invoke-direct {v0, p0, p1}, Lcom/google/common/collect/MultimapBuilder$f$c;-><init>(Lcom/google/common/collect/MultimapBuilder$f;I)V
@@ -188,7 +179,6 @@
 
     const/4 v0, 0x2
 
-    .line 1
     invoke-virtual {p0, v0}, Lcom/google/common/collect/MultimapBuilder$f;->h(I)Lcom/google/common/collect/MultimapBuilder$g;
 
     move-result-object v0
@@ -210,10 +200,8 @@
 
     const-string v0, "expectedValuesPerKey"
 
-    .line 1
     invoke-static {p1, v0}, Lcom/google/common/collect/m;->b(ILjava/lang/String;)I
 
-    .line 2
     new-instance v0, Lcom/google/common/collect/MultimapBuilder$f$d;
 
     invoke-direct {v0, p0, p1}, Lcom/google/common/collect/MultimapBuilder$f$d;-><init>(Lcom/google/common/collect/MultimapBuilder$f;I)V
@@ -233,7 +221,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/google/common/collect/MultimapBuilder$f$b;
 
     invoke-direct {v0, p0}, Lcom/google/common/collect/MultimapBuilder$f$b;-><init>(Lcom/google/common/collect/MultimapBuilder$f;)V
@@ -253,7 +240,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {}, Lcom/google/common/collect/Ordering;->natural()Lcom/google/common/collect/Ordering;
 
     move-result-object v0
@@ -281,10 +267,8 @@
 
     const-string v0, "comparator"
 
-    .line 1
     invoke-static {p1, v0}, Lcom/google/common/base/t;->F(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 2
     new-instance v0, Lcom/google/common/collect/MultimapBuilder$f$e;
 
     invoke-direct {v0, p0, p1}, Lcom/google/common/collect/MultimapBuilder$f$e;-><init>(Lcom/google/common/collect/MultimapBuilder$f;Ljava/util/Comparator;)V

@@ -42,19 +42,16 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/studio/gesture/LayerSelectComponent$k;->a:Lcom/commsource/studio/gesture/LayerSelectComponent;
 
     invoke-virtual {v0}, Lcom/commsource/studio/gesture/LayerSelectComponent;->x()V
 
-    .line 2
     iget-object v0, p0, Lcom/commsource/studio/gesture/LayerSelectComponent$k;->a:Lcom/commsource/studio/gesture/LayerSelectComponent;
 
     const/4 v1, 0x1
 
     invoke-virtual {v0, v1}, Lcom/commsource/studio/gesture/LayerSelectComponent;->setCollapseState(Z)V
 
-    .line 3
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

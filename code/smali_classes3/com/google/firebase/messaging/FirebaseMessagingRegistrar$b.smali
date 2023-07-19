@@ -24,7 +24,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -49,7 +48,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance p1, Lcom/google/firebase/messaging/FirebaseMessagingRegistrar$a;
 
     const/4 p2, 0x0
@@ -77,7 +75,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance p1, Lcom/google/firebase/messaging/FirebaseMessagingRegistrar$a;
 
     const/4 p2, 0x0

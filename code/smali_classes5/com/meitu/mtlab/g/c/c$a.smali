@@ -27,7 +27,6 @@
 .method constructor <init>(Lcom/meitu/mtlab/g/c/c;Lcom/meitu/mtlab/g/d/b;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/mtlab/g/c/c$a;->b:Lcom/meitu/mtlab/g/c/c;
 
     iput-object p2, p0, Lcom/meitu/mtlab/g/c/c$a;->a:Lcom/meitu/mtlab/g/d/b;
@@ -52,14 +51,12 @@
 
     if-eqz v1, :cond_4
 
-    .line 1
     array-length v3, v1
 
     if-nez v3, :cond_0
 
     goto/16 :goto_3
 
-    .line 2
     :cond_0
     array-length v3, v1
 
@@ -76,23 +73,19 @@
     :cond_1
     move/from16 v3, p2
 
-    .line 3
     :goto_0
     array-length v4, v1
 
-    .line 4
     new-instance v15, Ljava/util/ArrayList;
 
     invoke-direct {v15}, Ljava/util/ArrayList;-><init>()V
 
-    .line 5
     new-instance v14, Ljava/util/ArrayList;
 
     invoke-direct {v14}, Ljava/util/ArrayList;-><init>()V
 
     if-eqz v3, :cond_2
 
-    .line 6
     iget-object v4, v0, Lcom/meitu/mtlab/g/c/c$a;->b:Lcom/meitu/mtlab/g/c/c;
 
     invoke-static {v4}, Lcom/meitu/mtlab/g/c/c;->a(Lcom/meitu/mtlab/g/c/c;)Ljava/lang/String;
@@ -139,7 +132,6 @@
 
     move-result-object v10
 
-    .line 7
     iget-object v1, v0, Lcom/meitu/mtlab/g/c/c$a;->b:Lcom/meitu/mtlab/g/c/c;
 
     invoke-static {v1}, Lcom/meitu/mtlab/g/c/c;->k(Lcom/meitu/mtlab/g/c/c;)Lcom/meitu/mtlab/g/g/d;
@@ -182,7 +174,6 @@
 
     goto :goto_2
 
-    .line 8
     :cond_2
     array-length v3, v1
 
@@ -191,7 +182,6 @@
 
     aget-object v9, v1, v5
 
-    .line 9
     iget-object v6, v0, Lcom/meitu/mtlab/g/c/c$a;->b:Lcom/meitu/mtlab/g/c/c;
 
     invoke-static {v6}, Lcom/meitu/mtlab/g/c/c;->k(Lcom/meitu/mtlab/g/c/c;)Lcom/meitu/mtlab/g/g/d;
@@ -270,14 +260,12 @@
 
     goto :goto_1
 
-    .line 10
     :cond_3
     :goto_2
     invoke-static {v2}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 11
     :cond_4
     :goto_3
     invoke-static {}, Lcom/meitu/mtlab/g/h/a;->e()Lcom/meitu/mtlab/g/h/a;
@@ -290,21 +278,18 @@
 
     invoke-virtual {v1, v3, v4}, Lcom/meitu/mtlab/g/h/a;->b(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 12
     invoke-static {}, Lcom/meitu/mtlab/g/h/a;->e()Lcom/meitu/mtlab/g/h/a;
 
     move-result-object v1
 
     invoke-virtual {v1}, Lcom/meitu/mtlab/g/h/a;->c()V
 
-    .line 13
     invoke-static {}, Lcom/meitu/mtlab/g/h/a;->e()Lcom/meitu/mtlab/g/h/a;
 
     move-result-object v1
 
     invoke-virtual {v1}, Lcom/meitu/mtlab/g/h/a;->d()V
 
-    .line 14
     iget-object v1, v0, Lcom/meitu/mtlab/g/c/c$a;->a:Lcom/meitu/mtlab/g/d/b;
 
     const/16 v3, 0x69
@@ -313,7 +298,6 @@
 
     invoke-interface {v1, v3, v4}, Lcom/meitu/mtlab/g/d/b;->b(ILjava/lang/Object;)V
 
-    .line 15
     invoke-static {v2}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

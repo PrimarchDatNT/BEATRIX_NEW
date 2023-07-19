@@ -15,10 +15,8 @@
 .method public constructor <init>(Lcom/sdk/api/BannerView;)V
     .locals 0
 
-    .line 3
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 4
     iput-object p1, p0, Lcom/meitu/hwbusinesskit/meituadx/AdxContainer;->mBannerView:Lcom/sdk/api/BannerView;
 
     return-void
@@ -27,10 +25,8 @@
 .method public constructor <init>(Lcom/sdk/api/VideoCardAd;)V
     .locals 0
 
-    .line 5
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 6
     iput-object p1, p0, Lcom/meitu/hwbusinesskit/meituadx/AdxContainer;->mVideoCardAd:Lcom/sdk/api/VideoCardAd;
 
     return-void
@@ -39,10 +35,8 @@
 .method public constructor <init>(Lcom/sdk/api/g;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/meitu/hwbusinesskit/meituadx/AdxContainer;->mNativeAd:Lcom/sdk/api/g;
 
     return-void
@@ -57,7 +51,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/hwbusinesskit/meituadx/AdxContainer;->mBannerView:Lcom/sdk/api/BannerView;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -72,7 +65,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/hwbusinesskit/meituadx/AdxContainer;->mNativeAd:Lcom/sdk/api/g;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -87,7 +79,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/hwbusinesskit/meituadx/AdxContainer;->mVideoCardAd:Lcom/sdk/api/VideoCardAd;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -102,7 +93,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/hwbusinesskit/meituadx/AdxContainer;->mNativeAd:Lcom/sdk/api/g;
 
     const/4 v2, 0x0
@@ -111,18 +101,14 @@
 
     const-string v1, "Destroy meitu adx native ad."
 
-    .line 2
     invoke-static {v1}, Lcom/meitu/hwbusinesskit/core/utils/TestLog;->log(Ljava/lang/String;)V
 
-    .line 3
     iget-object v1, p0, Lcom/meitu/hwbusinesskit/meituadx/AdxContainer;->mNativeAd:Lcom/sdk/api/g;
 
     invoke-virtual {v1}, Lcom/sdk/api/g;->n()V
 
-    .line 4
     iput-object v2, p0, Lcom/meitu/hwbusinesskit/meituadx/AdxContainer;->mNativeAd:Lcom/sdk/api/g;
 
-    .line 5
     :cond_0
     iget-object v1, p0, Lcom/meitu/hwbusinesskit/meituadx/AdxContainer;->mBannerView:Lcom/sdk/api/BannerView;
 
@@ -130,18 +116,14 @@
 
     const-string v1, "Destroy meitu adx banner ad."
 
-    .line 6
     invoke-static {v1}, Lcom/meitu/hwbusinesskit/core/utils/TestLog;->log(Ljava/lang/String;)V
 
-    .line 7
     iget-object v1, p0, Lcom/meitu/hwbusinesskit/meituadx/AdxContainer;->mBannerView:Lcom/sdk/api/BannerView;
 
     invoke-virtual {v1}, Lcom/sdk/api/BannerView;->q()V
 
-    .line 8
     iput-object v2, p0, Lcom/meitu/hwbusinesskit/meituadx/AdxContainer;->mBannerView:Lcom/sdk/api/BannerView;
 
-    .line 9
     :cond_1
     iget-object v1, p0, Lcom/meitu/hwbusinesskit/meituadx/AdxContainer;->mVideoCardAd:Lcom/sdk/api/VideoCardAd;
 
@@ -149,23 +131,18 @@
 
     const-string v1, "Destroy meitu adx video card ad."
 
-    .line 10
     invoke-static {v1}, Lcom/meitu/hwbusinesskit/core/utils/TestLog;->log(Ljava/lang/String;)V
 
-    .line 11
     iget-object v1, p0, Lcom/meitu/hwbusinesskit/meituadx/AdxContainer;->mVideoCardAd:Lcom/sdk/api/VideoCardAd;
 
     invoke-virtual {v1}, Lcom/sdk/api/VideoCardAd;->t0()V
 
-    .line 12
     iget-object v1, p0, Lcom/meitu/hwbusinesskit/meituadx/AdxContainer;->mVideoCardAd:Lcom/sdk/api/VideoCardAd;
 
     invoke-virtual {v1}, Lcom/sdk/api/VideoCardAd;->H()V
 
-    .line 13
     iput-object v2, p0, Lcom/meitu/hwbusinesskit/meituadx/AdxContainer;->mVideoCardAd:Lcom/sdk/api/VideoCardAd;
 
-    .line 14
     :cond_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -179,15 +156,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/hwbusinesskit/meituadx/AdxContainer;->mVideoCardAd:Lcom/sdk/api/VideoCardAd;
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-virtual {v1}, Lcom/sdk/api/VideoCardAd;->t0()V
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -201,15 +175,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/hwbusinesskit/meituadx/AdxContainer;->mVideoCardAd:Lcom/sdk/api/VideoCardAd;
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-virtual {v1}, Lcom/sdk/api/VideoCardAd;->u0()V
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -223,10 +194,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/hwbusinesskit/meituadx/AdxContainer;->mBannerView:Lcom/sdk/api/BannerView;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -239,10 +208,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/hwbusinesskit/meituadx/AdxContainer;->mNativeAd:Lcom/sdk/api/g;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

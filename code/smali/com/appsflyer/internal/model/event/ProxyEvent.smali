@@ -11,7 +11,6 @@
 .method public constructor <init>()V
     .locals 7
 
-    .line 1
     sget-object v4, Ljava/lang/Boolean;->FALSE:Ljava/lang/Boolean;
 
     const/4 v1, 0x0
@@ -36,7 +35,6 @@
 .method public body(Ljava/lang/String;)Lcom/appsflyer/internal/model/event/BackgroundEvent;
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/appsflyer/internal/model/event/ProxyEvent;->dateFormatUTC:Ljava/lang/String;
 
     return-object p0
@@ -45,7 +43,6 @@
 .method public body()Ljava/lang/String;
     .locals 1
 
-    .line 2
     iget-object v0, p0, Lcom/appsflyer/internal/model/event/ProxyEvent;->dateFormatUTC:Ljava/lang/String;
 
     return-object v0

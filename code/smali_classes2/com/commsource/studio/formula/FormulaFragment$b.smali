@@ -30,7 +30,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/formula/FormulaFragment$b;->b:Lcom/commsource/studio/formula/FormulaFragment;
 
     invoke-direct {p0}, Landroidx/recyclerview/widget/RecyclerView$OnScrollListener;-><init>()V
@@ -55,17 +54,14 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-super {p0, p1, p2}, Landroidx/recyclerview/widget/RecyclerView$OnScrollListener;->onScrollStateChanged(Landroidx/recyclerview/widget/RecyclerView;I)V
 
     const/4 p1, 0x1
 
     if-ne p2, p1, :cond_0
 
-    .line 2
     iput-boolean p1, p0, Lcom/commsource/studio/formula/FormulaFragment$b;->a:Z
 
-    .line 3
     :cond_0
     iget-boolean p1, p0, Lcom/commsource/studio/formula/FormulaFragment$b;->a:Z
 
@@ -75,10 +71,8 @@
 
     const/4 p1, 0x0
 
-    .line 4
     iput-boolean p1, p0, Lcom/commsource/studio/formula/FormulaFragment$b;->a:Z
 
-    .line 5
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -100,12 +94,10 @@
 
     invoke-static {p1, p3}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-boolean p1, p0, Lcom/commsource/studio/formula/FormulaFragment$b;->a:Z
 
     if-eqz p1, :cond_0
 
-    .line 2
     iget-object p1, p0, Lcom/commsource/studio/formula/FormulaFragment$b;->b:Lcom/commsource/studio/formula/FormulaFragment;
 
     invoke-static {p1}, Lcom/commsource/studio/formula/FormulaFragment;->b0(Lcom/commsource/studio/formula/FormulaFragment;)Lcom/commsource/studio/formula/FormulaViewModel;
@@ -124,13 +116,11 @@
 
     invoke-virtual {p1, p3}, Lcom/commsource/studio/formula/FormulaViewModel;->Z(I)V
 
-    .line 3
     :cond_0
     iget-object p1, p0, Lcom/commsource/studio/formula/FormulaFragment$b;->b:Lcom/commsource/studio/formula/FormulaFragment;
 
     invoke-static {p1}, Lcom/commsource/studio/formula/FormulaFragment;->V(Lcom/commsource/studio/formula/FormulaFragment;)V
 
-    .line 4
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

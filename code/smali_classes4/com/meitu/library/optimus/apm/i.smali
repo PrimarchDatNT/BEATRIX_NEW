@@ -20,10 +20,8 @@
 .method public constructor <init>(Landroid/content/Context;)V
     .locals 2
 
-    .line 1
     invoke-direct {p0}, Lcom/meitu/library/optimus/apm/a;-><init>()V
 
-    .line 2
     new-instance v0, Ljava/util/concurrent/atomic/AtomicInteger;
 
     const/4 v1, 0x0
@@ -32,17 +30,14 @@
 
     iput-object v0, p0, Lcom/meitu/library/optimus/apm/i;->i:Ljava/util/concurrent/atomic/AtomicInteger;
 
-    .line 3
     invoke-static {p1}, Lcom/meitu/library/optimus/apm/DataProcessor;->loadLibrariesOnce(Landroid/content/Context;)V
 
-    .line 4
     invoke-static {}, Lcom/meitu/library/optimus/apm/x/a;->h()Z
 
     move-result p1
 
     if-eqz p1, :cond_0
 
-    .line 5
     new-instance p1, Ljava/lang/StringBuilder;
 
     invoke-direct {p1}, Ljava/lang/StringBuilder;-><init>()V
@@ -74,7 +69,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/meitu/library/optimus/apm/i;->i:Ljava/util/concurrent/atomic/AtomicInteger;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -96,19 +90,16 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/meitu/library/optimus/apm/DataProcessor;->isLibLoaded()Z
 
     move-result v1
 
     if-nez v1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 3
     :cond_0
     iget-object v1, p0, Lcom/meitu/library/optimus/apm/i;->i:Ljava/util/concurrent/atomic/AtomicInteger;
 
@@ -120,28 +111,23 @@
 
     const-string v1, "activeCached upload retry waiting.."
 
-    .line 4
     invoke-static {v1}, Lcom/meitu/library/optimus/apm/x/a;->a(Ljava/lang/String;)V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 6
     :cond_1
     invoke-static {}, Lcom/meitu/library/optimus/apm/v/c;->a()Lcom/meitu/library/optimus/apm/v/c;
 
     move-result-object v1
 
-    .line 7
     invoke-virtual {v1}, Lcom/meitu/library/optimus/apm/v/c;->c()Ljava/util/List;
 
     move-result-object v1
 
     if-eqz v1, :cond_2
 
-    .line 8
     invoke-interface {v1}, Ljava/util/List;->size()I
 
     move-result v2
@@ -154,7 +140,6 @@
 
     const/4 v3, 0x0
 
-    .line 9
     invoke-interface {v1}, Ljava/util/List;->size()I
 
     move-result v4
@@ -173,7 +158,6 @@
 
     invoke-static {v2}, Lcom/meitu/library/optimus/apm/x/a;->a(Ljava/lang/String;)V
 
-    .line 10
     iget-object v2, p0, Lcom/meitu/library/optimus/apm/i;->i:Ljava/util/concurrent/atomic/AtomicInteger;
 
     invoke-interface {v1}, Ljava/util/List;->size()I
@@ -182,7 +166,6 @@
 
     invoke-virtual {v2, v3}, Ljava/util/concurrent/atomic/AtomicInteger;->set(I)V
 
-    .line 11
     invoke-interface {v1}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
     move-result-object v1
@@ -200,7 +183,6 @@
 
     check-cast v2, Lcom/meitu/library/optimus/apm/v/c$a;
 
-    .line 12
     new-instance v3, Lcom/meitu/library/optimus/apm/i$c;
 
     new-instance v4, Lcom/meitu/library/optimus/apm/j;
@@ -213,12 +195,10 @@
 
     invoke-direct {v3, p0, v4, v2, v5}, Lcom/meitu/library/optimus/apm/i$c;-><init>(Lcom/meitu/library/optimus/apm/i;Lcom/meitu/library/optimus/apm/j;Lcom/meitu/library/optimus/apm/v/c$a;Lcom/meitu/library/optimus/apm/a$a;)V
 
-    .line 13
     invoke-static {v3}, Lcom/meitu/library/optimus/apm/x/j;->a(Ljava/lang/Runnable;)V
 
     goto :goto_0
 
-    .line 14
     :cond_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -234,7 +214,6 @@
 
     if-nez p1, :cond_0
 
-    .line 1
     invoke-static {}, Lcom/meitu/library/optimus/apm/p;->d()Lcom/meitu/library/optimus/apm/l;
 
     move-result-object p1
@@ -243,7 +222,6 @@
 
     return-object p1
 
-    .line 2
     :cond_0
     new-instance v1, Lcom/meitu/library/optimus/apm/s;
 
@@ -255,10 +233,8 @@
 
     invoke-direct {v1, p0, v2, p1, p2}, Lcom/meitu/library/optimus/apm/s;-><init>(Lcom/meitu/library/optimus/apm/i;Lcom/meitu/library/optimus/apm/j;Ljava/util/List;Lcom/meitu/library/optimus/apm/a$a;)V
 
-    .line 3
     invoke-virtual {v1}, Lcom/meitu/library/optimus/apm/s;->run()V
 
-    .line 4
     invoke-virtual {v1}, Lcom/meitu/library/optimus/apm/s;->a()Lcom/meitu/library/optimus/apm/l;
 
     move-result-object p1
@@ -275,7 +251,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/meitu/library/optimus/apm/DataProcessor;->isLibLoaded()Z
 
     move-result v1
@@ -286,14 +261,12 @@
 
     const/4 p1, 0x0
 
-    .line 2
     invoke-static {}, Lcom/meitu/library/optimus/apm/p;->e()Lcom/meitu/library/optimus/apm/l;
 
     move-result-object v1
 
     invoke-interface {p2, p1, v1}, Lcom/meitu/library/optimus/apm/a$a;->a(ZLcom/meitu/library/optimus/apm/l;)V
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -302,12 +275,10 @@
     :cond_1
     if-nez p1, :cond_2
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 5
     :cond_2
     invoke-virtual {p1}, Lcom/meitu/library/optimus/apm/k;->a()[B
 
@@ -317,7 +288,6 @@
 
     const-string v1, ""
 
-    .line 6
     invoke-virtual {v1}, Ljava/lang/String;->getBytes()[B
 
     move-result-object v1
@@ -325,7 +295,6 @@
     :cond_3
     move-object v6, v1
 
-    .line 7
     new-instance v1, Lcom/meitu/library/optimus/apm/i$b;
 
     iget-object v4, p1, Lcom/meitu/library/optimus/apm/k;->a:Lcom/meitu/library/optimus/apm/j;
@@ -346,23 +315,19 @@
 
     invoke-direct/range {v2 .. v8}, Lcom/meitu/library/optimus/apm/i$b;-><init>(Lcom/meitu/library/optimus/apm/i;Lcom/meitu/library/optimus/apm/j;Ljava/lang/String;[BLjava/util/List;Lcom/meitu/library/optimus/apm/a$a;)V
 
-    .line 8
     invoke-virtual {p1}, Lcom/meitu/library/optimus/apm/k;->d()Z
 
     move-result p1
 
     if-eqz p1, :cond_4
 
-    .line 9
     invoke-static {v1}, Lcom/meitu/library/optimus/apm/x/j;->a(Ljava/lang/Runnable;)V
 
     goto :goto_0
 
-    .line 10
     :cond_4
     invoke-virtual {v1}, Lcom/meitu/library/optimus/apm/i$b;->run()V
 
-    .line 11
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -388,7 +353,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/meitu/library/optimus/apm/DataProcessor;->isLibLoaded()Z
 
     move-result v1
@@ -399,14 +363,12 @@
 
     const/4 p1, 0x0
 
-    .line 2
     invoke-static {}, Lcom/meitu/library/optimus/apm/p;->e()Lcom/meitu/library/optimus/apm/l;
 
     move-result-object p2
 
     invoke-interface {p4, p1, p2}, Lcom/meitu/library/optimus/apm/a$a;->a(ZLcom/meitu/library/optimus/apm/l;)V
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -417,7 +379,6 @@
 
     const-string p2, ""
 
-    .line 4
     invoke-virtual {p2}, Ljava/lang/String;->getBytes()[B
 
     move-result-object p2
@@ -425,12 +386,10 @@
     :cond_2
     move-object v5, p2
 
-    .line 5
     new-instance v3, Lcom/meitu/library/optimus/apm/j;
 
     invoke-direct {v3}, Lcom/meitu/library/optimus/apm/j;-><init>()V
 
-    .line 6
     new-instance p2, Lcom/meitu/library/optimus/apm/i$b;
 
     move-object v1, p2
@@ -447,7 +406,6 @@
 
     invoke-static {p2}, Lcom/meitu/library/optimus/apm/x/j;->a(Ljava/lang/Runnable;)V
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -464,7 +422,6 @@
 
     const/4 v1, 0x0
 
-    .line 1
     invoke-virtual {p0, p1, v1}, Lcom/meitu/library/optimus/apm/i;->r(Lcom/meitu/library/optimus/apm/k;Lcom/meitu/library/optimus/apm/a$a;)Lcom/meitu/library/optimus/apm/l;
 
     move-result-object p1
@@ -485,7 +442,6 @@
 
     if-nez p1, :cond_0
 
-    .line 1
     invoke-static {}, Lcom/meitu/library/optimus/apm/p;->d()Lcom/meitu/library/optimus/apm/l;
 
     move-result-object p1
@@ -494,7 +450,6 @@
 
     return-object p1
 
-    .line 2
     :cond_0
     invoke-virtual {p1}, Lcom/meitu/library/optimus/apm/k;->a()[B
 
@@ -504,7 +459,6 @@
 
     const-string v1, ""
 
-    .line 3
     invoke-virtual {v1}, Ljava/lang/String;->getBytes()[B
 
     move-result-object v1
@@ -512,7 +466,6 @@
     :cond_1
     move-object v6, v1
 
-    .line 4
     new-instance v1, Lcom/meitu/library/optimus/apm/i$b;
 
     iget-object v4, p1, Lcom/meitu/library/optimus/apm/k;->a:Lcom/meitu/library/optimus/apm/j;
@@ -533,10 +486,8 @@
 
     invoke-direct/range {v2 .. v8}, Lcom/meitu/library/optimus/apm/i$b;-><init>(Lcom/meitu/library/optimus/apm/i;Lcom/meitu/library/optimus/apm/j;Ljava/lang/String;[BLjava/util/List;Lcom/meitu/library/optimus/apm/a$a;)V
 
-    .line 5
     invoke-virtual {v1}, Lcom/meitu/library/optimus/apm/i$b;->run()V
 
-    .line 6
     invoke-static {v1}, Lcom/meitu/library/optimus/apm/i$b;->a(Lcom/meitu/library/optimus/apm/i$b;)Lcom/meitu/library/optimus/apm/l;
 
     move-result-object p1
@@ -566,14 +517,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/meitu/library/optimus/apm/DataProcessor;->isLibLoaded()Z
 
     move-result v1
 
     if-nez v1, :cond_0
 
-    .line 2
     invoke-static {}, Lcom/meitu/library/optimus/apm/p;->e()Lcom/meitu/library/optimus/apm/l;
 
     move-result-object p1
@@ -587,7 +536,6 @@
 
     const-string p2, ""
 
-    .line 3
     invoke-virtual {p2}, Ljava/lang/String;->getBytes()[B
 
     move-result-object p2
@@ -595,12 +543,10 @@
     :cond_1
     move-object v5, p2
 
-    .line 4
     new-instance v3, Lcom/meitu/library/optimus/apm/j;
 
     invoke-direct {v3}, Lcom/meitu/library/optimus/apm/j;-><init>()V
 
-    .line 5
     new-instance p2, Lcom/meitu/library/optimus/apm/i$b;
 
     move-object v1, p2
@@ -615,10 +561,8 @@
 
     invoke-direct/range {v1 .. v7}, Lcom/meitu/library/optimus/apm/i$b;-><init>(Lcom/meitu/library/optimus/apm/i;Lcom/meitu/library/optimus/apm/j;Ljava/lang/String;[BLjava/util/List;Lcom/meitu/library/optimus/apm/a$a;)V
 
-    .line 6
     invoke-virtual {p2}, Lcom/meitu/library/optimus/apm/i$b;->run()V
 
-    .line 7
     invoke-static {p2}, Lcom/meitu/library/optimus/apm/i$b;->a(Lcom/meitu/library/optimus/apm/i$b;)Lcom/meitu/library/optimus/apm/l;
 
     move-result-object p1
@@ -635,7 +579,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/library/optimus/apm/a;->d:Ljava/lang/String;
 
     invoke-static {v1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
@@ -644,14 +587,12 @@
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const-string v0, "apm"
 
     return-object v0
 
-    .line 3
     :cond_0
     iget-object v1, p0, Lcom/meitu/library/optimus/apm/a;->d:Ljava/lang/String;
 

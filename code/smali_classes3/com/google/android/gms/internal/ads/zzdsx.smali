@@ -24,15 +24,12 @@
 .method constructor <init>(Lcom/google/android/gms/internal/ads/zzdss;II)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/android/gms/internal/ads/zzdsx;->zzhma:Lcom/google/android/gms/internal/ads/zzdss;
 
     invoke-direct {p0}, Lcom/google/android/gms/internal/ads/zzdss;-><init>()V
 
-    .line 2
     iput p2, p0, Lcom/google/android/gms/internal/ads/zzdsx;->offset:I
 
-    .line 3
     iput p3, p0, Lcom/google/android/gms/internal/ads/zzdsx;->length:I
 
     return-void
@@ -48,12 +45,10 @@
         }
     .end annotation
 
-    .line 1
     iget v0, p0, Lcom/google/android/gms/internal/ads/zzdsx;->length:I
 
     invoke-static {p1, v0}, Lcom/google/android/gms/internal/ads/lo1;->g(II)I
 
-    .line 2
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/zzdsx;->zzhma:Lcom/google/android/gms/internal/ads/zzdss;
 
     iget v1, p0, Lcom/google/android/gms/internal/ads/zzdsx;->offset:I
@@ -70,7 +65,6 @@
 .method public final size()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lcom/google/android/gms/internal/ads/zzdsx;->length:I
 
     return v0
@@ -79,7 +73,6 @@
 .method public final synthetic subList(II)Ljava/util/List;
     .locals 0
 
-    .line 1
     invoke-virtual {p0, p1, p2}, Lcom/google/android/gms/internal/ads/zzdss;->zzu(II)Lcom/google/android/gms/internal/ads/zzdss;
 
     move-result-object p1
@@ -90,7 +83,6 @@
 .method final zzawh()[Ljava/lang/Object;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/zzdsx;->zzhma:Lcom/google/android/gms/internal/ads/zzdss;
 
     invoke-virtual {v0}, Lcom/google/android/gms/internal/ads/zzdsr;->zzawh()[Ljava/lang/Object;
@@ -103,7 +95,6 @@
 .method final zzawi()I
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/zzdsx;->zzhma:Lcom/google/android/gms/internal/ads/zzdss;
 
     invoke-virtual {v0}, Lcom/google/android/gms/internal/ads/zzdsr;->zzawi()I
@@ -120,7 +111,6 @@
 .method final zzawj()I
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/zzdsx;->zzhma:Lcom/google/android/gms/internal/ads/zzdss;
 
     invoke-virtual {v0}, Lcom/google/android/gms/internal/ads/zzdsr;->zzawi()I
@@ -156,12 +146,10 @@
         }
     .end annotation
 
-    .line 1
     iget v0, p0, Lcom/google/android/gms/internal/ads/zzdsx;->length:I
 
     invoke-static {p1, p2, v0}, Lcom/google/android/gms/internal/ads/lo1;->f(III)V
 
-    .line 2
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/zzdsx;->zzhma:Lcom/google/android/gms/internal/ads/zzdss;
 
     iget v1, p0, Lcom/google/android/gms/internal/ads/zzdsx;->offset:I

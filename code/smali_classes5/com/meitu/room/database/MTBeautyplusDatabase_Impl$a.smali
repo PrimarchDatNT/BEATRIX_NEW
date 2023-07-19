@@ -22,7 +22,6 @@
 .method constructor <init>(Lcom/meitu/room/database/MTBeautyplusDatabase_Impl;I)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/room/database/MTBeautyplusDatabase_Impl$a;->a:Lcom/meitu/room/database/MTBeautyplusDatabase_Impl;
 
     invoke-direct {p0, p2}, Landroidx/room/RoomOpenHelper$Delegate;-><init>(I)V
@@ -41,155 +40,124 @@
 
     const-string v1, "CREATE TABLE IF NOT EXISTS `AR_MATERIAL` (`_id` INTEGER, `NUMBER` INTEGER NOT NULL, `SORT` INTEGER NOT NULL, `VERSION_CONTROL` INTEGER NOT NULL, `MIN_VERSION` TEXT, `MAX_VERSION` TEXT, `FILE_URL` TEXT, `FILE_SIZE` TEXT, `THUMBNAIL` TEXT, `PREVIEW_URL` TEXT, `IS_HOT` INTEGER NOT NULL, `HOT_SORT` INTEGER NOT NULL, `HOT_END_TIME` INTEGER NOT NULL, `INTERACTIVE` INTEGER NOT NULL, `AUTO_DOWNLOAD` INTEGER NOT NULL, `IS_NEW` INTEGER NOT NULL, `NEW_SORT` INTEGER NOT NULL, `RED_TIME` INTEGER NOT NULL, `NEW_END_TIME` INTEGER NOT NULL, `END_TIME` INTEGER NOT NULL, `WEIGHT` INTEGER NOT NULL, `AFTER_WEIGHT` INTEGER NOT NULL, `TITLE` TEXT, `BGM_FLAG` INTEGER NOT NULL, `DBG_ENABLE` INTEGER NOT NULL, `DBG_URL` TEXT, `DBG_NUMBER` TEXT, `IS_3D` INTEGER NOT NULL, `FEATURED_SORT` INTEGER NOT NULL, `IS_FEATURED` INTEGER NOT NULL, `IS_COLLECTED` INTEGER NOT NULL, `IS_DOWNLOAD` INTEGER NOT NULL, `IS_DOWNLOADING` INTEGER NOT NULL, `DOWNLOAD_TIME` INTEGER NOT NULL, `IS_HIDE_RED` INTEGER NOT NULL, `GROUP_NUMBER` INTEGER NOT NULL, `IS_BG_DOWNLOAD` INTEGER NOT NULL, `IS_BG_DOWNLOADING` INTEGER NOT NULL, `IS_3D_DOWNLOAD` INTEGER NOT NULL, `IS_3D_DOWNLOADING` INTEGER NOT NULL, `END_USE_TIME` INTEGER NOT NULL, `IS_DYE_HAIR` INTEGER NOT NULL, `IS_DYE_HAIR_DOWNLOAD` INTEGER NOT NULL, `IS_DYE_HAIR_DOWNLOADING` INTEGER NOT NULL, `COLLECTION_TIME` INTEGER NOT NULL, `IS_HUMAN_POSTURE` INTEGER NOT NULL, `IS_HUMAN_DOWNLOAD` INTEGER NOT NULL, `IS_HUMAN_DOWNLOADING` INTEGER NOT NULL, `AR_ONLINE_TEXT` TEXT, `IS_SWITCHING` INTEGER NOT NULL, `IS_PHYSICAL` INTEGER NOT NULL, `IS_TOUCH` INTEGER NOT NULL, `REGION_HOT_SORT` INTEGER NOT NULL, `IS_ANIMAL_DOWNLOAD` INTEGER NOT NULL, `IS_PET` INTEGER NOT NULL, `REDIRECT_TO` TEXT, `ENABLE_TEXT` INTEGER NOT NULL, `IS_AFTER_SHARE` INTEGER NOT NULL, `IS_SHARE_LOCK` INTEGER NOT NULL, `IS_SKELETAL` INTEGER NOT NULL, `IS_SKELETON_DOWNLOAD` INTEGER NOT NULL, `IS_FACE_3D_V2` INTEGER NOT NULL, `IS_NECK_LOCK_POINT` INTEGER NOT NULL, `IS_NECK_LOCK_DOWNLOAD` INTEGER NOT NULL, `IS_FACE_3D_V2_DOWNLOAD` INTEGER NOT NULL, `AR_CORE_TYPE` INTEGER NOT NULL, `HASH_TAG` TEXT, `MAKE_LEVEL` INTEGER NOT NULL, `BEAUTY_LEVEL` INTEGER NOT NULL, `AR_HELP_TITLE` TEXT, `AR_HELP_RULE` INTEGER NOT NULL, `AR_HELP_URL` TEXT, `AR_HELP_IS_DOWNLOAD` INTEGER NOT NULL, `AR_HELP_TIP_TYPE` INTEGER NOT NULL, `IP_COLOR_CODE` TEXT, `LOCATIONS` INTEGER NOT NULL, `IS_HAND_POSE` INTEGER NOT NULL, `IS_NEED_WATER_MARK` INTEGER NOT NULL, `IP_STROE_ID` INTEGER NOT NULL, `LOCK_CAMERA` INTEGER NOT NULL, `AR_CORE_ICON` TEXT, `ALLOW_MODELS` INTEGER NOT NULL, `LIMIT_SPECIFIC_MODELS` TEXT, `SHOW_AR_CORE_ICON` INTEGER NOT NULL, `PAID_TYPE` TEXT, `NEW_AR` TEXT, PRIMARY KEY(`_id`))"
 
-    .line 1
     invoke-interface {p1, v1}, Landroidx/sqlite/db/SupportSQLiteDatabase;->execSQL(Ljava/lang/String;)V
 
     const-string v1, "CREATE TABLE IF NOT EXISTS `AR_MATERIAL_GROUP` (`_id` INTEGER, `NUMBER` INTEGER NOT NULL, `VERSION_CONTROL` INTEGER NOT NULL, `MIN_VERSION` TEXT, `MAX_VERSION` TEXT, `END_TIME` INTEGER NOT NULL, `ICON` TEXT, `TITLE` TEXT, `SORT` INTEGER NOT NULL, `GROUP_RED` INTEGER NOT NULL, `ONLINE_AT` INTEGER NOT NULL, `SEQUENCE` TEXT, `IS_RED` INTEGER NOT NULL, `IS_IP` INTEGER NOT NULL, `AD_SLOT_ID` TEXT, `IP_LOGO` TEXT, `IP_GROUP_SORT` INTEGER NOT NULL, `LITERAL_ICON` INTEGER NOT NULL, `LITERAL` TEXT, PRIMARY KEY(`_id`))"
 
-    .line 2
     invoke-interface {p1, v1}, Landroidx/sqlite/db/SupportSQLiteDatabase;->execSQL(Ljava/lang/String;)V
 
     const-string v1, "CREATE TABLE IF NOT EXISTS `AR_MATERIAL_PAID_INFO` (`_id` INTEGER, `NUMBER` INTEGER NOT NULL, `CATEGORY_NUMBER` INTEGER NOT NULL, `GOODS_ID` TEXT, `ITEMS` TEXT, `IS_PAID` INTEGER NOT NULL, PRIMARY KEY(`_id`))"
 
-    .line 3
     invoke-interface {p1, v1}, Landroidx/sqlite/db/SupportSQLiteDatabase;->execSQL(Ljava/lang/String;)V
 
     const-string v1, "CREATE TABLE IF NOT EXISTS `CHAT_FILED` (`_id` INTEGER, `UID` TEXT, `TOKEN` TEXT, `IMAGE_PATH` TEXT, `UPLOAD_STATE` INTEGER, PRIMARY KEY(`_id`))"
 
-    .line 4
     invoke-interface {p1, v1}, Landroidx/sqlite/db/SupportSQLiteDatabase;->execSQL(Ljava/lang/String;)V
 
     const-string v1, "CREATE TABLE IF NOT EXISTS `CHAT` (`ID` REAL NOT NULL, `UID` TEXT, `CONTENT` TEXT, `ROLE` INTEGER, `TIME` TEXT, `CHAT_FAIL` INTEGER, `IMAGE` TEXT, `HASIMG` INTEGER, `UPLOAD_STATE` INTEGER, PRIMARY KEY(`ID`))"
 
-    .line 5
     invoke-interface {p1, v1}, Landroidx/sqlite/db/SupportSQLiteDatabase;->execSQL(Ljava/lang/String;)V
 
     const-string v1, "CREATE TABLE IF NOT EXISTS `MAKEUP_ENTITY` (`_id` INTEGER NOT NULL, `name` TEXT, `type` INTEGER NOT NULL, `alpha` INTEGER NOT NULL, `default_alpha` INTEGER NOT NULL, `is_internal` INTEGER NOT NULL, `version_control` INTEGER NOT NULL, `min_version` TEXT, `max_version` TEXT, `red_end_time` INTEGER NOT NULL, `auto_download` INTEGER NOT NULL, `sort` INTEGER NOT NULL, `category_id` INTEGER NOT NULL, `icon` TEXT, `file` TEXT, `is_downloaded` INTEGER NOT NULL, `apply_model` INTEGER NOT NULL, `material_type` INTEGER NOT NULL, `is_default` INTEGER NOT NULL, `theme_color` TEXT, `suit_default_alpha` INTEGER NOT NULL, `filter_default_alpha` INTEGER NOT NULL, `corner_marker` INTEGER NOT NULL, `gender` INTEGER NOT NULL, PRIMARY KEY(`_id`))"
 
-    .line 6
     invoke-interface {p1, v1}, Landroidx/sqlite/db/SupportSQLiteDatabase;->execSQL(Ljava/lang/String;)V
 
     const-string v1, "CREATE TABLE IF NOT EXISTS `MONTAGE_GROUP_ENTITY` (`id` TEXT NOT NULL, `category_id` TEXT, `group_name` TEXT, `icon_url` TEXT, `group_type` INTEGER NOT NULL, `group_sort` INTEGER NOT NULL, `group_is_available` INTEGER NOT NULL, `group_gender` INTEGER NOT NULL, `group_is_new_girl` INTEGER NOT NULL, `group_is_new_man` INTEGER NOT NULL, PRIMARY KEY(`id`))"
 
-    .line 7
     invoke-interface {p1, v1}, Landroidx/sqlite/db/SupportSQLiteDatabase;->execSQL(Ljava/lang/String;)V
 
     const-string v1, "CREATE TABLE IF NOT EXISTS `MONTAGE_MATERIAL_ENTITY` (`id` TEXT NOT NULL, `material_id` TEXT, `category_id` TEXT, `material_name` TEXT, `icon_url` TEXT, `file_url` TEXT, `md5` TEXT, `material_type` INTEGER NOT NULL, `material_sort` INTEGER NOT NULL, `material_download_type` INTEGER NOT NULL, `status` INTEGER NOT NULL, `material_is_available` INTEGER NOT NULL, `material_gender` INTEGER NOT NULL, `material_is_new_girl` INTEGER NOT NULL, `material_is_new_man` INTEGER NOT NULL, `material_is_paid` INTEGER NOT NULL, `material_goods_id` TEXT, `material_sample_url` TEXT, `material_limit_version` TEXT, PRIMARY KEY(`id`))"
 
-    .line 8
     invoke-interface {p1, v1}, Landroidx/sqlite/db/SupportSQLiteDatabase;->execSQL(Ljava/lang/String;)V
 
     const-string v1, "CREATE TABLE IF NOT EXISTS `MOSAIC_LOCAL_ENTITY` (`mosaic_id` TEXT NOT NULL, `download_type` INTEGER NOT NULL, `mosaic_name` TEXT, `mosaic_thumbnail` TEXT, `is_available` INTEGER NOT NULL, `status` INTEGER NOT NULL, `file` TEXT, `material_md5` TEXT, `sort` INTEGER NOT NULL, `is_paid` INTEGER NOT NULL, `goods_id` TEXT, `paid_icon` TEXT, PRIMARY KEY(`mosaic_id`))"
 
-    .line 9
     invoke-interface {p1, v1}, Landroidx/sqlite/db/SupportSQLiteDatabase;->execSQL(Ljava/lang/String;)V
 
     const-string v1, "CREATE TABLE IF NOT EXISTS `NEW_FILTER` (`FilterId` INTEGER NOT NULL, `FilterThumbnail` TEXT, `FilterNewName` TEXT, `FilterOldName` TEXT, `FilterShopThumbnail` TEXT, `IsFilterRecommend` INTEGER NOT NULL, `FilterFileUrl` TEXT, `DisplayInList` INTEGER NOT NULL, `FilterSort` INTEGER NOT NULL, `CollectedState` INTEGER NOT NULL, `CollectedTime` INTEGER NOT NULL, `InternalState` INTEGER NOT NULL, `DownloadState` INTEGER NOT NULL, `GroupId` INTEGER NOT NULL, `FilterDefaultAlpha` INTEGER NOT NULL, `AlphaInCamera` INTEGER NOT NULL, `NeedNewMode` INTEGER NOT NULL, `NeedBodyMask` INTEGER NOT NULL, `NeedHairMode` INTEGER NOT NULL, `ShowState` INTEGER NOT NULL, `tag` INTEGER NOT NULL, PRIMARY KEY(`FilterId`))"
 
-    .line 10
     invoke-interface {p1, v1}, Landroidx/sqlite/db/SupportSQLiteDatabase;->execSQL(Ljava/lang/String;)V
 
     const-string v1, "CREATE TABLE IF NOT EXISTS `FILTER_CATEGORY_INFO` (`CategoryId` INTEGER NOT NULL, `CategoryName` TEXT, `CategorySort` INTEGER NOT NULL, `LockLocalState` INTEGER NOT NULL, PRIMARY KEY(`CategoryId`))"
 
-    .line 11
     invoke-interface {p1, v1}, Landroidx/sqlite/db/SupportSQLiteDatabase;->execSQL(Ljava/lang/String;)V
 
     const-string v1, "CREATE TABLE IF NOT EXISTS `FILTER_GROUP_INFO` (`GroupId` INTEGER NOT NULL, `FilterCount` INTEGER NOT NULL, `GroupName` TEXT, `GroupDesc` TEXT, `GroupPaidState` INTEGER NOT NULL, `GroupThumbnail` TEXT, `GroupPaidInfo` TEXT, `isAvailable` INTEGER NOT NULL, `GroupSort` INTEGER NOT NULL, `GroupTag` INTEGER NOT NULL, `InternalState` INTEGER NOT NULL, `DownloadType` INTEGER NOT NULL, `GroupPrice` TEXT, `CategoryId` INTEGER NOT NULL, `GroupColor` TEXT, `updateAt` INTEGER NOT NULL, `localInsertTime` INTEGER NOT NULL, PRIMARY KEY(`GroupId`))"
 
-    .line 12
     invoke-interface {p1, v1}, Landroidx/sqlite/db/SupportSQLiteDatabase;->execSQL(Ljava/lang/String;)V
 
     const-string v1, "CREATE TABLE IF NOT EXISTS `STICKER_MATERIAL` (`StickerId` INTEGER NOT NULL, `StickerRecommendState` INTEGER NOT NULL, `stickerThumbnail` TEXT, `GroupId` INTEGER NOT NULL, `StickerFile` TEXT, `StickerSort` INTEGER NOT NULL, `ContainInHistory` INTEGER NOT NULL, `HistoryTime` INTEGER NOT NULL, `DownloadFromRecommend` INTEGER NOT NULL, `custom` INTEGER NOT NULL, `DownloadState` INTEGER NOT NULL, `InternalState` INTEGER NOT NULL, PRIMARY KEY(`StickerId`))"
 
-    .line 13
     invoke-interface {p1, v1}, Landroidx/sqlite/db/SupportSQLiteDatabase;->execSQL(Ljava/lang/String;)V
 
     const-string v1, "CREATE TABLE IF NOT EXISTS `STICKER_MATERIAL_GROUP` (`GroupId` INTEGER NOT NULL, `GroupName` TEXT, `GroupPaidState` INTEGER NOT NULL, `GroupTag` INTEGER NOT NULL, `InternalState` INTEGER NOT NULL, `DownloadType` INTEGER NOT NULL, `GroupSceneImage` TEXT, `GroupThumbnail` TEXT, `StickerEnableTint` INTEGER NOT NULL, `StickerCreator` TEXT, `StickerBg` TEXT, `GroupCoverImage` TEXT, `updateAt` INTEGER NOT NULL, `localInsertTime` INTEGER NOT NULL, `displayIcon` TEXT, `GroupSort` INTEGER NOT NULL, `CategoryId` INTEGER NOT NULL, `isAvailable` INTEGER NOT NULL, `LockLocalState` INTEGER NOT NULL, `NeedShow` INTEGER NOT NULL, PRIMARY KEY(`GroupId`))"
 
-    .line 14
     invoke-interface {p1, v1}, Landroidx/sqlite/db/SupportSQLiteDatabase;->execSQL(Ljava/lang/String;)V
 
     const-string v1, "CREATE TABLE IF NOT EXISTS `STICKER_CATEGORY` (`CategoryId` INTEGER NOT NULL, `CategoryName` TEXT, `CategorySort` INTEGER NOT NULL, `LockLocalState` INTEGER NOT NULL, PRIMARY KEY(`CategoryId`))"
 
-    .line 15
     invoke-interface {p1, v1}, Landroidx/sqlite/db/SupportSQLiteDatabase;->execSQL(Ljava/lang/String;)V
 
     const-string v1, "CREATE TABLE IF NOT EXISTS `LOOK_MATERIAL` (`id` INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, `onlineId` INTEGER NOT NULL, `sort` INTEGER NOT NULL, `title` TEXT, `isInside` INTEGER NOT NULL, `url` TEXT, `packageSize` INTEGER NOT NULL, `icon` TEXT, `uiColor` TEXT, `downloadMode` INTEGER NOT NULL, `sex` INTEGER NOT NULL, `materialMd5` TEXT, `isAvailable` INTEGER NOT NULL, `status` INTEGER NOT NULL, `isDownloaded` INTEGER NOT NULL, `isNew` INTEGER NOT NULL, `startedAt` INTEGER NOT NULL, `endedAt` INTEGER NOT NULL, `singleMakeup` TEXT, `paidType` INTEGER NOT NULL)"
 
-    .line 16
     invoke-interface {p1, v1}, Landroidx/sqlite/db/SupportSQLiteDatabase;->execSQL(Ljava/lang/String;)V
 
     const-string v1, "CREATE TABLE IF NOT EXISTS `MAKEUP_MATERIAL` (`id` INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, `onlineId` TEXT NOT NULL, `isInside` INTEGER NOT NULL, `makeupType` INTEGER NOT NULL, `name` TEXT, `icon` TEXT, `configType` INTEGER NOT NULL, `styleConfig` TEXT, `url` TEXT, `color` TEXT, `paidType` INTEGER NOT NULL, `defaultAlpha` INTEGER NOT NULL, `downloadType` INTEGER NOT NULL, `isDownloaded` INTEGER NOT NULL, `sort` INTEGER NOT NULL, `isSupportGl3` INTEGER NOT NULL, `isNew` INTEGER NOT NULL, `isNewTime` INTEGER NOT NULL, `endedAt` INTEGER NOT NULL, `recommends` TEXT)"
 
-    .line 17
     invoke-interface {p1, v1}, Landroidx/sqlite/db/SupportSQLiteDatabase;->execSQL(Ljava/lang/String;)V
 
     const-string v1, "CREATE TABLE IF NOT EXISTS `DOODLE_MATERIAL` (`DoodleId` INTEGER NOT NULL, `DoodleThumbnail` TEXT, `DoodleFile` TEXT, `PaidState` INTEGER NOT NULL, `DoodleTag` INTEGER NOT NULL, `DoodleRecommendState` INTEGER NOT NULL, `DownloadType` INTEGER NOT NULL, `isAvailable` INTEGER NOT NULL, `CanEditColor` INTEGER NOT NULL, `ProductId` TEXT, `DoodleAmount` INTEGER NOT NULL, `ListDisplay` INTEGER NOT NULL, `NeedShow` INTEGER NOT NULL, `CategoryId` INTEGER NOT NULL, `DoodleSort` INTEGER NOT NULL, `DoodleCollectState` INTEGER NOT NULL, `DoodleCollectTime` INTEGER NOT NULL, `updateAt` INTEGER NOT NULL, `localInsertTime` INTEGER NOT NULL, `DownloadState` INTEGER NOT NULL, `InternalState` INTEGER NOT NULL, PRIMARY KEY(`DoodleId`))"
 
-    .line 18
     invoke-interface {p1, v1}, Landroidx/sqlite/db/SupportSQLiteDatabase;->execSQL(Ljava/lang/String;)V
 
     const-string v1, "CREATE TABLE IF NOT EXISTS `DOODLE_CATEGORY` (`CategoryId` INTEGER NOT NULL, `CategoryName` TEXT, `CategorySort` INTEGER NOT NULL, `LockLocalState` INTEGER NOT NULL, PRIMARY KEY(`CategoryId`))"
 
-    .line 19
     invoke-interface {p1, v1}, Landroidx/sqlite/db/SupportSQLiteDatabase;->execSQL(Ljava/lang/String;)V
 
     const-string v1, "CREATE TABLE IF NOT EXISTS `TEXTURE_MATERIAL` (`m_id` TEXT NOT NULL, `icon` TEXT, `name` TEXT, `file` TEXT, `is_new` INTEGER NOT NULL, `is_new_time` INTEGER NOT NULL, `ended_at` INTEGER NOT NULL, `download_type` INTEGER NOT NULL, `paid_type` INTEGER NOT NULL, `sort` INTEGER NOT NULL, `downloadState` INTEGER NOT NULL, `config` TEXT, `internalState` INTEGER NOT NULL, PRIMARY KEY(`m_id`))"
 
-    .line 20
     invoke-interface {p1, v1}, Landroidx/sqlite/db/SupportSQLiteDatabase;->execSQL(Ljava/lang/String;)V
 
     const-string v1, "CREATE TABLE IF NOT EXISTS `TEXT_TEMPLATE_MATERIAL` (`m_id` TEXT NOT NULL, `icon` TEXT, `name` TEXT, `file` TEXT, `is_new` INTEGER NOT NULL, `is_new_time` INTEGER NOT NULL, `ended_at` INTEGER NOT NULL, `download_type` INTEGER NOT NULL, `paid_type` INTEGER NOT NULL, `sort` INTEGER NOT NULL, `downloadState` INTEGER NOT NULL, `config` TEXT, `internalState` INTEGER NOT NULL, PRIMARY KEY(`m_id`))"
 
-    .line 21
     invoke-interface {p1, v1}, Landroidx/sqlite/db/SupportSQLiteDatabase;->execSQL(Ljava/lang/String;)V
 
     const-string v1, "CREATE TABLE IF NOT EXISTS `GRADIENT_MATERIAL` (`m_id` TEXT NOT NULL, `icon` TEXT, `name` TEXT, `file` TEXT, `is_new` INTEGER NOT NULL, `is_new_time` INTEGER NOT NULL, `ended_at` INTEGER NOT NULL, `download_type` INTEGER NOT NULL, `paid_type` INTEGER NOT NULL, `sort` INTEGER NOT NULL, `downloadState` INTEGER NOT NULL, `config` TEXT, `internalState` INTEGER NOT NULL, PRIMARY KEY(`m_id`))"
 
-    .line 22
     invoke-interface {p1, v1}, Landroidx/sqlite/db/SupportSQLiteDatabase;->execSQL(Ljava/lang/String;)V
 
     const-string v1, "CREATE TABLE IF NOT EXISTS `TEXT_FRONT_MATERIAL` (`m_id` TEXT NOT NULL, `icon` TEXT, `name` TEXT, `file` TEXT, `is_new` INTEGER NOT NULL, `is_new_time` INTEGER NOT NULL, `ended_at` INTEGER NOT NULL, `download_type` INTEGER NOT NULL, `paid_type` INTEGER NOT NULL, `sort` INTEGER NOT NULL, `downloadState` INTEGER NOT NULL, `category` TEXT, `internalState` INTEGER NOT NULL, PRIMARY KEY(`m_id`))"
 
-    .line 23
     invoke-interface {p1, v1}, Landroidx/sqlite/db/SupportSQLiteDatabase;->execSQL(Ljava/lang/String;)V
 
     const-string v1, "CREATE TABLE IF NOT EXISTS `DOODLE_MATERIAL_DUFFLE` (`m_id` TEXT NOT NULL, `icon` TEXT, `name` TEXT, `file` TEXT, `is_new` INTEGER NOT NULL, `is_new_time` INTEGER NOT NULL, `ended_at` INTEGER NOT NULL, `download_type` INTEGER NOT NULL, `paid_type` INTEGER NOT NULL, `PaidSort` INTEGER NOT NULL, `sort` INTEGER NOT NULL, `downloadState` INTEGER NOT NULL, `CanEditColor` INTEGER NOT NULL, `ListDisplay` INTEGER NOT NULL, `Hot` INTEGER NOT NULL, `HotSort` INTEGER NOT NULL, `internalState` INTEGER NOT NULL, `CategoryId` TEXT, `DoodleCollectState` INTEGER NOT NULL, `DoodleCollectTime` INTEGER NOT NULL, `NeedShow` INTEGER NOT NULL, `localInsertTime` INTEGER NOT NULL, PRIMARY KEY(`m_id`))"
 
-    .line 24
     invoke-interface {p1, v1}, Landroidx/sqlite/db/SupportSQLiteDatabase;->execSQL(Ljava/lang/String;)V
 
     const-string v1, "CREATE TABLE IF NOT EXISTS `FORMULA_MATERIAL_DUFFLE` (`FormulaId` TEXT NOT NULL, `FormulaThumbnail` TEXT, `FormulaConfig` TEXT, `PaidState` INTEGER NOT NULL, `ProductsInfo` TEXT, `IconRatio` TEXT, `CreateTime` INTEGER NOT NULL, `HotState` INTEGER NOT NULL, `HotSort` INTEGER NOT NULL, `RecommendState` INTEGER NOT NULL, `RecommendSort` INTEGER NOT NULL, `NewState` INTEGER NOT NULL, `EndedAt` INTEGER NOT NULL, `Sort` TEXT, `RecentUseTime` INTEGER NOT NULL, `CategoryId` TEXT, `DownloadState` INTEGER NOT NULL, `InternalState` INTEGER NOT NULL, PRIMARY KEY(`FormulaId`))"
 
-    .line 25
     invoke-interface {p1, v1}, Landroidx/sqlite/db/SupportSQLiteDatabase;->execSQL(Ljava/lang/String;)V
 
     const-string v1, "CREATE TABLE IF NOT EXISTS `ONLINE_DIALOG_ENTITY` (`Rid` TEXT NOT NULL, `SubStatus` INTEGER NOT NULL, `UserStatus` INTEGER NOT NULL, `DeviceLevel` INTEGER NOT NULL, `Weight` INTEGER NOT NULL, `Bout` INTEGER NOT NULL, `Number` INTEGER NOT NULL, `TriggerType` INTEGER NOT NULL, `PopupType` INTEGER NOT NULL, `PopupConfig` TEXT, `createdAt` INTEGER NOT NULL, `updateAt` INTEGER NOT NULL, PRIMARY KEY(`Rid`))"
 
-    .line 26
     invoke-interface {p1, v1}, Landroidx/sqlite/db/SupportSQLiteDatabase;->execSQL(Ljava/lang/String;)V
 
     const-string v1, "CREATE TABLE IF NOT EXISTS `FORMULA_CATEGORY` (`CategoryId` TEXT NOT NULL, `CategoryName` TEXT, `CategorySort` INTEGER NOT NULL, `InternalState` INTEGER NOT NULL, PRIMARY KEY(`CategoryId`))"
 
-    .line 27
     invoke-interface {p1, v1}, Landroidx/sqlite/db/SupportSQLiteDatabase;->execSQL(Ljava/lang/String;)V
 
     const-string v1, "CREATE TABLE IF NOT EXISTS `NEW_DOODLE_CATEGORY` (`CategoryId` TEXT NOT NULL, `CategoryName` TEXT, `CategorySort` INTEGER NOT NULL, `InternalState` INTEGER NOT NULL, PRIMARY KEY(`CategoryId`))"
 
-    .line 28
     invoke-interface {p1, v1}, Landroidx/sqlite/db/SupportSQLiteDatabase;->execSQL(Ljava/lang/String;)V
 
     const-string v1, "CREATE TABLE IF NOT EXISTS room_master_table (id INTEGER PRIMARY KEY,identity_hash TEXT)"
 
-    .line 29
     invoke-interface {p1, v1}, Landroidx/sqlite/db/SupportSQLiteDatabase;->execSQL(Ljava/lang/String;)V
 
     const-string v1, "INSERT OR REPLACE INTO room_master_table (id,identity_hash) VALUES(42, \'bbb5e542e0df67e87ebca121245d3a2d\')"
 
-    .line 30
     invoke-interface {p1, v1}, Landroidx/sqlite/db/SupportSQLiteDatabase;->execSQL(Ljava/lang/String;)V
 
-    .line 31
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -204,145 +172,116 @@
 
     const-string v1, "DROP TABLE IF EXISTS `AR_MATERIAL`"
 
-    .line 1
     invoke-interface {p1, v1}, Landroidx/sqlite/db/SupportSQLiteDatabase;->execSQL(Ljava/lang/String;)V
 
     const-string v1, "DROP TABLE IF EXISTS `AR_MATERIAL_GROUP`"
 
-    .line 2
     invoke-interface {p1, v1}, Landroidx/sqlite/db/SupportSQLiteDatabase;->execSQL(Ljava/lang/String;)V
 
     const-string v1, "DROP TABLE IF EXISTS `AR_MATERIAL_PAID_INFO`"
 
-    .line 3
     invoke-interface {p1, v1}, Landroidx/sqlite/db/SupportSQLiteDatabase;->execSQL(Ljava/lang/String;)V
 
     const-string v1, "DROP TABLE IF EXISTS `CHAT_FILED`"
 
-    .line 4
     invoke-interface {p1, v1}, Landroidx/sqlite/db/SupportSQLiteDatabase;->execSQL(Ljava/lang/String;)V
 
     const-string v1, "DROP TABLE IF EXISTS `CHAT`"
 
-    .line 5
     invoke-interface {p1, v1}, Landroidx/sqlite/db/SupportSQLiteDatabase;->execSQL(Ljava/lang/String;)V
 
     const-string v1, "DROP TABLE IF EXISTS `MAKEUP_ENTITY`"
 
-    .line 6
     invoke-interface {p1, v1}, Landroidx/sqlite/db/SupportSQLiteDatabase;->execSQL(Ljava/lang/String;)V
 
     const-string v1, "DROP TABLE IF EXISTS `MONTAGE_GROUP_ENTITY`"
 
-    .line 7
     invoke-interface {p1, v1}, Landroidx/sqlite/db/SupportSQLiteDatabase;->execSQL(Ljava/lang/String;)V
 
     const-string v1, "DROP TABLE IF EXISTS `MONTAGE_MATERIAL_ENTITY`"
 
-    .line 8
     invoke-interface {p1, v1}, Landroidx/sqlite/db/SupportSQLiteDatabase;->execSQL(Ljava/lang/String;)V
 
     const-string v1, "DROP TABLE IF EXISTS `MOSAIC_LOCAL_ENTITY`"
 
-    .line 9
     invoke-interface {p1, v1}, Landroidx/sqlite/db/SupportSQLiteDatabase;->execSQL(Ljava/lang/String;)V
 
     const-string v1, "DROP TABLE IF EXISTS `NEW_FILTER`"
 
-    .line 10
     invoke-interface {p1, v1}, Landroidx/sqlite/db/SupportSQLiteDatabase;->execSQL(Ljava/lang/String;)V
 
     const-string v1, "DROP TABLE IF EXISTS `FILTER_CATEGORY_INFO`"
 
-    .line 11
     invoke-interface {p1, v1}, Landroidx/sqlite/db/SupportSQLiteDatabase;->execSQL(Ljava/lang/String;)V
 
     const-string v1, "DROP TABLE IF EXISTS `FILTER_GROUP_INFO`"
 
-    .line 12
     invoke-interface {p1, v1}, Landroidx/sqlite/db/SupportSQLiteDatabase;->execSQL(Ljava/lang/String;)V
 
     const-string v1, "DROP TABLE IF EXISTS `STICKER_MATERIAL`"
 
-    .line 13
     invoke-interface {p1, v1}, Landroidx/sqlite/db/SupportSQLiteDatabase;->execSQL(Ljava/lang/String;)V
 
     const-string v1, "DROP TABLE IF EXISTS `STICKER_MATERIAL_GROUP`"
 
-    .line 14
     invoke-interface {p1, v1}, Landroidx/sqlite/db/SupportSQLiteDatabase;->execSQL(Ljava/lang/String;)V
 
     const-string v1, "DROP TABLE IF EXISTS `STICKER_CATEGORY`"
 
-    .line 15
     invoke-interface {p1, v1}, Landroidx/sqlite/db/SupportSQLiteDatabase;->execSQL(Ljava/lang/String;)V
 
     const-string v1, "DROP TABLE IF EXISTS `LOOK_MATERIAL`"
 
-    .line 16
     invoke-interface {p1, v1}, Landroidx/sqlite/db/SupportSQLiteDatabase;->execSQL(Ljava/lang/String;)V
 
     const-string v1, "DROP TABLE IF EXISTS `MAKEUP_MATERIAL`"
 
-    .line 17
     invoke-interface {p1, v1}, Landroidx/sqlite/db/SupportSQLiteDatabase;->execSQL(Ljava/lang/String;)V
 
     const-string v1, "DROP TABLE IF EXISTS `DOODLE_MATERIAL`"
 
-    .line 18
     invoke-interface {p1, v1}, Landroidx/sqlite/db/SupportSQLiteDatabase;->execSQL(Ljava/lang/String;)V
 
     const-string v1, "DROP TABLE IF EXISTS `DOODLE_CATEGORY`"
 
-    .line 19
     invoke-interface {p1, v1}, Landroidx/sqlite/db/SupportSQLiteDatabase;->execSQL(Ljava/lang/String;)V
 
     const-string v1, "DROP TABLE IF EXISTS `TEXTURE_MATERIAL`"
 
-    .line 20
     invoke-interface {p1, v1}, Landroidx/sqlite/db/SupportSQLiteDatabase;->execSQL(Ljava/lang/String;)V
 
     const-string v1, "DROP TABLE IF EXISTS `TEXT_TEMPLATE_MATERIAL`"
 
-    .line 21
     invoke-interface {p1, v1}, Landroidx/sqlite/db/SupportSQLiteDatabase;->execSQL(Ljava/lang/String;)V
 
     const-string v1, "DROP TABLE IF EXISTS `GRADIENT_MATERIAL`"
 
-    .line 22
     invoke-interface {p1, v1}, Landroidx/sqlite/db/SupportSQLiteDatabase;->execSQL(Ljava/lang/String;)V
 
     const-string v1, "DROP TABLE IF EXISTS `TEXT_FRONT_MATERIAL`"
 
-    .line 23
     invoke-interface {p1, v1}, Landroidx/sqlite/db/SupportSQLiteDatabase;->execSQL(Ljava/lang/String;)V
 
     const-string v1, "DROP TABLE IF EXISTS `DOODLE_MATERIAL_DUFFLE`"
 
-    .line 24
     invoke-interface {p1, v1}, Landroidx/sqlite/db/SupportSQLiteDatabase;->execSQL(Ljava/lang/String;)V
 
     const-string v1, "DROP TABLE IF EXISTS `FORMULA_MATERIAL_DUFFLE`"
 
-    .line 25
     invoke-interface {p1, v1}, Landroidx/sqlite/db/SupportSQLiteDatabase;->execSQL(Ljava/lang/String;)V
 
     const-string v1, "DROP TABLE IF EXISTS `ONLINE_DIALOG_ENTITY`"
 
-    .line 26
     invoke-interface {p1, v1}, Landroidx/sqlite/db/SupportSQLiteDatabase;->execSQL(Ljava/lang/String;)V
 
     const-string v1, "DROP TABLE IF EXISTS `FORMULA_CATEGORY`"
 
-    .line 27
     invoke-interface {p1, v1}, Landroidx/sqlite/db/SupportSQLiteDatabase;->execSQL(Ljava/lang/String;)V
 
     const-string v1, "DROP TABLE IF EXISTS `NEW_DOODLE_CATEGORY`"
 
-    .line 28
     invoke-interface {p1, v1}, Landroidx/sqlite/db/SupportSQLiteDatabase;->execSQL(Ljava/lang/String;)V
 
-    .line 29
     iget-object v1, p0, Lcom/meitu/room/database/MTBeautyplusDatabase_Impl$a;->a:Lcom/meitu/room/database/MTBeautyplusDatabase_Impl;
 
     invoke-static {v1}, Lcom/meitu/room/database/MTBeautyplusDatabase_Impl;->C(Lcom/meitu/room/database/MTBeautyplusDatabase_Impl;)Ljava/util/List;
@@ -353,7 +292,6 @@
 
     const/4 v1, 0x0
 
-    .line 30
     iget-object v2, p0, Lcom/meitu/room/database/MTBeautyplusDatabase_Impl$a;->a:Lcom/meitu/room/database/MTBeautyplusDatabase_Impl;
 
     invoke-static {v2}, Lcom/meitu/room/database/MTBeautyplusDatabase_Impl;->D(Lcom/meitu/room/database/MTBeautyplusDatabase_Impl;)Ljava/util/List;
@@ -367,7 +305,6 @@
     :goto_0
     if-ge v1, v2, :cond_0
 
-    .line 31
     iget-object v3, p0, Lcom/meitu/room/database/MTBeautyplusDatabase_Impl$a;->a:Lcom/meitu/room/database/MTBeautyplusDatabase_Impl;
 
     invoke-static {v3}, Lcom/meitu/room/database/MTBeautyplusDatabase_Impl;->F(Lcom/meitu/room/database/MTBeautyplusDatabase_Impl;)Ljava/util/List;
@@ -386,7 +323,6 @@
 
     goto :goto_0
 
-    .line 32
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -400,7 +336,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/room/database/MTBeautyplusDatabase_Impl$a;->a:Lcom/meitu/room/database/MTBeautyplusDatabase_Impl;
 
     invoke-static {v1}, Lcom/meitu/room/database/MTBeautyplusDatabase_Impl;->G(Lcom/meitu/room/database/MTBeautyplusDatabase_Impl;)Ljava/util/List;
@@ -411,7 +346,6 @@
 
     const/4 v1, 0x0
 
-    .line 2
     iget-object v2, p0, Lcom/meitu/room/database/MTBeautyplusDatabase_Impl$a;->a:Lcom/meitu/room/database/MTBeautyplusDatabase_Impl;
 
     invoke-static {v2}, Lcom/meitu/room/database/MTBeautyplusDatabase_Impl;->H(Lcom/meitu/room/database/MTBeautyplusDatabase_Impl;)Ljava/util/List;
@@ -425,7 +359,6 @@
     :goto_0
     if-ge v1, v2, :cond_0
 
-    .line 3
     iget-object v3, p0, Lcom/meitu/room/database/MTBeautyplusDatabase_Impl$a;->a:Lcom/meitu/room/database/MTBeautyplusDatabase_Impl;
 
     invoke-static {v3}, Lcom/meitu/room/database/MTBeautyplusDatabase_Impl;->I(Lcom/meitu/room/database/MTBeautyplusDatabase_Impl;)Ljava/util/List;
@@ -444,7 +377,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -458,17 +390,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/room/database/MTBeautyplusDatabase_Impl$a;->a:Lcom/meitu/room/database/MTBeautyplusDatabase_Impl;
 
     invoke-static {v1, p1}, Lcom/meitu/room/database/MTBeautyplusDatabase_Impl;->J(Lcom/meitu/room/database/MTBeautyplusDatabase_Impl;Landroidx/sqlite/db/SupportSQLiteDatabase;)Landroidx/sqlite/db/SupportSQLiteDatabase;
 
-    .line 2
     iget-object v1, p0, Lcom/meitu/room/database/MTBeautyplusDatabase_Impl$a;->a:Lcom/meitu/room/database/MTBeautyplusDatabase_Impl;
 
     invoke-static {v1, p1}, Lcom/meitu/room/database/MTBeautyplusDatabase_Impl;->K(Lcom/meitu/room/database/MTBeautyplusDatabase_Impl;Landroidx/sqlite/db/SupportSQLiteDatabase;)V
 
-    .line 3
     iget-object v1, p0, Lcom/meitu/room/database/MTBeautyplusDatabase_Impl$a;->a:Lcom/meitu/room/database/MTBeautyplusDatabase_Impl;
 
     invoke-static {v1}, Lcom/meitu/room/database/MTBeautyplusDatabase_Impl;->L(Lcom/meitu/room/database/MTBeautyplusDatabase_Impl;)Ljava/util/List;
@@ -479,7 +408,6 @@
 
     const/4 v1, 0x0
 
-    .line 4
     iget-object v2, p0, Lcom/meitu/room/database/MTBeautyplusDatabase_Impl$a;->a:Lcom/meitu/room/database/MTBeautyplusDatabase_Impl;
 
     invoke-static {v2}, Lcom/meitu/room/database/MTBeautyplusDatabase_Impl;->M(Lcom/meitu/room/database/MTBeautyplusDatabase_Impl;)Ljava/util/List;
@@ -493,7 +421,6 @@
     :goto_0
     if-ge v1, v2, :cond_0
 
-    .line 5
     iget-object v3, p0, Lcom/meitu/room/database/MTBeautyplusDatabase_Impl$a;->a:Lcom/meitu/room/database/MTBeautyplusDatabase_Impl;
 
     invoke-static {v3}, Lcom/meitu/room/database/MTBeautyplusDatabase_Impl;->E(Lcom/meitu/room/database/MTBeautyplusDatabase_Impl;)Ljava/util/List;
@@ -512,7 +439,6 @@
 
     goto :goto_0
 
-    .line 6
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -526,7 +452,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -539,10 +464,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Landroidx/room/util/DBUtil;->dropFtsSyncTriggers(Landroidx/sqlite/db/SupportSQLiteDatabase;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -557,14 +480,12 @@
 
     invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v2, Ljava/util/HashMap;
 
     const/16 v3, 0x56
 
     invoke-direct {v2, v3}, Ljava/util/HashMap;-><init>(I)V
 
-    .line 2
     new-instance v3, Landroidx/room/util/TableInfo$Column;
 
     const-string v5, "_id"
@@ -587,7 +508,6 @@
 
     invoke-virtual {v2, v4, v3}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 3
     new-instance v3, Landroidx/room/util/TableInfo$Column;
 
     const-string v6, "NUMBER"
@@ -608,7 +528,6 @@
 
     invoke-virtual {v2, v5, v3}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 4
     new-instance v3, Landroidx/room/util/TableInfo$Column;
 
     const-string v7, "SORT"
@@ -631,7 +550,6 @@
 
     invoke-virtual {v2, v5, v3}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 5
     new-instance v3, Landroidx/room/util/TableInfo$Column;
 
     const-string v7, "VERSION_CONTROL"
@@ -646,7 +564,6 @@
 
     invoke-virtual {v2, v5, v3}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 6
     new-instance v3, Landroidx/room/util/TableInfo$Column;
 
     const-string v7, "MIN_VERSION"
@@ -663,7 +580,6 @@
 
     invoke-virtual {v2, v5, v3}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 7
     new-instance v3, Landroidx/room/util/TableInfo$Column;
 
     const-string v7, "MAX_VERSION"
@@ -678,7 +594,6 @@
 
     invoke-virtual {v2, v5, v3}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 8
     new-instance v3, Landroidx/room/util/TableInfo$Column;
 
     const-string v7, "FILE_URL"
@@ -693,7 +608,6 @@
 
     invoke-virtual {v2, v5, v3}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 9
     new-instance v3, Landroidx/room/util/TableInfo$Column;
 
     const-string v7, "FILE_SIZE"
@@ -708,7 +622,6 @@
 
     invoke-virtual {v2, v5, v3}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 10
     new-instance v3, Landroidx/room/util/TableInfo$Column;
 
     const-string v7, "THUMBNAIL"
@@ -723,7 +636,6 @@
 
     invoke-virtual {v2, v5, v3}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 11
     new-instance v3, Landroidx/room/util/TableInfo$Column;
 
     const-string v7, "PREVIEW_URL"
@@ -738,7 +650,6 @@
 
     invoke-virtual {v2, v5, v3}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 12
     new-instance v3, Landroidx/room/util/TableInfo$Column;
 
     const-string v7, "IS_HOT"
@@ -755,7 +666,6 @@
 
     invoke-virtual {v2, v5, v3}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 13
     new-instance v3, Landroidx/room/util/TableInfo$Column;
 
     const-string v7, "HOT_SORT"
@@ -770,7 +680,6 @@
 
     invoke-virtual {v2, v5, v3}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 14
     new-instance v3, Landroidx/room/util/TableInfo$Column;
 
     const-string v7, "HOT_END_TIME"
@@ -785,7 +694,6 @@
 
     invoke-virtual {v2, v5, v3}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 15
     new-instance v3, Landroidx/room/util/TableInfo$Column;
 
     const-string v7, "INTERACTIVE"
@@ -800,7 +708,6 @@
 
     invoke-virtual {v2, v5, v3}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 16
     new-instance v3, Landroidx/room/util/TableInfo$Column;
 
     const-string v7, "AUTO_DOWNLOAD"
@@ -815,7 +722,6 @@
 
     invoke-virtual {v2, v5, v3}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 17
     new-instance v3, Landroidx/room/util/TableInfo$Column;
 
     const-string v7, "IS_NEW"
@@ -830,7 +736,6 @@
 
     invoke-virtual {v2, v5, v3}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 18
     new-instance v3, Landroidx/room/util/TableInfo$Column;
 
     const-string v7, "NEW_SORT"
@@ -845,7 +750,6 @@
 
     invoke-virtual {v2, v5, v3}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 19
     new-instance v3, Landroidx/room/util/TableInfo$Column;
 
     const-string v7, "RED_TIME"
@@ -860,7 +764,6 @@
 
     invoke-virtual {v2, v5, v3}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 20
     new-instance v3, Landroidx/room/util/TableInfo$Column;
 
     const-string v7, "NEW_END_TIME"
@@ -875,7 +778,6 @@
 
     invoke-virtual {v2, v5, v3}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 21
     new-instance v3, Landroidx/room/util/TableInfo$Column;
 
     const-string v7, "END_TIME"
@@ -890,7 +792,6 @@
 
     invoke-virtual {v2, v5, v3}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 22
     new-instance v3, Landroidx/room/util/TableInfo$Column;
 
     const-string v7, "WEIGHT"
@@ -905,7 +806,6 @@
 
     invoke-virtual {v2, v5, v3}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 23
     new-instance v3, Landroidx/room/util/TableInfo$Column;
 
     const-string v7, "AFTER_WEIGHT"
@@ -920,7 +820,6 @@
 
     invoke-virtual {v2, v5, v3}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 24
     new-instance v3, Landroidx/room/util/TableInfo$Column;
 
     const-string v7, "TITLE"
@@ -937,7 +836,6 @@
 
     invoke-virtual {v2, v5, v3}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 25
     new-instance v3, Landroidx/room/util/TableInfo$Column;
 
     const-string v7, "BGM_FLAG"
@@ -954,7 +852,6 @@
 
     invoke-virtual {v2, v5, v3}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 26
     new-instance v3, Landroidx/room/util/TableInfo$Column;
 
     const-string v7, "DBG_ENABLE"
@@ -969,7 +866,6 @@
 
     invoke-virtual {v2, v5, v3}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 27
     new-instance v3, Landroidx/room/util/TableInfo$Column;
 
     const-string v7, "DBG_URL"
@@ -986,7 +882,6 @@
 
     invoke-virtual {v2, v5, v3}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 28
     new-instance v3, Landroidx/room/util/TableInfo$Column;
 
     const-string v7, "DBG_NUMBER"
@@ -1001,7 +896,6 @@
 
     invoke-virtual {v2, v5, v3}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 29
     new-instance v3, Landroidx/room/util/TableInfo$Column;
 
     const-string v7, "IS_3D"
@@ -1018,7 +912,6 @@
 
     invoke-virtual {v2, v5, v3}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 30
     new-instance v3, Landroidx/room/util/TableInfo$Column;
 
     const-string v7, "FEATURED_SORT"
@@ -1033,7 +926,6 @@
 
     invoke-virtual {v2, v5, v3}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 31
     new-instance v3, Landroidx/room/util/TableInfo$Column;
 
     const-string v7, "IS_FEATURED"
@@ -1048,7 +940,6 @@
 
     invoke-virtual {v2, v5, v3}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 32
     new-instance v3, Landroidx/room/util/TableInfo$Column;
 
     const-string v7, "IS_COLLECTED"
@@ -1063,7 +954,6 @@
 
     invoke-virtual {v2, v5, v3}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 33
     new-instance v3, Landroidx/room/util/TableInfo$Column;
 
     const-string v7, "IS_DOWNLOAD"
@@ -1078,7 +968,6 @@
 
     invoke-virtual {v2, v5, v3}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 34
     new-instance v3, Landroidx/room/util/TableInfo$Column;
 
     const-string v7, "IS_DOWNLOADING"
@@ -1093,7 +982,6 @@
 
     invoke-virtual {v2, v5, v3}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 35
     new-instance v3, Landroidx/room/util/TableInfo$Column;
 
     const-string v7, "DOWNLOAD_TIME"
@@ -1108,7 +996,6 @@
 
     invoke-virtual {v2, v5, v3}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 36
     new-instance v3, Landroidx/room/util/TableInfo$Column;
 
     const-string v7, "IS_HIDE_RED"
@@ -1123,7 +1010,6 @@
 
     invoke-virtual {v2, v5, v3}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 37
     new-instance v3, Landroidx/room/util/TableInfo$Column;
 
     const-string v7, "GROUP_NUMBER"
@@ -1138,7 +1024,6 @@
 
     invoke-virtual {v2, v5, v3}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 38
     new-instance v3, Landroidx/room/util/TableInfo$Column;
 
     const-string v7, "IS_BG_DOWNLOAD"
@@ -1153,7 +1038,6 @@
 
     invoke-virtual {v2, v5, v3}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 39
     new-instance v3, Landroidx/room/util/TableInfo$Column;
 
     const-string v7, "IS_BG_DOWNLOADING"
@@ -1168,7 +1052,6 @@
 
     invoke-virtual {v2, v5, v3}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 40
     new-instance v3, Landroidx/room/util/TableInfo$Column;
 
     const-string v7, "IS_3D_DOWNLOAD"
@@ -1183,7 +1066,6 @@
 
     invoke-virtual {v2, v5, v3}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 41
     new-instance v3, Landroidx/room/util/TableInfo$Column;
 
     const-string v7, "IS_3D_DOWNLOADING"
@@ -1198,7 +1080,6 @@
 
     invoke-virtual {v2, v5, v3}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 42
     new-instance v3, Landroidx/room/util/TableInfo$Column;
 
     const-string v7, "END_USE_TIME"
@@ -1213,7 +1094,6 @@
 
     invoke-virtual {v2, v5, v3}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 43
     new-instance v3, Landroidx/room/util/TableInfo$Column;
 
     const-string v7, "IS_DYE_HAIR"
@@ -1228,7 +1108,6 @@
 
     invoke-virtual {v2, v5, v3}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 44
     new-instance v3, Landroidx/room/util/TableInfo$Column;
 
     const-string v7, "IS_DYE_HAIR_DOWNLOAD"
@@ -1243,7 +1122,6 @@
 
     invoke-virtual {v2, v5, v3}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 45
     new-instance v3, Landroidx/room/util/TableInfo$Column;
 
     const-string v7, "IS_DYE_HAIR_DOWNLOADING"
@@ -1258,7 +1136,6 @@
 
     invoke-virtual {v2, v5, v3}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 46
     new-instance v3, Landroidx/room/util/TableInfo$Column;
 
     const-string v7, "COLLECTION_TIME"
@@ -1273,7 +1150,6 @@
 
     invoke-virtual {v2, v5, v3}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 47
     new-instance v3, Landroidx/room/util/TableInfo$Column;
 
     const-string v7, "IS_HUMAN_POSTURE"
@@ -1288,7 +1164,6 @@
 
     invoke-virtual {v2, v5, v3}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 48
     new-instance v3, Landroidx/room/util/TableInfo$Column;
 
     const-string v7, "IS_HUMAN_DOWNLOAD"
@@ -1303,7 +1178,6 @@
 
     invoke-virtual {v2, v5, v3}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 49
     new-instance v3, Landroidx/room/util/TableInfo$Column;
 
     const-string v7, "IS_HUMAN_DOWNLOADING"
@@ -1318,7 +1192,6 @@
 
     invoke-virtual {v2, v5, v3}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 50
     new-instance v3, Landroidx/room/util/TableInfo$Column;
 
     const-string v7, "AR_ONLINE_TEXT"
@@ -1335,7 +1208,6 @@
 
     invoke-virtual {v2, v5, v3}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 51
     new-instance v3, Landroidx/room/util/TableInfo$Column;
 
     const-string v7, "IS_SWITCHING"
@@ -1352,7 +1224,6 @@
 
     invoke-virtual {v2, v5, v3}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 52
     new-instance v3, Landroidx/room/util/TableInfo$Column;
 
     const-string v7, "IS_PHYSICAL"
@@ -1367,7 +1238,6 @@
 
     invoke-virtual {v2, v5, v3}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 53
     new-instance v3, Landroidx/room/util/TableInfo$Column;
 
     const-string v7, "IS_TOUCH"
@@ -1382,7 +1252,6 @@
 
     invoke-virtual {v2, v5, v3}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 54
     new-instance v3, Landroidx/room/util/TableInfo$Column;
 
     const-string v7, "REGION_HOT_SORT"
@@ -1397,7 +1266,6 @@
 
     invoke-virtual {v2, v5, v3}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 55
     new-instance v3, Landroidx/room/util/TableInfo$Column;
 
     const-string v7, "IS_ANIMAL_DOWNLOAD"
@@ -1412,7 +1280,6 @@
 
     invoke-virtual {v2, v5, v3}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 56
     new-instance v3, Landroidx/room/util/TableInfo$Column;
 
     const-string v7, "IS_PET"
@@ -1427,7 +1294,6 @@
 
     invoke-virtual {v2, v5, v3}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 57
     new-instance v3, Landroidx/room/util/TableInfo$Column;
 
     const-string v7, "REDIRECT_TO"
@@ -1444,7 +1310,6 @@
 
     invoke-virtual {v2, v5, v3}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 58
     new-instance v3, Landroidx/room/util/TableInfo$Column;
 
     const-string v7, "ENABLE_TEXT"
@@ -1461,7 +1326,6 @@
 
     invoke-virtual {v2, v5, v3}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 59
     new-instance v3, Landroidx/room/util/TableInfo$Column;
 
     const-string v7, "IS_AFTER_SHARE"
@@ -1476,7 +1340,6 @@
 
     invoke-virtual {v2, v5, v3}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 60
     new-instance v3, Landroidx/room/util/TableInfo$Column;
 
     const-string v7, "IS_SHARE_LOCK"
@@ -1491,7 +1354,6 @@
 
     invoke-virtual {v2, v5, v3}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 61
     new-instance v3, Landroidx/room/util/TableInfo$Column;
 
     const-string v7, "IS_SKELETAL"
@@ -1506,7 +1368,6 @@
 
     invoke-virtual {v2, v5, v3}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 62
     new-instance v3, Landroidx/room/util/TableInfo$Column;
 
     const-string v7, "IS_SKELETON_DOWNLOAD"
@@ -1521,7 +1382,6 @@
 
     invoke-virtual {v2, v5, v3}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 63
     new-instance v3, Landroidx/room/util/TableInfo$Column;
 
     const-string v7, "IS_FACE_3D_V2"
@@ -1536,7 +1396,6 @@
 
     invoke-virtual {v2, v5, v3}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 64
     new-instance v3, Landroidx/room/util/TableInfo$Column;
 
     const-string v7, "IS_NECK_LOCK_POINT"
@@ -1551,7 +1410,6 @@
 
     invoke-virtual {v2, v5, v3}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 65
     new-instance v3, Landroidx/room/util/TableInfo$Column;
 
     const-string v7, "IS_NECK_LOCK_DOWNLOAD"
@@ -1566,7 +1424,6 @@
 
     invoke-virtual {v2, v5, v3}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 66
     new-instance v3, Landroidx/room/util/TableInfo$Column;
 
     const-string v7, "IS_FACE_3D_V2_DOWNLOAD"
@@ -1581,7 +1438,6 @@
 
     invoke-virtual {v2, v5, v3}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 67
     new-instance v3, Landroidx/room/util/TableInfo$Column;
 
     const-string v7, "AR_CORE_TYPE"
@@ -1596,7 +1452,6 @@
 
     invoke-virtual {v2, v5, v3}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 68
     new-instance v3, Landroidx/room/util/TableInfo$Column;
 
     const-string v7, "HASH_TAG"
@@ -1613,7 +1468,6 @@
 
     invoke-virtual {v2, v5, v3}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 69
     new-instance v3, Landroidx/room/util/TableInfo$Column;
 
     const-string v7, "MAKE_LEVEL"
@@ -1630,7 +1484,6 @@
 
     invoke-virtual {v2, v5, v3}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 70
     new-instance v3, Landroidx/room/util/TableInfo$Column;
 
     const-string v7, "BEAUTY_LEVEL"
@@ -1645,7 +1498,6 @@
 
     invoke-virtual {v2, v5, v3}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 71
     new-instance v3, Landroidx/room/util/TableInfo$Column;
 
     const-string v7, "AR_HELP_TITLE"
@@ -1662,7 +1514,6 @@
 
     invoke-virtual {v2, v5, v3}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 72
     new-instance v3, Landroidx/room/util/TableInfo$Column;
 
     const-string v7, "AR_HELP_RULE"
@@ -1679,7 +1530,6 @@
 
     invoke-virtual {v2, v5, v3}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 73
     new-instance v3, Landroidx/room/util/TableInfo$Column;
 
     const-string v7, "AR_HELP_URL"
@@ -1696,7 +1546,6 @@
 
     invoke-virtual {v2, v5, v3}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 74
     new-instance v3, Landroidx/room/util/TableInfo$Column;
 
     const-string v7, "AR_HELP_IS_DOWNLOAD"
@@ -1713,7 +1562,6 @@
 
     invoke-virtual {v2, v5, v3}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 75
     new-instance v3, Landroidx/room/util/TableInfo$Column;
 
     const-string v7, "AR_HELP_TIP_TYPE"
@@ -1728,7 +1576,6 @@
 
     invoke-virtual {v2, v5, v3}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 76
     new-instance v3, Landroidx/room/util/TableInfo$Column;
 
     const-string v7, "IP_COLOR_CODE"
@@ -1745,7 +1592,6 @@
 
     invoke-virtual {v2, v5, v3}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 77
     new-instance v3, Landroidx/room/util/TableInfo$Column;
 
     const-string v7, "LOCATIONS"
@@ -1762,7 +1608,6 @@
 
     invoke-virtual {v2, v5, v3}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 78
     new-instance v3, Landroidx/room/util/TableInfo$Column;
 
     const-string v7, "IS_HAND_POSE"
@@ -1777,7 +1622,6 @@
 
     invoke-virtual {v2, v5, v3}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 79
     new-instance v3, Landroidx/room/util/TableInfo$Column;
 
     const-string v7, "IS_NEED_WATER_MARK"
@@ -1792,7 +1636,6 @@
 
     invoke-virtual {v2, v5, v3}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 80
     new-instance v3, Landroidx/room/util/TableInfo$Column;
 
     const-string v7, "IP_STROE_ID"
@@ -1807,7 +1650,6 @@
 
     invoke-virtual {v2, v5, v3}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 81
     new-instance v3, Landroidx/room/util/TableInfo$Column;
 
     const-string v7, "LOCK_CAMERA"
@@ -1822,7 +1664,6 @@
 
     invoke-virtual {v2, v5, v3}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 82
     new-instance v3, Landroidx/room/util/TableInfo$Column;
 
     const-string v7, "AR_CORE_ICON"
@@ -1839,7 +1680,6 @@
 
     invoke-virtual {v2, v5, v3}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 83
     new-instance v3, Landroidx/room/util/TableInfo$Column;
 
     const-string v7, "ALLOW_MODELS"
@@ -1856,7 +1696,6 @@
 
     invoke-virtual {v2, v5, v3}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 84
     new-instance v3, Landroidx/room/util/TableInfo$Column;
 
     const-string v7, "LIMIT_SPECIFIC_MODELS"
@@ -1873,7 +1712,6 @@
 
     invoke-virtual {v2, v5, v3}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 85
     new-instance v3, Landroidx/room/util/TableInfo$Column;
 
     const-string v7, "SHOW_AR_CORE_ICON"
@@ -1890,7 +1728,6 @@
 
     invoke-virtual {v2, v5, v3}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 86
     new-instance v3, Landroidx/room/util/TableInfo$Column;
 
     const-string v7, "PAID_TYPE"
@@ -1907,7 +1744,6 @@
 
     invoke-virtual {v2, v5, v3}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 87
     new-instance v3, Landroidx/room/util/TableInfo$Column;
 
     const-string v7, "NEW_AR"
@@ -1922,19 +1758,16 @@
 
     invoke-virtual {v2, v5, v3}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 88
     new-instance v3, Ljava/util/HashSet;
 
     const/4 v5, 0x0
 
     invoke-direct {v3, v5}, Ljava/util/HashSet;-><init>(I)V
 
-    .line 89
     new-instance v6, Ljava/util/HashSet;
 
     invoke-direct {v6, v5}, Ljava/util/HashSet;-><init>(I)V
 
-    .line 90
     new-instance v7, Landroidx/room/util/TableInfo;
 
     const-string v8, "AR_MATERIAL"
@@ -1943,12 +1776,10 @@
 
     const-string v2, "AR_MATERIAL"
 
-    .line 91
     invoke-static {v0, v2}, Landroidx/room/util/TableInfo;->read(Landroidx/sqlite/db/SupportSQLiteDatabase;Ljava/lang/String;)Landroidx/room/util/TableInfo;
 
     move-result-object v2
 
-    .line 92
     invoke-virtual {v7, v2}, Landroidx/room/util/TableInfo;->equals(Ljava/lang/Object;)Z
 
     move-result v3
@@ -1957,7 +1788,6 @@
 
     if-nez v3, :cond_0
 
-    .line 93
     new-instance v0, Landroidx/room/RoomOpenHelper$ValidationResult;
 
     new-instance v3, Ljava/lang/StringBuilder;
@@ -1984,7 +1814,6 @@
 
     return-object v0
 
-    .line 94
     :cond_0
     new-instance v2, Ljava/util/HashMap;
 
@@ -1992,7 +1821,6 @@
 
     invoke-direct {v2, v3}, Ljava/util/HashMap;-><init>(I)V
 
-    .line 95
     new-instance v3, Landroidx/room/util/TableInfo$Column;
 
     const/4 v10, 0x0
@@ -2013,7 +1841,6 @@
 
     invoke-virtual {v2, v4, v3}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 96
     new-instance v3, Landroidx/room/util/TableInfo$Column;
 
     const/16 v17, 0x1
@@ -2036,7 +1863,6 @@
 
     invoke-virtual {v2, v7, v3}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 97
     new-instance v3, Landroidx/room/util/TableInfo$Column;
 
     const/4 v12, 0x0
@@ -2057,7 +1883,6 @@
 
     invoke-virtual {v2, v7, v3}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 98
     new-instance v3, Landroidx/room/util/TableInfo$Column;
 
     const/4 v11, 0x0
@@ -2074,7 +1899,6 @@
 
     invoke-virtual {v2, v7, v3}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 99
     new-instance v3, Landroidx/room/util/TableInfo$Column;
 
     const-string v9, "MAX_VERSION"
@@ -2089,7 +1913,6 @@
 
     invoke-virtual {v2, v7, v3}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 100
     new-instance v3, Landroidx/room/util/TableInfo$Column;
 
     const/4 v11, 0x1
@@ -2106,7 +1929,6 @@
 
     invoke-virtual {v2, v7, v3}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 101
     new-instance v3, Landroidx/room/util/TableInfo$Column;
 
     const/4 v11, 0x0
@@ -2123,7 +1945,6 @@
 
     invoke-virtual {v2, v7, v3}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 102
     new-instance v3, Landroidx/room/util/TableInfo$Column;
 
     const-string v9, "TITLE"
@@ -2138,7 +1959,6 @@
 
     invoke-virtual {v2, v7, v3}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 103
     new-instance v3, Landroidx/room/util/TableInfo$Column;
 
     const/4 v11, 0x1
@@ -2155,7 +1975,6 @@
 
     invoke-virtual {v2, v7, v3}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 104
     new-instance v3, Landroidx/room/util/TableInfo$Column;
 
     const-string v9, "GROUP_RED"
@@ -2170,7 +1989,6 @@
 
     invoke-virtual {v2, v7, v3}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 105
     new-instance v3, Landroidx/room/util/TableInfo$Column;
 
     const-string v9, "ONLINE_AT"
@@ -2185,7 +2003,6 @@
 
     invoke-virtual {v2, v7, v3}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 106
     new-instance v3, Landroidx/room/util/TableInfo$Column;
 
     const/4 v11, 0x0
@@ -2202,7 +2019,6 @@
 
     invoke-virtual {v2, v7, v3}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 107
     new-instance v3, Landroidx/room/util/TableInfo$Column;
 
     const/4 v11, 0x1
@@ -2219,7 +2035,6 @@
 
     invoke-virtual {v2, v7, v3}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 108
     new-instance v3, Landroidx/room/util/TableInfo$Column;
 
     const-string v9, "IS_IP"
@@ -2234,7 +2049,6 @@
 
     invoke-virtual {v2, v7, v3}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 109
     new-instance v3, Landroidx/room/util/TableInfo$Column;
 
     const/4 v11, 0x0
@@ -2251,7 +2065,6 @@
 
     invoke-virtual {v2, v7, v3}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 110
     new-instance v3, Landroidx/room/util/TableInfo$Column;
 
     const-string v9, "IP_LOGO"
@@ -2266,7 +2079,6 @@
 
     invoke-virtual {v2, v7, v3}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 111
     new-instance v3, Landroidx/room/util/TableInfo$Column;
 
     const/4 v11, 0x1
@@ -2283,7 +2095,6 @@
 
     invoke-virtual {v2, v7, v3}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 112
     new-instance v3, Landroidx/room/util/TableInfo$Column;
 
     const-string v9, "LITERAL_ICON"
@@ -2298,7 +2109,6 @@
 
     invoke-virtual {v2, v7, v3}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 113
     new-instance v3, Landroidx/room/util/TableInfo$Column;
 
     const/4 v11, 0x0
@@ -2315,17 +2125,14 @@
 
     invoke-virtual {v2, v7, v3}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 114
     new-instance v3, Ljava/util/HashSet;
 
     invoke-direct {v3, v5}, Ljava/util/HashSet;-><init>(I)V
 
-    .line 115
     new-instance v7, Ljava/util/HashSet;
 
     invoke-direct {v7, v5}, Ljava/util/HashSet;-><init>(I)V
 
-    .line 116
     new-instance v8, Landroidx/room/util/TableInfo;
 
     const-string v9, "AR_MATERIAL_GROUP"
@@ -2334,19 +2141,16 @@
 
     const-string v2, "AR_MATERIAL_GROUP"
 
-    .line 117
     invoke-static {v0, v2}, Landroidx/room/util/TableInfo;->read(Landroidx/sqlite/db/SupportSQLiteDatabase;Ljava/lang/String;)Landroidx/room/util/TableInfo;
 
     move-result-object v2
 
-    .line 118
     invoke-virtual {v8, v2}, Landroidx/room/util/TableInfo;->equals(Ljava/lang/Object;)Z
 
     move-result v3
 
     if-nez v3, :cond_1
 
-    .line 119
     new-instance v0, Landroidx/room/RoomOpenHelper$ValidationResult;
 
     new-instance v3, Ljava/lang/StringBuilder;
@@ -2373,7 +2177,6 @@
 
     return-object v0
 
-    .line 120
     :cond_1
     new-instance v2, Ljava/util/HashMap;
 
@@ -2381,7 +2184,6 @@
 
     invoke-direct {v2, v3}, Ljava/util/HashMap;-><init>(I)V
 
-    .line 121
     new-instance v3, Landroidx/room/util/TableInfo$Column;
 
     const/4 v10, 0x0
@@ -2402,7 +2204,6 @@
 
     invoke-virtual {v2, v4, v3}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 122
     new-instance v3, Landroidx/room/util/TableInfo$Column;
 
     const/16 v17, 0x1
@@ -2425,7 +2226,6 @@
 
     invoke-virtual {v2, v7, v3}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 123
     new-instance v3, Landroidx/room/util/TableInfo$Column;
 
     const/4 v12, 0x0
@@ -2446,7 +2246,6 @@
 
     invoke-virtual {v2, v7, v3}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 124
     new-instance v3, Landroidx/room/util/TableInfo$Column;
 
     const/4 v11, 0x0
@@ -2463,7 +2262,6 @@
 
     invoke-virtual {v2, v7, v3}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 125
     new-instance v3, Landroidx/room/util/TableInfo$Column;
 
     const-string v9, "ITEMS"
@@ -2478,7 +2276,6 @@
 
     invoke-virtual {v2, v7, v3}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 126
     new-instance v3, Landroidx/room/util/TableInfo$Column;
 
     const/4 v11, 0x1
@@ -2495,17 +2292,14 @@
 
     invoke-virtual {v2, v7, v3}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 127
     new-instance v3, Ljava/util/HashSet;
 
     invoke-direct {v3, v5}, Ljava/util/HashSet;-><init>(I)V
 
-    .line 128
     new-instance v7, Ljava/util/HashSet;
 
     invoke-direct {v7, v5}, Ljava/util/HashSet;-><init>(I)V
 
-    .line 129
     new-instance v8, Landroidx/room/util/TableInfo;
 
     const-string v9, "AR_MATERIAL_PAID_INFO"
@@ -2514,19 +2308,16 @@
 
     const-string v2, "AR_MATERIAL_PAID_INFO"
 
-    .line 130
     invoke-static {v0, v2}, Landroidx/room/util/TableInfo;->read(Landroidx/sqlite/db/SupportSQLiteDatabase;Ljava/lang/String;)Landroidx/room/util/TableInfo;
 
     move-result-object v2
 
-    .line 131
     invoke-virtual {v8, v2}, Landroidx/room/util/TableInfo;->equals(Ljava/lang/Object;)Z
 
     move-result v3
 
     if-nez v3, :cond_2
 
-    .line 132
     new-instance v0, Landroidx/room/RoomOpenHelper$ValidationResult;
 
     new-instance v3, Ljava/lang/StringBuilder;
@@ -2553,7 +2344,6 @@
 
     return-object v0
 
-    .line 133
     :cond_2
     new-instance v2, Ljava/util/HashMap;
 
@@ -2561,7 +2351,6 @@
 
     invoke-direct {v2, v3}, Ljava/util/HashMap;-><init>(I)V
 
-    .line 134
     new-instance v3, Landroidx/room/util/TableInfo$Column;
 
     const/4 v10, 0x0
@@ -2582,7 +2371,6 @@
 
     invoke-virtual {v2, v4, v3}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 135
     new-instance v3, Landroidx/room/util/TableInfo$Column;
 
     const/16 v17, 0x0
@@ -2605,7 +2393,6 @@
 
     invoke-virtual {v2, v7, v3}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 136
     new-instance v3, Landroidx/room/util/TableInfo$Column;
 
     const/4 v11, 0x0
@@ -2628,7 +2415,6 @@
 
     invoke-virtual {v2, v7, v3}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 137
     new-instance v3, Landroidx/room/util/TableInfo$Column;
 
     const-string v9, "IMAGE_PATH"
@@ -2643,7 +2429,6 @@
 
     invoke-virtual {v2, v7, v3}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 138
     new-instance v3, Landroidx/room/util/TableInfo$Column;
 
     const-string v9, "UPLOAD_STATE"
@@ -2658,17 +2443,14 @@
 
     invoke-virtual {v2, v7, v3}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 139
     new-instance v3, Ljava/util/HashSet;
 
     invoke-direct {v3, v5}, Ljava/util/HashSet;-><init>(I)V
 
-    .line 140
     new-instance v7, Ljava/util/HashSet;
 
     invoke-direct {v7, v5}, Ljava/util/HashSet;-><init>(I)V
 
-    .line 141
     new-instance v8, Landroidx/room/util/TableInfo;
 
     const-string v9, "CHAT_FILED"
@@ -2677,19 +2459,16 @@
 
     const-string v2, "CHAT_FILED"
 
-    .line 142
     invoke-static {v0, v2}, Landroidx/room/util/TableInfo;->read(Landroidx/sqlite/db/SupportSQLiteDatabase;Ljava/lang/String;)Landroidx/room/util/TableInfo;
 
     move-result-object v2
 
-    .line 143
     invoke-virtual {v8, v2}, Landroidx/room/util/TableInfo;->equals(Ljava/lang/Object;)Z
 
     move-result v3
 
     if-nez v3, :cond_3
 
-    .line 144
     new-instance v0, Landroidx/room/RoomOpenHelper$ValidationResult;
 
     new-instance v3, Ljava/lang/StringBuilder;
@@ -2716,7 +2495,6 @@
 
     return-object v0
 
-    .line 145
     :cond_3
     new-instance v2, Ljava/util/HashMap;
 
@@ -2724,7 +2502,6 @@
 
     invoke-direct {v2, v3}, Ljava/util/HashMap;-><init>(I)V
 
-    .line 146
     new-instance v3, Landroidx/room/util/TableInfo$Column;
 
     const/4 v10, 0x1
@@ -2747,7 +2524,6 @@
 
     invoke-virtual {v2, v7, v3}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 147
     new-instance v3, Landroidx/room/util/TableInfo$Column;
 
     const/4 v11, 0x0
@@ -2770,7 +2546,6 @@
 
     invoke-virtual {v2, v7, v3}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 148
     new-instance v3, Landroidx/room/util/TableInfo$Column;
 
     const-string v9, "CONTENT"
@@ -2785,7 +2560,6 @@
 
     invoke-virtual {v2, v7, v3}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 149
     new-instance v3, Landroidx/room/util/TableInfo$Column;
 
     const-string v9, "ROLE"
@@ -2800,7 +2574,6 @@
 
     invoke-virtual {v2, v7, v3}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 150
     new-instance v3, Landroidx/room/util/TableInfo$Column;
 
     const-string v9, "TIME"
@@ -2815,7 +2588,6 @@
 
     invoke-virtual {v2, v7, v3}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 151
     new-instance v3, Landroidx/room/util/TableInfo$Column;
 
     const-string v9, "CHAT_FAIL"
@@ -2830,7 +2602,6 @@
 
     invoke-virtual {v2, v7, v3}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 152
     new-instance v3, Landroidx/room/util/TableInfo$Column;
 
     const-string v9, "IMAGE"
@@ -2845,7 +2616,6 @@
 
     invoke-virtual {v2, v7, v3}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 153
     new-instance v3, Landroidx/room/util/TableInfo$Column;
 
     const-string v9, "HASIMG"
@@ -2860,7 +2630,6 @@
 
     invoke-virtual {v2, v7, v3}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 154
     new-instance v3, Landroidx/room/util/TableInfo$Column;
 
     const-string v9, "UPLOAD_STATE"
@@ -2875,17 +2644,14 @@
 
     invoke-virtual {v2, v7, v3}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 155
     new-instance v3, Ljava/util/HashSet;
 
     invoke-direct {v3, v5}, Ljava/util/HashSet;-><init>(I)V
 
-    .line 156
     new-instance v7, Ljava/util/HashSet;
 
     invoke-direct {v7, v5}, Ljava/util/HashSet;-><init>(I)V
 
-    .line 157
     new-instance v8, Landroidx/room/util/TableInfo;
 
     const-string v9, "CHAT"
@@ -2894,19 +2660,16 @@
 
     const-string v2, "CHAT"
 
-    .line 158
     invoke-static {v0, v2}, Landroidx/room/util/TableInfo;->read(Landroidx/sqlite/db/SupportSQLiteDatabase;Ljava/lang/String;)Landroidx/room/util/TableInfo;
 
     move-result-object v2
 
-    .line 159
     invoke-virtual {v8, v2}, Landroidx/room/util/TableInfo;->equals(Ljava/lang/Object;)Z
 
     move-result v3
 
     if-nez v3, :cond_4
 
-    .line 160
     new-instance v0, Landroidx/room/RoomOpenHelper$ValidationResult;
 
     new-instance v3, Ljava/lang/StringBuilder;
@@ -2933,7 +2696,6 @@
 
     return-object v0
 
-    .line 161
     :cond_4
     new-instance v2, Ljava/util/HashMap;
 
@@ -2941,7 +2703,6 @@
 
     invoke-direct {v2, v3}, Ljava/util/HashMap;-><init>(I)V
 
-    .line 162
     new-instance v3, Landroidx/room/util/TableInfo$Column;
 
     const/4 v10, 0x1
@@ -2962,7 +2723,6 @@
 
     invoke-virtual {v2, v4, v3}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 163
     new-instance v3, Landroidx/room/util/TableInfo$Column;
 
     const/16 v17, 0x0
@@ -2985,7 +2745,6 @@
 
     invoke-virtual {v2, v4, v3}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 164
     new-instance v3, Landroidx/room/util/TableInfo$Column;
 
     const/4 v11, 0x0
@@ -3002,7 +2761,6 @@
 
     invoke-virtual {v2, v7, v3}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 165
     new-instance v3, Landroidx/room/util/TableInfo$Column;
 
     const/4 v11, 0x1
@@ -3025,7 +2783,6 @@
 
     invoke-virtual {v2, v7, v3}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 166
     new-instance v3, Landroidx/room/util/TableInfo$Column;
 
     const-string v9, "default_alpha"
@@ -3040,7 +2797,6 @@
 
     invoke-virtual {v2, v7, v3}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 167
     new-instance v3, Landroidx/room/util/TableInfo$Column;
 
     const-string v9, "is_internal"
@@ -3055,7 +2811,6 @@
 
     invoke-virtual {v2, v7, v3}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 168
     new-instance v3, Landroidx/room/util/TableInfo$Column;
 
     const-string v9, "version_control"
@@ -3070,7 +2825,6 @@
 
     invoke-virtual {v2, v7, v3}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 169
     new-instance v3, Landroidx/room/util/TableInfo$Column;
 
     const/4 v11, 0x0
@@ -3087,7 +2841,6 @@
 
     invoke-virtual {v2, v7, v3}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 170
     new-instance v3, Landroidx/room/util/TableInfo$Column;
 
     const-string v9, "max_version"
@@ -3102,7 +2855,6 @@
 
     invoke-virtual {v2, v7, v3}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 171
     new-instance v3, Landroidx/room/util/TableInfo$Column;
 
     const/4 v11, 0x1
@@ -3119,7 +2871,6 @@
 
     invoke-virtual {v2, v7, v3}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 172
     new-instance v3, Landroidx/room/util/TableInfo$Column;
 
     const-string v9, "auto_download"
@@ -3134,7 +2885,6 @@
 
     invoke-virtual {v2, v7, v3}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 173
     new-instance v3, Landroidx/room/util/TableInfo$Column;
 
     const-string v9, "sort"
@@ -3149,7 +2899,6 @@
 
     invoke-virtual {v2, v7, v3}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 174
     new-instance v3, Landroidx/room/util/TableInfo$Column;
 
     const-string v9, "category_id"
@@ -3164,7 +2913,6 @@
 
     invoke-virtual {v2, v8, v3}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 175
     new-instance v3, Landroidx/room/util/TableInfo$Column;
 
     const/4 v13, 0x0
@@ -3185,7 +2933,6 @@
 
     invoke-virtual {v2, v8, v3}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 176
     new-instance v3, Landroidx/room/util/TableInfo$Column;
 
     const-string v10, "file"
@@ -3200,7 +2947,6 @@
 
     invoke-virtual {v2, v9, v3}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 177
     new-instance v3, Landroidx/room/util/TableInfo$Column;
 
     const/4 v13, 0x1
@@ -3223,7 +2969,6 @@
 
     invoke-virtual {v2, v10, v3}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 178
     new-instance v3, Landroidx/room/util/TableInfo$Column;
 
     const/4 v14, 0x1
@@ -3246,7 +2991,6 @@
 
     invoke-virtual {v2, v10, v3}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 179
     new-instance v3, Landroidx/room/util/TableInfo$Column;
 
     const-string v12, "material_type"
@@ -3261,7 +3005,6 @@
 
     invoke-virtual {v2, v10, v3}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 180
     new-instance v3, Landroidx/room/util/TableInfo$Column;
 
     const-string v12, "is_default"
@@ -3276,7 +3019,6 @@
 
     invoke-virtual {v2, v10, v3}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 181
     new-instance v3, Landroidx/room/util/TableInfo$Column;
 
     const/4 v14, 0x0
@@ -3293,7 +3035,6 @@
 
     invoke-virtual {v2, v10, v3}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 182
     new-instance v3, Landroidx/room/util/TableInfo$Column;
 
     const/4 v14, 0x1
@@ -3310,7 +3051,6 @@
 
     invoke-virtual {v2, v10, v3}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 183
     new-instance v3, Landroidx/room/util/TableInfo$Column;
 
     const-string v12, "filter_default_alpha"
@@ -3325,7 +3065,6 @@
 
     invoke-virtual {v2, v10, v3}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 184
     new-instance v3, Landroidx/room/util/TableInfo$Column;
 
     const-string v12, "corner_marker"
@@ -3340,7 +3079,6 @@
 
     invoke-virtual {v2, v10, v3}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 185
     new-instance v3, Landroidx/room/util/TableInfo$Column;
 
     const-string v12, "gender"
@@ -3355,17 +3093,14 @@
 
     invoke-virtual {v2, v10, v3}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 186
     new-instance v3, Ljava/util/HashSet;
 
     invoke-direct {v3, v5}, Ljava/util/HashSet;-><init>(I)V
 
-    .line 187
     new-instance v10, Ljava/util/HashSet;
 
     invoke-direct {v10, v5}, Ljava/util/HashSet;-><init>(I)V
 
-    .line 188
     new-instance v11, Landroidx/room/util/TableInfo;
 
     const-string v12, "MAKEUP_ENTITY"
@@ -3374,19 +3109,16 @@
 
     const-string v2, "MAKEUP_ENTITY"
 
-    .line 189
     invoke-static {v0, v2}, Landroidx/room/util/TableInfo;->read(Landroidx/sqlite/db/SupportSQLiteDatabase;Ljava/lang/String;)Landroidx/room/util/TableInfo;
 
     move-result-object v2
 
-    .line 190
     invoke-virtual {v11, v2}, Landroidx/room/util/TableInfo;->equals(Ljava/lang/Object;)Z
 
     move-result v3
 
     if-nez v3, :cond_5
 
-    .line 191
     new-instance v0, Landroidx/room/RoomOpenHelper$ValidationResult;
 
     new-instance v3, Ljava/lang/StringBuilder;
@@ -3413,7 +3145,6 @@
 
     return-object v0
 
-    .line 192
     :cond_5
     new-instance v2, Ljava/util/HashMap;
 
@@ -3421,7 +3152,6 @@
 
     invoke-direct {v2, v3}, Ljava/util/HashMap;-><init>(I)V
 
-    .line 193
     new-instance v3, Landroidx/room/util/TableInfo$Column;
 
     const/4 v13, 0x1
@@ -3444,7 +3174,6 @@
 
     invoke-virtual {v2, v10, v3}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 194
     new-instance v3, Landroidx/room/util/TableInfo$Column;
 
     const/4 v14, 0x0
@@ -3467,7 +3196,6 @@
 
     invoke-virtual {v2, v11, v3}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 195
     new-instance v3, Landroidx/room/util/TableInfo$Column;
 
     const/16 v16, 0x0
@@ -3488,7 +3216,6 @@
 
     invoke-virtual {v2, v11, v3}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 196
     new-instance v3, Landroidx/room/util/TableInfo$Column;
 
     const-string v13, "icon_url"
@@ -3503,7 +3230,6 @@
 
     invoke-virtual {v2, v11, v3}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 197
     new-instance v3, Landroidx/room/util/TableInfo$Column;
 
     const/4 v15, 0x1
@@ -3520,7 +3246,6 @@
 
     invoke-virtual {v2, v11, v3}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 198
     new-instance v3, Landroidx/room/util/TableInfo$Column;
 
     const-string v13, "group_sort"
@@ -3535,7 +3260,6 @@
 
     invoke-virtual {v2, v11, v3}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 199
     new-instance v3, Landroidx/room/util/TableInfo$Column;
 
     const-string v13, "group_is_available"
@@ -3550,7 +3274,6 @@
 
     invoke-virtual {v2, v11, v3}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 200
     new-instance v3, Landroidx/room/util/TableInfo$Column;
 
     const-string v13, "group_gender"
@@ -3565,7 +3288,6 @@
 
     invoke-virtual {v2, v11, v3}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 201
     new-instance v3, Landroidx/room/util/TableInfo$Column;
 
     const-string v13, "group_is_new_girl"
@@ -3580,7 +3302,6 @@
 
     invoke-virtual {v2, v11, v3}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 202
     new-instance v3, Landroidx/room/util/TableInfo$Column;
 
     const-string v13, "group_is_new_man"
@@ -3595,17 +3316,14 @@
 
     invoke-virtual {v2, v11, v3}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 203
     new-instance v3, Ljava/util/HashSet;
 
     invoke-direct {v3, v5}, Ljava/util/HashSet;-><init>(I)V
 
-    .line 204
     new-instance v11, Ljava/util/HashSet;
 
     invoke-direct {v11, v5}, Ljava/util/HashSet;-><init>(I)V
 
-    .line 205
     new-instance v12, Landroidx/room/util/TableInfo;
 
     const-string v13, "MONTAGE_GROUP_ENTITY"
@@ -3614,19 +3332,16 @@
 
     const-string v2, "MONTAGE_GROUP_ENTITY"
 
-    .line 206
     invoke-static {v0, v2}, Landroidx/room/util/TableInfo;->read(Landroidx/sqlite/db/SupportSQLiteDatabase;Ljava/lang/String;)Landroidx/room/util/TableInfo;
 
     move-result-object v2
 
-    .line 207
     invoke-virtual {v12, v2}, Landroidx/room/util/TableInfo;->equals(Ljava/lang/Object;)Z
 
     move-result v3
 
     if-nez v3, :cond_6
 
-    .line 208
     new-instance v0, Landroidx/room/RoomOpenHelper$ValidationResult;
 
     new-instance v3, Ljava/lang/StringBuilder;
@@ -3653,7 +3368,6 @@
 
     return-object v0
 
-    .line 209
     :cond_6
     new-instance v2, Ljava/util/HashMap;
 
@@ -3661,7 +3375,6 @@
 
     invoke-direct {v2, v3}, Ljava/util/HashMap;-><init>(I)V
 
-    .line 210
     new-instance v3, Landroidx/room/util/TableInfo$Column;
 
     const/4 v14, 0x1
@@ -3682,7 +3395,6 @@
 
     invoke-virtual {v2, v10, v3}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 211
     new-instance v3, Landroidx/room/util/TableInfo$Column;
 
     const/16 v21, 0x0
@@ -3705,7 +3417,6 @@
 
     invoke-virtual {v2, v11, v3}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 212
     new-instance v3, Landroidx/room/util/TableInfo$Column;
 
     const/4 v15, 0x0
@@ -3728,7 +3439,6 @@
 
     invoke-virtual {v2, v11, v3}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 213
     new-instance v3, Landroidx/room/util/TableInfo$Column;
 
     const-string v13, "material_name"
@@ -3743,7 +3453,6 @@
 
     invoke-virtual {v2, v11, v3}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 214
     new-instance v3, Landroidx/room/util/TableInfo$Column;
 
     const-string v13, "icon_url"
@@ -3758,7 +3467,6 @@
 
     invoke-virtual {v2, v11, v3}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 215
     new-instance v3, Landroidx/room/util/TableInfo$Column;
 
     const-string v13, "file_url"
@@ -3773,7 +3481,6 @@
 
     invoke-virtual {v2, v11, v3}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 216
     new-instance v3, Landroidx/room/util/TableInfo$Column;
 
     const-string v13, "md5"
@@ -3788,7 +3495,6 @@
 
     invoke-virtual {v2, v11, v3}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 217
     new-instance v3, Landroidx/room/util/TableInfo$Column;
 
     const/4 v15, 0x1
@@ -3805,7 +3511,6 @@
 
     invoke-virtual {v2, v11, v3}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 218
     new-instance v3, Landroidx/room/util/TableInfo$Column;
 
     const-string v13, "material_sort"
@@ -3820,7 +3525,6 @@
 
     invoke-virtual {v2, v11, v3}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 219
     new-instance v3, Landroidx/room/util/TableInfo$Column;
 
     const-string v13, "material_download_type"
@@ -3835,7 +3539,6 @@
 
     invoke-virtual {v2, v11, v3}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 220
     new-instance v3, Landroidx/room/util/TableInfo$Column;
 
     const-string v13, "status"
@@ -3850,7 +3553,6 @@
 
     invoke-virtual {v2, v11, v3}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 221
     new-instance v3, Landroidx/room/util/TableInfo$Column;
 
     const-string v13, "material_is_available"
@@ -3865,7 +3567,6 @@
 
     invoke-virtual {v2, v11, v3}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 222
     new-instance v3, Landroidx/room/util/TableInfo$Column;
 
     const-string v13, "material_gender"
@@ -3880,7 +3581,6 @@
 
     invoke-virtual {v2, v11, v3}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 223
     new-instance v3, Landroidx/room/util/TableInfo$Column;
 
     const-string v13, "material_is_new_girl"
@@ -3895,7 +3595,6 @@
 
     invoke-virtual {v2, v11, v3}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 224
     new-instance v3, Landroidx/room/util/TableInfo$Column;
 
     const-string v13, "material_is_new_man"
@@ -3910,7 +3609,6 @@
 
     invoke-virtual {v2, v11, v3}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 225
     new-instance v3, Landroidx/room/util/TableInfo$Column;
 
     const-string v13, "material_is_paid"
@@ -3925,7 +3623,6 @@
 
     invoke-virtual {v2, v11, v3}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 226
     new-instance v3, Landroidx/room/util/TableInfo$Column;
 
     const/4 v15, 0x0
@@ -3942,7 +3639,6 @@
 
     invoke-virtual {v2, v11, v3}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 227
     new-instance v3, Landroidx/room/util/TableInfo$Column;
 
     const-string v13, "material_sample_url"
@@ -3957,7 +3653,6 @@
 
     invoke-virtual {v2, v11, v3}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 228
     new-instance v3, Landroidx/room/util/TableInfo$Column;
 
     const-string v13, "material_limit_version"
@@ -3972,17 +3667,14 @@
 
     invoke-virtual {v2, v11, v3}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 229
     new-instance v3, Ljava/util/HashSet;
 
     invoke-direct {v3, v5}, Ljava/util/HashSet;-><init>(I)V
 
-    .line 230
     new-instance v11, Ljava/util/HashSet;
 
     invoke-direct {v11, v5}, Ljava/util/HashSet;-><init>(I)V
 
-    .line 231
     new-instance v12, Landroidx/room/util/TableInfo;
 
     const-string v13, "MONTAGE_MATERIAL_ENTITY"
@@ -3991,19 +3683,16 @@
 
     const-string v2, "MONTAGE_MATERIAL_ENTITY"
 
-    .line 232
     invoke-static {v0, v2}, Landroidx/room/util/TableInfo;->read(Landroidx/sqlite/db/SupportSQLiteDatabase;Ljava/lang/String;)Landroidx/room/util/TableInfo;
 
     move-result-object v2
 
-    .line 233
     invoke-virtual {v12, v2}, Landroidx/room/util/TableInfo;->equals(Ljava/lang/Object;)Z
 
     move-result v3
 
     if-nez v3, :cond_7
 
-    .line 234
     new-instance v0, Landroidx/room/RoomOpenHelper$ValidationResult;
 
     new-instance v3, Ljava/lang/StringBuilder;
@@ -4030,7 +3719,6 @@
 
     return-object v0
 
-    .line 235
     :cond_7
     new-instance v2, Ljava/util/HashMap;
 
@@ -4038,7 +3726,6 @@
 
     invoke-direct {v2, v3}, Ljava/util/HashMap;-><init>(I)V
 
-    .line 236
     new-instance v3, Landroidx/room/util/TableInfo$Column;
 
     const/4 v14, 0x1
@@ -4061,7 +3748,6 @@
 
     invoke-virtual {v2, v11, v3}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 237
     new-instance v3, Landroidx/room/util/TableInfo$Column;
 
     const/16 v16, 0x0
@@ -4082,7 +3768,6 @@
 
     invoke-virtual {v2, v11, v3}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 238
     new-instance v3, Landroidx/room/util/TableInfo$Column;
 
     const/4 v15, 0x0
@@ -4099,7 +3784,6 @@
 
     invoke-virtual {v2, v12, v3}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 239
     new-instance v3, Landroidx/room/util/TableInfo$Column;
 
     const/16 v17, 0x0
@@ -4120,7 +3804,6 @@
 
     invoke-virtual {v2, v12, v3}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 240
     new-instance v3, Landroidx/room/util/TableInfo$Column;
 
     const/16 v16, 0x1
@@ -4137,7 +3820,6 @@
 
     invoke-virtual {v2, v12, v3}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 241
     new-instance v3, Landroidx/room/util/TableInfo$Column;
 
     const-string v14, "status"
@@ -4152,7 +3834,6 @@
 
     invoke-virtual {v2, v12, v3}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 242
     new-instance v3, Landroidx/room/util/TableInfo$Column;
 
     const/16 v16, 0x0
@@ -4167,7 +3848,6 @@
 
     invoke-virtual {v2, v9, v3}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 243
     new-instance v3, Landroidx/room/util/TableInfo$Column;
 
     const/16 v23, 0x0
@@ -4190,7 +3870,6 @@
 
     invoke-virtual {v2, v12, v3}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 244
     new-instance v3, Landroidx/room/util/TableInfo$Column;
 
     const/16 v16, 0x1
@@ -4205,7 +3884,6 @@
 
     invoke-virtual {v2, v7, v3}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 245
     new-instance v3, Landroidx/room/util/TableInfo$Column;
 
     const/16 v23, 0x1
@@ -4222,7 +3900,6 @@
 
     invoke-virtual {v2, v12, v3}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 246
     new-instance v3, Landroidx/room/util/TableInfo$Column;
 
     const/16 v16, 0x0
@@ -4239,7 +3916,6 @@
 
     invoke-virtual {v2, v12, v3}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 247
     new-instance v3, Landroidx/room/util/TableInfo$Column;
 
     const-string v14, "paid_icon"
@@ -4254,17 +3930,14 @@
 
     invoke-virtual {v2, v12, v3}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 248
     new-instance v3, Ljava/util/HashSet;
 
     invoke-direct {v3, v5}, Ljava/util/HashSet;-><init>(I)V
 
-    .line 249
     new-instance v12, Ljava/util/HashSet;
 
     invoke-direct {v12, v5}, Ljava/util/HashSet;-><init>(I)V
 
-    .line 250
     new-instance v13, Landroidx/room/util/TableInfo;
 
     const-string v14, "MOSAIC_LOCAL_ENTITY"
@@ -4273,19 +3946,16 @@
 
     const-string v2, "MOSAIC_LOCAL_ENTITY"
 
-    .line 251
     invoke-static {v0, v2}, Landroidx/room/util/TableInfo;->read(Landroidx/sqlite/db/SupportSQLiteDatabase;Ljava/lang/String;)Landroidx/room/util/TableInfo;
 
     move-result-object v2
 
-    .line 252
     invoke-virtual {v13, v2}, Landroidx/room/util/TableInfo;->equals(Ljava/lang/Object;)Z
 
     move-result v3
 
     if-nez v3, :cond_8
 
-    .line 253
     new-instance v0, Landroidx/room/RoomOpenHelper$ValidationResult;
 
     new-instance v3, Ljava/lang/StringBuilder;
@@ -4312,7 +3982,6 @@
 
     return-object v0
 
-    .line 254
     :cond_8
     new-instance v2, Ljava/util/HashMap;
 
@@ -4320,7 +3989,6 @@
 
     invoke-direct {v2, v3}, Ljava/util/HashMap;-><init>(I)V
 
-    .line 255
     new-instance v3, Landroidx/room/util/TableInfo$Column;
 
     const/4 v15, 0x1
@@ -4343,7 +4011,6 @@
 
     invoke-virtual {v2, v12, v3}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 256
     new-instance v3, Landroidx/room/util/TableInfo$Column;
 
     const/16 v16, 0x0
@@ -4366,7 +4033,6 @@
 
     invoke-virtual {v2, v12, v3}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 257
     new-instance v3, Landroidx/room/util/TableInfo$Column;
 
     const-string v14, "FilterNewName"
@@ -4381,7 +4047,6 @@
 
     invoke-virtual {v2, v12, v3}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 258
     new-instance v3, Landroidx/room/util/TableInfo$Column;
 
     const-string v14, "FilterOldName"
@@ -4396,7 +4061,6 @@
 
     invoke-virtual {v2, v12, v3}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 259
     new-instance v3, Landroidx/room/util/TableInfo$Column;
 
     const-string v14, "FilterShopThumbnail"
@@ -4411,7 +4075,6 @@
 
     invoke-virtual {v2, v12, v3}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 260
     new-instance v3, Landroidx/room/util/TableInfo$Column;
 
     const/16 v16, 0x1
@@ -4428,7 +4091,6 @@
 
     invoke-virtual {v2, v12, v3}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 261
     new-instance v3, Landroidx/room/util/TableInfo$Column;
 
     const/16 v16, 0x0
@@ -4445,7 +4107,6 @@
 
     invoke-virtual {v2, v12, v3}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 262
     new-instance v3, Landroidx/room/util/TableInfo$Column;
 
     const/16 v16, 0x1
@@ -4462,7 +4123,6 @@
 
     invoke-virtual {v2, v12, v3}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 263
     new-instance v3, Landroidx/room/util/TableInfo$Column;
 
     const-string v14, "FilterSort"
@@ -4477,7 +4137,6 @@
 
     invoke-virtual {v2, v12, v3}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 264
     new-instance v3, Landroidx/room/util/TableInfo$Column;
 
     const-string v14, "CollectedState"
@@ -4492,7 +4151,6 @@
 
     invoke-virtual {v2, v12, v3}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 265
     new-instance v3, Landroidx/room/util/TableInfo$Column;
 
     const-string v14, "CollectedTime"
@@ -4507,7 +4165,6 @@
 
     invoke-virtual {v2, v12, v3}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 266
     new-instance v3, Landroidx/room/util/TableInfo$Column;
 
     const-string v14, "InternalState"
@@ -4522,7 +4179,6 @@
 
     invoke-virtual {v2, v12, v3}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 267
     new-instance v3, Landroidx/room/util/TableInfo$Column;
 
     const-string v14, "DownloadState"
@@ -4537,7 +4193,6 @@
 
     invoke-virtual {v2, v13, v3}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 268
     new-instance v3, Landroidx/room/util/TableInfo$Column;
 
     const/16 v17, 0x1
@@ -4560,7 +4215,6 @@
 
     invoke-virtual {v2, v13, v3}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 269
     new-instance v3, Landroidx/room/util/TableInfo$Column;
 
     const-string v15, "FilterDefaultAlpha"
@@ -4575,7 +4229,6 @@
 
     invoke-virtual {v2, v13, v3}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 270
     new-instance v3, Landroidx/room/util/TableInfo$Column;
 
     const-string v15, "AlphaInCamera"
@@ -4590,7 +4243,6 @@
 
     invoke-virtual {v2, v13, v3}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 271
     new-instance v3, Landroidx/room/util/TableInfo$Column;
 
     const-string v15, "NeedNewMode"
@@ -4605,7 +4257,6 @@
 
     invoke-virtual {v2, v13, v3}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 272
     new-instance v3, Landroidx/room/util/TableInfo$Column;
 
     const-string v15, "NeedBodyMask"
@@ -4620,7 +4271,6 @@
 
     invoke-virtual {v2, v13, v3}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 273
     new-instance v3, Landroidx/room/util/TableInfo$Column;
 
     const-string v15, "NeedHairMode"
@@ -4635,7 +4285,6 @@
 
     invoke-virtual {v2, v13, v3}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 274
     new-instance v3, Landroidx/room/util/TableInfo$Column;
 
     const-string v15, "ShowState"
@@ -4650,7 +4299,6 @@
 
     invoke-virtual {v2, v13, v3}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 275
     new-instance v3, Landroidx/room/util/TableInfo$Column;
 
     const-string v15, "tag"
@@ -4665,17 +4313,14 @@
 
     invoke-virtual {v2, v13, v3}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 276
     new-instance v3, Ljava/util/HashSet;
 
     invoke-direct {v3, v5}, Ljava/util/HashSet;-><init>(I)V
 
-    .line 277
     new-instance v13, Ljava/util/HashSet;
 
     invoke-direct {v13, v5}, Ljava/util/HashSet;-><init>(I)V
 
-    .line 278
     new-instance v14, Landroidx/room/util/TableInfo;
 
     const-string v15, "NEW_FILTER"
@@ -4684,19 +4329,16 @@
 
     const-string v2, "NEW_FILTER"
 
-    .line 279
     invoke-static {v0, v2}, Landroidx/room/util/TableInfo;->read(Landroidx/sqlite/db/SupportSQLiteDatabase;Ljava/lang/String;)Landroidx/room/util/TableInfo;
 
     move-result-object v2
 
-    .line 280
     invoke-virtual {v14, v2}, Landroidx/room/util/TableInfo;->equals(Ljava/lang/Object;)Z
 
     move-result v3
 
     if-nez v3, :cond_9
 
-    .line 281
     new-instance v0, Landroidx/room/RoomOpenHelper$ValidationResult;
 
     new-instance v3, Ljava/lang/StringBuilder;
@@ -4723,7 +4365,6 @@
 
     return-object v0
 
-    .line 282
     :cond_9
     new-instance v2, Ljava/util/HashMap;
 
@@ -4731,7 +4372,6 @@
 
     invoke-direct {v2, v3}, Ljava/util/HashMap;-><init>(I)V
 
-    .line 283
     new-instance v15, Landroidx/room/util/TableInfo$Column;
 
     const/16 v16, 0x1
@@ -4758,7 +4398,6 @@
 
     invoke-virtual {v2, v13, v3}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 284
     new-instance v3, Landroidx/room/util/TableInfo$Column;
 
     const/16 v17, 0x0
@@ -4781,7 +4420,6 @@
 
     invoke-virtual {v2, v14, v3}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 285
     new-instance v3, Landroidx/room/util/TableInfo$Column;
 
     const/16 v25, 0x1
@@ -4804,7 +4442,6 @@
 
     invoke-virtual {v2, v15, v3}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 286
     new-instance v3, Landroidx/room/util/TableInfo$Column;
 
     const-string v23, "LockLocalState"
@@ -4819,17 +4456,14 @@
 
     invoke-virtual {v2, v1, v3}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 287
     new-instance v1, Ljava/util/HashSet;
 
     invoke-direct {v1, v5}, Ljava/util/HashSet;-><init>(I)V
 
-    .line 288
     new-instance v3, Ljava/util/HashSet;
 
     invoke-direct {v3, v5}, Ljava/util/HashSet;-><init>(I)V
 
-    .line 289
     new-instance v5, Landroidx/room/util/TableInfo;
 
     move-object/from16 v18, v11
@@ -4840,19 +4474,16 @@
 
     const-string v1, "FILTER_CATEGORY_INFO"
 
-    .line 290
     invoke-static {v0, v1}, Landroidx/room/util/TableInfo;->read(Landroidx/sqlite/db/SupportSQLiteDatabase;Ljava/lang/String;)Landroidx/room/util/TableInfo;
 
     move-result-object v1
 
-    .line 291
     invoke-virtual {v5, v1}, Landroidx/room/util/TableInfo;->equals(Ljava/lang/Object;)Z
 
     move-result v2
 
     if-nez v2, :cond_a
 
-    .line 292
     new-instance v0, Landroidx/room/RoomOpenHelper$ValidationResult;
 
     new-instance v2, Ljava/lang/StringBuilder;
@@ -4883,7 +4514,6 @@
 
     return-object v0
 
-    .line 293
     :cond_a
     new-instance v1, Ljava/util/HashMap;
 
@@ -4891,7 +4521,6 @@
 
     invoke-direct {v1, v2}, Ljava/util/HashMap;-><init>(I)V
 
-    .line 294
     new-instance v2, Landroidx/room/util/TableInfo$Column;
 
     const/16 v25, 0x1
@@ -4914,7 +4543,6 @@
 
     invoke-virtual {v1, v3, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 295
     new-instance v2, Landroidx/room/util/TableInfo$Column;
 
     const/16 v26, 0x0
@@ -4931,7 +4559,6 @@
 
     invoke-virtual {v1, v3, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 296
     new-instance v2, Landroidx/room/util/TableInfo$Column;
 
     const/16 v25, 0x0
@@ -4948,7 +4575,6 @@
 
     invoke-virtual {v1, v3, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 297
     new-instance v2, Landroidx/room/util/TableInfo$Column;
 
     const-string v23, "GroupDesc"
@@ -4963,7 +4589,6 @@
 
     invoke-virtual {v1, v3, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 298
     new-instance v2, Landroidx/room/util/TableInfo$Column;
 
     const/16 v25, 0x1
@@ -4980,7 +4605,6 @@
 
     invoke-virtual {v1, v3, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 299
     new-instance v2, Landroidx/room/util/TableInfo$Column;
 
     const/16 v25, 0x0
@@ -4997,7 +4621,6 @@
 
     invoke-virtual {v1, v3, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 300
     new-instance v2, Landroidx/room/util/TableInfo$Column;
 
     const-string v23, "GroupPaidInfo"
@@ -5012,7 +4635,6 @@
 
     invoke-virtual {v1, v3, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 301
     new-instance v2, Landroidx/room/util/TableInfo$Column;
 
     const/16 v25, 0x1
@@ -5029,7 +4651,6 @@
 
     invoke-virtual {v1, v3, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 302
     new-instance v2, Landroidx/room/util/TableInfo$Column;
 
     const-string v23, "GroupSort"
@@ -5044,7 +4665,6 @@
 
     invoke-virtual {v1, v3, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 303
     new-instance v2, Landroidx/room/util/TableInfo$Column;
 
     const-string v23, "GroupTag"
@@ -5059,7 +4679,6 @@
 
     invoke-virtual {v1, v3, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 304
     new-instance v2, Landroidx/room/util/TableInfo$Column;
 
     const-string v23, "InternalState"
@@ -5072,7 +4691,6 @@
 
     invoke-virtual {v1, v12, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 305
     new-instance v2, Landroidx/room/util/TableInfo$Column;
 
     const/16 v32, 0x1
@@ -5095,7 +4713,6 @@
 
     invoke-virtual {v1, v3, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 306
     new-instance v2, Landroidx/room/util/TableInfo$Column;
 
     const/16 v25, 0x0
@@ -5112,7 +4729,6 @@
 
     invoke-virtual {v1, v3, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 307
     new-instance v2, Landroidx/room/util/TableInfo$Column;
 
     const/16 v25, 0x1
@@ -5127,7 +4743,6 @@
 
     invoke-virtual {v1, v13, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 308
     new-instance v2, Landroidx/room/util/TableInfo$Column;
 
     const/16 v32, 0x0
@@ -5144,7 +4759,6 @@
 
     invoke-virtual {v1, v3, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 309
     new-instance v2, Landroidx/room/util/TableInfo$Column;
 
     const-string v23, "updateAt"
@@ -5159,7 +4773,6 @@
 
     invoke-virtual {v1, v3, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 310
     new-instance v2, Landroidx/room/util/TableInfo$Column;
 
     const-string v23, "localInsertTime"
@@ -5174,19 +4787,16 @@
 
     invoke-virtual {v1, v3, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 311
     new-instance v2, Ljava/util/HashSet;
 
     const/4 v3, 0x0
 
     invoke-direct {v2, v3}, Ljava/util/HashSet;-><init>(I)V
 
-    .line 312
     new-instance v5, Ljava/util/HashSet;
 
     invoke-direct {v5, v3}, Ljava/util/HashSet;-><init>(I)V
 
-    .line 313
     new-instance v3, Landroidx/room/util/TableInfo;
 
     const-string v11, "FILTER_GROUP_INFO"
@@ -5195,19 +4805,16 @@
 
     const-string v1, "FILTER_GROUP_INFO"
 
-    .line 314
     invoke-static {v0, v1}, Landroidx/room/util/TableInfo;->read(Landroidx/sqlite/db/SupportSQLiteDatabase;Ljava/lang/String;)Landroidx/room/util/TableInfo;
 
     move-result-object v1
 
-    .line 315
     invoke-virtual {v3, v1}, Landroidx/room/util/TableInfo;->equals(Ljava/lang/Object;)Z
 
     move-result v2
 
     if-nez v2, :cond_b
 
-    .line 316
     new-instance v0, Landroidx/room/RoomOpenHelper$ValidationResult;
 
     new-instance v2, Ljava/lang/StringBuilder;
@@ -5238,7 +4845,6 @@
 
     return-object v0
 
-    .line 317
     :cond_b
     new-instance v1, Ljava/util/HashMap;
 
@@ -5246,7 +4852,6 @@
 
     invoke-direct {v1, v2}, Ljava/util/HashMap;-><init>(I)V
 
-    .line 318
     new-instance v2, Landroidx/room/util/TableInfo$Column;
 
     const/16 v25, 0x1
@@ -5269,7 +4874,6 @@
 
     invoke-virtual {v1, v3, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 319
     new-instance v2, Landroidx/room/util/TableInfo$Column;
 
     const/16 v26, 0x0
@@ -5286,7 +4890,6 @@
 
     invoke-virtual {v1, v3, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 320
     new-instance v2, Landroidx/room/util/TableInfo$Column;
 
     const/16 v25, 0x0
@@ -5303,7 +4906,6 @@
 
     invoke-virtual {v1, v3, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 321
     new-instance v2, Landroidx/room/util/TableInfo$Column;
 
     const/16 v25, 0x1
@@ -5320,7 +4922,6 @@
 
     invoke-virtual {v1, v3, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 322
     new-instance v2, Landroidx/room/util/TableInfo$Column;
 
     const/16 v25, 0x0
@@ -5337,7 +4938,6 @@
 
     invoke-virtual {v1, v3, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 323
     new-instance v2, Landroidx/room/util/TableInfo$Column;
 
     const/16 v25, 0x1
@@ -5354,7 +4954,6 @@
 
     invoke-virtual {v1, v3, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 324
     new-instance v2, Landroidx/room/util/TableInfo$Column;
 
     const-string v23, "ContainInHistory"
@@ -5369,7 +4968,6 @@
 
     invoke-virtual {v1, v3, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 325
     new-instance v2, Landroidx/room/util/TableInfo$Column;
 
     const-string v23, "HistoryTime"
@@ -5384,7 +4982,6 @@
 
     invoke-virtual {v1, v3, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 326
     new-instance v2, Landroidx/room/util/TableInfo$Column;
 
     const-string v23, "DownloadFromRecommend"
@@ -5399,7 +4996,6 @@
 
     invoke-virtual {v1, v3, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 327
     new-instance v2, Landroidx/room/util/TableInfo$Column;
 
     const-string v23, "custom"
@@ -5414,7 +5010,6 @@
 
     invoke-virtual {v1, v3, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 328
     new-instance v2, Landroidx/room/util/TableInfo$Column;
 
     const-string v23, "DownloadState"
@@ -5429,7 +5024,6 @@
 
     invoke-virtual {v1, v3, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 329
     new-instance v2, Landroidx/room/util/TableInfo$Column;
 
     const-string v23, "InternalState"
@@ -5442,19 +5036,16 @@
 
     invoke-virtual {v1, v12, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 330
     new-instance v2, Ljava/util/HashSet;
 
     const/4 v3, 0x0
 
     invoke-direct {v2, v3}, Ljava/util/HashSet;-><init>(I)V
 
-    .line 331
     new-instance v5, Ljava/util/HashSet;
 
     invoke-direct {v5, v3}, Ljava/util/HashSet;-><init>(I)V
 
-    .line 332
     new-instance v3, Landroidx/room/util/TableInfo;
 
     const-string v11, "STICKER_MATERIAL"
@@ -5463,19 +5054,16 @@
 
     const-string v1, "STICKER_MATERIAL"
 
-    .line 333
     invoke-static {v0, v1}, Landroidx/room/util/TableInfo;->read(Landroidx/sqlite/db/SupportSQLiteDatabase;Ljava/lang/String;)Landroidx/room/util/TableInfo;
 
     move-result-object v1
 
-    .line 334
     invoke-virtual {v3, v1}, Landroidx/room/util/TableInfo;->equals(Ljava/lang/Object;)Z
 
     move-result v2
 
     if-nez v2, :cond_c
 
-    .line 335
     new-instance v0, Landroidx/room/RoomOpenHelper$ValidationResult;
 
     new-instance v2, Ljava/lang/StringBuilder;
@@ -5506,7 +5094,6 @@
 
     return-object v0
 
-    .line 336
     :cond_c
     new-instance v1, Ljava/util/HashMap;
 
@@ -5514,7 +5101,6 @@
 
     invoke-direct {v1, v2}, Ljava/util/HashMap;-><init>(I)V
 
-    .line 337
     new-instance v2, Landroidx/room/util/TableInfo$Column;
 
     const/16 v25, 0x1
@@ -5537,7 +5123,6 @@
 
     invoke-virtual {v1, v3, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 338
     new-instance v2, Landroidx/room/util/TableInfo$Column;
 
     const/16 v25, 0x0
@@ -5556,7 +5141,6 @@
 
     invoke-virtual {v1, v3, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 339
     new-instance v2, Landroidx/room/util/TableInfo$Column;
 
     const/16 v25, 0x1
@@ -5573,7 +5157,6 @@
 
     invoke-virtual {v1, v3, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 340
     new-instance v2, Landroidx/room/util/TableInfo$Column;
 
     const-string v23, "GroupTag"
@@ -5588,7 +5171,6 @@
 
     invoke-virtual {v1, v3, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 341
     new-instance v2, Landroidx/room/util/TableInfo$Column;
 
     const-string v23, "InternalState"
@@ -5601,7 +5183,6 @@
 
     invoke-virtual {v1, v12, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 342
     new-instance v2, Landroidx/room/util/TableInfo$Column;
 
     const/16 v32, 0x1
@@ -5624,7 +5205,6 @@
 
     invoke-virtual {v1, v3, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 343
     new-instance v2, Landroidx/room/util/TableInfo$Column;
 
     const/16 v25, 0x0
@@ -5641,7 +5221,6 @@
 
     invoke-virtual {v1, v3, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 344
     new-instance v2, Landroidx/room/util/TableInfo$Column;
 
     const-string v23, "GroupThumbnail"
@@ -5656,7 +5235,6 @@
 
     invoke-virtual {v1, v3, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 345
     new-instance v2, Landroidx/room/util/TableInfo$Column;
 
     const/16 v25, 0x1
@@ -5673,7 +5251,6 @@
 
     invoke-virtual {v1, v3, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 346
     new-instance v2, Landroidx/room/util/TableInfo$Column;
 
     const/16 v25, 0x0
@@ -5690,7 +5267,6 @@
 
     invoke-virtual {v1, v3, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 347
     new-instance v2, Landroidx/room/util/TableInfo$Column;
 
     const-string v23, "StickerBg"
@@ -5705,7 +5281,6 @@
 
     invoke-virtual {v1, v3, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 348
     new-instance v2, Landroidx/room/util/TableInfo$Column;
 
     const-string v23, "GroupCoverImage"
@@ -5720,7 +5295,6 @@
 
     invoke-virtual {v1, v3, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 349
     new-instance v2, Landroidx/room/util/TableInfo$Column;
 
     const/16 v25, 0x1
@@ -5737,7 +5311,6 @@
 
     invoke-virtual {v1, v3, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 350
     new-instance v2, Landroidx/room/util/TableInfo$Column;
 
     const-string v23, "localInsertTime"
@@ -5752,7 +5325,6 @@
 
     invoke-virtual {v1, v3, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 351
     new-instance v2, Landroidx/room/util/TableInfo$Column;
 
     const/16 v25, 0x0
@@ -5769,7 +5341,6 @@
 
     invoke-virtual {v1, v3, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 352
     new-instance v2, Landroidx/room/util/TableInfo$Column;
 
     const/16 v25, 0x1
@@ -5786,7 +5357,6 @@
 
     invoke-virtual {v1, v3, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 353
     new-instance v2, Landroidx/room/util/TableInfo$Column;
 
     const-string v23, "CategoryId"
@@ -5799,7 +5369,6 @@
 
     invoke-virtual {v1, v13, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 354
     new-instance v2, Landroidx/room/util/TableInfo$Column;
 
     const-string v30, "isAvailable"
@@ -5814,7 +5383,6 @@
 
     invoke-virtual {v1, v3, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 355
     new-instance v2, Landroidx/room/util/TableInfo$Column;
 
     const-string v23, "LockLocalState"
@@ -5829,7 +5397,6 @@
 
     invoke-virtual {v1, v3, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 356
     new-instance v2, Landroidx/room/util/TableInfo$Column;
 
     const-string v23, "NeedShow"
@@ -5844,19 +5411,16 @@
 
     invoke-virtual {v1, v3, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 357
     new-instance v2, Ljava/util/HashSet;
 
     const/4 v3, 0x0
 
     invoke-direct {v2, v3}, Ljava/util/HashSet;-><init>(I)V
 
-    .line 358
     new-instance v5, Ljava/util/HashSet;
 
     invoke-direct {v5, v3}, Ljava/util/HashSet;-><init>(I)V
 
-    .line 359
     new-instance v3, Landroidx/room/util/TableInfo;
 
     const-string v11, "STICKER_MATERIAL_GROUP"
@@ -5865,19 +5429,16 @@
 
     const-string v1, "STICKER_MATERIAL_GROUP"
 
-    .line 360
     invoke-static {v0, v1}, Landroidx/room/util/TableInfo;->read(Landroidx/sqlite/db/SupportSQLiteDatabase;Ljava/lang/String;)Landroidx/room/util/TableInfo;
 
     move-result-object v1
 
-    .line 361
     invoke-virtual {v3, v1}, Landroidx/room/util/TableInfo;->equals(Ljava/lang/Object;)Z
 
     move-result v2
 
     if-nez v2, :cond_d
 
-    .line 362
     new-instance v0, Landroidx/room/RoomOpenHelper$ValidationResult;
 
     new-instance v2, Ljava/lang/StringBuilder;
@@ -5908,7 +5469,6 @@
 
     return-object v0
 
-    .line 363
     :cond_d
     new-instance v1, Ljava/util/HashMap;
 
@@ -5916,7 +5476,6 @@
 
     invoke-direct {v1, v2}, Ljava/util/HashMap;-><init>(I)V
 
-    .line 364
     new-instance v2, Landroidx/room/util/TableInfo$Column;
 
     const/16 v25, 0x1
@@ -5937,7 +5496,6 @@
 
     invoke-virtual {v1, v13, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 365
     new-instance v2, Landroidx/room/util/TableInfo$Column;
 
     const/16 v32, 0x0
@@ -5958,7 +5516,6 @@
 
     invoke-virtual {v1, v14, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 366
     new-instance v2, Landroidx/room/util/TableInfo$Column;
 
     const/16 v26, 0x0
@@ -5973,7 +5530,6 @@
 
     invoke-virtual {v1, v15, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 367
     new-instance v2, Landroidx/room/util/TableInfo$Column;
 
     const/16 v32, 0x1
@@ -5990,19 +5546,16 @@
 
     invoke-virtual {v1, v3, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 368
     new-instance v2, Ljava/util/HashSet;
 
     const/4 v3, 0x0
 
     invoke-direct {v2, v3}, Ljava/util/HashSet;-><init>(I)V
 
-    .line 369
     new-instance v5, Ljava/util/HashSet;
 
     invoke-direct {v5, v3}, Ljava/util/HashSet;-><init>(I)V
 
-    .line 370
     new-instance v3, Landroidx/room/util/TableInfo;
 
     const-string v11, "STICKER_CATEGORY"
@@ -6011,19 +5564,16 @@
 
     const-string v1, "STICKER_CATEGORY"
 
-    .line 371
     invoke-static {v0, v1}, Landroidx/room/util/TableInfo;->read(Landroidx/sqlite/db/SupportSQLiteDatabase;Ljava/lang/String;)Landroidx/room/util/TableInfo;
 
     move-result-object v1
 
-    .line 372
     invoke-virtual {v3, v1}, Landroidx/room/util/TableInfo;->equals(Ljava/lang/Object;)Z
 
     move-result v2
 
     if-nez v2, :cond_e
 
-    .line 373
     new-instance v0, Landroidx/room/RoomOpenHelper$ValidationResult;
 
     new-instance v2, Ljava/lang/StringBuilder;
@@ -6054,7 +5604,6 @@
 
     return-object v0
 
-    .line 374
     :cond_e
     new-instance v1, Ljava/util/HashMap;
 
@@ -6062,7 +5611,6 @@
 
     invoke-direct {v1, v2}, Ljava/util/HashMap;-><init>(I)V
 
-    .line 375
     new-instance v2, Landroidx/room/util/TableInfo$Column;
 
     const/16 v25, 0x1
@@ -6083,7 +5631,6 @@
 
     invoke-virtual {v1, v10, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 376
     new-instance v2, Landroidx/room/util/TableInfo$Column;
 
     const/16 v32, 0x1
@@ -6106,7 +5653,6 @@
 
     invoke-virtual {v1, v3, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 377
     new-instance v2, Landroidx/room/util/TableInfo$Column;
 
     const/16 v26, 0x0
@@ -6121,7 +5667,6 @@
 
     invoke-virtual {v1, v7, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 378
     new-instance v2, Landroidx/room/util/TableInfo$Column;
 
     const/16 v32, 0x0
@@ -6138,7 +5683,6 @@
 
     invoke-virtual {v1, v3, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 379
     new-instance v2, Landroidx/room/util/TableInfo$Column;
 
     const-string v23, "isInside"
@@ -6153,7 +5697,6 @@
 
     invoke-virtual {v1, v3, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 380
     new-instance v2, Landroidx/room/util/TableInfo$Column;
 
     const/16 v25, 0x0
@@ -6170,7 +5713,6 @@
 
     invoke-virtual {v1, v3, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 381
     new-instance v2, Landroidx/room/util/TableInfo$Column;
 
     const/16 v25, 0x1
@@ -6187,7 +5729,6 @@
 
     invoke-virtual {v1, v3, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 382
     new-instance v2, Landroidx/room/util/TableInfo$Column;
 
     const/16 v25, 0x0
@@ -6202,7 +5743,6 @@
 
     invoke-virtual {v1, v8, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 383
     new-instance v2, Landroidx/room/util/TableInfo$Column;
 
     const-string v30, "uiColor"
@@ -6217,7 +5757,6 @@
 
     invoke-virtual {v1, v3, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 384
     new-instance v2, Landroidx/room/util/TableInfo$Column;
 
     const/16 v25, 0x1
@@ -6234,7 +5773,6 @@
 
     invoke-virtual {v1, v3, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 385
     new-instance v2, Landroidx/room/util/TableInfo$Column;
 
     const-string v23, "sex"
@@ -6249,7 +5787,6 @@
 
     invoke-virtual {v1, v3, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 386
     new-instance v2, Landroidx/room/util/TableInfo$Column;
 
     const/16 v25, 0x0
@@ -6266,7 +5803,6 @@
 
     invoke-virtual {v1, v3, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 387
     new-instance v2, Landroidx/room/util/TableInfo$Column;
 
     const/16 v25, 0x1
@@ -6283,7 +5819,6 @@
 
     invoke-virtual {v1, v3, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 388
     new-instance v2, Landroidx/room/util/TableInfo$Column;
 
     const-string v23, "status"
@@ -6298,7 +5833,6 @@
 
     invoke-virtual {v1, v3, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 389
     new-instance v2, Landroidx/room/util/TableInfo$Column;
 
     const-string v23, "isDownloaded"
@@ -6313,7 +5847,6 @@
 
     invoke-virtual {v1, v3, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 390
     new-instance v2, Landroidx/room/util/TableInfo$Column;
 
     const-string v23, "isNew"
@@ -6328,7 +5861,6 @@
 
     invoke-virtual {v1, v3, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 391
     new-instance v2, Landroidx/room/util/TableInfo$Column;
 
     const-string v23, "startedAt"
@@ -6343,7 +5875,6 @@
 
     invoke-virtual {v1, v3, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 392
     new-instance v2, Landroidx/room/util/TableInfo$Column;
 
     const-string v23, "endedAt"
@@ -6358,7 +5889,6 @@
 
     invoke-virtual {v1, v3, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 393
     new-instance v2, Landroidx/room/util/TableInfo$Column;
 
     const/16 v25, 0x0
@@ -6375,7 +5905,6 @@
 
     invoke-virtual {v1, v3, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 394
     new-instance v2, Landroidx/room/util/TableInfo$Column;
 
     const/16 v25, 0x1
@@ -6392,19 +5921,16 @@
 
     invoke-virtual {v1, v3, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 395
     new-instance v2, Ljava/util/HashSet;
 
     const/4 v3, 0x0
 
     invoke-direct {v2, v3}, Ljava/util/HashSet;-><init>(I)V
 
-    .line 396
     new-instance v5, Ljava/util/HashSet;
 
     invoke-direct {v5, v3}, Ljava/util/HashSet;-><init>(I)V
 
-    .line 397
     new-instance v3, Landroidx/room/util/TableInfo;
 
     const-string v11, "LOOK_MATERIAL"
@@ -6413,19 +5939,16 @@
 
     const-string v1, "LOOK_MATERIAL"
 
-    .line 398
     invoke-static {v0, v1}, Landroidx/room/util/TableInfo;->read(Landroidx/sqlite/db/SupportSQLiteDatabase;Ljava/lang/String;)Landroidx/room/util/TableInfo;
 
     move-result-object v1
 
-    .line 399
     invoke-virtual {v3, v1}, Landroidx/room/util/TableInfo;->equals(Ljava/lang/Object;)Z
 
     move-result v2
 
     if-nez v2, :cond_f
 
-    .line 400
     new-instance v0, Landroidx/room/RoomOpenHelper$ValidationResult;
 
     new-instance v2, Ljava/lang/StringBuilder;
@@ -6456,7 +5979,6 @@
 
     return-object v0
 
-    .line 401
     :cond_f
     new-instance v1, Ljava/util/HashMap;
 
@@ -6464,7 +5986,6 @@
 
     invoke-direct {v1, v2}, Ljava/util/HashMap;-><init>(I)V
 
-    .line 402
     new-instance v2, Landroidx/room/util/TableInfo$Column;
 
     const/16 v25, 0x1
@@ -6485,7 +6006,6 @@
 
     invoke-virtual {v1, v10, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 403
     new-instance v2, Landroidx/room/util/TableInfo$Column;
 
     const/16 v32, 0x1
@@ -6508,7 +6028,6 @@
 
     invoke-virtual {v1, v3, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 404
     new-instance v2, Landroidx/room/util/TableInfo$Column;
 
     const/16 v26, 0x0
@@ -6525,7 +6044,6 @@
 
     invoke-virtual {v1, v3, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 405
     new-instance v2, Landroidx/room/util/TableInfo$Column;
 
     const-string v23, "makeupType"
@@ -6540,7 +6058,6 @@
 
     invoke-virtual {v1, v3, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 406
     new-instance v2, Landroidx/room/util/TableInfo$Column;
 
     const/16 v25, 0x0
@@ -6555,7 +6072,6 @@
 
     invoke-virtual {v1, v4, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 407
     new-instance v2, Landroidx/room/util/TableInfo$Column;
 
     const/16 v32, 0x0
@@ -6570,7 +6086,6 @@
 
     invoke-virtual {v1, v8, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 408
     new-instance v2, Landroidx/room/util/TableInfo$Column;
 
     const/16 v25, 0x1
@@ -6587,7 +6102,6 @@
 
     invoke-virtual {v1, v3, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 409
     new-instance v2, Landroidx/room/util/TableInfo$Column;
 
     const/16 v25, 0x0
@@ -6604,7 +6118,6 @@
 
     invoke-virtual {v1, v3, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 410
     new-instance v2, Landroidx/room/util/TableInfo$Column;
 
     const-string v23, "url"
@@ -6619,7 +6132,6 @@
 
     invoke-virtual {v1, v3, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 411
     new-instance v2, Landroidx/room/util/TableInfo$Column;
 
     const-string v23, "color"
@@ -6634,7 +6146,6 @@
 
     invoke-virtual {v1, v3, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 412
     new-instance v2, Landroidx/room/util/TableInfo$Column;
 
     const/16 v25, 0x1
@@ -6651,7 +6162,6 @@
 
     invoke-virtual {v1, v3, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 413
     new-instance v2, Landroidx/room/util/TableInfo$Column;
 
     const-string v23, "defaultAlpha"
@@ -6666,7 +6176,6 @@
 
     invoke-virtual {v1, v3, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 414
     new-instance v2, Landroidx/room/util/TableInfo$Column;
 
     const-string v23, "downloadType"
@@ -6681,7 +6190,6 @@
 
     invoke-virtual {v1, v3, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 415
     new-instance v2, Landroidx/room/util/TableInfo$Column;
 
     const-string v23, "isDownloaded"
@@ -6696,7 +6204,6 @@
 
     invoke-virtual {v1, v3, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 416
     new-instance v2, Landroidx/room/util/TableInfo$Column;
 
     const-string v23, "sort"
@@ -6709,7 +6216,6 @@
 
     invoke-virtual {v1, v7, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 417
     new-instance v2, Landroidx/room/util/TableInfo$Column;
 
     const/16 v32, 0x1
@@ -6726,7 +6232,6 @@
 
     invoke-virtual {v1, v3, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 418
     new-instance v2, Landroidx/room/util/TableInfo$Column;
 
     const-string v23, "isNew"
@@ -6741,7 +6246,6 @@
 
     invoke-virtual {v1, v3, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 419
     new-instance v2, Landroidx/room/util/TableInfo$Column;
 
     const-string v23, "isNewTime"
@@ -6756,7 +6260,6 @@
 
     invoke-virtual {v1, v3, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 420
     new-instance v2, Landroidx/room/util/TableInfo$Column;
 
     const-string v23, "endedAt"
@@ -6771,7 +6274,6 @@
 
     invoke-virtual {v1, v3, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 421
     new-instance v2, Landroidx/room/util/TableInfo$Column;
 
     const/16 v25, 0x0
@@ -6788,19 +6290,16 @@
 
     invoke-virtual {v1, v3, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 422
     new-instance v2, Ljava/util/HashSet;
 
     const/4 v3, 0x0
 
     invoke-direct {v2, v3}, Ljava/util/HashSet;-><init>(I)V
 
-    .line 423
     new-instance v5, Ljava/util/HashSet;
 
     invoke-direct {v5, v3}, Ljava/util/HashSet;-><init>(I)V
 
-    .line 424
     new-instance v3, Landroidx/room/util/TableInfo;
 
     const-string v10, "MAKEUP_MATERIAL"
@@ -6809,19 +6308,16 @@
 
     const-string v1, "MAKEUP_MATERIAL"
 
-    .line 425
     invoke-static {v0, v1}, Landroidx/room/util/TableInfo;->read(Landroidx/sqlite/db/SupportSQLiteDatabase;Ljava/lang/String;)Landroidx/room/util/TableInfo;
 
     move-result-object v1
 
-    .line 426
     invoke-virtual {v3, v1}, Landroidx/room/util/TableInfo;->equals(Ljava/lang/Object;)Z
 
     move-result v2
 
     if-nez v2, :cond_10
 
-    .line 427
     new-instance v0, Landroidx/room/RoomOpenHelper$ValidationResult;
 
     new-instance v2, Ljava/lang/StringBuilder;
@@ -6852,7 +6348,6 @@
 
     return-object v0
 
-    .line 428
     :cond_10
     new-instance v1, Ljava/util/HashMap;
 
@@ -6860,7 +6355,6 @@
 
     invoke-direct {v1, v2}, Ljava/util/HashMap;-><init>(I)V
 
-    .line 429
     new-instance v2, Landroidx/room/util/TableInfo$Column;
 
     const/16 v25, 0x1
@@ -6883,7 +6377,6 @@
 
     invoke-virtual {v1, v3, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 430
     new-instance v2, Landroidx/room/util/TableInfo$Column;
 
     const/16 v25, 0x0
@@ -6902,7 +6395,6 @@
 
     invoke-virtual {v1, v3, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 431
     new-instance v2, Landroidx/room/util/TableInfo$Column;
 
     const-string v23, "DoodleFile"
@@ -6917,7 +6409,6 @@
 
     invoke-virtual {v1, v3, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 432
     new-instance v2, Landroidx/room/util/TableInfo$Column;
 
     const/16 v25, 0x1
@@ -6934,7 +6425,6 @@
 
     invoke-virtual {v1, v3, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 433
     new-instance v2, Landroidx/room/util/TableInfo$Column;
 
     const-string v23, "DoodleTag"
@@ -6949,7 +6439,6 @@
 
     invoke-virtual {v1, v3, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 434
     new-instance v2, Landroidx/room/util/TableInfo$Column;
 
     const-string v23, "DoodleRecommendState"
@@ -6964,7 +6453,6 @@
 
     invoke-virtual {v1, v3, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 435
     new-instance v2, Landroidx/room/util/TableInfo$Column;
 
     const-string v23, "DownloadType"
@@ -6979,7 +6467,6 @@
 
     invoke-virtual {v1, v3, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 436
     new-instance v2, Landroidx/room/util/TableInfo$Column;
 
     const-string v23, "isAvailable"
@@ -6994,7 +6481,6 @@
 
     invoke-virtual {v1, v3, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 437
     new-instance v2, Landroidx/room/util/TableInfo$Column;
 
     const-string v23, "CanEditColor"
@@ -7009,7 +6495,6 @@
 
     invoke-virtual {v1, v3, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 438
     new-instance v2, Landroidx/room/util/TableInfo$Column;
 
     const/16 v25, 0x0
@@ -7026,7 +6511,6 @@
 
     invoke-virtual {v1, v3, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 439
     new-instance v2, Landroidx/room/util/TableInfo$Column;
 
     const/16 v25, 0x1
@@ -7043,7 +6527,6 @@
 
     invoke-virtual {v1, v3, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 440
     new-instance v2, Landroidx/room/util/TableInfo$Column;
 
     const-string v23, "ListDisplay"
@@ -7058,7 +6541,6 @@
 
     invoke-virtual {v1, v3, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 441
     new-instance v2, Landroidx/room/util/TableInfo$Column;
 
     const-string v23, "NeedShow"
@@ -7073,7 +6555,6 @@
 
     invoke-virtual {v1, v3, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 442
     new-instance v2, Landroidx/room/util/TableInfo$Column;
 
     const-string v23, "CategoryId"
@@ -7086,7 +6567,6 @@
 
     invoke-virtual {v1, v13, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 443
     new-instance v2, Landroidx/room/util/TableInfo$Column;
 
     const/16 v32, 0x1
@@ -7109,7 +6589,6 @@
 
     invoke-virtual {v1, v3, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 444
     new-instance v2, Landroidx/room/util/TableInfo$Column;
 
     const-string v23, "DoodleCollectState"
@@ -7124,7 +6603,6 @@
 
     invoke-virtual {v1, v3, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 445
     new-instance v2, Landroidx/room/util/TableInfo$Column;
 
     const-string v23, "DoodleCollectTime"
@@ -7139,7 +6617,6 @@
 
     invoke-virtual {v1, v3, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 446
     new-instance v2, Landroidx/room/util/TableInfo$Column;
 
     const-string v23, "updateAt"
@@ -7154,7 +6631,6 @@
 
     invoke-virtual {v1, v3, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 447
     new-instance v2, Landroidx/room/util/TableInfo$Column;
 
     const-string v23, "localInsertTime"
@@ -7169,7 +6645,6 @@
 
     invoke-virtual {v1, v3, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 448
     new-instance v2, Landroidx/room/util/TableInfo$Column;
 
     const-string v23, "DownloadState"
@@ -7184,7 +6659,6 @@
 
     invoke-virtual {v1, v3, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 449
     new-instance v2, Landroidx/room/util/TableInfo$Column;
 
     const-string v23, "InternalState"
@@ -7197,19 +6671,16 @@
 
     invoke-virtual {v1, v12, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 450
     new-instance v2, Ljava/util/HashSet;
 
     const/4 v3, 0x0
 
     invoke-direct {v2, v3}, Ljava/util/HashSet;-><init>(I)V
 
-    .line 451
     new-instance v5, Ljava/util/HashSet;
 
     invoke-direct {v5, v3}, Ljava/util/HashSet;-><init>(I)V
 
-    .line 452
     new-instance v3, Landroidx/room/util/TableInfo;
 
     const-string v10, "DOODLE_MATERIAL"
@@ -7218,19 +6689,16 @@
 
     const-string v1, "DOODLE_MATERIAL"
 
-    .line 453
     invoke-static {v0, v1}, Landroidx/room/util/TableInfo;->read(Landroidx/sqlite/db/SupportSQLiteDatabase;Ljava/lang/String;)Landroidx/room/util/TableInfo;
 
     move-result-object v1
 
-    .line 454
     invoke-virtual {v3, v1}, Landroidx/room/util/TableInfo;->equals(Ljava/lang/Object;)Z
 
     move-result v2
 
     if-nez v2, :cond_11
 
-    .line 455
     new-instance v0, Landroidx/room/RoomOpenHelper$ValidationResult;
 
     new-instance v2, Ljava/lang/StringBuilder;
@@ -7261,7 +6729,6 @@
 
     return-object v0
 
-    .line 456
     :cond_11
     new-instance v1, Ljava/util/HashMap;
 
@@ -7269,7 +6736,6 @@
 
     invoke-direct {v1, v2}, Ljava/util/HashMap;-><init>(I)V
 
-    .line 457
     new-instance v2, Landroidx/room/util/TableInfo$Column;
 
     const/16 v25, 0x1
@@ -7290,7 +6756,6 @@
 
     invoke-virtual {v1, v13, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 458
     new-instance v2, Landroidx/room/util/TableInfo$Column;
 
     const/16 v32, 0x0
@@ -7311,7 +6776,6 @@
 
     invoke-virtual {v1, v14, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 459
     new-instance v2, Landroidx/room/util/TableInfo$Column;
 
     const/16 v26, 0x0
@@ -7326,7 +6790,6 @@
 
     invoke-virtual {v1, v15, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 460
     new-instance v2, Landroidx/room/util/TableInfo$Column;
 
     const/16 v32, 0x1
@@ -7343,19 +6806,16 @@
 
     invoke-virtual {v1, v3, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 461
     new-instance v2, Ljava/util/HashSet;
 
     const/4 v3, 0x0
 
     invoke-direct {v2, v3}, Ljava/util/HashSet;-><init>(I)V
 
-    .line 462
     new-instance v5, Ljava/util/HashSet;
 
     invoke-direct {v5, v3}, Ljava/util/HashSet;-><init>(I)V
 
-    .line 463
     new-instance v3, Landroidx/room/util/TableInfo;
 
     const-string v10, "DOODLE_CATEGORY"
@@ -7364,19 +6824,16 @@
 
     const-string v1, "DOODLE_CATEGORY"
 
-    .line 464
     invoke-static {v0, v1}, Landroidx/room/util/TableInfo;->read(Landroidx/sqlite/db/SupportSQLiteDatabase;Ljava/lang/String;)Landroidx/room/util/TableInfo;
 
     move-result-object v1
 
-    .line 465
     invoke-virtual {v3, v1}, Landroidx/room/util/TableInfo;->equals(Ljava/lang/Object;)Z
 
     move-result v2
 
     if-nez v2, :cond_12
 
-    .line 466
     new-instance v0, Landroidx/room/RoomOpenHelper$ValidationResult;
 
     new-instance v2, Ljava/lang/StringBuilder;
@@ -7407,7 +6864,6 @@
 
     return-object v0
 
-    .line 467
     :cond_12
     new-instance v1, Ljava/util/HashMap;
 
@@ -7415,7 +6871,6 @@
 
     invoke-direct {v1, v2}, Ljava/util/HashMap;-><init>(I)V
 
-    .line 468
     new-instance v2, Landroidx/room/util/TableInfo$Column;
 
     const/16 v25, 0x1
@@ -7438,7 +6893,6 @@
 
     invoke-virtual {v1, v3, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 469
     new-instance v2, Landroidx/room/util/TableInfo$Column;
 
     const/16 v25, 0x0
@@ -7455,7 +6909,6 @@
 
     invoke-virtual {v1, v8, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 470
     new-instance v2, Landroidx/room/util/TableInfo$Column;
 
     const/16 v32, 0x0
@@ -7476,7 +6929,6 @@
 
     invoke-virtual {v1, v4, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 471
     new-instance v2, Landroidx/room/util/TableInfo$Column;
 
     const-string v23, "file"
@@ -7489,7 +6941,6 @@
 
     invoke-virtual {v1, v9, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 472
     new-instance v2, Landroidx/room/util/TableInfo$Column;
 
     const/16 v32, 0x1
@@ -7506,7 +6957,6 @@
 
     invoke-virtual {v1, v5, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 473
     new-instance v2, Landroidx/room/util/TableInfo$Column;
 
     const/16 v25, 0x1
@@ -7523,7 +6973,6 @@
 
     invoke-virtual {v1, v10, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 474
     new-instance v2, Landroidx/room/util/TableInfo$Column;
 
     const-string v23, "ended_at"
@@ -7538,7 +6987,6 @@
 
     invoke-virtual {v1, v11, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 475
     new-instance v2, Landroidx/room/util/TableInfo$Column;
 
     const-string v23, "download_type"
@@ -7555,7 +7003,6 @@
 
     invoke-virtual {v1, v15, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 476
     new-instance v2, Landroidx/room/util/TableInfo$Column;
 
     const-string v23, "paid_type"
@@ -7572,7 +7019,6 @@
 
     invoke-virtual {v1, v14, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 477
     new-instance v2, Landroidx/room/util/TableInfo$Column;
 
     const-string v23, "sort"
@@ -7585,7 +7031,6 @@
 
     invoke-virtual {v1, v7, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 478
     new-instance v2, Landroidx/room/util/TableInfo$Column;
 
     const-string v30, "downloadState"
@@ -7602,7 +7047,6 @@
 
     invoke-virtual {v1, v12, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 479
     new-instance v2, Landroidx/room/util/TableInfo$Column;
 
     const/16 v25, 0x0
@@ -7621,7 +7065,6 @@
 
     invoke-virtual {v1, v13, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 480
     new-instance v2, Landroidx/room/util/TableInfo$Column;
 
     const/16 v26, 0x1
@@ -7644,7 +7087,6 @@
 
     invoke-virtual {v1, v13, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 481
     new-instance v2, Ljava/util/HashSet;
 
     move-object/from16 v23, v13
@@ -7655,12 +7097,10 @@
 
     move-object/from16 v24, v12
 
-    .line 482
     new-instance v12, Ljava/util/HashSet;
 
     invoke-direct {v12, v13}, Ljava/util/HashSet;-><init>(I)V
 
-    .line 483
     new-instance v13, Landroidx/room/util/TableInfo;
 
     move-object/from16 v25, v7
@@ -7671,19 +7111,16 @@
 
     const-string v1, "TEXTURE_MATERIAL"
 
-    .line 484
     invoke-static {v0, v1}, Landroidx/room/util/TableInfo;->read(Landroidx/sqlite/db/SupportSQLiteDatabase;Ljava/lang/String;)Landroidx/room/util/TableInfo;
 
     move-result-object v1
 
-    .line 485
     invoke-virtual {v13, v1}, Landroidx/room/util/TableInfo;->equals(Ljava/lang/Object;)Z
 
     move-result v2
 
     if-nez v2, :cond_13
 
-    .line 486
     new-instance v0, Landroidx/room/RoomOpenHelper$ValidationResult;
 
     new-instance v2, Ljava/lang/StringBuilder;
@@ -7714,7 +7151,6 @@
 
     return-object v0
 
-    .line 487
     :cond_13
     new-instance v1, Ljava/util/HashMap;
 
@@ -7722,7 +7158,6 @@
 
     invoke-direct {v1, v2}, Ljava/util/HashMap;-><init>(I)V
 
-    .line 488
     new-instance v2, Landroidx/room/util/TableInfo$Column;
 
     const/16 v29, 0x1
@@ -7743,7 +7178,6 @@
 
     invoke-virtual {v1, v3, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 489
     new-instance v2, Landroidx/room/util/TableInfo$Column;
 
     const/16 v36, 0x0
@@ -7764,7 +7198,6 @@
 
     invoke-virtual {v1, v8, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 490
     new-instance v2, Landroidx/room/util/TableInfo$Column;
 
     const/16 v29, 0x0
@@ -7781,7 +7214,6 @@
 
     invoke-virtual {v1, v4, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 491
     new-instance v2, Landroidx/room/util/TableInfo$Column;
 
     const-string v34, "file"
@@ -7794,7 +7226,6 @@
 
     invoke-virtual {v1, v9, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 492
     new-instance v2, Landroidx/room/util/TableInfo$Column;
 
     const/16 v29, 0x1
@@ -7809,7 +7240,6 @@
 
     invoke-virtual {v1, v5, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 493
     new-instance v2, Landroidx/room/util/TableInfo$Column;
 
     const/16 v36, 0x1
@@ -7824,7 +7254,6 @@
 
     invoke-virtual {v1, v10, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 494
     new-instance v2, Landroidx/room/util/TableInfo$Column;
 
     const-string v27, "ended_at"
@@ -7837,7 +7266,6 @@
 
     invoke-virtual {v1, v11, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 495
     new-instance v2, Landroidx/room/util/TableInfo$Column;
 
     const-string v34, "download_type"
@@ -7850,7 +7278,6 @@
 
     invoke-virtual {v1, v15, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 496
     new-instance v2, Landroidx/room/util/TableInfo$Column;
 
     const-string v27, "paid_type"
@@ -7863,7 +7290,6 @@
 
     invoke-virtual {v1, v14, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 497
     new-instance v2, Landroidx/room/util/TableInfo$Column;
 
     const-string v34, "sort"
@@ -7878,7 +7304,6 @@
 
     invoke-virtual {v1, v7, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 498
     new-instance v2, Landroidx/room/util/TableInfo$Column;
 
     const/16 v28, 0x1
@@ -7901,7 +7326,6 @@
 
     invoke-virtual {v1, v12, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 499
     new-instance v2, Landroidx/room/util/TableInfo$Column;
 
     const/16 v27, 0x0
@@ -7924,7 +7348,6 @@
 
     invoke-virtual {v1, v13, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 500
     new-instance v2, Landroidx/room/util/TableInfo$Column;
 
     const/16 v27, 0x1
@@ -7941,7 +7364,6 @@
 
     invoke-virtual {v1, v13, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 501
     new-instance v2, Ljava/util/HashSet;
 
     const/4 v13, 0x0
@@ -7950,12 +7372,10 @@
 
     move-object/from16 v24, v12
 
-    .line 502
     new-instance v12, Ljava/util/HashSet;
 
     invoke-direct {v12, v13}, Ljava/util/HashSet;-><init>(I)V
 
-    .line 503
     new-instance v13, Landroidx/room/util/TableInfo;
 
     move-object/from16 v25, v7
@@ -7966,19 +7386,16 @@
 
     const-string v1, "TEXT_TEMPLATE_MATERIAL"
 
-    .line 504
     invoke-static {v0, v1}, Landroidx/room/util/TableInfo;->read(Landroidx/sqlite/db/SupportSQLiteDatabase;Ljava/lang/String;)Landroidx/room/util/TableInfo;
 
     move-result-object v1
 
-    .line 505
     invoke-virtual {v13, v1}, Landroidx/room/util/TableInfo;->equals(Ljava/lang/Object;)Z
 
     move-result v2
 
     if-nez v2, :cond_14
 
-    .line 506
     new-instance v0, Landroidx/room/RoomOpenHelper$ValidationResult;
 
     new-instance v2, Ljava/lang/StringBuilder;
@@ -8009,7 +7426,6 @@
 
     return-object v0
 
-    .line 507
     :cond_14
     new-instance v1, Ljava/util/HashMap;
 
@@ -8017,7 +7433,6 @@
 
     invoke-direct {v1, v2}, Ljava/util/HashMap;-><init>(I)V
 
-    .line 508
     new-instance v2, Landroidx/room/util/TableInfo$Column;
 
     const/16 v29, 0x1
@@ -8038,7 +7453,6 @@
 
     invoke-virtual {v1, v3, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 509
     new-instance v2, Landroidx/room/util/TableInfo$Column;
 
     const/16 v36, 0x0
@@ -8059,7 +7473,6 @@
 
     invoke-virtual {v1, v8, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 510
     new-instance v2, Landroidx/room/util/TableInfo$Column;
 
     const/16 v29, 0x0
@@ -8076,7 +7489,6 @@
 
     invoke-virtual {v1, v4, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 511
     new-instance v2, Landroidx/room/util/TableInfo$Column;
 
     const-string v34, "file"
@@ -8089,7 +7501,6 @@
 
     invoke-virtual {v1, v9, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 512
     new-instance v2, Landroidx/room/util/TableInfo$Column;
 
     const/16 v29, 0x1
@@ -8104,7 +7515,6 @@
 
     invoke-virtual {v1, v5, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 513
     new-instance v2, Landroidx/room/util/TableInfo$Column;
 
     const/16 v36, 0x1
@@ -8119,7 +7529,6 @@
 
     invoke-virtual {v1, v10, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 514
     new-instance v2, Landroidx/room/util/TableInfo$Column;
 
     const-string v27, "ended_at"
@@ -8132,7 +7541,6 @@
 
     invoke-virtual {v1, v11, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 515
     new-instance v2, Landroidx/room/util/TableInfo$Column;
 
     const-string v34, "download_type"
@@ -8145,7 +7553,6 @@
 
     invoke-virtual {v1, v15, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 516
     new-instance v2, Landroidx/room/util/TableInfo$Column;
 
     const-string v27, "paid_type"
@@ -8158,7 +7565,6 @@
 
     invoke-virtual {v1, v14, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 517
     new-instance v2, Landroidx/room/util/TableInfo$Column;
 
     const-string v34, "sort"
@@ -8173,7 +7579,6 @@
 
     invoke-virtual {v1, v7, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 518
     new-instance v2, Landroidx/room/util/TableInfo$Column;
 
     const/16 v28, 0x1
@@ -8196,7 +7601,6 @@
 
     invoke-virtual {v1, v12, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 519
     new-instance v2, Landroidx/room/util/TableInfo$Column;
 
     const/16 v27, 0x0
@@ -8219,7 +7623,6 @@
 
     invoke-virtual {v1, v13, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 520
     new-instance v2, Landroidx/room/util/TableInfo$Column;
 
     const/16 v27, 0x1
@@ -8236,7 +7639,6 @@
 
     invoke-virtual {v1, v13, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 521
     new-instance v2, Ljava/util/HashSet;
 
     const/4 v13, 0x0
@@ -8245,12 +7647,10 @@
 
     move-object/from16 v24, v12
 
-    .line 522
     new-instance v12, Ljava/util/HashSet;
 
     invoke-direct {v12, v13}, Ljava/util/HashSet;-><init>(I)V
 
-    .line 523
     new-instance v13, Landroidx/room/util/TableInfo;
 
     move-object/from16 v25, v7
@@ -8261,19 +7661,16 @@
 
     const-string v1, "GRADIENT_MATERIAL"
 
-    .line 524
     invoke-static {v0, v1}, Landroidx/room/util/TableInfo;->read(Landroidx/sqlite/db/SupportSQLiteDatabase;Ljava/lang/String;)Landroidx/room/util/TableInfo;
 
     move-result-object v1
 
-    .line 525
     invoke-virtual {v13, v1}, Landroidx/room/util/TableInfo;->equals(Ljava/lang/Object;)Z
 
     move-result v2
 
     if-nez v2, :cond_15
 
-    .line 526
     new-instance v0, Landroidx/room/RoomOpenHelper$ValidationResult;
 
     new-instance v2, Ljava/lang/StringBuilder;
@@ -8304,7 +7701,6 @@
 
     return-object v0
 
-    .line 527
     :cond_15
     new-instance v1, Ljava/util/HashMap;
 
@@ -8312,7 +7708,6 @@
 
     invoke-direct {v1, v2}, Ljava/util/HashMap;-><init>(I)V
 
-    .line 528
     new-instance v2, Landroidx/room/util/TableInfo$Column;
 
     const/16 v29, 0x1
@@ -8333,7 +7728,6 @@
 
     invoke-virtual {v1, v3, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 529
     new-instance v2, Landroidx/room/util/TableInfo$Column;
 
     const/16 v36, 0x0
@@ -8354,7 +7748,6 @@
 
     invoke-virtual {v1, v8, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 530
     new-instance v2, Landroidx/room/util/TableInfo$Column;
 
     const/16 v29, 0x0
@@ -8371,7 +7764,6 @@
 
     invoke-virtual {v1, v4, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 531
     new-instance v2, Landroidx/room/util/TableInfo$Column;
 
     const-string v34, "file"
@@ -8384,7 +7776,6 @@
 
     invoke-virtual {v1, v9, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 532
     new-instance v2, Landroidx/room/util/TableInfo$Column;
 
     const/16 v29, 0x1
@@ -8399,7 +7790,6 @@
 
     invoke-virtual {v1, v5, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 533
     new-instance v2, Landroidx/room/util/TableInfo$Column;
 
     const/16 v36, 0x1
@@ -8414,7 +7804,6 @@
 
     invoke-virtual {v1, v10, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 534
     new-instance v2, Landroidx/room/util/TableInfo$Column;
 
     const-string v27, "ended_at"
@@ -8427,7 +7816,6 @@
 
     invoke-virtual {v1, v11, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 535
     new-instance v2, Landroidx/room/util/TableInfo$Column;
 
     const-string v34, "download_type"
@@ -8440,7 +7828,6 @@
 
     invoke-virtual {v1, v15, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 536
     new-instance v2, Landroidx/room/util/TableInfo$Column;
 
     const-string v27, "paid_type"
@@ -8453,7 +7840,6 @@
 
     invoke-virtual {v1, v14, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 537
     new-instance v2, Landroidx/room/util/TableInfo$Column;
 
     const-string v34, "sort"
@@ -8468,7 +7854,6 @@
 
     invoke-virtual {v1, v7, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 538
     new-instance v2, Landroidx/room/util/TableInfo$Column;
 
     const/16 v28, 0x1
@@ -8491,7 +7876,6 @@
 
     invoke-virtual {v1, v12, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 539
     new-instance v2, Landroidx/room/util/TableInfo$Column;
 
     const/16 v27, 0x0
@@ -8514,7 +7898,6 @@
 
     invoke-virtual {v1, v13, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 540
     new-instance v2, Landroidx/room/util/TableInfo$Column;
 
     const/16 v27, 0x1
@@ -8531,7 +7914,6 @@
 
     invoke-virtual {v1, v13, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 541
     new-instance v2, Ljava/util/HashSet;
 
     const/4 v13, 0x0
@@ -8540,12 +7922,10 @@
 
     move-object/from16 v24, v12
 
-    .line 542
     new-instance v12, Ljava/util/HashSet;
 
     invoke-direct {v12, v13}, Ljava/util/HashSet;-><init>(I)V
 
-    .line 543
     new-instance v13, Landroidx/room/util/TableInfo;
 
     move-object/from16 v25, v7
@@ -8556,19 +7936,16 @@
 
     const-string v1, "TEXT_FRONT_MATERIAL"
 
-    .line 544
     invoke-static {v0, v1}, Landroidx/room/util/TableInfo;->read(Landroidx/sqlite/db/SupportSQLiteDatabase;Ljava/lang/String;)Landroidx/room/util/TableInfo;
 
     move-result-object v1
 
-    .line 545
     invoke-virtual {v13, v1}, Landroidx/room/util/TableInfo;->equals(Ljava/lang/Object;)Z
 
     move-result v2
 
     if-nez v2, :cond_16
 
-    .line 546
     new-instance v0, Landroidx/room/RoomOpenHelper$ValidationResult;
 
     new-instance v2, Ljava/lang/StringBuilder;
@@ -8599,7 +7976,6 @@
 
     return-object v0
 
-    .line 547
     :cond_16
     new-instance v1, Ljava/util/HashMap;
 
@@ -8607,7 +7983,6 @@
 
     invoke-direct {v1, v2}, Ljava/util/HashMap;-><init>(I)V
 
-    .line 548
     new-instance v2, Landroidx/room/util/TableInfo$Column;
 
     const/16 v29, 0x1
@@ -8628,7 +8003,6 @@
 
     invoke-virtual {v1, v3, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 549
     new-instance v2, Landroidx/room/util/TableInfo$Column;
 
     const/16 v36, 0x0
@@ -8649,7 +8023,6 @@
 
     invoke-virtual {v1, v8, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 550
     new-instance v2, Landroidx/room/util/TableInfo$Column;
 
     const/16 v29, 0x0
@@ -8666,7 +8039,6 @@
 
     invoke-virtual {v1, v4, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 551
     new-instance v2, Landroidx/room/util/TableInfo$Column;
 
     const-string v34, "file"
@@ -8679,7 +8051,6 @@
 
     invoke-virtual {v1, v9, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 552
     new-instance v2, Landroidx/room/util/TableInfo$Column;
 
     const/16 v29, 0x1
@@ -8694,7 +8065,6 @@
 
     invoke-virtual {v1, v5, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 553
     new-instance v2, Landroidx/room/util/TableInfo$Column;
 
     const/16 v36, 0x1
@@ -8709,7 +8079,6 @@
 
     invoke-virtual {v1, v10, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 554
     new-instance v2, Landroidx/room/util/TableInfo$Column;
 
     const-string v27, "ended_at"
@@ -8722,7 +8091,6 @@
 
     invoke-virtual {v1, v11, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 555
     new-instance v2, Landroidx/room/util/TableInfo$Column;
 
     const-string v34, "download_type"
@@ -8735,7 +8103,6 @@
 
     invoke-virtual {v1, v15, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 556
     new-instance v2, Landroidx/room/util/TableInfo$Column;
 
     const/4 v10, 0x1
@@ -8756,7 +8123,6 @@
 
     invoke-virtual {v1, v14, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 557
     new-instance v2, Landroidx/room/util/TableInfo$Column;
 
     const-string v27, "PaidSort"
@@ -8771,7 +8137,6 @@
 
     invoke-virtual {v1, v3, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 558
     new-instance v2, Landroidx/room/util/TableInfo$Column;
 
     const-string v8, "sort"
@@ -8786,7 +8151,6 @@
 
     invoke-virtual {v1, v3, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 559
     new-instance v2, Landroidx/room/util/TableInfo$Column;
 
     const-string v8, "downloadState"
@@ -8801,7 +8165,6 @@
 
     invoke-virtual {v1, v3, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 560
     new-instance v2, Landroidx/room/util/TableInfo$Column;
 
     const-string v8, "CanEditColor"
@@ -8816,7 +8179,6 @@
 
     invoke-virtual {v1, v3, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 561
     new-instance v2, Landroidx/room/util/TableInfo$Column;
 
     const-string v8, "ListDisplay"
@@ -8831,7 +8193,6 @@
 
     invoke-virtual {v1, v3, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 562
     new-instance v2, Landroidx/room/util/TableInfo$Column;
 
     const-string v8, "Hot"
@@ -8846,7 +8207,6 @@
 
     invoke-virtual {v1, v3, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 563
     new-instance v2, Landroidx/room/util/TableInfo$Column;
 
     const-string v8, "HotSort"
@@ -8861,7 +8221,6 @@
 
     invoke-virtual {v1, v3, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 564
     new-instance v2, Landroidx/room/util/TableInfo$Column;
 
     const-string v8, "internalState"
@@ -8876,7 +8235,6 @@
 
     invoke-virtual {v1, v3, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 565
     new-instance v2, Landroidx/room/util/TableInfo$Column;
 
     const/4 v10, 0x0
@@ -8893,7 +8251,6 @@
 
     invoke-virtual {v1, v3, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 566
     new-instance v2, Landroidx/room/util/TableInfo$Column;
 
     const/4 v10, 0x1
@@ -8910,7 +8267,6 @@
 
     invoke-virtual {v1, v4, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 567
     new-instance v2, Landroidx/room/util/TableInfo$Column;
 
     const-string v8, "DoodleCollectTime"
@@ -8925,7 +8281,6 @@
 
     invoke-virtual {v1, v4, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 568
     new-instance v2, Landroidx/room/util/TableInfo$Column;
 
     const-string v8, "NeedShow"
@@ -8940,7 +8295,6 @@
 
     invoke-virtual {v1, v4, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 569
     new-instance v2, Landroidx/room/util/TableInfo$Column;
 
     const-string v8, "localInsertTime"
@@ -8955,19 +8309,16 @@
 
     invoke-virtual {v1, v4, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 570
     new-instance v2, Ljava/util/HashSet;
 
     const/4 v4, 0x0
 
     invoke-direct {v2, v4}, Ljava/util/HashSet;-><init>(I)V
 
-    .line 571
     new-instance v5, Ljava/util/HashSet;
 
     invoke-direct {v5, v4}, Ljava/util/HashSet;-><init>(I)V
 
-    .line 572
     new-instance v4, Landroidx/room/util/TableInfo;
 
     const-string v7, "DOODLE_MATERIAL_DUFFLE"
@@ -8976,19 +8327,16 @@
 
     const-string v1, "DOODLE_MATERIAL_DUFFLE"
 
-    .line 573
     invoke-static {v0, v1}, Landroidx/room/util/TableInfo;->read(Landroidx/sqlite/db/SupportSQLiteDatabase;Ljava/lang/String;)Landroidx/room/util/TableInfo;
 
     move-result-object v1
 
-    .line 574
     invoke-virtual {v4, v1}, Landroidx/room/util/TableInfo;->equals(Ljava/lang/Object;)Z
 
     move-result v2
 
     if-nez v2, :cond_17
 
-    .line 575
     new-instance v0, Landroidx/room/RoomOpenHelper$ValidationResult;
 
     new-instance v2, Ljava/lang/StringBuilder;
@@ -9019,7 +8367,6 @@
 
     return-object v0
 
-    .line 576
     :cond_17
     new-instance v1, Ljava/util/HashMap;
 
@@ -9027,7 +8374,6 @@
 
     invoke-direct {v1, v2}, Ljava/util/HashMap;-><init>(I)V
 
-    .line 577
     new-instance v2, Landroidx/room/util/TableInfo$Column;
 
     const/4 v10, 0x1
@@ -9050,7 +8396,6 @@
 
     invoke-virtual {v1, v4, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 578
     new-instance v2, Landroidx/room/util/TableInfo$Column;
 
     const/4 v10, 0x0
@@ -9069,7 +8414,6 @@
 
     invoke-virtual {v1, v4, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 579
     new-instance v2, Landroidx/room/util/TableInfo$Column;
 
     const-string v8, "FormulaConfig"
@@ -9084,7 +8428,6 @@
 
     invoke-virtual {v1, v4, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 580
     new-instance v2, Landroidx/room/util/TableInfo$Column;
 
     const/4 v10, 0x1
@@ -9101,7 +8444,6 @@
 
     invoke-virtual {v1, v4, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 581
     new-instance v2, Landroidx/room/util/TableInfo$Column;
 
     const/4 v10, 0x0
@@ -9118,7 +8460,6 @@
 
     invoke-virtual {v1, v4, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 582
     new-instance v2, Landroidx/room/util/TableInfo$Column;
 
     const-string v8, "IconRatio"
@@ -9133,7 +8474,6 @@
 
     invoke-virtual {v1, v4, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 583
     new-instance v2, Landroidx/room/util/TableInfo$Column;
 
     const/4 v10, 0x1
@@ -9150,7 +8490,6 @@
 
     invoke-virtual {v1, v4, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 584
     new-instance v2, Landroidx/room/util/TableInfo$Column;
 
     const-string v8, "HotState"
@@ -9165,7 +8504,6 @@
 
     invoke-virtual {v1, v4, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 585
     new-instance v2, Landroidx/room/util/TableInfo$Column;
 
     const-string v8, "HotSort"
@@ -9180,7 +8518,6 @@
 
     invoke-virtual {v1, v4, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 586
     new-instance v2, Landroidx/room/util/TableInfo$Column;
 
     const-string v8, "RecommendState"
@@ -9195,7 +8532,6 @@
 
     invoke-virtual {v1, v4, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 587
     new-instance v2, Landroidx/room/util/TableInfo$Column;
 
     const-string v8, "RecommendSort"
@@ -9210,7 +8546,6 @@
 
     invoke-virtual {v1, v4, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 588
     new-instance v2, Landroidx/room/util/TableInfo$Column;
 
     const-string v8, "NewState"
@@ -9225,7 +8560,6 @@
 
     invoke-virtual {v1, v4, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 589
     new-instance v2, Landroidx/room/util/TableInfo$Column;
 
     const-string v8, "EndedAt"
@@ -9240,7 +8574,6 @@
 
     invoke-virtual {v1, v4, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 590
     new-instance v2, Landroidx/room/util/TableInfo$Column;
 
     const/4 v10, 0x0
@@ -9257,7 +8590,6 @@
 
     invoke-virtual {v1, v4, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 591
     new-instance v2, Landroidx/room/util/TableInfo$Column;
 
     const/4 v10, 0x1
@@ -9274,7 +8606,6 @@
 
     invoke-virtual {v1, v4, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 592
     new-instance v2, Landroidx/room/util/TableInfo$Column;
 
     const/4 v10, 0x0
@@ -9289,7 +8620,6 @@
 
     invoke-virtual {v1, v3, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 593
     new-instance v2, Landroidx/room/util/TableInfo$Column;
 
     const/16 v25, 0x1
@@ -9312,7 +8642,6 @@
 
     invoke-virtual {v1, v4, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 594
     new-instance v2, Landroidx/room/util/TableInfo$Column;
 
     const/4 v10, 0x1
@@ -9329,19 +8658,16 @@
 
     invoke-virtual {v1, v4, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 595
     new-instance v2, Ljava/util/HashSet;
 
     const/4 v5, 0x0
 
     invoke-direct {v2, v5}, Ljava/util/HashSet;-><init>(I)V
 
-    .line 596
     new-instance v7, Ljava/util/HashSet;
 
     invoke-direct {v7, v5}, Ljava/util/HashSet;-><init>(I)V
 
-    .line 597
     new-instance v5, Landroidx/room/util/TableInfo;
 
     const-string v8, "FORMULA_MATERIAL_DUFFLE"
@@ -9350,19 +8676,16 @@
 
     const-string v1, "FORMULA_MATERIAL_DUFFLE"
 
-    .line 598
     invoke-static {v0, v1}, Landroidx/room/util/TableInfo;->read(Landroidx/sqlite/db/SupportSQLiteDatabase;Ljava/lang/String;)Landroidx/room/util/TableInfo;
 
     move-result-object v1
 
-    .line 599
     invoke-virtual {v5, v1}, Landroidx/room/util/TableInfo;->equals(Ljava/lang/Object;)Z
 
     move-result v2
 
     if-nez v2, :cond_18
 
-    .line 600
     new-instance v0, Landroidx/room/RoomOpenHelper$ValidationResult;
 
     new-instance v2, Ljava/lang/StringBuilder;
@@ -9393,7 +8716,6 @@
 
     return-object v0
 
-    .line 601
     :cond_18
     new-instance v1, Ljava/util/HashMap;
 
@@ -9401,7 +8723,6 @@
 
     invoke-direct {v1, v2}, Ljava/util/HashMap;-><init>(I)V
 
-    .line 602
     new-instance v2, Landroidx/room/util/TableInfo$Column;
 
     const/4 v10, 0x1
@@ -9424,7 +8745,6 @@
 
     invoke-virtual {v1, v5, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 603
     new-instance v2, Landroidx/room/util/TableInfo$Column;
 
     const/4 v11, 0x0
@@ -9441,7 +8761,6 @@
 
     invoke-virtual {v1, v5, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 604
     new-instance v2, Landroidx/room/util/TableInfo$Column;
 
     const-string v8, "UserStatus"
@@ -9456,7 +8775,6 @@
 
     invoke-virtual {v1, v5, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 605
     new-instance v2, Landroidx/room/util/TableInfo$Column;
 
     const-string v8, "DeviceLevel"
@@ -9471,7 +8789,6 @@
 
     invoke-virtual {v1, v5, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 606
     new-instance v2, Landroidx/room/util/TableInfo$Column;
 
     const-string v8, "Weight"
@@ -9486,7 +8803,6 @@
 
     invoke-virtual {v1, v5, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 607
     new-instance v2, Landroidx/room/util/TableInfo$Column;
 
     const-string v8, "Bout"
@@ -9501,7 +8817,6 @@
 
     invoke-virtual {v1, v5, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 608
     new-instance v2, Landroidx/room/util/TableInfo$Column;
 
     const-string v8, "Number"
@@ -9516,7 +8831,6 @@
 
     invoke-virtual {v1, v5, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 609
     new-instance v2, Landroidx/room/util/TableInfo$Column;
 
     const-string v8, "TriggerType"
@@ -9531,7 +8845,6 @@
 
     invoke-virtual {v1, v5, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 610
     new-instance v2, Landroidx/room/util/TableInfo$Column;
 
     const-string v8, "PopupType"
@@ -9546,7 +8859,6 @@
 
     invoke-virtual {v1, v5, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 611
     new-instance v2, Landroidx/room/util/TableInfo$Column;
 
     const/4 v10, 0x0
@@ -9563,7 +8875,6 @@
 
     invoke-virtual {v1, v5, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 612
     new-instance v2, Landroidx/room/util/TableInfo$Column;
 
     const/4 v10, 0x1
@@ -9580,7 +8891,6 @@
 
     invoke-virtual {v1, v5, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 613
     new-instance v2, Landroidx/room/util/TableInfo$Column;
 
     const-string v8, "updateAt"
@@ -9595,19 +8905,16 @@
 
     invoke-virtual {v1, v5, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 614
     new-instance v2, Ljava/util/HashSet;
 
     const/4 v5, 0x0
 
     invoke-direct {v2, v5}, Ljava/util/HashSet;-><init>(I)V
 
-    .line 615
     new-instance v7, Ljava/util/HashSet;
 
     invoke-direct {v7, v5}, Ljava/util/HashSet;-><init>(I)V
 
-    .line 616
     new-instance v5, Landroidx/room/util/TableInfo;
 
     const-string v8, "ONLINE_DIALOG_ENTITY"
@@ -9616,19 +8923,16 @@
 
     const-string v1, "ONLINE_DIALOG_ENTITY"
 
-    .line 617
     invoke-static {v0, v1}, Landroidx/room/util/TableInfo;->read(Landroidx/sqlite/db/SupportSQLiteDatabase;Ljava/lang/String;)Landroidx/room/util/TableInfo;
 
     move-result-object v1
 
-    .line 618
     invoke-virtual {v5, v1}, Landroidx/room/util/TableInfo;->equals(Ljava/lang/Object;)Z
 
     move-result v2
 
     if-nez v2, :cond_19
 
-    .line 619
     new-instance v0, Landroidx/room/RoomOpenHelper$ValidationResult;
 
     new-instance v2, Ljava/lang/StringBuilder;
@@ -9659,7 +8963,6 @@
 
     return-object v0
 
-    .line 620
     :cond_19
     new-instance v1, Ljava/util/HashMap;
 
@@ -9667,7 +8970,6 @@
 
     invoke-direct {v1, v2}, Ljava/util/HashMap;-><init>(I)V
 
-    .line 621
     new-instance v2, Landroidx/room/util/TableInfo$Column;
 
     const/4 v10, 0x1
@@ -9688,7 +8990,6 @@
 
     invoke-virtual {v1, v3, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 622
     new-instance v2, Landroidx/room/util/TableInfo$Column;
 
     const/16 v25, 0x0
@@ -9711,7 +9012,6 @@
 
     invoke-virtual {v1, v5, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 623
     new-instance v2, Landroidx/room/util/TableInfo$Column;
 
     const/4 v11, 0x0
@@ -9728,7 +9028,6 @@
 
     invoke-virtual {v1, v7, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 624
     new-instance v2, Landroidx/room/util/TableInfo$Column;
 
     const/4 v11, 0x1
@@ -9749,19 +9048,16 @@
 
     invoke-virtual {v1, v4, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 625
     new-instance v2, Ljava/util/HashSet;
 
     const/4 v8, 0x0
 
     invoke-direct {v2, v8}, Ljava/util/HashSet;-><init>(I)V
 
-    .line 626
     new-instance v9, Ljava/util/HashSet;
 
     invoke-direct {v9, v8}, Ljava/util/HashSet;-><init>(I)V
 
-    .line 627
     new-instance v8, Landroidx/room/util/TableInfo;
 
     const-string v10, "FORMULA_CATEGORY"
@@ -9770,19 +9066,16 @@
 
     const-string v1, "FORMULA_CATEGORY"
 
-    .line 628
     invoke-static {v0, v1}, Landroidx/room/util/TableInfo;->read(Landroidx/sqlite/db/SupportSQLiteDatabase;Ljava/lang/String;)Landroidx/room/util/TableInfo;
 
     move-result-object v1
 
-    .line 629
     invoke-virtual {v8, v1}, Landroidx/room/util/TableInfo;->equals(Ljava/lang/Object;)Z
 
     move-result v2
 
     if-nez v2, :cond_1a
 
-    .line 630
     new-instance v0, Landroidx/room/RoomOpenHelper$ValidationResult;
 
     new-instance v2, Ljava/lang/StringBuilder;
@@ -9813,7 +9106,6 @@
 
     return-object v0
 
-    .line 631
     :cond_1a
     new-instance v1, Ljava/util/HashMap;
 
@@ -9821,7 +9113,6 @@
 
     invoke-direct {v1, v2}, Ljava/util/HashMap;-><init>(I)V
 
-    .line 632
     new-instance v2, Landroidx/room/util/TableInfo$Column;
 
     const/4 v11, 0x1
@@ -9842,7 +9133,6 @@
 
     invoke-virtual {v1, v3, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 633
     new-instance v2, Landroidx/room/util/TableInfo$Column;
 
     const/16 v21, 0x0
@@ -9863,7 +9153,6 @@
 
     invoke-virtual {v1, v5, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 634
     new-instance v2, Landroidx/room/util/TableInfo$Column;
 
     const/4 v12, 0x0
@@ -9878,7 +9167,6 @@
 
     invoke-virtual {v1, v7, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 635
     new-instance v2, Landroidx/room/util/TableInfo$Column;
 
     const/16 v21, 0x1
@@ -9893,19 +9181,16 @@
 
     invoke-virtual {v1, v4, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 636
     new-instance v2, Ljava/util/HashSet;
 
     const/4 v3, 0x0
 
     invoke-direct {v2, v3}, Ljava/util/HashSet;-><init>(I)V
 
-    .line 637
     new-instance v4, Ljava/util/HashSet;
 
     invoke-direct {v4, v3}, Ljava/util/HashSet;-><init>(I)V
 
-    .line 638
     new-instance v3, Landroidx/room/util/TableInfo;
 
     const-string v5, "NEW_DOODLE_CATEGORY"
@@ -9914,19 +9199,16 @@
 
     const-string v1, "NEW_DOODLE_CATEGORY"
 
-    .line 639
     invoke-static {v0, v1}, Landroidx/room/util/TableInfo;->read(Landroidx/sqlite/db/SupportSQLiteDatabase;Ljava/lang/String;)Landroidx/room/util/TableInfo;
 
     move-result-object v0
 
-    .line 640
     invoke-virtual {v3, v0}, Landroidx/room/util/TableInfo;->equals(Ljava/lang/Object;)Z
 
     move-result v1
 
     if-nez v1, :cond_1b
 
-    .line 641
     new-instance v1, Landroidx/room/RoomOpenHelper$ValidationResult;
 
     new-instance v2, Ljava/lang/StringBuilder;
@@ -9960,7 +9242,6 @@
     :cond_1b
     const/16 v0, 0x5cf9
 
-    .line 642
     new-instance v1, Landroidx/room/RoomOpenHelper$ValidationResult;
 
     const/4 v2, 0x1

@@ -34,10 +34,8 @@
 .method public constructor <init>(Landroid/content/Context;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/meitu/library/analytics/a0/a;->a:Landroid/content/Context;
 
     return-void
@@ -58,7 +56,6 @@
 
     const/4 v3, 0x0
 
-    .line 1
     :try_start_0
     iget-object v4, p0, Lcom/meitu/library/analytics/a0/a;->a:Landroid/content/Context;
 
@@ -91,7 +88,6 @@
 
     if-eqz v4, :cond_0
 
-    .line 2
     :try_start_1
     invoke-interface {v4}, Landroid/database/Cursor;->getCount()I
 
@@ -99,10 +95,8 @@
 
     if-lez v5, :cond_0
 
-    .line 3
     invoke-interface {v4}, Landroid/database/Cursor;->moveToFirst()Z
 
-    .line 4
     invoke-interface {v4, v3}, Landroid/database/Cursor;->getString(I)Ljava/lang/String;
 
     move-result-object v1
@@ -114,10 +108,8 @@
 
     aput-object v4, v2, v3
 
-    .line 5
     invoke-static {v2}, Lcom/meitu/library/analytics/y/o/o;->a([Ljava/io/Closeable;)V
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
@@ -132,7 +124,6 @@
 
     aput-object v4, v2, v3
 
-    .line 7
     invoke-static {v2}, Lcom/meitu/library/analytics/y/o/o;->a([Ljava/io/Closeable;)V
 
     goto :goto_1
@@ -157,7 +148,6 @@
     :try_start_2
     const-string v6, "SubFClient"
 
-    .line 8
     invoke-virtual {v5}, Ljava/lang/Exception;->toString()Ljava/lang/String;
 
     move-result-object v5
@@ -170,10 +160,8 @@
 
     aput-object v4, v2, v3
 
-    .line 9
     invoke-static {v2}, Lcom/meitu/library/analytics/y/o/o;->a([Ljava/io/Closeable;)V
 
-    .line 10
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -187,10 +175,8 @@
 
     aput-object v4, v2, v3
 
-    .line 11
     invoke-static {v2}, Lcom/meitu/library/analytics/y/o/o;->a([Ljava/io/Closeable;)V
 
-    .line 12
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     throw v1
@@ -209,7 +195,6 @@
 
     const/4 v3, 0x0
 
-    .line 1
     :try_start_0
     iget-object v4, p0, Lcom/meitu/library/analytics/a0/a;->a:Landroid/content/Context;
 
@@ -239,17 +224,14 @@
 
     if-eqz v3, :cond_0
 
-    .line 2
     invoke-interface {v3}, Landroid/database/Cursor;->getCount()I
 
     move-result v4
 
     if-lez v4, :cond_0
 
-    .line 3
     invoke-interface {v3}, Landroid/database/Cursor;->moveToFirst()Z
 
-    .line 4
     invoke-interface {v3, v2}, Landroid/database/Cursor;->getInt(I)I
 
     move-result v4
@@ -261,10 +243,8 @@
 
     aput-object v3, v1, v2
 
-    .line 5
     invoke-static {v1}, Lcom/meitu/library/analytics/y/o/o;->a([Ljava/io/Closeable;)V
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v4
@@ -274,7 +254,6 @@
 
     aput-object v3, v1, v2
 
-    .line 7
     invoke-static {v1}, Lcom/meitu/library/analytics/y/o/o;->a([Ljava/io/Closeable;)V
 
     goto :goto_0
@@ -290,7 +269,6 @@
     :try_start_1
     const-string v5, "SubFClient"
 
-    .line 8
     invoke-virtual {v4}, Ljava/lang/Exception;->toString()Ljava/lang/String;
 
     move-result-object v4
@@ -303,10 +281,8 @@
 
     aput-object v3, v1, v2
 
-    .line 9
     invoke-static {v1}, Lcom/meitu/library/analytics/y/o/o;->a([Ljava/io/Closeable;)V
 
-    .line 10
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -317,10 +293,8 @@
 
     aput-object v3, v1, v2
 
-    .line 11
     invoke-static {v1}, Lcom/meitu/library/analytics/y/o/o;->a([Ljava/io/Closeable;)V
 
-    .line 12
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     throw v4
@@ -339,7 +313,6 @@
 
     const/4 v3, 0x0
 
-    .line 1
     :try_start_0
     iget-object v4, p0, Lcom/meitu/library/analytics/a0/a;->a:Landroid/content/Context;
 
@@ -372,7 +345,6 @@
 
     if-eqz v4, :cond_0
 
-    .line 2
     :try_start_1
     invoke-interface {v4}, Landroid/database/Cursor;->getCount()I
 
@@ -380,10 +352,8 @@
 
     if-lez v5, :cond_0
 
-    .line 3
     invoke-interface {v4}, Landroid/database/Cursor;->moveToFirst()Z
 
-    .line 4
     invoke-interface {v4, v3}, Landroid/database/Cursor;->getString(I)Ljava/lang/String;
 
     move-result-object v1
@@ -395,10 +365,8 @@
 
     aput-object v4, v2, v3
 
-    .line 5
     invoke-static {v2}, Lcom/meitu/library/analytics/y/o/o;->a([Ljava/io/Closeable;)V
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
@@ -413,7 +381,6 @@
 
     aput-object v4, v2, v3
 
-    .line 7
     invoke-static {v2}, Lcom/meitu/library/analytics/y/o/o;->a([Ljava/io/Closeable;)V
 
     goto :goto_1
@@ -438,7 +405,6 @@
     :try_start_2
     const-string v6, "SubFClient"
 
-    .line 8
     invoke-virtual {v5}, Ljava/lang/Exception;->toString()Ljava/lang/String;
 
     move-result-object v5
@@ -451,10 +417,8 @@
 
     aput-object v4, v2, v3
 
-    .line 9
     invoke-static {v2}, Lcom/meitu/library/analytics/y/o/o;->a([Ljava/io/Closeable;)V
 
-    .line 10
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -468,10 +432,8 @@
 
     aput-object v4, v2, v3
 
-    .line 11
     invoke-static {v2}, Lcom/meitu/library/analytics/y/o/o;->a([Ljava/io/Closeable;)V
 
-    .line 12
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     throw v1
@@ -488,10 +450,8 @@
 
     const-string v0, "s-off not supported !"
 
-    .line 1
     invoke-static {p2, v0}, Lcom/meitu/library/analytics/y/j/d;->d(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 2
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -508,10 +468,8 @@
 
     const-string v0, "s-on not supported !"
 
-    .line 1
     invoke-static {p2, v0}, Lcom/meitu/library/analytics/y/j/d;->d(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 2
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -530,7 +488,6 @@
 
     const/4 v3, 0x0
 
-    .line 1
     :try_start_0
     iget-object v4, p0, Lcom/meitu/library/analytics/a0/a;->a:Landroid/content/Context;
 
@@ -548,7 +505,6 @@
 
     new-array v7, v1, [Ljava/lang/String;
 
-    .line 2
     invoke-virtual {p1}, Lcom/meitu/library/analytics/sdk/content/Switcher;->getName()Ljava/lang/String;
 
     move-result-object p1
@@ -561,24 +517,20 @@
 
     const/4 v10, 0x0
 
-    .line 3
     invoke-virtual/range {v5 .. v10}, Landroid/content/ContentResolver;->query(Landroid/net/Uri;[Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;)Landroid/database/Cursor;
 
     move-result-object v3
 
     if-eqz v3, :cond_1
 
-    .line 4
     invoke-interface {v3}, Landroid/database/Cursor;->getCount()I
 
     move-result p1
 
     if-lez p1, :cond_1
 
-    .line 5
     invoke-interface {v3}, Landroid/database/Cursor;->moveToFirst()Z
 
-    .line 6
     invoke-interface {v3, v2}, Landroid/database/Cursor;->getInt(I)I
 
     move-result p1
@@ -600,10 +552,8 @@
 
     aput-object v3, v1, v2
 
-    .line 7
     invoke-static {v1}, Lcom/meitu/library/analytics/y/o/o;->a([Ljava/io/Closeable;)V
 
-    .line 8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
@@ -613,7 +563,6 @@
 
     aput-object v3, p1, v2
 
-    .line 9
     invoke-static {p1}, Lcom/meitu/library/analytics/y/o/o;->a([Ljava/io/Closeable;)V
 
     goto :goto_1
@@ -629,7 +578,6 @@
     :try_start_1
     const-string v4, "SubFClient"
 
-    .line 10
     invoke-virtual {p1}, Ljava/lang/Exception;->toString()Ljava/lang/String;
 
     move-result-object p1
@@ -642,10 +590,8 @@
 
     aput-object v3, p1, v2
 
-    .line 11
     invoke-static {p1}, Lcom/meitu/library/analytics/y/o/o;->a([Ljava/io/Closeable;)V
 
-    .line 12
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -656,10 +602,8 @@
 
     aput-object v3, v1, v2
 
-    .line 13
     invoke-static {v1}, Lcom/meitu/library/analytics/y/o/o;->a([Ljava/io/Closeable;)V
 
-    .line 14
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     throw p1

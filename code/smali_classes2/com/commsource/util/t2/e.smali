@@ -17,7 +17,6 @@
 .method public constructor <init>(Z)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     iput-boolean p1, p0, Lcom/commsource/util/t2/e;->a:Z
@@ -50,14 +49,12 @@
 
     invoke-static {p2, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/util/t2/e;->a:Z
 
     const/4 v2, 0x0
 
     if-eqz v1, :cond_2
 
-    .line 2
     iget v1, p1, Landroid/graphics/Rect;->bottom:I
 
     iget v3, p2, Landroid/graphics/Rect;->top:I
@@ -66,7 +63,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_0
     iget p1, p1, Landroid/graphics/Rect;->top:I
 
@@ -81,7 +77,6 @@
 
     int-to-float p1, v1
 
-    .line 4
     invoke-virtual {p2}, Landroid/graphics/Rect;->height()I
 
     move-result p2
@@ -90,13 +85,11 @@
 
     div-float v2, p1, p2
 
-    .line 5
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v2
 
-    .line 6
     :cond_2
     iget v1, p1, Landroid/graphics/Rect;->right:I
 
@@ -106,7 +99,6 @@
 
     goto :goto_1
 
-    .line 7
     :cond_3
     iget p1, p1, Landroid/graphics/Rect;->left:I
 
@@ -116,7 +108,6 @@
 
     goto :goto_1
 
-    .line 8
     :cond_4
     iget p1, p2, Landroid/graphics/Rect;->top:I
 
@@ -132,7 +123,6 @@
 
     div-float v2, p1, p2
 
-    .line 9
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -146,7 +136,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/util/t2/e;->a:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

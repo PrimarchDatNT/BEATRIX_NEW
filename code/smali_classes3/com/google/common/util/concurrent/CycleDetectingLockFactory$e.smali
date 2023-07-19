@@ -58,10 +58,8 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-direct {p0, p1, v0}, Lcom/google/common/util/concurrent/CycleDetectingLockFactory;-><init>(Lcom/google/common/util/concurrent/CycleDetectingLockFactory$d;Lcom/google/common/util/concurrent/CycleDetectingLockFactory$a;)V
 
-    .line 2
     iput-object p2, p0, Lcom/google/common/util/concurrent/CycleDetectingLockFactory$e;->e:Ljava/util/Map;
 
     return-void
@@ -80,7 +78,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-virtual {p0, p1, v0}, Lcom/google/common/util/concurrent/CycleDetectingLockFactory$e;->p(Ljava/lang/Enum;Z)Ljava/util/concurrent/locks/ReentrantLock;
 
     move-result-object p1
@@ -97,7 +94,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/util/concurrent/CycleDetectingLockFactory;->a:Lcom/google/common/util/concurrent/CycleDetectingLockFactory$d;
 
     sget-object v1, Lcom/google/common/util/concurrent/CycleDetectingLockFactory$Policies;->DISABLED:Lcom/google/common/util/concurrent/CycleDetectingLockFactory$Policies;
@@ -115,7 +111,6 @@
 
     iget-object v1, p0, Lcom/google/common/util/concurrent/CycleDetectingLockFactory$e;->e:Ljava/util/Map;
 
-    .line 2
     invoke-interface {v1, p1}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -143,7 +138,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-virtual {p0, p1, v0}, Lcom/google/common/util/concurrent/CycleDetectingLockFactory$e;->r(Ljava/lang/Enum;Z)Ljava/util/concurrent/locks/ReentrantReadWriteLock;
 
     move-result-object p1
@@ -160,7 +154,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/util/concurrent/CycleDetectingLockFactory;->a:Lcom/google/common/util/concurrent/CycleDetectingLockFactory$d;
 
     sget-object v1, Lcom/google/common/util/concurrent/CycleDetectingLockFactory$Policies;->DISABLED:Lcom/google/common/util/concurrent/CycleDetectingLockFactory$Policies;
@@ -178,7 +171,6 @@
 
     iget-object v1, p0, Lcom/google/common/util/concurrent/CycleDetectingLockFactory$e;->e:Ljava/util/Map;
 
-    .line 2
     invoke-interface {v1, p1}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1

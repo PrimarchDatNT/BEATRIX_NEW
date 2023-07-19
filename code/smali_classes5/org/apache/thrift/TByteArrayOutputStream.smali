@@ -13,7 +13,6 @@
 
     const/16 v0, 0x20
 
-    .line 3
     invoke-direct {p0, v0}, Lorg/apache/thrift/TByteArrayOutputStream;-><init>(I)V
 
     return-void
@@ -22,10 +21,8 @@
 .method public constructor <init>(I)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1}, Ljava/io/ByteArrayOutputStream;-><init>(I)V
 
-    .line 2
     iput p1, p0, Lorg/apache/thrift/TByteArrayOutputStream;->initialSize:I
 
     return-void
@@ -36,7 +33,6 @@
 .method public get()[B
     .locals 1
 
-    .line 1
     iget-object v0, p0, Ljava/io/ByteArrayOutputStream;->buf:[B
 
     return-object v0
@@ -45,7 +41,6 @@
 .method public len()I
     .locals 1
 
-    .line 1
     iget v0, p0, Ljava/io/ByteArrayOutputStream;->count:I
 
     return v0
@@ -54,10 +49,8 @@
 .method public reset()V
     .locals 2
 
-    .line 1
     invoke-super {p0}, Ljava/io/ByteArrayOutputStream;->reset()V
 
-    .line 2
     iget-object v0, p0, Ljava/io/ByteArrayOutputStream;->buf:[B
 
     array-length v0, v0
@@ -66,7 +59,6 @@
 
     if-le v0, v1, :cond_0
 
-    .line 3
     new-array v0, v1, [B
 
     iput-object v0, p0, Ljava/io/ByteArrayOutputStream;->buf:[B

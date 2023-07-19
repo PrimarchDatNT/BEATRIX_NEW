@@ -10,7 +10,6 @@
 .method static constructor <clinit>()V
     .locals 3
 
-    .line 1
     new-instance v0, Lcom/google/android/gms/common/m/a;
 
     const/4 v1, 0x0
@@ -48,14 +47,12 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
 
     const/4 v1, 0x0
 
-    .line 2
     :goto_0
     invoke-virtual {p0}, Lorg/json/JSONArray;->length()I
 
@@ -63,17 +60,14 @@
 
     if-ge v1, v2, :cond_2
 
-    .line 3
     invoke-virtual {p0, v1}, Lorg/json/JSONArray;->get(I)Ljava/lang/Object;
 
     move-result-object v2
 
-    .line 4
     instance-of v3, v2, Lorg/json/JSONArray;
 
     if-eqz v3, :cond_0
 
-    .line 5
     check-cast v2, Lorg/json/JSONArray;
 
     invoke-static {v2}, Lcom/google/firebase/auth/internal/q;->a(Lorg/json/JSONArray;)Ljava/util/List;
@@ -82,20 +76,17 @@
 
     goto :goto_1
 
-    .line 6
     :cond_0
     instance-of v3, v2, Lorg/json/JSONObject;
 
     if-eqz v3, :cond_1
 
-    .line 7
     check-cast v2, Lorg/json/JSONObject;
 
     invoke-static {v2}, Lcom/google/firebase/auth/internal/q;->b(Lorg/json/JSONObject;)Ljava/util/Map;
 
     move-result-object v2
 
-    .line 8
     :cond_1
     :goto_1
     invoke-interface {v0, v2}, Ljava/util/List;->add(Ljava/lang/Object;)Z
@@ -131,17 +122,14 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Landroidx/collection/ArrayMap;
 
     invoke-direct {v0}, Landroidx/collection/ArrayMap;-><init>()V
 
-    .line 2
     invoke-virtual {p0}, Lorg/json/JSONObject;->keys()Ljava/util/Iterator;
 
     move-result-object v1
 
-    .line 3
     :goto_0
     invoke-interface {v1}, Ljava/util/Iterator;->hasNext()Z
 
@@ -149,24 +137,20 @@
 
     if-eqz v2, :cond_2
 
-    .line 4
     invoke-interface {v1}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
     move-result-object v2
 
     check-cast v2, Ljava/lang/String;
 
-    .line 5
     invoke-virtual {p0, v2}, Lorg/json/JSONObject;->get(Ljava/lang/String;)Ljava/lang/Object;
 
     move-result-object v3
 
-    .line 6
     instance-of v4, v3, Lorg/json/JSONArray;
 
     if-eqz v4, :cond_0
 
-    .line 7
     check-cast v3, Lorg/json/JSONArray;
 
     invoke-static {v3}, Lcom/google/firebase/auth/internal/q;->a(Lorg/json/JSONArray;)Ljava/util/List;
@@ -175,20 +159,17 @@
 
     goto :goto_1
 
-    .line 8
     :cond_0
     instance-of v4, v3, Lorg/json/JSONObject;
 
     if-eqz v4, :cond_1
 
-    .line 9
     check-cast v3, Lorg/json/JSONObject;
 
     invoke-static {v3}, Lcom/google/firebase/auth/internal/q;->b(Lorg/json/JSONObject;)Ljava/util/Map;
 
     move-result-object v3
 
-    .line 10
     :cond_1
     :goto_1
     invoke-interface {v0, v2, v3}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
@@ -216,12 +197,10 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p0}, Lcom/google/android/gms/common/internal/b0;->g(Ljava/lang/String;)Ljava/lang/String;
 
     const/16 v0, 0x2e
 
-    .line 2
     invoke-static {v0}, Lcom/google/android/gms/internal/firebase_auth/n;->e(C)Lcom/google/android/gms/internal/firebase_auth/n;
 
     move-result-object v0
@@ -230,7 +209,6 @@
 
     move-result-object v0
 
-    .line 3
     invoke-interface {v0}, Ljava/util/List;->size()I
 
     move-result v1
@@ -241,7 +219,6 @@
 
     if-ge v1, v3, :cond_1
 
-    .line 4
     sget-object v0, Lcom/google/firebase/auth/internal/q;->a:Lcom/google/android/gms/common/m/a;
 
     const-string v1, "Invalid idToken "
@@ -272,7 +249,6 @@
 
     invoke-virtual {v0, p0, v1}, Lcom/google/android/gms/common/m/a;->c(Ljava/lang/String;[Ljava/lang/Object;)V
 
-    .line 5
     sget-object p0, Ljava/util/Collections;->EMPTY_MAP:Ljava/util/Map;
 
     return-object p0
@@ -280,14 +256,12 @@
     :cond_1
     const/4 p0, 0x1
 
-    .line 6
     invoke-interface {v0, p0}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object p0
 
     check-cast p0, Ljava/lang/String;
 
-    .line 7
     :try_start_0
     new-instance v0, Ljava/lang/String;
 
@@ -299,14 +273,12 @@
 
     invoke-direct {v0, p0, v1}, Ljava/lang/String;-><init>([BLjava/lang/String;)V
 
-    .line 8
     invoke-static {v0}, Lcom/google/firebase/auth/internal/q;->d(Ljava/lang/String;)Ljava/util/Map;
 
     move-result-object p0
 
     if-nez p0, :cond_2
 
-    .line 9
     sget-object p0, Ljava/util/Collections;->EMPTY_MAP:Ljava/util/Map;
     :try_end_0
     .catch Ljava/io/UnsupportedEncodingException; {:try_start_0 .. :try_end_0} :catch_0
@@ -317,7 +289,6 @@
     :catch_0
     move-exception p0
 
-    .line 10
     sget-object v0, Lcom/google/firebase/auth/internal/q;->a:Lcom/google/android/gms/common/m/a;
 
     new-array v1, v2, [Ljava/lang/Object;
@@ -326,7 +297,6 @@
 
     invoke-virtual {v0, v2, p0, v1}, Lcom/google/android/gms/common/m/a;->b(Ljava/lang/String;Ljava/lang/Throwable;[Ljava/lang/Object;)V
 
-    .line 11
     sget-object p0, Ljava/util/Collections;->EMPTY_MAP:Ljava/util/Map;
 
     return-object p0
@@ -349,7 +319,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v0
@@ -360,19 +329,16 @@
 
     return-object v1
 
-    .line 2
     :cond_0
     :try_start_0
     new-instance v0, Lorg/json/JSONObject;
 
     invoke-direct {v0, p0}, Lorg/json/JSONObject;-><init>(Ljava/lang/String;)V
 
-    .line 3
     sget-object p0, Lorg/json/JSONObject;->NULL:Ljava/lang/Object;
 
     if-eq v0, p0, :cond_1
 
-    .line 4
     invoke-static {v0}, Lcom/google/firebase/auth/internal/q;->b(Lorg/json/JSONObject;)Ljava/util/Map;
 
     move-result-object p0
@@ -391,10 +357,8 @@
 
     const-string v1, "Failed to parse JSONObject into Map."
 
-    .line 5
     invoke-static {v0, v1}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 6
     new-instance v0, Lcom/google/android/gms/internal/firebase_auth/zzbl;
 
     invoke-direct {v0, p0}, Lcom/google/android/gms/internal/firebase_auth/zzbl;-><init>(Ljava/lang/Throwable;)V

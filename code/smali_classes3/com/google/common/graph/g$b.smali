@@ -34,7 +34,6 @@
 .method constructor <init>(Lcom/google/common/graph/r0;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/common/graph/g$b;->a:Lcom/google/common/graph/r0;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -54,7 +53,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/graph/g$b;->a:Lcom/google/common/graph/r0;
 
     invoke-virtual {p1}, Lcom/google/common/graph/m;->h()Ljava/lang/Object;
@@ -77,7 +75,6 @@
 .method public bridge synthetic apply(Ljava/lang/Object;)Ljava/lang/Object;
     .locals 0
 
-    .line 1
     check-cast p1, Lcom/google/common/graph/m;
 
     invoke-virtual {p0, p1}, Lcom/google/common/graph/g$b;->a(Lcom/google/common/graph/m;)Ljava/lang/Object;

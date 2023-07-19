@@ -217,7 +217,6 @@
 .method static constructor <clinit>()V
     .locals 35
 
-    .line 1
     new-instance v0, Lcom/giphy/sdk/core/models/enums/LangType;
 
     const-string v1, "english"
@@ -230,7 +229,6 @@
 
     sput-object v0, Lcom/giphy/sdk/core/models/enums/LangType;->english:Lcom/giphy/sdk/core/models/enums/LangType;
 
-    .line 2
     new-instance v1, Lcom/giphy/sdk/core/models/enums/LangType;
 
     const-string v3, "spanish"
@@ -243,7 +241,6 @@
 
     sput-object v1, Lcom/giphy/sdk/core/models/enums/LangType;->spanish:Lcom/giphy/sdk/core/models/enums/LangType;
 
-    .line 3
     new-instance v3, Lcom/giphy/sdk/core/models/enums/LangType;
 
     const-string v5, "portuguese"
@@ -256,7 +253,6 @@
 
     sput-object v3, Lcom/giphy/sdk/core/models/enums/LangType;->portuguese:Lcom/giphy/sdk/core/models/enums/LangType;
 
-    .line 4
     new-instance v5, Lcom/giphy/sdk/core/models/enums/LangType;
 
     const-string v7, "indonesian"
@@ -269,7 +265,6 @@
 
     sput-object v5, Lcom/giphy/sdk/core/models/enums/LangType;->indonesian:Lcom/giphy/sdk/core/models/enums/LangType;
 
-    .line 5
     new-instance v7, Lcom/giphy/sdk/core/models/enums/LangType;
 
     const-string v9, "french"
@@ -282,7 +277,6 @@
 
     sput-object v7, Lcom/giphy/sdk/core/models/enums/LangType;->french:Lcom/giphy/sdk/core/models/enums/LangType;
 
-    .line 6
     new-instance v9, Lcom/giphy/sdk/core/models/enums/LangType;
 
     const-string v11, "arabic"
@@ -295,7 +289,6 @@
 
     sput-object v9, Lcom/giphy/sdk/core/models/enums/LangType;->arabic:Lcom/giphy/sdk/core/models/enums/LangType;
 
-    .line 7
     new-instance v11, Lcom/giphy/sdk/core/models/enums/LangType;
 
     const-string v13, "turkish"
@@ -308,7 +301,6 @@
 
     sput-object v11, Lcom/giphy/sdk/core/models/enums/LangType;->turkish:Lcom/giphy/sdk/core/models/enums/LangType;
 
-    .line 8
     new-instance v13, Lcom/giphy/sdk/core/models/enums/LangType;
 
     const-string v15, "thai"
@@ -321,7 +313,6 @@
 
     sput-object v13, Lcom/giphy/sdk/core/models/enums/LangType;->thai:Lcom/giphy/sdk/core/models/enums/LangType;
 
-    .line 9
     new-instance v12, Lcom/giphy/sdk/core/models/enums/LangType;
 
     const-string v15, "vietnamese"
@@ -334,7 +325,6 @@
 
     sput-object v12, Lcom/giphy/sdk/core/models/enums/LangType;->vietnamese:Lcom/giphy/sdk/core/models/enums/LangType;
 
-    .line 10
     new-instance v10, Lcom/giphy/sdk/core/models/enums/LangType;
 
     const-string v15, "german"
@@ -347,7 +337,6 @@
 
     sput-object v10, Lcom/giphy/sdk/core/models/enums/LangType;->german:Lcom/giphy/sdk/core/models/enums/LangType;
 
-    .line 11
     new-instance v8, Lcom/giphy/sdk/core/models/enums/LangType;
 
     const-string v15, "italian"
@@ -360,7 +349,6 @@
 
     sput-object v8, Lcom/giphy/sdk/core/models/enums/LangType;->italian:Lcom/giphy/sdk/core/models/enums/LangType;
 
-    .line 12
     new-instance v6, Lcom/giphy/sdk/core/models/enums/LangType;
 
     const-string v15, "japanese"
@@ -373,7 +361,6 @@
 
     sput-object v6, Lcom/giphy/sdk/core/models/enums/LangType;->japanese:Lcom/giphy/sdk/core/models/enums/LangType;
 
-    .line 13
     new-instance v4, Lcom/giphy/sdk/core/models/enums/LangType;
 
     const-string v15, "chineseSimplified"
@@ -386,7 +373,6 @@
 
     sput-object v4, Lcom/giphy/sdk/core/models/enums/LangType;->chineseSimplified:Lcom/giphy/sdk/core/models/enums/LangType;
 
-    .line 14
     new-instance v2, Lcom/giphy/sdk/core/models/enums/LangType;
 
     const-string v15, "chineseTraditional"
@@ -401,7 +387,6 @@
 
     sput-object v2, Lcom/giphy/sdk/core/models/enums/LangType;->chineseTraditional:Lcom/giphy/sdk/core/models/enums/LangType;
 
-    .line 15
     new-instance v4, Lcom/giphy/sdk/core/models/enums/LangType;
 
     const-string v15, "russian"
@@ -416,7 +401,6 @@
 
     sput-object v4, Lcom/giphy/sdk/core/models/enums/LangType;->russian:Lcom/giphy/sdk/core/models/enums/LangType;
 
-    .line 16
     new-instance v2, Lcom/giphy/sdk/core/models/enums/LangType;
 
     const-string v15, "korean"
@@ -431,7 +415,6 @@
 
     sput-object v2, Lcom/giphy/sdk/core/models/enums/LangType;->korean:Lcom/giphy/sdk/core/models/enums/LangType;
 
-    .line 17
     new-instance v4, Lcom/giphy/sdk/core/models/enums/LangType;
 
     const-string v15, "polish"
@@ -446,7 +429,6 @@
 
     sput-object v4, Lcom/giphy/sdk/core/models/enums/LangType;->polish:Lcom/giphy/sdk/core/models/enums/LangType;
 
-    .line 18
     new-instance v2, Lcom/giphy/sdk/core/models/enums/LangType;
 
     const-string v15, "dutch"
@@ -461,7 +443,6 @@
 
     sput-object v2, Lcom/giphy/sdk/core/models/enums/LangType;->dutch:Lcom/giphy/sdk/core/models/enums/LangType;
 
-    .line 19
     new-instance v4, Lcom/giphy/sdk/core/models/enums/LangType;
 
     const-string v15, "romanian"
@@ -476,7 +457,6 @@
 
     sput-object v4, Lcom/giphy/sdk/core/models/enums/LangType;->romanian:Lcom/giphy/sdk/core/models/enums/LangType;
 
-    .line 20
     new-instance v2, Lcom/giphy/sdk/core/models/enums/LangType;
 
     const-string v15, "hungarian"
@@ -491,7 +471,6 @@
 
     sput-object v2, Lcom/giphy/sdk/core/models/enums/LangType;->hungarian:Lcom/giphy/sdk/core/models/enums/LangType;
 
-    .line 21
     new-instance v4, Lcom/giphy/sdk/core/models/enums/LangType;
 
     const-string v15, "swedish"
@@ -506,7 +485,6 @@
 
     sput-object v4, Lcom/giphy/sdk/core/models/enums/LangType;->swedish:Lcom/giphy/sdk/core/models/enums/LangType;
 
-    .line 22
     new-instance v2, Lcom/giphy/sdk/core/models/enums/LangType;
 
     const-string v15, "czech"
@@ -521,7 +499,6 @@
 
     sput-object v2, Lcom/giphy/sdk/core/models/enums/LangType;->czech:Lcom/giphy/sdk/core/models/enums/LangType;
 
-    .line 23
     new-instance v4, Lcom/giphy/sdk/core/models/enums/LangType;
 
     const-string v15, "hindi"
@@ -536,7 +513,6 @@
 
     sput-object v4, Lcom/giphy/sdk/core/models/enums/LangType;->hindi:Lcom/giphy/sdk/core/models/enums/LangType;
 
-    .line 24
     new-instance v2, Lcom/giphy/sdk/core/models/enums/LangType;
 
     const-string v14, "bengali"
@@ -551,7 +527,6 @@
 
     sput-object v2, Lcom/giphy/sdk/core/models/enums/LangType;->bengali:Lcom/giphy/sdk/core/models/enums/LangType;
 
-    .line 25
     new-instance v4, Lcom/giphy/sdk/core/models/enums/LangType;
 
     const-string v14, "danish"
@@ -566,7 +541,6 @@
 
     sput-object v4, Lcom/giphy/sdk/core/models/enums/LangType;->danish:Lcom/giphy/sdk/core/models/enums/LangType;
 
-    .line 26
     new-instance v2, Lcom/giphy/sdk/core/models/enums/LangType;
 
     const-string v14, "farsi"
@@ -581,7 +555,6 @@
 
     sput-object v2, Lcom/giphy/sdk/core/models/enums/LangType;->farsi:Lcom/giphy/sdk/core/models/enums/LangType;
 
-    .line 27
     new-instance v4, Lcom/giphy/sdk/core/models/enums/LangType;
 
     const-string v14, "filipino"
@@ -596,7 +569,6 @@
 
     sput-object v4, Lcom/giphy/sdk/core/models/enums/LangType;->filipino:Lcom/giphy/sdk/core/models/enums/LangType;
 
-    .line 28
     new-instance v2, Lcom/giphy/sdk/core/models/enums/LangType;
 
     const-string v14, "finnish"
@@ -611,7 +583,6 @@
 
     sput-object v2, Lcom/giphy/sdk/core/models/enums/LangType;->finnish:Lcom/giphy/sdk/core/models/enums/LangType;
 
-    .line 29
     new-instance v4, Lcom/giphy/sdk/core/models/enums/LangType;
 
     const-string v14, "hebrew"
@@ -626,7 +597,6 @@
 
     sput-object v4, Lcom/giphy/sdk/core/models/enums/LangType;->hebrew:Lcom/giphy/sdk/core/models/enums/LangType;
 
-    .line 30
     new-instance v2, Lcom/giphy/sdk/core/models/enums/LangType;
 
     const-string v14, "malay"
@@ -641,7 +611,6 @@
 
     sput-object v2, Lcom/giphy/sdk/core/models/enums/LangType;->malay:Lcom/giphy/sdk/core/models/enums/LangType;
 
-    .line 31
     new-instance v4, Lcom/giphy/sdk/core/models/enums/LangType;
 
     const-string v14, "norwegian"
@@ -656,7 +625,6 @@
 
     sput-object v4, Lcom/giphy/sdk/core/models/enums/LangType;->norwegian:Lcom/giphy/sdk/core/models/enums/LangType;
 
-    .line 32
     new-instance v2, Lcom/giphy/sdk/core/models/enums/LangType;
 
     const-string v14, "ukrainian"
@@ -803,7 +771,6 @@
 
     aput-object v2, v4, v0
 
-    .line 33
     sput-object v4, Lcom/giphy/sdk/core/models/enums/LangType;->$VALUES:[Lcom/giphy/sdk/core/models/enums/LangType;
 
     return-void
@@ -819,10 +786,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 2
     iput-object p3, p0, Lcom/giphy/sdk/core/models/enums/LangType;->lang:Ljava/lang/String;
 
     return-void
@@ -831,7 +796,6 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/giphy/sdk/core/models/enums/LangType;
     .locals 1
 
-    .line 1
     const-class v0, Lcom/giphy/sdk/core/models/enums/LangType;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -846,7 +810,6 @@
 .method public static values()[Lcom/giphy/sdk/core/models/enums/LangType;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/giphy/sdk/core/models/enums/LangType;->$VALUES:[Lcom/giphy/sdk/core/models/enums/LangType;
 
     invoke-virtual {v0}, [Lcom/giphy/sdk/core/models/enums/LangType;->clone()Ljava/lang/Object;
@@ -863,7 +826,6 @@
 .method public toString()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/giphy/sdk/core/models/enums/LangType;->lang:Ljava/lang/String;
 
     return-object v0

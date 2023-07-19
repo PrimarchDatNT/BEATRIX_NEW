@@ -24,13 +24,10 @@
 .method public constructor <init>(Ljava/lang/String;Ljava/lang/String;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/meitu/library/analytics/y/l/j/b$a;->a:Ljava/lang/String;
 
-    .line 3
     iput-object p2, p0, Lcom/meitu/library/analytics/y/l/j/b$a;->b:Ljava/lang/String;
 
     return-void
@@ -39,10 +36,8 @@
 .method public varargs constructor <init>(Ljava/lang/String;[Ljava/lang/String;)V
     .locals 2
 
-    .line 4
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 5
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -61,7 +56,6 @@
 
     const/4 p1, 0x7
 
-    .line 6
     invoke-static {p2, p1}, Lcom/meitu/library/analytics/y/o/x;->b([Ljava/lang/String;C)Ljava/lang/String;
 
     move-result-object p1

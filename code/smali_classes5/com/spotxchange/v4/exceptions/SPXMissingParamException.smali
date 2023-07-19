@@ -9,7 +9,6 @@
 
     const/4 v0, 0x0
 
-    .line 2
     invoke-direct {p0, v0}, Lcom/spotxchange/v4/exceptions/SPXMissingParamException;-><init>(Ljava/lang/Throwable;)V
 
     return-void
@@ -20,7 +19,6 @@
 
     const-string v0, "Missing parameter"
 
-    .line 1
     invoke-direct {p0, v0, p1}, Lcom/spotxchange/v4/exceptions/SPXException;-><init>(Ljava/lang/String;Ljava/lang/Throwable;)V
 
     return-void

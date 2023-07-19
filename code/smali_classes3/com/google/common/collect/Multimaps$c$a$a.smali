@@ -31,7 +31,6 @@
 .method constructor <init>(Lcom/google/common/collect/Multimaps$c$a;Ljava/util/Map$Entry;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/common/collect/Multimaps$c$a$a;->b:Lcom/google/common/collect/Multimaps$c$a;
 
     iput-object p2, p0, Lcom/google/common/collect/Multimaps$c$a$a;->a:Ljava/util/Map$Entry;
@@ -46,7 +45,6 @@
 .method public getCount()I
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/Multimaps$c$a$a;->a:Ljava/util/Map$Entry;
 
     invoke-interface {v0}, Ljava/util/Map$Entry;->getValue()Ljava/lang/Object;
@@ -70,7 +68,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/Multimaps$c$a$a;->a:Ljava/util/Map$Entry;
 
     invoke-interface {v0}, Ljava/util/Map$Entry;->getKey()Ljava/lang/Object;

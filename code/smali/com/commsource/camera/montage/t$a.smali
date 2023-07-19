@@ -22,7 +22,6 @@
 .method constructor <init>(Lcom/commsource/camera/montage/t;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/camera/montage/t$a;->a:Lcom/commsource/camera/montage/t;
 
     invoke-direct {p0}, Landroidx/viewpager/widget/ViewPager$SimpleOnPageChangeListener;-><init>()V
@@ -39,7 +38,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/montage/t$a;->a:Lcom/commsource/camera/montage/t;
 
     invoke-static {v1}, Lcom/commsource/camera/montage/t;->A(Lcom/commsource/camera/montage/t;)Lcom/commsource/camera/montage/x;
@@ -48,7 +46,6 @@
 
     invoke-virtual {v1, p1}, Lcom/commsource/camera/montage/x;->f(I)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/camera/montage/t$a;->a:Lcom/commsource/camera/montage/t;
 
     invoke-static {v1}, Lcom/commsource/camera/montage/t;->B(Lcom/commsource/camera/montage/t;)Lcom/commsource/beautyplus/f0/i9;
@@ -59,7 +56,6 @@
 
     invoke-virtual {v1, p1}, Landroidx/viewpager/widget/ViewPager;->setCurrentItem(I)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

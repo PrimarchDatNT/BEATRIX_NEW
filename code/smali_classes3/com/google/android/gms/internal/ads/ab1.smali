@@ -38,19 +38,14 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/google/android/gms/internal/ads/ab1;->a:Lcom/google/android/gms/internal/ads/am;
 
-    .line 3
     iput-object p2, p0, Lcom/google/android/gms/internal/ads/ab1;->b:Ljava/util/concurrent/Executor;
 
-    .line 4
     iput-object p3, p0, Lcom/google/android/gms/internal/ads/ab1;->c:Ljava/lang/String;
 
-    .line 5
     iput-object p4, p0, Lcom/google/android/gms/internal/ads/ab1;->d:Landroid/content/pm/PackageInfo;
 
     return-void
@@ -69,14 +64,12 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/ab1;->a:Lcom/google/android/gms/internal/ads/am;
 
     iget-object v1, p0, Lcom/google/android/gms/internal/ads/ab1;->c:Ljava/lang/String;
 
     iget-object v2, p0, Lcom/google/android/gms/internal/ads/ab1;->d:Landroid/content/pm/PackageInfo;
 
-    .line 2
     invoke-interface {v0, v1, v2}, Lcom/google/android/gms/internal/ads/am;->b(Ljava/lang/String;Landroid/content/pm/PackageInfo;)Lcom/google/android/gms/internal/ads/rq1;
 
     move-result-object v0
@@ -85,7 +78,6 @@
 
     iget-object v2, p0, Lcom/google/android/gms/internal/ads/ab1;->b:Ljava/util/concurrent/Executor;
 
-    .line 3
     invoke-static {v0, v1, v2}, Lcom/google/android/gms/internal/ads/jq1;->i(Lcom/google/android/gms/internal/ads/rq1;Lcom/google/android/gms/internal/ads/ao1;Ljava/util/concurrent/Executor;)Lcom/google/android/gms/internal/ads/rq1;
 
     move-result-object v0
@@ -98,7 +90,6 @@
 
     iget-object v3, p0, Lcom/google/android/gms/internal/ads/ab1;->b:Ljava/util/concurrent/Executor;
 
-    .line 4
     invoke-static {v0, v1, v2, v3}, Lcom/google/android/gms/internal/ads/jq1;->k(Lcom/google/android/gms/internal/ads/rq1;Ljava/lang/Class;Lcom/google/android/gms/internal/ads/xp1;Ljava/util/concurrent/Executor;)Lcom/google/android/gms/internal/ads/rq1;
 
     move-result-object v0
@@ -114,7 +105,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance p1, Lcom/google/android/gms/internal/ads/xa1;
 
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/ab1;->c:Ljava/lang/String;

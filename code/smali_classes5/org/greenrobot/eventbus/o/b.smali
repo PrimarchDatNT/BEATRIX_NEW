@@ -13,10 +13,8 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-direct {p0, p1, v0, p2}, Lorg/greenrobot/eventbus/o/a;-><init>(Ljava/lang/Class;Ljava/lang/Class;Z)V
 
-    .line 2
     iput-object p3, p0, Lorg/greenrobot/eventbus/o/b;->d:[Lorg/greenrobot/eventbus/o/e;
 
     return-void
@@ -29,13 +27,11 @@
 
     monitor-enter p0
 
-    .line 1
     :try_start_0
     iget-object v0, p0, Lorg/greenrobot/eventbus/o/b;->d:[Lorg/greenrobot/eventbus/o/e;
 
     array-length v0, v0
 
-    .line 2
     new-array v1, v0, [Lorg/greenrobot/eventbus/l;
 
     const/4 v2, 0x0
@@ -43,12 +39,10 @@
     :goto_0
     if-ge v2, v0, :cond_0
 
-    .line 3
     iget-object v3, p0, Lorg/greenrobot/eventbus/o/b;->d:[Lorg/greenrobot/eventbus/o/e;
 
     aget-object v3, v3, v2
 
-    .line 4
     iget-object v5, v3, Lorg/greenrobot/eventbus/o/e;->a:Ljava/lang/String;
 
     iget-object v6, v3, Lorg/greenrobot/eventbus/o/e;->c:Ljava/lang/Class;
@@ -73,7 +67,6 @@
 
     goto :goto_0
 
-    .line 5
     :cond_0
     monitor-exit p0
 

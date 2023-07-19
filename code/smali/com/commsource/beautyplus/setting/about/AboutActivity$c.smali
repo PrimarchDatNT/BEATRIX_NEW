@@ -30,7 +30,6 @@
 .method constructor <init>(Lcom/commsource/beautyplus/setting/about/AboutActivity;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/beautyplus/setting/about/AboutActivity$c;->c:Lcom/commsource/beautyplus/setting/about/AboutActivity;
 
     invoke-direct {p0}, Lcom/commsource/beautyfilter/NoStickLiveData$a;-><init>()V
@@ -47,7 +46,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Ljava/lang/String;
 
     invoke-virtual {p0, p1}, Lcom/commsource/beautyplus/setting/about/AboutActivity$c;->e(Ljava/lang/String;)V
@@ -64,10 +62,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lf/k/c/c/f;->I(Ljava/lang/CharSequence;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

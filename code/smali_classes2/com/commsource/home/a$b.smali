@@ -35,7 +35,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/home/a$b;->a:Lcom/commsource/home/a;
 
     iput-boolean p2, p0, Lcom/commsource/home/a$b;->b:Z
@@ -60,7 +59,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -77,7 +75,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -102,14 +99,12 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v0, p0, Lcom/commsource/home/a$b;->b:Z
 
     const-string v1, "adsorbentViewBinding.rlSubsNoOff"
 
     if-eqz v0, :cond_0
 
-    .line 2
     iget-object v0, p0, Lcom/commsource/home/a$b;->a:Lcom/commsource/home/a;
 
     invoke-static {v0}, Lcom/commsource/home/a;->f(Lcom/commsource/home/a;)Lcom/commsource/beautyplus/f0/y0;
@@ -124,7 +119,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_0
     iget-object v0, p0, Lcom/commsource/home/a$b;->a:Lcom/commsource/home/a;
 
@@ -132,7 +126,6 @@
 
     invoke-static {v0, v2}, Lcom/commsource/home/a;->m(Lcom/commsource/home/a;Ljava/lang/String;)V
 
-    .line 4
     iget-object v0, p0, Lcom/commsource/home/a$b;->a:Lcom/commsource/home/a;
 
     invoke-static {v0}, Lcom/commsource/home/a;->f(Lcom/commsource/home/a;)Lcom/commsource/beautyplus/f0/y0;
@@ -145,7 +138,6 @@
 
     invoke-static {v0}, Lcom/commsource/util/l0;->v0(Landroid/view/View;)V
 
-    .line 5
     iget-object v0, p0, Lcom/commsource/home/a$b;->a:Lcom/commsource/home/a;
 
     invoke-static {v0}, Lcom/commsource/home/a;->f(Lcom/commsource/home/a;)Lcom/commsource/beautyplus/f0/y0;
@@ -160,7 +152,6 @@
 
     invoke-static {v0}, Lcom/commsource/util/l0;->w(Landroid/view/View;)V
 
-    .line 6
     :goto_0
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -174,14 +165,12 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v0, p0, Lcom/commsource/home/a$b;->c:I
 
     int-to-float v0, v0
 
     mul-float p2, p2, v0
 
-    .line 2
     iget-boolean v0, p0, Lcom/commsource/home/a$b;->b:Z
 
     const-string v1, "adsorbentViewBinding.vRcPicTitleContainer"
@@ -192,7 +181,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 3
     iget-object v0, p0, Lcom/commsource/home/a$b;->a:Lcom/commsource/home/a;
 
     invoke-static {v0}, Lcom/commsource/home/a;->f(Lcom/commsource/home/a;)Lcom/commsource/beautyplus/f0/y0;
@@ -207,7 +195,6 @@
 
     invoke-virtual {v0, v3}, Landroid/widget/RelativeLayout;->setTranslationY(F)V
 
-    .line 4
     iget-object v0, p0, Lcom/commsource/home/a$b;->a:Lcom/commsource/home/a;
 
     invoke-static {v0}, Lcom/commsource/home/a;->f(Lcom/commsource/home/a;)Lcom/commsource/beautyplus/f0/y0;
@@ -226,7 +213,6 @@
 
     invoke-virtual {v0, v2}, Landroid/widget/LinearLayout;->setTranslationY(F)V
 
-    .line 5
     iget-object v0, p0, Lcom/commsource/home/a$b;->a:Lcom/commsource/home/a;
 
     invoke-static {v0}, Lcom/commsource/home/a;->f(Lcom/commsource/home/a;)Lcom/commsource/beautyplus/f0/y0;
@@ -247,7 +233,6 @@
 
     goto :goto_0
 
-    .line 6
     :cond_0
     iget-object v0, p0, Lcom/commsource/home/a$b;->a:Lcom/commsource/home/a;
 
@@ -267,7 +252,6 @@
 
     invoke-virtual {v0, v3}, Landroid/widget/RelativeLayout;->setTranslationY(F)V
 
-    .line 7
     iget-object v0, p0, Lcom/commsource/home/a$b;->a:Lcom/commsource/home/a;
 
     invoke-static {v0}, Lcom/commsource/home/a;->f(Lcom/commsource/home/a;)Lcom/commsource/beautyplus/f0/y0;
@@ -282,7 +266,6 @@
 
     invoke-virtual {v0, p2}, Landroid/widget/LinearLayout;->setTranslationY(F)V
 
-    .line 8
     iget-object v0, p0, Lcom/commsource/home/a$b;->a:Lcom/commsource/home/a;
 
     invoke-static {v0}, Lcom/commsource/home/a;->f(Lcom/commsource/home/a;)Lcom/commsource/beautyplus/f0/y0;
@@ -295,7 +278,6 @@
 
     invoke-virtual {v0, p2}, Landroid/widget/FrameLayout;->setTranslationY(F)V
 
-    .line 9
     :goto_0
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

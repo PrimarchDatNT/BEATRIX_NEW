@@ -30,7 +30,6 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
     const-class v0, Lio/grpc/okhttp/f;
 
     invoke-virtual {v0}, Ljava/lang/Class;->getName()Ljava/lang/String;
@@ -49,7 +48,6 @@
 .method constructor <init>(Lio/grpc/okhttp/b$a;Lio/grpc/okhttp/internal/framed/b;)V
     .locals 3
 
-    .line 1
     new-instance v0, Lio/grpc/okhttp/OkHttpFrameLogger;
 
     sget-object v1, Ljava/util/logging/Level;->FINE:Ljava/util/logging/Level;
@@ -68,12 +66,10 @@
     .annotation build Lf/f/e/a/d;
     .end annotation
 
-    .line 2
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const-string v0, "transportExceptionHandler"
 
-    .line 3
     invoke-static {p1, v0}, Lcom/google/common/base/t;->F(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -84,7 +80,6 @@
 
     const-string p1, "frameWriter"
 
-    .line 4
     invoke-static {p2, p1}, Lcom/google/common/base/t;->F(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -95,7 +90,6 @@
 
     const-string p1, "frameLogger"
 
-    .line 5
     invoke-static {p3, p1}, Lcom/google/common/base/t;->F(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -112,7 +106,6 @@
     .annotation build Lf/f/e/a/d;
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
     move-result-object p0
@@ -125,12 +118,10 @@
 
     if-eqz p0, :cond_0
 
-    .line 2
     sget-object p0, Ljava/util/logging/Level;->FINE:Ljava/util/logging/Level;
 
     return-object p0
 
-    .line 3
     :cond_0
     sget-object p0, Ljava/util/logging/Level;->INFO:Ljava/util/logging/Level;
 
@@ -142,26 +133,21 @@
 .method public Aa(ILio/grpc/okhttp/internal/framed/ErrorCode;[B)V
     .locals 3
 
-    .line 1
     iget-object v0, p0, Lio/grpc/okhttp/b;->c:Lio/grpc/okhttp/OkHttpFrameLogger;
 
     sget-object v1, Lio/grpc/okhttp/OkHttpFrameLogger$Direction;->OUTBOUND:Lio/grpc/okhttp/OkHttpFrameLogger$Direction;
 
-    .line 2
     invoke-static {p3}, Lokio/ByteString;->of([B)Lokio/ByteString;
 
     move-result-object v2
 
-    .line 3
     invoke-virtual {v0, v1, p1, p2, v2}, Lio/grpc/okhttp/OkHttpFrameLogger;->c(Lio/grpc/okhttp/OkHttpFrameLogger$Direction;ILio/grpc/okhttp/internal/framed/ErrorCode;Lokio/ByteString;)V
 
-    .line 4
     :try_start_0
     iget-object v0, p0, Lio/grpc/okhttp/b;->b:Lio/grpc/okhttp/internal/framed/b;
 
     invoke-interface {v0, p1, p2, p3}, Lio/grpc/okhttp/internal/framed/b;->Aa(ILio/grpc/okhttp/internal/framed/ErrorCode;[B)V
 
-    .line 5
     iget-object p1, p0, Lio/grpc/okhttp/b;->b:Lio/grpc/okhttp/internal/framed/b;
 
     invoke-interface {p1}, Lio/grpc/okhttp/internal/framed/b;->flush()V
@@ -173,7 +159,6 @@
     :catch_0
     move-exception p1
 
-    .line 6
     iget-object p2, p0, Lio/grpc/okhttp/b;->a:Lio/grpc/okhttp/b$a;
 
     invoke-interface {p2, p1}, Lio/grpc/okhttp/b$a;->b(Ljava/lang/Throwable;)V
@@ -185,14 +170,12 @@
 .method public C3(Lio/grpc/okhttp/internal/framed/g;)V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lio/grpc/okhttp/b;->c:Lio/grpc/okhttp/OkHttpFrameLogger;
 
     sget-object v1, Lio/grpc/okhttp/OkHttpFrameLogger$Direction;->OUTBOUND:Lio/grpc/okhttp/OkHttpFrameLogger$Direction;
 
     invoke-virtual {v0, v1}, Lio/grpc/okhttp/OkHttpFrameLogger;->k(Lio/grpc/okhttp/OkHttpFrameLogger$Direction;)V
 
-    .line 2
     :try_start_0
     iget-object v0, p0, Lio/grpc/okhttp/b;->b:Lio/grpc/okhttp/internal/framed/b;
 
@@ -205,7 +188,6 @@
     :catch_0
     move-exception p1
 
-    .line 3
     iget-object v0, p0, Lio/grpc/okhttp/b;->a:Lio/grpc/okhttp/b$a;
 
     invoke-interface {v0, p1}, Lio/grpc/okhttp/b$a;->b(Ljava/lang/Throwable;)V
@@ -217,14 +199,12 @@
 .method public L3(Lio/grpc/okhttp/internal/framed/g;)V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lio/grpc/okhttp/b;->c:Lio/grpc/okhttp/OkHttpFrameLogger;
 
     sget-object v1, Lio/grpc/okhttp/OkHttpFrameLogger$Direction;->OUTBOUND:Lio/grpc/okhttp/OkHttpFrameLogger$Direction;
 
     invoke-virtual {v0, v1, p1}, Lio/grpc/okhttp/OkHttpFrameLogger;->j(Lio/grpc/okhttp/OkHttpFrameLogger$Direction;Lio/grpc/okhttp/internal/framed/g;)V
 
-    .line 2
     :try_start_0
     iget-object v0, p0, Lio/grpc/okhttp/b;->b:Lio/grpc/okhttp/internal/framed/b;
 
@@ -237,7 +217,6 @@
     :catch_0
     move-exception p1
 
-    .line 3
     iget-object v0, p0, Lio/grpc/okhttp/b;->a:Lio/grpc/okhttp/b$a;
 
     invoke-interface {v0, p1}, Lio/grpc/okhttp/b$a;->b(Ljava/lang/Throwable;)V
@@ -249,14 +228,12 @@
 .method public a1(ILio/grpc/okhttp/internal/framed/ErrorCode;)V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lio/grpc/okhttp/b;->c:Lio/grpc/okhttp/OkHttpFrameLogger;
 
     sget-object v1, Lio/grpc/okhttp/OkHttpFrameLogger$Direction;->OUTBOUND:Lio/grpc/okhttp/OkHttpFrameLogger$Direction;
 
     invoke-virtual {v0, v1, p1, p2}, Lio/grpc/okhttp/OkHttpFrameLogger;->i(Lio/grpc/okhttp/OkHttpFrameLogger$Direction;ILio/grpc/okhttp/internal/framed/ErrorCode;)V
 
-    .line 2
     :try_start_0
     iget-object v0, p0, Lio/grpc/okhttp/b;->b:Lio/grpc/okhttp/internal/framed/b;
 
@@ -269,7 +246,6 @@
     :catch_0
     move-exception p1
 
-    .line 3
     iget-object p2, p0, Lio/grpc/okhttp/b;->a:Lio/grpc/okhttp/b$a;
 
     invoke-interface {p2, p1}, Lio/grpc/okhttp/b$a;->b(Ljava/lang/Throwable;)V
@@ -281,7 +257,6 @@
 .method public close()V
     .locals 4
 
-    .line 1
     :try_start_0
     iget-object v0, p0, Lio/grpc/okhttp/b;->b:Lio/grpc/okhttp/internal/framed/b;
 
@@ -294,7 +269,6 @@
     :catch_0
     move-exception v0
 
-    .line 2
     sget-object v1, Lio/grpc/okhttp/b;->d:Ljava/util/logging/Logger;
 
     invoke-static {v0}, Lio/grpc/okhttp/b;->a(Ljava/lang/Throwable;)Ljava/util/logging/Level;
@@ -312,7 +286,6 @@
 .method public connectionPreface()V
     .locals 2
 
-    .line 1
     :try_start_0
     iget-object v0, p0, Lio/grpc/okhttp/b;->b:Lio/grpc/okhttp/internal/framed/b;
 
@@ -325,7 +298,6 @@
     :catch_0
     move-exception v0
 
-    .line 2
     iget-object v1, p0, Lio/grpc/okhttp/b;->a:Lio/grpc/okhttp/b$a;
 
     invoke-interface {v1, v0}, Lio/grpc/okhttp/b$a;->b(Ljava/lang/Throwable;)V
@@ -337,12 +309,10 @@
 .method public data(ZILokio/Buffer;I)V
     .locals 6
 
-    .line 1
     iget-object v0, p0, Lio/grpc/okhttp/b;->c:Lio/grpc/okhttp/OkHttpFrameLogger;
 
     sget-object v1, Lio/grpc/okhttp/OkHttpFrameLogger$Direction;->OUTBOUND:Lio/grpc/okhttp/OkHttpFrameLogger$Direction;
 
-    .line 2
     invoke-virtual {p3}, Lokio/Buffer;->buffer()Lokio/Buffer;
 
     move-result-object v3
@@ -353,10 +323,8 @@
 
     move v5, p1
 
-    .line 3
     invoke-virtual/range {v0 .. v5}, Lio/grpc/okhttp/OkHttpFrameLogger;->b(Lio/grpc/okhttp/OkHttpFrameLogger$Direction;ILokio/Buffer;IZ)V
 
-    .line 4
     :try_start_0
     iget-object v0, p0, Lio/grpc/okhttp/b;->b:Lio/grpc/okhttp/internal/framed/b;
 
@@ -369,7 +337,6 @@
     :catch_0
     move-exception p1
 
-    .line 5
     iget-object p2, p0, Lio/grpc/okhttp/b;->a:Lio/grpc/okhttp/b$a;
 
     invoke-interface {p2, p1}, Lio/grpc/okhttp/b$a;->b(Ljava/lang/Throwable;)V
@@ -381,7 +348,6 @@
 .method public flush()V
     .locals 2
 
-    .line 1
     :try_start_0
     iget-object v0, p0, Lio/grpc/okhttp/b;->b:Lio/grpc/okhttp/internal/framed/b;
 
@@ -394,7 +360,6 @@
     :catch_0
     move-exception v0
 
-    .line 2
     iget-object v1, p0, Lio/grpc/okhttp/b;->a:Lio/grpc/okhttp/b$a;
 
     invoke-interface {v1, v0}, Lio/grpc/okhttp/b$a;->b(Ljava/lang/Throwable;)V
@@ -414,7 +379,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lio/grpc/okhttp/b;->c:Lio/grpc/okhttp/OkHttpFrameLogger;
 
     sget-object v1, Lio/grpc/okhttp/OkHttpFrameLogger$Direction;->OUTBOUND:Lio/grpc/okhttp/OkHttpFrameLogger$Direction;
@@ -423,7 +387,6 @@
 
     invoke-virtual {v0, v1, p1, p2, v2}, Lio/grpc/okhttp/OkHttpFrameLogger;->d(Lio/grpc/okhttp/OkHttpFrameLogger$Direction;ILjava/util/List;Z)V
 
-    .line 2
     :try_start_0
     iget-object v0, p0, Lio/grpc/okhttp/b;->b:Lio/grpc/okhttp/internal/framed/b;
 
@@ -436,7 +399,6 @@
     :catch_0
     move-exception p1
 
-    .line 3
     iget-object p2, p0, Lio/grpc/okhttp/b;->a:Lio/grpc/okhttp/b$a;
 
     invoke-interface {p2, p1}, Lio/grpc/okhttp/b$a;->b(Ljava/lang/Throwable;)V
@@ -448,7 +410,6 @@
 .method public maxDataLength()I
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lio/grpc/okhttp/b;->b:Lio/grpc/okhttp/internal/framed/b;
 
     invoke-interface {v0}, Lio/grpc/okhttp/internal/framed/b;->maxDataLength()I
@@ -467,7 +428,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     iget-object v3, p0, Lio/grpc/okhttp/b;->c:Lio/grpc/okhttp/OkHttpFrameLogger;
 
     sget-object v4, Lio/grpc/okhttp/OkHttpFrameLogger$Direction;->OUTBOUND:Lio/grpc/okhttp/OkHttpFrameLogger$Direction;
@@ -486,7 +446,6 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     iget-object v3, p0, Lio/grpc/okhttp/b;->c:Lio/grpc/okhttp/OkHttpFrameLogger;
 
@@ -504,7 +463,6 @@
 
     invoke-virtual {v3, v4, v0, v1}, Lio/grpc/okhttp/OkHttpFrameLogger;->e(Lio/grpc/okhttp/OkHttpFrameLogger$Direction;J)V
 
-    .line 3
     :goto_0
     :try_start_0
     iget-object v0, p0, Lio/grpc/okhttp/b;->b:Lio/grpc/okhttp/internal/framed/b;
@@ -518,7 +476,6 @@
     :catch_0
     move-exception p1
 
-    .line 4
     iget-object p2, p0, Lio/grpc/okhttp/b;->a:Lio/grpc/okhttp/b$a;
 
     invoke-interface {p2, p1}, Lio/grpc/okhttp/b$a;->b(Ljava/lang/Throwable;)V
@@ -538,14 +495,12 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lio/grpc/okhttp/b;->c:Lio/grpc/okhttp/OkHttpFrameLogger;
 
     sget-object v1, Lio/grpc/okhttp/OkHttpFrameLogger$Direction;->OUTBOUND:Lio/grpc/okhttp/OkHttpFrameLogger$Direction;
 
     invoke-virtual {v0, v1, p1, p2, p3}, Lio/grpc/okhttp/OkHttpFrameLogger;->h(Lio/grpc/okhttp/OkHttpFrameLogger$Direction;IILjava/util/List;)V
 
-    .line 2
     :try_start_0
     iget-object v0, p0, Lio/grpc/okhttp/b;->b:Lio/grpc/okhttp/internal/framed/b;
 
@@ -558,7 +513,6 @@
     :catch_0
     move-exception p1
 
-    .line 3
     iget-object p2, p0, Lio/grpc/okhttp/b;->a:Lio/grpc/okhttp/b$a;
 
     invoke-interface {p2, p1}, Lio/grpc/okhttp/b$a;->b(Ljava/lang/Throwable;)V
@@ -578,7 +532,6 @@
         }
     .end annotation
 
-    .line 1
     :try_start_0
     iget-object v0, p0, Lio/grpc/okhttp/b;->b:Lio/grpc/okhttp/internal/framed/b;
 
@@ -591,7 +544,6 @@
     :catch_0
     move-exception p1
 
-    .line 2
     iget-object p2, p0, Lio/grpc/okhttp/b;->a:Lio/grpc/okhttp/b$a;
 
     invoke-interface {p2, p1}, Lio/grpc/okhttp/b$a;->b(Ljava/lang/Throwable;)V
@@ -611,7 +563,6 @@
         }
     .end annotation
 
-    .line 1
     :try_start_0
     iget-object v0, p0, Lio/grpc/okhttp/b;->b:Lio/grpc/okhttp/internal/framed/b;
 
@@ -634,7 +585,6 @@
     :catch_0
     move-exception p1
 
-    .line 2
     iget-object p2, p0, Lio/grpc/okhttp/b;->a:Lio/grpc/okhttp/b$a;
 
     invoke-interface {p2, p1}, Lio/grpc/okhttp/b$a;->b(Ljava/lang/Throwable;)V
@@ -646,14 +596,12 @@
 .method public windowUpdate(IJ)V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lio/grpc/okhttp/b;->c:Lio/grpc/okhttp/OkHttpFrameLogger;
 
     sget-object v1, Lio/grpc/okhttp/OkHttpFrameLogger$Direction;->OUTBOUND:Lio/grpc/okhttp/OkHttpFrameLogger$Direction;
 
     invoke-virtual {v0, v1, p1, p2, p3}, Lio/grpc/okhttp/OkHttpFrameLogger;->l(Lio/grpc/okhttp/OkHttpFrameLogger$Direction;IJ)V
 
-    .line 2
     :try_start_0
     iget-object v0, p0, Lio/grpc/okhttp/b;->b:Lio/grpc/okhttp/internal/framed/b;
 
@@ -666,7 +614,6 @@
     :catch_0
     move-exception p1
 
-    .line 3
     iget-object p2, p0, Lio/grpc/okhttp/b;->a:Lio/grpc/okhttp/b$a;
 
     invoke-interface {p2, p1}, Lio/grpc/okhttp/b$a;->b(Ljava/lang/Throwable;)V

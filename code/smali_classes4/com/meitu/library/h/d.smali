@@ -13,7 +13,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -26,17 +25,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/meitu/library/g/e;
 
     invoke-direct {v1, p1}, Lcom/meitu/library/g/e;-><init>(Landroid/content/Context;)V
 
-    .line 2
     invoke-virtual {v1}, Lcom/meitu/library/g/e;->E()F
 
     move-result p1
 
-    .line 3
     invoke-virtual {v1}, Lcom/meitu/library/g/e;->A()[Ljava/lang/Integer;
 
     move-result-object v1
@@ -49,7 +45,6 @@
 
     move-result v1
 
-    .line 4
     sget v3, Landroid/os/Build$VERSION;->SDK_INT:I
 
     const/16 v4, 0x2d0
@@ -146,7 +141,6 @@
     :cond_7
     const/4 v2, 0x4
 
-    .line 5
     :goto_4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -170,17 +164,14 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     new-instance v1, Lcom/meitu/library/g/e;
 
     invoke-direct {v1, p1}, Lcom/meitu/library/g/e;-><init>(Landroid/content/Context;)V
 
-    .line 2
     invoke-virtual {v1}, Lcom/meitu/library/g/e;->E()F
 
     move-result v2
 
-    .line 3
     invoke-virtual {v1}, Lcom/meitu/library/g/e;->A()[Ljava/lang/Integer;
 
     move-result-object v3
@@ -209,7 +200,6 @@
 
     if-lt v3, v5, :cond_1
 
-    .line 4
     invoke-virtual {v1}, Lcom/meitu/library/g/e;->d()I
 
     move-result v3
@@ -238,7 +228,6 @@
 
     if-ltz v5, :cond_2
 
-    .line 5
     invoke-virtual {v1}, Lcom/meitu/library/g/e;->i()I
 
     move-result v5
@@ -268,7 +257,6 @@
 
     if-gtz v2, :cond_4
 
-    .line 6
     invoke-virtual {v1}, Lcom/meitu/library/g/e;->A()[Ljava/lang/Integer;
 
     move-result-object v2
@@ -303,7 +291,6 @@
     :cond_5
     const/4 v1, 0x0
 
-    .line 7
     :goto_3
     sget-object v2, Landroid/os/Build;->MODEL:Ljava/lang/String;
 
@@ -346,12 +333,10 @@
     :goto_4
     if-ne v4, v2, :cond_a
 
-    .line 8
     invoke-direct {p0, p1}, Lcom/meitu/library/h/d;->b(Landroid/content/Context;)I
 
     move-result v4
 
-    .line 9
     :cond_a
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

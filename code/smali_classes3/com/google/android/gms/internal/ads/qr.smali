@@ -19,7 +19,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-direct {p0, p1, p2, p3, v0}, Lcom/google/android/gms/internal/ads/qr;-><init>(Landroid/content/Context;Landroid/view/ViewGroup;Lcom/google/android/gms/internal/ads/yr;Lcom/google/android/gms/internal/ads/zzbco;)V
 
     return-void
@@ -30,10 +29,8 @@
     .annotation build Lcom/google/android/gms/common/util/d0;
     .end annotation
 
-    .line 2
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 3
     invoke-virtual {p1}, Landroid/content/Context;->getApplicationContext()Landroid/content/Context;
 
     move-result-object p4
@@ -47,15 +44,12 @@
     :cond_0
     iput-object p1, p0, Lcom/google/android/gms/internal/ads/qr;->a:Landroid/content/Context;
 
-    .line 4
     iput-object p2, p0, Lcom/google/android/gms/internal/ads/qr;->c:Landroid/view/ViewGroup;
 
-    .line 5
     iput-object p3, p0, Lcom/google/android/gms/internal/ads/qr;->b:Lcom/google/android/gms/internal/ads/yr;
 
     const/4 p1, 0x0
 
-    .line 6
     iput-object p1, p0, Lcom/google/android/gms/internal/ads/qr;->d:Lcom/google/android/gms/internal/ads/zzbco;
 
     return-void
@@ -68,18 +62,14 @@
 
     const-string v0, "onDestroy must be called from the UI thread."
 
-    .line 1
     invoke-static {v0}, Lcom/google/android/gms/common/internal/b0;->f(Ljava/lang/String;)V
 
-    .line 2
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/qr;->d:Lcom/google/android/gms/internal/ads/zzbco;
 
     if-eqz v0, :cond_0
 
-    .line 3
     invoke-virtual {v0}, Lcom/google/android/gms/internal/ads/zzbco;->i()V
 
-    .line 4
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/qr;->c:Landroid/view/ViewGroup;
 
     iget-object v1, p0, Lcom/google/android/gms/internal/ads/qr;->d:Lcom/google/android/gms/internal/ads/zzbco;
@@ -88,7 +78,6 @@
 
     const/4 v0, 0x0
 
-    .line 5
     iput-object v0, p0, Lcom/google/android/gms/internal/ads/qr;->d:Lcom/google/android/gms/internal/ads/zzbco;
 
     :cond_0
@@ -100,15 +89,12 @@
 
     const-string v0, "onPause must be called from the UI thread."
 
-    .line 1
     invoke-static {v0}, Lcom/google/android/gms/common/internal/b0;->f(Ljava/lang/String;)V
 
-    .line 2
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/qr;->d:Lcom/google/android/gms/internal/ads/zzbco;
 
     if-eqz v0, :cond_0
 
-    .line 3
     invoke-virtual {v0}, Lcom/google/android/gms/internal/ads/zzbco;->j()V
 
     :cond_0
@@ -120,18 +106,15 @@
 
     move-object v0, p0
 
-    .line 1
     iget-object v1, v0, Lcom/google/android/gms/internal/ads/qr;->d:Lcom/google/android/gms/internal/ads/zzbco;
 
     if-eqz v1, :cond_0
 
     return-void
 
-    .line 2
     :cond_0
     iget-object v1, v0, Lcom/google/android/gms/internal/ads/qr;->b:Lcom/google/android/gms/internal/ads/yr;
 
-    .line 3
     invoke-interface {v1}, Lcom/google/android/gms/internal/ads/yr;->f()Lcom/google/android/gms/internal/ads/k0;
 
     move-result-object v1
@@ -142,7 +125,6 @@
 
     iget-object v2, v0, Lcom/google/android/gms/internal/ads/qr;->b:Lcom/google/android/gms/internal/ads/yr;
 
-    .line 4
     invoke-interface {v2}, Lcom/google/android/gms/internal/ads/yr;->y0()Lcom/google/android/gms/internal/ads/h0;
 
     move-result-object v2
@@ -153,17 +135,14 @@
 
     move-result-object v3
 
-    .line 5
     invoke-static {v1, v2, v3}, Lcom/google/android/gms/internal/ads/e0;->a(Lcom/google/android/gms/internal/ads/j0;Lcom/google/android/gms/internal/ads/h0;[Ljava/lang/String;)Z
 
-    .line 6
     new-instance v1, Lcom/google/android/gms/internal/ads/zzbco;
 
     iget-object v5, v0, Lcom/google/android/gms/internal/ads/qr;->a:Landroid/content/Context;
 
     iget-object v6, v0, Lcom/google/android/gms/internal/ads/qr;->b:Lcom/google/android/gms/internal/ads/yr;
 
-    .line 7
     invoke-interface {v6}, Lcom/google/android/gms/internal/ads/yr;->f()Lcom/google/android/gms/internal/ads/k0;
 
     move-result-object v2
@@ -184,7 +163,6 @@
 
     iput-object v1, v0, Lcom/google/android/gms/internal/ads/qr;->d:Lcom/google/android/gms/internal/ads/zzbco;
 
-    .line 8
     iget-object v2, v0, Lcom/google/android/gms/internal/ads/qr;->c:Landroid/view/ViewGroup;
 
     new-instance v3, Landroid/view/ViewGroup$LayoutParams;
@@ -197,7 +175,6 @@
 
     invoke-virtual {v2, v1, v4, v3}, Landroid/view/ViewGroup;->addView(Landroid/view/View;ILandroid/view/ViewGroup$LayoutParams;)V
 
-    .line 9
     iget-object v1, v0, Lcom/google/android/gms/internal/ads/qr;->d:Lcom/google/android/gms/internal/ads/zzbco;
 
     move v2, p1
@@ -210,7 +187,6 @@
 
     invoke-virtual {v1, p1, p2, p3, p4}, Lcom/google/android/gms/internal/ads/zzbco;->t(IIII)V
 
-    .line 10
     iget-object v1, v0, Lcom/google/android/gms/internal/ads/qr;->b:Lcom/google/android/gms/internal/ads/yr;
 
     invoke-interface {v1, v4}, Lcom/google/android/gms/internal/ads/yr;->x(Z)V
@@ -223,15 +199,12 @@
 
     const-string v0, "The underlay may only be modified from the UI thread."
 
-    .line 1
     invoke-static {v0}, Lcom/google/android/gms/common/internal/b0;->f(Ljava/lang/String;)V
 
-    .line 2
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/qr;->d:Lcom/google/android/gms/internal/ads/zzbco;
 
     if-eqz v0, :cond_0
 
-    .line 3
     invoke-virtual {v0, p1, p2, p3, p4}, Lcom/google/android/gms/internal/ads/zzbco;->t(IIII)V
 
     :cond_0
@@ -243,10 +216,8 @@
 
     const-string v0, "getAdVideoUnderlay must be called from the UI thread."
 
-    .line 1
     invoke-static {v0}, Lcom/google/android/gms/common/internal/b0;->f(Ljava/lang/String;)V
 
-    .line 2
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/qr;->d:Lcom/google/android/gms/internal/ads/zzbco;
 
     return-object v0

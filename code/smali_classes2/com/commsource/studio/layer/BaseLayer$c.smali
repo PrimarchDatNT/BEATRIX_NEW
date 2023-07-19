@@ -42,7 +42,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/layer/BaseLayer$c;->a:Lcotlin/jvm/u/a;
 
     invoke-interface {v1}, Lcotlin/jvm/u/a;->invoke()Ljava/lang/Object;

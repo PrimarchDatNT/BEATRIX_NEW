@@ -41,15 +41,12 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/bumptech/glide/load/engine/i$d;->c:Lcom/bumptech/glide/load/engine/i;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p2, p0, Lcom/bumptech/glide/load/engine/i$d;->b:Lcom/bumptech/glide/request/h;
 
-    .line 3
     iput-object p3, p0, Lcom/bumptech/glide/load/engine/i$d;->a:Lcom/bumptech/glide/load/engine/j;
 
     return-void
@@ -60,12 +57,10 @@
 .method public a()V
     .locals 3
 
-    .line 1
     iget-object v0, p0, Lcom/bumptech/glide/load/engine/i$d;->c:Lcom/bumptech/glide/load/engine/i;
 
     monitor-enter v0
 
-    .line 2
     :try_start_0
     iget-object v1, p0, Lcom/bumptech/glide/load/engine/i$d;->a:Lcom/bumptech/glide/load/engine/j;
 
@@ -73,7 +68,6 @@
 
     invoke-virtual {v1, v2}, Lcom/bumptech/glide/load/engine/j;->s(Lcom/bumptech/glide/request/h;)V
 
-    .line 3
     monitor-exit v0
 
     return-void

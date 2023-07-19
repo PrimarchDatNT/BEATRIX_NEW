@@ -63,7 +63,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p2, Lcom/commsource/studio/gesture/AdjustOptEnum;
 
     invoke-virtual {p0, p1, p2}, Lcom/commsource/studio/gesture/LayerAdjustComponent$f;->b(ILcom/commsource/studio/gesture/AdjustOptEnum;)Z
@@ -82,17 +81,14 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v0, Ljava/util/HashMap;
 
     const/16 v1, 0x10
 
     invoke-direct {v0, v1}, Ljava/util/HashMap;-><init>(I)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/gesture/LayerAdjustComponent$f;->b:Lcom/commsource/studio/bean/FocusLayerInfo;
 
-    .line 3
     instance-of v2, v1, Lcom/commsource/studio/bean/PictureLayerInfo;
 
     if-eqz v2, :cond_0
@@ -101,7 +97,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_0
     instance-of v2, v1, Lcom/commsource/studio/bean/StickerLayerInfo;
 
@@ -111,7 +106,6 @@
 
     goto :goto_0
 
-    .line 5
     :cond_1
     instance-of v2, v1, Lcom/commsource/studio/bean/DoodleLayerInfo;
 
@@ -121,7 +115,6 @@
 
     goto :goto_0
 
-    .line 6
     :cond_2
     instance-of v2, v1, Lcom/commsource/studio/bean/TextLayerInfo;
 
@@ -131,7 +124,6 @@
 
     goto :goto_0
 
-    .line 7
     :cond_3
     instance-of v1, v1, Lcom/commsource/studio/bean/GroupLayerInfo;
 
@@ -147,10 +139,8 @@
     :goto_0
     const-string v2, "type"
 
-    .line 8
     invoke-interface {v0, v2, v1}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 9
     invoke-virtual {p2}, Lcom/commsource/studio/gesture/AdjustOptEnum;->getStatisticName()Ljava/lang/String;
 
     move-result-object v1
@@ -161,10 +151,8 @@
 
     const-string v1, "beauty_layer_menu_clk"
 
-    .line 10
     invoke-static {v1, v0}, Lcom/commsource/statistics/i;->s(Ljava/lang/String;Ljava/util/Map;)V
 
-    .line 11
     iget-object v0, p0, Lcom/commsource/studio/gesture/LayerAdjustComponent$f;->a:Lcom/commsource/studio/gesture/LayerAdjustComponent;
 
     invoke-static {v0}, Lcom/commsource/studio/gesture/LayerAdjustComponent;->e(Lcom/commsource/studio/gesture/LayerAdjustComponent;)Lcom/commsource/studio/ImageStudioViewModel;
@@ -179,7 +167,6 @@
 
     invoke-virtual {v0, p2, v1}, Lcom/commsource/studio/ImageStudioViewModel;->K(Lcom/commsource/studio/gesture/AdjustOptEnum;Lcom/commsource/studio/bean/FocusLayerInfo;)V
 
-    .line 12
     sget-object v0, Lcom/commsource/studio/gesture/AdjustOptEnum;->Duplicate:Lcom/commsource/studio/gesture/AdjustOptEnum;
 
     if-eq p2, v0, :cond_5
@@ -212,7 +199,6 @@
 
     if-ne p2, v0, :cond_6
 
-    .line 13
     :cond_5
     iget-object p2, p0, Lcom/commsource/studio/gesture/LayerAdjustComponent$f;->a:Lcom/commsource/studio/gesture/LayerAdjustComponent;
 
@@ -221,7 +207,6 @@
     :cond_6
     const/4 p2, 0x1
 
-    .line 14
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p2

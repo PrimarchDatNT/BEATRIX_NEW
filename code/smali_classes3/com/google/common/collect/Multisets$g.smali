@@ -34,7 +34,6 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
     new-instance v0, Lcom/google/common/collect/Multisets$g;
 
     invoke-direct {v0}, Lcom/google/common/collect/Multisets$g;-><init>()V
@@ -47,7 +46,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -67,7 +65,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-interface {p2}, Lcom/google/common/collect/m1$a;->getCount()I
 
     move-result p2
@@ -84,7 +81,6 @@
 .method public bridge synthetic compare(Ljava/lang/Object;Ljava/lang/Object;)I
     .locals 0
 
-    .line 1
     check-cast p1, Lcom/google/common/collect/m1$a;
 
     check-cast p2, Lcom/google/common/collect/m1$a;

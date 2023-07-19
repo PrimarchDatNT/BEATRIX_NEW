@@ -15,7 +15,6 @@
 .method constructor <init>(Lcom/google/android/gms/dynamic/a;Landroid/os/Bundle;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/android/gms/dynamic/k;->b:Lcom/google/android/gms/dynamic/a;
 
     iput-object p2, p0, Lcom/google/android/gms/dynamic/k;->a:Landroid/os/Bundle;
@@ -30,7 +29,6 @@
 .method public final a(Lcom/google/android/gms/dynamic/e;)V
     .locals 1
 
-    .line 1
     iget-object p1, p0, Lcom/google/android/gms/dynamic/k;->b:Lcom/google/android/gms/dynamic/a;
 
     invoke-static {p1}, Lcom/google/android/gms/dynamic/a;->t(Lcom/google/android/gms/dynamic/a;)Lcom/google/android/gms/dynamic/e;

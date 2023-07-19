@@ -27,7 +27,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -44,7 +43,6 @@
 
     const/4 v2, 0x0
 
-    .line 1
     :try_start_0
     invoke-virtual {v0, p0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
@@ -67,7 +65,6 @@
 
     const-string v3, "admob_mediation"
 
-    .line 2
     invoke-virtual {v3, p0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v3
@@ -79,7 +76,6 @@
     :cond_0
     const-string v0, "mopub"
 
-    .line 3
     invoke-virtual {v0, p0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v0
@@ -99,7 +95,6 @@
     :cond_1
     const-string p1, "dfp"
 
-    .line 4
     invoke-virtual {p1, p0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p1
@@ -108,7 +103,6 @@
 
     const-string p1, "com.meitu.hwbusinesskit.admob.DFPAdManager"
 
-    .line 5
     invoke-static {p1}, Ljava/lang/Class;->forName(Ljava/lang/String;)Ljava/lang/Class;
 
     move-result-object p1
@@ -124,7 +118,6 @@
     :cond_2
     const-string p1, "display"
 
-    .line 6
     invoke-virtual {p1, p0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p1
@@ -133,7 +126,6 @@
 
     const-string p1, "com.meitu.hwbusinesskit.display.DisplayAdManager"
 
-    .line 7
     invoke-static {p1}, Ljava/lang/Class;->forName(Ljava/lang/String;)Ljava/lang/Class;
 
     move-result-object p1
@@ -149,14 +141,12 @@
     :cond_3
     const-string p1, "mt"
 
-    .line 8
     invoke-virtual {p1, p0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p1
 
     if-eqz p1, :cond_4
 
-    .line 9
     new-instance p1, Lcom/meitu/hwbusinesskit/core/mt/MTAdManager;
 
     invoke-direct {p1}, Lcom/meitu/hwbusinesskit/core/mt/MTAdManager;-><init>()V
@@ -166,14 +156,12 @@
     :cond_4
     const-string p1, "s2s"
 
-    .line 10
     invoke-virtual {p1, p0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p1
 
     if-eqz p1, :cond_5
 
-    .line 11
     new-instance p1, Lcom/meitu/hwbusinesskit/core/s2s/S2sAdManager;
 
     invoke-direct {p1}, Lcom/meitu/hwbusinesskit/core/s2s/S2sAdManager;-><init>()V
@@ -183,7 +171,6 @@
     :cond_5
     const-string p1, "meitu_adx"
 
-    .line 12
     invoke-virtual {p1, p0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p1
@@ -192,7 +179,6 @@
 
     const-string p1, "com.meitu.hwbusinesskit.meituadx.MeituAdxAdManager"
 
-    .line 13
     invoke-static {p1}, Ljava/lang/Class;->forName(Ljava/lang/String;)Ljava/lang/Class;
 
     move-result-object p1
@@ -208,7 +194,6 @@
     :cond_6
     const-string p1, "spotx"
 
-    .line 14
     invoke-virtual {p1, p0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p1
@@ -217,7 +202,6 @@
 
     const-string p1, "com.meitu.hwbusinesskit.spotx.SpotXAdManager"
 
-    .line 15
     invoke-static {p1}, Ljava/lang/Class;->forName(Ljava/lang/String;)Ljava/lang/Class;
 
     move-result-object p1
@@ -233,7 +217,6 @@
     :cond_7
     const-string p1, "hw"
 
-    .line 16
     invoke-virtual {p1, p0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p1
@@ -242,7 +225,6 @@
 
     const-string p1, "com.meitu.hwbusinesskit.huawei.HuaweiAdManager"
 
-    .line 17
     invoke-static {p1}, Ljava/lang/Class;->forName(Ljava/lang/String;)Ljava/lang/Class;
 
     move-result-object p1
@@ -255,7 +237,6 @@
 
     goto :goto_2
 
-    .line 18
     :cond_8
     :goto_0
     invoke-virtual {v4, p1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -266,7 +247,6 @@
 
     const-string p1, "com.meitu.hwbusinesskit.mopub.MopubRewardedAdManager"
 
-    .line 19
     invoke-static {p1}, Ljava/lang/Class;->forName(Ljava/lang/String;)Ljava/lang/Class;
 
     move-result-object p1
@@ -282,7 +262,6 @@
     :cond_9
     const-string p1, "com.meitu.hwbusinesskit.mopub.MopubAdManager"
 
-    .line 20
     invoke-static {p1}, Ljava/lang/Class;->forName(Ljava/lang/String;)Ljava/lang/Class;
 
     move-result-object p1
@@ -295,7 +274,6 @@
 
     goto :goto_2
 
-    .line 21
     :cond_a
     :goto_1
     invoke-virtual {v4, p1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -312,7 +290,6 @@
 
     const-string p1, "com.meitu.hwbusinesskit.admob.GoogleRewardedAdManager"
 
-    .line 22
     invoke-static {p1}, Ljava/lang/Class;->forName(Ljava/lang/String;)Ljava/lang/Class;
 
     move-result-object p1
@@ -328,7 +305,6 @@
     :cond_b
     const-string p1, "com.meitu.hwbusinesskit.admob.GoogleAdManager"
 
-    .line 23
     invoke-static {p1}, Ljava/lang/Class;->forName(Ljava/lang/String;)Ljava/lang/Class;
 
     move-result-object p1
@@ -349,7 +325,6 @@
     :catch_0
     move-exception p1
 
-    .line 24
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -366,10 +341,8 @@
 
     invoke-static {p0}, Lcom/meitu/hwbusinesskit/core/utils/TestLog;->log(Ljava/lang/String;)V
 
-    .line 25
     invoke-static {p1}, Lcom/meitu/hwbusinesskit/core/utils/TestLog;->log(Ljava/lang/Throwable;)V
 
-    .line 26
     :cond_c
     :goto_3
     invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V

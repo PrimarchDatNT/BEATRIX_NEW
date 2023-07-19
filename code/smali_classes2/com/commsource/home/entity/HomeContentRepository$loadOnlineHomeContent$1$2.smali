@@ -54,7 +54,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Ljava/lang/Throwable;
 
     invoke-virtual {p0, p1}, Lcom/commsource/home/entity/HomeContentRepository$loadOnlineHomeContent$1$2;->invoke(Ljava/lang/Throwable;)V
@@ -81,7 +80,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 2
     iget-object p1, p0, Lcom/commsource/home/entity/HomeContentRepository$loadOnlineHomeContent$1$2;->this$0:Lcom/commsource/home/entity/HomeContentRepository$loadOnlineHomeContent$1;
 
     iget-object p1, p1, Lcom/commsource/home/entity/HomeContentRepository$loadOnlineHomeContent$1;->this$0:Lcom/commsource/home/entity/HomeContentRepository;
@@ -90,14 +88,12 @@
 
     invoke-virtual {p1, v1}, Lcom/commsource/home/entity/HomeContentRepository;->h(Z)V
 
-    .line 3
     new-instance p1, Lcom/commsource/home/entity/HomeContentRepository$loadOnlineHomeContent$1$2$a;
 
     invoke-direct {p1, p0}, Lcom/commsource/home/entity/HomeContentRepository$loadOnlineHomeContent$1$2$a;-><init>(Lcom/commsource/home/entity/HomeContentRepository$loadOnlineHomeContent$1$2;)V
 
     invoke-static {p1}, Lcom/commsource/util/g2;->k(Ljava/lang/Runnable;)V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

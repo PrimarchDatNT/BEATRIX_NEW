@@ -67,7 +67,6 @@
 
     if-eqz p1, :cond_8
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/store/sticker/StickerStoreActivity$e;->a:Lcom/commsource/store/sticker/StickerStoreActivity;
 
     invoke-static {v1}, Lcom/commsource/store/sticker/StickerStoreActivity;->P0(Lcom/commsource/store/sticker/StickerStoreActivity;)Lcom/commsource/widget/h1/e;
@@ -78,7 +77,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/widget/h1/e;->E(Ljava/lang/Object;)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/store/sticker/StickerStoreActivity$e;->a:Lcom/commsource/store/sticker/StickerStoreActivity;
 
     invoke-static {v1}, Lcom/commsource/store/sticker/StickerStoreActivity;->P0(Lcom/commsource/store/sticker/StickerStoreActivity;)Lcom/commsource/widget/h1/e;
@@ -101,12 +99,10 @@
 
     invoke-virtual {v1, v3}, Lcom/commsource/widget/h1/e;->Q(Ljava/util/List;)V
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/store/sticker/StickerStoreActivity$e;->a:Lcom/commsource/store/sticker/StickerStoreActivity;
 
     invoke-static {v1, p1}, Lcom/commsource/store/sticker/StickerStoreActivity;->V0(Lcom/commsource/store/sticker/StickerStoreActivity;Ljava/util/List;)V
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/store/sticker/StickerStoreActivity$e;->a:Lcom/commsource/store/sticker/StickerStoreActivity;
 
     invoke-static {v1}, Lcom/commsource/store/sticker/StickerStoreActivity;->S0(Lcom/commsource/store/sticker/StickerStoreActivity;)Lcom/commsource/store/sticker/StickerStoreActivity$vpAdapter$2$a;
@@ -115,7 +111,6 @@
 
     invoke-virtual {v1}, Landroidx/recyclerview/widget/RecyclerView$Adapter;->notifyDataSetChanged()V
 
-    .line 5
     sget-object v1, Lcom/commsource/studio/sticker/StickerConfig;->F:Lcom/commsource/studio/sticker/StickerConfig;
 
     invoke-virtual {v1}, Lcom/commsource/studio/sticker/StickerConfig;->c0()Z
@@ -128,10 +123,8 @@
 
     if-eqz v3, :cond_3
 
-    .line 6
     invoke-virtual {v1, v5}, Lcom/commsource/studio/sticker/StickerConfig;->k0(Z)V
 
-    .line 7
     invoke-interface {p1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v1
@@ -176,7 +169,6 @@
 
     goto :goto_2
 
-    .line 8
     :cond_3
     invoke-interface {p1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
@@ -223,7 +215,6 @@
     :goto_2
     if-eqz v2, :cond_7
 
-    .line 9
     iget-object v1, p0, Lcom/commsource/store/sticker/StickerStoreActivity$e;->a:Lcom/commsource/store/sticker/StickerStoreActivity;
 
     invoke-static {v1}, Lcom/commsource/store/sticker/StickerStoreActivity;->R0(Lcom/commsource/store/sticker/StickerStoreActivity;)Lcom/commsource/beautyplus/f0/w0;
@@ -238,7 +229,6 @@
 
     invoke-virtual {v1, p1, v5}, Landroidx/viewpager2/widget/ViewPager2;->setCurrentItem(IZ)V
 
-    .line 10
     :cond_7
     iget-object p1, p0, Lcom/commsource/store/sticker/StickerStoreActivity$e;->a:Lcom/commsource/store/sticker/StickerStoreActivity;
 
@@ -248,7 +238,6 @@
 
     invoke-virtual {p1, v2}, Lcom/commsource/widget/h1/e;->E(Ljava/lang/Object;)V
 
-    .line 11
     :cond_8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -262,7 +251,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Ljava/util/List;
 
     invoke-virtual {p0, p1}, Lcom/commsource/store/sticker/StickerStoreActivity$e;->a(Ljava/util/List;)V

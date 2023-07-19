@@ -36,10 +36,8 @@
 .method private constructor <init>(Lcom/google/common/primitives/ImmutableLongArray;)V
     .locals 0
 
-    .line 2
     invoke-direct {p0}, Ljava/util/AbstractList;-><init>()V
 
-    .line 3
     iput-object p1, p0, Lcom/google/common/primitives/ImmutableLongArray$AsList;->parent:Lcom/google/common/primitives/ImmutableLongArray;
 
     return-void
@@ -48,7 +46,6 @@
 .method synthetic constructor <init>(Lcom/google/common/primitives/ImmutableLongArray;Lcom/google/common/primitives/ImmutableLongArray$a;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/google/common/primitives/ImmutableLongArray$AsList;-><init>(Lcom/google/common/primitives/ImmutableLongArray;)V
 
     return-void
@@ -59,7 +56,6 @@
 .method public contains(Ljava/lang/Object;)Z
     .locals 0
 
-    .line 1
     invoke-virtual {p0, p1}, Lcom/google/common/primitives/ImmutableLongArray$AsList;->indexOf(Ljava/lang/Object;)I
 
     move-result p1
@@ -84,15 +80,12 @@
         .end annotation
     .end param
 
-    .line 1
     instance-of v0, p1, Lcom/google/common/primitives/ImmutableLongArray$AsList;
 
     if-eqz v0, :cond_0
 
-    .line 2
     check-cast p1, Lcom/google/common/primitives/ImmutableLongArray$AsList;
 
-    .line 3
     iget-object v0, p0, Lcom/google/common/primitives/ImmutableLongArray$AsList;->parent:Lcom/google/common/primitives/ImmutableLongArray;
 
     iget-object p1, p1, Lcom/google/common/primitives/ImmutableLongArray$AsList;->parent:Lcom/google/common/primitives/ImmutableLongArray;
@@ -103,7 +96,6 @@
 
     return p1
 
-    .line 4
     :cond_0
     instance-of v0, p1, Ljava/util/List;
 
@@ -113,11 +105,9 @@
 
     return v1
 
-    .line 5
     :cond_1
     check-cast p1, Ljava/util/List;
 
-    .line 6
     invoke-virtual {p0}, Lcom/google/common/primitives/ImmutableLongArray$AsList;->size()I
 
     move-result v0
@@ -130,7 +120,6 @@
 
     return v1
 
-    .line 7
     :cond_2
     iget-object v0, p0, Lcom/google/common/primitives/ImmutableLongArray$AsList;->parent:Lcom/google/common/primitives/ImmutableLongArray;
 
@@ -138,7 +127,6 @@
 
     move-result v0
 
-    .line 8
     invoke-interface {p1}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
     move-result-object p1
@@ -154,7 +142,6 @@
 
     move-result-object v2
 
-    .line 9
     instance-of v3, v2, Ljava/lang/Long;
 
     if-eqz v3, :cond_4
@@ -199,7 +186,6 @@
 .method public get(I)Ljava/lang/Long;
     .locals 2
 
-    .line 2
     iget-object v0, p0, Lcom/google/common/primitives/ImmutableLongArray$AsList;->parent:Lcom/google/common/primitives/ImmutableLongArray;
 
     invoke-virtual {v0, p1}, Lcom/google/common/primitives/ImmutableLongArray;->get(I)J
@@ -216,7 +202,6 @@
 .method public bridge synthetic get(I)Ljava/lang/Object;
     .locals 0
 
-    .line 1
     invoke-virtual {p0, p1}, Lcom/google/common/primitives/ImmutableLongArray$AsList;->get(I)Ljava/lang/Long;
 
     move-result-object p1
@@ -227,7 +212,6 @@
 .method public hashCode()I
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/primitives/ImmutableLongArray$AsList;->parent:Lcom/google/common/primitives/ImmutableLongArray;
 
     invoke-virtual {v0}, Lcom/google/common/primitives/ImmutableLongArray;->hashCode()I
@@ -240,7 +224,6 @@
 .method public indexOf(Ljava/lang/Object;)I
     .locals 3
 
-    .line 1
     instance-of v0, p1, Ljava/lang/Long;
 
     if-eqz v0, :cond_0
@@ -269,7 +252,6 @@
 .method public lastIndexOf(Ljava/lang/Object;)I
     .locals 3
 
-    .line 1
     instance-of v0, p1, Ljava/lang/Long;
 
     if-eqz v0, :cond_0
@@ -298,7 +280,6 @@
 .method public size()I
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/primitives/ImmutableLongArray$AsList;->parent:Lcom/google/common/primitives/ImmutableLongArray;
 
     invoke-virtual {v0}, Lcom/google/common/primitives/ImmutableLongArray;->length()I
@@ -319,7 +300,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/primitives/ImmutableLongArray$AsList;->parent:Lcom/google/common/primitives/ImmutableLongArray;
 
     invoke-virtual {v0, p1, p2}, Lcom/google/common/primitives/ImmutableLongArray;->subArray(II)Lcom/google/common/primitives/ImmutableLongArray;
@@ -336,7 +316,6 @@
 .method public toString()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/primitives/ImmutableLongArray$AsList;->parent:Lcom/google/common/primitives/ImmutableLongArray;
 
     invoke-virtual {v0}, Lcom/google/common/primitives/ImmutableLongArray;->toString()Ljava/lang/String;

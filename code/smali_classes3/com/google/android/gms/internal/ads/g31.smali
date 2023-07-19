@@ -30,17 +30,14 @@
 .method public final a(I)V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/g31;->a:Lcom/google/android/gms/internal/ads/x21;
 
     iget-object v1, p0, Lcom/google/android/gms/internal/ads/g31;->b:Lcom/google/android/gms/internal/ads/w7;
 
-    .line 2
     invoke-virtual {v0, p1}, Lcom/google/android/gms/internal/ads/x21;->a(I)V
 
     if-eqz v1, :cond_0
 
-    .line 3
     :try_start_0
     invoke-interface {v1, p1}, Lcom/google/android/gms/internal/ads/w7;->ba(I)V
     :try_end_0
@@ -53,7 +50,6 @@
 
     const-string v0, "#007 Could not call remote method."
 
-    .line 4
     invoke-static {v0, p1}, Lcom/google/android/gms/internal/ads/aq;->e(Ljava/lang/String;Ljava/lang/Throwable;)V
 
     :cond_0

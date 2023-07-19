@@ -21,7 +21,6 @@
 .method constructor <init>(Ljava/io/InputStream;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1}, Ljava/io/BufferedInputStream;-><init>(Ljava/io/InputStream;)V
 
     return-void

@@ -54,15 +54,12 @@
 .method public constructor <init>()V
     .locals 3
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/beautyplus/i0/a;-><init>()V
 
     const/4 v0, 0x0
 
-    .line 2
     iput v0, p0, Lcom/commsource/mypage/g0;->p:I
 
-    .line 3
     new-instance v1, Landroid/os/Handler;
 
     invoke-static {}, Landroid/os/Looper;->getMainLooper()Landroid/os/Looper;
@@ -73,7 +70,6 @@
 
     iput-object v1, p0, Lcom/commsource/mypage/g0;->N:Landroid/os/Handler;
 
-    .line 4
     new-instance v1, Lcom/commsource/mypage/g0$h;
 
     const/4 v2, 0x0
@@ -82,7 +78,6 @@
 
     iput-object v1, p0, Lcom/commsource/mypage/g0;->O:Lcom/commsource/mypage/g0$h;
 
-    .line 5
     new-instance v1, Lcom/bumptech/glide/request/g;
 
     invoke-direct {v1}, Lcom/bumptech/glide/request/g;-><init>()V
@@ -95,14 +90,12 @@
 
     check-cast v1, Lcom/bumptech/glide/request/g;
 
-    .line 6
     invoke-virtual {v1, v0}, Lcom/bumptech/glide/request/a;->G0(Z)Lcom/bumptech/glide/request/a;
 
     move-result-object v0
 
     check-cast v0, Lcom/bumptech/glide/request/g;
 
-    .line 7
     invoke-static {}, Lf/d/i/j;->Q()I
 
     move-result v1
@@ -125,7 +118,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/mypage/g0;->Q:Landroid/graphics/Bitmap;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -140,7 +132,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/mypage/g0;->c:Lcom/commsource/beautyplus/f0/i7;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/i7;->d:Lcom/commsource/beautymain/widget/EditCropView;
@@ -149,7 +140,6 @@
 
     move-result v1
 
-    .line 2
     iget-object v2, p0, Lcom/commsource/mypage/g0;->c:Lcom/commsource/beautyplus/f0/i7;
 
     iget-object v2, v2, Lcom/commsource/beautyplus/f0/i7;->d:Lcom/commsource/beautymain/widget/EditCropView;
@@ -158,21 +148,18 @@
 
     move-result v2
 
-    .line 3
     iget-object v3, p0, Lcom/commsource/mypage/g0;->J:Lcom/commsource/cloudalbum/bean/CAImageInfo;
 
     invoke-virtual {v3}, Lcom/commsource/cloudalbum/bean/CAImageInfo;->q()I
 
     move-result v3
 
-    .line 4
     iget-object v4, p0, Lcom/commsource/mypage/g0;->J:Lcom/commsource/cloudalbum/bean/CAImageInfo;
 
     invoke-virtual {v4}, Lcom/commsource/cloudalbum/bean/CAImageInfo;->e()I
 
     move-result v4
 
-    .line 5
     iget-object v5, p0, Lcom/commsource/mypage/g0;->c:Lcom/commsource/beautyplus/f0/i7;
 
     iget-object v5, v5, Lcom/commsource/beautyplus/f0/i7;->c:Landroidx/constraintlayout/widget/ConstraintLayout;
@@ -181,10 +168,8 @@
 
     invoke-virtual {v5, v6}, Landroid/view/ViewGroup;->setVisibility(I)V
 
-    .line 6
     invoke-direct {p0, v1, v2, v3, v4}, Lcom/commsource/mypage/g0;->L0(IIII)V
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -197,7 +182,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/beautyplus/i0/a;->b:Landroid/app/Activity;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -212,7 +196,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/commsource/mypage/g0;->H(Z)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -227,7 +210,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0, p1, p2}, Lcom/commsource/mypage/g0;->K0(IZ)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -242,7 +224,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/beautyplus/i0/a;->q()Landroidx/fragment/app/FragmentActivity;
 
     move-result-object v0
@@ -251,7 +232,6 @@
 
     invoke-virtual {v0}, Lcom/commsource/beautyplus/BaseActivity;->J0()V
 
-    .line 2
     new-instance v0, Lcom/commsource/mypage/g0$e;
 
     const-string v1, "USER-SAVE-MONTAGE-BG"
@@ -260,7 +240,6 @@
 
     invoke-static {v0}, Lcom/commsource/util/c2;->e(Lcom/commsource/util/u2/a;)V
 
-    .line 3
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -273,7 +252,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/mypage/g0;->d:Lcom/commsource/mypage/album/BpAlbumViewModel;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -288,7 +266,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/mypage/g0;->J:Lcom/commsource/cloudalbum/bean/CAImageInfo;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -303,7 +280,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/mypage/g0;->J:Lcom/commsource/cloudalbum/bean/CAImageInfo;
 
     invoke-virtual {v0}, Lcom/commsource/cloudalbum/bean/CAImageInfo;->s()Z
@@ -314,15 +290,12 @@
 
     sget v0, Lcom/res/provider/ResSTRING;->not_supprot_gif:I
 
-    .line 2
     invoke-static {v0}, Lf/k/c/c/f;->w(I)V
 
-    .line 3
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 4
     :cond_0
     invoke-virtual {p0}, Landroidx/fragment/app/Fragment;->getActivity()Landroidx/fragment/app/FragmentActivity;
 
@@ -340,7 +313,6 @@
 
     invoke-static {v0, v1, v2}, Lcom/commsource/mypage/album/y;->a(Landroid/app/Activity;Ljava/lang/String;Lcom/commsource/mypage/album/y$f;)V
 
-    .line 5
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -353,7 +325,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/mypage/g0;->P:Lcom/bumptech/glide/request/g;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -374,21 +345,18 @@
 
     if-eqz p1, :cond_2
 
-    .line 1
     iget-object p1, p0, Lcom/commsource/mypage/g0;->c:Lcom/commsource/beautyplus/f0/i7;
 
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/i7;->X:Lcom/commsource/widget/CompatShadowToolBar;
 
     invoke-virtual {p1, v2}, Landroid/widget/FrameLayout;->setVisibility(I)V
 
-    .line 2
     iget-object p1, p0, Lcom/commsource/mypage/g0;->c:Lcom/commsource/beautyplus/f0/i7;
 
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/i7;->U:Landroid/widget/LinearLayout;
 
     invoke-virtual {p1, v2}, Landroid/widget/LinearLayout;->setVisibility(I)V
 
-    .line 3
     iget-object p1, p0, Lcom/commsource/mypage/g0;->d:Lcom/commsource/mypage/album/BpAlbumViewModel;
 
     invoke-virtual {p1}, Lcom/commsource/mypage/album/BpAlbumViewModel;->G()Landroidx/lifecycle/MutableLiveData;
@@ -399,7 +367,6 @@
 
     invoke-virtual {p1, v3}, Landroidx/lifecycle/MutableLiveData;->setValue(Ljava/lang/Object;)V
 
-    .line 4
     iget-object p1, p0, Lcom/commsource/mypage/g0;->c:Lcom/commsource/beautyplus/f0/i7;
 
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/i7;->e0:Lcom/commsource/mypage/BigPhotoViewPager;
@@ -412,14 +379,12 @@
 
     if-le p1, v3, :cond_0
 
-    .line 5
     iget-object p1, p0, Lcom/commsource/mypage/g0;->c:Lcom/commsource/beautyplus/f0/i7;
 
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/i7;->Y:Lcom/commsource/widget/CustomRecyclerView;
 
     invoke-virtual {p1, v2}, Landroid/view/ViewGroup;->setVisibility(I)V
 
-    .line 6
     :cond_0
     iget-object p1, p0, Lcom/commsource/mypage/g0;->c:Lcom/commsource/beautyplus/f0/i7;
 
@@ -427,21 +392,18 @@
 
     invoke-virtual {p1, v1}, Landroid/widget/ImageView;->setVisibility(I)V
 
-    .line 7
     iget p1, p0, Lcom/commsource/mypage/g0;->R:I
 
     const/4 v1, 0x2
 
     if-ne p1, v1, :cond_1
 
-    .line 8
     iget-object p1, p0, Lcom/commsource/mypage/g0;->c:Lcom/commsource/beautyplus/f0/i7;
 
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/i7;->b:Landroid/widget/TextView;
 
     invoke-virtual {p1, v2}, Landroid/widget/TextView;->setVisibility(I)V
 
-    .line 9
     :cond_1
     iget-object p1, p0, Lcom/commsource/mypage/g0;->O:Lcom/commsource/mypage/g0$h;
 
@@ -449,7 +411,6 @@
 
     goto :goto_0
 
-    .line 10
     :cond_2
     iget-object p1, p0, Lcom/commsource/mypage/g0;->c:Lcom/commsource/beautyplus/f0/i7;
 
@@ -461,12 +422,10 @@
 
     if-nez p1, :cond_3
 
-    .line 11
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 12
     :cond_3
     iget-object p1, p0, Lcom/commsource/mypage/g0;->c:Lcom/commsource/beautyplus/f0/i7;
 
@@ -474,40 +433,34 @@
 
     invoke-virtual {p1, v1}, Landroid/widget/FrameLayout;->setVisibility(I)V
 
-    .line 13
     iget-object p1, p0, Lcom/commsource/mypage/g0;->c:Lcom/commsource/beautyplus/f0/i7;
 
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/i7;->U:Landroid/widget/LinearLayout;
 
     invoke-virtual {p1, v1}, Landroid/widget/LinearLayout;->setVisibility(I)V
 
-    .line 14
     iget-object p1, p0, Lcom/commsource/mypage/g0;->c:Lcom/commsource/beautyplus/f0/i7;
 
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/i7;->b:Landroid/widget/TextView;
 
     invoke-virtual {p1, v1}, Landroid/widget/TextView;->setVisibility(I)V
 
-    .line 15
     iget-object p1, p0, Lcom/commsource/mypage/g0;->c:Lcom/commsource/beautyplus/f0/i7;
 
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/i7;->Y:Lcom/commsource/widget/CustomRecyclerView;
 
     invoke-virtual {p1, v1}, Landroid/view/ViewGroup;->setVisibility(I)V
 
-    .line 16
     iget-object p1, p0, Lcom/commsource/mypage/g0;->c:Lcom/commsource/beautyplus/f0/i7;
 
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/i7;->L:Landroid/widget/ImageView;
 
     invoke-virtual {p1, v2}, Landroid/widget/ImageView;->setVisibility(I)V
 
-    .line 17
     iget-object p1, p0, Lcom/commsource/mypage/g0;->O:Lcom/commsource/mypage/g0$h;
 
     invoke-virtual {p1}, Lcom/commsource/mypage/g0$h;->d()V
 
-    .line 18
     iget-object p1, p0, Lcom/commsource/mypage/g0;->d:Lcom/commsource/mypage/album/BpAlbumViewModel;
 
     invoke-virtual {p1}, Lcom/commsource/mypage/album/BpAlbumViewModel;->G()Landroidx/lifecycle/MutableLiveData;
@@ -518,7 +471,6 @@
 
     invoke-virtual {p1, v1}, Landroidx/lifecycle/MutableLiveData;->setValue(Ljava/lang/Object;)V
 
-    .line 19
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -532,7 +484,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/mypage/g0;->c:Lcom/commsource/beautyplus/f0/i7;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/i7;->e0:Lcom/commsource/mypage/BigPhotoViewPager;
@@ -559,7 +510,6 @@
 
     if-le v1, v2, :cond_1
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/mypage/g0;->c:Lcom/commsource/beautyplus/f0/i7;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/i7;->e0:Lcom/commsource/mypage/BigPhotoViewPager;
@@ -576,7 +526,6 @@
 
     check-cast v1, Lcom/commsource/cloudalbum/bean/CAImageInfo;
 
-    .line 3
     iget-object v2, p0, Lcom/commsource/mypage/g0;->c:Lcom/commsource/beautyplus/f0/i7;
 
     iget-object v2, v2, Lcom/commsource/beautyplus/f0/i7;->Q:Landroid/widget/LinearLayout;
@@ -597,7 +546,6 @@
     :goto_0
     invoke-virtual {v2, v3}, Landroid/widget/LinearLayout;->setAlpha(F)V
 
-    .line 4
     iget-object v2, p0, Lcom/commsource/mypage/g0;->c:Lcom/commsource/beautyplus/f0/i7;
 
     iget-object v2, v2, Lcom/commsource/beautyplus/f0/i7;->Q:Landroid/widget/LinearLayout;
@@ -610,7 +558,6 @@
 
     invoke-virtual {v2, v3}, Landroid/widget/LinearLayout;->setEnabled(Z)V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
@@ -618,7 +565,6 @@
     :cond_1
     const/4 v1, 0x0
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
@@ -631,14 +577,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/mypage/g0;->I()Lcom/commsource/cloudalbum/bean/CAImageInfo;
 
     move-result-object v1
 
     if-eqz v1, :cond_0
 
-    .line 2
     new-instance v2, Lcom/commsource/util/p2/c;
 
     invoke-virtual {p0}, Lcom/commsource/beautyplus/i0/a;->q()Landroidx/fragment/app/FragmentActivity;
@@ -649,7 +593,6 @@
 
     new-instance v3, Lcom/commsource/mypage/g0$d;
 
-    .line 3
     invoke-virtual {v1}, Lcom/commsource/cloudalbum/bean/CAImageInfo;->j()Ljava/lang/String;
 
     move-result-object v1
@@ -658,13 +601,11 @@
 
     invoke-virtual {v2, v3}, Lcom/commsource/util/p2/c;->c(Lcom/commsource/util/p2/b;)V
 
-    .line 4
     :cond_0
     iget-object v1, p0, Lcom/commsource/mypage/g0;->d:Lcom/commsource/mypage/album/BpAlbumViewModel;
 
     invoke-virtual {v1}, Lcom/commsource/mypage/album/BpAlbumViewModel;->W()V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -685,28 +626,24 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/mypage/g0;->c:Lcom/commsource/beautyplus/f0/i7;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/i7;->e0:Lcom/commsource/mypage/BigPhotoViewPager;
 
     invoke-virtual {v1, p1}, Lcom/commsource/mypage/BigPhotoViewPager;->setData(Ljava/util/List;)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/mypage/g0;->f:Lcom/commsource/mypage/i0;
 
     invoke-virtual {v1, p1}, Lcom/commsource/mypage/i0;->q(Ljava/util/List;)V
 
     if-eqz p1, :cond_3
 
-    .line 3
     invoke-interface {p1}, Ljava/util/List;->isEmpty()Z
 
     move-result v1
 
     if-nez v1, :cond_3
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/mypage/g0;->J:Lcom/commsource/cloudalbum/bean/CAImageInfo;
 
     invoke-interface {p1, v1}, Ljava/util/List;->indexOf(Ljava/lang/Object;)I
@@ -719,12 +656,10 @@
 
     if-le v1, v2, :cond_0
 
-    .line 5
     iget v2, p0, Lcom/commsource/mypage/g0;->p:I
 
     if-eq v1, v2, :cond_0
 
-    .line 6
     invoke-direct {p0, v1, v3}, Lcom/commsource/mypage/g0;->K0(IZ)V
 
     goto :goto_1
@@ -734,10 +669,8 @@
 
     const/4 v1, 0x0
 
-    .line 7
     iput-object v1, p0, Lcom/commsource/mypage/g0;->J:Lcom/commsource/cloudalbum/bean/CAImageInfo;
 
-    .line 8
     iget v1, p0, Lcom/commsource/mypage/g0;->p:I
 
     invoke-interface {p1}, Ljava/util/List;->size()I
@@ -760,10 +693,8 @@
     :goto_0
     const/4 v2, 0x0
 
-    .line 9
     invoke-direct {p0, v1, v2}, Lcom/commsource/mypage/g0;->K0(IZ)V
 
-    .line 10
     iget-object v1, p0, Lcom/commsource/mypage/g0;->c:Lcom/commsource/beautyplus/f0/i7;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/i7;->Y:Lcom/commsource/widget/CustomRecyclerView;
@@ -779,7 +710,6 @@
     :cond_2
     invoke-virtual {v1, v2}, Landroid/view/ViewGroup;->setVisibility(I)V
 
-    .line 11
     :cond_3
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -794,7 +724,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/mypage/g0;->c:Lcom/commsource/beautyplus/f0/i7;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/i7;->e0:Lcom/commsource/mypage/BigPhotoViewPager;
@@ -805,7 +734,6 @@
 
     if-eqz v1, :cond_0
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/mypage/g0;->c:Lcom/commsource/beautyplus/f0/i7;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/i7;->e0:Lcom/commsource/mypage/BigPhotoViewPager;
@@ -825,7 +753,6 @@
     :cond_0
     const/4 p1, -0x1
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
@@ -840,7 +767,6 @@
 
     if-ltz p1, :cond_4
 
-    .line 1
     iget v1, p0, Lcom/commsource/mypage/g0;->p:I
 
     if-ne p1, v1, :cond_0
@@ -851,7 +777,6 @@
 
     goto/16 :goto_1
 
-    .line 2
     :cond_0
     new-instance v1, Ljava/lang/StringBuilder;
 
@@ -879,17 +804,14 @@
 
     invoke-static {v2, v1}, Lcom/meitu/library/util/Debug/Debug;->P(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 3
     iput p1, p0, Lcom/commsource/mypage/g0;->p:I
 
-    .line 4
     invoke-direct {p0}, Lcom/commsource/mypage/g0;->I()Lcom/commsource/cloudalbum/bean/CAImageInfo;
 
     move-result-object v1
 
     iput-object v1, p0, Lcom/commsource/mypage/g0;->J:Lcom/commsource/cloudalbum/bean/CAImageInfo;
 
-    .line 5
     iget-object v1, p0, Lcom/commsource/mypage/g0;->c:Lcom/commsource/beautyplus/f0/i7;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/i7;->e0:Lcom/commsource/mypage/BigPhotoViewPager;
@@ -902,14 +824,12 @@
 
     if-eq v1, p1, :cond_1
 
-    .line 6
     iget-object v1, p0, Lcom/commsource/mypage/g0;->c:Lcom/commsource/beautyplus/f0/i7;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/i7;->e0:Lcom/commsource/mypage/BigPhotoViewPager;
 
     invoke-virtual {v1, p1, v2}, Landroidx/viewpager/widget/ViewPager;->setCurrentItem(IZ)V
 
-    .line 7
     :cond_1
     iget-object v1, p0, Lcom/commsource/mypage/g0;->c:Lcom/commsource/beautyplus/f0/i7;
 
@@ -923,7 +843,6 @@
 
     if-eqz p2, :cond_2
 
-    .line 8
     iget-object p2, p0, Lcom/commsource/mypage/g0;->c:Lcom/commsource/beautyplus/f0/i7;
 
     iget-object p2, p2, Lcom/commsource/beautyplus/f0/i7;->Y:Lcom/commsource/widget/CustomRecyclerView;
@@ -932,7 +851,6 @@
 
     goto :goto_0
 
-    .line 9
     :cond_2
     iget-object p2, p0, Lcom/commsource/mypage/g0;->c:Lcom/commsource/beautyplus/f0/i7;
 
@@ -944,7 +862,6 @@
 
     invoke-virtual {p2, v1}, Landroid/view/ViewGroup;->post(Ljava/lang/Runnable;)Z
 
-    .line 10
     :cond_3
     :goto_0
     iget-object p1, p0, Lcom/commsource/mypage/g0;->f:Lcom/commsource/mypage/i0;
@@ -953,7 +870,6 @@
 
     invoke-virtual {p1, p2}, Lcom/commsource/mypage/i0;->p(Lcom/commsource/cloudalbum/bean/CAImageInfo;)V
 
-    .line 11
     iget-object p1, p0, Lcom/commsource/mypage/g0;->d:Lcom/commsource/mypage/album/BpAlbumViewModel;
 
     invoke-virtual {p1}, Lcom/commsource/mypage/album/BpAlbumViewModel;->K()Landroidx/lifecycle/MutableLiveData;
@@ -968,7 +884,6 @@
 
     invoke-virtual {p1, p2}, Landroidx/lifecycle/MutableLiveData;->setValue(Ljava/lang/Object;)V
 
-    .line 12
     iget-object p1, p0, Lcom/commsource/mypage/g0;->d:Lcom/commsource/mypage/album/BpAlbumViewModel;
 
     invoke-virtual {p1}, Lcom/commsource/mypage/album/BpAlbumViewModel;->I()Landroidx/lifecycle/MutableLiveData;
@@ -983,12 +898,10 @@
 
     invoke-virtual {p1, p2}, Landroidx/lifecycle/MutableLiveData;->setValue(Ljava/lang/Object;)V
 
-    .line 13
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 14
     :cond_4
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1003,7 +916,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v8, Lcom/commsource/mypage/g0$f;
 
     const-string v3, "MONTAGE-CROP-BG"
@@ -1024,7 +936,6 @@
 
     invoke-static {v8}, Lcom/commsource/util/c2;->e(Lcom/commsource/util/u2/a;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1037,7 +948,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/mypage/g0;->c:Lcom/commsource/beautyplus/f0/i7;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/i7;->e0:Lcom/commsource/mypage/BigPhotoViewPager;
@@ -1048,7 +958,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/mypage/BigPhotoViewPager;->setMatrixChangeListener(Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView$g;)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/mypage/g0;->c:Lcom/commsource/beautyplus/f0/i7;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/i7;->e0:Lcom/commsource/mypage/BigPhotoViewPager;
@@ -1059,7 +968,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/mypage/BigPhotoViewPager;->setSingleClickListener(Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView$i;)V
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/mypage/g0;->c:Lcom/commsource/beautyplus/f0/i7;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/i7;->e0:Lcom/commsource/mypage/BigPhotoViewPager;
@@ -1070,7 +978,6 @@
 
     invoke-virtual {v1, v2}, Landroidx/viewpager/widget/ViewPager;->addOnPageChangeListener(Landroidx/viewpager/widget/ViewPager$OnPageChangeListener;)V
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/mypage/g0;->c:Lcom/commsource/beautyplus/f0/i7;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/i7;->e0:Lcom/commsource/mypage/BigPhotoViewPager;
@@ -1079,7 +986,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/mypage/BigPhotoViewPager;->setImageShowListener(Lcom/commsource/mypage/BigPhotoViewPager$b;)V
 
-    .line 5
     new-instance v1, Lcom/commsource/mypage/i0;
 
     iget-object v2, p0, Lcom/commsource/beautyplus/i0/a;->b:Landroid/app/Activity;
@@ -1088,7 +994,6 @@
 
     iput-object v1, p0, Lcom/commsource/mypage/g0;->f:Lcom/commsource/mypage/i0;
 
-    .line 6
     new-instance v1, Lcom/commsource/widget/SmoothLayoutManager;
 
     iget-object v2, p0, Lcom/commsource/beautyplus/i0/a;->b:Landroid/app/Activity;
@@ -1099,7 +1004,6 @@
 
     iput-object v1, p0, Lcom/commsource/mypage/g0;->g:Lcom/commsource/widget/SmoothLayoutManager;
 
-    .line 7
     iget-object v1, p0, Lcom/commsource/mypage/g0;->c:Lcom/commsource/beautyplus/f0/i7;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/i7;->Y:Lcom/commsource/widget/CustomRecyclerView;
@@ -1108,7 +1012,6 @@
 
     invoke-virtual {v1, v2}, Landroidx/recyclerview/widget/RecyclerView;->setAdapter(Landroidx/recyclerview/widget/RecyclerView$Adapter;)V
 
-    .line 8
     iget-object v1, p0, Lcom/commsource/mypage/g0;->c:Lcom/commsource/beautyplus/f0/i7;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/i7;->Y:Lcom/commsource/widget/CustomRecyclerView;
@@ -1117,7 +1020,6 @@
 
     invoke-virtual {v1, v2}, Landroidx/recyclerview/widget/RecyclerView;->setLayoutManager(Landroidx/recyclerview/widget/RecyclerView$LayoutManager;)V
 
-    .line 9
     iget-object v1, p0, Lcom/commsource/mypage/g0;->c:Lcom/commsource/beautyplus/f0/i7;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/i7;->Y:Lcom/commsource/widget/CustomRecyclerView;
@@ -1128,7 +1030,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/widget/CustomRecyclerView;->setOnPagerChangedListener(Lcom/commsource/widget/CustomRecyclerView$a;)V
 
-    .line 10
     iget-object v1, p0, Lcom/commsource/mypage/g0;->d:Lcom/commsource/mypage/album/BpAlbumViewModel;
 
     iget-object v1, v1, Lcom/commsource/mypage/album/BpAlbumViewModel;->i:Lcom/commsource/mypage/album/AlbumSetting;
@@ -1139,12 +1040,10 @@
 
     if-eqz v1, :cond_0
 
-    .line 11
     invoke-direct {p0}, Lcom/commsource/mypage/g0;->R0()V
 
     goto :goto_0
 
-    .line 12
     :cond_0
     iget v1, p0, Lcom/commsource/mypage/g0;->R:I
 
@@ -1152,10 +1051,8 @@
 
     if-ne v1, v2, :cond_1
 
-    .line 13
     invoke-direct {p0}, Lcom/commsource/mypage/g0;->Q0()V
 
-    .line 14
     :cond_1
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1170,7 +1067,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/mypage/g0;->c:Lcom/commsource/beautyplus/f0/i7;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/i7;->T:Landroid/widget/LinearLayout;
@@ -1181,7 +1077,6 @@
 
     invoke-virtual {v1, v2}, Landroid/widget/LinearLayout;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/mypage/g0;->c:Lcom/commsource/beautyplus/f0/i7;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/i7;->M:Landroid/widget/ImageButton;
@@ -1192,7 +1087,6 @@
 
     invoke-virtual {v1, v2}, Landroid/widget/ImageButton;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/mypage/g0;->c:Lcom/commsource/beautyplus/f0/i7;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/i7;->Q:Landroid/widget/LinearLayout;
@@ -1203,7 +1097,6 @@
 
     invoke-virtual {v1, v2}, Landroid/widget/LinearLayout;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 4
     invoke-static {}, Lcom/commsource/beautyplus/util/v;->U()Z
 
     move-result v1
@@ -1212,7 +1105,6 @@
 
     if-eqz v1, :cond_0
 
-    .line 5
     iget-object v1, p0, Lcom/commsource/mypage/g0;->c:Lcom/commsource/beautyplus/f0/i7;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/i7;->P:Landroid/widget/LinearLayout;
@@ -1221,7 +1113,6 @@
 
     goto :goto_0
 
-    .line 6
     :cond_0
     iget-object v1, p0, Lcom/commsource/mypage/g0;->c:Lcom/commsource/beautyplus/f0/i7;
 
@@ -1233,7 +1124,6 @@
 
     invoke-virtual {v1, v3}, Landroid/widget/LinearLayout;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 7
     :goto_0
     invoke-static {}, Lcom/commsource/util/x;->C()Z
 
@@ -1253,14 +1143,12 @@
 
     if-eqz v1, :cond_1
 
-    .line 8
     iget-object v1, p0, Lcom/commsource/mypage/g0;->c:Lcom/commsource/beautyplus/f0/i7;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/i7;->S:Landroid/widget/LinearLayout;
 
     invoke-virtual {v1, v3}, Landroid/widget/LinearLayout;->setVisibility(I)V
 
-    .line 9
     iget-object v1, p0, Lcom/commsource/mypage/g0;->c:Lcom/commsource/beautyplus/f0/i7;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/i7;->S:Landroid/widget/LinearLayout;
@@ -1271,14 +1159,12 @@
 
     invoke-virtual {v1, v4}, Landroid/widget/LinearLayout;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 10
     iget-object v1, p0, Lcom/commsource/mypage/g0;->c:Lcom/commsource/beautyplus/f0/i7;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/i7;->R:Landroid/widget/LinearLayout;
 
     invoke-virtual {v1, v3}, Landroid/widget/LinearLayout;->setVisibility(I)V
 
-    .line 11
     iget-object v1, p0, Lcom/commsource/mypage/g0;->c:Lcom/commsource/beautyplus/f0/i7;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/i7;->R:Landroid/widget/LinearLayout;
@@ -1291,7 +1177,6 @@
 
     goto :goto_1
 
-    .line 12
     :cond_1
     iget-object v1, p0, Lcom/commsource/mypage/g0;->c:Lcom/commsource/beautyplus/f0/i7;
 
@@ -1299,14 +1184,12 @@
 
     invoke-virtual {v1, v2}, Landroid/widget/LinearLayout;->setVisibility(I)V
 
-    .line 13
     iget-object v1, p0, Lcom/commsource/mypage/g0;->c:Lcom/commsource/beautyplus/f0/i7;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/i7;->R:Landroid/widget/LinearLayout;
 
     invoke-virtual {v1, v2}, Landroid/widget/LinearLayout;->setVisibility(I)V
 
-    .line 14
     :goto_1
     iget-object v1, p0, Lcom/commsource/mypage/g0;->c:Lcom/commsource/beautyplus/f0/i7;
 
@@ -1314,7 +1197,6 @@
 
     invoke-virtual {v1, v2}, Landroid/widget/TextView;->setVisibility(I)V
 
-    .line 15
     iget-object v1, p0, Lcom/commsource/mypage/g0;->c:Lcom/commsource/beautyplus/f0/i7;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/i7;->O:Landroid/widget/LinearLayout;
@@ -1323,10 +1205,8 @@
 
     invoke-direct {v4, p0}, Lcom/commsource/mypage/m;-><init>(Lcom/commsource/mypage/g0;)V
 
-    .line 16
     invoke-virtual {v1, v4}, Landroid/widget/LinearLayout;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 17
     iget-object v1, p0, Lcom/commsource/mypage/g0;->d:Lcom/commsource/mypage/album/BpAlbumViewModel;
 
     iget-object v1, v1, Lcom/commsource/mypage/album/BpAlbumViewModel;->i:Lcom/commsource/mypage/album/AlbumSetting;
@@ -1337,21 +1217,18 @@
 
     if-eqz v1, :cond_2
 
-    .line 18
     iget-object v1, p0, Lcom/commsource/mypage/g0;->c:Lcom/commsource/beautyplus/f0/i7;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/i7;->U:Landroid/widget/LinearLayout;
 
     invoke-virtual {v1, v2}, Landroid/widget/LinearLayout;->setVisibility(I)V
 
-    .line 19
     iget-object v1, p0, Lcom/commsource/mypage/g0;->c:Lcom/commsource/beautyplus/f0/i7;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/i7;->c0:Landroid/widget/TextView;
 
     invoke-virtual {v1, v3}, Landroid/widget/TextView;->setVisibility(I)V
 
-    .line 20
     iget-object v1, p0, Lcom/commsource/mypage/g0;->c:Lcom/commsource/beautyplus/f0/i7;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/i7;->c0:Landroid/widget/TextView;
@@ -1360,12 +1237,10 @@
 
     invoke-direct {v2, p0}, Lcom/commsource/mypage/j;-><init>(Lcom/commsource/mypage/g0;)V
 
-    .line 21
     invoke-virtual {v1, v2}, Landroid/widget/TextView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
     goto :goto_2
 
-    .line 22
     :cond_2
     iget-object v1, p0, Lcom/commsource/mypage/g0;->d:Lcom/commsource/mypage/album/BpAlbumViewModel;
 
@@ -1377,21 +1252,18 @@
 
     if-eqz v1, :cond_3
 
-    .line 23
     iget-object v1, p0, Lcom/commsource/mypage/g0;->c:Lcom/commsource/beautyplus/f0/i7;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/i7;->Q:Landroid/widget/LinearLayout;
 
     invoke-virtual {v1, v2}, Landroid/widget/LinearLayout;->setVisibility(I)V
 
-    .line 24
     iget-object v1, p0, Lcom/commsource/mypage/g0;->c:Lcom/commsource/beautyplus/f0/i7;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/i7;->T:Landroid/widget/LinearLayout;
 
     invoke-virtual {v1, v2}, Landroid/widget/LinearLayout;->setVisibility(I)V
 
-    .line 25
     :cond_3
     :goto_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1406,7 +1278,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/mypage/g0;->d:Lcom/commsource/mypage/album/BpAlbumViewModel;
 
     invoke-virtual {v1}, Lcom/commsource/mypage/album/BpAlbumViewModel;->F()Landroidx/lifecycle/MutableLiveData;
@@ -1423,7 +1294,6 @@
 
     invoke-virtual {v1, v2, v3}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 2
     invoke-static {}, Lcom/commsource/mypage/j0;->g()Lcom/commsource/mypage/j0;
 
     move-result-object v1
@@ -1442,7 +1312,6 @@
 
     invoke-virtual {v1, v2, v3}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1455,29 +1324,24 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/util/ArrayList;
 
     invoke-direct {v1}, Ljava/util/ArrayList;-><init>()V
 
-    .line 2
     invoke-direct {p0}, Lcom/commsource/mypage/g0;->I()Lcom/commsource/cloudalbum/bean/CAImageInfo;
 
     move-result-object v2
 
     if-eqz v2, :cond_0
 
-    .line 3
     invoke-interface {v1, v2}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
-    .line 4
     iget-object v2, p0, Lcom/commsource/mypage/g0;->d:Lcom/commsource/mypage/album/BpAlbumViewModel;
 
     invoke-virtual {v2}, Lcom/commsource/mypage/album/BpAlbumViewModel;->T()V
 
     sget v2, Lcom/res/provider/ResSTRING;->delete_photo:I
 
-    .line 5
     invoke-virtual {p0, v2}, Landroidx/fragment/app/Fragment;->getString(I)Ljava/lang/String;
 
     move-result-object v2
@@ -1494,15 +1358,12 @@
 
     sget v1, Lcom/res/provider/ResSTRING;->cancel:I
 
-    .line 6
     invoke-virtual {p0, v1}, Landroidx/fragment/app/Fragment;->getString(I)Ljava/lang/String;
 
     move-result-object v1
 
-    .line 7
     invoke-static {v2, v3, v4, v1}, Lcom/commsource/widget/dialog/s0/t;->j0(Ljava/lang/String;Ljava/lang/String;Lcom/commsource/widget/dialog/s0/y;Ljava/lang/String;)V
 
-    .line 8
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1518,7 +1379,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     invoke-virtual {p1}, Lcom/commsource/cloudalbum/bean/CAImageInfo;->j()Ljava/lang/String;
 
     move-result-object v1
@@ -1529,7 +1389,6 @@
 
     if-nez v1, :cond_0
 
-    .line 2
     invoke-virtual {p1}, Lcom/commsource/cloudalbum/bean/CAImageInfo;->j()Ljava/lang/String;
 
     move-result-object p1
@@ -1549,7 +1408,6 @@
     :cond_0
     const/4 p1, 0x0
 
-    .line 3
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1563,7 +1421,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/mypage/g0;->c:Lcom/commsource/beautyplus/f0/i7;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/i7;->d:Lcom/commsource/beautymain/widget/EditCropView;
@@ -1574,7 +1431,6 @@
 
     invoke-virtual {v1, v2}, Landroid/view/ViewGroup;->post(Ljava/lang/Runnable;)Z
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/mypage/g0;->c:Lcom/commsource/beautyplus/f0/i7;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/i7;->a:Landroid/widget/TextView;
@@ -1585,7 +1441,6 @@
 
     invoke-virtual {v1, v2}, Landroid/widget/TextView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1598,7 +1453,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/mypage/g0;->c:Lcom/commsource/beautyplus/f0/i7;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/i7;->b:Landroid/widget/TextView;
@@ -1607,7 +1461,6 @@
 
     invoke-virtual {v1, v2}, Landroid/widget/TextView;->setVisibility(I)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/mypage/g0;->c:Lcom/commsource/beautyplus/f0/i7;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/i7;->b:Landroid/widget/TextView;
@@ -1616,7 +1469,6 @@
 
     invoke-virtual {v1, v2}, Landroid/widget/TextView;->setAlpha(F)V
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/mypage/g0;->c:Lcom/commsource/beautyplus/f0/i7;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/i7;->c:Landroidx/constraintlayout/widget/ConstraintLayout;
@@ -1625,7 +1477,6 @@
 
     invoke-virtual {v1, v2}, Landroid/view/ViewGroup;->setVisibility(I)V
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/mypage/g0;->c:Lcom/commsource/beautyplus/f0/i7;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/i7;->b:Landroid/widget/TextView;
@@ -1636,7 +1487,6 @@
 
     invoke-virtual {v1, v2}, Landroid/widget/TextView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1649,12 +1499,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/mypage/g0;->K:Landroid/view/animation/Animation;
 
     if-nez v1, :cond_0
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/beautyplus/i0/a;->b:Landroid/app/Activity;
 
     sget v2, Lcom/res/provider/ResANIM;->beauty_one_key_start_anim:I
@@ -1665,13 +1513,11 @@
 
     iput-object v1, p0, Lcom/commsource/mypage/g0;->K:Landroid/view/animation/Animation;
 
-    .line 3
     :cond_0
     iget-object v1, p0, Lcom/commsource/mypage/g0;->L:Landroid/view/animation/Animation;
 
     if-nez v1, :cond_1
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/beautyplus/i0/a;->b:Landroid/app/Activity;
 
     sget v2, Lcom/res/provider/ResANIM;->beauty_one_key_start2_anim:I
@@ -1682,13 +1528,11 @@
 
     iput-object v1, p0, Lcom/commsource/mypage/g0;->L:Landroid/view/animation/Animation;
 
-    .line 5
     :cond_1
     iget-object v1, p0, Lcom/commsource/mypage/g0;->M:Landroid/view/animation/Animation;
 
     if-nez v1, :cond_2
 
-    .line 6
     iget-object v1, p0, Lcom/commsource/beautyplus/i0/a;->b:Landroid/app/Activity;
 
     sget v2, Lcom/res/provider/ResANIM;->beauty_one_key_start3_anim:I
@@ -1699,7 +1543,6 @@
 
     iput-object v1, p0, Lcom/commsource/mypage/g0;->M:Landroid/view/animation/Animation;
 
-    .line 7
     :cond_2
     iget-object v1, p0, Lcom/commsource/mypage/g0;->c:Lcom/commsource/beautyplus/f0/i7;
 
@@ -1707,7 +1550,6 @@
 
     invoke-virtual {v1}, Landroid/widget/ImageView;->clearAnimation()V
 
-    .line 8
     iget-object v1, p0, Lcom/commsource/mypage/g0;->c:Lcom/commsource/beautyplus/f0/i7;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/i7;->g:Landroid/widget/ImageView;
@@ -1716,14 +1558,12 @@
 
     invoke-virtual {v1, v2}, Landroid/widget/ImageView;->startAnimation(Landroid/view/animation/Animation;)V
 
-    .line 9
     iget-object v1, p0, Lcom/commsource/mypage/g0;->c:Lcom/commsource/beautyplus/f0/i7;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/i7;->p:Landroid/widget/ImageView;
 
     invoke-virtual {v1}, Landroid/widget/ImageView;->clearAnimation()V
 
-    .line 10
     iget-object v1, p0, Lcom/commsource/mypage/g0;->c:Lcom/commsource/beautyplus/f0/i7;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/i7;->p:Landroid/widget/ImageView;
@@ -1732,14 +1572,12 @@
 
     invoke-virtual {v1, v2}, Landroid/widget/ImageView;->startAnimation(Landroid/view/animation/Animation;)V
 
-    .line 11
     iget-object v1, p0, Lcom/commsource/mypage/g0;->c:Lcom/commsource/beautyplus/f0/i7;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/i7;->J:Landroid/widget/ImageView;
 
     invoke-virtual {v1}, Landroid/widget/ImageView;->clearAnimation()V
 
-    .line 12
     iget-object v1, p0, Lcom/commsource/mypage/g0;->c:Lcom/commsource/beautyplus/f0/i7;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/i7;->J:Landroid/widget/ImageView;
@@ -1748,7 +1586,6 @@
 
     invoke-virtual {v1, v2}, Landroid/widget/ImageView;->startAnimation(Landroid/view/animation/Animation;)V
 
-    .line 13
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1761,7 +1598,6 @@
 
     invoke-static {p0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1774,28 +1610,24 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/mypage/g0;->c:Lcom/commsource/beautyplus/f0/i7;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/i7;->g:Landroid/widget/ImageView;
 
     invoke-virtual {v1}, Landroid/widget/ImageView;->clearAnimation()V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/mypage/g0;->c:Lcom/commsource/beautyplus/f0/i7;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/i7;->p:Landroid/widget/ImageView;
 
     invoke-virtual {v1}, Landroid/widget/ImageView;->clearAnimation()V
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/mypage/g0;->c:Lcom/commsource/beautyplus/f0/i7;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/i7;->J:Landroid/widget/ImageView;
 
     invoke-virtual {v1}, Landroid/widget/ImageView;->clearAnimation()V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1808,14 +1640,12 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v0, Lcom/commsource/beautyplus/router/RouterEntity;
 
     const-string v1, "beautyplus://p_edit/f_hd_retouch"
 
     invoke-direct {v0, v1}, Lcom/commsource/beautyplus/router/RouterEntity;-><init>(Ljava/lang/String;)V
 
-    .line 2
     sget-object v1, Lcom/commsource/studio/ImageStudioActivity;->b0:Lcom/commsource/studio/ImageStudioActivity$a;
 
     iget-object v2, p0, Lcom/commsource/beautyplus/i0/a;->b:Landroid/app/Activity;
@@ -1830,7 +1660,6 @@
 
     invoke-virtual {v1, v2, v3, v0, v4}, Lcom/commsource/studio/ImageStudioActivity$a;->b(Landroid/app/Activity;Ljava/lang/String;Lcom/commsource/beautyplus/router/RouterEntity;I)V
 
-    .line 3
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1843,7 +1672,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/mypage/g0;->d:Lcom/commsource/mypage/album/BpAlbumViewModel;
 
     iget-object v1, p0, Lcom/commsource/beautyplus/i0/a;->b:Landroid/app/Activity;
@@ -1866,7 +1694,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/mypage/g0;->I0()V
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1881,12 +1708,10 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/beautyplus/i0/a;->b:Landroid/app/Activity;
 
     invoke-virtual {v0}, Landroid/app/Activity;->onBackPressed()V
 
-    .line 2
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1899,17 +1724,14 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/mypage/g0;->J:Lcom/commsource/cloudalbum/bean/CAImageInfo;
 
     if-nez v0, :cond_0
 
-    .line 2
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 3
     :cond_0
     iget-object v1, p0, Lcom/commsource/mypage/g0;->d:Lcom/commsource/mypage/album/BpAlbumViewModel;
 
@@ -1919,7 +1741,6 @@
 
     invoke-virtual {v1, v2, v0, v3}, Lcom/commsource/mypage/album/BpAlbumViewModel;->Y(Landroid/app/Activity;Lcom/commsource/cloudalbum/bean/CAImageInfo;Z)V
 
-    .line 4
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1932,10 +1753,8 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/mypage/g0;->P0()V
 
-    .line 2
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1948,17 +1767,14 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/mypage/g0;->J:Lcom/commsource/cloudalbum/bean/CAImageInfo;
 
     if-nez v0, :cond_0
 
-    .line 2
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 3
     :cond_0
     iget-object v1, p0, Lcom/commsource/beautyplus/i0/a;->b:Landroid/app/Activity;
 
@@ -1972,7 +1788,6 @@
 
     invoke-static {v1, v0, v2}, Lcom/commsource/mypage/album/y;->a(Landroid/app/Activity;Ljava/lang/String;Lcom/commsource/mypage/album/y$f;)V
 
-    .line 4
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1985,7 +1800,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/mypage/g0;->c:Lcom/commsource/beautyplus/f0/i7;
 
     iget-object v0, v0, Lcom/commsource/beautyplus/f0/i7;->R:Landroid/widget/LinearLayout;
@@ -1994,7 +1808,6 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/LinearLayout;->setVisibility(I)V
 
-    .line 2
     new-instance v0, Lcom/commsource/mypage/g0$c;
 
     const-string v1, "SimpleBeautyBatch"
@@ -2003,7 +1816,6 @@
 
     invoke-static {v0}, Lcom/commsource/util/c2;->e(Lcom/commsource/util/u2/a;)V
 
-    .line 3
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2018,7 +1830,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     invoke-virtual {p1}, Lcotlin/Pair;->getSecond()Ljava/lang/Object;
 
     move-result-object p1
@@ -2027,7 +1838,6 @@
 
     invoke-direct {p0, p1}, Lcom/commsource/mypage/g0;->J0(Ljava/util/List;)V
 
-    .line 2
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -2043,7 +1853,6 @@
 
     if-eqz p1, :cond_2
 
-    .line 1
     invoke-virtual {p1}, Lcom/commsource/mypage/j0$b;->c()Ljava/lang/String;
 
     move-result-object v1
@@ -2058,7 +1867,6 @@
 
     goto :goto_1
 
-    .line 2
     :cond_0
     iget-object v1, p1, Lcom/commsource/mypage/j0$b;->b:Lcom/commsource/cloudalbum/bean/CAImageInfo;
 
@@ -2066,7 +1874,6 @@
 
     if-eqz v1, :cond_1
 
-    .line 3
     invoke-direct {p0, v1}, Lcom/commsource/mypage/g0;->K(Lcom/commsource/cloudalbum/bean/CAImageInfo;)I
 
     move-result p1
@@ -2077,16 +1884,13 @@
 
     goto :goto_0
 
-    .line 4
     :cond_1
     iput-object v2, p0, Lcom/commsource/mypage/g0;->J:Lcom/commsource/cloudalbum/bean/CAImageInfo;
 
-    .line 5
     iget p1, p1, Lcom/commsource/mypage/j0$b;->a:I
 
     iput p1, p0, Lcom/commsource/mypage/g0;->p:I
 
-    .line 6
     :goto_0
     invoke-static {}, Lcom/commsource/mypage/j0;->g()Lcom/commsource/mypage/j0;
 
@@ -2094,12 +1898,10 @@
 
     invoke-virtual {p1, v2, v2}, Lcom/commsource/mypage/j0;->l(Lcom/commsource/cloudalbum/bean/CAImageInfo;Ljava/lang/String;)V
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 8
     :cond_2
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2116,7 +1918,6 @@
 
     if-nez p1, :cond_4
 
-    .line 1
     iget-object p1, p0, Lcom/commsource/mypage/g0;->J:Lcom/commsource/cloudalbum/bean/CAImageInfo;
 
     invoke-virtual {p1}, Lcom/commsource/cloudalbum/bean/CAImageInfo;->q()I
@@ -2133,7 +1934,6 @@
 
     if-gtz p1, :cond_1
 
-    .line 2
     :cond_0
     iget-object p1, p0, Lcom/commsource/mypage/g0;->J:Lcom/commsource/cloudalbum/bean/CAImageInfo;
 
@@ -2145,7 +1945,6 @@
 
     move-result-object p1
 
-    .line 3
     iget-object v0, p0, Lcom/commsource/mypage/g0;->J:Lcom/commsource/cloudalbum/bean/CAImageInfo;
 
     const/4 v1, 0x0
@@ -2154,7 +1953,6 @@
 
     invoke-virtual {v0, v1}, Lcom/commsource/cloudalbum/bean/CAImageInfo;->N(I)V
 
-    .line 4
     iget-object v0, p0, Lcom/commsource/mypage/g0;->J:Lcom/commsource/cloudalbum/bean/CAImageInfo;
 
     const/4 v1, 0x1
@@ -2163,7 +1961,6 @@
 
     invoke-virtual {v0, p1}, Lcom/commsource/cloudalbum/bean/CAImageInfo;->A(I)V
 
-    .line 5
     :cond_1
     iget-object p1, p0, Lcom/commsource/mypage/g0;->J:Lcom/commsource/cloudalbum/bean/CAImageInfo;
 
@@ -2185,7 +1982,6 @@
 
     goto :goto_0
 
-    .line 6
     :cond_2
     invoke-direct {p0}, Lcom/commsource/mypage/g0;->Q0()V
 
@@ -2195,15 +1991,12 @@
     :goto_0
     sget p1, Lcom/res/provider/ResSTRING;->pic_to_small:I
 
-    .line 7
     invoke-static {p1}, Lf/k/c/c/f;->w(I)V
 
-    .line 8
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 9
     :cond_4
     :goto_1
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2220,7 +2013,6 @@
 
     if-nez p1, :cond_0
 
-    .line 1
     invoke-virtual {p0}, Landroidx/fragment/app/Fragment;->getActivity()Landroidx/fragment/app/FragmentActivity;
 
     move-result-object p1
@@ -2239,7 +2031,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 2
     invoke-virtual {p1}, Lcom/commsource/camera/beauty/k;->y()Landroidx/lifecycle/MutableLiveData;
 
     move-result-object p1
@@ -2248,7 +2039,6 @@
 
     invoke-virtual {p1, v0}, Landroidx/lifecycle/MutableLiveData;->postValue(Ljava/lang/Object;)V
 
-    .line 3
     :cond_0
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -2262,7 +2052,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/mypage/g0;->S0()V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2277,7 +2066,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/mypage/g0;->c:Lcom/commsource/beautyplus/f0/i7;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2292,7 +2080,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/mypage/g0;->c:Lcom/commsource/beautyplus/f0/i7;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/i7;->Y:Lcom/commsource/widget/CustomRecyclerView;
@@ -2311,7 +2098,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/beautyplus/i0/a;->b:Landroid/app/Activity;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2326,7 +2112,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/beautyplus/i0/a;->q()Landroidx/fragment/app/FragmentActivity;
 
     move-result-object v1
@@ -2335,15 +2120,12 @@
 
     invoke-virtual {v1}, Lcom/commsource/beautyplus/BaseActivity;->J0()V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/mypage/g0;->d:Lcom/commsource/mypage/album/BpAlbumViewModel;
 
     invoke-virtual {v1, p1}, Lcom/commsource/mypage/album/BpAlbumViewModel;->B(Ljava/util/List;)V
 
-    .line 3
     invoke-virtual {p2}, Lcom/commsource/widget/dialog/i0;->dismiss()V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2356,7 +2138,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/mypage/g0;->Q:Landroid/graphics/Bitmap;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2397,7 +2178,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/mypage/g0;->d:Lcom/commsource/mypage/album/BpAlbumViewModel;
 
     iget-object v1, v1, Lcom/commsource/mypage/album/BpAlbumViewModel;->i:Lcom/commsource/mypage/album/AlbumSetting;
@@ -2410,10 +2190,8 @@
 
     const-string v1, "album_photo_view_back"
 
-    .line 2
     invoke-static {v1}, Lcom/commsource/statistics/i;->p(Ljava/lang/String;)V
 
-    .line 3
     :cond_0
     invoke-static {p0}, Lcom/commsource/util/common/g;->a(Landroidx/fragment/app/Fragment;)Z
 
@@ -2423,12 +2201,10 @@
 
     if-eqz v1, :cond_1
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v2
 
-    .line 5
     :cond_1
     iget-object v1, p0, Lcom/commsource/mypage/g0;->c:Lcom/commsource/beautyplus/f0/i7;
 
@@ -2440,10 +2216,8 @@
 
     if-eqz v1, :cond_2
 
-    .line 6
     invoke-direct {p0, v2}, Lcom/commsource/mypage/g0;->H(Z)V
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v2
@@ -2451,7 +2225,6 @@
     :cond_2
     const/4 v1, 0x0
 
-    .line 8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
@@ -2464,7 +2237,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/mypage/g0;->c:Lcom/commsource/beautyplus/f0/i7;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/i7;->e0:Lcom/commsource/mypage/BigPhotoViewPager;
@@ -2483,14 +2255,12 @@
 
     sget v2, Lcom/res/provider/ResID;->iv_photo:I
 
-    .line 2
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v1
 
     check-cast v1, Landroid/widget/ImageView;
 
-    .line 3
     invoke-virtual {v1}, Landroid/widget/ImageView;->getDrawable()Landroid/graphics/drawable/Drawable;
 
     move-result-object v1
@@ -2502,7 +2272,6 @@
     :cond_0
     const/4 v1, 0x0
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
@@ -2515,7 +2284,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/mypage/g0;->p:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2530,7 +2298,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/mypage/g0;->c:Lcom/commsource/beautyplus/f0/i7;
 
     if-eqz v1, :cond_3
@@ -2539,14 +2306,12 @@
 
     if-nez p2, :cond_0
 
-    .line 2
     iget-object p2, v1, Lcom/commsource/beautyplus/f0/i7;->W:Lcom/meitu/ratiorelativelayout/RatioRelativeLayout;
 
     invoke-virtual {p2, p1}, Landroid/widget/RelativeLayout;->setAlpha(F)V
 
     goto :goto_0
 
-    .line 3
     :cond_0
     iget-object p2, v1, Lcom/commsource/beautyplus/f0/i7;->W:Lcom/meitu/ratiorelativelayout/RatioRelativeLayout;
 
@@ -2558,7 +2323,6 @@
 
     if-eqz p2, :cond_1
 
-    .line 4
     iget-object p2, p0, Lcom/commsource/mypage/g0;->c:Lcom/commsource/beautyplus/f0/i7;
 
     iget-object p2, p2, Lcom/commsource/beautyplus/f0/i7;->W:Lcom/meitu/ratiorelativelayout/RatioRelativeLayout;
@@ -2571,7 +2335,6 @@
 
     if-nez p1, :cond_2
 
-    .line 5
     iget-object p1, p0, Lcom/commsource/mypage/g0;->c:Lcom/commsource/beautyplus/f0/i7;
 
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/i7;->e0:Lcom/commsource/mypage/BigPhotoViewPager;
@@ -2582,7 +2345,6 @@
 
     goto :goto_1
 
-    .line 6
     :cond_2
     iget-object p1, p0, Lcom/commsource/mypage/g0;->c:Lcom/commsource/beautyplus/f0/i7;
 
@@ -2592,7 +2354,6 @@
 
     invoke-virtual {p1, p2}, Landroid/view/ViewGroup;->setVisibility(I)V
 
-    .line 7
     :cond_3
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2607,10 +2368,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/mypage/g0;->R:I
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2623,12 +2382,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/mypage/g0;->c:Lcom/commsource/beautyplus/f0/i7;
 
     if-nez v1, :cond_0
 
-    .line 2
     iput p1, p0, Lcom/commsource/mypage/g0;->p:I
 
     goto :goto_0
@@ -2636,10 +2393,8 @@
     :cond_0
     const/4 v1, 0x0
 
-    .line 3
     invoke-direct {p0, p1, v1}, Lcom/commsource/mypage/g0;->K0(IZ)V
 
-    .line 4
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -2729,10 +2484,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0, p1}, Landroidx/fragment/app/Fragment;->onCreate(Landroid/os/Bundle;)V
 
-    .line 2
     new-instance p1, Landroidx/lifecycle/ViewModelProvider;
 
     iget-object v1, p0, Lcom/commsource/beautyplus/i0/a;->b:Landroid/app/Activity;
@@ -2751,7 +2504,6 @@
 
     iput-object p1, p0, Lcom/commsource/mypage/g0;->d:Lcom/commsource/mypage/album/BpAlbumViewModel;
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2782,7 +2534,6 @@
 
     const/4 v1, 0x0
 
-    .line 1
     invoke-static {p1, v0, p2, v1}, Landroidx/databinding/DataBindingUtil;->inflate(Landroid/view/LayoutInflater;ILandroid/view/ViewGroup;Z)Landroidx/databinding/ViewDataBinding;
 
     move-result-object p1
@@ -2791,7 +2542,6 @@
 
     iput-object p1, p0, Lcom/commsource/mypage/g0;->c:Lcom/commsource/beautyplus/f0/i7;
 
-    .line 2
     invoke-virtual {p1}, Landroidx/databinding/ViewDataBinding;->getRoot()Landroid/view/View;
 
     move-result-object p1
@@ -2808,18 +2558,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0}, Landroidx/fragment/app/Fragment;->onDestroy()V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/mypage/g0;->O:Lcom/commsource/mypage/g0$h;
 
     if-eqz v1, :cond_0
 
-    .line 3
     invoke-virtual {v1}, Lcom/commsource/mypage/g0$h;->i()V
 
-    .line 4
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -2833,19 +2579,16 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0, p1}, Lcom/commsource/beautyplus/i0/a;->onHiddenChanged(Z)V
 
     const/4 v1, 0x2
 
     if-nez p1, :cond_2
 
-    .line 2
     iget p1, p0, Lcom/commsource/mypage/g0;->R:I
 
     if-ne p1, v1, :cond_0
 
-    .line 3
     invoke-direct {p0}, Lcom/commsource/mypage/g0;->R0()V
 
     goto :goto_0
@@ -2855,10 +2598,8 @@
 
     if-ne p1, v1, :cond_1
 
-    .line 4
     invoke-direct {p0}, Lcom/commsource/mypage/g0;->Q0()V
 
-    .line 5
     :cond_1
     :goto_0
     iget-object p1, p0, Lcom/commsource/mypage/g0;->d:Lcom/commsource/mypage/album/BpAlbumViewModel;
@@ -2875,27 +2616,23 @@
 
     invoke-virtual {p1, v1}, Landroidx/lifecycle/MutableLiveData;->setValue(Ljava/lang/Object;)V
 
-    .line 6
     iget-object p1, p0, Lcom/commsource/mypage/g0;->d:Lcom/commsource/mypage/album/BpAlbumViewModel;
 
     invoke-virtual {p1}, Lcom/commsource/mypage/album/BpAlbumViewModel;->S()V
 
     goto :goto_1
 
-    .line 7
     :cond_2
     iget p1, p0, Lcom/commsource/mypage/g0;->R:I
 
     if-eq p1, v1, :cond_3
 
-    .line 8
     iget-object p1, p0, Lcom/commsource/mypage/g0;->c:Lcom/commsource/beautyplus/f0/i7;
 
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/i7;->d:Lcom/commsource/beautymain/widget/EditCropView;
 
     invoke-virtual {p1}, Lcom/commsource/beautymain/widget/EditCropView;->a()V
 
-    .line 9
     :cond_3
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2910,20 +2647,16 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0}, Lcom/commsource/beautyplus/i0/a;->onPause()V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/mypage/g0;->N:Landroid/os/Handler;
 
     const/4 v2, 0x0
 
     invoke-virtual {v1, v2}, Landroid/os/Handler;->removeCallbacksAndMessages(Ljava/lang/Object;)V
 
-    .line 3
     invoke-direct {p0}, Lcom/commsource/mypage/g0;->T0()V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2936,23 +2669,19 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Landroidx/fragment/app/Fragment;->isHidden()Z
 
     move-result v1
 
     if-nez v1, :cond_0
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/mypage/g0;->d:Lcom/commsource/mypage/album/BpAlbumViewModel;
 
     invoke-virtual {v1}, Lcom/commsource/mypage/album/BpAlbumViewModel;->S()V
 
-    .line 3
     :cond_0
     invoke-super {p0}, Lcom/commsource/beautyplus/i0/a;->onResume()V
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/mypage/g0;->N:Landroid/os/Handler;
 
     new-instance v2, Lcom/commsource/mypage/l;
@@ -2963,7 +2692,6 @@
 
     invoke-virtual {v1, v2, v3, v4}, Landroid/os/Handler;->postDelayed(Ljava/lang/Runnable;J)Z
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2984,37 +2712,29 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0, p1, p2}, Landroidx/fragment/app/Fragment;->onViewCreated(Landroid/view/View;Landroid/os/Bundle;)V
 
     const/4 p1, 0x0
 
-    .line 2
     invoke-virtual {p0, p1}, Landroidx/fragment/app/Fragment;->setRetainInstance(Z)V
 
-    .line 3
     iget-object p1, p0, Lcom/commsource/mypage/g0;->d:Lcom/commsource/mypage/album/BpAlbumViewModel;
 
     iget-object p1, p1, Lcom/commsource/mypage/album/BpAlbumViewModel;->i:Lcom/commsource/mypage/album/AlbumSetting;
 
     if-nez p1, :cond_0
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 5
     :cond_0
     invoke-direct {p0}, Lcom/commsource/mypage/g0;->M()V
 
-    .line 6
     invoke-direct {p0}, Lcom/commsource/mypage/g0;->P()V
 
-    .line 7
     invoke-direct {p0}, Lcom/commsource/mypage/g0;->O()V
 
-    .line 8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -3051,7 +2771,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/mypage/g0;->c:Lcom/commsource/beautyplus/f0/i7;
 
     iget-object v0, v0, Lcom/commsource/beautyplus/f0/i7;->X:Lcom/commsource/widget/CompatShadowToolBar;
@@ -3062,7 +2781,6 @@
 
     if-nez v0, :cond_0
 
-    .line 2
     invoke-virtual {p2}, Landroid/graphics/RectF;->width()F
 
     move-result p2
@@ -3085,10 +2803,8 @@
 
     const/4 p2, 0x0
 
-    .line 3
     invoke-direct {p0, p2}, Lcom/commsource/mypage/g0;->H(Z)V
 
-    .line 4
     :cond_0
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

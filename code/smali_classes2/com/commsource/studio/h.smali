@@ -35,7 +35,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-direct {p0, p2}, Lcom/commsource/studio/e0;-><init>(I)V
 
     iput-object p1, p0, Lcom/commsource/studio/h;->f:Ljava/lang/String;
@@ -50,12 +49,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/h;->e:Ljava/lang/String;
 
     if-nez v1, :cond_0
 
-    .line 2
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
     move-result-object v1
@@ -68,10 +65,8 @@
 
     iput-object v1, p0, Lcom/commsource/studio/h;->e:Ljava/lang/String;
 
-    .line 3
     invoke-static {v1}, Lcom/meitu/library/p/g/b;->g(Ljava/lang/String;)Ljava/io/File;
 
-    .line 4
     :cond_0
     new-instance v1, Ljava/lang/StringBuilder;
 
@@ -103,7 +98,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p3, Landroid/graphics/Bitmap;
 
     invoke-virtual {p0, p1, p2, p3}, Lcom/commsource/studio/h;->p(IILandroid/graphics/Bitmap;)V
@@ -120,7 +114,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/studio/h;->q()Ljava/lang/String;
 
     move-result-object v1
@@ -137,7 +130,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/p/g/b;->m(Ljava/lang/String;)Z
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -150,7 +142,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0, p1, p2}, Lcom/commsource/studio/h;->s(II)Landroid/graphics/Bitmap;
 
     move-result-object p1
@@ -173,12 +164,10 @@
 
     if-nez p3, :cond_0
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 2
     :cond_0
     invoke-direct {p0}, Lcom/commsource/studio/h;->q()Ljava/lang/String;
 
@@ -196,7 +185,6 @@
 
     invoke-static {p3, p1}, Lcom/meitu/core/util/CacheUtil;->androidBitmap2Cache(Landroid/graphics/Bitmap;Ljava/lang/String;)Z
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -211,7 +199,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/h;->f:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -228,7 +215,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/studio/h;->q()Ljava/lang/String;
 
     move-result-object v1

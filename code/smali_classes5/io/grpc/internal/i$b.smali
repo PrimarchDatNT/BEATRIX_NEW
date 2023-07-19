@@ -41,30 +41,24 @@
 
     const-string v0, "transportTracer"
 
-    .line 1
     invoke-static {p3, v0}, Lcom/google/common/base/t;->F(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p3
 
     check-cast p3, Lio/grpc/internal/g3;
 
-    .line 2
     invoke-direct {p0, p1, p2, p3}, Lio/grpc/internal/j$a;-><init>(ILio/grpc/internal/y2;Lio/grpc/internal/g3;)V
 
     const/4 p1, 0x0
 
-    .line 3
     iput-boolean p1, p0, Lio/grpc/internal/i$b;->m:Z
 
-    .line 4
     iput-boolean p1, p0, Lio/grpc/internal/i$b;->n:Z
 
-    .line 5
     iput-boolean p1, p0, Lio/grpc/internal/i$b;->o:Z
 
     const-string p1, "statsTraceCtx"
 
-    .line 6
     invoke-static {p2, p1}, Lcom/google/common/base/t;->F(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -79,7 +73,6 @@
 .method static synthetic A(Lio/grpc/internal/i$b;Lio/grpc/Status;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1}, Lio/grpc/internal/i$b;->G(Lio/grpc/Status;)V
 
     return-void
@@ -88,7 +81,6 @@
 .method static synthetic B(Lio/grpc/internal/i$b;Lio/grpc/Status;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1}, Lio/grpc/internal/i$b;->C(Lio/grpc/Status;)V
 
     return-void
@@ -97,7 +89,6 @@
 .method private C(Lio/grpc/Status;)V
     .locals 3
 
-    .line 1
     invoke-virtual {p1}, Lio/grpc/Status;->r()Z
 
     move-result v0
@@ -126,24 +117,20 @@
     :goto_1
     invoke-static {v0}, Lcom/google/common/base/t;->g0(Z)V
 
-    .line 2
     iget-boolean v0, p0, Lio/grpc/internal/i$b;->j:Z
 
     if-nez v0, :cond_3
 
-    .line 3
     invoke-virtual {p1}, Lio/grpc/Status;->r()Z
 
     move-result v0
 
     if-nez v0, :cond_2
 
-    .line 4
     iget-object v0, p0, Lio/grpc/internal/i$b;->l:Lio/grpc/internal/y2;
 
     invoke-virtual {v0, p1}, Lio/grpc/internal/y2;->q(Lio/grpc/Status;)V
 
-    .line 5
     invoke-virtual {p0}, Lio/grpc/internal/j$a;->m()Lio/grpc/internal/g3;
 
     move-result-object v0
@@ -152,7 +139,6 @@
 
     goto :goto_2
 
-    .line 6
     :cond_2
     iget-object v0, p0, Lio/grpc/internal/i$b;->l:Lio/grpc/internal/y2;
 
@@ -160,7 +146,6 @@
 
     invoke-virtual {v0, v1}, Lio/grpc/internal/y2;->q(Lio/grpc/Status;)V
 
-    .line 7
     invoke-virtual {p0}, Lio/grpc/internal/j$a;->m()Lio/grpc/internal/g3;
 
     move-result-object v0
@@ -173,14 +158,11 @@
 
     invoke-virtual {v0, v1}, Lio/grpc/internal/g3;->h(Z)V
 
-    .line 8
     :goto_2
     iput-boolean v2, p0, Lio/grpc/internal/i$b;->j:Z
 
-    .line 9
     invoke-virtual {p0}, Lio/grpc/internal/j$a;->t()V
 
-    .line 10
     invoke-virtual {p0}, Lio/grpc/internal/i$b;->F()Lio/grpc/internal/p2;
 
     move-result-object v0
@@ -194,7 +176,6 @@
 .method private G(Lio/grpc/Status;)V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lio/grpc/internal/i$b;->q:Lio/grpc/Status;
 
     if-nez v0, :cond_0
@@ -211,7 +192,6 @@
 
     invoke-static {v0, v1}, Lcom/google/common/base/t;->h0(ZLjava/lang/Object;)V
 
-    .line 2
     iput-object p1, p0, Lio/grpc/internal/i$b;->q:Lio/grpc/Status;
 
     return-void
@@ -222,24 +202,20 @@
 .method public D()V
     .locals 1
 
-    .line 1
     iget-boolean v0, p0, Lio/grpc/internal/i$b;->n:Z
 
     if-eqz v0, :cond_0
 
     const/4 v0, 0x0
 
-    .line 2
     iput-object v0, p0, Lio/grpc/internal/i$b;->p:Ljava/lang/Runnable;
 
-    .line 3
     sget-object v0, Lio/grpc/Status;->g:Lio/grpc/Status;
 
     invoke-direct {p0, v0}, Lio/grpc/internal/i$b;->C(Lio/grpc/Status;)V
 
     goto :goto_0
 
-    .line 4
     :cond_0
     new-instance v0, Lio/grpc/internal/i$b$b;
 
@@ -249,10 +225,8 @@
 
     const/4 v0, 0x1
 
-    .line 5
     iput-boolean v0, p0, Lio/grpc/internal/i$b;->o:Z
 
-    .line 6
     invoke-virtual {p0, v0}, Lio/grpc/internal/j$a;->j(Z)V
 
     :goto_0
@@ -262,7 +236,6 @@
 .method public E(Lio/grpc/internal/a2;Z)V
     .locals 3
 
-    .line 1
     iget-boolean v0, p0, Lio/grpc/internal/i$b;->m:Z
 
     const/4 v1, 0x1
@@ -273,17 +246,14 @@
 
     invoke-static {v0, v2}, Lcom/google/common/base/t;->h0(ZLjava/lang/Object;)V
 
-    .line 2
     invoke-virtual {p0, p1}, Lio/grpc/internal/j$a;->k(Lio/grpc/internal/a2;)V
 
     if-eqz p2, :cond_0
 
-    .line 3
     iput-boolean v1, p0, Lio/grpc/internal/i$b;->m:Z
 
     const/4 p1, 0x0
 
-    .line 4
     invoke-virtual {p0, p1}, Lio/grpc/internal/j$a;->j(Z)V
 
     :cond_0
@@ -293,7 +263,6 @@
 .method protected F()Lio/grpc/internal/p2;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lio/grpc/internal/i$b;->k:Lio/grpc/internal/p2;
 
     return-object v0
@@ -302,7 +271,6 @@
 .method public final H(Lio/grpc/internal/p2;)V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lio/grpc/internal/i$b;->k:Lio/grpc/internal/p2;
 
     if-nez v0, :cond_0
@@ -321,7 +289,6 @@
 
     const-string v0, "listener"
 
-    .line 2
     invoke-static {p1, v0}, Lcom/google/common/base/t;->F(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -336,7 +303,6 @@
 .method public final I(Lio/grpc/Status;)V
     .locals 3
 
-    .line 1
     invoke-virtual {p1}, Lio/grpc/Status;->r()Z
 
     move-result v0
@@ -349,22 +315,18 @@
 
     invoke-static {v0, v2}, Lcom/google/common/base/t;->e(ZLjava/lang/Object;)V
 
-    .line 2
     iget-boolean v0, p0, Lio/grpc/internal/i$b;->n:Z
 
     if-eqz v0, :cond_0
 
     const/4 v0, 0x0
 
-    .line 3
     iput-object v0, p0, Lio/grpc/internal/i$b;->p:Ljava/lang/Runnable;
 
-    .line 4
     invoke-direct {p0, p1}, Lio/grpc/internal/i$b;->C(Lio/grpc/Status;)V
 
     goto :goto_0
 
-    .line 5
     :cond_0
     new-instance v0, Lio/grpc/internal/i$b$a;
 
@@ -372,10 +334,8 @@
 
     iput-object v0, p0, Lio/grpc/internal/i$b;->p:Ljava/lang/Runnable;
 
-    .line 6
     iput-boolean v1, p0, Lio/grpc/internal/i$b;->o:Z
 
-    .line 7
     invoke-virtual {p0, v1}, Lio/grpc/internal/j$a;->j(Z)V
 
     :goto_0
@@ -387,62 +347,50 @@
 
     const/4 v0, 0x1
 
-    .line 1
     iput-boolean v0, p0, Lio/grpc/internal/i$b;->n:Z
 
-    .line 2
     iget-boolean v0, p0, Lio/grpc/internal/i$b;->m:Z
 
     const/4 v1, 0x0
 
     if-eqz v0, :cond_1
 
-    .line 3
     iget-boolean v0, p0, Lio/grpc/internal/i$b;->o:Z
 
     if-nez v0, :cond_0
 
     if-eqz p1, :cond_0
 
-    .line 4
     sget-object p1, Lio/grpc/Status;->u:Lio/grpc/Status;
 
     const-string v0, "Encountered end-of-stream mid-frame"
 
-    .line 5
     invoke-virtual {p1, v0}, Lio/grpc/Status;->u(Ljava/lang/String;)Lio/grpc/Status;
 
     move-result-object p1
 
-    .line 6
     invoke-virtual {p1}, Lio/grpc/Status;->e()Lio/grpc/StatusRuntimeException;
 
     move-result-object p1
 
-    .line 7
     invoke-interface {p0, p1}, Lio/grpc/internal/MessageDeframer$b;->c(Ljava/lang/Throwable;)V
 
-    .line 8
     iput-object v1, p0, Lio/grpc/internal/i$b;->p:Ljava/lang/Runnable;
 
     return-void
 
-    .line 9
     :cond_0
     iget-object p1, p0, Lio/grpc/internal/i$b;->k:Lio/grpc/internal/p2;
 
     invoke-interface {p1}, Lio/grpc/internal/p2;->e()V
 
-    .line 10
     :cond_1
     iget-object p1, p0, Lio/grpc/internal/i$b;->p:Ljava/lang/Runnable;
 
     if-eqz p1, :cond_2
 
-    .line 11
     invoke-interface {p1}, Ljava/lang/Runnable;->run()V
 
-    .line 12
     iput-object v1, p0, Lio/grpc/internal/i$b;->p:Ljava/lang/Runnable;
 
     :cond_2
@@ -452,7 +400,6 @@
 .method protected bridge synthetic o()Lio/grpc/internal/a3;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lio/grpc/internal/i$b;->F()Lio/grpc/internal/p2;
 
     move-result-object v0
@@ -463,10 +410,8 @@
 .method public final s()V
     .locals 1
 
-    .line 1
     invoke-super {p0}, Lio/grpc/internal/j$a;->s()V
 
-    .line 2
     invoke-virtual {p0}, Lio/grpc/internal/j$a;->m()Lio/grpc/internal/g3;
 
     move-result-object v0

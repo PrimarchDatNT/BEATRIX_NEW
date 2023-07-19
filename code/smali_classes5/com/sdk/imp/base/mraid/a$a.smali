@@ -25,7 +25,6 @@
 .method constructor <init>(Lcom/sdk/imp/base/mraid/a;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/sdk/imp/base/mraid/a$a;->a:Lcom/sdk/imp/base/mraid/a;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -38,7 +37,6 @@
 .method public a(Landroid/net/Uri;)V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/sdk/imp/base/mraid/a$a;->a:Lcom/sdk/imp/base/mraid/a;
 
     invoke-static {v0}, Lcom/sdk/imp/base/mraid/a;->c(Lcom/sdk/imp/base/mraid/a;)Lcom/sdk/imp/base/b$a;
@@ -47,7 +45,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 2
     iget-object v0, p0, Lcom/sdk/imp/base/mraid/a$a;->a:Lcom/sdk/imp/base/mraid/a;
 
     invoke-static {v0}, Lcom/sdk/imp/base/mraid/a;->c(Lcom/sdk/imp/base/mraid/a;)Lcom/sdk/imp/base/b$a;
@@ -63,7 +60,6 @@
 .method public b()V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/sdk/imp/base/mraid/a$a;->a:Lcom/sdk/imp/base/mraid/a;
 
     invoke-static {v0}, Lcom/sdk/imp/base/mraid/a;->c(Lcom/sdk/imp/base/mraid/a;)Lcom/sdk/imp/base/b$a;
@@ -80,7 +76,6 @@
 .method public c()V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/sdk/imp/base/mraid/a$a;->a:Lcom/sdk/imp/base/mraid/a;
 
     invoke-static {v0}, Lcom/sdk/imp/base/mraid/a;->c(Lcom/sdk/imp/base/mraid/a;)Lcom/sdk/imp/base/b$a;
@@ -95,7 +90,6 @@
 .method public onClose()V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/sdk/imp/base/mraid/a$a;->a:Lcom/sdk/imp/base/mraid/a;
 
     invoke-static {v0}, Lcom/sdk/imp/base/mraid/a;->c(Lcom/sdk/imp/base/mraid/a;)Lcom/sdk/imp/base/b$a;
@@ -110,7 +104,6 @@
 .method public onExpand()V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/sdk/imp/base/mraid/a$a;->a:Lcom/sdk/imp/base/mraid/a;
 
     invoke-static {v0}, Lcom/sdk/imp/base/mraid/a;->c(Lcom/sdk/imp/base/mraid/a;)Lcom/sdk/imp/base/b$a;
@@ -119,7 +112,6 @@
 
     invoke-interface {v0}, Lcom/sdk/imp/base/b$a;->f()V
 
-    .line 2
     iget-object v0, p0, Lcom/sdk/imp/base/mraid/a$a;->a:Lcom/sdk/imp/base/mraid/a;
 
     invoke-static {v0}, Lcom/sdk/imp/base/mraid/a;->c(Lcom/sdk/imp/base/mraid/a;)Lcom/sdk/imp/base/b$a;
@@ -134,7 +126,6 @@
 .method public onLoaded(Landroid/view/View;)V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/sdk/imp/base/mraid/a$a;->a:Lcom/sdk/imp/base/mraid/a;
 
     invoke-static {v0}, Lcom/sdk/imp/base/mraid/a;->c(Lcom/sdk/imp/base/mraid/a;)Lcom/sdk/imp/base/b$a;

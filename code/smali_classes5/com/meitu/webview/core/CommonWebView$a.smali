@@ -25,7 +25,6 @@
 .method constructor <init>(Lcom/meitu/webview/core/CommonWebView;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/webview/core/CommonWebView$a;->a:Lcom/meitu/webview/core/CommonWebView;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -42,7 +41,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/webview/core/CommonWebView$a;->a:Lcom/meitu/webview/core/CommonWebView;
 
     invoke-static {v1}, Lcom/meitu/webview/core/CommonWebView;->b(Lcom/meitu/webview/core/CommonWebView;)Z
@@ -61,15 +59,12 @@
 
     const-string p2, "current can not download apk file!"
 
-    .line 2
     invoke-static {p1, p2}, Lcom/meitu/webview/utils/g;->y(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 4
     :cond_0
     iget-object v1, p0, Lcom/meitu/webview/core/CommonWebView$a;->a:Lcom/meitu/webview/core/CommonWebView;
 
@@ -79,7 +74,6 @@
 
     if-eqz v1, :cond_1
 
-    .line 5
     iget-object v1, p0, Lcom/meitu/webview/core/CommonWebView$a;->a:Lcom/meitu/webview/core/CommonWebView;
 
     invoke-static {v1}, Lcom/meitu/webview/core/CommonWebView;->c(Lcom/meitu/webview/core/CommonWebView;)Lf/k/o0/c/a;
@@ -102,12 +96,10 @@
 
     if-eqz p2, :cond_1
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 7
     :cond_1
     iget-object p2, p0, Lcom/meitu/webview/core/CommonWebView$a;->a:Lcom/meitu/webview/core/CommonWebView;
 
@@ -117,7 +109,6 @@
 
     invoke-static {p1, p2}, Lcom/meitu/webview/download/b;->b(Ljava/lang/String;Lcom/meitu/webview/download/a;)Z
 
-    .line 8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

@@ -41,7 +41,6 @@
 .method constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/google/android/datatransport/k/i$a;-><init>()V
 
     return-void
@@ -52,14 +51,12 @@
 .method public d()Lcom/google/android/datatransport/k/i;
     .locals 12
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/datatransport/k/a$b;->a:Ljava/lang/String;
 
     const-string v1, ""
 
     if-nez v0, :cond_0
 
-    .line 2
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -74,13 +71,11 @@
 
     move-result-object v1
 
-    .line 3
     :cond_0
     iget-object v0, p0, Lcom/google/android/datatransport/k/a$b;->c:Lcom/google/android/datatransport/k/h;
 
     if-nez v0, :cond_1
 
-    .line 4
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -95,13 +90,11 @@
 
     move-result-object v1
 
-    .line 5
     :cond_1
     iget-object v0, p0, Lcom/google/android/datatransport/k/a$b;->d:Ljava/lang/Long;
 
     if-nez v0, :cond_2
 
-    .line 6
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -116,13 +109,11 @@
 
     move-result-object v1
 
-    .line 7
     :cond_2
     iget-object v0, p0, Lcom/google/android/datatransport/k/a$b;->e:Ljava/lang/Long;
 
     if-nez v0, :cond_3
 
-    .line 8
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -137,13 +128,11 @@
 
     move-result-object v1
 
-    .line 9
     :cond_3
     iget-object v0, p0, Lcom/google/android/datatransport/k/a$b;->f:Ljava/util/Map;
 
     if-nez v0, :cond_4
 
-    .line 10
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -158,7 +147,6 @@
 
     move-result-object v1
 
-    .line 11
     :cond_4
     invoke-virtual {v1}, Ljava/lang/String;->isEmpty()Z
 
@@ -166,7 +154,6 @@
 
     if-eqz v0, :cond_5
 
-    .line 12
     new-instance v0, Lcom/google/android/datatransport/k/a;
 
     iget-object v3, p0, Lcom/google/android/datatransport/k/a$b;->a:Ljava/lang/String;
@@ -177,14 +164,12 @@
 
     iget-object v1, p0, Lcom/google/android/datatransport/k/a$b;->d:Ljava/lang/Long;
 
-    .line 13
     invoke-virtual {v1}, Ljava/lang/Long;->longValue()J
 
     move-result-wide v6
 
     iget-object v1, p0, Lcom/google/android/datatransport/k/a$b;->e:Ljava/lang/Long;
 
-    .line 14
     invoke-virtual {v1}, Ljava/lang/Long;->longValue()J
 
     move-result-wide v8
@@ -199,7 +184,6 @@
 
     return-object v0
 
-    .line 15
     :cond_5
     new-instance v0, Ljava/lang/IllegalStateException;
 
@@ -234,14 +218,12 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/datatransport/k/a$b;->f:Ljava/util/Map;
 
     if-eqz v0, :cond_0
 
     return-object v0
 
-    .line 2
     :cond_0
     new-instance v0, Ljava/lang/IllegalStateException;
 
@@ -267,10 +249,8 @@
 
     const-string v0, "Null autoMetadata"
 
-    .line 1
     invoke-static {p1, v0}, Ljava/util/Objects;->requireNonNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
 
-    .line 2
     iput-object p1, p0, Lcom/google/android/datatransport/k/a$b;->f:Ljava/util/Map;
 
     return-object p0
@@ -279,7 +259,6 @@
 .method public g(Ljava/lang/Integer;)Lcom/google/android/datatransport/k/i$a;
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/android/datatransport/k/a$b;->b:Ljava/lang/Integer;
 
     return-object p0
@@ -290,10 +269,8 @@
 
     const-string v0, "Null encodedPayload"
 
-    .line 1
     invoke-static {p1, v0}, Ljava/util/Objects;->requireNonNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
 
-    .line 2
     iput-object p1, p0, Lcom/google/android/datatransport/k/a$b;->c:Lcom/google/android/datatransport/k/h;
 
     return-object p0
@@ -302,7 +279,6 @@
 .method public i(J)Lcom/google/android/datatransport/k/i$a;
     .locals 0
 
-    .line 1
     invoke-static {p1, p2}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
 
     move-result-object p1
@@ -317,10 +293,8 @@
 
     const-string v0, "Null transportName"
 
-    .line 1
     invoke-static {p1, v0}, Ljava/util/Objects;->requireNonNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
 
-    .line 2
     iput-object p1, p0, Lcom/google/android/datatransport/k/a$b;->a:Ljava/lang/String;
 
     return-object p0
@@ -329,7 +303,6 @@
 .method public k(J)Lcom/google/android/datatransport/k/i$a;
     .locals 0
 
-    .line 1
     invoke-static {p1, p2}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
 
     move-result-object p1

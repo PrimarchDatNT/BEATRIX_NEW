@@ -31,7 +31,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/camera/xcamera/cover/SettingCover$i;->a:Lcom/commsource/camera/xcamera/cover/SettingCover;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -50,7 +49,6 @@
 
     if-eqz p2, :cond_2
 
-    .line 1
     iget-object p2, p0, Lcom/commsource/camera/xcamera/cover/SettingCover$i;->a:Lcom/commsource/camera/xcamera/cover/SettingCover;
 
     invoke-virtual {p2}, Lcom/commsource/camera/xcamera/cover/SettingCover;->L()Lcom/commsource/camera/xcamera/cover/CameraConfigViewModel;
@@ -65,7 +63,6 @@
 
     invoke-virtual {p2, v1}, Lcom/commsource/camera/xcamera/cover/e;->b(Z)V
 
-    .line 2
     iget-object p2, p0, Lcom/commsource/camera/xcamera/cover/SettingCover$i;->a:Lcom/commsource/camera/xcamera/cover/SettingCover;
 
     invoke-virtual {p2}, Lcom/commsource/camera/xcamera/cover/SettingCover;->L()Lcom/commsource/camera/xcamera/cover/CameraConfigViewModel;
@@ -82,7 +79,6 @@
 
     invoke-virtual {p2, v1}, Landroidx/lifecycle/MutableLiveData;->setValue(Ljava/lang/Object;)V
 
-    .line 3
     iget-object p2, p0, Lcom/commsource/camera/xcamera/cover/SettingCover$i;->a:Lcom/commsource/camera/xcamera/cover/SettingCover;
 
     invoke-virtual {p2}, Lcom/commsource/camera/xcamera/cover/AbsLazyCover;->A()Landroidx/databinding/ViewDataBinding;
@@ -104,7 +100,6 @@
 
     if-eqz p1, :cond_1
 
-    .line 4
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/SettingCover$i;->a:Lcom/commsource/camera/xcamera/cover/SettingCover;
 
     invoke-virtual {p1}, Lcom/commsource/camera/xcamera/cover/SettingCover;->L()Lcom/commsource/camera/xcamera/cover/CameraConfigViewModel;
@@ -127,7 +122,6 @@
 
     goto :goto_0
 
-    .line 5
     :cond_1
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/SettingCover$i;->a:Lcom/commsource/camera/xcamera/cover/SettingCover;
 
@@ -149,7 +143,6 @@
 
     invoke-virtual {p1, v1, p2, v2}, Lcom/commsource/camera/xcamera/cover/CameraConfigViewModel;->a0(ILjava/lang/String;Ljava/lang/String;)V
 
-    .line 6
     :cond_2
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

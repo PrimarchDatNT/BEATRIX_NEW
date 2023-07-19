@@ -52,7 +52,6 @@
 .method static constructor <clinit>()V
     .locals 16
 
-    .line 1
     new-instance v0, Lcom/google/firestore/v1/DocumentTransform$FieldTransform$TransformTypeCase;
 
     const-string v1, "SET_TO_SERVER_VALUE"
@@ -65,7 +64,6 @@
 
     sput-object v0, Lcom/google/firestore/v1/DocumentTransform$FieldTransform$TransformTypeCase;->SET_TO_SERVER_VALUE:Lcom/google/firestore/v1/DocumentTransform$FieldTransform$TransformTypeCase;
 
-    .line 2
     new-instance v1, Lcom/google/firestore/v1/DocumentTransform$FieldTransform$TransformTypeCase;
 
     const-string v4, "INCREMENT"
@@ -78,7 +76,6 @@
 
     sput-object v1, Lcom/google/firestore/v1/DocumentTransform$FieldTransform$TransformTypeCase;->INCREMENT:Lcom/google/firestore/v1/DocumentTransform$FieldTransform$TransformTypeCase;
 
-    .line 3
     new-instance v4, Lcom/google/firestore/v1/DocumentTransform$FieldTransform$TransformTypeCase;
 
     const-string v7, "MAXIMUM"
@@ -89,7 +86,6 @@
 
     sput-object v4, Lcom/google/firestore/v1/DocumentTransform$FieldTransform$TransformTypeCase;->MAXIMUM:Lcom/google/firestore/v1/DocumentTransform$FieldTransform$TransformTypeCase;
 
-    .line 4
     new-instance v7, Lcom/google/firestore/v1/DocumentTransform$FieldTransform$TransformTypeCase;
 
     const-string v9, "MINIMUM"
@@ -100,7 +96,6 @@
 
     sput-object v7, Lcom/google/firestore/v1/DocumentTransform$FieldTransform$TransformTypeCase;->MINIMUM:Lcom/google/firestore/v1/DocumentTransform$FieldTransform$TransformTypeCase;
 
-    .line 5
     new-instance v9, Lcom/google/firestore/v1/DocumentTransform$FieldTransform$TransformTypeCase;
 
     const-string v11, "APPEND_MISSING_ELEMENTS"
@@ -111,7 +106,6 @@
 
     sput-object v9, Lcom/google/firestore/v1/DocumentTransform$FieldTransform$TransformTypeCase;->APPEND_MISSING_ELEMENTS:Lcom/google/firestore/v1/DocumentTransform$FieldTransform$TransformTypeCase;
 
-    .line 6
     new-instance v11, Lcom/google/firestore/v1/DocumentTransform$FieldTransform$TransformTypeCase;
 
     const-string v13, "REMOVE_ALL_FROM_ARRAY"
@@ -122,7 +116,6 @@
 
     sput-object v11, Lcom/google/firestore/v1/DocumentTransform$FieldTransform$TransformTypeCase;->REMOVE_ALL_FROM_ARRAY:Lcom/google/firestore/v1/DocumentTransform$FieldTransform$TransformTypeCase;
 
-    .line 7
     new-instance v13, Lcom/google/firestore/v1/DocumentTransform$FieldTransform$TransformTypeCase;
 
     const-string v15, "TRANSFORMTYPE_NOT_SET"
@@ -147,7 +140,6 @@
 
     aput-object v13, v14, v12
 
-    .line 8
     sput-object v14, Lcom/google/firestore/v1/DocumentTransform$FieldTransform$TransformTypeCase;->$VALUES:[Lcom/google/firestore/v1/DocumentTransform$FieldTransform$TransformTypeCase;
 
     return-void
@@ -161,10 +153,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 2
     iput p3, p0, Lcom/google/firestore/v1/DocumentTransform$FieldTransform$TransformTypeCase;->value:I
 
     return-void
@@ -181,43 +171,36 @@
 
     return-object p0
 
-    .line 1
     :pswitch_0
     sget-object p0, Lcom/google/firestore/v1/DocumentTransform$FieldTransform$TransformTypeCase;->REMOVE_ALL_FROM_ARRAY:Lcom/google/firestore/v1/DocumentTransform$FieldTransform$TransformTypeCase;
 
     return-object p0
 
-    .line 2
     :pswitch_1
     sget-object p0, Lcom/google/firestore/v1/DocumentTransform$FieldTransform$TransformTypeCase;->APPEND_MISSING_ELEMENTS:Lcom/google/firestore/v1/DocumentTransform$FieldTransform$TransformTypeCase;
 
     return-object p0
 
-    .line 3
     :pswitch_2
     sget-object p0, Lcom/google/firestore/v1/DocumentTransform$FieldTransform$TransformTypeCase;->MINIMUM:Lcom/google/firestore/v1/DocumentTransform$FieldTransform$TransformTypeCase;
 
     return-object p0
 
-    .line 4
     :pswitch_3
     sget-object p0, Lcom/google/firestore/v1/DocumentTransform$FieldTransform$TransformTypeCase;->MAXIMUM:Lcom/google/firestore/v1/DocumentTransform$FieldTransform$TransformTypeCase;
 
     return-object p0
 
-    .line 5
     :pswitch_4
     sget-object p0, Lcom/google/firestore/v1/DocumentTransform$FieldTransform$TransformTypeCase;->INCREMENT:Lcom/google/firestore/v1/DocumentTransform$FieldTransform$TransformTypeCase;
 
     return-object p0
 
-    .line 6
     :pswitch_5
     sget-object p0, Lcom/google/firestore/v1/DocumentTransform$FieldTransform$TransformTypeCase;->SET_TO_SERVER_VALUE:Lcom/google/firestore/v1/DocumentTransform$FieldTransform$TransformTypeCase;
 
     return-object p0
 
-    .line 7
     :cond_0
     sget-object p0, Lcom/google/firestore/v1/DocumentTransform$FieldTransform$TransformTypeCase;->TRANSFORMTYPE_NOT_SET:Lcom/google/firestore/v1/DocumentTransform$FieldTransform$TransformTypeCase;
 
@@ -239,7 +222,6 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    .line 2
     invoke-static {p0}, Lcom/google/firestore/v1/DocumentTransform$FieldTransform$TransformTypeCase;->forNumber(I)Lcom/google/firestore/v1/DocumentTransform$FieldTransform$TransformTypeCase;
 
     move-result-object p0
@@ -250,7 +232,6 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/google/firestore/v1/DocumentTransform$FieldTransform$TransformTypeCase;
     .locals 1
 
-    .line 1
     const-class v0, Lcom/google/firestore/v1/DocumentTransform$FieldTransform$TransformTypeCase;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -265,7 +246,6 @@
 .method public static values()[Lcom/google/firestore/v1/DocumentTransform$FieldTransform$TransformTypeCase;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/google/firestore/v1/DocumentTransform$FieldTransform$TransformTypeCase;->$VALUES:[Lcom/google/firestore/v1/DocumentTransform$FieldTransform$TransformTypeCase;
 
     invoke-virtual {v0}, [Lcom/google/firestore/v1/DocumentTransform$FieldTransform$TransformTypeCase;->clone()Ljava/lang/Object;
@@ -282,7 +262,6 @@
 .method public getNumber()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lcom/google/firestore/v1/DocumentTransform$FieldTransform$TransformTypeCase;->value:I
 
     return v0

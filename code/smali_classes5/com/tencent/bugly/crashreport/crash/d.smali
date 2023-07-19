@@ -27,10 +27,8 @@
 .method private constructor <init>(Landroid/content/Context;)V
     .locals 2
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     invoke-static {}, Lcom/tencent/bugly/crashreport/crash/c;->a()Lcom/tencent/bugly/crashreport/crash/c;
 
     move-result-object v0
@@ -39,7 +37,6 @@
 
     return-void
 
-    .line 3
     :cond_0
     invoke-static {}, Lcom/tencent/bugly/crashreport/common/strategy/a;->a()Lcom/tencent/bugly/crashreport/common/strategy/a;
 
@@ -47,22 +44,18 @@
 
     iput-object v1, p0, Lcom/tencent/bugly/crashreport/crash/d;->b:Lcom/tencent/bugly/crashreport/common/strategy/a;
 
-    .line 4
     invoke-static {p1}, Lcom/tencent/bugly/crashreport/common/info/a;->a(Landroid/content/Context;)Lcom/tencent/bugly/crashreport/common/info/a;
 
     move-result-object v1
 
     iput-object v1, p0, Lcom/tencent/bugly/crashreport/crash/d;->c:Lcom/tencent/bugly/crashreport/common/info/a;
 
-    .line 5
     iget-object v0, v0, Lcom/tencent/bugly/crashreport/crash/c;->p:Lcom/tencent/bugly/crashreport/crash/b;
 
     iput-object v0, p0, Lcom/tencent/bugly/crashreport/crash/d;->d:Lcom/tencent/bugly/crashreport/crash/b;
 
-    .line 6
     iput-object p1, p0, Lcom/tencent/bugly/crashreport/crash/d;->e:Landroid/content/Context;
 
-    .line 7
     invoke-static {}, Lcom/tencent/bugly/proguard/w;->a()Lcom/tencent/bugly/proguard/w;
 
     move-result-object p1
@@ -79,7 +72,6 @@
 .method static synthetic a()Lcom/tencent/bugly/crashreport/crash/d;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/tencent/bugly/crashreport/crash/d;->a:Lcom/tencent/bugly/crashreport/crash/d;
 
     return-object v0
@@ -88,19 +80,16 @@
 .method public static a(Landroid/content/Context;)Lcom/tencent/bugly/crashreport/crash/d;
     .locals 1
 
-    .line 4
     sget-object v0, Lcom/tencent/bugly/crashreport/crash/d;->a:Lcom/tencent/bugly/crashreport/crash/d;
 
     if-nez v0, :cond_0
 
-    .line 5
     new-instance v0, Lcom/tencent/bugly/crashreport/crash/d;
 
     invoke-direct {v0, p0}, Lcom/tencent/bugly/crashreport/crash/d;-><init>(Landroid/content/Context;)V
 
     sput-object v0, Lcom/tencent/bugly/crashreport/crash/d;->a:Lcom/tencent/bugly/crashreport/crash/d;
 
-    .line 6
     :cond_0
     sget-object p0, Lcom/tencent/bugly/crashreport/crash/d;->a:Lcom/tencent/bugly/crashreport/crash/d;
 
@@ -116,7 +105,6 @@
 
     const-string v2, "[ExtraCrashManager] Trying to notify Bugly agents."
 
-    .line 2
     invoke-static {v2, v1}, Lcom/tencent/bugly/proguard/x;->c(Ljava/lang/String;[Ljava/lang/Object;)Z
 
     :try_start_0
@@ -177,7 +165,6 @@
 
     if-nez p1, :cond_0
 
-    .line 3
     invoke-static {}, Ljava/lang/Thread;->currentThread()Ljava/lang/Thread;
 
     move-result-object v7
@@ -827,7 +814,6 @@
         }
     .end annotation
 
-    .line 7
     invoke-static {}, Lcom/tencent/bugly/proguard/w;->a()Lcom/tencent/bugly/proguard/w;
 
     move-result-object v0

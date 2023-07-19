@@ -45,10 +45,8 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/formula/FormulaRepo$formulaComparator$2$a;->e:Lcom/commsource/studio/formula/FormulaRepo$formulaComparator$2;
 
-    .line 2
     invoke-direct {p0, p2}, Lcom/commsource/repository/OnlineLocalMaterialCompator;-><init>(Ljava/lang/String;)V
 
     return-void
@@ -87,22 +85,18 @@
 
     invoke-static {v0, v2}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     new-instance v2, Ljava/util/ArrayList;
 
     invoke-direct {v2}, Ljava/util/ArrayList;-><init>()V
 
-    .line 2
     new-instance v3, Ljava/util/HashMap;
 
     invoke-direct {v3}, Ljava/util/HashMap;-><init>()V
 
-    .line 3
     new-instance v4, Ljava/util/HashMap;
 
     invoke-direct {v4}, Ljava/util/HashMap;-><init>()V
 
-    .line 4
     invoke-interface/range {p1 .. p1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v5
@@ -131,17 +125,14 @@
     :cond_0
     check-cast v8, Lcom/commsource/studio/formula/FormulaCategory;
 
-    .line 5
     invoke-virtual {v8, v7}, Lcom/commsource/studio/formula/FormulaCategory;->setCategorySort(I)V
 
-    .line 6
     invoke-virtual {v8}, Lcom/commsource/studio/formula/FormulaCategory;->getAllFormulaList()Ljava/util/List;
 
     move-result-object v7
 
     if-eqz v7, :cond_6
 
-    .line 7
     invoke-interface {v7}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v7
@@ -168,7 +159,6 @@
     :cond_1
     check-cast v11, Lcom/commsource/studio/formula/JsFormula;
 
-    .line 8
     invoke-virtual {v11}, Lcom/commsource/studio/formula/JsFormula;->getFormulaId()Ljava/lang/String;
 
     move-result-object v13
@@ -179,7 +169,6 @@
 
     if-eqz v13, :cond_2
 
-    .line 9
     invoke-virtual {v11}, Lcom/commsource/studio/formula/JsFormula;->getFormulaId()Ljava/lang/String;
 
     move-result-object v13
@@ -208,7 +197,6 @@
 
     goto :goto_2
 
-    .line 10
     :cond_2
     invoke-virtual {v11}, Lcom/commsource/studio/formula/JsFormula;->getFormulaId()Ljava/lang/String;
 
@@ -218,7 +206,6 @@
 
     invoke-direct {v14}, Ljava/util/HashMap;-><init>()V
 
-    .line 11
     invoke-virtual {v8}, Lcom/commsource/studio/formula/FormulaCategory;->getCategoryId()Ljava/lang/String;
 
     move-result-object v15
@@ -229,10 +216,8 @@
 
     invoke-virtual {v14, v15, v10}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 12
     invoke-interface {v4, v13, v14}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 13
     :cond_3
     :goto_2
     invoke-virtual {v11}, Lcom/commsource/studio/formula/JsFormula;->getFormulaId()Ljava/lang/String;
@@ -245,7 +230,6 @@
 
     if-eqz v10, :cond_4
 
-    .line 14
     invoke-virtual {v11}, Lcom/commsource/studio/formula/JsFormula;->getFormulaId()Ljava/lang/String;
 
     move-result-object v10
@@ -266,7 +250,6 @@
 
     goto :goto_3
 
-    .line 15
     :cond_4
     invoke-virtual {v11}, Lcom/commsource/studio/formula/JsFormula;->getFormulaId()Ljava/lang/String;
 
@@ -276,14 +259,12 @@
 
     invoke-direct {v11}, Ljava/util/HashSet;-><init>()V
 
-    .line 16
     invoke-virtual {v8}, Lcom/commsource/studio/formula/FormulaCategory;->getCategoryId()Ljava/lang/String;
 
     move-result-object v13
 
     invoke-virtual {v11, v13}, Ljava/util/HashSet;->add(Ljava/lang/Object;)Z
 
-    .line 17
     invoke-interface {v3, v10, v11}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     :cond_5
@@ -292,7 +273,6 @@
 
     goto/16 :goto_1
 
-    .line 18
     :cond_6
     invoke-virtual {v8}, Lcom/commsource/studio/formula/FormulaCategory;->getAllFormulaList()Ljava/util/List;
 
@@ -300,7 +280,6 @@
 
     if-eqz v7, :cond_7
 
-    .line 19
     invoke-virtual {v2, v7}, Ljava/util/ArrayList;->addAll(Ljava/util/Collection;)Z
 
     :cond_7
@@ -308,7 +287,6 @@
 
     goto/16 :goto_0
 
-    .line 20
     :cond_8
     sget-object v5, Lcom/commsource/studio/formula/FormulaRepo;->x:Lcom/commsource/studio/formula/FormulaRepo;
 
@@ -318,17 +296,14 @@
 
     invoke-virtual {v5, v0}, Lcom/commsource/repository/OnlineLocalMaterialCompator;->g(Ljava/util/List;)V
 
-    .line 21
     new-instance v0, Ljava/util/HashSet;
 
     invoke-direct {v0}, Ljava/util/HashSet;-><init>()V
 
-    .line 22
     new-instance v5, Ljava/util/ArrayList;
 
     invoke-direct {v5}, Ljava/util/ArrayList;-><init>()V
 
-    .line 23
     invoke-interface {v2}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v2
@@ -345,29 +320,24 @@
 
     move-result-object v6
 
-    .line 24
     move-object v7, v6
 
     check-cast v7, Lcom/commsource/studio/formula/JsFormula;
 
-    .line 25
     invoke-virtual {v7}, Lcom/commsource/studio/formula/JsFormula;->getFormulaId()Ljava/lang/String;
 
     move-result-object v7
 
-    .line 26
     invoke-virtual {v0, v7}, Ljava/util/HashSet;->add(Ljava/lang/Object;)Z
 
     move-result v7
 
     if-eqz v7, :cond_9
 
-    .line 27
     invoke-virtual {v5, v6}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
     goto :goto_4
 
-    .line 28
     :cond_a
     invoke-interface {v5}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
@@ -387,7 +357,6 @@
 
     check-cast v2, Lcom/commsource/studio/formula/JsFormula;
 
-    .line 29
     invoke-virtual {v2}, Lcom/commsource/studio/formula/JsFormula;->getFormulaId()Ljava/lang/String;
 
     move-result-object v6
@@ -418,7 +387,6 @@
     :goto_6
     invoke-virtual {v2, v6}, Lcom/commsource/studio/formula/JsFormula;->setCategoryId(Ljava/lang/String;)V
 
-    .line 30
     invoke-virtual {v2}, Lcom/commsource/studio/formula/JsFormula;->getFormulaId()Ljava/lang/String;
 
     move-result-object v6
@@ -431,7 +399,6 @@
 
     if-eqz v6, :cond_b
 
-    .line 31
     invoke-static {}, Lcom/commsource/util/z0;->b()Lcom/google/gson/Gson;
 
     move-result-object v7
@@ -452,7 +419,6 @@
 
     goto :goto_5
 
-    .line 32
     :cond_d
     invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -477,7 +443,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/studio/formula/FormulaRepo;->x:Lcom/commsource/studio/formula/FormulaRepo;
 
     invoke-static {v1}, Lcom/commsource/studio/formula/FormulaRepo;->r(Lcom/commsource/studio/formula/FormulaRepo;)Lf/k/i0/a/x;
@@ -534,7 +499,6 @@
 
     if-eqz p1, :cond_2
 
-    .line 1
     invoke-interface {p1}, Ljava/util/Collection;->isEmpty()Z
 
     move-result v4
@@ -553,7 +517,6 @@
     :goto_0
     if-eqz v4, :cond_2
 
-    .line 2
     sget-object v5, Lcom/commsource/studio/formula/FormulaRepo;->x:Lcom/commsource/studio/formula/FormulaRepo;
 
     invoke-static {v5}, Lcom/commsource/studio/formula/FormulaRepo;->r(Lcom/commsource/studio/formula/FormulaRepo;)Lf/k/i0/a/x;
@@ -562,7 +525,6 @@
 
     new-array v6, v3, [Lcom/commsource/studio/formula/JsFormula;
 
-    .line 3
     invoke-interface {v4, v6}, Ljava/util/Collection;->toArray([Ljava/lang/Object;)[Ljava/lang/Object;
 
     move-result-object v4
@@ -571,12 +533,10 @@
 
     check-cast v4, [Lcom/commsource/studio/formula/JsFormula;
 
-    .line 4
     invoke-interface {v5, v4}, Lf/k/i0/a/x;->l1([Lcom/commsource/studio/formula/JsFormula;)V
 
     goto :goto_1
 
-    .line 5
     :cond_1
     new-instance p1, Ljava/lang/NullPointerException;
 
@@ -590,7 +550,6 @@
     :goto_1
     if-eqz p2, :cond_4
 
-    .line 6
     sget-object v4, Lcom/commsource/studio/formula/FormulaRepo;->x:Lcom/commsource/studio/formula/FormulaRepo;
 
     invoke-static {v4}, Lcom/commsource/studio/formula/FormulaRepo;->r(Lcom/commsource/studio/formula/FormulaRepo;)Lf/k/i0/a/x;
@@ -599,7 +558,6 @@
 
     new-array v5, v3, [Lcom/commsource/studio/formula/JsFormula;
 
-    .line 7
     invoke-interface {p2, v5}, Ljava/util/Collection;->toArray([Ljava/lang/Object;)[Ljava/lang/Object;
 
     move-result-object v5
@@ -608,12 +566,10 @@
 
     check-cast v5, [Lcom/commsource/studio/formula/JsFormula;
 
-    .line 8
     invoke-interface {v4, v5}, Lf/k/i0/a/x;->v0([Lcom/commsource/studio/formula/JsFormula;)V
 
     goto :goto_2
 
-    .line 9
     :cond_3
     new-instance p1, Ljava/lang/NullPointerException;
 
@@ -627,7 +583,6 @@
     :goto_2
     if-eqz p3, :cond_6
 
-    .line 10
     sget-object v4, Lcom/commsource/studio/formula/FormulaRepo;->x:Lcom/commsource/studio/formula/FormulaRepo;
 
     invoke-static {v4}, Lcom/commsource/studio/formula/FormulaRepo;->r(Lcom/commsource/studio/formula/FormulaRepo;)Lf/k/i0/a/x;
@@ -636,7 +591,6 @@
 
     new-array v5, v3, [Lcom/commsource/studio/formula/JsFormula;
 
-    .line 11
     invoke-interface {p3, v5}, Ljava/util/Collection;->toArray([Ljava/lang/Object;)[Ljava/lang/Object;
 
     move-result-object v5
@@ -645,12 +599,10 @@
 
     check-cast v5, [Lcom/commsource/studio/formula/JsFormula;
 
-    .line 12
     invoke-interface {v4, v5}, Lf/k/i0/a/x;->z([Lcom/commsource/studio/formula/JsFormula;)V
 
     goto :goto_3
 
-    .line 13
     :cond_5
     new-instance p1, Ljava/lang/NullPointerException;
 
@@ -660,14 +612,12 @@
 
     throw p1
 
-    .line 14
     :cond_6
     :goto_3
     sget-object v1, Lcom/commsource/studio/formula/FormulaRepo;->x:Lcom/commsource/studio/formula/FormulaRepo;
 
     invoke-static {v1}, Lcom/commsource/studio/formula/FormulaRepo;->u(Lcom/commsource/studio/formula/FormulaRepo;)V
 
-    .line 15
     invoke-static {v1}, Lcom/commsource/studio/formula/FormulaRepo;->t(Lcom/commsource/studio/formula/FormulaRepo;)Z
 
     move-result v4
@@ -749,7 +699,6 @@
     :goto_a
     invoke-static {v1, v2}, Lcom/commsource/studio/formula/FormulaRepo;->w(Lcom/commsource/studio/formula/FormulaRepo;Z)V
 
-    .line 16
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -766,17 +715,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0, p1}, Lcom/commsource/repository/OnlineLocalMaterialCompator;->t(Ljava/lang/Throwable;)V
 
-    .line 2
     sget-object p1, Lcom/commsource/studio/formula/FormulaRepo;->x:Lcom/commsource/studio/formula/FormulaRepo;
 
     const/4 v1, 0x1
 
     invoke-static {p1, v1}, Lcom/commsource/studio/formula/FormulaRepo;->v(Lcom/commsource/studio/formula/FormulaRepo;Z)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

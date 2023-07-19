@@ -25,7 +25,6 @@
 .method constructor <init>(Lcom/meitu/hwbusinesskit/mopub/MopubRewardedAdManager;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/hwbusinesskit/mopub/MopubRewardedAdManager$1;->this$0:Lcom/meitu/hwbusinesskit/mopub/MopubRewardedAdManager;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -42,12 +41,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/hwbusinesskit/mopub/MopubRewardedAdManager$1;->this$0:Lcom/meitu/hwbusinesskit/mopub/MopubRewardedAdManager;
 
     invoke-virtual {v1}, Lcom/meitu/hwbusinesskit/mopub/MopubRewardedAdManager;->loadAdvert()V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

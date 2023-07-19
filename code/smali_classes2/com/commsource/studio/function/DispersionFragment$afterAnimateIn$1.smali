@@ -53,7 +53,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/studio/function/DispersionFragment$afterAnimateIn$1;->invoke()V
 
     sget-object v1, Lcotlin/t1;->a:Lcotlin/t1;
@@ -70,7 +69,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 2
     invoke-static {}, Lf/d/i/n;->d0()Z
 
     move-result v1
@@ -81,10 +79,8 @@
 
     const/4 v1, 0x0
 
-    .line 3
     invoke-static {v1}, Lf/d/i/n;->D1(Z)V
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/studio/function/DispersionFragment$afterAnimateIn$1;->this$0:Lcom/commsource/studio/function/DispersionFragment;
 
     invoke-static {v1}, Lcom/commsource/studio/function/DispersionFragment;->A1(Lcom/commsource/studio/function/DispersionFragment;)Lcom/commsource/beautyplus/f0/ob;
@@ -99,7 +95,6 @@
 
     invoke-static {v1}, Lcom/commsource/util/l0;->v0(Landroid/view/View;)V
 
-    .line 5
     iget-object v1, p0, Lcom/commsource/studio/function/DispersionFragment$afterAnimateIn$1;->this$0:Lcom/commsource/studio/function/DispersionFragment;
 
     invoke-static {v1}, Lcom/commsource/studio/function/DispersionFragment;->A1(Lcom/commsource/studio/function/DispersionFragment;)Lcom/commsource/beautyplus/f0/ob;
@@ -114,7 +109,6 @@
 
     invoke-static {v1}, Lcom/commsource/util/l0;->v0(Landroid/view/View;)V
 
-    .line 6
     iget-object v1, p0, Lcom/commsource/studio/function/DispersionFragment$afterAnimateIn$1;->this$0:Lcom/commsource/studio/function/DispersionFragment;
 
     invoke-static {v1}, Lcom/commsource/studio/function/DispersionFragment;->A1(Lcom/commsource/studio/function/DispersionFragment;)Lcom/commsource/beautyplus/f0/ob;
@@ -129,7 +123,6 @@
 
     invoke-static {v1}, Lcom/commsource/util/l0;->w(Landroid/view/View;)V
 
-    .line 7
     iget-object v1, p0, Lcom/commsource/studio/function/DispersionFragment$afterAnimateIn$1;->this$0:Lcom/commsource/studio/function/DispersionFragment;
 
     invoke-static {v1}, Lcom/commsource/studio/function/DispersionFragment;->A1(Lcom/commsource/studio/function/DispersionFragment;)Lcom/commsource/beautyplus/f0/ob;
@@ -144,7 +137,6 @@
 
     invoke-static {v1}, Lcom/commsource/util/l0;->w(Landroid/view/View;)V
 
-    .line 8
     iget-object v1, p0, Lcom/commsource/studio/function/DispersionFragment$afterAnimateIn$1;->this$0:Lcom/commsource/studio/function/DispersionFragment;
 
     invoke-virtual {v1}, Lcom/commsource/studio/function/DispersionFragment;->E1()Lcom/commsource/studio/layer/DispersionLayer;
@@ -153,7 +145,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/studio/layer/DispersionLayer;->N0(Z)V
 
-    .line 9
     new-instance v1, Lcom/commsource/studio/function/DispersionFragment$afterAnimateIn$1$a;
 
     invoke-direct {v1, p0}, Lcom/commsource/studio/function/DispersionFragment$afterAnimateIn$1$a;-><init>(Lcom/commsource/studio/function/DispersionFragment$afterAnimateIn$1;)V
@@ -162,7 +153,6 @@
 
     invoke-static {v1, v3, v4}, Lcom/commsource/util/g2;->l(Ljava/lang/Runnable;J)V
 
-    .line 10
     :cond_0
     iget-object v1, p0, Lcom/commsource/studio/function/DispersionFragment$afterAnimateIn$1;->this$0:Lcom/commsource/studio/function/DispersionFragment;
 
@@ -176,7 +166,6 @@
 
     invoke-virtual {v1, v3, v2}, Lcom/commsource/widget/XSeekBar;->t(IZ)V
 
-    .line 11
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

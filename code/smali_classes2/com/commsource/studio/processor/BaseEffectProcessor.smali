@@ -85,15 +85,12 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/4 v0, 0x1
 
-    .line 2
     iput-boolean v0, p0, Lcom/commsource/studio/processor/BaseEffectProcessor;->J:Z
 
-    .line 3
     new-instance v0, Lcom/commsource/studio/shader/n;
 
     invoke-direct {v0}, Lcom/commsource/studio/shader/n;-><init>()V
@@ -116,7 +113,6 @@
 
     if-eqz p2, :cond_0
 
-    .line 1
     iget-object p1, p0, Lcom/commsource/studio/processor/BaseEffectProcessor;->b:Lcom/commsource/easyeditor/utils/opengl/f;
 
     if-nez p1, :cond_0
@@ -132,7 +128,6 @@
 
     return-void
 
-    .line 2
     :cond_1
     new-instance p0, Ljava/lang/UnsupportedOperationException;
 
@@ -185,14 +180,12 @@
 
     move-object v4, p3
 
-    .line 1
     invoke-virtual/range {v1 .. v6}, Lcom/commsource/studio/processor/BaseEffectProcessor;->u(Lcom/commsource/easyeditor/utils/opengl/f;Lcom/commsource/easyeditor/utils/opengl/f;Lcom/commsource/camera/newrender/renderproxy/n;ZLcotlin/jvm/u/a;)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 2
     :cond_2
     new-instance p0, Ljava/lang/UnsupportedOperationException;
 
@@ -238,7 +231,6 @@
 
     if-eqz v2, :cond_2
 
-    .line 1
     iget-object v2, v0, Lcom/commsource/studio/processor/BaseEffectProcessor;->d:Lcom/commsource/studio/y;
 
     if-nez v2, :cond_1
@@ -262,7 +254,6 @@
 
     if-eqz v2, :cond_4
 
-    .line 2
     iget-object v2, v0, Lcom/commsource/studio/processor/BaseEffectProcessor;->d:Lcom/commsource/studio/y;
 
     if-nez v2, :cond_3
@@ -286,7 +277,6 @@
 
     if-eqz v2, :cond_6
 
-    .line 3
     iget-object v2, v0, Lcom/commsource/studio/processor/BaseEffectProcessor;->g:Lcom/commsource/studio/o;
 
     if-nez v2, :cond_5
@@ -326,14 +316,12 @@
 
     move-object v3, p3
 
-    .line 4
     invoke-virtual/range {v0 .. v8}, Lcom/commsource/studio/processor/BaseEffectProcessor;->v(Lcom/commsource/easyeditor/utils/opengl/f;Lcom/commsource/easyeditor/utils/opengl/f;Ljava/util/List;ZLcom/commsource/camera/d1/g/p;Lcom/meitu/library/renderarch/arch/data/b/d;Lcom/commsource/studio/o;Lcotlin/jvm/u/a;)V
 
     invoke-static {v9}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 5
     :cond_8
     new-instance v0, Ljava/lang/UnsupportedOperationException;
 
@@ -368,7 +356,6 @@
 
     const/4 p2, 0x0
 
-    .line 1
     :cond_1
     invoke-virtual {p0, p1, p2}, Lcom/commsource/studio/processor/BaseEffectProcessor;->y(ZLcotlin/jvm/u/a;)V
 
@@ -376,7 +363,6 @@
 
     return-void
 
-    .line 2
     :cond_2
     new-instance p0, Ljava/lang/UnsupportedOperationException;
 
@@ -406,7 +392,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/processor/BaseEffectProcessor;->g:Lcom/commsource/studio/o;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -429,7 +414,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/processor/BaseEffectProcessor;->b:Lcom/commsource/easyeditor/utils/opengl/f;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -448,7 +432,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/processor/BaseEffectProcessor;->c:Lcom/commsource/easyeditor/utils/opengl/c;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -471,7 +454,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/processor/BaseEffectProcessor;->f:Lcom/commsource/studio/s;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -486,7 +468,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/studio/processor/BaseEffectProcessor;->J:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -509,7 +490,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/processor/BaseEffectProcessor;->d:Lcom/commsource/studio/y;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -524,7 +504,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/studio/processor/BaseEffectProcessor;->p:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -547,7 +526,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/processor/BaseEffectProcessor;->a:Lcom/commsource/easyeditor/utils/opengl/f;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -570,7 +548,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/processor/BaseEffectProcessor;->K:Lcom/commsource/studio/shader/n;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -589,15 +566,12 @@
 
     const/4 v1, 0x0
 
-    .line 1
     iput-boolean v1, p0, Lcom/commsource/studio/processor/BaseEffectProcessor;->J:Z
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/processor/BaseEffectProcessor;->K:Lcom/commsource/studio/shader/n;
 
     invoke-virtual {v1}, Lcom/commsource/studio/shader/a;->e()V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -614,15 +588,12 @@
 
     const/4 v1, 0x1
 
-    .line 1
     iput-boolean v1, p0, Lcom/commsource/studio/processor/BaseEffectProcessor;->J:Z
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/processor/BaseEffectProcessor;->K:Lcom/commsource/studio/shader/n;
 
     invoke-virtual {v1}, Lcom/commsource/studio/shader/a;->f()V
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/studio/processor/BaseEffectProcessor;->f:Lcom/commsource/studio/s;
 
     if-nez v1, :cond_0
@@ -643,7 +614,6 @@
     :cond_1
     invoke-virtual {v1, v2}, Lcom/commsource/studio/s;->j(Lcom/commsource/easyeditor/utils/opengl/f;)V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -658,7 +628,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/processor/BaseEffectProcessor;->g:Lcom/commsource/studio/o;
 
     if-nez v1, :cond_0
@@ -682,7 +651,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/processor/BaseEffectProcessor;->b:Lcom/commsource/easyeditor/utils/opengl/f;
 
     if-nez v1, :cond_0
@@ -706,7 +674,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/processor/BaseEffectProcessor;->c:Lcom/commsource/easyeditor/utils/opengl/c;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -723,7 +690,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/processor/BaseEffectProcessor;->f:Lcom/commsource/studio/s;
 
     if-nez v1, :cond_0
@@ -745,7 +711,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/studio/processor/BaseEffectProcessor;->J:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -762,7 +727,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/processor/BaseEffectProcessor;->d:Lcom/commsource/studio/y;
 
     if-nez v1, :cond_0
@@ -786,7 +750,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/processor/BaseEffectProcessor;->a:Lcom/commsource/easyeditor/utils/opengl/f;
 
     if-nez v1, :cond_0
@@ -810,7 +773,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/processor/BaseEffectProcessor;->K:Lcom/commsource/studio/shader/n;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -825,7 +787,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/studio/processor/BaseEffectProcessor;->p:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -856,7 +817,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/processor/BaseEffectProcessor;->c:Lcom/commsource/easyeditor/utils/opengl/c;
 
     if-eqz v1, :cond_0
@@ -867,7 +827,6 @@
 
     invoke-interface {v1, v2}, Lcom/commsource/easyeditor/utils/opengl/c;->g(Ljava/lang/Runnable;)V
 
-    .line 2
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -889,7 +848,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/processor/BaseEffectProcessor;->K:Lcom/commsource/studio/shader/n;
 
     iget-object v2, p0, Lcom/commsource/studio/processor/BaseEffectProcessor;->a:Lcom/commsource/easyeditor/utils/opengl/f;
@@ -903,7 +861,6 @@
     :cond_0
     invoke-virtual {v1, p1, v2}, Lcom/commsource/studio/shader/n;->k(Lcom/commsource/easyeditor/utils/opengl/f;Lcom/commsource/easyeditor/utils/opengl/f;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -924,7 +881,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -991,7 +947,6 @@
 
     aput-object v0, v2, v3
 
-    .line 1
     invoke-static {v2}, Lcotlin/collections/s;->r([Ljava/lang/Object;)Ljava/util/ArrayList;
 
     move-result-object v6
@@ -1012,10 +967,8 @@
 
     move-object/from16 v11, p5
 
-    .line 2
     invoke-static/range {v3 .. v13}, Lcom/commsource/studio/processor/BaseEffectProcessor;->x(Lcom/commsource/studio/processor/BaseEffectProcessor;Lcom/commsource/easyeditor/utils/opengl/f;Lcom/commsource/easyeditor/utils/opengl/f;Ljava/util/List;ZLcom/commsource/camera/d1/g/p;Lcom/meitu/library/renderarch/arch/data/b/d;Lcom/commsource/studio/o;Lcotlin/jvm/u/a;ILjava/lang/Object;)V
 
-    .line 3
     invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1087,7 +1040,6 @@
 
     if-eqz p4, :cond_1
 
-    .line 1
     invoke-interface {p3}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v1
@@ -1105,7 +1057,6 @@
 
     check-cast v2, Lcom/commsource/camera/newrender/renderproxy/n;
 
-    .line 2
     invoke-virtual {v2}, Lcom/commsource/camera/newrender/renderproxy/n;->h()V
 
     goto :goto_0
@@ -1113,14 +1064,12 @@
     :cond_0
     if-eqz p8, :cond_1
 
-    .line 3
     invoke-interface {p8}, Lcotlin/jvm/u/a;->invoke()Ljava/lang/Object;
 
     move-result-object p8
 
     check-cast p8, Lcotlin/t1;
 
-    .line 4
     :cond_1
     invoke-interface {p3}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
@@ -1140,14 +1089,12 @@
 
     check-cast v1, Lcom/commsource/camera/newrender/renderproxy/n;
 
-    .line 5
     const-class v2, Lcom/commsource/camera/d1/g/p;
 
     invoke-virtual {v1, p5, v2}, Lcom/commsource/camera/newrender/renderproxy/n;->s(Ljava/lang/Object;Ljava/lang/Class;)V
 
     if-eqz p7, :cond_3
 
-    .line 6
     invoke-virtual {p7}, Lcom/commsource/studio/o;->n()Lcom/commsource/camera/d1/g/j;
 
     move-result-object v2
@@ -1156,7 +1103,6 @@
 
     invoke-virtual {v1, v2, v3}, Lcom/commsource/camera/newrender/renderproxy/n;->s(Ljava/lang/Object;Ljava/lang/Class;)V
 
-    .line 7
     invoke-virtual {p7}, Lcom/commsource/studio/o;->r()Lcom/commsource/camera/d1/g/r;
 
     move-result-object v2
@@ -1165,7 +1111,6 @@
 
     invoke-virtual {v1, v2, v3}, Lcom/commsource/camera/newrender/renderproxy/n;->s(Ljava/lang/Object;Ljava/lang/Class;)V
 
-    .line 8
     invoke-virtual {p7}, Lcom/commsource/studio/o;->p()Lcom/commsource/camera/d1/g/l;
 
     move-result-object v2
@@ -1174,7 +1119,6 @@
 
     invoke-virtual {v1, v2, v3}, Lcom/commsource/camera/newrender/renderproxy/n;->s(Ljava/lang/Object;Ljava/lang/Class;)V
 
-    .line 9
     invoke-virtual {p7}, Lcom/commsource/studio/o;->j()Lcom/commsource/camera/d1/g/g;
 
     move-result-object v2
@@ -1183,7 +1127,6 @@
 
     invoke-virtual {v1, v2, v3}, Lcom/commsource/camera/newrender/renderproxy/n;->s(Ljava/lang/Object;Ljava/lang/Class;)V
 
-    .line 10
     invoke-virtual {p7}, Lcom/commsource/studio/o;->k()Lcom/commsource/camera/d1/g/f;
 
     move-result-object v2
@@ -1192,7 +1135,6 @@
 
     invoke-virtual {v1, v2, v3}, Lcom/commsource/camera/newrender/renderproxy/n;->s(Ljava/lang/Object;Ljava/lang/Class;)V
 
-    .line 11
     invoke-virtual {p7}, Lcom/commsource/studio/o;->q()Lcom/commsource/camera/d1/g/q;
 
     move-result-object v2
@@ -1201,7 +1143,6 @@
 
     invoke-virtual {v1, v2, v3}, Lcom/commsource/camera/newrender/renderproxy/n;->s(Ljava/lang/Object;Ljava/lang/Class;)V
 
-    .line 12
     invoke-virtual {p7}, Lcom/commsource/studio/o;->m()Lcom/commsource/camera/d1/g/h;
 
     move-result-object v2
@@ -1210,7 +1151,6 @@
 
     invoke-virtual {v1, v2, v3}, Lcom/commsource/camera/newrender/renderproxy/n;->s(Ljava/lang/Object;Ljava/lang/Class;)V
 
-    .line 13
     invoke-virtual {p7}, Lcom/commsource/studio/o;->s()Lcom/commsource/camera/d1/g/s;
 
     move-result-object v2
@@ -1222,7 +1162,6 @@
     :cond_3
     if-eqz p6, :cond_2
 
-    .line 14
     invoke-virtual {v1, p6}, Lcom/commsource/camera/newrender/renderproxy/n;->k(Lcom/meitu/library/renderarch/arch/data/b/d;)V
 
     goto :goto_1
@@ -1232,7 +1171,6 @@
 
     new-array p5, p5, [Lcom/commsource/easyeditor/utils/opengl/f;
 
-    .line 15
     iget-object v1, p0, Lcom/commsource/studio/processor/BaseEffectProcessor;->f:Lcom/commsource/studio/s;
 
     const-string p6, "fboPool"
@@ -1260,7 +1198,6 @@
 
     aput-object p7, p5, p8
 
-    .line 16
     iget-object v1, p0, Lcom/commsource/studio/processor/BaseEffectProcessor;->f:Lcom/commsource/studio/s;
 
     if-nez v1, :cond_6
@@ -1286,14 +1223,12 @@
 
     aput-object p7, p5, v1
 
-    .line 17
     iget-object p7, p0, Lcom/commsource/studio/processor/BaseEffectProcessor;->K:Lcom/commsource/studio/shader/n;
 
     aget-object v2, p5, p8
 
     invoke-virtual {p7, p1, v2}, Lcom/commsource/studio/shader/n;->k(Lcom/commsource/easyeditor/utils/opengl/f;Lcom/commsource/easyeditor/utils/opengl/f;)V
 
-    .line 18
     sget-object p1, Lcom/commsource/studio/processor/BaseEffectProcessor;->L:Lcom/commsource/studio/processor/BaseEffectProcessor$a;
 
     invoke-virtual {p1, p5, p3}, Lcom/commsource/studio/processor/BaseEffectProcessor$a;->a([Lcom/commsource/easyeditor/utils/opengl/f;Ljava/util/List;)Lcom/commsource/easyeditor/utils/opengl/f;
@@ -1302,7 +1237,6 @@
 
     if-eqz p4, :cond_7
 
-    .line 19
     invoke-interface {p3}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object p3
@@ -1320,18 +1254,15 @@
 
     check-cast p4, Lcom/commsource/camera/newrender/renderproxy/n;
 
-    .line 20
     invoke-virtual {p4}, Lcom/commsource/camera/newrender/renderproxy/n;->i()V
 
     goto :goto_2
 
-    .line 21
     :cond_7
     iget-object p3, p0, Lcom/commsource/studio/processor/BaseEffectProcessor;->K:Lcom/commsource/studio/shader/n;
 
     invoke-virtual {p3, p1, p2}, Lcom/commsource/studio/shader/n;->k(Lcom/commsource/easyeditor/utils/opengl/f;Lcom/commsource/easyeditor/utils/opengl/f;)V
 
-    .line 22
     iget-object p1, p0, Lcom/commsource/studio/processor/BaseEffectProcessor;->f:Lcom/commsource/studio/s;
 
     if-nez p1, :cond_8
@@ -1343,7 +1274,6 @@
 
     invoke-virtual {p1, p2}, Lcom/commsource/studio/s;->j(Lcom/commsource/easyeditor/utils/opengl/f;)V
 
-    .line 23
     iget-object p1, p0, Lcom/commsource/studio/processor/BaseEffectProcessor;->f:Lcom/commsource/studio/s;
 
     if-nez p1, :cond_9
@@ -1355,7 +1285,6 @@
 
     invoke-virtual {p1, p2}, Lcom/commsource/studio/s;->j(Lcom/commsource/easyeditor/utils/opengl/f;)V
 
-    .line 24
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1382,7 +1311,6 @@
 
     if-nez p1, :cond_0
 
-    .line 1
     iget-boolean p1, p0, Lcom/commsource/studio/processor/BaseEffectProcessor;->p:Z
 
     if-nez p1, :cond_1
@@ -1390,17 +1318,14 @@
     :cond_0
     const/4 p1, 0x1
 
-    .line 2
     iput-boolean p1, p0, Lcom/commsource/studio/processor/BaseEffectProcessor;->p:Z
 
-    .line 3
     new-instance p1, Lcom/commsource/studio/processor/BaseEffectProcessor$requestRender$1;
 
     invoke-direct {p1, p0, p2}, Lcom/commsource/studio/processor/BaseEffectProcessor$requestRender$1;-><init>(Lcom/commsource/studio/processor/BaseEffectProcessor;Lcotlin/jvm/u/a;)V
 
     invoke-virtual {p0, p1}, Lcom/commsource/studio/processor/BaseEffectProcessor;->q(Lcotlin/jvm/u/a;)V
 
-    .line 4
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

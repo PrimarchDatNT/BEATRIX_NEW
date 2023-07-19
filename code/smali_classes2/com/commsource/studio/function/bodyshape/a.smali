@@ -37,18 +37,14 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/studio/processor/BaseEffectProcessor;-><init>()V
 
     const/4 v0, 0x1
 
-    .line 2
     iput-boolean v0, p0, Lcom/commsource/studio/function/bodyshape/a;->O:Z
 
-    .line 3
     iput-boolean v0, p0, Lcom/commsource/studio/function/bodyshape/a;->P:Z
 
-    .line 4
     new-instance v0, Ljava/util/LinkedList;
 
     invoke-direct {v0}, Ljava/util/LinkedList;-><init>()V
@@ -65,7 +61,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/commsource/camera/newrender/renderproxy/m;
 
     invoke-direct {v1}, Lcom/commsource/camera/newrender/renderproxy/m;-><init>()V
@@ -78,7 +73,6 @@
 
     move-result-object v1
 
-    .line 2
     new-instance v2, Ljava/util/HashMap;
 
     const/16 v3, 0x8
@@ -87,7 +81,6 @@
 
     const/16 v3, 0x94
 
-    .line 3
     invoke-static {v3}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v3
@@ -98,7 +91,6 @@
 
     invoke-virtual {v2, v3, v4}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 4
     invoke-virtual {v1}, Lcom/commsource/camera/newrender/renderproxy/m;->O()Lcom/commsource/camera/newrender/renderproxy/m$a;
 
     move-result-object v3
@@ -113,11 +105,9 @@
 
     invoke-virtual {v2}, Lcom/commsource/camera/newrender/renderproxy/m$a;->b()V
 
-    .line 5
     :cond_0
     iput-object v1, p0, Lcom/commsource/studio/function/bodyshape/a;->N:Lcom/commsource/camera/newrender/renderproxy/m;
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -130,12 +120,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/commsource/easyeditor/utils/opengl/j;
 
     invoke-direct {v1}, Lcom/commsource/easyeditor/utils/opengl/j;-><init>()V
 
-    .line 2
     invoke-virtual {p0}, Lcom/commsource/studio/processor/BaseEffectProcessor;->n()Lcom/commsource/easyeditor/utils/opengl/f;
 
     move-result-object v2
@@ -150,10 +138,8 @@
 
     invoke-virtual {v1, v2, v3}, Lcom/commsource/easyeditor/utils/opengl/j;->w(II)V
 
-    .line 3
     iput-object v1, p0, Lcom/commsource/studio/function/bodyshape/a;->M:Lcom/commsource/easyeditor/utils/opengl/j;
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -170,7 +156,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/function/bodyshape/a;->M:Lcom/commsource/easyeditor/utils/opengl/j;
 
     if-eqz v1, :cond_0
@@ -199,7 +184,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/function/bodyshape/a;->N:Lcom/commsource/camera/newrender/renderproxy/m;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -216,7 +200,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/function/bodyshape/a;->M:Lcom/commsource/easyeditor/utils/opengl/j;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -231,7 +214,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/studio/function/bodyshape/a;->O:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -246,7 +228,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/studio/function/bodyshape/a;->P:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -261,7 +242,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/studio/function/bodyshape/a;->O:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -280,7 +260,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/function/bodyshape/a;->N:Lcom/commsource/camera/newrender/renderproxy/m;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -308,10 +287,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/function/bodyshape/a;->Q:Ljava/util/LinkedList;
 
-    .line 2
     invoke-interface {v1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v1
@@ -330,17 +307,14 @@
 
     check-cast v2, Lcom/commsource/camera/newrender/renderproxy/n;
 
-    .line 3
     invoke-virtual {v2, p2}, Lcom/commsource/camera/newrender/renderproxy/n;->c(Ljava/lang/Class;)Ljava/lang/Object;
 
     move-result-object v3
 
-    .line 4
     invoke-virtual {v2, p1, p2}, Lcom/commsource/camera/newrender/renderproxy/n;->s(Ljava/lang/Object;Ljava/lang/Class;)V
 
     if-eqz v3, :cond_0
 
-    .line 5
     instance-of v2, v3, Lcom/commsource/camera/d1/g/g;
 
     if-eqz v2, :cond_1
@@ -355,7 +329,6 @@
 
     if-eqz v3, :cond_2
 
-    .line 6
     check-cast v3, Lcom/commsource/camera/d1/g/g;
 
     invoke-virtual {v3}, Lcom/commsource/camera/d1/g/g;->e()V
@@ -373,7 +346,6 @@
 
     throw p1
 
-    .line 7
     :cond_3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -391,7 +363,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/function/bodyshape/a;->M:Lcom/commsource/easyeditor/utils/opengl/j;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -406,7 +377,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/studio/function/bodyshape/a;->P:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -429,12 +399,10 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-virtual {p1}, Lcom/commsource/studio/effect/bodyshape/BodyShapeEnum;->getId()I
 
     move-result v1
 
-    .line 2
     sget-object v2, Lcom/commsource/studio/effect/bodyshape/BodyShapeEnum;->Breast:Lcom/commsource/studio/effect/bodyshape/BodyShapeEnum;
 
     invoke-virtual {v2}, Lcom/commsource/studio/effect/bodyshape/BodyShapeEnum;->getId()I
@@ -443,7 +411,6 @@
 
     if-ne v1, v2, :cond_0
 
-    .line 3
     iget-object p1, p0, Lcom/commsource/studio/function/bodyshape/a;->M:Lcom/commsource/easyeditor/utils/opengl/j;
 
     if-eqz p1, :cond_3
@@ -452,7 +419,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_0
     sget-object v2, Lcom/commsource/studio/effect/bodyshape/BodyShapeEnum;->Waist:Lcom/commsource/studio/effect/bodyshape/BodyShapeEnum;
 
@@ -462,7 +428,6 @@
 
     if-ne v1, v2, :cond_1
 
-    .line 5
     iget-object p1, p0, Lcom/commsource/studio/function/bodyshape/a;->M:Lcom/commsource/easyeditor/utils/opengl/j;
 
     if-eqz p1, :cond_3
@@ -471,7 +436,6 @@
 
     goto :goto_0
 
-    .line 6
     :cond_1
     sget-object v2, Lcom/commsource/studio/effect/bodyshape/BodyShapeEnum;->Shoulder:Lcom/commsource/studio/effect/bodyshape/BodyShapeEnum;
 
@@ -481,7 +445,6 @@
 
     if-ne v1, v2, :cond_2
 
-    .line 7
     iget-object p1, p0, Lcom/commsource/studio/function/bodyshape/a;->M:Lcom/commsource/easyeditor/utils/opengl/j;
 
     if-eqz p1, :cond_3
@@ -490,7 +453,6 @@
 
     goto :goto_0
 
-    .line 8
     :cond_2
     iget-object v1, p0, Lcom/commsource/studio/function/bodyshape/a;->N:Lcom/commsource/camera/newrender/renderproxy/m;
 
@@ -508,7 +470,6 @@
 
     invoke-virtual {v1, p1, p2}, Lcom/commsource/camera/newrender/renderproxy/v/x;->d2(IF)V
 
-    .line 9
     :cond_3
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -523,16 +484,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0}, Lcom/commsource/studio/processor/BaseEffectProcessor;->a()V
 
-    .line 2
     invoke-direct {p0}, Lcom/commsource/studio/function/bodyshape/a;->N()V
 
-    .line 3
     invoke-direct {p0}, Lcom/commsource/studio/function/bodyshape/a;->M()V
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/studio/function/bodyshape/a;->Q:Ljava/util/LinkedList;
 
     iget-object v2, p0, Lcom/commsource/studio/function/bodyshape/a;->N:Lcom/commsource/camera/newrender/renderproxy/m;
@@ -544,7 +501,6 @@
     :cond_0
     invoke-virtual {v1, v2}, Ljava/util/LinkedList;->add(Ljava/lang/Object;)Z
 
-    .line 5
     iget-object v1, p0, Lcom/commsource/studio/function/bodyshape/a;->Q:Ljava/util/LinkedList;
 
     iget-object v2, p0, Lcom/commsource/studio/function/bodyshape/a;->M:Lcom/commsource/easyeditor/utils/opengl/j;
@@ -556,10 +512,8 @@
     :cond_1
     invoke-virtual {v1, v2}, Ljava/util/LinkedList;->add(Ljava/lang/Object;)Z
 
-    .line 6
     iget-object v1, p0, Lcom/commsource/studio/function/bodyshape/a;->Q:Ljava/util/LinkedList;
 
-    .line 7
     invoke-interface {v1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v1
@@ -577,12 +531,10 @@
 
     check-cast v2, Lcom/commsource/camera/newrender/renderproxy/n;
 
-    .line 8
     invoke-virtual {v2}, Lcom/commsource/camera/newrender/renderproxy/n;->h()V
 
     goto :goto_0
 
-    .line 9
     :cond_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -596,13 +548,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0}, Lcom/commsource/studio/processor/BaseEffectProcessor;->c()V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/function/bodyshape/a;->Q:Ljava/util/LinkedList;
 
-    .line 3
     invoke-interface {v1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v1
@@ -620,12 +569,10 @@
 
     check-cast v2, Lcom/commsource/camera/newrender/renderproxy/n;
 
-    .line 4
     invoke-virtual {v2}, Lcom/commsource/camera/newrender/renderproxy/n;->i()V
 
     goto :goto_0
 
-    .line 5
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -647,7 +594,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/studio/processor/BaseEffectProcessor;->n()Lcom/commsource/easyeditor/utils/opengl/f;
 
     move-result-object v3
@@ -674,7 +620,6 @@
 
     invoke-static/range {v2 .. v12}, Lcom/commsource/studio/processor/BaseEffectProcessor;->x(Lcom/commsource/studio/processor/BaseEffectProcessor;Lcom/commsource/easyeditor/utils/opengl/f;Lcom/commsource/easyeditor/utils/opengl/f;Ljava/util/List;ZLcom/commsource/camera/d1/g/p;Lcom/meitu/library/renderarch/arch/data/b/d;Lcom/commsource/studio/o;Lcotlin/jvm/u/a;ILjava/lang/Object;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

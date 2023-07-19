@@ -9,7 +9,6 @@
 .method public final a()Z
     .locals 1
 
-    .line 1
     new-instance v0, Ljava/lang/NoSuchMethodError;
 
     invoke-direct {v0}, Ljava/lang/NoSuchMethodError;-><init>()V
@@ -20,7 +19,6 @@
 .method public final b()Lcom/google/android/gms/internal/firebase_auth/s5;
     .locals 1
 
-    .line 1
     new-instance v0, Ljava/lang/NoSuchMethodError;
 
     invoke-direct {v0}, Ljava/lang/NoSuchMethodError;-><init>()V
@@ -31,7 +29,6 @@
 .method public final c()I
     .locals 1
 
-    .line 1
     new-instance v0, Ljava/lang/NoSuchMethodError;
 
     invoke-direct {v0}, Ljava/lang/NoSuchMethodError;-><init>()V

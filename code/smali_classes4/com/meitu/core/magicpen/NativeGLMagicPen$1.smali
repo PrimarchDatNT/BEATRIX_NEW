@@ -25,7 +25,6 @@
 .method constructor <init>(Lcom/meitu/core/magicpen/NativeGLMagicPen;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/core/magicpen/NativeGLMagicPen$1;->this$0:Lcom/meitu/core/magicpen/NativeGLMagicPen;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -42,7 +41,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/core/magicpen/NativeGLMagicPen$1;->this$0:Lcom/meitu/core/magicpen/NativeGLMagicPen;
 
     invoke-static {v1}, Lcom/meitu/core/magicpen/NativeGLMagicPen;->access$100(Lcom/meitu/core/magicpen/NativeGLMagicPen;)J
@@ -51,7 +49,6 @@
 
     invoke-static {v1, v2, v3}, Lcom/meitu/core/magicpen/NativeGLMagicPen;->access$002(Lcom/meitu/core/magicpen/NativeGLMagicPen;J)J
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

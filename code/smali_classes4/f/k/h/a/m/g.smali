@@ -7,7 +7,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -20,20 +19,16 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/util/ArrayList;
 
     invoke-direct {v1}, Ljava/util/ArrayList;-><init>()V
 
-    .line 2
     invoke-virtual {v1, p0}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    .line 3
     invoke-static {v1}, Lf/k/h/a/m/g;->b(Ljava/util/List;)Ljava/lang/String;
 
     move-result-object p0
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
@@ -55,12 +50,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/util/ArrayList;
 
     invoke-direct {v1}, Ljava/util/ArrayList;-><init>()V
 
-    .line 2
     invoke-interface {p0}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
     move-result-object p0
@@ -78,7 +71,6 @@
 
     check-cast v2, Lcom/meitu/global/billing/purchase/data/MTGPurchase;
 
-    .line 3
     sget-object v3, Lf/k/h/a/l/w;->a:Ljava/lang/String;
 
     new-instance v4, Ljava/lang/StringBuilder;
@@ -101,7 +93,6 @@
 
     invoke-static {v3, v4}, Lf/k/h/a/c;->a(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 4
     invoke-static {}, Lf/k/h/a/b;->a()Ljava/lang/String;
 
     move-result-object v3
@@ -114,7 +105,6 @@
 
     if-eqz v3, :cond_0
 
-    .line 5
     new-instance v3, Lcom/meitu/global/billing/net/data/RequestPurchaseInfo;
 
     invoke-virtual {v2}, Lcom/meitu/global/billing/purchase/data/MTGPurchase;->getProductId()Ljava/lang/String;
@@ -137,7 +127,6 @@
 
     goto :goto_1
 
-    .line 6
     :cond_0
     new-instance v3, Lcom/meitu/global/billing/net/data/RequestPurchaseInfo;
 
@@ -151,13 +140,11 @@
 
     invoke-direct {v3, v4, v2}, Lcom/meitu/global/billing/net/data/RequestPurchaseInfo;-><init>(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 7
     :goto_1
     invoke-interface {v1, v3}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
     goto :goto_0
 
-    .line 8
     :cond_1
     new-instance p0, Lcom/google/gson/Gson;
 
@@ -183,7 +170,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lf/k/h/a/b;->a()Ljava/lang/String;
 
     move-result-object v1
@@ -203,7 +189,6 @@
     :cond_0
     const-string v1, "/subcenter/submit_android_sub_info"
 
-    .line 2
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -228,10 +213,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/meitu/global/billing/net/http/e$b;
 
-    .line 2
     invoke-static {}, Lf/k/h/a/m/g;->c()Ljava/lang/String;
 
     move-result-object v2
@@ -240,21 +223,18 @@
 
     const-class v2, Lcom/meitu/global/billing/net/data/ResponseSubInfo;
 
-    .line 3
     invoke-virtual {v1, v2}, Lcom/meitu/global/billing/net/http/e$b;->l(Ljava/lang/Class;)Lcom/meitu/global/billing/net/http/e$b;
 
     move-result-object v1
 
     const-string v2, "purchaseInfoList"
 
-    .line 4
     invoke-virtual {v1, v2, p0}, Lcom/meitu/global/billing/net/http/e$b;->k(Ljava/lang/String;Ljava/lang/Object;)Lcom/meitu/global/billing/net/http/e$b;
 
     move-result-object p0
 
     const/4 v1, 0x0
 
-    .line 5
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v1
@@ -265,7 +245,6 @@
 
     move-result-object p0
 
-    .line 6
     invoke-static {}, Lcom/meitu/global/billing/net/http/d;->m()Lcom/meitu/global/billing/net/http/d;
 
     move-result-object v1
@@ -280,7 +259,6 @@
 
     move-result-object p0
 
-    .line 7
     invoke-static {}, Lcom/meitu/global/billing/net/http/d;->m()Lcom/meitu/global/billing/net/http/d;
 
     move-result-object v1
@@ -295,7 +273,6 @@
 
     move-result-object p0
 
-    .line 8
     invoke-static {}, Lcom/meitu/global/billing/net/http/d;->m()Lcom/meitu/global/billing/net/http/d;
 
     move-result-object v1
@@ -310,7 +287,6 @@
 
     move-result-object p0
 
-    .line 9
     invoke-static {p1, p2}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
 
     move-result-object p1
@@ -323,19 +299,16 @@
 
     const-string p1, "productCurrency"
 
-    .line 10
     invoke-virtual {p0, p1, p3}, Lcom/meitu/global/billing/net/http/e$b;->k(Ljava/lang/String;Ljava/lang/Object;)Lcom/meitu/global/billing/net/http/e$b;
 
     move-result-object p0
 
-    .line 11
     invoke-static {}, Lcom/meitu/global/billing/net/s;->b()Lcom/meitu/global/billing/net/s;
 
     move-result-object p1
 
     invoke-virtual {p1, p0, p4}, Lcom/meitu/global/billing/net/s;->f(Lcom/meitu/global/billing/net/http/e$b;Lcom/meitu/global/billing/net/i;)V
 
-    .line 12
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -357,10 +330,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/meitu/global/billing/net/http/e$b;
 
-    .line 2
     invoke-static {}, Lf/k/h/a/m/g;->c()Ljava/lang/String;
 
     move-result-object v2
@@ -369,21 +340,18 @@
 
     const-class v2, Lcom/meitu/global/billing/net/data/ResponseSubInfo;
 
-    .line 3
     invoke-virtual {v1, v2}, Lcom/meitu/global/billing/net/http/e$b;->l(Ljava/lang/Class;)Lcom/meitu/global/billing/net/http/e$b;
 
     move-result-object v1
 
     const-string v2, "purchaseInfoList"
 
-    .line 4
     invoke-virtual {v1, v2, p0}, Lcom/meitu/global/billing/net/http/e$b;->k(Ljava/lang/String;Ljava/lang/Object;)Lcom/meitu/global/billing/net/http/e$b;
 
     move-result-object p0
 
     const/4 v1, 0x1
 
-    .line 5
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v1
@@ -398,28 +366,24 @@
 
     const-string v2, ""
 
-    .line 6
     invoke-virtual {p0, v1, v2}, Lcom/meitu/global/billing/net/http/e$b;->k(Ljava/lang/String;Ljava/lang/Object;)Lcom/meitu/global/billing/net/http/e$b;
 
     move-result-object p0
 
     const-string v1, "adId"
 
-    .line 7
     invoke-virtual {p0, v1, v2}, Lcom/meitu/global/billing/net/http/e$b;->k(Ljava/lang/String;Ljava/lang/Object;)Lcom/meitu/global/billing/net/http/e$b;
 
     move-result-object p0
 
     const-string v1, "firebaseId"
 
-    .line 8
     invoke-virtual {p0, v1, v2}, Lcom/meitu/global/billing/net/http/e$b;->k(Ljava/lang/String;Ljava/lang/Object;)Lcom/meitu/global/billing/net/http/e$b;
 
     move-result-object p0
 
     const-wide/16 v3, 0x0
 
-    .line 9
     invoke-static {v3, v4}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
 
     move-result-object v1
@@ -432,19 +396,16 @@
 
     const-string v1, "productCurrency"
 
-    .line 10
     invoke-virtual {p0, v1, v2}, Lcom/meitu/global/billing/net/http/e$b;->k(Ljava/lang/String;Ljava/lang/Object;)Lcom/meitu/global/billing/net/http/e$b;
 
     move-result-object p0
 
-    .line 11
     invoke-static {}, Lcom/meitu/global/billing/net/s;->b()Lcom/meitu/global/billing/net/s;
 
     move-result-object v1
 
     invoke-virtual {v1, p0, p1}, Lcom/meitu/global/billing/net/s;->f(Lcom/meitu/global/billing/net/http/e$b;Lcom/meitu/global/billing/net/i;)V
 
-    .line 12
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

@@ -20,7 +20,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-direct {p0, p1, p2, p3, v0}, Lcom/sdk/imp/base/UrlAction;-><init>(Ljava/lang/String;IZLcom/sdk/imp/base/UrlAction$1;)V
 
     return-void
@@ -50,7 +49,6 @@
 
     const-string p1, "Link to about page ignored."
 
-    .line 1
     invoke-static {p1}, Lf/q/b/g;->a(Ljava/lang/String;)V
 
     return-void
@@ -63,7 +61,6 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-virtual {p1}, Landroid/net/Uri;->getScheme()Ljava/lang/String;
 
     move-result-object p1

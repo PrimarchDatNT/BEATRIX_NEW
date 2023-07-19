@@ -52,7 +52,6 @@
 .method public constructor <init>(Lcom/commsource/backend/bean/TopBannerAd;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/backend/bean/TopBannerAd$a;->f:Lcom/commsource/backend/bean/TopBannerAd;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V

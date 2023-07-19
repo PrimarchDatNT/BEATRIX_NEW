@@ -7,7 +7,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Landroid/graphics/Paint;-><init>()V
 
     return-void
@@ -16,7 +15,6 @@
 .method public constructor <init>(I)V
     .locals 0
 
-    .line 2
     invoke-direct {p0, p1}, Landroid/graphics/Paint;-><init>(I)V
 
     return-void
@@ -25,10 +23,8 @@
 .method public constructor <init>(ILandroid/graphics/PorterDuff$Mode;)V
     .locals 0
 
-    .line 5
     invoke-direct {p0, p1}, Landroid/graphics/Paint;-><init>(I)V
 
-    .line 6
     new-instance p1, Landroid/graphics/PorterDuffXfermode;
 
     invoke-direct {p1, p2}, Landroid/graphics/PorterDuffXfermode;-><init>(Landroid/graphics/PorterDuff$Mode;)V
@@ -41,10 +37,8 @@
 .method public constructor <init>(Landroid/graphics/PorterDuff$Mode;)V
     .locals 1
 
-    .line 3
     invoke-direct {p0}, Landroid/graphics/Paint;-><init>()V
 
-    .line 4
     new-instance v0, Landroid/graphics/PorterDuffXfermode;
 
     invoke-direct {v0, p1}, Landroid/graphics/PorterDuffXfermode;-><init>(Landroid/graphics/PorterDuff$Mode;)V

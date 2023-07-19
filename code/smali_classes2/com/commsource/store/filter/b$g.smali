@@ -59,14 +59,12 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     invoke-virtual {p1}, Lcom/meitu/template/bean/Filter;->getDownloadState()I
 
     move-result v2
 
     if-ne v2, v1, :cond_0
 
-    .line 2
     iget-object v2, p0, Lcom/commsource/store/filter/b$g;->a:Lcom/commsource/store/filter/b;
 
     invoke-static {v2}, Lcom/commsource/store/filter/b;->A(Lcom/commsource/store/filter/b;)Lcom/commsource/store/filter/FilterStoreViewModel;
@@ -79,7 +77,6 @@
 
     invoke-virtual {v2, v3}, Lcom/commsource/store/filter/FilterStoreViewModel;->I(I)V
 
-    .line 3
     :cond_0
     iget-object v2, p0, Lcom/commsource/store/filter/b$g;->a:Lcom/commsource/store/filter/b;
 
@@ -93,7 +90,6 @@
 
     invoke-virtual {v2, p1, v1}, Lcom/commsource/widget/h1/e;->w(Ljava/lang/Object;Ljava/lang/Object;)V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -106,7 +102,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Lcom/meitu/template/bean/Filter;
 
     invoke-virtual {p0, p1}, Lcom/commsource/store/filter/b$g;->a(Lcom/meitu/template/bean/Filter;)V

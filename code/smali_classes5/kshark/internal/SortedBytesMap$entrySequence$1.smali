@@ -54,7 +54,6 @@
 .method public bridge synthetic invoke(Ljava/lang/Object;)Ljava/lang/Object;
     .locals 0
 
-    .line 1
     check-cast p1, Ljava/lang/Number;
 
     invoke-virtual {p1}, Ljava/lang/Number;->intValue()I
@@ -83,7 +82,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 2
     iget-object v0, p0, Lkshark/internal/SortedBytesMap$entrySequence$1;->this$0:Lkshark/internal/SortedBytesMap;
 
     invoke-static {v0}, Lkshark/internal/SortedBytesMap;->a(Lkshark/internal/SortedBytesMap;)I
@@ -100,7 +98,6 @@
 
     add-int/2addr v0, v1
 
-    .line 3
     iget-object v1, p0, Lkshark/internal/SortedBytesMap$entrySequence$1;->this$0:Lkshark/internal/SortedBytesMap;
 
     invoke-static {v1, p1}, Lkshark/internal/SortedBytesMap;->f(Lkshark/internal/SortedBytesMap;I)J

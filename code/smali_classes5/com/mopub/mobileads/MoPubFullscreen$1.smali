@@ -25,7 +25,6 @@
 .method constructor <init>(Lcom/mopub/mobileads/MoPubFullscreen;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/mopub/mobileads/MoPubFullscreen$1;->this$0:Lcom/mopub/mobileads/MoPubFullscreen;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -42,14 +41,12 @@
         .end annotation
     .end param
 
-    .line 1
     iget-object p1, p0, Lcom/mopub/mobileads/MoPubFullscreen$1;->this$0:Lcom/mopub/mobileads/MoPubFullscreen;
 
     iget-object p1, p1, Lcom/mopub/mobileads/BaseAd;->mLoadListener:Lcom/mopub/mobileads/AdLifecycleListener$LoadListener;
 
     if-eqz p1, :cond_0
 
-    .line 2
     sget-object v0, Lcom/mopub/mobileads/MoPubErrorCode;->FULLSCREEN_LOAD_ERROR:Lcom/mopub/mobileads/MoPubErrorCode;
 
     invoke-interface {p1, v0}, Lcom/mopub/mobileads/AdLifecycleListener$LoadListener;->onAdLoadFailed(Lcom/mopub/mobileads/MoPubErrorCode;)V
@@ -65,7 +62,6 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-virtual {p1}, Lcom/mopub/network/MoPubImageLoader$ImageContainer;->getBitmap()Landroid/graphics/Bitmap;
 
     move-result-object p1
@@ -74,7 +70,6 @@
 
     return-void
 
-    .line 2
     :cond_0
     iget-object p1, p0, Lcom/mopub/mobileads/MoPubFullscreen$1;->this$0:Lcom/mopub/mobileads/MoPubFullscreen;
 
@@ -82,10 +77,8 @@
 
     if-eqz p1, :cond_1
 
-    .line 3
     invoke-interface {p1}, Lcom/mopub/mobileads/AdLifecycleListener$LoadListener;->onAdLoaded()V
 
-    .line 4
     :cond_1
     iget-object p1, p0, Lcom/mopub/mobileads/MoPubFullscreen$1;->this$0:Lcom/mopub/mobileads/MoPubFullscreen;
 

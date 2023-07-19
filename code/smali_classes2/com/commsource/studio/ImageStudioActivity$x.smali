@@ -54,12 +54,10 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/studio/ImageStudioActivity$x;->a:Lcom/commsource/studio/ImageStudioActivity;
 
     invoke-static {v0}, Lcom/commsource/studio/ImageStudioActivity;->T0(Lcom/commsource/studio/ImageStudioActivity;)V
 
-    .line 2
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -72,7 +70,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Ljava/lang/String;
 
     invoke-virtual {p0, p1}, Lcom/commsource/studio/ImageStudioActivity$x;->a(Ljava/lang/String;)V

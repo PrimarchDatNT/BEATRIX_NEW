@@ -33,14 +33,12 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
     new-instance v0, Lcom/google/protobuf/GeneratedMessageLite$EqualsVisitor;
 
     invoke-direct {v0}, Lcom/google/protobuf/GeneratedMessageLite$EqualsVisitor;-><init>()V
 
     sput-object v0, Lcom/google/protobuf/GeneratedMessageLite$EqualsVisitor;->a:Lcom/google/protobuf/GeneratedMessageLite$EqualsVisitor;
 
-    .line 2
     new-instance v0, Lcom/google/protobuf/GeneratedMessageLite$EqualsVisitor$NotEqualsException;
 
     invoke-direct {v0}, Lcom/google/protobuf/GeneratedMessageLite$EqualsVisitor$NotEqualsException;-><init>()V
@@ -53,7 +51,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -64,7 +61,6 @@
 .method public A(Lcom/google/protobuf/z0$h;Lcom/google/protobuf/z0$h;)Lcom/google/protobuf/z0$h;
     .locals 0
 
-    .line 1
     invoke-virtual {p1, p2}, Ljava/lang/Object;->equals(Ljava/lang/Object;)Z
 
     move-result p2
@@ -73,7 +69,6 @@
 
     return-object p1
 
-    .line 2
     :cond_0
     sget-object p1, Lcom/google/protobuf/GeneratedMessageLite$EqualsVisitor;->b:Lcom/google/protobuf/GeneratedMessageLite$EqualsVisitor$NotEqualsException;
 
@@ -85,7 +80,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     move-object p1, p2
 
     check-cast p1, Lcom/google/protobuf/GeneratedMessageLite;
@@ -100,7 +94,6 @@
 
     return-object p2
 
-    .line 2
     :cond_0
     sget-object p1, Lcom/google/protobuf/GeneratedMessageLite$EqualsVisitor;->b:Lcom/google/protobuf/GeneratedMessageLite$EqualsVisitor$NotEqualsException;
 
@@ -124,7 +117,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p1, p2}, Lcom/google/protobuf/o0;->equals(Ljava/lang/Object;)Z
 
     move-result p2
@@ -133,7 +125,6 @@
 
     return-object p1
 
-    .line 2
     :cond_0
     sget-object p1, Lcom/google/protobuf/GeneratedMessageLite$EqualsVisitor;->b:Lcom/google/protobuf/GeneratedMessageLite$EqualsVisitor$NotEqualsException;
 
@@ -143,7 +134,6 @@
 .method public b(Lcom/google/protobuf/z0$e;Lcom/google/protobuf/z0$e;)Lcom/google/protobuf/z0$e;
     .locals 0
 
-    .line 1
     invoke-virtual {p1, p2}, Ljava/lang/Object;->equals(Ljava/lang/Object;)Z
 
     move-result p2
@@ -152,7 +142,6 @@
 
     return-object p1
 
-    .line 2
     :cond_0
     sget-object p1, Lcom/google/protobuf/GeneratedMessageLite$EqualsVisitor;->b:Lcom/google/protobuf/GeneratedMessageLite$EqualsVisitor$NotEqualsException;
 
@@ -166,7 +155,6 @@
 
     return-void
 
-    .line 1
     :cond_0
     sget-object p1, Lcom/google/protobuf/GeneratedMessageLite$EqualsVisitor;->b:Lcom/google/protobuf/GeneratedMessageLite$EqualsVisitor$NotEqualsException;
 
@@ -178,7 +166,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     invoke-virtual {p2, p3}, Ljava/lang/Object;->equals(Ljava/lang/Object;)Z
 
     move-result p1
@@ -187,7 +174,6 @@
 
     return-object p2
 
-    .line 2
     :cond_0
     sget-object p1, Lcom/google/protobuf/GeneratedMessageLite$EqualsVisitor;->b:Lcom/google/protobuf/GeneratedMessageLite$EqualsVisitor$NotEqualsException;
 
@@ -199,7 +185,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     invoke-virtual {p2, p3}, Ljava/lang/Object;->equals(Ljava/lang/Object;)Z
 
     move-result p1
@@ -208,7 +193,6 @@
 
     return-object p2
 
-    .line 2
     :cond_0
     sget-object p1, Lcom/google/protobuf/GeneratedMessageLite$EqualsVisitor;->b:Lcom/google/protobuf/GeneratedMessageLite$EqualsVisitor$NotEqualsException;
 
@@ -233,7 +217,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p1, p2}, Lcom/google/protobuf/MapFieldLite;->equals(Ljava/lang/Object;)Z
 
     move-result p2
@@ -242,7 +225,6 @@
 
     return-object p1
 
-    .line 2
     :cond_0
     sget-object p1, Lcom/google/protobuf/GeneratedMessageLite$EqualsVisitor;->b:Lcom/google/protobuf/GeneratedMessageLite$EqualsVisitor$NotEqualsException;
 
@@ -252,7 +234,6 @@
 .method public g(Lcom/google/protobuf/p2;Lcom/google/protobuf/p2;)Lcom/google/protobuf/p2;
     .locals 0
 
-    .line 1
     invoke-virtual {p1, p2}, Lcom/google/protobuf/p2;->equals(Ljava/lang/Object;)Z
 
     move-result p2
@@ -261,7 +242,6 @@
 
     return-object p1
 
-    .line 2
     :cond_0
     sget-object p1, Lcom/google/protobuf/GeneratedMessageLite$EqualsVisitor;->b:Lcom/google/protobuf/GeneratedMessageLite$EqualsVisitor$NotEqualsException;
 
@@ -273,7 +253,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     invoke-virtual {p2, p3}, Ljava/lang/Object;->equals(Ljava/lang/Object;)Z
 
     move-result p1
@@ -282,7 +261,6 @@
 
     return-object p2
 
-    .line 2
     :cond_0
     sget-object p1, Lcom/google/protobuf/GeneratedMessageLite$EqualsVisitor;->b:Lcom/google/protobuf/GeneratedMessageLite$EqualsVisitor$NotEqualsException;
 
@@ -298,7 +276,6 @@
 
     return p2
 
-    .line 1
     :cond_0
     sget-object p1, Lcom/google/protobuf/GeneratedMessageLite$EqualsVisitor;->b:Lcom/google/protobuf/GeneratedMessageLite$EqualsVisitor$NotEqualsException;
 
@@ -308,7 +285,6 @@
 .method public j(Lcom/google/protobuf/z0$b;Lcom/google/protobuf/z0$b;)Lcom/google/protobuf/z0$b;
     .locals 0
 
-    .line 1
     invoke-virtual {p1, p2}, Ljava/lang/Object;->equals(Ljava/lang/Object;)Z
 
     move-result p2
@@ -317,7 +293,6 @@
 
     return-object p1
 
-    .line 2
     :cond_0
     sget-object p1, Lcom/google/protobuf/GeneratedMessageLite$EqualsVisitor;->b:Lcom/google/protobuf/GeneratedMessageLite$EqualsVisitor$NotEqualsException;
 
@@ -329,7 +304,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     invoke-virtual {p2, p3}, Ljava/lang/Object;->equals(Ljava/lang/Object;)Z
 
     move-result p1
@@ -338,7 +312,6 @@
 
     return-object p2
 
-    .line 2
     :cond_0
     sget-object p1, Lcom/google/protobuf/GeneratedMessageLite$EqualsVisitor;->b:Lcom/google/protobuf/GeneratedMessageLite$EqualsVisitor$NotEqualsException;
 
@@ -350,7 +323,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     invoke-virtual {p2, p3}, Ljava/lang/Object;->equals(Ljava/lang/Object;)Z
 
     move-result p1
@@ -359,7 +331,6 @@
 
     return-object p2
 
-    .line 2
     :cond_0
     sget-object p1, Lcom/google/protobuf/GeneratedMessageLite$EqualsVisitor;->b:Lcom/google/protobuf/GeneratedMessageLite$EqualsVisitor$NotEqualsException;
 
@@ -369,7 +340,6 @@
 .method public m(Lcom/google/protobuf/z0$f;Lcom/google/protobuf/z0$f;)Lcom/google/protobuf/z0$f;
     .locals 0
 
-    .line 1
     invoke-virtual {p1, p2}, Ljava/lang/Object;->equals(Ljava/lang/Object;)Z
 
     move-result p2
@@ -378,7 +348,6 @@
 
     return-object p1
 
-    .line 2
     :cond_0
     sget-object p1, Lcom/google/protobuf/GeneratedMessageLite$EqualsVisitor;->b:Lcom/google/protobuf/GeneratedMessageLite$EqualsVisitor$NotEqualsException;
 
@@ -408,7 +377,6 @@
 
     if-eqz p2, :cond_1
 
-    .line 1
     move-object v0, p1
 
     check-cast v0, Lcom/google/protobuf/GeneratedMessageLite;
@@ -417,7 +385,6 @@
 
     return-object p1
 
-    .line 2
     :cond_1
     sget-object p1, Lcom/google/protobuf/GeneratedMessageLite$EqualsVisitor;->b:Lcom/google/protobuf/GeneratedMessageLite$EqualsVisitor$NotEqualsException;
 
@@ -429,7 +396,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     invoke-virtual {p2, p3}, Ljava/lang/Object;->equals(Ljava/lang/Object;)Z
 
     move-result p1
@@ -438,7 +404,6 @@
 
     return-object p2
 
-    .line 2
     :cond_0
     sget-object p1, Lcom/google/protobuf/GeneratedMessageLite$EqualsVisitor;->b:Lcom/google/protobuf/GeneratedMessageLite$EqualsVisitor$NotEqualsException;
 
@@ -450,7 +415,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     invoke-virtual {p2, p3}, Ljava/lang/Object;->equals(Ljava/lang/Object;)Z
 
     move-result p1
@@ -459,7 +423,6 @@
 
     return-object p2
 
-    .line 2
     :cond_0
     sget-object p1, Lcom/google/protobuf/GeneratedMessageLite$EqualsVisitor;->b:Lcom/google/protobuf/GeneratedMessageLite$EqualsVisitor$NotEqualsException;
 
@@ -482,7 +445,6 @@
 
     if-eqz p2, :cond_2
 
-    .line 1
     invoke-virtual {p1, p2}, Lcom/google/protobuf/b1;->equals(Ljava/lang/Object;)Z
 
     move-result p2
@@ -491,13 +453,11 @@
 
     return-object p1
 
-    .line 2
     :cond_1
     sget-object p1, Lcom/google/protobuf/GeneratedMessageLite$EqualsVisitor;->b:Lcom/google/protobuf/GeneratedMessageLite$EqualsVisitor$NotEqualsException;
 
     throw p1
 
-    .line 3
     :cond_2
     sget-object p1, Lcom/google/protobuf/GeneratedMessageLite$EqualsVisitor;->b:Lcom/google/protobuf/GeneratedMessageLite$EqualsVisitor$NotEqualsException;
 
@@ -507,7 +467,6 @@
 .method public r(Lcom/google/protobuf/z0$a;Lcom/google/protobuf/z0$a;)Lcom/google/protobuf/z0$a;
     .locals 0
 
-    .line 1
     invoke-virtual {p1, p2}, Ljava/lang/Object;->equals(Ljava/lang/Object;)Z
 
     move-result p2
@@ -516,7 +475,6 @@
 
     return-object p1
 
-    .line 2
     :cond_0
     sget-object p1, Lcom/google/protobuf/GeneratedMessageLite$EqualsVisitor;->b:Lcom/google/protobuf/GeneratedMessageLite$EqualsVisitor$NotEqualsException;
 
@@ -532,7 +490,6 @@
 
     return p2
 
-    .line 1
     :cond_0
     sget-object p1, Lcom/google/protobuf/GeneratedMessageLite$EqualsVisitor;->b:Lcom/google/protobuf/GeneratedMessageLite$EqualsVisitor$NotEqualsException;
 
@@ -544,7 +501,6 @@
 
     if-ne p1, p3, :cond_0
 
-    .line 1
     invoke-virtual {p2, p4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p1
@@ -553,7 +509,6 @@
 
     return-object p2
 
-    .line 2
     :cond_0
     sget-object p1, Lcom/google/protobuf/GeneratedMessageLite$EqualsVisitor;->b:Lcom/google/protobuf/GeneratedMessageLite$EqualsVisitor$NotEqualsException;
 
@@ -571,7 +526,6 @@
 
     return p2
 
-    .line 1
     :cond_0
     sget-object p1, Lcom/google/protobuf/GeneratedMessageLite$EqualsVisitor;->b:Lcom/google/protobuf/GeneratedMessageLite$EqualsVisitor$NotEqualsException;
 
@@ -583,7 +537,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     invoke-virtual {p2, p3}, Ljava/lang/Object;->equals(Ljava/lang/Object;)Z
 
     move-result p1
@@ -592,7 +545,6 @@
 
     return-object p2
 
-    .line 2
     :cond_0
     sget-object p1, Lcom/google/protobuf/GeneratedMessageLite$EqualsVisitor;->b:Lcom/google/protobuf/GeneratedMessageLite$EqualsVisitor$NotEqualsException;
 
@@ -615,7 +567,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p1, p2}, Ljava/lang/Object;->equals(Ljava/lang/Object;)Z
 
     move-result p2
@@ -624,7 +575,6 @@
 
     return-object p1
 
-    .line 2
     :cond_0
     sget-object p1, Lcom/google/protobuf/GeneratedMessageLite$EqualsVisitor;->b:Lcom/google/protobuf/GeneratedMessageLite$EqualsVisitor$NotEqualsException;
 
@@ -636,7 +586,6 @@
 
     if-ne p1, p3, :cond_0
 
-    .line 1
     invoke-virtual {p2, p4}, Lcom/google/protobuf/ByteString;->equals(Ljava/lang/Object;)Z
 
     move-result p1
@@ -645,7 +594,6 @@
 
     return-object p2
 
-    .line 2
     :cond_0
     sget-object p1, Lcom/google/protobuf/GeneratedMessageLite$EqualsVisitor;->b:Lcom/google/protobuf/GeneratedMessageLite$EqualsVisitor$NotEqualsException;
 
@@ -663,7 +611,6 @@
 
     return-wide p2
 
-    .line 1
     :cond_0
     sget-object p1, Lcom/google/protobuf/GeneratedMessageLite$EqualsVisitor;->b:Lcom/google/protobuf/GeneratedMessageLite$EqualsVisitor$NotEqualsException;
 
@@ -681,7 +628,6 @@
 
     return-wide p2
 
-    .line 1
     :cond_0
     sget-object p1, Lcom/google/protobuf/GeneratedMessageLite$EqualsVisitor;->b:Lcom/google/protobuf/GeneratedMessageLite$EqualsVisitor$NotEqualsException;
 

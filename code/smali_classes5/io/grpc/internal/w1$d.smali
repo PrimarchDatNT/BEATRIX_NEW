@@ -26,12 +26,10 @@
 .method constructor <init>(Lio/grpc/internal/w1;Lio/grpc/t0$h;)V
     .locals 1
 
-    .line 1
     iput-object p1, p0, Lio/grpc/internal/w1$d;->c:Lio/grpc/internal/w1;
 
     invoke-direct {p0}, Lio/grpc/t0$i;-><init>()V
 
-    .line 2
     new-instance p1, Ljava/util/concurrent/atomic/AtomicBoolean;
 
     const/4 v0, 0x0
@@ -42,7 +40,6 @@
 
     const-string p1, "subchannel"
 
-    .line 3
     invoke-static {p2, p1}, Lcom/google/common/base/t;->F(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -57,7 +54,6 @@
 .method static synthetic c(Lio/grpc/internal/w1$d;)Lio/grpc/t0$h;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lio/grpc/internal/w1$d;->a:Lio/grpc/t0$h;
 
     return-object p0
@@ -68,7 +64,6 @@
 .method public a(Lio/grpc/t0$f;)Lio/grpc/t0$e;
     .locals 2
 
-    .line 1
     iget-object p1, p0, Lio/grpc/internal/w1$d;->b:Ljava/util/concurrent/atomic/AtomicBoolean;
 
     const/4 v0, 0x0
@@ -81,7 +76,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 2
     iget-object p1, p0, Lio/grpc/internal/w1$d;->c:Lio/grpc/internal/w1;
 
     invoke-static {p1}, Lio/grpc/internal/w1;->i(Lio/grpc/internal/w1;)Lio/grpc/t0$d;
@@ -98,7 +92,6 @@
 
     invoke-virtual {p1, v0}, Lio/grpc/w1;->execute(Ljava/lang/Runnable;)V
 
-    .line 3
     :cond_0
     invoke-static {}, Lio/grpc/t0$e;->g()Lio/grpc/t0$e;
 

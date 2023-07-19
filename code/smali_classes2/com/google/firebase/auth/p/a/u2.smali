@@ -23,12 +23,10 @@
 .method static constructor <clinit>()V
     .locals 4
 
-    .line 1
     new-instance v0, Landroid/util/SparseArray;
 
     invoke-direct {v0}, Landroid/util/SparseArray;-><init>()V
 
-    .line 2
     sput-object v0, Lcom/google/firebase/auth/p/a/u2;->a:Landroid/util/SparseArray;
 
     new-instance v1, Landroid/util/Pair;
@@ -43,7 +41,6 @@
 
     invoke-virtual {v0, v2, v1}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
-    .line 3
     new-instance v1, Landroid/util/Pair;
 
     const-string v2, "ERROR_CUSTOM_TOKEN_MISMATCH"
@@ -56,7 +53,6 @@
 
     invoke-virtual {v0, v2, v1}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
-    .line 4
     new-instance v1, Landroid/util/Pair;
 
     const-string v2, "ERROR_INVALID_CREDENTIAL"
@@ -69,7 +65,6 @@
 
     invoke-virtual {v0, v2, v1}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
-    .line 5
     new-instance v1, Landroid/util/Pair;
 
     const-string v2, "ERROR_INVALID_EMAIL"
@@ -82,7 +77,6 @@
 
     invoke-virtual {v0, v2, v1}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
-    .line 6
     new-instance v1, Landroid/util/Pair;
 
     const-string v2, "ERROR_WRONG_PASSWORD"
@@ -95,7 +89,6 @@
 
     invoke-virtual {v0, v2, v1}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
-    .line 7
     new-instance v1, Landroid/util/Pair;
 
     const-string v2, "ERROR_USER_MISMATCH"
@@ -108,7 +101,6 @@
 
     invoke-virtual {v0, v2, v1}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
-    .line 8
     new-instance v1, Landroid/util/Pair;
 
     const-string v2, "ERROR_REQUIRES_RECENT_LOGIN"
@@ -121,7 +113,6 @@
 
     invoke-virtual {v0, v2, v1}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
-    .line 9
     new-instance v1, Landroid/util/Pair;
 
     const-string v2, "ERROR_ACCOUNT_EXISTS_WITH_DIFFERENT_CREDENTIAL"
@@ -134,7 +125,6 @@
 
     invoke-virtual {v0, v2, v1}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
-    .line 10
     new-instance v1, Landroid/util/Pair;
 
     const-string v2, "ERROR_EMAIL_ALREADY_IN_USE"
@@ -147,7 +137,6 @@
 
     invoke-virtual {v0, v2, v1}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
-    .line 11
     new-instance v1, Landroid/util/Pair;
 
     const-string v2, "ERROR_CREDENTIAL_ALREADY_IN_USE"
@@ -160,7 +149,6 @@
 
     invoke-virtual {v0, v2, v1}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
-    .line 12
     new-instance v1, Landroid/util/Pair;
 
     const-string v2, "ERROR_USER_DISABLED"
@@ -173,7 +161,6 @@
 
     invoke-virtual {v0, v2, v1}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
-    .line 13
     new-instance v1, Landroid/util/Pair;
 
     const-string v2, "ERROR_USER_TOKEN_EXPIRED"
@@ -186,7 +173,6 @@
 
     invoke-virtual {v0, v2, v1}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
-    .line 14
     new-instance v1, Landroid/util/Pair;
 
     const-string v2, "ERROR_USER_NOT_FOUND"
@@ -199,7 +185,6 @@
 
     invoke-virtual {v0, v2, v1}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
-    .line 15
     new-instance v1, Landroid/util/Pair;
 
     const-string v2, "ERROR_INVALID_USER_TOKEN"
@@ -212,7 +197,6 @@
 
     invoke-virtual {v0, v2, v1}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
-    .line 16
     new-instance v1, Landroid/util/Pair;
 
     const-string v2, "ERROR_OPERATION_NOT_ALLOWED"
@@ -225,7 +209,6 @@
 
     invoke-virtual {v0, v2, v1}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
-    .line 17
     new-instance v1, Landroid/util/Pair;
 
     const-string v2, "ERROR_WEAK_PASSWORD"
@@ -238,7 +221,6 @@
 
     invoke-virtual {v0, v2, v1}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
-    .line 18
     new-instance v1, Landroid/util/Pair;
 
     const-string v2, "ERROR_EXPIRED_ACTION_CODE"
@@ -251,7 +233,6 @@
 
     invoke-virtual {v0, v2, v1}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
-    .line 19
     new-instance v1, Landroid/util/Pair;
 
     const-string v2, "ERROR_INVALID_ACTION_CODE"
@@ -264,7 +245,6 @@
 
     invoke-virtual {v0, v2, v1}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
-    .line 20
     new-instance v1, Landroid/util/Pair;
 
     const-string v2, "ERROR_INVALID_MESSAGE_PAYLOAD"
@@ -277,7 +257,6 @@
 
     invoke-virtual {v0, v2, v1}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
-    .line 21
     new-instance v1, Landroid/util/Pair;
 
     const-string v2, "ERROR_INVALID_RECIPIENT_EMAIL"
@@ -290,7 +269,6 @@
 
     invoke-virtual {v0, v2, v1}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
-    .line 22
     new-instance v1, Landroid/util/Pair;
 
     const-string v2, "ERROR_INVALID_SENDER"
@@ -303,7 +281,6 @@
 
     invoke-virtual {v0, v2, v1}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
-    .line 23
     new-instance v1, Landroid/util/Pair;
 
     const-string v2, "ERROR_MISSING_EMAIL"
@@ -316,7 +293,6 @@
 
     invoke-virtual {v0, v2, v1}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
-    .line 24
     new-instance v1, Landroid/util/Pair;
 
     const-string v2, "ERROR_MISSING_PASSWORD"
@@ -329,7 +305,6 @@
 
     invoke-virtual {v0, v2, v1}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
-    .line 25
     new-instance v1, Landroid/util/Pair;
 
     const-string v2, "ERROR_MISSING_PHONE_NUMBER"
@@ -342,7 +317,6 @@
 
     invoke-virtual {v0, v2, v1}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
-    .line 26
     new-instance v1, Landroid/util/Pair;
 
     const-string v2, "ERROR_INVALID_PHONE_NUMBER"
@@ -355,7 +329,6 @@
 
     invoke-virtual {v0, v2, v1}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
-    .line 27
     new-instance v1, Landroid/util/Pair;
 
     const-string v2, "ERROR_MISSING_VERIFICATION_CODE"
@@ -368,7 +341,6 @@
 
     invoke-virtual {v0, v2, v1}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
-    .line 28
     new-instance v1, Landroid/util/Pair;
 
     const-string v2, "ERROR_INVALID_VERIFICATION_CODE"
@@ -381,7 +353,6 @@
 
     invoke-virtual {v0, v2, v1}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
-    .line 29
     new-instance v1, Landroid/util/Pair;
 
     const-string v2, "ERROR_MISSING_VERIFICATION_ID"
@@ -394,7 +365,6 @@
 
     invoke-virtual {v0, v2, v1}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
-    .line 30
     new-instance v1, Landroid/util/Pair;
 
     const-string v2, "ERROR_INVALID_VERIFICATION_ID"
@@ -407,7 +377,6 @@
 
     invoke-virtual {v0, v2, v1}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
-    .line 31
     new-instance v1, Landroid/util/Pair;
 
     const-string v2, "ERROR_RETRY_PHONE_AUTH"
@@ -420,7 +389,6 @@
 
     invoke-virtual {v0, v2, v1}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
-    .line 32
     new-instance v1, Landroid/util/Pair;
 
     const-string v2, "ERROR_SESSION_EXPIRED"
@@ -433,7 +401,6 @@
 
     invoke-virtual {v0, v2, v1}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
-    .line 33
     new-instance v1, Landroid/util/Pair;
 
     const-string v2, "ERROR_QUOTA_EXCEEDED"
@@ -446,7 +413,6 @@
 
     invoke-virtual {v0, v2, v1}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
-    .line 34
     new-instance v1, Landroid/util/Pair;
 
     const-string v2, "ERROR_APP_NOT_AUTHORIZED"
@@ -459,7 +425,6 @@
 
     invoke-virtual {v0, v2, v1}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
-    .line 35
     new-instance v1, Landroid/util/Pair;
 
     const-string v2, "ERROR_API_NOT_AVAILABLE_WITHOUT_GPS"
@@ -472,7 +437,6 @@
 
     invoke-virtual {v0, v2, v1}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
-    .line 36
     new-instance v1, Landroid/util/Pair;
 
     const-string v2, "ERROR_WEB_INTERNAL_ERROR"
@@ -485,7 +449,6 @@
 
     invoke-virtual {v0, v2, v1}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
-    .line 37
     new-instance v1, Landroid/util/Pair;
 
     const-string v2, "ERROR_INVALID_CERT_HASH"
@@ -498,7 +461,6 @@
 
     invoke-virtual {v0, v2, v1}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
-    .line 38
     new-instance v1, Landroid/util/Pair;
 
     const-string v2, "ERROR_WEB_STORAGE_UNSUPPORTED"
@@ -511,7 +473,6 @@
 
     invoke-virtual {v0, v2, v1}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
-    .line 39
     new-instance v1, Landroid/util/Pair;
 
     const-string v2, "ERROR_MISSING_CONTINUE_URI"
@@ -524,7 +485,6 @@
 
     invoke-virtual {v0, v2, v1}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
-    .line 40
     new-instance v1, Landroid/util/Pair;
 
     const-string v2, "ERROR_DYNAMIC_LINK_NOT_ACTIVATED"
@@ -537,7 +497,6 @@
 
     invoke-virtual {v0, v2, v1}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
-    .line 41
     new-instance v1, Landroid/util/Pair;
 
     const-string v2, "ERROR_INVALID_PROVIDER_ID"
@@ -550,7 +509,6 @@
 
     invoke-virtual {v0, v2, v1}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
-    .line 42
     new-instance v1, Landroid/util/Pair;
 
     const-string v2, "ERROR_WEB_CONTEXT_ALREADY_PRESENTED"
@@ -563,7 +521,6 @@
 
     invoke-virtual {v0, v2, v1}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
-    .line 43
     new-instance v1, Landroid/util/Pair;
 
     const-string v2, "ERROR_WEB_CONTEXT_CANCELED"
@@ -576,7 +533,6 @@
 
     invoke-virtual {v0, v2, v1}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
-    .line 44
     new-instance v1, Landroid/util/Pair;
 
     const-string v2, "ERROR_TENANT_ID_MISMATCH"
@@ -589,7 +545,6 @@
 
     invoke-virtual {v0, v2, v1}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
-    .line 45
     new-instance v1, Landroid/util/Pair;
 
     const-string v2, "ERROR_UNSUPPORTED_TENANT_OPERATION"
@@ -602,7 +557,6 @@
 
     invoke-virtual {v0, v2, v1}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
-    .line 46
     new-instance v1, Landroid/util/Pair;
 
     const-string v2, "ERROR_INVALID_DYNAMIC_LINK_DOMAIN"
@@ -615,7 +569,6 @@
 
     invoke-virtual {v0, v2, v1}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
-    .line 47
     new-instance v1, Landroid/util/Pair;
 
     const-string v2, "ERROR_REJECTED_CREDENTIAL"
@@ -628,7 +581,6 @@
 
     invoke-virtual {v0, v2, v1}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
-    .line 48
     new-instance v1, Landroid/util/Pair;
 
     const-string v2, "ERROR_PHONE_NUMBER_NOT_FOUND"
@@ -641,7 +593,6 @@
 
     invoke-virtual {v0, v2, v1}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
-    .line 49
     new-instance v1, Landroid/util/Pair;
 
     const-string v2, "ERROR_INVALID_TENANT_ID"
@@ -654,7 +605,6 @@
 
     invoke-virtual {v0, v2, v1}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
-    .line 50
     new-instance v1, Landroid/util/Pair;
 
     const-string v2, "ERROR_SECOND_FACTOR_REQUIRED"
@@ -667,7 +617,6 @@
 
     invoke-virtual {v0, v2, v1}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
-    .line 51
     new-instance v1, Landroid/util/Pair;
 
     const-string v2, "ERROR_API_NOT_AVAILABLE"
@@ -694,12 +643,10 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/android/gms/common/api/Status;->z()I
 
     move-result v0
 
-    .line 2
     invoke-static {v0}, Lcom/google/firebase/auth/p/a/u2;->f(I)Ljava/lang/String;
 
     move-result-object v1
@@ -708,17 +655,14 @@
 
     move-result-object p0
 
-    .line 3
     new-instance v1, Lcom/google/firebase/auth/FirebaseAuthUserCollisionException;
 
-    .line 4
     invoke-static {v0}, Lcom/google/firebase/auth/p/a/u2;->e(I)Ljava/lang/String;
 
     move-result-object v0
 
     invoke-direct {v1, v0, p0}, Lcom/google/firebase/auth/FirebaseAuthUserCollisionException;-><init>(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 5
     invoke-virtual {v1, p1}, Lcom/google/firebase/auth/FirebaseAuthUserCollisionException;->zza(Lcom/google/firebase/auth/AuthCredential;)Lcom/google/firebase/auth/FirebaseAuthUserCollisionException;
 
     move-result-object p0
@@ -737,25 +681,20 @@
 .method public static b(Lcom/google/firebase/auth/FirebaseAuth;Lcom/google/android/gms/internal/firebase_auth/zzeb;)Lcom/google/firebase/auth/zzu;
     .locals 8
 
-    .line 1
     invoke-static {p0}, Lcom/google/android/gms/internal/firebase_auth/k;->b(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 2
     invoke-static {p1}, Lcom/google/android/gms/internal/firebase_auth/k;->b(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 3
     sget-object v0, Lcom/google/firebase/auth/p/a/u2;->a:Landroid/util/SparseArray;
 
     const/16 v1, 0x42b6
 
-    .line 4
     invoke-virtual {v0, v1}, Landroid/util/SparseArray;->get(I)Ljava/lang/Object;
 
     move-result-object v0
 
     check-cast v0, Landroid/util/Pair;
 
-    .line 5
     new-instance v1, Lcom/google/firebase/auth/zzu;
 
     iget-object v2, v0, Landroid/util/Pair;->first:Ljava/lang/Object;
@@ -766,20 +705,16 @@
 
     check-cast v0, Ljava/lang/String;
 
-    .line 6
     new-instance v3, Lcom/google/firebase/auth/internal/zzp;
 
-    .line 7
     invoke-virtual {p1}, Lcom/google/android/gms/internal/firebase_auth/zzeb;->A()Ljava/util/List;
 
     move-result-object v4
 
-    .line 8
     new-instance v5, Ljava/util/ArrayList;
 
     invoke-direct {v5}, Ljava/util/ArrayList;-><init>()V
 
-    .line 9
     invoke-interface {v4}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
     move-result-object v4
@@ -798,35 +733,29 @@
 
     check-cast v6, Lcom/google/firebase/auth/zzx;
 
-    .line 10
     instance-of v7, v6, Lcom/google/firebase/auth/zzac;
 
     if-eqz v7, :cond_0
 
-    .line 11
     check-cast v6, Lcom/google/firebase/auth/zzac;
 
     invoke-interface {v5, v6}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
     goto :goto_0
 
-    .line 12
     :cond_1
     invoke-virtual {p1}, Lcom/google/android/gms/internal/firebase_auth/zzeb;->A()Ljava/util/List;
 
     move-result-object v4
 
-    .line 13
     invoke-virtual {p1}, Lcom/google/android/gms/internal/firebase_auth/zzeb;->y()Ljava/lang/String;
 
     move-result-object v6
 
-    .line 14
     invoke-static {v4, v6}, Lcom/google/firebase/auth/internal/zzr;->y(Ljava/util/List;Ljava/lang/String;)Lcom/google/firebase/auth/internal/zzr;
 
     move-result-object v4
 
-    .line 15
     invoke-virtual {p0}, Lcom/google/firebase/auth/FirebaseAuth;->g0()Lcom/google/firebase/d;
 
     move-result-object p0
@@ -835,14 +764,12 @@
 
     move-result-object p0
 
-    .line 16
     invoke-virtual {p1}, Lcom/google/android/gms/internal/firebase_auth/zzeb;->z()Lcom/google/firebase/auth/zzf;
 
     move-result-object p1
 
     invoke-direct {v3, v5, v4, p0, p1}, Lcom/google/firebase/auth/internal/zzp;-><init>(Ljava/util/List;Lcom/google/firebase/auth/internal/zzr;Ljava/lang/String;Lcom/google/firebase/auth/zzf;)V
 
-    .line 17
     invoke-direct {v1, v2, v0, v3}, Lcom/google/firebase/auth/zzu;-><init>(Ljava/lang/String;Ljava/lang/String;Lcom/google/firebase/auth/zzw;)V
 
     return-object v1
@@ -851,7 +778,6 @@
 .method private static c(Ljava/lang/String;Lcom/google/android/gms/common/api/Status;)Ljava/lang/String;
     .locals 2
 
-    .line 1
     invoke-virtual {p1}, Lcom/google/android/gms/common/api/Status;->A()Ljava/lang/String;
 
     move-result-object v0
@@ -864,7 +790,6 @@
 
     return-object p0
 
-    .line 2
     :cond_0
     invoke-static {p0}, Ljava/lang/String;->valueOf(Ljava/lang/Object;)Ljava/lang/String;
 
@@ -898,12 +823,10 @@
 .method public static d(Lcom/google/android/gms/common/api/Status;)Lcom/google/firebase/FirebaseException;
     .locals 3
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/android/gms/common/api/Status;->z()I
 
     move-result v0
 
-    .line 2
     invoke-static {v0}, Lcom/google/firebase/auth/p/a/u2;->f(I)Ljava/lang/String;
 
     move-result-object v1
@@ -952,7 +875,6 @@
 
     packed-switch v0, :pswitch_data_5
 
-    .line 3
     new-instance p0, Lcom/google/firebase/FirebaseException;
 
     invoke-direct {p0, v2}, Lcom/google/firebase/FirebaseException;-><init>(Ljava/lang/String;)V
@@ -962,19 +884,16 @@
     :pswitch_0
     const-string v0, "There was a failure in the connection between the web widget and the Firebase Auth backend."
 
-    .line 4
     invoke-static {v0, p0}, Lcom/google/firebase/auth/p/a/u2;->c(Ljava/lang/String;Lcom/google/android/gms/common/api/Status;)Ljava/lang/String;
 
     move-result-object p0
 
-    .line 5
     new-instance v0, Lcom/google/firebase/FirebaseNetworkException;
 
     invoke-direct {v0, p0}, Lcom/google/firebase/FirebaseNetworkException;-><init>(Ljava/lang/String;)V
 
     return-object v0
 
-    .line 6
     :pswitch_1
     new-instance p0, Lcom/google/firebase/auth/FirebaseAuthEmailException;
 
@@ -986,7 +905,6 @@
 
     return-object p0
 
-    .line 7
     :pswitch_2
     new-instance p0, Lcom/google/firebase/auth/FirebaseAuthActionCodeException;
 
@@ -998,11 +916,9 @@
 
     return-object p0
 
-    .line 8
     :pswitch_3
     new-instance v2, Lcom/google/firebase/auth/FirebaseAuthWeakPasswordException;
 
-    .line 9
     invoke-static {v0}, Lcom/google/firebase/auth/p/a/u2;->e(I)Ljava/lang/String;
 
     move-result-object v0
@@ -1018,12 +934,10 @@
     :pswitch_4
     const-string v0, "User was not linked to an account with the given provider."
 
-    .line 10
     invoke-static {v0, p0}, Lcom/google/firebase/auth/p/a/u2;->c(Ljava/lang/String;Lcom/google/android/gms/common/api/Status;)Ljava/lang/String;
 
     move-result-object p0
 
-    .line 11
     new-instance v0, Lcom/google/firebase/FirebaseException;
 
     invoke-direct {v0, p0}, Lcom/google/firebase/FirebaseException;-><init>(Ljava/lang/String;)V
@@ -1033,19 +947,16 @@
     :pswitch_5
     const-string v0, "User has already been linked to the given provider."
 
-    .line 12
     invoke-static {v0, p0}, Lcom/google/firebase/auth/p/a/u2;->c(Ljava/lang/String;Lcom/google/android/gms/common/api/Status;)Ljava/lang/String;
 
     move-result-object p0
 
-    .line 13
     new-instance v0, Lcom/google/firebase/FirebaseException;
 
     invoke-direct {v0, p0}, Lcom/google/firebase/FirebaseException;-><init>(Ljava/lang/String;)V
 
     return-object v0
 
-    .line 14
     :pswitch_6
     new-instance p0, Lcom/google/firebase/auth/FirebaseAuthRecentLoginRequiredException;
 
@@ -1057,13 +968,11 @@
 
     return-object p0
 
-    .line 15
     :sswitch_0
     invoke-static {v2, p0}, Lcom/google/firebase/auth/p/a/u2;->c(Ljava/lang/String;Lcom/google/android/gms/common/api/Status;)Ljava/lang/String;
 
     move-result-object p0
 
-    .line 16
     new-instance v0, Lcom/google/firebase/FirebaseException;
 
     invoke-direct {v0, p0}, Lcom/google/firebase/FirebaseException;-><init>(Ljava/lang/String;)V
@@ -1073,19 +982,16 @@
     :sswitch_1
     const-string v0, "Please sign in before trying to get a token."
 
-    .line 17
     invoke-static {v0, p0}, Lcom/google/firebase/auth/p/a/u2;->c(Ljava/lang/String;Lcom/google/android/gms/common/api/Status;)Ljava/lang/String;
 
     move-result-object p0
 
-    .line 18
     new-instance v0, Lcom/google/firebase/internal/api/FirebaseNoSignedInUserException;
 
     invoke-direct {v0, p0}, Lcom/google/firebase/internal/api/FirebaseNoSignedInUserException;-><init>(Ljava/lang/String;)V
 
     return-object v0
 
-    .line 19
     :pswitch_7
     :sswitch_2
     new-instance p0, Lcom/google/firebase/FirebaseApiNotAvailableException;
@@ -1097,19 +1003,16 @@
     :sswitch_3
     const-string v0, "We have blocked all requests from this device due to unusual activity. Try again later."
 
-    .line 20
     invoke-static {v0, p0}, Lcom/google/firebase/auth/p/a/u2;->c(Ljava/lang/String;Lcom/google/android/gms/common/api/Status;)Ljava/lang/String;
 
     move-result-object p0
 
-    .line 21
     new-instance v0, Lcom/google/firebase/FirebaseTooManyRequestsException;
 
     invoke-direct {v0, p0}, Lcom/google/firebase/FirebaseTooManyRequestsException;-><init>(Ljava/lang/String;)V
 
     return-object v0
 
-    .line 22
     :pswitch_8
     :sswitch_4
     new-instance p0, Lcom/google/firebase/auth/FirebaseAuthUserCollisionException;
@@ -1122,7 +1025,6 @@
 
     return-object p0
 
-    .line 23
     :pswitch_9
     :sswitch_5
     new-instance p0, Lcom/google/firebase/auth/FirebaseAuthException;
@@ -1135,7 +1037,6 @@
 
     return-object p0
 
-    .line 24
     :cond_0
     :pswitch_a
     new-instance p0, Lcom/google/firebase/auth/FirebaseAuthWebException;
@@ -1148,7 +1049,6 @@
 
     return-object p0
 
-    .line 25
     :cond_1
     new-instance p0, Lcom/google/firebase/FirebaseTooManyRequestsException;
 
@@ -1156,7 +1056,6 @@
 
     return-object p0
 
-    .line 26
     :cond_2
     :pswitch_b
     :sswitch_6
@@ -1170,7 +1069,6 @@
 
     return-object p0
 
-    .line 27
     :cond_3
     :pswitch_c
     :sswitch_7
@@ -1187,12 +1085,10 @@
     :cond_4
     const-string v0, "A network error (such as timeout, interrupted connection or unreachable host) has occurred."
 
-    .line 28
     invoke-static {v0, p0}, Lcom/google/firebase/auth/p/a/u2;->c(Ljava/lang/String;Lcom/google/android/gms/common/api/Status;)Ljava/lang/String;
 
     move-result-object p0
 
-    .line 29
     new-instance v0, Lcom/google/firebase/FirebaseNetworkException;
 
     invoke-direct {v0, p0}, Lcom/google/firebase/FirebaseNetworkException;-><init>(Ljava/lang/String;)V
@@ -1283,7 +1179,6 @@
 .method private static e(I)Ljava/lang/String;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/google/firebase/auth/p/a/u2;->a:Landroid/util/SparseArray;
 
     invoke-virtual {v0, p0}, Landroid/util/SparseArray;->get(I)Ljava/lang/Object;
@@ -1294,7 +1189,6 @@
 
     if-eqz p0, :cond_0
 
-    .line 2
     iget-object p0, p0, Landroid/util/Pair;->first:Ljava/lang/Object;
 
     check-cast p0, Ljava/lang/String;
@@ -1310,7 +1204,6 @@
 .method private static f(I)Ljava/lang/String;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/google/firebase/auth/p/a/u2;->a:Landroid/util/SparseArray;
 
     invoke-virtual {v0, p0}, Landroid/util/SparseArray;->get(I)Ljava/lang/Object;
@@ -1321,7 +1214,6 @@
 
     if-eqz p0, :cond_0
 
-    .line 2
     iget-object p0, p0, Landroid/util/Pair;->second:Ljava/lang/Object;
 
     check-cast p0, Ljava/lang/String;

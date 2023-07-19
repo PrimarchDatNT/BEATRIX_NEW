@@ -35,7 +35,6 @@
 .method constructor <init>(Ljava/util/concurrent/Executor;Lcom/google/common/cache/k;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/common/cache/l$a;->a:Ljava/util/concurrent/Executor;
 
     iput-object p2, p0, Lcom/google/common/cache/l$a;->b:Lcom/google/common/cache/k;
@@ -57,7 +56,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/cache/l$a;->a:Ljava/util/concurrent/Executor;
 
     new-instance v1, Lcom/google/common/cache/l$a$a;

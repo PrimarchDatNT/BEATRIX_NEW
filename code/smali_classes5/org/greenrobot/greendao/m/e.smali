@@ -12,7 +12,6 @@
 .method constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -35,7 +34,6 @@
     .annotation build Lorg/greenrobot/greendao/i/p/c;
     .end annotation
 
-    .line 1
     new-instance v0, Lorg/greenrobot/greendao/m/e$a;
 
     invoke-direct {v0, p0}, Lorg/greenrobot/greendao/m/e$a;-><init>(Ljava/util/concurrent/Callable;)V

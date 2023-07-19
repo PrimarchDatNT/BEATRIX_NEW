@@ -33,7 +33,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     const-class v1, Lcom/meitu/library/abtest/l/a;
 
     invoke-virtual {v1}, Ljava/lang/Class;->getSimpleName()Ljava/lang/String;
@@ -44,7 +43,6 @@
 
     const-string v1, "UTF-8"
 
-    .line 2
     invoke-static {v1}, Ljava/nio/charset/Charset;->forName(Ljava/lang/String;)Ljava/nio/charset/Charset;
 
     move-result-object v1
@@ -53,7 +51,6 @@
 
     const/4 v1, 0x0
 
-    .line 3
     sput-object v1, Lcom/meitu/library/abtest/l/a;->f:Lorg/json/JSONObject;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -64,7 +61,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -77,7 +73,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/meitu/library/abtest/l/a;->a:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -92,7 +87,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sput-object p0, Lcom/meitu/library/abtest/l/a;->f:Lorg/json/JSONObject;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -109,7 +103,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/meitu/library/abtest/l/a;->f:Lorg/json/JSONObject;
 
     const/4 v2, 0x0
@@ -118,18 +111,15 @@
 
     if-nez v1, :cond_3
 
-    .line 2
     const-class v1, Lcom/meitu/library/abtest/l/a;
 
     monitor-enter v1
 
-    .line 3
     :try_start_0
     sget-object v4, Lcom/meitu/library/abtest/l/a;->f:Lorg/json/JSONObject;
 
     if-nez v4, :cond_2
 
-    .line 4
     invoke-static {}, Lcom/meitu/library/abtest/a;->r()Lcom/meitu/library/abtest/a;
 
     move-result-object v4
@@ -138,7 +128,6 @@
 
     if-eqz v4, :cond_1
 
-    .line 5
     :try_start_1
     invoke-virtual {v4}, Lcom/meitu/library/abtest/a;->h()Landroid/content/Context;
 
@@ -146,19 +135,16 @@
 
     const-string v5, "teemo_ab_stz.dat"
 
-    .line 6
     invoke-virtual {v4, v5}, Landroid/content/Context;->getFileStreamPath(Ljava/lang/String;)Ljava/io/File;
 
     move-result-object v4
 
-    .line 7
     invoke-static {v4}, Lcom/meitu/library/abtest/l/d;->f(Ljava/io/File;)[B
 
     move-result-object v4
 
     if-eqz v4, :cond_0
 
-    .line 8
     new-instance v5, Lorg/json/JSONObject;
 
     new-instance v6, Ljava/lang/String;
@@ -173,7 +159,6 @@
 
     goto :goto_0
 
-    .line 9
     :cond_0
     new-instance v4, Lorg/json/JSONObject;
 
@@ -189,7 +174,6 @@
     :catch_0
     move-exception v4
 
-    .line 10
     :try_start_2
     sget-object v5, Lcom/meitu/library/abtest/l/a;->a:Ljava/lang/String;
 
@@ -201,7 +185,6 @@
 
     invoke-static {v5, v6, v7}, Lcom/meitu/library/abtest/g/a;->e(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
-    .line 11
     new-instance v4, Lorg/json/JSONObject;
 
     invoke-direct {v4}, Lorg/json/JSONObject;-><init>()V
@@ -210,7 +193,6 @@
 
     goto :goto_0
 
-    .line 12
     :cond_1
     monitor-exit v1
     :try_end_2
@@ -220,7 +202,6 @@
 
     return v3
 
-    .line 13
     :cond_2
     :goto_0
     :try_start_3
@@ -239,7 +220,6 @@
 
     throw v2
 
-    .line 14
     :cond_3
     :goto_1
     sget-object v1, Lcom/meitu/library/abtest/l/a;->f:Lorg/json/JSONObject;
@@ -257,14 +237,12 @@
     :cond_4
     if-nez v2, :cond_5
 
-    .line 15
     sget-object v1, Lcom/meitu/library/abtest/l/a;->a:Ljava/lang/String;
 
     const-string v3, "ab is off"
 
     invoke-static {v1, v3}, Lcom/meitu/library/abtest/g/a;->j(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 16
     :cond_5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -278,7 +256,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/meitu/library/abtest/l/a$a;
 
     invoke-direct {v1}, Lcom/meitu/library/abtest/l/a$a;-><init>()V
@@ -287,7 +264,6 @@
 
     invoke-static {v1, v2}, Lcom/meitu/library/abtest/h/a;->b(Lcom/meitu/library/abtest/h/g;Z)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

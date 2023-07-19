@@ -38,14 +38,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/lang/Object;
 
     invoke-direct {v1}, Ljava/lang/Object;-><init>()V
 
     sput-object v1, Lcom/meitu/library/analytics/y/j/a$c;->a:Ljava/lang/Object;
 
-    .line 2
     new-instance v1, Ljava/util/ArrayList;
 
     const/16 v2, 0x14
@@ -54,7 +52,6 @@
 
     sput-object v1, Lcom/meitu/library/analytics/y/j/a$c;->b:Ljava/util/List;
 
-    .line 3
     invoke-static {}, Ljava/util/Calendar;->getInstance()Ljava/util/Calendar;
 
     move-result-object v1
@@ -69,7 +66,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -82,7 +78,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/meitu/library/analytics/y/j/a$c;->c:Ljava/util/Calendar;
 
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
@@ -91,7 +86,6 @@
 
     invoke-virtual {v1, v2, v3}, Ljava/util/Calendar;->setTimeInMillis(J)V
 
-    .line 2
     sget-object v1, Lcom/meitu/library/analytics/y/j/a$c;->c:Ljava/util/Calendar;
 
     const-string v2, "yyMMdd HH:mm:ss"

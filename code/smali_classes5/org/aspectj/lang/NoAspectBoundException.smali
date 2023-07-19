@@ -11,7 +11,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 3
     invoke-direct {p0}, Ljava/lang/RuntimeException;-><init>()V
 
     return-void
@@ -24,7 +23,6 @@
 
     goto :goto_0
 
-    .line 1
     :cond_0
     new-instance v0, Ljava/lang/StringBuilder;
 
@@ -49,7 +47,6 @@
     :goto_0
     invoke-direct {p0, p1}, Ljava/lang/RuntimeException;-><init>(Ljava/lang/String;)V
 
-    .line 2
     iput-object p2, p0, Lorg/aspectj/lang/NoAspectBoundException;->cause:Ljava/lang/Throwable;
 
     return-void
@@ -60,7 +57,6 @@
 .method public getCause()Ljava/lang/Throwable;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lorg/aspectj/lang/NoAspectBoundException;->cause:Ljava/lang/Throwable;
 
     return-object v0

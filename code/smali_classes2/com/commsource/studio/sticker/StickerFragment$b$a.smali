@@ -46,7 +46,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/sticker/StickerFragment$b$a;->b:Lcom/commsource/studio/sticker/StickerFragment$b;
 
     iget-object v1, v1, Lcom/commsource/studio/sticker/StickerFragment$b;->g:Lcom/commsource/studio/sticker/StickerFragment;
@@ -61,13 +60,10 @@
 
     move-result-object v1
 
-    .line 2
     iget-object v2, p0, Lcom/commsource/studio/sticker/StickerFragment$b$a;->a:Lcom/commsource/studio/bean/StickerLayerInfo;
 
-    .line 3
     invoke-virtual {v1, v2}, Lcom/commsource/studio/gesture/GestureLayer;->y0(Lcom/commsource/studio/bean/ImageLayerInfo;)V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

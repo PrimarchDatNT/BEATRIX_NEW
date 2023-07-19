@@ -31,12 +31,10 @@
 .method constructor <init>(Lio/grpc/y0;)V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const-string v0, "extraHeaders"
 
-    .line 2
     invoke-static {p1, v0}, Lcom/google/common/base/t;->F(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -51,7 +49,6 @@
 .method static synthetic b(Lio/grpc/stub/e$a;)Lio/grpc/y0;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lio/grpc/stub/e$a;->a:Lio/grpc/y0;
 
     return-object p0
@@ -78,7 +75,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lio/grpc/stub/e$a$a;
 
     invoke-virtual {p3, p1, p2}, Lio/grpc/g;->j(Lio/grpc/MethodDescriptor;Lio/grpc/f;)Lio/grpc/h;

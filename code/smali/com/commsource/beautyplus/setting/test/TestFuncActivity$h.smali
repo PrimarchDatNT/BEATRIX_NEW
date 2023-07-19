@@ -42,7 +42,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/beautyplus/setting/test/TestFuncActivity$h;->a:Lcom/commsource/beautyplus/setting/test/TestFuncActivity;
 
     invoke-static {v0}, Lcom/commsource/beautyplus/setting/test/TestFuncActivity;->N0(Lcom/commsource/beautyplus/setting/test/TestFuncActivity;)Lcom/commsource/beautyplus/setting/test/TestFuncViewModel;
@@ -51,7 +50,6 @@
 
     invoke-virtual {v0}, Lcom/commsource/beautyplus/setting/test/TestFuncViewModel;->z()V
 
-    .line 2
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

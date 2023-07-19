@@ -11,10 +11,8 @@
 .method public constructor <init>(FF)V
     .locals 3
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     invoke-static {p1, p2}, Lcom/meitu/media/UI/SelectBox;->nativeCreate(FF)J
 
     move-result-wide p1
@@ -25,7 +23,6 @@
 
     if-eqz v2, :cond_0
 
-    .line 3
     iput-wide p1, p0, Lcom/meitu/media/UI/SelectBox;->a:J
 
     :cond_0
@@ -119,7 +116,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/media/UI/SelectBox;->a:J
 
     invoke-direct {p0, p1, p2, v1, v2}, Lcom/meitu/media/UI/SelectBox;->nativeAddPosition(FFJ)V
@@ -136,7 +132,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/media/UI/SelectBox;->a:J
 
     invoke-direct {p0, v1, v2}, Lcom/meitu/media/UI/SelectBox;->nativeGetHeight(J)F
@@ -155,7 +150,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/media/UI/SelectBox;->a:J
 
     invoke-direct {p0, v1, v2}, Lcom/meitu/media/UI/SelectBox;->nativeGetPositionX(J)F
@@ -174,7 +168,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/media/UI/SelectBox;->a:J
 
     invoke-direct {p0, v1, v2}, Lcom/meitu/media/UI/SelectBox;->nativeGetPositionY(J)F
@@ -193,7 +186,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/media/UI/SelectBox;->a:J
 
     invoke-direct {p0, v1, v2}, Lcom/meitu/media/UI/SelectBox;->nativeGetRotation(J)F
@@ -212,7 +204,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/media/UI/SelectBox;->a:J
 
     invoke-direct {p0, v1, v2}, Lcom/meitu/media/UI/SelectBox;->nativeGetWidth(J)F
@@ -231,12 +222,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/media/UI/SelectBox;->a:J
 
     invoke-direct {p0, p1, v1, v2}, Lcom/meitu/media/UI/SelectBox;->nativeSetAlpha(FJ)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -249,12 +238,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/media/UI/SelectBox;->a:J
 
     invoke-direct {p0, p1, v1, v2}, Lcom/meitu/media/UI/SelectBox;->nativeSetDash(ZJ)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -267,12 +254,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/media/UI/SelectBox;->a:J
 
     invoke-direct {p0, p1, p2, v1, v2}, Lcom/meitu/media/UI/SelectBox;->nativeSetDashData([FFJ)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -285,12 +270,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/media/UI/SelectBox;->a:J
 
     invoke-direct {p0, p1, v1, v2}, Lcom/meitu/media/UI/SelectBox;->nativeSetLineColor(IJ)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -303,12 +286,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/media/UI/SelectBox;->a:J
 
     invoke-direct {p0, p1, v1, v2}, Lcom/meitu/media/UI/SelectBox;->nativeSetLineWidth(FJ)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -321,7 +302,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/media/UI/SelectBox;->a:J
 
     invoke-direct {p0, p1, p2, v1, v2}, Lcom/meitu/media/UI/SelectBox;->nativeSetPosition(FFJ)V
@@ -338,12 +318,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/media/UI/SelectBox;->a:J
 
     invoke-direct {p0, p1, v1, v2}, Lcom/meitu/media/UI/SelectBox;->nativeSetRotation(FJ)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -356,12 +334,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/media/UI/SelectBox;->a:J
 
     invoke-direct {p0, p1, v1, v2}, Lcom/meitu/media/UI/SelectBox;->nativeSetShrinkOrEnglarg(FJ)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -374,12 +350,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/media/UI/SelectBox;->a:J
 
     invoke-direct {p0, p1, v1, v2}, Lcom/meitu/media/UI/SelectBox;->nativeSetSkewX(FJ)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -392,12 +366,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/media/UI/SelectBox;->a:J
 
     invoke-direct {p0, p1, v1, v2}, Lcom/meitu/media/UI/SelectBox;->nativeSetSkewY(FJ)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -410,12 +382,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/media/UI/SelectBox;->a:J
 
     invoke-direct {p0, p0, p1, v1, v2}, Lcom/meitu/media/UI/SelectBox;->nativeSetTouchCallback(Lcom/meitu/media/UI/SelectBox;Lcom/meitu/media/UI/SelTouchInterface;J)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -428,12 +398,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/media/UI/SelectBox;->a:J
 
     invoke-direct {p0, p1, v1, v2}, Lcom/meitu/media/UI/SelectBox;->nativeSetVisible(ZJ)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -446,7 +414,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/media/UI/SelectBox;->a:J
 
     invoke-direct {p0, p1, p2, v1, v2}, Lcom/meitu/media/UI/SelectBox;->nativeSetWidthAndHeight(FFJ)V
@@ -463,7 +430,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/media/UI/SelectBox;->a:J
 
     invoke-direct {p0, p1, p2, v1, v2}, Lcom/meitu/media/UI/SelectBox;->nativeTouchCheck(FFJ)I
@@ -482,12 +448,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/media/UI/SelectBox;->a:J
 
     invoke-direct {p0, p1, v1, v2}, Lcom/meitu/media/UI/SelectBox;->nativeTranslationToX(FJ)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -500,12 +464,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/media/UI/SelectBox;->a:J
 
     invoke-direct {p0, p1, v1, v2}, Lcom/meitu/media/UI/SelectBox;->nativeTranslationToY(FJ)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -518,17 +480,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/media/UI/SelectBox;->a:J
 
     invoke-direct {p0, v1, v2}, Lcom/meitu/media/UI/SelectBox;->nativeDispose(J)V
 
     const-wide/16 v1, 0x0
 
-    .line 2
     iput-wide v1, p0, Lcom/meitu/media/UI/SelectBox;->a:J
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -541,12 +500,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/media/UI/SelectBox;->a:J
 
     invoke-direct {p0, v1, v2}, Lcom/meitu/media/UI/SelectBox;->nativedrawRec(J)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -559,7 +516,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v5, p0, Lcom/meitu/media/UI/SelectBox;->a:J
 
     move-object v1, p0
@@ -572,7 +528,6 @@
 
     invoke-direct/range {v1 .. v6}, Lcom/meitu/media/UI/SelectBox;->nativeSetPicFilePath(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;J)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

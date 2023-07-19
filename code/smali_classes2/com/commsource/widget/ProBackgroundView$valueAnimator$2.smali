@@ -57,33 +57,28 @@
 
     new-array v1, v1, [F
 
-    .line 2
     fill-array-data v1, :array_0
 
     invoke-static {v1}, Lcom/commsource/camera/f1/l;->e([F)Lcom/commsource/camera/f1/l;
 
     move-result-object v1
 
-    .line 3
     invoke-virtual {v1}, Lcom/commsource/camera/f1/l;->h()Lcom/commsource/camera/f1/l;
 
     move-result-object v1
 
     const/4 v2, -0x1
 
-    .line 4
     invoke-virtual {v1, v2}, Lcom/commsource/camera/f1/l;->f(I)Lcom/commsource/camera/f1/l;
 
     move-result-object v1
 
     const-wide/16 v2, 0x2328
 
-    .line 5
     invoke-virtual {v1, v2, v3}, Lcom/commsource/camera/f1/l;->b(J)Lcom/commsource/camera/f1/l;
 
     move-result-object v1
 
-    .line 6
     new-instance v2, Lcom/commsource/widget/ProBackgroundView$valueAnimator$2$a;
 
     invoke-direct {v2, p0}, Lcom/commsource/widget/ProBackgroundView$valueAnimator$2$a;-><init>(Lcom/commsource/widget/ProBackgroundView$valueAnimator$2;)V
@@ -92,7 +87,6 @@
 
     move-result-object v1
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
@@ -113,7 +107,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/widget/ProBackgroundView$valueAnimator$2;->invoke()Lcom/commsource/camera/f1/l;
 
     move-result-object v1

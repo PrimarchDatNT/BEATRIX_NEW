@@ -28,10 +28,8 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/function/EvenlyFragment$b;->l:Lcom/commsource/studio/function/EvenlyFragment;
 
-    .line 2
     invoke-direct {p0, p2, p3}, Lcom/commsource/studio/r0/v;-><init>(II)V
 
     return-void
@@ -62,7 +60,6 @@
 
     invoke-static {p2, p1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

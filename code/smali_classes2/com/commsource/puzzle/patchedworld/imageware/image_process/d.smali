@@ -88,26 +88,22 @@
 .method public constructor <init>()V
     .locals 3
 
-    .line 1
     const-class v0, Lcom/commsource/puzzle/patchedworld/imageware/image_process/types/ImageState;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     new-instance v1, Ljava/util/EnumMap;
 
     invoke-direct {v1, v0}, Ljava/util/EnumMap;-><init>(Ljava/lang/Class;)V
 
     iput-object v1, p0, Lcom/commsource/puzzle/patchedworld/imageware/image_process/d;->a:Ljava/util/EnumMap;
 
-    .line 3
     new-instance v1, Ljava/util/EnumMap;
 
     invoke-direct {v1, v0}, Ljava/util/EnumMap;-><init>(Ljava/lang/Class;)V
 
     iput-object v1, p0, Lcom/commsource/puzzle/patchedworld/imageware/image_process/d;->b:Ljava/util/EnumMap;
 
-    .line 4
     new-instance v1, Ljava/util/HashMap;
 
     const/4 v2, 0x4
@@ -116,19 +112,16 @@
 
     iput-object v1, p0, Lcom/commsource/puzzle/patchedworld/imageware/image_process/d;->c:Ljava/util/HashMap;
 
-    .line 5
     new-instance v1, Ljava/util/HashMap;
 
     invoke-direct {v1, v2}, Ljava/util/HashMap;-><init>(I)V
 
     iput-object v1, p0, Lcom/commsource/puzzle/patchedworld/imageware/image_process/d;->d:Ljava/util/HashMap;
 
-    .line 6
     new-instance v1, Ljava/util/EnumMap;
 
     invoke-direct {v1, v0}, Ljava/util/EnumMap;-><init>(Ljava/lang/Class;)V
 
-    .line 7
     invoke-static {v1}, Ljava/util/Collections;->synchronizedMap(Ljava/util/Map;)Ljava/util/Map;
 
     move-result-object v0
@@ -137,10 +130,8 @@
 
     const/4 v0, 0x0
 
-    .line 8
     iput-object v0, p0, Lcom/commsource/puzzle/patchedworld/imageware/image_process/d;->f:Lcom/meitu/core/types/NativeBitmap;
 
-    .line 9
     iput-object v0, p0, Lcom/commsource/puzzle/patchedworld/imageware/image_process/d;->g:Ljava/lang/String;
 
     return-void
@@ -153,7 +144,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/puzzle/patchedworld/imageware/image_process/d;->e:Ljava/util/Map;
 
     invoke-interface {v1, p1}, Ljava/util/Map;->containsValue(Ljava/lang/Object;)Z
@@ -174,7 +164,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/puzzle/patchedworld/imageware/image_process/d;->a:Ljava/util/EnumMap;
 
     invoke-virtual {v1, p1}, Ljava/util/EnumMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
@@ -195,7 +184,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/puzzle/patchedworld/imageware/image_process/d;->b:Ljava/util/EnumMap;
 
     invoke-virtual {v1, p1}, Ljava/util/EnumMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
@@ -219,7 +207,6 @@
     :try_start_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/puzzle/patchedworld/imageware/image_process/d;->a:Ljava/util/EnumMap;
 
     if-eqz v1, :cond_2
@@ -230,7 +217,6 @@
 
     if-lez v1, :cond_2
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/puzzle/patchedworld/imageware/image_process/d;->a:Ljava/util/EnumMap;
 
     invoke-virtual {v1}, Ljava/util/EnumMap;->values()Ljava/util/Collection;
@@ -255,7 +241,6 @@
 
     check-cast v2, Lcom/meitu/core/types/NativeBitmap;
 
-    .line 3
     invoke-static {v2}, Lcom/commsource/puzzle/patchedworld/imageware/image_process/f;->d(Lcom/meitu/core/types/NativeBitmap;)Z
 
     move-result v3
@@ -268,18 +253,15 @@
 
     if-nez v3, :cond_0
 
-    .line 4
     invoke-static {v2}, Lcom/commsource/puzzle/patchedworld/imageware/image_process/f;->e(Lcom/meitu/core/types/NativeBitmap;)V
 
     goto :goto_0
 
-    .line 5
     :cond_1
     iget-object v1, p0, Lcom/commsource/puzzle/patchedworld/imageware/image_process/d;->a:Ljava/util/EnumMap;
 
     invoke-virtual {v1}, Ljava/util/EnumMap;->clear()V
 
-    .line 6
     :cond_2
     iget-object v1, p0, Lcom/commsource/puzzle/patchedworld/imageware/image_process/d;->c:Ljava/util/HashMap;
 
@@ -291,7 +273,6 @@
 
     if-lez v1, :cond_5
 
-    .line 7
     iget-object v1, p0, Lcom/commsource/puzzle/patchedworld/imageware/image_process/d;->c:Ljava/util/HashMap;
 
     invoke-virtual {v1}, Ljava/util/HashMap;->values()Ljava/util/Collection;
@@ -316,36 +297,30 @@
 
     check-cast v2, Lcom/meitu/core/types/NativeBitmap;
 
-    .line 8
     invoke-static {v2}, Lcom/commsource/puzzle/patchedworld/imageware/image_process/f;->d(Lcom/meitu/core/types/NativeBitmap;)Z
 
     move-result v3
 
     if-eqz v3, :cond_3
 
-    .line 9
     invoke-static {v2}, Lcom/commsource/puzzle/patchedworld/imageware/image_process/f;->e(Lcom/meitu/core/types/NativeBitmap;)V
 
     goto :goto_1
 
-    .line 10
     :cond_4
     iget-object v1, p0, Lcom/commsource/puzzle/patchedworld/imageware/image_process/d;->c:Ljava/util/HashMap;
 
     invoke-virtual {v1}, Ljava/util/HashMap;->clear()V
 
-    .line 11
     :cond_5
     iget-object v1, p0, Lcom/commsource/puzzle/patchedworld/imageware/image_process/d;->b:Ljava/util/EnumMap;
 
     invoke-virtual {v1}, Ljava/util/EnumMap;->clear()V
 
-    .line 12
     iget-object v1, p0, Lcom/commsource/puzzle/patchedworld/imageware/image_process/d;->d:Ljava/util/HashMap;
 
     invoke-virtual {v1}, Ljava/util/HashMap;->clear()V
 
-    .line 13
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
@@ -369,7 +344,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/puzzle/patchedworld/imageware/image_process/d;->h:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -387,7 +361,6 @@
     :try_start_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/puzzle/patchedworld/imageware/image_process/d;->a:Ljava/util/EnumMap;
 
     invoke-virtual {v1}, Ljava/util/EnumMap;->size()I
@@ -430,36 +403,29 @@
     :try_start_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/puzzle/patchedworld/imageware/image_process/d;->e()Z
 
     move-result v1
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-virtual {p0}, Lcom/commsource/puzzle/patchedworld/imageware/image_process/d;->c()V
 
-    .line 3
     :cond_0
     iput-object p1, p0, Lcom/commsource/puzzle/patchedworld/imageware/image_process/d;->f:Lcom/meitu/core/types/NativeBitmap;
 
-    .line 4
     iput-object p2, p0, Lcom/commsource/puzzle/patchedworld/imageware/image_process/d;->g:Ljava/lang/String;
 
-    .line 5
     iget-object p2, p0, Lcom/commsource/puzzle/patchedworld/imageware/image_process/d;->a:Ljava/util/EnumMap;
 
     invoke-virtual {p2, p3, p1}, Ljava/util/EnumMap;->put(Ljava/lang/Enum;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 6
     iget-object p1, p0, Lcom/commsource/puzzle/patchedworld/imageware/image_process/d;->b:Ljava/util/EnumMap;
 
     iget-object p2, p0, Lcom/commsource/puzzle/patchedworld/imageware/image_process/d;->g:Ljava/lang/String;
 
     invoke-virtual {p1, p3, p2}, Ljava/util/EnumMap;->put(Ljava/lang/Enum;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
@@ -498,7 +464,6 @@
 
     move-object v6, p4
 
-    .line 1
     invoke-virtual/range {v1 .. v6}, Lcom/commsource/puzzle/patchedworld/imageware/image_process/d;->j(Ljava/lang/String;IIZLcom/commsource/puzzle/patchedworld/imageware/image_process/types/ImageState;)Lcom/commsource/puzzle/patchedworld/imageware/image_process/d;
 
     move-result-object p1
@@ -529,7 +494,6 @@
     :try_start_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v6, Lcom/commsource/puzzle/patchedworld/imageware/image_process/types/ImageState;->ORIGINAL:Lcom/commsource/puzzle/patchedworld/imageware/image_process/types/ImageState;
 
     move-object v1, p0
@@ -572,17 +536,14 @@
     :try_start_0
     invoke-static {p4}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/puzzle/patchedworld/imageware/image_process/d;->e()Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-virtual {p0}, Lcom/commsource/puzzle/patchedworld/imageware/image_process/d;->c()V
 
-    .line 3
     :cond_0
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
@@ -608,22 +569,18 @@
 
     iput-object p2, p0, Lcom/commsource/puzzle/patchedworld/imageware/image_process/d;->f:Lcom/meitu/core/types/NativeBitmap;
 
-    .line 4
     iput-object p1, p0, Lcom/commsource/puzzle/patchedworld/imageware/image_process/d;->h:Ljava/lang/String;
 
-    .line 5
     iget-object p1, p0, Lcom/commsource/puzzle/patchedworld/imageware/image_process/d;->a:Ljava/util/EnumMap;
 
     invoke-virtual {p1, p5, p2}, Ljava/util/EnumMap;->put(Ljava/lang/Enum;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 6
     iget-object p1, p0, Lcom/commsource/puzzle/patchedworld/imageware/image_process/d;->b:Ljava/util/EnumMap;
 
     iget-object p2, p0, Lcom/commsource/puzzle/patchedworld/imageware/image_process/d;->g:Ljava/lang/String;
 
     invoke-virtual {p1, p5, p2}, Ljava/util/EnumMap;->put(Ljava/lang/Enum;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 7
     invoke-static {p4}, Lcom/meitu/library/appcia/h/a;->a(I)V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
@@ -651,10 +608,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/puzzle/patchedworld/imageware/image_process/d;->h:Ljava/lang/String;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

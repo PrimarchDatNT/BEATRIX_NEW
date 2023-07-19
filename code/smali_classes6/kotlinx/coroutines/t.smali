@@ -40,7 +40,6 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-direct {p0, p1}, Lcotlinx/coroutines/d2;-><init>(Lcotlinx/coroutines/c2;)V
 
     iput-object p2, p0, Lcotlinx/coroutines/t;->f:Lcotlinx/coroutines/u;
@@ -57,7 +56,6 @@
         .end annotation
     .end param
 
-    .line 1
     iget-object p1, p0, Lcotlinx/coroutines/t;->f:Lcotlinx/coroutines/u;
 
     iget-object v0, p0, Lcotlinx/coroutines/i2;->d:Lcotlinx/coroutines/c2;
@@ -76,7 +74,6 @@
         .end annotation
     .end param
 
-    .line 1
     iget-object v0, p0, Lcotlinx/coroutines/i2;->d:Lcotlinx/coroutines/c2;
 
     check-cast v0, Lcotlinx/coroutines/JobSupport;
@@ -91,7 +88,6 @@
 .method public bridge synthetic invoke(Ljava/lang/Object;)Ljava/lang/Object;
     .locals 0
 
-    .line 1
     check-cast p1, Ljava/lang/Throwable;
 
     invoke-virtual {p0, p1}, Lcotlinx/coroutines/t;->f0(Ljava/lang/Throwable;)V
@@ -106,7 +102,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V

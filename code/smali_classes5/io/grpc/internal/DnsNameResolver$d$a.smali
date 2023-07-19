@@ -27,7 +27,6 @@
 .method constructor <init>(Lio/grpc/internal/DnsNameResolver$d;Z)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lio/grpc/internal/DnsNameResolver$d$a;->b:Lio/grpc/internal/DnsNameResolver$d;
 
     iput-boolean p2, p0, Lio/grpc/internal/DnsNameResolver$d$a;->a:Z
@@ -42,12 +41,10 @@
 .method public run()V
     .locals 5
 
-    .line 1
     iget-boolean v0, p0, Lio/grpc/internal/DnsNameResolver$d$a;->a:Z
 
     if-eqz v0, :cond_0
 
-    .line 2
     iget-object v0, p0, Lio/grpc/internal/DnsNameResolver$d$a;->b:Lio/grpc/internal/DnsNameResolver$d;
 
     iget-object v0, v0, Lio/grpc/internal/DnsNameResolver$d;->b:Lio/grpc/internal/DnsNameResolver;
@@ -56,7 +53,6 @@
 
     iput-boolean v1, v0, Lio/grpc/internal/DnsNameResolver;->l:Z
 
-    .line 3
     invoke-static {v0}, Lio/grpc/internal/DnsNameResolver;->j(Lio/grpc/internal/DnsNameResolver;)J
 
     move-result-wide v0
@@ -67,7 +63,6 @@
 
     if-lez v4, :cond_0
 
-    .line 4
     iget-object v0, p0, Lio/grpc/internal/DnsNameResolver$d$a;->b:Lio/grpc/internal/DnsNameResolver$d;
 
     iget-object v0, v0, Lio/grpc/internal/DnsNameResolver$d;->b:Lio/grpc/internal/DnsNameResolver;
@@ -82,7 +77,6 @@
 
     invoke-virtual {v0}, Lcom/google/common/base/x;->k()Lcom/google/common/base/x;
 
-    .line 5
     :cond_0
     iget-object v0, p0, Lio/grpc/internal/DnsNameResolver$d$a;->b:Lio/grpc/internal/DnsNameResolver$d;
 

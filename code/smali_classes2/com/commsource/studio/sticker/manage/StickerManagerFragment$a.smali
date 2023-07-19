@@ -70,7 +70,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p2, Lcom/meitu/template/bean/StickerGroup;
 
     invoke-virtual {p0, p1, p2}, Lcom/commsource/studio/sticker/manage/StickerManagerFragment$a;->b(Lcom/commsource/widget/h1/d;Lcom/meitu/template/bean/StickerGroup;)V
@@ -113,12 +112,10 @@
 
     invoke-static {p2, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     const-class p2, Lcom/commsource/studio/sticker/manage/StickerManagerViewHolder;
 
     invoke-virtual {p1, p2}, Lcom/commsource/widget/h1/d;->m(Ljava/lang/Class;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

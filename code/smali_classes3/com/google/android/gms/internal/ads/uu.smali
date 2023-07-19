@@ -23,13 +23,10 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/google/android/gms/internal/ads/uu;->a:Lcom/google/android/gms/internal/ads/lu;
 
-    .line 3
     iput-object p2, p0, Lcom/google/android/gms/internal/ads/uu;->b:Lcom/google/android/gms/ads/internal/overlay/l;
 
     return-void
@@ -40,15 +37,12 @@
 .method public final J()V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/uu;->b:Lcom/google/android/gms/ads/internal/overlay/l;
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-interface {v0}, Lcom/google/android/gms/ads/internal/overlay/l;->J()V
 
-    .line 3
     :cond_0
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/uu;->a:Lcom/google/android/gms/internal/ads/lu;
 
@@ -60,15 +54,12 @@
 .method public final N()V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/uu;->b:Lcom/google/android/gms/ads/internal/overlay/l;
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-interface {v0}, Lcom/google/android/gms/ads/internal/overlay/l;->N()V
 
-    .line 3
     :cond_0
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/uu;->a:Lcom/google/android/gms/internal/ads/lu;
 

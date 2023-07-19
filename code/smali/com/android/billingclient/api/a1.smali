@@ -18,7 +18,6 @@
 .method constructor <init>(Lcom/android/billingclient/api/e;Ljava/lang/Exception;Lcom/android/billingclient/api/j;Ljava/lang/String;)V
     .locals 0
 
-    .line 1
     iput-object p2, p0, Lcom/android/billingclient/api/a1;->a:Ljava/lang/Exception;
 
     iput-object p3, p0, Lcom/android/billingclient/api/a1;->b:Lcom/android/billingclient/api/j;
@@ -35,7 +34,6 @@
 .method public final run()V
     .locals 3
 
-    .line 1
     iget-object v0, p0, Lcom/android/billingclient/api/a1;->a:Ljava/lang/Exception;
 
     invoke-static {v0}, Ljava/lang/String;->valueOf(Ljava/lang/Object;)Ljava/lang/String;
@@ -70,7 +68,6 @@
 
     invoke-static {v1, v0}, Lf/f/b/b/h/e/b;->l(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 2
     iget-object v0, p0, Lcom/android/billingclient/api/a1;->b:Lcom/android/billingclient/api/j;
 
     sget-object v1, Lcom/android/billingclient/api/a0;->q:Lcom/android/billingclient/api/h;

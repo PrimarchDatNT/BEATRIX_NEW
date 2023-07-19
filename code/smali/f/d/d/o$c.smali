@@ -35,12 +35,10 @@
         .end annotation
     .end param
 
-    .line 1
     iput-object p1, p0, Lf/d/d/o$c;->d:Lf/d/d/o;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput p2, p0, Lf/d/d/o$c;->a:I
 
     return-void
@@ -57,20 +55,16 @@
         .end annotation
     .end param
 
-    .line 3
     iput-object p1, p0, Lf/d/d/o$c;->d:Lf/d/d/o;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/4 p1, 0x0
 
-    .line 4
     iput p1, p0, Lf/d/d/o$c;->a:I
 
-    .line 5
     iput-object p3, p0, Lf/d/d/o$c;->b:Landroid/graphics/Bitmap;
 
-    .line 6
     iput-object p2, p0, Lf/d/d/o$c;->c:Landroid/graphics/Bitmap;
 
     return-void
@@ -85,7 +79,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lf/d/d/o$c;->b:Landroid/graphics/Bitmap;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -100,7 +93,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lf/d/d/o$c;->c:Landroid/graphics/Bitmap;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -115,7 +107,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lf/d/d/o$c;->a:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -130,10 +121,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lf/d/d/o$c;->b:Landroid/graphics/Bitmap;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -146,10 +135,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lf/d/d/o$c;->c:Landroid/graphics/Bitmap;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -162,10 +149,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lf/d/d/o$c;->a:I
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

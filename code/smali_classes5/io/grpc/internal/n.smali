@@ -28,7 +28,6 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
     const-class v0, Lio/grpc/internal/n;
 
     invoke-virtual {v0}, Ljava/lang/Class;->getName()Ljava/lang/String;
@@ -47,10 +46,8 @@
 .method public constructor <init>(Ljava/lang/String;J)V
     .locals 4
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     new-instance v0, Ljava/util/concurrent/atomic/AtomicLong;
 
     invoke-direct {v0}, Ljava/util/concurrent/atomic/AtomicLong;-><init>()V
@@ -73,13 +70,10 @@
     :goto_0
     const-string v2, "value must be positive"
 
-    .line 3
     invoke-static {v1, v2}, Lcom/google/common/base/t;->e(ZLjava/lang/Object;)V
 
-    .line 4
     iput-object p1, p0, Lio/grpc/internal/n;->a:Ljava/lang/String;
 
-    .line 5
     invoke-virtual {v0, p2, p3}, Ljava/util/concurrent/atomic/AtomicLong;->set(J)V
 
     return-void
@@ -88,7 +82,6 @@
 .method static synthetic a(Lio/grpc/internal/n;)Ljava/util/concurrent/atomic/AtomicLong;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lio/grpc/internal/n;->b:Ljava/util/concurrent/atomic/AtomicLong;
 
     return-object p0
@@ -97,7 +90,6 @@
 .method static synthetic b(Lio/grpc/internal/n;)Ljava/lang/String;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lio/grpc/internal/n;->a:Ljava/lang/String;
 
     return-object p0
@@ -106,7 +98,6 @@
 .method static synthetic c()Ljava/util/logging/Logger;
     .locals 1
 
-    .line 1
     sget-object v0, Lio/grpc/internal/n;->c:Ljava/util/logging/Logger;
 
     return-object v0
@@ -117,7 +108,6 @@
 .method public d()Lio/grpc/internal/n$b;
     .locals 4
 
-    .line 1
     new-instance v0, Lio/grpc/internal/n$b;
 
     iget-object v1, p0, Lio/grpc/internal/n;->b:Ljava/util/concurrent/atomic/AtomicLong;

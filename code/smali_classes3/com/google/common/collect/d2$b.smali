@@ -43,7 +43,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/google/common/collect/d2$a;-><init>(Lcom/google/common/collect/b2;)V
 
     return-void
@@ -59,7 +58,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/collect/d2$a;->c()Lcom/google/common/collect/b2;
 
     move-result-object v0
@@ -91,7 +89,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/collect/d2$b;->descendingSet()Ljava/util/NavigableSet;
 
     move-result-object v0
@@ -113,7 +110,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/google/common/collect/d2$b;
 
     invoke-virtual {p0}, Lcom/google/common/collect/d2$a;->c()Lcom/google/common/collect/b2;
@@ -137,7 +133,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/collect/d2$a;->c()Lcom/google/common/collect/b2;
 
     move-result-object v0
@@ -169,10 +164,8 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/google/common/collect/d2$b;
 
-    .line 2
     invoke-virtual {p0}, Lcom/google/common/collect/d2$a;->c()Lcom/google/common/collect/b2;
 
     move-result-object v1
@@ -198,7 +191,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/collect/d2$a;->c()Lcom/google/common/collect/b2;
 
     move-result-object v0
@@ -228,7 +220,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/collect/d2$a;->c()Lcom/google/common/collect/b2;
 
     move-result-object v0
@@ -258,7 +249,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/collect/d2$a;->c()Lcom/google/common/collect/b2;
 
     move-result-object v0
@@ -282,7 +272,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/collect/d2$a;->c()Lcom/google/common/collect/b2;
 
     move-result-object v0
@@ -308,25 +297,20 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/google/common/collect/d2$b;
 
-    .line 2
     invoke-virtual {p0}, Lcom/google/common/collect/d2$a;->c()Lcom/google/common/collect/b2;
 
     move-result-object v1
 
-    .line 3
     invoke-static {p2}, Lcom/google/common/collect/BoundType;->forBoolean(Z)Lcom/google/common/collect/BoundType;
 
     move-result-object p2
 
-    .line 4
     invoke-static {p4}, Lcom/google/common/collect/BoundType;->forBoolean(Z)Lcom/google/common/collect/BoundType;
 
     move-result-object p4
 
-    .line 5
     invoke-interface {v1, p1, p2, p3, p4}, Lcom/google/common/collect/b2;->subMultiset(Ljava/lang/Object;Lcom/google/common/collect/BoundType;Ljava/lang/Object;Lcom/google/common/collect/BoundType;)Lcom/google/common/collect/b2;
 
     move-result-object p1
@@ -346,10 +330,8 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/google/common/collect/d2$b;
 
-    .line 2
     invoke-virtual {p0}, Lcom/google/common/collect/d2$a;->c()Lcom/google/common/collect/b2;
 
     move-result-object v1

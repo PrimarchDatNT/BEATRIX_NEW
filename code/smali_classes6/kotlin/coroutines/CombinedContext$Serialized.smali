@@ -67,7 +67,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     iput-object p1, p0, Lcotlin/coroutines/CombinedContext$Serialized;->elements:[Lcotlin/coroutines/CoroutineContext;
@@ -78,12 +77,10 @@
 .method private final readResolve()Ljava/lang/Object;
     .locals 5
 
-    .line 1
     iget-object v0, p0, Lcotlin/coroutines/CombinedContext$Serialized;->elements:[Lcotlin/coroutines/CoroutineContext;
 
     sget-object v1, Lcotlin/coroutines/EmptyCoroutineContext;->INSTANCE:Lcotlin/coroutines/EmptyCoroutineContext;
 
-    .line 2
     array-length v2, v0
 
     const/4 v3, 0x0
@@ -93,7 +90,6 @@
 
     aget-object v4, v0, v3
 
-    .line 3
     invoke-interface {v1, v4}, Lcotlin/coroutines/CoroutineContext;->plus(Lcotlin/coroutines/CoroutineContext;)Lcotlin/coroutines/CoroutineContext;
 
     move-result-object v1
@@ -113,7 +109,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcotlin/coroutines/CombinedContext$Serialized;->elements:[Lcotlin/coroutines/CoroutineContext;
 
     return-object v0

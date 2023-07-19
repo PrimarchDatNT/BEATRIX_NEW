@@ -25,7 +25,6 @@
 .method constructor <init>(Lcom/mopub/mraid/MraidBridge$MraidWebView;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/mopub/mraid/MraidBridge$MraidWebView$1;->this$0:Lcom/mopub/mraid/MraidBridge$MraidWebView;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -57,13 +56,10 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p1}, Lcom/mopub/common/Preconditions;->checkNotNull(Ljava/lang/Object;)V
 
-    .line 2
     invoke-static {p2}, Lcom/mopub/common/Preconditions;->checkNotNull(Ljava/lang/Object;)V
 
-    .line 3
     iget-object p2, p0, Lcom/mopub/mraid/MraidBridge$MraidWebView$1;->this$0:Lcom/mopub/mraid/MraidBridge$MraidWebView;
 
     invoke-interface {p1, p2}, Ljava/util/List;->contains(Ljava/lang/Object;)Z

@@ -54,7 +54,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/camera/xcamera/cover/window/H5Cover$h;->a:Lcom/commsource/camera/xcamera/cover/window/H5Cover;
 
     invoke-virtual {v0}, Lcom/commsource/camera/xcamera/cover/window/H5Cover;->M()Z
@@ -87,10 +86,8 @@
 
     const-string v0, "selfie_h5_imp"
 
-    .line 2
     invoke-static {v0}, Lcom/commsource/statistics/i;->p(Ljava/lang/String;)V
 
-    .line 3
     :cond_0
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -104,7 +101,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Ljava/lang/Boolean;
 
     invoke-virtual {p0, p1}, Lcom/commsource/camera/xcamera/cover/window/H5Cover$h;->a(Ljava/lang/Boolean;)V

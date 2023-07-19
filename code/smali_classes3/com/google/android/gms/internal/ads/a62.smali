@@ -14,7 +14,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p0}, Ljava/util/Objects;->requireNonNull(Ljava/lang/Object;)Ljava/lang/Object;
 
     return-object p0
@@ -32,7 +31,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p0, p1}, Ljava/util/Objects;->requireNonNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
 
     return-object p0
@@ -54,7 +52,6 @@
 
     return-void
 
-    .line 1
     :cond_0
     new-instance p0, Ljava/lang/IllegalStateException;
 

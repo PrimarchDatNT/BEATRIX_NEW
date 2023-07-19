@@ -33,7 +33,6 @@
 .method constructor <init>(Lcom/getkeepsafe/relinker/e;Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Lcom/getkeepsafe/relinker/d$c;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/getkeepsafe/relinker/e$a;->f:Lcom/getkeepsafe/relinker/e;
 
     iput-object p2, p0, Lcom/getkeepsafe/relinker/e$a;->a:Landroid/content/Context;
@@ -54,7 +53,6 @@
 .method public run()V
     .locals 4
 
-    .line 1
     :try_start_0
     iget-object v0, p0, Lcom/getkeepsafe/relinker/e$a;->f:Lcom/getkeepsafe/relinker/e;
 
@@ -66,7 +64,6 @@
 
     invoke-static {v0, v1, v2, v3}, Lcom/getkeepsafe/relinker/e;->a(Lcom/getkeepsafe/relinker/e;Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 2
     iget-object v0, p0, Lcom/getkeepsafe/relinker/e$a;->d:Lcom/getkeepsafe/relinker/d$c;
 
     invoke-interface {v0}, Lcom/getkeepsafe/relinker/d$c;->a()V
@@ -79,7 +76,6 @@
     :catch_0
     move-exception v0
 
-    .line 3
     iget-object v1, p0, Lcom/getkeepsafe/relinker/e$a;->d:Lcom/getkeepsafe/relinker/d$c;
 
     invoke-interface {v1, v0}, Lcom/getkeepsafe/relinker/d$c;->b(Ljava/lang/Throwable;)V
@@ -89,7 +85,6 @@
     :catch_1
     move-exception v0
 
-    .line 4
     iget-object v1, p0, Lcom/getkeepsafe/relinker/e$a;->d:Lcom/getkeepsafe/relinker/d$c;
 
     invoke-interface {v1, v0}, Lcom/getkeepsafe/relinker/d$c;->b(Ljava/lang/Throwable;)V

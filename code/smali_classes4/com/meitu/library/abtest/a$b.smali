@@ -50,30 +50,24 @@
 .method constructor <init>(Lcom/meitu/library/abtest/a;)V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/4 v0, 0x0
 
-    .line 2
     iput-object v0, p0, Lcom/meitu/library/abtest/a$b;->a:Ljava/lang/Boolean;
 
     const/4 v0, 0x1
 
-    .line 3
     iput-boolean v0, p0, Lcom/meitu/library/abtest/a$b;->b:Z
 
     const/4 v0, 0x0
 
-    .line 4
     iput-boolean v0, p0, Lcom/meitu/library/abtest/a$b;->c:Z
 
-    .line 5
     sget-object v0, Lcom/meitu/library/abtest/ABTestingManager$INIT_MODES;->NON_BLOCK:Lcom/meitu/library/abtest/ABTestingManager$INIT_MODES;
 
     iput-object v0, p0, Lcom/meitu/library/abtest/a$b;->f:Lcom/meitu/library/abtest/ABTestingManager$INIT_MODES;
 
-    .line 6
     invoke-static {}, Lcom/meitu/library/abtest/control/PrivacyControl;->values()[Lcom/meitu/library/abtest/control/PrivacyControl;
 
     move-result-object v0
@@ -84,7 +78,6 @@
 
     iput-object v0, p0, Lcom/meitu/library/abtest/a$b;->h:[Z
 
-    .line 7
     invoke-static {}, Lcom/meitu/library/abtest/control/SensitiveData;->values()[Lcom/meitu/library/abtest/control/SensitiveData;
 
     move-result-object v0
@@ -95,10 +88,8 @@
 
     iput-object v0, p0, Lcom/meitu/library/abtest/a$b;->i:[I
 
-    .line 8
     iput-object p1, p0, Lcom/meitu/library/abtest/a$b;->d:Lcom/meitu/library/abtest/a;
 
-    .line 9
     iget-object p1, p0, Lcom/meitu/library/abtest/a$b;->h:[Z
 
     invoke-static {p1}, Lcom/meitu/library/abtest/control/PrivacyControl;->setDefaultPrivacyControls([Z)V
@@ -113,7 +104,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/meitu/library/abtest/a$b;->e:Landroid/app/Application;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -128,7 +118,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/meitu/library/abtest/a$b;->a:Ljava/lang/Boolean;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -143,7 +132,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget p0, p0, Lcom/meitu/library/abtest/a$b;->k:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -158,7 +146,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean p0, p0, Lcom/meitu/library/abtest/a$b;->b:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -173,7 +160,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/meitu/library/abtest/a$b;->f:Lcom/meitu/library/abtest/ABTestingManager$INIT_MODES;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -188,7 +174,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/meitu/library/abtest/a$b;->g:[Lcom/meitu/library/abtest/f/b;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -203,7 +188,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean p0, p0, Lcom/meitu/library/abtest/a$b;->c:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -218,7 +202,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/meitu/library/abtest/a$b;->n:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -233,7 +216,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/meitu/library/abtest/a$b;->m:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -248,7 +230,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/meitu/library/abtest/a$b;->l:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -263,7 +244,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/meitu/library/abtest/a$b;->o:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -278,7 +258,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget p0, p0, Lcom/meitu/library/abtest/a$b;->j:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -295,10 +274,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/library/abtest/a$b;->g:[Lcom/meitu/library/abtest/f/b;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
@@ -311,7 +288,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/library/abtest/a$b;->i:[I
 
     invoke-virtual {p1}, Ljava/lang/Enum;->ordinal()I
@@ -324,7 +300,6 @@
 
     aput p2, v1, p1
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
@@ -337,10 +312,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/library/abtest/a$b;->l:Ljava/lang/String;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
@@ -353,17 +326,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/meitu/library/abtest/a;
 
     invoke-direct {v1}, Lcom/meitu/library/abtest/a;-><init>()V
 
     iput-object v1, p0, Lcom/meitu/library/abtest/a$b;->d:Lcom/meitu/library/abtest/a;
 
-    .line 2
     invoke-static {v1, p0}, Lcom/meitu/library/abtest/a;->a(Lcom/meitu/library/abtest/a;Lcom/meitu/library/abtest/a$b;)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -376,7 +346,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/library/abtest/a$b;->h:[Z
 
     invoke-virtual {p1}, Ljava/lang/Enum;->ordinal()I
@@ -387,7 +356,6 @@
 
     aput-boolean v2, v1, p1
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
@@ -400,14 +368,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/library/abtest/a$b;->h:[Z
 
     const/4 v2, 0x0
 
     invoke-static {v1, v2}, Ljava/util/Arrays;->fill([ZZ)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
@@ -420,7 +386,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/library/abtest/a$b;->h:[Z
 
     invoke-virtual {p1}, Ljava/lang/Enum;->ordinal()I
@@ -431,7 +396,6 @@
 
     aput-boolean v2, v1, p1
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
@@ -444,14 +408,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/library/abtest/a$b;->h:[Z
 
     const/4 v2, 0x1
 
     invoke-static {v1, v2}, Ljava/util/Arrays;->fill([ZZ)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
@@ -464,10 +426,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/library/abtest/a$b;->n:Ljava/lang/String;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
@@ -480,10 +440,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/library/abtest/a$b;->e:Landroid/app/Application;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
@@ -496,14 +454,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
 
     move-result-object p1
 
     iput-object p1, p0, Lcom/meitu/library/abtest/a$b;->a:Ljava/lang/Boolean;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
@@ -516,10 +472,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/meitu/library/abtest/a$b;->b:Z
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
@@ -532,10 +486,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/library/abtest/a$b;->o:Ljava/lang/String;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
@@ -548,10 +500,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/library/abtest/a$b;->m:Ljava/lang/String;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
@@ -564,10 +514,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/library/abtest/a$b;->f:Lcom/meitu/library/abtest/ABTestingManager$INIT_MODES;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
@@ -580,10 +528,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/meitu/library/abtest/a$b;->c:Z
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
@@ -596,13 +542,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/meitu/library/abtest/a$b;->j:I
 
-    .line 2
     iput p2, p0, Lcom/meitu/library/abtest/a$b;->k:I
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0

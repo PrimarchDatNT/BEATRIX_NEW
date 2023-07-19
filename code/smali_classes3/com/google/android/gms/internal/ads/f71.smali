@@ -33,22 +33,16 @@
 .method public constructor <init>(Lcom/google/android/gms/internal/ads/gb;Ljava/util/concurrent/ScheduledExecutorService;Lcom/google/android/gms/internal/ads/um;Landroid/content/pm/ApplicationInfo;Lcom/google/android/gms/internal/ads/kh1;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/google/android/gms/internal/ads/f71;->a:Lcom/google/android/gms/internal/ads/gb;
 
-    .line 3
     iput-object p2, p0, Lcom/google/android/gms/internal/ads/f71;->b:Ljava/util/concurrent/ScheduledExecutorService;
 
-    .line 4
     iput-object p3, p0, Lcom/google/android/gms/internal/ads/f71;->c:Lcom/google/android/gms/internal/ads/um;
 
-    .line 5
     iput-object p4, p0, Lcom/google/android/gms/internal/ads/f71;->d:Landroid/content/pm/ApplicationInfo;
 
-    .line 6
     iput-object p5, p0, Lcom/google/android/gms/internal/ads/f71;->e:Lcom/google/android/gms/internal/ads/kh1;
 
     return-void
@@ -67,7 +61,6 @@
         }
     .end annotation
 
-    .line 1
     sget-object v0, Lcom/google/android/gms/internal/ads/c1;->a:Lcom/google/android/gms/internal/ads/y0;
 
     invoke-virtual {v0}, Lcom/google/android/gms/internal/ads/y0;->a()Ljava/lang/Object;
@@ -84,14 +77,12 @@
 
     if-nez v0, :cond_0
 
-    .line 2
     invoke-static {v1}, Lcom/google/android/gms/internal/ads/jq1;->g(Ljava/lang/Object;)Lcom/google/android/gms/internal/ads/rq1;
 
     move-result-object v0
 
     goto :goto_0
 
-    .line 3
     :cond_0
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/f71;->c:Lcom/google/android/gms/internal/ads/um;
 
@@ -101,27 +92,23 @@
 
     if-nez v0, :cond_1
 
-    .line 4
     invoke-static {v1}, Lcom/google/android/gms/internal/ads/jq1;->g(Ljava/lang/Object;)Lcom/google/android/gms/internal/ads/rq1;
 
     move-result-object v0
 
     goto :goto_0
 
-    .line 5
     :cond_1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/f71;->a:Lcom/google/android/gms/internal/ads/gb;
 
     iget-object v1, p0, Lcom/google/android/gms/internal/ads/f71;->d:Landroid/content/pm/ApplicationInfo;
 
-    .line 6
     invoke-interface {v0, v1}, Lcom/google/android/gms/internal/ads/gb;->a(Landroid/content/pm/ApplicationInfo;)Lcom/google/android/gms/internal/ads/rq1;
 
     move-result-object v0
 
     sget-object v1, Lcom/google/android/gms/internal/ads/w;->o2:Lcom/google/android/gms/internal/ads/h;
 
-    .line 7
     invoke-static {}, Lcom/google/android/gms/internal/ads/zm2;->e()Lcom/google/android/gms/internal/ads/s;
 
     move-result-object v2
@@ -130,7 +117,6 @@
 
     move-result-object v1
 
-    .line 8
     check-cast v1, Ljava/lang/Long;
 
     invoke-virtual {v1}, Ljava/lang/Long;->longValue()J
@@ -141,7 +127,6 @@
 
     iget-object v4, p0, Lcom/google/android/gms/internal/ads/f71;->b:Ljava/util/concurrent/ScheduledExecutorService;
 
-    .line 9
     invoke-static {v0, v1, v2, v3, v4}, Lcom/google/android/gms/internal/ads/jq1;->d(Lcom/google/android/gms/internal/ads/rq1;JLjava/util/concurrent/TimeUnit;Ljava/util/concurrent/ScheduledExecutorService;)Lcom/google/android/gms/internal/ads/rq1;
 
     move-result-object v0
@@ -152,12 +137,10 @@
 
     sget-object v3, Lcom/google/android/gms/internal/ads/dq;->f:Lcom/google/android/gms/internal/ads/uq1;
 
-    .line 10
     invoke-static {v0, v1, v2, v3}, Lcom/google/android/gms/internal/ads/jq1;->k(Lcom/google/android/gms/internal/ads/rq1;Ljava/lang/Class;Lcom/google/android/gms/internal/ads/xp1;Ljava/util/concurrent/Executor;)Lcom/google/android/gms/internal/ads/rq1;
 
     move-result-object v0
 
-    .line 11
     :goto_0
     new-instance v1, Lcom/google/android/gms/internal/ads/h71;
 
@@ -169,7 +152,6 @@
 
     move-result-object v0
 
-    .line 12
     sget-object v1, Lcom/google/android/gms/internal/ads/e71;->a:Lcom/google/android/gms/internal/ads/ao1;
 
     sget-object v2, Lcom/google/android/gms/internal/ads/dq;->a:Lcom/google/android/gms/internal/ads/uq1;

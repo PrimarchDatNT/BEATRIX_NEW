@@ -22,7 +22,6 @@
 .method constructor <init>(Lcom/sdk/imp/d;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/sdk/imp/d$b;->a:Lcom/sdk/imp/d;
 
     invoke-direct {p0}, Ljava/util/TimerTask;-><init>()V
@@ -35,12 +34,10 @@
 .method public run()V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/sdk/imp/d$b;->a:Lcom/sdk/imp/d;
 
     invoke-static {v0}, Lcom/sdk/imp/d;->p(Lcom/sdk/imp/d;)V
 
-    .line 2
     iget-object v0, p0, Lcom/sdk/imp/d$b;->a:Lcom/sdk/imp/d;
 
     const/16 v1, 0x80

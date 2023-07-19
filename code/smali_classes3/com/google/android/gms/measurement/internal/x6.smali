@@ -26,13 +26,10 @@
 .method public final run()V
     .locals 6
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/measurement/internal/x6;->a:Lcom/google/android/gms/measurement/internal/u6;
 
-    .line 2
     invoke-virtual {v0}, Lcom/google/android/gms/measurement/internal/k6;->d()V
 
-    .line 3
     invoke-virtual {v0}, Lcom/google/android/gms/measurement/internal/k6;->j()Lcom/google/android/gms/measurement/internal/x4;
 
     move-result-object v1
@@ -45,7 +42,6 @@
 
     if-eqz v1, :cond_0
 
-    .line 4
     invoke-virtual {v0}, Lcom/google/android/gms/measurement/internal/k6;->w()Lcom/google/android/gms/measurement/internal/o4;
 
     move-result-object v0
@@ -60,7 +56,6 @@
 
     return-void
 
-    .line 5
     :cond_0
     invoke-virtual {v0}, Lcom/google/android/gms/measurement/internal/k6;->j()Lcom/google/android/gms/measurement/internal/x4;
 
@@ -72,7 +67,6 @@
 
     move-result-wide v1
 
-    .line 6
     invoke-virtual {v0}, Lcom/google/android/gms/measurement/internal/k6;->j()Lcom/google/android/gms/measurement/internal/x4;
 
     move-result-object v3
@@ -91,22 +85,18 @@
 
     if-ltz v5, :cond_1
 
-    .line 7
     invoke-virtual {v0}, Lcom/google/android/gms/measurement/internal/k6;->w()Lcom/google/android/gms/measurement/internal/o4;
 
     move-result-object v1
 
-    .line 8
     invoke-virtual {v1}, Lcom/google/android/gms/measurement/internal/o4;->J()Lcom/google/android/gms/measurement/internal/q4;
 
     move-result-object v1
 
     const-string v2, "Permanently failed to retrieve Deferred Deep Link. Reached maximum retries."
 
-    .line 9
     invoke-virtual {v1, v2}, Lcom/google/android/gms/measurement/internal/q4;->a(Ljava/lang/String;)V
 
-    .line 10
     invoke-virtual {v0}, Lcom/google/android/gms/measurement/internal/k6;->j()Lcom/google/android/gms/measurement/internal/x4;
 
     move-result-object v0
@@ -119,7 +109,6 @@
 
     return-void
 
-    .line 11
     :cond_1
     iget-object v0, v0, Lcom/google/android/gms/measurement/internal/k6;->a:Lcom/google/android/gms/measurement/internal/s5;
 

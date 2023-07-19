@@ -30,13 +30,10 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/google/firebase/firestore/core/r0;->a:Lcom/google/firebase/firestore/core/ViewSnapshot;
 
-    .line 3
     iput-object p2, p0, Lcom/google/firebase/firestore/core/r0;->b:Ljava/util/List;
 
     return-void
@@ -55,7 +52,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/firestore/core/r0;->b:Ljava/util/List;
 
     return-object v0
@@ -64,7 +60,6 @@
 .method public b()Lcom/google/firebase/firestore/core/ViewSnapshot;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/firestore/core/r0;->a:Lcom/google/firebase/firestore/core/ViewSnapshot;
 
     return-object v0

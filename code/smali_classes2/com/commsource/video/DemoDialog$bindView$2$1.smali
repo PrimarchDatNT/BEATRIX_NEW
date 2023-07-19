@@ -28,7 +28,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/video/DemoDialog$bindView$2$1;->a:Lcom/commsource/video/DemoDialog$bindView$2;
 
     invoke-direct {p0}, Lcom/commsource/camera/f1/l$a;-><init>()V
@@ -49,10 +48,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0, p1}, Lcom/commsource/camera/f1/l$a;->d(Lcom/commsource/camera/f1/l;)V
 
-    .line 2
     sget-object p1, Lcom/commsource/video/XPlayer;->f:Lcom/commsource/video/XPlayer;
 
     iget-object v1, p0, Lcom/commsource/video/DemoDialog$bindView$2$1;->a:Lcom/commsource/video/DemoDialog$bindView$2;
@@ -77,7 +74,6 @@
 
     invoke-virtual {p1, v2, v1, v3}, Lcom/commsource/video/XPlayer;->c(Lcom/commsource/video/view/XVideoContainer;Lcom/commsource/video/view/XVideoContainer;Lcotlin/jvm/u/a;)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -90,10 +86,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0, p1, p2}, Lcom/commsource/camera/f1/l$a;->e(FF)V
 
-    .line 2
     iget-object p2, p0, Lcom/commsource/video/DemoDialog$bindView$2$1;->a:Lcom/commsource/video/DemoDialog$bindView$2;
 
     iget-object p2, p2, Lcom/commsource/video/DemoDialog$bindView$2;->a:Lcom/commsource/video/DemoDialog;
@@ -106,7 +100,6 @@
 
     move-result p2
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/video/DemoDialog$bindView$2$1;->a:Lcom/commsource/video/DemoDialog$bindView$2;
 
     iget-object v1, v1, Lcom/commsource/video/DemoDialog$bindView$2;->a:Lcom/commsource/video/DemoDialog;
@@ -119,7 +112,6 @@
 
     move-result v1
 
-    .line 4
     iget-object v2, p0, Lcom/commsource/video/DemoDialog$bindView$2$1;->a:Lcom/commsource/video/DemoDialog$bindView$2;
 
     iget-object v2, v2, Lcom/commsource/video/DemoDialog$bindView$2;->b:Lcom/commsource/video/view/XVideoContainer;
@@ -128,7 +120,6 @@
 
     invoke-static {v2, v1}, Lcom/commsource/util/l2;->y(Landroid/view/View;I)V
 
-    .line 5
     iget-object v1, p0, Lcom/commsource/video/DemoDialog$bindView$2$1;->a:Lcom/commsource/video/DemoDialog$bindView$2;
 
     iget-object v1, v1, Lcom/commsource/video/DemoDialog$bindView$2;->b:Lcom/commsource/video/view/XVideoContainer;
@@ -137,7 +128,6 @@
 
     invoke-static {v1, p2}, Lcom/commsource/util/l2;->N(Landroid/view/View;I)V
 
-    .line 6
     iget-object p2, p0, Lcom/commsource/video/DemoDialog$bindView$2$1;->a:Lcom/commsource/video/DemoDialog$bindView$2;
 
     iget-object v1, p2, Lcom/commsource/video/DemoDialog$bindView$2;->b:Lcom/commsource/video/view/XVideoContainer;
@@ -154,7 +144,6 @@
 
     invoke-virtual {v1, p1}, Landroid/widget/FrameLayout;->setTranslationY(F)V
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

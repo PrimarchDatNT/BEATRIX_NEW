@@ -34,7 +34,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p2}, Ljava/lang/Class;->getName()Ljava/lang/String;
 
     move-result-object p2
@@ -53,12 +52,10 @@
     .annotation build Lf/f/e/a/d;
     .end annotation
 
-    .line 2
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const-string v0, "level"
 
-    .line 3
     invoke-static {p1, v0}, Lcom/google/common/base/t;->F(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -69,7 +66,6 @@
 
     const-string p1, "logger"
 
-    .line 4
     invoke-static {p2, p1}, Lcom/google/common/base/t;->F(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -84,7 +80,6 @@
 .method private a()Z
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lio/grpc/okhttp/OkHttpFrameLogger;->a:Ljava/util/logging/Logger;
 
     iget-object v1, p0, Lio/grpc/okhttp/OkHttpFrameLogger;->b:Ljava/util/logging/Level;
@@ -99,14 +94,12 @@
 .method private static m(Lio/grpc/okhttp/internal/framed/g;)Ljava/lang/String;
     .locals 6
 
-    .line 1
     new-instance v0, Ljava/util/EnumMap;
 
     const-class v1, Lio/grpc/okhttp/OkHttpFrameLogger$SettingParams;
 
     invoke-direct {v0, v1}, Ljava/util/EnumMap;-><init>(Ljava/lang/Class;)V
 
-    .line 2
     invoke-static {}, Lio/grpc/okhttp/OkHttpFrameLogger$SettingParams;->values()[Lio/grpc/okhttp/OkHttpFrameLogger$SettingParams;
 
     move-result-object v1
@@ -120,7 +113,6 @@
 
     aget-object v4, v1, v3
 
-    .line 3
     invoke-virtual {v4}, Lio/grpc/okhttp/OkHttpFrameLogger$SettingParams;->getBit()I
 
     move-result v5
@@ -131,7 +123,6 @@
 
     if-eqz v5, :cond_0
 
-    .line 4
     invoke-virtual {v4}, Lio/grpc/okhttp/OkHttpFrameLogger$SettingParams;->getBit()I
 
     move-result v5
@@ -151,7 +142,6 @@
 
     goto :goto_0
 
-    .line 5
     :cond_1
     invoke-virtual {v0}, Ljava/util/EnumMap;->toString()Ljava/lang/String;
 
@@ -163,7 +153,6 @@
 .method private static n(Lokio/Buffer;)Ljava/lang/String;
     .locals 5
 
-    .line 1
     invoke-virtual {p0}, Lokio/Buffer;->size()J
 
     move-result-wide v0
@@ -174,7 +163,6 @@
 
     if-gtz v4, :cond_0
 
-    .line 2
     invoke-virtual {p0}, Lokio/Buffer;->snapshot()Lokio/ByteString;
 
     move-result-object p0
@@ -185,7 +173,6 @@
 
     return-object p0
 
-    .line 3
     :cond_0
     invoke-virtual {p0}, Lokio/Buffer;->size()J
 
@@ -197,7 +184,6 @@
 
     long-to-int v1, v0
 
-    .line 4
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -228,14 +214,12 @@
 .method b(Lio/grpc/okhttp/OkHttpFrameLogger$Direction;ILokio/Buffer;IZ)V
     .locals 3
 
-    .line 1
     invoke-direct {p0}, Lio/grpc/okhttp/OkHttpFrameLogger;->a()Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
-    .line 2
     iget-object v0, p0, Lio/grpc/okhttp/OkHttpFrameLogger;->a:Ljava/util/logging/Logger;
 
     iget-object v1, p0, Lio/grpc/okhttp/OkHttpFrameLogger;->b:Ljava/util/logging/Level;
@@ -268,7 +252,6 @@
 
     invoke-virtual {v2, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 3
     invoke-static {p3}, Lio/grpc/okhttp/OkHttpFrameLogger;->n(Lokio/Buffer;)Ljava/lang/String;
 
     move-result-object p1
@@ -279,7 +262,6 @@
 
     move-result-object p1
 
-    .line 4
     invoke-virtual {v0, v1, p1}, Ljava/util/logging/Logger;->log(Ljava/util/logging/Level;Ljava/lang/String;)V
 
     :cond_0
@@ -289,14 +271,12 @@
 .method c(Lio/grpc/okhttp/OkHttpFrameLogger$Direction;ILio/grpc/okhttp/internal/framed/ErrorCode;Lokio/ByteString;)V
     .locals 3
 
-    .line 1
     invoke-direct {p0}, Lio/grpc/okhttp/OkHttpFrameLogger;->a()Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
-    .line 2
     iget-object v0, p0, Lio/grpc/okhttp/OkHttpFrameLogger;->a:Ljava/util/logging/Logger;
 
     iget-object v1, p0, Lio/grpc/okhttp/OkHttpFrameLogger;->b:Ljava/util/logging/Level;
@@ -323,7 +303,6 @@
 
     invoke-virtual {v2, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 3
     invoke-virtual {p4}, Lokio/ByteString;->size()I
 
     move-result p1
@@ -338,7 +317,6 @@
 
     invoke-direct {p1}, Lokio/Buffer;-><init>()V
 
-    .line 4
     invoke-virtual {p1, p4}, Lokio/Buffer;->write(Lokio/ByteString;)Lokio/Buffer;
 
     move-result-object p1
@@ -353,7 +331,6 @@
 
     move-result-object p1
 
-    .line 5
     invoke-virtual {v0, v1, p1}, Ljava/util/logging/Logger;->log(Ljava/util/logging/Level;Ljava/lang/String;)V
 
     :cond_0
@@ -373,14 +350,12 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Lio/grpc/okhttp/OkHttpFrameLogger;->a()Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
-    .line 2
     iget-object v0, p0, Lio/grpc/okhttp/OkHttpFrameLogger;->a:Ljava/util/logging/Logger;
 
     iget-object v1, p0, Lio/grpc/okhttp/OkHttpFrameLogger;->b:Ljava/util/logging/Level;
@@ -422,14 +397,12 @@
 .method e(Lio/grpc/okhttp/OkHttpFrameLogger$Direction;J)V
     .locals 3
 
-    .line 1
     invoke-direct {p0}, Lio/grpc/okhttp/OkHttpFrameLogger;->a()Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
-    .line 2
     iget-object v0, p0, Lio/grpc/okhttp/OkHttpFrameLogger;->a:Ljava/util/logging/Logger;
 
     iget-object v1, p0, Lio/grpc/okhttp/OkHttpFrameLogger;->b:Ljava/util/logging/Level;
@@ -459,14 +432,12 @@
 .method f(Lio/grpc/okhttp/OkHttpFrameLogger$Direction;J)V
     .locals 3
 
-    .line 1
     invoke-direct {p0}, Lio/grpc/okhttp/OkHttpFrameLogger;->a()Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
-    .line 2
     iget-object v0, p0, Lio/grpc/okhttp/OkHttpFrameLogger;->a:Ljava/util/logging/Logger;
 
     iget-object v1, p0, Lio/grpc/okhttp/OkHttpFrameLogger;->b:Ljava/util/logging/Level;
@@ -496,14 +467,12 @@
 .method public g(Lio/grpc/okhttp/OkHttpFrameLogger$Direction;IIIZ)V
     .locals 3
 
-    .line 1
     invoke-direct {p0}, Lio/grpc/okhttp/OkHttpFrameLogger;->a()Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
-    .line 2
     iget-object v0, p0, Lio/grpc/okhttp/OkHttpFrameLogger;->a:Ljava/util/logging/Logger;
 
     iget-object v1, p0, Lio/grpc/okhttp/OkHttpFrameLogger;->b:Ljava/util/logging/Level;
@@ -561,14 +530,12 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Lio/grpc/okhttp/OkHttpFrameLogger;->a()Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
-    .line 2
     iget-object v0, p0, Lio/grpc/okhttp/OkHttpFrameLogger;->a:Ljava/util/logging/Logger;
 
     iget-object v1, p0, Lio/grpc/okhttp/OkHttpFrameLogger;->b:Ljava/util/logging/Level;
@@ -610,14 +577,12 @@
 .method i(Lio/grpc/okhttp/OkHttpFrameLogger$Direction;ILio/grpc/okhttp/internal/framed/ErrorCode;)V
     .locals 3
 
-    .line 1
     invoke-direct {p0}, Lio/grpc/okhttp/OkHttpFrameLogger;->a()Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
-    .line 2
     iget-object v0, p0, Lio/grpc/okhttp/OkHttpFrameLogger;->a:Ljava/util/logging/Logger;
 
     iget-object v1, p0, Lio/grpc/okhttp/OkHttpFrameLogger;->b:Ljava/util/logging/Level;
@@ -653,14 +618,12 @@
 .method j(Lio/grpc/okhttp/OkHttpFrameLogger$Direction;Lio/grpc/okhttp/internal/framed/g;)V
     .locals 3
 
-    .line 1
     invoke-direct {p0}, Lio/grpc/okhttp/OkHttpFrameLogger;->a()Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
-    .line 2
     iget-object v0, p0, Lio/grpc/okhttp/OkHttpFrameLogger;->a:Ljava/util/logging/Logger;
 
     iget-object v1, p0, Lio/grpc/okhttp/OkHttpFrameLogger;->b:Ljava/util/logging/Level;
@@ -694,14 +657,12 @@
 .method k(Lio/grpc/okhttp/OkHttpFrameLogger$Direction;)V
     .locals 3
 
-    .line 1
     invoke-direct {p0}, Lio/grpc/okhttp/OkHttpFrameLogger;->a()Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
-    .line 2
     iget-object v0, p0, Lio/grpc/okhttp/OkHttpFrameLogger;->a:Ljava/util/logging/Logger;
 
     iget-object v1, p0, Lio/grpc/okhttp/OkHttpFrameLogger;->b:Ljava/util/logging/Level;
@@ -729,14 +690,12 @@
 .method l(Lio/grpc/okhttp/OkHttpFrameLogger$Direction;IJ)V
     .locals 3
 
-    .line 1
     invoke-direct {p0}, Lio/grpc/okhttp/OkHttpFrameLogger;->a()Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
-    .line 2
     iget-object v0, p0, Lio/grpc/okhttp/OkHttpFrameLogger;->a:Ljava/util/logging/Logger;
 
     iget-object v1, p0, Lio/grpc/okhttp/OkHttpFrameLogger;->b:Ljava/util/logging/Level;

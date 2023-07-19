@@ -27,7 +27,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -38,14 +37,12 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/airbnb/lottie/g$b$a;
 
     const/4 v1, 0x0
 
     invoke-direct {v0, p2, v1}, Lcom/airbnb/lottie/g$b$a;-><init>(Lcom/airbnb/lottie/r;Lcom/airbnb/lottie/g$a;)V
 
-    .line 2
     invoke-static {p0, p1}, Lcom/airbnb/lottie/h;->e(Landroid/content/Context;Ljava/lang/String;)Lcom/airbnb/lottie/q;
 
     move-result-object p0
@@ -66,7 +63,6 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    .line 1
     invoke-static {p0, p1}, Lcom/airbnb/lottie/h;->g(Landroid/content/Context;Ljava/lang/String;)Lcom/airbnb/lottie/p;
 
     move-result-object p0
@@ -85,14 +81,12 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/airbnb/lottie/g$b$a;
 
     const/4 v1, 0x0
 
     invoke-direct {v0, p1, v1}, Lcom/airbnb/lottie/g$b$a;-><init>(Lcom/airbnb/lottie/r;Lcom/airbnb/lottie/g$a;)V
 
-    .line 2
     invoke-static {p0, v1}, Lcom/airbnb/lottie/h;->j(Ljava/io/InputStream;Ljava/lang/String;)Lcom/airbnb/lottie/q;
 
     move-result-object p0
@@ -115,7 +109,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-static {p0, v0}, Lcom/airbnb/lottie/h;->k(Ljava/io/InputStream;Ljava/lang/String;)Lcom/airbnb/lottie/p;
 
     move-result-object p0
@@ -144,13 +137,11 @@
 
     const-string p1, "Lottie now auto-closes input stream!"
 
-    .line 1
     invoke-static {p1}, Lcom/airbnb/lottie/z/d;->e(Ljava/lang/String;)V
 
     :cond_0
     const/4 p1, 0x0
 
-    .line 2
     invoke-static {p0, p1}, Lcom/airbnb/lottie/h;->k(Ljava/io/InputStream;Ljava/lang/String;)Lcom/airbnb/lottie/p;
 
     move-result-object p0
@@ -169,14 +160,12 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/airbnb/lottie/g$b$a;
 
     const/4 v1, 0x0
 
     invoke-direct {v0, p1, v1}, Lcom/airbnb/lottie/g$b$a;-><init>(Lcom/airbnb/lottie/r;Lcom/airbnb/lottie/g$a;)V
 
-    .line 2
     invoke-static {p0, v1}, Lcom/airbnb/lottie/h;->m(Lcom/airbnb/lottie/parser/moshi/JsonReader;Ljava/lang/String;)Lcom/airbnb/lottie/q;
 
     move-result-object p0
@@ -191,14 +180,12 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/airbnb/lottie/g$b$a;
 
     const/4 v1, 0x0
 
     invoke-direct {v0, p1, v1}, Lcom/airbnb/lottie/g$b$a;-><init>(Lcom/airbnb/lottie/r;Lcom/airbnb/lottie/g$a;)V
 
-    .line 2
     invoke-static {p0, v1}, Lcom/airbnb/lottie/h;->p(Ljava/lang/String;Ljava/lang/String;)Lcom/airbnb/lottie/q;
 
     move-result-object p0
@@ -221,7 +208,6 @@
 
     const/4 p0, 0x0
 
-    .line 1
     invoke-static {p1, p0}, Lcom/airbnb/lottie/h;->r(Lorg/json/JSONObject;Ljava/lang/String;)Lcom/airbnb/lottie/p;
 
     move-result-object p0
@@ -248,7 +234,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-static {p0, v0}, Lcom/airbnb/lottie/h;->n(Lcom/airbnb/lottie/parser/moshi/JsonReader;Ljava/lang/String;)Lcom/airbnb/lottie/p;
 
     move-result-object p0
@@ -275,7 +260,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-static {p0, v0}, Lcom/airbnb/lottie/h;->q(Ljava/lang/String;Ljava/lang/String;)Lcom/airbnb/lottie/p;
 
     move-result-object p0
@@ -298,14 +282,12 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/airbnb/lottie/g$b$a;
 
     const/4 v1, 0x0
 
     invoke-direct {v0, p2, v1}, Lcom/airbnb/lottie/g$b$a;-><init>(Lcom/airbnb/lottie/r;Lcom/airbnb/lottie/g$a;)V
 
-    .line 2
     invoke-static {p0, p1}, Lcom/airbnb/lottie/h;->s(Landroid/content/Context;I)Lcom/airbnb/lottie/q;
 
     move-result-object p0

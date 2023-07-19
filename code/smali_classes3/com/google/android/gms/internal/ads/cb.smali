@@ -30,14 +30,12 @@
 .method public final apply(Ljava/lang/Object;)Ljava/lang/Object;
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/cb;->a:Ljava/lang/String;
 
     iget-object v1, p0, Lcom/google/android/gms/internal/ads/cb;->b:Lcom/google/android/gms/internal/ads/g6;
 
     check-cast p1, Lcom/google/android/gms/internal/ads/ia;
 
-    .line 2
     invoke-interface {p1, v0, v1}, Lcom/google/android/gms/internal/ads/ia;->g(Ljava/lang/String;Lcom/google/android/gms/internal/ads/g6;)V
 
     return-object p1

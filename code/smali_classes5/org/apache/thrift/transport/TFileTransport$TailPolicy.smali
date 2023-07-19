@@ -40,7 +40,6 @@
 .method static constructor <clinit>()V
     .locals 7
 
-    .line 1
     new-instance v0, Lorg/apache/thrift/transport/TFileTransport$TailPolicy;
 
     const-string v1, "NOWAIT"
@@ -51,7 +50,6 @@
 
     sput-object v0, Lorg/apache/thrift/transport/TFileTransport$TailPolicy;->NOWAIT:Lorg/apache/thrift/transport/TFileTransport$TailPolicy;
 
-    .line 2
     new-instance v1, Lorg/apache/thrift/transport/TFileTransport$TailPolicy;
 
     const-string v3, "WAIT_FOREVER"
@@ -74,7 +72,6 @@
 
     aput-object v1, v3, v4
 
-    .line 3
     sput-object v3, Lorg/apache/thrift/transport/TFileTransport$TailPolicy;->$VALUES:[Lorg/apache/thrift/transport/TFileTransport$TailPolicy;
 
     return-void
@@ -88,13 +85,10 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 2
     iput p3, p0, Lorg/apache/thrift/transport/TFileTransport$TailPolicy;->timeout_:I
 
-    .line 3
     iput p4, p0, Lorg/apache/thrift/transport/TFileTransport$TailPolicy;->retries_:I
 
     return-void
@@ -103,7 +97,6 @@
 .method public static valueOf(Ljava/lang/String;)Lorg/apache/thrift/transport/TFileTransport$TailPolicy;
     .locals 1
 
-    .line 1
     const-class v0, Lorg/apache/thrift/transport/TFileTransport$TailPolicy;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -118,7 +111,6 @@
 .method public static values()[Lorg/apache/thrift/transport/TFileTransport$TailPolicy;
     .locals 1
 
-    .line 1
     sget-object v0, Lorg/apache/thrift/transport/TFileTransport$TailPolicy;->$VALUES:[Lorg/apache/thrift/transport/TFileTransport$TailPolicy;
 
     invoke-virtual {v0}, [Lorg/apache/thrift/transport/TFileTransport$TailPolicy;->clone()Ljava/lang/Object;

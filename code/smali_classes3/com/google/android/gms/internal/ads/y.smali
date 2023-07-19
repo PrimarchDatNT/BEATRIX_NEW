@@ -7,10 +7,8 @@
 .method public static a(Ljava/lang/String;)Z
     .locals 2
 
-    .line 1
     sget-object v0, Lcom/google/android/gms/internal/ads/w;->q3:Lcom/google/android/gms/internal/ads/h;
 
-    .line 2
     invoke-static {}, Lcom/google/android/gms/internal/ads/zm2;->e()Lcom/google/android/gms/internal/ads/s;
 
     move-result-object v1
@@ -19,10 +17,8 @@
 
     move-result-object v0
 
-    .line 3
     check-cast v0, Ljava/lang/String;
 
-    .line 4
     invoke-static {v0, p0}, Lcom/google/android/gms/internal/ads/y;->b(Ljava/lang/String;Ljava/lang/String;)Z
 
     move-result p0
@@ -41,7 +37,6 @@
 
     goto :goto_0
 
-    .line 1
     :cond_0
     :try_start_0
     invoke-static {p0, p1}, Ljava/util/regex/Pattern;->matches(Ljava/lang/String;Ljava/lang/CharSequence;)Z
@@ -55,7 +50,6 @@
     :catch_0
     move-exception p0
 
-    .line 2
     invoke-static {}, Lcom/google/android/gms/ads/internal/p;->g()Lcom/google/android/gms/internal/ads/em;
 
     move-result-object p1

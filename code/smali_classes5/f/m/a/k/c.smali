@@ -10,7 +10,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -29,7 +28,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-interface {p1}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
     move-result-object p1
@@ -47,7 +45,6 @@
 
     check-cast v0, Lf/m/a/k/h;
 
-    .line 2
     invoke-virtual {v0}, Lf/m/a/k/h;->b()Z
 
     move-result v0
@@ -56,7 +53,6 @@
 
     const/4 p1, 0x0
 
-    .line 3
     invoke-virtual {p0, p1}, Lf/m/a/k/c;->b(Z)V
 
     return-void
@@ -64,7 +60,6 @@
     :cond_1
     const/4 p1, 0x1
 
-    .line 4
     invoke-virtual {p0, p1}, Lf/m/a/k/c;->b(Z)V
 
     return-void

@@ -53,7 +53,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Landroid/content/ContentProvider;-><init>()V
 
     return-void
@@ -62,7 +61,6 @@
 .method static synthetic a(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Landroid/net/Uri;
     .locals 0
 
-    .line 1
     invoke-static {p0, p1, p2, p3}, Lcom/sdk/imp/internal/loader/MultiProcessPreferences;->h(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Landroid/net/Uri;
 
     move-result-object p0
@@ -73,7 +71,6 @@
 .method static synthetic b(Landroid/database/Cursor;Z)Z
     .locals 0
 
-    .line 1
     invoke-static {p0, p1}, Lcom/sdk/imp/internal/loader/MultiProcessPreferences;->g(Landroid/database/Cursor;Z)Z
 
     move-result p0
@@ -84,7 +81,6 @@
 .method static synthetic c(Landroid/database/Cursor;F)F
     .locals 0
 
-    .line 1
     invoke-static {p0, p1}, Lcom/sdk/imp/internal/loader/MultiProcessPreferences;->j(Landroid/database/Cursor;F)F
 
     move-result p0
@@ -95,7 +91,6 @@
 .method static synthetic d(Landroid/database/Cursor;I)I
     .locals 0
 
-    .line 1
     invoke-static {p0, p1}, Lcom/sdk/imp/internal/loader/MultiProcessPreferences;->k(Landroid/database/Cursor;I)I
 
     move-result p0
@@ -106,7 +101,6 @@
 .method static synthetic e(Landroid/database/Cursor;J)J
     .locals 0
 
-    .line 1
     invoke-static {p0, p1, p2}, Lcom/sdk/imp/internal/loader/MultiProcessPreferences;->l(Landroid/database/Cursor;J)J
 
     move-result-wide p0
@@ -117,7 +111,6 @@
 .method static synthetic f(Landroid/database/Cursor;Ljava/lang/String;)Ljava/lang/String;
     .locals 0
 
-    .line 1
     invoke-static {p0, p1}, Lcom/sdk/imp/internal/loader/MultiProcessPreferences;->m(Landroid/database/Cursor;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p0
@@ -132,7 +125,6 @@
 
     return p1
 
-    .line 1
     :cond_0
     invoke-interface {p0}, Landroid/database/Cursor;->moveToFirst()Z
 
@@ -142,7 +134,6 @@
 
     const/4 p1, 0x0
 
-    .line 2
     invoke-interface {p0, p1}, Landroid/database/Cursor;->getInt(I)I
 
     move-result v0
@@ -151,7 +142,6 @@
 
     const/4 p1, 0x1
 
-    .line 3
     :cond_1
     invoke-interface {p0}, Landroid/database/Cursor;->close()V
 
@@ -161,15 +151,12 @@
 .method private static h(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Landroid/net/Uri;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/sdk/imp/internal/loader/MultiProcessPreferences;->c:Landroid/net/Uri;
 
     if-nez v0, :cond_0
 
-    .line 2
     invoke-static {p0}, Lcom/sdk/imp/internal/loader/MultiProcessPreferences;->n(Landroid/content/Context;)V
 
-    .line 3
     :cond_0
     sget-object p0, Lcom/sdk/imp/internal/loader/MultiProcessPreferences;->c:Landroid/net/Uri;
 
@@ -202,7 +189,6 @@
 
     move-result-object p0
 
-    .line 4
     new-instance p1, Ljava/lang/StringBuilder;
 
     invoke-direct {p1}, Ljava/lang/StringBuilder;-><init>()V
@@ -231,7 +217,6 @@
 .method public static i(Landroid/content/Context;)Lcom/sdk/imp/internal/loader/MultiProcessPreferences$b;
     .locals 2
 
-    .line 1
     new-instance v0, Lcom/sdk/imp/internal/loader/MultiProcessPreferences$b;
 
     const/4 v1, 0x0
@@ -248,7 +233,6 @@
 
     return p1
 
-    .line 1
     :cond_0
     invoke-interface {p0}, Landroid/database/Cursor;->moveToFirst()Z
 
@@ -258,12 +242,10 @@
 
     const/4 p1, 0x0
 
-    .line 2
     invoke-interface {p0, p1}, Landroid/database/Cursor;->getFloat(I)F
 
     move-result p1
 
-    .line 3
     :cond_1
     invoke-interface {p0}, Landroid/database/Cursor;->close()V
 
@@ -277,7 +259,6 @@
 
     return p1
 
-    .line 1
     :cond_0
     invoke-interface {p0}, Landroid/database/Cursor;->moveToFirst()Z
 
@@ -287,12 +268,10 @@
 
     const/4 p1, 0x0
 
-    .line 2
     invoke-interface {p0, p1}, Landroid/database/Cursor;->getInt(I)I
 
     move-result p1
 
-    .line 3
     :cond_1
     invoke-interface {p0}, Landroid/database/Cursor;->close()V
 
@@ -306,7 +285,6 @@
 
     return-wide p1
 
-    .line 1
     :cond_0
     invoke-interface {p0}, Landroid/database/Cursor;->moveToFirst()Z
 
@@ -316,12 +294,10 @@
 
     const/4 p1, 0x0
 
-    .line 2
     invoke-interface {p0, p1}, Landroid/database/Cursor;->getLong(I)J
 
     move-result-wide p1
 
-    .line 3
     :cond_1
     invoke-interface {p0}, Landroid/database/Cursor;->close()V
 
@@ -335,7 +311,6 @@
 
     return-object p1
 
-    .line 1
     :cond_0
     invoke-interface {p0}, Landroid/database/Cursor;->moveToFirst()Z
 
@@ -345,14 +320,12 @@
 
     const/4 v0, 0x0
 
-    .line 2
     invoke-interface {p0, v0}, Landroid/database/Cursor;->getString(I)Ljava/lang/String;
 
     move-result-object v0
 
     const-string v1, "value_default"
 
-    .line 3
     invoke-virtual {v1, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v1
@@ -364,7 +337,6 @@
     :cond_1
     move-object p1, v0
 
-    .line 4
     :cond_2
     :goto_0
     invoke-interface {p0}, Landroid/database/Cursor;->close()V
@@ -379,7 +351,6 @@
 
     goto :goto_0
 
-    .line 1
     :cond_0
     new-instance v0, Lcom/sdk/imp/internal/loader/l;
 
@@ -389,7 +360,6 @@
 
     sput-object v0, Lcom/sdk/imp/internal/loader/MultiProcessPreferences;->P:Lcom/sdk/imp/internal/loader/l;
 
-    .line 2
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -410,7 +380,6 @@
 
     sput-object p0, Lcom/sdk/imp/internal/loader/MultiProcessPreferences;->L:Ljava/lang/String;
 
-    .line 3
     new-instance p0, Landroid/content/UriMatcher;
 
     const/4 v0, -0x1
@@ -419,7 +388,6 @@
 
     sput-object p0, Lcom/sdk/imp/internal/loader/MultiProcessPreferences;->Q:Landroid/content/UriMatcher;
 
-    .line 4
     sget-object v0, Lcom/sdk/imp/internal/loader/MultiProcessPreferences;->L:Ljava/lang/String;
 
     const v1, 0x8888
@@ -428,7 +396,6 @@
 
     invoke-virtual {p0, v0, v2, v1}, Landroid/content/UriMatcher;->addURI(Ljava/lang/String;Ljava/lang/String;I)V
 
-    .line 5
     new-instance p0, Ljava/lang/StringBuilder;
 
     invoke-direct {p0}, Ljava/lang/StringBuilder;-><init>()V
@@ -464,7 +431,6 @@
         .end annotation
     .end param
 
-    .line 1
     :try_start_0
     sget-object p2, Lcom/sdk/imp/internal/loader/MultiProcessPreferences;->Q:Landroid/content/UriMatcher;
 
@@ -485,7 +451,6 @@
         .end annotation
     .end param
 
-    .line 1
     new-instance p1, Ljava/lang/StringBuilder;
 
     invoke-direct {p1}, Ljava/lang/StringBuilder;-><init>()V
@@ -516,7 +481,6 @@
         .end annotation
     .end param
 
-    .line 1
     :try_start_0
     sget-object v0, Lcom/sdk/imp/internal/loader/MultiProcessPreferences;->Q:Landroid/content/UriMatcher;
 
@@ -530,7 +494,6 @@
 
     goto/16 :goto_1
 
-    .line 2
     :cond_0
     invoke-virtual {p2}, Landroid/content/ContentValues;->valueSet()Ljava/util/Set;
 
@@ -554,12 +517,10 @@
 
     check-cast p2, Ljava/util/Map$Entry;
 
-    .line 3
     invoke-interface {p2}, Ljava/util/Map$Entry;->getValue()Ljava/lang/Object;
 
     move-result-object v0
 
-    .line 4
     invoke-interface {p2}, Ljava/util/Map$Entry;->getKey()Ljava/lang/Object;
 
     move-result-object p2
@@ -568,20 +529,17 @@
 
     if-nez v0, :cond_2
 
-    .line 5
     sget-object v0, Lcom/sdk/imp/internal/loader/MultiProcessPreferences;->P:Lcom/sdk/imp/internal/loader/l;
 
     invoke-virtual {v0, p2}, Lcom/sdk/imp/internal/loader/l;->p(Ljava/lang/String;)V
 
     goto :goto_0
 
-    .line 6
     :cond_2
     instance-of v1, v0, Ljava/lang/String;
 
     if-eqz v1, :cond_3
 
-    .line 7
     sget-object v1, Lcom/sdk/imp/internal/loader/MultiProcessPreferences;->P:Lcom/sdk/imp/internal/loader/l;
 
     check-cast v0, Ljava/lang/String;
@@ -590,13 +548,11 @@
 
     goto :goto_0
 
-    .line 8
     :cond_3
     instance-of v1, v0, Ljava/lang/Boolean;
 
     if-eqz v1, :cond_4
 
-    .line 9
     sget-object v1, Lcom/sdk/imp/internal/loader/MultiProcessPreferences;->P:Lcom/sdk/imp/internal/loader/l;
 
     check-cast v0, Ljava/lang/Boolean;
@@ -609,13 +565,11 @@
 
     goto :goto_0
 
-    .line 10
     :cond_4
     instance-of v1, v0, Ljava/lang/Long;
 
     if-eqz v1, :cond_5
 
-    .line 11
     sget-object v1, Lcom/sdk/imp/internal/loader/MultiProcessPreferences;->P:Lcom/sdk/imp/internal/loader/l;
 
     check-cast v0, Ljava/lang/Long;
@@ -628,13 +582,11 @@
 
     goto :goto_0
 
-    .line 12
     :cond_5
     instance-of v1, v0, Ljava/lang/Integer;
 
     if-eqz v1, :cond_6
 
-    .line 13
     sget-object v1, Lcom/sdk/imp/internal/loader/MultiProcessPreferences;->P:Lcom/sdk/imp/internal/loader/l;
 
     check-cast v0, Ljava/lang/Integer;
@@ -647,13 +599,11 @@
 
     goto :goto_0
 
-    .line 14
     :cond_6
     instance-of v1, v0, Ljava/lang/Float;
 
     if-eqz v1, :cond_1
 
-    .line 15
     sget-object v1, Lcom/sdk/imp/internal/loader/MultiProcessPreferences;->P:Lcom/sdk/imp/internal/loader/l;
 
     check-cast v0, Ljava/lang/Float;
@@ -679,13 +629,11 @@
 .method public onCreate()Z
     .locals 1
 
-    .line 1
     :try_start_0
     sget-object v0, Lcom/sdk/imp/internal/loader/MultiProcessPreferences;->Q:Landroid/content/UriMatcher;
 
     if-nez v0, :cond_0
 
-    .line 2
     invoke-virtual {p0}, Landroid/content/ContentProvider;->getContext()Landroid/content/Context;
 
     move-result-object v0
@@ -714,7 +662,6 @@
 
     const/4 p2, 0x0
 
-    .line 1
     :try_start_0
     sget-object p3, Lcom/sdk/imp/internal/loader/MultiProcessPreferences;->Q:Landroid/content/UriMatcher;
 
@@ -728,7 +675,6 @@
 
     goto/16 :goto_4
 
-    .line 2
     :cond_0
     invoke-virtual {p1}, Landroid/net/Uri;->getPathSegments()Ljava/util/List;
 
@@ -742,7 +688,6 @@
 
     check-cast p3, Ljava/lang/String;
 
-    .line 3
     invoke-virtual {p1}, Landroid/net/Uri;->getPathSegments()Ljava/util/List;
 
     move-result-object p5
@@ -755,7 +700,6 @@
 
     check-cast p5, Ljava/lang/String;
 
-    .line 4
     invoke-virtual {p1}, Landroid/net/Uri;->getPathSegments()Ljava/util/List;
 
     move-result-object p1
@@ -768,7 +712,6 @@
 
     check-cast p1, Ljava/lang/String;
 
-    .line 5
     new-instance v1, Landroid/database/MatrixCursor;
 
     new-array v2, v0, [Ljava/lang/String;
@@ -779,13 +722,11 @@
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_1
 
-    .line 6
     :try_start_1
     invoke-virtual {v1}, Landroid/database/MatrixCursor;->newRow()Landroid/database/MatrixCursor$RowBuilder;
 
     move-result-object p2
 
-    .line 7
     sget-object v2, Lcom/sdk/imp/internal/loader/MultiProcessPreferences;->P:Lcom/sdk/imp/internal/loader/l;
 
     invoke-virtual {v2, p3}, Lcom/sdk/imp/internal/loader/l;->b(Ljava/lang/String;)Z
@@ -796,14 +737,12 @@
 
     const-string p4, "tian_wang_gai_di_hu_bao_ta_zhen_he_yao"
 
-    .line 8
     invoke-virtual {p4, p3}, Ljava/lang/String;->equalsIgnoreCase(Ljava/lang/String;)Z
 
     move-result p3
 
     if-eqz p3, :cond_3
 
-    .line 9
     sget-object p3, Lcom/sdk/imp/internal/loader/MultiProcessPreferences;->P:Lcom/sdk/imp/internal/loader/l;
 
     invoke-virtual {p3}, Lcom/sdk/imp/internal/loader/l;->d()Ljava/util/Map;
@@ -812,14 +751,12 @@
 
     if-eqz p3, :cond_3
 
-    .line 10
     invoke-interface {p3}, Ljava/util/Map;->isEmpty()Z
 
     move-result p4
 
     if-nez p4, :cond_3
 
-    .line 11
     invoke-interface {p3}, Ljava/util/Map;->keySet()Ljava/util/Set;
 
     move-result-object p1
@@ -848,7 +785,6 @@
 
     check-cast v0, Ljava/lang/String;
 
-    .line 12
     invoke-interface {p3, v0}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v2
@@ -868,7 +804,6 @@
 
     move-result-object v2
 
-    .line 13
     :goto_1
     new-instance v3, Ljava/lang/StringBuilder;
 
@@ -897,7 +832,6 @@
     :cond_2
     move-object p1, p5
 
-    .line 14
     :cond_3
     invoke-virtual {p2, p1}, Landroid/database/MatrixCursor$RowBuilder;->add(Ljava/lang/Object;)Landroid/database/MatrixCursor$RowBuilder;
 
@@ -906,14 +840,12 @@
     :cond_4
     const-string v2, "string"
 
-    .line 15
     invoke-virtual {v2, p5}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v2
 
     if-eqz v2, :cond_5
 
-    .line 16
     sget-object p4, Lcom/sdk/imp/internal/loader/MultiProcessPreferences;->P:Lcom/sdk/imp/internal/loader/l;
 
     invoke-virtual {p4, p3, p1}, Lcom/sdk/imp/internal/loader/l;->j(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
@@ -925,14 +857,12 @@
     :cond_5
     const-string v2, "boolean"
 
-    .line 17
     invoke-virtual {v2, p5}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v2
 
     if-eqz v2, :cond_8
 
-    .line 18
     sget-object p5, Lcom/sdk/imp/internal/loader/MultiProcessPreferences;->P:Lcom/sdk/imp/internal/loader/l;
 
     const-string v2, "1"
@@ -965,14 +895,12 @@
     :cond_8
     const-string p4, "long"
 
-    .line 19
     invoke-virtual {p4, p5}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p4
 
     if-eqz p4, :cond_9
 
-    .line 20
     sget-object p4, Lcom/sdk/imp/internal/loader/MultiProcessPreferences;->P:Lcom/sdk/imp/internal/loader/l;
 
     invoke-static {p1}, Ljava/lang/Long;->valueOf(Ljava/lang/String;)Ljava/lang/Long;
@@ -996,14 +924,12 @@
     :cond_9
     const-string p4, "integer"
 
-    .line 21
     invoke-virtual {p4, p5}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p4
 
     if-eqz p4, :cond_a
 
-    .line 22
     sget-object p4, Lcom/sdk/imp/internal/loader/MultiProcessPreferences;->P:Lcom/sdk/imp/internal/loader/l;
 
     invoke-static {p1}, Ljava/lang/Integer;->valueOf(Ljava/lang/String;)Ljava/lang/Integer;
@@ -1027,14 +953,12 @@
     :cond_a
     const-string p4, "float"
 
-    .line 23
     invoke-virtual {p4, p5}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p4
 
     if-eqz p4, :cond_b
 
-    .line 24
     sget-object p4, Lcom/sdk/imp/internal/loader/MultiProcessPreferences;->P:Lcom/sdk/imp/internal/loader/l;
 
     invoke-static {p1}, Ljava/lang/Float;->valueOf(Ljava/lang/String;)Ljava/lang/Float;
@@ -1053,7 +977,6 @@
 
     move-result-object p1
 
-    .line 25
     :cond_b
     :goto_3
     invoke-virtual {p2, p1}, Landroid/database/MatrixCursor$RowBuilder;->add(Ljava/lang/Object;)Landroid/database/MatrixCursor$RowBuilder;
@@ -1075,7 +998,6 @@
         .end annotation
     .end param
 
-    .line 1
     :try_start_0
     sget-object p2, Lcom/sdk/imp/internal/loader/MultiProcessPreferences;->Q:Landroid/content/UriMatcher;
 

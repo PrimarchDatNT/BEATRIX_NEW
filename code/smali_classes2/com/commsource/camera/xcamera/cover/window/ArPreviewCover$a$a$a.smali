@@ -40,7 +40,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/camera/xcamera/cover/window/ArPreviewCover$a$a$a;->a:Lcom/commsource/camera/xcamera/cover/window/ArPreviewCover$a$a;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -97,7 +96,6 @@
 
     invoke-static {p4, p2}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object p2, p0, Lcom/commsource/camera/xcamera/cover/window/ArPreviewCover$a$a$a;->a:Lcom/commsource/camera/xcamera/cover/window/ArPreviewCover$a$a;
 
     iget-object p2, p2, Lcom/commsource/camera/xcamera/cover/window/ArPreviewCover$a$a;->a:Lcom/commsource/camera/xcamera/cover/window/ArPreviewCover$a;
@@ -123,7 +121,6 @@
     :cond_0
     const/4 p2, 0x0
 
-    .line 2
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p2
@@ -166,7 +163,6 @@
 
     invoke-static {p3, p2}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const/4 p1, 0x0
@@ -181,7 +177,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     move-object v2, p1
 
     check-cast v2, Landroid/graphics/drawable/Drawable;

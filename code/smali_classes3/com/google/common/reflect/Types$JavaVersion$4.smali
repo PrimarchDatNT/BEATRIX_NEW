@@ -20,7 +20,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-direct {p0, p1, p2, v0}, Lcom/google/common/reflect/Types$JavaVersion;-><init>(Ljava/lang/String;ILcom/google/common/reflect/Types$a;)V
 
     return-void
@@ -39,7 +38,6 @@
 .method newArrayType(Ljava/lang/reflect/Type;)Ljava/lang/reflect/Type;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/google/common/reflect/Types$JavaVersion;->JAVA8:Lcom/google/common/reflect/Types$JavaVersion;
 
     invoke-virtual {v0, p1}, Lcom/google/common/reflect/Types$JavaVersion;->newArrayType(Ljava/lang/reflect/Type;)Ljava/lang/reflect/Type;
@@ -52,7 +50,6 @@
 .method typeName(Ljava/lang/reflect/Type;)Ljava/lang/String;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/google/common/reflect/Types$JavaVersion;->JAVA8:Lcom/google/common/reflect/Types$JavaVersion;
 
     invoke-virtual {v0, p1}, Lcom/google/common/reflect/Types$JavaVersion;->typeName(Ljava/lang/reflect/Type;)Ljava/lang/String;
@@ -65,7 +62,6 @@
 .method usedInGenericType(Ljava/lang/reflect/Type;)Ljava/lang/reflect/Type;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/google/common/reflect/Types$JavaVersion;->JAVA8:Lcom/google/common/reflect/Types$JavaVersion;
 
     invoke-virtual {v0, p1}, Lcom/google/common/reflect/Types$JavaVersion;->usedInGenericType(Ljava/lang/reflect/Type;)Ljava/lang/reflect/Type;

@@ -18,7 +18,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -27,7 +26,6 @@
 .method public static a()Lcom/getkeepsafe/relinker/e;
     .locals 1
 
-    .line 1
     new-instance v0, Lcom/getkeepsafe/relinker/e;
 
     invoke-direct {v0}, Lcom/getkeepsafe/relinker/e;-><init>()V
@@ -44,7 +42,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-static {p0, p1, v0, v0}, Lcom/getkeepsafe/relinker/d;->e(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Lcom/getkeepsafe/relinker/d$c;)V
 
     return-void
@@ -55,7 +52,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-static {p0, p1, v0, p2}, Lcom/getkeepsafe/relinker/d;->e(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Lcom/getkeepsafe/relinker/d$c;)V
 
     return-void
@@ -66,7 +62,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-static {p0, p1, p2, v0}, Lcom/getkeepsafe/relinker/d;->e(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Lcom/getkeepsafe/relinker/d$c;)V
 
     return-void
@@ -75,7 +70,6 @@
 .method public static e(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Lcom/getkeepsafe/relinker/d$c;)V
     .locals 1
 
-    .line 1
     new-instance v0, Lcom/getkeepsafe/relinker/e;
 
     invoke-direct {v0}, Lcom/getkeepsafe/relinker/e;-><init>()V
@@ -88,7 +82,6 @@
 .method public static f(Lcom/getkeepsafe/relinker/d$d;)Lcom/getkeepsafe/relinker/e;
     .locals 1
 
-    .line 1
     new-instance v0, Lcom/getkeepsafe/relinker/e;
 
     invoke-direct {v0}, Lcom/getkeepsafe/relinker/e;-><init>()V
@@ -103,7 +96,6 @@
 .method public static g()Lcom/getkeepsafe/relinker/e;
     .locals 1
 
-    .line 1
     new-instance v0, Lcom/getkeepsafe/relinker/e;
 
     invoke-direct {v0}, Lcom/getkeepsafe/relinker/e;-><init>()V

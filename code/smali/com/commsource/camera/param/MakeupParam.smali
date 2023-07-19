@@ -52,47 +52,36 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/4 v0, 0x5
 
-    .line 2
     iput v0, p0, Lcom/commsource/camera/param/MakeupParam;->mMaxFaceCount:I
 
     const-string v0, "Happy"
 
-    .line 3
     iput-object v0, p0, Lcom/commsource/camera/param/MakeupParam;->mDefaultArString:Ljava/lang/String;
 
     const/16 v0, 0x15
 
-    .line 4
     iput v0, p0, Lcom/commsource/camera/param/MakeupParam;->mMakeupType:I
 
     const/high16 v0, -0x40800000    # -1.0f
 
-    .line 5
     iput v0, p0, Lcom/commsource/camera/param/MakeupParam;->alpha:F
 
     const/4 v0, 0x0
 
-    .line 6
     iput v0, p0, Lcom/commsource/camera/param/MakeupParam;->arCoreType:I
 
-    .line 7
     iput-boolean v0, p0, Lcom/commsource/camera/param/MakeupParam;->mSoundEffect:Z
 
-    .line 8
     iput-boolean v0, p0, Lcom/commsource/camera/param/MakeupParam;->isLockBackCamera:Z
 
-    .line 9
     iput-boolean v0, p0, Lcom/commsource/camera/param/MakeupParam;->isLockFrontCamera:Z
 
-    .line 10
     iput-boolean v0, p0, Lcom/commsource/camera/param/MakeupParam;->isForceFrontCamera:Z
 
-    .line 11
     iput-boolean v0, p0, Lcom/commsource/camera/param/MakeupParam;->isForceBackCamera:Z
 
     return-void
@@ -105,12 +94,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/commsource/camera/param/MakeupParam;
 
     invoke-direct {v1}, Lcom/commsource/camera/param/MakeupParam;-><init>()V
 
-    .line 2
     invoke-virtual {p0}, Lcom/meitu/template/bean/ArMaterial;->getId()Ljava/lang/Long;
 
     move-result-object v2
@@ -121,49 +108,42 @@
 
     invoke-virtual {v1, v2, v3}, Lcom/commsource/camera/param/MakeupParam;->setId(J)V
 
-    .line 3
     invoke-virtual {p0}, Lcom/meitu/template/bean/ArMaterial;->getTitle()Ljava/lang/String;
 
     move-result-object v2
 
     invoke-virtual {v1, v2}, Lcom/commsource/camera/param/MakeupParam;->setName(Ljava/lang/String;)V
 
-    .line 4
     invoke-virtual {p0}, Lcom/meitu/template/bean/ArMaterial;->getArCoreType()I
 
     move-result v2
 
     invoke-virtual {v1, v2}, Lcom/commsource/camera/param/MakeupParam;->setArCoreType(I)V
 
-    .line 5
     invoke-virtual {p0}, Lcom/meitu/template/bean/ArMaterial;->isLockFrontCamera()Z
 
     move-result v2
 
     invoke-virtual {v1, v2}, Lcom/commsource/camera/param/MakeupParam;->setLockFrontCamera(Z)V
 
-    .line 6
     invoke-virtual {p0}, Lcom/meitu/template/bean/ArMaterial;->isLockBackCamera()Z
 
     move-result v2
 
     invoke-virtual {v1, v2}, Lcom/commsource/camera/param/MakeupParam;->setLockBackCamera(Z)V
 
-    .line 7
     invoke-virtual {p0}, Lcom/meitu/template/bean/ArMaterial;->isForceFrontCamera()Z
 
     move-result v2
 
     invoke-virtual {v1, v2}, Lcom/commsource/camera/param/MakeupParam;->setForceFrontCamera(Z)V
 
-    .line 8
     invoke-virtual {p0}, Lcom/meitu/template/bean/ArMaterial;->isForceBackCamera()Z
 
     move-result v2
 
     invoke-virtual {v1, v2}, Lcom/commsource/camera/param/MakeupParam;->setForceBackCamera(Z)V
 
-    .line 9
     invoke-virtual {p0}, Lcom/meitu/template/bean/ArMaterial;->getArMaterialInfo()Lcom/commsource/camera/xcamera/bean/a;
 
     move-result-object v2
@@ -180,7 +160,6 @@
 
     if-eqz v2, :cond_0
 
-    .line 10
     invoke-virtual {p0}, Lcom/meitu/template/bean/ArMaterial;->getArMaterialInfo()Lcom/commsource/camera/xcamera/bean/a;
 
     move-result-object v2
@@ -197,7 +176,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/camera/param/MakeupParam;->setNeedResetBGM(Z)V
 
-    .line 11
     invoke-virtual {p0}, Lcom/meitu/template/bean/ArMaterial;->getArMaterialInfo()Lcom/commsource/camera/xcamera/bean/a;
 
     move-result-object v2
@@ -212,7 +190,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/camera/param/MakeupParam;->setNeedResetState(Z)V
 
-    .line 12
     invoke-virtual {p0}, Lcom/meitu/template/bean/ArMaterial;->getArMaterialInfo()Lcom/commsource/camera/xcamera/bean/a;
 
     move-result-object v2
@@ -227,7 +204,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/camera/param/MakeupParam;->setMessageType(Ljava/lang/String;)V
 
-    .line 13
     invoke-virtual {p0}, Lcom/meitu/template/bean/ArMaterial;->getArMaterialInfo()Lcom/commsource/camera/xcamera/bean/a;
 
     move-result-object p0
@@ -242,7 +218,6 @@
 
     invoke-virtual {v1, p0}, Lcom/commsource/camera/param/MakeupParam;->setMessageWhat(Ljava/lang/String;)V
 
-    .line 14
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -258,77 +233,62 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/commsource/camera/param/MakeupParam;
 
     invoke-direct {v1}, Lcom/commsource/camera/param/MakeupParam;-><init>()V
 
-    .line 2
     iget-wide v2, p0, Lcom/commsource/camera/param/MakeupParam;->mId:J
 
     iput-wide v2, v1, Lcom/commsource/camera/param/MakeupParam;->mId:J
 
-    .line 3
     iget-object v2, p0, Lcom/commsource/camera/param/MakeupParam;->mPlistPath:Ljava/lang/String;
 
     iput-object v2, v1, Lcom/commsource/camera/param/MakeupParam;->mPlistPath:Ljava/lang/String;
 
-    .line 4
     iget-object v2, p0, Lcom/commsource/camera/param/MakeupParam;->mResourcePath:Ljava/lang/String;
 
     iput-object v2, v1, Lcom/commsource/camera/param/MakeupParam;->mResourcePath:Ljava/lang/String;
 
-    .line 5
     iget v2, p0, Lcom/commsource/camera/param/MakeupParam;->mMaxFaceCount:I
 
     iput v2, v1, Lcom/commsource/camera/param/MakeupParam;->mMaxFaceCount:I
 
-    .line 6
     iget-object v2, p0, Lcom/commsource/camera/param/MakeupParam;->mDefaultArString:Ljava/lang/String;
 
     iput-object v2, v1, Lcom/commsource/camera/param/MakeupParam;->mDefaultArString:Ljava/lang/String;
 
-    .line 7
     iget v2, p0, Lcom/commsource/camera/param/MakeupParam;->mMakeupType:I
 
     iput v2, v1, Lcom/commsource/camera/param/MakeupParam;->mMakeupType:I
 
-    .line 8
     iget v2, p0, Lcom/commsource/camera/param/MakeupParam;->alpha:F
 
     iput v2, v1, Lcom/commsource/camera/param/MakeupParam;->alpha:F
 
-    .line 9
     iget v2, p0, Lcom/commsource/camera/param/MakeupParam;->arCoreType:I
 
     iput v2, v1, Lcom/commsource/camera/param/MakeupParam;->arCoreType:I
 
-    .line 10
     iget-boolean v2, p0, Lcom/commsource/camera/param/MakeupParam;->mSoundEffect:Z
 
     iput-boolean v2, v1, Lcom/commsource/camera/param/MakeupParam;->mSoundEffect:Z
 
-    .line 11
     iget-boolean v2, p0, Lcom/commsource/camera/param/MakeupParam;->isSuitSingleConfig:Z
 
     iput-boolean v2, v1, Lcom/commsource/camera/param/MakeupParam;->isSuitSingleConfig:Z
 
-    .line 12
     iget-boolean v2, p0, Lcom/commsource/camera/param/MakeupParam;->isCloseSuitOtherEffect:Z
 
     iput-boolean v2, v1, Lcom/commsource/camera/param/MakeupParam;->isCloseSuitOtherEffect:Z
 
-    .line 13
     iget-boolean v2, p0, Lcom/commsource/camera/param/MakeupParam;->isLockBackCamera:Z
 
     iput-boolean v2, v1, Lcom/commsource/camera/param/MakeupParam;->isLockBackCamera:Z
 
-    .line 14
     iget-boolean v2, p0, Lcom/commsource/camera/param/MakeupParam;->isLockFrontCamera:Z
 
     iput-boolean v2, v1, Lcom/commsource/camera/param/MakeupParam;->isLockFrontCamera:Z
 
-    .line 15
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
@@ -345,7 +305,6 @@
 
     if-ne p0, p1, :cond_0
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
@@ -355,7 +314,6 @@
 
     if-eqz p1, :cond_3
 
-    .line 2
     invoke-virtual {p0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
     move-result-object v3
@@ -368,11 +326,9 @@
 
     goto :goto_1
 
-    .line 3
     :cond_1
     check-cast p1, Lcom/commsource/camera/param/MakeupParam;
 
-    .line 4
     iget-wide v3, p0, Lcom/commsource/camera/param/MakeupParam;->mId:J
 
     iget-wide v5, p1, Lcom/commsource/camera/param/MakeupParam;->mId:J
@@ -397,7 +353,6 @@
 
     return v1
 
-    .line 5
     :cond_3
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -412,7 +367,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/camera/param/MakeupParam;->alpha:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -427,7 +381,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/camera/param/MakeupParam;->arCoreType:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -442,7 +395,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/param/MakeupParam;->mDefaultArString:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -457,7 +409,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/commsource/camera/param/MakeupParam;->mId:J
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -472,7 +423,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/camera/param/MakeupParam;->mMakeupType:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -487,7 +437,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/camera/param/MakeupParam;->mMaxFaceCount:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -502,7 +451,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/param/MakeupParam;->messageType:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -517,7 +465,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/param/MakeupParam;->messageWhat:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -532,7 +479,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/param/MakeupParam;->mName:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -547,7 +493,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/param/MakeupParam;->mPlistPath:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -562,7 +507,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/param/MakeupParam;->mResourcePath:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -577,7 +521,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/camera/param/MakeupParam;->mSoundEffect:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -596,7 +539,6 @@
 
     new-array v1, v1, [Ljava/lang/Object;
 
-    .line 1
     iget-wide v2, p0, Lcom/commsource/camera/param/MakeupParam;->mId:J
 
     invoke-static {v2, v3}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
@@ -633,7 +575,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/camera/param/MakeupParam;->arCoreType:I
 
     if-eqz v1, :cond_0
@@ -658,7 +599,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/camera/param/MakeupParam;->isCloseSuitOtherEffect:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -673,7 +613,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/camera/param/MakeupParam;->isForceBackCamera:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -688,7 +627,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/camera/param/MakeupParam;->isForceFrontCamera:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -703,7 +641,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/camera/param/MakeupParam;->isLockBackCamera:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -718,7 +655,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/camera/param/MakeupParam;->isLockFrontCamera:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -733,7 +669,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/camera/param/MakeupParam;->isNeedResetBGM:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -748,7 +683,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/camera/param/MakeupParam;->isNeedResetState:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -763,7 +697,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/camera/param/MakeupParam;->isSuitSingleConfig:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -778,10 +711,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/camera/param/MakeupParam;->alpha:F
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -794,10 +725,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/camera/param/MakeupParam;->arCoreType:I
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -810,10 +739,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/camera/param/MakeupParam;->isCloseSuitOtherEffect:Z
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -826,10 +753,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/camera/param/MakeupParam;->mDefaultArString:Ljava/lang/String;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -842,10 +767,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/camera/param/MakeupParam;->isForceBackCamera:Z
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -858,10 +781,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/camera/param/MakeupParam;->isForceFrontCamera:Z
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -874,10 +795,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-wide p1, p0, Lcom/commsource/camera/param/MakeupParam;->mId:J
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -890,10 +809,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/camera/param/MakeupParam;->isLockBackCamera:Z
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -906,10 +823,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/camera/param/MakeupParam;->isLockFrontCamera:Z
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -922,10 +837,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/camera/param/MakeupParam;->mMakeupType:I
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -938,10 +851,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/camera/param/MakeupParam;->mMaxFaceCount:I
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -954,10 +865,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/camera/param/MakeupParam;->messageType:Ljava/lang/String;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -970,10 +879,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/camera/param/MakeupParam;->messageWhat:Ljava/lang/String;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -986,10 +893,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/camera/param/MakeupParam;->mName:Ljava/lang/String;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1002,10 +907,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/camera/param/MakeupParam;->isNeedResetBGM:Z
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1018,10 +921,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/camera/param/MakeupParam;->isNeedResetState:Z
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1034,10 +935,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/camera/param/MakeupParam;->mPlistPath:Ljava/lang/String;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1050,10 +949,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/camera/param/MakeupParam;->mResourcePath:Ljava/lang/String;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1066,10 +963,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/camera/param/MakeupParam;->mSoundEffect:Z
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1082,10 +977,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/camera/param/MakeupParam;->isSuitSingleConfig:Z
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

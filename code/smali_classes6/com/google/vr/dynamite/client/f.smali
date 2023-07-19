@@ -15,16 +15,12 @@
 .method public constructor <init>(III)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput p1, p0, Lcom/google/vr/dynamite/client/f;->a:I
 
-    .line 3
     iput p2, p0, Lcom/google/vr/dynamite/client/f;->b:I
 
-    .line 4
     iput p3, p0, Lcom/google/vr/dynamite/client/f;->c:I
 
     return-void
@@ -35,7 +31,6 @@
 .method public final equals(Ljava/lang/Object;)Z
     .locals 3
 
-    .line 1
     instance-of v0, p1, Lcom/google/vr/dynamite/client/f;
 
     const/4 v1, 0x0
@@ -44,11 +39,9 @@
 
     return v1
 
-    .line 2
     :cond_0
     check-cast p1, Lcom/google/vr/dynamite/client/f;
 
-    .line 3
     iget v0, p0, Lcom/google/vr/dynamite/client/f;->a:I
 
     iget v2, p1, Lcom/google/vr/dynamite/client/f;->a:I
@@ -82,7 +75,6 @@
 
     new-array v0, v0, [Ljava/lang/Object;
 
-    .line 1
     iget v1, p0, Lcom/google/vr/dynamite/client/f;->a:I
 
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -127,7 +119,6 @@
 
     new-array v0, v0, [Ljava/lang/Object;
 
-    .line 1
     iget v1, p0, Lcom/google/vr/dynamite/client/f;->a:I
 
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;

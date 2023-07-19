@@ -32,7 +32,6 @@
 .method private constructor <init>(I)V
     .locals 0
 
-    .line 2
     invoke-direct {p0, p1}, Ldagger/internal/a$a;-><init>(I)V
 
     return-void
@@ -41,7 +40,6 @@
 .method synthetic constructor <init>(ILdagger/internal/m$a;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1}, Ldagger/internal/m$b;-><init>(I)V
 
     return-void
@@ -52,7 +50,6 @@
 .method public bridge synthetic a(Ljava/lang/Object;Lj/a/c;)Ldagger/internal/a$a;
     .locals 0
 
-    .line 1
     invoke-virtual {p0, p1, p2}, Ldagger/internal/m$b;->d(Ljava/lang/Object;Lj/a/c;)Ldagger/internal/m$b;
 
     move-result-object p1
@@ -63,7 +60,6 @@
 .method public bridge synthetic b(Lj/a/c;)Ldagger/internal/a$a;
     .locals 0
 
-    .line 1
     invoke-virtual {p0, p1}, Ldagger/internal/m$b;->e(Lj/a/c;)Ldagger/internal/m$b;
 
     move-result-object p1
@@ -81,7 +77,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Ldagger/internal/m;
 
     iget-object v1, p0, Ldagger/internal/a$a;->a:Ljava/util/LinkedHashMap;
@@ -105,7 +100,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-super {p0, p1, p2}, Ldagger/internal/a$a;->a(Ljava/lang/Object;Lj/a/c;)Ldagger/internal/a$a;
 
     return-object p0
@@ -126,7 +120,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-super {p0, p1}, Ldagger/internal/a$a;->b(Lj/a/c;)Ldagger/internal/a$a;
 
     return-object p0

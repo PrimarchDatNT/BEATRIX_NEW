@@ -54,7 +54,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p2, Lcom/commsource/studio/bean/g;
 
     invoke-virtual {p0, p1, p2}, Lcom/commsource/studio/function/StyleFragment$a;->b(ILcom/commsource/studio/bean/g;)Z
@@ -73,7 +72,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/function/StyleFragment$a;->a:Lcom/commsource/studio/function/StyleFragment;
 
     invoke-static {v1}, Lcom/commsource/studio/function/StyleFragment;->F1(Lcom/commsource/studio/function/StyleFragment;)Lcom/commsource/studio/function/StyleViewModel;
@@ -98,12 +96,10 @@
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v2
 
-    .line 3
     :cond_0
     iget-object v1, p0, Lcom/commsource/studio/function/StyleFragment$a;->a:Lcom/commsource/studio/function/StyleFragment;
 
@@ -115,7 +111,6 @@
 
     invoke-virtual {v1, p2, v3}, Lcom/commsource/studio/function/StyleViewModel;->J(Lcom/commsource/studio/bean/g;Z)V
 
-    .line 4
     iget-object p2, p0, Lcom/commsource/studio/function/StyleFragment$a;->a:Lcom/commsource/studio/function/StyleFragment;
 
     invoke-static {p2}, Lcom/commsource/studio/function/StyleFragment;->E1(Lcom/commsource/studio/function/StyleFragment;)Lcom/commsource/beautyplus/f0/ec;
@@ -130,7 +125,6 @@
 
     invoke-static {p2, p1, v2, v1, v4}, Lcom/commsource/widget/LineSelectView;->j(Lcom/commsource/widget/LineSelectView;IZILjava/lang/Object;)V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v3

@@ -11,7 +11,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcotlinx/coroutines/internal/m;-><init>()V
 
     return-void
@@ -40,7 +39,6 @@
 .method public final X()Z
     .locals 2
 
-    .line 1
     new-instance v0, Ljava/lang/IllegalStateException;
 
     const-string v1, "head cannot be removed"
@@ -72,7 +70,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcotlinx/coroutines/internal/m;->P()Ljava/lang/Object;
 
     move-result-object v0
@@ -81,7 +78,6 @@
 
     check-cast v0, Lcotlinx/coroutines/internal/m;
 
-    .line 2
     :goto_0
     invoke-static {v0, p0}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
@@ -95,7 +91,6 @@
 
     const-string v2, "T"
 
-    .line 3
     invoke-static {v1, v2}, Lcotlin/jvm/internal/f0;->y(ILjava/lang/String;)V
 
     instance-of v1, v0, Lcotlinx/coroutines/internal/m;
@@ -104,7 +99,6 @@
 
     invoke-interface {p1, v0}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 4
     :cond_0
     invoke-virtual {v0}, Lcotlinx/coroutines/internal/m;->Q()Lcotlinx/coroutines/internal/m;
 
@@ -115,7 +109,6 @@
     :cond_1
     return-void
 
-    .line 5
     :cond_2
     new-instance p1, Lcotlin/TypeCastException;
 
@@ -129,7 +122,6 @@
 .method public final g0()Z
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcotlinx/coroutines/internal/m;->P()Ljava/lang/Object;
 
     move-result-object v0
@@ -150,7 +142,6 @@
 .method public final h0()V
     .locals 4
 
-    .line 1
     invoke-virtual {p0}, Lcotlinx/coroutines/internal/m;->P()Ljava/lang/Object;
 
     move-result-object v0
@@ -163,7 +154,6 @@
 
     move-object v2, p0
 
-    .line 2
     :goto_0
     invoke-static {v0, p0}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
@@ -173,12 +163,10 @@
 
     if-eqz v3, :cond_0
 
-    .line 3
     invoke-virtual {v0}, Lcotlinx/coroutines/internal/m;->Q()Lcotlinx/coroutines/internal/m;
 
     move-result-object v3
 
-    .line 4
     invoke-virtual {v0, v2, v3}, Lcotlinx/coroutines/internal/m;->e0(Lcotlinx/coroutines/internal/m;Lcotlinx/coroutines/internal/m;)V
 
     move-object v2, v0
@@ -187,7 +175,6 @@
 
     goto :goto_0
 
-    .line 5
     :cond_0
     invoke-virtual {p0}, Lcotlinx/coroutines/internal/m;->P()Ljava/lang/Object;
 
@@ -208,7 +195,6 @@
 
     throw v0
 
-    .line 6
     :cond_2
     new-instance v0, Lcotlin/TypeCastException;
 

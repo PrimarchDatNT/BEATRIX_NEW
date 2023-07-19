@@ -25,7 +25,6 @@
 .method constructor <init>(Lcom/mopub/mobileads/AdViewController;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/mopub/mobileads/AdViewController$3;->this$0:Lcom/mopub/mobileads/AdViewController;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -52,7 +51,6 @@
 
     if-nez p1, :cond_0
 
-    .line 1
     sget-object p1, Lcom/mopub/common/logging/MoPubLog$SdkLogEvent;->CUSTOM:Lcom/mopub/common/logging/MoPubLog$SdkLogEvent;
 
     const/4 v0, 0x1
@@ -71,7 +69,6 @@
 
     iget-object v3, p0, Lcom/mopub/mobileads/AdViewController$3;->this$0:Lcom/mopub/mobileads/AdViewController;
 
-    .line 2
     invoke-static {v3}, Lcom/mopub/mobileads/AdViewController;->access$100(Lcom/mopub/mobileads/AdViewController;)Ljava/lang/String;
 
     move-result-object v3
@@ -84,18 +81,15 @@
 
     aput-object v2, v0, v1
 
-    .line 3
     invoke-static {p1, v0}, Lcom/mopub/common/logging/MoPubLog;->log(Lcom/mopub/common/logging/MoPubLog$MPLogEventType;[Ljava/lang/Object;)V
 
     goto :goto_0
 
-    .line 4
     :cond_0
     iget-object v0, p0, Lcom/mopub/mobileads/AdViewController$3;->this$0:Lcom/mopub/mobileads/AdViewController;
 
     invoke-static {v0, p1}, Lcom/mopub/mobileads/AdViewController;->access$202(Lcom/mopub/mobileads/AdViewController;Lcom/mopub/mobileads/CreativeExperienceSettings;)Lcom/mopub/mobileads/CreativeExperienceSettings;
 
-    .line 5
     :goto_0
     iget-object p1, p0, Lcom/mopub/mobileads/AdViewController$3;->this$0:Lcom/mopub/mobileads/AdViewController;
 

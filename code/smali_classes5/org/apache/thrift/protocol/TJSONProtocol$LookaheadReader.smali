@@ -26,7 +26,6 @@
 .method protected constructor <init>(Lorg/apache/thrift/protocol/TJSONProtocol;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lorg/apache/thrift/protocol/TJSONProtocol$LookaheadReader;->this$0:Lorg/apache/thrift/protocol/TJSONProtocol;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -35,7 +34,6 @@
 
     new-array p1, p1, [B
 
-    .line 2
     iput-object p1, p0, Lorg/apache/thrift/protocol/TJSONProtocol$LookaheadReader;->data_:[B
 
     return-void
@@ -51,7 +49,6 @@
         }
     .end annotation
 
-    .line 1
     iget-boolean v0, p0, Lorg/apache/thrift/protocol/TJSONProtocol$LookaheadReader;->hasData_:Z
 
     const/4 v1, 0x0
@@ -60,7 +57,6 @@
 
     if-nez v0, :cond_0
 
-    .line 2
     iget-object v0, p0, Lorg/apache/thrift/protocol/TJSONProtocol$LookaheadReader;->this$0:Lorg/apache/thrift/protocol/TJSONProtocol;
 
     iget-object v0, v0, Lorg/apache/thrift/protocol/TProtocol;->trans_:Lorg/apache/thrift/transport/TTransport;
@@ -69,11 +65,9 @@
 
     invoke-virtual {v0, v3, v1, v2}, Lorg/apache/thrift/transport/TTransport;->readAll([BII)I
 
-    .line 3
     :cond_0
     iput-boolean v2, p0, Lorg/apache/thrift/protocol/TJSONProtocol$LookaheadReader;->hasData_:Z
 
-    .line 4
     iget-object v0, p0, Lorg/apache/thrift/protocol/TJSONProtocol$LookaheadReader;->data_:[B
 
     aget-byte v0, v0, v1
@@ -89,19 +83,16 @@
         }
     .end annotation
 
-    .line 1
     iget-boolean v0, p0, Lorg/apache/thrift/protocol/TJSONProtocol$LookaheadReader;->hasData_:Z
 
     const/4 v1, 0x0
 
     if-eqz v0, :cond_0
 
-    .line 2
     iput-boolean v1, p0, Lorg/apache/thrift/protocol/TJSONProtocol$LookaheadReader;->hasData_:Z
 
     goto :goto_0
 
-    .line 3
     :cond_0
     iget-object v0, p0, Lorg/apache/thrift/protocol/TJSONProtocol$LookaheadReader;->this$0:Lorg/apache/thrift/protocol/TJSONProtocol;
 
@@ -113,7 +104,6 @@
 
     invoke-virtual {v0, v2, v1, v3}, Lorg/apache/thrift/transport/TTransport;->readAll([BII)I
 
-    .line 4
     :goto_0
     iget-object v0, p0, Lorg/apache/thrift/protocol/TJSONProtocol$LookaheadReader;->data_:[B
 

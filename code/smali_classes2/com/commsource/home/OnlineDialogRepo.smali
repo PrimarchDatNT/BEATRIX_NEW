@@ -83,14 +83,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/commsource/home/OnlineDialogRepo;
 
     invoke-direct {v1}, Lcom/commsource/home/OnlineDialogRepo;-><init>()V
 
     sput-object v1, Lcom/commsource/home/OnlineDialogRepo;->m:Lcom/commsource/home/OnlineDialogRepo;
 
-    .line 2
     sget-object v2, Lcom/commsource/home/OnlineDialogRepo$dataDao$2;->INSTANCE:Lcom/commsource/home/OnlineDialogRepo$dataDao$2;
 
     invoke-static {v2}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
@@ -99,7 +97,6 @@
 
     sput-object v2, Lcom/commsource/home/OnlineDialogRepo;->b:Lcotlin/w;
 
-    .line 3
     sget-object v2, Lcom/commsource/home/OnlineDialogRepo$localFilePath$2;->INSTANCE:Lcom/commsource/home/OnlineDialogRepo$localFilePath$2;
 
     invoke-static {v2}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
@@ -108,42 +105,36 @@
 
     sput-object v2, Lcom/commsource/home/OnlineDialogRepo;->c:Lcotlin/w;
 
-    .line 4
     new-instance v2, Ljava/util/LinkedList;
 
     invoke-direct {v2}, Ljava/util/LinkedList;-><init>()V
 
     sput-object v2, Lcom/commsource/home/OnlineDialogRepo;->d:Ljava/util/LinkedList;
 
-    .line 5
     new-instance v2, Ljava/util/LinkedList;
 
     invoke-direct {v2}, Ljava/util/LinkedList;-><init>()V
 
     sput-object v2, Lcom/commsource/home/OnlineDialogRepo;->e:Ljava/util/LinkedList;
 
-    .line 6
     new-instance v2, Ljava/util/LinkedList;
 
     invoke-direct {v2}, Ljava/util/LinkedList;-><init>()V
 
     sput-object v2, Lcom/commsource/home/OnlineDialogRepo;->f:Ljava/util/LinkedList;
 
-    .line 7
     new-instance v2, Ljava/util/LinkedList;
 
     invoke-direct {v2}, Ljava/util/LinkedList;-><init>()V
 
     sput-object v2, Lcom/commsource/home/OnlineDialogRepo;->g:Ljava/util/LinkedList;
 
-    .line 8
     new-instance v2, Ljava/util/ArrayList;
 
     invoke-direct {v2}, Ljava/util/ArrayList;-><init>()V
 
     sput-object v2, Lcom/commsource/home/OnlineDialogRepo;->l:Ljava/util/List;
 
-    .line 9
     invoke-direct {v1}, Lcom/commsource/home/OnlineDialogRepo;->l()Ljava/lang/String;
 
     move-result-object v2
@@ -154,14 +145,12 @@
 
     if-nez v2, :cond_0
 
-    .line 10
     invoke-direct {v1}, Lcom/commsource/home/OnlineDialogRepo;->l()Ljava/lang/String;
 
     move-result-object v1
 
     invoke-static {v1}, Lcom/meitu/library/p/g/b;->g(Ljava/lang/String;)Ljava/io/File;
 
-    .line 11
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -171,7 +160,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -184,7 +172,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/home/OnlineDialogRepo;->k()Lf/k/i0/a/s0;
 
     move-result-object p0
@@ -201,7 +188,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/commsource/home/OnlineDialogRepo;->p(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p0
@@ -218,7 +204,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/commsource/home/OnlineDialogRepo;->r(Ljava/util/List;)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -241,19 +226,16 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/home/OnlineDialogRepo$a;->a:Lcom/commsource/home/OnlineDialogRepo$a;
 
     invoke-static {p1, v1}, Lcotlin/collections/s;->h5(Ljava/lang/Iterable;Ljava/util/Comparator;)Ljava/util/List;
 
     move-result-object p1
 
-    .line 2
     new-instance v1, Ljava/util/ArrayList;
 
     invoke-direct {v1}, Ljava/util/ArrayList;-><init>()V
 
-    .line 3
     invoke-interface {p1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object p1
@@ -278,7 +260,6 @@
 
     check-cast v5, Lcom/commsource/home/entity/DialogDataEntity;
 
-    .line 4
     invoke-virtual {v5}, Lcom/commsource/home/entity/DialogDataEntity;->getNumber()I
 
     move-result v5
@@ -297,7 +278,6 @@
 
     goto :goto_0
 
-    .line 5
     :cond_2
     new-instance p1, Ljava/util/ArrayList;
 
@@ -309,7 +289,6 @@
 
     invoke-direct {p1, v2}, Ljava/util/ArrayList;-><init>(I)V
 
-    .line 6
     invoke-interface {v1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v2
@@ -325,10 +304,8 @@
 
     move-result-object v5
 
-    .line 7
     check-cast v5, Lcom/commsource/home/entity/DialogDataEntity;
 
-    .line 8
     invoke-virtual {v5}, Lcom/commsource/home/entity/DialogDataEntity;->getWeight()I
 
     move-result v5
@@ -344,14 +321,12 @@
     :cond_3
     new-array v2, v4, [Ljava/lang/Integer;
 
-    .line 9
     invoke-interface {p1, v2}, Ljava/util/Collection;->toArray([Ljava/lang/Object;)[Ljava/lang/Object;
 
     move-result-object p1
 
     if-eqz p1, :cond_9
 
-    .line 10
     invoke-static {p1}, Ljava/util/Arrays;->toString([Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object p1
@@ -368,7 +343,6 @@
 
     invoke-static {p1, v2, v4, v5, v4}, Lcom/commsource/util/l0;->L(Ljava/lang/String;Ljava/lang/String;Lcom/meitu/library/util/Debug/Debug$DebugLevel;ILjava/lang/Object;)V
 
-    .line 11
     invoke-interface {v1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object p1
@@ -386,7 +360,6 @@
 
     check-cast v1, Lcom/commsource/home/entity/DialogDataEntity;
 
-    .line 12
     invoke-virtual {v1}, Lcom/commsource/home/entity/DialogDataEntity;->getTriggerType()I
 
     move-result v2
@@ -405,7 +378,6 @@
 
     goto :goto_3
 
-    .line 13
     :cond_4
     sget-object v2, Lcom/commsource/home/OnlineDialogRepo;->g:Ljava/util/LinkedList;
 
@@ -413,7 +385,6 @@
 
     goto :goto_3
 
-    .line 14
     :cond_5
     sget-object v2, Lcom/commsource/home/OnlineDialogRepo;->f:Ljava/util/LinkedList;
 
@@ -421,7 +392,6 @@
 
     goto :goto_3
 
-    .line 15
     :cond_6
     sget-object v2, Lcom/commsource/home/OnlineDialogRepo;->e:Ljava/util/LinkedList;
 
@@ -429,7 +399,6 @@
 
     goto :goto_3
 
-    .line 16
     :cond_7
     sget-object v2, Lcom/commsource/home/OnlineDialogRepo;->d:Ljava/util/LinkedList;
 
@@ -437,13 +406,11 @@
 
     goto :goto_3
 
-    .line 17
     :cond_8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 18
     :cond_9
     new-instance p1, Ljava/lang/NullPointerException;
 
@@ -471,12 +438,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/util/HashSet;
 
     invoke-direct {v1}, Ljava/util/HashSet;-><init>()V
 
-    .line 2
     invoke-interface {p1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object p1
@@ -495,7 +460,6 @@
 
     check-cast v2, Lcom/commsource/home/entity/DialogDataEntity;
 
-    .line 3
     invoke-virtual {v2}, Lcom/commsource/home/entity/DialogDataEntity;->getPopupConfig()Lcom/commsource/home/entity/PopupConfig;
 
     move-result-object v2
@@ -514,17 +478,14 @@
 
     if-eqz v2, :cond_0
 
-    .line 4
     invoke-static {v2}, Lcom/meitu/library/p/a;->a(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v2
 
-    .line 5
     invoke-virtual {v1, v2}, Ljava/util/HashSet;->add(Ljava/lang/Object;)Z
 
     goto :goto_0
 
-    .line 6
     :cond_1
     new-instance p1, Ljava/io/File;
 
@@ -540,7 +501,6 @@
 
     if-eqz p1, :cond_3
 
-    .line 7
     array-length v2, p1
 
     const/4 v3, 0x0
@@ -552,7 +512,6 @@
 
     const-string v5, "it"
 
-    .line 8
     invoke-static {v4, v5}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v4}, Ljava/io/File;->getName()Ljava/lang/String;
@@ -565,7 +524,6 @@
 
     if-nez v5, :cond_2
 
-    .line 9
     invoke-virtual {v4}, Ljava/io/File;->deleteOnExit()V
 
     :cond_2
@@ -573,7 +531,6 @@
 
     goto :goto_1
 
-    .line 10
     :cond_3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -601,12 +558,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/commsource/home/OnlineDialogRepo$b;
 
     invoke-direct {v1}, Lcom/commsource/home/OnlineDialogRepo$b;-><init>()V
 
-    .line 2
     invoke-static {p2, p1, v1}, Lcom/commsource/util/o1;->a(Ljava/util/List;Ljava/util/List;Lcom/commsource/util/o1$c;)Ljava/util/List;
 
     move-result-object p1
@@ -627,7 +582,6 @@
 
     if-eqz p1, :cond_1
 
-    .line 1
     :try_start_0
     invoke-interface {p1}, Ljava/lang/CharSequence;->length()I
 
@@ -649,7 +603,6 @@
     :goto_1
     if-eqz v2, :cond_2
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
@@ -667,7 +620,6 @@
 
     move-object v3, p1
 
-    .line 3
     invoke-static/range {v3 .. v8}, Lcotlin/text/m;->B3(Ljava/lang/CharSequence;Ljava/lang/String;IZILjava/lang/Object;)I
 
     move-result v2
@@ -682,7 +634,6 @@
 
     invoke-static {v2, v3}, Lcotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 4
     invoke-direct {p0}, Lcom/commsource/home/OnlineDialogRepo;->l()Ljava/lang/String;
 
     move-result-object v3
@@ -731,7 +682,6 @@
 
     goto :goto_2
 
-    .line 5
     :cond_3
     new-instance p1, Ljava/lang/NullPointerException;
 
@@ -745,7 +695,6 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 6
     :catchall_0
     :goto_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -760,21 +709,18 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p1}, Lcom/commsource/home/entity/DialogDataEntity;->getPopupConfig()Lcom/commsource/home/entity/PopupConfig;
 
     move-result-object v1
 
     if-eqz v1, :cond_7
 
-    .line 2
     invoke-virtual {v1}, Lcom/commsource/home/entity/PopupConfig;->getMedia()Lcom/commsource/home/entity/PopupConfig$Media;
 
     move-result-object v1
 
     if-eqz v1, :cond_7
 
-    .line 3
     invoke-virtual {v1}, Lcom/commsource/home/entity/PopupConfig$Media;->getType()Ljava/lang/String;
 
     move-result-object v2
@@ -846,7 +792,6 @@
     :goto_4
     if-eqz v1, :cond_7
 
-    .line 4
     new-instance v3, Ljava/io/File;
 
     sget-object v5, Lcom/commsource/home/OnlineDialogRepo;->m:Lcom/commsource/home/OnlineDialogRepo;
@@ -861,14 +806,12 @@
 
     invoke-direct {v3, v5}, Ljava/io/File;-><init>(Ljava/lang/String;)V
 
-    .line 5
     invoke-virtual {v3}, Ljava/io/File;->getPath()Ljava/lang/String;
 
     move-result-object v5
 
     invoke-virtual {v1, v5}, Lcom/commsource/home/entity/PopupConfig$Media;->setLocalPath(Ljava/lang/String;)V
 
-    .line 6
     invoke-virtual {v3}, Ljava/io/File;->exists()Z
 
     move-result v5
@@ -885,7 +828,6 @@
     :goto_5
     if-eqz v3, :cond_7
 
-    .line 7
     sget-object v4, Lcom/commsource/material/c;->m:Lcom/commsource/material/c;
 
     invoke-virtual {v4}, Lcom/commsource/material/c;->b()Lcom/commsource/material/d;
@@ -902,12 +844,10 @@
 
     if-nez v5, :cond_7
 
-    .line 8
     new-instance v5, Lcom/commsource/material/download/b/b$b;
 
     invoke-direct {v5}, Lcom/commsource/material/download/b/b$b;-><init>()V
 
-    .line 9
     new-instance v13, Lcom/commsource/material/download/c/d;
 
     invoke-virtual {v1}, Lcom/commsource/home/entity/PopupConfig$Media;->getUrl()Ljava/lang/String;
@@ -930,24 +870,20 @@
 
     invoke-direct/range {v6 .. v12}, Lcom/commsource/material/download/c/d;-><init>(Ljava/lang/String;Ljava/lang/String;ZLjava/lang/String;ILcotlin/jvm/internal/u;)V
 
-    .line 10
     invoke-virtual {v4}, Lcom/commsource/material/c;->b()Lcom/commsource/material/d;
 
     move-result-object v4
 
-    .line 11
     invoke-virtual {v5, v13, v4, v2}, Lcom/commsource/material/download/b/b$b;->a(Lcom/commsource/material/download/c/c;Lcom/commsource/material/d;Lcom/commsource/material/download/b/c;)Lcom/commsource/material/download/b/b$b;
 
     move-result-object v2
 
-    .line 12
     new-instance v4, Lcom/commsource/home/OnlineDialogRepo$c;
 
     invoke-direct {v4, v3, v1, p1}, Lcom/commsource/home/OnlineDialogRepo$c;-><init>(Ljava/io/File;Lcom/commsource/home/entity/PopupConfig$Media;Lcom/commsource/home/entity/DialogDataEntity;)V
 
     invoke-virtual {v2, v4}, Lcom/commsource/material/download/b/b$b;->c(Lcom/commsource/material/download/b/c;)Lcom/commsource/material/download/b/b;
 
-    .line 13
     :cond_7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -968,7 +904,6 @@
 
     if-ge v1, v2, :cond_4
 
-    .line 1
     sget-object v2, Lcom/commsource/home/OnlineDialogRepo;->d:Ljava/util/LinkedList;
 
     invoke-static {v2, v1}, Lcotlin/collections/s;->H2(Ljava/util/List;I)Ljava/lang/Object;
@@ -979,12 +914,10 @@
 
     if-eqz v2, :cond_0
 
-    .line 2
     sget-object v3, Lcom/commsource/home/OnlineDialogRepo;->m:Lcom/commsource/home/OnlineDialogRepo;
 
     invoke-direct {v3, v2}, Lcom/commsource/home/OnlineDialogRepo;->h(Lcom/commsource/home/entity/DialogDataEntity;)V
 
-    .line 3
     :cond_0
     sget-object v2, Lcom/commsource/home/OnlineDialogRepo;->e:Ljava/util/LinkedList;
 
@@ -996,12 +929,10 @@
 
     if-eqz v2, :cond_1
 
-    .line 4
     sget-object v3, Lcom/commsource/home/OnlineDialogRepo;->m:Lcom/commsource/home/OnlineDialogRepo;
 
     invoke-direct {v3, v2}, Lcom/commsource/home/OnlineDialogRepo;->h(Lcom/commsource/home/entity/DialogDataEntity;)V
 
-    .line 5
     :cond_1
     sget-object v2, Lcom/commsource/home/OnlineDialogRepo;->f:Ljava/util/LinkedList;
 
@@ -1013,12 +944,10 @@
 
     if-eqz v2, :cond_2
 
-    .line 6
     sget-object v3, Lcom/commsource/home/OnlineDialogRepo;->m:Lcom/commsource/home/OnlineDialogRepo;
 
     invoke-direct {v3, v2}, Lcom/commsource/home/OnlineDialogRepo;->h(Lcom/commsource/home/entity/DialogDataEntity;)V
 
-    .line 7
     :cond_2
     sget-object v2, Lcom/commsource/home/OnlineDialogRepo;->g:Ljava/util/LinkedList;
 
@@ -1030,7 +959,6 @@
 
     if-eqz v2, :cond_3
 
-    .line 8
     sget-object v3, Lcom/commsource/home/OnlineDialogRepo;->m:Lcom/commsource/home/OnlineDialogRepo;
 
     invoke-direct {v3, v2}, Lcom/commsource/home/OnlineDialogRepo;->h(Lcom/commsource/home/entity/DialogDataEntity;)V
@@ -1040,7 +968,6 @@
 
     goto :goto_0
 
-    .line 9
     :cond_4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1094,7 +1021,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/commsource/util/i0;->b()I
 
     move-result v1
@@ -1145,7 +1071,6 @@
 
     goto :goto_0
 
-    .line 2
     :cond_1
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1187,7 +1112,6 @@
 
     goto :goto_1
 
-    .line 1
     :cond_0
     invoke-static {}, Lf/d/i/o;->d0()I
 
@@ -1197,7 +1121,6 @@
 
     goto :goto_0
 
-    .line 2
     :cond_1
     invoke-static {}, Lf/d/i/o;->d0()I
 
@@ -1207,7 +1130,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_2
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1234,7 +1156,6 @@
 
     goto :goto_0
 
-    .line 1
     :cond_0
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
@@ -1253,7 +1174,6 @@
 
     goto :goto_0
 
-    .line 2
     :cond_2
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
@@ -1263,7 +1183,6 @@
 
     move-result v2
 
-    .line 3
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1277,14 +1196,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/p/g/b;->A(Ljava/lang/String;)Z
 
     move-result v1
 
     if-eqz v1, :cond_0
 
-    .line 2
     sget-object v1, Lcom/commsource/util/s1;->a:Lcom/commsource/util/s1;
 
     invoke-virtual {v1, p1}, Lcom/commsource/util/s1;->b(Ljava/lang/String;)Ljava/lang/String;
@@ -1293,7 +1210,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_0
     sget-object v1, Lcom/commsource/util/s1;->a:Lcom/commsource/util/s1;
 
@@ -1301,7 +1217,6 @@
 
     move-result-object p1
 
-    .line 4
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1324,7 +1239,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p1}, Ljava/util/LinkedList;->peekFirst()Ljava/lang/Object;
 
     move-result-object v1
@@ -1333,7 +1247,6 @@
 
     if-eqz v1, :cond_a
 
-    .line 2
     invoke-virtual {v1}, Lcom/commsource/home/entity/DialogDataEntity;->getPopupType()I
 
     move-result v2
@@ -1352,7 +1265,6 @@
 
     if-ne v2, v3, :cond_9
 
-    .line 3
     :cond_0
     invoke-virtual {v1}, Lcom/commsource/home/entity/DialogDataEntity;->getPopupConfig()Lcom/commsource/home/entity/PopupConfig;
 
@@ -1377,7 +1289,6 @@
     :cond_1
     move-object v2, v3
 
-    .line 4
     :goto_0
     invoke-virtual {v1}, Lcom/commsource/home/entity/DialogDataEntity;->getPopupConfig()Lcom/commsource/home/entity/PopupConfig;
 
@@ -1405,7 +1316,6 @@
 
     if-eqz v2, :cond_4
 
-    .line 5
     invoke-interface {v2}, Ljava/lang/CharSequence;->length()I
 
     move-result v7
@@ -1450,21 +1360,17 @@
 
     goto :goto_6
 
-    .line 6
     :cond_7
     new-instance v5, Ljava/io/File;
 
-    .line 7
     sget-object v6, Lcom/commsource/home/OnlineDialogRepo;->m:Lcom/commsource/home/OnlineDialogRepo;
 
     invoke-direct {v6, v2}, Lcom/commsource/home/OnlineDialogRepo;->g(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v2
 
-    .line 8
     invoke-direct {v5, v2}, Ljava/io/File;-><init>(Ljava/lang/String;)V
 
-    .line 9
     invoke-virtual {v5}, Ljava/io/File;->exists()Z
 
     move-result v6
@@ -1473,17 +1379,14 @@
     :goto_6
     if-nez v6, :cond_9
 
-    .line 10
     sget-object p1, Lcom/commsource/home/OnlineDialogRepo;->m:Lcom/commsource/home/OnlineDialogRepo;
 
     invoke-direct {p1, v1}, Lcom/commsource/home/OnlineDialogRepo;->h(Lcom/commsource/home/entity/DialogDataEntity;)V
 
-    .line 11
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v3
 
-    .line 12
     :cond_9
     invoke-static {p1, v4}, Lcotlin/collections/s;->H2(Ljava/util/List;I)Ljava/lang/Object;
 
@@ -1493,12 +1396,10 @@
 
     if-eqz v1, :cond_a
 
-    .line 13
     sget-object v2, Lcom/commsource/home/OnlineDialogRepo;->m:Lcom/commsource/home/OnlineDialogRepo;
 
     invoke-direct {v2, v1}, Lcom/commsource/home/OnlineDialogRepo;->h(Lcom/commsource/home/entity/DialogDataEntity;)V
 
-    .line 14
     :cond_a
     invoke-virtual {p1}, Ljava/util/LinkedList;->pollFirst()Ljava/lang/Object;
 
@@ -1526,7 +1427,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/home/OnlineDialogRepo;->k()Lf/k/i0/a/s0;
 
     move-result-object v1
@@ -1535,19 +1435,16 @@
 
     move-result-object v1
 
-    .line 2
     invoke-direct {p0, v1, p1}, Lcom/commsource/home/OnlineDialogRepo;->f(Ljava/util/List;Ljava/util/List;)Ljava/util/List;
 
     move-result-object p1
 
     if-eqz p1, :cond_3
 
-    .line 3
     new-instance v1, Ljava/util/ArrayList;
 
     invoke-direct {v1}, Ljava/util/ArrayList;-><init>()V
 
-    .line 4
     invoke-interface {p1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object p1
@@ -1568,10 +1465,8 @@
 
     check-cast v3, Lcom/commsource/home/entity/DialogDataEntity;
 
-    .line 5
     sget-object v4, Lcom/commsource/home/OnlineDialogRepo;->m:Lcom/commsource/home/OnlineDialogRepo;
 
-    .line 6
     invoke-virtual {v3}, Lcom/commsource/home/entity/DialogDataEntity;->getDeviceLevel()I
 
     move-result v5
@@ -1582,7 +1477,6 @@
 
     if-eqz v5, :cond_1
 
-    .line 7
     invoke-virtual {v3}, Lcom/commsource/home/entity/DialogDataEntity;->getUserStatus()I
 
     move-result v5
@@ -1593,7 +1487,6 @@
 
     if-eqz v5, :cond_1
 
-    .line 8
     invoke-virtual {v3}, Lcom/commsource/home/entity/DialogDataEntity;->getSubStatus()I
 
     move-result v3
@@ -1618,27 +1511,21 @@
 
     goto :goto_0
 
-    .line 9
     :cond_2
     sget-object p1, Lcom/commsource/home/OnlineDialogRepo;->l:Ljava/util/List;
 
     invoke-interface {p1}, Ljava/util/List;->clear()V
 
-    .line 10
     invoke-interface {p1, v1}, Ljava/util/List;->addAll(Ljava/util/Collection;)Z
 
-    .line 11
     sget-object p1, Lcom/commsource/home/OnlineDialogRepo;->m:Lcom/commsource/home/OnlineDialogRepo;
 
     invoke-direct {p1, v1}, Lcom/commsource/home/OnlineDialogRepo;->d(Ljava/util/List;)V
 
-    .line 12
     invoke-direct {p1, v1}, Lcom/commsource/home/OnlineDialogRepo;->e(Ljava/util/List;)V
 
-    .line 13
     invoke-direct {p1}, Lcom/commsource/home/OnlineDialogRepo;->i()V
 
-    .line 14
     new-instance p1, Ljava/lang/StringBuilder;
 
     invoke-direct {p1}, Ljava/lang/StringBuilder;-><init>()V
@@ -1669,7 +1556,6 @@
 
     invoke-static {p1, v2, v3, v1, v3}, Lcom/commsource/util/l0;->L(Ljava/lang/String;Ljava/lang/String;Lcom/meitu/library/util/Debug/Debug$DebugLevel;ILjava/lang/Object;)V
 
-    .line 15
     :cond_3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1687,7 +1573,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-boolean v1, Lcom/commsource/home/OnlineDialogRepo;->a:Z
 
     const/4 v2, 0x1
@@ -1700,7 +1585,6 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     sget-object v1, Lcom/commsource/home/OnlineDialogRepo;->d:Ljava/util/LinkedList;
 
@@ -1710,7 +1594,6 @@
 
     goto :goto_1
 
-    .line 3
     :cond_1
     invoke-virtual {p0}, Lcom/commsource/home/OnlineDialogRepo;->s()V
 
@@ -1720,7 +1603,6 @@
     :goto_1
     if-eqz v1, :cond_5
 
-    .line 4
     invoke-virtual {v1}, Lcom/commsource/home/entity/DialogDataEntity;->getNumber()I
 
     move-result v4
@@ -1729,7 +1611,6 @@
 
     invoke-virtual {v1, v4}, Lcom/commsource/home/entity/DialogDataEntity;->setNumber(I)V
 
-    .line 5
     invoke-virtual {v1}, Lcom/commsource/home/entity/DialogDataEntity;->getBout()I
 
     move-result v4
@@ -1738,15 +1619,12 @@
 
     invoke-virtual {v1, v4}, Lcom/commsource/home/entity/DialogDataEntity;->setBout(I)V
 
-    .line 6
     sget-object v4, Lcom/commsource/home/OnlineDialogRepo;->l:Ljava/util/List;
 
-    .line 7
     new-instance v5, Ljava/util/ArrayList;
 
     invoke-direct {v5}, Ljava/util/ArrayList;-><init>()V
 
-    .line 8
     invoke-interface {v4}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v4
@@ -1767,7 +1645,6 @@
 
     check-cast v7, Lcom/commsource/home/entity/DialogDataEntity;
 
-    .line 9
     invoke-virtual {v7}, Lcom/commsource/home/entity/DialogDataEntity;->getTriggerType()I
 
     move-result v7
@@ -1788,19 +1665,15 @@
 
     goto :goto_2
 
-    .line 10
     :cond_4
     new-instance p1, Lcom/commsource/home/OnlineDialogRepo$d;
 
     const-string v2, "Update-Dialog-Entity"
 
-    .line 11
     invoke-direct {p1, v5, v1, v2}, Lcom/commsource/home/OnlineDialogRepo$d;-><init>(Ljava/util/List;Lcom/commsource/home/entity/DialogDataEntity;Ljava/lang/String;)V
 
-    .line 12
     invoke-static {p1}, Lcom/commsource/util/c2;->e(Lcom/commsource/util/u2/a;)V
 
-    .line 13
     :cond_5
     new-instance p1, Ljava/lang/StringBuilder;
 
@@ -1822,7 +1695,6 @@
 
     invoke-static {p1, v4, v3, v2, v3}, Lcom/commsource/util/l0;->L(Ljava/lang/String;Ljava/lang/String;Lcom/meitu/library/util/Debug/Debug$DebugLevel;ILjava/lang/Object;)V
 
-    .line 14
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
@@ -1837,15 +1709,12 @@
 
     const/4 v1, 0x1
 
-    .line 1
     sput-boolean v1, Lcom/commsource/home/OnlineDialogRepo;->a:Z
 
-    .line 2
     invoke-static {}, Lf/d/i/e;->z0()Ljava/lang/String;
 
     move-result-object v1
 
-    .line 3
     const-class v2, Lcom/meitu/http/api/HomeApi;
 
     invoke-static {v2}, Lf/k/k/u/b;->h(Ljava/lang/Class;)Ljava/lang/Object;
@@ -1854,19 +1723,16 @@
 
     check-cast v2, Lcom/meitu/http/api/HomeApi;
 
-    .line 4
     invoke-virtual {v2, v1}, Lcom/meitu/http/api/HomeApi;->a(Ljava/lang/String;)Lf/k/k/u/c;
 
     move-result-object v2
 
-    .line 5
     new-instance v3, Lcom/commsource/home/OnlineDialogRepo$requestDialogData$1;
 
     invoke-direct {v3, v1}, Lcom/commsource/home/OnlineDialogRepo$requestDialogData$1;-><init>(Ljava/lang/String;)V
 
     invoke-static {v2, v3}, Lf/k/k/u/b;->m(Lf/k/k/u/c;Lcotlin/jvm/u/l;)Lf/k/k/u/c;
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

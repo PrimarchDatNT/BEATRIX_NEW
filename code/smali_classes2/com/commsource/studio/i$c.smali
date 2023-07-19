@@ -35,10 +35,8 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/studio/i$e;-><init>()V
 
-    .line 2
     new-instance v0, Ljava/util/LinkedList;
 
     invoke-direct {v0}, Ljava/util/LinkedList;-><init>()V
@@ -65,21 +63,18 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/studio/i$e;->a()Lcom/commsource/studio/i;
 
     move-result-object v1
 
     invoke-interface {p1, v1}, Lcom/commsource/studio/i$d;->setGestureDetector(Lcom/commsource/studio/i;)V
 
-    .line 2
     new-instance v1, Lcom/commsource/studio/i$c$a;
 
     invoke-direct {v1, p0, p1}, Lcom/commsource/studio/i$c$a;-><init>(Lcom/commsource/studio/i$c;Lcom/commsource/studio/i$d;)V
 
     invoke-static {v1}, Lcom/commsource/util/g2;->k(Ljava/lang/Runnable;)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -103,7 +98,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/i$c;->c:Ljava/util/LinkedList;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -126,14 +120,12 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     new-instance v1, Lcom/commsource/studio/i$c$b;
 
     invoke-direct {v1, p0, p1}, Lcom/commsource/studio/i$c$b;-><init>(Lcom/commsource/studio/i$c;Lcom/commsource/studio/i$d;)V
 
     invoke-static {v1}, Lcom/commsource/util/g2;->k(Ljava/lang/Runnable;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -154,10 +146,8 @@
 
     invoke-static {p3, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/i$c;->c:Ljava/util/LinkedList;
 
-    .line 2
     invoke-interface {v1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v1
@@ -179,7 +169,6 @@
 
     check-cast v3, Lcom/commsource/studio/i$d;
 
-    .line 3
     invoke-interface {v3}, Lcom/commsource/studio/i$d;->isEnable()Z
 
     move-result v4
@@ -204,12 +193,10 @@
     :goto_0
     if-eqz v3, :cond_0
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v5
 
-    .line 5
     :cond_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -247,10 +234,8 @@
 
     invoke-static {p3, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/i$c;->c:Ljava/util/LinkedList;
 
-    .line 2
     invoke-interface {v1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v1
@@ -273,7 +258,6 @@
 
     check-cast v3, Lcom/commsource/studio/i$d;
 
-    .line 3
     invoke-interface {v3}, Lcom/commsource/studio/i$d;->isEnable()Z
 
     move-result v4
@@ -290,7 +274,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -316,10 +299,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/i$c;->c:Ljava/util/LinkedList;
 
-    .line 2
     invoke-interface {v1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v1
@@ -341,7 +322,6 @@
 
     check-cast v3, Lcom/commsource/studio/i$d;
 
-    .line 3
     invoke-interface {v3}, Lcom/commsource/studio/i$d;->isEnable()Z
 
     move-result v4
@@ -366,12 +346,10 @@
     :goto_0
     if-eqz v3, :cond_0
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v5
 
-    .line 5
     :cond_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -393,10 +371,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/i$c;->c:Ljava/util/LinkedList;
 
-    .line 2
     invoke-interface {v1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v1
@@ -418,7 +394,6 @@
 
     check-cast v3, Lcom/commsource/studio/i$d;
 
-    .line 3
     invoke-interface {v3}, Lcom/commsource/studio/i$d;->isEnable()Z
 
     move-result v4
@@ -443,12 +418,10 @@
     :goto_0
     if-eqz v3, :cond_0
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v5
 
-    .line 5
     :cond_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -470,10 +443,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/i$c;->c:Ljava/util/LinkedList;
 
-    .line 2
     invoke-interface {v1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v1
@@ -496,7 +467,6 @@
 
     check-cast v3, Lcom/commsource/studio/i$d;
 
-    .line 3
     invoke-interface {v3}, Lcom/commsource/studio/i$d;->isEnable()Z
 
     move-result v4
@@ -513,7 +483,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -535,10 +504,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/i$c;->c:Ljava/util/LinkedList;
 
-    .line 2
     invoke-interface {v1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v1
@@ -560,7 +527,6 @@
 
     check-cast v3, Lcom/commsource/studio/i$d;
 
-    .line 3
     invoke-interface {v3}, Lcom/commsource/studio/i$d;->isEnable()Z
 
     move-result v4
@@ -585,12 +551,10 @@
     :goto_0
     if-eqz v3, :cond_0
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v5
 
-    .line 5
     :cond_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -612,10 +576,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/i$c;->c:Ljava/util/LinkedList;
 
-    .line 2
     invoke-interface {v1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v1
@@ -637,7 +599,6 @@
 
     check-cast v3, Lcom/commsource/studio/i$d;
 
-    .line 3
     invoke-interface {v3}, Lcom/commsource/studio/i$d;->isEnable()Z
 
     move-result v4
@@ -662,12 +623,10 @@
     :goto_0
     if-eqz v3, :cond_0
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v5
 
-    .line 5
     :cond_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -689,10 +648,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/i$c;->c:Ljava/util/LinkedList;
 
-    .line 2
     invoke-interface {v1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v1
@@ -714,7 +671,6 @@
 
     check-cast v3, Lcom/commsource/studio/i$d;
 
-    .line 3
     invoke-interface {v3}, Lcom/commsource/studio/i$d;->isEnable()Z
 
     move-result v4
@@ -739,12 +695,10 @@
     :goto_0
     if-eqz v3, :cond_0
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v5
 
-    .line 5
     :cond_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -766,10 +720,8 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/i$c;->c:Ljava/util/LinkedList;
 
-    .line 2
     invoke-interface {v1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v1
@@ -791,7 +743,6 @@
 
     check-cast v3, Lcom/commsource/studio/i$d;
 
-    .line 3
     invoke-interface {v3}, Lcom/commsource/studio/i$d;->isEnable()Z
 
     move-result v4
@@ -816,12 +767,10 @@
     :goto_0
     if-eqz v3, :cond_0
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v5
 
-    .line 5
     :cond_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -843,10 +792,8 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/i$c;->c:Ljava/util/LinkedList;
 
-    .line 2
     invoke-interface {v1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v1
@@ -868,7 +815,6 @@
 
     check-cast v3, Lcom/commsource/studio/i$d;
 
-    .line 3
     invoke-interface {v3}, Lcom/commsource/studio/i$d;->isEnable()Z
 
     move-result v4
@@ -893,12 +839,10 @@
     :goto_0
     if-eqz v3, :cond_0
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v5
 
-    .line 5
     :cond_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -920,10 +864,8 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/i$c;->c:Ljava/util/LinkedList;
 
-    .line 2
     invoke-interface {v1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v1
@@ -945,7 +887,6 @@
 
     check-cast v3, Lcom/commsource/studio/i$d;
 
-    .line 3
     invoke-interface {v3}, Lcom/commsource/studio/i$d;->isEnable()Z
 
     move-result v4
@@ -970,12 +911,10 @@
     :goto_0
     if-eqz v3, :cond_0
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v5
 
-    .line 5
     :cond_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -997,10 +936,8 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/i$c;->c:Ljava/util/LinkedList;
 
-    .line 2
     invoke-interface {v1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v1
@@ -1022,7 +959,6 @@
 
     check-cast v3, Lcom/commsource/studio/i$d;
 
-    .line 3
     invoke-interface {v3}, Lcom/commsource/studio/i$d;->isEnable()Z
 
     move-result v4
@@ -1047,12 +983,10 @@
     :goto_0
     if-eqz v3, :cond_0
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v5
 
-    .line 5
     :cond_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1070,10 +1004,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/i$c;->c:Ljava/util/LinkedList;
 
-    .line 2
     invoke-interface {v1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v1
@@ -1095,7 +1027,6 @@
 
     check-cast v3, Lcom/commsource/studio/i$d;
 
-    .line 3
     invoke-interface {v3}, Lcom/commsource/studio/i$d;->isEnable()Z
 
     move-result v4
@@ -1120,12 +1051,10 @@
     :goto_0
     if-eqz v3, :cond_0
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v5
 
-    .line 5
     :cond_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1155,10 +1084,8 @@
 
     invoke-static {p2, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/i$c;->c:Ljava/util/LinkedList;
 
-    .line 2
     invoke-interface {v1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v1
@@ -1180,7 +1107,6 @@
 
     check-cast v3, Lcom/commsource/studio/i$d;
 
-    .line 3
     invoke-interface {v3}, Lcom/commsource/studio/i$d;->isEnable()Z
 
     move-result v4
@@ -1205,12 +1131,10 @@
     :goto_0
     if-eqz v3, :cond_0
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v5
 
-    .line 5
     :cond_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1228,10 +1152,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/i$c;->c:Ljava/util/LinkedList;
 
-    .line 2
     invoke-interface {v1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v1
@@ -1253,7 +1175,6 @@
 
     check-cast v3, Lcom/commsource/studio/i$d;
 
-    .line 3
     invoke-interface {v3}, Lcom/commsource/studio/i$d;->isEnable()Z
 
     move-result v4
@@ -1278,12 +1199,10 @@
     :goto_0
     if-eqz v3, :cond_0
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v5
 
-    .line 5
     :cond_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1301,10 +1220,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/i$c;->c:Ljava/util/LinkedList;
 
-    .line 2
     invoke-interface {v1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v1
@@ -1326,7 +1243,6 @@
 
     check-cast v3, Lcom/commsource/studio/i$d;
 
-    .line 3
     invoke-interface {v3}, Lcom/commsource/studio/i$d;->isEnable()Z
 
     move-result v4
@@ -1351,12 +1267,10 @@
     :goto_0
     if-eqz v3, :cond_0
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v5
 
-    .line 5
     :cond_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1378,10 +1292,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/i$c;->c:Ljava/util/LinkedList;
 
-    .line 2
     invoke-interface {v1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v1
@@ -1403,7 +1315,6 @@
 
     check-cast v3, Lcom/commsource/studio/i$d;
 
-    .line 3
     invoke-interface {v3}, Lcom/commsource/studio/i$d;->isEnable()Z
 
     move-result v4
@@ -1428,12 +1339,10 @@
     :goto_0
     if-eqz v3, :cond_0
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v5
 
-    .line 5
     :cond_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1451,7 +1360,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1480,10 +1388,8 @@
 
     invoke-static {p2, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/i$c;->c:Ljava/util/LinkedList;
 
-    .line 2
     invoke-interface {v1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v1
@@ -1505,7 +1411,6 @@
 
     check-cast v3, Lcom/commsource/studio/i$d;
 
-    .line 3
     invoke-interface {v3}, Lcom/commsource/studio/i$d;->isEnable()Z
 
     move-result v4
@@ -1530,12 +1435,10 @@
     :goto_0
     if-eqz v3, :cond_0
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v5
 
-    .line 5
     :cond_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1565,10 +1468,8 @@
 
     invoke-static {p2, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/i$c;->c:Ljava/util/LinkedList;
 
-    .line 2
     invoke-interface {v1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v1
@@ -1590,7 +1491,6 @@
 
     check-cast v3, Lcom/commsource/studio/i$d;
 
-    .line 3
     invoke-interface {v3}, Lcom/commsource/studio/i$d;->isEnable()Z
 
     move-result v4
@@ -1615,12 +1515,10 @@
     :goto_0
     if-eqz v3, :cond_0
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v5
 
-    .line 5
     :cond_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

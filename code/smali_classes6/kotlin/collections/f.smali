@@ -33,7 +33,6 @@
 .method protected constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/util/AbstractMap;-><init>()V
 
     return-void
@@ -47,7 +46,6 @@
 .method public bridge b()Ljava/util/Set;
     .locals 1
 
-    .line 1
     invoke-super {p0}, Ljava/util/AbstractMap;->keySet()Ljava/util/Set;
 
     move-result-object v0
@@ -58,7 +56,6 @@
 .method public bridge c()I
     .locals 1
 
-    .line 1
     invoke-super {p0}, Ljava/util/AbstractMap;->size()I
 
     move-result v0
@@ -69,7 +66,6 @@
 .method public bridge d()Ljava/util/Collection;
     .locals 1
 
-    .line 1
     invoke-super {p0}, Ljava/util/AbstractMap;->values()Ljava/util/Collection;
 
     move-result-object v0
@@ -88,7 +84,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcotlin/collections/f;->a()Ljava/util/Set;
 
     move-result-object v0
@@ -106,7 +101,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcotlin/collections/f;->b()Ljava/util/Set;
 
     move-result-object v0
@@ -128,7 +122,6 @@
 .method public final bridge size()I
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcotlin/collections/f;->c()I
 
     move-result v0
@@ -146,7 +139,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcotlin/collections/f;->d()Ljava/util/Collection;
 
     move-result-object v0

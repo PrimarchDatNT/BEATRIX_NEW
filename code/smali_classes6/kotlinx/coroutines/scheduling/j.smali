@@ -28,7 +28,6 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-direct {p0, p2, p3, p4}, Lcotlinx/coroutines/scheduling/h;-><init>(JLcotlinx/coroutines/scheduling/i;)V
 
     iput-object p1, p0, Lcotlinx/coroutines/scheduling/j;->c:Ljava/lang/Runnable;
@@ -41,7 +40,6 @@
 .method public run()V
     .locals 2
 
-    .line 1
     :try_start_0
     iget-object v0, p0, Lcotlinx/coroutines/scheduling/j;->c:Ljava/lang/Runnable;
 
@@ -49,7 +47,6 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 2
     iget-object v0, p0, Lcotlinx/coroutines/scheduling/h;->b:Lcotlinx/coroutines/scheduling/i;
 
     invoke-interface {v0}, Lcotlinx/coroutines/scheduling/i;->i()V
@@ -71,7 +68,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V

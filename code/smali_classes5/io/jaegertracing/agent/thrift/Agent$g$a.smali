@@ -32,7 +32,6 @@
 
     const-string v0, "emitBatch"
 
-    .line 1
     invoke-direct {p0, v0}, Lorg/apache/thrift/ProcessFunction;-><init>(Ljava/lang/String;)V
 
     return-void
@@ -43,7 +42,6 @@
 .method public a()Lio/jaegertracing/agent/thrift/Agent$emitBatch_args;
     .locals 1
 
-    .line 1
     new-instance v0, Lio/jaegertracing/agent/thrift/Agent$emitBatch_args;
 
     invoke-direct {v0}, Lio/jaegertracing/agent/thrift/Agent$emitBatch_args;-><init>()V
@@ -68,7 +66,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object p2, p2, Lio/jaegertracing/agent/thrift/Agent$emitBatch_args;->batch:Lio/jaegertracing/thriftjava/Batch;
 
     invoke-interface {p1, p2}, Lio/jaegertracing/agent/thrift/Agent$f;->c(Lio/jaegertracing/thriftjava/Batch;)V
@@ -81,7 +78,6 @@
 .method public bridge synthetic getEmptyArgsInstance()Lorg/apache/thrift/TBase;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lio/jaegertracing/agent/thrift/Agent$g$a;->a()Lio/jaegertracing/agent/thrift/Agent$emitBatch_args;
 
     move-result-object v0
@@ -97,7 +93,6 @@
         }
     .end annotation
 
-    .line 1
     check-cast p1, Lio/jaegertracing/agent/thrift/Agent$f;
 
     check-cast p2, Lio/jaegertracing/agent/thrift/Agent$emitBatch_args;

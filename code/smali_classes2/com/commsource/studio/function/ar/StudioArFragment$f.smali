@@ -59,22 +59,18 @@
 
     const/4 v1, 0x0
 
-    .line 1
     invoke-virtual {p1}, Lcom/meitu/template/bean/ArMaterial;->getNumber()I
 
     move-result v2
 
     int-to-long v2, v2
 
-    .line 2
     invoke-static {p1}, Lcom/commsource/widget/i0;->d(Lcom/meitu/template/bean/ArMaterial;)Z
 
     move-result v4
 
-    .line 3
     invoke-static {v1, v2, v3, v4}, Lcom/commsource/camera/beauty/ArAnalyAgent;->e(ZJZ)V
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/studio/function/ar/StudioArFragment$f;->a:Lcom/commsource/studio/function/ar/StudioArFragment;
 
     invoke-virtual {v1}, Lcom/commsource/studio/function/ar/StudioArFragment;->C1()Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/c1;
@@ -91,12 +87,10 @@
 
     if-eqz v1, :cond_0
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 6
     :cond_0
     iget-object v1, p0, Lcom/commsource/studio/function/ar/StudioArFragment$f;->a:Lcom/commsource/studio/function/ar/StudioArFragment;
 
@@ -112,12 +106,10 @@
 
     if-eqz v1, :cond_1
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 8
     :cond_1
     iget-object v1, p0, Lcom/commsource/studio/function/ar/StudioArFragment$f;->a:Lcom/commsource/studio/function/ar/StudioArFragment;
 
@@ -151,7 +143,6 @@
 
     if-ne v1, v3, :cond_3
 
-    .line 9
     :cond_2
     iget-object v1, p0, Lcom/commsource/studio/function/ar/StudioArFragment$f;->a:Lcom/commsource/studio/function/ar/StudioArFragment;
 
@@ -161,7 +152,6 @@
 
     invoke-virtual {v1}, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/c1;->M0()V
 
-    .line 10
     iget-object v1, p0, Lcom/commsource/studio/function/ar/StudioArFragment$f;->a:Lcom/commsource/studio/function/ar/StudioArFragment;
 
     invoke-virtual {v1}, Lcom/commsource/studio/function/ar/StudioArFragment;->C1()Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/c1;
@@ -180,7 +170,6 @@
 
     invoke-virtual {v1, p1}, Landroidx/lifecycle/MutableLiveData;->setValue(Ljava/lang/Object;)V
 
-    .line 11
     :cond_3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -194,7 +183,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Lcom/meitu/template/bean/ArMaterial;
 
     invoke-virtual {p0, p1}, Lcom/commsource/studio/function/ar/StudioArFragment$f;->a(Lcom/meitu/template/bean/ArMaterial;)V

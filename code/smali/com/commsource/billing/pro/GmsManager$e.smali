@@ -46,7 +46,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/billing/pro/GmsManager$e;->a:Lcom/commsource/billing/pro/GmsManager;
 
     iput p2, p0, Lcom/commsource/billing/pro/GmsManager$e;->b:I
@@ -73,7 +72,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     :try_start_0
     new-instance v1, Ljava/util/HashMap;
 
@@ -83,7 +81,6 @@
 
     const-string v2, "prf_fail_reason"
 
-    .line 2
     invoke-static {p1}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
 
     move-result-object v3
@@ -92,14 +89,12 @@
 
     const-string v2, "current_sku"
 
-    .line 3
     iget-object v3, p0, Lcom/commsource/billing/pro/GmsManager$e;->f:Ljava/lang/String;
 
     invoke-interface {v1, v2, v3}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v2, "appstore_pay_fail"
 
-    .line 4
     invoke-static {v2, v1}, Lcom/commsource/statistics/i;->a(Ljava/lang/String;Ljava/util/Map;)V
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
@@ -109,10 +104,8 @@
     :catch_0
     move-exception v1
 
-    .line 5
     invoke-virtual {v1}, Ljava/lang/Exception;->printStackTrace()V
 
-    .line 6
     :goto_0
     new-instance v1, Ljava/lang/StringBuilder;
 
@@ -132,7 +125,6 @@
 
     invoke-static {v1, p1}, Lcom/meitu/library/util/Debug/Debug;->n(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 7
     iget-object p1, p0, Lcom/commsource/billing/pro/GmsManager$e;->a:Lcom/commsource/billing/pro/GmsManager;
 
     invoke-static {p1}, Lcom/commsource/billing/pro/GmsManager;->b(Lcom/commsource/billing/pro/GmsManager;)Lcom/commsource/billing/pro/GmsManager$b;
@@ -145,7 +137,6 @@
 
     invoke-virtual {p1, v1, v2}, Lcom/commsource/billing/pro/GmsManager$b;->k(II)V
 
-    .line 8
     iget-object p1, p0, Lcom/commsource/billing/pro/GmsManager$e;->c:Lcom/commsource/billing/pro/e;
 
     if-eqz p1, :cond_0
@@ -154,7 +145,6 @@
 
     invoke-interface {p1, v1}, Lcom/commsource/billing/pro/e;->a(Ljava/lang/Object;)V
 
-    .line 9
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -172,7 +162,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -195,7 +184,6 @@
 
     invoke-static {p1, v1, v2, v3, v2}, Lcom/commsource/util/l0;->L(Ljava/lang/String;Ljava/lang/String;Lcom/meitu/library/util/Debug/Debug$DebugLevel;ILjava/lang/Object;)V
 
-    .line 2
     iget-object p1, p0, Lcom/commsource/billing/pro/GmsManager$e;->a:Lcom/commsource/billing/pro/GmsManager;
 
     invoke-static {p1}, Lcom/commsource/billing/pro/GmsManager;->b(Lcom/commsource/billing/pro/GmsManager;)Lcom/commsource/billing/pro/GmsManager$b;
@@ -206,7 +194,6 @@
 
     invoke-virtual {p1, v3, v1}, Lcom/commsource/billing/pro/GmsManager$b;->k(II)V
 
-    .line 3
     iget-object p1, p0, Lcom/commsource/billing/pro/GmsManager$e;->c:Lcom/commsource/billing/pro/e;
 
     if-eqz p1, :cond_0
@@ -215,7 +202,6 @@
 
     invoke-interface {p1, v1}, Lcom/commsource/billing/pro/e;->a(Ljava/lang/Object;)V
 
-    .line 4
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -229,7 +215,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -252,7 +237,6 @@
 
     invoke-static {p1, v1, v2, v3, v2}, Lcom/commsource/util/l0;->L(Ljava/lang/String;Ljava/lang/String;Lcom/meitu/library/util/Debug/Debug$DebugLevel;ILjava/lang/Object;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -273,7 +257,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -296,7 +279,6 @@
 
     invoke-static {v1, v2, v3, v4, v3}, Lcom/commsource/util/l0;->L(Ljava/lang/String;Ljava/lang/String;Lcom/meitu/library/util/Debug/Debug$DebugLevel;ILjava/lang/Object;)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/billing/pro/GmsManager$e;->a:Lcom/commsource/billing/pro/GmsManager;
 
     iget-object v2, p0, Lcom/commsource/billing/pro/GmsManager$e;->d:Ljava/lang/String;
@@ -307,7 +289,6 @@
 
     invoke-static {v1, p1, v2, v3, v4}, Lcom/commsource/billing/pro/GmsManager;->e(Lcom/commsource/billing/pro/GmsManager;Lcom/meitu/global/billing/purchase/data/MTGPurchase;Ljava/lang/String;Ljava/lang/String;I)V
 
-    .line 3
     iget-object p1, p0, Lcom/commsource/billing/pro/GmsManager$e;->c:Lcom/commsource/billing/pro/e;
 
     if-eqz p1, :cond_0
@@ -316,7 +297,6 @@
 
     invoke-interface {p1, v1}, Lcom/commsource/billing/pro/e;->a(Ljava/lang/Object;)V
 
-    .line 4
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

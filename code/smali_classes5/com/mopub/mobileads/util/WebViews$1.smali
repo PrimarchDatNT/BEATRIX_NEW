@@ -18,7 +18,6 @@
 .method constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Landroid/webkit/WebChromeClient;-><init>()V
 
     return-void
@@ -45,7 +44,6 @@
         .end annotation
     .end param
 
-    .line 1
     sget-object p1, Lcom/mopub/common/logging/MoPubLog$SdkLogEvent;->CUSTOM:Lcom/mopub/common/logging/MoPubLog$SdkLogEvent;
 
     const/4 p2, 0x1
@@ -58,7 +56,6 @@
 
     invoke-static {p1, v0}, Lcom/mopub/common/logging/MoPubLog;->log(Lcom/mopub/common/logging/MoPubLog$MPLogEventType;[Ljava/lang/Object;)V
 
-    .line 2
     invoke-virtual {p4}, Landroid/webkit/JsResult;->confirm()V
 
     return p2
@@ -83,7 +80,6 @@
         .end annotation
     .end param
 
-    .line 1
     sget-object p1, Lcom/mopub/common/logging/MoPubLog$SdkLogEvent;->CUSTOM:Lcom/mopub/common/logging/MoPubLog$SdkLogEvent;
 
     const/4 p2, 0x1
@@ -96,7 +92,6 @@
 
     invoke-static {p1, v0}, Lcom/mopub/common/logging/MoPubLog;->log(Lcom/mopub/common/logging/MoPubLog$MPLogEventType;[Ljava/lang/Object;)V
 
-    .line 2
     invoke-virtual {p4}, Landroid/webkit/JsResult;->confirm()V
 
     return p2
@@ -121,7 +116,6 @@
         .end annotation
     .end param
 
-    .line 1
     sget-object p1, Lcom/mopub/common/logging/MoPubLog$SdkLogEvent;->CUSTOM:Lcom/mopub/common/logging/MoPubLog$SdkLogEvent;
 
     const/4 p2, 0x1
@@ -134,7 +128,6 @@
 
     invoke-static {p1, v0}, Lcom/mopub/common/logging/MoPubLog;->log(Lcom/mopub/common/logging/MoPubLog$MPLogEventType;[Ljava/lang/Object;)V
 
-    .line 2
     invoke-virtual {p4}, Landroid/webkit/JsResult;->confirm()V
 
     return p2
@@ -163,7 +156,6 @@
         .end annotation
     .end param
 
-    .line 1
     sget-object p1, Lcom/mopub/common/logging/MoPubLog$SdkLogEvent;->CUSTOM:Lcom/mopub/common/logging/MoPubLog$SdkLogEvent;
 
     const/4 p2, 0x1
@@ -176,7 +168,6 @@
 
     invoke-static {p1, p4}, Lcom/mopub/common/logging/MoPubLog;->log(Lcom/mopub/common/logging/MoPubLog$MPLogEventType;[Ljava/lang/Object;)V
 
-    .line 2
     invoke-virtual {p5}, Landroid/webkit/JsPromptResult;->confirm()V
 
     return p2

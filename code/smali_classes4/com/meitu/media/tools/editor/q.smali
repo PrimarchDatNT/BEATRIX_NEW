@@ -25,13 +25,10 @@
 .method public constructor <init>(Lcom/meitu/media/tools/editor/f;Lcom/meitu/media/tools/editor/e;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/meitu/media/tools/editor/q;->a:Lcom/meitu/media/tools/editor/f;
 
-    .line 3
     iput-object p2, p0, Lcom/meitu/media/tools/editor/q;->b:Lcom/meitu/media/tools/editor/e;
 
     return-void
@@ -46,7 +43,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/media/tools/editor/q;->a:Lcom/meitu/media/tools/editor/f;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -65,7 +61,6 @@
 
     const/4 v2, 0x0
 
-    .line 1
     :try_start_0
     iget-object v3, p0, Lcom/meitu/media/tools/editor/q;->a:Lcom/meitu/media/tools/editor/f;
 
@@ -78,21 +73,17 @@
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_1
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 2
     iget-object v4, p0, Lcom/meitu/media/tools/editor/q;->a:Lcom/meitu/media/tools/editor/f;
 
     if-eqz v4, :cond_1
 
-    .line 3
     :try_start_1
     invoke-virtual {v4}, Lcom/meitu/media/tools/editor/f;->close()V
 
-    .line 4
     iget-object v4, p0, Lcom/meitu/media/tools/editor/q;->a:Lcom/meitu/media/tools/editor/f;
 
     invoke-virtual {v4}, Lcom/meitu/media/tools/editor/f;->release()V
 
-    .line 5
     iput-object v2, p0, Lcom/meitu/media/tools/editor/q;->a:Lcom/meitu/media/tools/editor/f;
     :try_end_1
     .catch Ljava/lang/Exception; {:try_start_1 .. :try_end_1} :catch_0
@@ -102,7 +93,6 @@
     :catch_0
     move-exception v2
 
-    .line 6
     new-instance v4, Ljava/lang/StringBuilder;
 
     invoke-direct {v4}, Ljava/lang/StringBuilder;-><init>()V
@@ -131,7 +121,6 @@
     :catch_1
     move-exception v3
 
-    .line 7
     :try_start_2
     new-instance v4, Ljava/lang/StringBuilder;
 
@@ -153,21 +142,17 @@
     :try_end_2
     .catchall {:try_start_2 .. :try_end_2} :catchall_0
 
-    .line 8
     iget-object v3, p0, Lcom/meitu/media/tools/editor/q;->a:Lcom/meitu/media/tools/editor/f;
 
     if-eqz v3, :cond_0
 
-    .line 9
     :try_start_3
     invoke-virtual {v3}, Lcom/meitu/media/tools/editor/f;->close()V
 
-    .line 10
     iget-object v3, p0, Lcom/meitu/media/tools/editor/q;->a:Lcom/meitu/media/tools/editor/f;
 
     invoke-virtual {v3}, Lcom/meitu/media/tools/editor/f;->release()V
 
-    .line 11
     iput-object v2, p0, Lcom/meitu/media/tools/editor/q;->a:Lcom/meitu/media/tools/editor/f;
     :try_end_3
     .catch Ljava/lang/Exception; {:try_start_3 .. :try_end_3} :catch_2
@@ -177,7 +162,6 @@
     :catch_2
     move-exception v2
 
-    .line 12
     new-instance v3, Ljava/lang/StringBuilder;
 
     invoke-direct {v3}, Ljava/lang/StringBuilder;-><init>()V
@@ -200,7 +184,6 @@
     :goto_0
     const/4 v3, 0x0
 
-    .line 13
     :cond_1
     :goto_1
     new-instance v0, Ljava/lang/StringBuilder;
@@ -219,27 +202,22 @@
 
     invoke-static {v0}, Lcom/meitu/media/tools/utils/debug/Logger;->a(Ljava/lang/String;)V
 
-    .line 14
     invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v3
 
-    .line 15
     :goto_2
     iget-object v4, p0, Lcom/meitu/media/tools/editor/q;->a:Lcom/meitu/media/tools/editor/f;
 
     if-eqz v4, :cond_2
 
-    .line 16
     :try_start_4
     invoke-virtual {v4}, Lcom/meitu/media/tools/editor/f;->close()V
 
-    .line 17
     iget-object v4, p0, Lcom/meitu/media/tools/editor/q;->a:Lcom/meitu/media/tools/editor/f;
 
     invoke-virtual {v4}, Lcom/meitu/media/tools/editor/f;->release()V
 
-    .line 18
     iput-object v2, p0, Lcom/meitu/media/tools/editor/q;->a:Lcom/meitu/media/tools/editor/f;
     :try_end_4
     .catch Ljava/lang/Exception; {:try_start_4 .. :try_end_4} :catch_3
@@ -249,7 +227,6 @@
     :catch_3
     move-exception v2
 
-    .line 19
     new-instance v4, Ljava/lang/StringBuilder;
 
     invoke-direct {v4}, Ljava/lang/StringBuilder;-><init>()V
@@ -268,7 +245,6 @@
 
     invoke-static {v0}, Lcom/meitu/media/tools/utils/debug/Logger;->i(Ljava/lang/String;)V
 
-    .line 20
     :cond_2
     :goto_3
     invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V

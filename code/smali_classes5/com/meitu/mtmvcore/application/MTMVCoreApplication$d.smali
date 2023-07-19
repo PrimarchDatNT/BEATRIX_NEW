@@ -34,7 +34,6 @@
 .method constructor <init>(Lcom/meitu/mtmvcore/application/MTMVCoreApplication;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/mtmvcore/application/MTMVCoreApplication$d;->a:Lcom/meitu/mtmvcore/application/MTMVCoreApplication;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -51,24 +50,20 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/mtmvcore/application/MTMVCoreApplication$d;->a:Lcom/meitu/mtmvcore/application/MTMVCoreApplication;
 
     invoke-static {v1}, Lcom/meitu/mtmvcore/application/MTMVCoreApplication;->access$1400(Lcom/meitu/mtmvcore/application/MTMVCoreApplication;)V
 
-    .line 2
     iget-object v1, p0, Lcom/meitu/mtmvcore/application/MTMVCoreApplication$d;->a:Lcom/meitu/mtmvcore/application/MTMVCoreApplication;
 
     invoke-static {v1}, Lcom/meitu/mtmvcore/application/MTMVCoreApplication;->access$1500(Lcom/meitu/mtmvcore/application/MTMVCoreApplication;)V
 
-    .line 3
     iget-object v1, p0, Lcom/meitu/mtmvcore/application/MTMVCoreApplication$d;->a:Lcom/meitu/mtmvcore/application/MTMVCoreApplication;
 
     const-wide/16 v2, 0x0
 
     iput-wide v2, v1, Lcom/meitu/mtmvcore/application/MTMVCoreApplication;->mNativeApplication:J
 
-    .line 4
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -97,7 +92,6 @@
 
     const/4 v1, 0x0
 
-    .line 5
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v1
@@ -119,7 +113,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/meitu/mtmvcore/application/MTMVCoreApplication$d;->a()Ljava/lang/Integer;
 
     move-result-object v1

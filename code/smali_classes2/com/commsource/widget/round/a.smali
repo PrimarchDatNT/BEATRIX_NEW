@@ -47,17 +47,14 @@
 .method public constructor <init>(Landroid/view/View;Landroid/content/Context;Landroid/util/AttributeSet;)V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     new-instance v0, Landroid/graphics/drawable/GradientDrawable;
 
     invoke-direct {v0}, Landroid/graphics/drawable/GradientDrawable;-><init>()V
 
     iput-object v0, p0, Lcom/commsource/widget/round/a;->c:Landroid/graphics/drawable/GradientDrawable;
 
-    .line 3
     new-instance v0, Landroid/graphics/drawable/GradientDrawable;
 
     invoke-direct {v0}, Landroid/graphics/drawable/GradientDrawable;-><init>()V
@@ -68,16 +65,12 @@
 
     new-array v0, v0, [F
 
-    .line 4
     iput-object v0, p0, Lcom/commsource/widget/round/a;->s:[F
 
-    .line 5
     iput-object p1, p0, Lcom/commsource/widget/round/a;->a:Landroid/view/View;
 
-    .line 6
     iput-object p2, p0, Lcom/commsource/widget/round/a;->b:Landroid/content/Context;
 
-    .line 7
     invoke-direct {p0, p2, p3}, Lcom/commsource/widget/round/a;->p(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
     return-void
@@ -93,7 +86,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Landroid/content/res/ColorStateList;
 
     const/4 v2, 0x4
@@ -160,7 +152,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/res/provider/ResSTYLEABLE;->L1:[I
 
     invoke-virtual {p1, p2, v1}, Landroid/content/Context;->obtainStyledAttributes(Landroid/util/AttributeSet;[I)Landroid/content/res/TypedArray;
@@ -169,7 +160,6 @@
 
     const/4 p2, 0x0
 
-    .line 2
     invoke-virtual {p1, p2, p2}, Landroid/content/res/TypedArray;->getColor(II)I
 
     move-result v1
@@ -180,7 +170,6 @@
 
     const v2, 0x7fffffff
 
-    .line 3
     invoke-virtual {p1, v1, v2}, Landroid/content/res/TypedArray;->getColor(II)I
 
     move-result v1
@@ -189,7 +178,6 @@
 
     const/4 v1, 0x2
 
-    .line 4
     invoke-virtual {p1, v1, p2}, Landroid/content/res/TypedArray;->getDimensionPixelSize(II)I
 
     move-result v1
@@ -198,7 +186,6 @@
 
     const/16 v1, 0xc
 
-    .line 5
     invoke-virtual {p1, v1, p2}, Landroid/content/res/TypedArray;->getDimensionPixelSize(II)I
 
     move-result v1
@@ -207,7 +194,6 @@
 
     const/16 v1, 0xa
 
-    .line 6
     invoke-virtual {p1, v1, p2}, Landroid/content/res/TypedArray;->getColor(II)I
 
     move-result v1
@@ -216,7 +202,6 @@
 
     const/16 v1, 0xb
 
-    .line 7
     invoke-virtual {p1, v1, v2}, Landroid/content/res/TypedArray;->getColor(II)I
 
     move-result v1
@@ -225,7 +210,6 @@
 
     const/16 v1, 0xd
 
-    .line 8
     invoke-virtual {p1, v1, v2}, Landroid/content/res/TypedArray;->getColor(II)I
 
     move-result v1
@@ -234,7 +218,6 @@
 
     const/4 v1, 0x7
 
-    .line 9
     invoke-virtual {p1, v1, p2}, Landroid/content/res/TypedArray;->getBoolean(IZ)Z
 
     move-result v1
@@ -243,7 +226,6 @@
 
     const/16 v1, 0x9
 
-    .line 10
     invoke-virtual {p1, v1, p2}, Landroid/content/res/TypedArray;->getBoolean(IZ)Z
 
     move-result v1
@@ -252,7 +234,6 @@
 
     const/4 v1, 0x5
 
-    .line 11
     invoke-virtual {p1, v1, p2}, Landroid/content/res/TypedArray;->getDimensionPixelSize(II)I
 
     move-result v1
@@ -261,7 +242,6 @@
 
     const/4 v1, 0x6
 
-    .line 12
     invoke-virtual {p1, v1, p2}, Landroid/content/res/TypedArray;->getDimensionPixelSize(II)I
 
     move-result v1
@@ -270,7 +250,6 @@
 
     const/4 v1, 0x3
 
-    .line 13
     invoke-virtual {p1, v1, p2}, Landroid/content/res/TypedArray;->getDimensionPixelSize(II)I
 
     move-result v1
@@ -279,7 +258,6 @@
 
     const/4 v1, 0x4
 
-    .line 14
     invoke-virtual {p1, v1, p2}, Landroid/content/res/TypedArray;->getDimensionPixelSize(II)I
 
     move-result v1
@@ -288,17 +266,14 @@
 
     const/16 v1, 0x8
 
-    .line 15
     invoke-virtual {p1, v1, p2}, Landroid/content/res/TypedArray;->getBoolean(IZ)Z
 
     move-result p2
 
     iput-boolean p2, p0, Lcom/commsource/widget/round/a;->r:Z
 
-    .line 16
     invoke-virtual {p1}, Landroid/content/res/TypedArray;->recycle()V
 
-    .line 17
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -311,10 +286,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p1, p2}, Landroid/graphics/drawable/GradientDrawable;->setColor(I)V
 
-    .line 2
     iget p2, p0, Lcom/commsource/widget/round/a;->h:I
 
     if-gtz p2, :cond_1
@@ -333,7 +306,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_0
     iget p2, p0, Lcom/commsource/widget/round/a;->g:I
 
@@ -343,7 +315,6 @@
 
     goto :goto_1
 
-    .line 4
     :cond_1
     :goto_0
     iget-object v1, p0, Lcom/commsource/widget/round/a;->s:[F
@@ -358,12 +329,10 @@
 
     int-to-float p2, p2
 
-    .line 5
     aput p2, v1, v2
 
     const/4 p2, 0x2
 
-    .line 6
     iget v2, p0, Lcom/commsource/widget/round/a;->i:I
 
     int-to-float v3, v2
@@ -374,12 +343,10 @@
 
     int-to-float v2, v2
 
-    .line 7
     aput v2, v1, p2
 
     const/4 p2, 0x4
 
-    .line 8
     iget v2, p0, Lcom/commsource/widget/round/a;->k:I
 
     int-to-float v3, v2
@@ -390,12 +357,10 @@
 
     int-to-float v2, v2
 
-    .line 9
     aput v2, v1, p2
 
     const/4 p2, 0x6
 
-    .line 10
     iget v2, p0, Lcom/commsource/widget/round/a;->j:I
 
     int-to-float v3, v2
@@ -406,19 +371,15 @@
 
     int-to-float v2, v2
 
-    .line 11
     aput v2, v1, p2
 
-    .line 12
     invoke-virtual {p1, v1}, Landroid/graphics/drawable/GradientDrawable;->setCornerRadii([F)V
 
-    .line 13
     :goto_1
     iget p2, p0, Lcom/commsource/widget/round/a;->l:I
 
     invoke-virtual {p1, p2, p3}, Landroid/graphics/drawable/GradientDrawable;->setStroke(II)V
 
-    .line 14
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -433,13 +394,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/widget/round/a;->p:Z
 
-    .line 2
     invoke-virtual {p0}, Lcom/commsource/widget/round/a;->s()V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -452,13 +410,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/widget/round/a;->q:Z
 
-    .line 2
     invoke-virtual {p0}, Lcom/commsource/widget/round/a;->s()V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -471,13 +426,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/widget/round/a;->m:I
 
-    .line 2
     invoke-virtual {p0}, Lcom/commsource/widget/round/a;->s()V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -490,13 +442,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/widget/round/a;->n:I
 
-    .line 2
     invoke-virtual {p0}, Lcom/commsource/widget/round/a;->s()V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -511,17 +460,14 @@
 
     int-to-float p1, p1
 
-    .line 1
     invoke-virtual {p0, p1}, Lcom/commsource/widget/round/a;->a(F)I
 
     move-result p1
 
     iput p1, p0, Lcom/commsource/widget/round/a;->l:I
 
-    .line 2
     invoke-virtual {p0}, Lcom/commsource/widget/round/a;->s()V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -534,13 +480,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/widget/round/a;->l:I
 
-    .line 2
     invoke-virtual {p0}, Lcom/commsource/widget/round/a;->s()V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -553,13 +496,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/widget/round/a;->o:I
 
-    .line 2
     invoke-virtual {p0}, Lcom/commsource/widget/round/a;->s()V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -572,7 +512,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/widget/round/a;->b:Landroid/content/Context;
 
     invoke-virtual {v1}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
@@ -593,7 +532,6 @@
 
     float-to-int p1, p1
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
@@ -606,7 +544,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/widget/round/a;->b:Landroid/content/Context;
 
     invoke-virtual {v1}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
@@ -627,7 +564,6 @@
 
     float-to-int p1, p1
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
@@ -640,7 +576,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/widget/round/a;->e:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -655,7 +590,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/widget/round/a;->f:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -670,7 +604,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/widget/round/a;->g:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -685,7 +618,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/widget/round/a;->j:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -700,7 +632,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/widget/round/a;->k:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -715,7 +646,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/widget/round/a;->h:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -730,7 +660,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/widget/round/a;->i:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -745,7 +674,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/widget/round/a;->m:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -760,7 +688,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/widget/round/a;->n:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -775,7 +702,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/widget/round/a;->l:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -790,7 +716,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/widget/round/a;->o:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -805,7 +730,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/widget/round/a;->p:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -820,7 +744,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/widget/round/a;->q:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -835,13 +758,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/widget/round/a;->e:I
 
-    .line 2
     invoke-virtual {p0}, Lcom/commsource/widget/round/a;->s()V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -854,13 +774,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/widget/round/a;->f:I
 
-    .line 2
     invoke-virtual {p0}, Lcom/commsource/widget/round/a;->s()V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -873,12 +790,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Landroid/graphics/drawable/StateListDrawable;
 
     invoke-direct {v1}, Landroid/graphics/drawable/StateListDrawable;-><init>()V
 
-    .line 2
     sget v2, Landroid/os/Build$VERSION;->SDK_INT:I
 
     const v3, 0x10100a7
@@ -899,7 +814,6 @@
 
     if-eqz v8, :cond_0
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/widget/round/a;->c:Landroid/graphics/drawable/GradientDrawable;
 
     iget v2, p0, Lcom/commsource/widget/round/a;->e:I
@@ -908,14 +822,12 @@
 
     invoke-direct {p0, v1, v2, v8}, Lcom/commsource/widget/round/a;->z(Landroid/graphics/drawable/GradientDrawable;II)V
 
-    .line 4
     new-instance v1, Landroid/graphics/drawable/RippleDrawable;
 
     iget v2, p0, Lcom/commsource/widget/round/a;->e:I
 
     iget v8, p0, Lcom/commsource/widget/round/a;->f:I
 
-    .line 5
     invoke-direct {p0, v2, v8}, Lcom/commsource/widget/round/a;->i(II)Landroid/content/res/ColorStateList;
 
     move-result-object v2
@@ -926,14 +838,12 @@
 
     invoke-direct {v1, v2, v8, v9}, Landroid/graphics/drawable/RippleDrawable;-><init>(Landroid/content/res/ColorStateList;Landroid/graphics/drawable/Drawable;Landroid/graphics/drawable/Drawable;)V
 
-    .line 6
     iget-object v2, p0, Lcom/commsource/widget/round/a;->a:Landroid/view/View;
 
     invoke-virtual {v2, v1}, Landroid/view/View;->setBackground(Landroid/graphics/drawable/Drawable;)V
 
     goto :goto_0
 
-    .line 7
     :cond_0
     iget-object v8, p0, Lcom/commsource/widget/round/a;->c:Landroid/graphics/drawable/GradientDrawable;
 
@@ -947,12 +857,10 @@
 
     aput v4, v8, v6
 
-    .line 8
     iget-object v9, p0, Lcom/commsource/widget/round/a;->c:Landroid/graphics/drawable/GradientDrawable;
 
     invoke-virtual {v1, v8, v9}, Landroid/graphics/drawable/StateListDrawable;->addState([ILandroid/graphics/drawable/Drawable;)V
 
-    .line 9
     iget v8, p0, Lcom/commsource/widget/round/a;->f:I
 
     if-ne v8, v5, :cond_1
@@ -961,7 +869,6 @@
 
     if-eq v9, v5, :cond_4
 
-    .line 10
     :cond_1
     iget-object v9, p0, Lcom/commsource/widget/round/a;->d:Landroid/graphics/drawable/GradientDrawable;
 
@@ -983,7 +890,6 @@
 
     aput v3, v8, v6
 
-    .line 11
     iget-object v9, p0, Lcom/commsource/widget/round/a;->d:Landroid/graphics/drawable/GradientDrawable;
 
     invoke-virtual {v1, v8, v9}, Landroid/graphics/drawable/StateListDrawable;->addState([ILandroid/graphics/drawable/Drawable;)V
@@ -993,20 +899,17 @@
 
     if-lt v2, v8, :cond_5
 
-    .line 12
     iget-object v2, p0, Lcom/commsource/widget/round/a;->a:Landroid/view/View;
 
     invoke-virtual {v2, v1}, Landroid/view/View;->setBackground(Landroid/graphics/drawable/Drawable;)V
 
     goto :goto_0
 
-    .line 13
     :cond_5
     iget-object v2, p0, Lcom/commsource/widget/round/a;->a:Landroid/view/View;
 
     invoke-virtual {v2, v1}, Landroid/view/View;->setBackgroundDrawable(Landroid/graphics/drawable/Drawable;)V
 
-    .line 14
     :goto_0
     iget-object v1, p0, Lcom/commsource/widget/round/a;->a:Landroid/view/View;
 
@@ -1014,19 +917,16 @@
 
     if-eqz v2, :cond_6
 
-    .line 15
     iget v2, p0, Lcom/commsource/widget/round/a;->o:I
 
     if-eq v2, v5, :cond_6
 
-    .line 16
     check-cast v1, Landroid/widget/TextView;
 
     invoke-virtual {v1}, Landroid/widget/TextView;->getTextColors()Landroid/content/res/ColorStateList;
 
     move-result-object v1
 
-    .line 17
     new-instance v2, Landroid/content/res/ColorStateList;
 
     const/4 v5, 0x2
@@ -1047,7 +947,6 @@
 
     new-array v3, v5, [I
 
-    .line 18
     invoke-virtual {v1}, Landroid/content/res/ColorStateList;->getDefaultColor()I
 
     move-result v1
@@ -1060,14 +959,12 @@
 
     invoke-direct {v2, v8, v3}, Landroid/content/res/ColorStateList;-><init>([[I[I)V
 
-    .line 19
     iget-object v1, p0, Lcom/commsource/widget/round/a;->a:Landroid/view/View;
 
     check-cast v1, Landroid/widget/TextView;
 
     invoke-virtual {v1, v2}, Landroid/widget/TextView;->setTextColor(Landroid/content/res/ColorStateList;)V
 
-    .line 20
     :cond_6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1083,17 +980,14 @@
 
     int-to-float p1, p1
 
-    .line 1
     invoke-virtual {p0, p1}, Lcom/commsource/widget/round/a;->a(F)I
 
     move-result p1
 
     iput p1, p0, Lcom/commsource/widget/round/a;->g:I
 
-    .line 2
     invoke-virtual {p0}, Lcom/commsource/widget/round/a;->s()V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1106,13 +1000,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/widget/round/a;->g:I
 
-    .line 2
     invoke-virtual {p0}, Lcom/commsource/widget/round/a;->s()V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1125,13 +1016,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/widget/round/a;->j:I
 
-    .line 2
     invoke-virtual {p0}, Lcom/commsource/widget/round/a;->s()V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1144,13 +1032,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/widget/round/a;->k:I
 
-    .line 2
     invoke-virtual {p0}, Lcom/commsource/widget/round/a;->s()V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1163,13 +1048,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/widget/round/a;->h:I
 
-    .line 2
     invoke-virtual {p0}, Lcom/commsource/widget/round/a;->s()V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1182,13 +1064,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/widget/round/a;->i:I
 
-    .line 2
     invoke-virtual {p0}, Lcom/commsource/widget/round/a;->s()V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

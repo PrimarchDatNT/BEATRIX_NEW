@@ -48,25 +48,20 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const-string v0, "uris cannot be null"
 
-    .line 2
     invoke-static {p1, v0}, Lcom/mopub/common/Preconditions;->checkNotNull(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 3
     iput-object p1, p0, Lcom/mopub/mobileads/VastMacroHelper;->mOriginalUris:Ljava/util/List;
 
-    .line 4
     new-instance p1, Ljava/util/HashMap;
 
     invoke-direct {p1}, Ljava/util/HashMap;-><init>()V
 
     iput-object p1, p0, Lcom/mopub/mobileads/VastMacroHelper;->mMacroDataMap:Ljava/util/Map;
 
-    .line 5
     sget-object v0, Lcom/mopub/mobileads/VastMacro;->CACHEBUSTING:Lcom/mopub/mobileads/VastMacro;
 
     invoke-direct {p0}, Lcom/mopub/mobileads/VastMacroHelper;->getCachebustingString()Ljava/lang/String;
@@ -87,12 +82,10 @@
 
     new-array v0, v0, [Ljava/lang/Object;
 
-    .line 1
     sget-object v1, Ljava/util/concurrent/TimeUnit;->MILLISECONDS:Ljava/util/concurrent/TimeUnit;
 
     int-to-long v2, p1
 
-    .line 2
     invoke-virtual {v1, v2, v3}, Ljava/util/concurrent/TimeUnit;->toHours(J)J
 
     move-result-wide v4
@@ -105,7 +98,6 @@
 
     aput-object v4, v0, v5
 
-    .line 3
     invoke-virtual {v1, v2, v3}, Ljava/util/concurrent/TimeUnit;->toMinutes(J)J
 
     move-result-wide v4
@@ -128,7 +120,6 @@
 
     aput-object v4, v0, v5
 
-    .line 4
     invoke-virtual {v1, v2, v3}, Ljava/util/concurrent/TimeUnit;->toSeconds(J)J
 
     move-result-wide v1
@@ -151,7 +142,6 @@
 
     rem-int/lit16 p1, p1, 0x3e8
 
-    .line 5
     invoke-static {p1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object p1
@@ -162,7 +152,6 @@
 
     const-string p1, "%02d:%02d:%02d.%03d"
 
-    .line 6
     invoke-static {p1, v0}, Ljava/lang/String;->format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object p1
@@ -175,7 +164,6 @@
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
-    .line 1
     sget-object v0, Ljava/util/Locale;->US:Ljava/util/Locale;
 
     const/4 v1, 0x1
@@ -227,12 +215,10 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
 
-    .line 2
     iget-object v1, p0, Lcom/mopub/mobileads/VastMacroHelper;->mOriginalUris:Ljava/util/List;
 
     invoke-interface {v1}, Ljava/util/List;->iterator()Ljava/util/Iterator;
@@ -252,7 +238,6 @@
 
     check-cast v2, Ljava/lang/String;
 
-    .line 3
     invoke-static {v2}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v3
@@ -261,7 +246,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_0
     invoke-static {}, Lcom/mopub/mobileads/VastMacro;->values()[Lcom/mopub/mobileads/VastMacro;
 
@@ -276,7 +260,6 @@
 
     aget-object v6, v3, v5
 
-    .line 5
     iget-object v7, p0, Lcom/mopub/mobileads/VastMacroHelper;->mMacroDataMap:Ljava/util/Map;
 
     invoke-interface {v7, v6}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
@@ -289,7 +272,6 @@
 
     const-string v7, ""
 
-    .line 6
     :cond_1
     new-instance v8, Ljava/lang/StringBuilder;
 
@@ -321,7 +303,6 @@
 
     goto :goto_1
 
-    .line 7
     :cond_2
     invoke-interface {v0, v2}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
@@ -340,7 +321,6 @@
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
-    .line 1
     invoke-static {p1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v0
@@ -350,7 +330,6 @@
     :try_start_0
     const-string v0, "UTF-8"
 
-    .line 2
     invoke-static {p1, v0}, Ljava/net/URLEncoder;->encode(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p1
@@ -362,7 +341,6 @@
     :catch_0
     move-exception v0
 
-    .line 3
     sget-object v1, Lcom/mopub/common/logging/MoPubLog$SdkLogEvent;->ERROR_WITH_THROWABLE:Lcom/mopub/common/logging/MoPubLog$SdkLogEvent;
 
     const/4 v2, 0x2
@@ -381,7 +359,6 @@
 
     invoke-static {v1, v2}, Lcom/mopub/common/logging/MoPubLog;->log(Lcom/mopub/common/logging/MoPubLog$MPLogEventType;[Ljava/lang/Object;)V
 
-    .line 4
     :goto_0
     iget-object v0, p0, Lcom/mopub/mobileads/VastMacroHelper;->mMacroDataMap:Ljava/util/Map;
 
@@ -404,7 +381,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     invoke-virtual {p1}, Ljava/lang/Integer;->intValue()I
 
     move-result p1
@@ -413,14 +389,12 @@
 
     move-result-object p1
 
-    .line 2
     invoke-static {p1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v0
 
     if-nez v0, :cond_0
 
-    .line 3
     iget-object v0, p0, Lcom/mopub/mobileads/VastMacroHelper;->mMacroDataMap:Ljava/util/Map;
 
     sget-object v1, Lcom/mopub/mobileads/VastMacro;->CONTENTPLAYHEAD:Lcom/mopub/mobileads/VastMacro;
@@ -442,7 +416,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/mobileads/VastMacroHelper;->mMacroDataMap:Ljava/util/Map;
 
     sget-object v1, Lcom/mopub/mobileads/VastMacro;->ERRORCODE:Lcom/mopub/mobileads/VastMacro;

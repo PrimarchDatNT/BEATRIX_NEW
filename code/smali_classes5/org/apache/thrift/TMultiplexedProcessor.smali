@@ -33,10 +33,8 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     new-instance v0, Ljava/util/HashMap;
 
     invoke-direct {v0}, Ljava/util/HashMap;-><init>()V
@@ -56,12 +54,10 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p1}, Lorg/apache/thrift/protocol/TProtocol;->readMessageBegin()Lorg/apache/thrift/protocol/TMessage;
 
     move-result-object v0
 
-    .line 2
     iget-byte v1, v0, Lorg/apache/thrift/protocol/TMessage;->type:B
 
     const/4 v2, 0x1
@@ -74,7 +70,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_0
     new-instance p1, Lorg/apache/thrift/TException;
 
@@ -84,7 +79,6 @@
 
     throw p1
 
-    .line 4
     :cond_1
     :goto_0
     iget-object v1, v0, Lorg/apache/thrift/protocol/TMessage;->name:Ljava/lang/String;
@@ -97,12 +91,10 @@
 
     if-gez v1, :cond_3
 
-    .line 5
     iget-object v1, p0, Lorg/apache/thrift/TMultiplexedProcessor;->defaultProcessor:Lorg/apache/thrift/TProcessor;
 
     if-eqz v1, :cond_2
 
-    .line 6
     new-instance v2, Lorg/apache/thrift/TMultiplexedProcessor$StoredMessageProtocol;
 
     invoke-direct {v2, p1, v0}, Lorg/apache/thrift/TMultiplexedProcessor$StoredMessageProtocol;-><init>(Lorg/apache/thrift/protocol/TProtocol;Lorg/apache/thrift/protocol/TMessage;)V
@@ -113,7 +105,6 @@
 
     return p1
 
-    .line 7
     :cond_2
     new-instance p1, Lorg/apache/thrift/TException;
 
@@ -141,7 +132,6 @@
 
     throw p1
 
-    .line 8
     :cond_3
     iget-object v3, v0, Lorg/apache/thrift/protocol/TMessage;->name:Ljava/lang/String;
 
@@ -151,7 +141,6 @@
 
     move-result-object v1
 
-    .line 9
     iget-object v3, p0, Lorg/apache/thrift/TMultiplexedProcessor;->SERVICE_PROCESSOR_MAP:Ljava/util/Map;
 
     invoke-interface {v3, v1}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
@@ -162,12 +151,10 @@
 
     if-eqz v3, :cond_4
 
-    .line 10
     new-instance v4, Lorg/apache/thrift/protocol/TMessage;
 
     iget-object v5, v0, Lorg/apache/thrift/protocol/TMessage;->name:Ljava/lang/String;
 
-    .line 11
     invoke-virtual {v1}, Ljava/lang/String;->length()I
 
     move-result v1
@@ -184,7 +171,6 @@
 
     invoke-direct {v4, v1, v2, v0}, Lorg/apache/thrift/protocol/TMessage;-><init>(Ljava/lang/String;BI)V
 
-    .line 12
     new-instance v0, Lorg/apache/thrift/TMultiplexedProcessor$StoredMessageProtocol;
 
     invoke-direct {v0, p1, v4}, Lorg/apache/thrift/TMultiplexedProcessor$StoredMessageProtocol;-><init>(Lorg/apache/thrift/protocol/TProtocol;Lorg/apache/thrift/protocol/TMessage;)V
@@ -195,7 +181,6 @@
 
     return p1
 
-    .line 13
     :cond_4
     new-instance p1, Lorg/apache/thrift/TException;
 
@@ -225,7 +210,6 @@
 .method public registerDefault(Lorg/apache/thrift/TProcessor;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lorg/apache/thrift/TMultiplexedProcessor;->defaultProcessor:Lorg/apache/thrift/TProcessor;
 
     return-void
@@ -234,7 +218,6 @@
 .method public registerProcessor(Ljava/lang/String;Lorg/apache/thrift/TProcessor;)V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lorg/apache/thrift/TMultiplexedProcessor;->SERVICE_PROCESSOR_MAP:Ljava/util/Map;
 
     invoke-interface {v0, p1, p2}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;

@@ -41,10 +41,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/google/android/gms/internal/ads/ns1$a;->a:Lcom/google/android/gms/internal/ads/as1;
 
     return-void
@@ -53,7 +51,6 @@
 .method synthetic constructor <init>(Lcom/google/android/gms/internal/ads/as1;Lcom/google/android/gms/internal/ads/ps1;)V
     .locals 0
 
-    .line 3
     invoke-direct {p0, p1}, Lcom/google/android/gms/internal/ads/ns1$a;-><init>(Lcom/google/android/gms/internal/ads/as1;)V
 
     return-void
@@ -73,10 +70,8 @@
 
     new-array v0, v0, [[B
 
-    .line 1
     iget-object v1, p0, Lcom/google/android/gms/internal/ads/ns1$a;->a:Lcom/google/android/gms/internal/ads/as1;
 
-    .line 2
     invoke-virtual {v1}, Lcom/google/android/gms/internal/ads/as1;->e()Lcom/google/android/gms/internal/ads/ds1;
 
     move-result-object v1
@@ -91,7 +86,6 @@
 
     iget-object v1, p0, Lcom/google/android/gms/internal/ads/ns1$a;->a:Lcom/google/android/gms/internal/ads/as1;
 
-    .line 3
     invoke-virtual {v1}, Lcom/google/android/gms/internal/ads/as1;->e()Lcom/google/android/gms/internal/ads/ds1;
 
     move-result-object v1
@@ -110,7 +104,6 @@
 
     aput-object p1, v0, p2
 
-    .line 4
     invoke-static {v0}, Lcom/google/android/gms/internal/ads/zx1;->c([[B)[B
 
     move-result-object p1

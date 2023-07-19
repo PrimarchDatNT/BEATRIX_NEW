@@ -54,13 +54,10 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/commsource/beautyplus/base/b/b$b;->a:Lcom/commsource/beautyplus/base/b/a$c;
 
-    .line 3
     iput-object p2, p0, Lcom/commsource/beautyplus/base/b/b$b;->b:Lcom/commsource/beautyplus/base/b/b;
 
     return-void
@@ -75,14 +72,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/beautyplus/base/b/b$b;->b:Lcom/commsource/beautyplus/base/b/b;
 
     iget-object v2, p0, Lcom/commsource/beautyplus/base/b/b$b;->a:Lcom/commsource/beautyplus/base/b/a$c;
 
     invoke-static {v1, p1, v2}, Lcom/commsource/beautyplus/base/b/b;->a(Lcom/commsource/beautyplus/base/b/b;Ljava/lang/Integer;Lcom/commsource/beautyplus/base/b/a$c;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -100,14 +95,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/beautyplus/base/b/b$b;->b:Lcom/commsource/beautyplus/base/b/b;
 
     iget-object v2, p0, Lcom/commsource/beautyplus/base/b/b$b;->a:Lcom/commsource/beautyplus/base/b/a$c;
 
     invoke-virtual {v1, p1, v2}, Lcom/commsource/beautyplus/base/b/b;->e(Lcom/commsource/beautyplus/base/b/a$b;Lcom/commsource/beautyplus/base/b/a$c;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -120,7 +113,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Lcom/commsource/beautyplus/base/b/a$b;
 
     invoke-virtual {p0, p1}, Lcom/commsource/beautyplus/base/b/b$b;->b(Lcom/commsource/beautyplus/base/b/a$b;)V

@@ -37,7 +37,6 @@
 
     iput-object p1, p0, Lcotlinx/coroutines/flow/FlowKt__CountKt$a;->a:Lcotlin/jvm/internal/Ref$IntRef;
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -54,7 +53,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     iget-object p1, p0, Lcotlinx/coroutines/flow/FlowKt__CountKt$a;->a:Lcotlin/jvm/internal/Ref$IntRef;
 
     iget p2, p1, Lcotlin/jvm/internal/Ref$IntRef;->element:I
@@ -63,7 +61,6 @@
 
     iput p2, p1, Lcotlin/jvm/internal/Ref$IntRef;->element:I
 
-    .line 2
     sget-object p1, Lcotlin/t1;->a:Lcotlin/t1;
 
     return-object p1

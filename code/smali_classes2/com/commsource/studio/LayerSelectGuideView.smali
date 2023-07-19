@@ -48,7 +48,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-direct {p0, p1, v0}, Lcom/commsource/studio/LayerSelectGuideView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
     return-void
@@ -71,7 +70,6 @@
 
     const/4 v0, 0x0
 
-    .line 2
     invoke-direct {p0, p1, p2, v0}, Lcom/commsource/studio/LayerSelectGuideView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
     return-void
@@ -92,10 +90,8 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 3
     invoke-direct {p0, p1, p2, p3}, Landroid/widget/FrameLayout;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
-    .line 4
     new-instance p2, Landroidx/lifecycle/ViewModelProvider;
 
     invoke-virtual {p0}, Landroid/widget/FrameLayout;->getContext()Landroid/content/Context;
@@ -124,21 +120,18 @@
 
     sget p2, Lcom/res/provider/ResCOLOR;->color_80000000:I
 
-    .line 5
     invoke-static {p2}, Lcom/commsource/util/u1;->b(I)I
 
     move-result p2
 
     invoke-virtual {p0, p2}, Landroid/widget/FrameLayout;->setBackgroundColor(I)V
 
-    .line 6
     new-instance p2, Lcom/airbnb/lottie/LottieAnimationView;
 
     invoke-direct {p2, p1}, Lcom/airbnb/lottie/LottieAnimationView;-><init>(Landroid/content/Context;)V
 
     iput-object p2, p0, Lcom/commsource/studio/LayerSelectGuideView;->c:Lcom/airbnb/lottie/LottieAnimationView;
 
-    .line 7
     new-instance p3, Landroid/widget/FrameLayout$LayoutParams;
 
     const/4 v0, -0x2
@@ -147,35 +140,28 @@
 
     const/4 v1, 0x5
 
-    .line 8
     iput v1, p3, Landroid/widget/FrameLayout$LayoutParams;->gravity:I
 
-    .line 9
     invoke-virtual {p0, p2, p3}, Landroid/widget/FrameLayout;->addView(Landroid/view/View;Landroid/view/ViewGroup$LayoutParams;)V
 
     const-string p3, "lottie"
 
-    .line 10
     invoke-virtual {p2, p3}, Lcom/airbnb/lottie/LottieAnimationView;->setImageAssetsFolder(Ljava/lang/String;)V
 
-    .line 11
     new-instance p2, Landroidx/appcompat/widget/AppCompatTextView;
 
     invoke-direct {p2, p1}, Landroidx/appcompat/widget/AppCompatTextView;-><init>(Landroid/content/Context;)V
 
     iput-object p2, p0, Lcom/commsource/studio/LayerSelectGuideView;->d:Landroidx/appcompat/widget/AppCompatTextView;
 
-    .line 12
     new-instance p3, Landroid/widget/FrameLayout$LayoutParams;
 
     invoke-direct {p3, v0, v0}, Landroid/widget/FrameLayout$LayoutParams;-><init>(II)V
 
-    .line 13
     iput v1, p3, Landroid/widget/FrameLayout$LayoutParams;->gravity:I
 
     sget v0, Lcom/res/provider/ResCOLOR;->white:I
 
-    .line 14
     invoke-static {v0}, Lcom/commsource/util/u1;->b(I)I
 
     move-result v0
@@ -186,20 +172,16 @@
 
     const/high16 v1, 0x41600000    # 14.0f
 
-    .line 15
     invoke-virtual {p2, v0, v1}, Landroidx/appcompat/widget/AppCompatTextView;->setTextSize(IF)V
 
-    .line 16
     invoke-virtual {p0, p2, p3}, Landroid/widget/FrameLayout;->addView(Landroid/view/View;Landroid/view/ViewGroup$LayoutParams;)V
 
-    .line 17
     new-instance p2, Lcom/commsource/studio/LayerSelectGuideView$1;
 
     invoke-direct {p2, p0}, Lcom/commsource/studio/LayerSelectGuideView$1;-><init>(Lcom/commsource/studio/LayerSelectGuideView;)V
 
     invoke-virtual {p0, p2}, Landroid/widget/FrameLayout;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 18
     iget-object p2, p0, Lcom/commsource/studio/LayerSelectGuideView;->a:Lcom/commsource/studio/ImageStudioViewModel;
 
     invoke-virtual {p2}, Lcom/commsource/studio/ImageStudioViewModel;->E0()Landroidx/lifecycle/MutableLiveData;
@@ -208,32 +190,26 @@
 
     check-cast p1, Landroidx/fragment/app/FragmentActivity;
 
-    .line 19
     new-instance p3, Lcom/commsource/studio/LayerSelectGuideView$a;
 
     invoke-direct {p3, p0}, Lcom/commsource/studio/LayerSelectGuideView$a;-><init>(Lcom/commsource/studio/LayerSelectGuideView;)V
 
-    .line 20
     invoke-virtual {p2, p1, p3}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 21
     iget-object p2, p0, Lcom/commsource/studio/LayerSelectGuideView;->a:Lcom/commsource/studio/ImageStudioViewModel;
 
     invoke-virtual {p2}, Lcom/commsource/studio/ImageStudioViewModel;->G0()Landroidx/lifecycle/MutableLiveData;
 
     move-result-object p2
 
-    .line 22
     new-instance p3, Lcom/commsource/studio/LayerSelectGuideView$b;
 
     invoke-direct {p3, p0}, Lcom/commsource/studio/LayerSelectGuideView$b;-><init>(Lcom/commsource/studio/LayerSelectGuideView;)V
 
-    .line 23
     invoke-virtual {p2, p1, p3}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
     return-void
 
-    .line 24
     :cond_0
     new-instance p1, Lcotlin/TypeCastException;
 
@@ -251,7 +227,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/studio/LayerSelectGuideView;->c:Lcom/airbnb/lottie/LottieAnimationView;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -266,7 +241,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/studio/LayerSelectGuideView;->a:Lcom/commsource/studio/ImageStudioViewModel;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -281,7 +255,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/studio/LayerSelectGuideView;->d:Landroidx/appcompat/widget/AppCompatTextView;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -296,7 +269,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean p0, p0, Lcom/commsource/studio/LayerSelectGuideView;->f:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -311,7 +283,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/studio/LayerSelectGuideView;->f:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -326,7 +297,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/LayerSelectGuideView;->a:Lcom/commsource/studio/ImageStudioViewModel;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -341,7 +311,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/commsource/studio/LayerSelectGuideView;->l(Z)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -356,7 +325,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/studio/LayerSelectGuideView;->m()V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -371,7 +339,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/studio/LayerSelectGuideView;->n()V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -386,14 +353,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lf/d/i/h;->L0()Z
 
     move-result v1
 
     if-nez v1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -401,10 +366,8 @@
     :cond_0
     const/4 v1, 0x0
 
-    .line 3
     invoke-static {v1}, Lf/d/i/h;->K1(Z)V
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/studio/LayerSelectGuideView;->a:Lcom/commsource/studio/ImageStudioViewModel;
 
     invoke-virtual {v1}, Lcom/commsource/studio/ImageStudioViewModel;->W0()Landroidx/lifecycle/MutableLiveData;
@@ -415,7 +378,6 @@
 
     invoke-virtual {v1, v2}, Landroidx/lifecycle/MutableLiveData;->setValue(Ljava/lang/Object;)V
 
-    .line 5
     new-instance v1, Lcom/commsource/studio/LayerSelectGuideView$showSortLayerGuide$runnable$1;
 
     invoke-direct {v1, p0}, Lcom/commsource/studio/LayerSelectGuideView$showSortLayerGuide$runnable$1;-><init>(Lcom/commsource/studio/LayerSelectGuideView;)V
@@ -424,16 +386,13 @@
 
     const-wide/16 v2, 0x15e
 
-    .line 6
     invoke-static {v1, v2, v3}, Lcom/commsource/util/g2;->l(Ljava/lang/Runnable;J)V
 
     goto :goto_0
 
-    .line 7
     :cond_1
     invoke-interface {v1}, Ljava/lang/Runnable;->run()V
 
-    .line 8
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -447,7 +406,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/LayerSelectGuideView;->b:Lcom/commsource/beautyplus/f0/ym;
 
     if-nez v1, :cond_0
@@ -465,7 +423,6 @@
 
     invoke-virtual {v1, v2}, Landroid/widget/FrameLayout;->post(Ljava/lang/Runnable;)Z
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -478,7 +435,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/LayerSelectGuideView;->b:Lcom/commsource/beautyplus/f0/ym;
 
     if-nez v1, :cond_0
@@ -496,7 +452,6 @@
 
     invoke-virtual {v1, v2}, Landroid/widget/FrameLayout;->post(Ljava/lang/Runnable;)Z
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -582,7 +537,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/LayerSelectGuideView;->b:Lcom/commsource/beautyplus/f0/ym;
 
     if-nez v1, :cond_0
@@ -606,7 +560,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/LayerSelectGuideView;->g:Lcom/commsource/studio/LayerSelectGuideView$c;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -629,7 +582,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/LayerSelectGuideView;->b:Lcom/commsource/beautyplus/f0/ym;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -648,7 +600,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/LayerSelectGuideView;->g:Lcom/commsource/studio/LayerSelectGuideView$c;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

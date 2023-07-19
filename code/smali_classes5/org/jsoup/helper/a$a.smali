@@ -24,13 +24,10 @@
 .method public constructor <init>(Ljava/lang/String;Z)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lorg/jsoup/helper/a$a;->a:Ljava/lang/String;
 
-    .line 3
     iput-boolean p2, p0, Lorg/jsoup/helper/a$a;->b:Z
 
     return-void
@@ -39,7 +36,6 @@
 .method static synthetic a(Lorg/jsoup/helper/a$a;)Ljava/lang/String;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lorg/jsoup/helper/a$a;->a:Ljava/lang/String;
 
     return-object p0
@@ -48,7 +44,6 @@
 .method static synthetic b(Lorg/jsoup/helper/a$a;)Z
     .locals 0
 
-    .line 1
     iget-boolean p0, p0, Lorg/jsoup/helper/a$a;->b:Z
 
     return p0

@@ -56,7 +56,6 @@
 .method static constructor <clinit>()V
     .locals 3
 
-    .line 1
     :try_start_0
     invoke-static {}, Lcom/google/common/hash/Striped64;->access$000()Lsun/misc/Unsafe;
 
@@ -64,12 +63,10 @@
 
     sput-object v0, Lcom/google/common/hash/Striped64$b;->p:Lsun/misc/Unsafe;
 
-    .line 2
     const-class v1, Lcom/google/common/hash/Striped64$b;
 
     const-string v2, "h"
 
-    .line 3
     invoke-virtual {v1, v2}, Ljava/lang/Class;->getDeclaredField(Ljava/lang/String;)Ljava/lang/reflect/Field;
 
     move-result-object v1
@@ -87,7 +84,6 @@
     :catch_0
     move-exception v0
 
-    .line 4
     new-instance v1, Ljava/lang/Error;
 
     invoke-direct {v1, v0}, Ljava/lang/Error;-><init>(Ljava/lang/Throwable;)V
@@ -98,10 +94,8 @@
 .method constructor <init>(J)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-wide p1, p0, Lcom/google/common/hash/Striped64$b;->h:J
 
     return-void
@@ -112,7 +106,6 @@
 .method final a(JJ)Z
     .locals 8
 
-    .line 1
     sget-object v0, Lcom/google/common/hash/Striped64$b;->p:Lsun/misc/Unsafe;
 
     sget-wide v2, Lcom/google/common/hash/Striped64$b;->q:J

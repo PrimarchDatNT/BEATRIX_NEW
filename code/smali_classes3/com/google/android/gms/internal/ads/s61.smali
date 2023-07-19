@@ -27,13 +27,10 @@
 .method public constructor <init>(Lcom/google/android/gms/internal/ads/uq1;Landroid/content/Context;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/google/android/gms/internal/ads/s61;->a:Lcom/google/android/gms/internal/ads/uq1;
 
-    .line 3
     iput-object p2, p0, Lcom/google/android/gms/internal/ads/s61;->b:Landroid/content/Context;
 
     return-void
@@ -52,7 +49,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/s61;->a:Lcom/google/android/gms/internal/ads/uq1;
 
     new-instance v1, Lcom/google/android/gms/internal/ads/r61;
@@ -74,14 +70,12 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Landroid/content/IntentFilter;
 
     const-string v1, "android.intent.action.BATTERY_CHANGED"
 
     invoke-direct {v0, v1}, Landroid/content/IntentFilter;-><init>(Ljava/lang/String;)V
 
-    .line 2
     iget-object v1, p0, Lcom/google/android/gms/internal/ads/s61;->b:Landroid/content/Context;
 
     const/4 v2, 0x0
@@ -98,21 +92,18 @@
 
     const/4 v3, -0x1
 
-    .line 3
     invoke-virtual {v0, v2, v3}, Landroid/content/Intent;->getIntExtra(Ljava/lang/String;I)I
 
     move-result v2
 
     const-string v4, "level"
 
-    .line 4
     invoke-virtual {v0, v4, v3}, Landroid/content/Intent;->getIntExtra(Ljava/lang/String;I)I
 
     move-result v4
 
     const-string v5, "scale"
 
-    .line 5
     invoke-virtual {v0, v5, v3}, Landroid/content/Intent;->getIntExtra(Ljava/lang/String;I)I
 
     move-result v0
@@ -141,7 +132,6 @@
     :cond_1
     const-wide/high16 v3, -0x4010000000000000L    # -1.0
 
-    .line 6
     :cond_2
     :goto_0
     new-instance v0, Lcom/google/android/gms/internal/ads/p61;

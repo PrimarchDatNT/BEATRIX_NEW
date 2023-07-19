@@ -31,7 +31,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/function/background/BackgroundAdjustFragment$p;->a:Lcom/commsource/studio/function/background/BackgroundAdjustFragment;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -52,7 +51,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -69,7 +67,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/studio/function/background/BackgroundAdjustFragment$p;->a:Lcom/commsource/studio/function/background/BackgroundAdjustFragment;
 
     invoke-virtual {v0}, Lcom/commsource/studio/function/background/BackgroundAdjustFragment;->K()Z
@@ -78,7 +75,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 2
     iget-object v0, p0, Lcom/commsource/studio/function/background/BackgroundAdjustFragment$p;->a:Lcom/commsource/studio/function/background/BackgroundAdjustFragment;
 
     invoke-virtual {v0}, Lcom/commsource/studio/function/background/BackgroundAdjustFragment;->G()Lcom/commsource/camera/f1/n;
@@ -89,7 +85,6 @@
 
     invoke-virtual {v0, v1}, Lcom/commsource/camera/f1/n;->i(F)V
 
-    .line 3
     iget-object v0, p0, Lcom/commsource/studio/function/background/BackgroundAdjustFragment$p;->a:Lcom/commsource/studio/function/background/BackgroundAdjustFragment;
 
     invoke-virtual {v0}, Lcom/commsource/studio/function/background/BackgroundAdjustFragment;->H()Lcom/commsource/camera/f1/n;
@@ -104,7 +99,6 @@
 
     invoke-virtual {v0, v1}, Lcom/commsource/camera/f1/n;->i(F)V
 
-    .line 4
     iget-object v0, p0, Lcom/commsource/studio/function/background/BackgroundAdjustFragment$p;->a:Lcom/commsource/studio/function/background/BackgroundAdjustFragment;
 
     invoke-virtual {v0}, Lcom/commsource/studio/function/background/BackgroundAdjustFragment;->I()Lcom/commsource/camera/f1/n;
@@ -121,7 +115,6 @@
 
     goto :goto_0
 
-    .line 5
     :cond_0
     iget-object v0, p0, Lcom/commsource/studio/function/background/BackgroundAdjustFragment$p;->a:Lcom/commsource/studio/function/background/BackgroundAdjustFragment;
 
@@ -139,7 +132,6 @@
 
     invoke-virtual {v0, v1}, Lcom/commsource/studio/function/background/GradientDrawer;->s(Z)V
 
-    .line 6
     iget-object v0, p0, Lcom/commsource/studio/function/background/BackgroundAdjustFragment$p;->a:Lcom/commsource/studio/function/background/BackgroundAdjustFragment;
 
     invoke-virtual {v0}, Lcom/commsource/studio/function/background/BackgroundAdjustFragment;->G()Lcom/commsource/camera/f1/n;
@@ -150,7 +142,6 @@
 
     invoke-virtual {v0, v1}, Lcom/commsource/camera/f1/n;->i(F)V
 
-    .line 7
     iget-object v0, p0, Lcom/commsource/studio/function/background/BackgroundAdjustFragment$p;->a:Lcom/commsource/studio/function/background/BackgroundAdjustFragment;
 
     invoke-virtual {v0}, Lcom/commsource/studio/function/background/BackgroundAdjustFragment;->H()Lcom/commsource/camera/f1/n;
@@ -165,7 +156,6 @@
 
     invoke-virtual {v0, v1}, Lcom/commsource/camera/f1/n;->i(F)V
 
-    .line 8
     iget-object v0, p0, Lcom/commsource/studio/function/background/BackgroundAdjustFragment$p;->a:Lcom/commsource/studio/function/background/BackgroundAdjustFragment;
 
     invoke-virtual {v0}, Lcom/commsource/studio/function/background/BackgroundAdjustFragment;->I()Lcom/commsource/camera/f1/n;
@@ -180,7 +170,6 @@
 
     invoke-virtual {v0, v1}, Lcom/commsource/camera/f1/n;->i(F)V
 
-    .line 9
     :goto_0
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -206,7 +195,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -219,7 +207,6 @@
 
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/studio/function/background/BackgroundAdjustFragment$p;->a:Lcom/commsource/studio/function/background/BackgroundAdjustFragment;
 
     invoke-virtual {v0}, Lcom/commsource/studio/function/background/BackgroundAdjustFragment;->I()Lcom/commsource/camera/f1/n;
@@ -228,7 +215,6 @@
 
     invoke-virtual {v0, p1}, Lcom/commsource/camera/f1/n;->a(F)F
 
-    .line 2
     iget-object v0, p0, Lcom/commsource/studio/function/background/BackgroundAdjustFragment$p;->a:Lcom/commsource/studio/function/background/BackgroundAdjustFragment;
 
     invoke-virtual {v0}, Lcom/commsource/studio/function/background/BackgroundAdjustFragment;->L()Lcom/commsource/beautyplus/f0/eb;
@@ -251,7 +237,6 @@
 
     invoke-static {v0, v1}, Lcom/commsource/util/l2;->B(Landroid/view/View;I)V
 
-    .line 3
     iget-object v0, p0, Lcom/commsource/studio/function/background/BackgroundAdjustFragment$p;->a:Lcom/commsource/studio/function/background/BackgroundAdjustFragment;
 
     invoke-virtual {v0}, Lcom/commsource/studio/function/background/BackgroundAdjustFragment;->L()Lcom/commsource/beautyplus/f0/eb;
@@ -260,7 +245,6 @@
 
     iget-object v0, v0, Lcom/commsource/beautyplus/f0/eb;->f:Landroidx/recyclerview/widget/RecyclerView;
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/studio/function/background/BackgroundAdjustFragment$p;->a:Lcom/commsource/studio/function/background/BackgroundAdjustFragment;
 
     invoke-virtual {v1}, Lcom/commsource/studio/function/background/BackgroundAdjustFragment;->I()Lcom/commsource/camera/f1/n;
@@ -273,10 +257,8 @@
 
     float-to-int v1, v1
 
-    .line 5
     invoke-static {v0, v1}, Lcom/commsource/util/l2;->B(Landroid/view/View;I)V
 
-    .line 6
     iget-object v0, p0, Lcom/commsource/studio/function/background/BackgroundAdjustFragment$p;->a:Lcom/commsource/studio/function/background/BackgroundAdjustFragment;
 
     invoke-virtual {v0}, Lcom/commsource/studio/function/background/BackgroundAdjustFragment;->H()Lcom/commsource/camera/f1/n;
@@ -285,7 +267,6 @@
 
     invoke-virtual {v0, p1}, Lcom/commsource/camera/f1/n;->a(F)F
 
-    .line 7
     iget-object v0, p0, Lcom/commsource/studio/function/background/BackgroundAdjustFragment$p;->a:Lcom/commsource/studio/function/background/BackgroundAdjustFragment;
 
     invoke-virtual {v0}, Lcom/commsource/studio/function/background/BackgroundAdjustFragment;->L()Lcom/commsource/beautyplus/f0/eb;
@@ -310,7 +291,6 @@
 
     invoke-virtual {v0, p1}, Landroid/view/View;->setAlpha(F)V
 
-    .line 8
     iget-object p1, p0, Lcom/commsource/studio/function/background/BackgroundAdjustFragment$p;->a:Lcom/commsource/studio/function/background/BackgroundAdjustFragment;
 
     invoke-virtual {p1}, Lcom/commsource/studio/function/background/BackgroundAdjustFragment;->L()Lcom/commsource/beautyplus/f0/eb;
@@ -333,7 +313,6 @@
 
     invoke-static {p1, v0}, Lcom/commsource/util/l2;->B(Landroid/view/View;I)V
 
-    .line 9
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

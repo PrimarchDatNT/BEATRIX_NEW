@@ -48,7 +48,6 @@
 .method constructor <init>(Lcom/google/common/collect/AbstractBiMap;Ljava/util/Iterator;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/common/collect/AbstractBiMap$a;->c:Lcom/google/common/collect/AbstractBiMap;
 
     iput-object p2, p0, Lcom/google/common/collect/AbstractBiMap$a;->b:Ljava/util/Iterator;
@@ -70,7 +69,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/AbstractBiMap$a;->b:Ljava/util/Iterator;
 
     invoke-interface {v0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
@@ -81,7 +79,6 @@
 
     iput-object v0, p0, Lcom/google/common/collect/AbstractBiMap$a;->a:Ljava/util/Map$Entry;
 
-    .line 2
     new-instance v1, Lcom/google/common/collect/AbstractBiMap$b;
 
     iget-object v2, p0, Lcom/google/common/collect/AbstractBiMap$a;->c:Lcom/google/common/collect/AbstractBiMap;
@@ -94,7 +91,6 @@
 .method public hasNext()Z
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/AbstractBiMap$a;->b:Ljava/util/Iterator;
 
     invoke-interface {v0}, Ljava/util/Iterator;->hasNext()Z
@@ -107,7 +103,6 @@
 .method public bridge synthetic next()Ljava/lang/Object;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/collect/AbstractBiMap$a;->a()Ljava/util/Map$Entry;
 
     move-result-object v0
@@ -118,7 +113,6 @@
 .method public remove()V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/AbstractBiMap$a;->a:Ljava/util/Map$Entry;
 
     if-eqz v0, :cond_0
@@ -133,26 +127,22 @@
     :goto_0
     invoke-static {v0}, Lcom/google/common/collect/m;->e(Z)V
 
-    .line 2
     iget-object v0, p0, Lcom/google/common/collect/AbstractBiMap$a;->a:Ljava/util/Map$Entry;
 
     invoke-interface {v0}, Ljava/util/Map$Entry;->getValue()Ljava/lang/Object;
 
     move-result-object v0
 
-    .line 3
     iget-object v1, p0, Lcom/google/common/collect/AbstractBiMap$a;->b:Ljava/util/Iterator;
 
     invoke-interface {v1}, Ljava/util/Iterator;->remove()V
 
-    .line 4
     iget-object v1, p0, Lcom/google/common/collect/AbstractBiMap$a;->c:Lcom/google/common/collect/AbstractBiMap;
 
     invoke-static {v1, v0}, Lcom/google/common/collect/AbstractBiMap;->access$600(Lcom/google/common/collect/AbstractBiMap;Ljava/lang/Object;)V
 
     const/4 v0, 0x0
 
-    .line 5
     iput-object v0, p0, Lcom/google/common/collect/AbstractBiMap$a;->a:Ljava/util/Map$Entry;
 
     return-void

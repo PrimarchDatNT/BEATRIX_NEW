@@ -47,7 +47,6 @@
 .method static constructor <clinit>()V
     .locals 2
 
-    .line 1
     new-instance v0, Lio/grpc/internal/g3$b;
 
     sget-object v1, Lio/grpc/internal/d3;->a:Lio/grpc/internal/d3;
@@ -62,17 +61,14 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 2
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 3
     invoke-static {}, Lio/grpc/internal/l1;->a()Lio/grpc/internal/k1;
 
     move-result-object v0
 
     iput-object v0, p0, Lio/grpc/internal/g3;->k:Lio/grpc/internal/k1;
 
-    .line 4
     sget-object v0, Lio/grpc/internal/d3;->a:Lio/grpc/internal/d3;
 
     iput-object v0, p0, Lio/grpc/internal/g3;->a:Lio/grpc/internal/d3;
@@ -83,17 +79,14 @@
 .method private constructor <init>(Lio/grpc/internal/d3;)V
     .locals 1
 
-    .line 5
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 6
     invoke-static {}, Lio/grpc/internal/l1;->a()Lio/grpc/internal/k1;
 
     move-result-object v0
 
     iput-object v0, p0, Lio/grpc/internal/g3;->k:Lio/grpc/internal/k1;
 
-    .line 7
     iput-object p1, p0, Lio/grpc/internal/g3;->a:Lio/grpc/internal/d3;
 
     return-void
@@ -102,7 +95,6 @@
 .method synthetic constructor <init>(Lio/grpc/internal/d3;Lio/grpc/internal/g3$a;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1}, Lio/grpc/internal/g3;-><init>(Lio/grpc/internal/d3;)V
 
     return-void
@@ -111,7 +103,6 @@
 .method public static a()Lio/grpc/internal/g3$b;
     .locals 1
 
-    .line 1
     sget-object v0, Lio/grpc/internal/g3;->m:Lio/grpc/internal/g3$b;
 
     return-object v0
@@ -124,7 +115,6 @@
 
     move-object/from16 v0, p0
 
-    .line 1
     iget-object v1, v0, Lio/grpc/internal/g3;->h:Lio/grpc/internal/g3$c;
 
     const-wide/16 v2, -0x1
@@ -144,7 +134,6 @@
 
     move-wide/from16 v27, v4
 
-    .line 2
     :goto_0
     iget-object v1, v0, Lio/grpc/internal/g3;->h:Lio/grpc/internal/g3$c;
 
@@ -162,7 +151,6 @@
     :goto_1
     move-wide/from16 v29, v2
 
-    .line 3
     new-instance v1, Lio/grpc/InternalChannelz$m;
 
     move-object v6, v1
@@ -185,7 +173,6 @@
 
     iget-object v2, v0, Lio/grpc/internal/g3;->k:Lio/grpc/internal/k1;
 
-    .line 4
     invoke-interface {v2}, Lio/grpc/internal/k1;->value()J
 
     move-result-wide v19
@@ -210,7 +197,6 @@
 .method public c()V
     .locals 4
 
-    .line 1
     iget-wide v0, p0, Lio/grpc/internal/g3;->g:J
 
     const-wide/16 v2, 0x1
@@ -225,7 +211,6 @@
 .method public d()V
     .locals 4
 
-    .line 1
     iget-wide v0, p0, Lio/grpc/internal/g3;->b:J
 
     const-wide/16 v2, 0x1
@@ -234,7 +219,6 @@
 
     iput-wide v0, p0, Lio/grpc/internal/g3;->b:J
 
-    .line 2
     iget-object v0, p0, Lio/grpc/internal/g3;->a:Lio/grpc/internal/d3;
 
     invoke-interface {v0}, Lio/grpc/internal/d3;->a()J
@@ -249,14 +233,12 @@
 .method public e()V
     .locals 3
 
-    .line 1
     iget-object v0, p0, Lio/grpc/internal/g3;->k:Lio/grpc/internal/k1;
 
     const-wide/16 v1, 0x1
 
     invoke-interface {v0, v1, v2}, Lio/grpc/internal/k1;->add(J)V
 
-    .line 2
     iget-object v0, p0, Lio/grpc/internal/g3;->a:Lio/grpc/internal/d3;
 
     invoke-interface {v0}, Lio/grpc/internal/d3;->a()J
@@ -275,7 +257,6 @@
 
     return-void
 
-    .line 1
     :cond_0
     iget-wide v0, p0, Lio/grpc/internal/g3;->i:J
 
@@ -285,7 +266,6 @@
 
     iput-wide v0, p0, Lio/grpc/internal/g3;->i:J
 
-    .line 2
     iget-object p1, p0, Lio/grpc/internal/g3;->a:Lio/grpc/internal/d3;
 
     invoke-interface {p1}, Lio/grpc/internal/d3;->a()J
@@ -300,7 +280,6 @@
 .method public g()V
     .locals 4
 
-    .line 1
     iget-wide v0, p0, Lio/grpc/internal/g3;->b:J
 
     const-wide/16 v2, 0x1
@@ -309,7 +288,6 @@
 
     iput-wide v0, p0, Lio/grpc/internal/g3;->b:J
 
-    .line 2
     iget-object v0, p0, Lio/grpc/internal/g3;->a:Lio/grpc/internal/d3;
 
     invoke-interface {v0}, Lio/grpc/internal/d3;->a()J
@@ -328,7 +306,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     iget-wide v2, p0, Lio/grpc/internal/g3;->e:J
 
     add-long/2addr v2, v0
@@ -337,7 +314,6 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     iget-wide v2, p0, Lio/grpc/internal/g3;->f:J
 
@@ -352,7 +328,6 @@
 .method public i(Lio/grpc/internal/g3$c;)V
     .locals 0
 
-    .line 1
     invoke-static {p1}, Lcom/google/common/base/t;->E(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1

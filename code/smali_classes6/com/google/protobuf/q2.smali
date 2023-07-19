@@ -27,10 +27,8 @@
 .method public constructor <init>(Lcom/google/protobuf/d1;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/util/AbstractList;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/google/protobuf/q2;->a:Lcom/google/protobuf/d1;
 
     return-void
@@ -39,7 +37,6 @@
 .method static synthetic b(Lcom/google/protobuf/q2;)Lcom/google/protobuf/d1;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lcom/google/protobuf/q2;->a:Lcom/google/protobuf/d1;
 
     return-object p0
@@ -50,7 +47,6 @@
 .method public L(Lcom/google/protobuf/ByteString;)V
     .locals 0
 
-    .line 1
     new-instance p1, Ljava/lang/UnsupportedOperationException;
 
     invoke-direct {p1}, Ljava/lang/UnsupportedOperationException;-><init>()V
@@ -61,7 +57,6 @@
 .method public O0(I[B)V
     .locals 0
 
-    .line 1
     new-instance p1, Ljava/lang/UnsupportedOperationException;
 
     invoke-direct {p1}, Ljava/lang/UnsupportedOperationException;-><init>()V
@@ -81,7 +76,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance p1, Ljava/lang/UnsupportedOperationException;
 
     invoke-direct {p1}, Ljava/lang/UnsupportedOperationException;-><init>()V
@@ -92,7 +86,6 @@
 .method public S(I)[B
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/protobuf/q2;->a:Lcom/google/protobuf/d1;
 
     invoke-interface {v0, p1}, Lcom/google/protobuf/d1;->S(I)[B
@@ -112,7 +105,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance p1, Ljava/lang/UnsupportedOperationException;
 
     invoke-direct {p1}, Ljava/lang/UnsupportedOperationException;-><init>()V
@@ -123,7 +115,6 @@
 .method public U(Lcom/google/protobuf/d1;)V
     .locals 0
 
-    .line 1
     new-instance p1, Ljava/lang/UnsupportedOperationException;
 
     invoke-direct {p1}, Ljava/lang/UnsupportedOperationException;-><init>()V
@@ -141,7 +132,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/protobuf/q2;->a:Lcom/google/protobuf/d1;
 
     invoke-interface {v0}, Lcom/google/protobuf/d1;->Y()Ljava/util/List;
@@ -154,7 +144,6 @@
 .method public c(I)Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/protobuf/q2;->a:Lcom/google/protobuf/d1;
 
     invoke-interface {v0, p1}, Ljava/util/List;->get(I)Ljava/lang/Object;
@@ -176,7 +165,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/protobuf/q2;->a:Lcom/google/protobuf/d1;
 
     invoke-interface {v0}, Lcom/google/protobuf/d1;->c0()Ljava/util/List;
@@ -199,7 +187,6 @@
 .method public bridge synthetic get(I)Ljava/lang/Object;
     .locals 0
 
-    .line 1
     invoke-virtual {p0, p1}, Lcom/google/protobuf/q2;->c(I)Ljava/lang/String;
 
     move-result-object p1
@@ -210,7 +197,6 @@
 .method public h0(I)Lcom/google/protobuf/ByteString;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/protobuf/q2;->a:Lcom/google/protobuf/d1;
 
     invoke-interface {v0, p1}, Lcom/google/protobuf/d1;->h0(I)Lcom/google/protobuf/ByteString;
@@ -231,7 +217,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/google/protobuf/q2$b;
 
     invoke-direct {v0, p0}, Lcom/google/protobuf/q2$b;-><init>(Lcom/google/protobuf/q2;)V
@@ -242,7 +227,6 @@
 .method public j1(I)Ljava/lang/Object;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/protobuf/q2;->a:Lcom/google/protobuf/d1;
 
     invoke-interface {v0, p1}, Lcom/google/protobuf/d1;->j1(I)Ljava/lang/Object;
@@ -263,7 +247,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/protobuf/q2;->a:Lcom/google/protobuf/d1;
 
     invoke-interface {v0}, Lcom/google/protobuf/u1;->k0()Ljava/util/List;
@@ -288,7 +271,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/google/protobuf/q2$a;
 
     invoke-direct {v0, p0, p1}, Lcom/google/protobuf/q2$a;-><init>(Lcom/google/protobuf/q2;I)V
@@ -299,7 +281,6 @@
 .method public m1(ILcom/google/protobuf/ByteString;)V
     .locals 0
 
-    .line 1
     new-instance p1, Ljava/lang/UnsupportedOperationException;
 
     invoke-direct {p1}, Ljava/lang/UnsupportedOperationException;-><init>()V
@@ -310,7 +291,6 @@
 .method public n([B)V
     .locals 0
 
-    .line 1
     new-instance p1, Ljava/lang/UnsupportedOperationException;
 
     invoke-direct {p1}, Ljava/lang/UnsupportedOperationException;-><init>()V
@@ -321,7 +301,6 @@
 .method public size()I
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/protobuf/q2;->a:Lcom/google/protobuf/d1;
 
     invoke-interface {v0}, Ljava/util/List;->size()I

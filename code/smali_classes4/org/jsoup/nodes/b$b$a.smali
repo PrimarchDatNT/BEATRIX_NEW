@@ -48,12 +48,10 @@
 .method private constructor <init>(Lorg/jsoup/nodes/b$b;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lorg/jsoup/nodes/b$b$a;->c:Lorg/jsoup/nodes/b$b;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     invoke-static {p1}, Lorg/jsoup/nodes/b$b;->a(Lorg/jsoup/nodes/b$b;)Lorg/jsoup/nodes/b;
 
     move-result-object p1
@@ -70,7 +68,6 @@
 .method synthetic constructor <init>(Lorg/jsoup/nodes/b$b;Lorg/jsoup/nodes/b$a;)V
     .locals 0
 
-    .line 3
     invoke-direct {p0, p1}, Lorg/jsoup/nodes/b$b$a;-><init>(Lorg/jsoup/nodes/b$b;)V
 
     return-void
@@ -90,7 +87,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lorg/jsoup/nodes/a;
 
     iget-object v1, p0, Lorg/jsoup/nodes/b$b$a;->b:Lorg/jsoup/nodes/a;
@@ -119,7 +115,6 @@
 .method public hasNext()Z
     .locals 1
 
-    .line 1
     :cond_0
     iget-object v0, p0, Lorg/jsoup/nodes/b$b$a;->a:Ljava/util/Iterator;
 
@@ -129,7 +124,6 @@
 
     if-eqz v0, :cond_1
 
-    .line 2
     iget-object v0, p0, Lorg/jsoup/nodes/b$b$a;->a:Ljava/util/Iterator;
 
     invoke-interface {v0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
@@ -140,7 +134,6 @@
 
     iput-object v0, p0, Lorg/jsoup/nodes/b$b$a;->b:Lorg/jsoup/nodes/a;
 
-    .line 3
     invoke-virtual {v0}, Lorg/jsoup/nodes/a;->j()Z
 
     move-result v0
@@ -160,7 +153,6 @@
 .method public bridge synthetic next()Ljava/lang/Object;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lorg/jsoup/nodes/b$b$a;->a()Ljava/util/Map$Entry;
 
     move-result-object v0
@@ -171,7 +163,6 @@
 .method public remove()V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lorg/jsoup/nodes/b$b$a;->c:Lorg/jsoup/nodes/b$b;
 
     invoke-static {v0}, Lorg/jsoup/nodes/b$b;->a(Lorg/jsoup/nodes/b$b;)Lorg/jsoup/nodes/b;

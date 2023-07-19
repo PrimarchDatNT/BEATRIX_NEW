@@ -44,7 +44,6 @@
 
     const-string v0, "p1"
 
-    .line 1
     invoke-static {p2, v0}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {p2}, Landroid/view/MotionEvent;->getAction()I
@@ -53,7 +52,6 @@
 
     if-nez p2, :cond_0
 
-    .line 2
     iget-object p2, p0, Lcom/commsource/studio/sticker/manage/StickerManagerViewHolder$d;->a:Lcom/commsource/studio/sticker/manage/StickerManagerViewHolder;
 
     invoke-static {p2}, Lcom/commsource/studio/sticker/manage/StickerManagerViewHolder;->A(Lcom/commsource/studio/sticker/manage/StickerManagerViewHolder;)Lcom/commsource/beautyplus/f0/kj;
@@ -64,7 +62,6 @@
 
     invoke-virtual {p2}, Landroid/widget/RelativeLayout;->performClick()Z
 
-    .line 3
     iget-object p2, p0, Lcom/commsource/studio/sticker/manage/StickerManagerViewHolder$d;->a:Lcom/commsource/studio/sticker/manage/StickerManagerViewHolder;
 
     invoke-static {p2}, Lcom/commsource/studio/sticker/manage/StickerManagerViewHolder;->x(Lcom/commsource/studio/sticker/manage/StickerManagerViewHolder;)Landroidx/recyclerview/widget/ItemTouchHelper;
@@ -80,7 +77,6 @@
     :cond_0
     const/4 p2, 0x1
 
-    .line 4
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p2

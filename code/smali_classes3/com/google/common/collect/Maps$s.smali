@@ -60,13 +60,10 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1, p2}, Lcom/google/common/collect/Maps$t;-><init>(Ljava/util/Map;Lcom/google/common/base/u;)V
 
-    .line 2
     new-instance v0, Lcom/google/common/collect/Maps$s;
 
-    .line 3
     invoke-interface {p1}, Lcom/google/common/collect/k;->inverse()Lcom/google/common/collect/k;
 
     move-result-object p1
@@ -98,10 +95,8 @@
         }
     .end annotation
 
-    .line 4
     invoke-direct {p0, p1, p2}, Lcom/google/common/collect/Maps$t;-><init>(Ljava/util/Map;Lcom/google/common/base/u;)V
 
-    .line 5
     iput-object p3, p0, Lcom/google/common/collect/Maps$s;->p:Lcom/google/common/collect/k;
 
     return-void
@@ -126,7 +121,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/google/common/collect/Maps$s$a;
 
     invoke-direct {v0, p0}, Lcom/google/common/collect/Maps$s$a;-><init>(Lcom/google/common/base/u;)V
@@ -152,14 +146,12 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0, p1, p2}, Lcom/google/common/collect/Maps$n;->d(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v0
 
     invoke-static {v0}, Lcom/google/common/base/t;->d(Z)V
 
-    .line 2
     invoke-virtual {p0}, Lcom/google/common/collect/Maps$s;->h()Lcom/google/common/collect/k;
 
     move-result-object v0
@@ -181,7 +173,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/Maps$n;->d:Ljava/util/Map;
 
     check-cast v0, Lcom/google/common/collect/k;
@@ -199,7 +190,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/Maps$s;->p:Lcom/google/common/collect/k;
 
     return-object v0
@@ -208,7 +198,6 @@
 .method public bridge synthetic values()Ljava/util/Collection;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/collect/Maps$s;->values()Ljava/util/Set;
 
     move-result-object v0
@@ -226,7 +215,6 @@
         }
     .end annotation
 
-    .line 2
     iget-object v0, p0, Lcom/google/common/collect/Maps$s;->p:Lcom/google/common/collect/k;
 
     invoke-interface {v0}, Ljava/util/Map;->keySet()Ljava/util/Set;

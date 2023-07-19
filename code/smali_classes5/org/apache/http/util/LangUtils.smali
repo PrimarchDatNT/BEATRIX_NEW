@@ -13,7 +13,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -35,7 +34,6 @@
 
     goto :goto_0
 
-    .line 1
     :cond_1
     invoke-virtual {p0, p1}, Ljava/lang/Object;->equals(Ljava/lang/Object;)Z
 
@@ -67,7 +65,6 @@
     :cond_1
     if-eqz p1, :cond_4
 
-    .line 2
     array-length v2, p0
 
     array-length v3, p1
@@ -76,13 +73,11 @@
 
     const/4 v2, 0x0
 
-    .line 3
     :goto_1
     array-length v3, p0
 
     if-ge v2, v3, :cond_3
 
-    .line 4
     aget-object v3, p0, v2
 
     aget-object v4, p1, v2
@@ -122,7 +117,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 2
     invoke-virtual {p1}, Ljava/lang/Object;->hashCode()I
 
     move-result p1
@@ -143,7 +137,6 @@
 .method public static hashCode(IZ)I
     .locals 0
 
-    .line 1
     invoke-static {p0, p1}, Lorg/apache/http/util/LangUtils;->hashCode(II)I
 
     move-result p0

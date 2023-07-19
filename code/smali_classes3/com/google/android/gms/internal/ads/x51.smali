@@ -36,10 +36,8 @@
 .method public final apply(Ljava/lang/Object;)Ljava/lang/Object;
     .locals 1
 
-    .line 1
     check-cast p1, Ljava/util/ArrayList;
 
-    .line 2
     invoke-virtual {p1}, Ljava/util/ArrayList;->isEmpty()Z
 
     move-result v0
@@ -50,7 +48,6 @@
 
     return-object p1
 
-    .line 3
     :cond_0
     new-instance v0, Lcom/google/android/gms/internal/ads/c61;
 

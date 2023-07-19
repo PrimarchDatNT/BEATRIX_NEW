@@ -49,7 +49,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/mopub/mobileads/BaseAd;-><init>()V
 
     return-void
@@ -58,7 +57,6 @@
 .method private synthetic a()V
     .locals 4
 
-    .line 1
     sget-object v0, Lcom/mopub/common/logging/MoPubLog$AdapterLogEvent;->EXPIRED:Lcom/mopub/common/logging/MoPubLog$AdapterLogEvent;
 
     const/4 v1, 0x2
@@ -79,12 +77,10 @@
 
     invoke-static {v0, v1}, Lcom/mopub/common/logging/MoPubLog;->log(Lcom/mopub/common/logging/MoPubLog$MPLogEventType;[Ljava/lang/Object;)V
 
-    .line 2
     iget-object v0, p0, Lcom/mopub/mobileads/BaseAd;->mInteractionListener:Lcom/mopub/mobileads/AdLifecycleListener$InteractionListener;
 
     if-eqz v0, :cond_0
 
-    .line 3
     sget-object v1, Lcom/mopub/mobileads/MoPubErrorCode;->EXPIRED:Lcom/mopub/mobileads/MoPubErrorCode;
 
     invoke-interface {v0, v1}, Lcom/mopub/mobileads/AdLifecycleListener$InteractionListener;->onAdFailed(Lcom/mopub/mobileads/MoPubErrorCode;)V
@@ -96,7 +92,6 @@
 .method static synthetic access$000(Lcom/mopub/mobileads/MoPubInline;)Landroid/os/Handler;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lcom/mopub/mobileads/MoPubInline;->mHandler:Landroid/os/Handler;
 
     return-object p0
@@ -105,7 +100,6 @@
 .method static synthetic access$100(Lcom/mopub/mobileads/MoPubInline;)Ljava/lang/Runnable;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lcom/mopub/mobileads/MoPubInline;->mAdExpiration:Ljava/lang/Runnable;
 
     return-object p0
@@ -129,7 +123,6 @@
 
     const-string v0, "html-response-body"
 
-    .line 1
     invoke-interface {p1, v0}, Ljava/util/Map;->containsKey(Ljava/lang/Object;)Z
 
     move-result p1
@@ -168,7 +161,6 @@
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/mobileads/MoPubInline;->mAdData:Lcom/mopub/mobileads/AdData;
 
     if-eqz v0, :cond_0
@@ -181,7 +173,6 @@
 
     iget-object v0, p0, Lcom/mopub/mobileads/MoPubInline;->mAdData:Lcom/mopub/mobileads/AdData;
 
-    .line 2
     invoke-virtual {v0}, Lcom/mopub/mobileads/AdData;->getAdUnit()Ljava/lang/String;
 
     move-result-object v0
@@ -200,12 +191,10 @@
     .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/mobileads/MoPubInline;->mController:Lcom/mopub/mobileads/MoPubWebViewController;
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-virtual {v0}, Lcom/mopub/mobileads/MoPubWebViewController;->getAdContainer()Landroid/view/View;
 
     move-result-object v0
@@ -240,13 +229,10 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-static {p1}, Lcom/mopub/common/Preconditions;->checkNotNull(Ljava/lang/Object;)V
 
-    .line 2
     invoke-static {p2}, Lcom/mopub/common/Preconditions;->checkNotNull(Ljava/lang/Object;)V
 
-    .line 3
     sget-object v0, Lcom/mopub/common/logging/MoPubLog$AdLogEvent;->LOAD_ATTEMPTED:Lcom/mopub/common/logging/MoPubLog$AdLogEvent;
 
     const/4 v1, 0x1
@@ -261,41 +247,34 @@
 
     invoke-static {v0, v2}, Lcom/mopub/common/logging/MoPubLog;->log(Lcom/mopub/common/logging/MoPubLog$MPLogEventType;[Ljava/lang/Object;)V
 
-    .line 4
     iput-object p1, p0, Lcom/mopub/mobileads/MoPubInline;->mContext:Landroid/content/Context;
 
-    .line 5
     iput-object p2, p0, Lcom/mopub/mobileads/MoPubInline;->mAdData:Lcom/mopub/mobileads/AdData;
 
-    .line 6
     new-instance v0, Landroid/os/Handler;
 
     invoke-direct {v0}, Landroid/os/Handler;-><init>()V
 
     iput-object v0, p0, Lcom/mopub/mobileads/MoPubInline;->mHandler:Landroid/os/Handler;
 
-    .line 7
     new-instance v0, Lcom/mopub/mobileads/y;
 
     invoke-direct {v0, p0}, Lcom/mopub/mobileads/y;-><init>(Lcom/mopub/mobileads/MoPubInline;)V
 
     iput-object v0, p0, Lcom/mopub/mobileads/MoPubInline;->mAdExpiration:Ljava/lang/Runnable;
 
-    .line 8
     iget-object v0, p0, Lcom/mopub/mobileads/MoPubInline;->mAdData:Lcom/mopub/mobileads/AdData;
 
     invoke-virtual {v0}, Lcom/mopub/mobileads/AdData;->getExtras()Ljava/util/Map;
 
     move-result-object v0
 
-    .line 9
     iget-object v2, p0, Lcom/mopub/mobileads/MoPubInline;->mAdData:Lcom/mopub/mobileads/AdData;
 
     invoke-virtual {v2}, Lcom/mopub/mobileads/AdData;->getDspCreativeId()Ljava/lang/String;
 
     move-result-object v2
 
-    .line 10
     invoke-direct {p0, v0}, Lcom/mopub/mobileads/MoPubInline;->extrasAreValid(Ljava/util/Map;)Z
 
     move-result v0
@@ -306,7 +285,6 @@
 
     if-nez v0, :cond_1
 
-    .line 11
     sget-object p1, Lcom/mopub/common/logging/MoPubLog$AdapterLogEvent;->LOAD_FAILED:Lcom/mopub/common/logging/MoPubLog$AdapterLogEvent;
 
     new-array p2, v6, [Ljava/lang/Object;
@@ -315,7 +293,6 @@
 
     sget-object v0, Lcom/mopub/mobileads/MoPubErrorCode;->INLINE_LOAD_ERROR:Lcom/mopub/mobileads/MoPubErrorCode;
 
-    .line 12
     invoke-virtual {v0}, Lcom/mopub/mobileads/MoPubErrorCode;->getIntCode()I
 
     move-result v2
@@ -328,21 +305,17 @@
 
     aput-object v0, p2, v5
 
-    .line 13
     invoke-static {p1, p2}, Lcom/mopub/common/logging/MoPubLog;->log(Lcom/mopub/common/logging/MoPubLog$MPLogEventType;[Ljava/lang/Object;)V
 
-    .line 14
     iget-object p1, p0, Lcom/mopub/mobileads/BaseAd;->mLoadListener:Lcom/mopub/mobileads/AdLifecycleListener$LoadListener;
 
     if-eqz p1, :cond_0
 
-    .line 15
     invoke-interface {p1, v0}, Lcom/mopub/mobileads/AdLifecycleListener$LoadListener;->onAdLoadFailed(Lcom/mopub/mobileads/MoPubErrorCode;)V
 
     :cond_0
     return-void
 
-    .line 16
     :cond_1
     iget-object v0, p0, Lcom/mopub/mobileads/MoPubInline;->mAdData:Lcom/mopub/mobileads/AdData;
 
@@ -358,7 +331,6 @@
 
     if-eqz v0, :cond_2
 
-    .line 17
     iget-object p1, p0, Lcom/mopub/mobileads/MoPubInline;->mContext:Landroid/content/Context;
 
     sget-object v0, Lcom/mopub/mraid/PlacementType;->INLINE:Lcom/mopub/mraid/PlacementType;
@@ -371,7 +343,6 @@
 
     goto :goto_0
 
-    .line 18
     :cond_2
     iget-object v0, p0, Lcom/mopub/mobileads/MoPubInline;->mAdData:Lcom/mopub/mobileads/AdData;
 
@@ -387,14 +358,12 @@
 
     if-eqz v0, :cond_3
 
-    .line 19
     invoke-static {p1, v2}, Lcom/mopub/mobileads/factories/HtmlControllerFactory;->create(Landroid/content/Context;Ljava/lang/String;)Lcom/mopub/mobileads/HtmlController;
 
     move-result-object p1
 
     iput-object p1, p0, Lcom/mopub/mobileads/MoPubInline;->mController:Lcom/mopub/mobileads/MoPubWebViewController;
 
-    .line 20
     :goto_0
     iget-object p1, p0, Lcom/mopub/mobileads/MoPubInline;->mController:Lcom/mopub/mobileads/MoPubWebViewController;
 
@@ -402,7 +371,6 @@
 
     invoke-virtual {p1, v0}, Lcom/mopub/mobileads/MoPubWebViewController;->setDebugListener(Lcom/mopub/mraid/WebViewDebugListener;)V
 
-    .line 21
     iget-object p1, p0, Lcom/mopub/mobileads/MoPubInline;->mController:Lcom/mopub/mobileads/MoPubWebViewController;
 
     new-instance v0, Lcom/mopub/mobileads/MoPubInline$1;
@@ -411,7 +379,6 @@
 
     invoke-virtual {p1, v0}, Lcom/mopub/mobileads/MoPubWebViewController;->setMoPubWebViewListener(Lcom/mopub/mobileads/BaseHtmlWebView$BaseWebViewListener;)V
 
-    .line 22
     iget-object p1, p0, Lcom/mopub/mobileads/MoPubInline;->mController:Lcom/mopub/mobileads/MoPubWebViewController;
 
     iget-object v0, p0, Lcom/mopub/mobileads/MoPubInline;->mAdData:Lcom/mopub/mobileads/AdData;
@@ -432,7 +399,6 @@
 
     return-void
 
-    .line 23
     :cond_3
     sget-object p1, Lcom/mopub/common/logging/MoPubLog$AdapterLogEvent;->LOAD_FAILED:Lcom/mopub/common/logging/MoPubLog$AdapterLogEvent;
 
@@ -442,7 +408,6 @@
 
     sget-object v0, Lcom/mopub/mobileads/MoPubErrorCode;->INLINE_LOAD_ERROR:Lcom/mopub/mobileads/MoPubErrorCode;
 
-    .line 24
     invoke-virtual {v0}, Lcom/mopub/mobileads/MoPubErrorCode;->getIntCode()I
 
     move-result v2
@@ -455,15 +420,12 @@
 
     aput-object v0, p2, v5
 
-    .line 25
     invoke-static {p1, p2}, Lcom/mopub/common/logging/MoPubLog;->log(Lcom/mopub/common/logging/MoPubLog$MPLogEventType;[Ljava/lang/Object;)V
 
-    .line 26
     iget-object p1, p0, Lcom/mopub/mobileads/BaseAd;->mLoadListener:Lcom/mopub/mobileads/AdLifecycleListener$LoadListener;
 
     if-eqz p1, :cond_4
 
-    .line 27
     invoke-interface {p1, v0}, Lcom/mopub/mobileads/AdLifecycleListener$LoadListener;->onAdLoadFailed(Lcom/mopub/mobileads/MoPubErrorCode;)V
 
     :cond_4
@@ -473,7 +435,6 @@
 .method protected onInvalidate()V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/mobileads/MoPubInline;->mHandler:Landroid/os/Handler;
 
     if-eqz v0, :cond_0
@@ -482,32 +443,25 @@
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-virtual {v0, v1}, Landroid/os/Handler;->removeCallbacks(Ljava/lang/Runnable;)V
 
     :cond_0
     const/4 v0, 0x0
 
-    .line 3
     iput-object v0, p0, Lcom/mopub/mobileads/MoPubInline;->mAdExpiration:Ljava/lang/Runnable;
 
-    .line 4
     iput-object v0, p0, Lcom/mopub/mobileads/MoPubInline;->mHandler:Landroid/os/Handler;
 
-    .line 5
     iget-object v1, p0, Lcom/mopub/mobileads/MoPubInline;->mController:Lcom/mopub/mobileads/MoPubWebViewController;
 
     if-eqz v1, :cond_1
 
-    .line 6
     invoke-virtual {v1, v0}, Lcom/mopub/mobileads/MoPubWebViewController;->setMoPubWebViewListener(Lcom/mopub/mobileads/BaseHtmlWebView$BaseWebViewListener;)V
 
-    .line 7
     iget-object v1, p0, Lcom/mopub/mobileads/MoPubInline;->mController:Lcom/mopub/mobileads/MoPubWebViewController;
 
     invoke-virtual {v1}, Lcom/mopub/mobileads/MoPubWebViewController;->destroy()V
 
-    .line 8
     iput-object v0, p0, Lcom/mopub/mobileads/MoPubInline;->mController:Lcom/mopub/mobileads/MoPubWebViewController;
 
     :cond_1
@@ -523,15 +477,12 @@
     .annotation build Lcom/mopub/common/VisibleForTesting;
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/mopub/mobileads/MoPubInline;->mDebugListener:Lcom/mopub/mraid/WebViewDebugListener;
 
-    .line 2
     iget-object v0, p0, Lcom/mopub/mobileads/MoPubInline;->mController:Lcom/mopub/mobileads/MoPubWebViewController;
 
     if-eqz v0, :cond_0
 
-    .line 3
     invoke-virtual {v0, p1}, Lcom/mopub/mobileads/MoPubWebViewController;->setDebugListener(Lcom/mopub/mraid/WebViewDebugListener;)V
 
     :cond_0
@@ -541,14 +492,12 @@
 .method protected trackMpxAndThirdPartyImpressions()V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/mobileads/MoPubInline;->mController:Lcom/mopub/mobileads/MoPubWebViewController;
 
     if-nez v0, :cond_0
 
     return-void
 
-    .line 2
     :cond_0
     sget-object v1, Lcom/mopub/common/util/JavaScriptWebViewCallbacks;->WEB_VIEW_DID_APPEAR:Lcom/mopub/common/util/JavaScriptWebViewCallbacks;
 

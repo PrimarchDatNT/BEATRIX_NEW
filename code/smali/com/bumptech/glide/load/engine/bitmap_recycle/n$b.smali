@@ -32,10 +32,8 @@
 .method public constructor <init>(Lcom/bumptech/glide/load/engine/bitmap_recycle/n$c;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/bumptech/glide/load/engine/bitmap_recycle/n$b;->a:Lcom/bumptech/glide/load/engine/bitmap_recycle/n$c;
 
     return-void
@@ -46,10 +44,8 @@
     .annotation build Landroidx/annotation/VisibleForTesting;
     .end annotation
 
-    .line 3
     invoke-direct {p0, p1}, Lcom/bumptech/glide/load/engine/bitmap_recycle/n$b;-><init>(Lcom/bumptech/glide/load/engine/bitmap_recycle/n$c;)V
 
-    .line 4
     invoke-virtual {p0, p2, p3}, Lcom/bumptech/glide/load/engine/bitmap_recycle/n$b;->b(ILandroid/graphics/Bitmap$Config;)V
 
     return-void
@@ -60,7 +56,6 @@
 .method public a()V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/bumptech/glide/load/engine/bitmap_recycle/n$b;->a:Lcom/bumptech/glide/load/engine/bitmap_recycle/n$c;
 
     invoke-virtual {v0, p0}, Lcom/bumptech/glide/load/engine/bitmap_recycle/d;->c(Lcom/bumptech/glide/load/engine/bitmap_recycle/m;)V
@@ -71,10 +66,8 @@
 .method public b(ILandroid/graphics/Bitmap$Config;)V
     .locals 0
 
-    .line 1
     iput p1, p0, Lcom/bumptech/glide/load/engine/bitmap_recycle/n$b;->b:I
 
-    .line 2
     iput-object p2, p0, Lcom/bumptech/glide/load/engine/bitmap_recycle/n$b;->c:Landroid/graphics/Bitmap$Config;
 
     return-void
@@ -83,17 +76,14 @@
 .method public equals(Ljava/lang/Object;)Z
     .locals 3
 
-    .line 1
     instance-of v0, p1, Lcom/bumptech/glide/load/engine/bitmap_recycle/n$b;
 
     const/4 v1, 0x0
 
     if-eqz v0, :cond_0
 
-    .line 2
     check-cast p1, Lcom/bumptech/glide/load/engine/bitmap_recycle/n$b;
 
-    .line 3
     iget v0, p0, Lcom/bumptech/glide/load/engine/bitmap_recycle/n$b;->b:I
 
     iget v2, p1, Lcom/bumptech/glide/load/engine/bitmap_recycle/n$b;->b:I
@@ -119,12 +109,10 @@
 .method public hashCode()I
     .locals 2
 
-    .line 1
     iget v0, p0, Lcom/bumptech/glide/load/engine/bitmap_recycle/n$b;->b:I
 
     mul-int/lit8 v0, v0, 0x1f
 
-    .line 2
     iget-object v1, p0, Lcom/bumptech/glide/load/engine/bitmap_recycle/n$b;->c:Landroid/graphics/Bitmap$Config;
 
     if-eqz v1, :cond_0
@@ -147,7 +135,6 @@
 .method public toString()Ljava/lang/String;
     .locals 2
 
-    .line 1
     iget v0, p0, Lcom/bumptech/glide/load/engine/bitmap_recycle/n$b;->b:I
 
     iget-object v1, p0, Lcom/bumptech/glide/load/engine/bitmap_recycle/n$b;->c:Landroid/graphics/Bitmap$Config;

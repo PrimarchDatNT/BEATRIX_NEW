@@ -16,7 +16,6 @@
 .method constructor <init>(Lcom/google/android/gms/internal/ads/zzapn;Lcom/google/android/gms/ads/internal/overlay/AdOverlayInfoParcel;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/android/gms/internal/ads/qe;->b:Lcom/google/android/gms/internal/ads/zzapn;
 
     iput-object p2, p0, Lcom/google/android/gms/internal/ads/qe;->a:Lcom/google/android/gms/ads/internal/overlay/AdOverlayInfoParcel;
@@ -31,7 +30,6 @@
 .method public final run()V
     .locals 3
 
-    .line 1
     invoke-static {}, Lcom/google/android/gms/ads/internal/p;->b()Lcom/google/android/gms/ads/internal/overlay/k;
 
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/qe;->b:Lcom/google/android/gms/internal/ads/zzapn;
@@ -44,7 +42,6 @@
 
     const/4 v2, 0x1
 
-    .line 2
     invoke-static {v0, v1, v2}, Lcom/google/android/gms/ads/internal/overlay/k;->a(Landroid/content/Context;Lcom/google/android/gms/ads/internal/overlay/AdOverlayInfoParcel;Z)V
 
     return-void

@@ -6,7 +6,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/google/android/gms/internal/firebase_remote_config/p1;-><init>()V
 
     return-void
@@ -15,14 +14,12 @@
 .method private static d([CII)[C
     .locals 1
 
-    .line 1
     new-array p2, p2, [C
 
     if-lez p1, :cond_0
 
     const/4 v0, 0x0
 
-    .line 2
     invoke-static {p0, v0, p2, v0, p1}, Ljava/lang/System;->arraycopy(Ljava/lang/Object;ILjava/lang/Object;II)V
 
     :cond_0
@@ -37,12 +34,10 @@
 .method protected final c(Ljava/lang/String;I)Ljava/lang/String;
     .locals 12
 
-    .line 1
     invoke-virtual {p1}, Ljava/lang/String;->length()I
 
     move-result v0
 
-    .line 2
     invoke-static {}, Lcom/google/android/gms/internal/firebase_remote_config/r1;->a()[C
 
     move-result-object v1
@@ -60,7 +55,6 @@
 
     add-int/lit8 v5, p2, 0x1
 
-    .line 3
     invoke-interface {p1, p2}, Ljava/lang/CharSequence;->charAt(I)C
 
     move-result v6
@@ -92,27 +86,23 @@
 
     goto :goto_1
 
-    .line 4
     :cond_1
     invoke-interface {p1, v5}, Ljava/lang/CharSequence;->charAt(I)C
 
     move-result v7
 
-    .line 5
     invoke-static {v7}, Ljava/lang/Character;->isLowSurrogate(C)Z
 
     move-result v11
 
     if-eqz v11, :cond_2
 
-    .line 6
     invoke-static {v6, v7}, Ljava/lang/Character;->toCodePoint(CC)I
 
     move-result v6
 
     goto :goto_1
 
-    .line 7
     :cond_2
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -144,7 +134,6 @@
 
     throw p1
 
-    .line 8
     :cond_3
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -182,12 +171,10 @@
     :goto_1
     if-ltz v6, :cond_a
 
-    .line 9
     invoke-virtual {p0, v6}, Lcom/google/android/gms/internal/firebase_remote_config/t1;->e(I)[C
 
     move-result-object v5
 
-    .line 10
     invoke-static {v6}, Ljava/lang/Character;->isSupplementaryCodePoint(I)Z
 
     move-result v6
@@ -205,12 +192,10 @@
 
     add-int v7, v4, v6
 
-    .line 11
     array-length v9, v5
 
     add-int/2addr v9, v7
 
-    .line 12
     array-length v10, v1
 
     if-ge v10, v9, :cond_6
@@ -221,7 +206,6 @@
 
     add-int/lit8 v9, v9, 0x20
 
-    .line 13
     invoke-static {v1, v4, v9}, Lcom/google/android/gms/internal/firebase_remote_config/t1;->d([CII)[C
 
     move-result-object v1
@@ -229,23 +213,19 @@
     :cond_6
     if-lez v6, :cond_7
 
-    .line 14
     invoke-virtual {p1, v3, p2, v1, v4}, Ljava/lang/String;->getChars(II[CI)V
 
     move v4, v7
 
-    .line 15
     :cond_7
     array-length p2, v5
 
     if-lez p2, :cond_8
 
-    .line 16
     array-length p2, v5
 
     invoke-static {v5, v2, v1, v4, p2}, Ljava/lang/System;->arraycopy(Ljava/lang/Object;ILjava/lang/Object;II)V
 
-    .line 17
     array-length p2, v5
 
     add-int/2addr v4, p2
@@ -253,7 +233,6 @@
     :cond_8
     move v3, v8
 
-    .line 18
     :cond_9
     invoke-virtual {p0, p1, v8, v0}, Lcom/google/android/gms/internal/firebase_remote_config/t1;->b(Ljava/lang/CharSequence;II)I
 
@@ -261,7 +240,6 @@
 
     goto/16 :goto_0
 
-    .line 19
     :cond_a
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -271,7 +249,6 @@
 
     throw p1
 
-    .line 20
     :cond_b
     new-instance p1, Ljava/lang/IndexOutOfBoundsException;
 
@@ -288,23 +265,19 @@
 
     add-int/2addr p2, v4
 
-    .line 21
     array-length v5, v1
 
     if-ge v5, p2, :cond_d
 
-    .line 22
     invoke-static {v1, v4, p2}, Lcom/google/android/gms/internal/firebase_remote_config/t1;->d([CII)[C
 
     move-result-object v1
 
-    .line 23
     :cond_d
     invoke-virtual {p1, v3, v0, v1, v4}, Ljava/lang/String;->getChars(II[CI)V
 
     move v4, p2
 
-    .line 24
     :cond_e
     new-instance p1, Ljava/lang/String;
 

@@ -16,10 +16,8 @@
     .annotation build Lcotlin/internal/f;
     .end annotation
 
-    .line 1
     invoke-static {p0}, Ljava/lang/System;->exit(I)V
 
-    .line 2
     new-instance p0, Ljava/lang/RuntimeException;
 
     const-string v0, "System.exit returned normally, while it was supposed to halt JVM."

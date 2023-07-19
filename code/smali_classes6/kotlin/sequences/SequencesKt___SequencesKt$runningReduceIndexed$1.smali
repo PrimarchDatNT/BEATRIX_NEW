@@ -178,7 +178,6 @@
 
     move-result-object v0
 
-    .line 1
     iget v1, p0, Lcotlin/sequences/SequencesKt___SequencesKt$runningReduceIndexed$1;->label:I
 
     const/4 v2, 0x2
@@ -215,7 +214,6 @@
 
     goto :goto_1
 
-    .line 2
     :cond_0
     new-instance p1, Ljava/lang/IllegalStateException;
 
@@ -225,7 +223,6 @@
 
     throw p1
 
-    .line 3
     :cond_1
     iget-object v1, p0, Lcotlin/sequences/SequencesKt___SequencesKt$runningReduceIndexed$1;->L$2:Ljava/lang/Object;
 
@@ -250,26 +247,22 @@
 
     check-cast v5, Lcotlin/sequences/o;
 
-    .line 4
     iget-object p1, p0, Lcotlin/sequences/SequencesKt___SequencesKt$runningReduceIndexed$1;->$this_runningReduceIndexed:Lcotlin/sequences/m;
 
     invoke-interface {p1}, Lcotlin/sequences/m;->iterator()Ljava/util/Iterator;
 
     move-result-object v4
 
-    .line 5
     invoke-interface {v4}, Ljava/util/Iterator;->hasNext()Z
 
     move-result p1
 
     if-eqz p1, :cond_6
 
-    .line 6
     invoke-interface {v4}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
     move-result-object v1
 
-    .line 7
     iput-object v5, p0, Lcotlin/sequences/SequencesKt___SequencesKt$runningReduceIndexed$1;->L$0:Ljava/lang/Object;
 
     iput-object v4, p0, Lcotlin/sequences/SequencesKt___SequencesKt$runningReduceIndexed$1;->L$1:Ljava/lang/Object;
@@ -290,7 +283,6 @@
     :goto_0
     move-object p1, p0
 
-    .line 8
     :goto_1
     invoke-interface {v4}, Ljava/util/Iterator;->hasNext()Z
 
@@ -298,7 +290,6 @@
 
     if-eqz v6, :cond_6
 
-    .line 9
     iget-object v6, p1, Lcotlin/sequences/SequencesKt___SequencesKt$runningReduceIndexed$1;->$operation:Lcotlin/jvm/u/q;
 
     add-int/lit8 v7, v3, 0x1
@@ -320,7 +311,6 @@
 
     move-result-object v3
 
-    .line 10
     iput-object v5, p1, Lcotlin/sequences/SequencesKt___SequencesKt$runningReduceIndexed$1;->L$0:Ljava/lang/Object;
 
     iput-object v4, p1, Lcotlin/sequences/SequencesKt___SequencesKt$runningReduceIndexed$1;->L$1:Ljava/lang/Object;
@@ -346,7 +336,6 @@
 
     goto :goto_1
 
-    .line 11
     :cond_6
     sget-object p1, Lcotlin/t1;->a:Lcotlin/t1;
 

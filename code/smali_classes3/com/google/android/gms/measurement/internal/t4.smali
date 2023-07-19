@@ -54,28 +54,20 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     invoke-static {p2}, Lcom/google/android/gms/common/internal/b0;->k(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 3
     iput-object p2, p0, Lcom/google/android/gms/measurement/internal/t4;->a:Lcom/google/android/gms/measurement/internal/u4;
 
-    .line 4
     iput p3, p0, Lcom/google/android/gms/measurement/internal/t4;->b:I
 
-    .line 5
     iput-object p4, p0, Lcom/google/android/gms/measurement/internal/t4;->c:Ljava/lang/Throwable;
 
-    .line 6
     iput-object p5, p0, Lcom/google/android/gms/measurement/internal/t4;->d:[B
 
-    .line 7
     iput-object p1, p0, Lcom/google/android/gms/measurement/internal/t4;->f:Ljava/lang/String;
 
-    .line 8
     iput-object p6, p0, Lcom/google/android/gms/measurement/internal/t4;->g:Ljava/util/Map;
 
     return-void
@@ -84,7 +76,6 @@
 .method synthetic constructor <init>(Ljava/lang/String;Lcom/google/android/gms/measurement/internal/u4;ILjava/lang/Throwable;[BLjava/util/Map;Lcom/google/android/gms/measurement/internal/r4;)V
     .locals 0
 
-    .line 9
     invoke-direct/range {p0 .. p6}, Lcom/google/android/gms/measurement/internal/t4;-><init>(Ljava/lang/String;Lcom/google/android/gms/measurement/internal/u4;ILjava/lang/Throwable;[BLjava/util/Map;)V
 
     return-void
@@ -95,7 +86,6 @@
 .method public final run()V
     .locals 6
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/measurement/internal/t4;->a:Lcom/google/android/gms/measurement/internal/u4;
 
     iget-object v1, p0, Lcom/google/android/gms/measurement/internal/t4;->f:Ljava/lang/String;

@@ -25,10 +25,8 @@
 .method public constructor <init>()V
     .locals 2
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     new-instance v0, Landroid/graphics/PointF;
 
     const/high16 v1, 0x3f000000    # 0.5f
@@ -39,7 +37,6 @@
 
     const/high16 v0, 0x3f800000    # 1.0f
 
-    .line 3
     iput v0, p0, Lcom/commsource/studio/layer/Position;->ratio:F
 
     return-void
@@ -56,10 +53,8 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 4
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 5
     new-instance v0, Landroid/graphics/PointF;
 
     const/high16 v1, 0x3f000000    # 0.5f
@@ -70,20 +65,16 @@
 
     const/high16 v1, 0x3f800000    # 1.0f
 
-    .line 6
     iput v1, p0, Lcom/commsource/studio/layer/Position;->ratio:F
 
-    .line 7
     iget-object v1, p1, Lcom/commsource/studio/layer/Position;->centerOffset:Landroid/graphics/PointF;
 
     invoke-virtual {v0, v1}, Landroid/graphics/PointF;->set(Landroid/graphics/PointF;)V
 
-    .line 8
     iget v0, p1, Lcom/commsource/studio/layer/Position;->ratio:F
 
     iput v0, p0, Lcom/commsource/studio/layer/Position;->ratio:F
 
-    .line 9
     iget p1, p1, Lcom/commsource/studio/layer/Position;->rotate:F
 
     iput p1, p0, Lcom/commsource/studio/layer/Position;->rotate:F
@@ -94,10 +85,8 @@
 .method public constructor <init>(Z)V
     .locals 3
 
-    .line 10
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 11
     new-instance v0, Landroid/graphics/PointF;
 
     const/high16 v1, 0x3f000000    # 0.5f
@@ -108,28 +97,24 @@
 
     const/high16 v1, 0x3f800000    # 1.0f
 
-    .line 12
     iput v1, p0, Lcom/commsource/studio/layer/Position;->ratio:F
 
     if-eqz p1, :cond_0
 
     const p1, 0x3f2aaaab
 
-    .line 13
     iput p1, p0, Lcom/commsource/studio/layer/Position;->ratio:F
 
     const p1, 0x3e99999a    # 0.3f
 
     const v1, 0x3f333333    # 0.7f
 
-    .line 14
     invoke-static {p1, v1}, Lcom/commsource/util/common/i;->y(FF)F
 
     move-result v2
 
     iput v2, v0, Landroid/graphics/PointF;->x:F
 
-    .line 15
     invoke-static {p1, v1}, Lcom/commsource/util/common/i;->y(FF)F
 
     move-result p1
@@ -157,12 +142,10 @@
 
     if-ne p0, p1, :cond_0
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
 
-    .line 2
     :cond_0
     instance-of v2, p1, Lcom/commsource/studio/layer/Position;
 
@@ -170,12 +153,10 @@
 
     if-nez v2, :cond_1
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v3
 
-    .line 4
     :cond_1
     iget-object v2, p0, Lcom/commsource/studio/layer/Position;->centerOffset:Landroid/graphics/PointF;
 
@@ -191,12 +172,10 @@
 
     if-eqz v2, :cond_2
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v3
 
-    .line 6
     :cond_2
     iget v2, p0, Lcom/commsource/studio/layer/Position;->ratio:F
 
@@ -206,12 +185,10 @@
 
     if-eqz v2, :cond_3
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v3
 
-    .line 8
     :cond_3
     iget v2, p0, Lcom/commsource/studio/layer/Position;->rotate:F
 
@@ -221,12 +198,10 @@
 
     if-eqz p1, :cond_4
 
-    .line 9
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v3
 
-    .line 10
     :cond_4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -242,7 +217,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/layer/Position;->centerOffset:Landroid/graphics/PointF;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -257,7 +231,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/layer/Position;->ratio:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -272,7 +245,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/layer/Position;->rotate:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -287,7 +259,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/layer/Position;->centerOffset:Landroid/graphics/PointF;
 
     invoke-virtual {v1}, Landroid/graphics/PointF;->hashCode()I
@@ -296,7 +267,6 @@
 
     mul-int/lit8 v1, v1, 0x1f
 
-    .line 2
     iget v2, p0, Lcom/commsource/studio/layer/Position;->ratio:F
 
     invoke-static {v2}, Ljava/lang/Float;->floatToIntBits(F)I
@@ -307,7 +277,6 @@
 
     mul-int/lit8 v1, v1, 0x1f
 
-    .line 3
     iget v2, p0, Lcom/commsource/studio/layer/Position;->rotate:F
 
     invoke-static {v2}, Ljava/lang/Float;->floatToIntBits(F)I
@@ -316,7 +285,6 @@
 
     add-int/2addr v1, v2
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
@@ -337,7 +305,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-virtual {p1}, Lcom/commsource/studio/MatrixBox;->getScale()F
 
     move-result v1
@@ -348,7 +315,6 @@
 
     iput v1, p0, Lcom/commsource/studio/layer/Position;->ratio:F
 
-    .line 2
     invoke-virtual {p1}, Lcom/commsource/studio/MatrixBox;->getRotate()F
 
     move-result v1
@@ -373,14 +339,12 @@
 
     aput p5, v2, p4
 
-    .line 3
     invoke-virtual {p1}, Lcom/commsource/studio/MatrixBox;->getMatrix()Landroid/graphics/Matrix;
 
     move-result-object p1
 
     invoke-virtual {p1, v2}, Landroid/graphics/Matrix;->mapPoints([F)V
 
-    .line 4
     iget-object p1, p0, Lcom/commsource/studio/layer/Position;->centerOffset:Landroid/graphics/PointF;
 
     aget p5, v2, v3
@@ -389,14 +353,12 @@
 
     iput p5, p1, Landroid/graphics/PointF;->x:F
 
-    .line 5
     aget p2, v2, p4
 
     div-float/2addr p2, p3
 
     iput p2, p1, Landroid/graphics/PointF;->y:F
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -409,7 +371,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/studio/layer/Position;->ratio:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -424,7 +385,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/studio/layer/Position;->rotate:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -443,7 +403,6 @@
 
     int-to-float p3, p3
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/layer/Position;->centerOffset:Landroid/graphics/PointF;
 
     iget v2, v1, Landroid/graphics/PointF;->x:F
@@ -452,7 +411,6 @@
 
     int-to-float p4, p4
 
-    .line 2
     iget v1, v1, Landroid/graphics/PointF;->y:F
 
     mul-float v7, p4, v1
@@ -461,17 +419,14 @@
 
     div-float/2addr p3, p4
 
-    .line 3
     iget p4, p0, Lcom/commsource/studio/layer/Position;->ratio:F
 
     mul-float v8, p3, p4
 
-    .line 4
     new-instance p3, Lcom/commsource/studio/MatrixBox;
 
     invoke-direct {p3}, Lcom/commsource/studio/MatrixBox;-><init>()V
 
-    .line 5
     iget v9, p0, Lcom/commsource/studio/layer/Position;->rotate:F
 
     move-object v3, p3
@@ -480,10 +435,8 @@
 
     move v5, p2
 
-    .line 6
     invoke-virtual/range {v3 .. v9}, Lcom/commsource/studio/MatrixBox;->set(IIFFFF)V
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p3
@@ -498,7 +451,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V

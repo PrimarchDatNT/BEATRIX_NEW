@@ -21,7 +21,6 @@
 
     const-string v1, "SubsUtil"
 
-    .line 1
     sput-object v1, Lcom/commsource/util/b2;->a:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -32,7 +31,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -59,7 +57,6 @@
 
     invoke-static {v6}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v7, Lcom/commsource/util/b2;->a:Ljava/lang/String;
 
     new-instance v8, Ljava/lang/StringBuilder;
@@ -78,14 +75,12 @@
 
     invoke-static {v7, v8}, Lcom/meitu/library/util/Debug/Debug;->z(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 2
     invoke-static {p0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v7
 
     if-nez v7, :cond_6
 
-    .line 3
     :try_start_0
     invoke-virtual {p0, v5}, Ljava/lang/String;->contains(Ljava/lang/CharSequence;)Z
 
@@ -95,7 +90,6 @@
 
     if-eqz v7, :cond_1
 
-    .line 4
     invoke-virtual {p0, v5}, Ljava/lang/String;->indexOf(Ljava/lang/String;)I
 
     move-result v0
@@ -108,14 +102,12 @@
 
     move-result-object p0
 
-    .line 5
     invoke-virtual {p0, v4}, Ljava/lang/String;->contains(Ljava/lang/CharSequence;)Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
-    .line 6
     invoke-virtual {p0, v4}, Ljava/lang/String;->indexOf(Ljava/lang/String;)I
 
     move-result v0
@@ -130,7 +122,6 @@
 
     return-object p0
 
-    .line 7
     :cond_0
     invoke-static {v6}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -140,7 +131,6 @@
     :try_start_1
     const-string v4, "https://"
 
-    .line 8
     invoke-virtual {p0, v4}, Ljava/lang/String;->startsWith(Ljava/lang/String;)Z
 
     move-result v4
@@ -164,14 +154,12 @@
 
     if-eqz v4, :cond_6
 
-    .line 9
     invoke-virtual {p0, v3}, Ljava/lang/String;->contains(Ljava/lang/CharSequence;)Z
 
     move-result v4
 
     if-eqz v4, :cond_4
 
-    .line 10
     invoke-virtual {p0, v3}, Ljava/lang/String;->lastIndexOf(Ljava/lang/String;)I
 
     move-result v0
@@ -182,14 +170,12 @@
 
     move-result-object p0
 
-    .line 11
     invoke-virtual {p0, v1}, Ljava/lang/String;->contains(Ljava/lang/CharSequence;)Z
 
     move-result v0
 
     if-eqz v0, :cond_3
 
-    .line 12
     invoke-virtual {p0, v1}, Ljava/lang/String;->indexOf(Ljava/lang/String;)I
 
     move-result v0
@@ -204,13 +190,11 @@
 
     return-object p0
 
-    .line 13
     :cond_3
     invoke-static {v6}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
 
-    .line 14
     :cond_4
     :try_start_2
     invoke-virtual {p0, v2}, Ljava/lang/String;->contains(Ljava/lang/CharSequence;)Z
@@ -219,7 +203,6 @@
 
     if-eqz v1, :cond_6
 
-    .line 15
     invoke-virtual {p0, v2}, Ljava/lang/String;->lastIndexOf(Ljava/lang/String;)I
 
     move-result v1
@@ -230,14 +213,12 @@
 
     move-result-object p0
 
-    .line 16
     invoke-virtual {p0, v0}, Ljava/lang/String;->contains(Ljava/lang/CharSequence;)Z
 
     move-result v1
 
     if-eqz v1, :cond_5
 
-    .line 17
     invoke-virtual {p0, v0}, Ljava/lang/String;->indexOf(Ljava/lang/String;)I
 
     move-result v0
@@ -252,7 +233,6 @@
 
     return-object p0
 
-    .line 18
     :cond_5
     invoke-static {v6}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -261,13 +241,11 @@
     :catch_0
     move-exception p0
 
-    .line 19
     invoke-static {p0}, Lcom/meitu/library/util/Debug/Debug;->q(Ljava/lang/Throwable;)V
 
     :cond_6
     const/4 p0, 0x0
 
-    .line 20
     invoke-static {v6}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
@@ -297,7 +275,6 @@
 
     const-string v1, "shortlink"
 
-    .line 1
     invoke-interface {p0, v1}, Ljava/util/Map;->containsKey(Ljava/lang/Object;)Z
 
     move-result v2
@@ -312,7 +289,6 @@
 
     if-eqz v2, :cond_0
 
-    .line 2
     invoke-interface {p0, v1}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p0
@@ -326,7 +302,6 @@
     :cond_0
     const/4 p0, 0x0
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
@@ -339,14 +314,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lf/d/i/o;->e0()I
 
     move-result v1
 
     if-lez v1, :cond_0
 
-    .line 2
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
     move-result-object v2
@@ -373,7 +346,6 @@
 
     return-object v1
 
-    .line 3
     :cond_0
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
@@ -397,14 +369,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lf/d/i/o;->e0()I
 
     move-result v1
 
     if-lez v1, :cond_0
 
-    .line 2
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
     move-result-object v2
@@ -417,7 +387,6 @@
 
     const/4 v5, 0x0
 
-    .line 3
     invoke-static {v1}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
 
     move-result-object v1
@@ -428,12 +397,10 @@
 
     move-result-object v1
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
 
-    .line 5
     :cond_0
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
@@ -457,7 +424,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     instance-of v1, p0, Lcom/commsource/studio/function/MosaicFragment;
 
     if-nez v1, :cond_1
@@ -506,7 +472,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     instance-of v1, p0, Lcom/commsource/studio/function/SegmentFragment;
 
     if-nez v1, :cond_1

@@ -27,7 +27,6 @@
 .method constructor <init>(Lcom/mopub/nativeads/ClientPositioningSource;Lcom/mopub/nativeads/PositioningSource$PositioningListener;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/mopub/nativeads/ClientPositioningSource$1;->this$0:Lcom/mopub/nativeads/ClientPositioningSource;
 
     iput-object p2, p0, Lcom/mopub/nativeads/ClientPositioningSource$1;->val$listener:Lcom/mopub/nativeads/PositioningSource$PositioningListener;
@@ -42,7 +41,6 @@
 .method public run()V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/nativeads/ClientPositioningSource$1;->val$listener:Lcom/mopub/nativeads/PositioningSource$PositioningListener;
 
     iget-object v1, p0, Lcom/mopub/nativeads/ClientPositioningSource$1;->this$0:Lcom/mopub/nativeads/ClientPositioningSource;

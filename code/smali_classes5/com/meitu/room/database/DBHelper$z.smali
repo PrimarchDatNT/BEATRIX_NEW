@@ -19,7 +19,6 @@
 .method constructor <init>(II)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1, p2}, Landroidx/room/migration/Migration;-><init>(II)V
 
     return-void
@@ -44,35 +43,28 @@
 
     const-string v1, "alter table MAKEUP_ENTITY ADD COLUMN \'material_type\' INTEGER NOT NULL DEFAULT(0)"
 
-    .line 1
     invoke-interface {p1, v1}, Landroidx/sqlite/db/SupportSQLiteDatabase;->execSQL(Ljava/lang/String;)V
 
     const-string v1, "alter table MAKEUP_ENTITY ADD COLUMN \'is_default\' INTEGER NOT NULL DEFAULT(0)"
 
-    .line 2
     invoke-interface {p1, v1}, Landroidx/sqlite/db/SupportSQLiteDatabase;->execSQL(Ljava/lang/String;)V
 
     const-string v1, "alter table MAKEUP_ENTITY ADD COLUMN \'theme_color\' TEXT"
 
-    .line 3
     invoke-interface {p1, v1}, Landroidx/sqlite/db/SupportSQLiteDatabase;->execSQL(Ljava/lang/String;)V
 
     const-string v1, "alter table MAKEUP_ENTITY ADD COLUMN \'suit_default_alpha\' INTEGER NOT NULL DEFAULT(0)"
 
-    .line 4
     invoke-interface {p1, v1}, Landroidx/sqlite/db/SupportSQLiteDatabase;->execSQL(Ljava/lang/String;)V
 
     const-string v1, "alter table MAKEUP_ENTITY ADD COLUMN \'filter_default_alpha\' INTEGER NOT NULL DEFAULT(0)"
 
-    .line 5
     invoke-interface {p1, v1}, Landroidx/sqlite/db/SupportSQLiteDatabase;->execSQL(Ljava/lang/String;)V
 
     const-string v1, "alter table MAKEUP_ENTITY ADD COLUMN \'corner_marker\' INTEGER NOT NULL DEFAULT(0)"
 
-    .line 6
     invoke-interface {p1, v1}, Landroidx/sqlite/db/SupportSQLiteDatabase;->execSQL(Ljava/lang/String;)V
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

@@ -24,7 +24,6 @@
 .method constructor <init>(Ljava/lang/String;Lcom/meitu/hwbusinesskit/core/bean/AdSlot;Lcom/meitu/hwbusinesskit/core/s2s/S2sAdListener;)V
     .locals 0
 
-    .line 1
     iput-object p2, p0, Lcom/meitu/hwbusinesskit/core/s2s/S2sAdController$1;->val$adSlot:Lcom/meitu/hwbusinesskit/core/bean/AdSlot;
 
     iput-object p3, p0, Lcom/meitu/hwbusinesskit/core/s2s/S2sAdController$1;->val$adListener:Lcom/meitu/hwbusinesskit/core/s2s/S2sAdListener;
@@ -43,7 +42,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/hwbusinesskit/core/s2s/S2sAdController$1;->val$adSlot:Lcom/meitu/hwbusinesskit/core/bean/AdSlot;
 
     invoke-virtual {v1}, Lcom/meitu/hwbusinesskit/core/bean/AdSlot;->getAd_slot_id()Ljava/lang/String;
@@ -56,7 +54,6 @@
 
     if-eqz v1, :cond_5
 
-    .line 2
     invoke-virtual {v1}, Lcom/meitu/hwbusinesskit/core/s2s/bean/S2sAdCollection;->getData()Ljava/util/ArrayList;
 
     move-result-object v2
@@ -65,7 +62,6 @@
 
     goto/16 :goto_1
 
-    .line 3
     :cond_0
     invoke-virtual {v1}, Lcom/meitu/hwbusinesskit/core/s2s/bean/S2sAdCollection;->getData()Ljava/util/ArrayList;
 
@@ -88,7 +84,6 @@
 
     check-cast v2, Lcom/meitu/hwbusinesskit/core/s2s/bean/S2sAd;
 
-    .line 4
     invoke-virtual {v2}, Lcom/meitu/hwbusinesskit/core/s2s/bean/S2sAd;->isShowed()Z
 
     move-result v3
@@ -107,7 +102,6 @@
 
     if-eqz v3, :cond_3
 
-    .line 5
     invoke-static {v2}, Lcom/meitu/hwbusinesskit/core/s2s/S2sAdController;->access$300(Lcom/meitu/hwbusinesskit/core/s2s/bean/S2sAd;)Z
 
     move-result v3
@@ -116,7 +110,6 @@
 
     if-eqz v3, :cond_2
 
-    .line 6
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -137,21 +130,17 @@
 
     invoke-static {v5, v1}, Lcom/meitu/hwbusinesskit/core/utils/TestLog;->logGlide(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 7
     iget-object v1, p0, Lcom/meitu/hwbusinesskit/core/s2s/S2sAdController$1;->val$adListener:Lcom/meitu/hwbusinesskit/core/s2s/S2sAdListener;
 
     if-eqz v1, :cond_1
 
-    .line 8
     invoke-interface {v1, v2}, Lcom/meitu/hwbusinesskit/core/s2s/S2sAdListener;->onLoaded(Lcom/meitu/hwbusinesskit/core/s2s/bean/S2sAd;)V
 
-    .line 9
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 10
     :cond_2
     new-instance v3, Ljava/lang/StringBuilder;
 
@@ -173,7 +162,6 @@
 
     invoke-static {v5, v3}, Lcom/meitu/hwbusinesskit/core/utils/TestLog;->logGlide(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 11
     new-instance v3, Ljava/lang/StringBuilder;
 
     invoke-direct {v3}, Ljava/lang/StringBuilder;-><init>()V
@@ -198,7 +186,6 @@
 
     goto :goto_0
 
-    .line 12
     :cond_3
     new-instance v3, Ljava/lang/StringBuilder;
 
@@ -224,7 +211,6 @@
 
     goto/16 :goto_0
 
-    .line 13
     :cond_4
     iget-object v1, p0, Lcom/meitu/hwbusinesskit/core/s2s/S2sAdController$1;->val$adSlot:Lcom/meitu/hwbusinesskit/core/bean/AdSlot;
 
@@ -232,12 +218,10 @@
 
     invoke-static {v1, v2}, Lcom/meitu/hwbusinesskit/core/s2s/S2sAdController;->access$100(Lcom/meitu/hwbusinesskit/core/bean/AdSlot;Lcom/meitu/hwbusinesskit/core/s2s/S2sAdListener;)V
 
-    .line 14
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 15
     :cond_5
     :goto_1
     iget-object v1, p0, Lcom/meitu/hwbusinesskit/core/s2s/S2sAdController$1;->val$adSlot:Lcom/meitu/hwbusinesskit/core/bean/AdSlot;
@@ -246,7 +230,6 @@
 
     invoke-static {v1, v2}, Lcom/meitu/hwbusinesskit/core/s2s/S2sAdController;->access$100(Lcom/meitu/hwbusinesskit/core/bean/AdSlot;Lcom/meitu/hwbusinesskit/core/s2s/S2sAdListener;)V
 
-    .line 16
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

@@ -27,7 +27,6 @@
 .method constructor <init>(Lio/grpc/a2/i$b;Lcom/google/common/util/concurrent/v0;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lio/grpc/a2/i$b$g;->b:Lio/grpc/a2/i$b;
 
     iput-object p2, p0, Lio/grpc/a2/i$b$g;->a:Lcom/google/common/util/concurrent/v0;
@@ -42,7 +41,6 @@
 .method public run()V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lio/grpc/a2/i$b$g;->a:Lcom/google/common/util/concurrent/v0;
 
     iget-object v1, p0, Lio/grpc/a2/i$b$g;->b:Lio/grpc/a2/i$b;

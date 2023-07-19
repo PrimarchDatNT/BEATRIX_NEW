@@ -36,10 +36,8 @@
 .method public final a(Lcom/google/firebase/components/g;)Ljava/lang/Object;
     .locals 3
 
-    .line 1
     const-class v0, Lcom/google/firebase/d;
 
-    .line 2
     invoke-interface {p1, v0}, Lcom/google/firebase/components/g;->a(Ljava/lang/Class;)Ljava/lang/Object;
 
     move-result-object v0
@@ -48,7 +46,6 @@
 
     const-class v1, Landroid/content/Context;
 
-    .line 3
     invoke-interface {p1, v1}, Lcom/google/firebase/components/g;->a(Ljava/lang/Class;)Ljava/lang/Object;
 
     move-result-object v1
@@ -57,14 +54,12 @@
 
     const-class v2, Lcom/google/firebase/p/d;
 
-    .line 4
     invoke-interface {p1, v2}, Lcom/google/firebase/components/g;->a(Ljava/lang/Class;)Ljava/lang/Object;
 
     move-result-object p1
 
     check-cast p1, Lcom/google/firebase/p/d;
 
-    .line 5
     invoke-static {v0, v1, p1}, Lcom/google/firebase/analytics/a/b;->g(Lcom/google/firebase/d;Landroid/content/Context;Lcom/google/firebase/p/d;)Lcom/google/firebase/analytics/a/a;
 
     move-result-object p1

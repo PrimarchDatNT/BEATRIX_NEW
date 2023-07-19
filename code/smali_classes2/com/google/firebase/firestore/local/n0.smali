@@ -21,7 +21,6 @@
 .method public constructor <init>(Lcom/google/firebase/firestore/core/e0;IJLcom/google/firebase/firestore/local/QueryPurpose;)V
     .locals 8
 
-    .line 8
     sget-object v6, Lcom/google/firebase/firestore/model/l;->b:Lcom/google/firebase/firestore/model/l;
 
     sget-object v7, Lcom/google/firebase/firestore/remote/b0;->q:Lcom/google/protobuf/ByteString;
@@ -44,10 +43,8 @@
 .method public constructor <init>(Lcom/google/firebase/firestore/core/e0;IJLcom/google/firebase/firestore/local/QueryPurpose;Lcom/google/firebase/firestore/model/l;Lcom/google/protobuf/ByteString;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     invoke-static {p1}, Lcom/google/common/base/t;->E(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -56,16 +53,12 @@
 
     iput-object p1, p0, Lcom/google/firebase/firestore/local/n0;->a:Lcom/google/firebase/firestore/core/e0;
 
-    .line 3
     iput p2, p0, Lcom/google/firebase/firestore/local/n0;->b:I
 
-    .line 4
     iput-wide p3, p0, Lcom/google/firebase/firestore/local/n0;->c:J
 
-    .line 5
     iput-object p5, p0, Lcom/google/firebase/firestore/local/n0;->d:Lcom/google/firebase/firestore/local/QueryPurpose;
 
-    .line 6
     invoke-static {p6}, Lcom/google/common/base/t;->E(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -74,7 +67,6 @@
 
     iput-object p1, p0, Lcom/google/firebase/firestore/local/n0;->e:Lcom/google/firebase/firestore/model/l;
 
-    .line 7
     invoke-static {p7}, Lcom/google/common/base/t;->E(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -91,7 +83,6 @@
 .method public a(Lcom/google/firebase/firestore/model/l;Lcom/google/protobuf/ByteString;J)Lcom/google/firebase/firestore/local/n0;
     .locals 9
 
-    .line 1
     new-instance v8, Lcom/google/firebase/firestore/local/n0;
 
     iget-object v1, p0, Lcom/google/firebase/firestore/local/n0;->a:Lcom/google/firebase/firestore/core/e0;
@@ -116,7 +107,6 @@
 .method public b()Lcom/google/firebase/firestore/local/QueryPurpose;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/firestore/local/n0;->d:Lcom/google/firebase/firestore/local/QueryPurpose;
 
     return-object v0
@@ -125,7 +115,6 @@
 .method public c()Lcom/google/firebase/firestore/core/e0;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/firestore/local/n0;->a:Lcom/google/firebase/firestore/core/e0;
 
     return-object v0
@@ -134,7 +123,6 @@
 .method public d()Lcom/google/protobuf/ByteString;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/firestore/local/n0;->f:Lcom/google/protobuf/ByteString;
 
     return-object v0
@@ -143,7 +131,6 @@
 .method public e()J
     .locals 2
 
-    .line 1
     iget-wide v0, p0, Lcom/google/firebase/firestore/local/n0;->c:J
 
     return-wide v0
@@ -163,7 +150,6 @@
 
     if-eqz p1, :cond_3
 
-    .line 1
     const-class v2, Lcom/google/firebase/firestore/local/n0;
 
     invoke-virtual {p1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
@@ -174,11 +160,9 @@
 
     goto :goto_1
 
-    .line 2
     :cond_1
     check-cast p1, Lcom/google/firebase/firestore/local/n0;
 
-    .line 3
     iget-object v2, p0, Lcom/google/firebase/firestore/local/n0;->a:Lcom/google/firebase/firestore/core/e0;
 
     iget-object v3, p1, Lcom/google/firebase/firestore/local/n0;->a:Lcom/google/firebase/firestore/core/e0;
@@ -207,7 +191,6 @@
 
     iget-object v3, p1, Lcom/google/firebase/firestore/local/n0;->d:Lcom/google/firebase/firestore/local/QueryPurpose;
 
-    .line 4
     invoke-virtual {v2, v3}, Ljava/lang/Enum;->equals(Ljava/lang/Object;)Z
 
     move-result v2
@@ -218,7 +201,6 @@
 
     iget-object v3, p1, Lcom/google/firebase/firestore/local/n0;->e:Lcom/google/firebase/firestore/model/l;
 
-    .line 5
     invoke-virtual {v2, v3}, Lcom/google/firebase/firestore/model/l;->equals(Ljava/lang/Object;)Z
 
     move-result v2
@@ -229,7 +211,6 @@
 
     iget-object p1, p1, Lcom/google/firebase/firestore/local/n0;->f:Lcom/google/protobuf/ByteString;
 
-    .line 6
     invoke-virtual {v2, p1}, Lcom/google/protobuf/ByteString;->equals(Ljava/lang/Object;)Z
 
     move-result p1
@@ -252,7 +233,6 @@
 .method public f()Lcom/google/firebase/firestore/model/l;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/firestore/local/n0;->e:Lcom/google/firebase/firestore/model/l;
 
     return-object v0
@@ -261,7 +241,6 @@
 .method public g()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lcom/google/firebase/firestore/local/n0;->b:I
 
     return v0
@@ -270,7 +249,6 @@
 .method public hashCode()I
     .locals 3
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/firestore/local/n0;->a:Lcom/google/firebase/firestore/core/e0;
 
     invoke-virtual {v0}, Lcom/google/firebase/firestore/core/e0;->hashCode()I
@@ -279,14 +257,12 @@
 
     mul-int/lit8 v0, v0, 0x1f
 
-    .line 2
     iget v1, p0, Lcom/google/firebase/firestore/local/n0;->b:I
 
     add-int/2addr v0, v1
 
     mul-int/lit8 v0, v0, 0x1f
 
-    .line 3
     iget-wide v1, p0, Lcom/google/firebase/firestore/local/n0;->c:J
 
     long-to-int v2, v1
@@ -295,7 +271,6 @@
 
     mul-int/lit8 v0, v0, 0x1f
 
-    .line 4
     iget-object v1, p0, Lcom/google/firebase/firestore/local/n0;->d:Lcom/google/firebase/firestore/local/QueryPurpose;
 
     invoke-virtual {v1}, Ljava/lang/Enum;->hashCode()I
@@ -306,7 +281,6 @@
 
     mul-int/lit8 v0, v0, 0x1f
 
-    .line 5
     iget-object v1, p0, Lcom/google/firebase/firestore/local/n0;->e:Lcom/google/firebase/firestore/model/l;
 
     invoke-virtual {v1}, Lcom/google/firebase/firestore/model/l;->hashCode()I
@@ -317,7 +291,6 @@
 
     mul-int/lit8 v0, v0, 0x1f
 
-    .line 6
     iget-object v1, p0, Lcom/google/firebase/firestore/local/n0;->f:Lcom/google/protobuf/ByteString;
 
     invoke-virtual {v1}, Lcom/google/protobuf/ByteString;->hashCode()I
@@ -332,7 +305,6 @@
 .method public toString()Ljava/lang/String;
     .locals 3
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V

@@ -22,7 +22,6 @@
 
     const-string v0, "localhost:5778"
 
-    .line 1
     invoke-direct {p0, v0}, Lio/jaegertracing/a/n/c;-><init>(Ljava/lang/String;)V
 
     return-void
@@ -31,10 +30,8 @@
 .method public constructor <init>(Ljava/lang/String;)V
     .locals 1
 
-    .line 2
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 3
     new-instance v0, Lcom/google/gson/Gson;
 
     invoke-direct {v0}, Lcom/google/gson/Gson;-><init>()V
@@ -48,7 +45,6 @@
     :cond_0
     const-string p1, "localhost:5778"
 
-    .line 4
     :goto_0
     iput-object p1, p0, Lio/jaegertracing/a/n/c;->a:Ljava/lang/String;
 
@@ -60,7 +56,6 @@
 .method a(Ljava/lang/String;)Lio/jaegertracing/a/n/i/e;
     .locals 2
 
-    .line 1
     :try_start_0
     iget-object v0, p0, Lio/jaegertracing/a/n/c;->b:Lcom/google/gson/Gson;
 
@@ -79,7 +74,6 @@
     :catch_0
     move-exception p1
 
-    .line 2
     new-instance v0, Lio/jaegertracing/internal/exceptions/SamplingStrategyErrorException;
 
     const-string v1, "Cannot deserialize json"
@@ -97,7 +91,6 @@
         }
     .end annotation
 
-    .line 1
     :try_start_0
     new-instance v0, Ljava/lang/StringBuilder;
 
@@ -117,7 +110,6 @@
 
     const-string v1, "UTF-8"
 
-    .line 2
     invoke-static {p1, v1}, Ljava/net/URLEncoder;->encode(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p1
@@ -128,14 +120,12 @@
 
     move-result-object p1
 
-    .line 3
     invoke-static {p1}, Lio/jaegertracing/a/p/a;->a(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p1
     :try_end_0
     .catch Ljava/io/IOException; {:try_start_0 .. :try_end_0} :catch_0
 
-    .line 4
     invoke-virtual {p0, p1}, Lio/jaegertracing/a/n/c;->a(Ljava/lang/String;)Lio/jaegertracing/a/n/i/e;
 
     move-result-object p1
@@ -145,7 +135,6 @@
     :catch_0
     move-exception p1
 
-    .line 5
     new-instance v0, Lio/jaegertracing/internal/exceptions/SamplingStrategyErrorException;
 
     const-string v1, "http call to get sampling strategy from local agent failed."
@@ -158,7 +147,6 @@
 .method public toString()Ljava/lang/String;
     .locals 2
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V

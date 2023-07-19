@@ -47,7 +47,6 @@
 
     const-string v0, ":"
 
-    .line 1
     invoke-static {v0}, Lokio/ByteString;->encodeUtf8(Ljava/lang/String;)Lokio/ByteString;
 
     move-result-object v0
@@ -58,7 +57,6 @@
 
     new-array v0, v0, [Lio/grpc/okhttp/internal/framed/c;
 
-    .line 2
     new-instance v1, Lio/grpc/okhttp/internal/framed/c;
 
     sget-object v2, Lio/grpc/okhttp/internal/framed/c;->h:Lokio/ByteString;
@@ -683,7 +681,6 @@
 
     sput-object v0, Lio/grpc/okhttp/internal/framed/d;->h:[Lio/grpc/okhttp/internal/framed/c;
 
-    .line 3
     invoke-static {}, Lio/grpc/okhttp/internal/framed/d;->f()Ljava/util/Map;
 
     move-result-object v0
@@ -696,7 +693,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -705,7 +701,6 @@
 .method static synthetic a()[Lio/grpc/okhttp/internal/framed/c;
     .locals 1
 
-    .line 1
     sget-object v0, Lio/grpc/okhttp/internal/framed/d;->h:[Lio/grpc/okhttp/internal/framed/c;
 
     return-object v0
@@ -719,7 +714,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p0}, Lio/grpc/okhttp/internal/framed/d;->e(Lokio/ByteString;)Lokio/ByteString;
 
     move-result-object p0
@@ -730,7 +724,6 @@
 .method static synthetic c()Ljava/util/Map;
     .locals 1
 
-    .line 1
     sget-object v0, Lio/grpc/okhttp/internal/framed/d;->i:Ljava/util/Map;
 
     return-object v0
@@ -739,7 +732,6 @@
 .method static synthetic d()Lokio/ByteString;
     .locals 1
 
-    .line 1
     sget-object v0, Lio/grpc/okhttp/internal/framed/d;->e:Lokio/ByteString;
 
     return-object v0
@@ -753,7 +745,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lokio/ByteString;->size()I
 
     move-result v0
@@ -763,7 +754,6 @@
     :goto_0
     if-ge v1, v0, :cond_2
 
-    .line 2
     invoke-virtual {p0, v1}, Lokio/ByteString;->getByte(I)B
 
     move-result v2
@@ -778,7 +768,6 @@
 
     goto :goto_1
 
-    .line 3
     :cond_0
     new-instance v0, Ljava/io/IOException;
 
@@ -826,7 +815,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/util/LinkedHashMap;
 
     sget-object v1, Lio/grpc/okhttp/internal/framed/d;->h:[Lio/grpc/okhttp/internal/framed/c;
@@ -837,7 +825,6 @@
 
     const/4 v1, 0x0
 
-    .line 2
     :goto_0
     sget-object v2, Lio/grpc/okhttp/internal/framed/d;->h:[Lio/grpc/okhttp/internal/framed/c;
 
@@ -845,7 +832,6 @@
 
     if-ge v1, v3, :cond_1
 
-    .line 3
     aget-object v3, v2, v1
 
     iget-object v3, v3, Lio/grpc/okhttp/internal/framed/c;->a:Lokio/ByteString;
@@ -856,7 +842,6 @@
 
     if-nez v3, :cond_0
 
-    .line 4
     aget-object v2, v2, v1
 
     iget-object v2, v2, Lio/grpc/okhttp/internal/framed/c;->a:Lokio/ByteString;
@@ -872,7 +857,6 @@
 
     goto :goto_0
 
-    .line 5
     :cond_1
     invoke-static {v0}, Ljava/util/Collections;->unmodifiableMap(Ljava/util/Map;)Ljava/util/Map;
 

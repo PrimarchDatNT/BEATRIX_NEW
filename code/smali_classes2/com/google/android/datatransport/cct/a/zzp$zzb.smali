@@ -32,7 +32,6 @@
 .method static constructor <clinit>()V
     .locals 4
 
-    .line 1
     new-instance v0, Lcom/google/android/datatransport/cct/a/zzp$zzb;
 
     const-string v1, "UNKNOWN"
@@ -43,7 +42,6 @@
 
     sput-object v0, Lcom/google/android/datatransport/cct/a/zzp$zzb;->zza:Lcom/google/android/datatransport/cct/a/zzp$zzb;
 
-    .line 2
     new-instance v0, Lcom/google/android/datatransport/cct/a/zzp$zzb;
 
     const-string v1, "ANDROID_FIREBASE"
@@ -67,7 +65,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
     return-void

@@ -13,7 +13,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -26,7 +25,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/easyeditor/entity/c;->c()Lcom/commsource/easyeditor/entity/EditEffectEnum;
 
     move-result-object p0
@@ -39,10 +37,8 @@
 
     const-string v2, "\u5b50\u529f\u80fd"
 
-    .line 2
     invoke-static {v1, v2, p0}, Lcom/commsource/statistics/i;->r(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -55,14 +51,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/util/HashMap;
 
     const/4 v2, 0x4
 
     invoke-direct {v1, v2}, Ljava/util/HashMap;-><init>(I)V
 
-    .line 2
     invoke-virtual {p0}, Lcom/commsource/easyeditor/entity/c;->c()Lcom/commsource/easyeditor/entity/EditEffectEnum;
 
     move-result-object v2
@@ -75,7 +69,6 @@
 
     invoke-interface {v1, v3, v2}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 3
     new-instance v2, Ljava/lang/StringBuilder;
 
     invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
@@ -84,12 +77,10 @@
 
     move-result v3
 
-    .line 4
     invoke-virtual {p0}, Lcom/commsource/easyeditor/entity/c;->c()Lcom/commsource/easyeditor/entity/EditEffectEnum;
 
     move-result-object p0
 
-    .line 5
     invoke-static {v3, p0}, Lcom/commsource/easyeditor/a2/d;->v(FLcom/commsource/easyeditor/entity/EditEffectEnum;)I
 
     move-result p0
@@ -110,10 +101,8 @@
 
     const-string p0, "easyeditor_edit_feature_slip"
 
-    .line 6
     invoke-static {p0, v1}, Lcom/commsource/statistics/i;->s(Ljava/lang/String;Ljava/util/Map;)V
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -126,14 +115,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/util/HashMap;
 
     const/4 v2, 0x4
 
     invoke-direct {v1, v2}, Ljava/util/HashMap;-><init>(I)V
 
-    .line 2
     invoke-static {p0}, Lcom/commsource/easyeditor/w1;->k(I)Ljava/lang/String;
 
     move-result-object p0
@@ -142,7 +129,6 @@
 
     invoke-interface {v1, v2, p0}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 3
     invoke-virtual {p1}, Lcom/commsource/easyeditor/entity/f;->c()Lcom/commsource/easyeditor/entity/FaceEffectEnum;
 
     move-result-object p0
@@ -165,7 +151,6 @@
 
     invoke-interface {v1, v2, p0}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 4
     invoke-static {p1}, Lcom/commsource/easyeditor/w1;->o(Lcom/commsource/easyeditor/entity/f;)Ljava/lang/String;
 
     move-result-object p0
@@ -174,7 +159,6 @@
 
     invoke-interface {v1, v2, p0}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 5
     invoke-virtual {p1}, Lcom/commsource/easyeditor/entity/f;->c()Lcom/commsource/easyeditor/entity/FaceEffectEnum;
 
     move-result-object p0
@@ -185,7 +169,6 @@
 
     if-eq p0, v2, :cond_2
 
-    .line 6
     invoke-virtual {p1}, Lcom/commsource/easyeditor/entity/f;->c()Lcom/commsource/easyeditor/entity/FaceEffectEnum;
 
     move-result-object p0
@@ -196,7 +179,6 @@
 
     goto :goto_1
 
-    .line 7
     :cond_1
     new-instance p0, Ljava/lang/StringBuilder;
 
@@ -206,12 +188,10 @@
 
     move-result v2
 
-    .line 8
     invoke-virtual {p1}, Lcom/commsource/easyeditor/entity/f;->c()Lcom/commsource/easyeditor/entity/FaceEffectEnum;
 
     move-result-object p1
 
-    .line 9
     invoke-static {v2, p1}, Lcom/commsource/easyeditor/a2/d;->w(FLcom/commsource/easyeditor/entity/FaceEffectEnum;)I
 
     move-result p1
@@ -230,7 +210,6 @@
 
     goto :goto_3
 
-    .line 10
     :cond_2
     :goto_1
     invoke-virtual {p1}, Lcom/commsource/easyeditor/entity/f;->a()F
@@ -256,10 +235,8 @@
     :goto_3
     const-string p0, "easyeditor_face_feature_slip"
 
-    .line 11
     invoke-static {p0, v1}, Lcom/commsource/statistics/i;->s(Ljava/lang/String;Ljava/util/Map;)V
 
-    .line 12
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -272,14 +249,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/util/HashMap;
 
     const/4 v2, 0x4
 
     invoke-direct {v1, v2}, Ljava/util/HashMap;-><init>(I)V
 
-    .line 2
     invoke-static {p0}, Lcom/commsource/easyeditor/w1;->k(I)Ljava/lang/String;
 
     move-result-object p0
@@ -288,7 +263,6 @@
 
     invoke-interface {v1, v2, p0}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 3
     invoke-virtual {p1}, Lcom/commsource/easyeditor/entity/f;->c()Lcom/commsource/easyeditor/entity/FaceEffectEnum;
 
     move-result-object p0
@@ -311,7 +285,6 @@
 
     invoke-interface {v1, v2, p0}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 4
     invoke-static {p1}, Lcom/commsource/easyeditor/w1;->o(Lcom/commsource/easyeditor/entity/f;)Ljava/lang/String;
 
     move-result-object p0
@@ -322,10 +295,8 @@
 
     const-string p0, "easyeditor_face_feature_clk"
 
-    .line 5
     invoke-static {p0, v1}, Lcom/commsource/statistics/i;->s(Ljava/lang/String;Ljava/util/Map;)V
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -338,14 +309,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/util/HashMap;
 
     const/4 v2, 0x4
 
     invoke-direct {v1, v2}, Ljava/util/HashMap;-><init>(I)V
 
-    .line 2
     new-instance v2, Ljava/lang/StringBuilder;
 
     invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
@@ -368,7 +337,6 @@
 
     invoke-interface {v1, v4, v2}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 3
     new-instance v2, Ljava/lang/StringBuilder;
 
     invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
@@ -399,10 +367,8 @@
 
     const-string p0, "easyeditor_edit_filter_slip"
 
-    .line 4
     invoke-static {p0, v1}, Lcom/commsource/statistics/i;->s(Ljava/lang/String;Ljava/util/Map;)V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -419,7 +385,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -444,7 +409,6 @@
 
     invoke-static {v1, v2, p0}, Lcom/commsource/statistics/i;->r(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -457,7 +421,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/util/HashMap;
 
     const/4 v2, 0x4
@@ -476,10 +439,8 @@
     :goto_0
     const-string v2, "\u52a8\u4f5c"
 
-    .line 2
     invoke-interface {v1, v2, p0}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 3
     invoke-virtual {p1}, Lcom/commsource/easyeditor/entity/d;->d()Lcom/commsource/easyeditor/entity/c;
 
     move-result-object p0
@@ -488,7 +449,6 @@
 
     if-eqz p0, :cond_1
 
-    .line 4
     invoke-virtual {p1}, Lcom/commsource/easyeditor/entity/d;->d()Lcom/commsource/easyeditor/entity/c;
 
     move-result-object p0
@@ -501,7 +461,6 @@
 
     goto :goto_1
 
-    .line 5
     :cond_1
     invoke-virtual {p1}, Lcom/commsource/easyeditor/entity/d;->e()Lcom/commsource/easyeditor/entity/f;
 
@@ -509,7 +468,6 @@
 
     if-eqz p0, :cond_2
 
-    .line 6
     invoke-virtual {p1}, Lcom/commsource/easyeditor/entity/d;->e()Lcom/commsource/easyeditor/entity/f;
 
     move-result-object p0
@@ -522,7 +480,6 @@
 
     goto :goto_1
 
-    .line 7
     :cond_2
     invoke-virtual {p1}, Lcom/commsource/easyeditor/entity/d;->c()Lcom/commsource/easyeditor/entity/a;
 
@@ -532,17 +489,14 @@
 
     const-string p0, "\u65cb\u8f6c\u88c1\u526a"
 
-    .line 8
     invoke-interface {v1, v2, p0}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     :cond_3
     :goto_1
     const-string p0, "easyeditor_clk_do"
 
-    .line 9
     invoke-static {p0, v1}, Lcom/commsource/statistics/i;->s(Ljava/lang/String;Ljava/util/Map;)V
 
-    .line 10
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -555,12 +509,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Landroid/util/SparseArray;
 
     invoke-direct {v1}, Landroid/util/SparseArray;-><init>()V
 
-    .line 2
     invoke-static {}, Lcom/commsource/easyeditor/entity/FaceEffectEnum;->values()[Lcom/commsource/easyeditor/entity/FaceEffectEnum;
 
     move-result-object v2
@@ -576,7 +528,6 @@
 
     aget-object v6, v2, v5
 
-    .line 3
     invoke-virtual {v6}, Lcom/commsource/easyeditor/entity/FaceEffectEnum;->getId()I
 
     move-result v7
@@ -591,13 +542,11 @@
 
     goto :goto_0
 
-    .line 4
     :cond_0
     new-instance v2, Landroid/util/SparseArray;
 
     invoke-direct {v2}, Landroid/util/SparseArray;-><init>()V
 
-    .line 5
     invoke-static {}, Lcom/commsource/easyeditor/entity/EditEffectEnum;->values()[Lcom/commsource/easyeditor/entity/EditEffectEnum;
 
     move-result-object v3
@@ -611,14 +560,12 @@
 
     aget-object v7, v3, v6
 
-    .line 6
     sget-object v8, Lcom/commsource/easyeditor/entity/EditEffectEnum;->CropRotate:Lcom/commsource/easyeditor/entity/EditEffectEnum;
 
     if-ne v7, v8, :cond_1
 
     goto :goto_2
 
-    .line 7
     :cond_1
     invoke-virtual {v7}, Lcom/commsource/easyeditor/entity/EditEffectEnum;->getId()I
 
@@ -635,7 +582,6 @@
 
     goto :goto_1
 
-    .line 8
     :cond_2
     new-instance v3, Ljava/util/HashMap;
 
@@ -643,12 +589,10 @@
 
     invoke-direct {v3, v5}, Ljava/util/HashMap;-><init>(I)V
 
-    .line 9
     invoke-virtual {p0}, Lcom/commsource/easyeditor/entity/b;->g()Ljava/util/List;
 
     move-result-object v5
 
-    .line 10
     invoke-interface {v5}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
     move-result-object v5
@@ -669,7 +613,6 @@
 
     check-cast v6, Lcom/commsource/easyeditor/entity/c;
 
-    .line 11
     invoke-virtual {v6}, Lcom/commsource/easyeditor/entity/c;->c()Lcom/commsource/easyeditor/entity/EditEffectEnum;
 
     move-result-object v8
@@ -684,7 +627,6 @@
 
     check-cast v8, Ljava/lang/String;
 
-    .line 12
     invoke-static {v8}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v9
@@ -697,7 +639,6 @@
 
     if-eqz v9, :cond_3
 
-    .line 13
     new-instance v9, Ljava/lang/StringBuilder;
 
     invoke-direct {v9}, Ljava/lang/StringBuilder;-><init>()V
@@ -708,12 +649,10 @@
 
     move-result v10
 
-    .line 14
     invoke-virtual {v6}, Lcom/commsource/easyeditor/entity/c;->c()Lcom/commsource/easyeditor/entity/EditEffectEnum;
 
     move-result-object v11
 
-    .line 15
     invoke-static {v10, v11}, Lcom/commsource/easyeditor/a2/d;->v(FLcom/commsource/easyeditor/entity/EditEffectEnum;)I
 
     move-result v10
@@ -724,7 +663,6 @@
 
     move-result-object v9
 
-    .line 16
     invoke-virtual {v6}, Lcom/commsource/easyeditor/entity/c;->c()Lcom/commsource/easyeditor/entity/EditEffectEnum;
 
     move-result-object v10
@@ -733,7 +671,6 @@
 
     if-ne v10, v11, :cond_4
 
-    .line 17
     new-instance v9, Ljava/lang/StringBuilder;
 
     invoke-direct {v9}, Ljava/lang/StringBuilder;-><init>()V
@@ -750,11 +687,9 @@
 
     move-result-object v9
 
-    .line 18
     :cond_4
     invoke-interface {v3, v8, v9}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 19
     invoke-virtual {v6}, Lcom/commsource/easyeditor/entity/c;->c()Lcom/commsource/easyeditor/entity/EditEffectEnum;
 
     move-result-object v6
@@ -770,7 +705,6 @@
     :cond_5
     const/4 v5, 0x0
 
-    .line 20
     :goto_4
     invoke-virtual {v2}, Landroid/util/SparseArray;->size()I
 
@@ -780,27 +714,23 @@
 
     if-ge v5, v6, :cond_6
 
-    .line 21
     invoke-virtual {v2, v5}, Landroid/util/SparseArray;->valueAt(I)Ljava/lang/Object;
 
     move-result-object v6
 
     check-cast v6, Ljava/lang/String;
 
-    .line 22
     invoke-interface {v3, v6, v8}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     add-int/lit8 v5, v5, 0x1
 
     goto :goto_4
 
-    .line 23
     :cond_6
     invoke-virtual {p0}, Lcom/commsource/easyeditor/entity/b;->f()Lcom/commsource/easyeditor/entity/a;
 
     move-result-object v2
 
-    .line 24
     invoke-virtual {v2}, Lcom/commsource/easyeditor/entity/a;->j()Z
 
     move-result v5
@@ -813,7 +743,6 @@
 
     if-eqz v5, :cond_7
 
-    .line 25
     sget-object v2, Lcom/commsource/easyeditor/entity/EditEffectEnum;->CropRotate:Lcom/commsource/easyeditor/entity/EditEffectEnum;
 
     invoke-static {v2}, Lcom/commsource/easyeditor/w1;->i(Lcom/commsource/easyeditor/entity/EditEffectEnum;)Ljava/lang/String;
@@ -826,7 +755,6 @@
 
     goto :goto_5
 
-    .line 26
     :cond_7
     invoke-virtual {v2}, Lcom/commsource/easyeditor/entity/a;->j()Z
 
@@ -834,7 +762,6 @@
 
     if-eqz v5, :cond_8
 
-    .line 27
     sget-object v2, Lcom/commsource/easyeditor/entity/EditEffectEnum;->CropRotate:Lcom/commsource/easyeditor/entity/EditEffectEnum;
 
     invoke-static {v2}, Lcom/commsource/easyeditor/w1;->i(Lcom/commsource/easyeditor/entity/EditEffectEnum;)Ljava/lang/String;
@@ -847,7 +774,6 @@
 
     goto :goto_5
 
-    .line 28
     :cond_8
     invoke-virtual {v2}, Lcom/commsource/easyeditor/entity/a;->i()Z
 
@@ -855,7 +781,6 @@
 
     if-eqz v2, :cond_9
 
-    .line 29
     sget-object v2, Lcom/commsource/easyeditor/entity/EditEffectEnum;->CropRotate:Lcom/commsource/easyeditor/entity/EditEffectEnum;
 
     invoke-static {v2}, Lcom/commsource/easyeditor/w1;->i(Lcom/commsource/easyeditor/entity/EditEffectEnum;)Ljava/lang/String;
@@ -868,7 +793,6 @@
 
     goto :goto_5
 
-    .line 30
     :cond_9
     sget-object v2, Lcom/commsource/easyeditor/entity/EditEffectEnum;->CropRotate:Lcom/commsource/easyeditor/entity/EditEffectEnum;
 
@@ -878,18 +802,15 @@
 
     invoke-interface {v3, v2, v8}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 31
     :goto_5
     invoke-virtual {p0}, Lcom/commsource/easyeditor/entity/b;->e()Ljava/util/List;
 
     move-result-object p0
 
-    .line 32
     invoke-interface {p0}, Ljava/util/List;->size()I
 
     move-result v2
 
-    .line 33
     new-instance v5, Ljava/lang/StringBuilder;
 
     invoke-direct {v5}, Ljava/lang/StringBuilder;-><init>()V
@@ -915,7 +836,6 @@
     :goto_6
     if-ge p1, v2, :cond_c
 
-    .line 34
     invoke-interface {p0, p1}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object v5
@@ -924,7 +844,6 @@
 
     const/4 v6, 0x0
 
-    .line 35
     :goto_7
     invoke-virtual {v5}, Landroid/util/SparseArray;->size()I
 
@@ -932,26 +851,22 @@
 
     if-ge v6, v7, :cond_b
 
-    .line 36
     invoke-virtual {v5, v6}, Landroid/util/SparseArray;->keyAt(I)I
 
     move-result v7
 
-    .line 37
     invoke-virtual {v5, v7}, Landroid/util/SparseArray;->get(I)Ljava/lang/Object;
 
     move-result-object v9
 
     check-cast v9, Lcom/commsource/easyeditor/entity/f;
 
-    .line 38
     invoke-virtual {v1, v7}, Landroid/util/SparseArray;->get(I)Ljava/lang/Object;
 
     move-result-object v10
 
     check-cast v10, Ljava/lang/String;
 
-    .line 39
     invoke-static {v10}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v11
@@ -968,14 +883,12 @@
 
     if-eqz v11, :cond_a
 
-    .line 40
     invoke-static {v9}, Lcom/commsource/easyeditor/w1;->l(Lcom/commsource/easyeditor/entity/f;)Ljava/lang/String;
 
     move-result-object v9
 
     invoke-interface {v3, v10, v9}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 41
     invoke-virtual {v1, v7}, Landroid/util/SparseArray;->remove(I)V
 
     :cond_a
@@ -988,7 +901,6 @@
 
     goto :goto_6
 
-    .line 42
     :cond_c
     :goto_8
     invoke-virtual {v1}, Landroid/util/SparseArray;->size()I
@@ -997,7 +909,6 @@
 
     if-ge v4, p0, :cond_f
 
-    .line 43
     invoke-virtual {v1, v4}, Landroid/util/SparseArray;->valueAt(I)Ljava/lang/Object;
 
     move-result-object p0
@@ -1006,7 +917,6 @@
 
     const-string p1, "\u795b\u6591\u795b\u75d8"
 
-    .line 44
     invoke-virtual {p1, p0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p1
@@ -1023,7 +933,6 @@
 
     goto :goto_9
 
-    .line 45
     :cond_d
     invoke-interface {v3, p0, v8}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
@@ -1033,7 +942,6 @@
     :goto_9
     const-string p1, "\u5173"
 
-    .line 46
     invoke-interface {v3, p0, p1}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     :goto_a
@@ -1041,7 +949,6 @@
 
     goto :goto_8
 
-    .line 47
     :cond_f
     invoke-static {p2}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
@@ -1051,16 +958,13 @@
 
     const-string p0, "source"
 
-    .line 48
     invoke-interface {v3, p0, p2}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     :cond_10
     const-string p0, "easyeditor_save"
 
-    .line 49
     invoke-static {p0, v3}, Lcom/commsource/statistics/i;->s(Ljava/lang/String;Ljava/util/Map;)V
 
-    .line 50
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1073,7 +977,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/easyeditor/w1$a;->b:[I
 
     invoke-virtual {p0}, Ljava/lang/Enum;->ordinal()I
@@ -1131,7 +1034,6 @@
     :pswitch_8
     const-string p0, "\u865a\u5316"
 
-    .line 2
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1158,19 +1060,16 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/easyeditor/entity/EditEffectEnum;->Filter:Lcom/commsource/easyeditor/entity/EditEffectEnum;
 
     if-ne p0, v1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const-string p0, "\u6ee4\u955c"
 
     return-object p0
 
-    .line 3
     :cond_0
     invoke-static {p0}, Lcom/commsource/easyeditor/w1;->i(Lcom/commsource/easyeditor/entity/EditEffectEnum;)Ljava/lang/String;
 
@@ -1231,7 +1130,6 @@
     :pswitch_6
     const-string p0, "\u7709\u6bdb"
 
-    .line 1
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1259,7 +1157,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/easyeditor/entity/f;->c()Lcom/commsource/easyeditor/entity/FaceEffectEnum;
 
     move-result-object v1
@@ -1272,7 +1169,6 @@
 
     if-eqz v1, :cond_0
 
-    .line 2
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -1291,7 +1187,6 @@
 
     goto :goto_1
 
-    .line 3
     :cond_0
     invoke-virtual {p0}, Lcom/commsource/easyeditor/entity/f;->c()Lcom/commsource/easyeditor/entity/FaceEffectEnum;
 
@@ -1301,7 +1196,6 @@
 
     if-eq v1, v3, :cond_2
 
-    .line 4
     invoke-virtual {p0}, Lcom/commsource/easyeditor/entity/f;->c()Lcom/commsource/easyeditor/entity/FaceEffectEnum;
 
     move-result-object v1
@@ -1312,7 +1206,6 @@
 
     goto :goto_0
 
-    .line 5
     :cond_1
     new-instance v1, Ljava/lang/StringBuilder;
 
@@ -1322,12 +1215,10 @@
 
     move-result v3
 
-    .line 6
     invoke-virtual {p0}, Lcom/commsource/easyeditor/entity/f;->c()Lcom/commsource/easyeditor/entity/FaceEffectEnum;
 
     move-result-object p0
 
-    .line 7
     invoke-static {v3, p0}, Lcom/commsource/easyeditor/a2/d;->w(FLcom/commsource/easyeditor/entity/FaceEffectEnum;)I
 
     move-result p0
@@ -1342,7 +1233,6 @@
 
     goto :goto_1
 
-    .line 8
     :cond_2
     :goto_0
     invoke-virtual {p0}, Lcom/commsource/easyeditor/entity/f;->a()F
@@ -1362,7 +1252,6 @@
     :cond_3
     const-string p0, "\u5f00"
 
-    .line 9
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1376,7 +1265,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/easyeditor/w1$a;->a:[I
 
     invoke-virtual {p0}, Ljava/lang/Enum;->ordinal()I
@@ -1514,7 +1402,6 @@
     :pswitch_18
     const-string p0, "\u53e3\u7ea2\u7d20\u6750ID"
 
-    .line 2
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1557,7 +1444,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/easyeditor/w1$a;->a:[I
 
     invoke-virtual {p0}, Ljava/lang/Enum;->ordinal()I
@@ -1695,7 +1581,6 @@
     :pswitch_18
     const-string p0, "\u53e3\u7ea2\u7d20\u6750ID"
 
-    .line 2
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1738,7 +1623,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/easyeditor/entity/f;->d()I
 
     move-result v1
@@ -1768,7 +1652,6 @@
 
     move-result-object v1
 
-    .line 2
     :goto_0
     sget-object v2, Lcom/commsource/easyeditor/w1$a;->a:[I
 
@@ -1802,7 +1685,6 @@
 
     if-eq v2, v3, :cond_1
 
-    .line 3
     invoke-virtual {p0}, Lcom/commsource/easyeditor/entity/f;->c()Lcom/commsource/easyeditor/entity/FaceEffectEnum;
 
     move-result-object p0
@@ -1813,7 +1695,6 @@
 
     goto :goto_1
 
-    .line 4
     :cond_1
     new-instance p0, Ljava/lang/StringBuilder;
 
@@ -1831,7 +1712,6 @@
 
     goto :goto_1
 
-    .line 5
     :cond_2
     new-instance p0, Ljava/lang/StringBuilder;
 
@@ -1849,7 +1729,6 @@
 
     goto :goto_1
 
-    .line 6
     :cond_3
     new-instance p0, Ljava/lang/StringBuilder;
 
@@ -1867,7 +1746,6 @@
 
     goto :goto_1
 
-    .line 7
     :cond_4
     new-instance p0, Ljava/lang/StringBuilder;
 
@@ -1885,7 +1763,6 @@
 
     goto :goto_1
 
-    .line 8
     :cond_5
     new-instance p0, Ljava/lang/StringBuilder;
 
@@ -1901,7 +1778,6 @@
 
     move-result-object p0
 
-    .line 9
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1915,7 +1791,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/easyeditor/entity/c;->c()Lcom/commsource/easyeditor/entity/EditEffectEnum;
 
     move-result-object v1
@@ -1924,7 +1799,6 @@
 
     if-ne v1, v2, :cond_0
 
-    .line 2
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -1945,7 +1819,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_0
     invoke-virtual {p0}, Lcom/commsource/easyeditor/entity/c;->c()Lcom/commsource/easyeditor/entity/EditEffectEnum;
 
@@ -1955,7 +1828,6 @@
 
     move-result-object p0
 
-    .line 4
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1969,7 +1841,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/easyeditor/entity/c;->c()Lcom/commsource/easyeditor/entity/EditEffectEnum;
 
     move-result-object v1
@@ -1992,7 +1863,6 @@
     :goto_0
     if-eqz v1, :cond_1
 
-    .line 2
     invoke-virtual {p0}, Lcom/commsource/easyeditor/entity/c;->d()I
 
     move-result v2

@@ -32,7 +32,6 @@
 
     invoke-static {p3, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     iput-boolean p1, p0, Lkshark/internal/SortedBytesMap;->d:Z
@@ -50,16 +49,13 @@
     :cond_0
     const/4 p1, 0x4
 
-    .line 2
     :goto_0
     iput p1, p0, Lkshark/internal/SortedBytesMap;->a:I
 
     add-int/2addr p1, p2
 
-    .line 3
     iput p1, p0, Lkshark/internal/SortedBytesMap;->b:I
 
-    .line 4
     array-length p2, p3
 
     div-int/2addr p2, p1
@@ -72,7 +68,6 @@
 .method public static final synthetic a(Lkshark/internal/SortedBytesMap;)I
     .locals 0
 
-    .line 1
     iget p0, p0, Lkshark/internal/SortedBytesMap;->b:I
 
     return p0
@@ -81,7 +76,6 @@
 .method public static final synthetic b(Lkshark/internal/SortedBytesMap;)I
     .locals 0
 
-    .line 1
     iget p0, p0, Lkshark/internal/SortedBytesMap;->a:I
 
     return p0
@@ -90,7 +84,6 @@
 .method public static final synthetic c(Lkshark/internal/SortedBytesMap;)I
     .locals 0
 
-    .line 1
     iget p0, p0, Lkshark/internal/SortedBytesMap;->e:I
 
     return p0
@@ -99,7 +92,6 @@
 .method public static final synthetic d(Lkshark/internal/SortedBytesMap;)Z
     .locals 0
 
-    .line 1
     iget-boolean p0, p0, Lkshark/internal/SortedBytesMap;->d:Z
 
     return p0
@@ -108,7 +100,6 @@
 .method public static final synthetic e(Lkshark/internal/SortedBytesMap;)[B
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lkshark/internal/SortedBytesMap;->f:[B
 
     return-object p0
@@ -117,7 +108,6 @@
 .method public static final synthetic f(Lkshark/internal/SortedBytesMap;I)J
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1}, Lkshark/internal/SortedBytesMap;->k(I)J
 
     move-result-wide p0
@@ -128,7 +118,6 @@
 .method private final g(J)I
     .locals 6
 
-    .line 1
     iget v0, p0, Lkshark/internal/SortedBytesMap;->c:I
 
     add-int/lit8 v0, v0, -0x1
@@ -142,7 +131,6 @@
 
     ushr-int/lit8 v2, v2, 0x1
 
-    .line 2
     invoke-direct {p0, v2}, Lkshark/internal/SortedBytesMap;->k(I)J
 
     move-result-wide v3
@@ -178,17 +166,14 @@
 .method private final k(I)J
     .locals 2
 
-    .line 1
     iget v0, p0, Lkshark/internal/SortedBytesMap;->b:I
 
     mul-int p1, p1, v0
 
-    .line 2
     iget-boolean v0, p0, Lkshark/internal/SortedBytesMap;->d:Z
 
     if-eqz v0, :cond_0
 
-    .line 3
     iget-object v0, p0, Lkshark/internal/SortedBytesMap;->f:[B
 
     invoke-static {v0, p1}, Lkshark/internal/b;->e([BI)J
@@ -197,7 +182,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_0
     iget-object v0, p0, Lkshark/internal/SortedBytesMap;->f:[B
 
@@ -216,7 +200,6 @@
 .method public final h(J)Z
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1, p2}, Lkshark/internal/SortedBytesMap;->g(J)I
 
     move-result p1
@@ -250,7 +233,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget v0, p0, Lkshark/internal/SortedBytesMap;->c:I
 
     const/4 v1, 0x0
@@ -263,7 +245,6 @@
 
     move-result-object v0
 
-    .line 2
     new-instance v1, Lkshark/internal/SortedBytesMap$entrySequence$1;
 
     invoke-direct {v1, p0}, Lkshark/internal/SortedBytesMap$entrySequence$1;-><init>(Lkshark/internal/SortedBytesMap;)V
@@ -280,7 +261,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1, p2}, Lkshark/internal/SortedBytesMap;->g(J)I
 
     move-result p1
@@ -291,7 +271,6 @@
 
     return-object p1
 
-    .line 2
     :cond_0
     iget p2, p0, Lkshark/internal/SortedBytesMap;->b:I
 
@@ -301,7 +280,6 @@
 
     add-int/2addr p1, p2
 
-    .line 3
     new-instance p2, Lkshark/internal/a;
 
     iget-object v0, p0, Lkshark/internal/SortedBytesMap;->f:[B

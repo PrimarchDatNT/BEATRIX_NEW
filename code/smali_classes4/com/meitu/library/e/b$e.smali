@@ -25,7 +25,6 @@
 .method constructor <init>(Lcom/meitu/library/e/b;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/library/e/b$e;->a:Lcom/meitu/library/e/b;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -42,7 +41,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/library/e/b$e;->a:Lcom/meitu/library/e/b;
 
     invoke-static {v1}, Lcom/meitu/library/e/b;->b(Lcom/meitu/library/e/b;)Lcom/meitu/library/e/b$j;
@@ -51,7 +49,6 @@
 
     invoke-interface {v1}, Lcom/meitu/library/e/b$j;->n()V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

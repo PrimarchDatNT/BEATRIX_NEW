@@ -17,7 +17,6 @@
 
     const-string v0, "0"
 
-    .line 1
     invoke-static {v0}, Lcom/google/firebase/crashlytics/internal/proto/a;->i(Ljava/lang/String;)Lcom/google/firebase/crashlytics/internal/proto/a;
 
     move-result-object v0
@@ -26,7 +25,6 @@
 
     const-string v0, "Unity"
 
-    .line 2
     invoke-static {v0}, Lcom/google/firebase/crashlytics/internal/proto/a;->i(Ljava/lang/String;)Lcom/google/firebase/crashlytics/internal/proto/a;
 
     move-result-object v0
@@ -39,7 +37,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -59,10 +56,8 @@
 
     const/4 v1, 0x2
 
-    .line 1
     invoke-virtual {p0, v0, v1}, Lcom/google/firebase/crashlytics/internal/proto/CodedOutputStream;->H0(II)V
 
-    .line 2
     invoke-static {p1}, Lcom/google/firebase/crashlytics/internal/proto/c;->h(Lcom/google/firebase/crashlytics/internal/proto/a;)I
 
     move-result v0
@@ -71,7 +66,6 @@
 
     const/4 v0, 0x1
 
-    .line 3
     invoke-virtual {p0, v0, p1}, Lcom/google/firebase/crashlytics/internal/proto/CodedOutputStream;->W(ILcom/google/firebase/crashlytics/internal/proto/a;)V
 
     :cond_0
@@ -86,12 +80,10 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p1}, Lcom/google/firebase/crashlytics/internal/proto/a;->i(Ljava/lang/String;)Lcom/google/firebase/crashlytics/internal/proto/a;
 
     move-result-object p1
 
-    .line 2
     invoke-static {p2}, Lcom/google/firebase/crashlytics/internal/proto/a;->i(Ljava/lang/String;)Lcom/google/firebase/crashlytics/internal/proto/a;
 
     move-result-object p2
@@ -100,10 +92,8 @@
 
     const/4 v1, 0x2
 
-    .line 3
     invoke-virtual {p0, v0, v1}, Lcom/google/firebase/crashlytics/internal/proto/CodedOutputStream;->H0(II)V
 
-    .line 4
     invoke-static {p1, p2, p3}, Lcom/google/firebase/crashlytics/internal/proto/c;->m(Lcom/google/firebase/crashlytics/internal/proto/a;Lcom/google/firebase/crashlytics/internal/proto/a;Z)I
 
     move-result v0
@@ -114,18 +104,14 @@
 
     const/4 v2, 0x3
 
-    .line 5
     invoke-virtual {p0, v0, v2}, Lcom/google/firebase/crashlytics/internal/proto/CodedOutputStream;->a0(II)V
 
-    .line 6
     invoke-virtual {p0, v1, p1}, Lcom/google/firebase/crashlytics/internal/proto/CodedOutputStream;->W(ILcom/google/firebase/crashlytics/internal/proto/a;)V
 
-    .line 7
     invoke-virtual {p0, v2, p2}, Lcom/google/firebase/crashlytics/internal/proto/CodedOutputStream;->W(ILcom/google/firebase/crashlytics/internal/proto/a;)V
 
     const/4 p1, 0x4
 
-    .line 8
     invoke-virtual {p0, p1, p3}, Lcom/google/firebase/crashlytics/internal/proto/CodedOutputStream;->U(IZ)V
 
     return-void
@@ -143,25 +129,21 @@
 
     const-string p1, ""
 
-    .line 1
     :cond_0
     invoke-static {p1}, Lcom/google/firebase/crashlytics/internal/proto/a;->i(Ljava/lang/String;)Lcom/google/firebase/crashlytics/internal/proto/a;
 
     move-result-object p1
 
-    .line 2
     invoke-static {p2}, Lcom/google/firebase/crashlytics/internal/proto/c;->o(Ljava/lang/String;)Lcom/google/firebase/crashlytics/internal/proto/a;
 
     move-result-object v0
 
-    .line 3
     invoke-static {p3}, Lcom/google/firebase/crashlytics/internal/proto/c;->o(Ljava/lang/String;)Lcom/google/firebase/crashlytics/internal/proto/a;
 
     move-result-object v1
 
     const/4 v2, 0x1
 
-    .line 4
     invoke-static {v2, p1}, Lcom/google/firebase/crashlytics/internal/proto/CodedOutputStream;->d(ILcom/google/firebase/crashlytics/internal/proto/a;)I
 
     move-result v3
@@ -172,7 +154,6 @@
 
     if-eqz p2, :cond_1
 
-    .line 5
     invoke-static {v4, v0}, Lcom/google/firebase/crashlytics/internal/proto/CodedOutputStream;->d(ILcom/google/firebase/crashlytics/internal/proto/a;)I
 
     move-result v5
@@ -184,7 +165,6 @@
 
     if-eqz p3, :cond_2
 
-    .line 6
     invoke-static {v5, v1}, Lcom/google/firebase/crashlytics/internal/proto/CodedOutputStream;->d(ILcom/google/firebase/crashlytics/internal/proto/a;)I
 
     move-result v6
@@ -194,24 +174,19 @@
     :cond_2
     const/4 v6, 0x6
 
-    .line 7
     invoke-virtual {p0, v6, v4}, Lcom/google/firebase/crashlytics/internal/proto/CodedOutputStream;->H0(II)V
 
-    .line 8
     invoke-virtual {p0, v3}, Lcom/google/firebase/crashlytics/internal/proto/CodedOutputStream;->v0(I)V
 
-    .line 9
     invoke-virtual {p0, v2, p1}, Lcom/google/firebase/crashlytics/internal/proto/CodedOutputStream;->W(ILcom/google/firebase/crashlytics/internal/proto/a;)V
 
     if-eqz p2, :cond_3
 
-    .line 10
     invoke-virtual {p0, v4, v0}, Lcom/google/firebase/crashlytics/internal/proto/CodedOutputStream;->W(ILcom/google/firebase/crashlytics/internal/proto/a;)V
 
     :cond_3
     if-eqz p3, :cond_4
 
-    .line 11
     invoke-virtual {p0, v5, v1}, Lcom/google/firebase/crashlytics/internal/proto/CodedOutputStream;->W(ILcom/google/firebase/crashlytics/internal/proto/a;)V
 
     :cond_4
@@ -230,18 +205,14 @@
 
     const/4 v1, 0x2
 
-    .line 1
     invoke-virtual {p0, v0, v1}, Lcom/google/firebase/crashlytics/internal/proto/CodedOutputStream;->H0(II)V
 
-    .line 2
     invoke-static {p1, p2, p3, p4}, Lcom/google/firebase/crashlytics/internal/proto/c;->n(Ljava/lang/Thread;[Ljava/lang/StackTraceElement;IZ)I
 
     move-result v2
 
-    .line 3
     invoke-virtual {p0, v2}, Lcom/google/firebase/crashlytics/internal/proto/CodedOutputStream;->v0(I)V
 
-    .line 4
     invoke-virtual {p1}, Ljava/lang/Thread;->getName()Ljava/lang/String;
 
     move-result-object p1
@@ -252,10 +223,8 @@
 
     invoke-virtual {p0, v0, p1}, Lcom/google/firebase/crashlytics/internal/proto/CodedOutputStream;->W(ILcom/google/firebase/crashlytics/internal/proto/a;)V
 
-    .line 5
     invoke-virtual {p0, v1, p3}, Lcom/google/firebase/crashlytics/internal/proto/CodedOutputStream;->I0(II)V
 
-    .line 6
     array-length p1, p2
 
     const/4 p3, 0x0
@@ -267,7 +236,6 @@
 
     const/4 v1, 0x3
 
-    .line 7
     invoke-static {p0, v1, v0, p4}, Lcom/google/firebase/crashlytics/internal/proto/c;->q(Lcom/google/firebase/crashlytics/internal/proto/CodedOutputStream;ILjava/lang/StackTraceElement;Z)V
 
     add-int/lit8 p3, p3, 0x1
@@ -285,7 +253,6 @@
 
     const-wide/16 v1, 0x0
 
-    .line 1
     invoke-static {v0, v1, v2}, Lcom/google/firebase/crashlytics/internal/proto/CodedOutputStream;->K(IJ)I
 
     move-result v0
@@ -294,7 +261,6 @@
 
     const/4 v3, 0x2
 
-    .line 2
     invoke-static {v3, v1, v2}, Lcom/google/firebase/crashlytics/internal/proto/CodedOutputStream;->K(IJ)I
 
     move-result v1
@@ -303,7 +269,6 @@
 
     const/4 v1, 0x3
 
-    .line 3
     invoke-static {v1, p0}, Lcom/google/firebase/crashlytics/internal/proto/CodedOutputStream;->d(ILcom/google/firebase/crashlytics/internal/proto/a;)I
 
     move-result p0
@@ -314,7 +279,6 @@
 
     const/4 p0, 0x4
 
-    .line 4
     invoke-static {p0, p1}, Lcom/google/firebase/crashlytics/internal/proto/CodedOutputStream;->d(ILcom/google/firebase/crashlytics/internal/proto/a;)I
 
     move-result p0
@@ -328,7 +292,6 @@
 .method private static b(Ljava/lang/String;Ljava/lang/String;)I
     .locals 1
 
-    .line 1
     invoke-static {p0}, Lcom/google/firebase/crashlytics/internal/proto/a;->i(Ljava/lang/String;)Lcom/google/firebase/crashlytics/internal/proto/a;
 
     move-result-object p0
@@ -343,7 +306,6 @@
 
     const-string p1, ""
 
-    .line 2
     :cond_0
     invoke-static {p1}, Lcom/google/firebase/crashlytics/internal/proto/a;->i(Ljava/lang/String;)Lcom/google/firebase/crashlytics/internal/proto/a;
 
@@ -363,7 +325,6 @@
 .method private static c(Lcom/google/firebase/crashlytics/e/l/e;II)I
     .locals 9
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/crashlytics/e/l/e;->b:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/google/firebase/crashlytics/internal/proto/a;->i(Ljava/lang/String;)Lcom/google/firebase/crashlytics/internal/proto/a;
@@ -380,14 +341,12 @@
 
     add-int/2addr v0, v2
 
-    .line 2
     iget-object v3, p0, Lcom/google/firebase/crashlytics/e/l/e;->a:Ljava/lang/String;
 
     if-eqz v3, :cond_0
 
     const/4 v4, 0x3
 
-    .line 3
     invoke-static {v3}, Lcom/google/firebase/crashlytics/internal/proto/a;->i(Ljava/lang/String;)Lcom/google/firebase/crashlytics/internal/proto/a;
 
     move-result-object v3
@@ -398,7 +357,6 @@
 
     add-int/2addr v0, v3
 
-    .line 4
     :cond_0
     iget-object v3, p0, Lcom/google/firebase/crashlytics/e/l/e;->c:[Ljava/lang/StackTraceElement;
 
@@ -411,19 +369,16 @@
 
     aget-object v6, v3, v5
 
-    .line 5
     invoke-static {v6, v1}, Lcom/google/firebase/crashlytics/internal/proto/c;->i(Ljava/lang/StackTraceElement;Z)I
 
     move-result v6
 
     const/4 v7, 0x4
 
-    .line 6
     invoke-static {v7}, Lcom/google/firebase/crashlytics/internal/proto/CodedOutputStream;->H(I)I
 
     move-result v7
 
-    .line 7
     invoke-static {v6}, Lcom/google/firebase/crashlytics/internal/proto/CodedOutputStream;->v(I)I
 
     move-result v8
@@ -438,7 +393,6 @@
 
     goto :goto_0
 
-    .line 8
     :cond_1
     iget-object p0, p0, Lcom/google/firebase/crashlytics/e/l/e;->d:Lcom/google/firebase/crashlytics/e/l/e;
 
@@ -448,19 +402,16 @@
 
     add-int/2addr p1, v1
 
-    .line 9
     invoke-static {p0, p1, p2}, Lcom/google/firebase/crashlytics/internal/proto/c;->c(Lcom/google/firebase/crashlytics/e/l/e;II)I
 
     move-result p0
 
     const/4 p1, 0x6
 
-    .line 10
     invoke-static {p1}, Lcom/google/firebase/crashlytics/internal/proto/CodedOutputStream;->H(I)I
 
     move-result p1
 
-    .line 11
     invoke-static {p0}, Lcom/google/firebase/crashlytics/internal/proto/CodedOutputStream;->v(I)I
 
     move-result p2
@@ -477,7 +428,6 @@
     :goto_1
     if-eqz p0, :cond_3
 
-    .line 12
     iget-object p0, p0, Lcom/google/firebase/crashlytics/e/l/e;->d:Lcom/google/firebase/crashlytics/e/l/e;
 
     add-int/lit8 v2, v2, 0x1
@@ -487,7 +437,6 @@
     :cond_3
     const/4 p0, 0x7
 
-    .line 13
     invoke-static {p0, v2}, Lcom/google/firebase/crashlytics/internal/proto/CodedOutputStream;->I(II)I
 
     move-result p0
@@ -502,7 +451,6 @@
 .method private static d()I
     .locals 4
 
-    .line 1
     sget-object v0, Lcom/google/firebase/crashlytics/internal/proto/c;->b:Lcom/google/firebase/crashlytics/internal/proto/a;
 
     const/4 v1, 0x1
@@ -515,7 +463,6 @@
 
     const/4 v2, 0x2
 
-    .line 2
     invoke-static {v2, v0}, Lcom/google/firebase/crashlytics/internal/proto/CodedOutputStream;->d(ILcom/google/firebase/crashlytics/internal/proto/a;)I
 
     move-result v0
@@ -526,7 +473,6 @@
 
     const-wide/16 v2, 0x0
 
-    .line 3
     invoke-static {v0, v2, v3}, Lcom/google/firebase/crashlytics/internal/proto/CodedOutputStream;->K(IJ)I
 
     move-result v0
@@ -561,17 +507,14 @@
 
     const/4 v1, 0x1
 
-    .line 1
     invoke-static {p1, p2, v0, v1}, Lcom/google/firebase/crashlytics/internal/proto/c;->n(Ljava/lang/Thread;[Ljava/lang/StackTraceElement;IZ)I
 
     move-result p1
 
-    .line 2
     invoke-static {v1}, Lcom/google/firebase/crashlytics/internal/proto/CodedOutputStream;->H(I)I
 
     move-result p2
 
-    .line 3
     invoke-static {p1}, Lcom/google/firebase/crashlytics/internal/proto/CodedOutputStream;->v(I)I
 
     move-result v0
@@ -584,7 +527,6 @@
 
     add-int/2addr p2, p1
 
-    .line 4
     array-length v0, p3
 
     const/4 v2, 0x0
@@ -592,10 +534,8 @@
     :goto_0
     if-ge v2, v0, :cond_0
 
-    .line 5
     aget-object v3, p3, v2
 
-    .line 6
     invoke-interface {p4, v2}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object v4
@@ -606,12 +546,10 @@
 
     move-result v3
 
-    .line 7
     invoke-static {v1}, Lcom/google/firebase/crashlytics/internal/proto/CodedOutputStream;->H(I)I
 
     move-result v4
 
-    .line 8
     invoke-static {v3}, Lcom/google/firebase/crashlytics/internal/proto/CodedOutputStream;->v(I)I
 
     move-result v5
@@ -626,7 +564,6 @@
 
     goto :goto_0
 
-    .line 9
     :cond_0
     invoke-static {p0, v1, p5}, Lcom/google/firebase/crashlytics/internal/proto/c;->c(Lcom/google/firebase/crashlytics/e/l/e;II)I
 
@@ -634,12 +571,10 @@
 
     const/4 p1, 0x2
 
-    .line 10
     invoke-static {p1}, Lcom/google/firebase/crashlytics/internal/proto/CodedOutputStream;->H(I)I
 
     move-result p1
 
-    .line 11
     invoke-static {p0}, Lcom/google/firebase/crashlytics/internal/proto/CodedOutputStream;->v(I)I
 
     move-result p3
@@ -650,19 +585,16 @@
 
     add-int/2addr p2, p1
 
-    .line 12
     invoke-static {}, Lcom/google/firebase/crashlytics/internal/proto/c;->d()I
 
     move-result p0
 
     const/4 p1, 0x3
 
-    .line 13
     invoke-static {p1}, Lcom/google/firebase/crashlytics/internal/proto/CodedOutputStream;->H(I)I
 
     move-result p3
 
-    .line 14
     invoke-static {p0}, Lcom/google/firebase/crashlytics/internal/proto/CodedOutputStream;->v(I)I
 
     move-result p4
@@ -673,17 +605,14 @@
 
     add-int/2addr p2, p3
 
-    .line 15
     invoke-static {p6, p7}, Lcom/google/firebase/crashlytics/internal/proto/c;->a(Lcom/google/firebase/crashlytics/internal/proto/a;Lcom/google/firebase/crashlytics/internal/proto/a;)I
 
     move-result p0
 
-    .line 16
     invoke-static {p1}, Lcom/google/firebase/crashlytics/internal/proto/CodedOutputStream;->H(I)I
 
     move-result p1
 
-    .line 17
     invoke-static {p0}, Lcom/google/firebase/crashlytics/internal/proto/CodedOutputStream;->v(I)I
 
     move-result p3
@@ -723,19 +652,16 @@
         }
     .end annotation
 
-    .line 1
     invoke-static/range {p0 .. p7}, Lcom/google/firebase/crashlytics/internal/proto/c;->e(Lcom/google/firebase/crashlytics/e/l/e;Ljava/lang/Thread;[Ljava/lang/StackTraceElement;[Ljava/lang/Thread;Ljava/util/List;ILcom/google/firebase/crashlytics/internal/proto/a;Lcom/google/firebase/crashlytics/internal/proto/a;)I
 
     move-result p0
 
     const/4 p1, 0x1
 
-    .line 2
     invoke-static {p1}, Lcom/google/firebase/crashlytics/internal/proto/CodedOutputStream;->H(I)I
 
     move-result p2
 
-    .line 3
     invoke-static {p0}, Lcom/google/firebase/crashlytics/internal/proto/CodedOutputStream;->v(I)I
 
     move-result p3
@@ -750,7 +676,6 @@
 
     if-eqz p8, :cond_0
 
-    .line 4
     invoke-interface {p8}, Ljava/util/Map;->entrySet()Ljava/util/Set;
 
     move-result-object p3
@@ -772,7 +697,6 @@
 
     check-cast p4, Ljava/util/Map$Entry;
 
-    .line 5
     invoke-interface {p4}, Ljava/util/Map$Entry;->getKey()Ljava/lang/Object;
 
     move-result-object p5
@@ -791,12 +715,10 @@
 
     const/4 p5, 0x2
 
-    .line 6
     invoke-static {p5}, Lcom/google/firebase/crashlytics/internal/proto/CodedOutputStream;->H(I)I
 
     move-result p5
 
-    .line 7
     invoke-static {p4}, Lcom/google/firebase/crashlytics/internal/proto/CodedOutputStream;->v(I)I
 
     move-result p6
@@ -814,7 +736,6 @@
 
     const/4 p3, 0x3
 
-    .line 8
     iget p4, p9, Landroid/app/ActivityManager$RunningAppProcessInfo;->importance:I
 
     const/16 p5, 0x64
@@ -826,7 +747,6 @@
     :cond_1
     const/4 p1, 0x0
 
-    .line 9
     :goto_1
     invoke-static {p3, p1}, Lcom/google/firebase/crashlytics/internal/proto/CodedOutputStream;->b(IZ)I
 
@@ -837,7 +757,6 @@
     :cond_2
     const/4 p0, 0x4
 
-    .line 10
     invoke-static {p0, p10}, Lcom/google/firebase/crashlytics/internal/proto/CodedOutputStream;->I(II)I
 
     move-result p0
@@ -856,7 +775,6 @@
 
     const/4 v1, 0x1
 
-    .line 1
     invoke-virtual {p0}, Ljava/lang/Float;->floatValue()F
 
     move-result p0
@@ -870,7 +788,6 @@
     :cond_0
     const/4 p0, 0x2
 
-    .line 2
     invoke-static {p0, p1}, Lcom/google/firebase/crashlytics/internal/proto/CodedOutputStream;->B(II)I
 
     move-result p0
@@ -879,7 +796,6 @@
 
     const/4 p0, 0x3
 
-    .line 3
     invoke-static {p0, p2}, Lcom/google/firebase/crashlytics/internal/proto/CodedOutputStream;->b(IZ)I
 
     move-result p0
@@ -888,7 +804,6 @@
 
     const/4 p0, 0x4
 
-    .line 4
     invoke-static {p0, p3}, Lcom/google/firebase/crashlytics/internal/proto/CodedOutputStream;->I(II)I
 
     move-result p0
@@ -897,7 +812,6 @@
 
     const/4 p0, 0x5
 
-    .line 5
     invoke-static {p0, p4, p5}, Lcom/google/firebase/crashlytics/internal/proto/CodedOutputStream;->K(IJ)I
 
     move-result p0
@@ -906,7 +820,6 @@
 
     const/4 p0, 0x6
 
-    .line 6
     invoke-static {p0, p6, p7}, Lcom/google/firebase/crashlytics/internal/proto/CodedOutputStream;->K(IJ)I
 
     move-result p0
@@ -921,7 +834,6 @@
 
     const/4 v0, 0x1
 
-    .line 1
     invoke-static {v0, p0}, Lcom/google/firebase/crashlytics/internal/proto/CodedOutputStream;->d(ILcom/google/firebase/crashlytics/internal/proto/a;)I
 
     move-result p0
@@ -932,7 +844,6 @@
 .method private static i(Ljava/lang/StackTraceElement;Z)I
     .locals 6
 
-    .line 1
     invoke-virtual {p0}, Ljava/lang/StackTraceElement;->isNativeMethod()Z
 
     move-result v0
@@ -943,7 +854,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-virtual {p0}, Ljava/lang/StackTraceElement;->getLineNumber()I
 
     move-result v0
@@ -963,7 +873,6 @@
     :cond_0
     const-wide/16 v3, 0x0
 
-    .line 3
     invoke-static {v1, v3, v4}, Lcom/google/firebase/crashlytics/internal/proto/CodedOutputStream;->K(IJ)I
 
     move-result v0
@@ -971,12 +880,10 @@
     :goto_0
     add-int/2addr v0, v2
 
-    .line 4
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
 
-    .line 5
     invoke-virtual {p0}, Ljava/lang/StackTraceElement;->getClassName()Ljava/lang/String;
 
     move-result-object v3
@@ -1003,14 +910,12 @@
 
     const/4 v3, 0x2
 
-    .line 6
     invoke-static {v3, v1}, Lcom/google/firebase/crashlytics/internal/proto/CodedOutputStream;->d(ILcom/google/firebase/crashlytics/internal/proto/a;)I
 
     move-result v1
 
     add-int/2addr v0, v1
 
-    .line 7
     invoke-virtual {p0}, Ljava/lang/StackTraceElement;->getFileName()Ljava/lang/String;
 
     move-result-object v1
@@ -1019,7 +924,6 @@
 
     const/4 v1, 0x3
 
-    .line 8
     invoke-virtual {p0}, Ljava/lang/StackTraceElement;->getFileName()Ljava/lang/String;
 
     move-result-object v4
@@ -1034,7 +938,6 @@
 
     add-int/2addr v0, v1
 
-    .line 9
     :cond_1
     invoke-virtual {p0}, Ljava/lang/StackTraceElement;->isNativeMethod()Z
 
@@ -1050,7 +953,6 @@
 
     const/4 v1, 0x4
 
-    .line 10
     invoke-virtual {p0}, Ljava/lang/StackTraceElement;->getLineNumber()I
 
     move-result p0
@@ -1070,7 +972,6 @@
 
     const/4 v2, 0x2
 
-    .line 11
     :cond_3
     invoke-static {p0, v2}, Lcom/google/firebase/crashlytics/internal/proto/CodedOutputStream;->I(II)I
 
@@ -1086,7 +987,6 @@
 
     const/4 v0, 0x1
 
-    .line 1
     invoke-static {v0, p0}, Lcom/google/firebase/crashlytics/internal/proto/CodedOutputStream;->d(ILcom/google/firebase/crashlytics/internal/proto/a;)I
 
     move-result p0
@@ -1095,7 +995,6 @@
 
     const/4 v0, 0x2
 
-    .line 2
     invoke-static {v0, p1}, Lcom/google/firebase/crashlytics/internal/proto/CodedOutputStream;->d(ILcom/google/firebase/crashlytics/internal/proto/a;)I
 
     move-result p1
@@ -1104,7 +1003,6 @@
 
     const/4 p1, 0x3
 
-    .line 3
     invoke-static {p1, p2}, Lcom/google/firebase/crashlytics/internal/proto/CodedOutputStream;->d(ILcom/google/firebase/crashlytics/internal/proto/a;)I
 
     move-result p1
@@ -1113,7 +1011,6 @@
 
     const/4 p1, 0x6
 
-    .line 4
     invoke-static {p1, p3}, Lcom/google/firebase/crashlytics/internal/proto/CodedOutputStream;->d(ILcom/google/firebase/crashlytics/internal/proto/a;)I
 
     move-result p1
@@ -1124,7 +1021,6 @@
 
     const/16 p1, 0x8
 
-    .line 5
     sget-object p2, Lcom/google/firebase/crashlytics/internal/proto/c;->c:Lcom/google/firebase/crashlytics/internal/proto/a;
 
     invoke-static {p1, p2}, Lcom/google/firebase/crashlytics/internal/proto/CodedOutputStream;->d(ILcom/google/firebase/crashlytics/internal/proto/a;)I
@@ -1135,7 +1031,6 @@
 
     const/16 p1, 0x9
 
-    .line 6
     invoke-static {p1, p5}, Lcom/google/firebase/crashlytics/internal/proto/CodedOutputStream;->d(ILcom/google/firebase/crashlytics/internal/proto/a;)I
 
     move-result p1
@@ -1145,7 +1040,6 @@
     :cond_0
     const/16 p1, 0xa
 
-    .line 7
     invoke-static {p1, p4}, Lcom/google/firebase/crashlytics/internal/proto/CodedOutputStream;->h(II)I
 
     move-result p1
@@ -1160,7 +1054,6 @@
 
     const/4 v0, 0x3
 
-    .line 1
     invoke-static {v0, p0}, Lcom/google/firebase/crashlytics/internal/proto/CodedOutputStream;->h(II)I
 
     move-result p0
@@ -1178,7 +1071,6 @@
     :cond_0
     const/4 v1, 0x4
 
-    .line 2
     invoke-static {v1, p1}, Lcom/google/firebase/crashlytics/internal/proto/CodedOutputStream;->d(ILcom/google/firebase/crashlytics/internal/proto/a;)I
 
     move-result p1
@@ -1188,7 +1080,6 @@
 
     const/4 p1, 0x5
 
-    .line 3
     invoke-static {p1, p2}, Lcom/google/firebase/crashlytics/internal/proto/CodedOutputStream;->I(II)I
 
     move-result p1
@@ -1197,7 +1088,6 @@
 
     const/4 p1, 0x6
 
-    .line 4
     invoke-static {p1, p3, p4}, Lcom/google/firebase/crashlytics/internal/proto/CodedOutputStream;->K(IJ)I
 
     move-result p1
@@ -1206,7 +1096,6 @@
 
     const/4 p1, 0x7
 
-    .line 5
     invoke-static {p1, p5, p6}, Lcom/google/firebase/crashlytics/internal/proto/CodedOutputStream;->K(IJ)I
 
     move-result p1
@@ -1215,7 +1104,6 @@
 
     const/16 p1, 0xa
 
-    .line 6
     invoke-static {p1, p7}, Lcom/google/firebase/crashlytics/internal/proto/CodedOutputStream;->b(IZ)I
 
     move-result p1
@@ -1224,7 +1112,6 @@
 
     const/16 p1, 0xc
 
-    .line 7
     invoke-static {p1, p8}, Lcom/google/firebase/crashlytics/internal/proto/CodedOutputStream;->I(II)I
 
     move-result p1
@@ -1240,7 +1127,6 @@
     :cond_1
     const/16 p1, 0xd
 
-    .line 8
     invoke-static {p1, p9}, Lcom/google/firebase/crashlytics/internal/proto/CodedOutputStream;->d(ILcom/google/firebase/crashlytics/internal/proto/a;)I
 
     move-result p1
@@ -1255,7 +1141,6 @@
     :cond_2
     const/16 p1, 0xe
 
-    .line 9
     invoke-static {p1, p10}, Lcom/google/firebase/crashlytics/internal/proto/CodedOutputStream;->d(ILcom/google/firebase/crashlytics/internal/proto/a;)I
 
     move-result v0
@@ -1301,14 +1186,12 @@
 
     move-wide v1, p0
 
-    .line 1
     invoke-static {v0, p0, p1}, Lcom/google/firebase/crashlytics/internal/proto/CodedOutputStream;->K(IJ)I
 
     move-result v0
 
     add-int/lit8 v0, v0, 0x0
 
-    .line 2
     invoke-static {p2}, Lcom/google/firebase/crashlytics/internal/proto/a;->i(Ljava/lang/String;)Lcom/google/firebase/crashlytics/internal/proto/a;
 
     move-result-object v1
@@ -1343,19 +1226,16 @@
 
     move/from16 v11, p11
 
-    .line 3
     invoke-static/range {v1 .. v11}, Lcom/google/firebase/crashlytics/internal/proto/c;->f(Lcom/google/firebase/crashlytics/e/l/e;Ljava/lang/Thread;[Ljava/lang/StackTraceElement;[Ljava/lang/Thread;Ljava/util/List;ILcom/google/firebase/crashlytics/internal/proto/a;Lcom/google/firebase/crashlytics/internal/proto/a;Ljava/util/Map;Landroid/app/ActivityManager$RunningAppProcessInfo;I)I
 
     move-result v1
 
     const/4 v2, 0x3
 
-    .line 4
     invoke-static {v2}, Lcom/google/firebase/crashlytics/internal/proto/CodedOutputStream;->H(I)I
 
     move-result v2
 
-    .line 5
     invoke-static {v1}, Lcom/google/firebase/crashlytics/internal/proto/CodedOutputStream;->v(I)I
 
     move-result v3
@@ -1378,19 +1258,16 @@
 
     move-wide/from16 p6, p19
 
-    .line 6
     invoke-static/range {p0 .. p7}, Lcom/google/firebase/crashlytics/internal/proto/c;->g(Ljava/lang/Float;IZIJJ)I
 
     move-result v1
 
     const/4 v2, 0x5
 
-    .line 7
     invoke-static {v2}, Lcom/google/firebase/crashlytics/internal/proto/CodedOutputStream;->H(I)I
 
     move-result v2
 
-    .line 8
     invoke-static {v1}, Lcom/google/firebase/crashlytics/internal/proto/CodedOutputStream;->v(I)I
 
     move-result v3
@@ -1403,19 +1280,16 @@
 
     if-eqz p21, :cond_0
 
-    .line 9
     invoke-static/range {p21 .. p21}, Lcom/google/firebase/crashlytics/internal/proto/c;->h(Lcom/google/firebase/crashlytics/internal/proto/a;)I
 
     move-result v1
 
     const/4 v2, 0x6
 
-    .line 10
     invoke-static {v2}, Lcom/google/firebase/crashlytics/internal/proto/CodedOutputStream;->H(I)I
 
     move-result v2
 
-    .line 11
     invoke-static {v1}, Lcom/google/firebase/crashlytics/internal/proto/CodedOutputStream;->v(I)I
 
     move-result v3
@@ -1437,7 +1311,6 @@
 
     const/4 v1, 0x3
 
-    .line 1
     invoke-static {v0, v1}, Lcom/google/firebase/crashlytics/internal/proto/CodedOutputStream;->h(II)I
 
     move-result v0
@@ -1446,14 +1319,12 @@
 
     const/4 v2, 0x2
 
-    .line 2
     invoke-static {v2, p0}, Lcom/google/firebase/crashlytics/internal/proto/CodedOutputStream;->d(ILcom/google/firebase/crashlytics/internal/proto/a;)I
 
     move-result p0
 
     add-int/2addr v0, p0
 
-    .line 3
     invoke-static {v1, p1}, Lcom/google/firebase/crashlytics/internal/proto/CodedOutputStream;->d(ILcom/google/firebase/crashlytics/internal/proto/a;)I
 
     move-result p0
@@ -1462,7 +1333,6 @@
 
     const/4 p0, 0x4
 
-    .line 4
     invoke-static {p0, p2}, Lcom/google/firebase/crashlytics/internal/proto/CodedOutputStream;->b(IZ)I
 
     move-result p0
@@ -1475,7 +1345,6 @@
 .method private static n(Ljava/lang/Thread;[Ljava/lang/StackTraceElement;IZ)I
     .locals 4
 
-    .line 1
     invoke-virtual {p0}, Ljava/lang/Thread;->getName()Ljava/lang/String;
 
     move-result-object p0
@@ -1492,14 +1361,12 @@
 
     const/4 v0, 0x2
 
-    .line 2
     invoke-static {v0, p2}, Lcom/google/firebase/crashlytics/internal/proto/CodedOutputStream;->I(II)I
 
     move-result p2
 
     add-int/2addr p0, p2
 
-    .line 3
     array-length p2, p1
 
     const/4 v0, 0x0
@@ -1509,19 +1376,16 @@
 
     aget-object v1, p1, v0
 
-    .line 4
     invoke-static {v1, p3}, Lcom/google/firebase/crashlytics/internal/proto/c;->i(Ljava/lang/StackTraceElement;Z)I
 
     move-result v1
 
     const/4 v2, 0x3
 
-    .line 5
     invoke-static {v2}, Lcom/google/firebase/crashlytics/internal/proto/CodedOutputStream;->H(I)I
 
     move-result v2
 
-    .line 6
     invoke-static {v1}, Lcom/google/firebase/crashlytics/internal/proto/CodedOutputStream;->v(I)I
 
     move-result v3
@@ -1549,7 +1413,6 @@
 
     goto :goto_0
 
-    .line 1
     :cond_0
     invoke-static {p0}, Lcom/google/firebase/crashlytics/internal/proto/a;->i(Ljava/lang/String;)Lcom/google/firebase/crashlytics/internal/proto/a;
 
@@ -1567,7 +1430,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p2}, Lcom/google/firebase/crashlytics/internal/proto/a;->i(Ljava/lang/String;)Lcom/google/firebase/crashlytics/internal/proto/a;
 
     move-result-object p2
@@ -1576,7 +1438,6 @@
 
     invoke-virtual {p0, v0, p2}, Lcom/google/firebase/crashlytics/internal/proto/CodedOutputStream;->W(ILcom/google/firebase/crashlytics/internal/proto/a;)V
 
-    .line 2
     invoke-static {p1}, Lcom/google/firebase/crashlytics/internal/proto/a;->i(Ljava/lang/String;)Lcom/google/firebase/crashlytics/internal/proto/a;
 
     move-result-object p1
@@ -1587,7 +1448,6 @@
 
     const/4 p1, 0x3
 
-    .line 3
     invoke-virtual {p0, p1, p3, p4}, Lcom/google/firebase/crashlytics/internal/proto/CodedOutputStream;->K0(IJ)V
 
     return-void
@@ -1603,17 +1463,14 @@
 
     const/4 v0, 0x2
 
-    .line 1
     invoke-virtual {p0, p1, v0}, Lcom/google/firebase/crashlytics/internal/proto/CodedOutputStream;->H0(II)V
 
-    .line 2
     invoke-static {p2, p3}, Lcom/google/firebase/crashlytics/internal/proto/c;->i(Ljava/lang/StackTraceElement;Z)I
 
     move-result p1
 
     invoke-virtual {p0, p1}, Lcom/google/firebase/crashlytics/internal/proto/CodedOutputStream;->v0(I)V
 
-    .line 3
     invoke-virtual {p2}, Ljava/lang/StackTraceElement;->isNativeMethod()Z
 
     move-result p1
@@ -1624,7 +1481,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 4
     invoke-virtual {p2}, Ljava/lang/StackTraceElement;->getLineNumber()I
 
     move-result p1
@@ -1642,16 +1498,13 @@
     :cond_0
     const-wide/16 v3, 0x0
 
-    .line 5
     invoke-virtual {p0, v2, v3, v4}, Lcom/google/firebase/crashlytics/internal/proto/CodedOutputStream;->K0(IJ)V
 
-    .line 6
     :goto_0
     new-instance p1, Ljava/lang/StringBuilder;
 
     invoke-direct {p1}, Ljava/lang/StringBuilder;-><init>()V
 
-    .line 7
     invoke-virtual {p2}, Ljava/lang/StackTraceElement;->getClassName()Ljava/lang/String;
 
     move-result-object v2
@@ -1676,10 +1529,8 @@
 
     move-result-object p1
 
-    .line 8
     invoke-virtual {p0, v0, p1}, Lcom/google/firebase/crashlytics/internal/proto/CodedOutputStream;->W(ILcom/google/firebase/crashlytics/internal/proto/a;)V
 
-    .line 9
     invoke-virtual {p2}, Ljava/lang/StackTraceElement;->getFileName()Ljava/lang/String;
 
     move-result-object p1
@@ -1688,7 +1539,6 @@
 
     const/4 p1, 0x3
 
-    .line 10
     invoke-virtual {p2}, Ljava/lang/StackTraceElement;->getFileName()Ljava/lang/String;
 
     move-result-object v0
@@ -1699,7 +1549,6 @@
 
     invoke-virtual {p0, p1, v0}, Lcom/google/firebase/crashlytics/internal/proto/CodedOutputStream;->W(ILcom/google/firebase/crashlytics/internal/proto/a;)V
 
-    .line 11
     :cond_1
     invoke-virtual {p2}, Ljava/lang/StackTraceElement;->isNativeMethod()Z
 
@@ -1715,7 +1564,6 @@
 
     if-lez p1, :cond_2
 
-    .line 12
     invoke-virtual {p2}, Ljava/lang/StackTraceElement;->getLineNumber()I
 
     move-result p1
@@ -1731,7 +1579,6 @@
 
     const/4 v1, 0x4
 
-    .line 13
     :cond_3
     invoke-virtual {p0, p1, v1}, Lcom/google/firebase/crashlytics/internal/proto/CodedOutputStream;->I0(II)V
 
@@ -1746,29 +1593,24 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p1}, Lcom/google/firebase/crashlytics/internal/proto/a;->i(Ljava/lang/String;)Lcom/google/firebase/crashlytics/internal/proto/a;
 
     move-result-object p1
 
-    .line 2
     invoke-static {p2}, Lcom/google/firebase/crashlytics/internal/proto/a;->i(Ljava/lang/String;)Lcom/google/firebase/crashlytics/internal/proto/a;
 
     move-result-object p2
 
-    .line 3
     invoke-static {p3}, Lcom/google/firebase/crashlytics/internal/proto/a;->i(Ljava/lang/String;)Lcom/google/firebase/crashlytics/internal/proto/a;
 
     move-result-object p3
 
-    .line 4
     invoke-static {p4}, Lcom/google/firebase/crashlytics/internal/proto/a;->i(Ljava/lang/String;)Lcom/google/firebase/crashlytics/internal/proto/a;
 
     move-result-object p4
 
     if-eqz p6, :cond_0
 
-    .line 5
     invoke-static {p6}, Lcom/google/firebase/crashlytics/internal/proto/a;->i(Ljava/lang/String;)Lcom/google/firebase/crashlytics/internal/proto/a;
 
     move-result-object p6
@@ -1783,7 +1625,6 @@
 
     const/4 v6, 0x2
 
-    .line 6
     invoke-virtual {p0, v0, v6}, Lcom/google/firebase/crashlytics/internal/proto/CodedOutputStream;->H0(II)V
 
     move-object v0, p1
@@ -1798,50 +1639,41 @@
 
     move-object v5, p6
 
-    .line 7
     invoke-static/range {v0 .. v5}, Lcom/google/firebase/crashlytics/internal/proto/c;->j(Lcom/google/firebase/crashlytics/internal/proto/a;Lcom/google/firebase/crashlytics/internal/proto/a;Lcom/google/firebase/crashlytics/internal/proto/a;Lcom/google/firebase/crashlytics/internal/proto/a;ILcom/google/firebase/crashlytics/internal/proto/a;)I
 
     move-result v0
 
-    .line 8
     invoke-virtual {p0, v0}, Lcom/google/firebase/crashlytics/internal/proto/CodedOutputStream;->v0(I)V
 
     const/4 v0, 0x1
 
-    .line 9
     invoke-virtual {p0, v0, p1}, Lcom/google/firebase/crashlytics/internal/proto/CodedOutputStream;->W(ILcom/google/firebase/crashlytics/internal/proto/a;)V
 
-    .line 10
     invoke-virtual {p0, v6, p2}, Lcom/google/firebase/crashlytics/internal/proto/CodedOutputStream;->W(ILcom/google/firebase/crashlytics/internal/proto/a;)V
 
     const/4 p1, 0x3
 
-    .line 11
     invoke-virtual {p0, p1, p3}, Lcom/google/firebase/crashlytics/internal/proto/CodedOutputStream;->W(ILcom/google/firebase/crashlytics/internal/proto/a;)V
 
     const/4 p1, 0x6
 
-    .line 12
     invoke-virtual {p0, p1, p4}, Lcom/google/firebase/crashlytics/internal/proto/CodedOutputStream;->W(ILcom/google/firebase/crashlytics/internal/proto/a;)V
 
     if-eqz p6, :cond_1
 
     const/16 p1, 0x8
 
-    .line 13
     sget-object p2, Lcom/google/firebase/crashlytics/internal/proto/c;->c:Lcom/google/firebase/crashlytics/internal/proto/a;
 
     invoke-virtual {p0, p1, p2}, Lcom/google/firebase/crashlytics/internal/proto/CodedOutputStream;->W(ILcom/google/firebase/crashlytics/internal/proto/a;)V
 
     const/16 p1, 0x9
 
-    .line 14
     invoke-virtual {p0, p1, p6}, Lcom/google/firebase/crashlytics/internal/proto/CodedOutputStream;->W(ILcom/google/firebase/crashlytics/internal/proto/a;)V
 
     :cond_1
     const/16 p1, 0xa
 
-    .line 15
     invoke-virtual {p0, p1, p5}, Lcom/google/firebase/crashlytics/internal/proto/CodedOutputStream;->a0(II)V
 
     return-void
@@ -1855,7 +1687,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p1}, Lcom/google/firebase/crashlytics/internal/proto/a;->i(Ljava/lang/String;)Lcom/google/firebase/crashlytics/internal/proto/a;
 
     move-result-object p1
@@ -1864,22 +1695,18 @@
 
     const/4 v1, 0x2
 
-    .line 2
     invoke-virtual {p0, v0, v1}, Lcom/google/firebase/crashlytics/internal/proto/CodedOutputStream;->H0(II)V
 
-    .line 3
     invoke-static {v1, p1}, Lcom/google/firebase/crashlytics/internal/proto/CodedOutputStream;->d(ILcom/google/firebase/crashlytics/internal/proto/a;)I
 
     move-result v0
 
     const/4 v2, 0x5
 
-    .line 4
     invoke-static {v2}, Lcom/google/firebase/crashlytics/internal/proto/CodedOutputStream;->H(I)I
 
     move-result v3
 
-    .line 5
     invoke-static {v0}, Lcom/google/firebase/crashlytics/internal/proto/CodedOutputStream;->v(I)I
 
     move-result v4
@@ -1888,16 +1715,12 @@
 
     add-int/2addr v3, v0
 
-    .line 6
     invoke-virtual {p0, v3}, Lcom/google/firebase/crashlytics/internal/proto/CodedOutputStream;->v0(I)V
 
-    .line 7
     invoke-virtual {p0, v2, v1}, Lcom/google/firebase/crashlytics/internal/proto/CodedOutputStream;->H0(II)V
 
-    .line 8
     invoke-virtual {p0, v0}, Lcom/google/firebase/crashlytics/internal/proto/CodedOutputStream;->v0(I)V
 
-    .line 9
     invoke-virtual {p0, v1, p1}, Lcom/google/firebase/crashlytics/internal/proto/CodedOutputStream;->W(ILcom/google/firebase/crashlytics/internal/proto/a;)V
 
     return-void
@@ -1913,17 +1736,14 @@
 
     move-object v0, p0
 
-    .line 1
     invoke-static/range {p2 .. p2}, Lcom/google/firebase/crashlytics/internal/proto/c;->o(Ljava/lang/String;)Lcom/google/firebase/crashlytics/internal/proto/a;
 
     move-result-object v12
 
-    .line 2
     invoke-static/range {p11 .. p11}, Lcom/google/firebase/crashlytics/internal/proto/c;->o(Ljava/lang/String;)Lcom/google/firebase/crashlytics/internal/proto/a;
 
     move-result-object v13
 
-    .line 3
     invoke-static/range {p10 .. p10}, Lcom/google/firebase/crashlytics/internal/proto/c;->o(Ljava/lang/String;)Lcom/google/firebase/crashlytics/internal/proto/a;
 
     move-result-object v14
@@ -1932,7 +1752,6 @@
 
     const/4 v2, 0x2
 
-    .line 4
     invoke-virtual {p0, v1, v2}, Lcom/google/firebase/crashlytics/internal/proto/CodedOutputStream;->H0(II)V
 
     move/from16 v1, p1
@@ -1953,66 +1772,56 @@
 
     move-object v11, v13
 
-    .line 5
     invoke-static/range {v1 .. v11}, Lcom/google/firebase/crashlytics/internal/proto/c;->k(ILcom/google/firebase/crashlytics/internal/proto/a;IJJZILcom/google/firebase/crashlytics/internal/proto/a;Lcom/google/firebase/crashlytics/internal/proto/a;)I
 
     move-result v1
 
-    .line 6
     invoke-virtual {p0, v1}, Lcom/google/firebase/crashlytics/internal/proto/CodedOutputStream;->v0(I)V
 
     const/4 v1, 0x3
 
     move/from16 v2, p1
 
-    .line 7
     invoke-virtual {p0, v1, v2}, Lcom/google/firebase/crashlytics/internal/proto/CodedOutputStream;->a0(II)V
 
     const/4 v1, 0x4
 
-    .line 8
     invoke-virtual {p0, v1, v12}, Lcom/google/firebase/crashlytics/internal/proto/CodedOutputStream;->W(ILcom/google/firebase/crashlytics/internal/proto/a;)V
 
     const/4 v1, 0x5
 
     move/from16 v2, p3
 
-    .line 9
     invoke-virtual {p0, v1, v2}, Lcom/google/firebase/crashlytics/internal/proto/CodedOutputStream;->I0(II)V
 
     const/4 v1, 0x6
 
     move-wide/from16 v2, p4
 
-    .line 10
     invoke-virtual {p0, v1, v2, v3}, Lcom/google/firebase/crashlytics/internal/proto/CodedOutputStream;->K0(IJ)V
 
     const/4 v1, 0x7
 
     move-wide/from16 v2, p6
 
-    .line 11
     invoke-virtual {p0, v1, v2, v3}, Lcom/google/firebase/crashlytics/internal/proto/CodedOutputStream;->K0(IJ)V
 
     const/16 v1, 0xa
 
     move/from16 v2, p8
 
-    .line 12
     invoke-virtual {p0, v1, v2}, Lcom/google/firebase/crashlytics/internal/proto/CodedOutputStream;->U(IZ)V
 
     const/16 v1, 0xc
 
     move/from16 v2, p9
 
-    .line 13
     invoke-virtual {p0, v1, v2}, Lcom/google/firebase/crashlytics/internal/proto/CodedOutputStream;->I0(II)V
 
     if-eqz v14, :cond_0
 
     const/16 v1, 0xd
 
-    .line 14
     invoke-virtual {p0, v1, v14}, Lcom/google/firebase/crashlytics/internal/proto/CodedOutputStream;->W(ILcom/google/firebase/crashlytics/internal/proto/a;)V
 
     :cond_0
@@ -2020,7 +1829,6 @@
 
     const/16 v1, 0xe
 
-    .line 15
     invoke-virtual {p0, v1, v13}, Lcom/google/firebase/crashlytics/internal/proto/CodedOutputStream;->W(ILcom/google/firebase/crashlytics/internal/proto/a;)V
 
     :cond_1
@@ -2068,7 +1876,6 @@
 
     move-object/from16 v0, p15
 
-    .line 1
     invoke-static/range {p14 .. p14}, Lcom/google/firebase/crashlytics/internal/proto/a;->i(Ljava/lang/String;)Lcom/google/firebase/crashlytics/internal/proto/a;
 
     move-result-object v7
@@ -2086,7 +1893,6 @@
 
     const-string v3, ""
 
-    .line 2
     invoke-virtual {v0, v2, v3}, Ljava/lang/String;->replace(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)Ljava/lang/String;
 
     move-result-object v0
@@ -2100,14 +1906,12 @@
     :goto_0
     if-eqz p11, :cond_1
 
-    .line 3
     invoke-static/range {p11 .. p11}, Lcom/google/firebase/crashlytics/internal/proto/a;->g([B)Lcom/google/firebase/crashlytics/internal/proto/a;
 
     move-result-object v1
 
     goto :goto_1
 
-    .line 4
     :cond_1
     invoke-static {}, Lcom/google/firebase/crashlytics/e/b;->f()Lcom/google/firebase/crashlytics/e/b;
 
@@ -2124,7 +1928,6 @@
 
     const/4 v1, 0x2
 
-    .line 5
     invoke-virtual {v12, v0, v1}, Lcom/google/firebase/crashlytics/internal/proto/CodedOutputStream;->H0(II)V
 
     move-wide/from16 v13, p1
@@ -2165,22 +1968,18 @@
 
     move-object/from16 v34, v11
 
-    .line 6
     invoke-static/range {v13 .. v34}, Lcom/google/firebase/crashlytics/internal/proto/c;->l(JLjava/lang/String;Lcom/google/firebase/crashlytics/e/l/e;Ljava/lang/Thread;[Ljava/lang/StackTraceElement;[Ljava/lang/Thread;Ljava/util/List;ILjava/util/Map;Landroid/app/ActivityManager$RunningAppProcessInfo;ILcom/google/firebase/crashlytics/internal/proto/a;Lcom/google/firebase/crashlytics/internal/proto/a;Ljava/lang/Float;IZJJLcom/google/firebase/crashlytics/internal/proto/a;)I
 
     move-result v0
 
-    .line 7
     invoke-virtual {v12, v0}, Lcom/google/firebase/crashlytics/internal/proto/CodedOutputStream;->v0(I)V
 
     const/4 v0, 0x1
 
     move-wide/from16 v2, p1
 
-    .line 8
     invoke-virtual {v12, v0, v2, v3}, Lcom/google/firebase/crashlytics/internal/proto/CodedOutputStream;->K0(IJ)V
 
-    .line 9
     invoke-static/range {p3 .. p3}, Lcom/google/firebase/crashlytics/internal/proto/a;->i(Ljava/lang/String;)Lcom/google/firebase/crashlytics/internal/proto/a;
 
     move-result-object v0
@@ -2209,7 +2008,6 @@
 
     move/from16 v11, p13
 
-    .line 10
     invoke-static/range {v0 .. v11}, Lcom/google/firebase/crashlytics/internal/proto/c;->v(Lcom/google/firebase/crashlytics/internal/proto/CodedOutputStream;Lcom/google/firebase/crashlytics/e/l/e;Ljava/lang/Thread;[Ljava/lang/StackTraceElement;[Ljava/lang/Thread;Ljava/util/List;ILcom/google/firebase/crashlytics/internal/proto/a;Lcom/google/firebase/crashlytics/internal/proto/a;Ljava/util/Map;Landroid/app/ActivityManager$RunningAppProcessInfo;I)V
 
     move-object/from16 p1, p0
@@ -2226,10 +2024,8 @@
 
     move-wide/from16 p8, p21
 
-    .line 11
     invoke-static/range {p1 .. p9}, Lcom/google/firebase/crashlytics/internal/proto/c;->z(Lcom/google/firebase/crashlytics/internal/proto/CodedOutputStream;Ljava/lang/Float;IZIJJ)V
 
-    .line 12
     invoke-static {v12, v13}, Lcom/google/firebase/crashlytics/internal/proto/c;->A(Lcom/google/firebase/crashlytics/internal/proto/CodedOutputStream;Lcom/google/firebase/crashlytics/internal/proto/a;)V
 
     return-void
@@ -2272,36 +2068,29 @@
 
     const/4 v1, 0x2
 
-    .line 1
     invoke-virtual {p0, v0, v1}, Lcom/google/firebase/crashlytics/internal/proto/CodedOutputStream;->H0(II)V
 
-    .line 2
     invoke-static/range {p1 .. p11}, Lcom/google/firebase/crashlytics/internal/proto/c;->f(Lcom/google/firebase/crashlytics/e/l/e;Ljava/lang/Thread;[Ljava/lang/StackTraceElement;[Ljava/lang/Thread;Ljava/util/List;ILcom/google/firebase/crashlytics/internal/proto/a;Lcom/google/firebase/crashlytics/internal/proto/a;Ljava/util/Map;Landroid/app/ActivityManager$RunningAppProcessInfo;I)I
 
     move-result v1
 
-    .line 3
     invoke-virtual {p0, v1}, Lcom/google/firebase/crashlytics/internal/proto/CodedOutputStream;->v0(I)V
 
-    .line 4
     invoke-static/range {p0 .. p8}, Lcom/google/firebase/crashlytics/internal/proto/c;->x(Lcom/google/firebase/crashlytics/internal/proto/CodedOutputStream;Lcom/google/firebase/crashlytics/e/l/e;Ljava/lang/Thread;[Ljava/lang/StackTraceElement;[Ljava/lang/Thread;Ljava/util/List;ILcom/google/firebase/crashlytics/internal/proto/a;Lcom/google/firebase/crashlytics/internal/proto/a;)V
 
     if-eqz p9, :cond_0
 
-    .line 5
     invoke-interface {p9}, Ljava/util/Map;->isEmpty()Z
 
     move-result p1
 
     if-nez p1, :cond_0
 
-    .line 6
     invoke-static {p0, p9}, Lcom/google/firebase/crashlytics/internal/proto/c;->w(Lcom/google/firebase/crashlytics/internal/proto/CodedOutputStream;Ljava/util/Map;)V
 
     :cond_0
     if-eqz p10, :cond_2
 
-    .line 7
     iget p1, p10, Landroid/app/ActivityManager$RunningAppProcessInfo;->importance:I
 
     const/16 p2, 0x64
@@ -2321,7 +2110,6 @@
     :cond_2
     const/4 p1, 0x4
 
-    .line 8
     invoke-virtual {p0, p1, p11}, Lcom/google/firebase/crashlytics/internal/proto/CodedOutputStream;->I0(II)V
 
     return-void
@@ -2346,7 +2134,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-interface {p1}, Ljava/util/Map;->entrySet()Ljava/util/Set;
 
     move-result-object p1
@@ -2370,10 +2157,8 @@
 
     const/4 v1, 0x2
 
-    .line 2
     invoke-virtual {p0, v1, v1}, Lcom/google/firebase/crashlytics/internal/proto/CodedOutputStream;->H0(II)V
 
-    .line 3
     invoke-interface {v0}, Ljava/util/Map$Entry;->getKey()Ljava/lang/Object;
 
     move-result-object v2
@@ -2394,7 +2179,6 @@
 
     const/4 v2, 0x1
 
-    .line 4
     invoke-interface {v0}, Ljava/util/Map$Entry;->getKey()Ljava/lang/Object;
 
     move-result-object v3
@@ -2407,7 +2191,6 @@
 
     invoke-virtual {p0, v2, v3}, Lcom/google/firebase/crashlytics/internal/proto/CodedOutputStream;->W(ILcom/google/firebase/crashlytics/internal/proto/a;)V
 
-    .line 5
     invoke-interface {v0}, Ljava/util/Map$Entry;->getValue()Ljava/lang/Object;
 
     move-result-object v0
@@ -2418,7 +2201,6 @@
 
     const-string v0, ""
 
-    .line 6
     :cond_0
     invoke-static {v0}, Lcom/google/firebase/crashlytics/internal/proto/a;->i(Ljava/lang/String;)Lcom/google/firebase/crashlytics/internal/proto/a;
 
@@ -2464,23 +2246,18 @@
 
     const/4 v1, 0x2
 
-    .line 1
     invoke-virtual {p0, v0, v1}, Lcom/google/firebase/crashlytics/internal/proto/CodedOutputStream;->H0(II)V
 
-    .line 2
     invoke-static/range {p1 .. p8}, Lcom/google/firebase/crashlytics/internal/proto/c;->e(Lcom/google/firebase/crashlytics/e/l/e;Ljava/lang/Thread;[Ljava/lang/StackTraceElement;[Ljava/lang/Thread;Ljava/util/List;ILcom/google/firebase/crashlytics/internal/proto/a;Lcom/google/firebase/crashlytics/internal/proto/a;)I
 
     move-result v2
 
-    .line 3
     invoke-virtual {p0, v2}, Lcom/google/firebase/crashlytics/internal/proto/CodedOutputStream;->v0(I)V
 
     const/4 v2, 0x4
 
-    .line 4
     invoke-static {p0, p2, p3, v2, v0}, Lcom/google/firebase/crashlytics/internal/proto/c;->D(Lcom/google/firebase/crashlytics/internal/proto/CodedOutputStream;Ljava/lang/Thread;[Ljava/lang/StackTraceElement;IZ)V
 
-    .line 5
     array-length p2, p4
 
     const/4 p3, 0x0
@@ -2490,10 +2267,8 @@
     :goto_0
     if-ge v3, p2, :cond_0
 
-    .line 6
     aget-object v4, p4, v3
 
-    .line 7
     invoke-interface {p5, v3}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object v5
@@ -2506,57 +2281,45 @@
 
     goto :goto_0
 
-    .line 8
     :cond_0
     invoke-static {p0, p1, v0, p6, v1}, Lcom/google/firebase/crashlytics/internal/proto/c;->y(Lcom/google/firebase/crashlytics/internal/proto/CodedOutputStream;Lcom/google/firebase/crashlytics/e/l/e;III)V
 
     const/4 p1, 0x3
 
-    .line 9
     invoke-virtual {p0, p1, v1}, Lcom/google/firebase/crashlytics/internal/proto/CodedOutputStream;->H0(II)V
 
-    .line 10
     invoke-static {}, Lcom/google/firebase/crashlytics/internal/proto/c;->d()I
 
     move-result p2
 
     invoke-virtual {p0, p2}, Lcom/google/firebase/crashlytics/internal/proto/CodedOutputStream;->v0(I)V
 
-    .line 11
     sget-object p2, Lcom/google/firebase/crashlytics/internal/proto/c;->b:Lcom/google/firebase/crashlytics/internal/proto/a;
 
     invoke-virtual {p0, v0, p2}, Lcom/google/firebase/crashlytics/internal/proto/CodedOutputStream;->W(ILcom/google/firebase/crashlytics/internal/proto/a;)V
 
-    .line 12
     invoke-virtual {p0, v1, p2}, Lcom/google/firebase/crashlytics/internal/proto/CodedOutputStream;->W(ILcom/google/firebase/crashlytics/internal/proto/a;)V
 
     const-wide/16 p2, 0x0
 
-    .line 13
     invoke-virtual {p0, p1, p2, p3}, Lcom/google/firebase/crashlytics/internal/proto/CodedOutputStream;->K0(IJ)V
 
-    .line 14
     invoke-virtual {p0, v2, v1}, Lcom/google/firebase/crashlytics/internal/proto/CodedOutputStream;->H0(II)V
 
-    .line 15
     invoke-static {p7, p8}, Lcom/google/firebase/crashlytics/internal/proto/c;->a(Lcom/google/firebase/crashlytics/internal/proto/a;Lcom/google/firebase/crashlytics/internal/proto/a;)I
 
     move-result p4
 
     invoke-virtual {p0, p4}, Lcom/google/firebase/crashlytics/internal/proto/CodedOutputStream;->v0(I)V
 
-    .line 16
     invoke-virtual {p0, v0, p2, p3}, Lcom/google/firebase/crashlytics/internal/proto/CodedOutputStream;->K0(IJ)V
 
-    .line 17
     invoke-virtual {p0, v1, p2, p3}, Lcom/google/firebase/crashlytics/internal/proto/CodedOutputStream;->K0(IJ)V
 
-    .line 18
     invoke-virtual {p0, p1, p7}, Lcom/google/firebase/crashlytics/internal/proto/CodedOutputStream;->W(ILcom/google/firebase/crashlytics/internal/proto/a;)V
 
     if-eqz p8, :cond_1
 
-    .line 19
     invoke-virtual {p0, v2, p8}, Lcom/google/firebase/crashlytics/internal/proto/CodedOutputStream;->W(ILcom/google/firebase/crashlytics/internal/proto/a;)V
 
     :cond_1
@@ -2573,20 +2336,16 @@
 
     const/4 v0, 0x2
 
-    .line 1
     invoke-virtual {p0, p4, v0}, Lcom/google/firebase/crashlytics/internal/proto/CodedOutputStream;->H0(II)V
 
     const/4 p4, 0x1
 
-    .line 2
     invoke-static {p1, p4, p3}, Lcom/google/firebase/crashlytics/internal/proto/c;->c(Lcom/google/firebase/crashlytics/e/l/e;II)I
 
     move-result v0
 
-    .line 3
     invoke-virtual {p0, v0}, Lcom/google/firebase/crashlytics/internal/proto/CodedOutputStream;->v0(I)V
 
-    .line 4
     iget-object v0, p1, Lcom/google/firebase/crashlytics/e/l/e;->b:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/google/firebase/crashlytics/internal/proto/a;->i(Ljava/lang/String;)Lcom/google/firebase/crashlytics/internal/proto/a;
@@ -2595,21 +2354,18 @@
 
     invoke-virtual {p0, p4, v0}, Lcom/google/firebase/crashlytics/internal/proto/CodedOutputStream;->W(ILcom/google/firebase/crashlytics/internal/proto/a;)V
 
-    .line 5
     iget-object v0, p1, Lcom/google/firebase/crashlytics/e/l/e;->a:Ljava/lang/String;
 
     if-eqz v0, :cond_0
 
     const/4 v1, 0x3
 
-    .line 6
     invoke-static {v0}, Lcom/google/firebase/crashlytics/internal/proto/a;->i(Ljava/lang/String;)Lcom/google/firebase/crashlytics/internal/proto/a;
 
     move-result-object v0
 
     invoke-virtual {p0, v1, v0}, Lcom/google/firebase/crashlytics/internal/proto/CodedOutputStream;->W(ILcom/google/firebase/crashlytics/internal/proto/a;)V
 
-    .line 7
     :cond_0
     iget-object v0, p1, Lcom/google/firebase/crashlytics/e/l/e;->c:[Ljava/lang/StackTraceElement;
 
@@ -2626,14 +2382,12 @@
 
     const/4 v5, 0x4
 
-    .line 8
     invoke-static {p0, v5, v4, p4}, Lcom/google/firebase/crashlytics/internal/proto/c;->q(Lcom/google/firebase/crashlytics/internal/proto/CodedOutputStream;ILjava/lang/StackTraceElement;Z)V
 
     add-int/lit8 v3, v3, 0x1
 
     goto :goto_0
 
-    .line 9
     :cond_1
     iget-object p1, p1, Lcom/google/firebase/crashlytics/e/l/e;->d:Lcom/google/firebase/crashlytics/e/l/e;
 
@@ -2645,7 +2399,6 @@
 
     const/4 p4, 0x6
 
-    .line 10
     invoke-static {p0, p1, p2, p3, p4}, Lcom/google/firebase/crashlytics/internal/proto/c;->y(Lcom/google/firebase/crashlytics/internal/proto/CodedOutputStream;Lcom/google/firebase/crashlytics/e/l/e;III)V
 
     goto :goto_2
@@ -2654,7 +2407,6 @@
     :goto_1
     if-eqz p1, :cond_3
 
-    .line 11
     iget-object p1, p1, Lcom/google/firebase/crashlytics/e/l/e;->d:Lcom/google/firebase/crashlytics/e/l/e;
 
     add-int/lit8 v2, v2, 0x1
@@ -2664,7 +2416,6 @@
     :cond_3
     const/4 p1, 0x7
 
-    .line 12
     invoke-virtual {p0, p1, v2}, Lcom/google/firebase/crashlytics/internal/proto/CodedOutputStream;->I0(II)V
 
     :cond_4
@@ -2684,48 +2435,39 @@
 
     const/4 v1, 0x2
 
-    .line 1
     invoke-virtual {p0, v0, v1}, Lcom/google/firebase/crashlytics/internal/proto/CodedOutputStream;->H0(II)V
 
-    .line 2
     invoke-static/range {p1 .. p8}, Lcom/google/firebase/crashlytics/internal/proto/c;->g(Ljava/lang/Float;IZIJJ)I
 
     move-result v2
 
-    .line 3
     invoke-virtual {p0, v2}, Lcom/google/firebase/crashlytics/internal/proto/CodedOutputStream;->v0(I)V
 
     if-eqz p1, :cond_0
 
     const/4 v2, 0x1
 
-    .line 4
     invoke-virtual {p1}, Ljava/lang/Float;->floatValue()F
 
     move-result p1
 
     invoke-virtual {p0, v2, p1}, Lcom/google/firebase/crashlytics/internal/proto/CodedOutputStream;->g0(IF)V
 
-    .line 5
     :cond_0
     invoke-virtual {p0, v1, p2}, Lcom/google/firebase/crashlytics/internal/proto/CodedOutputStream;->B0(II)V
 
     const/4 p1, 0x3
 
-    .line 6
     invoke-virtual {p0, p1, p3}, Lcom/google/firebase/crashlytics/internal/proto/CodedOutputStream;->U(IZ)V
 
     const/4 p1, 0x4
 
-    .line 7
     invoke-virtual {p0, p1, p4}, Lcom/google/firebase/crashlytics/internal/proto/CodedOutputStream;->I0(II)V
 
-    .line 8
     invoke-virtual {p0, v0, p5, p6}, Lcom/google/firebase/crashlytics/internal/proto/CodedOutputStream;->K0(IJ)V
 
     const/4 p1, 0x6
 
-    .line 9
     invoke-virtual {p0, p1, p7, p8}, Lcom/google/firebase/crashlytics/internal/proto/CodedOutputStream;->K0(IJ)V
 
     return-void

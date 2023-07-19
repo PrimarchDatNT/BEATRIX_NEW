@@ -35,7 +35,6 @@
 .method public constructor <init>(Lcotlin/jvm/u/p;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcotlinx/coroutines/flow/internal/SafeCollector_commonKt$unsafeFlow$1;->a:Lcotlin/jvm/u/p;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -71,7 +70,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcotlinx/coroutines/flow/internal/SafeCollector_commonKt$unsafeFlow$1;->a:Lcotlin/jvm/u/p;
 
     invoke-interface {v0, p1, p2}, Lcotlin/jvm/u/p;->invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
@@ -86,7 +84,6 @@
 
     return-object p1
 
-    .line 2
     :cond_0
     sget-object p1, Lcotlin/t1;->a:Lcotlin/t1;
 
@@ -118,12 +115,10 @@
 
     invoke-static {v0}, Lcotlin/jvm/internal/c0;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcotlinx/coroutines/flow/internal/SafeCollector_commonKt$unsafeFlow$1;->a:Lcotlin/jvm/u/p;
 
     invoke-interface {v0, p1, p2}, Lcotlin/jvm/u/p;->invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 2
     sget-object p1, Lcotlin/t1;->a:Lcotlin/t1;
 
     return-object p1

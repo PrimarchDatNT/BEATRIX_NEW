@@ -32,7 +32,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -41,7 +40,6 @@
 .method synthetic constructor <init>(Lorg/apache/thrift/async/TAsyncClientManager$1;)V
     .locals 0
 
-    .line 2
     invoke-direct {p0}, Lorg/apache/thrift/async/TAsyncClientManager$TAsyncMethodCallTimeoutComparator;-><init>()V
 
     return-void
@@ -52,7 +50,6 @@
 .method public bridge synthetic compare(Ljava/lang/Object;Ljava/lang/Object;)I
     .locals 0
 
-    .line 1
     check-cast p1, Lorg/apache/thrift/async/TAsyncMethodCall;
 
     check-cast p2, Lorg/apache/thrift/async/TAsyncMethodCall;
@@ -67,7 +64,6 @@
 .method public compare(Lorg/apache/thrift/async/TAsyncMethodCall;Lorg/apache/thrift/async/TAsyncMethodCall;)I
     .locals 5
 
-    .line 2
     invoke-virtual {p1}, Lorg/apache/thrift/async/TAsyncMethodCall;->getTimeoutTimestamp()J
 
     move-result-wide v0
@@ -80,7 +76,6 @@
 
     if-nez v4, :cond_0
 
-    .line 3
     invoke-virtual {p1}, Lorg/apache/thrift/async/TAsyncMethodCall;->getSequenceId()J
 
     move-result-wide v0
@@ -96,7 +91,6 @@
 
     return p1
 
-    .line 4
     :cond_0
     invoke-virtual {p1}, Lorg/apache/thrift/async/TAsyncMethodCall;->getTimeoutTimestamp()J
 

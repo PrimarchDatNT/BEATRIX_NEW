@@ -61,7 +61,6 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
     const-class v0, Lio/grpc/v0;
 
     invoke-virtual {v0}, Ljava/lang/Class;->getName()Ljava/lang/String;
@@ -74,7 +73,6 @@
 
     sput-object v0, Lio/grpc/v0;->c:Ljava/util/logging/Logger;
 
-    .line 2
     invoke-static {}, Lio/grpc/v0;->d()Ljava/util/List;
 
     move-result-object v0
@@ -87,17 +85,14 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     new-instance v0, Ljava/util/LinkedHashSet;
 
     invoke-direct {v0}, Ljava/util/LinkedHashSet;-><init>()V
 
     iput-object v0, p0, Lio/grpc/v0;->a:Ljava/util/LinkedHashSet;
 
-    .line 3
     new-instance v0, Ljava/util/LinkedHashMap;
 
     invoke-direct {v0}, Ljava/util/LinkedHashMap;-><init>()V
@@ -112,7 +107,6 @@
 
     monitor-enter p0
 
-    .line 1
     :try_start_0
     invoke-virtual {p1}, Lio/grpc/u0;->d()Z
 
@@ -122,14 +116,12 @@
 
     invoke-static {v0, v1}, Lcom/google/common/base/t;->e(ZLjava/lang/Object;)V
 
-    .line 2
     iget-object v0, p0, Lio/grpc/v0;->a:Ljava/util/LinkedHashSet;
 
     invoke-virtual {v0, p1}, Ljava/util/LinkedHashSet;->add(Ljava/lang/Object;)Z
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 3
     monitor-exit p0
 
     return-void
@@ -151,16 +143,13 @@
 
     monitor-enter v1
 
-    .line 1
     :try_start_0
     sget-object v2, Lio/grpc/v0;->d:Lio/grpc/v0;
 
     if-nez v2, :cond_2
 
-    .line 2
     sget-object v2, Lio/grpc/v0;->e:Ljava/lang/Iterable;
 
-    .line 3
     invoke-virtual {v0}, Ljava/lang/Class;->getClassLoader()Ljava/lang/ClassLoader;
 
     move-result-object v3
@@ -169,19 +158,16 @@
 
     invoke-direct {v4}, Lio/grpc/v0$a;-><init>()V
 
-    .line 4
     invoke-static {v0, v2, v3, v4}, Lio/grpc/u1;->f(Ljava/lang/Class;Ljava/lang/Iterable;Ljava/lang/ClassLoader;Lio/grpc/u1$b;)Ljava/util/List;
 
     move-result-object v0
 
-    .line 5
     new-instance v2, Lio/grpc/v0;
 
     invoke-direct {v2}, Lio/grpc/v0;-><init>()V
 
     sput-object v2, Lio/grpc/v0;->d:Lio/grpc/v0;
 
-    .line 6
     invoke-interface {v0}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
     move-result-object v0
@@ -200,7 +186,6 @@
 
     check-cast v2, Lio/grpc/u0;
 
-    .line 7
     sget-object v3, Lio/grpc/v0;->c:Ljava/util/logging/Logger;
 
     new-instance v4, Ljava/lang/StringBuilder;
@@ -219,27 +204,23 @@
 
     invoke-virtual {v3, v4}, Ljava/util/logging/Logger;->fine(Ljava/lang/String;)V
 
-    .line 8
     invoke-virtual {v2}, Lio/grpc/u0;->d()Z
 
     move-result v3
 
     if-eqz v3, :cond_0
 
-    .line 9
     sget-object v3, Lio/grpc/v0;->d:Lio/grpc/v0;
 
     invoke-direct {v3, v2}, Lio/grpc/v0;->a(Lio/grpc/u0;)V
 
     goto :goto_0
 
-    .line 10
     :cond_1
     sget-object v0, Lio/grpc/v0;->d:Lio/grpc/v0;
 
     invoke-direct {v0}, Lio/grpc/v0;->g()V
 
-    .line 11
     :cond_2
     sget-object v0, Lio/grpc/v0;->d:Lio/grpc/v0;
     :try_end_0
@@ -271,7 +252,6 @@
     .annotation build Lf/f/e/a/d;
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
@@ -279,7 +259,6 @@
     :try_start_0
     const-string v1, "io.grpc.internal.x1"
 
-    .line 2
     invoke-static {v1}, Ljava/lang/Class;->forName(Ljava/lang/String;)Ljava/lang/Class;
 
     move-result-object v1
@@ -293,7 +272,6 @@
     :catch_0
     move-exception v1
 
-    .line 3
     sget-object v2, Lio/grpc/v0;->c:Ljava/util/logging/Logger;
 
     sget-object v3, Ljava/util/logging/Level;->WARNING:Ljava/util/logging/Level;
@@ -306,7 +284,6 @@
     :try_start_1
     const-string v1, "io.grpc.a2.h$a"
 
-    .line 4
     invoke-static {v1}, Ljava/lang/Class;->forName(Ljava/lang/String;)Ljava/lang/Class;
 
     move-result-object v1
@@ -320,7 +297,6 @@
     :catch_1
     move-exception v1
 
-    .line 5
     sget-object v2, Lio/grpc/v0;->c:Ljava/util/logging/Logger;
 
     sget-object v3, Ljava/util/logging/Level;->FINE:Ljava/util/logging/Level;
@@ -329,7 +305,6 @@
 
     invoke-virtual {v2, v3, v4, v1}, Ljava/util/logging/Logger;->log(Ljava/util/logging/Level;Ljava/lang/String;Ljava/lang/Throwable;)V
 
-    .line 6
     :goto_1
     invoke-static {v0}, Ljava/util/Collections;->unmodifiableList(Ljava/util/List;)Ljava/util/List;
 
@@ -343,13 +318,11 @@
 
     monitor-enter p0
 
-    .line 1
     :try_start_0
     iget-object v0, p0, Lio/grpc/v0;->b:Ljava/util/LinkedHashMap;
 
     invoke-virtual {v0}, Ljava/util/LinkedHashMap;->clear()V
 
-    .line 2
     iget-object v0, p0, Lio/grpc/v0;->a:Ljava/util/LinkedHashSet;
 
     invoke-virtual {v0}, Ljava/util/LinkedHashSet;->iterator()Ljava/util/Iterator;
@@ -370,12 +343,10 @@
 
     check-cast v1, Lio/grpc/u0;
 
-    .line 3
     invoke-virtual {v1}, Lio/grpc/u0;->b()Ljava/lang/String;
 
     move-result-object v2
 
-    .line 4
     iget-object v3, p0, Lio/grpc/v0;->b:Ljava/util/LinkedHashMap;
 
     invoke-virtual {v3, v2}, Ljava/util/LinkedHashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
@@ -386,7 +357,6 @@
 
     if-eqz v3, :cond_1
 
-    .line 5
     invoke-virtual {v3}, Lio/grpc/u0;->c()I
 
     move-result v3
@@ -397,7 +367,6 @@
 
     if-ge v3, v4, :cond_0
 
-    .line 6
     :cond_1
     iget-object v3, p0, Lio/grpc/v0;->b:Ljava/util/LinkedHashMap;
 
@@ -407,7 +376,6 @@
 
     goto :goto_0
 
-    .line 7
     :cond_2
     monitor-exit p0
 
@@ -428,18 +396,15 @@
 
     monitor-enter p0
 
-    .line 1
     :try_start_0
     iget-object v0, p0, Lio/grpc/v0;->a:Ljava/util/LinkedHashSet;
 
     invoke-virtual {v0, p1}, Ljava/util/LinkedHashSet;->remove(Ljava/lang/Object;)Z
 
-    .line 2
     invoke-direct {p0}, Lio/grpc/v0;->g()V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 3
     monitor-exit p0
 
     return-void
@@ -459,7 +424,6 @@
 
     monitor-enter p0
 
-    .line 1
     :try_start_0
     iget-object v0, p0, Lio/grpc/v0;->b:Ljava/util/LinkedHashMap;
 
@@ -506,7 +470,6 @@
 
     monitor-enter p0
 
-    .line 1
     :try_start_0
     new-instance v0, Ljava/util/LinkedHashMap;
 
@@ -533,16 +496,13 @@
 
     monitor-enter p0
 
-    .line 1
     :try_start_0
     invoke-direct {p0, p1}, Lio/grpc/v0;->a(Lio/grpc/u0;)V
 
-    .line 2
     invoke-direct {p0}, Lio/grpc/v0;->g()V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 3
     monitor-exit p0
 
     return-void

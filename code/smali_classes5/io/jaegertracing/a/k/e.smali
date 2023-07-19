@@ -253,10 +253,8 @@
 .method public constructor <init>(Lio/jaegertracing/b/f;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     invoke-direct {p0, p1}, Lio/jaegertracing/a/k/e;->b(Lio/jaegertracing/b/f;)V
 
     return-void
@@ -278,7 +276,6 @@
 
     if-eqz p1, :cond_2
 
-    .line 1
     invoke-interface {p1}, Ljava/util/Map;->size()I
 
     move-result v0
@@ -287,21 +284,17 @@
 
     goto :goto_1
 
-    .line 2
     :cond_0
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
 
-    .line 3
     invoke-virtual {v0, p0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 4
     new-instance p0, Ljava/util/TreeMap;
 
     invoke-direct {p0, p1}, Ljava/util/TreeMap;-><init>(Ljava/util/Map;)V
 
-    .line 5
     invoke-interface {p0}, Ljava/util/SortedMap;->entrySet()Ljava/util/Set;
 
     move-result-object p0
@@ -325,10 +318,8 @@
 
     const-string v1, "."
 
-    .line 6
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 7
     invoke-interface {p1}, Ljava/util/Map$Entry;->getKey()Ljava/lang/Object;
 
     move-result-object v1
@@ -339,10 +330,8 @@
 
     const-string v1, "="
 
-    .line 8
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 9
     invoke-interface {p1}, Ljava/util/Map$Entry;->getValue()Ljava/lang/Object;
 
     move-result-object p1
@@ -353,7 +342,6 @@
 
     goto :goto_0
 
-    .line 10
     :cond_1
     invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
@@ -371,7 +359,6 @@
 
     move-object/from16 v0, p1
 
-    .line 1
     const-class v2, Lio/jaegertracing/a/k/b;
 
     const-class v3, Lio/jaegertracing/a/k/h;
@@ -393,7 +380,6 @@
 
     aget-object v9, v5, v8
 
-    .line 2
     invoke-virtual {v9}, Ljava/lang/reflect/Field;->getType()Ljava/lang/Class;
 
     move-result-object v10
@@ -404,7 +390,6 @@
 
     if-nez v10, :cond_0
 
-    .line 3
     invoke-virtual {v9}, Ljava/lang/reflect/Field;->getType()Ljava/lang/Class;
 
     move-result-object v10
@@ -415,7 +400,6 @@
 
     if-nez v10, :cond_0
 
-    .line 4
     invoke-virtual {v9}, Ljava/lang/reflect/Field;->getType()Ljava/lang/Class;
 
     move-result-object v10
@@ -432,7 +416,6 @@
 
     goto/16 :goto_3
 
-    .line 5
     :cond_0
     new-instance v10, Ljava/lang/StringBuilder;
 
@@ -440,17 +423,14 @@
 
     invoke-direct {v10, v11}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
-    .line 6
     new-instance v11, Ljava/util/HashMap;
 
     invoke-direct {v11}, Ljava/util/HashMap;-><init>()V
 
-    .line 7
     invoke-virtual {v9}, Ljava/lang/reflect/Field;->getAnnotations()[Ljava/lang/annotation/Annotation;
 
     move-result-object v12
 
-    .line 8
     array-length v13, v12
 
     const/4 v14, 0x0
@@ -460,7 +440,6 @@
 
     aget-object v15, v12, v14
 
-    .line 9
     invoke-interface {v15}, Ljava/lang/annotation/Annotation;->annotationType()Ljava/lang/Class;
 
     move-result-object v7
@@ -475,22 +454,18 @@
 
     if-eqz v5, :cond_1
 
-    .line 10
     check-cast v15, Lio/jaegertracing/a/k/d;
 
-    .line 11
     invoke-interface {v15}, Lio/jaegertracing/a/k/d;->name()Ljava/lang/String;
 
     move-result-object v5
 
     invoke-virtual {v10, v5}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 12
     invoke-interface {v15}, Lio/jaegertracing/a/k/d;->tags()[Lio/jaegertracing/a/k/g;
 
     move-result-object v5
 
-    .line 13
     array-length v7, v5
 
     const/4 v15, 0x0
@@ -502,7 +477,6 @@
 
     move-object/from16 v18, v5
 
-    .line 14
     invoke-interface/range {v17 .. v17}, Lio/jaegertracing/a/k/g;->key()Ljava/lang/String;
 
     move-result-object v5
@@ -539,12 +513,10 @@
 
     move/from16 v19, v6
 
-    .line 15
     invoke-virtual {v10}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     move-result-object v5
 
-    .line 16
     :try_start_0
     invoke-virtual {v9}, Ljava/lang/reflect/Field;->getType()Ljava/lang/Class;
 
@@ -556,7 +528,6 @@
 
     if-eqz v6, :cond_3
 
-    .line 17
     invoke-interface {v0, v5, v11}, Lio/jaegertracing/b/f;->b(Ljava/lang/String;Ljava/util/Map;)Lio/jaegertracing/a/k/a;
 
     move-result-object v5
@@ -565,7 +536,6 @@
 
     goto :goto_3
 
-    .line 18
     :cond_3
     invoke-virtual {v9}, Ljava/lang/reflect/Field;->getType()Ljava/lang/Class;
 
@@ -577,7 +547,6 @@
 
     if-eqz v6, :cond_4
 
-    .line 19
     invoke-interface {v0, v5, v11}, Lio/jaegertracing/b/f;->c(Ljava/lang/String;Ljava/util/Map;)Lio/jaegertracing/a/k/b;
 
     move-result-object v5
@@ -586,7 +555,6 @@
 
     goto :goto_3
 
-    .line 20
     :cond_4
     invoke-virtual {v9}, Ljava/lang/reflect/Field;->getType()Ljava/lang/Class;
 
@@ -598,7 +566,6 @@
 
     if-eqz v6, :cond_5
 
-    .line 21
     invoke-interface {v0, v5, v11}, Lio/jaegertracing/b/f;->a(Ljava/lang/String;Ljava/util/Map;)Lio/jaegertracing/a/k/h;
 
     move-result-object v5
@@ -614,7 +581,6 @@
 
     goto/16 :goto_0
 
-    .line 22
     :cond_5
     new-instance v0, Ljava/lang/RuntimeException;
 
@@ -629,7 +595,6 @@
     :catch_0
     move-exception v0
 
-    .line 23
     new-instance v2, Ljava/lang/RuntimeException;
 
     const-string v3, "No reflection exceptions should be thrown unless there is a fundamental error in your code set up."

@@ -56,14 +56,12 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p1, Lcom/google/common/graph/d;->c:Lcom/google/common/graph/ElementOrder;
 
     iget-object v1, p1, Lcom/google/common/graph/d;->e:Lcom/google/common/base/Optional;
 
     const/16 v2, 0xa
 
-    .line 2
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v2
@@ -78,14 +76,12 @@
 
     move-result v1
 
-    .line 3
     invoke-virtual {v0, v1}, Lcom/google/common/graph/ElementOrder;->c(I)Ljava/util/Map;
 
     move-result-object v0
 
     const-wide/16 v1, 0x0
 
-    .line 4
     invoke-direct {p0, p1, v0, v1, v2}, Lcom/google/common/graph/m0;-><init>(Lcom/google/common/graph/d;Ljava/util/Map;J)V
 
     return-void
@@ -105,20 +101,16 @@
         }
     .end annotation
 
-    .line 5
     invoke-direct {p0}, Lcom/google/common/graph/g;-><init>()V
 
-    .line 6
     iget-boolean v0, p1, Lcom/google/common/graph/d;->a:Z
 
     iput-boolean v0, p0, Lcom/google/common/graph/m0;->a:Z
 
-    .line 7
     iget-boolean v0, p1, Lcom/google/common/graph/d;->b:Z
 
     iput-boolean v0, p0, Lcom/google/common/graph/m0;->b:Z
 
-    .line 8
     iget-object p1, p1, Lcom/google/common/graph/d;->c:Lcom/google/common/graph/ElementOrder;
 
     invoke-virtual {p1}, Lcom/google/common/graph/ElementOrder;->a()Lcom/google/common/graph/ElementOrder;
@@ -127,7 +119,6 @@
 
     iput-object p1, p0, Lcom/google/common/graph/m0;->c:Lcom/google/common/graph/ElementOrder;
 
-    .line 9
     instance-of p1, p2, Ljava/util/TreeMap;
 
     if-eqz p1, :cond_0
@@ -146,7 +137,6 @@
     :goto_0
     iput-object p1, p0, Lcom/google/common/graph/m0;->d:Lcom/google/common/graph/y;
 
-    .line 10
     invoke-static {p3, p4}, Lcom/google/common/graph/Graphs;->c(J)J
 
     move-result-wide p1
@@ -161,7 +151,6 @@
 .method protected N()J
     .locals 2
 
-    .line 1
     iget-wide v0, p0, Lcom/google/common/graph/m0;->e:J
 
     return-wide v0
@@ -177,7 +166,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/graph/m0;->d:Lcom/google/common/graph/y;
 
     invoke-virtual {v0, p1}, Lcom/google/common/graph/y;->f(Ljava/lang/Object;)Ljava/lang/Object;
@@ -190,11 +178,9 @@
 
     return-object v0
 
-    .line 2
     :cond_0
     invoke-static {p1}, Lcom/google/common/base/t;->E(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 3
     new-instance v0, Ljava/lang/IllegalArgumentException;
 
     new-instance v1, Ljava/lang/StringBuilder;
@@ -232,7 +218,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/graph/m0;->d:Lcom/google/common/graph/y;
 
     invoke-virtual {v0, p1}, Lcom/google/common/graph/y;->e(Ljava/lang/Object;)Z
@@ -250,7 +235,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/graph/m0;->d:Lcom/google/common/graph/y;
 
     invoke-virtual {v0, p1}, Lcom/google/common/graph/y;->f(Ljava/lang/Object;)Ljava/lang/Object;
@@ -265,7 +249,6 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     invoke-interface {p1, p2}, Lcom/google/common/graph/t;->d(Ljava/lang/Object;)Ljava/lang/Object;
 
@@ -291,7 +274,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/graph/m0;->d:Lcom/google/common/graph/y;
 
     invoke-virtual {v0, p1}, Lcom/google/common/graph/y;->f(Ljava/lang/Object;)Ljava/lang/Object;
@@ -302,7 +284,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 2
     invoke-interface {p1}, Lcom/google/common/graph/t;->a()Ljava/util/Set;
 
     move-result-object p1
@@ -327,7 +308,6 @@
 .method public bridge synthetic a(Ljava/lang/Object;)Ljava/lang/Iterable;
     .locals 0
 
-    .line 1
     invoke-virtual {p0, p1}, Lcom/google/common/graph/m0;->a(Ljava/lang/Object;)Ljava/util/Set;
 
     move-result-object p1
@@ -345,7 +325,6 @@
         }
     .end annotation
 
-    .line 2
     invoke-virtual {p0, p1}, Lcom/google/common/graph/m0;->R(Ljava/lang/Object;)Lcom/google/common/graph/t;
 
     move-result-object p1
@@ -360,7 +339,6 @@
 .method public bridge synthetic b(Ljava/lang/Object;)Ljava/lang/Iterable;
     .locals 0
 
-    .line 1
     invoke-virtual {p0, p1}, Lcom/google/common/graph/m0;->b(Ljava/lang/Object;)Ljava/util/Set;
 
     move-result-object p1
@@ -378,7 +356,6 @@
         }
     .end annotation
 
-    .line 2
     invoke-virtual {p0, p1}, Lcom/google/common/graph/m0;->R(Ljava/lang/Object;)Lcom/google/common/graph/t;
 
     move-result-object p1
@@ -398,7 +375,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p1}, Lcom/google/common/base/t;->E(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -417,7 +393,6 @@
 .method public e()Z
     .locals 1
 
-    .line 1
     iget-boolean v0, p0, Lcom/google/common/graph/m0;->a:Z
 
     return v0
@@ -433,17 +408,14 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p1}, Lcom/google/common/base/t;->E(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 2
     invoke-virtual {p0, p1}, Lcom/google/common/graph/a;->O(Lcom/google/common/graph/m;)Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
-    .line 3
     invoke-virtual {p1}, Lcom/google/common/graph/m;->h()Ljava/lang/Object;
 
     move-result-object v0
@@ -479,7 +451,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/graph/m0;->c:Lcom/google/common/graph/ElementOrder;
 
     return-object v0
@@ -488,7 +459,6 @@
 .method public j()Z
     .locals 1
 
-    .line 1
     iget-boolean v0, p0, Lcom/google/common/graph/m0;->b:Z
 
     return v0
@@ -504,7 +474,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0, p1}, Lcom/google/common/graph/m0;->R(Ljava/lang/Object;)Lcom/google/common/graph/t;
 
     move-result-object p1
@@ -527,12 +496,10 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0, p1}, Lcom/google/common/graph/m0;->R(Ljava/lang/Object;)Lcom/google/common/graph/t;
 
     move-result-object v0
 
-    .line 2
     new-instance v1, Lcom/google/common/graph/m0$a;
 
     invoke-direct {v1, p0, p0, p1, v0}, Lcom/google/common/graph/m0$a;-><init>(Lcom/google/common/graph/m0;Lcom/google/common/graph/h;Ljava/lang/Object;Lcom/google/common/graph/t;)V
@@ -550,7 +517,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/graph/m0;->d:Lcom/google/common/graph/y;
 
     invoke-virtual {v0}, Lcom/google/common/graph/y;->k()Ljava/util/Set;
@@ -577,10 +543,8 @@
     .annotation runtime Ln/b/a/a/a/g;
     .end annotation
 
-    .line 1
     invoke-virtual {p0, p1}, Lcom/google/common/graph/a;->P(Lcom/google/common/graph/m;)V
 
-    .line 2
     invoke-virtual {p1}, Lcom/google/common/graph/m;->h()Ljava/lang/Object;
 
     move-result-object v0
@@ -611,7 +575,6 @@
     .annotation runtime Ln/b/a/a/a/g;
     .end annotation
 
-    .line 1
     invoke-static {p1}, Lcom/google/common/base/t;->E(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1

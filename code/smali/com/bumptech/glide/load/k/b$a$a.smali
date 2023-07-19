@@ -34,7 +34,6 @@
 .method constructor <init>(Lcom/bumptech/glide/load/k/b$a;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/bumptech/glide/load/k/b$a$a;->a:Lcom/bumptech/glide/load/k/b$a;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -55,7 +54,6 @@
         }
     .end annotation
 
-    .line 1
     const-class v0, Ljava/nio/ByteBuffer;
 
     return-object v0
@@ -64,7 +62,6 @@
 .method public bridge synthetic b([B)Ljava/lang/Object;
     .locals 0
 
-    .line 1
     invoke-virtual {p0, p1}, Lcom/bumptech/glide/load/k/b$a$a;->c([B)Ljava/nio/ByteBuffer;
 
     move-result-object p1
@@ -75,7 +72,6 @@
 .method public c([B)Ljava/nio/ByteBuffer;
     .locals 0
 
-    .line 1
     invoke-static {p1}, Ljava/nio/ByteBuffer;->wrap([B)Ljava/nio/ByteBuffer;
 
     move-result-object p1

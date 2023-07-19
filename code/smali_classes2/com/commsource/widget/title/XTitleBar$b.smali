@@ -31,7 +31,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/widget/title/XTitleBar$b;->a:Lcom/commsource/widget/title/XTitleBar;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -54,7 +53,6 @@
 
     const/16 p2, 0xa
 
-    .line 1
     invoke-static {p2}, Lcom/commsource/util/l0;->n(I)I
 
     move-result p2
@@ -68,7 +66,6 @@
     :cond_0
     const/4 p2, 0x0
 
-    .line 2
     :goto_0
     iget-object p3, p0, Lcom/commsource/widget/title/XTitleBar$b;->a:Lcom/commsource/widget/title/XTitleBar;
 
@@ -78,18 +75,15 @@
 
     if-ne p3, p2, :cond_1
 
-    .line 3
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 4
     :cond_1
     iget-object p3, p0, Lcom/commsource/widget/title/XTitleBar$b;->a:Lcom/commsource/widget/title/XTitleBar;
 
     invoke-virtual {p3, p2}, Lcom/commsource/widget/title/XTitleBar;->setScrollVisible(Z)V
 
-    .line 5
     iget-object p2, p0, Lcom/commsource/widget/title/XTitleBar$b;->a:Lcom/commsource/widget/title/XTitleBar;
 
     invoke-virtual {p2}, Lcom/commsource/widget/title/XTitleBar;->s()Z
@@ -98,7 +92,6 @@
 
     if-eqz p2, :cond_2
 
-    .line 6
     iget-object p2, p0, Lcom/commsource/widget/title/XTitleBar$b;->a:Lcom/commsource/widget/title/XTitleBar;
 
     invoke-static {p2}, Lcom/commsource/widget/title/XTitleBar;->d(Lcom/commsource/widget/title/XTitleBar;)Lcom/commsource/camera/f1/n;
@@ -111,7 +104,6 @@
 
     goto :goto_1
 
-    .line 7
     :cond_2
     iget-object p2, p0, Lcom/commsource/widget/title/XTitleBar$b;->a:Lcom/commsource/widget/title/XTitleBar;
 
@@ -123,7 +115,6 @@
 
     invoke-virtual {p2, p3}, Lcom/commsource/camera/f1/n;->i(F)V
 
-    .line 8
     :goto_1
     iget-object p2, p0, Lcom/commsource/widget/title/XTitleBar$b;->a:Lcom/commsource/widget/title/XTitleBar;
 
@@ -135,7 +126,6 @@
 
     invoke-virtual {p2, p3, p4}, Lcom/commsource/camera/f1/l;->b(J)Lcom/commsource/camera/f1/l;
 
-    .line 9
     iget-object p2, p0, Lcom/commsource/widget/title/XTitleBar$b;->a:Lcom/commsource/widget/title/XTitleBar;
 
     invoke-static {p2}, Lcom/commsource/widget/title/XTitleBar;->e(Lcom/commsource/widget/title/XTitleBar;)Lcom/commsource/camera/f1/l;
@@ -144,7 +134,6 @@
 
     invoke-virtual {p2}, Lcom/commsource/camera/f1/l;->a()V
 
-    .line 10
     iget-object p2, p0, Lcom/commsource/widget/title/XTitleBar$b;->a:Lcom/commsource/widget/title/XTitleBar;
 
     invoke-static {p2}, Lcom/commsource/widget/title/XTitleBar;->e(Lcom/commsource/widget/title/XTitleBar;)Lcom/commsource/camera/f1/l;
@@ -153,7 +142,6 @@
 
     invoke-virtual {p2}, Lcom/commsource/camera/f1/l;->j()V
 
-    .line 11
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

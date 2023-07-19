@@ -75,7 +75,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -84,14 +83,12 @@
 .method private getParamDelimiter()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-boolean v0, p0, Lcom/mopub/common/BaseUrlGenerator;->mFirstParam:Z
 
     if-eqz v0, :cond_0
 
     const/4 v0, 0x0
 
-    .line 2
     iput-boolean v0, p0, Lcom/mopub/common/BaseUrlGenerator;->mFirstParam:Z
 
     const-string v0, "?"
@@ -111,7 +108,6 @@
         .end annotation
     .end param
 
-    .line 1
     sput-object p0, Lcom/mopub/common/BaseUrlGenerator;->mAppEngineInfo:Lcom/mopub/common/AppEngineInfo;
 
     return-void
@@ -124,10 +120,8 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-static {p0}, Lcom/mopub/common/Preconditions;->checkNotNull(Ljava/lang/Object;)V
 
-    .line 2
     sput-object p0, Lcom/mopub/common/BaseUrlGenerator;->sWrapperVersion:Ljava/lang/String;
 
     return-void
@@ -142,7 +136,6 @@
 
     return-void
 
-    .line 6
     :cond_0
     iget-object v0, p0, Lcom/mopub/common/BaseUrlGenerator;->mStringBuilder:Ljava/lang/StringBuilder;
 
@@ -152,19 +145,16 @@
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 7
     iget-object v0, p0, Lcom/mopub/common/BaseUrlGenerator;->mStringBuilder:Ljava/lang/StringBuilder;
 
     invoke-virtual {v0, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 8
     iget-object p1, p0, Lcom/mopub/common/BaseUrlGenerator;->mStringBuilder:Ljava/lang/StringBuilder;
 
     const-string v0, "="
 
     invoke-virtual {p1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 9
     iget-object p1, p0, Lcom/mopub/common/BaseUrlGenerator;->mStringBuilder:Ljava/lang/StringBuilder;
 
     invoke-virtual {p2}, Ljava/lang/Boolean;->booleanValue()Z
@@ -189,7 +179,6 @@
 .method protected addParam(Ljava/lang/String;Ljava/lang/String;)V
     .locals 2
 
-    .line 1
     invoke-static {p2}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v0
@@ -198,7 +187,6 @@
 
     return-void
 
-    .line 2
     :cond_0
     iget-object v0, p0, Lcom/mopub/common/BaseUrlGenerator;->mStringBuilder:Ljava/lang/StringBuilder;
 
@@ -208,19 +196,16 @@
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 3
     iget-object v0, p0, Lcom/mopub/common/BaseUrlGenerator;->mStringBuilder:Ljava/lang/StringBuilder;
 
     invoke-virtual {v0, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 4
     iget-object p1, p0, Lcom/mopub/common/BaseUrlGenerator;->mStringBuilder:Ljava/lang/StringBuilder;
 
     const-string v0, "="
 
     invoke-virtual {p1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 5
     iget-object p1, p0, Lcom/mopub/common/BaseUrlGenerator;->mStringBuilder:Ljava/lang/StringBuilder;
 
     invoke-static {p2}, Landroid/net/Uri;->encode(Ljava/lang/String;)Ljava/lang/String;
@@ -239,28 +224,24 @@
 
     const-string v1, "mp_tmpl_advertising_id"
 
-    .line 1
     invoke-virtual {p0, v0, v1}, Lcom/mopub/common/BaseUrlGenerator;->addParam(Ljava/lang/String;Ljava/lang/String;)V
 
     const-string v0, "dnt"
 
     const-string v1, "mp_tmpl_do_not_track"
 
-    .line 2
     invoke-virtual {p0, v0, v1}, Lcom/mopub/common/BaseUrlGenerator;->addParam(Ljava/lang/String;Ljava/lang/String;)V
 
     const-string v0, "tas"
 
     const-string v1, "mp_tmpl_tas"
 
-    .line 3
     invoke-virtual {p0, v0, v1}, Lcom/mopub/common/BaseUrlGenerator;->addParam(Ljava/lang/String;Ljava/lang/String;)V
 
     const-string v0, "mid"
 
     const-string v1, "mp_tmpl_mopub_id"
 
-    .line 4
     invoke-virtual {p0, v0, v1}, Lcom/mopub/common/BaseUrlGenerator;->addParam(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
@@ -269,19 +250,16 @@
 .method protected appendAppEngineInfo()V
     .locals 3
 
-    .line 1
     sget-object v0, Lcom/mopub/common/BaseUrlGenerator;->mAppEngineInfo:Lcom/mopub/common/AppEngineInfo;
 
     if-eqz v0, :cond_0
 
-    .line 2
     iget-object v1, v0, Lcom/mopub/common/AppEngineInfo;->mName:Ljava/lang/String;
 
     const-string v2, "e_name"
 
     invoke-virtual {p0, v2, v1}, Lcom/mopub/common/BaseUrlGenerator;->addParam(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 3
     iget-object v0, v0, Lcom/mopub/common/AppEngineInfo;->mVersion:Ljava/lang/String;
 
     const-string v1, "e_ver"
@@ -295,7 +273,6 @@
 .method protected appendWrapperVersion()V
     .locals 2
 
-    .line 1
     sget-object v0, Lcom/mopub/common/BaseUrlGenerator;->sWrapperVersion:Ljava/lang/String;
 
     const-string v1, "w_ver"
@@ -311,7 +288,6 @@
 .method protected getFinalUrlString()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/common/BaseUrlGenerator;->mStringBuilder:Ljava/lang/StringBuilder;
 
     invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
@@ -324,7 +300,6 @@
 .method protected initUrlString(Ljava/lang/String;Ljava/lang/String;)V
     .locals 2
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-static {}, Lcom/mopub/network/Networking;->getScheme()Ljava/lang/String;
@@ -337,7 +312,6 @@
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 2
     invoke-virtual {v0, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     invoke-virtual {v0, p2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
@@ -346,7 +320,6 @@
 
     const/4 p1, 0x1
 
-    .line 3
     iput-boolean p1, p0, Lcom/mopub/common/BaseUrlGenerator;->mFirstParam:Z
 
     return-void
@@ -357,7 +330,6 @@
 
     const-string v0, "v"
 
-    .line 1
     invoke-virtual {p0, v0, p1}, Lcom/mopub/common/BaseUrlGenerator;->addParam(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
@@ -368,7 +340,6 @@
 
     const-string v0, "av"
 
-    .line 1
     invoke-virtual {p0, v0, p1}, Lcom/mopub/common/BaseUrlGenerator;->addParam(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
@@ -393,7 +364,6 @@
 
     if-eqz p2, :cond_0
 
-    .line 1
     iget v1, p2, Landroid/graphics/Point;->x:I
 
     goto :goto_0
@@ -404,10 +374,8 @@
     :goto_0
     if-eqz p2, :cond_1
 
-    .line 2
     iget v0, p2, Landroid/graphics/Point;->y:I
 
-    .line 3
     :cond_1
     sget p2, Landroid/os/Build$VERSION;->SDK_INT:I
 
@@ -423,19 +391,16 @@
 
     if-eqz p3, :cond_2
 
-    .line 4
     invoke-virtual {p3}, Landroid/view/WindowInsets;->getDisplayCutout()Landroid/view/DisplayCutout;
 
     move-result-object p2
 
     if-eqz p2, :cond_2
 
-    .line 5
     invoke-virtual {p3}, Landroid/view/WindowInsets;->getDisplayCutout()Landroid/view/DisplayCutout;
 
     move-result-object p2
 
-    .line 6
     iget p3, p1, Landroid/graphics/Point;->x:I
 
     invoke-virtual {p2}, Landroid/view/DisplayCutout;->getSafeInsetLeft()I
@@ -450,7 +415,6 @@
 
     sub-int/2addr p3, v2
 
-    .line 7
     iget v2, p1, Landroid/graphics/Point;->y:I
 
     invoke-virtual {p2}, Landroid/view/DisplayCutout;->getSafeInsetTop()I
@@ -465,7 +429,6 @@
 
     sub-int/2addr v2, p2
 
-    .line 8
     new-instance p2, Ljava/lang/StringBuilder;
 
     invoke-direct {p2}, Ljava/lang/StringBuilder;-><init>()V
@@ -484,7 +447,6 @@
 
     invoke-virtual {p0, v4, p2}, Lcom/mopub/common/BaseUrlGenerator;->addParam(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 9
     new-instance p2, Ljava/lang/StringBuilder;
 
     invoke-direct {p2}, Ljava/lang/StringBuilder;-><init>()V
@@ -505,7 +467,6 @@
 
     goto :goto_1
 
-    .line 10
     :cond_2
     new-instance p2, Ljava/lang/StringBuilder;
 
@@ -521,7 +482,6 @@
 
     invoke-virtual {p0, v4, p2}, Lcom/mopub/common/BaseUrlGenerator;->addParam(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 11
     new-instance p2, Ljava/lang/StringBuilder;
 
     invoke-direct {p2}, Ljava/lang/StringBuilder;-><init>()V
@@ -536,7 +496,6 @@
 
     invoke-virtual {p0, v3, p2}, Lcom/mopub/common/BaseUrlGenerator;->addParam(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 12
     :goto_1
     new-instance p2, Ljava/lang/StringBuilder;
 
@@ -556,7 +515,6 @@
 
     invoke-virtual {p0, p3, p2}, Lcom/mopub/common/BaseUrlGenerator;->addParam(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 13
     new-instance p2, Ljava/lang/StringBuilder;
 
     invoke-direct {p2}, Ljava/lang/StringBuilder;-><init>()V
@@ -601,42 +559,32 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-static {p1}, Lcom/mopub/common/Preconditions;->checkNotNull(Ljava/lang/Object;)V
 
-    .line 2
     invoke-static {p2}, Lcom/mopub/common/Preconditions;->checkNotNull(Ljava/lang/Object;)V
 
-    .line 3
     invoke-static {p3}, Lcom/mopub/common/Preconditions;->checkNotNull(Ljava/lang/Object;)V
 
-    .line 4
     invoke-static {p4}, Lcom/mopub/common/Preconditions;->checkNotNull(Ljava/lang/Object;)V
 
-    .line 5
     invoke-static {p5}, Lcom/mopub/common/Preconditions;->checkNotNull(Ljava/lang/Object;)V
 
-    .line 6
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
 
-    .line 7
     invoke-virtual {v0, p2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     const-string v1, ","
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 8
     invoke-virtual {v0, p3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 9
     invoke-virtual {v0, p4}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 10
     invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     move-result-object p4
@@ -647,22 +595,18 @@
 
     const-string p4, "osv"
 
-    .line 11
     invoke-virtual {p0, p4, p1}, Lcom/mopub/common/BaseUrlGenerator;->addParam(Ljava/lang/String;Ljava/lang/String;)V
 
     const-string p1, "make"
 
-    .line 12
     invoke-virtual {p0, p1, p2}, Lcom/mopub/common/BaseUrlGenerator;->addParam(Ljava/lang/String;Ljava/lang/String;)V
 
     const-string p1, "model"
 
-    .line 13
     invoke-virtual {p0, p1, p3}, Lcom/mopub/common/BaseUrlGenerator;->addParam(Ljava/lang/String;Ljava/lang/String;)V
 
     const-string p1, "hwv"
 
-    .line 14
     invoke-virtual {p0, p1, p5}, Lcom/mopub/common/BaseUrlGenerator;->addParam(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void

@@ -11,7 +11,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -33,7 +32,6 @@
 
     if-ge p1, v0, :cond_0
 
-    .line 1
     aget-byte v3, p0, p1
 
     and-int/lit16 v3, v3, 0xff
@@ -116,7 +114,6 @@
     :cond_1
     add-int/lit8 p1, v0, 0x2
 
-    .line 2
     aget-byte p1, p0, p1
 
     and-int/lit16 p1, p1, 0xff
@@ -126,7 +123,6 @@
     :cond_2
     add-int/lit8 v3, v0, 0x1
 
-    .line 3
     aget-byte v3, p0, v3
 
     and-int/lit16 v3, v3, 0xff
@@ -135,7 +131,6 @@
 
     or-int/2addr p1, v3
 
-    .line 4
     :cond_3
     aget-byte p0, p0, v0
 

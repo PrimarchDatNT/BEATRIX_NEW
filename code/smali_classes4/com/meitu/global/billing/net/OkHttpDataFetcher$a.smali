@@ -29,7 +29,6 @@
 .method constructor <init>(Lcom/meitu/global/billing/net/OkHttpDataFetcher;Ljava/lang/String;Lcom/meitu/global/billing/net/v;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/global/billing/net/OkHttpDataFetcher$a;->c:Lcom/meitu/global/billing/net/OkHttpDataFetcher;
 
     iput-object p2, p0, Lcom/meitu/global/billing/net/OkHttpDataFetcher$a;->a:Ljava/lang/String;
@@ -50,7 +49,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -71,7 +69,6 @@
 
     invoke-static {v1, v0}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 2
     iget-object v0, p0, Lcom/meitu/global/billing/net/OkHttpDataFetcher$a;->c:Lcom/meitu/global/billing/net/OkHttpDataFetcher;
 
     iget-object v1, p0, Lcom/meitu/global/billing/net/OkHttpDataFetcher$a;->a:Ljava/lang/String;
@@ -80,7 +77,6 @@
 
     invoke-static {v0, v1, p2, v2}, Lcom/meitu/global/billing/net/OkHttpDataFetcher;->e(Lcom/meitu/global/billing/net/OkHttpDataFetcher;Ljava/lang/String;Ljava/lang/Exception;Lcom/meitu/global/billing/net/v;)V
 
-    .line 3
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -93,7 +89,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -114,7 +109,6 @@
 
     invoke-static {v1, v0}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 2
     iget-object v0, p0, Lcom/meitu/global/billing/net/OkHttpDataFetcher$a;->c:Lcom/meitu/global/billing/net/OkHttpDataFetcher;
 
     iget-object v1, p0, Lcom/meitu/global/billing/net/OkHttpDataFetcher$a;->a:Ljava/lang/String;
@@ -123,7 +117,6 @@
 
     invoke-static {v0, v1, p2, v2}, Lcom/meitu/global/billing/net/OkHttpDataFetcher;->f(Lcom/meitu/global/billing/net/OkHttpDataFetcher;Ljava/lang/String;Lokhttp3/Response;Lcom/meitu/global/billing/net/v;)V
 
-    .line 3
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

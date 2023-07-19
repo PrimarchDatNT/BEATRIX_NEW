@@ -23,7 +23,6 @@
 
     new-array v0, v0, [Ljava/lang/Object;
 
-    .line 1
     sput-object v0, Lcom/google/common/reflect/a;->a:[Ljava/lang/Object;
 
     return-void
@@ -32,7 +31,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -49,14 +47,12 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p1, p0}, Ljava/lang/Class;->isInstance(Ljava/lang/Object;)Z
 
     move-result v0
 
     if-nez v0, :cond_1
 
-    .line 2
     invoke-virtual {p0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
     move-result-object v0
@@ -67,7 +63,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 3
     invoke-virtual {p0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
     move-result-object p0
@@ -114,7 +109,6 @@
 .method public equals(Ljava/lang/Object;)Z
     .locals 0
 
-    .line 1
     invoke-super {p0, p1}, Ljava/lang/Object;->equals(Ljava/lang/Object;)Z
 
     move-result p1
@@ -125,7 +119,6 @@
 .method public hashCode()I
     .locals 1
 
-    .line 1
     invoke-super {p0}, Ljava/lang/Object;->hashCode()I
 
     move-result v0
@@ -147,10 +140,8 @@
 
     if-nez p3, :cond_0
 
-    .line 1
     sget-object p3, Lcom/google/common/reflect/a;->a:[Ljava/lang/Object;
 
-    .line 2
     :cond_0
     array-length v0, p3
 
@@ -168,7 +159,6 @@
 
     if-eqz v0, :cond_1
 
-    .line 3
     invoke-virtual {p0}, Lcom/google/common/reflect/a;->hashCode()I
 
     move-result p1
@@ -179,7 +169,6 @@
 
     return-object p1
 
-    .line 4
     :cond_1
     array-length v0, p3
 
@@ -187,7 +176,6 @@
 
     if-ne v0, v1, :cond_5
 
-    .line 5
     invoke-virtual {p2}, Ljava/lang/reflect/Method;->getName()Ljava/lang/String;
 
     move-result-object v0
@@ -200,7 +188,6 @@
 
     if-eqz v0, :cond_5
 
-    .line 6
     invoke-virtual {p2}, Ljava/lang/reflect/Method;->getParameterTypes()[Ljava/lang/Class;
 
     move-result-object v0
@@ -213,12 +200,10 @@
 
     if-ne v0, v3, :cond_5
 
-    .line 7
     aget-object p2, p3, v2
 
     if-nez p2, :cond_2
 
-    .line 8
     sget-object p1, Ljava/lang/Boolean;->FALSE:Ljava/lang/Boolean;
 
     return-object p1
@@ -226,12 +211,10 @@
     :cond_2
     if-ne p1, p2, :cond_3
 
-    .line 9
     sget-object p1, Ljava/lang/Boolean;->TRUE:Ljava/lang/Boolean;
 
     return-object p1
 
-    .line 10
     :cond_3
     invoke-virtual {p1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
@@ -243,7 +226,6 @@
 
     if-eqz p1, :cond_4
 
-    .line 11
     invoke-static {p2}, Ljava/lang/reflect/Proxy;->getInvocationHandler(Ljava/lang/Object;)Ljava/lang/reflect/InvocationHandler;
 
     move-result-object p1
@@ -259,7 +241,6 @@
     :cond_4
     const/4 v1, 0x0
 
-    .line 12
     :goto_0
     invoke-static {v1}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
 
@@ -267,7 +248,6 @@
 
     return-object p1
 
-    .line 13
     :cond_5
     array-length v0, p3
 
@@ -285,14 +265,12 @@
 
     if-eqz v0, :cond_6
 
-    .line 14
     invoke-virtual {p0}, Lcom/google/common/reflect/a;->toString()Ljava/lang/String;
 
     move-result-object p1
 
     return-object p1
 
-    .line 15
     :cond_6
     invoke-virtual {p0, p1, p2, p3}, Lcom/google/common/reflect/a;->a(Ljava/lang/Object;Ljava/lang/reflect/Method;[Ljava/lang/Object;)Ljava/lang/Object;
 
@@ -304,7 +282,6 @@
 .method public toString()Ljava/lang/String;
     .locals 1
 
-    .line 1
     invoke-super {p0}, Ljava/lang/Object;->toString()Ljava/lang/String;
 
     move-result-object v0

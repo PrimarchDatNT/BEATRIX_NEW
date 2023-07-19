@@ -60,14 +60,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/commsource/repository/child/TextTemplateRepository;
 
     invoke-direct {v1}, Lcom/commsource/repository/child/TextTemplateRepository;-><init>()V
 
     sput-object v1, Lcom/commsource/repository/child/TextTemplateRepository;->s:Lcom/commsource/repository/child/TextTemplateRepository;
 
-    .line 2
     new-instance v2, Ljava/lang/StringBuilder;
 
     invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
@@ -94,7 +92,6 @@
 
     sput-object v2, Lcom/commsource/repository/child/TextTemplateRepository;->l:Ljava/lang/String;
 
-    .line 3
     sget-object v2, Lcom/commsource/repository/child/TextTemplateRepository$textTemplateDao$2;->INSTANCE:Lcom/commsource/repository/child/TextTemplateRepository$textTemplateDao$2;
 
     invoke-static {v2}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
@@ -105,31 +102,26 @@
 
     const/4 v2, 0x1
 
-    .line 4
     sput-boolean v2, Lcom/commsource/repository/child/TextTemplateRepository;->n:Z
 
-    .line 5
     new-instance v2, Landroidx/lifecycle/MutableLiveData;
 
     invoke-direct {v2}, Landroidx/lifecycle/MutableLiveData;-><init>()V
 
     sput-object v2, Lcom/commsource/repository/child/TextTemplateRepository;->o:Landroidx/lifecycle/MutableLiveData;
 
-    .line 6
     new-instance v2, Lcom/commsource/material/download/b/a;
 
     invoke-direct {v2}, Lcom/commsource/material/download/b/a;-><init>()V
 
     sput-object v2, Lcom/commsource/repository/child/TextTemplateRepository;->p:Lcom/commsource/material/download/b/a;
 
-    .line 7
     new-instance v2, Lcom/commsource/repository/f;
 
     invoke-direct {v2}, Lcom/commsource/repository/f;-><init>()V
 
     sput-object v2, Lcom/commsource/repository/child/TextTemplateRepository;->q:Lcom/commsource/repository/f;
 
-    .line 8
     new-instance v2, Lcom/commsource/repository/child/TextTemplateRepository$textTemplateComparator$2;
 
     invoke-direct {v2, v1}, Lcom/commsource/repository/child/TextTemplateRepository$textTemplateComparator$2;-><init>(Lcom/commsource/repository/child/TextTemplateRepository;)V
@@ -152,7 +144,6 @@
 
     const-string v1, "TextTemplateRepository"
 
-    .line 1
     invoke-direct {p0, v0, v1}, Lcom/commsource/repository/MaterialRepository;-><init>(ILjava/lang/String;)V
 
     return-void
@@ -205,7 +196,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
     move-result-object v1
@@ -216,7 +206,6 @@
 
     move-result-object v1
 
-    .line 2
     new-instance v2, Lcom/commsource/repository/child/TextTemplateRepository$c;
 
     invoke-direct {v2}, Lcom/commsource/repository/child/TextTemplateRepository$c;-><init>()V
@@ -225,7 +214,6 @@
 
     move-result-object v2
 
-    .line 3
     invoke-static {v1, v2}, Lcom/meitu/webview/utils/c;->a(Ljava/lang/String;Ljava/lang/reflect/Type;)Ljava/lang/Object;
 
     move-result-object v1
@@ -236,7 +224,6 @@
 
     check-cast v1, Ljava/util/List;
 
-    .line 4
     invoke-interface {v1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v2
@@ -267,13 +254,10 @@
 
     const/4 v4, 0x1
 
-    .line 5
     invoke-virtual {v5, v4}, Lcom/commsource/studio/text/TextTemplateMaterial;->setInternalState(I)V
 
-    .line 6
     invoke-virtual {v5, v4}, Lcom/commsource/studio/text/TextTemplateMaterial;->setDownloadState(I)V
 
-    .line 7
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
     move-result-object v4
@@ -306,7 +290,6 @@
 
     move-result-object v4
 
-    .line 8
     const-class v7, Lcom/commsource/studio/text/TextTemplateConfig;
 
     invoke-static {v4, v7}, Lcom/meitu/webview/utils/c;->a(Ljava/lang/String;Ljava/lang/reflect/Type;)Ljava/lang/Object;
@@ -321,7 +304,6 @@
 
     goto :goto_0
 
-    .line 9
     :cond_1
     invoke-direct {p0}, Lcom/commsource/repository/child/TextTemplateRepository;->H()Lf/k/i0/a/c1;
 
@@ -329,7 +311,6 @@
 
     new-array v3, v3, [Lcom/commsource/studio/text/TextTemplateMaterial;
 
-    .line 10
     invoke-interface {v1, v3}, Ljava/util/Collection;->toArray([Ljava/lang/Object;)[Ljava/lang/Object;
 
     move-result-object v1
@@ -338,15 +319,12 @@
 
     check-cast v1, [Lcom/commsource/studio/text/TextTemplateMaterial;
 
-    .line 11
     invoke-interface {v2, v1}, Lf/k/i0/a/c1;->V1([Lcom/commsource/studio/text/TextTemplateMaterial;)V
 
-    .line 12
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 13
     :cond_2
     new-instance v1, Ljava/lang/NullPointerException;
 
@@ -374,7 +352,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/repository/child/TextTemplateRepository;->H()Lf/k/i0/a/c1;
 
     move-result-object v1
@@ -383,17 +360,14 @@
 
     move-result-object v1
 
-    .line 2
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v2
 
-    .line 3
     new-instance v4, Ljava/util/ArrayList;
 
     invoke-direct {v4}, Ljava/util/ArrayList;-><init>()V
 
-    .line 4
     invoke-interface {v1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v1
@@ -414,7 +388,6 @@
 
     check-cast v6, Lcom/commsource/studio/text/TextTemplateMaterial;
 
-    .line 5
     invoke-virtual {v6}, Lcom/commsource/studio/text/TextTemplateMaterial;->getEndedAt()J
 
     move-result-wide v7
@@ -451,7 +424,6 @@
 
     goto :goto_0
 
-    .line 6
     :cond_3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -476,7 +448,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/commsource/repository/child/TextTemplateRepository$f;
 
     invoke-direct {v1}, Lcom/commsource/repository/child/TextTemplateRepository$f;-><init>()V
@@ -497,7 +468,6 @@
 
     invoke-static {p0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v0, Lcom/commsource/repository/child/TextTemplateRepository;->q:Lcom/commsource/repository/f;
 
     invoke-static {p0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -512,7 +482,6 @@
 
     invoke-static {p0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-boolean v0, Lcom/commsource/repository/child/TextTemplateRepository;->n:Z
 
     invoke-static {p0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -527,7 +496,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/repository/child/TextTemplateRepository;->H()Lf/k/i0/a/c1;
 
     move-result-object p0
@@ -544,7 +512,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/repository/child/TextTemplateRepository;->J()V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -559,7 +526,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/repository/child/TextTemplateRepository;->L()Ljava/util/List;
 
     move-result-object p0
@@ -576,7 +542,6 @@
 
     invoke-static {p0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sput-boolean p1, Lcom/commsource/repository/child/TextTemplateRepository;->n:Z
 
     invoke-static {p0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -591,7 +556,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/commsource/repository/child/TextTemplateRepository;->M(Ljava/util/List;)Ljava/util/List;
 
     move-result-object p0
@@ -614,7 +578,6 @@
 
     const/4 p2, 0x0
 
-    .line 1
     :cond_0
     invoke-virtual {p0, p1, p2}, Lcom/commsource/repository/child/TextTemplateRepository;->x(Lcom/commsource/studio/text/TextTemplateMaterial;Z)V
 
@@ -642,7 +605,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     new-instance v1, Lcom/commsource/repository/child/TextTemplateRepository$b;
 
     invoke-direct {v1, p1}, Lcom/commsource/repository/child/TextTemplateRepository$b;-><init>(Lcom/commsource/studio/text/TextTemplateMaterial;)V
@@ -670,7 +632,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/repository/child/TextTemplateRepository;->p:Lcom/commsource/material/download/b/a;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -687,22 +648,18 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/commsource/studio/text/TextTemplate;
 
     invoke-direct {v1}, Lcom/commsource/studio/text/TextTemplate;-><init>()V
 
     const-string v2, "BP_TEX_00000000"
 
-    .line 2
     invoke-virtual {v1, v2}, Lcom/commsource/studio/text/TextTemplate;->setTemplateId(Ljava/lang/String;)V
 
     const/4 v2, 0x1
 
-    .line 3
     invoke-virtual {v1, v2}, Lcom/commsource/studio/text/TextTemplate;->setEmptyTemplate(Z)V
 
-    .line 4
     sget-object v2, Lcom/commsource/studio/text/TextConfig;->B:Lcom/commsource/studio/text/TextConfig;
 
     invoke-virtual {v2}, Lcom/commsource/studio/text/TextConfig;->N()Ljava/lang/String;
@@ -711,7 +668,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/studio/text/TextTemplate;->setFontId(Ljava/lang/String;)V
 
-    .line 5
     new-instance v2, Ljava/lang/StringBuilder;
 
     invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
@@ -736,7 +692,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/studio/text/TextTemplate;->setTemplatePath(Ljava/lang/String;)V
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
@@ -759,14 +714,12 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-virtual {p1}, Lcom/commsource/studio/text/TextTemplateMaterial;->isInternal()Z
 
     move-result v1
 
     if-eqz v1, :cond_0
 
-    .line 2
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -787,7 +740,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_0
     new-instance v1, Ljava/lang/StringBuilder;
 
@@ -807,7 +759,6 @@
 
     move-result-object p1
 
-    .line 4
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -831,7 +782,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -854,7 +804,6 @@
 
     move-result-object v1
 
-    .line 2
     new-instance v2, Lcom/commsource/material/download/c/d;
 
     invoke-virtual {p1}, Lcom/commsource/studio/text/TextTemplateMaterial;->getUrl()Ljava/lang/String;
@@ -889,14 +838,12 @@
 
     const-string v1, "BP_TEX_00000000"
 
-    .line 1
     invoke-static {v1, p1}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v1
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-virtual {p0}, Lcom/commsource/repository/child/TextTemplateRepository;->C()Lcom/commsource/studio/text/TextTemplate;
 
     move-result-object p1
@@ -905,7 +852,6 @@
 
     return-object p1
 
-    .line 3
     :cond_0
     sget-object v1, Lcom/commsource/repository/child/TextTemplateRepository;->o:Landroidx/lifecycle/MutableLiveData;
 
@@ -921,7 +867,6 @@
 
     const-string v3, "materials"
 
-    .line 4
     invoke-static {v1, v3}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-interface {v1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
@@ -979,7 +924,6 @@
 
     if-eqz v3, :cond_4
 
-    .line 5
     sget-object p1, Lcom/commsource/repository/child/TextTemplateRepository;->s:Lcom/commsource/repository/child/TextTemplateRepository;
 
     invoke-virtual {p1, v3}, Lcom/commsource/repository/child/TextTemplateRepository;->N(Lcom/commsource/studio/text/TextTemplateMaterial;)Lcom/commsource/studio/text/TextTemplate;
@@ -988,7 +932,6 @@
 
     move-object v2, p1
 
-    .line 6
     :cond_4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1008,7 +951,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/repository/child/TextTemplateRepository;->o:Landroidx/lifecycle/MutableLiveData;
 
     invoke-virtual {v1}, Landroidx/lifecycle/LiveData;->getValue()Ljava/lang/Object;
@@ -1023,7 +965,6 @@
 
     const-string v3, "materials"
 
-    .line 2
     invoke-static {v1, v3}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-interface {v1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
@@ -1060,7 +1001,6 @@
     :cond_1
     check-cast v2, Lcom/commsource/studio/text/TextTemplateMaterial;
 
-    .line 3
     :cond_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1074,24 +1014,20 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-boolean v1, Lcom/commsource/repository/child/TextTemplateRepository;->n:Z
 
     const/4 v2, 0x0
 
     if-eqz v1, :cond_0
 
-    .line 2
     sput-boolean v2, Lcom/commsource/repository/child/TextTemplateRepository;->n:Z
 
-    .line 3
     sget-object v1, Lcom/commsource/repository/child/TextTemplateRepository$d;->a:Lcom/commsource/repository/child/TextTemplateRepository$d;
 
     const-string v3, "LoadTexTemplateData"
 
     invoke-static {v3, v1}, Lcom/commsource/util/c2;->f(Ljava/lang/String;Ljava/lang/Runnable;)V
 
-    .line 4
     :cond_0
     invoke-direct {p0}, Lcom/commsource/repository/child/TextTemplateRepository;->G()Lcom/commsource/repository/child/TextTemplateRepository$textTemplateComparator$2$a;
 
@@ -1103,7 +1039,6 @@
 
     invoke-static {v1, v2, v3, v4}, Lcom/commsource/repository/OnlineLocalMaterialCompator;->i(Lcom/commsource/repository/OnlineLocalMaterialCompator;ZILjava/lang/Object;)V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1124,75 +1059,64 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     invoke-virtual {p1}, Lcom/commsource/studio/text/TextTemplateMaterial;->getConfig()Lcom/commsource/studio/text/TextTemplateConfig;
 
     move-result-object v1
 
     if-eqz v1, :cond_0
 
-    .line 2
     new-instance v2, Lcom/commsource/studio/text/TextTemplate;
 
     invoke-direct {v2}, Lcom/commsource/studio/text/TextTemplate;-><init>()V
 
-    .line 3
     invoke-virtual {v1}, Lcom/commsource/studio/text/TextTemplateConfig;->getCanEditSpacing()Z
 
     move-result v3
 
     invoke-virtual {v2, v3}, Lcom/commsource/studio/text/TextTemplate;->setCanEditSpacing(Z)V
 
-    .line 4
     invoke-virtual {v1}, Lcom/commsource/studio/text/TextTemplateConfig;->getCanEditStroke()Z
 
     move-result v3
 
     invoke-virtual {v2, v3}, Lcom/commsource/studio/text/TextTemplate;->setCanEditStroke(Z)V
 
-    .line 5
     invoke-virtual {v1}, Lcom/commsource/studio/text/TextTemplateConfig;->getCanEditText()Z
 
     move-result v3
 
     invoke-virtual {v2, v3}, Lcom/commsource/studio/text/TextTemplate;->setCanEditText(Z)V
 
-    .line 6
     invoke-virtual {v1}, Lcom/commsource/studio/text/TextTemplateConfig;->getCanEditFont()Z
 
     move-result v3
 
     invoke-virtual {v2, v3}, Lcom/commsource/studio/text/TextTemplate;->setCanEditFont(Z)V
 
-    .line 7
     invoke-virtual {v1}, Lcom/commsource/studio/text/TextTemplateConfig;->getCanEditShadow()Z
 
     move-result v3
 
     invoke-virtual {v2, v3}, Lcom/commsource/studio/text/TextTemplate;->setCanEditShadow(Z)V
 
-    .line 8
     invoke-virtual {v1}, Lcom/commsource/studio/text/TextTemplateConfig;->getCanEditBg()Z
 
     move-result v3
 
     invoke-virtual {v2, v3}, Lcom/commsource/studio/text/TextTemplate;->setCanEditBg(Z)V
 
-    .line 9
     invoke-virtual {v1}, Lcom/commsource/studio/text/TextTemplateConfig;->getAppendStoke()Z
 
     move-result v3
 
     invoke-virtual {v2, v3}, Lcom/commsource/studio/text/TextTemplate;->setAppendStoke(Z)V
 
-    .line 10
     invoke-virtual {v1}, Lcom/commsource/studio/text/TextTemplateConfig;->getAppendGlow()Z
 
     move-result v1
 
     invoke-virtual {v2, v1}, Lcom/commsource/studio/text/TextTemplate;->setAppendGlow(Z)V
 
-    .line 11
     sget-object v1, Lcom/commsource/studio/text/TextConfig;->B:Lcom/commsource/studio/text/TextConfig;
 
     invoke-virtual {v1}, Lcom/commsource/studio/text/TextConfig;->N()Ljava/lang/String;
@@ -1201,14 +1125,12 @@
 
     invoke-virtual {v2, v1}, Lcom/commsource/studio/text/TextTemplate;->setFontId(Ljava/lang/String;)V
 
-    .line 12
     invoke-virtual {p1}, Lcom/commsource/studio/text/TextTemplateMaterial;->getId()Ljava/lang/String;
 
     move-result-object v1
 
     invoke-virtual {v2, v1}, Lcom/commsource/studio/text/TextTemplate;->setTemplateId(Ljava/lang/String;)V
 
-    .line 13
     invoke-virtual {p1}, Lcom/commsource/studio/text/TextTemplateMaterial;->getPaidType()I
 
     move-result v1
@@ -1217,10 +1139,8 @@
 
     const/4 v1, 0x0
 
-    .line 14
     invoke-virtual {v2, v1}, Lcom/commsource/studio/text/TextTemplate;->setEmptyTemplate(Z)V
 
-    .line 15
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -1243,7 +1163,6 @@
 
     invoke-virtual {v2, p1}, Lcom/commsource/studio/text/TextTemplate;->setTemplatePath(Ljava/lang/String;)V
 
-    .line 16
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v2
@@ -1251,7 +1170,6 @@
     :cond_0
     const/4 p1, 0x0
 
-    .line 17
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p1
@@ -1272,11 +1190,9 @@
 
     if-ne p1, v1, :cond_1
 
-    .line 1
     :cond_0
     invoke-virtual {p0}, Lcom/commsource/repository/child/TextTemplateRepository;->K()V
 
-    .line 2
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1290,10 +1206,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/repository/child/TextTemplateRepository;->K()V
 
-    .line 2
     invoke-direct {p0}, Lcom/commsource/repository/child/TextTemplateRepository;->G()Lcom/commsource/repository/child/TextTemplateRepository$textTemplateComparator$2$a;
 
     move-result-object v1
@@ -1330,7 +1244,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     new-instance v1, Lcom/commsource/repository/child/TextTemplateRepository$e;
 
     const/4 v2, 0x1
@@ -1339,7 +1252,6 @@
 
     invoke-interface {p1, v1}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1352,14 +1264,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/repository/child/TextTemplateRepository;->q:Lcom/commsource/repository/f;
 
     sget-object v2, Lcom/commsource/repository/child/TextTemplateRepository$a;->a:Lcom/commsource/repository/child/TextTemplateRepository$a;
 
     invoke-virtual {v1, v2}, Lcom/commsource/repository/f;->a(Ljava/lang/Runnable;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1380,19 +1290,16 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-virtual {p1}, Lcom/commsource/studio/text/TextTemplateMaterial;->isDownloading()Z
 
     move-result v1
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 3
     :cond_0
     new-instance v1, Lcom/commsource/material/download/b/b$b;
 
@@ -1402,7 +1309,6 @@
 
     move-result-object v2
 
-    .line 4
     invoke-virtual {p0, p1}, Lcom/commsource/repository/child/TextTemplateRepository;->E(Lcom/commsource/studio/text/TextTemplateMaterial;)Lcom/commsource/material/download/c/d;
 
     move-result-object v3
@@ -1425,19 +1331,16 @@
 
     const/4 v1, 0x0
 
-    .line 5
     invoke-virtual {p2, v1}, Lcom/commsource/material/download/b/b$b;->l(Z)Lcom/commsource/material/download/b/b$b;
 
     move-result-object p2
 
-    .line 6
     invoke-virtual {p0, p1}, Lcom/commsource/repository/child/TextTemplateRepository;->A(Lcom/commsource/studio/text/TextTemplateMaterial;)Lcom/commsource/material/download/b/c;
 
     move-result-object p1
 
     invoke-virtual {p2, p1}, Lcom/commsource/material/download/b/b$b;->c(Lcom/commsource/material/download/b/c;)Lcom/commsource/material/download/b/b;
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1462,7 +1365,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/repository/child/TextTemplateRepository;->o:Landroidx/lifecycle/MutableLiveData;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

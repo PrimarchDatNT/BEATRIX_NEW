@@ -24,7 +24,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Landroidx/legacy/content/WakefulBroadcastReceiver;-><init>()V
 
     return-void
@@ -50,7 +49,6 @@
     :cond_0
     if-eqz p0, :cond_1
 
-    .line 1
     invoke-static {}, Lcom/google/android/gms/common/stats/d;->a()Lcom/google/android/gms/common/stats/d;
 
     move-result-object v0
@@ -59,7 +57,6 @@
 
     goto :goto_1
 
-    .line 2
     :cond_1
     sget-object p0, Lcom/google/android/gms/stats/GCoreWakefulBroadcastReceiver;->a:Ljava/lang/String;
 
@@ -93,7 +90,6 @@
     :goto_0
     invoke-static {p0, v0}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 3
     :goto_1
     invoke-static {p1}, Landroidx/legacy/content/WakefulBroadcastReceiver;->completeWakefulIntent(Landroid/content/Intent;)Z
 

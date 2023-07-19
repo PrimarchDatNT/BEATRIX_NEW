@@ -23,7 +23,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -38,12 +37,10 @@
 
     if-eqz p0, :cond_1
 
-    .line 1
     instance-of v0, p0, Landroidx/fragment/app/FragmentActivity;
 
     if-eqz v0, :cond_0
 
-    .line 2
     check-cast p0, Landroidx/fragment/app/FragmentActivity;
 
     invoke-virtual {p1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
@@ -56,7 +53,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_0
     invoke-virtual {p1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
@@ -99,7 +95,6 @@
 
     return-object p0
 
-    .line 1
     :cond_0
     :try_start_0
     invoke-virtual {p0, p1}, Ljava/lang/Class;->cast(Ljava/lang/Object;)Ljava/lang/Object;
@@ -110,7 +105,6 @@
 
     return-object p0
 
-    .line 2
     :catch_0
     new-instance v0, Ljava/lang/IllegalStateException;
 
@@ -128,7 +122,6 @@
 
     invoke-virtual {v1, p2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 3
     invoke-virtual {p1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
     move-result-object p1
@@ -143,7 +136,6 @@
 
     invoke-virtual {v1, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 4
     invoke-virtual {p0}, Ljava/lang/Class;->getName()Ljava/lang/String;
 
     move-result-object p0
@@ -162,10 +154,8 @@
 .method static synthetic c(Landroid/app/Activity;Ljava/lang/Runnable;)V
     .locals 3
 
-    .line 1
     const-class v0, Lcom/google/firebase/firestore/core/ActivityScope$StopListenerFragment;
 
-    .line 2
     invoke-virtual {p0}, Landroid/app/Activity;->getFragmentManager()Landroid/app/FragmentManager;
 
     move-result-object v1
@@ -176,7 +166,6 @@
 
     move-result-object v1
 
-    .line 3
     invoke-static {v0, v1, v2}, Lcom/google/firebase/firestore/core/ActivityScope;->b(Ljava/lang/Class;Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
 
     move-result-object v0
@@ -185,45 +174,37 @@
 
     if-eqz v0, :cond_0
 
-    .line 4
     invoke-virtual {v0}, Landroid/app/Fragment;->isRemoving()Z
 
     move-result v1
 
     if-eqz v1, :cond_1
 
-    .line 5
     :cond_0
     new-instance v0, Lcom/google/firebase/firestore/core/ActivityScope$StopListenerFragment;
 
     invoke-direct {v0}, Lcom/google/firebase/firestore/core/ActivityScope$StopListenerFragment;-><init>()V
 
-    .line 6
     invoke-virtual {p0}, Landroid/app/Activity;->getFragmentManager()Landroid/app/FragmentManager;
 
     move-result-object v1
 
-    .line 7
     invoke-virtual {v1}, Landroid/app/FragmentManager;->beginTransaction()Landroid/app/FragmentTransaction;
 
     move-result-object v1
 
-    .line 8
     invoke-virtual {v1, v0, v2}, Landroid/app/FragmentTransaction;->add(Landroid/app/Fragment;Ljava/lang/String;)Landroid/app/FragmentTransaction;
 
     move-result-object v1
 
-    .line 9
     invoke-virtual {v1}, Landroid/app/FragmentTransaction;->commitAllowingStateLoss()I
 
-    .line 10
     invoke-virtual {p0}, Landroid/app/Activity;->getFragmentManager()Landroid/app/FragmentManager;
 
     move-result-object p0
 
     invoke-virtual {p0}, Landroid/app/FragmentManager;->executePendingTransactions()Z
 
-    .line 11
     :cond_1
     iget-object p0, v0, Lcom/google/firebase/firestore/core/ActivityScope$StopListenerFragment;->a:Lcom/google/firebase/firestore/core/ActivityScope$b;
 
@@ -235,10 +216,8 @@
 .method static synthetic d(Landroidx/fragment/app/FragmentActivity;Ljava/lang/Runnable;)V
     .locals 3
 
-    .line 1
     const-class v0, Lcom/google/firebase/firestore/core/ActivityScope$c;
 
-    .line 2
     invoke-virtual {p0}, Landroidx/fragment/app/FragmentActivity;->getSupportFragmentManager()Landroidx/fragment/app/FragmentManager;
 
     move-result-object v1
@@ -249,7 +228,6 @@
 
     move-result-object v1
 
-    .line 3
     invoke-static {v0, v1, v2}, Lcom/google/firebase/firestore/core/ActivityScope;->b(Ljava/lang/Class;Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
 
     move-result-object v0
@@ -258,45 +236,37 @@
 
     if-eqz v0, :cond_0
 
-    .line 4
     invoke-virtual {v0}, Landroidx/fragment/app/Fragment;->isRemoving()Z
 
     move-result v1
 
     if-eqz v1, :cond_1
 
-    .line 5
     :cond_0
     new-instance v0, Lcom/google/firebase/firestore/core/ActivityScope$c;
 
     invoke-direct {v0}, Lcom/google/firebase/firestore/core/ActivityScope$c;-><init>()V
 
-    .line 6
     invoke-virtual {p0}, Landroidx/fragment/app/FragmentActivity;->getSupportFragmentManager()Landroidx/fragment/app/FragmentManager;
 
     move-result-object v1
 
-    .line 7
     invoke-virtual {v1}, Landroidx/fragment/app/FragmentManager;->beginTransaction()Landroidx/fragment/app/FragmentTransaction;
 
     move-result-object v1
 
-    .line 8
     invoke-virtual {v1, v0, v2}, Landroidx/fragment/app/FragmentTransaction;->add(Landroidx/fragment/app/Fragment;Ljava/lang/String;)Landroidx/fragment/app/FragmentTransaction;
 
     move-result-object v1
 
-    .line 9
     invoke-virtual {v1}, Landroidx/fragment/app/FragmentTransaction;->commitAllowingStateLoss()I
 
-    .line 10
     invoke-virtual {p0}, Landroidx/fragment/app/FragmentActivity;->getSupportFragmentManager()Landroidx/fragment/app/FragmentManager;
 
     move-result-object p0
 
     invoke-virtual {p0}, Landroidx/fragment/app/FragmentManager;->executePendingTransactions()Z
 
-    .line 11
     :cond_1
     iget-object p0, v0, Lcom/google/firebase/firestore/core/ActivityScope$c;->a:Lcom/google/firebase/firestore/core/ActivityScope$b;
 
@@ -308,7 +278,6 @@
 .method private static e(Landroid/app/Activity;Ljava/lang/Runnable;)V
     .locals 3
 
-    .line 1
     instance-of v0, p0, Landroidx/fragment/app/FragmentActivity;
 
     xor-int/lit8 v0, v0, 0x1
@@ -321,7 +290,6 @@
 
     invoke-static {v0, v2, v1}, Lcom/google/firebase/firestore/util/b;->d(ZLjava/lang/String;[Ljava/lang/Object;)V
 
-    .line 2
     invoke-static {p0, p1}, Lcom/google/firebase/firestore/core/a;->a(Landroid/app/Activity;Ljava/lang/Runnable;)Ljava/lang/Runnable;
 
     move-result-object p1
@@ -334,7 +302,6 @@
 .method private static f(Landroidx/fragment/app/FragmentActivity;Ljava/lang/Runnable;)V
     .locals 0
 
-    .line 1
     invoke-static {p0, p1}, Lcom/google/firebase/firestore/core/b;->a(Landroidx/fragment/app/FragmentActivity;Ljava/lang/Runnable;)Ljava/lang/Runnable;
 
     move-result-object p1

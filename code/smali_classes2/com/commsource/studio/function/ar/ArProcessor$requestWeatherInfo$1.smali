@@ -61,7 +61,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     move-object v1, p1
 
     check-cast v1, Ljava/lang/Number;
@@ -188,7 +187,6 @@
 
     invoke-static {v10, v2}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 2
     iget-object v2, v0, Lcom/commsource/studio/function/ar/ArProcessor$requestWeatherInfo$1;->this$0:Lcom/commsource/studio/function/ar/ArProcessor;
 
     invoke-virtual {v2}, Lcom/commsource/studio/function/ar/ArProcessor;->Q()Lcom/commsource/studio/effect/b;
@@ -224,7 +222,6 @@
 
     if-ne v2, v3, :cond_1
 
-    .line 3
     iget-object v2, v0, Lcom/commsource/studio/function/ar/ArProcessor$requestWeatherInfo$1;->this$0:Lcom/commsource/studio/function/ar/ArProcessor;
 
     invoke-virtual {v2}, Lcom/commsource/studio/function/ar/ArProcessor;->O()Lcom/commsource/camera/newrender/renderproxy/m;
@@ -253,7 +250,6 @@
 
     invoke-virtual/range {v3 .. v10}, Lcom/commsource/camera/newrender/renderproxy/v/i0;->q2(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 4
     :cond_1
     invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

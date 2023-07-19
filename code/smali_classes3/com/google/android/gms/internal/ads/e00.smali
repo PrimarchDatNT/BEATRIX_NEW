@@ -14,10 +14,8 @@
 .method public constructor <init>(Lcom/google/android/gms/internal/ads/vh1;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/google/android/gms/internal/ads/e00;->a:Lcom/google/android/gms/internal/ads/vh1;
 
     return-void
@@ -32,7 +30,6 @@
         .end annotation
     .end param
 
-    .line 1
     :try_start_0
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/e00;->a:Lcom/google/android/gms/internal/ads/vh1;
 
@@ -40,7 +37,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 2
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/e00;->a:Lcom/google/android/gms/internal/ads/vh1;
 
     invoke-virtual {v0, p1}, Lcom/google/android/gms/internal/ads/vh1;->e(Landroid/content/Context;)V
@@ -55,7 +51,6 @@
 
     const-string v0, "Cannot invoke onResume for the mediation adapter."
 
-    .line 3
     invoke-static {v0, p1}, Lcom/google/android/gms/internal/ads/aq;->d(Ljava/lang/String;Ljava/lang/Throwable;)V
 
     return-void
@@ -68,7 +63,6 @@
         .end annotation
     .end param
 
-    .line 1
     :try_start_0
     iget-object p1, p0, Lcom/google/android/gms/internal/ads/e00;->a:Lcom/google/android/gms/internal/ads/vh1;
 
@@ -83,7 +77,6 @@
 
     const-string v0, "Cannot invoke onPause for the mediation adapter."
 
-    .line 2
     invoke-static {v0, p1}, Lcom/google/android/gms/internal/ads/aq;->d(Ljava/lang/String;Ljava/lang/Throwable;)V
 
     return-void
@@ -96,7 +89,6 @@
         .end annotation
     .end param
 
-    .line 1
     :try_start_0
     iget-object p1, p0, Lcom/google/android/gms/internal/ads/e00;->a:Lcom/google/android/gms/internal/ads/vh1;
 
@@ -111,7 +103,6 @@
 
     const-string v0, "Cannot invoke onDestroy for the mediation adapter."
 
-    .line 2
     invoke-static {v0, p1}, Lcom/google/android/gms/internal/ads/aq;->d(Ljava/lang/String;Ljava/lang/Throwable;)V
 
     return-void

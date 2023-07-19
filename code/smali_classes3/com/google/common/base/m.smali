@@ -33,12 +33,10 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p2, Lcom/google/common/base/k;->a:Ljava/lang/ref/ReferenceQueue;
 
     invoke-direct {p0, p1, v0}, Ljava/lang/ref/WeakReference;-><init>(Ljava/lang/Object;Ljava/lang/ref/ReferenceQueue;)V
 
-    .line 2
     invoke-virtual {p2}, Lcom/google/common/base/k;->c()V
 
     return-void

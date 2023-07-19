@@ -17,7 +17,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     new-instance v0, Lcotlinx/coroutines/TimeoutCancellationException;
 
     new-instance v1, Ljava/lang/StringBuilder;
@@ -64,15 +63,12 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcotlinx/coroutines/internal/y;->d:Lcotlin/coroutines/c;
 
-    .line 2
     invoke-interface {v0}, Lcotlin/coroutines/c;->getContext()Lcotlin/coroutines/CoroutineContext;
 
     move-result-object v0
 
-    .line 3
     invoke-static {v0}, Lcotlinx/coroutines/v0;->c(Lcotlin/coroutines/CoroutineContext;)Lcotlinx/coroutines/u0;
 
     move-result-object v0
@@ -85,7 +81,6 @@
 
     invoke-static {p0, v0}, Lcotlinx/coroutines/f2;->z(Lcotlinx/coroutines/c2;Lcotlinx/coroutines/f1;)Lcotlinx/coroutines/f1;
 
-    .line 4
     invoke-static {p0, p0, p1}, Lcotlinx/coroutines/s3/b;->g(Lcotlinx/coroutines/internal/y;Ljava/lang/Object;Lcotlin/jvm/u/p;)Ljava/lang/Object;
 
     move-result-object p0
@@ -131,7 +126,6 @@
 
     if-lez v2, :cond_1
 
-    .line 1
     new-instance v0, Lcotlinx/coroutines/n3;
 
     invoke-direct {v0, p0, p1, p3}, Lcotlinx/coroutines/n3;-><init>(JLcotlin/coroutines/c;)V
@@ -140,7 +134,6 @@
 
     move-result-object p0
 
-    .line 2
     invoke-static {}, Lcotlin/coroutines/intrinsics/a;->h()Ljava/lang/Object;
 
     move-result-object p1
@@ -152,7 +145,6 @@
     :cond_0
     return-object p0
 
-    .line 3
     :cond_1
     new-instance p0, Lcotlinx/coroutines/TimeoutCancellationException;
 
@@ -198,7 +190,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     invoke-static {p0, p1}, Lcotlinx/coroutines/v0;->d(D)J
 
     move-result-wide p0
@@ -276,7 +267,6 @@
 
     move-result-object v1
 
-    .line 1
     iget v2, v0, Lcotlinx/coroutines/TimeoutKt$withTimeoutOrNull$1;->label:I
 
     const/4 v3, 0x1
@@ -309,7 +299,6 @@
 
     goto :goto_2
 
-    .line 2
     :cond_1
     new-instance p0, Ljava/lang/IllegalStateException;
 
@@ -319,7 +308,6 @@
 
     throw p0
 
-    .line 3
     :cond_2
     invoke-static {p3}, Lcotlin/r0;->n(Ljava/lang/Object;)V
 
@@ -331,7 +319,6 @@
 
     return-object v4
 
-    .line 4
     :cond_3
     new-instance p3, Lcotlin/jvm/internal/Ref$ObjectRef;
 
@@ -339,7 +326,6 @@
 
     iput-object v4, p3, Lcotlin/jvm/internal/Ref$ObjectRef;->element:Ljava/lang/Object;
 
-    .line 5
     :try_start_1
     iput-wide p0, v0, Lcotlinx/coroutines/TimeoutKt$withTimeoutOrNull$1;->J$0:J
 
@@ -349,20 +335,16 @@
 
     iput v3, v0, Lcotlinx/coroutines/TimeoutKt$withTimeoutOrNull$1;->label:I
 
-    .line 6
     new-instance v2, Lcotlinx/coroutines/n3;
 
     invoke-direct {v2, p0, p1, v0}, Lcotlinx/coroutines/n3;-><init>(JLcotlin/coroutines/c;)V
 
-    .line 7
     iput-object v2, p3, Lcotlin/jvm/internal/Ref$ObjectRef;->element:Ljava/lang/Object;
 
-    .line 8
     invoke-static {v2, p2}, Lcotlinx/coroutines/TimeoutKt;->b(Lcotlinx/coroutines/n3;Lcotlin/jvm/u/p;)Ljava/lang/Object;
 
     move-result-object p0
 
-    .line 9
     invoke-static {}, Lcotlin/coroutines/intrinsics/a;->h()Ljava/lang/Object;
 
     move-result-object p1
@@ -389,7 +371,6 @@
 
     move-object p0, p3
 
-    .line 10
     :goto_2
     iget-object p2, p1, Lcotlinx/coroutines/TimeoutCancellationException;->coroutine:Lcotlinx/coroutines/c2;
 
@@ -401,7 +382,6 @@
 
     return-object v4
 
-    .line 11
     :cond_6
     throw p1
 .end method
@@ -441,7 +421,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     invoke-static {p0, p1}, Lcotlinx/coroutines/v0;->d(D)J
 
     move-result-wide p0

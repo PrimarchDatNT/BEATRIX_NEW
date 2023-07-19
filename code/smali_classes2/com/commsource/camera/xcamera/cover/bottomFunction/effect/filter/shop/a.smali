@@ -25,12 +25,10 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-direct {p0}, Landroidx/recyclerview/widget/ItemTouchHelper$Callback;-><init>()V
 
     iput-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/a;->a:Landroidx/recyclerview/widget/RecyclerView;
 
-    .line 2
     new-instance v0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/a$a;
 
     invoke-direct {v0}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/a$a;-><init>()V
@@ -51,7 +49,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/a;->a:Landroidx/recyclerview/widget/RecyclerView;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -82,7 +79,6 @@
 
     invoke-static {p2, p1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -115,7 +111,6 @@
 
     const/16 p2, 0x30
 
-    .line 1
     invoke-static {p1, p2}, Landroidx/recyclerview/widget/ItemTouchHelper$Callback;->makeMovementFlags(II)I
 
     move-result p1
@@ -136,7 +131,6 @@
 
     mul-float p1, p1, v1
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
@@ -157,7 +151,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const/high16 p1, 0x3fc00000    # 1.5f
@@ -172,7 +165,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const/4 v0, 0x1
@@ -187,7 +179,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const/4 v0, 0x0
@@ -230,7 +221,6 @@
 
     if-ne p6, p1, :cond_9
 
-    .line 1
     instance-of p6, p3, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/FilterManagerViewHolder;
 
     if-eqz p6, :cond_9
@@ -247,7 +237,6 @@
 
     if-gtz v1, :cond_0
 
-    .line 2
     move-object v2, p3
 
     check-cast v2, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/FilterManagerViewHolder;
@@ -297,13 +286,11 @@
 
     if-nez p7, :cond_2
 
-    .line 3
     :cond_1
     invoke-static {p5}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 4
     :cond_2
     invoke-virtual {p2}, Landroidx/recyclerview/widget/RecyclerView;->getAdapter()Landroidx/recyclerview/widget/RecyclerView$Adapter;
 
@@ -313,7 +300,6 @@
 
     check-cast p2, Lcom/commsource/widget/h1/e;
 
-    .line 5
     invoke-virtual {p2}, Lcom/commsource/widget/h1/e;->getItemCount()I
 
     move-result p7
@@ -323,7 +309,6 @@
     :goto_0
     if-ge v2, p7, :cond_6
 
-    .line 6
     invoke-virtual {p2}, Lcom/commsource/widget/h1/e;->h()Ljava/util/List;
 
     move-result-object v3
@@ -346,7 +331,6 @@
 
     check-cast v3, Lcom/meitu/template/bean/Filter;
 
-    .line 7
     invoke-virtual {v3}, Lcom/meitu/template/bean/Filter;->isDeleteState()Z
 
     move-result v4
@@ -401,13 +385,11 @@
 
     if-eq v4, v5, :cond_4
 
-    .line 8
     :cond_3
     invoke-virtual {v3, p6}, Lcom/meitu/template/bean/Filter;->setDeleteState(Z)V
 
     const/16 v4, 0x7b
 
-    .line 9
     invoke-static {v4}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v4
@@ -419,7 +401,6 @@
 
     goto :goto_0
 
-    .line 10
     :cond_5
     new-instance p1, Lcotlin/TypeCastException;
 
@@ -434,7 +415,6 @@
     :cond_6
     if-lez p4, :cond_7
 
-    .line 11
     move-object p2, p3
 
     check-cast p2, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/FilterManagerViewHolder;
@@ -457,7 +437,6 @@
 
     if-eqz p4, :cond_7
 
-    .line 12
     invoke-virtual {p2}, Lcom/commsource/widget/h1/f;->c()Lcom/commsource/widget/h1/d;
 
     move-result-object p1
@@ -472,7 +451,6 @@
 
     invoke-virtual {p1, p6}, Lcom/meitu/template/bean/Filter;->setDeleteState(Z)V
 
-    .line 13
     invoke-virtual {p2}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/FilterManagerViewHolder;->C()V
 
     goto :goto_1
@@ -480,7 +458,6 @@
     :cond_7
     if-gtz v1, :cond_9
 
-    .line 14
     check-cast p3, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/FilterManagerViewHolder;
 
     invoke-virtual {p3}, Lcom/commsource/widget/h1/f;->c()Lcom/commsource/widget/h1/d;
@@ -501,7 +478,6 @@
 
     if-nez p2, :cond_9
 
-    .line 15
     invoke-virtual {p3}, Lcom/commsource/widget/h1/f;->c()Lcom/commsource/widget/h1/d;
 
     move-result-object p2
@@ -516,12 +492,10 @@
 
     invoke-virtual {p2, p1}, Lcom/meitu/template/bean/Filter;->setDeleteState(Z)V
 
-    .line 16
     invoke-virtual {p3}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/FilterManagerViewHolder;->C()V
 
     goto :goto_1
 
-    .line 17
     :cond_8
     new-instance p1, Lcotlin/TypeCastException;
 
@@ -533,7 +507,6 @@
 
     throw p1
 
-    .line 18
     :cond_9
     :goto_1
     invoke-static {p5}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -572,7 +545,6 @@
 
     invoke-static {p3, p1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const/4 p1, 0x0
@@ -595,7 +567,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

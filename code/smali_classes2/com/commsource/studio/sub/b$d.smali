@@ -42,7 +42,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/sub/b$d;->a:Lcom/commsource/studio/sub/b;
 
     invoke-virtual {v1}, Lcom/commsource/studio/sub/b;->g()Lcom/commsource/beautyplus/f0/g8;
@@ -57,7 +56,6 @@
 
     invoke-static {v1}, Lcom/commsource/util/l0;->w(Landroid/view/View;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

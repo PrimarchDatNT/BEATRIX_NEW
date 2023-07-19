@@ -25,16 +25,12 @@
 .method protected constructor <init>(II)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/google/android/gms/internal/ads/dp1;-><init>()V
 
-    .line 2
     invoke-static {p2, p1}, Lcom/google/android/gms/internal/ads/lo1;->h(II)I
 
-    .line 3
     iput p1, p0, Lcom/google/android/gms/internal/ads/qo1;->a:I
 
-    .line 4
     iput p2, p0, Lcom/google/android/gms/internal/ads/qo1;->b:I
 
     return-void
@@ -53,7 +49,6 @@
 .method public final hasNext()Z
     .locals 2
 
-    .line 1
     iget v0, p0, Lcom/google/android/gms/internal/ads/qo1;->b:I
 
     iget v1, p0, Lcom/google/android/gms/internal/ads/qo1;->a:I
@@ -73,7 +68,6 @@
 .method public final hasPrevious()Z
     .locals 1
 
-    .line 1
     iget v0, p0, Lcom/google/android/gms/internal/ads/qo1;->b:I
 
     if-lez v0, :cond_0
@@ -96,14 +90,12 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/android/gms/internal/ads/qo1;->hasNext()Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
-    .line 2
     iget v0, p0, Lcom/google/android/gms/internal/ads/qo1;->b:I
 
     add-int/lit8 v1, v0, 0x1
@@ -116,7 +108,6 @@
 
     return-object v0
 
-    .line 3
     :cond_0
     new-instance v0, Ljava/util/NoSuchElementException;
 
@@ -128,7 +119,6 @@
 .method public final nextIndex()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lcom/google/android/gms/internal/ads/qo1;->b:I
 
     return v0
@@ -142,14 +132,12 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/android/gms/internal/ads/qo1;->hasPrevious()Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
-    .line 2
     iget v0, p0, Lcom/google/android/gms/internal/ads/qo1;->b:I
 
     add-int/lit8 v0, v0, -0x1
@@ -162,7 +150,6 @@
 
     return-object v0
 
-    .line 3
     :cond_0
     new-instance v0, Ljava/util/NoSuchElementException;
 
@@ -174,7 +161,6 @@
 .method public final previousIndex()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lcom/google/android/gms/internal/ads/qo1;->b:I
 
     add-int/lit8 v0, v0, -0x1

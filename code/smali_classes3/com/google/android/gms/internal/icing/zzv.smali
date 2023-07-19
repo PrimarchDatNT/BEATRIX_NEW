@@ -38,7 +38,6 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
     new-instance v0, Lcom/google/android/gms/internal/icing/r5;
 
     invoke-direct {v0}, Lcom/google/android/gms/internal/icing/r5;-><init>()V
@@ -58,10 +57,8 @@
     .annotation build Lcom/google/android/gms/common/internal/safeparcel/SafeParcelable$b;
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Lcom/google/android/gms/common/internal/safeparcel/AbstractSafeParcelable;-><init>()V
 
-    .line 2
     iput-boolean p1, p0, Lcom/google/android/gms/internal/icing/zzv;->a:Z
 
     return-void
@@ -78,7 +75,6 @@
 
     return v0
 
-    .line 1
     :cond_0
     instance-of v1, p1, Lcom/google/android/gms/internal/icing/zzv;
 
@@ -88,11 +84,9 @@
 
     return v2
 
-    .line 2
     :cond_1
     check-cast p1, Lcom/google/android/gms/internal/icing/zzv;
 
-    .line 3
     iget-boolean v1, p0, Lcom/google/android/gms/internal/icing/zzv;->a:Z
 
     iget-boolean p1, p1, Lcom/google/android/gms/internal/icing/zzv;->a:Z
@@ -108,7 +102,6 @@
 .method public final hashCode()I
     .locals 1
 
-    .line 1
     iget-boolean v0, p0, Lcom/google/android/gms/internal/icing/zzv;->a:Z
 
     if-eqz v0, :cond_0
@@ -126,19 +119,16 @@
 .method public final writeToParcel(Landroid/os/Parcel;I)V
     .locals 2
 
-    .line 1
     invoke-static {p1}, Lcom/google/android/gms/common/internal/safeparcel/a;->a(Landroid/os/Parcel;)I
 
     move-result p2
 
-    .line 2
     iget-boolean v0, p0, Lcom/google/android/gms/internal/icing/zzv;->a:Z
 
     const/4 v1, 0x1
 
     invoke-static {p1, v1, v0}, Lcom/google/android/gms/common/internal/safeparcel/a;->g(Landroid/os/Parcel;IZ)V
 
-    .line 3
     invoke-static {p1, p2}, Lcom/google/android/gms/common/internal/safeparcel/a;->b(Landroid/os/Parcel;I)V
 
     return-void

@@ -67,21 +67,18 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/function/background/BackgroundTextureFragment$d;->a:Lcom/commsource/studio/function/background/BackgroundTextureFragment;
 
     invoke-virtual {v1}, Lcom/commsource/studio/function/background/BackgroundTextureFragment;->E()Lcom/commsource/widget/h1/e;
 
     move-result-object v1
 
-    .line 2
     invoke-static {}, Lcom/commsource/widget/h1/c;->j()Lcom/commsource/widget/h1/c;
 
     move-result-object v2
 
     const-string v3, "BP_BGT_00000002"
 
-    .line 3
     filled-new-array {v3}, [Ljava/lang/String;
 
     move-result-object v3
@@ -90,30 +87,24 @@
 
     move-result-object v3
 
-    .line 4
     const-class v4, Lcom/commsource/studio/function/background/BackgroundNoneViewHolder;
 
-    .line 5
     invoke-virtual {v2, v3, v4}, Lcom/commsource/widget/h1/c;->c(Ljava/util/List;Ljava/lang/Class;)Lcom/commsource/widget/h1/c;
 
     move-result-object v2
 
-    .line 6
     const-class v3, Lcom/commsource/studio/function/background/BackgroundTextureViewHolder;
 
     invoke-virtual {v2, p1, v3}, Lcom/commsource/widget/h1/c;->c(Ljava/util/List;Ljava/lang/Class;)Lcom/commsource/widget/h1/c;
 
     move-result-object p1
 
-    .line 7
     invoke-virtual {p1}, Lcom/commsource/widget/h1/c;->i()Ljava/util/List;
 
     move-result-object p1
 
-    .line 8
     invoke-virtual {v1, p1}, Lcom/commsource/widget/h1/e;->Q(Ljava/util/List;)V
 
-    .line 9
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -127,7 +118,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Ljava/util/List;
 
     invoke-virtual {p0, p1}, Lcom/commsource/studio/function/background/BackgroundTextureFragment$d;->a(Ljava/util/List;)V

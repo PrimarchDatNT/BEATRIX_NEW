@@ -11,7 +11,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/meitu/media/util/plist/b;-><init>()V
 
     return-void
@@ -31,7 +30,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/meitu/media/util/plist/b;->a()Lorg/xml/sax/helpers/DefaultHandler;
 
     move-result-object v1
@@ -44,27 +42,21 @@
 
     const/4 p1, 0x0
 
-    .line 2
     invoke-virtual {v1, p1}, Lcom/meitu/media/util/plist/PListXMLHandler;->e(Lcom/meitu/media/util/plist/e;)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 4
     :cond_0
     invoke-virtual {p0}, Lcom/meitu/media/util/plist/b;->b()V
 
-    .line 5
     invoke-super {p0, p1}, Lcom/meitu/media/util/plist/b;->c(Ljava/lang/String;)V
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 7
     :cond_1
     new-instance p1, Ljava/lang/IllegalStateException;
 
@@ -90,7 +82,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/meitu/media/util/plist/b;->a()Lorg/xml/sax/helpers/DefaultHandler;
 
     move-result-object v1
@@ -103,15 +94,12 @@
 
     const/4 p1, 0x0
 
-    .line 2
     invoke-virtual {v1, p1}, Lcom/meitu/media/util/plist/PListXMLHandler;->e(Lcom/meitu/media/util/plist/e;)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 4
     :cond_0
     :try_start_0
     invoke-static {p1}, Lcom/meitu/media/util/plist/g;->a(Ljava/io/InputStream;)Lcom/meitu/media/util/plist/g;
@@ -120,10 +108,8 @@
     :try_end_0
     .catch Ljava/io/IOException; {:try_start_0 .. :try_end_0} :catch_0
 
-    .line 5
     invoke-virtual {p0}, Lcom/meitu/media/util/plist/b;->b()V
 
-    .line 6
     invoke-virtual {p1}, Lcom/meitu/media/util/plist/g;->b()Ljava/lang/StringBuilder;
 
     move-result-object p1
@@ -134,12 +120,10 @@
 
     invoke-super {p0, p1}, Lcom/meitu/media/util/plist/b;->c(Ljava/lang/String;)V
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 8
     :catch_0
     new-instance p1, Ljava/io/IOException;
 
@@ -151,7 +135,6 @@
 
     throw p1
 
-    .line 9
     :cond_1
     new-instance p1, Ljava/lang/IllegalStateException;
 

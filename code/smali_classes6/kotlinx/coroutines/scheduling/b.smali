@@ -19,14 +19,12 @@
 .method static constructor <clinit>()V
     .locals 9
 
-    .line 1
     new-instance v0, Lcotlinx/coroutines/scheduling/b;
 
     invoke-direct {v0}, Lcotlinx/coroutines/scheduling/b;-><init>()V
 
     sput-object v0, Lcotlinx/coroutines/scheduling/b;->K:Lcotlinx/coroutines/scheduling/b;
 
-    .line 2
     invoke-static {}, Lcotlinx/coroutines/internal/e0;->a()I
 
     move-result v1
@@ -75,7 +73,6 @@
 
     move-object v0, p0
 
-    .line 1
     invoke-direct/range {v0 .. v5}, Lcotlinx/coroutines/scheduling/c;-><init>(IILjava/lang/String;ILcotlin/jvm/internal/u;)V
 
     return-void
@@ -88,7 +85,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     sget-object v0, Lcotlinx/coroutines/scheduling/b;->J:Lcotlinx/coroutines/CoroutineDispatcher;
 
     return-object v0
@@ -102,7 +98,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     invoke-super {p0}, Lcotlinx/coroutines/scheduling/c;->toString()Ljava/lang/String;
 
     move-result-object v0
@@ -113,7 +108,6 @@
 .method public close()V
     .locals 2
 
-    .line 1
     new-instance v0, Ljava/lang/UnsupportedOperationException;
 
     const-string v1, "DefaultDispatcher cannot be closed"

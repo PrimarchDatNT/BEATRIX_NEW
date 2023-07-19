@@ -57,20 +57,16 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/store/sticker/StickerStoreDetailFragment$e;->a:Lcom/commsource/store/sticker/StickerStoreDetailFragment;
 
     invoke-static {v1, p1}, Lcom/commsource/store/sticker/StickerStoreDetailFragment;->I(Lcom/commsource/store/sticker/StickerStoreDetailFragment;Lcom/meitu/template/bean/StickerGroup;)V
 
-    .line 2
     invoke-virtual {p1}, Lcom/meitu/template/bean/StickerGroup;->updateGroupDownloadState()V
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/store/sticker/StickerStoreDetailFragment$e;->a:Lcom/commsource/store/sticker/StickerStoreDetailFragment;
 
     invoke-static {v1, p1}, Lcom/commsource/store/sticker/StickerStoreDetailFragment;->F(Lcom/commsource/store/sticker/StickerStoreDetailFragment;Lcom/meitu/template/bean/StickerGroup;)V
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/store/sticker/StickerStoreDetailFragment$e;->a:Lcom/commsource/store/sticker/StickerStoreDetailFragment;
 
     invoke-static {v1}, Lcom/commsource/store/sticker/StickerStoreDetailFragment;->E(Lcom/commsource/store/sticker/StickerStoreDetailFragment;)Lcom/commsource/beautyplus/f0/ka;
@@ -85,21 +81,18 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/widget/title/XTitleBar;->v(Ljava/lang/String;)Lcom/commsource/widget/title/XTitleBar;
 
-    .line 5
     invoke-virtual {p1}, Lcom/meitu/template/bean/StickerGroup;->getStickerList()Ljava/util/ArrayList;
 
     move-result-object v1
 
     if-eqz v1, :cond_0
 
-    .line 6
     iget-object v1, p0, Lcom/commsource/store/sticker/StickerStoreDetailFragment$e;->a:Lcom/commsource/store/sticker/StickerStoreDetailFragment;
 
     invoke-static {v1}, Lcom/commsource/store/sticker/StickerStoreDetailFragment;->C(Lcom/commsource/store/sticker/StickerStoreDetailFragment;)Lcom/commsource/widget/h1/e;
 
     move-result-object v1
 
-    .line 7
     iget-object v2, p0, Lcom/commsource/store/sticker/StickerStoreDetailFragment$e;->a:Lcom/commsource/store/sticker/StickerStoreDetailFragment;
 
     invoke-static {v2}, Lcom/commsource/store/sticker/StickerStoreDetailFragment;->z(Lcom/commsource/store/sticker/StickerStoreDetailFragment;)Lcom/commsource/widget/h1/c;
@@ -114,7 +107,6 @@
 
     aput-object p1, v4, v5
 
-    .line 8
     invoke-static {v4}, Lcotlin/collections/s;->r([Ljava/lang/Object;)Ljava/util/ArrayList;
 
     move-result-object v4
@@ -129,7 +121,6 @@
 
     aput-object p1, v3, v5
 
-    .line 9
     invoke-static {v3}, Lcotlin/collections/s;->r([Ljava/lang/Object;)Ljava/util/ArrayList;
 
     move-result-object p1
@@ -140,15 +131,12 @@
 
     move-result-object p1
 
-    .line 10
     invoke-virtual {p1}, Lcom/commsource/widget/h1/c;->k()Ljava/util/List;
 
     move-result-object p1
 
-    .line 11
     invoke-virtual {v1, p1}, Lcom/commsource/widget/h1/e;->Q(Ljava/util/List;)V
 
-    .line 12
     iget-object p1, p0, Lcom/commsource/store/sticker/StickerStoreDetailFragment$e;->a:Lcom/commsource/store/sticker/StickerStoreDetailFragment;
 
     invoke-static {p1}, Lcom/commsource/store/sticker/StickerStoreDetailFragment;->C(Lcom/commsource/store/sticker/StickerStoreDetailFragment;)Lcom/commsource/widget/h1/e;
@@ -157,7 +145,6 @@
 
     invoke-virtual {p1}, Lcom/commsource/widget/h1/e;->p()V
 
-    .line 13
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -171,7 +158,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Lcom/meitu/template/bean/StickerGroup;
 
     invoke-virtual {p0, p1}, Lcom/commsource/store/sticker/StickerStoreDetailFragment$e;->a(Lcom/meitu/template/bean/StickerGroup;)V

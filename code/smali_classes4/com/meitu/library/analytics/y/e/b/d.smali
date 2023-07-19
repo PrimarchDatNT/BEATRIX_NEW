@@ -10,7 +10,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -74,7 +73,6 @@
         }
     .end annotation
 
-    .line 1
     array-length v0, p1
 
     const/4 v1, 0x0
@@ -116,26 +114,22 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p1}, Ljava/nio/ByteBuffer;->position()I
 
     move-result v0
 
-    .line 2
     invoke-virtual {p1}, Ljava/nio/ByteBuffer;->limit()I
 
     move-result v1
 
     sub-int/2addr v1, v0
 
-    .line 3
     invoke-virtual {p1}, Ljava/nio/ByteBuffer;->hasArray()Z
 
     move-result v2
 
     if-eqz v2, :cond_0
 
-    .line 4
     invoke-virtual {p1}, Ljava/nio/ByteBuffer;->array()[B
 
     move-result-object v2
@@ -150,11 +144,9 @@
 
     goto :goto_0
 
-    .line 5
     :cond_0
     new-array v0, v1, [B
 
-    .line 6
     invoke-virtual {p1}, Ljava/nio/ByteBuffer;->duplicate()Ljava/nio/ByteBuffer;
 
     move-result-object p1
@@ -163,7 +155,6 @@
 
     invoke-virtual {p1, v0, v2, v1}, Ljava/nio/ByteBuffer;->get([BII)Ljava/nio/ByteBuffer;
 
-    .line 7
     invoke-virtual {p0, v0, v2, v1}, Lcom/meitu/library/analytics/y/e/b/d;->m([BII)V
 
     :goto_0
@@ -178,7 +169,6 @@
         }
     .end annotation
 
-    .line 1
     array-length v0, p1
 
     const/4 v1, 0x0
@@ -271,19 +261,16 @@
         }
     .end annotation
 
-    .line 1
     instance-of v0, p1, Lcom/meitu/library/analytics/y/e/b/f;
 
     if-eqz v0, :cond_0
 
-    .line 2
     check-cast p1, Lcom/meitu/library/analytics/y/e/b/f;
 
     invoke-virtual {p0, p1}, Lcom/meitu/library/analytics/y/e/b/d;->u(Lcom/meitu/library/analytics/y/e/b/f;)V
 
     goto :goto_0
 
-    .line 3
     :cond_0
     invoke-interface {p1}, Ljava/lang/CharSequence;->toString()Ljava/lang/String;
 
@@ -303,7 +290,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/meitu/library/analytics/y/e/b/f;
 
     invoke-direct {v0, p1}, Lcom/meitu/library/analytics/y/e/b/f;-><init>(Ljava/lang/String;)V

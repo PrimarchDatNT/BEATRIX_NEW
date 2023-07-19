@@ -46,7 +46,6 @@
 .method constructor <init>(Lcom/google/common/collect/TreeRangeSet$c;Lcom/google/common/collect/Cut;Lcom/google/common/collect/q1;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/common/collect/TreeRangeSet$c$a;->g:Lcom/google/common/collect/TreeRangeSet$c;
 
     iput-object p2, p0, Lcom/google/common/collect/TreeRangeSet$c$a;->d:Lcom/google/common/collect/Cut;
@@ -55,7 +54,6 @@
 
     invoke-direct {p0}, Lcom/google/common/collect/AbstractIterator;-><init>()V
 
-    .line 2
     iput-object p2, p0, Lcom/google/common/collect/TreeRangeSet$c$a;->c:Lcom/google/common/collect/Cut;
 
     return-void
@@ -66,7 +64,6 @@
 .method protected bridge synthetic a()Ljava/lang/Object;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/collect/TreeRangeSet$c$a;->d()Ljava/util/Map$Entry;
 
     move-result-object v0
@@ -87,7 +84,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/TreeRangeSet$c$a;->g:Lcom/google/common/collect/TreeRangeSet$c;
 
     invoke-static {v0}, Lcom/google/common/collect/TreeRangeSet$c;->c(Lcom/google/common/collect/TreeRangeSet$c;)Lcom/google/common/collect/Range;
@@ -106,7 +102,6 @@
 
     iget-object v0, p0, Lcom/google/common/collect/TreeRangeSet$c$a;->c:Lcom/google/common/collect/Cut;
 
-    .line 2
     invoke-static {}, Lcom/google/common/collect/Cut;->aboveAll()Lcom/google/common/collect/Cut;
 
     move-result-object v1
@@ -115,7 +110,6 @@
 
     goto :goto_1
 
-    .line 3
     :cond_0
     iget-object v0, p0, Lcom/google/common/collect/TreeRangeSet$c$a;->f:Lcom/google/common/collect/q1;
 
@@ -125,7 +119,6 @@
 
     if-eqz v0, :cond_1
 
-    .line 4
     iget-object v0, p0, Lcom/google/common/collect/TreeRangeSet$c$a;->f:Lcom/google/common/collect/q1;
 
     invoke-interface {v0}, Lcom/google/common/collect/q1;->next()Ljava/lang/Object;
@@ -134,7 +127,6 @@
 
     check-cast v0, Lcom/google/common/collect/Range;
 
-    .line 5
     iget-object v1, p0, Lcom/google/common/collect/TreeRangeSet$c$a;->c:Lcom/google/common/collect/Cut;
 
     iget-object v2, v0, Lcom/google/common/collect/Range;->lowerBound:Lcom/google/common/collect/Cut;
@@ -143,14 +135,12 @@
 
     move-result-object v1
 
-    .line 6
     iget-object v0, v0, Lcom/google/common/collect/Range;->upperBound:Lcom/google/common/collect/Cut;
 
     iput-object v0, p0, Lcom/google/common/collect/TreeRangeSet$c$a;->c:Lcom/google/common/collect/Cut;
 
     goto :goto_0
 
-    .line 7
     :cond_1
     iget-object v0, p0, Lcom/google/common/collect/TreeRangeSet$c$a;->c:Lcom/google/common/collect/Cut;
 
@@ -162,14 +152,12 @@
 
     move-result-object v1
 
-    .line 8
     invoke-static {}, Lcom/google/common/collect/Cut;->aboveAll()Lcom/google/common/collect/Cut;
 
     move-result-object v0
 
     iput-object v0, p0, Lcom/google/common/collect/TreeRangeSet$c$a;->c:Lcom/google/common/collect/Cut;
 
-    .line 9
     :goto_0
     iget-object v0, v1, Lcom/google/common/collect/Range;->lowerBound:Lcom/google/common/collect/Cut;
 
@@ -179,7 +167,6 @@
 
     return-object v0
 
-    .line 10
     :cond_2
     :goto_1
     invoke-virtual {p0}, Lcom/google/common/collect/AbstractIterator;->b()Ljava/lang/Object;

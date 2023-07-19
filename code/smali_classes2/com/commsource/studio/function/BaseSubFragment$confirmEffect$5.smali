@@ -37,7 +37,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/function/BaseSubFragment$confirmEffect$5;->g:Lcom/commsource/studio/function/BaseSubFragment;
 
     iput-object p2, p0, Lcom/commsource/studio/function/BaseSubFragment$confirmEffect$5;->p:Landroid/graphics/Bitmap;
@@ -58,12 +57,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/lang/Object;
 
     invoke-direct {v1}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     new-instance v2, Lcotlin/jvm/internal/Ref$ObjectRef;
 
     invoke-direct {v2}, Lcotlin/jvm/internal/Ref$ObjectRef;-><init>()V
@@ -74,7 +71,6 @@
 
     if-nez v3, :cond_0
 
-    .line 3
     iget-object v3, p0, Lcom/commsource/studio/function/BaseSubFragment$confirmEffect$5;->g:Lcom/commsource/studio/function/BaseSubFragment;
 
     invoke-virtual {v3}, Lcom/commsource/studio/function/BaseSubFragment;->s0()Lcom/commsource/easyeditor/utils/opengl/f;
@@ -83,7 +79,6 @@
 
     if-eqz v3, :cond_0
 
-    .line 4
     iget-object v3, p0, Lcom/commsource/studio/function/BaseSubFragment$confirmEffect$5;->g:Lcom/commsource/studio/function/BaseSubFragment;
 
     new-instance v4, Lcom/commsource/studio/function/BaseSubFragment$confirmEffect$5$execute$1;
@@ -92,19 +87,15 @@
 
     invoke-virtual {v3, v4}, Lcom/commsource/studio/function/BaseSubFragment;->Y0(Lcotlin/jvm/u/a;)V
 
-    .line 5
     monitor-enter v1
 
-    .line 6
     :try_start_0
     invoke-virtual {v1}, Ljava/lang/Object;->wait()V
 
-    .line 7
     sget-object v3, Lcotlin/t1;->a:Lcotlin/t1;
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 8
     monitor-exit v1
 
     goto :goto_0
@@ -118,7 +109,6 @@
 
     throw v2
 
-    .line 9
     :cond_0
     :goto_0
     iget-object v1, v2, Lcotlin/jvm/internal/Ref$ObjectRef;->element:Ljava/lang/Object;
@@ -144,23 +134,19 @@
 
     goto/16 :goto_1
 
-    .line 10
     :cond_2
     iget-object v1, p0, Lcom/commsource/studio/function/BaseSubFragment$confirmEffect$5;->J:Lcom/commsource/studio/effect/k;
 
-    .line 11
     new-instance v3, Ljava/lang/StringBuilder;
 
     invoke-direct {v3}, Ljava/lang/StringBuilder;-><init>()V
 
-    .line 12
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
     move-result-object v4
 
     const-string v5, "total"
 
-    .line 13
     invoke-static {v4, v5}, Lcom/commsource/beautyplus/util/v;->L(Landroid/content/Context;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v4
@@ -171,7 +157,6 @@
 
     invoke-virtual {v3, v4}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 14
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v4
@@ -184,7 +169,6 @@
 
     invoke-virtual {v1, v3}, Lcom/commsource/studio/effect/t;->h(Ljava/lang/String;)V
 
-    .line 15
     new-instance v3, Ljava/lang/ref/WeakReference;
 
     iget-object v4, v2, Lcotlin/jvm/internal/Ref$ObjectRef;->element:Ljava/lang/Object;
@@ -200,7 +184,6 @@
 
     invoke-virtual {v1, v3}, Lcom/commsource/studio/effect/k;->p(Ljava/lang/ref/WeakReference;)V
 
-    .line 16
     iget-object v3, v2, Lcotlin/jvm/internal/Ref$ObjectRef;->element:Ljava/lang/Object;
 
     check-cast v3, Landroid/graphics/Bitmap;
@@ -216,7 +199,6 @@
 
     invoke-virtual {v1, v3}, Lcom/commsource/studio/effect/k;->q(I)V
 
-    .line 17
     iget-object v3, v2, Lcotlin/jvm/internal/Ref$ObjectRef;->element:Ljava/lang/Object;
 
     check-cast v3, Landroid/graphics/Bitmap;
@@ -232,15 +214,12 @@
 
     invoke-virtual {v1, v3}, Lcom/commsource/studio/effect/k;->o(I)V
 
-    .line 18
     invoke-static {}, Lcom/commsource/util/d2;->b()Lcom/commsource/util/d2;
 
     move-result-object v1
 
-    .line 19
     sget-object v3, Lcom/commsource/util/m0;->a:Lcom/commsource/util/m0;
 
-    .line 20
     iget-object v4, v2, Lcotlin/jvm/internal/Ref$ObjectRef;->element:Ljava/lang/Object;
 
     check-cast v4, Landroid/graphics/Bitmap;
@@ -253,10 +232,8 @@
 
     const/4 v6, 0x1
 
-    .line 21
     invoke-virtual {v3, v4, v5, v6}, Lcom/commsource/util/m0;->b(Landroid/graphics/Bitmap;Ljava/lang/String;Z)Z
 
-    .line 22
     new-instance v3, Ljava/lang/StringBuilder;
 
     invoke-direct {v3}, Ljava/lang/StringBuilder;-><init>()V
@@ -283,7 +260,6 @@
 
     invoke-static {v1, v3, v5, v4, v5}, Lcom/commsource/util/l0;->L(Ljava/lang/String;Ljava/lang/String;Lcom/meitu/library/util/Debug/Debug$DebugLevel;ILjava/lang/Object;)V
 
-    .line 23
     iget-object v1, p0, Lcom/commsource/studio/function/BaseSubFragment$confirmEffect$5;->g:Lcom/commsource/studio/function/BaseSubFragment;
 
     new-instance v3, Lcom/commsource/studio/function/BaseSubFragment$confirmEffect$5$execute$4;
@@ -292,12 +268,10 @@
 
     invoke-virtual {v1, v3}, Lcom/commsource/studio/function/BaseSubFragment;->Y0(Lcotlin/jvm/u/a;)V
 
-    .line 24
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 25
     :cond_6
     :goto_1
     iget-object v1, p0, Lcom/commsource/studio/function/BaseSubFragment$confirmEffect$5;->g:Lcom/commsource/studio/function/BaseSubFragment;
@@ -314,7 +288,6 @@
 
     invoke-virtual {v1, v2}, Landroidx/lifecycle/MutableLiveData;->postValue(Ljava/lang/Object;)V
 
-    .line 26
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

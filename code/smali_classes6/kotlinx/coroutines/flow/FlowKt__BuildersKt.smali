@@ -29,7 +29,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     new-instance v0, Lcotlinx/coroutines/flow/FlowKt__BuildersKt$asFlow$$inlined$unsafeFlow$3;
 
     invoke-direct {v0, p0}, Lcotlinx/coroutines/flow/FlowKt__BuildersKt$asFlow$$inlined$unsafeFlow$3;-><init>(Ljava/lang/Iterable;)V
@@ -58,7 +57,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     new-instance v0, Lcotlinx/coroutines/flow/FlowKt__BuildersKt$asFlow$$inlined$unsafeFlow$4;
 
     invoke-direct {v0, p0}, Lcotlinx/coroutines/flow/FlowKt__BuildersKt$asFlow$$inlined$unsafeFlow$4;-><init>(Ljava/util/Iterator;)V
@@ -90,7 +88,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     new-instance v0, Lcotlinx/coroutines/flow/FlowKt__BuildersKt$a;
 
     invoke-direct {v0, p0}, Lcotlinx/coroutines/flow/FlowKt__BuildersKt$a;-><init>(Lcotlin/jvm/u/a;)V
@@ -126,7 +123,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     new-instance v0, Lcotlinx/coroutines/flow/FlowKt__BuildersKt$asFlow$$inlined$unsafeFlow$2;
 
     invoke-direct {v0, p0}, Lcotlinx/coroutines/flow/FlowKt__BuildersKt$asFlow$$inlined$unsafeFlow$2;-><init>(Lcotlin/jvm/u/l;)V
@@ -154,7 +150,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     new-instance v0, Lcotlinx/coroutines/flow/FlowKt__BuildersKt$asFlow$$inlined$unsafeFlow$9;
 
     invoke-direct {v0, p0}, Lcotlinx/coroutines/flow/FlowKt__BuildersKt$asFlow$$inlined$unsafeFlow$9;-><init>(Lcotlin/g2/k;)V
@@ -182,7 +177,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     new-instance v0, Lcotlinx/coroutines/flow/FlowKt__BuildersKt$asFlow$$inlined$unsafeFlow$10;
 
     invoke-direct {v0, p0}, Lcotlinx/coroutines/flow/FlowKt__BuildersKt$asFlow$$inlined$unsafeFlow$10;-><init>(Lcotlin/g2/n;)V
@@ -211,7 +205,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     new-instance v0, Lcotlinx/coroutines/flow/FlowKt__BuildersKt$asFlow$$inlined$unsafeFlow$5;
 
     invoke-direct {v0, p0}, Lcotlinx/coroutines/flow/FlowKt__BuildersKt$asFlow$$inlined$unsafeFlow$5;-><init>(Lcotlin/sequences/m;)V
@@ -237,7 +230,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     new-instance v0, Lcotlinx/coroutines/flow/FlowKt__BuildersKt$asFlow$$inlined$unsafeFlow$7;
 
     invoke-direct {v0, p0}, Lcotlinx/coroutines/flow/FlowKt__BuildersKt$asFlow$$inlined$unsafeFlow$7;-><init>([I)V
@@ -263,7 +255,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     new-instance v0, Lcotlinx/coroutines/flow/FlowKt__BuildersKt$asFlow$$inlined$unsafeFlow$8;
 
     invoke-direct {v0, p0}, Lcotlinx/coroutines/flow/FlowKt__BuildersKt$asFlow$$inlined$unsafeFlow$8;-><init>([J)V
@@ -290,7 +281,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     new-instance v0, Lcotlinx/coroutines/flow/FlowKt__BuildersKt$asFlow$$inlined$unsafeFlow$6;
 
     invoke-direct {v0, p0}, Lcotlinx/coroutines/flow/FlowKt__BuildersKt$asFlow$$inlined$unsafeFlow$6;-><init>([Ljava/lang/Object;)V
@@ -333,7 +323,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     new-instance v6, Lcotlinx/coroutines/flow/CallbackFlowBuilder;
 
     const/4 v2, 0x0
@@ -388,7 +377,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     new-instance v6, Lcotlinx/coroutines/flow/b;
 
     const/4 v2, 0x0
@@ -423,7 +411,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     sget-object v0, Lcotlinx/coroutines/flow/c;->a:Lcotlinx/coroutines/flow/c;
 
     return-object v0
@@ -461,7 +448,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     new-instance v0, Lcotlinx/coroutines/flow/SafeFlow;
 
     invoke-direct {v0, p0}, Lcotlinx/coroutines/flow/SafeFlow;-><init>(Lcotlin/jvm/u/p;)V
@@ -484,7 +470,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     new-instance v0, Lcotlinx/coroutines/flow/FlowKt__BuildersKt$b;
 
     invoke-direct {v0, p0}, Lcotlinx/coroutines/flow/FlowKt__BuildersKt$b;-><init>(Ljava/lang/Object;)V
@@ -511,7 +496,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     new-instance v0, Lcotlinx/coroutines/flow/FlowKt__BuildersKt$flowOf$$inlined$unsafeFlow$1;
 
     invoke-direct {v0, p0}, Lcotlinx/coroutines/flow/FlowKt__BuildersKt$flowOf$$inlined$unsafeFlow$1;-><init>([Ljava/lang/Object;)V
@@ -557,7 +541,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     new-instance v0, Lcotlinx/coroutines/flow/FlowKt__BuildersKt$flowViaChannel$1;
 
     const/4 v1, 0x0
@@ -568,7 +551,6 @@
 
     move-result-object p1
 
-    .line 2
     invoke-static {p1, p0}, Lcotlinx/coroutines/flow/f;->o(Lcotlinx/coroutines/flow/d;I)Lcotlinx/coroutines/flow/d;
 
     move-result-object p0
@@ -585,7 +567,6 @@
 
     const/4 p0, -0x2
 
-    .line 1
     :cond_0
     invoke-static {p0, p1}, Lcotlinx/coroutines/flow/f;->K0(ILcotlin/jvm/u/p;)Lcotlinx/coroutines/flow/d;
 

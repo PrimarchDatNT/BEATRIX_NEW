@@ -30,7 +30,6 @@
 
     const-string v1, "T"
 
-    .line 1
     invoke-static {v0, v1}, Lcotlin/jvm/internal/f0;->y(ILjava/lang/String;)V
 
     instance-of p0, p0, Ljava/lang/Object;

@@ -36,7 +36,6 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-direct {p0}, Lcotlinx/coroutines/internal/m;-><init>()V
 
     iput-object p1, p0, Lcotlinx/coroutines/sync/d$c;->d:Ljava/lang/Object;
@@ -49,7 +48,6 @@
 .method public final dispose()V
     .locals 0
 
-    .line 1
     invoke-virtual {p0}, Lcotlinx/coroutines/internal/m;->X()Z
 
     return-void

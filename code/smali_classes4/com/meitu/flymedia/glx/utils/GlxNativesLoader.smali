@@ -25,7 +25,6 @@
 
     const/4 v1, 0x0
 
-    .line 1
     sput-object v1, Lcom/meitu/flymedia/glx/utils/GlxNativesLoader;->a:Lcom/meitu/flymedia/glx/utils/GlxNativesLoader$LoadLibraryDelegate;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -36,7 +35,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -54,22 +52,18 @@
     :try_start_0
     invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v2, Lcom/meitu/flymedia/glx/utils/GlxNativesLoader;->a:Lcom/meitu/flymedia/glx/utils/GlxNativesLoader$LoadLibraryDelegate;
 
     if-nez v2, :cond_1
 
     const-string v2, "ffmpeg"
 
-    .line 2
     invoke-static {v2}, Ljava/lang/System;->loadLibrary(Ljava/lang/String;)V
 
-    .line 3
     sget-object v2, Landroid/os/Build;->CPU_ABI:Ljava/lang/String;
 
     const-string v3, "arm64-v8a"
 
-    .line 4
     invoke-virtual {v3, v2}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v2
@@ -81,7 +75,6 @@
     :try_start_1
     const-string v2, "c++_shared"
 
-    .line 5
     invoke-static {v2}, Ljava/lang/System;->loadLibrary(Ljava/lang/String;)V
     :try_end_1
     .catch Ljava/lang/UnsatisfiedLinkError; {:try_start_1 .. :try_end_1} :catch_0
@@ -92,13 +85,11 @@
     :catch_0
     move-exception v2
 
-    .line 6
     :try_start_2
     invoke-virtual {v2}, Ljava/lang/UnsatisfiedLinkError;->printStackTrace()V
 
     const-string v2, "gnustl_shared"
 
-    .line 7
     invoke-static {v2}, Ljava/lang/System;->loadLibrary(Ljava/lang/String;)V
 
     goto :goto_0
@@ -106,18 +97,15 @@
     :cond_0
     const-string v2, "gnustl_shared"
 
-    .line 8
     invoke-static {v2}, Ljava/lang/System;->loadLibrary(Ljava/lang/String;)V
 
     :goto_0
     const-string v2, "aicodec"
 
-    .line 9
     invoke-static {v2}, Ljava/lang/System;->loadLibrary(Ljava/lang/String;)V
 
     const-string v2, "mtmvcore"
 
-    .line 10
     invoke-static {v2}, Ljava/lang/System;->loadLibrary(Ljava/lang/String;)V
     :try_end_2
     .catchall {:try_start_2 .. :try_end_2} :catchall_0
@@ -125,12 +113,10 @@
     :try_start_3
     const-string v2, "MTAiInterface"
 
-    .line 11
     invoke-static {v2}, Ljava/lang/System;->loadLibrary(Ljava/lang/String;)V
 
     const-string v2, "aidetectionplugin"
 
-    .line 12
     invoke-static {v2}, Ljava/lang/System;->loadLibrary(Ljava/lang/String;)V
     :try_end_3
     .catch Ljava/lang/UnsatisfiedLinkError; {:try_start_3 .. :try_end_3} :catch_1
@@ -141,7 +127,6 @@
     :catch_1
     move-exception v2
 
-    .line 13
     :try_start_4
     invoke-virtual {v2}, Ljava/lang/UnsatisfiedLinkError;->printStackTrace()V
 
@@ -150,15 +135,12 @@
     :cond_1
     const-string v3, "ffmpeg"
 
-    .line 14
     invoke-interface {v2, v3}, Lcom/meitu/flymedia/glx/utils/GlxNativesLoader$LoadLibraryDelegate;->loadLibrary(Ljava/lang/String;)V
 
-    .line 15
     sget-object v2, Landroid/os/Build;->CPU_ABI:Ljava/lang/String;
 
     const-string v3, "arm64-v8a"
 
-    .line 16
     invoke-virtual {v3, v2}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v2
@@ -167,7 +149,6 @@
 
     if-eqz v2, :cond_2
 
-    .line 17
     :try_start_5
     sget-object v2, Lcom/meitu/flymedia/glx/utils/GlxNativesLoader;->a:Lcom/meitu/flymedia/glx/utils/GlxNativesLoader$LoadLibraryDelegate;
 
@@ -183,11 +164,9 @@
     :catch_2
     move-exception v2
 
-    .line 18
     :try_start_6
     invoke-virtual {v2}, Ljava/lang/UnsatisfiedLinkError;->printStackTrace()V
 
-    .line 19
     sget-object v2, Lcom/meitu/flymedia/glx/utils/GlxNativesLoader;->a:Lcom/meitu/flymedia/glx/utils/GlxNativesLoader$LoadLibraryDelegate;
 
     const-string v3, "gnustl_shared"
@@ -196,7 +175,6 @@
 
     goto :goto_1
 
-    .line 20
     :cond_2
     sget-object v2, Lcom/meitu/flymedia/glx/utils/GlxNativesLoader;->a:Lcom/meitu/flymedia/glx/utils/GlxNativesLoader$LoadLibraryDelegate;
 
@@ -204,7 +182,6 @@
 
     invoke-interface {v2, v3}, Lcom/meitu/flymedia/glx/utils/GlxNativesLoader$LoadLibraryDelegate;->loadLibrary(Ljava/lang/String;)V
 
-    .line 21
     :goto_1
     sget-object v2, Lcom/meitu/flymedia/glx/utils/GlxNativesLoader;->a:Lcom/meitu/flymedia/glx/utils/GlxNativesLoader$LoadLibraryDelegate;
 
@@ -212,7 +189,6 @@
 
     invoke-interface {v2, v3}, Lcom/meitu/flymedia/glx/utils/GlxNativesLoader$LoadLibraryDelegate;->loadLibrary(Ljava/lang/String;)V
 
-    .line 22
     sget-object v2, Lcom/meitu/flymedia/glx/utils/GlxNativesLoader;->a:Lcom/meitu/flymedia/glx/utils/GlxNativesLoader$LoadLibraryDelegate;
 
     const-string v3, "mtmvcore"
@@ -221,7 +197,6 @@
     :try_end_6
     .catchall {:try_start_6 .. :try_end_6} :catchall_0
 
-    .line 23
     :try_start_7
     sget-object v2, Lcom/meitu/flymedia/glx/utils/GlxNativesLoader;->a:Lcom/meitu/flymedia/glx/utils/GlxNativesLoader$LoadLibraryDelegate;
 
@@ -229,7 +204,6 @@
 
     invoke-interface {v2, v3}, Lcom/meitu/flymedia/glx/utils/GlxNativesLoader$LoadLibraryDelegate;->loadLibrary(Ljava/lang/String;)V
 
-    .line 24
     sget-object v2, Lcom/meitu/flymedia/glx/utils/GlxNativesLoader;->a:Lcom/meitu/flymedia/glx/utils/GlxNativesLoader$LoadLibraryDelegate;
 
     const-string v3, "aidetectionplugin"
@@ -244,11 +218,9 @@
     :catch_3
     move-exception v2
 
-    .line 25
     :try_start_8
     invoke-virtual {v2}, Ljava/lang/UnsatisfiedLinkError;->printStackTrace()V
 
-    .line 26
     :goto_2
     invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
     :try_end_8
@@ -273,10 +245,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sput-object p0, Lcom/meitu/flymedia/glx/utils/GlxNativesLoader;->a:Lcom/meitu/flymedia/glx/utils/GlxNativesLoader$LoadLibraryDelegate;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

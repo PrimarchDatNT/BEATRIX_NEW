@@ -20,13 +20,10 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-direct {p0, p2, v0}, Lcom/google/android/gms/common/images/b;-><init>(Landroid/net/Uri;I)V
 
-    .line 2
     invoke-static {p1}, Lcom/google/android/gms/common/internal/d;->c(Ljava/lang/Object;)V
 
-    .line 3
     new-instance p2, Ljava/lang/ref/WeakReference;
 
     invoke-direct {p2, p1}, Ljava/lang/ref/WeakReference;-><init>(Ljava/lang/Object;)V
@@ -43,7 +40,6 @@
 
     if-nez p3, :cond_0
 
-    .line 1
     iget-object p2, p0, Lcom/google/android/gms/common/images/e;->h:Ljava/lang/ref/WeakReference;
 
     invoke-virtual {p2}, Ljava/lang/ref/WeakReference;->get()Ljava/lang/Object;
@@ -54,7 +50,6 @@
 
     if-eqz p2, :cond_0
 
-    .line 2
     iget-object p3, p0, Lcom/google/android/gms/common/images/b;->a:Lcom/google/android/gms/common/images/c;
 
     iget-object p3, p3, Lcom/google/android/gms/common/images/c;->a:Landroid/net/Uri;
@@ -68,7 +63,6 @@
 .method public final equals(Ljava/lang/Object;)Z
     .locals 4
 
-    .line 1
     instance-of v0, p1, Lcom/google/android/gms/common/images/e;
 
     const/4 v1, 0x0
@@ -84,11 +78,9 @@
 
     return v0
 
-    .line 2
     :cond_1
     check-cast p1, Lcom/google/android/gms/common/images/e;
 
-    .line 3
     iget-object v2, p0, Lcom/google/android/gms/common/images/e;->h:Ljava/lang/ref/WeakReference;
 
     invoke-virtual {v2}, Ljava/lang/ref/WeakReference;->get()Ljava/lang/Object;
@@ -97,7 +89,6 @@
 
     check-cast v2, Lcom/google/android/gms/common/images/ImageManager$a;
 
-    .line 4
     iget-object v3, p1, Lcom/google/android/gms/common/images/e;->h:Ljava/lang/ref/WeakReference;
 
     invoke-virtual {v3}, Ljava/lang/ref/WeakReference;->get()Ljava/lang/Object;
@@ -110,7 +101,6 @@
 
     if-eqz v2, :cond_2
 
-    .line 5
     invoke-static {v3, v2}, Lcom/google/android/gms/common/internal/z;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v2
@@ -121,7 +111,6 @@
 
     iget-object v2, p0, Lcom/google/android/gms/common/images/b;->a:Lcom/google/android/gms/common/images/c;
 
-    .line 6
     invoke-static {p1, v2}, Lcom/google/android/gms/common/internal/z;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result p1
@@ -141,7 +130,6 @@
 
     new-array v0, v0, [Ljava/lang/Object;
 
-    .line 1
     iget-object v1, p0, Lcom/google/android/gms/common/images/b;->a:Lcom/google/android/gms/common/images/c;
 
     const/4 v2, 0x0

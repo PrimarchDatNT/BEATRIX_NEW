@@ -43,7 +43,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcotlin/collections/c$b;->b:Lcotlin/collections/c;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -56,7 +55,6 @@
 .method protected final a()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lcotlin/collections/c$b;->a:I
 
     return v0
@@ -65,7 +63,6 @@
 .method protected final b(I)V
     .locals 0
 
-    .line 1
     iput p1, p0, Lcotlin/collections/c$b;->a:I
 
     return-void
@@ -74,7 +71,6 @@
 .method public hasNext()Z
     .locals 2
 
-    .line 1
     iget v0, p0, Lcotlin/collections/c$b;->a:I
 
     iget-object v1, p0, Lcotlin/collections/c$b;->b:Lcotlin/collections/c;
@@ -104,14 +100,12 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcotlin/collections/c$b;->hasNext()Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
-    .line 2
     iget-object v0, p0, Lcotlin/collections/c$b;->b:Lcotlin/collections/c;
 
     iget v1, p0, Lcotlin/collections/c$b;->a:I
@@ -126,7 +120,6 @@
 
     return-object v0
 
-    .line 3
     :cond_0
     new-instance v0, Ljava/util/NoSuchElementException;
 

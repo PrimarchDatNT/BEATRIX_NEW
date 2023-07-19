@@ -50,15 +50,12 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lio/grpc/InternalChannelz$j;->a:Lio/grpc/InternalChannelz$m;
 
     const-string p1, "local socket"
 
-    .line 3
     invoke-static {p2, p1}, Lcom/google/common/base/t;->F(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -67,10 +64,8 @@
 
     iput-object p1, p0, Lio/grpc/InternalChannelz$j;->b:Ljava/net/SocketAddress;
 
-    .line 4
     iput-object p3, p0, Lio/grpc/InternalChannelz$j;->c:Ljava/net/SocketAddress;
 
-    .line 5
     invoke-static {p4}, Lcom/google/common/base/t;->E(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -79,7 +74,6 @@
 
     iput-object p1, p0, Lio/grpc/InternalChannelz$j;->d:Lio/grpc/InternalChannelz$i;
 
-    .line 6
     iput-object p5, p0, Lio/grpc/InternalChannelz$j;->e:Lio/grpc/InternalChannelz$e;
 
     return-void

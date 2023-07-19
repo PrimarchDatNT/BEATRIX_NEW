@@ -25,7 +25,6 @@
 .method constructor <init>(Landroid/widget/ImageView;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/sdk/imp/b$a;->a:Landroid/widget/ImageView;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -44,7 +43,6 @@
 .method public b(Ljava/lang/String;Ljava/lang/String;Z)V
     .locals 0
 
-    .line 1
     iget-object p1, p0, Lcom/sdk/imp/b$a;->a:Landroid/widget/ImageView;
 
     invoke-static {p2}, Landroid/graphics/BitmapFactory;->decodeFile(Ljava/lang/String;)Landroid/graphics/Bitmap;

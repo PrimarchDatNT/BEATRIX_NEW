@@ -31,7 +31,6 @@
 .method constructor <init>(Lcom/sdk/imp/base/k;Landroid/content/Context;ZLjava/lang/String;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/sdk/imp/base/k$b;->d:Lcom/sdk/imp/base/k;
 
     iput-object p2, p0, Lcom/sdk/imp/base/k$b;->a:Landroid/content/Context;
@@ -58,14 +57,12 @@
         .end annotation
     .end param
 
-    .line 1
     iget-object v0, p0, Lcom/sdk/imp/base/k$b;->d:Lcom/sdk/imp/base/k;
 
     const/4 v1, 0x0
 
     invoke-static {v0, v1}, Lcom/sdk/imp/base/k;->b(Lcom/sdk/imp/base/k;Z)Z
 
-    .line 2
     iget-object v0, p0, Lcom/sdk/imp/base/k$b;->d:Lcom/sdk/imp/base/k;
 
     iget-object v1, p0, Lcom/sdk/imp/base/k$b;->c:Ljava/lang/String;
@@ -84,14 +81,12 @@
         .end annotation
     .end param
 
-    .line 1
     iget-object v0, p0, Lcom/sdk/imp/base/k$b;->d:Lcom/sdk/imp/base/k;
 
     const/4 v1, 0x0
 
     invoke-static {v0, v1}, Lcom/sdk/imp/base/k;->b(Lcom/sdk/imp/base/k;Z)Z
 
-    .line 2
     iget-object v0, p0, Lcom/sdk/imp/base/k$b;->d:Lcom/sdk/imp/base/k;
 
     iget-object v1, p0, Lcom/sdk/imp/base/k$b;->a:Landroid/content/Context;

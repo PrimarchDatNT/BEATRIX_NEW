@@ -61,21 +61,18 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
     new-instance v0, Lio/grpc/y0$a;
 
     invoke-direct {v0}, Lio/grpc/y0$a;-><init>()V
 
     sput-object v0, Lio/grpc/y0;->d:Lio/grpc/y0$f;
 
-    .line 2
     new-instance v0, Lio/grpc/y0$b;
 
     invoke-direct {v0}, Lio/grpc/y0$b;-><init>()V
 
     sput-object v0, Lio/grpc/y0;->e:Lio/grpc/y0$d;
 
-    .line 3
     invoke-static {}, Lcom/google/common/io/BaseEncoding;->d()Lcom/google/common/io/BaseEncoding;
 
     move-result-object v0
@@ -92,7 +89,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 6
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -101,13 +97,10 @@
 .method constructor <init>(I[Ljava/lang/Object;)V
     .locals 0
 
-    .line 3
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 4
     iput p1, p0, Lio/grpc/y0;->b:I
 
-    .line 5
     iput-object p2, p0, Lio/grpc/y0;->a:[Ljava/lang/Object;
 
     return-void
@@ -116,7 +109,6 @@
 .method varargs constructor <init>(I[[B)V
     .locals 0
 
-    .line 2
     invoke-direct {p0, p1, p2}, Lio/grpc/y0;-><init>(I[Ljava/lang/Object;)V
 
     return-void
@@ -125,7 +117,6 @@
 .method varargs constructor <init>([[B)V
     .locals 1
 
-    .line 1
     array-length v0, p1
 
     div-int/lit8 v0, v0, 0x2
@@ -138,7 +129,6 @@
 .method private static A(Ljava/io/InputStream;)[B
     .locals 2
 
-    .line 1
     :try_start_0
     invoke-static {p0}, Lcom/google/common/io/g;->u(Ljava/io/InputStream;)[B
 
@@ -151,7 +141,6 @@
     :catch_0
     move-exception p0
 
-    .line 2
     new-instance v0, Ljava/lang/RuntimeException;
 
     const-string v1, "failure reading serialized stream"
@@ -164,7 +153,6 @@
 .method private B(I)Ljava/lang/Object;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lio/grpc/y0;->a:[Ljava/lang/Object;
 
     mul-int/lit8 p1, p1, 0x2
@@ -179,21 +167,18 @@
 .method private C(ILjava/lang/Object;)V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lio/grpc/y0;->a:[Ljava/lang/Object;
 
     instance-of v0, v0, [[B
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-direct {p0}, Lio/grpc/y0;->g()I
 
     move-result v0
 
     invoke-direct {p0, v0}, Lio/grpc/y0;->j(I)V
 
-    .line 3
     :cond_0
     iget-object v0, p0, Lio/grpc/y0;->a:[Ljava/lang/Object;
 
@@ -209,7 +194,6 @@
 .method private D(I[B)V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lio/grpc/y0;->a:[Ljava/lang/Object;
 
     mul-int/lit8 p1, p1, 0x2
@@ -224,22 +208,18 @@
 .method private E(I)[B
     .locals 1
 
-    .line 1
     invoke-direct {p0, p1}, Lio/grpc/y0;->B(I)Ljava/lang/Object;
 
     move-result-object p1
 
-    .line 2
     instance-of v0, p1, [B
 
     if-eqz v0, :cond_0
 
-    .line 3
     check-cast p1, [B
 
     return-object p1
 
-    .line 4
     :cond_0
     check-cast p1, Lio/grpc/y0$k;
 
@@ -253,19 +233,16 @@
 .method private F(I)Ljava/lang/Object;
     .locals 1
 
-    .line 1
     invoke-direct {p0, p1}, Lio/grpc/y0;->B(I)Ljava/lang/Object;
 
     move-result-object p1
 
-    .line 2
     instance-of v0, p1, [B
 
     if-eqz v0, :cond_0
 
     return-object p1
 
-    .line 3
     :cond_0
     check-cast p1, Lio/grpc/y0$k;
 
@@ -288,17 +265,14 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1}, Lio/grpc/y0;->B(I)Ljava/lang/Object;
 
     move-result-object p1
 
-    .line 2
     instance-of v0, p1, [B
 
     if-eqz v0, :cond_0
 
-    .line 3
     check-cast p1, [B
 
     invoke-virtual {p2, p1}, Lio/grpc/y0$i;->k([B)Ljava/lang/Object;
@@ -307,7 +281,6 @@
 
     return-object p1
 
-    .line 4
     :cond_0
     check-cast p1, Lio/grpc/y0$k;
 
@@ -321,7 +294,6 @@
 .method static synthetic a(Lio/grpc/y0;)I
     .locals 0
 
-    .line 1
     iget p0, p0, Lio/grpc/y0;->b:I
 
     return p0
@@ -330,7 +302,6 @@
 .method static synthetic b(Ljava/io/InputStream;)[B
     .locals 0
 
-    .line 1
     invoke-static {p0}, Lio/grpc/y0;->A(Ljava/io/InputStream;)[B
 
     move-result-object p0
@@ -341,7 +312,6 @@
 .method static synthetic c(Lio/grpc/y0;I)[B
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1}, Lio/grpc/y0;->u(I)[B
 
     move-result-object p0
@@ -352,7 +322,6 @@
 .method static synthetic d(Lio/grpc/y0;[B[B)Z
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1, p2}, Lio/grpc/y0;->f([B[B)Z
 
     move-result p0
@@ -363,7 +332,6 @@
 .method static synthetic e(Lio/grpc/y0;ILio/grpc/y0$i;)Ljava/lang/Object;
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1, p2}, Lio/grpc/y0;->G(ILio/grpc/y0$i;)Ljava/lang/Object;
 
     move-result-object p0
@@ -374,7 +342,6 @@
 .method private f([B[B)Z
     .locals 0
 
-    .line 1
     invoke-static {p1, p2}, Ljava/util/Arrays;->equals([B[B)Z
 
     move-result p1
@@ -385,7 +352,6 @@
 .method private g()I
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lio/grpc/y0;->a:[Ljava/lang/Object;
 
     if-eqz v0, :cond_0
@@ -404,17 +370,14 @@
 .method private j(I)V
     .locals 3
 
-    .line 1
     new-array p1, p1, [Ljava/lang/Object;
 
-    .line 2
     invoke-direct {p0}, Lio/grpc/y0;->n()Z
 
     move-result v0
 
     if-nez v0, :cond_0
 
-    .line 3
     iget-object v0, p0, Lio/grpc/y0;->a:[Ljava/lang/Object;
 
     invoke-direct {p0}, Lio/grpc/y0;->p()I
@@ -425,7 +388,6 @@
 
     invoke-static {v0, v2, p1, v2, v1}, Ljava/lang/System;->arraycopy(Ljava/lang/Object;ILjava/lang/Object;II)V
 
-    .line 4
     :cond_0
     iput-object p1, p0, Lio/grpc/y0;->a:[Ljava/lang/Object;
 
@@ -435,7 +397,6 @@
 .method private n()Z
     .locals 1
 
-    .line 1
     iget v0, p0, Lio/grpc/y0;->b:I
 
     if-nez v0, :cond_0
@@ -454,7 +415,6 @@
 .method private p()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lio/grpc/y0;->b:I
 
     mul-int/lit8 v0, v0, 0x2
@@ -465,7 +425,6 @@
 .method private q()V
     .locals 2
 
-    .line 1
     invoke-direct {p0}, Lio/grpc/y0;->p()I
 
     move-result v0
@@ -482,7 +441,6 @@
 
     if-ne v0, v1, :cond_1
 
-    .line 2
     :cond_0
     invoke-direct {p0}, Lio/grpc/y0;->p()I
 
@@ -505,7 +463,6 @@
 .method private t(I[B)V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lio/grpc/y0;->a:[Ljava/lang/Object;
 
     mul-int/lit8 p1, p1, 0x2
@@ -518,7 +475,6 @@
 .method private u(I)[B
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lio/grpc/y0;->a:[Ljava/lang/Object;
 
     mul-int/lit8 p1, p1, 0x2
@@ -546,13 +502,11 @@
 
     const/4 v1, 0x0
 
-    .line 1
     :goto_0
     iget v2, p0, Lio/grpc/y0;->b:I
 
     if-ge v1, v2, :cond_1
 
-    .line 2
     invoke-virtual {p1}, Lio/grpc/y0$i;->a()[B
 
     move-result-object v2
@@ -596,7 +550,6 @@
         value = "https://github.com/grpc/grpc-java/issues/4691"
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Lio/grpc/y0;->n()Z
 
     move-result v0
@@ -610,13 +563,11 @@
 
     const/4 v1, 0x0
 
-    .line 2
     :goto_0
     iget v2, p0, Lio/grpc/y0;->b:I
 
     if-ge v0, v2, :cond_2
 
-    .line 3
     invoke-virtual {p1}, Lio/grpc/y0$i;->a()[B
 
     move-result-object v2
@@ -633,7 +584,6 @@
 
     goto :goto_1
 
-    .line 4
     :cond_1
     invoke-direct {p0, v0}, Lio/grpc/y0;->u(I)[B
 
@@ -641,7 +591,6 @@
 
     invoke-direct {p0, v1, v2}, Lio/grpc/y0;->t(I[B)V
 
-    .line 5
     invoke-direct {p0, v0}, Lio/grpc/y0;->B(I)Ljava/lang/Object;
 
     move-result-object v2
@@ -655,7 +604,6 @@
 
     goto :goto_0
 
-    .line 6
     :cond_2
     iget-object p1, p0, Lio/grpc/y0;->a:[Ljava/lang/Object;
 
@@ -669,7 +617,6 @@
 
     invoke-static {p1, v0, v2, v3}, Ljava/util/Arrays;->fill([Ljava/lang/Object;IILjava/lang/Object;)V
 
-    .line 7
     iput v1, p0, Lio/grpc/y0;->b:I
 
     return-void
@@ -690,7 +637,6 @@
     .annotation runtime Ljavax/annotation/j;
     .end annotation
 
-    .line 1
     iget v0, p0, Lio/grpc/y0;->b:I
 
     add-int/lit8 v0, v0, -0x1
@@ -698,7 +644,6 @@
     :goto_0
     if-ltz v0, :cond_1
 
-    .line 2
     invoke-virtual {p1}, Lio/grpc/y0$i;->a()[B
 
     move-result-object v1
@@ -713,7 +658,6 @@
 
     if-eqz v1, :cond_0
 
-    .line 3
     invoke-direct {p0, v0, p1}, Lio/grpc/y0;->G(ILio/grpc/y0$i;)Ljava/lang/Object;
 
     move-result-object p1
@@ -750,7 +694,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     :goto_0
     iget v1, p0, Lio/grpc/y0;->b:I
 
@@ -758,7 +701,6 @@
 
     if-ge v0, v1, :cond_1
 
-    .line 2
     invoke-virtual {p1}, Lio/grpc/y0$i;->a()[B
 
     move-result-object v1
@@ -773,7 +715,6 @@
 
     if-eqz v1, :cond_0
 
-    .line 3
     new-instance v1, Lio/grpc/y0$h;
 
     invoke-direct {v1, p0, p1, v0, v2}, Lio/grpc/y0$h;-><init>(Lio/grpc/y0;Lio/grpc/y0$i;ILio/grpc/y0$a;)V
@@ -792,7 +733,6 @@
 .method m()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lio/grpc/y0;->b:I
 
     return v0
@@ -809,21 +749,18 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Lio/grpc/y0;->n()Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-static {}, Ljava/util/Collections;->emptySet()Ljava/util/Set;
 
     move-result-object v0
 
     return-object v0
 
-    .line 3
     :cond_0
     new-instance v0, Ljava/util/HashSet;
 
@@ -835,13 +772,11 @@
 
     const/4 v2, 0x0
 
-    .line 4
     :goto_0
     iget v3, p0, Lio/grpc/y0;->b:I
 
     if-ge v2, v3, :cond_1
 
-    .line 5
     new-instance v3, Ljava/lang/String;
 
     invoke-direct {p0, v2}, Lio/grpc/y0;->u(I)[B
@@ -856,7 +791,6 @@
 
     goto :goto_0
 
-    .line 6
     :cond_1
     invoke-static {v0}, Ljava/util/Collections;->unmodifiableSet(Ljava/util/Set;)Ljava/util/Set;
 
@@ -868,7 +802,6 @@
 .method public r(Lio/grpc/y0;)V
     .locals 5
 
-    .line 1
     invoke-direct {p1}, Lio/grpc/y0;->n()Z
 
     move-result v0
@@ -877,7 +810,6 @@
 
     return-void
 
-    .line 2
     :cond_0
     invoke-direct {p0}, Lio/grpc/y0;->g()I
 
@@ -889,7 +821,6 @@
 
     sub-int/2addr v0, v1
 
-    .line 3
     invoke-direct {p0}, Lio/grpc/y0;->n()Z
 
     move-result v1
@@ -902,7 +833,6 @@
 
     if-ge v0, v1, :cond_2
 
-    .line 4
     :cond_1
     invoke-direct {p0}, Lio/grpc/y0;->p()I
 
@@ -916,7 +846,6 @@
 
     invoke-direct {p0, v0}, Lio/grpc/y0;->j(I)V
 
-    .line 5
     :cond_2
     iget-object v0, p1, Lio/grpc/y0;->a:[Ljava/lang/Object;
 
@@ -934,7 +863,6 @@
 
     invoke-static {v0, v1, v2, v3, v4}, Ljava/lang/System;->arraycopy(Ljava/lang/Object;ILjava/lang/Object;II)V
 
-    .line 6
     iget v0, p0, Lio/grpc/y0;->b:I
 
     iget p1, p1, Lio/grpc/y0;->b:I
@@ -960,10 +888,8 @@
 
     const-string v0, "other"
 
-    .line 1
     invoke-static {p1, v0}, Lcom/google/common/base/t;->F(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 2
     new-instance v0, Ljava/util/HashMap;
 
     invoke-interface {p2}, Ljava/util/Set;->size()I
@@ -972,7 +898,6 @@
 
     invoke-direct {v0, v1}, Ljava/util/HashMap;-><init>(I)V
 
-    .line 3
     invoke-interface {p2}, Ljava/util/Set;->iterator()Ljava/util/Iterator;
 
     move-result-object p2
@@ -990,7 +915,6 @@
 
     check-cast v1, Lio/grpc/y0$i;
 
-    .line 4
     invoke-virtual {v1}, Lio/grpc/y0$i;->a()[B
 
     move-result-object v2
@@ -1006,13 +930,11 @@
     :cond_0
     const/4 p2, 0x0
 
-    .line 5
     :goto_1
     iget v1, p1, Lio/grpc/y0;->b:I
 
     if-ge p2, v1, :cond_2
 
-    .line 6
     invoke-direct {p1, p2}, Lio/grpc/y0;->u(I)[B
 
     move-result-object v1
@@ -1021,17 +943,14 @@
 
     move-result-object v1
 
-    .line 7
     invoke-interface {v0, v1}, Ljava/util/Map;->containsKey(Ljava/lang/Object;)Z
 
     move-result v1
 
     if-eqz v1, :cond_1
 
-    .line 8
     invoke-direct {p0}, Lio/grpc/y0;->q()V
 
-    .line 9
     iget v1, p0, Lio/grpc/y0;->b:I
 
     invoke-direct {p1, p2}, Lio/grpc/y0;->u(I)[B
@@ -1040,7 +959,6 @@
 
     invoke-direct {p0, v1, v2}, Lio/grpc/y0;->t(I[B)V
 
-    .line 10
     iget v1, p0, Lio/grpc/y0;->b:I
 
     invoke-direct {p1, p2}, Lio/grpc/y0;->B(I)Ljava/lang/Object;
@@ -1049,7 +967,6 @@
 
     invoke-direct {p0, v1, v2}, Lio/grpc/y0;->C(ILjava/lang/Object;)V
 
-    .line 11
     iget v1, p0, Lio/grpc/y0;->b:I
 
     add-int/lit8 v1, v1, 0x1
@@ -1068,7 +985,6 @@
 .method public toString()Ljava/lang/String;
     .locals 5
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     const-string v1, "Metadata("
@@ -1077,7 +993,6 @@
 
     const/4 v1, 0x0
 
-    .line 2
     :goto_0
     iget v2, p0, Lio/grpc/y0;->b:I
 
@@ -1087,10 +1002,8 @@
 
     const/16 v2, 0x2c
 
-    .line 3
     invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;->append(C)Ljava/lang/StringBuilder;
 
-    .line 4
     :cond_0
     new-instance v2, Ljava/lang/String;
 
@@ -1102,7 +1015,6 @@
 
     invoke-direct {v2, v3, v4}, Ljava/lang/String;-><init>([BLjava/nio/charset/Charset;)V
 
-    .line 5
     invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     const/16 v3, 0x3d
@@ -1111,14 +1023,12 @@
 
     const-string v3, "-bin"
 
-    .line 6
     invoke-virtual {v2, v3}, Ljava/lang/String;->endsWith(Ljava/lang/String;)Z
 
     move-result v2
 
     if-eqz v2, :cond_1
 
-    .line 7
     sget-object v2, Lio/grpc/y0;->f:Lcom/google/common/io/BaseEncoding;
 
     invoke-direct {p0, v1}, Lio/grpc/y0;->E(I)[B
@@ -1133,7 +1043,6 @@
 
     goto :goto_1
 
-    .line 8
     :cond_1
     new-instance v2, Ljava/lang/String;
 
@@ -1143,7 +1052,6 @@
 
     invoke-direct {v2, v3, v4}, Ljava/lang/String;-><init>([BLjava/nio/charset/Charset;)V
 
-    .line 9
     invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     :goto_1
@@ -1154,7 +1062,6 @@
     :cond_2
     const/16 v1, 0x29
 
-    .line 10
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(C)Ljava/lang/StringBuilder;
 
     invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
@@ -1178,18 +1085,14 @@
 
     const-string v0, "key"
 
-    .line 1
     invoke-static {p1, v0}, Lcom/google/common/base/t;->F(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "value"
 
-    .line 2
     invoke-static {p2, v0}, Lcom/google/common/base/t;->F(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 3
     invoke-direct {p0}, Lio/grpc/y0;->q()V
 
-    .line 4
     iget v0, p0, Lio/grpc/y0;->b:I
 
     invoke-virtual {p1}, Lio/grpc/y0$i;->a()[B
@@ -1198,14 +1101,12 @@
 
     invoke-direct {p0, v0, v1}, Lio/grpc/y0;->t(I[B)V
 
-    .line 5
     invoke-virtual {p1}, Lio/grpc/y0$i;->l()Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
-    .line 6
     iget v0, p0, Lio/grpc/y0;->b:I
 
     invoke-static {p1, p2}, Lio/grpc/y0$k;->a(Lio/grpc/y0$i;Ljava/lang/Object;)Lio/grpc/y0$k;
@@ -1216,7 +1117,6 @@
 
     goto :goto_0
 
-    .line 7
     :cond_0
     iget v0, p0, Lio/grpc/y0;->b:I
 
@@ -1226,7 +1126,6 @@
 
     invoke-direct {p0, v0, p1}, Lio/grpc/y0;->D(I[B)V
 
-    .line 8
     :goto_0
     iget p1, p0, Lio/grpc/y0;->b:I
 
@@ -1251,25 +1150,21 @@
 
     const-string v0, "key"
 
-    .line 1
     invoke-static {p1, v0}, Lcom/google/common/base/t;->F(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "value"
 
-    .line 2
     invoke-static {p2, v0}, Lcom/google/common/base/t;->F(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const/4 v0, 0x0
 
     const/4 v1, 0x0
 
-    .line 3
     :goto_0
     iget v2, p0, Lio/grpc/y0;->b:I
 
     if-ge v1, v2, :cond_2
 
-    .line 4
     invoke-virtual {p1}, Lio/grpc/y0$i;->a()[B
 
     move-result-object v2
@@ -1286,13 +1181,11 @@
 
     goto :goto_1
 
-    .line 5
     :cond_0
     invoke-direct {p0, v1, p1}, Lio/grpc/y0;->G(ILio/grpc/y0$i;)Ljava/lang/Object;
 
     move-result-object v2
 
-    .line 6
     invoke-virtual {p2, v2}, Ljava/lang/Object;->equals(Ljava/lang/Object;)Z
 
     move-result v2
@@ -1313,19 +1206,16 @@
 
     mul-int/lit8 v1, v1, 0x2
 
-    .line 7
     invoke-direct {p0}, Lio/grpc/y0;->p()I
 
     move-result v0
 
     sub-int/2addr v0, v1
 
-    .line 8
     iget-object v2, p0, Lio/grpc/y0;->a:[Ljava/lang/Object;
 
     invoke-static {v2, v1, v2, p1, v0}, Ljava/lang/System;->arraycopy(Ljava/lang/Object;ILjava/lang/Object;II)V
 
-    .line 9
     iget p1, p0, Lio/grpc/y0;->b:I
 
     sub-int/2addr p1, p2
@@ -1334,10 +1224,8 @@
 
     const/4 v0, 0x0
 
-    .line 10
     invoke-direct {p0, p1, v0}, Lio/grpc/y0;->t(I[B)V
 
-    .line 11
     iget p1, p0, Lio/grpc/y0;->b:I
 
     invoke-direct {p0, p1, v0}, Lio/grpc/y0;->D(I[B)V
@@ -1362,7 +1250,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Lio/grpc/y0;->n()Z
 
     move-result v0
@@ -1380,13 +1267,11 @@
 
     const/4 v2, 0x0
 
-    .line 2
     :goto_0
     iget v4, p0, Lio/grpc/y0;->b:I
 
     if-ge v0, v4, :cond_3
 
-    .line 3
     invoke-virtual {p1}, Lio/grpc/y0$i;->a()[B
 
     move-result-object v4
@@ -1405,13 +1290,11 @@
 
     goto :goto_1
 
-    .line 4
     :cond_1
     new-instance v3, Ljava/util/ArrayList;
 
     invoke-direct {v3}, Ljava/util/ArrayList;-><init>()V
 
-    .line 5
     :goto_1
     invoke-direct {p0, v0, p1}, Lio/grpc/y0;->G(ILio/grpc/y0$i;)Ljava/lang/Object;
 
@@ -1421,7 +1304,6 @@
 
     goto :goto_2
 
-    .line 6
     :cond_2
     invoke-direct {p0, v0}, Lio/grpc/y0;->u(I)[B
 
@@ -1429,7 +1311,6 @@
 
     invoke-direct {p0, v2, v4}, Lio/grpc/y0;->t(I[B)V
 
-    .line 7
     invoke-direct {p0, v0}, Lio/grpc/y0;->B(I)Ljava/lang/Object;
 
     move-result-object v4
@@ -1443,7 +1324,6 @@
 
     goto :goto_0
 
-    .line 8
     :cond_3
     iget-object p1, p0, Lio/grpc/y0;->a:[Ljava/lang/Object;
 
@@ -1455,7 +1335,6 @@
 
     invoke-static {p1, v0, v4, v1}, Ljava/util/Arrays;->fill([Ljava/lang/Object;IILjava/lang/Object;)V
 
-    .line 9
     iput v2, p0, Lio/grpc/y0;->b:I
 
     return-object v3
@@ -1466,14 +1345,12 @@
     .annotation runtime Ljavax/annotation/j;
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Lio/grpc/y0;->p()I
 
     move-result v0
 
     new-array v0, v0, [[B
 
-    .line 2
     iget-object v1, p0, Lio/grpc/y0;->a:[Ljava/lang/Object;
 
     instance-of v2, v1, [[B
@@ -1482,7 +1359,6 @@
 
     if-eqz v2, :cond_0
 
-    .line 3
     invoke-direct {p0}, Lio/grpc/y0;->p()I
 
     move-result v2
@@ -1491,7 +1367,6 @@
 
     goto :goto_1
 
-    .line 4
     :cond_0
     :goto_0
     iget v1, p0, Lio/grpc/y0;->b:I
@@ -1500,7 +1375,6 @@
 
     mul-int/lit8 v1, v3, 0x2
 
-    .line 5
     invoke-direct {p0, v3}, Lio/grpc/y0;->u(I)[B
 
     move-result-object v2
@@ -1509,7 +1383,6 @@
 
     add-int/lit8 v1, v1, 0x1
 
-    .line 6
     invoke-direct {p0, v3}, Lio/grpc/y0;->E(I)[B
 
     move-result-object v2
@@ -1530,7 +1403,6 @@
     .annotation runtime Ljavax/annotation/j;
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Lio/grpc/y0;->p()I
 
     move-result v0
@@ -1539,7 +1411,6 @@
 
     const/4 v1, 0x0
 
-    .line 2
     :goto_0
     iget v2, p0, Lio/grpc/y0;->b:I
 
@@ -1547,7 +1418,6 @@
 
     mul-int/lit8 v2, v1, 0x2
 
-    .line 3
     invoke-direct {p0, v1}, Lio/grpc/y0;->u(I)[B
 
     move-result-object v3
@@ -1556,7 +1426,6 @@
 
     add-int/lit8 v2, v2, 0x1
 
-    .line 4
     invoke-direct {p0, v1}, Lio/grpc/y0;->F(I)Ljava/lang/Object;
 
     move-result-object v3

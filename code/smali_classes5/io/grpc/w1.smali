@@ -50,17 +50,14 @@
 .method public constructor <init>(Ljava/lang/Thread$UncaughtExceptionHandler;)V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     new-instance v0, Ljava/util/concurrent/ConcurrentLinkedQueue;
 
     invoke-direct {v0}, Ljava/util/concurrent/ConcurrentLinkedQueue;-><init>()V
 
     iput-object v0, p0, Lio/grpc/w1;->b:Ljava/util/Queue;
 
-    .line 3
     new-instance v0, Ljava/util/concurrent/atomic/AtomicReference;
 
     invoke-direct {v0}, Ljava/util/concurrent/atomic/AtomicReference;-><init>()V
@@ -69,7 +66,6 @@
 
     const-string v0, "uncaughtExceptionHandler"
 
-    .line 4
     invoke-static {p1, v0}, Lcom/google/common/base/t;->F(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -86,7 +82,6 @@
 .method public final a()V
     .locals 4
 
-    .line 1
     :cond_0
     iget-object v0, p0, Lio/grpc/w1;->c:Ljava/util/concurrent/atomic/AtomicReference;
 
@@ -104,7 +99,6 @@
 
     return-void
 
-    .line 2
     :cond_1
     :goto_0
     :try_start_0
@@ -120,7 +114,6 @@
 
     if-eqz v0, :cond_2
 
-    .line 3
     :try_start_1
     invoke-interface {v0}, Ljava/lang/Runnable;->run()V
     :try_end_1
@@ -131,7 +124,6 @@
     :catchall_0
     move-exception v0
 
-    .line 4
     :try_start_2
     iget-object v1, p0, Lio/grpc/w1;->a:Ljava/lang/Thread$UncaughtExceptionHandler;
 
@@ -145,13 +137,11 @@
 
     goto :goto_0
 
-    .line 5
     :cond_2
     iget-object v0, p0, Lio/grpc/w1;->c:Ljava/util/concurrent/atomic/AtomicReference;
 
     invoke-virtual {v0, v2}, Ljava/util/concurrent/atomic/AtomicReference;->set(Ljava/lang/Object;)V
 
-    .line 6
     iget-object v0, p0, Lio/grpc/w1;->b:Ljava/util/Queue;
 
     invoke-interface {v0}, Ljava/util/Queue;->isEmpty()Z
@@ -165,7 +155,6 @@
     :catchall_1
     move-exception v0
 
-    .line 7
     iget-object v1, p0, Lio/grpc/w1;->c:Ljava/util/concurrent/atomic/AtomicReference;
 
     invoke-virtual {v1, v2}, Ljava/util/concurrent/atomic/AtomicReference;->set(Ljava/lang/Object;)V
@@ -176,7 +165,6 @@
 .method public final b(Ljava/lang/Runnable;)V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lio/grpc/w1;->b:Ljava/util/Queue;
 
     const-string v1, "runnable is null"
@@ -193,12 +181,10 @@
 .method public final c(Ljava/lang/Runnable;JLjava/util/concurrent/TimeUnit;Ljava/util/concurrent/ScheduledExecutorService;)Lio/grpc/w1$c;
     .locals 2
 
-    .line 1
     new-instance v0, Lio/grpc/w1$b;
 
     invoke-direct {v0, p1}, Lio/grpc/w1$b;-><init>(Ljava/lang/Runnable;)V
 
-    .line 2
     new-instance v1, Lio/grpc/w1$a;
 
     invoke-direct {v1, p0, v0, p1}, Lio/grpc/w1$a;-><init>(Lio/grpc/w1;Lio/grpc/w1$b;Ljava/lang/Runnable;)V
@@ -207,7 +193,6 @@
 
     move-result-object p1
 
-    .line 3
     new-instance p2, Lio/grpc/w1$c;
 
     const/4 p3, 0x0
@@ -220,7 +205,6 @@
 .method public d()V
     .locals 2
 
-    .line 1
     invoke-static {}, Ljava/lang/Thread;->currentThread()Ljava/lang/Thread;
 
     move-result-object v0
@@ -251,10 +235,8 @@
 .method public final execute(Ljava/lang/Runnable;)V
     .locals 0
 
-    .line 1
     invoke-virtual {p0, p1}, Lio/grpc/w1;->b(Ljava/lang/Runnable;)V
 
-    .line 2
     invoke-virtual {p0}, Lio/grpc/w1;->a()V
 
     return-void

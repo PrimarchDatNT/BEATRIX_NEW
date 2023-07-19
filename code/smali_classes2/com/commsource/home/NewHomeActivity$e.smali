@@ -31,7 +31,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/home/NewHomeActivity$e;->a:Lcom/commsource/home/NewHomeActivity;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -52,7 +51,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p2, p0, Lcom/commsource/home/NewHomeActivity$e;->a:Lcom/commsource/home/NewHomeActivity;
 
     invoke-static {p2}, Lcom/commsource/home/NewHomeActivity;->U0(Lcom/commsource/home/NewHomeActivity;)Lcom/commsource/beautyplus/f0/q0;
@@ -71,7 +69,6 @@
 
     invoke-static {p2}, Lcom/meitu/library/p/f/i;->e0(I)V
 
-    .line 2
     iget-object p2, p0, Lcom/commsource/home/NewHomeActivity$e;->a:Lcom/commsource/home/NewHomeActivity;
 
     invoke-virtual {p2}, Landroid/app/Activity;->getWindow()Landroid/view/Window;
@@ -96,7 +93,6 @@
 
     invoke-static {p2}, Lcom/meitu/library/p/f/i;->d0(I)V
 
-    .line 3
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

@@ -26,14 +26,12 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
     new-instance v0, Lcom/google/android/gms/internal/icing/x1;
 
     invoke-direct {v0}, Lcom/google/android/gms/internal/icing/x1;-><init>()V
 
     sput-object v0, Lcom/google/android/gms/internal/icing/y1;->a:Lcom/google/android/gms/internal/icing/v1;
 
-    .line 2
     invoke-static {}, Lcom/google/android/gms/internal/icing/y1;->a()Lcom/google/android/gms/internal/icing/v1;
 
     move-result-object v0
@@ -56,7 +54,6 @@
     :try_start_0
     const-string v0, "com.google.protobuf.ExtensionSchemaFull"
 
-    .line 1
     invoke-static {v0}, Ljava/lang/Class;->forName(Ljava/lang/String;)Ljava/lang/Class;
 
     move-result-object v0
@@ -65,7 +62,6 @@
 
     new-array v2, v1, [Ljava/lang/Class;
 
-    .line 2
     invoke-virtual {v0, v2}, Ljava/lang/Class;->getDeclaredConstructor([Ljava/lang/Class;)Ljava/lang/reflect/Constructor;
 
     move-result-object v0
@@ -98,7 +94,6 @@
         }
     .end annotation
 
-    .line 1
     sget-object v0, Lcom/google/android/gms/internal/icing/y1;->a:Lcom/google/android/gms/internal/icing/v1;
 
     return-object v0
@@ -114,14 +109,12 @@
         }
     .end annotation
 
-    .line 1
     sget-object v0, Lcom/google/android/gms/internal/icing/y1;->b:Lcom/google/android/gms/internal/icing/v1;
 
     if-eqz v0, :cond_0
 
     return-object v0
 
-    .line 2
     :cond_0
     new-instance v0, Ljava/lang/IllegalStateException;
 

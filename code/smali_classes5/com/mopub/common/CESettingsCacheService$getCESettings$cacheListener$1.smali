@@ -28,7 +28,6 @@
 .method constructor <init>(Ljava/lang/String;Lcom/mopub/common/CESettingsCacheService$CESettingsCacheListener;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/mopub/common/CESettingsCacheService$getCESettings$cacheListener$1;->$adUnitId:Ljava/lang/String;
 
     iput-object p2, p0, Lcom/mopub/common/CESettingsCacheService$getCESettings$cacheListener$1;->$listener:Lcom/mopub/common/CESettingsCacheService$CESettingsCacheListener;
@@ -55,7 +54,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/common/CESettingsCacheService$getCESettings$cacheListener$1;->$adUnitId:Ljava/lang/String;
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
@@ -68,7 +66,6 @@
 
     return-void
 
-    .line 2
     :cond_0
     sget-object p1, Lcom/mopub/mobileads/CreativeExperienceSettings;->Companion:Lcom/mopub/mobileads/CreativeExperienceSettings$Companion;
 
@@ -76,7 +73,6 @@
 
     move-result-object p1
 
-    .line 3
     iget-object p2, p0, Lcom/mopub/common/CESettingsCacheService$getCESettings$cacheListener$1;->$listener:Lcom/mopub/common/CESettingsCacheService$CESettingsCacheListener;
 
     invoke-interface {p2, p1}, Lcom/mopub/common/CESettingsCacheService$CESettingsCacheListener;->onSettingsReceived(Lcom/mopub/mobileads/CreativeExperienceSettings;)V

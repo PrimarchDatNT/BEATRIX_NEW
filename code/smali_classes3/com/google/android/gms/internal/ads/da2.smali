@@ -13,7 +13,6 @@
 .method constructor <init>(Lcom/google/android/gms/internal/ads/ea2;Landroid/media/AudioTrack;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/android/gms/internal/ads/da2;->b:Lcom/google/android/gms/internal/ads/ea2;
 
     iput-object p2, p0, Lcom/google/android/gms/internal/ads/da2;->a:Landroid/media/AudioTrack;
@@ -28,20 +27,17 @@
 .method public final run()V
     .locals 2
 
-    .line 1
     :try_start_0
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/da2;->a:Landroid/media/AudioTrack;
 
     invoke-virtual {v0}, Landroid/media/AudioTrack;->flush()V
 
-    .line 2
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/da2;->a:Landroid/media/AudioTrack;
 
     invoke-virtual {v0}, Landroid/media/AudioTrack;->release()V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 3
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/da2;->b:Lcom/google/android/gms/internal/ads/ea2;
 
     invoke-static {v0}, Lcom/google/android/gms/internal/ads/ea2;->h(Lcom/google/android/gms/internal/ads/ea2;)Landroid/os/ConditionVariable;
@@ -55,7 +51,6 @@
     :catchall_0
     move-exception v0
 
-    .line 4
     iget-object v1, p0, Lcom/google/android/gms/internal/ads/da2;->b:Lcom/google/android/gms/internal/ads/ea2;
 
     invoke-static {v1}, Lcom/google/android/gms/internal/ads/ea2;->h(Lcom/google/android/gms/internal/ads/ea2;)Landroid/os/ConditionVariable;
@@ -64,6 +59,5 @@
 
     invoke-virtual {v1}, Landroid/os/ConditionVariable;->open()V
 
-    .line 5
     throw v0
 .end method

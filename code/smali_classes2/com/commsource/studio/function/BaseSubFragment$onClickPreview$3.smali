@@ -54,7 +54,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/studio/function/BaseSubFragment$onClickPreview$3;->invoke()V
 
     sget-object v1, Lcotlin/t1;->a:Lcotlin/t1;
@@ -71,7 +70,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/function/BaseSubFragment$onClickPreview$3;->this$0:Lcom/commsource/studio/function/BaseSubFragment;
 
     invoke-virtual {v1}, Lcom/commsource/studio/function/BaseSubFragment;->r0()Lcom/commsource/studio/ImageStudioViewModel;
@@ -90,7 +88,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/editengine/f;->o(Lcom/commsource/editengine/d;)V
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/studio/function/BaseSubFragment$onClickPreview$3;->this$0:Lcom/commsource/studio/function/BaseSubFragment;
 
     invoke-virtual {v1}, Lcom/commsource/studio/function/BaseSubFragment;->e0()Lcom/commsource/studio/MatrixBox;
@@ -99,7 +96,6 @@
 
     if-eqz v1, :cond_0
 
-    .line 4
     iget-object v2, p0, Lcom/commsource/studio/function/BaseSubFragment$onClickPreview$3;->this$0:Lcom/commsource/studio/function/BaseSubFragment;
 
     invoke-virtual {v2}, Lcom/commsource/studio/function/BaseSubFragment;->q0()Lcom/commsource/beautyplus/f0/k0;
@@ -110,7 +106,6 @@
 
     invoke-virtual {v2, v1}, Lcom/commsource/studio/StudioCanvasContainer;->j(Lcom/commsource/studio/MatrixBox;)V
 
-    .line 5
     :cond_0
     iget-object v1, p0, Lcom/commsource/studio/function/BaseSubFragment$onClickPreview$3;->this$0:Lcom/commsource/studio/function/BaseSubFragment;
 
@@ -128,7 +123,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/editengine/f;->m(Lcotlin/jvm/u/a;)V
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

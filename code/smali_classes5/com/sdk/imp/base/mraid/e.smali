@@ -34,7 +34,6 @@
 
     const-string v1, "yyyy-MM-dd\'T\'HH:mmZZZZZ"
 
-    .line 1
     filled-new-array {v0, v1}, [Ljava/lang/String;
 
     move-result-object v0
@@ -47,7 +46,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -71,7 +69,6 @@
 
     if-gt p1, v0, :cond_0
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -88,7 +85,6 @@
 
     return-object p1
 
-    .line 2
     :cond_0
     new-instance v0, Ljava/lang/IllegalArgumentException;
 
@@ -121,7 +117,6 @@
 
     packed-switch p1, :pswitch_data_0
 
-    .line 1
     new-instance v0, Ljava/lang/IllegalArgumentException;
 
     new-instance v1, Ljava/lang/StringBuilder;
@@ -195,7 +190,6 @@
 .method static e(Landroid/content/Context;)Z
     .locals 3
 
-    .line 1
     new-instance v0, Landroid/content/Intent;
 
     const-string v1, "android.intent.action.INSERT"
@@ -208,14 +202,12 @@
 
     move-result-object v0
 
-    .line 2
     sget v1, Landroid/os/Build$VERSION;->SDK_INT:I
 
     const/16 v2, 0xe
 
     if-lt v1, v2, :cond_0
 
-    .line 3
     invoke-static {p0, v0}, Lcom/sdk/imp/base/h;->a(Landroid/content/Context;Landroid/content/Intent;)Z
 
     move-result p0
@@ -236,7 +228,6 @@
 .method public static h(Landroid/content/Context;)Z
     .locals 2
 
-    .line 1
     invoke-static {}, Landroid/os/Environment;->getExternalStorageState()Ljava/lang/String;
 
     move-result-object v0
@@ -251,7 +242,6 @@
 
     const-string v0, "android.permission.WRITE_EXTERNAL_STORAGE"
 
-    .line 2
     invoke-virtual {p0, v0}, Landroid/content/Context;->checkCallingOrSelfPermission(Ljava/lang/String;)I
 
     move-result p0
@@ -272,7 +262,6 @@
 .method private j(Ljava/lang/String;)Ljava/util/Date;
     .locals 7
 
-    .line 1
     sget-object v0, Lcom/sdk/imp/base/mraid/e;->c:[Ljava/lang/String;
 
     array-length v1, v0
@@ -286,7 +275,6 @@
 
     aget-object v4, v0, v3
 
-    .line 2
     :try_start_0
     new-instance v5, Ljava/text/SimpleDateFormat;
 
@@ -334,21 +322,18 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
 
     const-string v1, "frequency"
 
-    .line 2
     invoke-interface {p1, v1}, Ljava/util/Map;->containsKey(Ljava/lang/Object;)Z
 
     move-result v2
 
     if-eqz v2, :cond_8
 
-    .line 3
     invoke-interface {p1, v1}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v1
@@ -357,7 +342,6 @@
 
     const-string v2, "interval"
 
-    .line 4
     invoke-interface {p1, v2}, Ljava/util/Map;->containsKey(Ljava/lang/Object;)Z
 
     move-result v3
@@ -366,7 +350,6 @@
 
     if-eqz v3, :cond_0
 
-    .line 5
     invoke-interface {p1, v2}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v2
@@ -385,7 +368,6 @@
     :goto_0
     const-string v3, "daily"
 
-    .line 6
     invoke-virtual {v3, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v3
@@ -398,12 +380,10 @@
 
     const-string p1, "FREQ=DAILY;"
 
-    .line 7
     invoke-virtual {v0, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     if-eq v2, v4, :cond_8
 
-    .line 8
     new-instance p1, Ljava/lang/StringBuilder;
 
     invoke-direct {p1}, Ljava/lang/StringBuilder;-><init>()V
@@ -425,7 +405,6 @@
     :cond_1
     const-string v3, "weekly"
 
-    .line 9
     invoke-virtual {v3, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v3
@@ -434,12 +413,10 @@
 
     const-string v1, "FREQ=WEEKLY;"
 
-    .line 10
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     if-eq v2, v4, :cond_2
 
-    .line 11
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -459,14 +436,12 @@
     :cond_2
     const-string v1, "daysInWeek"
 
-    .line 12
     invoke-interface {p1, v1}, Ljava/util/Map;->containsKey(Ljava/lang/Object;)Z
 
     move-result v2
 
     if-eqz v2, :cond_8
 
-    .line 13
     invoke-interface {p1, v1}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -479,7 +454,6 @@
 
     if-eqz p1, :cond_3
 
-    .line 14
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -500,7 +474,6 @@
 
     goto :goto_1
 
-    .line 15
     :cond_3
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -513,7 +486,6 @@
     :cond_4
     const-string v3, "monthly"
 
-    .line 16
     invoke-virtual {v3, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v1
@@ -522,12 +494,10 @@
 
     const-string v1, "FREQ=MONTHLY;"
 
-    .line 17
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     if-eq v2, v4, :cond_5
 
-    .line 18
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -547,14 +517,12 @@
     :cond_5
     const-string v1, "daysInMonth"
 
-    .line 19
     invoke-interface {p1, v1}, Ljava/util/Map;->containsKey(Ljava/lang/Object;)Z
 
     move-result v2
 
     if-eqz v2, :cond_8
 
-    .line 20
     invoke-interface {p1, v1}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -567,7 +535,6 @@
 
     if-eqz p1, :cond_6
 
-    .line 21
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -588,7 +555,6 @@
 
     goto :goto_1
 
-    .line 22
     :cond_6
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -596,7 +562,6 @@
 
     throw p1
 
-    .line 23
     :cond_7
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -606,7 +571,6 @@
 
     throw p1
 
-    .line 24
     :cond_8
     :goto_1
     invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
@@ -619,21 +583,18 @@
 .method private l(Landroid/content/Context;Ljava/lang/String;Lcom/sdk/imp/base/mraid/e$e;)V
     .locals 3
 
-    .line 1
     new-instance v0, Landroid/app/AlertDialog$Builder;
 
     invoke-direct {v0, p1}, Landroid/app/AlertDialog$Builder;-><init>(Landroid/content/Context;)V
 
     const-string v1, "Save Image"
 
-    .line 2
     invoke-virtual {v0, v1}, Landroid/app/AlertDialog$Builder;->setTitle(Ljava/lang/CharSequence;)Landroid/app/AlertDialog$Builder;
 
     move-result-object v0
 
     const-string v1, "Download image to Picture gallery?"
 
-    .line 3
     invoke-virtual {v0, v1}, Landroid/app/AlertDialog$Builder;->setMessage(Ljava/lang/CharSequence;)Landroid/app/AlertDialog$Builder;
 
     move-result-object v0
@@ -642,7 +603,6 @@
 
     const/4 v2, 0x0
 
-    .line 4
     invoke-virtual {v0, v1, v2}, Landroid/app/AlertDialog$Builder;->setNegativeButton(Ljava/lang/CharSequence;Landroid/content/DialogInterface$OnClickListener;)Landroid/app/AlertDialog$Builder;
 
     move-result-object v0
@@ -653,19 +613,16 @@
 
     const-string p1, "Okay"
 
-    .line 5
     invoke-virtual {v0, p1, v1}, Landroid/app/AlertDialog$Builder;->setPositiveButton(Ljava/lang/CharSequence;Landroid/content/DialogInterface$OnClickListener;)Landroid/app/AlertDialog$Builder;
 
     move-result-object p1
 
     const/4 p2, 0x1
 
-    .line 6
     invoke-virtual {p1, p2}, Landroid/app/AlertDialog$Builder;->setCancelable(Z)Landroid/app/AlertDialog$Builder;
 
     move-result-object p1
 
-    .line 7
     invoke-virtual {p1}, Landroid/app/AlertDialog$Builder;->show()Landroid/app/AlertDialog;
 
     return-void
@@ -691,14 +648,12 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/util/HashMap;
 
     invoke-direct {v0}, Ljava/util/HashMap;-><init>()V
 
     const-string v1, "description"
 
-    .line 2
     invoke-interface {p1, v1}, Ljava/util/Map;->containsKey(Ljava/lang/Object;)Z
 
     move-result v2
@@ -713,7 +668,6 @@
 
     if-eqz v3, :cond_7
 
-    .line 3
     invoke-interface {p1, v1}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v3
@@ -722,7 +676,6 @@
 
     invoke-interface {v0, v4, v3}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 4
     invoke-interface {p1, v2}, Ljava/util/Map;->containsKey(Ljava/lang/Object;)Z
 
     move-result v3
@@ -735,7 +688,6 @@
 
     if-eqz v3, :cond_6
 
-    .line 5
     invoke-interface {p1, v2}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v2
@@ -748,7 +700,6 @@
 
     if-eqz v2, :cond_5
 
-    .line 6
     invoke-virtual {v2}, Ljava/util/Date;->getTime()J
 
     move-result-wide v2
@@ -763,7 +714,6 @@
 
     const-string v2, "end"
 
-    .line 7
     invoke-interface {p1, v2}, Ljava/util/Map;->containsKey(Ljava/lang/Object;)Z
 
     move-result v3
@@ -776,7 +726,6 @@
 
     if-eqz v3, :cond_1
 
-    .line 8
     invoke-interface {p1, v2}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v2
@@ -789,7 +738,6 @@
 
     if-eqz v2, :cond_0
 
-    .line 9
     invoke-virtual {v2}, Ljava/util/Date;->getTime()J
 
     move-result-wide v2
@@ -804,7 +752,6 @@
 
     goto :goto_0
 
-    .line 10
     :cond_0
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -818,14 +765,12 @@
     :goto_0
     const-string v2, "location"
 
-    .line 11
     invoke-interface {p1, v2}, Ljava/util/Map;->containsKey(Ljava/lang/Object;)Z
 
     move-result v3
 
     if-eqz v3, :cond_2
 
-    .line 12
     invoke-interface {p1, v2}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v2
@@ -837,14 +782,12 @@
     :cond_2
     const-string v2, "summary"
 
-    .line 13
     invoke-interface {p1, v2}, Ljava/util/Map;->containsKey(Ljava/lang/Object;)Z
 
     move-result v3
 
     if-eqz v3, :cond_3
 
-    .line 14
     invoke-interface {p1, v2}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v2
@@ -854,14 +797,12 @@
     :cond_3
     const-string v1, "transparency"
 
-    .line 15
     invoke-interface {p1, v1}, Ljava/util/Map;->containsKey(Ljava/lang/Object;)Z
 
     move-result v2
 
     if-eqz v2, :cond_4
 
-    .line 16
     invoke-interface {p1, v1}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v1
@@ -880,10 +821,8 @@
 
     const-string v2, "availability"
 
-    .line 17
     invoke-interface {v0, v2, v1}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 18
     :cond_4
     invoke-direct {p0, p1}, Lcom/sdk/imp/base/mraid/e;->k(Ljava/util/Map;)Ljava/lang/String;
 
@@ -895,7 +834,6 @@
 
     return-object v0
 
-    .line 19
     :cond_5
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -905,7 +843,6 @@
 
     throw p1
 
-    .line 20
     :cond_6
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -915,7 +852,6 @@
 
     throw p1
 
-    .line 21
     :cond_7
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -934,7 +870,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -945,12 +880,10 @@
 
     const-string v2, ","
 
-    .line 2
     invoke-virtual {p1, v2}, Ljava/lang/String;->split(Ljava/lang/String;)[Ljava/lang/String;
 
     move-result-object p1
 
-    .line 3
     array-length v3, p1
 
     const/4 v4, 0x0
@@ -962,19 +895,16 @@
 
     aget-object v6, p1, v4
 
-    .line 4
     invoke-static {v6}, Ljava/lang/Integer;->parseInt(Ljava/lang/String;)I
 
     move-result v6
 
     add-int/lit8 v7, v6, 0x1f
 
-    .line 5
     aget-boolean v8, v1, v7
 
     if-nez v8, :cond_0
 
-    .line 6
     new-instance v8, Ljava/lang/StringBuilder;
 
     invoke-direct {v8}, Ljava/lang/StringBuilder;-><init>()V
@@ -993,7 +923,6 @@
 
     invoke-virtual {v0, v6}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 7
     aput-boolean v5, v1, v7
 
     :cond_0
@@ -1001,13 +930,11 @@
 
     goto :goto_0
 
-    .line 8
     :cond_1
     array-length p1, p1
 
     if-eqz p1, :cond_2
 
-    .line 9
     invoke-virtual {v0}, Ljava/lang/StringBuilder;->length()I
 
     move-result p1
@@ -1016,14 +943,12 @@
 
     invoke-virtual {v0, p1}, Ljava/lang/StringBuilder;->deleteCharAt(I)Ljava/lang/StringBuilder;
 
-    .line 10
     invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     move-result-object p1
 
     return-object p1
 
-    .line 11
     :cond_2
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -1042,7 +967,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -1053,12 +977,10 @@
 
     const-string v3, ","
 
-    .line 2
     invoke-virtual {p1, v3}, Ljava/lang/String;->split(Ljava/lang/String;)[Ljava/lang/String;
 
     move-result-object p1
 
-    .line 3
     array-length v4, p1
 
     const/4 v5, 0x0
@@ -1072,7 +994,6 @@
 
     aget-object v8, p1, v6
 
-    .line 4
     invoke-static {v8}, Ljava/lang/Integer;->parseInt(Ljava/lang/String;)I
 
     move-result v8
@@ -1081,13 +1002,11 @@
 
     const/4 v8, 0x0
 
-    .line 5
     :cond_0
     aget-boolean v9, v2, v8
 
     if-nez v9, :cond_1
 
-    .line 6
     new-instance v9, Ljava/lang/StringBuilder;
 
     invoke-direct {v9}, Ljava/lang/StringBuilder;-><init>()V
@@ -1106,7 +1025,6 @@
 
     invoke-virtual {v0, v9}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 7
     aput-boolean v7, v2, v8
 
     :cond_1
@@ -1114,13 +1032,11 @@
 
     goto :goto_0
 
-    .line 8
     :cond_2
     array-length p1, p1
 
     if-eqz p1, :cond_3
 
-    .line 9
     invoke-virtual {v0}, Ljava/lang/StringBuilder;->length()I
 
     move-result p1
@@ -1129,14 +1045,12 @@
 
     invoke-virtual {v0, p1}, Ljava/lang/StringBuilder;->deleteCharAt(I)Ljava/lang/StringBuilder;
 
-    .line 10
     invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     move-result-object p1
 
     return-object p1
 
-    .line 11
     :cond_3
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -1168,20 +1082,17 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p1}, Lcom/sdk/imp/base/mraid/e;->e(Landroid/content/Context;)Z
 
     move-result v0
 
     if-eqz v0, :cond_3
 
-    .line 2
     :try_start_0
     invoke-direct {p0, p2}, Lcom/sdk/imp/base/mraid/e;->n(Ljava/util/Map;)Ljava/util/Map;
 
     move-result-object p2
 
-    .line 3
     new-instance v0, Landroid/content/Intent;
 
     const-string v1, "android.intent.action.INSERT"
@@ -1194,7 +1105,6 @@
 
     move-result-object v0
 
-    .line 4
     invoke-interface {p2}, Ljava/util/Map;->keySet()Ljava/util/Set;
 
     move-result-object v1
@@ -1216,17 +1126,14 @@
 
     check-cast v2, Ljava/lang/String;
 
-    .line 5
     invoke-interface {p2, v2}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v3
 
-    .line 6
     instance-of v4, v3, Ljava/lang/Long;
 
     if-eqz v4, :cond_0
 
-    .line 7
     check-cast v3, Ljava/lang/Long;
 
     invoke-virtual {v3}, Ljava/lang/Long;->longValue()J
@@ -1237,13 +1144,11 @@
 
     goto :goto_0
 
-    .line 8
     :cond_0
     instance-of v4, v3, Ljava/lang/Integer;
 
     if-eqz v4, :cond_1
 
-    .line 9
     check-cast v3, Ljava/lang/Integer;
 
     invoke-virtual {v3}, Ljava/lang/Integer;->intValue()I
@@ -1254,7 +1159,6 @@
 
     goto :goto_0
 
-    .line 10
     :cond_1
     check-cast v3, Ljava/lang/String;
 
@@ -1265,10 +1169,8 @@
     :cond_2
     const/high16 p2, 0x10000000
 
-    .line 11
     invoke-virtual {v0, p2}, Landroid/content/Intent;->setFlags(I)Landroid/content/Intent;
 
-    .line 12
     invoke-virtual {p1, v0}, Landroid/content/Context;->startActivity(Landroid/content/Intent;)V
     :try_end_0
     .catch Landroid/content/ActivityNotFoundException; {:try_start_0 .. :try_end_0} :catch_2
@@ -1282,10 +1184,8 @@
 
     const-string p2, "could not create calendar event"
 
-    .line 13
     invoke-static {p2}, Lf/q/b/g;->a(Ljava/lang/String;)V
 
-    .line 14
     new-instance p2, Ljava/lang/Exception;
 
     invoke-direct {p2, p1}, Ljava/lang/Exception;-><init>(Ljava/lang/Throwable;)V
@@ -1295,7 +1195,6 @@
     :catch_1
     move-exception p1
 
-    .line 15
     new-instance p2, Ljava/lang/StringBuilder;
 
     invoke-direct {p2}, Ljava/lang/StringBuilder;-><init>()V
@@ -1316,7 +1215,6 @@
 
     invoke-static {p2}, Lf/q/b/g;->a(Ljava/lang/String;)V
 
-    .line 16
     new-instance p2, Ljava/lang/IllegalArgumentException;
 
     invoke-direct {p2, p1}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/Throwable;)V
@@ -1326,10 +1224,8 @@
     :catch_2
     const-string p1, "no calendar app installed"
 
-    .line 17
     invoke-static {p1}, Lf/q/b/g;->a(Ljava/lang/String;)V
 
-    .line 18
     new-instance p1, Landroid/content/ActivityNotFoundException;
 
     const-string p2, "Action is unsupported on this device - no calendar app installed"
@@ -1341,10 +1237,8 @@
     :cond_3
     const-string p1, "unsupported action createCalendarEvent for devices pre-ICS"
 
-    .line 19
     invoke-static {p1}, Lf/q/b/g;->a(Ljava/lang/String;)V
 
-    .line 20
     new-instance p1, Ljava/lang/Exception;
 
     const-string p2, "Action is unsupported on this device (need Android version Ice Cream Sandwich or above)"
@@ -1357,7 +1251,6 @@
 .method d(Landroid/content/Context;Ljava/lang/String;Lcom/sdk/imp/base/mraid/e$e;)V
     .locals 2
 
-    .line 1
     new-instance v0, Lcom/sdk/imp/base/mraid/e$c;
 
     new-instance v1, Lcom/sdk/imp/base/mraid/e$a;
@@ -1374,7 +1267,6 @@
 
     aput-object p2, p1, p3
 
-    .line 2
     invoke-static {v0, p1}, Lcom/sdk/imp/base/a;->c(Landroid/os/AsyncTask;[Ljava/lang/Object;)V
 
     return-void
@@ -1394,7 +1286,6 @@
         value = 0xb
     .end annotation
 
-    .line 1
     sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
 
     const/4 v1, 0x0
@@ -1405,7 +1296,6 @@
 
     return v1
 
-    .line 2
     :cond_0
     :goto_0
     invoke-virtual {p2}, Landroid/view/View;->isHardwareAccelerated()Z
@@ -1414,7 +1304,6 @@
 
     if-eqz v0, :cond_4
 
-    .line 3
     invoke-virtual {p2}, Landroid/view/View;->getLayerType()I
 
     move-result v0
@@ -1429,7 +1318,6 @@
 
     goto :goto_1
 
-    .line 4
     :cond_1
     invoke-virtual {p2}, Landroid/view/View;->getParent()Landroid/view/ViewParent;
 
@@ -1439,14 +1327,12 @@
 
     if-nez v0, :cond_3
 
-    .line 5
     invoke-virtual {p1}, Landroid/app/Activity;->getWindow()Landroid/view/Window;
 
     move-result-object p1
 
     if-eqz p1, :cond_2
 
-    .line 6
     invoke-virtual {p1}, Landroid/view/Window;->getAttributes()Landroid/view/WindowManager$LayoutParams;
 
     move-result-object p1
@@ -1466,7 +1352,6 @@
     :cond_2
     return v1
 
-    .line 7
     :cond_3
     invoke-virtual {p2}, Landroid/view/View;->getParent()Landroid/view/ViewParent;
 
@@ -1484,7 +1369,6 @@
 .method g(Landroid/content/Context;)Z
     .locals 2
 
-    .line 1
     new-instance v0, Landroid/content/Intent;
 
     const-string v1, "android.intent.action.VIEW"
@@ -1493,14 +1377,12 @@
 
     const-string v1, "sms:"
 
-    .line 2
     invoke-static {v1}, Landroid/net/Uri;->parse(Ljava/lang/String;)Landroid/net/Uri;
 
     move-result-object v1
 
     invoke-virtual {v0, v1}, Landroid/content/Intent;->setData(Landroid/net/Uri;)Landroid/content/Intent;
 
-    .line 3
     invoke-static {p1, v0}, Lcom/sdk/imp/base/h;->a(Landroid/content/Context;Landroid/content/Intent;)Z
 
     move-result p1
@@ -1511,7 +1393,6 @@
 .method i(Landroid/content/Context;)Z
     .locals 2
 
-    .line 1
     new-instance v0, Landroid/content/Intent;
 
     const-string v1, "android.intent.action.DIAL"
@@ -1520,14 +1401,12 @@
 
     const-string v1, "tel:"
 
-    .line 2
     invoke-static {v1}, Landroid/net/Uri;->parse(Ljava/lang/String;)Landroid/net/Uri;
 
     move-result-object v1
 
     invoke-virtual {v0, v1}, Landroid/content/Intent;->setData(Landroid/net/Uri;)Landroid/content/Intent;
 
-    .line 3
     invoke-static {p1, v0}, Lcom/sdk/imp/base/h;->a(Landroid/content/Context;Landroid/content/Intent;)Z
 
     move-result p1
@@ -1555,19 +1434,16 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p1}, Lcom/sdk/imp/base/mraid/e;->h(Landroid/content/Context;)Z
 
     move-result v0
 
     if-eqz v0, :cond_1
 
-    .line 2
     instance-of v0, p1, Landroid/app/Activity;
 
     if-eqz v0, :cond_0
 
-    .line 3
     invoke-direct {p0, p1, p2, p3}, Lcom/sdk/imp/base/mraid/e;->l(Landroid/content/Context;Ljava/lang/String;Lcom/sdk/imp/base/mraid/e$e;)V
 
     goto :goto_0
@@ -1577,14 +1453,12 @@
 
     const-string v1, "Downloading image to Picture gallery..."
 
-    .line 4
     invoke-static {p1, v1, v0}, Landroid/widget/Toast;->makeText(Landroid/content/Context;Ljava/lang/CharSequence;I)Landroid/widget/Toast;
 
     move-result-object v0
 
     invoke-virtual {v0}, Landroid/widget/Toast;->show()V
 
-    .line 5
     invoke-virtual {p0, p1, p2, p3}, Lcom/sdk/imp/base/mraid/e;->d(Landroid/content/Context;Ljava/lang/String;Lcom/sdk/imp/base/mraid/e$e;)V
 
     :goto_0
@@ -1593,10 +1467,8 @@
     :cond_1
     const-string p1, "Error downloading file - the device does not have an SD card mounted, or the Android permission is not granted."
 
-    .line 6
     invoke-static {p1}, Lf/q/b/g;->a(Ljava/lang/String;)V
 
-    .line 7
     new-instance p1, Ljava/lang/Exception;
 
     const-string p2, "Error downloading file  - the device does not have an SD card mounted, or the Android permission is not granted."

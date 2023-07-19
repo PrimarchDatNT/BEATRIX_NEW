@@ -24,10 +24,8 @@
     .annotation build Lf/f/e/a/d;
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lio/grpc/internal/g3$b;->a:Lio/grpc/internal/d3;
 
     return-void
@@ -38,7 +36,6 @@
 .method public a()Lio/grpc/internal/g3;
     .locals 3
 
-    .line 1
     new-instance v0, Lio/grpc/internal/g3;
 
     iget-object v1, p0, Lio/grpc/internal/g3$b;->a:Lio/grpc/internal/d3;

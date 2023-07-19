@@ -26,7 +26,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/studio/i$c;-><init>()V
 
     return-void
@@ -43,7 +42,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/layer/BaseLayer$a;->d:Lcom/commsource/studio/layer/BaseLayer;
 
     if-nez v1, :cond_0
@@ -73,7 +71,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/layer/BaseLayer$a;->d:Lcom/commsource/studio/layer/BaseLayer;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

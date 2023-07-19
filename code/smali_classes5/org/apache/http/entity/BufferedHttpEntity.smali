@@ -21,10 +21,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1}, Lorg/apache/http/entity/HttpEntityWrapper;-><init>(Lorg/apache/http/HttpEntity;)V
 
-    .line 2
     invoke-interface {p1}, Lorg/apache/http/HttpEntity;->isRepeatable()Z
 
     move-result v0
@@ -46,12 +44,10 @@
     :cond_0
     const/4 p1, 0x0
 
-    .line 3
     iput-object p1, p0, Lorg/apache/http/entity/BufferedHttpEntity;->buffer:[B
 
     goto :goto_1
 
-    .line 4
     :cond_1
     :goto_0
     invoke-static {p1}, Lorg/apache/http/util/EntityUtils;->toByteArray(Lorg/apache/http/HttpEntity;)[B
@@ -74,12 +70,10 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lorg/apache/http/entity/BufferedHttpEntity;->buffer:[B
 
     if-eqz v0, :cond_0
 
-    .line 2
     new-instance v0, Ljava/io/ByteArrayInputStream;
 
     iget-object v1, p0, Lorg/apache/http/entity/BufferedHttpEntity;->buffer:[B
@@ -88,7 +82,6 @@
 
     return-object v0
 
-    .line 3
     :cond_0
     invoke-super {p0}, Lorg/apache/http/entity/HttpEntityWrapper;->getContent()Ljava/io/InputStream;
 
@@ -100,19 +93,16 @@
 .method public getContentLength()J
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lorg/apache/http/entity/BufferedHttpEntity;->buffer:[B
 
     if-eqz v0, :cond_0
 
-    .line 2
     array-length v0, v0
 
     int-to-long v0, v0
 
     return-wide v0
 
-    .line 3
     :cond_0
     invoke-super {p0}, Lorg/apache/http/entity/HttpEntityWrapper;->getContentLength()J
 
@@ -124,7 +114,6 @@
 .method public isChunked()Z
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lorg/apache/http/entity/BufferedHttpEntity;->buffer:[B
 
     if-nez v0, :cond_0
@@ -157,7 +146,6 @@
 .method public isStreaming()Z
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lorg/apache/http/entity/BufferedHttpEntity;->buffer:[B
 
     if-nez v0, :cond_0
@@ -189,20 +177,16 @@
 
     const-string v0, "Output stream"
 
-    .line 1
     invoke-static {p1, v0}, Lorg/apache/http/util/Args;->notNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
 
-    .line 2
     iget-object v0, p0, Lorg/apache/http/entity/BufferedHttpEntity;->buffer:[B
 
     if-eqz v0, :cond_0
 
-    .line 3
     invoke-virtual {p1, v0}, Ljava/io/OutputStream;->write([B)V
 
     goto :goto_0
 
-    .line 4
     :cond_0
     invoke-super {p0, p1}, Lorg/apache/http/entity/HttpEntityWrapper;->writeTo(Ljava/io/OutputStream;)V
 

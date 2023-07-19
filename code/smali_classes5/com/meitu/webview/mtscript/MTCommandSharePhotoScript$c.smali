@@ -27,7 +27,6 @@
 .method constructor <init>(Lcom/meitu/webview/mtscript/MTCommandSharePhotoScript;Ljava/lang/String;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/webview/mtscript/MTCommandSharePhotoScript$c;->b:Lcom/meitu/webview/mtscript/MTCommandSharePhotoScript;
 
     iput-object p2, p0, Lcom/meitu/webview/mtscript/MTCommandSharePhotoScript$c;->a:Ljava/lang/String;
@@ -46,18 +45,15 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     :try_start_0
     invoke-static {}, Lcom/meitu/webview/utils/b;->d()Ljava/lang/String;
 
     move-result-object v1
 
-    .line 2
     iget-object v2, p0, Lcom/meitu/webview/mtscript/MTCommandSharePhotoScript$c;->a:Ljava/lang/String;
 
     invoke-static {v2, v1}, Lcom/meitu/library/p/g/b;->d(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 3
     invoke-static {v1}, Lcom/meitu/webview/utils/g;->t(Ljava/lang/String;)V
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
@@ -67,10 +63,8 @@
     :catch_0
     move-exception v1
 
-    .line 4
     invoke-virtual {v1}, Ljava/lang/Exception;->printStackTrace()V
 
-    .line 5
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

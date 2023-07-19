@@ -27,12 +27,10 @@
 
     const/4 v1, 0x0
 
-    .line 1
     sput-object v1, Lf/k/g0/e/e/e;->a:Ljava/lang/String;
 
     const/4 v1, 0x0
 
-    .line 2
     sput v1, Lf/k/g0/e/e/e;->b:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -43,7 +41,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -58,24 +55,20 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lf/k/g0/e/e/e;->a:Ljava/lang/String;
 
     if-nez v1, :cond_1
 
-    .line 2
     sget v1, Lf/k/g0/e/e/e;->b:I
 
     if-nez v1, :cond_0
 
-    .line 3
     invoke-static {}, Landroid/os/Process;->myPid()I
 
     move-result v1
 
     sput v1, Lf/k/g0/e/e/e;->b:I
 
-    .line 4
     :cond_0
     sget v1, Lf/k/g0/e/e/e;->b:I
 
@@ -85,7 +78,6 @@
 
     sput-object v1, Lf/k/g0/e/e/e;->a:Ljava/lang/String;
 
-    .line 5
     :cond_1
     sget-object v1, Lf/k/g0/e/e/e;->a:Ljava/lang/String;
 
@@ -107,12 +99,10 @@
 
     if-gtz p0, :cond_0
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
 
-    .line 2
     :cond_0
     :try_start_0
     new-instance v2, Ljava/lang/StringBuilder;
@@ -154,7 +144,6 @@
 
     if-eqz p0, :cond_2
 
-    .line 3
     :goto_0
     :try_start_2
     invoke-virtual {p0}, Ljava/io/BufferedReader;->close()V
@@ -190,7 +179,6 @@
     :try_end_3
     .catch Ljava/io/IOException; {:try_start_3 .. :try_end_3} :catch_1
 
-    .line 4
     :catch_1
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -205,7 +193,6 @@
 
     goto :goto_0
 
-    .line 5
     :catch_3
     :cond_2
     :goto_3
@@ -226,12 +213,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Landroid/os/StrictMode;->allowThreadDiskReads()Landroid/os/StrictMode$ThreadPolicy;
 
     move-result-object v1
 
-    .line 2
     :try_start_0
     new-instance v2, Ljava/io/BufferedReader;
 
@@ -243,10 +228,8 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 3
     invoke-static {v1}, Landroid/os/StrictMode;->setThreadPolicy(Landroid/os/StrictMode$ThreadPolicy;)V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v2
@@ -254,10 +237,8 @@
     :catchall_0
     move-exception p0
 
-    .line 5
     invoke-static {v1}, Landroid/os/StrictMode;->setThreadPolicy(Landroid/os/StrictMode$ThreadPolicy;)V
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     throw p0

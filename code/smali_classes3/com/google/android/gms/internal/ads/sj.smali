@@ -11,10 +11,8 @@
 .method public constructor <init>(Lcom/google/android/gms/ads/z/d;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/google/android/gms/internal/ads/jj;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/google/android/gms/internal/ads/sj;->b:Lcom/google/android/gms/ads/z/d;
 
     return-void
@@ -25,12 +23,10 @@
 .method public final C1()V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/sj;->b:Lcom/google/android/gms/ads/z/d;
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-virtual {v0}, Lcom/google/android/gms/ads/z/d;->a()V
 
     :cond_0
@@ -40,12 +36,10 @@
 .method public final X1()V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/sj;->b:Lcom/google/android/gms/ads/z/d;
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-virtual {v0}, Lcom/google/android/gms/ads/z/d;->c()V
 
     :cond_0
@@ -55,12 +49,10 @@
 .method public final da(I)V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/sj;->b:Lcom/google/android/gms/ads/z/d;
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-virtual {v0, p1}, Lcom/google/android/gms/ads/z/d;->b(I)V
 
     :cond_0
@@ -70,12 +62,10 @@
 .method public final p0(Lcom/google/android/gms/internal/ads/aj;)V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/sj;->b:Lcom/google/android/gms/ads/z/d;
 
     if-eqz v0, :cond_0
 
-    .line 2
     new-instance v1, Lcom/google/android/gms/internal/ads/tj;
 
     invoke-direct {v1, p1}, Lcom/google/android/gms/internal/ads/tj;-><init>(Lcom/google/android/gms/internal/ads/aj;)V

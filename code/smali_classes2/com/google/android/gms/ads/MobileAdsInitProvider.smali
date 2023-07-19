@@ -16,10 +16,8 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Landroid/content/ContentProvider;-><init>()V
 
-    .line 2
     new-instance v0, Lcom/google/android/gms/internal/ads/zzyz;
 
     invoke-direct {v0}, Lcom/google/android/gms/internal/ads/zzyz;-><init>()V
@@ -34,7 +32,6 @@
 .method public attachInfo(Landroid/content/Context;Landroid/content/pm/ProviderInfo;)V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/ads/MobileAdsInitProvider;->a:Lcom/google/android/gms/internal/ads/zzyz;
 
     invoke-virtual {v0, p1, p2}, Lcom/google/android/gms/internal/ads/zzyz;->attachInfo(Landroid/content/Context;Landroid/content/pm/ProviderInfo;)V
@@ -49,7 +46,6 @@
         .end annotation
     .end param
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/ads/MobileAdsInitProvider;->a:Lcom/google/android/gms/internal/ads/zzyz;
 
     invoke-virtual {v0, p1, p2, p3}, Lcom/google/android/gms/internal/ads/zzyz;->delete(Landroid/net/Uri;Ljava/lang/String;[Ljava/lang/String;)I
@@ -68,7 +64,6 @@
     .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/ads/MobileAdsInitProvider;->a:Lcom/google/android/gms/internal/ads/zzyz;
 
     invoke-virtual {v0, p1}, Lcom/google/android/gms/internal/ads/zzyz;->getType(Landroid/net/Uri;)Ljava/lang/String;
@@ -87,7 +82,6 @@
     .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/ads/MobileAdsInitProvider;->a:Lcom/google/android/gms/internal/ads/zzyz;
 
     invoke-virtual {v0, p1, p2}, Lcom/google/android/gms/internal/ads/zzyz;->insert(Landroid/net/Uri;Landroid/content/ContentValues;)Landroid/net/Uri;
@@ -100,7 +94,6 @@
 .method public onCreate()Z
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/ads/MobileAdsInitProvider;->a:Lcom/google/android/gms/internal/ads/zzyz;
 
     invoke-virtual {v0}, Lcom/google/android/gms/internal/ads/zzyz;->onCreate()Z
@@ -119,7 +112,6 @@
     .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/ads/MobileAdsInitProvider;->a:Lcom/google/android/gms/internal/ads/zzyz;
 
     move-object v1, p1
@@ -146,7 +138,6 @@
         .end annotation
     .end param
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/ads/MobileAdsInitProvider;->a:Lcom/google/android/gms/internal/ads/zzyz;
 
     invoke-virtual {v0, p1, p2, p3, p4}, Lcom/google/android/gms/internal/ads/zzyz;->update(Landroid/net/Uri;Landroid/content/ContentValues;Ljava/lang/String;[Ljava/lang/String;)I

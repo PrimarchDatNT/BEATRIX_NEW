@@ -17,7 +17,6 @@
 .method constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -36,7 +35,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Ljava/lang/String;->length()I
 
     move-result v0
@@ -63,12 +61,10 @@
 
     const-string v6, "Invalid path \"%s\""
 
-    .line 2
     invoke-static {v4, v6, v5}, Lcom/google/firebase/firestore/util/b;->d(ZLjava/lang/String;[Ljava/lang/Object;)V
 
     if-ne v0, v1, :cond_2
 
-    .line 3
     invoke-virtual {p0, v2}, Ljava/lang/String;->charAt(I)C
 
     move-result v0
@@ -95,17 +91,14 @@
 
     const-string p0, "Non-empty path \"%s\" had length 2"
 
-    .line 4
     invoke-static {v0, p0, v1}, Lcom/google/firebase/firestore/util/b;->d(ZLjava/lang/String;[Ljava/lang/Object;)V
 
-    .line 5
     invoke-static {}, Ljava/util/Collections;->emptyList()Ljava/util/List;
 
     move-result-object p0
 
     return-object p0
 
-    .line 6
     :cond_2
     invoke-virtual {p0}, Ljava/lang/String;->length()I
 
@@ -113,12 +106,10 @@
 
     sub-int/2addr v4, v1
 
-    .line 7
     new-instance v1, Ljava/util/ArrayList;
 
     invoke-direct {v1}, Ljava/util/ArrayList;-><init>()V
 
-    .line 8
     new-instance v5, Ljava/lang/StringBuilder;
 
     invoke-direct {v5}, Ljava/lang/StringBuilder;-><init>()V
@@ -128,7 +119,6 @@
     :goto_2
     if-ge v6, v0, :cond_8
 
-    .line 9
     invoke-virtual {p0, v3, v6}, Ljava/lang/String;->indexOf(II)I
 
     move-result v7
@@ -143,7 +133,6 @@
 
     add-int/lit8 v10, v7, 0x1
 
-    .line 10
     invoke-virtual {p0, v10}, Ljava/lang/String;->charAt(I)C
 
     move-result v11
@@ -158,7 +147,6 @@
 
     if-ne v11, v12, :cond_3
 
-    .line 11
     invoke-virtual {p0, v6, v10}, Ljava/lang/String;->substring(II)Ljava/lang/String;
 
     move-result-object v6
@@ -167,7 +155,6 @@
 
     goto :goto_4
 
-    .line 12
     :cond_3
     new-instance v0, Ljava/lang/IllegalArgumentException;
 
@@ -189,7 +176,6 @@
 
     throw v0
 
-    .line 13
     :cond_4
     invoke-virtual {p0, v6, v7}, Ljava/lang/String;->substring(II)Ljava/lang/String;
 
@@ -197,18 +183,15 @@
 
     invoke-virtual {v5, v6}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 14
     invoke-virtual {v5, v2}, Ljava/lang/StringBuilder;->append(C)Ljava/lang/StringBuilder;
 
     goto :goto_4
 
-    .line 15
     :cond_5
     invoke-virtual {p0, v6, v7}, Ljava/lang/String;->substring(II)Ljava/lang/String;
 
     move-result-object v6
 
-    .line 16
     invoke-virtual {v5}, Ljava/lang/StringBuilder;->length()I
 
     move-result v8
@@ -217,19 +200,15 @@
 
     goto :goto_3
 
-    .line 17
     :cond_6
     invoke-virtual {v5, v6}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 18
     invoke-virtual {v5}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     move-result-object v6
 
-    .line 19
     invoke-virtual {v5, v2}, Ljava/lang/StringBuilder;->setLength(I)V
 
-    .line 20
     :goto_3
     invoke-interface {v1, v6}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
@@ -238,7 +217,6 @@
 
     goto :goto_2
 
-    .line 21
     :cond_7
     new-instance v0, Ljava/lang/IllegalArgumentException;
 
@@ -267,7 +245,6 @@
 .method static b(Ljava/lang/String;)Lcom/google/firebase/firestore/model/h;
     .locals 0
 
-    .line 1
     invoke-static {p0}, Lcom/google/firebase/firestore/local/d;->a(Ljava/lang/String;)Ljava/util/List;
 
     move-result-object p0
@@ -282,7 +259,6 @@
 .method static c(Ljava/lang/String;)Lcom/google/firebase/firestore/model/k;
     .locals 0
 
-    .line 1
     invoke-static {p0}, Lcom/google/firebase/firestore/local/d;->a(Ljava/lang/String;)Ljava/util/List;
 
     move-result-object p0
@@ -305,12 +281,10 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
 
-    .line 2
     invoke-virtual {p0}, Lcom/google/firebase/firestore/model/a;->D()I
 
     move-result v1
@@ -320,17 +294,14 @@
     :goto_0
     if-ge v2, v1, :cond_1
 
-    .line 3
     invoke-virtual {v0}, Ljava/lang/StringBuilder;->length()I
 
     move-result v3
 
     if-lez v3, :cond_0
 
-    .line 4
     invoke-static {v0}, Lcom/google/firebase/firestore/local/d;->f(Ljava/lang/StringBuilder;)V
 
-    .line 5
     :cond_0
     invoke-virtual {p0, v2}, Lcom/google/firebase/firestore/model/a;->s(I)Ljava/lang/String;
 
@@ -342,11 +313,9 @@
 
     goto :goto_0
 
-    .line 6
     :cond_1
     invoke-static {v0}, Lcom/google/firebase/firestore/local/d;->f(Ljava/lang/StringBuilder;)V
 
-    .line 7
     invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     move-result-object p0
@@ -357,7 +326,6 @@
 .method private static e(Ljava/lang/String;Ljava/lang/StringBuilder;)V
     .locals 4
 
-    .line 1
     invoke-virtual {p0}, Ljava/lang/String;->length()I
 
     move-result v0
@@ -367,7 +335,6 @@
     :goto_0
     if-ge v1, v0, :cond_2
 
-    .line 2
     invoke-virtual {p0, v1}, Ljava/lang/String;->charAt(I)C
 
     move-result v2
@@ -378,12 +345,10 @@
 
     if-eq v2, v3, :cond_0
 
-    .line 3
     invoke-virtual {p1, v2}, Ljava/lang/StringBuilder;->append(C)Ljava/lang/StringBuilder;
 
     goto :goto_1
 
-    .line 4
     :cond_0
     invoke-virtual {p1, v3}, Ljava/lang/StringBuilder;->append(C)Ljava/lang/StringBuilder;
 
@@ -393,7 +358,6 @@
 
     goto :goto_1
 
-    .line 5
     :cond_1
     invoke-virtual {p1, v3}, Ljava/lang/StringBuilder;->append(C)Ljava/lang/StringBuilder;
 
@@ -415,7 +379,6 @@
 
     const/4 v0, 0x1
 
-    .line 1
     invoke-virtual {p0, v0}, Ljava/lang/StringBuilder;->append(C)Ljava/lang/StringBuilder;
 
     invoke-virtual {p0, v0}, Ljava/lang/StringBuilder;->append(C)Ljava/lang/StringBuilder;
@@ -426,12 +389,10 @@
 .method static g(Ljava/lang/String;)Ljava/lang/String;
     .locals 6
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0, p0}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
-    .line 2
     invoke-virtual {v0}, Ljava/lang/StringBuilder;->length()I
 
     move-result p0
@@ -440,7 +401,6 @@
 
     sub-int/2addr p0, v1
 
-    .line 3
     invoke-virtual {v0, p0}, Ljava/lang/StringBuilder;->charAt(I)C
 
     move-result v2
@@ -461,17 +421,14 @@
 
     const-string v5, "successor may only operate on paths generated by encode"
 
-    .line 4
     invoke-static {v4, v5, v3}, Lcom/google/firebase/firestore/util/b;->d(ZLjava/lang/String;[Ljava/lang/Object;)V
 
     add-int/2addr v2, v1
 
     int-to-char v1, v2
 
-    .line 5
     invoke-virtual {v0, p0, v1}, Ljava/lang/StringBuilder;->setCharAt(IC)V
 
-    .line 6
     invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     move-result-object p0

@@ -26,7 +26,6 @@
 .method static constructor <clinit>()V
     .locals 3
 
-    .line 1
     invoke-static {}, Lio/jaegertracing/thriftjava/Dependency$saveDependencies_args$_Fields;->values()[Lio/jaegertracing/thriftjava/Dependency$saveDependencies_args$_Fields;
 
     move-result-object v0
@@ -50,7 +49,6 @@
     :try_end_0
     .catch Ljava/lang/NoSuchFieldError; {:try_start_0 .. :try_end_0} :catch_0
 
-    .line 2
     :catch_0
     invoke-static {}, Lio/jaegertracing/thriftjava/Dependency$getDependenciesForTrace_result$_Fields;->values()[Lio/jaegertracing/thriftjava/Dependency$getDependenciesForTrace_result$_Fields;
 
@@ -73,7 +71,6 @@
     :try_end_1
     .catch Ljava/lang/NoSuchFieldError; {:try_start_1 .. :try_end_1} :catch_1
 
-    .line 3
     :catch_1
     invoke-static {}, Lio/jaegertracing/thriftjava/Dependency$getDependenciesForTrace_args$_Fields;->values()[Lio/jaegertracing/thriftjava/Dependency$getDependenciesForTrace_args$_Fields;
 

@@ -12,7 +12,6 @@
 .method public static a(Landroid/content/Context;ILcom/google/android/gms/internal/ads/zzgo;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lcom/google/android/gms/internal/ads/wl1;)Lcom/google/android/gms/internal/ads/zzdrf;
     .locals 8
 
-    .line 1
     new-instance p1, Lcom/google/android/gms/internal/ads/im1;
 
     const/4 v2, 0x1
@@ -35,7 +34,6 @@
 
     const p0, 0xc350
 
-    .line 2
     invoke-virtual {p1, p0}, Lcom/google/android/gms/internal/ads/im1;->e(I)Lcom/google/android/gms/internal/ads/zzdrf;
 
     move-result-object p0

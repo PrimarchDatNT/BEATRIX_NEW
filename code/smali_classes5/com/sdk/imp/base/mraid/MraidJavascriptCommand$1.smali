@@ -20,7 +20,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-direct {p0, p1, p2, p3, v0}, Lcom/sdk/imp/base/mraid/MraidJavascriptCommand;-><init>(Ljava/lang/String;ILjava/lang/String;Lcom/sdk/imp/base/mraid/MraidJavascriptCommand$1;)V
 
     return-void
@@ -35,7 +34,6 @@
         .end annotation
     .end param
 
-    .line 1
     sget-object v0, Lcom/sdk/imp/base/mraid/PlacementType;->INLINE:Lcom/sdk/imp/base/mraid/PlacementType;
 
     if-ne p1, v0, :cond_0

@@ -22,7 +22,6 @@
 .method constructor <init>(Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/x0;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/x0$e;->a:Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/x0;
 
     invoke-direct {p0}, Landroid/animation/AnimatorListenerAdapter;-><init>()V
@@ -37,14 +36,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/x0$e;->a:Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/x0;
 
     const/4 v2, 0x0
 
     invoke-static {v1, v2}, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/x0;->B(Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/x0;Z)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -67,10 +64,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0, p1}, Landroid/animation/AnimatorListenerAdapter;->onAnimationEnd(Landroid/animation/Animator;)V
 
-    .line 2
     new-instance p1, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/c;
 
     invoke-direct {p1, p0}, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/c;-><init>(Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/x0$e;)V
@@ -79,7 +74,6 @@
 
     invoke-static {p1, v1, v2}, Lcom/commsource/util/g2;->l(Ljava/lang/Runnable;J)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

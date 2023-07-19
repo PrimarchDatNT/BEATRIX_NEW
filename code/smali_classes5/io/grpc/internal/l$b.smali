@@ -27,7 +27,6 @@
 .method constructor <init>(Lio/grpc/internal/l;Lio/grpc/internal/a2;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lio/grpc/internal/l$b;->b:Lio/grpc/internal/l;
 
     iput-object p2, p0, Lio/grpc/internal/l$b;->a:Lio/grpc/internal/a2;
@@ -42,7 +41,6 @@
 .method public run()V
     .locals 2
 
-    .line 1
     :try_start_0
     iget-object v0, p0, Lio/grpc/internal/l$b;->b:Lio/grpc/internal/l;
 
@@ -61,7 +59,6 @@
     :catchall_0
     move-exception v0
 
-    .line 2
     iget-object v1, p0, Lio/grpc/internal/l$b;->b:Lio/grpc/internal/l;
 
     invoke-static {v1}, Lio/grpc/internal/l;->c(Lio/grpc/internal/l;)Lio/grpc/internal/m;
@@ -70,7 +67,6 @@
 
     invoke-virtual {v1, v0}, Lio/grpc/internal/m;->c(Ljava/lang/Throwable;)V
 
-    .line 3
     iget-object v0, p0, Lio/grpc/internal/l$b;->b:Lio/grpc/internal/l;
 
     invoke-static {v0}, Lio/grpc/internal/l;->a(Lio/grpc/internal/l;)Lio/grpc/internal/MessageDeframer;

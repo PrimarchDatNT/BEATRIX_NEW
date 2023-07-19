@@ -55,12 +55,10 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/studio/doodle/DoodleFragment$k;->a:Lcom/commsource/studio/doodle/DoodleFragment;
 
     invoke-static {v0}, Lcom/commsource/studio/doodle/DoodleFragment;->f0(Lcom/commsource/studio/doodle/DoodleFragment;)V
 
-    .line 2
     iget-object v0, p0, Lcom/commsource/studio/doodle/DoodleFragment$k;->a:Lcom/commsource/studio/doodle/DoodleFragment;
 
     invoke-static {v0}, Lcom/commsource/studio/doodle/DoodleFragment;->a0(Lcom/commsource/studio/doodle/DoodleFragment;)Lcom/commsource/studio/doodle/h;
@@ -71,7 +69,6 @@
 
     move-result-object v0
 
-    .line 3
     invoke-interface {v0}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v0
@@ -116,11 +113,9 @@
     :cond_1
     const/4 v1, 0x0
 
-    .line 4
     :goto_0
     check-cast v1, Lcom/commsource/studio/doodle/j;
 
-    .line 5
     iget-object v0, p0, Lcom/commsource/studio/doodle/DoodleFragment$k;->a:Lcom/commsource/studio/doodle/DoodleFragment;
 
     invoke-static {v0}, Lcom/commsource/studio/doodle/DoodleFragment;->a0(Lcom/commsource/studio/doodle/DoodleFragment;)Lcom/commsource/studio/doodle/h;
@@ -141,7 +136,6 @@
 
     goto :goto_1
 
-    .line 6
     :cond_2
     iget-object v0, p0, Lcom/commsource/studio/doodle/DoodleFragment$k;->a:Lcom/commsource/studio/doodle/DoodleFragment;
 
@@ -157,7 +151,6 @@
 
     move-result v0
 
-    .line 7
     iget-object v1, p0, Lcom/commsource/studio/doodle/DoodleFragment$k;->a:Lcom/commsource/studio/doodle/DoodleFragment;
 
     invoke-static {v1}, Lcom/commsource/studio/doodle/DoodleFragment;->Y(Lcom/commsource/studio/doodle/DoodleFragment;)Lcom/commsource/widget/h1/e;
@@ -166,7 +159,6 @@
 
     invoke-virtual {v1, v0}, Lcom/commsource/widget/h1/e;->G(I)V
 
-    .line 8
     iget-object v1, p0, Lcom/commsource/studio/doodle/DoodleFragment$k;->a:Lcom/commsource/studio/doodle/DoodleFragment;
 
     invoke-static {v1}, Lcom/commsource/studio/doodle/DoodleFragment;->Z(Lcom/commsource/studio/doodle/DoodleFragment;)Lcom/commsource/beautyplus/f0/o7;
@@ -179,7 +171,6 @@
 
     goto :goto_2
 
-    .line 9
     :cond_3
     :goto_1
     iget-object v0, p0, Lcom/commsource/studio/doodle/DoodleFragment$k;->a:Lcom/commsource/studio/doodle/DoodleFragment;
@@ -190,7 +181,6 @@
 
     invoke-virtual {v0, v3}, Lcom/commsource/widget/h1/e;->G(I)V
 
-    .line 10
     iget-object v0, p0, Lcom/commsource/studio/doodle/DoodleFragment$k;->a:Lcom/commsource/studio/doodle/DoodleFragment;
 
     invoke-static {v0}, Lcom/commsource/studio/doodle/DoodleFragment;->Z(Lcom/commsource/studio/doodle/DoodleFragment;)Lcom/commsource/beautyplus/f0/o7;
@@ -201,7 +191,6 @@
 
     invoke-virtual {v0, v3, v2}, Landroidx/viewpager/widget/ViewPager;->setCurrentItem(IZ)V
 
-    .line 11
     :goto_2
     iget-object v0, p0, Lcom/commsource/studio/doodle/DoodleFragment$k;->a:Lcom/commsource/studio/doodle/DoodleFragment;
 
@@ -223,7 +212,6 @@
 
     if-ne v0, v3, :cond_4
 
-    .line 12
     iget-object v0, p0, Lcom/commsource/studio/doodle/DoodleFragment$k;->a:Lcom/commsource/studio/doodle/DoodleFragment;
 
     invoke-static {v0}, Lcom/commsource/studio/doodle/DoodleFragment;->a0(Lcom/commsource/studio/doodle/DoodleFragment;)Lcom/commsource/studio/doodle/h;
@@ -242,7 +230,6 @@
 
     invoke-virtual {v0, v1}, Lcom/commsource/studio/doodle/h;->S(Ljava/util/List;)V
 
-    .line 13
     :cond_4
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -256,7 +243,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Ljava/lang/Boolean;
 
     invoke-virtual {p0, p1}, Lcom/commsource/studio/doodle/DoodleFragment$k;->a(Ljava/lang/Boolean;)V

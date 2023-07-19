@@ -54,7 +54,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p2, Lcom/commsource/beautyfilter/a;
 
     invoke-virtual {p0, p1, p2}, Lcom/commsource/store/filter/FilterStoreActivity$l;->b(ILcom/commsource/beautyfilter/a;)Z
@@ -73,7 +72,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/store/filter/FilterStoreActivity$l;->a:Lcom/commsource/store/filter/FilterStoreActivity;
 
     invoke-static {v1}, Lcom/commsource/store/filter/FilterStoreActivity;->R0(Lcom/commsource/store/filter/FilterStoreActivity;)Lcom/commsource/beautyplus/f0/y;
@@ -84,7 +82,6 @@
 
     invoke-virtual {v1, p1}, Landroidx/recyclerview/widget/RecyclerView;->smoothScrollToPosition(I)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/store/filter/FilterStoreActivity$l;->a:Lcom/commsource/store/filter/FilterStoreActivity;
 
     invoke-static {v1}, Lcom/commsource/store/filter/FilterStoreActivity;->R0(Lcom/commsource/store/filter/FilterStoreActivity;)Lcom/commsource/beautyplus/f0/y;
@@ -97,7 +94,6 @@
 
     invoke-virtual {v1, p1, v2}, Landroidx/viewpager2/widget/ViewPager2;->setCurrentItem(IZ)V
 
-    .line 3
     iget-object p1, p0, Lcom/commsource/store/filter/FilterStoreActivity$l;->a:Lcom/commsource/store/filter/FilterStoreActivity;
 
     invoke-static {p1}, Lcom/commsource/store/filter/FilterStoreActivity;->Q0(Lcom/commsource/store/filter/FilterStoreActivity;)Lcom/commsource/widget/h1/e;
@@ -106,7 +102,6 @@
 
     invoke-virtual {p1, p2}, Lcom/commsource/widget/h1/e;->E(Ljava/lang/Object;)V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const/4 p1, 0x0

@@ -32,7 +32,6 @@
 .method constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -47,7 +46,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Lcom/commsource/billing/bean/subsconfig/SubConfigInfo;
 
     invoke-virtual {p0, p1}, Lcom/commsource/billing/pro/SubsConfigManager$b$a;->c(Lcom/commsource/billing/bean/subsconfig/SubConfigInfo;)V
@@ -68,10 +66,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p0, p1}, Lf/k/k/o;->d(Lf/k/k/p;Ljava/lang/Throwable;)V
 
-    .line 2
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -90,7 +86,6 @@
 
     invoke-static {v1, p1}, Lcom/meitu/library/util/Debug/Debug;->P(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 3
     sget-object p1, Lcom/commsource/billing/pro/SubsConfigManager;->o:Lcom/commsource/billing/pro/SubsConfigManager;
 
     invoke-static {p1}, Lcom/commsource/billing/pro/SubsConfigManager;->a(Lcom/commsource/billing/pro/SubsConfigManager;)Lcom/commsource/billing/pro/SubsConfigManager$a;
@@ -99,7 +94,6 @@
 
     invoke-virtual {v1}, Lcom/commsource/billing/pro/SubsConfigManager$a;->a()V
 
-    .line 4
     invoke-static {p1}, Lcom/commsource/billing/pro/SubsConfigManager;->b(Lcom/commsource/billing/pro/SubsConfigManager;)Ljava/util/concurrent/atomic/AtomicInteger;
 
     move-result-object p1
@@ -108,7 +102,6 @@
 
     invoke-virtual {p1, v1}, Ljava/util/concurrent/atomic/AtomicInteger;->set(I)V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -125,7 +118,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -146,7 +138,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     invoke-virtual {p1}, Lokhttp3/Response;->body()Lokhttp3/ResponseBody;
 
     move-result-object v2
@@ -169,7 +160,6 @@
 
     if-nez p1, :cond_1
 
-    .line 2
     new-instance p1, Ljava/lang/StringBuilder;
 
     invoke-direct {p1}, Ljava/lang/StringBuilder;-><init>()V
@@ -192,12 +182,10 @@
 
     invoke-static {v4, p1}, Lcom/meitu/library/util/Debug/Debug;->P(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v3
 
-    .line 4
     :cond_1
     new-instance p1, Ljava/lang/StringBuilder;
 
@@ -217,7 +205,6 @@
 
     if-eqz v2, :cond_3
 
-    .line 5
     invoke-interface {v2}, Ljava/lang/CharSequence;->length()I
 
     move-result p1
@@ -240,7 +227,6 @@
 
     if-eqz p1, :cond_4
 
-    .line 6
     sget-object p1, Lcom/commsource/billing/pro/SubsConfigManager;->o:Lcom/commsource/billing/pro/SubsConfigManager;
 
     invoke-static {p1}, Lcom/commsource/billing/pro/SubsConfigManager;->a(Lcom/commsource/billing/pro/SubsConfigManager;)Lcom/commsource/billing/pro/SubsConfigManager$a;
@@ -249,7 +235,6 @@
 
     invoke-virtual {v1}, Lcom/commsource/billing/pro/SubsConfigManager$a;->a()V
 
-    .line 7
     invoke-static {p1}, Lcom/commsource/billing/pro/SubsConfigManager;->b(Lcom/commsource/billing/pro/SubsConfigManager;)Ljava/util/concurrent/atomic/AtomicInteger;
 
     move-result-object p1
@@ -258,7 +243,6 @@
 
     goto :goto_3
 
-    .line 8
     :cond_4
     new-instance p1, Lorg/json/JSONObject;
 
@@ -266,7 +250,6 @@
 
     const-string v2, "data"
 
-    .line 9
     invoke-virtual {p1, v2}, Lorg/json/JSONObject;->get(Ljava/lang/String;)Ljava/lang/Object;
 
     move-result-object p1
@@ -277,7 +260,6 @@
 
     move-result-object v1
 
-    .line 10
     :cond_5
     sget-object p1, Lcom/commsource/billing/pro/SubsConfigManager;->o:Lcom/commsource/billing/pro/SubsConfigManager;
 
@@ -291,7 +273,6 @@
 
     invoke-virtual {p1, v1}, Lcom/commsource/billing/pro/SubsConfigManager;->l(Lcom/commsource/billing/bean/subsconfig/SubConfigInfo;)V
 
-    .line 11
     invoke-virtual {p1}, Lcom/commsource/billing/pro/SubsConfigManager;->h()Lcom/commsource/billing/bean/subsconfig/SubConfigInfo;
 
     move-result-object v1
@@ -300,10 +281,8 @@
 
     const-string v1, "SubsConfig result\u89e3\u6790\u5931\u8d25"
 
-    .line 12
     invoke-static {v4, v1}, Lcom/meitu/library/util/Debug/Debug;->P(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 13
     :cond_6
     invoke-virtual {p1}, Lcom/commsource/billing/pro/SubsConfigManager;->h()Lcom/commsource/billing/bean/subsconfig/SubConfigInfo;
 
@@ -313,7 +292,6 @@
 
     invoke-virtual {v1}, Lcom/commsource/billing/bean/subsconfig/SubConfigInfo;->setConfigContentColor()V
 
-    .line 14
     :cond_7
     invoke-static {p1}, Lcom/commsource/billing/pro/SubsConfigManager;->a(Lcom/commsource/billing/pro/SubsConfigManager;)Lcom/commsource/billing/pro/SubsConfigManager$a;
 
@@ -321,14 +299,12 @@
 
     invoke-virtual {v1}, Lcom/commsource/billing/pro/SubsConfigManager$a;->a()V
 
-    .line 15
     invoke-static {p1}, Lcom/commsource/billing/pro/SubsConfigManager;->b(Lcom/commsource/billing/pro/SubsConfigManager;)Ljava/util/concurrent/atomic/AtomicInteger;
 
     move-result-object p1
 
     invoke-virtual {p1, v5}, Ljava/util/concurrent/atomic/AtomicInteger;->set(I)V
 
-    .line 16
     :goto_3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

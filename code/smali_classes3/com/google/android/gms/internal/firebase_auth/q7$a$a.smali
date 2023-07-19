@@ -30,7 +30,6 @@
 .method private constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-static {}, Lcom/google/android/gms/internal/firebase_auth/q7$a;->z()Lcom/google/android/gms/internal/firebase_auth/q7$a;
 
     move-result-object v0
@@ -43,7 +42,6 @@
 .method synthetic constructor <init>(Lcom/google/android/gms/internal/firebase_auth/s7;)V
     .locals 0
 
-    .line 2
     invoke-direct {p0}, Lcom/google/android/gms/internal/firebase_auth/q7$a$a;-><init>()V
 
     return-void
@@ -54,10 +52,8 @@
 .method public final n(Ljava/lang/String;)Lcom/google/android/gms/internal/firebase_auth/q7$a$a;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/android/gms/internal/firebase_auth/k4$a;->k()V
 
-    .line 2
     iget-object v0, p0, Lcom/google/android/gms/internal/firebase_auth/k4$a;->b:Lcom/google/android/gms/internal/firebase_auth/k4;
 
     check-cast v0, Lcom/google/android/gms/internal/firebase_auth/q7$a;
@@ -70,10 +66,8 @@
 .method public final o(Ljava/lang/String;)Lcom/google/android/gms/internal/firebase_auth/q7$a$a;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/android/gms/internal/firebase_auth/k4$a;->k()V
 
-    .line 2
     iget-object v0, p0, Lcom/google/android/gms/internal/firebase_auth/k4$a;->b:Lcom/google/android/gms/internal/firebase_auth/k4;
 
     check-cast v0, Lcom/google/android/gms/internal/firebase_auth/q7$a;

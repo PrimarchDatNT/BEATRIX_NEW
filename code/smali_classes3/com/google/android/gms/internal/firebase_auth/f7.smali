@@ -26,10 +26,8 @@
 .method public constructor <init>(Lcom/google/android/gms/internal/firebase_auth/z4;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/util/AbstractList;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/google/android/gms/internal/firebase_auth/f7;->a:Lcom/google/android/gms/internal/firebase_auth/z4;
 
     return-void
@@ -38,7 +36,6 @@
 .method static synthetic b(Lcom/google/android/gms/internal/firebase_auth/f7;)Lcom/google/android/gms/internal/firebase_auth/z4;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lcom/google/android/gms/internal/firebase_auth/f7;->a:Lcom/google/android/gms/internal/firebase_auth/z4;
 
     return-object p0
@@ -49,7 +46,6 @@
 .method public final c1(Lcom/google/android/gms/internal/firebase_auth/zzgf;)V
     .locals 0
 
-    .line 1
     new-instance p1, Ljava/lang/UnsupportedOperationException;
 
     invoke-direct {p1}, Ljava/lang/UnsupportedOperationException;-><init>()V
@@ -66,7 +62,6 @@
 .method public final synthetic get(I)Ljava/lang/Object;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/firebase_auth/f7;->a:Lcom/google/android/gms/internal/firebase_auth/z4;
 
     invoke-interface {v0, p1}, Ljava/util/List;->get(I)Ljava/lang/Object;
@@ -89,7 +84,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/google/android/gms/internal/firebase_auth/h7;
 
     invoke-direct {v0, p0}, Lcom/google/android/gms/internal/firebase_auth/h7;-><init>(Lcom/google/android/gms/internal/firebase_auth/f7;)V
@@ -108,7 +102,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/google/android/gms/internal/firebase_auth/e7;
 
     invoke-direct {v0, p0, p1}, Lcom/google/android/gms/internal/firebase_auth/e7;-><init>(Lcom/google/android/gms/internal/firebase_auth/f7;I)V
@@ -119,7 +112,6 @@
 .method public final r0(I)Ljava/lang/Object;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/firebase_auth/f7;->a:Lcom/google/android/gms/internal/firebase_auth/z4;
 
     invoke-interface {v0, p1}, Lcom/google/android/gms/internal/firebase_auth/z4;->r0(I)Ljava/lang/Object;
@@ -132,7 +124,6 @@
 .method public final size()I
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/firebase_auth/f7;->a:Lcom/google/android/gms/internal/firebase_auth/z4;
 
     invoke-interface {v0}, Ljava/util/List;->size()I
@@ -152,7 +143,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/firebase_auth/f7;->a:Lcom/google/android/gms/internal/firebase_auth/z4;
 
     invoke-interface {v0}, Lcom/google/android/gms/internal/firebase_auth/z4;->u0()Ljava/util/List;

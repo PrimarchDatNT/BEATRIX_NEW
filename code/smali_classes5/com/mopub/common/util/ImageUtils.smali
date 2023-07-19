@@ -17,7 +17,6 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
     new-instance v0, Lcom/mopub/common/util/ImageUtils;
 
     invoke-direct {v0}, Lcom/mopub/common/util/ImageUtils;-><init>()V
@@ -30,7 +29,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -54,19 +52,16 @@
 
     invoke-static {v8, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-virtual/range {p0 .. p0}, Landroid/graphics/Bitmap;->getWidth()I
 
     move-result v9
 
-    .line 2
     invoke-virtual/range {p0 .. p0}, Landroid/graphics/Bitmap;->getHeight()I
 
     move-result v10
 
     mul-int v0, v9, v10
 
-    .line 3
     new-array v11, v0, [I
 
     const/4 v2, 0x0
@@ -85,7 +80,6 @@
 
     move v7, v10
 
-    .line 4
     invoke-virtual/range {v0 .. v7}, Landroid/graphics/Bitmap;->getPixels([IIIIIII)V
 
     move/from16 v0, p1
@@ -117,15 +111,12 @@
 
     sub-int v6, v5, v0
 
-    .line 5
     aget v6, v11, v6
 
     add-int v7, v5, v0
 
-    .line 6
     aget v7, v11, v7
 
-    .line 7
     aget v5, v11, v5
 
     add-int v12, v2, v0
@@ -136,15 +127,12 @@
 
     sub-int v13, v12, v0
 
-    .line 8
     aget v13, v11, v13
 
     add-int v14, v12, v0
 
-    .line 9
     aget v14, v11, v14
 
-    .line 10
     aget v12, v11, v12
 
     mul-int v15, v2, v9
@@ -155,14 +143,12 @@
 
     move/from16 p1, v1
 
-    .line 11
     aget v1, v11, v16
 
     add-int v16, v15, v0
 
     move/from16 v17, v3
 
-    .line 12
     aget v3, v11, v16
 
     const/high16 v16, -0x1000000
@@ -281,7 +267,6 @@
 
     or-int/2addr v1, v8
 
-    .line 13
     aput v1, v11, v15
 
     add-int/lit8 v4, v4, 0x1
@@ -310,7 +295,6 @@
     :cond_1
     move/from16 v18, v10
 
-    .line 14
     div-int/lit8 v0, v0, 0x2
 
     move-object/from16 v8, p0
@@ -336,7 +320,6 @@
 
     move/from16 v7, v18
 
-    .line 15
     invoke-virtual/range {v0 .. v7}, Landroid/graphics/Bitmap;->setPixels([IIIIIII)V
 
     return-object p0
@@ -357,7 +340,6 @@
 
     const-string v0, "window"
 
-    .line 1
     invoke-virtual {p0, v0}, Landroid/content/Context;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
 
     move-result-object p0
@@ -368,20 +350,16 @@
 
     check-cast p0, Landroid/view/WindowManager;
 
-    .line 2
     invoke-interface {p0}, Landroid/view/WindowManager;->getDefaultDisplay()Landroid/view/Display;
 
     move-result-object p0
 
-    .line 3
     new-instance v0, Landroid/graphics/Point;
 
     invoke-direct {v0}, Landroid/graphics/Point;-><init>()V
 
-    .line 4
     invoke-virtual {p0, v0}, Landroid/view/Display;->getSize(Landroid/graphics/Point;)V
 
-    .line 5
     iget p0, v0, Landroid/graphics/Point;->x:I
 
     iget v0, v0, Landroid/graphics/Point;->y:I

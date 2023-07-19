@@ -39,7 +39,6 @@
 .method public final doFrame(J)V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcotlinx/coroutines/android/b$b;->a:Lcotlinx/coroutines/m;
 
     invoke-static {}, Lcotlinx/coroutines/c1;->g()Lcotlinx/coroutines/m2;

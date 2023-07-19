@@ -32,12 +32,10 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Lio/grpc/t0$f;-><init>()V
 
     const-string v0, "method"
 
-    .line 2
     invoke-static {p1, v0}, Lcom/google/common/base/t;->F(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -48,7 +46,6 @@
 
     const-string p1, "headers"
 
-    .line 3
     invoke-static {p2, p1}, Lcom/google/common/base/t;->F(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -59,7 +56,6 @@
 
     const-string p1, "callOptions"
 
-    .line 4
     invoke-static {p3, p1}, Lcom/google/common/base/t;->F(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -76,7 +72,6 @@
 .method public a()Lio/grpc/f;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lio/grpc/internal/y1;->a:Lio/grpc/f;
 
     return-object v0
@@ -85,7 +80,6 @@
 .method public b()Lio/grpc/y0;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lio/grpc/internal/y1;->b:Lio/grpc/y0;
 
     return-object v0
@@ -101,7 +95,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lio/grpc/internal/y1;->c:Lio/grpc/MethodDescriptor;
 
     return-object v0
@@ -121,7 +114,6 @@
 
     if-eqz p1, :cond_3
 
-    .line 1
     const-class v2, Lio/grpc/internal/y1;
 
     invoke-virtual {p1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
@@ -132,11 +124,9 @@
 
     goto :goto_1
 
-    .line 2
     :cond_1
     check-cast p1, Lio/grpc/internal/y1;
 
-    .line 3
     iget-object v2, p0, Lio/grpc/internal/y1;->a:Lio/grpc/f;
 
     iget-object v3, p1, Lio/grpc/internal/y1;->a:Lio/grpc/f;
@@ -151,7 +141,6 @@
 
     iget-object v3, p1, Lio/grpc/internal/y1;->b:Lio/grpc/y0;
 
-    .line 4
     invoke-static {v2, v3}, Lcom/google/common/base/q;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v2
@@ -162,7 +151,6 @@
 
     iget-object p1, p1, Lio/grpc/internal/y1;->c:Lio/grpc/MethodDescriptor;
 
-    .line 5
     invoke-static {v2, p1}, Lcom/google/common/base/q;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result p1
@@ -189,7 +177,6 @@
 
     new-array v0, v0, [Ljava/lang/Object;
 
-    .line 1
     iget-object v1, p0, Lio/grpc/internal/y1;->a:Lio/grpc/f;
 
     const/4 v2, 0x0
@@ -218,7 +205,6 @@
 .method public final toString()Ljava/lang/String;
     .locals 2
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V

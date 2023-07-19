@@ -16,14 +16,12 @@
 .method constructor <init>(Lcom/google/android/gms/measurement/internal/d;Landroid/content/Context;Ljava/lang/String;)V
     .locals 1
 
-    .line 1
     iput-object p1, p0, Lcom/google/android/gms/measurement/internal/e;->a:Lcom/google/android/gms/measurement/internal/d;
 
     const/4 p1, 0x0
 
     const/4 v0, 0x1
 
-    .line 2
     invoke-direct {p0, p2, p3, p1, v0}, Landroid/database/sqlite/SQLiteOpenHelper;-><init>(Landroid/content/Context;Ljava/lang/String;Landroid/database/sqlite/SQLiteDatabase$CursorFactory;I)V
 
     return-void
@@ -36,7 +34,6 @@
     .annotation build Landroidx/annotation/WorkerThread;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/measurement/internal/e;->a:Lcom/google/android/gms/measurement/internal/d;
 
     invoke-static {v0}, Lcom/google/android/gms/measurement/internal/d;->F(Lcom/google/android/gms/measurement/internal/d;)Lcom/google/android/gms/measurement/internal/t9;
@@ -51,7 +48,6 @@
 
     if-eqz v0, :cond_1
 
-    .line 2
     :try_start_0
     invoke-super {p0}, Landroid/database/sqlite/SQLiteOpenHelper;->getWritableDatabase()Landroid/database/sqlite/SQLiteDatabase;
 
@@ -61,7 +57,6 @@
 
     return-object v0
 
-    .line 3
     :catch_0
     iget-object v0, p0, Lcom/google/android/gms/measurement/internal/e;->a:Lcom/google/android/gms/measurement/internal/d;
 
@@ -71,7 +66,6 @@
 
     invoke-virtual {v0}, Lcom/google/android/gms/measurement/internal/t9;->a()V
 
-    .line 4
     iget-object v0, p0, Lcom/google/android/gms/measurement/internal/e;->a:Lcom/google/android/gms/measurement/internal/d;
 
     invoke-virtual {v0}, Lcom/google/android/gms/measurement/internal/k6;->w()Lcom/google/android/gms/measurement/internal/o4;
@@ -88,7 +82,6 @@
 
     const-string v0, "google_app_measurement.db"
 
-    .line 5
     iget-object v1, p0, Lcom/google/android/gms/measurement/internal/e;->a:Lcom/google/android/gms/measurement/internal/d;
 
     invoke-virtual {v1}, Lcom/google/android/gms/measurement/internal/k6;->f()Landroid/content/Context;
@@ -105,7 +98,6 @@
 
     if-nez v1, :cond_0
 
-    .line 6
     iget-object v1, p0, Lcom/google/android/gms/measurement/internal/e;->a:Lcom/google/android/gms/measurement/internal/d;
 
     invoke-virtual {v1}, Lcom/google/android/gms/measurement/internal/k6;->w()Lcom/google/android/gms/measurement/internal/o4;
@@ -120,14 +112,12 @@
 
     invoke-virtual {v1, v2, v0}, Lcom/google/android/gms/measurement/internal/q4;->b(Ljava/lang/String;Ljava/lang/Object;)V
 
-    .line 7
     :cond_0
     :try_start_1
     invoke-super {p0}, Landroid/database/sqlite/SQLiteOpenHelper;->getWritableDatabase()Landroid/database/sqlite/SQLiteDatabase;
 
     move-result-object v0
 
-    .line 8
     iget-object v1, p0, Lcom/google/android/gms/measurement/internal/e;->a:Lcom/google/android/gms/measurement/internal/d;
 
     invoke-static {v1}, Lcom/google/android/gms/measurement/internal/d;->F(Lcom/google/android/gms/measurement/internal/d;)Lcom/google/android/gms/measurement/internal/t9;
@@ -143,7 +133,6 @@
     :catch_1
     move-exception v0
 
-    .line 9
     iget-object v1, p0, Lcom/google/android/gms/measurement/internal/e;->a:Lcom/google/android/gms/measurement/internal/d;
 
     invoke-virtual {v1}, Lcom/google/android/gms/measurement/internal/k6;->w()Lcom/google/android/gms/measurement/internal/o4;
@@ -158,10 +147,8 @@
 
     invoke-virtual {v1, v2, v0}, Lcom/google/android/gms/measurement/internal/q4;->b(Ljava/lang/String;Ljava/lang/Object;)V
 
-    .line 10
     throw v0
 
-    .line 11
     :cond_1
     new-instance v0, Landroid/database/sqlite/SQLiteException;
 
@@ -177,7 +164,6 @@
     .annotation build Landroidx/annotation/WorkerThread;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/measurement/internal/e;->a:Lcom/google/android/gms/measurement/internal/d;
 
     invoke-virtual {v0}, Lcom/google/android/gms/measurement/internal/k6;->w()Lcom/google/android/gms/measurement/internal/o4;
@@ -202,15 +188,12 @@
     .annotation build Landroidx/annotation/WorkerThread;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/measurement/internal/e;->a:Lcom/google/android/gms/measurement/internal/d;
 
-    .line 2
     invoke-virtual {v0}, Lcom/google/android/gms/measurement/internal/k6;->w()Lcom/google/android/gms/measurement/internal/o4;
 
     move-result-object v1
 
-    .line 3
     invoke-static {}, Lcom/google/android/gms/measurement/internal/d;->Z()[Ljava/lang/String;
 
     move-result-object v6
@@ -223,13 +206,10 @@
 
     move-object v2, p1
 
-    .line 4
     invoke-static/range {v1 .. v6}, Lcom/google/android/gms/measurement/internal/h;->c(Lcom/google/android/gms/measurement/internal/o4;Landroid/database/sqlite/SQLiteDatabase;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;)V
 
-    .line 5
     iget-object v0, p0, Lcom/google/android/gms/measurement/internal/e;->a:Lcom/google/android/gms/measurement/internal/d;
 
-    .line 6
     invoke-virtual {v0}, Lcom/google/android/gms/measurement/internal/k6;->w()Lcom/google/android/gms/measurement/internal/o4;
 
     move-result-object v1
@@ -242,18 +222,14 @@
 
     const/4 v6, 0x0
 
-    .line 7
     invoke-static/range {v1 .. v6}, Lcom/google/android/gms/measurement/internal/h;->c(Lcom/google/android/gms/measurement/internal/o4;Landroid/database/sqlite/SQLiteDatabase;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;)V
 
-    .line 8
     iget-object v0, p0, Lcom/google/android/gms/measurement/internal/e;->a:Lcom/google/android/gms/measurement/internal/d;
 
-    .line 9
     invoke-virtual {v0}, Lcom/google/android/gms/measurement/internal/k6;->w()Lcom/google/android/gms/measurement/internal/o4;
 
     move-result-object v1
 
-    .line 10
     invoke-static {}, Lcom/google/android/gms/measurement/internal/d;->a0()[Ljava/lang/String;
 
     move-result-object v6
@@ -264,18 +240,14 @@
 
     const-string v5, "app_id,name,set_timestamp,value"
 
-    .line 11
     invoke-static/range {v1 .. v6}, Lcom/google/android/gms/measurement/internal/h;->c(Lcom/google/android/gms/measurement/internal/o4;Landroid/database/sqlite/SQLiteDatabase;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;)V
 
-    .line 12
     iget-object v0, p0, Lcom/google/android/gms/measurement/internal/e;->a:Lcom/google/android/gms/measurement/internal/d;
 
-    .line 13
     invoke-virtual {v0}, Lcom/google/android/gms/measurement/internal/k6;->w()Lcom/google/android/gms/measurement/internal/o4;
 
     move-result-object v1
 
-    .line 14
     invoke-static {}, Lcom/google/android/gms/measurement/internal/d;->b0()[Ljava/lang/String;
 
     move-result-object v6
@@ -286,18 +258,14 @@
 
     const-string v5, "app_id,app_instance_id,gmp_app_id,resettable_device_id_hash,last_bundle_index,last_bundle_end_timestamp"
 
-    .line 15
     invoke-static/range {v1 .. v6}, Lcom/google/android/gms/measurement/internal/h;->c(Lcom/google/android/gms/measurement/internal/o4;Landroid/database/sqlite/SQLiteDatabase;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;)V
 
-    .line 16
     iget-object v0, p0, Lcom/google/android/gms/measurement/internal/e;->a:Lcom/google/android/gms/measurement/internal/d;
 
-    .line 17
     invoke-virtual {v0}, Lcom/google/android/gms/measurement/internal/k6;->w()Lcom/google/android/gms/measurement/internal/o4;
 
     move-result-object v1
 
-    .line 18
     invoke-static {}, Lcom/google/android/gms/measurement/internal/d;->c0()[Ljava/lang/String;
 
     move-result-object v6
@@ -308,13 +276,10 @@
 
     const-string v5, "app_id,bundle_end_timestamp,data"
 
-    .line 19
     invoke-static/range {v1 .. v6}, Lcom/google/android/gms/measurement/internal/h;->c(Lcom/google/android/gms/measurement/internal/o4;Landroid/database/sqlite/SQLiteDatabase;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;)V
 
-    .line 20
     iget-object v0, p0, Lcom/google/android/gms/measurement/internal/e;->a:Lcom/google/android/gms/measurement/internal/d;
 
-    .line 21
     invoke-virtual {v0}, Lcom/google/android/gms/measurement/internal/k6;->w()Lcom/google/android/gms/measurement/internal/o4;
 
     move-result-object v1
@@ -327,18 +292,14 @@
 
     const/4 v6, 0x0
 
-    .line 22
     invoke-static/range {v1 .. v6}, Lcom/google/android/gms/measurement/internal/h;->c(Lcom/google/android/gms/measurement/internal/o4;Landroid/database/sqlite/SQLiteDatabase;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;)V
 
-    .line 23
     iget-object v0, p0, Lcom/google/android/gms/measurement/internal/e;->a:Lcom/google/android/gms/measurement/internal/d;
 
-    .line 24
     invoke-virtual {v0}, Lcom/google/android/gms/measurement/internal/k6;->w()Lcom/google/android/gms/measurement/internal/o4;
 
     move-result-object v1
 
-    .line 25
     invoke-static {}, Lcom/google/android/gms/measurement/internal/d;->d0()[Ljava/lang/String;
 
     move-result-object v6
@@ -349,18 +310,14 @@
 
     const-string v5, "app_id,name,timestamp,metadata_fingerprint,data"
 
-    .line 26
     invoke-static/range {v1 .. v6}, Lcom/google/android/gms/measurement/internal/h;->c(Lcom/google/android/gms/measurement/internal/o4;Landroid/database/sqlite/SQLiteDatabase;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;)V
 
-    .line 27
     iget-object v0, p0, Lcom/google/android/gms/measurement/internal/e;->a:Lcom/google/android/gms/measurement/internal/d;
 
-    .line 28
     invoke-virtual {v0}, Lcom/google/android/gms/measurement/internal/k6;->w()Lcom/google/android/gms/measurement/internal/o4;
 
     move-result-object v1
 
-    .line 29
     invoke-static {}, Lcom/google/android/gms/measurement/internal/d;->e0()[Ljava/lang/String;
 
     move-result-object v6
@@ -371,18 +328,14 @@
 
     const-string v5, "app_id,audience_id,filter_id,event_name,data"
 
-    .line 30
     invoke-static/range {v1 .. v6}, Lcom/google/android/gms/measurement/internal/h;->c(Lcom/google/android/gms/measurement/internal/o4;Landroid/database/sqlite/SQLiteDatabase;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;)V
 
-    .line 31
     iget-object v0, p0, Lcom/google/android/gms/measurement/internal/e;->a:Lcom/google/android/gms/measurement/internal/d;
 
-    .line 32
     invoke-virtual {v0}, Lcom/google/android/gms/measurement/internal/k6;->w()Lcom/google/android/gms/measurement/internal/o4;
 
     move-result-object v1
 
-    .line 33
     invoke-static {}, Lcom/google/android/gms/measurement/internal/d;->f0()[Ljava/lang/String;
 
     move-result-object v6
@@ -393,13 +346,10 @@
 
     const-string v5, "app_id,audience_id,filter_id,property_name,data"
 
-    .line 34
     invoke-static/range {v1 .. v6}, Lcom/google/android/gms/measurement/internal/h;->c(Lcom/google/android/gms/measurement/internal/o4;Landroid/database/sqlite/SQLiteDatabase;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;)V
 
-    .line 35
     iget-object v0, p0, Lcom/google/android/gms/measurement/internal/e;->a:Lcom/google/android/gms/measurement/internal/d;
 
-    .line 36
     invoke-virtual {v0}, Lcom/google/android/gms/measurement/internal/k6;->w()Lcom/google/android/gms/measurement/internal/o4;
 
     move-result-object v1
@@ -412,18 +362,14 @@
 
     const/4 v6, 0x0
 
-    .line 37
     invoke-static/range {v1 .. v6}, Lcom/google/android/gms/measurement/internal/h;->c(Lcom/google/android/gms/measurement/internal/o4;Landroid/database/sqlite/SQLiteDatabase;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;)V
 
-    .line 38
     iget-object v0, p0, Lcom/google/android/gms/measurement/internal/e;->a:Lcom/google/android/gms/measurement/internal/d;
 
-    .line 39
     invoke-virtual {v0}, Lcom/google/android/gms/measurement/internal/k6;->w()Lcom/google/android/gms/measurement/internal/o4;
 
     move-result-object v1
 
-    .line 40
     invoke-static {}, Lcom/google/android/gms/measurement/internal/d;->g0()[Ljava/lang/String;
 
     move-result-object v6
@@ -434,13 +380,10 @@
 
     const-string v5, "app_id,first_open_count"
 
-    .line 41
     invoke-static/range {v1 .. v6}, Lcom/google/android/gms/measurement/internal/h;->c(Lcom/google/android/gms/measurement/internal/o4;Landroid/database/sqlite/SQLiteDatabase;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;)V
 
-    .line 42
     iget-object v0, p0, Lcom/google/android/gms/measurement/internal/e;->a:Lcom/google/android/gms/measurement/internal/d;
 
-    .line 43
     invoke-virtual {v0}, Lcom/google/android/gms/measurement/internal/k6;->w()Lcom/google/android/gms/measurement/internal/o4;
 
     move-result-object v1
@@ -453,7 +396,6 @@
 
     const/4 v6, 0x0
 
-    .line 44
     invoke-static/range {v1 .. v6}, Lcom/google/android/gms/measurement/internal/h;->c(Lcom/google/android/gms/measurement/internal/o4;Landroid/database/sqlite/SQLiteDatabase;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;)V
 
     return-void

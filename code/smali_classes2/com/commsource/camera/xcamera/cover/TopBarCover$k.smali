@@ -54,7 +54,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/camera/xcamera/cover/CameraCaptureViewModel;->k:Lcom/commsource/camera/xcamera/cover/CameraCaptureViewModel$a;
 
     invoke-virtual {v1}, Lcom/commsource/camera/xcamera/cover/CameraCaptureViewModel$a;->a()I
@@ -90,7 +89,6 @@
 
     goto/16 :goto_4
 
-    .line 2
     :cond_1
     :goto_0
     invoke-virtual {v1}, Lcom/commsource/camera/xcamera/cover/CameraCaptureViewModel$a;->c()I
@@ -110,7 +108,6 @@
 
     if-ne v5, v2, :cond_3
 
-    .line 3
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/TopBarCover$k;->a:Lcom/commsource/camera/xcamera/cover/TopBarCover;
 
     invoke-virtual {p1}, Lcom/commsource/camera/xcamera/cover/AbsCover;->A()Landroidx/databinding/ViewDataBinding;
@@ -125,7 +122,6 @@
 
     invoke-static {p1}, Lcom/commsource/util/l0;->w(Landroid/view/View;)V
 
-    .line 4
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/TopBarCover$k;->a:Lcom/commsource/camera/xcamera/cover/TopBarCover;
 
     invoke-virtual {p1}, Lcom/commsource/camera/xcamera/cover/TopBarCover;->I()Lcom/commsource/camera/xcamera/cover/CameraConfigViewModel;
@@ -138,7 +134,6 @@
 
     if-eqz p1, :cond_8
 
-    .line 5
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/TopBarCover$k;->a:Lcom/commsource/camera/xcamera/cover/TopBarCover;
 
     invoke-virtual {p1}, Lcom/commsource/camera/xcamera/cover/TopBarCover;->I()Lcom/commsource/camera/xcamera/cover/CameraConfigViewModel;
@@ -149,7 +144,6 @@
 
     goto/16 :goto_4
 
-    .line 6
     :cond_3
     :goto_1
     invoke-virtual {v1}, Lcom/commsource/camera/xcamera/cover/CameraCaptureViewModel$a;->b()I
@@ -167,7 +161,6 @@
 
     if-ne v5, v2, :cond_5
 
-    .line 7
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/TopBarCover$k;->a:Lcom/commsource/camera/xcamera/cover/TopBarCover;
 
     invoke-virtual {p1}, Lcom/commsource/camera/xcamera/cover/AbsCover;->A()Landroidx/databinding/ViewDataBinding;
@@ -182,7 +175,6 @@
 
     invoke-static {p1}, Lcom/commsource/util/l0;->w(Landroid/view/View;)V
 
-    .line 8
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/TopBarCover$k;->a:Lcom/commsource/camera/xcamera/cover/TopBarCover;
 
     invoke-virtual {p1}, Lcom/commsource/camera/xcamera/cover/TopBarCover;->I()Lcom/commsource/camera/xcamera/cover/CameraConfigViewModel;
@@ -195,7 +187,6 @@
 
     if-eqz p1, :cond_8
 
-    .line 9
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/TopBarCover$k;->a:Lcom/commsource/camera/xcamera/cover/TopBarCover;
 
     invoke-virtual {p1}, Lcom/commsource/camera/xcamera/cover/TopBarCover;->I()Lcom/commsource/camera/xcamera/cover/CameraConfigViewModel;
@@ -206,7 +197,6 @@
 
     goto :goto_4
 
-    .line 10
     :cond_5
     :goto_2
     invoke-virtual {v1}, Lcom/commsource/camera/xcamera/cover/CameraCaptureViewModel$a;->d()I
@@ -224,7 +214,6 @@
 
     if-ne p1, v1, :cond_8
 
-    .line 11
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/TopBarCover$k;->a:Lcom/commsource/camera/xcamera/cover/TopBarCover;
 
     invoke-virtual {p1}, Lcom/commsource/camera/xcamera/cover/TopBarCover;->G()Lcom/commsource/camera/xcamera/BpCameraViewModel;
@@ -237,7 +226,6 @@
 
     if-eqz p1, :cond_7
 
-    .line 12
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/TopBarCover$k;->a:Lcom/commsource/camera/xcamera/cover/TopBarCover;
 
     invoke-virtual {p1}, Lcom/commsource/camera/xcamera/cover/AbsCover;->A()Landroidx/databinding/ViewDataBinding;
@@ -254,7 +242,6 @@
 
     goto :goto_3
 
-    .line 13
     :cond_7
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/TopBarCover$k;->a:Lcom/commsource/camera/xcamera/cover/TopBarCover;
 
@@ -270,7 +257,6 @@
 
     invoke-static {p1}, Lcom/commsource/util/l0;->v0(Landroid/view/View;)V
 
-    .line 14
     :goto_3
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/TopBarCover$k;->a:Lcom/commsource/camera/xcamera/cover/TopBarCover;
 
@@ -284,7 +270,6 @@
 
     if-eqz p1, :cond_8
 
-    .line 15
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/TopBarCover$k;->a:Lcom/commsource/camera/xcamera/cover/TopBarCover;
 
     invoke-virtual {p1}, Lcom/commsource/camera/xcamera/cover/TopBarCover;->I()Lcom/commsource/camera/xcamera/cover/CameraConfigViewModel;
@@ -293,7 +278,6 @@
 
     invoke-virtual {p1, v4}, Lcom/commsource/camera/xcamera/cover/CameraConfigViewModel;->d0(Z)V
 
-    .line 16
     :cond_8
     :goto_4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -308,7 +292,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Ljava/lang/Integer;
 
     invoke-virtual {p0, p1}, Lcom/commsource/camera/xcamera/cover/TopBarCover$k;->a(Ljava/lang/Integer;)V

@@ -55,12 +55,10 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcotlin/sequences/v$a;->c:Lcotlin/sequences/v;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     invoke-static {p1}, Lcotlin/sequences/v;->c(Lcotlin/sequences/v;)Lcotlin/sequences/m;
 
     move-result-object p1
@@ -79,7 +77,6 @@
 .method public final a()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lcotlin/sequences/v$a;->b:I
 
     return v0
@@ -98,7 +95,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcotlin/sequences/v$a;->a:Ljava/util/Iterator;
 
     return-object v0
@@ -107,7 +103,6 @@
 .method public final c(I)V
     .locals 0
 
-    .line 1
     iput p1, p0, Lcotlin/sequences/v$a;->b:I
 
     return-void
@@ -116,7 +111,6 @@
 .method public hasNext()Z
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcotlin/sequences/v$a;->a:Ljava/util/Iterator;
 
     invoke-interface {v0}, Ljava/util/Iterator;->hasNext()Z
@@ -134,7 +128,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcotlin/sequences/v$a;->c:Lcotlin/sequences/v;
 
     invoke-static {v0}, Lcotlin/sequences/v;->d(Lcotlin/sequences/v;)Lcotlin/jvm/u/p;

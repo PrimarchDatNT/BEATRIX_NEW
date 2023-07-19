@@ -50,7 +50,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-direct {p0, v0}, Lkshark/HeapObject;-><init>(Lcotlin/jvm/internal/u;)V
 
     iput-object p1, p0, Lkshark/HeapObject$HeapObjectArray;->c:Lkshark/HprofHeapGraph;
@@ -67,7 +66,6 @@
 .method public static final synthetic i(Lkshark/HeapObject$HeapObjectArray;)Lkshark/HprofHeapGraph;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lkshark/HeapObject$HeapObjectArray;->c:Lkshark/HprofHeapGraph;
 
     return-object p0
@@ -80,7 +78,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lkshark/HeapObject$HeapObjectArray;->c:Lkshark/HprofHeapGraph;
 
     return-object v0
@@ -89,7 +86,6 @@
 .method public g()J
     .locals 2
 
-    .line 1
     iget-wide v0, p0, Lkshark/HeapObject$HeapObjectArray;->e:J
 
     return-wide v0
@@ -98,7 +94,6 @@
 .method public bridge synthetic h()Lkshark/m$b$c;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lkshark/HeapObject$HeapObjectArray;->r()Lkshark/m$b$c$e;
 
     move-result-object v0
@@ -111,7 +106,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lkshark/HeapObject$HeapObjectArray;->c:Lkshark/HprofHeapGraph;
 
     iget-object v1, p0, Lkshark/HeapObject$HeapObjectArray;->d:Lkshark/internal/d$c;
@@ -145,7 +139,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lkshark/HeapObject$HeapObjectArray;->c:Lkshark/HprofHeapGraph;
 
     iget-object v1, p0, Lkshark/HeapObject$HeapObjectArray;->d:Lkshark/internal/d$c;
@@ -166,7 +159,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     sget-object v0, Lkshark/HeapObject;->b:Lkshark/HeapObject$a;
 
     invoke-virtual {p0}, Lkshark/HeapObject$HeapObjectArray;->k()Ljava/lang/String;
@@ -183,7 +175,6 @@
 .method public final m()I
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lkshark/HeapObject$HeapObjectArray;->d:Lkshark/internal/d$c;
 
     invoke-virtual {v0}, Lkshark/internal/d$c;->c()I
@@ -198,7 +189,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lkshark/HeapObject$HeapObjectArray;->d:Lkshark/internal/d$c;
 
     return-object v0
@@ -207,7 +197,6 @@
 .method public final o()Z
     .locals 1
 
-    .line 1
     iget-boolean v0, p0, Lkshark/HeapObject$HeapObjectArray;->f:Z
 
     return v0
@@ -216,7 +205,6 @@
 .method public final p()I
     .locals 2
 
-    .line 1
     invoke-virtual {p0}, Lkshark/HeapObject$HeapObjectArray;->r()Lkshark/m$b$c$e;
 
     move-result-object v0
@@ -252,7 +240,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lkshark/HeapObject$HeapObjectArray;->r()Lkshark/m$b$c$e;
 
     move-result-object v0
@@ -265,7 +252,6 @@
 
     move-result-object v0
 
-    .line 2
     new-instance v1, Lkshark/HeapObject$HeapObjectArray$readElements$1;
 
     invoke-direct {v1, p0}, Lkshark/HeapObject$HeapObjectArray$readElements$1;-><init>(Lkshark/HeapObject$HeapObjectArray;)V
@@ -282,7 +268,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lkshark/HeapObject$HeapObjectArray;->c:Lkshark/HprofHeapGraph;
 
     invoke-virtual {p0}, Lkshark/HeapObject$HeapObjectArray;->g()J
@@ -303,7 +288,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V

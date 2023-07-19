@@ -174,17 +174,14 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const-string v0, ""
 
-    .line 2
     iput-object v0, p0, Lcom/commsource/studio/text/TextTemplateMaterial;->id:Ljava/lang/String;
 
     const/4 v0, 0x1
 
-    .line 3
     iput v0, p0, Lcom/commsource/studio/text/TextTemplateMaterial;->downloadType:I
 
     return-void
@@ -203,7 +200,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     instance-of v1, p1, Lcom/commsource/studio/text/TextTemplateMaterial;
 
     if-eqz v1, :cond_0
@@ -242,7 +238,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/text/TextTemplateMaterial;->config:Lcom/commsource/studio/text/TextTemplateConfig;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -257,7 +252,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/text/TextTemplateMaterial;->downloadProgress:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -272,7 +266,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/text/TextTemplateMaterial;->downloadState:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -287,7 +280,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/text/TextTemplateMaterial;->downloadType:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -302,7 +294,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/commsource/studio/text/TextTemplateMaterial;->endedAt:J
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -319,7 +310,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/text/TextTemplateMaterial;->file:Lcom/commsource/repository/FileObject;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -336,7 +326,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/text/TextTemplateMaterial;->icon:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -353,7 +342,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/text/TextTemplateMaterial;->id:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -368,7 +356,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/text/TextTemplateMaterial;->internalState:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -385,7 +372,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/text/TextTemplateMaterial;->name:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -400,7 +386,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/text/TextTemplateMaterial;->newState:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -415,7 +400,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/commsource/studio/text/TextTemplateMaterial;->newTime:J
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -430,7 +414,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/text/TextTemplateMaterial;->paidType:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -445,7 +428,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/text/TextTemplateMaterial;->sort:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -462,7 +444,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/text/TextTemplateMaterial;->file:Lcom/commsource/repository/FileObject;
 
     if-eqz v1, :cond_0
@@ -489,7 +470,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0}, Ljava/lang/Object;->hashCode()I
 
     move-result v1
@@ -506,7 +486,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/text/TextTemplateMaterial;->downloadState:I
 
     const/4 v2, 0x1
@@ -535,7 +514,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/text/TextTemplateMaterial;->internalState:I
 
     const/4 v2, 0x1
@@ -560,7 +538,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/text/TextTemplateMaterial;->internalState:I
 
     if-nez v1, :cond_0
@@ -585,7 +562,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/text/TextTemplateMaterial;->downloadState:I
 
     const/4 v2, 0x1
@@ -616,7 +592,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/text/TextTemplateMaterial;->paidType:I
 
     if-eqz v1, :cond_0
@@ -641,25 +616,21 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/text/TextTemplateMaterial;->newState:I
 
     const/4 v2, 0x0
 
     if-nez v1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v2
 
-    .line 3
     :cond_0
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v3
 
-    .line 4
     iget-wide v5, p0, Lcom/commsource/studio/text/TextTemplateMaterial;->newTime:J
 
     const-wide/16 v7, 0x0
@@ -696,7 +667,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/text/TextTemplateMaterial;->icon:Ljava/lang/String;
 
     iget-object v2, p1, Lcom/commsource/studio/text/TextTemplateMaterial;->icon:Ljava/lang/String;
@@ -705,12 +675,10 @@
 
     move-result v1
 
-    .line 3
     iget v2, p1, Lcom/commsource/studio/text/TextTemplateMaterial;->internalState:I
 
     if-nez v2, :cond_1
 
-    .line 4
     iget-object v2, p0, Lcom/commsource/studio/text/TextTemplateMaterial;->file:Lcom/commsource/repository/FileObject;
 
     iget-object v3, p1, Lcom/commsource/studio/text/TextTemplateMaterial;->file:Lcom/commsource/repository/FileObject;
@@ -721,17 +689,14 @@
 
     if-eqz v2, :cond_0
 
-    .line 5
     iget v2, p1, Lcom/commsource/studio/text/TextTemplateMaterial;->downloadState:I
 
     iput v2, p0, Lcom/commsource/studio/text/TextTemplateMaterial;->downloadState:I
 
-    .line 6
     iget-object v2, p1, Lcom/commsource/studio/text/TextTemplateMaterial;->config:Lcom/commsource/studio/text/TextTemplateConfig;
 
     iput-object v2, p0, Lcom/commsource/studio/text/TextTemplateMaterial;->config:Lcom/commsource/studio/text/TextTemplateConfig;
 
-    .line 7
     :cond_0
     iget-object v2, p0, Lcom/commsource/studio/text/TextTemplateMaterial;->file:Lcom/commsource/repository/FileObject;
 
@@ -745,24 +710,20 @@
 
     goto :goto_0
 
-    .line 8
     :cond_1
     iget v2, p1, Lcom/commsource/studio/text/TextTemplateMaterial;->downloadState:I
 
     iput v2, p0, Lcom/commsource/studio/text/TextTemplateMaterial;->downloadState:I
 
-    .line 9
     iget-object v2, p1, Lcom/commsource/studio/text/TextTemplateMaterial;->config:Lcom/commsource/studio/text/TextTemplateConfig;
 
     iput-object v2, p0, Lcom/commsource/studio/text/TextTemplateMaterial;->config:Lcom/commsource/studio/text/TextTemplateConfig;
 
-    .line 10
     :goto_0
     iget v2, p1, Lcom/commsource/studio/text/TextTemplateMaterial;->internalState:I
 
     iput v2, p0, Lcom/commsource/studio/text/TextTemplateMaterial;->internalState:I
 
-    .line 11
     iget-object v2, p0, Lcom/commsource/studio/text/TextTemplateMaterial;->name:Ljava/lang/String;
 
     iget-object v3, p1, Lcom/commsource/studio/text/TextTemplateMaterial;->name:Ljava/lang/String;
@@ -773,7 +734,6 @@
 
     and-int/2addr v1, v2
 
-    .line 12
     iget-object v2, p0, Lcom/commsource/studio/text/TextTemplateMaterial;->file:Lcom/commsource/repository/FileObject;
 
     iget-object v3, p1, Lcom/commsource/studio/text/TextTemplateMaterial;->file:Lcom/commsource/repository/FileObject;
@@ -784,7 +744,6 @@
 
     and-int/2addr v1, v2
 
-    .line 13
     iget-wide v2, p0, Lcom/commsource/studio/text/TextTemplateMaterial;->newTime:J
 
     iget-wide v4, p1, Lcom/commsource/studio/text/TextTemplateMaterial;->newTime:J
@@ -807,7 +766,6 @@
     :goto_1
     and-int/2addr v1, v2
 
-    .line 14
     iget v2, p0, Lcom/commsource/studio/text/TextTemplateMaterial;->newState:I
 
     iget v3, p1, Lcom/commsource/studio/text/TextTemplateMaterial;->newState:I
@@ -824,7 +782,6 @@
     :goto_2
     and-int/2addr v1, v2
 
-    .line 15
     iget-wide v2, p0, Lcom/commsource/studio/text/TextTemplateMaterial;->endedAt:J
 
     iget-wide v4, p1, Lcom/commsource/studio/text/TextTemplateMaterial;->endedAt:J
@@ -843,7 +800,6 @@
     :goto_3
     and-int/2addr v1, v2
 
-    .line 16
     iget v2, p0, Lcom/commsource/studio/text/TextTemplateMaterial;->downloadType:I
 
     iget v3, p1, Lcom/commsource/studio/text/TextTemplateMaterial;->downloadType:I
@@ -860,7 +816,6 @@
     :goto_4
     and-int/2addr v1, v2
 
-    .line 17
     iget v2, p0, Lcom/commsource/studio/text/TextTemplateMaterial;->paidType:I
 
     iget v3, p1, Lcom/commsource/studio/text/TextTemplateMaterial;->paidType:I
@@ -877,7 +832,6 @@
     :goto_5
     and-int/2addr v1, v2
 
-    .line 18
     iget v2, p0, Lcom/commsource/studio/text/TextTemplateMaterial;->sort:I
 
     iget p1, p1, Lcom/commsource/studio/text/TextTemplateMaterial;->sort:I
@@ -892,7 +846,6 @@
     :goto_6
     and-int p1, v1, v6
 
-    .line 19
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
@@ -905,7 +858,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Lcom/commsource/studio/text/TextTemplateMaterial;
 
     invoke-virtual {p0, p1}, Lcom/commsource/studio/text/TextTemplateMaterial;->onCompareLocal(Lcom/commsource/studio/text/TextTemplateMaterial;)Z
@@ -932,7 +884,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 2
     invoke-virtual {p0, p1}, Lcom/commsource/studio/text/TextTemplateMaterial;->equals(Ljava/lang/Object;)Z
 
     move-result v1
@@ -941,12 +892,10 @@
 
     const/4 p1, 0x0
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
 
-    .line 4
     :cond_0
     iget-object v1, p0, Lcom/commsource/studio/text/TextTemplateMaterial;->id:Ljava/lang/String;
 
@@ -978,7 +927,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Lcom/commsource/studio/text/TextTemplateMaterial;
 
     invoke-virtual {p0, p1}, Lcom/commsource/studio/text/TextTemplateMaterial;->onSortCompare(Lcom/commsource/studio/text/TextTemplateMaterial;)I
@@ -1001,7 +949,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/text/TextTemplateMaterial;->config:Lcom/commsource/studio/text/TextTemplateConfig;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1016,7 +963,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/studio/text/TextTemplateMaterial;->downloadProgress:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1031,7 +977,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/studio/text/TextTemplateMaterial;->downloadState:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1046,7 +991,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/studio/text/TextTemplateMaterial;->downloadType:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1061,7 +1005,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-wide p1, p0, Lcom/commsource/studio/text/TextTemplateMaterial;->endedAt:J
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1080,7 +1023,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/text/TextTemplateMaterial;->file:Lcom/commsource/repository/FileObject;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1099,7 +1041,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/text/TextTemplateMaterial;->icon:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1122,7 +1063,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/text/TextTemplateMaterial;->id:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1137,7 +1077,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/studio/text/TextTemplateMaterial;->internalState:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1156,7 +1095,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/text/TextTemplateMaterial;->name:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1171,7 +1109,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/studio/text/TextTemplateMaterial;->newState:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1186,7 +1123,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-wide p1, p0, Lcom/commsource/studio/text/TextTemplateMaterial;->newTime:J
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1201,7 +1137,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/studio/text/TextTemplateMaterial;->paidType:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1216,7 +1151,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/studio/text/TextTemplateMaterial;->sort:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

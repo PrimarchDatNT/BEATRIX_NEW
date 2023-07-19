@@ -25,7 +25,6 @@
 .method constructor <init>(Lio/grpc/internal/g2$y$b;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lio/grpc/internal/g2$y$b$a;->a:Lio/grpc/internal/g2$y$b;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -38,7 +37,6 @@
 .method public run()V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lio/grpc/internal/g2$y$b$a;->a:Lio/grpc/internal/g2$y$b;
 
     iget-object v0, v0, Lio/grpc/internal/g2$y$b;->a:Lio/grpc/internal/g2$y;
@@ -51,12 +49,10 @@
 
     add-int/lit8 v0, v0, 0x1
 
-    .line 2
     invoke-static {v1, v0}, Lio/grpc/internal/g2;->L(Lio/grpc/internal/g2;I)Lio/grpc/internal/g2$z;
 
     move-result-object v0
 
-    .line 3
     iget-object v1, p0, Lio/grpc/internal/g2$y$b$a;->a:Lio/grpc/internal/g2$y$b;
 
     iget-object v1, v1, Lio/grpc/internal/g2$y$b;->a:Lio/grpc/internal/g2$y;

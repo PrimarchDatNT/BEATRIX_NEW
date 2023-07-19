@@ -23,7 +23,6 @@
 .method protected constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/google/android/gms/internal/ads/so1;-><init>()V
 
     return-void
@@ -34,7 +33,6 @@
 .method protected synthetic a()Ljava/lang/Object;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/android/gms/internal/ads/fq1;->f()Ljava/util/concurrent/Future;
 
     move-result-object v0
@@ -45,7 +43,6 @@
 .method public cancel(Z)Z
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/android/gms/internal/ads/fq1;->f()Ljava/util/concurrent/Future;
 
     move-result-object v0
@@ -82,7 +79,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/android/gms/internal/ads/fq1;->f()Ljava/util/concurrent/Future;
 
     move-result-object v0
@@ -112,7 +108,6 @@
         }
     .end annotation
 
-    .line 2
     invoke-virtual {p0}, Lcom/google/android/gms/internal/ads/fq1;->f()Ljava/util/concurrent/Future;
 
     move-result-object v0
@@ -127,7 +122,6 @@
 .method public isCancelled()Z
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/android/gms/internal/ads/fq1;->f()Ljava/util/concurrent/Future;
 
     move-result-object v0
@@ -142,7 +136,6 @@
 .method public isDone()Z
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/android/gms/internal/ads/fq1;->f()Ljava/util/concurrent/Future;
 
     move-result-object v0

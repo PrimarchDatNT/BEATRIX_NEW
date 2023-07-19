@@ -60,22 +60,18 @@
 
     sget v1, Lcom/res/provider/ResSTRING;->t_ar_effect_error_tips:I
 
-    .line 1
     invoke-static {v1}, Lcom/commsource/util/l0;->e0(I)Ljava/lang/String;
 
     move-result-object v1
 
     sget v2, Lcom/res/provider/ResSTRING;->dialog_i_konw:I
 
-    .line 2
     invoke-static {v2}, Lcom/commsource/util/l0;->e0(I)Ljava/lang/String;
 
     move-result-object v2
 
-    .line 3
     invoke-static {v1, v2}, Lcom/commsource/widget/dialog/s0/t;->g0(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

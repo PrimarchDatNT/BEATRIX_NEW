@@ -63,10 +63,8 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lio/grpc/internal/ManagedChannelImpl$v$c;->p:Lio/grpc/internal/ManagedChannelImpl$v;
 
-    .line 2
     iget-object v0, p1, Lio/grpc/internal/ManagedChannelImpl$v;->b:Lio/grpc/internal/ManagedChannelImpl;
 
     invoke-static {v0, p4}, Lio/grpc/internal/ManagedChannelImpl;->F(Lio/grpc/internal/ManagedChannelImpl;Lio/grpc/f;)Ljava/util/concurrent/Executor;
@@ -85,13 +83,10 @@
 
     invoke-direct {p0, v0, p1, v1}, Lio/grpc/internal/f0;-><init>(Ljava/util/concurrent/Executor;Ljava/util/concurrent/ScheduledExecutorService;Lio/grpc/q;)V
 
-    .line 3
     iput-object p2, p0, Lio/grpc/internal/ManagedChannelImpl$v$c;->m:Lio/grpc/Context;
 
-    .line 4
     iput-object p3, p0, Lio/grpc/internal/ManagedChannelImpl$v$c;->n:Lio/grpc/MethodDescriptor;
 
-    .line 5
     iput-object p4, p0, Lio/grpc/internal/ManagedChannelImpl$v$c;->o:Lio/grpc/f;
 
     return-void
@@ -102,10 +97,8 @@
 .method protected l()V
     .locals 2
 
-    .line 1
     invoke-super {p0}, Lio/grpc/internal/f0;->l()V
 
-    .line 2
     iget-object v0, p0, Lio/grpc/internal/ManagedChannelImpl$v$c;->p:Lio/grpc/internal/ManagedChannelImpl$v;
 
     iget-object v0, v0, Lio/grpc/internal/ManagedChannelImpl$v;->b:Lio/grpc/internal/ManagedChannelImpl;
@@ -124,7 +117,6 @@
 .method t()V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lio/grpc/internal/ManagedChannelImpl$v$c;->p:Lio/grpc/internal/ManagedChannelImpl$v;
 
     iget-object v0, v0, Lio/grpc/internal/ManagedChannelImpl$v;->b:Lio/grpc/internal/ManagedChannelImpl;

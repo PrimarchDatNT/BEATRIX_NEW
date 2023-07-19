@@ -154,14 +154,12 @@
 
     invoke-static {}, Lcotlin/coroutines/intrinsics/a;->h()Ljava/lang/Object;
 
-    .line 1
     iget v1, p0, Lcom/meitu/library/appcia/diskspace/DiskSpaceOfficer$queueIdle$1;->label:I
 
     if-nez v1, :cond_0
 
     invoke-static {p1}, Lcotlin/r0;->n(Ljava/lang/Object;)V
 
-    .line 2
     iget-object p1, p0, Lcom/meitu/library/appcia/diskspace/DiskSpaceOfficer$queueIdle$1;->this$0:Lcom/meitu/library/appcia/diskspace/DiskSpaceOfficer;
 
     invoke-static {p1}, Lcom/meitu/library/appcia/diskspace/DiskSpaceOfficer;->g(Lcom/meitu/library/appcia/diskspace/DiskSpaceOfficer;)Landroid/content/Context;
@@ -176,7 +174,6 @@
 
     invoke-static {p1, v1, v2}, Lcom/meitu/library/appcia/diskspace/c/a;->d(Landroid/content/Context;Lcom/meitu/library/appcia/diskspace/c/a$b;Z)V
 
-    .line 3
     sget-object p1, Lcotlin/t1;->a:Lcotlin/t1;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

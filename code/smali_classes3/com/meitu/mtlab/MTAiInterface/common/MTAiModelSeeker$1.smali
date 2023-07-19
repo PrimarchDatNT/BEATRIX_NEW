@@ -27,7 +27,6 @@
 .method constructor <init>([ZLjava/lang/String;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/mtlab/MTAiInterface/common/MTAiModelSeeker$1;->val$isExist:[Z
 
     iput-object p2, p0, Lcom/meitu/mtlab/MTAiInterface/common/MTAiModelSeeker$1;->val$modelKey:Ljava/lang/String;
@@ -46,7 +45,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/mtlab/MTAiInterface/common/MTAiModelSeeker$1;->val$isExist:[Z
 
     iget-object v2, p0, Lcom/meitu/mtlab/MTAiInterface/common/MTAiModelSeeker$1;->val$modelKey:Ljava/lang/String;
@@ -59,7 +57,6 @@
 
     aput-boolean v2, v1, v3
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

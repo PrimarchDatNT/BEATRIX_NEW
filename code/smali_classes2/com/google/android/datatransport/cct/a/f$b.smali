@@ -34,7 +34,6 @@
 .method constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/google/android/datatransport/cct/a/k$a;-><init>()V
 
     return-void
@@ -45,7 +44,6 @@
 .method public a(J)Lcom/google/android/datatransport/cct/a/k$a;
     .locals 0
 
-    .line 1
     invoke-static {p1, p2}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
 
     move-result-object p1
@@ -62,7 +60,6 @@
         .end annotation
     .end param
 
-    .line 1
     iput-object p1, p0, Lcom/google/android/datatransport/cct/a/f$b;->g:Lcom/google/android/datatransport/cct/a/zzt;
 
     return-object p0
@@ -75,7 +72,6 @@
         .end annotation
     .end param
 
-    .line 1
     iput-object p1, p0, Lcom/google/android/datatransport/cct/a/f$b;->b:Ljava/lang/Integer;
 
     return-object p0
@@ -88,7 +84,6 @@
         .end annotation
     .end param
 
-    .line 1
     iput-object p1, p0, Lcom/google/android/datatransport/cct/a/f$b;->e:Ljava/lang/String;
 
     return-object p0
@@ -101,7 +96,6 @@
         .end annotation
     .end param
 
-    .line 1
     iput-object p1, p0, Lcom/google/android/datatransport/cct/a/f$b;->d:[B
 
     return-object p0
@@ -110,14 +104,12 @@
 .method public f()Lcom/google/android/datatransport/cct/a/k;
     .locals 14
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/datatransport/cct/a/f$b;->a:Ljava/lang/Long;
 
     const-string v1, ""
 
     if-nez v0, :cond_0
 
-    .line 2
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -132,13 +124,11 @@
 
     move-result-object v1
 
-    .line 3
     :cond_0
     iget-object v0, p0, Lcom/google/android/datatransport/cct/a/f$b;->c:Ljava/lang/Long;
 
     if-nez v0, :cond_1
 
-    .line 4
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -153,13 +143,11 @@
 
     move-result-object v1
 
-    .line 5
     :cond_1
     iget-object v0, p0, Lcom/google/android/datatransport/cct/a/f$b;->f:Ljava/lang/Long;
 
     if-nez v0, :cond_2
 
-    .line 6
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -174,7 +162,6 @@
 
     move-result-object v1
 
-    .line 7
     :cond_2
     invoke-virtual {v1}, Ljava/lang/String;->isEmpty()Z
 
@@ -182,12 +169,10 @@
 
     if-eqz v0, :cond_3
 
-    .line 8
     new-instance v0, Lcom/google/android/datatransport/cct/a/f;
 
     iget-object v1, p0, Lcom/google/android/datatransport/cct/a/f$b;->a:Ljava/lang/Long;
 
-    .line 9
     invoke-virtual {v1}, Ljava/lang/Long;->longValue()J
 
     move-result-wide v3
@@ -196,7 +181,6 @@
 
     iget-object v1, p0, Lcom/google/android/datatransport/cct/a/f$b;->c:Ljava/lang/Long;
 
-    .line 10
     invoke-virtual {v1}, Ljava/lang/Long;->longValue()J
 
     move-result-wide v6
@@ -207,7 +191,6 @@
 
     iget-object v1, p0, Lcom/google/android/datatransport/cct/a/f$b;->f:Ljava/lang/Long;
 
-    .line 11
     invoke-virtual {v1}, Ljava/lang/Long;->longValue()J
 
     move-result-wide v10
@@ -222,7 +205,6 @@
 
     return-object v0
 
-    .line 12
     :cond_3
     new-instance v0, Ljava/lang/IllegalStateException;
 
@@ -248,7 +230,6 @@
 .method public g(J)Lcom/google/android/datatransport/cct/a/k$a;
     .locals 0
 
-    .line 1
     invoke-static {p1, p2}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
 
     move-result-object p1
@@ -261,7 +242,6 @@
 .method public h(J)Lcom/google/android/datatransport/cct/a/k$a;
     .locals 0
 
-    .line 1
     invoke-static {p1, p2}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
 
     move-result-object p1

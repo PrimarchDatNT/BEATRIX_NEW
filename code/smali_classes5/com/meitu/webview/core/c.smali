@@ -15,10 +15,8 @@
 .method private constructor <init>(Landroid/content/Context;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     invoke-virtual {p1}, Landroid/content/Context;->getApplicationContext()Landroid/content/Context;
 
     move-result-object p1
@@ -44,12 +42,10 @@
     :try_start_0
     invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v2, Lcom/meitu/webview/core/c;->b:Lcom/meitu/webview/core/c;
 
     if-nez v2, :cond_0
 
-    .line 2
     new-instance v2, Lcom/meitu/webview/core/c;
 
     invoke-virtual {p0}, Landroid/content/Context;->getApplicationContext()Landroid/content/Context;
@@ -60,7 +56,6 @@
 
     sput-object v2, Lcom/meitu/webview/core/c;->b:Lcom/meitu/webview/core/c;
 
-    .line 3
     :cond_0
     sget-object p0, Lcom/meitu/webview/core/c;->b:Lcom/meitu/webview/core/c;
 
@@ -92,12 +87,10 @@
     :try_start_0
     invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v2, Lcom/meitu/webview/core/c;->b:Lcom/meitu/webview/core/c;
 
     if-eqz v2, :cond_0
 
-    .line 2
     invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
@@ -106,7 +99,6 @@
 
     return-object v2
 
-    .line 3
     :cond_0
     :try_start_1
     new-instance v2, Ljava/lang/IllegalStateException;
@@ -138,7 +130,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     :try_start_0
     iget-object v1, p0, Lcom/meitu/webview/core/c;->a:Landroid/webkit/CookieSyncManager;
 
@@ -151,10 +142,8 @@
     :catch_0
     move-exception v1
 
-    .line 2
     invoke-virtual {v1}, Ljava/lang/Exception;->printStackTrace()V
 
-    .line 3
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -168,7 +157,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     :try_start_0
     iget-object v1, p0, Lcom/meitu/webview/core/c;->a:Landroid/webkit/CookieSyncManager;
 
@@ -181,10 +169,8 @@
     :catch_0
     move-exception v1
 
-    .line 2
     invoke-virtual {v1}, Ljava/lang/Exception;->printStackTrace()V
 
-    .line 3
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -198,7 +184,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     :try_start_0
     iget-object v1, p0, Lcom/meitu/webview/core/c;->a:Landroid/webkit/CookieSyncManager;
 
@@ -211,10 +196,8 @@
     :catch_0
     move-exception v1
 
-    .line 2
     invoke-virtual {v1}, Ljava/lang/Exception;->printStackTrace()V
 
-    .line 3
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

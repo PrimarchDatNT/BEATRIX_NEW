@@ -26,10 +26,8 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-direct {p0}, Lcom/google/firebase/FirebaseException;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/google/firebase/installations/FirebaseInstallationsException;->status:Lcom/google/firebase/installations/FirebaseInstallationsException$Status;
 
     return-void
@@ -46,10 +44,8 @@
         .end annotation
     .end param
 
-    .line 3
     invoke-direct {p0, p1}, Lcom/google/firebase/FirebaseException;-><init>(Ljava/lang/String;)V
 
-    .line 4
     iput-object p2, p0, Lcom/google/firebase/installations/FirebaseInstallationsException;->status:Lcom/google/firebase/installations/FirebaseInstallationsException$Status;
 
     return-void
@@ -70,10 +66,8 @@
         .end annotation
     .end param
 
-    .line 5
     invoke-direct {p0, p1, p3}, Lcom/google/firebase/FirebaseException;-><init>(Ljava/lang/String;Ljava/lang/Throwable;)V
 
-    .line 6
     iput-object p2, p0, Lcom/google/firebase/installations/FirebaseInstallationsException;->status:Lcom/google/firebase/installations/FirebaseInstallationsException$Status;
 
     return-void
@@ -86,7 +80,6 @@
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/installations/FirebaseInstallationsException;->status:Lcom/google/firebase/installations/FirebaseInstallationsException$Status;
 
     return-object v0

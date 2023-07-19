@@ -26,7 +26,6 @@
 .method constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/bumptech/glide/load/engine/bitmap_recycle/d;-><init>()V
 
     return-void
@@ -37,7 +36,6 @@
 .method protected bridge synthetic a()Lcom/bumptech/glide/load/engine/bitmap_recycle/m;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/bumptech/glide/load/engine/bitmap_recycle/j$b;->d()Lcom/bumptech/glide/load/engine/bitmap_recycle/j$a;
 
     move-result-object v0
@@ -48,7 +46,6 @@
 .method protected d()Lcom/bumptech/glide/load/engine/bitmap_recycle/j$a;
     .locals 1
 
-    .line 1
     new-instance v0, Lcom/bumptech/glide/load/engine/bitmap_recycle/j$a;
 
     invoke-direct {v0, p0}, Lcom/bumptech/glide/load/engine/bitmap_recycle/j$a;-><init>(Lcom/bumptech/glide/load/engine/bitmap_recycle/j$b;)V
@@ -67,14 +64,12 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/bumptech/glide/load/engine/bitmap_recycle/d;->b()Lcom/bumptech/glide/load/engine/bitmap_recycle/m;
 
     move-result-object v0
 
     check-cast v0, Lcom/bumptech/glide/load/engine/bitmap_recycle/j$a;
 
-    .line 2
     invoke-virtual {v0, p1, p2}, Lcom/bumptech/glide/load/engine/bitmap_recycle/j$a;->b(ILjava/lang/Class;)V
 
     return-object v0

@@ -16,7 +16,6 @@
 .method constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -29,7 +28,6 @@
 
     const/16 v0, 0x1000
 
-    .line 1
     invoke-static {v0, p1}, Ljava/lang/Math;->max(II)I
 
     move-result p1
@@ -40,7 +38,6 @@
 
     move-result p1
 
-    .line 2
     new-instance v0, Lio/grpc/okhttp/r;
 
     new-instance v1, Lokio/Buffer;

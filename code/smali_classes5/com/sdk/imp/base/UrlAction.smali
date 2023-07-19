@@ -43,7 +43,6 @@
 .method static constructor <clinit>()V
     .locals 16
 
-    .line 1
     new-instance v0, Lcom/sdk/imp/base/UrlAction$1;
 
     const-string v1, "HANDLE_US_SCHEME"
@@ -54,7 +53,6 @@
 
     sput-object v0, Lcom/sdk/imp/base/UrlAction;->HANDLE_US_SCHEME:Lcom/sdk/imp/base/UrlAction;
 
-    .line 2
     new-instance v1, Lcom/sdk/imp/base/UrlAction$2;
 
     const-string v3, "IGNORE_ABOUT_SCHEME"
@@ -65,7 +63,6 @@
 
     sput-object v1, Lcom/sdk/imp/base/UrlAction;->IGNORE_ABOUT_SCHEME:Lcom/sdk/imp/base/UrlAction;
 
-    .line 3
     new-instance v3, Lcom/sdk/imp/base/UrlAction$3;
 
     const-string v5, "HANDLE_PHONE_SCHEME"
@@ -76,7 +73,6 @@
 
     sput-object v3, Lcom/sdk/imp/base/UrlAction;->HANDLE_PHONE_SCHEME:Lcom/sdk/imp/base/UrlAction;
 
-    .line 4
     new-instance v5, Lcom/sdk/imp/base/UrlAction$4;
 
     const-string v7, "OPEN_NATIVE_BROWSER"
@@ -87,7 +83,6 @@
 
     sput-object v5, Lcom/sdk/imp/base/UrlAction;->OPEN_NATIVE_BROWSER:Lcom/sdk/imp/base/UrlAction;
 
-    .line 5
     new-instance v7, Lcom/sdk/imp/base/UrlAction$5;
 
     const-string v9, "OPEN_APP_MARKET"
@@ -98,7 +93,6 @@
 
     sput-object v7, Lcom/sdk/imp/base/UrlAction;->OPEN_APP_MARKET:Lcom/sdk/imp/base/UrlAction;
 
-    .line 6
     new-instance v9, Lcom/sdk/imp/base/UrlAction$6;
 
     const-string v11, "OPEN_IN_APP_BROWSER"
@@ -109,7 +103,6 @@
 
     sput-object v9, Lcom/sdk/imp/base/UrlAction;->OPEN_IN_APP_BROWSER:Lcom/sdk/imp/base/UrlAction;
 
-    .line 7
     new-instance v11, Lcom/sdk/imp/base/UrlAction$7;
 
     const-string v13, "US_DEEP_LINK"
@@ -120,7 +113,6 @@
 
     sput-object v11, Lcom/sdk/imp/base/UrlAction;->US_DEEP_LINK:Lcom/sdk/imp/base/UrlAction;
 
-    .line 8
     new-instance v13, Lcom/sdk/imp/base/UrlAction$8;
 
     const-string v15, "FOLLOW_DEEP_LINK_WITH_FALLBACK"
@@ -131,7 +123,6 @@
 
     sput-object v13, Lcom/sdk/imp/base/UrlAction;->FOLLOW_DEEP_LINK_WITH_FALLBACK:Lcom/sdk/imp/base/UrlAction;
 
-    .line 9
     new-instance v15, Lcom/sdk/imp/base/UrlAction$9;
 
     const-string v14, "NOOP"
@@ -170,7 +161,6 @@
 
     aput-object v15, v14, v12
 
-    .line 10
     sput-object v14, Lcom/sdk/imp/base/UrlAction;->$VALUES:[Lcom/sdk/imp/base/UrlAction;
 
     return-void
@@ -184,10 +174,8 @@
         }
     .end annotation
 
-    .line 2
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 3
     iput-boolean p3, p0, Lcom/sdk/imp/base/UrlAction;->mRequiresUserInteraction:Z
 
     return-void
@@ -196,7 +184,6 @@
 .method synthetic constructor <init>(Ljava/lang/String;IZLcom/sdk/imp/base/UrlAction$1;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1, p2, p3}, Lcom/sdk/imp/base/UrlAction;-><init>(Ljava/lang/String;IZ)V
 
     return-void
@@ -205,7 +192,6 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/sdk/imp/base/UrlAction;
     .locals 1
 
-    .line 1
     const-class v0, Lcom/sdk/imp/base/UrlAction;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -220,7 +206,6 @@
 .method public static values()[Lcom/sdk/imp/base/UrlAction;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/sdk/imp/base/UrlAction;->$VALUES:[Lcom/sdk/imp/base/UrlAction;
 
     invoke-virtual {v0}, [Lcom/sdk/imp/base/UrlAction;->clone()Ljava/lang/Object;
@@ -250,7 +235,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -267,7 +251,6 @@
 
     invoke-static {v0}, Lf/q/b/g;->a(Ljava/lang/String;)V
 
-    .line 2
     iget-boolean v0, p0, Lcom/sdk/imp/base/UrlAction;->mRequiresUserInteraction:Z
 
     if-eqz v0, :cond_1
@@ -276,7 +259,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_0
     new-instance p1, Ljava/lang/Exception;
 
@@ -286,7 +268,6 @@
 
     throw p1
 
-    .line 4
     :cond_1
     :goto_0
     invoke-virtual {p0, p2, p3, p1}, Lcom/sdk/imp/base/UrlAction;->performAction(Landroid/content/Context;Landroid/net/Uri;Lcom/sdk/imp/base/k;)V

@@ -30,7 +30,6 @@
 .method constructor <init>(Lcom/airbnb/lottie/parser/moshi/LinkedHashTreeMap;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/airbnb/lottie/parser/moshi/LinkedHashTreeMap$d;->a:Lcom/airbnb/lottie/parser/moshi/LinkedHashTreeMap;
 
     invoke-direct {p0}, Ljava/util/AbstractSet;-><init>()V
@@ -43,7 +42,6 @@
 .method public clear()V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/airbnb/lottie/parser/moshi/LinkedHashTreeMap$d;->a:Lcom/airbnb/lottie/parser/moshi/LinkedHashTreeMap;
 
     invoke-virtual {v0}, Lcom/airbnb/lottie/parser/moshi/LinkedHashTreeMap;->clear()V
@@ -54,7 +52,6 @@
 .method public contains(Ljava/lang/Object;)Z
     .locals 1
 
-    .line 1
     instance-of v0, p1, Ljava/util/Map$Entry;
 
     if-eqz v0, :cond_0
@@ -91,7 +88,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/airbnb/lottie/parser/moshi/LinkedHashTreeMap$d$a;
 
     invoke-direct {v0, p0}, Lcom/airbnb/lottie/parser/moshi/LinkedHashTreeMap$d$a;-><init>(Lcom/airbnb/lottie/parser/moshi/LinkedHashTreeMap$d;)V
@@ -102,7 +98,6 @@
 .method public remove(Ljava/lang/Object;)Z
     .locals 2
 
-    .line 1
     instance-of v0, p1, Ljava/util/Map$Entry;
 
     const/4 v1, 0x0
@@ -111,7 +106,6 @@
 
     return v1
 
-    .line 2
     :cond_0
     iget-object v0, p0, Lcom/airbnb/lottie/parser/moshi/LinkedHashTreeMap$d;->a:Lcom/airbnb/lottie/parser/moshi/LinkedHashTreeMap;
 
@@ -125,7 +119,6 @@
 
     return v1
 
-    .line 3
     :cond_1
     iget-object v0, p0, Lcom/airbnb/lottie/parser/moshi/LinkedHashTreeMap$d;->a:Lcom/airbnb/lottie/parser/moshi/LinkedHashTreeMap;
 
@@ -139,7 +132,6 @@
 .method public size()I
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/airbnb/lottie/parser/moshi/LinkedHashTreeMap$d;->a:Lcom/airbnb/lottie/parser/moshi/LinkedHashTreeMap;
 
     iget v0, v0, Lcom/airbnb/lottie/parser/moshi/LinkedHashTreeMap;->size:I

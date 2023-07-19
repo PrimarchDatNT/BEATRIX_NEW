@@ -19,10 +19,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/meitu/flymedia/glx/utils/GlxNativesLoader;->a()V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -31,13 +29,10 @@
 .method protected constructor <init>(JZ)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-boolean p3, p0, Lcom/meitu/mtmvcore/application/media/CameraPreview;->b:Z
 
-    .line 3
     iput-wide p1, p0, Lcom/meitu/mtmvcore/application/media/CameraPreview;->a:J
 
     return-void
@@ -46,7 +41,6 @@
 .method public constructor <init>(Landroid/content/Context;)V
     .locals 2
 
-    .line 4
     invoke-static {}, Lcom/meitu/mtmvcore/application/media/CameraJNI;->new_CameraPreview()J
 
     move-result-wide v0
@@ -71,7 +65,6 @@
 
     goto :goto_0
 
-    .line 1
     :cond_0
     iget-wide v1, p0, Lcom/meitu/mtmvcore/application/media/CameraPreview;->a:J
 
@@ -93,7 +86,6 @@
     :try_start_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/mtmvcore/application/media/CameraPreview;->a:J
 
     const-wide/16 v3, 0x0
@@ -102,24 +94,19 @@
 
     if-eqz v5, :cond_1
 
-    .line 2
     iget-boolean v5, p0, Lcom/meitu/mtmvcore/application/media/CameraPreview;->b:Z
 
     if-eqz v5, :cond_0
 
     const/4 v5, 0x0
 
-    .line 3
     iput-boolean v5, p0, Lcom/meitu/mtmvcore/application/media/CameraPreview;->b:Z
 
-    .line 4
     invoke-static {v1, v2}, Lcom/meitu/mtmvcore/application/media/CameraJNI;->delete_CameraPreview(J)V
 
-    .line 5
     :cond_0
     iput-wide v3, p0, Lcom/meitu/mtmvcore/application/media/CameraPreview;->a:J
 
-    .line 6
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
     :try_end_0
@@ -144,17 +131,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/mtmvcore/application/media/CameraPreview;->a:J
 
     invoke-static {v1, v2, p0}, Lcom/meitu/mtmvcore/application/media/CameraJNI;->CameraPreview_end(JLcom/meitu/mtmvcore/application/media/CameraPreview;)V
 
     const/4 v1, 0x0
 
-    .line 2
     iput-object v1, p0, Lcom/meitu/mtmvcore/application/media/CameraPreview;->c:Lcom/meitu/media/mtmvcore/MTMVTimeLine;
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -167,7 +151,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/mtmvcore/application/media/CameraPreview;->c:Lcom/meitu/media/mtmvcore/MTMVTimeLine;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -182,12 +165,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/mtmvcore/application/media/CameraPreview;->a:J
 
     invoke-static {v1, v2, p0, p1}, Lcom/meitu/mtmvcore/application/media/CameraJNI;->CameraPreview_setCurTime(JLcom/meitu/mtmvcore/application/media/CameraPreview;I)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -200,12 +181,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/mtmvcore/application/media/CameraPreview;->a:J
 
     invoke-static {v1, v2, p0}, Lcom/meitu/mtmvcore/application/media/CameraJNI;->CameraPreview_start(JLcom/meitu/mtmvcore/application/media/CameraPreview;)V
 
-    .line 2
     new-instance v1, Lcom/meitu/media/mtmvcore/MTMVTimeLine;
 
     iget-wide v2, p0, Lcom/meitu/mtmvcore/application/media/CameraPreview;->a:J
@@ -220,7 +199,6 @@
 
     iput-object v1, p0, Lcom/meitu/mtmvcore/application/media/CameraPreview;->c:Lcom/meitu/media/mtmvcore/MTMVTimeLine;
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -233,10 +211,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/meitu/mtmvcore/application/media/CameraPreview;->a()V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -249,7 +225,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/mtmvcore/application/media/CameraPreview;->a:J
 
     move-object v3, p0
@@ -264,7 +239,6 @@
 
     invoke-static/range {v1 .. v7}, Lcom/meitu/mtmvcore/application/media/CameraJNI;->CameraPreview_updateTexture(JLcom/meitu/mtmvcore/application/media/CameraPreview;IIII)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

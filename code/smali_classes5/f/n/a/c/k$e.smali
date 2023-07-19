@@ -35,7 +35,6 @@
 .method constructor <init>(Lf/n/a/c/k;Ljava/io/File;Ljava/lang/String;Lf/n/a/c/j;Lf/n/a/c/h;Lf/n/a/c/l;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lf/n/a/c/k$e;->f:Lf/n/a/c/k;
 
     iput-object p2, p0, Lf/n/a/c/k$e;->a:Ljava/io/File;
@@ -60,12 +59,10 @@
 
     const-string p1, "invalid token"
 
-    .line 1
     invoke-static {p1}, Lcom/qiniu/android/http/g;->f(Ljava/lang/String;)Lcom/qiniu/android/http/g;
 
     move-result-object p1
 
-    .line 2
     iget-object v0, p0, Lf/n/a/c/k$e;->d:Lf/n/a/c/h;
 
     iget-object v1, p0, Lf/n/a/c/k$e;->b:Ljava/lang/String;
@@ -80,14 +77,12 @@
 .method public onSuccess()V
     .locals 12
 
-    .line 1
     iget-object v0, p0, Lf/n/a/c/k$e;->a:Ljava/io/File;
 
     invoke-virtual {v0}, Ljava/io/File;->length()J
 
     move-result-wide v0
 
-    .line 2
     iget-object v2, p0, Lf/n/a/c/k$e;->f:Lf/n/a/c/k;
 
     invoke-static {v2}, Lf/n/a/c/k;->b(Lf/n/a/c/k;)Lf/n/a/c/a;
@@ -102,7 +97,6 @@
 
     if-gtz v4, :cond_0
 
-    .line 3
     iget-object v0, p0, Lf/n/a/c/k$e;->f:Lf/n/a/c/k;
 
     invoke-static {v0}, Lf/n/a/c/k;->a(Lf/n/a/c/k;)Lcom/qiniu/android/http/a;
@@ -129,7 +123,6 @@
 
     return-void
 
-    .line 4
     :cond_0
     iget-object v0, p0, Lf/n/a/c/k$e;->f:Lf/n/a/c/k;
 
@@ -147,7 +140,6 @@
 
     move-result-object v11
 
-    .line 5
     new-instance v0, Lf/n/a/c/f;
 
     iget-object v1, p0, Lf/n/a/c/k$e;->f:Lf/n/a/c/k;
@@ -176,7 +168,6 @@
 
     invoke-direct/range {v3 .. v11}, Lf/n/a/c/f;-><init>(Lcom/qiniu/android/http/a;Lf/n/a/c/a;Ljava/io/File;Ljava/lang/String;Lf/n/a/c/j;Lf/n/a/c/h;Lf/n/a/c/l;Ljava/lang/String;)V
 
-    .line 6
     invoke-static {v0}, Lf/n/a/d/c;->b(Ljava/lang/Runnable;)V
 
     return-void

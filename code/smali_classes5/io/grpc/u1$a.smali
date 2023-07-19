@@ -33,7 +33,6 @@
 .method constructor <init>(Lio/grpc/u1$b;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lio/grpc/u1$a;->a:Lio/grpc/u1$b;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -51,7 +50,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lio/grpc/u1$a;->a:Lio/grpc/u1$b;
 
     invoke-interface {v0, p1}, Lio/grpc/u1$b;->b(Ljava/lang/Object;)I
@@ -70,7 +68,6 @@
 
     return v0
 
-    .line 2
     :cond_0
     invoke-virtual {p1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 

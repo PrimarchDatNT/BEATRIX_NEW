@@ -17,10 +17,8 @@
 .method public constructor <init>(F)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lf/f/b/c/j/a;-><init>()V
 
-    .line 2
     iput p1, p0, Lf/f/b/c/j/f;->a:F
 
     return-void
@@ -31,7 +29,6 @@
 .method public a(FFLf/f/b/c/j/g;)V
     .locals 10
 
-    .line 1
     iget v0, p0, Lf/f/b/c/j/f;->a:F
 
     mul-float v0, v0, p2
@@ -40,7 +37,6 @@
 
     invoke-virtual {p3, v1, v0}, Lf/f/b/c/j/g;->e(FF)V
 
-    .line 2
     iget v0, p0, Lf/f/b/c/j/f;->a:F
 
     const/high16 v1, 0x40000000    # 2.0f

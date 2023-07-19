@@ -30,12 +30,10 @@
 .method public final run()V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/bd1;->a:Lcom/google/android/gms/internal/ads/cd1;
 
     iget-object v1, p0, Lcom/google/android/gms/internal/ads/bd1;->b:Lcom/google/android/gms/internal/ads/zzuy;
 
-    .line 2
     iget-object v0, v0, Lcom/google/android/gms/internal/ads/cd1;->c:Lcom/google/android/gms/internal/ads/xc1;
 
     invoke-static {v0}, Lcom/google/android/gms/internal/ads/xc1;->d(Lcom/google/android/gms/internal/ads/xc1;)Lcom/google/android/gms/internal/ads/pd1;

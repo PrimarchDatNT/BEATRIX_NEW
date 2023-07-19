@@ -62,14 +62,12 @@
 .method static constructor <clinit>()V
     .locals 4
 
-    .line 1
     new-instance v0, Ljava/util/HashMap;
 
     invoke-direct {v0}, Ljava/util/HashMap;-><init>()V
 
     sput-object v0, Lorg/apache/thrift/TUnion;->schemes:Ljava/util/Map;
 
-    .line 2
     const-class v1, Lorg/apache/thrift/scheme/StandardScheme;
 
     new-instance v2, Lorg/apache/thrift/TUnion$TUnionStandardSchemeFactory;
@@ -80,7 +78,6 @@
 
     invoke-interface {v0, v1, v2}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 3
     const-class v1, Lorg/apache/thrift/scheme/TupleScheme;
 
     new-instance v2, Lorg/apache/thrift/TUnion$TUnionTupleSchemeFactory;
@@ -95,15 +92,12 @@
 .method protected constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/4 v0, 0x0
 
-    .line 2
     iput-object v0, p0, Lorg/apache/thrift/TUnion;->setField_:Lorg/apache/thrift/TFieldIdEnum;
 
-    .line 3
     iput-object v0, p0, Lorg/apache/thrift/TUnion;->value_:Ljava/lang/Object;
 
     return-void
@@ -119,10 +113,8 @@
         }
     .end annotation
 
-    .line 4
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 5
     invoke-virtual {p0, p1, p2}, Lorg/apache/thrift/TUnion;->setFieldValue(Lorg/apache/thrift/TFieldIdEnum;Ljava/lang/Object;)V
 
     return-void
@@ -138,10 +130,8 @@
         }
     .end annotation
 
-    .line 6
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 7
     invoke-virtual {p1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
     move-result-object v0
@@ -156,12 +146,10 @@
 
     if-eqz v0, :cond_0
 
-    .line 8
     iget-object v0, p1, Lorg/apache/thrift/TUnion;->setField_:Lorg/apache/thrift/TFieldIdEnum;
 
     iput-object v0, p0, Lorg/apache/thrift/TUnion;->setField_:Lorg/apache/thrift/TFieldIdEnum;
 
-    .line 9
     iget-object p1, p1, Lorg/apache/thrift/TUnion;->value_:Ljava/lang/Object;
 
     invoke-static {p1}, Lorg/apache/thrift/TUnion;->deepCopyObject(Ljava/lang/Object;)Ljava/lang/Object;
@@ -172,7 +160,6 @@
 
     return-void
 
-    .line 10
     :cond_0
     new-instance p1, Ljava/lang/ClassCastException;
 
@@ -184,7 +171,6 @@
 .method private static deepCopyList(Ljava/util/List;)Ljava/util/List;
     .locals 2
 
-    .line 1
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-interface {p0}, Ljava/util/List;->size()I
@@ -193,7 +179,6 @@
 
     invoke-direct {v0, v1}, Ljava/util/ArrayList;-><init>(I)V
 
-    .line 2
     invoke-interface {p0}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
     move-result-object p0
@@ -209,7 +194,6 @@
 
     move-result-object v1
 
-    .line 3
     invoke-static {v1}, Lorg/apache/thrift/TUnion;->deepCopyObject(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v1
@@ -235,12 +219,10 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/util/HashMap;
 
     invoke-direct {v0}, Ljava/util/HashMap;-><init>()V
 
-    .line 2
     invoke-interface {p0}, Ljava/util/Map;->entrySet()Ljava/util/Set;
 
     move-result-object p0
@@ -262,7 +244,6 @@
 
     check-cast v1, Ljava/util/Map$Entry;
 
-    .line 3
     invoke-interface {v1}, Ljava/util/Map$Entry;->getKey()Ljava/lang/Object;
 
     move-result-object v2
@@ -290,12 +271,10 @@
 .method private static deepCopyObject(Ljava/lang/Object;)Ljava/lang/Object;
     .locals 1
 
-    .line 1
     instance-of v0, p0, Lorg/apache/thrift/TBase;
 
     if-eqz v0, :cond_0
 
-    .line 2
     check-cast p0, Lorg/apache/thrift/TBase;
 
     invoke-interface {p0}, Lorg/apache/thrift/TBase;->deepCopy()Lorg/apache/thrift/TBase;
@@ -304,13 +283,11 @@
 
     return-object p0
 
-    .line 3
     :cond_0
     instance-of v0, p0, Ljava/nio/ByteBuffer;
 
     if-eqz v0, :cond_1
 
-    .line 4
     check-cast p0, Ljava/nio/ByteBuffer;
 
     invoke-static {p0}, Lorg/apache/thrift/TBaseHelper;->copyBinary(Ljava/nio/ByteBuffer;)Ljava/nio/ByteBuffer;
@@ -319,13 +296,11 @@
 
     return-object p0
 
-    .line 5
     :cond_1
     instance-of v0, p0, Ljava/util/List;
 
     if-eqz v0, :cond_2
 
-    .line 6
     check-cast p0, Ljava/util/List;
 
     invoke-static {p0}, Lorg/apache/thrift/TUnion;->deepCopyList(Ljava/util/List;)Ljava/util/List;
@@ -334,13 +309,11 @@
 
     return-object p0
 
-    .line 7
     :cond_2
     instance-of v0, p0, Ljava/util/Set;
 
     if-eqz v0, :cond_3
 
-    .line 8
     check-cast p0, Ljava/util/Set;
 
     invoke-static {p0}, Lorg/apache/thrift/TUnion;->deepCopySet(Ljava/util/Set;)Ljava/util/Set;
@@ -349,13 +322,11 @@
 
     return-object p0
 
-    .line 9
     :cond_3
     instance-of v0, p0, Ljava/util/Map;
 
     if-eqz v0, :cond_4
 
-    .line 10
     check-cast p0, Ljava/util/Map;
 
     invoke-static {p0}, Lorg/apache/thrift/TUnion;->deepCopyMap(Ljava/util/Map;)Ljava/util/Map;
@@ -369,12 +340,10 @@
 .method private static deepCopySet(Ljava/util/Set;)Ljava/util/Set;
     .locals 2
 
-    .line 1
     new-instance v0, Ljava/util/HashSet;
 
     invoke-direct {v0}, Ljava/util/HashSet;-><init>()V
 
-    .line 2
     invoke-interface {p0}, Ljava/util/Set;->iterator()Ljava/util/Iterator;
 
     move-result-object p0
@@ -390,7 +359,6 @@
 
     move-result-object v1
 
-    .line 3
     invoke-static {v1}, Lorg/apache/thrift/TUnion;->deepCopyObject(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v1
@@ -426,10 +394,8 @@
 
     const/4 v0, 0x0
 
-    .line 1
     iput-object v0, p0, Lorg/apache/thrift/TUnion;->setField_:Lorg/apache/thrift/TFieldIdEnum;
 
-    .line 2
     iput-object v0, p0, Lorg/apache/thrift/TUnion;->value_:Ljava/lang/Object;
 
     return-void
@@ -455,7 +421,6 @@
 .method public getFieldValue()Ljava/lang/Object;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lorg/apache/thrift/TUnion;->value_:Ljava/lang/Object;
 
     return-object v0
@@ -466,7 +431,6 @@
 
     int-to-short p1, p1
 
-    .line 5
     invoke-virtual {p0, p1}, Lorg/apache/thrift/TUnion;->enumForId(S)Lorg/apache/thrift/TFieldIdEnum;
 
     move-result-object p1
@@ -487,19 +451,16 @@
         }
     .end annotation
 
-    .line 2
     iget-object v0, p0, Lorg/apache/thrift/TUnion;->setField_:Lorg/apache/thrift/TFieldIdEnum;
 
     if-ne p1, v0, :cond_0
 
-    .line 3
     invoke-virtual {p0}, Lorg/apache/thrift/TUnion;->getFieldValue()Ljava/lang/Object;
 
     move-result-object p1
 
     return-object p1
 
-    .line 4
     :cond_0
     new-instance v0, Ljava/lang/IllegalArgumentException;
 
@@ -538,7 +499,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lorg/apache/thrift/TUnion;->setField_:Lorg/apache/thrift/TFieldIdEnum;
 
     return-object v0
@@ -550,7 +510,6 @@
 .method public isSet()Z
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lorg/apache/thrift/TUnion;->setField_:Lorg/apache/thrift/TFieldIdEnum;
 
     if-eqz v0, :cond_0
@@ -571,7 +530,6 @@
 
     int-to-short p1, p1
 
-    .line 3
     invoke-virtual {p0, p1}, Lorg/apache/thrift/TUnion;->enumForId(S)Lorg/apache/thrift/TFieldIdEnum;
 
     move-result-object p1
@@ -591,7 +549,6 @@
         }
     .end annotation
 
-    .line 2
     iget-object v0, p0, Lorg/apache/thrift/TUnion;->setField_:Lorg/apache/thrift/TFieldIdEnum;
 
     if-ne v0, p1, :cond_0
@@ -615,7 +572,6 @@
         }
     .end annotation
 
-    .line 1
     sget-object v0, Lorg/apache/thrift/TUnion;->schemes:Ljava/util/Map;
 
     invoke-virtual {p1}, Lorg/apache/thrift/protocol/TProtocol;->getScheme()Ljava/lang/Class;
@@ -642,7 +598,6 @@
 
     int-to-short p1, p1
 
-    .line 4
     invoke-virtual {p0, p1}, Lorg/apache/thrift/TUnion;->enumForId(S)Lorg/apache/thrift/TFieldIdEnum;
 
     move-result-object p1
@@ -662,13 +617,10 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0, p1, p2}, Lorg/apache/thrift/TUnion;->checkType(Lorg/apache/thrift/TFieldIdEnum;Ljava/lang/Object;)V
 
-    .line 2
     iput-object p1, p0, Lorg/apache/thrift/TUnion;->setField_:Lorg/apache/thrift/TFieldIdEnum;
 
-    .line 3
     iput-object p2, p0, Lorg/apache/thrift/TUnion;->value_:Ljava/lang/Object;
 
     return-void
@@ -693,17 +645,14 @@
 .method public toString()Ljava/lang/String;
     .locals 3
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
 
     const-string v1, "<"
 
-    .line 2
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 3
     invoke-virtual {p0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
     move-result-object v1
@@ -716,22 +665,18 @@
 
     const-string v1, " "
 
-    .line 4
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 5
     invoke-virtual {p0}, Lorg/apache/thrift/TUnion;->getSetField()Lorg/apache/thrift/TFieldIdEnum;
 
     move-result-object v1
 
     if-eqz v1, :cond_1
 
-    .line 6
     invoke-virtual {p0}, Lorg/apache/thrift/TUnion;->getFieldValue()Ljava/lang/Object;
 
     move-result-object v1
 
-    .line 7
     invoke-virtual {p0}, Lorg/apache/thrift/TUnion;->getSetField()Lorg/apache/thrift/TFieldIdEnum;
 
     move-result-object v2
@@ -746,22 +691,18 @@
 
     const-string v2, ":"
 
-    .line 8
     invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 9
     instance-of v2, v1, Ljava/nio/ByteBuffer;
 
     if-eqz v2, :cond_0
 
-    .line 10
     check-cast v1, Ljava/nio/ByteBuffer;
 
     invoke-static {v1, v0}, Lorg/apache/thrift/TBaseHelper;->toString(Ljava/nio/ByteBuffer;Ljava/lang/StringBuilder;)V
 
     goto :goto_0
 
-    .line 11
     :cond_0
     invoke-virtual {v1}, Ljava/lang/Object;->toString()Ljava/lang/String;
 
@@ -773,10 +714,8 @@
     :goto_0
     const-string v1, ">"
 
-    .line 12
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 13
     invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     move-result-object v0
@@ -808,7 +747,6 @@
         }
     .end annotation
 
-    .line 1
     sget-object v0, Lorg/apache/thrift/TUnion;->schemes:Ljava/util/Map;
 
     invoke-virtual {p1}, Lorg/apache/thrift/protocol/TProtocol;->getScheme()Ljava/lang/Class;

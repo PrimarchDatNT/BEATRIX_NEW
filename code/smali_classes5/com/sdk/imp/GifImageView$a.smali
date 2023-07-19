@@ -25,7 +25,6 @@
 .method constructor <init>(Lcom/sdk/imp/GifImageView;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/sdk/imp/GifImageView$a;->a:Lcom/sdk/imp/GifImageView;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -38,7 +37,6 @@
 .method public run()V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/sdk/imp/GifImageView$a;->a:Lcom/sdk/imp/GifImageView;
 
     invoke-static {v0}, Lcom/sdk/imp/GifImageView;->a(Lcom/sdk/imp/GifImageView;)Landroid/graphics/Bitmap;
@@ -59,7 +57,6 @@
 
     if-nez v0, :cond_0
 
-    .line 2
     iget-object v0, p0, Lcom/sdk/imp/GifImageView$a;->a:Lcom/sdk/imp/GifImageView;
 
     invoke-static {v0}, Lcom/sdk/imp/GifImageView;->a(Lcom/sdk/imp/GifImageView;)Landroid/graphics/Bitmap;

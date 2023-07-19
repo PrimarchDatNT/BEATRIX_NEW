@@ -20,7 +20,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-direct {p0, v0}, Lcom/meitu/library/analytics/y/e/b/f$c;-><init>(Lcom/meitu/library/analytics/y/e/b/f$a;)V
 
     return-void
@@ -35,7 +34,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     :try_start_0
     new-instance v1, Ljava/lang/String;
 
@@ -54,7 +52,6 @@
     :catch_0
     move-exception p1
 
-    .line 2
     new-instance p2, Ljava/lang/RuntimeException;
 
     invoke-direct {p2, p1}, Ljava/lang/RuntimeException;-><init>(Ljava/lang/Throwable;)V
@@ -74,7 +71,6 @@
     :try_start_0
     const-string v1, "UTF-8"
 
-    .line 1
     invoke-virtual {p1, v1}, Ljava/lang/String;->getBytes(Ljava/lang/String;)[B
 
     move-result-object p1
@@ -88,7 +84,6 @@
     :catch_0
     move-exception p1
 
-    .line 2
     new-instance v1, Ljava/lang/RuntimeException;
 
     invoke-direct {v1, p1}, Ljava/lang/RuntimeException;-><init>(Ljava/lang/Throwable;)V

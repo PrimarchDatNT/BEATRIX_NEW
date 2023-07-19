@@ -29,17 +29,14 @@
 .method private constructor <init>(Lio/grpc/internal/l;Ljava/lang/Runnable;)V
     .locals 0
 
-    .line 2
     iput-object p1, p0, Lio/grpc/internal/l$g;->c:Lio/grpc/internal/l;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/4 p1, 0x0
 
-    .line 3
     iput-boolean p1, p0, Lio/grpc/internal/l$g;->b:Z
 
-    .line 4
     iput-object p2, p0, Lio/grpc/internal/l$g;->a:Ljava/lang/Runnable;
 
     return-void
@@ -48,7 +45,6 @@
 .method synthetic constructor <init>(Lio/grpc/internal/l;Ljava/lang/Runnable;Lio/grpc/internal/l$a;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1, p2}, Lio/grpc/internal/l$g;-><init>(Lio/grpc/internal/l;Ljava/lang/Runnable;)V
 
     return-void
@@ -57,19 +53,16 @@
 .method private a()V
     .locals 1
 
-    .line 1
     iget-boolean v0, p0, Lio/grpc/internal/l$g;->b:Z
 
     if-nez v0, :cond_0
 
-    .line 2
     iget-object v0, p0, Lio/grpc/internal/l$g;->a:Ljava/lang/Runnable;
 
     invoke-interface {v0}, Ljava/lang/Runnable;->run()V
 
     const/4 v0, 0x1
 
-    .line 3
     iput-boolean v0, p0, Lio/grpc/internal/l$g;->b:Z
 
     :cond_0
@@ -83,10 +76,8 @@
     .annotation runtime Ljavax/annotation/j;
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Lio/grpc/internal/l$g;->a()V
 
-    .line 2
     iget-object v0, p0, Lio/grpc/internal/l$g;->c:Lio/grpc/internal/l;
 
     invoke-static {v0}, Lio/grpc/internal/l;->c(Lio/grpc/internal/l;)Lio/grpc/internal/m;

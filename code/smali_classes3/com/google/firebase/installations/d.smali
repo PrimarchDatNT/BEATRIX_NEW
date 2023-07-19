@@ -17,13 +17,10 @@
 .method private constructor <init>(Ljava/nio/channels/FileChannel;Ljava/nio/channels/FileLock;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/google/firebase/installations/d;->a:Ljava/nio/channels/FileChannel;
 
-    .line 3
     iput-object p2, p0, Lcom/google/firebase/installations/d;->b:Ljava/nio/channels/FileLock;
 
     return-void
@@ -34,7 +31,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     :try_start_0
     new-instance v1, Ljava/io/File;
 
@@ -44,7 +40,6 @@
 
     invoke-direct {v1, p0, p1}, Ljava/io/File;-><init>(Ljava/io/File;Ljava/lang/String;)V
 
-    .line 2
     new-instance p0, Ljava/io/RandomAccessFile;
 
     const-string p1, "rw"
@@ -59,7 +54,6 @@
     .catch Ljava/lang/Error; {:try_start_0 .. :try_end_0} :catch_7
     .catch Ljava/nio/channels/OverlappingFileLockException; {:try_start_0 .. :try_end_0} :catch_6
 
-    .line 3
     :try_start_1
     invoke-virtual {p0}, Ljava/nio/channels/FileChannel;->lock()Ljava/nio/channels/FileLock;
 
@@ -69,7 +63,6 @@
     .catch Ljava/lang/Error; {:try_start_1 .. :try_end_1} :catch_4
     .catch Ljava/nio/channels/OverlappingFileLockException; {:try_start_1 .. :try_end_1} :catch_3
 
-    .line 4
     :try_start_2
     new-instance v1, Lcom/google/firebase/installations/d;
 
@@ -137,12 +130,10 @@
 
     const-string v3, "encountered error while creating and acquiring the lock, ignoring"
 
-    .line 5
     invoke-static {v2, v3, v1}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
 
     if-eqz p1, :cond_0
 
-    .line 6
     :try_start_3
     invoke-virtual {p1}, Ljava/nio/channels/FileLock;->release()V
     :try_end_3
@@ -157,7 +148,6 @@
     :goto_3
     if-eqz p0, :cond_1
 
-    .line 7
     :try_start_4
     invoke-virtual {p0}, Ljava/nio/channels/FileChannel;->close()V
     :try_end_4
@@ -173,13 +163,11 @@
 .method b()V
     .locals 3
 
-    .line 1
     :try_start_0
     iget-object v0, p0, Lcom/google/firebase/installations/d;->b:Ljava/nio/channels/FileLock;
 
     invoke-virtual {v0}, Ljava/nio/channels/FileLock;->release()V
 
-    .line 2
     iget-object v0, p0, Lcom/google/firebase/installations/d;->a:Ljava/nio/channels/FileChannel;
 
     invoke-virtual {v0}, Ljava/nio/channels/FileChannel;->close()V
@@ -195,7 +183,6 @@
 
     const-string v2, "encountered error while releasing, ignoring"
 
-    .line 3
     invoke-static {v1, v2, v0}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
 
     :goto_0

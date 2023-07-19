@@ -61,7 +61,6 @@
 
     if-eqz p1, :cond_3
 
-    .line 1
     invoke-virtual {p1}, Lcom/commsource/studio/function/style/StyleIndex;->getStyleId()Ljava/lang/String;
 
     move-result-object v1
@@ -84,7 +83,6 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     iget-object v1, p0, Lcom/commsource/studio/function/StyleFragment$h;->a:Lcom/commsource/studio/function/StyleFragment;
 
@@ -102,7 +100,6 @@
 
     if-eqz v1, :cond_1
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/studio/function/StyleFragment$h;->a:Lcom/commsource/studio/function/StyleFragment;
 
     invoke-static {v1}, Lcom/commsource/studio/function/StyleFragment;->F1(Lcom/commsource/studio/function/StyleFragment;)Lcom/commsource/studio/function/StyleViewModel;
@@ -117,7 +114,6 @@
 
     invoke-virtual {v1, v2, v3}, Lcom/commsource/studio/function/StyleViewModel;->J(Lcom/commsource/studio/bean/g;Z)V
 
-    .line 4
     :cond_1
     iget-object v1, p0, Lcom/commsource/studio/function/StyleFragment$h;->a:Lcom/commsource/studio/function/StyleFragment;
 
@@ -131,7 +127,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/widget/h1/e;->G(I)V
 
-    .line 5
     iget-object v1, p0, Lcom/commsource/studio/function/StyleFragment$h;->a:Lcom/commsource/studio/function/StyleFragment;
 
     invoke-static {v1}, Lcom/commsource/studio/function/StyleFragment;->H1(Lcom/commsource/studio/function/StyleFragment;)Lcom/commsource/widget/h1/e;
@@ -144,7 +139,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/widget/h1/e;->r(Ljava/lang/Object;)V
 
-    .line 6
     iget-object v1, p0, Lcom/commsource/studio/function/StyleFragment$h;->a:Lcom/commsource/studio/function/StyleFragment;
 
     invoke-static {v1}, Lcom/commsource/studio/function/StyleFragment;->F1(Lcom/commsource/studio/function/StyleFragment;)Lcom/commsource/studio/function/StyleViewModel;
@@ -161,7 +155,6 @@
 
     if-eqz v1, :cond_3
 
-    .line 7
     iget-object v1, p0, Lcom/commsource/studio/function/StyleFragment$h;->a:Lcom/commsource/studio/function/StyleFragment;
 
     invoke-static {v1}, Lcom/commsource/studio/function/StyleFragment;->E1(Lcom/commsource/studio/function/StyleFragment;)Lcom/commsource/beautyplus/f0/ec;
@@ -178,7 +171,6 @@
 
     goto :goto_1
 
-    .line 8
     :cond_2
     :goto_0
     iget-object p1, p0, Lcom/commsource/studio/function/StyleFragment$h;->a:Lcom/commsource/studio/function/StyleFragment;
@@ -191,7 +183,6 @@
 
     invoke-virtual {p1, v1}, Lcom/commsource/widget/h1/e;->E(Ljava/lang/Object;)V
 
-    .line 9
     :cond_3
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -206,7 +197,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Lcom/commsource/studio/function/style/StyleIndex;
 
     invoke-virtual {p0, p1}, Lcom/commsource/studio/function/StyleFragment$h;->a(Lcom/commsource/studio/function/style/StyleIndex;)V

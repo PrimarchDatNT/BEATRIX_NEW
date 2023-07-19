@@ -33,10 +33,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/google/android/gms/internal/measurement/i1;->a:Ljava/util/Map;
 
     return-void
@@ -65,7 +63,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     invoke-virtual {p1}, Landroid/net/Uri;->toString()Ljava/lang/String;
 
     move-result-object p2
@@ -75,7 +72,6 @@
     :cond_0
     if-eqz p2, :cond_4
 
-    .line 2
     :goto_0
     iget-object p1, p0, Lcom/google/android/gms/internal/measurement/i1;->a:Ljava/util/Map;
 
@@ -92,7 +88,6 @@
     :cond_1
     if-eqz p3, :cond_3
 
-    .line 3
     invoke-static {p3}, Ljava/lang/String;->valueOf(Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object p2
@@ -118,7 +113,6 @@
 
     invoke-direct {p4, p2}, Ljava/lang/String;-><init>(Ljava/lang/String;)V
 
-    .line 4
     :cond_3
     :goto_1
     invoke-interface {p1, p4}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;

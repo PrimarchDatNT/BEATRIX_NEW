@@ -15,7 +15,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -24,7 +23,6 @@
 .method public static a(Landroid/content/Context;)V
     .locals 1
 
-    .line 1
     invoke-static {}, Lcom/google/android/gms/internal/ads/np2;->s()Lcom/google/android/gms/internal/ads/np2;
 
     move-result-object v0
@@ -37,7 +35,6 @@
 .method public static b()Lcom/google/android/gms/ads/initialization/a;
     .locals 1
 
-    .line 1
     invoke-static {}, Lcom/google/android/gms/internal/ads/np2;->s()Lcom/google/android/gms/internal/ads/np2;
 
     move-result-object v0
@@ -54,7 +51,6 @@
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
-    .line 1
     invoke-static {}, Lcom/google/android/gms/internal/ads/np2;->s()Lcom/google/android/gms/internal/ads/np2;
 
     move-result-object v0
@@ -69,7 +65,6 @@
 .method public static d(Landroid/content/Context;)Lcom/google/android/gms/ads/y/c;
     .locals 1
 
-    .line 1
     invoke-static {}, Lcom/google/android/gms/internal/ads/np2;->s()Lcom/google/android/gms/internal/ads/np2;
 
     move-result-object v0
@@ -84,7 +79,6 @@
 .method public static e()Ljava/lang/String;
     .locals 1
 
-    .line 1
     invoke-static {}, Lcom/google/android/gms/internal/ads/np2;->s()Lcom/google/android/gms/internal/ads/np2;
 
     move-result-object v0
@@ -104,7 +98,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-static {p0, v0, v0}, Lcom/google/android/gms/ads/m;->i(Landroid/content/Context;Ljava/lang/String;Lcom/google/android/gms/ads/m$a;)V
 
     return-void
@@ -113,7 +106,6 @@
 .method public static g(Landroid/content/Context;Lcom/google/android/gms/ads/initialization/b;)V
     .locals 2
 
-    .line 1
     invoke-static {}, Lcom/google/android/gms/internal/ads/np2;->s()Lcom/google/android/gms/internal/ads/np2;
 
     move-result-object v0
@@ -136,7 +128,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-static {p0, p1, v0}, Lcom/google/android/gms/ads/m;->i(Landroid/content/Context;Ljava/lang/String;Lcom/google/android/gms/ads/m$a;)V
 
     return-void
@@ -151,14 +142,12 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    .line 1
     invoke-static {}, Lcom/google/android/gms/internal/ads/np2;->s()Lcom/google/android/gms/internal/ads/np2;
 
     move-result-object p2
 
     const/4 v0, 0x0
 
-    .line 2
     invoke-virtual {p2, p0, p1, v0}, Lcom/google/android/gms/internal/ads/np2;->l(Landroid/content/Context;Ljava/lang/String;Lcom/google/android/gms/ads/initialization/b;)V
 
     return-void
@@ -167,7 +156,6 @@
 .method public static j(Landroid/content/Context;Ljava/lang/String;)V
     .locals 1
 
-    .line 1
     invoke-static {}, Lcom/google/android/gms/internal/ads/np2;->s()Lcom/google/android/gms/internal/ads/np2;
 
     move-result-object v0
@@ -192,7 +180,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {}, Lcom/google/android/gms/internal/ads/np2;->s()Lcom/google/android/gms/internal/ads/np2;
 
     move-result-object v0
@@ -205,7 +192,6 @@
 .method public static l(Z)V
     .locals 1
 
-    .line 1
     invoke-static {}, Lcom/google/android/gms/internal/ads/np2;->s()Lcom/google/android/gms/internal/ads/np2;
 
     move-result-object v0
@@ -218,7 +204,6 @@
 .method public static m(F)V
     .locals 1
 
-    .line 1
     invoke-static {}, Lcom/google/android/gms/internal/ads/np2;->s()Lcom/google/android/gms/internal/ads/np2;
 
     move-result-object v0
@@ -235,7 +220,6 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-static {}, Lcom/google/android/gms/internal/ads/np2;->s()Lcom/google/android/gms/internal/ads/np2;
 
     move-result-object v0

@@ -21,13 +21,10 @@
 .method public constructor <init>(Lcom/google/ar/core/Session;J)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lc/a/b;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/google/ar/core/ArImage;->session:Lcom/google/ar/core/Session;
 
-    .line 3
     iput-wide p2, p0, Lcom/google/ar/core/ArImage;->nativeHandle:J
 
     return-void
@@ -36,7 +33,6 @@
 .method static synthetic access$000(Lcom/google/ar/core/ArImage;JJI)I
     .locals 0
 
-    .line 1
     invoke-direct/range {p0 .. p5}, Lcom/google/ar/core/ArImage;->nativeGetRowStride(JJI)I
 
     move-result p0
@@ -47,7 +43,6 @@
 .method static synthetic access$100(Lcom/google/ar/core/ArImage;JJI)I
     .locals 0
 
-    .line 1
     invoke-direct/range {p0 .. p5}, Lcom/google/ar/core/ArImage;->nativeGetPixelStride(JJI)I
 
     move-result p0
@@ -58,7 +53,6 @@
 .method static synthetic access$200(Lcom/google/ar/core/ArImage;JJI)Ljava/nio/ByteBuffer;
     .locals 0
 
-    .line 1
     invoke-direct/range {p0 .. p5}, Lcom/google/ar/core/ArImage;->nativeGetBuffer(JJI)Ljava/nio/ByteBuffer;
 
     move-result-object p0
@@ -101,14 +95,12 @@
 .method public close()V
     .locals 2
 
-    .line 1
     iget-wide v0, p0, Lcom/google/ar/core/ArImage;->nativeHandle:J
 
     invoke-direct {p0, v0, v1}, Lcom/google/ar/core/ArImage;->nativeClose(J)V
 
     const-wide/16 v0, 0x0
 
-    .line 2
     iput-wide v0, p0, Lcom/google/ar/core/ArImage;->nativeHandle:J
 
     return-void
@@ -117,7 +109,6 @@
 .method public getCropRect()Landroid/graphics/Rect;
     .locals 2
 
-    .line 1
     new-instance v0, Ljava/lang/UnsupportedOperationException;
 
     const-string v1, "Crop rect is unknown in this image."
@@ -130,7 +121,6 @@
 .method public getFormat()I
     .locals 4
 
-    .line 1
     iget-object v0, p0, Lcom/google/ar/core/ArImage;->session:Lcom/google/ar/core/Session;
 
     iget-wide v0, v0, Lcom/google/ar/core/Session;->nativeWrapperHandle:J
@@ -147,7 +137,6 @@
 
     return v0
 
-    .line 2
     :cond_0
     new-instance v0, Lcom/google/ar/core/exceptions/FatalException;
 
@@ -161,7 +150,6 @@
 .method public getHeight()I
     .locals 4
 
-    .line 1
     iget-object v0, p0, Lcom/google/ar/core/ArImage;->session:Lcom/google/ar/core/Session;
 
     iget-wide v0, v0, Lcom/google/ar/core/Session;->nativeWrapperHandle:J
@@ -178,7 +166,6 @@
 
     return v0
 
-    .line 2
     :cond_0
     new-instance v0, Lcom/google/ar/core/exceptions/FatalException;
 
@@ -192,7 +179,6 @@
 .method public getPlanes()[Landroid/media/Image$Plane;
     .locals 6
 
-    .line 1
     iget-object v0, p0, Lcom/google/ar/core/ArImage;->session:Lcom/google/ar/core/Session;
 
     iget-wide v0, v0, Lcom/google/ar/core/Session;->nativeWrapperHandle:J
@@ -207,7 +193,6 @@
 
     if-eq v0, v1, :cond_1
 
-    .line 2
     new-array v1, v0, [Lcom/google/ar/core/ArImage$a;
 
     const/4 v2, 0x0
@@ -215,7 +200,6 @@
     :goto_0
     if-ge v2, v0, :cond_0
 
-    .line 3
     new-instance v3, Lcom/google/ar/core/ArImage$a;
 
     iget-wide v4, p0, Lcom/google/ar/core/ArImage;->nativeHandle:J
@@ -231,7 +215,6 @@
     :cond_0
     return-object v1
 
-    .line 4
     :cond_1
     new-instance v0, Lcom/google/ar/core/exceptions/FatalException;
 
@@ -245,7 +228,6 @@
 .method public getTimestamp()J
     .locals 5
 
-    .line 1
     iget-object v0, p0, Lcom/google/ar/core/ArImage;->session:Lcom/google/ar/core/Session;
 
     iget-wide v0, v0, Lcom/google/ar/core/Session;->nativeWrapperHandle:J
@@ -264,7 +246,6 @@
 
     return-wide v0
 
-    .line 2
     :cond_0
     new-instance v0, Lcom/google/ar/core/exceptions/FatalException;
 
@@ -278,7 +259,6 @@
 .method public getWidth()I
     .locals 4
 
-    .line 1
     iget-object v0, p0, Lcom/google/ar/core/ArImage;->session:Lcom/google/ar/core/Session;
 
     iget-wide v0, v0, Lcom/google/ar/core/Session;->nativeWrapperHandle:J
@@ -295,7 +275,6 @@
 
     return v0
 
-    .line 2
     :cond_0
     new-instance v0, Lcom/google/ar/core/exceptions/FatalException;
 
@@ -309,7 +288,6 @@
 .method public setCropRect(Landroid/graphics/Rect;)V
     .locals 1
 
-    .line 1
     new-instance p1, Ljava/lang/UnsupportedOperationException;
 
     const-string v0, "This is a read-only image."
@@ -322,7 +300,6 @@
 .method public setTimestamp(J)V
     .locals 0
 
-    .line 1
     new-instance p1, Ljava/lang/UnsupportedOperationException;
 
     const-string p2, "This is a read-only image."

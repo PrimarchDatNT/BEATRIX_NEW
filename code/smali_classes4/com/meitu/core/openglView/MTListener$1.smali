@@ -35,7 +35,6 @@
 .method constructor <init>(Lcom/meitu/core/openglView/MTListener;IFFFLcom/meitu/core/openglView/MTListener$AnimModel;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/core/openglView/MTListener$1;->this$0:Lcom/meitu/core/openglView/MTListener;
 
     iput p2, p0, Lcom/meitu/core/openglView/MTListener$1;->val$frames:I
@@ -64,13 +63,11 @@
 
     const/4 v1, 0x0
 
-    .line 1
     :goto_0
     iget v2, p0, Lcom/meitu/core/openglView/MTListener$1;->val$frames:I
 
     if-ge v1, v2, :cond_3
 
-    .line 2
     iget v2, p0, Lcom/meitu/core/openglView/MTListener$1;->val$scaleC:F
 
     const/4 v3, 0x0
@@ -79,7 +76,6 @@
 
     if-eqz v2, :cond_0
 
-    .line 3
     iget-object v2, p0, Lcom/meitu/core/openglView/MTListener$1;->this$0:Lcom/meitu/core/openglView/MTListener;
 
     invoke-static {v2}, Lcom/meitu/core/openglView/MTListener;->access$100(Lcom/meitu/core/openglView/MTListener;)F
@@ -92,7 +88,6 @@
 
     invoke-static {v2, v4}, Lcom/meitu/core/openglView/MTListener;->access$200(Lcom/meitu/core/openglView/MTListener;F)V
 
-    .line 4
     :cond_0
     iget v2, p0, Lcom/meitu/core/openglView/MTListener$1;->val$transXC:F
 
@@ -100,7 +95,6 @@
 
     if-eqz v2, :cond_1
 
-    .line 5
     iget-object v2, p0, Lcom/meitu/core/openglView/MTListener$1;->this$0:Lcom/meitu/core/openglView/MTListener;
 
     invoke-static {v2}, Lcom/meitu/core/openglView/MTListener;->access$300(Lcom/meitu/core/openglView/MTListener;)F
@@ -113,7 +107,6 @@
 
     invoke-static {v2, v4}, Lcom/meitu/core/openglView/MTListener;->access$400(Lcom/meitu/core/openglView/MTListener;F)V
 
-    .line 6
     :cond_1
     iget v2, p0, Lcom/meitu/core/openglView/MTListener$1;->val$transYC:F
 
@@ -121,7 +114,6 @@
 
     if-eqz v2, :cond_2
 
-    .line 7
     iget-object v2, p0, Lcom/meitu/core/openglView/MTListener$1;->this$0:Lcom/meitu/core/openglView/MTListener;
 
     invoke-static {v2}, Lcom/meitu/core/openglView/MTListener;->access$500(Lcom/meitu/core/openglView/MTListener;)F
@@ -134,7 +126,6 @@
 
     invoke-static {v2, v3}, Lcom/meitu/core/openglView/MTListener;->access$600(Lcom/meitu/core/openglView/MTListener;F)V
 
-    .line 8
     :cond_2
     iget-object v2, p0, Lcom/meitu/core/openglView/MTListener$1;->this$0:Lcom/meitu/core/openglView/MTListener;
 
@@ -142,7 +133,6 @@
 
     const-wide/16 v2, 0x8
 
-    .line 9
     :try_start_0
     invoke-static {v2, v3}, Ljava/lang/Thread;->sleep(J)V
     :try_end_0
@@ -153,7 +143,6 @@
     :catch_0
     move-exception v2
 
-    .line 10
     invoke-virtual {v2}, Ljava/lang/InterruptedException;->printStackTrace()V
 
     :goto_1
@@ -161,7 +150,6 @@
 
     goto :goto_0
 
-    .line 11
     :cond_3
     iget-object v1, p0, Lcom/meitu/core/openglView/MTListener$1;->this$0:Lcom/meitu/core/openglView/MTListener;
 
@@ -171,7 +159,6 @@
 
     invoke-static {v1, v2}, Lcom/meitu/core/openglView/MTListener;->access$200(Lcom/meitu/core/openglView/MTListener;F)V
 
-    .line 12
     iget-object v1, p0, Lcom/meitu/core/openglView/MTListener$1;->this$0:Lcom/meitu/core/openglView/MTListener;
 
     iget-object v2, p0, Lcom/meitu/core/openglView/MTListener$1;->val$animModel:Lcom/meitu/core/openglView/MTListener$AnimModel;
@@ -180,7 +167,6 @@
 
     invoke-static {v1, v2}, Lcom/meitu/core/openglView/MTListener;->access$400(Lcom/meitu/core/openglView/MTListener;F)V
 
-    .line 13
     iget-object v1, p0, Lcom/meitu/core/openglView/MTListener$1;->this$0:Lcom/meitu/core/openglView/MTListener;
 
     iget-object v2, p0, Lcom/meitu/core/openglView/MTListener$1;->val$animModel:Lcom/meitu/core/openglView/MTListener$AnimModel;
@@ -189,12 +175,10 @@
 
     invoke-static {v1, v2}, Lcom/meitu/core/openglView/MTListener;->access$600(Lcom/meitu/core/openglView/MTListener;F)V
 
-    .line 14
     iget-object v1, p0, Lcom/meitu/core/openglView/MTListener$1;->this$0:Lcom/meitu/core/openglView/MTListener;
 
     invoke-static {v1}, Lcom/meitu/core/openglView/MTListener;->access$700(Lcom/meitu/core/openglView/MTListener;)V
 
-    .line 15
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

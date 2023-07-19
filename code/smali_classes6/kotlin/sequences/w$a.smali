@@ -53,12 +53,10 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcotlin/sequences/w$a;->b:Lcotlin/sequences/w;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     invoke-static {p1}, Lcotlin/sequences/w;->c(Lcotlin/sequences/w;)Lcotlin/sequences/m;
 
     move-result-object p1
@@ -87,7 +85,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcotlin/sequences/w$a;->a:Ljava/util/Iterator;
 
     return-object v0
@@ -96,7 +93,6 @@
 .method public hasNext()Z
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcotlin/sequences/w$a;->a:Ljava/util/Iterator;
 
     invoke-interface {v0}, Ljava/util/Iterator;->hasNext()Z
@@ -114,7 +110,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcotlin/sequences/w$a;->b:Lcotlin/sequences/w;
 
     invoke-static {v0}, Lcotlin/sequences/w;->d(Lcotlin/sequences/w;)Lcotlin/jvm/u/l;

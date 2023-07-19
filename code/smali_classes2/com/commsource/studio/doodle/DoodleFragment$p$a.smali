@@ -42,7 +42,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/doodle/DoodleFragment$p$a;->a:Lcom/commsource/studio/doodle/DoodleFragment$p;
 
     iget-object v1, v1, Lcom/commsource/studio/doodle/DoodleFragment$p;->a:Lcom/commsource/studio/doodle/DoodleFragment;
@@ -53,7 +52,6 @@
 
     invoke-static {v1, v2, v3}, Lcom/commsource/studio/doodle/DoodleFragment;->p0(Lcom/commsource/studio/doodle/DoodleFragment;Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

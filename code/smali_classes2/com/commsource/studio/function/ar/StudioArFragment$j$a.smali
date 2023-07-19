@@ -54,7 +54,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/function/ar/StudioArFragment$j$a;->d:Lcom/commsource/studio/function/ar/StudioArFragment$j;
 
     iget-object v1, v1, Lcom/commsource/studio/function/ar/StudioArFragment$j;->a:Lcom/commsource/studio/function/ar/StudioArFragment;
@@ -77,7 +76,6 @@
 
     invoke-virtual {v1, v2, v3}, Landroidx/viewpager/widget/ViewPager;->setCurrentItem(IZ)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

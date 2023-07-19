@@ -57,7 +57,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/ImageStudioViewModel$onClickSave$1$a;->a:Lcom/commsource/studio/ImageStudioViewModel$onClickSave$1;
 
     iget-object v1, v1, Lcom/commsource/studio/ImageStudioViewModel$onClickSave$1;->b:Lcom/commsource/studio/ImageStudioActivity;
@@ -70,13 +69,10 @@
 
     const-string v3, "\u4eba\u50cf\u7f8e\u989c"
 
-    .line 2
     invoke-static {v1, v2, v3}, Lcom/commsource/statistics/i;->r(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 3
     invoke-virtual {p1}, Lcom/commsource/widget/dialog/i0;->dismiss()V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

@@ -27,7 +27,6 @@
 
     new-array v0, v0, [F
 
-    .line 1
     fill-array-data v0, :array_0
 
     sput-object v0, Lcom/google/android/gms/internal/ads/zzadd;->b:[F
@@ -50,13 +49,10 @@
 .method public constructor <init>(Landroid/content/Context;Lcom/google/android/gms/internal/ads/d2;Landroid/widget/RelativeLayout$LayoutParams;)V
     .locals 5
 
-    .line 1
     invoke-direct {p0, p1}, Landroid/widget/RelativeLayout;-><init>(Landroid/content/Context;)V
 
-    .line 2
     invoke-static {p2}, Lcom/google/android/gms/common/internal/b0;->k(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 3
     new-instance v0, Landroid/graphics/drawable/ShapeDrawable;
 
     new-instance v1, Landroid/graphics/drawable/shapes/RoundRectShape;
@@ -69,7 +65,6 @@
 
     invoke-direct {v0, v1}, Landroid/graphics/drawable/ShapeDrawable;-><init>(Landroid/graphics/drawable/shapes/Shape;)V
 
-    .line 4
     invoke-virtual {v0}, Landroid/graphics/drawable/ShapeDrawable;->getPaint()Landroid/graphics/Paint;
 
     move-result-object v1
@@ -80,23 +75,18 @@
 
     invoke-virtual {v1, v2}, Landroid/graphics/Paint;->setColor(I)V
 
-    .line 5
     invoke-virtual {p0, p3}, Landroid/widget/RelativeLayout;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
 
-    .line 6
     invoke-static {}, Lcom/google/android/gms/ads/internal/p;->e()Lcom/google/android/gms/internal/ads/hn;
 
-    .line 7
     invoke-virtual {p0, v0}, Landroid/view/View;->setBackground(Landroid/graphics/drawable/Drawable;)V
 
-    .line 8
     new-instance p3, Landroid/widget/RelativeLayout$LayoutParams;
 
     const/4 v0, -0x2
 
     invoke-direct {p3, v0, v0}, Landroid/widget/RelativeLayout$LayoutParams;-><init>(II)V
 
-    .line 9
     invoke-virtual {p2}, Lcom/google/android/gms/internal/ads/d2;->x6()Ljava/lang/String;
 
     move-result-object v1
@@ -111,44 +101,36 @@
 
     if-nez v1, :cond_0
 
-    .line 10
     new-instance v1, Landroid/widget/RelativeLayout$LayoutParams;
 
     invoke-direct {v1, v0, v0}, Landroid/widget/RelativeLayout$LayoutParams;-><init>(II)V
 
-    .line 11
     new-instance v0, Landroid/widget/TextView;
 
     invoke-direct {v0, p1}, Landroid/widget/TextView;-><init>(Landroid/content/Context;)V
 
-    .line 12
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
 
     const v1, 0x47470001
 
-    .line 13
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setId(I)V
 
-    .line 14
     sget-object v1, Landroid/graphics/Typeface;->DEFAULT:Landroid/graphics/Typeface;
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setTypeface(Landroid/graphics/Typeface;)V
 
-    .line 15
     invoke-virtual {p2}, Lcom/google/android/gms/internal/ads/d2;->x6()Ljava/lang/String;
 
     move-result-object v1
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 16
     invoke-virtual {p2}, Lcom/google/android/gms/internal/ads/d2;->c6()I
 
     move-result v1
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setTextColor(I)V
 
-    .line 17
     invoke-virtual {p2}, Lcom/google/android/gms/internal/ads/d2;->L6()I
 
     move-result v1
@@ -157,7 +139,6 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setTextSize(F)V
 
-    .line 18
     invoke-static {}, Lcom/google/android/gms/internal/ads/zm2;->a()Lcom/google/android/gms/internal/ads/pp;
 
     const/4 v1, 0x4
@@ -166,41 +147,33 @@
 
     move-result v4
 
-    .line 19
     invoke-static {}, Lcom/google/android/gms/internal/ads/zm2;->a()Lcom/google/android/gms/internal/ads/pp;
 
     invoke-static {p1, v1}, Lcom/google/android/gms/internal/ads/pp;->r(Landroid/content/Context;I)I
 
     move-result v1
 
-    .line 20
     invoke-virtual {v0, v4, v3, v1, v3}, Landroid/widget/TextView;->setPadding(IIII)V
 
-    .line 21
     invoke-virtual {p0, v0}, Landroid/widget/RelativeLayout;->addView(Landroid/view/View;)V
 
-    .line 22
     invoke-virtual {v0}, Landroid/widget/TextView;->getId()I
 
     move-result v0
 
     invoke-virtual {p3, v2, v0}, Landroid/widget/RelativeLayout$LayoutParams;->addRule(II)V
 
-    .line 23
     :cond_0
     new-instance v0, Landroid/widget/ImageView;
 
     invoke-direct {v0, p1}, Landroid/widget/ImageView;-><init>(Landroid/content/Context;)V
 
-    .line 24
     invoke-virtual {v0, p3}, Landroid/widget/ImageView;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
 
     const p1, 0x47470002
 
-    .line 25
     invoke-virtual {v0, p1}, Landroid/widget/ImageView;->setId(I)V
 
-    .line 26
     invoke-virtual {p2}, Lcom/google/android/gms/internal/ads/d2;->W7()Ljava/util/List;
 
     move-result-object p1
@@ -209,21 +182,18 @@
 
     if-eqz p1, :cond_2
 
-    .line 27
     invoke-interface {p1}, Ljava/util/List;->size()I
 
     move-result v1
 
     if-le v1, v2, :cond_2
 
-    .line 28
     new-instance v1, Landroid/graphics/drawable/AnimationDrawable;
 
     invoke-direct {v1}, Landroid/graphics/drawable/AnimationDrawable;-><init>()V
 
     iput-object v1, p0, Lcom/google/android/gms/internal/ads/zzadd;->a:Landroid/graphics/drawable/AnimationDrawable;
 
-    .line 29
     invoke-interface {p1}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
     move-result-object p1
@@ -241,7 +211,6 @@
 
     check-cast v1, Lcom/google/android/gms/internal/ads/h2;
 
-    .line 30
     :try_start_0
     invoke-virtual {v1}, Lcom/google/android/gms/internal/ads/h2;->H2()Lcom/google/android/gms/dynamic/d;
 
@@ -253,7 +222,6 @@
 
     check-cast v1, Landroid/graphics/drawable/Drawable;
 
-    .line 31
     iget-object v2, p0, Lcom/google/android/gms/internal/ads/zzadd;->a:Landroid/graphics/drawable/AnimationDrawable;
 
     invoke-virtual {p2}, Lcom/google/android/gms/internal/ads/d2;->f8()I
@@ -269,23 +237,19 @@
     :catch_0
     move-exception v1
 
-    .line 32
     invoke-static {p3, v1}, Lcom/google/android/gms/internal/ads/aq;->c(Ljava/lang/String;Ljava/lang/Throwable;)V
 
     goto :goto_0
 
-    .line 33
     :cond_1
     invoke-static {}, Lcom/google/android/gms/ads/internal/p;->e()Lcom/google/android/gms/internal/ads/hn;
 
     iget-object p1, p0, Lcom/google/android/gms/internal/ads/zzadd;->a:Landroid/graphics/drawable/AnimationDrawable;
 
-    .line 34
     invoke-virtual {v0, p1}, Landroid/view/View;->setBackground(Landroid/graphics/drawable/Drawable;)V
 
     goto :goto_1
 
-    .line 35
     :cond_2
     invoke-interface {p1}, Ljava/util/List;->size()I
 
@@ -293,7 +257,6 @@
 
     if-ne p2, v2, :cond_3
 
-    .line 36
     :try_start_1
     invoke-interface {p1, v3}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
@@ -311,7 +274,6 @@
 
     check-cast p1, Landroid/graphics/drawable/Drawable;
 
-    .line 37
     invoke-virtual {v0, p1}, Landroid/widget/ImageView;->setImageDrawable(Landroid/graphics/drawable/Drawable;)V
     :try_end_1
     .catch Ljava/lang/Exception; {:try_start_1 .. :try_end_1} :catch_1
@@ -321,10 +283,8 @@
     :catch_1
     move-exception p1
 
-    .line 38
     invoke-static {p3, p1}, Lcom/google/android/gms/internal/ads/aq;->c(Ljava/lang/String;Ljava/lang/Throwable;)V
 
-    .line 39
     :cond_3
     :goto_1
     invoke-virtual {p0, v0}, Landroid/widget/RelativeLayout;->addView(Landroid/view/View;)V
@@ -337,15 +297,12 @@
 .method public final onAttachedToWindow()V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/zzadd;->a:Landroid/graphics/drawable/AnimationDrawable;
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-virtual {v0}, Landroid/graphics/drawable/AnimationDrawable;->start()V
 
-    .line 3
     :cond_0
     invoke-super {p0}, Landroid/widget/RelativeLayout;->onAttachedToWindow()V
 

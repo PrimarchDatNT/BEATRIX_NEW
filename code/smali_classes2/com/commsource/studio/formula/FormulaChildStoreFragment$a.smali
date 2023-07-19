@@ -28,7 +28,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/formula/FormulaChildStoreFragment$a;->a:Lcom/commsource/studio/formula/FormulaChildStoreFragment;
 
     invoke-direct {p0}, Landroidx/recyclerview/widget/RecyclerView$ItemDecoration;-><init>()V
@@ -77,15 +76,12 @@
 
     invoke-static {p4, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-super {p0, p1, p2, p3, p4}, Landroidx/recyclerview/widget/RecyclerView$ItemDecoration;->getItemOffsets(Landroid/graphics/Rect;Landroid/view/View;Landroidx/recyclerview/widget/RecyclerView;Landroidx/recyclerview/widget/RecyclerView$State;)V
 
-    .line 2
     invoke-virtual {p3, p2}, Landroidx/recyclerview/widget/RecyclerView;->getChildAdapterPosition(Landroid/view/View;)I
 
     move-result p3
 
-    .line 3
     invoke-virtual {p2}, Landroid/view/View;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
 
     move-result-object p2
@@ -94,12 +90,10 @@
 
     check-cast p2, Landroidx/recyclerview/widget/StaggeredGridLayoutManager$LayoutParams;
 
-    .line 4
     invoke-virtual {p2}, Landroidx/recyclerview/widget/StaggeredGridLayoutManager$LayoutParams;->getSpanIndex()I
 
     move-result p2
 
-    .line 5
     iget-object p4, p0, Lcom/commsource/studio/formula/FormulaChildStoreFragment$a;->a:Lcom/commsource/studio/formula/FormulaChildStoreFragment;
 
     invoke-static {p4}, Lcom/commsource/studio/formula/FormulaChildStoreFragment;->A(Lcom/commsource/studio/formula/FormulaChildStoreFragment;)Z
@@ -122,7 +116,6 @@
 
     if-nez p3, :cond_0
 
-    .line 6
     invoke-static {v6}, Lcom/commsource/util/l0;->n(I)I
 
     move-result p2
@@ -143,7 +136,6 @@
 
     goto :goto_0
 
-    .line 7
     :cond_0
     rem-int/lit8 p2, p2, 0x2
 
@@ -168,7 +160,6 @@
     :cond_1
     if-ne p2, v1, :cond_8
 
-    .line 8
     invoke-static {v5}, Lcom/commsource/util/l0;->n(I)I
 
     move-result p2
@@ -185,13 +176,11 @@
 
     goto :goto_0
 
-    .line 9
     :cond_2
     rem-int/lit8 p2, p2, 0x2
 
     if-nez p2, :cond_5
 
-    .line 10
     invoke-static {v6}, Lcom/commsource/util/l0;->n(I)I
 
     move-result p2
@@ -205,7 +194,6 @@
 
     move-result v3
 
-    .line 11
     :cond_4
     invoke-static {v5}, Lcom/commsource/util/l0;->n(I)I
 
@@ -215,12 +203,10 @@
 
     move-result p4
 
-    .line 12
     invoke-virtual {p1, p2, v3, p3, p4}, Landroid/graphics/Rect;->set(IIII)V
 
     goto :goto_0
 
-    .line 13
     :cond_5
     invoke-static {v5}, Lcom/commsource/util/l0;->n(I)I
 
@@ -235,7 +221,6 @@
 
     move-result v3
 
-    .line 14
     :cond_7
     invoke-static {v6}, Lcom/commsource/util/l0;->n(I)I
 
@@ -245,17 +230,14 @@
 
     move-result p4
 
-    .line 15
     invoke-virtual {p1, p2, v3, p3, p4}, Landroid/graphics/Rect;->set(IIII)V
 
-    .line 16
     :cond_8
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 17
     :cond_9
     new-instance p1, Lcotlin/TypeCastException;
 

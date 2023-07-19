@@ -19,10 +19,8 @@
 .method public constructor <init>(Lcom/google/android/gms/ads/appopen/a$a;)V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Lcom/google/android/gms/internal/ads/kj2;-><init>()V
 
-    .line 2
     new-instance v0, Ljava/lang/ref/WeakReference;
 
     invoke-direct {v0, p1}, Ljava/lang/ref/WeakReference;-><init>(Ljava/lang/Object;)V
@@ -37,7 +35,6 @@
 .method public final Z4(Lcom/google/android/gms/internal/ads/gj2;)V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/ej2;->b:Ljava/lang/ref/WeakReference;
 
     invoke-virtual {v0}, Ljava/lang/ref/WeakReference;->get()Ljava/lang/Object;
@@ -48,7 +45,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 2
     new-instance v1, Lcom/google/android/gms/internal/ads/nj2;
 
     invoke-direct {v1, p1}, Lcom/google/android/gms/internal/ads/nj2;-><init>(Lcom/google/android/gms/internal/ads/gj2;)V
@@ -62,7 +58,6 @@
 .method public final a4(I)V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/ej2;->b:Ljava/lang/ref/WeakReference;
 
     invoke-virtual {v0}, Ljava/lang/ref/WeakReference;->get()Ljava/lang/Object;
@@ -73,7 +68,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-virtual {v0, p1}, Lcom/google/android/gms/ads/appopen/a$a;->a(I)V
 
     :cond_0

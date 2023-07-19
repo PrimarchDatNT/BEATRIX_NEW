@@ -28,7 +28,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity$w;->a:Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity;
 
     invoke-direct {p0}, Lcom/commsource/camera/f1/l$a;-><init>()V
@@ -49,7 +48,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -66,7 +64,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity$w;->a:Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity;
 
     invoke-static {v0}, Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity;->O0(Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity;)Landroid/view/View;
@@ -79,7 +76,6 @@
 
     invoke-virtual {v0, v1}, Landroid/view/View;->setTranslationX(F)V
 
-    .line 2
     :cond_0
     iget-object v0, p0, Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity$w;->a:Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity;
 
@@ -91,7 +87,6 @@
 
     invoke-virtual {v0, v1}, Landroid/view/View;->setTranslationX(F)V
 
-    .line 3
     :cond_1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -105,7 +100,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity$w;->a:Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity;
 
     invoke-static {v0}, Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity;->O0(Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity;)Landroid/view/View;
@@ -118,7 +112,6 @@
 
     invoke-virtual {v0, v1}, Landroid/view/View;->setTranslationX(F)V
 
-    .line 2
     :cond_0
     iget-object v0, p0, Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity$w;->a:Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity;
 
@@ -130,7 +123,6 @@
 
     invoke-virtual {v0, p2}, Landroid/view/View;->setTranslationX(F)V
 
-    .line 3
     :cond_1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

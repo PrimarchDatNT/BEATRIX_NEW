@@ -62,7 +62,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/studio/ImageStudioActivity$h0;->c:Lcom/commsource/studio/ImageStudioActivity;
 
     invoke-virtual {v0}, Lcom/commsource/studio/ImageStudioActivity;->l1()Lcom/commsource/beautyplus/f0/k0;
@@ -73,7 +72,6 @@
 
     invoke-virtual {v0}, Lcom/commsource/studio/gesture/LayerSelectComponent;->x()V
 
-    .line 2
     iget-object v0, p0, Lcom/commsource/studio/ImageStudioActivity$h0;->a:Lcom/commsource/studio/ImageStudioViewModel;
 
     invoke-virtual {v0}, Lcom/commsource/studio/ImageStudioViewModel;->S0()Landroidx/lifecycle/MutableLiveData;
@@ -88,7 +86,6 @@
 
     invoke-virtual {v0, v1, v2}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 3
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -101,7 +98,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Ljava/lang/Boolean;
 
     invoke-virtual {p0, p1}, Lcom/commsource/studio/ImageStudioActivity$h0;->a(Ljava/lang/Boolean;)V

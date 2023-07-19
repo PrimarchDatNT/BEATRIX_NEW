@@ -7,7 +7,6 @@
 .method protected constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Error;-><init>()V
 
     return-void
@@ -20,7 +19,6 @@
         .end annotation
     .end param
 
-    .line 2
     invoke-direct {p0, p1}, Ljava/lang/Error;-><init>(Ljava/lang/Throwable;)V
 
     return-void

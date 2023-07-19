@@ -27,7 +27,6 @@
 .method constructor <init>(Lcom/google/common/cache/l$a;Lcom/google/common/cache/RemovalNotification;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/common/cache/l$a$a;->b:Lcom/google/common/cache/l$a;
 
     iput-object p2, p0, Lcom/google/common/cache/l$a$a;->a:Lcom/google/common/cache/RemovalNotification;
@@ -42,7 +41,6 @@
 .method public run()V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/cache/l$a$a;->b:Lcom/google/common/cache/l$a;
 
     iget-object v0, v0, Lcom/google/common/cache/l$a;->b:Lcom/google/common/cache/k;

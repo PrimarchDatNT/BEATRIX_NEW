@@ -18,7 +18,6 @@
 .method constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -38,7 +37,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-interface {p0, p1}, Lf/k/g0/f/b;->d(Ljava/lang/Class;)Lf/k/g0/i/a;
 
     move-result-object p1
@@ -49,7 +47,6 @@
 
     return-object p1
 
-    .line 2
     :cond_0
     invoke-interface {p1}, Lf/k/g0/i/a;->get()Ljava/lang/Object;
 
@@ -72,7 +69,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-interface {p0, p1}, Lf/k/g0/f/b;->b(Ljava/lang/Class;)Lf/k/g0/i/a;
 
     move-result-object p1

@@ -7,7 +7,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -39,7 +38,6 @@
 
     new-array p1, v2, [Ljava/lang/Object;
 
-    .line 1
     invoke-static {p0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object p0
@@ -63,10 +61,8 @@
 
     const-string v0, "post cocos2d-x crash %s %s"
 
-    .line 2
     invoke-static {v0, v1}, Lcom/tencent/bugly/proguard/x;->a(Ljava/lang/String;[Ljava/lang/Object;)Z
 
-    .line 3
     invoke-static {}, Ljava/lang/Thread;->currentThread()Ljava/lang/Thread;
 
     move-result-object v2
@@ -91,7 +87,6 @@
 
     const-string p1, "post cocos2d-x fail args null"
 
-    .line 4
     invoke-static {p1, p0}, Lcom/tencent/bugly/proguard/x;->e(Ljava/lang/String;[Ljava/lang/Object;)Z
 
     return-void
@@ -136,7 +131,6 @@
 
     const-string v0, "post h5 crash %s %s"
 
-    .line 1
     invoke-static {v0, v1}, Lcom/tencent/bugly/proguard/x;->a(Ljava/lang/String;[Ljava/lang/Object;)Z
 
     const/16 v3, 0x8
@@ -151,7 +145,6 @@
 
     move-object v7, p4
 
-    .line 2
     invoke-static/range {v2 .. v7}, Lcom/tencent/bugly/crashreport/crash/d;->a(Ljava/lang/Thread;ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/util/Map;)V
 
     return-void
@@ -162,7 +155,6 @@
 
     const-string p1, "post h5 fail args null"
 
-    .line 3
     invoke-static {p1, p0}, Lcom/tencent/bugly/proguard/x;->e(Ljava/lang/String;[Ljava/lang/Object;)Z
 
     return-void
@@ -184,7 +176,6 @@
 
     const-string v2, "post u3d fail args null"
 
-    .line 1
     invoke-static {v2, v1}, Lcom/tencent/bugly/proguard/x;->e(Ljava/lang/String;[Ljava/lang/Object;)Z
 
     :cond_1
@@ -200,10 +191,8 @@
 
     const-string v0, "post u3d crash %s %s"
 
-    .line 2
     invoke-static {v0, v1}, Lcom/tencent/bugly/proguard/x;->a(Ljava/lang/String;[Ljava/lang/Object;)Z
 
-    .line 3
     invoke-static {}, Ljava/lang/Thread;->currentThread()Ljava/lang/Thread;
 
     move-result-object v2

@@ -42,7 +42,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/function/RelightFragment$f;->a:Lcom/commsource/studio/function/RelightFragment;
 
     invoke-static {v1}, Lcom/commsource/studio/function/RelightFragment;->A1(Lcom/commsource/studio/function/RelightFragment;)Lcom/commsource/comic/widget/c;
@@ -55,7 +54,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/comic/widget/c;->i(Landroid/content/DialogInterface$OnCancelListener;)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/function/RelightFragment$f;->a:Lcom/commsource/studio/function/RelightFragment;
 
     invoke-static {v1}, Lcom/commsource/studio/function/RelightFragment;->A1(Lcom/commsource/studio/function/RelightFragment;)Lcom/commsource/comic/widget/c;
@@ -76,7 +74,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/comic/widget/c;->k(Ljava/lang/String;)V
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/studio/function/RelightFragment$f;->a:Lcom/commsource/studio/function/RelightFragment;
 
     invoke-static {v1}, Lcom/commsource/studio/function/RelightFragment;->A1(Lcom/commsource/studio/function/RelightFragment;)Lcom/commsource/comic/widget/c;
@@ -89,7 +86,6 @@
 
     if-nez v1, :cond_0
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/studio/function/RelightFragment$f;->a:Lcom/commsource/studio/function/RelightFragment;
 
     invoke-static {v1}, Lcom/commsource/studio/function/RelightFragment;->A1(Lcom/commsource/studio/function/RelightFragment;)Lcom/commsource/comic/widget/c;
@@ -98,7 +94,6 @@
 
     invoke-virtual {v1}, Landroid/app/Dialog;->show()V
 
-    .line 5
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

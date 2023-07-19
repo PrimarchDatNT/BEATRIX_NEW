@@ -48,12 +48,10 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/google/protobuf/z0$i$e;->b:Lcom/google/protobuf/z0$i;
 
     invoke-direct {p0}, Ljava/util/AbstractSet;-><init>()V
 
-    .line 2
     iput-object p2, p0, Lcom/google/protobuf/z0$i$e;->a:Ljava/util/Set;
 
     return-void
@@ -72,7 +70,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/google/protobuf/z0$i$d;
 
     iget-object v1, p0, Lcom/google/protobuf/z0$i$e;->b:Lcom/google/protobuf/z0$i;
@@ -91,7 +88,6 @@
 .method public size()I
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/protobuf/z0$i$e;->a:Ljava/util/Set;
 
     invoke-interface {v0}, Ljava/util/Set;->size()I

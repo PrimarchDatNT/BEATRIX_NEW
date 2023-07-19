@@ -22,7 +22,6 @@
 .method constructor <init>(Lcom/commsource/beautyplus/web/p;Ljava/lang/String;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/beautyplus/web/p$b;->g:Lcom/commsource/beautyplus/web/p;
 
     invoke-direct {p0, p2}, Lcom/commsource/util/u2/a;-><init>(Ljava/lang/String;)V
@@ -39,10 +38,8 @@
 
     sget v1, Lcom/res/provider/ResSTRING;->picture_read_fail:I
 
-    .line 1
     invoke-static {v1}, Lf/k/c/c/f;->w(I)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/beautyplus/web/p$b;->g:Lcom/commsource/beautyplus/web/p;
 
     invoke-static {v1}, Lcom/commsource/beautyplus/web/p;->H(Lcom/commsource/beautyplus/web/p;)Lcom/commsource/beautyplus/web/o$b;
@@ -53,7 +50,6 @@
 
     invoke-interface {v1, v2}, Lcom/commsource/beautyplus/web/o$b;->h0(Z)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -68,7 +64,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/beautyplus/web/p$b;->g:Lcom/commsource/beautyplus/web/p;
 
     invoke-static {v1}, Lcom/commsource/beautyplus/web/p;->y(Lcom/commsource/beautyplus/web/p;)Ljava/lang/String;
@@ -101,7 +96,6 @@
 
     goto/16 :goto_0
 
-    .line 2
     :cond_0
     iget-object v1, p0, Lcom/commsource/beautyplus/web/p$b;->g:Lcom/commsource/beautyplus/web/p;
 
@@ -111,7 +105,6 @@
 
     if-ne v1, v4, :cond_3
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/beautyplus/web/p$b;->g:Lcom/commsource/beautyplus/web/p;
 
     invoke-static {v1}, Lcom/commsource/beautyplus/web/p;->y(Lcom/commsource/beautyplus/web/p;)Ljava/lang/String;
@@ -124,7 +117,6 @@
 
     if-eqz v1, :cond_2
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/beautyplus/web/p$b;->g:Lcom/commsource/beautyplus/web/p;
 
     invoke-static {v1}, Lcom/commsource/beautyplus/web/p;->H(Lcom/commsource/beautyplus/web/p;)Lcom/commsource/beautyplus/web/o$b;
@@ -141,7 +133,6 @@
 
     iget-object v1, p0, Lcom/commsource/beautyplus/web/p$b;->g:Lcom/commsource/beautyplus/web/p;
 
-    .line 5
     invoke-static {v1}, Lcom/commsource/beautyplus/web/p;->E(Lcom/commsource/beautyplus/web/p;)Lcom/commsource/beautyplus/router/RouterEntity;
 
     move-result-object v1
@@ -163,7 +154,6 @@
 
     iget-object v1, p0, Lcom/commsource/beautyplus/web/p$b;->g:Lcom/commsource/beautyplus/web/p;
 
-    .line 6
     invoke-static {v1}, Lcom/commsource/beautyplus/web/p;->y(Lcom/commsource/beautyplus/web/p;)Ljava/lang/String;
 
     move-result-object v8
@@ -180,12 +170,10 @@
 
     move-result-object v10
 
-    .line 7
     invoke-interface/range {v4 .. v10}, Lcom/commsource/beautyplus/web/o$b;->j0(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ILjava/lang/String;)V
 
     goto/16 :goto_2
 
-    .line 8
     :cond_2
     new-instance v1, Lcom/commsource/beautyplus/web/k;
 
@@ -195,7 +183,6 @@
 
     goto/16 :goto_2
 
-    .line 9
     :cond_3
     iget-object v1, p0, Lcom/commsource/beautyplus/web/p$b;->g:Lcom/commsource/beautyplus/web/p;
 
@@ -243,12 +230,10 @@
 
     goto/16 :goto_2
 
-    .line 10
     :cond_4
     :goto_0
     iget-object v1, p0, Lcom/commsource/beautyplus/web/p$b;->g:Lcom/commsource/beautyplus/web/p;
 
-    .line 11
     invoke-static {v1}, Lcom/commsource/beautyplus/web/p;->y(Lcom/commsource/beautyplus/web/p;)Ljava/lang/String;
 
     move-result-object v1
@@ -259,7 +244,6 @@
 
     move-result-object v1
 
-    .line 12
     invoke-static {v1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v5
@@ -268,22 +252,18 @@
 
     const-string v5, "!"
 
-    .line 13
     invoke-virtual {v1, v5}, Ljava/lang/String;->split(Ljava/lang/String;)[Ljava/lang/String;
 
     move-result-object v5
 
-    .line 14
     array-length v6, v5
 
     if-le v6, v4, :cond_6
 
-    .line 15
     new-instance v6, Ljava/io/File;
 
     invoke-direct {v6, v1}, Ljava/io/File;-><init>(Ljava/lang/String;)V
 
-    .line 16
     new-instance v1, Ljava/io/File;
 
     const/4 v7, 0x0
@@ -300,7 +280,6 @@
 
     const-string v1, "rename succeeded"
 
-    .line 17
     invoke-static {v1}, Lcom/meitu/library/util/Debug/Debug;->d(Ljava/lang/String;)V
 
     goto :goto_1
@@ -308,17 +287,14 @@
     :cond_5
     const-string v1, "rename failed"
 
-    .line 18
     invoke-static {v1}, Lcom/meitu/library/util/Debug/Debug;->d(Ljava/lang/String;)V
 
-    .line 19
     :goto_1
     aget-object v1, v5, v7
 
     :cond_6
     move-object v9, v1
 
-    .line 20
     iget-object v1, p0, Lcom/commsource/beautyplus/web/p$b;->g:Lcom/commsource/beautyplus/web/p;
 
     invoke-static {v1}, Lcom/commsource/beautyplus/web/p;->A(Lcom/commsource/beautyplus/web/p;)I
@@ -327,7 +303,6 @@
 
     if-ne v1, v4, :cond_8
 
-    .line 21
     iget-object v1, p0, Lcom/commsource/beautyplus/web/p$b;->g:Lcom/commsource/beautyplus/web/p;
 
     invoke-static {v1}, Lcom/commsource/beautyplus/web/p;->H(Lcom/commsource/beautyplus/web/p;)Lcom/commsource/beautyplus/web/o$b;
@@ -344,7 +319,6 @@
 
     iget-object v1, p0, Lcom/commsource/beautyplus/web/p$b;->g:Lcom/commsource/beautyplus/web/p;
 
-    .line 22
     invoke-static {v1}, Lcom/commsource/beautyplus/web/p;->E(Lcom/commsource/beautyplus/web/p;)Lcom/commsource/beautyplus/router/RouterEntity;
 
     move-result-object v1
@@ -366,7 +340,6 @@
 
     iget-object v1, p0, Lcom/commsource/beautyplus/web/p$b;->g:Lcom/commsource/beautyplus/web/p;
 
-    .line 23
     invoke-static {v1}, Lcom/commsource/beautyplus/web/p;->A(Lcom/commsource/beautyplus/web/p;)I
 
     move-result v10
@@ -377,12 +350,10 @@
 
     move-result-object v11
 
-    .line 24
     invoke-interface/range {v5 .. v11}, Lcom/commsource/beautyplus/web/o$b;->j0(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ILjava/lang/String;)V
 
     goto :goto_2
 
-    .line 25
     :cond_8
     iget-object v1, p0, Lcom/commsource/beautyplus/web/p$b;->g:Lcom/commsource/beautyplus/web/p;
 
@@ -422,7 +393,6 @@
 
     invoke-interface/range {v5 .. v11}, Lcom/commsource/beautyplus/web/o$b;->j0(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ILjava/lang/String;)V
 
-    .line 26
     :cond_9
     :goto_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

@@ -36,22 +36,18 @@
 
     sget v0, Lcom/res/provider/ResLAYOUT;->item_new_skin_color:I
 
-    .line 1
     invoke-direct {p0, p1, p2, v0}, Lcom/commsource/widget/h1/f;-><init>(Landroid/content/Context;Landroid/view/ViewGroup;I)V
 
-    .line 2
     iget-object p1, p0, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->itemView:Landroid/view/View;
 
     invoke-static {p1}, Lcom/commsource/beautyplus/f0/qh;->a(Landroid/view/View;)Lcom/commsource/beautyplus/f0/qh;
 
     move-result-object p1
 
-    .line 3
     invoke-virtual {p1}, Landroidx/databinding/ViewDataBinding;->executePendingBindings()V
 
     const-string p2, "ItemNewSkinColorBinding.\u2026tePendingBindings()\n    }"
 
-    .line 4
     invoke-static {p1, p2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     iput-object p1, p0, Lcom/commsource/studio/function/t/a;->p:Lcom/commsource/beautyplus/f0/qh;
@@ -91,17 +87,14 @@
 
     invoke-static {p2, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-super {p0, p1, p2, p3}, Lcom/commsource/widget/h1/f;->k(ILcom/commsource/widget/h1/d;Ljava/util/List;)V
 
-    .line 2
     invoke-virtual {p2}, Lcom/commsource/widget/h1/d;->b()Ljava/lang/Object;
 
     move-result-object p1
 
     check-cast p1, Lcom/commsource/studio/function/t/c;
 
-    .line 3
     iget-object p3, p0, Lcom/commsource/widget/h1/f;->d:Landroid/content/Context;
 
     invoke-static {p3}, Lcom/commsource/util/u0;->i(Landroid/content/Context;)Lcom/commsource/util/u0$d;
@@ -110,12 +103,10 @@
 
     sget v1, Lcom/res/provider/ResDRAWABLE;->placeholder_stickers_45:I
 
-    .line 4
     invoke-virtual {p3, v1}, Lcom/commsource/util/u0$d;->q(I)Lcom/commsource/util/u0$d;
 
     move-result-object p3
 
-    .line 5
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -146,14 +137,12 @@
 
     move-result-object p3
 
-    .line 6
     iget-object v1, p0, Lcom/commsource/studio/function/t/a;->p:Lcom/commsource/beautyplus/f0/qh;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/qh;->b:Lcom/commsource/widget/CircleImageView;
 
     invoke-virtual {p3, v1}, Lcom/commsource/util/u0$d;->e(Landroid/widget/ImageView;)V
 
-    .line 7
     invoke-virtual {p1}, Lcom/commsource/studio/function/t/c;->e()Z
 
     move-result p3
@@ -162,7 +151,6 @@
 
     if-eqz p3, :cond_0
 
-    .line 8
     iget-object p3, p0, Lcom/commsource/studio/function/t/a;->p:Lcom/commsource/beautyplus/f0/qh;
 
     iget-object p3, p3, Lcom/commsource/beautyplus/f0/qh;->a:Landroid/widget/ImageView;
@@ -173,7 +161,6 @@
 
     goto :goto_0
 
-    .line 9
     :cond_0
     iget-object p3, p0, Lcom/commsource/studio/function/t/a;->p:Lcom/commsource/beautyplus/f0/qh;
 
@@ -183,7 +170,6 @@
 
     invoke-static {p3}, Lcom/commsource/util/l0;->w(Landroid/view/View;)V
 
-    .line 10
     :goto_0
     iget-object p3, p0, Lcom/commsource/studio/function/t/a;->p:Lcom/commsource/beautyplus/f0/qh;
 
@@ -199,7 +185,6 @@
 
     invoke-virtual {p3, p1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 11
     invoke-virtual {p2}, Lcom/commsource/widget/h1/d;->g()Z
 
     move-result p1
@@ -208,7 +193,6 @@
 
     if-eqz p1, :cond_1
 
-    .line 12
     iget-object p1, p0, Lcom/commsource/studio/function/t/a;->p:Lcom/commsource/beautyplus/f0/qh;
 
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/qh;->f:Lcom/commsource/widget/round/RoundIconfontTextView;
@@ -219,7 +203,6 @@
 
     goto :goto_1
 
-    .line 13
     :cond_1
     iget-object p1, p0, Lcom/commsource/studio/function/t/a;->p:Lcom/commsource/beautyplus/f0/qh;
 
@@ -229,7 +212,6 @@
 
     invoke-static {p1}, Lcom/commsource/util/l0;->w(Landroid/view/View;)V
 
-    .line 14
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -245,7 +227,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/function/t/a;->p:Lcom/commsource/beautyplus/f0/qh;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

@@ -18,10 +18,8 @@
 .method public constructor <init>()V
     .locals 2
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     invoke-static {}, Lcom/kwai/koom/javaoom/common/d;->i()Lcom/kwai/koom/javaoom/common/f;
 
     move-result-object v0
@@ -36,7 +34,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 3
     invoke-virtual {p0}, Lcom/kwai/koom/javaoom/dump/StripHprofHeapDumper;->initStripDump()V
 
     :cond_0
@@ -48,7 +45,6 @@
 .method public dump(Ljava/lang/String;)Z
     .locals 3
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -67,7 +63,6 @@
 
     invoke-static {v1, v0}, Lcom/kwai/koom/javaoom/common/e;->c(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 2
     iget-boolean v0, p0, Lcom/kwai/koom/javaoom/dump/StripHprofHeapDumper;->a:Z
 
     const/4 v2, 0x0
@@ -76,12 +71,10 @@
 
     const-string p1, "dump failed caused by so not loaded!"
 
-    .line 3
     invoke-static {v1, p1}, Lcom/kwai/koom/javaoom/common/e;->b(Ljava/lang/String;Ljava/lang/String;)V
 
     return v2
 
-    .line 4
     :cond_0
     invoke-static {}, Lcom/kwai/koom/javaoom/KOOMEnableChecker;->b()Lcom/kwai/koom/javaoom/KOOMEnableChecker;
 
@@ -95,20 +88,16 @@
 
     const-string p1, "dump failed caused by version net permitted!"
 
-    .line 5
     invoke-static {v1, p1}, Lcom/kwai/koom/javaoom/common/e;->b(Ljava/lang/String;Ljava/lang/String;)V
 
     return v2
 
-    .line 6
     :cond_1
     :try_start_0
     invoke-virtual {p0, p1}, Lcom/kwai/koom/javaoom/dump/StripHprofHeapDumper;->hprofName(Ljava/lang/String;)V
 
-    .line 7
     invoke-static {p1}, Landroid/os/Debug;->dumpHprofData(Ljava/lang/String;)V
 
-    .line 8
     invoke-virtual {p0}, Lcom/kwai/koom/javaoom/dump/StripHprofHeapDumper;->isStripSuccess()Z
 
     move-result v2
@@ -120,7 +109,6 @@
     :catch_0
     move-exception p1
 
-    .line 9
     invoke-virtual {p1}, Ljava/io/IOException;->printStackTrace()V
 
     :goto_0

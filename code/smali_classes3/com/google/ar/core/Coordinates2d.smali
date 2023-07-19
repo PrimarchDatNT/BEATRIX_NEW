@@ -39,7 +39,6 @@
 .method static constructor <clinit>()V
     .locals 16
 
-    .line 1
     new-instance v0, Lcom/google/ar/core/Coordinates2d;
 
     const-string v1, "TEXTURE_TEXELS"
@@ -50,7 +49,6 @@
 
     sput-object v0, Lcom/google/ar/core/Coordinates2d;->TEXTURE_TEXELS:Lcom/google/ar/core/Coordinates2d;
 
-    .line 2
     new-instance v1, Lcom/google/ar/core/Coordinates2d;
 
     const-string v3, "TEXTURE_NORMALIZED"
@@ -61,7 +59,6 @@
 
     sput-object v1, Lcom/google/ar/core/Coordinates2d;->TEXTURE_NORMALIZED:Lcom/google/ar/core/Coordinates2d;
 
-    .line 3
     new-instance v3, Lcom/google/ar/core/Coordinates2d;
 
     const-string v5, "IMAGE_PIXELS"
@@ -72,7 +69,6 @@
 
     sput-object v3, Lcom/google/ar/core/Coordinates2d;->IMAGE_PIXELS:Lcom/google/ar/core/Coordinates2d;
 
-    .line 4
     new-instance v5, Lcom/google/ar/core/Coordinates2d;
 
     const-string v7, "IMAGE_NORMALIZED"
@@ -83,7 +79,6 @@
 
     sput-object v5, Lcom/google/ar/core/Coordinates2d;->IMAGE_NORMALIZED:Lcom/google/ar/core/Coordinates2d;
 
-    .line 5
     new-instance v7, Lcom/google/ar/core/Coordinates2d;
 
     const-string v9, "OPENGL_NORMALIZED_DEVICE_COORDINATES"
@@ -96,7 +91,6 @@
 
     sput-object v7, Lcom/google/ar/core/Coordinates2d;->OPENGL_NORMALIZED_DEVICE_COORDINATES:Lcom/google/ar/core/Coordinates2d;
 
-    .line 6
     new-instance v9, Lcom/google/ar/core/Coordinates2d;
 
     const-string v12, "VIEW"
@@ -109,7 +103,6 @@
 
     sput-object v9, Lcom/google/ar/core/Coordinates2d;->VIEW:Lcom/google/ar/core/Coordinates2d;
 
-    .line 7
     new-instance v12, Lcom/google/ar/core/Coordinates2d;
 
     const-string v15, "VIEW_NORMALIZED"
@@ -138,7 +131,6 @@
 
     aput-object v12, v13, v11
 
-    .line 8
     sput-object v13, Lcom/google/ar/core/Coordinates2d;->$VALUES:[Lcom/google/ar/core/Coordinates2d;
 
     return-void
@@ -152,10 +144,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 2
     iput p3, p0, Lcom/google/ar/core/Coordinates2d;->nativeCode:I
 
     return-void
@@ -164,7 +154,6 @@
 .method static forNumber(I)Lcom/google/ar/core/Coordinates2d;
     .locals 5
 
-    .line 1
     invoke-static {}, Lcom/google/ar/core/Coordinates2d;->values()[Lcom/google/ar/core/Coordinates2d;
 
     move-result-object v0
@@ -178,7 +167,6 @@
 
     aget-object v3, v0, v2
 
-    .line 2
     iget v4, v3, Lcom/google/ar/core/Coordinates2d;->nativeCode:I
 
     if-ne v4, p0, :cond_0
@@ -190,7 +178,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_1
     new-instance v0, Lcom/google/ar/core/exceptions/FatalException;
 
@@ -218,7 +205,6 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/google/ar/core/Coordinates2d;
     .locals 1
 
-    .line 1
     const-class v0, Lcom/google/ar/core/Coordinates2d;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -233,7 +219,6 @@
 .method public static values()[Lcom/google/ar/core/Coordinates2d;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/google/ar/core/Coordinates2d;->$VALUES:[Lcom/google/ar/core/Coordinates2d;
 
     invoke-virtual {v0}, [Lcom/google/ar/core/Coordinates2d;->clone()Ljava/lang/Object;

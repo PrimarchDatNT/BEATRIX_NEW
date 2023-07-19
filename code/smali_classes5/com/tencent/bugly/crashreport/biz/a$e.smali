@@ -27,17 +27,14 @@
 .method public constructor <init>(Lcom/tencent/bugly/crashreport/biz/a;J)V
     .locals 2
 
-    .line 1
     iput-object p1, p0, Lcom/tencent/bugly/crashreport/biz/a$e;->b:Lcom/tencent/bugly/crashreport/biz/a;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const-wide/32 v0, 0x1499700
 
-    .line 2
     iput-wide v0, p0, Lcom/tencent/bugly/crashreport/biz/a$e;->a:J
 
-    .line 3
     iput-wide p2, p0, Lcom/tencent/bugly/crashreport/biz/a$e;->a:J
 
     return-void
@@ -48,7 +45,6 @@
 .method public final run()V
     .locals 5
 
-    .line 1
     iget-object v0, p0, Lcom/tencent/bugly/crashreport/biz/a$e;->b:Lcom/tencent/bugly/crashreport/biz/a;
 
     invoke-static {}, Lcom/tencent/bugly/proguard/w;->a()Lcom/tencent/bugly/proguard/w;
@@ -63,7 +59,6 @@
 
     invoke-virtual {v1, v2}, Lcom/tencent/bugly/proguard/w;->a(Ljava/lang/Runnable;)Z
 
-    .line 2
     :cond_0
     iget-object v0, p0, Lcom/tencent/bugly/crashreport/biz/a$e;->b:Lcom/tencent/bugly/crashreport/biz/a;
 

@@ -25,7 +25,6 @@
 .method constructor <init>(Lcom/sdk/imp/Under21VCViewL;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/sdk/imp/Under21VCViewL$c;->a:Lcom/sdk/imp/Under21VCViewL;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -38,7 +37,6 @@
 .method public onError(Landroid/media/MediaPlayer;II)Z
     .locals 3
 
-    .line 1
     iget-object p1, p0, Lcom/sdk/imp/Under21VCViewL$c;->a:Lcom/sdk/imp/Under21VCViewL;
 
     invoke-static {p1}, Lcom/sdk/imp/Under21VCViewL;->h(Lcom/sdk/imp/Under21VCViewL;)Lcom/sdk/api/VideoCardAd;
@@ -47,7 +45,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 2
     iget-object p1, p0, Lcom/sdk/imp/Under21VCViewL$c;->a:Lcom/sdk/imp/Under21VCViewL;
 
     invoke-static {p1}, Lcom/sdk/imp/Under21VCViewL;->h(Lcom/sdk/imp/Under21VCViewL;)Lcom/sdk/api/VideoCardAd;
@@ -60,7 +57,6 @@
 
     invoke-virtual {p1, v0, p2, v1, v2}, Lcom/sdk/api/VideoCardAd;->I(Lcom/sdk/api/Const$Event;IJ)V
 
-    .line 3
     :cond_0
     iget-object p1, p0, Lcom/sdk/imp/Under21VCViewL$c;->a:Lcom/sdk/imp/Under21VCViewL;
 
@@ -70,7 +66,6 @@
 
     if-eqz p1, :cond_1
 
-    .line 4
     iget-object p1, p0, Lcom/sdk/imp/Under21VCViewL$c;->a:Lcom/sdk/imp/Under21VCViewL;
 
     invoke-static {p1}, Lcom/sdk/imp/Under21VCViewL;->i(Lcom/sdk/imp/Under21VCViewL;)Lcom/sdk/api/VideoCardAd$j;

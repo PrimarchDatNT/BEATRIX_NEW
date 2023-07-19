@@ -80,16 +80,12 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/google/android/gms/internal/ads/gn0;->a:Lcom/google/android/gms/internal/ads/d62;
 
-    .line 3
     iput-object p2, p0, Lcom/google/android/gms/internal/ads/gn0;->b:Lcom/google/android/gms/internal/ads/d62;
 
-    .line 4
     iput-object p3, p0, Lcom/google/android/gms/internal/ads/gn0;->c:Lcom/google/android/gms/internal/ads/d62;
 
     return-void
@@ -100,7 +96,6 @@
 .method public final synthetic get()Ljava/lang/Object;
     .locals 5
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/gn0;->a:Lcom/google/android/gms/internal/ads/d62;
 
     iget-object v1, p0, Lcom/google/android/gms/internal/ads/gn0;->b:Lcom/google/android/gms/internal/ads/d62;
@@ -113,7 +108,6 @@
 
     check-cast v2, Lcom/google/android/gms/internal/ads/kh1;
 
-    .line 2
     sget-object v3, Lcom/google/android/gms/internal/ads/dn0;->a:[I
 
     iget-object v2, v2, Lcom/google/android/gms/internal/ads/kh1;->n:Lcom/google/android/gms/internal/ads/wg1;
@@ -128,7 +122,6 @@
 
     if-eq v2, v4, :cond_0
 
-    .line 3
     invoke-interface {v1}, Lcom/google/android/gms/internal/ads/d62;->get()Ljava/lang/Object;
 
     move-result-object v0
@@ -137,7 +130,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_0
     invoke-interface {v0}, Lcom/google/android/gms/internal/ads/d62;->get()Ljava/lang/Object;
 
@@ -148,7 +140,6 @@
     :goto_0
     const-string v1, "Cannot return null from a non-@Nullable @Provides method"
 
-    .line 5
     invoke-static {v0, v1}, Lcom/google/android/gms/internal/ads/a62;->b(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
 
     move-result-object v0

@@ -71,7 +71,6 @@
 
     const-string v0, "nam"
 
-    .line 1
     invoke-static {v0}, Lcom/google/android/gms/internal/ads/pg2;->l(Ljava/lang/String;)I
 
     move-result v0
@@ -80,7 +79,6 @@
 
     const-string v0, "trk"
 
-    .line 2
     invoke-static {v0}, Lcom/google/android/gms/internal/ads/pg2;->l(Ljava/lang/String;)I
 
     move-result v0
@@ -89,7 +87,6 @@
 
     const-string v0, "cmt"
 
-    .line 3
     invoke-static {v0}, Lcom/google/android/gms/internal/ads/pg2;->l(Ljava/lang/String;)I
 
     move-result v0
@@ -98,7 +95,6 @@
 
     const-string v0, "day"
 
-    .line 4
     invoke-static {v0}, Lcom/google/android/gms/internal/ads/pg2;->l(Ljava/lang/String;)I
 
     move-result v0
@@ -107,7 +103,6 @@
 
     const-string v0, "ART"
 
-    .line 5
     invoke-static {v0}, Lcom/google/android/gms/internal/ads/pg2;->l(Ljava/lang/String;)I
 
     move-result v0
@@ -116,7 +111,6 @@
 
     const-string v0, "too"
 
-    .line 6
     invoke-static {v0}, Lcom/google/android/gms/internal/ads/pg2;->l(Ljava/lang/String;)I
 
     move-result v0
@@ -125,7 +119,6 @@
 
     const-string v0, "alb"
 
-    .line 7
     invoke-static {v0}, Lcom/google/android/gms/internal/ads/pg2;->l(Ljava/lang/String;)I
 
     move-result v0
@@ -134,7 +127,6 @@
 
     const-string v0, "com"
 
-    .line 8
     invoke-static {v0}, Lcom/google/android/gms/internal/ads/pg2;->l(Ljava/lang/String;)I
 
     move-result v0
@@ -143,7 +135,6 @@
 
     const-string v0, "wrt"
 
-    .line 9
     invoke-static {v0}, Lcom/google/android/gms/internal/ads/pg2;->l(Ljava/lang/String;)I
 
     move-result v0
@@ -152,7 +143,6 @@
 
     const-string v0, "lyr"
 
-    .line 10
     invoke-static {v0}, Lcom/google/android/gms/internal/ads/pg2;->l(Ljava/lang/String;)I
 
     move-result v0
@@ -161,7 +151,6 @@
 
     const-string v0, "gen"
 
-    .line 11
     invoke-static {v0}, Lcom/google/android/gms/internal/ads/pg2;->l(Ljava/lang/String;)I
 
     move-result v0
@@ -170,7 +159,6 @@
 
     const-string v0, "covr"
 
-    .line 12
     invoke-static {v0}, Lcom/google/android/gms/internal/ads/pg2;->l(Ljava/lang/String;)I
 
     move-result v0
@@ -179,7 +167,6 @@
 
     const-string v0, "gnre"
 
-    .line 13
     invoke-static {v0}, Lcom/google/android/gms/internal/ads/pg2;->l(Ljava/lang/String;)I
 
     move-result v0
@@ -188,7 +175,6 @@
 
     const-string v0, "grp"
 
-    .line 14
     invoke-static {v0}, Lcom/google/android/gms/internal/ads/pg2;->l(Ljava/lang/String;)I
 
     move-result v0
@@ -197,7 +183,6 @@
 
     const-string v0, "disk"
 
-    .line 15
     invoke-static {v0}, Lcom/google/android/gms/internal/ads/pg2;->l(Ljava/lang/String;)I
 
     move-result v0
@@ -206,7 +191,6 @@
 
     const-string v0, "trkn"
 
-    .line 16
     invoke-static {v0}, Lcom/google/android/gms/internal/ads/pg2;->l(Ljava/lang/String;)I
 
     move-result v0
@@ -215,7 +199,6 @@
 
     const-string v0, "tmpo"
 
-    .line 17
     invoke-static {v0}, Lcom/google/android/gms/internal/ads/pg2;->l(Ljava/lang/String;)I
 
     move-result v0
@@ -224,7 +207,6 @@
 
     const-string v0, "cpil"
 
-    .line 18
     invoke-static {v0}, Lcom/google/android/gms/internal/ads/pg2;->l(Ljava/lang/String;)I
 
     move-result v0
@@ -233,7 +215,6 @@
 
     const-string v0, "aART"
 
-    .line 19
     invoke-static {v0}, Lcom/google/android/gms/internal/ads/pg2;->l(Ljava/lang/String;)I
 
     move-result v0
@@ -242,7 +223,6 @@
 
     const-string v0, "sonm"
 
-    .line 20
     invoke-static {v0}, Lcom/google/android/gms/internal/ads/pg2;->l(Ljava/lang/String;)I
 
     move-result v0
@@ -251,7 +231,6 @@
 
     const-string v0, "soal"
 
-    .line 21
     invoke-static {v0}, Lcom/google/android/gms/internal/ads/pg2;->l(Ljava/lang/String;)I
 
     move-result v0
@@ -260,7 +239,6 @@
 
     const-string v0, "soar"
 
-    .line 22
     invoke-static {v0}, Lcom/google/android/gms/internal/ads/pg2;->l(Ljava/lang/String;)I
 
     move-result v0
@@ -269,7 +247,6 @@
 
     const-string v0, "soaa"
 
-    .line 23
     invoke-static {v0}, Lcom/google/android/gms/internal/ads/pg2;->l(Ljava/lang/String;)I
 
     move-result v0
@@ -278,7 +255,6 @@
 
     const-string v0, "soco"
 
-    .line 24
     invoke-static {v0}, Lcom/google/android/gms/internal/ads/pg2;->l(Ljava/lang/String;)I
 
     move-result v0
@@ -287,7 +263,6 @@
 
     const-string v0, "rtng"
 
-    .line 25
     invoke-static {v0}, Lcom/google/android/gms/internal/ads/pg2;->l(Ljava/lang/String;)I
 
     move-result v0
@@ -296,7 +271,6 @@
 
     const-string v0, "pgap"
 
-    .line 26
     invoke-static {v0}, Lcom/google/android/gms/internal/ads/pg2;->l(Ljava/lang/String;)I
 
     move-result v0
@@ -305,7 +279,6 @@
 
     const-string v0, "sosn"
 
-    .line 27
     invoke-static {v0}, Lcom/google/android/gms/internal/ads/pg2;->l(Ljava/lang/String;)I
 
     move-result v0
@@ -314,7 +287,6 @@
 
     const-string v0, "tvsh"
 
-    .line 28
     invoke-static {v0}, Lcom/google/android/gms/internal/ads/pg2;->l(Ljava/lang/String;)I
 
     move-result v0
@@ -323,7 +295,6 @@
 
     const-string v0, "----"
 
-    .line 29
     invoke-static {v0}, Lcom/google/android/gms/internal/ads/pg2;->l(Ljava/lang/String;)I
 
     move-result v0
@@ -626,7 +597,6 @@
 
     const-string v148, "Synthpop"
 
-    .line 30
     filled-new-array/range {v1 .. v148}, [Ljava/lang/String;
 
     move-result-object v0
@@ -639,17 +609,14 @@
 .method private static a(ILjava/lang/String;Lcom/google/android/gms/internal/ads/jg2;)Lcom/google/android/gms/internal/ads/zzmk;
     .locals 4
 
-    .line 1
     invoke-virtual {p2}, Lcom/google/android/gms/internal/ads/jg2;->d()I
 
     move-result v0
 
-    .line 2
     invoke-virtual {p2}, Lcom/google/android/gms/internal/ads/jg2;->d()I
 
     move-result v1
 
-    .line 3
     sget v2, Lcom/google/android/gms/internal/ads/dc2;->G0:I
 
     const/4 v3, 0x0
@@ -658,17 +625,14 @@
 
     const/16 p0, 0x8
 
-    .line 4
     invoke-virtual {p2, p0}, Lcom/google/android/gms/internal/ads/jg2;->m(I)V
 
     add-int/lit8 v0, v0, -0x10
 
-    .line 5
     invoke-virtual {p2, v0}, Lcom/google/android/gms/internal/ads/jg2;->n(I)Ljava/lang/String;
 
     move-result-object p0
 
-    .line 6
     new-instance p2, Lcom/google/android/gms/internal/ads/zzmk;
 
     invoke-direct {p2, p1, v3, p0}, Lcom/google/android/gms/internal/ads/zzmk;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
@@ -678,7 +642,6 @@
     :cond_0
     const-string p1, "Failed to parse text attribute: "
 
-    .line 7
     invoke-static {p0}, Lcom/google/android/gms/internal/ads/dc2;->c(I)Ljava/lang/String;
 
     move-result-object p0
@@ -715,7 +678,6 @@
 .method private static b(ILjava/lang/String;Lcom/google/android/gms/internal/ads/jg2;ZZ)Lcom/google/android/gms/internal/ads/zzml;
     .locals 0
 
-    .line 1
     invoke-static {p2}, Lcom/google/android/gms/internal/ads/sc2;->e(Lcom/google/android/gms/internal/ads/jg2;)I
 
     move-result p2
@@ -724,7 +686,6 @@
 
     const/4 p4, 0x1
 
-    .line 2
     invoke-static {p4, p2}, Ljava/lang/Math;->min(II)I
 
     move-result p2
@@ -736,7 +697,6 @@
 
     if-eqz p3, :cond_1
 
-    .line 3
     new-instance p0, Lcom/google/android/gms/internal/ads/zzmk;
 
     invoke-static {p2}, Ljava/lang/Integer;->toString(I)Ljava/lang/String;
@@ -747,7 +707,6 @@
 
     return-object p0
 
-    .line 4
     :cond_1
     new-instance p0, Lcom/google/android/gms/internal/ads/zzmg;
 
@@ -764,7 +723,6 @@
     :cond_2
     const-string p1, "Failed to parse uint8 attribute: "
 
-    .line 5
     invoke-static {p0}, Lcom/google/android/gms/internal/ads/dc2;->c(I)Ljava/lang/String;
 
     move-result-object p0
@@ -801,17 +759,14 @@
 .method private static c(ILjava/lang/String;Lcom/google/android/gms/internal/ads/jg2;)Lcom/google/android/gms/internal/ads/zzmk;
     .locals 4
 
-    .line 1
     invoke-virtual {p2}, Lcom/google/android/gms/internal/ads/jg2;->d()I
 
     move-result v0
 
-    .line 2
     invoke-virtual {p2}, Lcom/google/android/gms/internal/ads/jg2;->d()I
 
     move-result v1
 
-    .line 3
     sget v2, Lcom/google/android/gms/internal/ads/dc2;->G0:I
 
     const/4 v3, 0x0
@@ -824,10 +779,8 @@
 
     const/16 v0, 0xa
 
-    .line 4
     invoke-virtual {p2, v0}, Lcom/google/android/gms/internal/ads/jg2;->m(I)V
 
-    .line 5
     invoke-virtual {p2}, Lcom/google/android/gms/internal/ads/jg2;->h()I
 
     move-result v0
@@ -836,7 +789,6 @@
 
     const/16 p0, 0xb
 
-    .line 6
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1, p0}, Ljava/lang/StringBuilder;-><init>(I)V
@@ -847,14 +799,12 @@
 
     move-result-object p0
 
-    .line 7
     invoke-virtual {p2}, Lcom/google/android/gms/internal/ads/jg2;->h()I
 
     move-result p2
 
     if-lez p2, :cond_0
 
-    .line 8
     invoke-static {p0}, Ljava/lang/String;->valueOf(Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object p0
@@ -885,7 +835,6 @@
 
     move-result-object p0
 
-    .line 9
     :cond_0
     new-instance p2, Lcom/google/android/gms/internal/ads/zzmk;
 
@@ -896,7 +845,6 @@
     :cond_1
     const-string p1, "Failed to parse index/count attribute: "
 
-    .line 10
     invoke-static {p0}, Lcom/google/android/gms/internal/ads/dc2;->c(I)Ljava/lang/String;
 
     move-result-object p0
@@ -933,19 +881,16 @@
 .method public static d(Lcom/google/android/gms/internal/ads/jg2;)Lcom/google/android/gms/internal/ads/zzme$zza;
     .locals 14
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/android/gms/internal/ads/jg2;->b()I
 
     move-result v0
 
-    .line 2
     invoke-virtual {p0}, Lcom/google/android/gms/internal/ads/jg2;->d()I
 
     move-result v1
 
     add-int/2addr v0, v1
 
-    .line 3
     invoke-virtual {p0}, Lcom/google/android/gms/internal/ads/jg2;->d()I
 
     move-result v1
@@ -972,7 +917,6 @@
 
     goto/16 :goto_6
 
-    .line 4
     :cond_0
     :try_start_0
     sget v2, Lcom/google/android/gms/internal/ads/sc2;->m:I
@@ -981,14 +925,12 @@
 
     if-ne v1, v2, :cond_3
 
-    .line 5
     invoke-static {p0}, Lcom/google/android/gms/internal/ads/sc2;->e(Lcom/google/android/gms/internal/ads/jg2;)I
 
     move-result v1
 
     if-lez v1, :cond_1
 
-    .line 6
     sget-object v2, Lcom/google/android/gms/internal/ads/sc2;->D:[Ljava/lang/String;
 
     array-length v4, v2
@@ -997,7 +939,6 @@
 
     sub-int/2addr v1, v3
 
-    .line 7
     aget-object v1, v2, v1
 
     goto :goto_0
@@ -1008,7 +949,6 @@
     :goto_0
     if-eqz v1, :cond_2
 
-    .line 8
     new-instance v2, Lcom/google/android/gms/internal/ads/zzmk;
 
     invoke-direct {v2, v5, v8, v1}, Lcom/google/android/gms/internal/ads/zzmk;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
@@ -1020,18 +960,15 @@
     :cond_2
     const-string v1, "Failed to parse standard genre code"
 
-    .line 9
     invoke-static {v7, v1}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;)I
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 10
     :goto_1
     invoke-virtual {p0, v0}, Lcom/google/android/gms/internal/ads/jg2;->l(I)V
 
     return-object v8
 
-    .line 11
     :cond_3
     :try_start_1
     sget v2, Lcom/google/android/gms/internal/ads/sc2;->o:I
@@ -1040,19 +977,16 @@
 
     const-string v2, "TPOS"
 
-    .line 12
     invoke-static {v1, v2, p0}, Lcom/google/android/gms/internal/ads/sc2;->c(ILjava/lang/String;Lcom/google/android/gms/internal/ads/jg2;)Lcom/google/android/gms/internal/ads/zzmk;
 
     move-result-object v1
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
-    .line 13
     invoke-virtual {p0, v0}, Lcom/google/android/gms/internal/ads/jg2;->l(I)V
 
     return-object v1
 
-    .line 14
     :cond_4
     :try_start_2
     sget v2, Lcom/google/android/gms/internal/ads/sc2;->p:I
@@ -1061,19 +995,16 @@
 
     const-string v2, "TRCK"
 
-    .line 15
     invoke-static {v1, v2, p0}, Lcom/google/android/gms/internal/ads/sc2;->c(ILjava/lang/String;Lcom/google/android/gms/internal/ads/jg2;)Lcom/google/android/gms/internal/ads/zzmk;
 
     move-result-object v1
     :try_end_2
     .catchall {:try_start_2 .. :try_end_2} :catchall_0
 
-    .line 16
     invoke-virtual {p0, v0}, Lcom/google/android/gms/internal/ads/jg2;->l(I)V
 
     return-object v1
 
-    .line 17
     :cond_5
     :try_start_3
     sget v2, Lcom/google/android/gms/internal/ads/sc2;->q:I
@@ -1084,19 +1015,16 @@
 
     const-string v2, "TBPM"
 
-    .line 18
     invoke-static {v1, v2, p0, v3, v5}, Lcom/google/android/gms/internal/ads/sc2;->b(ILjava/lang/String;Lcom/google/android/gms/internal/ads/jg2;ZZ)Lcom/google/android/gms/internal/ads/zzml;
 
     move-result-object v1
     :try_end_3
     .catchall {:try_start_3 .. :try_end_3} :catchall_0
 
-    .line 19
     invoke-virtual {p0, v0}, Lcom/google/android/gms/internal/ads/jg2;->l(I)V
 
     return-object v1
 
-    .line 20
     :cond_6
     :try_start_4
     sget v2, Lcom/google/android/gms/internal/ads/sc2;->r:I
@@ -1105,19 +1033,16 @@
 
     const-string v2, "TCMP"
 
-    .line 21
     invoke-static {v1, v2, p0, v3, v3}, Lcom/google/android/gms/internal/ads/sc2;->b(ILjava/lang/String;Lcom/google/android/gms/internal/ads/jg2;ZZ)Lcom/google/android/gms/internal/ads/zzml;
 
     move-result-object v1
     :try_end_4
     .catchall {:try_start_4 .. :try_end_4} :catchall_0
 
-    .line 22
     invoke-virtual {p0, v0}, Lcom/google/android/gms/internal/ads/jg2;->l(I)V
 
     return-object v1
 
-    .line 23
     :cond_7
     :try_start_5
     sget v2, Lcom/google/android/gms/internal/ads/sc2;->l:I
@@ -1126,27 +1051,22 @@
 
     if-ne v1, v2, :cond_c
 
-    .line 24
     invoke-virtual {p0}, Lcom/google/android/gms/internal/ads/jg2;->d()I
 
     move-result v1
 
-    .line 25
     invoke-virtual {p0}, Lcom/google/android/gms/internal/ads/jg2;->d()I
 
     move-result v2
 
-    .line 26
     sget v3, Lcom/google/android/gms/internal/ads/dc2;->G0:I
 
     if-ne v2, v3, :cond_b
 
-    .line 27
     invoke-virtual {p0}, Lcom/google/android/gms/internal/ads/jg2;->d()I
 
     move-result v2
 
-    .line 28
     invoke-static {v2}, Lcom/google/android/gms/internal/ads/dc2;->b(I)I
 
     move-result v2
@@ -1176,7 +1096,6 @@
 
     const/16 v1, 0x29
 
-    .line 29
     new-instance v3, Ljava/lang/StringBuilder;
 
     invoke-direct {v3, v1}, Ljava/lang/StringBuilder;-><init>(I)V
@@ -1195,19 +1114,15 @@
 
     goto :goto_3
 
-    .line 30
     :cond_a
     invoke-virtual {p0, v9}, Lcom/google/android/gms/internal/ads/jg2;->m(I)V
 
     sub-int/2addr v1, v6
 
-    .line 31
     new-array v2, v1, [B
 
-    .line 32
     invoke-virtual {p0, v2, v5, v1}, Lcom/google/android/gms/internal/ads/jg2;->p([BII)V
 
-    .line 33
     new-instance v1, Lcom/google/android/gms/internal/ads/zzmf;
 
     const/4 v4, 0x3
@@ -1221,18 +1136,15 @@
     :cond_b
     const-string v1, "Failed to parse cover art attribute"
 
-    .line 34
     invoke-static {v7, v1}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;)I
     :try_end_5
     .catchall {:try_start_5 .. :try_end_5} :catchall_0
 
-    .line 35
     :goto_3
     invoke-virtual {p0, v0}, Lcom/google/android/gms/internal/ads/jg2;->l(I)V
 
     return-object v8
 
-    .line 36
     :cond_c
     :try_start_6
     sget v2, Lcom/google/android/gms/internal/ads/sc2;->s:I
@@ -1241,19 +1153,16 @@
 
     const-string v2, "TPE2"
 
-    .line 37
     invoke-static {v1, v2, p0}, Lcom/google/android/gms/internal/ads/sc2;->a(ILjava/lang/String;Lcom/google/android/gms/internal/ads/jg2;)Lcom/google/android/gms/internal/ads/zzmk;
 
     move-result-object v1
     :try_end_6
     .catchall {:try_start_6 .. :try_end_6} :catchall_0
 
-    .line 38
     invoke-virtual {p0, v0}, Lcom/google/android/gms/internal/ads/jg2;->l(I)V
 
     return-object v1
 
-    .line 39
     :cond_d
     :try_start_7
     sget v2, Lcom/google/android/gms/internal/ads/sc2;->t:I
@@ -1262,19 +1171,16 @@
 
     const-string v2, "TSOT"
 
-    .line 40
     invoke-static {v1, v2, p0}, Lcom/google/android/gms/internal/ads/sc2;->a(ILjava/lang/String;Lcom/google/android/gms/internal/ads/jg2;)Lcom/google/android/gms/internal/ads/zzmk;
 
     move-result-object v1
     :try_end_7
     .catchall {:try_start_7 .. :try_end_7} :catchall_0
 
-    .line 41
     invoke-virtual {p0, v0}, Lcom/google/android/gms/internal/ads/jg2;->l(I)V
 
     return-object v1
 
-    .line 42
     :cond_e
     :try_start_8
     sget v2, Lcom/google/android/gms/internal/ads/sc2;->u:I
@@ -1283,19 +1189,16 @@
 
     const-string v2, "TSO2"
 
-    .line 43
     invoke-static {v1, v2, p0}, Lcom/google/android/gms/internal/ads/sc2;->a(ILjava/lang/String;Lcom/google/android/gms/internal/ads/jg2;)Lcom/google/android/gms/internal/ads/zzmk;
 
     move-result-object v1
     :try_end_8
     .catchall {:try_start_8 .. :try_end_8} :catchall_0
 
-    .line 44
     invoke-virtual {p0, v0}, Lcom/google/android/gms/internal/ads/jg2;->l(I)V
 
     return-object v1
 
-    .line 45
     :cond_f
     :try_start_9
     sget v2, Lcom/google/android/gms/internal/ads/sc2;->v:I
@@ -1304,19 +1207,16 @@
 
     const-string v2, "TSOA"
 
-    .line 46
     invoke-static {v1, v2, p0}, Lcom/google/android/gms/internal/ads/sc2;->a(ILjava/lang/String;Lcom/google/android/gms/internal/ads/jg2;)Lcom/google/android/gms/internal/ads/zzmk;
 
     move-result-object v1
     :try_end_9
     .catchall {:try_start_9 .. :try_end_9} :catchall_0
 
-    .line 47
     invoke-virtual {p0, v0}, Lcom/google/android/gms/internal/ads/jg2;->l(I)V
 
     return-object v1
 
-    .line 48
     :cond_10
     :try_start_a
     sget v2, Lcom/google/android/gms/internal/ads/sc2;->w:I
@@ -1325,19 +1225,16 @@
 
     const-string v2, "TSOP"
 
-    .line 49
     invoke-static {v1, v2, p0}, Lcom/google/android/gms/internal/ads/sc2;->a(ILjava/lang/String;Lcom/google/android/gms/internal/ads/jg2;)Lcom/google/android/gms/internal/ads/zzmk;
 
     move-result-object v1
     :try_end_a
     .catchall {:try_start_a .. :try_end_a} :catchall_0
 
-    .line 50
     invoke-virtual {p0, v0}, Lcom/google/android/gms/internal/ads/jg2;->l(I)V
 
     return-object v1
 
-    .line 51
     :cond_11
     :try_start_b
     sget v2, Lcom/google/android/gms/internal/ads/sc2;->x:I
@@ -1346,19 +1243,16 @@
 
     const-string v2, "TSOC"
 
-    .line 52
     invoke-static {v1, v2, p0}, Lcom/google/android/gms/internal/ads/sc2;->a(ILjava/lang/String;Lcom/google/android/gms/internal/ads/jg2;)Lcom/google/android/gms/internal/ads/zzmk;
 
     move-result-object v1
     :try_end_b
     .catchall {:try_start_b .. :try_end_b} :catchall_0
 
-    .line 53
     invoke-virtual {p0, v0}, Lcom/google/android/gms/internal/ads/jg2;->l(I)V
 
     return-object v1
 
-    .line 54
     :cond_12
     :try_start_c
     sget v2, Lcom/google/android/gms/internal/ads/sc2;->y:I
@@ -1367,19 +1261,16 @@
 
     const-string v2, "ITUNESADVISORY"
 
-    .line 55
     invoke-static {v1, v2, p0, v5, v5}, Lcom/google/android/gms/internal/ads/sc2;->b(ILjava/lang/String;Lcom/google/android/gms/internal/ads/jg2;ZZ)Lcom/google/android/gms/internal/ads/zzml;
 
     move-result-object v1
     :try_end_c
     .catchall {:try_start_c .. :try_end_c} :catchall_0
 
-    .line 56
     invoke-virtual {p0, v0}, Lcom/google/android/gms/internal/ads/jg2;->l(I)V
 
     return-object v1
 
-    .line 57
     :cond_13
     :try_start_d
     sget v2, Lcom/google/android/gms/internal/ads/sc2;->z:I
@@ -1388,19 +1279,16 @@
 
     const-string v2, "ITUNESGAPLESS"
 
-    .line 58
     invoke-static {v1, v2, p0, v5, v3}, Lcom/google/android/gms/internal/ads/sc2;->b(ILjava/lang/String;Lcom/google/android/gms/internal/ads/jg2;ZZ)Lcom/google/android/gms/internal/ads/zzml;
 
     move-result-object v1
     :try_end_d
     .catchall {:try_start_d .. :try_end_d} :catchall_0
 
-    .line 59
     invoke-virtual {p0, v0}, Lcom/google/android/gms/internal/ads/jg2;->l(I)V
 
     return-object v1
 
-    .line 60
     :cond_14
     :try_start_e
     sget v2, Lcom/google/android/gms/internal/ads/sc2;->A:I
@@ -1409,19 +1297,16 @@
 
     const-string v2, "TVSHOWSORT"
 
-    .line 61
     invoke-static {v1, v2, p0}, Lcom/google/android/gms/internal/ads/sc2;->a(ILjava/lang/String;Lcom/google/android/gms/internal/ads/jg2;)Lcom/google/android/gms/internal/ads/zzmk;
 
     move-result-object v1
     :try_end_e
     .catchall {:try_start_e .. :try_end_e} :catchall_0
 
-    .line 62
     invoke-virtual {p0, v0}, Lcom/google/android/gms/internal/ads/jg2;->l(I)V
 
     return-object v1
 
-    .line 63
     :cond_15
     :try_start_f
     sget v2, Lcom/google/android/gms/internal/ads/sc2;->B:I
@@ -1430,19 +1315,16 @@
 
     const-string v2, "TVSHOW"
 
-    .line 64
     invoke-static {v1, v2, p0}, Lcom/google/android/gms/internal/ads/sc2;->a(ILjava/lang/String;Lcom/google/android/gms/internal/ads/jg2;)Lcom/google/android/gms/internal/ads/zzmk;
 
     move-result-object v1
     :try_end_f
     .catchall {:try_start_f .. :try_end_f} :catchall_0
 
-    .line 65
     invoke-virtual {p0, v0}, Lcom/google/android/gms/internal/ads/jg2;->l(I)V
 
     return-object v1
 
-    .line 66
     :cond_16
     :try_start_10
     sget v2, Lcom/google/android/gms/internal/ads/sc2;->C:I
@@ -1459,7 +1341,6 @@
 
     const/4 v7, -0x1
 
-    .line 67
     :goto_4
     invoke-virtual {p0}, Lcom/google/android/gms/internal/ads/jg2;->b()I
 
@@ -1467,39 +1348,32 @@
 
     if-ge v10, v0, :cond_1a
 
-    .line 68
     invoke-virtual {p0}, Lcom/google/android/gms/internal/ads/jg2;->b()I
 
     move-result v10
 
-    .line 69
     invoke-virtual {p0}, Lcom/google/android/gms/internal/ads/jg2;->d()I
 
     move-result v11
 
-    .line 70
     invoke-virtual {p0}, Lcom/google/android/gms/internal/ads/jg2;->d()I
 
     move-result v12
 
-    .line 71
     invoke-virtual {p0, v9}, Lcom/google/android/gms/internal/ads/jg2;->m(I)V
 
-    .line 72
     sget v13, Lcom/google/android/gms/internal/ads/dc2;->E0:I
 
     if-ne v12, v13, :cond_17
 
     add-int/lit8 v11, v11, -0xc
 
-    .line 73
     invoke-virtual {p0, v11}, Lcom/google/android/gms/internal/ads/jg2;->n(I)Ljava/lang/String;
 
     move-result-object v2
 
     goto :goto_4
 
-    .line 74
     :cond_17
     sget v13, Lcom/google/android/gms/internal/ads/dc2;->F0:I
 
@@ -1507,14 +1381,12 @@
 
     add-int/lit8 v11, v11, -0xc
 
-    .line 75
     invoke-virtual {p0, v11}, Lcom/google/android/gms/internal/ads/jg2;->n(I)Ljava/lang/String;
 
     move-result-object v3
 
     goto :goto_4
 
-    .line 76
     :cond_18
     sget v13, Lcom/google/android/gms/internal/ads/dc2;->G0:I
 
@@ -1527,7 +1399,6 @@
     :cond_19
     add-int/lit8 v11, v11, -0xc
 
-    .line 77
     invoke-virtual {p0, v11}, Lcom/google/android/gms/internal/ads/jg2;->m(I)V
 
     goto :goto_4
@@ -1535,7 +1406,6 @@
     :cond_1a
     const-string v9, "com.apple.iTunes"
 
-    .line 78
     invoke-virtual {v9, v2}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v2
@@ -1554,28 +1424,23 @@
 
     goto :goto_5
 
-    .line 79
     :cond_1b
     invoke-virtual {p0, v5}, Lcom/google/android/gms/internal/ads/jg2;->l(I)V
 
-    .line 80
     invoke-virtual {p0, v6}, Lcom/google/android/gms/internal/ads/jg2;->m(I)V
 
     sub-int/2addr v7, v6
 
-    .line 81
     invoke-virtual {p0, v7}, Lcom/google/android/gms/internal/ads/jg2;->n(I)Ljava/lang/String;
 
     move-result-object v1
 
-    .line 82
     new-instance v8, Lcom/google/android/gms/internal/ads/zzmg;
 
     invoke-direct {v8, v4, v3, v1}, Lcom/google/android/gms/internal/ads/zzmg;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
     :try_end_10
     .catchall {:try_start_10 .. :try_end_10} :catchall_0
 
-    .line 83
     :cond_1c
     :goto_5
     invoke-virtual {p0, v0}, Lcom/google/android/gms/internal/ads/jg2;->l(I)V
@@ -1588,40 +1453,33 @@
 
     and-int/2addr v2, v1
 
-    .line 84
     :try_start_11
     sget v3, Lcom/google/android/gms/internal/ads/sc2;->c:I
 
     if-ne v2, v3, :cond_20
 
-    .line 85
     invoke-virtual {p0}, Lcom/google/android/gms/internal/ads/jg2;->d()I
 
     move-result v2
 
-    .line 86
     invoke-virtual {p0}, Lcom/google/android/gms/internal/ads/jg2;->d()I
 
     move-result v3
 
-    .line 87
     sget v5, Lcom/google/android/gms/internal/ads/dc2;->G0:I
 
     if-ne v3, v5, :cond_1e
 
     const/16 v1, 0x8
 
-    .line 88
     invoke-virtual {p0, v1}, Lcom/google/android/gms/internal/ads/jg2;->m(I)V
 
     sub-int/2addr v2, v6
 
-    .line 89
     invoke-virtual {p0, v2}, Lcom/google/android/gms/internal/ads/jg2;->n(I)Ljava/lang/String;
 
     move-result-object v1
 
-    .line 90
     new-instance v8, Lcom/google/android/gms/internal/ads/zzmg;
 
     invoke-direct {v8, v4, v1, v1}, Lcom/google/android/gms/internal/ads/zzmg;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
@@ -1631,7 +1489,6 @@
     :cond_1e
     const-string v2, "Failed to parse comment attribute: "
 
-    .line 91
     invoke-static {v1}, Lcom/google/android/gms/internal/ads/dc2;->c(I)Ljava/lang/String;
 
     move-result-object v1
@@ -1662,13 +1519,11 @@
     :try_end_11
     .catchall {:try_start_11 .. :try_end_11} :catchall_0
 
-    .line 92
     :goto_8
     invoke-virtual {p0, v0}, Lcom/google/android/gms/internal/ads/jg2;->l(I)V
 
     return-object v8
 
-    .line 93
     :cond_20
     :try_start_12
     sget v3, Lcom/google/android/gms/internal/ads/sc2;->a:I
@@ -1681,7 +1536,6 @@
 
     goto/16 :goto_b
 
-    .line 94
     :cond_21
     sget v3, Lcom/google/android/gms/internal/ads/sc2;->h:I
 
@@ -1693,7 +1547,6 @@
 
     goto/16 :goto_a
 
-    .line 95
     :cond_22
     sget v3, Lcom/google/android/gms/internal/ads/sc2;->d:I
 
@@ -1701,19 +1554,16 @@
 
     const-string v2, "TDRC"
 
-    .line 96
     invoke-static {v1, v2, p0}, Lcom/google/android/gms/internal/ads/sc2;->a(ILjava/lang/String;Lcom/google/android/gms/internal/ads/jg2;)Lcom/google/android/gms/internal/ads/zzmk;
 
     move-result-object v1
     :try_end_12
     .catchall {:try_start_12 .. :try_end_12} :catchall_0
 
-    .line 97
     invoke-virtual {p0, v0}, Lcom/google/android/gms/internal/ads/jg2;->l(I)V
 
     return-object v1
 
-    .line 98
     :cond_23
     :try_start_13
     sget v3, Lcom/google/android/gms/internal/ads/sc2;->e:I
@@ -1722,19 +1572,16 @@
 
     const-string v2, "TPE1"
 
-    .line 99
     invoke-static {v1, v2, p0}, Lcom/google/android/gms/internal/ads/sc2;->a(ILjava/lang/String;Lcom/google/android/gms/internal/ads/jg2;)Lcom/google/android/gms/internal/ads/zzmk;
 
     move-result-object v1
     :try_end_13
     .catchall {:try_start_13 .. :try_end_13} :catchall_0
 
-    .line 100
     invoke-virtual {p0, v0}, Lcom/google/android/gms/internal/ads/jg2;->l(I)V
 
     return-object v1
 
-    .line 101
     :cond_24
     :try_start_14
     sget v3, Lcom/google/android/gms/internal/ads/sc2;->f:I
@@ -1743,19 +1590,16 @@
 
     const-string v2, "TSSE"
 
-    .line 102
     invoke-static {v1, v2, p0}, Lcom/google/android/gms/internal/ads/sc2;->a(ILjava/lang/String;Lcom/google/android/gms/internal/ads/jg2;)Lcom/google/android/gms/internal/ads/zzmk;
 
     move-result-object v1
     :try_end_14
     .catchall {:try_start_14 .. :try_end_14} :catchall_0
 
-    .line 103
     invoke-virtual {p0, v0}, Lcom/google/android/gms/internal/ads/jg2;->l(I)V
 
     return-object v1
 
-    .line 104
     :cond_25
     :try_start_15
     sget v3, Lcom/google/android/gms/internal/ads/sc2;->g:I
@@ -1764,19 +1608,16 @@
 
     const-string v2, "TALB"
 
-    .line 105
     invoke-static {v1, v2, p0}, Lcom/google/android/gms/internal/ads/sc2;->a(ILjava/lang/String;Lcom/google/android/gms/internal/ads/jg2;)Lcom/google/android/gms/internal/ads/zzmk;
 
     move-result-object v1
     :try_end_15
     .catchall {:try_start_15 .. :try_end_15} :catchall_0
 
-    .line 106
     invoke-virtual {p0, v0}, Lcom/google/android/gms/internal/ads/jg2;->l(I)V
 
     return-object v1
 
-    .line 107
     :cond_26
     :try_start_16
     sget v3, Lcom/google/android/gms/internal/ads/sc2;->j:I
@@ -1785,38 +1626,32 @@
 
     const-string v2, "USLT"
 
-    .line 108
     invoke-static {v1, v2, p0}, Lcom/google/android/gms/internal/ads/sc2;->a(ILjava/lang/String;Lcom/google/android/gms/internal/ads/jg2;)Lcom/google/android/gms/internal/ads/zzmk;
 
     move-result-object v1
     :try_end_16
     .catchall {:try_start_16 .. :try_end_16} :catchall_0
 
-    .line 109
     invoke-virtual {p0, v0}, Lcom/google/android/gms/internal/ads/jg2;->l(I)V
 
     return-object v1
 
-    .line 110
     :cond_27
     :try_start_17
     sget v3, Lcom/google/android/gms/internal/ads/sc2;->k:I
 
     if-ne v2, v3, :cond_28
 
-    .line 111
     invoke-static {v1, v5, p0}, Lcom/google/android/gms/internal/ads/sc2;->a(ILjava/lang/String;Lcom/google/android/gms/internal/ads/jg2;)Lcom/google/android/gms/internal/ads/zzmk;
 
     move-result-object v1
     :try_end_17
     .catchall {:try_start_17 .. :try_end_17} :catchall_0
 
-    .line 112
     invoke-virtual {p0, v0}, Lcom/google/android/gms/internal/ads/jg2;->l(I)V
 
     return-object v1
 
-    .line 113
     :cond_28
     :try_start_18
     sget v3, Lcom/google/android/gms/internal/ads/sc2;->n:I
@@ -1825,14 +1660,12 @@
 
     const-string v2, "TIT1"
 
-    .line 114
     invoke-static {v1, v2, p0}, Lcom/google/android/gms/internal/ads/sc2;->a(ILjava/lang/String;Lcom/google/android/gms/internal/ads/jg2;)Lcom/google/android/gms/internal/ads/zzmk;
 
     move-result-object v1
     :try_end_18
     .catchall {:try_start_18 .. :try_end_18} :catchall_0
 
-    .line 115
     invoke-virtual {p0, v0}, Lcom/google/android/gms/internal/ads/jg2;->l(I)V
 
     return-object v1
@@ -1841,7 +1674,6 @@
     :try_start_19
     const-string v2, "Skipped unknown metadata entry: "
 
-    .line 116
     invoke-static {v1}, Lcom/google/android/gms/internal/ads/dc2;->c(I)Ljava/lang/String;
 
     move-result-object v1
@@ -1872,7 +1704,6 @@
     :try_end_19
     .catchall {:try_start_19 .. :try_end_19} :catchall_0
 
-    .line 117
     invoke-virtual {p0, v0}, Lcom/google/android/gms/internal/ads/jg2;->l(I)V
 
     return-object v8
@@ -1882,14 +1713,12 @@
     :try_start_1a
     const-string v2, "TCOM"
 
-    .line 118
     invoke-static {v1, v2, p0}, Lcom/google/android/gms/internal/ads/sc2;->a(ILjava/lang/String;Lcom/google/android/gms/internal/ads/jg2;)Lcom/google/android/gms/internal/ads/zzmk;
 
     move-result-object v1
     :try_end_1a
     .catchall {:try_start_1a .. :try_end_1a} :catchall_0
 
-    .line 119
     invoke-virtual {p0, v0}, Lcom/google/android/gms/internal/ads/jg2;->l(I)V
 
     return-object v1
@@ -1899,14 +1728,12 @@
     :try_start_1b
     const-string v2, "TIT2"
 
-    .line 120
     invoke-static {v1, v2, p0}, Lcom/google/android/gms/internal/ads/sc2;->a(ILjava/lang/String;Lcom/google/android/gms/internal/ads/jg2;)Lcom/google/android/gms/internal/ads/zzmk;
 
     move-result-object v1
     :try_end_1b
     .catchall {:try_start_1b .. :try_end_1b} :catchall_0
 
-    .line 121
     invoke-virtual {p0, v0}, Lcom/google/android/gms/internal/ads/jg2;->l(I)V
 
     return-object v1
@@ -1914,10 +1741,8 @@
     :catchall_0
     move-exception v1
 
-    .line 122
     invoke-virtual {p0, v0}, Lcom/google/android/gms/internal/ads/jg2;->l(I)V
 
-    .line 123
     throw v1
 .end method
 
@@ -1926,25 +1751,20 @@
 
     const/4 v0, 0x4
 
-    .line 1
     invoke-virtual {p0, v0}, Lcom/google/android/gms/internal/ads/jg2;->m(I)V
 
-    .line 2
     invoke-virtual {p0}, Lcom/google/android/gms/internal/ads/jg2;->d()I
 
     move-result v0
 
-    .line 3
     sget v1, Lcom/google/android/gms/internal/ads/dc2;->G0:I
 
     if-ne v0, v1, :cond_0
 
     const/16 v0, 0x8
 
-    .line 4
     invoke-virtual {p0, v0}, Lcom/google/android/gms/internal/ads/jg2;->m(I)V
 
-    .line 5
     invoke-virtual {p0}, Lcom/google/android/gms/internal/ads/jg2;->g()I
 
     move-result p0
@@ -1956,7 +1776,6 @@
 
     const-string v0, "Failed to parse uint8 attribute value"
 
-    .line 6
     invoke-static {p0, v0}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;)I
 
     const/4 p0, -0x1

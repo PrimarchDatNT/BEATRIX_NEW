@@ -52,15 +52,12 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const-string v0, "https://giphy_analytics.giphy.com/simple_analytics?"
 
-    .line 2
     iput-object v0, p0, Lcom/meitu/http/api/ArApi;->a:Ljava/lang/String;
 
-    .line 3
     sget-object v0, Lcom/meitu/http/api/ArApi$giphyClient$2;->INSTANCE:Lcom/meitu/http/api/ArApi$giphyClient$2;
 
     invoke-static {v0}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
@@ -81,7 +78,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lf/k/k/s;->l()Lf/k/k/s;
 
     move-result-object v1
@@ -90,7 +86,6 @@
 
     invoke-virtual {v1, v2}, Lf/k/k/s;->c(Ljava/lang/Object;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -115,7 +110,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lf/k/k/s;->l()Lf/k/k/s;
 
     move-result-object v1
@@ -152,7 +146,6 @@
 
     move-result-object v1
 
-    .line 2
     invoke-static {}, Lcom/commsource/statistics/i;->e()Ljava/lang/String;
 
     move-result-object v2
@@ -163,7 +156,6 @@
 
     move-result-object v1
 
-    .line 3
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
     move-result-object v2
@@ -190,12 +182,10 @@
 
     const-string v3, "AND"
 
-    .line 4
     invoke-virtual {v1, v2, v3}, Lf/k/k/d;->d(Ljava/lang/String;Ljava/lang/Object;)Lf/k/k/d;
 
     move-result-object v1
 
-    .line 5
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
     move-result-object v2
@@ -204,7 +194,6 @@
 
     move-result-object v2
 
-    .line 6
     invoke-static {v2}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v3
@@ -213,14 +202,11 @@
 
     const-string v3, "abcode"
 
-    .line 7
     invoke-virtual {v1, v3, v2}, Lf/k/k/d;->d(Ljava/lang/String;Ljava/lang/Object;)Lf/k/k/d;
 
-    .line 8
     :cond_1
     invoke-virtual {v1, p1}, Lf/k/k/d;->j(Lf/k/k/p;)Lf/k/k/d;
 
-    .line 9
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -263,7 +249,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/http/api/ArApi;->a:Ljava/lang/String;
 
     new-instance v2, Lcom/meitu/http/api/ArApi$giphyAnalytics$1;
@@ -274,12 +259,10 @@
 
     move-result-object p1
 
-    .line 2
     sget-object p2, Lcom/meitu/http/api/ArApi$giphyAnalytics$2;->INSTANCE:Lcom/meitu/http/api/ArApi$giphyAnalytics$2;
 
     invoke-static {p1, p2}, Lf/k/k/u/b;->m(Lf/k/k/u/c;Lcotlin/jvm/u/l;)Lf/k/k/u/c;
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -304,7 +287,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lf/k/k/s;->l()Lf/k/k/s;
 
     move-result-object v1
@@ -317,7 +299,6 @@
 
     const/4 v2, 0x1
 
-    .line 2
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v2
@@ -332,15 +313,12 @@
 
     const-string v3, ""
 
-    .line 3
     invoke-virtual {v1, v2, v3}, Lf/k/k/d;->d(Ljava/lang/String;Ljava/lang/Object;)Lf/k/k/d;
 
     move-result-object v1
 
-    .line 4
     invoke-virtual {v1, p1}, Lf/k/k/d;->j(Lf/k/k/p;)Lf/k/k/d;
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -370,7 +348,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lf/k/k/s;->l()Lf/k/k/s;
 
     move-result-object v1
@@ -383,7 +360,6 @@
 
     const/16 v2, 0x68
 
-    .line 2
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v2
@@ -396,7 +372,6 @@
 
     const/4 v2, 0x1
 
-    .line 3
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v2
@@ -409,15 +384,12 @@
 
     const-string v2, "content"
 
-    .line 4
     invoke-virtual {v1, v2, p1}, Lf/k/k/d;->d(Ljava/lang/String;Ljava/lang/Object;)Lf/k/k/d;
 
     move-result-object p1
 
-    .line 5
     invoke-virtual {p1, p2}, Lf/k/k/d;->j(Lf/k/k/p;)Lf/k/k/d;
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -442,7 +414,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lf/k/k/s;->l()Lf/k/k/s;
 
     move-result-object v1
@@ -455,7 +426,6 @@
 
     const/16 v2, 0x68
 
-    .line 2
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v2
@@ -468,7 +438,6 @@
 
     const/4 v2, 0x1
 
-    .line 3
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v2
@@ -481,15 +450,12 @@
 
     const-string v2, "arMaterialHotWord"
 
-    .line 4
     invoke-virtual {v1, v2}, Lf/k/k/d;->f(Ljava/lang/String;)Lf/k/k/d;
 
     move-result-object v1
 
-    .line 5
     invoke-virtual {v1, p1}, Lf/k/k/d;->j(Lf/k/k/p;)Lf/k/k/d;
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -506,33 +472,28 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lf/k/k/s;->l()Lf/k/k/s;
 
     move-result-object v1
 
     const-string v2, "/v1/robot"
 
-    .line 2
     invoke-virtual {v1, v2}, Lf/k/k/s;->r(Ljava/lang/String;)Lf/k/k/k;
 
     move-result-object v1
 
     const-string v2, "msg"
 
-    .line 3
     invoke-virtual {v1, v2, p1}, Lf/k/k/d;->d(Ljava/lang/String;Ljava/lang/Object;)Lf/k/k/d;
 
     move-result-object p1
 
-    .line 4
     sget-object v1, Lcom/meitu/http/api/ArApi$b;->a:Lcom/meitu/http/api/ArApi$b;
 
     invoke-virtual {p1, v1}, Lf/k/k/d;->e(Lf/k/k/d$b;)Lf/k/k/d;
 
     move-result-object p1
 
-    .line 5
     invoke-virtual {p1}, Lf/k/k/d;->z()Lf/k/k/d;
 
     move-result-object p1
@@ -541,12 +502,10 @@
 
     const-string v2, "giphy_search_and"
 
-    .line 6
     invoke-virtual {p1, v1, v2}, Lf/k/k/d;->d(Ljava/lang/String;Ljava/lang/Object;)Lf/k/k/d;
 
     move-result-object p1
 
-    .line 7
     invoke-static {}, Lcom/commsource/statistics/i;->e()Ljava/lang/String;
 
     move-result-object v1
@@ -567,10 +526,8 @@
 
     const/4 v1, 0x0
 
-    .line 8
     invoke-virtual {p1, v1}, Lf/k/k/d;->j(Lf/k/k/p;)Lf/k/k/d;
 
-    .line 9
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

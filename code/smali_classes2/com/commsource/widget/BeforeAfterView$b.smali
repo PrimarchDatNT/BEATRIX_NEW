@@ -26,7 +26,6 @@
 .method constructor <init>(Lcom/commsource/widget/BeforeAfterView;Ljava/lang/String;Landroid/graphics/Bitmap;Landroid/graphics/Bitmap;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/widget/BeforeAfterView$b;->J:Lcom/commsource/widget/BeforeAfterView;
 
     iput-object p3, p0, Lcom/commsource/widget/BeforeAfterView$b;->g:Landroid/graphics/Bitmap;
@@ -47,21 +46,18 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/widget/BeforeAfterView$b;->J:Lcom/commsource/widget/BeforeAfterView;
 
     iget-object v2, p0, Lcom/commsource/widget/BeforeAfterView$b;->g:Landroid/graphics/Bitmap;
 
     invoke-static {v1, v2}, Lcom/commsource/widget/BeforeAfterView;->k(Lcom/commsource/widget/BeforeAfterView;Landroid/graphics/Bitmap;)Landroid/graphics/Bitmap;
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/widget/BeforeAfterView$b;->J:Lcom/commsource/widget/BeforeAfterView;
 
     iget-object v2, p0, Lcom/commsource/widget/BeforeAfterView$b;->p:Landroid/graphics/Bitmap;
 
     invoke-static {v1, v2}, Lcom/commsource/widget/BeforeAfterView;->m(Lcom/commsource/widget/BeforeAfterView;Landroid/graphics/Bitmap;)Landroid/graphics/Bitmap;
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/widget/BeforeAfterView$b;->J:Lcom/commsource/widget/BeforeAfterView;
 
     invoke-static {v1}, Lcom/commsource/widget/BeforeAfterView;->j(Lcom/commsource/widget/BeforeAfterView;)Landroid/graphics/Bitmap;
@@ -88,7 +84,6 @@
 
     iget-object v1, p0, Lcom/commsource/widget/BeforeAfterView$b;->J:Lcom/commsource/widget/BeforeAfterView;
 
-    .line 4
     invoke-virtual {v1}, Landroid/view/View;->getWidth()I
 
     move-result v1
@@ -105,7 +100,6 @@
 
     goto/16 :goto_0
 
-    .line 5
     :cond_0
     iget-object v1, p0, Lcom/commsource/widget/BeforeAfterView$b;->J:Lcom/commsource/widget/BeforeAfterView;
 
@@ -133,7 +127,6 @@
 
     invoke-static {v1, v2}, Lcom/commsource/widget/BeforeAfterView;->k(Lcom/commsource/widget/BeforeAfterView;Landroid/graphics/Bitmap;)Landroid/graphics/Bitmap;
 
-    .line 6
     iget-object v1, p0, Lcom/commsource/widget/BeforeAfterView$b;->J:Lcom/commsource/widget/BeforeAfterView;
 
     invoke-static {v1}, Lcom/commsource/widget/BeforeAfterView;->l(Lcom/commsource/widget/BeforeAfterView;)Landroid/graphics/Bitmap;
@@ -158,7 +151,6 @@
 
     invoke-static {v1, v2}, Lcom/commsource/widget/BeforeAfterView;->m(Lcom/commsource/widget/BeforeAfterView;Landroid/graphics/Bitmap;)Landroid/graphics/Bitmap;
 
-    .line 7
     iget-object v1, p0, Lcom/commsource/widget/BeforeAfterView$b;->J:Lcom/commsource/widget/BeforeAfterView;
 
     invoke-static {}, Lcom/meitu/library/application/BaseApplication;->getApplication()Landroid/app/Application;
@@ -177,7 +169,6 @@
 
     invoke-static {v1, v2}, Lcom/commsource/widget/BeforeAfterView;->n(Lcom/commsource/widget/BeforeAfterView;Landroid/graphics/Bitmap;)Landroid/graphics/Bitmap;
 
-    .line 8
     iget-object v1, p0, Lcom/commsource/widget/BeforeAfterView$b;->J:Lcom/commsource/widget/BeforeAfterView;
 
     sget v2, Lcom/res/provider/ResSTRING;->ai_editor_after:I
@@ -188,20 +179,16 @@
 
     sget v3, Lcom/res/provider/ResSTRING;->ai_editor_before:I
 
-    .line 9
     invoke-static {v3}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
 
     move-result-object v3
 
-    .line 10
     invoke-virtual {v1, v2, v3}, Lcom/commsource/widget/BeforeAfterView;->s(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 11
     iget-object v1, p0, Lcom/commsource/widget/BeforeAfterView$b;->J:Lcom/commsource/widget/BeforeAfterView;
 
     invoke-static {v1}, Lcom/commsource/widget/BeforeAfterView;->o(Lcom/commsource/widget/BeforeAfterView;)V
 
-    .line 12
     iget-object v1, p0, Lcom/commsource/widget/BeforeAfterView$b;->J:Lcom/commsource/widget/BeforeAfterView;
 
     invoke-virtual {v1}, Landroid/view/View;->getWidth()I
@@ -216,7 +203,6 @@
 
     invoke-static {v1, v2}, Lcom/commsource/widget/BeforeAfterView;->g(Lcom/commsource/widget/BeforeAfterView;F)F
 
-    .line 13
     iget-object v1, p0, Lcom/commsource/widget/BeforeAfterView$b;->J:Lcom/commsource/widget/BeforeAfterView;
 
     invoke-static {v1}, Lcom/commsource/widget/BeforeAfterView;->h(Lcom/commsource/widget/BeforeAfterView;)Landroid/graphics/Rect;
@@ -233,7 +219,6 @@
 
     iput v2, v1, Landroid/graphics/Rect;->left:I
 
-    .line 14
     iget-object v1, p0, Lcom/commsource/widget/BeforeAfterView$b;->J:Lcom/commsource/widget/BeforeAfterView;
 
     invoke-static {v1}, Lcom/commsource/widget/BeforeAfterView;->i(Lcom/commsource/widget/BeforeAfterView;)Landroid/graphics/Rect;
@@ -250,24 +235,20 @@
 
     iput v2, v1, Landroid/graphics/Rect;->right:I
 
-    .line 15
     iget-object v1, p0, Lcom/commsource/widget/BeforeAfterView$b;->J:Lcom/commsource/widget/BeforeAfterView;
 
     const/4 v2, 0x1
 
     invoke-static {v1, v2}, Lcom/commsource/widget/BeforeAfterView;->d(Lcom/commsource/widget/BeforeAfterView;Z)Z
 
-    .line 16
     iget-object v1, p0, Lcom/commsource/widget/BeforeAfterView$b;->J:Lcom/commsource/widget/BeforeAfterView;
 
     invoke-virtual {v1}, Landroid/view/View;->postInvalidate()V
 
-    .line 17
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 18
     :cond_1
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

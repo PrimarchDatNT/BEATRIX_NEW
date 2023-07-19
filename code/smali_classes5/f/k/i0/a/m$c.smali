@@ -30,7 +30,6 @@
 .method constructor <init>(Lf/k/i0/a/m;Landroidx/room/RoomDatabase;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lf/k/i0/a/m$c;->a:Lf/k/i0/a/m;
 
     invoke-direct {p0, p2}, Landroidx/room/EntityDeletionOrUpdateAdapter;-><init>(Landroidx/room/RoomDatabase;)V
@@ -47,7 +46,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p2}, Lcom/meitu/template/bean/f;->a()I
 
     move-result v1
@@ -58,7 +56,6 @@
 
     invoke-interface {p1, v3, v1, v2}, Landroidx/sqlite/db/SupportSQLiteProgram;->bindLong(IJ)V
 
-    .line 2
     invoke-virtual {p2}, Lcom/meitu/template/bean/f;->b()Ljava/lang/String;
 
     move-result-object v1
@@ -67,12 +64,10 @@
 
     if-nez v1, :cond_0
 
-    .line 3
     invoke-interface {p1, v2}, Landroidx/sqlite/db/SupportSQLiteProgram;->bindNull(I)V
 
     goto :goto_0
 
-    .line 4
     :cond_0
     invoke-virtual {p2}, Lcom/meitu/template/bean/f;->b()Ljava/lang/String;
 
@@ -83,7 +78,6 @@
     :goto_0
     const/4 v1, 0x3
 
-    .line 5
     invoke-virtual {p2}, Lcom/meitu/template/bean/f;->c()I
 
     move-result v2
@@ -94,7 +88,6 @@
 
     const/4 v1, 0x4
 
-    .line 6
     invoke-virtual {p2}, Lcom/meitu/template/bean/f;->e()I
 
     move-result v2
@@ -105,7 +98,6 @@
 
     const/4 v1, 0x5
 
-    .line 7
     invoke-virtual {p2}, Lcom/meitu/template/bean/f;->a()I
 
     move-result p2
@@ -114,7 +106,6 @@
 
     invoke-interface {p1, v1, v2, v3}, Landroidx/sqlite/db/SupportSQLiteProgram;->bindLong(IJ)V
 
-    .line 8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -127,7 +118,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p2, Lcom/meitu/template/bean/f;
 
     invoke-virtual {p0, p1, p2}, Lf/k/i0/a/m$c;->a(Landroidx/sqlite/db/SupportSQLiteStatement;Lcom/meitu/template/bean/f;)V
@@ -144,7 +134,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const-string v0, "UPDATE OR ABORT `DOODLE_CATEGORY` SET `CategoryId` = ?,`CategoryName` = ?,`CategorySort` = ?,`LockLocalState` = ? WHERE `CategoryId` = ?"

@@ -79,12 +79,10 @@
 
     const-string v2, "datetaken"
 
-    .line 1
     filled-new-array {v0, v1, v2}, [Ljava/lang/String;
 
     move-result-object v0
 
-    .line 2
     sput-object v0, Lcom/pixocial/uichecker/ScreenShotHelper;->j:[Ljava/lang/String;
 
     const-string v1, "screenshot"
@@ -111,12 +109,10 @@
 
     const-string v12, "screen cap"
 
-    .line 3
     filled-new-array/range {v1 .. v12}, [Ljava/lang/String;
 
     move-result-object v0
 
-    .line 4
     sput-object v0, Lcom/pixocial/uichecker/ScreenShotHelper;->k:[Ljava/lang/String;
 
     return-void
@@ -125,10 +121,8 @@
 .method public constructor <init>()V
     .locals 2
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     new-instance v0, Landroid/os/Handler;
 
     invoke-static {}, Landroid/os/Looper;->getMainLooper()Landroid/os/Looper;
@@ -139,7 +133,6 @@
 
     iput-object v0, p0, Lcom/pixocial/uichecker/ScreenShotHelper;->b:Landroid/os/Handler;
 
-    .line 3
     new-instance v0, Lcom/pixocial/uichecker/ScreenShotHelper$internalContentObserver$2;
 
     invoke-direct {v0, p0}, Lcom/pixocial/uichecker/ScreenShotHelper$internalContentObserver$2;-><init>(Lcom/pixocial/uichecker/ScreenShotHelper;)V
@@ -150,7 +143,6 @@
 
     iput-object v0, p0, Lcom/pixocial/uichecker/ScreenShotHelper;->d:Lcotlin/w;
 
-    .line 4
     new-instance v0, Lcom/pixocial/uichecker/ScreenShotHelper$externalContentObserver$2;
 
     invoke-direct {v0, p0}, Lcom/pixocial/uichecker/ScreenShotHelper$externalContentObserver$2;-><init>(Lcom/pixocial/uichecker/ScreenShotHelper;)V
@@ -163,10 +155,8 @@
 
     const/4 v0, 0x1
 
-    .line 5
     iput-boolean v0, p0, Lcom/pixocial/uichecker/ScreenShotHelper;->h:Z
 
-    .line 6
     new-instance v0, Lcom/pixocial/uichecker/ScreenShotHelper$c;
 
     invoke-direct {v0, p0}, Lcom/pixocial/uichecker/ScreenShotHelper$c;-><init>(Lcom/pixocial/uichecker/ScreenShotHelper;)V
@@ -179,7 +169,6 @@
 .method public static final synthetic a(Lcom/pixocial/uichecker/ScreenShotHelper;)Landroid/os/Handler;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lcom/pixocial/uichecker/ScreenShotHelper;->b:Landroid/os/Handler;
 
     return-object p0
@@ -188,7 +177,6 @@
 .method public static final synthetic b()[Ljava/lang/String;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/pixocial/uichecker/ScreenShotHelper;->k:[Ljava/lang/String;
 
     return-object v0
@@ -197,7 +185,6 @@
 .method public static final synthetic c(Lcom/pixocial/uichecker/ScreenShotHelper;)Ljava/lang/String;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lcom/pixocial/uichecker/ScreenShotHelper;->c:Ljava/lang/String;
 
     return-object p0
@@ -206,7 +193,6 @@
 .method public static final synthetic d()[Ljava/lang/String;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/pixocial/uichecker/ScreenShotHelper;->j:[Ljava/lang/String;
 
     return-object v0
@@ -215,7 +201,6 @@
 .method public static final synthetic e(Lcom/pixocial/uichecker/ScreenShotHelper;Landroid/net/Uri;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/pixocial/uichecker/ScreenShotHelper;->l(Landroid/net/Uri;)V
 
     return-void
@@ -224,7 +209,6 @@
 .method public static final synthetic f(Lcom/pixocial/uichecker/ScreenShotHelper;Ljava/lang/String;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/pixocial/uichecker/ScreenShotHelper;->c:Ljava/lang/String;
 
     return-void
@@ -237,7 +221,6 @@
 
     if-eqz p1, :cond_2
 
-    .line 1
     invoke-virtual {p1}, Ljava/lang/String;->length()I
 
     move-result v1
@@ -248,7 +231,6 @@
 
     goto :goto_1
 
-    .line 2
     :cond_0
     invoke-virtual {p1}, Ljava/lang/String;->toLowerCase()Ljava/lang/String;
 
@@ -258,7 +240,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 3
     sget-object v1, Lcom/pixocial/uichecker/ScreenShotHelper;->k:[Ljava/lang/String;
 
     array-length v3, v1
@@ -272,7 +253,6 @@
 
     const/4 v6, 0x0
 
-    .line 4
     invoke-static {p1, v5, v0, v2, v6}, Lcotlin/text/m;->T2(Ljava/lang/CharSequence;Ljava/lang/CharSequence;ZILjava/lang/Object;)Z
 
     move-result v5
@@ -331,7 +311,6 @@
     :cond_0
     const/4 v0, 0x0
 
-    .line 1
     :try_start_0
     sget v1, Landroid/os/Build$VERSION;->SDK_INT:I
     :try_end_0
@@ -346,7 +325,6 @@
 
     if-lt v1, v2, :cond_2
 
-    .line 2
     :try_start_1
     new-instance v1, Landroid/os/Bundle;
 
@@ -356,25 +334,20 @@
 
     const/4 v5, 0x1
 
-    .line 3
     invoke-virtual {v1, v2, v5}, Landroid/os/Bundle;->putInt(Ljava/lang/String;I)V
 
     const-string v2, "android:query-arg-sort-columns"
 
-    .line 4
     filled-new-array {v3}, [Ljava/lang/String;
 
     move-result-object v6
 
-    .line 5
     invoke-virtual {v1, v2, v6}, Landroid/os/Bundle;->putStringArray(Ljava/lang/String;[Ljava/lang/String;)V
 
     const-string v2, "android:query-arg-sql-sort-order"
 
-    .line 6
     invoke-virtual {v1, v2, v5}, Landroid/os/Bundle;->putInt(Ljava/lang/String;I)V
 
-    .line 7
     iget-object v2, p0, Lcom/pixocial/uichecker/ScreenShotHelper;->a:Landroid/app/Application;
 
     if-nez v2, :cond_1
@@ -394,7 +367,6 @@
 
     goto :goto_0
 
-    .line 8
     :cond_2
     iget-object v1, p0, Lcom/pixocial/uichecker/ScreenShotHelper;->a:Landroid/app/Application;
 
@@ -407,7 +379,6 @@
 
     move-result-object v4
 
-    .line 9
     sget-object v6, Lcom/pixocial/uichecker/ScreenShotHelper;->j:[Ljava/lang/String;
 
     const/4 v7, 0x0
@@ -418,7 +389,6 @@
 
     move-object v5, p1
 
-    .line 10
     invoke-virtual/range {v4 .. v9}, Landroid/content/ContentResolver;->query(Landroid/net/Uri;[Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;)Landroid/database/Cursor;
 
     move-result-object p1
@@ -430,7 +400,6 @@
 
     return-void
 
-    .line 11
     :cond_4
     invoke-interface {v0}, Landroid/database/Cursor;->moveToFirst()Z
 
@@ -441,14 +410,12 @@
 
     if-nez p1, :cond_6
 
-    .line 12
     invoke-interface {v0}, Landroid/database/Cursor;->isClosed()Z
 
     move-result p1
 
     if-nez p1, :cond_5
 
-    .line 13
     invoke-interface {v0}, Landroid/database/Cursor;->close()V
 
     :cond_5
@@ -458,24 +425,20 @@
     :try_start_2
     const-string p1, "_data"
 
-    .line 14
     invoke-interface {v0, p1}, Landroid/database/Cursor;->getColumnIndex(Ljava/lang/String;)I
 
     move-result p1
 
     const-string v1, "datetaken"
 
-    .line 15
     invoke-interface {v0, v1}, Landroid/database/Cursor;->getColumnIndex(Ljava/lang/String;)I
 
     move-result v1
 
-    .line 16
     invoke-interface {v0, v3}, Landroid/database/Cursor;->getColumnIndex(Ljava/lang/String;)I
 
     move-result v2
 
-    .line 17
     invoke-interface {v0, p1}, Landroid/database/Cursor;->getString(I)Ljava/lang/String;
 
     move-result-object p1
@@ -484,24 +447,20 @@
 
     invoke-static {p1, v3}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 18
     invoke-interface {v0, v1}, Landroid/database/Cursor;->getLong(I)J
 
     move-result-wide v3
 
-    .line 19
     invoke-interface {v0, v2}, Landroid/database/Cursor;->getLong(I)J
 
     move-result-wide v1
 
-    .line 20
     invoke-direct {p0, p1}, Lcom/pixocial/uichecker/ScreenShotHelper;->m(Ljava/lang/String;)Z
 
     move-result v5
 
     if-eqz v5, :cond_a
 
-    .line 21
     iget-object v5, p0, Lcom/pixocial/uichecker/ScreenShotHelper;->c:Ljava/lang/String;
 
     invoke-static {v5, p1}, Landroid/text/TextUtils;->equals(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)Z
@@ -512,7 +471,6 @@
 
     if-eqz v5, :cond_7
 
-    .line 22
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v1
@@ -527,14 +485,12 @@
 
     if-gez p1, :cond_a
 
-    .line 23
     iget-object p1, p0, Lcom/pixocial/uichecker/ScreenShotHelper;->b:Landroid/os/Handler;
 
     iget-object v1, p0, Lcom/pixocial/uichecker/ScreenShotHelper;->i:Ljava/lang/Runnable;
 
     invoke-virtual {p1, v1}, Landroid/os/Handler;->removeCallbacks(Ljava/lang/Runnable;)V
 
-    .line 24
     iget-object p1, p0, Lcom/pixocial/uichecker/ScreenShotHelper;->b:Landroid/os/Handler;
 
     iget-object v1, p0, Lcom/pixocial/uichecker/ScreenShotHelper;->i:Ljava/lang/Runnable;
@@ -562,7 +518,6 @@
 
     goto :goto_1
 
-    .line 25
     :cond_8
     invoke-direct {p0, p1}, Lcom/pixocial/uichecker/ScreenShotHelper;->g(Ljava/lang/String;)Z
 
@@ -570,17 +525,14 @@
 
     if-eqz v1, :cond_a
 
-    .line 26
     iget-object v1, p0, Lcom/pixocial/uichecker/ScreenShotHelper;->b:Landroid/os/Handler;
 
     iget-object v2, p0, Lcom/pixocial/uichecker/ScreenShotHelper;->i:Ljava/lang/Runnable;
 
     invoke-virtual {v1, v2}, Landroid/os/Handler;->removeCallbacks(Ljava/lang/Runnable;)V
 
-    .line 27
     iput-object p1, p0, Lcom/pixocial/uichecker/ScreenShotHelper;->c:Ljava/lang/String;
 
-    .line 28
     iget-object p1, p0, Lcom/pixocial/uichecker/ScreenShotHelper;->b:Landroid/os/Handler;
 
     iget-object v1, p0, Lcom/pixocial/uichecker/ScreenShotHelper;->i:Ljava/lang/Runnable;
@@ -589,7 +541,6 @@
 
     goto :goto_2
 
-    .line 29
     :cond_9
     :goto_1
     iget-object p1, p0, Lcom/pixocial/uichecker/ScreenShotHelper;->b:Landroid/os/Handler;
@@ -601,7 +552,6 @@
     .catch Ljava/lang/Exception; {:try_start_2 .. :try_end_2} :catch_0
     .catchall {:try_start_2 .. :try_end_2} :catchall_0
 
-    .line 30
     :cond_a
     :goto_2
     invoke-interface {v0}, Landroid/database/Cursor;->isClosed()Z
@@ -610,7 +560,6 @@
 
     if-nez p1, :cond_c
 
-    .line 31
     :goto_3
     invoke-interface {v0}, Landroid/database/Cursor;->close()V
 
@@ -624,7 +573,6 @@
     :catch_0
     move-exception p1
 
-    .line 32
     :try_start_3
     invoke-virtual {p1}, Ljava/lang/Exception;->getMessage()Ljava/lang/String;
 
@@ -641,7 +589,6 @@
     :cond_b
     if-eqz v0, :cond_c
 
-    .line 33
     invoke-interface {v0}, Landroid/database/Cursor;->isClosed()Z
 
     move-result p1
@@ -663,7 +610,6 @@
 
     if-nez v1, :cond_d
 
-    .line 34
     invoke-interface {v0}, Landroid/database/Cursor;->close()V
 
     :cond_d
@@ -673,7 +619,6 @@
 .method private final m(Ljava/lang/String;)Z
     .locals 4
 
-    .line 1
     invoke-static {p1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v0
@@ -705,7 +650,6 @@
 .method public final h()Z
     .locals 1
 
-    .line 1
     iget-boolean v0, p0, Lcom/pixocial/uichecker/ScreenShotHelper;->h:Z
 
     return v0
@@ -726,7 +670,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/pixocial/uichecker/ScreenShotHelper;->f:Lcotlin/jvm/u/l;
 
     return-object v0
@@ -745,26 +688,21 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-boolean v0, p0, Lcom/pixocial/uichecker/ScreenShotHelper;->g:Z
 
     if-eqz v0, :cond_0
 
     return-void
 
-    .line 2
     :cond_0
     iput-object p1, p0, Lcom/pixocial/uichecker/ScreenShotHelper;->a:Landroid/app/Application;
 
-    .line 3
     invoke-virtual {p1}, Landroid/app/Application;->getContentResolver()Landroid/content/ContentResolver;
 
     move-result-object v0
 
-    .line 4
     sget-object v1, Landroid/provider/MediaStore$Images$Media;->INTERNAL_CONTENT_URI:Landroid/net/Uri;
 
-    .line 5
     sget v2, Landroid/os/Build$VERSION;->SDK_INT:I
 
     const/4 v3, 0x0
@@ -787,31 +725,25 @@
 
     move-result-object v7
 
-    .line 6
     invoke-virtual {v0, v1, v6, v7}, Landroid/content/ContentResolver;->registerContentObserver(Landroid/net/Uri;ZLandroid/database/ContentObserver;)V
 
-    .line 7
     invoke-virtual {p1}, Landroid/app/Application;->getContentResolver()Landroid/content/ContentResolver;
 
     move-result-object p1
 
-    .line 8
     sget-object v0, Landroid/provider/MediaStore$Images$Media;->EXTERNAL_CONTENT_URI:Landroid/net/Uri;
 
     if-lt v2, v4, :cond_2
 
     const/4 v3, 0x1
 
-    .line 9
     :cond_2
     invoke-direct {p0}, Lcom/pixocial/uichecker/ScreenShotHelper;->i()Lcom/pixocial/uichecker/ScreenShotHelper$b;
 
     move-result-object v1
 
-    .line 10
     invoke-virtual {p1, v0, v3, v1}, Landroid/content/ContentResolver;->registerContentObserver(Landroid/net/Uri;ZLandroid/database/ContentObserver;)V
 
-    .line 11
     iput-boolean v5, p0, Lcom/pixocial/uichecker/ScreenShotHelper;->g:Z
 
     return-void
@@ -820,7 +752,6 @@
 .method public final o(Z)V
     .locals 0
 
-    .line 1
     iput-boolean p1, p0, Lcom/pixocial/uichecker/ScreenShotHelper;->h:Z
 
     return-void
@@ -843,7 +774,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/pixocial/uichecker/ScreenShotHelper;->f:Lcotlin/jvm/u/l;
 
     return-void
@@ -854,19 +784,16 @@
     .annotation build Landroidx/annotation/UiThread;
     .end annotation
 
-    .line 1
     iget-boolean v0, p0, Lcom/pixocial/uichecker/ScreenShotHelper;->g:Z
 
     if-nez v0, :cond_0
 
     return-void
 
-    .line 2
     :cond_0
     :try_start_0
     sget-object v0, Lcotlin/Result;->Companion:Lcotlin/Result$a;
 
-    .line 3
     iget-object v0, p0, Lcom/pixocial/uichecker/ScreenShotHelper;->a:Landroid/app/Application;
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
@@ -889,7 +816,6 @@
 
     invoke-virtual {v0, v2}, Landroid/content/ContentResolver;->unregisterContentObserver(Landroid/database/ContentObserver;)V
 
-    .line 4
     iget-object v0, p0, Lcom/pixocial/uichecker/ScreenShotHelper;->a:Landroid/app/Application;
 
     if-nez v0, :cond_2
@@ -907,10 +833,8 @@
 
     invoke-virtual {v0, v1}, Landroid/content/ContentResolver;->unregisterContentObserver(Landroid/database/ContentObserver;)V
 
-    .line 5
     sget-object v0, Lcotlin/t1;->a:Lcotlin/t1;
 
-    .line 6
     invoke-static {v0}, Lcotlin/Result;->constructor-impl(Ljava/lang/Object;)Ljava/lang/Object;
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
@@ -931,7 +855,6 @@
     :goto_0
     const/4 v0, 0x0
 
-    .line 7
     iput-boolean v0, p0, Lcom/pixocial/uichecker/ScreenShotHelper;->g:Z
 
     return-void

@@ -36,7 +36,6 @@
 .method constructor <init>(Lcom/google/common/collect/Synchronized$SynchronizedTable;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/common/collect/Synchronized$SynchronizedTable$b;->a:Lcom/google/common/collect/Synchronized$SynchronizedTable;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -58,7 +57,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/Synchronized$SynchronizedTable$b;->a:Lcom/google/common/collect/Synchronized$SynchronizedTable;
 
     iget-object v0, v0, Lcom/google/common/collect/Synchronized$SynchronizedObject;->mutex:Ljava/lang/Object;
@@ -73,7 +71,6 @@
 .method public bridge synthetic apply(Ljava/lang/Object;)Ljava/lang/Object;
     .locals 0
 
-    .line 1
     check-cast p1, Ljava/util/Map;
 
     invoke-virtual {p0, p1}, Lcom/google/common/collect/Synchronized$SynchronizedTable$b;->a(Ljava/util/Map;)Ljava/util/Map;

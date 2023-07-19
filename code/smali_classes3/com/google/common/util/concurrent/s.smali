@@ -10,7 +10,6 @@
 .method constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -29,7 +28,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/util/concurrent/s;->a()Ljava/util/concurrent/locks/Condition;
 
     move-result-object v0
@@ -47,7 +45,6 @@
         }
     .end annotation
 
-    .line 2
     invoke-virtual {p0}, Lcom/google/common/util/concurrent/s;->a()Ljava/util/concurrent/locks/Condition;
 
     move-result-object v0
@@ -67,7 +64,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/util/concurrent/s;->a()Ljava/util/concurrent/locks/Condition;
 
     move-result-object v0
@@ -82,7 +78,6 @@
 .method public awaitUninterruptibly()V
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/util/concurrent/s;->a()Ljava/util/concurrent/locks/Condition;
 
     move-result-object v0
@@ -100,7 +95,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/util/concurrent/s;->a()Ljava/util/concurrent/locks/Condition;
 
     move-result-object v0
@@ -115,7 +109,6 @@
 .method public signal()V
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/util/concurrent/s;->a()Ljava/util/concurrent/locks/Condition;
 
     move-result-object v0
@@ -128,7 +121,6 @@
 .method public signalAll()V
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/util/concurrent/s;->a()Ljava/util/concurrent/locks/Condition;
 
     move-result-object v0

@@ -42,14 +42,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/montage/CreateMontageCover$c$c;->a:Lcom/commsource/camera/xcamera/cover/montage/CreateMontageCover$c;
 
     iget-object v1, v1, Lcom/commsource/camera/xcamera/cover/montage/CreateMontageCover$c;->a:Lcom/commsource/camera/xcamera/cover/montage/CreateMontageCover;
 
     invoke-virtual {v1}, Lcom/commsource/camera/xcamera/cover/AbsLazyCover;->z()V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/montage/CreateMontageCover$c$c;->a:Lcom/commsource/camera/xcamera/cover/montage/CreateMontageCover$c;
 
     iget-object v1, v1, Lcom/commsource/camera/xcamera/cover/montage/CreateMontageCover$c;->a:Lcom/commsource/camera/xcamera/cover/montage/CreateMontageCover;
@@ -68,7 +66,6 @@
 
     invoke-static {v1, v2}, Lcom/commsource/camera/xcamera/cover/montage/CreateMontageCover;->G(Lcom/commsource/camera/xcamera/cover/montage/CreateMontageCover;I)V
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/montage/CreateMontageCover$c$c;->a:Lcom/commsource/camera/xcamera/cover/montage/CreateMontageCover$c;
 
     iget-object v1, v1, Lcom/commsource/camera/xcamera/cover/montage/CreateMontageCover$c;->a:Lcom/commsource/camera/xcamera/cover/montage/CreateMontageCover;
@@ -81,7 +78,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;->d1(I)Z
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/montage/CreateMontageCover$c$c;->a:Lcom/commsource/camera/xcamera/cover/montage/CreateMontageCover$c;
 
     iget-object v1, v1, Lcom/commsource/camera/xcamera/cover/montage/CreateMontageCover$c;->a:Lcom/commsource/camera/xcamera/cover/montage/CreateMontageCover;
@@ -92,7 +88,6 @@
 
     invoke-virtual {v1}, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/c1;->K0()V
 
-    .line 5
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/montage/CreateMontageCover$c$c;->a:Lcom/commsource/camera/xcamera/cover/montage/CreateMontageCover$c;
 
     iget-object v1, v1, Lcom/commsource/camera/xcamera/cover/montage/CreateMontageCover$c;->a:Lcom/commsource/camera/xcamera/cover/montage/CreateMontageCover;
@@ -103,7 +98,6 @@
 
     invoke-virtual {v1}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/c;->T()V
 
-    .line 6
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/montage/CreateMontageCover$c$c;->a:Lcom/commsource/camera/xcamera/cover/montage/CreateMontageCover$c;
 
     iget-object v1, v1, Lcom/commsource/camera/xcamera/cover/montage/CreateMontageCover$c;->a:Lcom/commsource/camera/xcamera/cover/montage/CreateMontageCover;
@@ -116,7 +110,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/camera/xcamera/cover/CameraCaptureViewModel;->X(I)V
 
-    .line 7
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/montage/CreateMontageCover$c$c;->a:Lcom/commsource/camera/xcamera/cover/montage/CreateMontageCover$c;
 
     iget-object v1, v1, Lcom/commsource/camera/xcamera/cover/montage/CreateMontageCover$c;->a:Lcom/commsource/camera/xcamera/cover/montage/CreateMontageCover;
@@ -141,7 +134,6 @@
 
     invoke-static {v1, v2}, Lcom/commsource/camera/xcamera/cover/montage/CreateMontageCover;->H(Lcom/commsource/camera/xcamera/cover/montage/CreateMontageCover;Lcom/meitu/template/bean/ArMaterial;)V
 
-    .line 8
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/montage/CreateMontageCover$c$c;->a:Lcom/commsource/camera/xcamera/cover/montage/CreateMontageCover$c;
 
     iget-object v1, v1, Lcom/commsource/camera/xcamera/cover/montage/CreateMontageCover$c;->a:Lcom/commsource/camera/xcamera/cover/montage/CreateMontageCover;
@@ -154,12 +146,10 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/c1;->y(Lcom/meitu/template/bean/ArMaterial;)V
 
-    .line 9
     new-instance v1, Lcom/meitu/library/hwanalytics/spm/e/a;
 
     invoke-direct {v1}, Lcom/meitu/library/hwanalytics/spm/e/a;-><init>()V
 
-    .line 10
     const-class v2, Lcom/commsource/camera/xcamera/cover/montage/CreateMontageCover;
 
     invoke-virtual {v2}, Ljava/lang/Class;->getSimpleName()Ljava/lang/String;
@@ -168,7 +158,6 @@
 
     invoke-virtual {v1, v2}, Lcom/meitu/library/hwanalytics/spm/e/a;->s(Ljava/lang/String;)V
 
-    .line 11
     new-instance v2, Ljava/lang/ref/WeakReference;
 
     iget-object v3, p0, Lcom/commsource/camera/xcamera/cover/montage/CreateMontageCover$c$c;->a:Lcom/commsource/camera/xcamera/cover/montage/CreateMontageCover$c;
@@ -179,7 +168,6 @@
 
     invoke-virtual {v1, v2}, Lcom/meitu/library/hwanalytics/spm/e/a;->u(Ljava/lang/ref/WeakReference;)V
 
-    .line 12
     sget-object v2, Lcom/meitu/library/hwanalytics/spm/SPMManager;->h:Lcom/meitu/library/hwanalytics/spm/SPMManager$a;
 
     invoke-virtual {v2}, Lcom/meitu/library/hwanalytics/spm/SPMManager$a;->a()Lcom/meitu/library/hwanalytics/spm/SPMManager;
@@ -188,7 +176,6 @@
 
     invoke-virtual {v2, v1}, Lcom/meitu/library/hwanalytics/spm/SPMManager;->p(Lcom/meitu/library/hwanalytics/spm/e/a;)V
 
-    .line 13
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

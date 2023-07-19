@@ -41,7 +41,6 @@
 
     iput-object p2, p0, Lcotlinx/coroutines/flow/FlowKt__EmittersKt$onStart$$inlined$unsafeFlow$1;->b:Lcotlin/jvm/u/p;
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -96,7 +95,6 @@
 
     move-result-object v1
 
-    .line 1
     iget v2, v0, Lcotlinx/coroutines/flow/FlowKt__EmittersKt$onStart$$inlined$unsafeFlow$1$1;->label:I
 
     const/4 v3, 0x2
@@ -133,7 +131,6 @@
 
     goto :goto_2
 
-    .line 2
     :cond_1
     new-instance p1, Ljava/lang/IllegalStateException;
 
@@ -143,7 +140,6 @@
 
     throw p1
 
-    .line 3
     :cond_2
     iget-object p1, v0, Lcotlinx/coroutines/flow/FlowKt__EmittersKt$onStart$$inlined$unsafeFlow$1$1;->L$4:Ljava/lang/Object;
 
@@ -180,7 +176,6 @@
     :cond_3
     invoke-static {p2}, Lcotlin/r0;->n(Ljava/lang/Object;)V
 
-    .line 4
     invoke-interface {v0}, Lcotlin/coroutines/c;->getContext()Lcotlin/coroutines/CoroutineContext;
 
     move-result-object p2
@@ -189,7 +184,6 @@
 
     invoke-direct {v2, p1, p2}, Lcotlinx/coroutines/flow/internal/SafeCollector;-><init>(Lcotlinx/coroutines/flow/e;Lcotlin/coroutines/CoroutineContext;)V
 
-    .line 5
     :try_start_1
     iget-object p2, p0, Lcotlinx/coroutines/flow/FlowKt__EmittersKt$onStart$$inlined$unsafeFlow$1;->b:Lcotlin/jvm/u/p;
 
@@ -226,11 +220,9 @@
 
     move-object v2, v5
 
-    .line 6
     :goto_1
     invoke-virtual {p1}, Lcotlinx/coroutines/flow/internal/SafeCollector;->releaseIntercepted()V
 
-    .line 7
     iget-object p2, v6, Lcotlinx/coroutines/flow/FlowKt__EmittersKt$onStart$$inlined$unsafeFlow$1;->a:Lcotlinx/coroutines/flow/d;
 
     iput-object v6, v0, Lcotlinx/coroutines/flow/FlowKt__EmittersKt$onStart$$inlined$unsafeFlow$1$1;->L$0:Ljava/lang/Object;
@@ -253,7 +245,6 @@
 
     return-object v1
 
-    .line 8
     :cond_5
     :goto_2
     sget-object p1, Lcotlin/t1;->a:Lcotlin/t1;
@@ -265,7 +256,6 @@
 
     move-object p1, v2
 
-    .line 9
     :goto_3
     invoke-virtual {p1}, Lcotlinx/coroutines/flow/internal/SafeCollector;->releaseIntercepted()V
 

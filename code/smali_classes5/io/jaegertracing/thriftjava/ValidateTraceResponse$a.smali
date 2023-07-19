@@ -22,7 +22,6 @@
 .method static constructor <clinit>()V
     .locals 3
 
-    .line 1
     invoke-static {}, Lio/jaegertracing/thriftjava/ValidateTraceResponse$_Fields;->values()[Lio/jaegertracing/thriftjava/ValidateTraceResponse$_Fields;
 
     move-result-object v0

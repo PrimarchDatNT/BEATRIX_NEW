@@ -14,7 +14,6 @@
 
     new-array v0, v0, [Ljava/lang/Throwable;
 
-    .line 1
     sput-object v0, Lcom/google/android/gms/internal/firebase_remote_config/b3;->a:[Ljava/lang/Throwable;
 
     return-void
@@ -23,7 +22,6 @@
 .method constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void

@@ -40,7 +40,6 @@
 
     invoke-static {p2, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/layer/RelightLayer$DrawPathView;->a:Lcom/commsource/studio/layer/RelightLayer;
 
     invoke-direct {p0, p2}, Landroid/view/View;-><init>(Landroid/content/Context;)V
@@ -132,7 +131,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/layer/RelightLayer$DrawPathView;->a:Lcom/commsource/studio/layer/RelightLayer;
 
     invoke-virtual {v1}, Lcom/commsource/studio/layer/BaseLayer;->K()F
@@ -150,7 +148,6 @@
     :cond_0
     if-eqz p1, :cond_1
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/layer/RelightLayer$DrawPathView;->a:Lcom/commsource/studio/layer/RelightLayer;
 
     invoke-virtual {v1}, Lcom/commsource/studio/layer/BaseLayer;->O()F
@@ -170,7 +167,6 @@
     :cond_1
     if-eqz p1, :cond_2
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/studio/layer/RelightLayer$DrawPathView;->a:Lcom/commsource/studio/layer/RelightLayer;
 
     invoke-virtual {v1}, Lcom/commsource/studio/layer/RelightLayer;->B0()Landroid/graphics/Bitmap;
@@ -191,7 +187,6 @@
 
     invoke-virtual {p1, v1, v2, v3}, Landroid/graphics/Canvas;->drawBitmap(Landroid/graphics/Bitmap;Landroid/graphics/Matrix;Landroid/graphics/Paint;)V
 
-    .line 4
     :cond_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

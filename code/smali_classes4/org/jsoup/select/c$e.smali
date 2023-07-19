@@ -18,7 +18,6 @@
 .method public constructor <init>(Ljava/lang/String;Ljava/lang/String;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1, p2}, Lorg/jsoup/select/c$c;-><init>(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
@@ -29,7 +28,6 @@
 .method public a(Lorg/jsoup/nodes/Element;Lorg/jsoup/nodes/Element;)Z
     .locals 1
 
-    .line 1
     iget-object p1, p0, Lorg/jsoup/select/c$c;->a:Ljava/lang/String;
 
     invoke-virtual {p2, p1}, Lorg/jsoup/nodes/j;->z(Ljava/lang/String;)Z
@@ -74,7 +72,6 @@
 
     new-array v0, v0, [Ljava/lang/Object;
 
-    .line 1
     iget-object v1, p0, Lorg/jsoup/select/c$c;->a:Ljava/lang/String;
 
     const/4 v2, 0x0

@@ -17,7 +17,6 @@
 
     const/high16 v1, 0x41300000    # 11.0f
 
-    .line 1
     invoke-static {v1}, Lcom/meitu/library/p/f/i;->d(F)I
 
     move-result v1
@@ -32,7 +31,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Landroidx/recyclerview/widget/RecyclerView$ItemDecoration;-><init>()V
 
     return-void
@@ -45,17 +43,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p1}, Landroidx/recyclerview/widget/RecyclerView;->getLayoutManager()Landroidx/recyclerview/widget/RecyclerView$LayoutManager;
 
     move-result-object p1
 
-    .line 2
     instance-of v1, p1, Landroidx/recyclerview/widget/GridLayoutManager;
 
     if-eqz v1, :cond_0
 
-    .line 3
     check-cast p1, Landroidx/recyclerview/widget/GridLayoutManager;
 
     invoke-virtual {p1}, Landroidx/recyclerview/widget/GridLayoutManager;->getSpanCount()I
@@ -67,7 +62,6 @@
     :cond_0
     const/4 p1, -0x1
 
-    .line 4
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -81,12 +75,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p1}, Landroidx/recyclerview/widget/RecyclerView;->getLayoutManager()Landroidx/recyclerview/widget/RecyclerView$LayoutManager;
 
     move-result-object p1
 
-    .line 2
     instance-of p1, p1, Landroidx/recyclerview/widget/GridLayoutManager;
 
     const/4 v1, 0x0
@@ -97,7 +89,6 @@
 
     add-int/2addr p2, p1
 
-    .line 3
     rem-int/2addr p2, p3
 
     if-nez p2, :cond_0
@@ -109,7 +100,6 @@
 
     return v1
 
-    .line 4
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -123,19 +113,16 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p1}, Landroidx/recyclerview/widget/RecyclerView;->getLayoutManager()Landroidx/recyclerview/widget/RecyclerView$LayoutManager;
 
     move-result-object p1
 
-    .line 2
     instance-of p1, p1, Landroidx/recyclerview/widget/GridLayoutManager;
 
     const/4 v1, 0x0
 
     if-eqz p1, :cond_1
 
-    .line 3
     rem-int p1, p4, p3
 
     sub-int/2addr p4, p1
@@ -144,13 +131,11 @@
 
     const/4 v1, 0x1
 
-    .line 4
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
 
-    .line 5
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -182,20 +167,16 @@
 
     invoke-static {p4}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p3, p2}, Landroidx/recyclerview/widget/RecyclerView;->getChildAdapterPosition(Landroid/view/View;)I
 
     move-result v0
 
-    .line 2
     sget v1, Lcom/commsource/camera/montage/c0;->a:I
 
-    .line 3
     invoke-virtual {p3, p2}, Landroidx/recyclerview/widget/RecyclerView;->getChildViewHolder(Landroid/view/View;)Landroidx/recyclerview/widget/RecyclerView$ViewHolder;
 
     move-result-object p2
 
-    .line 4
     invoke-virtual {p2}, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->getItemViewType()I
 
     move-result p2
@@ -222,18 +203,15 @@
 
     goto :goto_1
 
-    .line 5
     :cond_1
     invoke-virtual {p1, v2, v2, v1, v1}, Landroid/graphics/Rect;->set(IIII)V
 
     goto :goto_2
 
-    .line 6
     :cond_2
     :goto_1
     invoke-virtual {p1, v2, v1, v1, v1}, Landroid/graphics/Rect;->set(IIII)V
 
-    .line 7
     :goto_2
     invoke-static {p4}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

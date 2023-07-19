@@ -44,7 +44,6 @@
 
     const-string v1, "event"
 
-    .line 1
     invoke-static {p2, v1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {p2}, Landroid/view/MotionEvent;->getAction()I
@@ -57,14 +56,12 @@
 
     if-nez v1, :cond_0
 
-    .line 2
     invoke-static {p1, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/high16 p2, 0x3f000000    # 0.5f
 
     invoke-virtual {p1, p2}, Landroid/view/View;->setAlpha(F)V
 
-    .line 3
     iget-object p1, p0, Lcom/commsource/studio/component/ContrastComponent$b;->a:Lcom/commsource/studio/component/ContrastComponent;
 
     invoke-static {p1}, Lcom/commsource/studio/component/ContrastComponent;->f(Lcom/commsource/studio/component/ContrastComponent;)Lcom/commsource/studio/component/ContrastComponent$a;
@@ -81,7 +78,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_0
     invoke-virtual {p2}, Landroid/view/MotionEvent;->getAction()I
 
@@ -97,7 +93,6 @@
 
     if-ne p2, v1, :cond_2
 
-    .line 5
     :cond_1
     invoke-static {p1, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
@@ -105,7 +100,6 @@
 
     invoke-virtual {p1, p2}, Landroid/view/View;->setAlpha(F)V
 
-    .line 6
     iget-object p1, p0, Lcom/commsource/studio/component/ContrastComponent$b;->a:Lcom/commsource/studio/component/ContrastComponent;
 
     invoke-static {p1}, Lcom/commsource/studio/component/ContrastComponent;->f(Lcom/commsource/studio/component/ContrastComponent;)Lcom/commsource/studio/component/ContrastComponent$a;
@@ -120,7 +114,6 @@
 
     invoke-virtual {p1, p2}, Landroidx/lifecycle/MutableLiveData;->setValue(Ljava/lang/Object;)V
 
-    .line 7
     :cond_2
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

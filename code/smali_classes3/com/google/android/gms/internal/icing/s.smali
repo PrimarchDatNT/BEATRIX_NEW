@@ -9,7 +9,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -31,7 +30,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/google/android/gms/internal/icing/u;
 
     invoke-direct {v0, p1, p2}, Lcom/google/android/gms/internal/icing/u;-><init>(Lcom/google/android/gms/common/api/i;Ljava/lang/String;)V
@@ -57,7 +55,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/google/android/gms/internal/icing/w;
 
     invoke-direct {v0, p1, p2}, Lcom/google/android/gms/internal/icing/w;-><init>(Lcom/google/android/gms/common/api/i;Ljava/lang/String;)V

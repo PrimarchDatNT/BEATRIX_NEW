@@ -42,14 +42,12 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/studio/text/TextEditPage$d;->a:Lcom/commsource/studio/text/TextEditPage;
 
     const/16 v1, 0x21
 
     invoke-static {v0, v1}, Lcom/commsource/studio/text/TextEditPage;->d(Lcom/commsource/studio/text/TextEditPage;I)V
 
-    .line 2
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

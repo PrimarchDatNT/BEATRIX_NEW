@@ -15,7 +15,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -30,14 +29,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/meitu/library/gid/base/u;->x()Lcom/meitu/library/gid/base/u;
 
     move-result-object v1
 
     invoke-static {v1}, Lcom/meitu/library/j/f/a;->l(Lcom/meitu/library/gid/base/u;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -50,7 +47,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -71,19 +67,16 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/meitu/library/gid/base/u;->x()Lcom/meitu/library/gid/base/u;
 
     move-result-object v0
 
-    .line 2
     invoke-virtual {v0}, Lcom/meitu/library/gid/base/u;->B()Z
 
     move-result v1
 
     if-eqz v1, :cond_1
 
-    .line 3
     invoke-virtual {v0}, Lcom/meitu/library/gid/base/u;->l()Landroid/content/Context;
 
     move-result-object v1
@@ -98,12 +91,10 @@
 
     if-eqz v1, :cond_0
 
-    .line 4
     invoke-virtual {v1}, Lcom/meitu/library/j/f/b;->b()Ljava/lang/String;
 
     move-result-object v2
 
-    .line 5
     invoke-virtual {v0}, Lcom/meitu/library/gid/base/u;->w()Lcom/meitu/library/gid/base/s0/f;
 
     move-result-object v0
@@ -124,10 +115,8 @@
 
     const-string v2, "Discover old gid, MigrateGidInfo:%s"
 
-    .line 6
     invoke-static {v1, v2, v0}, Lcom/meitu/library/gid/base/v;->g(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
-    .line 7
     :cond_0
     invoke-static {}, Lcom/meitu/library/gid/base/u;->x()Lcom/meitu/library/gid/base/u;
 
@@ -135,7 +124,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/j/f/a;->l(Lcom/meitu/library/gid/base/u;)V
 
-    .line 8
     :cond_1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

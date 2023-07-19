@@ -39,14 +39,12 @@
 .method private constructor <init>(Lcom/google/android/gms/internal/ads/m32;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/android/gms/internal/ads/u32;->d:Lcom/google/android/gms/internal/ads/m32;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/4 p1, -0x1
 
-    .line 2
     iput p1, p0, Lcom/google/android/gms/internal/ads/u32;->a:I
 
     return-void
@@ -55,7 +53,6 @@
 .method synthetic constructor <init>(Lcom/google/android/gms/internal/ads/m32;Lcom/google/android/gms/internal/ads/l32;)V
     .locals 0
 
-    .line 3
     invoke-direct {p0, p1}, Lcom/google/android/gms/internal/ads/u32;-><init>(Lcom/google/android/gms/internal/ads/m32;)V
 
     return-void
@@ -72,12 +69,10 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/u32;->c:Ljava/util/Iterator;
 
     if-nez v0, :cond_0
 
-    .line 2
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/u32;->d:Lcom/google/android/gms/internal/ads/m32;
 
     invoke-static {v0}, Lcom/google/android/gms/internal/ads/m32;->m(Lcom/google/android/gms/internal/ads/m32;)Ljava/util/Map;
@@ -94,7 +89,6 @@
 
     iput-object v0, p0, Lcom/google/android/gms/internal/ads/u32;->c:Ljava/util/Iterator;
 
-    .line 3
     :cond_0
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/u32;->c:Ljava/util/Iterator;
 
@@ -106,7 +100,6 @@
 .method public final hasNext()Z
     .locals 3
 
-    .line 1
     iget v0, p0, Lcom/google/android/gms/internal/ads/u32;->a:I
 
     const/4 v1, 0x1
@@ -127,7 +120,6 @@
 
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/u32;->d:Lcom/google/android/gms/internal/ads/m32;
 
-    .line 2
     invoke-static {v0}, Lcom/google/android/gms/internal/ads/m32;->m(Lcom/google/android/gms/internal/ads/m32;)Ljava/util/Map;
 
     move-result-object v0
@@ -165,10 +157,8 @@
 
     const/4 v0, 0x1
 
-    .line 1
     iput-boolean v0, p0, Lcom/google/android/gms/internal/ads/u32;->b:Z
 
-    .line 2
     iget v1, p0, Lcom/google/android/gms/internal/ads/u32;->a:I
 
     add-int/2addr v1, v0
@@ -187,7 +177,6 @@
 
     if-ge v1, v0, :cond_0
 
-    .line 3
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/u32;->d:Lcom/google/android/gms/internal/ads/m32;
 
     invoke-static {v0}, Lcom/google/android/gms/internal/ads/m32;->f(Lcom/google/android/gms/internal/ads/m32;)Ljava/util/List;
@@ -204,7 +193,6 @@
 
     return-object v0
 
-    .line 4
     :cond_0
     invoke-direct {p0}, Lcom/google/android/gms/internal/ads/u32;->a()Ljava/util/Iterator;
 
@@ -222,22 +210,18 @@
 .method public final remove()V
     .locals 3
 
-    .line 1
     iget-boolean v0, p0, Lcom/google/android/gms/internal/ads/u32;->b:Z
 
     if-eqz v0, :cond_1
 
     const/4 v0, 0x0
 
-    .line 2
     iput-boolean v0, p0, Lcom/google/android/gms/internal/ads/u32;->b:Z
 
-    .line 3
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/u32;->d:Lcom/google/android/gms/internal/ads/m32;
 
     invoke-static {v0}, Lcom/google/android/gms/internal/ads/m32;->e(Lcom/google/android/gms/internal/ads/m32;)V
 
-    .line 4
     iget v0, p0, Lcom/google/android/gms/internal/ads/u32;->a:I
 
     iget-object v1, p0, Lcom/google/android/gms/internal/ads/u32;->d:Lcom/google/android/gms/internal/ads/m32;
@@ -252,7 +236,6 @@
 
     if-ge v0, v1, :cond_0
 
-    .line 5
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/u32;->d:Lcom/google/android/gms/internal/ads/m32;
 
     iget v1, p0, Lcom/google/android/gms/internal/ads/u32;->a:I
@@ -265,7 +248,6 @@
 
     return-void
 
-    .line 6
     :cond_0
     invoke-direct {p0}, Lcom/google/android/gms/internal/ads/u32;->a()Ljava/util/Iterator;
 
@@ -275,7 +257,6 @@
 
     return-void
 
-    .line 7
     :cond_1
     new-instance v0, Ljava/lang/IllegalStateException;
 

@@ -35,7 +35,6 @@
 
     const/16 v0, 0xa
 
-    .line 1
     invoke-static {p0, v0}, Lcotlin/text/s;->B0(Ljava/lang/String;I)Ljava/math/BigInteger;
 
     move-result-object p0
@@ -60,10 +59,8 @@
 
     invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-static {p1}, Lcotlin/text/a;->a(I)I
 
-    .line 2
     invoke-virtual {p0}, Ljava/lang/String;->length()I
 
     move-result v0
@@ -78,7 +75,6 @@
 
     if-eq v0, v3, :cond_2
 
-    .line 3
     invoke-virtual {p0, v2}, Ljava/lang/String;->charAt(I)C
 
     move-result v4
@@ -93,7 +89,6 @@
     :goto_0
     if-ge v2, v0, :cond_3
 
-    .line 4
     invoke-virtual {p0, v2}, Ljava/lang/String;->charAt(I)C
 
     move-result v3
@@ -111,7 +106,6 @@
 
     goto :goto_0
 
-    .line 5
     :cond_2
     invoke-virtual {p0, v2}, Ljava/lang/String;->charAt(I)C
 
@@ -125,7 +119,6 @@
 
     return-object v1
 
-    .line 6
     :cond_3
     new-instance v0, Ljava/math/BigInteger;
 
@@ -154,7 +147,6 @@
         hiddenSince = "1.4"
     .end annotation
 
-    .line 1
     invoke-static {p0}, Ljava/lang/Boolean;->parseBoolean(Ljava/lang/String;)Z
 
     move-result p0
@@ -175,7 +167,6 @@
         version = "1.4"
     .end annotation
 
-    .line 1
     invoke-static {p0}, Ljava/lang/Boolean;->parseBoolean(Ljava/lang/String;)Z
 
     move-result p0
@@ -188,7 +179,6 @@
     .annotation build Lcotlin/internal/f;
     .end annotation
 
-    .line 1
     invoke-static {p0}, Ljava/lang/Byte;->parseByte(Ljava/lang/String;)B
 
     move-result p0
@@ -205,7 +195,6 @@
         version = "1.1"
     .end annotation
 
-    .line 1
     invoke-static {p1}, Lcotlin/text/a;->a(I)I
 
     move-result p1
@@ -222,7 +211,6 @@
     .annotation build Lcotlin/internal/f;
     .end annotation
 
-    .line 1
     invoke-static {p0}, Ljava/lang/Double;->parseDouble(Ljava/lang/String;)D
 
     move-result-wide v0
@@ -249,7 +237,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     :try_start_0
     sget-object v1, Lcotlin/text/l;->a:Lcotlin/text/Regex;
 
@@ -259,7 +246,6 @@
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-static {p0}, Ljava/lang/Double;->parseDouble(Ljava/lang/String;)D
 
     move-result-wide v1
@@ -282,7 +268,6 @@
     .annotation build Lcotlin/internal/f;
     .end annotation
 
-    .line 1
     invoke-static {p0}, Ljava/lang/Float;->parseFloat(Ljava/lang/String;)F
 
     move-result p0
@@ -309,7 +294,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     :try_start_0
     sget-object v1, Lcotlin/text/l;->a:Lcotlin/text/Regex;
 
@@ -319,7 +303,6 @@
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-static {p0}, Ljava/lang/Float;->parseFloat(Ljava/lang/String;)F
 
     move-result p0
@@ -342,7 +325,6 @@
     .annotation build Lcotlin/internal/f;
     .end annotation
 
-    .line 1
     invoke-static {p0}, Ljava/lang/Integer;->parseInt(Ljava/lang/String;)I
 
     move-result p0
@@ -359,7 +341,6 @@
         version = "1.1"
     .end annotation
 
-    .line 1
     invoke-static {p1}, Lcotlin/text/a;->a(I)I
 
     move-result p1
@@ -376,7 +357,6 @@
     .annotation build Lcotlin/internal/f;
     .end annotation
 
-    .line 1
     invoke-static {p0}, Ljava/lang/Long;->parseLong(Ljava/lang/String;)J
 
     move-result-wide v0
@@ -393,7 +373,6 @@
         version = "1.1"
     .end annotation
 
-    .line 1
     invoke-static {p1}, Lcotlin/text/a;->a(I)I
 
     move-result p1
@@ -410,7 +389,6 @@
     .annotation build Lcotlin/internal/f;
     .end annotation
 
-    .line 1
     invoke-static {p0}, Ljava/lang/Short;->parseShort(Ljava/lang/String;)S
 
     move-result p0
@@ -427,7 +405,6 @@
         version = "1.1"
     .end annotation
 
-    .line 1
     invoke-static {p1}, Lcotlin/text/a;->a(I)I
 
     move-result p1
@@ -448,7 +425,6 @@
         version = "1.1"
     .end annotation
 
-    .line 1
     invoke-static {p1}, Lcotlin/text/a;->a(I)I
 
     move-result p1
@@ -477,7 +453,6 @@
         version = "1.1"
     .end annotation
 
-    .line 1
     invoke-static {p1}, Lcotlin/text/a;->a(I)I
 
     move-result p1
@@ -502,7 +477,6 @@
         version = "1.1"
     .end annotation
 
-    .line 1
     invoke-static {p2}, Lcotlin/text/a;->a(I)I
 
     move-result p2
@@ -527,7 +501,6 @@
         version = "1.1"
     .end annotation
 
-    .line 1
     invoke-static {p1}, Lcotlin/text/a;->a(I)I
 
     move-result p1
@@ -564,7 +537,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     :try_start_0
     sget-object v1, Lcotlin/text/l;->a:Lcotlin/text/Regex;
 
@@ -574,7 +546,6 @@
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-interface {p1, p0}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p0
@@ -597,7 +568,6 @@
         version = "1.2"
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/math/BigDecimal;
 
     invoke-direct {v0, p0}, Ljava/math/BigDecimal;-><init>(Ljava/lang/String;)V
@@ -614,7 +584,6 @@
         version = "1.2"
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/math/BigDecimal;
 
     invoke-direct {v0, p0, p1}, Ljava/math/BigDecimal;-><init>(Ljava/lang/String;Ljava/math/MathContext;)V
@@ -641,7 +610,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     :try_start_0
     sget-object v1, Lcotlin/text/l;->a:Lcotlin/text/Regex;
 
@@ -651,7 +619,6 @@
 
     if-eqz v1, :cond_0
 
-    .line 2
     new-instance v1, Ljava/math/BigDecimal;
 
     invoke-direct {v1, p0}, Ljava/math/BigDecimal;-><init>(Ljava/lang/String;)V
@@ -692,7 +659,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     :try_start_0
     sget-object v1, Lcotlin/text/l;->a:Lcotlin/text/Regex;
 
@@ -702,7 +668,6 @@
 
     if-eqz v1, :cond_0
 
-    .line 2
     new-instance v1, Ljava/math/BigDecimal;
 
     invoke-direct {v1, p0, p1}, Ljava/math/BigDecimal;-><init>(Ljava/lang/String;Ljava/math/MathContext;)V
@@ -725,7 +690,6 @@
         version = "1.2"
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/math/BigInteger;
 
     invoke-direct {v0, p0}, Ljava/math/BigInteger;-><init>(Ljava/lang/String;)V
@@ -742,7 +706,6 @@
         version = "1.2"
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/math/BigInteger;
 
     invoke-static {p1}, Lcotlin/text/a;->a(I)I

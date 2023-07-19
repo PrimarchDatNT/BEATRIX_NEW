@@ -7,7 +7,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/meitu/core/NativeBaseClass;-><init>()V
 
     return-void
@@ -24,7 +23,6 @@
 
     new-array v1, v1, [I
 
-    .line 1
     invoke-virtual {p0}, Lcom/meitu/core/types/NativeBitmap;->nativeInstance()J
 
     move-result-wide v2
@@ -35,7 +33,6 @@
 
     invoke-static {v2, v3, p0, p1, v1}, Lcom/meitu/core/processor/ImageEditProcessor;->nativeGetFillImageWithGrid(JJ[I)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
@@ -48,7 +45,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/meitu/core/types/NativeBitmap;->nativeInstance()J
 
     move-result-wide v1
@@ -67,7 +63,6 @@
 
     invoke-static/range {v1 .. v8}, Lcom/meitu/core/processor/ImageEditProcessor;->nativeMixPortraitAlphaWithMask(JJIIII)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -80,7 +75,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 16
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v1
@@ -89,14 +83,12 @@
 
     if-nez p0, :cond_0
 
-    .line 17
     sget-object p0, Lcom/meitu/core/types/NDebug;->TAG:Ljava/lang/String;
 
     const-string p1, "ERROR:ImageEditProcessor cut, bitmap is null"
 
     invoke-static {p0, p1}, Lcom/meitu/core/types/NDebug;->e(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 18
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v3
@@ -104,19 +96,16 @@
     :cond_0
     if-nez p1, :cond_1
 
-    .line 19
     sget-object p0, Lcom/meitu/core/types/NDebug;->TAG:Ljava/lang/String;
 
     const-string p1, "ERROR:ImageEditProcessor cut, rect is null"
 
     invoke-static {p0, p1}, Lcom/meitu/core/types/NDebug;->e(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 20
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v3
 
-    .line 21
     :cond_1
     invoke-virtual {p0}, Lcom/meitu/core/types/NativeBitmap;->getWidth()I
 
@@ -134,7 +123,6 @@
 
     iput v4, p1, Landroid/graphics/Rect;->left:I
 
-    .line 22
     invoke-virtual {p0}, Lcom/meitu/core/types/NativeBitmap;->getWidth()I
 
     move-result v4
@@ -151,7 +139,6 @@
 
     iput v4, p1, Landroid/graphics/Rect;->right:I
 
-    .line 23
     invoke-virtual {p0}, Lcom/meitu/core/types/NativeBitmap;->getHeight()I
 
     move-result v4
@@ -168,7 +155,6 @@
 
     iput v4, p1, Landroid/graphics/Rect;->top:I
 
-    .line 24
     invoke-virtual {p0}, Lcom/meitu/core/types/NativeBitmap;->getHeight()I
 
     move-result v4
@@ -185,7 +171,6 @@
 
     iput v3, p1, Landroid/graphics/Rect;->bottom:I
 
-    .line 25
     invoke-virtual {p0}, Lcom/meitu/core/types/NativeBitmap;->nativeInstance()J
 
     move-result-wide v4
@@ -202,12 +187,10 @@
 
     move-result p1
 
-    .line 26
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v3
 
-    .line 27
     sget-object v5, Lcom/meitu/core/types/NDebug;->TAG:Ljava/lang/String;
 
     new-instance v6, Ljava/lang/StringBuilder;
@@ -252,7 +235,6 @@
 
     invoke-static {v5, p0}, Lcom/meitu/core/types/NDebug;->i(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 28
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
@@ -265,7 +247,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v1
@@ -274,19 +255,16 @@
 
     if-nez p0, :cond_0
 
-    .line 2
     sget-object p0, Lcom/meitu/core/types/NDebug;->TAG:Ljava/lang/String;
 
     const-string p1, "ERROR:ImageEditProcessor cut, bitmap is null"
 
     invoke-static {p0, p1}, Lcom/meitu/core/types/NDebug;->e(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v3
 
-    .line 4
     :cond_0
     iget v4, p1, Landroid/graphics/RectF;->left:F
 
@@ -304,7 +282,6 @@
 
     float-to-int v4, v4
 
-    .line 5
     iget v6, p1, Landroid/graphics/RectF;->top:F
 
     invoke-virtual {p0}, Lcom/meitu/core/types/NativeBitmap;->getHeight()I
@@ -319,7 +296,6 @@
 
     float-to-int v6, v6
 
-    .line 6
     iget v7, p1, Landroid/graphics/RectF;->right:F
 
     invoke-virtual {p0}, Lcom/meitu/core/types/NativeBitmap;->getWidth()I
@@ -334,7 +310,6 @@
 
     float-to-int v7, v7
 
-    .line 7
     iget p1, p1, Landroid/graphics/RectF;->bottom:F
 
     invoke-virtual {p0}, Lcom/meitu/core/types/NativeBitmap;->getHeight()I
@@ -349,7 +324,6 @@
 
     float-to-int p1, p1
 
-    .line 8
     invoke-virtual {p0}, Lcom/meitu/core/types/NativeBitmap;->getWidth()I
 
     move-result v5
@@ -362,7 +336,6 @@
 
     move-result v10
 
-    .line 9
     invoke-virtual {p0}, Lcom/meitu/core/types/NativeBitmap;->getWidth()I
 
     move-result v4
@@ -375,7 +348,6 @@
 
     move-result v12
 
-    .line 10
     invoke-virtual {p0}, Lcom/meitu/core/types/NativeBitmap;->getHeight()I
 
     move-result v4
@@ -388,7 +360,6 @@
 
     move-result v11
 
-    .line 11
     invoke-virtual {p0}, Lcom/meitu/core/types/NativeBitmap;->getHeight()I
 
     move-result v4
@@ -401,7 +372,6 @@
 
     move-result v13
 
-    .line 12
     invoke-virtual {p0}, Lcom/meitu/core/types/NativeBitmap;->nativeInstance()J
 
     move-result-wide v8
@@ -410,12 +380,10 @@
 
     move-result p1
 
-    .line 13
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v3
 
-    .line 14
     sget-object v5, Lcom/meitu/core/types/NDebug;->TAG:Ljava/lang/String;
 
     new-instance v6, Ljava/lang/StringBuilder;
@@ -460,7 +428,6 @@
 
     invoke-static {v5, p0}, Lcom/meitu/core/types/NDebug;->i(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 15
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
@@ -473,14 +440,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v1
 
     if-nez p0, :cond_0
 
-    .line 2
     sget-object p0, Lcom/meitu/core/types/NDebug;->TAG:Ljava/lang/String;
 
     const-string p1, "ERROR:ImageEditProcessor cut, bitmap is null"
@@ -489,7 +454,6 @@
 
     const/4 p0, 0x0
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p0
@@ -504,7 +468,6 @@
     :cond_1
     neg-int p2, p2
 
-    .line 4
     rem-int/2addr p2, v3
 
     :goto_0
@@ -512,14 +475,12 @@
 
     goto :goto_1
 
-    .line 5
     :cond_2
     rem-int/lit8 p2, p2, 0x9
 
     :goto_1
     move v9, p2
 
-    .line 6
     invoke-virtual {p0}, Lcom/meitu/core/types/NativeBitmap;->nativeInstance()J
 
     move-result-wide v3
@@ -536,12 +497,10 @@
 
     move-result p1
 
-    .line 7
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v3
 
-    .line 8
     sget-object p2, Lcom/meitu/core/types/NDebug;->TAG:Ljava/lang/String;
 
     new-instance v5, Ljava/lang/StringBuilder;
@@ -586,7 +545,6 @@
 
     invoke-static {p2, p0}, Lcom/meitu/core/types/NDebug;->i(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 9
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
@@ -630,19 +588,16 @@
 
     if-nez p0, :cond_0
 
-    .line 16
     sget-object p0, Lcom/meitu/core/types/NDebug;->TAG:Ljava/lang/String;
 
     const-string p1, "ERROR:ImageEditProcessor rotate,bitmap is null"
 
     invoke-static {p0, p1}, Lcom/meitu/core/types/NDebug;->e(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 17
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
 
-    .line 18
     :cond_0
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
@@ -652,7 +607,6 @@
 
     const/16 v4, 0x8
 
-    .line 19
     invoke-static {v4, p1}, Ljava/lang/Math;->min(II)I
 
     move-result p1
@@ -661,7 +615,6 @@
 
     move-result p1
 
-    .line 20
     invoke-virtual {p0}, Lcom/meitu/core/types/NativeBitmap;->nativeInstance()J
 
     move-result-wide v4
@@ -672,13 +625,11 @@
 
     move-result v1
 
-    .line 21
     :cond_1
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v4
 
-    .line 22
     sget-object p1, Lcom/meitu/core/types/NDebug;->TAG:Ljava/lang/String;
 
     new-instance v6, Ljava/lang/StringBuilder;
@@ -723,7 +674,6 @@
 
     invoke-static {p1, p0}, Lcom/meitu/core/types/NDebug;->i(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 23
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
@@ -736,7 +686,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v1
@@ -745,14 +694,12 @@
 
     if-nez p0, :cond_0
 
-    .line 2
     sget-object p0, Lcom/meitu/core/types/NDebug;->TAG:Ljava/lang/String;
 
     const-string p1, "ERROR:ImageEditProcessor rotate,bitmap is null"
 
     invoke-static {p0, p1}, Lcom/meitu/core/types/NDebug;->e(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v3
@@ -766,7 +713,6 @@
 
     if-eqz p1, :cond_8
 
-    .line 4
     aget v7, p1, v3
 
     const/high16 v8, 0x3f800000    # 1.0f
@@ -785,7 +731,6 @@
 
     goto/16 :goto_0
 
-    .line 5
     :cond_1
     aget v7, p1, v3
 
@@ -805,7 +750,6 @@
 
     goto :goto_0
 
-    .line 6
     :cond_2
     aget v7, p1, v3
 
@@ -823,7 +767,6 @@
 
     goto :goto_0
 
-    .line 7
     :cond_3
     aget v7, p1, v3
 
@@ -841,7 +784,6 @@
 
     goto :goto_0
 
-    .line 8
     :cond_4
     aget v6, p1, v5
 
@@ -859,7 +801,6 @@
 
     goto :goto_0
 
-    .line 9
     :cond_5
     aget v6, p1, v5
 
@@ -877,7 +818,6 @@
 
     goto :goto_0
 
-    .line 10
     :cond_6
     aget v6, p1, v5
 
@@ -895,7 +835,6 @@
 
     goto :goto_0
 
-    .line 11
     :cond_7
     aget v5, p1, v5
 
@@ -911,7 +850,6 @@
 
     const/16 v3, 0x8
 
-    .line 12
     :cond_8
     :goto_0
     invoke-virtual {p0}, Lcom/meitu/core/types/NativeBitmap;->nativeInstance()J
@@ -922,12 +860,10 @@
 
     move-result p1
 
-    .line 13
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v3
 
-    .line 14
     sget-object p2, Lcom/meitu/core/types/NDebug;->TAG:Ljava/lang/String;
 
     new-instance v5, Ljava/lang/StringBuilder;
@@ -972,7 +908,6 @@
 
     invoke-static {p2, p0}, Lcom/meitu/core/types/NDebug;->i(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 15
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
@@ -985,7 +920,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v1
@@ -994,14 +928,12 @@
 
     if-nez p0, :cond_0
 
-    .line 2
     sget-object p0, Lcom/meitu/core/types/NDebug;->TAG:Ljava/lang/String;
 
     const-string p1, "ERROR:ImageEditProcessor rotateCenterCut,bitmap is null"
 
     invoke-static {p0, p1}, Lcom/meitu/core/types/NDebug;->e(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v3
@@ -1015,7 +947,6 @@
 
     if-eqz p1, :cond_8
 
-    .line 4
     aget v7, p1, v3
 
     const/high16 v8, 0x3f800000    # 1.0f
@@ -1034,7 +965,6 @@
 
     goto/16 :goto_0
 
-    .line 5
     :cond_1
     aget v7, p1, v3
 
@@ -1054,7 +984,6 @@
 
     goto :goto_0
 
-    .line 6
     :cond_2
     aget v7, p1, v3
 
@@ -1072,7 +1001,6 @@
 
     goto :goto_0
 
-    .line 7
     :cond_3
     aget v7, p1, v3
 
@@ -1090,7 +1018,6 @@
 
     goto :goto_0
 
-    .line 8
     :cond_4
     aget v6, p1, v5
 
@@ -1108,7 +1035,6 @@
 
     goto :goto_0
 
-    .line 9
     :cond_5
     aget v6, p1, v5
 
@@ -1126,7 +1052,6 @@
 
     goto :goto_0
 
-    .line 10
     :cond_6
     aget v6, p1, v5
 
@@ -1144,7 +1069,6 @@
 
     goto :goto_0
 
-    .line 11
     :cond_7
     aget v5, p1, v5
 
@@ -1160,7 +1084,6 @@
 
     const/16 v3, 0x8
 
-    .line 12
     :cond_8
     :goto_0
     invoke-virtual {p0}, Lcom/meitu/core/types/NativeBitmap;->nativeInstance()J
@@ -1171,12 +1094,10 @@
 
     move-result p1
 
-    .line 13
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v3
 
-    .line 14
     sget-object p2, Lcom/meitu/core/types/NDebug;->TAG:Ljava/lang/String;
 
     new-instance v5, Ljava/lang/StringBuilder;
@@ -1221,7 +1142,6 @@
 
     invoke-static {p2, p0}, Lcom/meitu/core/types/NDebug;->i(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 15
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
@@ -1238,19 +1158,16 @@
 
     if-nez p0, :cond_0
 
-    .line 8
     sget-object p0, Lcom/meitu/core/types/NDebug;->TAG:Ljava/lang/String;
 
     const-string p1, "ERROR:ImageEditProcessor stretchVerticle,bitmap is null"
 
     invoke-static {p0, p1}, Lcom/meitu/core/types/NDebug;->e(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 9
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
 
-    .line 10
     :cond_0
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
@@ -1258,18 +1175,15 @@
 
     if-eqz p0, :cond_1
 
-    .line 11
     invoke-static {p0, p1}, Lcom/meitu/core/processor/ImageEditProcessor;->nativeSmartSharpen_bitmap(Landroid/graphics/Bitmap;F)Z
 
     move-result v1
 
-    .line 12
     :cond_1
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v4
 
-    .line 13
     sget-object p1, Lcom/meitu/core/types/NDebug;->TAG:Ljava/lang/String;
 
     new-instance v6, Ljava/lang/StringBuilder;
@@ -1314,7 +1228,6 @@
 
     invoke-static {p1, p0}, Lcom/meitu/core/types/NDebug;->i(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 14
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
@@ -1331,19 +1244,16 @@
 
     if-nez p0, :cond_0
 
-    .line 1
     sget-object p0, Lcom/meitu/core/types/NDebug;->TAG:Ljava/lang/String;
 
     const-string p1, "ERROR:ImageEditProcessor stretchVerticle,bitmap is null"
 
     invoke-static {p0, p1}, Lcom/meitu/core/types/NDebug;->e(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
 
-    .line 3
     :cond_0
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
@@ -1351,7 +1261,6 @@
 
     if-eqz p0, :cond_1
 
-    .line 4
     invoke-virtual {p0}, Lcom/meitu/core/types/NativeBitmap;->nativeInstance()J
 
     move-result-wide v4
@@ -1360,13 +1269,11 @@
 
     move-result v1
 
-    .line 5
     :cond_1
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v4
 
-    .line 6
     sget-object p1, Lcom/meitu/core/types/NDebug;->TAG:Ljava/lang/String;
 
     new-instance v6, Ljava/lang/StringBuilder;
@@ -1411,7 +1318,6 @@
 
     invoke-static {p1, p0}, Lcom/meitu/core/types/NDebug;->i(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
@@ -1428,19 +1334,16 @@
 
     if-nez p0, :cond_0
 
-    .line 1
     sget-object p0, Lcom/meitu/core/types/NDebug;->TAG:Ljava/lang/String;
 
     const-string p1, "ERROR:ImageEditProcessor stretchVerticle,bitmap is null"
 
     invoke-static {p0, p1}, Lcom/meitu/core/types/NDebug;->e(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
 
-    .line 3
     :cond_0
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
@@ -1448,7 +1351,6 @@
 
     if-eqz p0, :cond_1
 
-    .line 4
     invoke-virtual {p0}, Lcom/meitu/core/types/NativeBitmap;->nativeInstance()J
 
     move-result-wide v4
@@ -1457,13 +1359,11 @@
 
     move-result v1
 
-    .line 5
     :cond_1
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide p1
 
-    .line 6
     sget-object p3, Lcom/meitu/core/types/NDebug;->TAG:Ljava/lang/String;
 
     new-instance v4, Ljava/lang/StringBuilder;
@@ -1508,7 +1408,6 @@
 
     invoke-static {p3, p0}, Lcom/meitu/core/types/NDebug;->i(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1

@@ -28,7 +28,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/sticker/StickerFragment$f$a;->e:Lcom/commsource/studio/sticker/StickerFragment$f;
 
     const/4 p1, 0x0
@@ -51,14 +50,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/sticker/StickerFragment$f$a;->e:Lcom/commsource/studio/sticker/StickerFragment$f;
 
     iget-object v1, v1, Lcom/commsource/studio/sticker/StickerFragment$f;->a:Lcom/commsource/studio/sticker/StickerFragment;
 
     invoke-virtual {v1, p1}, Lcom/commsource/studio/sticker/StickerFragment;->u0(I)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

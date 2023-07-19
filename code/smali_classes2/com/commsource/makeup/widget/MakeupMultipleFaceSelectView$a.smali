@@ -25,7 +25,6 @@
 .method constructor <init>(Lcom/commsource/makeup/widget/MakeupMultipleFaceSelectView;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/makeup/widget/MakeupMultipleFaceSelectView$a;->a:Lcom/commsource/makeup/widget/MakeupMultipleFaceSelectView;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -42,7 +41,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p1}, Landroid/animation/ValueAnimator;->getAnimatedValue()Ljava/lang/Object;
 
     move-result-object p1
@@ -53,7 +51,6 @@
 
     move-result p1
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/makeup/widget/MakeupMultipleFaceSelectView$a;->a:Lcom/commsource/makeup/widget/MakeupMultipleFaceSelectView;
 
     invoke-static {v1}, Lcom/commsource/makeup/widget/MakeupMultipleFaceSelectView;->e(Lcom/commsource/makeup/widget/MakeupMultipleFaceSelectView;)Landroid/graphics/Paint;
@@ -62,12 +59,10 @@
 
     invoke-virtual {v1, p1}, Landroid/graphics/Paint;->setAlpha(I)V
 
-    .line 3
     iget-object p1, p0, Lcom/commsource/makeup/widget/MakeupMultipleFaceSelectView$a;->a:Lcom/commsource/makeup/widget/MakeupMultipleFaceSelectView;
 
     invoke-virtual {p1}, Landroid/view/View;->invalidate()V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

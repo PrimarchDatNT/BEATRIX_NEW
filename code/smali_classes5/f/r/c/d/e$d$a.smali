@@ -34,7 +34,6 @@
 .method constructor <init>(Lf/r/c/d/e$d;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lf/r/c/d/e$d$a;->a:Lf/r/c/d/e$d;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -53,7 +52,6 @@
 .method public bridge synthetic onReceiveValue(Ljava/lang/Object;)V
     .locals 0
 
-    .line 1
     check-cast p1, Ljava/lang/String;
 
     invoke-virtual {p0, p1}, Lf/r/c/d/e$d$a;->a(Ljava/lang/String;)V

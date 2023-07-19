@@ -24,7 +24,6 @@
 .method constructor <init>(Lcom/commsource/camera/montage/w;Ljava/lang/String;Lcom/meitu/template/bean/ArMaterial;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/camera/montage/w$b;->p:Lcom/commsource/camera/montage/w;
 
     iput-object p3, p0, Lcom/commsource/camera/montage/w$b;->g:Lcom/meitu/template/bean/ArMaterial;
@@ -43,7 +42,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/montage/w$b;->g:Lcom/meitu/template/bean/ArMaterial;
 
     invoke-virtual {v1}, Lcom/meitu/template/bean/ArMaterial;->getId()Ljava/lang/Long;
@@ -56,12 +54,10 @@
 
     invoke-static {v1, v2}, Lcom/commsource/camera/montage/bean/c;->R(J)Lcom/commsource/camera/montage/bean/UserRecordBean;
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/camera/montage/w$b;->g:Lcom/meitu/template/bean/ArMaterial;
 
     invoke-static {v1}, Lcom/commsource/camera/montage/j0;->y(Lcom/meitu/template/bean/ArMaterial;)V
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/camera/montage/w$b;->p:Lcom/commsource/camera/montage/w;
 
     invoke-static {v1}, Lcom/commsource/camera/montage/w;->F(Lcom/commsource/camera/montage/w;)Landroidx/lifecycle/MutableLiveData;
@@ -72,7 +68,6 @@
 
     invoke-virtual {v1, v2}, Landroidx/lifecycle/MutableLiveData;->postValue(Ljava/lang/Object;)V
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/camera/montage/w$b;->p:Lcom/commsource/camera/montage/w;
 
     invoke-static {v1}, Lcom/commsource/camera/montage/w;->G(Lcom/commsource/camera/montage/w;)Landroidx/lifecycle/MutableLiveData;
@@ -81,7 +76,6 @@
 
     iget-object v2, p0, Lcom/commsource/camera/montage/w$b;->g:Lcom/meitu/template/bean/ArMaterial;
 
-    .line 5
     invoke-virtual {v2}, Lcom/meitu/template/bean/ArMaterial;->getId()Ljava/lang/Long;
 
     move-result-object v2
@@ -102,10 +96,8 @@
 
     move-result-object v2
 
-    .line 6
     invoke-virtual {v1, v2}, Landroidx/lifecycle/MutableLiveData;->postValue(Ljava/lang/Object;)V
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

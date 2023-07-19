@@ -15,16 +15,12 @@
 .method public constructor <init>(Lcom/google/android/gms/internal/ads/ic;Lcom/google/android/gms/internal/ads/dc;Lcom/google/android/gms/internal/ads/jc;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/google/android/gms/internal/ads/yj0;->a:Lcom/google/android/gms/internal/ads/ic;
 
-    .line 3
     iput-object p2, p0, Lcom/google/android/gms/internal/ads/yj0;->b:Lcom/google/android/gms/internal/ads/dc;
 
-    .line 4
     iput-object p3, p0, Lcom/google/android/gms/internal/ads/yj0;->c:Lcom/google/android/gms/internal/ads/jc;
 
     return-void
@@ -37,7 +33,6 @@
     .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/yj0;->a:Lcom/google/android/gms/internal/ads/ic;
 
     return-object v0
@@ -48,7 +43,6 @@
     .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/yj0;->b:Lcom/google/android/gms/internal/ads/dc;
 
     return-object v0
@@ -59,7 +53,6 @@
     .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/yj0;->c:Lcom/google/android/gms/internal/ads/jc;
 
     return-object v0

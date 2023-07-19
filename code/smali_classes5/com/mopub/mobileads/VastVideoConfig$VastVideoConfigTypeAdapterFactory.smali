@@ -22,7 +22,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -58,7 +57,6 @@
 
     if-eqz p2, :cond_1
 
-    .line 1
     const-class p1, Ljava/lang/Class;
 
     invoke-virtual {p2}, Lcom/google/gson/reflect/TypeToken;->getRawType()Ljava/lang/Class;
@@ -73,7 +71,6 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     new-instance p1, Lcom/mopub/mobileads/VastVideoConfig$VastVideoConfigTypeAdapter;
 

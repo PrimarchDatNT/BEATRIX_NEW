@@ -67,7 +67,6 @@
 
     if-eqz p1, :cond_5
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/store/doodle/DoodleStoreActivity$c;->a:Lcom/commsource/store/doodle/DoodleStoreActivity;
 
     invoke-static {v1}, Lcom/commsource/store/doodle/DoodleStoreActivity;->P0(Lcom/commsource/store/doodle/DoodleStoreActivity;)Lcom/commsource/widget/h1/e;
@@ -78,7 +77,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/widget/h1/e;->E(Ljava/lang/Object;)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/store/doodle/DoodleStoreActivity$c;->a:Lcom/commsource/store/doodle/DoodleStoreActivity;
 
     invoke-static {v1}, Lcom/commsource/store/doodle/DoodleStoreActivity;->P0(Lcom/commsource/store/doodle/DoodleStoreActivity;)Lcom/commsource/widget/h1/e;
@@ -103,7 +101,6 @@
 
     invoke-virtual {v1, v3, v4}, Lcom/commsource/widget/h1/e;->R(Ljava/util/List;Z)V
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/store/doodle/DoodleStoreActivity$c;->a:Lcom/commsource/store/doodle/DoodleStoreActivity;
 
     invoke-static {v1}, Lcom/commsource/store/doodle/DoodleStoreActivity;->Q0(Lcom/commsource/store/doodle/DoodleStoreActivity;)Lcom/commsource/beautyplus/f0/u;
@@ -124,7 +121,6 @@
 
     invoke-virtual {v1, v3}, Landroidx/viewpager2/widget/ViewPager2;->setAdapter(Landroidx/recyclerview/widget/RecyclerView$Adapter;)V
 
-    .line 4
     sget-object v1, Lcom/commsource/studio/doodle/c;->w:Lcom/commsource/studio/doodle/c;
 
     invoke-virtual {v1}, Lcom/commsource/studio/doodle/c;->R()Z
@@ -133,10 +129,8 @@
 
     if-eqz v3, :cond_2
 
-    .line 5
     invoke-virtual {v1, v4}, Lcom/commsource/studio/doodle/c;->X(Z)V
 
-    .line 6
     invoke-interface {p1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v1
@@ -175,7 +169,6 @@
 
     goto :goto_0
 
-    .line 7
     :cond_2
     invoke-interface {p1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
@@ -213,7 +206,6 @@
     :cond_4
     check-cast v2, Lcom/commsource/studio/doodle/j;
 
-    .line 8
     :goto_0
     iget-object v1, p0, Lcom/commsource/store/doodle/DoodleStoreActivity$c;->a:Lcom/commsource/store/doodle/DoodleStoreActivity;
 
@@ -225,7 +217,6 @@
 
     if-eqz v2, :cond_5
 
-    .line 9
     iget-object v1, p0, Lcom/commsource/store/doodle/DoodleStoreActivity$c;->a:Lcom/commsource/store/doodle/DoodleStoreActivity;
 
     invoke-static {v1}, Lcom/commsource/store/doodle/DoodleStoreActivity;->Q0(Lcom/commsource/store/doodle/DoodleStoreActivity;)Lcom/commsource/beautyplus/f0/u;
@@ -240,7 +231,6 @@
 
     invoke-virtual {v1, p1, v4}, Landroidx/viewpager2/widget/ViewPager2;->setCurrentItem(IZ)V
 
-    .line 10
     :cond_5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -254,7 +244,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Ljava/util/List;
 
     invoke-virtual {p0, p1}, Lcom/commsource/store/doodle/DoodleStoreActivity$c;->a(Ljava/util/List;)V

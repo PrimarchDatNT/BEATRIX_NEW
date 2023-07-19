@@ -26,12 +26,10 @@
 .method constructor <init>(Lio/grpc/okhttp/f;Lio/grpc/okhttp/internal/framed/b;)V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const-string v0, "transport"
 
-    .line 2
     invoke-static {p1, v0}, Lcom/google/common/base/t;->F(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -42,7 +40,6 @@
 
     const-string p1, "frameWriter"
 
-    .line 3
     invoke-static {p2, p1}, Lcom/google/common/base/t;->F(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -53,10 +50,8 @@
 
     const p1, 0xffff
 
-    .line 4
     iput p1, p0, Lio/grpc/okhttp/t;->c:I
 
-    .line 5
     new-instance p2, Lio/grpc/okhttp/t$b;
 
     const/4 v0, 0x0
@@ -71,7 +66,6 @@
 .method static synthetic a(Lio/grpc/okhttp/t;)Lio/grpc/okhttp/t$b;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lio/grpc/okhttp/t;->d:Lio/grpc/okhttp/t$b;
 
     return-object p0
@@ -80,7 +74,6 @@
 .method static synthetic b(Lio/grpc/okhttp/t;)Lio/grpc/okhttp/internal/framed/b;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lio/grpc/okhttp/t;->b:Lio/grpc/okhttp/internal/framed/b;
 
     return-object p0
@@ -89,7 +82,6 @@
 .method private f(Lio/grpc/okhttp/e;)Lio/grpc/okhttp/t$b;
     .locals 2
 
-    .line 1
     invoke-virtual {p1}, Lio/grpc/okhttp/e;->V()Ljava/lang/Object;
 
     move-result-object v0
@@ -98,14 +90,12 @@
 
     if-nez v0, :cond_0
 
-    .line 2
     new-instance v0, Lio/grpc/okhttp/t$b;
 
     iget v1, p0, Lio/grpc/okhttp/t;->c:I
 
     invoke-direct {v0, p0, p1, v1}, Lio/grpc/okhttp/t$b;-><init>(Lio/grpc/okhttp/t;Lio/grpc/okhttp/e;I)V
 
-    .line 3
     invoke-virtual {p1, v0}, Lio/grpc/okhttp/e;->Y(Ljava/lang/Object;)V
 
     :cond_0
@@ -119,10 +109,8 @@
 
     const-string v0, "source"
 
-    .line 1
     invoke-static {p3, v0}, Lcom/google/common/base/t;->F(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 2
     iget-object v0, p0, Lio/grpc/okhttp/t;->a:Lio/grpc/okhttp/f;
 
     invoke-virtual {v0, p2}, Lio/grpc/okhttp/f;->d0(I)Lio/grpc/okhttp/e;
@@ -133,23 +121,19 @@
 
     return-void
 
-    .line 3
     :cond_0
     invoke-direct {p0, p2}, Lio/grpc/okhttp/t;->f(Lio/grpc/okhttp/e;)Lio/grpc/okhttp/t$b;
 
     move-result-object p2
 
-    .line 4
     invoke-virtual {p2}, Lio/grpc/okhttp/t$b;->j()I
 
     move-result v0
 
-    .line 5
     invoke-virtual {p2}, Lio/grpc/okhttp/t$b;->e()Z
 
     move-result v1
 
-    .line 6
     invoke-virtual {p3}, Lokio/Buffer;->size()J
 
     move-result-wide v2
@@ -160,7 +144,6 @@
 
     if-lt v0, v3, :cond_1
 
-    .line 7
     invoke-virtual {p2, p3, v3, p1}, Lio/grpc/okhttp/t$b;->k(Lokio/Buffer;IZ)V
 
     goto :goto_0
@@ -172,10 +155,8 @@
 
     const/4 v1, 0x0
 
-    .line 8
     invoke-virtual {p2, p3, v0, v1}, Lio/grpc/okhttp/t$b;->k(Lokio/Buffer;IZ)V
 
-    .line 9
     :cond_2
     invoke-virtual {p3}, Lokio/Buffer;->size()J
 
@@ -188,7 +169,6 @@
     :goto_0
     if-eqz p4, :cond_3
 
-    .line 10
     invoke-virtual {p0}, Lio/grpc/okhttp/t;->d()V
 
     :cond_3
@@ -198,7 +178,6 @@
 .method d()V
     .locals 2
 
-    .line 1
     :try_start_0
     iget-object v0, p0, Lio/grpc/okhttp/t;->b:Lio/grpc/okhttp/internal/framed/b;
 
@@ -211,7 +190,6 @@
     :catch_0
     move-exception v0
 
-    .line 2
     new-instance v1, Ljava/lang/RuntimeException;
 
     invoke-direct {v1, v0}, Ljava/lang/RuntimeException;-><init>(Ljava/lang/Throwable;)V
@@ -224,15 +202,12 @@
 
     if-ltz p1, :cond_3
 
-    .line 1
     iget v0, p0, Lio/grpc/okhttp/t;->c:I
 
     sub-int v0, p1, v0
 
-    .line 2
     iput p1, p0, Lio/grpc/okhttp/t;->c:I
 
-    .line 3
     iget-object p1, p0, Lio/grpc/okhttp/t;->a:Lio/grpc/okhttp/f;
 
     invoke-virtual {p1}, Lio/grpc/okhttp/f;->W()[Lio/grpc/okhttp/e;
@@ -250,7 +225,6 @@
 
     aget-object v4, p1, v3
 
-    .line 4
     invoke-virtual {v4}, Lio/grpc/okhttp/e;->V()Ljava/lang/Object;
 
     move-result-object v5
@@ -259,19 +233,16 @@
 
     if-nez v5, :cond_0
 
-    .line 5
     new-instance v5, Lio/grpc/okhttp/t$b;
 
     iget v6, p0, Lio/grpc/okhttp/t;->c:I
 
     invoke-direct {v5, p0, v4, v6}, Lio/grpc/okhttp/t$b;-><init>(Lio/grpc/okhttp/t;Lio/grpc/okhttp/e;I)V
 
-    .line 6
     invoke-virtual {v4, v5}, Lio/grpc/okhttp/e;->Y(Ljava/lang/Object;)V
 
     goto :goto_1
 
-    .line 7
     :cond_0
     invoke-virtual {v5, v0}, Lio/grpc/okhttp/t$b;->f(I)I
 
@@ -288,7 +259,6 @@
     :cond_2
     return v2
 
-    .line 8
     :cond_3
     new-instance v0, Ljava/lang/IllegalArgumentException;
 
@@ -320,51 +290,43 @@
 
     if-nez p1, :cond_0
 
-    .line 1
     iget-object p1, p0, Lio/grpc/okhttp/t;->d:Lio/grpc/okhttp/t$b;
 
     invoke-virtual {p1, p2}, Lio/grpc/okhttp/t$b;->f(I)I
 
     move-result p1
 
-    .line 2
     invoke-virtual {p0}, Lio/grpc/okhttp/t;->h()V
 
     goto :goto_0
 
-    .line 3
     :cond_0
     invoke-direct {p0, p1}, Lio/grpc/okhttp/t;->f(Lio/grpc/okhttp/e;)Lio/grpc/okhttp/t$b;
 
     move-result-object p1
 
-    .line 4
     invoke-virtual {p1, p2}, Lio/grpc/okhttp/t$b;->f(I)I
 
     move-result p2
 
-    .line 5
     new-instance v0, Lio/grpc/okhttp/t$c;
 
     const/4 v1, 0x0
 
     invoke-direct {v0, v1}, Lio/grpc/okhttp/t$c;-><init>(Lio/grpc/okhttp/t$a;)V
 
-    .line 6
     invoke-virtual {p1}, Lio/grpc/okhttp/t$b;->j()I
 
     move-result v1
 
     invoke-virtual {p1, v1, v0}, Lio/grpc/okhttp/t$b;->l(ILio/grpc/okhttp/t$c;)I
 
-    .line 7
     invoke-virtual {v0}, Lio/grpc/okhttp/t$c;->a()Z
 
     move-result p1
 
     if-eqz p1, :cond_1
 
-    .line 8
     invoke-virtual {p0}, Lio/grpc/okhttp/t;->d()V
 
     :cond_1
@@ -377,21 +339,18 @@
 .method h()V
     .locals 9
 
-    .line 1
     iget-object v0, p0, Lio/grpc/okhttp/t;->a:Lio/grpc/okhttp/f;
 
     invoke-virtual {v0}, Lio/grpc/okhttp/f;->W()[Lio/grpc/okhttp/e;
 
     move-result-object v0
 
-    .line 2
     iget-object v1, p0, Lio/grpc/okhttp/t;->d:Lio/grpc/okhttp/t$b;
 
     invoke-virtual {v1}, Lio/grpc/okhttp/t$b;->i()I
 
     move-result v1
 
-    .line 3
     array-length v2, v0
 
     :goto_0
@@ -409,7 +368,6 @@
 
     float-to-double v4, v4
 
-    .line 4
     invoke-static {v4, v5}, Ljava/lang/Math;->ceil(D)D
 
     move-result-wide v4
@@ -423,15 +381,12 @@
 
     if-lez v1, :cond_2
 
-    .line 5
     aget-object v6, v0, v5
 
-    .line 6
     invoke-direct {p0, v6}, Lio/grpc/okhttp/t;->f(Lio/grpc/okhttp/e;)Lio/grpc/okhttp/t$b;
 
     move-result-object v7
 
-    .line 7
     invoke-virtual {v7}, Lio/grpc/okhttp/t$b;->h()I
 
     move-result v8
@@ -446,12 +401,10 @@
 
     if-lez v8, :cond_0
 
-    .line 8
     invoke-virtual {v7, v8}, Lio/grpc/okhttp/t$b;->a(I)V
 
     sub-int/2addr v1, v8
 
-    .line 9
     :cond_0
     invoke-virtual {v7}, Lio/grpc/okhttp/t$b;->h()I
 
@@ -461,7 +414,6 @@
 
     add-int/lit8 v7, v3, 0x1
 
-    .line 10
     aput-object v6, v0, v3
 
     move v3, v7
@@ -476,7 +428,6 @@
 
     goto :goto_0
 
-    .line 11
     :cond_3
     new-instance v0, Lio/grpc/okhttp/t$c;
 
@@ -484,7 +435,6 @@
 
     invoke-direct {v0, v1}, Lio/grpc/okhttp/t$c;-><init>(Lio/grpc/okhttp/t$a;)V
 
-    .line 12
     iget-object v1, p0, Lio/grpc/okhttp/t;->a:Lio/grpc/okhttp/f;
 
     invoke-virtual {v1}, Lio/grpc/okhttp/f;->W()[Lio/grpc/okhttp/e;
@@ -498,26 +448,22 @@
 
     aget-object v4, v1, v3
 
-    .line 13
     invoke-direct {p0, v4}, Lio/grpc/okhttp/t;->f(Lio/grpc/okhttp/e;)Lio/grpc/okhttp/t$b;
 
     move-result-object v4
 
-    .line 14
     invoke-virtual {v4}, Lio/grpc/okhttp/t$b;->b()I
 
     move-result v5
 
     invoke-virtual {v4, v5, v0}, Lio/grpc/okhttp/t$b;->l(ILio/grpc/okhttp/t$c;)I
 
-    .line 15
     invoke-virtual {v4}, Lio/grpc/okhttp/t$b;->c()V
 
     add-int/lit8 v3, v3, 0x1
 
     goto :goto_2
 
-    .line 16
     :cond_4
     invoke-virtual {v0}, Lio/grpc/okhttp/t$c;->a()Z
 
@@ -525,7 +471,6 @@
 
     if-eqz v0, :cond_5
 
-    .line 17
     invoke-virtual {p0}, Lio/grpc/okhttp/t;->d()V
 
     :cond_5

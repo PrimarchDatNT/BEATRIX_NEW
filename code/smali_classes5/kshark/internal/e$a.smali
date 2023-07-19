@@ -19,7 +19,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -28,7 +27,6 @@
 .method public synthetic constructor <init>(Lcotlin/jvm/internal/u;)V
     .locals 0
 
-    .line 2
     invoke-direct {p0}, Lkshark/internal/e$a;-><init>()V
 
     return-void
@@ -53,7 +51,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-virtual {p1}, Lkshark/HeapObject$HeapInstance;->p()Ljava/lang/String;
 
     move-result-object v0
@@ -62,7 +59,6 @@
 
     if-eqz p2, :cond_2
 
-    .line 2
     invoke-virtual {p2}, Ljava/lang/Long;->longValue()J
 
     move-result-wide v2
@@ -113,7 +109,6 @@
 
     const-string v1, "retainedUptimeMillis"
 
-    .line 3
     invoke-virtual {p1, v0, v1}, Lkshark/HeapObject$HeapInstance;->j(Ljava/lang/String;Ljava/lang/String;)Lkshark/h;
 
     move-result-object v1
@@ -135,7 +130,6 @@
 
     invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
-    .line 4
     :cond_4
     invoke-virtual {v1}, Ljava/lang/Long;->longValue()J
 
@@ -149,7 +143,6 @@
 
     goto :goto_1
 
-    .line 5
     :cond_5
     invoke-virtual {p2}, Ljava/lang/Long;->longValue()J
 
@@ -167,7 +160,6 @@
 
     const-string p2, "key"
 
-    .line 6
     invoke-virtual {p1, v0, p2}, Lkshark/HeapObject$HeapInstance;->j(Ljava/lang/String;Ljava/lang/String;)Lkshark/h;
 
     move-result-object p2
@@ -192,7 +184,6 @@
     :cond_8
     const-string p2, "description"
 
-    .line 7
     invoke-virtual {p1, v0, p2}, Lkshark/HeapObject$HeapInstance;->j(Ljava/lang/String;Ljava/lang/String;)Lkshark/h;
 
     move-result-object p2
@@ -204,7 +195,6 @@
     :cond_9
     const-string p2, "name"
 
-    .line 8
     invoke-virtual {p1, v0, p2}, Lkshark/HeapObject$HeapInstance;->j(Ljava/lang/String;Ljava/lang/String;)Lkshark/h;
 
     move-result-object p2
@@ -232,14 +222,12 @@
     :goto_3
     move-object v6, p2
 
-    .line 9
     new-instance p2, Lkshark/internal/e;
 
     const-string v0, "java.lang.ref.Reference"
 
     const-string v1, "referent"
 
-    .line 10
     invoke-virtual {p1, v0, v1}, Lkshark/HeapObject$HeapInstance;->j(Ljava/lang/String;Ljava/lang/String;)Lkshark/h;
 
     move-result-object p1
@@ -265,12 +253,10 @@
 
     move-object v3, p2
 
-    .line 11
     invoke-direct/range {v3 .. v8}, Lkshark/internal/e;-><init>(Lkshark/b0$i;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Long;Ljava/lang/Long;)V
 
     return-object p2
 
-    .line 12
     :cond_c
     new-instance p1, Lcotlin/TypeCastException;
 

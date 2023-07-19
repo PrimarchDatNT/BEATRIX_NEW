@@ -59,7 +59,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v7, Lcom/commsource/easyeditor/entity/EditEffectEnum;
 
     const-string v2, "CropRotate"
@@ -78,7 +77,6 @@
 
     sput-object v7, Lcom/commsource/easyeditor/entity/EditEffectEnum;->CropRotate:Lcom/commsource/easyeditor/entity/EditEffectEnum;
 
-    .line 2
     new-instance v1, Lcom/commsource/easyeditor/entity/EditEffectEnum;
 
     const-string v9, "Filter"
@@ -97,7 +95,6 @@
 
     sput-object v1, Lcom/commsource/easyeditor/entity/EditEffectEnum;->Filter:Lcom/commsource/easyeditor/entity/EditEffectEnum;
 
-    .line 3
     new-instance v2, Lcom/commsource/easyeditor/entity/EditEffectEnum;
 
     const-string v15, "Enhance"
@@ -116,7 +113,6 @@
 
     sput-object v2, Lcom/commsource/easyeditor/entity/EditEffectEnum;->Enhance:Lcom/commsource/easyeditor/entity/EditEffectEnum;
 
-    .line 4
     new-instance v3, Lcom/commsource/easyeditor/entity/EditEffectEnum;
 
     const-string v9, "Blur"
@@ -135,7 +131,6 @@
 
     sput-object v3, Lcom/commsource/easyeditor/entity/EditEffectEnum;->Blur:Lcom/commsource/easyeditor/entity/EditEffectEnum;
 
-    .line 5
     new-instance v4, Lcom/commsource/easyeditor/entity/EditEffectEnum;
 
     const-string v15, "Brighten"
@@ -158,7 +153,6 @@
 
     sput-object v4, Lcom/commsource/easyeditor/entity/EditEffectEnum;->Brighten:Lcom/commsource/easyeditor/entity/EditEffectEnum;
 
-    .line 6
     new-instance v5, Lcom/commsource/easyeditor/entity/EditEffectEnum;
 
     const-string v23, "Contrast"
@@ -181,7 +175,6 @@
 
     sput-object v5, Lcom/commsource/easyeditor/entity/EditEffectEnum;->Contrast:Lcom/commsource/easyeditor/entity/EditEffectEnum;
 
-    .line 7
     new-instance v6, Lcom/commsource/easyeditor/entity/EditEffectEnum;
 
     const-string v9, "Definition"
@@ -200,7 +193,6 @@
 
     sput-object v6, Lcom/commsource/easyeditor/entity/EditEffectEnum;->Definition:Lcom/commsource/easyeditor/entity/EditEffectEnum;
 
-    .line 8
     new-instance v8, Lcom/commsource/easyeditor/entity/EditEffectEnum;
 
     const-string v15, "Saturation"
@@ -223,7 +215,6 @@
 
     sput-object v8, Lcom/commsource/easyeditor/entity/EditEffectEnum;->Saturation:Lcom/commsource/easyeditor/entity/EditEffectEnum;
 
-    .line 9
     new-instance v9, Lcom/commsource/easyeditor/entity/EditEffectEnum;
 
     const-string v25, "Temperature"
@@ -286,7 +277,6 @@
 
     aput-object v9, v10, v1
 
-    .line 10
     sput-object v10, Lcom/commsource/easyeditor/entity/EditEffectEnum;->$VALUES:[Lcom/commsource/easyeditor/entity/EditEffectEnum;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -318,7 +308,6 @@
 
     move v5, p5
 
-    .line 15
     invoke-direct/range {v0 .. v7}, Lcom/commsource/easyeditor/entity/EditEffectEnum;-><init>(Ljava/lang/String;IIIIFF)V
 
     return-void
@@ -332,22 +321,16 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 2
     iput p3, p0, Lcom/commsource/easyeditor/entity/EditEffectEnum;->id:I
 
-    .line 3
     iput p4, p0, Lcom/commsource/easyeditor/entity/EditEffectEnum;->icon:I
 
-    .line 4
     iput p6, p0, Lcom/commsource/easyeditor/entity/EditEffectEnum;->floor:F
 
-    .line 5
     iput p7, p0, Lcom/commsource/easyeditor/entity/EditEffectEnum;->upper:F
 
-    .line 6
     iput p5, p0, Lcom/commsource/easyeditor/entity/EditEffectEnum;->nameRes:I
 
     return-void
@@ -361,28 +344,20 @@
         }
     .end annotation
 
-    .line 7
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 8
     iput p3, p0, Lcom/commsource/easyeditor/entity/EditEffectEnum;->id:I
 
-    .line 9
     iput p4, p0, Lcom/commsource/easyeditor/entity/EditEffectEnum;->icon:I
 
-    .line 10
     iput p6, p0, Lcom/commsource/easyeditor/entity/EditEffectEnum;->floor:F
 
-    .line 11
     iput p7, p0, Lcom/commsource/easyeditor/entity/EditEffectEnum;->upper:F
 
-    .line 12
     iput p5, p0, Lcom/commsource/easyeditor/entity/EditEffectEnum;->nameRes:I
 
-    .line 13
     iput p8, p0, Lcom/commsource/easyeditor/entity/EditEffectEnum;->normalDrawableRes:I
 
-    .line 14
     iput p9, p0, Lcom/commsource/easyeditor/entity/EditEffectEnum;->selectDrawableRes:I
 
     return-void
@@ -395,7 +370,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     const-class v1, Lcom/commsource/easyeditor/entity/EditEffectEnum;
 
     invoke-static {v1, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -416,7 +390,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/easyeditor/entity/EditEffectEnum;->$VALUES:[Lcom/commsource/easyeditor/entity/EditEffectEnum;
 
     invoke-virtual {v1}, [Lcom/commsource/easyeditor/entity/EditEffectEnum;->clone()Ljava/lang/Object;
@@ -439,7 +412,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/easyeditor/entity/EditEffectEnum;->floor:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -454,7 +426,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/easyeditor/entity/EditEffectEnum;->icon:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -469,7 +440,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/easyeditor/entity/EditEffectEnum;->id:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -484,7 +454,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/easyeditor/entity/EditEffectEnum;->nameRes:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -499,7 +468,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/easyeditor/entity/EditEffectEnum;->normalDrawableRes:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -514,7 +482,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/easyeditor/entity/EditEffectEnum;->selectDrawableRes:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -529,7 +496,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/easyeditor/entity/EditEffectEnum;->upper:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

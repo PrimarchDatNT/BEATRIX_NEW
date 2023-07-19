@@ -44,12 +44,10 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     iput-object p1, p0, Lcom/commsource/studio/text/TextFontPage;->e:Lcom/commsource/studio/sticker/TextFragment;
 
-    .line 2
     new-instance p1, Lcom/commsource/studio/text/TextFontPage$fontAdapter$2;
 
     invoke-direct {p1, p0}, Lcom/commsource/studio/text/TextFontPage$fontAdapter$2;-><init>(Lcom/commsource/studio/text/TextFontPage;)V
@@ -60,7 +58,6 @@
 
     iput-object p1, p0, Lcom/commsource/studio/text/TextFontPage;->a:Lcotlin/w;
 
-    .line 3
     new-instance p1, Lcom/commsource/studio/text/TextFontPage$mViewModel$2;
 
     invoke-direct {p1, p0}, Lcom/commsource/studio/text/TextFontPage$mViewModel$2;-><init>(Lcom/commsource/studio/text/TextFontPage;)V
@@ -71,7 +68,6 @@
 
     iput-object p1, p0, Lcom/commsource/studio/text/TextFontPage;->b:Lcotlin/w;
 
-    .line 4
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
     move-result-object p1
@@ -86,7 +82,6 @@
 
     const/4 v2, 0x0
 
-    .line 5
     invoke-static {p1, v0, v1, v2}, Landroidx/databinding/DataBindingUtil;->inflate(Landroid/view/LayoutInflater;ILandroid/view/ViewGroup;Z)Landroidx/databinding/ViewDataBinding;
 
     move-result-object p1
@@ -99,16 +94,12 @@
 
     iput-object p1, p0, Lcom/commsource/studio/text/TextFontPage;->c:Lcom/commsource/beautyplus/f0/ef;
 
-    .line 6
     invoke-virtual {p0}, Lcom/commsource/studio/text/TextFontPage;->k()V
 
-    .line 7
     invoke-direct {p0}, Lcom/commsource/studio/text/TextFontPage;->j()V
 
-    .line 8
     invoke-direct {p0}, Lcom/commsource/studio/text/TextFontPage;->m()V
 
-    .line 9
     new-instance p1, Lcom/commsource/studio/text/TextFontPage$j;
 
     invoke-direct {p1, p0}, Lcom/commsource/studio/text/TextFontPage$j;-><init>(Lcom/commsource/studio/text/TextFontPage;)V
@@ -125,7 +116,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/studio/text/TextFontPage;->f()Lcom/commsource/studio/text/TextFontPage$fontAdapter$2$a;
 
     move-result-object p0
@@ -142,7 +132,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/studio/text/TextFontPage;->h()Lcom/commsource/studio/text/TextViewModel;
 
     move-result-object p0
@@ -159,7 +148,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/studio/text/TextFontPage;->c:Lcom/commsource/beautyplus/f0/ef;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -174,7 +162,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/studio/text/TextFontPage;->d:Lcom/commsource/util/common/b;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -189,7 +176,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/studio/text/TextFontPage;->m()V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -244,7 +230,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/repository/child/TextFontRepository;->v:Lcom/commsource/repository/child/TextFontRepository;
 
     invoke-virtual {v1}, Lcom/commsource/repository/child/TextFontRepository;->A()Landroidx/lifecycle/MutableLiveData;
@@ -263,12 +248,10 @@
 
     invoke-virtual {v2, v3, v4}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 2
     invoke-virtual {v1}, Lcom/commsource/repository/child/TextFontRepository;->C()Lcom/commsource/material/download/b/a;
 
     move-result-object v1
 
-    .line 3
     invoke-virtual {v1}, Lcom/commsource/material/download/b/a;->c()Lcom/commsource/beautyfilter/NoStickLiveData;
 
     move-result-object v2
@@ -289,7 +272,6 @@
 
     invoke-virtual {v2, v3, v5}, Lcom/commsource/beautyfilter/NoStickLiveData;->a(Landroidx/lifecycle/LifecycleOwner;Lcom/commsource/beautyfilter/NoStickLiveData$a;)V
 
-    .line 4
     invoke-virtual {v1}, Lcom/commsource/material/download/b/a;->e()Lcom/commsource/beautyfilter/NoStickLiveData;
 
     move-result-object v2
@@ -308,7 +290,6 @@
 
     invoke-virtual {v2, v3, v5}, Lcom/commsource/beautyfilter/NoStickLiveData;->a(Landroidx/lifecycle/LifecycleOwner;Lcom/commsource/beautyfilter/NoStickLiveData$a;)V
 
-    .line 5
     invoke-virtual {v1}, Lcom/commsource/material/download/b/a;->b()Lcom/commsource/beautyfilter/NoStickLiveData;
 
     move-result-object v1
@@ -327,7 +308,6 @@
 
     invoke-virtual {v1, v2, v3}, Lcom/commsource/beautyfilter/NoStickLiveData;->a(Landroidx/lifecycle/LifecycleOwner;Lcom/commsource/beautyfilter/NoStickLiveData$a;)V
 
-    .line 6
     invoke-direct {p0}, Lcom/commsource/studio/text/TextFontPage;->h()Lcom/commsource/studio/text/TextViewModel;
 
     move-result-object v1
@@ -348,7 +328,6 @@
 
     invoke-virtual {v1, v2, v3}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 7
     invoke-direct {p0}, Lcom/commsource/studio/text/TextFontPage;->h()Lcom/commsource/studio/text/TextViewModel;
 
     move-result-object v1
@@ -369,7 +348,6 @@
 
     invoke-virtual {v1, v2, v3}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -382,7 +360,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/studio/text/TextFontPage;->h()Lcom/commsource/studio/text/TextViewModel;
 
     move-result-object v1
@@ -407,7 +384,6 @@
 
     if-nez v1, :cond_1
 
-    .line 2
     invoke-direct {p0}, Lcom/commsource/studio/text/TextFontPage;->f()Lcom/commsource/studio/text/TextFontPage$fontAdapter$2$a;
 
     move-result-object v3
@@ -417,19 +393,16 @@
     :cond_1
     if-eqz v1, :cond_6
 
-    .line 3
     invoke-direct {p0}, Lcom/commsource/studio/text/TextFontPage;->f()Lcom/commsource/studio/text/TextFontPage$fontAdapter$2$a;
 
     move-result-object v3
 
-    .line 4
     invoke-virtual {v3}, Lcom/commsource/widget/h1/e;->h()Ljava/util/List;
 
     move-result-object v3
 
     if-eqz v3, :cond_6
 
-    .line 5
     invoke-interface {v3}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
     move-result-object v3
@@ -449,12 +422,10 @@
 
     move-result-object v6
 
-    .line 6
     check-cast v6, Lcom/commsource/widget/h1/d;
 
     const-string v7, "curItem"
 
-    .line 7
     invoke-static {v6, v7}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v6}, Lcom/commsource/widget/h1/d;->b()Ljava/lang/Object;
@@ -521,21 +492,18 @@
     :goto_3
     if-ltz v2, :cond_6
 
-    .line 8
     invoke-direct {p0}, Lcom/commsource/studio/text/TextFontPage;->f()Lcom/commsource/studio/text/TextFontPage$fontAdapter$2$a;
 
     move-result-object v1
 
     invoke-virtual {v1, v2}, Lcom/commsource/widget/h1/e;->G(I)V
 
-    .line 9
     iget-object v1, p0, Lcom/commsource/studio/text/TextFontPage;->c:Lcom/commsource/beautyplus/f0/ef;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/ef;->b:Landroidx/recyclerview/widget/RecyclerView;
 
     invoke-virtual {v1, v2}, Landroidx/recyclerview/widget/RecyclerView;->smoothScrollToPosition(I)V
 
-    .line 10
     :cond_6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -553,7 +521,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/text/TextFontPage;->e:Lcom/commsource/studio/sticker/TextFragment;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -570,7 +537,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/text/TextFontPage;->c:Lcom/commsource/beautyplus/f0/ef;
 
     invoke-virtual {v1}, Landroidx/databinding/ViewDataBinding;->getRoot()Landroid/view/View;
@@ -593,12 +559,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/text/TextFontPage;->c:Lcom/commsource/beautyplus/f0/ef;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/ef;->b:Landroidx/recyclerview/widget/RecyclerView;
 
-    .line 2
     new-instance v2, Landroidx/recyclerview/widget/GridLayoutManager;
 
     iget-object v3, p0, Lcom/commsource/studio/text/TextFontPage;->e:Lcom/commsource/studio/sticker/TextFragment;
@@ -611,15 +575,12 @@
 
     invoke-direct {v2, v3, v4}, Landroidx/recyclerview/widget/GridLayoutManager;-><init>(Landroid/content/Context;I)V
 
-    .line 3
     invoke-virtual {v1, v2}, Landroidx/recyclerview/widget/RecyclerView;->setLayoutManager(Landroidx/recyclerview/widget/RecyclerView$LayoutManager;)V
 
-    .line 4
     invoke-direct {p0}, Lcom/commsource/studio/text/TextFontPage;->f()Lcom/commsource/studio/text/TextFontPage$fontAdapter$2$a;
 
     move-result-object v2
 
-    .line 5
     const-class v3, Lcom/commsource/studio/text/TextFontMaterial;
 
     new-instance v4, Lcom/commsource/studio/text/TextFontPage$g;
@@ -628,24 +589,20 @@
 
     invoke-virtual {v2, v3, v4}, Lcom/commsource/widget/h1/e;->J(Ljava/lang/Class;Lcom/commsource/widget/h1/e$b;)V
 
-    .line 6
     invoke-virtual {v1, v2}, Landroidx/recyclerview/widget/RecyclerView;->setAdapter(Landroidx/recyclerview/widget/RecyclerView$Adapter;)V
 
-    .line 7
     new-instance v2, Lcom/commsource/studio/text/TextFontPage$h;
 
     invoke-direct {v2, p0}, Lcom/commsource/studio/text/TextFontPage$h;-><init>(Lcom/commsource/studio/text/TextFontPage;)V
 
     invoke-virtual {v1, v2}, Landroidx/recyclerview/widget/RecyclerView;->addItemDecoration(Landroidx/recyclerview/widget/RecyclerView$ItemDecoration;)V
 
-    .line 8
     new-instance v2, Lcom/commsource/studio/text/TextFontPage$i;
 
     invoke-direct {v2, v1, p0}, Lcom/commsource/studio/text/TextFontPage$i;-><init>(Landroidx/recyclerview/widget/RecyclerView;Lcom/commsource/studio/text/TextFontPage;)V
 
     invoke-virtual {v1, v2}, Landroidx/recyclerview/widget/RecyclerView;->addOnScrollListener(Landroidx/recyclerview/widget/RecyclerView$OnScrollListener;)V
 
-    .line 9
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -658,7 +615,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/text/TextFontPage;->c:Lcom/commsource/beautyplus/f0/ef;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/ef;->b:Landroidx/recyclerview/widget/RecyclerView;
@@ -673,7 +629,6 @@
 
     invoke-static {v1, v3, v2}, Lcom/commsource/util/l0;->r0(Landroidx/recyclerview/widget/RecyclerView;ZLcom/commsource/util/common/b;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

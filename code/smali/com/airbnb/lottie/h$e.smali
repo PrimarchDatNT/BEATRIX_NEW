@@ -41,7 +41,6 @@
 .method constructor <init>(Ljava/lang/ref/WeakReference;Landroid/content/Context;ILjava/lang/String;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/airbnb/lottie/h$e;->a:Ljava/lang/ref/WeakReference;
 
     iput-object p2, p0, Lcom/airbnb/lottie/h$e;->b:Landroid/content/Context;
@@ -68,7 +67,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/airbnb/lottie/h$e;->a:Ljava/lang/ref/WeakReference;
 
     invoke-virtual {v0}, Ljava/lang/ref/WeakReference;->get()Ljava/lang/Object;
@@ -81,11 +79,9 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     iget-object v0, p0, Lcom/airbnb/lottie/h$e;->b:Landroid/content/Context;
 
-    .line 3
     :goto_0
     iget v1, p0, Lcom/airbnb/lottie/h$e;->c:I
 
@@ -106,7 +102,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/airbnb/lottie/h$e;->a()Lcom/airbnb/lottie/p;
 
     move-result-object v0

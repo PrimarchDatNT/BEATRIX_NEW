@@ -10,12 +10,10 @@
 .method public constructor <init>(Ljava/lang/String;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1}, Ljava/io/IOException;-><init>(Ljava/lang/String;)V
 
     const/4 p1, 0x0
 
-    .line 2
     iput-object p1, p0, Lcom/google/android/gms/internal/icing/zzdr;->zzkt:Lcom/google/android/gms/internal/icing/i3;
 
     return-void
@@ -24,7 +22,6 @@
 .method static zzcc()Lcom/google/android/gms/internal/icing/zzds;
     .locals 2
 
-    .line 1
     new-instance v0, Lcom/google/android/gms/internal/icing/zzds;
 
     const-string v1, "Protocol message tag had invalid wire type."

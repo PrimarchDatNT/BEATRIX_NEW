@@ -101,12 +101,10 @@
 .method constructor <init>(Lcom/google/common/cache/LocalCache;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/common/cache/LocalCache$h;->J:Lcom/google/common/cache/LocalCache;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iget-object p1, p1, Lcom/google/common/cache/LocalCache;->c:[Lcom/google/common/cache/LocalCache$Segment;
 
     array-length p1, p1
@@ -117,10 +115,8 @@
 
     const/4 p1, -0x1
 
-    .line 3
     iput p1, p0, Lcom/google/common/cache/LocalCache$h;->b:I
 
-    .line 4
     invoke-virtual {p0}, Lcom/google/common/cache/LocalCache$h;->a()V
 
     return-void
@@ -133,10 +129,8 @@
 
     const/4 v0, 0x0
 
-    .line 1
     iput-object v0, p0, Lcom/google/common/cache/LocalCache$h;->g:Lcom/google/common/cache/LocalCache$d0;
 
-    .line 2
     invoke-virtual {p0}, Lcom/google/common/cache/LocalCache$h;->d()Z
 
     move-result v0
@@ -145,7 +139,6 @@
 
     return-void
 
-    .line 3
     :cond_0
     invoke-virtual {p0}, Lcom/google/common/cache/LocalCache$h;->e()Z
 
@@ -155,13 +148,11 @@
 
     return-void
 
-    .line 4
     :cond_1
     iget v0, p0, Lcom/google/common/cache/LocalCache$h;->a:I
 
     if-ltz v0, :cond_2
 
-    .line 5
     iget-object v1, p0, Lcom/google/common/cache/LocalCache$h;->J:Lcom/google/common/cache/LocalCache;
 
     iget-object v1, v1, Lcom/google/common/cache/LocalCache;->c:[Lcom/google/common/cache/LocalCache$Segment;
@@ -174,19 +165,16 @@
 
     iput-object v0, p0, Lcom/google/common/cache/LocalCache$h;->c:Lcom/google/common/cache/LocalCache$Segment;
 
-    .line 6
     iget v0, v0, Lcom/google/common/cache/LocalCache$Segment;->count:I
 
     if-eqz v0, :cond_1
 
-    .line 7
     iget-object v0, p0, Lcom/google/common/cache/LocalCache$h;->c:Lcom/google/common/cache/LocalCache$Segment;
 
     iget-object v0, v0, Lcom/google/common/cache/LocalCache$Segment;->table:Ljava/util/concurrent/atomic/AtomicReferenceArray;
 
     iput-object v0, p0, Lcom/google/common/cache/LocalCache$h;->d:Ljava/util/concurrent/atomic/AtomicReferenceArray;
 
-    .line 8
     invoke-virtual {v0}, Ljava/util/concurrent/atomic/AtomicReferenceArray;->length()I
 
     move-result v0
@@ -195,7 +183,6 @@
 
     iput v0, p0, Lcom/google/common/cache/LocalCache$h;->b:I
 
-    .line 9
     invoke-virtual {p0}, Lcom/google/common/cache/LocalCache$h;->e()Z
 
     move-result v0
@@ -216,7 +203,6 @@
         }
     .end annotation
 
-    .line 1
     :try_start_0
     iget-object v0, p0, Lcom/google/common/cache/LocalCache$h;->J:Lcom/google/common/cache/LocalCache;
 
@@ -226,12 +212,10 @@
 
     move-result-wide v0
 
-    .line 2
     invoke-interface {p1}, Lcom/google/common/cache/j;->getKey()Ljava/lang/Object;
 
     move-result-object v2
 
-    .line 3
     iget-object v3, p0, Lcom/google/common/cache/LocalCache$h;->J:Lcom/google/common/cache/LocalCache;
 
     invoke-virtual {v3, p1, v0, v1}, Lcom/google/common/cache/LocalCache;->s(Lcom/google/common/cache/j;J)Ljava/lang/Object;
@@ -240,7 +224,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 4
     new-instance v0, Lcom/google/common/cache/LocalCache$d0;
 
     iget-object v1, p0, Lcom/google/common/cache/LocalCache$h;->J:Lcom/google/common/cache/LocalCache;
@@ -253,7 +236,6 @@
 
     const/4 p1, 0x1
 
-    .line 5
     :goto_0
     iget-object v0, p0, Lcom/google/common/cache/LocalCache$h;->c:Lcom/google/common/cache/LocalCache$Segment;
 
@@ -273,7 +255,6 @@
 
     invoke-virtual {v0}, Lcom/google/common/cache/LocalCache$Segment;->postReadCleanup()V
 
-    .line 6
     throw p1
 .end method
 
@@ -287,23 +268,18 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/cache/LocalCache$h;->g:Lcom/google/common/cache/LocalCache$d0;
 
     if-eqz v0, :cond_0
 
-    .line 2
     iput-object v0, p0, Lcom/google/common/cache/LocalCache$h;->p:Lcom/google/common/cache/LocalCache$d0;
 
-    .line 3
     invoke-virtual {p0}, Lcom/google/common/cache/LocalCache$h;->a()V
 
-    .line 4
     iget-object v0, p0, Lcom/google/common/cache/LocalCache$h;->p:Lcom/google/common/cache/LocalCache$d0;
 
     return-object v0
 
-    .line 5
     :cond_0
     new-instance v0, Ljava/util/NoSuchElementException;
 
@@ -315,12 +291,10 @@
 .method d()Z
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/cache/LocalCache$h;->f:Lcom/google/common/cache/j;
 
     if-eqz v0, :cond_1
 
-    .line 2
     :goto_0
     invoke-interface {v0}, Lcom/google/common/cache/j;->getNext()Lcom/google/common/cache/j;
 
@@ -332,7 +306,6 @@
 
     if-eqz v0, :cond_1
 
-    .line 3
     invoke-virtual {p0, v0}, Lcom/google/common/cache/LocalCache$h;->b(Lcom/google/common/cache/j;)Z
 
     move-result v0
@@ -343,7 +316,6 @@
 
     return v0
 
-    .line 4
     :cond_0
     iget-object v0, p0, Lcom/google/common/cache/LocalCache$h;->f:Lcom/google/common/cache/j;
 
@@ -358,13 +330,11 @@
 .method e()Z
     .locals 3
 
-    .line 1
     :cond_0
     iget v0, p0, Lcom/google/common/cache/LocalCache$h;->b:I
 
     if-ltz v0, :cond_2
 
-    .line 2
     iget-object v1, p0, Lcom/google/common/cache/LocalCache$h;->d:Ljava/util/concurrent/atomic/AtomicReferenceArray;
 
     add-int/lit8 v2, v0, -0x1
@@ -381,7 +351,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 3
     invoke-virtual {p0, v0}, Lcom/google/common/cache/LocalCache$h;->b(Lcom/google/common/cache/j;)Z
 
     move-result v0
@@ -408,7 +377,6 @@
 .method public hasNext()Z
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/cache/LocalCache$h;->g:Lcom/google/common/cache/LocalCache$d0;
 
     if-eqz v0, :cond_0
@@ -435,7 +403,6 @@
 .method public remove()V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/cache/LocalCache$h;->p:Lcom/google/common/cache/LocalCache$d0;
 
     if-eqz v0, :cond_0
@@ -450,7 +417,6 @@
     :goto_0
     invoke-static {v0}, Lcom/google/common/base/t;->g0(Z)V
 
-    .line 2
     iget-object v0, p0, Lcom/google/common/cache/LocalCache$h;->J:Lcom/google/common/cache/LocalCache;
 
     iget-object v1, p0, Lcom/google/common/cache/LocalCache$h;->p:Lcom/google/common/cache/LocalCache$d0;
@@ -463,7 +429,6 @@
 
     const/4 v0, 0x0
 
-    .line 3
     iput-object v0, p0, Lcom/google/common/cache/LocalCache$h;->p:Lcom/google/common/cache/LocalCache$d0;
 
     return-void

@@ -31,19 +31,16 @@
 .method static constructor <clinit>()V
     .locals 4
 
-    .line 1
     sget-object v0, Lcom/google/protobuf/WireFormat$FieldType;->STRING:Lcom/google/protobuf/WireFormat$FieldType;
 
     sget-object v1, Lcom/google/protobuf/WireFormat$FieldType;->MESSAGE:Lcom/google/protobuf/WireFormat$FieldType;
 
-    .line 2
     invoke-static {}, Lcom/google/firestore/v1/Value;->Vh()Lcom/google/firestore/v1/Value;
 
     move-result-object v2
 
     const-string v3, ""
 
-    .line 3
     invoke-static {v0, v3, v1, v2}, Lcom/google/protobuf/h1;->e(Lcom/google/protobuf/WireFormat$FieldType;Ljava/lang/Object;Lcom/google/protobuf/WireFormat$FieldType;Ljava/lang/Object;)Lcom/google/protobuf/h1;
 
     move-result-object v0
@@ -56,7 +53,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void

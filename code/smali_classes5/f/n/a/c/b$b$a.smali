@@ -25,7 +25,6 @@
 .method constructor <init>(Lf/n/a/c/b$b;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lf/n/a/c/b$b$a;->a:Lf/n/a/c/b$b;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -38,14 +37,12 @@
 .method public a(Lcom/qiniu/android/http/g;Lorg/json/JSONObject;)V
     .locals 4
 
-    .line 1
     invoke-virtual {p1}, Lcom/qiniu/android/http/g;->j()Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
-    .line 2
     iget-object v0, p0, Lf/n/a/c/b$b$a;->a:Lf/n/a/c/b$b;
 
     iget-object v1, v0, Lf/n/a/c/b$b;->a:Lf/n/a/c/l;
@@ -58,7 +55,6 @@
 
     invoke-interface {v1, v0, v2, v3}, Lf/n/a/c/i;->a(Ljava/lang/String;D)V
 
-    .line 3
     :cond_0
     iget-object v0, p0, Lf/n/a/c/b$b$a;->a:Lf/n/a/c/b$b;
 

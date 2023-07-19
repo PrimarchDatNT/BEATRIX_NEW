@@ -47,10 +47,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/google/android/gms/internal/ads/hq1;-><init>(Lcom/google/android/gms/internal/ads/rq1;)V
 
-    .line 2
     iput-object p2, p0, Lcom/google/android/gms/internal/ads/ar1;->b:Ljava/util/concurrent/ScheduledFuture;
 
     return-void
@@ -61,14 +59,12 @@
 .method public final cancel(Z)Z
     .locals 2
 
-    .line 1
     invoke-super {p0, p1}, Lcom/google/android/gms/internal/ads/fq1;->cancel(Z)Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
-    .line 2
     iget-object v1, p0, Lcom/google/android/gms/internal/ads/ar1;->b:Ljava/util/concurrent/ScheduledFuture;
 
     invoke-interface {v1, p1}, Ljava/util/concurrent/ScheduledFuture;->cancel(Z)Z
@@ -80,10 +76,8 @@
 .method public final synthetic compareTo(Ljava/lang/Object;)I
     .locals 1
 
-    .line 1
     check-cast p1, Ljava/util/concurrent/Delayed;
 
-    .line 2
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/ar1;->b:Ljava/util/concurrent/ScheduledFuture;
 
     invoke-interface {v0, p1}, Ljava/util/concurrent/ScheduledFuture;->compareTo(Ljava/lang/Object;)I
@@ -96,7 +90,6 @@
 .method public final getDelay(Ljava/util/concurrent/TimeUnit;)J
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/ar1;->b:Ljava/util/concurrent/ScheduledFuture;
 
     invoke-interface {v0, p1}, Ljava/util/concurrent/ScheduledFuture;->getDelay(Ljava/util/concurrent/TimeUnit;)J

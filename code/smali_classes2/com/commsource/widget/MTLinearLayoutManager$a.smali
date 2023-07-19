@@ -22,7 +22,6 @@
 .method constructor <init>(Lcom/commsource/widget/MTLinearLayoutManager;Landroid/content/Context;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/widget/MTLinearLayoutManager$a;->c:Lcom/commsource/widget/MTLinearLayoutManager;
 
     invoke-direct {p0, p2}, Lcom/commsource/widget/t0;-><init>(Landroid/content/Context;)V
@@ -39,7 +38,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/widget/MTLinearLayoutManager$a;->c:Lcom/commsource/widget/MTLinearLayoutManager;
 
     invoke-virtual {v1, p1}, Landroidx/recyclerview/widget/LinearLayoutManager;->computeScrollVectorForPosition(I)Landroid/graphics/PointF;

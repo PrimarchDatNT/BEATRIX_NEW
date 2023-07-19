@@ -27,7 +27,6 @@
 .method constructor <init>(Lcom/airbnb/lottie/i$b;Lcom/airbnb/lottie/network/d;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/airbnb/lottie/i$b$b;->b:Lcom/airbnb/lottie/i$b;
 
     iput-object p2, p0, Lcom/airbnb/lottie/i$b$b;->a:Lcom/airbnb/lottie/network/d;
@@ -44,14 +43,12 @@
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/airbnb/lottie/i$b$b;->a:Lcom/airbnb/lottie/network/d;
 
     invoke-interface {v0}, Lcom/airbnb/lottie/network/d;->a()Ljava/io/File;
 
     move-result-object v0
 
-    .line 2
     invoke-virtual {v0}, Ljava/io/File;->isDirectory()Z
 
     move-result v1
@@ -60,7 +57,6 @@
 
     return-object v0
 
-    .line 3
     :cond_0
     new-instance v0, Ljava/lang/IllegalArgumentException;
 

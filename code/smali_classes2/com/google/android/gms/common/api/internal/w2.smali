@@ -49,15 +49,12 @@
 
     const/4 v0, 0x3
 
-    .line 1
     invoke-direct {p0, v0, p2}, Lcom/google/android/gms/common/api/internal/u2;-><init>(ILcom/google/android/gms/tasks/l;)V
 
-    .line 2
     iget-object p2, p1, Lcom/google/android/gms/common/api/internal/w1;->a:Lcom/google/android/gms/common/api/internal/p;
 
     iput-object p2, p0, Lcom/google/android/gms/common/api/internal/w2;->c:Lcom/google/android/gms/common/api/internal/p;
 
-    .line 3
     iget-object p1, p1, Lcom/google/android/gms/common/api/internal/w1;->b:Lcom/google/android/gms/common/api/internal/y;
 
     iput-object p1, p0, Lcom/google/android/gms/common/api/internal/w2;->d:Lcom/google/android/gms/common/api/internal/y;
@@ -74,7 +71,6 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-super {p0, p1}, Lcom/google/android/gms/common/api/internal/u2;->b(Lcom/google/android/gms/common/api/Status;)V
 
     return-void
@@ -97,7 +93,6 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-super {p0, p1}, Lcom/google/android/gms/common/api/internal/u2;->e(Ljava/lang/RuntimeException;)V
 
     return-void
@@ -117,7 +112,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object p1, p0, Lcom/google/android/gms/common/api/internal/w2;->c:Lcom/google/android/gms/common/api/internal/p;
 
     invoke-virtual {p1}, Lcom/google/android/gms/common/api/internal/p;->c()[Lcom/google/android/gms/common/Feature;
@@ -137,7 +131,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object p1, p0, Lcom/google/android/gms/common/api/internal/w2;->c:Lcom/google/android/gms/common/api/internal/p;
 
     invoke-virtual {p1}, Lcom/google/android/gms/common/api/internal/p;->e()Z
@@ -163,7 +156,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/common/api/internal/w2;->c:Lcom/google/android/gms/common/api/internal/p;
 
     invoke-virtual {p1}, Lcom/google/android/gms/common/api/internal/g$a;->l()Lcom/google/android/gms/common/api/a$f;
@@ -174,7 +166,6 @@
 
     invoke-virtual {v0, v1, v2}, Lcom/google/android/gms/common/api/internal/p;->d(Lcom/google/android/gms/common/api/a$b;Lcom/google/android/gms/tasks/l;)V
 
-    .line 2
     iget-object v0, p0, Lcom/google/android/gms/common/api/internal/w2;->c:Lcom/google/android/gms/common/api/internal/p;
 
     invoke-virtual {v0}, Lcom/google/android/gms/common/api/internal/p;->b()Lcom/google/android/gms/common/api/internal/l$a;
@@ -183,14 +174,12 @@
 
     if-eqz v0, :cond_0
 
-    .line 3
     invoke-virtual {p1}, Lcom/google/android/gms/common/api/internal/g$a;->v()Ljava/util/Map;
 
     move-result-object p1
 
     iget-object v0, p0, Lcom/google/android/gms/common/api/internal/w2;->c:Lcom/google/android/gms/common/api/internal/p;
 
-    .line 4
     invoke-virtual {v0}, Lcom/google/android/gms/common/api/internal/p;->b()Lcom/google/android/gms/common/api/internal/l$a;
 
     move-result-object v0
@@ -203,7 +192,6 @@
 
     invoke-direct {v1, v2, v3}, Lcom/google/android/gms/common/api/internal/w1;-><init>(Lcom/google/android/gms/common/api/internal/p;Lcom/google/android/gms/common/api/internal/y;)V
 
-    .line 5
     invoke-interface {p1, v0, v1}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     :cond_0

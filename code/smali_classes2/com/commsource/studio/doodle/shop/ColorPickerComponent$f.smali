@@ -23,7 +23,6 @@
 .method constructor <init>(I)V
     .locals 0
 
-    .line 1
     iput p1, p0, Lcom/commsource/studio/doodle/shop/ColorPickerComponent$f;->a:I
 
     invoke-direct {p0}, Landroidx/recyclerview/widget/RecyclerView$ItemDecoration;-><init>()V
@@ -72,14 +71,12 @@
 
     invoke-static {p4, p2}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget p2, p0, Lcom/commsource/studio/doodle/shop/ColorPickerComponent$f;->a:I
 
     const/4 p3, 0x0
 
     invoke-virtual {p1, p3, p3, p3, p2}, Landroid/graphics/Rect;->set(IIII)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

@@ -35,7 +35,6 @@
 
     invoke-static {}, Lio/grpc/okhttp/internal/Platform;->b()V
 
-    .line 1
     const-class v0, Lio/grpc/okhttp/internal/Platform;
 
     invoke-virtual {v0}, Ljava/lang/Class;->getName()Ljava/lang/String;
@@ -58,14 +57,12 @@
 
     const-string v4, "com.google.android.libraries.stitch.sslguard.SslGuardProvider"
 
-    .line 2
     filled-new-array {v0, v1, v2, v3, v4}, [Ljava/lang/String;
 
     move-result-object v0
 
     sput-object v0, Lio/grpc/okhttp/internal/Platform;->c:[Ljava/lang/String;
 
-    .line 3
     invoke-static {}, Lio/grpc/okhttp/internal/Platform;->f()Lio/grpc/okhttp/internal/Platform;
 
     move-result-object v0
@@ -78,10 +75,8 @@
 .method public constructor <init>(Ljava/security/Provider;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lio/grpc/okhttp/internal/Platform;->a:Ljava/security/Provider;
 
     return-void
@@ -90,7 +85,6 @@
 .method private static synthetic b()V
     .locals 9
 
-    .line 1
     new-instance v8, Ln/a/b/c/e;
 
     const-class v0, Lio/grpc/okhttp/internal/Platform;
@@ -143,12 +137,10 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lokio/Buffer;
 
     invoke-direct {v0}, Lokio/Buffer;-><init>()V
 
-    .line 2
     invoke-interface {p0}, Ljava/util/List;->size()I
 
     move-result v1
@@ -158,21 +150,18 @@
     :goto_0
     if-ge v2, v1, :cond_1
 
-    .line 3
     invoke-interface {p0, v2}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object v3
 
     check-cast v3, Lio/grpc/okhttp/internal/Protocol;
 
-    .line 4
     sget-object v4, Lio/grpc/okhttp/internal/Protocol;->HTTP_1_0:Lio/grpc/okhttp/internal/Protocol;
 
     if-ne v3, v4, :cond_0
 
     goto :goto_1
 
-    .line 5
     :cond_0
     invoke-virtual {v3}, Lio/grpc/okhttp/internal/Protocol;->toString()Ljava/lang/String;
 
@@ -184,7 +173,6 @@
 
     invoke-virtual {v0, v4}, Lokio/Buffer;->writeByte(I)Lokio/Buffer;
 
-    .line 6
     invoke-virtual {v3}, Lio/grpc/okhttp/internal/Protocol;->toString()Ljava/lang/String;
 
     move-result-object v3
@@ -196,7 +184,6 @@
 
     goto :goto_0
 
-    .line 7
     :cond_1
     invoke-virtual {v0}, Lokio/Buffer;->readByteArray()[B
 
@@ -208,7 +195,6 @@
 .method private static f()Lio/grpc/okhttp/internal/Platform;
     .locals 12
 
-    .line 1
     const-class v0, [B
 
     invoke-static {}, Lio/grpc/okhttp/internal/Platform;->h()Ljava/security/Provider;
@@ -223,7 +209,6 @@
 
     if-eqz v8, :cond_4
 
-    .line 2
     new-instance v4, Lio/grpc/okhttp/internal/f;
 
     new-array v5, v1, [Ljava/lang/Class;
@@ -236,7 +221,6 @@
 
     invoke-direct {v4, v2, v6, v5}, Lio/grpc/okhttp/internal/f;-><init>(Ljava/lang/Class;Ljava/lang/String;[Ljava/lang/Class;)V
 
-    .line 3
     new-instance v5, Lio/grpc/okhttp/internal/f;
 
     new-array v6, v1, [Ljava/lang/Class;
@@ -249,7 +233,6 @@
 
     invoke-direct {v5, v2, v7, v6}, Lio/grpc/okhttp/internal/f;-><init>(Ljava/lang/Class;Ljava/lang/String;[Ljava/lang/Class;)V
 
-    .line 4
     new-instance v6, Lio/grpc/okhttp/internal/f;
 
     new-array v7, v3, [Ljava/lang/Class;
@@ -258,7 +241,6 @@
 
     invoke-direct {v6, v0, v9, v7}, Lio/grpc/okhttp/internal/f;-><init>(Ljava/lang/Class;Ljava/lang/String;[Ljava/lang/Class;)V
 
-    .line 5
     new-instance v7, Lio/grpc/okhttp/internal/f;
 
     new-array v9, v1, [Ljava/lang/Class;
@@ -272,7 +254,6 @@
     :try_start_0
     const-string v0, "android.net.TrafficStats"
 
-    .line 6
     invoke-static {v0}, Ljava/lang/Class;->forName(Ljava/lang/String;)Ljava/lang/Class;
 
     move-result-object v0
@@ -281,7 +262,6 @@
 
     new-array v10, v1, [Ljava/lang/Class;
 
-    .line 7
     const-class v11, Ljava/net/Socket;
 
     aput-object v11, v10, v3
@@ -298,7 +278,6 @@
 
     new-array v1, v1, [Ljava/lang/Class;
 
-    .line 8
     const-class v11, Ljava/net/Socket;
 
     aput-object v11, v1, v3
@@ -318,7 +297,6 @@
     :catch_1
     move-object v0, v2
 
-    .line 9
     :goto_0
     invoke-virtual {v8}, Ljava/security/Provider;->getName()Ljava/lang/String;
 
@@ -332,7 +310,6 @@
 
     if-nez v1, :cond_3
 
-    .line 10
     invoke-virtual {v8}, Ljava/security/Provider;->getName()Ljava/lang/String;
 
     move-result-object v1
@@ -345,7 +322,6 @@
 
     if-nez v1, :cond_3
 
-    .line 11
     invoke-virtual {v8}, Ljava/security/Provider;->getName()Ljava/lang/String;
 
     move-result-object v1
@@ -360,7 +336,6 @@
 
     goto :goto_1
 
-    .line 12
     :cond_0
     invoke-static {}, Lio/grpc/okhttp/internal/Platform;->o()Z
 
@@ -368,12 +343,10 @@
 
     if-eqz v1, :cond_1
 
-    .line 13
     sget-object v1, Lio/grpc/okhttp/internal/Platform$TlsExtensionType;->ALPN_AND_NPN:Lio/grpc/okhttp/internal/Platform$TlsExtensionType;
 
     goto :goto_2
 
-    .line 14
     :cond_1
     invoke-static {}, Lio/grpc/okhttp/internal/Platform;->n()Z
 
@@ -381,18 +354,15 @@
 
     if-eqz v1, :cond_2
 
-    .line 15
     sget-object v1, Lio/grpc/okhttp/internal/Platform$TlsExtensionType;->NPN:Lio/grpc/okhttp/internal/Platform$TlsExtensionType;
 
     goto :goto_2
 
-    .line 16
     :cond_2
     sget-object v1, Lio/grpc/okhttp/internal/Platform$TlsExtensionType;->NONE:Lio/grpc/okhttp/internal/Platform$TlsExtensionType;
 
     goto :goto_2
 
-    .line 17
     :cond_3
     :goto_1
     sget-object v1, Lio/grpc/okhttp/internal/Platform$TlsExtensionType;->ALPN_AND_NPN:Lio/grpc/okhttp/internal/Platform$TlsExtensionType;
@@ -400,7 +370,6 @@
     :goto_2
     move-object v10, v1
 
-    .line 18
     new-instance v11, Lio/grpc/okhttp/internal/Platform$d;
 
     move-object v1, v11
@@ -419,7 +388,6 @@
 
     return-object v11
 
-    .line 19
     :cond_4
     :try_start_2
     invoke-static {}, Ljavax/net/ssl/SSLContext;->getDefault()Ljavax/net/ssl/SSLContext;
@@ -437,25 +405,20 @@
     :try_start_3
     const-string v5, "TLS"
 
-    .line 20
     invoke-static {v5, v0}, Ljavax/net/ssl/SSLContext;->getInstance(Ljava/lang/String;Ljava/security/Provider;)Ljavax/net/ssl/SSLContext;
 
     move-result-object v5
 
-    .line 21
     invoke-virtual {v5, v2, v2, v2}, Ljavax/net/ssl/SSLContext;->init([Ljavax/net/ssl/KeyManager;[Ljavax/net/ssl/TrustManager;Ljava/security/SecureRandom;)V
 
-    .line 22
     invoke-virtual {v5}, Ljavax/net/ssl/SSLContext;->createSSLEngine()Ljavax/net/ssl/SSLEngine;
 
     move-result-object v5
 
-    .line 23
     new-instance v6, Lio/grpc/okhttp/internal/Platform$a;
 
     invoke-direct {v6}, Lio/grpc/okhttp/internal/Platform$a;-><init>()V
 
-    .line 24
     invoke-static {v6}, Ljava/security/AccessController;->doPrivileged(Ljava/security/PrivilegedExceptionAction;)Ljava/lang/Object;
 
     move-result-object v6
@@ -464,7 +427,6 @@
 
     new-array v7, v3, [Ljava/lang/Object;
 
-    .line 25
     sget-object v8, Lio/grpc/okhttp/internal/Platform;->e:Lorg/aspectj/lang/c$b;
 
     invoke-static {v8, v2, v6, v5, v7}, Ln/a/b/c/e;->G(Lorg/aspectj/lang/c$b;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Lorg/aspectj/lang/c;
@@ -501,31 +463,26 @@
 
     invoke-virtual {v9, v5}, Lcom/commsource/beautyplus/c0/a;->k(Lorg/aspectj/lang/e;)Ljava/lang/Object;
 
-    .line 26
     new-instance v5, Lio/grpc/okhttp/internal/Platform$b;
 
     invoke-direct {v5}, Lio/grpc/okhttp/internal/Platform$b;-><init>()V
 
-    .line 27
     invoke-static {v5}, Ljava/security/AccessController;->doPrivileged(Ljava/security/PrivilegedExceptionAction;)Ljava/lang/Object;
 
     move-result-object v5
 
     check-cast v5, Ljava/lang/reflect/Method;
 
-    .line 28
     new-instance v6, Lio/grpc/okhttp/internal/Platform$c;
 
     invoke-direct {v6}, Lio/grpc/okhttp/internal/Platform$c;-><init>()V
 
-    .line 29
     invoke-static {v6}, Ljava/security/AccessController;->doPrivileged(Ljava/security/PrivilegedExceptionAction;)Ljava/lang/Object;
 
     move-result-object v6
 
     check-cast v6, Ljava/lang/reflect/Method;
 
-    .line 30
     new-instance v7, Lio/grpc/okhttp/internal/Platform$e;
 
     invoke-direct {v7, v0, v5, v6, v2}, Lio/grpc/okhttp/internal/Platform$e;-><init>(Ljava/security/Provider;Ljava/lang/reflect/Method;Ljava/lang/reflect/Method;Lio/grpc/okhttp/internal/Platform$a;)V
@@ -547,13 +504,11 @@
 
     const-string v5, "org.eclipse.jetty.alpn.ALPN"
 
-    .line 31
     :try_start_5
     invoke-static {v5}, Ljava/lang/Class;->forName(Ljava/lang/String;)Ljava/lang/Class;
 
     move-result-object v5
 
-    .line 32
     new-instance v6, Ljava/lang/StringBuilder;
 
     invoke-direct {v6}, Ljava/lang/StringBuilder;-><init>()V
@@ -572,7 +527,6 @@
 
     move-result-object v6
 
-    .line 33
     new-instance v7, Ljava/lang/StringBuilder;
 
     invoke-direct {v7}, Ljava/lang/StringBuilder;-><init>()V
@@ -591,7 +545,6 @@
 
     move-result-object v8
 
-    .line 34
     new-instance v7, Ljava/lang/StringBuilder;
 
     invoke-direct {v7}, Ljava/lang/StringBuilder;-><init>()V
@@ -614,7 +567,6 @@
 
     new-array v4, v4, [Ljava/lang/Class;
 
-    .line 35
     const-class v7, Ljavax/net/ssl/SSLSocket;
 
     aput-object v7, v4, v3
@@ -629,7 +581,6 @@
 
     new-array v6, v1, [Ljava/lang/Class;
 
-    .line 36
     const-class v7, Ljavax/net/ssl/SSLSocket;
 
     aput-object v7, v6, v3
@@ -642,7 +593,6 @@
 
     new-array v1, v1, [Ljava/lang/Class;
 
-    .line 37
     const-class v7, Ljavax/net/ssl/SSLSocket;
 
     aput-object v7, v1, v3
@@ -651,7 +601,6 @@
 
     move-result-object v7
 
-    .line 38
     new-instance v1, Lio/grpc/okhttp/internal/Platform$f;
 
     move-object v4, v1
@@ -667,7 +616,6 @@
 
     return-object v1
 
-    .line 39
     :catch_3
     new-instance v1, Lio/grpc/okhttp/internal/Platform;
 
@@ -678,7 +626,6 @@
     :catch_4
     move-exception v0
 
-    .line 40
     new-instance v1, Ljava/lang/RuntimeException;
 
     invoke-direct {v1, v0}, Ljava/lang/RuntimeException;-><init>(Ljava/lang/Throwable;)V
@@ -689,7 +636,6 @@
 .method public static g()Lio/grpc/okhttp/internal/Platform;
     .locals 1
 
-    .line 1
     sget-object v0, Lio/grpc/okhttp/internal/Platform;->d:Lio/grpc/okhttp/internal/Platform;
 
     return-object v0
@@ -698,12 +644,10 @@
 .method private static h()Ljava/security/Provider;
     .locals 10
 
-    .line 1
     invoke-static {}, Ljava/security/Security;->getProviders()[Ljava/security/Provider;
 
     move-result-object v0
 
-    .line 2
     array-length v1, v0
 
     const/4 v2, 0x0
@@ -715,7 +659,6 @@
 
     aget-object v4, v0, v3
 
-    .line 3
     sget-object v5, Lio/grpc/okhttp/internal/Platform;->c:[Ljava/lang/String;
 
     array-length v6, v5
@@ -727,7 +670,6 @@
 
     aget-object v8, v5, v7
 
-    .line 4
     invoke-virtual {v4}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
     move-result-object v9
@@ -742,7 +684,6 @@
 
     if-eqz v9, :cond_0
 
-    .line 5
     sget-object v0, Lio/grpc/okhttp/internal/Platform;->b:Ljava/util/logging/Logger;
 
     sget-object v1, Ljava/util/logging/Level;->FINE:Ljava/util/logging/Level;
@@ -763,7 +704,6 @@
 
     goto :goto_0
 
-    .line 6
     :cond_2
     sget-object v0, Lio/grpc/okhttp/internal/Platform;->b:Ljava/util/logging/Logger;
 
@@ -781,7 +721,6 @@
 .method static final synthetic m(Ljava/lang/reflect/Method;Ljava/lang/Object;[Ljava/lang/Object;Lorg/aspectj/lang/c;)Ljava/lang/Object;
     .locals 0
 
-    .line 1
     invoke-virtual {p0, p1, p2}, Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p0
@@ -792,18 +731,15 @@
 .method private static n()Z
     .locals 4
 
-    .line 1
     :try_start_0
     const-class v0, Lio/grpc/okhttp/internal/Platform;
 
-    .line 2
     invoke-virtual {v0}, Ljava/lang/Class;->getClassLoader()Ljava/lang/ClassLoader;
 
     move-result-object v0
 
     const-string v1, "android.app.ActivityOptions"
 
-    .line 3
     invoke-virtual {v0, v1}, Ljava/lang/ClassLoader;->loadClass(Ljava/lang/String;)Ljava/lang/Class;
     :try_end_0
     .catch Ljava/lang/ClassNotFoundException; {:try_start_0 .. :try_end_0} :catch_0
@@ -815,7 +751,6 @@
     :catch_0
     move-exception v0
 
-    .line 4
     sget-object v1, Lio/grpc/okhttp/internal/Platform;->b:Ljava/util/logging/Logger;
 
     sget-object v2, Ljava/util/logging/Level;->FINE:Ljava/util/logging/Level;
@@ -832,18 +767,15 @@
 .method private static o()Z
     .locals 4
 
-    .line 1
     :try_start_0
     const-class v0, Lio/grpc/okhttp/internal/Platform;
 
-    .line 2
     invoke-virtual {v0}, Ljava/lang/Class;->getClassLoader()Ljava/lang/ClassLoader;
 
     move-result-object v0
 
     const-string v1, "android.net.Network"
 
-    .line 3
     invoke-virtual {v0, v1}, Ljava/lang/ClassLoader;->loadClass(Ljava/lang/String;)Ljava/lang/Class;
     :try_end_0
     .catch Ljava/lang/ClassNotFoundException; {:try_start_0 .. :try_end_0} :catch_0
@@ -855,7 +787,6 @@
     :catch_0
     move-exception v0
 
-    .line 4
     sget-object v1, Lio/grpc/okhttp/internal/Platform;->b:Ljava/util/logging/Logger;
 
     sget-object v2, Ljava/util/logging/Level;->FINE:Ljava/util/logging/Level;
@@ -901,7 +832,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p1, p2, p3}, Ljava/net/Socket;->connect(Ljava/net/SocketAddress;I)V
 
     return-void
@@ -918,7 +848,6 @@
 .method public j()Ljava/security/Provider;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lio/grpc/okhttp/internal/Platform;->a:Ljava/security/Provider;
 
     return-object v0
@@ -935,7 +864,6 @@
 .method public l()Lio/grpc/okhttp/internal/Platform$TlsExtensionType;
     .locals 1
 
-    .line 1
     sget-object v0, Lio/grpc/okhttp/internal/Platform$TlsExtensionType;->NONE:Lio/grpc/okhttp/internal/Platform$TlsExtensionType;
 
     return-object v0
@@ -944,7 +872,6 @@
 .method public p(Ljava/lang/String;)V
     .locals 1
 
-    .line 1
     sget-object v0, Ljava/lang/System;->out:Ljava/io/PrintStream;
 
     invoke-virtual {v0, p1}, Ljava/io/PrintStream;->println(Ljava/lang/String;)V

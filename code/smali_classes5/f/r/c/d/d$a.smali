@@ -34,7 +34,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lf/r/c/d/d$a;->c:Lf/r/c/d/d;
 
     iput-object p2, p0, Lf/r/c/d/d$a;->a:Ljava/lang/String;
@@ -51,7 +50,6 @@
 .method public a(Lf/r/c/d/b;)V
     .locals 2
 
-    .line 1
     iget-object v0, p1, Lf/r/c/d/b;->d:Ljava/lang/String;
 
     iget-object v1, p0, Lf/r/c/d/d$a;->a:Ljava/lang/String;
@@ -62,7 +60,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 2
     iget-object v0, p0, Lf/r/c/d/d$a;->b:Lf/r/c/d/d$d;
 
     invoke-interface {v0, p1}, Lf/r/c/d/d$d;->a(Lf/r/c/d/b;)V

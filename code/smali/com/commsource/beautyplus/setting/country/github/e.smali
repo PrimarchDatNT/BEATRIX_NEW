@@ -29,7 +29,6 @@
 
     new-array v2, v1, [I
 
-    .line 1
     fill-array-data v2, :array_0
 
     sput-object v2, Lcom/commsource/beautyplus/setting/country/github/e;->c:[I
@@ -2412,10 +2411,8 @@
 
     aput-object v3, v1, v2
 
-    .line 2
     sput-object v1, Lcom/commsource/beautyplus/setting/country/github/e;->d:[Ljava/lang/String;
 
-    .line 3
     new-instance v1, Lcom/commsource/beautyplus/setting/country/github/e;
 
     invoke-direct {v1}, Lcom/commsource/beautyplus/setting/country/github/e;-><init>()V
@@ -2832,7 +2829,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -2850,14 +2846,12 @@
     :try_start_0
     const-string v2, "gb2312"
 
-    .line 1
     invoke-virtual {p1, v2}, Ljava/lang/String;->getBytes(Ljava/lang/String;)[B
 
     move-result-object p1
 
     if-eqz p1, :cond_1
 
-    .line 2
     array-length v2, p1
 
     const/4 v3, 0x2
@@ -2868,14 +2862,12 @@
 
     if-lez v2, :cond_1
 
-    .line 3
     array-length v2, p1
 
     const/4 v4, 0x1
 
     if-ne v2, v4, :cond_0
 
-    .line 4
     aget-byte v2, p1, v1
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_1
@@ -2885,19 +2877,16 @@
     :cond_0
     const/4 v2, 0x0
 
-    .line 5
     :goto_0
     :try_start_1
     array-length v5, p1
 
     if-ne v5, v3, :cond_2
 
-    .line 6
     aget-byte v1, p1, v1
 
     add-int/lit16 v1, v1, 0x100
 
-    .line 7
     aget-byte p1, p1, v4
     :try_end_1
     .catch Ljava/lang/Exception; {:try_start_1 .. :try_end_1} :catch_0
@@ -2921,7 +2910,6 @@
 
     goto :goto_1
 
-    .line 8
     :cond_1
     :try_start_2
     new-instance p1, Ljava/lang/RuntimeException;
@@ -2939,7 +2927,6 @@
     :catch_1
     move-exception p1
 
-    .line 9
     :goto_1
     sget-object v2, Ljava/lang/System;->out:Ljava/io/PrintStream;
 
@@ -2957,12 +2944,10 @@
 
     move-result-object p1
 
-    .line 10
     invoke-virtual {v2, p1}, Ljava/io/PrintStream;->println(Ljava/lang/String;)V
 
     move v2, v1
 
-    .line 11
     :cond_2
     :goto_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2977,7 +2962,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/beautyplus/setting/country/github/e;->e:Lcom/commsource/beautyplus/setting/country/github/e;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2992,7 +2976,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/commsource/beautyplus/setting/country/github/e;->d()Lcom/commsource/beautyplus/setting/country/github/e;
 
     move-result-object v1
@@ -3015,7 +2998,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/commsource/beautyplus/setting/country/github/e;->c(Ljava/lang/String;)I
 
     move-result p1
@@ -3028,14 +3010,12 @@
 
     int-to-char p1, p1
 
-    .line 2
     invoke-static {p1}, Ljava/lang/String;->valueOf(C)Ljava/lang/String;
 
     move-result-object p1
 
     goto :goto_1
 
-    .line 3
     :cond_0
     sget-object v1, Lcom/commsource/beautyplus/setting/country/github/e;->c:[I
 
@@ -3046,14 +3026,12 @@
     :goto_0
     if-ltz v1, :cond_2
 
-    .line 4
     sget-object v2, Lcom/commsource/beautyplus/setting/country/github/e;->c:[I
 
     aget v2, v2, v1
 
     if-gt v2, p1, :cond_1
 
-    .line 5
     sget-object p1, Lcom/commsource/beautyplus/setting/country/github/e;->d:[Ljava/lang/String;
 
     aget-object p1, p1, v1
@@ -3068,7 +3046,6 @@
     :cond_2
     const/4 p1, 0x0
 
-    .line 6
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -3086,7 +3063,6 @@
 
     const/4 v2, 0x0
 
-    .line 1
     :goto_0
     invoke-virtual {p1}, Ljava/lang/String;->length()I
 
@@ -3096,12 +3072,10 @@
 
     add-int/lit8 v3, v2, 0x1
 
-    .line 2
     invoke-virtual {p1, v2, v3}, Ljava/lang/String;->substring(II)Ljava/lang/String;
 
     move-result-object v2
 
-    .line 3
     invoke-direct {p0, v2}, Lcom/commsource/beautyplus/setting/country/github/e;->c(Ljava/lang/String;)I
 
     move-result v2
@@ -3112,7 +3086,6 @@
 
     if-ge v2, v4, :cond_0
 
-    .line 4
     new-instance v4, Ljava/lang/StringBuilder;
 
     invoke-direct {v4}, Ljava/lang/StringBuilder;-><init>()V
@@ -3133,7 +3106,6 @@
 
     goto :goto_2
 
-    .line 5
     :cond_0
     sget-object v4, Lcom/commsource/beautyplus/setting/country/github/e;->c:[I
 
@@ -3144,14 +3116,12 @@
     :goto_1
     if-ltz v4, :cond_2
 
-    .line 6
     sget-object v5, Lcom/commsource/beautyplus/setting/country/github/e;->c:[I
 
     aget v5, v5, v4
 
     if-gt v5, v2, :cond_1
 
-    .line 7
     new-instance v2, Ljava/lang/StringBuilder;
 
     invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
@@ -3181,7 +3151,6 @@
 
     goto :goto_0
 
-    .line 8
     :cond_3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -3195,7 +3164,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/beautyplus/setting/country/github/e;->b:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -3210,7 +3178,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -3219,7 +3186,6 @@
 
     const/4 v1, 0x0
 
-    .line 2
     :goto_0
     invoke-virtual {p1}, Ljava/lang/String;->length()I
 
@@ -3229,12 +3195,10 @@
 
     add-int/lit8 v2, v1, 0x1
 
-    .line 3
     invoke-virtual {p1, v1, v2}, Ljava/lang/String;->substring(II)Ljava/lang/String;
 
     move-result-object v1
 
-    .line 4
     invoke-virtual {v1}, Ljava/lang/String;->getBytes()[B
 
     move-result-object v3
@@ -3245,7 +3209,6 @@
 
     if-ne v3, v4, :cond_0
 
-    .line 5
     invoke-virtual {p0, v1}, Lcom/commsource/beautyplus/setting/country/github/e;->a(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v1
@@ -3254,7 +3217,6 @@
 
     const-string/jumbo v1, "unknown"
 
-    .line 6
     :cond_0
     iget-object v3, p0, Lcom/commsource/beautyplus/setting/country/github/e;->a:Ljava/lang/StringBuilder;
 
@@ -3264,7 +3226,6 @@
 
     goto :goto_0
 
-    .line 7
     :cond_1
     iget-object p1, p0, Lcom/commsource/beautyplus/setting/country/github/e;->a:Ljava/lang/StringBuilder;
 
@@ -3284,7 +3245,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/beautyplus/setting/country/github/e;->e()Ljava/lang/String;
 
     move-result-object v1
@@ -3305,10 +3265,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/beautyplus/setting/country/github/e;->b:Ljava/lang/String;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

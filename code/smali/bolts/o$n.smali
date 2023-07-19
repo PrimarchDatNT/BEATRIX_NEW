@@ -43,7 +43,6 @@
 .method constructor <init>(Ljava/lang/Object;Ljava/util/ArrayList;Ljava/util/concurrent/atomic/AtomicBoolean;Ljava/util/concurrent/atomic/AtomicInteger;Lbolts/p;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lbolts/o$n;->a:Ljava/lang/Object;
 
     iput-object p2, p0, Lbolts/o$n;->b:Ljava/util/ArrayList;
@@ -73,19 +72,16 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p1}, Lbolts/o;->J()Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
-    .line 2
     iget-object v0, p0, Lbolts/o$n;->a:Ljava/lang/Object;
 
     monitor-enter v0
 
-    .line 3
     :try_start_0
     iget-object v1, p0, Lbolts/o$n;->b:Ljava/util/ArrayList;
 
@@ -95,7 +91,6 @@
 
     invoke-virtual {v1, v2}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    .line 4
     monitor-exit v0
 
     goto :goto_0
@@ -109,7 +104,6 @@
 
     throw p1
 
-    .line 5
     :cond_0
     :goto_0
     invoke-virtual {p1}, Lbolts/o;->H()Z
@@ -120,12 +114,10 @@
 
     if-eqz p1, :cond_1
 
-    .line 6
     iget-object p1, p0, Lbolts/o$n;->c:Ljava/util/concurrent/atomic/AtomicBoolean;
 
     invoke-virtual {p1, v0}, Ljava/util/concurrent/atomic/AtomicBoolean;->set(Z)V
 
-    .line 7
     :cond_1
     iget-object p1, p0, Lbolts/o$n;->d:Ljava/util/concurrent/atomic/AtomicInteger;
 
@@ -137,7 +129,6 @@
 
     if-nez p1, :cond_5
 
-    .line 8
     iget-object p1, p0, Lbolts/o$n;->b:Ljava/util/ArrayList;
 
     invoke-virtual {p1}, Ljava/util/ArrayList;->size()I
@@ -146,7 +137,6 @@
 
     if-eqz p1, :cond_3
 
-    .line 9
     iget-object p1, p0, Lbolts/o$n;->b:Ljava/util/ArrayList;
 
     invoke-virtual {p1}, Ljava/util/ArrayList;->size()I
@@ -157,7 +147,6 @@
 
     if-ne p1, v0, :cond_2
 
-    .line 10
     iget-object p1, p0, Lbolts/o$n;->e:Lbolts/p;
 
     iget-object v0, p0, Lbolts/o$n;->b:Ljava/util/ArrayList;
@@ -172,7 +161,6 @@
 
     goto :goto_1
 
-    .line 11
     :cond_2
     new-instance p1, Lbolts/AggregateException;
 
@@ -200,14 +188,12 @@
 
     invoke-direct {p1, v0, v2}, Lbolts/AggregateException;-><init>(Ljava/lang/String;Ljava/util/List;)V
 
-    .line 12
     iget-object v0, p0, Lbolts/o$n;->e:Lbolts/p;
 
     invoke-virtual {v0, p1}, Lbolts/p;->c(Ljava/lang/Exception;)V
 
     goto :goto_1
 
-    .line 13
     :cond_3
     iget-object p1, p0, Lbolts/o$n;->c:Ljava/util/concurrent/atomic/AtomicBoolean;
 
@@ -217,14 +203,12 @@
 
     if-eqz p1, :cond_4
 
-    .line 14
     iget-object p1, p0, Lbolts/o$n;->e:Lbolts/p;
 
     invoke-virtual {p1}, Lbolts/p;->b()V
 
     goto :goto_1
 
-    .line 15
     :cond_4
     iget-object p1, p0, Lbolts/o$n;->e:Lbolts/p;
 
@@ -243,7 +227,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0, p1}, Lbolts/o$n;->a(Lbolts/o;)Ljava/lang/Void;
 
     move-result-object p1

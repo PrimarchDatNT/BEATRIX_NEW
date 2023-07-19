@@ -27,7 +27,6 @@
 .method constructor <init>(Lcom/meitu/library/analytics/sdk/content/f$c;Lcom/meitu/library/analytics/sdk/content/f;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/library/analytics/sdk/content/f$a;->a:Lcom/meitu/library/analytics/sdk/content/f$c;
 
     iput-object p2, p0, Lcom/meitu/library/analytics/sdk/content/f$a;->b:Lcom/meitu/library/analytics/sdk/content/f;
@@ -46,19 +45,16 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/library/analytics/sdk/content/f$a;->a:Lcom/meitu/library/analytics/sdk/content/f$c;
 
     iget-object v1, v1, Lcom/meitu/library/analytics/sdk/content/f$c;->k:Lcom/meitu/library/analytics/sdk/content/f$g;
 
     if-eqz v1, :cond_0
 
-    .line 2
     iget-object v2, p0, Lcom/meitu/library/analytics/sdk/content/f$a;->b:Lcom/meitu/library/analytics/sdk/content/f;
 
     invoke-interface {v1, v2}, Lcom/meitu/library/analytics/sdk/content/f$g;->z(Lcom/meitu/library/analytics/sdk/content/f;)V
 
-    .line 3
     :cond_0
     iget-object v1, p0, Lcom/meitu/library/analytics/sdk/content/f$a;->b:Lcom/meitu/library/analytics/sdk/content/f;
 
@@ -66,7 +62,6 @@
 
     move-result-object v1
 
-    .line 4
     iget-object v2, p0, Lcom/meitu/library/analytics/sdk/content/f$a;->b:Lcom/meitu/library/analytics/sdk/content/f;
 
     invoke-static {v2}, Lcom/meitu/library/analytics/sdk/content/f;->f(Lcom/meitu/library/analytics/sdk/content/f;)Lcom/meitu/library/analytics/sdk/content/e;
@@ -79,10 +74,8 @@
 
     invoke-virtual {v2, v3}, Lcom/meitu/library/analytics/sdk/content/e;->i(Lcom/meitu/library/analytics/y/l/f;)V
 
-    .line 5
     invoke-static {v1}, Lcom/meitu/library/analytics/sdk/content/f$f;->b(Lcom/meitu/library/analytics/sdk/content/f$f;)V
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

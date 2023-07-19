@@ -28,7 +28,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/video/cover/VideoControllCover$positionTimer$2$a;->d:Lcom/commsource/video/cover/VideoControllCover$positionTimer$2;
 
     invoke-direct {p0, p2, p3}, Lcom/commsource/video/decoder/d;-><init>(J)V
@@ -45,7 +44,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/video/cover/VideoControllCover$positionTimer$2$a;->d:Lcom/commsource/video/cover/VideoControllCover$positionTimer$2;
 
     iget-object v1, v1, Lcom/commsource/video/cover/VideoControllCover$positionTimer$2;->this$0:Lcom/commsource/video/cover/VideoControllCover;
@@ -56,7 +54,6 @@
 
     invoke-virtual {v1}, Lcom/commsource/video/view/XVideoUIGroup;->p()V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

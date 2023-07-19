@@ -29,7 +29,6 @@
 .method constructor <init>(Lcom/google/common/graph/e;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/common/graph/e$a;->a:Lcom/google/common/graph/e;
 
     invoke-direct {p0}, Lcom/google/common/graph/c;-><init>()V
@@ -42,7 +41,6 @@
 .method public bridge synthetic a(Ljava/lang/Object;)Ljava/lang/Iterable;
     .locals 0
 
-    .line 1
     invoke-virtual {p0, p1}, Lcom/google/common/graph/e$a;->a(Ljava/lang/Object;)Ljava/util/Set;
 
     move-result-object p1
@@ -60,7 +58,6 @@
         }
     .end annotation
 
-    .line 2
     iget-object v0, p0, Lcom/google/common/graph/e$a;->a:Lcom/google/common/graph/e;
 
     invoke-interface {v0, p1}, Lcom/google/common/graph/e0;->a(Ljava/lang/Object;)Ljava/util/Set;
@@ -73,7 +70,6 @@
 .method public bridge synthetic b(Ljava/lang/Object;)Ljava/lang/Iterable;
     .locals 0
 
-    .line 1
     invoke-virtual {p0, p1}, Lcom/google/common/graph/e$a;->b(Ljava/lang/Object;)Ljava/util/Set;
 
     move-result-object p1
@@ -91,7 +87,6 @@
         }
     .end annotation
 
-    .line 2
     iget-object v0, p0, Lcom/google/common/graph/e$a;->a:Lcom/google/common/graph/e;
 
     invoke-interface {v0, p1}, Lcom/google/common/graph/e0;->b(Ljava/lang/Object;)Ljava/util/Set;
@@ -112,7 +107,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/graph/e$a;->a:Lcom/google/common/graph/e;
 
     invoke-interface {v0}, Lcom/google/common/graph/e0;->y()Z
@@ -121,14 +115,12 @@
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-super {p0}, Lcom/google/common/graph/c;->c()Ljava/util/Set;
 
     move-result-object v0
 
     return-object v0
 
-    .line 3
     :cond_0
     new-instance v0, Lcom/google/common/graph/e$a$a;
 
@@ -140,7 +132,6 @@
 .method public e()Z
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/graph/e$a;->a:Lcom/google/common/graph/e;
 
     invoke-interface {v0}, Lcom/google/common/graph/e0;->e()Z
@@ -160,7 +151,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/graph/e$a;->a:Lcom/google/common/graph/e;
 
     invoke-interface {v0}, Lcom/google/common/graph/e0;->h()Lcom/google/common/graph/ElementOrder;
@@ -173,7 +163,6 @@
 .method public j()Z
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/graph/e$a;->a:Lcom/google/common/graph/e;
 
     invoke-interface {v0}, Lcom/google/common/graph/e0;->j()Z
@@ -193,7 +182,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/graph/e$a;->a:Lcom/google/common/graph/e;
 
     invoke-interface {v0, p1}, Lcom/google/common/graph/e0;->k(Ljava/lang/Object;)Ljava/util/Set;
@@ -213,7 +201,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/graph/e$a;->a:Lcom/google/common/graph/e;
 
     invoke-interface {v0}, Lcom/google/common/graph/e0;->m()Ljava/util/Set;
@@ -233,7 +220,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {}, Lcom/google/common/graph/ElementOrder;->i()Lcom/google/common/graph/ElementOrder;
 
     move-result-object v0

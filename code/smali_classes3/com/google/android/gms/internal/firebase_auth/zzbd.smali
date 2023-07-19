@@ -47,21 +47,16 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Lcom/google/android/gms/internal/firebase_auth/zzbc;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/google/android/gms/internal/firebase_auth/zzbd;->zzhe:Lcom/google/android/gms/internal/firebase_auth/zzaz;
 
-    .line 3
     iput-object p2, p0, Lcom/google/android/gms/internal/firebase_auth/zzbd;->zzhf:[Ljava/lang/Object;
 
     const/4 p1, 0x0
 
-    .line 4
     iput p1, p0, Lcom/google/android/gms/internal/firebase_auth/zzbd;->zzhg:I
 
-    .line 5
     iput p4, p0, Lcom/google/android/gms/internal/firebase_auth/zzbd;->size:I
 
     return-void
@@ -70,7 +65,6 @@
 .method static synthetic zza(Lcom/google/android/gms/internal/firebase_auth/zzbd;)I
     .locals 0
 
-    .line 2
     iget p0, p0, Lcom/google/android/gms/internal/firebase_auth/zzbd;->size:I
 
     return p0
@@ -79,7 +73,6 @@
 .method static synthetic zzb(Lcom/google/android/gms/internal/firebase_auth/zzbd;)[Ljava/lang/Object;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lcom/google/android/gms/internal/firebase_auth/zzbd;->zzhf:[Ljava/lang/Object;
 
     return-object p0
@@ -90,29 +83,24 @@
 .method public final contains(Ljava/lang/Object;)Z
     .locals 3
 
-    .line 1
     instance-of v0, p1, Ljava/util/Map$Entry;
 
     const/4 v1, 0x0
 
     if-eqz v0, :cond_0
 
-    .line 2
     check-cast p1, Ljava/util/Map$Entry;
 
-    .line 3
     invoke-interface {p1}, Ljava/util/Map$Entry;->getKey()Ljava/lang/Object;
 
     move-result-object v0
 
-    .line 4
     invoke-interface {p1}, Ljava/util/Map$Entry;->getValue()Ljava/lang/Object;
 
     move-result-object p1
 
     if-eqz p1, :cond_0
 
-    .line 5
     iget-object v2, p0, Lcom/google/android/gms/internal/firebase_auth/zzbd;->zzhe:Lcom/google/android/gms/internal/firebase_auth/zzaz;
 
     invoke-virtual {v2, v0}, Lcom/google/android/gms/internal/firebase_auth/zzaz;->get(Ljava/lang/Object;)Ljava/lang/Object;
@@ -136,7 +124,6 @@
 .method public final synthetic iterator()Ljava/util/Iterator;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/android/gms/internal/firebase_auth/zzav;->zzbz()Lcom/google/android/gms/internal/firebase_auth/b0;
 
     move-result-object v0
@@ -147,7 +134,6 @@
 .method public final size()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lcom/google/android/gms/internal/firebase_auth/zzbd;->size:I
 
     return v0
@@ -156,7 +142,6 @@
 .method final zza([Ljava/lang/Object;I)I
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/android/gms/internal/firebase_auth/zzav;->zzcd()Lcom/google/android/gms/internal/firebase_auth/zzay;
 
     move-result-object v0
@@ -179,7 +164,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/android/gms/internal/firebase_auth/zzav;->zzcd()Lcom/google/android/gms/internal/firebase_auth/zzay;
 
     move-result-object v0
@@ -204,7 +188,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/google/android/gms/internal/firebase_auth/zzbg;
 
     invoke-direct {v0, p0}, Lcom/google/android/gms/internal/firebase_auth/zzbg;-><init>(Lcom/google/android/gms/internal/firebase_auth/zzbd;)V

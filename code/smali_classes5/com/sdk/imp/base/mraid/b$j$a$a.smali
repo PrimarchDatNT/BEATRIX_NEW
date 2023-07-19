@@ -25,7 +25,6 @@
 .method constructor <init>(Lcom/sdk/imp/base/mraid/b$j$a;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/sdk/imp/base/mraid/b$j$a$a;->a:Lcom/sdk/imp/base/mraid/b$j$a;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -38,7 +37,6 @@
 .method public run()V
     .locals 6
 
-    .line 1
     iget-object v0, p0, Lcom/sdk/imp/base/mraid/b$j$a$a;->a:Lcom/sdk/imp/base/mraid/b$j$a;
 
     invoke-static {v0}, Lcom/sdk/imp/base/mraid/b$j$a;->a(Lcom/sdk/imp/base/mraid/b$j$a;)[Landroid/view/View;
@@ -54,7 +52,6 @@
 
     aget-object v3, v0, v2
 
-    .line 2
     invoke-virtual {v3}, Landroid/view/View;->getHeight()I
 
     move-result v4
@@ -69,7 +66,6 @@
 
     goto :goto_1
 
-    .line 3
     :cond_0
     invoke-virtual {v3}, Landroid/view/View;->getViewTreeObserver()Landroid/view/ViewTreeObserver;
 
@@ -83,7 +79,6 @@
 
     goto :goto_2
 
-    .line 4
     :cond_1
     :goto_1
     iget-object v3, p0, Lcom/sdk/imp/base/mraid/b$j$a$a;->a:Lcom/sdk/imp/base/mraid/b$j$a;

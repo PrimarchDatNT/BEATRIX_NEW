@@ -44,10 +44,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/google/android/gms/internal/ads/wz;->a:Ljava/util/Map;
 
     return-void
@@ -63,15 +61,12 @@
         }
     .end annotation
 
-    .line 1
     check-cast p1, Lcom/google/android/gms/internal/ads/fh1;
 
-    .line 2
     iget-object v0, p1, Lcom/google/android/gms/internal/ads/fh1;->b:Lcom/google/android/gms/internal/ads/dh1;
 
     iget-object v0, v0, Lcom/google/android/gms/internal/ads/dh1;->c:Ljava/util/List;
 
-    .line 3
     invoke-interface {v0}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
     move-result-object v0
@@ -90,7 +85,6 @@
 
     check-cast v1, Lcom/google/android/gms/internal/ads/ch1;
 
-    .line 4
     iget-object v2, p0, Lcom/google/android/gms/internal/ads/wz;->a:Ljava/util/Map;
 
     iget-object v3, v1, Lcom/google/android/gms/internal/ads/ch1;->a:Ljava/lang/String;
@@ -101,7 +95,6 @@
 
     if-eqz v2, :cond_0
 
-    .line 5
     iget-object v2, p0, Lcom/google/android/gms/internal/ads/wz;->a:Ljava/util/Map;
 
     iget-object v3, v1, Lcom/google/android/gms/internal/ads/ch1;->a:Ljava/lang/String;
@@ -118,7 +111,6 @@
 
     goto :goto_0
 
-    .line 6
     :cond_1
     invoke-static {p1}, Lcom/google/android/gms/internal/ads/jq1;->g(Ljava/lang/Object;)Lcom/google/android/gms/internal/ads/rq1;
 

@@ -36,22 +36,16 @@
     .annotation build Landroidx/annotation/VisibleForTesting;
     .end annotation
 
-    .line 3
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 4
     iput-object p1, p0, Lcom/google/android/datatransport/runtime/scheduling/jobscheduling/a;->a:Landroid/content/Context;
 
-    .line 5
     iput-object p2, p0, Lcom/google/android/datatransport/runtime/scheduling/jobscheduling/a;->b:Lcom/google/android/datatransport/k/x/j/c;
 
-    .line 6
     iput-object p3, p0, Lcom/google/android/datatransport/runtime/scheduling/jobscheduling/a;->c:Landroid/app/AlarmManager;
 
-    .line 7
     iput-object p4, p0, Lcom/google/android/datatransport/runtime/scheduling/jobscheduling/a;->e:Lcom/google/android/datatransport/k/y/a;
 
-    .line 8
     iput-object p5, p0, Lcom/google/android/datatransport/runtime/scheduling/jobscheduling/a;->d:Lcom/google/android/datatransport/runtime/scheduling/jobscheduling/SchedulerConfig;
 
     return-void
@@ -62,7 +56,6 @@
 
     const-string v0, "alarm"
 
-    .line 1
     invoke-virtual {p1, v0}, Landroid/content/Context;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
 
     move-result-object v0
@@ -81,7 +74,6 @@
 
     move-object v6, p4
 
-    .line 2
     invoke-direct/range {v1 .. v6}, Lcom/google/android/datatransport/runtime/scheduling/jobscheduling/a;-><init>(Landroid/content/Context;Lcom/google/android/datatransport/k/x/j/c;Landroid/app/AlarmManager;Lcom/google/android/datatransport/k/y/a;Lcom/google/android/datatransport/runtime/scheduling/jobscheduling/SchedulerConfig;)V
 
     return-void
@@ -92,12 +84,10 @@
 .method public a(Lcom/google/android/datatransport/k/n;I)V
     .locals 9
 
-    .line 1
     new-instance v0, Landroid/net/Uri$Builder;
 
     invoke-direct {v0}, Landroid/net/Uri$Builder;-><init>()V
 
-    .line 2
     invoke-virtual {p1}, Lcom/google/android/datatransport/k/n;->b()Ljava/lang/String;
 
     move-result-object v1
@@ -106,7 +96,6 @@
 
     invoke-virtual {v0, v2, v1}, Landroid/net/Uri$Builder;->appendQueryParameter(Ljava/lang/String;Ljava/lang/String;)Landroid/net/Uri$Builder;
 
-    .line 3
     invoke-virtual {p1}, Lcom/google/android/datatransport/k/n;->d()Lcom/google/android/datatransport/Priority;
 
     move-result-object v1
@@ -121,10 +110,8 @@
 
     const-string v2, "priority"
 
-    .line 4
     invoke-virtual {v0, v2, v1}, Landroid/net/Uri$Builder;->appendQueryParameter(Ljava/lang/String;Ljava/lang/String;)Landroid/net/Uri$Builder;
 
-    .line 5
     invoke-virtual {p1}, Lcom/google/android/datatransport/k/n;->c()[B
 
     move-result-object v1
@@ -133,7 +120,6 @@
 
     if-eqz v1, :cond_0
 
-    .line 6
     invoke-virtual {p1}, Lcom/google/android/datatransport/k/n;->c()[B
 
     move-result-object v1
@@ -144,10 +130,8 @@
 
     const-string v3, "extras"
 
-    .line 7
     invoke-virtual {v0, v3, v1}, Landroid/net/Uri$Builder;->appendQueryParameter(Ljava/lang/String;Ljava/lang/String;)Landroid/net/Uri$Builder;
 
-    .line 8
     :cond_0
     new-instance v1, Landroid/content/Intent;
 
@@ -157,7 +141,6 @@
 
     invoke-direct {v1, v3, v4}, Landroid/content/Intent;-><init>(Landroid/content/Context;Ljava/lang/Class;)V
 
-    .line 9
     invoke-virtual {v0}, Landroid/net/Uri$Builder;->build()Landroid/net/Uri;
 
     move-result-object v0
@@ -166,10 +149,8 @@
 
     const-string v0, "attemptNumber"
 
-    .line 10
     invoke-virtual {v1, v0, p2}, Landroid/content/Intent;->putExtra(Ljava/lang/String;I)Landroid/content/Intent;
 
-    .line 11
     invoke-virtual {p0, v1}, Lcom/google/android/datatransport/runtime/scheduling/jobscheduling/a;->b(Landroid/content/Intent;)Z
 
     move-result v0
@@ -180,12 +161,10 @@
 
     const-string p2, "Upload for context %s is already scheduled. Returning..."
 
-    .line 12
     invoke-static {v3, p2, p1}, Lcom/google/android/datatransport/k/v/a;->b(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Object;)V
 
     return-void
 
-    .line 13
     :cond_1
     iget-object v0, p0, Lcom/google/android/datatransport/runtime/scheduling/jobscheduling/a;->b:Lcom/google/android/datatransport/k/x/j/c;
 
@@ -193,10 +172,8 @@
 
     move-result-wide v4
 
-    .line 14
     iget-object v0, p0, Lcom/google/android/datatransport/runtime/scheduling/jobscheduling/a;->d:Lcom/google/android/datatransport/runtime/scheduling/jobscheduling/SchedulerConfig;
 
-    .line 15
     invoke-virtual {p1}, Lcom/google/android/datatransport/k/n;->d()Lcom/google/android/datatransport/Priority;
 
     move-result-object v6
@@ -213,7 +190,6 @@
 
     const/4 p1, 0x1
 
-    .line 16
     invoke-static {v6, v7}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
 
     move-result-object v8
@@ -222,14 +198,12 @@
 
     const/4 p1, 0x2
 
-    .line 17
     invoke-static {v4, v5}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
 
     move-result-object v4
 
     aput-object v4, v0, p1
 
-    .line 18
     invoke-static {p2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object p1
@@ -240,29 +214,24 @@
 
     const-string p1, "Scheduling upload for context %s in %dms(Backend next call timestamp %d). Attempt %d"
 
-    .line 19
     invoke-static {v3, p1, v0}, Lcom/google/android/datatransport/k/v/a;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
-    .line 20
     iget-object p1, p0, Lcom/google/android/datatransport/runtime/scheduling/jobscheduling/a;->a:Landroid/content/Context;
 
     invoke-static {p1, v2, v1, v2}, Landroid/app/PendingIntent;->getBroadcast(Landroid/content/Context;ILandroid/content/Intent;I)Landroid/app/PendingIntent;
 
     move-result-object p1
 
-    .line 21
     iget-object v0, p0, Lcom/google/android/datatransport/runtime/scheduling/jobscheduling/a;->c:Landroid/app/AlarmManager;
 
     iget-object v1, p0, Lcom/google/android/datatransport/runtime/scheduling/jobscheduling/a;->e:Lcom/google/android/datatransport/k/y/a;
 
-    .line 22
     invoke-interface {v1}, Lcom/google/android/datatransport/k/y/a;->a()J
 
     move-result-wide v1
 
     add-long/2addr v1, v6
 
-    .line 23
     invoke-virtual {v0, p2, v1, v2, p1}, Landroid/app/AlarmManager;->set(IJLandroid/app/PendingIntent;)V
 
     return-void
@@ -273,7 +242,6 @@
     .annotation build Landroidx/annotation/VisibleForTesting;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/datatransport/runtime/scheduling/jobscheduling/a;->a:Landroid/content/Context;
 
     const/4 v1, 0x0

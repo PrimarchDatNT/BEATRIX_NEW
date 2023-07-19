@@ -52,7 +52,6 @@
 
     const-string v1, "it"
 
-    .line 1
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {p1}, Landroid/view/View;->getTag()Ljava/lang/Object;
@@ -67,7 +66,6 @@
 
     if-eq v1, v2, :cond_2
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/mixlayer/MixLayerFragment$b;->c:Lcom/commsource/studio/mixlayer/MixLayerFragment;
 
     invoke-virtual {p1}, Landroid/view/View;->getTag()Ljava/lang/Object;
@@ -87,7 +85,6 @@
 
     invoke-static {v1, p1}, Lcom/commsource/studio/mixlayer/MixLayerFragment;->F(Lcom/commsource/studio/mixlayer/MixLayerFragment;Lcom/meitu/mtpasterrender/MTPasterRenderFilter$MtPsBlendType;)V
 
-    .line 3
     iget-object p1, p0, Lcom/commsource/studio/mixlayer/MixLayerFragment$b;->c:Lcom/commsource/studio/mixlayer/MixLayerFragment;
 
     invoke-static {p1}, Lcom/commsource/studio/mixlayer/MixLayerFragment;->z(Lcom/commsource/studio/mixlayer/MixLayerFragment;)Lcom/commsource/studio/bean/FocusLayerInfo;
@@ -104,7 +101,6 @@
 
     invoke-virtual {p1, v1}, Lcom/commsource/studio/bean/FocusLayerInfo;->setMixMode(Lcom/meitu/mtpasterrender/MTPasterRenderFilter$MtPsBlendType;)V
 
-    .line 4
     :cond_1
     iget-object p1, p0, Lcom/commsource/studio/mixlayer/MixLayerFragment$b;->c:Lcom/commsource/studio/mixlayer/MixLayerFragment;
 
@@ -122,12 +118,10 @@
 
     invoke-static {p1, v1, v3, v2, v3}, Lcom/commsource/editengine/d;->u(Lcom/commsource/editengine/d;ZLcotlin/jvm/u/a;ILjava/lang/Object;)V
 
-    .line 5
     iget-object p1, p0, Lcom/commsource/studio/mixlayer/MixLayerFragment$b;->c:Lcom/commsource/studio/mixlayer/MixLayerFragment;
 
     invoke-static {p1}, Lcom/commsource/studio/mixlayer/MixLayerFragment;->E(Lcom/commsource/studio/mixlayer/MixLayerFragment;)V
 
-    .line 6
     iget-object p1, p0, Lcom/commsource/studio/mixlayer/MixLayerFragment$b;->c:Lcom/commsource/studio/mixlayer/MixLayerFragment;
 
     invoke-static {p1}, Lcom/commsource/studio/mixlayer/MixLayerFragment;->A(Lcom/commsource/studio/mixlayer/MixLayerFragment;)Lcom/commsource/studio/mixlayer/ImageStyleViewModel;
@@ -142,7 +136,6 @@
 
     invoke-virtual {p1, v1}, Lcom/commsource/studio/mixlayer/ImageStyleViewModel;->j0(Lcom/meitu/mtpasterrender/MTPasterRenderFilter$MtPsBlendType;)V
 
-    .line 7
     :cond_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

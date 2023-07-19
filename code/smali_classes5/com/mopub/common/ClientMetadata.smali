@@ -72,7 +72,6 @@
 .method static constructor <clinit>()V
     .locals 0
 
-    .line 1
     invoke-static {}, Lcom/mopub/common/ClientMetadata;->ajc$preClinit()V
 
     return-void
@@ -85,13 +84,10 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     invoke-static {p1}, Lcom/mopub/common/Preconditions;->checkNotNull(Ljava/lang/Object;)V
 
-    .line 3
     invoke-virtual {p1}, Landroid/content/Context;->getApplicationContext()Landroid/content/Context;
 
     move-result-object p1
@@ -100,7 +96,6 @@
 
     const-string v0, "connectivity"
 
-    .line 4
     invoke-virtual {p1, v0}, Landroid/content/Context;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
 
     move-result-object v0
@@ -109,49 +104,40 @@
 
     iput-object v0, p0, Lcom/mopub/common/ClientMetadata;->mConnectivityManager:Landroid/net/ConnectivityManager;
 
-    .line 5
     sget-object v0, Landroid/os/Build;->MANUFACTURER:Ljava/lang/String;
 
     iput-object v0, p0, Lcom/mopub/common/ClientMetadata;->mDeviceManufacturer:Ljava/lang/String;
 
-    .line 6
     sget-object v0, Landroid/os/Build;->MODEL:Ljava/lang/String;
 
     iput-object v0, p0, Lcom/mopub/common/ClientMetadata;->mDeviceModel:Ljava/lang/String;
 
-    .line 7
     sget-object v0, Landroid/os/Build;->PRODUCT:Ljava/lang/String;
 
     iput-object v0, p0, Lcom/mopub/common/ClientMetadata;->mDeviceProduct:Ljava/lang/String;
 
-    .line 8
     sget-object v0, Landroid/os/Build$VERSION;->RELEASE:Ljava/lang/String;
 
     iput-object v0, p0, Lcom/mopub/common/ClientMetadata;->mDeviceOsVersion:Ljava/lang/String;
 
-    .line 9
     sget-object v0, Landroid/os/Build;->HARDWARE:Ljava/lang/String;
 
     iput-object v0, p0, Lcom/mopub/common/ClientMetadata;->mDeviceHardware:Ljava/lang/String;
 
     const-string v0, "5.18.0"
 
-    .line 10
     iput-object v0, p0, Lcom/mopub/common/ClientMetadata;->mSdkVersion:Ljava/lang/String;
 
-    .line 11
     invoke-static {p1}, Lcom/mopub/common/ClientMetadata;->getAppVersionFromContext(Landroid/content/Context;)Ljava/lang/String;
 
     move-result-object v0
 
     iput-object v0, p0, Lcom/mopub/common/ClientMetadata;->mAppVersion:Ljava/lang/String;
 
-    .line 12
     invoke-virtual {p1}, Landroid/content/Context;->getPackageManager()Landroid/content/pm/PackageManager;
 
     move-result-object v0
 
-    .line 13
     invoke-virtual {p1}, Landroid/content/Context;->getPackageName()Ljava/lang/String;
 
     move-result-object p1
@@ -162,7 +148,6 @@
 
     const/4 v2, 0x0
 
-    .line 14
     :try_start_0
     invoke-virtual {v0, p1, v1}, Landroid/content/pm/PackageManager;->getApplicationInfo(Ljava/lang/String;I)Landroid/content/pm/ApplicationInfo;
 
@@ -178,7 +163,6 @@
     :goto_0
     if-eqz p1, :cond_0
 
-    .line 15
     invoke-virtual {v0, p1}, Landroid/content/pm/PackageManager;->getApplicationLabel(Landroid/content/pm/ApplicationInfo;)Ljava/lang/CharSequence;
 
     move-result-object p1
@@ -187,13 +171,11 @@
 
     iput-object p1, p0, Lcom/mopub/common/ClientMetadata;->mAppName:Ljava/lang/String;
 
-    .line 16
     :cond_0
     iget-object p1, p0, Lcom/mopub/common/ClientMetadata;->mContext:Landroid/content/Context;
 
     const-string v0, "phone"
 
-    .line 17
     invoke-virtual {p1, v0}, Landroid/content/Context;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
 
     move-result-object p1
@@ -202,21 +184,18 @@
 
     if-eqz p1, :cond_3
 
-    .line 18
     invoke-virtual {p1}, Landroid/telephony/TelephonyManager;->getNetworkOperator()Ljava/lang/String;
 
     move-result-object v0
 
     iput-object v0, p0, Lcom/mopub/common/ClientMetadata;->mNetworkOperatorForUrl:Ljava/lang/String;
 
-    .line 19
     invoke-virtual {p1}, Landroid/telephony/TelephonyManager;->getNetworkOperator()Ljava/lang/String;
 
     move-result-object v0
 
     iput-object v0, p0, Lcom/mopub/common/ClientMetadata;->mNetworkOperator:Ljava/lang/String;
 
-    .line 20
     invoke-virtual {p1}, Landroid/telephony/TelephonyManager;->getPhoneType()I
 
     move-result v0
@@ -227,28 +206,24 @@
 
     if-ne v0, v1, :cond_1
 
-    .line 21
     invoke-virtual {p1}, Landroid/telephony/TelephonyManager;->getSimState()I
 
     move-result v0
 
     if-ne v0, v3, :cond_1
 
-    .line 22
     invoke-virtual {p1}, Landroid/telephony/TelephonyManager;->getSimOperator()Ljava/lang/String;
 
     move-result-object v0
 
     iput-object v0, p0, Lcom/mopub/common/ClientMetadata;->mNetworkOperatorForUrl:Ljava/lang/String;
 
-    .line 23
     invoke-virtual {p1}, Landroid/telephony/TelephonyManager;->getSimOperator()Ljava/lang/String;
 
     move-result-object v0
 
     iput-object v0, p0, Lcom/mopub/common/ClientMetadata;->mSimOperator:Ljava/lang/String;
 
-    .line 24
     :cond_1
     invoke-static {}, Lcom/mopub/common/MoPub;->canCollectPersonalInformation()Z
 
@@ -256,14 +231,12 @@
 
     if-eqz v0, :cond_2
 
-    .line 25
     invoke-virtual {p1}, Landroid/telephony/TelephonyManager;->getNetworkCountryIso()Ljava/lang/String;
 
     move-result-object v0
 
     iput-object v0, p0, Lcom/mopub/common/ClientMetadata;->mIsoCountryCode:Ljava/lang/String;
 
-    .line 26
     invoke-virtual {p1}, Landroid/telephony/TelephonyManager;->getSimCountryIso()Ljava/lang/String;
 
     move-result-object v0
@@ -275,13 +248,10 @@
     :cond_2
     const-string v0, ""
 
-    .line 27
     iput-object v0, p0, Lcom/mopub/common/ClientMetadata;->mIsoCountryCode:Ljava/lang/String;
 
-    .line 28
     iput-object v0, p0, Lcom/mopub/common/ClientMetadata;->mSimIsoCountryCode:Ljava/lang/String;
 
-    .line 29
     :goto_1
     :try_start_1
     invoke-virtual {p1}, Landroid/telephony/TelephonyManager;->getNetworkOperatorName()Ljava/lang/String;
@@ -290,14 +260,12 @@
 
     iput-object v0, p0, Lcom/mopub/common/ClientMetadata;->mNetworkOperatorName:Ljava/lang/String;
 
-    .line 30
     invoke-virtual {p1}, Landroid/telephony/TelephonyManager;->getSimState()I
 
     move-result v0
 
     if-ne v0, v3, :cond_3
 
-    .line 31
     invoke-virtual {p1}, Landroid/telephony/TelephonyManager;->getSimOperatorName()Ljava/lang/String;
 
     move-result-object p1
@@ -308,14 +276,11 @@
 
     goto :goto_2
 
-    .line 32
     :catch_1
     iput-object v2, p0, Lcom/mopub/common/ClientMetadata;->mNetworkOperatorName:Ljava/lang/String;
 
-    .line 33
     iput-object v2, p0, Lcom/mopub/common/ClientMetadata;->mSimOperatorName:Ljava/lang/String;
 
-    .line 34
     :cond_3
     :goto_2
     new-instance p1, Lcom/mopub/common/privacy/MoPubIdentifier;
@@ -332,7 +297,6 @@
 .method private static synthetic ajc$preClinit()V
     .locals 9
 
-    .line 1
     new-instance v8, Ln/a/b/c/e;
 
     const-class v0, Lcom/mopub/common/ClientMetadata;
@@ -384,7 +348,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     sput-object v0, Lcom/mopub/common/ClientMetadata;->sInstance:Lcom/mopub/common/ClientMetadata;
 
     return-void
@@ -393,7 +356,6 @@
 .method static final synthetic getActiveNetworkInfo_aroundBody0(Lcom/mopub/common/ClientMetadata;Landroid/net/ConnectivityManager;Lorg/aspectj/lang/c;)Landroid/net/NetworkInfo;
     .locals 0
 
-    .line 1
     invoke-virtual {p1}, Landroid/net/ConnectivityManager;->getActiveNetworkInfo()Landroid/net/NetworkInfo;
 
     move-result-object p0
@@ -406,13 +368,11 @@
 
     const/4 v0, 0x0
 
-    .line 1
     :try_start_0
     invoke-virtual {p0}, Landroid/content/Context;->getPackageName()Ljava/lang/String;
 
     move-result-object v1
 
-    .line 2
     invoke-virtual {p0}, Landroid/content/Context;->getPackageManager()Landroid/content/pm/PackageManager;
 
     move-result-object p0
@@ -421,14 +381,12 @@
 
     move-result-object p0
 
-    .line 3
     iget-object p0, p0, Landroid/content/pm/PackageInfo;->versionName:Ljava/lang/String;
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
     return-object p0
 
-    .line 4
     :catch_0
     sget-object p0, Lcom/mopub/common/logging/MoPubLog$SdkLogEvent;->CUSTOM:Lcom/mopub/common/logging/MoPubLog$SdkLogEvent;
 
@@ -456,7 +414,6 @@
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
-    .line 1
     invoke-static {}, Ljava/util/Locale;->getDefault()Ljava/util/Locale;
 
     move-result-object v0
@@ -469,7 +426,6 @@
 
     move-result-object v0
 
-    .line 2
     invoke-virtual {p0}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
 
     move-result-object p0
@@ -482,7 +438,6 @@
 
     if-eqz p0, :cond_0
 
-    .line 3
     invoke-virtual {p0}, Ljava/util/Locale;->getLanguage()Ljava/lang/String;
 
     move-result-object v1
@@ -497,7 +452,6 @@
 
     if-nez v1, :cond_0
 
-    .line 4
     invoke-virtual {p0}, Ljava/util/Locale;->getLanguage()Ljava/lang/String;
 
     move-result-object p0
@@ -515,21 +469,17 @@
     .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
-    .line 7
     sget-object v0, Lcom/mopub/common/ClientMetadata;->sInstance:Lcom/mopub/common/ClientMetadata;
 
     if-nez v0, :cond_0
 
-    .line 8
     const-class v1, Lcom/mopub/common/ClientMetadata;
 
     monitor-enter v1
 
-    .line 9
     :try_start_0
     sget-object v0, Lcom/mopub/common/ClientMetadata;->sInstance:Lcom/mopub/common/ClientMetadata;
 
-    .line 10
     monitor-exit v1
 
     goto :goto_0
@@ -557,31 +507,25 @@
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
-    .line 1
     sget-object v0, Lcom/mopub/common/ClientMetadata;->sInstance:Lcom/mopub/common/ClientMetadata;
 
     if-nez v0, :cond_1
 
-    .line 2
     const-class v1, Lcom/mopub/common/ClientMetadata;
 
     monitor-enter v1
 
-    .line 3
     :try_start_0
     sget-object v0, Lcom/mopub/common/ClientMetadata;->sInstance:Lcom/mopub/common/ClientMetadata;
 
     if-nez v0, :cond_0
 
-    .line 4
     new-instance v0, Lcom/mopub/common/ClientMetadata;
 
     invoke-direct {v0, p0}, Lcom/mopub/common/ClientMetadata;-><init>(Landroid/content/Context;)V
 
-    .line 5
     sput-object v0, Lcom/mopub/common/ClientMetadata;->sInstance:Lcom/mopub/common/ClientMetadata;
 
-    .line 6
     :cond_0
     monitor-exit v1
 
@@ -609,16 +553,13 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    .line 1
     const-class v0, Lcom/mopub/common/ClientMetadata;
 
     monitor-enter v0
 
-    .line 2
     :try_start_0
     sput-object p0, Lcom/mopub/common/ClientMetadata;->sInstance:Lcom/mopub/common/ClientMetadata;
 
-    .line 3
     monitor-exit v0
 
     return-void
@@ -643,7 +584,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/common/ClientMetadata;->mContext:Landroid/content/Context;
 
     const-string v1, "android.permission.ACCESS_NETWORK_STATE"
@@ -654,12 +594,10 @@
 
     if-nez v0, :cond_0
 
-    .line 2
     sget-object v0, Lcom/mopub/common/ClientMetadata$MoPubNetworkType;->UNKNOWN:Lcom/mopub/common/ClientMetadata$MoPubNetworkType;
 
     return-object v0
 
-    .line 3
     :cond_0
     iget-object v0, p0, Lcom/mopub/common/ClientMetadata;->mConnectivityManager:Landroid/net/ConnectivityManager;
 
@@ -707,7 +645,6 @@
 
     if-eqz v0, :cond_8
 
-    .line 4
     invoke-virtual {v0}, Landroid/net/NetworkInfo;->isConnected()Z
 
     move-result v1
@@ -716,7 +653,6 @@
 
     goto :goto_1
 
-    .line 5
     :cond_1
     sget v1, Landroid/os/Build$VERSION;->SDK_INT:I
 
@@ -724,7 +660,6 @@
 
     if-ge v1, v2, :cond_2
 
-    .line 6
     invoke-virtual {v0}, Landroid/net/NetworkInfo;->getType()I
 
     move-result v0
@@ -733,12 +668,10 @@
 
     if-ne v0, v1, :cond_4
 
-    .line 7
     sget-object v0, Lcom/mopub/common/ClientMetadata$MoPubNetworkType;->ETHERNET:Lcom/mopub/common/ClientMetadata$MoPubNetworkType;
 
     return-object v0
 
-    .line 8
     :cond_2
     iget-object v0, p0, Lcom/mopub/common/ClientMetadata;->mConnectivityManager:Landroid/net/ConnectivityManager;
 
@@ -746,7 +679,6 @@
 
     move-result-object v0
 
-    .line 9
     array-length v1, v0
 
     const/4 v2, 0x0
@@ -756,7 +688,6 @@
 
     aget-object v4, v0, v2
 
-    .line 10
     iget-object v7, p0, Lcom/mopub/common/ClientMetadata;->mConnectivityManager:Landroid/net/ConnectivityManager;
 
     invoke-virtual {v7, v4}, Landroid/net/ConnectivityManager;->getNetworkCapabilities(Landroid/net/Network;)Landroid/net/NetworkCapabilities;
@@ -765,14 +696,12 @@
 
     if-eqz v4, :cond_3
 
-    .line 11
     invoke-virtual {v4, v3}, Landroid/net/NetworkCapabilities;->hasTransport(I)Z
 
     move-result v4
 
     if-eqz v4, :cond_3
 
-    .line 12
     sget-object v0, Lcom/mopub/common/ClientMetadata$MoPubNetworkType;->ETHERNET:Lcom/mopub/common/ClientMetadata$MoPubNetworkType;
 
     return-object v0
@@ -782,7 +711,6 @@
 
     goto :goto_0
 
-    .line 13
     :cond_4
     iget-object v0, p0, Lcom/mopub/common/ClientMetadata;->mConnectivityManager:Landroid/net/ConnectivityManager;
 
@@ -792,19 +720,16 @@
 
     if-eqz v0, :cond_5
 
-    .line 14
     invoke-virtual {v0}, Landroid/net/NetworkInfo;->isConnected()Z
 
     move-result v0
 
     if-eqz v0, :cond_5
 
-    .line 15
     sget-object v0, Lcom/mopub/common/ClientMetadata$MoPubNetworkType;->WIFI:Lcom/mopub/common/ClientMetadata$MoPubNetworkType;
 
     return-object v0
 
-    .line 16
     :cond_5
     iget-object v0, p0, Lcom/mopub/common/ClientMetadata;->mConnectivityManager:Landroid/net/ConnectivityManager;
 
@@ -814,14 +739,12 @@
 
     if-eqz v0, :cond_7
 
-    .line 17
     invoke-virtual {v0}, Landroid/net/NetworkInfo;->isConnected()Z
 
     move-result v1
 
     if-eqz v1, :cond_7
 
-    .line 18
     invoke-virtual {v0}, Landroid/net/NetworkInfo;->getSubtype()I
 
     move-result v0
@@ -832,42 +755,35 @@
 
     packed-switch v0, :pswitch_data_0
 
-    .line 19
     sget-object v0, Lcom/mopub/common/ClientMetadata$MoPubNetworkType;->MOBILE:Lcom/mopub/common/ClientMetadata$MoPubNetworkType;
 
     return-object v0
 
-    .line 20
     :pswitch_0
     sget-object v0, Lcom/mopub/common/ClientMetadata$MoPubNetworkType;->GGGG:Lcom/mopub/common/ClientMetadata$MoPubNetworkType;
 
     return-object v0
 
-    .line 21
     :pswitch_1
     sget-object v0, Lcom/mopub/common/ClientMetadata$MoPubNetworkType;->GGG:Lcom/mopub/common/ClientMetadata$MoPubNetworkType;
 
     return-object v0
 
-    .line 22
     :pswitch_2
     sget-object v0, Lcom/mopub/common/ClientMetadata$MoPubNetworkType;->GG:Lcom/mopub/common/ClientMetadata$MoPubNetworkType;
 
     return-object v0
 
-    .line 23
     :cond_6
     sget-object v0, Lcom/mopub/common/ClientMetadata$MoPubNetworkType;->GGGGG:Lcom/mopub/common/ClientMetadata$MoPubNetworkType;
 
     return-object v0
 
-    .line 24
     :cond_7
     sget-object v0, Lcom/mopub/common/ClientMetadata$MoPubNetworkType;->UNKNOWN:Lcom/mopub/common/ClientMetadata$MoPubNetworkType;
 
     return-object v0
 
-    .line 25
     :cond_8
     :goto_1
     sget-object v0, Lcom/mopub/common/ClientMetadata$MoPubNetworkType;->UNKNOWN:Lcom/mopub/common/ClientMetadata$MoPubNetworkType;
@@ -899,7 +815,6 @@
 .method public getAppName()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/common/ClientMetadata;->mAppName:Ljava/lang/String;
 
     return-object v0
@@ -908,7 +823,6 @@
 .method public getAppPackageName()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/common/ClientMetadata;->mAppPackageName:Ljava/lang/String;
 
     return-object v0
@@ -917,7 +831,6 @@
 .method public getAppVersion()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/common/ClientMetadata;->mAppVersion:Ljava/lang/String;
 
     return-object v0
@@ -926,7 +839,6 @@
 .method public getDensity()F
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/common/ClientMetadata;->mContext:Landroid/content/Context;
 
     invoke-virtual {v0}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
@@ -945,7 +857,6 @@
 .method public getDeviceDimensions()Landroid/graphics/Point;
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/common/ClientMetadata;->mContext:Landroid/content/Context;
 
     invoke-static {v0}, Lcom/mopub/common/Preconditions$NoThrow;->checkNotNull(Ljava/lang/Object;)Z
@@ -954,7 +865,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 2
     iget-object v0, p0, Lcom/mopub/common/ClientMetadata;->mContext:Landroid/content/Context;
 
     invoke-static {v0}, Lcom/mopub/common/util/DeviceUtils;->getDeviceDimensions(Landroid/content/Context;)Landroid/graphics/Point;
@@ -963,7 +873,6 @@
 
     return-object v0
 
-    .line 3
     :cond_0
     new-instance v0, Landroid/graphics/Point;
 
@@ -977,7 +886,6 @@
 .method public getDeviceHardware()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/common/ClientMetadata;->mDeviceHardware:Ljava/lang/String;
 
     return-object v0
@@ -986,7 +894,6 @@
 .method public getDeviceLocale()Ljava/util/Locale;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/common/ClientMetadata;->mContext:Landroid/content/Context;
 
     invoke-virtual {v0}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
@@ -1005,7 +912,6 @@
 .method public getDeviceManufacturer()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/common/ClientMetadata;->mDeviceManufacturer:Ljava/lang/String;
 
     return-object v0
@@ -1014,7 +920,6 @@
 .method public getDeviceModel()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/common/ClientMetadata;->mDeviceModel:Ljava/lang/String;
 
     return-object v0
@@ -1023,7 +928,6 @@
 .method public getDeviceOsVersion()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/common/ClientMetadata;->mDeviceOsVersion:Ljava/lang/String;
 
     return-object v0
@@ -1032,7 +936,6 @@
 .method public getDeviceProduct()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/common/ClientMetadata;->mDeviceProduct:Ljava/lang/String;
 
     return-object v0
@@ -1041,7 +944,6 @@
 .method public getDeviceScreenHeightDip()I
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/common/ClientMetadata;->mContext:Landroid/content/Context;
 
     invoke-static {v0}, Lcom/mopub/common/util/Dips;->screenHeightAsIntDips(Landroid/content/Context;)I
@@ -1054,7 +956,6 @@
 .method public getDeviceScreenWidthDip()I
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/common/ClientMetadata;->mContext:Landroid/content/Context;
 
     invoke-static {v0}, Lcom/mopub/common/util/Dips;->screenWidthAsIntDips(Landroid/content/Context;)I
@@ -1067,7 +968,6 @@
 .method public getIsoCountryCode()Ljava/lang/String;
     .locals 1
 
-    .line 1
     invoke-static {}, Lcom/mopub/common/MoPub;->canCollectPersonalInformation()Z
 
     move-result v0
@@ -1090,7 +990,6 @@
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/common/ClientMetadata;->moPubIdentifier:Lcom/mopub/common/privacy/MoPubIdentifier;
 
     return-object v0
@@ -1099,7 +998,6 @@
 .method public getNetworkOperator()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/common/ClientMetadata;->mNetworkOperator:Ljava/lang/String;
 
     return-object v0
@@ -1108,7 +1006,6 @@
 .method public getNetworkOperatorForUrl()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/common/ClientMetadata;->mNetworkOperatorForUrl:Ljava/lang/String;
 
     return-object v0
@@ -1117,7 +1014,6 @@
 .method public getNetworkOperatorName()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/common/ClientMetadata;->mNetworkOperatorName:Ljava/lang/String;
 
     return-object v0
@@ -1126,7 +1022,6 @@
 .method public getOrientationString()Ljava/lang/String;
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/common/ClientMetadata;->mContext:Landroid/content/Context;
 
     invoke-virtual {v0}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
@@ -1175,7 +1070,6 @@
 .method public getSdkVersion()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/common/ClientMetadata;->mSdkVersion:Ljava/lang/String;
 
     return-object v0
@@ -1184,7 +1078,6 @@
 .method public getSimIsoCountryCode()Ljava/lang/String;
     .locals 1
 
-    .line 1
     invoke-static {}, Lcom/mopub/common/MoPub;->canCollectPersonalInformation()Z
 
     move-result v0
@@ -1205,7 +1098,6 @@
 .method public getSimOperator()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/common/ClientMetadata;->mSimOperator:Ljava/lang/String;
 
     return-object v0
@@ -1214,7 +1106,6 @@
 .method public getSimOperatorName()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/common/ClientMetadata;->mSimOperatorName:Ljava/lang/String;
 
     return-object v0
@@ -1223,19 +1114,16 @@
 .method public repopulateCountryData()V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/common/ClientMetadata;->mContext:Landroid/content/Context;
 
     const-string v1, "phone"
 
-    .line 2
     invoke-virtual {v0, v1}, Landroid/content/Context;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
 
     move-result-object v0
 
     check-cast v0, Landroid/telephony/TelephonyManager;
 
-    .line 3
     invoke-static {}, Lcom/mopub/common/MoPub;->canCollectPersonalInformation()Z
 
     move-result v1
@@ -1244,14 +1132,12 @@
 
     if-eqz v0, :cond_0
 
-    .line 4
     invoke-virtual {v0}, Landroid/telephony/TelephonyManager;->getNetworkCountryIso()Ljava/lang/String;
 
     move-result-object v1
 
     iput-object v1, p0, Lcom/mopub/common/ClientMetadata;->mIsoCountryCode:Ljava/lang/String;
 
-    .line 5
     invoke-virtual {v0}, Landroid/telephony/TelephonyManager;->getSimCountryIso()Ljava/lang/String;
 
     move-result-object v0

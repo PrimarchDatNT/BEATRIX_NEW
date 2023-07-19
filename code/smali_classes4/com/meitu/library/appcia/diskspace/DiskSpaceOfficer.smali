@@ -77,17 +77,14 @@
 
     const/high16 v1, 0x100000
 
-    .line 1
     sput v1, Lcom/meitu/library/appcia/diskspace/DiskSpaceOfficer;->F:I
 
     const/4 v1, 0x1
 
-    .line 2
     sput v1, Lcom/meitu/library/appcia/diskspace/DiskSpaceOfficer;->G:I
 
     const/4 v1, 0x2
 
-    .line 3
     sput v1, Lcom/meitu/library/appcia/diskspace/DiskSpaceOfficer;->H:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -110,14 +107,12 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     iput-object p1, p0, Lcom/meitu/library/appcia/diskspace/DiskSpaceOfficer;->D:Landroid/content/Context;
 
     iput-object p2, p0, Lcom/meitu/library/appcia/diskspace/DiskSpaceOfficer;->E:Lcom/meitu/library/appcia/f/e/d;
 
-    .line 2
     new-instance p1, Ljava/util/concurrent/atomic/AtomicBoolean;
 
     const/4 p2, 0x0
@@ -126,19 +121,16 @@
 
     iput-object p1, p0, Lcom/meitu/library/appcia/diskspace/DiskSpaceOfficer;->w:Ljava/util/concurrent/atomic/AtomicBoolean;
 
-    .line 3
     new-instance p1, Ljava/util/concurrent/atomic/AtomicBoolean;
 
     invoke-direct {p1, p2}, Ljava/util/concurrent/atomic/AtomicBoolean;-><init>(Z)V
 
     iput-object p1, p0, Lcom/meitu/library/appcia/diskspace/DiskSpaceOfficer;->x:Ljava/util/concurrent/atomic/AtomicBoolean;
 
-    .line 4
     sget p1, Lcom/meitu/library/appcia/diskspace/DiskSpaceOfficer;->G:I
 
     iput p1, p0, Lcom/meitu/library/appcia/diskspace/DiskSpaceOfficer;->B:I
 
-    .line 5
     new-instance p1, Ljava/util/HashMap;
 
     invoke-direct {p1}, Ljava/util/HashMap;-><init>()V
@@ -155,7 +147,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/library/appcia/diskspace/DiskSpaceOfficer;->y:J
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -170,7 +161,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/library/appcia/diskspace/DiskSpaceOfficer;->A:J
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -185,7 +175,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/library/appcia/diskspace/DiskSpaceOfficer;->z:J
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -200,7 +189,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/meitu/library/appcia/diskspace/DiskSpaceOfficer;->C:Ljava/util/HashMap;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -215,7 +203,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/meitu/library/appcia/diskspace/DiskSpaceOfficer;->D:Landroid/content/Context;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -230,7 +217,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/meitu/library/appcia/diskspace/DiskSpaceOfficer;->E:Lcom/meitu/library/appcia/f/e/d;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -245,7 +231,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget v1, Lcom/meitu/library/appcia/diskspace/DiskSpaceOfficer;->H:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -260,7 +245,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget v1, Lcom/meitu/library/appcia/diskspace/DiskSpaceOfficer;->G:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -275,7 +259,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/meitu/library/appcia/diskspace/DiskSpaceOfficer;->x:Ljava/util/concurrent/atomic/AtomicBoolean;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -290,7 +273,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget p0, p0, Lcom/meitu/library/appcia/diskspace/DiskSpaceOfficer;->B:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -305,7 +287,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/meitu/library/appcia/diskspace/DiskSpaceOfficer;->w:Ljava/util/concurrent/atomic/AtomicBoolean;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -320,7 +301,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-wide p1, p0, Lcom/meitu/library/appcia/diskspace/DiskSpaceOfficer;->y:J
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -335,7 +315,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-wide p1, p0, Lcom/meitu/library/appcia/diskspace/DiskSpaceOfficer;->A:J
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -350,7 +329,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-wide p1, p0, Lcom/meitu/library/appcia/diskspace/DiskSpaceOfficer;->z:J
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -365,7 +343,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/library/appcia/diskspace/DiskSpaceOfficer;->C:Ljava/util/HashMap;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -380,7 +357,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/library/appcia/diskspace/DiskSpaceOfficer;->w:Ljava/util/concurrent/atomic/AtomicBoolean;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -395,7 +371,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/meitu/library/appcia/diskspace/DiskSpaceOfficer;->B:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -412,7 +387,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/library/appcia/diskspace/DiskSpaceOfficer;->w:Ljava/util/concurrent/atomic/AtomicBoolean;
 
     invoke-virtual {v1}, Ljava/util/concurrent/atomic/AtomicBoolean;->get()Z
@@ -421,12 +395,10 @@
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 3
     :cond_0
     iget-object v1, p0, Lcom/meitu/library/appcia/diskspace/DiskSpaceOfficer;->w:Ljava/util/concurrent/atomic/AtomicBoolean;
 
@@ -434,14 +406,12 @@
 
     invoke-virtual {v1, v2}, Ljava/util/concurrent/atomic/AtomicBoolean;->set(Z)V
 
-    .line 4
     sget v1, Landroid/os/Build$VERSION;->SDK_INT:I
 
     const/16 v2, 0x17
 
     if-lt v1, v2, :cond_1
 
-    .line 5
     invoke-static {}, Landroid/os/Looper;->getMainLooper()Landroid/os/Looper;
 
     move-result-object v1
@@ -458,7 +428,6 @@
 
     goto :goto_0
 
-    .line 6
     :cond_1
     new-instance v1, Landroid/os/Handler;
 
@@ -474,7 +443,6 @@
 
     invoke-virtual {v1, v2}, Landroid/os/Handler;->post(Ljava/lang/Runnable;)Z
 
-    .line 7
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -488,7 +456,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -503,7 +470,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const-string v0, "Disk"
@@ -518,7 +484,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/library/appcia/diskspace/DiskSpaceOfficer;->x:Ljava/util/concurrent/atomic/AtomicBoolean;
 
     invoke-virtual {v1}, Ljava/util/concurrent/atomic/AtomicBoolean;->get()Z
@@ -580,12 +545,10 @@
 
     invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v2, Lorg/json/JSONObject;
 
     invoke-direct {v2}, Lorg/json/JSONObject;-><init>()V
 
-    .line 2
     sget-object v3, Lcom/meitu/library/appcia/f/e/b;->n:Lcom/meitu/library/appcia/f/e/b$a;
 
     invoke-virtual {v3}, Lcom/meitu/library/appcia/f/e/b$a;->j()Ljava/lang/String;
@@ -596,7 +559,6 @@
 
     invoke-virtual {v2, v4, v5}, Lorg/json/JSONObject;->put(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;
 
-    .line 3
     invoke-virtual {v3}, Lcom/meitu/library/appcia/f/e/b$a;->i()Ljava/lang/String;
 
     move-result-object v3
@@ -605,17 +567,14 @@
 
     invoke-virtual {v2, v3, v4}, Lorg/json/JSONObject;->put(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;
 
-    .line 4
     new-instance v3, Lorg/json/JSONArray;
 
     invoke-direct {v3}, Lorg/json/JSONArray;-><init>()V
 
-    .line 5
     new-instance v4, Lorg/json/JSONObject;
 
     invoke-direct {v4}, Lorg/json/JSONObject;-><init>()V
 
-    .line 6
     new-instance v5, Lorg/json/JSONObject;
 
     invoke-direct {v5}, Lorg/json/JSONObject;-><init>()V
@@ -624,29 +583,24 @@
 
     const/4 v7, 0x1
 
-    .line 7
     invoke-virtual {v5, v6, v7}, Lorg/json/JSONObject;->put(Ljava/lang/String;I)Lorg/json/JSONObject;
 
     const-string v6, "sdk_version"
 
     const-string v7, "1002020"
 
-    .line 8
     invoke-virtual {v5, v6, v7}, Lorg/json/JSONObject;->put(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;
 
-    .line 9
     iget v6, v0, Lcom/meitu/library/appcia/diskspace/DiskSpaceOfficer;->B:I
 
     const-string v7, "function"
 
     invoke-virtual {v5, v7, v6}, Lorg/json/JSONObject;->put(Ljava/lang/String;I)Lorg/json/JSONObject;
 
-    .line 10
     new-instance v6, Lorg/json/JSONObject;
 
     invoke-direct {v6}, Lorg/json/JSONObject;-><init>()V
 
-    .line 11
     iget-wide v7, v0, Lcom/meitu/library/appcia/diskspace/DiskSpaceOfficer;->y:J
 
     long-to-double v7, v7
@@ -661,7 +615,6 @@
 
     div-double/2addr v7, v12
 
-    .line 12
     iget-wide v12, v0, Lcom/meitu/library/appcia/diskspace/DiskSpaceOfficer;->z:J
 
     long-to-double v12, v12
@@ -672,7 +625,6 @@
 
     div-double/2addr v12, v14
 
-    .line 13
     iget-wide v14, v0, Lcom/meitu/library/appcia/diskspace/DiskSpaceOfficer;->A:J
 
     long-to-double v14, v14
@@ -685,7 +637,6 @@
 
     div-double/2addr v14, v1
 
-    .line 14
     iget-wide v1, v0, Lcom/meitu/library/appcia/diskspace/DiskSpaceOfficer;->y:J
 
     iget-wide v9, v0, Lcom/meitu/library/appcia/diskspace/DiskSpaceOfficer;->z:J
@@ -704,30 +655,24 @@
 
     const-string v9, "packaing_size"
 
-    .line 15
     invoke-virtual {v6, v9, v7, v8}, Lorg/json/JSONObject;->put(Ljava/lang/String;D)Lorg/json/JSONObject;
 
     const-string v7, "file_size"
 
-    .line 16
     invoke-virtual {v6, v7, v12, v13}, Lorg/json/JSONObject;->put(Ljava/lang/String;D)Lorg/json/JSONObject;
 
     const-string v7, "cache_size"
 
-    .line 17
     invoke-virtual {v6, v7, v14, v15}, Lorg/json/JSONObject;->put(Ljava/lang/String;D)Lorg/json/JSONObject;
 
     const-string v7, "disk_occupy_size"
 
-    .line 18
     invoke-virtual {v6, v7, v1, v2}, Lorg/json/JSONObject;->put(Ljava/lang/String;D)Lorg/json/JSONObject;
 
-    .line 19
     new-instance v1, Lorg/json/JSONObject;
 
     invoke-direct {v1}, Lorg/json/JSONObject;-><init>()V
 
-    .line 20
     iget-object v2, v0, Lcom/meitu/library/appcia/diskspace/DiskSpaceOfficer;->C:Ljava/util/HashMap;
 
     invoke-virtual {v2}, Ljava/util/HashMap;->entrySet()Ljava/util/Set;
@@ -763,7 +708,6 @@
 
     check-cast v7, Ljava/lang/Long;
 
-    .line 21
     invoke-virtual {v7}, Ljava/lang/Long;->longValue()J
 
     move-result-wide v9
@@ -787,13 +731,10 @@
     :cond_0
     const-string v2, "document_list"
 
-    .line 22
     invoke-virtual {v6, v2, v1}, Lorg/json/JSONObject;->put(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;
 
-    .line 23
     invoke-virtual {v3, v4}, Lorg/json/JSONArray;->put(Ljava/lang/Object;)Lorg/json/JSONArray;
 
-    .line 24
     sget-object v1, Lcom/meitu/library/appcia/f/e/b;->n:Lcom/meitu/library/appcia/f/e/b$a;
 
     invoke-virtual {v1}, Lcom/meitu/library/appcia/f/e/b$a;->g()Ljava/lang/String;
@@ -802,14 +743,12 @@
 
     invoke-virtual {v4, v2, v5}, Lorg/json/JSONObject;->put(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;
 
-    .line 25
     invoke-virtual {v1}, Lcom/meitu/library/appcia/f/e/b$a;->h()Ljava/lang/String;
 
     move-result-object v2
 
     invoke-virtual {v4, v2, v6}, Lorg/json/JSONObject;->put(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;
 
-    .line 26
     invoke-virtual {v1}, Lcom/meitu/library/appcia/f/e/b$a;->f()Ljava/lang/String;
 
     move-result-object v1
@@ -828,24 +767,20 @@
 
     const-string v5, "report over"
 
-    .line 27
     invoke-static {v4, v1, v5, v3}, Lcom/meitu/library/appcia/f/d/a;->a(Ljava/lang/String;Ljava/lang/Throwable;Ljava/lang/String;[Ljava/lang/Object;)V
 
-    .line 28
     iget v1, v0, Lcom/meitu/library/appcia/diskspace/DiskSpaceOfficer;->B:I
 
     sget v3, Lcom/meitu/library/appcia/diskspace/DiskSpaceOfficer;->G:I
 
     if-ne v1, v3, :cond_1
 
-    .line 29
     iget-object v1, v0, Lcom/meitu/library/appcia/diskspace/DiskSpaceOfficer;->D:Landroid/content/Context;
 
     invoke-static {v1}, Lcom/meitu/library/appcia/f/f/d;->b(Landroid/content/Context;)Lcom/meitu/library/appcia/f/f/d;
 
     move-result-object v1
 
-    .line 30
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v3
@@ -856,13 +791,11 @@
 
     const-string v4, "ssdlt"
 
-    .line 31
     invoke-virtual {v1, v4, v3}, Lcom/meitu/library/appcia/f/f/d;->c(Ljava/lang/String;Ljava/lang/Object;)V
 
     :cond_1
     const v1, 0xcd3b
 
-    .line 32
     invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v2
@@ -875,7 +808,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/meitu/library/appcia/f/c/a;->b()Lcotlinx/coroutines/m0;
 
     move-result-object v1
@@ -894,7 +826,6 @@
 
     invoke-static/range {v1 .. v6}, Lcotlinx/coroutines/f;->f(Lcotlinx/coroutines/m0;Lcotlin/coroutines/CoroutineContext;Lcotlinx/coroutines/CoroutineStart;Lcotlin/jvm/u/p;ILjava/lang/Object;)Lcotlinx/coroutines/c2;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const/4 v0, 0x0
@@ -909,14 +840,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/library/appcia/diskspace/DiskSpaceOfficer;->x:Ljava/util/concurrent/atomic/AtomicBoolean;
 
     const/4 v2, 0x1
 
     invoke-virtual {v1, v2}, Ljava/util/concurrent/atomic/AtomicBoolean;->set(Z)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -929,7 +858,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -950,7 +878,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -971,14 +898,12 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/library/appcia/diskspace/DiskSpaceOfficer;->D:Landroid/content/Context;
 
     const/4 v2, 0x0
 
     invoke-static {v1, p1, v2}, Lcom/meitu/library/appcia/diskspace/c/a;->d(Landroid/content/Context;Lcom/meitu/library/appcia/diskspace/c/a$b;Z)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -991,7 +916,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/library/appcia/diskspace/DiskSpaceOfficer;->D:Landroid/content/Context;
 
     new-instance v2, Lcom/meitu/library/appcia/diskspace/DiskSpaceOfficer$c;
@@ -1002,7 +926,6 @@
 
     invoke-static {v1, v2, v3}, Lcom/meitu/library/appcia/diskspace/c/a;->d(Landroid/content/Context;Lcom/meitu/library/appcia/diskspace/c/a$b;Z)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

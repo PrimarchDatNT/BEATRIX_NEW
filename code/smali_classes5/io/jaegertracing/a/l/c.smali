@@ -15,7 +15,6 @@
 
     new-array v0, v0, [C
 
-    .line 1
     fill-array-data v0, :array_0
 
     sput-object v0, Lio/jaegertracing/a/l/c;->a:[C
@@ -46,7 +45,6 @@
 .method constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -55,7 +53,6 @@
 .method static a(Ljava/lang/String;)Ljava/lang/Long;
     .locals 2
 
-    .line 1
     invoke-virtual {p0}, Ljava/lang/String;->length()I
 
     move-result v0
@@ -82,7 +79,6 @@
     :cond_1
     const/4 v0, 0x0
 
-    .line 2
     :goto_0
     invoke-static {p0, v0}, Lio/jaegertracing/a/l/c;->b(Ljava/lang/String;I)Ljava/lang/Long;
 
@@ -102,7 +98,6 @@
 
     add-int/lit8 v0, p1, 0x10
 
-    .line 1
     invoke-virtual {p0}, Ljava/lang/String;->length()I
 
     move-result v1
@@ -116,7 +111,6 @@
     :goto_0
     if-ge p1, v0, :cond_2
 
-    .line 2
     invoke-virtual {p0, p1}, Ljava/lang/String;->charAt(I)C
 
     move-result v3
@@ -167,7 +161,6 @@
 
     return-object p0
 
-    .line 3
     :cond_2
     invoke-static {v1, v2}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
 
@@ -185,10 +178,8 @@
 
     const/4 v1, 0x0
 
-    .line 1
     invoke-static {v0, v1, p0, p1}, Lio/jaegertracing/a/l/c;->f([CIJ)V
 
-    .line 2
     new-instance p0, Ljava/lang/String;
 
     invoke-direct {p0, v0}, Ljava/lang/String;-><init>([C)V
@@ -214,7 +205,6 @@
     :cond_0
     const/16 v1, 0x10
 
-    .line 1
     :goto_0
     new-array v1, v1, [C
 
@@ -222,7 +212,6 @@
 
     if-eqz v3, :cond_1
 
-    .line 2
     invoke-static {v1, v2, p0, p1}, Lio/jaegertracing/a/l/c;->f([CIJ)V
 
     goto :goto_1
@@ -230,11 +219,9 @@
     :cond_1
     const/4 v0, 0x0
 
-    .line 3
     :goto_1
     invoke-static {v1, v0, p2, p3}, Lio/jaegertracing/a/l/c;->f([CIJ)V
 
-    .line 4
     new-instance p0, Ljava/lang/String;
 
     invoke-direct {p0, v1}, Ljava/lang/String;-><init>([C)V
@@ -247,7 +234,6 @@
 
     add-int/lit8 v0, p1, 0x0
 
-    .line 1
     sget-object v1, Lio/jaegertracing/a/l/c;->a:[C
 
     shr-int/lit8 v2, p2, 0x4
@@ -262,7 +248,6 @@
 
     and-int/lit8 p2, p2, 0xf
 
-    .line 2
     aget-char p2, v1, p2
 
     aput-char p2, p0, p1
@@ -287,7 +272,6 @@
 
     int-to-byte v1, v2
 
-    .line 1
     invoke-static {p0, v0, v1}, Lio/jaegertracing/a/l/c;->e([CIB)V
 
     add-int/lit8 v0, p1, 0x2
@@ -302,7 +286,6 @@
 
     int-to-byte v1, v2
 
-    .line 2
     invoke-static {p0, v0, v1}, Lio/jaegertracing/a/l/c;->e([CIB)V
 
     add-int/lit8 v0, p1, 0x4
@@ -317,7 +300,6 @@
 
     int-to-byte v1, v2
 
-    .line 3
     invoke-static {p0, v0, v1}, Lio/jaegertracing/a/l/c;->e([CIB)V
 
     add-int/lit8 v0, p1, 0x6
@@ -332,7 +314,6 @@
 
     int-to-byte v1, v2
 
-    .line 4
     invoke-static {p0, v0, v1}, Lio/jaegertracing/a/l/c;->e([CIB)V
 
     add-int/lit8 v0, p1, 0x8
@@ -347,7 +328,6 @@
 
     int-to-byte v1, v2
 
-    .line 5
     invoke-static {p0, v0, v1}, Lio/jaegertracing/a/l/c;->e([CIB)V
 
     add-int/lit8 v0, p1, 0xa
@@ -362,7 +342,6 @@
 
     int-to-byte v1, v2
 
-    .line 6
     invoke-static {p0, v0, v1}, Lio/jaegertracing/a/l/c;->e([CIB)V
 
     add-int/lit8 v0, p1, 0xc
@@ -377,7 +356,6 @@
 
     int-to-byte v1, v2
 
-    .line 7
     invoke-static {p0, v0, v1}, Lio/jaegertracing/a/l/c;->e([CIB)V
 
     add-int/lit8 p1, p1, 0xe
@@ -388,7 +366,6 @@
 
     int-to-byte p2, p3
 
-    .line 8
     invoke-static {p0, p1, p2}, Lio/jaegertracing/a/l/c;->e([CIB)V
 
     return-void

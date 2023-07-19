@@ -25,7 +25,6 @@
 .method constructor <init>(Lcom/meitu/library/f/a/e$a;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/library/f/a/e$a$a;->a:Lcom/meitu/library/f/a/e$a;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -42,7 +41,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/library/f/a/e$a$a;->a:Lcom/meitu/library/f/a/e$a;
 
     iget v2, v1, Lcom/meitu/library/f/a/e$a;->L:I
@@ -69,7 +67,6 @@
 
     iget-object v1, v1, Lcom/meitu/library/f/a/e$a;->M:Lcom/meitu/library/f/a/e;
 
-    .line 2
     invoke-static {v1}, Lcom/meitu/library/f/a/e;->L0(Lcom/meitu/library/f/a/e;)I
 
     move-result v1
@@ -82,21 +79,18 @@
 
     iget-object v1, v1, Lcom/meitu/library/f/a/e$a;->M:Lcom/meitu/library/f/a/e;
 
-    .line 3
     invoke-static {v1}, Lcom/meitu/library/f/a/e;->S0(Lcom/meitu/library/f/a/e;)I
 
     move-result v1
 
     if-eq v1, v2, :cond_0
 
-    .line 4
     iget-object v1, p0, Lcom/meitu/library/f/a/e$a$a;->a:Lcom/meitu/library/f/a/e$a;
 
     iget-object v1, v1, Lcom/meitu/library/f/a/e$a;->M:Lcom/meitu/library/f/a/e;
 
     invoke-virtual {v1}, Lcom/meitu/library/f/a/e;->p2()V
 
-    .line 5
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

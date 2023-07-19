@@ -24,7 +24,6 @@
 .method constructor <init>(Lf/k/i0/b/b;Ljava/lang/String;Ljava/lang/String;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lf/k/i0/b/b$c;->p:Lf/k/i0/b/b;
 
     iput-object p3, p0, Lf/k/i0/b/b$c;->g:Ljava/lang/String;
@@ -43,14 +42,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lf/k/i0/b/b;->c()Ljava/lang/Object;
 
     move-result-object v1
 
     monitor-enter v1
 
-    .line 2
     :try_start_0
     iget-object v2, p0, Lf/k/i0/b/b$c;->p:Lf/k/i0/b/b;
 
@@ -66,7 +63,6 @@
 
     if-eqz v2, :cond_0
 
-    .line 3
     invoke-interface {v2}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
     move-result-object v2
@@ -84,7 +80,6 @@
 
     check-cast v3, Lcom/meitu/template/bean/Chat;
 
-    .line 4
     iget-object v4, p0, Lf/k/i0/b/b$c;->p:Lf/k/i0/b/b;
 
     invoke-static {v4}, Lf/k/i0/b/b;->d(Lf/k/i0/b/b;)Lf/k/i0/a/h;
@@ -95,7 +90,6 @@
 
     goto :goto_0
 
-    .line 5
     :cond_0
     iget-object v2, p0, Lf/k/i0/b/b$c;->p:Lf/k/i0/b/b;
 
@@ -109,12 +103,10 @@
 
     invoke-interface {v2, v3}, Lf/k/i0/a/h;->K1([Lcom/meitu/template/bean/Chat;)V
 
-    .line 6
     monitor-exit v1
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -122,7 +114,6 @@
     :catchall_0
     move-exception v2
 
-    .line 8
     :try_start_1
     monitor-exit v1
     :try_end_1

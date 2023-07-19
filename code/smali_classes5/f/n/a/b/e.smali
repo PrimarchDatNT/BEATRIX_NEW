@@ -37,7 +37,6 @@
 
     const-string v3, "115.231.182.136"
 
-    .line 1
     invoke-static {v0, v1, v2, v3}, Lf/n/a/b/e;->b(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Lf/n/a/b/e;
 
     move-result-object v0
@@ -52,7 +51,6 @@
 
     const-string v3, "106.38.227.28"
 
-    .line 2
     invoke-static {v0, v1, v2, v3}, Lf/n/a/b/e;->b(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Lf/n/a/b/e;
 
     move-result-object v0
@@ -67,7 +65,6 @@
 
     const-string v3, "14.152.37.7"
 
-    .line 3
     invoke-static {v0, v1, v2, v3}, Lf/n/a/b/e;->b(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Lf/n/a/b/e;
 
     move-result-object v0
@@ -82,14 +79,12 @@
 
     const-string v3, "23.236.102.2"
 
-    .line 4
     invoke-static {v0, v1, v2, v3}, Lf/n/a/b/e;->b(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Lf/n/a/b/e;
 
     move-result-object v0
 
     sput-object v0, Lf/n/a/b/e;->d:Lf/n/a/b/e;
 
-    .line 5
     new-instance v0, Lf/n/a/b/a;
 
     const/4 v1, 0x0
@@ -100,7 +95,6 @@
 
     sput-object v0, Lf/n/a/b/e;->e:Lf/n/a/b/a;
 
-    .line 6
     new-instance v0, Lf/n/a/b/a;
 
     const/4 v1, 0x1
@@ -115,7 +109,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -124,7 +117,6 @@
 .method public static a(Lcom/qiniu/android/dns/a;)V
     .locals 3
 
-    .line 1
     sget-object v0, Lf/n/a/b/e;->a:Lf/n/a/b/e;
 
     const-string v1, ""
@@ -135,14 +127,12 @@
 
     invoke-virtual {v2, p0}, Lf/n/a/b/d;->a(Lcom/qiniu/android/dns/a;)V
 
-    .line 2
     invoke-virtual {v0, v1}, Lf/n/a/b/e;->e(Ljava/lang/String;)Lf/n/a/b/d;
 
     move-result-object v0
 
     invoke-virtual {v0, p0}, Lf/n/a/b/d;->a(Lcom/qiniu/android/dns/a;)V
 
-    .line 3
     sget-object v0, Lf/n/a/b/e;->b:Lf/n/a/b/e;
 
     invoke-virtual {v0, v1}, Lf/n/a/b/e;->d(Ljava/lang/String;)Lf/n/a/b/d;
@@ -151,14 +141,12 @@
 
     invoke-virtual {v2, p0}, Lf/n/a/b/d;->a(Lcom/qiniu/android/dns/a;)V
 
-    .line 4
     invoke-virtual {v0, v1}, Lf/n/a/b/e;->e(Ljava/lang/String;)Lf/n/a/b/d;
 
     move-result-object v0
 
     invoke-virtual {v0, p0}, Lf/n/a/b/d;->a(Lcom/qiniu/android/dns/a;)V
 
-    .line 5
     sget-object v0, Lf/n/a/b/e;->c:Lf/n/a/b/e;
 
     invoke-virtual {v0, v1}, Lf/n/a/b/e;->d(Ljava/lang/String;)Lf/n/a/b/d;
@@ -167,7 +155,6 @@
 
     invoke-virtual {v2, p0}, Lf/n/a/b/d;->a(Lcom/qiniu/android/dns/a;)V
 
-    .line 6
     invoke-virtual {v0, v1}, Lf/n/a/b/e;->e(Ljava/lang/String;)Lf/n/a/b/d;
 
     move-result-object v0
@@ -192,7 +179,6 @@
 
     aput-object p3, v0, p2
 
-    .line 1
     new-instance p2, Lf/n/a/b/d;
 
     new-instance p3, Ljava/lang/StringBuilder;
@@ -211,7 +197,6 @@
 
     invoke-direct {p2, p0, v0}, Lf/n/a/b/d;-><init>(Ljava/lang/String;[Ljava/lang/String;)V
 
-    .line 2
     new-instance p0, Lf/n/a/b/d;
 
     new-instance p3, Ljava/lang/StringBuilder;
@@ -228,7 +213,6 @@
 
     invoke-direct {p0, p1, v0}, Lf/n/a/b/d;-><init>(Ljava/lang/String;[Ljava/lang/String;)V
 
-    .line 3
     new-instance p1, Lf/n/a/b/c;
 
     invoke-direct {p1, p2, p0}, Lf/n/a/b/c;-><init>(Lf/n/a/b/d;Lf/n/a/b/d;)V

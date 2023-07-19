@@ -29,26 +29,22 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
     new-instance v0, Lcotlinx/coroutines/c1;
 
     invoke-direct {v0}, Lcotlinx/coroutines/c1;-><init>()V
 
     sput-object v0, Lcotlinx/coroutines/c1;->d:Lcotlinx/coroutines/c1;
 
-    .line 2
     invoke-static {}, Lcotlinx/coroutines/h0;->a()Lcotlinx/coroutines/CoroutineDispatcher;
 
     move-result-object v0
 
     sput-object v0, Lcotlinx/coroutines/c1;->a:Lcotlinx/coroutines/CoroutineDispatcher;
 
-    .line 3
     sget-object v0, Lcotlinx/coroutines/o3;->b:Lcotlinx/coroutines/o3;
 
     sput-object v0, Lcotlinx/coroutines/c1;->b:Lcotlinx/coroutines/CoroutineDispatcher;
 
-    .line 4
     sget-object v0, Lcotlinx/coroutines/scheduling/b;->K:Lcotlinx/coroutines/scheduling/b;
 
     invoke-virtual {v0}, Lcotlinx/coroutines/scheduling/b;->O()Lcotlinx/coroutines/CoroutineDispatcher;
@@ -63,7 +59,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -106,7 +101,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     sget-object v0, Lcotlinx/coroutines/c1;->a:Lcotlinx/coroutines/CoroutineDispatcher;
 
     return-object v0
@@ -117,7 +111,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     sget-object v0, Lcotlinx/coroutines/c1;->c:Lcotlinx/coroutines/CoroutineDispatcher;
 
     return-object v0
@@ -128,7 +121,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     sget-object v0, Lcotlinx/coroutines/internal/r;->b:Lcotlinx/coroutines/m2;
 
     return-object v0
@@ -139,7 +131,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     sget-object v0, Lcotlinx/coroutines/c1;->b:Lcotlinx/coroutines/CoroutineDispatcher;
 
     return-object v0

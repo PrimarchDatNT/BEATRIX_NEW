@@ -52,10 +52,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Ldagger/internal/p;->a:Lj/a/c;
 
     return-void
@@ -76,7 +74,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Ldagger/internal/p;
 
     invoke-static {p0}, Ldagger/internal/o;->b(Ljava/lang/Object;)Ljava/lang/Object;
@@ -102,7 +99,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Ldagger/internal/p;->a:Lj/a/c;
 
     invoke-static {v0}, Ldagger/internal/f;->a(Lj/a/c;)Lg/e;
@@ -115,7 +111,6 @@
 .method public bridge synthetic get()Ljava/lang/Object;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Ldagger/internal/p;->b()Lg/e;
 
     move-result-object v0

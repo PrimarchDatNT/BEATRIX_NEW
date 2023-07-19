@@ -28,15 +28,12 @@
 .method public constructor <init>(Lcom/commsource/beautymain/activity/BeautyHelpActivity$e;Landroid/view/View;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/beautymain/activity/BeautyHelpActivity$e$a;->d:Lcom/commsource/beautymain/activity/BeautyHelpActivity$e;
 
-    .line 2
     invoke-direct {p0, p2}, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;-><init>(Landroid/view/View;)V
 
     sget p1, Lcom/res/provider/ResID;->beauty_help_iv:I
 
-    .line 3
     invoke-virtual {p2, p1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object p1
@@ -47,7 +44,6 @@
 
     sget p1, Lcom/res/provider/ResID;->beauty_help_title_tv:I
 
-    .line 4
     invoke-virtual {p2, p1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object p1
@@ -58,7 +54,6 @@
 
     sget p1, Lcom/res/provider/ResID;->beauty_help_text_tv:I
 
-    .line 5
     invoke-virtual {p2, p1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object p1
@@ -67,7 +62,6 @@
 
     iput-object p1, p0, Lcom/commsource/beautymain/activity/BeautyHelpActivity$e$a;->c:Landroid/widget/TextView;
 
-    .line 6
     invoke-static {}, Lcom/meitu/library/p/f/i;->z()I
 
     move-result p1
@@ -80,7 +74,6 @@
 
     sub-int/2addr p1, p2
 
-    .line 7
     iget-object p2, p0, Lcom/commsource/beautymain/activity/BeautyHelpActivity$e$a;->a:Landroid/widget/ImageView;
 
     invoke-virtual {p2}, Landroid/widget/ImageView;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
@@ -101,7 +94,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/beautymain/activity/BeautyHelpActivity$e$a;->d:Lcom/commsource/beautymain/activity/BeautyHelpActivity$e;
 
     invoke-static {v1}, Lcom/commsource/beautymain/activity/BeautyHelpActivity$e;->a(Lcom/commsource/beautymain/activity/BeautyHelpActivity$e;)Landroid/content/Context;
@@ -118,7 +110,6 @@
 
     iget-object v2, v2, Lcom/commsource/beautymain/activity/BeautyHelpActivity$e;->b:Lcom/commsource/beautymain/activity/BeautyHelpActivity;
 
-    .line 2
     invoke-static {v2}, Lcom/commsource/beautymain/activity/BeautyHelpActivity;->M0(Lcom/commsource/beautymain/activity/BeautyHelpActivity;)[Ljava/lang/String;
 
     move-result-object v2
@@ -131,12 +122,10 @@
 
     sget v2, Lcom/res/provider/ResDRAWABLE;->ic_studio_help_default:I
 
-    .line 3
     invoke-virtual {v1, v2}, Lcom/commsource/util/u0$d;->q(I)Lcom/commsource/util/u0$d;
 
     move-result-object v1
 
-    .line 4
     invoke-static {}, Lcom/meitu/library/p/f/i;->z()I
 
     move-result v2
@@ -155,17 +144,14 @@
 
     const/16 v2, 0xa
 
-    .line 5
     invoke-virtual {v1, v2}, Lcom/commsource/util/u0$d;->t(I)Lcom/commsource/util/u0$d;
 
     move-result-object v1
 
     iget-object v2, p0, Lcom/commsource/beautymain/activity/BeautyHelpActivity$e$a;->a:Landroid/widget/ImageView;
 
-    .line 6
     invoke-virtual {v1, v2}, Lcom/commsource/util/u0$d;->e(Landroid/widget/ImageView;)V
 
-    .line 7
     iget-object v1, p0, Lcom/commsource/beautymain/activity/BeautyHelpActivity$e$a;->d:Lcom/commsource/beautymain/activity/BeautyHelpActivity$e;
 
     iget-object v1, v1, Lcom/commsource/beautymain/activity/BeautyHelpActivity$e;->b:Lcom/commsource/beautymain/activity/BeautyHelpActivity;
@@ -180,14 +166,12 @@
 
     if-ne v1, v2, :cond_0
 
-    .line 8
     iget-object v1, p0, Lcom/commsource/beautymain/activity/BeautyHelpActivity$e$a;->b:Landroid/widget/TextView;
 
     sget v2, Lcom/res/provider/ResSTRING;->whiten:I
 
     invoke-virtual {v1, v2}, Landroid/widget/TextView;->setText(I)V
 
-    .line 9
     iget-object v1, p0, Lcom/commsource/beautymain/activity/BeautyHelpActivity$e$a;->c:Landroid/widget/TextView;
 
     iget-object v2, p0, Lcom/commsource/beautymain/activity/BeautyHelpActivity$e$a;->d:Lcom/commsource/beautymain/activity/BeautyHelpActivity$e;
@@ -208,7 +192,6 @@
 
     goto :goto_0
 
-    .line 10
     :cond_0
     iget-object v1, p0, Lcom/commsource/beautymain/activity/BeautyHelpActivity$e$a;->d:Lcom/commsource/beautymain/activity/BeautyHelpActivity$e;
 
@@ -224,14 +207,12 @@
 
     if-ne v1, v2, :cond_1
 
-    .line 11
     iget-object p1, p0, Lcom/commsource/beautymain/activity/BeautyHelpActivity$e$a;->b:Landroid/widget/TextView;
 
     sget v1, Lcom/res/provider/ResSTRING;->reshape:I
 
     invoke-virtual {p1, v1}, Landroid/widget/TextView;->setText(I)V
 
-    .line 12
     iget-object p1, p0, Lcom/commsource/beautymain/activity/BeautyHelpActivity$e$a;->c:Landroid/widget/TextView;
 
     sget v1, Lcom/res/provider/ResSTRING;->drag_the_slider_to_reshape:I
@@ -240,7 +221,6 @@
 
     goto :goto_0
 
-    .line 13
     :cond_1
     iget-object v1, p0, Lcom/commsource/beautymain/activity/BeautyHelpActivity$e$a;->b:Landroid/widget/TextView;
 
@@ -260,7 +240,6 @@
 
     invoke-virtual {v1, v2}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 14
     iget-object v1, p0, Lcom/commsource/beautymain/activity/BeautyHelpActivity$e$a;->c:Landroid/widget/TextView;
 
     iget-object v2, p0, Lcom/commsource/beautymain/activity/BeautyHelpActivity$e$a;->d:Lcom/commsource/beautymain/activity/BeautyHelpActivity$e;
@@ -279,7 +258,6 @@
 
     invoke-virtual {v1, p1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 15
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

@@ -19,7 +19,6 @@
 .method public constructor <init>(Ljava/lang/String;I)V
     .locals 6
 
-    .line 7
     sget-object v5, Ljava/net/Proxy$Type;->HTTP:Ljava/net/Proxy$Type;
 
     const/4 v3, 0x0
@@ -40,22 +39,16 @@
 .method public constructor <init>(Ljava/lang/String;ILjava/lang/String;Ljava/lang/String;Ljava/net/Proxy$Type;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/qiniu/android/http/f;->a:Ljava/lang/String;
 
-    .line 3
     iput p2, p0, Lcom/qiniu/android/http/f;->b:I
 
-    .line 4
     iput-object p3, p0, Lcom/qiniu/android/http/f;->c:Ljava/lang/String;
 
-    .line 5
     iput-object p4, p0, Lcom/qiniu/android/http/f;->d:Ljava/lang/String;
 
-    .line 6
     iput-object p5, p0, Lcom/qiniu/android/http/f;->e:Ljava/net/Proxy$Type;
 
     return-void
@@ -66,7 +59,6 @@
 .method a()Lokhttp3/Authenticator;
     .locals 1
 
-    .line 1
     new-instance v0, Lcom/qiniu/android/http/f$a;
 
     invoke-direct {v0, p0}, Lcom/qiniu/android/http/f$a;-><init>(Lcom/qiniu/android/http/f;)V
@@ -77,7 +69,6 @@
 .method b()Ljava/net/Proxy;
     .locals 5
 
-    .line 1
     new-instance v0, Ljava/net/Proxy;
 
     iget-object v1, p0, Lcom/qiniu/android/http/f;->e:Ljava/net/Proxy$Type;

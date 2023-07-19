@@ -54,7 +54,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/function/DarkCircleFragment$c;->a:Lcom/commsource/studio/function/DarkCircleFragment;
 
     invoke-static {v1}, Lcom/commsource/studio/function/DarkCircleFragment;->D1(Lcom/commsource/studio/function/DarkCircleFragment;)Lcom/commsource/studio/layer/PaintMaskLayer;
@@ -71,7 +70,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/studio/layer/BaseLayer;->j0(Z)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/function/DarkCircleFragment$c;->a:Lcom/commsource/studio/function/DarkCircleFragment;
 
     invoke-static {v1}, Lcom/commsource/studio/function/DarkCircleFragment;->B1(Lcom/commsource/studio/function/DarkCircleFragment;)Lcom/commsource/studio/layer/MultiFaceSelectLayer;
@@ -88,7 +86,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/studio/layer/MultiFaceSelectLayer;->j0(Z)V
 
-    .line 3
     :cond_0
     invoke-virtual {p1}, Ljava/lang/Boolean;->booleanValue()Z
 
@@ -98,12 +95,10 @@
 
     if-eqz p1, :cond_1
 
-    .line 4
     iget-object p1, p0, Lcom/commsource/studio/function/DarkCircleFragment$c;->a:Lcom/commsource/studio/function/DarkCircleFragment;
 
     invoke-static {p1}, Lcom/commsource/studio/function/DarkCircleFragment;->G1(Lcom/commsource/studio/function/DarkCircleFragment;)V
 
-    .line 5
     iget-object p1, p0, Lcom/commsource/studio/function/DarkCircleFragment$c;->a:Lcom/commsource/studio/function/DarkCircleFragment;
 
     invoke-static {p1}, Lcom/commsource/studio/function/DarkCircleFragment;->C1(Lcom/commsource/studio/function/DarkCircleFragment;)Lcom/commsource/beautyplus/f0/cb;
@@ -118,13 +113,11 @@
 
     goto :goto_0
 
-    .line 6
     :cond_1
     iget-object p1, p0, Lcom/commsource/studio/function/DarkCircleFragment$c;->a:Lcom/commsource/studio/function/DarkCircleFragment;
 
     invoke-static {p1}, Lcom/commsource/studio/function/DarkCircleFragment;->F1(Lcom/commsource/studio/function/DarkCircleFragment;)V
 
-    .line 7
     iget-object p1, p0, Lcom/commsource/studio/function/DarkCircleFragment$c;->a:Lcom/commsource/studio/function/DarkCircleFragment;
 
     invoke-static {p1}, Lcom/commsource/studio/function/DarkCircleFragment;->C1(Lcom/commsource/studio/function/DarkCircleFragment;)Lcom/commsource/beautyplus/f0/cb;
@@ -137,7 +130,6 @@
 
     invoke-static {p1}, Lcom/commsource/util/l0;->w(Landroid/view/View;)V
 
-    .line 8
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -151,7 +143,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Ljava/lang/Boolean;
 
     invoke-virtual {p0, p1}, Lcom/commsource/studio/function/DarkCircleFragment$c;->a(Ljava/lang/Boolean;)V

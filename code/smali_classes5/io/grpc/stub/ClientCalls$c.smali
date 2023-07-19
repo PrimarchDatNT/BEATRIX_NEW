@@ -46,10 +46,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Lcom/google/common/util/concurrent/AbstractFuture;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lio/grpc/stub/ClientCalls$c;->K:Lio/grpc/h;
 
     return-void
@@ -69,7 +67,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-super {p0, p1}, Lcom/google/common/util/concurrent/AbstractFuture;->C(Ljava/lang/Object;)Z
 
     move-result p1
@@ -80,7 +77,6 @@
 .method protected D(Ljava/lang/Throwable;)Z
     .locals 0
 
-    .line 1
     invoke-super {p0, p1}, Lcom/google/common/util/concurrent/AbstractFuture;->D(Ljava/lang/Throwable;)Z
 
     move-result p1
@@ -91,7 +87,6 @@
 .method protected x()V
     .locals 3
 
-    .line 1
     iget-object v0, p0, Lio/grpc/stub/ClientCalls$c;->K:Lio/grpc/h;
 
     const-string v1, "GrpcFuture was cancelled"
@@ -106,7 +101,6 @@
 .method protected z()Ljava/lang/String;
     .locals 3
 
-    .line 1
     invoke-static {p0}, Lcom/google/common/base/p;->c(Ljava/lang/Object;)Lcom/google/common/base/p$b;
 
     move-result-object v0

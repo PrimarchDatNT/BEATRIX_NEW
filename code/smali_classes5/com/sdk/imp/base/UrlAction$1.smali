@@ -20,7 +20,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-direct {p0, p1, p2, p3, v0}, Lcom/sdk/imp/base/UrlAction;-><init>(Ljava/lang/String;IZLcom/sdk/imp/base/UrlAction$1;)V
 
     return-void
@@ -48,26 +47,22 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p2}, Landroid/net/Uri;->getHost()Ljava/lang/String;
 
     move-result-object p1
 
-    .line 2
     invoke-virtual {p3}, Lcom/sdk/imp/base/k;->e()Lcom/sdk/imp/base/k$e;
 
     move-result-object p3
 
     const-string v0, "finishLoad"
 
-    .line 3
     invoke-virtual {v0, p1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
-    .line 4
     invoke-interface {p3}, Lcom/sdk/imp/base/k$e;->onFinishLoad()V
 
     goto :goto_0
@@ -75,14 +70,12 @@
     :cond_0
     const-string v0, "close"
 
-    .line 5
     invoke-virtual {v0, p1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v0
 
     if-eqz v0, :cond_1
 
-    .line 6
     invoke-interface {p3}, Lcom/sdk/imp/base/k$e;->onClose()V
 
     goto :goto_0
@@ -90,20 +83,17 @@
     :cond_1
     const-string v0, "failLoad"
 
-    .line 7
     invoke-virtual {v0, p1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p1
 
     if-eqz p1, :cond_2
 
-    .line 8
     invoke-interface {p3}, Lcom/sdk/imp/base/k$e;->onFailLoad()V
 
     :goto_0
     return-void
 
-    .line 9
     :cond_2
     new-instance p1, Ljava/lang/Exception;
 
@@ -133,7 +123,6 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-virtual {p1}, Landroid/net/Uri;->getScheme()Ljava/lang/String;
 
     move-result-object p1

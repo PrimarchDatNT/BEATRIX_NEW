@@ -70,7 +70,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/ImageStudioActivity$h0$a;->a:Lcom/commsource/studio/ImageStudioActivity$h0;
 
     iget-object v1, v1, Lcom/commsource/studio/ImageStudioActivity$h0;->c:Lcom/commsource/studio/ImageStudioActivity;
@@ -91,7 +90,6 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     iget-object p1, p0, Lcom/commsource/studio/ImageStudioActivity$h0$a;->a:Lcom/commsource/studio/ImageStudioActivity$h0;
 
@@ -99,7 +97,6 @@
 
     invoke-static {p1}, Lcom/commsource/studio/ImageStudioActivity;->V0(Lcom/commsource/studio/ImageStudioActivity;)V
 
-    .line 3
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -113,7 +110,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Lcotlin/Pair;
 
     invoke-virtual {p0, p1}, Lcom/commsource/studio/ImageStudioActivity$h0$a;->a(Lcotlin/Pair;)V

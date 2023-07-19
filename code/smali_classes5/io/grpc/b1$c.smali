@@ -30,7 +30,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -39,7 +38,6 @@
 .method synthetic constructor <init>(Lio/grpc/b1$a;)V
     .locals 0
 
-    .line 2
     invoke-direct {p0}, Lio/grpc/b1$c;-><init>()V
 
     return-void
@@ -50,7 +48,6 @@
 .method public bridge synthetic a(Ljava/lang/Object;)Z
     .locals 0
 
-    .line 1
     check-cast p1, Lio/grpc/a1;
 
     invoke-virtual {p0, p1}, Lio/grpc/b1$c;->d(Lio/grpc/a1;)Z
@@ -63,7 +60,6 @@
 .method public bridge synthetic b(Ljava/lang/Object;)I
     .locals 0
 
-    .line 1
     check-cast p1, Lio/grpc/a1;
 
     invoke-virtual {p0, p1}, Lio/grpc/b1$c;->c(Lio/grpc/a1;)I
@@ -76,7 +72,6 @@
 .method public c(Lio/grpc/a1;)I
     .locals 0
 
-    .line 1
     invoke-virtual {p1}, Lio/grpc/a1;->g()I
 
     move-result p1
@@ -87,7 +82,6 @@
 .method public d(Lio/grpc/a1;)Z
     .locals 0
 
-    .line 1
     invoke-virtual {p1}, Lio/grpc/a1;->f()Z
 
     move-result p1

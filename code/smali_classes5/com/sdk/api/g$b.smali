@@ -25,7 +25,6 @@
 .method constructor <init>(Lcom/sdk/api/g;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/sdk/api/g$b;->a:Lcom/sdk/api/g;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -38,7 +37,6 @@
 .method public a(Lcom/sdk/imp/z/b;)V
     .locals 2
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -61,7 +59,6 @@
 
     invoke-static {v1, v0}, Lf/q/b/g;->b(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 2
     iget-object v0, p0, Lcom/sdk/api/g$b;->a:Lcom/sdk/api/g;
 
     invoke-virtual {p1}, Lcom/sdk/imp/z/b;->b()I
@@ -80,10 +77,8 @@
 
     const-string v1, "native ad loaded"
 
-    .line 1
     invoke-static {v0, v1}, Lf/q/b/g;->b(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 2
     iget-object v0, p0, Lcom/sdk/api/g$b;->a:Lcom/sdk/api/g;
 
     invoke-virtual {p1}, Lcom/sdk/imp/z/b;->a()Ljava/util/List;
@@ -96,7 +91,6 @@
 
     iput-object p1, v0, Lcom/sdk/api/g;->J:Lcom/sdk/imp/internal/loader/Ad;
 
-    .line 3
     iget-object p1, p0, Lcom/sdk/api/g$b;->a:Lcom/sdk/api/g;
 
     iget-object v0, p1, Lcom/sdk/api/g;->J:Lcom/sdk/imp/internal/loader/Ad;

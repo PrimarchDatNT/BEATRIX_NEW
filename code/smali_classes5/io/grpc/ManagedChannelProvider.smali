@@ -36,7 +36,6 @@
 .method static constructor <clinit>()V
     .locals 4
 
-    .line 1
     const-class v0, Lio/grpc/ManagedChannelProvider;
 
     new-instance v1, Lio/grpc/ManagedChannelProvider$b;
@@ -47,7 +46,6 @@
 
     sput-object v1, Lio/grpc/ManagedChannelProvider;->a:Ljava/lang/Iterable;
 
-    .line 2
     invoke-virtual {v0}, Ljava/lang/Class;->getClassLoader()Ljava/lang/ClassLoader;
 
     move-result-object v2
@@ -56,7 +54,6 @@
 
     invoke-direct {v3}, Lio/grpc/ManagedChannelProvider$a;-><init>()V
 
-    .line 3
     invoke-static {v0, v1, v2, v3}, Lio/grpc/u1;->e(Ljava/lang/Class;Ljava/lang/Iterable;Ljava/lang/ClassLoader;Lio/grpc/u1$b;)Ljava/lang/Object;
 
     move-result-object v0
@@ -71,7 +68,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -80,14 +76,12 @@
 .method public static e()Lio/grpc/ManagedChannelProvider;
     .locals 2
 
-    .line 1
     sget-object v0, Lio/grpc/ManagedChannelProvider;->b:Lio/grpc/ManagedChannelProvider;
 
     if-eqz v0, :cond_0
 
     return-object v0
 
-    .line 2
     :cond_0
     new-instance v0, Lio/grpc/ManagedChannelProvider$ProviderNotFoundException;
 

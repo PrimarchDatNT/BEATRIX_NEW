@@ -30,7 +30,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -39,7 +38,6 @@
 .method synthetic constructor <init>(Lcom/meitu/common/video/videocache/t/d$a;)V
     .locals 0
 
-    .line 2
     invoke-direct {p0}, Lcom/meitu/common/video/videocache/t/d$b;-><init>()V
 
     return-void
@@ -70,7 +68,6 @@
     :cond_1
     const/4 p1, 0x1
 
-    .line 1
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -86,7 +83,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p1}, Ljava/io/File;->lastModified()J
 
     move-result-wide v1
@@ -111,7 +107,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Ljava/io/File;
 
     check-cast p2, Ljava/io/File;

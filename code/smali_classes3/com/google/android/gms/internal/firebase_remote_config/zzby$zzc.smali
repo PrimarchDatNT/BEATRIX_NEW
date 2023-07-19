@@ -31,7 +31,6 @@
 .method static constructor <clinit>()V
     .locals 3
 
-    .line 1
     new-instance v0, Lcom/google/android/gms/internal/firebase_remote_config/zzby$zzc;
 
     const-string v1, "IGNORE_CASE"
@@ -48,7 +47,6 @@
 
     aput-object v0, v1, v2
 
-    .line 2
     sput-object v1, Lcom/google/android/gms/internal/firebase_remote_config/zzby$zzc;->zzgb:[Lcom/google/android/gms/internal/firebase_remote_config/zzby$zzc;
 
     return-void
@@ -64,7 +62,6 @@
 
     const/4 p2, 0x0
 
-    .line 1
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
     return-void
@@ -73,7 +70,6 @@
 .method public static values()[Lcom/google/android/gms/internal/firebase_remote_config/zzby$zzc;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/google/android/gms/internal/firebase_remote_config/zzby$zzc;->zzgb:[Lcom/google/android/gms/internal/firebase_remote_config/zzby$zzc;
 
     invoke-virtual {v0}, [Lcom/google/android/gms/internal/firebase_remote_config/zzby$zzc;->clone()Ljava/lang/Object;

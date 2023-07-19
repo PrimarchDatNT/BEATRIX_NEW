@@ -37,7 +37,6 @@
 
     iput-object p1, p0, Lcotlinx/coroutines/flow/FlowKt__CollectionKt$a;->a:Ljava/util/Collection;
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -54,12 +53,10 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     iget-object p2, p0, Lcotlinx/coroutines/flow/FlowKt__CollectionKt$a;->a:Ljava/util/Collection;
 
     invoke-interface {p2, p1}, Ljava/util/Collection;->add(Ljava/lang/Object;)Z
 
-    .line 2
     sget-object p1, Lcotlin/t1;->a:Lcotlin/t1;
 
     return-object p1

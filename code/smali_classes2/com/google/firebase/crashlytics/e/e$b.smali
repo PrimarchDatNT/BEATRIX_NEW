@@ -37,7 +37,6 @@
 .method constructor <init>(Lcom/google/firebase/crashlytics/e/e;Lcom/google/firebase/crashlytics/internal/settings/c;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/firebase/crashlytics/e/e$b;->b:Lcom/google/firebase/crashlytics/e/e;
 
     iput-object p2, p0, Lcom/google/firebase/crashlytics/e/e$b;->a:Lcom/google/firebase/crashlytics/internal/settings/c;
@@ -64,7 +63,6 @@
         }
     .end annotation
 
-    .line 1
     check-cast p1, Ljava/lang/Void;
 
     invoke-virtual {p0, p1}, Lcom/google/firebase/crashlytics/e/e$b;->b(Ljava/lang/Void;)Lcom/google/android/gms/tasks/k;
@@ -100,7 +98,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object p1, p0, Lcom/google/firebase/crashlytics/e/e$b;->a:Lcom/google/firebase/crashlytics/internal/settings/c;
 
     invoke-virtual {p1}, Lcom/google/firebase/crashlytics/internal/settings/c;->b()Lcom/google/android/gms/tasks/k;

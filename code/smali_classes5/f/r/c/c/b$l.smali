@@ -22,7 +22,6 @@
 .method constructor <init>(Lf/r/c/c/b;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lf/r/c/c/b$l;->c:Lf/r/c/c/b;
 
     invoke-direct {p0, p1}, Lf/r/c/c/b$l0;-><init>(Lf/r/c/c/b;)V
@@ -35,7 +34,6 @@
 .method public run()V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lf/r/c/c/b$l0;->a:Lcom/spotxchange/v4/SpotXAdPlayer$e;
 
     iget-object v1, p0, Lf/r/c/c/b$l;->c:Lf/r/c/c/b;

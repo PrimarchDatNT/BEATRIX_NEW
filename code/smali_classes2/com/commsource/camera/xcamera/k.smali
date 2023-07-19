@@ -52,45 +52,38 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     new-instance v0, Landroid/graphics/RectF;
 
     invoke-direct {v0}, Landroid/graphics/RectF;-><init>()V
 
     iput-object v0, p0, Lcom/commsource/camera/xcamera/k;->b:Landroid/graphics/RectF;
 
-    .line 3
     new-instance v0, Landroid/graphics/Rect;
 
     invoke-direct {v0}, Landroid/graphics/Rect;-><init>()V
 
     iput-object v0, p0, Lcom/commsource/camera/xcamera/k;->c:Landroid/graphics/Rect;
 
-    .line 4
     new-instance v0, Landroid/graphics/RectF;
 
     invoke-direct {v0}, Landroid/graphics/RectF;-><init>()V
 
     iput-object v0, p0, Lcom/commsource/camera/xcamera/k;->d:Landroid/graphics/RectF;
 
-    .line 5
     new-instance v0, Landroid/graphics/RectF;
 
     invoke-direct {v0}, Landroid/graphics/RectF;-><init>()V
 
     iput-object v0, p0, Lcom/commsource/camera/xcamera/k;->f:Landroid/graphics/RectF;
 
-    .line 6
     new-instance v0, Landroid/graphics/Matrix;
 
     invoke-direct {v0}, Landroid/graphics/Matrix;-><init>()V
 
     iput-object v0, p0, Lcom/commsource/camera/xcamera/k;->g:Landroid/graphics/Matrix;
 
-    .line 7
     new-instance v0, Landroid/graphics/RectF;
 
     invoke-direct {v0}, Landroid/graphics/RectF;-><init>()V
@@ -107,7 +100,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p1, p1, Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/MTFace;->facePoints:[Landroid/graphics/PointF;
 
     array-length v1, p1
@@ -131,7 +123,6 @@
 
     aget-object v7, p1, v6
 
-    .line 2
     iget v8, v7, Landroid/graphics/PointF;->x:F
 
     cmpg-float v9, v8, v4
@@ -147,7 +138,6 @@
 
     move v2, v8
 
-    .line 3
     :cond_1
     iget v7, v7, Landroid/graphics/PointF;->y:F
 
@@ -169,22 +159,17 @@
 
     goto :goto_0
 
-    .line 4
     :cond_4
     iget-object p1, p0, Lcom/commsource/camera/xcamera/k;->f:Landroid/graphics/RectF;
 
     iput v4, p1, Landroid/graphics/RectF;->left:F
 
-    .line 5
     iput v2, p1, Landroid/graphics/RectF;->right:F
 
-    .line 6
     iput v5, p1, Landroid/graphics/RectF;->top:F
 
-    .line 7
     iput v3, p1, Landroid/graphics/RectF;->bottom:F
 
-    .line 8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p1
@@ -201,24 +186,20 @@
 
     if-eqz p1, :cond_3
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/k;->b:Landroid/graphics/RectF;
 
     iget-object v2, p0, Lcom/commsource/camera/xcamera/k;->d:Landroid/graphics/RectF;
 
     invoke-static {p3, v1, v2}, Lcom/meitu/library/camera/util/e;->b(ILandroid/graphics/RectF;Landroid/graphics/RectF;)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/camera/xcamera/k;->g:Landroid/graphics/Matrix;
 
-    .line 3
     invoke-virtual {v1}, Landroid/graphics/Matrix;->reset()V
 
     int-to-float v2, p3
 
     neg-float v2, v2
 
-    .line 4
     invoke-virtual {v1, v2}, Landroid/graphics/Matrix;->setRotate(F)V
 
     const/16 v2, 0x5a
@@ -239,23 +220,19 @@
 
     goto :goto_0
 
-    .line 5
     :cond_0
     invoke-virtual {v1, v4, v3}, Landroid/graphics/Matrix;->postTranslate(FF)Z
 
     goto :goto_0
 
-    .line 6
     :cond_1
     invoke-virtual {v1, v4, v4}, Landroid/graphics/Matrix;->postTranslate(FF)Z
 
     goto :goto_0
 
-    .line 7
     :cond_2
     invoke-virtual {v1, v3, v4}, Landroid/graphics/Matrix;->postTranslate(FF)Z
 
-    .line 8
     :goto_0
     iget-object p3, p0, Lcom/commsource/camera/xcamera/k;->c:Landroid/graphics/Rect;
 
@@ -267,7 +244,6 @@
 
     div-float/2addr p3, v4
 
-    .line 9
     iget-object v2, p0, Lcom/commsource/camera/xcamera/k;->c:Landroid/graphics/Rect;
 
     invoke-virtual {v2}, Landroid/graphics/Rect;->height()I
@@ -278,10 +254,8 @@
 
     div-float/2addr v2, v4
 
-    .line 10
     invoke-virtual {v1, p3, v2}, Landroid/graphics/Matrix;->postScale(FF)Z
 
-    .line 11
     iget-object p3, p0, Lcom/commsource/camera/xcamera/k;->c:Landroid/graphics/Rect;
 
     iget v2, p3, Landroid/graphics/Rect;->left:I
@@ -294,13 +268,10 @@
 
     invoke-virtual {v1, v2, p3}, Landroid/graphics/Matrix;->postTranslate(FF)Z
 
-    .line 12
     invoke-virtual {p2, p1}, Landroid/graphics/RectF;->set(Landroid/graphics/RectF;)V
 
-    .line 13
     invoke-virtual {v1, p2}, Landroid/graphics/Matrix;->mapRect(Landroid/graphics/RectF;)Z
 
-    .line 14
     :cond_3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -314,7 +285,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p1, Landroid/graphics/PointF;->x:F
 
     float-to-double v1, v1
@@ -367,10 +337,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/camera/xcamera/k;->J:Z
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -383,7 +351,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const/4 v0, 0x1
@@ -398,7 +365,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -415,7 +381,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -428,7 +393,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -457,7 +421,6 @@
 
     if-eqz p2, :cond_0
 
-    .line 1
     iget-object p2, p0, Lcom/commsource/camera/xcamera/k;->c:Landroid/graphics/Rect;
 
     invoke-virtual {p2, p3}, Landroid/graphics/Rect;->set(Landroid/graphics/Rect;)V
@@ -465,12 +428,10 @@
     :cond_0
     if-eqz p1, :cond_1
 
-    .line 2
     iget-object p2, p0, Lcom/commsource/camera/xcamera/k;->b:Landroid/graphics/RectF;
 
     invoke-virtual {p2, p1}, Landroid/graphics/RectF;->set(Landroid/graphics/RectF;)V
 
-    .line 3
     :cond_1
     invoke-static {p4}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -486,7 +447,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const/4 v0, 0x0
@@ -507,7 +467,6 @@
 
     if-eqz p1, :cond_3
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/camera/xcamera/k;->J:Z
 
     const/4 v2, 0x0
@@ -518,7 +477,6 @@
 
     if-eqz v1, :cond_2
 
-    .line 2
     iget v1, p0, Lcom/commsource/camera/xcamera/k;->a:I
 
     add-int/lit8 v1, v1, -0x5a
@@ -527,22 +485,18 @@
 
     rem-int/lit16 v1, v1, 0x168
 
-    .line 3
     iget-object p1, p1, Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/MTFaceResult;->faces:[Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/MTFace;
 
     if-eqz p1, :cond_1
 
-    .line 4
     array-length v5, p1
 
     if-lez v5, :cond_1
 
-    .line 5
     aget-object v2, p1, v3
 
     const-string v3, "mtFace"
 
-    .line 6
     invoke-static {v2, v3}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-direct {p0, v2}, Lcom/commsource/camera/xcamera/k;->f(Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/MTFace;)Landroid/graphics/RectF;
@@ -553,14 +507,12 @@
 
     invoke-direct {p0, v3, v5, v1}, Lcom/commsource/camera/xcamera/k;->g(Landroid/graphics/RectF;Landroid/graphics/RectF;I)V
 
-    .line 7
     iget v3, v2, Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/MTFace;->rollAngle:F
 
     int-to-float v1, v1
 
     sub-float/2addr v3, v1
 
-    .line 8
     iget-object v1, v2, Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/MTFace;->facePoints:[Landroid/graphics/PointF;
 
     const/16 v5, 0x59
@@ -593,7 +545,6 @@
 
     float-to-double v4, v3
 
-    .line 9
     invoke-static {v4, v5}, Ljava/lang/Math;->toRadians(D)D
 
     move-result-wide v4
@@ -609,13 +560,11 @@
     :cond_0
     float-to-double v1, v1
 
-    .line 10
     :goto_0
     invoke-static {v1, v2}, Ljava/lang/Math;->abs(D)D
 
     move-result-wide v1
 
-    .line 11
     iget-object v4, p0, Lcom/commsource/camera/xcamera/k;->f:Landroid/graphics/RectF;
 
     invoke-virtual {v4}, Landroid/graphics/RectF;->height()F
@@ -628,7 +577,6 @@
 
     double-to-float v1, v1
 
-    .line 12
     iget-object v2, p0, Lcom/commsource/camera/xcamera/k;->K:Lcotlin/jvm/u/r;
 
     if-eqz v2, :cond_3
@@ -657,7 +605,6 @@
 
     goto :goto_1
 
-    .line 13
     :cond_1
     iget-object p1, p0, Lcom/commsource/camera/xcamera/k;->K:Lcotlin/jvm/u/r;
 
@@ -683,7 +630,6 @@
 
     goto :goto_1
 
-    .line 14
     :cond_2
     iget-object p1, p0, Lcom/commsource/camera/xcamera/k;->K:Lcotlin/jvm/u/r;
 
@@ -707,7 +653,6 @@
 
     check-cast p1, Lcotlin/t1;
 
-    .line 15
     :cond_3
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -746,10 +691,8 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/camera/xcamera/k;->K:Lcotlin/jvm/u/r;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -768,7 +711,6 @@
 
     if-nez p1, :cond_0
 
-    .line 1
     invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_0
@@ -776,7 +718,6 @@
 
     iput v1, p0, Lcom/commsource/camera/xcamera/k;->a:I
 
-    .line 2
     iget-object v1, p1, Lcom/meitu/library/renderarch/arch/data/b/d;->d:Lcom/meitu/library/renderarch/arch/data/b/b;
 
     iget-boolean v1, v1, Lcom/meitu/library/renderarch/arch/data/b/b;->a:Z
@@ -789,7 +730,6 @@
 
     if-eqz v1, :cond_1
 
-    .line 3
     iget p1, p1, Lcom/meitu/library/renderarch/arch/data/b/d;->b:I
 
     add-int/lit16 p1, p1, 0xb4
@@ -798,7 +738,6 @@
 
     iput p1, p0, Lcom/commsource/camera/xcamera/k;->a:I
 
-    .line 4
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

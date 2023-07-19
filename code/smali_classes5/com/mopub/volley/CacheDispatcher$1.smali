@@ -27,7 +27,6 @@
 .method constructor <init>(Lcom/mopub/volley/CacheDispatcher;Lcom/mopub/volley/Request;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/mopub/volley/CacheDispatcher$1;->this$0:Lcom/mopub/volley/CacheDispatcher;
 
     iput-object p2, p0, Lcom/mopub/volley/CacheDispatcher$1;->val$request:Lcom/mopub/volley/Request;
@@ -42,7 +41,6 @@
 .method public run()V
     .locals 2
 
-    .line 1
     :try_start_0
     iget-object v0, p0, Lcom/mopub/volley/CacheDispatcher$1;->this$0:Lcom/mopub/volley/CacheDispatcher;
 
@@ -58,7 +56,6 @@
 
     goto :goto_0
 
-    .line 2
     :catch_0
     invoke-static {}, Ljava/lang/Thread;->currentThread()Ljava/lang/Thread;
 

@@ -34,7 +34,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/spotxchange/v4/adapters/brightcove/SpotXBrightcoveAdapter$e$a;->c:Lcom/spotxchange/v4/adapters/brightcove/SpotXBrightcoveAdapter$e;
 
     iput-object p2, p0, Lcom/spotxchange/v4/adapters/brightcove/SpotXBrightcoveAdapter$e$a;->a:Lcom/brightcove/player/event/Event;
@@ -51,7 +50,6 @@
 .method public run()V
     .locals 4
 
-    .line 1
     iget-object v0, p0, Lcom/spotxchange/v4/adapters/brightcove/SpotXBrightcoveAdapter$e$a;->c:Lcom/spotxchange/v4/adapters/brightcove/SpotXBrightcoveAdapter$e;
 
     iget-object v0, v0, Lcom/spotxchange/v4/adapters/brightcove/SpotXBrightcoveAdapter$e;->a:Lcom/spotxchange/v4/adapters/brightcove/SpotXBrightcoveAdapter;
@@ -70,7 +68,6 @@
 
     invoke-static {v0, v1}, Lcom/spotxchange/v4/adapters/brightcove/SpotXBrightcoveAdapter;->b(Lcom/spotxchange/v4/adapters/brightcove/SpotXBrightcoveAdapter;Lcom/brightcove/player/event/Event;)Lcom/brightcove/player/event/Event;
 
-    .line 2
     iget-object v0, p0, Lcom/spotxchange/v4/adapters/brightcove/SpotXBrightcoveAdapter$e$a;->b:Ljava/util/ArrayList;
 
     invoke-virtual {v0}, Ljava/util/ArrayList;->iterator()Ljava/util/Iterator;
@@ -91,7 +88,6 @@
 
     check-cast v1, Lcom/brightcove/player/model/CuePoint;
 
-    .line 3
     invoke-virtual {v1}, Lcom/brightcove/player/model/CuePoint;->getType()Ljava/lang/String;
 
     move-result-object v2
@@ -104,7 +100,6 @@
 
     if-eqz v2, :cond_0
 
-    .line 4
     iget-object v2, p0, Lcom/spotxchange/v4/adapters/brightcove/SpotXBrightcoveAdapter$e$a;->c:Lcom/spotxchange/v4/adapters/brightcove/SpotXBrightcoveAdapter$e;
 
     iget-object v2, v2, Lcom/spotxchange/v4/adapters/brightcove/SpotXBrightcoveAdapter$e;->a:Lcom/spotxchange/v4/adapters/brightcove/SpotXBrightcoveAdapter;
@@ -117,7 +112,6 @@
 
     goto :goto_0
 
-    .line 5
     :cond_1
     iget-object v0, p0, Lcom/spotxchange/v4/adapters/brightcove/SpotXBrightcoveAdapter$e$a;->c:Lcom/spotxchange/v4/adapters/brightcove/SpotXBrightcoveAdapter$e;
 
@@ -145,7 +139,6 @@
 
     goto/16 :goto_1
 
-    .line 6
     :cond_2
     iget-object v0, p0, Lcom/spotxchange/v4/adapters/brightcove/SpotXBrightcoveAdapter$e$a;->c:Lcom/spotxchange/v4/adapters/brightcove/SpotXBrightcoveAdapter$e;
 
@@ -159,7 +152,6 @@
 
     if-ne v0, v1, :cond_3
 
-    .line 7
     iget-object v0, p0, Lcom/spotxchange/v4/adapters/brightcove/SpotXBrightcoveAdapter$e$a;->c:Lcom/spotxchange/v4/adapters/brightcove/SpotXBrightcoveAdapter$e;
 
     iget-object v0, v0, Lcom/spotxchange/v4/adapters/brightcove/SpotXBrightcoveAdapter$e;->a:Lcom/spotxchange/v4/adapters/brightcove/SpotXBrightcoveAdapter;
@@ -170,7 +162,6 @@
 
     invoke-virtual {v0}, Ljava/util/ArrayList;->clear()V
 
-    .line 8
     iget-object v0, p0, Lcom/spotxchange/v4/adapters/brightcove/SpotXBrightcoveAdapter$e$a;->c:Lcom/spotxchange/v4/adapters/brightcove/SpotXBrightcoveAdapter$e;
 
     iget-object v0, v0, Lcom/spotxchange/v4/adapters/brightcove/SpotXBrightcoveAdapter$e;->a:Lcom/spotxchange/v4/adapters/brightcove/SpotXBrightcoveAdapter;
@@ -185,7 +176,6 @@
 
     return-void
 
-    .line 9
     :cond_3
     iget-object v0, p0, Lcom/spotxchange/v4/adapters/brightcove/SpotXBrightcoveAdapter$e$a;->c:Lcom/spotxchange/v4/adapters/brightcove/SpotXBrightcoveAdapter$e;
 
@@ -199,7 +189,6 @@
 
     invoke-interface {v0, v1}, Lcom/brightcove/player/event/EventEmitter;->emit(Ljava/lang/String;)V
 
-    .line 10
     iget-object v0, p0, Lcom/spotxchange/v4/adapters/brightcove/SpotXBrightcoveAdapter$e$a;->c:Lcom/spotxchange/v4/adapters/brightcove/SpotXBrightcoveAdapter$e;
 
     iget-object v0, v0, Lcom/spotxchange/v4/adapters/brightcove/SpotXBrightcoveAdapter$e;->a:Lcom/spotxchange/v4/adapters/brightcove/SpotXBrightcoveAdapter;
@@ -210,7 +199,6 @@
 
     if-nez v0, :cond_4
 
-    .line 11
     new-instance v0, Landroid/widget/FrameLayout$LayoutParams;
 
     const/16 v1, 0x11
@@ -219,7 +207,6 @@
 
     invoke-direct {v0, v2, v2, v1}, Landroid/widget/FrameLayout$LayoutParams;-><init>(III)V
 
-    .line 12
     iget-object v1, p0, Lcom/spotxchange/v4/adapters/brightcove/SpotXBrightcoveAdapter$e$a;->c:Lcom/spotxchange/v4/adapters/brightcove/SpotXBrightcoveAdapter$e;
 
     iget-object v1, v1, Lcom/spotxchange/v4/adapters/brightcove/SpotXBrightcoveAdapter$e;->a:Lcom/spotxchange/v4/adapters/brightcove/SpotXBrightcoveAdapter;
@@ -242,7 +229,6 @@
 
     invoke-static {v1, v2}, Lcom/spotxchange/v4/adapters/brightcove/SpotXBrightcoveAdapter;->o(Lcom/spotxchange/v4/adapters/brightcove/SpotXBrightcoveAdapter;Landroid/widget/FrameLayout;)Landroid/widget/FrameLayout;
 
-    .line 13
     iget-object v1, p0, Lcom/spotxchange/v4/adapters/brightcove/SpotXBrightcoveAdapter$e$a;->c:Lcom/spotxchange/v4/adapters/brightcove/SpotXBrightcoveAdapter$e;
 
     iget-object v1, v1, Lcom/spotxchange/v4/adapters/brightcove/SpotXBrightcoveAdapter$e;->a:Lcom/spotxchange/v4/adapters/brightcove/SpotXBrightcoveAdapter;
@@ -253,7 +239,6 @@
 
     invoke-virtual {v1, v0}, Landroid/widget/FrameLayout;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
 
-    .line 14
     iget-object v0, p0, Lcom/spotxchange/v4/adapters/brightcove/SpotXBrightcoveAdapter$e$a;->c:Lcom/spotxchange/v4/adapters/brightcove/SpotXBrightcoveAdapter$e;
 
     iget-object v0, v0, Lcom/spotxchange/v4/adapters/brightcove/SpotXBrightcoveAdapter$e;->a:Lcom/spotxchange/v4/adapters/brightcove/SpotXBrightcoveAdapter;
@@ -266,7 +251,6 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/FrameLayout;->setBackgroundColor(I)V
 
-    .line 15
     :cond_4
     iget-object v0, p0, Lcom/spotxchange/v4/adapters/brightcove/SpotXBrightcoveAdapter$e$a;->c:Lcom/spotxchange/v4/adapters/brightcove/SpotXBrightcoveAdapter$e;
 
@@ -290,7 +274,6 @@
 
     if-eq v0, v1, :cond_5
 
-    .line 16
     iget-object v0, p0, Lcom/spotxchange/v4/adapters/brightcove/SpotXBrightcoveAdapter$e$a;->c:Lcom/spotxchange/v4/adapters/brightcove/SpotXBrightcoveAdapter$e;
 
     iget-object v0, v0, Lcom/spotxchange/v4/adapters/brightcove/SpotXBrightcoveAdapter$e;->a:Lcom/spotxchange/v4/adapters/brightcove/SpotXBrightcoveAdapter;
@@ -309,7 +292,6 @@
 
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->addView(Landroid/view/View;)V
 
-    .line 17
     :cond_5
     iget-object v0, p0, Lcom/spotxchange/v4/adapters/brightcove/SpotXBrightcoveAdapter$e$a;->c:Lcom/spotxchange/v4/adapters/brightcove/SpotXBrightcoveAdapter$e;
 
@@ -323,7 +305,6 @@
 
     invoke-virtual {v0, v1}, Ljava/util/ArrayList;->remove(I)Ljava/lang/Object;
 
-    .line 18
     sget-object v0, Lcom/spotxchange/v4/adapters/brightcove/SpotXBrightcoveAdapter$d;->a:[I
 
     iget-object v1, p0, Lcom/spotxchange/v4/adapters/brightcove/SpotXBrightcoveAdapter$e$a;->c:Lcom/spotxchange/v4/adapters/brightcove/SpotXBrightcoveAdapter$e;
@@ -354,7 +335,6 @@
 
     goto :goto_1
 
-    .line 19
     :cond_6
     iget-object v0, p0, Lcom/spotxchange/v4/adapters/brightcove/SpotXBrightcoveAdapter$e$a;->c:Lcom/spotxchange/v4/adapters/brightcove/SpotXBrightcoveAdapter$e;
 
@@ -364,7 +344,6 @@
 
     invoke-static {v0, v1}, Lcom/spotxchange/v4/adapters/brightcove/SpotXBrightcoveAdapter;->k(Lcom/spotxchange/v4/adapters/brightcove/SpotXBrightcoveAdapter;Lcom/spotxchange/v4/adapters/brightcove/SpotXBrightcoveAdapter$AdState;)Lcom/spotxchange/v4/adapters/brightcove/SpotXBrightcoveAdapter$AdState;
 
-    .line 20
     iget-object v0, p0, Lcom/spotxchange/v4/adapters/brightcove/SpotXBrightcoveAdapter$e$a;->c:Lcom/spotxchange/v4/adapters/brightcove/SpotXBrightcoveAdapter$e;
 
     iget-object v0, v0, Lcom/spotxchange/v4/adapters/brightcove/SpotXBrightcoveAdapter$e;->a:Lcom/spotxchange/v4/adapters/brightcove/SpotXBrightcoveAdapter;
@@ -377,7 +356,6 @@
 
     goto :goto_1
 
-    .line 21
     :cond_7
     iget-object v0, p0, Lcom/spotxchange/v4/adapters/brightcove/SpotXBrightcoveAdapter$e$a;->c:Lcom/spotxchange/v4/adapters/brightcove/SpotXBrightcoveAdapter$e;
 
@@ -387,7 +365,6 @@
 
     goto :goto_1
 
-    .line 22
     :cond_8
     iget-object v0, p0, Lcom/spotxchange/v4/adapters/brightcove/SpotXBrightcoveAdapter$e$a;->c:Lcom/spotxchange/v4/adapters/brightcove/SpotXBrightcoveAdapter$e;
 
@@ -395,7 +372,6 @@
 
     invoke-static {v0, v1}, Lcom/spotxchange/v4/adapters/brightcove/SpotXBrightcoveAdapter;->r(Lcom/spotxchange/v4/adapters/brightcove/SpotXBrightcoveAdapter;Z)Z
 
-    .line 23
     iget-object v0, p0, Lcom/spotxchange/v4/adapters/brightcove/SpotXBrightcoveAdapter$e$a;->c:Lcom/spotxchange/v4/adapters/brightcove/SpotXBrightcoveAdapter$e;
 
     iget-object v0, v0, Lcom/spotxchange/v4/adapters/brightcove/SpotXBrightcoveAdapter$e;->a:Lcom/spotxchange/v4/adapters/brightcove/SpotXBrightcoveAdapter;

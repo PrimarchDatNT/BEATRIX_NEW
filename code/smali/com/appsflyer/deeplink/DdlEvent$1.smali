@@ -34,7 +34,6 @@
 .method constructor <init>(Lcom/appsflyer/deeplink/DdlEvent;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/appsflyer/deeplink/DdlEvent$1;->$$a:Lcom/appsflyer/deeplink/DdlEvent;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -52,24 +51,20 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/appsflyer/deeplink/DdlEvent$1;->$$a:Lcom/appsflyer/deeplink/DdlEvent;
 
     invoke-static {v0}, Lcom/appsflyer/deeplink/DdlEvent;->$$b(Lcom/appsflyer/deeplink/DdlEvent;)Landroid/app/Application;
 
     move-result-object v0
 
-    .line 2
     iget-object v1, p0, Lcom/appsflyer/deeplink/DdlEvent$1;->$$a:Lcom/appsflyer/deeplink/DdlEvent;
 
     invoke-static {v1}, Lcom/appsflyer/deeplink/DdlEvent;->$$a(Lcom/appsflyer/deeplink/DdlEvent;)V
 
-    .line 3
     iget-object v1, p0, Lcom/appsflyer/deeplink/DdlEvent$1;->$$a:Lcom/appsflyer/deeplink/DdlEvent;
 
     invoke-static {v1, v0}, Lcom/appsflyer/deeplink/DdlEvent;->$$b(Lcom/appsflyer/deeplink/DdlEvent;Landroid/content/Context;)V
 
-    .line 4
     iget-object v1, p0, Lcom/appsflyer/deeplink/DdlEvent$1;->$$a:Lcom/appsflyer/deeplink/DdlEvent;
 
     invoke-static {v1, v0}, Lcom/appsflyer/deeplink/DdlEvent;->$$a(Lcom/appsflyer/deeplink/DdlEvent;Landroid/content/Context;)Lcom/appsflyer/deeplink/DeepLinkResult;

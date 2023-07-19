@@ -25,7 +25,6 @@
 .method constructor <init>(Lcom/sdk/imp/h;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/sdk/imp/h$a;->a:Lcom/sdk/imp/h;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -38,7 +37,6 @@
 .method public onClick(Landroid/view/View;)V
     .locals 1
 
-    .line 1
     iget-object p1, p0, Lcom/sdk/imp/h$a;->a:Lcom/sdk/imp/h;
 
     invoke-static {p1}, Lcom/sdk/imp/h;->h(Lcom/sdk/imp/h;)Lcom/sdk/api/VideoCardAd;
@@ -47,7 +45,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 2
     iget-object p1, p0, Lcom/sdk/imp/h$a;->a:Lcom/sdk/imp/h;
 
     invoke-static {p1}, Lcom/sdk/imp/h;->h(Lcom/sdk/imp/h;)Lcom/sdk/api/VideoCardAd;
@@ -60,7 +57,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 3
     sget v0, Lcom/sdk/api/i$e;->q:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -69,7 +65,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 4
     invoke-virtual {p1}, Landroid/view/View;->performClick()Z
 
     :cond_0

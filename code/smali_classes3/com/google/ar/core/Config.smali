@@ -40,20 +40,16 @@
 .method protected constructor <init>()V
     .locals 2
 
-    .line 9
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/4 v0, 0x0
 
-    .line 10
     iput-object v0, p0, Lcom/google/ar/core/Config;->session:Lcom/google/ar/core/Session;
 
     const-wide/16 v0, 0x0
 
-    .line 11
     iput-wide v0, p0, Lcom/google/ar/core/Config;->nativeHandle:J
 
-    .line 12
     iput-wide v0, p0, Lcom/google/ar/core/Config;->nativeSymbolTableHandle:J
 
     return-void
@@ -62,13 +58,10 @@
 .method public constructor <init>(Lcom/google/ar/core/Session;)V
     .locals 2
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/google/ar/core/Config;->session:Lcom/google/ar/core/Session;
 
-    .line 3
     iget-wide v0, p1, Lcom/google/ar/core/Session;->nativeWrapperHandle:J
 
     invoke-static {v0, v1}, Lcom/google/ar/core/Config;->nativeCreate(J)J
@@ -77,7 +70,6 @@
 
     iput-wide v0, p0, Lcom/google/ar/core/Config;->nativeHandle:J
 
-    .line 4
     iget-wide v0, p1, Lcom/google/ar/core/Session;->nativeSymbolTableHandle:J
 
     iput-wide v0, p0, Lcom/google/ar/core/Config;->nativeSymbolTableHandle:J
@@ -88,16 +80,12 @@
 .method constructor <init>(Lcom/google/ar/core/Session;J)V
     .locals 0
 
-    .line 5
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 6
     iput-object p1, p0, Lcom/google/ar/core/Config;->session:Lcom/google/ar/core/Session;
 
-    .line 7
     iput-wide p2, p0, Lcom/google/ar/core/Config;->nativeHandle:J
 
-    .line 8
     iget-wide p1, p1, Lcom/google/ar/core/Session;->nativeSymbolTableHandle:J
 
     iput-wide p1, p0, Lcom/google/ar/core/Config;->nativeSymbolTableHandle:J
@@ -196,7 +184,6 @@
         }
     .end annotation
 
-    .line 1
     iget-wide v0, p0, Lcom/google/ar/core/Config;->nativeHandle:J
 
     const-wide/16 v2, 0x0
@@ -205,12 +192,10 @@
 
     if-eqz v4, :cond_0
 
-    .line 2
     iget-wide v2, p0, Lcom/google/ar/core/Config;->nativeSymbolTableHandle:J
 
     invoke-static {v2, v3, v0, v1}, Lcom/google/ar/core/Config;->nativeDestroy(JJ)V
 
-    .line 3
     :cond_0
     invoke-super {p0}, Ljava/lang/Object;->finalize()V
 
@@ -220,19 +205,16 @@
 .method public getAugmentedFaceMode()Lcom/google/ar/core/Config$AugmentedFaceMode;
     .locals 4
 
-    .line 1
     iget-object v0, p0, Lcom/google/ar/core/Config;->session:Lcom/google/ar/core/Session;
 
     iget-wide v0, v0, Lcom/google/ar/core/Session;->nativeWrapperHandle:J
 
     iget-wide v2, p0, Lcom/google/ar/core/Config;->nativeHandle:J
 
-    .line 2
     invoke-direct {p0, v0, v1, v2, v3}, Lcom/google/ar/core/Config;->nativeGetAugmentedFaceMode(JJ)I
 
     move-result v0
 
-    .line 3
     invoke-static {v0}, Lcom/google/ar/core/Config$AugmentedFaceMode;->forNumber(I)Lcom/google/ar/core/Config$AugmentedFaceMode;
 
     move-result-object v0
@@ -243,19 +225,16 @@
 .method public getAugmentedImageDatabase()Lcom/google/ar/core/AugmentedImageDatabase;
     .locals 4
 
-    .line 1
     iget-object v0, p0, Lcom/google/ar/core/Config;->session:Lcom/google/ar/core/Session;
 
     iget-wide v0, v0, Lcom/google/ar/core/Session;->nativeWrapperHandle:J
 
     iget-wide v2, p0, Lcom/google/ar/core/Config;->nativeHandle:J
 
-    .line 2
     invoke-direct {p0, v0, v1, v2, v3}, Lcom/google/ar/core/Config;->nativeGetAugmentedImageDatabase(JJ)J
 
     move-result-wide v0
 
-    .line 3
     new-instance v2, Lcom/google/ar/core/AugmentedImageDatabase;
 
     iget-object v3, p0, Lcom/google/ar/core/Config;->session:Lcom/google/ar/core/Session;
@@ -268,19 +247,16 @@
 .method public getAugmentedObjectDatabase()Lcom/google/ar/core/AugmentedObjectDatabase;
     .locals 4
 
-    .line 1
     iget-object v0, p0, Lcom/google/ar/core/Config;->session:Lcom/google/ar/core/Session;
 
     iget-wide v0, v0, Lcom/google/ar/core/Session;->nativeWrapperHandle:J
 
     iget-wide v2, p0, Lcom/google/ar/core/Config;->nativeHandle:J
 
-    .line 2
     invoke-direct {p0, v0, v1, v2, v3}, Lcom/google/ar/core/Config;->nativeGetAugmentedObjectDatabase(JJ)J
 
     move-result-wide v0
 
-    .line 3
     new-instance v2, Lcom/google/ar/core/AugmentedObjectDatabase;
 
     iget-object v3, p0, Lcom/google/ar/core/Config;->session:Lcom/google/ar/core/Session;
@@ -293,19 +269,16 @@
 .method public getCloudAnchorMode()Lcom/google/ar/core/Config$CloudAnchorMode;
     .locals 4
 
-    .line 1
     iget-object v0, p0, Lcom/google/ar/core/Config;->session:Lcom/google/ar/core/Session;
 
     iget-wide v0, v0, Lcom/google/ar/core/Session;->nativeWrapperHandle:J
 
     iget-wide v2, p0, Lcom/google/ar/core/Config;->nativeHandle:J
 
-    .line 2
     invoke-direct {p0, v0, v1, v2, v3}, Lcom/google/ar/core/Config;->nativeGetCloudAnchorMode(JJ)I
 
     move-result v0
 
-    .line 3
     invoke-static {v0}, Lcom/google/ar/core/Config$CloudAnchorMode;->forNumber(I)Lcom/google/ar/core/Config$CloudAnchorMode;
 
     move-result-object v0
@@ -316,7 +289,6 @@
 .method public getDepthMode()Lcom/google/ar/core/Config$ArDepthMode;
     .locals 4
 
-    .line 1
     iget-object v0, p0, Lcom/google/ar/core/Config;->session:Lcom/google/ar/core/Session;
 
     iget-wide v0, v0, Lcom/google/ar/core/Session;->nativeWrapperHandle:J
@@ -337,7 +309,6 @@
 .method public getFlashMode()Lcom/google/ar/core/Config$FlashMode;
     .locals 4
 
-    .line 1
     iget-object v0, p0, Lcom/google/ar/core/Config;->session:Lcom/google/ar/core/Session;
 
     iget-wide v0, v0, Lcom/google/ar/core/Session;->nativeWrapperHandle:J
@@ -358,7 +329,6 @@
 .method public getFocusMode()Lcom/google/ar/core/Config$FocusMode;
     .locals 4
 
-    .line 1
     iget-object v0, p0, Lcom/google/ar/core/Config;->session:Lcom/google/ar/core/Session;
 
     iget-wide v0, v0, Lcom/google/ar/core/Session;->nativeWrapperHandle:J
@@ -379,19 +349,16 @@
 .method public getInstantPlacementMode()Lcom/google/ar/core/Config$InstantPlacementMode;
     .locals 4
 
-    .line 1
     iget-object v0, p0, Lcom/google/ar/core/Config;->session:Lcom/google/ar/core/Session;
 
     iget-wide v0, v0, Lcom/google/ar/core/Session;->nativeWrapperHandle:J
 
     iget-wide v2, p0, Lcom/google/ar/core/Config;->nativeHandle:J
 
-    .line 2
     invoke-direct {p0, v0, v1, v2, v3}, Lcom/google/ar/core/Config;->nativeGetInstantPlacementMode(JJ)I
 
     move-result v0
 
-    .line 3
     invoke-static {v0}, Lcom/google/ar/core/Config$InstantPlacementMode;->forNumber(I)Lcom/google/ar/core/Config$InstantPlacementMode;
 
     move-result-object v0
@@ -402,19 +369,16 @@
 .method public getLightEstimationMode()Lcom/google/ar/core/Config$LightEstimationMode;
     .locals 4
 
-    .line 1
     iget-object v0, p0, Lcom/google/ar/core/Config;->session:Lcom/google/ar/core/Session;
 
     iget-wide v0, v0, Lcom/google/ar/core/Session;->nativeWrapperHandle:J
 
     iget-wide v2, p0, Lcom/google/ar/core/Config;->nativeHandle:J
 
-    .line 2
     invoke-direct {p0, v0, v1, v2, v3}, Lcom/google/ar/core/Config;->nativeGetLightEstimationMode(JJ)I
 
     move-result v0
 
-    .line 3
     invoke-static {v0}, Lcom/google/ar/core/Config$LightEstimationMode;->forNumber(I)Lcom/google/ar/core/Config$LightEstimationMode;
 
     move-result-object v0
@@ -425,19 +389,16 @@
 .method public getPlaneFindingMode()Lcom/google/ar/core/Config$PlaneFindingMode;
     .locals 4
 
-    .line 1
     iget-object v0, p0, Lcom/google/ar/core/Config;->session:Lcom/google/ar/core/Session;
 
     iget-wide v0, v0, Lcom/google/ar/core/Session;->nativeWrapperHandle:J
 
     iget-wide v2, p0, Lcom/google/ar/core/Config;->nativeHandle:J
 
-    .line 2
     invoke-direct {p0, v0, v1, v2, v3}, Lcom/google/ar/core/Config;->nativeGetPlaneFindingMode(JJ)I
 
     move-result v0
 
-    .line 3
     invoke-static {v0}, Lcom/google/ar/core/Config$PlaneFindingMode;->forNumber(I)Lcom/google/ar/core/Config$PlaneFindingMode;
 
     move-result-object v0
@@ -448,19 +409,16 @@
 .method public getSegmentationMode()Lcom/google/ar/core/Config$SegmentationMode;
     .locals 4
 
-    .line 1
     iget-object v0, p0, Lcom/google/ar/core/Config;->session:Lcom/google/ar/core/Session;
 
     iget-wide v0, v0, Lcom/google/ar/core/Session;->nativeWrapperHandle:J
 
     iget-wide v2, p0, Lcom/google/ar/core/Config;->nativeHandle:J
 
-    .line 2
     invoke-direct {p0, v0, v1, v2, v3}, Lcom/google/ar/core/Config;->nativeGetSegmentationMode(JJ)I
 
     move-result v0
 
-    .line 3
     invoke-static {v0}, Lcom/google/ar/core/Config$SegmentationMode;->forNumber(I)Lcom/google/ar/core/Config$SegmentationMode;
 
     move-result-object v0
@@ -471,7 +429,6 @@
 .method public getUpdateMode()Lcom/google/ar/core/Config$UpdateMode;
     .locals 4
 
-    .line 1
     iget-object v0, p0, Lcom/google/ar/core/Config;->session:Lcom/google/ar/core/Session;
 
     iget-wide v0, v0, Lcom/google/ar/core/Session;->nativeWrapperHandle:J
@@ -492,7 +449,6 @@
 .method public setAugmentedFaceMode(Lcom/google/ar/core/Config$AugmentedFaceMode;)Lcom/google/ar/core/Config;
     .locals 7
 
-    .line 1
     iget-object v0, p0, Lcom/google/ar/core/Config;->session:Lcom/google/ar/core/Session;
 
     iget-wide v2, v0, Lcom/google/ar/core/Session;->nativeWrapperHandle:J
@@ -511,7 +467,6 @@
 .method public setAugmentedImageDatabase(Lcom/google/ar/core/AugmentedImageDatabase;)Lcom/google/ar/core/Config;
     .locals 8
 
-    .line 1
     iget-object v0, p0, Lcom/google/ar/core/Config;->session:Lcom/google/ar/core/Session;
 
     iget-wide v2, v0, Lcom/google/ar/core/Session;->nativeWrapperHandle:J
@@ -524,7 +479,6 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     iget-wide v0, p1, Lcom/google/ar/core/AugmentedImageDatabase;->nativeHandle:J
 
@@ -533,7 +487,6 @@
 
     move-object v1, p0
 
-    .line 3
     invoke-direct/range {v1 .. v7}, Lcom/google/ar/core/Config;->nativeSetAugmentedImageDatabase(JJJ)V
 
     return-object p0
@@ -542,7 +495,6 @@
 .method public setAugmentedObjectDatabase(Lcom/google/ar/core/AugmentedObjectDatabase;)Lcom/google/ar/core/Config;
     .locals 8
 
-    .line 1
     iget-object v0, p0, Lcom/google/ar/core/Config;->session:Lcom/google/ar/core/Session;
 
     iget-wide v2, v0, Lcom/google/ar/core/Session;->nativeWrapperHandle:J
@@ -555,7 +507,6 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     iget-wide v0, p1, Lcom/google/ar/core/AugmentedObjectDatabase;->nativeHandle:J
 
@@ -564,7 +515,6 @@
 
     move-object v1, p0
 
-    .line 3
     invoke-direct/range {v1 .. v7}, Lcom/google/ar/core/Config;->nativeSetAugmentedObjectDatabase(JJJ)V
 
     return-object p0
@@ -573,7 +523,6 @@
 .method public setCloudAnchorMode(Lcom/google/ar/core/Config$CloudAnchorMode;)Lcom/google/ar/core/Config;
     .locals 7
 
-    .line 1
     iget-object v0, p0, Lcom/google/ar/core/Config;->session:Lcom/google/ar/core/Session;
 
     iget-wide v2, v0, Lcom/google/ar/core/Session;->nativeWrapperHandle:J
@@ -592,7 +541,6 @@
 .method public setDepthMode(Lcom/google/ar/core/Config$ArDepthMode;)Lcom/google/ar/core/Config;
     .locals 7
 
-    .line 1
     iget-object v0, p0, Lcom/google/ar/core/Config;->session:Lcom/google/ar/core/Session;
 
     iget-wide v2, v0, Lcom/google/ar/core/Session;->nativeWrapperHandle:J
@@ -611,7 +559,6 @@
 .method public setFlashMode(Lcom/google/ar/core/Config$FlashMode;)Lcom/google/ar/core/Config;
     .locals 7
 
-    .line 1
     iget-object v0, p0, Lcom/google/ar/core/Config;->session:Lcom/google/ar/core/Session;
 
     iget-wide v2, v0, Lcom/google/ar/core/Session;->nativeWrapperHandle:J
@@ -630,7 +577,6 @@
 .method public setFocusMode(Lcom/google/ar/core/Config$FocusMode;)Lcom/google/ar/core/Config;
     .locals 7
 
-    .line 1
     iget-object v0, p0, Lcom/google/ar/core/Config;->session:Lcom/google/ar/core/Session;
 
     iget-wide v2, v0, Lcom/google/ar/core/Session;->nativeWrapperHandle:J
@@ -649,7 +595,6 @@
 .method public setInstantPlacementMode(Lcom/google/ar/core/Config$InstantPlacementMode;)Lcom/google/ar/core/Config;
     .locals 7
 
-    .line 1
     iget-object v0, p0, Lcom/google/ar/core/Config;->session:Lcom/google/ar/core/Session;
 
     iget-wide v2, v0, Lcom/google/ar/core/Session;->nativeWrapperHandle:J
@@ -668,7 +613,6 @@
 .method public setLightEstimationMode(Lcom/google/ar/core/Config$LightEstimationMode;)Lcom/google/ar/core/Config;
     .locals 7
 
-    .line 1
     iget-object v0, p0, Lcom/google/ar/core/Config;->session:Lcom/google/ar/core/Session;
 
     iget-wide v2, v0, Lcom/google/ar/core/Session;->nativeWrapperHandle:J
@@ -687,7 +631,6 @@
 .method public setPlaneFindingMode(Lcom/google/ar/core/Config$PlaneFindingMode;)Lcom/google/ar/core/Config;
     .locals 7
 
-    .line 1
     iget-object v0, p0, Lcom/google/ar/core/Config;->session:Lcom/google/ar/core/Session;
 
     iget-wide v2, v0, Lcom/google/ar/core/Session;->nativeWrapperHandle:J
@@ -706,7 +649,6 @@
 .method public setSegmentationMode(Lcom/google/ar/core/Config$SegmentationMode;)Lcom/google/ar/core/Config;
     .locals 7
 
-    .line 1
     iget-object v0, p0, Lcom/google/ar/core/Config;->session:Lcom/google/ar/core/Session;
 
     iget-wide v2, v0, Lcom/google/ar/core/Session;->nativeWrapperHandle:J
@@ -725,7 +667,6 @@
 .method public setUpdateMode(Lcom/google/ar/core/Config$UpdateMode;)Lcom/google/ar/core/Config;
     .locals 7
 
-    .line 1
     iget-object v0, p0, Lcom/google/ar/core/Config;->session:Lcom/google/ar/core/Session;
 
     iget-wide v2, v0, Lcom/google/ar/core/Session;->nativeWrapperHandle:J

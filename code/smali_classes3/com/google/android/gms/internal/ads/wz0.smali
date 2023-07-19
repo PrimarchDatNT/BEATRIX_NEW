@@ -26,10 +26,8 @@
 .method public final a(ZLandroid/content/Context;)V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/wz0;->a:Lcom/google/android/gms/internal/ads/ow0;
 
-    .line 2
     :try_start_0
     iget-object v1, v0, Lcom/google/android/gms/internal/ads/ow0;->b:Ljava/lang/Object;
 
@@ -37,7 +35,6 @@
 
     invoke-virtual {v1, p1}, Lcom/google/android/gms/internal/ads/vh1;->h(Z)V
 
-    .line 3
     iget-object p1, v0, Lcom/google/android/gms/internal/ads/ow0;->b:Ljava/lang/Object;
 
     check-cast p1, Lcom/google/android/gms/internal/ads/vh1;
@@ -51,7 +48,6 @@
     :catch_0
     move-exception p1
 
-    .line 4
     new-instance p2, Lcom/google/android/gms/internal/ads/zzcap;
 
     invoke-virtual {p1}, Ljava/lang/Exception;->getCause()Ljava/lang/Throwable;

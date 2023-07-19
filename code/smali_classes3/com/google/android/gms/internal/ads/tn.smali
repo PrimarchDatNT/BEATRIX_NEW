@@ -34,44 +34,36 @@
 .method public constructor <init>(Landroid/content/Context;)V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/4 v0, 0x0
 
-    .line 2
     iput v0, p0, Lcom/google/android/gms/internal/ads/tn;->f:I
 
-    .line 3
     new-instance v0, Lcom/google/android/gms/internal/ads/wn;
 
     invoke-direct {v0, p0}, Lcom/google/android/gms/internal/ads/wn;-><init>(Lcom/google/android/gms/internal/ads/tn;)V
 
     iput-object v0, p0, Lcom/google/android/gms/internal/ads/tn;->k:Ljava/lang/Runnable;
 
-    .line 4
     iput-object p1, p0, Lcom/google/android/gms/internal/ads/tn;->a:Landroid/content/Context;
 
-    .line 5
     invoke-static {p1}, Landroid/view/ViewConfiguration;->get(Landroid/content/Context;)Landroid/view/ViewConfiguration;
 
     move-result-object p1
 
-    .line 6
     invoke-virtual {p1}, Landroid/view/ViewConfiguration;->getScaledTouchSlop()I
 
     move-result p1
 
     iput p1, p0, Lcom/google/android/gms/internal/ads/tn;->g:I
 
-    .line 7
     invoke-static {}, Lcom/google/android/gms/ads/internal/p;->q()Lcom/google/android/gms/internal/ads/bp;
 
     move-result-object p1
 
     invoke-virtual {p1}, Lcom/google/android/gms/internal/ads/bp;->b()Landroid/os/Looper;
 
-    .line 8
     invoke-static {}, Lcom/google/android/gms/ads/internal/p;->q()Lcom/google/android/gms/internal/ads/bp;
 
     move-result-object p1
@@ -88,10 +80,8 @@
 .method public constructor <init>(Landroid/content/Context;Ljava/lang/String;)V
     .locals 0
 
-    .line 9
     invoke-direct {p0, p1}, Lcom/google/android/gms/internal/ads/tn;-><init>(Landroid/content/Context;)V
 
-    .line 10
     iput-object p2, p0, Lcom/google/android/gms/internal/ads/tn;->b:Ljava/lang/String;
 
     return-void
@@ -110,10 +100,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-interface {p0, p1}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
-    .line 2
     invoke-interface {p0}, Ljava/util/List;->size()I
 
     move-result p0
@@ -126,7 +114,6 @@
 .method private final f(FFFF)Z
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/tn;->h:Landroid/graphics/PointF;
 
     iget v0, v0, Landroid/graphics/PointF;->x:F
@@ -151,7 +138,6 @@
 
     sub-float/2addr p1, p2
 
-    .line 2
     invoke-static {p1}, Ljava/lang/Math;->abs(F)F
 
     move-result p1
@@ -170,7 +156,6 @@
 
     sub-float/2addr p1, p3
 
-    .line 3
     invoke-static {p1}, Ljava/lang/Math;->abs(F)F
 
     move-result p1
@@ -189,7 +174,6 @@
 
     sub-float/2addr p1, p4
 
-    .line 4
     invoke-static {p1}, Ljava/lang/Math;->abs(F)F
 
     move-result p1
@@ -217,7 +201,6 @@
 .method public final a(Ljava/lang/String;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/android/gms/internal/ads/tn;->c:Ljava/lang/String;
 
     return-void
@@ -226,7 +209,6 @@
 .method public final b()V
     .locals 7
 
-    .line 1
     :try_start_0
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/tn;->a:Landroid/content/Context;
 
@@ -236,12 +218,10 @@
 
     const-string v0, "Can not create dialog without Activity Context"
 
-    .line 2
     invoke-static {v0}, Lcom/google/android/gms/internal/ads/aq;->h(Ljava/lang/String;)V
 
     return-void
 
-    .line 3
     :cond_0
     invoke-static {}, Lcom/google/android/gms/ads/internal/p;->m()Lcom/google/android/gms/internal/ads/do;
 
@@ -264,7 +244,6 @@
     :cond_1
     const-string v0, "Creative Preview"
 
-    .line 4
     :goto_0
     invoke-static {}, Lcom/google/android/gms/ads/internal/p;->m()Lcom/google/android/gms/internal/ads/do;
 
@@ -283,7 +262,6 @@
     :cond_2
     const-string v1, "Troubleshooting"
 
-    .line 5
     :goto_1
     new-instance v2, Ljava/util/ArrayList;
 
@@ -293,27 +271,22 @@
 
     const/4 v4, 0x1
 
-    .line 6
     invoke-static {v2, v3, v4}, Lcom/google/android/gms/internal/ads/tn;->c(Ljava/util/List;Ljava/lang/String;Z)I
 
     move-result v3
 
-    .line 7
     invoke-static {v2, v0, v4}, Lcom/google/android/gms/internal/ads/tn;->c(Ljava/util/List;Ljava/lang/String;Z)I
 
     move-result v0
 
-    .line 8
     invoke-static {v2, v1, v4}, Lcom/google/android/gms/internal/ads/tn;->c(Ljava/util/List;Ljava/lang/String;Z)I
 
     move-result v1
 
-    .line 9
     new-instance v4, Landroid/app/AlertDialog$Builder;
 
     iget-object v5, p0, Lcom/google/android/gms/internal/ads/tn;->a:Landroid/content/Context;
 
-    .line 10
     invoke-static {}, Lcom/google/android/gms/ads/internal/p;->e()Lcom/google/android/gms/internal/ads/hn;
 
     move-result-object v6
@@ -326,7 +299,6 @@
 
     const-string v5, "Select a Debug Mode"
 
-    .line 11
     invoke-virtual {v4, v5}, Landroid/app/AlertDialog$Builder;->setTitle(Ljava/lang/CharSequence;)Landroid/app/AlertDialog$Builder;
 
     move-result-object v5
@@ -335,7 +307,6 @@
 
     new-array v6, v6, [Ljava/lang/String;
 
-    .line 12
     invoke-interface {v2, v6}, Ljava/util/List;->toArray([Ljava/lang/Object;)[Ljava/lang/Object;
 
     move-result-object v2
@@ -346,15 +317,12 @@
 
     invoke-direct {v6, p0, v3, v0, v1}, Lcom/google/android/gms/internal/ads/vn;-><init>(Lcom/google/android/gms/internal/ads/tn;III)V
 
-    .line 13
     invoke-virtual {v5, v2, v6}, Landroid/app/AlertDialog$Builder;->setItems([Ljava/lang/CharSequence;Landroid/content/DialogInterface$OnClickListener;)Landroid/app/AlertDialog$Builder;
 
-    .line 14
     invoke-virtual {v4}, Landroid/app/AlertDialog$Builder;->create()Landroid/app/AlertDialog;
 
     move-result-object v0
 
-    .line 15
     invoke-virtual {v0}, Landroid/app/AlertDialog;->show()V
     :try_end_0
     .catch Landroid/view/WindowManager$BadTokenException; {:try_start_0 .. :try_end_0} :catch_0
@@ -366,7 +334,6 @@
 
     const-string v1, ""
 
-    .line 16
     invoke-static {v1, v0}, Lcom/google/android/gms/internal/ads/sm;->l(Ljava/lang/String;Ljava/lang/Throwable;)V
 
     return-void
@@ -377,7 +344,6 @@
 
     if-ne p5, p1, :cond_3
 
-    .line 1
     iget-object p1, p0, Lcom/google/android/gms/internal/ads/tn;->a:Landroid/content/Context;
 
     instance-of p1, p1, Landroid/app/Activity;
@@ -386,16 +352,13 @@
 
     const-string p1, "Can not create dialog without Activity Context"
 
-    .line 2
     invoke-static {p1}, Lcom/google/android/gms/internal/ads/aq;->h(Ljava/lang/String;)V
 
     return-void
 
-    .line 3
     :cond_0
     iget-object p1, p0, Lcom/google/android/gms/internal/ads/tn;->b:Ljava/lang/String;
 
-    .line 4
     invoke-static {p1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result p2
@@ -406,12 +369,10 @@
 
     const-string p3, "%20"
 
-    .line 5
     invoke-virtual {p1, p2, p3}, Ljava/lang/String;->replaceAll(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p1
 
-    .line 6
     new-instance p2, Landroid/net/Uri$Builder;
 
     invoke-direct {p2}, Landroid/net/Uri$Builder;-><init>()V
@@ -424,19 +385,16 @@
 
     move-result-object p1
 
-    .line 7
     new-instance p2, Ljava/lang/StringBuilder;
 
     invoke-direct {p2}, Ljava/lang/StringBuilder;-><init>()V
 
-    .line 8
     invoke-static {}, Lcom/google/android/gms/ads/internal/p;->c()Lcom/google/android/gms/internal/ads/cn;
 
     invoke-static {p1}, Lcom/google/android/gms/internal/ads/cn;->d0(Landroid/net/Uri;)Ljava/util/Map;
 
     move-result-object p1
 
-    .line 9
     invoke-interface {p1}, Ljava/util/Map;->keySet()Ljava/util/Set;
 
     move-result-object p3
@@ -458,15 +416,12 @@
 
     check-cast p4, Ljava/lang/String;
 
-    .line 10
     invoke-virtual {p2, p4}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     const-string p5, " = "
 
-    .line 11
     invoke-virtual {p2, p5}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 12
     invoke-interface {p1, p4}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p4
@@ -477,12 +432,10 @@
 
     const-string p4, "\n\n"
 
-    .line 13
     invoke-virtual {p2, p4}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     goto :goto_0
 
-    .line 14
     :cond_1
     invoke-virtual {p2}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
@@ -492,7 +445,6 @@
 
     move-result-object p1
 
-    .line 15
     invoke-static {p1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result p2
@@ -504,7 +456,6 @@
     :cond_2
     const-string p1, "No debug information"
 
-    .line 16
     :goto_1
     new-instance p2, Landroid/app/AlertDialog$Builder;
 
@@ -512,15 +463,12 @@
 
     invoke-direct {p2, p3}, Landroid/app/AlertDialog$Builder;-><init>(Landroid/content/Context;)V
 
-    .line 17
     invoke-virtual {p2, p1}, Landroid/app/AlertDialog$Builder;->setMessage(Ljava/lang/CharSequence;)Landroid/app/AlertDialog$Builder;
 
     const-string p3, "Ad Information"
 
-    .line 18
     invoke-virtual {p2, p3}, Landroid/app/AlertDialog$Builder;->setTitle(Ljava/lang/CharSequence;)Landroid/app/AlertDialog$Builder;
 
-    .line 19
     new-instance p3, Lcom/google/android/gms/internal/ads/zn;
 
     invoke-direct {p3, p0, p1}, Lcom/google/android/gms/internal/ads/zn;-><init>(Lcom/google/android/gms/internal/ads/tn;Ljava/lang/String;)V
@@ -529,19 +477,16 @@
 
     invoke-virtual {p2, p1, p3}, Landroid/app/AlertDialog$Builder;->setPositiveButton(Ljava/lang/CharSequence;Landroid/content/DialogInterface$OnClickListener;)Landroid/app/AlertDialog$Builder;
 
-    .line 20
     sget-object p1, Lcom/google/android/gms/internal/ads/xn;->a:Landroid/content/DialogInterface$OnClickListener;
 
     const-string p3, "Close"
 
     invoke-virtual {p2, p3, p1}, Landroid/app/AlertDialog$Builder;->setNegativeButton(Ljava/lang/CharSequence;Landroid/content/DialogInterface$OnClickListener;)Landroid/app/AlertDialog$Builder;
 
-    .line 21
     invoke-virtual {p2}, Landroid/app/AlertDialog$Builder;->create()Landroid/app/AlertDialog;
 
     move-result-object p1
 
-    .line 22
     invoke-virtual {p1}, Landroid/app/AlertDialog;->show()V
 
     return-void
@@ -551,10 +496,8 @@
 
     const-string p1, "Debug mode [Creative Preview] selected."
 
-    .line 23
     invoke-static {p1}, Lcom/google/android/gms/internal/ads/aq;->f(Ljava/lang/String;)V
 
-    .line 24
     sget-object p1, Lcom/google/android/gms/internal/ads/dq;->a:Lcom/google/android/gms/internal/ads/uq1;
 
     new-instance p2, Lcom/google/android/gms/internal/ads/bo;
@@ -570,10 +513,8 @@
 
     const-string p1, "Debug mode [Troubleshooting] selected."
 
-    .line 25
     invoke-static {p1}, Lcom/google/android/gms/internal/ads/aq;->f(Ljava/lang/String;)V
 
-    .line 26
     sget-object p1, Lcom/google/android/gms/internal/ads/dq;->a:Lcom/google/android/gms/internal/ads/uq1;
 
     new-instance p2, Lcom/google/android/gms/internal/ads/ao;
@@ -589,7 +530,6 @@
 .method final synthetic e(Ljava/lang/String;Landroid/content/DialogInterface;I)V
     .locals 1
 
-    .line 1
     invoke-static {}, Lcom/google/android/gms/ads/internal/p;->c()Lcom/google/android/gms/internal/ads/cn;
 
     iget-object p2, p0, Lcom/google/android/gms/internal/ads/tn;->a:Landroid/content/Context;
@@ -602,26 +542,22 @@
 
     const-string v0, "text/plain"
 
-    .line 2
     invoke-virtual {p3, v0}, Landroid/content/Intent;->setType(Ljava/lang/String;)Landroid/content/Intent;
 
     move-result-object p3
 
     const-string v0, "android.intent.extra.TEXT"
 
-    .line 3
     invoke-virtual {p3, v0, p1}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
 
     move-result-object p1
 
     const-string p3, "Share via"
 
-    .line 4
     invoke-static {p1, p3}, Landroid/content/Intent;->createChooser(Landroid/content/Intent;Ljava/lang/CharSequence;)Landroid/content/Intent;
 
     move-result-object p1
 
-    .line 5
     invoke-static {p2, p1}, Lcom/google/android/gms/internal/ads/cn;->i(Landroid/content/Context;Landroid/content/Intent;)V
 
     return-void
@@ -630,7 +566,6 @@
 .method public final g(Ljava/lang/String;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/android/gms/internal/ads/tn;->d:Ljava/lang/String;
 
     return-void
@@ -639,17 +574,14 @@
 .method public final h(Landroid/view/MotionEvent;)V
     .locals 10
 
-    .line 1
     invoke-virtual {p1}, Landroid/view/MotionEvent;->getActionMasked()I
 
     move-result v0
 
-    .line 2
     invoke-virtual {p1}, Landroid/view/MotionEvent;->getHistorySize()I
 
     move-result v1
 
-    .line 3
     invoke-virtual {p1}, Landroid/view/MotionEvent;->getPointerCount()I
 
     move-result v2
@@ -658,10 +590,8 @@
 
     if-nez v0, :cond_0
 
-    .line 4
     iput v3, p0, Lcom/google/android/gms/internal/ads/tn;->f:I
 
-    .line 5
     new-instance v0, Landroid/graphics/PointF;
 
     invoke-virtual {p1, v3}, Landroid/view/MotionEvent;->getX(I)F
@@ -678,7 +608,6 @@
 
     return-void
 
-    .line 6
     :cond_0
     iget v4, p0, Lcom/google/android/gms/internal/ads/tn;->f:I
 
@@ -697,10 +626,8 @@
 
     if-ne v0, v6, :cond_2
 
-    .line 7
     iput v6, p0, Lcom/google/android/gms/internal/ads/tn;->f:I
 
-    .line 8
     new-instance v0, Landroid/graphics/PointF;
 
     invoke-virtual {p1, v7}, Landroid/view/MotionEvent;->getX(I)F
@@ -715,14 +642,12 @@
 
     iput-object v0, p0, Lcom/google/android/gms/internal/ads/tn;->i:Landroid/graphics/PointF;
 
-    .line 9
     iget-object p1, p0, Lcom/google/android/gms/internal/ads/tn;->j:Landroid/os/Handler;
 
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/tn;->k:Ljava/lang/Runnable;
 
     sget-object v1, Lcom/google/android/gms/internal/ads/w;->N2:Lcom/google/android/gms/internal/ads/h;
 
-    .line 10
     invoke-static {}, Lcom/google/android/gms/internal/ads/zm2;->e()Lcom/google/android/gms/internal/ads/s;
 
     move-result-object v2
@@ -731,7 +656,6 @@
 
     move-result-object v1
 
-    .line 11
     check-cast v1, Ljava/lang/Long;
 
     invoke-virtual {v1}, Ljava/lang/Long;->longValue()J
@@ -764,27 +688,22 @@
     :goto_1
     if-ge v0, v1, :cond_5
 
-    .line 12
     invoke-virtual {p1, v3, v0}, Landroid/view/MotionEvent;->getHistoricalX(II)F
 
     move-result v4
 
-    .line 13
     invoke-virtual {p1, v3, v0}, Landroid/view/MotionEvent;->getHistoricalY(II)F
 
     move-result v6
 
-    .line 14
     invoke-virtual {p1, v7, v0}, Landroid/view/MotionEvent;->getHistoricalX(II)F
 
     move-result v8
 
-    .line 15
     invoke-virtual {p1, v7, v0}, Landroid/view/MotionEvent;->getHistoricalY(II)F
 
     move-result v9
 
-    .line 16
     invoke-direct {p0, v4, v6, v8, v9}, Lcom/google/android/gms/internal/ads/tn;->f(FFFF)Z
 
     move-result v4
@@ -798,7 +717,6 @@
 
     goto :goto_1
 
-    .line 17
     :cond_5
     invoke-virtual {p1}, Landroid/view/MotionEvent;->getX()F
 
@@ -831,10 +749,8 @@
     :goto_2
     if-eqz v3, :cond_8
 
-    .line 18
     iput v5, p0, Lcom/google/android/gms/internal/ads/tn;->f:I
 
-    .line 19
     iget-object p1, p0, Lcom/google/android/gms/internal/ads/tn;->j:Landroid/os/Handler;
 
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/tn;->k:Ljava/lang/Runnable;
@@ -848,7 +764,6 @@
 .method public final i(Ljava/lang/String;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/android/gms/internal/ads/tn;->b:Ljava/lang/String;
 
     return-void
@@ -857,7 +772,6 @@
 .method public final j(Ljava/lang/String;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/android/gms/internal/ads/tn;->e:Ljava/lang/String;
 
     return-void
@@ -866,7 +780,6 @@
 .method final synthetic k()V
     .locals 5
 
-    .line 1
     invoke-static {}, Lcom/google/android/gms/ads/internal/p;->m()Lcom/google/android/gms/internal/ads/do;
 
     move-result-object v0
@@ -879,7 +792,6 @@
 
     iget-object v4, p0, Lcom/google/android/gms/internal/ads/tn;->e:Ljava/lang/String;
 
-    .line 2
     invoke-virtual {v0, v1, v2, v3, v4}, Lcom/google/android/gms/internal/ads/do;->a(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
@@ -888,7 +800,6 @@
 .method final synthetic l()V
     .locals 4
 
-    .line 1
     invoke-static {}, Lcom/google/android/gms/ads/internal/p;->m()Lcom/google/android/gms/internal/ads/do;
 
     move-result-object v0
@@ -909,10 +820,8 @@
 
     const/4 v0, 0x4
 
-    .line 1
     iput v0, p0, Lcom/google/android/gms/internal/ads/tn;->f:I
 
-    .line 2
     invoke-virtual {p0}, Lcom/google/android/gms/internal/ads/tn;->b()V
 
     return-void
@@ -921,7 +830,6 @@
 .method public final toString()Ljava/lang/String;
     .locals 2
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     const/16 v1, 0x64
@@ -932,51 +840,38 @@
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 2
     iget-object v1, p0, Lcom/google/android/gms/internal/ads/tn;->b:Ljava/lang/String;
 
-    .line 3
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     const-string v1, ",DebugSignal: "
 
-    .line 4
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 5
     iget-object v1, p0, Lcom/google/android/gms/internal/ads/tn;->e:Ljava/lang/String;
 
-    .line 6
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     const-string v1, ",AFMA Version: "
 
-    .line 7
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 8
     iget-object v1, p0, Lcom/google/android/gms/internal/ads/tn;->d:Ljava/lang/String;
 
-    .line 9
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     const-string v1, ",Ad Unit ID: "
 
-    .line 10
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 11
     iget-object v1, p0, Lcom/google/android/gms/internal/ads/tn;->c:Ljava/lang/String;
 
-    .line 12
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     const-string v1, "}"
 
-    .line 13
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 14
     invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     move-result-object v0

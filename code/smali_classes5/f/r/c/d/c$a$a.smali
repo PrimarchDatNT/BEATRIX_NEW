@@ -25,7 +25,6 @@
 .method constructor <init>(Lf/r/c/d/c$a;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lf/r/c/d/c$a$a;->a:Lf/r/c/d/c$a;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -38,7 +37,6 @@
 .method public a(Lf/r/c/d/b;)V
     .locals 2
 
-    .line 1
     new-instance v0, Landroid/os/Handler;
 
     invoke-static {}, Landroid/os/Looper;->getMainLooper()Landroid/os/Looper;

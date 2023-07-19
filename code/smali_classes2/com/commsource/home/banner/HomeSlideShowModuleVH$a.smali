@@ -54,7 +54,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Ljava/lang/Integer;
 
     invoke-virtual {p0, p1}, Lcom/commsource/home/banner/HomeSlideShowModuleVH$a;->b(Ljava/lang/Integer;)V
@@ -71,7 +70,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/home/banner/HomeSlideShowModuleVH$a;->a:Lcom/commsource/home/banner/HomeSlideShowModuleVH;
 
     iget-object v1, v1, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->itemView:Landroid/view/View;
@@ -104,7 +102,6 @@
 
     invoke-static {v1, v2, v3, v4, v5}, Lcom/commsource/widget/IndicatorLineView;->f(Lcom/commsource/widget/IndicatorLineView;IZILjava/lang/Object;)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/home/banner/HomeSlideShowModuleVH$a;->a:Lcom/commsource/home/banner/HomeSlideShowModuleVH;
 
     invoke-virtual {v1}, Lcom/commsource/widget/h1/f;->c()Lcom/commsource/widget/h1/d;
@@ -119,17 +116,14 @@
 
     invoke-virtual {v1, v2, p1}, Lcom/commsource/widget/h1/d;->a(Ljava/lang/String;Ljava/lang/Object;)V
 
-    .line 3
     iget-object p1, p0, Lcom/commsource/home/banner/HomeSlideShowModuleVH$a;->a:Lcom/commsource/home/banner/HomeSlideShowModuleVH;
 
     invoke-static {p1}, Lcom/commsource/home/banner/HomeSlideShowModuleVH;->B(Lcom/commsource/home/banner/HomeSlideShowModuleVH;)V
 
-    .line 4
     iget-object p1, p0, Lcom/commsource/home/banner/HomeSlideShowModuleVH$a;->a:Lcom/commsource/home/banner/HomeSlideShowModuleVH;
 
     invoke-static {p1}, Lcom/commsource/home/banner/HomeSlideShowModuleVH;->I(Lcom/commsource/home/banner/HomeSlideShowModuleVH;)V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

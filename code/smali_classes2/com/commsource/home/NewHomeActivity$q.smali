@@ -58,7 +58,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     invoke-virtual {p1}, Lcom/commsource/billing/pro/f;->h()Z
 
     move-result p1
@@ -73,7 +72,6 @@
 
     if-ne p1, v2, :cond_0
 
-    .line 2
     iget-object p1, p0, Lcom/commsource/home/NewHomeActivity$q;->a:Lcom/commsource/home/NewHomeActivity;
 
     invoke-static {p1}, Lcom/commsource/home/NewHomeActivity;->U0(Lcom/commsource/home/NewHomeActivity;)Lcom/commsource/beautyplus/f0/q0;
@@ -88,7 +86,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_0
     iget-object p1, p0, Lcom/commsource/home/NewHomeActivity$q;->a:Lcom/commsource/home/NewHomeActivity;
 
@@ -102,7 +99,6 @@
 
     invoke-static {p1}, Lcom/commsource/util/l0;->w(Landroid/view/View;)V
 
-    .line 4
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -116,7 +112,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Lcom/commsource/billing/pro/f;
 
     invoke-virtual {p0, p1}, Lcom/commsource/home/NewHomeActivity$q;->a(Lcom/commsource/billing/pro/f;)V

@@ -18,10 +18,8 @@
 .method constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Lorg/jsoup/parser/Token$i;-><init>()V
 
-    .line 2
     sget-object v0, Lorg/jsoup/parser/Token$TokenType;->StartTag:Lorg/jsoup/parser/Token$TokenType;
 
     iput-object v0, p0, Lorg/jsoup/parser/Token;->a:Lorg/jsoup/parser/Token$TokenType;
@@ -34,12 +32,10 @@
 .method F()Lorg/jsoup/parser/Token$i;
     .locals 1
 
-    .line 1
     invoke-super {p0}, Lorg/jsoup/parser/Token$i;->F()Lorg/jsoup/parser/Token$i;
 
     const/4 v0, 0x0
 
-    .line 2
     iput-object v0, p0, Lorg/jsoup/parser/Token$i;->j:Lorg/jsoup/nodes/b;
 
     return-object p0
@@ -48,13 +44,10 @@
 .method H(Ljava/lang/String;Lorg/jsoup/nodes/b;)Lorg/jsoup/parser/Token$h;
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lorg/jsoup/parser/Token$i;->b:Ljava/lang/String;
 
-    .line 2
     iput-object p2, p0, Lorg/jsoup/parser/Token$i;->j:Lorg/jsoup/nodes/b;
 
-    .line 3
     invoke-static {p1}, Lorg/jsoup/b/b;->a(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p1
@@ -67,7 +60,6 @@
 .method bridge synthetic m()Lorg/jsoup/parser/Token;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lorg/jsoup/parser/Token$h;->F()Lorg/jsoup/parser/Token$i;
 
     move-result-object v0
@@ -78,7 +70,6 @@
 .method public toString()Ljava/lang/String;
     .locals 3
 
-    .line 1
     iget-object v0, p0, Lorg/jsoup/parser/Token$i;->j:Lorg/jsoup/nodes/b;
 
     const-string v1, ">"
@@ -93,7 +84,6 @@
 
     if-lez v0, :cond_0
 
-    .line 2
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -126,7 +116,6 @@
 
     return-object v0
 
-    .line 3
     :cond_0
     new-instance v0, Ljava/lang/StringBuilder;
 

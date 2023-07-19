@@ -25,7 +25,6 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
     new-instance v0, Lcom/google/firebase/crashlytics/internal/proto/b$a;
 
     invoke-direct {v0}, Lcom/google/firebase/crashlytics/internal/proto/b$a;-><init>()V
@@ -43,7 +42,6 @@
         }
     .end annotation
 
-    .line 2
     new-instance v0, Ljava/io/File;
 
     new-instance v1, Ljava/lang/StringBuilder;
@@ -66,10 +64,8 @@
 
     const/4 v0, 0x0
 
-    .line 3
     iput-boolean v0, p0, Lcom/google/firebase/crashlytics/internal/proto/b;->d:Z
 
-    .line 4
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -88,7 +84,6 @@
 
     iput-object p1, p0, Lcom/google/firebase/crashlytics/internal/proto/b;->a:Ljava/lang/String;
 
-    .line 5
     new-instance p2, Ljava/io/File;
 
     new-instance v0, Ljava/lang/StringBuilder;
@@ -118,7 +113,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/io/File;
 
     invoke-direct {v0, p1}, Ljava/io/File;-><init>(Ljava/lang/String;)V
@@ -138,7 +132,6 @@
         }
     .end annotation
 
-    .line 1
     iget-boolean v0, p0, Lcom/google/firebase/crashlytics/internal/proto/b;->d:Z
 
     if-eqz v0, :cond_0
@@ -148,13 +141,10 @@
     :cond_0
     const/4 v0, 0x1
 
-    .line 2
     iput-boolean v0, p0, Lcom/google/firebase/crashlytics/internal/proto/b;->d:Z
 
-    .line 3
     invoke-super {p0}, Ljava/io/FileOutputStream;->flush()V
 
-    .line 4
     invoke-super {p0}, Ljava/io/FileOutputStream;->close()V
 
     return-void
@@ -163,7 +153,6 @@
 .method public b()Ljava/io/File;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/crashlytics/internal/proto/b;->c:Ljava/io/File;
 
     return-object v0
@@ -172,7 +161,6 @@
 .method public c()Ljava/io/File;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/crashlytics/internal/proto/b;->b:Ljava/io/File;
 
     return-object v0
@@ -188,7 +176,6 @@
 
     monitor-enter p0
 
-    .line 1
     :try_start_0
     iget-boolean v0, p0, Lcom/google/firebase/crashlytics/internal/proto/b;->d:Z
     :try_end_0
@@ -196,7 +183,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 2
     monitor-exit p0
 
     return-void
@@ -204,17 +190,13 @@
     :cond_0
     const/4 v0, 0x1
 
-    .line 3
     :try_start_1
     iput-boolean v0, p0, Lcom/google/firebase/crashlytics/internal/proto/b;->d:Z
 
-    .line 4
     invoke-super {p0}, Ljava/io/FileOutputStream;->flush()V
 
-    .line 5
     invoke-super {p0}, Ljava/io/FileOutputStream;->close()V
 
-    .line 6
     new-instance v0, Ljava/io/File;
 
     new-instance v1, Ljava/lang/StringBuilder;
@@ -235,7 +217,6 @@
 
     invoke-direct {v0, v1}, Ljava/io/File;-><init>(Ljava/lang/String;)V
 
-    .line 7
     iget-object v1, p0, Lcom/google/firebase/crashlytics/internal/proto/b;->b:Ljava/io/File;
 
     invoke-virtual {v1, v0}, Ljava/io/File;->renameTo(Ljava/io/File;)Z
@@ -246,15 +227,12 @@
 
     const/4 v1, 0x0
 
-    .line 8
     iput-object v1, p0, Lcom/google/firebase/crashlytics/internal/proto/b;->b:Ljava/io/File;
 
-    .line 9
     iput-object v0, p0, Lcom/google/firebase/crashlytics/internal/proto/b;->c:Ljava/io/File;
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
-    .line 10
     monitor-exit p0
 
     return-void
@@ -263,14 +241,12 @@
     :try_start_2
     const-string v1, ""
 
-    .line 11
     invoke-virtual {v0}, Ljava/io/File;->exists()Z
 
     move-result v2
 
     if-nez v2, :cond_2
 
-    .line 12
     iget-object v2, p0, Lcom/google/firebase/crashlytics/internal/proto/b;->b:Ljava/io/File;
 
     invoke-virtual {v2}, Ljava/io/File;->exists()Z
@@ -286,7 +262,6 @@
     :cond_2
     const-string v1, " (target already exists)"
 
-    .line 13
     :cond_3
     :goto_0
     new-instance v2, Ljava/io/IOException;

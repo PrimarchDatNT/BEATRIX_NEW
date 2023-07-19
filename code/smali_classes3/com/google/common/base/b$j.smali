@@ -40,10 +40,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Lcom/google/common/base/b;-><init>()V
 
-    .line 2
     invoke-static {p1}, Lcom/google/common/base/t;->E(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -60,7 +58,6 @@
 .method public B(C)Z
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/base/b$j;->b:Lcom/google/common/base/u;
 
     invoke-static {p1}, Ljava/lang/Character;->valueOf(C)Ljava/lang/Character;
@@ -77,7 +74,6 @@
 .method public bridge synthetic apply(Ljava/lang/Object;)Z
     .locals 0
 
-    .line 1
     check-cast p1, Ljava/lang/Character;
 
     invoke-virtual {p0, p1}, Lcom/google/common/base/b$j;->e(Ljava/lang/Character;)Z
@@ -90,7 +86,6 @@
 .method public e(Ljava/lang/Character;)Z
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/base/b$j;->b:Lcom/google/common/base/u;
 
     invoke-static {p1}, Lcom/google/common/base/t;->E(Ljava/lang/Object;)Ljava/lang/Object;
@@ -107,7 +102,6 @@
 .method public toString()Ljava/lang/String;
     .locals 2
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V

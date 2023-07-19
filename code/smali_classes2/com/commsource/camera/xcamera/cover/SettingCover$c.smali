@@ -56,7 +56,6 @@
 
     const-string v1, "it"
 
-    .line 1
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {p1}, Ljava/lang/Boolean;->booleanValue()Z
@@ -65,7 +64,6 @@
 
     if-eqz p1, :cond_3
 
-    .line 2
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/SettingCover$c;->a:Lcom/commsource/camera/xcamera/cover/SettingCover;
 
     invoke-virtual {p1}, Lcom/commsource/camera/xcamera/cover/AbsLazyCover;->A()Landroidx/databinding/ViewDataBinding;
@@ -88,7 +86,6 @@
 
     invoke-virtual {p1, v1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 3
     :cond_0
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/SettingCover$c;->a:Lcom/commsource/camera/xcamera/cover/SettingCover;
 
@@ -112,7 +109,6 @@
 
     invoke-virtual {p1, v1}, Landroid/widget/TextView;->setTextColor(I)V
 
-    .line 4
     :cond_1
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/SettingCover$c;->a:Lcom/commsource/camera/xcamera/cover/SettingCover;
 
@@ -132,7 +128,6 @@
 
     invoke-virtual {p1, v1}, Landroid/widget/TextView;->setTag(Ljava/lang/Object;)V
 
-    .line 5
     :cond_2
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/SettingCover$c;->a:Lcom/commsource/camera/xcamera/cover/SettingCover;
 
@@ -150,7 +145,6 @@
 
     if-eqz p1, :cond_7
 
-    .line 6
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/SettingCover$c;->a:Lcom/commsource/camera/xcamera/cover/SettingCover;
 
     invoke-virtual {p1}, Lcom/commsource/camera/xcamera/cover/SettingCover;->P()Lcom/commsource/camera/xcamera/cover/tips/a;
@@ -177,7 +171,6 @@
 
     goto :goto_0
 
-    .line 7
     :cond_3
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/SettingCover$c;->a:Lcom/commsource/camera/xcamera/cover/SettingCover;
 
@@ -201,7 +194,6 @@
 
     invoke-virtual {p1, v1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 8
     :cond_4
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/SettingCover$c;->a:Lcom/commsource/camera/xcamera/cover/SettingCover;
 
@@ -225,7 +217,6 @@
 
     invoke-virtual {p1, v1}, Landroid/widget/TextView;->setTextColor(I)V
 
-    .line 9
     :cond_5
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/SettingCover$c;->a:Lcom/commsource/camera/xcamera/cover/SettingCover;
 
@@ -245,7 +236,6 @@
 
     invoke-virtual {p1, v1}, Landroid/widget/TextView;->setTag(Ljava/lang/Object;)V
 
-    .line 10
     :cond_6
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/SettingCover$c;->a:Lcom/commsource/camera/xcamera/cover/SettingCover;
 
@@ -263,7 +253,6 @@
 
     if-eqz p1, :cond_7
 
-    .line 11
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/SettingCover$c;->a:Lcom/commsource/camera/xcamera/cover/SettingCover;
 
     invoke-virtual {p1}, Lcom/commsource/camera/xcamera/cover/SettingCover;->P()Lcom/commsource/camera/xcamera/cover/tips/a;
@@ -288,7 +277,6 @@
 
     invoke-static/range {v1 .. v6}, Lcom/commsource/camera/xcamera/cover/tips/a;->R(Lcom/commsource/camera/xcamera/cover/tips/a;Ljava/lang/String;JILjava/lang/Object;)V
 
-    .line 12
     :cond_7
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -303,7 +291,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Ljava/lang/Boolean;
 
     invoke-virtual {p0, p1}, Lcom/commsource/camera/xcamera/cover/SettingCover$c;->a(Ljava/lang/Boolean;)V

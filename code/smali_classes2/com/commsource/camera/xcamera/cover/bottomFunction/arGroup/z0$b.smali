@@ -24,7 +24,6 @@
 .method constructor <init>(Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/z0;Ljava/lang/String;Lcom/meitu/template/bean/ArMaterial;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/z0$b;->p:Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/z0;
 
     iput-object p3, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/z0$b;->g:Lcom/meitu/template/bean/ArMaterial;
@@ -43,7 +42,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/z0$b;->p:Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/z0;
 
     invoke-static {v1}, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/z0;->h(Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/z0;)Lf/k/i0/a/f;
@@ -58,7 +56,6 @@
 
     invoke-interface {v1, v2}, Lf/k/i0/a/f;->u2(Lcom/meitu/template/bean/ArMaterialPaidInfo;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

@@ -30,22 +30,18 @@
 .method protected constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/4 v0, 0x1
 
-    .line 2
     iput-boolean v0, p0, Lcom/meitu/libmtsns/framwork/i/d$l;->a:Z
 
     const/4 v0, 0x0
 
-    .line 3
     iput-boolean v0, p0, Lcom/meitu/libmtsns/framwork/i/d$l;->b:Z
 
     const/4 v0, 0x0
 
-    .line 4
     iput-object v0, p0, Lcom/meitu/libmtsns/framwork/i/d$l;->e:Lcom/meitu/libmtsns/framwork/i/e;
 
     return-void

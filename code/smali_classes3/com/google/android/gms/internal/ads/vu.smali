@@ -78,7 +78,6 @@
 
     move-object/from16 v0, p0
 
-    .line 1
     iget-object v1, v0, Lcom/google/android/gms/internal/ads/vu;->a:Landroid/content/Context;
 
     iget-object v2, v0, Lcom/google/android/gms/internal/ads/vu;->b:Lcom/google/android/gms/internal/ads/dw;
@@ -105,7 +104,6 @@
 
     iget-boolean v13, v0, Lcom/google/android/gms/internal/ads/vu;->m:Z
 
-    .line 2
     new-instance v11, Lcom/google/android/gms/internal/ads/zzbgc;
 
     move v5, v14
@@ -114,27 +112,22 @@
 
     move-object v11, v15
 
-    .line 3
     invoke-static/range {v1 .. v13}, Lcom/google/android/gms/internal/ads/zzbgd;->Q0(Landroid/content/Context;Lcom/google/android/gms/internal/ads/dw;Ljava/lang/String;ZZLcom/google/android/gms/internal/ads/d12;Lcom/google/android/gms/internal/ads/zzbbd;Lcom/google/android/gms/internal/ads/j0;Lcom/google/android/gms/ads/internal/h;Lcom/google/android/gms/ads/internal/a;Lcom/google/android/gms/internal/ads/mk2;Lcom/google/android/gms/internal/ads/pj2;Z)Lcom/google/android/gms/internal/ads/zzbgd;
 
     move-result-object v1
 
     invoke-direct {v0, v1}, Lcom/google/android/gms/internal/ads/zzbgc;-><init>(Lcom/google/android/gms/internal/ads/lu;)V
 
-    .line 4
     invoke-static {}, Lcom/google/android/gms/ads/internal/p;->e()Lcom/google/android/gms/internal/ads/hn;
 
     move-result-object v1
 
-    .line 5
     invoke-virtual {v1, v0, v15, v14}, Lcom/google/android/gms/internal/ads/hn;->f(Lcom/google/android/gms/internal/ads/lu;Lcom/google/android/gms/internal/ads/mk2;Z)Lcom/google/android/gms/internal/ads/ou;
 
     move-result-object v1
 
-    .line 6
     invoke-interface {v0, v1}, Lcom/google/android/gms/internal/ads/lu;->setWebViewClient(Landroid/webkit/WebViewClient;)V
 
-    .line 7
     new-instance v1, Lcom/google/android/gms/internal/ads/du;
 
     invoke-direct {v1, v0}, Lcom/google/android/gms/internal/ads/du;-><init>(Lcom/google/android/gms/internal/ads/lu;)V

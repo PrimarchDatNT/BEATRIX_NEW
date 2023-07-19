@@ -25,10 +25,8 @@
 .method public constructor <init>(Ljava/lang/String;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/google/android/gms/internal/ads/gb1;->a:Ljava/lang/String;
 
     return-void
@@ -39,18 +37,15 @@
 .method public final synthetic b(Ljava/lang/Object;)V
     .locals 2
 
-    .line 1
     check-cast p1, Lorg/json/JSONObject;
 
     :try_start_0
     const-string v0, "pii"
 
-    .line 2
     invoke-static {p1, v0}, Lcom/google/android/gms/internal/ads/vo;->k(Lorg/json/JSONObject;Ljava/lang/String;)Lorg/json/JSONObject;
 
     move-result-object p1
 
-    .line 3
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/gb1;->a:Ljava/lang/String;
 
     invoke-static {v0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
@@ -61,7 +56,6 @@
 
     const-string v0, "attok"
 
-    .line 4
     iget-object v1, p0, Lcom/google/android/gms/internal/ads/gb1;->a:Ljava/lang/String;
 
     invoke-virtual {p1, v0, v1}, Lorg/json/JSONObject;->put(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;
@@ -76,7 +70,6 @@
 
     const-string v0, "Failed putting attestation token."
 
-    .line 5
     invoke-static {v0, p1}, Lcom/google/android/gms/internal/ads/sm;->l(Ljava/lang/String;Ljava/lang/Throwable;)V
 
     return-void

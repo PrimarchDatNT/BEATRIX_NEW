@@ -42,14 +42,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/home/NewHomeActivity$r;->a:Lcom/commsource/home/NewHomeActivity;
 
     const-wide/16 v2, 0x7530
 
     invoke-static {v1, v2, v3}, Lcom/commsource/home/NewHomeActivity;->g1(Lcom/commsource/home/NewHomeActivity;J)V
 
-    .line 2
     sget-object v1, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/SubscribeInfo;->g:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/SubscribeInfo$a;
 
     invoke-virtual {v1}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/SubscribeInfo$a;->a()Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/SubscribeInfo;
@@ -60,7 +58,6 @@
 
     invoke-virtual {v4, v5}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/SubscribeInfo;->h(I)V
 
-    .line 3
     invoke-virtual {v1}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/SubscribeInfo$a;->a()Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/SubscribeInfo;
 
     move-result-object v1
@@ -73,7 +70,6 @@
 
     invoke-virtual {v1, v4, v5}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/SubscribeInfo;->i(J)V
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/home/NewHomeActivity$r;->a:Lcom/commsource/home/NewHomeActivity;
 
     invoke-static {v1}, Lcom/commsource/home/NewHomeActivity;->O0(Lcom/commsource/home/NewHomeActivity;)Lcom/commsource/home/a;
@@ -86,7 +82,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/home/a;->w(Ljava/lang/String;)V
 
-    .line 5
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

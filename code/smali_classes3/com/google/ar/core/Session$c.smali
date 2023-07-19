@@ -101,7 +101,6 @@
 .method static constructor <clinit>()V
     .locals 40
 
-    .line 1
     new-instance v0, Lcom/google/ar/core/Session$c;
 
     const-string v1, "SUCCESS"
@@ -114,7 +113,6 @@
 
     sput-object v0, Lcom/google/ar/core/Session$c;->a:Lcom/google/ar/core/Session$c;
 
-    .line 2
     new-instance v1, Lcom/google/ar/core/Session$c;
 
     const-class v3, Ljava/lang/IllegalArgumentException;
@@ -129,7 +127,6 @@
 
     sput-object v1, Lcom/google/ar/core/Session$c;->b:Lcom/google/ar/core/Session$c;
 
-    .line 3
     new-instance v3, Lcom/google/ar/core/Session$c;
 
     const-class v4, Lcom/google/ar/core/exceptions/FatalException;
@@ -144,7 +141,6 @@
 
     sput-object v3, Lcom/google/ar/core/Session$c;->c:Lcom/google/ar/core/Session$c;
 
-    .line 4
     new-instance v4, Lcom/google/ar/core/Session$c;
 
     const-class v6, Lcom/google/ar/core/exceptions/SessionPausedException;
@@ -159,7 +155,6 @@
 
     sput-object v4, Lcom/google/ar/core/Session$c;->m:Lcom/google/ar/core/Session$c;
 
-    .line 5
     new-instance v6, Lcom/google/ar/core/Session$c;
 
     const-class v8, Lcom/google/ar/core/exceptions/SessionNotPausedException;
@@ -174,7 +169,6 @@
 
     sput-object v6, Lcom/google/ar/core/Session$c;->n:Lcom/google/ar/core/Session$c;
 
-    .line 6
     new-instance v8, Lcom/google/ar/core/Session$c;
 
     const-class v10, Lcom/google/ar/core/exceptions/NotTrackingException;
@@ -189,7 +183,6 @@
 
     sput-object v8, Lcom/google/ar/core/Session$c;->o:Lcom/google/ar/core/Session$c;
 
-    .line 7
     new-instance v10, Lcom/google/ar/core/Session$c;
 
     const-class v12, Lcom/google/ar/core/exceptions/TextureNotSetException;
@@ -204,7 +197,6 @@
 
     sput-object v10, Lcom/google/ar/core/Session$c;->p:Lcom/google/ar/core/Session$c;
 
-    .line 8
     new-instance v12, Lcom/google/ar/core/Session$c;
 
     const-class v13, Lcom/google/ar/core/exceptions/MissingGlContextException;
@@ -219,7 +211,6 @@
 
     sput-object v12, Lcom/google/ar/core/Session$c;->q:Lcom/google/ar/core/Session$c;
 
-    .line 9
     new-instance v11, Lcom/google/ar/core/Session$c;
 
     const-class v13, Lcom/google/ar/core/exceptions/UnsupportedConfigurationException;
@@ -234,7 +225,6 @@
 
     sput-object v11, Lcom/google/ar/core/Session$c;->r:Lcom/google/ar/core/Session$c;
 
-    .line 10
     new-instance v9, Lcom/google/ar/core/Session$c;
 
     const-class v20, Ljava/lang/SecurityException;
@@ -253,7 +243,6 @@
 
     sput-object v9, Lcom/google/ar/core/Session$c;->s:Lcom/google/ar/core/Session$c;
 
-    .line 11
     new-instance v13, Lcom/google/ar/core/Session$c;
 
     const-class v14, Lcom/google/ar/core/exceptions/DeadlineExceededException;
@@ -268,7 +257,6 @@
 
     sput-object v13, Lcom/google/ar/core/Session$c;->t:Lcom/google/ar/core/Session$c;
 
-    .line 12
     new-instance v5, Lcom/google/ar/core/Session$c;
 
     const-class v14, Lcom/google/ar/core/exceptions/ResourceExhaustedException;
@@ -283,7 +271,6 @@
 
     sput-object v5, Lcom/google/ar/core/Session$c;->d:Lcom/google/ar/core/Session$c;
 
-    .line 13
     new-instance v2, Lcom/google/ar/core/Session$c;
 
     const-class v14, Lcom/google/ar/core/exceptions/NotYetAvailableException;
@@ -300,7 +287,6 @@
 
     sput-object v2, Lcom/google/ar/core/Session$c;->u:Lcom/google/ar/core/Session$c;
 
-    .line 14
     new-instance v5, Lcom/google/ar/core/Session$c;
 
     const-class v14, Lcom/google/ar/core/exceptions/CameraNotAvailableException;
@@ -317,7 +303,6 @@
 
     sput-object v5, Lcom/google/ar/core/Session$c;->v:Lcom/google/ar/core/Session$c;
 
-    .line 15
     new-instance v2, Lcom/google/ar/core/Session$c;
 
     const-class v14, Lcom/google/ar/core/exceptions/AnchorNotSupportedForHostingException;
@@ -334,7 +319,6 @@
 
     sput-object v2, Lcom/google/ar/core/Session$c;->w:Lcom/google/ar/core/Session$c;
 
-    .line 16
     new-instance v5, Lcom/google/ar/core/Session$c;
 
     const-class v14, Lcom/google/ar/core/exceptions/ImageInsufficientQualityException;
@@ -351,7 +335,6 @@
 
     sput-object v5, Lcom/google/ar/core/Session$c;->x:Lcom/google/ar/core/Session$c;
 
-    .line 17
     new-instance v2, Lcom/google/ar/core/Session$c;
 
     const-class v14, Lcom/google/ar/core/exceptions/DataInvalidFormatException;
@@ -368,7 +351,6 @@
 
     sput-object v2, Lcom/google/ar/core/Session$c;->y:Lcom/google/ar/core/Session$c;
 
-    .line 18
     new-instance v5, Lcom/google/ar/core/Session$c;
 
     const-class v14, Lcom/google/ar/core/exceptions/DataUnsupportedVersionException;
@@ -385,7 +367,6 @@
 
     sput-object v5, Lcom/google/ar/core/Session$c;->z:Lcom/google/ar/core/Session$c;
 
-    .line 19
     new-instance v2, Lcom/google/ar/core/Session$c;
 
     const-class v14, Ljava/lang/IllegalStateException;
@@ -402,7 +383,6 @@
 
     sput-object v2, Lcom/google/ar/core/Session$c;->A:Lcom/google/ar/core/Session$c;
 
-    .line 20
     new-instance v5, Lcom/google/ar/core/Session$c;
 
     const-class v14, Lcom/google/ar/core/exceptions/RecordingFailedException;
@@ -419,7 +399,6 @@
 
     sput-object v5, Lcom/google/ar/core/Session$c;->B:Lcom/google/ar/core/Session$c;
 
-    .line 21
     new-instance v2, Lcom/google/ar/core/Session$c;
 
     const-class v14, Lcom/google/ar/core/exceptions/CloudAnchorsNotConfiguredException;
@@ -436,7 +415,6 @@
 
     sput-object v2, Lcom/google/ar/core/Session$c;->C:Lcom/google/ar/core/Session$c;
 
-    .line 22
     new-instance v5, Lcom/google/ar/core/Session$c;
 
     const-class v35, Ljava/lang/SecurityException;
@@ -455,7 +433,6 @@
 
     sput-object v5, Lcom/google/ar/core/Session$c;->D:Lcom/google/ar/core/Session$c;
 
-    .line 23
     new-instance v14, Lcom/google/ar/core/Session$c;
 
     const-class v15, Lcom/google/ar/core/exceptions/UnavailableArcoreNotInstalledException;
@@ -474,7 +451,6 @@
 
     sput-object v14, Lcom/google/ar/core/Session$c;->e:Lcom/google/ar/core/Session$c;
 
-    .line 24
     new-instance v2, Lcom/google/ar/core/Session$c;
 
     const-class v7, Lcom/google/ar/core/exceptions/UnavailableDeviceNotCompatibleException;
@@ -491,7 +467,6 @@
 
     sput-object v2, Lcom/google/ar/core/Session$c;->f:Lcom/google/ar/core/Session$c;
 
-    .line 25
     new-instance v7, Lcom/google/ar/core/Session$c;
 
     const-class v14, Lcom/google/ar/core/exceptions/UnavailableApkTooOldException;
@@ -508,7 +483,6 @@
 
     sput-object v7, Lcom/google/ar/core/Session$c;->g:Lcom/google/ar/core/Session$c;
 
-    .line 26
     new-instance v2, Lcom/google/ar/core/Session$c;
 
     const-class v5, Lcom/google/ar/core/exceptions/UnavailableSdkTooOldException;
@@ -525,7 +499,6 @@
 
     sput-object v2, Lcom/google/ar/core/Session$c;->h:Lcom/google/ar/core/Session$c;
 
-    .line 27
     new-instance v5, Lcom/google/ar/core/Session$c;
 
     const-class v7, Lcom/google/ar/core/exceptions/UnavailableUserDeclinedInstallationException;
@@ -654,7 +627,6 @@
 
     aput-object v5, v2, v0
 
-    .line 28
     sput-object v2, Lcom/google/ar/core/Session$c;->E:[Lcom/google/ar/core/Session$c;
 
     return-void
@@ -684,7 +656,6 @@
 
     move-object v4, p4
 
-    .line 1
     invoke-direct/range {v0 .. v5}, Lcom/google/ar/core/Session$c;-><init>(Ljava/lang/String;IILjava/lang/Class;Ljava/lang/String;)V
 
     return-void
@@ -704,16 +675,12 @@
         }
     .end annotation
 
-    .line 2
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 3
     iput p3, p0, Lcom/google/ar/core/Session$c;->j:I
 
-    .line 4
     iput-object p4, p0, Lcom/google/ar/core/Session$c;->k:Ljava/lang/Class;
 
-    .line 5
     iput-object p5, p0, Lcom/google/ar/core/Session$c;->l:Ljava/lang/String;
 
     return-void
@@ -722,7 +689,6 @@
 .method public static values()[Lcom/google/ar/core/Session$c;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/google/ar/core/Session$c;->E:[Lcom/google/ar/core/Session$c;
 
     invoke-virtual {v0}, [Lcom/google/ar/core/Session$c;->clone()Ljava/lang/Object;

@@ -25,7 +25,6 @@
 .method constructor <init>(Lf/n/a/c/k$c;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lf/n/a/c/k$c$a;->a:Lf/n/a/c/k$c;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -38,7 +37,6 @@
 .method public run()V
     .locals 8
 
-    .line 1
     iget-object v0, p0, Lf/n/a/c/k$c$a;->a:Lf/n/a/c/k$c;
 
     iget-object v0, v0, Lf/n/a/c/k$c;->f:Lf/n/a/c/k;

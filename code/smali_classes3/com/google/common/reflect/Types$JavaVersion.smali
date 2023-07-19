@@ -40,7 +40,6 @@
 .method static constructor <clinit>()V
     .locals 9
 
-    .line 1
     new-instance v0, Lcom/google/common/reflect/Types$JavaVersion$1;
 
     const-string v1, "JAVA6"
@@ -51,7 +50,6 @@
 
     sput-object v0, Lcom/google/common/reflect/Types$JavaVersion;->JAVA6:Lcom/google/common/reflect/Types$JavaVersion;
 
-    .line 2
     new-instance v1, Lcom/google/common/reflect/Types$JavaVersion$2;
 
     const-string v3, "JAVA7"
@@ -62,7 +60,6 @@
 
     sput-object v1, Lcom/google/common/reflect/Types$JavaVersion;->JAVA7:Lcom/google/common/reflect/Types$JavaVersion;
 
-    .line 3
     new-instance v3, Lcom/google/common/reflect/Types$JavaVersion$3;
 
     const-string v5, "JAVA8"
@@ -73,7 +70,6 @@
 
     sput-object v3, Lcom/google/common/reflect/Types$JavaVersion;->JAVA8:Lcom/google/common/reflect/Types$JavaVersion;
 
-    .line 4
     new-instance v5, Lcom/google/common/reflect/Types$JavaVersion$4;
 
     const-string v7, "JAVA9"
@@ -96,10 +92,8 @@
 
     aput-object v5, v7, v8
 
-    .line 5
     sput-object v7, Lcom/google/common/reflect/Types$JavaVersion;->$VALUES:[Lcom/google/common/reflect/Types$JavaVersion;
 
-    .line 6
     const-class v2, Ljava/lang/reflect/AnnotatedElement;
 
     const-class v4, Ljava/lang/reflect/TypeVariable;
@@ -110,7 +104,6 @@
 
     if-eqz v2, :cond_1
 
-    .line 7
     new-instance v0, Lcom/google/common/reflect/Types$JavaVersion$a;
 
     invoke-direct {v0}, Lcom/google/common/reflect/Types$JavaVersion$a;-><init>()V
@@ -119,32 +112,27 @@
 
     move-result-object v0
 
-    .line 8
     invoke-virtual {v0}, Ljava/lang/Object;->toString()Ljava/lang/String;
 
     move-result-object v0
 
     const-string v1, "java.util.Map.java.util.Map"
 
-    .line 9
     invoke-virtual {v0, v1}, Ljava/lang/String;->contains(Ljava/lang/CharSequence;)Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
-    .line 10
     sput-object v3, Lcom/google/common/reflect/Types$JavaVersion;->CURRENT:Lcom/google/common/reflect/Types$JavaVersion;
 
     goto :goto_0
 
-    .line 11
     :cond_0
     sput-object v5, Lcom/google/common/reflect/Types$JavaVersion;->CURRENT:Lcom/google/common/reflect/Types$JavaVersion;
 
     goto :goto_0
 
-    .line 12
     :cond_1
     new-instance v2, Lcom/google/common/reflect/Types$JavaVersion$b;
 
@@ -158,12 +146,10 @@
 
     if-eqz v2, :cond_2
 
-    .line 13
     sput-object v1, Lcom/google/common/reflect/Types$JavaVersion;->CURRENT:Lcom/google/common/reflect/Types$JavaVersion;
 
     goto :goto_0
 
-    .line 14
     :cond_2
     sput-object v0, Lcom/google/common/reflect/Types$JavaVersion;->CURRENT:Lcom/google/common/reflect/Types$JavaVersion;
 
@@ -179,7 +165,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
     return-void
@@ -188,7 +173,6 @@
 .method synthetic constructor <init>(Ljava/lang/String;ILcom/google/common/reflect/Types$a;)V
     .locals 0
 
-    .line 2
     invoke-direct {p0, p1, p2}, Lcom/google/common/reflect/Types$JavaVersion;-><init>(Ljava/lang/String;I)V
 
     return-void
@@ -197,7 +181,6 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/google/common/reflect/Types$JavaVersion;
     .locals 1
 
-    .line 1
     const-class v0, Lcom/google/common/reflect/Types$JavaVersion;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -212,7 +195,6 @@
 .method public static values()[Lcom/google/common/reflect/Types$JavaVersion;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/google/common/reflect/Types$JavaVersion;->$VALUES:[Lcom/google/common/reflect/Types$JavaVersion;
 
     invoke-virtual {v0}, [Lcom/google/common/reflect/Types$JavaVersion;->clone()Ljava/lang/Object;
@@ -240,7 +222,6 @@
 .method typeName(Ljava/lang/reflect/Type;)Ljava/lang/String;
     .locals 0
 
-    .line 1
     invoke-static {p1}, Lcom/google/common/reflect/Types;->t(Ljava/lang/reflect/Type;)Ljava/lang/String;
 
     move-result-object p1
@@ -261,12 +242,10 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {}, Lcom/google/common/collect/ImmutableList;->builder()Lcom/google/common/collect/ImmutableList$a;
 
     move-result-object v0
 
-    .line 2
     array-length v1, p1
 
     const/4 v2, 0x0
@@ -276,7 +255,6 @@
 
     aget-object v3, p1, v2
 
-    .line 3
     invoke-virtual {p0, v3}, Lcom/google/common/reflect/Types$JavaVersion;->usedInGenericType(Ljava/lang/reflect/Type;)Ljava/lang/reflect/Type;
 
     move-result-object v3
@@ -287,7 +265,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_0
     invoke-virtual {v0}, Lcom/google/common/collect/ImmutableList$a;->m()Lcom/google/common/collect/ImmutableList;
 

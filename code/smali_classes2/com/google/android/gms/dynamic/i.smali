@@ -23,7 +23,6 @@
 .method constructor <init>(Lcom/google/android/gms/dynamic/a;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/android/gms/dynamic/i;->a:Lcom/google/android/gms/dynamic/a;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -41,12 +40,10 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/dynamic/i;->a:Lcom/google/android/gms/dynamic/a;
 
     invoke-static {v0, p1}, Lcom/google/android/gms/dynamic/a;->q(Lcom/google/android/gms/dynamic/a;Lcom/google/android/gms/dynamic/e;)Lcom/google/android/gms/dynamic/e;
 
-    .line 2
     iget-object p1, p0, Lcom/google/android/gms/dynamic/i;->a:Lcom/google/android/gms/dynamic/a;
 
     invoke-static {p1}, Lcom/google/android/gms/dynamic/a;->r(Lcom/google/android/gms/dynamic/a;)Ljava/util/LinkedList;
@@ -70,7 +67,6 @@
 
     check-cast v0, Lcom/google/android/gms/dynamic/a$a;
 
-    .line 3
     iget-object v1, p0, Lcom/google/android/gms/dynamic/i;->a:Lcom/google/android/gms/dynamic/a;
 
     invoke-static {v1}, Lcom/google/android/gms/dynamic/a;->t(Lcom/google/android/gms/dynamic/a;)Lcom/google/android/gms/dynamic/e;
@@ -81,7 +77,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_0
     iget-object p1, p0, Lcom/google/android/gms/dynamic/i;->a:Lcom/google/android/gms/dynamic/a;
 
@@ -91,7 +86,6 @@
 
     invoke-virtual {p1}, Ljava/util/LinkedList;->clear()V
 
-    .line 5
     iget-object p1, p0, Lcom/google/android/gms/dynamic/i;->a:Lcom/google/android/gms/dynamic/a;
 
     const/4 v0, 0x0

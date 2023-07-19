@@ -23,7 +23,6 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
     new-instance v0, Lorg/apache/http/impl/DefaultHttpResponseFactory;
 
     invoke-direct {v0}, Lorg/apache/http/impl/DefaultHttpResponseFactory;-><init>()V
@@ -36,7 +35,6 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 3
     sget-object v0, Lorg/apache/http/impl/EnglishReasonPhraseCatalog;->INSTANCE:Lorg/apache/http/impl/EnglishReasonPhraseCatalog;
 
     invoke-direct {p0, v0}, Lorg/apache/http/impl/DefaultHttpResponseFactory;-><init>(Lorg/apache/http/ReasonPhraseCatalog;)V
@@ -47,12 +45,10 @@
 .method public constructor <init>(Lorg/apache/http/ReasonPhraseCatalog;)V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const-string v0, "Reason phrase catalog"
 
-    .line 2
     invoke-static {p1, v0}, Lorg/apache/http/util/Args;->notNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
 
     move-result-object p1
@@ -69,7 +65,6 @@
 .method protected determineLocale(Lorg/apache/http/protocol/HttpContext;)Ljava/util/Locale;
     .locals 0
 
-    .line 1
     invoke-static {}, Ljava/util/Locale;->getDefault()Ljava/util/Locale;
 
     move-result-object p1
@@ -82,27 +77,22 @@
 
     const-string v0, "HTTP version"
 
-    .line 1
     invoke-static {p1, v0}, Lorg/apache/http/util/Args;->notNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
 
-    .line 2
     invoke-virtual {p0, p3}, Lorg/apache/http/impl/DefaultHttpResponseFactory;->determineLocale(Lorg/apache/http/protocol/HttpContext;)Ljava/util/Locale;
 
     move-result-object p3
 
-    .line 3
     iget-object v0, p0, Lorg/apache/http/impl/DefaultHttpResponseFactory;->reasonCatalog:Lorg/apache/http/ReasonPhraseCatalog;
 
     invoke-interface {v0, p2, p3}, Lorg/apache/http/ReasonPhraseCatalog;->getReason(ILjava/util/Locale;)Ljava/lang/String;
 
     move-result-object v0
 
-    .line 4
     new-instance v1, Lorg/apache/http/message/BasicStatusLine;
 
     invoke-direct {v1, p1, p2, v0}, Lorg/apache/http/message/BasicStatusLine;-><init>(Lorg/apache/http/ProtocolVersion;ILjava/lang/String;)V
 
-    .line 5
     new-instance p1, Lorg/apache/http/message/BasicHttpResponse;
 
     iget-object p2, p0, Lorg/apache/http/impl/DefaultHttpResponseFactory;->reasonCatalog:Lorg/apache/http/ReasonPhraseCatalog;
@@ -117,10 +107,8 @@
 
     const-string v0, "Status line"
 
-    .line 6
     invoke-static {p1, v0}, Lorg/apache/http/util/Args;->notNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
 
-    .line 7
     new-instance v0, Lorg/apache/http/message/BasicHttpResponse;
 
     iget-object v1, p0, Lorg/apache/http/impl/DefaultHttpResponseFactory;->reasonCatalog:Lorg/apache/http/ReasonPhraseCatalog;

@@ -27,7 +27,6 @@
 .method constructor <init>(Lcom/commsource/push/bean/a;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/home/homepagedialog/f$d;->a:Lcom/commsource/push/bean/a;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -44,7 +43,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/home/homepagedialog/f$d;->a:Lcom/commsource/push/bean/a;
 
     iget v1, v1, Lcom/commsource/push/bean/a;->g:I
@@ -57,10 +55,8 @@
 
     const-string v3, "APP\u9996\u9875\u56fe\u7247\u5f39\u7a97"
 
-    .line 2
     invoke-static {v2, v3, v1}, Lcom/commsource/statistics/i;->r(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 3
     sget-object v1, Lcom/meitu/library/hwanalytics/spm/SPMManager;->h:Lcom/meitu/library/hwanalytics/spm/SPMManager$a;
 
     invoke-virtual {v1}, Lcom/meitu/library/hwanalytics/spm/SPMManager$a;->a()Lcom/meitu/library/hwanalytics/spm/SPMManager;
@@ -73,7 +69,6 @@
 
     if-eqz v1, :cond_0
 
-    .line 4
     new-instance v2, Ljava/lang/StringBuilder;
 
     invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
@@ -94,7 +89,6 @@
 
     invoke-virtual {v1, v2}, Lcom/meitu/library/hwanalytics/spm/e/a;->p(Ljava/lang/String;)V
 
-    .line 5
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -108,7 +102,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/home/homepagedialog/f$d;->a:Lcom/commsource/push/bean/a;
 
     iget v1, v1, Lcom/commsource/push/bean/a;->g:I
@@ -121,10 +114,8 @@
 
     const-string v3, "APP\u9996\u9875\u56fe\u7247\u5f39\u7a97"
 
-    .line 2
     invoke-static {v2, v3, v1}, Lcom/commsource/statistics/i;->r(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

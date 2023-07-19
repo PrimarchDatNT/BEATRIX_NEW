@@ -40,10 +40,8 @@
 .method private constructor <init>()V
     .locals 1
 
-    .line 2
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 3
     new-instance v0, Ljava/util/HashMap;
 
     invoke-direct {v0}, Ljava/util/HashMap;-><init>()V
@@ -52,17 +50,14 @@
 
     const/4 v0, 0x0
 
-    .line 4
     iput-char v0, p0, Lf/f/e/b/g$c;->b:C
 
     const v0, 0xffff
 
-    .line 5
     iput-char v0, p0, Lf/f/e/b/g$c;->c:C
 
     const/4 v0, 0x0
 
-    .line 6
     iput-object v0, p0, Lf/f/e/b/g$c;->d:Ljava/lang/String;
 
     return-void
@@ -71,7 +66,6 @@
 .method synthetic constructor <init>(Lf/f/e/b/g$a;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lf/f/e/b/g$c;-><init>()V
 
     return-void
@@ -80,7 +74,6 @@
 .method static synthetic a(Lf/f/e/b/g$c;)Ljava/lang/String;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lf/f/e/b/g$c;->d:Ljava/lang/String;
 
     return-object p0
@@ -93,10 +86,8 @@
     .annotation build Lf/f/f/a/a;
     .end annotation
 
-    .line 1
     invoke-static {p2}, Lcom/google/common/base/t;->E(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 2
     iget-object v0, p0, Lf/f/e/b/g$c;->a:Ljava/util/Map;
 
     invoke-static {p1}, Ljava/lang/Character;->valueOf(C)Ljava/lang/Character;
@@ -111,7 +102,6 @@
 .method public c()Lf/f/e/b/f;
     .locals 4
 
-    .line 1
     new-instance v0, Lf/f/e/b/g$c$a;
 
     iget-object v1, p0, Lf/f/e/b/g$c;->a:Ljava/util/Map;
@@ -130,10 +120,8 @@
     .annotation build Lf/f/f/a/a;
     .end annotation
 
-    .line 1
     iput-char p1, p0, Lf/f/e/b/g$c;->b:C
 
-    .line 2
     iput-char p2, p0, Lf/f/e/b/g$c;->c:C
 
     return-object p0
@@ -148,7 +136,6 @@
     .annotation build Lf/f/f/a/a;
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lf/f/e/b/g$c;->d:Ljava/lang/String;
 
     return-object p0

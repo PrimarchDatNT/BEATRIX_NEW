@@ -7,7 +7,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -27,12 +26,10 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/google/android/gms/internal/ads/ek2;
 
     invoke-direct {v0, p0}, Lcom/google/android/gms/internal/ads/ek2;-><init>(Landroid/content/Context;)V
 
-    .line 2
     invoke-virtual {v0, p1}, Lcom/google/android/gms/internal/ads/ek2;->e(Lcom/google/android/gms/internal/ads/zzsy;)Ljava/util/concurrent/Future;
 
     move-result-object p0

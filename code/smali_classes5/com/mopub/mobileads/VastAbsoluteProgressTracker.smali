@@ -61,7 +61,6 @@
 
     const-string v0, "\\d{2}:\\d{2}:\\d{2}(.\\d{3})?"
 
-    .line 1
     invoke-static {v0}, Ljava/util/regex/Pattern;->compile(Ljava/lang/String;)Ljava/util/regex/Pattern;
 
     move-result-object v0
@@ -90,7 +89,6 @@
 
     invoke-static {p3, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-direct {p0, p2, p3, p4}, Lcom/mopub/mobileads/VastTracker;-><init>(Ljava/lang/String;Lcom/mopub/mobileads/VastTracker$MessageType;Z)V
 
     iput p1, p0, Lcom/mopub/mobileads/VastAbsoluteProgressTracker;->trackingMilliseconds:I
@@ -101,7 +99,6 @@
 .method public static final synthetic access$getAbsolutePattern$cp()Ljava/util/regex/Pattern;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/mopub/mobileads/VastAbsoluteProgressTracker;->absolutePattern:Ljava/util/regex/Pattern;
 
     return-object v0
@@ -120,7 +117,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 2
     iget v0, p0, Lcom/mopub/mobileads/VastAbsoluteProgressTracker;->trackingMilliseconds:I
 
     iget p1, p1, Lcom/mopub/mobileads/VastAbsoluteProgressTracker;->trackingMilliseconds:I
@@ -135,7 +131,6 @@
 .method public bridge synthetic compareTo(Ljava/lang/Object;)I
     .locals 0
 
-    .line 1
     check-cast p1, Lcom/mopub/mobileads/VastAbsoluteProgressTracker;
 
     invoke-virtual {p0, p1}, Lcom/mopub/mobileads/VastAbsoluteProgressTracker;->compareTo(Lcom/mopub/mobileads/VastAbsoluteProgressTracker;)I
@@ -148,7 +143,6 @@
 .method public final getTrackingMilliseconds()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lcom/mopub/mobileads/VastAbsoluteProgressTracker;->trackingMilliseconds:I
 
     return v0
@@ -159,7 +153,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V

@@ -72,19 +72,16 @@
 
     invoke-static {p2, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/video/render/RenderTextureView$a;->c:Lcom/commsource/video/render/RenderTextureView;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     new-instance p1, Ljava/lang/ref/WeakReference;
 
     invoke-direct {p1, p2}, Ljava/lang/ref/WeakReference;-><init>(Ljava/lang/Object;)V
 
     iput-object p1, p0, Lcom/commsource/video/render/RenderTextureView$a;->b:Ljava/lang/ref/WeakReference;
 
-    .line 3
     new-instance p1, Ljava/lang/ref/WeakReference;
 
     new-instance p2, Landroid/view/Surface;
@@ -115,24 +112,20 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/video/render/RenderTextureView$a;->d()Lcom/commsource/video/render/RenderTextureView;
 
     move-result-object v1
 
-    .line 2
     iget-object v2, p0, Lcom/commsource/video/render/RenderTextureView$a;->a:Ljava/lang/ref/WeakReference;
 
     if-eqz v2, :cond_7
 
     if-eqz v1, :cond_7
 
-    .line 3
     invoke-virtual {v1}, Lcom/commsource/video/render/RenderTextureView;->getOwnSurfaceTexture()Landroid/graphics/SurfaceTexture;
 
     move-result-object v2
 
-    .line 4
     invoke-virtual {v1}, Landroid/view/TextureView;->getSurfaceTexture()Landroid/graphics/SurfaceTexture;
 
     move-result-object v3
@@ -141,14 +134,12 @@
 
     if-eqz v2, :cond_0
 
-    .line 5
     sget v5, Landroid/os/Build$VERSION;->SDK_INT:I
 
     const/16 v6, 0x1a
 
     if-lt v5, v6, :cond_0
 
-    .line 6
     invoke-virtual {v2}, Landroid/graphics/SurfaceTexture;->isReleased()Z
 
     move-result v5
@@ -167,7 +158,6 @@
 
     const/4 v4, 0x1
 
-    .line 7
     :cond_1
     invoke-virtual {v1}, Lcom/commsource/video/render/RenderTextureView;->m()Z
 
@@ -177,7 +167,6 @@
 
     if-eqz v4, :cond_5
 
-    .line 8
     invoke-static {v2, v3}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v3
@@ -188,7 +177,6 @@
 
     if-nez v2, :cond_2
 
-    .line 9
     invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_2
@@ -196,7 +184,6 @@
 
     goto :goto_2
 
-    .line 10
     :cond_3
     invoke-static {v1}, Lcom/commsource/video/render/RenderTextureView;->i(Lcom/commsource/video/render/RenderTextureView;)Landroid/view/Surface;
 
@@ -204,24 +191,19 @@
 
     if-eqz v3, :cond_4
 
-    .line 11
     invoke-virtual {v3}, Landroid/view/Surface;->release()V
 
-    .line 12
     :cond_4
     new-instance v3, Landroid/view/Surface;
 
     invoke-direct {v3, v2}, Landroid/view/Surface;-><init>(Landroid/graphics/SurfaceTexture;)V
 
-    .line 13
     invoke-interface {p1, v3}, Lcom/commsource/video/decoder/b;->setSurface(Landroid/view/Surface;)V
 
-    .line 14
     invoke-static {v1, v3}, Lcom/commsource/video/render/RenderTextureView;->l(Lcom/commsource/video/render/RenderTextureView;Landroid/view/Surface;)V
 
     goto :goto_2
 
-    .line 15
     :cond_5
     iget-object v2, p0, Lcom/commsource/video/render/RenderTextureView$a;->a:Ljava/lang/ref/WeakReference;
 
@@ -241,13 +223,10 @@
     :goto_1
     if-eqz v2, :cond_7
 
-    .line 16
     invoke-interface {p1, v2}, Lcom/commsource/video/decoder/b;->setSurface(Landroid/view/Surface;)V
 
-    .line 17
     invoke-static {v1, v2}, Lcom/commsource/video/render/RenderTextureView;->l(Lcom/commsource/video/render/RenderTextureView;Landroid/view/Surface;)V
 
-    .line 18
     :cond_7
     :goto_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -273,7 +252,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/video/render/RenderTextureView$a;->a:Ljava/lang/ref/WeakReference;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -299,7 +277,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/video/render/RenderTextureView$a;->b:Ljava/lang/ref/WeakReference;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -316,7 +293,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/video/render/RenderTextureView$a;->b:Ljava/lang/ref/WeakReference;
 
     if-eqz v1, :cond_0
@@ -357,7 +333,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/video/render/RenderTextureView$a;->a:Ljava/lang/ref/WeakReference;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -384,7 +359,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/video/render/RenderTextureView$a;->b:Ljava/lang/ref/WeakReference;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

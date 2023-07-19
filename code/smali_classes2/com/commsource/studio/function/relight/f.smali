@@ -39,17 +39,14 @@
 
     move-object/from16 v0, p0
 
-    .line 1
     invoke-direct/range {p0 .. p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     new-instance v1, Ljava/util/ArrayList;
 
     invoke-direct {v1}, Ljava/util/ArrayList;-><init>()V
 
     iput-object v1, v0, Lcom/commsource/studio/function/relight/f;->a:Ljava/util/ArrayList;
 
-    .line 3
     new-instance v1, Lcom/commsource/studio/function/relight/c;
 
     new-instance v11, Lcom/commsource/studio/function/relight/e;
@@ -78,7 +75,6 @@
 
     iput-object v1, v0, Lcom/commsource/studio/function/relight/f;->b:Lcom/commsource/studio/function/relight/c;
 
-    .line 4
     new-instance v1, Lcom/commsource/studio/function/relight/a;
 
     new-instance v11, Lcom/commsource/studio/function/relight/e;
@@ -89,7 +85,6 @@
 
     invoke-direct/range {v2 .. v10}, Lcom/commsource/studio/function/relight/e;-><init>(FFFIIIILcotlin/jvm/internal/u;)V
 
-    .line 5
     new-instance v2, Lcom/commsource/studio/function/relight/e;
 
     const/4 v13, 0x0
@@ -112,7 +107,6 @@
 
     invoke-direct/range {v12 .. v20}, Lcom/commsource/studio/function/relight/e;-><init>(FFFIIIILcotlin/jvm/internal/u;)V
 
-    .line 6
     invoke-direct {v1, v11, v2}, Lcom/commsource/studio/function/relight/a;-><init>(Lcom/commsource/studio/function/relight/e;Lcom/commsource/studio/function/relight/e;)V
 
     iput-object v1, v0, Lcom/commsource/studio/function/relight/f;->c:Lcom/commsource/studio/function/relight/a;
@@ -131,7 +125,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/function/relight/f;->c:Lcom/commsource/studio/function/relight/a;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -148,7 +141,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/function/relight/f;->b:Lcom/commsource/studio/function/relight/c;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -163,7 +155,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/function/relight/f;->d:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -189,7 +180,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/function/relight/f;->a:Ljava/util/ArrayList;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -206,7 +196,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/function/relight/f;->a:Ljava/util/ArrayList;
 
     iget v2, p0, Lcom/commsource/studio/function/relight/f;->d:I
@@ -232,7 +221,6 @@
     :cond_0
     const/4 v1, 0x0
 
-    .line 2
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -246,10 +234,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/studio/function/relight/f;->d:I
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/function/relight/f;->a:Ljava/util/ArrayList;
 
     invoke-virtual {v1}, Ljava/util/ArrayList;->size()I
@@ -258,7 +244,6 @@
 
     if-le v1, p1, :cond_0
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/studio/function/relight/f;->a:Ljava/util/ArrayList;
 
     invoke-virtual {v1, p1}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
@@ -271,7 +256,6 @@
 
     invoke-virtual {p1, v1}, Lcom/commsource/studio/function/relight/d;->g(Z)V
 
-    .line 4
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

@@ -12,7 +12,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/bumptech/glide/p/d;-><init>()V
 
     return-void
@@ -35,7 +34,6 @@
         .end annotation
     .end param
 
-    .line 1
     const-class p1, Lcom/bumptech/glide/load/k/g;
 
     const-class p2, Ljava/io/InputStream;

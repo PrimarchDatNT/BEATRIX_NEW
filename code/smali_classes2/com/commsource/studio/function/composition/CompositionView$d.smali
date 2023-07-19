@@ -41,7 +41,6 @@
 
     iput p5, p0, Lcom/commsource/studio/function/composition/CompositionView$d;->f:F
 
-    .line 1
     invoke-direct {p0}, Landroid/animation/AnimatorListenerAdapter;-><init>()V
 
     return-void
@@ -60,7 +59,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/studio/function/composition/CompositionView$d;->a:Lcom/commsource/studio/function/composition/CompositionView;
 
     invoke-static {v0}, Lcom/commsource/studio/function/composition/CompositionView;->m(Lcom/commsource/studio/function/composition/CompositionView;)Lcom/commsource/studio/MatrixBox;
@@ -79,12 +77,10 @@
 
     invoke-virtual {v0, v1}, Landroid/graphics/Matrix;->mapRect(Landroid/graphics/RectF;)Z
 
-    .line 2
     iget-object v0, p0, Lcom/commsource/studio/function/composition/CompositionView$d;->a:Lcom/commsource/studio/function/composition/CompositionView;
 
     invoke-static {v0}, Lcom/commsource/studio/function/composition/CompositionView;->r(Lcom/commsource/studio/function/composition/CompositionView;)V
 
-    .line 3
     iget-object v0, p0, Lcom/commsource/studio/function/composition/CompositionView$d;->a:Lcom/commsource/studio/function/composition/CompositionView;
 
     invoke-static {v0}, Lcom/commsource/studio/function/composition/CompositionView;->m(Lcom/commsource/studio/function/composition/CompositionView;)Lcom/commsource/studio/MatrixBox;
@@ -107,7 +103,6 @@
 
     invoke-virtual {v0, v1}, Landroid/graphics/Matrix;->preConcat(Landroid/graphics/Matrix;)Z
 
-    .line 4
     iget-object v0, p0, Lcom/commsource/studio/function/composition/CompositionView$d;->a:Lcom/commsource/studio/function/composition/CompositionView;
 
     invoke-static {v0}, Lcom/commsource/studio/function/composition/CompositionView;->m(Lcom/commsource/studio/function/composition/CompositionView;)Lcom/commsource/studio/MatrixBox;
@@ -130,7 +125,6 @@
 
     invoke-virtual {v0, v1}, Landroid/graphics/Matrix;->postConcat(Landroid/graphics/Matrix;)Z
 
-    .line 5
     iget-object v0, p0, Lcom/commsource/studio/function/composition/CompositionView$d;->a:Lcom/commsource/studio/function/composition/CompositionView;
 
     invoke-virtual {v0}, Lcom/commsource/studio/function/composition/CompositionView;->getBitmapMatrixBox()Lcom/commsource/studio/MatrixBox;
@@ -153,7 +147,6 @@
 
     invoke-virtual {v0, v1}, Landroid/graphics/Matrix;->postConcat(Landroid/graphics/Matrix;)Z
 
-    .line 6
     iget-object v0, p0, Lcom/commsource/studio/function/composition/CompositionView$d;->a:Lcom/commsource/studio/function/composition/CompositionView;
 
     invoke-virtual {v0}, Lcom/commsource/studio/function/composition/CompositionView;->getBitmapMatrixBox()Lcom/commsource/studio/MatrixBox;
@@ -162,14 +155,12 @@
 
     invoke-virtual {v0}, Lcom/commsource/studio/MatrixBox;->updateMatrixFloat()V
 
-    .line 7
     iget-object v0, p0, Lcom/commsource/studio/function/composition/CompositionView$d;->a:Lcom/commsource/studio/function/composition/CompositionView;
 
     const/4 v1, 0x0
 
     invoke-static {v0, v1}, Lcom/commsource/studio/function/composition/CompositionView;->p(Lcom/commsource/studio/function/composition/CompositionView;I)V
 
-    .line 8
     iget-object v0, p0, Lcom/commsource/studio/function/composition/CompositionView$d;->a:Lcom/commsource/studio/function/composition/CompositionView;
 
     invoke-static {v0}, Lcom/commsource/studio/function/composition/CompositionView;->m(Lcom/commsource/studio/function/composition/CompositionView;)Lcom/commsource/studio/MatrixBox;
@@ -178,12 +169,10 @@
 
     invoke-virtual {v0}, Lcom/commsource/studio/MatrixBox;->reset()V
 
-    .line 9
     iget-object v0, p0, Lcom/commsource/studio/function/composition/CompositionView$d;->a:Lcom/commsource/studio/function/composition/CompositionView;
 
     invoke-virtual {v0}, Landroid/view/View;->invalidate()V
 
-    .line 10
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

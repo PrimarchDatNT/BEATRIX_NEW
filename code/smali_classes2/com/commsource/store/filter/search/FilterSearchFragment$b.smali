@@ -60,12 +60,10 @@
 
     const/4 p2, 0x0
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p2
 
-    .line 2
     :cond_0
     iget-object p2, p0, Lcom/commsource/store/filter/search/FilterSearchFragment$b;->a:Lcom/commsource/store/filter/search/FilterSearchFragment;
 
@@ -79,7 +77,6 @@
 
     const/4 p2, 0x1
 
-    .line 3
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p2

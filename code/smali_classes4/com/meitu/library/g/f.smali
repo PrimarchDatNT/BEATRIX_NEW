@@ -68,7 +68,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     iput-object p1, p0, Lcom/meitu/library/g/f;->a:Landroid/content/Context;
@@ -83,7 +82,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Ljavax/microedition/khronos/egl/EGLContext;->getEGL()Ljavax/microedition/khronos/egl/EGL;
 
     move-result-object v1
@@ -92,14 +90,12 @@
 
     check-cast v1, Ljavax/microedition/khronos/egl/EGL10;
 
-    .line 2
     invoke-interface {v1}, Ljavax/microedition/khronos/egl/EGL10;->eglGetCurrentContext()Ljavax/microedition/khronos/egl/EGLContext;
 
     move-result-object v1
 
     if-eqz v1, :cond_1
 
-    .line 3
     invoke-virtual {v1}, Ljavax/microedition/khronos/egl/EGLContext;->getGL()Ljavax/microedition/khronos/opengles/GL;
 
     move-result-object v1
@@ -126,12 +122,10 @@
     :cond_1
     const/4 v1, 0x0
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
 
-    .line 5
     :cond_2
     new-instance v1, Lcotlin/TypeCastException;
 
@@ -151,24 +145,20 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/io/File;
 
     invoke-direct {v1, p1}, Ljava/io/File;-><init>(Ljava/lang/String;)V
 
-    .line 2
     new-instance p1, Ljava/io/File;
 
     invoke-direct {p1, p2}, Ljava/io/File;-><init>(Ljava/lang/String;)V
 
-    .line 3
     new-instance p2, Ljava/lang/StringBuilder;
 
     const-string v2, ""
 
     invoke-direct {p2, v2}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
-    .line 4
     invoke-virtual {v1}, Ljava/io/File;->exists()Z
 
     move-result v2
@@ -200,7 +190,6 @@
     :cond_0
     const/4 v2, 0x0
 
-    .line 5
     :try_start_0
     sget-object v4, Lcotlin/text/d;->a:Ljava/nio/charset/Charset;
 
@@ -232,7 +221,6 @@
 
     move-object v1, v5
 
-    .line 6
     :goto_0
     :try_start_1
     new-instance v5, Ljava/io/FileInputStream;
@@ -260,7 +248,6 @@
 
     move-object v2, v4
 
-    .line 7
     :goto_1
     invoke-virtual {v1}, Ljava/io/BufferedReader;->readLine()Ljava/lang/String;
 
@@ -274,7 +261,6 @@
 
     if-eqz p1, :cond_9
 
-    .line 8
     invoke-interface {p1}, Ljava/lang/CharSequence;->length()I
 
     move-result v7
@@ -297,7 +283,6 @@
     :cond_3
     move v10, v7
 
-    .line 9
     :goto_3
     invoke-interface {p1, v10}, Ljava/lang/CharSequence;->charAt(I)C
 
@@ -340,24 +325,20 @@
     :goto_5
     add-int/2addr v7, v6
 
-    .line 10
     invoke-interface {p1, v8, v7}, Ljava/lang/CharSequence;->subSequence(II)Ljava/lang/CharSequence;
 
     move-result-object p1
 
-    .line 11
     invoke-virtual {p1}, Ljava/lang/Object;->toString()Ljava/lang/String;
 
     move-result-object p1
 
-    .line 12
     invoke-virtual {p2, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     const-string p1, "-"
 
     invoke-virtual {p2, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 13
     :cond_9
     invoke-virtual {v2}, Ljava/io/BufferedReader;->readLine()Ljava/lang/String;
 
@@ -365,7 +346,6 @@
 
     if-eqz p1, :cond_10
 
-    .line 14
     invoke-interface {p1}, Ljava/lang/CharSequence;->length()I
 
     move-result v7
@@ -388,7 +368,6 @@
     :cond_a
     move v10, v7
 
-    .line 15
     :goto_7
     invoke-interface {p1, v10}, Ljava/lang/CharSequence;->charAt(I)C
 
@@ -431,28 +410,23 @@
     :goto_9
     add-int/2addr v7, v6
 
-    .line 16
     invoke-interface {p1, v8, v7}, Ljava/lang/CharSequence;->subSequence(II)Ljava/lang/CharSequence;
 
     move-result-object p1
 
-    .line 17
     invoke-virtual {p1}, Ljava/lang/Object;->toString()Ljava/lang/String;
 
     move-result-object p1
 
-    .line 18
     invoke-virtual {p2, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
     :try_end_1
     .catch Ljava/lang/Exception; {:try_start_1 .. :try_end_1} :catch_0
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
-    .line 19
     :cond_10
     :try_start_2
     invoke-virtual {v1}, Ljava/io/BufferedReader;->close()V
 
-    .line 20
     invoke-virtual {v2}, Ljava/io/BufferedReader;->close()V
     :try_end_2
     .catch Ljava/io/IOException; {:try_start_2 .. :try_end_2} :catch_3
@@ -483,19 +457,16 @@
     :goto_a
     if-eqz v2, :cond_11
 
-    .line 21
     :try_start_3
     invoke-virtual {v2}, Ljava/io/BufferedReader;->close()V
 
     :cond_11
     if-eqz p2, :cond_12
 
-    .line 22
     invoke-virtual {p2}, Ljava/io/BufferedReader;->close()V
     :try_end_3
     .catch Ljava/io/IOException; {:try_start_3 .. :try_end_3} :catch_1
 
-    .line 23
     :catch_1
     :cond_12
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -508,19 +479,16 @@
     :goto_b
     if-eqz v2, :cond_13
 
-    .line 24
     :try_start_4
     invoke-virtual {v2}, Ljava/io/BufferedReader;->close()V
 
     :cond_13
     if-eqz p1, :cond_14
 
-    .line 25
     invoke-virtual {p1}, Ljava/io/BufferedReader;->close()V
     :try_end_4
     .catch Ljava/io/IOException; {:try_start_4 .. :try_end_4} :catch_3
 
-    .line 26
     :catch_3
     :cond_14
     :goto_c
@@ -534,7 +502,6 @@
 
     return-object p1
 
-    .line 27
     :cond_15
     :goto_d
     invoke-virtual {p2}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
@@ -555,14 +522,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/io/File;
 
     const-string v2, "/sys/class/kgsl/kgsl-3d0/gpu_available_frequencies"
 
     invoke-direct {v1, v2}, Ljava/io/File;-><init>(Ljava/lang/String;)V
 
-    .line 2
     invoke-virtual {v1}, Ljava/io/File;->exists()Z
 
     move-result v2
@@ -582,7 +547,6 @@
     :cond_0
     const/4 v2, 0x0
 
-    .line 3
     :try_start_0
     sget-object v4, Lcotlin/text/d;->a:Ljava/nio/charset/Charset;
 
@@ -613,13 +577,11 @@
 
     move-object v2, v4
 
-    .line 4
     :goto_0
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1, v3}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
-    .line 5
     invoke-virtual {v2}, Ljava/io/BufferedReader;->readLine()Ljava/lang/String;
 
     move-result-object v4
@@ -627,17 +589,14 @@
     :goto_1
     if-eqz v4, :cond_2
 
-    .line 6
     invoke-virtual {v1, v4}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 7
     invoke-virtual {v2}, Ljava/io/BufferedReader;->readLine()Ljava/lang/String;
 
     move-result-object v4
 
     goto :goto_1
 
-    .line 8
     :cond_2
     invoke-static {v1}, Lcotlin/text/m;->S1(Ljava/lang/CharSequence;)Z
 
@@ -645,14 +604,12 @@
 
     if-nez v4, :cond_3
 
-    .line 9
     invoke-static {v1}, Lcotlin/text/m;->v5(Ljava/lang/CharSequence;)Ljava/lang/CharSequence;
 
     move-result-object v5
 
     const-string v1, ","
 
-    .line 10
     filled-new-array {v1}, [Ljava/lang/String;
 
     move-result-object v6
@@ -673,7 +630,6 @@
 
     move-result-object v1
 
-    .line 11
     invoke-interface {v1}, Ljava/util/List;->size()I
 
     move-result v4
@@ -682,7 +638,6 @@
 
     if-le v4, v5, :cond_3
 
-    .line 12
     new-instance v6, Ljava/lang/StringBuilder;
 
     invoke-direct {v6}, Ljava/lang/StringBuilder;-><init>()V
@@ -718,19 +673,16 @@
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_2
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 13
     :try_start_1
     invoke-virtual {v2}, Ljava/io/BufferedReader;->close()V
     :try_end_1
     .catch Ljava/io/IOException; {:try_start_1 .. :try_end_1} :catch_0
 
-    .line 14
     :catch_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
 
-    .line 15
     :cond_3
     :goto_2
     :try_start_2
@@ -750,7 +702,6 @@
     :try_end_3
     .catch Ljava/io/IOException; {:try_start_3 .. :try_end_3} :catch_1
 
-    .line 16
     :catch_1
     :cond_4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -762,7 +713,6 @@
 
     goto :goto_2
 
-    .line 17
     :catch_3
     :cond_5
     :goto_3
@@ -770,7 +720,6 @@
 
     return-object v3
 
-    .line 18
     :cond_6
     :goto_4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -785,21 +734,18 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/lang/StringBuilder;
 
     const-string v2, ""
 
     invoke-direct {v1, v2}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
-    .line 2
     new-instance v2, Ljava/io/File;
 
     const-string v3, "/proc/gpufreq/gpufreq_opp_dump"
 
     invoke-direct {v2, v3}, Ljava/io/File;-><init>(Ljava/lang/String;)V
 
-    .line 3
     invoke-virtual {v2}, Ljava/io/File;->exists()Z
 
     move-result v3
@@ -821,13 +767,11 @@
 
     const/4 v5, 0x0
 
-    .line 4
     :try_start_0
     new-instance v6, Ljava/util/ArrayList;
 
     invoke-direct {v6}, Ljava/util/ArrayList;-><init>()V
 
-    .line 5
     sget-object v7, Lcotlin/text/d;->a:Ljava/nio/charset/Charset;
 
     const/16 v8, 0x2000
@@ -857,7 +801,6 @@
 
     move-object v5, v7
 
-    .line 6
     :goto_0
     invoke-virtual {v5}, Ljava/io/BufferedReader;->readLine()Ljava/lang/String;
 
@@ -865,7 +808,6 @@
 
     const-string v7, "(freq)\\s+=\\s+(\\d+)"
 
-    .line 7
     invoke-static {v7}, Ljava/util/regex/Pattern;->compile(Ljava/lang/String;)Ljava/util/regex/Pattern;
 
     move-result-object v7
@@ -873,19 +815,16 @@
     :goto_1
     if-eqz v2, :cond_3
 
-    .line 8
     invoke-virtual {v7, v2}, Ljava/util/regex/Pattern;->matcher(Ljava/lang/CharSequence;)Ljava/util/regex/Matcher;
 
     move-result-object v2
 
-    .line 9
     invoke-virtual {v2}, Ljava/util/regex/Matcher;->find()Z
 
     move-result v8
 
     if-eqz v8, :cond_2
 
-    .line 10
     invoke-virtual {v2, v3}, Ljava/util/regex/Matcher;->group(I)Ljava/lang/String;
 
     move-result-object v2
@@ -894,10 +833,8 @@
 
     move-result-object v2
 
-    .line 11
     invoke-virtual {v6, v2}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    .line 12
     :cond_2
     invoke-virtual {v5}, Ljava/io/BufferedReader;->readLine()Ljava/lang/String;
 
@@ -905,7 +842,6 @@
 
     goto :goto_1
 
-    .line 13
     :cond_3
     invoke-virtual {v6}, Ljava/util/ArrayList;->size()I
 
@@ -915,12 +851,10 @@
 
     if-le v2, v3, :cond_4
 
-    .line 14
     invoke-static {v6}, Lcotlin/collections/s;->m0(Ljava/util/List;)V
 
     const/4 v7, 0x0
 
-    .line 15
     invoke-virtual {v6, v7}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
 
     move-result-object v7
@@ -929,7 +863,6 @@
 
     sub-int/2addr v2, v3
 
-    .line 16
     invoke-virtual {v6, v2}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
 
     move-result-object v2
@@ -938,7 +871,6 @@
 
     const-string v3, "min"
 
-    .line 17
     invoke-static {v7, v3}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v7}, Ljava/lang/Integer;->intValue()I
@@ -964,7 +896,6 @@
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_1
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 18
     :cond_4
     :goto_2
     :try_start_1
@@ -984,7 +915,6 @@
     :try_end_2
     .catch Ljava/io/IOException; {:try_start_2 .. :try_end_2} :catch_0
 
-    .line 19
     :catch_0
     :cond_5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -996,7 +926,6 @@
 
     goto :goto_2
 
-    .line 20
     :catch_2
     :cond_6
     :goto_3
@@ -1010,7 +939,6 @@
 
     return-object v1
 
-    .line 21
     :cond_7
     :goto_4
     invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
@@ -1035,7 +963,6 @@
 
     const-string v2, "/sys/class/devfreq/gpufreq/max_freq"
 
-    .line 1
     invoke-direct {p0, v1, v2}, Lcom/meitu/library/g/f;->b(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v1
@@ -1056,7 +983,6 @@
 
     const-string v2, "/sys/class/kgsl/kgsl-3d0/devfreq/max_freq"
 
-    .line 1
     invoke-direct {p0, v1, v2}, Lcom/meitu/library/g/f;->b(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v1
@@ -1077,7 +1003,6 @@
 
     const-string v2, "/sys/devices/platform/gpusysfs/gpu_max_clock"
 
-    .line 1
     invoke-direct {p0, v1, v2}, Lcom/meitu/library/g/f;->b(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v1
@@ -1094,21 +1019,18 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/lang/StringBuilder;
 
     const-string v2, ""
 
     invoke-direct {v1, v2}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
-    .line 2
     new-instance v3, Ljava/io/File;
 
     const-string v4, "/sys/module/mali/parameters/mali_dvfs"
 
     invoke-direct {v3, v4}, Ljava/io/File;-><init>(Ljava/lang/String;)V
 
-    .line 3
     invoke-virtual {v3}, Ljava/io/File;->exists()Z
 
     move-result v4
@@ -1128,13 +1050,11 @@
     :cond_0
     const/4 v4, 0x0
 
-    .line 4
     :try_start_0
     new-instance v6, Ljava/util/ArrayList;
 
     invoke-direct {v6}, Ljava/util/ArrayList;-><init>()V
 
-    .line 5
     sget-object v7, Lcotlin/text/d;->a:Ljava/nio/charset/Charset;
 
     const/16 v8, 0x2000
@@ -1164,13 +1084,11 @@
 
     move-object v4, v7
 
-    .line 6
     :goto_0
     new-instance v3, Ljava/lang/StringBuffer;
 
     invoke-direct {v3, v2}, Ljava/lang/StringBuffer;-><init>(Ljava/lang/String;)V
 
-    .line 7
     invoke-virtual {v4}, Ljava/io/BufferedReader;->readLine()Ljava/lang/String;
 
     move-result-object v2
@@ -1178,17 +1096,14 @@
     :goto_1
     if-eqz v2, :cond_2
 
-    .line 8
     invoke-virtual {v3, v2}, Ljava/lang/StringBuffer;->append(Ljava/lang/String;)Ljava/lang/StringBuffer;
 
-    .line 9
     invoke-virtual {v4}, Ljava/io/BufferedReader;->readLine()Ljava/lang/String;
 
     move-result-object v2
 
     goto :goto_1
 
-    .line 10
     :cond_2
     invoke-static {v3}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
@@ -1200,7 +1115,6 @@
 
     if-nez v2, :cond_e
 
-    .line 11
     invoke-virtual {v3}, Ljava/lang/StringBuffer;->toString()Ljava/lang/String;
 
     move-result-object v2
@@ -1209,7 +1123,6 @@
 
     invoke-static {v2, v3}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 12
     invoke-interface {v2}, Ljava/lang/CharSequence;->length()I
 
     move-result v3
@@ -1232,7 +1145,6 @@
     :cond_3
     move v11, v3
 
-    .line 13
     :goto_3
     invoke-interface {v2, v11}, Ljava/lang/CharSequence;->charAt(I)C
 
@@ -1277,19 +1189,16 @@
     :goto_5
     add-int/2addr v3, v8
 
-    .line 14
     invoke-interface {v2, v9, v3}, Ljava/lang/CharSequence;->subSequence(II)Ljava/lang/CharSequence;
 
     move-result-object v2
 
-    .line 15
     invoke-virtual {v2}, Ljava/lang/Object;->toString()Ljava/lang/String;
 
     move-result-object v2
 
     const-string v3, ","
 
-    .line 16
     new-instance v9, Lcotlin/text/Regex;
 
     invoke-direct {v9, v3}, Lcotlin/text/Regex;-><init>(Ljava/lang/String;)V
@@ -1298,14 +1207,12 @@
 
     move-result-object v2
 
-    .line 17
     invoke-interface {v2}, Ljava/util/List;->isEmpty()Z
 
     move-result v3
 
     if-nez v3, :cond_b
 
-    .line 18
     invoke-interface {v2}, Ljava/util/List;->size()I
 
     move-result v3
@@ -1314,7 +1221,6 @@
 
     move-result-object v3
 
-    .line 19
     :cond_9
     invoke-interface {v3}, Ljava/util/ListIterator;->hasPrevious()Z
 
@@ -1322,14 +1228,12 @@
 
     if-eqz v9, :cond_b
 
-    .line 20
     invoke-interface {v3}, Ljava/util/ListIterator;->previous()Ljava/lang/Object;
 
     move-result-object v9
 
     check-cast v9, Ljava/lang/String;
 
-    .line 21
     invoke-interface {v9}, Ljava/lang/CharSequence;->length()I
 
     move-result v9
@@ -1346,7 +1250,6 @@
     :goto_6
     if-nez v9, :cond_9
 
-    .line 22
     invoke-interface {v3}, Ljava/util/ListIterator;->nextIndex()I
 
     move-result v3
@@ -1359,7 +1262,6 @@
 
     goto :goto_7
 
-    .line 23
     :cond_b
     invoke-static {}, Lcotlin/collections/s;->E()Ljava/util/List;
 
@@ -1370,17 +1272,14 @@
 
     new-array v3, v7, [Ljava/lang/String;
 
-    .line 24
     invoke-interface {v2, v3}, Ljava/util/Collection;->toArray([Ljava/lang/Object;)[Ljava/lang/Object;
 
     move-result-object v2
 
     if-eqz v2, :cond_c
 
-    .line 25
     check-cast v2, [Ljava/lang/String;
 
-    .line 26
     array-length v3, v2
 
     const/4 v9, 0x0
@@ -1390,7 +1289,6 @@
 
     aget-object v10, v2, v9
 
-    .line 27
     invoke-static {v10}, Ljava/lang/Integer;->valueOf(Ljava/lang/String;)Ljava/lang/Integer;
 
     move-result-object v10
@@ -1401,7 +1299,6 @@
 
     goto :goto_8
 
-    .line 28
     :cond_c
     new-instance v2, Lcotlin/TypeCastException;
 
@@ -1413,7 +1310,6 @@
 
     throw v2
 
-    .line 29
     :cond_d
     new-instance v2, Lcotlin/TypeCastException;
 
@@ -1425,7 +1321,6 @@
 
     throw v2
 
-    .line 30
     :cond_e
     invoke-virtual {v6}, Ljava/util/ArrayList;->size()I
 
@@ -1433,10 +1328,8 @@
 
     if-le v2, v8, :cond_f
 
-    .line 31
     invoke-static {v6}, Lcotlin/collections/s;->m0(Ljava/util/List;)V
 
-    .line 32
     invoke-virtual {v6, v7}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
 
     move-result-object v3
@@ -1445,7 +1338,6 @@
 
     sub-int/2addr v2, v8
 
-    .line 33
     invoke-virtual {v6, v2}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
 
     move-result-object v2
@@ -1454,7 +1346,6 @@
 
     const-string v6, "min"
 
-    .line 34
     invoke-static {v3, v6}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v3}, Ljava/lang/Integer;->intValue()I
@@ -1480,7 +1371,6 @@
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_1
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 35
     :cond_f
     :goto_9
     :try_start_1
@@ -1500,7 +1390,6 @@
     :try_end_2
     .catch Ljava/io/IOException; {:try_start_2 .. :try_end_2} :catch_0
 
-    .line 36
     :catch_0
     :cond_10
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1512,7 +1401,6 @@
 
     goto :goto_9
 
-    .line 37
     :catch_2
     :cond_11
     :goto_a
@@ -1526,7 +1414,6 @@
 
     return-object v1
 
-    .line 38
     :cond_12
     :goto_b
     invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
@@ -1551,7 +1438,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/library/g/f;->a:Landroid/content/Context;
 
     const-string v2, "activity"
@@ -1564,14 +1450,12 @@
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-virtual {v1}, Landroid/app/ActivityManager;->getDeviceConfigurationInfo()Landroid/content/pm/ConfigurationInfo;
 
     move-result-object v1
 
     const-string v2, "info"
 
-    .line 3
     invoke-static {v1, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v1}, Landroid/content/pm/ConfigurationInfo;->getGlEsVersion()Ljava/lang/String;
@@ -1587,7 +1471,6 @@
     :cond_0
     const-string v1, ""
 
-    .line 4
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1606,14 +1489,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/io/File;
 
     const-string v2, "/sys/class/kgsl/kgsl-3d0/devfreq/governor"
 
     invoke-direct {v1, v2}, Ljava/io/File;-><init>(Ljava/lang/String;)V
 
-    .line 2
     invoke-virtual {v1}, Ljava/io/File;->exists()Z
 
     move-result v2
@@ -1630,7 +1511,6 @@
 
     const/4 v2, 0x0
 
-    .line 3
     :try_start_0
     sget-object v4, Lcotlin/text/d;->a:Ljava/nio/charset/Charset;
 
@@ -1661,7 +1541,6 @@
 
     move-object v2, v4
 
-    .line 4
     :goto_0
     invoke-virtual {v2}, Ljava/io/BufferedReader;->readLine()Ljava/lang/String;
 
@@ -1674,7 +1553,6 @@
 
     move-object v3, v1
 
-    .line 5
     :cond_1
     :goto_1
     :try_start_1
@@ -1694,7 +1572,6 @@
     :try_end_2
     .catch Ljava/io/IOException; {:try_start_2 .. :try_end_2} :catch_0
 
-    .line 6
     :catch_0
     :cond_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1706,7 +1583,6 @@
 
     goto :goto_1
 
-    .line 7
     :catch_2
     :cond_3
     :goto_2
@@ -1727,102 +1603,85 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/meitu/library/g/f;->f()Ljava/lang/String;
 
     move-result-object v1
 
-    .line 2
     invoke-static {v1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v2
 
     if-nez v2, :cond_0
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
 
-    .line 4
     :cond_0
     invoke-direct {p0}, Lcom/meitu/library/g/f;->e()Ljava/lang/String;
 
     move-result-object v1
 
-    .line 5
     invoke-static {v1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v2
 
     if-nez v2, :cond_1
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
 
-    .line 7
     :cond_1
     invoke-direct {p0}, Lcom/meitu/library/g/f;->g()Ljava/lang/String;
 
     move-result-object v1
 
-    .line 8
     invoke-static {v1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v2
 
     if-nez v2, :cond_2
 
-    .line 9
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
 
-    .line 10
     :cond_2
     invoke-direct {p0}, Lcom/meitu/library/g/f;->d()Ljava/lang/String;
 
     move-result-object v1
 
-    .line 11
     invoke-static {v1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v2
 
     if-nez v2, :cond_3
 
-    .line 12
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
 
-    .line 13
     :cond_3
     invoke-direct {p0}, Lcom/meitu/library/g/f;->h()Ljava/lang/String;
 
     move-result-object v1
 
-    .line 14
     invoke-static {v1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v2
 
     if-nez v2, :cond_4
 
-    .line 15
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
 
-    .line 16
     :cond_4
     invoke-direct {p0}, Lcom/meitu/library/g/f;->c()Ljava/lang/String;
 
     move-result-object v1
 
-    .line 17
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
@@ -1850,12 +1709,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcotlin/collections/s;->E()Ljava/util/List;
 
     move-result-object v1
 
-    .line 2
     new-instance v2, Lcom/meitu/library/g/h/e$a;
 
     invoke-direct {v2}, Lcom/meitu/library/g/h/e$a;-><init>()V
@@ -1864,17 +1721,14 @@
 
     move-result-object v2
 
-    .line 3
     new-instance v3, Lcom/meitu/library/g/h/g;
 
     const/4 v4, 0x1
 
     invoke-direct {v3, v2, v4, v4}, Lcom/meitu/library/g/h/g;-><init>(Lcom/meitu/library/g/h/e;II)V
 
-    .line 4
     invoke-virtual {v3}, Lcom/meitu/library/g/h/d;->e()Z
 
-    .line 5
     invoke-direct {p0}, Lcom/meitu/library/g/f;->a()Ljavax/microedition/khronos/opengles/GL10;
 
     move-result-object v4
@@ -1885,7 +1739,6 @@
 
     const/16 v1, 0x1f01
 
-    .line 6
     invoke-interface {v4, v1}, Ljavax/microedition/khronos/opengles/GL10;->glGetString(I)Ljava/lang/String;
 
     move-result-object v5
@@ -1896,7 +1749,6 @@
 
     const/16 v1, 0x1f00
 
-    .line 7
     invoke-interface {v4, v1}, Ljavax/microedition/khronos/opengles/GL10;->glGetString(I)Ljava/lang/String;
 
     move-result-object v1
@@ -1907,7 +1759,6 @@
 
     const/16 v6, 0x1f03
 
-    .line 8
     invoke-interface {v4, v6}, Ljavax/microedition/khronos/opengles/GL10;->glGetString(I)Ljava/lang/String;
 
     move-result-object v4
@@ -1939,34 +1790,27 @@
     :cond_0
     move-object v4, v5
 
-    .line 9
     :goto_0
     invoke-virtual {v3}, Lcom/meitu/library/g/h/g;->l()V
 
-    .line 10
     invoke-virtual {v2}, Lcom/meitu/library/g/h/e;->l()V
 
-    .line 11
     new-instance v2, Ljava/util/HashMap;
 
     invoke-direct {v2}, Ljava/util/HashMap;-><init>()V
 
     const-string v3, "gl_renderer"
 
-    .line 12
     invoke-interface {v2, v3, v5}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v3, "vendor"
 
-    .line 13
     invoke-interface {v2, v3, v4}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v3, "extensions"
 
-    .line 14
     invoke-interface {v2, v3, v1}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 15
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v2

@@ -54,7 +54,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p2, Lcom/commsource/studio/function/background/TextureMaterial;
 
     invoke-virtual {p0, p1, p2}, Lcom/commsource/studio/function/background/BackgroundTextureFragment$f;->b(ILcom/commsource/studio/function/background/TextureMaterial;)Z
@@ -73,12 +72,10 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/studio/function/background/BackgroundTextureFragment$f;->a:Lcom/commsource/studio/function/background/BackgroundTextureFragment;
 
     invoke-static {v0, p2}, Lcom/commsource/studio/function/background/BackgroundTextureFragment;->C(Lcom/commsource/studio/function/background/BackgroundTextureFragment;Lcom/commsource/studio/function/background/TextureMaterial;)V
 
-    .line 2
     iget-object v0, p0, Lcom/commsource/studio/function/background/BackgroundTextureFragment$f;->a:Lcom/commsource/studio/function/background/BackgroundTextureFragment;
 
     const-string v1, "entity"
@@ -87,7 +84,6 @@
 
     invoke-static {v0, p2}, Lcom/commsource/studio/function/background/BackgroundTextureFragment;->A(Lcom/commsource/studio/function/background/BackgroundTextureFragment;Lcom/commsource/studio/function/background/TextureMaterial;)V
 
-    .line 3
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const/4 p1, 0x0

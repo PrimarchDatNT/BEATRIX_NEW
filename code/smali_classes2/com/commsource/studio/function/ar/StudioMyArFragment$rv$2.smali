@@ -56,7 +56,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 2
     new-instance v1, Landroidx/recyclerview/widget/RecyclerView;
 
     iget-object v2, p0, Lcom/commsource/studio/function/ar/StudioMyArFragment$rv$2;->this$0:Lcom/commsource/studio/function/ar/StudioMyArFragment;
@@ -74,30 +73,24 @@
 
     sget v2, Lcom/res/provider/ResID;->rv:I
 
-    .line 3
     invoke-virtual {v1, v2}, Landroid/view/ViewGroup;->setId(I)V
 
     const/4 v2, 0x0
 
-    .line 4
     invoke-virtual {v1, v2}, Landroidx/recyclerview/widget/RecyclerView;->setClipToPadding(Z)V
 
-    .line 5
     invoke-virtual {v1, v2}, Landroid/view/ViewGroup;->setClipChildren(Z)V
 
     const/4 v2, 0x1
 
-    .line 6
     invoke-virtual {v1, v2}, Landroidx/recyclerview/widget/RecyclerView;->setHasFixedSize(Z)V
 
-    .line 7
     new-instance v2, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/arChild/u;
 
     invoke-direct {v2}, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/arChild/u;-><init>()V
 
     invoke-virtual {v1, v2}, Landroidx/recyclerview/widget/RecyclerView;->addItemDecoration(Landroidx/recyclerview/widget/RecyclerView$ItemDecoration;)V
 
-    .line 8
     sget-object v2, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/arChild/u;->b:Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/arChild/u$a;
 
     invoke-virtual {v2}, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/arChild/u$a;->a()I
@@ -118,7 +111,6 @@
 
     invoke-virtual {v1, v3, v4, v5, v2}, Landroid/view/ViewGroup;->setPadding(IIII)V
 
-    .line 9
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
@@ -131,7 +123,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/studio/function/ar/StudioMyArFragment$rv$2;->invoke()Landroidx/recyclerview/widget/RecyclerView;
 
     move-result-object v1

@@ -44,7 +44,6 @@
 .method static constructor <clinit>()V
     .locals 7
 
-    .line 1
     new-instance v0, Lcom/google/firestore/v1/BatchGetDocumentsResponse$ResultCase;
 
     const-string v1, "FOUND"
@@ -57,7 +56,6 @@
 
     sput-object v0, Lcom/google/firestore/v1/BatchGetDocumentsResponse$ResultCase;->FOUND:Lcom/google/firestore/v1/BatchGetDocumentsResponse$ResultCase;
 
-    .line 2
     new-instance v1, Lcom/google/firestore/v1/BatchGetDocumentsResponse$ResultCase;
 
     const-string v4, "MISSING"
@@ -68,7 +66,6 @@
 
     sput-object v1, Lcom/google/firestore/v1/BatchGetDocumentsResponse$ResultCase;->MISSING:Lcom/google/firestore/v1/BatchGetDocumentsResponse$ResultCase;
 
-    .line 3
     new-instance v4, Lcom/google/firestore/v1/BatchGetDocumentsResponse$ResultCase;
 
     const-string v6, "RESULT_NOT_SET"
@@ -87,7 +84,6 @@
 
     aput-object v4, v6, v5
 
-    .line 4
     sput-object v6, Lcom/google/firestore/v1/BatchGetDocumentsResponse$ResultCase;->$VALUES:[Lcom/google/firestore/v1/BatchGetDocumentsResponse$ResultCase;
 
     return-void
@@ -101,10 +97,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 2
     iput p3, p0, Lcom/google/firestore/v1/BatchGetDocumentsResponse$ResultCase;->value:I
 
     return-void
@@ -127,19 +121,16 @@
 
     return-object p0
 
-    .line 1
     :cond_0
     sget-object p0, Lcom/google/firestore/v1/BatchGetDocumentsResponse$ResultCase;->MISSING:Lcom/google/firestore/v1/BatchGetDocumentsResponse$ResultCase;
 
     return-object p0
 
-    .line 2
     :cond_1
     sget-object p0, Lcom/google/firestore/v1/BatchGetDocumentsResponse$ResultCase;->FOUND:Lcom/google/firestore/v1/BatchGetDocumentsResponse$ResultCase;
 
     return-object p0
 
-    .line 3
     :cond_2
     sget-object p0, Lcom/google/firestore/v1/BatchGetDocumentsResponse$ResultCase;->RESULT_NOT_SET:Lcom/google/firestore/v1/BatchGetDocumentsResponse$ResultCase;
 
@@ -151,7 +142,6 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    .line 2
     invoke-static {p0}, Lcom/google/firestore/v1/BatchGetDocumentsResponse$ResultCase;->forNumber(I)Lcom/google/firestore/v1/BatchGetDocumentsResponse$ResultCase;
 
     move-result-object p0
@@ -162,7 +152,6 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/google/firestore/v1/BatchGetDocumentsResponse$ResultCase;
     .locals 1
 
-    .line 1
     const-class v0, Lcom/google/firestore/v1/BatchGetDocumentsResponse$ResultCase;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -177,7 +166,6 @@
 .method public static values()[Lcom/google/firestore/v1/BatchGetDocumentsResponse$ResultCase;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/google/firestore/v1/BatchGetDocumentsResponse$ResultCase;->$VALUES:[Lcom/google/firestore/v1/BatchGetDocumentsResponse$ResultCase;
 
     invoke-virtual {v0}, [Lcom/google/firestore/v1/BatchGetDocumentsResponse$ResultCase;->clone()Ljava/lang/Object;
@@ -194,7 +182,6 @@
 .method public getNumber()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lcom/google/firestore/v1/BatchGetDocumentsResponse$ResultCase;->value:I
 
     return v0

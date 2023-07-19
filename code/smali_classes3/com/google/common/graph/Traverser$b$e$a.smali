@@ -53,15 +53,12 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/google/common/graph/Traverser$b$e$a;->c:Lcom/google/common/graph/Traverser$b$e;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p2, p0, Lcom/google/common/graph/Traverser$b$e$a;->a:Ljava/lang/Object;
 
-    .line 3
     invoke-interface {p3}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object p1

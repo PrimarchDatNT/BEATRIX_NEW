@@ -27,15 +27,12 @@
 .method constructor <init>(D)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/google/common/math/e;-><init>()V
 
-    .line 2
     iput-wide p1, p0, Lcom/google/common/math/e$e;->a:D
 
     const/4 p1, 0x0
 
-    .line 3
     iput-object p1, p0, Lcom/google/common/math/e$e;->b:Lcom/google/common/math/e;
 
     return-void
@@ -44,13 +41,10 @@
 .method constructor <init>(DLcom/google/common/math/e;)V
     .locals 0
 
-    .line 4
     invoke-direct {p0}, Lcom/google/common/math/e;-><init>()V
 
-    .line 5
     iput-wide p1, p0, Lcom/google/common/math/e$e;->a:D
 
-    .line 6
     iput-object p3, p0, Lcom/google/common/math/e$e;->b:Lcom/google/common/math/e;
 
     return-void
@@ -59,7 +53,6 @@
 .method private j()Lcom/google/common/math/e;
     .locals 7
 
-    .line 1
     new-instance v6, Lcom/google/common/math/e$d;
 
     iget-wide v3, p0, Lcom/google/common/math/e$e;->a:D
@@ -80,12 +73,10 @@
 .method public c()Lcom/google/common/math/e;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/math/e$e;->b:Lcom/google/common/math/e;
 
     if-nez v0, :cond_0
 
-    .line 2
     invoke-direct {p0}, Lcom/google/common/math/e$e;->j()Lcom/google/common/math/e;
 
     move-result-object v0
@@ -115,7 +106,6 @@
 .method public g()D
     .locals 1
 
-    .line 1
     new-instance v0, Ljava/lang/IllegalStateException;
 
     invoke-direct {v0}, Ljava/lang/IllegalStateException;-><init>()V
@@ -126,7 +116,6 @@
 .method public h(D)D
     .locals 0
 
-    .line 1
     new-instance p1, Ljava/lang/IllegalStateException;
 
     invoke-direct {p1}, Ljava/lang/IllegalStateException;-><init>()V
@@ -141,7 +130,6 @@
 
     new-array v0, v0, [Ljava/lang/Object;
 
-    .line 1
     iget-wide v1, p0, Lcom/google/common/math/e$e;->a:D
 
     invoke-static {v1, v2}, Ljava/lang/Double;->valueOf(D)Ljava/lang/Double;

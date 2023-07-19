@@ -15,7 +15,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lorg/apache/thrift/transport/TTransport;-><init>()V
 
     return-void
@@ -24,10 +23,8 @@
 .method public constructor <init>([B)V
     .locals 0
 
-    .line 2
     invoke-direct {p0}, Lorg/apache/thrift/transport/TTransport;-><init>()V
 
-    .line 3
     invoke-virtual {p0, p1}, Lorg/apache/thrift/transport/TMemoryInputTransport;->reset([B)V
 
     return-void
@@ -36,10 +33,8 @@
 .method public constructor <init>([BII)V
     .locals 0
 
-    .line 4
     invoke-direct {p0}, Lorg/apache/thrift/transport/TTransport;-><init>()V
 
-    .line 5
     invoke-virtual {p0, p1, p2, p3}, Lorg/apache/thrift/transport/TMemoryInputTransport;->reset([BII)V
 
     return-void
@@ -52,7 +47,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     iput-object v0, p0, Lorg/apache/thrift/transport/TMemoryInputTransport;->buf_:[B
 
     return-void
@@ -67,7 +61,6 @@
 .method public consumeBuffer(I)V
     .locals 1
 
-    .line 1
     iget v0, p0, Lorg/apache/thrift/transport/TMemoryInputTransport;->pos_:I
 
     add-int/2addr v0, p1
@@ -80,7 +73,6 @@
 .method public getBuffer()[B
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lorg/apache/thrift/transport/TMemoryInputTransport;->buf_:[B
 
     return-object v0
@@ -89,7 +81,6 @@
 .method public getBufferPosition()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lorg/apache/thrift/transport/TMemoryInputTransport;->pos_:I
 
     return v0
@@ -98,7 +89,6 @@
 .method public getBytesRemainingInBuffer()I
     .locals 2
 
-    .line 1
     iget v0, p0, Lorg/apache/thrift/transport/TMemoryInputTransport;->endPos_:I
 
     iget v1, p0, Lorg/apache/thrift/transport/TMemoryInputTransport;->pos_:I
@@ -135,7 +125,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lorg/apache/thrift/transport/TMemoryInputTransport;->getBytesRemainingInBuffer()I
 
     move-result v0
@@ -147,14 +136,12 @@
     :cond_0
     if-lez p3, :cond_1
 
-    .line 2
     iget-object v0, p0, Lorg/apache/thrift/transport/TMemoryInputTransport;->buf_:[B
 
     iget v1, p0, Lorg/apache/thrift/transport/TMemoryInputTransport;->pos_:I
 
     invoke-static {v0, v1, p1, p2, p3}, Ljava/lang/System;->arraycopy(Ljava/lang/Object;ILjava/lang/Object;II)V
 
-    .line 3
     invoke-virtual {p0, p3}, Lorg/apache/thrift/transport/TMemoryInputTransport;->consumeBuffer(I)V
 
     :cond_1
@@ -164,7 +151,6 @@
 .method public reset([B)V
     .locals 2
 
-    .line 1
     array-length v0, p1
 
     const/4 v1, 0x0
@@ -177,15 +163,12 @@
 .method public reset([BII)V
     .locals 0
 
-    .line 2
     iput-object p1, p0, Lorg/apache/thrift/transport/TMemoryInputTransport;->buf_:[B
 
-    .line 3
     iput p2, p0, Lorg/apache/thrift/transport/TMemoryInputTransport;->pos_:I
 
     add-int/2addr p2, p3
 
-    .line 4
     iput p2, p0, Lorg/apache/thrift/transport/TMemoryInputTransport;->endPos_:I
 
     return-void
@@ -199,7 +182,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance p1, Ljava/lang/UnsupportedOperationException;
 
     const-string p2, "No writing allowed!"

@@ -37,7 +37,6 @@
 .method static constructor <clinit>()V
     .locals 3
 
-    .line 1
     new-instance v0, Lcom/google/android/gms/internal/ads/zzdtc;
 
     const/4 v1, 0x0
@@ -54,13 +53,10 @@
 .method constructor <init>([Ljava/lang/Object;I)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/google/android/gms/internal/ads/zzdss;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/google/android/gms/internal/ads/zzdtc;->zzhmg:[Ljava/lang/Object;
 
-    .line 3
     iput p2, p0, Lcom/google/android/gms/internal/ads/zzdtc;->size:I
 
     return-void
@@ -76,12 +72,10 @@
         }
     .end annotation
 
-    .line 1
     iget v0, p0, Lcom/google/android/gms/internal/ads/zzdtc;->size:I
 
     invoke-static {p1, v0}, Lcom/google/android/gms/internal/ads/lo1;->g(II)I
 
-    .line 2
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/zzdtc;->zzhmg:[Ljava/lang/Object;
 
     aget-object p1, v0, p1
@@ -92,7 +86,6 @@
 .method public final size()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lcom/google/android/gms/internal/ads/zzdtc;->size:I
 
     return v0
@@ -101,7 +94,6 @@
 .method final zza([Ljava/lang/Object;I)I
     .locals 3
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/zzdtc;->zzhmg:[Ljava/lang/Object;
 
     iget v1, p0, Lcom/google/android/gms/internal/ads/zzdtc;->size:I
@@ -110,7 +102,6 @@
 
     invoke-static {v0, v2, p1, p2, v1}, Ljava/lang/System;->arraycopy(Ljava/lang/Object;ILjava/lang/Object;II)V
 
-    .line 2
     iget p1, p0, Lcom/google/android/gms/internal/ads/zzdtc;->size:I
 
     add-int/2addr p2, p1
@@ -121,7 +112,6 @@
 .method final zzawh()[Ljava/lang/Object;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/zzdtc;->zzhmg:[Ljava/lang/Object;
 
     return-object v0
@@ -138,7 +128,6 @@
 .method final zzawj()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lcom/google/android/gms/internal/ads/zzdtc;->size:I
 
     return v0

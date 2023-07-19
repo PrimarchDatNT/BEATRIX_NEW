@@ -42,7 +42,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/widget/ProView$g;->a:Lcom/commsource/widget/ProView;
 
     const/4 v2, 0x1
@@ -53,7 +52,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/widget/ProView;->M(Ljava/lang/Integer;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

@@ -7,7 +7,6 @@
 .method public constructor <init>(Lcom/google/android/gms/internal/ads/yr;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/google/android/gms/internal/ads/pt;-><init>(Lcom/google/android/gms/internal/ads/yr;)V
 
     return-void
@@ -24,7 +23,6 @@
 .method public final v(Ljava/lang/String;)Z
     .locals 3
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/pt;->c:Ljava/lang/ref/WeakReference;
 
     invoke-virtual {v0}, Ljava/lang/ref/WeakReference;->get()Ljava/lang/Object;
@@ -35,7 +33,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-virtual {p0, p1}, Lcom/google/android/gms/internal/ads/pt;->w(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v1
@@ -45,10 +42,8 @@
     :cond_0
     const-string v0, "VideoStreamNoopCache is doing nothing."
 
-    .line 3
     invoke-static {v0}, Lcom/google/android/gms/internal/ads/aq;->i(Ljava/lang/String;)V
 
-    .line 4
     invoke-virtual {p0, p1}, Lcom/google/android/gms/internal/ads/pt;->w(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0

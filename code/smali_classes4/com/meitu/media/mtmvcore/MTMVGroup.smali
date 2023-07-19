@@ -20,13 +20,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/meitu/flymedia/glx/utils/GlxNativesLoader;->a()V
 
-    .line 2
     invoke-static {}, Lcom/meitu/media/mtmvcore/MTMVGroup;->native_init()V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -35,15 +32,12 @@
 .method protected constructor <init>(J)V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/4 v0, 0x0
 
-    .line 2
     iput-boolean v0, p0, Lcom/meitu/media/mtmvcore/MTMVGroup;->a:Z
 
-    .line 3
     invoke-direct {p0, p1, p2}, Lcom/meitu/media/mtmvcore/MTMVGroup;->native_setup(J)V
 
     return-void
@@ -56,7 +50,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p0, p1}, Lcom/meitu/media/mtmvcore/MTMVGroup;->createPictureGroup(J)J
 
     move-result-wide p0
@@ -71,7 +64,6 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     new-instance v1, Lcom/meitu/media/mtmvcore/MTMVGroup;
 
@@ -95,7 +87,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p0, p1}, Lcom/meitu/media/mtmvcore/MTMVGroup;->createVideoGroup(J)J
 
     move-result-wide p0
@@ -110,7 +101,6 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     new-instance v1, Lcom/meitu/media/mtmvcore/MTMVGroup;
 
@@ -143,7 +133,6 @@
 
     goto :goto_0
 
-    .line 1
     :cond_0
     iget-wide v1, p0, Lcom/meitu/media/mtmvcore/MTMVGroup;->mNativeContext:J
 
@@ -177,7 +166,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/media/mtmvcore/MTITrack;->getCPtr(Lcom/meitu/media/mtmvcore/MTITrack;)J
 
     move-result-wide v1
@@ -201,10 +189,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/meitu/media/mtmvcore/MTMVGroup;->native_cleanup()V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -217,7 +203,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/meitu/media/mtmvcore/MTMVGroup;->a:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -237,20 +222,16 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/meitu/media/mtmvcore/MTMVGroup;->a:Z
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-super {p0}, Ljava/lang/Object;->finalize()V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 4
     :cond_0
     new-instance v1, Ljava/lang/RuntimeException;
 
@@ -273,26 +254,21 @@
     :try_start_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/meitu/media/mtmvcore/MTMVGroup;->a:Z
 
     if-nez v1, :cond_0
 
-    .line 2
     invoke-direct {p0}, Lcom/meitu/media/mtmvcore/MTMVGroup;->native_finalize()V
 
     const/4 v1, 0x1
 
-    .line 3
     iput-boolean v1, p0, Lcom/meitu/media/mtmvcore/MTMVGroup;->a:Z
 
     :cond_0
     const-wide/16 v1, 0x0
 
-    .line 4
     iput-wide v1, p0, Lcom/meitu/media/mtmvcore/MTMVGroup;->mNativeContext:J
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0

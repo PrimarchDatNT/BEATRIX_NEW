@@ -81,7 +81,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 2
     sget-object v1, Lcom/commsource/studio/sticker/StickerManager;->p:Lcom/commsource/studio/sticker/StickerManager;
 
     invoke-virtual {v1}, Lcom/commsource/studio/sticker/StickerManager;->j0()Lcom/commsource/beautyfilter/NoStickLiveData;
@@ -100,7 +99,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/studio/sticker/StickerViewModel$downloadProgressEvent$2;->invoke()Lcom/commsource/beautyfilter/NoStickLiveData;
 
     move-result-object v1

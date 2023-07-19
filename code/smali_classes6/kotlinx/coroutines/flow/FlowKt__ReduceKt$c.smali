@@ -37,7 +37,6 @@
 
     iput-object p1, p0, Lcotlinx/coroutines/flow/FlowKt__ReduceKt$c;->a:Lcotlin/jvm/internal/Ref$ObjectRef;
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -54,7 +53,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     iget-object p2, p0, Lcotlinx/coroutines/flow/FlowKt__ReduceKt$c;->a:Lcotlin/jvm/internal/Ref$ObjectRef;
 
     iget-object v0, p2, Lcotlin/jvm/internal/Ref$ObjectRef;->element:Ljava/lang/Object;
@@ -63,15 +61,12 @@
 
     if-ne v0, v1, :cond_0
 
-    .line 2
     iput-object p1, p2, Lcotlin/jvm/internal/Ref$ObjectRef;->element:Ljava/lang/Object;
 
-    .line 3
     sget-object p1, Lcotlin/t1;->a:Lcotlin/t1;
 
     return-object p1
 
-    .line 4
     :cond_0
     new-instance p1, Ljava/lang/IllegalStateException;
 

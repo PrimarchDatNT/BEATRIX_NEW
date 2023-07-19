@@ -112,7 +112,6 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
     new-instance v0, Lcom/giphy/sdk/core/models/User$1;
 
     invoke-direct {v0}, Lcom/giphy/sdk/core/models/User$1;-><init>()V
@@ -125,7 +124,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -134,59 +132,50 @@
 .method public constructor <init>(Landroid/os/Parcel;)V
     .locals 3
 
-    .line 2
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 3
     invoke-virtual {p1}, Landroid/os/Parcel;->readString()Ljava/lang/String;
 
     move-result-object v0
 
     iput-object v0, p0, Lcom/giphy/sdk/core/models/User;->id:Ljava/lang/String;
 
-    .line 4
     invoke-virtual {p1}, Landroid/os/Parcel;->readString()Ljava/lang/String;
 
     move-result-object v0
 
     iput-object v0, p0, Lcom/giphy/sdk/core/models/User;->avatarUrl:Ljava/lang/String;
 
-    .line 5
     invoke-virtual {p1}, Landroid/os/Parcel;->readString()Ljava/lang/String;
 
     move-result-object v0
 
     iput-object v0, p0, Lcom/giphy/sdk/core/models/User;->bannerUrl:Ljava/lang/String;
 
-    .line 6
     invoke-virtual {p1}, Landroid/os/Parcel;->readString()Ljava/lang/String;
 
     move-result-object v0
 
     iput-object v0, p0, Lcom/giphy/sdk/core/models/User;->profileUrl:Ljava/lang/String;
 
-    .line 7
     invoke-virtual {p1}, Landroid/os/Parcel;->readString()Ljava/lang/String;
 
     move-result-object v0
 
     iput-object v0, p0, Lcom/giphy/sdk/core/models/User;->username:Ljava/lang/String;
 
-    .line 8
     invoke-virtual {p1}, Landroid/os/Parcel;->readString()Ljava/lang/String;
 
     move-result-object v0
 
     iput-object v0, p0, Lcom/giphy/sdk/core/models/User;->displayName:Ljava/lang/String;
 
-    .line 9
     invoke-virtual {p1}, Landroid/os/Parcel;->readString()Ljava/lang/String;
 
     move-result-object v0
 
     iput-object v0, p0, Lcom/giphy/sdk/core/models/User;->twitter:Ljava/lang/String;
 
-    .line 10
     invoke-virtual {p1}, Landroid/os/Parcel;->readByte()B
 
     move-result v0
@@ -207,56 +196,48 @@
     :goto_0
     iput-boolean v0, p0, Lcom/giphy/sdk/core/models/User;->isPublic:Z
 
-    .line 11
     invoke-virtual {p1}, Landroid/os/Parcel;->readString()Ljava/lang/String;
 
     move-result-object v0
 
     iput-object v0, p0, Lcom/giphy/sdk/core/models/User;->attributionDisplayName:Ljava/lang/String;
 
-    .line 12
     invoke-virtual {p1}, Landroid/os/Parcel;->readString()Ljava/lang/String;
 
     move-result-object v0
 
     iput-object v0, p0, Lcom/giphy/sdk/core/models/User;->name:Ljava/lang/String;
 
-    .line 13
     invoke-virtual {p1}, Landroid/os/Parcel;->readString()Ljava/lang/String;
 
     move-result-object v0
 
     iput-object v0, p0, Lcom/giphy/sdk/core/models/User;->description:Ljava/lang/String;
 
-    .line 14
     invoke-virtual {p1}, Landroid/os/Parcel;->readString()Ljava/lang/String;
 
     move-result-object v0
 
     iput-object v0, p0, Lcom/giphy/sdk/core/models/User;->facebookUrl:Ljava/lang/String;
 
-    .line 15
     invoke-virtual {p1}, Landroid/os/Parcel;->readString()Ljava/lang/String;
 
     move-result-object v0
 
     iput-object v0, p0, Lcom/giphy/sdk/core/models/User;->twitterUrl:Ljava/lang/String;
 
-    .line 16
     invoke-virtual {p1}, Landroid/os/Parcel;->readString()Ljava/lang/String;
 
     move-result-object v0
 
     iput-object v0, p0, Lcom/giphy/sdk/core/models/User;->instagramUrl:Ljava/lang/String;
 
-    .line 17
     invoke-virtual {p1}, Landroid/os/Parcel;->readString()Ljava/lang/String;
 
     move-result-object v0
 
     iput-object v0, p0, Lcom/giphy/sdk/core/models/User;->tumblrUrl:Ljava/lang/String;
 
-    .line 18
     invoke-virtual {p1}, Landroid/os/Parcel;->readByte()B
 
     move-result v0
@@ -271,14 +252,12 @@
     :goto_1
     iput-boolean v1, p0, Lcom/giphy/sdk/core/models/User;->suppressChrome:Z
 
-    .line 19
     invoke-virtual {p1}, Landroid/os/Parcel;->readString()Ljava/lang/String;
 
     move-result-object v0
 
     iput-object v0, p0, Lcom/giphy/sdk/core/models/User;->websiteUrl:Ljava/lang/String;
 
-    .line 20
     invoke-virtual {p1}, Landroid/os/Parcel;->readString()Ljava/lang/String;
 
     move-result-object p1
@@ -301,7 +280,6 @@
 .method public getAttributionDisplayName()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/giphy/sdk/core/models/User;->attributionDisplayName:Ljava/lang/String;
 
     return-object v0
@@ -310,7 +288,6 @@
 .method public getAvatarUrl()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/giphy/sdk/core/models/User;->avatarUrl:Ljava/lang/String;
 
     return-object v0
@@ -319,7 +296,6 @@
 .method public getBannerUrl()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/giphy/sdk/core/models/User;->bannerUrl:Ljava/lang/String;
 
     return-object v0
@@ -328,7 +304,6 @@
 .method public getDescription()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/giphy/sdk/core/models/User;->description:Ljava/lang/String;
 
     return-object v0
@@ -337,7 +312,6 @@
 .method public getDisplayName()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/giphy/sdk/core/models/User;->displayName:Ljava/lang/String;
 
     return-object v0
@@ -346,7 +320,6 @@
 .method public getFacebookUrl()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/giphy/sdk/core/models/User;->facebookUrl:Ljava/lang/String;
 
     return-object v0
@@ -355,7 +328,6 @@
 .method public getId()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/giphy/sdk/core/models/User;->id:Ljava/lang/String;
 
     return-object v0
@@ -364,7 +336,6 @@
 .method public getInstagramUrl()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/giphy/sdk/core/models/User;->instagramUrl:Ljava/lang/String;
 
     return-object v0
@@ -373,7 +344,6 @@
 .method public getIsPublic()Z
     .locals 1
 
-    .line 1
     iget-boolean v0, p0, Lcom/giphy/sdk/core/models/User;->isPublic:Z
 
     return v0
@@ -382,7 +352,6 @@
 .method public getName()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/giphy/sdk/core/models/User;->name:Ljava/lang/String;
 
     return-object v0
@@ -391,7 +360,6 @@
 .method public getProfileUrl()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/giphy/sdk/core/models/User;->profileUrl:Ljava/lang/String;
 
     return-object v0
@@ -400,7 +368,6 @@
 .method public getTumblrUrl()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/giphy/sdk/core/models/User;->tumblrUrl:Ljava/lang/String;
 
     return-object v0
@@ -409,7 +376,6 @@
 .method public getTwitter()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/giphy/sdk/core/models/User;->twitter:Ljava/lang/String;
 
     return-object v0
@@ -418,7 +384,6 @@
 .method public getTwitterUrl()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/giphy/sdk/core/models/User;->twitterUrl:Ljava/lang/String;
 
     return-object v0
@@ -427,7 +392,6 @@
 .method public getUsername()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/giphy/sdk/core/models/User;->username:Ljava/lang/String;
 
     return-object v0
@@ -436,7 +400,6 @@
 .method public getWebsiteDisplayUrl()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/giphy/sdk/core/models/User;->websiteDisplayUrl:Ljava/lang/String;
 
     return-object v0
@@ -445,7 +408,6 @@
 .method public getWebsiteUrl()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/giphy/sdk/core/models/User;->websiteUrl:Ljava/lang/String;
 
     return-object v0
@@ -454,7 +416,6 @@
 .method public isSuppressChrome()Z
     .locals 1
 
-    .line 1
     iget-boolean v0, p0, Lcom/giphy/sdk/core/models/User;->suppressChrome:Z
 
     return v0
@@ -463,7 +424,6 @@
 .method setUsername(Ljava/lang/String;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/giphy/sdk/core/models/User;->username:Ljava/lang/String;
 
     return-void
@@ -472,96 +432,78 @@
 .method public writeToParcel(Landroid/os/Parcel;I)V
     .locals 0
 
-    .line 1
     iget-object p2, p0, Lcom/giphy/sdk/core/models/User;->id:Ljava/lang/String;
 
     invoke-virtual {p1, p2}, Landroid/os/Parcel;->writeString(Ljava/lang/String;)V
 
-    .line 2
     iget-object p2, p0, Lcom/giphy/sdk/core/models/User;->avatarUrl:Ljava/lang/String;
 
     invoke-virtual {p1, p2}, Landroid/os/Parcel;->writeString(Ljava/lang/String;)V
 
-    .line 3
     iget-object p2, p0, Lcom/giphy/sdk/core/models/User;->bannerUrl:Ljava/lang/String;
 
     invoke-virtual {p1, p2}, Landroid/os/Parcel;->writeString(Ljava/lang/String;)V
 
-    .line 4
     iget-object p2, p0, Lcom/giphy/sdk/core/models/User;->profileUrl:Ljava/lang/String;
 
     invoke-virtual {p1, p2}, Landroid/os/Parcel;->writeString(Ljava/lang/String;)V
 
-    .line 5
     iget-object p2, p0, Lcom/giphy/sdk/core/models/User;->username:Ljava/lang/String;
 
     invoke-virtual {p1, p2}, Landroid/os/Parcel;->writeString(Ljava/lang/String;)V
 
-    .line 6
     iget-object p2, p0, Lcom/giphy/sdk/core/models/User;->displayName:Ljava/lang/String;
 
     invoke-virtual {p1, p2}, Landroid/os/Parcel;->writeString(Ljava/lang/String;)V
 
-    .line 7
     iget-object p2, p0, Lcom/giphy/sdk/core/models/User;->twitter:Ljava/lang/String;
 
     invoke-virtual {p1, p2}, Landroid/os/Parcel;->writeString(Ljava/lang/String;)V
 
-    .line 8
     iget-boolean p2, p0, Lcom/giphy/sdk/core/models/User;->isPublic:Z
 
     int-to-byte p2, p2
 
     invoke-virtual {p1, p2}, Landroid/os/Parcel;->writeByte(B)V
 
-    .line 9
     iget-object p2, p0, Lcom/giphy/sdk/core/models/User;->attributionDisplayName:Ljava/lang/String;
 
     invoke-virtual {p1, p2}, Landroid/os/Parcel;->writeString(Ljava/lang/String;)V
 
-    .line 10
     iget-object p2, p0, Lcom/giphy/sdk/core/models/User;->name:Ljava/lang/String;
 
     invoke-virtual {p1, p2}, Landroid/os/Parcel;->writeString(Ljava/lang/String;)V
 
-    .line 11
     iget-object p2, p0, Lcom/giphy/sdk/core/models/User;->description:Ljava/lang/String;
 
     invoke-virtual {p1, p2}, Landroid/os/Parcel;->writeString(Ljava/lang/String;)V
 
-    .line 12
     iget-object p2, p0, Lcom/giphy/sdk/core/models/User;->facebookUrl:Ljava/lang/String;
 
     invoke-virtual {p1, p2}, Landroid/os/Parcel;->writeString(Ljava/lang/String;)V
 
-    .line 13
     iget-object p2, p0, Lcom/giphy/sdk/core/models/User;->twitterUrl:Ljava/lang/String;
 
     invoke-virtual {p1, p2}, Landroid/os/Parcel;->writeString(Ljava/lang/String;)V
 
-    .line 14
     iget-object p2, p0, Lcom/giphy/sdk/core/models/User;->instagramUrl:Ljava/lang/String;
 
     invoke-virtual {p1, p2}, Landroid/os/Parcel;->writeString(Ljava/lang/String;)V
 
-    .line 15
     iget-object p2, p0, Lcom/giphy/sdk/core/models/User;->tumblrUrl:Ljava/lang/String;
 
     invoke-virtual {p1, p2}, Landroid/os/Parcel;->writeString(Ljava/lang/String;)V
 
-    .line 16
     iget-boolean p2, p0, Lcom/giphy/sdk/core/models/User;->suppressChrome:Z
 
     int-to-byte p2, p2
 
     invoke-virtual {p1, p2}, Landroid/os/Parcel;->writeByte(B)V
 
-    .line 17
     iget-object p2, p0, Lcom/giphy/sdk/core/models/User;->websiteUrl:Ljava/lang/String;
 
     invoke-virtual {p1, p2}, Landroid/os/Parcel;->writeString(Ljava/lang/String;)V
 
-    .line 18
     iget-object p2, p0, Lcom/giphy/sdk/core/models/User;->websiteDisplayUrl:Ljava/lang/String;
 
     invoke-virtual {p1, p2}, Landroid/os/Parcel;->writeString(Ljava/lang/String;)V

@@ -21,7 +21,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -30,7 +29,6 @@
 .method synthetic constructor <init>(Lcom/google/common/base/s$a;)V
     .locals 0
 
-    .line 2
     invoke-direct {p0}, Lcom/google/common/base/s$b;-><init>()V
 
     return-void
@@ -41,7 +39,6 @@
 .method public a(Ljava/lang/String;)Lcom/google/common/base/e;
     .locals 1
 
-    .line 1
     new-instance v0, Lcom/google/common/base/JdkPattern;
 
     invoke-static {p1}, Ljava/util/regex/Pattern;->compile(Ljava/lang/String;)Ljava/util/regex/Pattern;

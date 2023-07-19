@@ -25,7 +25,6 @@
 
     iput-object p1, p0, Lcom/commsource/camera/xcamera/idcard/IDCardFillLightCover$a$a;->a:Lcom/commsource/camera/xcamera/idcard/IDCardFillLightCover$a;
 
-    .line 1
     invoke-direct {p0}, Landroid/animation/AnimatorListenerAdapter;-><init>()V
 
     return-void
@@ -44,10 +43,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0, p1}, Landroid/animation/AnimatorListenerAdapter;->onAnimationCancel(Landroid/animation/Animator;)V
 
-    .line 2
     iget-object p1, p0, Lcom/commsource/camera/xcamera/idcard/IDCardFillLightCover$a$a;->a:Lcom/commsource/camera/xcamera/idcard/IDCardFillLightCover$a;
 
     iget-object p1, p1, Lcom/commsource/camera/xcamera/idcard/IDCardFillLightCover$a;->a:Lcom/commsource/camera/xcamera/idcard/IDCardFillLightCover;
@@ -66,7 +63,6 @@
 
     invoke-static {p1}, Lcom/commsource/util/l0;->w(Landroid/view/View;)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -83,10 +79,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0, p1}, Landroid/animation/AnimatorListenerAdapter;->onAnimationEnd(Landroid/animation/Animator;)V
 
-    .line 2
     iget-object p1, p0, Lcom/commsource/camera/xcamera/idcard/IDCardFillLightCover$a$a;->a:Lcom/commsource/camera/xcamera/idcard/IDCardFillLightCover$a;
 
     iget-object p1, p1, Lcom/commsource/camera/xcamera/idcard/IDCardFillLightCover$a;->a:Lcom/commsource/camera/xcamera/idcard/IDCardFillLightCover;
@@ -105,7 +99,6 @@
 
     invoke-static {p1}, Lcom/commsource/util/l0;->w(Landroid/view/View;)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

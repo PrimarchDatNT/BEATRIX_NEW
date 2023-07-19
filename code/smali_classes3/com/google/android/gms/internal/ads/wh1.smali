@@ -30,12 +30,10 @@
 .method public final run()V
     .locals 3
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/wh1;->a:Ljava/io/InputStream;
 
     iget-object v1, p0, Lcom/google/android/gms/internal/ads/wh1;->b:Landroid/os/ParcelFileDescriptor;
 
-    .line 2
     :try_start_0
     new-instance v2, Landroid/os/ParcelFileDescriptor$AutoCloseOutputStream;
 
@@ -43,13 +41,11 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_2
 
-    .line 3
     :try_start_1
     invoke-static {v0, v2}, Lcom/google/android/gms/common/util/q;->c(Ljava/io/InputStream;Ljava/io/OutputStream;)J
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
-    .line 4
     :try_start_2
     invoke-virtual {v2}, Ljava/io/OutputStream;->close()V
     :try_end_2
@@ -57,7 +53,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 5
     :try_start_3
     invoke-virtual {v0}, Ljava/io/InputStream;->close()V
     :try_end_3
@@ -69,7 +64,6 @@
     :catchall_0
     move-exception v1
 
-    .line 6
     :try_start_4
     invoke-virtual {v2}, Ljava/io/OutputStream;->close()V
     :try_end_4
@@ -93,7 +87,6 @@
 
     if-eqz v0, :cond_1
 
-    .line 7
     :try_start_6
     invoke-virtual {v0}, Ljava/io/InputStream;->close()V
     :try_end_6

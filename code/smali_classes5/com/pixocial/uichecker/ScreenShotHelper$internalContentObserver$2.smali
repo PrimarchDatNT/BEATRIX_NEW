@@ -51,7 +51,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 2
     new-instance v0, Lcom/pixocial/uichecker/ScreenShotHelper$b;
 
     iget-object v1, p0, Lcom/pixocial/uichecker/ScreenShotHelper$internalContentObserver$2;->this$0:Lcom/pixocial/uichecker/ScreenShotHelper;
@@ -74,7 +73,6 @@
 .method public bridge synthetic invoke()Ljava/lang/Object;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/pixocial/uichecker/ScreenShotHelper$internalContentObserver$2;->invoke()Lcom/pixocial/uichecker/ScreenShotHelper$b;
 
     move-result-object v0

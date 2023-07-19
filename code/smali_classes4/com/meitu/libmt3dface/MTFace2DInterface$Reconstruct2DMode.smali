@@ -38,7 +38,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/meitu/libmt3dface/MTFace2DInterface$Reconstruct2DMode;
 
     const-string v2, "MT_FACE_25D"
@@ -49,7 +48,6 @@
 
     sput-object v1, Lcom/meitu/libmt3dface/MTFace2DInterface$Reconstruct2DMode;->MT_FACE_25D:Lcom/meitu/libmt3dface/MTFace2DInterface$Reconstruct2DMode;
 
-    .line 2
     new-instance v2, Lcom/meitu/libmt3dface/MTFace2DInterface$Reconstruct2DMode;
 
     const-string v4, "MT_FACE_2D_BACKGROUND"
@@ -68,7 +66,6 @@
 
     aput-object v2, v4, v5
 
-    .line 3
     sput-object v4, Lcom/meitu/libmt3dface/MTFace2DInterface$Reconstruct2DMode;->$VALUES:[Lcom/meitu/libmt3dface/MTFace2DInterface$Reconstruct2DMode;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -84,7 +81,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
     return-void
@@ -97,7 +93,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     const-class v1, Lcom/meitu/libmt3dface/MTFace2DInterface$Reconstruct2DMode;
 
     invoke-static {v1, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -118,7 +113,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/meitu/libmt3dface/MTFace2DInterface$Reconstruct2DMode;->$VALUES:[Lcom/meitu/libmt3dface/MTFace2DInterface$Reconstruct2DMode;
 
     invoke-virtual {v1}, [Lcom/meitu/libmt3dface/MTFace2DInterface$Reconstruct2DMode;->clone()Ljava/lang/Object;

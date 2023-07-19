@@ -55,14 +55,12 @@
 
     const-string v7, "timestamp"
 
-    .line 1
     invoke-static/range {v0 .. v7}, Lcom/google/android/gms/internal/firebase_auth/zzay;->zza(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Lcom/google/android/gms/internal/firebase_auth/zzay;
 
     move-result-object v0
 
     sput-object v0, Lcom/google/firebase/auth/internal/t;->d:Lcom/google/android/gms/internal/firebase_auth/zzay;
 
-    .line 2
     new-instance v0, Lcom/google/firebase/auth/internal/t;
 
     invoke-direct {v0}, Lcom/google/firebase/auth/internal/t;-><init>()V
@@ -75,12 +73,10 @@
 .method private constructor <init>()V
     .locals 2
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const-wide/16 v0, 0x0
 
-    .line 2
     iput-wide v0, p0, Lcom/google/firebase/auth/internal/t;->b:J
 
     return-void
@@ -93,7 +89,6 @@
 
     const/4 v1, 0x0
 
-    .line 1
     invoke-virtual {p0, v0, v1}, Landroid/content/Context;->getSharedPreferences(Ljava/lang/String;I)Landroid/content/SharedPreferences;
 
     move-result-object p0
@@ -102,7 +97,6 @@
 
     move-result-object p0
 
-    .line 2
     invoke-virtual {p1}, Lcom/google/android/gms/common/api/Status;->z()I
 
     move-result v0
@@ -111,7 +105,6 @@
 
     invoke-interface {p0, v1, v0}, Landroid/content/SharedPreferences$Editor;->putInt(Ljava/lang/String;I)Landroid/content/SharedPreferences$Editor;
 
-    .line 3
     invoke-virtual {p1}, Lcom/google/android/gms/common/api/Status;->A()Ljava/lang/String;
 
     move-result-object p1
@@ -120,7 +113,6 @@
 
     invoke-interface {p0, v0, p1}, Landroid/content/SharedPreferences$Editor;->putString(Ljava/lang/String;Ljava/lang/String;)Landroid/content/SharedPreferences$Editor;
 
-    .line 4
     invoke-static {}, Lcom/google/android/gms/common/util/k;->d()Lcom/google/android/gms/common/util/g;
 
     move-result-object p1
@@ -133,7 +125,6 @@
 
     invoke-interface {p0, p1, v0, v1}, Landroid/content/SharedPreferences$Editor;->putLong(Ljava/lang/String;J)Landroid/content/SharedPreferences$Editor;
 
-    .line 5
     invoke-interface {p0}, Landroid/content/SharedPreferences$Editor;->commit()Z
 
     return-void
@@ -150,7 +141,6 @@
 
     const/4 v1, 0x0
 
-    .line 1
     invoke-virtual {p0, v0, v1}, Landroid/content/Context;->getSharedPreferences(Ljava/lang/String;I)Landroid/content/SharedPreferences;
 
     move-result-object p0
@@ -159,27 +149,22 @@
 
     move-result-object p0
 
-    .line 2
     invoke-static {p1}, Lcom/google/android/gms/common/internal/safeparcel/b;->j(Lcom/google/android/gms/common/internal/safeparcel/SafeParcelable;)Ljava/lang/String;
 
     move-result-object p1
 
     const-string v0, "verifyAssertionRequest"
 
-    .line 3
     invoke-interface {p0, v0, p1}, Landroid/content/SharedPreferences$Editor;->putString(Ljava/lang/String;Ljava/lang/String;)Landroid/content/SharedPreferences$Editor;
 
     const-string p1, "operation"
 
-    .line 4
     invoke-interface {p0, p1, p2}, Landroid/content/SharedPreferences$Editor;->putString(Ljava/lang/String;Ljava/lang/String;)Landroid/content/SharedPreferences$Editor;
 
     const-string p1, "tenantId"
 
-    .line 5
     invoke-interface {p0, p1, p3}, Landroid/content/SharedPreferences$Editor;->putString(Ljava/lang/String;Ljava/lang/String;)Landroid/content/SharedPreferences$Editor;
 
-    .line 6
     invoke-static {}, Lcom/google/android/gms/common/util/k;->d()Lcom/google/android/gms/common/util/g;
 
     move-result-object p1
@@ -192,7 +177,6 @@
 
     invoke-interface {p0, p3, p1, p2}, Landroid/content/SharedPreferences$Editor;->putLong(Ljava/lang/String;J)Landroid/content/SharedPreferences$Editor;
 
-    .line 7
     invoke-interface {p0}, Landroid/content/SharedPreferences$Editor;->commit()Z
 
     return-void
@@ -201,17 +185,14 @@
 .method public static d(Landroid/content/Context;Lcom/google/firebase/auth/FirebaseAuth;)V
     .locals 2
 
-    .line 1
     invoke-static {p0}, Lcom/google/android/gms/common/internal/b0;->k(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 2
     invoke-static {p1}, Lcom/google/android/gms/common/internal/b0;->k(Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "com.google.firebase.auth.internal.ProcessDeathHelper"
 
     const/4 v1, 0x0
 
-    .line 3
     invoke-virtual {p0, v0, v1}, Landroid/content/Context;->getSharedPreferences(Ljava/lang/String;I)Landroid/content/SharedPreferences;
 
     move-result-object p0
@@ -220,7 +201,6 @@
 
     move-result-object p0
 
-    .line 4
     invoke-virtual {p1}, Lcom/google/firebase/auth/FirebaseAuth;->g0()Lcom/google/firebase/d;
 
     move-result-object p1
@@ -233,7 +213,6 @@
 
     invoke-interface {p0, v0, p1}, Landroid/content/SharedPreferences$Editor;->putString(Ljava/lang/String;Ljava/lang/String;)Landroid/content/SharedPreferences$Editor;
 
-    .line 5
     invoke-interface {p0}, Landroid/content/SharedPreferences$Editor;->commit()Z
 
     return-void
@@ -242,20 +221,16 @@
 .method public static e(Landroid/content/Context;Lcom/google/firebase/auth/FirebaseAuth;Lcom/google/firebase/auth/FirebaseUser;)V
     .locals 2
 
-    .line 1
     invoke-static {p0}, Lcom/google/android/gms/common/internal/b0;->k(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 2
     invoke-static {p1}, Lcom/google/android/gms/common/internal/b0;->k(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 3
     invoke-static {p2}, Lcom/google/android/gms/common/internal/b0;->k(Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "com.google.firebase.auth.internal.ProcessDeathHelper"
 
     const/4 v1, 0x0
 
-    .line 4
     invoke-virtual {p0, v0, v1}, Landroid/content/Context;->getSharedPreferences(Ljava/lang/String;I)Landroid/content/SharedPreferences;
 
     move-result-object p0
@@ -264,7 +239,6 @@
 
     move-result-object p0
 
-    .line 5
     invoke-virtual {p1}, Lcom/google/firebase/auth/FirebaseAuth;->g0()Lcom/google/firebase/d;
 
     move-result-object p1
@@ -277,7 +251,6 @@
 
     invoke-interface {p0, v0, p1}, Landroid/content/SharedPreferences$Editor;->putString(Ljava/lang/String;Ljava/lang/String;)Landroid/content/SharedPreferences$Editor;
 
-    .line 6
     invoke-virtual {p2}, Lcom/google/firebase/auth/FirebaseUser;->getUid()Ljava/lang/String;
 
     move-result-object p1
@@ -286,7 +259,6 @@
 
     invoke-interface {p0, p2, p1}, Landroid/content/SharedPreferences$Editor;->putString(Ljava/lang/String;Ljava/lang/String;)Landroid/content/SharedPreferences$Editor;
 
-    .line 7
     invoke-interface {p0}, Landroid/content/SharedPreferences$Editor;->commit()Z
 
     return-void
@@ -295,12 +267,10 @@
 .method private static f(Landroid/content/SharedPreferences;)V
     .locals 4
 
-    .line 1
     invoke-interface {p0}, Landroid/content/SharedPreferences;->edit()Landroid/content/SharedPreferences$Editor;
 
     move-result-object p0
 
-    .line 2
     sget-object v0, Lcom/google/firebase/auth/internal/t;->d:Lcom/google/android/gms/internal/firebase_auth/zzay;
 
     invoke-virtual {v0}, Ljava/util/AbstractCollection;->size()I
@@ -320,12 +290,10 @@
 
     check-cast v3, Ljava/lang/String;
 
-    .line 3
     invoke-interface {p0, v3}, Landroid/content/SharedPreferences$Editor;->remove(Ljava/lang/String;)Landroid/content/SharedPreferences$Editor;
 
     goto :goto_0
 
-    .line 4
     :cond_0
     invoke-interface {p0}, Landroid/content/SharedPreferences$Editor;->commit()Z
 
@@ -335,7 +303,6 @@
 .method public static h()Lcom/google/firebase/auth/internal/t;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/google/firebase/auth/internal/t;->e:Lcom/google/firebase/auth/internal/t;
 
     return-object v0
@@ -346,14 +313,12 @@
 .method public final a(Landroid/content/Context;)V
     .locals 2
 
-    .line 1
     invoke-static {p1}, Lcom/google/android/gms/common/internal/b0;->k(Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "com.google.firebase.auth.internal.ProcessDeathHelper"
 
     const/4 v1, 0x0
 
-    .line 2
     invoke-virtual {p1, v0, v1}, Landroid/content/Context;->getSharedPreferences(Ljava/lang/String;I)Landroid/content/SharedPreferences;
 
     move-result-object p1
@@ -362,12 +327,10 @@
 
     const/4 p1, 0x0
 
-    .line 3
     iput-object p1, p0, Lcom/google/firebase/auth/internal/t;->a:Lcom/google/android/gms/tasks/k;
 
     const-wide/16 v0, 0x0
 
-    .line 4
     iput-wide v0, p0, Lcom/google/firebase/auth/internal/t;->b:J
 
     return-void
@@ -384,7 +347,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {}, Lcom/google/android/gms/common/util/k;->d()Lcom/google/android/gms/common/util/g;
 
     move-result-object v0
@@ -397,14 +359,12 @@
 
     sub-long/2addr v0, v2
 
-    .line 2
     sget-wide v2, Lcom/google/firebase/auth/internal/t;->c:J
 
     cmp-long v4, v0, v2
 
     if-gez v4, :cond_0
 
-    .line 3
     iget-object v0, p0, Lcom/google/firebase/auth/internal/t;->a:Lcom/google/android/gms/tasks/k;
 
     return-object v0
@@ -418,10 +378,8 @@
 .method public final i(Lcom/google/firebase/auth/FirebaseAuth;)V
     .locals 11
 
-    .line 1
     invoke-static {p1}, Lcom/google/android/gms/common/internal/b0;->k(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 2
     invoke-virtual {p1}, Lcom/google/firebase/auth/FirebaseAuth;->g0()Lcom/google/firebase/d;
 
     move-result-object v0
@@ -434,7 +392,6 @@
 
     const/4 v2, 0x0
 
-    .line 3
     invoke-virtual {v0, v1, v2}, Landroid/content/Context;->getSharedPreferences(Ljava/lang/String;I)Landroid/content/SharedPreferences;
 
     move-result-object v0
@@ -443,12 +400,10 @@
 
     const-string v3, ""
 
-    .line 4
     invoke-interface {v0, v1, v3}, Landroid/content/SharedPreferences;->getString(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v1
 
-    .line 5
     invoke-virtual {p1}, Lcom/google/firebase/auth/FirebaseAuth;->g0()Lcom/google/firebase/d;
 
     move-result-object v4
@@ -468,7 +423,6 @@
     :cond_0
     const-string v1, "verifyAssertionRequest"
 
-    .line 6
     invoke-interface {v0, v1}, Landroid/content/SharedPreferences;->contains(Ljava/lang/String;)Z
 
     move-result v4
@@ -479,14 +433,12 @@
 
     if-eqz v4, :cond_7
 
-    .line 7
     invoke-interface {v0, v1, v3}, Landroid/content/SharedPreferences;->getString(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v1
 
     sget-object v4, Lcom/google/android/gms/internal/firebase_auth/zzfm;->CREATOR:Landroid/os/Parcelable$Creator;
 
-    .line 8
     invoke-static {v1, v4}, Lcom/google/android/gms/common/internal/safeparcel/b;->c(Ljava/lang/String;Landroid/os/Parcelable$Creator;)Lcom/google/android/gms/common/internal/safeparcel/SafeParcelable;
 
     move-result-object v1
@@ -495,7 +447,6 @@
 
     const-string v4, "operation"
 
-    .line 9
     invoke-interface {v0, v4, v3}, Landroid/content/SharedPreferences;->getString(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v4
@@ -504,19 +455,16 @@
 
     const/4 v9, 0x0
 
-    .line 10
     invoke-interface {v0, v8, v9}, Landroid/content/SharedPreferences;->getString(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v8
 
     const-string v10, "firebaseUserUid"
 
-    .line 11
     invoke-interface {v0, v10, v3}, Landroid/content/SharedPreferences;->getString(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v3
 
-    .line 12
     invoke-interface {v0, v7, v5, v6}, Landroid/content/SharedPreferences;->getLong(Ljava/lang/String;J)J
 
     move-result-wide v5
@@ -525,13 +473,10 @@
 
     if-eqz v8, :cond_1
 
-    .line 13
     invoke-virtual {p1, v8}, Lcom/google/firebase/auth/FirebaseAuth;->l0(Ljava/lang/String;)V
 
-    .line 14
     invoke-virtual {v1, v8}, Lcom/google/android/gms/internal/firebase_auth/zzfm;->z(Ljava/lang/String;)Lcom/google/android/gms/internal/firebase_auth/zzfm;
 
-    .line 15
     :cond_1
     invoke-virtual {v4}, Ljava/lang/String;->hashCode()I
 
@@ -595,18 +540,15 @@
     :goto_1
     packed-switch v2, :pswitch_data_0
 
-    .line 16
     iput-object v9, p0, Lcom/google/firebase/auth/internal/t;->a:Lcom/google/android/gms/tasks/k;
 
     goto :goto_2
 
-    .line 17
     :pswitch_0
     invoke-static {v1}, Lcom/google/firebase/auth/zzf;->V(Lcom/google/android/gms/internal/firebase_auth/zzfm;)Lcom/google/firebase/auth/zzf;
 
     move-result-object v1
 
-    .line 18
     invoke-virtual {p1, v1}, Lcom/google/firebase/auth/FirebaseAuth;->y(Lcom/google/firebase/auth/AuthCredential;)Lcom/google/android/gms/tasks/k;
 
     move-result-object p1
@@ -615,7 +557,6 @@
 
     goto :goto_2
 
-    .line 19
     :pswitch_1
     invoke-virtual {p1}, Lcom/google/firebase/auth/FirebaseAuth;->l()Lcom/google/firebase/auth/FirebaseUser;
 
@@ -631,17 +572,14 @@
 
     if-eqz v2, :cond_5
 
-    .line 20
     invoke-virtual {p1}, Lcom/google/firebase/auth/FirebaseAuth;->l()Lcom/google/firebase/auth/FirebaseUser;
 
     move-result-object p1
 
-    .line 21
     invoke-static {v1}, Lcom/google/firebase/auth/zzf;->V(Lcom/google/android/gms/internal/firebase_auth/zzfm;)Lcom/google/firebase/auth/zzf;
 
     move-result-object v1
 
-    .line 22
     invoke-virtual {p1, v1}, Lcom/google/firebase/auth/FirebaseUser;->V(Lcom/google/firebase/auth/AuthCredential;)Lcom/google/android/gms/tasks/k;
 
     move-result-object p1
@@ -650,13 +588,11 @@
 
     goto :goto_2
 
-    .line 23
     :cond_5
     iput-object v9, p0, Lcom/google/firebase/auth/internal/t;->a:Lcom/google/android/gms/tasks/k;
 
     goto :goto_2
 
-    .line 24
     :pswitch_2
     invoke-virtual {p1}, Lcom/google/firebase/auth/FirebaseAuth;->l()Lcom/google/firebase/auth/FirebaseUser;
 
@@ -672,17 +608,14 @@
 
     if-eqz v2, :cond_6
 
-    .line 25
     invoke-virtual {p1}, Lcom/google/firebase/auth/FirebaseAuth;->l()Lcom/google/firebase/auth/FirebaseUser;
 
     move-result-object p1
 
-    .line 26
     invoke-static {v1}, Lcom/google/firebase/auth/zzf;->V(Lcom/google/android/gms/internal/firebase_auth/zzfm;)Lcom/google/firebase/auth/zzf;
 
     move-result-object v1
 
-    .line 27
     invoke-virtual {p1, v1}, Lcom/google/firebase/auth/FirebaseUser;->w0(Lcom/google/firebase/auth/AuthCredential;)Lcom/google/android/gms/tasks/k;
 
     move-result-object p1
@@ -691,11 +624,9 @@
 
     goto :goto_2
 
-    .line 28
     :cond_6
     iput-object v9, p0, Lcom/google/firebase/auth/internal/t;->a:Lcom/google/android/gms/tasks/k;
 
-    .line 29
     :goto_2
     invoke-static {v0}, Lcom/google/firebase/auth/internal/t;->f(Landroid/content/SharedPreferences;)V
 
@@ -704,7 +635,6 @@
     :cond_7
     const-string p1, "statusCode"
 
-    .line 30
     invoke-interface {v0, p1}, Landroid/content/SharedPreferences;->contains(Ljava/lang/String;)Z
 
     move-result v1
@@ -713,34 +643,28 @@
 
     const/16 v1, 0x42a6
 
-    .line 31
     invoke-interface {v0, p1, v1}, Landroid/content/SharedPreferences;->getInt(Ljava/lang/String;I)I
 
     move-result p1
 
     const-string v1, "statusMessage"
 
-    .line 32
     invoke-interface {v0, v1, v3}, Landroid/content/SharedPreferences;->getString(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v1
 
-    .line 33
     new-instance v2, Lcom/google/android/gms/common/api/Status;
 
     invoke-direct {v2, p1, v1}, Lcom/google/android/gms/common/api/Status;-><init>(ILjava/lang/String;)V
 
-    .line 34
     invoke-interface {v0, v7, v5, v6}, Landroid/content/SharedPreferences;->getLong(Ljava/lang/String;J)J
 
     move-result-wide v3
 
     iput-wide v3, p0, Lcom/google/firebase/auth/internal/t;->b:J
 
-    .line 35
     invoke-static {v0}, Lcom/google/firebase/auth/internal/t;->f(Landroid/content/SharedPreferences;)V
 
-    .line 36
     invoke-static {v2}, Lcom/google/firebase/auth/p/a/u2;->d(Lcom/google/android/gms/common/api/Status;)Lcom/google/firebase/FirebaseException;
 
     move-result-object p1

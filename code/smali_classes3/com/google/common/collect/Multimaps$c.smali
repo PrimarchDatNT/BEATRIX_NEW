@@ -51,10 +51,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Lcom/google/common/collect/d;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/google/common/collect/Multimaps$c;->a:Lcom/google/common/collect/l1;
 
     return-void
@@ -65,7 +63,6 @@
 .method public clear()V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/Multimaps$c;->a:Lcom/google/common/collect/l1;
 
     invoke-interface {v0}, Lcom/google/common/collect/l1;->clear()V
@@ -80,7 +77,6 @@
         .end annotation
     .end param
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/Multimaps$c;->a:Lcom/google/common/collect/l1;
 
     invoke-interface {v0, p1}, Lcom/google/common/collect/l1;->containsKey(Ljava/lang/Object;)Z
@@ -97,7 +93,6 @@
         .end annotation
     .end param
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/Multimaps$c;->a:Lcom/google/common/collect/l1;
 
     invoke-interface {v0}, Lcom/google/common/collect/l1;->asMap()Ljava/util/Map;
@@ -116,7 +111,6 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     invoke-interface {p1}, Ljava/util/Collection;->size()I
 
@@ -129,7 +123,6 @@
 .method distinctElements()I
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/Multimaps$c;->a:Lcom/google/common/collect/l1;
 
     invoke-interface {v0}, Lcom/google/common/collect/l1;->asMap()Ljava/util/Map;
@@ -153,7 +146,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/lang/AssertionError;
 
     const-string v1, "should never be called"
@@ -173,7 +165,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/Multimaps$c;->a:Lcom/google/common/collect/l1;
 
     invoke-interface {v0}, Lcom/google/common/collect/l1;->keySet()Ljava/util/Set;
@@ -194,12 +185,10 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/google/common/collect/Multimaps$c$a;
 
     iget-object v1, p0, Lcom/google/common/collect/Multimaps$c;->a:Lcom/google/common/collect/l1;
 
-    .line 2
     invoke-interface {v1}, Lcom/google/common/collect/l1;->asMap()Ljava/util/Map;
 
     move-result-object v1
@@ -227,7 +216,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/Multimaps$c;->a:Lcom/google/common/collect/l1;
 
     invoke-interface {v0}, Lcom/google/common/collect/l1;->entries()Ljava/util/Collection;
@@ -254,19 +242,16 @@
 
     const-string v0, "occurrences"
 
-    .line 1
     invoke-static {p2, v0}, Lcom/google/common/collect/m;->b(ILjava/lang/String;)I
 
     if-nez p2, :cond_0
 
-    .line 2
     invoke-virtual {p0, p1}, Lcom/google/common/collect/Multimaps$c;->count(Ljava/lang/Object;)I
 
     move-result p1
 
     return p1
 
-    .line 3
     :cond_0
     iget-object v0, p0, Lcom/google/common/collect/Multimaps$c;->a:Lcom/google/common/collect/l1;
 
@@ -286,7 +271,6 @@
 
     return v0
 
-    .line 4
     :cond_1
     invoke-interface {p1}, Ljava/util/Collection;->size()I
 
@@ -294,12 +278,10 @@
 
     if-lt p2, v1, :cond_2
 
-    .line 5
     invoke-interface {p1}, Ljava/util/Collection;->clear()V
 
     goto :goto_1
 
-    .line 6
     :cond_2
     invoke-interface {p1}, Ljava/util/Collection;->iterator()Ljava/util/Iterator;
 
@@ -308,10 +290,8 @@
     :goto_0
     if-ge v0, p2, :cond_3
 
-    .line 7
     invoke-interface {p1}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
-    .line 8
     invoke-interface {p1}, Ljava/util/Iterator;->remove()V
 
     add-int/lit8 v0, v0, 0x1
@@ -326,7 +306,6 @@
 .method public size()I
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/Multimaps$c;->a:Lcom/google/common/collect/l1;
 
     invoke-interface {v0}, Lcom/google/common/collect/l1;->size()I

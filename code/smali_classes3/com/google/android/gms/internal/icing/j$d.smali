@@ -33,7 +33,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/google/android/gms/internal/icing/g;-><init>(Lcom/google/android/gms/common/api/internal/d$b;)V
 
     return-void
@@ -44,7 +43,6 @@
 .method public final x0(Lcom/google/android/gms/common/api/Status;)V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/icing/g;->b:Lcom/google/android/gms/common/api/internal/d$b;
 
     invoke-interface {v0, p1}, Lcom/google/android/gms/common/api/internal/d$b;->a(Ljava/lang/Object;)V

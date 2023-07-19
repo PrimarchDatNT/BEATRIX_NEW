@@ -67,7 +67,6 @@
 .method public constructor <init>(Lcom/commsource/camera/datas/BeautyDefaultConfigVaule;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/camera/datas/BeautyDefaultConfigVaule$Face;->this$0:Lcom/commsource/camera/datas/BeautyDefaultConfigVaule;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -84,7 +83,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/camera/datas/BeautyDefaultConfigVaule$Face;->bigEyeValue:F
 
     const/4 v2, 0x0
@@ -93,7 +91,6 @@
 
     if-gez v3, :cond_0
 
-    .line 2
     iput v2, p0, Lcom/commsource/camera/datas/BeautyDefaultConfigVaule$Face;->bigEyeValue:F
 
     goto :goto_0
@@ -109,10 +106,8 @@
 
     const/high16 v1, 0x3f800000    # 1.0f
 
-    .line 3
     iput v1, p0, Lcom/commsource/camera/datas/BeautyDefaultConfigVaule$Face;->bigEyeValue:F
 
-    .line 4
     :cond_1
     :goto_0
     iget v1, p0, Lcom/commsource/camera/datas/BeautyDefaultConfigVaule$Face;->bigEyeValue:F
@@ -129,7 +124,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/camera/datas/BeautyDefaultConfigVaule$Face;->jawValue:F
 
     float-to-double v2, v1
@@ -142,7 +136,6 @@
 
     const/high16 v1, -0x41000000    # -0.5f
 
-    .line 2
     iput v1, p0, Lcom/commsource/camera/datas/BeautyDefaultConfigVaule$Face;->jawValue:F
 
     goto :goto_0
@@ -158,10 +151,8 @@
 
     const/high16 v1, 0x3f000000    # 0.5f
 
-    .line 3
     iput v1, p0, Lcom/commsource/camera/datas/BeautyDefaultConfigVaule$Face;->jawValue:F
 
-    .line 4
     :cond_1
     :goto_0
     iget v1, p0, Lcom/commsource/camera/datas/BeautyDefaultConfigVaule$Face;->jawValue:F
@@ -178,7 +169,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/camera/datas/BeautyDefaultConfigVaule$Face;->mouthValue:F
 
     const/4 v2, 0x0
@@ -187,7 +177,6 @@
 
     if-gez v3, :cond_0
 
-    .line 2
     iput v2, p0, Lcom/commsource/camera/datas/BeautyDefaultConfigVaule$Face;->mouthValue:F
 
     goto :goto_0
@@ -203,10 +192,8 @@
 
     const/high16 v1, 0x3f800000    # 1.0f
 
-    .line 3
     iput v1, p0, Lcom/commsource/camera/datas/BeautyDefaultConfigVaule$Face;->mouthValue:F
 
-    .line 4
     :cond_1
     :goto_0
     iget v1, p0, Lcom/commsource/camera/datas/BeautyDefaultConfigVaule$Face;->mouthValue:F
@@ -223,7 +210,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/datas/BeautyDefaultConfigVaule$Face;->name:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -238,7 +224,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/camera/datas/BeautyDefaultConfigVaule$Face;->noseHeightValue:F
 
     float-to-double v2, v1
@@ -251,7 +236,6 @@
 
     const/high16 v1, -0x41000000    # -0.5f
 
-    .line 2
     iput v1, p0, Lcom/commsource/camera/datas/BeautyDefaultConfigVaule$Face;->noseHeightValue:F
 
     goto :goto_0
@@ -267,10 +251,8 @@
 
     const/high16 v1, 0x3f000000    # 0.5f
 
-    .line 3
     iput v1, p0, Lcom/commsource/camera/datas/BeautyDefaultConfigVaule$Face;->noseHeightValue:F
 
-    .line 4
     :cond_1
     :goto_0
     iget v1, p0, Lcom/commsource/camera/datas/BeautyDefaultConfigVaule$Face;->noseHeightValue:F
@@ -287,7 +269,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/camera/datas/BeautyDefaultConfigVaule$Face;->noseWidthValue:F
 
     const/4 v2, 0x0
@@ -296,7 +277,6 @@
 
     if-gez v3, :cond_0
 
-    .line 2
     iput v2, p0, Lcom/commsource/camera/datas/BeautyDefaultConfigVaule$Face;->noseWidthValue:F
 
     goto :goto_0
@@ -312,10 +292,8 @@
 
     const/high16 v1, 0x3f800000    # 1.0f
 
-    .line 3
     iput v1, p0, Lcom/commsource/camera/datas/BeautyDefaultConfigVaule$Face;->noseWidthValue:F
 
-    .line 4
     :cond_1
     :goto_0
     iget v1, p0, Lcom/commsource/camera/datas/BeautyDefaultConfigVaule$Face;->noseWidthValue:F
@@ -332,7 +310,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/camera/datas/BeautyDefaultConfigVaule$Face;->thinFaceValue:F
 
     const/4 v2, 0x0
@@ -341,7 +318,6 @@
 
     if-gez v3, :cond_0
 
-    .line 2
     iput v2, p0, Lcom/commsource/camera/datas/BeautyDefaultConfigVaule$Face;->thinFaceValue:F
 
     goto :goto_0
@@ -357,10 +333,8 @@
 
     const/high16 v1, 0x3f800000    # 1.0f
 
-    .line 3
     iput v1, p0, Lcom/commsource/camera/datas/BeautyDefaultConfigVaule$Face;->thinFaceValue:F
 
-    .line 4
     :cond_1
     :goto_0
     iget v1, p0, Lcom/commsource/camera/datas/BeautyDefaultConfigVaule$Face;->thinFaceValue:F
@@ -377,10 +351,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/camera/datas/BeautyDefaultConfigVaule$Face;->bigEyeValue:F
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -393,10 +365,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/camera/datas/BeautyDefaultConfigVaule$Face;->jawValue:F
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -409,10 +379,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/camera/datas/BeautyDefaultConfigVaule$Face;->mouthValue:F
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -425,10 +393,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/camera/datas/BeautyDefaultConfigVaule$Face;->name:Ljava/lang/String;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -441,10 +407,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/camera/datas/BeautyDefaultConfigVaule$Face;->noseHeightValue:F
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -457,10 +421,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/camera/datas/BeautyDefaultConfigVaule$Face;->noseWidthValue:F
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -473,10 +435,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/camera/datas/BeautyDefaultConfigVaule$Face;->thinFaceValue:F
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

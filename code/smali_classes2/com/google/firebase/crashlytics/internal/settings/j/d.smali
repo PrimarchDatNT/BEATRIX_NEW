@@ -32,7 +32,6 @@
 .method public constructor <init>(Ljava/lang/String;Ljava/lang/String;Lcom/google/firebase/crashlytics/internal/network/b;)V
     .locals 6
 
-    .line 1
     sget-object v4, Lcom/google/firebase/crashlytics/internal/network/HttpMethod;->GET:Lcom/google/firebase/crashlytics/internal/network/HttpMethod;
 
     invoke-static {}, Lcom/google/firebase/crashlytics/e/b;->f()Lcom/google/firebase/crashlytics/e/b;
@@ -55,10 +54,8 @@
 .method constructor <init>(Ljava/lang/String;Ljava/lang/String;Lcom/google/firebase/crashlytics/internal/network/b;Lcom/google/firebase/crashlytics/internal/network/HttpMethod;Lcom/google/firebase/crashlytics/e/b;)V
     .locals 0
 
-    .line 2
     invoke-direct {p0, p1, p2, p3, p4}, Lcom/google/firebase/crashlytics/internal/common/a;-><init>(Ljava/lang/String;Ljava/lang/String;Lcom/google/firebase/crashlytics/internal/network/b;Lcom/google/firebase/crashlytics/internal/network/HttpMethod;)V
 
-    .line 3
     iput-object p5, p0, Lcom/google/firebase/crashlytics/internal/settings/j/d;->q:Lcom/google/firebase/crashlytics/e/b;
 
     return-void
@@ -67,7 +64,6 @@
 .method private h(Lcom/google/firebase/crashlytics/internal/network/a;Lcom/google/firebase/crashlytics/internal/settings/i/g;)Lcom/google/firebase/crashlytics/internal/network/a;
     .locals 2
 
-    .line 1
     iget-object v0, p2, Lcom/google/firebase/crashlytics/internal/settings/i/g;->a:Ljava/lang/String;
 
     const-string v1, "X-CRASHLYTICS-GOOGLE-APP-ID"
@@ -78,58 +74,48 @@
 
     const-string v1, "android"
 
-    .line 2
     invoke-direct {p0, p1, v0, v1}, Lcom/google/firebase/crashlytics/internal/settings/j/d;->i(Lcom/google/firebase/crashlytics/internal/network/a;Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 3
     invoke-static {}, Lcom/google/firebase/crashlytics/internal/common/j;->m()Ljava/lang/String;
 
     move-result-object v0
 
     const-string v1, "X-CRASHLYTICS-API-CLIENT-VERSION"
 
-    .line 4
     invoke-direct {p0, p1, v1, v0}, Lcom/google/firebase/crashlytics/internal/settings/j/d;->i(Lcom/google/firebase/crashlytics/internal/network/a;Ljava/lang/String;Ljava/lang/String;)V
 
     const-string v0, "Accept"
 
     const-string v1, "application/json"
 
-    .line 5
     invoke-direct {p0, p1, v0, v1}, Lcom/google/firebase/crashlytics/internal/settings/j/d;->i(Lcom/google/firebase/crashlytics/internal/network/a;Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 6
     iget-object v0, p2, Lcom/google/firebase/crashlytics/internal/settings/i/g;->b:Ljava/lang/String;
 
     const-string v1, "X-CRASHLYTICS-DEVICE-MODEL"
 
     invoke-direct {p0, p1, v1, v0}, Lcom/google/firebase/crashlytics/internal/settings/j/d;->i(Lcom/google/firebase/crashlytics/internal/network/a;Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 7
     iget-object v0, p2, Lcom/google/firebase/crashlytics/internal/settings/i/g;->c:Ljava/lang/String;
 
     const-string v1, "X-CRASHLYTICS-OS-BUILD-VERSION"
 
     invoke-direct {p0, p1, v1, v0}, Lcom/google/firebase/crashlytics/internal/settings/j/d;->i(Lcom/google/firebase/crashlytics/internal/network/a;Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 8
     iget-object v0, p2, Lcom/google/firebase/crashlytics/internal/settings/i/g;->d:Ljava/lang/String;
 
     const-string v1, "X-CRASHLYTICS-OS-DISPLAY-VERSION"
 
     invoke-direct {p0, p1, v1, v0}, Lcom/google/firebase/crashlytics/internal/settings/j/d;->i(Lcom/google/firebase/crashlytics/internal/network/a;Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 9
     iget-object p2, p2, Lcom/google/firebase/crashlytics/internal/settings/i/g;->e:Lcom/google/firebase/crashlytics/internal/common/u;
 
-    .line 10
     invoke-interface {p2}, Lcom/google/firebase/crashlytics/internal/common/u;->a()Ljava/lang/String;
 
     move-result-object p2
 
     const-string v0, "X-CRASHLYTICS-INSTALLATION-ID"
 
-    .line 11
     invoke-direct {p0, p1, v0, p2}, Lcom/google/firebase/crashlytics/internal/settings/j/d;->i(Lcom/google/firebase/crashlytics/internal/network/a;Ljava/lang/String;Ljava/lang/String;)V
 
     return-object p1
@@ -140,7 +126,6 @@
 
     if-eqz p3, :cond_0
 
-    .line 1
     invoke-virtual {p1, p2, p3}, Lcom/google/firebase/crashlytics/internal/network/a;->d(Ljava/lang/String;Ljava/lang/String;)Lcom/google/firebase/crashlytics/internal/network/a;
 
     :cond_0
@@ -150,7 +135,6 @@
 .method private j(Ljava/lang/String;)Lorg/json/JSONObject;
     .locals 4
 
-    .line 1
     :try_start_0
     new-instance v0, Lorg/json/JSONObject;
 
@@ -163,7 +147,6 @@
     :catch_0
     move-exception v0
 
-    .line 2
     iget-object v1, p0, Lcom/google/firebase/crashlytics/internal/settings/j/d;->q:Lcom/google/firebase/crashlytics/e/b;
 
     new-instance v2, Ljava/lang/StringBuilder;
@@ -186,7 +169,6 @@
 
     invoke-virtual {v1, v2, v0}, Lcom/google/firebase/crashlytics/e/b;->c(Ljava/lang/String;Ljava/lang/Throwable;)V
 
-    .line 3
     iget-object v0, p0, Lcom/google/firebase/crashlytics/internal/settings/j/d;->q:Lcom/google/firebase/crashlytics/e/b;
 
     new-instance v1, Ljava/lang/StringBuilder;
@@ -224,26 +206,22 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/util/HashMap;
 
     invoke-direct {v0}, Ljava/util/HashMap;-><init>()V
 
-    .line 2
     iget-object v1, p1, Lcom/google/firebase/crashlytics/internal/settings/i/g;->h:Ljava/lang/String;
 
     const-string v2, "build_version"
 
     invoke-interface {v0, v2, v1}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 3
     iget-object v1, p1, Lcom/google/firebase/crashlytics/internal/settings/i/g;->g:Ljava/lang/String;
 
     const-string v2, "display_version"
 
     invoke-interface {v0, v2, v1}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 4
     iget v1, p1, Lcom/google/firebase/crashlytics/internal/settings/i/g;->i:I
 
     invoke-static {v1}, Ljava/lang/Integer;->toString(I)Ljava/lang/String;
@@ -254,10 +232,8 @@
 
     invoke-interface {v0, v2, v1}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 5
     iget-object p1, p1, Lcom/google/firebase/crashlytics/internal/settings/i/g;->f:Ljava/lang/String;
 
-    .line 6
     invoke-static {p1}, Lcom/google/firebase/crashlytics/internal/common/CommonUtils;->N(Ljava/lang/String;)Z
 
     move-result v1
@@ -266,7 +242,6 @@
 
     const-string v1, "instance"
 
-    .line 7
     invoke-interface {v0, v1, p1}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     :cond_0
@@ -280,23 +255,19 @@
 
     if-eqz p2, :cond_0
 
-    .line 1
     :try_start_0
     invoke-direct {p0, p1}, Lcom/google/firebase/crashlytics/internal/settings/j/d;->k(Lcom/google/firebase/crashlytics/internal/settings/i/g;)Ljava/util/Map;
 
     move-result-object p2
 
-    .line 2
     invoke-virtual {p0, p2}, Lcom/google/firebase/crashlytics/internal/common/a;->e(Ljava/util/Map;)Lcom/google/firebase/crashlytics/internal/network/a;
 
     move-result-object v0
 
-    .line 3
     invoke-direct {p0, v0, p1}, Lcom/google/firebase/crashlytics/internal/settings/j/d;->h(Lcom/google/firebase/crashlytics/internal/network/a;Lcom/google/firebase/crashlytics/internal/settings/i/g;)Lcom/google/firebase/crashlytics/internal/network/a;
 
     move-result-object p1
 
-    .line 4
     iget-object v0, p0, Lcom/google/firebase/crashlytics/internal/settings/j/d;->q:Lcom/google/firebase/crashlytics/e/b;
 
     new-instance v1, Ljava/lang/StringBuilder;
@@ -319,7 +290,6 @@
 
     invoke-virtual {v0, v1}, Lcom/google/firebase/crashlytics/e/b;->b(Ljava/lang/String;)V
 
-    .line 5
     iget-object v0, p0, Lcom/google/firebase/crashlytics/internal/settings/j/d;->q:Lcom/google/firebase/crashlytics/e/b;
 
     new-instance v1, Ljava/lang/StringBuilder;
@@ -338,12 +308,10 @@
 
     invoke-virtual {v0, p2}, Lcom/google/firebase/crashlytics/e/b;->b(Ljava/lang/String;)V
 
-    .line 6
     invoke-virtual {p1}, Lcom/google/firebase/crashlytics/internal/network/a;->b()Lcom/google/firebase/crashlytics/internal/network/c;
 
     move-result-object p1
 
-    .line 7
     iget-object p2, p0, Lcom/google/firebase/crashlytics/internal/settings/j/d;->q:Lcom/google/firebase/crashlytics/e/b;
 
     new-instance v0, Ljava/lang/StringBuilder;
@@ -368,7 +336,6 @@
 
     invoke-virtual {p2, v0}, Lcom/google/firebase/crashlytics/e/b;->b(Ljava/lang/String;)V
 
-    .line 8
     invoke-virtual {p0, p1}, Lcom/google/firebase/crashlytics/internal/settings/j/d;->l(Lcom/google/firebase/crashlytics/internal/network/c;)Lorg/json/JSONObject;
 
     move-result-object p1
@@ -380,7 +347,6 @@
     :catch_0
     move-exception p1
 
-    .line 9
     iget-object p2, p0, Lcom/google/firebase/crashlytics/internal/settings/j/d;->q:Lcom/google/firebase/crashlytics/e/b;
 
     const-string v0, "Settings request failed."
@@ -392,7 +358,6 @@
     :goto_0
     return-object p1
 
-    .line 10
     :cond_0
     new-instance p1, Ljava/lang/RuntimeException;
 
@@ -406,12 +371,10 @@
 .method l(Lcom/google/firebase/crashlytics/internal/network/c;)Lorg/json/JSONObject;
     .locals 4
 
-    .line 1
     invoke-virtual {p1}, Lcom/google/firebase/crashlytics/internal/network/c;->b()I
 
     move-result v0
 
-    .line 2
     iget-object v1, p0, Lcom/google/firebase/crashlytics/internal/settings/j/d;->q:Lcom/google/firebase/crashlytics/e/b;
 
     new-instance v2, Ljava/lang/StringBuilder;
@@ -430,14 +393,12 @@
 
     invoke-virtual {v1, v2}, Lcom/google/firebase/crashlytics/e/b;->b(Ljava/lang/String;)V
 
-    .line 3
     invoke-virtual {p0, v0}, Lcom/google/firebase/crashlytics/internal/settings/j/d;->m(I)Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
-    .line 4
     invoke-virtual {p1}, Lcom/google/firebase/crashlytics/internal/network/c;->a()Ljava/lang/String;
 
     move-result-object p1
@@ -448,7 +409,6 @@
 
     goto :goto_0
 
-    .line 5
     :cond_0
     iget-object p1, p0, Lcom/google/firebase/crashlytics/internal/settings/j/d;->q:Lcom/google/firebase/crashlytics/e/b;
 

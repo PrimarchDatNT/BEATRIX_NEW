@@ -57,29 +57,24 @@
 
     sput-object v1, Lcom/commsource/studio/layer/b;->Q:Lcom/commsource/studio/layer/b$b;
 
-    .line 1
     new-instance v1, Lcom/commsource/studio/function/background/BackgroundType;
 
     const/4 v2, 0x2
 
     new-array v5, v2, [F
 
-    .line 2
     fill-array-data v5, :array_0
 
     new-array v6, v2, [F
 
-    .line 3
     fill-array-data v6, :array_1
 
     new-array v7, v2, [I
 
-    .line 4
     fill-array-data v7, :array_2
 
     new-array v8, v2, [F
 
-    .line 5
     fill-array-data v8, :array_3
 
     const/4 v4, 0x1
@@ -94,7 +89,6 @@
 
     move-object v3, v1
 
-    .line 6
     invoke-direct/range {v3 .. v12}, Lcom/commsource/studio/function/background/BackgroundType;-><init>(I[F[F[I[FZIILcotlin/jvm/internal/u;)V
 
     sput-object v1, Lcom/commsource/studio/layer/b;->P:Lcom/commsource/studio/function/background/BackgroundType;
@@ -139,10 +133,8 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/commsource/studio/layer/BaseLayer;-><init>(Landroid/content/Context;)V
 
-    .line 2
     new-instance v0, Landroidx/lifecycle/ViewModelProvider;
 
     move-object v1, p1
@@ -163,30 +155,24 @@
 
     move-result-object v0
 
-    .line 3
     check-cast p1, Landroidx/lifecycle/LifecycleOwner;
 
-    .line 4
     new-instance v1, Lcom/commsource/studio/layer/b$a;
 
     invoke-direct {v1, p0}, Lcom/commsource/studio/layer/b$a;-><init>(Lcom/commsource/studio/layer/b;)V
 
-    .line 5
     invoke-virtual {v0, p1, v1}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 6
     new-instance p1, Landroid/graphics/RectF;
 
     invoke-direct {p1}, Landroid/graphics/RectF;-><init>()V
 
     iput-object p1, p0, Lcom/commsource/studio/layer/b;->L:Landroid/graphics/RectF;
 
-    .line 7
     sget-object p1, Lcom/commsource/studio/layer/b;->P:Lcom/commsource/studio/function/background/BackgroundType;
 
     iput-object p1, p0, Lcom/commsource/studio/layer/b;->M:Lcom/commsource/studio/function/background/BackgroundType;
 
-    .line 8
     sget-object p1, Lcom/commsource/easyeditor/entity/CropEnum;->Origin:Lcom/commsource/easyeditor/entity/CropEnum;
 
     iput-object p1, p0, Lcom/commsource/studio/layer/b;->O:Lcom/commsource/easyeditor/entity/CropEnum;
@@ -201,7 +187,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/studio/layer/b;->P:Lcom/commsource/studio/function/background/BackgroundType;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -218,19 +203,16 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/layer/b;->L:Landroid/graphics/RectF;
 
     invoke-virtual {v1, p1, p2, p3, p4}, Landroid/graphics/RectF;->set(FFFF)V
 
-    .line 2
     invoke-virtual {p0}, Lcom/commsource/studio/layer/BaseLayer;->F()Landroid/view/View;
 
     move-result-object p1
 
     invoke-virtual {p1}, Landroid/view/View;->invalidate()V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -245,7 +227,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v7, Lcom/commsource/studio/function/background/BackgroundView;
 
     invoke-virtual {p0}, Lcom/commsource/studio/layer/BaseLayer;->A()Landroid/content/Context;
@@ -278,7 +259,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/layer/b;->O:Lcom/commsource/easyeditor/entity/CropEnum;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -295,7 +275,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/layer/b;->N:Lcom/commsource/studio/function/background/BackgroundTexture;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -312,7 +291,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/layer/b;->M:Lcom/commsource/studio/function/background/BackgroundType;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -335,7 +313,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/layer/b;->O:Lcom/commsource/easyeditor/entity/CropEnum;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -354,12 +331,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/layer/b;->N:Lcom/commsource/studio/function/background/BackgroundTexture;
 
     if-eqz p1, :cond_0
 
-    .line 2
     new-instance v1, Lcom/commsource/studio/layer/b$c;
 
     invoke-direct {v1, p0, p1}, Lcom/commsource/studio/layer/b$c;-><init>(Lcom/commsource/studio/layer/b;Lcom/commsource/studio/function/background/BackgroundTexture;)V
@@ -370,7 +345,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_0
     invoke-virtual {p0}, Lcom/commsource/studio/layer/BaseLayer;->F()Landroid/view/View;
 
@@ -380,7 +354,6 @@
 
     check-cast p1, Lcom/commsource/studio/function/background/BackgroundView;
 
-    .line 4
     invoke-virtual {p1}, Lcom/commsource/studio/function/background/BackgroundView;->getBackgroundDrawer()Lcom/commsource/studio/function/background/BackgroundDrawer;
 
     move-result-object v1
@@ -391,7 +364,6 @@
 
     invoke-static {v1, v3, v3, v2, v3}, Lcom/commsource/studio/function/background/BackgroundDrawer;->w(Lcom/commsource/studio/function/background/BackgroundDrawer;Landroid/graphics/Bitmap;Lcom/commsource/studio/function/background/BackgroundTexture;ILjava/lang/Object;)V
 
-    .line 5
     invoke-virtual {p1}, Lcom/commsource/studio/function/background/BackgroundView;->getBackgroundDrawer()Lcom/commsource/studio/function/background/BackgroundDrawer;
 
     move-result-object v1
@@ -400,16 +372,13 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/studio/function/background/BackgroundDrawer;->m(I)V
 
-    .line 6
     invoke-virtual {p1}, Landroid/view/View;->postInvalidate()V
 
-    .line 7
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 8
     :cond_1
     new-instance p1, Lcotlin/TypeCastException;
 
@@ -437,10 +406,8 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/layer/b;->M:Lcom/commsource/studio/function/background/BackgroundType;
 
-    .line 2
     invoke-virtual {p0}, Lcom/commsource/studio/layer/BaseLayer;->F()Landroid/view/View;
 
     move-result-object v1
@@ -449,22 +416,18 @@
 
     check-cast v1, Lcom/commsource/studio/function/background/BackgroundView;
 
-    .line 3
     invoke-virtual {v1}, Lcom/commsource/studio/function/background/BackgroundView;->getBackgroundDrawer()Lcom/commsource/studio/function/background/BackgroundDrawer;
 
     move-result-object v2
 
     invoke-virtual {v2, p1}, Lcom/commsource/studio/function/background/BackgroundDrawer;->n(Lcom/commsource/studio/function/background/BackgroundType;)V
 
-    .line 4
     invoke-virtual {v1}, Landroid/view/View;->postInvalidate()V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 6
     :cond_0
     new-instance p1, Lcotlin/TypeCastException;
 

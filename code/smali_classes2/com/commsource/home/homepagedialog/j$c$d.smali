@@ -54,14 +54,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/home/homepagedialog/j$c$d;->b:Lcotlin/jvm/internal/Ref$BooleanRef;
 
     iget-boolean v1, v1, Lcotlin/jvm/internal/Ref$BooleanRef;->element:Z
 
     if-nez v1, :cond_1
 
-    .line 2
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -90,7 +88,6 @@
 
     invoke-static {v3, v1}, Lcom/meitu/library/util/Debug/Debug;->e(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 3
     sget-object v1, Lcom/commsource/material/c;->m:Lcom/commsource/material/c;
 
     invoke-virtual {v1}, Lcom/commsource/material/c;->b()Lcom/commsource/material/d;
@@ -117,7 +114,6 @@
 
     invoke-virtual {v1, v3}, Lcom/commsource/material/d;->w(Ljava/lang/String;)V
 
-    .line 4
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -138,7 +134,6 @@
 
     invoke-static {v1}, Lcom/meitu/library/p/g/b;->m(Ljava/lang/String;)Z
 
-    .line 5
     iget-object v1, p0, Lcom/commsource/home/homepagedialog/j$c$d;->a:Lcom/commsource/home/homepagedialog/j$c;
 
     iget-object v1, v1, Lcom/commsource/home/homepagedialog/j$c;->g:Lcom/commsource/home/homepagedialog/j;
@@ -153,7 +148,6 @@
 
     if-nez v1, :cond_0
 
-    .line 6
     iget-object v1, p0, Lcom/commsource/home/homepagedialog/j$c$d;->a:Lcom/commsource/home/homepagedialog/j$c;
 
     iget-object v2, v1, Lcom/commsource/home/homepagedialog/j$c;->g:Lcom/commsource/home/homepagedialog/j;
@@ -166,12 +160,10 @@
 
     invoke-static {v2, v3, v1, v4}, Lcom/commsource/home/homepagedialog/j;->l(Lcom/commsource/home/homepagedialog/j;Lcom/commsource/push/NotificationBarPush;Ljava/lang/String;Z)V
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 8
     :cond_0
     iget-object v1, p0, Lcom/commsource/home/homepagedialog/j$c$d;->a:Lcom/commsource/home/homepagedialog/j$c;
 
@@ -185,7 +177,6 @@
 
     invoke-static {v2, v3, v1, v4}, Lcom/commsource/home/homepagedialog/j;->l(Lcom/commsource/home/homepagedialog/j;Lcom/commsource/push/NotificationBarPush;Ljava/lang/String;Z)V
 
-    .line 9
     sget-object v1, Lcom/commsource/beautyplus/router/c;->b:Lcom/commsource/beautyplus/router/c;
 
     iget-object v2, p0, Lcom/commsource/home/homepagedialog/j$c$d;->a:Lcom/commsource/home/homepagedialog/j$c;
@@ -206,7 +197,6 @@
 
     invoke-virtual {v1, v2, v3}, Lcom/commsource/beautyplus/router/c;->c(Landroid/app/Activity;Landroid/net/Uri;)Z
 
-    .line 10
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

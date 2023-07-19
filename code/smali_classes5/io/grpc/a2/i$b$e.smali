@@ -29,7 +29,6 @@
 .method constructor <init>(Lio/grpc/a2/i$b;Lio/grpc/Status;Lio/grpc/y0;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lio/grpc/a2/i$b$e;->c:Lio/grpc/a2/i$b;
 
     iput-object p2, p0, Lio/grpc/a2/i$b$e;->a:Lio/grpc/Status;
@@ -46,7 +45,6 @@
 .method public run()V
     .locals 3
 
-    .line 1
     iget-object v0, p0, Lio/grpc/a2/i$b$e;->c:Lio/grpc/a2/i$b;
 
     invoke-static {v0}, Lio/grpc/a2/i$b;->q(Lio/grpc/a2/i$b;)Z
@@ -55,14 +53,12 @@
 
     if-nez v0, :cond_0
 
-    .line 2
     iget-object v0, p0, Lio/grpc/a2/i$b$e;->c:Lio/grpc/a2/i$b;
 
     const/4 v1, 0x1
 
     invoke-static {v0, v1}, Lio/grpc/a2/i$b;->r(Lio/grpc/a2/i$b;Z)Z
 
-    .line 3
     iget-object v0, p0, Lio/grpc/a2/i$b$e;->c:Lio/grpc/a2/i$b;
 
     iget-object v1, p0, Lio/grpc/a2/i$b$e;->a:Lio/grpc/Status;

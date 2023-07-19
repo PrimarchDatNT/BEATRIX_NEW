@@ -26,7 +26,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-direct {p0, p1, v0}, Lcom/google/android/gms/common/util/f0/b;-><init>(Ljava/lang/String;I)V
 
     return-void
@@ -35,10 +34,8 @@
 .method private constructor <init>(Ljava/lang/String;I)V
     .locals 0
 
-    .line 2
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 3
     invoke-static {}, Ljava/util/concurrent/Executors;->defaultThreadFactory()Ljava/util/concurrent/ThreadFactory;
 
     move-result-object p2
@@ -47,7 +44,6 @@
 
     const-string p2, "Name must not be null"
 
-    .line 4
     invoke-static {p1, p2}, Lcom/google/android/gms/common/internal/b0;->l(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -58,7 +54,6 @@
 
     const/4 p1, 0x0
 
-    .line 5
     iput p1, p0, Lcom/google/android/gms/common/util/f0/b;->b:I
 
     return-void
@@ -69,7 +64,6 @@
 .method public newThread(Ljava/lang/Runnable;)Ljava/lang/Thread;
     .locals 3
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/common/util/f0/b;->c:Ljava/util/concurrent/ThreadFactory;
 
     new-instance v1, Lcom/google/android/gms/common/util/f0/d;
@@ -82,7 +76,6 @@
 
     move-result-object p1
 
-    .line 2
     iget-object v0, p0, Lcom/google/android/gms/common/util/f0/b;->a:Ljava/lang/String;
 
     invoke-virtual {p1, v0}, Ljava/lang/Thread;->setName(Ljava/lang/String;)V

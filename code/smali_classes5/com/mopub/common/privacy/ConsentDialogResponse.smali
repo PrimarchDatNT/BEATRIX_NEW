@@ -18,13 +18,10 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     invoke-static {p1}, Lcom/mopub/common/Preconditions;->checkNotNull(Ljava/lang/Object;)V
 
-    .line 3
     iput-object p1, p0, Lcom/mopub/common/privacy/ConsentDialogResponse;->mHtml:Ljava/lang/String;
 
     return-void
@@ -37,7 +34,6 @@
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/common/privacy/ConsentDialogResponse;->mHtml:Ljava/lang/String;
 
     return-object v0

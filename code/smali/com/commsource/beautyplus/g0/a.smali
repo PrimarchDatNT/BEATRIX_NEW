@@ -7,7 +7,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -22,20 +21,16 @@
 
     if-eqz p0, :cond_0
 
-    .line 1
     new-instance v1, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineFrame;
 
     invoke-direct {v1}, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineFrame;-><init>()V
 
     const/4 v2, 0x1
 
-    .line 2
     iput-boolean v2, v1, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineFrame;->firstFrame:Z
 
-    .line 3
     iput-boolean v2, v1, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineFrame;->captureFrame:Z
 
-    .line 4
     invoke-virtual {p0}, Lcom/meitu/core/types/NativeBitmap;->getWidth()I
 
     move-result v3
@@ -69,7 +64,6 @@
     :cond_0
     const/4 v1, 0x0
 
-    .line 5
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

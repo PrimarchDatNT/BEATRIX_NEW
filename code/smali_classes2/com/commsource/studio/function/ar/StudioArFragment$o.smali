@@ -42,24 +42,20 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Ljava/util/Calendar;->getInstance()Ljava/util/Calendar;
 
     move-result-object v1
 
     add-int/lit8 p2, p2, -0x1
 
-    .line 2
     invoke-virtual {v1, p1, p2, p3}, Ljava/util/Calendar;->set(III)V
 
-    .line 3
     invoke-static {}, Ljava/util/Calendar;->getInstance()Ljava/util/Calendar;
 
     move-result-object p1
 
     const-string p2, "today"
 
-    .line 4
     invoke-static {p1, p2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {p1}, Ljava/util/Calendar;->getTimeInMillis()J
@@ -92,7 +88,6 @@
 
     add-long/2addr p1, v2
 
-    .line 5
     :cond_0
     iget-object p3, p0, Lcom/commsource/studio/function/ar/StudioArFragment$o;->a:Lcom/commsource/studio/function/ar/StudioArFragment;
 
@@ -116,7 +111,6 @@
 
     invoke-virtual {p3, p1}, Lcom/commsource/camera/newrender/renderproxy/v/i0;->o2(Ljava/lang/String;)V
 
-    .line 6
     :cond_1
     iget-object p1, p0, Lcom/commsource/studio/function/ar/StudioArFragment$o;->a:Lcom/commsource/studio/function/ar/StudioArFragment;
 
@@ -126,7 +120,6 @@
 
     invoke-virtual {p1, v1}, Lcom/commsource/studio/function/ar/ArProcessor;->Y(Ljava/util/Calendar;)V
 
-    .line 7
     iget-object p1, p0, Lcom/commsource/studio/function/ar/StudioArFragment$o;->a:Lcom/commsource/studio/function/ar/StudioArFragment;
 
     invoke-virtual {p1}, Lcom/commsource/studio/function/ar/StudioArFragment;->B1()Lcom/commsource/studio/function/ar/ArProcessor;
@@ -141,7 +134,6 @@
 
     invoke-static {p1, p2, v1, p3, v1}, Lcom/commsource/studio/processor/BaseEffectProcessor;->z(Lcom/commsource/studio/processor/BaseEffectProcessor;ZLcotlin/jvm/u/a;ILjava/lang/Object;)V
 
-    .line 8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

@@ -17,7 +17,6 @@
 .method public constructor <init>(Ljava/lang/String;Landroid/os/Parcel;)V
     .locals 3
 
-    .line 1
     invoke-virtual {p2}, Landroid/os/Parcel;->dataPosition()I
 
     move-result v0

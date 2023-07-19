@@ -14,7 +14,6 @@
 .method constructor <init>(Lcom/google/android/gms/internal/ads/jl1;Lcom/google/android/gms/internal/ads/ul1;)V
     .locals 0
 
-    .line 1
     iput-object p2, p0, Lcom/google/android/gms/internal/ads/do1;->a:Lcom/google/android/gms/internal/ads/ul1;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -27,7 +26,6 @@
 .method public final a(Ljava/io/File;)Z
     .locals 1
 
-    .line 1
     :try_start_0
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/do1;->a:Lcom/google/android/gms/internal/ads/ul1;
 

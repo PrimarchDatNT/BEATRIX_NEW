@@ -22,7 +22,6 @@
 .method constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -53,26 +52,22 @@
 
     invoke-static {p2, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-static {p1}, Lcom/commsource/widget/q0;->e(Landroid/content/Context;)Z
 
     move-result p2
 
     if-eqz p2, :cond_0
 
-    .line 2
     invoke-static {p1}, Lcom/commsource/util/w0;->l(Landroid/content/Context;)V
 
     goto :goto_0
 
-    .line 3
     :cond_0
     invoke-static {p1}, Lcom/commsource/util/w0;->v(Landroid/content/Context;)V
 
     :goto_0
     const/4 p1, 0x1
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1

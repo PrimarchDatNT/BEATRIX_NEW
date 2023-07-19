@@ -22,7 +22,6 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
     new-instance v0, Lf/f/e/c/d$b;
 
     invoke-direct {v0}, Lf/f/e/c/d$b;-><init>()V
@@ -35,7 +34,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lf/f/e/c/d;-><init>()V
 
     return-void
@@ -44,7 +42,6 @@
 .method static synthetic e()Lf/f/e/c/d$b;
     .locals 1
 
-    .line 1
     sget-object v0, Lf/f/e/c/d$b;->a:Lf/f/e/c/d$b;
 
     return-object v0
@@ -64,10 +61,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p1}, Lcom/google/common/base/t;->E(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 2
     :goto_0
     invoke-interface {p2}, Ljava/util/Iterator;->hasNext()Z
 
@@ -75,7 +70,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 3
     invoke-interface {p2}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
     move-result-object v0

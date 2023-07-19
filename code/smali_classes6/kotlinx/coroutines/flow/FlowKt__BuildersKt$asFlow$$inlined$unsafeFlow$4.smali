@@ -37,7 +37,6 @@
 
     iput-object p1, p0, Lcotlinx/coroutines/flow/FlowKt__BuildersKt$asFlow$$inlined$unsafeFlow$4;->a:Ljava/util/Iterator;
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -92,7 +91,6 @@
 
     move-result-object v1
 
-    .line 1
     iget v2, v0, Lcotlinx/coroutines/flow/FlowKt__BuildersKt$asFlow$$inlined$unsafeFlow$4$1;->label:I
 
     const/4 v3, 0x1
@@ -147,7 +145,6 @@
 
     goto :goto_1
 
-    .line 2
     :cond_1
     new-instance p1, Ljava/lang/IllegalStateException;
 
@@ -157,11 +154,9 @@
 
     throw p1
 
-    .line 3
     :cond_2
     invoke-static {p2}, Lcotlin/r0;->n(Ljava/lang/Object;)V
 
-    .line 4
     iget-object p2, p0, Lcotlinx/coroutines/flow/FlowKt__BuildersKt$asFlow$$inlined$unsafeFlow$4;->a:Ljava/util/Iterator;
 
     move-object v7, p0
@@ -180,7 +175,6 @@
 
     move-object p1, v5
 
-    .line 5
     :cond_3
     :goto_1
     invoke-interface {p1}, Ljava/util/Iterator;->hasNext()Z
@@ -193,7 +187,6 @@
 
     move-result-object v6
 
-    .line 6
     iput-object v7, v1, Lcotlinx/coroutines/flow/FlowKt__BuildersKt$asFlow$$inlined$unsafeFlow$4$1;->L$0:Ljava/lang/Object;
 
     iput-object v0, v1, Lcotlinx/coroutines/flow/FlowKt__BuildersKt$asFlow$$inlined$unsafeFlow$4$1;->L$1:Ljava/lang/Object;
@@ -220,7 +213,6 @@
 
     return-object v4
 
-    .line 7
     :cond_4
     sget-object p1, Lcotlin/t1;->a:Lcotlin/t1;
 

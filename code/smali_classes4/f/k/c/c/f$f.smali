@@ -25,7 +25,6 @@
 .method constructor <init>(I)V
     .locals 0
 
-    .line 1
     iput p1, p0, Lf/k/c/c/f$f;->a:I
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -42,14 +41,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lf/k/c/c/f$f;->a:I
 
     const/4 v2, 0x1
 
     invoke-static {v1, v2}, Lf/k/c/c/f;->b(II)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

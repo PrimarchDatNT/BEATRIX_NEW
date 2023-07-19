@@ -47,7 +47,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/studio/text/TextEditPage$c;->b:Lcom/commsource/studio/text/TextEditPage;
 
     invoke-static {v0}, Lcom/commsource/studio/text/TextEditPage;->c(Lcom/commsource/studio/text/TextEditPage;)Lcom/commsource/studio/text/TextViewModel;
@@ -66,7 +65,6 @@
 
     if-eqz v0, :cond_2
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/text/TextEditPage$c;->a:Lcom/commsource/beautyplus/f0/mm;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/mm;->f:Landroid/widget/EditText;
@@ -83,7 +81,6 @@
 
     move-result-object v1
 
-    .line 3
     invoke-static {v1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v2
@@ -92,7 +89,6 @@
 
     const/4 v1, 0x0
 
-    .line 4
     :cond_0
     invoke-virtual {v0}, Lcom/commsource/studio/text/TextGroupParam;->getText()Ljava/lang/String;
 
@@ -118,7 +114,6 @@
 
     if-eq v2, v3, :cond_2
 
-    .line 5
     :cond_1
     iget-object v2, p0, Lcom/commsource/studio/text/TextEditPage$c;->b:Lcom/commsource/studio/text/TextEditPage;
 
@@ -128,10 +123,8 @@
 
     invoke-virtual {v0, v2}, Lcom/commsource/studio/text/TextGroupParam;->setJustify(I)V
 
-    .line 6
     invoke-virtual {v0, v1}, Lcom/commsource/studio/text/TextGroupParam;->setText(Ljava/lang/String;)V
 
-    .line 7
     iget-object v0, p0, Lcom/commsource/studio/text/TextEditPage$c;->b:Lcom/commsource/studio/text/TextEditPage;
 
     invoke-static {v0}, Lcom/commsource/studio/text/TextEditPage;->c(Lcom/commsource/studio/text/TextEditPage;)Lcom/commsource/studio/text/TextViewModel;
@@ -146,7 +139,6 @@
 
     invoke-virtual {v0, v1}, Lcom/commsource/beautyfilter/NoStickLiveData;->setValue(Ljava/lang/Object;)V
 
-    .line 8
     :cond_2
     iget-object v0, p0, Lcom/commsource/studio/text/TextEditPage$c;->a:Lcom/commsource/beautyplus/f0/mm;
 
@@ -154,12 +146,10 @@
 
     invoke-static {v0}, Lcom/commsource/camera/f1/r;->a(Landroid/view/View;)V
 
-    .line 9
     iget-object v0, p0, Lcom/commsource/studio/text/TextEditPage$c;->b:Lcom/commsource/studio/text/TextEditPage;
 
     invoke-virtual {v0}, Landroid/app/Dialog;->dismiss()V
 
-    .line 10
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

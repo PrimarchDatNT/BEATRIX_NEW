@@ -46,7 +46,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/meitu/widget/layeredimageview/layer/DrawMaskLayer$MaskQuality;
 
     sget-object v2, Landroid/graphics/Bitmap$Config;->ALPHA_8:Landroid/graphics/Bitmap$Config;
@@ -59,7 +58,6 @@
 
     sput-object v1, Lcom/meitu/widget/layeredimageview/layer/DrawMaskLayer$MaskQuality;->ALPHA_8:Lcom/meitu/widget/layeredimageview/layer/DrawMaskLayer$MaskQuality;
 
-    .line 2
     new-instance v2, Lcom/meitu/widget/layeredimageview/layer/DrawMaskLayer$MaskQuality;
 
     sget-object v3, Landroid/graphics/Bitmap$Config;->RGB_565:Landroid/graphics/Bitmap$Config;
@@ -72,7 +70,6 @@
 
     sput-object v2, Lcom/meitu/widget/layeredimageview/layer/DrawMaskLayer$MaskQuality;->RGB_565:Lcom/meitu/widget/layeredimageview/layer/DrawMaskLayer$MaskQuality;
 
-    .line 3
     new-instance v3, Lcom/meitu/widget/layeredimageview/layer/DrawMaskLayer$MaskQuality;
 
     sget-object v5, Landroid/graphics/Bitmap$Config;->ARGB_4444:Landroid/graphics/Bitmap$Config;
@@ -85,7 +82,6 @@
 
     sput-object v3, Lcom/meitu/widget/layeredimageview/layer/DrawMaskLayer$MaskQuality;->ARGB_4444:Lcom/meitu/widget/layeredimageview/layer/DrawMaskLayer$MaskQuality;
 
-    .line 4
     new-instance v5, Lcom/meitu/widget/layeredimageview/layer/DrawMaskLayer$MaskQuality;
 
     sget-object v7, Landroid/graphics/Bitmap$Config;->ARGB_8888:Landroid/graphics/Bitmap$Config;
@@ -110,7 +106,6 @@
 
     aput-object v5, v7, v10
 
-    .line 5
     sput-object v7, Lcom/meitu/widget/layeredimageview/layer/DrawMaskLayer$MaskQuality;->$VALUES:[Lcom/meitu/widget/layeredimageview/layer/DrawMaskLayer$MaskQuality;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -128,10 +123,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 2
     iput-object p3, p0, Lcom/meitu/widget/layeredimageview/layer/DrawMaskLayer$MaskQuality;->mConfig:Landroid/graphics/Bitmap$Config;
 
     return-void
@@ -154,14 +147,12 @@
 
     if-eq p0, v1, :cond_0
 
-    .line 2
     sget-object p0, Lcom/meitu/widget/layeredimageview/layer/DrawMaskLayer$MaskQuality;->ARGB_8888:Lcom/meitu/widget/layeredimageview/layer/DrawMaskLayer$MaskQuality;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
 
-    .line 3
     :cond_0
     sget-object p0, Lcom/meitu/widget/layeredimageview/layer/DrawMaskLayer$MaskQuality;->ARGB_4444:Lcom/meitu/widget/layeredimageview/layer/DrawMaskLayer$MaskQuality;
 
@@ -169,7 +160,6 @@
 
     return-object p0
 
-    .line 4
     :cond_1
     sget-object p0, Lcom/meitu/widget/layeredimageview/layer/DrawMaskLayer$MaskQuality;->RGB_565:Lcom/meitu/widget/layeredimageview/layer/DrawMaskLayer$MaskQuality;
 
@@ -177,7 +167,6 @@
 
     return-object p0
 
-    .line 5
     :cond_2
     sget-object p0, Lcom/meitu/widget/layeredimageview/layer/DrawMaskLayer$MaskQuality;->ALPHA_8:Lcom/meitu/widget/layeredimageview/layer/DrawMaskLayer$MaskQuality;
 
@@ -193,7 +182,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     const-class v1, Lcom/meitu/widget/layeredimageview/layer/DrawMaskLayer$MaskQuality;
 
     invoke-static {v1, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -214,7 +202,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/meitu/widget/layeredimageview/layer/DrawMaskLayer$MaskQuality;->$VALUES:[Lcom/meitu/widget/layeredimageview/layer/DrawMaskLayer$MaskQuality;
 
     invoke-virtual {v1}, [Lcom/meitu/widget/layeredimageview/layer/DrawMaskLayer$MaskQuality;->clone()Ljava/lang/Object;
@@ -237,7 +224,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/widget/layeredimageview/layer/DrawMaskLayer$MaskQuality;->mConfig:Landroid/graphics/Bitmap$Config;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

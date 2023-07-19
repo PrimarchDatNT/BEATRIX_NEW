@@ -28,7 +28,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/video/b$b;->a:Lcom/commsource/video/b;
 
     invoke-direct {p0}, Lcom/commsource/camera/f1/l$a;-><init>()V
@@ -49,10 +48,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0, p1}, Lcom/commsource/camera/f1/l$a;->d(Lcom/commsource/camera/f1/l;)V
 
-    .line 2
     sget-object v1, Lcom/commsource/video/XPlayer;->f:Lcom/commsource/video/XPlayer;
 
     iget-object p1, p0, Lcom/commsource/video/b$b;->a:Lcom/commsource/video/b;
@@ -75,7 +72,6 @@
 
     invoke-static/range {v1 .. v6}, Lcom/commsource/video/XPlayer;->d(Lcom/commsource/video/XPlayer;Lcom/commsource/video/view/XVideoContainer;Lcom/commsource/video/view/XVideoContainer;Lcotlin/jvm/u/a;ILjava/lang/Object;)V
 
-    .line 3
     iget-object p1, p0, Lcom/commsource/video/b$b;->a:Lcom/commsource/video/b;
 
     invoke-static {p1}, Lcom/commsource/video/b;->e(Lcom/commsource/video/b;)Landroid/view/ViewGroup;
@@ -90,7 +86,6 @@
 
     invoke-virtual {p1, v1}, Landroid/view/ViewGroup;->removeView(Landroid/view/View;)V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -103,10 +98,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0, p1, p2}, Lcom/commsource/camera/f1/l$a;->e(FF)V
 
-    .line 2
     iget-object p2, p0, Lcom/commsource/video/b$b;->a:Lcom/commsource/video/b;
 
     invoke-static {p2}, Lcom/commsource/video/b;->a(Lcom/commsource/video/b;)Lcom/commsource/video/view/XVideoContainer;
@@ -127,7 +120,6 @@
 
     invoke-static {p2, v1}, Lcom/commsource/util/l2;->D(Landroid/view/View;I)V
 
-    .line 3
     iget-object p2, p0, Lcom/commsource/video/b$b;->a:Lcom/commsource/video/b;
 
     invoke-static {p2}, Lcom/commsource/video/b;->a(Lcom/commsource/video/b;)Lcom/commsource/video/view/XVideoContainer;
@@ -148,7 +140,6 @@
 
     invoke-static {p2, v1}, Lcom/commsource/util/l2;->B(Landroid/view/View;I)V
 
-    .line 4
     iget-object p2, p0, Lcom/commsource/video/b$b;->a:Lcom/commsource/video/b;
 
     invoke-static {p2}, Lcom/commsource/video/b;->a(Lcom/commsource/video/b;)Lcom/commsource/video/view/XVideoContainer;
@@ -169,7 +160,6 @@
 
     invoke-static {p2, v1}, Lcom/commsource/util/l2;->y(Landroid/view/View;I)V
 
-    .line 5
     iget-object p2, p0, Lcom/commsource/video/b$b;->a:Lcom/commsource/video/b;
 
     invoke-static {p2}, Lcom/commsource/video/b;->a(Lcom/commsource/video/b;)Lcom/commsource/video/view/XVideoContainer;
@@ -190,7 +180,6 @@
 
     invoke-static {p2, v1}, Lcom/commsource/util/l2;->N(Landroid/view/View;I)V
 
-    .line 6
     iget-object p2, p0, Lcom/commsource/video/b$b;->a:Lcom/commsource/video/b;
 
     invoke-static {p2}, Lcom/commsource/video/b;->a(Lcom/commsource/video/b;)Lcom/commsource/video/view/XVideoContainer;
@@ -209,7 +198,6 @@
 
     invoke-virtual {p2, v1}, Landroid/widget/FrameLayout;->setTranslationX(F)V
 
-    .line 7
     iget-object p2, p0, Lcom/commsource/video/b$b;->a:Lcom/commsource/video/b;
 
     invoke-static {p2}, Lcom/commsource/video/b;->a(Lcom/commsource/video/b;)Lcom/commsource/video/view/XVideoContainer;
@@ -228,7 +216,6 @@
 
     invoke-virtual {p2, p1}, Landroid/widget/FrameLayout;->setRotation(F)V
 
-    .line 8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

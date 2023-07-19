@@ -14,10 +14,8 @@
 .method constructor <init>(Landroid/content/res/AssetManager;Ljava/lang/String;Ljava/lang/String;Landroid/content/Context;)V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     new-instance v0, Lcom/meitu/core/realtimesegment/MTRealtimeSegmentGPU;
 
     invoke-direct {v0, p2, p3, p1, p4}, Lcom/meitu/core/realtimesegment/MTRealtimeSegmentGPU;-><init>(Ljava/lang/String;Ljava/lang/String;Landroid/content/res/AssetManager;Landroid/content/Context;)V
@@ -38,17 +36,14 @@
 
     invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v2, v0, Lcom/meitu/library/renderarch/arch/data/b/h;->g:Lcom/meitu/library/renderarch/arch/data/b/g;
 
     iget v10, v2, Lcom/meitu/library/renderarch/arch/data/b/g;->f:I
 
-    .line 2
     iget v12, v2, Lcom/meitu/library/renderarch/arch/data/b/g;->b:I
 
     move-object/from16 v2, p0
 
-    .line 3
     iget-object v3, v2, Lcom/meitu/library/f/a/g;->a:Lcom/meitu/core/realtimesegment/MTRealtimeSegmentGPU;
 
     iget-object v4, v0, Lcom/meitu/library/renderarch/arch/data/b/h;->c:Lcom/meitu/library/n/b/k/b;
@@ -61,7 +56,6 @@
 
     move-result v4
 
-    .line 4
     invoke-virtual/range {p2 .. p2}, Lcom/meitu/library/n/b/k/b;->c()Lcom/meitu/library/n/b/k/d;
 
     move-result-object v5
@@ -70,7 +64,6 @@
 
     move-result v6
 
-    .line 5
     invoke-virtual/range {p2 .. p2}, Lcom/meitu/library/n/b/k/b;->e()I
 
     move-result v7
@@ -99,10 +92,8 @@
 
     move/from16 v18, p7
 
-    .line 6
     invoke-virtual/range {v3 .. v18}, Lcom/meitu/core/realtimesegment/MTRealtimeSegmentGPU;->RunWithGlTextureAndY(IIIII[BIZIIIZIFF)V
 
-    .line 7
     invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -115,12 +106,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/library/f/a/g;->a:Lcom/meitu/core/realtimesegment/MTRealtimeSegmentGPU;
 
     invoke-virtual {v1}, Lcom/meitu/core/realtimesegment/MTRealtimeSegmentGPU;->release()V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

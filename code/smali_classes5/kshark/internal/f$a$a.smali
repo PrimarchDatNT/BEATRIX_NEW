@@ -93,7 +93,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-direct {p0, v0}, Lkshark/internal/f$a;-><init>(Lcotlin/jvm/internal/u;)V
 
     iput-wide p1, p0, Lkshark/internal/f$a$a;->a:J
@@ -118,7 +117,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lkshark/internal/f$a$a;->e:Lkshark/LibraryLeakReferenceMatcher;
 
     return-object v0
@@ -127,7 +125,6 @@
 .method public b()J
     .locals 2
 
-    .line 1
     iget-wide v0, p0, Lkshark/internal/f$a$a;->a:J
 
     return-wide v0
@@ -138,7 +135,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lkshark/internal/f$a$a;->f:Ljava/lang/String;
 
     return-object v0
@@ -149,7 +145,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lkshark/internal/f$a$a;->b:Lkshark/internal/f;
 
     return-object v0
@@ -160,7 +155,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lkshark/internal/f$a$a;->d:Ljava/lang/String;
 
     return-object v0
@@ -171,7 +165,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lkshark/internal/f$a$a;->c:Lkshark/LeakTraceReference$ReferenceType;
 
     return-object v0

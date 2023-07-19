@@ -21,12 +21,10 @@
 .method private constructor <init>()V
     .locals 1
 
-    .line 5
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/4 v0, 0x0
 
-    .line 6
     iput-object v0, p0, Lcom/google/android/gms/internal/icing/k0;->a:Landroid/content/Context;
 
     return-void
@@ -35,13 +33,10 @@
 .method private constructor <init>(Landroid/content/Context;)V
     .locals 3
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/google/android/gms/internal/icing/k0;->a:Landroid/content/Context;
 
-    .line 3
     invoke-virtual {p1}, Landroid/content/Context;->getContentResolver()Landroid/content/ContentResolver;
 
     move-result-object p1
@@ -56,7 +51,6 @@
 
     const/4 v2, 0x1
 
-    .line 4
     invoke-virtual {p1, v0, v2, v1}, Landroid/content/ContentResolver;->registerContentObserver(Landroid/net/Uri;ZLandroid/database/ContentObserver;)V
 
     return-void
@@ -65,12 +59,10 @@
 .method static b(Landroid/content/Context;)Lcom/google/android/gms/internal/icing/k0;
     .locals 2
 
-    .line 1
     const-class v0, Lcom/google/android/gms/internal/icing/k0;
 
     monitor-enter v0
 
-    .line 2
     :try_start_0
     sget-object v1, Lcom/google/android/gms/internal/icing/k0;->b:Lcom/google/android/gms/internal/icing/k0;
 
@@ -78,7 +70,6 @@
 
     const-string v1, "com.google.android.providers.gsf.permission.READ_GSERVICES"
 
-    .line 3
     invoke-static {p0, v1}, Landroidx/core/content/PermissionChecker;->checkSelfPermission(Landroid/content/Context;Ljava/lang/String;)I
 
     move-result v1
@@ -95,7 +86,6 @@
     :goto_0
     if-eqz v1, :cond_1
 
-    .line 4
     new-instance v1, Lcom/google/android/gms/internal/icing/k0;
 
     invoke-direct {v1, p0}, Lcom/google/android/gms/internal/icing/k0;-><init>(Landroid/content/Context;)V
@@ -110,7 +100,6 @@
     :goto_1
     sput-object v1, Lcom/google/android/gms/internal/icing/k0;->b:Lcom/google/android/gms/internal/icing/k0;
 
-    .line 5
     :cond_2
     sget-object p0, Lcom/google/android/gms/internal/icing/k0;->b:Lcom/google/android/gms/internal/icing/k0;
 
@@ -121,7 +110,6 @@
     :catchall_0
     move-exception p0
 
-    .line 6
     monitor-exit v0
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
@@ -132,7 +120,6 @@
 .method private final c(Ljava/lang/String;)Ljava/lang/String;
     .locals 4
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/icing/k0;->a:Landroid/content/Context;
 
     const/4 v1, 0x0
@@ -141,7 +128,6 @@
 
     return-object v1
 
-    .line 2
     :cond_0
     :try_start_0
     new-instance v0, Lcom/google/android/gms/internal/icing/l0;
@@ -163,7 +149,6 @@
 
     const-string v2, "Unable to read GServices for: "
 
-    .line 3
     invoke-static {p1}, Ljava/lang/String;->valueOf(Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object p1
@@ -198,7 +183,6 @@
 .method public final synthetic a(Ljava/lang/String;)Ljava/lang/Object;
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/google/android/gms/internal/icing/k0;->c(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p1
@@ -209,7 +193,6 @@
 .method final synthetic d(Ljava/lang/String;)Ljava/lang/String;
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/icing/k0;->a:Landroid/content/Context;
 
     invoke-virtual {v0}, Landroid/content/Context;->getContentResolver()Landroid/content/ContentResolver;

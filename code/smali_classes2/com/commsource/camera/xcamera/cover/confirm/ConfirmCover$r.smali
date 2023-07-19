@@ -60,7 +60,6 @@
 
     goto :goto_0
 
-    .line 1
     :cond_0
     sget-object v2, Lcom/commsource/camera/xcamera/cover/confirm/a;->a:[I
 
@@ -82,7 +81,6 @@
 
     if-eq p1, v3, :cond_1
 
-    .line 2
     :goto_0
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover$r;->a:Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover;
 
@@ -90,7 +88,6 @@
 
     goto :goto_1
 
-    .line 3
     :cond_1
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover$r;->a:Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover;
 
@@ -98,12 +95,10 @@
 
     const-string p1, "movie_light"
 
-    .line 4
     invoke-static {p1}, Lcom/commsource/statistics/i;->p(Ljava/lang/String;)V
 
     goto :goto_1
 
-    .line 5
     :cond_2
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover$r;->a:Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover;
 
@@ -111,13 +106,11 @@
 
     goto :goto_1
 
-    .line 6
     :cond_3
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover$r;->a:Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover;
 
     invoke-static {p1, v2}, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover;->H(Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover;Z)V
 
-    .line 7
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -131,7 +124,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/ConfirmBottomFunction;
 
     invoke-virtual {p0, p1}, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover$r;->a(Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/ConfirmBottomFunction;)V

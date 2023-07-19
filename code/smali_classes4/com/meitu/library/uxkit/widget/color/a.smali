@@ -57,10 +57,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
@@ -69,10 +67,8 @@
 
     const/4 v0, 0x1
 
-    .line 3
     iput v0, p0, Lcom/meitu/library/uxkit/widget/color/a;->c:I
 
-    .line 4
     iput-object p1, p0, Lcom/meitu/library/uxkit/widget/color/a;->b:Lcom/meitu/library/uxkit/widget/color/a$a;
 
     return-void
@@ -94,7 +90,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/meitu/library/uxkit/widget/color/a;->a:Ljava/util/List;
 
     invoke-interface {v0}, Ljava/util/List;->size()I
@@ -105,7 +100,6 @@
 
     if-le v0, v1, :cond_0
 
-    .line 2
     iget-object v0, p0, Lcom/meitu/library/uxkit/widget/color/a;->a:Ljava/util/List;
 
     invoke-interface {v0, v1}, Ljava/util/List;->get(I)Ljava/lang/Object;
@@ -133,7 +127,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
     move-result-object v0
@@ -148,7 +141,6 @@
 
     move-result-object v0
 
-    .line 2
     new-instance v1, Ljava/util/ArrayList;
 
     invoke-direct {v1}, Ljava/util/ArrayList;-><init>()V
@@ -157,7 +149,6 @@
 
     const/4 v3, 0x0
 
-    .line 3
     :goto_0
     invoke-virtual {v0}, Landroid/content/res/TypedArray;->length()I
 
@@ -165,12 +156,10 @@
 
     if-ge v3, v4, :cond_0
 
-    .line 4
     invoke-virtual {v0, v3, v2}, Landroid/content/res/TypedArray;->getColor(II)I
 
     move-result v4
 
-    .line 5
     new-instance v5, Lcom/meitu/library/uxkit/widget/color/AbsColorBean;
 
     const/4 v6, 0x3
@@ -213,7 +202,6 @@
 
     goto :goto_0
 
-    .line 6
     :cond_0
     invoke-virtual {v0}, Landroid/content/res/TypedArray;->recycle()V
 
@@ -226,7 +214,6 @@
 .method public e()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lcom/meitu/library/uxkit/widget/color/a;->c:I
 
     return v0
@@ -242,17 +229,14 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/meitu/library/uxkit/widget/color/a;->a:Ljava/util/List;
 
     invoke-interface {v0}, Ljava/util/List;->clear()V
 
-    .line 2
     iget-object v0, p0, Lcom/meitu/library/uxkit/widget/color/a;->a:Ljava/util/List;
 
     invoke-interface {v0, p1}, Ljava/util/List;->addAll(Ljava/util/Collection;)Z
 
-    .line 3
     invoke-virtual {p0}, Lcom/meitu/library/uxkit/widget/color/a;->a()Landroidx/recyclerview/widget/RecyclerView$Adapter;
 
     move-result-object p1
@@ -267,7 +251,6 @@
 
     const/4 v0, 0x1
 
-    .line 1
     invoke-virtual {p0, v0}, Lcom/meitu/library/uxkit/widget/color/a;->i(I)V
 
     return-void
@@ -282,7 +265,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     :goto_0
     iget-object v1, p0, Lcom/meitu/library/uxkit/widget/color/a;->a:Ljava/util/List;
 
@@ -292,7 +274,6 @@
 
     if-ge v0, v1, :cond_1
 
-    .line 2
     iget-object v1, p0, Lcom/meitu/library/uxkit/widget/color/a;->a:Ljava/util/List;
 
     invoke-interface {v1, v0}, Ljava/util/List;->get(I)Ljava/lang/Object;
@@ -301,7 +282,6 @@
 
     check-cast v1, Lcom/meitu/library/uxkit/widget/color/AbsColorBean;
 
-    .line 3
     invoke-virtual {v1}, Lcom/meitu/library/uxkit/widget/color/AbsColorBean;->getColor()I
 
     move-result v1
@@ -318,13 +298,11 @@
     :cond_1
     const/4 v0, -0x1
 
-    .line 4
     :goto_1
     iput v0, p0, Lcom/meitu/library/uxkit/widget/color/a;->c:I
 
     if-ltz v0, :cond_2
 
-    .line 5
     invoke-virtual {p0}, Lcom/meitu/library/uxkit/widget/color/a;->d()Landroidx/recyclerview/widget/RecyclerView;
 
     move-result-object p1
@@ -333,7 +311,6 @@
 
     invoke-virtual {p1, v0}, Landroidx/recyclerview/widget/RecyclerView;->scrollToPosition(I)V
 
-    .line 6
     :cond_2
     invoke-virtual {p0}, Lcom/meitu/library/uxkit/widget/color/a;->a()Landroidx/recyclerview/widget/RecyclerView$Adapter;
 
@@ -347,7 +324,6 @@
 .method public i(I)V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/meitu/library/uxkit/widget/color/a;->a:Ljava/util/List;
 
     invoke-interface {v0}, Ljava/util/List;->size()I
@@ -356,10 +332,8 @@
 
     if-le v0, p1, :cond_0
 
-    .line 2
     iput p1, p0, Lcom/meitu/library/uxkit/widget/color/a;->c:I
 
-    .line 3
     invoke-virtual {p0}, Lcom/meitu/library/uxkit/widget/color/a;->d()Landroidx/recyclerview/widget/RecyclerView;
 
     move-result-object p1
@@ -368,7 +342,6 @@
 
     invoke-virtual {p1, v0}, Landroidx/recyclerview/widget/RecyclerView;->scrollToPosition(I)V
 
-    .line 4
     invoke-virtual {p0}, Lcom/meitu/library/uxkit/widget/color/a;->a()Landroidx/recyclerview/widget/RecyclerView$Adapter;
 
     move-result-object p1

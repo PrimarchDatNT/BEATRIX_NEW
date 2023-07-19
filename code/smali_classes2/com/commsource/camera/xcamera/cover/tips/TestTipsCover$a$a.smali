@@ -50,7 +50,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/tips/TestTipsCover$a$a;->a:Lcom/commsource/camera/xcamera/cover/tips/TestTipsCover$a;
 
     iget-object v1, v1, Lcom/commsource/camera/xcamera/cover/tips/TestTipsCover$a;->a:Lcom/commsource/camera/xcamera/cover/tips/TestTipsCover;
@@ -71,7 +70,6 @@
 
     invoke-virtual {v1, v2}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 2
     :cond_0
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/tips/TestTipsCover$a$a;->a:Lcom/commsource/camera/xcamera/cover/tips/TestTipsCover$a;
 
@@ -93,7 +91,6 @@
 
     invoke-virtual {v1, v2}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 3
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

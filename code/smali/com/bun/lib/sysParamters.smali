@@ -31,7 +31,6 @@
 .method static constructor <clinit>()V
     .locals 0
 
-    .line 1
     invoke-static {}, Lcom/bun/lib/sysParamters;->e()V
 
     return-void
@@ -40,7 +39,6 @@
 .method private constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const-string v0, "10012"
@@ -57,7 +55,6 @@
 .method private static a(Landroid/content/Context;Ljava/lang/String;)Landroid/content/pm/PackageInfo;
     .locals 1
 
-    .line 1
     :try_start_0
     invoke-virtual {p0}, Landroid/content/Context;->getPackageManager()Landroid/content/pm/PackageManager;
 
@@ -89,7 +86,6 @@
 
     return-object p0
 
-    .line 1
     :cond_0
     invoke-virtual {p0}, Landroid/content/Context;->getPackageName()Ljava/lang/String;
 
@@ -115,7 +111,6 @@
 .method public static d(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
     .locals 8
 
-    .line 1
     const-class v0, Ljava/lang/String;
 
     const-string v1, "android.os.SystemProperties"
@@ -217,7 +212,6 @@
 .method private static synthetic e()V
     .locals 9
 
-    .line 1
     new-instance v8, Ln/a/b/c/e;
 
     const-class v0, Lcom/bun/lib/sysParamters;
@@ -270,7 +264,6 @@
 .method public static j()Lcom/bun/lib/sysParamters;
     .locals 2
 
-    .line 1
     sget-object v0, Lcom/bun/lib/sysParamters;->d:Lcom/bun/lib/sysParamters;
 
     if-nez v0, :cond_1
@@ -314,7 +307,6 @@
 .method public static k()Ljava/lang/String;
     .locals 2
 
-    .line 1
     invoke-static {}, Lcom/bun/lib/c;->d()Landroid/content/Context;
 
     move-result-object v0
@@ -348,7 +340,6 @@
 .method private static l()Ljava/lang/String;
     .locals 1
 
-    .line 1
     invoke-static {}, Lcom/bun/lib/c;->d()Landroid/content/Context;
 
     move-result-object v0
@@ -363,7 +354,6 @@
 .method static final synthetic m(Ljava/lang/reflect/Method;Ljava/lang/Object;[Ljava/lang/Object;Lorg/aspectj/lang/c;)Ljava/lang/Object;
     .locals 0
 
-    .line 1
     invoke-virtual {p0, p1, p2}, Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p0
@@ -376,7 +366,6 @@
 .method public b()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/bun/lib/sysParamters;->a:Ljava/lang/String;
 
     invoke-static {v0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
@@ -406,7 +395,6 @@
 .method public f()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/bun/lib/sysParamters;->c:Ljava/lang/String;
 
     invoke-static {v0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
@@ -434,7 +422,6 @@
 .method public g()Ljava/lang/String;
     .locals 3
 
-    .line 1
     iget-object v0, p0, Lcom/bun/lib/sysParamters;->b:Ljava/lang/String;
 
     invoke-static {v0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
@@ -468,7 +455,6 @@
 .method public h()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/bun/lib/sysParamters;->sdk_version:Ljava/lang/String;
 
     return-object v0

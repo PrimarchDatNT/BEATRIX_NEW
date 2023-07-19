@@ -40,7 +40,6 @@
 .method static constructor <clinit>()V
     .locals 11
 
-    .line 1
     new-instance v0, Lorg/jsoup/select/NodeFilter$FilterResult;
 
     const-string v1, "CONTINUE"
@@ -51,7 +50,6 @@
 
     sput-object v0, Lorg/jsoup/select/NodeFilter$FilterResult;->CONTINUE:Lorg/jsoup/select/NodeFilter$FilterResult;
 
-    .line 2
     new-instance v1, Lorg/jsoup/select/NodeFilter$FilterResult;
 
     const-string v3, "SKIP_CHILDREN"
@@ -62,7 +60,6 @@
 
     sput-object v1, Lorg/jsoup/select/NodeFilter$FilterResult;->SKIP_CHILDREN:Lorg/jsoup/select/NodeFilter$FilterResult;
 
-    .line 3
     new-instance v3, Lorg/jsoup/select/NodeFilter$FilterResult;
 
     const-string v5, "SKIP_ENTIRELY"
@@ -73,7 +70,6 @@
 
     sput-object v3, Lorg/jsoup/select/NodeFilter$FilterResult;->SKIP_ENTIRELY:Lorg/jsoup/select/NodeFilter$FilterResult;
 
-    .line 4
     new-instance v5, Lorg/jsoup/select/NodeFilter$FilterResult;
 
     const-string v7, "REMOVE"
@@ -84,7 +80,6 @@
 
     sput-object v5, Lorg/jsoup/select/NodeFilter$FilterResult;->REMOVE:Lorg/jsoup/select/NodeFilter$FilterResult;
 
-    .line 5
     new-instance v7, Lorg/jsoup/select/NodeFilter$FilterResult;
 
     const-string v9, "STOP"
@@ -109,7 +104,6 @@
 
     aput-object v7, v9, v10
 
-    .line 6
     sput-object v9, Lorg/jsoup/select/NodeFilter$FilterResult;->$VALUES:[Lorg/jsoup/select/NodeFilter$FilterResult;
 
     return-void
@@ -123,7 +117,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
     return-void
@@ -132,7 +125,6 @@
 .method public static valueOf(Ljava/lang/String;)Lorg/jsoup/select/NodeFilter$FilterResult;
     .locals 1
 
-    .line 1
     const-class v0, Lorg/jsoup/select/NodeFilter$FilterResult;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -147,7 +139,6 @@
 .method public static values()[Lorg/jsoup/select/NodeFilter$FilterResult;
     .locals 1
 
-    .line 1
     sget-object v0, Lorg/jsoup/select/NodeFilter$FilterResult;->$VALUES:[Lorg/jsoup/select/NodeFilter$FilterResult;
 
     invoke-virtual {v0}, [Lorg/jsoup/select/NodeFilter$FilterResult;->clone()Ljava/lang/Object;

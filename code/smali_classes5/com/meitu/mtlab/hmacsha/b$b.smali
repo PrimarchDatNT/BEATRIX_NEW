@@ -36,15 +36,12 @@
 .method private constructor <init>(Lcom/meitu/mtlab/hmacsha/b;Ljava/lang/String;Ljava/lang/String;)V
     .locals 0
 
-    .line 2
     iput-object p1, p0, Lcom/meitu/mtlab/hmacsha/b$b;->c:Lcom/meitu/mtlab/hmacsha/b;
 
     invoke-direct {p0}, Landroid/os/AsyncTask;-><init>()V
 
-    .line 3
     iput-object p2, p0, Lcom/meitu/mtlab/hmacsha/b$b;->a:Ljava/lang/String;
 
-    .line 4
     iput-object p3, p0, Lcom/meitu/mtlab/hmacsha/b$b;->b:Ljava/lang/String;
 
     return-void
@@ -53,7 +50,6 @@
 .method synthetic constructor <init>(Lcom/meitu/mtlab/hmacsha/b;Ljava/lang/String;Ljava/lang/String;Lcom/meitu/mtlab/hmacsha/b$a;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1, p2, p3}, Lcom/meitu/mtlab/hmacsha/b$b;-><init>(Lcom/meitu/mtlab/hmacsha/b;Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
@@ -68,7 +64,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     :try_start_0
     new-instance v0, Ljava/net/URL;
 
@@ -76,20 +71,16 @@
 
     invoke-direct {v0, v1}, Ljava/net/URL;-><init>(Ljava/lang/String;)V
 
-    .line 2
     invoke-virtual {v0}, Ljava/net/URL;->openConnection()Ljava/net/URLConnection;
 
     move-result-object v0
 
-    .line 3
     invoke-virtual {v0}, Ljava/net/URLConnection;->connect()V
 
-    .line 4
     invoke-virtual {v0}, Ljava/net/URLConnection;->getDate()J
 
     move-result-wide v0
 
-    .line 5
     iget-object v2, p0, Lcom/meitu/mtlab/hmacsha/b$b;->c:Lcom/meitu/mtlab/hmacsha/b;
 
     iget-object v2, v2, Lcom/meitu/mtlab/hmacsha/b;->b:Lcom/meitu/mtlab/hmacsha/b$c;
@@ -98,12 +89,10 @@
 
     if-eqz v2, :cond_0
 
-    .line 6
     div-long v5, v0, v3
 
     invoke-interface {v2, v5, v6}, Lcom/meitu/mtlab/hmacsha/b$c;->a(J)V
 
-    .line 7
     :cond_0
     iget-object v2, p0, Lcom/meitu/mtlab/hmacsha/b$b;->a:Ljava/lang/String;
 
@@ -124,24 +113,20 @@
     :catch_0
     move-exception v0
 
-    .line 8
     invoke-virtual {v0}, Ljava/lang/Exception;->printStackTrace()V
 
-    .line 9
     iget-object v0, p0, Lcom/meitu/mtlab/hmacsha/b$b;->c:Lcom/meitu/mtlab/hmacsha/b;
 
     iget-object v0, v0, Lcom/meitu/mtlab/hmacsha/b;->b:Lcom/meitu/mtlab/hmacsha/b$c;
 
     if-eqz v0, :cond_1
 
-    .line 10
     invoke-static {}, Lcom/meitu/mtlab/hmacsha/e;->a()J
 
     move-result-wide v1
 
     invoke-interface {v0, v1, v2}, Lcom/meitu/mtlab/hmacsha/b$c;->a(J)V
 
-    .line 11
     :cond_1
     iget-object v0, p0, Lcom/meitu/mtlab/hmacsha/b$b;->a:Ljava/lang/String;
 
@@ -165,20 +150,16 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0, p1}, Landroid/os/AsyncTask;->onPostExecute(Ljava/lang/Object;)V
 
-    .line 2
     iget-object v1, p0, Lcom/meitu/mtlab/hmacsha/b$b;->c:Lcom/meitu/mtlab/hmacsha/b;
 
     iget-object v1, v1, Lcom/meitu/mtlab/hmacsha/b;->a:Lcom/meitu/mtlab/hmacsha/b$d;
 
     if-eqz v1, :cond_0
 
-    .line 3
     invoke-interface {v1, p1}, Lcom/meitu/mtlab/hmacsha/b$d;->a(Ljava/lang/String;)V
 
-    .line 4
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -192,7 +173,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, [Ljava/lang/Void;
 
     invoke-virtual {p0, p1}, Lcom/meitu/mtlab/hmacsha/b$b;->a([Ljava/lang/Void;)Ljava/lang/String;
@@ -211,7 +191,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Ljava/lang/String;
 
     invoke-virtual {p0, p1}, Lcom/meitu/mtlab/hmacsha/b$b;->b(Ljava/lang/String;)V

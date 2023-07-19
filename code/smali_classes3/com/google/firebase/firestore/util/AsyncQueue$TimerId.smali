@@ -44,7 +44,6 @@
 .method static constructor <clinit>()V
     .locals 15
 
-    .line 1
     new-instance v0, Lcom/google/firebase/firestore/util/AsyncQueue$TimerId;
 
     const-string v1, "ALL"
@@ -55,7 +54,6 @@
 
     sput-object v0, Lcom/google/firebase/firestore/util/AsyncQueue$TimerId;->ALL:Lcom/google/firebase/firestore/util/AsyncQueue$TimerId;
 
-    .line 2
     new-instance v1, Lcom/google/firebase/firestore/util/AsyncQueue$TimerId;
 
     const-string v3, "LISTEN_STREAM_IDLE"
@@ -66,7 +64,6 @@
 
     sput-object v1, Lcom/google/firebase/firestore/util/AsyncQueue$TimerId;->LISTEN_STREAM_IDLE:Lcom/google/firebase/firestore/util/AsyncQueue$TimerId;
 
-    .line 3
     new-instance v3, Lcom/google/firebase/firestore/util/AsyncQueue$TimerId;
 
     const-string v5, "LISTEN_STREAM_CONNECTION_BACKOFF"
@@ -77,7 +74,6 @@
 
     sput-object v3, Lcom/google/firebase/firestore/util/AsyncQueue$TimerId;->LISTEN_STREAM_CONNECTION_BACKOFF:Lcom/google/firebase/firestore/util/AsyncQueue$TimerId;
 
-    .line 4
     new-instance v5, Lcom/google/firebase/firestore/util/AsyncQueue$TimerId;
 
     const-string v7, "WRITE_STREAM_IDLE"
@@ -88,7 +84,6 @@
 
     sput-object v5, Lcom/google/firebase/firestore/util/AsyncQueue$TimerId;->WRITE_STREAM_IDLE:Lcom/google/firebase/firestore/util/AsyncQueue$TimerId;
 
-    .line 5
     new-instance v7, Lcom/google/firebase/firestore/util/AsyncQueue$TimerId;
 
     const-string v9, "WRITE_STREAM_CONNECTION_BACKOFF"
@@ -99,7 +94,6 @@
 
     sput-object v7, Lcom/google/firebase/firestore/util/AsyncQueue$TimerId;->WRITE_STREAM_CONNECTION_BACKOFF:Lcom/google/firebase/firestore/util/AsyncQueue$TimerId;
 
-    .line 6
     new-instance v9, Lcom/google/firebase/firestore/util/AsyncQueue$TimerId;
 
     const-string v11, "ONLINE_STATE_TIMEOUT"
@@ -110,7 +104,6 @@
 
     sput-object v9, Lcom/google/firebase/firestore/util/AsyncQueue$TimerId;->ONLINE_STATE_TIMEOUT:Lcom/google/firebase/firestore/util/AsyncQueue$TimerId;
 
-    .line 7
     new-instance v11, Lcom/google/firebase/firestore/util/AsyncQueue$TimerId;
 
     const-string v13, "GARBAGE_COLLECTION"
@@ -139,7 +132,6 @@
 
     aput-object v11, v13, v14
 
-    .line 8
     sput-object v13, Lcom/google/firebase/firestore/util/AsyncQueue$TimerId;->$VALUES:[Lcom/google/firebase/firestore/util/AsyncQueue$TimerId;
 
     return-void
@@ -153,7 +145,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
     return-void
@@ -162,7 +153,6 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/google/firebase/firestore/util/AsyncQueue$TimerId;
     .locals 1
 
-    .line 1
     const-class v0, Lcom/google/firebase/firestore/util/AsyncQueue$TimerId;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -177,7 +167,6 @@
 .method public static values()[Lcom/google/firebase/firestore/util/AsyncQueue$TimerId;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/google/firebase/firestore/util/AsyncQueue$TimerId;->$VALUES:[Lcom/google/firebase/firestore/util/AsyncQueue$TimerId;
 
     invoke-virtual {v0}, [Lcom/google/firebase/firestore/util/AsyncQueue$TimerId;->clone()Ljava/lang/Object;

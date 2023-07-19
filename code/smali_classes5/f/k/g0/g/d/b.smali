@@ -38,17 +38,14 @@
 .method constructor <init>(Landroid/content/Context;Ljava/util/concurrent/ExecutorService;)V
     .locals 2
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     new-instance v0, Ljava/util/concurrent/ConcurrentHashMap;
 
     invoke-direct {v0}, Ljava/util/concurrent/ConcurrentHashMap;-><init>()V
 
     iput-object v0, p0, Lf/k/g0/g/d/b;->c:Ljava/util/Map;
 
-    .line 3
     new-instance v0, Landroid/os/Handler;
 
     invoke-static {}, Landroid/os/Looper;->getMainLooper()Landroid/os/Looper;
@@ -59,13 +56,10 @@
 
     iput-object v0, p0, Lf/k/g0/g/d/b;->d:Landroid/os/Handler;
 
-    .line 4
     iput-object p1, p0, Lf/k/g0/g/d/b;->a:Landroid/content/Context;
 
-    .line 5
     iput-object p2, p0, Lf/k/g0/g/d/b;->b:Ljava/util/concurrent/ExecutorService;
 
-    .line 6
     new-instance p2, Landroidx/core/util/AtomicFile;
 
     new-instance v0, Ljava/io/File;
@@ -98,7 +92,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -123,7 +116,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -144,7 +136,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const/4 v0, 0x0
@@ -178,7 +169,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const/4 p1, 0x0
@@ -197,14 +187,12 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v0, Ljava/util/HashMap;
 
     const/4 v1, 0x1
 
     invoke-direct {v0, v1}, Ljava/util/HashMap;-><init>(I)V
 
-    .line 2
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

@@ -27,7 +27,6 @@
 .method constructor <init>(Lcom/sdk/imp/s$a;Lcom/sdk/imp/VastModel;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/sdk/imp/s$a$a;->b:Lcom/sdk/imp/s$a;
 
     iput-object p2, p0, Lcom/sdk/imp/s$a$a;->a:Lcom/sdk/imp/VastModel;
@@ -42,7 +41,6 @@
 .method public a(Ljava/lang/String;Lcom/sdk/api/InternalAdError;)V
     .locals 9
 
-    .line 1
     invoke-static {}, Lcom/sdk/imp/s;->a()Ljava/lang/String;
 
     move-result-object v0
@@ -51,14 +49,12 @@
 
     invoke-static {v0, v1}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 2
     iget-object v0, p0, Lcom/sdk/imp/s$a$a;->b:Lcom/sdk/imp/s$a;
 
     iget-object v0, v0, Lcom/sdk/imp/s$a;->c:Lcom/sdk/imp/s$g;
 
     invoke-static {v0, p2}, Lcom/sdk/imp/s;->b(Lcom/sdk/imp/s$g;Lcom/sdk/api/InternalAdError;)V
 
-    .line 3
     iget-object v0, p0, Lcom/sdk/imp/s$a$a;->b:Lcom/sdk/imp/s$a;
 
     iget-object v1, v0, Lcom/sdk/imp/s$a;->d:Lcom/sdk/api/VideoCardAd;
@@ -80,7 +76,6 @@
 
     const/4 v3, -0x1
 
-    .line 4
     :goto_0
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
@@ -96,7 +91,6 @@
 
     move-object v8, p1
 
-    .line 5
     invoke-virtual/range {v1 .. v8}, Lcom/sdk/api/VideoCardAd;->J(Lcom/sdk/api/Const$Event;IJJLjava/lang/String;)V
 
     return-void
@@ -109,7 +103,6 @@
 
     move-object v1, p2
 
-    .line 1
     invoke-static {}, Lcom/sdk/imp/s;->a()Ljava/lang/String;
 
     move-result-object v2
@@ -118,7 +111,6 @@
 
     invoke-static {v2, v3}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 2
     iget-object v2, v0, Lcom/sdk/imp/s$a$a;->b:Lcom/sdk/imp/s$a;
 
     iget-object v3, v2, Lcom/sdk/imp/s$a;->e:Ljava/util/HashMap;
@@ -131,12 +123,10 @@
 
     invoke-virtual {v3, v2, p2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 3
     new-instance v2, Ljava/io/File;
 
     invoke-direct {v2, p2}, Ljava/io/File;-><init>(Ljava/lang/String;)V
 
-    .line 4
     invoke-virtual {v2}, Ljava/io/File;->exists()Z
 
     move-result v1
@@ -145,7 +135,6 @@
 
     if-eqz v1, :cond_0
 
-    .line 5
     invoke-virtual {v2}, Ljava/io/File;->length()J
 
     move-result-wide v1
@@ -162,7 +151,6 @@
 
     goto :goto_1
 
-    .line 6
     :cond_1
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
@@ -177,7 +165,6 @@
     :goto_1
     move-wide v8, v3
 
-    .line 7
     iget-object v1, v0, Lcom/sdk/imp/s$a$a;->b:Lcom/sdk/imp/s$a;
 
     iget-object v5, v1, Lcom/sdk/imp/s$a;->d:Lcom/sdk/api/VideoCardAd;
@@ -190,7 +177,6 @@
 
     invoke-virtual/range {v5 .. v12}, Lcom/sdk/api/VideoCardAd;->J(Lcom/sdk/api/Const$Event;IJJLjava/lang/String;)V
 
-    .line 8
     iget-object v1, v0, Lcom/sdk/imp/s$a$a;->b:Lcom/sdk/imp/s$a;
 
     iget-object v1, v1, Lcom/sdk/imp/s$a;->a:Landroid/content/Context;

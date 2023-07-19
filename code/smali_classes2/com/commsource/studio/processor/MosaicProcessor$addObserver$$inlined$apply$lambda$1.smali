@@ -34,7 +34,6 @@
 
     iput-object p2, p0, Lcom/commsource/studio/processor/MosaicProcessor$addObserver$$inlined$apply$lambda$1;->c:Lcom/commsource/studio/processor/MosaicProcessor;
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -57,7 +56,6 @@
 
     invoke-static {p3, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-static {p0, p1, p2, p3}, Lcom/commsource/studio/layer/c$a$a;->a(Lcom/commsource/studio/layer/c$a;FFLandroid/view/MotionEvent;)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -80,7 +78,6 @@
 
     invoke-static {p3, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object p3, p0, Lcom/commsource/studio/processor/MosaicProcessor$addObserver$$inlined$apply$lambda$1;->c:Lcom/commsource/studio/processor/MosaicProcessor;
 
     invoke-static {p3}, Lcom/commsource/studio/processor/MosaicProcessor;->J(Lcom/commsource/studio/processor/MosaicProcessor;)Lcom/meitu/core/magicpen/NativeGLMagicPen;
@@ -121,12 +118,10 @@
 
     if-ne p3, v2, :cond_1
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 3
     :cond_1
     iget-object p3, p0, Lcom/commsource/studio/processor/MosaicProcessor$addObserver$$inlined$apply$lambda$1;->b:Lcom/commsource/studio/component/d;
 
@@ -142,10 +137,8 @@
 
     if-eqz p3, :cond_2
 
-    .line 4
     iput-boolean v2, p0, Lcom/commsource/studio/processor/MosaicProcessor$addObserver$$inlined$apply$lambda$1;->a:Z
 
-    .line 5
     :cond_2
     iget-object p3, p0, Lcom/commsource/studio/processor/MosaicProcessor$addObserver$$inlined$apply$lambda$1;->c:Lcom/commsource/studio/processor/MosaicProcessor;
 
@@ -155,7 +148,6 @@
 
     aput p1, p3, v1
 
-    .line 6
     iget-object p1, p0, Lcom/commsource/studio/processor/MosaicProcessor$addObserver$$inlined$apply$lambda$1;->c:Lcom/commsource/studio/processor/MosaicProcessor;
 
     invoke-static {p1}, Lcom/commsource/studio/processor/MosaicProcessor;->M(Lcom/commsource/studio/processor/MosaicProcessor;)[F
@@ -164,7 +156,6 @@
 
     aput p2, p1, v2
 
-    .line 7
     iget-object p1, p0, Lcom/commsource/studio/processor/MosaicProcessor$addObserver$$inlined$apply$lambda$1;->b:Lcom/commsource/studio/component/d;
 
     invoke-virtual {p1}, Lcom/commsource/studio/component/d;->z()Lcom/commsource/studio/layer/BaseLayer;
@@ -179,7 +170,6 @@
 
     invoke-virtual {p1, p2}, Lcom/commsource/studio/layer/BaseLayer;->V([F)V
 
-    .line 8
     iget-object p1, p0, Lcom/commsource/studio/processor/MosaicProcessor$addObserver$$inlined$apply$lambda$1;->c:Lcom/commsource/studio/processor/MosaicProcessor;
 
     invoke-static {p1}, Lcom/commsource/studio/processor/MosaicProcessor;->M(Lcom/commsource/studio/processor/MosaicProcessor;)[F
@@ -200,7 +190,6 @@
 
     div-float/2addr p1, p2
 
-    .line 9
     iget-object p2, p0, Lcom/commsource/studio/processor/MosaicProcessor$addObserver$$inlined$apply$lambda$1;->c:Lcom/commsource/studio/processor/MosaicProcessor;
 
     invoke-static {p2}, Lcom/commsource/studio/processor/MosaicProcessor;->M(Lcom/commsource/studio/processor/MosaicProcessor;)[F
@@ -221,7 +210,6 @@
 
     div-float/2addr p2, p3
 
-    .line 10
     iget-object p3, p0, Lcom/commsource/studio/processor/MosaicProcessor$addObserver$$inlined$apply$lambda$1;->c:Lcom/commsource/studio/processor/MosaicProcessor;
 
     new-instance v2, Lcom/commsource/studio/processor/MosaicProcessor$addObserver$$inlined$apply$lambda$1$2;
@@ -230,7 +218,6 @@
 
     invoke-virtual {p3, v2}, Lcom/commsource/studio/processor/BaseEffectProcessor;->q(Lcotlin/jvm/u/a;)V
 
-    .line 11
     iget-object p1, p0, Lcom/commsource/studio/processor/MosaicProcessor$addObserver$$inlined$apply$lambda$1;->c:Lcom/commsource/studio/processor/MosaicProcessor;
 
     const/4 p2, 0x3
@@ -239,7 +226,6 @@
 
     invoke-static {p1, v1, p3, p2, p3}, Lcom/commsource/studio/processor/BaseEffectProcessor;->z(Lcom/commsource/studio/processor/BaseEffectProcessor;ZLcotlin/jvm/u/a;ILjava/lang/Object;)V
 
-    .line 12
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -260,7 +246,6 @@
 
     invoke-static {p3, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object p3, p0, Lcom/commsource/studio/processor/MosaicProcessor$addObserver$$inlined$apply$lambda$1;->c:Lcom/commsource/studio/processor/MosaicProcessor;
 
     invoke-static {p3}, Lcom/commsource/studio/processor/MosaicProcessor;->J(Lcom/commsource/studio/processor/MosaicProcessor;)Lcom/meitu/core/magicpen/NativeGLMagicPen;
@@ -301,12 +286,10 @@
 
     if-ne p3, v2, :cond_1
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 3
     :cond_1
     iget-object p3, p0, Lcom/commsource/studio/processor/MosaicProcessor$addObserver$$inlined$apply$lambda$1;->b:Lcom/commsource/studio/component/d;
 
@@ -320,7 +303,6 @@
 
     iput-boolean p3, p0, Lcom/commsource/studio/processor/MosaicProcessor$addObserver$$inlined$apply$lambda$1;->a:Z
 
-    .line 4
     iget-object p3, p0, Lcom/commsource/studio/processor/MosaicProcessor$addObserver$$inlined$apply$lambda$1;->c:Lcom/commsource/studio/processor/MosaicProcessor;
 
     invoke-static {p3}, Lcom/commsource/studio/processor/MosaicProcessor;->M(Lcom/commsource/studio/processor/MosaicProcessor;)[F
@@ -329,7 +311,6 @@
 
     aput p1, p3, v1
 
-    .line 5
     iget-object p1, p0, Lcom/commsource/studio/processor/MosaicProcessor$addObserver$$inlined$apply$lambda$1;->c:Lcom/commsource/studio/processor/MosaicProcessor;
 
     invoke-static {p1}, Lcom/commsource/studio/processor/MosaicProcessor;->M(Lcom/commsource/studio/processor/MosaicProcessor;)[F
@@ -340,7 +321,6 @@
 
     aput p2, p1, p3
 
-    .line 6
     iget-object p1, p0, Lcom/commsource/studio/processor/MosaicProcessor$addObserver$$inlined$apply$lambda$1;->b:Lcom/commsource/studio/component/d;
 
     invoke-virtual {p1}, Lcom/commsource/studio/component/d;->z()Lcom/commsource/studio/layer/BaseLayer;
@@ -355,7 +335,6 @@
 
     invoke-virtual {p1, p2}, Lcom/commsource/studio/layer/BaseLayer;->V([F)V
 
-    .line 7
     iget-object p1, p0, Lcom/commsource/studio/processor/MosaicProcessor$addObserver$$inlined$apply$lambda$1;->c:Lcom/commsource/studio/processor/MosaicProcessor;
 
     invoke-static {p1}, Lcom/commsource/studio/processor/MosaicProcessor;->M(Lcom/commsource/studio/processor/MosaicProcessor;)[F
@@ -376,7 +355,6 @@
 
     div-float/2addr p1, p2
 
-    .line 8
     iget-object p2, p0, Lcom/commsource/studio/processor/MosaicProcessor$addObserver$$inlined$apply$lambda$1;->c:Lcom/commsource/studio/processor/MosaicProcessor;
 
     invoke-static {p2}, Lcom/commsource/studio/processor/MosaicProcessor;->M(Lcom/commsource/studio/processor/MosaicProcessor;)[F
@@ -397,7 +375,6 @@
 
     div-float/2addr p2, p3
 
-    .line 9
     iget-object p3, p0, Lcom/commsource/studio/processor/MosaicProcessor$addObserver$$inlined$apply$lambda$1;->c:Lcom/commsource/studio/processor/MosaicProcessor;
 
     new-instance v2, Lcom/commsource/studio/processor/MosaicProcessor$addObserver$$inlined$apply$lambda$1$1;
@@ -406,7 +383,6 @@
 
     invoke-virtual {p3, v2}, Lcom/commsource/studio/processor/BaseEffectProcessor;->q(Lcotlin/jvm/u/a;)V
 
-    .line 10
     iget-object p1, p0, Lcom/commsource/studio/processor/MosaicProcessor$addObserver$$inlined$apply$lambda$1;->c:Lcom/commsource/studio/processor/MosaicProcessor;
 
     const/4 p2, 0x3
@@ -415,7 +391,6 @@
 
     invoke-static {p1, v1, p3, p2, p3}, Lcom/commsource/studio/processor/BaseEffectProcessor;->z(Lcom/commsource/studio/processor/BaseEffectProcessor;ZLcotlin/jvm/u/a;ILjava/lang/Object;)V
 
-    .line 11
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -436,7 +411,6 @@
 
     invoke-static {p3, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-static {p0, p1, p2, p3}, Lcom/commsource/studio/layer/c$a$a;->e(Lcom/commsource/studio/layer/c$a;FFLandroid/view/MotionEvent;)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -455,7 +429,6 @@
 
     invoke-static {p4}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p5, p0, Lcom/commsource/studio/processor/MosaicProcessor$addObserver$$inlined$apply$lambda$1;->c:Lcom/commsource/studio/processor/MosaicProcessor;
 
     invoke-static {p5}, Lcom/commsource/studio/processor/MosaicProcessor;->J(Lcom/commsource/studio/processor/MosaicProcessor;)Lcom/meitu/core/magicpen/NativeGLMagicPen;
@@ -496,18 +469,15 @@
 
     if-ne p5, v1, :cond_1
 
-    .line 2
     invoke-static {p4}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 3
     :cond_1
     iget-boolean p5, p0, Lcom/commsource/studio/processor/MosaicProcessor$addObserver$$inlined$apply$lambda$1;->a:Z
 
     if-nez p5, :cond_2
 
-    .line 4
     invoke-static {p4}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -515,7 +485,6 @@
     :cond_2
     if-eqz p3, :cond_3
 
-    .line 5
     iget-object p3, p0, Lcom/commsource/studio/processor/MosaicProcessor$addObserver$$inlined$apply$lambda$1;->c:Lcom/commsource/studio/processor/MosaicProcessor;
 
     invoke-static {p3}, Lcom/commsource/studio/processor/MosaicProcessor;->M(Lcom/commsource/studio/processor/MosaicProcessor;)[F
@@ -524,7 +493,6 @@
 
     aput p1, p3, v0
 
-    .line 6
     iget-object p1, p0, Lcom/commsource/studio/processor/MosaicProcessor$addObserver$$inlined$apply$lambda$1;->c:Lcom/commsource/studio/processor/MosaicProcessor;
 
     invoke-static {p1}, Lcom/commsource/studio/processor/MosaicProcessor;->M(Lcom/commsource/studio/processor/MosaicProcessor;)[F
@@ -535,7 +503,6 @@
 
     aput p2, p1, p3
 
-    .line 7
     iget-object p1, p0, Lcom/commsource/studio/processor/MosaicProcessor$addObserver$$inlined$apply$lambda$1;->b:Lcom/commsource/studio/component/d;
 
     invoke-virtual {p1}, Lcom/commsource/studio/component/d;->z()Lcom/commsource/studio/layer/BaseLayer;
@@ -550,7 +517,6 @@
 
     invoke-virtual {p1, p2}, Lcom/commsource/studio/layer/BaseLayer;->V([F)V
 
-    .line 8
     iget-object p1, p0, Lcom/commsource/studio/processor/MosaicProcessor$addObserver$$inlined$apply$lambda$1;->c:Lcom/commsource/studio/processor/MosaicProcessor;
 
     invoke-static {p1}, Lcom/commsource/studio/processor/MosaicProcessor;->M(Lcom/commsource/studio/processor/MosaicProcessor;)[F
@@ -571,7 +537,6 @@
 
     div-float/2addr p1, p2
 
-    .line 9
     iget-object p2, p0, Lcom/commsource/studio/processor/MosaicProcessor$addObserver$$inlined$apply$lambda$1;->c:Lcom/commsource/studio/processor/MosaicProcessor;
 
     invoke-static {p2}, Lcom/commsource/studio/processor/MosaicProcessor;->M(Lcom/commsource/studio/processor/MosaicProcessor;)[F
@@ -592,7 +557,6 @@
 
     div-float/2addr p2, p3
 
-    .line 10
     iget-object p3, p0, Lcom/commsource/studio/processor/MosaicProcessor$addObserver$$inlined$apply$lambda$1;->c:Lcom/commsource/studio/processor/MosaicProcessor;
 
     invoke-virtual {p3}, Lcom/commsource/studio/processor/MosaicProcessor;->S()Lcom/commsource/studio/k0;
@@ -607,7 +571,6 @@
 
     invoke-virtual {p3, p5}, Lcom/commsource/studio/e0;->l(Ljava/lang/Object;)V
 
-    .line 11
     iget-object p3, p0, Lcom/commsource/studio/processor/MosaicProcessor$addObserver$$inlined$apply$lambda$1;->c:Lcom/commsource/studio/processor/MosaicProcessor;
 
     new-instance p5, Lcom/commsource/studio/processor/MosaicProcessor$addObserver$$inlined$apply$lambda$1$3;
@@ -616,7 +579,6 @@
 
     invoke-virtual {p3, p5}, Lcom/commsource/studio/processor/BaseEffectProcessor;->q(Lcotlin/jvm/u/a;)V
 
-    .line 12
     iget-object p1, p0, Lcom/commsource/studio/processor/MosaicProcessor$addObserver$$inlined$apply$lambda$1;->c:Lcom/commsource/studio/processor/MosaicProcessor;
 
     const/4 p2, 0x3
@@ -625,7 +587,6 @@
 
     invoke-static {p1, v0, p3, p2, p3}, Lcom/commsource/studio/processor/BaseEffectProcessor;->z(Lcom/commsource/studio/processor/BaseEffectProcessor;ZLcotlin/jvm/u/a;ILjava/lang/Object;)V
 
-    .line 13
     :cond_3
     invoke-static {p4}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

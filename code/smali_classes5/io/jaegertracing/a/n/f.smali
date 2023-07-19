@@ -31,10 +31,8 @@
 .method public constructor <init>(D)V
     .locals 3
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-wide p1, p0, Lio/jaegertracing/a/n/f;->a:D
 
     const-wide/high16 v0, 0x3ff0000000000000L    # 1.0
@@ -48,7 +46,6 @@
     :cond_0
     move-wide v0, p1
 
-    .line 3
     :goto_0
     new-instance v2, Lio/jaegertracing/a/p/c;
 
@@ -56,7 +53,6 @@
 
     iput-object v2, p0, Lio/jaegertracing/a/n/f;->c:Lio/jaegertracing/a/p/c;
 
-    .line 4
     new-instance v0, Ljava/util/HashMap;
 
     invoke-direct {v0}, Ljava/util/HashMap;-><init>()V
@@ -65,10 +61,8 @@
 
     const-string v2, "ratelimiting"
 
-    .line 5
     invoke-interface {v0, v1, v2}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 6
     invoke-static {p1, p2}, Ljava/lang/Double;->valueOf(D)Ljava/lang/Double;
 
     move-result-object p1
@@ -77,7 +71,6 @@
 
     invoke-interface {v0, p2, p1}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 7
     invoke-static {v0}, Ljava/util/Collections;->unmodifiableMap(Ljava/util/Map;)Ljava/util/Map;
 
     move-result-object p1
@@ -92,7 +85,6 @@
 .method public a(Ljava/lang/String;J)Lio/jaegertracing/a/n/h;
     .locals 0
 
-    .line 1
     iget-object p1, p0, Lio/jaegertracing/a/n/f;->c:Lio/jaegertracing/a/p/c;
 
     const-wide/high16 p2, 0x3ff0000000000000L    # 1.0
@@ -113,7 +105,6 @@
 .method public b()D
     .locals 2
 
-    .line 1
     iget-wide v0, p0, Lio/jaegertracing/a/n/f;->a:D
 
     return-wide v0
@@ -122,7 +113,6 @@
 .method public c()Lio/jaegertracing/a/p/c;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lio/jaegertracing/a/n/f;->c:Lio/jaegertracing/a/p/c;
 
     return-object v0
@@ -146,7 +136,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lio/jaegertracing/a/n/f;->b:Ljava/util/Map;
 
     return-object v0
@@ -161,7 +150,6 @@
 
     return v0
 
-    .line 1
     :cond_0
     instance-of v1, p1, Lio/jaegertracing/a/n/f;
 
@@ -169,7 +157,6 @@
 
     if-eqz v1, :cond_2
 
-    .line 2
     iget-wide v3, p0, Lio/jaegertracing/a/n/f;->a:D
 
     check-cast p1, Lio/jaegertracing/a/n/f;
@@ -195,7 +182,6 @@
 .method public toString()Ljava/lang/String;
     .locals 3
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V

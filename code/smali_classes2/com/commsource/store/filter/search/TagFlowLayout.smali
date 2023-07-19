@@ -66,26 +66,22 @@
 
     invoke-static {p2, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-direct {p0, p1, p2}, Landroid/view/ViewGroup;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
     const/high16 v0, 0x41200000    # 10.0f
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/p/f/i;->d(F)I
 
     move-result v1
 
     iput v1, p0, Lcom/commsource/store/filter/search/TagFlowLayout;->a:I
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/p/f/i;->d(F)I
 
     move-result v0
 
     iput v0, p0, Lcom/commsource/store/filter/search/TagFlowLayout;->b:I
 
-    .line 4
     invoke-direct {p0, p1, p2}, Lcom/commsource/store/filter/search/TagFlowLayout;->c(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
     return-void
@@ -98,7 +94,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -182,14 +177,12 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Landroid/view/ViewGroup;->getChildCount()I
 
     move-result p3
 
     if-eqz p3, :cond_7
 
-    .line 2
     invoke-static {p0}, Landroidx/core/view/ViewCompat;->getLayoutDirection(Landroid/view/View;)I
 
     move-result p3
@@ -208,7 +201,6 @@
     :goto_0
     if-eqz p5, :cond_1
 
-    .line 3
     invoke-virtual {p0}, Landroid/view/ViewGroup;->getPaddingRight()I
 
     move-result p3
@@ -223,7 +215,6 @@
     :goto_1
     if-eqz p5, :cond_2
 
-    .line 4
     invoke-virtual {p0}, Landroid/view/ViewGroup;->getPaddingLeft()I
 
     move-result v1
@@ -235,7 +226,6 @@
 
     move-result v1
 
-    .line 5
     :goto_2
     invoke-virtual {p0}, Landroid/view/ViewGroup;->getPaddingTop()I
 
@@ -245,7 +235,6 @@
 
     sub-int/2addr p4, v1
 
-    .line 6
     invoke-virtual {p0}, Landroid/view/ViewGroup;->getChildCount()I
 
     move-result p2
@@ -259,14 +248,12 @@
     :goto_3
     if-ge v3, p2, :cond_7
 
-    .line 7
     invoke-virtual {p0, v3}, Landroid/view/ViewGroup;->getChildAt(I)Landroid/view/View;
 
     move-result-object v5
 
     const-string v6, "child"
 
-    .line 8
     invoke-static {v5, v6}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v5}, Landroid/view/View;->getVisibility()I
@@ -277,24 +264,20 @@
 
     if-eq v6, v7, :cond_6
 
-    .line 9
     invoke-virtual {v5}, Landroid/view/View;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
 
     move-result-object v6
 
-    .line 10
     instance-of v7, v6, Landroid/view/ViewGroup$MarginLayoutParams;
 
     if-eqz v7, :cond_3
 
-    .line 11
     check-cast v6, Landroid/view/ViewGroup$MarginLayoutParams;
 
     invoke-static {v6}, Landroidx/core/view/MarginLayoutParamsCompat;->getMarginStart(Landroid/view/ViewGroup$MarginLayoutParams;)I
 
     move-result v7
 
-    .line 12
     invoke-static {v6}, Landroidx/core/view/MarginLayoutParamsCompat;->getMarginEnd(Landroid/view/ViewGroup$MarginLayoutParams;)I
 
     move-result v6
@@ -309,21 +292,18 @@
     :goto_4
     add-int v8, v4, v7
 
-    .line 13
     invoke-virtual {v5}, Landroid/view/View;->getMeasuredWidth()I
 
     move-result v9
 
     add-int/2addr v8, v9
 
-    .line 14
     iget-boolean v9, p0, Lcom/commsource/store/filter/search/TagFlowLayout;->c:Z
 
     if-nez v9, :cond_4
 
     if-le v8, p4, :cond_4
 
-    .line 15
     iget v1, p0, Lcom/commsource/store/filter/search/TagFlowLayout;->a:I
 
     add-int/2addr v1, v2
@@ -333,14 +313,12 @@
     :cond_4
     add-int v2, v4, v7
 
-    .line 16
     invoke-virtual {v5}, Landroid/view/View;->getMeasuredWidth()I
 
     move-result v8
 
     add-int/2addr v8, v2
 
-    .line 17
     invoke-virtual {v5}, Landroid/view/View;->getMeasuredHeight()I
 
     move-result v9
@@ -355,19 +333,16 @@
 
     sub-int/2addr v8, v7
 
-    .line 18
     invoke-virtual {v5, v2, v1, v8, v9}, Landroid/view/View;->layout(IIII)V
 
     goto :goto_5
 
-    .line 19
     :cond_5
     invoke-virtual {v5, v2, v1, v8, v9}, Landroid/view/View;->layout(IIII)V
 
     :goto_5
     add-int/2addr v7, v6
 
-    .line 20
     invoke-virtual {v5}, Landroid/view/View;->getMeasuredWidth()I
 
     move-result v2
@@ -387,7 +362,6 @@
 
     goto :goto_3
 
-    .line 21
     :cond_7
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -403,22 +377,18 @@
 
     invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static/range {p1 .. p1}, Landroid/view/View$MeasureSpec;->getSize(I)I
 
     move-result v2
 
-    .line 2
     invoke-static/range {p1 .. p1}, Landroid/view/View$MeasureSpec;->getMode(I)I
 
     move-result v3
 
-    .line 3
     invoke-static/range {p2 .. p2}, Landroid/view/View$MeasureSpec;->getSize(I)I
 
     move-result v4
 
-    .line 4
     invoke-static/range {p2 .. p2}, Landroid/view/View$MeasureSpec;->getMode(I)I
 
     move-result v5
@@ -438,18 +408,15 @@
     :cond_0
     move v6, v2
 
-    .line 5
     :goto_0
     invoke-virtual/range {p0 .. p0}, Landroid/view/ViewGroup;->getPaddingLeft()I
 
     move-result v7
 
-    .line 6
     invoke-virtual/range {p0 .. p0}, Landroid/view/ViewGroup;->getPaddingTop()I
 
     move-result v8
 
-    .line 7
     invoke-virtual/range {p0 .. p0}, Landroid/view/ViewGroup;->getPaddingRight()I
 
     move-result v9
@@ -462,7 +429,6 @@
 
     const/4 v12, 0x0
 
-    .line 8
     :goto_1
     invoke-virtual/range {p0 .. p0}, Landroid/view/ViewGroup;->getChildCount()I
 
@@ -470,14 +436,12 @@
 
     if-ge v11, v13, :cond_5
 
-    .line 9
     invoke-virtual {v0, v11}, Landroid/view/ViewGroup;->getChildAt(I)Landroid/view/View;
 
     move-result-object v13
 
     const-string v14, "child"
 
-    .line 10
     invoke-static {v13, v14}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v13}, Landroid/view/View;->getVisibility()I
@@ -492,20 +456,16 @@
 
     move/from16 v15, p2
 
-    .line 11
     invoke-virtual {v0, v13, v14, v15}, Landroid/view/ViewGroup;->measureChild(Landroid/view/View;II)V
 
-    .line 12
     invoke-virtual {v13}, Landroid/view/View;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
 
     move-result-object v1
 
-    .line 13
     instance-of v9, v1, Landroid/view/ViewGroup$MarginLayoutParams;
 
     if-eqz v9, :cond_1
 
-    .line 14
     check-cast v1, Landroid/view/ViewGroup$MarginLayoutParams;
 
     iget v9, v1, Landroid/view/ViewGroup$MarginLayoutParams;->leftMargin:I
@@ -514,7 +474,6 @@
 
     add-int/lit8 v9, v9, 0x0
 
-    .line 15
     iget v1, v1, Landroid/view/ViewGroup$MarginLayoutParams;->rightMargin:I
 
     add-int/lit8 v1, v1, 0x0
@@ -531,7 +490,6 @@
     :goto_2
     add-int v17, v7, v9
 
-    .line 16
     invoke-virtual {v13}, Landroid/view/View;->getMeasuredWidth()I
 
     move-result v18
@@ -542,17 +500,14 @@
 
     if-le v7, v6, :cond_2
 
-    .line 17
     iget-boolean v7, v0, Lcom/commsource/store/filter/search/TagFlowLayout;->c:Z
 
     if-nez v7, :cond_2
 
-    .line 18
     invoke-virtual/range {p0 .. p0}, Landroid/view/ViewGroup;->getPaddingLeft()I
 
     move-result v7
 
-    .line 19
     iget v10, v0, Lcom/commsource/store/filter/search/TagFlowLayout;->a:I
 
     add-int/2addr v10, v8
@@ -565,14 +520,12 @@
     :goto_3
     add-int v8, v7, v9
 
-    .line 20
     invoke-virtual {v13}, Landroid/view/View;->getMeasuredWidth()I
 
     move-result v17
 
     add-int v8, v8, v17
 
-    .line 21
     invoke-virtual {v13}, Landroid/view/View;->getMeasuredHeight()I
 
     move-result v17
@@ -586,7 +539,6 @@
     :cond_3
     add-int/2addr v9, v1
 
-    .line 22
     invoke-virtual {v13}, Landroid/view/View;->getMeasuredWidth()I
 
     move-result v1
@@ -619,7 +571,6 @@
 
     goto :goto_1
 
-    .line 23
     :cond_5
     sget-object v1, Lcom/commsource/store/filter/search/TagFlowLayout;->f:Lcom/commsource/store/filter/search/TagFlowLayout$a;
 
@@ -627,17 +578,14 @@
 
     move-result v2
 
-    .line 24
     invoke-static {v1, v4, v5, v8}, Lcom/commsource/store/filter/search/TagFlowLayout$a;->a(Lcom/commsource/store/filter/search/TagFlowLayout$a;III)I
 
     move-result v1
 
-    .line 25
     invoke-virtual {v0, v2, v1}, Landroid/view/ViewGroup;->setMeasuredDimension(II)V
 
     const/16 v1, 0x34d2
 
-    .line 26
     invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

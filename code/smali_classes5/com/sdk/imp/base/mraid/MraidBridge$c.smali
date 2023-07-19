@@ -27,7 +27,6 @@
 .method constructor <init>(Lcom/sdk/imp/base/mraid/MraidBridge;Lcom/sdk/imp/base/m;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/sdk/imp/base/mraid/MraidBridge$c;->b:Lcom/sdk/imp/base/mraid/MraidBridge;
 
     iput-object p2, p0, Lcom/sdk/imp/base/mraid/MraidBridge$c;->a:Lcom/sdk/imp/base/m;
@@ -42,12 +41,10 @@
 .method public onTouch(Landroid/view/View;Landroid/view/MotionEvent;)Z
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/sdk/imp/base/mraid/MraidBridge$c;->a:Lcom/sdk/imp/base/m;
 
     invoke-virtual {v0, p2}, Lcom/sdk/imp/base/m;->c(Landroid/view/MotionEvent;)V
 
-    .line 2
     invoke-virtual {p2}, Landroid/view/MotionEvent;->getAction()I
 
     move-result p2
@@ -60,7 +57,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_0
     invoke-virtual {p1}, Landroid/view/View;->hasFocus()Z
 
@@ -68,7 +64,6 @@
 
     if-nez p2, :cond_1
 
-    .line 4
     invoke-virtual {p1}, Landroid/view/View;->requestFocus()Z
 
     :cond_1

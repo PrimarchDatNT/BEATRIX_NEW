@@ -26,15 +26,12 @@
 .method public final a(Z)V
     .locals 0
 
-    .line 1
     iget-object p1, p0, Lcom/google/android/gms/ads/internal/overlay/e;->a:Lcom/google/android/gms/ads/internal/overlay/c;
 
-    .line 2
     iget-object p1, p1, Lcom/google/android/gms/ads/internal/overlay/c;->d:Lcom/google/android/gms/internal/ads/lu;
 
     if-eqz p1, :cond_0
 
-    .line 3
     invoke-interface {p1}, Lcom/google/android/gms/internal/ads/lu;->H()V
 
     :cond_0

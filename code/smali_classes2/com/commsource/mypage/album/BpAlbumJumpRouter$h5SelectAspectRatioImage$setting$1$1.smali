@@ -20,7 +20,6 @@
 .method constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/mypage/album/AlbumReturnImageCallback;-><init>()V
 
     return-void
@@ -51,7 +50,6 @@
 
     invoke-static {p2, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-virtual {p2}, Lcom/commsource/mypage/album/w;->h()Landroid/os/Bundle;
 
     move-result-object v1
@@ -69,7 +67,6 @@
     :cond_0
     const/4 v1, 0x0
 
-    .line 2
     :goto_0
     invoke-static {v1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
@@ -79,7 +76,6 @@
 
     if-nez v3, :cond_1
 
-    .line 3
     new-instance v3, Lcom/commsource/util/p2/c;
 
     move-object v5, p1
@@ -88,29 +84,24 @@
 
     invoke-direct {v3, v5}, Lcom/commsource/util/p2/c;-><init>(Landroidx/fragment/app/FragmentActivity;)V
 
-    .line 4
     new-instance v5, Landroid/content/Intent;
 
     const-class v6, Lcom/commsource/beautyplus/web/CropPhotoActivity;
 
     invoke-direct {v5, p1, v6}, Landroid/content/Intent;-><init>(Landroid/content/Context;Ljava/lang/Class;)V
 
-    .line 5
     invoke-virtual {p2}, Lcom/commsource/mypage/album/w;->i()Lcom/commsource/cloudalbum/bean/CAImageInfo;
 
     move-result-object p2
 
     invoke-virtual {v5, v4, p2}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Landroid/os/Parcelable;)Landroid/content/Intent;
 
-    .line 6
     invoke-virtual {v5, v2, v1}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
 
-    .line 7
     new-instance p2, Lcom/commsource/mypage/album/BpAlbumJumpRouter$h5SelectAspectRatioImage$setting$1$1$onImageSelect$2;
 
     invoke-direct {p2, p1}, Lcom/commsource/mypage/album/BpAlbumJumpRouter$h5SelectAspectRatioImage$setting$1$1$onImageSelect$2;-><init>(Landroid/app/Activity;)V
 
-    .line 8
     new-instance p1, Lcom/commsource/mypage/album/AlbumReturnImageCallback$a;
 
     invoke-direct {p1, v5, p2}, Lcom/commsource/mypage/album/AlbumReturnImageCallback$a;-><init>(Landroid/content/Intent;Lcotlin/jvm/u/l;)V
@@ -122,25 +113,20 @@
     :cond_1
     const/4 v1, -0x1
 
-    .line 9
     new-instance v2, Landroid/content/Intent;
 
     invoke-direct {v2}, Landroid/content/Intent;-><init>()V
 
-    .line 10
     invoke-virtual {p2}, Lcom/commsource/mypage/album/w;->i()Lcom/commsource/cloudalbum/bean/CAImageInfo;
 
     move-result-object p2
 
     invoke-virtual {v2, v4, p2}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Landroid/os/Parcelable;)Landroid/content/Intent;
 
-    .line 11
     invoke-virtual {p1, v1, v2}, Landroid/app/Activity;->setResult(ILandroid/content/Intent;)V
 
-    .line 12
     invoke-virtual {p1}, Landroid/app/Activity;->finish()V
 
-    .line 13
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

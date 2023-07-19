@@ -25,10 +25,8 @@
 .method public constructor <init>()V
     .locals 3
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     new-instance v0, Ljava/text/SimpleDateFormat;
 
     sget-object v1, Ljava/util/Locale;->US:Ljava/util/Locale;
@@ -52,7 +50,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0, p1, p2, p3}, Lcom/giphy/sdk/core/models/json/DateDeserializer;->deserialize(Lcom/google/gson/JsonElement;Ljava/lang/reflect/Type;Lcom/google/gson/JsonDeserializationContext;)Ljava/util/Date;
 
     move-result-object p1
@@ -68,7 +65,6 @@
         }
     .end annotation
 
-    .line 2
     :try_start_0
     iget-object p2, p0, Lcom/giphy/sdk/core/models/json/DateDeserializer;->dateFormat:Ljava/text/DateFormat;
 

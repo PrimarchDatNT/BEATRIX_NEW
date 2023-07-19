@@ -33,7 +33,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/camera/xcamera/cover/AbsBaseCover;-><init>()V
 
     return-void
@@ -49,7 +48,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/AbsBaseCover;->c()Lcom/commsource/camera/xcamera/cover/CoverGroup;
 
     move-result-object v0
@@ -99,7 +97,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/camera/xcamera/cover/AbsCover;->b:Landroidx/databinding/ViewDataBinding;
 
     if-nez v0, :cond_0
@@ -128,7 +125,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/camera/xcamera/cover/AbsCover;->b:Landroidx/databinding/ViewDataBinding;
 
     return-void
@@ -145,10 +141,8 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-super {p0, p1}, Lcom/commsource/camera/xcamera/cover/AbsBaseCover;->b(Lcom/commsource/camera/xcamera/cover/CoverGroup;)V
 
-    .line 2
     iget-object v0, p0, Lcom/commsource/camera/xcamera/cover/AbsCover;->b:Landroidx/databinding/ViewDataBinding;
 
     const-string v1, "mViewBinding"
@@ -176,7 +170,6 @@
 
     if-eqz v0, :cond_2
 
-    .line 3
     iget-object v0, p0, Lcom/commsource/camera/xcamera/cover/AbsCover;->b:Landroidx/databinding/ViewDataBinding;
 
     if-nez v0, :cond_1
@@ -205,10 +198,8 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-super {p0, p1}, Lcom/commsource/camera/xcamera/cover/AbsBaseCover;->f(Lcom/commsource/camera/xcamera/cover/CoverGroup;)V
 
-    .line 2
     invoke-direct {p0, p1}, Lcom/commsource/camera/xcamera/cover/AbsCover;->z(Landroid/view/ViewGroup;)Landroidx/databinding/ViewDataBinding;
 
     move-result-object p1
@@ -219,7 +210,6 @@
 
     if-nez p1, :cond_0
 
-    .line 3
     invoke-static {v0}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
@@ -237,7 +227,6 @@
 
     if-nez p1, :cond_2
 
-    .line 4
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/AbsBaseCover;->c()Lcom/commsource/camera/xcamera/cover/CoverGroup;
 
     move-result-object p1
@@ -257,7 +246,6 @@
 
     invoke-virtual {p1, v0, v1, v1}, Landroid/widget/FrameLayout;->addView(Landroid/view/View;II)V
 
-    .line 5
     :cond_2
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/AbsBaseCover;->v()V
 
@@ -267,7 +255,6 @@
 .method public o()V
     .locals 0
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/AbsBaseCover;->x()V
 
     return-void

@@ -31,7 +31,6 @@
 .method constructor <init>(Lcom/bumptech/glide/integration/webp/decoder/i;I)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/bumptech/glide/integration/webp/decoder/i$a;->a:Lcom/bumptech/glide/integration/webp/decoder/i;
 
     invoke-direct {p0, p2}, Landroid/util/LruCache;-><init>(I)V
@@ -46,7 +45,6 @@
 
     if-eqz p3, :cond_0
 
-    .line 1
     iget-object p1, p0, Lcom/bumptech/glide/integration/webp/decoder/i$a;->a:Lcom/bumptech/glide/integration/webp/decoder/i;
 
     invoke-static {p1}, Lcom/bumptech/glide/integration/webp/decoder/i;->a(Lcom/bumptech/glide/integration/webp/decoder/i;)Lcom/bumptech/glide/n/a$a;
@@ -62,7 +60,6 @@
 .method protected bridge synthetic entryRemoved(ZLjava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)V
     .locals 0
 
-    .line 1
     check-cast p2, Ljava/lang/Integer;
 
     check-cast p3, Landroid/graphics/Bitmap;

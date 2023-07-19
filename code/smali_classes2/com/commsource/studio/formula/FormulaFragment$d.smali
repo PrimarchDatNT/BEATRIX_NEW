@@ -54,7 +54,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p2, Lcom/commsource/studio/formula/FormulaCategory;
 
     invoke-virtual {p0, p1, p2}, Lcom/commsource/studio/formula/FormulaFragment$d;->b(ILcom/commsource/studio/formula/FormulaCategory;)Z
@@ -73,7 +72,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/formula/FormulaFragment$d;->a:Lcom/commsource/studio/formula/FormulaFragment;
 
     invoke-static {v1}, Lcom/commsource/studio/formula/FormulaFragment;->Z(Lcom/commsource/studio/formula/FormulaFragment;)Lcom/commsource/widget/h1/e;
@@ -106,7 +104,6 @@
 
     if-eqz v1, :cond_6
 
-    .line 2
     :cond_0
     iget-object v1, p0, Lcom/commsource/studio/formula/FormulaFragment$d;->a:Lcom/commsource/studio/formula/FormulaFragment;
 
@@ -131,7 +128,6 @@
 
     if-eqz v1, :cond_2
 
-    .line 3
     invoke-virtual {v1}, Lcom/commsource/studio/formula/FormulaCategory;->getCategoryId()Ljava/lang/String;
 
     move-result-object v5
@@ -145,7 +141,6 @@
 
     if-eqz v1, :cond_4
 
-    .line 4
     invoke-virtual {p2}, Lcom/commsource/studio/formula/FormulaCategory;->getCategoryId()Ljava/lang/String;
 
     move-result-object p2
@@ -156,7 +151,6 @@
 
     if-eqz p2, :cond_3
 
-    .line 5
     iget-object p1, p0, Lcom/commsource/studio/formula/FormulaFragment$d;->a:Lcom/commsource/studio/formula/FormulaFragment;
 
     invoke-static {p1}, Lcom/commsource/studio/formula/FormulaFragment;->Y(Lcom/commsource/studio/formula/FormulaFragment;)Lcom/commsource/beautyplus/f0/m8;
@@ -169,13 +163,11 @@
 
     goto :goto_0
 
-    .line 6
     :cond_3
     iget-object p2, p0, Lcom/commsource/studio/formula/FormulaFragment$d;->a:Lcom/commsource/studio/formula/FormulaFragment;
 
     invoke-static {p2, p1}, Lcom/commsource/studio/formula/FormulaFragment;->f0(Lcom/commsource/studio/formula/FormulaFragment;I)V
 
-    .line 7
     iget-object p2, p0, Lcom/commsource/studio/formula/FormulaFragment$d;->a:Lcom/commsource/studio/formula/FormulaFragment;
 
     invoke-static {p2}, Lcom/commsource/studio/formula/FormulaFragment;->X(Lcom/commsource/studio/formula/FormulaFragment;)Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/FastCenterScrollLayoutManager;
@@ -184,7 +176,6 @@
 
     invoke-virtual {p2, v4}, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/FastCenterScrollLayoutManager;->f(I)V
 
-    .line 8
     iget-object p2, p0, Lcom/commsource/studio/formula/FormulaFragment$d;->a:Lcom/commsource/studio/formula/FormulaFragment;
 
     invoke-static {p2}, Lcom/commsource/studio/formula/FormulaFragment;->b0(Lcom/commsource/studio/formula/FormulaFragment;)Lcom/commsource/studio/formula/FormulaViewModel;
@@ -205,7 +196,6 @@
 
     goto :goto_0
 
-    .line 9
     :cond_4
     invoke-virtual {p2}, Lcom/commsource/studio/formula/FormulaCategory;->getCategoryId()Ljava/lang/String;
 
@@ -217,14 +207,12 @@
 
     if-eqz p2, :cond_5
 
-    .line 10
     iget-object p1, p0, Lcom/commsource/studio/formula/FormulaFragment$d;->a:Lcom/commsource/studio/formula/FormulaFragment;
 
     invoke-static {p1, v4}, Lcom/commsource/studio/formula/FormulaFragment;->f0(Lcom/commsource/studio/formula/FormulaFragment;I)V
 
     goto :goto_0
 
-    .line 11
     :cond_5
     iget-object p2, p0, Lcom/commsource/studio/formula/FormulaFragment$d;->a:Lcom/commsource/studio/formula/FormulaFragment;
 
@@ -234,7 +222,6 @@
 
     invoke-virtual {p2, v4}, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/FastCenterScrollLayoutManager;->f(I)V
 
-    .line 12
     iget-object p2, p0, Lcom/commsource/studio/formula/FormulaFragment$d;->a:Lcom/commsource/studio/formula/FormulaFragment;
 
     invoke-static {p2}, Lcom/commsource/studio/formula/FormulaFragment;->b0(Lcom/commsource/studio/formula/FormulaFragment;)Lcom/commsource/studio/formula/FormulaViewModel;
@@ -251,7 +238,6 @@
 
     invoke-virtual {p2, v1}, Landroidx/lifecycle/MutableLiveData;->setValue(Ljava/lang/Object;)V
 
-    .line 13
     iget-object p2, p0, Lcom/commsource/studio/formula/FormulaFragment$d;->a:Lcom/commsource/studio/formula/FormulaFragment;
 
     invoke-static {p2}, Lcom/commsource/studio/formula/FormulaFragment;->b0(Lcom/commsource/studio/formula/FormulaFragment;)Lcom/commsource/studio/formula/FormulaViewModel;
@@ -270,7 +256,6 @@
 
     invoke-virtual {p2, p1, v1}, Lcom/commsource/studio/formula/FormulaViewModel;->Y(II)V
 
-    .line 14
     :cond_6
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

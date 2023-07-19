@@ -22,7 +22,6 @@
 .method public constructor <init>(Lcom/meitu/mtuploader/MtUploadService;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/mtuploader/MtUploadService$d;->a:Lcom/meitu/mtuploader/MtUploadService;
 
     invoke-direct {p0}, Landroid/os/Binder;-><init>()V
@@ -39,7 +38,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/mtuploader/MtUploadService$d;->a:Lcom/meitu/mtuploader/MtUploadService;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

@@ -48,7 +48,6 @@
 .method static constructor <clinit>()V
     .locals 16
 
-    .line 1
     new-instance v0, Lcom/meitu/core/processor/MteAfterTakeBeautyAR$ARStretchType;
 
     const-string v1, "stretchFace_2195_beautyplus"
@@ -61,7 +60,6 @@
 
     sput-object v0, Lcom/meitu/core/processor/MteAfterTakeBeautyAR$ARStretchType;->stretchFace_2195_beautyplus:Lcom/meitu/core/processor/MteAfterTakeBeautyAR$ARStretchType;
 
-    .line 2
     new-instance v1, Lcom/meitu/core/processor/MteAfterTakeBeautyAR$ARStretchType;
 
     const-string v3, "stretchFace_2195_myxj"
@@ -74,7 +72,6 @@
 
     sput-object v1, Lcom/meitu/core/processor/MteAfterTakeBeautyAR$ARStretchType;->stretchFace_2195_myxj:Lcom/meitu/core/processor/MteAfterTakeBeautyAR$ARStretchType;
 
-    .line 3
     new-instance v3, Lcom/meitu/core/processor/MteAfterTakeBeautyAR$ARStretchType;
 
     const-string v6, "scaleAlaNasi_2101_beautyplus"
@@ -87,7 +84,6 @@
 
     sput-object v3, Lcom/meitu/core/processor/MteAfterTakeBeautyAR$ARStretchType;->scaleAlaNasi_2101_beautyplus:Lcom/meitu/core/processor/MteAfterTakeBeautyAR$ARStretchType;
 
-    .line 4
     new-instance v6, Lcom/meitu/core/processor/MteAfterTakeBeautyAR$ARStretchType;
 
     const-string v8, "scaleAlaNasi_2101_myxj"
@@ -100,7 +96,6 @@
 
     sput-object v6, Lcom/meitu/core/processor/MteAfterTakeBeautyAR$ARStretchType;->scaleAlaNasi_2101_myxj:Lcom/meitu/core/processor/MteAfterTakeBeautyAR$ARStretchType;
 
-    .line 5
     new-instance v8, Lcom/meitu/core/processor/MteAfterTakeBeautyAR$ARStretchType;
 
     const-string v10, "stretchJaw_2195_beautyplus"
@@ -111,7 +106,6 @@
 
     sput-object v8, Lcom/meitu/core/processor/MteAfterTakeBeautyAR$ARStretchType;->stretchJaw_2195_beautyplus:Lcom/meitu/core/processor/MteAfterTakeBeautyAR$ARStretchType;
 
-    .line 6
     new-instance v5, Lcom/meitu/core/processor/MteAfterTakeBeautyAR$ARStretchType;
 
     const-string v10, "stretchJaw_2199_myxj"
@@ -124,7 +118,6 @@
 
     sput-object v5, Lcom/meitu/core/processor/MteAfterTakeBeautyAR$ARStretchType;->stretchJaw_2199_myxj:Lcom/meitu/core/processor/MteAfterTakeBeautyAR$ARStretchType;
 
-    .line 7
     new-instance v10, Lcom/meitu/core/processor/MteAfterTakeBeautyAR$ARStretchType;
 
     const-string v13, "controlEyes_2108_beautyplus"
@@ -155,7 +148,6 @@
 
     aput-object v10, v13, v14
 
-    .line 8
     sput-object v13, Lcom/meitu/core/processor/MteAfterTakeBeautyAR$ARStretchType;->$VALUES:[Lcom/meitu/core/processor/MteAfterTakeBeautyAR$ARStretchType;
 
     return-void
@@ -169,10 +161,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 2
     iput p3, p0, Lcom/meitu/core/processor/MteAfterTakeBeautyAR$ARStretchType;->id:I
 
     return-void
@@ -181,7 +171,6 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/meitu/core/processor/MteAfterTakeBeautyAR$ARStretchType;
     .locals 1
 
-    .line 1
     const-class v0, Lcom/meitu/core/processor/MteAfterTakeBeautyAR$ARStretchType;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -196,7 +185,6 @@
 .method public static values()[Lcom/meitu/core/processor/MteAfterTakeBeautyAR$ARStretchType;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/meitu/core/processor/MteAfterTakeBeautyAR$ARStretchType;->$VALUES:[Lcom/meitu/core/processor/MteAfterTakeBeautyAR$ARStretchType;
 
     invoke-virtual {v0}, [Lcom/meitu/core/processor/MteAfterTakeBeautyAR$ARStretchType;->clone()Ljava/lang/Object;

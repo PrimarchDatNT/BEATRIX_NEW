@@ -27,10 +27,8 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-direct {p0, v0}, Landroid/os/ResultReceiver;-><init>(Landroid/os/Handler;)V
 
-    .line 2
     iput-object p1, p0, Lcom/kwai/koom/javaoom/analysis/IPCReceiver;->a:Lcom/kwai/koom/javaoom/analysis/IPCReceiver$a;
 
     return-void
@@ -41,10 +39,8 @@
 .method protected onReceiveResult(ILandroid/os/Bundle;)V
     .locals 1
 
-    .line 1
     invoke-super {p0, p1, p2}, Landroid/os/ResultReceiver;->onReceiveResult(ILandroid/os/Bundle;)V
 
-    .line 2
     iget-object p2, p0, Lcom/kwai/koom/javaoom/analysis/IPCReceiver;->a:Lcom/kwai/koom/javaoom/analysis/IPCReceiver$a;
 
     if-eqz p2, :cond_1
@@ -53,12 +49,10 @@
 
     if-ne p1, v0, :cond_0
 
-    .line 3
     invoke-interface {p2}, Lcom/kwai/koom/javaoom/analysis/IPCReceiver$a;->onSuccess()V
 
     goto :goto_0
 
-    .line 4
     :cond_0
     invoke-interface {p2}, Lcom/kwai/koom/javaoom/analysis/IPCReceiver$a;->onError()V
 

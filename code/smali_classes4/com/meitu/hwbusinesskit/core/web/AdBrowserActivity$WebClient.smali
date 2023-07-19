@@ -22,7 +22,6 @@
 .method private constructor <init>(Lcom/meitu/hwbusinesskit/core/web/AdBrowserActivity;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/hwbusinesskit/core/web/AdBrowserActivity$WebClient;->this$0:Lcom/meitu/hwbusinesskit/core/web/AdBrowserActivity;
 
     invoke-direct {p0}, Lcom/meitu/webview/core/f;-><init>()V
@@ -33,7 +32,6 @@
 .method synthetic constructor <init>(Lcom/meitu/hwbusinesskit/core/web/AdBrowserActivity;Lcom/meitu/hwbusinesskit/core/web/AdBrowserActivity$1;)V
     .locals 0
 
-    .line 2
     invoke-direct {p0, p1}, Lcom/meitu/hwbusinesskit/core/web/AdBrowserActivity$WebClient;-><init>(Lcom/meitu/hwbusinesskit/core/web/AdBrowserActivity;)V
 
     return-void
@@ -48,10 +46,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0, p1, p2}, Lcom/meitu/webview/core/f;->onPageFinished(Landroid/webkit/WebView;Ljava/lang/String;)V
 
-    .line 2
     iget-object p1, p0, Lcom/meitu/hwbusinesskit/core/web/AdBrowserActivity$WebClient;->this$0:Lcom/meitu/hwbusinesskit/core/web/AdBrowserActivity;
 
     invoke-static {p1}, Lcom/meitu/hwbusinesskit/core/web/AdBrowserActivity;->access$100(Lcom/meitu/hwbusinesskit/core/web/AdBrowserActivity;)Landroid/widget/ProgressBar;
@@ -62,7 +58,6 @@
 
     invoke-virtual {p1, p2}, Landroid/widget/ProgressBar;->setVisibility(I)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -75,10 +70,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0, p1, p2, p3}, Lcom/meitu/webview/core/f;->onPageStarted(Landroid/webkit/WebView;Ljava/lang/String;Landroid/graphics/Bitmap;)V
 
-    .line 2
     iget-object p1, p0, Lcom/meitu/hwbusinesskit/core/web/AdBrowserActivity$WebClient;->this$0:Lcom/meitu/hwbusinesskit/core/web/AdBrowserActivity;
 
     invoke-static {p1}, Lcom/meitu/hwbusinesskit/core/web/AdBrowserActivity;->access$100(Lcom/meitu/hwbusinesskit/core/web/AdBrowserActivity;)Landroid/widget/ProgressBar;
@@ -89,7 +82,6 @@
 
     invoke-virtual {p1, p2}, Landroid/widget/ProgressBar;->setVisibility(I)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -102,12 +94,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p2}, Landroid/net/Uri;->parse(Ljava/lang/String;)Landroid/net/Uri;
 
     move-result-object v1
 
-    .line 2
     invoke-virtual {v1}, Landroid/net/Uri;->getScheme()Ljava/lang/String;
 
     move-result-object v2
@@ -120,7 +110,6 @@
 
     if-eqz v2, :cond_1
 
-    .line 3
     invoke-virtual {v1}, Landroid/net/Uri;->getHost()Ljava/lang/String;
 
     move-result-object p1
@@ -133,7 +122,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 4
     iget-object p1, p0, Lcom/meitu/hwbusinesskit/core/web/AdBrowserActivity$WebClient;->this$0:Lcom/meitu/hwbusinesskit/core/web/AdBrowserActivity;
 
     invoke-virtual {p1}, Lcom/meitu/hwbusinesskit/core/web/AdBrowserActivity;->finish()V
@@ -141,12 +129,10 @@
     :cond_0
     const/4 p1, 0x1
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
 
-    .line 6
     :cond_1
     invoke-super {p0, p1, p2}, Lcom/meitu/webview/core/f;->shouldOverrideUrlLoading(Landroid/webkit/WebView;Ljava/lang/String;)Z
 

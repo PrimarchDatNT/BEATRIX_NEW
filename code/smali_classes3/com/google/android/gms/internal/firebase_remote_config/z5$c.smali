@@ -42,10 +42,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Lcom/google/android/gms/internal/firebase_remote_config/l4;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/google/android/gms/internal/firebase_remote_config/z5$c;->b:Lcom/google/android/gms/internal/firebase_remote_config/z5;
 
     return-void

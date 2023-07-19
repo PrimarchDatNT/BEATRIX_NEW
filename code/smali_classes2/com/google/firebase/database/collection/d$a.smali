@@ -30,7 +30,6 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
     invoke-static {}, Lcom/google/firebase/database/collection/c;->b()Lcom/google/firebase/database/collection/d$a$a;
 
     move-result-object v0
@@ -43,7 +42,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -73,7 +71,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-interface {p0}, Ljava/util/List;->size()I
 
     move-result v0
@@ -82,14 +79,12 @@
 
     if-ge v0, v1, :cond_0
 
-    .line 2
     invoke-static {p0, p1, p2, p3}, Lcom/google/firebase/database/collection/a;->z(Ljava/util/List;Ljava/util/Map;Lcom/google/firebase/database/collection/d$a$a;Ljava/util/Comparator;)Lcom/google/firebase/database/collection/a;
 
     move-result-object p0
 
     return-object p0
 
-    .line 3
     :cond_0
     invoke-static {p0, p1, p2, p3}, Lcom/google/firebase/database/collection/l;->u(Ljava/util/List;Ljava/util/Map;Lcom/google/firebase/database/collection/d$a$a;Ljava/util/Comparator;)Lcom/google/firebase/database/collection/l;
 
@@ -114,7 +109,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/google/firebase/database/collection/a;
 
     invoke-direct {v0, p0}, Lcom/google/firebase/database/collection/a;-><init>(Ljava/util/Comparator;)V
@@ -140,7 +134,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-interface {p0}, Ljava/util/Map;->size()I
 
     move-result v0
@@ -149,14 +142,12 @@
 
     if-ge v0, v1, :cond_0
 
-    .line 2
     invoke-static {p0, p1}, Lcom/google/firebase/database/collection/a;->M(Ljava/util/Map;Ljava/util/Comparator;)Lcom/google/firebase/database/collection/a;
 
     move-result-object p0
 
     return-object p0
 
-    .line 3
     :cond_0
     invoke-static {p0, p1}, Lcom/google/firebase/database/collection/l;->v(Ljava/util/Map;Ljava/util/Comparator;)Lcom/google/firebase/database/collection/l;
 
@@ -177,7 +168,6 @@
         }
     .end annotation
 
-    .line 1
     sget-object v0, Lcom/google/firebase/database/collection/d$a;->b:Lcom/google/firebase/database/collection/d$a$a;
 
     return-object v0

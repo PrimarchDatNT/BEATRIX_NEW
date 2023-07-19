@@ -28,13 +28,10 @@
 .method public constructor <init>(Lcom/bumptech/glide/load/l/e/e;Lcom/bumptech/glide/load/engine/bitmap_recycle/e;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/bumptech/glide/load/resource/bitmap/y;->a:Lcom/bumptech/glide/load/l/e/e;
 
-    .line 3
     iput-object p2, p0, Lcom/bumptech/glide/load/resource/bitmap/y;->b:Lcom/bumptech/glide/load/engine/bitmap_recycle/e;
 
     return-void
@@ -58,7 +55,6 @@
         }
     .end annotation
 
-    .line 1
     check-cast p1, Landroid/net/Uri;
 
     invoke-virtual {p0, p1, p2}, Lcom/bumptech/glide/load/resource/bitmap/y;->d(Landroid/net/Uri;Lcom/bumptech/glide/load/f;)Z
@@ -87,7 +83,6 @@
         }
     .end annotation
 
-    .line 1
     check-cast p1, Landroid/net/Uri;
 
     invoke-virtual {p0, p1, p2, p3, p4}, Lcom/bumptech/glide/load/resource/bitmap/y;->c(Landroid/net/Uri;IILcom/bumptech/glide/load/f;)Lcom/bumptech/glide/load/engine/s;
@@ -123,7 +118,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/bumptech/glide/load/resource/bitmap/y;->a:Lcom/bumptech/glide/load/l/e/e;
 
     invoke-virtual {v0, p1, p2, p3, p4}, Lcom/bumptech/glide/load/l/e/e;->c(Landroid/net/Uri;IILcom/bumptech/glide/load/f;)Lcom/bumptech/glide/load/engine/s;
@@ -136,7 +130,6 @@
 
     return-object p1
 
-    .line 2
     :cond_0
     invoke-interface {p1}, Lcom/bumptech/glide/load/engine/s;->get()Ljava/lang/Object;
 
@@ -144,7 +137,6 @@
 
     check-cast p1, Landroid/graphics/drawable/Drawable;
 
-    .line 3
     iget-object p4, p0, Lcom/bumptech/glide/load/resource/bitmap/y;->b:Lcom/bumptech/glide/load/engine/bitmap_recycle/e;
 
     invoke-static {p4, p1, p2, p3}, Lcom/bumptech/glide/load/resource/bitmap/q;->a(Lcom/bumptech/glide/load/engine/bitmap_recycle/e;Landroid/graphics/drawable/Drawable;II)Lcom/bumptech/glide/load/engine/s;
@@ -165,7 +157,6 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-virtual {p1}, Landroid/net/Uri;->getScheme()Ljava/lang/String;
 
     move-result-object p1

@@ -22,10 +22,8 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     new-instance v0, Landroid/graphics/Rect;
 
     invoke-direct {v0}, Landroid/graphics/Rect;-><init>()V
@@ -40,7 +38,6 @@
 .method public hasRequiredTimeElapsed(JI)Z
     .locals 2
 
-    .line 1
     invoke-static {}, Landroid/os/SystemClock;->uptimeMillis()J
 
     move-result-wide v0
@@ -83,7 +80,6 @@
 
     if-eqz p2, :cond_5
 
-    .line 1
     invoke-virtual {p2}, Landroid/view/View;->getVisibility()I
 
     move-result v1
@@ -98,7 +94,6 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     iget-object p1, p0, Lcom/mopub/common/VisibilityTracker$VisibilityChecker;->mClipRect:Landroid/graphics/Rect;
 
@@ -110,7 +105,6 @@
 
     return v0
 
-    .line 3
     :cond_1
     iget-object p1, p0, Lcom/mopub/common/VisibilityTracker$VisibilityChecker;->mClipRect:Landroid/graphics/Rect;
 
@@ -130,7 +124,6 @@
 
     mul-long v1, v1, v3
 
-    .line 4
     invoke-virtual {p2}, Landroid/view/View;->getHeight()I
 
     move-result p1
@@ -158,14 +151,12 @@
 
     if-eqz p4, :cond_4
 
-    .line 5
     invoke-virtual {p4}, Ljava/lang/Integer;->intValue()I
 
     move-result p2
 
     if-lez p2, :cond_4
 
-    .line 6
     invoke-virtual {p4}, Ljava/lang/Integer;->intValue()I
 
     move-result p2

@@ -28,7 +28,6 @@
 
     move-object v6, p5
 
-    .line 1
     invoke-direct/range {v0 .. v6}, Ln/a/b/c/c;-><init>(ILjava/lang/String;Ljava/lang/Class;[Ljava/lang/Class;[Ljava/lang/String;[Ljava/lang/Class;)V
 
     return-void
@@ -37,7 +36,6 @@
 .method constructor <init>(Ljava/lang/String;)V
     .locals 0
 
-    .line 2
     invoke-direct {p0, p1}, Ln/a/b/c/c;-><init>(Ljava/lang/String;)V
 
     return-void
@@ -48,12 +46,10 @@
 .method public g()Ljava/lang/reflect/Constructor;
     .locals 2
 
-    .line 1
     iget-object v0, p0, Ln/a/b/c/d;->p:Ljava/lang/reflect/Constructor;
 
     if-nez v0, :cond_0
 
-    .line 2
     :try_start_0
     invoke-virtual {p0}, Ln/a/b/c/l;->a()Ljava/lang/Class;
 
@@ -71,7 +67,6 @@
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
-    .line 3
     :catch_0
     :cond_0
     iget-object v0, p0, Ln/a/b/c/d;->p:Ljava/lang/reflect/Constructor;
@@ -90,12 +85,10 @@
 .method protected q(Ln/a/b/c/n;)Ljava/lang/String;
     .locals 3
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuffer;
 
     invoke-direct {v0}, Ljava/lang/StringBuffer;-><init>()V
 
-    .line 2
     invoke-virtual {p0}, Ln/a/b/c/l;->getModifiers()I
 
     move-result v1
@@ -106,7 +99,6 @@
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuffer;->append(Ljava/lang/String;)Ljava/lang/StringBuffer;
 
-    .line 3
     invoke-virtual {p0}, Ln/a/b/c/l;->a()Ljava/lang/Class;
 
     move-result-object v1
@@ -121,21 +113,18 @@
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuffer;->append(Ljava/lang/String;)Ljava/lang/StringBuffer;
 
-    .line 4
     invoke-virtual {p0}, Ln/a/b/c/c;->c()[Ljava/lang/Class;
 
     move-result-object v1
 
     invoke-virtual {p1, v0, v1}, Ln/a/b/c/n;->a(Ljava/lang/StringBuffer;[Ljava/lang/Class;)V
 
-    .line 5
     invoke-virtual {p0}, Ln/a/b/c/c;->d()[Ljava/lang/Class;
 
     move-result-object v1
 
     invoke-virtual {p1, v0, v1}, Ln/a/b/c/n;->b(Ljava/lang/StringBuffer;[Ljava/lang/Class;)V
 
-    .line 6
     invoke-virtual {v0}, Ljava/lang/StringBuffer;->toString()Ljava/lang/String;
 
     move-result-object p1

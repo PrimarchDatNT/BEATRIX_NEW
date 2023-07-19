@@ -53,7 +53,6 @@
 .method public bridge synthetic invoke()Ljava/lang/Object;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lkshark/HeapAnalyzer$updateTrie$childNode$1;->invoke()Lkshark/HeapAnalyzer$b$b;
 
     move-result-object v0
@@ -66,14 +65,12 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 2
     new-instance v0, Lkshark/HeapAnalyzer$b$b;
 
     iget-wide v1, p0, Lkshark/HeapAnalyzer$updateTrie$childNode$1;->$objectId:J
 
     invoke-direct {v0, v1, v2}, Lkshark/HeapAnalyzer$b$b;-><init>(J)V
 
-    .line 3
     iget-object v1, p0, Lkshark/HeapAnalyzer$updateTrie$childNode$1;->$parentNode:Lkshark/HeapAnalyzer$b$b;
 
     invoke-virtual {v1}, Lkshark/HeapAnalyzer$b$b;->b()Ljava/util/Map;

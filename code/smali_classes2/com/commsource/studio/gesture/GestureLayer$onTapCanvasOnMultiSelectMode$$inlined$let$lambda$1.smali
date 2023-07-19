@@ -62,7 +62,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Lcom/commsource/studio/bean/FocusLayerInfo;
 
     invoke-virtual {p0, p1}, Lcom/commsource/studio/gesture/GestureLayer$onTapCanvasOnMultiSelectMode$$inlined$let$lambda$1;->invoke(Lcom/commsource/studio/bean/FocusLayerInfo;)V
@@ -87,7 +86,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/gesture/GestureLayer$onTapCanvasOnMultiSelectMode$$inlined$let$lambda$1;->this$0:Lcom/commsource/studio/gesture/GestureLayer;
 
     invoke-virtual {v1}, Lcom/commsource/studio/layer/BaseLayer;->G()Lcom/commsource/studio/ImageStudioViewModel;
@@ -102,7 +100,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_0
     iget-object p1, p0, Lcom/commsource/studio/gesture/GestureLayer$onTapCanvasOnMultiSelectMode$$inlined$let$lambda$1;->$it:Lcom/commsource/studio/bean/GroupLayerInfo;
 
@@ -114,7 +111,6 @@
 
     if-nez p1, :cond_1
 
-    .line 4
     iget-object p1, p0, Lcom/commsource/studio/gesture/GestureLayer$onTapCanvasOnMultiSelectMode$$inlined$let$lambda$1;->this$0:Lcom/commsource/studio/gesture/GestureLayer;
 
     invoke-virtual {p1}, Lcom/commsource/studio/layer/BaseLayer;->G()Lcom/commsource/studio/ImageStudioViewModel;
@@ -127,7 +123,6 @@
 
     invoke-virtual {p1}, Lcom/commsource/studio/bean/a;->o()V
 
-    .line 5
     :cond_1
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

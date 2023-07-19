@@ -57,7 +57,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/editengine/GLEraserRender$addObserver$$inlined$apply$lambda$1$1;->invoke()V
 
     sget-object v1, Lcotlin/t1;->a:Lcotlin/t1;
@@ -74,7 +73,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/editengine/GLEraserRender$addObserver$$inlined$apply$lambda$1$1;->this$0:Lcom/commsource/editengine/GLEraserRender$addObserver$$inlined$apply$lambda$1;
 
     iget-object v1, v1, Lcom/commsource/editengine/GLEraserRender$addObserver$$inlined$apply$lambda$1;->c:Lcom/commsource/editengine/GLEraserRender;
@@ -89,7 +87,6 @@
 
     invoke-static {v1}, Lcom/commsource/easyeditor/utils/opengl/n;->a(Lcom/commsource/easyeditor/utils/opengl/f;)V
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/editengine/GLEraserRender$addObserver$$inlined$apply$lambda$1$1;->this$0:Lcom/commsource/editengine/GLEraserRender$addObserver$$inlined$apply$lambda$1;
 
     iget-object v1, v1, Lcom/commsource/editengine/GLEraserRender$addObserver$$inlined$apply$lambda$1;->c:Lcom/commsource/editengine/GLEraserRender;
@@ -120,7 +117,6 @@
 
     invoke-virtual {v1, v2, v3}, Lcom/commsource/studio/shader/n;->k(Lcom/commsource/easyeditor/utils/opengl/f;Lcom/commsource/easyeditor/utils/opengl/f;)V
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/editengine/GLEraserRender$addObserver$$inlined$apply$lambda$1$1;->this$0:Lcom/commsource/editengine/GLEraserRender$addObserver$$inlined$apply$lambda$1;
 
     iget-object v1, v1, Lcom/commsource/editengine/GLEraserRender$addObserver$$inlined$apply$lambda$1;->c:Lcom/commsource/editengine/GLEraserRender;
@@ -143,7 +139,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/studio/e0;->l(Ljava/lang/Object;)V
 
-    .line 5
     iget-object v1, p0, Lcom/commsource/editengine/GLEraserRender$addObserver$$inlined$apply$lambda$1$1;->this$0:Lcom/commsource/editengine/GLEraserRender$addObserver$$inlined$apply$lambda$1;
 
     iget-object v1, v1, Lcom/commsource/editengine/GLEraserRender$addObserver$$inlined$apply$lambda$1;->c:Lcom/commsource/editengine/GLEraserRender;
@@ -181,7 +176,6 @@
 
     invoke-virtual {v1, v2, v4}, Lcom/commsource/editengine/node/b;->D(ZLcom/commsource/easyeditor/utils/opengl/f;)V
 
-    .line 6
     :cond_1
     iget-object v1, p0, Lcom/commsource/editengine/GLEraserRender$addObserver$$inlined$apply$lambda$1$1;->this$0:Lcom/commsource/editengine/GLEraserRender$addObserver$$inlined$apply$lambda$1;
 
@@ -216,7 +210,6 @@
 
     invoke-virtual {v1, v2, v4}, Lcom/commsource/editengine/node/b;->B(ZLcom/commsource/easyeditor/utils/opengl/f;)V
 
-    .line 7
     :cond_3
     iget-object v1, p0, Lcom/commsource/editengine/GLEraserRender$addObserver$$inlined$apply$lambda$1$1;->this$0:Lcom/commsource/editengine/GLEraserRender$addObserver$$inlined$apply$lambda$1;
 
@@ -234,7 +227,6 @@
 
     invoke-static {v1, v5, v5, v4, v3}, Lcom/commsource/studio/component/UndoRedoComponent$c;->I(Lcom/commsource/studio/component/UndoRedoComponent$c;ZZILjava/lang/Object;)V
 
-    .line 8
     :cond_4
     iget-object v1, p0, Lcom/commsource/editengine/GLEraserRender$addObserver$$inlined$apply$lambda$1$1;->this$0:Lcom/commsource/editengine/GLEraserRender$addObserver$$inlined$apply$lambda$1;
 
@@ -248,7 +240,6 @@
 
     invoke-static {v1, v2, v3, v4, v3}, Lcom/commsource/editengine/d;->u(Lcom/commsource/editengine/d;ZLcotlin/jvm/u/a;ILjava/lang/Object;)V
 
-    .line 9
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

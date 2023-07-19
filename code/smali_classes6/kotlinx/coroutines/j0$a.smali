@@ -27,7 +27,6 @@
 .method public constructor <init>(Lcotlin/jvm/u/p;Lcotlin/coroutines/CoroutineContext$b;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcotlinx/coroutines/j0$a;->a:Lcotlin/jvm/u/p;
 
     invoke-direct {p0, p2}, Lcotlin/coroutines/a;-><init>(Lcotlin/coroutines/CoroutineContext$b;)V
@@ -48,7 +47,6 @@
         .end annotation
     .end param
 
-    .line 1
     iget-object v0, p0, Lcotlinx/coroutines/j0$a;->a:Lcotlin/jvm/u/p;
 
     invoke-interface {v0, p1, p2}, Lcotlin/jvm/u/p;->invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;

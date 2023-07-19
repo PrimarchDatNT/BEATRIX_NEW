@@ -11,7 +11,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -36,14 +35,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/meitu/library/camera/s/n/d;->h()Z
 
     move-result v1
 
     if-eqz v1, :cond_1
 
-    .line 2
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -74,7 +71,6 @@
 
     invoke-static {v2, v1}, Lcom/meitu/library/camera/s/n/d;->a(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 3
     :cond_1
     new-instance v1, Lcom/meitu/library/camera/s/k/l/i;
 
@@ -94,7 +90,6 @@
 
     const/4 v1, 0x0
 
-    .line 1
     invoke-static {v1, v1}, Lcom/meitu/library/camera/s/k/l/d;->a(Ljava/util/Map;Lcom/meitu/library/camera/s/k/c;)Lcom/meitu/library/camera/s/k/l/i;
 
     move-result-object v1
@@ -120,21 +115,18 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/util/HashMap;
 
     const/16 v2, 0x10
 
     invoke-direct {v1, v2}, Ljava/util/HashMap;-><init>(I)V
 
-    .line 2
     sget-object v2, Ljava/lang/Boolean;->FALSE:Ljava/lang/Boolean;
 
     const-string v3, "camera_arCore_isSuggestOpen_tDef-sDef"
 
     invoke-interface {v1, v3, v2}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 3
     invoke-static {}, Lcom/meitu/library/camera/s/d;->d()Lcom/meitu/library/camera/s/d;
 
     move-result-object v3
@@ -155,62 +147,52 @@
 
     const-string v4, "640-480-0"
 
-    .line 4
     invoke-interface {v1, v3, v4}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v3, "camera_cameraCommon_previewSize_maxSize_tDef-sDef-16-9"
 
     const-string v4, "1920-1080-0"
 
-    .line 5
     invoke-interface {v1, v3, v4}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v3, "camera_cameraCommon_previewSize_maxSize_tDef-sDef-4-3"
 
     const-string v5, "1920-1440-0"
 
-    .line 6
     invoke-interface {v1, v3, v5}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v3, "camera_cameraCommon_previewSize_maxSize_tDef-sDef-1-1"
 
     const-string v5, "1920-1920-0"
 
-    .line 7
     invoke-interface {v1, v3, v5}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v3, "camera_cameraCommon_previewSize_maxSize_tDef-sDef-0-1"
 
-    .line 8
     invoke-interface {v1, v3, v4}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v3, "camera_cameraCommon_pictureSize_preferentialRatio_tDef-sDef-16-9"
 
     const-string v4, "16-9-false"
 
-    .line 9
     invoke-interface {v1, v3, v4}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v3, "camera_cameraCommon_pictureSize_preferentialRatio_tDef-sDef-0-1"
 
     const-string v4, "4-3-false"
 
-    .line 10
     invoke-interface {v1, v3, v4}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v3, "camera_cameraCommon_pictureSize_expectSize_tDef-sDef-0-1"
 
     const-string v4, "2880-2880-3"
 
-    .line 11
     invoke-interface {v1, v3, v4}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v3, "camera_simpleConfig_infoCollectionOpen_tDef-sDef"
 
-    .line 12
     invoke-interface {v1, v3, v2}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 13
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1

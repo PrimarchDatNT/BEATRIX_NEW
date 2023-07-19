@@ -23,7 +23,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/camera/montage/f0;-><init>()V
 
     return-void
@@ -36,7 +35,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/commsource/camera/montage/u;->J(I)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -51,7 +49,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/commsource/camera/montage/u;->K(I)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -66,7 +63,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/commsource/camera/montage/u;->L(I)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -81,7 +77,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/montage/u;->p:Lcom/commsource/beautyplus/f0/ch;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/ch;->a:Lcom/commsource/widget/XSeekBar;
@@ -92,7 +87,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/widget/XSeekBar;->f(Lcom/commsource/widget/XSeekBar$b;)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/camera/montage/u;->p:Lcom/commsource/beautyplus/f0/ch;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/ch;->c:Lcom/commsource/widget/XSeekBar;
@@ -103,7 +97,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/widget/XSeekBar;->f(Lcom/commsource/widget/XSeekBar$b;)V
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/camera/montage/u;->p:Lcom/commsource/beautyplus/f0/ch;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/ch;->f:Lcom/commsource/widget/XSeekBar;
@@ -114,7 +107,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/widget/XSeekBar;->f(Lcom/commsource/widget/XSeekBar$b;)V
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/camera/montage/u;->p:Lcom/commsource/beautyplus/f0/ch;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/ch;->p:Landroid/widget/ImageView;
@@ -127,13 +119,10 @@
 
     const/4 v1, 0x1
 
-    .line 5
     iput-boolean v1, p0, Lcom/commsource/camera/montage/u;->M:Z
 
-    .line 6
     invoke-direct {p0}, Lcom/commsource/camera/montage/u;->O()V
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -146,7 +135,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/commsource/camera/montage/bean/c;->v()Lcom/commsource/camera/montage/bean/c;
 
     move-result-object v1
@@ -157,7 +145,6 @@
 
     iput-object v1, p0, Lcom/commsource/camera/montage/u;->N:Lcom/commsource/camera/montage/bean/MontagePersonalDataBean;
 
-    .line 2
     invoke-virtual {p0}, Lcom/commsource/camera/montage/f0;->u()I
 
     move-result v1
@@ -168,7 +155,6 @@
 
     iput-object v1, p0, Lcom/commsource/camera/montage/u;->L:Lcom/commsource/camera/montage/v$c;
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/camera/montage/u;->p:Lcom/commsource/beautyplus/f0/ch;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/ch;->b:Landroidx/constraintlayout/widget/ConstraintLayout;
@@ -177,14 +163,12 @@
 
     invoke-virtual {v1, v2}, Landroid/view/ViewGroup;->setVisibility(I)V
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/camera/montage/u;->p:Lcom/commsource/beautyplus/f0/ch;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/ch;->d:Landroidx/constraintlayout/widget/ConstraintLayout;
 
     invoke-virtual {v1, v2}, Landroid/view/ViewGroup;->setVisibility(I)V
 
-    .line 5
     iget-object v1, p0, Lcom/commsource/camera/montage/u;->p:Lcom/commsource/beautyplus/f0/ch;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/ch;->L:Landroid/widget/TextView;
@@ -195,7 +179,6 @@
 
     invoke-virtual {v1, v3}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 6
     iget-object v1, p0, Lcom/commsource/camera/montage/u;->p:Lcom/commsource/beautyplus/f0/ch;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/ch;->N:Landroid/widget/TextView;
@@ -206,7 +189,6 @@
 
     invoke-virtual {v1, v3}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 7
     iget-object v1, p0, Lcom/commsource/camera/montage/u;->p:Lcom/commsource/beautyplus/f0/ch;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/ch;->a:Lcom/commsource/widget/XSeekBar;
@@ -219,7 +201,6 @@
 
     invoke-virtual {v1, v3}, Lcom/commsource/widget/XSeekBar;->setMinProgress(I)V
 
-    .line 8
     iget-object v1, p0, Lcom/commsource/camera/montage/u;->p:Lcom/commsource/beautyplus/f0/ch;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/ch;->a:Lcom/commsource/widget/XSeekBar;
@@ -234,7 +215,6 @@
 
     invoke-virtual {v1, v3}, Lcom/commsource/widget/XSeekBar;->setMaxProgress(I)V
 
-    .line 9
     iget-object v1, p0, Lcom/commsource/camera/montage/u;->p:Lcom/commsource/beautyplus/f0/ch;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/ch;->c:Lcom/commsource/widget/XSeekBar;
@@ -247,7 +227,6 @@
 
     invoke-virtual {v1, v3}, Lcom/commsource/widget/XSeekBar;->setMinProgress(I)V
 
-    .line 10
     iget-object v1, p0, Lcom/commsource/camera/montage/u;->p:Lcom/commsource/beautyplus/f0/ch;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/ch;->c:Lcom/commsource/widget/XSeekBar;
@@ -260,14 +239,12 @@
 
     invoke-virtual {v1, v3}, Lcom/commsource/widget/XSeekBar;->setMaxProgress(I)V
 
-    .line 11
     iget-object v1, p0, Lcom/commsource/camera/montage/u;->p:Lcom/commsource/beautyplus/f0/ch;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/ch;->a:Lcom/commsource/widget/XSeekBar;
 
     invoke-virtual {v1, v4}, Lcom/commsource/widget/XSeekBar;->setEnableCenterPoint(Z)V
 
-    .line 12
     iget-object v1, p0, Lcom/commsource/camera/montage/u;->p:Lcom/commsource/beautyplus/f0/ch;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/ch;->a:Lcom/commsource/widget/XSeekBar;
@@ -276,21 +253,18 @@
 
     invoke-virtual {v1, v3}, Lcom/commsource/widget/XSeekBar;->setCenterPointPercent(F)V
 
-    .line 13
     iget-object v1, p0, Lcom/commsource/camera/montage/u;->p:Lcom/commsource/beautyplus/f0/ch;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/ch;->c:Lcom/commsource/widget/XSeekBar;
 
     invoke-virtual {v1, v4}, Lcom/commsource/widget/XSeekBar;->setEnableCenterPoint(Z)V
 
-    .line 14
     iget-object v1, p0, Lcom/commsource/camera/montage/u;->p:Lcom/commsource/beautyplus/f0/ch;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/ch;->c:Lcom/commsource/widget/XSeekBar;
 
     invoke-virtual {v1, v3}, Lcom/commsource/widget/XSeekBar;->setCenterPointPercent(F)V
 
-    .line 15
     iget-object v1, p0, Lcom/commsource/camera/montage/u;->p:Lcom/commsource/beautyplus/f0/ch;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/ch;->a:Lcom/commsource/widget/XSeekBar;
@@ -309,7 +283,6 @@
 
     invoke-virtual {v1, v6}, Lcom/commsource/widget/XSeekBar;->setProgress(I)V
 
-    .line 16
     iget-object v1, p0, Lcom/commsource/camera/montage/u;->p:Lcom/commsource/beautyplus/f0/ch;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/ch;->c:Lcom/commsource/widget/XSeekBar;
@@ -328,7 +301,6 @@
 
     invoke-virtual {v1, v6}, Lcom/commsource/widget/XSeekBar;->setProgress(I)V
 
-    .line 17
     invoke-virtual {p0}, Lcom/commsource/camera/montage/f0;->u()I
 
     move-result v1
@@ -337,7 +309,6 @@
 
     if-eq v1, v5, :cond_1
 
-    .line 18
     invoke-virtual {p0}, Lcom/commsource/camera/montage/f0;->u()I
 
     move-result v1
@@ -348,7 +319,6 @@
 
     goto :goto_0
 
-    .line 19
     :cond_0
     iget-object v1, p0, Lcom/commsource/camera/montage/u;->p:Lcom/commsource/beautyplus/f0/ch;
 
@@ -360,7 +330,6 @@
 
     goto :goto_1
 
-    .line 20
     :cond_1
     :goto_0
     iget-object v1, p0, Lcom/commsource/camera/montage/u;->p:Lcom/commsource/beautyplus/f0/ch;
@@ -369,7 +338,6 @@
 
     invoke-virtual {v1, v2}, Landroid/view/ViewGroup;->setVisibility(I)V
 
-    .line 21
     iget-object v1, p0, Lcom/commsource/camera/montage/u;->p:Lcom/commsource/beautyplus/f0/ch;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/ch;->P:Landroid/widget/TextView;
@@ -380,7 +348,6 @@
 
     invoke-virtual {v1, v5}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 22
     iget-object v1, p0, Lcom/commsource/camera/montage/u;->p:Lcom/commsource/beautyplus/f0/ch;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/ch;->f:Lcom/commsource/widget/XSeekBar;
@@ -393,7 +360,6 @@
 
     invoke-virtual {v1, v5}, Lcom/commsource/widget/XSeekBar;->setMinProgress(I)V
 
-    .line 23
     iget-object v1, p0, Lcom/commsource/camera/montage/u;->p:Lcom/commsource/beautyplus/f0/ch;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/ch;->f:Lcom/commsource/widget/XSeekBar;
@@ -406,21 +372,18 @@
 
     invoke-virtual {v1, v5}, Lcom/commsource/widget/XSeekBar;->setMaxProgress(I)V
 
-    .line 24
     iget-object v1, p0, Lcom/commsource/camera/montage/u;->p:Lcom/commsource/beautyplus/f0/ch;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/ch;->f:Lcom/commsource/widget/XSeekBar;
 
     invoke-virtual {v1, v4}, Lcom/commsource/widget/XSeekBar;->setEnableCenterPoint(Z)V
 
-    .line 25
     iget-object v1, p0, Lcom/commsource/camera/montage/u;->p:Lcom/commsource/beautyplus/f0/ch;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/ch;->f:Lcom/commsource/widget/XSeekBar;
 
     invoke-virtual {v1, v3}, Lcom/commsource/widget/XSeekBar;->setCenterPointPercent(F)V
 
-    .line 26
     iget-object v1, p0, Lcom/commsource/camera/montage/u;->p:Lcom/commsource/beautyplus/f0/ch;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/ch;->f:Lcom/commsource/widget/XSeekBar;
@@ -439,7 +402,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/widget/XSeekBar;->setProgress(I)V
 
-    .line 27
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -453,7 +415,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/camera/montage/u;->J:Lcom/commsource/camera/montage/w;
 
     invoke-virtual {v0}, Lcom/commsource/camera/montage/w;->O()Landroidx/lifecycle/MutableLiveData;
@@ -464,7 +425,6 @@
 
     invoke-virtual {v0, v1}, Landroidx/lifecycle/MutableLiveData;->postValue(Ljava/lang/Object;)V
 
-    .line 2
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -477,7 +437,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/commsource/camera/montage/bean/c;->v()Lcom/commsource/camera/montage/bean/c;
 
     move-result-object v1
@@ -486,7 +445,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/camera/montage/bean/c;->l0(Z)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/camera/montage/u;->p:Lcom/commsource/beautyplus/f0/ch;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/ch;->K:Landroid/widget/TextView;
@@ -511,7 +469,6 @@
 
     invoke-virtual {v1, v2}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 3
     invoke-virtual {p0}, Lcom/commsource/camera/montage/f0;->u()I
 
     move-result v1
@@ -540,7 +497,6 @@
 
     goto/16 :goto_0
 
-    .line 4
     :cond_0
     iget-object v1, p0, Lcom/commsource/camera/montage/u;->O:Lcom/commsource/camera/montage/bean/MontageAdjustParamsBean;
 
@@ -552,24 +508,20 @@
 
     iput-wide v6, v2, Lcom/commsource/camera/montage/bean/MontageAdjustParamsBean$MouthParams;->scaleFactor:D
 
-    .line 5
     iget-wide v3, v2, Lcom/commsource/camera/montage/bean/MontageAdjustParamsBean$MouthParams;->oriSizeX:D
 
     mul-double v3, v3, v6
 
-    .line 6
     iget-wide v8, v2, Lcom/commsource/camera/montage/bean/MontageAdjustParamsBean$MouthParams;->oriSizeY:D
 
     mul-double v8, v8, v6
 
-    .line 7
     iget-object p1, v1, Lcom/commsource/camera/montage/bean/MontageAdjustParamsBean;->moustacheParams:Lcom/commsource/camera/montage/bean/MontageAdjustParamsBean$MoustacheParams;
 
     iget-wide v1, p1, Lcom/commsource/camera/montage/bean/MontageAdjustParamsBean$MoustacheParams;->oriSizeX:D
 
     mul-double v1, v1, v6
 
-    .line 8
     iget-object p1, p0, Lcom/commsource/camera/montage/u;->N:Lcom/commsource/camera/montage/bean/MontagePersonalDataBean;
 
     invoke-virtual {p1}, Lcom/commsource/camera/montage/bean/MontagePersonalDataBean;->getMouth()Lcom/commsource/camera/montage/bean/MontagePersonalDataBean$MouthBean;
@@ -578,7 +530,6 @@
 
     invoke-virtual {p1, v3, v4}, Lcom/commsource/camera/montage/bean/MontagePersonalDataBean$MouthBean;->setScalex(D)V
 
-    .line 9
     iget-object p1, p0, Lcom/commsource/camera/montage/u;->N:Lcom/commsource/camera/montage/bean/MontagePersonalDataBean;
 
     invoke-virtual {p1}, Lcom/commsource/camera/montage/bean/MontagePersonalDataBean;->getMouth()Lcom/commsource/camera/montage/bean/MontagePersonalDataBean$MouthBean;
@@ -587,7 +538,6 @@
 
     invoke-virtual {p1, v8, v9}, Lcom/commsource/camera/montage/bean/MontagePersonalDataBean$MouthBean;->setScaley(D)V
 
-    .line 10
     iget-object p1, p0, Lcom/commsource/camera/montage/u;->N:Lcom/commsource/camera/montage/bean/MontagePersonalDataBean;
 
     invoke-virtual {p1}, Lcom/commsource/camera/montage/bean/MontagePersonalDataBean;->getMustache()Lcom/commsource/camera/montage/bean/MontagePersonalDataBean$MustacheBean;
@@ -596,7 +546,6 @@
 
     invoke-virtual {p1, v1, v2}, Lcom/commsource/camera/montage/bean/MontagePersonalDataBean$MustacheBean;->setScalex(D)V
 
-    .line 11
     iget-object p1, p0, Lcom/commsource/camera/montage/u;->O:Lcom/commsource/camera/montage/bean/MontageAdjustParamsBean;
 
     iget-object p1, p1, Lcom/commsource/camera/montage/bean/MontageAdjustParamsBean;->mouthParams:Lcom/commsource/camera/montage/bean/MontageAdjustParamsBean$MouthParams;
@@ -607,12 +556,10 @@
 
     div-double/2addr v1, v3
 
-    .line 12
     invoke-direct {p0, v5, v1, v2}, Lcom/commsource/camera/montage/u;->M(ID)V
 
     goto/16 :goto_0
 
-    .line 13
     :cond_1
     iget-object v1, p0, Lcom/commsource/camera/montage/u;->O:Lcom/commsource/camera/montage/bean/MontageAdjustParamsBean;
 
@@ -624,17 +571,14 @@
 
     iput-wide v6, v1, Lcom/commsource/camera/montage/bean/MontageAdjustParamsBean$EyeBrowsParams;->scaleFactor:D
 
-    .line 14
     iget-wide v2, v1, Lcom/commsource/camera/montage/bean/MontageAdjustParamsBean$EyeBrowsParams;->oriSizeX:D
 
     mul-double v2, v2, v6
 
-    .line 15
     iget-wide v8, v1, Lcom/commsource/camera/montage/bean/MontageAdjustParamsBean$EyeBrowsParams;->oriSizeY:D
 
     mul-double v8, v8, v6
 
-    .line 16
     iget-object p1, p0, Lcom/commsource/camera/montage/u;->N:Lcom/commsource/camera/montage/bean/MontagePersonalDataBean;
 
     invoke-virtual {p1}, Lcom/commsource/camera/montage/bean/MontagePersonalDataBean;->getEyebrow()Lcom/commsource/camera/montage/bean/MontagePersonalDataBean$EyebrowBean;
@@ -643,7 +587,6 @@
 
     invoke-virtual {p1, v2, v3}, Lcom/commsource/camera/montage/bean/MontagePersonalDataBean$EyebrowBean;->setScalex(D)V
 
-    .line 17
     iget-object p1, p0, Lcom/commsource/camera/montage/u;->N:Lcom/commsource/camera/montage/bean/MontagePersonalDataBean;
 
     invoke-virtual {p1}, Lcom/commsource/camera/montage/bean/MontagePersonalDataBean;->getEyebrow()Lcom/commsource/camera/montage/bean/MontagePersonalDataBean$EyebrowBean;
@@ -652,7 +595,6 @@
 
     invoke-virtual {p1, v8, v9}, Lcom/commsource/camera/montage/bean/MontagePersonalDataBean$EyebrowBean;->setScaley(D)V
 
-    .line 18
     iget-object p1, p0, Lcom/commsource/camera/montage/u;->O:Lcom/commsource/camera/montage/bean/MontageAdjustParamsBean;
 
     iget-object p1, p1, Lcom/commsource/camera/montage/bean/MontageAdjustParamsBean;->eyeBrowsParams:Lcom/commsource/camera/montage/bean/MontageAdjustParamsBean$EyeBrowsParams;
@@ -663,12 +605,10 @@
 
     div-double/2addr v1, v3
 
-    .line 19
     invoke-direct {p0, v5, v1, v2}, Lcom/commsource/camera/montage/u;->M(ID)V
 
     goto :goto_0
 
-    .line 20
     :cond_2
     iget-object v1, p0, Lcom/commsource/camera/montage/u;->O:Lcom/commsource/camera/montage/bean/MontageAdjustParamsBean;
 
@@ -680,17 +620,14 @@
 
     iput-wide v6, v1, Lcom/commsource/camera/montage/bean/MontageAdjustParamsBean$EyeParams;->scaleFactor:D
 
-    .line 21
     iget-wide v2, v1, Lcom/commsource/camera/montage/bean/MontageAdjustParamsBean$EyeParams;->oriSizeX:D
 
     mul-double v2, v2, v6
 
-    .line 22
     iget-wide v8, v1, Lcom/commsource/camera/montage/bean/MontageAdjustParamsBean$EyeParams;->oriSizeY:D
 
     mul-double v8, v8, v6
 
-    .line 23
     iget-object p1, p0, Lcom/commsource/camera/montage/u;->N:Lcom/commsource/camera/montage/bean/MontagePersonalDataBean;
 
     invoke-virtual {p1}, Lcom/commsource/camera/montage/bean/MontagePersonalDataBean;->getEye()Lcom/commsource/camera/montage/bean/MontagePersonalDataBean$EyeBean;
@@ -699,7 +636,6 @@
 
     invoke-virtual {p1, v2, v3}, Lcom/commsource/camera/montage/bean/MontagePersonalDataBean$EyeBean;->setScalex(D)V
 
-    .line 24
     iget-object p1, p0, Lcom/commsource/camera/montage/u;->N:Lcom/commsource/camera/montage/bean/MontagePersonalDataBean;
 
     invoke-virtual {p1}, Lcom/commsource/camera/montage/bean/MontagePersonalDataBean;->getEye()Lcom/commsource/camera/montage/bean/MontagePersonalDataBean$EyeBean;
@@ -708,7 +644,6 @@
 
     invoke-virtual {p1, v8, v9}, Lcom/commsource/camera/montage/bean/MontagePersonalDataBean$EyeBean;->setScaley(D)V
 
-    .line 25
     iget-object p1, p0, Lcom/commsource/camera/montage/u;->O:Lcom/commsource/camera/montage/bean/MontageAdjustParamsBean;
 
     iget-object p1, p1, Lcom/commsource/camera/montage/bean/MontageAdjustParamsBean;->eyeParams:Lcom/commsource/camera/montage/bean/MontageAdjustParamsBean$EyeParams;
@@ -719,12 +654,10 @@
 
     div-double/2addr v1, v3
 
-    .line 26
     invoke-direct {p0, v5, v1, v2}, Lcom/commsource/camera/montage/u;->M(ID)V
 
     goto :goto_0
 
-    .line 27
     :cond_3
     iget-object v1, p0, Lcom/commsource/camera/montage/u;->O:Lcom/commsource/camera/montage/bean/MontageAdjustParamsBean;
 
@@ -736,22 +669,18 @@
 
     iput-wide v6, v1, Lcom/commsource/camera/montage/bean/MontageAdjustParamsBean$NoseParams;->scaleFactor:D
 
-    .line 28
     iget-wide v2, v1, Lcom/commsource/camera/montage/bean/MontageAdjustParamsBean$NoseParams;->oriSizeX:D
 
     mul-double v2, v2, v6
 
-    .line 29
     iget-wide v8, v1, Lcom/commsource/camera/montage/bean/MontageAdjustParamsBean$NoseParams;->oriSizeY:D
 
     mul-double v8, v8, v6
 
-    .line 30
     iget-wide v10, v1, Lcom/commsource/camera/montage/bean/MontageAdjustParamsBean$NoseParams;->lastScaleFactor:D
 
     div-double/2addr v6, v10
 
-    .line 31
     iget-object p1, p0, Lcom/commsource/camera/montage/u;->N:Lcom/commsource/camera/montage/bean/MontagePersonalDataBean;
 
     invoke-virtual {p1}, Lcom/commsource/camera/montage/bean/MontagePersonalDataBean;->getNose()Lcom/commsource/camera/montage/bean/MontagePersonalDataBean$NoseBean;
@@ -760,7 +689,6 @@
 
     invoke-virtual {p1, v2, v3}, Lcom/commsource/camera/montage/bean/MontagePersonalDataBean$NoseBean;->setScalex(D)V
 
-    .line 32
     iget-object p1, p0, Lcom/commsource/camera/montage/u;->N:Lcom/commsource/camera/montage/bean/MontagePersonalDataBean;
 
     invoke-virtual {p1}, Lcom/commsource/camera/montage/bean/MontagePersonalDataBean;->getNose()Lcom/commsource/camera/montage/bean/MontagePersonalDataBean$NoseBean;
@@ -769,12 +697,10 @@
 
     invoke-virtual {p1, v8, v9}, Lcom/commsource/camera/montage/bean/MontagePersonalDataBean$NoseBean;->setScaley(D)V
 
-    .line 33
     invoke-direct {p0, v5, v6, v7}, Lcom/commsource/camera/montage/u;->M(ID)V
 
     goto :goto_0
 
-    .line 34
     :cond_4
     iget-object v1, p0, Lcom/commsource/camera/montage/u;->O:Lcom/commsource/camera/montage/bean/MontageAdjustParamsBean;
 
@@ -786,7 +712,6 @@
 
     iput-wide v5, v1, Lcom/commsource/camera/montage/bean/MontageAdjustParamsBean$FaceParams;->scaleFactorY:D
 
-    .line 35
     iget-object p1, p0, Lcom/commsource/camera/montage/u;->N:Lcom/commsource/camera/montage/bean/MontagePersonalDataBean;
 
     invoke-virtual {p1}, Lcom/commsource/camera/montage/bean/MontagePersonalDataBean;->getFace()Lcom/commsource/camera/montage/bean/MontagePersonalDataBean$FaceBean;
@@ -797,10 +722,8 @@
 
     const/4 p1, 0x3
 
-    .line 36
     invoke-direct {p0, p1, v5, v6}, Lcom/commsource/camera/montage/u;->M(ID)V
 
-    .line 37
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -814,7 +737,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/commsource/camera/montage/bean/c;->v()Lcom/commsource/camera/montage/bean/c;
 
     move-result-object v1
@@ -823,7 +745,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/camera/montage/bean/c;->l0(Z)V
 
-    .line 2
     invoke-virtual {p0}, Lcom/commsource/camera/montage/f0;->u()I
 
     move-result v1
@@ -855,7 +776,6 @@
     :cond_0
     if-lez p1, :cond_1
 
-    .line 3
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -879,7 +799,6 @@
 
     move-result-object v1
 
-    .line 4
     :goto_0
     iget-object v2, p0, Lcom/commsource/camera/montage/u;->p:Lcom/commsource/beautyplus/f0/ch;
 
@@ -887,7 +806,6 @@
 
     invoke-virtual {v2, v1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 5
     iget-object v1, p0, Lcom/commsource/camera/montage/u;->O:Lcom/commsource/camera/montage/bean/MontageAdjustParamsBean;
 
     iget-object v2, v1, Lcom/commsource/camera/montage/bean/MontageAdjustParamsBean;->mouthParams:Lcom/commsource/camera/montage/bean/MontageAdjustParamsBean$MouthParams;
@@ -902,19 +820,16 @@
 
     iput-wide v5, v2, Lcom/commsource/camera/montage/bean/MontageAdjustParamsBean$MouthParams;->yOffset:D
 
-    .line 6
     iget-wide v2, v2, Lcom/commsource/camera/montage/bean/MontageAdjustParamsBean$MouthParams;->oriMoveY:D
 
     sub-double/2addr v2, v5
 
-    .line 7
     iget-object p1, v1, Lcom/commsource/camera/montage/bean/MontageAdjustParamsBean;->moustacheParams:Lcom/commsource/camera/montage/bean/MontageAdjustParamsBean$MoustacheParams;
 
     iget-wide v7, p1, Lcom/commsource/camera/montage/bean/MontageAdjustParamsBean$MoustacheParams;->oriMoveY:D
 
     sub-double/2addr v7, v5
 
-    .line 8
     iget-object p1, p0, Lcom/commsource/camera/montage/u;->N:Lcom/commsource/camera/montage/bean/MontagePersonalDataBean;
 
     invoke-virtual {p1}, Lcom/commsource/camera/montage/bean/MontagePersonalDataBean;->getMustache()Lcom/commsource/camera/montage/bean/MontagePersonalDataBean$MustacheBean;
@@ -923,7 +838,6 @@
 
     invoke-virtual {p1, v7, v8}, Lcom/commsource/camera/montage/bean/MontagePersonalDataBean$MustacheBean;->setMovey(D)V
 
-    .line 9
     iget-object p1, p0, Lcom/commsource/camera/montage/u;->N:Lcom/commsource/camera/montage/bean/MontagePersonalDataBean;
 
     invoke-virtual {p1}, Lcom/commsource/camera/montage/bean/MontagePersonalDataBean;->getMouth()Lcom/commsource/camera/montage/bean/MontagePersonalDataBean$MouthBean;
@@ -932,7 +846,6 @@
 
     invoke-virtual {p1, v2, v3}, Lcom/commsource/camera/montage/bean/MontagePersonalDataBean$MouthBean;->setMovey(D)V
 
-    .line 10
     iget-object p1, p0, Lcom/commsource/camera/montage/u;->O:Lcom/commsource/camera/montage/bean/MontageAdjustParamsBean;
 
     iget-object p1, p1, Lcom/commsource/camera/montage/bean/MontageAdjustParamsBean;->mouthParams:Lcom/commsource/camera/montage/bean/MontageAdjustParamsBean$MouthParams;
@@ -943,7 +856,6 @@
 
     sub-double/2addr v1, v5
 
-    .line 11
     invoke-direct {p0, v4, v1, v2}, Lcom/commsource/camera/montage/u;->M(ID)V
 
     goto/16 :goto_4
@@ -951,7 +863,6 @@
     :cond_2
     if-lez p1, :cond_3
 
-    .line 12
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -975,7 +886,6 @@
 
     move-result-object v1
 
-    .line 13
     :goto_1
     iget-object v2, p0, Lcom/commsource/camera/montage/u;->p:Lcom/commsource/beautyplus/f0/ch;
 
@@ -983,7 +893,6 @@
 
     invoke-virtual {v2, v1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 14
     iget-object v1, p0, Lcom/commsource/camera/montage/u;->O:Lcom/commsource/camera/montage/bean/MontageAdjustParamsBean;
 
     iget-object v1, v1, Lcom/commsource/camera/montage/bean/MontageAdjustParamsBean;->eyeBrowsParams:Lcom/commsource/camera/montage/bean/MontageAdjustParamsBean$EyeBrowsParams;
@@ -998,12 +907,10 @@
 
     iput-wide v2, v1, Lcom/commsource/camera/montage/bean/MontageAdjustParamsBean$EyeBrowsParams;->yOffset:D
 
-    .line 15
     iget-wide v5, v1, Lcom/commsource/camera/montage/bean/MontageAdjustParamsBean$EyeBrowsParams;->oriMoveY:D
 
     sub-double/2addr v5, v2
 
-    .line 16
     iget-object p1, p0, Lcom/commsource/camera/montage/u;->N:Lcom/commsource/camera/montage/bean/MontagePersonalDataBean;
 
     invoke-virtual {p1}, Lcom/commsource/camera/montage/bean/MontagePersonalDataBean;->getEyebrow()Lcom/commsource/camera/montage/bean/MontagePersonalDataBean$EyebrowBean;
@@ -1012,7 +919,6 @@
 
     invoke-virtual {p1, v5, v6}, Lcom/commsource/camera/montage/bean/MontagePersonalDataBean$EyebrowBean;->setMovey(D)V
 
-    .line 17
     iget-object p1, p0, Lcom/commsource/camera/montage/u;->O:Lcom/commsource/camera/montage/bean/MontageAdjustParamsBean;
 
     iget-object p1, p1, Lcom/commsource/camera/montage/bean/MontageAdjustParamsBean;->eyeBrowsParams:Lcom/commsource/camera/montage/bean/MontageAdjustParamsBean$EyeBrowsParams;
@@ -1023,7 +929,6 @@
 
     sub-double/2addr v1, v5
 
-    .line 18
     invoke-direct {p0, v4, v1, v2}, Lcom/commsource/camera/montage/u;->M(ID)V
 
     goto/16 :goto_4
@@ -1031,7 +936,6 @@
     :cond_4
     if-lez p1, :cond_5
 
-    .line 19
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -1055,7 +959,6 @@
 
     move-result-object v1
 
-    .line 20
     :goto_2
     iget-object v2, p0, Lcom/commsource/camera/montage/u;->p:Lcom/commsource/beautyplus/f0/ch;
 
@@ -1063,7 +966,6 @@
 
     invoke-virtual {v2, v1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 21
     iget-object v1, p0, Lcom/commsource/camera/montage/u;->O:Lcom/commsource/camera/montage/bean/MontageAdjustParamsBean;
 
     iget-object v1, v1, Lcom/commsource/camera/montage/bean/MontageAdjustParamsBean;->eyeParams:Lcom/commsource/camera/montage/bean/MontageAdjustParamsBean$EyeParams;
@@ -1078,12 +980,10 @@
 
     iput-wide v2, v1, Lcom/commsource/camera/montage/bean/MontageAdjustParamsBean$EyeParams;->yOffset:D
 
-    .line 22
     iget-wide v5, v1, Lcom/commsource/camera/montage/bean/MontageAdjustParamsBean$EyeParams;->oriMoveY:D
 
     sub-double/2addr v5, v2
 
-    .line 23
     iget-object p1, p0, Lcom/commsource/camera/montage/u;->N:Lcom/commsource/camera/montage/bean/MontagePersonalDataBean;
 
     invoke-virtual {p1}, Lcom/commsource/camera/montage/bean/MontagePersonalDataBean;->getEye()Lcom/commsource/camera/montage/bean/MontagePersonalDataBean$EyeBean;
@@ -1092,7 +992,6 @@
 
     invoke-virtual {p1, v5, v6}, Lcom/commsource/camera/montage/bean/MontagePersonalDataBean$EyeBean;->setMovey(D)V
 
-    .line 24
     iget-object p1, p0, Lcom/commsource/camera/montage/u;->O:Lcom/commsource/camera/montage/bean/MontageAdjustParamsBean;
 
     iget-object p1, p1, Lcom/commsource/camera/montage/bean/MontageAdjustParamsBean;->eyeParams:Lcom/commsource/camera/montage/bean/MontageAdjustParamsBean$EyeParams;
@@ -1103,7 +1002,6 @@
 
     sub-double/2addr v1, v5
 
-    .line 25
     invoke-direct {p0, v4, v1, v2}, Lcom/commsource/camera/montage/u;->M(ID)V
 
     goto/16 :goto_4
@@ -1111,7 +1009,6 @@
     :cond_6
     if-lez p1, :cond_7
 
-    .line 26
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -1135,7 +1032,6 @@
 
     move-result-object v1
 
-    .line 27
     :goto_3
     iget-object v2, p0, Lcom/commsource/camera/montage/u;->p:Lcom/commsource/beautyplus/f0/ch;
 
@@ -1143,7 +1039,6 @@
 
     invoke-virtual {v2, v1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 28
     iget-object v1, p0, Lcom/commsource/camera/montage/u;->O:Lcom/commsource/camera/montage/bean/MontageAdjustParamsBean;
 
     iget-object v1, v1, Lcom/commsource/camera/montage/bean/MontageAdjustParamsBean;->noseParams:Lcom/commsource/camera/montage/bean/MontageAdjustParamsBean$NoseParams;
@@ -1158,12 +1053,10 @@
 
     iput-wide v2, v1, Lcom/commsource/camera/montage/bean/MontageAdjustParamsBean$NoseParams;->yOffset:D
 
-    .line 29
     iget-wide v5, v1, Lcom/commsource/camera/montage/bean/MontageAdjustParamsBean$NoseParams;->oriMoveY:D
 
     sub-double/2addr v5, v2
 
-    .line 30
     iget-object p1, p0, Lcom/commsource/camera/montage/u;->N:Lcom/commsource/camera/montage/bean/MontagePersonalDataBean;
 
     invoke-virtual {p1}, Lcom/commsource/camera/montage/bean/MontagePersonalDataBean;->getMouth()Lcom/commsource/camera/montage/bean/MontagePersonalDataBean$MouthBean;
@@ -1172,7 +1065,6 @@
 
     invoke-virtual {p1, v5, v6}, Lcom/commsource/camera/montage/bean/MontagePersonalDataBean$MouthBean;->setMovey(D)V
 
-    .line 31
     iget-object p1, p0, Lcom/commsource/camera/montage/u;->O:Lcom/commsource/camera/montage/bean/MontageAdjustParamsBean;
 
     iget-object p1, p1, Lcom/commsource/camera/montage/bean/MontageAdjustParamsBean;->noseParams:Lcom/commsource/camera/montage/bean/MontageAdjustParamsBean$NoseParams;
@@ -1183,12 +1075,10 @@
 
     sub-double/2addr v1, v5
 
-    .line 32
     invoke-direct {p0, v4, v1, v2}, Lcom/commsource/camera/montage/u;->M(ID)V
 
     goto :goto_4
 
-    .line 33
     :cond_8
     iget-object v1, p0, Lcom/commsource/camera/montage/u;->O:Lcom/commsource/camera/montage/bean/MontageAdjustParamsBean;
 
@@ -1202,7 +1092,6 @@
 
     iput-wide v3, v1, Lcom/commsource/camera/montage/bean/MontageAdjustParamsBean$FaceParams;->scaleFactorX:D
 
-    .line 34
     iget-object v1, p0, Lcom/commsource/camera/montage/u;->p:Lcom/commsource/beautyplus/f0/ch;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/ch;->M:Landroid/widget/TextView;
@@ -1227,7 +1116,6 @@
 
     invoke-virtual {v1, p1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 35
     iget-object p1, p0, Lcom/commsource/camera/montage/u;->O:Lcom/commsource/camera/montage/bean/MontageAdjustParamsBean;
 
     iget-object v1, p1, Lcom/commsource/camera/montage/bean/MontageAdjustParamsBean;->faceParams:Lcom/commsource/camera/montage/bean/MontageAdjustParamsBean$FaceParams;
@@ -1238,14 +1126,12 @@
 
     mul-double v3, v3, v5
 
-    .line 36
     iget-object p1, p1, Lcom/commsource/camera/montage/bean/MontageAdjustParamsBean;->moustache2Params:Lcom/commsource/camera/montage/bean/MontageAdjustParamsBean$Moustache2Params;
 
     iget-wide v7, p1, Lcom/commsource/camera/montage/bean/MontageAdjustParamsBean$Moustache2Params;->oriSizeX:D
 
     mul-double v7, v7, v5
 
-    .line 37
     iget-object p1, p0, Lcom/commsource/camera/montage/u;->N:Lcom/commsource/camera/montage/bean/MontagePersonalDataBean;
 
     invoke-virtual {p1}, Lcom/commsource/camera/montage/bean/MontagePersonalDataBean;->getMustache2()Lcom/commsource/camera/montage/bean/MontagePersonalDataBean$Mustache2Bean;
@@ -1254,7 +1140,6 @@
 
     invoke-virtual {p1, v7, v8}, Lcom/commsource/camera/montage/bean/MontagePersonalDataBean$Mustache2Bean;->setScalex(D)V
 
-    .line 38
     iget-object p1, p0, Lcom/commsource/camera/montage/u;->N:Lcom/commsource/camera/montage/bean/MontagePersonalDataBean;
 
     invoke-virtual {p1}, Lcom/commsource/camera/montage/bean/MontagePersonalDataBean;->getFace()Lcom/commsource/camera/montage/bean/MontagePersonalDataBean$FaceBean;
@@ -1263,7 +1148,6 @@
 
     invoke-virtual {p1, v3, v4}, Lcom/commsource/camera/montage/bean/MontagePersonalDataBean$FaceBean;->setScalex(D)V
 
-    .line 39
     iget-object p1, p0, Lcom/commsource/camera/montage/u;->O:Lcom/commsource/camera/montage/bean/MontageAdjustParamsBean;
 
     iget-object p1, p1, Lcom/commsource/camera/montage/bean/MontageAdjustParamsBean;->faceParams:Lcom/commsource/camera/montage/bean/MontageAdjustParamsBean$FaceParams;
@@ -1274,10 +1158,8 @@
 
     div-double/2addr v3, v5
 
-    .line 40
     invoke-direct {p0, v2, v3, v4}, Lcom/commsource/camera/montage/u;->M(ID)V
 
-    .line 41
     :goto_4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1291,7 +1173,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/montage/u;->p:Lcom/commsource/beautyplus/f0/ch;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/ch;->O:Landroid/widget/TextView;
@@ -1302,7 +1183,6 @@
 
     invoke-virtual {v1, v2}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 2
     invoke-static {}, Lcom/commsource/camera/montage/bean/c;->v()Lcom/commsource/camera/montage/bean/c;
 
     move-result-object v1
@@ -1311,7 +1191,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/camera/montage/bean/c;->l0(Z)V
 
-    .line 3
     invoke-virtual {p0}, Lcom/commsource/camera/montage/f0;->u()I
 
     move-result v1
@@ -1333,7 +1212,6 @@
     :cond_0
     if-lez p1, :cond_1
 
-    .line 4
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -1357,7 +1235,6 @@
 
     move-result-object v1
 
-    .line 5
     :goto_0
     iget-object v2, p0, Lcom/commsource/camera/montage/u;->p:Lcom/commsource/beautyplus/f0/ch;
 
@@ -1365,7 +1242,6 @@
 
     invoke-virtual {v2, v1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 6
     iget-object v1, p0, Lcom/commsource/camera/montage/u;->O:Lcom/commsource/camera/montage/bean/MontageAdjustParamsBean;
 
     iget-object v1, v1, Lcom/commsource/camera/montage/bean/MontageAdjustParamsBean;->eyeBrowsParams:Lcom/commsource/camera/montage/bean/MontageAdjustParamsBean$EyeBrowsParams;
@@ -1380,12 +1256,10 @@
 
     iput-wide v4, v1, Lcom/commsource/camera/montage/bean/MontageAdjustParamsBean$EyeBrowsParams;->xOffset:D
 
-    .line 7
     iget-wide v1, v1, Lcom/commsource/camera/montage/bean/MontageAdjustParamsBean$EyeBrowsParams;->oriMoveX:D
 
     add-double/2addr v1, v4
 
-    .line 8
     iget-object p1, p0, Lcom/commsource/camera/montage/u;->N:Lcom/commsource/camera/montage/bean/MontagePersonalDataBean;
 
     invoke-virtual {p1}, Lcom/commsource/camera/montage/bean/MontagePersonalDataBean;->getEyebrow()Lcom/commsource/camera/montage/bean/MontagePersonalDataBean$EyebrowBean;
@@ -1394,7 +1268,6 @@
 
     invoke-virtual {p1, v1, v2}, Lcom/commsource/camera/montage/bean/MontagePersonalDataBean$EyebrowBean;->setMovex(D)V
 
-    .line 9
     iget-object p1, p0, Lcom/commsource/camera/montage/u;->O:Lcom/commsource/camera/montage/bean/MontageAdjustParamsBean;
 
     iget-object p1, p1, Lcom/commsource/camera/montage/bean/MontageAdjustParamsBean;->eyeBrowsParams:Lcom/commsource/camera/montage/bean/MontageAdjustParamsBean$EyeBrowsParams;
@@ -1405,7 +1278,6 @@
 
     sub-double/2addr v1, v4
 
-    .line 10
     invoke-direct {p0, v3, v1, v2}, Lcom/commsource/camera/montage/u;->M(ID)V
 
     goto :goto_2
@@ -1413,7 +1285,6 @@
     :cond_2
     if-lez p1, :cond_3
 
-    .line 11
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -1437,7 +1308,6 @@
 
     move-result-object v1
 
-    .line 12
     :goto_1
     iget-object v2, p0, Lcom/commsource/camera/montage/u;->p:Lcom/commsource/beautyplus/f0/ch;
 
@@ -1445,7 +1315,6 @@
 
     invoke-virtual {v2, v1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 13
     iget-object v1, p0, Lcom/commsource/camera/montage/u;->O:Lcom/commsource/camera/montage/bean/MontageAdjustParamsBean;
 
     iget-object v1, v1, Lcom/commsource/camera/montage/bean/MontageAdjustParamsBean;->eyeParams:Lcom/commsource/camera/montage/bean/MontageAdjustParamsBean$EyeParams;
@@ -1460,12 +1329,10 @@
 
     iput-wide v4, v1, Lcom/commsource/camera/montage/bean/MontageAdjustParamsBean$EyeParams;->xOffset:D
 
-    .line 14
     iget-wide v1, v1, Lcom/commsource/camera/montage/bean/MontageAdjustParamsBean$EyeParams;->oriMoveX:D
 
     add-double/2addr v1, v4
 
-    .line 15
     iget-object p1, p0, Lcom/commsource/camera/montage/u;->N:Lcom/commsource/camera/montage/bean/MontagePersonalDataBean;
 
     invoke-virtual {p1}, Lcom/commsource/camera/montage/bean/MontagePersonalDataBean;->getEye()Lcom/commsource/camera/montage/bean/MontagePersonalDataBean$EyeBean;
@@ -1474,7 +1341,6 @@
 
     invoke-virtual {p1, v1, v2}, Lcom/commsource/camera/montage/bean/MontagePersonalDataBean$EyeBean;->setMovex(D)V
 
-    .line 16
     iget-object p1, p0, Lcom/commsource/camera/montage/u;->O:Lcom/commsource/camera/montage/bean/MontageAdjustParamsBean;
 
     iget-object p1, p1, Lcom/commsource/camera/montage/bean/MontageAdjustParamsBean;->eyeParams:Lcom/commsource/camera/montage/bean/MontageAdjustParamsBean$EyeParams;
@@ -1485,10 +1351,8 @@
 
     sub-double/2addr v1, v4
 
-    .line 17
     invoke-direct {p0, v3, v1, v2}, Lcom/commsource/camera/montage/u;->M(ID)V
 
-    .line 18
     :goto_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1502,7 +1366,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/camera/montage/f0;->u()I
 
     move-result v1
@@ -1511,7 +1374,6 @@
 
     move-result-object p1
 
-    .line 2
     iget-object p2, p0, Lcom/commsource/camera/montage/u;->J:Lcom/commsource/camera/montage/w;
 
     invoke-virtual {p2}, Lcom/commsource/camera/montage/w;->V()Landroidx/lifecycle/MutableLiveData;
@@ -1520,7 +1382,6 @@
 
     invoke-virtual {p2, p1}, Landroidx/lifecycle/MutableLiveData;->postValue(Ljava/lang/Object;)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1533,7 +1394,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/commsource/camera/montage/bean/c;->v()Lcom/commsource/camera/montage/bean/c;
 
     move-result-object v1
@@ -1546,12 +1406,10 @@
 
     if-nez v1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 3
     :cond_0
     invoke-virtual {p0}, Lcom/commsource/camera/montage/f0;->u()I
 
@@ -1585,7 +1443,6 @@
 
     goto/16 :goto_6
 
-    .line 4
     :cond_1
     iget-object v1, p0, Lcom/commsource/camera/montage/u;->O:Lcom/commsource/camera/montage/bean/MontageAdjustParamsBean;
 
@@ -1597,7 +1454,6 @@
 
     double-to-int v2, v7
 
-    .line 5
     iget-wide v4, v1, Lcom/commsource/camera/montage/bean/MontageAdjustParamsBean$MouthParams;->yOffset:D
 
     iget-object v1, p0, Lcom/commsource/camera/montage/u;->L:Lcom/commsource/camera/montage/v$c;
@@ -1608,21 +1464,18 @@
 
     double-to-int v1, v4
 
-    .line 6
     iget-object v4, p0, Lcom/commsource/camera/montage/u;->p:Lcom/commsource/beautyplus/f0/ch;
 
     iget-object v4, v4, Lcom/commsource/beautyplus/f0/ch;->a:Lcom/commsource/widget/XSeekBar;
 
     invoke-virtual {v4, v2}, Lcom/commsource/widget/XSeekBar;->setProgress(I)V
 
-    .line 7
     iget-object v4, p0, Lcom/commsource/camera/montage/u;->p:Lcom/commsource/beautyplus/f0/ch;
 
     iget-object v4, v4, Lcom/commsource/beautyplus/f0/ch;->c:Lcom/commsource/widget/XSeekBar;
 
     invoke-virtual {v4, v1}, Lcom/commsource/widget/XSeekBar;->setProgress(I)V
 
-    .line 8
     iget-object v4, p0, Lcom/commsource/camera/montage/u;->p:Lcom/commsource/beautyplus/f0/ch;
 
     iget-object v4, v4, Lcom/commsource/beautyplus/f0/ch;->K:Landroid/widget/TextView;
@@ -1643,14 +1496,12 @@
 
     if-lez v1, :cond_2
 
-    .line 9
     new-instance v2, Ljava/lang/StringBuilder;
 
     invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
 
     invoke-virtual {v2, v6}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 10
     invoke-static {v1}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
 
     move-result-object v1
@@ -1668,7 +1519,6 @@
 
     move-result-object v1
 
-    .line 11
     :goto_0
     iget-object v2, p0, Lcom/commsource/camera/montage/u;->p:Lcom/commsource/beautyplus/f0/ch;
 
@@ -1678,7 +1528,6 @@
 
     goto/16 :goto_6
 
-    .line 12
     :cond_3
     iget-object v1, p0, Lcom/commsource/camera/montage/u;->O:Lcom/commsource/camera/montage/bean/MontageAdjustParamsBean;
 
@@ -1690,7 +1539,6 @@
 
     double-to-int v2, v7
 
-    .line 13
     iget-wide v4, v1, Lcom/commsource/camera/montage/bean/MontageAdjustParamsBean$EyeBrowsParams;->yOffset:D
 
     iget-object v7, p0, Lcom/commsource/camera/montage/u;->L:Lcom/commsource/camera/montage/v$c;
@@ -1701,7 +1549,6 @@
 
     double-to-int v4, v4
 
-    .line 14
     iget-wide v8, v1, Lcom/commsource/camera/montage/bean/MontageAdjustParamsBean$EyeBrowsParams;->xOffset:D
 
     iget-wide v10, v7, Lcom/commsource/camera/montage/v$c;->i:D
@@ -1710,28 +1557,24 @@
 
     double-to-int v1, v8
 
-    .line 15
     iget-object v5, p0, Lcom/commsource/camera/montage/u;->p:Lcom/commsource/beautyplus/f0/ch;
 
     iget-object v5, v5, Lcom/commsource/beautyplus/f0/ch;->a:Lcom/commsource/widget/XSeekBar;
 
     invoke-virtual {v5, v2}, Lcom/commsource/widget/XSeekBar;->setProgress(I)V
 
-    .line 16
     iget-object v5, p0, Lcom/commsource/camera/montage/u;->p:Lcom/commsource/beautyplus/f0/ch;
 
     iget-object v5, v5, Lcom/commsource/beautyplus/f0/ch;->c:Lcom/commsource/widget/XSeekBar;
 
     invoke-virtual {v5, v4}, Lcom/commsource/widget/XSeekBar;->setProgress(I)V
 
-    .line 17
     iget-object v5, p0, Lcom/commsource/camera/montage/u;->p:Lcom/commsource/beautyplus/f0/ch;
 
     iget-object v5, v5, Lcom/commsource/beautyplus/f0/ch;->f:Lcom/commsource/widget/XSeekBar;
 
     invoke-virtual {v5, v1}, Lcom/commsource/widget/XSeekBar;->setProgress(I)V
 
-    .line 18
     iget-object v5, p0, Lcom/commsource/camera/montage/u;->p:Lcom/commsource/beautyplus/f0/ch;
 
     iget-object v5, v5, Lcom/commsource/beautyplus/f0/ch;->K:Landroid/widget/TextView;
@@ -1752,14 +1595,12 @@
 
     if-lez v4, :cond_4
 
-    .line 19
     new-instance v2, Ljava/lang/StringBuilder;
 
     invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
 
     invoke-virtual {v2, v6}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 20
     invoke-static {v4}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
 
     move-result-object v3
@@ -1777,7 +1618,6 @@
 
     move-result-object v2
 
-    .line 21
     :goto_1
     iget-object v3, p0, Lcom/commsource/camera/montage/u;->p:Lcom/commsource/beautyplus/f0/ch;
 
@@ -1787,14 +1627,12 @@
 
     if-lez v1, :cond_5
 
-    .line 22
     new-instance v2, Ljava/lang/StringBuilder;
 
     invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
 
     invoke-virtual {v2, v6}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 23
     invoke-static {v1}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
 
     move-result-object v1
@@ -1812,7 +1650,6 @@
 
     move-result-object v1
 
-    .line 24
     :goto_2
     iget-object v2, p0, Lcom/commsource/camera/montage/u;->p:Lcom/commsource/beautyplus/f0/ch;
 
@@ -1822,7 +1659,6 @@
 
     goto/16 :goto_6
 
-    .line 25
     :cond_6
     iget-object v1, p0, Lcom/commsource/camera/montage/u;->O:Lcom/commsource/camera/montage/bean/MontageAdjustParamsBean;
 
@@ -1834,7 +1670,6 @@
 
     double-to-int v2, v7
 
-    .line 26
     iget-wide v4, v1, Lcom/commsource/camera/montage/bean/MontageAdjustParamsBean$EyeParams;->yOffset:D
 
     iget-object v7, p0, Lcom/commsource/camera/montage/u;->L:Lcom/commsource/camera/montage/v$c;
@@ -1845,7 +1680,6 @@
 
     double-to-int v4, v4
 
-    .line 27
     iget-wide v8, v1, Lcom/commsource/camera/montage/bean/MontageAdjustParamsBean$EyeParams;->xOffset:D
 
     iget-wide v10, v7, Lcom/commsource/camera/montage/v$c;->i:D
@@ -1854,28 +1688,24 @@
 
     double-to-int v1, v8
 
-    .line 28
     iget-object v5, p0, Lcom/commsource/camera/montage/u;->p:Lcom/commsource/beautyplus/f0/ch;
 
     iget-object v5, v5, Lcom/commsource/beautyplus/f0/ch;->a:Lcom/commsource/widget/XSeekBar;
 
     invoke-virtual {v5, v2}, Lcom/commsource/widget/XSeekBar;->setProgress(I)V
 
-    .line 29
     iget-object v5, p0, Lcom/commsource/camera/montage/u;->p:Lcom/commsource/beautyplus/f0/ch;
 
     iget-object v5, v5, Lcom/commsource/beautyplus/f0/ch;->c:Lcom/commsource/widget/XSeekBar;
 
     invoke-virtual {v5, v4}, Lcom/commsource/widget/XSeekBar;->setProgress(I)V
 
-    .line 30
     iget-object v5, p0, Lcom/commsource/camera/montage/u;->p:Lcom/commsource/beautyplus/f0/ch;
 
     iget-object v5, v5, Lcom/commsource/beautyplus/f0/ch;->f:Lcom/commsource/widget/XSeekBar;
 
     invoke-virtual {v5, v1}, Lcom/commsource/widget/XSeekBar;->setProgress(I)V
 
-    .line 31
     iget-object v5, p0, Lcom/commsource/camera/montage/u;->p:Lcom/commsource/beautyplus/f0/ch;
 
     iget-object v5, v5, Lcom/commsource/beautyplus/f0/ch;->K:Landroid/widget/TextView;
@@ -1896,7 +1726,6 @@
 
     if-lez v4, :cond_7
 
-    .line 32
     new-instance v2, Ljava/lang/StringBuilder;
 
     invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
@@ -1920,7 +1749,6 @@
 
     move-result-object v2
 
-    .line 33
     :goto_3
     iget-object v3, p0, Lcom/commsource/camera/montage/u;->p:Lcom/commsource/beautyplus/f0/ch;
 
@@ -1930,14 +1758,12 @@
 
     if-lez v1, :cond_8
 
-    .line 34
     new-instance v2, Ljava/lang/StringBuilder;
 
     invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
 
     invoke-virtual {v2, v6}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 35
     invoke-static {v1}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
 
     move-result-object v1
@@ -1955,7 +1781,6 @@
 
     move-result-object v1
 
-    .line 36
     :goto_4
     iget-object v2, p0, Lcom/commsource/camera/montage/u;->p:Lcom/commsource/beautyplus/f0/ch;
 
@@ -1965,7 +1790,6 @@
 
     goto/16 :goto_6
 
-    .line 37
     :cond_9
     iget-object v1, p0, Lcom/commsource/camera/montage/u;->O:Lcom/commsource/camera/montage/bean/MontageAdjustParamsBean;
 
@@ -1977,7 +1801,6 @@
 
     double-to-int v2, v7
 
-    .line 38
     iget-wide v4, v1, Lcom/commsource/camera/montage/bean/MontageAdjustParamsBean$NoseParams;->yOffset:D
 
     iget-object v1, p0, Lcom/commsource/camera/montage/u;->L:Lcom/commsource/camera/montage/v$c;
@@ -1988,21 +1811,18 @@
 
     double-to-int v1, v4
 
-    .line 39
     iget-object v4, p0, Lcom/commsource/camera/montage/u;->p:Lcom/commsource/beautyplus/f0/ch;
 
     iget-object v4, v4, Lcom/commsource/beautyplus/f0/ch;->a:Lcom/commsource/widget/XSeekBar;
 
     invoke-virtual {v4, v2}, Lcom/commsource/widget/XSeekBar;->setProgress(I)V
 
-    .line 40
     iget-object v4, p0, Lcom/commsource/camera/montage/u;->p:Lcom/commsource/beautyplus/f0/ch;
 
     iget-object v4, v4, Lcom/commsource/beautyplus/f0/ch;->c:Lcom/commsource/widget/XSeekBar;
 
     invoke-virtual {v4, v1}, Lcom/commsource/widget/XSeekBar;->setProgress(I)V
 
-    .line 41
     iget-object v4, p0, Lcom/commsource/camera/montage/u;->p:Lcom/commsource/beautyplus/f0/ch;
 
     iget-object v4, v4, Lcom/commsource/beautyplus/f0/ch;->K:Landroid/widget/TextView;
@@ -2023,14 +1843,12 @@
 
     if-lez v1, :cond_a
 
-    .line 42
     new-instance v2, Ljava/lang/StringBuilder;
 
     invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
 
     invoke-virtual {v2, v6}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 43
     invoke-static {v1}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
 
     move-result-object v1
@@ -2048,7 +1866,6 @@
 
     move-result-object v1
 
-    .line 44
     :goto_5
     iget-object v2, p0, Lcom/commsource/camera/montage/u;->p:Lcom/commsource/beautyplus/f0/ch;
 
@@ -2058,7 +1875,6 @@
 
     goto :goto_6
 
-    .line 45
     :cond_b
     iget-object v1, p0, Lcom/commsource/camera/montage/u;->O:Lcom/commsource/camera/montage/bean/MontageAdjustParamsBean;
 
@@ -2070,28 +1886,24 @@
 
     double-to-int v2, v6
 
-    .line 46
     iget-wide v6, v1, Lcom/commsource/camera/montage/bean/MontageAdjustParamsBean$FaceParams;->scaleFactorY:D
 
     mul-double v6, v6, v4
 
     double-to-int v1, v6
 
-    .line 47
     iget-object v4, p0, Lcom/commsource/camera/montage/u;->p:Lcom/commsource/beautyplus/f0/ch;
 
     iget-object v4, v4, Lcom/commsource/beautyplus/f0/ch;->a:Lcom/commsource/widget/XSeekBar;
 
     invoke-virtual {v4, v1}, Lcom/commsource/widget/XSeekBar;->setProgress(I)V
 
-    .line 48
     iget-object v4, p0, Lcom/commsource/camera/montage/u;->p:Lcom/commsource/beautyplus/f0/ch;
 
     iget-object v4, v4, Lcom/commsource/beautyplus/f0/ch;->c:Lcom/commsource/widget/XSeekBar;
 
     invoke-virtual {v4, v2}, Lcom/commsource/widget/XSeekBar;->setProgress(I)V
 
-    .line 49
     iget-object v4, p0, Lcom/commsource/camera/montage/u;->p:Lcom/commsource/beautyplus/f0/ch;
 
     iget-object v4, v4, Lcom/commsource/beautyplus/f0/ch;->K:Landroid/widget/TextView;
@@ -2110,7 +1922,6 @@
 
     invoke-virtual {v4, v1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 50
     iget-object v1, p0, Lcom/commsource/camera/montage/u;->p:Lcom/commsource/beautyplus/f0/ch;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/ch;->M:Landroid/widget/TextView;
@@ -2129,7 +1940,6 @@
 
     invoke-virtual {v1, v2}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 51
     :goto_6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -2171,7 +1981,6 @@
 
     const/4 v1, 0x0
 
-    .line 1
     invoke-static {p1, v0, p2, v1}, Landroidx/databinding/DataBindingUtil;->inflate(Landroid/view/LayoutInflater;ILandroid/view/ViewGroup;Z)Landroidx/databinding/ViewDataBinding;
 
     move-result-object p1
@@ -2180,7 +1989,6 @@
 
     iput-object p1, p0, Lcom/commsource/camera/montage/u;->p:Lcom/commsource/beautyplus/f0/ch;
 
-    .line 2
     iget-object p1, p0, Lcom/commsource/beautyplus/i0/a;->b:Landroid/app/Activity;
 
     check-cast p1, Landroidx/fragment/app/FragmentActivity;
@@ -2199,7 +2007,6 @@
 
     iput-object p1, p0, Lcom/commsource/camera/montage/u;->J:Lcom/commsource/camera/montage/w;
 
-    .line 3
     iget-object p1, p0, Lcom/commsource/beautyplus/i0/a;->b:Landroid/app/Activity;
 
     check-cast p1, Landroidx/fragment/app/FragmentActivity;
@@ -2218,7 +2025,6 @@
 
     iput-object p1, p0, Lcom/commsource/camera/montage/u;->K:Lcom/commsource/camera/montage/e0;
 
-    .line 4
     iget-object p1, p0, Lcom/commsource/camera/montage/u;->p:Lcom/commsource/beautyplus/f0/ch;
 
     invoke-virtual {p1}, Landroidx/databinding/ViewDataBinding;->getRoot()Landroid/view/View;
@@ -2237,15 +2043,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0}, Landroidx/fragment/app/Fragment;->onDestroyView()V
 
     const/4 v1, 0x0
 
-    .line 2
     iput-boolean v1, p0, Lcom/commsource/camera/montage/u;->M:Z
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2266,16 +2069,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0, p1, p2}, Lcom/commsource/camera/montage/f0;->onViewCreated(Landroid/view/View;Landroid/os/Bundle;)V
 
-    .line 2
     invoke-direct {p0}, Lcom/commsource/camera/montage/u;->G()V
 
-    .line 3
     invoke-direct {p0}, Lcom/commsource/camera/montage/u;->F()V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2288,7 +2087,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

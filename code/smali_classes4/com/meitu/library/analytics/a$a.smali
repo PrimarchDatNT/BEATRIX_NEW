@@ -29,7 +29,6 @@
 .method constructor <init>(Lcom/meitu/library/analytics/a;Ljava/lang/String;[Lcom/meitu/library/analytics/y/l/j/b$a;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/library/analytics/a$a;->c:Lcom/meitu/library/analytics/a;
 
     iput-object p2, p0, Lcom/meitu/library/analytics/a$a;->a:Ljava/lang/String;
@@ -50,7 +49,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/meitu/library/analytics/sdk/content/f;->S()Lcom/meitu/library/analytics/sdk/content/f;
 
     move-result-object v1
@@ -65,12 +63,10 @@
 
     move-result-object v1
 
-    .line 2
     invoke-static {v1}, Landroid/net/Uri;->parse(Ljava/lang/String;)Landroid/net/Uri;
 
     move-result-object v1
 
-    .line 3
     invoke-virtual {v1}, Landroid/net/Uri;->buildUpon()Landroid/net/Uri$Builder;
 
     move-result-object v1
@@ -79,7 +75,6 @@
 
     invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
 
-    .line 4
     invoke-static {}, Landroid/os/Process;->myPid()I
 
     move-result v3
@@ -104,22 +99,18 @@
 
     const-string v3, "event"
 
-    .line 5
     invoke-virtual {v1, v3, v2}, Landroid/net/Uri$Builder;->appendQueryParameter(Ljava/lang/String;Ljava/lang/String;)Landroid/net/Uri$Builder;
 
     move-result-object v1
 
-    .line 6
     invoke-virtual {v1}, Landroid/net/Uri$Builder;->build()Landroid/net/Uri;
 
     move-result-object v1
 
-    .line 7
     new-instance v2, Landroid/content/ContentValues;
 
     invoke-direct {v2}, Landroid/content/ContentValues;-><init>()V
 
-    .line 8
     iget-object v3, p0, Lcom/meitu/library/analytics/a$a;->b:[Lcom/meitu/library/analytics/y/l/j/b$a;
 
     array-length v4, v3
@@ -133,7 +124,6 @@
 
     if-eqz v6, :cond_1
 
-    .line 9
     iget-object v7, v6, Lcom/meitu/library/analytics/y/l/j/b$a;->a:Ljava/lang/String;
 
     invoke-static {v7}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
@@ -144,7 +134,6 @@
 
     iget-object v7, v6, Lcom/meitu/library/analytics/y/l/j/b$a;->b:Ljava/lang/String;
 
-    .line 10
     invoke-static {v7}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v7
@@ -153,7 +142,6 @@
 
     goto :goto_1
 
-    .line 11
     :cond_0
     iget-object v7, v6, Lcom/meitu/library/analytics/y/l/j/b$a;->a:Ljava/lang/String;
 
@@ -167,7 +155,6 @@
 
     goto :goto_0
 
-    .line 12
     :cond_2
     invoke-static {}, Lcom/meitu/library/analytics/sdk/content/f;->S()Lcom/meitu/library/analytics/sdk/content/f;
 
@@ -183,7 +170,6 @@
 
     const/4 v4, 0x0
 
-    .line 13
     :try_start_0
     invoke-virtual {v3, v1, v2}, Landroid/content/ContentResolver;->insert(Landroid/net/Uri;Landroid/content/ContentValues;)Landroid/net/Uri;
 
@@ -196,13 +182,11 @@
     :catch_0
     move-exception v1
 
-    .line 14
     invoke-virtual {v1}, Ljava/lang/Exception;->printStackTrace()V
 
     :goto_2
     if-nez v4, :cond_3
 
-    .line 15
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -223,7 +207,6 @@
 
     invoke-static {v2, v1}, Lcom/meitu/library/analytics/y/j/d;->d(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 16
     :cond_3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

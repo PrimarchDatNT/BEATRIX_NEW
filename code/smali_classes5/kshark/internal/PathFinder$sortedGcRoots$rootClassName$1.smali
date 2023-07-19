@@ -60,7 +60,6 @@
 .method public bridge synthetic invoke(Ljava/lang/Object;)Ljava/lang/Object;
     .locals 0
 
-    .line 1
     check-cast p1, Lkshark/HeapObject;
 
     invoke-virtual {p0, p1}, Lkshark/internal/PathFinder$sortedGcRoots$rootClassName$1;->invoke(Lkshark/HeapObject;)Ljava/lang/String;
@@ -83,12 +82,10 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 2
     instance-of v0, p1, Lkshark/HeapObject$HeapClass;
 
     if-eqz v0, :cond_0
 
-    .line 3
     check-cast p1, Lkshark/HeapObject$HeapClass;
 
     invoke-virtual {p1}, Lkshark/HeapObject$HeapClass;->p()Ljava/lang/String;
@@ -97,13 +94,11 @@
 
     goto :goto_0
 
-    .line 4
     :cond_0
     instance-of v0, p1, Lkshark/HeapObject$HeapInstance;
 
     if-eqz v0, :cond_1
 
-    .line 5
     check-cast p1, Lkshark/HeapObject$HeapInstance;
 
     invoke-virtual {p1}, Lkshark/HeapObject$HeapInstance;->p()Ljava/lang/String;
@@ -112,13 +107,11 @@
 
     goto :goto_0
 
-    .line 6
     :cond_1
     instance-of v0, p1, Lkshark/HeapObject$HeapObjectArray;
 
     if-eqz v0, :cond_2
 
-    .line 7
     check-cast p1, Lkshark/HeapObject$HeapObjectArray;
 
     invoke-virtual {p1}, Lkshark/HeapObject$HeapObjectArray;->k()Ljava/lang/String;
@@ -127,13 +120,11 @@
 
     goto :goto_0
 
-    .line 8
     :cond_2
     instance-of v0, p1, Lkshark/HeapObject$b;
 
     if-eqz v0, :cond_3
 
-    .line 9
     check-cast p1, Lkshark/HeapObject$b;
 
     invoke-virtual {p1}, Lkshark/HeapObject$b;->j()Ljava/lang/String;

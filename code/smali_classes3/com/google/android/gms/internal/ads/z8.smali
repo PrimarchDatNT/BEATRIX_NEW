@@ -26,19 +26,16 @@
 .method public final apply(Ljava/lang/Object;)Z
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/z8;->a:Lcom/google/android/gms/internal/ads/g6;
 
     check-cast p1, Lcom/google/android/gms/internal/ads/g6;
 
-    .line 2
     instance-of v1, p1, Lcom/google/android/gms/internal/ads/h9;
 
     if-eqz v1, :cond_0
 
     check-cast p1, Lcom/google/android/gms/internal/ads/h9;
 
-    .line 3
     invoke-static {p1}, Lcom/google/android/gms/internal/ads/h9;->b(Lcom/google/android/gms/internal/ads/h9;)Lcom/google/android/gms/internal/ads/g6;
 
     move-result-object p1

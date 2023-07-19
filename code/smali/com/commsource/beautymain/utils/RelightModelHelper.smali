@@ -30,14 +30,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/commsource/beautymain/utils/RelightModelHelper;
 
     invoke-direct {v1}, Lcom/commsource/beautymain/utils/RelightModelHelper;-><init>()V
 
     sput-object v1, Lcom/commsource/beautymain/utils/RelightModelHelper;->b:Lcom/commsource/beautymain/utils/RelightModelHelper;
 
-    .line 2
     sget-object v1, Lcom/commsource/beautymain/utils/RelightModelHelper$downloadObserver$2;->INSTANCE:Lcom/commsource/beautymain/utils/RelightModelHelper$downloadObserver$2;
 
     invoke-static {v1}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
@@ -54,7 +52,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -67,14 +64,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/commsource/beautymain/utils/RelightModelHelper$a;
 
     invoke-direct {v1}, Lcom/commsource/beautymain/utils/RelightModelHelper$a;-><init>()V
 
     sget v2, Lcom/res/provider/ResSTRING;->relight_online_materials:I
 
-    .line 2
     invoke-virtual {p1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
     move-result-object p1
@@ -83,20 +78,16 @@
 
     invoke-static {p1, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 3
     invoke-virtual {v1, p1}, Lcom/commsource/beautymain/utils/g;->l(Ljava/lang/String;)V
 
-    .line 4
     invoke-virtual {v1, p1}, Lcom/commsource/beautymain/utils/g;->j(Ljava/lang/String;)V
 
-    .line 5
     sget-object v2, Lcom/commsource/studio/processor/k;->N:Lcom/commsource/studio/processor/k$a;
 
     invoke-virtual {v2}, Lcom/commsource/studio/processor/k$a;->a()Ljava/lang/String;
 
     move-result-object v2
 
-    .line 6
     new-instance v9, Ljava/lang/StringBuilder;
 
     invoke-direct {v9}, Ljava/lang/StringBuilder;-><init>()V
@@ -143,15 +134,12 @@
 
     invoke-virtual {v1, p1}, Lcom/commsource/beautymain/utils/g;->g(Ljava/lang/String;)V
 
-    .line 7
     invoke-virtual {v1, v2}, Lcom/commsource/beautymain/utils/g;->k(Ljava/lang/String;)V
 
-    .line 8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
 
-    .line 9
     :cond_0
     new-instance p1, Ljava/lang/NullPointerException;
 
@@ -173,28 +161,24 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
     move-result-object v1
 
     const-string v2, "context"
 
-    .line 2
     invoke-static {v1, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-direct {p0, v1}, Lcom/commsource/beautymain/utils/RelightModelHelper;->b(Landroid/content/Context;)Lcom/commsource/beautymain/utils/RelightModelHelper$a;
 
     move-result-object v2
 
-    .line 3
     invoke-static {v1}, Lf/d/i/h;->t0(Landroid/content/Context;)Z
 
     move-result v3
 
     if-nez v3, :cond_0
 
-    .line 4
     sget-object v3, Lcom/commsource/material/c;->m:Lcom/commsource/material/c;
 
     invoke-virtual {v3}, Lcom/commsource/material/c;->b()Lcom/commsource/material/d;
@@ -211,12 +195,10 @@
 
     if-eqz v4, :cond_0
 
-    .line 5
     new-instance v4, Lcom/commsource/material/download/b/b$b;
 
     invoke-direct {v4}, Lcom/commsource/material/download/b/b$b;-><init>()V
 
-    .line 6
     new-instance v5, Lcom/commsource/material/download/c/d;
 
     invoke-virtual {v2}, Lcom/commsource/beautymain/utils/g;->f()Ljava/lang/String;
@@ -247,14 +229,12 @@
 
     move-result-object v3
 
-    .line 7
     new-instance v4, Lcom/commsource/beautymain/utils/RelightModelHelper$b;
 
     invoke-direct {v4, v2, v1}, Lcom/commsource/beautymain/utils/RelightModelHelper$b;-><init>(Lcom/commsource/beautymain/utils/RelightModelHelper$a;Landroid/content/Context;)V
 
     invoke-virtual {v3, v4}, Lcom/commsource/material/download/b/b$b;->c(Lcom/commsource/material/download/b/c;)Lcom/commsource/material/download/b/b;
 
-    .line 8
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -307,7 +287,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     sget-object v1, Lcom/commsource/material/c;->m:Lcom/commsource/material/c;
 
     invoke-virtual {v1}, Lcom/commsource/material/c;->b()Lcom/commsource/material/d;
@@ -344,7 +323,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     sget-object v1, Lcom/commsource/material/c;->m:Lcom/commsource/material/c;
 
     invoke-virtual {v1}, Lcom/commsource/material/c;->b()Lcom/commsource/material/d;
@@ -359,7 +337,6 @@
 
     invoke-virtual {v1, p1}, Lcom/commsource/material/d;->w(Ljava/lang/String;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

@@ -56,7 +56,6 @@
 
     new-array v0, v0, [B
 
-    .line 1
     fill-array-data v0, :array_0
 
     sput-object v0, Lcom/google/common/math/d;->c:[B
@@ -65,14 +64,12 @@
 
     new-array v1, v0, [I
 
-    .line 2
     fill-array-data v1, :array_1
 
     sput-object v1, Lcom/google/common/math/d;->d:[I
 
     new-array v0, v0, [I
 
-    .line 3
     fill-array-data v0, :array_2
 
     sput-object v0, Lcom/google/common/math/d;->e:[I
@@ -81,7 +78,6 @@
 
     new-array v0, v0, [I
 
-    .line 4
     fill-array-data v0, :array_3
 
     sput-object v0, Lcom/google/common/math/d;->g:[I
@@ -90,7 +86,6 @@
 
     new-array v0, v0, [I
 
-    .line 5
     fill-array-data v0, :array_4
 
     sput-object v0, Lcom/google/common/math/d;->h:[I
@@ -206,7 +201,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -217,12 +211,10 @@
 
     const-string v0, "n"
 
-    .line 1
     invoke-static {v0, p0}, Lcom/google/common/math/f;->e(Ljava/lang/String;I)I
 
     const-string v0, "k"
 
-    .line 2
     invoke-static {v0, p1}, Lcom/google/common/math/f;->e(Ljava/lang/String;I)I
 
     const/4 v0, 0x0
@@ -241,7 +233,6 @@
     :goto_0
     const-string v3, "k (%s) > n (%s)"
 
-    .line 3
     invoke-static {v2, v3, p1, p0}, Lcom/google/common/base/t;->m(ZLjava/lang/String;II)V
 
     shr-int/lit8 v2, p0, 0x1
@@ -250,7 +241,6 @@
 
     sub-int p1, p0, p1
 
-    .line 4
     :cond_1
     sget-object v2, Lcom/google/common/math/d;->h:[I
 
@@ -284,7 +274,6 @@
 
     int-to-long v3, v0
 
-    .line 5
     div-long/2addr v1, v3
 
     goto :goto_1
@@ -312,7 +301,6 @@
 
     const-string v0, "x"
 
-    .line 1
     invoke-static {v0, p0}, Lcom/google/common/math/f;->h(Ljava/lang/String;I)I
 
     const/high16 v0, 0x40000000    # 2.0f
@@ -323,7 +311,6 @@
 
     sub-int/2addr p0, v0
 
-    .line 2
     invoke-static {p0}, Ljava/lang/Integer;->numberOfLeadingZeros(I)I
 
     move-result p0
@@ -334,7 +321,6 @@
 
     return p0
 
-    .line 3
     :cond_0
     new-instance v0, Ljava/lang/ArithmeticException;
 
@@ -388,7 +374,6 @@
     :goto_0
     const-string v1, "checkedAdd"
 
-    .line 1
     invoke-static {v0, v1, p0, p1}, Lcom/google/common/math/f;->b(ZLjava/lang/String;II)V
 
     return v2
@@ -421,7 +406,6 @@
     :goto_0
     const-string v1, "checkedMultiply"
 
-    .line 1
     invoke-static {v0, v1, p0, p1}, Lcom/google/common/math/f;->b(ZLjava/lang/String;II)V
 
     return v2
@@ -432,7 +416,6 @@
 
     const-string v0, "exponent"
 
-    .line 1
     invoke-static {v0, p1}, Lcom/google/common/math/f;->e(Ljava/lang/String;I)I
 
     const/4 v0, -0x2
@@ -469,7 +452,6 @@
 
     if-eqz v2, :cond_1
 
-    .line 2
     invoke-static {v0, p0}, Lcom/google/common/math/d;->d(II)I
 
     move-result v0
@@ -505,14 +487,12 @@
     :goto_2
     and-int/2addr v2, v5
 
-    .line 3
     invoke-static {v2, v1, p0, p1}, Lcom/google/common/math/f;->b(ZLjava/lang/String;II)V
 
     mul-int p0, p0, p0
 
     goto :goto_0
 
-    .line 4
     :cond_4
     invoke-static {v0, p0}, Lcom/google/common/math/d;->d(II)I
 
@@ -530,7 +510,6 @@
 
     const/4 v3, 0x1
 
-    .line 5
     :cond_7
     invoke-static {v3, v1, p0, p1}, Lcom/google/common/math/f;->b(ZLjava/lang/String;II)V
 
@@ -566,7 +545,6 @@
 
     const/4 v3, 0x1
 
-    .line 6
     :cond_e
     invoke-static {v3, v1, p0, p1}, Lcom/google/common/math/f;->b(ZLjava/lang/String;II)V
 
@@ -612,7 +590,6 @@
     :goto_0
     const-string v1, "checkedSubtract"
 
-    .line 1
     invoke-static {v0, v1, p0, p1}, Lcom/google/common/math/f;->b(ZLjava/lang/String;II)V
 
     return v2
@@ -621,12 +598,10 @@
 .method public static g(IILjava/math/RoundingMode;)I
     .locals 5
 
-    .line 1
     invoke-static {p2}, Lcom/google/common/base/t;->E(Ljava/lang/Object;)Ljava/lang/Object;
 
     if-eqz p1, :cond_8
 
-    .line 2
     div-int v0, p0, p1
 
     mul-int v1, p1, v0
@@ -646,7 +621,6 @@
 
     or-int/2addr p0, v2
 
-    .line 3
     sget-object v3, Lcom/google/common/math/d$a;->a:[I
 
     invoke-virtual {p2}, Ljava/math/RoundingMode;->ordinal()I
@@ -659,20 +633,17 @@
 
     packed-switch v3, :pswitch_data_0
 
-    .line 4
     new-instance p0, Ljava/lang/AssertionError;
 
     invoke-direct {p0}, Ljava/lang/AssertionError;-><init>()V
 
     throw p0
 
-    .line 5
     :pswitch_0
     invoke-static {v1}, Ljava/lang/Math;->abs(I)I
 
     move-result v1
 
-    .line 6
     invoke-static {p1}, Ljava/lang/Math;->abs(I)I
 
     move-result p1
@@ -683,7 +654,6 @@
 
     if-nez v1, :cond_3
 
-    .line 7
     sget-object p1, Ljava/math/RoundingMode;->HALF_UP:Ljava/math/RoundingMode;
 
     if-eq p2, p1, :cond_6
@@ -741,7 +711,6 @@
     :cond_4
     const/4 v2, 0x0
 
-    .line 8
     :goto_2
     invoke-static {v2}, Lcom/google/common/math/f;->k(Z)V
 
@@ -759,7 +728,6 @@
     :cond_7
     return v0
 
-    .line 9
     :cond_8
     new-instance p0, Ljava/lang/ArithmeticException;
 
@@ -787,10 +755,8 @@
 
     const-string v0, "n"
 
-    .line 1
     invoke-static {v0, p0}, Lcom/google/common/math/f;->e(Ljava/lang/String;I)I
 
-    .line 2
     sget-object v0, Lcom/google/common/math/d;->g:[I
 
     array-length v1, v0
@@ -815,10 +781,8 @@
 
     const-string v0, "x"
 
-    .line 1
     invoke-static {v0, p0}, Lcom/google/common/math/f;->h(Ljava/lang/String;I)I
 
-    .line 2
     invoke-static {p0}, Ljava/lang/Integer;->highestOneBit(I)I
 
     move-result p0
@@ -831,12 +795,10 @@
 
     const-string v0, "a"
 
-    .line 1
     invoke-static {v0, p0}, Lcom/google/common/math/f;->e(Ljava/lang/String;I)I
 
     const-string v0, "b"
 
-    .line 2
     invoke-static {v0, p1}, Lcom/google/common/math/f;->e(Ljava/lang/String;I)I
 
     if-nez p0, :cond_0
@@ -848,7 +810,6 @@
 
     return p0
 
-    .line 3
     :cond_1
     invoke-static {p0}, Ljava/lang/Integer;->numberOfTrailingZeros(I)I
 
@@ -856,7 +817,6 @@
 
     shr-int/2addr p0, v0
 
-    .line 4
     invoke-static {p1}, Ljava/lang/Integer;->numberOfTrailingZeros(I)I
 
     move-result v1
@@ -878,7 +838,6 @@
 
     add-int/2addr p1, v2
 
-    .line 5
     invoke-static {p0}, Ljava/lang/Integer;->numberOfTrailingZeros(I)I
 
     move-result v2
@@ -887,7 +846,6 @@
 
     goto :goto_0
 
-    .line 6
     :cond_2
     invoke-static {v0, v1}, Ljava/lang/Math;->min(II)I
 
@@ -939,7 +897,6 @@
 
     int-to-long v0, p0
 
-    .line 1
     invoke-static {v0, v1}, Lcom/google/common/math/LongMath;->m(J)Z
 
     move-result p0
@@ -970,20 +927,16 @@
 
     const-string v0, "x"
 
-    .line 1
     invoke-static {v0, p0}, Lcom/google/common/math/f;->h(Ljava/lang/String;I)I
 
-    .line 2
     invoke-static {p0}, Lcom/google/common/math/d;->o(I)I
 
     move-result v0
 
-    .line 3
     sget-object v1, Lcom/google/common/math/d;->d:[I
 
     aget v1, v1, v0
 
-    .line 4
     sget-object v2, Lcom/google/common/math/d$a;->a:[I
 
     invoke-virtual {p1}, Ljava/math/RoundingMode;->ordinal()I
@@ -994,14 +947,12 @@
 
     packed-switch p1, :pswitch_data_0
 
-    .line 5
     new-instance p0, Ljava/lang/AssertionError;
 
     invoke-direct {p0}, Ljava/lang/AssertionError;-><init>()V
 
     throw p0
 
-    .line 6
     :pswitch_0
     sget-object p1, Lcom/google/common/math/d;->e:[I
 
@@ -1016,7 +967,6 @@
 
     return v0
 
-    .line 7
     :pswitch_1
     invoke-static {v1, p0}, Lcom/google/common/math/d;->m(II)I
 
@@ -1034,7 +984,6 @@
     :cond_0
     const/4 p0, 0x0
 
-    .line 8
     :goto_1
     invoke-static {p0}, Lcom/google/common/math/f;->k(Z)V
 
@@ -1057,7 +1006,6 @@
 .method private static o(I)I
     .locals 2
 
-    .line 1
     sget-object v0, Lcom/google/common/math/d;->c:[B
 
     invoke-static {p0}, Ljava/lang/Integer;->numberOfLeadingZeros(I)I
@@ -1066,7 +1014,6 @@
 
     aget-byte v0, v0, v1
 
-    .line 2
     sget-object v1, Lcom/google/common/math/d;->d:[I
 
     aget v1, v1, v0
@@ -1085,10 +1032,8 @@
 
     const-string v0, "x"
 
-    .line 1
     invoke-static {v0, p0}, Lcom/google/common/math/f;->h(Ljava/lang/String;I)I
 
-    .line 2
     sget-object v0, Lcom/google/common/math/d$a;->a:[I
 
     invoke-virtual {p1}, Ljava/math/RoundingMode;->ordinal()I
@@ -1099,14 +1044,12 @@
 
     packed-switch p1, :pswitch_data_0
 
-    .line 3
     new-instance p0, Ljava/lang/AssertionError;
 
     invoke-direct {p0}, Ljava/lang/AssertionError;-><init>()V
 
     throw p0
 
-    .line 4
     :pswitch_0
     invoke-static {p0}, Ljava/lang/Integer;->numberOfLeadingZeros(I)I
 
@@ -1118,7 +1061,6 @@
 
     rsub-int/lit8 p1, p1, 0x1f
 
-    .line 5
     invoke-static {v0, p0}, Lcom/google/common/math/d;->m(II)I
 
     move-result p0
@@ -1130,7 +1072,6 @@
     :pswitch_1
     add-int/lit8 p0, p0, -0x1
 
-    .line 6
     invoke-static {p0}, Ljava/lang/Integer;->numberOfLeadingZeros(I)I
 
     move-result p0
@@ -1139,7 +1080,6 @@
 
     return p0
 
-    .line 7
     :pswitch_2
     invoke-static {p0}, Lcom/google/common/math/d;->k(I)Z
 
@@ -1147,7 +1087,6 @@
 
     invoke-static {p1}, Lcom/google/common/math/f;->k(Z)V
 
-    .line 8
     :pswitch_3
     invoke-static {p0}, Ljava/lang/Integer;->numberOfLeadingZeros(I)I
 
@@ -1191,7 +1130,6 @@
 
     if-lez p1, :cond_1
 
-    .line 1
     rem-int/2addr p0, p1
 
     if-ltz p0, :cond_0
@@ -1204,7 +1142,6 @@
     :goto_0
     return p0
 
-    .line 2
     :cond_1
     new-instance p0, Ljava/lang/ArithmeticException;
 
@@ -1238,7 +1175,6 @@
 
     const-string v0, "exponent"
 
-    .line 1
     invoke-static {v0, p1}, Lcom/google/common/math/f;->e(Ljava/lang/String;I)I
 
     const/4 v0, -0x2
@@ -1364,7 +1300,6 @@
 
     add-long/2addr v0, p0
 
-    .line 1
     invoke-static {v0, v1}, Lcom/google/common/primitives/Ints;->x(J)I
 
     move-result p0
@@ -1383,7 +1318,6 @@
 
     mul-long v0, v0, p0
 
-    .line 1
     invoke-static {v0, v1}, Lcom/google/common/primitives/Ints;->x(J)I
 
     move-result p0
@@ -1398,7 +1332,6 @@
 
     const-string v0, "exponent"
 
-    .line 1
     invoke-static {v0, p1}, Lcom/google/common/math/f;->e(Ljava/lang/String;I)I
 
     const/4 v0, -0x2
@@ -1443,7 +1376,6 @@
 
     if-eqz v4, :cond_1
 
-    .line 2
     invoke-static {v1, p0}, Lcom/google/common/math/d;->u(II)I
 
     move-result v1
@@ -1488,7 +1420,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_5
     invoke-static {v1, p0}, Lcom/google/common/math/d;->u(II)I
 
@@ -1573,7 +1504,6 @@
 
     sub-long/2addr v0, p0
 
-    .line 1
     invoke-static {v0, v1}, Lcom/google/common/primitives/Ints;->x(J)I
 
     move-result p0
@@ -1588,15 +1518,12 @@
 
     const-string v0, "x"
 
-    .line 1
     invoke-static {v0, p0}, Lcom/google/common/math/f;->e(Ljava/lang/String;I)I
 
-    .line 2
     invoke-static {p0}, Lcom/google/common/math/d;->y(I)I
 
     move-result v0
 
-    .line 3
     sget-object v1, Lcom/google/common/math/d$a;->a:[I
 
     invoke-virtual {p1}, Ljava/math/RoundingMode;->ordinal()I
@@ -1607,7 +1534,6 @@
 
     packed-switch p1, :pswitch_data_0
 
-    .line 4
     new-instance p0, Ljava/lang/AssertionError;
 
     invoke-direct {p0}, Ljava/lang/AssertionError;-><init>()V
@@ -1619,7 +1545,6 @@
 
     add-int/2addr p1, v0
 
-    .line 5
     invoke-static {p1, p0}, Lcom/google/common/math/d;->m(II)I
 
     move-result p0
@@ -1632,7 +1557,6 @@
     :pswitch_1
     mul-int p1, v0, v0
 
-    .line 6
     invoke-static {p1, p0}, Lcom/google/common/math/d;->m(II)I
 
     move-result p0
@@ -1651,7 +1575,6 @@
     :cond_0
     const/4 p0, 0x0
 
-    .line 7
     :goto_1
     invoke-static {p0}, Lcom/google/common/math/f;->k(Z)V
 
@@ -1678,7 +1601,6 @@
 
     int-to-double v0, p0
 
-    .line 1
     invoke-static {v0, v1}, Ljava/lang/Math;->sqrt(D)D
 
     move-result-wide v0

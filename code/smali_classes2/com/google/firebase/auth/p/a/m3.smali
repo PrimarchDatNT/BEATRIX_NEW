@@ -128,24 +128,20 @@
 .method public constructor <init>(I)V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     new-instance v0, Lcom/google/firebase/auth/p/a/o3;
 
     invoke-direct {v0, p0}, Lcom/google/firebase/auth/p/a/o3;-><init>(Lcom/google/firebase/auth/p/a/m3;)V
 
     iput-object v0, p0, Lcom/google/firebase/auth/p/a/m3;->b:Lcom/google/firebase/auth/p/a/o3;
 
-    .line 3
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
 
     iput-object v0, p0, Lcom/google/firebase/auth/p/a/m3;->h:Ljava/util/List;
 
-    .line 4
     iput p1, p0, Lcom/google/firebase/auth/p/a/m3;->a:I
 
     return-void
@@ -154,7 +150,6 @@
 .method static synthetic f(Lcom/google/firebase/auth/p/a/m3;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/google/firebase/auth/p/a/m3;->n()V
 
     return-void
@@ -163,7 +158,6 @@
 .method static synthetic g(Lcom/google/firebase/auth/p/a/m3;Lcom/google/android/gms/common/api/Status;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/google/firebase/auth/p/a/m3;->l(Lcom/google/android/gms/common/api/Status;)V
 
     return-void
@@ -174,7 +168,6 @@
 
     const/4 p1, 0x1
 
-    .line 1
     iput-boolean p1, p0, Lcom/google/firebase/auth/p/a/m3;->v:Z
 
     return p1
@@ -183,12 +176,10 @@
 .method private final l(Lcom/google/android/gms/common/api/Status;)V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/auth/p/a/m3;->f:Lcom/google/firebase/auth/internal/s0;
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-interface {v0, p1}, Lcom/google/firebase/auth/internal/s0;->x0(Lcom/google/android/gms/common/api/Status;)V
 
     :cond_0
@@ -198,10 +189,8 @@
 .method private final n()V
     .locals 2
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/firebase/auth/p/a/m3;->m()V
 
-    .line 2
     iget-boolean v0, p0, Lcom/google/firebase/auth/p/a/m3;->v:Z
 
     const-string v1, "no success or failure set on method implementation"
@@ -226,7 +215,6 @@
 
     const/4 v0, 0x1
 
-    .line 1
     iput-boolean v0, p0, Lcom/google/firebase/auth/p/a/m3;->u:Z
 
     return-object p0
@@ -246,7 +234,6 @@
 
     const-string v0, "firebaseApp cannot be null"
 
-    .line 1
     invoke-static {p1, v0}, Lcom/google/android/gms/common/internal/b0;->l(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -272,12 +259,10 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/auth/p/a/m3;->h:Ljava/util/List;
 
     monitor-enter v0
 
-    .line 2
     :try_start_0
     iget-object v1, p0, Lcom/google/firebase/auth/p/a/m3;->h:Ljava/util/List;
 
@@ -289,22 +274,18 @@
 
     invoke-interface {v1, p1}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
-    .line 3
     monitor-exit v0
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 4
     iput-object p2, p0, Lcom/google/firebase/auth/p/a/m3;->i:Landroid/app/Activity;
 
     if-eqz p2, :cond_0
 
-    .line 5
     iget-object p1, p0, Lcom/google/firebase/auth/p/a/m3;->h:Ljava/util/List;
 
     invoke-static {p2, p1}, Lcom/google/firebase/auth/p/a/m3$a;->m(Landroid/app/Activity;Ljava/util/List;)V
 
-    .line 6
     :cond_0
     invoke-static {p3}, Lcom/google/android/gms/common/internal/b0;->k(Ljava/lang/Object;)Ljava/lang/Object;
 
@@ -319,7 +300,6 @@
     :catchall_0
     move-exception p1
 
-    .line 7
     :try_start_1
     monitor-exit v0
     :try_end_1
@@ -342,7 +322,6 @@
 
     const-string v0, "external failure callback cannot be null"
 
-    .line 1
     invoke-static {p1, v0}, Lcom/google/android/gms/common/internal/b0;->l(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -366,7 +345,6 @@
 
     const-string v0, "external callback cannot be null"
 
-    .line 1
     invoke-static {p1, v0}, Lcom/google/android/gms/common/internal/b0;->l(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -381,18 +359,14 @@
 
     const/4 v0, 0x1
 
-    .line 1
     iput-boolean v0, p0, Lcom/google/firebase/auth/p/a/m3;->v:Z
 
     const/4 v0, 0x0
 
-    .line 2
     iput-boolean v0, p0, Lcom/google/firebase/auth/p/a/m3;->w:Z
 
-    .line 3
     iput-object p1, p0, Lcom/google/firebase/auth/p/a/m3;->y:Lcom/google/android/gms/common/api/Status;
 
-    .line 4
     iget-object v0, p0, Lcom/google/firebase/auth/p/a/m3;->g:Lcom/google/firebase/auth/p/a/k3;
 
     const/4 v1, 0x0
@@ -412,16 +386,12 @@
 
     const/4 v0, 0x1
 
-    .line 1
     iput-boolean v0, p0, Lcom/google/firebase/auth/p/a/m3;->v:Z
 
-    .line 2
     iput-boolean v0, p0, Lcom/google/firebase/auth/p/a/m3;->w:Z
 
-    .line 3
     iput-object p1, p0, Lcom/google/firebase/auth/p/a/m3;->x:Ljava/lang/Object;
 
-    .line 4
     iget-object v0, p0, Lcom/google/firebase/auth/p/a/m3;->g:Lcom/google/firebase/auth/p/a/k3;
 
     const/4 v1, 0x0
@@ -448,7 +418,6 @@
 
     const-string v0, "firebaseUser cannot be null"
 
-    .line 1
     invoke-static {p1, v0}, Lcom/google/android/gms/common/internal/b0;->l(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1

@@ -36,10 +36,8 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     invoke-static {}, Lcom/bumptech/glide/load/resource/bitmap/v;->a()Lcom/bumptech/glide/load/resource/bitmap/v;
 
     move-result-object v0
@@ -67,7 +65,6 @@
         }
     .end annotation
 
-    .line 1
     check-cast p1, Landroid/graphics/ImageDecoder$Source;
 
     invoke-virtual {p0, p1, p2}, Lcom/bumptech/glide/load/l/a;->e(Landroid/graphics/ImageDecoder$Source;Lcom/bumptech/glide/load/f;)Z
@@ -96,7 +93,6 @@
         }
     .end annotation
 
-    .line 1
     check-cast p1, Landroid/graphics/ImageDecoder$Source;
 
     invoke-virtual {p0, p1, p2, p3, p4}, Lcom/bumptech/glide/load/l/a;->d(Landroid/graphics/ImageDecoder$Source;IILcom/bumptech/glide/load/f;)Lcom/bumptech/glide/load/engine/s;
@@ -157,7 +153,6 @@
         }
     .end annotation
 
-    .line 1
     sget-object v0, Lcom/bumptech/glide/load/resource/bitmap/p;->g:Lcom/bumptech/glide/load/e;
 
     invoke-virtual {p4, v0}, Lcom/bumptech/glide/load/f;->c(Lcom/bumptech/glide/load/e;)Ljava/lang/Object;
@@ -168,7 +163,6 @@
 
     check-cast v6, Lcom/bumptech/glide/load/DecodeFormat;
 
-    .line 2
     sget-object v0, Lcom/bumptech/glide/load/resource/bitmap/DownsampleStrategy;->h:Lcom/bumptech/glide/load/e;
 
     invoke-virtual {p4, v0}, Lcom/bumptech/glide/load/f;->c(Lcom/bumptech/glide/load/e;)Ljava/lang/Object;
@@ -179,17 +173,14 @@
 
     check-cast v7, Lcom/bumptech/glide/load/resource/bitmap/DownsampleStrategy;
 
-    .line 3
     sget-object v0, Lcom/bumptech/glide/load/resource/bitmap/p;->k:Lcom/bumptech/glide/load/e;
 
-    .line 4
     invoke-virtual {p4, v0}, Lcom/bumptech/glide/load/f;->c(Lcom/bumptech/glide/load/e;)Ljava/lang/Object;
 
     move-result-object v1
 
     if-eqz v1, :cond_0
 
-    .line 5
     invoke-virtual {p4, v0}, Lcom/bumptech/glide/load/f;->c(Lcom/bumptech/glide/load/e;)Ljava/lang/Object;
 
     move-result-object v0
@@ -213,7 +204,6 @@
 
     const/4 v5, 0x0
 
-    .line 6
     :goto_0
     sget-object v0, Lcom/bumptech/glide/load/resource/bitmap/p;->h:Lcom/bumptech/glide/load/e;
 
@@ -225,7 +215,6 @@
 
     check-cast v8, Lcom/bumptech/glide/load/PreferredColorSpace;
 
-    .line 7
     new-instance p4, Lcom/bumptech/glide/load/l/a$a;
 
     move-object v1, p4

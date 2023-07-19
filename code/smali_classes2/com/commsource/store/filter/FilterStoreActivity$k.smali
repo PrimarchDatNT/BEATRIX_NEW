@@ -25,7 +25,6 @@
 
     iput-object p2, p0, Lcom/commsource/store/filter/FilterStoreActivity$k;->d:Lcom/commsource/store/filter/FilterStoreActivity;
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/commsource/widget/title/c;-><init>(I)V
 
     return-void
@@ -56,7 +55,6 @@
 
     const/4 v3, 0x5
 
-    .line 1
     invoke-static {v3}, Lcom/commsource/util/l0;->n(I)I
 
     move-result v3
@@ -87,10 +85,8 @@
 
     const-string v0, "filter_store_search_enter"
 
-    .line 1
     invoke-static {v0}, Lcom/commsource/statistics/i;->p(Ljava/lang/String;)V
 
-    .line 2
     sget-object v0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/FragmentBuilder;->d:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/FragmentBuilder$a;
 
     invoke-virtual {v0}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/FragmentBuilder$a;->a()Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/FragmentBuilder;
@@ -117,7 +113,6 @@
 
     invoke-virtual {v0, v1, v2, v3, v4}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/FragmentBuilder;->f(Landroid/view/View;Ljava/lang/Class;II)Lcom/commsource/beautyplus/i0/a;
 
-    .line 3
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

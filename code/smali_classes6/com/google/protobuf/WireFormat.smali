@@ -53,7 +53,6 @@
 
     const/4 v1, 0x3
 
-    .line 1
     invoke-static {v0, v1}, Lcom/google/protobuf/WireFormat;->c(II)I
 
     move-result v2
@@ -62,7 +61,6 @@
 
     const/4 v2, 0x4
 
-    .line 2
     invoke-static {v0, v2}, Lcom/google/protobuf/WireFormat;->c(II)I
 
     move-result v0
@@ -73,14 +71,12 @@
 
     const/4 v2, 0x0
 
-    .line 3
     invoke-static {v0, v2}, Lcom/google/protobuf/WireFormat;->c(II)I
 
     move-result v2
 
     sput v2, Lcom/google/protobuf/WireFormat;->n:I
 
-    .line 4
     invoke-static {v1, v0}, Lcom/google/protobuf/WireFormat;->c(II)I
 
     move-result v0
@@ -93,7 +89,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -133,7 +128,6 @@
         }
     .end annotation
 
-    .line 1
     sget-object v0, Lcom/google/protobuf/WireFormat$a;->a:[I
 
     invoke-virtual {p1}, Ljava/lang/Enum;->ordinal()I
@@ -144,7 +138,6 @@
 
     packed-switch p1, :pswitch_data_0
 
-    .line 2
     new-instance p0, Ljava/lang/RuntimeException;
 
     const-string p1, "There is no way to get here, but the compiler thinks otherwise."
@@ -153,7 +146,6 @@
 
     throw p0
 
-    .line 3
     :pswitch_0
     new-instance p0, Ljava/lang/IllegalArgumentException;
 
@@ -163,7 +155,6 @@
 
     throw p0
 
-    .line 4
     :pswitch_1
     new-instance p0, Ljava/lang/IllegalArgumentException;
 
@@ -173,7 +164,6 @@
 
     throw p0
 
-    .line 5
     :pswitch_2
     new-instance p0, Ljava/lang/IllegalArgumentException;
 
@@ -183,7 +173,6 @@
 
     throw p0
 
-    .line 6
     :pswitch_3
     invoke-virtual {p2, p0}, Lcom/google/protobuf/WireFormat$Utf8Validation;->readString(Lcom/google/protobuf/q;)Ljava/lang/Object;
 
@@ -191,7 +180,6 @@
 
     return-object p0
 
-    .line 7
     :pswitch_4
     invoke-virtual {p0}, Lcom/google/protobuf/q;->U()J
 
@@ -203,7 +191,6 @@
 
     return-object p0
 
-    .line 8
     :pswitch_5
     invoke-virtual {p0}, Lcom/google/protobuf/q;->T()I
 
@@ -215,7 +202,6 @@
 
     return-object p0
 
-    .line 9
     :pswitch_6
     invoke-virtual {p0}, Lcom/google/protobuf/q;->S()J
 
@@ -227,7 +213,6 @@
 
     return-object p0
 
-    .line 10
     :pswitch_7
     invoke-virtual {p0}, Lcom/google/protobuf/q;->R()I
 
@@ -239,7 +224,6 @@
 
     return-object p0
 
-    .line 11
     :pswitch_8
     invoke-virtual {p0}, Lcom/google/protobuf/q;->Y()I
 
@@ -251,7 +235,6 @@
 
     return-object p0
 
-    .line 12
     :pswitch_9
     invoke-virtual {p0}, Lcom/google/protobuf/q;->v()Lcom/google/protobuf/ByteString;
 
@@ -259,7 +242,6 @@
 
     return-object p0
 
-    .line 13
     :pswitch_a
     invoke-virtual {p0}, Lcom/google/protobuf/q;->s()Z
 
@@ -271,7 +253,6 @@
 
     return-object p0
 
-    .line 14
     :pswitch_b
     invoke-virtual {p0}, Lcom/google/protobuf/q;->y()I
 
@@ -283,7 +264,6 @@
 
     return-object p0
 
-    .line 15
     :pswitch_c
     invoke-virtual {p0}, Lcom/google/protobuf/q;->z()J
 
@@ -295,7 +275,6 @@
 
     return-object p0
 
-    .line 16
     :pswitch_d
     invoke-virtual {p0}, Lcom/google/protobuf/q;->D()I
 
@@ -307,7 +286,6 @@
 
     return-object p0
 
-    .line 17
     :pswitch_e
     invoke-virtual {p0}, Lcom/google/protobuf/q;->Z()J
 
@@ -319,7 +297,6 @@
 
     return-object p0
 
-    .line 18
     :pswitch_f
     invoke-virtual {p0}, Lcom/google/protobuf/q;->E()J
 
@@ -331,7 +308,6 @@
 
     return-object p0
 
-    .line 19
     :pswitch_10
     invoke-virtual {p0}, Lcom/google/protobuf/q;->A()F
 
@@ -343,7 +319,6 @@
 
     return-object p0
 
-    .line 20
     :pswitch_11
     invoke-virtual {p0}, Lcom/google/protobuf/q;->w()D
 

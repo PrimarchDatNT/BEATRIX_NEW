@@ -48,12 +48,10 @@
 .method constructor <init>(Lcom/google/common/collect/ImmutableRangeSet$AsSet;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/common/collect/ImmutableRangeSet$AsSet$b;->f:Lcom/google/common/collect/ImmutableRangeSet$AsSet;
 
     invoke-direct {p0}, Lcom/google/common/collect/AbstractIterator;-><init>()V
 
-    .line 2
     iget-object p1, p1, Lcom/google/common/collect/ImmutableRangeSet$AsSet;->this$0:Lcom/google/common/collect/ImmutableRangeSet;
 
     invoke-static {p1}, Lcom/google/common/collect/ImmutableRangeSet;->access$000(Lcom/google/common/collect/ImmutableRangeSet;)Lcom/google/common/collect/ImmutableList;
@@ -70,7 +68,6 @@
 
     iput-object p1, p0, Lcom/google/common/collect/ImmutableRangeSet$AsSet$b;->c:Ljava/util/Iterator;
 
-    .line 3
     invoke-static {}, Lcom/google/common/collect/Iterators;->u()Lcom/google/common/collect/l2;
 
     move-result-object p1
@@ -85,7 +82,6 @@
 .method protected bridge synthetic a()Ljava/lang/Object;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/collect/ImmutableRangeSet$AsSet$b;->d()Ljava/lang/Comparable;
 
     move-result-object v0
@@ -101,7 +97,6 @@
         }
     .end annotation
 
-    .line 1
     :goto_0
     iget-object v0, p0, Lcom/google/common/collect/ImmutableRangeSet$AsSet$b;->d:Ljava/util/Iterator;
 
@@ -111,7 +106,6 @@
 
     if-nez v0, :cond_1
 
-    .line 2
     iget-object v0, p0, Lcom/google/common/collect/ImmutableRangeSet$AsSet$b;->c:Ljava/util/Iterator;
 
     invoke-interface {v0}, Ljava/util/Iterator;->hasNext()Z
@@ -120,7 +114,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 3
     iget-object v0, p0, Lcom/google/common/collect/ImmutableRangeSet$AsSet$b;->c:Ljava/util/Iterator;
 
     invoke-interface {v0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
@@ -147,7 +140,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_0
     invoke-virtual {p0}, Lcom/google/common/collect/AbstractIterator;->b()Ljava/lang/Object;
 
@@ -157,7 +149,6 @@
 
     return-object v0
 
-    .line 5
     :cond_1
     iget-object v0, p0, Lcom/google/common/collect/ImmutableRangeSet$AsSet$b;->d:Ljava/util/Iterator;
 

@@ -53,17 +53,14 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-direct {p0, p1}, Landroidx/lifecycle/AndroidViewModel;-><init>(Landroid/app/Application;)V
 
-    .line 2
     new-instance p1, Landroidx/lifecycle/MutableLiveData;
 
     invoke-direct {p1}, Landroidx/lifecycle/MutableLiveData;-><init>()V
 
     iput-object p1, p0, Lcom/commsource/studio/function/c;->a:Landroidx/lifecycle/MutableLiveData;
 
-    .line 3
     new-instance p1, Landroidx/lifecycle/MutableLiveData;
 
     invoke-direct {p1}, Landroidx/lifecycle/MutableLiveData;-><init>()V
@@ -80,12 +77,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p1}, Lcom/meitu/http/api/OpenLabApi$ResponseMediaInfo;->getMedia_data()Ljava/lang/String;
 
     move-result-object p1
 
-    .line 2
     new-instance v1, Ljava/net/URL;
 
     invoke-direct {v1, p1}, Ljava/net/URL;-><init>(Ljava/lang/String;)V
@@ -94,22 +89,18 @@
 
     move-result-object p1
 
-    .line 3
     invoke-static {p1}, Landroid/graphics/BitmapFactory;->decodeStream(Ljava/io/InputStream;)Landroid/graphics/Bitmap;
 
     move-result-object v1
 
-    .line 4
     invoke-static {p1}, Lcom/meitu/library/p/g/e;->a(Ljava/io/Closeable;)V
 
-    .line 5
     invoke-static {v1}, Lcom/meitu/library/p/e/a;->z(Landroid/graphics/Bitmap;)Z
 
     move-result p1
 
     if-nez p1, :cond_0
 
-    .line 6
     sget-object p1, Landroid/graphics/Bitmap$Config;->ARGB_8888:Landroid/graphics/Bitmap$Config;
 
     invoke-static {p2, p3, p1}, Landroid/graphics/Bitmap;->createBitmap(IILandroid/graphics/Bitmap$Config;)Landroid/graphics/Bitmap;
@@ -124,7 +115,6 @@
 
     return-object p1
 
-    .line 7
     :cond_0
     invoke-static {v1, p2, p3}, Lcom/meitu/library/p/e/a;->b0(Landroid/graphics/Bitmap;II)Landroid/graphics/Bitmap;
 
@@ -136,7 +126,6 @@
 
     const p3, 0x3af2b9d6
 
-    .line 8
     invoke-static {p1, p2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {p1}, Landroid/graphics/Bitmap;->getWidth()I
@@ -149,10 +138,8 @@
 
     float-to-int p3, p4
 
-    .line 9
     invoke-static {p1, p3}, Lcom/meitu/core/processor/MteBaseEffectUtil;->maxFilter(Landroid/graphics/Bitmap;I)Z
 
-    .line 10
     :cond_1
     invoke-static {p1, p2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
@@ -170,7 +157,6 @@
 
     move-result-object p2
 
-    .line 11
     invoke-virtual {p1}, Landroid/graphics/Bitmap;->getWidth()I
 
     move-result p3
@@ -185,7 +171,6 @@
 
     const/4 v3, 0x0
 
-    .line 12
     invoke-virtual {p1}, Landroid/graphics/Bitmap;->getWidth()I
 
     move-result v4
@@ -194,12 +179,10 @@
 
     const/4 v6, 0x0
 
-    .line 13
     invoke-virtual {p1}, Landroid/graphics/Bitmap;->getWidth()I
 
     move-result v7
 
-    .line 14
     invoke-virtual {p1}, Landroid/graphics/Bitmap;->getHeight()I
 
     move-result v8
@@ -208,10 +191,8 @@
 
     move-object v2, p3
 
-    .line 15
     invoke-virtual/range {v1 .. v8}, Landroid/graphics/Bitmap;->getPixels([IIIIIII)V
 
-    .line 16
     invoke-virtual {p1}, Landroid/graphics/Bitmap;->getHeight()I
 
     move-result p4
@@ -223,7 +204,6 @@
     :goto_0
     if-ge v2, p4, :cond_3
 
-    .line 17
     invoke-virtual {p1}, Landroid/graphics/Bitmap;->getWidth()I
 
     move-result v3
@@ -233,7 +213,6 @@
     :goto_1
     if-ge v4, v3, :cond_2
 
-    .line 18
     invoke-virtual {p1}, Landroid/graphics/Bitmap;->getWidth()I
 
     move-result v5
@@ -242,7 +221,6 @@
 
     add-int/2addr v5, v4
 
-    .line 19
     aget v6, p3, v5
 
     invoke-static {v6}, Landroid/graphics/Color;->red(I)I
@@ -269,7 +247,6 @@
     :cond_3
     const/4 v3, 0x0
 
-    .line 20
     invoke-virtual {p1}, Landroid/graphics/Bitmap;->getWidth()I
 
     move-result v4
@@ -278,12 +255,10 @@
 
     const/4 v6, 0x0
 
-    .line 21
     invoke-virtual {p1}, Landroid/graphics/Bitmap;->getWidth()I
 
     move-result v7
 
-    .line 22
     invoke-virtual {p1}, Landroid/graphics/Bitmap;->getHeight()I
 
     move-result v8
@@ -292,12 +267,10 @@
 
     move-object v2, p3
 
-    .line 23
     invoke-virtual/range {v1 .. v8}, Landroid/graphics/Bitmap;->setPixels([IIIIIII)V
 
     const-string p1, "result"
 
-    .line 24
     invoke-static {p2, p1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -312,7 +285,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0, p1, p2, p3, p4}, Lcom/commsource/studio/function/c;->C(Lcom/meitu/http/api/OpenLabApi$ResponseMediaInfo;IIZ)Landroid/graphics/Bitmap;
 
     move-result-object p0
@@ -331,7 +303,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/function/c;->c:Lf/k/k/d;
 
     if-eqz v1, :cond_0
@@ -341,10 +312,8 @@
     :cond_0
     const/4 v1, 0x0
 
-    .line 2
     iput-object v1, p0, Lcom/commsource/studio/function/c;->c:Lf/k/k/d;
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -385,12 +354,10 @@
 
     if-nez p2, :cond_0
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
 
-    .line 2
     :cond_0
     :try_start_0
     invoke-interface {p1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
@@ -412,7 +379,6 @@
 
     const/4 v3, 0x0
 
-    .line 3
     aget v3, p2, v3
 
     float-to-int v3, v3
@@ -433,20 +399,17 @@
 
     if-eqz v3, :cond_1
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
     return-object v2
 
-    .line 5
     :cond_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
 
-    .line 6
     :catch_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -472,7 +435,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/function/c;->a:Landroidx/lifecycle/MutableLiveData;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -498,7 +460,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/function/c;->b:Landroidx/lifecycle/MutableLiveData;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -515,7 +476,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/function/c;->c:Lf/k/k/d;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -530,7 +490,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/function/c;->a:Landroidx/lifecycle/MutableLiveData;
 
     invoke-virtual {v1}, Landroidx/lifecycle/LiveData;->getValue()Ljava/lang/Object;
@@ -563,7 +522,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/function/c;->c:Lf/k/k/d;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -586,7 +544,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     new-instance v1, Lcom/commsource/studio/function/c$a;
 
     invoke-direct {v1, p0, p1, p2, p3}, Lcom/commsource/studio/function/c$a;-><init>(Lcom/commsource/studio/function/c;Landroid/graphics/Bitmap;II)V
@@ -595,7 +552,6 @@
 
     invoke-static {p1, v1}, Lcom/commsource/util/c2;->h(Ljava/lang/String;Ljava/lang/Runnable;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

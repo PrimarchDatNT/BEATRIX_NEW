@@ -74,7 +74,6 @@
 
     invoke-static {p0, p1}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     new-instance p0, Ljava/lang/Error;
 
     const-string p1, "Operation is disallowed."
@@ -105,7 +104,6 @@
 
     invoke-static {p0, p1}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     new-instance p0, Ljava/lang/Error;
 
     const-string p1, "Operation is disallowed."

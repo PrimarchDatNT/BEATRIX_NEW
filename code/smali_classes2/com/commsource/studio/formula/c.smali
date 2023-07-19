@@ -38,14 +38,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/commsource/studio/formula/c;
 
     invoke-direct {v1}, Lcom/commsource/studio/formula/c;-><init>()V
 
     sput-object v1, Lcom/commsource/studio/formula/c;->v:Lcom/commsource/studio/formula/c;
 
-    .line 2
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -80,7 +78,6 @@
 .method private constructor <init>()V
     .locals 2
 
-    .line 1
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
     move-result-object v0
@@ -103,32 +100,26 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/commsource/studio/formula/JsFormula;
 
     invoke-direct {v1}, Lcom/commsource/studio/formula/JsFormula;-><init>()V
 
     const/4 v2, 0x1
 
-    .line 2
     invoke-virtual {v1, v2}, Lcom/meitu/template/bean/e;->setInternalState(I)V
 
     const-string v2, "BP_TEM_00000017"
 
-    .line 3
     invoke-virtual {v1, v2}, Lcom/commsource/studio/formula/JsFormula;->setFormulaId(Ljava/lang/String;)V
 
     const-string v2, "-2"
 
-    .line 4
     invoke-virtual {v1, v2}, Lcom/commsource/studio/formula/JsFormula;->setCategoryId(Ljava/lang/String;)V
 
     const/4 v2, 0x0
 
-    .line 5
     invoke-virtual {v1, v2}, Lcom/commsource/studio/formula/JsFormula;->setPaidState(I)V
 
-    .line 6
     new-instance v3, Ljava/lang/StringBuilder;
 
     invoke-direct {v3}, Ljava/lang/StringBuilder;-><init>()V
@@ -149,28 +140,22 @@
 
     const-string v3, "studio/formula/BP_TEM_00000017/config.json"
 
-    .line 7
     invoke-virtual {v1, v3}, Lcom/commsource/studio/formula/JsFormula;->setFormulaConfig(Ljava/lang/String;)V
 
     const-string v3, "1080:1920"
 
-    .line 8
     invoke-virtual {v1, v3}, Lcom/commsource/studio/formula/JsFormula;->setIconRatio(Ljava/lang/String;)V
 
     const-wide/16 v3, 0x0
 
-    .line 9
     invoke-virtual {v1, v3, v4}, Lcom/commsource/studio/formula/JsFormula;->setCreateTime(J)V
 
     const-wide/16 v3, 0x1
 
-    .line 10
     invoke-virtual {v1, v3, v4}, Lcom/commsource/studio/formula/JsFormula;->setRecommendState(J)V
 
-    .line 11
     invoke-virtual {v1, v2}, Lcom/commsource/studio/formula/JsFormula;->setRecommendSort(I)V
 
-    .line 12
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
@@ -194,77 +179,60 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/util/ArrayList;
 
     invoke-direct {v1}, Ljava/util/ArrayList;-><init>()V
 
-    .line 2
     new-instance v2, Lcom/commsource/studio/formula/FormulaCategory;
 
     invoke-direct {v2}, Lcom/commsource/studio/formula/FormulaCategory;-><init>()V
 
     const/4 v3, -0x1
 
-    .line 3
     invoke-virtual {v2, v3}, Lcom/commsource/studio/formula/FormulaCategory;->setCategorySort(I)V
 
     const-string v3, "-2"
 
-    .line 4
     invoke-virtual {v2, v3}, Lcom/commsource/studio/formula/FormulaCategory;->setCategoryId(Ljava/lang/String;)V
 
     const/4 v3, 0x1
 
-    .line 5
     invoke-virtual {v2, v3}, Lcom/commsource/studio/formula/FormulaCategory;->setInternalState(I)V
 
-    .line 6
     invoke-virtual {v1, v2}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    .line 7
     new-instance v2, Lcom/commsource/studio/formula/FormulaCategory;
 
     invoke-direct {v2}, Lcom/commsource/studio/formula/FormulaCategory;-><init>()V
 
     const/4 v4, -0x2
 
-    .line 8
     invoke-virtual {v2, v4}, Lcom/commsource/studio/formula/FormulaCategory;->setCategorySort(I)V
 
     const-string v4, "-8"
 
-    .line 9
     invoke-virtual {v2, v4}, Lcom/commsource/studio/formula/FormulaCategory;->setCategoryId(Ljava/lang/String;)V
 
-    .line 10
     invoke-virtual {v2, v3}, Lcom/commsource/studio/formula/FormulaCategory;->setInternalState(I)V
 
-    .line 11
     invoke-virtual {v1, v2}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    .line 12
     new-instance v2, Lcom/commsource/studio/formula/FormulaCategory;
 
     invoke-direct {v2}, Lcom/commsource/studio/formula/FormulaCategory;-><init>()V
 
     const/4 v4, -0x3
 
-    .line 13
     invoke-virtual {v2, v4}, Lcom/commsource/studio/formula/FormulaCategory;->setCategorySort(I)V
 
     const-string v4, "-9"
 
-    .line 14
     invoke-virtual {v2, v4}, Lcom/commsource/studio/formula/FormulaCategory;->setCategoryId(Ljava/lang/String;)V
 
-    .line 15
     invoke-virtual {v2, v3}, Lcom/commsource/studio/formula/FormulaCategory;->setInternalState(I)V
 
-    .line 16
     invoke-virtual {v1, v2}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    .line 17
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
@@ -295,7 +263,6 @@
 
     invoke-static {p2, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -354,14 +321,12 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-virtual {p1}, Lcom/commsource/studio/formula/JsFormula;->isInternal()Z
 
     move-result v1
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-virtual {p1}, Lcom/commsource/studio/formula/JsFormula;->getFormulaConfig()Ljava/lang/String;
 
     move-result-object p1
@@ -378,7 +343,6 @@
 
     return-object p1
 
-    .line 3
     :cond_0
     new-instance v1, Ljava/lang/StringBuilder;
 
@@ -416,7 +380,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/studio/formula/c;->t:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -435,14 +398,12 @@
 
     const/4 v2, 0x1
 
-    .line 1
     invoke-virtual {p0, v1, v2}, Lcom/commsource/util/common/l;->l(Ljava/lang/String;Z)Z
 
     move-result v1
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
     move-result-object v1
@@ -473,10 +434,8 @@
 
     const-string v1, "FORMULA_TIP_SHOW_EVENT"
 
-    .line 1
     invoke-virtual {p0, v1, p1}, Lcom/commsource/util/common/l;->I(Ljava/lang/String;Z)Z
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

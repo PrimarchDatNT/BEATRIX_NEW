@@ -47,17 +47,14 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Landroidx/recyclerview/widget/ItemTouchHelper$Callback;-><init>()V
 
     iput-object p1, p0, Lcom/commsource/studio/gesture/LayerItemTouchCallBack;->c:Lcotlin/jvm/u/p;
 
     const/4 p1, -0x1
 
-    .line 2
     iput p1, p0, Lcom/commsource/studio/gesture/LayerItemTouchCallBack;->a:I
 
-    .line 3
     iput p1, p0, Lcom/commsource/studio/gesture/LayerItemTouchCallBack;->b:I
 
     return-void
@@ -85,7 +82,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/gesture/LayerItemTouchCallBack;->c:Lcotlin/jvm/u/p;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -116,15 +112,12 @@
 
     invoke-static {p2, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-super {p0, p1, p2}, Landroidx/recyclerview/widget/ItemTouchHelper$Callback;->clearView(Landroidx/recyclerview/widget/RecyclerView;Landroidx/recyclerview/widget/RecyclerView$ViewHolder;)V
 
-    .line 2
     instance-of p1, p2, Lcom/commsource/studio/gesture/LayerSelectViewHolder;
 
     if-eqz p1, :cond_0
 
-    .line 3
     move-object p1, p2
 
     check-cast p1, Lcom/commsource/studio/gesture/LayerSelectViewHolder;
@@ -141,7 +134,6 @@
 
     invoke-static {v1}, Lcom/commsource/util/l0;->w(Landroid/view/View;)V
 
-    .line 4
     invoke-virtual {p1}, Lcom/commsource/studio/gesture/LayerSelectViewHolder;->x()Lcom/commsource/beautyplus/f0/gi;
 
     move-result-object v1
@@ -162,7 +154,6 @@
 
     invoke-static/range {v3 .. v9}, Lcom/commsource/util/l0;->k0(Landroid/view/View;FJLcotlin/jvm/u/a;ILjava/lang/Object;)V
 
-    .line 5
     invoke-virtual {p1}, Lcom/commsource/studio/gesture/LayerSelectViewHolder;->x()Lcom/commsource/beautyplus/f0/gi;
 
     move-result-object v1
@@ -185,7 +176,6 @@
 
     invoke-static/range {v2 .. v8}, Lcom/commsource/util/l0;->k0(Landroid/view/View;FJLcotlin/jvm/u/a;ILjava/lang/Object;)V
 
-    .line 6
     invoke-virtual {p1}, Lcom/commsource/studio/gesture/LayerSelectViewHolder;->x()Lcom/commsource/beautyplus/f0/gi;
 
     move-result-object v1
@@ -204,7 +194,6 @@
 
     invoke-static/range {v2 .. v8}, Lcom/commsource/util/l0;->k0(Landroid/view/View;FJLcotlin/jvm/u/a;ILjava/lang/Object;)V
 
-    .line 7
     invoke-virtual {p1}, Lcom/commsource/studio/gesture/LayerSelectViewHolder;->x()Lcom/commsource/beautyplus/f0/gi;
 
     move-result-object p2
@@ -227,7 +216,6 @@
 
     invoke-static/range {v1 .. v7}, Lcom/commsource/util/l0;->k0(Landroid/view/View;FJLcotlin/jvm/u/a;ILjava/lang/Object;)V
 
-    .line 8
     invoke-virtual {p1}, Lcom/commsource/studio/gesture/LayerSelectViewHolder;->x()Lcom/commsource/beautyplus/f0/gi;
 
     move-result-object p1
@@ -240,7 +228,6 @@
 
     invoke-static/range {v1 .. v7}, Lcom/commsource/util/l0;->k0(Landroid/view/View;FJLcotlin/jvm/u/a;ILjava/lang/Object;)V
 
-    .line 9
     :cond_0
     iget p1, p0, Lcom/commsource/studio/gesture/LayerItemTouchCallBack;->a:I
 
@@ -254,7 +241,6 @@
 
     if-eq p2, v1, :cond_1
 
-    .line 10
     iget-object p2, p0, Lcom/commsource/studio/gesture/LayerItemTouchCallBack;->c:Lcotlin/jvm/u/p;
 
     if-eqz p2, :cond_1
@@ -275,14 +261,11 @@
 
     check-cast p1, Lcotlin/t1;
 
-    .line 11
     :cond_1
     iput v1, p0, Lcom/commsource/studio/gesture/LayerItemTouchCallBack;->a:I
 
-    .line 12
     iput v1, p0, Lcom/commsource/studio/gesture/LayerItemTouchCallBack;->b:I
 
-    .line 13
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -315,7 +298,6 @@
 
     const/4 p2, 0x0
 
-    .line 1
     invoke-static {p1, p2}, Landroidx/recyclerview/widget/ItemTouchHelper$Callback;->makeMovementFlags(II)I
 
     move-result p1
@@ -332,7 +314,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const/4 v0, 0x0
@@ -347,7 +328,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const/4 v0, 0x0
@@ -386,19 +366,16 @@
 
     invoke-static {p3, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     instance-of v1, p2, Lcom/commsource/studio/gesture/LayerSelectViewHolder;
 
     if-eqz v1, :cond_4
 
-    .line 2
     check-cast p2, Lcom/commsource/studio/gesture/LayerSelectViewHolder;
 
     invoke-virtual {p2}, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->getBindingAdapterPosition()I
 
     move-result v1
 
-    .line 3
     invoke-virtual {p3}, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->getBindingAdapterPosition()I
 
     move-result p3
@@ -419,7 +396,6 @@
     :goto_0
     if-ge v4, p3, :cond_2
 
-    .line 4
     invoke-virtual {p2}, Lcom/commsource/widget/h1/f;->b()Lcom/commsource/widget/h1/e;
 
     move-result-object v5
@@ -445,7 +421,6 @@
 
     move v5, v1
 
-    .line 5
     :goto_1
     invoke-virtual {p2}, Lcom/commsource/widget/h1/f;->b()Lcom/commsource/widget/h1/e;
 
@@ -467,7 +442,6 @@
 
     goto :goto_1
 
-    .line 6
     :cond_2
     invoke-virtual {p1}, Landroidx/recyclerview/widget/RecyclerView;->getAdapter()Landroidx/recyclerview/widget/RecyclerView$Adapter;
 
@@ -477,7 +451,6 @@
 
     invoke-virtual {p1, v1, p3}, Landroidx/recyclerview/widget/RecyclerView$Adapter;->notifyItemMoved(II)V
 
-    .line 7
     :cond_3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -486,7 +459,6 @@
     :cond_4
     const/4 p1, 0x0
 
-    .line 8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
@@ -523,17 +495,14 @@
 
     invoke-static {p4, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-super/range {p0 .. p7}, Landroidx/recyclerview/widget/ItemTouchHelper$Callback;->onMoved(Landroidx/recyclerview/widget/RecyclerView;Landroidx/recyclerview/widget/RecyclerView$ViewHolder;ILandroidx/recyclerview/widget/RecyclerView$ViewHolder;III)V
 
-    .line 2
     iget p1, p0, Lcom/commsource/studio/gesture/LayerItemTouchCallBack;->a:I
 
     const/4 p2, -0x1
 
     if-ne p1, p2, :cond_0
 
-    .line 3
     iput p3, p0, Lcom/commsource/studio/gesture/LayerItemTouchCallBack;->a:I
 
     :cond_0
@@ -541,11 +510,9 @@
 
     const/4 p5, 0x1
 
-    .line 4
     :cond_1
     iput p5, p0, Lcom/commsource/studio/gesture/LayerItemTouchCallBack;->b:I
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -562,12 +529,10 @@
 
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     instance-of v0, p1, Lcom/commsource/studio/gesture/LayerSelectViewHolder;
 
     if-eqz v0, :cond_0
 
-    .line 2
     check-cast p1, Lcom/commsource/studio/gesture/LayerSelectViewHolder;
 
     invoke-virtual {p1}, Lcom/commsource/studio/gesture/LayerSelectViewHolder;->x()Lcom/commsource/beautyplus/f0/gi;
@@ -582,7 +547,6 @@
 
     invoke-static {v0}, Lcom/commsource/util/l0;->v0(Landroid/view/View;)V
 
-    .line 3
     invoke-virtual {p1}, Lcom/commsource/studio/gesture/LayerSelectViewHolder;->x()Lcom/commsource/beautyplus/f0/gi;
 
     move-result-object v0
@@ -607,7 +571,6 @@
 
     invoke-static/range {v2 .. v8}, Lcom/commsource/util/l0;->k0(Landroid/view/View;FJLcotlin/jvm/u/a;ILjava/lang/Object;)V
 
-    .line 4
     invoke-virtual {p1}, Lcom/commsource/studio/gesture/LayerSelectViewHolder;->x()Lcom/commsource/beautyplus/f0/gi;
 
     move-result-object v0
@@ -634,7 +597,6 @@
 
     invoke-static/range {v1 .. v7}, Lcom/commsource/util/l0;->k0(Landroid/view/View;FJLcotlin/jvm/u/a;ILjava/lang/Object;)V
 
-    .line 5
     invoke-virtual {p1}, Lcom/commsource/studio/gesture/LayerSelectViewHolder;->x()Lcom/commsource/beautyplus/f0/gi;
 
     move-result-object v1
@@ -659,7 +621,6 @@
 
     invoke-static {v1, v4, v3, v5, v5}, Lcom/commsource/util/l0;->S(Landroid/view/View;FFFF)V
 
-    .line 6
     invoke-virtual {p1}, Lcom/commsource/studio/gesture/LayerSelectViewHolder;->x()Lcom/commsource/beautyplus/f0/gi;
 
     move-result-object v1
@@ -680,7 +641,6 @@
 
     invoke-static/range {v3 .. v9}, Lcom/commsource/util/l0;->k0(Landroid/view/View;FJLcotlin/jvm/u/a;ILjava/lang/Object;)V
 
-    .line 7
     invoke-virtual {p1}, Lcom/commsource/studio/gesture/LayerSelectViewHolder;->x()Lcom/commsource/beautyplus/f0/gi;
 
     move-result-object v1
@@ -705,7 +665,6 @@
 
     invoke-static/range {v2 .. v8}, Lcom/commsource/util/l0;->k0(Landroid/view/View;FJLcotlin/jvm/u/a;ILjava/lang/Object;)V
 
-    .line 8
     invoke-virtual {p1}, Lcom/commsource/studio/gesture/LayerSelectViewHolder;->x()Lcom/commsource/beautyplus/f0/gi;
 
     move-result-object p1
@@ -730,7 +689,6 @@
 
     invoke-static/range {v1 .. v7}, Lcom/commsource/util/l0;->k0(Landroid/view/View;FJLcotlin/jvm/u/a;ILjava/lang/Object;)V
 
-    .line 9
     :cond_0
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -752,7 +710,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

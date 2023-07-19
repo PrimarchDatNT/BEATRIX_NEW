@@ -27,7 +27,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-direct {p0, v0}, Lkshark/z;-><init>(Lcotlin/jvm/internal/u;)V
 
     iput-object p1, p0, Lkshark/n;->a:Lkshark/ReferencePattern;
@@ -42,7 +41,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lkshark/n;->a:Lkshark/ReferencePattern;
 
     return-object v0
@@ -53,7 +51,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V

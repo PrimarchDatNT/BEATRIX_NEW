@@ -53,7 +53,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/studio/function/AIBeautyFragment$onPictureTransformComplete$1;->invoke()V
 
     sget-object v1, Lcotlin/t1;->a:Lcotlin/t1;
@@ -70,14 +69,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/function/AIBeautyFragment$onPictureTransformComplete$1;->this$0:Lcom/commsource/studio/function/AIBeautyFragment;
 
     invoke-static {v1}, Lcom/commsource/studio/function/AIBeautyFragment;->z1(Lcom/commsource/studio/function/AIBeautyFragment;)Lf/d/d/o;
 
     move-result-object v2
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/studio/function/AIBeautyFragment$onPictureTransformComplete$1;->this$0:Lcom/commsource/studio/function/AIBeautyFragment;
 
     invoke-virtual {v1}, Lcom/commsource/studio/function/BaseSubFragment;->r0()Lcom/commsource/studio/ImageStudioViewModel;
@@ -102,7 +99,6 @@
 
     move-result-object v4
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/studio/function/AIBeautyFragment$onPictureTransformComplete$1;->this$0:Lcom/commsource/studio/function/AIBeautyFragment;
 
     invoke-virtual {v1}, Lcom/commsource/studio/function/BaseSubFragment;->r0()Lcom/commsource/studio/ImageStudioViewModel;
@@ -125,10 +121,8 @@
 
     const/4 v7, 0x1
 
-    .line 5
     invoke-virtual/range {v2 .. v7}, Lf/d/d/o;->u0(Ljava/lang/String;Landroid/graphics/Bitmap;Lcom/meitu/core/types/FaceData;Lcom/commsource/camera/fastcapture/SelfiePhotoData;Z)V
 
-    .line 6
     iget-object v1, p0, Lcom/commsource/studio/function/AIBeautyFragment$onPictureTransformComplete$1;->this$0:Lcom/commsource/studio/function/AIBeautyFragment;
 
     invoke-static {v1}, Lcom/commsource/studio/function/AIBeautyFragment;->z1(Lcom/commsource/studio/function/AIBeautyFragment;)Lf/d/d/o;
@@ -151,7 +145,6 @@
 
     invoke-virtual {v1, v2, v3}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

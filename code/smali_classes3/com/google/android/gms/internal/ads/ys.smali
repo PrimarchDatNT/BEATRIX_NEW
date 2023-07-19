@@ -30,22 +30,18 @@
 .method public final a()Lcom/google/android/gms/internal/ads/of2;
     .locals 4
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/ys;->a:Lcom/google/android/gms/internal/ads/qf2;
 
     iget-object v1, p0, Lcom/google/android/gms/internal/ads/ys;->b:[B
 
-    .line 2
     invoke-interface {v0}, Lcom/google/android/gms/internal/ads/qf2;->a()Lcom/google/android/gms/internal/ads/of2;
 
     move-result-object v0
 
-    .line 3
     new-instance v2, Lcom/google/android/gms/internal/ads/pf2;
 
     invoke-direct {v2, v1}, Lcom/google/android/gms/internal/ads/pf2;-><init>([B)V
 
-    .line 4
     new-instance v3, Lcom/google/android/gms/internal/ads/ft;
 
     array-length v1, v1

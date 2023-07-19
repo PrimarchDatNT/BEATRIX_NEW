@@ -29,7 +29,6 @@
 .method constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -38,7 +37,6 @@
 .method public static create()Lorg/apache/http/protocol/HttpProcessorBuilder;
     .locals 1
 
-    .line 1
     new-instance v0, Lorg/apache/http/protocol/HttpProcessorBuilder;
 
     invoke-direct {v0}, Lorg/apache/http/protocol/HttpProcessorBuilder;-><init>()V
@@ -57,19 +55,16 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lorg/apache/http/protocol/HttpProcessorBuilder;->requestChainBuilder:Lorg/apache/http/protocol/ChainBuilder;
 
     if-nez v0, :cond_0
 
-    .line 2
     new-instance v0, Lorg/apache/http/protocol/ChainBuilder;
 
     invoke-direct {v0}, Lorg/apache/http/protocol/ChainBuilder;-><init>()V
 
     iput-object v0, p0, Lorg/apache/http/protocol/HttpProcessorBuilder;->requestChainBuilder:Lorg/apache/http/protocol/ChainBuilder;
 
-    .line 3
     :cond_0
     iget-object v0, p0, Lorg/apache/http/protocol/HttpProcessorBuilder;->requestChainBuilder:Lorg/apache/http/protocol/ChainBuilder;
 
@@ -87,19 +82,16 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lorg/apache/http/protocol/HttpProcessorBuilder;->responseChainBuilder:Lorg/apache/http/protocol/ChainBuilder;
 
     if-nez v0, :cond_0
 
-    .line 2
     new-instance v0, Lorg/apache/http/protocol/ChainBuilder;
 
     invoke-direct {v0}, Lorg/apache/http/protocol/ChainBuilder;-><init>()V
 
     iput-object v0, p0, Lorg/apache/http/protocol/HttpProcessorBuilder;->responseChainBuilder:Lorg/apache/http/protocol/ChainBuilder;
 
-    .line 3
     :cond_0
     iget-object v0, p0, Lorg/apache/http/protocol/HttpProcessorBuilder;->responseChainBuilder:Lorg/apache/http/protocol/ChainBuilder;
 
@@ -111,7 +103,6 @@
 .method public add(Lorg/apache/http/HttpRequestInterceptor;)Lorg/apache/http/protocol/HttpProcessorBuilder;
     .locals 0
 
-    .line 1
     invoke-virtual {p0, p1}, Lorg/apache/http/protocol/HttpProcessorBuilder;->addLast(Lorg/apache/http/HttpRequestInterceptor;)Lorg/apache/http/protocol/HttpProcessorBuilder;
 
     move-result-object p1
@@ -122,7 +113,6 @@
 .method public add(Lorg/apache/http/HttpResponseInterceptor;)Lorg/apache/http/protocol/HttpProcessorBuilder;
     .locals 0
 
-    .line 2
     invoke-virtual {p0, p1}, Lorg/apache/http/protocol/HttpProcessorBuilder;->addLast(Lorg/apache/http/HttpResponseInterceptor;)Lorg/apache/http/protocol/HttpProcessorBuilder;
 
     move-result-object p1
@@ -133,7 +123,6 @@
 .method public varargs addAll([Lorg/apache/http/HttpRequestInterceptor;)Lorg/apache/http/protocol/HttpProcessorBuilder;
     .locals 0
 
-    .line 1
     invoke-virtual {p0, p1}, Lorg/apache/http/protocol/HttpProcessorBuilder;->addAllLast([Lorg/apache/http/HttpRequestInterceptor;)Lorg/apache/http/protocol/HttpProcessorBuilder;
 
     move-result-object p1
@@ -144,7 +133,6 @@
 .method public varargs addAll([Lorg/apache/http/HttpResponseInterceptor;)Lorg/apache/http/protocol/HttpProcessorBuilder;
     .locals 0
 
-    .line 2
     invoke-virtual {p0, p1}, Lorg/apache/http/protocol/HttpProcessorBuilder;->addAllLast([Lorg/apache/http/HttpResponseInterceptor;)Lorg/apache/http/protocol/HttpProcessorBuilder;
 
     move-result-object p1
@@ -159,7 +147,6 @@
 
     return-object p0
 
-    .line 1
     :cond_0
     invoke-direct {p0}, Lorg/apache/http/protocol/HttpProcessorBuilder;->getRequestChainBuilder()Lorg/apache/http/protocol/ChainBuilder;
 
@@ -177,7 +164,6 @@
 
     return-object p0
 
-    .line 2
     :cond_0
     invoke-direct {p0}, Lorg/apache/http/protocol/HttpProcessorBuilder;->getResponseChainBuilder()Lorg/apache/http/protocol/ChainBuilder;
 
@@ -195,7 +181,6 @@
 
     return-object p0
 
-    .line 1
     :cond_0
     invoke-direct {p0}, Lorg/apache/http/protocol/HttpProcessorBuilder;->getRequestChainBuilder()Lorg/apache/http/protocol/ChainBuilder;
 
@@ -213,7 +198,6 @@
 
     return-object p0
 
-    .line 2
     :cond_0
     invoke-direct {p0}, Lorg/apache/http/protocol/HttpProcessorBuilder;->getResponseChainBuilder()Lorg/apache/http/protocol/ChainBuilder;
 
@@ -231,7 +215,6 @@
 
     return-object p0
 
-    .line 1
     :cond_0
     invoke-direct {p0}, Lorg/apache/http/protocol/HttpProcessorBuilder;->getRequestChainBuilder()Lorg/apache/http/protocol/ChainBuilder;
 
@@ -249,7 +232,6 @@
 
     return-object p0
 
-    .line 2
     :cond_0
     invoke-direct {p0}, Lorg/apache/http/protocol/HttpProcessorBuilder;->getResponseChainBuilder()Lorg/apache/http/protocol/ChainBuilder;
 
@@ -267,7 +249,6 @@
 
     return-object p0
 
-    .line 1
     :cond_0
     invoke-direct {p0}, Lorg/apache/http/protocol/HttpProcessorBuilder;->getRequestChainBuilder()Lorg/apache/http/protocol/ChainBuilder;
 
@@ -285,7 +266,6 @@
 
     return-object p0
 
-    .line 2
     :cond_0
     invoke-direct {p0}, Lorg/apache/http/protocol/HttpProcessorBuilder;->getResponseChainBuilder()Lorg/apache/http/protocol/ChainBuilder;
 
@@ -299,7 +279,6 @@
 .method public build()Lorg/apache/http/protocol/HttpProcessor;
     .locals 4
 
-    .line 1
     new-instance v0, Lorg/apache/http/protocol/ImmutableHttpProcessor;
 
     iget-object v1, p0, Lorg/apache/http/protocol/HttpProcessorBuilder;->requestChainBuilder:Lorg/apache/http/protocol/ChainBuilder;

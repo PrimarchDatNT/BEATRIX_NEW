@@ -42,7 +42,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/mypage/album/BpAlbumActivity$k;->a:Lcom/commsource/mypage/album/BpAlbumActivity;
 
     invoke-virtual {v1}, Lcom/commsource/mypage/album/BpAlbumActivity;->R0()Lcom/commsource/beautyplus/f0/i;
@@ -53,7 +52,6 @@
 
     invoke-virtual {v1}, Landroid/widget/LinearLayout;->clearAnimation()V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/mypage/album/BpAlbumActivity$k;->a:Lcom/commsource/mypage/album/BpAlbumActivity;
 
     invoke-virtual {v1}, Lcom/commsource/mypage/album/BpAlbumActivity;->R0()Lcom/commsource/beautyplus/f0/i;
@@ -70,7 +68,6 @@
 
     invoke-virtual {v1, v2}, Landroid/widget/LinearLayout;->setVisibility(I)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

@@ -188,7 +188,6 @@
 
     move-result-object v0
 
-    .line 1
     iget v1, p0, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$distinctBy$1;->label:I
 
     const/4 v2, 0x3
@@ -229,7 +228,6 @@
 
     goto/16 :goto_3
 
-    .line 2
     :cond_0
     new-instance p1, Ljava/lang/IllegalStateException;
 
@@ -239,7 +237,6 @@
 
     throw p1
 
-    .line 3
     :cond_1
     iget-object v1, p0, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$distinctBy$1;->L$3:Ljava/lang/Object;
 
@@ -303,12 +300,10 @@
 
     iget-object p1, p0, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$distinctBy$1;->p$:Lcotlinx/coroutines/channels/w;
 
-    .line 4
     new-instance v1, Ljava/util/HashSet;
 
     invoke-direct {v1}, Ljava/util/HashSet;-><init>()V
 
-    .line 5
     iget-object v5, p0, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$distinctBy$1;->$this_distinctBy:Lcotlinx/coroutines/channels/y;
 
     invoke-interface {v5}, Lcotlinx/coroutines/channels/y;->iterator()Lcotlinx/coroutines/channels/ChannelIterator;
@@ -370,7 +365,6 @@
 
     move-result-object p1
 
-    .line 6
     iget-object v8, v0, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$distinctBy$1;->$selector:Lcotlin/jvm/u/p;
 
     iput-object v7, v0, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$distinctBy$1;->L$0:Ljava/lang/Object;
@@ -402,7 +396,6 @@
 
     move-object v7, v10
 
-    .line 7
     :goto_2
     invoke-virtual {v7, p1}, Ljava/util/HashSet;->contains(Ljava/lang/Object;)Z
 
@@ -410,7 +403,6 @@
 
     if-nez v9, :cond_7
 
-    .line 8
     iput-object v8, v0, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$distinctBy$1;->L$0:Ljava/lang/Object;
 
     iput-object v7, v0, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$distinctBy$1;->L$1:Ljava/lang/Object;
@@ -436,7 +428,6 @@
 
     move-object v7, v8
 
-    .line 9
     :goto_3
     invoke-interface {v6, p1}, Ljava/util/Collection;->add(Ljava/lang/Object;)Z
 
@@ -465,7 +456,6 @@
 
     goto :goto_0
 
-    .line 10
     :cond_8
     sget-object p1, Lcotlin/t1;->a:Lcotlin/t1;
 

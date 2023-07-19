@@ -32,10 +32,8 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     new-instance v0, Ljava/util/concurrent/CopyOnWriteArrayList;
 
     invoke-direct {v0}, Ljava/util/concurrent/CopyOnWriteArrayList;-><init>()V
@@ -54,10 +52,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/billing/pro/SubsConfigManager$a;->a:Ljava/util/concurrent/CopyOnWriteArrayList;
 
-    .line 2
     invoke-interface {v1}, Ljava/util/Collection;->isEmpty()Z
 
     move-result v2
@@ -74,7 +70,6 @@
     :goto_0
     if-eqz v1, :cond_1
 
-    .line 3
     invoke-virtual {v1}, Ljava/util/concurrent/CopyOnWriteArrayList;->iterator()Ljava/util/Iterator;
 
     move-result-object v1
@@ -92,7 +87,6 @@
 
     check-cast v2, Lcom/commsource/billing/pro/g;
 
-    .line 4
     sget-object v3, Lcom/commsource/billing/pro/SubsConfigManager;->o:Lcom/commsource/billing/pro/SubsConfigManager;
 
     invoke-virtual {v2}, Lcom/commsource/billing/pro/g;->a()Lcom/commsource/beautyplus/router/RouterEntity;
@@ -107,7 +101,6 @@
 
     goto :goto_1
 
-    .line 5
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -127,7 +120,6 @@
 
     if-eqz p1, :cond_1
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/billing/pro/SubsConfigManager$a;->a:Ljava/util/concurrent/CopyOnWriteArrayList;
 
     invoke-virtual {v1, p1}, Ljava/util/concurrent/CopyOnWriteArrayList;->contains(Ljava/lang/Object;)Z
@@ -144,12 +136,10 @@
     :goto_0
     if-eqz p1, :cond_1
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/billing/pro/SubsConfigManager$a;->a:Ljava/util/concurrent/CopyOnWriteArrayList;
 
     invoke-virtual {v1, p1}, Ljava/util/concurrent/CopyOnWriteArrayList;->add(Ljava/lang/Object;)Z
 
-    .line 3
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -169,12 +159,10 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/billing/pro/SubsConfigManager$a;->a:Ljava/util/concurrent/CopyOnWriteArrayList;
 
     invoke-virtual {v1, p1}, Ljava/util/concurrent/CopyOnWriteArrayList;->remove(Ljava/lang/Object;)Z
 
-    .line 2
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

@@ -35,16 +35,12 @@
 .method constructor <init>(Ljava/lang/String;Lcom/bumptech/glide/load/engine/y/a$b;Z)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/bumptech/glide/load/engine/y/a$a;->a:Ljava/lang/String;
 
-    .line 3
     iput-object p2, p0, Lcom/bumptech/glide/load/engine/y/a$a;->b:Lcom/bumptech/glide/load/engine/y/a$b;
 
-    .line 4
     iput-boolean p3, p0, Lcom/bumptech/glide/load/engine/y/a$a;->c:Z
 
     return-void
@@ -61,7 +57,6 @@
 
     monitor-enter p0
 
-    .line 1
     :try_start_0
     new-instance v0, Lcom/bumptech/glide/load/engine/y/a$a$a;
 
@@ -91,7 +86,6 @@
 
     invoke-direct {v0, p0, p1, v1}, Lcom/bumptech/glide/load/engine/y/a$a$a;-><init>(Lcom/bumptech/glide/load/engine/y/a$a;Ljava/lang/Runnable;Ljava/lang/String;)V
 
-    .line 2
     iget p1, p0, Lcom/bumptech/glide/load/engine/y/a$a;->d:I
 
     add-int/lit8 p1, p1, 0x1
@@ -100,7 +94,6 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 3
     monitor-exit p0
 
     return-object v0

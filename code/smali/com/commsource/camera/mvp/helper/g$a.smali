@@ -31,7 +31,6 @@
 .method constructor <init>(Lcom/commsource/camera/mvp/helper/g;Ljava/lang/String;Ljava/lang/String;Lcom/commsource/push/bean/h;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/camera/mvp/helper/g$a;->d:Lcom/commsource/camera/mvp/helper/g;
 
     iput-object p2, p0, Lcom/commsource/camera/mvp/helper/g$a;->a:Ljava/lang/String;
@@ -54,7 +53,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -71,17 +69,14 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/camera/mvp/helper/g$a;->a:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/p/g/b;->m(Ljava/lang/String;)Z
 
-    .line 2
     iget-object v0, p0, Lcom/commsource/camera/mvp/helper/g$a;->b:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/p/g/b;->m(Ljava/lang/String;)Z
 
-    .line 3
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -94,7 +89,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -110,7 +104,6 @@
     :try_start_0
     const-string/jumbo v1, "zdf"
 
-    .line 1
     new-instance v2, Ljava/lang/StringBuilder;
 
     invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
@@ -129,19 +122,16 @@
 
     invoke-static {v1, v2}, Lcom/meitu/library/util/Debug/Debug;->e(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/camera/mvp/helper/g$a;->a:Ljava/lang/String;
 
     iget-object v2, p0, Lcom/commsource/camera/mvp/helper/g$a;->b:Ljava/lang/String;
 
     invoke-static {v1, v2}, Lcom/meitu/library/p/g/b;->d(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/camera/mvp/helper/g$a;->a:Ljava/lang/String;
 
     invoke-static {v1}, Lcom/meitu/library/p/g/b;->m(Ljava/lang/String;)Z
 
-    .line 4
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
     move-result-object v1
@@ -152,7 +142,6 @@
 
     move-result-object v1
 
-    .line 5
     iget-object v2, p0, Lcom/commsource/camera/mvp/helper/g$a;->b:Ljava/lang/String;
 
     invoke-static {v2, v1}, Lf/d/j/a/a;->j(Ljava/lang/String;Ljava/lang/String;)Z
@@ -161,12 +150,10 @@
 
     if-eqz v1, :cond_0
 
-    .line 6
     iget-object v1, p0, Lcom/commsource/camera/mvp/helper/g$a;->b:Ljava/lang/String;
 
     invoke-static {v1}, Lcom/meitu/library/p/g/b;->m(Ljava/lang/String;)Z
 
-    .line 7
     :cond_0
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
@@ -183,10 +170,8 @@
     :catch_0
     move-exception v1
 
-    .line 8
     invoke-static {v1}, Lcom/meitu/library/util/Debug/Debug;->a0(Ljava/lang/Throwable;)V
 
-    .line 9
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

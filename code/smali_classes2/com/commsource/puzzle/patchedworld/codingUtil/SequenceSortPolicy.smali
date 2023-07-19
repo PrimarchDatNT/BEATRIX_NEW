@@ -39,7 +39,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/commsource/puzzle/patchedworld/codingUtil/SequenceSortPolicy;
 
     const-string v2, "FOLLOW_SEQUENCE"
@@ -104,7 +103,6 @@
 
     aput-object v8, v10, v11
 
-    .line 2
     sput-object v10, Lcom/commsource/puzzle/patchedworld/codingUtil/SequenceSortPolicy;->$VALUES:[Lcom/commsource/puzzle/patchedworld/codingUtil/SequenceSortPolicy;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -120,10 +118,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 2
     iput p3, p0, Lcom/commsource/puzzle/patchedworld/codingUtil/SequenceSortPolicy;->policyInt:I
 
     return-void
@@ -136,7 +132,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/commsource/puzzle/patchedworld/codingUtil/SequenceSortPolicy;->values()[Lcom/commsource/puzzle/patchedworld/codingUtil/SequenceSortPolicy;
 
     move-result-object v1
@@ -150,14 +145,12 @@
 
     aget-object v4, v1, v3
 
-    .line 2
     invoke-virtual {v4}, Lcom/commsource/puzzle/patchedworld/codingUtil/SequenceSortPolicy;->getPolicyInt()I
 
     move-result v5
 
     if-ne v5, p0, :cond_0
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v4
@@ -167,7 +160,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_1
     sget-object p0, Lcom/commsource/puzzle/patchedworld/codingUtil/SequenceSortPolicy;->FOLLOW_SEQUENCE:Lcom/commsource/puzzle/patchedworld/codingUtil/SequenceSortPolicy;
 
@@ -183,7 +175,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     const-class v1, Lcom/commsource/puzzle/patchedworld/codingUtil/SequenceSortPolicy;
 
     invoke-static {v1, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -204,7 +195,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/puzzle/patchedworld/codingUtil/SequenceSortPolicy;->$VALUES:[Lcom/commsource/puzzle/patchedworld/codingUtil/SequenceSortPolicy;
 
     invoke-virtual {v1}, [Lcom/commsource/puzzle/patchedworld/codingUtil/SequenceSortPolicy;->clone()Ljava/lang/Object;
@@ -227,7 +217,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/puzzle/patchedworld/codingUtil/SequenceSortPolicy;->policyInt:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

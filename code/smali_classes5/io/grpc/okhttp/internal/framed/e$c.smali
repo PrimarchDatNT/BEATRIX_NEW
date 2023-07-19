@@ -31,23 +31,18 @@
 .method constructor <init>(Lokio/BufferedSource;IZ)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lio/grpc/okhttp/internal/framed/e$c;->a:Lokio/BufferedSource;
 
-    .line 3
     iput-boolean p3, p0, Lio/grpc/okhttp/internal/framed/e$c;->c:Z
 
-    .line 4
     new-instance p3, Lio/grpc/okhttp/internal/framed/e$a;
 
     invoke-direct {p3, p1}, Lio/grpc/okhttp/internal/framed/e$a;-><init>(Lokio/BufferedSource;)V
 
     iput-object p3, p0, Lio/grpc/okhttp/internal/framed/e$c;->b:Lio/grpc/okhttp/internal/framed/e$a;
 
-    .line 5
     new-instance p1, Lio/grpc/okhttp/internal/framed/d$a;
 
     invoke-direct {p1, p2, p3}, Lio/grpc/okhttp/internal/framed/d$a;-><init>(ILokio/Source;)V
@@ -97,7 +92,6 @@
 
     if-eqz v1, :cond_2
 
-    .line 1
     iget-object v1, p0, Lio/grpc/okhttp/internal/framed/e$c;->a:Lokio/BufferedSource;
 
     invoke-interface {v1}, Lokio/BufferedSource;->readByte()B
@@ -108,18 +102,15 @@
 
     int-to-short v2, v1
 
-    .line 2
     :cond_2
     invoke-static {p2, p3, v2}, Lio/grpc/okhttp/internal/framed/e;->e(IBS)I
 
     move-result p2
 
-    .line 3
     iget-object p3, p0, Lio/grpc/okhttp/internal/framed/e$c;->a:Lokio/BufferedSource;
 
     invoke-interface {p1, v0, p4, p3, p2}, Lio/grpc/okhttp/internal/framed/a$a;->data(ZILokio/BufferedSource;I)V
 
-    .line 4
     iget-object p1, p0, Lio/grpc/okhttp/internal/framed/e$c;->a:Lokio/BufferedSource;
 
     int-to-long p2, v2
@@ -133,7 +124,6 @@
 
     const-string p2, "PROTOCOL_ERROR: FLAG_COMPRESSED without SETTINGS_COMPRESS_DATA"
 
-    .line 5
     invoke-static {p2, p1}, Lio/grpc/okhttp/internal/framed/e;->c(Ljava/lang/String;[Ljava/lang/Object;)Ljava/io/IOException;
 
     move-result-object p1
@@ -159,14 +149,12 @@
 
     if-nez p4, :cond_2
 
-    .line 1
     iget-object p4, p0, Lio/grpc/okhttp/internal/framed/e$c;->a:Lokio/BufferedSource;
 
     invoke-interface {p4}, Lokio/BufferedSource;->readInt()I
 
     move-result p4
 
-    .line 2
     iget-object v2, p0, Lio/grpc/okhttp/internal/framed/e$c;->a:Lokio/BufferedSource;
 
     invoke-interface {v2}, Lokio/BufferedSource;->readInt()I
@@ -175,19 +163,16 @@
 
     sub-int/2addr p2, v0
 
-    .line 3
     invoke-static {v2}, Lio/grpc/okhttp/internal/framed/ErrorCode;->fromHttp2(I)Lio/grpc/okhttp/internal/framed/ErrorCode;
 
     move-result-object v0
 
     if-eqz v0, :cond_1
 
-    .line 4
     sget-object p3, Lokio/ByteString;->EMPTY:Lokio/ByteString;
 
     if-lez p2, :cond_0
 
-    .line 5
     iget-object p3, p0, Lio/grpc/okhttp/internal/framed/e$c;->a:Lokio/BufferedSource;
 
     int-to-long v1, p2
@@ -196,7 +181,6 @@
 
     move-result-object p3
 
-    .line 6
     :cond_0
     invoke-interface {p1, p4, v0, p3}, Lio/grpc/okhttp/internal/framed/a$a;->c1(ILio/grpc/okhttp/internal/framed/ErrorCode;Lokio/ByteString;)V
 
@@ -205,7 +189,6 @@
     :cond_1
     new-array p1, p3, [Ljava/lang/Object;
 
-    .line 7
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object p2
@@ -225,7 +208,6 @@
 
     const-string p2, "TYPE_GOAWAY streamId != 0"
 
-    .line 8
     invoke-static {p2, p1}, Lio/grpc/okhttp/internal/framed/e;->c(Ljava/lang/String;[Ljava/lang/Object;)Ljava/io/IOException;
 
     move-result-object p1
@@ -235,7 +217,6 @@
     :cond_3
     new-array p1, p3, [Ljava/lang/Object;
 
-    .line 9
     invoke-static {p2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object p2
@@ -268,28 +249,22 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lio/grpc/okhttp/internal/framed/e$c;->b:Lio/grpc/okhttp/internal/framed/e$a;
 
     iput p1, v0, Lio/grpc/okhttp/internal/framed/e$a;->f:I
 
     iput p1, v0, Lio/grpc/okhttp/internal/framed/e$a;->b:I
 
-    .line 2
     iput-short p2, v0, Lio/grpc/okhttp/internal/framed/e$a;->g:S
 
-    .line 3
     iput-byte p3, v0, Lio/grpc/okhttp/internal/framed/e$a;->c:B
 
-    .line 4
     iput p4, v0, Lio/grpc/okhttp/internal/framed/e$a;->d:I
 
-    .line 5
     iget-object p1, p0, Lio/grpc/okhttp/internal/framed/e$c;->d:Lio/grpc/okhttp/internal/framed/d$a;
 
     invoke-virtual {p1}, Lio/grpc/okhttp/internal/framed/d$a;->m()V
 
-    .line 6
     iget-object p1, p0, Lio/grpc/okhttp/internal/framed/e$c;->d:Lio/grpc/okhttp/internal/framed/d$a;
 
     invoke-virtual {p1}, Lio/grpc/okhttp/internal/framed/d$a;->e()Ljava/util/List;
@@ -329,7 +304,6 @@
 
     if-eqz v1, :cond_1
 
-    .line 1
     iget-object v0, p0, Lio/grpc/okhttp/internal/framed/e$c;->a:Lokio/BufferedSource;
 
     invoke-interface {v0}, Lokio/BufferedSource;->readByte()B
@@ -345,18 +319,15 @@
 
     if-eqz v1, :cond_2
 
-    .line 2
     invoke-direct {p0, p1, p4}, Lio/grpc/okhttp/internal/framed/e$c;->f(Lio/grpc/okhttp/internal/framed/a$a;I)V
 
     add-int/lit8 p2, p2, -0x5
 
-    .line 3
     :cond_2
     invoke-static {p2, p3, v0}, Lio/grpc/okhttp/internal/framed/e;->e(IBS)I
 
     move-result p2
 
-    .line 4
     invoke-direct {p0, p2, v0, p3, p4}, Lio/grpc/okhttp/internal/framed/e$c;->c(ISBI)Ljava/util/List;
 
     move-result-object v7
@@ -365,7 +336,6 @@
 
     const/4 v6, -0x1
 
-    .line 5
     sget-object v8, Lio/grpc/okhttp/internal/framed/HeadersMode;->HTTP_20_HEADERS:Lio/grpc/okhttp/internal/framed/HeadersMode;
 
     move-object v2, p1
@@ -381,7 +351,6 @@
 
     const-string p2, "PROTOCOL_ERROR: TYPE_HEADERS streamId == 0"
 
-    .line 6
     invoke-static {p2, p1}, Lio/grpc/okhttp/internal/framed/e;->c(Ljava/lang/String;[Ljava/lang/Object;)Ljava/io/IOException;
 
     move-result-object p1
@@ -407,14 +376,12 @@
 
     if-nez p4, :cond_1
 
-    .line 1
     iget-object p2, p0, Lio/grpc/okhttp/internal/framed/e$c;->a:Lokio/BufferedSource;
 
     invoke-interface {p2}, Lokio/BufferedSource;->readInt()I
 
     move-result p2
 
-    .line 2
     iget-object p4, p0, Lio/grpc/okhttp/internal/framed/e$c;->a:Lokio/BufferedSource;
 
     invoke-interface {p4}, Lokio/BufferedSource;->readInt()I
@@ -427,7 +394,6 @@
 
     const/4 v0, 0x1
 
-    .line 3
     :cond_0
     invoke-interface {p1, v0, p2, p4}, Lio/grpc/okhttp/internal/framed/a$a;->ping(ZII)V
 
@@ -438,7 +404,6 @@
 
     const-string p2, "TYPE_PING streamId != 0"
 
-    .line 4
     invoke-static {p2, p1}, Lio/grpc/okhttp/internal/framed/e;->c(Ljava/lang/String;[Ljava/lang/Object;)Ljava/io/IOException;
 
     move-result-object p1
@@ -448,7 +413,6 @@
     :cond_2
     new-array p1, v1, [Ljava/lang/Object;
 
-    .line 5
     invoke-static {p2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object p2
@@ -472,7 +436,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lio/grpc/okhttp/internal/framed/e$c;->a:Lokio/BufferedSource;
 
     invoke-interface {v0}, Lokio/BufferedSource;->readInt()I
@@ -499,7 +462,6 @@
 
     and-int/2addr v0, v3
 
-    .line 2
     iget-object v3, p0, Lio/grpc/okhttp/internal/framed/e$c;->a:Lokio/BufferedSource;
 
     invoke-interface {v3}, Lokio/BufferedSource;->readByte()B
@@ -510,7 +472,6 @@
 
     add-int/2addr v3, v2
 
-    .line 3
     invoke-interface {p1, p2, v0, v3, v1}, Lio/grpc/okhttp/internal/framed/a$a;->priority(IIIZ)V
 
     return-void
@@ -532,7 +493,6 @@
 
     if-eqz p4, :cond_0
 
-    .line 1
     invoke-direct {p0, p1, p4}, Lio/grpc/okhttp/internal/framed/e$c;->f(Lio/grpc/okhttp/internal/framed/a$a;I)V
 
     return-void
@@ -542,7 +502,6 @@
 
     const-string p2, "TYPE_PRIORITY streamId == 0"
 
-    .line 2
     invoke-static {p2, p1}, Lio/grpc/okhttp/internal/framed/e;->c(Ljava/lang/String;[Ljava/lang/Object;)Ljava/io/IOException;
 
     move-result-object p1
@@ -554,7 +513,6 @@
 
     new-array p1, p1, [Ljava/lang/Object;
 
-    .line 3
     invoke-static {p2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object p2
@@ -586,7 +544,6 @@
 
     if-eqz v1, :cond_0
 
-    .line 1
     iget-object v0, p0, Lio/grpc/okhttp/internal/framed/e$c;->a:Lokio/BufferedSource;
 
     invoke-interface {v0}, Lokio/BufferedSource;->readByte()B
@@ -597,7 +554,6 @@
 
     int-to-short v0, v0
 
-    .line 2
     :cond_0
     iget-object v1, p0, Lio/grpc/okhttp/internal/framed/e$c;->a:Lokio/BufferedSource;
 
@@ -611,17 +567,14 @@
 
     add-int/lit8 p2, p2, -0x4
 
-    .line 3
     invoke-static {p2, p3, v0}, Lio/grpc/okhttp/internal/framed/e;->e(IBS)I
 
     move-result p2
 
-    .line 4
     invoke-direct {p0, p2, v0, p3, p4}, Lio/grpc/okhttp/internal/framed/e$c;->c(ISBI)Ljava/util/List;
 
     move-result-object p2
 
-    .line 5
     invoke-interface {p1, p4, v1, p2}, Lio/grpc/okhttp/internal/framed/a$a;->pushPromise(IILjava/util/List;)V
 
     return-void
@@ -631,7 +584,6 @@
 
     const-string p2, "PROTOCOL_ERROR: TYPE_PUSH_PROMISE streamId == 0"
 
-    .line 6
     invoke-static {p2, p1}, Lio/grpc/okhttp/internal/framed/e;->c(Ljava/lang/String;[Ljava/lang/Object;)Ljava/io/IOException;
 
     move-result-object p1
@@ -657,21 +609,18 @@
 
     if-eqz p4, :cond_1
 
-    .line 1
     iget-object p2, p0, Lio/grpc/okhttp/internal/framed/e$c;->a:Lokio/BufferedSource;
 
     invoke-interface {p2}, Lokio/BufferedSource;->readInt()I
 
     move-result p2
 
-    .line 2
     invoke-static {p2}, Lio/grpc/okhttp/internal/framed/ErrorCode;->fromHttp2(I)Lio/grpc/okhttp/internal/framed/ErrorCode;
 
     move-result-object v1
 
     if-eqz v1, :cond_0
 
-    .line 3
     invoke-interface {p1, p4, v1}, Lio/grpc/okhttp/internal/framed/a$a;->a1(ILio/grpc/okhttp/internal/framed/ErrorCode;)V
 
     return-void
@@ -679,7 +628,6 @@
     :cond_0
     new-array p1, p3, [Ljava/lang/Object;
 
-    .line 4
     invoke-static {p2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object p2
@@ -699,7 +647,6 @@
 
     const-string p2, "TYPE_RST_STREAM streamId == 0"
 
-    .line 5
     invoke-static {p2, p1}, Lio/grpc/okhttp/internal/framed/e;->c(Ljava/lang/String;[Ljava/lang/Object;)Ljava/io/IOException;
 
     move-result-object p1
@@ -709,7 +656,6 @@
     :cond_2
     new-array p1, p3, [Ljava/lang/Object;
 
-    .line 6
     invoke-static {p2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object p2
@@ -745,7 +691,6 @@
 
     if-nez p2, :cond_0
 
-    .line 1
     invoke-interface {p1}, Lio/grpc/okhttp/internal/framed/a$a;->ackSettings()V
 
     return-void
@@ -755,20 +700,17 @@
 
     const-string p2, "FRAME_SIZE_ERROR ack frame should be empty!"
 
-    .line 2
     invoke-static {p2, p1}, Lio/grpc/okhttp/internal/framed/e;->c(Ljava/lang/String;[Ljava/lang/Object;)Ljava/io/IOException;
 
     move-result-object p1
 
     throw p1
 
-    .line 3
     :cond_1
     rem-int/lit8 p3, p2, 0x6
 
     if-nez p3, :cond_8
 
-    .line 4
     new-instance p3, Lio/grpc/okhttp/internal/framed/g;
 
     invoke-direct {p3}, Lio/grpc/okhttp/internal/framed/g;-><init>()V
@@ -778,14 +720,12 @@
     :goto_0
     if-ge v1, p2, :cond_6
 
-    .line 5
     iget-object v2, p0, Lio/grpc/okhttp/internal/framed/e$c;->a:Lokio/BufferedSource;
 
     invoke-interface {v2}, Lokio/BufferedSource;->readShort()S
 
     move-result v2
 
-    .line 6
     iget-object v3, p0, Lio/grpc/okhttp/internal/framed/e$c;->a:Lokio/BufferedSource;
 
     invoke-interface {v3}, Lokio/BufferedSource;->readInt()I
@@ -810,7 +750,6 @@
     :cond_2
     new-array p1, p4, [Ljava/lang/Object;
 
-    .line 7
     invoke-static {v3}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object p2
@@ -837,7 +776,6 @@
 
     const-string p2, "PROTOCOL_ERROR SETTINGS_INITIAL_WINDOW_SIZE > 2^31 - 1"
 
-    .line 8
     invoke-static {p2, p1}, Lio/grpc/okhttp/internal/framed/e;->c(Ljava/lang/String;[Ljava/lang/Object;)Ljava/io/IOException;
 
     move-result-object p1
@@ -861,14 +799,12 @@
 
     const-string p2, "PROTOCOL_ERROR SETTINGS_ENABLE_PUSH != 0 or 1"
 
-    .line 9
     invoke-static {p2, p1}, Lio/grpc/okhttp/internal/framed/e;->c(Ljava/lang/String;[Ljava/lang/Object;)Ljava/io/IOException;
 
     move-result-object p1
 
     throw p1
 
-    .line 10
     :cond_5
     :goto_1
     :pswitch_4
@@ -879,18 +815,15 @@
 
     goto :goto_0
 
-    .line 11
     :cond_6
     invoke-interface {p1, v0, p3}, Lio/grpc/okhttp/internal/framed/a$a;->b1(ZLio/grpc/okhttp/internal/framed/g;)V
 
-    .line 12
     invoke-virtual {p3}, Lio/grpc/okhttp/internal/framed/g;->i()I
 
     move-result p1
 
     if-ltz p1, :cond_7
 
-    .line 13
     iget-object p1, p0, Lio/grpc/okhttp/internal/framed/e$c;->d:Lio/grpc/okhttp/internal/framed/d$a;
 
     invoke-virtual {p3}, Lio/grpc/okhttp/internal/framed/g;->i()I
@@ -905,7 +838,6 @@
     :cond_8
     new-array p1, p4, [Ljava/lang/Object;
 
-    .line 14
     invoke-static {p2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object p2
@@ -925,7 +857,6 @@
 
     const-string p2, "TYPE_SETTINGS streamId != 0"
 
-    .line 15
     invoke-static {p2, p1}, Lio/grpc/okhttp/internal/framed/e;->c(Ljava/lang/String;[Ljava/lang/Object;)Ljava/io/IOException;
 
     move-result-object p1
@@ -959,7 +890,6 @@
 
     if-ne p2, v0, :cond_1
 
-    .line 1
     iget-object p2, p0, Lio/grpc/okhttp/internal/framed/e$c;->a:Lokio/BufferedSource;
 
     invoke-interface {p2}, Lokio/BufferedSource;->readInt()I
@@ -978,7 +908,6 @@
 
     if-eqz p2, :cond_0
 
-    .line 2
     invoke-interface {p1, p4, v0, v1}, Lio/grpc/okhttp/internal/framed/a$a;->windowUpdate(IJ)V
 
     return-void
@@ -988,7 +917,6 @@
 
     const-string p2, "windowSizeIncrement was 0"
 
-    .line 3
     invoke-static {p2, p1}, Lio/grpc/okhttp/internal/framed/e;->c(Ljava/lang/String;[Ljava/lang/Object;)Ljava/io/IOException;
 
     move-result-object p1
@@ -1000,7 +928,6 @@
 
     new-array p1, p1, [Ljava/lang/Object;
 
-    .line 4
     invoke-static {p2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object p2
@@ -1028,7 +955,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     :try_start_0
     iget-object v1, p0, Lio/grpc/okhttp/internal/framed/e$c;->a:Lokio/BufferedSource;
 
@@ -1038,7 +964,6 @@
     :try_end_0
     .catch Ljava/io/IOException; {:try_start_0 .. :try_end_0} :catch_0
 
-    .line 2
     iget-object v1, p0, Lio/grpc/okhttp/internal/framed/e$c;->a:Lokio/BufferedSource;
 
     invoke-static {v1}, Lio/grpc/okhttp/internal/framed/e;->d(Lokio/BufferedSource;)I
@@ -1053,7 +978,6 @@
 
     if-gt v1, v3, :cond_1
 
-    .line 3
     iget-object v0, p0, Lio/grpc/okhttp/internal/framed/e$c;->a:Lokio/BufferedSource;
 
     invoke-interface {v0}, Lokio/BufferedSource;->readByte()B
@@ -1064,7 +988,6 @@
 
     int-to-byte v0, v0
 
-    .line 4
     iget-object v3, p0, Lio/grpc/okhttp/internal/framed/e$c;->a:Lokio/BufferedSource;
 
     invoke-interface {v3}, Lokio/BufferedSource;->readByte()B
@@ -1075,7 +998,6 @@
 
     int-to-byte v3, v3
 
-    .line 5
     iget-object v4, p0, Lio/grpc/okhttp/internal/framed/e$c;->a:Lokio/BufferedSource;
 
     invoke-interface {v4}, Lokio/BufferedSource;->readInt()I
@@ -1086,7 +1008,6 @@
 
     and-int/2addr v4, v5
 
-    .line 6
     invoke-static {}, Lio/grpc/okhttp/internal/framed/e;->b()Ljava/util/logging/Logger;
 
     move-result-object v5
@@ -1112,7 +1033,6 @@
     :cond_0
     packed-switch v0, :pswitch_data_0
 
-    .line 7
     iget-object p1, p0, Lio/grpc/okhttp/internal/framed/e$c;->a:Lokio/BufferedSource;
 
     int-to-long v0, v1
@@ -1121,55 +1041,46 @@
 
     goto :goto_0
 
-    .line 8
     :pswitch_0
     invoke-direct {p0, p1, v1, v3, v4}, Lio/grpc/okhttp/internal/framed/e$c;->k(Lio/grpc/okhttp/internal/framed/a$a;IBI)V
 
     goto :goto_0
 
-    .line 9
     :pswitch_1
     invoke-direct {p0, p1, v1, v3, v4}, Lio/grpc/okhttp/internal/framed/e$c;->b(Lio/grpc/okhttp/internal/framed/a$a;IBI)V
 
     goto :goto_0
 
-    .line 10
     :pswitch_2
     invoke-direct {p0, p1, v1, v3, v4}, Lio/grpc/okhttp/internal/framed/e$c;->e(Lio/grpc/okhttp/internal/framed/a$a;IBI)V
 
     goto :goto_0
 
-    .line 11
     :pswitch_3
     invoke-direct {p0, p1, v1, v3, v4}, Lio/grpc/okhttp/internal/framed/e$c;->h(Lio/grpc/okhttp/internal/framed/a$a;IBI)V
 
     goto :goto_0
 
-    .line 12
     :pswitch_4
     invoke-direct {p0, p1, v1, v3, v4}, Lio/grpc/okhttp/internal/framed/e$c;->j(Lio/grpc/okhttp/internal/framed/a$a;IBI)V
 
     goto :goto_0
 
-    .line 13
     :pswitch_5
     invoke-direct {p0, p1, v1, v3, v4}, Lio/grpc/okhttp/internal/framed/e$c;->i(Lio/grpc/okhttp/internal/framed/a$a;IBI)V
 
     goto :goto_0
 
-    .line 14
     :pswitch_6
     invoke-direct {p0, p1, v1, v3, v4}, Lio/grpc/okhttp/internal/framed/e$c;->g(Lio/grpc/okhttp/internal/framed/a$a;IBI)V
 
     goto :goto_0
 
-    .line 15
     :pswitch_7
     invoke-direct {p0, p1, v1, v3, v4}, Lio/grpc/okhttp/internal/framed/e$c;->d(Lio/grpc/okhttp/internal/framed/a$a;IBI)V
 
     goto :goto_0
 
-    .line 16
     :pswitch_8
     invoke-direct {p0, p1, v1, v3, v4}, Lio/grpc/okhttp/internal/framed/e$c;->a(Lio/grpc/okhttp/internal/framed/a$a;IBI)V
 
@@ -1179,7 +1090,6 @@
     :cond_1
     new-array p1, v2, [Ljava/lang/Object;
 
-    .line 17
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v1
@@ -1219,7 +1129,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lio/grpc/okhttp/internal/framed/e$c;->a:Lokio/BufferedSource;
 
     invoke-interface {v0}, Lokio/Source;->close()V
@@ -1235,14 +1144,12 @@
         }
     .end annotation
 
-    .line 1
     iget-boolean v0, p0, Lio/grpc/okhttp/internal/framed/e$c;->c:Z
 
     if-eqz v0, :cond_0
 
     return-void
 
-    .line 2
     :cond_0
     iget-object v0, p0, Lio/grpc/okhttp/internal/framed/e$c;->a:Lokio/BufferedSource;
 
@@ -1260,7 +1167,6 @@
 
     move-result-object v0
 
-    .line 3
     invoke-static {}, Lio/grpc/okhttp/internal/framed/e;->b()Ljava/util/logging/Logger;
 
     move-result-object v1
@@ -1297,7 +1203,6 @@
 
     invoke-virtual {v1, v4}, Ljava/util/logging/Logger;->fine(Ljava/lang/String;)V
 
-    .line 4
     :cond_1
     invoke-static {}, Lio/grpc/okhttp/internal/framed/e;->a()Lokio/ByteString;
 
@@ -1314,7 +1219,6 @@
     :cond_2
     new-array v1, v3, [Ljava/lang/Object;
 
-    .line 5
     invoke-virtual {v0}, Lokio/ByteString;->utf8()Ljava/lang/String;
 
     move-result-object v0

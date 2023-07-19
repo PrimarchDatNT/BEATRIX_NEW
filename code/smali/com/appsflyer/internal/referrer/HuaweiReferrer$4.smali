@@ -32,7 +32,6 @@
 .method varargs constructor <init>(Lcom/appsflyer/internal/referrer/HuaweiReferrer;Landroid/content/Context;Ljava/lang/String;[Ljava/lang/String;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/appsflyer/internal/referrer/HuaweiReferrer$4;->valueOf:Lcom/appsflyer/internal/referrer/HuaweiReferrer;
 
     invoke-direct {p0, p2, p3, p4}, Lcom/appsflyer/internal/ContentFetcher;-><init>(Landroid/content/Context;Ljava/lang/String;[Ljava/lang/String;)V
@@ -56,7 +55,6 @@
 
     const-string v1, "response"
 
-    .line 1
     iget-object v2, p0, Lcom/appsflyer/internal/ContentFetcher;->context:Landroid/content/Context;
 
     invoke-virtual {v2}, Landroid/content/Context;->getPackageManager()Landroid/content/pm/PackageManager;
@@ -67,14 +65,12 @@
 
     const/16 v4, 0x80
 
-    .line 2
     invoke-virtual {v2, v3, v4}, Landroid/content/pm/PackageManager;->resolveContentProvider(Ljava/lang/String;I)Landroid/content/pm/ProviderInfo;
 
     move-result-object v2
 
     iget-object v2, v2, Landroid/content/pm/PackageItemInfo;->packageName:Ljava/lang/String;
 
-    .line 3
     iget-object v3, p0, Lcom/appsflyer/internal/referrer/HuaweiReferrer$4;->valueOf:Lcom/appsflyer/internal/referrer/HuaweiReferrer;
 
     iget-object v3, v3, Lcom/appsflyer/internal/referrer/Referrer;->map:Ljava/util/Map;
@@ -93,7 +89,6 @@
 
     invoke-interface {v3, v5, v4}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 4
     iget-object v3, p0, Lcom/appsflyer/internal/referrer/HuaweiReferrer$4;->valueOf:Lcom/appsflyer/internal/referrer/HuaweiReferrer;
 
     iget-object v3, v3, Lcom/appsflyer/internal/referrer/Referrer;->map:Ljava/util/Map;
@@ -110,7 +105,6 @@
 
     const/4 v2, 0x0
 
-    .line 5
     :try_start_0
     iget-object v3, p0, Lcom/appsflyer/internal/ContentFetcher;->context:Landroid/content/Context;
 
@@ -136,7 +130,6 @@
 
     move-result-object v3
 
-    .line 6
     invoke-static {v3}, Landroid/net/Uri;->parse(Ljava/lang/String;)Landroid/net/Uri;
 
     move-result-object v5
@@ -151,7 +144,6 @@
 
     iget-object v9, p0, Lcom/appsflyer/internal/ContentFetcher;->context:Landroid/content/Context;
 
-    .line 7
     invoke-virtual {v9}, Landroid/content/Context;->getPackageName()Ljava/lang/String;
 
     move-result-object v9
@@ -162,21 +154,18 @@
 
     const/4 v9, 0x0
 
-    .line 8
     invoke-virtual/range {v4 .. v9}, Landroid/content/ContentResolver;->query(Landroid/net/Uri;[Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;)Landroid/database/Cursor;
 
     move-result-object v2
 
     if-eqz v2, :cond_2
 
-    .line 9
     invoke-interface {v2}, Landroid/database/Cursor;->moveToFirst()Z
 
     move-result v4
 
     if-eqz v4, :cond_1
 
-    .line 10
     iget-object v4, p0, Lcom/appsflyer/internal/referrer/HuaweiReferrer$4;->valueOf:Lcom/appsflyer/internal/referrer/HuaweiReferrer;
 
     iget-object v4, v4, Lcom/appsflyer/internal/referrer/Referrer;->map:Ljava/util/Map;
@@ -185,7 +174,6 @@
 
     invoke-interface {v4, v1, v5}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 11
     iget-object v4, p0, Lcom/appsflyer/internal/referrer/HuaweiReferrer$4;->valueOf:Lcom/appsflyer/internal/referrer/HuaweiReferrer;
 
     iget-object v4, v4, Lcom/appsflyer/internal/referrer/Referrer;->map:Ljava/util/Map;
@@ -198,7 +186,6 @@
 
     invoke-interface {v4, v5, v6}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 12
     iget-object v4, p0, Lcom/appsflyer/internal/referrer/HuaweiReferrer$4;->valueOf:Lcom/appsflyer/internal/referrer/HuaweiReferrer;
 
     iget-object v4, v4, Lcom/appsflyer/internal/referrer/Referrer;->map:Ljava/util/Map;
@@ -215,7 +202,6 @@
 
     invoke-interface {v4, v5, v3}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 13
     iget-object v3, p0, Lcom/appsflyer/internal/referrer/HuaweiReferrer$4;->valueOf:Lcom/appsflyer/internal/referrer/HuaweiReferrer;
 
     iget-object v3, v3, Lcom/appsflyer/internal/referrer/Referrer;->map:Ljava/util/Map;
@@ -234,7 +220,6 @@
 
     invoke-interface {v3, v4, v5}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 14
     invoke-interface {v2}, Landroid/database/Cursor;->getColumnCount()I
 
     move-result v3
@@ -243,7 +228,6 @@
 
     if-le v3, v4, :cond_3
 
-    .line 15
     iget-object v3, p0, Lcom/appsflyer/internal/referrer/HuaweiReferrer$4;->valueOf:Lcom/appsflyer/internal/referrer/HuaweiReferrer;
 
     iget-object v3, v3, Lcom/appsflyer/internal/referrer/Referrer;->map:Ljava/util/Map;
@@ -260,14 +244,12 @@
 
     invoke-interface {v3, v5, v4}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 16
     new-instance v3, Ljava/util/HashMap;
 
     invoke-direct {v3}, Ljava/util/HashMap;-><init>()V
 
     const/4 v4, 0x4
 
-    .line 17
     invoke-interface {v2, v4}, Landroid/database/Cursor;->getString(I)Ljava/lang/String;
 
     move-result-object v4
@@ -276,7 +258,6 @@
 
     const-string/jumbo v5, "track_id"
 
-    .line 18
     invoke-virtual {v3, v5, v4}, Ljava/util/AbstractMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     :cond_0
@@ -284,14 +265,12 @@
 
     const/4 v5, 0x5
 
-    .line 19
     invoke-interface {v2, v5}, Landroid/database/Cursor;->getString(I)Ljava/lang/String;
 
     move-result-object v5
 
     invoke-virtual {v3, v4, v5}, Ljava/util/AbstractMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 20
     iget-object v4, p0, Lcom/appsflyer/internal/referrer/HuaweiReferrer$4;->valueOf:Lcom/appsflyer/internal/referrer/HuaweiReferrer;
 
     iget-object v4, v4, Lcom/appsflyer/internal/referrer/Referrer;->map:Ljava/util/Map;
@@ -302,7 +281,6 @@
 
     goto :goto_0
 
-    .line 21
     :cond_1
     iget-object v3, p0, Lcom/appsflyer/internal/referrer/HuaweiReferrer$4;->valueOf:Lcom/appsflyer/internal/referrer/HuaweiReferrer;
 
@@ -312,7 +290,6 @@
 
     goto :goto_0
 
-    .line 22
     :cond_2
     iget-object v3, p0, Lcom/appsflyer/internal/referrer/HuaweiReferrer$4;->valueOf:Lcom/appsflyer/internal/referrer/HuaweiReferrer;
 
@@ -339,7 +316,6 @@
     :catch_0
     move-exception v3
 
-    .line 23
     :try_start_1
     iget-object v4, p0, Lcom/appsflyer/internal/referrer/HuaweiReferrer$4;->valueOf:Lcom/appsflyer/internal/referrer/HuaweiReferrer;
 
@@ -347,24 +323,20 @@
 
     invoke-interface {v4, v1, v0}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 24
     invoke-virtual {p0, v3}, Lcom/appsflyer/internal/ContentFetcher;->onError(Ljava/lang/Exception;)V
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
     if-eqz v2, :cond_4
 
-    .line 25
     :goto_1
     invoke-interface {v2}, Landroid/database/Cursor;->close()V
 
-    .line 26
     :cond_4
     iget-object v0, p0, Lcom/appsflyer/internal/referrer/HuaweiReferrer$4;->valueOf:Lcom/appsflyer/internal/referrer/HuaweiReferrer;
 
     invoke-virtual {v0}, Lcom/appsflyer/internal/referrer/Referrer;->finish()V
 
-    .line 27
     iget-object v0, p0, Lcom/appsflyer/internal/referrer/HuaweiReferrer$4;->valueOf:Lcom/appsflyer/internal/referrer/HuaweiReferrer;
 
     iget-object v0, v0, Lcom/appsflyer/internal/referrer/Referrer;->map:Ljava/util/Map;
@@ -374,10 +346,8 @@
     :goto_2
     if-eqz v2, :cond_5
 
-    .line 28
     invoke-interface {v2}, Landroid/database/Cursor;->close()V
 
-    .line 29
     :cond_5
     throw v0
 .end method
@@ -387,7 +357,6 @@
 .method public final synthetic query()Ljava/lang/Object;
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Lcom/appsflyer/internal/referrer/HuaweiReferrer$4;->AFDateFormat()Ljava/util/Map;
 
     move-result-object v0

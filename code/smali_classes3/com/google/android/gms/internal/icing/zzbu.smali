@@ -55,10 +55,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     invoke-static {p1}, Lcom/google/android/gms/internal/icing/t0;->a(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -80,41 +78,33 @@
         }
     .end annotation
 
-    .line 1
     iget-boolean v0, p0, Lcom/google/android/gms/internal/icing/zzbu;->zzdy:Z
 
     if-nez v0, :cond_1
 
-    .line 2
     monitor-enter p0
 
-    .line 3
     :try_start_0
     iget-boolean v0, p0, Lcom/google/android/gms/internal/icing/zzbu;->zzdy:Z
 
     if-nez v0, :cond_0
 
-    .line 4
     iget-object v0, p0, Lcom/google/android/gms/internal/icing/zzbu;->zzdx:Lcom/google/android/gms/internal/icing/u0;
 
     invoke-interface {v0}, Lcom/google/android/gms/internal/icing/u0;->get()Ljava/lang/Object;
 
     move-result-object v0
 
-    .line 5
     iput-object v0, p0, Lcom/google/android/gms/internal/icing/zzbu;->value:Ljava/lang/Object;
 
     const/4 v1, 0x1
 
-    .line 6
     iput-boolean v1, p0, Lcom/google/android/gms/internal/icing/zzbu;->zzdy:Z
 
-    .line 7
     monitor-exit p0
 
     return-object v0
 
-    .line 8
     :cond_0
     monitor-exit p0
 
@@ -129,7 +119,6 @@
 
     throw v0
 
-    .line 9
     :cond_1
     :goto_0
     iget-object v0, p0, Lcom/google/android/gms/internal/icing/zzbu;->value:Ljava/lang/Object;
@@ -140,7 +129,6 @@
 .method public final toString()Ljava/lang/String;
     .locals 3
 
-    .line 1
     iget-boolean v0, p0, Lcom/google/android/gms/internal/icing/zzbu;->zzdy:Z
 
     if-eqz v0, :cond_0

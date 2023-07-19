@@ -11,7 +11,6 @@
 .method public static final synthetic a(Lcotlinx/coroutines/flow/e;Lcotlin/coroutines/CoroutineContext;)Lcotlinx/coroutines/flow/e;
     .locals 0
 
-    .line 1
     invoke-static {p0, p1}, Lcotlinx/coroutines/flow/internal/a;->e(Lcotlinx/coroutines/flow/e;Lcotlin/coroutines/CoroutineContext;)Lcotlinx/coroutines/flow/e;
 
     move-result-object p0
@@ -40,7 +39,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     instance-of v0, p0, Lcotlinx/coroutines/flow/internal/ChannelFlow;
 
     if-nez v0, :cond_0
@@ -122,12 +120,10 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     invoke-static {p0, p1}, Lcotlinx/coroutines/internal/ThreadContextKt;->c(Lcotlin/coroutines/CoroutineContext;Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v0
 
-    .line 2
     :try_start_0
     new-instance v8, Lcotlinx/coroutines/flow/internal/a$a;
 
@@ -163,10 +159,8 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 3
     invoke-static {p0, v0}, Lcotlinx/coroutines/internal/ThreadContextKt;->a(Lcotlin/coroutines/CoroutineContext;Ljava/lang/Object;)V
 
-    .line 4
     invoke-static {}, Lcotlin/coroutines/intrinsics/a;->h()Ljava/lang/Object;
 
     move-result-object p0
@@ -178,7 +172,6 @@
     :cond_0
     return-object p1
 
-    .line 5
     :cond_1
     :try_start_1
     new-instance p1, Lcotlin/TypeCastException;
@@ -194,7 +187,6 @@
     :catchall_0
     move-exception p1
 
-    .line 6
     invoke-static {p0, v0}, Lcotlinx/coroutines/internal/ThreadContextKt;->a(Lcotlin/coroutines/CoroutineContext;Ljava/lang/Object;)V
 
     throw p1
@@ -207,7 +199,6 @@
 
     if-eqz p5, :cond_0
 
-    .line 1
     invoke-static {p0}, Lcotlinx/coroutines/internal/ThreadContextKt;->b(Lcotlin/coroutines/CoroutineContext;)Ljava/lang/Object;
 
     move-result-object p1
@@ -240,7 +231,6 @@
         }
     .end annotation
 
-    .line 1
     instance-of v0, p0, Lcotlinx/coroutines/flow/internal/j;
 
     if-eqz v0, :cond_0
@@ -254,7 +244,6 @@
 
     goto :goto_0
 
-    .line 2
     :cond_1
     new-instance v0, Lcotlinx/coroutines/flow/internal/UndispatchedContextCollector;
 

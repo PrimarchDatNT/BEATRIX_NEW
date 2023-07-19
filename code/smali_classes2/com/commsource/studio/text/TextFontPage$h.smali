@@ -29,12 +29,10 @@
 
     iput-object p1, p0, Lcom/commsource/studio/text/TextFontPage$h;->c:Lcom/commsource/studio/text/TextFontPage;
 
-    .line 1
     invoke-direct {p0}, Landroidx/recyclerview/widget/RecyclerView$ItemDecoration;-><init>()V
 
     const/high16 p1, 0x40a00000    # 5.0f
 
-    .line 2
     invoke-static {p1}, Lcom/meitu/library/p/f/i;->d(F)I
 
     move-result p1
@@ -43,7 +41,6 @@
 
     const/high16 p1, 0x41200000    # 10.0f
 
-    .line 3
     invoke-static {p1}, Lcom/meitu/library/p/f/i;->d(F)I
 
     move-result p1
@@ -62,7 +59,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/text/TextFontPage$h;->a:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -77,7 +73,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/text/TextFontPage$h;->b:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -124,7 +119,6 @@
 
     invoke-static {p4, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-virtual {p3, p2}, Landroidx/recyclerview/widget/RecyclerView;->getChildAdapterPosition(Landroid/view/View;)I
 
     move-result p2
@@ -133,7 +127,6 @@
 
     if-gt p2, p3, :cond_0
 
-    .line 2
     iget p2, p0, Lcom/commsource/studio/text/TextFontPage$h;->a:I
 
     iget p3, p0, Lcom/commsource/studio/text/TextFontPage$h;->b:I
@@ -142,7 +135,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_0
     iget-object p3, p0, Lcom/commsource/studio/text/TextFontPage$h;->c:Lcom/commsource/studio/text/TextFontPage;
 
@@ -158,24 +150,19 @@
 
     if-ne p2, p3, :cond_1
 
-    .line 4
     iget p2, p0, Lcom/commsource/studio/text/TextFontPage$h;->a:I
 
-    .line 5
     iget p3, p0, Lcom/commsource/studio/text/TextFontPage$h;->b:I
 
-    .line 6
     invoke-virtual {p1, p2, p2, p2, p3}, Landroid/graphics/Rect;->set(IIII)V
 
     goto :goto_0
 
-    .line 7
     :cond_1
     iget p2, p0, Lcom/commsource/studio/text/TextFontPage$h;->a:I
 
     invoke-virtual {p1, p2, p2, p2, p2}, Landroid/graphics/Rect;->set(IIII)V
 
-    .line 8
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

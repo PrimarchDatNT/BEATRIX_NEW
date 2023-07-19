@@ -57,10 +57,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/bumptech/glide/load/k/e;->a:Lcom/bumptech/glide/load/k/e$a;
 
     return-void
@@ -80,7 +78,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p1}, Ljava/lang/Object;->toString()Ljava/lang/String;
 
     move-result-object p1
@@ -114,7 +111,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance p2, Lcom/bumptech/glide/load/k/n$a;
 
     new-instance p3, Lcom/bumptech/glide/r/e;
@@ -123,7 +119,6 @@
 
     new-instance p4, Lcom/bumptech/glide/load/k/e$b;
 
-    .line 2
     invoke-virtual {p1}, Ljava/lang/Object;->toString()Ljava/lang/String;
 
     move-result-object p1

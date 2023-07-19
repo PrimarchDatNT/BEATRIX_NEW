@@ -31,7 +31,6 @@
 .method constructor <init>(Lcom/google/common/collect/t$a;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/common/collect/t$a$a;->a:Lcom/google/common/collect/t$a;
 
     invoke-direct {p0}, Lcom/google/common/collect/Maps$q;-><init>()V
@@ -53,7 +52,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/t$a$a;->a:Lcom/google/common/collect/t$a;
 
     return-object v0
@@ -72,7 +70,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/google/common/collect/t$a$a$a;
 
     invoke-direct {v0, p0}, Lcom/google/common/collect/t$a$a$a;-><init>(Lcom/google/common/collect/t$a$a;)V
@@ -90,7 +87,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/t$a$a;->a:Lcom/google/common/collect/t$a;
 
     iget-object v0, v0, Lcom/google/common/collect/t$a;->d:Lcom/google/common/collect/t;
@@ -116,7 +112,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/t$a$a;->a:Lcom/google/common/collect/t$a;
 
     iget-object v0, v0, Lcom/google/common/collect/t$a;->d:Lcom/google/common/collect/t;
@@ -139,7 +134,6 @@
 .method public size()I
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/collect/t$a$a;->iterator()Ljava/util/Iterator;
 
     move-result-object v0

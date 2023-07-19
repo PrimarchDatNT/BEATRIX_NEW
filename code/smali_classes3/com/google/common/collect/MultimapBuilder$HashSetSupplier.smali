@@ -39,12 +39,10 @@
 .method constructor <init>(I)V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const-string v0, "expectedValuesPerKey"
 
-    .line 2
     invoke-static {p1, v0}, Lcom/google/common/collect/m;->b(ILjava/lang/String;)I
 
     move-result p1
@@ -59,7 +57,6 @@
 .method public bridge synthetic get()Ljava/lang/Object;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/collect/MultimapBuilder$HashSetSupplier;->get()Ljava/util/Set;
 
     move-result-object v0
@@ -77,7 +74,6 @@
         }
     .end annotation
 
-    .line 2
     iget v0, p0, Lcom/google/common/collect/MultimapBuilder$HashSetSupplier;->expectedValuesPerKey:I
 
     invoke-static {v0}, Lcom/google/common/collect/r1;->e(I)Ljava/util/Set;

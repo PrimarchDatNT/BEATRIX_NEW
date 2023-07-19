@@ -25,7 +25,6 @@
 .method constructor <init>(Lcom/commsource/mypage/m0/d;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/mypage/m0/d$b;->a:Lcom/commsource/mypage/m0/d;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -42,7 +41,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/mypage/m0/d$b;->a:Lcom/commsource/mypage/m0/d;
 
     invoke-static {v0}, Lcom/commsource/mypage/m0/d;->b(Lcom/commsource/mypage/m0/d;)Landroid/view/View;
@@ -57,7 +55,6 @@
 
     if-nez v0, :cond_0
 
-    .line 2
     iget-object v0, p0, Lcom/commsource/mypage/m0/d$b;->a:Lcom/commsource/mypage/m0/d;
 
     invoke-static {v0}, Lcom/commsource/mypage/m0/d;->b(Lcom/commsource/mypage/m0/d;)Landroid/view/View;
@@ -66,7 +63,6 @@
 
     invoke-virtual {v0, v1}, Landroid/view/View;->setVisibility(I)V
 
-    .line 3
     :cond_0
     iget-object v0, p0, Lcom/commsource/mypage/m0/d$b;->a:Lcom/commsource/mypage/m0/d;
 
@@ -76,7 +72,6 @@
 
     invoke-interface {v0}, Ljava/util/List;->clear()V
 
-    .line 4
     iget-object v0, p0, Lcom/commsource/mypage/m0/d$b;->a:Lcom/commsource/mypage/m0/d;
 
     invoke-static {v0}, Lcom/commsource/mypage/m0/d;->d(Lcom/commsource/mypage/m0/d;)Lcom/commsource/mypage/m0/c;
@@ -85,7 +80,6 @@
 
     invoke-virtual {v0}, Landroidx/recyclerview/widget/RecyclerView$Adapter;->notifyDataSetChanged()V
 
-    .line 5
     iget-object v0, p0, Lcom/commsource/mypage/m0/d$b;->a:Lcom/commsource/mypage/m0/d;
 
     invoke-static {v0}, Lcom/commsource/mypage/m0/d;->e(Lcom/commsource/mypage/m0/d;)Landroid/widget/TextView;
@@ -94,7 +88,6 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setVisibility(I)V
 
-    .line 6
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -107,7 +100,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -120,7 +112,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

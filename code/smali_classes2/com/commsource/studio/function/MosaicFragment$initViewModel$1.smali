@@ -63,7 +63,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/function/MosaicFragment$initViewModel$1;->a:Lcom/commsource/studio/function/MosaicFragment;
 
     invoke-static {v1}, Lcom/commsource/studio/function/MosaicFragment;->A1(Lcom/commsource/studio/function/MosaicFragment;)Lcom/commsource/widget/h1/e;
@@ -76,7 +75,6 @@
 
     invoke-virtual {v1, p1, v2, v3}, Lcom/commsource/widget/h1/e;->O(Ljava/util/List;Ljava/lang/Class;Z)V
 
-    .line 2
     iget-object p1, p0, Lcom/commsource/studio/function/MosaicFragment$initViewModel$1;->a:Lcom/commsource/studio/function/MosaicFragment;
 
     new-instance v1, Lcom/commsource/studio/function/MosaicFragment$initViewModel$1$1;
@@ -85,7 +83,6 @@
 
     invoke-virtual {p1, v1}, Lcom/commsource/studio/function/BaseSubFragment;->c1(Lcotlin/jvm/u/a;)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -98,7 +95,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Ljava/util/List;
 
     invoke-virtual {p0, p1}, Lcom/commsource/studio/function/MosaicFragment$initViewModel$1;->a(Ljava/util/List;)V

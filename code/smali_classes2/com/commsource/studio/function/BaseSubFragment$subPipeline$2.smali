@@ -55,7 +55,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 2
     new-instance v1, Lcom/commsource/studio/function/BaseSubFragment$subPipeline$2$a;
 
     iget-object v2, p0, Lcom/commsource/studio/function/BaseSubFragment$subPipeline$2;->this$0:Lcom/commsource/studio/function/BaseSubFragment;
@@ -74,7 +73,6 @@
 
     invoke-direct {v1, p0, v2}, Lcom/commsource/studio/function/BaseSubFragment$subPipeline$2$a;-><init>(Lcom/commsource/studio/function/BaseSubFragment$subPipeline$2;Lcom/commsource/editengine/b;)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
@@ -87,7 +85,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/studio/function/BaseSubFragment$subPipeline$2;->invoke()Lcom/commsource/studio/function/BaseSubFragment$subPipeline$2$a;
 
     move-result-object v1

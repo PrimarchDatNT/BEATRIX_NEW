@@ -25,10 +25,8 @@
 .method constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     new-instance v0, Ljava/util/concurrent/locks/ReentrantReadWriteLock;
 
     invoke-direct {v0}, Ljava/util/concurrent/locks/ReentrantReadWriteLock;-><init>()V
@@ -43,7 +41,6 @@
 .method public readLock()Ljava/util/concurrent/locks/Lock;
     .locals 2
 
-    .line 1
     new-instance v0, Lcom/google/common/util/concurrent/Striped$l;
 
     iget-object v1, p0, Lcom/google/common/util/concurrent/Striped$m;->a:Ljava/util/concurrent/locks/ReadWriteLock;
@@ -60,7 +57,6 @@
 .method public writeLock()Ljava/util/concurrent/locks/Lock;
     .locals 2
 
-    .line 1
     new-instance v0, Lcom/google/common/util/concurrent/Striped$l;
 
     iget-object v1, p0, Lcom/google/common/util/concurrent/Striped$m;->a:Ljava/util/concurrent/locks/ReadWriteLock;

@@ -45,7 +45,6 @@
 .method static constructor <clinit>()V
     .locals 6
 
-    .line 1
     new-instance v0, Lcom/google/protobuf/NullValue;
 
     const-string v1, "NULL_VALUE"
@@ -56,7 +55,6 @@
 
     sput-object v0, Lcom/google/protobuf/NullValue;->NULL_VALUE:Lcom/google/protobuf/NullValue;
 
-    .line 2
     new-instance v1, Lcom/google/protobuf/NullValue;
 
     const-string v3, "UNRECOGNIZED"
@@ -77,10 +75,8 @@
 
     aput-object v1, v3, v4
 
-    .line 3
     sput-object v3, Lcom/google/protobuf/NullValue;->$VALUES:[Lcom/google/protobuf/NullValue;
 
-    .line 4
     new-instance v0, Lcom/google/protobuf/NullValue$a;
 
     invoke-direct {v0}, Lcom/google/protobuf/NullValue$a;-><init>()V
@@ -98,10 +94,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 2
     iput p3, p0, Lcom/google/protobuf/NullValue;->value:I
 
     return-void
@@ -116,7 +110,6 @@
 
     return-object p0
 
-    .line 1
     :cond_0
     sget-object p0, Lcom/google/protobuf/NullValue;->NULL_VALUE:Lcom/google/protobuf/NullValue;
 
@@ -134,7 +127,6 @@
         }
     .end annotation
 
-    .line 1
     sget-object v0, Lcom/google/protobuf/NullValue;->internalValueMap:Lcom/google/protobuf/z0$d;
 
     return-object v0
@@ -145,7 +137,6 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    .line 2
     invoke-static {p0}, Lcom/google/protobuf/NullValue;->forNumber(I)Lcom/google/protobuf/NullValue;
 
     move-result-object p0
@@ -156,7 +147,6 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/google/protobuf/NullValue;
     .locals 1
 
-    .line 1
     const-class v0, Lcom/google/protobuf/NullValue;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -171,7 +161,6 @@
 .method public static values()[Lcom/google/protobuf/NullValue;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/google/protobuf/NullValue;->$VALUES:[Lcom/google/protobuf/NullValue;
 
     invoke-virtual {v0}, [Lcom/google/protobuf/NullValue;->clone()Ljava/lang/Object;
@@ -188,7 +177,6 @@
 .method public final getNumber()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lcom/google/protobuf/NullValue;->value:I
 
     return v0

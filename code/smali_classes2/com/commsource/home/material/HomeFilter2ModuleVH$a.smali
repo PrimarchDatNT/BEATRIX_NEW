@@ -54,7 +54,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Ljava/lang/Integer;
 
     invoke-virtual {p0, p1}, Lcom/commsource/home/material/HomeFilter2ModuleVH$a;->b(Ljava/lang/Integer;)V
@@ -71,7 +70,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/home/material/HomeFilter2ModuleVH$a;->a:Lcom/commsource/home/material/HomeFilter2ModuleVH;
 
     const-string v2, "it"
@@ -90,7 +88,6 @@
 
     invoke-static {v1, v2, v3, v4, v5}, Lcom/commsource/home/material/HomeFilter2ModuleVH;->K(Lcom/commsource/home/material/HomeFilter2ModuleVH;IZILjava/lang/Object;)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/home/material/HomeFilter2ModuleVH$a;->a:Lcom/commsource/home/material/HomeFilter2ModuleVH;
 
     iget-object v1, v1, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->itemView:Landroid/view/View;
@@ -113,7 +110,6 @@
 
     invoke-static {v1, p1, v3, v4, v5}, Lcom/commsource/widget/IndicatorLineView;->f(Lcom/commsource/widget/IndicatorLineView;IZILjava/lang/Object;)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

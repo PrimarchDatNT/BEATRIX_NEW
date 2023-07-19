@@ -30,12 +30,10 @@
 .method private constructor <init>(Lcom/google/firebase/firestore/util/AsyncQueue;)V
     .locals 1
 
-    .line 1
     iput-object p1, p0, Lcom/google/firebase/firestore/util/AsyncQueue$b;->c:Lcom/google/firebase/firestore/util/AsyncQueue;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     new-instance p1, Ljava/util/concurrent/CountDownLatch;
 
     const/4 v0, 0x1
@@ -50,7 +48,6 @@
 .method synthetic constructor <init>(Lcom/google/firebase/firestore/util/AsyncQueue;Lcom/google/firebase/firestore/util/AsyncQueue$a;)V
     .locals 0
 
-    .line 3
     invoke-direct {p0, p1}, Lcom/google/firebase/firestore/util/AsyncQueue$b;-><init>(Lcom/google/firebase/firestore/util/AsyncQueue;)V
 
     return-void
@@ -65,7 +62,6 @@
         .end annotation
     .end param
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/firestore/util/AsyncQueue$b;->b:Ljava/lang/Runnable;
 
     const/4 v1, 0x0
@@ -86,15 +82,12 @@
 
     invoke-static {v0, v2, v1}, Lcom/google/firebase/firestore/util/b;->d(ZLjava/lang/String;[Ljava/lang/Object;)V
 
-    .line 2
     iput-object p1, p0, Lcom/google/firebase/firestore/util/AsyncQueue$b;->b:Ljava/lang/Runnable;
 
-    .line 3
     iget-object p1, p0, Lcom/google/firebase/firestore/util/AsyncQueue$b;->a:Ljava/util/concurrent/CountDownLatch;
 
     invoke-virtual {p1}, Ljava/util/concurrent/CountDownLatch;->countDown()V
 
-    .line 4
     iget-object p1, p0, Lcom/google/firebase/firestore/util/AsyncQueue$b;->c:Lcom/google/firebase/firestore/util/AsyncQueue;
 
     invoke-static {p1}, Lcom/google/firebase/firestore/util/AsyncQueue;->c(Lcom/google/firebase/firestore/util/AsyncQueue;)Ljava/lang/Thread;
@@ -107,7 +100,6 @@
 .method public run()V
     .locals 1
 
-    .line 1
     :try_start_0
     iget-object v0, p0, Lcom/google/firebase/firestore/util/AsyncQueue$b;->a:Ljava/util/concurrent/CountDownLatch;
 
@@ -117,7 +109,6 @@
 
     goto :goto_0
 
-    .line 2
     :catch_0
     invoke-static {}, Ljava/lang/Thread;->currentThread()Ljava/lang/Thread;
 
@@ -125,7 +116,6 @@
 
     invoke-virtual {v0}, Ljava/lang/Thread;->interrupt()V
 
-    .line 3
     :goto_0
     iget-object v0, p0, Lcom/google/firebase/firestore/util/AsyncQueue$b;->b:Ljava/lang/Runnable;
 

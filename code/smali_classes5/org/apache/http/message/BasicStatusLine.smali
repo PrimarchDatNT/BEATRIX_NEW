@@ -29,12 +29,10 @@
 .method public constructor <init>(Lorg/apache/http/ProtocolVersion;ILjava/lang/String;)V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const-string v0, "Version"
 
-    .line 2
     invoke-static {p1, v0}, Lorg/apache/http/util/Args;->notNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
 
     move-result-object p1
@@ -45,14 +43,12 @@
 
     const-string p1, "Status code"
 
-    .line 3
     invoke-static {p2, p1}, Lorg/apache/http/util/Args;->notNegative(ILjava/lang/String;)I
 
     move-result p1
 
     iput p1, p0, Lorg/apache/http/message/BasicStatusLine;->statusCode:I
 
-    .line 4
     iput-object p3, p0, Lorg/apache/http/message/BasicStatusLine;->reasonPhrase:Ljava/lang/String;
 
     return-void
@@ -68,7 +64,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-super {p0}, Ljava/lang/Object;->clone()Ljava/lang/Object;
 
     move-result-object v0
@@ -79,7 +74,6 @@
 .method public getProtocolVersion()Lorg/apache/http/ProtocolVersion;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lorg/apache/http/message/BasicStatusLine;->protoVersion:Lorg/apache/http/ProtocolVersion;
 
     return-object v0
@@ -88,7 +82,6 @@
 .method public getReasonPhrase()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lorg/apache/http/message/BasicStatusLine;->reasonPhrase:Ljava/lang/String;
 
     return-object v0
@@ -97,7 +90,6 @@
 .method public getStatusCode()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lorg/apache/http/message/BasicStatusLine;->statusCode:I
 
     return v0
@@ -106,7 +98,6 @@
 .method public toString()Ljava/lang/String;
     .locals 2
 
-    .line 1
     sget-object v0, Lorg/apache/http/message/BasicLineFormatter;->INSTANCE:Lorg/apache/http/message/BasicLineFormatter;
 
     const/4 v1, 0x0

@@ -58,7 +58,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/studio/sticker/CustomStickerActivity$saveSticker$1;->invoke()V
 
     sget-object v1, Lcotlin/t1;->a:Lcotlin/t1;
@@ -75,12 +74,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 2
     new-instance v1, Lcom/meitu/template/bean/Sticker;
 
     invoke-direct {v1}, Lcom/meitu/template/bean/Sticker;-><init>()V
 
-    .line 3
     invoke-static {}, Lcom/commsource/studio/m0;->K()I
 
     move-result v2
@@ -89,7 +86,6 @@
 
     const/4 v2, -0x8
 
-    .line 4
     invoke-virtual {v1, v2}, Lcom/meitu/template/bean/Sticker;->setGroupId(I)V
 
     const/4 v2, 0x0
@@ -98,17 +94,14 @@
 
     const/4 v4, 0x0
 
-    .line 5
     invoke-static {v1, v2, v3, v4}, Lcom/meitu/template/bean/Sticker;->getStickerPath$default(Lcom/meitu/template/bean/Sticker;ZILjava/lang/Object;)Ljava/lang/String;
 
     move-result-object v5
 
     invoke-virtual {v1, v5}, Lcom/meitu/template/bean/Sticker;->setStickerThumbnail(Ljava/lang/String;)V
 
-    .line 6
     invoke-virtual {v1, v3}, Lcom/meitu/template/bean/e;->setDownloadState(I)V
 
-    .line 7
     sget-object v5, Lcom/commsource/studio/k;->V:Lcom/commsource/studio/k;
 
     invoke-virtual {v5}, Lcom/commsource/studio/k;->i()I
@@ -117,17 +110,14 @@
 
     invoke-virtual {v1, v5}, Lcom/meitu/template/bean/Sticker;->setContainInHistory(I)V
 
-    .line 8
     invoke-virtual {v1, v3}, Lcom/meitu/template/bean/Sticker;->setCustom(I)V
 
-    .line 9
     invoke-virtual {v1}, Lcom/meitu/template/bean/Sticker;->getDownloadPath()Ljava/lang/String;
 
     move-result-object v5
 
     invoke-static {v5}, Lcom/meitu/library/p/g/b;->g(Ljava/lang/String;)Ljava/io/File;
 
-    .line 10
     iget-object v5, p0, Lcom/commsource/studio/sticker/CustomStickerActivity$saveSticker$1;->$result:Landroid/graphics/Bitmap;
 
     invoke-static {v1, v2, v3, v4}, Lcom/meitu/template/bean/Sticker;->getStickerPath$default(Lcom/meitu/template/bean/Sticker;ZILjava/lang/Object;)Ljava/lang/String;
@@ -140,12 +130,10 @@
 
     invoke-static {v5, v2, v4, v3}, Lcom/commsource/util/common/e;->D(Landroid/graphics/Bitmap;Ljava/lang/String;ILandroid/graphics/Bitmap$CompressFormat;)Z
 
-    .line 11
     iget-object v2, p0, Lcom/commsource/studio/sticker/CustomStickerActivity$saveSticker$1;->$result:Landroid/graphics/Bitmap;
 
     invoke-static {v2}, Lcom/meitu/library/p/e/a;->T(Landroid/graphics/Bitmap;)V
 
-    .line 12
     sget-object v2, Lcom/commsource/studio/sticker/StickerManager;->p:Lcom/commsource/studio/sticker/StickerManager;
 
     invoke-virtual {v2}, Lcom/commsource/studio/sticker/StickerManager;->L()Lcom/commsource/beautyfilter/NoStickLiveData;
@@ -154,14 +142,12 @@
 
     invoke-virtual {v2, v1}, Lcom/commsource/beautyfilter/NoStickLiveData;->postValue(Ljava/lang/Object;)V
 
-    .line 13
     new-instance v1, Lcom/commsource/studio/sticker/CustomStickerActivity$saveSticker$1$a;
 
     invoke-direct {v1, p0}, Lcom/commsource/studio/sticker/CustomStickerActivity$saveSticker$1$a;-><init>(Lcom/commsource/studio/sticker/CustomStickerActivity$saveSticker$1;)V
 
     invoke-static {v1}, Lcom/commsource/util/g2;->k(Ljava/lang/Runnable;)V
 
-    .line 14
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

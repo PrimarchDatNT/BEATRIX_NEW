@@ -15,7 +15,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-direct {p0, v0}, Lcom/google/android/gms/internal/firebase_remote_config/n;-><init>(Ljava/net/Proxy;)V
 
     return-void
@@ -24,10 +23,8 @@
 .method public constructor <init>(Ljava/net/Proxy;)V
     .locals 0
 
-    .line 2
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 3
     iput-object p1, p0, Lcom/google/android/gms/internal/firebase_remote_config/n;->a:Ljava/net/Proxy;
 
     return-void
@@ -43,7 +40,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/firebase_remote_config/n;->a:Ljava/net/Proxy;
 
     if-nez v0, :cond_0

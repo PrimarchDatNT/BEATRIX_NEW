@@ -16,7 +16,6 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-direct/range {p0 .. p5}, Lcom/google/firebase/firestore/DocumentSnapshot;-><init>(Lcom/google/firebase/firestore/q;Lcom/google/firebase/firestore/model/e;Lcom/google/firebase/firestore/model/Document;ZZ)V
 
     return-void
@@ -25,7 +24,6 @@
 .method static M(Lcom/google/firebase/firestore/q;Lcom/google/firebase/firestore/model/Document;ZZ)Lcom/google/firebase/firestore/b0;
     .locals 7
 
-    .line 1
     new-instance v6, Lcom/google/firebase/firestore/b0;
 
     invoke-virtual {p1}, Lcom/google/firebase/firestore/model/i;->a()Lcom/google/firebase/firestore/model/e;
@@ -71,7 +69,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-super {p0, p1}, Lcom/google/firebase/firestore/DocumentSnapshot;->K(Ljava/lang/Class;)Ljava/lang/Object;
 
     move-result-object p1
@@ -92,7 +89,6 @@
 
     const-string v2, "Object in a QueryDocumentSnapshot should be non-null"
 
-    .line 2
     invoke-static {v1, v2, v0}, Lcom/google/firebase/firestore/util/b;->d(ZLjava/lang/String;[Ljava/lang/Object;)V
 
     return-object p1
@@ -128,10 +124,8 @@
 
     const-string v0, "Provided serverTimestampBehavior value must not be null."
 
-    .line 1
     invoke-static {p2, v0}, Lcom/google/common/base/t;->F(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 2
     invoke-super {p0, p1, p2}, Lcom/google/firebase/firestore/DocumentSnapshot;->L(Ljava/lang/Class;Lcom/google/firebase/firestore/DocumentSnapshot$ServerTimestampBehavior;)Ljava/lang/Object;
 
     move-result-object p1
@@ -152,7 +146,6 @@
 
     const-string v1, "Object in a QueryDocumentSnapshot should be non-null"
 
-    .line 3
     invoke-static {v0, v1, p2}, Lcom/google/firebase/firestore/util/b;->d(ZLjava/lang/String;[Ljava/lang/Object;)V
 
     return-object p1
@@ -176,7 +169,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-super {p0}, Lcom/google/firebase/firestore/DocumentSnapshot;->t()Ljava/util/Map;
 
     move-result-object v0
@@ -197,7 +189,6 @@
 
     const-string v3, "Data in a QueryDocumentSnapshot should be non-null"
 
-    .line 2
     invoke-static {v2, v3, v1}, Lcom/google/firebase/firestore/util/b;->d(ZLjava/lang/String;[Ljava/lang/Object;)V
 
     return-object v0
@@ -229,10 +220,8 @@
 
     const-string v0, "Provided serverTimestampBehavior value must not be null."
 
-    .line 1
     invoke-static {p1, v0}, Lcom/google/common/base/t;->F(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 2
     invoke-super {p0, p1}, Lcom/google/firebase/firestore/DocumentSnapshot;->u(Lcom/google/firebase/firestore/DocumentSnapshot$ServerTimestampBehavior;)Ljava/util/Map;
 
     move-result-object p1
@@ -253,7 +242,6 @@
 
     const-string v2, "Data in a QueryDocumentSnapshot should be non-null"
 
-    .line 3
     invoke-static {v1, v2, v0}, Lcom/google/firebase/firestore/util/b;->d(ZLjava/lang/String;[Ljava/lang/Object;)V
 
     return-object p1

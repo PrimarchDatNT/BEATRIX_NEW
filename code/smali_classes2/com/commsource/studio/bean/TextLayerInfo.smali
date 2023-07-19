@@ -37,17 +37,14 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/studio/bean/FocusLayerInfo;-><init>()V
 
     iput-object p1, p0, Lcom/commsource/studio/bean/TextLayerInfo;->textGroupParam:Lcom/commsource/studio/text/TextGroupParam;
 
     const/4 p1, 0x4
 
-    .line 2
     iput p1, p0, Lcom/commsource/studio/bean/TextLayerInfo;->layerType:I
 
-    .line 3
     new-instance p1, Landroid/graphics/RectF;
 
     invoke-direct {p1}, Landroid/graphics/RectF;-><init>()V
@@ -66,7 +63,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0, p1}, Lcom/commsource/studio/bean/TextLayerInfo;->copy(Z)Lcom/commsource/studio/bean/TextLayerInfo;
 
     move-result-object p1
@@ -83,7 +79,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 2
     invoke-virtual {p0, p1}, Lcom/commsource/studio/bean/TextLayerInfo;->copy(Z)Lcom/commsource/studio/bean/TextLayerInfo;
 
     move-result-object p1
@@ -102,7 +97,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 3
     invoke-super {p0, p1}, Lcom/commsource/studio/bean/FocusLayerInfo;->copy(Z)Lcom/commsource/studio/bean/FocusLayerInfo;
 
     move-result-object p1
@@ -111,7 +105,6 @@
 
     check-cast p1, Lcom/commsource/studio/bean/TextLayerInfo;
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/studio/bean/TextLayerInfo;->textGroupParam:Lcom/commsource/studio/text/TextGroupParam;
 
     invoke-virtual {v1}, Lcom/commsource/studio/text/TextGroupParam;->copy()Lcom/commsource/studio/text/TextGroupParam;
@@ -120,7 +113,6 @@
 
     iput-object v1, p1, Lcom/commsource/studio/bean/TextLayerInfo;->textGroupParam:Lcom/commsource/studio/text/TextGroupParam;
 
-    .line 5
     new-instance v1, Landroid/graphics/RectF;
 
     iget-object v2, p1, Lcom/commsource/studio/bean/TextLayerInfo;->borderPadding:Landroid/graphics/RectF;
@@ -129,7 +121,6 @@
 
     iput-object v1, p1, Lcom/commsource/studio/bean/TextLayerInfo;->borderPadding:Landroid/graphics/RectF;
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p1
@@ -155,7 +146,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/bean/TextLayerInfo;->borderPadding:Landroid/graphics/RectF;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -170,7 +160,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/bean/TextLayerInfo;->layerType:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -185,7 +174,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/bean/TextLayerInfo;->textCenterX:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -200,7 +188,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/bean/TextLayerInfo;->textCenterY:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -217,7 +204,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/bean/TextLayerInfo;->textGroupParam:Lcom/commsource/studio/text/TextGroupParam;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -232,7 +218,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/bean/TextLayerInfo;->textGroupParam:Lcom/commsource/studio/text/TextGroupParam;
 
     invoke-virtual {v1}, Lcom/commsource/studio/text/TextGroupParam;->getTemplate()Lcom/commsource/studio/text/TextTemplate;
@@ -265,14 +250,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0, p1, p2}, Lcom/commsource/studio/bean/FocusLayerInfo;->onUpdateMatrix(II)V
 
     const/4 p1, 0x2
 
     new-array p2, p1, [F
 
-    .line 2
     invoke-virtual {p0}, Lcom/commsource/studio/bean/FocusLayerInfo;->getWidth()I
 
     move-result v1
@@ -301,7 +284,6 @@
 
     aput v1, p2, v3
 
-    .line 3
     invoke-virtual {p0}, Lcom/commsource/studio/bean/FocusLayerInfo;->getHeight()I
 
     move-result v1
@@ -326,7 +308,6 @@
 
     aput v1, p2, p1
 
-    .line 4
     invoke-virtual {p0}, Lcom/commsource/studio/bean/FocusLayerInfo;->getDrawMatrixBox()Lcom/commsource/studio/MatrixBox;
 
     move-result-object v1
@@ -337,17 +318,14 @@
 
     invoke-virtual {v1, p2}, Landroid/graphics/Matrix;->mapPoints([F)V
 
-    .line 5
     aget v1, p2, v3
 
     iput v1, p0, Lcom/commsource/studio/bean/TextLayerInfo;->textCenterX:F
 
-    .line 6
     aget p1, p2, p1
 
     iput p1, p0, Lcom/commsource/studio/bean/TextLayerInfo;->textCenterY:F
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -368,7 +346,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/bean/TextLayerInfo;->borderPadding:Landroid/graphics/RectF;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -383,7 +360,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/studio/bean/TextLayerInfo;->layerType:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -398,7 +374,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/studio/bean/FocusLayerInfo;->getDrawMatrixBox()Lcom/commsource/studio/MatrixBox;
 
     move-result-object v1
@@ -421,12 +396,10 @@
 
     invoke-virtual/range {v1 .. v7}, Lcom/commsource/studio/MatrixBox;->set(IIFFFF)V
 
-    .line 2
     invoke-virtual {p0}, Lcom/commsource/studio/bean/FocusLayerInfo;->getDrawMatrixBox()Lcom/commsource/studio/MatrixBox;
 
     move-result-object p3
 
-    .line 3
     iget-object p4, p0, Lcom/commsource/studio/bean/TextLayerInfo;->borderPadding:Landroid/graphics/RectF;
 
     iget v1, p4, Landroid/graphics/RectF;->right:F
@@ -441,7 +414,6 @@
 
     div-float/2addr v1, v2
 
-    .line 4
     iget v3, p4, Landroid/graphics/RectF;->bottom:F
 
     iget p4, p4, Landroid/graphics/RectF;->top:F
@@ -450,16 +422,12 @@
 
     div-float/2addr v3, v2
 
-    .line 5
     invoke-virtual {p3, v1, v3}, Lcom/commsource/studio/MatrixBox;->preTranslate(FF)V
 
-    .line 6
     iput p1, p0, Lcom/commsource/studio/bean/TextLayerInfo;->textCenterX:F
 
-    .line 7
     iput p2, p0, Lcom/commsource/studio/bean/TextLayerInfo;->textCenterY:F
 
-    .line 8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -472,7 +440,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/studio/bean/TextLayerInfo;->textCenterX:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -487,7 +454,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/studio/bean/TextLayerInfo;->textCenterY:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -510,7 +476,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/bean/TextLayerInfo;->textGroupParam:Lcom/commsource/studio/text/TextGroupParam;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -525,17 +490,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/studio/bean/BaseLayerInfo;->getLayerNode()Lcom/commsource/editengine/i;
 
     move-result-object v1
 
-    .line 2
     instance-of v2, v1, Lcom/commsource/editengine/node/TextLayerNode;
 
     if-eqz v2, :cond_0
 
-    .line 3
     check-cast v1, Lcom/commsource/editengine/node/TextLayerNode;
 
     invoke-virtual {v1}, Lcom/commsource/editengine/node/TextLayerNode;->q()[F
@@ -544,7 +506,6 @@
 
     if-eqz v1, :cond_0
 
-    .line 4
     iget-object v2, p0, Lcom/commsource/studio/bean/TextLayerInfo;->borderPadding:Landroid/graphics/RectF;
 
     const/4 v3, 0x2
@@ -571,7 +532,6 @@
 
     const/4 v2, 0x0
 
-    .line 5
     aget v2, v1, v2
 
     iget-object v3, p0, Lcom/commsource/studio/bean/TextLayerInfo;->borderPadding:Landroid/graphics/RectF;
@@ -590,7 +550,6 @@
 
     const/4 v3, 0x1
 
-    .line 6
     invoke-static {v3}, Lcom/commsource/util/l0;->n(I)I
 
     move-result v4
@@ -599,7 +558,6 @@
 
     move-result v2
 
-    .line 7
     aget v1, v1, v3
 
     iget-object v4, p0, Lcom/commsource/studio/bean/TextLayerInfo;->borderPadding:Landroid/graphics/RectF;
@@ -616,7 +574,6 @@
 
     move-result v1
 
-    .line 8
     invoke-static {v3}, Lcom/commsource/util/l0;->n(I)I
 
     move-result v3
@@ -625,16 +582,12 @@
 
     move-result v1
 
-    .line 9
     invoke-virtual {p0, v2, v1}, Lcom/commsource/studio/bean/FocusLayerInfo;->updateSize(II)V
 
-    .line 10
     iget v1, p0, Lcom/commsource/studio/bean/TextLayerInfo;->textCenterX:F
 
-    .line 11
     iget v2, p0, Lcom/commsource/studio/bean/TextLayerInfo;->textCenterY:F
 
-    .line 12
     invoke-virtual {p0}, Lcom/commsource/studio/bean/FocusLayerInfo;->getDrawMatrixBox()Lcom/commsource/studio/MatrixBox;
 
     move-result-object v3
@@ -643,7 +596,6 @@
 
     move-result v3
 
-    .line 13
     invoke-virtual {p0}, Lcom/commsource/studio/bean/FocusLayerInfo;->getPosition()Lcom/commsource/studio/layer/Position;
 
     move-result-object v4
@@ -652,13 +604,10 @@
 
     move-result v4
 
-    .line 14
     invoke-virtual {p0, v1, v2, v3, v4}, Lcom/commsource/studio/bean/TextLayerInfo;->setPosition(FFFF)V
 
-    .line 15
     invoke-virtual {p0, p1, p2}, Lcom/commsource/studio/bean/TextLayerInfo;->onUpdateMatrix(II)V
 
-    .line 16
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

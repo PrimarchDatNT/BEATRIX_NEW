@@ -44,10 +44,8 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/commsource/studio/layer/d;-><init>(Landroid/content/Context;)V
 
-    .line 2
     new-instance p1, Ljava/util/LinkedList;
 
     invoke-direct {p1}, Ljava/util/LinkedList;-><init>()V
@@ -58,7 +56,6 @@
 
     new-array p1, p1, [F
 
-    .line 3
     fill-array-data p1, :array_0
 
     invoke-static {p1}, Lcom/commsource/camera/f1/l;->e([F)Lcom/commsource/camera/f1/l;
@@ -67,19 +64,16 @@
 
     const-wide/16 v0, 0x7d0
 
-    .line 4
     invoke-virtual {p1, v0, v1}, Lcom/commsource/camera/f1/l;->b(J)Lcom/commsource/camera/f1/l;
 
     move-result-object p1
 
     const/4 v0, -0x1
 
-    .line 5
     invoke-virtual {p1, v0}, Lcom/commsource/camera/f1/l;->f(I)Lcom/commsource/camera/f1/l;
 
     move-result-object p1
 
-    .line 6
     new-instance v0, Lcom/commsource/studio/layer/FaceLabelLayer$b;
 
     invoke-direct {v0, p0}, Lcom/commsource/studio/layer/FaceLabelLayer$b;-><init>(Lcom/commsource/studio/layer/FaceLabelLayer;)V
@@ -92,7 +86,6 @@
 
     const/high16 p1, 0x3f800000    # 1.0f
 
-    .line 7
     iput p1, p0, Lcom/commsource/studio/layer/FaceLabelLayer;->Q:F
 
     return-void
@@ -108,7 +101,6 @@
 .method public static final synthetic p0(Lcom/commsource/studio/layer/FaceLabelLayer;)Ljava/util/LinkedList;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/studio/layer/FaceLabelLayer;->O:Ljava/util/LinkedList;
 
     return-object p0
@@ -119,7 +111,6 @@
 .method public Q()Z
     .locals 1
 
-    .line 1
     iget-boolean v0, p0, Lcom/commsource/studio/layer/FaceLabelLayer;->N:Z
 
     return v0
@@ -128,7 +119,6 @@
 .method public X()V
     .locals 13
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/studio/layer/BaseLayer;->G()Lcom/commsource/studio/ImageStudioViewModel;
 
     move-result-object v0
@@ -141,7 +131,6 @@
 
     move-result-object v0
 
-    .line 2
     invoke-virtual {v0}, Lcom/commsource/camera/d1/g/j;->d()I
 
     move-result v1
@@ -155,7 +144,6 @@
 
     if-ge v9, v1, :cond_1
 
-    .line 3
     iget-object v11, p0, Lcom/commsource/studio/layer/FaceLabelLayer;->O:Ljava/util/LinkedList;
 
     new-instance v12, Lcom/commsource/studio/layer/FaceOval;
@@ -186,7 +174,6 @@
 
     invoke-direct/range {v3 .. v8}, Lcom/commsource/studio/layer/FaceOval;-><init>(Lcom/meitu/core/types/FaceData;IFFLandroid/graphics/RectF;)V
 
-    .line 4
     invoke-virtual {v0}, Lcom/commsource/camera/d1/g/j;->h()I
 
     move-result v3
@@ -201,14 +188,12 @@
     :goto_1
     invoke-virtual {v12, v10}, Lcom/commsource/studio/layer/FaceOval;->F(Z)V
 
-    .line 5
     invoke-virtual {v11, v12}, Ljava/util/LinkedList;->add(Ljava/lang/Object;)Z
 
     add-int/lit8 v9, v9, 0x1
 
     goto :goto_0
 
-    .line 6
     :cond_1
     invoke-virtual {p0}, Lcom/commsource/studio/layer/BaseLayer;->F()Landroid/view/View;
 
@@ -216,7 +201,6 @@
 
     invoke-virtual {v0}, Landroid/view/View;->invalidate()V
 
-    .line 7
     invoke-virtual {p0, v10}, Lcom/commsource/studio/layer/FaceLabelLayer;->j0(Z)V
 
     return-void
@@ -233,10 +217,8 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-super {p0, p1}, Lcom/commsource/studio/layer/BaseLayer;->Z(Lcom/commsource/studio/MatrixBox;)V
 
-    .line 2
     invoke-virtual {p0}, Lcom/commsource/studio/layer/BaseLayer;->F()Landroid/view/View;
 
     move-result-object p1
@@ -251,7 +233,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/commsource/studio/layer/FaceLabelLayer$c;
 
     invoke-direct {v0, p0}, Lcom/commsource/studio/layer/FaceLabelLayer$c;-><init>(Lcom/commsource/studio/layer/FaceLabelLayer;)V
@@ -264,7 +245,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/commsource/studio/layer/FaceLabelLayer$DrawTranslateView;
 
     invoke-virtual {p0}, Lcom/commsource/studio/layer/BaseLayer;->A()Landroid/content/Context;
@@ -279,13 +259,10 @@
 .method public j0(Z)V
     .locals 0
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/studio/layer/FaceLabelLayer;->N:Z
 
-    .line 2
     invoke-virtual {p0, p1}, Lcom/commsource/studio/layer/BaseLayer;->k0(Z)V
 
-    .line 3
     invoke-virtual {p0, p1}, Lcom/commsource/studio/layer/BaseLayer;->n0(Z)V
 
     return-void
@@ -336,10 +313,8 @@
 
     if-nez p1, :cond_0
 
-    .line 1
     iget-object p1, p0, Lcom/commsource/studio/layer/FaceLabelLayer;->O:Ljava/util/LinkedList;
 
-    .line 2
     invoke-interface {p1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object p1
@@ -359,12 +334,10 @@
 
     const/4 v1, 0x1
 
-    .line 3
     invoke-virtual {v0, v1}, Lcom/commsource/studio/layer/FaceOval;->C(Z)V
 
     goto :goto_0
 
-    .line 4
     :cond_0
     invoke-interface {p1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
@@ -383,10 +356,8 @@
 
     check-cast v0, Lcom/commsource/studio/layer/FaceOval$b;
 
-    .line 5
     iget-object v1, p0, Lcom/commsource/studio/layer/FaceLabelLayer;->O:Ljava/util/LinkedList;
 
-    .line 6
     invoke-interface {v1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v1
@@ -404,7 +375,6 @@
 
     check-cast v2, Lcom/commsource/studio/layer/FaceOval;
 
-    .line 7
     invoke-virtual {v2, v0}, Lcom/commsource/studio/layer/FaceOval;->d(Lcom/commsource/studio/layer/FaceOval$b;)V
 
     goto :goto_1
@@ -427,10 +397,8 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/studio/layer/FaceLabelLayer;->O:Ljava/util/LinkedList;
 
-    .line 2
     new-instance v1, Ljava/util/ArrayList;
 
     const/16 v2, 0xa
@@ -441,7 +409,6 @@
 
     invoke-direct {v1, v2}, Ljava/util/ArrayList;-><init>(I)V
 
-    .line 3
     invoke-interface {v0}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v0
@@ -457,10 +424,8 @@
 
     move-result-object v2
 
-    .line 4
     check-cast v2, Lcom/commsource/studio/layer/FaceOval;
 
-    .line 5
     invoke-virtual {v2}, Lcom/commsource/studio/layer/FaceOval;->i()Lcom/commsource/studio/layer/FaceOval$b;
 
     move-result-object v2
@@ -476,7 +441,6 @@
 .method public final s0()Lcom/commsource/camera/f1/l;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/studio/layer/FaceLabelLayer;->P:Lcom/commsource/camera/f1/l;
 
     return-object v0
@@ -485,7 +449,6 @@
 .method public final t0()F
     .locals 1
 
-    .line 1
     iget v0, p0, Lcom/commsource/studio/layer/FaceLabelLayer;->Q:F
 
     return v0
@@ -510,7 +473,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/studio/layer/FaceLabelLayer;->Q()Z
 
     move-result v0
@@ -521,11 +483,9 @@
 
     return v1
 
-    .line 2
     :cond_0
     iget-object v0, p0, Lcom/commsource/studio/layer/FaceLabelLayer;->O:Ljava/util/LinkedList;
 
-    .line 3
     invoke-interface {v0}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v0
@@ -552,7 +512,6 @@
     :cond_1
     check-cast v3, Lcom/commsource/studio/layer/FaceOval;
 
-    .line 4
     invoke-virtual {v3, p1}, Lcom/commsource/studio/layer/FaceOval;->y([F)Z
 
     move-result v3
@@ -588,7 +547,6 @@
 .method public final x0(F)V
     .locals 0
 
-    .line 1
     iput p1, p0, Lcom/commsource/studio/layer/FaceLabelLayer;->Q:F
 
     return-void

@@ -58,7 +58,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/studio/doodle/DoodleFragment$exit$1;->invoke()V
 
     sget-object v1, Lcotlin/t1;->a:Lcotlin/t1;
@@ -75,7 +74,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/doodle/DoodleFragment$exit$1;->this$0:Lcom/commsource/studio/doodle/DoodleFragment;
 
     invoke-virtual {v1}, Lcom/commsource/studio/doodle/DoodleFragment;->u0()Lcom/commsource/editengine/d;
@@ -84,7 +82,6 @@
 
     if-eqz v1, :cond_0
 
-    .line 3
     invoke-virtual {v1}, Lcom/commsource/editengine/d;->k()Lcom/commsource/editengine/b;
 
     move-result-object v2
@@ -99,7 +96,6 @@
 
     invoke-virtual {v2, v3}, Lcom/commsource/studio/s;->j(Lcom/commsource/easyeditor/utils/opengl/f;)V
 
-    .line 4
     invoke-virtual {v1}, Lcom/commsource/editengine/d;->k()Lcom/commsource/editengine/b;
 
     move-result-object v2
@@ -114,10 +110,8 @@
 
     invoke-virtual {v2, v3}, Lcom/commsource/studio/s;->j(Lcom/commsource/easyeditor/utils/opengl/f;)V
 
-    .line 5
     invoke-virtual {v1}, Lcom/commsource/editengine/d;->s()V
 
-    .line 6
     :cond_0
     iget-object v1, p0, Lcom/commsource/studio/doodle/DoodleFragment$exit$1;->this$0:Lcom/commsource/studio/doodle/DoodleFragment;
 
@@ -125,7 +119,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/studio/doodle/DoodleFragment;->G0(Lcom/commsource/editengine/d;)V
 
-    .line 7
     iget-object v1, p0, Lcom/commsource/studio/doodle/DoodleFragment$exit$1;->this$0:Lcom/commsource/studio/doodle/DoodleFragment;
 
     invoke-virtual {v1}, Lcom/commsource/studio/sub/BaseSubTabFragment;->L()Lcom/commsource/studio/ImageStudioViewModel;
@@ -148,14 +141,12 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/editengine/f;->o(Lcom/commsource/editengine/d;)V
 
-    .line 8
     iget-boolean v1, p0, Lcom/commsource/studio/doodle/DoodleFragment$exit$1;->$isConfirm:Z
 
     const/4 v2, 0x0
 
     if-eqz v1, :cond_5
 
-    .line 9
     iget-object v1, p0, Lcom/commsource/studio/doodle/DoodleFragment$exit$1;->this$0:Lcom/commsource/studio/doodle/DoodleFragment;
 
     invoke-static {v1}, Lcom/commsource/studio/doodle/DoodleFragment;->X(Lcom/commsource/studio/doodle/DoodleFragment;)Lcom/commsource/studio/processor/DoodleProcessor;
@@ -170,7 +161,6 @@
 
     invoke-virtual {v1, v3}, Lcom/commsource/studio/processor/DoodleProcessor;->o0(Lcotlin/jvm/u/p;)V
 
-    .line 10
     :cond_1
     iget-object v1, p0, Lcom/commsource/studio/doodle/DoodleFragment$exit$1;->this$0:Lcom/commsource/studio/doodle/DoodleFragment;
 
@@ -197,7 +187,6 @@
 
     goto :goto_0
 
-    .line 11
     :cond_3
     iget-object v1, p0, Lcom/commsource/studio/doodle/DoodleFragment$exit$1;->this$0:Lcom/commsource/studio/doodle/DoodleFragment;
 
@@ -218,7 +207,6 @@
 
     move-result v1
 
-    .line 12
     :goto_0
     invoke-static {v1}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
 
@@ -228,10 +216,8 @@
 
     const-string v4, "\u6d82\u9e26\u7b14\u4e2a\u6570"
 
-    .line 13
     invoke-static {v3, v4, v1}, Lcom/commsource/statistics/i;->r(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 14
     :cond_5
     iget-object v1, p0, Lcom/commsource/studio/doodle/DoodleFragment$exit$1;->this$0:Lcom/commsource/studio/doodle/DoodleFragment;
 
@@ -243,7 +229,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/studio/processor/DoodleProcessor;->p0(Z)V
 
-    .line 15
     :cond_6
     new-instance v1, Lcom/commsource/studio/doodle/DoodleFragment$exit$1$a;
 
@@ -251,7 +236,6 @@
 
     invoke-static {v1}, Lcom/commsource/util/g2;->k(Ljava/lang/Runnable;)V
 
-    .line 16
     iget-object v1, p0, Lcom/commsource/studio/doodle/DoodleFragment$exit$1;->this$0:Lcom/commsource/studio/doodle/DoodleFragment;
 
     invoke-virtual {v1}, Lcom/commsource/studio/sub/BaseSubTabFragment;->L()Lcom/commsource/studio/ImageStudioViewModel;
@@ -274,7 +258,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/editengine/b;->i(Lcom/commsource/editengine/a;)V
 
-    .line 17
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

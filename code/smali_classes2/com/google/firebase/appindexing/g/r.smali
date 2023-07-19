@@ -18,7 +18,6 @@
 
     const-string v0, "Photograph"
 
-    .line 1
     invoke-direct {p0, v0}, Lcom/google/firebase/appindexing/g/i;-><init>(Ljava/lang/String;)V
 
     return-void
@@ -37,7 +36,6 @@
 
     new-array v0, v0, [J
 
-    .line 1
     invoke-virtual {p1}, Ljava/util/Date;->getTime()J
 
     move-result-wide v1
@@ -74,7 +72,6 @@
 
     const-string p1, "locationCreated"
 
-    .line 1
     invoke-virtual {p0, p1, v0}, Lcom/google/firebase/appindexing/g/i;->d(Ljava/lang/String;[Lcom/google/firebase/appindexing/g/i;)Lcom/google/firebase/appindexing/g/i;
 
     move-result-object p1

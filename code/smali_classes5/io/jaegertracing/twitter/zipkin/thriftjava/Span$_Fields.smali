@@ -71,7 +71,6 @@
 .method static constructor <clinit>()V
     .locals 16
 
-    .line 1
     new-instance v0, Lio/jaegertracing/twitter/zipkin/thriftjava/Span$_Fields;
 
     const-string v1, "TRACE_ID"
@@ -86,7 +85,6 @@
 
     sput-object v0, Lio/jaegertracing/twitter/zipkin/thriftjava/Span$_Fields;->TRACE_ID:Lio/jaegertracing/twitter/zipkin/thriftjava/Span$_Fields;
 
-    .line 2
     new-instance v1, Lio/jaegertracing/twitter/zipkin/thriftjava/Span$_Fields;
 
     const-string v4, "NAME"
@@ -99,7 +97,6 @@
 
     sput-object v1, Lio/jaegertracing/twitter/zipkin/thriftjava/Span$_Fields;->NAME:Lio/jaegertracing/twitter/zipkin/thriftjava/Span$_Fields;
 
-    .line 3
     new-instance v4, Lio/jaegertracing/twitter/zipkin/thriftjava/Span$_Fields;
 
     const-string v6, "ID"
@@ -114,7 +111,6 @@
 
     sput-object v4, Lio/jaegertracing/twitter/zipkin/thriftjava/Span$_Fields;->ID:Lio/jaegertracing/twitter/zipkin/thriftjava/Span$_Fields;
 
-    .line 4
     new-instance v6, Lio/jaegertracing/twitter/zipkin/thriftjava/Span$_Fields;
 
     const-string v9, "PARENT_ID"
@@ -127,7 +123,6 @@
 
     sput-object v6, Lio/jaegertracing/twitter/zipkin/thriftjava/Span$_Fields;->PARENT_ID:Lio/jaegertracing/twitter/zipkin/thriftjava/Span$_Fields;
 
-    .line 5
     new-instance v9, Lio/jaegertracing/twitter/zipkin/thriftjava/Span$_Fields;
 
     const-string v11, "ANNOTATIONS"
@@ -140,7 +135,6 @@
 
     sput-object v9, Lio/jaegertracing/twitter/zipkin/thriftjava/Span$_Fields;->ANNOTATIONS:Lio/jaegertracing/twitter/zipkin/thriftjava/Span$_Fields;
 
-    .line 6
     new-instance v11, Lio/jaegertracing/twitter/zipkin/thriftjava/Span$_Fields;
 
     const-string v13, "BINARY_ANNOTATIONS"
@@ -153,7 +147,6 @@
 
     sput-object v11, Lio/jaegertracing/twitter/zipkin/thriftjava/Span$_Fields;->BINARY_ANNOTATIONS:Lio/jaegertracing/twitter/zipkin/thriftjava/Span$_Fields;
 
-    .line 7
     new-instance v13, Lio/jaegertracing/twitter/zipkin/thriftjava/Span$_Fields;
 
     const-string v15, "DEBUG"
@@ -166,7 +159,6 @@
 
     sput-object v13, Lio/jaegertracing/twitter/zipkin/thriftjava/Span$_Fields;->DEBUG:Lio/jaegertracing/twitter/zipkin/thriftjava/Span$_Fields;
 
-    .line 8
     new-instance v8, Lio/jaegertracing/twitter/zipkin/thriftjava/Span$_Fields;
 
     const-string v15, "TIMESTAMP"
@@ -181,7 +173,6 @@
 
     sput-object v8, Lio/jaegertracing/twitter/zipkin/thriftjava/Span$_Fields;->TIMESTAMP:Lio/jaegertracing/twitter/zipkin/thriftjava/Span$_Fields;
 
-    .line 9
     new-instance v7, Lio/jaegertracing/twitter/zipkin/thriftjava/Span$_Fields;
 
     const-string v15, "DURATION"
@@ -194,7 +185,6 @@
 
     sput-object v7, Lio/jaegertracing/twitter/zipkin/thriftjava/Span$_Fields;->DURATION:Lio/jaegertracing/twitter/zipkin/thriftjava/Span$_Fields;
 
-    .line 10
     new-instance v3, Lio/jaegertracing/twitter/zipkin/thriftjava/Span$_Fields;
 
     const-string v12, "TRACE_ID_HIGH"
@@ -245,17 +235,14 @@
 
     aput-object v3, v5, v10
 
-    .line 11
     sput-object v5, Lio/jaegertracing/twitter/zipkin/thriftjava/Span$_Fields;->$VALUES:[Lio/jaegertracing/twitter/zipkin/thriftjava/Span$_Fields;
 
-    .line 12
     new-instance v0, Ljava/util/HashMap;
 
     invoke-direct {v0}, Ljava/util/HashMap;-><init>()V
 
     sput-object v0, Lio/jaegertracing/twitter/zipkin/thriftjava/Span$_Fields;->byName:Ljava/util/Map;
 
-    .line 13
     const-class v0, Lio/jaegertracing/twitter/zipkin/thriftjava/Span$_Fields;
 
     invoke-static {v0}, Ljava/util/EnumSet;->allOf(Ljava/lang/Class;)Ljava/util/EnumSet;
@@ -279,7 +266,6 @@
 
     check-cast v1, Lio/jaegertracing/twitter/zipkin/thriftjava/Span$_Fields;
 
-    .line 14
     sget-object v2, Lio/jaegertracing/twitter/zipkin/thriftjava/Span$_Fields;->byName:Ljava/util/Map;
 
     invoke-virtual {v1}, Lio/jaegertracing/twitter/zipkin/thriftjava/Span$_Fields;->getFieldName()Ljava/lang/String;
@@ -304,13 +290,10 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 2
     iput-short p3, p0, Lio/jaegertracing/twitter/zipkin/thriftjava/Span$_Fields;->_thriftId:S
 
-    .line 3
     iput-object p4, p0, Lio/jaegertracing/twitter/zipkin/thriftjava/Span$_Fields;->_fieldName:Ljava/lang/String;
 
     return-void
@@ -319,7 +302,6 @@
 .method public static findByName(Ljava/lang/String;)Lio/jaegertracing/twitter/zipkin/thriftjava/Span$_Fields;
     .locals 1
 
-    .line 1
     sget-object v0, Lio/jaegertracing/twitter/zipkin/thriftjava/Span$_Fields;->byName:Ljava/util/Map;
 
     invoke-interface {v0, p0}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
@@ -341,61 +323,51 @@
 
     return-object p0
 
-    .line 1
     :pswitch_1
     sget-object p0, Lio/jaegertracing/twitter/zipkin/thriftjava/Span$_Fields;->TRACE_ID_HIGH:Lio/jaegertracing/twitter/zipkin/thriftjava/Span$_Fields;
 
     return-object p0
 
-    .line 2
     :pswitch_2
     sget-object p0, Lio/jaegertracing/twitter/zipkin/thriftjava/Span$_Fields;->DURATION:Lio/jaegertracing/twitter/zipkin/thriftjava/Span$_Fields;
 
     return-object p0
 
-    .line 3
     :pswitch_3
     sget-object p0, Lio/jaegertracing/twitter/zipkin/thriftjava/Span$_Fields;->TIMESTAMP:Lio/jaegertracing/twitter/zipkin/thriftjava/Span$_Fields;
 
     return-object p0
 
-    .line 4
     :pswitch_4
     sget-object p0, Lio/jaegertracing/twitter/zipkin/thriftjava/Span$_Fields;->DEBUG:Lio/jaegertracing/twitter/zipkin/thriftjava/Span$_Fields;
 
     return-object p0
 
-    .line 5
     :pswitch_5
     sget-object p0, Lio/jaegertracing/twitter/zipkin/thriftjava/Span$_Fields;->BINARY_ANNOTATIONS:Lio/jaegertracing/twitter/zipkin/thriftjava/Span$_Fields;
 
     return-object p0
 
-    .line 6
     :pswitch_6
     sget-object p0, Lio/jaegertracing/twitter/zipkin/thriftjava/Span$_Fields;->ANNOTATIONS:Lio/jaegertracing/twitter/zipkin/thriftjava/Span$_Fields;
 
     return-object p0
 
-    .line 7
     :pswitch_7
     sget-object p0, Lio/jaegertracing/twitter/zipkin/thriftjava/Span$_Fields;->PARENT_ID:Lio/jaegertracing/twitter/zipkin/thriftjava/Span$_Fields;
 
     return-object p0
 
-    .line 8
     :pswitch_8
     sget-object p0, Lio/jaegertracing/twitter/zipkin/thriftjava/Span$_Fields;->ID:Lio/jaegertracing/twitter/zipkin/thriftjava/Span$_Fields;
 
     return-object p0
 
-    .line 9
     :pswitch_9
     sget-object p0, Lio/jaegertracing/twitter/zipkin/thriftjava/Span$_Fields;->NAME:Lio/jaegertracing/twitter/zipkin/thriftjava/Span$_Fields;
 
     return-object p0
 
-    .line 10
     :pswitch_a
     sget-object p0, Lio/jaegertracing/twitter/zipkin/thriftjava/Span$_Fields;->TRACE_ID:Lio/jaegertracing/twitter/zipkin/thriftjava/Span$_Fields;
 
@@ -423,7 +395,6 @@
 .method public static findByThriftIdOrThrow(I)Lio/jaegertracing/twitter/zipkin/thriftjava/Span$_Fields;
     .locals 3
 
-    .line 1
     invoke-static {p0}, Lio/jaegertracing/twitter/zipkin/thriftjava/Span$_Fields;->findByThriftId(I)Lio/jaegertracing/twitter/zipkin/thriftjava/Span$_Fields;
 
     move-result-object v0
@@ -432,7 +403,6 @@
 
     return-object v0
 
-    .line 2
     :cond_0
     new-instance v0, Ljava/lang/IllegalArgumentException;
 
@@ -462,7 +432,6 @@
 .method public static valueOf(Ljava/lang/String;)Lio/jaegertracing/twitter/zipkin/thriftjava/Span$_Fields;
     .locals 1
 
-    .line 1
     const-class v0, Lio/jaegertracing/twitter/zipkin/thriftjava/Span$_Fields;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -477,7 +446,6 @@
 .method public static values()[Lio/jaegertracing/twitter/zipkin/thriftjava/Span$_Fields;
     .locals 1
 
-    .line 1
     sget-object v0, Lio/jaegertracing/twitter/zipkin/thriftjava/Span$_Fields;->$VALUES:[Lio/jaegertracing/twitter/zipkin/thriftjava/Span$_Fields;
 
     invoke-virtual {v0}, [Lio/jaegertracing/twitter/zipkin/thriftjava/Span$_Fields;->clone()Ljava/lang/Object;
@@ -494,7 +462,6 @@
 .method public getFieldName()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lio/jaegertracing/twitter/zipkin/thriftjava/Span$_Fields;->_fieldName:Ljava/lang/String;
 
     return-object v0
@@ -503,7 +470,6 @@
 .method public getThriftFieldId()S
     .locals 1
 
-    .line 1
     iget-short v0, p0, Lio/jaegertracing/twitter/zipkin/thriftjava/Span$_Fields;->_thriftId:S
 
     return v0

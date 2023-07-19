@@ -19,12 +19,10 @@
 .method static constructor <clinit>()V
     .locals 2
 
-    .line 1
     new-instance v0, Lcom/meitu/library/camera/s/g/d$a;
 
     invoke-direct {v0}, Lcom/meitu/library/camera/s/g/d$a;-><init>()V
 
-    .line 2
     invoke-static {}, Lcom/meitu/library/camera/s/d;->d()Lcom/meitu/library/camera/s/d;
 
     move-result-object v1
@@ -55,7 +53,6 @@
 .method public constructor <init>(Lcom/meitu/library/camera/s/g/d$a;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/meitu/library/camera/s/g/b;-><init>(Lcom/meitu/library/camera/s/g/a$a;)V
 
     return-void
@@ -64,7 +61,6 @@
 .method public static o()Lcom/meitu/library/camera/s/g/d;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/meitu/library/camera/s/g/d;->h:Lcom/meitu/library/camera/s/g/d$a;
 
     invoke-static {v0}, Lcom/meitu/library/camera/s/g/e;->w(Lcom/meitu/library/camera/s/g/d$a;)Lcom/meitu/library/camera/s/g/e;

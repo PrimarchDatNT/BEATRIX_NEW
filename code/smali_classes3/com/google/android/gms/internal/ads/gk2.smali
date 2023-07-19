@@ -18,7 +18,6 @@
 .method constructor <init>(Lcom/google/android/gms/internal/ads/ek2;Lcom/google/android/gms/internal/ads/zzsy;Lcom/google/android/gms/internal/ads/lq;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/android/gms/internal/ads/gk2;->c:Lcom/google/android/gms/internal/ads/ek2;
 
     iput-object p2, p0, Lcom/google/android/gms/internal/ads/gk2;->a:Lcom/google/android/gms/internal/ads/zzsy;
@@ -45,7 +44,6 @@
         .end annotation
     .end param
 
-    .line 1
     iget-object p1, p0, Lcom/google/android/gms/internal/ads/gk2;->c:Lcom/google/android/gms/internal/ads/ek2;
 
     invoke-static {p1}, Lcom/google/android/gms/internal/ads/ek2;->d(Lcom/google/android/gms/internal/ads/ek2;)Ljava/lang/Object;
@@ -54,7 +52,6 @@
 
     monitor-enter p1
 
-    .line 2
     :try_start_0
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/gk2;->c:Lcom/google/android/gms/internal/ads/ek2;
 
@@ -64,12 +61,10 @@
 
     if-eqz v0, :cond_0
 
-    .line 3
     monitor-exit p1
 
     return-void
 
-    .line 4
     :cond_0
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/gk2;->c:Lcom/google/android/gms/internal/ads/ek2;
 
@@ -77,7 +72,6 @@
 
     invoke-static {v0, v1}, Lcom/google/android/gms/internal/ads/ek2;->c(Lcom/google/android/gms/internal/ads/ek2;Z)Z
 
-    .line 5
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/gk2;->c:Lcom/google/android/gms/internal/ads/ek2;
 
     invoke-static {v0}, Lcom/google/android/gms/internal/ads/ek2;->g(Lcom/google/android/gms/internal/ads/ek2;)Lcom/google/android/gms/internal/ads/yj2;
@@ -86,12 +80,10 @@
 
     if-nez v0, :cond_1
 
-    .line 6
     monitor-exit p1
 
     return-void
 
-    .line 7
     :cond_1
     sget-object v1, Lcom/google/android/gms/internal/ads/dq;->a:Lcom/google/android/gms/internal/ads/uq1;
 
@@ -103,25 +95,20 @@
 
     invoke-direct {v2, p0, v0, v3, v4}, Lcom/google/android/gms/internal/ads/jk2;-><init>(Lcom/google/android/gms/internal/ads/gk2;Lcom/google/android/gms/internal/ads/yj2;Lcom/google/android/gms/internal/ads/zzsy;Lcom/google/android/gms/internal/ads/lq;)V
 
-    .line 8
     invoke-interface {v1, v2}, Lcom/google/android/gms/internal/ads/uq1;->H0(Ljava/lang/Runnable;)Lcom/google/android/gms/internal/ads/rq1;
 
     move-result-object v0
 
-    .line 9
     iget-object v1, p0, Lcom/google/android/gms/internal/ads/gk2;->b:Lcom/google/android/gms/internal/ads/lq;
 
     new-instance v2, Lcom/google/android/gms/internal/ads/ik2;
 
     invoke-direct {v2, v1, v0}, Lcom/google/android/gms/internal/ads/ik2;-><init>(Lcom/google/android/gms/internal/ads/lq;Ljava/util/concurrent/Future;)V
 
-    .line 10
     sget-object v0, Lcom/google/android/gms/internal/ads/dq;->f:Lcom/google/android/gms/internal/ads/uq1;
 
-    .line 11
     invoke-virtual {v1, v2, v0}, Lcom/google/android/gms/internal/ads/lq;->addListener(Ljava/lang/Runnable;Ljava/util/concurrent/Executor;)V
 
-    .line 12
     monitor-exit p1
 
     return-void

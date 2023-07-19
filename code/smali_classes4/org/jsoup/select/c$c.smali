@@ -26,7 +26,6 @@
 
     const/4 v0, 0x1
 
-    .line 1
     invoke-direct {p0, p1, p2, v0}, Lorg/jsoup/select/c$c;-><init>(Ljava/lang/String;Ljava/lang/String;Z)V
 
     return-void
@@ -35,16 +34,12 @@
 .method public constructor <init>(Ljava/lang/String;Ljava/lang/String;Z)V
     .locals 2
 
-    .line 2
     invoke-direct {p0}, Lorg/jsoup/select/c;-><init>()V
 
-    .line 3
     invoke-static {p1}, Lorg/jsoup/helper/c;->h(Ljava/lang/String;)V
 
-    .line 4
     invoke-static {p2}, Lorg/jsoup/helper/c;->h(Ljava/lang/String;)V
 
-    .line 5
     invoke-static {p1}, Lorg/jsoup/b/b;->b(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p1
@@ -53,7 +48,6 @@
 
     const-string p1, "\'"
 
-    .line 6
     invoke-virtual {p2, p1}, Ljava/lang/String;->startsWith(Ljava/lang/String;)Z
 
     move-result v0
@@ -71,7 +65,6 @@
     :cond_0
     const-string p1, "\""
 
-    .line 7
     invoke-virtual {p2, p1}, Ljava/lang/String;->startsWith(Ljava/lang/String;)Z
 
     move-result v0
@@ -95,7 +88,6 @@
     :goto_0
     if-eqz p1, :cond_3
 
-    .line 8
     invoke-virtual {p2}, Ljava/lang/String;->length()I
 
     move-result v0
@@ -109,7 +101,6 @@
     :cond_3
     if-eqz p3, :cond_4
 
-    .line 9
     invoke-static {p2}, Lorg/jsoup/b/b;->b(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p1

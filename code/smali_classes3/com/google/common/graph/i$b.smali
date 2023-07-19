@@ -29,7 +29,6 @@
 .method constructor <init>(Lcom/google/common/graph/i;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/common/graph/i$b;->a:Lcom/google/common/graph/i;
 
     invoke-direct {p0}, Ljava/util/AbstractSet;-><init>()V
@@ -49,7 +48,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/graph/i$b;->a:Lcom/google/common/graph/i;
 
     invoke-static {v0}, Lcom/google/common/graph/i;->j(Lcom/google/common/graph/i;)Ljava/util/List;
@@ -58,7 +56,6 @@
 
     if-nez v0, :cond_0
 
-    .line 2
     iget-object v0, p0, Lcom/google/common/graph/i$b;->a:Lcom/google/common/graph/i;
 
     invoke-static {v0}, Lcom/google/common/graph/i;->k(Lcom/google/common/graph/i;)Ljava/util/Map;
@@ -73,14 +70,12 @@
 
     move-result-object v0
 
-    .line 3
     new-instance v1, Lcom/google/common/graph/i$b$a;
 
     invoke-direct {v1, p0, v0}, Lcom/google/common/graph/i$b$a;-><init>(Lcom/google/common/graph/i$b;Ljava/util/Iterator;)V
 
     return-object v1
 
-    .line 4
     :cond_0
     iget-object v0, p0, Lcom/google/common/graph/i$b;->a:Lcom/google/common/graph/i;
 
@@ -92,7 +87,6 @@
 
     move-result-object v0
 
-    .line 5
     new-instance v1, Lcom/google/common/graph/i$b$b;
 
     invoke-direct {v1, p0, v0}, Lcom/google/common/graph/i$b$b;-><init>(Lcom/google/common/graph/i$b;Ljava/util/Iterator;)V
@@ -107,7 +101,6 @@
         .end annotation
     .end param
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/graph/i$b;->a:Lcom/google/common/graph/i;
 
     invoke-static {v0}, Lcom/google/common/graph/i;->k(Lcom/google/common/graph/i;)Ljava/util/Map;
@@ -128,7 +121,6 @@
 .method public bridge synthetic iterator()Ljava/util/Iterator;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/graph/i$b;->b()Lcom/google/common/collect/l2;
 
     move-result-object v0
@@ -139,7 +131,6 @@
 .method public size()I
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/graph/i$b;->a:Lcom/google/common/graph/i;
 
     invoke-static {v0}, Lcom/google/common/graph/i;->m(Lcom/google/common/graph/i;)I

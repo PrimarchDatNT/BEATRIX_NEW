@@ -29,7 +29,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/google/common/collect/q0;-><init>()V
 
     return-void
@@ -40,7 +39,6 @@
 .method protected bridge synthetic delegate()Lcom/google/common/collect/l1;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/collect/x0;->delegate()Lcom/google/common/collect/x1;
 
     move-result-object v0
@@ -61,7 +59,6 @@
 .method protected bridge synthetic delegate()Ljava/lang/Object;
     .locals 1
 
-    .line 2
     invoke-virtual {p0}, Lcom/google/common/collect/x0;->delegate()Lcom/google/common/collect/x1;
 
     move-result-object v0
@@ -72,7 +69,6 @@
 .method public bridge synthetic entries()Ljava/util/Collection;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/collect/x0;->entries()Ljava/util/Set;
 
     move-result-object v0
@@ -91,7 +87,6 @@
         }
     .end annotation
 
-    .line 2
     invoke-virtual {p0}, Lcom/google/common/collect/x0;->delegate()Lcom/google/common/collect/x1;
 
     move-result-object v0
@@ -110,7 +105,6 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-virtual {p0, p1}, Lcom/google/common/collect/x0;->get(Ljava/lang/Object;)Ljava/util/Set;
 
     move-result-object p1
@@ -132,7 +126,6 @@
         }
     .end annotation
 
-    .line 2
     invoke-virtual {p0}, Lcom/google/common/collect/x0;->delegate()Lcom/google/common/collect/x1;
 
     move-result-object v0
@@ -153,7 +146,6 @@
     .annotation build Lf/f/f/a/a;
     .end annotation
 
-    .line 1
     invoke-virtual {p0, p1}, Lcom/google/common/collect/x0;->removeAll(Ljava/lang/Object;)Ljava/util/Set;
 
     move-result-object p1
@@ -180,7 +172,6 @@
     .annotation build Lf/f/f/a/a;
     .end annotation
 
-    .line 2
     invoke-virtual {p0}, Lcom/google/common/collect/x0;->delegate()Lcom/google/common/collect/x1;
 
     move-result-object v0
@@ -197,7 +188,6 @@
     .annotation build Lf/f/f/a/a;
     .end annotation
 
-    .line 1
     invoke-virtual {p0, p1, p2}, Lcom/google/common/collect/x0;->replaceValues(Ljava/lang/Object;Ljava/lang/Iterable;)Ljava/util/Set;
 
     move-result-object p1
@@ -220,7 +210,6 @@
     .annotation build Lf/f/f/a/a;
     .end annotation
 
-    .line 2
     invoke-virtual {p0}, Lcom/google/common/collect/x0;->delegate()Lcom/google/common/collect/x1;
 
     move-result-object v0

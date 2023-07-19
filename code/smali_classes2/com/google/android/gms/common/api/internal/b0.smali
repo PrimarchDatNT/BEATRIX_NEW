@@ -32,27 +32,22 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     new-instance v0, Ljava/util/WeakHashMap;
 
     invoke-direct {v0}, Ljava/util/WeakHashMap;-><init>()V
 
-    .line 3
     invoke-static {v0}, Ljava/util/Collections;->synchronizedMap(Ljava/util/Map;)Ljava/util/Map;
 
     move-result-object v0
 
     iput-object v0, p0, Lcom/google/android/gms/common/api/internal/b0;->a:Ljava/util/Map;
 
-    .line 4
     new-instance v0, Ljava/util/WeakHashMap;
 
     invoke-direct {v0}, Ljava/util/WeakHashMap;-><init>()V
 
-    .line 5
     invoke-static {v0}, Ljava/util/Collections;->synchronizedMap(Ljava/util/Map;)Ljava/util/Map;
 
     move-result-object v0
@@ -65,7 +60,6 @@
 .method static synthetic a(Lcom/google/android/gms/common/api/internal/b0;)Ljava/util/Map;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lcom/google/android/gms/common/api/internal/b0;->a:Ljava/util/Map;
 
     return-object p0
@@ -74,12 +68,10 @@
 .method private final d(ZLcom/google/android/gms/common/api/Status;)V
     .locals 4
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/common/api/internal/b0;->a:Ljava/util/Map;
 
     monitor-enter v0
 
-    .line 2
     :try_start_0
     new-instance v1, Ljava/util/HashMap;
 
@@ -87,17 +79,14 @@
 
     invoke-direct {v1, v2}, Ljava/util/HashMap;-><init>(Ljava/util/Map;)V
 
-    .line 3
     monitor-exit v0
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_1
 
-    .line 4
     iget-object v2, p0, Lcom/google/android/gms/common/api/internal/b0;->b:Ljava/util/Map;
 
     monitor-enter v2
 
-    .line 5
     :try_start_1
     new-instance v0, Ljava/util/HashMap;
 
@@ -105,12 +94,10 @@
 
     invoke-direct {v0, v3}, Ljava/util/HashMap;-><init>(Ljava/util/Map;)V
 
-    .line 6
     monitor-exit v2
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
-    .line 7
     invoke-interface {v1}, Ljava/util/Map;->entrySet()Ljava/util/Set;
 
     move-result-object v1
@@ -135,7 +122,6 @@
 
     if-nez p1, :cond_1
 
-    .line 8
     invoke-interface {v2}, Ljava/util/Map$Entry;->getValue()Ljava/lang/Object;
 
     move-result-object v3
@@ -148,7 +134,6 @@
 
     if-eqz v3, :cond_0
 
-    .line 9
     :cond_1
     invoke-interface {v2}, Ljava/util/Map$Entry;->getKey()Ljava/lang/Object;
 
@@ -160,7 +145,6 @@
 
     goto :goto_0
 
-    .line 10
     :cond_2
     invoke-interface {v0}, Ljava/util/Map;->entrySet()Ljava/util/Set;
 
@@ -186,7 +170,6 @@
 
     if-nez p1, :cond_4
 
-    .line 11
     invoke-interface {v1}, Ljava/util/Map$Entry;->getValue()Ljava/lang/Object;
 
     move-result-object v2
@@ -199,7 +182,6 @@
 
     if-eqz v2, :cond_3
 
-    .line 12
     :cond_4
     invoke-interface {v1}, Ljava/util/Map$Entry;->getKey()Ljava/lang/Object;
 
@@ -221,7 +203,6 @@
     :catchall_0
     move-exception p1
 
-    .line 13
     :try_start_2
     monitor-exit v2
     :try_end_2
@@ -232,7 +213,6 @@
     :catchall_1
     move-exception p1
 
-    .line 14
     :try_start_3
     monitor-exit v0
     :try_end_3
@@ -244,7 +224,6 @@
 .method static synthetic h(Lcom/google/android/gms/common/api/internal/b0;)Ljava/util/Map;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lcom/google/android/gms/common/api/internal/b0;->b:Ljava/util/Map;
 
     return-object p0
@@ -264,7 +243,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/common/api/internal/b0;->a:Ljava/util/Map;
 
     invoke-static {p2}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
@@ -273,7 +251,6 @@
 
     invoke-interface {v0, p1, p2}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 2
     new-instance p2, Lcom/google/android/gms/common/api/internal/c0;
 
     invoke-direct {p2, p0, p1}, Lcom/google/android/gms/common/api/internal/c0;-><init>(Lcom/google/android/gms/common/api/internal/b0;Lcom/google/android/gms/common/api/internal/BasePendingResult;)V
@@ -295,7 +272,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/common/api/internal/b0;->b:Ljava/util/Map;
 
     invoke-static {p2}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
@@ -304,7 +280,6 @@
 
     invoke-interface {v0, p1, p2}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 2
     invoke-virtual {p1}, Lcom/google/android/gms/tasks/l;->a()Lcom/google/android/gms/tasks/k;
 
     move-result-object p2
@@ -313,7 +288,6 @@
 
     invoke-direct {v0, p0, p1}, Lcom/google/android/gms/common/api/internal/d0;-><init>(Lcom/google/android/gms/common/api/internal/b0;Lcom/google/android/gms/tasks/l;)V
 
-    .line 3
     invoke-virtual {p2, v0}, Lcom/google/android/gms/tasks/k;->e(Lcom/google/android/gms/tasks/e;)Lcom/google/android/gms/tasks/k;
 
     return-void
@@ -322,7 +296,6 @@
 .method final e()Z
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/common/api/internal/b0;->a:Ljava/util/Map;
 
     invoke-interface {v0}, Ljava/util/Map;->isEmpty()Z
@@ -356,7 +329,6 @@
 .method public final f()V
     .locals 2
 
-    .line 1
     sget-object v0, Lcom/google/android/gms/common/api/internal/g;->P:Lcom/google/android/gms/common/api/Status;
 
     const/4 v1, 0x0
@@ -369,7 +341,6 @@
 .method public final g()V
     .locals 2
 
-    .line 1
     sget-object v0, Lcom/google/android/gms/common/api/internal/q2;->d:Lcom/google/android/gms/common/api/Status;
 
     const/4 v1, 0x1

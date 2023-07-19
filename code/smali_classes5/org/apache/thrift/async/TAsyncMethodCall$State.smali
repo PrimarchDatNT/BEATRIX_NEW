@@ -44,7 +44,6 @@
 .method static constructor <clinit>()V
     .locals 15
 
-    .line 1
     new-instance v0, Lorg/apache/thrift/async/TAsyncMethodCall$State;
 
     const-string v1, "CONNECTING"
@@ -55,7 +54,6 @@
 
     sput-object v0, Lorg/apache/thrift/async/TAsyncMethodCall$State;->CONNECTING:Lorg/apache/thrift/async/TAsyncMethodCall$State;
 
-    .line 2
     new-instance v1, Lorg/apache/thrift/async/TAsyncMethodCall$State;
 
     const-string v3, "WRITING_REQUEST_SIZE"
@@ -66,7 +64,6 @@
 
     sput-object v1, Lorg/apache/thrift/async/TAsyncMethodCall$State;->WRITING_REQUEST_SIZE:Lorg/apache/thrift/async/TAsyncMethodCall$State;
 
-    .line 3
     new-instance v3, Lorg/apache/thrift/async/TAsyncMethodCall$State;
 
     const-string v5, "WRITING_REQUEST_BODY"
@@ -77,7 +74,6 @@
 
     sput-object v3, Lorg/apache/thrift/async/TAsyncMethodCall$State;->WRITING_REQUEST_BODY:Lorg/apache/thrift/async/TAsyncMethodCall$State;
 
-    .line 4
     new-instance v5, Lorg/apache/thrift/async/TAsyncMethodCall$State;
 
     const-string v7, "READING_RESPONSE_SIZE"
@@ -88,7 +84,6 @@
 
     sput-object v5, Lorg/apache/thrift/async/TAsyncMethodCall$State;->READING_RESPONSE_SIZE:Lorg/apache/thrift/async/TAsyncMethodCall$State;
 
-    .line 5
     new-instance v7, Lorg/apache/thrift/async/TAsyncMethodCall$State;
 
     const-string v9, "READING_RESPONSE_BODY"
@@ -99,7 +94,6 @@
 
     sput-object v7, Lorg/apache/thrift/async/TAsyncMethodCall$State;->READING_RESPONSE_BODY:Lorg/apache/thrift/async/TAsyncMethodCall$State;
 
-    .line 6
     new-instance v9, Lorg/apache/thrift/async/TAsyncMethodCall$State;
 
     const-string v11, "RESPONSE_READ"
@@ -110,7 +104,6 @@
 
     sput-object v9, Lorg/apache/thrift/async/TAsyncMethodCall$State;->RESPONSE_READ:Lorg/apache/thrift/async/TAsyncMethodCall$State;
 
-    .line 7
     new-instance v11, Lorg/apache/thrift/async/TAsyncMethodCall$State;
 
     const-string v13, "ERROR"
@@ -139,7 +132,6 @@
 
     aput-object v11, v13, v14
 
-    .line 8
     sput-object v13, Lorg/apache/thrift/async/TAsyncMethodCall$State;->$VALUES:[Lorg/apache/thrift/async/TAsyncMethodCall$State;
 
     return-void
@@ -153,7 +145,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
     return-void
@@ -162,7 +153,6 @@
 .method public static valueOf(Ljava/lang/String;)Lorg/apache/thrift/async/TAsyncMethodCall$State;
     .locals 1
 
-    .line 1
     const-class v0, Lorg/apache/thrift/async/TAsyncMethodCall$State;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -177,7 +167,6 @@
 .method public static values()[Lorg/apache/thrift/async/TAsyncMethodCall$State;
     .locals 1
 
-    .line 1
     sget-object v0, Lorg/apache/thrift/async/TAsyncMethodCall$State;->$VALUES:[Lorg/apache/thrift/async/TAsyncMethodCall$State;
 
     invoke-virtual {v0}, [Lorg/apache/thrift/async/TAsyncMethodCall$State;->clone()Ljava/lang/Object;

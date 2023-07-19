@@ -46,14 +46,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/widget/VideoPlayComponent$g;->a:Lcom/commsource/widget/VideoPlayComponent;
 
     iget v2, p0, Lcom/commsource/widget/VideoPlayComponent$g;->b:I
 
     invoke-virtual {v1, v2}, Lcom/commsource/widget/VideoPlayComponent;->setCurrentState(I)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/widget/VideoPlayComponent$g;->a:Lcom/commsource/widget/VideoPlayComponent;
 
     invoke-virtual {v1}, Lcom/commsource/widget/VideoPlayComponent;->getOnPlayListener()Lcom/commsource/widget/VideoPlayComponent$a;
@@ -70,7 +68,6 @@
 
     invoke-interface {v1, v2}, Lcom/commsource/widget/VideoPlayComponent$a;->a(I)V
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

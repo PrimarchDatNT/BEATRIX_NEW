@@ -36,12 +36,10 @@
 .method constructor <init>(Lcom/meitu/libmtsns/Facebook/PlatformFacebook;Lcom/meitu/libmtsns/framwork/i/d$l;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/libmtsns/Facebook/PlatformFacebook$g;->b:Lcom/meitu/libmtsns/Facebook/PlatformFacebook;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p2, p0, Lcom/meitu/libmtsns/Facebook/PlatformFacebook$g;->a:Lcom/meitu/libmtsns/framwork/i/d$l;
 
     return-void
@@ -56,7 +54,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcom/meitu/libmtsns/Facebook/PlatformFacebook$g;->b:Lcom/meitu/libmtsns/Facebook/PlatformFacebook;
 
     iget v1, v0, Lcom/meitu/libmtsns/Facebook/PlatformFacebook;->i:I
@@ -79,7 +76,6 @@
 
     invoke-static {v0, v1, v2, v3, v5}, Lcom/meitu/libmtsns/Facebook/PlatformFacebook;->G(Lcom/meitu/libmtsns/Facebook/PlatformFacebook;ILcom/meitu/libmtsns/c/c/b;Lcom/meitu/libmtsns/framwork/i/e;[Ljava/lang/Object;)V
 
-    .line 2
     iget-object v0, p0, Lcom/meitu/libmtsns/Facebook/PlatformFacebook$g;->b:Lcom/meitu/libmtsns/Facebook/PlatformFacebook;
 
     invoke-virtual {v0}, Lcom/meitu/libmtsns/framwork/i/d;->n()Landroid/app/Activity;
@@ -92,12 +88,10 @@
 
     move-result-object v0
 
-    .line 3
     invoke-interface {v0}, Landroid/content/SharedPreferences;->edit()Landroid/content/SharedPreferences$Editor;
 
     move-result-object v0
 
-    .line 4
     iget-object v1, p0, Lcom/meitu/libmtsns/Facebook/PlatformFacebook$g;->b:Lcom/meitu/libmtsns/Facebook/PlatformFacebook;
 
     iget-object v1, v1, Lcom/meitu/libmtsns/Facebook/PlatformFacebook;->q:Ljava/lang/String;
@@ -106,10 +100,8 @@
 
     invoke-interface {v0, v2, v1}, Landroid/content/SharedPreferences$Editor;->putString(Ljava/lang/String;Ljava/lang/String;)Landroid/content/SharedPreferences$Editor;
 
-    .line 5
     invoke-interface {v0}, Landroid/content/SharedPreferences$Editor;->apply()V
 
-    .line 6
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -122,7 +114,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/libmtsns/Facebook/PlatformFacebook$g;->b:Lcom/meitu/libmtsns/Facebook/PlatformFacebook;
 
     iget v2, v1, Lcom/meitu/libmtsns/Facebook/PlatformFacebook;->i:I
@@ -147,7 +138,6 @@
 
     invoke-static {v1, v2, v3, v4, v5}, Lcom/meitu/libmtsns/Facebook/PlatformFacebook;->H(Lcom/meitu/libmtsns/Facebook/PlatformFacebook;ILcom/meitu/libmtsns/c/c/b;Lcom/meitu/libmtsns/framwork/i/e;[Ljava/lang/Object;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -160,7 +150,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcom/meitu/libmtsns/Facebook/PlatformFacebook$g;->b:Lcom/meitu/libmtsns/Facebook/PlatformFacebook;
 
     iget v1, v0, Lcom/meitu/libmtsns/Facebook/PlatformFacebook;->i:I
@@ -185,7 +174,6 @@
 
     invoke-static {v0, v1, v2, v3, v4}, Lcom/meitu/libmtsns/Facebook/PlatformFacebook;->S(Lcom/meitu/libmtsns/Facebook/PlatformFacebook;ILcom/meitu/libmtsns/c/c/b;Lcom/meitu/libmtsns/framwork/i/e;[Ljava/lang/Object;)V
 
-    .line 2
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -198,7 +186,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Lcom/facebook/share/Sharer$Result;
 
     invoke-virtual {p0, p1}, Lcom/meitu/libmtsns/Facebook/PlatformFacebook$g;->a(Lcom/facebook/share/Sharer$Result;)V

@@ -11,10 +11,8 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     sget v0, Lcom/google/android/gms/internal/ads/bh1;->b:I
 
     iput v0, p0, Lcom/google/android/gms/internal/ads/yg1;->a:I
@@ -25,7 +23,6 @@
 .method static synthetic a(Lcom/google/android/gms/internal/ads/yg1;)I
     .locals 0
 
-    .line 1
     iget p0, p0, Lcom/google/android/gms/internal/ads/yg1;->a:I
 
     return p0
@@ -36,10 +33,8 @@
 .method public final b(Lcom/google/android/gms/internal/ads/wg1;)Lcom/google/android/gms/internal/ads/yg1;
     .locals 0
 
-    .line 1
     iget p1, p1, Lcom/google/android/gms/internal/ads/wg1;->a:I
 
-    .line 2
     iput p1, p0, Lcom/google/android/gms/internal/ads/yg1;->a:I
 
     return-object p0
@@ -48,7 +43,6 @@
 .method public final c(I)Lcom/google/android/gms/internal/ads/yg1;
     .locals 0
 
-    .line 1
     iput p1, p0, Lcom/google/android/gms/internal/ads/yg1;->a:I
 
     return-object p0

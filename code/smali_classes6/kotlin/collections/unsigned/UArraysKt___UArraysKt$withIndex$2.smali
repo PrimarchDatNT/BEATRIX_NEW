@@ -72,7 +72,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcotlin/collections/unsigned/UArraysKt___UArraysKt$withIndex$2;->$this_withIndex:[J
 
     invoke-static {v0}, Lcotlin/k1;->A([J)Lcotlin/collections/m1;

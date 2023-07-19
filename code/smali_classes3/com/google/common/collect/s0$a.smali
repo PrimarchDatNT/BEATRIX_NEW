@@ -32,7 +32,6 @@
 .method public constructor <init>(Lcom/google/common/collect/s0;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/common/collect/s0$a;->d:Lcom/google/common/collect/s0;
 
     invoke-direct {p0}, Lcom/google/common/collect/Maps$p;-><init>()V
@@ -53,7 +52,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/google/common/collect/s0$a$a;
 
     invoke-direct {v0, p0}, Lcom/google/common/collect/s0$a$a;-><init>(Lcom/google/common/collect/s0$a;)V
@@ -71,7 +69,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/s0$a;->d:Lcom/google/common/collect/s0;
 
     return-object v0

@@ -70,7 +70,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Lcom/commsource/studio/e;
 
     invoke-virtual {p0, p1}, Lcom/commsource/studio/function/automanual/AutoManualStackLogic$hasManualEffect$1;->invoke(Lcom/commsource/studio/e;)Z
@@ -99,7 +98,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 2
     invoke-virtual {p1}, Lcom/commsource/studio/e;->i()Z
 
     move-result p1
@@ -108,7 +106,6 @@
 
     const/4 p1, 0x1
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
@@ -116,7 +113,6 @@
     :cond_0
     const/4 p1, 0x0
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1

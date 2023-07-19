@@ -62,7 +62,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     iput-object p1, p0, Lcotlinx/coroutines/flow/SafeFlow;->a:Lcotlin/jvm/u/p;
@@ -132,7 +131,6 @@
 
     move-result-object v1
 
-    .line 1
     iget v2, v0, Lcotlinx/coroutines/flow/SafeFlow$collect$1;->label:I
 
     const/4 v3, 0x1
@@ -165,7 +163,6 @@
 
     goto :goto_2
 
-    .line 2
     :cond_1
     new-instance p1, Ljava/lang/IllegalStateException;
 
@@ -175,11 +172,9 @@
 
     throw p1
 
-    .line 3
     :cond_2
     invoke-static {p2}, Lcotlin/r0;->n(Ljava/lang/Object;)V
 
-    .line 4
     invoke-interface {v0}, Lcotlin/coroutines/c;->getContext()Lcotlin/coroutines/CoroutineContext;
 
     move-result-object p2
@@ -188,7 +183,6 @@
 
     invoke-direct {v2, p1, p2}, Lcotlinx/coroutines/flow/internal/SafeCollector;-><init>(Lcotlinx/coroutines/flow/e;Lcotlin/coroutines/CoroutineContext;)V
 
-    .line 5
     :try_start_1
     iget-object p2, p0, Lcotlinx/coroutines/flow/SafeFlow;->a:Lcotlin/jvm/u/p;
 
@@ -213,11 +207,9 @@
     :cond_3
     move-object p1, v2
 
-    .line 6
     :goto_1
     invoke-virtual {p1}, Lcotlinx/coroutines/flow/internal/SafeCollector;->releaseIntercepted()V
 
-    .line 7
     sget-object p1, Lcotlin/t1;->a:Lcotlin/t1;
 
     return-object p1
@@ -227,7 +219,6 @@
 
     move-object p1, v2
 
-    .line 8
     :goto_2
     invoke-virtual {p1}, Lcotlinx/coroutines/flow/internal/SafeCollector;->releaseIntercepted()V
 

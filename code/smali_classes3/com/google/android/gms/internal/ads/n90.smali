@@ -30,7 +30,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/google/android/gms/internal/ads/bc0;-><init>(Ljava/util/Set;)V
 
     return-void
@@ -43,7 +42,6 @@
 
     monitor-enter p0
 
-    .line 1
     :try_start_0
     sget-object v0, Lcom/google/android/gms/internal/ads/r90;->a:Lcom/google/android/gms/internal/ads/dc0;
 
@@ -51,7 +49,6 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 2
     monitor-exit p0
 
     return-void
@@ -69,7 +66,6 @@
 
     monitor-enter p0
 
-    .line 1
     :try_start_0
     sget-object v0, Lcom/google/android/gms/internal/ads/m90;->a:Lcom/google/android/gms/internal/ads/dc0;
 
@@ -77,7 +73,6 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 2
     monitor-exit p0
 
     return-void
@@ -95,7 +90,6 @@
 
     monitor-enter p0
 
-    .line 1
     :try_start_0
     sget-object v0, Lcom/google/android/gms/internal/ads/p90;->a:Lcom/google/android/gms/internal/ads/dc0;
 
@@ -103,7 +97,6 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 2
     monitor-exit p0
 
     return-void
@@ -121,7 +114,6 @@
 
     monitor-enter p0
 
-    .line 1
     :try_start_0
     sget-object v0, Lcom/google/android/gms/internal/ads/o90;->a:Lcom/google/android/gms/internal/ads/dc0;
 
@@ -129,7 +121,6 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 2
     monitor-exit p0
 
     return-void

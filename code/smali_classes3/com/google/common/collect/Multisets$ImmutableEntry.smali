@@ -60,18 +60,14 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Lcom/google/common/collect/Multisets$f;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/google/common/collect/Multisets$ImmutableEntry;->element:Ljava/lang/Object;
 
-    .line 3
     iput p2, p0, Lcom/google/common/collect/Multisets$ImmutableEntry;->count:I
 
     const-string p1, "count"
 
-    .line 4
     invoke-static {p2, p1}, Lcom/google/common/collect/m;->b(ILjava/lang/String;)I
 
     return-void
@@ -82,7 +78,6 @@
 .method public final getCount()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lcom/google/common/collect/Multisets$ImmutableEntry;->count:I
 
     return v0
@@ -99,7 +94,6 @@
     .annotation runtime Ln/b/a/a/a/g;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/Multisets$ImmutableEntry;->element:Ljava/lang/Object;
 
     return-object v0

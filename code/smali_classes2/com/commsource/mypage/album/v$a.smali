@@ -22,7 +22,6 @@
 .method constructor <init>(Lcom/commsource/mypage/album/v;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/mypage/album/v$a;->a:Lcom/commsource/mypage/album/v;
 
     invoke-direct {p0}, Landroid/animation/AnimatorListenerAdapter;-><init>()V
@@ -39,24 +38,20 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0, p1}, Landroid/animation/AnimatorListenerAdapter;->onAnimationEnd(Landroid/animation/Animator;)V
 
-    .line 2
     iget-object p1, p0, Lcom/commsource/mypage/album/v$a;->a:Lcom/commsource/mypage/album/v;
 
     const-wide/16 v1, 0x0
 
     invoke-static {p1, v1, v2}, Lcom/commsource/mypage/album/v;->a(Lcom/commsource/mypage/album/v;J)J
 
-    .line 3
     iget-object p1, p0, Lcom/commsource/mypage/album/v$a;->a:Lcom/commsource/mypage/album/v;
 
     const/4 v1, 0x0
 
     invoke-static {p1, v1}, Lcom/commsource/mypage/album/v;->b(Lcom/commsource/mypage/album/v;Z)Z
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

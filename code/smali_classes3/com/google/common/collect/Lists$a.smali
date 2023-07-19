@@ -29,7 +29,6 @@
 .method constructor <init>(Ljava/util/List;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/google/common/collect/Lists$f;-><init>(Ljava/util/List;)V
 
     return-void
@@ -47,7 +46,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/Lists$c;->a:Ljava/util/List;
 
     invoke-interface {v0, p1}, Ljava/util/List;->listIterator(I)Ljava/util/ListIterator;

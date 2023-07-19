@@ -87,7 +87,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     iput-object p1, p0, Lcom/commsource/billing/bean/subsconfig/SubConfigInfo;->promotionConfig:Ljava/util/List;
@@ -115,7 +114,6 @@
 
     move-object p2, v0
 
-    .line 2
     :cond_1
     invoke-direct {p0, p1, p2}, Lcom/commsource/billing/bean/subsconfig/SubConfigInfo;-><init>(Ljava/util/List;Ljava/util/List;)V
 
@@ -308,7 +306,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/billing/bean/subsconfig/SubConfigInfo;->promotionConfig:Ljava/util/List;
 
     const/4 v2, 0x0
@@ -393,7 +390,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/billing/bean/subsconfig/SubConfigInfo;->promotionConfig:Ljava/util/List;
 
     const/4 v2, 0x0
@@ -436,7 +432,6 @@
     :goto_2
     if-eqz v1, :cond_4
 
-    .line 2
     invoke-interface {v1}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
     move-result-object v1
@@ -454,14 +449,12 @@
 
     check-cast v5, Lcom/commsource/billing/bean/subsconfig/Config;
 
-    .line 3
     invoke-virtual {v5}, Lcom/commsource/billing/bean/subsconfig/Config;->getContents()Ljava/util/List;
 
     move-result-object v6
 
     if-eqz v6, :cond_3
 
-    .line 4
     invoke-interface {v6}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v6
@@ -479,7 +472,6 @@
 
     check-cast v7, Lcom/commsource/billing/bean/subsconfig/ContentConfig;
 
-    .line 5
     invoke-virtual {v5}, Lcom/commsource/billing/bean/subsconfig/Config;->getContentColor()Ljava/lang/String;
 
     move-result-object v8
@@ -488,7 +480,6 @@
 
     goto :goto_3
 
-    .line 6
     :cond_4
     iget-object v1, p0, Lcom/commsource/billing/bean/subsconfig/SubConfigInfo;->activityConfigs:Ljava/util/List;
 
@@ -515,7 +506,6 @@
     :cond_7
     if-eqz v2, :cond_9
 
-    .line 7
     invoke-interface {v2}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
     move-result-object v1
@@ -533,14 +523,12 @@
 
     check-cast v2, Lcom/commsource/billing/bean/subsconfig/Config;
 
-    .line 8
     invoke-virtual {v2}, Lcom/commsource/billing/bean/subsconfig/Config;->getContents()Ljava/util/List;
 
     move-result-object v3
 
     if-eqz v3, :cond_8
 
-    .line 9
     invoke-interface {v3}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v3
@@ -558,7 +546,6 @@
 
     check-cast v4, Lcom/commsource/billing/bean/subsconfig/ContentConfig;
 
-    .line 10
     invoke-virtual {v2}, Lcom/commsource/billing/bean/subsconfig/Config;->getContentColor()Ljava/lang/String;
 
     move-result-object v5
@@ -567,7 +554,6 @@
 
     goto :goto_4
 
-    .line 11
     :cond_9
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

@@ -47,15 +47,12 @@
 .method constructor <init>(Lcom/google/common/cache/LocalCache$e;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/common/cache/LocalCache$e$a;->c:Lcom/google/common/cache/LocalCache$e;
 
     invoke-direct {p0}, Lcom/google/common/cache/LocalCache$d;-><init>()V
 
-    .line 2
     iput-object p0, p0, Lcom/google/common/cache/LocalCache$e$a;->a:Lcom/google/common/cache/j;
 
-    .line 3
     iput-object p0, p0, Lcom/google/common/cache/LocalCache$e$a;->b:Lcom/google/common/cache/j;
 
     return-void
@@ -81,7 +78,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/cache/LocalCache$e$a;->a:Lcom/google/common/cache/j;
 
     return-object v0
@@ -97,7 +93,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/cache/LocalCache$e$a;->b:Lcom/google/common/cache/j;
 
     return-object v0
@@ -119,7 +114,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/google/common/cache/LocalCache$e$a;->a:Lcom/google/common/cache/j;
 
     return-void
@@ -135,7 +129,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/google/common/cache/LocalCache$e$a;->b:Lcom/google/common/cache/j;
 
     return-void

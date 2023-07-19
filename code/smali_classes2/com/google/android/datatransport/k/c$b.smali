@@ -26,7 +26,6 @@
 .method constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/google/android/datatransport/k/n$a;-><init>()V
 
     return-void
@@ -37,14 +36,12 @@
 .method public a()Lcom/google/android/datatransport/k/n;
     .locals 5
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/datatransport/k/c$b;->a:Ljava/lang/String;
 
     const-string v1, ""
 
     if-nez v0, :cond_0
 
-    .line 2
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -59,13 +56,11 @@
 
     move-result-object v1
 
-    .line 3
     :cond_0
     iget-object v0, p0, Lcom/google/android/datatransport/k/c$b;->c:Lcom/google/android/datatransport/Priority;
 
     if-nez v0, :cond_1
 
-    .line 4
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -80,7 +75,6 @@
 
     move-result-object v1
 
-    .line 5
     :cond_1
     invoke-virtual {v1}, Ljava/lang/String;->isEmpty()Z
 
@@ -88,7 +82,6 @@
 
     if-eqz v0, :cond_2
 
-    .line 6
     new-instance v0, Lcom/google/android/datatransport/k/c;
 
     iget-object v1, p0, Lcom/google/android/datatransport/k/c$b;->a:Ljava/lang/String;
@@ -103,7 +96,6 @@
 
     return-object v0
 
-    .line 7
     :cond_2
     new-instance v0, Ljava/lang/IllegalStateException;
 
@@ -131,10 +123,8 @@
 
     const-string v0, "Null backendName"
 
-    .line 1
     invoke-static {p1, v0}, Ljava/util/Objects;->requireNonNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
 
-    .line 2
     iput-object p1, p0, Lcom/google/android/datatransport/k/c$b;->a:Ljava/lang/String;
 
     return-object p0
@@ -147,7 +137,6 @@
         .end annotation
     .end param
 
-    .line 1
     iput-object p1, p0, Lcom/google/android/datatransport/k/c$b;->b:[B
 
     return-object p0
@@ -158,10 +147,8 @@
 
     const-string v0, "Null priority"
 
-    .line 1
     invoke-static {p1, v0}, Ljava/util/Objects;->requireNonNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
 
-    .line 2
     iput-object p1, p0, Lcom/google/android/datatransport/k/c$b;->c:Lcom/google/android/datatransport/Priority;
 
     return-object p0

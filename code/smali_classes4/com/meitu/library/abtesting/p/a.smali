@@ -7,7 +7,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -25,24 +24,20 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljavax/crypto/spec/SecretKeySpec;
 
     const-string v2, "AES"
 
     invoke-direct {v1, p1, v2}, Ljavax/crypto/spec/SecretKeySpec;-><init>([BLjava/lang/String;)V
 
-    .line 2
     invoke-static {v2}, Ljavax/crypto/Cipher;->getInstance(Ljava/lang/String;)Ljavax/crypto/Cipher;
 
     move-result-object p1
 
     const/4 v2, 0x2
 
-    .line 3
     invoke-virtual {p1, v2, v1}, Ljavax/crypto/Cipher;->init(ILjava/security/Key;)V
 
-    .line 4
     new-instance v1, Ljava/lang/String;
 
     invoke-virtual {p1, p0}, Ljavax/crypto/Cipher;->doFinal([B)[B
@@ -68,24 +63,20 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljavax/crypto/spec/SecretKeySpec;
 
     const-string v2, "AES"
 
     invoke-direct {v1, p1, v2}, Ljavax/crypto/spec/SecretKeySpec;-><init>([BLjava/lang/String;)V
 
-    .line 2
     invoke-static {v2}, Ljavax/crypto/Cipher;->getInstance(Ljava/lang/String;)Ljavax/crypto/Cipher;
 
     move-result-object p1
 
     const/4 v2, 0x1
 
-    .line 3
     invoke-virtual {p1, v2, v1}, Ljavax/crypto/Cipher;->init(ILjava/security/Key;)V
 
-    .line 4
     invoke-virtual {p1, p0}, Ljavax/crypto/Cipher;->doFinal([B)[B
 
     move-result-object p0

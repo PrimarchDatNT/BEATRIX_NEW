@@ -35,7 +35,6 @@
 .method static constructor <clinit>()V
     .locals 3
 
-    .line 1
     new-instance v0, Ln/a/b/c/n;
 
     invoke-direct {v0}, Ln/a/b/c/n;-><init>()V
@@ -44,87 +43,64 @@
 
     const/4 v1, 0x1
 
-    .line 2
     iput-boolean v1, v0, Ln/a/b/c/n;->a:Z
 
     const/4 v2, 0x0
 
-    .line 3
     iput-boolean v2, v0, Ln/a/b/c/n;->b:Z
 
-    .line 4
     iput-boolean v2, v0, Ln/a/b/c/n;->c:Z
 
-    .line 5
     iput-boolean v2, v0, Ln/a/b/c/n;->d:Z
 
-    .line 6
     iput-boolean v1, v0, Ln/a/b/c/n;->e:Z
 
-    .line 7
     iput-boolean v2, v0, Ln/a/b/c/n;->f:Z
 
-    .line 8
     iput-boolean v2, v0, Ln/a/b/c/n;->g:Z
 
-    .line 9
     iput v2, v0, Ln/a/b/c/n;->i:I
 
-    .line 10
     new-instance v0, Ln/a/b/c/n;
 
     invoke-direct {v0}, Ln/a/b/c/n;-><init>()V
 
     sput-object v0, Ln/a/b/c/n;->k:Ln/a/b/c/n;
 
-    .line 11
     iput-boolean v1, v0, Ln/a/b/c/n;->a:Z
 
-    .line 12
     iput-boolean v1, v0, Ln/a/b/c/n;->b:Z
 
-    .line 13
     iput-boolean v2, v0, Ln/a/b/c/n;->c:Z
 
-    .line 14
     iput-boolean v2, v0, Ln/a/b/c/n;->d:Z
 
-    .line 15
     iput-boolean v2, v0, Ln/a/b/c/n;->e:Z
 
-    .line 16
     sget-object v0, Ln/a/b/c/n;->j:Ln/a/b/c/n;
 
     iput v1, v0, Ln/a/b/c/n;->i:I
 
-    .line 17
     new-instance v0, Ln/a/b/c/n;
 
     invoke-direct {v0}, Ln/a/b/c/n;-><init>()V
 
     sput-object v0, Ln/a/b/c/n;->l:Ln/a/b/c/n;
 
-    .line 18
     iput-boolean v2, v0, Ln/a/b/c/n;->a:Z
 
-    .line 19
     iput-boolean v1, v0, Ln/a/b/c/n;->b:Z
 
-    .line 20
     iput-boolean v2, v0, Ln/a/b/c/n;->c:Z
 
-    .line 21
     iput-boolean v1, v0, Ln/a/b/c/n;->d:Z
 
-    .line 22
     iput-boolean v2, v0, Ln/a/b/c/n;->e:Z
 
-    .line 23
     iput-boolean v2, v0, Ln/a/b/c/n;->h:Z
 
     const/4 v1, 0x2
 
-    .line 24
     iput v1, v0, Ln/a/b/c/n;->i:I
 
     return-void
@@ -133,35 +109,26 @@
 .method constructor <init>()V
     .locals 2
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/4 v0, 0x1
 
-    .line 2
     iput-boolean v0, p0, Ln/a/b/c/n;->a:Z
 
-    .line 3
     iput-boolean v0, p0, Ln/a/b/c/n;->b:Z
 
     const/4 v1, 0x0
 
-    .line 4
     iput-boolean v1, p0, Ln/a/b/c/n;->c:Z
 
-    .line 5
     iput-boolean v1, p0, Ln/a/b/c/n;->d:Z
 
-    .line 6
     iput-boolean v1, p0, Ln/a/b/c/n;->e:Z
 
-    .line 7
     iput-boolean v0, p0, Ln/a/b/c/n;->f:Z
 
-    .line 8
     iput-boolean v0, p0, Ln/a/b/c/n;->g:Z
 
-    .line 9
     iput-boolean v0, p0, Ln/a/b/c/n;->h:Z
 
     return-void
@@ -176,20 +143,17 @@
 
     return-void
 
-    .line 1
     :cond_0
     iget-boolean v0, p0, Ln/a/b/c/n;->b:Z
 
     if-nez v0, :cond_2
 
-    .line 2
     array-length p2, p2
 
     if-nez p2, :cond_1
 
     const-string p2, "()"
 
-    .line 3
     invoke-virtual {p1, p2}, Ljava/lang/StringBuffer;->append(Ljava/lang/String;)Ljava/lang/StringBuffer;
 
     return-void
@@ -197,7 +161,6 @@
     :cond_1
     const-string p2, "(..)"
 
-    .line 4
     invoke-virtual {p1, p2}, Ljava/lang/StringBuffer;->append(Ljava/lang/String;)Ljava/lang/StringBuffer;
 
     return-void
@@ -205,15 +168,12 @@
     :cond_2
     const-string v0, "("
 
-    .line 5
     invoke-virtual {p1, v0}, Ljava/lang/StringBuffer;->append(Ljava/lang/String;)Ljava/lang/StringBuffer;
 
-    .line 6
     invoke-virtual {p0, p1, p2}, Ln/a/b/c/n;->c(Ljava/lang/StringBuffer;[Ljava/lang/Class;)V
 
     const-string p2, ")"
 
-    .line 7
     invoke-virtual {p1, p2}, Ljava/lang/StringBuffer;->append(Ljava/lang/String;)Ljava/lang/StringBuffer;
 
     return-void
@@ -222,7 +182,6 @@
 .method public b(Ljava/lang/StringBuffer;[Ljava/lang/Class;)V
     .locals 1
 
-    .line 1
     iget-boolean v0, p0, Ln/a/b/c/n;->c:Z
 
     if-eqz v0, :cond_1
@@ -238,10 +197,8 @@
     :cond_0
     const-string v0, " throws "
 
-    .line 2
     invoke-virtual {p1, v0}, Ljava/lang/StringBuffer;->append(Ljava/lang/String;)Ljava/lang/StringBuffer;
 
-    .line 3
     invoke-virtual {p0, p1, p2}, Ln/a/b/c/n;->c(Ljava/lang/StringBuffer;[Ljava/lang/Class;)V
 
     :cond_1
@@ -254,7 +211,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     :goto_0
     array-length v1, p2
 
@@ -264,10 +220,8 @@
 
     const-string v1, ", "
 
-    .line 2
     invoke-virtual {p1, v1}, Ljava/lang/StringBuffer;->append(Ljava/lang/String;)Ljava/lang/StringBuffer;
 
-    .line 3
     :cond_0
     aget-object v1, p2, v0
 
@@ -290,7 +244,6 @@
 
     const/16 v0, 0x2d
 
-    .line 1
     invoke-virtual {p1, v0}, Ljava/lang/String;->lastIndexOf(I)I
 
     move-result v0
@@ -304,7 +257,6 @@
     :cond_0
     add-int/lit8 v0, v0, 0x1
 
-    .line 2
     invoke-virtual {p1, v0}, Ljava/lang/String;->substring(I)Ljava/lang/String;
 
     move-result-object p1
@@ -315,7 +267,6 @@
 .method e(I)Ljava/lang/String;
     .locals 2
 
-    .line 1
     iget-boolean v0, p0, Ln/a/b/c/n;->d:Z
 
     const-string v1, ""
@@ -324,13 +275,11 @@
 
     return-object v1
 
-    .line 2
     :cond_0
     invoke-static {p1}, Ljava/lang/reflect/Modifier;->toString(I)Ljava/lang/String;
 
     move-result-object p1
 
-    .line 3
     invoke-virtual {p1}, Ljava/lang/String;->length()I
 
     move-result v0
@@ -339,7 +288,6 @@
 
     return-object v1
 
-    .line 4
     :cond_1
     new-instance v0, Ljava/lang/StringBuilder;
 
@@ -361,7 +309,6 @@
 .method public f(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-boolean v0, p0, Ln/a/b/c/n;->e:Z
 
     invoke-virtual {p0, p1, p2, v0}, Ln/a/b/c/n;->h(Ljava/lang/Class;Ljava/lang/String;Z)Ljava/lang/String;
@@ -374,7 +321,6 @@
 .method public g(Ljava/lang/Class;)Ljava/lang/String;
     .locals 2
 
-    .line 1
     invoke-virtual {p1}, Ljava/lang/Class;->getName()Ljava/lang/String;
 
     move-result-object v0
@@ -397,7 +343,6 @@
 
     return-object p1
 
-    .line 1
     :cond_0
     invoke-virtual {p1}, Ljava/lang/Class;->isArray()Z
 
@@ -405,12 +350,10 @@
 
     if-eqz v0, :cond_1
 
-    .line 2
     invoke-virtual {p1}, Ljava/lang/Class;->getComponentType()Ljava/lang/Class;
 
     move-result-object p1
 
-    .line 3
     new-instance p2, Ljava/lang/StringBuilder;
 
     invoke-direct {p2}, Ljava/lang/StringBuilder;-><init>()V
@@ -442,7 +385,6 @@
 
     if-eqz p3, :cond_2
 
-    .line 4
     invoke-virtual {p0, p2}, Ln/a/b/c/n;->i(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p2
@@ -453,7 +395,6 @@
 
     return-object p1
 
-    .line 5
     :cond_2
     invoke-virtual {p2, v0, p1}, Ljava/lang/String;->replace(CC)Ljava/lang/String;
 
@@ -467,7 +408,6 @@
 
     const/16 v0, 0x2e
 
-    .line 1
     invoke-virtual {p1, v0}, Ljava/lang/String;->lastIndexOf(I)I
 
     move-result v0
@@ -481,7 +421,6 @@
     :cond_0
     add-int/lit8 v0, v0, 0x1
 
-    .line 2
     invoke-virtual {p1, v0}, Ljava/lang/String;->substring(I)Ljava/lang/String;
 
     move-result-object p1

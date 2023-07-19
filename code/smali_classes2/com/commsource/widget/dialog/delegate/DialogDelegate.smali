@@ -70,14 +70,12 @@
 
     invoke-static {p2, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     iput-object p1, p0, Lcom/commsource/widget/dialog/delegate/DialogDelegate;->c:Lcom/commsource/widget/dialog/delegate/b;
 
     iput-object p2, p0, Lcom/commsource/widget/dialog/delegate/DialogDelegate;->d:Lcom/commsource/widget/dialog/delegate/d/a;
 
-    .line 2
     new-instance p1, Lcom/commsource/widget/dialog/delegate/DialogDelegate$mViewBindig$2;
 
     invoke-direct {p1, p0}, Lcom/commsource/widget/dialog/delegate/DialogDelegate$mViewBindig$2;-><init>(Lcom/commsource/widget/dialog/delegate/DialogDelegate;)V
@@ -96,7 +94,6 @@
 .method public final a()I
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/widget/dialog/delegate/DialogDelegate;->d:Lcom/commsource/widget/dialog/delegate/d/a;
 
     invoke-virtual {v0}, Lcom/commsource/widget/dialog/delegate/d/a;->a()I
@@ -117,7 +114,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/widget/dialog/delegate/DialogDelegate;->d:Lcom/commsource/widget/dialog/delegate/d/a;
 
     return-object v0
@@ -128,7 +124,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/widget/dialog/delegate/DialogDelegate;->c:Lcom/commsource/widget/dialog/delegate/b;
 
     return-object v0
@@ -161,7 +156,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/widget/dialog/delegate/DialogDelegate;->d()Landroidx/databinding/ViewDataBinding;
 
     move-result-object v0
@@ -183,7 +177,6 @@
 .method public final g()Z
     .locals 1
 
-    .line 1
     iget-boolean v0, p0, Lcom/commsource/widget/dialog/delegate/DialogDelegate;->b:Z
 
     return v0
@@ -200,7 +193,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/widget/dialog/delegate/DialogDelegate;->d()Landroidx/databinding/ViewDataBinding;
 
     move-result-object v0
@@ -223,7 +215,6 @@
 
     check-cast v0, Landroid/view/ViewGroup;
 
-    .line 2
     invoke-virtual {p0}, Lcom/commsource/widget/dialog/delegate/DialogDelegate;->d()Landroidx/databinding/ViewDataBinding;
 
     move-result-object v1
@@ -236,7 +227,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_0
     new-instance p1, Lcotlin/TypeCastException;
 
@@ -246,7 +236,6 @@
 
     throw p1
 
-    .line 4
     :cond_1
     :goto_0
     invoke-virtual {p0}, Lcom/commsource/widget/dialog/delegate/DialogDelegate;->d()Landroidx/databinding/ViewDataBinding;
@@ -259,17 +248,14 @@
 
     invoke-virtual {p1, v0}, Landroid/widget/FrameLayout;->addView(Landroid/view/View;)V
 
-    .line 5
     iget-boolean p1, p0, Lcom/commsource/widget/dialog/delegate/DialogDelegate;->b:Z
 
     if-nez p1, :cond_2
 
     const/4 p1, 0x1
 
-    .line 6
     iput-boolean p1, p0, Lcom/commsource/widget/dialog/delegate/DialogDelegate;->b:Z
 
-    .line 7
     invoke-virtual {p0}, Lcom/commsource/widget/dialog/delegate/DialogDelegate;->f()V
 
     :cond_2
@@ -285,7 +271,6 @@
 .method public final j(Z)V
     .locals 0
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/widget/dialog/delegate/DialogDelegate;->b:Z
 
     return-void

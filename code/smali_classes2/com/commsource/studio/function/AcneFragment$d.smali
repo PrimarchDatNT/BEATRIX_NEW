@@ -53,7 +53,6 @@
     :cond_0
     const/4 v0, 0x0
 
-    .line 1
     :goto_0
     iget-object p1, p0, Lcom/commsource/studio/function/AcneFragment$d;->a:Lcom/commsource/studio/function/AcneFragment;
 
@@ -77,7 +76,6 @@
 
     invoke-static {p1, v2, v1, v3, v4}, Lcom/commsource/studio/effect/c;->I(Lcom/commsource/studio/effect/c;IIILjava/lang/Object;)V
 
-    .line 2
     iget-object p1, p0, Lcom/commsource/studio/function/AcneFragment$d;->a:Lcom/commsource/studio/function/AcneFragment;
 
     invoke-static {p1}, Lcom/commsource/studio/function/AcneFragment;->B1(Lcom/commsource/studio/function/AcneFragment;)Lcom/commsource/studio/processor/m;
@@ -96,7 +94,6 @@
 
     invoke-virtual {p1, v0}, Lcom/commsource/studio/r0/a;->G(Z)V
 
-    .line 3
     :cond_2
     iget-object p1, p0, Lcom/commsource/studio/function/AcneFragment$d;->a:Lcom/commsource/studio/function/AcneFragment;
 
@@ -110,7 +107,6 @@
 
     invoke-static {p1, v1, v4, v0, v4}, Lcom/commsource/studio/processor/BaseEffectProcessor;->z(Lcom/commsource/studio/processor/BaseEffectProcessor;ZLcotlin/jvm/u/a;ILjava/lang/Object;)V
 
-    .line 4
     :cond_3
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

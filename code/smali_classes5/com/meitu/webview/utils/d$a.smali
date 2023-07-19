@@ -29,7 +29,6 @@
 .method constructor <init>(Ljava/lang/String;Ljava/lang/String;Lcom/meitu/webview/utils/d$c;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/webview/utils/d$a;->a:Ljava/lang/String;
 
     iput-object p2, p0, Lcom/meitu/webview/utils/d$a;->b:Ljava/lang/String;
@@ -50,7 +49,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/webview/utils/d$a;->a:Ljava/lang/String;
 
     iget-object v2, p0, Lcom/meitu/webview/utils/d$a;->b:Ljava/lang/String;
@@ -59,7 +57,6 @@
 
     invoke-static {v1, v2, v3}, Lcom/meitu/webview/utils/d;->a(Ljava/lang/String;Ljava/lang/String;Lcom/meitu/webview/utils/d$c;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

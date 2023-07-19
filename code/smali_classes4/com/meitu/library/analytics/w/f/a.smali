@@ -45,40 +45,28 @@
 .method public constructor <init>(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;IZZLcom/meitu/library/analytics/y/k/a;Ljava/lang/String;I)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/meitu/library/analytics/w/f/a;->b:Landroid/content/Context;
 
-    .line 3
     iput-object p2, p0, Lcom/meitu/library/analytics/w/f/a;->c:Ljava/lang/String;
 
-    .line 4
     iput-object p3, p0, Lcom/meitu/library/analytics/w/f/a;->d:Ljava/lang/String;
 
-    .line 5
     iput-object p4, p0, Lcom/meitu/library/analytics/w/f/a;->e:Ljava/lang/String;
 
-    .line 6
     iput p5, p0, Lcom/meitu/library/analytics/w/f/a;->f:I
 
-    .line 7
     iput-boolean p6, p0, Lcom/meitu/library/analytics/w/f/a;->g:Z
 
-    .line 8
     iput-boolean p7, p0, Lcom/meitu/library/analytics/w/f/a;->h:Z
 
-    .line 9
     iput-object p8, p0, Lcom/meitu/library/analytics/w/f/a;->i:Lcom/meitu/library/analytics/y/k/a;
 
-    .line 10
     iput-object p9, p0, Lcom/meitu/library/analytics/w/f/a;->j:Ljava/lang/String;
 
-    .line 11
     iput p10, p0, Lcom/meitu/library/analytics/w/f/a;->k:I
 
-    .line 12
     new-instance p1, Lcom/meitu/library/analytics/w/g/b/b/a;
 
     invoke-direct {p1, p0}, Lcom/meitu/library/analytics/w/g/b/b/a;-><init>(Lcom/meitu/library/analytics/w/f/a;)V
@@ -95,12 +83,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/meitu/library/analytics/y/n/i;
 
     invoke-direct {v1, p0}, Lcom/meitu/library/analytics/y/n/i;-><init>(Lcom/meitu/library/analytics/sdk/content/f;)V
 
-    .line 2
     invoke-static {v1}, Lcom/meitu/library/analytics/w/g/c/a;->c(Lcom/meitu/library/analytics/y/n/i;)Z
 
     move-result p0
@@ -119,7 +105,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/library/analytics/w/f/a;->b:Landroid/content/Context;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -134,7 +119,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/library/analytics/w/f/a;->c:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -149,7 +133,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/library/analytics/w/f/a;->f:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -164,7 +147,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/library/analytics/w/f/a;->j:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -179,7 +161,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/library/analytics/w/f/a;->k:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -194,7 +175,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/library/analytics/w/f/a;->a:Lcom/meitu/library/analytics/w/g/b/b/a;
 
     const-string v2, "last_upload_data_time"
@@ -217,7 +197,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/library/analytics/w/f/a;->i:Lcom/meitu/library/analytics/y/k/a;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -232,7 +211,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/library/analytics/w/f/a;->d:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -247,7 +225,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/library/analytics/w/f/a;->e:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -262,7 +239,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/library/analytics/w/f/a;->a:Lcom/meitu/library/analytics/w/g/b/b/a;
 
     sget-object v2, Lcom/meitu/library/analytics/w/f/b;->c:Ljava/lang/String;
@@ -285,19 +261,16 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/meitu/library/analytics/w/f/a;->h:Z
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const-string v0, "http://test.rabbit.meitustat.com/plain"
 
     return-object v0
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -313,7 +286,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const/4 v0, 0x0
@@ -328,7 +300,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/meitu/library/analytics/w/f/a;->g:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -345,14 +316,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/meitu/library/analytics/w/g/c/a;
 
     invoke-direct {v1, p0}, Lcom/meitu/library/analytics/w/g/c/a;-><init>(Lcom/meitu/library/analytics/w/f/a;)V
 
     invoke-virtual {v1}, Lcom/meitu/library/analytics/w/g/c/a;->i()V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

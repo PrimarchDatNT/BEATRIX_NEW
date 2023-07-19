@@ -36,15 +36,12 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const-string v0, "unknown-authority"
 
-    .line 2
     iput-object v0, p0, Lio/grpc/internal/w$a;->b:Ljava/lang/String;
 
-    .line 3
     sget-object v0, Lio/grpc/a;->b:Lio/grpc/a;
 
     iput-object v0, p0, Lio/grpc/internal/w$a;->c:Lio/grpc/a;
@@ -57,7 +54,6 @@
 .method public a()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lio/grpc/internal/w$a;->b:Ljava/lang/String;
 
     return-object v0
@@ -66,7 +62,6 @@
 .method public b()Lio/grpc/ChannelLogger;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lio/grpc/internal/w$a;->a:Lio/grpc/ChannelLogger;
 
     return-object v0
@@ -75,7 +70,6 @@
 .method public c()Lio/grpc/a;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lio/grpc/internal/w$a;->c:Lio/grpc/a;
 
     return-object v0
@@ -86,7 +80,6 @@
     .annotation runtime Ljavax/annotation/j;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lio/grpc/internal/w$a;->e:Lio/grpc/HttpConnectProxiedSocketAddress;
 
     return-object v0
@@ -97,7 +90,6 @@
     .annotation runtime Ljavax/annotation/j;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lio/grpc/internal/w$a;->d:Ljava/lang/String;
 
     return-object v0
@@ -106,7 +98,6 @@
 .method public equals(Ljava/lang/Object;)Z
     .locals 3
 
-    .line 1
     instance-of v0, p1, Lio/grpc/internal/w$a;
 
     const/4 v1, 0x0
@@ -115,11 +106,9 @@
 
     return v1
 
-    .line 2
     :cond_0
     check-cast p1, Lio/grpc/internal/w$a;
 
-    .line 3
     iget-object v0, p0, Lio/grpc/internal/w$a;->b:Ljava/lang/String;
 
     iget-object v2, p1, Lio/grpc/internal/w$a;->b:Ljava/lang/String;
@@ -134,7 +123,6 @@
 
     iget-object v2, p1, Lio/grpc/internal/w$a;->c:Lio/grpc/a;
 
-    .line 4
     invoke-virtual {v0, v2}, Lio/grpc/a;->equals(Ljava/lang/Object;)Z
 
     move-result v0
@@ -145,7 +133,6 @@
 
     iget-object v2, p1, Lio/grpc/internal/w$a;->d:Ljava/lang/String;
 
-    .line 5
     invoke-static {v0, v2}, Lcom/google/common/base/q;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v0
@@ -156,7 +143,6 @@
 
     iget-object p1, p1, Lio/grpc/internal/w$a;->e:Lio/grpc/HttpConnectProxiedSocketAddress;
 
-    .line 6
     invoke-static {v0, p1}, Lcom/google/common/base/q;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result p1
@@ -174,7 +160,6 @@
 
     const-string v0, "authority"
 
-    .line 1
     invoke-static {p1, v0}, Lcom/google/common/base/t;->F(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -189,7 +174,6 @@
 .method public g(Lio/grpc/ChannelLogger;)Lio/grpc/internal/w$a;
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lio/grpc/internal/w$a;->a:Lio/grpc/ChannelLogger;
 
     return-object p0
@@ -200,10 +184,8 @@
 
     const-string v0, "eagAttributes"
 
-    .line 1
     invoke-static {p1, v0}, Lcom/google/common/base/t;->F(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 2
     iput-object p1, p0, Lio/grpc/internal/w$a;->c:Lio/grpc/a;
 
     return-object p0
@@ -216,7 +198,6 @@
 
     new-array v0, v0, [Ljava/lang/Object;
 
-    .line 1
     iget-object v1, p0, Lio/grpc/internal/w$a;->b:Ljava/lang/String;
 
     const/4 v2, 0x0
@@ -255,7 +236,6 @@
         .end annotation
     .end param
 
-    .line 1
     iput-object p1, p0, Lio/grpc/internal/w$a;->e:Lio/grpc/HttpConnectProxiedSocketAddress;
 
     return-object p0
@@ -268,7 +248,6 @@
         .end annotation
     .end param
 
-    .line 1
     iput-object p1, p0, Lio/grpc/internal/w$a;->d:Ljava/lang/String;
 
     return-object p0

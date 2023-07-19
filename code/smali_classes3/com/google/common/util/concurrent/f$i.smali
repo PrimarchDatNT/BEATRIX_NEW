@@ -22,10 +22,8 @@
 .method constructor <init>(Lcom/google/common/util/concurrent/f;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/common/util/concurrent/f$i;->e:Lcom/google/common/util/concurrent/f;
 
-    .line 2
     invoke-static {p1}, Lcom/google/common/util/concurrent/f;->j(Lcom/google/common/util/concurrent/f;)Lcom/google/common/util/concurrent/m0;
 
     move-result-object p1
@@ -40,7 +38,6 @@
 .method public a()Z
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/util/concurrent/f$i;->e:Lcom/google/common/util/concurrent/f;
 
     invoke-virtual {v0}, Lcom/google/common/util/concurrent/f;->f()Lcom/google/common/util/concurrent/Service$State;

@@ -66,10 +66,8 @@
 
     if-nez p1, :cond_0
 
-    .line 1
     invoke-static {}, Lf/k/c/c/f;->e()V
 
-    .line 2
     iget-object p1, p0, Lcom/commsource/studio/function/ar/StudioArFragment$onViewCreated$12;->a:Lcom/commsource/studio/function/ar/StudioArFragment;
 
     invoke-virtual {p1}, Lcom/commsource/studio/function/ar/StudioArFragment;->H1()Lcom/commsource/beautyplus/f0/ya;
@@ -80,7 +78,6 @@
 
     invoke-virtual {p1, v3}, Lcom/commsource/studio/component/SeekComponent;->h(Ljava/util/ArrayList;)Z
 
-    .line 3
     iget-object p1, p0, Lcom/commsource/studio/function/ar/StudioArFragment$onViewCreated$12;->a:Lcom/commsource/studio/function/ar/StudioArFragment;
 
     invoke-virtual {p1}, Lcom/commsource/studio/function/ar/StudioArFragment;->B1()Lcom/commsource/studio/function/ar/ArProcessor;
@@ -89,7 +86,6 @@
 
     invoke-virtual {p1}, Lcom/commsource/studio/function/ar/ArProcessor;->N()V
 
-    .line 4
     iget-object p1, p0, Lcom/commsource/studio/function/ar/StudioArFragment$onViewCreated$12;->a:Lcom/commsource/studio/function/ar/StudioArFragment;
 
     invoke-virtual {p1}, Lcom/commsource/studio/function/ar/StudioArFragment;->H1()Lcom/commsource/beautyplus/f0/ya;
@@ -102,7 +98,6 @@
 
     invoke-static {p1}, Lcom/commsource/util/l0;->w(Landroid/view/View;)V
 
-    .line 5
     iget-object p1, p0, Lcom/commsource/studio/function/ar/StudioArFragment$onViewCreated$12;->a:Lcom/commsource/studio/function/ar/StudioArFragment;
 
     invoke-virtual {p1}, Lcom/commsource/studio/function/ar/StudioArFragment;->H1()Lcom/commsource/beautyplus/f0/ya;
@@ -113,7 +108,6 @@
 
     invoke-virtual {p1}, Lcom/commsource/studio/component/PlayComponent;->k()V
 
-    .line 6
     iget-object p1, p0, Lcom/commsource/studio/function/ar/StudioArFragment$onViewCreated$12;->a:Lcom/commsource/studio/function/ar/StudioArFragment;
 
     invoke-virtual {p1}, Lcom/commsource/studio/function/ar/StudioArFragment;->H1()Lcom/commsource/beautyplus/f0/ya;
@@ -128,12 +122,10 @@
 
     invoke-static {p1}, Lcom/commsource/util/l0;->w(Landroid/view/View;)V
 
-    .line 7
     iget-object p1, p0, Lcom/commsource/studio/function/ar/StudioArFragment$onViewCreated$12;->a:Lcom/commsource/studio/function/ar/StudioArFragment;
 
     invoke-static {p1, v4, v4, v2, v3}, Lcom/commsource/studio/function/BaseSubFragment;->y1(Lcom/commsource/studio/function/BaseSubFragment;IZILjava/lang/Object;)V
 
-    .line 8
     iget-object p1, p0, Lcom/commsource/studio/function/ar/StudioArFragment$onViewCreated$12;->a:Lcom/commsource/studio/function/ar/StudioArFragment;
 
     invoke-virtual {p1}, Lcom/commsource/studio/function/BaseSubFragment;->r0()Lcom/commsource/studio/ImageStudioViewModel;
@@ -154,7 +146,6 @@
 
     goto/16 :goto_2
 
-    .line 9
     :cond_0
     invoke-virtual {p1}, Lcom/meitu/template/bean/ArMaterial;->getStatisticId()Ljava/lang/String;
 
@@ -166,7 +157,6 @@
 
     invoke-static {v7, v8, v6}, Lcom/commsource/statistics/i;->r(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 10
     iget-object v6, p0, Lcom/commsource/studio/function/ar/StudioArFragment$onViewCreated$12;->a:Lcom/commsource/studio/function/ar/StudioArFragment;
 
     invoke-virtual {v6}, Lcom/commsource/studio/function/ar/StudioArFragment;->B1()Lcom/commsource/studio/function/ar/ArProcessor;
@@ -185,7 +175,6 @@
 
     invoke-virtual {v6, p1, v7, v8}, Lcom/commsource/studio/function/ar/ArProcessor;->L(Lcom/meitu/template/bean/ArMaterial;ZLcotlin/jvm/u/a;)V
 
-    .line 11
     iget-object v6, p0, Lcom/commsource/studio/function/ar/StudioArFragment$onViewCreated$12;->a:Lcom/commsource/studio/function/ar/StudioArFragment;
 
     invoke-virtual {v6}, Lcom/commsource/studio/function/BaseSubFragment;->r0()Lcom/commsource/studio/ImageStudioViewModel;
@@ -206,10 +195,8 @@
 
     sget v6, Lcom/res/provider/ResSTRING;->selfie_unface_tips:I
 
-    .line 12
     invoke-static {v6}, Lf/k/c/c/f;->r(I)V
 
-    .line 13
     :cond_1
     invoke-virtual {p1}, Lcom/meitu/template/bean/ArMaterial;->isDateSelectAr()Z
 
@@ -217,7 +204,6 @@
 
     if-eqz v6, :cond_2
 
-    .line 14
     iget-object p1, p0, Lcom/commsource/studio/function/ar/StudioArFragment$onViewCreated$12;->a:Lcom/commsource/studio/function/ar/StudioArFragment;
 
     invoke-virtual {p1}, Lcom/commsource/studio/function/ar/StudioArFragment;->H1()Lcom/commsource/beautyplus/f0/ya;
@@ -230,7 +216,6 @@
 
     invoke-static {p1}, Lcom/commsource/util/l0;->v0(Landroid/view/View;)V
 
-    .line 15
     iget-object p1, p0, Lcom/commsource/studio/function/ar/StudioArFragment$onViewCreated$12;->a:Lcom/commsource/studio/function/ar/StudioArFragment;
 
     invoke-virtual {p1}, Lcom/commsource/studio/function/ar/StudioArFragment;->H1()Lcom/commsource/beautyplus/f0/ya;
@@ -245,7 +230,6 @@
 
     goto :goto_0
 
-    .line 16
     :cond_2
     invoke-virtual {p1}, Lcom/meitu/template/bean/ArMaterial;->isTextEdit()Z
 
@@ -253,7 +237,6 @@
 
     if-eqz p1, :cond_3
 
-    .line 17
     iget-object p1, p0, Lcom/commsource/studio/function/ar/StudioArFragment$onViewCreated$12;->a:Lcom/commsource/studio/function/ar/StudioArFragment;
 
     invoke-virtual {p1}, Lcom/commsource/studio/function/ar/StudioArFragment;->H1()Lcom/commsource/beautyplus/f0/ya;
@@ -266,7 +249,6 @@
 
     invoke-static {p1}, Lcom/commsource/util/l0;->v0(Landroid/view/View;)V
 
-    .line 18
     iget-object p1, p0, Lcom/commsource/studio/function/ar/StudioArFragment$onViewCreated$12;->a:Lcom/commsource/studio/function/ar/StudioArFragment;
 
     invoke-virtual {p1}, Lcom/commsource/studio/function/ar/StudioArFragment;->H1()Lcom/commsource/beautyplus/f0/ya;
@@ -283,7 +265,6 @@
 
     goto :goto_0
 
-    .line 19
     :cond_3
     iget-object p1, p0, Lcom/commsource/studio/function/ar/StudioArFragment$onViewCreated$12;->a:Lcom/commsource/studio/function/ar/StudioArFragment;
 
@@ -297,7 +278,6 @@
 
     invoke-static {p1}, Lcom/commsource/util/l0;->w(Landroid/view/View;)V
 
-    .line 20
     :goto_0
     iget-object p1, p0, Lcom/commsource/studio/function/ar/StudioArFragment$onViewCreated$12;->a:Lcom/commsource/studio/function/ar/StudioArFragment;
 
@@ -315,7 +295,6 @@
 
     if-eqz p1, :cond_4
 
-    .line 21
     iget-object p1, p0, Lcom/commsource/studio/function/ar/StudioArFragment$onViewCreated$12;->a:Lcom/commsource/studio/function/ar/StudioArFragment;
 
     const/4 v6, 0x3
@@ -324,13 +303,11 @@
 
     goto :goto_1
 
-    .line 22
     :cond_4
     iget-object p1, p0, Lcom/commsource/studio/function/ar/StudioArFragment$onViewCreated$12;->a:Lcom/commsource/studio/function/ar/StudioArFragment;
 
     invoke-static {p1, v4, v4, v2, v3}, Lcom/commsource/studio/function/BaseSubFragment;->y1(Lcom/commsource/studio/function/BaseSubFragment;IZILjava/lang/Object;)V
 
-    .line 23
     :goto_1
     iget-object p1, p0, Lcom/commsource/studio/function/ar/StudioArFragment$onViewCreated$12;->a:Lcom/commsource/studio/function/ar/StudioArFragment;
 
@@ -364,7 +341,6 @@
 
     invoke-virtual {p1, v2}, Landroidx/lifecycle/MutableLiveData;->setValue(Ljava/lang/Object;)V
 
-    .line 24
     :goto_2
     invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -378,7 +354,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Lcom/meitu/template/bean/ArMaterial;
 
     invoke-virtual {p0, p1}, Lcom/commsource/studio/function/ar/StudioArFragment$onViewCreated$12;->a(Lcom/meitu/template/bean/ArMaterial;)V

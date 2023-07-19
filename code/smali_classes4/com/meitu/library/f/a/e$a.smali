@@ -24,7 +24,6 @@
 .method constructor <init>(Lcom/meitu/library/f/a/e;Ljava/lang/String;I)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/library/f/a/e$a;->M:Lcom/meitu/library/f/a/e;
 
     iput p3, p0, Lcom/meitu/library/f/a/e$a;->L:I
@@ -43,7 +42,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/library/f/a/e$a;->M:Lcom/meitu/library/f/a/e;
 
     iget v2, p0, Lcom/meitu/library/f/a/e$a;->L:I
@@ -56,7 +54,6 @@
 
     move-result-object v1
 
-    .line 2
     invoke-static {v1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v2
@@ -83,7 +80,6 @@
 
     if-eqz v2, :cond_1
 
-    .line 3
     iget-object v2, p0, Lcom/meitu/library/f/a/e$a;->M:Lcom/meitu/library/f/a/e;
 
     invoke-static {v2}, Lcom/meitu/library/f/a/e;->F(Lcom/meitu/library/f/a/e;)Landroid/content/Context;
@@ -118,14 +114,12 @@
 
     if-eqz v1, :cond_0
 
-    .line 4
     iget-object v1, p0, Lcom/meitu/library/f/a/e$a;->M:Lcom/meitu/library/f/a/e;
 
     iget v2, p0, Lcom/meitu/library/f/a/e$a;->L:I
 
     invoke-static {v1, v2}, Lcom/meitu/library/f/a/e;->a0(Lcom/meitu/library/f/a/e;I)V
 
-    .line 5
     :cond_0
     iget-object v1, p0, Lcom/meitu/library/f/a/e$a;->M:Lcom/meitu/library/f/a/e;
 
@@ -139,7 +133,6 @@
 
     invoke-virtual {v1, v2}, Landroid/os/Handler;->post(Ljava/lang/Runnable;)Z
 
-    .line 6
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

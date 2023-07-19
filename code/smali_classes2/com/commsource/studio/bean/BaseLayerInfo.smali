@@ -67,10 +67,8 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     invoke-virtual {p0}, Ljava/lang/Object;->toString()Ljava/lang/String;
 
     move-result-object v0
@@ -87,7 +85,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     invoke-super {p0}, Ljava/lang/Object;->clone()Ljava/lang/Object;
 
     move-result-object v0
@@ -100,7 +97,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/studio/bean/BaseLayerInfo;->clone()Ljava/lang/Object;
 
     move-result-object v0
@@ -111,12 +107,10 @@
 
     const/4 v1, 0x0
 
-    .line 2
     iput-object v1, v0, Lcom/commsource/studio/bean/BaseLayerInfo;->layerNode:Lcom/commsource/editengine/i;
 
     if-nez p1, :cond_0
 
-    .line 3
     invoke-virtual {v0}, Ljava/lang/Object;->toString()Ljava/lang/String;
 
     move-result-object p1
@@ -126,7 +120,6 @@
     :cond_0
     return-object v0
 
-    .line 4
     :cond_1
     new-instance p1, Lcotlin/TypeCastException;
 
@@ -142,7 +135,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/studio/bean/BaseLayerInfo;->layerNode:Lcom/commsource/editengine/i;
 
     return-object v0
@@ -153,7 +145,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/studio/bean/BaseLayerInfo;->parentKey:Ljava/lang/String;
 
     return-object v0
@@ -162,7 +153,6 @@
 .method public final isFromFormula()Z
     .locals 1
 
-    .line 1
     iget-boolean v0, p0, Lcom/commsource/studio/bean/BaseLayerInfo;->isFromFormula:Z
 
     return v0
@@ -174,7 +164,6 @@
 .method public final setFromFormula(Z)V
     .locals 0
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/studio/bean/BaseLayerInfo;->isFromFormula:Z
 
     return-void
@@ -187,7 +176,6 @@
         .end annotation
     .end param
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/bean/BaseLayerInfo;->layerNode:Lcom/commsource/editengine/i;
 
     return-void
@@ -204,7 +192,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/bean/BaseLayerInfo;->parentKey:Ljava/lang/String;
 
     return-void
@@ -213,7 +200,6 @@
 .method public final updateLayerNode()V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/studio/bean/BaseLayerInfo;->layerNode:Lcom/commsource/editengine/i;
 
     if-eqz v0, :cond_0

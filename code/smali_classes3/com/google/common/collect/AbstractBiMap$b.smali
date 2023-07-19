@@ -45,12 +45,10 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/google/common/collect/AbstractBiMap$b;->b:Lcom/google/common/collect/AbstractBiMap;
 
     invoke-direct {p0}, Lcom/google/common/collect/p0;-><init>()V
 
-    .line 2
     iput-object p2, p0, Lcom/google/common/collect/AbstractBiMap$b;->a:Ljava/util/Map$Entry;
 
     return-void
@@ -68,7 +66,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/AbstractBiMap$b;->a:Ljava/util/Map$Entry;
 
     return-object v0
@@ -77,7 +74,6 @@
 .method protected bridge synthetic delegate()Ljava/lang/Object;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/collect/AbstractBiMap$b;->J0()Ljava/util/Map$Entry;
 
     move-result-object v0
@@ -93,12 +89,10 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/AbstractBiMap$b;->b:Lcom/google/common/collect/AbstractBiMap;
 
     invoke-virtual {v0, p1}, Lcom/google/common/collect/AbstractBiMap;->checkValue(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 2
     iget-object v0, p0, Lcom/google/common/collect/AbstractBiMap$b;->b:Lcom/google/common/collect/AbstractBiMap;
 
     invoke-virtual {v0}, Lcom/google/common/collect/AbstractBiMap;->entrySet()Ljava/util/Set;
@@ -113,7 +107,6 @@
 
     invoke-static {v0, v1}, Lcom/google/common/base/t;->h0(ZLjava/lang/Object;)V
 
-    .line 3
     invoke-virtual {p0}, Lcom/google/common/collect/p0;->getValue()Ljava/lang/Object;
 
     move-result-object v0
@@ -126,7 +119,6 @@
 
     return-object p1
 
-    .line 4
     :cond_0
     iget-object v0, p0, Lcom/google/common/collect/AbstractBiMap$b;->b:Lcom/google/common/collect/AbstractBiMap;
 
@@ -142,14 +134,12 @@
 
     invoke-static {v0, v3, p1}, Lcom/google/common/base/t;->u(ZLjava/lang/String;Ljava/lang/Object;)V
 
-    .line 5
     iget-object v0, p0, Lcom/google/common/collect/AbstractBiMap$b;->a:Ljava/util/Map$Entry;
 
     invoke-interface {v0, p1}, Ljava/util/Map$Entry;->setValue(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v0
 
-    .line 6
     iget-object v3, p0, Lcom/google/common/collect/AbstractBiMap$b;->b:Lcom/google/common/collect/AbstractBiMap;
 
     invoke-virtual {p0}, Lcom/google/common/collect/p0;->getKey()Ljava/lang/Object;
@@ -166,7 +156,6 @@
 
     invoke-static {v3, v1}, Lcom/google/common/base/t;->h0(ZLjava/lang/Object;)V
 
-    .line 7
     iget-object v1, p0, Lcom/google/common/collect/AbstractBiMap$b;->b:Lcom/google/common/collect/AbstractBiMap;
 
     invoke-virtual {p0}, Lcom/google/common/collect/p0;->getKey()Ljava/lang/Object;

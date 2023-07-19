@@ -80,10 +80,8 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-virtual {p1}, Lcom/commsource/widget/dialog/i0;->dismiss()V
 
-    .line 2
     new-instance p1, Landroid/content/Intent;
 
     iget-object v1, p0, Lcom/commsource/widget/dialog/delegate/XDialogKt$showGooglePlayError$1$1$1;->this$0:Lcom/commsource/widget/dialog/delegate/XDialogKt$showGooglePlayError$1$1;
@@ -100,10 +98,8 @@
 
     const/high16 v1, 0x24000000
 
-    .line 3
     invoke-virtual {p1, v1}, Landroid/content/Intent;->setFlags(I)Landroid/content/Intent;
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/widget/dialog/delegate/XDialogKt$showGooglePlayError$1$1$1;->this$0:Lcom/commsource/widget/dialog/delegate/XDialogKt$showGooglePlayError$1$1;
 
     iget-object v1, v1, Lcom/commsource/widget/dialog/delegate/XDialogKt$showGooglePlayError$1$1;->$this_XDialog:Lcom/commsource/widget/dialog/delegate/b;
@@ -116,7 +112,6 @@
 
     invoke-virtual {v1, p1}, Landroid/app/Activity;->startActivity(Landroid/content/Intent;)V
 
-    .line 5
     :cond_0
     iget-object p1, p0, Lcom/commsource/widget/dialog/delegate/XDialogKt$showGooglePlayError$1$1$1;->this$0:Lcom/commsource/widget/dialog/delegate/XDialogKt$showGooglePlayError$1$1;
 
@@ -130,7 +125,6 @@
 
     invoke-virtual {p1}, Landroid/app/Activity;->finish()V
 
-    .line 6
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

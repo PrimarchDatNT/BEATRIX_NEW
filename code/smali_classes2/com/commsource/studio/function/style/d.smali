@@ -37,7 +37,6 @@
 
     sget v0, Lcom/res/provider/ResLAYOUT;->item_camera_filter_normal:I
 
-    .line 1
     invoke-direct {p0, p1, p2, v0}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/a;-><init>(Landroid/content/Context;Landroid/view/ViewGroup;I)V
 
     return-void
@@ -50,10 +49,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->itemView:Landroid/view/View;
 
-    .line 2
     sget v2, Lcom/res/provider/ResID;->vTvFilterName:I
 
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -62,7 +59,6 @@
 
     check-cast v2, Lcom/commsource/widget/AutoFitTextView;
 
-    .line 3
     invoke-virtual {p0}, Lcom/commsource/widget/h1/f;->c()Lcom/commsource/widget/h1/d;
 
     move-result-object v3
@@ -86,20 +82,16 @@
 
     const-string v5, "com.commsource.beautyplus"
 
-    .line 4
     invoke-static {v3, v4, v5}, Lcom/meitu/library/p/d/b;->h(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)I
 
     move-result v3
 
-    .line 5
     invoke-virtual {v2, v3}, Landroid/widget/TextView;->setText(I)V
 
     const/high16 v3, -0x1000000
 
-    .line 6
     invoke-virtual {v2, v3}, Landroid/widget/TextView;->setTextColor(I)V
 
-    .line 7
     sget v2, Lcom/res/provider/ResID;->vPvProgress:I
 
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -114,7 +106,6 @@
 
     invoke-static {v2}, Lcom/commsource/util/l0;->w(Landroid/view/View;)V
 
-    .line 8
     sget v2, Lcom/res/provider/ResID;->vIfvDownload:I
 
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -129,7 +120,6 @@
 
     invoke-static {v2}, Lcom/commsource/util/l0;->w(Landroid/view/View;)V
 
-    .line 9
     sget v2, Lcom/res/provider/ResID;->ifvPreset:I
 
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -144,7 +134,6 @@
 
     invoke-static {v2}, Lcom/commsource/util/l0;->w(Landroid/view/View;)V
 
-    .line 10
     sget v2, Lcom/res/provider/ResID;->iv_right_corner:I
 
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -159,7 +148,6 @@
 
     invoke-static {v3}, Lcom/commsource/util/l0;->w(Landroid/view/View;)V
 
-    .line 11
     iget-object v3, p0, Lcom/commsource/widget/h1/f;->d:Landroid/content/Context;
 
     invoke-static {v3}, Lcom/commsource/util/u0;->i(Landroid/content/Context;)Lcom/commsource/util/u0$d;
@@ -190,19 +178,16 @@
 
     sget v5, Lcom/res/provider/ResDRAWABLE;->placeholder_stickers_45:I
 
-    .line 12
     invoke-virtual {v3, v5}, Lcom/commsource/util/u0$d;->q(I)Lcom/commsource/util/u0$d;
 
     move-result-object v3
 
     const/4 v5, 0x1
 
-    .line 13
     invoke-virtual {v3, v5}, Lcom/commsource/util/u0$d;->i(Z)Lcom/commsource/util/u0$d;
 
     move-result-object v3
 
-    .line 14
     sget v6, Lcom/res/provider/ResID;->vIvFilterCover:I
 
     invoke-virtual {v1, v6}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -213,7 +198,6 @@
 
     invoke-virtual {v3, v6}, Lcom/commsource/util/u0$d;->e(Landroid/widget/ImageView;)V
 
-    .line 15
     sget v3, Lcom/res/provider/ResID;->vIvCollect:I
 
     invoke-virtual {v1, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -226,7 +210,6 @@
 
     invoke-virtual {v3, v6}, Lcom/commsource/camera/widget/BreathImageView;->d(Z)V
 
-    .line 16
     invoke-virtual {p0}, Lcom/commsource/widget/h1/f;->c()Lcom/commsource/widget/h1/d;
 
     move-result-object v3
@@ -243,7 +226,6 @@
 
     if-eqz v3, :cond_1
 
-    .line 17
     sget v3, Lcom/res/provider/ResID;->vIvCoverMask:I
 
     invoke-virtual {v1, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -258,7 +240,6 @@
 
     goto :goto_0
 
-    .line 18
     :cond_1
     sget v3, Lcom/res/provider/ResID;->vIvCoverMask:I
 
@@ -272,7 +253,6 @@
 
     invoke-static {v3}, Lcom/commsource/util/l0;->w(Landroid/view/View;)V
 
-    .line 19
     :goto_0
     invoke-virtual {p1}, Lcom/commsource/studio/bean/f;->d()I
 
@@ -280,7 +260,6 @@
 
     if-ne p1, v5, :cond_2
 
-    .line 20
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object p1
@@ -291,7 +270,6 @@
 
     invoke-static {p1}, Lcom/commsource/util/l0;->v0(Landroid/view/View;)V
 
-    .line 21
     :cond_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -326,12 +304,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0, p1, p2, p3}, Lcom/commsource/widget/h1/f;->k(ILcom/commsource/widget/h1/d;Ljava/util/List;)V
 
     if-eqz p2, :cond_0
 
-    .line 2
     invoke-virtual {p2}, Lcom/commsource/widget/h1/d;->b()Ljava/lang/Object;
 
     move-result-object p1
@@ -342,7 +318,6 @@
 
     invoke-direct {p0, p1}, Lcom/commsource/studio/function/style/d;->y(Lcom/commsource/studio/bean/f;)V
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

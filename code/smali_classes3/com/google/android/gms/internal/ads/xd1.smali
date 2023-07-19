@@ -26,12 +26,10 @@
 .method public final apply(Ljava/lang/Object;)Ljava/lang/Object;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/xd1;->a:Lcom/google/android/gms/internal/ads/ej1;
 
     check-cast p1, Lcom/google/android/gms/internal/ads/b40;
 
-    .line 2
     iput-object p1, v0, Lcom/google/android/gms/internal/ads/ej1;->c:Lcom/google/android/gms/internal/ads/b40;
 
     return-object v0

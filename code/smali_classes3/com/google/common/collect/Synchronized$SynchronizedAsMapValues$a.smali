@@ -32,7 +32,6 @@
 .method constructor <init>(Lcom/google/common/collect/Synchronized$SynchronizedAsMapValues;Ljava/util/Iterator;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/common/collect/Synchronized$SynchronizedAsMapValues$a;->b:Lcom/google/common/collect/Synchronized$SynchronizedAsMapValues;
 
     invoke-direct {p0, p2}, Lcom/google/common/collect/h2;-><init>(Ljava/util/Iterator;)V
@@ -45,7 +44,6 @@
 .method bridge synthetic a(Ljava/lang/Object;)Ljava/lang/Object;
     .locals 0
 
-    .line 1
     check-cast p1, Ljava/util/Collection;
 
     invoke-virtual {p0, p1}, Lcom/google/common/collect/Synchronized$SynchronizedAsMapValues$a;->b(Ljava/util/Collection;)Ljava/util/Collection;
@@ -67,7 +65,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/Synchronized$SynchronizedAsMapValues$a;->b:Lcom/google/common/collect/Synchronized$SynchronizedAsMapValues;
 
     iget-object v0, v0, Lcom/google/common/collect/Synchronized$SynchronizedObject;->mutex:Ljava/lang/Object;

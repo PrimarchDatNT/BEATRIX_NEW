@@ -26,7 +26,6 @@
 .method constructor <init>(Lio/grpc/inprocess/d;Lio/grpc/internal/y2;Lio/grpc/Status;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lio/grpc/inprocess/d$d;->d:Lio/grpc/inprocess/d;
 
     iput-object p2, p0, Lio/grpc/inprocess/d$d;->b:Lio/grpc/internal/y2;
@@ -43,19 +42,16 @@
 .method public w(Lio/grpc/internal/ClientStreamListener;)V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lio/grpc/inprocess/d$d;->b:Lio/grpc/internal/y2;
 
     invoke-virtual {v0}, Lio/grpc/internal/y2;->c()V
 
-    .line 2
     iget-object v0, p0, Lio/grpc/inprocess/d$d;->b:Lio/grpc/internal/y2;
 
     iget-object v1, p0, Lio/grpc/inprocess/d$d;->c:Lio/grpc/Status;
 
     invoke-virtual {v0, v1}, Lio/grpc/internal/y2;->q(Lio/grpc/Status;)V
 
-    .line 3
     iget-object v0, p0, Lio/grpc/inprocess/d$d;->c:Lio/grpc/Status;
 
     new-instance v1, Lio/grpc/y0;

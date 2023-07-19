@@ -107,10 +107,8 @@
 
     move-object v3, p2
 
-    .line 2
     invoke-direct/range {v1 .. v6}, Lcom/commsource/studio/component/ComponentView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;IILcotlin/jvm/internal/u;)V
 
-    .line 3
     new-instance p1, Ljava/util/ArrayList;
 
     invoke-direct {p1}, Ljava/util/ArrayList;-><init>()V
@@ -119,15 +117,12 @@
 
     const/4 p1, 0x0
 
-    .line 4
     invoke-virtual {p0, p1}, Landroid/widget/FrameLayout;->setClipToPadding(Z)V
 
-    .line 5
     invoke-virtual {p0, p1}, Landroid/widget/FrameLayout;->setClipChildren(Z)V
 
     const/4 p2, 0x5
 
-    .line 6
     invoke-static {p2}, Lcom/commsource/util/l0;->n(I)I
 
     move-result p2
@@ -140,7 +135,6 @@
 
     invoke-virtual {p0, p1, p2, p1, v0}, Landroid/widget/FrameLayout;->setPadding(IIII)V
 
-    .line 7
     sget-object p1, Lcom/commsource/studio/n0;->z:Lcom/commsource/studio/n0;
 
     invoke-virtual {p1}, Lcom/commsource/studio/n0;->s()I
@@ -151,7 +145,6 @@
 
     invoke-virtual {p0, p1}, Landroid/widget/FrameLayout;->setElevation(F)V
 
-    .line 8
     new-instance p1, Lcom/commsource/camera/f1/n;
 
     const/4 p2, 0x0
@@ -172,7 +165,6 @@
 
     const/4 p2, 0x0
 
-    .line 1
     :cond_0
     invoke-direct {p0, p1, p2}, Lcom/commsource/studio/component/SeekComponent;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
@@ -186,7 +178,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/studio/component/SeekComponent;->p:Lcom/commsource/camera/f1/n;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -203,10 +194,8 @@
 
     invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual/range {p0 .. p0}, Landroid/widget/FrameLayout;->removeAllViews()V
 
-    .line 2
     new-instance v2, Landroid/widget/LinearLayout;
 
     invoke-virtual/range {p0 .. p0}, Landroid/widget/FrameLayout;->getContext()Landroid/content/Context;
@@ -217,13 +206,10 @@
 
     const/4 v3, 0x1
 
-    .line 3
     invoke-virtual {v2, v3}, Landroid/widget/LinearLayout;->setOrientation(I)V
 
-    .line 4
     iget-object v3, v0, Lcom/commsource/studio/component/SeekComponent;->d:Ljava/util/ArrayList;
 
-    .line 5
     invoke-interface {v3}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v3
@@ -251,7 +237,6 @@
 
     check-cast v4, Lcom/commsource/studio/component/SeekComponent$b;
 
-    .line 6
     new-instance v10, Landroid/widget/LinearLayout;
 
     invoke-virtual {v2}, Landroid/widget/LinearLayout;->getContext()Landroid/content/Context;
@@ -260,7 +245,6 @@
 
     invoke-direct {v10, v11}, Landroid/widget/LinearLayout;-><init>(Landroid/content/Context;)V
 
-    .line 7
     invoke-static {v7}, Lcom/commsource/util/l0;->n(I)I
 
     move-result v11
@@ -271,10 +255,8 @@
 
     invoke-virtual {v10, v11, v8, v7, v8}, Landroid/widget/LinearLayout;->setPadding(IIII)V
 
-    .line 8
     invoke-virtual {v10, v8}, Landroid/widget/LinearLayout;->setOrientation(I)V
 
-    .line 9
     invoke-virtual {v4}, Lcom/commsource/studio/component/SeekComponent$b;->d()Ljava/lang/String;
 
     move-result-object v7
@@ -285,7 +267,6 @@
 
     if-nez v7, :cond_0
 
-    .line 10
     new-instance v7, Lcom/commsource/widget/BoldTextView;
 
     invoke-virtual {v10}, Landroid/widget/LinearLayout;->getContext()Landroid/content/Context;
@@ -298,10 +279,8 @@
 
     const/16 v11, 0x10
 
-    .line 11
     invoke-virtual {v10, v11}, Landroid/widget/LinearLayout;->setVerticalGravity(I)V
 
-    .line 12
     invoke-virtual {v4}, Lcom/commsource/studio/component/SeekComponent$b;->d()Ljava/lang/String;
 
     move-result-object v11
@@ -310,22 +289,18 @@
 
     const/high16 v11, 0x41500000    # 13.0f
 
-    .line 13
     invoke-virtual {v7, v11}, Landroid/widget/TextView;->setTextSize(F)V
 
     const/16 v11, 0x3c
 
-    .line 14
     invoke-static {v11}, Lcom/commsource/util/l0;->n(I)I
 
     move-result v11
 
     const/4 v12, -0x2
 
-    .line 15
     invoke-virtual {v10, v7, v11, v12}, Landroid/widget/LinearLayout;->addView(Landroid/view/View;II)V
 
-    .line 16
     :cond_0
     new-instance v7, Lcom/commsource/widget/XSeekBar;
 
@@ -347,14 +322,12 @@
 
     invoke-direct/range {v13 .. v18}, Lcom/commsource/widget/XSeekBar;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;IILcotlin/jvm/internal/u;)V
 
-    .line 17
     new-instance v6, Landroid/widget/LinearLayout$LayoutParams;
 
     invoke-direct {v6, v9, v9}, Landroid/widget/LinearLayout$LayoutParams;-><init>(II)V
 
     invoke-virtual {v7, v6}, Landroid/view/View;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
 
-    .line 18
     invoke-virtual {v4}, Lcom/commsource/studio/component/SeekComponent$b;->d()Ljava/lang/String;
 
     move-result-object v6
@@ -367,14 +340,12 @@
 
     const/16 v6, 0xa
 
-    .line 19
     invoke-static {v6}, Lcom/commsource/util/l0;->n(I)I
 
     move-result v6
 
     invoke-static {v7, v6}, Lcom/commsource/util/l2;->B(Landroid/view/View;I)V
 
-    .line 20
     :cond_1
     invoke-virtual {v4}, Lcom/commsource/studio/component/SeekComponent$b;->c()I
 
@@ -382,21 +353,18 @@
 
     invoke-virtual {v7, v6}, Lcom/commsource/widget/XSeekBar;->setMinProgress(I)V
 
-    .line 21
     invoke-virtual {v4}, Lcom/commsource/studio/component/SeekComponent$b;->b()I
 
     move-result v6
 
     invoke-virtual {v7, v6}, Lcom/commsource/widget/XSeekBar;->setMaxProgress(I)V
 
-    .line 22
     invoke-virtual {v4}, Lcom/commsource/studio/component/SeekComponent$b;->h()I
 
     move-result v6
 
     invoke-virtual {v7, v6}, Lcom/commsource/widget/XSeekBar;->setProgress(I)V
 
-    .line 23
     invoke-virtual {v4}, Lcom/commsource/studio/component/SeekComponent$b;->a()I
 
     move-result v6
@@ -419,12 +387,10 @@
 
     invoke-virtual {v7, v6}, Lcom/commsource/widget/XSeekBar;->setDefaultPosition(F)V
 
-    .line 24
     invoke-virtual {v7, v8}, Lcom/commsource/widget/XSeekBar;->setEnableStroke(Z)V
 
     sget v6, Lcom/res/provider/ResCOLOR;->color_e5e5e5:I
 
-    .line 25
     invoke-static {v6}, Lcom/commsource/util/l0;->P(I)I
 
     move-result v6
@@ -433,44 +399,35 @@
 
     sget v6, Lcom/res/provider/ResCOLOR;->black:I
 
-    .line 26
     invoke-static {v6}, Lcom/commsource/util/l0;->P(I)I
 
     move-result v6
 
     invoke-virtual {v7, v6}, Lcom/commsource/widget/XSeekBar;->setProgressColor(I)V
 
-    .line 27
     invoke-virtual {v4, v7}, Lcom/commsource/studio/component/SeekComponent$b;->r(Lcom/commsource/widget/XSeekBar;)V
 
-    .line 28
     new-instance v6, Lcom/commsource/studio/component/SeekComponent$a;
 
     invoke-direct {v6, v4}, Lcom/commsource/studio/component/SeekComponent$a;-><init>(Lcom/commsource/studio/component/SeekComponent$b;)V
 
     invoke-virtual {v7, v6}, Lcom/commsource/widget/XSeekBar;->f(Lcom/commsource/widget/XSeekBar$b;)V
 
-    .line 29
     invoke-virtual {v10, v7}, Landroid/widget/LinearLayout;->addView(Landroid/view/View;)V
 
-    .line 30
     invoke-static {v5}, Lcom/commsource/util/l0;->n(I)I
 
     move-result v4
 
-    .line 31
     invoke-virtual {v2, v10, v9, v4}, Landroid/widget/LinearLayout;->addView(Landroid/view/View;II)V
 
     goto/16 :goto_0
 
-    .line 32
     :cond_2
     invoke-virtual {v0, v2, v9, v9}, Landroid/widget/FrameLayout;->addView(Landroid/view/View;II)V
 
-    .line 33
     iget-object v2, v0, Lcom/commsource/studio/component/SeekComponent;->d:Ljava/util/ArrayList;
 
-    .line 34
     invoke-interface {v2}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v2
@@ -495,7 +452,6 @@
     :cond_3
     check-cast v3, Lcom/commsource/studio/component/SeekComponent$b;
 
-    .line 35
     new-instance v15, Lcom/commsource/widget/part/XSeekBubbleView;
 
     invoke-virtual/range {p0 .. p0}, Landroid/widget/FrameLayout;->getContext()Landroid/content/Context;
@@ -516,7 +472,6 @@
 
     invoke-direct/range {v9 .. v14}, Lcom/commsource/widget/part/XSeekBubbleView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;IILcotlin/jvm/internal/u;)V
 
-    .line 36
     new-instance v9, Landroid/widget/FrameLayout$LayoutParams;
 
     const/16 v10, 0x50
@@ -533,7 +488,6 @@
 
     invoke-virtual {v15, v9}, Landroid/widget/RelativeLayout;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
 
-    .line 37
     invoke-virtual {v3}, Lcom/commsource/studio/component/SeekComponent$b;->d()Ljava/lang/String;
 
     move-result-object v9
@@ -546,7 +500,6 @@
 
     const/16 v9, 0x55
 
-    .line 38
     invoke-static {v9}, Lcom/commsource/util/l0;->n(I)I
 
     move-result v9
@@ -555,7 +508,6 @@
 
     goto :goto_2
 
-    .line 39
     :cond_4
     invoke-static {v7}, Lcom/commsource/util/l0;->n(I)I
 
@@ -563,7 +515,6 @@
 
     invoke-static {v15, v9}, Lcom/commsource/util/l2;->B(Landroid/view/View;I)V
 
-    .line 40
     :goto_2
     invoke-static {v5}, Lcom/commsource/util/l0;->n(I)I
 
@@ -587,21 +538,18 @@
 
     invoke-static {v15, v8}, Lcom/commsource/util/l2;->D(Landroid/view/View;I)V
 
-    .line 41
     invoke-virtual {v3}, Lcom/commsource/studio/component/SeekComponent$b;->i()Lcom/commsource/widget/XSeekBar;
 
     move-result-object v3
 
     invoke-virtual {v15, v3}, Lcom/commsource/widget/part/XSeekBubbleView;->c(Lcom/commsource/widget/XSeekBar;)V
 
-    .line 42
     invoke-virtual {v0, v15}, Landroid/widget/FrameLayout;->addView(Landroid/view/View;)V
 
     move v8, v4
 
     goto :goto_1
 
-    .line 43
     :cond_5
     invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -698,7 +646,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/component/SeekComponent;->g:Lcotlin/jvm/u/l;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -725,7 +672,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/component/SeekComponent;->f:Lcotlin/jvm/u/l;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -752,19 +698,16 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/component/SeekComponent;->d:Ljava/util/ArrayList;
 
     invoke-virtual {v1}, Ljava/util/ArrayList;->clear()V
 
-    .line 2
     invoke-static {p1}, Lcom/commsource/camera/f1/q;->f(Ljava/util/Collection;)Z
 
     move-result v1
 
     if-nez v1, :cond_1
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/studio/component/SeekComponent;->d:Ljava/util/ArrayList;
 
     if-nez p1, :cond_0
@@ -774,7 +717,6 @@
     :cond_0
     invoke-virtual {v1, p1}, Ljava/util/ArrayList;->addAll(Ljava/util/Collection;)Z
 
-    .line 4
     :cond_1
     iget-object p1, p0, Lcom/commsource/studio/component/SeekComponent;->d:Ljava/util/ArrayList;
 
@@ -784,7 +726,6 @@
 
     const/16 v1, 0x2a
 
-    .line 5
     invoke-static {v1}, Lcom/commsource/util/l0;->n(I)I
 
     move-result v1
@@ -803,7 +744,6 @@
 
     if-lez p1, :cond_2
 
-    .line 6
     iget-object v3, p0, Lcom/commsource/studio/component/SeekComponent;->p:Lcom/commsource/camera/f1/n;
 
     const/16 v4, 0xa
@@ -816,17 +756,14 @@
 
     goto :goto_0
 
-    .line 7
     :cond_2
     iget-object v3, p0, Lcom/commsource/studio/component/SeekComponent;->p:Lcom/commsource/camera/f1/n;
 
     invoke-virtual {v3, v2}, Lcom/commsource/camera/f1/n;->i(F)V
 
-    .line 8
     :goto_0
     invoke-direct {p0}, Lcom/commsource/studio/component/SeekComponent;->g()V
 
-    .line 9
     invoke-virtual {p0}, Landroid/widget/FrameLayout;->animate()Landroid/view/ViewPropertyAnimator;
 
     move-result-object v3
@@ -845,7 +782,6 @@
 
     neg-float v2, p1
 
-    .line 10
     :cond_3
     invoke-virtual {p0}, Landroid/widget/FrameLayout;->getTranslationY()F
 
@@ -862,7 +798,6 @@
     :cond_4
     const/4 p1, 0x0
 
-    .line 11
     :goto_1
     iget-object v3, p0, Lcom/commsource/studio/component/SeekComponent;->g:Lcotlin/jvm/u/l;
 
@@ -888,7 +823,6 @@
 
     check-cast v3, Lcotlin/t1;
 
-    .line 12
     :cond_5
     invoke-virtual {p0}, Landroid/widget/FrameLayout;->animate()Landroid/view/ViewPropertyAnimator;
 
@@ -898,7 +832,6 @@
 
     move-result-object v2
 
-    .line 13
     new-instance v3, Lcom/commsource/widget/r0;
 
     invoke-direct {v3}, Lcom/commsource/widget/r0;-><init>()V
@@ -907,7 +840,6 @@
 
     move-result-object v2
 
-    .line 14
     new-instance v3, Lcom/commsource/studio/component/SeekComponent$c;
 
     invoke-direct {v3, p0}, Lcom/commsource/studio/component/SeekComponent$c;-><init>(Lcom/commsource/studio/component/SeekComponent;)V
@@ -916,7 +848,6 @@
 
     move-result-object v2
 
-    .line 15
     new-instance v3, Lcom/commsource/studio/component/SeekComponent$d;
 
     invoke-direct {v3, p0, v1}, Lcom/commsource/studio/component/SeekComponent$d;-><init>(Lcom/commsource/studio/component/SeekComponent;I)V
@@ -927,15 +858,12 @@
 
     const-wide/16 v2, 0x15e
 
-    .line 16
     invoke-virtual {v1, v2, v3}, Landroid/view/ViewPropertyAnimator;->setDuration(J)Landroid/view/ViewPropertyAnimator;
 
     move-result-object v1
 
-    .line 17
     invoke-virtual {v1}, Landroid/view/ViewPropertyAnimator;->start()V
 
-    .line 18
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
@@ -952,12 +880,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     instance-of v1, p1, Landroid/view/ViewGroup$MarginLayoutParams;
 
     if-eqz v1, :cond_0
 
-    .line 2
     move-object v1, p1
 
     check-cast v1, Landroid/view/ViewGroup$MarginLayoutParams;
@@ -970,11 +896,9 @@
 
     iput v2, v1, Landroid/view/ViewGroup$MarginLayoutParams;->topMargin:I
 
-    .line 3
     :cond_0
     invoke-super {p0, p1}, Landroid/widget/FrameLayout;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1001,7 +925,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/component/SeekComponent;->g:Lcotlin/jvm/u/l;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1030,7 +953,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/component/SeekComponent;->f:Lcotlin/jvm/u/l;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

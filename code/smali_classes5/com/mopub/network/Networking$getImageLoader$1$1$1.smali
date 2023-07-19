@@ -26,7 +26,6 @@
 .method constructor <init>(Lcom/mopub/network/Networking$getImageLoader$1$1$imageCache$1;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/mopub/network/Networking$getImageLoader$1$1$1;->$imageCache:Lcom/mopub/network/Networking$getImageLoader$1$1$imageCache$1;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -49,7 +48,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/network/Networking$getImageLoader$1$1$1;->$imageCache:Lcom/mopub/network/Networking$getImageLoader$1$1$imageCache$1;
 
     invoke-virtual {v0, p1}, Landroidx/collection/LruCache;->get(Ljava/lang/Object;)Ljava/lang/Object;
@@ -80,7 +78,6 @@
 
     invoke-static {p2, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/network/Networking$getImageLoader$1$1$1;->$imageCache:Lcom/mopub/network/Networking$getImageLoader$1$1$imageCache$1;
 
     invoke-virtual {v0, p1, p2}, Landroidx/collection/LruCache;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;

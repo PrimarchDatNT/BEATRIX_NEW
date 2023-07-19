@@ -38,7 +38,6 @@
 
     const-string v4, "mime"
 
-    .line 1
     filled-new-array {v1, v2, v3, v4}, [Ljava/lang/String;
 
     move-result-object v1
@@ -59,10 +58,8 @@
 
     const/4 v2, 0x1
 
-    .line 1
     invoke-direct {p0, p1, v0, v1, v2}, Landroid/database/sqlite/SQLiteOpenHelper;-><init>(Landroid/content/Context;Ljava/lang/String;Landroid/database/sqlite/SQLiteDatabase$CursorFactory;I)V
 
-    .line 2
     invoke-static {p1}, Lcom/meitu/common/video/videocache/m;->d(Ljava/lang/Object;)Ljava/lang/Object;
 
     return-void
@@ -75,19 +72,16 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Landroid/content/ContentValues;
 
     invoke-direct {v1}, Landroid/content/ContentValues;-><init>()V
 
-    .line 2
     iget-object v2, p1, Lcom/meitu/common/video/videocache/q;->a:Ljava/lang/String;
 
     const-string v3, "url"
 
     invoke-virtual {v1, v3, v2}, Landroid/content/ContentValues;->put(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 3
     iget-wide v2, p1, Lcom/meitu/common/video/videocache/q;->b:J
 
     invoke-static {v2, v3}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
@@ -98,14 +92,12 @@
 
     invoke-virtual {v1, v3, v2}, Landroid/content/ContentValues;->put(Ljava/lang/String;Ljava/lang/Long;)V
 
-    .line 4
     iget-object p1, p1, Lcom/meitu/common/video/videocache/q;->c:Ljava/lang/String;
 
     const-string v2, "mime"
 
     invoke-virtual {v1, v2, p1}, Landroid/content/ContentValues;->put(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
@@ -118,12 +110,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/meitu/common/video/videocache/q;
 
     const-string v2, "url"
 
-    .line 2
     invoke-interface {p1, v2}, Landroid/database/Cursor;->getColumnIndexOrThrow(Ljava/lang/String;)I
 
     move-result v2
@@ -134,7 +124,6 @@
 
     const-string v3, "length"
 
-    .line 3
     invoke-interface {p1, v3}, Landroid/database/Cursor;->getColumnIndexOrThrow(Ljava/lang/String;)I
 
     move-result v3
@@ -145,7 +134,6 @@
 
     const-string v5, "mime"
 
-    .line 4
     invoke-interface {p1, v5}, Landroid/database/Cursor;->getColumnIndexOrThrow(Ljava/lang/String;)I
 
     move-result v5
@@ -156,7 +144,6 @@
 
     invoke-direct {v1, v2, v3, v4, p1}, Lcom/meitu/common/video/videocache/q;-><init>(Ljava/lang/String;JLjava/lang/String;)V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
@@ -183,10 +170,8 @@
 
     aput-object p2, v1, v3
 
-    .line 1
     invoke-static {v1}, Lcom/meitu/common/video/videocache/m;->a([Ljava/lang/Object;)V
 
-    .line 2
     invoke-virtual {p0, p1}, Lcom/meitu/common/video/videocache/v/a;->get(Ljava/lang/String;)Lcom/meitu/common/video/videocache/q;
 
     move-result-object v1
@@ -200,7 +185,6 @@
     :cond_0
     const/4 v1, 0x0
 
-    .line 3
     :goto_0
     invoke-direct {p0, p2}, Lcom/meitu/common/video/videocache/v/a;->b(Lcom/meitu/common/video/videocache/q;)Landroid/content/ContentValues;
 
@@ -210,7 +194,6 @@
 
     if-eqz v1, :cond_1
 
-    .line 4
     invoke-virtual {p0}, Landroid/database/sqlite/SQLiteOpenHelper;->getWritableDatabase()Landroid/database/sqlite/SQLiteDatabase;
 
     move-result-object v1
@@ -225,7 +208,6 @@
 
     goto :goto_1
 
-    .line 5
     :cond_1
     invoke-virtual {p0}, Landroid/database/sqlite/SQLiteOpenHelper;->getWritableDatabase()Landroid/database/sqlite/SQLiteDatabase;
 
@@ -235,7 +217,6 @@
 
     invoke-virtual {p1, v4, v1, p2}, Landroid/database/sqlite/SQLiteDatabase;->insert(Ljava/lang/String;Ljava/lang/String;Landroid/content/ContentValues;)J
 
-    .line 6
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -249,12 +230,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/common/video/videocache/m;->d(Ljava/lang/Object;)Ljava/lang/Object;
 
     const/4 v1, 0x0
 
-    .line 2
     :try_start_0
     invoke-virtual {p0}, Landroid/database/sqlite/SQLiteOpenHelper;->getReadableDatabase()Landroid/database/sqlite/SQLiteDatabase;
 
@@ -288,7 +267,6 @@
 
     if-eqz p1, :cond_1
 
-    .line 3
     :try_start_1
     invoke-interface {p1}, Landroid/database/Cursor;->moveToFirst()Z
 
@@ -316,10 +294,8 @@
     :goto_0
     if-eqz p1, :cond_2
 
-    .line 4
     invoke-interface {p1}, Landroid/database/Cursor;->close()V
 
-    .line 5
     :cond_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -337,10 +313,8 @@
     :goto_1
     if-eqz p1, :cond_3
 
-    .line 6
     invoke-interface {p1}, Landroid/database/Cursor;->close()V
 
-    .line 7
     :cond_3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -354,15 +328,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/common/video/videocache/m;->d(Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v1, "CREATE TABLE SourceInfo (_id INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL,url TEXT NOT NULL,mime TEXT,length INTEGER);"
 
-    .line 2
     invoke-virtual {p1, v1}, Landroid/database/sqlite/SQLiteDatabase;->execSQL(Ljava/lang/String;)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -375,7 +346,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance p2, Ljava/lang/IllegalStateException;
 
     const-string p3, "Should not be called. There is no any migration"
@@ -394,10 +364,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Landroid/database/sqlite/SQLiteOpenHelper;->close()V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

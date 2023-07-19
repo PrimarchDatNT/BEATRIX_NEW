@@ -58,7 +58,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/commsource/util/i0;->h()Z
 
     move-result v1
@@ -75,7 +74,6 @@
     :goto_0
     sput-object v1, Lcom/commsource/camera/newrender/renderproxy/t;->g:Ljava/lang/String;
 
-    .line 2
     invoke-static {}, Lcom/commsource/util/i0;->h()Z
 
     move-result v1
@@ -92,7 +90,6 @@
     :goto_1
     sput-object v1, Lcom/commsource/camera/newrender/renderproxy/t;->l:Ljava/lang/String;
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -101,7 +98,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -130,12 +126,10 @@
 
     if-eq p0, v2, :cond_0
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
 
-    .line 2
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -143,7 +137,6 @@
 
     return-object p0
 
-    .line 3
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -151,7 +144,6 @@
 
     return-object p0
 
-    .line 4
     :cond_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -165,7 +157,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget v1, Lcom/commsource/camera/newrender/renderproxy/t;->p:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -180,7 +171,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget v1, Lcom/commsource/camera/newrender/renderproxy/t;->q:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -215,7 +205,6 @@
 
     if-eq p0, v2, :cond_1
 
-    .line 1
     invoke-static {}, Lcom/meitu/library/p/f/i;->R()Z
 
     move-result p0
@@ -240,7 +229,6 @@
 
     return-object v1
 
-    .line 2
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -248,7 +236,6 @@
 
     return-object p0
 
-    .line 3
     :cond_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -256,7 +243,6 @@
 
     return-object p0
 
-    .line 4
     :cond_3
     invoke-static {}, Lcom/meitu/library/p/f/i;->R()Z
 
@@ -284,7 +270,6 @@
 
     return-object p0
 
-    .line 5
     :cond_5
     invoke-static {}, Lcom/meitu/library/p/f/i;->R()Z
 
@@ -318,7 +303,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/camera/newrender/renderproxy/t;->b:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -333,10 +317,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sput p0, Lcom/commsource/camera/newrender/renderproxy/t;->p:I
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -349,10 +331,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sput p0, Lcom/commsource/camera/newrender/renderproxy/t;->q:I
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -365,10 +345,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sput-object p0, Lcom/commsource/camera/newrender/renderproxy/t;->b:Ljava/lang/String;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

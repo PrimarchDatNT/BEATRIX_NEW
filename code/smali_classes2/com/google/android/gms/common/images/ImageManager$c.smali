@@ -28,15 +28,12 @@
 .method public constructor <init>(Lcom/google/android/gms/common/images/ImageManager;Landroid/net/Uri;Landroid/os/ParcelFileDescriptor;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/android/gms/common/images/ImageManager$c;->c:Lcom/google/android/gms/common/images/ImageManager;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p2, p0, Lcom/google/android/gms/common/images/ImageManager$c;->a:Landroid/net/Uri;
 
-    .line 3
     iput-object p3, p0, Lcom/google/android/gms/common/images/ImageManager$c;->b:Landroid/os/ParcelFileDescriptor;
 
     return-void
@@ -49,10 +46,8 @@
 
     const-string v0, "LoadBitmapFromDiskRunnable can\'t be executed in the main thread"
 
-    .line 1
     invoke-static {v0}, Lcom/google/android/gms/common/internal/d;->b(Ljava/lang/String;)V
 
-    .line 2
     iget-object v0, p0, Lcom/google/android/gms/common/images/ImageManager$c;->b:Landroid/os/ParcelFileDescriptor;
 
     const/4 v1, 0x1
@@ -65,7 +60,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 3
     :try_start_0
     invoke-virtual {v0}, Landroid/os/ParcelFileDescriptor;->getFileDescriptor()Ljava/io/FileDescriptor;
 
@@ -82,7 +76,6 @@
     :catch_0
     move-exception v0
 
-    .line 4
     iget-object v3, p0, Lcom/google/android/gms/common/images/ImageManager$c;->a:Landroid/net/Uri;
 
     invoke-static {v3}, Ljava/lang/String;->valueOf(Ljava/lang/Object;)Ljava/lang/String;
@@ -117,7 +110,6 @@
 
     const/4 v3, 0x1
 
-    .line 5
     :goto_0
     :try_start_1
     iget-object v0, p0, Lcom/google/android/gms/common/images/ImageManager$c;->b:Landroid/os/ParcelFileDescriptor;
@@ -133,7 +125,6 @@
 
     const-string v5, "closed failed"
 
-    .line 6
     invoke-static {v2, v5, v0}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
 
     :goto_1
@@ -148,13 +139,11 @@
 
     const/4 v10, 0x0
 
-    .line 7
     :goto_2
     new-instance v0, Ljava/util/concurrent/CountDownLatch;
 
     invoke-direct {v0, v1}, Ljava/util/concurrent/CountDownLatch;-><init>(I)V
 
-    .line 8
     iget-object v1, p0, Lcom/google/android/gms/common/images/ImageManager$c;->c:Lcom/google/android/gms/common/images/ImageManager;
 
     invoke-static {v1}, Lcom/google/android/gms/common/images/ImageManager;->r(Lcom/google/android/gms/common/images/ImageManager;)Landroid/os/Handler;
@@ -175,7 +164,6 @@
 
     invoke-virtual {v1, v3}, Landroid/os/Handler;->post(Ljava/lang/Runnable;)Z
 
-    .line 9
     :try_start_2
     invoke-virtual {v0}, Ljava/util/concurrent/CountDownLatch;->await()V
     :try_end_2
@@ -183,7 +171,6 @@
 
     return-void
 
-    .line 10
     :catch_2
     iget-object v0, p0, Lcom/google/android/gms/common/images/ImageManager$c;->a:Landroid/net/Uri;
 

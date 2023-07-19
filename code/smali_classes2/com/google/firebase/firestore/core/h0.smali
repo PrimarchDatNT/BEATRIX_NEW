@@ -15,16 +15,12 @@
 .method constructor <init>(Lcom/google/firebase/firestore/model/h;Lcom/google/firebase/firestore/core/Filter$Operator;Lcom/google/firebase/firestore/model/value/e;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/google/firebase/firestore/core/Filter;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/google/firebase/firestore/core/h0;->c:Lcom/google/firebase/firestore/model/h;
 
-    .line 3
     iput-object p2, p0, Lcom/google/firebase/firestore/core/h0;->a:Lcom/google/firebase/firestore/core/Filter$Operator;
 
-    .line 4
     iput-object p3, p0, Lcom/google/firebase/firestore/core/h0;->b:Lcom/google/firebase/firestore/model/value/e;
 
     return-void
@@ -33,7 +29,6 @@
 .method private h(I)Z
     .locals 4
 
-    .line 1
     sget-object v0, Lcom/google/firebase/firestore/core/h0$a;->a:[I
 
     iget-object v1, p0, Lcom/google/firebase/firestore/core/h0;->a:Lcom/google/firebase/firestore/core/Filter$Operator;
@@ -76,7 +71,6 @@
     :cond_1
     new-array p1, v2, [Ljava/lang/Object;
 
-    .line 2
     iget-object v0, p0, Lcom/google/firebase/firestore/core/h0;->a:Lcom/google/firebase/firestore/core/Filter$Operator;
 
     aput-object v0, p1, v1
@@ -125,7 +119,6 @@
 .method private i(Lcom/google/firebase/firestore/model/value/e;)Z
     .locals 4
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/firestore/core/h0;->a:Lcom/google/firebase/firestore/core/Filter$Operator;
 
     sget-object v1, Lcom/google/firebase/firestore/core/Filter$Operator;->ARRAY_CONTAINS:Lcom/google/firebase/firestore/core/Filter$Operator;
@@ -136,7 +129,6 @@
 
     if-ne v0, v1, :cond_1
 
-    .line 2
     instance-of v0, p1, Lcom/google/firebase/firestore/model/value/a;
 
     if-eqz v0, :cond_0
@@ -163,7 +155,6 @@
     :goto_0
     return v2
 
-    .line 3
     :cond_1
     iget-object v0, p0, Lcom/google/firebase/firestore/core/h0;->b:Lcom/google/firebase/firestore/model/value/e;
 
@@ -179,7 +170,6 @@
 
     iget-object v0, p0, Lcom/google/firebase/firestore/core/h0;->b:Lcom/google/firebase/firestore/model/value/e;
 
-    .line 4
     invoke-virtual {p1, v0}, Lcom/google/firebase/firestore/model/value/e;->a(Lcom/google/firebase/firestore/model/value/e;)I
 
     move-result p1
@@ -204,7 +194,6 @@
 .method public b()Ljava/lang/String;
     .locals 2
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -249,7 +238,6 @@
 .method public c()Lcom/google/firebase/firestore/model/h;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/firestore/core/h0;->c:Lcom/google/firebase/firestore/model/h;
 
     return-object v0
@@ -258,7 +246,6 @@
 .method public d(Lcom/google/firebase/firestore/model/Document;)Z
     .locals 6
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/firestore/core/h0;->c:Lcom/google/firebase/firestore/model/h;
 
     invoke-virtual {v0}, Lcom/google/firebase/firestore/model/h;->L()Z
@@ -271,14 +258,12 @@
 
     if-eqz v0, :cond_1
 
-    .line 2
     iget-object v0, p0, Lcom/google/firebase/firestore/core/h0;->b:Lcom/google/firebase/firestore/model/value/e;
 
     invoke-virtual {v0}, Lcom/google/firebase/firestore/model/value/e;->h()Ljava/lang/Object;
 
     move-result-object v0
 
-    .line 3
     instance-of v3, v0, Lcom/google/firebase/firestore/model/e;
 
     new-array v4, v2, [Ljava/lang/Object;
@@ -287,7 +272,6 @@
 
     invoke-static {v3, v5, v4}, Lcom/google/firebase/firestore/util/b;->d(ZLjava/lang/String;[Ljava/lang/Object;)V
 
-    .line 4
     iget-object v3, p0, Lcom/google/firebase/firestore/core/h0;->a:Lcom/google/firebase/firestore/core/Filter$Operator;
 
     sget-object v4, Lcom/google/firebase/firestore/core/Filter$Operator;->ARRAY_CONTAINS:Lcom/google/firebase/firestore/core/Filter$Operator;
@@ -306,7 +290,6 @@
 
     invoke-static {v1, v3, v2}, Lcom/google/firebase/firestore/util/b;->d(ZLjava/lang/String;[Ljava/lang/Object;)V
 
-    .line 5
     invoke-static {}, Lcom/google/firebase/firestore/model/e;->a()Ljava/util/Comparator;
 
     move-result-object v1
@@ -321,14 +304,12 @@
 
     move-result p1
 
-    .line 6
     invoke-direct {p0, p1}, Lcom/google/firebase/firestore/core/h0;->h(I)Z
 
     move-result p1
 
     return p1
 
-    .line 7
     :cond_1
     iget-object v0, p0, Lcom/google/firebase/firestore/core/h0;->c:Lcom/google/firebase/firestore/model/h;
 
@@ -338,7 +319,6 @@
 
     if-eqz v0, :cond_2
 
-    .line 8
     iget-object v0, p0, Lcom/google/firebase/firestore/core/h0;->c:Lcom/google/firebase/firestore/model/h;
 
     invoke-virtual {p1, v0}, Lcom/google/firebase/firestore/model/Document;->e(Lcom/google/firebase/firestore/model/h;)Lcom/google/firebase/firestore/model/value/e;
@@ -363,7 +343,6 @@
 .method public e()Lcom/google/firebase/firestore/core/Filter$Operator;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/firestore/core/h0;->a:Lcom/google/firebase/firestore/core/Filter$Operator;
 
     return-object v0
@@ -376,18 +355,15 @@
 
     if-eqz p1, :cond_1
 
-    .line 1
     instance-of v1, p1, Lcom/google/firebase/firestore/core/h0;
 
     if-nez v1, :cond_0
 
     goto :goto_0
 
-    .line 2
     :cond_0
     check-cast p1, Lcom/google/firebase/firestore/core/h0;
 
-    .line 3
     iget-object v1, p0, Lcom/google/firebase/firestore/core/h0;->a:Lcom/google/firebase/firestore/core/Filter$Operator;
 
     iget-object v2, p1, Lcom/google/firebase/firestore/core/h0;->a:Lcom/google/firebase/firestore/core/Filter$Operator;
@@ -424,7 +400,6 @@
 .method public f()Lcom/google/firebase/firestore/model/value/e;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/firestore/core/h0;->b:Lcom/google/firebase/firestore/model/value/e;
 
     return-object v0
@@ -433,7 +408,6 @@
 .method public g()Z
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/firestore/core/h0;->a:Lcom/google/firebase/firestore/core/Filter$Operator;
 
     sget-object v1, Lcom/google/firebase/firestore/core/Filter$Operator;->EQUAL:Lcom/google/firebase/firestore/core/Filter$Operator;
@@ -458,7 +432,6 @@
 .method public hashCode()I
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/firestore/core/h0;->a:Lcom/google/firebase/firestore/core/Filter$Operator;
 
     invoke-virtual {v0}, Ljava/lang/Enum;->hashCode()I
@@ -471,7 +444,6 @@
 
     mul-int/lit8 v1, v1, 0x1f
 
-    .line 2
     iget-object v0, p0, Lcom/google/firebase/firestore/core/h0;->c:Lcom/google/firebase/firestore/model/h;
 
     invoke-virtual {v0}, Lcom/google/firebase/firestore/model/a;->hashCode()I
@@ -482,7 +454,6 @@
 
     mul-int/lit8 v1, v1, 0x1f
 
-    .line 3
     iget-object v0, p0, Lcom/google/firebase/firestore/core/h0;->b:Lcom/google/firebase/firestore/model/value/e;
 
     invoke-virtual {v0}, Lcom/google/firebase/firestore/model/value/e;->hashCode()I
@@ -497,7 +468,6 @@
 .method public toString()Ljava/lang/String;
     .locals 3
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V

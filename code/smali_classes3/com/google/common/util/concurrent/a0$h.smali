@@ -50,10 +50,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Lcom/google/common/util/concurrent/AbstractFuture$i;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/google/common/util/concurrent/a0$h;->K:Lcom/google/common/util/concurrent/g0;
 
     return-void
@@ -66,7 +64,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     iput-object v0, p0, Lcom/google/common/util/concurrent/a0$h;->K:Lcom/google/common/util/concurrent/g0;
 
     return-void
@@ -75,12 +72,10 @@
 .method public run()V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/util/concurrent/a0$h;->K:Lcom/google/common/util/concurrent/g0;
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-virtual {p0, v0}, Lcom/google/common/util/concurrent/AbstractFuture;->E(Lcom/google/common/util/concurrent/g0;)Z
 
     :cond_0
@@ -90,12 +85,10 @@
 .method protected z()Ljava/lang/String;
     .locals 3
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/util/concurrent/a0$h;->K:Lcom/google/common/util/concurrent/g0;
 
     if-eqz v0, :cond_0
 
-    .line 2
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V

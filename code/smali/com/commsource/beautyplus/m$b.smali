@@ -22,7 +22,6 @@
 .method constructor <init>(Lcom/commsource/beautyplus/m;Ljava/lang/String;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/beautyplus/m$b;->g:Lcom/commsource/beautyplus/m;
 
     invoke-direct {p0, p2}, Lcom/commsource/util/u2/a;-><init>(Ljava/lang/String;)V
@@ -39,7 +38,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     :try_start_0
     invoke-static {}, Landroid/bluetooth/BluetoothAdapter;->getDefaultAdapter()Landroid/bluetooth/BluetoothAdapter;
 
@@ -51,7 +49,6 @@
 
     const-string/jumbo v3, "\u9000\u51fa\u540e\u53f0\u84dd\u7259\u72b6\u6001"
 
-    .line 2
     invoke-virtual {v1}, Landroid/bluetooth/BluetoothAdapter;->isEnabled()Z
 
     move-result v1
@@ -65,7 +62,6 @@
     :cond_0
     const-string/jumbo v1, "\u5173"
 
-    .line 3
     :goto_0
     invoke-static {v2, v3, v1}, Lcom/commsource/statistics/i;->r(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
     :try_end_0
@@ -76,10 +72,8 @@
     :catchall_0
     move-exception v1
 
-    .line 4
     invoke-static {v1}, Lcom/meitu/library/util/Debug/Debug;->a0(Ljava/lang/Throwable;)V
 
-    .line 5
     :cond_1
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

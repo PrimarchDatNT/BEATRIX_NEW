@@ -16,7 +16,6 @@
 
     const v2, 0x3f7d70a4    # 0.99f
 
-    .line 1
     invoke-direct {p0, v0, v0, v1, v2}, Landroid/view/animation/PathInterpolator;-><init>(FFFF)V
 
     return-void

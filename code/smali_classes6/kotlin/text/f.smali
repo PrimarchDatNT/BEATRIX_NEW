@@ -76,7 +76,6 @@
 
     invoke-static {p4, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     iput-object p1, p0, Lcotlin/text/f;->a:Ljava/lang/CharSequence;
@@ -93,7 +92,6 @@
 .method public static final synthetic c(Lcotlin/text/f;)Lcotlin/jvm/u/p;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lcotlin/text/f;->d:Lcotlin/jvm/u/p;
 
     return-object p0
@@ -102,7 +100,6 @@
 .method public static final synthetic d(Lcotlin/text/f;)Ljava/lang/CharSequence;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lcotlin/text/f;->a:Ljava/lang/CharSequence;
 
     return-object p0
@@ -111,7 +108,6 @@
 .method public static final synthetic e(Lcotlin/text/f;)I
     .locals 0
 
-    .line 1
     iget p0, p0, Lcotlin/text/f;->c:I
 
     return p0
@@ -120,7 +116,6 @@
 .method public static final synthetic f(Lcotlin/text/f;)I
     .locals 0
 
-    .line 1
     iget p0, p0, Lcotlin/text/f;->b:I
 
     return p0
@@ -142,7 +137,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     new-instance v0, Lcotlin/text/f$a;
 
     invoke-direct {v0, p0}, Lcotlin/text/f$a;-><init>(Lcotlin/text/f;)V

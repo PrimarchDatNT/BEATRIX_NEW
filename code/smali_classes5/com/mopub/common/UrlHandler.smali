@@ -59,14 +59,12 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
     new-instance v0, Lcom/mopub/common/UrlHandler$1;
 
     invoke-direct {v0}, Lcom/mopub/common/UrlHandler$1;-><init>()V
 
     sput-object v0, Lcom/mopub/common/UrlHandler;->EMPTY_CLICK_LISTENER:Lcom/mopub/common/UrlHandler$ResultActions;
 
-    .line 2
     new-instance v0, Lcom/mopub/common/UrlHandler$2;
 
     invoke-direct {v0}, Lcom/mopub/common/UrlHandler$2;-><init>()V
@@ -108,34 +106,26 @@
         }
     .end annotation
 
-    .line 2
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 3
     invoke-static {p1}, Ljava/util/EnumSet;->copyOf(Ljava/util/EnumSet;)Ljava/util/EnumSet;
 
     move-result-object p1
 
     iput-object p1, p0, Lcom/mopub/common/UrlHandler;->mSupportedUrlActions:Ljava/util/EnumSet;
 
-    .line 4
     iput-object p2, p0, Lcom/mopub/common/UrlHandler;->mResultActions:Lcom/mopub/common/UrlHandler$ResultActions;
 
-    .line 5
     iput-object p3, p0, Lcom/mopub/common/UrlHandler;->mMoPubSchemeListener:Lcom/mopub/common/UrlHandler$MoPubSchemeListener;
 
-    .line 6
     iput-boolean p4, p0, Lcom/mopub/common/UrlHandler;->mSkipShowMoPubBrowser:Z
 
-    .line 7
     iput-object p5, p0, Lcom/mopub/common/UrlHandler;->mDspCreativeId:Ljava/lang/String;
 
     const/4 p1, 0x0
 
-    .line 8
     iput-boolean p1, p0, Lcom/mopub/common/UrlHandler;->mAlreadySucceeded:Z
 
-    .line 9
     iput-boolean p1, p0, Lcom/mopub/common/UrlHandler;->mTaskPending:Z
 
     return-void
@@ -144,7 +134,6 @@
 .method synthetic constructor <init>(Ljava/util/EnumSet;Lcom/mopub/common/UrlHandler$ResultActions;Lcom/mopub/common/UrlHandler$MoPubSchemeListener;ZLjava/lang/String;Lcom/mopub/common/UrlHandler$1;)V
     .locals 0
 
-    .line 1
     invoke-direct/range {p0 .. p5}, Lcom/mopub/common/UrlHandler;-><init>(Ljava/util/EnumSet;Lcom/mopub/common/UrlHandler$ResultActions;Lcom/mopub/common/UrlHandler$MoPubSchemeListener;ZLjava/lang/String;)V
 
     return-void
@@ -153,7 +142,6 @@
 .method static synthetic access$000()Lcom/mopub/common/UrlHandler$ResultActions;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/mopub/common/UrlHandler;->EMPTY_CLICK_LISTENER:Lcom/mopub/common/UrlHandler$ResultActions;
 
     return-object v0
@@ -162,7 +150,6 @@
 .method static synthetic access$100()Lcom/mopub/common/UrlHandler$MoPubSchemeListener;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/mopub/common/UrlHandler;->EMPTY_MOPUB_SCHEME_LISTENER:Lcom/mopub/common/UrlHandler$MoPubSchemeListener;
 
     return-object v0
@@ -171,7 +158,6 @@
 .method static synthetic access$302(Lcom/mopub/common/UrlHandler;Z)Z
     .locals 0
 
-    .line 1
     iput-boolean p1, p0, Lcom/mopub/common/UrlHandler;->mTaskPending:Z
 
     return p1
@@ -180,7 +166,6 @@
 .method static synthetic access$400(Lcom/mopub/common/UrlHandler;Ljava/lang/String;Lcom/mopub/common/UrlAction;Ljava/lang/String;Ljava/lang/Throwable;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1, p2, p3, p4}, Lcom/mopub/common/UrlHandler;->failUrlHandling(Ljava/lang/String;Lcom/mopub/common/UrlAction;Ljava/lang/String;Ljava/lang/Throwable;)V
 
     return-void
@@ -205,15 +190,12 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-static {p3}, Lcom/mopub/common/Preconditions;->checkNotNull(Ljava/lang/Object;)V
 
     if-nez p2, :cond_0
 
-    .line 2
     sget-object p2, Lcom/mopub/common/UrlAction;->NOOP:Lcom/mopub/common/UrlAction;
 
-    .line 3
     :cond_0
     sget-object v0, Lcom/mopub/common/logging/MoPubLog$SdkLogEvent;->ERROR_WITH_THROWABLE:Lcom/mopub/common/logging/MoPubLog$SdkLogEvent;
 
@@ -231,7 +213,6 @@
 
     invoke-static {v0, v1}, Lcom/mopub/common/logging/MoPubLog;->log(Lcom/mopub/common/logging/MoPubLog$MPLogEventType;[Ljava/lang/Object;)V
 
-    .line 4
     iget-object p3, p0, Lcom/mopub/common/UrlHandler;->mResultActions:Lcom/mopub/common/UrlHandler$ResultActions;
 
     invoke-interface {p3, p1, p2}, Lcom/mopub/common/UrlHandler$ResultActions;->urlHandlingFailed(Ljava/lang/String;Lcom/mopub/common/UrlAction;)V
@@ -246,7 +227,6 @@
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/common/UrlHandler;->mMoPubSchemeListener:Lcom/mopub/common/UrlHandler$MoPubSchemeListener;
 
     return-object v0
@@ -257,7 +237,6 @@
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/common/UrlHandler;->mResultActions:Lcom/mopub/common/UrlHandler$ResultActions;
 
     return-object v0
@@ -277,7 +256,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/common/UrlHandler;->mSupportedUrlActions:Ljava/util/EnumSet;
 
     invoke-static {v0}, Ljava/util/EnumSet;->copyOf(Ljava/util/EnumSet;)Ljava/util/EnumSet;
@@ -317,7 +295,6 @@
 
     move-object/from16 v8, p2
 
-    .line 1
     invoke-static/range {p2 .. p2}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v0
@@ -330,21 +307,17 @@
 
     const-string v0, "Attempted to handle empty url."
 
-    .line 2
     invoke-direct {p0, v8, v10, v0, v10}, Lcom/mopub/common/UrlHandler;->failUrlHandling(Ljava/lang/String;Lcom/mopub/common/UrlAction;Ljava/lang/String;Ljava/lang/Throwable;)V
 
     return v9
 
-    .line 3
     :cond_0
     sget-object v0, Lcom/mopub/common/UrlAction;->NOOP:Lcom/mopub/common/UrlAction;
 
-    .line 4
     invoke-static/range {p2 .. p2}, Landroid/net/Uri;->parse(Ljava/lang/String;)Landroid/net/Uri;
 
     move-result-object v11
 
-    .line 5
     iget-object v1, v7, Lcom/mopub/common/UrlHandler;->mSupportedUrlActions:Ljava/util/EnumSet;
 
     invoke-virtual {v1}, Ljava/util/EnumSet;->iterator()Ljava/util/Iterator;
@@ -366,7 +339,6 @@
 
     check-cast v13, Lcom/mopub/common/UrlAction;
 
-    .line 6
     invoke-virtual {v13, v11}, Lcom/mopub/common/UrlAction;->shouldTryHandlingUrl(Landroid/net/Uri;)Z
 
     move-result v1
@@ -375,7 +347,6 @@
 
     const/4 v14, 0x1
 
-    .line 7
     :try_start_0
     iget-object v6, v7, Lcom/mopub/common/UrlHandler;->mDspCreativeId:Ljava/lang/String;
 
@@ -391,7 +362,6 @@
 
     invoke-virtual/range {v1 .. v6}, Lcom/mopub/common/UrlAction;->handleUrl(Lcom/mopub/common/UrlHandler;Landroid/content/Context;Landroid/net/Uri;ZLjava/lang/String;)V
 
-    .line 8
     iget-boolean v0, v7, Lcom/mopub/common/UrlHandler;->mAlreadySucceeded:Z
 
     if-nez v0, :cond_1
@@ -402,7 +372,6 @@
 
     sget-object v0, Lcom/mopub/common/UrlAction;->IGNORE_ABOUT_SCHEME:Lcom/mopub/common/UrlAction;
 
-    .line 9
     invoke-virtual {v0, v13}, Ljava/lang/Enum;->equals(Ljava/lang/Object;)Z
 
     move-result v0
@@ -411,7 +380,6 @@
 
     sget-object v0, Lcom/mopub/common/UrlAction;->HANDLE_MOPUB_SCHEME:Lcom/mopub/common/UrlAction;
 
-    .line 10
     invoke-virtual {v0, v13}, Ljava/lang/Enum;->equals(Ljava/lang/Object;)Z
 
     move-result v0
@@ -424,11 +392,9 @@
 
     move-object/from16 v2, p4
 
-    .line 11
     :try_start_1
     invoke-static {v2, v1}, Lcom/mopub/network/TrackingRequest;->makeTrackingHttpRequest(Ljava/lang/Iterable;Landroid/content/Context;)V
 
-    .line 12
     iget-object v0, v7, Lcom/mopub/common/UrlHandler;->mResultActions:Lcom/mopub/common/UrlHandler$ResultActions;
 
     invoke-virtual {v11}, Landroid/net/Uri;->toString()Ljava/lang/String;
@@ -437,7 +403,6 @@
 
     invoke-interface {v0, v3, v13}, Lcom/mopub/common/UrlHandler$ResultActions;->urlHandlingSucceeded(Ljava/lang/String;Lcom/mopub/common/UrlAction;)V
 
-    .line 13
     iput-boolean v14, v7, Lcom/mopub/common/UrlHandler;->mAlreadySucceeded:Z
     :try_end_1
     .catch Lcom/mopub/exceptions/IntentNotResolvableException; {:try_start_1 .. :try_end_1} :catch_0
@@ -460,7 +425,6 @@
 
     move-object/from16 v2, p4
 
-    .line 14
     :goto_2
     sget-object v3, Lcom/mopub/common/logging/MoPubLog$SdkLogEvent;->ERROR_WITH_THROWABLE:Lcom/mopub/common/logging/MoPubLog$SdkLogEvent;
 
@@ -489,7 +453,6 @@
 
     goto :goto_0
 
-    .line 15
     :cond_3
     new-instance v1, Ljava/lang/StringBuilder;
 
@@ -521,12 +484,10 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-static {p1}, Lcom/mopub/common/Preconditions;->checkNotNull(Ljava/lang/Object;)V
 
     const/4 v0, 0x1
 
-    .line 2
     invoke-virtual {p0, p1, p2, v0}, Lcom/mopub/common/UrlHandler;->handleUrl(Landroid/content/Context;Ljava/lang/String;Z)V
 
     return-void
@@ -543,12 +504,10 @@
         .end annotation
     .end param
 
-    .line 3
     invoke-static {p1}, Lcom/mopub/common/Preconditions;->checkNotNull(Ljava/lang/Object;)V
 
     const/4 v0, 0x0
 
-    .line 4
     invoke-virtual {p0, p1, p2, p3, v0}, Lcom/mopub/common/UrlHandler;->handleUrl(Landroid/content/Context;Ljava/lang/String;ZLjava/lang/Iterable;)V
 
     return-void
@@ -580,10 +539,8 @@
         }
     .end annotation
 
-    .line 5
     invoke-static {p1}, Lcom/mopub/common/Preconditions;->checkNotNull(Ljava/lang/Object;)V
 
-    .line 6
     invoke-static {p2}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v0
@@ -594,12 +551,10 @@
 
     const-string p3, "Attempted to handle empty url."
 
-    .line 7
     invoke-direct {p0, p2, p1, p3, p1}, Lcom/mopub/common/UrlHandler;->failUrlHandling(Ljava/lang/String;Lcom/mopub/common/UrlAction;Ljava/lang/String;Ljava/lang/Throwable;)V
 
     return-void
 
-    .line 8
     :cond_0
     new-instance v6, Lcom/mopub/common/UrlHandler$3;
 
@@ -617,12 +572,10 @@
 
     invoke-direct/range {v0 .. v5}, Lcom/mopub/common/UrlHandler$3;-><init>(Lcom/mopub/common/UrlHandler;Landroid/content/Context;ZLjava/lang/Iterable;Ljava/lang/String;)V
 
-    .line 9
     invoke-static {p2, v6}, Lcom/mopub/common/UrlResolutionTask;->getResolvedUrl(Ljava/lang/String;Lcom/mopub/common/UrlResolutionTask$UrlResolutionListener;)V
 
     const/4 p1, 0x1
 
-    .line 10
     iput-boolean p1, p0, Lcom/mopub/common/UrlHandler;->mTaskPending:Z
 
     return-void
@@ -631,7 +584,6 @@
 .method shouldSkipShowMoPubBrowser()Z
     .locals 1
 
-    .line 1
     iget-boolean v0, p0, Lcom/mopub/common/UrlHandler;->mSkipShowMoPubBrowser:Z
 
     return v0

@@ -40,7 +40,6 @@
 .method static constructor <clinit>()V
     .locals 7
 
-    .line 1
     new-instance v0, Lcom/google/ar/core/AugmentedFace$RegionType;
 
     const-string v1, "NOSE_TIP"
@@ -51,7 +50,6 @@
 
     sput-object v0, Lcom/google/ar/core/AugmentedFace$RegionType;->NOSE_TIP:Lcom/google/ar/core/AugmentedFace$RegionType;
 
-    .line 2
     new-instance v1, Lcom/google/ar/core/AugmentedFace$RegionType;
 
     const-string v3, "FOREHEAD_LEFT"
@@ -62,7 +60,6 @@
 
     sput-object v1, Lcom/google/ar/core/AugmentedFace$RegionType;->FOREHEAD_LEFT:Lcom/google/ar/core/AugmentedFace$RegionType;
 
-    .line 3
     new-instance v3, Lcom/google/ar/core/AugmentedFace$RegionType;
 
     const-string v5, "FOREHEAD_RIGHT"
@@ -83,7 +80,6 @@
 
     aput-object v3, v5, v6
 
-    .line 4
     sput-object v5, Lcom/google/ar/core/AugmentedFace$RegionType;->$VALUES:[Lcom/google/ar/core/AugmentedFace$RegionType;
 
     return-void
@@ -97,10 +93,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 2
     iput p3, p0, Lcom/google/ar/core/AugmentedFace$RegionType;->nativeCode:I
 
     return-void
@@ -109,7 +103,6 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/google/ar/core/AugmentedFace$RegionType;
     .locals 1
 
-    .line 1
     const-class v0, Lcom/google/ar/core/AugmentedFace$RegionType;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -124,7 +117,6 @@
 .method public static values()[Lcom/google/ar/core/AugmentedFace$RegionType;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/google/ar/core/AugmentedFace$RegionType;->$VALUES:[Lcom/google/ar/core/AugmentedFace$RegionType;
 
     invoke-virtual {v0}, [Lcom/google/ar/core/AugmentedFace$RegionType;->clone()Ljava/lang/Object;

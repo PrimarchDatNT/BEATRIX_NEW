@@ -52,17 +52,14 @@
 .method constructor <init>(Lcom/google/common/collect/s0$a;)V
     .locals 1
 
-    .line 1
     iput-object p1, p0, Lcom/google/common/collect/s0$a$a;->c:Lcom/google/common/collect/s0$a;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/4 v0, 0x0
 
-    .line 2
     iput-object v0, p0, Lcom/google/common/collect/s0$a$a;->a:Ljava/util/Map$Entry;
 
-    .line 3
     invoke-virtual {p1}, Lcom/google/common/collect/s0$a;->S0()Ljava/util/NavigableMap;
 
     move-result-object p1
@@ -88,23 +85,19 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/collect/s0$a$a;->hasNext()Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
-    .line 2
     :try_start_0
     iget-object v0, p0, Lcom/google/common/collect/s0$a$a;->b:Ljava/util/Map$Entry;
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 3
     iput-object v0, p0, Lcom/google/common/collect/s0$a$a;->a:Ljava/util/Map$Entry;
 
-    .line 4
     iget-object v1, p0, Lcom/google/common/collect/s0$a$a;->c:Lcom/google/common/collect/s0$a;
 
     invoke-virtual {v1}, Lcom/google/common/collect/s0$a;->S0()Ljava/util/NavigableMap;
@@ -128,12 +121,10 @@
     :catchall_0
     move-exception v0
 
-    .line 5
     iget-object v1, p0, Lcom/google/common/collect/s0$a$a;->b:Ljava/util/Map$Entry;
 
     iput-object v1, p0, Lcom/google/common/collect/s0$a$a;->a:Ljava/util/Map$Entry;
 
-    .line 6
     iget-object v1, p0, Lcom/google/common/collect/s0$a$a;->c:Lcom/google/common/collect/s0$a;
 
     invoke-virtual {v1}, Lcom/google/common/collect/s0$a;->S0()Ljava/util/NavigableMap;
@@ -152,10 +143,8 @@
 
     iput-object v1, p0, Lcom/google/common/collect/s0$a$a;->b:Ljava/util/Map$Entry;
 
-    .line 7
     throw v0
 
-    .line 8
     :cond_0
     new-instance v0, Ljava/util/NoSuchElementException;
 
@@ -167,7 +156,6 @@
 .method public hasNext()Z
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/s0$a$a;->b:Ljava/util/Map$Entry;
 
     if-eqz v0, :cond_0
@@ -186,7 +174,6 @@
 .method public bridge synthetic next()Ljava/lang/Object;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/collect/s0$a$a;->a()Ljava/util/Map$Entry;
 
     move-result-object v0
@@ -197,7 +184,6 @@
 .method public remove()V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/s0$a$a;->a:Ljava/util/Map$Entry;
 
     if-eqz v0, :cond_0
@@ -212,7 +198,6 @@
     :goto_0
     invoke-static {v0}, Lcom/google/common/collect/m;->e(Z)V
 
-    .line 2
     iget-object v0, p0, Lcom/google/common/collect/s0$a$a;->c:Lcom/google/common/collect/s0$a;
 
     invoke-virtual {v0}, Lcom/google/common/collect/s0$a;->S0()Ljava/util/NavigableMap;
@@ -229,7 +214,6 @@
 
     const/4 v0, 0x0
 
-    .line 3
     iput-object v0, p0, Lcom/google/common/collect/s0$a$a;->a:Ljava/util/Map$Entry;
 
     return-void

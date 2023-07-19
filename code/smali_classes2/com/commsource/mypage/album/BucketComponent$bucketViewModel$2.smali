@@ -55,7 +55,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 2
     new-instance v1, Landroidx/lifecycle/ViewModelProvider;
 
     iget-object v2, p0, Lcom/commsource/mypage/album/BucketComponent$bucketViewModel$2;->$activity:Lcom/commsource/mypage/album/BpAlbumActivity;
@@ -82,7 +81,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/mypage/album/BucketComponent$bucketViewModel$2;->invoke()Lcom/commsource/album/BucketViewModel;
 
     move-result-object v1

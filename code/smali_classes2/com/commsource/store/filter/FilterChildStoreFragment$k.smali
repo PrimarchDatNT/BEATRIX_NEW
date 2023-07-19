@@ -70,7 +70,6 @@
 
     if-eqz p1, :cond_1
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/store/filter/FilterChildStoreFragment$k;->a:Lcom/commsource/store/filter/FilterChildStoreFragment;
 
     invoke-static {v1}, Lcom/commsource/store/filter/FilterChildStoreFragment;->z(Lcom/commsource/store/filter/FilterChildStoreFragment;)I
@@ -91,7 +90,6 @@
     :goto_0
     if-eqz p1, :cond_1
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/store/filter/FilterChildStoreFragment$k;->a:Lcom/commsource/store/filter/FilterChildStoreFragment;
 
     invoke-static {v1}, Lcom/commsource/store/filter/FilterChildStoreFragment;->z(Lcom/commsource/store/filter/FilterChildStoreFragment;)I
@@ -108,17 +106,14 @@
 
     check-cast p1, Lcom/commsource/beautyfilter/a;
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/store/filter/FilterChildStoreFragment$k;->a:Lcom/commsource/store/filter/FilterChildStoreFragment;
 
     invoke-static {v1, p1}, Lcom/commsource/store/filter/FilterChildStoreFragment;->B(Lcom/commsource/store/filter/FilterChildStoreFragment;Lcom/commsource/beautyfilter/a;)V
 
-    .line 4
     iget-object p1, p0, Lcom/commsource/store/filter/FilterChildStoreFragment$k;->a:Lcom/commsource/store/filter/FilterChildStoreFragment;
 
     invoke-static {p1}, Lcom/commsource/store/filter/FilterChildStoreFragment;->A(Lcom/commsource/store/filter/FilterChildStoreFragment;)V
 
-    .line 5
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -132,7 +127,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Ljava/util/ArrayList;
 
     invoke-virtual {p0, p1}, Lcom/commsource/store/filter/FilterChildStoreFragment$k;->a(Ljava/util/ArrayList;)V

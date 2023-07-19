@@ -72,7 +72,6 @@
 
     const/16 v1, 0x14
 
-    .line 1
     sput v1, Lcom/commsource/beautyplus/armaterial/ArGiphyMaterialViewModel;->M:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -87,31 +86,26 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/commsource/beautyplus/base/BaseVm;-><init>(Landroid/app/Application;)V
 
-    .line 2
     new-instance p1, Landroidx/lifecycle/MutableLiveData;
 
     invoke-direct {p1}, Landroidx/lifecycle/MutableLiveData;-><init>()V
 
     iput-object p1, p0, Lcom/commsource/beautyplus/armaterial/ArGiphyMaterialViewModel;->a:Landroidx/lifecycle/MutableLiveData;
 
-    .line 3
     new-instance p1, Landroidx/lifecycle/MutableLiveData;
 
     invoke-direct {p1}, Landroidx/lifecycle/MutableLiveData;-><init>()V
 
     iput-object p1, p0, Lcom/commsource/beautyplus/armaterial/ArGiphyMaterialViewModel;->b:Landroidx/lifecycle/MutableLiveData;
 
-    .line 4
     new-instance p1, Landroidx/lifecycle/MutableLiveData;
 
     invoke-direct {p1}, Landroidx/lifecycle/MutableLiveData;-><init>()V
 
     iput-object p1, p0, Lcom/commsource/beautyplus/armaterial/ArGiphyMaterialViewModel;->c:Landroidx/lifecycle/MutableLiveData;
 
-    .line 5
     new-instance p1, Landroidx/lifecycle/MutableLiveData;
 
     invoke-direct {p1}, Landroidx/lifecycle/MutableLiveData;-><init>()V
@@ -120,12 +114,10 @@
 
     const-string p1, ""
 
-    .line 6
     iput-object p1, p0, Lcom/commsource/beautyplus/armaterial/ArGiphyMaterialViewModel;->g:Ljava/lang/String;
 
     const/4 p1, 0x1
 
-    .line 7
     iput p1, p0, Lcom/commsource/beautyplus/armaterial/ArGiphyMaterialViewModel;->K:I
 
     return-void
@@ -138,7 +130,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/beautyplus/armaterial/ArGiphyMaterialViewModel;->K:I
 
     add-int/lit8 v2, v1, 0x1
@@ -157,7 +148,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/beautyplus/armaterial/ArGiphyMaterialViewModel;->L:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -172,7 +162,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean p0, p0, Lcom/commsource/beautyplus/armaterial/ArGiphyMaterialViewModel;->J:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -187,7 +176,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/beautyplus/armaterial/ArGiphyMaterialViewModel;->g:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -212,7 +200,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/beautyplus/armaterial/ArGiphyMaterialViewModel;->b:Landroidx/lifecycle/MutableLiveData;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -227,7 +214,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/beautyplus/armaterial/ArGiphyMaterialViewModel;->g:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -251,7 +237,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/beautyplus/armaterial/ArGiphyMaterialViewModel;->a:Landroidx/lifecycle/MutableLiveData;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -274,7 +259,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/beautyplus/armaterial/ArGiphyMaterialViewModel;->d:Landroidx/lifecycle/MutableLiveData;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -297,7 +281,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/beautyplus/armaterial/ArGiphyMaterialViewModel;->c:Landroidx/lifecycle/MutableLiveData;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -312,7 +295,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/beautyplus/armaterial/ArGiphyMaterialViewModel;->L:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -327,7 +309,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/beautyplus/armaterial/ArGiphyMaterialViewModel;->f:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -342,7 +323,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/beautyplus/armaterial/ArGiphyMaterialViewModel;->L:Ljava/lang/String;
 
     invoke-static {v1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
@@ -361,7 +341,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/beautyplus/armaterial/ArGiphyMaterialViewModel;->J:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -376,7 +355,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/beautyplus/armaterial/ArGiphyMaterialViewModel;->p:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -395,7 +373,6 @@
 
     invoke-static {v2}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v3, v0, Lcom/commsource/beautyplus/armaterial/ArGiphyMaterialViewModel;->L:Ljava/lang/String;
 
     invoke-static {v3}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
@@ -406,14 +383,12 @@
 
     if-eqz v3, :cond_0
 
-    .line 2
     invoke-static {v1}, Lf/k/k/s;->n(Ljava/lang/Class;)Ljava/lang/Object;
 
     move-result-object v1
 
     check-cast v1, Lcom/meitu/http/api/ArApi;
 
-    .line 3
     invoke-virtual {v1}, Lcom/meitu/http/api/ArApi;->c()Lcom/giphy/sdk/core/network/api/GPHApiClient;
 
     move-result-object v3
@@ -422,7 +397,6 @@
 
     sget v1, Lcom/commsource/beautyplus/armaterial/ArGiphyMaterialViewModel;->M:I
 
-    .line 4
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v5
@@ -447,18 +421,15 @@
 
     goto :goto_0
 
-    .line 5
     :cond_0
     iget-object v10, v0, Lcom/commsource/beautyplus/armaterial/ArGiphyMaterialViewModel;->L:Ljava/lang/String;
 
-    .line 6
     invoke-static {v1}, Lf/k/k/s;->n(Ljava/lang/Class;)Ljava/lang/Object;
 
     move-result-object v1
 
     check-cast v1, Lcom/meitu/http/api/ArApi;
 
-    .line 7
     invoke-virtual {v1}, Lcom/meitu/http/api/ArApi;->c()Lcom/giphy/sdk/core/network/api/GPHApiClient;
 
     move-result-object v9
@@ -467,7 +438,6 @@
 
     sget v1, Lcom/commsource/beautyplus/armaterial/ArGiphyMaterialViewModel;->M:I
 
-    .line 8
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v12
@@ -494,7 +464,6 @@
 
     invoke-virtual/range {v9 .. v16}, Lcom/giphy/sdk/core/network/api/GPHApiClient;->search(Ljava/lang/String;Lcom/giphy/sdk/core/models/enums/MediaType;Ljava/lang/Integer;Ljava/lang/Integer;Lcom/giphy/sdk/core/models/enums/RatingType;Lcom/giphy/sdk/core/models/enums/LangType;Lcom/giphy/sdk/core/network/api/CompletionHandler;)Ljava/util/concurrent/Future;
 
-    .line 9
     :goto_0
     invoke-static {v2}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -510,15 +479,12 @@
 
     invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/beautyplus/armaterial/ArGiphyMaterialViewModel;->L:Ljava/lang/String;
 
     const/4 v2, 0x1
 
-    .line 2
     iput v2, p0, Lcom/commsource/beautyplus/armaterial/ArGiphyMaterialViewModel;->K:I
 
-    .line 3
     invoke-static {p1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v2
@@ -527,14 +493,12 @@
 
     if-eqz v2, :cond_0
 
-    .line 4
     invoke-static {v0}, Lf/k/k/s;->n(Ljava/lang/Class;)Ljava/lang/Object;
 
     move-result-object p1
 
     check-cast p1, Lcom/meitu/http/api/ArApi;
 
-    .line 5
     invoke-virtual {p1}, Lcom/meitu/http/api/ArApi;->c()Lcom/giphy/sdk/core/network/api/GPHApiClient;
 
     move-result-object v2
@@ -543,7 +507,6 @@
 
     sget p1, Lcom/commsource/beautyplus/armaterial/ArGiphyMaterialViewModel;->M:I
 
-    .line 6
     invoke-static {p1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v4
@@ -568,7 +531,6 @@
 
     goto :goto_0
 
-    .line 7
     :cond_0
     invoke-static {v0}, Lf/k/k/s;->n(Ljava/lang/Class;)Ljava/lang/Object;
 
@@ -576,7 +538,6 @@
 
     check-cast v0, Lcom/meitu/http/api/ArApi;
 
-    .line 8
     invoke-virtual {v0}, Lcom/meitu/http/api/ArApi;->c()Lcom/giphy/sdk/core/network/api/GPHApiClient;
 
     move-result-object v2
@@ -585,7 +546,6 @@
 
     sget v0, Lcom/commsource/beautyplus/armaterial/ArGiphyMaterialViewModel;->M:I
 
-    .line 9
     invoke-static {v0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v5
@@ -612,7 +572,6 @@
 
     invoke-virtual/range {v2 .. v9}, Lcom/giphy/sdk/core/network/api/GPHApiClient;->search(Ljava/lang/String;Lcom/giphy/sdk/core/models/enums/MediaType;Ljava/lang/Integer;Ljava/lang/Integer;Lcom/giphy/sdk/core/models/enums/RatingType;Lcom/giphy/sdk/core/models/enums/LangType;Lcom/giphy/sdk/core/network/api/CompletionHandler;)Ljava/util/concurrent/Future;
 
-    .line 10
     :goto_0
     invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -634,10 +593,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/beautyplus/armaterial/ArGiphyMaterialViewModel;->d:Landroidx/lifecycle/MutableLiveData;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -658,10 +615,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/beautyplus/armaterial/ArGiphyMaterialViewModel;->c:Landroidx/lifecycle/MutableLiveData;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -674,10 +629,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/beautyplus/armaterial/ArGiphyMaterialViewModel;->J:Z
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -690,10 +643,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/beautyplus/armaterial/ArGiphyMaterialViewModel;->f:Ljava/lang/String;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

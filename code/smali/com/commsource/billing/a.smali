@@ -39,14 +39,12 @@
 
     new-array v2, v1, [B
 
-    .line 1
     fill-array-data v2, :array_0
 
     sput-object v2, Lcom/commsource/billing/a;->e:[B
 
     new-array v1, v1, [B
 
-    .line 2
     fill-array-data v1, :array_1
 
     sput-object v1, Lcom/commsource/billing/a;->f:[B
@@ -55,14 +53,12 @@
 
     new-array v2, v1, [B
 
-    .line 3
     fill-array-data v2, :array_2
 
     sput-object v2, Lcom/commsource/billing/a;->g:[B
 
     new-array v1, v1, [B
 
-    .line 4
     fill-array-data v1, :array_3
 
     sput-object v1, Lcom/commsource/billing/a;->h:[B
@@ -475,7 +471,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -493,7 +488,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Ljava/nio/charset/Charset;->defaultCharset()Ljava/nio/charset/Charset;
 
     move-result-object v1
@@ -502,7 +496,6 @@
 
     move-result-object p0
 
-    .line 2
     array-length v1, p0
 
     const/4 v2, 0x0
@@ -528,7 +521,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     array-length v1, p0
 
     const/4 v2, 0x0
@@ -554,7 +546,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/billing/a;->g:[B
 
     invoke-static {p0, p1, p2, v1}, Lcom/commsource/billing/a;->d([BII[B)[B
@@ -586,14 +577,12 @@
 
     const/4 v4, 0x4
 
-    .line 1
     div-int/2addr v3, v4
 
     const/4 v5, 0x2
 
     add-int/2addr v3, v5
 
-    .line 2
     new-array v3, v3, [B
 
     new-array v6, v4, [B
@@ -613,14 +602,12 @@
 
     add-int v13, v8, p1
 
-    .line 3
     aget-byte v14, p0, v13
 
     and-int/lit8 v14, v14, 0x7f
 
     int-to-byte v14, v14
 
-    .line 4
     aget-byte v15, v1, v14
 
     const/4 v7, -0x5
@@ -639,7 +626,6 @@
 
     add-int v13, v13, p1
 
-    .line 5
     aget-byte v13, p0, v13
 
     and-int/lit8 v13, v13, 0x7f
@@ -663,7 +649,6 @@
 
     goto :goto_1
 
-    .line 6
     :cond_1
     new-instance v0, Lcom/commsource/billing/Base64DecoderException;
 
@@ -697,7 +682,6 @@
 
     goto :goto_3
 
-    .line 7
     :cond_3
     new-instance v0, Lcom/commsource/billing/Base64DecoderException;
 
@@ -709,7 +693,6 @@
 
     throw v0
 
-    .line 8
     :cond_4
     new-instance v0, Lcom/commsource/billing/Base64DecoderException;
 
@@ -736,14 +719,12 @@
     :cond_5
     add-int/lit8 v7, v9, 0x1
 
-    .line 9
     aput-byte v14, v6, v9
 
     if-ne v7, v4, :cond_6
 
     const/4 v9, 0x0
 
-    .line 10
     invoke-static {v6, v9, v3, v10, v1}, Lcom/commsource/billing/a;->e([BI[BI[B)I
 
     move-result v7
@@ -763,7 +744,6 @@
 
     goto/16 :goto_0
 
-    .line 11
     :cond_8
     new-instance v0, Lcom/commsource/billing/Base64DecoderException;
 
@@ -805,12 +785,10 @@
 
     if-eq v9, v12, :cond_a
 
-    .line 12
     aput-byte v11, v6, v9
 
     const/4 v0, 0x0
 
-    .line 13
     invoke-static {v6, v0, v3, v10, v1}, Lcom/commsource/billing/a;->e([BI[BI[B)I
 
     move-result v1
@@ -819,7 +797,6 @@
 
     goto :goto_4
 
-    .line 14
     :cond_a
     new-instance v1, Lcom/commsource/billing/Base64DecoderException;
 
@@ -845,17 +822,14 @@
 
     throw v1
 
-    .line 15
     :cond_b
     :goto_4
     new-array v0, v10, [B
 
     const/4 v1, 0x0
 
-    .line 16
     invoke-static {v3, v1, v0, v1, v10}, Ljava/lang/System;->arraycopy(Ljava/lang/Object;ILjava/lang/Object;II)V
 
-    .line 17
     invoke-static {v2}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v0
@@ -870,7 +844,6 @@
 
     add-int/lit8 v1, p1, 0x2
 
-    .line 1
     aget-byte v2, p0, v1
 
     const/16 v3, 0x3d
@@ -879,7 +852,6 @@
 
     if-ne v2, v3, :cond_0
 
-    .line 2
     aget-byte v1, p0, p1
 
     aget-byte v1, p4, v1
@@ -904,10 +876,8 @@
 
     int-to-byte p0, p0
 
-    .line 3
     aput-byte p0, p2, p3
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v4
@@ -915,14 +885,12 @@
     :cond_0
     add-int/lit8 v2, p1, 0x3
 
-    .line 5
     aget-byte v5, p0, v2
 
     const/4 v6, 0x2
 
     if-ne v5, v3, :cond_1
 
-    .line 6
     aget-byte v2, p0, p1
 
     aget-byte v2, p4, v2
@@ -957,7 +925,6 @@
 
     int-to-byte p1, p1
 
-    .line 7
     aput-byte p1, p2, p3
 
     add-int/2addr p3, v4
@@ -966,15 +933,12 @@
 
     int-to-byte p0, p0
 
-    .line 8
     aput-byte p0, p2, p3
 
-    .line 9
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v6
 
-    .line 10
     :cond_1
     aget-byte v3, p0, p1
 
@@ -1020,7 +984,6 @@
 
     int-to-byte p1, p1
 
-    .line 11
     aput-byte p1, p2, p3
 
     add-int/lit8 p1, p3, 0x1
@@ -1029,17 +992,14 @@
 
     int-to-byte p4, p4
 
-    .line 12
     aput-byte p4, p2, p1
 
     add-int/2addr p3, v6
 
     int-to-byte p0, p0
 
-    .line 13
     aput-byte p0, p2, p3
 
-    .line 14
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const/4 p0, 0x3
@@ -1059,7 +1019,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Ljava/nio/charset/Charset;->defaultCharset()Ljava/nio/charset/Charset;
 
     move-result-object v1
@@ -1068,7 +1027,6 @@
 
     move-result-object p0
 
-    .line 2
     array-length v1, p0
 
     const/4 v2, 0x0
@@ -1094,7 +1052,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     array-length v1, p0
 
     const/4 v2, 0x0
@@ -1120,7 +1077,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/billing/a;->h:[B
 
     invoke-static {p0, p1, p2, v1}, Lcom/commsource/billing/a;->d([BII[B)[B
@@ -1139,7 +1095,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     array-length v1, p0
 
     sget-object v2, Lcom/commsource/billing/a;->e:[B
@@ -1166,12 +1121,10 @@
 
     const v1, 0x7fffffff
 
-    .line 1
     invoke-static {p0, p1, p2, p3, v1}, Lcom/commsource/billing/a;->k([BII[BI)[B
 
     move-result-object p0
 
-    .line 2
     array-length p1, p0
 
     :goto_0
@@ -1181,7 +1134,6 @@
 
     add-int/lit8 p2, p1, -0x1
 
-    .line 3
     aget-byte p2, p0, p2
 
     const/16 p3, 0x3d
@@ -1195,7 +1147,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_1
     :goto_1
     new-instance p2, Ljava/lang/String;
@@ -1226,12 +1177,10 @@
 
     add-int/lit8 v1, v0, 0x2
 
-    .line 1
     div-int/lit8 v1, v1, 0x3
 
     mul-int/lit8 v1, v1, 0x4
 
-    .line 2
     div-int v2, v1, v6
 
     add-int/2addr v1, v2
@@ -1255,7 +1204,6 @@
 
     add-int v4, v3, p1
 
-    .line 3
     aget-byte v4, p0, v4
 
     shl-int/lit8 v4, v4, 0x18
@@ -1288,7 +1236,6 @@
 
     ushr-int/lit8 v5, v4, 0x12
 
-    .line 4
     aget-byte v5, p3, v5
 
     aput-byte v5, v8, v9
@@ -1299,7 +1246,6 @@
 
     and-int/lit8 v12, v12, 0x3f
 
-    .line 5
     aget-byte v12, p3, v12
 
     aput-byte v12, v8, v5
@@ -1310,7 +1256,6 @@
 
     and-int/lit8 v13, v13, 0x3f
 
-    .line 6
     aget-byte v13, p3, v13
 
     aput-byte v13, v8, v12
@@ -1319,7 +1264,6 @@
 
     and-int/lit8 v4, v4, 0x3f
 
-    .line 7
     aget-byte v4, p3, v4
 
     aput-byte v4, v8, v12
@@ -1330,7 +1274,6 @@
 
     add-int/lit8 v9, v9, 0x4
 
-    .line 8
     aput-byte v11, v8, v9
 
     move v9, v5
@@ -1359,7 +1302,6 @@
 
     move-object/from16 v5, p3
 
-    .line 9
     invoke-static/range {v0 .. v5}, Lcom/commsource/billing/a;->l([BII[BI[B)[B
 
     add-int/lit8 v10, v10, 0x4
@@ -1368,10 +1310,8 @@
 
     add-int/lit8 v9, v9, 0x4
 
-    .line 10
     aput-byte v11, v8, v9
 
-    .line 11
     :cond_2
     invoke-static {v7}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1389,7 +1329,6 @@
 
     if-lez p2, :cond_0
 
-    .line 1
     aget-byte v2, p0, p1
 
     shl-int/lit8 v2, v2, 0x18
@@ -1447,7 +1386,6 @@
 
     if-eq p2, v1, :cond_3
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p3
@@ -1455,7 +1393,6 @@
     :cond_3
     ushr-int/lit8 p1, p0, 0x12
 
-    .line 3
     aget-byte p1, p5, p1
 
     aput-byte p1, p3, p4
@@ -1466,7 +1403,6 @@
 
     and-int/lit8 p2, p2, 0x3f
 
-    .line 4
     aget-byte p2, p5, p2
 
     aput-byte p2, p3, p1
@@ -1477,7 +1413,6 @@
 
     and-int/lit8 p2, p2, 0x3f
 
-    .line 5
     aget-byte p2, p5, p2
 
     aput-byte p2, p3, p1
@@ -1486,12 +1421,10 @@
 
     and-int/lit8 p0, p0, 0x3f
 
-    .line 6
     aget-byte p0, p5, p0
 
     aput-byte p0, p3, p4
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p3
@@ -1499,7 +1432,6 @@
     :cond_4
     ushr-int/lit8 p2, p0, 0x12
 
-    .line 8
     aget-byte p2, p5, p2
 
     aput-byte p2, p3, p4
@@ -1510,7 +1442,6 @@
 
     and-int/lit8 v2, v2, 0x3f
 
-    .line 9
     aget-byte v2, p5, v2
 
     aput-byte v2, p3, p2
@@ -1521,17 +1452,14 @@
 
     and-int/lit8 p0, p0, 0x3f
 
-    .line 10
     aget-byte p0, p5, p0
 
     aput-byte p0, p3, p2
 
     add-int/2addr p4, v1
 
-    .line 11
     aput-byte p1, p3, p4
 
-    .line 12
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p3
@@ -1539,7 +1467,6 @@
     :cond_5
     ushr-int/lit8 p2, p0, 0x12
 
-    .line 13
     aget-byte p2, p5, p2
 
     aput-byte p2, p3, p4
@@ -1550,22 +1477,18 @@
 
     and-int/lit8 p0, p0, 0x3f
 
-    .line 14
     aget-byte p0, p5, p0
 
     aput-byte p0, p3, p2
 
     add-int/lit8 p0, p4, 0x2
 
-    .line 15
     aput-byte p1, p3, p0
 
     add-int/2addr p4, v1
 
-    .line 16
     aput-byte p1, p3, p4
 
-    .line 17
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p3
@@ -1578,7 +1501,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     array-length v1, p0
 
     sget-object v2, Lcom/commsource/billing/a;->f:[B

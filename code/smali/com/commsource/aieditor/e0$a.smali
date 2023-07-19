@@ -33,7 +33,6 @@
 .method constructor <init>(ILandroidx/lifecycle/MutableLiveData;Landroidx/lifecycle/MutableLiveData;Landroid/graphics/Bitmap;[Ljava/lang/String;)V
     .locals 0
 
-    .line 1
     iput p1, p0, Lcom/commsource/aieditor/e0$a;->a:I
 
     iput-object p2, p0, Lcom/commsource/aieditor/e0$a;->b:Landroidx/lifecycle/MutableLiveData;
@@ -60,12 +59,10 @@
 
     const/4 v1, 0x0
 
-    .line 1
     sput-boolean v1, Lcom/commsource/aieditor/e0;->r:Z
 
     const/4 v2, 0x4
 
-    .line 2
     :try_start_0
     new-instance v3, Lorg/json/JSONObject;
 
@@ -73,19 +70,16 @@
 
     const-string p2, "ErrorCode"
 
-    .line 3
     invoke-virtual {v3, p2}, Lorg/json/JSONObject;->getInt(Ljava/lang/String;)I
 
     move-result v1
 
-    .line 4
     new-instance p2, Ljava/util/HashMap;
 
     invoke-direct {p2, v2}, Ljava/util/HashMap;-><init>(I)V
 
     const-string v3, "miniapp_feature"
 
-    .line 5
     iget v4, p0, Lcom/commsource/aieditor/e0$a;->a:I
 
     invoke-static {v4}, Lcom/commsource/aieditor/c0;->P(I)Ljava/lang/String;
@@ -96,7 +90,6 @@
 
     const-string v3, "error_code"
 
-    .line 6
     invoke-static {v1}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
 
     move-result-object v4
@@ -105,7 +98,6 @@
 
     const-string v3, "ai_editor_process_failed"
 
-    .line 7
     invoke-static {v3, p2}, Lcom/commsource/statistics/i;->s(Ljava/lang/String;Ljava/util/Map;)V
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
@@ -115,7 +107,6 @@
     :catch_0
     move-exception p2
 
-    .line 8
     invoke-virtual {p2}, Ljava/lang/Exception;->printStackTrace()V
 
     :goto_0
@@ -123,7 +114,6 @@
 
     if-ne v1, p2, :cond_0
 
-    .line 9
     iget-object p1, p0, Lcom/commsource/aieditor/e0$a;->b:Landroidx/lifecycle/MutableLiveData;
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -137,7 +127,6 @@
     :cond_0
     if-nez v1, :cond_2
 
-    .line 10
     div-int/lit8 p1, p1, 0x64
 
     const/4 p2, 0x5
@@ -146,7 +135,6 @@
 
     goto :goto_1
 
-    .line 11
     :cond_1
     iget-object p1, p0, Lcom/commsource/aieditor/e0$a;->b:Landroidx/lifecycle/MutableLiveData;
 
@@ -160,7 +148,6 @@
 
     goto :goto_2
 
-    .line 12
     :cond_2
     :goto_1
     iget-object p1, p0, Lcom/commsource/aieditor/e0$a;->b:Landroidx/lifecycle/MutableLiveData;
@@ -173,7 +160,6 @@
 
     invoke-virtual {p1, p2}, Landroidx/lifecycle/MutableLiveData;->postValue(Ljava/lang/Object;)V
 
-    .line 13
     :goto_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -187,7 +173,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     const-class v1, Lcom/commsource/aieditor/AiEditorRespone;
 
     invoke-static {p1, v1}, Lcom/meitu/webview/utils/c;->a(Ljava/lang/String;Ljava/lang/reflect/Type;)Ljava/lang/Object;
@@ -196,12 +181,10 @@
 
     check-cast p1, Lcom/commsource/aieditor/AiEditorRespone;
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/aieditor/e0$a;->c:Landroidx/lifecycle/MutableLiveData;
 
     const/4 v2, 0x3
 
-    .line 3
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v3
@@ -210,14 +193,12 @@
 
     if-eqz v1, :cond_4
 
-    .line 4
     invoke-virtual {p1}, Lcom/commsource/aieditor/AiEditorRespone;->getResult()Ljava/util/List;
 
     move-result-object v1
 
     if-eqz v1, :cond_4
 
-    .line 5
     invoke-virtual {p1}, Lcom/commsource/aieditor/AiEditorRespone;->getResult()Ljava/util/List;
 
     move-result-object v1
@@ -228,7 +209,6 @@
 
     if-lez v1, :cond_4
 
-    .line 6
     iget-object v1, p0, Lcom/commsource/aieditor/e0$a;->b:Landroidx/lifecycle/MutableLiveData;
 
     const/4 v5, 0x2
@@ -239,7 +219,6 @@
 
     invoke-virtual {v1, v6}, Landroidx/lifecycle/MutableLiveData;->postValue(Ljava/lang/Object;)V
 
-    .line 7
     iget v1, p0, Lcom/commsource/aieditor/e0$a;->a:I
 
     const/4 v6, 0x1
@@ -266,7 +245,6 @@
 
     goto/16 :goto_0
 
-    .line 8
     :cond_0
     iget-object v1, p0, Lcom/commsource/aieditor/e0$a;->d:Landroid/graphics/Bitmap;
 
@@ -280,7 +258,6 @@
 
     if-eqz v1, :cond_1
 
-    .line 9
     invoke-virtual {p1}, Lcom/commsource/aieditor/AiEditorRespone;->getResult()Ljava/util/List;
 
     move-result-object p1
@@ -297,7 +274,6 @@
 
     iget-object v1, p0, Lcom/commsource/aieditor/e0$a;->d:Landroid/graphics/Bitmap;
 
-    .line 10
     invoke-virtual {v1}, Landroid/graphics/Bitmap;->getWidth()I
 
     move-result v1
@@ -308,12 +284,10 @@
 
     move-result v2
 
-    .line 11
     invoke-static {p1, v1, v2}, Lcom/commsource/aieditor/e0;->d(Ljava/lang/String;II)Landroid/graphics/Bitmap;
 
     move-result-object p1
 
-    .line 12
     invoke-static {}, Lcom/meitu/library/application/BaseApplication;->getApplication()Landroid/app/Application;
 
     move-result-object v1
@@ -324,17 +298,14 @@
 
     const-string v2, "RULEA_DATA"
 
-    .line 13
     invoke-static {v2, v4}, Lcom/meitu/mtlab/g/i/d;->c(Ljava/lang/String;I)I
 
     move-result v2
 
-    .line 14
     invoke-static {v1, v2, p1, v9, v4}, Lcom/meitu/mtlab/g/i/a;->a(ZILandroid/graphics/Bitmap;[Landroid/graphics/Bitmap;Z)[Ljava/lang/String;
 
     move-result-object p1
 
-    .line 15
     iget-object v1, p0, Lcom/commsource/aieditor/e0$a;->e:[Ljava/lang/String;
 
     aget-object v1, v1, v4
@@ -347,7 +318,6 @@
 
     invoke-static {p1}, Lcom/commsource/aieditor/e0;->a(Ljava/lang/String;)Ljava/lang/String;
 
-    .line 16
     iget-object p1, p0, Lcom/commsource/aieditor/e0$a;->b:Landroidx/lifecycle/MutableLiveData;
 
     iget-object v1, p0, Lcom/commsource/aieditor/e0$a;->c:Landroidx/lifecycle/MutableLiveData;
@@ -356,35 +326,28 @@
 
     goto :goto_0
 
-    .line 17
     :cond_1
     sput-boolean v4, Lcom/commsource/aieditor/e0;->r:Z
 
-    .line 18
     iget-object p1, p0, Lcom/commsource/aieditor/e0$a;->b:Landroidx/lifecycle/MutableLiveData;
 
     invoke-virtual {p1, v3}, Landroidx/lifecycle/MutableLiveData;->postValue(Ljava/lang/Object;)V
 
     goto :goto_0
 
-    .line 19
     :cond_2
     sput-boolean v4, Lcom/commsource/aieditor/e0;->r:Z
 
-    .line 20
     invoke-static {v1}, Lcom/commsource/aieditor/c0;->P(I)Ljava/lang/String;
 
     move-result-object v1
 
-    .line 21
     invoke-static {v8, v7, v1}, Lcom/commsource/statistics/i;->r(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 22
     iget-object v1, p0, Lcom/commsource/aieditor/e0$a;->c:Landroidx/lifecycle/MutableLiveData;
 
     iget-object v2, p0, Lcom/commsource/aieditor/e0$a;->d:Landroid/graphics/Bitmap;
 
-    .line 23
     invoke-virtual {p1}, Lcom/commsource/aieditor/AiEditorRespone;->getResult()Ljava/util/List;
 
     move-result-object p1
@@ -403,33 +366,25 @@
 
     move-result-object p1
 
-    .line 24
     invoke-virtual {v1, p1}, Landroidx/lifecycle/MutableLiveData;->postValue(Ljava/lang/Object;)V
 
     goto :goto_0
 
-    .line 25
     :cond_3
     invoke-static {v9}, Lcom/commsource/aieditor/e0;->a(Ljava/lang/String;)Ljava/lang/String;
 
-    .line 26
     sput-boolean v4, Lcom/commsource/aieditor/e0;->r:Z
 
-    .line 27
     iget v1, p0, Lcom/commsource/aieditor/e0$a;->a:I
 
-    .line 28
     invoke-static {v1}, Lcom/commsource/aieditor/c0;->P(I)Ljava/lang/String;
 
     move-result-object v1
 
-    .line 29
     invoke-static {v8, v7, v1}, Lcom/commsource/statistics/i;->r(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 30
     iget-object v1, p0, Lcom/commsource/aieditor/e0$a;->c:Landroidx/lifecycle/MutableLiveData;
 
-    .line 31
     invoke-virtual {p1}, Lcom/commsource/aieditor/AiEditorRespone;->getResult()Ljava/util/List;
 
     move-result-object p1
@@ -452,16 +407,13 @@
 
     goto :goto_0
 
-    .line 32
     :cond_4
     sput-boolean v4, Lcom/commsource/aieditor/e0;->r:Z
 
-    .line 33
     iget-object p1, p0, Lcom/commsource/aieditor/e0$a;->b:Landroidx/lifecycle/MutableLiveData;
 
     invoke-virtual {p1, v3}, Landroidx/lifecycle/MutableLiveData;->postValue(Ljava/lang/Object;)V
 
-    .line 34
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

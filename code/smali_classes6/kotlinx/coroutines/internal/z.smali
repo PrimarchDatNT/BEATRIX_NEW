@@ -72,20 +72,16 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     iput-wide p1, p0, Lcotlinx/coroutines/internal/z;->a:J
 
     const/4 p1, 0x0
 
-    .line 2
     iput-object p1, p0, Lcotlinx/coroutines/internal/z;->_next:Ljava/lang/Object;
 
-    .line 3
     iput-object p1, p0, Lcotlinx/coroutines/internal/z;->prev:Ljava/lang/Object;
 
-    .line 4
     iput-object p3, p0, Lcotlinx/coroutines/internal/z;->prev:Ljava/lang/Object;
 
     return-void
@@ -99,7 +95,6 @@
         }
     .end annotation
 
-    .line 1
     :cond_0
     iget-object v0, p0, Lcotlinx/coroutines/internal/z;->_next:Ljava/lang/Object;
 
@@ -107,7 +102,6 @@
 
     check-cast v0, Lcotlinx/coroutines/internal/z;
 
-    .line 2
     iget-wide v1, p1, Lcotlinx/coroutines/internal/z;->a:J
 
     iget-wide v3, v0, Lcotlinx/coroutines/internal/z;->a:J
@@ -118,7 +112,6 @@
 
     return-void
 
-    .line 3
     :cond_1
     sget-object v1, Lcotlinx/coroutines/internal/z;->b:Ljava/util/concurrent/atomic/AtomicReferenceFieldUpdater;
 
@@ -130,7 +123,6 @@
 
     return-void
 
-    .line 4
     :cond_2
     new-instance p1, Lcotlin/TypeCastException;
 
@@ -149,7 +141,6 @@
         }
     .end annotation
 
-    .line 1
     :cond_0
     iget-object v0, p0, Lcotlinx/coroutines/internal/z;->prev:Ljava/lang/Object;
 
@@ -157,7 +148,6 @@
 
     if-eqz v0, :cond_2
 
-    .line 2
     iget-wide v1, v0, Lcotlinx/coroutines/internal/z;->a:J
 
     iget-wide v3, p1, Lcotlinx/coroutines/internal/z;->a:J
@@ -168,7 +158,6 @@
 
     return-void
 
-    .line 3
     :cond_1
     sget-object v1, Lcotlinx/coroutines/internal/z;->c:Ljava/util/concurrent/atomic/AtomicReferenceFieldUpdater;
 
@@ -200,7 +189,6 @@
         }
     .end annotation
 
-    .line 1
     sget-object v0, Lcotlinx/coroutines/internal/z;->b:Ljava/util/concurrent/atomic/AtomicReferenceFieldUpdater;
 
     invoke-virtual {v0, p0, p1, p2}, Ljava/util/concurrent/atomic/AtomicReferenceFieldUpdater;->compareAndSet(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Z
@@ -213,7 +201,6 @@
 .method public final b()J
     .locals 2
 
-    .line 1
     iget-wide v0, p0, Lcotlinx/coroutines/internal/z;->a:J
 
     return-wide v0
@@ -230,7 +217,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcotlinx/coroutines/internal/z;->_next:Ljava/lang/Object;
 
     check-cast v0, Lcotlinx/coroutines/internal/z;
@@ -244,7 +230,6 @@
 .method public final g()V
     .locals 3
 
-    .line 1
     invoke-static {}, Lcotlinx/coroutines/p0;->b()Z
 
     move-result v0
@@ -266,7 +251,6 @@
 
     throw v0
 
-    .line 2
     :cond_1
     :goto_0
     iget-object v0, p0, Lcotlinx/coroutines/internal/z;->_next:Ljava/lang/Object;
@@ -275,17 +259,14 @@
 
     if-eqz v0, :cond_3
 
-    .line 3
     iget-object v1, p0, Lcotlinx/coroutines/internal/z;->prev:Ljava/lang/Object;
 
     check-cast v1, Lcotlinx/coroutines/internal/z;
 
     if-eqz v1, :cond_3
 
-    .line 4
     invoke-direct {v1, v0}, Lcotlinx/coroutines/internal/z;->e(Lcotlinx/coroutines/internal/z;)V
 
-    .line 5
     :goto_1
     invoke-virtual {v1}, Lcotlinx/coroutines/internal/z;->d()Z
 
@@ -293,25 +274,21 @@
 
     if-eqz v2, :cond_2
 
-    .line 6
     iget-object v2, v1, Lcotlinx/coroutines/internal/z;->prev:Ljava/lang/Object;
 
     check-cast v2, Lcotlinx/coroutines/internal/z;
 
     if-eqz v2, :cond_2
 
-    .line 7
     invoke-direct {v2, v0}, Lcotlinx/coroutines/internal/z;->e(Lcotlinx/coroutines/internal/z;)V
 
     move-object v1, v2
 
     goto :goto_1
 
-    .line 8
     :cond_2
     invoke-direct {v0, v1}, Lcotlinx/coroutines/internal/z;->f(Lcotlinx/coroutines/internal/z;)V
 
-    .line 9
     :goto_2
     invoke-virtual {v0}, Lcotlinx/coroutines/internal/z;->d()Z
 
@@ -319,14 +296,12 @@
 
     if-eqz v2, :cond_3
 
-    .line 10
     invoke-virtual {v0}, Lcotlinx/coroutines/internal/z;->c()Lcotlinx/coroutines/internal/z;
 
     move-result-object v0
 
     if-eqz v0, :cond_3
 
-    .line 11
     invoke-direct {v0, v1}, Lcotlinx/coroutines/internal/z;->f(Lcotlinx/coroutines/internal/z;)V
 
     goto :goto_2

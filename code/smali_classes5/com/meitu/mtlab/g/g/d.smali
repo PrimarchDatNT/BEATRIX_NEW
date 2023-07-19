@@ -53,10 +53,8 @@
 .method public constructor <init>()V
     .locals 4
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     new-instance v0, Ljava/util/Timer;
 
     invoke-direct {v0}, Ljava/util/Timer;-><init>()V
@@ -65,10 +63,8 @@
 
     const/4 v0, 0x0
 
-    .line 3
     iput-object v0, p0, Lcom/meitu/mtlab/g/g/d;->c:Lokhttp3/OkHttpClient$Builder;
 
-    .line 4
     new-instance v0, Landroid/os/Handler;
 
     invoke-static {}, Landroid/os/Looper;->getMainLooper()Landroid/os/Looper;
@@ -81,15 +77,12 @@
 
     const/4 v0, 0x0
 
-    .line 5
     iput v0, p0, Lcom/meitu/mtlab/g/g/d;->e:I
 
     const-wide/16 v0, 0x0
 
-    .line 6
     iput-wide v0, p0, Lcom/meitu/mtlab/g/g/d;->f:J
 
-    .line 7
     new-instance v0, Lokhttp3/OkHttpClient$Builder;
 
     invoke-direct {v0}, Lokhttp3/OkHttpClient$Builder;-><init>()V
@@ -122,7 +115,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget p0, p0, Lcom/meitu/mtlab/g/g/d;->e:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -137,7 +129,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/mtlab/g/g/d;->e:I
 
     add-int/lit8 v2, v1, 0x1
@@ -156,7 +147,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0, p1, p2, p3}, Lcom/meitu/mtlab/g/g/d;->r(Lokhttp3/Call;Ljava/lang/Exception;Lcom/meitu/mtlab/g/d/b;)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -171,7 +161,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/meitu/mtlab/g/g/d;->u()V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -186,7 +175,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/meitu/mtlab/g/g/d;->a:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -201,7 +189,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/mtlab/g/g/d;->f:J
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -216,7 +203,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/meitu/mtlab/g/g/d;->d:Landroid/os/Handler;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -231,7 +217,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/meitu/mtlab/g/g/d;->n()V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -246,7 +231,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/mtlab/g/g/d;->c:Lokhttp3/OkHttpClient$Builder;
 
     invoke-virtual {v1}, Lokhttp3/OkHttpClient$Builder;->build()Lokhttp3/OkHttpClient;
@@ -278,12 +262,10 @@
 
     check-cast v2, Lokhttp3/Call;
 
-    .line 2
     invoke-interface {v2}, Lokhttp3/Call;->cancel()V
 
     goto :goto_0
 
-    .line 3
     :cond_0
     iget-object v1, p0, Lcom/meitu/mtlab/g/g/d;->c:Lokhttp3/OkHttpClient$Builder;
 
@@ -316,12 +298,10 @@
 
     check-cast v2, Lokhttp3/Call;
 
-    .line 4
     invoke-interface {v2}, Lokhttp3/Call;->cancel()V
 
     goto :goto_1
 
-    .line 5
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -345,7 +325,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-interface {p1}, Lokhttp3/Call;->isCanceled()Z
 
     move-result p1
@@ -354,14 +333,12 @@
 
     if-eqz p1, :cond_1
 
-    .line 2
     iget-boolean p1, p0, Lcom/meitu/mtlab/g/g/d;->a:Z
 
     if-eqz p1, :cond_0
 
     const-string p1, "timeout"
 
-    .line 3
     invoke-virtual {p0, p3, v1, p1}, Lcom/meitu/mtlab/g/g/d;->i(Lcom/meitu/mtlab/g/d/b;ILjava/lang/String;)V
 
     goto :goto_0
@@ -371,24 +348,20 @@
 
     const-string p2, "user cancel"
 
-    .line 4
     invoke-virtual {p0, p3, p1, p2}, Lcom/meitu/mtlab/g/g/d;->i(Lcom/meitu/mtlab/g/d/b;ILjava/lang/String;)V
 
     :goto_0
     const/4 p1, 0x0
 
-    .line 5
     iput-boolean p1, p0, Lcom/meitu/mtlab/g/g/d;->a:Z
 
     goto :goto_1
 
-    .line 6
     :cond_1
     instance-of p1, p2, Ljava/net/SocketTimeoutException;
 
     if-eqz p1, :cond_2
 
-    .line 7
     invoke-virtual {p2}, Ljava/lang/Exception;->getMessage()Ljava/lang/String;
 
     move-result-object p1
@@ -401,7 +374,6 @@
 
     goto :goto_1
 
-    .line 8
     :cond_2
     instance-of p1, p2, Ljava/net/ConnectException;
 
@@ -411,12 +383,10 @@
 
     const-string p2, "\u7f51\u7edc\u8fde\u63a5\u5f02\u5e38"
 
-    .line 9
     invoke-virtual {p0, p3, p1, p2}, Lcom/meitu/mtlab/g/g/d;->i(Lcom/meitu/mtlab/g/d/b;ILjava/lang/String;)V
 
     goto :goto_1
 
-    .line 10
     :cond_3
     instance-of p1, p2, Lokhttp3/internal/http2/StreamResetException;
 
@@ -426,12 +396,10 @@
 
     const-string p2, "\u7f51\u7edc\u4e2d\u65ad"
 
-    .line 11
     invoke-virtual {p0, p3, p1, p2}, Lcom/meitu/mtlab/g/g/d;->i(Lcom/meitu/mtlab/g/d/b;ILjava/lang/String;)V
 
     goto :goto_1
 
-    .line 12
     :cond_4
     instance-of p1, p2, Ljava/lang/NullPointerException;
 
@@ -441,7 +409,6 @@
 
     if-eqz p1, :cond_5
 
-    .line 13
     new-instance p1, Ljava/lang/StringBuilder;
 
     invoke-direct {p1}, Ljava/lang/StringBuilder;-><init>()V
@@ -462,7 +429,6 @@
 
     goto :goto_1
 
-    .line 14
     :cond_5
     new-instance p1, Ljava/lang/StringBuilder;
 
@@ -482,7 +448,6 @@
 
     invoke-virtual {p0, p3, v2, p1}, Lcom/meitu/mtlab/g/g/d;->i(Lcom/meitu/mtlab/g/d/b;ILjava/lang/String;)V
 
-    .line 15
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -496,14 +461,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/mtlab/g/g/d;->b:Ljava/util/Timer;
 
     new-instance v2, Lcom/meitu/mtlab/g/g/d$g;
 
     invoke-direct {v2, p0}, Lcom/meitu/mtlab/g/g/d$g;-><init>(Lcom/meitu/mtlab/g/g/d;)V
 
-    .line 2
     invoke-static {}, Lcom/meitu/mtlab/g/e/a;->d()Lcom/meitu/mtlab/g/e/a;
 
     move-result-object v3
@@ -518,10 +481,8 @@
 
     const-wide/16 v5, 0x3e8
 
-    .line 3
     invoke-virtual/range {v1 .. v6}, Ljava/util/Timer;->schedule(Ljava/util/TimerTask;JJ)V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -534,15 +495,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/mtlab/g/g/d;->b:Ljava/util/Timer;
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-virtual {v1}, Ljava/util/Timer;->cancel()V
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -568,7 +526,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/meitu/mtlab/g/h/a;->e()Lcom/meitu/mtlab/g/h/a;
 
     move-result-object v1
@@ -591,14 +548,12 @@
 
     invoke-virtual {v1, v3, v2}, Lcom/meitu/mtlab/g/h/a;->b(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 2
     invoke-static {}, Lcom/meitu/mtlab/g/h/a;->e()Lcom/meitu/mtlab/g/h/a;
 
     move-result-object v1
 
     invoke-virtual {v1}, Lcom/meitu/mtlab/g/h/a;->d()V
 
-    .line 3
     iget-object v1, p0, Lcom/meitu/mtlab/g/g/d;->d:Landroid/os/Handler;
 
     new-instance v2, Lcom/meitu/mtlab/g/g/d$f;
@@ -607,7 +562,6 @@
 
     invoke-virtual {v1, v2}, Landroid/os/Handler;->post(Ljava/lang/Runnable;)Z
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -620,17 +574,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/mtlab/g/g/d;->c:Lokhttp3/OkHttpClient$Builder;
 
     if-nez v1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 3
     :cond_0
     invoke-static {}, Lcom/meitu/mtlab/g/h/a;->e()Lcom/meitu/mtlab/g/h/a;
 
@@ -642,14 +593,12 @@
 
     invoke-virtual {v1, v2, v3}, Lcom/meitu/mtlab/g/h/a;->b(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 4
     invoke-static {}, Lcom/meitu/mtlab/g/h/a;->e()Lcom/meitu/mtlab/g/h/a;
 
     move-result-object v1
 
     invoke-virtual {v1}, Lcom/meitu/mtlab/g/h/a;->c()V
 
-    .line 5
     invoke-static {}, Lcom/meitu/mtlab/g/h/a;->e()Lcom/meitu/mtlab/g/h/a;
 
     move-result-object v1
@@ -658,10 +607,8 @@
 
     invoke-virtual {v1, v2}, Lcom/meitu/mtlab/g/h/a;->i(Ljava/lang/String;)V
 
-    .line 6
     invoke-direct {p0}, Lcom/meitu/mtlab/g/g/d;->n()V
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -690,7 +637,6 @@
 
     invoke-static {v2}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/meitu/mtlab/g/h/a;->e()Lcom/meitu/mtlab/g/h/a;
 
     move-result-object v0
@@ -699,12 +645,10 @@
 
     invoke-virtual {v0, v3}, Lcom/meitu/mtlab/g/h/a;->i(Ljava/lang/String;)V
 
-    .line 2
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v3
 
-    .line 3
     iget-object v0, v1, Lcom/meitu/mtlab/g/g/d;->c:Lokhttp3/OkHttpClient$Builder;
 
     invoke-static {}, Lcom/meitu/mtlab/g/e/a;->d()Lcom/meitu/mtlab/g/e/a;
@@ -739,7 +683,6 @@
 
     invoke-virtual {v0, v8, v9, v5}, Lokhttp3/OkHttpClient$Builder;->connectTimeout(JLjava/util/concurrent/TimeUnit;)Lokhttp3/OkHttpClient$Builder;
 
-    .line 4
     iget-object v0, v1, Lcom/meitu/mtlab/g/g/d;->c:Lokhttp3/OkHttpClient$Builder;
 
     invoke-static {}, Lcom/meitu/mtlab/g/e/a;->d()Lcom/meitu/mtlab/g/e/a;
@@ -770,7 +713,6 @@
     :goto_1
     invoke-virtual {v0, v8, v9, v5}, Lokhttp3/OkHttpClient$Builder;->readTimeout(JLjava/util/concurrent/TimeUnit;)Lokhttp3/OkHttpClient$Builder;
 
-    .line 5
     iget-object v0, v1, Lcom/meitu/mtlab/g/g/d;->c:Lokhttp3/OkHttpClient$Builder;
 
     invoke-static {}, Lcom/meitu/mtlab/g/e/a;->d()Lcom/meitu/mtlab/g/e/a;
@@ -799,19 +741,16 @@
     :goto_2
     invoke-virtual {v0, v6, v7, v5}, Lokhttp3/OkHttpClient$Builder;->writeTimeout(JLjava/util/concurrent/TimeUnit;)Lokhttp3/OkHttpClient$Builder;
 
-    .line 6
     invoke-direct {p0}, Lcom/meitu/mtlab/g/g/d;->t()V
 
     const/4 v0, 0x0
 
     move-object/from16 v5, p5
 
-    .line 7
     invoke-static {v0, v5}, Lokhttp3/RequestBody;->create(Lokhttp3/MediaType;Ljava/lang/String;)Lokhttp3/RequestBody;
 
     move-result-object v5
 
-    .line 8
     new-instance v6, Lokhttp3/Headers$Builder;
 
     invoke-direct {v6}, Lokhttp3/Headers$Builder;-><init>()V
@@ -820,17 +759,14 @@
 
     const-string v7, "application/json"
 
-    .line 9
     invoke-virtual {v6, v0, v7}, Lokhttp3/Headers$Builder;->add(Ljava/lang/String;Ljava/lang/String;)Lokhttp3/Headers$Builder;
 
     const-string v0, "Charset"
 
     const-string v7, "utf-8"
 
-    .line 10
     invoke-virtual {v6, v0, v7}, Lokhttp3/Headers$Builder;->add(Ljava/lang/String;Ljava/lang/String;)Lokhttp3/Headers$Builder;
 
-    .line 11
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -851,7 +787,6 @@
 
     invoke-virtual {v6, v8, v0}, Lokhttp3/Headers$Builder;->add(Ljava/lang/String;Ljava/lang/String;)Lokhttp3/Headers$Builder;
 
-    .line 12
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -870,7 +805,6 @@
 
     invoke-virtual {v6, v8, v0}, Lokhttp3/Headers$Builder;->add(Ljava/lang/String;Ljava/lang/String;)Lokhttp3/Headers$Builder;
 
-    .line 13
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -893,17 +827,14 @@
 
     move-object v7, p2
 
-    .line 14
     invoke-virtual {v6, v0, p2}, Lokhttp3/Headers$Builder;->add(Ljava/lang/String;Ljava/lang/String;)Lokhttp3/Headers$Builder;
 
     const-string v0, "AuthorizationType"
 
     const-string v7, "1"
 
-    .line 15
     invoke-virtual {v6, v0, v7}, Lokhttp3/Headers$Builder;->add(Ljava/lang/String;Ljava/lang/String;)Lokhttp3/Headers$Builder;
 
-    .line 16
     invoke-static {}, Lcom/meitu/mtlab/g/h/a;->e()Lcom/meitu/mtlab/g/h/a;
 
     move-result-object v0
@@ -912,12 +843,10 @@
 
     move-result-object v0
 
-    .line 17
     invoke-interface {v0}, Ljava/util/Map;->entrySet()Ljava/util/Set;
 
     move-result-object v0
 
-    .line 18
     invoke-interface {v0}, Ljava/util/Set;->iterator()Ljava/util/Iterator;
 
     move-result-object v7
@@ -937,7 +866,6 @@
 
     check-cast v8, Ljava/util/Map$Entry;
 
-    .line 19
     :try_start_0
     invoke-interface {v8}, Ljava/util/Map$Entry;->getValue()Ljava/lang/Object;
 
@@ -951,7 +879,6 @@
 
     move-result-object v0
 
-    .line 20
     new-instance v9, Ljava/lang/StringBuilder;
 
     invoke-direct {v9}, Ljava/lang/StringBuilder;-><init>()V
@@ -968,7 +895,6 @@
 
     invoke-static {v9}, Lcom/meitu/mtlab/g/e/b;->b(Ljava/lang/String;)V
 
-    .line 21
     invoke-interface {v8}, Ljava/util/Map$Entry;->getKey()Ljava/lang/Object;
 
     move-result-object v9
@@ -984,10 +910,8 @@
     :catch_0
     move-exception v0
 
-    .line 22
     invoke-virtual {v0}, Ljava/io/UnsupportedEncodingException;->printStackTrace()V
 
-    .line 23
     invoke-interface {v8}, Ljava/util/Map$Entry;->getKey()Ljava/lang/Object;
 
     move-result-object v0
@@ -1012,7 +936,6 @@
 
     goto :goto_3
 
-    .line 24
     :cond_3
     new-instance v0, Lokhttp3/Request$Builder;
 
@@ -1020,17 +943,14 @@
 
     move-object v7, p1
 
-    .line 25
     invoke-virtual {v0, p1}, Lokhttp3/Request$Builder;->url(Ljava/lang/String;)Lokhttp3/Request$Builder;
 
     move-result-object v0
 
-    .line 26
     invoke-virtual {v0, v5}, Lokhttp3/Request$Builder;->post(Lokhttp3/RequestBody;)Lokhttp3/Request$Builder;
 
     move-result-object v0
 
-    .line 27
     invoke-virtual {v6}, Lokhttp3/Headers$Builder;->build()Lokhttp3/Headers;
 
     move-result-object v5
@@ -1039,12 +959,10 @@
 
     move-result-object v0
 
-    .line 28
     invoke-virtual {v0}, Lokhttp3/Request$Builder;->build()Lokhttp3/Request;
 
     move-result-object v0
 
-    .line 29
     iget-object v5, v1, Lcom/meitu/mtlab/g/g/d;->c:Lokhttp3/OkHttpClient$Builder;
 
     invoke-virtual {v5}, Lokhttp3/OkHttpClient$Builder;->build()Lokhttp3/OkHttpClient;
@@ -1055,7 +973,6 @@
 
     move-result-object v0
 
-    .line 30
     new-instance v5, Lcom/meitu/mtlab/g/g/d$b;
 
     move-object/from16 v6, p8
@@ -1064,7 +981,6 @@
 
     invoke-interface {v0, v5}, Lokhttp3/Call;->enqueue(Lokhttp3/Callback;)V
 
-    .line 31
     invoke-static {v2}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1095,15 +1011,12 @@
 
     invoke-static {p3}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v0
 
-    .line 2
     iput-wide v0, p0, Lcom/meitu/mtlab/g/g/d;->f:J
 
-    .line 3
     invoke-static/range {p5 .. p10}, Lcom/meitu/mtlab/g/i/c;->d(Ljava/lang/String;JZLandroid/graphics/Bitmap;[Landroid/graphics/Bitmap;)Ljava/lang/String;
 
     move-result-object p5
@@ -1114,17 +1027,14 @@
 
     move-result-object p5
 
-    .line 4
     new-instance p8, Lokhttp3/Request$Builder;
 
     invoke-direct {p8}, Lokhttp3/Request$Builder;-><init>()V
 
-    .line 5
     invoke-virtual {p8, p1}, Lokhttp3/Request$Builder;->url(Ljava/lang/String;)Lokhttp3/Request$Builder;
 
     move-result-object p1
 
-    .line 6
     invoke-virtual {p1, p5}, Lokhttp3/Request$Builder;->post(Lokhttp3/RequestBody;)Lokhttp3/Request$Builder;
 
     move-result-object p1
@@ -1133,7 +1043,6 @@
 
     const-string p8, "application/json"
 
-    .line 7
     invoke-virtual {p1, p5, p8}, Lokhttp3/Request$Builder;->addHeader(Ljava/lang/String;Ljava/lang/String;)Lokhttp3/Request$Builder;
 
     move-result-object p1
@@ -1142,7 +1051,6 @@
 
     const-string p8, "utf-8"
 
-    .line 8
     invoke-virtual {p1, p5, p8}, Lokhttp3/Request$Builder;->addHeader(Ljava/lang/String;Ljava/lang/String;)Lokhttp3/Request$Builder;
 
     move-result-object p1
@@ -1163,14 +1071,12 @@
 
     const-string p6, "Gid"
 
-    .line 9
     invoke-virtual {p1, p6, p5}, Lokhttp3/Request$Builder;->addHeader(Ljava/lang/String;Ljava/lang/String;)Lokhttp3/Request$Builder;
 
     move-result-object p1
 
     const-string p5, "Authorization"
 
-    .line 10
     invoke-virtual {p1, p5, p4}, Lokhttp3/Request$Builder;->addHeader(Ljava/lang/String;Ljava/lang/String;)Lokhttp3/Request$Builder;
 
     move-result-object p1
@@ -1179,17 +1085,14 @@
 
     const-string p5, "1"
 
-    .line 11
     invoke-virtual {p1, p4, p5}, Lokhttp3/Request$Builder;->addHeader(Ljava/lang/String;Ljava/lang/String;)Lokhttp3/Request$Builder;
 
     move-result-object p1
 
-    .line 12
     invoke-virtual {p1}, Lokhttp3/Request$Builder;->build()Lokhttp3/Request;
 
     move-result-object p1
 
-    .line 13
     iget-object p4, p0, Lcom/meitu/mtlab/g/g/d;->c:Lokhttp3/OkHttpClient$Builder;
 
     invoke-virtual {p4}, Lokhttp3/OkHttpClient$Builder;->build()Lokhttp3/OkHttpClient;
@@ -1200,7 +1103,6 @@
 
     move-result-object p1
 
-    .line 14
     new-instance v2, Lcom/meitu/mtlab/g/g/d$c;
 
     move-object p4, v2
@@ -1219,7 +1121,6 @@
 
     invoke-interface {p1, v2}, Lokhttp3/Call;->enqueue(Lokhttp3/Callback;)V
 
-    .line 15
     invoke-static {p3}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1257,7 +1158,6 @@
 
     if-nez v7, :cond_0
 
-    .line 1
     invoke-static {}, Lcom/meitu/mtlab/g/h/a;->e()Lcom/meitu/mtlab/g/h/a;
 
     move-result-object v0
@@ -1268,39 +1168,33 @@
 
     invoke-virtual {v0, v1, v2}, Lcom/meitu/mtlab/g/h/a;->b(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 2
     invoke-static {}, Lcom/meitu/mtlab/g/h/a;->e()Lcom/meitu/mtlab/g/h/a;
 
     move-result-object v0
 
     invoke-virtual {v0}, Lcom/meitu/mtlab/g/h/a;->c()V
 
-    .line 3
     invoke-static {}, Lcom/meitu/mtlab/g/h/a;->e()Lcom/meitu/mtlab/g/h/a;
 
     move-result-object v0
 
     invoke-virtual {v0}, Lcom/meitu/mtlab/g/h/a;->d()V
 
-    .line 4
     invoke-static {v11}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 5
     :cond_0
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v2
 
-    .line 6
     iput-wide v2, v10, Lcom/meitu/mtlab/g/g/d;->f:J
 
     const-string v0, "CACHE_TIME_DATA"
 
     const-wide/16 v5, 0x0
 
-    .line 7
     invoke-static {v0, v5, v6}, Lcom/meitu/mtlab/g/i/d;->d(Ljava/lang/String;J)J
 
     move-result-wide v0
@@ -1331,7 +1225,6 @@
     :goto_0
     const-string v1, ""
 
-    .line 8
     invoke-static {v0, v1}, Lcom/meitu/mtlab/g/i/d;->e(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
@@ -1342,14 +1235,12 @@
 
     if-nez v0, :cond_2
 
-    .line 9
     invoke-static {}, Lcom/meitu/mtlab/g/e/a;->d()Lcom/meitu/mtlab/g/e/a;
 
     move-result-object v0
 
     invoke-virtual {v0, v5, v6}, Lcom/meitu/mtlab/g/e/a;->o(J)V
 
-    .line 10
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v0
@@ -1358,7 +1249,6 @@
 
     const/4 v3, 0x0
 
-    .line 11
     invoke-static {v2, v3}, Lcom/meitu/mtlab/g/i/d;->c(Ljava/lang/String;I)I
 
     move-result v2
@@ -1371,7 +1261,6 @@
 
     move-result-object v2
 
-    .line 12
     invoke-static {}, Lcom/meitu/mtlab/g/e/a;->d()Lcom/meitu/mtlab/g/e/a;
 
     move-result-object v3
@@ -1386,10 +1275,8 @@
 
     move/from16 v8, p2
 
-    .line 13
     invoke-interface {v7, v2, v8}, Lcom/meitu/mtlab/g/d/c;->a([Ljava/lang/String;Z)V
 
-    .line 14
     invoke-static {v11}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1401,7 +1288,6 @@
 
     move-object/from16 v6, p9
 
-    .line 15
     new-instance v0, Lokhttp3/Request$Builder;
 
     invoke-direct {v0}, Lokhttp3/Request$Builder;-><init>()V
@@ -1442,22 +1328,18 @@
 
     move-result-object v1
 
-    .line 16
     invoke-virtual {v0, v1}, Lokhttp3/Request$Builder;->url(Ljava/lang/String;)Lokhttp3/Request$Builder;
 
     move-result-object v0
 
-    .line 17
     invoke-virtual {v0}, Lokhttp3/Request$Builder;->get()Lokhttp3/Request$Builder;
 
     move-result-object v0
 
-    .line 18
     invoke-virtual {v0}, Lokhttp3/Request$Builder;->build()Lokhttp3/Request;
 
     move-result-object v0
 
-    .line 19
     iget-object v1, v10, Lcom/meitu/mtlab/g/g/d;->c:Lokhttp3/OkHttpClient$Builder;
 
     invoke-static {}, Lcom/meitu/mtlab/g/e/a;->d()Lcom/meitu/mtlab/g/e/a;
@@ -1490,7 +1372,6 @@
 
     invoke-virtual {v1, v12, v13, v9}, Lokhttp3/OkHttpClient$Builder;->connectTimeout(JLjava/util/concurrent/TimeUnit;)Lokhttp3/OkHttpClient$Builder;
 
-    .line 20
     iget-object v1, v10, Lcom/meitu/mtlab/g/g/d;->c:Lokhttp3/OkHttpClient$Builder;
 
     invoke-virtual {v1}, Lokhttp3/OkHttpClient$Builder;->build()Lokhttp3/OkHttpClient;
@@ -1501,7 +1382,6 @@
 
     move-result-object v12
 
-    .line 21
     new-instance v13, Lcom/meitu/mtlab/g/g/d$d;
 
     move-object v0, v13
@@ -1524,7 +1404,6 @@
 
     invoke-interface {v12, v13}, Lokhttp3/Call;->enqueue(Lokhttp3/Callback;)V
 
-    .line 22
     invoke-static {v11}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1547,10 +1426,8 @@
 
     move-object v5, p3
 
-    .line 1
     invoke-virtual/range {v1 .. v6}, Lcom/meitu/mtlab/g/g/d;->q(Ljava/lang/String;JLjava/lang/String;Lcom/meitu/mtlab/g/d/b;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1582,10 +1459,8 @@
 
     move-object v6, p4
 
-    .line 1
     invoke-virtual/range {v1 .. v6}, Lcom/meitu/mtlab/g/g/d;->q(Ljava/lang/String;JLjava/lang/String;Lcom/meitu/mtlab/g/d/b;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1609,12 +1484,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lokhttp3/Request$Builder;
 
     invoke-direct {v1}, Lokhttp3/Request$Builder;-><init>()V
 
-    .line 2
     invoke-static {p1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v2
@@ -1661,17 +1534,14 @@
 
     move-result-object p1
 
-    .line 3
     invoke-virtual {p1}, Lokhttp3/Request$Builder;->get()Lokhttp3/Request$Builder;
 
     move-result-object p1
 
-    .line 4
     invoke-virtual {p1}, Lokhttp3/Request$Builder;->build()Lokhttp3/Request;
 
     move-result-object p1
 
-    .line 5
     iget-object p2, p0, Lcom/meitu/mtlab/g/g/d;->c:Lokhttp3/OkHttpClient$Builder;
 
     invoke-static {}, Lcom/meitu/mtlab/g/e/a;->d()Lcom/meitu/mtlab/g/e/a;
@@ -1704,7 +1574,6 @@
 
     invoke-virtual {p2, p3, p4, v1}, Lokhttp3/OkHttpClient$Builder;->connectTimeout(JLjava/util/concurrent/TimeUnit;)Lokhttp3/OkHttpClient$Builder;
 
-    .line 6
     iget-object p2, p0, Lcom/meitu/mtlab/g/g/d;->c:Lokhttp3/OkHttpClient$Builder;
 
     invoke-virtual {p2}, Lokhttp3/OkHttpClient$Builder;->build()Lokhttp3/OkHttpClient;
@@ -1715,14 +1584,12 @@
 
     move-result-object p1
 
-    .line 7
     new-instance p2, Lcom/meitu/mtlab/g/g/d$e;
 
     invoke-direct {p2, p0, p5}, Lcom/meitu/mtlab/g/g/d$e;-><init>(Lcom/meitu/mtlab/g/g/d;Lcom/meitu/mtlab/g/d/b;)V
 
     invoke-interface {p1, p2}, Lokhttp3/Call;->enqueue(Lokhttp3/Callback;)V
 
-    .line 8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1757,12 +1624,10 @@
 
     invoke-static {v11}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v3
 
-    .line 2
     iget-object v0, v10, Lcom/meitu/mtlab/g/g/d;->c:Lokhttp3/OkHttpClient$Builder;
 
     invoke-static {}, Lcom/meitu/mtlab/g/e/a;->d()Lcom/meitu/mtlab/g/e/a;
@@ -1797,7 +1662,6 @@
 
     invoke-virtual {v0, v1, v2, v7}, Lokhttp3/OkHttpClient$Builder;->connectTimeout(JLjava/util/concurrent/TimeUnit;)Lokhttp3/OkHttpClient$Builder;
 
-    .line 3
     iget-object v0, v10, Lcom/meitu/mtlab/g/g/d;->c:Lokhttp3/OkHttpClient$Builder;
 
     invoke-static {}, Lcom/meitu/mtlab/g/e/a;->d()Lcom/meitu/mtlab/g/e/a;
@@ -1828,7 +1692,6 @@
     :goto_1
     invoke-virtual {v0, v1, v2, v7}, Lokhttp3/OkHttpClient$Builder;->readTimeout(JLjava/util/concurrent/TimeUnit;)Lokhttp3/OkHttpClient$Builder;
 
-    .line 4
     iget-object v0, v10, Lcom/meitu/mtlab/g/g/d;->c:Lokhttp3/OkHttpClient$Builder;
 
     invoke-static {}, Lcom/meitu/mtlab/g/e/a;->d()Lcom/meitu/mtlab/g/e/a;
@@ -1859,7 +1722,6 @@
 
     const-string v0, "text/plain;charset=utf-8"
 
-    .line 5
     invoke-static {v0}, Lokhttp3/MediaType;->parse(Ljava/lang/String;)Lokhttp3/MediaType;
 
     move-result-object v0
@@ -1870,7 +1732,6 @@
 
     move-result-object v0
 
-    .line 6
     new-instance v1, Lokhttp3/Request$Builder;
 
     invoke-direct {v1}, Lokhttp3/Request$Builder;-><init>()V
@@ -1899,22 +1760,18 @@
 
     move-result-object v2
 
-    .line 7
     invoke-virtual {v1, v2}, Lokhttp3/Request$Builder;->url(Ljava/lang/String;)Lokhttp3/Request$Builder;
 
     move-result-object v1
 
-    .line 8
     invoke-virtual {v1, v0}, Lokhttp3/Request$Builder;->post(Lokhttp3/RequestBody;)Lokhttp3/Request$Builder;
 
     move-result-object v0
 
-    .line 9
     invoke-virtual {v0}, Lokhttp3/Request$Builder;->build()Lokhttp3/Request;
 
     move-result-object v0
 
-    .line 10
     iget-object v1, v10, Lcom/meitu/mtlab/g/g/d;->c:Lokhttp3/OkHttpClient$Builder;
 
     invoke-virtual {v1}, Lokhttp3/OkHttpClient$Builder;->build()Lokhttp3/OkHttpClient;
@@ -1925,7 +1782,6 @@
 
     move-result-object v12
 
-    .line 11
     new-instance v13, Lcom/meitu/mtlab/g/g/d$a;
 
     move-object v0, v13
@@ -1948,7 +1804,6 @@
 
     invoke-interface {v12, v13}, Lokhttp3/Call;->enqueue(Lokhttp3/Callback;)V
 
-    .line 12
     invoke-static {v11}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

@@ -37,7 +37,6 @@
 .method constructor <init>(Lcom/google/common/util/concurrent/ExecutionSequencer;Ljava/util/concurrent/atomic/AtomicReference;Lcom/google/common/util/concurrent/i;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/common/util/concurrent/ExecutionSequencer$b;->c:Lcom/google/common/util/concurrent/ExecutionSequencer;
 
     iput-object p2, p0, Lcom/google/common/util/concurrent/ExecutionSequencer$b;->a:Ljava/util/concurrent/atomic/AtomicReference;
@@ -67,7 +66,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/util/concurrent/ExecutionSequencer$b;->a:Ljava/util/concurrent/atomic/AtomicReference;
 
     sget-object v1, Lcom/google/common/util/concurrent/ExecutionSequencer$RunningState;->NOT_RUN:Lcom/google/common/util/concurrent/ExecutionSequencer$RunningState;
@@ -80,14 +78,12 @@
 
     if-nez v0, :cond_0
 
-    .line 2
     invoke-static {}, Lcom/google/common/util/concurrent/a0;->j()Lcom/google/common/util/concurrent/g0;
 
     move-result-object v0
 
     return-object v0
 
-    .line 3
     :cond_0
     iget-object v0, p0, Lcom/google/common/util/concurrent/ExecutionSequencer$b;->b:Lcom/google/common/util/concurrent/i;
 
@@ -101,7 +97,6 @@
 .method public toString()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/util/concurrent/ExecutionSequencer$b;->b:Lcom/google/common/util/concurrent/i;
 
     invoke-virtual {v0}, Ljava/lang/Object;->toString()Ljava/lang/String;

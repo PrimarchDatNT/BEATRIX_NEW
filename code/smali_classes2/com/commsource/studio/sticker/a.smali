@@ -59,7 +59,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/commsource/studio/f;-><init>(Landroid/app/Application;)V
 
     return-void
@@ -78,7 +77,6 @@
 
     const/4 p3, 0x1
 
-    .line 1
     :cond_0
     invoke-virtual {p0, p1, p2, p3}, Lcom/commsource/studio/sticker/a;->A(Landroid/graphics/Bitmap;Landroid/graphics/Bitmap;Z)Lcotlin/Pair;
 
@@ -136,7 +134,6 @@
 
     invoke-static {v1, v3}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-virtual/range {p1 .. p1}, Landroid/graphics/Bitmap;->getConfig()Landroid/graphics/Bitmap$Config;
 
     move-result-object v3
@@ -149,24 +146,20 @@
 
     const-string v5, "oriBitmap"
 
-    .line 2
     invoke-static {v3, v5}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v3}, Landroid/graphics/Bitmap;->getWidth()I
 
     move-result v5
 
-    .line 3
     invoke-virtual {v3}, Landroid/graphics/Bitmap;->getHeight()I
 
     move-result v6
 
-    .line 4
     new-instance v7, Landroid/graphics/Canvas;
 
     invoke-direct {v7, v3}, Landroid/graphics/Canvas;-><init>(Landroid/graphics/Bitmap;)V
 
-    .line 5
     new-instance v8, Landroid/graphics/PaintFlagsDrawFilter;
 
     const/4 v9, 0x0
@@ -177,12 +170,10 @@
 
     invoke-virtual {v7, v8}, Landroid/graphics/Canvas;->setDrawFilter(Landroid/graphics/DrawFilter;)V
 
-    .line 6
     new-instance v8, Landroid/graphics/Paint;
 
     invoke-direct {v8}, Landroid/graphics/Paint;-><init>()V
 
-    .line 7
     new-instance v10, Landroid/graphics/PorterDuffXfermode;
 
     sget-object v11, Landroid/graphics/PorterDuff$Mode;->DST_IN:Landroid/graphics/PorterDuff$Mode;
@@ -191,7 +182,6 @@
 
     invoke-virtual {v8, v10}, Landroid/graphics/Paint;->setXfermode(Landroid/graphics/Xfermode;)Landroid/graphics/Xfermode;
 
-    .line 8
     new-instance v10, Landroid/graphics/Rect;
 
     invoke-virtual/range {p2 .. p2}, Landroid/graphics/Bitmap;->getWidth()I
@@ -204,24 +194,20 @@
 
     invoke-direct {v10, v9, v9, v11, v12}, Landroid/graphics/Rect;-><init>(IIII)V
 
-    .line 9
     new-instance v11, Landroid/graphics/Rect;
 
     invoke-direct {v11, v9, v9, v5, v6}, Landroid/graphics/Rect;-><init>(IIII)V
 
     invoke-virtual {v7, v1, v10, v11, v8}, Landroid/graphics/Canvas;->drawBitmap(Landroid/graphics/Bitmap;Landroid/graphics/Rect;Landroid/graphics/Rect;Landroid/graphics/Paint;)V
 
-    .line 10
     invoke-static {v3}, Lcom/meitu/library/p/e/a;->a(Landroid/graphics/Bitmap;)[I
 
     move-result-object v1
 
-    .line 11
     invoke-virtual {v3}, Landroid/graphics/Bitmap;->getWidth()I
 
     move-result v7
 
-    .line 12
     invoke-virtual {v3}, Landroid/graphics/Bitmap;->getHeight()I
 
     move-result v8
@@ -244,7 +230,6 @@
 
     add-int v15, v13, v14
 
-    .line 13
     aget v15, v1, v15
 
     shr-int/lit8 v15, v15, 0x18
@@ -282,13 +267,11 @@
 
     goto :goto_0
 
-    .line 14
     :cond_5
     new-instance v1, Landroid/graphics/Rect;
 
     invoke-direct {v1, v7, v8, v10, v11}, Landroid/graphics/Rect;-><init>(IIII)V
 
-    .line 15
     invoke-virtual {v1}, Landroid/graphics/Rect;->width()I
 
     move-result v5
@@ -308,7 +291,6 @@
 
     goto :goto_3
 
-    .line 16
     :cond_7
     :goto_2
     invoke-virtual {v3}, Landroid/graphics/Bitmap;->getWidth()I
@@ -321,7 +303,6 @@
 
     invoke-virtual {v1, v9, v9, v5, v6}, Landroid/graphics/Rect;->set(IIII)V
 
-    .line 17
     :goto_3
     new-instance v5, Landroid/graphics/Rect;
 
@@ -337,7 +318,6 @@
 
     if-eqz p3, :cond_a
 
-    .line 18
     invoke-virtual {v5}, Landroid/graphics/Rect;->width()I
 
     move-result v6
@@ -352,7 +332,6 @@
 
     if-le v6, v7, :cond_a
 
-    .line 19
     :cond_8
     invoke-virtual {v5}, Landroid/graphics/Rect;->width()I
 
@@ -364,7 +343,6 @@
 
     if-le v6, v8, :cond_9
 
-    .line 20
     invoke-virtual {v5}, Landroid/graphics/Rect;->height()I
 
     move-result v6
@@ -377,12 +355,10 @@
 
     div-int/2addr v6, v8
 
-    .line 21
     invoke-virtual {v5, v9, v9, v7, v6}, Landroid/graphics/Rect;->set(IIII)V
 
     goto :goto_4
 
-    .line 22
     :cond_9
     invoke-virtual {v5}, Landroid/graphics/Rect;->width()I
 
@@ -396,10 +372,8 @@
 
     div-int/2addr v6, v8
 
-    .line 23
     invoke-virtual {v5, v9, v9, v6, v7}, Landroid/graphics/Rect;->set(IIII)V
 
-    .line 24
     :cond_a
     :goto_4
     invoke-virtual {v5}, Landroid/graphics/Rect;->width()I
@@ -416,7 +390,6 @@
 
     move-result-object v6
 
-    .line 25
     new-instance v7, Landroid/graphics/Canvas;
 
     invoke-direct {v7, v6}, Landroid/graphics/Canvas;-><init>(Landroid/graphics/Bitmap;)V
@@ -425,20 +398,16 @@
 
     if-eqz v4, :cond_b
 
-    .line 26
     invoke-virtual {v7, v0, v1, v5, v8}, Landroid/graphics/Canvas;->drawBitmap(Landroid/graphics/Bitmap;Landroid/graphics/Rect;Landroid/graphics/Rect;Landroid/graphics/Paint;)V
 
     goto :goto_5
 
-    .line 27
     :cond_b
     invoke-virtual {v7, v3, v1, v5, v8}, Landroid/graphics/Canvas;->drawBitmap(Landroid/graphics/Bitmap;Landroid/graphics/Rect;Landroid/graphics/Rect;Landroid/graphics/Paint;)V
 
-    .line 28
     :goto_5
     invoke-static {v3}, Lcom/meitu/library/p/e/a;->T(Landroid/graphics/Bitmap;)V
 
-    .line 29
     new-instance v0, Lcotlin/Pair;
 
     invoke-direct {v0, v6, v1}, Lcotlin/Pair;-><init>(Ljava/lang/Object;Ljava/lang/Object;)V
@@ -471,7 +440,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -494,12 +462,10 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     new-instance v1, Lcom/meitu/template/bean/Sticker;
 
     invoke-direct {v1}, Lcom/meitu/template/bean/Sticker;-><init>()V
 
-    .line 2
     invoke-static {}, Lcom/commsource/studio/m0;->K()I
 
     move-result v2
@@ -508,7 +474,6 @@
 
     const/4 v2, -0x8
 
-    .line 3
     invoke-virtual {v1, v2}, Lcom/meitu/template/bean/Sticker;->setGroupId(I)V
 
     const/4 v2, 0x0
@@ -517,17 +482,14 @@
 
     const/4 v4, 0x0
 
-    .line 4
     invoke-static {v1, v2, v3, v4}, Lcom/meitu/template/bean/Sticker;->getStickerPath$default(Lcom/meitu/template/bean/Sticker;ZILjava/lang/Object;)Ljava/lang/String;
 
     move-result-object v5
 
     invoke-virtual {v1, v5}, Lcom/meitu/template/bean/Sticker;->setStickerThumbnail(Ljava/lang/String;)V
 
-    .line 5
     invoke-virtual {v1, v3}, Lcom/meitu/template/bean/e;->setDownloadState(I)V
 
-    .line 6
     sget-object v5, Lcom/commsource/studio/k;->V:Lcom/commsource/studio/k;
 
     invoke-virtual {v5}, Lcom/commsource/studio/k;->i()I
@@ -536,7 +498,6 @@
 
     invoke-virtual {v1, v5}, Lcom/meitu/template/bean/Sticker;->setContainInHistory(I)V
 
-    .line 7
     invoke-virtual {v1, v3}, Lcom/meitu/template/bean/Sticker;->setCustom(I)V
 
     const/4 v9, 0x0
@@ -551,7 +512,6 @@
 
     move-object v8, p1
 
-    .line 8
     invoke-static/range {v6 .. v11}, Lcom/commsource/studio/sticker/a;->B(Lcom/commsource/studio/sticker/a;Landroid/graphics/Bitmap;Landroid/graphics/Bitmap;ZILjava/lang/Object;)Lcotlin/Pair;
 
     move-result-object p1
@@ -562,14 +522,12 @@
 
     check-cast p1, Landroid/graphics/Bitmap;
 
-    .line 9
     invoke-virtual {v1}, Lcom/meitu/template/bean/Sticker;->getDownloadPath()Ljava/lang/String;
 
     move-result-object v5
 
     invoke-static {v5}, Lcom/meitu/library/p/g/b;->g(Ljava/lang/String;)Ljava/io/File;
 
-    .line 10
     invoke-static {v1, v2, v3, v4}, Lcom/meitu/template/bean/Sticker;->getStickerPath$default(Lcom/meitu/template/bean/Sticker;ZILjava/lang/Object;)Ljava/lang/String;
 
     move-result-object v2
@@ -580,10 +538,8 @@
 
     invoke-static {p1, v2, v4, v3}, Lcom/commsource/util/common/e;->D(Landroid/graphics/Bitmap;Ljava/lang/String;ILandroid/graphics/Bitmap$CompressFormat;)Z
 
-    .line 11
     invoke-static {p1}, Lcom/meitu/library/p/e/a;->T(Landroid/graphics/Bitmap;)V
 
-    .line 12
     sget-object p1, Lcom/commsource/studio/sticker/StickerManager;->p:Lcom/commsource/studio/sticker/StickerManager;
 
     invoke-virtual {p1}, Lcom/commsource/studio/sticker/StickerManager;->L()Lcom/commsource/beautyfilter/NoStickLiveData;
@@ -592,7 +548,6 @@
 
     invoke-virtual {p1, v1}, Lcom/commsource/beautyfilter/NoStickLiveData;->postValue(Ljava/lang/Object;)V
 
-    .line 13
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

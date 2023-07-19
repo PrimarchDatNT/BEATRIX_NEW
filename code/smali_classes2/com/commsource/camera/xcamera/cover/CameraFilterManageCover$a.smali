@@ -56,7 +56,6 @@
 
     const-string v1, "it"
 
-    .line 1
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {p1}, Ljava/lang/Boolean;->booleanValue()Z
@@ -65,25 +64,21 @@
 
     if-eqz p1, :cond_0
 
-    .line 2
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/CameraFilterManageCover$a;->a:Lcom/commsource/camera/xcamera/cover/CameraFilterManageCover;
 
     invoke-virtual {p1}, Lcom/commsource/camera/xcamera/cover/AbsLazyCover;->z()V
 
-    .line 3
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/CameraFilterManageCover$a;->a:Lcom/commsource/camera/xcamera/cover/CameraFilterManageCover;
 
     invoke-static {p1}, Lcom/commsource/camera/xcamera/cover/CameraFilterManageCover;->G(Lcom/commsource/camera/xcamera/cover/CameraFilterManageCover;)V
 
     goto :goto_0
 
-    .line 4
     :cond_0
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/CameraFilterManageCover$a;->a:Lcom/commsource/camera/xcamera/cover/CameraFilterManageCover;
 
     invoke-static {p1}, Lcom/commsource/camera/xcamera/cover/CameraFilterManageCover;->F(Lcom/commsource/camera/xcamera/cover/CameraFilterManageCover;)V
 
-    .line 5
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -97,7 +92,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Ljava/lang/Boolean;
 
     invoke-virtual {p0, p1}, Lcom/commsource/camera/xcamera/cover/CameraFilterManageCover$a;->a(Ljava/lang/Boolean;)V

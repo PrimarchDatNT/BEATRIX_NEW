@@ -32,7 +32,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lf/r/c/c/b$d;->b:Lf/r/c/c/b;
 
     iput-object p2, p0, Lf/r/c/c/b$d;->a:Ljava/lang/String;
@@ -47,7 +46,6 @@
 .method public run()V
     .locals 3
 
-    .line 1
     iget-object v0, p0, Lf/r/c/c/b$d;->b:Lf/r/c/c/b;
 
     invoke-static {v0}, Lf/r/c/c/b;->J(Lf/r/c/c/b;)Lf/r/c/d/a;

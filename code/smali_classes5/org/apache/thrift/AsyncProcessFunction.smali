@@ -26,10 +26,8 @@
 .method public constructor <init>(Ljava/lang/String;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lorg/apache/thrift/AsyncProcessFunction;->methodName:Ljava/lang/String;
 
     return-void
@@ -48,7 +46,6 @@
 .method public getMethodName()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lorg/apache/thrift/AsyncProcessFunction;->methodName:Ljava/lang/String;
 
     return-object v0
@@ -77,12 +74,10 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p1}, Lorg/apache/thrift/server/AbstractNonblockingServer$AsyncFrameBuffer;->getOutputProtocol()Lorg/apache/thrift/protocol/TProtocol;
 
     move-result-object v0
 
-    .line 2
     new-instance v1, Lorg/apache/thrift/protocol/TMessage;
 
     invoke-virtual {p0}, Lorg/apache/thrift/AsyncProcessFunction;->getMethodName()Ljava/lang/String;
@@ -93,20 +88,16 @@
 
     invoke-virtual {v0, v1}, Lorg/apache/thrift/protocol/TProtocol;->writeMessageBegin(Lorg/apache/thrift/protocol/TMessage;)V
 
-    .line 3
     invoke-interface {p2, v0}, Lorg/apache/thrift/TSerializable;->write(Lorg/apache/thrift/protocol/TProtocol;)V
 
-    .line 4
     invoke-virtual {v0}, Lorg/apache/thrift/protocol/TProtocol;->writeMessageEnd()V
 
-    .line 5
     invoke-virtual {v0}, Lorg/apache/thrift/protocol/TProtocol;->getTransport()Lorg/apache/thrift/transport/TTransport;
 
     move-result-object p2
 
     invoke-virtual {p2}, Lorg/apache/thrift/transport/TTransport;->flush()V
 
-    .line 6
     invoke-virtual {p1}, Lorg/apache/thrift/server/AbstractNonblockingServer$FrameBuffer;->responseReady()V
 
     return-void

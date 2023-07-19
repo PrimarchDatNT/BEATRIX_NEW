@@ -52,7 +52,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/meitu/core/openglEffect/MTTuneEffectParam$Type;
 
     const-string v2, "MT_Common"
@@ -63,7 +62,6 @@
 
     sput-object v1, Lcom/meitu/core/openglEffect/MTTuneEffectParam$Type;->MT_Common:Lcom/meitu/core/openglEffect/MTTuneEffectParam$Type;
 
-    .line 2
     new-instance v2, Lcom/meitu/core/openglEffect/MTTuneEffectParam$Type;
 
     const-string v4, "MT_EyeLift"
@@ -74,7 +72,6 @@
 
     sput-object v2, Lcom/meitu/core/openglEffect/MTTuneEffectParam$Type;->MT_EyeLift:Lcom/meitu/core/openglEffect/MTTuneEffectParam$Type;
 
-    .line 3
     new-instance v4, Lcom/meitu/core/openglEffect/MTTuneEffectParam$Type;
 
     const-string v6, "MT_NoseLift"
@@ -85,7 +82,6 @@
 
     sput-object v4, Lcom/meitu/core/openglEffect/MTTuneEffectParam$Type;->MT_NoseLift:Lcom/meitu/core/openglEffect/MTTuneEffectParam$Type;
 
-    .line 4
     new-instance v6, Lcom/meitu/core/openglEffect/MTTuneEffectParam$Type;
 
     const-string v8, "MT_MouthLift"
@@ -96,7 +92,6 @@
 
     sput-object v6, Lcom/meitu/core/openglEffect/MTTuneEffectParam$Type;->MT_MouthLift:Lcom/meitu/core/openglEffect/MTTuneEffectParam$Type;
 
-    .line 5
     new-instance v8, Lcom/meitu/core/openglEffect/MTTuneEffectParam$Type;
 
     const-string v10, "MT_FaceLift"
@@ -107,7 +102,6 @@
 
     sput-object v8, Lcom/meitu/core/openglEffect/MTTuneEffectParam$Type;->MT_FaceLift:Lcom/meitu/core/openglEffect/MTTuneEffectParam$Type;
 
-    .line 6
     new-instance v10, Lcom/meitu/core/openglEffect/MTTuneEffectParam$Type;
 
     const-string v12, "MT_Feature"
@@ -118,7 +112,6 @@
 
     sput-object v10, Lcom/meitu/core/openglEffect/MTTuneEffectParam$Type;->MT_Feature:Lcom/meitu/core/openglEffect/MTTuneEffectParam$Type;
 
-    .line 7
     new-instance v12, Lcom/meitu/core/openglEffect/MTTuneEffectParam$Type;
 
     const-string v14, "MT_Lighting"
@@ -129,7 +122,6 @@
 
     sput-object v12, Lcom/meitu/core/openglEffect/MTTuneEffectParam$Type;->MT_Lighting:Lcom/meitu/core/openglEffect/MTTuneEffectParam$Type;
 
-    .line 8
     new-instance v14, Lcom/meitu/core/openglEffect/MTTuneEffectParam$Type;
 
     const-string v0, "MT_Posturelift"
@@ -140,7 +132,6 @@
 
     sput-object v14, Lcom/meitu/core/openglEffect/MTTuneEffectParam$Type;->MT_Posturelift:Lcom/meitu/core/openglEffect/MTTuneEffectParam$Type;
 
-    .line 9
     new-instance v0, Lcom/meitu/core/openglEffect/MTTuneEffectParam$Type;
 
     const-string v15, "MT_EyeBrowLift"
@@ -179,7 +170,6 @@
 
     aput-object v0, v15, v13
 
-    .line 10
     sput-object v15, Lcom/meitu/core/openglEffect/MTTuneEffectParam$Type;->$VALUES:[Lcom/meitu/core/openglEffect/MTTuneEffectParam$Type;
 
     const v0, 0xbfa1
@@ -197,7 +187,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
     return-void
@@ -210,7 +199,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     const-class v1, Lcom/meitu/core/openglEffect/MTTuneEffectParam$Type;
 
     invoke-static {v1, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -231,7 +219,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/meitu/core/openglEffect/MTTuneEffectParam$Type;->$VALUES:[Lcom/meitu/core/openglEffect/MTTuneEffectParam$Type;
 
     invoke-virtual {v1}, [Lcom/meitu/core/openglEffect/MTTuneEffectParam$Type;->clone()Ljava/lang/Object;

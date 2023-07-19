@@ -17,7 +17,6 @@
 .method static constructor <clinit>()V
     .locals 2
 
-    .line 1
     sget-object v0, Lcom/bumptech/glide/load/c;->b:Ljava/nio/charset/Charset;
 
     const-string v1, "com.bumptech.glide.load.resource.bitmap.Rotate"
@@ -34,10 +33,8 @@
 .method public constructor <init>(I)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/bumptech/glide/load/resource/bitmap/h;-><init>()V
 
-    .line 2
     iput p1, p0, Lcom/bumptech/glide/load/resource/bitmap/z;->c:I
 
     return-void
@@ -52,14 +49,12 @@
         .end annotation
     .end param
 
-    .line 1
     sget-object v0, Lcom/bumptech/glide/load/resource/bitmap/z;->e:[B
 
     invoke-virtual {p1, v0}, Ljava/security/MessageDigest;->update([B)V
 
     const/4 v0, 0x4
 
-    .line 2
     invoke-static {v0}, Ljava/nio/ByteBuffer;->allocate(I)Ljava/nio/ByteBuffer;
 
     move-result-object v0
@@ -74,7 +69,6 @@
 
     move-result-object v0
 
-    .line 3
     invoke-virtual {p1, v0}, Ljava/security/MessageDigest;->update([B)V
 
     return-void
@@ -91,7 +85,6 @@
         .end annotation
     .end param
 
-    .line 1
     iget p1, p0, Lcom/bumptech/glide/load/resource/bitmap/z;->c:I
 
     invoke-static {p2, p1}, Lcom/bumptech/glide/load/resource/bitmap/c0;->n(Landroid/graphics/Bitmap;I)Landroid/graphics/Bitmap;
@@ -104,17 +97,14 @@
 .method public equals(Ljava/lang/Object;)Z
     .locals 2
 
-    .line 1
     instance-of v0, p1, Lcom/bumptech/glide/load/resource/bitmap/z;
 
     const/4 v1, 0x0
 
     if-eqz v0, :cond_0
 
-    .line 2
     check-cast p1, Lcom/bumptech/glide/load/resource/bitmap/z;
 
-    .line 3
     iget v0, p0, Lcom/bumptech/glide/load/resource/bitmap/z;->c:I
 
     iget p1, p1, Lcom/bumptech/glide/load/resource/bitmap/z;->c:I
@@ -130,7 +120,6 @@
 .method public hashCode()I
     .locals 2
 
-    .line 1
     iget v0, p0, Lcom/bumptech/glide/load/resource/bitmap/z;->c:I
 
     invoke-static {v0}, Lcom/bumptech/glide/s/m;->n(I)I

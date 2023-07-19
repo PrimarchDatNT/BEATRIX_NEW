@@ -27,7 +27,6 @@
 .method constructor <init>(Lcom/google/android/gms/internal/ads/gp;Landroid/content/Context;Landroid/content/Context;)V
     .locals 0
 
-    .line 1
     iput-object p2, p0, Lcom/google/android/gms/internal/ads/ip;->a:Landroid/content/Context;
 
     iput-object p3, p0, Lcom/google/android/gms/internal/ads/ip;->b:Landroid/content/Context;
@@ -47,7 +46,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/ip;->a:Landroid/content/Context;
 
     const-string v1, "admob_user_agent"
@@ -58,13 +56,10 @@
 
     const-string v0, "Attempting to read user agent from Google Play Services."
 
-    .line 2
     invoke-static {v0}, Lcom/google/android/gms/internal/ads/sm;->m(Ljava/lang/String;)V
 
-    .line 3
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/ip;->a:Landroid/content/Context;
 
-    .line 4
     invoke-virtual {v0, v1, v2}, Landroid/content/Context;->getSharedPreferences(Ljava/lang/String;I)Landroid/content/SharedPreferences;
 
     move-result-object v0
@@ -74,13 +69,10 @@
     :cond_0
     const-string v0, "Attempting to read user agent from local cache."
 
-    .line 5
     invoke-static {v0}, Lcom/google/android/gms/internal/ads/sm;->m(Ljava/lang/String;)V
 
-    .line 6
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/ip;->b:Landroid/content/Context;
 
-    .line 7
     invoke-virtual {v0, v1, v2}, Landroid/content/Context;->getSharedPreferences(Ljava/lang/String;I)Landroid/content/SharedPreferences;
 
     move-result-object v0
@@ -92,12 +84,10 @@
 
     const-string v3, ""
 
-    .line 8
     invoke-interface {v0, v1, v3}, Landroid/content/SharedPreferences;->getString(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v3
 
-    .line 9
     invoke-static {v3}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v4
@@ -106,10 +96,8 @@
 
     const-string v3, "Reading user agent from WebSettings"
 
-    .line 10
     invoke-static {v3}, Lcom/google/android/gms/internal/ads/sm;->m(Ljava/lang/String;)V
 
-    .line 11
     iget-object v3, p0, Lcom/google/android/gms/internal/ads/ip;->b:Landroid/content/Context;
 
     invoke-static {v3}, Landroid/webkit/WebSettings;->getDefaultUserAgent(Landroid/content/Context;)Ljava/lang/String;
@@ -118,7 +106,6 @@
 
     if-eqz v2, :cond_1
 
-    .line 12
     invoke-interface {v0}, Landroid/content/SharedPreferences;->edit()Landroid/content/SharedPreferences$Editor;
 
     move-result-object v0
@@ -131,7 +118,6 @@
 
     const-string v0, "Persisting user agent."
 
-    .line 13
     invoke-static {v0}, Lcom/google/android/gms/internal/ads/sm;->m(Ljava/lang/String;)V
 
     :cond_1

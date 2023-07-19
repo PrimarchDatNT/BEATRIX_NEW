@@ -42,12 +42,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/util/HashMap;
 
     invoke-direct {v1}, Ljava/util/HashMap;-><init>()V
 
-    .line 2
     iget-object v2, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/LookFragment$n$a;->a:Lcom/meitu/template/bean/LookMaterial;
 
     invoke-virtual {v2}, Lcom/meitu/template/bean/LookMaterial;->getOnlineId()J
@@ -64,10 +62,8 @@
 
     const-string v2, "selfie_look_imp"
 
-    .line 3
     invoke-static {v2, v1}, Lcom/commsource/statistics/i;->s(Ljava/lang/String;Ljava/util/Map;)V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

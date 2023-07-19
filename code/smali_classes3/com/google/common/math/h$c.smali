@@ -24,16 +24,12 @@
 .method private constructor <init>(II)V
     .locals 0
 
-    .line 2
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 3
     invoke-static {p2, p1}, Lcom/google/common/math/h;->a(II)V
 
-    .line 4
     iput p1, p0, Lcom/google/common/math/h$c;->a:I
 
-    .line 5
     iput p2, p0, Lcom/google/common/math/h$c;->b:I
 
     return-void
@@ -42,7 +38,6 @@
 .method synthetic constructor <init>(IILcom/google/common/math/h$a;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1, p2}, Lcom/google/common/math/h$c;-><init>(II)V
 
     return-void
@@ -62,7 +57,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p1}, Lcom/google/common/primitives/Doubles;->z(Ljava/util/Collection;)[D
 
     move-result-object p1
@@ -77,7 +71,6 @@
 .method public varargs b([D)D
     .locals 2
 
-    .line 1
     invoke-virtual {p1}, [D->clone()Ljava/lang/Object;
 
     move-result-object p1
@@ -94,7 +87,6 @@
 .method public varargs c([I)D
     .locals 2
 
-    .line 1
     invoke-static {p1}, Lcom/google/common/math/h;->c([I)[D
 
     move-result-object p1
@@ -109,7 +101,6 @@
 .method public varargs d([J)D
     .locals 2
 
-    .line 1
     invoke-static {p1}, Lcom/google/common/math/h;->b([J)[D
 
     move-result-object p1
@@ -124,7 +115,6 @@
 .method public varargs e([D)D
     .locals 13
 
-    .line 1
     array-length v0, p1
 
     const/4 v1, 0x0
@@ -145,7 +135,6 @@
 
     invoke-static {v0, v3}, Lcom/google/common/base/t;->e(ZLjava/lang/Object;)V
 
-    .line 2
     invoke-static {p1}, Lcom/google/common/math/h;->d([D)Z
 
     move-result v0
@@ -156,7 +145,6 @@
 
     return-wide v0
 
-    .line 3
     :cond_1
     iget v0, p0, Lcom/google/common/math/h$c;->b:I
 
@@ -170,7 +158,6 @@
 
     mul-long v3, v3, v5
 
-    .line 4
     iget v0, p0, Lcom/google/common/math/h$c;->a:I
 
     int-to-long v5, v0
@@ -185,7 +172,6 @@
 
     int-to-long v5, v0
 
-    .line 5
     iget v7, p0, Lcom/google/common/math/h$c;->a:I
 
     int-to-long v7, v7
@@ -196,7 +182,6 @@
 
     long-to-int v4, v3
 
-    .line 6
     array-length v3, p1
 
     sub-int/2addr v3, v2
@@ -205,7 +190,6 @@
 
     if-nez v4, :cond_2
 
-    .line 7
     aget-wide v0, p1, v0
 
     return-wide v0
@@ -213,14 +197,12 @@
     :cond_2
     add-int/lit8 v1, v0, 0x1
 
-    .line 8
     array-length v3, p1
 
     sub-int/2addr v3, v2
 
     invoke-static {v1, p1, v1, v3}, Lcom/google/common/math/h;->e(I[DII)V
 
-    .line 9
     aget-wide v5, p1, v0
 
     aget-wide v7, p1, v1

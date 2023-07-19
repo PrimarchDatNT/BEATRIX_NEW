@@ -29,14 +29,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/commsource/beautyplus/router/c;
 
     invoke-direct {v1}, Lcom/commsource/beautyplus/router/c;-><init>()V
 
     sput-object v1, Lcom/commsource/beautyplus/router/c;->b:Lcom/commsource/beautyplus/router/c;
 
-    .line 2
     new-instance v1, Ljava/util/LinkedList;
 
     invoke-direct {v1}, Ljava/util/LinkedList;-><init>()V
@@ -51,7 +49,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -82,15 +79,12 @@
 
     invoke-static {p2, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-virtual {p2, p1}, Lcom/commsource/beautyplus/router/h;->k(Lcom/commsource/beautyplus/router/e;)V
 
-    .line 2
     sget-object p1, Lcom/commsource/beautyplus/router/c;->a:Ljava/util/LinkedList;
 
     invoke-virtual {p1, p2}, Ljava/util/LinkedList;->add(Ljava/lang/Object;)Z
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -119,7 +113,6 @@
 
     invoke-static {p2, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     array-length v1, p2
 
     const/4 v2, 0x0
@@ -129,10 +122,8 @@
 
     aget-object v3, p2, v2
 
-    .line 2
     invoke-virtual {v3, p1}, Lcom/commsource/beautyplus/router/h;->k(Lcom/commsource/beautyplus/router/e;)V
 
-    .line 3
     sget-object v4, Lcom/commsource/beautyplus/router/c;->a:Ljava/util/LinkedList;
 
     invoke-virtual {v4, v3}, Ljava/util/LinkedList;->add(Ljava/lang/Object;)Z
@@ -141,7 +132,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -171,7 +161,6 @@
 
     invoke-static {p2, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     new-instance v1, Lcom/commsource/beautyplus/router/RouterEntity;
 
     invoke-direct {v1, p2}, Lcom/commsource/beautyplus/router/RouterEntity;-><init>(Landroid/net/Uri;)V
@@ -208,7 +197,6 @@
 
     invoke-static {p2, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-virtual {p2}, Lcom/commsource/beautyplus/router/RouterEntity;->getScheme()Ljava/lang/String;
 
     move-result-object v1
@@ -223,7 +211,6 @@
 
     if-nez v1, :cond_1
 
-    .line 2
     invoke-virtual {p2}, Lcom/commsource/beautyplus/router/RouterEntity;->getScheme()Ljava/lang/String;
 
     move-result-object v1
@@ -243,12 +230,10 @@
 
     if-nez v1, :cond_1
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v3
 
-    .line 4
     :cond_1
     sget-object v1, Lcom/commsource/beautyplus/router/g;->a:Lcom/commsource/beautyplus/router/g;
 
@@ -256,10 +241,8 @@
 
     move-result-object p2
 
-    .line 5
     sget-object v1, Lcom/commsource/beautyplus/router/c;->a:Ljava/util/LinkedList;
 
-    .line 6
     invoke-interface {v1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v1
@@ -279,7 +262,6 @@
 
     check-cast v5, Lcom/commsource/beautyplus/router/h;
 
-    .line 7
     invoke-virtual {v5, p2}, Lcom/commsource/beautyplus/router/h;->e(Lcom/commsource/beautyplus/router/RouterEntity;)Z
 
     move-result v6
@@ -294,7 +276,6 @@
     :goto_0
     if-eqz v5, :cond_2
 
-    .line 8
     invoke-virtual {v5}, Lcom/commsource/beautyplus/router/h;->d()Lcom/commsource/beautyplus/router/e;
 
     move-result-object v4
@@ -316,7 +297,6 @@
     :cond_5
     if-nez v4, :cond_6
 
-    .line 9
     sget-object p2, Lcom/commsource/util/i2;->d:Lcom/commsource/util/i2;
 
     invoke-virtual {p2}, Lcom/commsource/util/i2;->c()Z
@@ -325,10 +305,8 @@
 
     if-nez p2, :cond_6
 
-    .line 10
     invoke-static {p1}, Lcom/commsource/widget/dialog/s0/t;->f0(Landroid/content/Context;)V
 
-    .line 11
     :cond_6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -354,7 +332,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     new-instance v1, Lcom/commsource/beautyplus/router/RouterEntity;
 
     invoke-direct {v1, p2}, Lcom/commsource/beautyplus/router/RouterEntity;-><init>(Ljava/lang/String;)V

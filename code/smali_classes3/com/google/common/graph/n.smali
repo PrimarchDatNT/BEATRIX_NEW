@@ -71,15 +71,12 @@
         }
     .end annotation
 
-    .line 2
     invoke-direct {p0}, Lcom/google/common/collect/AbstractIterator;-><init>()V
 
     const/4 v0, 0x0
 
-    .line 3
     iput-object v0, p0, Lcom/google/common/graph/n;->f:Ljava/lang/Object;
 
-    .line 4
     invoke-static {}, Lcom/google/common/collect/ImmutableSet;->of()Lcom/google/common/collect/ImmutableSet;
 
     move-result-object v0
@@ -90,10 +87,8 @@
 
     iput-object v0, p0, Lcom/google/common/graph/n;->g:Ljava/util/Iterator;
 
-    .line 5
     iput-object p1, p0, Lcom/google/common/graph/n;->c:Lcom/google/common/graph/h;
 
-    .line 6
     invoke-interface {p1}, Lcom/google/common/graph/h;->m()Ljava/util/Set;
 
     move-result-object p1
@@ -110,7 +105,6 @@
 .method synthetic constructor <init>(Lcom/google/common/graph/h;Lcom/google/common/graph/n$a;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/google/common/graph/n;-><init>(Lcom/google/common/graph/h;)V
 
     return-void
@@ -130,7 +124,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-interface {p0}, Lcom/google/common/graph/h;->e()Z
 
     move-result v0
@@ -159,7 +152,6 @@
 .method protected final d()Z
     .locals 3
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/graph/n;->g:Ljava/util/Iterator;
 
     invoke-interface {v0}, Ljava/util/Iterator;->hasNext()Z
@@ -172,7 +164,6 @@
 
     invoke-static {v0}, Lcom/google/common/base/t;->g0(Z)V
 
-    .line 2
     iget-object v0, p0, Lcom/google/common/graph/n;->d:Ljava/util/Iterator;
 
     invoke-interface {v0}, Ljava/util/Iterator;->hasNext()Z
@@ -185,7 +176,6 @@
 
     return v0
 
-    .line 3
     :cond_0
     iget-object v0, p0, Lcom/google/common/graph/n;->d:Ljava/util/Iterator;
 
@@ -195,7 +185,6 @@
 
     iput-object v0, p0, Lcom/google/common/graph/n;->f:Ljava/lang/Object;
 
-    .line 4
     iget-object v2, p0, Lcom/google/common/graph/n;->c:Lcom/google/common/graph/h;
 
     invoke-interface {v2, v0}, Lcom/google/common/graph/h;->b(Ljava/lang/Object;)Ljava/util/Set;

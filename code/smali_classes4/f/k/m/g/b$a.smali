@@ -42,14 +42,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lf/k/m/g/b$a;->a:Lf/k/m/g/b;
 
     const/4 v2, 0x0
 
     invoke-static {v1, v2}, Lf/k/m/g/b;->l(Lf/k/m/g/b;Z)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

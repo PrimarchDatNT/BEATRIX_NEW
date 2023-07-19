@@ -23,7 +23,6 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
     invoke-static {}, Lcom/google/android/gms/internal/measurement/y0;->a()Z
 
     move-result v0
@@ -34,7 +33,6 @@
 
     const/4 v0, 0x0
 
-    .line 2
     sput-boolean v0, Lcom/google/android/gms/internal/measurement/y0;->c:Z
 
     return-void
@@ -43,7 +41,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -52,7 +49,6 @@
 .method public static a()Z
     .locals 2
 
-    .line 1
     sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
 
     const/16 v1, 0x18
@@ -72,7 +68,6 @@
 .method public static b(Landroid/content/Context;)Z
     .locals 1
 
-    .line 1
     invoke-static {}, Lcom/google/android/gms/internal/measurement/y0;->a()Z
 
     move-result v0
@@ -126,12 +121,10 @@
 
     if-gt v1, v2, :cond_4
 
-    .line 1
     sget-object v2, Lcom/google/android/gms/internal/measurement/y0;->a:Landroid/os/UserManager;
 
     if-nez v2, :cond_0
 
-    .line 2
     const-class v2, Landroid/os/UserManager;
 
     invoke-virtual {p0, v2}, Landroid/content/Context;->getSystemService(Ljava/lang/Class;)Ljava/lang/Object;
@@ -142,7 +135,6 @@
 
     sput-object v2, Lcom/google/android/gms/internal/measurement/y0;->a:Landroid/os/UserManager;
 
-    .line 3
     :cond_0
     sget-object v2, Lcom/google/android/gms/internal/measurement/y0;->a:Landroid/os/UserManager;
 
@@ -150,7 +142,6 @@
 
     return v0
 
-    .line 4
     :cond_1
     :try_start_0
     invoke-virtual {v2}, Landroid/os/UserManager;->isUserUnlocked()Z
@@ -159,7 +150,6 @@
 
     if-nez v5, :cond_3
 
-    .line 5
     invoke-static {}, Landroid/os/Process;->myUserHandle()Landroid/os/UserHandle;
 
     move-result-object v5
@@ -190,10 +180,8 @@
 
     const-string v5, "Failed to check if user is unlocked."
 
-    .line 6
     invoke-static {v4, v5, v2}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
 
-    .line 7
     sput-object v3, Lcom/google/android/gms/internal/measurement/y0;->a:Landroid/os/UserManager;
 
     add-int/lit8 v1, v1, 0x1
@@ -204,7 +192,6 @@
     :goto_2
     if-eqz v4, :cond_5
 
-    .line 8
     sput-object v3, Lcom/google/android/gms/internal/measurement/y0;->a:Landroid/os/UserManager;
 
     :cond_5
@@ -221,7 +208,6 @@
         value = 0x18
     .end annotation
 
-    .line 1
     sget-boolean v0, Lcom/google/android/gms/internal/measurement/y0;->b:Z
 
     const/4 v1, 0x1
@@ -230,24 +216,20 @@
 
     return v1
 
-    .line 2
     :cond_0
     const-class v0, Lcom/google/android/gms/internal/measurement/y0;
 
     monitor-enter v0
 
-    .line 3
     :try_start_0
     sget-boolean v2, Lcom/google/android/gms/internal/measurement/y0;->b:Z
 
     if-eqz v2, :cond_1
 
-    .line 4
     monitor-exit v0
 
     return v1
 
-    .line 5
     :cond_1
     invoke-static {p0}, Lcom/google/android/gms/internal/measurement/y0;->c(Landroid/content/Context;)Z
 
@@ -255,10 +237,8 @@
 
     if-eqz p0, :cond_2
 
-    .line 6
     sput-boolean p0, Lcom/google/android/gms/internal/measurement/y0;->b:Z
 
-    .line 7
     :cond_2
     monitor-exit v0
 

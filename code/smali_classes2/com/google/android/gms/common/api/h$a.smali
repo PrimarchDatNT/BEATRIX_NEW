@@ -39,7 +39,6 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
     new-instance v0, Lcom/google/android/gms/common/api/h$a$a;
 
     invoke-direct {v0}, Lcom/google/android/gms/common/api/h$a$a;-><init>()V
@@ -58,13 +57,10 @@
     .annotation build Lcom/google/android/gms/common/annotation/a;
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/google/android/gms/common/api/h$a;->a:Lcom/google/android/gms/common/api/internal/u;
 
-    .line 3
     iput-object p3, p0, Lcom/google/android/gms/common/api/h$a;->b:Landroid/os/Looper;
 
     return-void
@@ -75,7 +71,6 @@
 
     const/4 p2, 0x0
 
-    .line 4
     invoke-direct {p0, p1, p2, p3}, Lcom/google/android/gms/common/api/h$a;-><init>(Lcom/google/android/gms/common/api/internal/u;Landroid/accounts/Account;Landroid/os/Looper;)V
 
     return-void

@@ -47,13 +47,10 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-direct {p0, p1, p2}, Landroid/util/Pair;-><init>(Ljava/lang/Object;Ljava/lang/Object;)V
 
-    .line 2
     iput-object p1, p0, Lcom/mopub/mobileads/RewardedAdData$TwoPartKey;->adAdapter:Lcom/mopub/mobileads/AdAdapter;
 
-    .line 3
     iput-object p2, p0, Lcom/mopub/mobileads/RewardedAdData$TwoPartKey;->adNetworkId:Ljava/lang/String;
 
     return-void

@@ -34,10 +34,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     invoke-static {p1}, Lcom/google/android/gms/internal/ads/vo;->m(Landroid/util/JsonReader;)Lorg/json/JSONObject;
 
     move-result-object p1
@@ -48,7 +46,6 @@
 
     const/4 v1, 0x0
 
-    .line 3
     invoke-virtual {p1, v0, v1}, Lorg/json/JSONObject;->optString(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
@@ -57,7 +54,6 @@
 
     const-string v0, "ad_base_url"
 
-    .line 4
     invoke-virtual {p1, v0, v1}, Lorg/json/JSONObject;->optString(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
@@ -66,7 +62,6 @@
 
     const-string v0, "ad_json"
 
-    .line 5
     invoke-virtual {p1, v0}, Lorg/json/JSONObject;->optJSONObject(Ljava/lang/String;)Lorg/json/JSONObject;
 
     move-result-object p1
@@ -86,7 +81,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/xg1;->d:Lorg/json/JSONObject;
 
     invoke-static {p1, v0}, Lcom/google/android/gms/internal/ads/vo;->h(Landroid/util/JsonWriter;Lorg/json/JSONObject;)V

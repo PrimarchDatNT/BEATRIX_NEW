@@ -60,7 +60,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 2
     iget-object v0, p0, Lcotlin/jvm/internal/TypeReference$asString$args$1;->this$0:Lcotlin/jvm/internal/TypeReference;
 
     invoke-static {v0, p1}, Lcotlin/jvm/internal/TypeReference;->f(Lcotlin/jvm/internal/TypeReference;Lcotlin/reflect/t;)Ljava/lang/String;
@@ -73,7 +72,6 @@
 .method public bridge synthetic invoke(Ljava/lang/Object;)Ljava/lang/Object;
     .locals 0
 
-    .line 1
     check-cast p1, Lcotlin/reflect/t;
 
     invoke-virtual {p0, p1}, Lcotlin/jvm/internal/TypeReference$asString$args$1;->invoke(Lcotlin/reflect/t;)Ljava/lang/CharSequence;

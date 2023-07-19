@@ -25,7 +25,6 @@
 .method constructor <init>(Lcom/meitu/library/j/f/a;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/library/j/f/a$b;->a:Lcom/meitu/library/j/f/a;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -42,7 +41,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -65,19 +63,16 @@
 
     invoke-static {v2, v1}, Lcom/meitu/library/gid/base/v;->b(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 2
     invoke-static {}, Lcom/meitu/library/gid/base/u;->x()Lcom/meitu/library/gid/base/u;
 
     move-result-object v1
 
     if-nez v1, :cond_0
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 4
     :cond_0
     sget-object v3, Lcom/meitu/library/gid/base/PrivacyControl;->C_ANDROID_ID:Lcom/meitu/library/gid/base/PrivacyControl;
 
@@ -89,7 +84,6 @@
 
     if-eqz v1, :cond_5
 
-    .line 5
     iget-object v1, p0, Lcom/meitu/library/j/f/a$b;->a:Lcom/meitu/library/j/f/a;
 
     invoke-static {v1}, Lcom/meitu/library/j/f/a;->c(Lcom/meitu/library/j/f/a;)Lcom/meitu/library/gid/base/u;
@@ -110,7 +104,6 @@
 
     const-string v5, ""
 
-    .line 6
     invoke-virtual {v1, v5}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v5
@@ -119,11 +112,9 @@
 
     goto :goto_0
 
-    .line 7
     :cond_1
     invoke-static {v3}, Lcom/meitu/library/j/f/a;->e(I)I
 
-    .line 8
     iget-object v4, p0, Lcom/meitu/library/j/f/a$b;->a:Lcom/meitu/library/j/f/a;
 
     invoke-static {v4}, Lcom/meitu/library/j/f/a;->c(Lcom/meitu/library/j/f/a;)Lcom/meitu/library/gid/base/u;
@@ -142,14 +133,12 @@
 
     check-cast v4, Ljava/lang/String;
 
-    .line 9
     invoke-virtual {v1, v4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v4
 
     if-nez v4, :cond_2
 
-    .line 10
     iget-object v4, p0, Lcom/meitu/library/j/f/a$b;->a:Lcom/meitu/library/j/f/a;
 
     invoke-static {v4}, Lcom/meitu/library/j/f/a;->c(Lcom/meitu/library/j/f/a;)Lcom/meitu/library/gid/base/u;
@@ -162,7 +151,6 @@
 
     invoke-virtual {v4, v5, v1}, Lcom/meitu/library/gid/base/s0/f;->j(Lcom/meitu/library/gid/base/s0/c;Ljava/lang/Object;)Lcom/meitu/library/gid/base/s0/f;
 
-    .line 11
     :cond_2
     new-instance v1, Ljava/lang/StringBuilder;
 
@@ -186,7 +174,6 @@
 
     goto :goto_1
 
-    .line 12
     :cond_3
     :goto_0
     invoke-static {}, Lcom/meitu/library/j/f/a;->d()I
@@ -197,10 +184,8 @@
 
     if-ge v1, v5, :cond_4
 
-    .line 13
     invoke-static {}, Lcom/meitu/library/j/f/a;->f()I
 
-    .line 14
     iget-object v1, p0, Lcom/meitu/library/j/f/a$b;->a:Lcom/meitu/library/j/f/a;
 
     invoke-static {v1}, Lcom/meitu/library/j/f/a;->c(Lcom/meitu/library/j/f/a;)Lcom/meitu/library/gid/base/u;
@@ -223,7 +208,6 @@
 
     invoke-virtual {v1, v5, v6}, Lcom/meitu/library/gid/base/s0/f;->j(Lcom/meitu/library/gid/base/s0/c;Ljava/lang/Object;)Lcom/meitu/library/gid/base/s0/f;
 
-    .line 15
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -256,7 +240,6 @@
 
     invoke-static {v2, v1}, Lcom/meitu/library/gid/base/v;->d(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 16
     invoke-static {}, Lcom/meitu/library/gid/base/m0/f;->g()Lcom/meitu/library/gid/base/m0/h;
 
     move-result-object v1
@@ -287,11 +270,9 @@
 
     goto :goto_1
 
-    .line 17
     :cond_4
     invoke-static {v3}, Lcom/meitu/library/j/f/a;->e(I)I
 
-    .line 18
     :cond_5
     :goto_1
     invoke-static {}, Lcom/meitu/library/j/f/a;->d()I
@@ -302,37 +283,30 @@
 
     const-string v1, "====== updateCount == 0"
 
-    .line 19
     invoke-static {v2, v1}, Lcom/meitu/library/gid/base/v;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     const/4 v1, 0x1
 
-    .line 20
     invoke-static {v1}, Lcom/meitu/library/j/f/a;->h(Z)Z
 
-    .line 21
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v1
 
     invoke-static {v1, v2}, Lcom/meitu/library/j/f/a;->b(J)J
 
-    .line 22
     iget-object v1, p0, Lcom/meitu/library/j/f/a$b;->a:Lcom/meitu/library/j/f/a;
 
     invoke-static {v1}, Lcom/meitu/library/j/f/a;->i(Lcom/meitu/library/j/f/a;)V
 
-    .line 23
     invoke-static {v3}, Lcom/meitu/library/j/f/a;->h(Z)Z
 
-    .line 24
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v1
 
     invoke-static {v1, v2}, Lcom/meitu/library/j/f/a;->b(J)J
 
-    .line 25
     :cond_6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

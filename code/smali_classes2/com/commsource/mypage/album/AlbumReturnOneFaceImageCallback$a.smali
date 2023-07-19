@@ -113,7 +113,6 @@
 
     invoke-static {p2, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/util/p2/b;-><init>()V
 
     iput-object p1, p0, Lcom/commsource/mypage/album/AlbumReturnOneFaceImageCallback$a;->a:Landroid/content/Intent;
@@ -150,7 +149,6 @@
 
     const-string p2, "EXTRA_IMAGE"
 
-    .line 1
     invoke-virtual {p3, p2}, Landroid/content/Intent;->getParcelableExtra(Ljava/lang/String;)Landroid/os/Parcelable;
 
     move-result-object p2
@@ -179,12 +177,10 @@
 
     const-string v1, "EXTRA_FACE_INDEX"
 
-    .line 2
     invoke-virtual {p3, v1, p2}, Landroid/content/Intent;->getIntExtra(Ljava/lang/String;I)I
 
     move-result p2
 
-    .line 3
     iget-object p3, p0, Lcom/commsource/mypage/album/AlbumReturnOneFaceImageCallback$a;->b:Lcotlin/jvm/u/p;
 
     invoke-static {p2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -196,7 +192,6 @@
     :cond_2
     const/4 p1, 0x1
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
@@ -217,14 +212,12 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/mypage/album/AlbumReturnOneFaceImageCallback$a;->a:Landroid/content/Intent;
 
     const/16 v2, 0xa9
 
     invoke-virtual {p1, v1, v2}, Landroidx/fragment/app/Fragment;->startActivityForResult(Landroid/content/Intent;I)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -250,7 +243,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/mypage/album/AlbumReturnOneFaceImageCallback$a;->b:Lcotlin/jvm/u/p;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -267,7 +259,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/mypage/album/AlbumReturnOneFaceImageCallback$a;->a:Landroid/content/Intent;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

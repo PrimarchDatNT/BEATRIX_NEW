@@ -11,7 +11,6 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
     new-instance v0, Lorg/apache/http/impl/io/EmptyInputStream;
 
     invoke-direct {v0}, Lorg/apache/http/impl/io/EmptyInputStream;-><init>()V
@@ -24,7 +23,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/io/InputStream;-><init>()V
 
     return-void

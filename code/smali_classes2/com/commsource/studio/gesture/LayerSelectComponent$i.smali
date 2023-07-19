@@ -28,7 +28,6 @@
 
     iput-object p1, p0, Lcom/commsource/studio/gesture/LayerSelectComponent$i;->a:Lcom/commsource/studio/gesture/LayerSelectComponent;
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -43,12 +42,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/gesture/LayerSelectComponent$i;->a:Lcom/commsource/studio/gesture/LayerSelectComponent;
 
     invoke-static {v1}, Lcom/commsource/studio/gesture/LayerSelectComponent;->h(Lcom/commsource/studio/gesture/LayerSelectComponent;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

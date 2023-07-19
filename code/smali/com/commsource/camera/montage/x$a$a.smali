@@ -30,7 +30,6 @@
 .method constructor <init>(Lcom/commsource/camera/montage/x$a;Landroid/widget/ImageView;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/camera/montage/x$a$a;->M:Lcom/commsource/camera/montage/x$a;
 
     invoke-direct {p0, p2}, Lcom/bumptech/glide/request/j/j;-><init>(Landroid/widget/ImageView;)V
@@ -51,10 +50,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0, p1}, Lcom/bumptech/glide/request/j/j;->V1(Landroid/graphics/drawable/Drawable;)V
 
-    .line 2
     iget-object p1, p0, Lcom/commsource/camera/montage/x$a$a;->M:Lcom/commsource/camera/montage/x$a;
 
     invoke-static {p1}, Lcom/commsource/camera/montage/x$a;->a(Lcom/commsource/camera/montage/x$a;)Lcom/commsource/widget/SelectImageView;
@@ -65,7 +62,6 @@
 
     invoke-virtual {p1, v1}, Lcom/commsource/widget/SelectImageView;->setBlackSelectColor(Z)V
 
-    .line 3
     iget-object p1, p0, Lcom/commsource/camera/montage/x$a$a;->M:Lcom/commsource/camera/montage/x$a;
 
     invoke-static {p1}, Lcom/commsource/camera/montage/x$a;->a(Lcom/commsource/camera/montage/x$a;)Lcom/commsource/widget/SelectImageView;
@@ -76,7 +72,6 @@
 
     invoke-virtual {p1, v1}, Landroidx/appcompat/widget/AppCompatImageView;->setImageResource(I)V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -93,10 +88,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0, p1}, Lcom/bumptech/glide/request/j/j;->Z1(Landroid/graphics/drawable/Drawable;)V
 
-    .line 2
     iget-object p1, p0, Lcom/commsource/camera/montage/x$a$a;->M:Lcom/commsource/camera/montage/x$a;
 
     invoke-static {p1}, Lcom/commsource/camera/montage/x$a;->a(Lcom/commsource/camera/montage/x$a;)Lcom/commsource/widget/SelectImageView;
@@ -107,7 +100,6 @@
 
     invoke-virtual {p1, v1}, Lcom/commsource/widget/SelectImageView;->setBlackSelectColor(Z)V
 
-    .line 3
     iget-object p1, p0, Lcom/commsource/camera/montage/x$a$a;->M:Lcom/commsource/camera/montage/x$a;
 
     invoke-static {p1}, Lcom/commsource/camera/montage/x$a;->a(Lcom/commsource/camera/montage/x$a;)Lcom/commsource/widget/SelectImageView;
@@ -118,7 +110,6 @@
 
     invoke-virtual {p1, v1}, Landroidx/appcompat/widget/AppCompatImageView;->setImageResource(I)V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -135,7 +126,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Landroid/graphics/drawable/Drawable;
 
     invoke-virtual {p0, p1}, Lcom/commsource/camera/montage/x$a$a;->o(Landroid/graphics/drawable/Drawable;)V
@@ -156,7 +146,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/montage/x$a$a;->M:Lcom/commsource/camera/montage/x$a;
 
     invoke-static {v1}, Lcom/commsource/camera/montage/x$a;->a(Lcom/commsource/camera/montage/x$a;)Lcom/commsource/widget/SelectImageView;
@@ -167,7 +156,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/widget/SelectImageView;->setBlackSelectColor(Z)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/camera/montage/x$a$a;->M:Lcom/commsource/camera/montage/x$a;
 
     invoke-static {v1}, Lcom/commsource/camera/montage/x$a;->a(Lcom/commsource/camera/montage/x$a;)Lcom/commsource/widget/SelectImageView;
@@ -176,7 +164,6 @@
 
     invoke-virtual {v1, p1}, Landroidx/appcompat/widget/AppCompatImageView;->setImageDrawable(Landroid/graphics/drawable/Drawable;)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

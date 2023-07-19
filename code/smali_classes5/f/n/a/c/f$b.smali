@@ -29,7 +29,6 @@
 .method constructor <init>(Lf/n/a/c/f;IJ)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lf/n/a/c/f$b;->c:Lf/n/a/c/f;
 
     iput p2, p0, Lf/n/a/c/f$b;->a:I
@@ -46,7 +45,6 @@
 .method public a(Lcom/qiniu/android/http/g;Lorg/json/JSONObject;)V
     .locals 4
 
-    .line 1
     invoke-virtual {p1}, Lcom/qiniu/android/http/g;->h()Z
 
     move-result v0
@@ -59,7 +57,6 @@
 
     if-nez v0, :cond_0
 
-    .line 2
     iget-object v0, p0, Lf/n/a/c/f$b;->c:Lf/n/a/c/f;
 
     invoke-static {v0}, Lf/n/a/c/f;->b(Lf/n/a/c/f;)Lf/n/a/c/l;
@@ -70,14 +67,12 @@
 
     invoke-interface {v0}, Lf/n/a/c/d;->a()V
 
-    .line 3
     invoke-static {}, Lf/n/a/d/b;->c()Z
 
     move-result v0
 
     if-nez v0, :cond_0
 
-    .line 4
     iget-object v0, p0, Lf/n/a/c/f$b;->c:Lf/n/a/c/f;
 
     invoke-static {v0}, Lf/n/a/c/f;->i(Lf/n/a/c/f;)Lf/n/a/c/h;
@@ -94,7 +89,6 @@
 
     return-void
 
-    .line 5
     :cond_0
     invoke-virtual {p1}, Lcom/qiniu/android/http/g;->j()Z
 
@@ -102,12 +96,10 @@
 
     if-eqz v0, :cond_1
 
-    .line 6
     iget-object v0, p0, Lf/n/a/c/f$b;->c:Lf/n/a/c/f;
 
     invoke-static {v0}, Lf/n/a/c/f;->j(Lf/n/a/c/f;)V
 
-    .line 7
     iget-object v0, p0, Lf/n/a/c/f$b;->c:Lf/n/a/c/f;
 
     invoke-static {v0}, Lf/n/a/c/f;->b(Lf/n/a/c/f;)Lf/n/a/c/l;
@@ -126,7 +118,6 @@
 
     invoke-interface {v0, v1, v2, v3}, Lf/n/a/c/i;->a(Ljava/lang/String;D)V
 
-    .line 8
     iget-object v0, p0, Lf/n/a/c/f$b;->c:Lf/n/a/c/f;
 
     invoke-static {v0}, Lf/n/a/c/f;->i(Lf/n/a/c/f;)Lf/n/a/c/h;
@@ -143,7 +134,6 @@
 
     return-void
 
-    .line 9
     :cond_1
     iget-object v0, p0, Lf/n/a/c/f$b;->c:Lf/n/a/c/f;
 
@@ -167,7 +157,6 @@
 
     if-eqz v0, :cond_4
 
-    .line 10
     invoke-virtual {p1}, Lcom/qiniu/android/http/g;->i()Z
 
     move-result v0
@@ -198,7 +187,6 @@
 
     iget-object v1, p0, Lf/n/a/c/f$b;->c:Lf/n/a/c/f;
 
-    .line 11
     invoke-static {v1}, Lf/n/a/c/f;->l(Lf/n/a/c/f;)Lf/n/a/c/a;
 
     move-result-object v1
@@ -207,7 +195,6 @@
 
     if-ge v0, v1, :cond_4
 
-    .line 12
     iget-object p1, p0, Lf/n/a/c/f$b;->c:Lf/n/a/c/f;
 
     iget-wide v0, p0, Lf/n/a/c/f$b;->b:J
@@ -240,7 +227,6 @@
 
     return-void
 
-    .line 13
     :cond_4
     iget-object v0, p0, Lf/n/a/c/f$b;->c:Lf/n/a/c/f;
 

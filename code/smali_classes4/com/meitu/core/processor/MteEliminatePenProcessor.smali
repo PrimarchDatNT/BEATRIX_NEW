@@ -7,7 +7,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/meitu/core/NativeBaseClass;-><init>()V
 
     return-void
@@ -24,7 +23,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     invoke-virtual {p0}, Lcom/meitu/core/types/NativeBitmap;->nativeInstance()J
 
     move-result-wide v1
@@ -40,7 +38,6 @@
     :cond_0
     const/4 p0, 0x0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p0
@@ -57,7 +54,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     invoke-static {p0, p1}, Lcom/meitu/core/processor/MteEliminatePenProcessor;->nativeEliminatePen_bitmap(Landroid/graphics/Bitmap;Landroid/graphics/Bitmap;)Z
 
     move-result p0
@@ -69,7 +65,6 @@
     :cond_0
     const/4 p0, 0x0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p0

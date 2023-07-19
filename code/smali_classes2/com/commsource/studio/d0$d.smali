@@ -38,7 +38,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/d0$d;->b:Lcom/commsource/studio/d0;
 
     iput-object p2, p0, Lcom/commsource/studio/d0$d;->c:Lcotlin/jvm/u/a;
@@ -57,7 +56,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/d0$d;->a:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -72,7 +70,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/studio/d0$d;->a:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -95,7 +92,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-virtual {p1}, Landroid/animation/ValueAnimator;->getAnimatedValue()Ljava/lang/Object;
 
     move-result-object p1
@@ -108,7 +104,6 @@
 
     move-result p1
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/d0$d;->b:Lcom/commsource/studio/d0;
 
     invoke-virtual {v1}, Lcom/commsource/studio/d0;->h()Landroid/graphics/Rect;
@@ -121,7 +116,6 @@
 
     if-eqz v3, :cond_0
 
-    .line 3
     iget v3, p0, Lcom/commsource/studio/d0$d;->a:F
 
     sub-float v4, p1, v3
@@ -130,7 +124,6 @@
 
     div-float/2addr v4, v2
 
-    .line 4
     iget v2, v1, Landroid/graphics/Rect;->left:I
 
     iget-object v3, p0, Lcom/commsource/studio/d0$d;->b:Lcom/commsource/studio/d0;
@@ -147,7 +140,6 @@
 
     iput v2, v1, Landroid/graphics/Rect;->left:I
 
-    .line 5
     iget v2, v1, Landroid/graphics/Rect;->top:I
 
     iget-object v3, p0, Lcom/commsource/studio/d0$d;->b:Lcom/commsource/studio/d0;
@@ -164,7 +156,6 @@
 
     iput v2, v1, Landroid/graphics/Rect;->top:I
 
-    .line 6
     iget v2, v1, Landroid/graphics/Rect;->right:I
 
     iget-object v3, p0, Lcom/commsource/studio/d0$d;->b:Lcom/commsource/studio/d0;
@@ -181,7 +172,6 @@
 
     iput v2, v1, Landroid/graphics/Rect;->right:I
 
-    .line 7
     iget v2, v1, Landroid/graphics/Rect;->bottom:I
 
     iget-object v3, p0, Lcom/commsource/studio/d0$d;->b:Lcom/commsource/studio/d0;
@@ -200,7 +190,6 @@
 
     goto :goto_0
 
-    .line 8
     :cond_0
     iget-object v2, p0, Lcom/commsource/studio/d0$d;->b:Lcom/commsource/studio/d0;
 
@@ -210,7 +199,6 @@
 
     invoke-virtual {v1, v2}, Landroid/graphics/Rect;->set(Landroid/graphics/Rect;)V
 
-    .line 9
     iget-object v1, p0, Lcom/commsource/studio/d0$d;->c:Lcotlin/jvm/u/a;
 
     if-eqz v1, :cond_1
@@ -221,7 +209,6 @@
 
     check-cast v1, Lcotlin/t1;
 
-    .line 10
     :cond_1
     :goto_0
     iget-object v1, p0, Lcom/commsource/studio/d0$d;->b:Lcom/commsource/studio/d0;
@@ -238,16 +225,13 @@
 
     check-cast v1, Lcotlin/t1;
 
-    .line 11
     :cond_2
     iput p1, p0, Lcom/commsource/studio/d0$d;->a:F
 
-    .line 12
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 13
     :cond_3
     new-instance p1, Lcotlin/TypeCastException;
 

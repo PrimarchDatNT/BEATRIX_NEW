@@ -46,7 +46,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/mypage/album/PuzzleComponent$g$a;->b:I
 
     const/4 v2, 0x1
@@ -57,7 +56,6 @@
 
     sget v1, Lcom/res/provider/ResSTRING;->image_bad:I
 
-    .line 2
     invoke-static {v1}, Lf/k/c/c/f;->r(I)V
 
     goto/16 :goto_1
@@ -65,12 +63,10 @@
     :cond_0
     sget v1, Lcom/res/provider/ResSTRING;->t_not_support_ratio:I
 
-    .line 3
     invoke-static {v1}, Lf/k/c/c/f;->r(I)V
 
     goto/16 :goto_1
 
-    .line 4
     :cond_1
     iget-object v1, p0, Lcom/commsource/mypage/album/PuzzleComponent$g$a;->a:Lcom/commsource/mypage/album/PuzzleComponent$g;
 
@@ -78,7 +74,6 @@
 
     if-eqz v3, :cond_3
 
-    .line 5
     iget-object v1, v1, Lcom/commsource/mypage/album/PuzzleComponent$g;->a:Lcom/commsource/mypage/album/PuzzleComponent;
 
     invoke-static {v1}, Lcom/commsource/mypage/album/PuzzleComponent;->f(Lcom/commsource/mypage/album/PuzzleComponent;)Lcom/commsource/mypage/m0/d;
@@ -93,7 +88,6 @@
 
     if-nez v1, :cond_2
 
-    .line 6
     iget-object v1, p0, Lcom/commsource/mypage/album/PuzzleComponent$g$a;->a:Lcom/commsource/mypage/album/PuzzleComponent$g;
 
     iget-object v1, v1, Lcom/commsource/mypage/album/PuzzleComponent$g;->a:Lcom/commsource/mypage/album/PuzzleComponent;
@@ -123,10 +117,8 @@
     :cond_2
     sget v1, Lcom/res/provider/ResSTRING;->puzzle_max:I
 
-    .line 7
     invoke-static {v1}, Lf/k/c/c/f;->r(I)V
 
-    .line 8
     :cond_3
     :goto_0
     iget-object v1, p0, Lcom/commsource/mypage/album/PuzzleComponent$g$a;->a:Lcom/commsource/mypage/album/PuzzleComponent$g;
@@ -147,7 +139,6 @@
 
     if-ne v1, v2, :cond_4
 
-    .line 9
     iget-object v1, p0, Lcom/commsource/mypage/album/PuzzleComponent$g$a;->a:Lcom/commsource/mypage/album/PuzzleComponent$g;
 
     iget-object v1, v1, Lcom/commsource/mypage/album/PuzzleComponent$g;->a:Lcom/commsource/mypage/album/PuzzleComponent;
@@ -170,7 +161,6 @@
 
     goto :goto_1
 
-    .line 10
     :cond_4
     iget-object v1, p0, Lcom/commsource/mypage/album/PuzzleComponent$g$a;->a:Lcom/commsource/mypage/album/PuzzleComponent$g;
 
@@ -192,7 +182,6 @@
 
     invoke-virtual {v1, v2}, Landroid/widget/FrameLayout;->setAlpha(F)V
 
-    .line 11
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

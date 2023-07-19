@@ -24,14 +24,12 @@
 .method constructor <init>(Lio/grpc/okhttp/a;)V
     .locals 1
 
-    .line 1
     iput-object p1, p0, Lio/grpc/okhttp/a$a;->c:Lio/grpc/okhttp/a;
 
     const/4 v0, 0x0
 
     invoke-direct {p0, p1, v0}, Lio/grpc/okhttp/a$d;-><init>(Lio/grpc/okhttp/a;Lio/grpc/okhttp/a$a;)V
 
-    .line 2
     invoke-static {}, Li/b/c;->j()Li/b/b;
 
     move-result-object p1
@@ -53,20 +51,16 @@
 
     const-string v0, "WriteRunnable.runWrite"
 
-    .line 1
     invoke-static {v0}, Li/b/c;->l(Ljava/lang/String;)V
 
-    .line 2
     iget-object v0, p0, Lio/grpc/okhttp/a$a;->b:Li/b/b;
 
     invoke-static {v0}, Li/b/c;->i(Li/b/b;)V
 
-    .line 3
     new-instance v0, Lokio/Buffer;
 
     invoke-direct {v0}, Lokio/Buffer;-><init>()V
 
-    .line 4
     :try_start_0
     iget-object v1, p0, Lio/grpc/okhttp/a$a;->c:Lio/grpc/okhttp/a;
 
@@ -78,7 +72,6 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_1
 
-    .line 5
     :try_start_1
     iget-object v2, p0, Lio/grpc/okhttp/a$a;->c:Lio/grpc/okhttp/a;
 
@@ -98,19 +91,16 @@
 
     invoke-virtual {v0, v2, v3, v4}, Lokio/Buffer;->write(Lokio/Buffer;J)V
 
-    .line 6
     iget-object v2, p0, Lio/grpc/okhttp/a$a;->c:Lio/grpc/okhttp/a;
 
     const/4 v3, 0x0
 
     invoke-static {v2, v3}, Lio/grpc/okhttp/a;->c(Lio/grpc/okhttp/a;Z)Z
 
-    .line 7
     monitor-exit v1
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
-    .line 8
     :try_start_2
     iget-object v1, p0, Lio/grpc/okhttp/a$a;->c:Lio/grpc/okhttp/a;
 
@@ -128,7 +118,6 @@
 
     const-string v0, "WriteRunnable.runWrite"
 
-    .line 9
     invoke-static {v0}, Li/b/c;->n(Ljava/lang/String;)V
 
     return-void
@@ -136,7 +125,6 @@
     :catchall_0
     move-exception v0
 
-    .line 10
     :try_start_3
     monitor-exit v1
     :try_end_3
@@ -152,7 +140,6 @@
 
     const-string v1, "WriteRunnable.runWrite"
 
-    .line 11
     invoke-static {v1}, Li/b/c;->n(Ljava/lang/String;)V
 
     throw v0

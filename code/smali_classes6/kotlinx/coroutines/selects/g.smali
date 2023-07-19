@@ -24,7 +24,6 @@
 .method static constructor <clinit>()V
     .locals 2
 
-    .line 1
     new-instance v0, Lcotlinx/coroutines/internal/c0;
 
     const-string v1, "ALREADY_SELECTED"
@@ -33,7 +32,6 @@
 
     sput-object v0, Lcotlinx/coroutines/selects/g;->a:Ljava/lang/Object;
 
-    .line 2
     new-instance v0, Lcotlinx/coroutines/internal/c0;
 
     const-string v1, "UNDECIDED"
@@ -42,7 +40,6 @@
 
     sput-object v0, Lcotlinx/coroutines/selects/g;->b:Ljava/lang/Object;
 
-    .line 3
     new-instance v0, Lcotlinx/coroutines/internal/c0;
 
     const-string v1, "RESUMED"
@@ -51,7 +48,6 @@
 
     sput-object v0, Lcotlinx/coroutines/selects/g;->c:Ljava/lang/Object;
 
-    .line 4
     new-instance v0, Lcotlinx/coroutines/selects/i;
 
     invoke-direct {v0}, Lcotlinx/coroutines/selects/i;-><init>()V
@@ -82,7 +78,6 @@
 .method public static final synthetic d()Ljava/lang/Object;
     .locals 1
 
-    .line 1
     sget-object v0, Lcotlinx/coroutines/selects/g;->c:Ljava/lang/Object;
 
     return-object v0
@@ -91,7 +86,6 @@
 .method public static final synthetic e()Lcotlinx/coroutines/selects/i;
     .locals 1
 
-    .line 1
     sget-object v0, Lcotlinx/coroutines/selects/g;->d:Lcotlinx/coroutines/selects/i;
 
     return-object v0
@@ -100,7 +94,6 @@
 .method public static final synthetic f()Ljava/lang/Object;
     .locals 1
 
-    .line 1
     sget-object v0, Lcotlinx/coroutines/selects/g;->b:Ljava/lang/Object;
 
     return-object v0
@@ -111,7 +104,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     sget-object v0, Lcotlinx/coroutines/selects/g;->a:Ljava/lang/Object;
 
     return-object v0
@@ -149,7 +141,6 @@
     .annotation build Lcotlinx/coroutines/s1;
     .end annotation
 
-    .line 1
     invoke-static {p1, p2}, Lcotlinx/coroutines/v0;->d(D)J
 
     move-result-wide p1
@@ -189,12 +180,10 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     new-instance v0, Lcotlinx/coroutines/selects/b;
 
     invoke-direct {v0, p1}, Lcotlinx/coroutines/selects/b;-><init>(Lcotlin/coroutines/c;)V
 
-    .line 2
     :try_start_0
     invoke-interface {p0, v0}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
     :try_end_0
@@ -205,16 +194,13 @@
     :catchall_0
     move-exception p0
 
-    .line 3
     invoke-virtual {v0, p0}, Lcotlinx/coroutines/selects/b;->n0(Ljava/lang/Throwable;)V
 
-    .line 4
     :goto_0
     invoke-virtual {v0}, Lcotlinx/coroutines/selects/b;->m0()Ljava/lang/Object;
 
     move-result-object p0
 
-    .line 5
     invoke-static {}, Lcotlin/coroutines/intrinsics/a;->h()Ljava/lang/Object;
 
     move-result-object v0
@@ -242,15 +228,12 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-static {v0}, Lcotlin/jvm/internal/c0;->e(I)V
 
-    .line 2
     new-instance v0, Lcotlinx/coroutines/selects/b;
 
     invoke-direct {v0, p1}, Lcotlinx/coroutines/selects/b;-><init>(Lcotlin/coroutines/c;)V
 
-    .line 3
     :try_start_0
     invoke-interface {p0, v0}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
     :try_end_0
@@ -261,16 +244,13 @@
     :catchall_0
     move-exception p0
 
-    .line 4
     invoke-virtual {v0, p0}, Lcotlinx/coroutines/selects/b;->n0(Ljava/lang/Throwable;)V
 
-    .line 5
     :goto_0
     invoke-virtual {v0}, Lcotlinx/coroutines/selects/b;->m0()Ljava/lang/Object;
 
     move-result-object p0
 
-    .line 6
     invoke-static {}, Lcotlin/coroutines/intrinsics/a;->h()Ljava/lang/Object;
 
     move-result-object v0

@@ -24,7 +24,6 @@
 .method constructor <init>(Lcom/commsource/easyeditor/widget/EasyEditorGestureController;Ljava/lang/Runnable;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/easyeditor/widget/EasyEditorGestureController$a;->b:Lcom/commsource/easyeditor/widget/EasyEditorGestureController;
 
     iput-object p2, p0, Lcom/commsource/easyeditor/widget/EasyEditorGestureController$a;->a:Ljava/lang/Runnable;
@@ -43,15 +42,12 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/easyeditor/widget/EasyEditorGestureController$a;->a:Ljava/lang/Runnable;
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-interface {v0}, Ljava/lang/Runnable;->run()V
 
-    .line 3
     :cond_0
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -65,15 +61,12 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/easyeditor/widget/EasyEditorGestureController$a;->a:Ljava/lang/Runnable;
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-interface {v0}, Ljava/lang/Runnable;->run()V
 
-    .line 3
     :cond_0
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

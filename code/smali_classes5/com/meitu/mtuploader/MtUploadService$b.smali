@@ -29,7 +29,6 @@
 .method constructor <init>(Lcom/meitu/mtuploader/MtUploadService;Lcom/meitu/mtuploader/bean/MtUploadBean;J)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/mtuploader/MtUploadService$b;->c:Lcom/meitu/mtuploader/MtUploadService;
 
     iput-object p2, p0, Lcom/meitu/mtuploader/MtUploadService$b;->a:Lcom/meitu/mtuploader/bean/MtUploadBean;
@@ -50,7 +49,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/mtuploader/MtUploadService$b;->c:Lcom/meitu/mtuploader/MtUploadService;
 
     invoke-virtual {v1}, Landroid/app/Service;->getApplicationContext()Landroid/content/Context;
@@ -69,7 +67,6 @@
 
     invoke-static {v1, v2, v3, v4}, Lcom/meitu/mtuploader/f;->j(Landroid/content/Context;Lcom/meitu/mtuploader/bean/MtUploadBean;Lcom/meitu/mtuploader/bean/MtUploadRequestTokenBean;Lcom/meitu/mtuploader/f$e;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

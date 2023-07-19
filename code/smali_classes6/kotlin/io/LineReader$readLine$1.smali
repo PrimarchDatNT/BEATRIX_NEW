@@ -38,7 +38,6 @@
 
     check-cast v0, Lcotlin/io/m;
 
-    .line 1
     invoke-static {v0}, Lcotlin/io/m;->a(Lcotlin/io/m;)Ljava/nio/charset/CharsetDecoder;
 
     move-result-object v0
@@ -57,7 +56,6 @@
 
     check-cast v0, Lcotlin/io/m;
 
-    .line 1
     check-cast p1, Ljava/nio/charset/CharsetDecoder;
 
     invoke-static {v0, p1}, Lcotlin/io/m;->b(Lcotlin/io/m;Ljava/nio/charset/CharsetDecoder;)V

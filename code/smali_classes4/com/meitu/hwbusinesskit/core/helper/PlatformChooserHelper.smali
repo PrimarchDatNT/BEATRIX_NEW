@@ -47,30 +47,24 @@
 .method public constructor <init>(Lcom/meitu/hwbusinesskit/core/config/HWBusinessSPConfig;Lcom/meitu/hwbusinesskit/core/MTHWBusinessConfig;Lcom/meitu/hwbusinesskit/core/bean/Business;)V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     new-instance v0, Ljava/util/HashMap;
 
     invoke-direct {v0}, Ljava/util/HashMap;-><init>()V
 
     iput-object v0, p0, Lcom/meitu/hwbusinesskit/core/helper/PlatformChooserHelper;->mAdManagers:Ljava/util/Map;
 
-    .line 3
     new-instance v0, Ljava/util/HashMap;
 
     invoke-direct {v0}, Ljava/util/HashMap;-><init>()V
 
     iput-object v0, p0, Lcom/meitu/hwbusinesskit/core/helper/PlatformChooserHelper;->mRecordAdSlots:Ljava/util/Map;
 
-    .line 4
     iput-object p1, p0, Lcom/meitu/hwbusinesskit/core/helper/PlatformChooserHelper;->mSpConfig:Lcom/meitu/hwbusinesskit/core/config/HWBusinessSPConfig;
 
-    .line 5
     iput-object p2, p0, Lcom/meitu/hwbusinesskit/core/helper/PlatformChooserHelper;->mSdkConfig:Lcom/meitu/hwbusinesskit/core/MTHWBusinessConfig;
 
-    .line 6
     iput-object p3, p0, Lcom/meitu/hwbusinesskit/core/helper/PlatformChooserHelper;->mOldData:Lcom/meitu/hwbusinesskit/core/bean/Business;
 
     return-void
@@ -90,7 +84,6 @@
 
     if-eqz p1, :cond_2
 
-    .line 1
     invoke-virtual {p1}, Lcom/meitu/hwbusinesskit/core/bean/AdSlot;->getAd_slot_id()Ljava/lang/String;
 
     move-result-object v1
@@ -101,24 +94,20 @@
 
     if-nez v1, :cond_2
 
-    .line 2
     invoke-direct {p0, p1}, Lcom/meitu/hwbusinesskit/core/helper/PlatformChooserHelper;->updatePlatformShowInfo(Lcom/meitu/hwbusinesskit/core/bean/AdSlot;)Z
 
-    .line 3
     invoke-virtual {p1}, Lcom/meitu/hwbusinesskit/core/bean/AdSlot;->getPlatforms()Ljava/util/ArrayList;
 
     move-result-object v1
 
     if-eqz v1, :cond_1
 
-    .line 4
     invoke-virtual {v1}, Ljava/util/ArrayList;->isEmpty()Z
 
     move-result v2
 
     if-nez v2, :cond_1
 
-    .line 5
     invoke-virtual {p1}, Lcom/meitu/hwbusinesskit/core/bean/AdSlot;->isAd_waterfall()Z
 
     move-result v2
@@ -141,7 +130,6 @@
 
     return p1
 
-    .line 6
     :cond_1
     new-instance p1, Ljava/lang/Exception;
 
@@ -151,7 +139,6 @@
 
     throw p1
 
-    .line 7
     :cond_2
     new-instance p1, Ljava/lang/Exception;
 
@@ -171,7 +158,6 @@
 
     if-eqz p1, :cond_2
 
-    .line 1
     invoke-virtual {p1}, Lcom/meitu/hwbusinesskit/core/bean/AdSlot;->getAd_slot_id()Ljava/lang/String;
 
     move-result-object v1
@@ -190,7 +176,6 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     invoke-static {p2, p3}, Lcom/meitu/hwbusinesskit/core/manager/AdManagerFactory;->createAdManager(Ljava/lang/String;Ljava/lang/String;)Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager;
 
@@ -198,17 +183,14 @@
 
     if-eqz p2, :cond_1
 
-    .line 3
     iget-object p3, p0, Lcom/meitu/hwbusinesskit/core/helper/PlatformChooserHelper;->mSdkConfig:Lcom/meitu/hwbusinesskit/core/MTHWBusinessConfig;
 
     invoke-virtual {p2, p1, p4, p3}, Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager;->init(Lcom/meitu/hwbusinesskit/core/bean/AdSlot;ILcom/meitu/hwbusinesskit/core/MTHWBusinessConfig;)V
 
-    .line 4
     invoke-virtual {p2, p5}, Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager;->setAdManagerListener(Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager$AdManagerListener;)V
 
     if-eqz p5, :cond_1
 
-    .line 5
     iget-object p3, p0, Lcom/meitu/hwbusinesskit/core/helper/PlatformChooserHelper;->mAdManagers:Ljava/util/Map;
 
     invoke-virtual {p1}, Lcom/meitu/hwbusinesskit/core/bean/AdSlot;->getAd_slot_id()Ljava/lang/String;
@@ -217,7 +199,6 @@
 
     invoke-interface {p3, p1, p2}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 6
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -227,7 +208,6 @@
     :goto_0
     const/4 p1, 0x0
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p1
@@ -240,7 +220,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/hwbusinesskit/core/helper/PlatformChooserHelper;->mSpConfig:Lcom/meitu/hwbusinesskit/core/config/HWBusinessSPConfig;
 
     new-instance v2, Ljava/lang/StringBuilder;
@@ -281,7 +260,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/hwbusinesskit/core/helper/PlatformChooserHelper;->mSpConfig:Lcom/meitu/hwbusinesskit/core/config/HWBusinessSPConfig;
 
     new-instance v2, Ljava/lang/StringBuilder;
@@ -341,7 +319,6 @@
 
     const/4 v2, 0x0
 
-    .line 1
     :goto_0
     invoke-virtual {p2}, Ljava/util/ArrayList;->size()I
 
@@ -349,14 +326,12 @@
 
     if-ge v2, v3, :cond_2
 
-    .line 2
     invoke-direct {p0, p1, v2}, Lcom/meitu/hwbusinesskit/core/helper/PlatformChooserHelper;->getAdShowTimes(Lcom/meitu/hwbusinesskit/core/bean/AdSlot;I)I
 
     move-result v3
 
     if-lez v3, :cond_1
 
-    .line 3
     invoke-virtual {p2, v2}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
 
     move-result-object v3
@@ -369,7 +344,6 @@
 
     if-lez v3, :cond_0
 
-    .line 4
     invoke-direct {p0, p1, v2}, Lcom/meitu/hwbusinesskit/core/helper/PlatformChooserHelper;->getAdHasShowTimes(Lcom/meitu/hwbusinesskit/core/bean/AdSlot;I)I
 
     move-result v4
@@ -394,7 +368,6 @@
 
     const/4 v2, 0x0
 
-    .line 5
     :goto_2
     invoke-virtual {p2}, Ljava/util/ArrayList;->size()I
 
@@ -402,7 +375,6 @@
 
     if-ge v2, v3, :cond_3
 
-    .line 6
     invoke-virtual {p2, v2}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
 
     move-result-object v3
@@ -419,7 +391,6 @@
 
     goto :goto_2
 
-    .line 7
     :cond_3
     :goto_3
     invoke-virtual {p2}, Ljava/util/ArrayList;->size()I
@@ -428,7 +399,6 @@
 
     if-ge v1, v2, :cond_6
 
-    .line 8
     invoke-virtual {p2, v1}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
 
     move-result-object v2
@@ -441,26 +411,22 @@
 
     if-lez v2, :cond_4
 
-    .line 9
     invoke-direct {p0, p1, v1}, Lcom/meitu/hwbusinesskit/core/helper/PlatformChooserHelper;->getAdHasShowTimes(Lcom/meitu/hwbusinesskit/core/bean/AdSlot;I)I
 
     move-result v3
 
     if-ge v3, v2, :cond_5
 
-    .line 10
     invoke-direct {p0, p1, v1}, Lcom/meitu/hwbusinesskit/core/helper/PlatformChooserHelper;->getAdShowTimes(Lcom/meitu/hwbusinesskit/core/bean/AdSlot;I)I
 
     move-result v2
 
     if-lez v2, :cond_5
 
-    .line 11
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
 
-    .line 12
     :cond_4
     invoke-direct {p0, p1, v1}, Lcom/meitu/hwbusinesskit/core/helper/PlatformChooserHelper;->getAdShowTimes(Lcom/meitu/hwbusinesskit/core/bean/AdSlot;I)I
 
@@ -468,7 +434,6 @@
 
     if-lez v2, :cond_5
 
-    .line 13
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
@@ -478,7 +443,6 @@
 
     goto :goto_3
 
-    .line 14
     :cond_6
     new-instance p1, Ljava/lang/Exception;
 
@@ -515,7 +479,6 @@
 
     const/4 v2, 0x0
 
-    .line 1
     :goto_0
     invoke-virtual {p2}, Ljava/util/ArrayList;->size()I
 
@@ -523,7 +486,6 @@
 
     if-ge v2, v3, :cond_1
 
-    .line 2
     invoke-direct {p0, p1, v2}, Lcom/meitu/hwbusinesskit/core/helper/PlatformChooserHelper;->getAdShowTimes(Lcom/meitu/hwbusinesskit/core/bean/AdSlot;I)I
 
     move-result v3
@@ -547,7 +509,6 @@
 
     const/4 v2, 0x0
 
-    .line 3
     :goto_2
     invoke-virtual {p2}, Ljava/util/ArrayList;->size()I
 
@@ -555,7 +516,6 @@
 
     if-ge v2, v3, :cond_2
 
-    .line 4
     invoke-virtual {p2, v2}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
 
     move-result-object v3
@@ -572,7 +532,6 @@
 
     goto :goto_2
 
-    .line 5
     :cond_2
     :goto_3
     invoke-virtual {p2}, Ljava/util/ArrayList;->size()I
@@ -581,14 +540,12 @@
 
     if-ge v1, v2, :cond_4
 
-    .line 6
     invoke-direct {p0, p1, v1}, Lcom/meitu/hwbusinesskit/core/helper/PlatformChooserHelper;->getAdShowTimes(Lcom/meitu/hwbusinesskit/core/bean/AdSlot;I)I
 
     move-result v2
 
     if-lez v2, :cond_3
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
@@ -598,7 +555,6 @@
 
     goto :goto_3
 
-    .line 8
     :cond_4
     new-instance p1, Ljava/lang/Exception;
 
@@ -616,7 +572,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/meitu/hwbusinesskit/core/MTHWBusinessConfig;->isDebug()Z
 
     move-result v1
@@ -625,12 +580,10 @@
 
     if-nez p1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 3
     :cond_0
     invoke-virtual {p1}, Lcom/meitu/hwbusinesskit/core/bean/AdSlot;->getPlatforms()Ljava/util/ArrayList;
 
@@ -638,7 +591,6 @@
 
     if-eqz v1, :cond_3
 
-    .line 4
     invoke-virtual {v1}, Ljava/util/ArrayList;->isEmpty()Z
 
     move-result v2
@@ -647,7 +599,6 @@
 
     goto :goto_1
 
-    .line 5
     :cond_1
     new-instance v2, Ljava/lang/StringBuilder;
 
@@ -655,7 +606,6 @@
 
     const-string v3, "\u8f6e\u64ad\u4fe1\u606f\uff1a"
 
-    .line 6
     invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     invoke-virtual {p1}, Lcom/meitu/hwbusinesskit/core/bean/AdSlot;->getAd_slot_id()Ljava/lang/String;
@@ -670,7 +620,6 @@
 
     const/4 v3, 0x0
 
-    .line 7
     :goto_0
     invoke-virtual {v1}, Ljava/util/ArrayList;->size()I
 
@@ -680,10 +629,8 @@
 
     const-string v4, " "
 
-    .line 8
     invoke-virtual {v2, v4}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 9
     invoke-virtual {v1, v3}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
 
     move-result-object v4
@@ -698,10 +645,8 @@
 
     const-string v4, ":"
 
-    .line 10
     invoke-virtual {v2, v4}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 11
     invoke-direct {p0, p1, v3}, Lcom/meitu/hwbusinesskit/core/helper/PlatformChooserHelper;->getAdShowTimes(Lcom/meitu/hwbusinesskit/core/bean/AdSlot;I)I
 
     move-result v4
@@ -710,10 +655,8 @@
 
     const-string v4, ","
 
-    .line 12
     invoke-virtual {v2, v4}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 13
     invoke-direct {p0, p1, v3}, Lcom/meitu/hwbusinesskit/core/helper/PlatformChooserHelper;->getAdHasShowTimes(Lcom/meitu/hwbusinesskit/core/bean/AdSlot;I)I
 
     move-result v4
@@ -724,7 +667,6 @@
 
     goto :goto_0
 
-    .line 14
     :cond_2
     invoke-virtual {v2}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
@@ -734,7 +676,6 @@
 
     goto :goto_2
 
-    .line 15
     :cond_3
     :goto_1
     new-instance v1, Ljava/lang/StringBuilder;
@@ -757,12 +698,10 @@
 
     invoke-static {p1}, Lcom/meitu/hwbusinesskit/core/utils/TestLog;->log(Ljava/lang/String;)V
 
-    .line 16
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 17
     :cond_4
     :goto_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -777,7 +716,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p1}, Lcom/meitu/hwbusinesskit/core/bean/AdSlot;->getPlatforms()Ljava/util/ArrayList;
 
     move-result-object v1
@@ -786,7 +724,6 @@
 
     const/4 v3, 0x0
 
-    .line 2
     :goto_0
     invoke-virtual {v1}, Ljava/util/ArrayList;->size()I
 
@@ -796,14 +733,12 @@
 
     if-ge v3, v4, :cond_2
 
-    .line 3
     invoke-direct {p0, p1, v3}, Lcom/meitu/hwbusinesskit/core/helper/PlatformChooserHelper;->getAdShowTimes(Lcom/meitu/hwbusinesskit/core/bean/AdSlot;I)I
 
     move-result v4
 
     if-lez v4, :cond_1
 
-    .line 4
     invoke-virtual {v1, v3}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
 
     move-result-object v4
@@ -816,7 +751,6 @@
 
     if-lez v4, :cond_0
 
-    .line 5
     invoke-direct {p0, p1, v3}, Lcom/meitu/hwbusinesskit/core/helper/PlatformChooserHelper;->getAdHasShowTimes(Lcom/meitu/hwbusinesskit/core/bean/AdSlot;I)I
 
     move-result v6
@@ -839,7 +773,6 @@
     :goto_1
     if-eqz v3, :cond_4
 
-    .line 6
     :goto_2
     invoke-virtual {v1}, Ljava/util/ArrayList;->size()I
 
@@ -847,7 +780,6 @@
 
     if-ge v2, v3, :cond_3
 
-    .line 7
     invoke-virtual {v1, v2}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
 
     move-result-object v3
@@ -864,13 +796,11 @@
 
     goto :goto_2
 
-    .line 8
     :cond_3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v5
 
-    .line 9
     :cond_4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -884,7 +814,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -905,12 +834,10 @@
 
     move-result-object p1
 
-    .line 2
     iget-object p2, p0, Lcom/meitu/hwbusinesskit/core/helper/PlatformChooserHelper;->mSpConfig:Lcom/meitu/hwbusinesskit/core/config/HWBusinessSPConfig;
 
     invoke-virtual {p2, p1, p3}, Lcom/meitu/hwbusinesskit/core/config/SPConfig;->putValue(Ljava/lang/String;I)Z
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -923,7 +850,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -944,12 +870,10 @@
 
     move-result-object p1
 
-    .line 2
     iget-object p2, p0, Lcom/meitu/hwbusinesskit/core/helper/PlatformChooserHelper;->mSpConfig:Lcom/meitu/hwbusinesskit/core/config/HWBusinessSPConfig;
 
     invoke-virtual {p2, p1, p3}, Lcom/meitu/hwbusinesskit/core/config/SPConfig;->putValue(Ljava/lang/String;I)Z
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -962,7 +886,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/hwbusinesskit/core/helper/PlatformChooserHelper;->mRecordAdSlots:Ljava/util/Map;
 
     invoke-virtual {p1}, Lcom/meitu/hwbusinesskit/core/bean/AdSlot;->getAd_slot_id()Ljava/lang/String;
@@ -977,12 +900,10 @@
 
     if-nez v1, :cond_0
 
-    .line 2
     iget-object v2, p0, Lcom/meitu/hwbusinesskit/core/helper/PlatformChooserHelper;->mOldData:Lcom/meitu/hwbusinesskit/core/bean/Business;
 
     if-eqz v2, :cond_0
 
-    .line 3
     invoke-virtual {p1}, Lcom/meitu/hwbusinesskit/core/bean/AdSlot;->getAd_slot_id()Ljava/lang/String;
 
     move-result-object v1
@@ -991,7 +912,6 @@
 
     move-result-object v1
 
-    .line 4
     :cond_0
     invoke-virtual {p1, v1}, Lcom/meitu/hwbusinesskit/core/bean/AdSlot;->hasSamePlatform(Lcom/meitu/hwbusinesskit/core/bean/AdSlot;)Z
 
@@ -1001,7 +921,6 @@
 
     if-nez v1, :cond_2
 
-    .line 5
     iget-object v1, p0, Lcom/meitu/hwbusinesskit/core/helper/PlatformChooserHelper;->mRecordAdSlots:Ljava/util/Map;
 
     invoke-virtual {p1}, Lcom/meitu/hwbusinesskit/core/bean/AdSlot;->getAd_slot_id()Ljava/lang/String;
@@ -1010,7 +929,6 @@
 
     invoke-interface {v1, v3, p1}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 6
     invoke-virtual {p1}, Lcom/meitu/hwbusinesskit/core/bean/AdSlot;->getPlatforms()Ljava/util/ArrayList;
 
     move-result-object v1
@@ -1019,7 +937,6 @@
 
     const/4 v3, 0x0
 
-    .line 7
     :goto_0
     invoke-virtual {v1}, Ljava/util/ArrayList;->size()I
 
@@ -1027,7 +944,6 @@
 
     if-ge v3, v4, :cond_1
 
-    .line 8
     invoke-virtual {v1, v3}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
 
     move-result-object v4
@@ -1040,7 +956,6 @@
 
     invoke-direct {p0, p1, v3, v4}, Lcom/meitu/hwbusinesskit/core/helper/PlatformChooserHelper;->setAdShowTimes(Lcom/meitu/hwbusinesskit/core/bean/AdSlot;II)V
 
-    .line 9
     invoke-direct {p0, p1, v3, v2}, Lcom/meitu/hwbusinesskit/core/helper/PlatformChooserHelper;->setAdHasShowTimes(Lcom/meitu/hwbusinesskit/core/bean/AdSlot;II)V
 
     add-int/lit8 v3, v3, 0x1
@@ -1050,20 +965,16 @@
     :cond_1
     const-string v1, "\u66f4\u65b0\u5e7f\u544a\u4f4d\u8f6e\u64ad\u4fe1\u606f\uff1a"
 
-    .line 10
     invoke-static {v1}, Lcom/meitu/hwbusinesskit/core/utils/TestLog;->log(Ljava/lang/String;)V
 
-    .line 11
     invoke-direct {p0, p1}, Lcom/meitu/hwbusinesskit/core/helper/PlatformChooserHelper;->logPlatformInfo(Lcom/meitu/hwbusinesskit/core/bean/AdSlot;)V
 
-    .line 12
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const/4 p1, 0x1
 
     return p1
 
-    .line 13
     :cond_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1089,7 +1000,6 @@
 
     if-eqz p1, :cond_1
 
-    .line 1
     invoke-virtual {p1}, Lcom/meitu/hwbusinesskit/core/bean/AdSlot;->getAd_slot_id()Ljava/lang/String;
 
     move-result-object v1
@@ -1100,14 +1010,12 @@
 
     if-nez v1, :cond_1
 
-    .line 2
     invoke-virtual {p1}, Lcom/meitu/hwbusinesskit/core/bean/AdSlot;->getPlatforms()Ljava/util/ArrayList;
 
     move-result-object v1
 
     if-eqz v1, :cond_0
 
-    .line 3
     invoke-virtual {v1}, Ljava/util/ArrayList;->isEmpty()Z
 
     move-result v1
@@ -1116,7 +1024,6 @@
 
     if-nez v1, :cond_0
 
-    .line 4
     :try_start_1
     invoke-direct {p0, p1}, Lcom/meitu/hwbusinesskit/core/helper/PlatformChooserHelper;->choosePlatformOrder(Lcom/meitu/hwbusinesskit/core/bean/AdSlot;)I
 
@@ -1125,7 +1032,6 @@
     .catch Ljava/lang/Exception; {:try_start_1 .. :try_end_1} :catch_0
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
-    .line 5
     :try_start_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
     :try_end_2
@@ -1135,7 +1041,6 @@
 
     return p1
 
-    .line 6
     :catch_0
     :try_start_3
     new-instance v1, Ljava/lang/StringBuilder;
@@ -1158,7 +1063,6 @@
 
     invoke-static {p1}, Lcom/meitu/hwbusinesskit/core/utils/TestLog;->log(Ljava/lang/String;)V
 
-    .line 7
     new-instance p1, Ljava/lang/Exception;
 
     invoke-direct {p1}, Ljava/lang/Exception;-><init>()V
@@ -1167,7 +1071,6 @@
 
     throw p1
 
-    .line 8
     :cond_0
     new-instance v1, Ljava/lang/StringBuilder;
 
@@ -1189,7 +1092,6 @@
 
     invoke-static {p1}, Lcom/meitu/hwbusinesskit/core/utils/TestLog;->log(Ljava/lang/String;)V
 
-    .line 9
     new-instance p1, Ljava/lang/Exception;
 
     invoke-direct {p1}, Ljava/lang/Exception;-><init>()V
@@ -1198,7 +1100,6 @@
 
     throw p1
 
-    .line 10
     :cond_1
     new-instance p1, Ljava/lang/Exception;
 
@@ -1232,7 +1133,6 @@
 
     if-eqz p1, :cond_8
 
-    .line 11
     invoke-virtual {p1}, Lcom/meitu/hwbusinesskit/core/bean/AdSlot;->getAd_slot_id()Ljava/lang/String;
 
     move-result-object v2
@@ -1245,7 +1145,6 @@
 
     goto/16 :goto_2
 
-    .line 12
     :cond_0
     invoke-virtual {p1}, Lcom/meitu/hwbusinesskit/core/bean/AdSlot;->getAd_slot_id()Ljava/lang/String;
 
@@ -1259,16 +1158,13 @@
 
     if-eqz p2, :cond_1
 
-    .line 13
     invoke-virtual {v2, p2}, Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager;->setAdManagerListener(Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager$AdManagerListener;)V
 
     :cond_1
     if-eqz p3, :cond_2
 
-    .line 14
     invoke-virtual {v2, p3}, Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager;->setVideoLifecycleListener(Lcom/meitu/hwbusinesskit/core/listener/OnVideoLifecycleListener;)V
 
-    .line 15
     :cond_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
     :try_end_0
@@ -1278,7 +1174,6 @@
 
     return-object v2
 
-    .line 16
     :cond_3
     :try_start_1
     invoke-virtual {p1}, Lcom/meitu/hwbusinesskit/core/bean/AdSlot;->getPlatforms()Ljava/util/ArrayList;
@@ -1287,7 +1182,6 @@
 
     if-eqz p3, :cond_7
 
-    .line 17
     invoke-virtual {p3}, Ljava/util/ArrayList;->isEmpty()Z
 
     move-result v2
@@ -1298,7 +1192,6 @@
 
     goto :goto_1
 
-    .line 18
     :cond_4
     :try_start_2
     invoke-direct {p0, p1}, Lcom/meitu/hwbusinesskit/core/helper/PlatformChooserHelper;->choosePlatformOrder(Lcom/meitu/hwbusinesskit/core/bean/AdSlot;)I
@@ -1308,7 +1201,6 @@
     .catch Ljava/lang/Exception; {:try_start_2 .. :try_end_2} :catch_0
     .catchall {:try_start_2 .. :try_end_2} :catchall_0
 
-    .line 19
     :try_start_3
     invoke-virtual {p3}, Ljava/util/ArrayList;->size()I
 
@@ -1316,7 +1208,6 @@
 
     if-le v2, v7, :cond_5
 
-    .line 20
     invoke-virtual {p3, v7}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
 
     move-result-object p3
@@ -1331,7 +1222,6 @@
     :goto_0
     if-nez p3, :cond_6
 
-    .line 21
     new-instance p2, Ljava/lang/StringBuilder;
 
     invoke-direct {p2}, Ljava/lang/StringBuilder;-><init>()V
@@ -1352,7 +1242,6 @@
 
     invoke-static {p1}, Lcom/meitu/hwbusinesskit/core/utils/TestLog;->log(Ljava/lang/String;)V
 
-    .line 22
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
     :try_end_3
     .catchall {:try_start_3 .. :try_end_3} :catchall_0
@@ -1361,7 +1250,6 @@
 
     return-object v1
 
-    .line 23
     :cond_6
     :try_start_4
     invoke-virtual {p3}, Lcom/meitu/hwbusinesskit/core/bean/Platform;->getPlatform()Ljava/lang/String;
@@ -1390,7 +1278,6 @@
 
     return-object p1
 
-    .line 24
     :catch_0
     :try_start_5
     new-instance p2, Ljava/lang/StringBuilder;
@@ -1413,7 +1300,6 @@
 
     invoke-static {p1}, Lcom/meitu/hwbusinesskit/core/utils/TestLog;->log(Ljava/lang/String;)V
 
-    .line 25
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
     :try_end_5
     .catchall {:try_start_5 .. :try_end_5} :catchall_0
@@ -1422,7 +1308,6 @@
 
     return-object v1
 
-    .line 26
     :cond_7
     :goto_1
     :try_start_6
@@ -1446,7 +1331,6 @@
 
     invoke-static {p1}, Lcom/meitu/hwbusinesskit/core/utils/TestLog;->log(Ljava/lang/String;)V
 
-    .line 27
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
     :try_end_6
     .catchall {:try_start_6 .. :try_end_6} :catchall_0
@@ -1455,7 +1339,6 @@
 
     return-object v1
 
-    .line 28
     :cond_8
     :goto_2
     :try_start_7
@@ -1485,7 +1368,6 @@
     :try_start_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v1
@@ -1494,7 +1376,6 @@
 
     const/4 p1, 0x0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
@@ -1503,7 +1384,6 @@
 
     return-object p1
 
-    .line 3
     :cond_0
     :try_start_1
     iget-object v1, p0, Lcom/meitu/hwbusinesskit/core/helper/PlatformChooserHelper;->mAdManagers:Ljava/util/Map;
@@ -1544,7 +1424,6 @@
 
     if-nez p1, :cond_0
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
@@ -1553,7 +1432,6 @@
 
     return v1
 
-    .line 2
     :cond_0
     :try_start_1
     invoke-virtual {p1}, Lcom/meitu/hwbusinesskit/core/bean/AdSlot;->getPlatforms()Ljava/util/ArrayList;
@@ -1562,14 +1440,12 @@
 
     if-eqz v2, :cond_6
 
-    .line 3
     invoke-virtual {v2}, Ljava/util/ArrayList;->isEmpty()Z
 
     move-result v3
 
     if-nez v3, :cond_6
 
-    .line 4
     invoke-virtual {v2}, Ljava/util/ArrayList;->iterator()Ljava/util/Iterator;
 
     move-result-object v3
@@ -1589,7 +1465,6 @@
 
     check-cast v4, Lcom/meitu/hwbusinesskit/core/bean/Platform;
 
-    .line 5
     invoke-virtual {v4}, Lcom/meitu/hwbusinesskit/core/bean/Platform;->getShow_times()I
 
     move-result v4
@@ -1606,7 +1481,6 @@
     :goto_0
     if-eqz v3, :cond_3
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
@@ -1618,7 +1492,6 @@
     :cond_3
     const/4 v3, 0x0
 
-    .line 7
     :goto_1
     :try_start_2
     invoke-virtual {v2}, Ljava/util/ArrayList;->size()I
@@ -1627,14 +1500,12 @@
 
     if-ge v3, v4, :cond_6
 
-    .line 8
     invoke-virtual {v2, v3}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
 
     move-result-object v4
 
     check-cast v4, Lcom/meitu/hwbusinesskit/core/bean/Platform;
 
-    .line 9
     invoke-direct {p0, p1, v3}, Lcom/meitu/hwbusinesskit/core/helper/PlatformChooserHelper;->getAdShowTimes(Lcom/meitu/hwbusinesskit/core/bean/AdSlot;I)I
 
     move-result v6
@@ -1649,7 +1520,6 @@
 
     if-lez v6, :cond_5
 
-    .line 10
     invoke-virtual {v4}, Lcom/meitu/hwbusinesskit/core/bean/Platform;->getMaxShowTimes()I
 
     move-result v6
@@ -1666,7 +1536,6 @@
 
     if-ge v6, v4, :cond_5
 
-    .line 11
     :cond_4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
     :try_end_2
@@ -1681,7 +1550,6 @@
 
     goto :goto_1
 
-    .line 12
     :cond_6
     :try_start_3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1712,7 +1580,6 @@
 
     if-nez p1, :cond_0
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
@@ -1721,7 +1588,6 @@
 
     return-void
 
-    .line 2
     :cond_0
     :try_start_1
     invoke-direct {p0, p1, p2}, Lcom/meitu/hwbusinesskit/core/helper/PlatformChooserHelper;->getAdHasShowTimes(Lcom/meitu/hwbusinesskit/core/bean/AdSlot;I)I
@@ -1732,10 +1598,8 @@
 
     invoke-direct {p0, p1, p2, v1}, Lcom/meitu/hwbusinesskit/core/helper/PlatformChooserHelper;->setAdHasShowTimes(Lcom/meitu/hwbusinesskit/core/bean/AdSlot;II)V
 
-    .line 3
     invoke-direct {p0, p1}, Lcom/meitu/hwbusinesskit/core/helper/PlatformChooserHelper;->logPlatformInfo(Lcom/meitu/hwbusinesskit/core/bean/AdSlot;)V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
@@ -1764,12 +1628,10 @@
 
     const-string v1, "\u8bb0\u5f55\u52a0\u8f7d\u5931\u8d25"
 
-    .line 1
     invoke-static {v1}, Lcom/meitu/hwbusinesskit/core/utils/TestLog;->log(Ljava/lang/String;)V
 
     if-nez p1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
@@ -1781,14 +1643,11 @@
     :cond_0
     const/4 v1, -0x1
 
-    .line 3
     :try_start_1
     invoke-direct {p0, p1, p2, v1}, Lcom/meitu/hwbusinesskit/core/helper/PlatformChooserHelper;->setAdShowTimes(Lcom/meitu/hwbusinesskit/core/bean/AdSlot;II)V
 
-    .line 4
     invoke-direct {p0, p1}, Lcom/meitu/hwbusinesskit/core/helper/PlatformChooserHelper;->logPlatformInfo(Lcom/meitu/hwbusinesskit/core/bean/AdSlot;)V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
@@ -1817,7 +1676,6 @@
 
     if-nez p1, :cond_0
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
@@ -1826,7 +1684,6 @@
 
     return-void
 
-    .line 2
     :cond_0
     :try_start_1
     invoke-direct {p0, p1, p2}, Lcom/meitu/hwbusinesskit/core/helper/PlatformChooserHelper;->getAdShowTimes(Lcom/meitu/hwbusinesskit/core/bean/AdSlot;I)I
@@ -1837,10 +1694,8 @@
 
     if-gez v1, :cond_1
 
-    .line 3
     invoke-direct {p0, p1}, Lcom/meitu/hwbusinesskit/core/helper/PlatformChooserHelper;->resetAdShowTimes(Lcom/meitu/hwbusinesskit/core/bean/AdSlot;)Z
 
-    .line 4
     :cond_1
     invoke-direct {p0, p1, p2}, Lcom/meitu/hwbusinesskit/core/helper/PlatformChooserHelper;->getAdShowTimes(Lcom/meitu/hwbusinesskit/core/bean/AdSlot;I)I
 
@@ -1850,7 +1705,6 @@
 
     invoke-direct {p0, p1, p2, v1}, Lcom/meitu/hwbusinesskit/core/helper/PlatformChooserHelper;->setAdShowTimes(Lcom/meitu/hwbusinesskit/core/bean/AdSlot;II)V
 
-    .line 5
     invoke-direct {p0, p1, p2}, Lcom/meitu/hwbusinesskit/core/helper/PlatformChooserHelper;->getAdHasShowTimes(Lcom/meitu/hwbusinesskit/core/bean/AdSlot;I)I
 
     move-result v1
@@ -1859,10 +1713,8 @@
 
     invoke-direct {p0, p1, p2, v1}, Lcom/meitu/hwbusinesskit/core/helper/PlatformChooserHelper;->setAdHasShowTimes(Lcom/meitu/hwbusinesskit/core/bean/AdSlot;II)V
 
-    .line 6
     invoke-direct {p0, p1}, Lcom/meitu/hwbusinesskit/core/helper/PlatformChooserHelper;->logPlatformInfo(Lcom/meitu/hwbusinesskit/core/bean/AdSlot;)V
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
@@ -1889,7 +1741,6 @@
     :try_start_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/hwbusinesskit/core/helper/PlatformChooserHelper;->mAdManagers:Ljava/util/Map;
 
     invoke-interface {v1, p1}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
@@ -1902,15 +1753,12 @@
 
     const/4 v2, 0x0
 
-    .line 2
     invoke-virtual {v1, v2}, Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager;->setAdManagerListener(Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager$AdManagerListener;)V
 
-    .line 3
     iget-object v1, p0, Lcom/meitu/hwbusinesskit/core/helper/PlatformChooserHelper;->mAdManagers:Ljava/util/Map;
 
     invoke-interface {v1, p1}, Ljava/util/Map;->remove(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 4
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
     :try_end_0
@@ -1938,7 +1786,6 @@
     :try_start_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/hwbusinesskit/core/helper/PlatformChooserHelper;->mAdManagers:Ljava/util/Map;
 
     invoke-interface {v1, p1}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
@@ -1949,12 +1796,10 @@
 
     if-eqz v1, :cond_0
 
-    .line 2
     iget-object v1, p0, Lcom/meitu/hwbusinesskit/core/helper/PlatformChooserHelper;->mAdManagers:Ljava/util/Map;
 
     invoke-interface {v1, p1}, Ljava/util/Map;->remove(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
     :try_end_0
@@ -1983,7 +1828,6 @@
 
     if-eqz p1, :cond_3
 
-    .line 1
     invoke-virtual {p1}, Lcom/meitu/hwbusinesskit/core/bean/AdSlot;->getPlatforms()Ljava/util/ArrayList;
 
     move-result-object v1
@@ -2002,7 +1846,6 @@
 
     goto :goto_1
 
-    .line 2
     :cond_0
     invoke-virtual {p1}, Lcom/meitu/hwbusinesskit/core/bean/AdSlot;->getPlatforms()Ljava/util/ArrayList;
 
@@ -2010,7 +1853,6 @@
 
     if-gez p2, :cond_1
 
-    .line 3
     invoke-virtual {v1}, Ljava/util/ArrayList;->size()I
 
     move-result p2
@@ -2021,7 +1863,6 @@
     :goto_0
     if-ge v2, p2, :cond_2
 
-    .line 4
     invoke-virtual {v1, v2}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
 
     move-result-object v3
@@ -2038,13 +1879,11 @@
 
     goto :goto_0
 
-    .line 5
     :cond_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 6
     :cond_3
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2059,7 +1898,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     :try_start_0
     invoke-static {}, Lcom/meitu/hwbusinesskit/core/config/StartUpAdvertConfig;->getInstance()Lcom/meitu/hwbusinesskit/core/config/StartUpAdvertConfig;
 
@@ -2073,19 +1911,16 @@
 
     const-string v1, "\u7b2c\u4e8c\u5929\uff0c\u91cd\u7f6e\u5e7f\u544a\u4f4d\u5df2\u5c55\u793a\u6b21\u6570"
 
-    .line 2
     invoke-static {v1}, Lcom/meitu/hwbusinesskit/core/utils/TestLog;->log(Ljava/lang/String;)V
 
     if-eqz p1, :cond_2
 
-    .line 3
     invoke-virtual {p1}, Lcom/meitu/hwbusinesskit/core/bean/Business;->getAds()Ljava/util/concurrent/CopyOnWriteArrayList;
 
     move-result-object p1
 
     if-eqz p1, :cond_2
 
-    .line 4
     invoke-virtual {p1}, Ljava/util/concurrent/CopyOnWriteArrayList;->iterator()Ljava/util/Iterator;
 
     move-result-object p1
@@ -2103,14 +1938,12 @@
 
     check-cast v1, Lcom/meitu/hwbusinesskit/core/bean/AdSlot;
 
-    .line 5
     invoke-virtual {v1}, Lcom/meitu/hwbusinesskit/core/bean/AdSlot;->getPlatforms()Ljava/util/ArrayList;
 
     move-result-object v2
 
     if-eqz v2, :cond_0
 
-    .line 6
     invoke-virtual {v2}, Ljava/util/ArrayList;->size()I
 
     move-result v3
@@ -2121,7 +1954,6 @@
 
     const/4 v4, 0x0
 
-    .line 7
     :goto_0
     invoke-virtual {v2}, Ljava/util/ArrayList;->size()I
 
@@ -2129,7 +1961,6 @@
 
     if-ge v4, v5, :cond_0
 
-    .line 8
     iget-object v5, p0, Lcom/meitu/hwbusinesskit/core/helper/PlatformChooserHelper;->mSpConfig:Lcom/meitu/hwbusinesskit/core/config/HWBusinessSPConfig;
 
     new-instance v6, Ljava/lang/StringBuilder;
@@ -2161,10 +1992,8 @@
     :cond_1
     const-string p1, "\u91cd\u7f6e\u6210\u529f"
 
-    .line 9
     invoke-static {p1}, Lcom/meitu/hwbusinesskit/core/utils/TestLog;->log(Ljava/lang/String;)V
 
-    .line 10
     :cond_2
     invoke-static {}, Lcom/meitu/hwbusinesskit/core/config/StartUpAdvertConfig;->getInstance()Lcom/meitu/hwbusinesskit/core/config/StartUpAdvertConfig;
 
@@ -2189,10 +2018,8 @@
     :catch_0
     move-exception p1
 
-    .line 11
     invoke-static {p1}, Lcom/meitu/library/util/Debug/Debug;->a0(Ljava/lang/Throwable;)V
 
-    .line 12
     :cond_3
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2210,24 +2037,19 @@
     :try_start_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/hwbusinesskit/core/helper/PlatformChooserHelper;->mNewData:Lcom/meitu/hwbusinesskit/core/bean/Business;
 
     if-nez v1, :cond_0
 
-    .line 2
     iput-object p1, p0, Lcom/meitu/hwbusinesskit/core/helper/PlatformChooserHelper;->mNewData:Lcom/meitu/hwbusinesskit/core/bean/Business;
 
     goto :goto_0
 
-    .line 3
     :cond_0
     iput-object v1, p0, Lcom/meitu/hwbusinesskit/core/helper/PlatformChooserHelper;->mOldData:Lcom/meitu/hwbusinesskit/core/bean/Business;
 
-    .line 4
     iput-object p1, p0, Lcom/meitu/hwbusinesskit/core/helper/PlatformChooserHelper;->mNewData:Lcom/meitu/hwbusinesskit/core/bean/Business;
 
-    .line 5
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
     :try_end_0

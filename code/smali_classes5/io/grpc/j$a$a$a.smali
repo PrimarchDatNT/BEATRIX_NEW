@@ -31,7 +31,6 @@
 .method constructor <init>(Lio/grpc/j$a$a;Lio/grpc/h$a;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lio/grpc/j$a$a$a;->b:Lio/grpc/j$a$a;
 
     iput-object p2, p0, Lio/grpc/j$a$a$a;->a:Lio/grpc/h$a;
@@ -51,7 +50,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lio/grpc/j$a$a$a;->b:Lio/grpc/j$a$a;
 
     iget-object v0, v0, Lio/grpc/j$a$a;->c:Lio/grpc/j$a;
@@ -62,7 +60,6 @@
 
     move-result-object p1
 
-    .line 2
     iget-object v0, p0, Lio/grpc/j$a$a$a;->b:Lio/grpc/j$a$a;
 
     iget-object v0, v0, Lio/grpc/j$a$a;->b:Lio/grpc/MethodDescriptor;
@@ -75,7 +72,6 @@
 
     move-result-object p1
 
-    .line 3
     iget-object v0, p0, Lio/grpc/j$a$a$a;->a:Lio/grpc/h$a;
 
     invoke-virtual {v0, p1}, Lio/grpc/h$a;->c(Ljava/lang/Object;)V
@@ -93,7 +89,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lio/grpc/j$a$a$a;->a:Lio/grpc/h$a;
 
     return-object v0

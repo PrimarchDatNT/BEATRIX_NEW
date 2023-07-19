@@ -27,7 +27,6 @@
 .method constructor <init>(Lcom/bumptech/glide/d;Lcom/bumptech/glide/request/g;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/bumptech/glide/d$b;->b:Lcom/bumptech/glide/d;
 
     iput-object p2, p0, Lcom/bumptech/glide/d$b;->a:Lcom/bumptech/glide/request/g;
@@ -44,7 +43,6 @@
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/bumptech/glide/d$b;->a:Lcom/bumptech/glide/request/g;
 
     if-eqz v0, :cond_0

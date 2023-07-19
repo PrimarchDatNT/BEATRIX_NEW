@@ -21,7 +21,6 @@
 .method constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -41,7 +40,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {}, Ljava/util/Collections;->emptyMap()Ljava/util/Map;
 
     move-result-object v0
@@ -61,7 +59,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {}, Ljava/util/Collections;->emptyMap()Ljava/util/Map;
 
     move-result-object v0
@@ -110,10 +107,8 @@
 .method public put(Lcom/google/common/collect/Range;Ljava/lang/Object;)V
     .locals 2
 
-    .line 1
     invoke-static {p1}, Lcom/google/common/base/t;->E(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 2
     new-instance p2, Ljava/lang/IllegalArgumentException;
 
     new-instance v0, Ljava/lang/StringBuilder;
@@ -142,7 +137,6 @@
 .method public putAll(Lcom/google/common/collect/t1;)V
     .locals 1
 
-    .line 1
     invoke-interface {p1}, Lcom/google/common/collect/t1;->asMapOfRanges()Ljava/util/Map;
 
     move-result-object p1
@@ -155,7 +149,6 @@
 
     return-void
 
-    .line 2
     :cond_0
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -169,10 +162,8 @@
 .method public putCoalescing(Lcom/google/common/collect/Range;Ljava/lang/Object;)V
     .locals 2
 
-    .line 1
     invoke-static {p1}, Lcom/google/common/base/t;->E(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 2
     new-instance p2, Ljava/lang/IllegalArgumentException;
 
     new-instance v0, Ljava/lang/StringBuilder;
@@ -201,7 +192,6 @@
 .method public remove(Lcom/google/common/collect/Range;)V
     .locals 0
 
-    .line 1
     invoke-static {p1}, Lcom/google/common/base/t;->E(Ljava/lang/Object;)Ljava/lang/Object;
 
     return-void
@@ -210,7 +200,6 @@
 .method public span()Lcom/google/common/collect/Range;
     .locals 1
 
-    .line 1
     new-instance v0, Ljava/util/NoSuchElementException;
 
     invoke-direct {v0}, Ljava/util/NoSuchElementException;-><init>()V
@@ -221,7 +210,6 @@
 .method public subRangeMap(Lcom/google/common/collect/Range;)Lcom/google/common/collect/t1;
     .locals 0
 
-    .line 1
     invoke-static {p1}, Lcom/google/common/base/t;->E(Ljava/lang/Object;)Ljava/lang/Object;
 
     return-object p0

@@ -54,7 +54,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/studio/LayerManageListLayout$DragLayerInfoItem$delete$3;->invoke()V
 
     sget-object v1, Lcotlin/t1;->a:Lcotlin/t1;
@@ -71,7 +70,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/LayerManageListLayout$DragLayerInfoItem$delete$3;->this$0:Lcom/commsource/studio/LayerManageListLayout$DragLayerInfoItem;
 
     iget-object v2, v1, Lcom/commsource/studio/LayerManageListLayout$DragLayerInfoItem;->i:Lcom/commsource/studio/LayerManageListLayout;
@@ -82,14 +80,12 @@
 
     invoke-static {v2, v1}, Lcom/commsource/studio/LayerManageListLayout;->m(Lcom/commsource/studio/LayerManageListLayout;Lcom/commsource/studio/bean/BaseLayerInfo;)V
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/studio/LayerManageListLayout$DragLayerInfoItem$delete$3;->this$0:Lcom/commsource/studio/LayerManageListLayout$DragLayerInfoItem;
 
     invoke-static {v1}, Lcom/commsource/studio/LayerManageListLayout$DragLayerInfoItem;->a(Lcom/commsource/studio/LayerManageListLayout$DragLayerInfoItem;)Ljava/util/ArrayList;
 
     move-result-object v1
 
-    .line 4
     invoke-interface {v1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v1
@@ -107,7 +103,6 @@
 
     check-cast v2, Lcom/commsource/studio/bean/BaseLayerInfo;
 
-    .line 5
     iget-object v3, p0, Lcom/commsource/studio/LayerManageListLayout$DragLayerInfoItem$delete$3;->this$0:Lcom/commsource/studio/LayerManageListLayout$DragLayerInfoItem;
 
     iget-object v3, v3, Lcom/commsource/studio/LayerManageListLayout$DragLayerInfoItem;->i:Lcom/commsource/studio/LayerManageListLayout;
@@ -116,7 +111,6 @@
 
     goto :goto_0
 
-    .line 6
     :cond_0
     iget-object v1, p0, Lcom/commsource/studio/LayerManageListLayout$DragLayerInfoItem$delete$3;->this$0:Lcom/commsource/studio/LayerManageListLayout$DragLayerInfoItem;
 
@@ -126,7 +120,6 @@
 
     if-eqz v1, :cond_2
 
-    .line 7
     iget-object v1, p0, Lcom/commsource/studio/LayerManageListLayout$DragLayerInfoItem$delete$3;->this$0:Lcom/commsource/studio/LayerManageListLayout$DragLayerInfoItem;
 
     iget-object v1, v1, Lcom/commsource/studio/LayerManageListLayout$DragLayerInfoItem;->i:Lcom/commsource/studio/LayerManageListLayout;
@@ -158,7 +151,6 @@
 
     goto :goto_1
 
-    .line 8
     :cond_2
     iget-object v1, p0, Lcom/commsource/studio/LayerManageListLayout$DragLayerInfoItem$delete$3;->this$0:Lcom/commsource/studio/LayerManageListLayout$DragLayerInfoItem;
 
@@ -182,7 +174,6 @@
 
     check-cast v1, Lcotlin/t1;
 
-    .line 9
     :cond_3
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

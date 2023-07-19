@@ -77,7 +77,6 @@
 .method public static a()[I
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/google/android/gms/internal/ads/cj1;->d:[I
 
     invoke-virtual {v0}, [I->clone()Ljava/lang/Object;
@@ -92,7 +91,6 @@
 .method public static b()[I
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/google/android/gms/internal/ads/cj1;->f:[I
 
     invoke-virtual {v0}, [I->clone()Ljava/lang/Object;

@@ -22,12 +22,10 @@
 .method public constructor <init>(Li/a/k/a;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Li/a/k/a$a;->a:Li/a/k/a;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iget-object p1, p1, Li/a/k/a;->b:Ljava/util/concurrent/atomic/AtomicInteger;
 
     invoke-virtual {p1}, Ljava/util/concurrent/atomic/AtomicInteger;->incrementAndGet()I
@@ -40,7 +38,6 @@
 .method public a()Li/a/k/a;
     .locals 4
 
-    .line 1
     new-instance v0, Li/a/k/a;
 
     iget-object v1, p0, Li/a/k/a$a;->a:Li/a/k/a;

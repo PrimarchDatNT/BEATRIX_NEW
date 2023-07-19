@@ -35,7 +35,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lkshark/internal/LruCache$2;->this$0:Lkshark/internal/LruCache;
 
     invoke-direct {p0, p2, p3, p4}, Ljava/util/LinkedHashMap;-><init>(IFZ)V
@@ -56,7 +55,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lkshark/internal/LruCache$2;->getEntries()Ljava/util/Set;
 
     move-result-object v0
@@ -67,7 +65,6 @@
 .method public bridge getEntries()Ljava/util/Set;
     .locals 1
 
-    .line 1
     invoke-super {p0}, Ljava/util/LinkedHashMap;->entrySet()Ljava/util/Set;
 
     move-result-object v0
@@ -78,7 +75,6 @@
 .method public bridge getKeys()Ljava/util/Set;
     .locals 1
 
-    .line 1
     invoke-super {p0}, Ljava/util/LinkedHashMap;->keySet()Ljava/util/Set;
 
     move-result-object v0
@@ -89,7 +85,6 @@
 .method public bridge getSize()I
     .locals 1
 
-    .line 1
     invoke-super {p0}, Ljava/util/LinkedHashMap;->size()I
 
     move-result v0
@@ -100,7 +95,6 @@
 .method public bridge getValues()Ljava/util/Collection;
     .locals 1
 
-    .line 1
     invoke-super {p0}, Ljava/util/LinkedHashMap;->values()Ljava/util/Collection;
 
     move-result-object v0
@@ -118,7 +112,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lkshark/internal/LruCache$2;->getKeys()Ljava/util/Set;
 
     move-result-object v0
@@ -140,7 +133,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lkshark/internal/LruCache$2;->size()I
 
     move-result p1
@@ -155,7 +147,6 @@
 
     if-lt p1, v0, :cond_0
 
-    .line 2
     iget-object p1, p0, Lkshark/internal/LruCache$2;->this$0:Lkshark/internal/LruCache;
 
     invoke-virtual {p1}, Lkshark/internal/LruCache;->e()I
@@ -178,7 +169,6 @@
 .method public final bridge size()I
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lkshark/internal/LruCache$2;->getSize()I
 
     move-result v0
@@ -196,7 +186,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lkshark/internal/LruCache$2;->getValues()Ljava/util/Collection;
 
     move-result-object v0

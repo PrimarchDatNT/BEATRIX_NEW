@@ -27,7 +27,6 @@
 .method constructor <init>(Ljava/lang/String;Lcom/mopub/mobileads/MoPubErrorCode;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/mopub/mobileads/MoPubRewardedAdManager$9;->val$currentlyShowingAdUnitId:Ljava/lang/String;
 
     iput-object p2, p0, Lcom/mopub/mobileads/MoPubRewardedAdManager$9;->val$errorCode:Lcom/mopub/mobileads/MoPubErrorCode;
@@ -42,7 +41,6 @@
 .method public run()V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/mobileads/MoPubRewardedAdManager$9;->val$currentlyShowingAdUnitId:Ljava/lang/String;
 
     iget-object v1, p0, Lcom/mopub/mobileads/MoPubRewardedAdManager$9;->val$errorCode:Lcom/mopub/mobileads/MoPubErrorCode;

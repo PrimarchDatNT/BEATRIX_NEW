@@ -32,31 +32,22 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput p1, p0, Lcom/meitu/library/analytics/core/provider/b;->a:I
 
-    .line 3
     iput p2, p0, Lcom/meitu/library/analytics/core/provider/b;->b:I
 
-    .line 4
     iput p3, p0, Lcom/meitu/library/analytics/core/provider/b;->c:I
 
-    .line 5
     iput p4, p0, Lcom/meitu/library/analytics/core/provider/b;->d:I
 
-    .line 6
     iput p5, p0, Lcom/meitu/library/analytics/core/provider/b;->e:I
 
-    .line 7
     iput-object p6, p0, Lcom/meitu/library/analytics/core/provider/b;->f:Ljava/lang/String;
 
-    .line 8
     iput-object p7, p0, Lcom/meitu/library/analytics/core/provider/b;->g:Ljava/lang/String;
 
-    .line 9
     iput-wide p8, p0, Lcom/meitu/library/analytics/core/provider/b;->h:J
 
     return-void
@@ -71,7 +62,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V

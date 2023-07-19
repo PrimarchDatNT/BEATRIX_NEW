@@ -58,7 +58,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/editengine/GLEraserRender$addObserver$$inlined$apply$lambda$4;->a:Lcom/commsource/editengine/GLEraserRender;
 
     const-string v2, "it"
@@ -71,7 +70,6 @@
 
     invoke-static {v1, v2}, Lcom/commsource/editengine/GLEraserRender;->i(Lcom/commsource/editengine/GLEraserRender;Z)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/editengine/GLEraserRender$addObserver$$inlined$apply$lambda$4;->a:Lcom/commsource/editengine/GLEraserRender;
 
     invoke-virtual {v1}, Lcom/commsource/editengine/GLEraserRender;->r()Lcom/commsource/editengine/d;
@@ -90,7 +88,6 @@
 
     invoke-static {v1, p1, v2, v3, v4}, Lcom/commsource/editengine/d;->u(Lcom/commsource/editengine/d;ZLcotlin/jvm/u/a;ILjava/lang/Object;)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -103,7 +100,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Ljava/lang/Boolean;
 
     invoke-virtual {p0, p1}, Lcom/commsource/editengine/GLEraserRender$addObserver$$inlined$apply$lambda$4;->a(Ljava/lang/Boolean;)V

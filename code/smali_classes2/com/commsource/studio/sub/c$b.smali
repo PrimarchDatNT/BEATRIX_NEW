@@ -31,7 +31,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/sub/c$b;->a:Lcom/commsource/studio/sub/c;
 
     iput p2, p0, Lcom/commsource/studio/sub/c$b;->b:I
@@ -58,19 +57,16 @@
 
     invoke-static {p1, p3}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-static {}, Lcom/commsource/studio/m0;->R()Z
 
     move-result p3
 
     if-eqz p3, :cond_0
 
-    .line 2
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 3
     :cond_0
     iget p3, p0, Lcom/commsource/studio/sub/c$b;->b:I
 
@@ -80,12 +76,10 @@
 
     check-cast p1, Lcom/commsource/studio/sub/h;
 
-    .line 4
     iget-object p3, p0, Lcom/commsource/studio/sub/c$b;->a:Lcom/commsource/studio/sub/c;
 
     invoke-static {p3, p1}, Lcom/commsource/studio/sub/c;->d0(Lcom/commsource/studio/sub/c;Lcom/commsource/studio/sub/h;)V
 
-    .line 5
     iget-object p3, p0, Lcom/commsource/studio/sub/c$b;->a:Lcom/commsource/studio/sub/c;
 
     const/4 v0, 0x0
@@ -108,7 +102,6 @@
 
     if-eqz p1, :cond_3
 
-    .line 6
     invoke-virtual {p1}, Lcom/commsource/studio/sub/h;->A()V
 
     goto :goto_1
@@ -120,10 +113,8 @@
 
     const/4 v1, 0x1
 
-    .line 7
     invoke-static {p1, p3, v1, v0}, Lcom/commsource/studio/sub/h;->z(Lcom/commsource/studio/sub/h;ZILjava/lang/Object;)V
 
-    .line 8
     :cond_3
     :goto_1
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->a(I)V

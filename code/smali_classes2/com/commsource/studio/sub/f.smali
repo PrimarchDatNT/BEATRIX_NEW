@@ -21,14 +21,12 @@
 .method public constructor <init>(I)V
     .locals 2
 
-    .line 1
     invoke-direct {p0}, Landroidx/recyclerview/widget/RecyclerView$ItemDecoration;-><init>()V
 
     iput p1, p0, Lcom/commsource/studio/sub/f;->d:I
 
     const/high16 p1, 0x41500000    # 13.0f
 
-    .line 2
     invoke-static {p1}, Lcom/meitu/library/p/f/i;->b(F)F
 
     move-result p1
@@ -37,14 +35,12 @@
 
     const/high16 p1, 0x3fc00000    # 1.5f
 
-    .line 3
     invoke-static {p1}, Lcom/meitu/library/p/f/i;->b(F)F
 
     move-result p1
 
     iput p1, p0, Lcom/commsource/studio/sub/f;->b:F
 
-    .line 4
     new-instance p1, Landroid/graphics/Paint;
 
     const/4 v0, 0x1
@@ -55,10 +51,8 @@
 
     long-to-int v1, v0
 
-    .line 5
     invoke-virtual {p1, v1}, Landroid/graphics/Paint;->setColor(I)V
 
-    .line 6
     iput-object p1, p0, Lcom/commsource/studio/sub/f;->c:Landroid/graphics/Paint;
 
     return-void
@@ -73,7 +67,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/sub/f;->d:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -120,17 +113,14 @@
 
     invoke-static {p4, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-virtual {p3, p2}, Landroidx/recyclerview/widget/RecyclerView;->getChildAdapterPosition(Landroid/view/View;)I
 
     move-result p2
 
-    .line 2
     iget p3, p0, Lcom/commsource/studio/sub/f;->d:I
 
     if-ne p2, p3, :cond_0
 
-    .line 3
     iget p2, p0, Lcom/commsource/studio/sub/f;->a:F
 
     float-to-int p2, p2
@@ -142,10 +132,8 @@
     :cond_0
     const/4 p2, 0x0
 
-    .line 4
     iput p2, p1, Landroid/graphics/Rect;->left:I
 
-    .line 5
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -183,10 +171,8 @@
 
     invoke-static {p3, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-super {p0, p1, p2, p3}, Landroidx/recyclerview/widget/RecyclerView$ItemDecoration;->onDrawOver(Landroid/graphics/Canvas;Landroidx/recyclerview/widget/RecyclerView;Landroidx/recyclerview/widget/RecyclerView$State;)V
 
-    .line 2
     iget p3, p0, Lcom/commsource/studio/sub/f;->d:I
 
     invoke-virtual {p2, p3}, Landroidx/recyclerview/widget/RecyclerView;->findViewHolderForAdapterPosition(I)Landroidx/recyclerview/widget/RecyclerView$ViewHolder;
@@ -195,7 +181,6 @@
 
     if-eqz p2, :cond_0
 
-    .line 3
     iget-object p2, p2, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->itemView:Landroid/view/View;
 
     const-string p3, "it.itemView"
@@ -230,7 +215,6 @@
 
     invoke-virtual {p1, p2, p3, v1, v2}, Landroid/graphics/Canvas;->drawCircle(FFFLandroid/graphics/Paint;)V
 
-    .line 4
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

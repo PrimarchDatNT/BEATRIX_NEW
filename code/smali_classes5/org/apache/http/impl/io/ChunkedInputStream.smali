@@ -46,7 +46,6 @@
 
     const/4 v0, 0x0
 
-    .line 10
     invoke-direct {p0, p1, v0}, Lorg/apache/http/impl/io/ChunkedInputStream;-><init>(Lorg/apache/http/io/SessionInputBuffer;Lorg/apache/http/config/MessageConstraints;)V
 
     return-void
@@ -55,25 +54,20 @@
 .method public constructor <init>(Lorg/apache/http/io/SessionInputBuffer;Lorg/apache/http/config/MessageConstraints;)V
     .locals 2
 
-    .line 1
     invoke-direct {p0}, Ljava/io/InputStream;-><init>()V
 
     const/4 v0, 0x0
 
-    .line 2
     iput-boolean v0, p0, Lorg/apache/http/impl/io/ChunkedInputStream;->eof:Z
 
-    .line 3
     iput-boolean v0, p0, Lorg/apache/http/impl/io/ChunkedInputStream;->closed:Z
 
     new-array v1, v0, [Lorg/apache/http/Header;
 
-    .line 4
     iput-object v1, p0, Lorg/apache/http/impl/io/ChunkedInputStream;->footers:[Lorg/apache/http/Header;
 
     const-string v1, "Session input buffer"
 
-    .line 5
     invoke-static {p1, v1}, Lorg/apache/http/util/Args;->notNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
 
     move-result-object p1
@@ -82,10 +76,8 @@
 
     iput-object p1, p0, Lorg/apache/http/impl/io/ChunkedInputStream;->in:Lorg/apache/http/io/SessionInputBuffer;
 
-    .line 6
     iput v0, p0, Lorg/apache/http/impl/io/ChunkedInputStream;->pos:I
 
-    .line 7
     new-instance p1, Lorg/apache/http/util/CharArrayBuffer;
 
     const/16 v0, 0x10
@@ -98,7 +90,6 @@
 
     goto :goto_0
 
-    .line 8
     :cond_0
     sget-object p2, Lorg/apache/http/config/MessageConstraints;->DEFAULT:Lorg/apache/http/config/MessageConstraints;
 
@@ -107,7 +98,6 @@
 
     const/4 p1, 0x1
 
-    .line 9
     iput p1, p0, Lorg/apache/http/impl/io/ChunkedInputStream;->state:I
 
     return-void
@@ -121,7 +111,6 @@
         }
     .end annotation
 
-    .line 1
     iget v0, p0, Lorg/apache/http/impl/io/ChunkedInputStream;->state:I
 
     const/4 v1, -0x1
@@ -134,12 +123,10 @@
 
     if-ne v0, v3, :cond_2
 
-    .line 2
     iget-object v0, p0, Lorg/apache/http/impl/io/ChunkedInputStream;->buffer:Lorg/apache/http/util/CharArrayBuffer;
 
     invoke-virtual {v0}, Lorg/apache/http/util/CharArrayBuffer;->clear()V
 
-    .line 3
     iget-object v0, p0, Lorg/apache/http/impl/io/ChunkedInputStream;->in:Lorg/apache/http/io/SessionInputBuffer;
 
     iget-object v3, p0, Lorg/apache/http/impl/io/ChunkedInputStream;->buffer:Lorg/apache/http/util/CharArrayBuffer;
@@ -150,7 +137,6 @@
 
     if-eq v0, v1, :cond_1
 
-    .line 4
     iget-object v0, p0, Lorg/apache/http/impl/io/ChunkedInputStream;->buffer:Lorg/apache/http/util/CharArrayBuffer;
 
     invoke-virtual {v0}, Lorg/apache/http/util/CharArrayBuffer;->isEmpty()Z
@@ -159,12 +145,10 @@
 
     if-eqz v0, :cond_0
 
-    .line 5
     iput v2, p0, Lorg/apache/http/impl/io/ChunkedInputStream;->state:I
 
     goto :goto_0
 
-    .line 6
     :cond_0
     new-instance v0, Lorg/apache/http/MalformedChunkCodingException;
 
@@ -174,7 +158,6 @@
 
     throw v0
 
-    .line 7
     :cond_1
     new-instance v0, Lorg/apache/http/MalformedChunkCodingException;
 
@@ -184,7 +167,6 @@
 
     throw v0
 
-    .line 8
     :cond_2
     new-instance v0, Ljava/lang/IllegalStateException;
 
@@ -194,14 +176,12 @@
 
     throw v0
 
-    .line 9
     :cond_3
     :goto_0
     iget-object v0, p0, Lorg/apache/http/impl/io/ChunkedInputStream;->buffer:Lorg/apache/http/util/CharArrayBuffer;
 
     invoke-virtual {v0}, Lorg/apache/http/util/CharArrayBuffer;->clear()V
 
-    .line 10
     iget-object v0, p0, Lorg/apache/http/impl/io/ChunkedInputStream;->in:Lorg/apache/http/io/SessionInputBuffer;
 
     iget-object v2, p0, Lorg/apache/http/impl/io/ChunkedInputStream;->buffer:Lorg/apache/http/util/CharArrayBuffer;
@@ -212,7 +192,6 @@
 
     if-eq v0, v1, :cond_5
 
-    .line 11
     iget-object v0, p0, Lorg/apache/http/impl/io/ChunkedInputStream;->buffer:Lorg/apache/http/util/CharArrayBuffer;
 
     const/16 v1, 0x3b
@@ -223,14 +202,12 @@
 
     if-gez v0, :cond_4
 
-    .line 12
     iget-object v0, p0, Lorg/apache/http/impl/io/ChunkedInputStream;->buffer:Lorg/apache/http/util/CharArrayBuffer;
 
     invoke-virtual {v0}, Lorg/apache/http/util/CharArrayBuffer;->length()I
 
     move-result v0
 
-    .line 13
     :cond_4
     :try_start_0
     iget-object v1, p0, Lorg/apache/http/impl/io/ChunkedInputStream;->buffer:Lorg/apache/http/util/CharArrayBuffer;
@@ -251,7 +228,6 @@
 
     return v0
 
-    .line 14
     :catch_0
     new-instance v0, Lorg/apache/http/MalformedChunkCodingException;
 
@@ -261,7 +237,6 @@
 
     throw v0
 
-    .line 15
     :cond_5
     new-instance v0, Lorg/apache/http/ConnectionClosedException;
 
@@ -280,14 +255,12 @@
         }
     .end annotation
 
-    .line 1
     iget v0, p0, Lorg/apache/http/impl/io/ChunkedInputStream;->state:I
 
     const v1, 0x7fffffff
 
     if-eq v0, v1, :cond_2
 
-    .line 2
     :try_start_0
     invoke-direct {p0}, Lorg/apache/http/impl/io/ChunkedInputStream;->getChunkSize()I
 
@@ -299,28 +272,23 @@
 
     const/4 v2, 0x2
 
-    .line 3
     iput v2, p0, Lorg/apache/http/impl/io/ChunkedInputStream;->state:I
 
     const/4 v2, 0x0
 
-    .line 4
     iput v2, p0, Lorg/apache/http/impl/io/ChunkedInputStream;->pos:I
 
     if-nez v0, :cond_0
 
     const/4 v0, 0x1
 
-    .line 5
     iput-boolean v0, p0, Lorg/apache/http/impl/io/ChunkedInputStream;->eof:Z
 
-    .line 6
     invoke-direct {p0}, Lorg/apache/http/impl/io/ChunkedInputStream;->parseTrailerHeaders()V
 
     :cond_0
     return-void
 
-    .line 7
     :cond_1
     new-instance v0, Lorg/apache/http/MalformedChunkCodingException;
 
@@ -335,13 +303,10 @@
     :catch_0
     move-exception v0
 
-    .line 8
     iput v1, p0, Lorg/apache/http/impl/io/ChunkedInputStream;->state:I
 
-    .line 9
     throw v0
 
-    .line 10
     :cond_2
     new-instance v0, Lorg/apache/http/MalformedChunkCodingException;
 
@@ -360,7 +325,6 @@
         }
     .end annotation
 
-    .line 1
     :try_start_0
     iget-object v0, p0, Lorg/apache/http/impl/io/ChunkedInputStream;->in:Lorg/apache/http/io/SessionInputBuffer;
 
@@ -391,7 +355,6 @@
     :catch_0
     move-exception v0
 
-    .line 2
     new-instance v1, Lorg/apache/http/MalformedChunkCodingException;
 
     new-instance v2, Ljava/lang/StringBuilder;
@@ -414,10 +377,8 @@
 
     invoke-direct {v1, v2}, Lorg/apache/http/MalformedChunkCodingException;-><init>(Ljava/lang/String;)V
 
-    .line 3
     invoke-virtual {v1, v0}, Ljava/io/IOException;->initCause(Ljava/lang/Throwable;)Ljava/lang/Throwable;
 
-    .line 4
     throw v1
 .end method
 
@@ -431,21 +392,18 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lorg/apache/http/impl/io/ChunkedInputStream;->in:Lorg/apache/http/io/SessionInputBuffer;
 
     instance-of v1, v0, Lorg/apache/http/io/BufferInfo;
 
     if-eqz v1, :cond_0
 
-    .line 2
     check-cast v0, Lorg/apache/http/io/BufferInfo;
 
     invoke-interface {v0}, Lorg/apache/http/io/BufferInfo;->length()I
 
     move-result v0
 
-    .line 3
     iget v1, p0, Lorg/apache/http/impl/io/ChunkedInputStream;->chunkSize:I
 
     iget v2, p0, Lorg/apache/http/impl/io/ChunkedInputStream;->pos:I
@@ -472,14 +430,12 @@
         }
     .end annotation
 
-    .line 1
     iget-boolean v0, p0, Lorg/apache/http/impl/io/ChunkedInputStream;->closed:Z
 
     if-nez v0, :cond_1
 
     const/4 v0, 0x1
 
-    .line 2
     :try_start_0
     iget-boolean v1, p0, Lorg/apache/http/impl/io/ChunkedInputStream;->eof:Z
 
@@ -495,7 +451,6 @@
 
     new-array v1, v1, [B
 
-    .line 3
     :goto_0
     invoke-virtual {p0, v1}, Lorg/apache/http/impl/io/ChunkedInputStream;->read([B)I
 
@@ -507,11 +462,9 @@
 
     goto :goto_0
 
-    .line 4
     :cond_0
     iput-boolean v0, p0, Lorg/apache/http/impl/io/ChunkedInputStream;->eof:Z
 
-    .line 5
     iput-boolean v0, p0, Lorg/apache/http/impl/io/ChunkedInputStream;->closed:Z
 
     goto :goto_1
@@ -519,10 +472,8 @@
     :catchall_0
     move-exception v1
 
-    .line 6
     iput-boolean v0, p0, Lorg/apache/http/impl/io/ChunkedInputStream;->eof:Z
 
-    .line 7
     iput-boolean v0, p0, Lorg/apache/http/impl/io/ChunkedInputStream;->closed:Z
 
     throw v1
@@ -535,7 +486,6 @@
 .method public getFooters()[Lorg/apache/http/Header;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lorg/apache/http/impl/io/ChunkedInputStream;->footers:[Lorg/apache/http/Header;
 
     invoke-virtual {v0}, [Lorg/apache/http/Header;->clone()Ljava/lang/Object;
@@ -555,12 +505,10 @@
         }
     .end annotation
 
-    .line 1
     iget-boolean v0, p0, Lorg/apache/http/impl/io/ChunkedInputStream;->closed:Z
 
     if-nez v0, :cond_3
 
-    .line 2
     iget-boolean v0, p0, Lorg/apache/http/impl/io/ChunkedInputStream;->eof:Z
 
     const/4 v1, -0x1
@@ -569,7 +517,6 @@
 
     return v1
 
-    .line 3
     :cond_0
     iget v0, p0, Lorg/apache/http/impl/io/ChunkedInputStream;->state:I
 
@@ -577,17 +524,14 @@
 
     if-eq v0, v2, :cond_1
 
-    .line 4
     invoke-direct {p0}, Lorg/apache/http/impl/io/ChunkedInputStream;->nextChunk()V
 
-    .line 5
     iget-boolean v0, p0, Lorg/apache/http/impl/io/ChunkedInputStream;->eof:Z
 
     if-eqz v0, :cond_1
 
     return v1
 
-    .line 6
     :cond_1
     iget-object v0, p0, Lorg/apache/http/impl/io/ChunkedInputStream;->in:Lorg/apache/http/io/SessionInputBuffer;
 
@@ -597,27 +541,23 @@
 
     if-eq v0, v1, :cond_2
 
-    .line 7
     iget v1, p0, Lorg/apache/http/impl/io/ChunkedInputStream;->pos:I
 
     add-int/lit8 v1, v1, 0x1
 
     iput v1, p0, Lorg/apache/http/impl/io/ChunkedInputStream;->pos:I
 
-    .line 8
     iget v2, p0, Lorg/apache/http/impl/io/ChunkedInputStream;->chunkSize:I
 
     if-lt v1, v2, :cond_2
 
     const/4 v1, 0x3
 
-    .line 9
     iput v1, p0, Lorg/apache/http/impl/io/ChunkedInputStream;->state:I
 
     :cond_2
     return v0
 
-    .line 10
     :cond_3
     new-instance v0, Ljava/io/IOException;
 
@@ -636,7 +576,6 @@
         }
     .end annotation
 
-    .line 23
     array-length v0, p1
 
     const/4 v1, 0x0
@@ -656,12 +595,10 @@
         }
     .end annotation
 
-    .line 11
     iget-boolean v0, p0, Lorg/apache/http/impl/io/ChunkedInputStream;->closed:Z
 
     if-nez v0, :cond_4
 
-    .line 12
     iget-boolean v0, p0, Lorg/apache/http/impl/io/ChunkedInputStream;->eof:Z
 
     const/4 v1, -0x1
@@ -670,7 +607,6 @@
 
     return v1
 
-    .line 13
     :cond_0
     iget v0, p0, Lorg/apache/http/impl/io/ChunkedInputStream;->state:I
 
@@ -678,17 +614,14 @@
 
     if-eq v0, v2, :cond_1
 
-    .line 14
     invoke-direct {p0}, Lorg/apache/http/impl/io/ChunkedInputStream;->nextChunk()V
 
-    .line 15
     iget-boolean v0, p0, Lorg/apache/http/impl/io/ChunkedInputStream;->eof:Z
 
     if-eqz v0, :cond_1
 
     return v1
 
-    .line 16
     :cond_1
     iget-object v0, p0, Lorg/apache/http/impl/io/ChunkedInputStream;->in:Lorg/apache/http/io/SessionInputBuffer;
 
@@ -708,21 +641,18 @@
 
     if-eq p1, v1, :cond_3
 
-    .line 17
     iget p2, p0, Lorg/apache/http/impl/io/ChunkedInputStream;->pos:I
 
     add-int/2addr p2, p1
 
     iput p2, p0, Lorg/apache/http/impl/io/ChunkedInputStream;->pos:I
 
-    .line 18
     iget p3, p0, Lorg/apache/http/impl/io/ChunkedInputStream;->chunkSize:I
 
     if-lt p2, p3, :cond_2
 
     const/4 p2, 0x3
 
-    .line 19
     iput p2, p0, Lorg/apache/http/impl/io/ChunkedInputStream;->state:I
 
     :cond_2
@@ -731,10 +661,8 @@
     :cond_3
     const/4 p1, 0x1
 
-    .line 20
     iput-boolean p1, p0, Lorg/apache/http/impl/io/ChunkedInputStream;->eof:Z
 
-    .line 21
     new-instance p1, Lorg/apache/http/TruncatedChunkException;
 
     new-instance p2, Ljava/lang/StringBuilder;
@@ -769,7 +697,6 @@
 
     throw p1
 
-    .line 22
     :cond_4
     new-instance p1, Ljava/io/IOException;
 

@@ -18,7 +18,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/commsource/camera/xcamera/util/d;
 
     invoke-direct {v1}, Lcom/commsource/camera/xcamera/util/d;-><init>()V
@@ -33,7 +32,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -58,7 +56,6 @@
 
     if-eqz p1, :cond_3
 
-    .line 1
     invoke-virtual {p1}, Lcom/meitu/template/bean/Filter;->getFilterId()I
 
     move-result v2
@@ -69,7 +66,6 @@
 
     goto :goto_1
 
-    .line 2
     :cond_0
     invoke-virtual {p1}, Lcom/meitu/template/bean/Filter;->getMaterialPath()Ljava/lang/String;
 
@@ -101,19 +97,16 @@
 
     move-result-object v2
 
-    .line 3
     invoke-static {p1}, Lcom/commsource/camera/f1/f;->j(Lcom/meitu/template/bean/Filter;)Z
 
     move-result p1
 
     if-eqz p1, :cond_2
 
-    .line 4
     new-instance p1, Lcom/commsource/camera/param/MakeupParam;
 
     invoke-direct {p1}, Lcom/commsource/camera/param/MakeupParam;-><init>()V
 
-    .line 5
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -130,7 +123,6 @@
 
     invoke-virtual {p1, v1}, Lcom/commsource/camera/param/MakeupParam;->setPlistPath(Ljava/lang/String;)V
 
-    .line 6
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -155,21 +147,17 @@
 
     const/16 v1, 0x96
 
-    .line 7
     invoke-virtual {p1, v1}, Lcom/commsource/camera/param/MakeupParam;->setMakeupType(I)V
 
-    .line 8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p1
 
-    .line 9
     :cond_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
 
-    .line 10
     :cond_3
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -197,7 +185,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-virtual {p1}, Lcom/meitu/template/bean/Filter;->getMaterialPath()Ljava/lang/String;
 
     move-result-object v1
@@ -206,12 +193,10 @@
 
     if-nez v1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v2
 
-    .line 3
     :cond_0
     new-instance v1, Ljava/lang/StringBuilder;
 
@@ -250,7 +235,6 @@
 
     move-result-object p1
 
-    .line 4
     new-instance v1, Lcotlin/jvm/internal/Ref$BooleanRef;
 
     invoke-direct {v1}, Lcotlin/jvm/internal/Ref$BooleanRef;-><init>()V
@@ -259,7 +243,6 @@
 
     iput-boolean v2, v1, Lcotlin/jvm/internal/Ref$BooleanRef;->element:Z
 
-    .line 5
     :try_start_0
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
@@ -286,21 +269,17 @@
     :catch_0
     move-exception p1
 
-    .line 6
     invoke-static {p1}, Lcom/meitu/library/util/Debug/Debug;->q(Ljava/lang/Throwable;)V
 
-    .line 7
     :goto_0
     new-instance p1, Lcom/commsource/camera/xcamera/bean/FilterInfo;
 
     invoke-direct {p1}, Lcom/commsource/camera/xcamera/bean/FilterInfo;-><init>()V
 
-    .line 8
     iget-boolean v1, v1, Lcotlin/jvm/internal/Ref$BooleanRef;->element:Z
 
     invoke-virtual {p1, v1}, Lcom/commsource/camera/xcamera/bean/FilterInfo;->setFilterBeforeAR(Z)V
 
-    .line 9
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p1

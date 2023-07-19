@@ -82,7 +82,6 @@
 
     const/16 v18, 0x0
 
-    .line 2
     invoke-direct/range {v0 .. v18}, Lcom/commsource/widget/dialog/delegate/d/a;-><init>(IIIIZZZLandroid/content/DialogInterface$OnCancelListener;Landroid/content/DialogInterface$OnDismissListener;IIIILjava/lang/String;Ljava/util/List;Ljava/util/List;ILcotlin/jvm/internal/u;)V
 
     move-object/from16 v1, p1
@@ -114,7 +113,6 @@
 
     move-object p2, v0
 
-    .line 1
     :cond_1
     invoke-direct {p0, p1, p2}, Lcom/commsource/widget/dialog/delegate/d/g;-><init>(Lcom/commsource/widget/dialog/delegate/d/f;Lcom/commsource/widget/dialog/delegate/d/e;)V
 
@@ -220,7 +218,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/widget/dialog/delegate/d/g;->r:Lcom/commsource/widget/dialog/delegate/d/e;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -237,7 +234,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/widget/dialog/delegate/d/g;->q:Lcom/commsource/widget/dialog/delegate/d/f;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -256,7 +252,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/widget/dialog/delegate/d/g;->r:Lcom/commsource/widget/dialog/delegate/d/e;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -275,7 +270,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/widget/dialog/delegate/d/g;->q:Lcom/commsource/widget/dialog/delegate/d/f;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

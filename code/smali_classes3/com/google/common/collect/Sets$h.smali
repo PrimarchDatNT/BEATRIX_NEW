@@ -42,7 +42,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1, p2}, Lcom/google/common/collect/n$a;-><init>(Ljava/util/Collection;Lcom/google/common/base/u;)V
 
     return-void
@@ -57,7 +56,6 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-static {p0, p1}, Lcom/google/common/collect/Sets;->g(Ljava/util/Set;Ljava/lang/Object;)Z
 
     move-result p1
@@ -68,7 +66,6 @@
 .method public hashCode()I
     .locals 1
 
-    .line 1
     invoke-static {p0}, Lcom/google/common/collect/Sets;->k(Ljava/util/Set;)I
 
     move-result v0

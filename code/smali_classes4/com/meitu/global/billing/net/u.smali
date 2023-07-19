@@ -10,7 +10,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -42,19 +41,16 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p2}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v1
 
     if-nez v1, :cond_1
 
-    .line 2
     new-instance v1, Lcom/google/gson/JsonParser;
 
     invoke-direct {v1}, Lcom/google/gson/JsonParser;-><init>()V
 
-    .line 3
     invoke-virtual {v1, p2}, Lcom/google/gson/JsonParser;->parse(Ljava/lang/String;)Lcom/google/gson/JsonElement;
 
     move-result-object p2
@@ -63,7 +59,6 @@
 
     const-string v1, "code"
 
-    .line 4
     invoke-virtual {p2, v1}, Lcom/google/gson/JsonObject;->get(Ljava/lang/String;)Lcom/google/gson/JsonElement;
 
     move-result-object v1
@@ -72,12 +67,10 @@
 
     move-result-object v1
 
-    .line 5
     iput-object v1, p1, Lcom/meitu/global/billing/net/DataModel;->c:Ljava/lang/String;
 
     const-string v2, "message"
 
-    .line 6
     invoke-virtual {p2, v2}, Lcom/google/gson/JsonObject;->get(Ljava/lang/String;)Lcom/google/gson/JsonElement;
 
     move-result-object v2
@@ -90,21 +83,18 @@
 
     const-string v2, "0"
 
-    .line 7
     invoke-virtual {v2, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v1
 
     if-eqz v1, :cond_0
 
-    .line 8
     new-instance v1, Lcom/google/gson/Gson;
 
     invoke-direct {v1}, Lcom/google/gson/Gson;-><init>()V
 
     const-string v2, "data"
 
-    .line 9
     invoke-virtual {p2, v2}, Lcom/google/gson/JsonObject;->get(Ljava/lang/String;)Lcom/google/gson/JsonElement;
 
     move-result-object p2
@@ -119,13 +109,11 @@
 
     iput-object p2, p1, Lcom/meitu/global/billing/net/DataModel;->g:Ljava/lang/Object;
 
-    .line 10
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 11
     :cond_1
     new-instance p1, Ljava/lang/NullPointerException;
 
@@ -147,7 +135,6 @@
 
     const/4 v1, 0x0
 
-    .line 1
     invoke-virtual {p0, p1, v1}, Lcom/meitu/global/billing/net/u;->c(Ljava/lang/Class;I)Ljava/lang/Class;
 
     move-result-object p1
@@ -171,22 +158,18 @@
 
     invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p1}, Ljava/lang/Class;->getGenericSuperclass()Ljava/lang/reflect/Type;
 
     move-result-object p1
 
-    .line 2
     instance-of v2, p1, Ljava/lang/reflect/ParameterizedType;
 
     if-nez v2, :cond_0
 
-    .line 3
     invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v0
 
-    .line 4
     :cond_0
     check-cast p1, Ljava/lang/reflect/ParameterizedType;
 
@@ -194,7 +177,6 @@
 
     move-result-object p1
 
-    .line 5
     array-length v2, p1
 
     if-ge p2, v2, :cond_3
@@ -203,7 +185,6 @@
 
     goto :goto_0
 
-    .line 6
     :cond_1
     aget-object v2, p1, p2
 
@@ -211,12 +192,10 @@
 
     if-nez v2, :cond_2
 
-    .line 7
     invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v0
 
-    .line 8
     :cond_2
     aget-object p1, p1, p2
 
@@ -226,7 +205,6 @@
 
     return-object p1
 
-    .line 9
     :cond_3
     :goto_0
     invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V

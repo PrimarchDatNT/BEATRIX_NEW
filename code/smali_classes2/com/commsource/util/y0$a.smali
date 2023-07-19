@@ -28,7 +28,6 @@
 .method constructor <init>(Ljava/lang/String;ILandroid/content/Context;Ljava/lang/String;I)V
     .locals 0
 
-    .line 1
     iput p2, p0, Lcom/commsource/util/y0$a;->g:I
 
     iput-object p3, p0, Lcom/commsource/util/y0$a;->p:Landroid/content/Context;
@@ -51,12 +50,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lokhttp3/OkHttpClient;
 
     invoke-direct {v1}, Lokhttp3/OkHttpClient;-><init>()V
 
-    .line 2
     iget v2, p0, Lcom/commsource/util/y0$a;->g:I
 
     const-string v3, ""
@@ -65,7 +62,6 @@
 
     if-ne v2, v4, :cond_2
 
-    .line 3
     :try_start_0
     iget-object v2, p0, Lcom/commsource/util/y0$a;->p:Landroid/content/Context;
 
@@ -75,7 +71,6 @@
 
     if-eqz v2, :cond_1
 
-    .line 4
     invoke-virtual {v2}, Lcom/google/android/gms/ads/identifier/AdvertisingIdClient$Info;->getId()Ljava/lang/String;
 
     move-result-object v4
@@ -100,14 +95,12 @@
     :catch_0
     move-exception v2
 
-    .line 5
     invoke-static {v2}, Lcom/meitu/library/util/Debug/Debug;->a0(Ljava/lang/Throwable;)V
 
     :cond_1
     :goto_0
     move-object v2, v3
 
-    .line 6
     :goto_1
     new-instance v4, Ljava/lang/StringBuilder;
 
@@ -139,7 +132,6 @@
 
     goto :goto_2
 
-    .line 7
     :cond_2
     iget-object v2, p0, Lcom/commsource/util/y0$a;->p:Landroid/content/Context;
 
@@ -167,7 +159,6 @@
 
     move-result-object v2
 
-    .line 8
     :goto_2
     new-instance v3, Lokhttp3/Request$Builder;
 
@@ -181,7 +172,6 @@
 
     move-result-object v2
 
-    .line 9
     :try_start_1
     invoke-virtual {v1, v2}, Lokhttp3/OkHttpClient;->newCall(Lokhttp3/Request;)Lokhttp3/Call;
 
@@ -196,10 +186,8 @@
     :catch_1
     move-exception v1
 
-    .line 10
     invoke-static {v1}, Lcom/meitu/library/util/Debug/Debug;->a0(Ljava/lang/Throwable;)V
 
-    .line 11
     :goto_3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

@@ -31,7 +31,6 @@
 .method constructor <init>(Lf/n/a/c/k$b;Ljava/lang/String;Lcom/qiniu/android/http/g;Lorg/json/JSONObject;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lf/n/a/c/k$b$a;->d:Lf/n/a/c/k$b;
 
     iput-object p2, p0, Lf/n/a/c/k$b$a;->a:Ljava/lang/String;
@@ -50,7 +49,6 @@
 .method public run()V
     .locals 4
 
-    .line 1
     iget-object v0, p0, Lf/n/a/c/k$b$a;->d:Lf/n/a/c/k$b;
 
     iget-object v0, v0, Lf/n/a/c/k$b;->a:Lf/n/a/c/h;

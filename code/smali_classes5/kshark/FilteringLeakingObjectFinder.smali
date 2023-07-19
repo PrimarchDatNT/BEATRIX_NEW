@@ -48,7 +48,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     iput-object p1, p0, Lkshark/FilteringLeakingObjectFinder;->b:Ljava/util/List;
@@ -59,7 +58,6 @@
 .method public static final synthetic b(Lkshark/FilteringLeakingObjectFinder;)Ljava/util/List;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lkshark/FilteringLeakingObjectFinder;->b:Ljava/util/List;
 
     return-object p0
@@ -91,12 +89,10 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-interface {p1}, Lkshark/i;->a()Lcotlin/sequences/m;
 
     move-result-object p1
 
-    .line 2
     new-instance v0, Lkshark/FilteringLeakingObjectFinder$findLeakingObjectIds$1;
 
     invoke-direct {v0, p0}, Lkshark/FilteringLeakingObjectFinder$findLeakingObjectIds$1;-><init>(Lkshark/FilteringLeakingObjectFinder;)V
@@ -105,14 +101,12 @@
 
     move-result-object p1
 
-    .line 3
     sget-object v0, Lkshark/FilteringLeakingObjectFinder$findLeakingObjectIds$2;->INSTANCE:Lkshark/FilteringLeakingObjectFinder$findLeakingObjectIds$2;
 
     invoke-static {p1, v0}, Lcotlin/sequences/p;->b1(Lcotlin/sequences/m;Lcotlin/jvm/u/l;)Lcotlin/sequences/m;
 
     move-result-object p1
 
-    .line 4
     invoke-static {p1}, Lcotlin/sequences/p;->Y2(Lcotlin/sequences/m;)Ljava/util/Set;
 
     move-result-object p1

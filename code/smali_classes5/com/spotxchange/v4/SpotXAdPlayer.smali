@@ -42,7 +42,6 @@
 .method static constructor <clinit>()V
     .locals 2
 
-    .line 1
     new-instance v0, Lcom/spotxchange/v4/SpotXAdPlayer$c;
 
     const/4 v1, 0x0
@@ -57,7 +56,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Landroid/database/Observable;-><init>()V
 
     return-void
@@ -66,7 +64,6 @@
 .method public static final c(Lcom/spotxchange/internal/view/SpotXActivity;)Lcom/spotxchange/v4/SpotXAdPlayer$c;
     .locals 0
 
-    .line 1
     sget-object p0, Lcom/spotxchange/v4/SpotXAdPlayer;->e:Lcom/spotxchange/v4/SpotXAdPlayer$c;
 
     return-object p0
@@ -75,7 +72,6 @@
 .method public static final d(Lcom/spotxchange/internal/view/SpotXContainerView;)Lcom/spotxchange/v4/SpotXAdPlayer$c;
     .locals 0
 
-    .line 1
     sget-object p0, Lcom/spotxchange/v4/SpotXAdPlayer;->e:Lcom/spotxchange/v4/SpotXAdPlayer$c;
 
     return-object p0
@@ -113,7 +109,6 @@
 .method public m(Z)V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/spotxchange/v4/SpotXAdPlayer;->b:Lf/r/c/d/e;
 
     invoke-virtual {v0}, Lf/r/c/d/e;->o()Landroid/webkit/WebView;

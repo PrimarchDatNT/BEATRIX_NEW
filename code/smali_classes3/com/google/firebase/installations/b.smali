@@ -25,10 +25,8 @@
 .method constructor <init>()V
     .locals 2
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     new-instance v0, Ljava/util/concurrent/CountDownLatch;
 
     const/4 v1, 0x1
@@ -50,7 +48,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/installations/b;->a:Ljava/util/concurrent/CountDownLatch;
 
     invoke-virtual {v0, p1, p2, p3}, Ljava/util/concurrent/CountDownLatch;->await(JLjava/util/concurrent/TimeUnit;)Z
@@ -75,7 +72,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object p1, p0, Lcom/google/firebase/installations/b;->a:Ljava/util/concurrent/CountDownLatch;
 
     invoke-virtual {p1}, Ljava/util/concurrent/CountDownLatch;->countDown()V
@@ -86,7 +82,6 @@
 .method public c()V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/installations/b;->a:Ljava/util/concurrent/CountDownLatch;
 
     invoke-virtual {v0}, Ljava/util/concurrent/CountDownLatch;->countDown()V

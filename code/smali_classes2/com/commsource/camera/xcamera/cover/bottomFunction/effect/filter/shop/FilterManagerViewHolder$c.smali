@@ -42,7 +42,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/FilterManagerViewHolder$c;->a:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/FilterManagerViewHolder;
 
     invoke-static {v0}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/FilterManagerViewHolder;->v(Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/FilterManagerViewHolder;)Lcom/commsource/widget/h1/e;
@@ -76,7 +75,6 @@
 
     const-string v2, "eveyItem"
 
-    .line 2
     invoke-static {v1, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v1}, Lcom/commsource/widget/h1/d;->b()Ljava/lang/Object;
@@ -87,7 +85,6 @@
 
     check-cast v1, Lcom/meitu/template/bean/Filter;
 
-    .line 3
     invoke-virtual {v1}, Lcom/meitu/template/bean/Filter;->isDeleteState()Z
 
     move-result v2
@@ -96,10 +93,8 @@
 
     const/4 v0, 0x0
 
-    .line 4
     invoke-virtual {v1, v0}, Lcom/meitu/template/bean/Filter;->setDeleteState(Z)V
 
-    .line 5
     new-instance v0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/FilterManagerViewHolder$c$a;
 
     invoke-direct {v0, p0, v1}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/FilterManagerViewHolder$c$a;-><init>(Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/FilterManagerViewHolder$c;Lcom/meitu/template/bean/Filter;)V
@@ -108,7 +103,6 @@
 
     goto :goto_0
 
-    .line 6
     :cond_1
     new-instance v0, Lcotlin/TypeCastException;
 
@@ -120,7 +114,6 @@
 
     throw v0
 
-    .line 7
     :cond_2
     :goto_0
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V

@@ -20,7 +20,6 @@
 
     const-string v0, "UTF-8"
 
-    .line 1
     invoke-static {v0}, Ljava/nio/charset/Charset;->forName(Ljava/lang/String;)Ljava/nio/charset/Charset;
 
     move-result-object v0
@@ -29,7 +28,6 @@
 
     const-string v0, "ISO-8859-1"
 
-    .line 2
     invoke-static {v0}, Ljava/nio/charset/Charset;->forName(Ljava/lang/String;)Ljava/nio/charset/Charset;
 
     move-result-object v0
@@ -40,7 +38,6 @@
 
     new-array v1, v0, [B
 
-    .line 3
     sput-object v1, Lcom/google/android/gms/internal/firebase_remote_config/a6;->c:[B
 
     invoke-static {v1}, Ljava/nio/ByteBuffer;->wrap([B)Ljava/nio/ByteBuffer;
@@ -49,15 +46,12 @@
 
     sput-object v2, Lcom/google/android/gms/internal/firebase_remote_config/a6;->d:Ljava/nio/ByteBuffer;
 
-    .line 4
     array-length v2, v1
 
-    .line 5
     invoke-static {v1, v0, v2, v0}, Lcom/google/android/gms/internal/firebase_remote_config/d5;->d([BIIZ)Lcom/google/android/gms/internal/firebase_remote_config/d5;
 
     move-result-object v0
 
-    .line 6
     sput-object v0, Lcom/google/android/gms/internal/firebase_remote_config/a6;->e:Lcom/google/android/gms/internal/firebase_remote_config/d5;
 
     return-void
@@ -73,7 +67,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p0}, Ljava/util/Objects;->requireNonNull(Ljava/lang/Object;)Ljava/lang/Object;
 
     return-object p0
@@ -82,12 +75,10 @@
 .method public static b([B)I
     .locals 2
 
-    .line 1
     array-length v0, p0
 
     const/4 v1, 0x0
 
-    .line 2
     invoke-static {v0, p0, v1, v0}, Lcom/google/android/gms/internal/firebase_remote_config/a6;->c(I[BII)I
 
     move-result p0
@@ -112,7 +103,6 @@
 
     mul-int/lit8 p0, p0, 0x1f
 
-    .line 1
     aget-byte v1, p1, v0
 
     add-int/2addr p0, v1
@@ -137,7 +127,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p0, p1}, Ljava/util/Objects;->requireNonNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
 
     return-object p0
@@ -146,7 +135,6 @@
 .method static e(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
     .locals 0
 
-    .line 1
     check-cast p0, Lcom/google/android/gms/internal/firebase_remote_config/b7;
 
     invoke-interface {p0}, Lcom/google/android/gms/internal/firebase_remote_config/b7;->c()Lcom/google/android/gms/internal/firebase_remote_config/e7;
@@ -169,7 +157,6 @@
 .method public static f([B)Z
     .locals 0
 
-    .line 1
     invoke-static {p0}, Lcom/google/android/gms/internal/firebase_remote_config/v8;->g([B)Z
 
     move-result p0
@@ -180,7 +167,6 @@
 .method public static g([B)Ljava/lang/String;
     .locals 2
 
-    .line 1
     new-instance v0, Ljava/lang/String;
 
     sget-object v1, Lcom/google/android/gms/internal/firebase_remote_config/a6;->a:Ljava/nio/charset/Charset;

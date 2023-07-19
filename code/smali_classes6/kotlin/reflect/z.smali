@@ -49,7 +49,6 @@
 
     sput-object v0, Lcotlin/reflect/z;->d:Lcotlin/reflect/z$a;
 
-    .line 1
     new-instance v0, Lcotlin/reflect/z;
 
     invoke-direct {v0, v1, v1}, Lcotlin/reflect/z;-><init>(Ljava/lang/reflect/Type;Ljava/lang/reflect/Type;)V
@@ -70,7 +69,6 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     iput-object p1, p0, Lcotlin/reflect/z;->a:Ljava/lang/reflect/Type;
@@ -83,7 +81,6 @@
 .method public static final synthetic h0()Lcotlin/reflect/z;
     .locals 1
 
-    .line 1
     sget-object v0, Lcotlin/reflect/z;->c:Lcotlin/reflect/z;
 
     return-object v0
@@ -98,7 +95,6 @@
         .end annotation
     .end param
 
-    .line 1
     instance-of v0, p1, Ljava/lang/reflect/WildcardType;
 
     if-eqz v0, :cond_0
@@ -149,7 +145,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcotlin/reflect/z;->b:Ljava/lang/reflect/Type;
 
     const/4 v1, 0x0
@@ -178,7 +173,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcotlin/reflect/z;->b:Ljava/lang/reflect/Type;
 
     if-eqz v0, :cond_0
@@ -205,7 +199,6 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     iget-object v0, p0, Lcotlin/reflect/z;->a:Ljava/lang/reflect/Type;
 
@@ -259,7 +252,6 @@
 
     new-array v0, v0, [Ljava/lang/reflect/Type;
 
-    .line 1
     iget-object v1, p0, Lcotlin/reflect/z;->a:Ljava/lang/reflect/Type;
 
     if-eqz v1, :cond_0
@@ -280,7 +272,6 @@
 .method public hashCode()I
     .locals 2
 
-    .line 1
     invoke-virtual {p0}, Lcotlin/reflect/z;->getUpperBounds()[Ljava/lang/reflect/Type;
 
     move-result-object v0
@@ -307,7 +298,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcotlin/reflect/z;->getTypeName()Ljava/lang/String;
 
     move-result-object v0

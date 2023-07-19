@@ -15,7 +15,6 @@
 .method constructor <init>(Lcom/google/android/gms/tasks/q;Lcom/google/android/gms/tasks/k;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/android/gms/tasks/r;->b:Lcom/google/android/gms/tasks/q;
 
     iput-object p2, p0, Lcom/google/android/gms/tasks/r;->a:Lcom/google/android/gms/tasks/k;
@@ -30,7 +29,6 @@
 .method public final run()V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/tasks/r;->a:Lcom/google/android/gms/tasks/k;
 
     invoke-virtual {v0}, Lcom/google/android/gms/tasks/k;->t()Z
@@ -39,7 +37,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 2
     iget-object v0, p0, Lcom/google/android/gms/tasks/r;->b:Lcom/google/android/gms/tasks/q;
 
     invoke-static {v0}, Lcom/google/android/gms/tasks/q;->a(Lcom/google/android/gms/tasks/q;)Lcom/google/android/gms/tasks/i0;
@@ -50,7 +47,6 @@
 
     return-void
 
-    .line 3
     :cond_0
     :try_start_0
     iget-object v0, p0, Lcom/google/android/gms/tasks/r;->b:Lcom/google/android/gms/tasks/q;
@@ -68,7 +64,6 @@
     .catch Lcom/google/android/gms/tasks/RuntimeExecutionException; {:try_start_0 .. :try_end_0} :catch_1
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
-    .line 4
     iget-object v1, p0, Lcom/google/android/gms/tasks/r;->b:Lcom/google/android/gms/tasks/q;
 
     invoke-static {v1}, Lcom/google/android/gms/tasks/q;->a(Lcom/google/android/gms/tasks/q;)Lcom/google/android/gms/tasks/i0;
@@ -82,7 +77,6 @@
     :catch_0
     move-exception v0
 
-    .line 5
     iget-object v1, p0, Lcom/google/android/gms/tasks/r;->b:Lcom/google/android/gms/tasks/q;
 
     invoke-static {v1}, Lcom/google/android/gms/tasks/q;->a(Lcom/google/android/gms/tasks/q;)Lcom/google/android/gms/tasks/i0;
@@ -96,7 +90,6 @@
     :catch_1
     move-exception v0
 
-    .line 6
     invoke-virtual {v0}, Ljava/lang/RuntimeException;->getCause()Ljava/lang/Throwable;
 
     move-result-object v1
@@ -105,7 +98,6 @@
 
     if-eqz v1, :cond_1
 
-    .line 7
     iget-object v1, p0, Lcom/google/android/gms/tasks/r;->b:Lcom/google/android/gms/tasks/q;
 
     invoke-static {v1}, Lcom/google/android/gms/tasks/q;->a(Lcom/google/android/gms/tasks/q;)Lcom/google/android/gms/tasks/i0;
@@ -122,7 +114,6 @@
 
     return-void
 
-    .line 8
     :cond_1
     iget-object v1, p0, Lcom/google/android/gms/tasks/r;->b:Lcom/google/android/gms/tasks/q;
 

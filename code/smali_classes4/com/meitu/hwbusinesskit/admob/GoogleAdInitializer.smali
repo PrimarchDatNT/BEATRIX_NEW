@@ -7,7 +7,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -22,7 +21,6 @@
 
     const-string v1, "admob"
 
-    .line 1
     invoke-static {v1}, Lcom/meitu/hwbusinesskit/core/utils/PlatformUtil;->isPlatformInitialized(Ljava/lang/String;)Z
 
     move-result v2
@@ -31,16 +29,13 @@
 
     const-string v2, "\u5e73\u53f0\u521d\u59cb\u5316-\u5f00\u59cb\uff1aadmob"
 
-    .line 2
     invoke-static {v2}, Lcom/meitu/hwbusinesskit/core/utils/TestLog;->log(Ljava/lang/String;)V
 
-    .line 3
     :try_start_0
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v2
 
-    .line 4
     new-instance v4, Landroid/webkit/WebView;
 
     invoke-static {}, Lcom/meitu/library/application/BaseApplication;->getApplication()Landroid/app/Application;
@@ -49,21 +44,18 @@
 
     invoke-direct {v4, v5}, Landroid/webkit/WebView;-><init>(Landroid/content/Context;)V
 
-    .line 5
     invoke-static {}, Lcom/meitu/hwbusinesskit/core/MTHWBusinessConfig;->getHwbAnalyticsAgent()Lcom/meitu/hwbusinesskit/core/statistics/IHwbAnalyticsAgent;
 
     move-result-object v4
 
     if-eqz v4, :cond_0
 
-    .line 6
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v5
 
     sub-long/2addr v5, v2
 
-    .line 7
     new-instance v2, Ljava/util/HashMap;
 
     const/4 v3, 0x4
@@ -84,7 +76,6 @@
 
     float-to-int v5, v5
 
-    .line 8
     invoke-static {v5}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
 
     move-result-object v5
@@ -93,7 +84,6 @@
 
     const-string v3, "admob_webview_init"
 
-    .line 9
     invoke-interface {v4, v3, v2}, Lcom/meitu/hwbusinesskit/core/statistics/IHwbAnalyticsAgent;->logMtAnalyticsEvent(Ljava/lang/String;Ljava/util/Map;)V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
@@ -103,29 +93,24 @@
     :catchall_0
     move-exception v2
 
-    .line 10
     invoke-virtual {v2}, Ljava/lang/Throwable;->printStackTrace()V
 
     :cond_0
     :goto_0
     const-string v2, "admob_app_id"
 
-    .line 11
     invoke-static {v2}, Lcom/meitu/hwbusinesskit/core/MTHWBusinessConfig;->getPlatformAppKey(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v2
 
     invoke-static {p0, v2}, Lcom/google/android/gms/ads/m;->h(Landroid/content/Context;Ljava/lang/String;)V
 
-    .line 12
     invoke-static {v1}, Lcom/meitu/hwbusinesskit/core/utils/PlatformUtil;->addInitializedPlatform(Ljava/lang/String;)V
 
     const-string p0, "\u5e73\u53f0\u521d\u59cb\u5316-\u7ed3\u675f\uff1aadmob"
 
-    .line 13
     invoke-static {p0}, Lcom/meitu/hwbusinesskit/core/utils/TestLog;->log(Ljava/lang/String;)V
 
-    .line 14
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

@@ -55,10 +55,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 2
     new-instance v1, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/FastCenterScrollLayoutManager;
 
-    .line 3
     iget-object v2, p0, Lcom/commsource/studio/sub/StudioBeautyFilterFragment$groupLayoutManager$2;->this$0:Lcom/commsource/studio/sub/StudioBeautyFilterFragment;
 
     invoke-static {v2}, Lcom/commsource/studio/sub/StudioBeautyFilterFragment;->d0(Lcom/commsource/studio/sub/StudioBeautyFilterFragment;)Landroid/app/Activity;
@@ -67,10 +65,8 @@
 
     const/4 v3, 0x0
 
-    .line 4
     invoke-direct {v1, v2, v3, v3}, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/FastCenterScrollLayoutManager;-><init>(Landroid/content/Context;IZ)V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
@@ -83,7 +79,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/studio/sub/StudioBeautyFilterFragment$groupLayoutManager$2;->invoke()Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/FastCenterScrollLayoutManager;
 
     move-result-object v1

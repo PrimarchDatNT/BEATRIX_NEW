@@ -39,10 +39,8 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/function/background/BackgroundAdjustFragment$tracker$2$a;->c:Lcom/commsource/studio/function/background/BackgroundAdjustFragment$tracker$2;
 
-    .line 2
     invoke-direct {p0, p2, p3}, Lcom/commsource/util/h1;-><init>(Ljava/util/HashMap;Z)V
 
     return-void
@@ -57,7 +55,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Ljava/lang/Integer;
 
     check-cast p2, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;
@@ -76,7 +73,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/function/background/BackgroundAdjustFragment$tracker$2$a;->c:Lcom/commsource/studio/function/background/BackgroundAdjustFragment$tracker$2;
 
     iget-object v1, v1, Lcom/commsource/studio/function/background/BackgroundAdjustFragment$tracker$2;->this$0:Lcom/commsource/studio/function/background/BackgroundAdjustFragment;
@@ -105,7 +101,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     instance-of v1, p2, Lcom/commsource/studio/function/background/GradientViewHolder;
 
     if-eqz v1, :cond_3
@@ -137,7 +132,6 @@
 
     if-ne p1, v1, :cond_3
 
-    .line 2
     :cond_2
     check-cast p2, Lcom/commsource/studio/function/background/GradientViewHolder;
 
@@ -155,7 +149,6 @@
 
     if-eqz p1, :cond_3
 
-    .line 3
     invoke-virtual {p1}, Lcom/commsource/studio/function/background/GradientMaterial;->getId()Ljava/lang/String;
 
     move-result-object p2
@@ -166,12 +159,10 @@
 
     if-eqz p2, :cond_3
 
-    .line 4
     new-instance p2, Ljava/util/HashMap;
 
     invoke-direct {p2}, Ljava/util/HashMap;-><init>()V
 
-    .line 5
     invoke-virtual {p1}, Lcom/commsource/studio/function/background/GradientMaterial;->getId()Ljava/lang/String;
 
     move-result-object p1
@@ -182,10 +173,8 @@
 
     const-string p1, "beauty_background_gradient_imp"
 
-    .line 6
     invoke-static {p1, p2}, Lcom/commsource/statistics/i;->s(Ljava/lang/String;Ljava/util/Map;)V
 
-    .line 7
     :cond_3
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

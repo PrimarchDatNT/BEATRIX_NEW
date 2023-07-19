@@ -46,10 +46,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/google/common/reflect/e;-><init>(Ljava/lang/reflect/AccessibleObject;)V
 
-    .line 2
     iput-object p1, p0, Lcom/google/common/reflect/e$a;->c:Ljava/lang/reflect/Constructor;
 
     return-void
@@ -58,14 +56,12 @@
 .method private I0()Z
     .locals 3
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/reflect/e$a;->c:Ljava/lang/reflect/Constructor;
 
     invoke-virtual {v0}, Ljava/lang/reflect/Constructor;->getDeclaringClass()Ljava/lang/Class;
 
     move-result-object v0
 
-    .line 2
     invoke-virtual {v0}, Ljava/lang/Class;->getEnclosingConstructor()Ljava/lang/reflect/Constructor;
 
     move-result-object v1
@@ -76,7 +72,6 @@
 
     return v2
 
-    .line 3
     :cond_0
     invoke-virtual {v0}, Ljava/lang/Class;->getEnclosingMethod()Ljava/lang/reflect/Method;
 
@@ -84,7 +79,6 @@
 
     if-eqz v1, :cond_1
 
-    .line 4
     invoke-virtual {v1}, Ljava/lang/reflect/Method;->getModifiers()I
 
     move-result v0
@@ -97,7 +91,6 @@
 
     return v0
 
-    .line 5
     :cond_1
     invoke-virtual {v0}, Ljava/lang/Class;->getEnclosingClass()Ljava/lang/Class;
 
@@ -105,7 +98,6 @@
 
     if-eqz v1, :cond_2
 
-    .line 6
     invoke-virtual {v0}, Ljava/lang/Class;->getModifiers()I
 
     move-result v0
@@ -140,7 +132,6 @@
         }
     .end annotation
 
-    .line 1
     :try_start_0
     iget-object p1, p0, Lcom/google/common/reflect/e$a;->c:Ljava/lang/reflect/Constructor;
 
@@ -155,7 +146,6 @@
     :catch_0
     move-exception p1
 
-    .line 2
     new-instance p2, Ljava/lang/RuntimeException;
 
     new-instance v0, Ljava/lang/StringBuilder;
@@ -190,7 +180,6 @@
 .method public final F0()Z
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/reflect/e$a;->c:Ljava/lang/reflect/Constructor;
 
     invoke-virtual {v0}, Ljava/lang/reflect/Constructor;->isVarArgs()Z
@@ -210,7 +199,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/reflect/e;->getDeclaringClass()Ljava/lang/Class;
 
     move-result-object v0
@@ -219,14 +207,12 @@
 
     move-result-object v0
 
-    .line 2
     iget-object v1, p0, Lcom/google/common/reflect/e$a;->c:Ljava/lang/reflect/Constructor;
 
     invoke-virtual {v1}, Ljava/lang/reflect/Constructor;->getTypeParameters()[Ljava/lang/reflect/TypeVariable;
 
     move-result-object v1
 
-    .line 3
     array-length v2, v0
 
     array-length v3, v1
@@ -235,14 +221,12 @@
 
     new-array v2, v2, [Ljava/lang/reflect/TypeVariable;
 
-    .line 4
     array-length v3, v0
 
     const/4 v4, 0x0
 
     invoke-static {v0, v4, v2, v4, v3}, Ljava/lang/System;->arraycopy(Ljava/lang/Object;ILjava/lang/Object;II)V
 
-    .line 5
     array-length v0, v0
 
     array-length v3, v1
@@ -255,7 +239,6 @@
 .method w0()[Ljava/lang/reflect/Type;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/reflect/e$a;->c:Ljava/lang/reflect/Constructor;
 
     invoke-virtual {v0}, Ljava/lang/reflect/Constructor;->getGenericExceptionTypes()[Ljava/lang/reflect/Type;
@@ -268,14 +251,12 @@
 .method x0()[Ljava/lang/reflect/Type;
     .locals 4
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/reflect/e$a;->c:Ljava/lang/reflect/Constructor;
 
     invoke-virtual {v0}, Ljava/lang/reflect/Constructor;->getGenericParameterTypes()[Ljava/lang/reflect/Type;
 
     move-result-object v0
 
-    .line 2
     array-length v1, v0
 
     if-lez v1, :cond_0
@@ -286,14 +267,12 @@
 
     if-eqz v1, :cond_0
 
-    .line 3
     iget-object v1, p0, Lcom/google/common/reflect/e$a;->c:Ljava/lang/reflect/Constructor;
 
     invoke-virtual {v1}, Ljava/lang/reflect/Constructor;->getParameterTypes()[Ljava/lang/Class;
 
     move-result-object v1
 
-    .line 4
     array-length v2, v0
 
     array-length v3, v1
@@ -304,7 +283,6 @@
 
     aget-object v1, v1, v2
 
-    .line 5
     invoke-virtual {p0}, Lcom/google/common/reflect/e;->getDeclaringClass()Ljava/lang/Class;
 
     move-result-object v2
@@ -317,7 +295,6 @@
 
     const/4 v1, 0x1
 
-    .line 6
     array-length v2, v0
 
     invoke-static {v0, v1, v2}, Ljava/util/Arrays;->copyOfRange([Ljava/lang/Object;II)[Ljava/lang/Object;
@@ -333,22 +310,18 @@
 .method y0()Ljava/lang/reflect/Type;
     .locals 3
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/reflect/e;->getDeclaringClass()Ljava/lang/Class;
 
     move-result-object v0
 
-    .line 2
     invoke-virtual {v0}, Ljava/lang/Class;->getTypeParameters()[Ljava/lang/reflect/TypeVariable;
 
     move-result-object v1
 
-    .line 3
     array-length v2, v1
 
     if-lez v2, :cond_0
 
-    .line 4
     invoke-static {v0, v1}, Lcom/google/common/reflect/Types;->m(Ljava/lang/Class;[Ljava/lang/reflect/Type;)Ljava/lang/reflect/ParameterizedType;
 
     move-result-object v0
@@ -360,7 +333,6 @@
 .method final z0()[[Ljava/lang/annotation/Annotation;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/reflect/e$a;->c:Ljava/lang/reflect/Constructor;
 
     invoke-virtual {v0}, Ljava/lang/reflect/Constructor;->getParameterAnnotations()[[Ljava/lang/annotation/Annotation;

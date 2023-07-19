@@ -36,12 +36,10 @@
 .method public constructor <init>(Lcom/meitu/common/video/videocache/t/e;Ljava/io/File;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/common/video/videocache/t/e$a;->b:Lcom/meitu/common/video/videocache/t/e;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p2, p0, Lcom/meitu/common/video/videocache/t/e$a;->a:Ljava/io/File;
 
     return-void
@@ -61,14 +59,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/common/video/videocache/t/e$a;->b:Lcom/meitu/common/video/videocache/t/e;
 
     iget-object v2, p0, Lcom/meitu/common/video/videocache/t/e$a;->a:Ljava/io/File;
 
     invoke-static {v1, v2}, Lcom/meitu/common/video/videocache/t/e;->c(Lcom/meitu/common/video/videocache/t/e;Ljava/io/File;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const/4 v0, 0x0
@@ -88,7 +84,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/meitu/common/video/videocache/t/e$a;->a()Ljava/lang/Void;
 
     move-result-object v1

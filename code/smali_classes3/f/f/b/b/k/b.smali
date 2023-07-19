@@ -24,7 +24,6 @@
 .method constructor <init>(Landroid/content/Context;Lf/f/b/b/k/a$a;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lf/f/b/b/k/b;->a:Landroid/content/Context;
 
     iput-object p2, p0, Lf/f/b/b/k/b;->b:Lf/f/b/b/k/a$a;
@@ -37,7 +36,6 @@
 .method private final varargs a([Ljava/lang/Void;)Ljava/lang/Integer;
     .locals 0
 
-    .line 1
     :try_start_0
     iget-object p1, p0, Lf/f/b/b/k/b;->a:Landroid/content/Context;
 
@@ -48,7 +46,6 @@
 
     const/4 p1, 0x0
 
-    .line 2
     invoke-static {p1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object p1
@@ -58,7 +55,6 @@
     :catch_0
     move-exception p1
 
-    .line 3
     iget p1, p1, Lcom/google/android/gms/common/GooglePlayServicesNotAvailableException;->errorCode:I
 
     invoke-static {p1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -70,7 +66,6 @@
     :catch_1
     move-exception p1
 
-    .line 4
     invoke-virtual {p1}, Lcom/google/android/gms/common/GooglePlayServicesRepairableException;->getConnectionStatusCode()I
 
     move-result p1
@@ -87,7 +82,6 @@
 .method protected final synthetic doInBackground([Ljava/lang/Object;)Ljava/lang/Object;
     .locals 0
 
-    .line 1
     check-cast p1, [Ljava/lang/Void;
 
     invoke-direct {p0, p1}, Lf/f/b/b/k/b;->a([Ljava/lang/Void;)Ljava/lang/Integer;
@@ -100,24 +94,20 @@
 .method protected final synthetic onPostExecute(Ljava/lang/Object;)V
     .locals 4
 
-    .line 1
     check-cast p1, Ljava/lang/Integer;
 
-    .line 2
     invoke-virtual {p1}, Ljava/lang/Integer;->intValue()I
 
     move-result v0
 
     if-nez v0, :cond_0
 
-    .line 3
     iget-object p1, p0, Lf/f/b/b/k/b;->b:Lf/f/b/b/k/a$a;
 
     invoke-interface {p1}, Lf/f/b/b/k/a$a;->a()V
 
     return-void
 
-    .line 4
     :cond_0
     invoke-static {}, Lf/f/b/b/k/a;->c()Lcom/google/android/gms/common/e;
 
@@ -135,7 +125,6 @@
 
     move-result-object v0
 
-    .line 5
     iget-object v1, p0, Lf/f/b/b/k/b;->b:Lf/f/b/b/k/a$a;
 
     invoke-virtual {p1}, Ljava/lang/Integer;->intValue()I

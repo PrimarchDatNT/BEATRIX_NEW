@@ -46,7 +46,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/function/SegmentFragment$startLocalSegment$1$a;->a:Lcom/commsource/studio/function/SegmentFragment$startLocalSegment$1;
 
     iget-object v1, v1, Lcom/commsource/studio/function/SegmentFragment$startLocalSegment$1;->this$0:Lcom/commsource/studio/function/SegmentFragment;
@@ -65,7 +64,6 @@
     :goto_0
     invoke-static {v1, v2}, Lcom/commsource/studio/function/SegmentFragment;->I1(Lcom/commsource/studio/function/SegmentFragment;Lcom/commsource/studio/layer/DeFocusLayer$PaintMode;)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/function/SegmentFragment$startLocalSegment$1$a;->a:Lcom/commsource/studio/function/SegmentFragment$startLocalSegment$1;
 
     iget-object v1, v1, Lcom/commsource/studio/function/SegmentFragment$startLocalSegment$1;->this$0:Lcom/commsource/studio/function/SegmentFragment;
@@ -78,7 +76,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/studio/layer/DeFocusLayer;->j1(Z)V
 
-    .line 3
     new-instance v1, Lcom/commsource/studio/function/SegmentFragment$startLocalSegment$1$a$a;
 
     invoke-direct {v1, p0}, Lcom/commsource/studio/function/SegmentFragment$startLocalSegment$1$a$a;-><init>(Lcom/commsource/studio/function/SegmentFragment$startLocalSegment$1$a;)V
@@ -87,7 +84,6 @@
 
     invoke-static {v1, v2, v3}, Lcom/commsource/util/g2;->l(Ljava/lang/Runnable;J)V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

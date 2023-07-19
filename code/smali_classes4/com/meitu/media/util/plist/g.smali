@@ -11,10 +11,8 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -27,10 +25,8 @@
 .method public constructor <init>(Ljava/lang/String;)V
     .locals 1
 
-    .line 3
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 4
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0, p1}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
@@ -52,7 +48,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/meitu/media/util/plist/g;
 
     invoke-direct {v1}, Lcom/meitu/media/util/plist/g;-><init>()V
@@ -63,7 +58,6 @@
 
     new-array v2, v2, [C
 
-    .line 2
     :try_start_0
     new-instance v3, Ljava/io/BufferedReader;
 
@@ -75,7 +69,6 @@
 
     invoke-direct {v3, v4}, Ljava/io/BufferedReader;-><init>(Ljava/io/Reader;)V
 
-    .line 3
     :goto_0
     invoke-virtual {v3, v2}, Ljava/io/Reader;->read([C)I
 
@@ -85,7 +78,6 @@
 
     if-eq v4, v5, :cond_0
 
-    .line 4
     invoke-virtual {v1}, Lcom/meitu/media/util/plist/g;->b()Ljava/lang/StringBuilder;
 
     move-result-object v5
@@ -98,7 +90,6 @@
 
     goto :goto_0
 
-    .line 5
     :cond_0
     invoke-virtual {p0}, Ljava/io/InputStream;->close()V
 
@@ -109,12 +100,10 @@
 
     invoke-virtual {p0}, Ljava/io/InputStream;->close()V
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     throw v1
 
-    .line 7
     :cond_1
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -131,7 +120,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/media/util/plist/g;->a:Ljava/lang/StringBuilder;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -146,14 +134,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/media/util/plist/g;->a:Ljava/lang/StringBuilder;
 
     const/4 v2, 0x0
 
     invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->setLength(I)V
 
-    .line 2
     iget-object v1, p0, Lcom/meitu/media/util/plist/g;->a:Ljava/lang/StringBuilder;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

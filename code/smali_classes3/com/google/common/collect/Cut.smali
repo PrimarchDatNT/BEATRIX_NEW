@@ -64,10 +64,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/google/common/collect/Cut;->endpoint:Ljava/lang/Comparable;
 
     return-void
@@ -85,7 +83,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {}, Lcom/google/common/collect/Cut$AboveAll;->access$100()Lcom/google/common/collect/Cut$AboveAll;
 
     move-result-object v0
@@ -105,7 +102,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/google/common/collect/Cut$AboveValue;
 
     invoke-direct {v0, p0}, Lcom/google/common/collect/Cut$AboveValue;-><init>(Ljava/lang/Comparable;)V
@@ -125,7 +121,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {}, Lcom/google/common/collect/Cut$BelowAll;->access$000()Lcom/google/common/collect/Cut$BelowAll;
 
     move-result-object v0
@@ -145,7 +140,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/google/common/collect/Cut$BelowValue;
 
     invoke-direct {v0, p0}, Lcom/google/common/collect/Cut$BelowValue;-><init>(Ljava/lang/Comparable;)V
@@ -180,7 +174,6 @@
         }
     .end annotation
 
-    .line 2
     invoke-static {}, Lcom/google/common/collect/Cut;->belowAll()Lcom/google/common/collect/Cut;
 
     move-result-object v0
@@ -191,7 +184,6 @@
 
     return p1
 
-    .line 3
     :cond_0
     invoke-static {}, Lcom/google/common/collect/Cut;->aboveAll()Lcom/google/common/collect/Cut;
 
@@ -203,7 +195,6 @@
 
     return p1
 
-    .line 4
     :cond_1
     iget-object v0, p0, Lcom/google/common/collect/Cut;->endpoint:Ljava/lang/Comparable;
 
@@ -217,7 +208,6 @@
 
     return v0
 
-    .line 5
     :cond_2
     instance-of v0, p0, Lcom/google/common/collect/Cut$AboveValue;
 
@@ -233,7 +223,6 @@
 .method public bridge synthetic compareTo(Ljava/lang/Object;)I
     .locals 0
 
-    .line 1
     check-cast p1, Lcom/google/common/collect/Cut;
 
     invoke-virtual {p0, p1}, Lcom/google/common/collect/Cut;->compareTo(Lcom/google/common/collect/Cut;)I
@@ -257,7 +246,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/Cut;->endpoint:Ljava/lang/Comparable;
 
     return-object v0
@@ -266,17 +254,14 @@
 .method public equals(Ljava/lang/Object;)Z
     .locals 2
 
-    .line 1
     instance-of v0, p1, Lcom/google/common/collect/Cut;
 
     const/4 v1, 0x0
 
     if-eqz v0, :cond_0
 
-    .line 2
     check-cast p1, Lcom/google/common/collect/Cut;
 
-    .line 3
     :try_start_0
     invoke-virtual {p0, p1}, Lcom/google/common/collect/Cut;->compareTo(Lcom/google/common/collect/Cut;)I
 

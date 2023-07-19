@@ -64,17 +64,14 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/libmtsns/Facebook/PlatformFacebook$f;->d:Lcom/meitu/libmtsns/Facebook/PlatformFacebook;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/4 p1, 0x0
 
-    .line 2
     iput-boolean p1, p0, Lcom/meitu/libmtsns/Facebook/PlatformFacebook$f;->a:Z
 
-    .line 3
     iput-object p2, p0, Lcom/meitu/libmtsns/Facebook/PlatformFacebook$f;->b:Lcom/facebook/FacebookCallback;
 
     return-void
@@ -83,17 +80,14 @@
 .method public constructor <init>(Lcom/meitu/libmtsns/Facebook/PlatformFacebook;Lcom/facebook/GraphRequest$Callback;)V
     .locals 0
 
-    .line 4
     iput-object p1, p0, Lcom/meitu/libmtsns/Facebook/PlatformFacebook$f;->d:Lcom/meitu/libmtsns/Facebook/PlatformFacebook;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/4 p1, 0x0
 
-    .line 5
     iput-boolean p1, p0, Lcom/meitu/libmtsns/Facebook/PlatformFacebook$f;->a:Z
 
-    .line 6
     iput-object p2, p0, Lcom/meitu/libmtsns/Facebook/PlatformFacebook$f;->c:Lcom/facebook/GraphRequest$Callback;
 
     return-void
@@ -108,15 +102,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/meitu/libmtsns/Facebook/PlatformFacebook$f;->onCancel()V
 
     const/4 v1, 0x1
 
-    .line 2
     iput-boolean v1, p0, Lcom/meitu/libmtsns/Facebook/PlatformFacebook$f;->a:Z
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -129,7 +120,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -142,10 +132,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/meitu/libmtsns/Facebook/PlatformFacebook$f;->b()V
 
-    .line 2
     iget-boolean v1, p0, Lcom/meitu/libmtsns/Facebook/PlatformFacebook$f;->a:Z
 
     if-nez v1, :cond_0
@@ -154,10 +142,8 @@
 
     if-eqz v1, :cond_0
 
-    .line 3
     invoke-interface {v1}, Lcom/facebook/FacebookCallback;->onCancel()V
 
-    .line 4
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -171,10 +157,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/meitu/libmtsns/Facebook/PlatformFacebook$f;->b()V
 
-    .line 2
     iget-boolean v1, p0, Lcom/meitu/libmtsns/Facebook/PlatformFacebook$f;->a:Z
 
     if-nez v1, :cond_0
@@ -183,10 +167,8 @@
 
     if-eqz v1, :cond_0
 
-    .line 3
     invoke-interface {v1, p1}, Lcom/facebook/GraphRequest$Callback;->onCompleted(Lcom/facebook/GraphResponse;)V
 
-    .line 4
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -200,10 +182,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/meitu/libmtsns/Facebook/PlatformFacebook$f;->b()V
 
-    .line 2
     iget-boolean v1, p0, Lcom/meitu/libmtsns/Facebook/PlatformFacebook$f;->a:Z
 
     if-nez v1, :cond_0
@@ -212,10 +192,8 @@
 
     if-eqz v1, :cond_0
 
-    .line 3
     invoke-interface {v1, p1}, Lcom/facebook/FacebookCallback;->onError(Lcom/facebook/FacebookException;)V
 
-    .line 4
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -236,10 +214,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/meitu/libmtsns/Facebook/PlatformFacebook$f;->b()V
 
-    .line 2
     iget-boolean v1, p0, Lcom/meitu/libmtsns/Facebook/PlatformFacebook$f;->a:Z
 
     if-nez v1, :cond_0
@@ -248,10 +224,8 @@
 
     if-eqz v1, :cond_0
 
-    .line 3
     invoke-interface {v1, p1}, Lcom/facebook/FacebookCallback;->onSuccess(Ljava/lang/Object;)V
 
-    .line 4
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

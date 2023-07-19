@@ -20,10 +20,8 @@
 .method public constructor <init>(Ljava/lang/CharSequence;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/io/Reader;-><init>()V
 
-    .line 2
     invoke-static {p1}, Lcom/google/common/base/t;->E(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -43,14 +41,12 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/io/h;->a:Ljava/lang/CharSequence;
 
     if-eqz v0, :cond_0
 
     return-void
 
-    .line 2
     :cond_0
     new-instance v0, Ljava/io/IOException;
 
@@ -64,7 +60,6 @@
 .method private b()Z
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Lcom/google/common/io/h;->c()I
 
     move-result v0
@@ -85,7 +80,6 @@
 .method private c()I
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/io/h;->a:Ljava/lang/CharSequence;
 
     invoke-interface {v0}, Ljava/lang/CharSequence;->length()I
@@ -113,13 +107,11 @@
 
     const/4 v0, 0x0
 
-    .line 1
     :try_start_0
     iput-object v0, p0, Lcom/google/common/io/h;->a:Ljava/lang/CharSequence;
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 2
     monitor-exit p0
 
     return-void
@@ -155,20 +147,16 @@
     :try_start_0
     const-string v1, "readAheadLimit (%s) may not be negative"
 
-    .line 1
     invoke-static {v0, v1, p1}, Lcom/google/common/base/t;->k(ZLjava/lang/String;I)V
 
-    .line 2
     invoke-direct {p0}, Lcom/google/common/io/h;->a()V
 
-    .line 3
     iget p1, p0, Lcom/google/common/io/h;->b:I
 
     iput p1, p0, Lcom/google/common/io/h;->c:I
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 4
     monitor-exit p0
 
     return-void
@@ -199,11 +187,9 @@
 
     monitor-enter p0
 
-    .line 8
     :try_start_0
     invoke-direct {p0}, Lcom/google/common/io/h;->a()V
 
-    .line 9
     invoke-direct {p0}, Lcom/google/common/io/h;->b()Z
 
     move-result v0
@@ -252,14 +238,11 @@
 
     monitor-enter p0
 
-    .line 1
     :try_start_0
     invoke-static {p1}, Lcom/google/common/base/t;->E(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 2
     invoke-direct {p0}, Lcom/google/common/io/h;->a()V
 
-    .line 3
     invoke-direct {p0}, Lcom/google/common/io/h;->b()Z
 
     move-result v0
@@ -270,12 +253,10 @@
 
     const/4 p1, -0x1
 
-    .line 4
     monitor-exit p0
 
     return p1
 
-    .line 5
     :cond_0
     :try_start_1
     invoke-virtual {p1}, Ljava/nio/CharBuffer;->remaining()I
@@ -295,7 +276,6 @@
     :goto_0
     if-ge v1, v0, :cond_1
 
-    .line 6
     iget-object v2, p0, Lcom/google/common/io/h;->a:Ljava/lang/CharSequence;
 
     iget v3, p0, Lcom/google/common/io/h;->b:I
@@ -316,7 +296,6 @@
 
     goto :goto_0
 
-    .line 7
     :cond_1
     monitor-exit p0
 
@@ -342,16 +321,13 @@
 
     add-int v0, p2, p3
 
-    .line 10
     :try_start_0
     array-length v1, p1
 
     invoke-static {p2, v0, v1}, Lcom/google/common/base/t;->f0(III)V
 
-    .line 11
     invoke-direct {p0}, Lcom/google/common/io/h;->a()V
 
-    .line 12
     invoke-direct {p0}, Lcom/google/common/io/h;->b()Z
 
     move-result v0
@@ -362,12 +338,10 @@
 
     const/4 p1, -0x1
 
-    .line 13
     monitor-exit p0
 
     return p1
 
-    .line 14
     :cond_0
     :try_start_1
     invoke-direct {p0}, Lcom/google/common/io/h;->c()I
@@ -385,7 +359,6 @@
 
     add-int v1, p2, v0
 
-    .line 15
     iget-object v2, p0, Lcom/google/common/io/h;->a:Ljava/lang/CharSequence;
 
     iget v3, p0, Lcom/google/common/io/h;->b:I
@@ -406,7 +379,6 @@
 
     goto :goto_0
 
-    .line 16
     :cond_1
     monitor-exit p0
 
@@ -430,7 +402,6 @@
 
     monitor-enter p0
 
-    .line 1
     :try_start_0
     invoke-direct {p0}, Lcom/google/common/io/h;->a()V
     :try_end_0
@@ -438,7 +409,6 @@
 
     const/4 v0, 0x1
 
-    .line 2
     monitor-exit p0
 
     return v0
@@ -461,18 +431,15 @@
 
     monitor-enter p0
 
-    .line 1
     :try_start_0
     invoke-direct {p0}, Lcom/google/common/io/h;->a()V
 
-    .line 2
     iget v0, p0, Lcom/google/common/io/h;->c:I
 
     iput v0, p0, Lcom/google/common/io/h;->b:I
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 3
     monitor-exit p0
 
     return-void
@@ -512,13 +479,10 @@
     :try_start_0
     const-string v1, "n (%s) may not be negative"
 
-    .line 1
     invoke-static {v0, v1, p1, p2}, Lcom/google/common/base/t;->p(ZLjava/lang/String;J)V
 
-    .line 2
     invoke-direct {p0}, Lcom/google/common/io/h;->a()V
 
-    .line 3
     invoke-direct {p0}, Lcom/google/common/io/h;->c()I
 
     move-result v0
@@ -531,7 +495,6 @@
 
     long-to-int p2, p1
 
-    .line 4
     iget p1, p0, Lcom/google/common/io/h;->b:I
 
     add-int/2addr p1, p2
@@ -542,7 +505,6 @@
 
     int-to-long p1, p2
 
-    .line 5
     monitor-exit p0
 
     return-wide p1

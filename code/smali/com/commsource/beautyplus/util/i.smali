@@ -13,7 +13,6 @@
 
     sget v0, Lcom/res/provider/ResSTYLE;->fullScreenAppCompatTranset:I
 
-    .line 1
     invoke-direct {p0, p1, v0}, Landroid/app/Dialog;-><init>(Landroid/content/Context;I)V
 
     return-void
@@ -26,7 +25,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Landroid/app/Dialog;->dismiss()V
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -51,17 +49,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0, p1}, Landroid/app/Dialog;->onCreate(Landroid/os/Bundle;)V
 
     sget p1, Lcom/res/provider/ResLAYOUT;->dialog_beta_tips:I
 
-    .line 2
     invoke-virtual {p0, p1}, Landroid/app/Dialog;->setContentView(I)V
 
     sget p1, Lcom/res/provider/ResID;->ptv_cancel:I
 
-    .line 3
     invoke-virtual {p0, p1}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
 
     move-result-object p1
@@ -72,7 +67,6 @@
 
     invoke-virtual {p1, v1}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -85,10 +79,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0}, Landroid/app/Dialog;->show()V
 
-    .line 2
     invoke-virtual {p0}, Landroid/app/Dialog;->getContext()Landroid/content/Context;
 
     move-result-object v1
@@ -97,7 +89,6 @@
 
     invoke-static {v1, v2}, Lf/d/i/e;->J3(Landroid/content/Context;Z)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

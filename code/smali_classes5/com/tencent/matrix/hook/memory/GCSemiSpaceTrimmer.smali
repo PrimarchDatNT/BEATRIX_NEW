@@ -35,7 +35,6 @@
 .method static constructor <clinit>()V
     .locals 3
 
-    .line 1
     new-instance v0, Lcom/tencent/matrix/hook/memory/GCSemiSpaceTrimmer;
 
     invoke-direct {v0}, Lcom/tencent/matrix/hook/memory/GCSemiSpaceTrimmer;-><init>()V
@@ -44,14 +43,12 @@
 
     const-string v0, "[^0-9]"
 
-    .line 2
     invoke-static {v0}, Ljava/util/regex/Pattern;->compile(Ljava/lang/String;)Ljava/util/regex/Pattern;
 
     move-result-object v0
 
     sput-object v0, Lcom/tencent/matrix/hook/memory/GCSemiSpaceTrimmer;->k:Ljava/util/regex/Pattern;
 
-    .line 3
     sget-object v0, Ljava/util/concurrent/TimeUnit;->MINUTES:Ljava/util/concurrent/TimeUnit;
 
     const-wide/16 v1, 0x3
@@ -68,39 +65,30 @@
 .method private constructor <init>()V
     .locals 3
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/4 v0, 0x0
 
-    .line 2
     iput-object v0, p0, Lcom/tencent/matrix/hook/memory/GCSemiSpaceTrimmer;->a:Lcom/tencent/matrix/hook/HookManager$a;
 
     const/4 v1, 0x0
 
-    .line 3
     iput v1, p0, Lcom/tencent/matrix/hook/memory/GCSemiSpaceTrimmer;->b:F
 
-    .line 4
     sget-wide v1, Lcom/tencent/matrix/hook/memory/GCSemiSpaceTrimmer;->l:J
 
     iput-wide v1, p0, Lcom/tencent/matrix/hook/memory/GCSemiSpaceTrimmer;->c:J
 
-    .line 5
     iput-object v0, p0, Lcom/tencent/matrix/hook/memory/GCSemiSpaceTrimmer;->d:Landroid/os/HandlerThread;
 
-    .line 6
     iput-object v0, p0, Lcom/tencent/matrix/hook/memory/GCSemiSpaceTrimmer;->e:Landroid/os/Handler;
 
     const/4 v0, 0x0
 
-    .line 7
     iput-boolean v0, p0, Lcom/tencent/matrix/hook/memory/GCSemiSpaceTrimmer;->f:Z
 
-    .line 8
     iput-boolean v0, p0, Lcom/tencent/matrix/hook/memory/GCSemiSpaceTrimmer;->g:Z
 
-    .line 9
     new-instance v0, Lcom/tencent/matrix/hook/memory/GCSemiSpaceTrimmer$a;
 
     invoke-direct {v0, p0}, Lcom/tencent/matrix/hook/memory/GCSemiSpaceTrimmer$a;-><init>(Lcom/tencent/matrix/hook/memory/GCSemiSpaceTrimmer;)V
@@ -113,7 +101,6 @@
 .method static synthetic a()J
     .locals 2
 
-    .line 1
     invoke-static {}, Lcom/tencent/matrix/hook/memory/GCSemiSpaceTrimmer;->i()J
 
     move-result-wide v0
@@ -124,7 +111,6 @@
 .method static synthetic b(Lcom/tencent/matrix/hook/memory/GCSemiSpaceTrimmer;)J
     .locals 2
 
-    .line 1
     iget-wide v0, p0, Lcom/tencent/matrix/hook/memory/GCSemiSpaceTrimmer;->c:J
 
     return-wide v0
@@ -133,7 +119,6 @@
 .method static synthetic c(Lcom/tencent/matrix/hook/memory/GCSemiSpaceTrimmer;)Landroid/os/Handler;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lcom/tencent/matrix/hook/memory/GCSemiSpaceTrimmer;->e:Landroid/os/Handler;
 
     return-object p0
@@ -142,7 +127,6 @@
 .method static synthetic d(Lcom/tencent/matrix/hook/memory/GCSemiSpaceTrimmer;)F
     .locals 0
 
-    .line 1
     iget p0, p0, Lcom/tencent/matrix/hook/memory/GCSemiSpaceTrimmer;->b:F
 
     return p0
@@ -151,7 +135,6 @@
 .method static synthetic e(Lcom/tencent/matrix/hook/memory/GCSemiSpaceTrimmer;)Z
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/tencent/matrix/hook/memory/GCSemiSpaceTrimmer;->nativeInstall()Z
 
     move-result p0
@@ -162,10 +145,8 @@
 .method private f()Z
     .locals 5
 
-    .line 1
     monitor-enter p0
 
-    .line 2
     :try_start_0
     iget-boolean v0, p0, Lcom/tencent/matrix/hook/memory/GCSemiSpaceTrimmer;->f:Z
 
@@ -173,14 +154,12 @@
 
     if-eqz v0, :cond_0
 
-    .line 3
     monitor-exit p0
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_1
 
     return v1
 
-    .line 4
     :cond_0
     :try_start_1
     iget-object v0, p0, Lcom/tencent/matrix/hook/memory/GCSemiSpaceTrimmer;->a:Lcom/tencent/matrix/hook/HookManager$a;
@@ -189,10 +168,8 @@
 
     const-string v2, "matrix-hookcommon"
 
-    .line 5
     invoke-interface {v0, v2}, Lcom/tencent/matrix/hook/HookManager$a;->loadLibrary(Ljava/lang/String;)V
 
-    .line 6
     iget-object v0, p0, Lcom/tencent/matrix/hook/memory/GCSemiSpaceTrimmer;->a:Lcom/tencent/matrix/hook/HookManager$a;
 
     const-string v2, "matrix-memoryhook"
@@ -204,15 +181,12 @@
     :cond_1
     const-string v0, "matrix-hookcommon"
 
-    .line 7
     invoke-static {v0}, Ljava/lang/System;->loadLibrary(Ljava/lang/String;)V
 
     const-string v0, "matrix-memoryhook"
 
-    .line 8
     invoke-static {v0}, Ljava/lang/System;->loadLibrary(Ljava/lang/String;)V
 
-    .line 9
     :goto_0
     iput-boolean v1, p0, Lcom/tencent/matrix/hook/memory/GCSemiSpaceTrimmer;->f:Z
     :try_end_1
@@ -232,13 +206,10 @@
 
     new-array v4, v3, [Ljava/lang/Object;
 
-    .line 10
     invoke-static {v1, v0, v2, v4}, Lcom/tencent/matrix/util/b;->e(Ljava/lang/String;Ljava/lang/Throwable;Ljava/lang/String;[Ljava/lang/Object;)V
 
-    .line 11
     iput-boolean v3, p0, Lcom/tencent/matrix/hook/memory/GCSemiSpaceTrimmer;->f:Z
 
-    .line 12
     :goto_1
     iget-boolean v0, p0, Lcom/tencent/matrix/hook/memory/GCSemiSpaceTrimmer;->f:Z
 
@@ -249,7 +220,6 @@
     :catchall_1
     move-exception v0
 
-    .line 13
     monitor-exit p0
     :try_end_2
     .catchall {:try_start_2 .. :try_end_2} :catchall_1
@@ -262,7 +232,6 @@
 
     const-wide/16 v0, -0x1
 
-    .line 1
     :try_start_0
     new-instance v2, Ljava/io/BufferedReader;
 
@@ -280,7 +249,6 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_3
 
-    .line 2
     :cond_0
     :try_start_1
     invoke-virtual {v2}, Ljava/io/BufferedReader;->readLine()Ljava/lang/String;
@@ -289,21 +257,18 @@
 
     if-eqz v3, :cond_1
 
-    .line 3
     invoke-virtual {v3}, Ljava/lang/String;->toLowerCase()Ljava/lang/String;
 
     move-result-object v3
 
     const-string v4, "vmsize"
 
-    .line 4
     invoke-virtual {v3, v4}, Ljava/lang/String;->contains(Ljava/lang/CharSequence;)Z
 
     move-result v4
 
     if-eqz v4, :cond_0
 
-    .line 5
     sget-object v4, Lcom/tencent/matrix/hook/memory/GCSemiSpaceTrimmer;->k:Ljava/util/regex/Pattern;
 
     invoke-virtual {v4, v3}, Ljava/util/regex/Pattern;->matcher(Ljava/lang/CharSequence;)Ljava/util/regex/Matcher;
@@ -330,7 +295,6 @@
 
     mul-long v0, v0, v3
 
-    .line 6
     :cond_1
     :try_start_2
     invoke-virtual {v2}, Ljava/io/BufferedReader;->close()V
@@ -342,7 +306,6 @@
     :catchall_0
     move-exception v3
 
-    .line 7
     :try_start_3
     throw v3
     :try_end_3
@@ -351,7 +314,6 @@
     :catchall_1
     move-exception v4
 
-    .line 8
     :try_start_4
     invoke-virtual {v2}, Ljava/io/BufferedReader;->close()V
     :try_end_4
@@ -381,7 +343,6 @@
 
     const-string v5, "read proc status failed."
 
-    .line 9
     invoke-static {v4, v2, v5, v3}, Lcom/tencent/matrix/util/b;->e(Ljava/lang/String;Ljava/lang/Throwable;Ljava/lang/String;[Ljava/lang/Object;)V
 
     :goto_1
@@ -403,10 +364,8 @@
         .end annotation
     .end param
 
-    .line 1
     monitor-enter p0
 
-    .line 2
     :try_start_0
     iget-boolean v0, p0, Lcom/tencent/matrix/hook/memory/GCSemiSpaceTrimmer;->g:Z
 
@@ -422,15 +381,12 @@
 
     new-array p3, v2, [Ljava/lang/Object;
 
-    .line 3
     invoke-static {p1, p2, p3}, Lcom/tencent/matrix/util/b;->b(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
-    .line 4
     monitor-exit p0
 
     return v1
 
-    .line 5
     :cond_0
     invoke-direct {p0}, Lcom/tencent/matrix/hook/memory/GCSemiSpaceTrimmer;->f()Z
 
@@ -444,15 +400,12 @@
 
     new-array p3, v2, [Ljava/lang/Object;
 
-    .line 6
     invoke-static {p1, p2, p3}, Lcom/tencent/matrix/util/b;->b(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
-    .line 7
     monitor-exit p0
 
     return v2
 
-    .line 8
     :cond_1
     iput p1, p0, Lcom/tencent/matrix/hook/memory/GCSemiSpaceTrimmer;->b:F
 
@@ -462,7 +415,6 @@
 
     if-lez v0, :cond_2
 
-    .line 9
     iput-wide p2, p0, Lcom/tencent/matrix/hook/memory/GCSemiSpaceTrimmer;->c:J
 
     goto :goto_0
@@ -470,7 +422,6 @@
     :cond_2
     if-nez v0, :cond_4
 
-    .line 10
     sget-wide v3, Lcom/tencent/matrix/hook/memory/GCSemiSpaceTrimmer;->l:J
 
     iput-wide v3, p0, Lcom/tencent/matrix/hook/memory/GCSemiSpaceTrimmer;->c:J
@@ -478,7 +429,6 @@
     :goto_0
     if-eqz p4, :cond_3
 
-    .line 11
     new-instance v0, Landroid/os/Handler;
 
     invoke-direct {v0, p4}, Landroid/os/Handler;-><init>(Landroid/os/Looper;)V
@@ -487,7 +437,6 @@
 
     goto :goto_1
 
-    .line 12
     :cond_3
     new-instance p4, Landroid/os/HandlerThread;
 
@@ -497,10 +446,8 @@
 
     iput-object p4, p0, Lcom/tencent/matrix/hook/memory/GCSemiSpaceTrimmer;->d:Landroid/os/HandlerThread;
 
-    .line 13
     invoke-virtual {p4}, Landroid/os/HandlerThread;->start()V
 
-    .line 14
     new-instance p4, Landroid/os/Handler;
 
     iget-object v0, p0, Lcom/tencent/matrix/hook/memory/GCSemiSpaceTrimmer;->d:Landroid/os/HandlerThread;
@@ -513,7 +460,6 @@
 
     iput-object p4, p0, Lcom/tencent/matrix/hook/memory/GCSemiSpaceTrimmer;->e:Landroid/os/Handler;
 
-    .line 15
     :goto_1
     iget-object p4, p0, Lcom/tencent/matrix/hook/memory/GCSemiSpaceTrimmer;->e:Landroid/os/Handler;
 
@@ -531,7 +477,6 @@
 
     new-array v3, v3, [Ljava/lang/Object;
 
-    .line 16
     invoke-static {p1}, Ljava/lang/Float;->valueOf(F)Ljava/lang/Float;
 
     move-result-object p1
@@ -544,10 +489,8 @@
 
     aput-object p1, v3, v1
 
-    .line 17
     invoke-static {p4, v0, v3}, Lcom/tencent/matrix/util/b;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
-    .line 18
     monitor-exit p0
 
     return v1
@@ -555,7 +498,6 @@
     :cond_4
     const-string p1, "Matrix.GCSemiSpaceTrimmer"
 
-    .line 19
     new-instance p4, Ljava/lang/StringBuilder;
 
     invoke-direct {p4}, Ljava/lang/StringBuilder;-><init>()V
@@ -578,7 +520,6 @@
 
     invoke-static {p1, p2, p3}, Lcom/tencent/matrix/util/b;->b(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
-    .line 20
     monitor-exit p0
 
     return v2
@@ -586,7 +527,6 @@
     :catchall_0
     move-exception p1
 
-    .line 21
     monitor-exit p0
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
@@ -597,10 +537,8 @@
 .method public h()Z
     .locals 1
 
-    .line 1
     monitor-enter p0
 
-    .line 2
     :try_start_0
     invoke-direct {p0}, Lcom/tencent/matrix/hook/memory/GCSemiSpaceTrimmer;->f()Z
 
@@ -610,12 +548,10 @@
 
     const/4 v0, 0x0
 
-    .line 3
     monitor-exit p0
 
     return v0
 
-    .line 4
     :cond_0
     invoke-direct {p0}, Lcom/tencent/matrix/hook/memory/GCSemiSpaceTrimmer;->nativeIsCompatible()Z
 
@@ -628,7 +564,6 @@
     :catchall_0
     move-exception v0
 
-    .line 5
     monitor-exit p0
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
@@ -643,7 +578,6 @@
         .end annotation
     .end param
 
-    .line 1
     iput-object p1, p0, Lcom/tencent/matrix/hook/memory/GCSemiSpaceTrimmer;->a:Lcom/tencent/matrix/hook/HookManager$a;
 
     return-object p0

@@ -131,17 +131,14 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 2
     invoke-direct {p0, p1, p2, p3}, Landroid/widget/FrameLayout;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
-    .line 3
     new-instance p1, Lcom/commsource/camera/xcamera/cover/CoverGroup$a;
 
     invoke-direct {p1, p0}, Lcom/commsource/camera/xcamera/cover/CoverGroup$a;-><init>(Lcom/commsource/camera/xcamera/cover/CoverGroup;)V
 
     iput-object p1, p0, Lcom/commsource/camera/xcamera/cover/CoverGroup;->g:Lcom/commsource/camera/xcamera/cover/CoverGroup$a;
 
-    .line 4
     new-instance p1, Lcom/commsource/camera/f1/n;
 
     iget p2, p0, Lcom/commsource/camera/xcamera/cover/CoverGroup;->J:I
@@ -156,7 +153,6 @@
 
     new-array p1, p1, [F
 
-    .line 5
     fill-array-data p1, :array_0
 
     invoke-static {p1}, Lcom/commsource/camera/f1/l;->e([F)Lcom/commsource/camera/f1/l;
@@ -165,12 +161,10 @@
 
     const-wide/16 p2, 0x15e
 
-    .line 6
     invoke-virtual {p1, p2, p3}, Lcom/commsource/camera/f1/l;->b(J)Lcom/commsource/camera/f1/l;
 
     move-result-object p1
 
-    .line 7
     new-instance p2, Landroid/view/animation/DecelerateInterpolator;
 
     invoke-direct {p2}, Landroid/view/animation/DecelerateInterpolator;-><init>()V
@@ -179,7 +173,6 @@
 
     move-result-object p1
 
-    .line 8
     new-instance p2, Lcom/commsource/camera/xcamera/cover/CoverGroup$b;
 
     invoke-direct {p2, p0}, Lcom/commsource/camera/xcamera/cover/CoverGroup$b;-><init>(Lcom/commsource/camera/xcamera/cover/CoverGroup;)V
@@ -215,7 +208,6 @@
 
     const/4 p3, 0x0
 
-    .line 1
     :cond_1
     invoke-direct {p0, p1, p2, p3}, Lcom/commsource/camera/xcamera/cover/CoverGroup;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
@@ -244,7 +236,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/CoverGroup;->g:Lcom/commsource/camera/xcamera/cover/CoverGroup$a;
 
     invoke-virtual {v1}, Lcom/commsource/camera/xcamera/cover/CoverGroup$a;->e()Ljava/util/ArrayList;
@@ -268,12 +259,10 @@
 
     check-cast v2, Lcom/commsource/camera/xcamera/cover/g;
 
-    .line 2
     invoke-interface {v2, p1, p2}, Lcom/commsource/camera/xcamera/cover/h;->a(Ljava/util/List;Z)V
 
     goto :goto_0
 
-    .line 3
     :cond_0
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/CoverGroup;->g:Lcom/commsource/camera/xcamera/cover/CoverGroup$a;
 
@@ -298,12 +287,10 @@
 
     check-cast v2, Lcom/commsource/camera/xcamera/cover/f;
 
-    .line 4
     invoke-interface {v2, p1, p2}, Lcom/commsource/camera/xcamera/cover/h;->a(Ljava/util/List;Z)V
 
     goto :goto_1
 
-    .line 5
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -390,7 +377,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/CoverGroup;->g:Lcom/commsource/camera/xcamera/cover/CoverGroup$a;
 
     invoke-virtual {v1}, Lcom/commsource/camera/xcamera/cover/CoverGroup$a;->e()Ljava/util/ArrayList;
@@ -414,12 +400,10 @@
 
     check-cast v2, Lcom/commsource/camera/xcamera/cover/g;
 
-    .line 2
     invoke-interface {v2, p1, p2, p3}, Lcom/commsource/camera/xcamera/cover/h;->e(IILandroid/content/Intent;)V
 
     goto :goto_0
 
-    .line 3
     :cond_0
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/CoverGroup;->g:Lcom/commsource/camera/xcamera/cover/CoverGroup$a;
 
@@ -444,12 +428,10 @@
 
     check-cast v2, Lcom/commsource/camera/xcamera/cover/f;
 
-    .line 4
     invoke-interface {v2, p1, p2, p3}, Lcom/commsource/camera/xcamera/cover/h;->e(IILandroid/content/Intent;)V
 
     goto :goto_1
 
-    .line 5
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -471,7 +453,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/CoverGroup;->g:Lcom/commsource/camera/xcamera/cover/CoverGroup$a;
 
     invoke-virtual {v1}, Lcom/commsource/camera/xcamera/cover/CoverGroup$a;->e()Ljava/util/ArrayList;
@@ -495,12 +476,10 @@
 
     check-cast v2, Lcom/commsource/camera/xcamera/cover/g;
 
-    .line 2
     invoke-interface {v2, p1}, Lcom/commsource/camera/xcamera/cover/h;->g(Lcom/commsource/beautyplus/router/RouterEntity;)V
 
     goto :goto_0
 
-    .line 3
     :cond_0
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/CoverGroup;->g:Lcom/commsource/camera/xcamera/cover/CoverGroup$a;
 
@@ -525,12 +504,10 @@
 
     check-cast v2, Lcom/commsource/camera/xcamera/cover/f;
 
-    .line 4
     invoke-interface {v2, p1}, Lcom/commsource/camera/xcamera/cover/h;->g(Lcom/commsource/beautyplus/router/RouterEntity;)V
 
     goto :goto_1
 
-    .line 5
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -544,7 +521,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/camera/xcamera/cover/CoverGroup;->b:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -559,7 +535,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/camera/xcamera/cover/CoverGroup;->b:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -576,7 +551,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/CoverGroup;->g:Lcom/commsource/camera/xcamera/cover/CoverGroup$a;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -593,7 +567,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/CoverGroup;->p:Lcom/commsource/camera/xcamera/cover/CameraConfigViewModel;
 
     if-nez v1, :cond_0
@@ -617,7 +590,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/CoverGroup;->f:Lcom/commsource/camera/xcamera/cover/CoverContainer;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -632,7 +604,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/camera/xcamera/cover/CoverGroup;->J:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -649,7 +620,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/CoverGroup;->c:Landroidx/fragment/app/FragmentActivity;
 
     if-nez v1, :cond_0
@@ -671,7 +641,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/CoverGroup;->L:Lcom/commsource/camera/f1/l;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -688,7 +657,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/CoverGroup;->K:Lcom/commsource/camera/f1/n;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -703,7 +671,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/camera/xcamera/cover/CoverGroup;->a:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -718,7 +685,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/camera/xcamera/cover/CoverGroup;->a:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -735,7 +701,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/CoverGroup;->d:Landroidx/lifecycle/ViewModelProvider;
 
     if-nez v1, :cond_0
@@ -767,10 +732,8 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/camera/xcamera/cover/CoverGroup;->c:Landroidx/fragment/app/FragmentActivity;
 
-    .line 2
     new-instance v1, Landroidx/lifecycle/ViewModelProvider;
 
     if-nez p1, :cond_0
@@ -784,7 +747,6 @@
 
     iput-object v1, p0, Lcom/commsource/camera/xcamera/cover/CoverGroup;->d:Landroidx/lifecycle/ViewModelProvider;
 
-    .line 3
     invoke-static {}, Lcom/commsource/camera/j0;->b()Lcom/commsource/camera/j0;
 
     move-result-object p1
@@ -793,7 +755,6 @@
 
     invoke-virtual {p1, v1}, Lcom/commsource/camera/j0;->a(Ljava/lang/String;)V
 
-    .line 4
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/CoverGroup;->g:Lcom/commsource/camera/xcamera/cover/CoverGroup$a;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -808,12 +769,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/camera/xcamera/cover/CoverGroup;->J:I
 
     if-ne v1, p1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -841,11 +800,9 @@
     :cond_2
     sub-int/2addr v1, p1
 
-    .line 3
     :goto_0
     iput p1, p0, Lcom/commsource/camera/xcamera/cover/CoverGroup;->J:I
 
-    .line 4
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/CoverGroup;->K:Lcom/commsource/camera/f1/n;
 
     iget v2, p1, Lcom/commsource/camera/f1/n;->b:F
@@ -856,17 +813,14 @@
 
     invoke-virtual {p1, v2}, Lcom/commsource/camera/f1/n;->i(F)V
 
-    .line 5
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/CoverGroup;->L:Lcom/commsource/camera/f1/l;
 
     invoke-virtual {p1}, Lcom/commsource/camera/f1/l;->a()V
 
-    .line 6
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/CoverGroup;->L:Lcom/commsource/camera/f1/l;
 
     invoke-virtual {p1}, Lcom/commsource/camera/f1/l;->j()V
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -887,7 +841,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/CoverGroup;->g:Lcom/commsource/camera/xcamera/cover/CoverGroup$a;
 
     invoke-virtual {v1}, Lcom/commsource/camera/xcamera/cover/CoverGroup$a;->e()Ljava/util/ArrayList;
@@ -911,12 +864,10 @@
 
     check-cast v2, Lcom/commsource/camera/xcamera/cover/g;
 
-    .line 2
     invoke-interface {v2, p1}, Lcom/commsource/camera/xcamera/cover/h;->k(Lcom/commsource/beautyplus/router/RouterEntity;)V
 
     goto :goto_0
 
-    .line 3
     :cond_0
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/CoverGroup;->g:Lcom/commsource/camera/xcamera/cover/CoverGroup$a;
 
@@ -941,12 +892,10 @@
 
     check-cast v2, Lcom/commsource/camera/xcamera/cover/f;
 
-    .line 4
     invoke-interface {v2, p1}, Lcom/commsource/camera/xcamera/cover/h;->k(Lcom/commsource/beautyplus/router/RouterEntity;)V
 
     goto :goto_1
 
-    .line 5
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -960,7 +909,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/CoverGroup;->g:Lcom/commsource/camera/xcamera/cover/CoverGroup$a;
 
     invoke-virtual {v1}, Lcom/commsource/camera/xcamera/cover/CoverGroup$a;->d()Ljava/util/ArrayList;
@@ -991,7 +939,6 @@
 
     if-nez v3, :cond_1
 
-    .line 2
     invoke-interface {v4}, Lcom/commsource/camera/xcamera/cover/h;->l()Z
 
     move-result v3
@@ -1003,7 +950,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1017,7 +963,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/camera/xcamera/cover/CoverGroup;->J:I
 
     if-eqz v1, :cond_1
@@ -1054,7 +999,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/CoverGroup;->g:Lcom/commsource/camera/xcamera/cover/CoverGroup$a;
 
     invoke-virtual {v1}, Lcom/commsource/camera/xcamera/cover/CoverGroup$a;->e()Ljava/util/ArrayList;
@@ -1087,7 +1031,6 @@
 
     if-nez v3, :cond_1
 
-    .line 2
     invoke-interface {v4, p1}, Lcom/commsource/camera/xcamera/cover/h;->n(Landroid/view/MotionEvent;)Z
 
     move-result v3
@@ -1099,7 +1042,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_2
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/CoverGroup;->g:Lcom/commsource/camera/xcamera/cover/CoverGroup$a;
 
@@ -1126,7 +1068,6 @@
 
     if-nez v3, :cond_4
 
-    .line 4
     invoke-interface {v4, p1}, Lcom/commsource/camera/xcamera/cover/h;->n(Landroid/view/MotionEvent;)Z
 
     move-result v3
@@ -1146,7 +1087,6 @@
 
     goto :goto_1
 
-    .line 5
     :cond_5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1160,7 +1100,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/CoverGroup;->g:Lcom/commsource/camera/xcamera/cover/CoverGroup$a;
 
     invoke-virtual {v1}, Lcom/commsource/camera/xcamera/cover/CoverGroup$a;->e()Ljava/util/ArrayList;
@@ -1184,12 +1123,10 @@
 
     check-cast v2, Lcom/commsource/camera/xcamera/cover/g;
 
-    .line 2
     invoke-interface {v2}, Lcom/commsource/camera/xcamera/cover/h;->o()V
 
     goto :goto_0
 
-    .line 3
     :cond_0
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/CoverGroup;->g:Lcom/commsource/camera/xcamera/cover/CoverGroup$a;
 
@@ -1214,12 +1151,10 @@
 
     check-cast v2, Lcom/commsource/camera/xcamera/cover/f;
 
-    .line 4
     invoke-interface {v2}, Lcom/commsource/camera/xcamera/cover/h;->o()V
 
     goto :goto_1
 
-    .line 5
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1237,7 +1172,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/CoverGroup;->g:Lcom/commsource/camera/xcamera/cover/CoverGroup$a;
 
     invoke-virtual {v1}, Lcom/commsource/camera/xcamera/cover/CoverGroup$a;->f()Ljava/util/ArrayList;
@@ -1268,7 +1202,6 @@
 
     if-nez v3, :cond_1
 
-    .line 2
     invoke-interface {v4, p1}, Lcom/commsource/camera/xcamera/cover/h;->p(Landroid/view/KeyEvent;)Z
 
     move-result v3
@@ -1280,7 +1213,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1294,7 +1226,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/camera/xcamera/cover/CoverGroup;->b:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1317,7 +1248,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/camera/xcamera/cover/CoverGroup;->p:Lcom/commsource/camera/xcamera/cover/CameraConfigViewModel;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1336,7 +1266,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/camera/xcamera/cover/CoverGroup;->f:Lcom/commsource/camera/xcamera/cover/CoverContainer;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1351,7 +1280,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/camera/xcamera/cover/CoverGroup;->J:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1374,7 +1302,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/camera/xcamera/cover/CoverGroup;->c:Landroidx/fragment/app/FragmentActivity;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1389,7 +1316,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/camera/xcamera/cover/CoverGroup;->a:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1412,7 +1338,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/camera/xcamera/cover/CoverGroup;->d:Landroidx/lifecycle/ViewModelProvider;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

@@ -82,7 +82,6 @@
 
     const-string v0, "params-default-port"
 
-    .line 1
     invoke-static {v0}, Lio/grpc/a$c;->a(Ljava/lang/String;)Lio/grpc/a$c;
 
     move-result-object v0
@@ -91,7 +90,6 @@
 
     const-string v0, "params-proxy-detector"
 
-    .line 2
     invoke-static {v0}, Lio/grpc/a$c;->a(Ljava/lang/String;)Lio/grpc/a$c;
 
     move-result-object v0
@@ -100,7 +98,6 @@
 
     const-string v0, "params-sync-context"
 
-    .line 3
     invoke-static {v0}, Lio/grpc/a$c;->a(Ljava/lang/String;)Lio/grpc/a$c;
 
     move-result-object v0
@@ -109,7 +106,6 @@
 
     const-string v0, "params-parser"
 
-    .line 4
     invoke-static {v0}, Lio/grpc/a$c;->a(Ljava/lang/String;)Lio/grpc/a$c;
 
     move-result-object v0
@@ -122,7 +118,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -141,14 +136,12 @@
     .annotation runtime Ljavax/annotation/j;
     .end annotation
 
-    .line 1
     invoke-static {}, Lio/grpc/z0$b;->h()Lio/grpc/z0$b$a;
 
     move-result-object v0
 
     sget-object v1, Lio/grpc/z0$d;->a:Lio/grpc/a$c;
 
-    .line 2
     invoke-virtual {p2, v1}, Lio/grpc/a;->b(Lio/grpc/a$c;)Ljava/lang/Object;
 
     move-result-object v1
@@ -165,7 +158,6 @@
 
     sget-object v1, Lio/grpc/z0$d;->b:Lio/grpc/a$c;
 
-    .line 3
     invoke-virtual {p2, v1}, Lio/grpc/a;->b(Lio/grpc/a$c;)Ljava/lang/Object;
 
     move-result-object v1
@@ -178,7 +170,6 @@
 
     sget-object v1, Lio/grpc/z0$d;->c:Lio/grpc/a$c;
 
-    .line 4
     invoke-virtual {p2, v1}, Lio/grpc/a;->b(Lio/grpc/a$c;)Ljava/lang/Object;
 
     move-result-object v1
@@ -191,7 +182,6 @@
 
     sget-object v1, Lio/grpc/z0$d;->d:Lio/grpc/a$c;
 
-    .line 5
     invoke-virtual {p2, v1}, Lio/grpc/a;->b(Lio/grpc/a$c;)Ljava/lang/Object;
 
     move-result-object p2
@@ -202,12 +192,10 @@
 
     move-result-object p2
 
-    .line 6
     invoke-virtual {p2}, Lio/grpc/z0$b$a;->a()Lio/grpc/z0$b;
 
     move-result-object p2
 
-    .line 7
     invoke-virtual {p0, p1, p2}, Lio/grpc/z0$d;->c(Ljava/net/URI;Lio/grpc/z0$b;)Lio/grpc/z0;
 
     move-result-object p1
@@ -218,7 +206,6 @@
 .method public c(Ljava/net/URI;Lio/grpc/z0$b;)Lio/grpc/z0;
     .locals 1
 
-    .line 1
     new-instance v0, Lio/grpc/z0$d$b;
 
     invoke-direct {v0, p0, p2}, Lio/grpc/z0$d$b;-><init>(Lio/grpc/z0$d;Lio/grpc/z0$b;)V
@@ -238,14 +225,12 @@
     .annotation runtime Ljavax/annotation/j;
     .end annotation
 
-    .line 1
     invoke-static {}, Lio/grpc/a;->e()Lio/grpc/a$b;
 
     move-result-object v0
 
     sget-object v1, Lio/grpc/z0$d;->a:Lio/grpc/a$c;
 
-    .line 2
     invoke-virtual {p2}, Lio/grpc/z0$e;->a()I
 
     move-result v2
@@ -260,7 +245,6 @@
 
     sget-object v1, Lio/grpc/z0$d;->b:Lio/grpc/a$c;
 
-    .line 3
     invoke-virtual {p2}, Lio/grpc/z0$e;->b()Lio/grpc/h1;
 
     move-result-object v2
@@ -271,7 +255,6 @@
 
     sget-object v1, Lio/grpc/z0$d;->c:Lio/grpc/a$c;
 
-    .line 4
     invoke-virtual {p2}, Lio/grpc/z0$e;->c()Lio/grpc/w1;
 
     move-result-object v2
@@ -286,17 +269,14 @@
 
     invoke-direct {v2, p0, p2}, Lio/grpc/z0$d$a;-><init>(Lio/grpc/z0$d;Lio/grpc/z0$e;)V
 
-    .line 5
     invoke-virtual {v0, v1, v2}, Lio/grpc/a$b;->d(Lio/grpc/a$c;Ljava/lang/Object;)Lio/grpc/a$b;
 
     move-result-object p2
 
-    .line 6
     invoke-virtual {p2}, Lio/grpc/a$b;->a()Lio/grpc/a;
 
     move-result-object p2
 
-    .line 7
     invoke-virtual {p0, p1, p2}, Lio/grpc/z0$d;->b(Ljava/net/URI;Lio/grpc/a;)Lio/grpc/z0;
 
     move-result-object p1

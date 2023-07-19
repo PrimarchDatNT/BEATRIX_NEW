@@ -19,7 +19,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcotlin/random/e;-><init>()V
 
     return-void
@@ -28,7 +27,6 @@
 .method public synthetic constructor <init>(Lcotlin/jvm/internal/u;)V
     .locals 0
 
-    .line 2
     invoke-direct {p0}, Lcotlin/random/e$a;-><init>()V
 
     return-void
@@ -39,7 +37,6 @@
 .method public b(I)I
     .locals 1
 
-    .line 1
     invoke-static {}, Lcotlin/random/e;->a()Lcotlin/random/e;
 
     move-result-object v0
@@ -54,7 +51,6 @@
 .method public c()Z
     .locals 1
 
-    .line 1
     invoke-static {}, Lcotlin/random/e;->a()Lcotlin/random/e;
 
     move-result-object v0
@@ -71,7 +67,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     invoke-static {}, Lcotlin/random/e;->a()Lcotlin/random/e;
 
     move-result-object v0
@@ -96,7 +91,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-static {}, Lcotlin/random/e;->a()Lcotlin/random/e;
 
     move-result-object v0
@@ -121,7 +115,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-static {}, Lcotlin/random/e;->a()Lcotlin/random/e;
 
     move-result-object v0
@@ -136,7 +129,6 @@
 .method public h()D
     .locals 2
 
-    .line 1
     invoke-static {}, Lcotlin/random/e;->a()Lcotlin/random/e;
 
     move-result-object v0
@@ -151,7 +143,6 @@
 .method public i(D)D
     .locals 1
 
-    .line 1
     invoke-static {}, Lcotlin/random/e;->a()Lcotlin/random/e;
 
     move-result-object v0
@@ -166,7 +157,6 @@
 .method public j(DD)D
     .locals 1
 
-    .line 1
     invoke-static {}, Lcotlin/random/e;->a()Lcotlin/random/e;
 
     move-result-object v0
@@ -181,7 +171,6 @@
 .method public k()F
     .locals 1
 
-    .line 1
     invoke-static {}, Lcotlin/random/e;->a()Lcotlin/random/e;
 
     move-result-object v0
@@ -196,7 +185,6 @@
 .method public l()I
     .locals 1
 
-    .line 1
     invoke-static {}, Lcotlin/random/e;->a()Lcotlin/random/e;
 
     move-result-object v0
@@ -211,7 +199,6 @@
 .method public m(I)I
     .locals 1
 
-    .line 1
     invoke-static {}, Lcotlin/random/e;->a()Lcotlin/random/e;
 
     move-result-object v0
@@ -226,7 +213,6 @@
 .method public n(II)I
     .locals 1
 
-    .line 1
     invoke-static {}, Lcotlin/random/e;->a()Lcotlin/random/e;
 
     move-result-object v0
@@ -241,7 +227,6 @@
 .method public o()J
     .locals 2
 
-    .line 1
     invoke-static {}, Lcotlin/random/e;->a()Lcotlin/random/e;
 
     move-result-object v0
@@ -256,7 +241,6 @@
 .method public p(J)J
     .locals 1
 
-    .line 1
     invoke-static {}, Lcotlin/random/e;->a()Lcotlin/random/e;
 
     move-result-object v0
@@ -271,7 +255,6 @@
 .method public q(JJ)J
     .locals 1
 
-    .line 1
     invoke-static {}, Lcotlin/random/e;->a()Lcotlin/random/e;
 
     move-result-object v0

@@ -29,10 +29,8 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Lcom/meitu/media/util/plist/PListObject;-><init>()V
 
-    .line 2
     sget-object v0, Lcom/meitu/media/util/plist/PListObjectType;->REAL:Lcom/meitu/media/util/plist/PListObjectType;
 
     invoke-virtual {p0, v0}, Lcom/meitu/media/util/plist/PListObject;->setType(Lcom/meitu/media/util/plist/PListObjectType;)V
@@ -49,7 +47,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 2
     iget-object v1, p0, Lcom/meitu/media/util/plist/Real;->real:Ljava/lang/Float;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -64,7 +61,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/meitu/media/util/plist/Real;->getValue()Ljava/lang/Float;
 
     move-result-object v1
@@ -81,10 +77,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 2
     iput-object p1, p0, Lcom/meitu/media/util/plist/Real;->real:Ljava/lang/Float;
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -97,7 +91,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Ljava/lang/Float;
 
     invoke-virtual {p0, p1}, Lcom/meitu/media/util/plist/Real;->setValue(Ljava/lang/Float;)V
@@ -114,7 +107,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 4
     invoke-virtual {p1}, Ljava/lang/String;->trim()Ljava/lang/String;
 
     move-result-object p1
@@ -129,7 +121,6 @@
 
     iput-object p1, p0, Lcom/meitu/media/util/plist/Real;->real:Ljava/lang/Float;
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

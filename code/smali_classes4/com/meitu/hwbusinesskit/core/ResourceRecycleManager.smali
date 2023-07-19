@@ -36,14 +36,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/util/HashMap;
 
     invoke-direct {v1}, Ljava/util/HashMap;-><init>()V
 
     sput-object v1, Lcom/meitu/hwbusinesskit/core/ResourceRecycleManager;->mGoogleAdViews:Ljava/util/Map;
 
-    .line 2
     new-instance v1, Ljava/util/HashMap;
 
     invoke-direct {v1}, Ljava/util/HashMap;-><init>()V
@@ -58,7 +56,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -71,14 +68,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v1
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -88,7 +83,6 @@
 
     if-eqz p2, :cond_2
 
-    .line 3
     sget-object p2, Lcom/meitu/hwbusinesskit/core/ResourceRecycleManager;->mGoogleAdViewListMap:Ljava/util/Map;
 
     invoke-interface {p2, p0}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
@@ -99,21 +93,17 @@
 
     if-nez p2, :cond_1
 
-    .line 4
     new-instance p2, Ljava/util/ArrayList;
 
     invoke-direct {p2}, Ljava/util/ArrayList;-><init>()V
 
-    .line 5
     sget-object v2, Lcom/meitu/hwbusinesskit/core/ResourceRecycleManager;->mGoogleAdViewListMap:Ljava/util/Map;
 
     invoke-interface {v2, p0, p2}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 6
     :cond_1
     invoke-interface {p2, p1}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
-    .line 7
     invoke-interface {p2}, Ljava/util/List;->size()I
 
     move-result p0
@@ -122,21 +112,17 @@
 
     if-le p0, p1, :cond_3
 
-    .line 8
     invoke-interface {p2, v1}, Ljava/util/List;->remove(I)Ljava/lang/Object;
 
     goto :goto_0
 
-    .line 9
     :cond_2
     invoke-static {p0, v1}, Lcom/meitu/hwbusinesskit/core/ResourceRecycleManager;->recycleGoogleAdView(Ljava/lang/String;Z)V
 
-    .line 10
     sget-object p2, Lcom/meitu/hwbusinesskit/core/ResourceRecycleManager;->mGoogleAdViews:Ljava/util/Map;
 
     invoke-interface {p2, p0, p1}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 11
     :cond_3
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -153,7 +139,6 @@
 
     if-eqz p1, :cond_3
 
-    .line 1
     sget-object p1, Lcom/meitu/hwbusinesskit/core/ResourceRecycleManager;->mGoogleAdViewListMap:Ljava/util/Map;
 
     invoke-interface {p1, p0}, Ljava/util/Map;->containsKey(Ljava/lang/Object;)Z
@@ -162,7 +147,6 @@
 
     if-eqz p1, :cond_3
 
-    .line 2
     sget-object p1, Lcom/meitu/hwbusinesskit/core/ResourceRecycleManager;->mGoogleAdViewListMap:Ljava/util/Map;
 
     invoke-interface {p1, p0}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
@@ -173,14 +157,12 @@
 
     if-eqz p1, :cond_2
 
-    .line 3
     invoke-interface {p1}, Ljava/util/List;->isEmpty()Z
 
     move-result v1
 
     if-nez v1, :cond_2
 
-    .line 4
     invoke-interface {p1}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
     move-result-object v1
@@ -201,10 +183,8 @@
 
     if-eqz v2, :cond_0
 
-    .line 5
     invoke-virtual {v2}, Landroid/view/ViewGroup;->removeAllViews()V
 
-    .line 6
     invoke-virtual {v2}, Landroid/view/ViewGroup;->getParent()Landroid/view/ViewParent;
 
     move-result-object v3
@@ -213,16 +193,13 @@
 
     if-eqz v3, :cond_0
 
-    .line 7
     invoke-virtual {v3, v2}, Landroid/view/ViewGroup;->removeView(Landroid/view/View;)V
 
     goto :goto_0
 
-    .line 8
     :cond_1
     invoke-interface {p1}, Ljava/util/List;->clear()V
 
-    .line 9
     :cond_2
     sget-object p1, Lcom/meitu/hwbusinesskit/core/ResourceRecycleManager;->mGoogleAdViewListMap:Ljava/util/Map;
 
@@ -230,7 +207,6 @@
 
     goto :goto_1
 
-    .line 10
     :cond_3
     sget-object p1, Lcom/meitu/hwbusinesskit/core/ResourceRecycleManager;->mGoogleAdViews:Ljava/util/Map;
 
@@ -240,7 +216,6 @@
 
     if-eqz p1, :cond_5
 
-    .line 11
     sget-object p1, Lcom/meitu/hwbusinesskit/core/ResourceRecycleManager;->mGoogleAdViews:Ljava/util/Map;
 
     invoke-interface {p1, p0}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
@@ -251,10 +226,8 @@
 
     if-eqz p1, :cond_4
 
-    .line 12
     invoke-virtual {p1}, Landroid/view/ViewGroup;->removeAllViews()V
 
-    .line 13
     invoke-virtual {p1}, Landroid/view/ViewGroup;->getParent()Landroid/view/ViewParent;
 
     move-result-object v1
@@ -263,16 +236,13 @@
 
     if-eqz v1, :cond_4
 
-    .line 14
     invoke-virtual {v1, p1}, Landroid/view/ViewGroup;->removeView(Landroid/view/View;)V
 
-    .line 15
     :cond_4
     sget-object p1, Lcom/meitu/hwbusinesskit/core/ResourceRecycleManager;->mGoogleAdViews:Ljava/util/Map;
 
     invoke-interface {p1, p0}, Ljava/util/Map;->remove(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 16
     :cond_5
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

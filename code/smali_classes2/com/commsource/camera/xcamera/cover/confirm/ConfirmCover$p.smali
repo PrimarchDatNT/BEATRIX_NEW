@@ -57,7 +57,6 @@
 
     if-eqz p1, :cond_3
 
-    .line 1
     invoke-virtual {p1}, Ljava/lang/Number;->intValue()I
 
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover$p;->a:Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover;
@@ -121,12 +120,10 @@
     :goto_1
     if-eqz p1, :cond_3
 
-    .line 2
     invoke-virtual {p1}, Ljava/lang/Number;->intValue()I
 
     move-result p1
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover$p;->a:Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover;
 
     invoke-virtual {v1}, Lcom/commsource/camera/xcamera/cover/AbsLazyCover;->A()Landroidx/databinding/ViewDataBinding;
@@ -155,7 +152,6 @@
 
     invoke-virtual {v1, p1}, Lcom/commsource/beautymain/widget/gesturewidget/RealtimeFilterImageView;->setFilterAlpha(F)V
 
-    .line 4
     :cond_3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -169,7 +165,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Ljava/lang/Integer;
 
     invoke-virtual {p0, p1}, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover$p;->a(Ljava/lang/Integer;)V

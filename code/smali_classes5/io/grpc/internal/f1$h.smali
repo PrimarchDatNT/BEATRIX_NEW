@@ -29,7 +29,6 @@
 .method constructor <init>(Lio/grpc/internal/f1;Lio/grpc/internal/y;Z)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lio/grpc/internal/f1$h;->c:Lio/grpc/internal/f1;
 
     iput-object p2, p0, Lio/grpc/internal/f1$h;->a:Lio/grpc/internal/y;
@@ -46,7 +45,6 @@
 .method public run()V
     .locals 3
 
-    .line 1
     iget-object v0, p0, Lio/grpc/internal/f1$h;->c:Lio/grpc/internal/f1;
 
     invoke-static {v0}, Lio/grpc/internal/f1;->z(Lio/grpc/internal/f1;)Lio/grpc/internal/b1;

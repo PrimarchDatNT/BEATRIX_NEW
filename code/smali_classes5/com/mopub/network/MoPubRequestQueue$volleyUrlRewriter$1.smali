@@ -38,7 +38,6 @@
 .method public final rewriteUrl(Ljava/lang/String;)Ljava/lang/String;
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/network/MoPubRequestQueue$volleyUrlRewriter$1;->$moPubUrlRewriter:Lcom/mopub/network/MoPubUrlRewriter;
 
     const-string v1, "url"

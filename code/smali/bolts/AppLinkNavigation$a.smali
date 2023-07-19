@@ -35,7 +35,6 @@
 .method constructor <init>(Landroid/content/Context;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lbolts/AppLinkNavigation$a;->a:Landroid/content/Context;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -63,7 +62,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lbolts/AppLinkNavigation$a;->a:Landroid/content/Context;
 
     invoke-virtual {p1}, Lbolts/o;->F()Ljava/lang/Object;
@@ -87,7 +85,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0, p1}, Lbolts/AppLinkNavigation$a;->a(Lbolts/o;)Lbolts/AppLinkNavigation$NavigationResult;
 
     move-result-object p1

@@ -71,10 +71,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Lcom/google/common/util/concurrent/p$a;-><init>()V
 
-    .line 2
     invoke-static {p1}, Lcom/google/common/base/t;->E(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -83,7 +81,6 @@
 
     iput-object p1, p0, Lcom/google/common/util/concurrent/g;->K:Lcom/google/common/util/concurrent/g0;
 
-    .line 3
     invoke-static {p2}, Lcom/google/common/base/t;->E(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -113,15 +110,12 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p1}, Lcom/google/common/base/t;->E(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 2
     new-instance v0, Lcom/google/common/util/concurrent/g$b;
 
     invoke-direct {v0, p0, p1}, Lcom/google/common/util/concurrent/g$b;-><init>(Lcom/google/common/util/concurrent/g0;Lcom/google/common/base/n;)V
 
-    .line 3
     invoke-static {p2, v0}, Lcom/google/common/util/concurrent/n0;->s(Ljava/util/concurrent/Executor;Lcom/google/common/util/concurrent/AbstractFuture;)Ljava/util/concurrent/Executor;
 
     move-result-object p1
@@ -151,15 +145,12 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p2}, Lcom/google/common/base/t;->E(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 2
     new-instance v0, Lcom/google/common/util/concurrent/g$a;
 
     invoke-direct {v0, p0, p1}, Lcom/google/common/util/concurrent/g$a;-><init>(Lcom/google/common/util/concurrent/g0;Lcom/google/common/util/concurrent/j;)V
 
-    .line 3
     invoke-static {p2, v0}, Lcom/google/common/util/concurrent/n0;->s(Ljava/util/concurrent/Executor;Lcom/google/common/util/concurrent/AbstractFuture;)Ljava/util/concurrent/Executor;
 
     move-result-object p1
@@ -213,17 +204,14 @@
 .method protected final o()V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/util/concurrent/g;->K:Lcom/google/common/util/concurrent/g0;
 
     invoke-virtual {p0, v0}, Lcom/google/common/util/concurrent/AbstractFuture;->y(Ljava/util/concurrent/Future;)V
 
     const/4 v0, 0x0
 
-    .line 2
     iput-object v0, p0, Lcom/google/common/util/concurrent/g;->K:Lcom/google/common/util/concurrent/g0;
 
-    .line 3
     iput-object v0, p0, Lcom/google/common/util/concurrent/g;->L:Ljava/lang/Object;
 
     return-void
@@ -232,13 +220,10 @@
 .method public final run()V
     .locals 6
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/util/concurrent/g;->K:Lcom/google/common/util/concurrent/g0;
 
-    .line 2
     iget-object v1, p0, Lcom/google/common/util/concurrent/g;->L:Ljava/lang/Object;
 
-    .line 3
     invoke-virtual {p0}, Lcom/google/common/util/concurrent/p$a;->isCancelled()Z
 
     move-result v2
@@ -276,22 +261,18 @@
     :cond_2
     const/4 v2, 0x0
 
-    .line 4
     iput-object v2, p0, Lcom/google/common/util/concurrent/g;->K:Lcom/google/common/util/concurrent/g0;
 
-    .line 5
     invoke-interface {v0}, Ljava/util/concurrent/Future;->isCancelled()Z
 
     move-result v3
 
     if-eqz v3, :cond_3
 
-    .line 6
     invoke-virtual {p0, v0}, Lcom/google/common/util/concurrent/AbstractFuture;->E(Lcom/google/common/util/concurrent/g0;)Z
 
     return-void
 
-    .line 7
     :cond_3
     :try_start_0
     invoke-static {v0}, Lcom/google/common/util/concurrent/a0;->h(Ljava/util/concurrent/Future;)Ljava/lang/Object;
@@ -303,7 +284,6 @@
     .catch Ljava/lang/RuntimeException; {:try_start_0 .. :try_end_0} :catch_1
     .catch Ljava/lang/Error; {:try_start_0 .. :try_end_0} :catch_0
 
-    .line 8
     :try_start_1
     invoke-virtual {p0, v1, v0}, Lcom/google/common/util/concurrent/g;->Q(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
@@ -311,10 +291,8 @@
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
-    .line 9
     iput-object v2, p0, Lcom/google/common/util/concurrent/g;->L:Ljava/lang/Object;
 
-    .line 10
     invoke-virtual {p0, v0}, Lcom/google/common/util/concurrent/g;->R(Ljava/lang/Object;)V
 
     return-void
@@ -322,13 +300,11 @@
     :catchall_0
     move-exception v0
 
-    .line 11
     :try_start_2
     invoke-virtual {p0, v0}, Lcom/google/common/util/concurrent/AbstractFuture;->D(Ljava/lang/Throwable;)Z
     :try_end_2
     .catchall {:try_start_2 .. :try_end_2} :catchall_1
 
-    .line 12
     iput-object v2, p0, Lcom/google/common/util/concurrent/g;->L:Ljava/lang/Object;
 
     return-void
@@ -338,13 +314,11 @@
 
     iput-object v2, p0, Lcom/google/common/util/concurrent/g;->L:Ljava/lang/Object;
 
-    .line 13
     throw v0
 
     :catch_0
     move-exception v0
 
-    .line 14
     invoke-virtual {p0, v0}, Lcom/google/common/util/concurrent/AbstractFuture;->D(Ljava/lang/Throwable;)Z
 
     return-void
@@ -352,7 +326,6 @@
     :catch_1
     move-exception v0
 
-    .line 15
     invoke-virtual {p0, v0}, Lcom/google/common/util/concurrent/AbstractFuture;->D(Ljava/lang/Throwable;)Z
 
     return-void
@@ -360,7 +333,6 @@
     :catch_2
     move-exception v0
 
-    .line 16
     invoke-virtual {v0}, Ljava/util/concurrent/ExecutionException;->getCause()Ljava/lang/Throwable;
 
     move-result-object v0
@@ -369,7 +341,6 @@
 
     return-void
 
-    .line 17
     :catch_3
     invoke-virtual {p0, v4}, Lcom/google/common/util/concurrent/p$a;->cancel(Z)Z
 
@@ -379,20 +350,16 @@
 .method protected z()Ljava/lang/String;
     .locals 5
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/util/concurrent/g;->K:Lcom/google/common/util/concurrent/g0;
 
-    .line 2
     iget-object v1, p0, Lcom/google/common/util/concurrent/g;->L:Ljava/lang/Object;
 
-    .line 3
     invoke-super {p0}, Lcom/google/common/util/concurrent/AbstractFuture;->z()Ljava/lang/String;
 
     move-result-object v2
 
     if-eqz v0, :cond_0
 
-    .line 4
     new-instance v3, Ljava/lang/StringBuilder;
 
     invoke-direct {v3}, Ljava/lang/StringBuilder;-><init>()V
@@ -419,7 +386,6 @@
     :goto_0
     if-eqz v1, :cond_1
 
-    .line 5
     new-instance v2, Ljava/lang/StringBuilder;
 
     invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
@@ -445,7 +411,6 @@
     :cond_1
     if-eqz v2, :cond_2
 
-    .line 6
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V

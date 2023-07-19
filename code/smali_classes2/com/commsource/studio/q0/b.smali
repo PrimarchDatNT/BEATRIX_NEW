@@ -32,14 +32,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/commsource/studio/q0/b;
 
     invoke-direct {v1}, Lcom/commsource/studio/q0/b;-><init>()V
 
     sput-object v1, Lcom/commsource/studio/q0/b;->b:Lcom/commsource/studio/q0/b;
 
-    .line 2
     new-instance v1, Landroidx/lifecycle/MutableLiveData;
 
     invoke-direct {v1}, Landroidx/lifecycle/MutableLiveData;-><init>()V
@@ -54,7 +52,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -81,7 +78,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/studio/q0/b;->a:Landroidx/lifecycle/MutableLiveData;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -96,7 +92,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

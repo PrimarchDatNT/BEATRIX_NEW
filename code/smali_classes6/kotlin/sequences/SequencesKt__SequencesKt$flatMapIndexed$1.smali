@@ -166,7 +166,6 @@
 
     move-result-object v0
 
-    .line 1
     iget v1, p0, Lcotlin/sequences/SequencesKt__SequencesKt$flatMapIndexed$1;->label:I
 
     const/4 v2, 0x1
@@ -189,7 +188,6 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     new-instance p1, Ljava/lang/IllegalStateException;
 
@@ -199,7 +197,6 @@
 
     throw p1
 
-    .line 3
     :cond_1
     invoke-static {p1}, Lcotlin/r0;->n(Ljava/lang/Object;)V
 
@@ -209,7 +206,6 @@
 
     const/4 v1, 0x0
 
-    .line 4
     iget-object v3, p0, Lcotlin/sequences/SequencesKt__SequencesKt$flatMapIndexed$1;->$source:Lcotlin/sequences/m;
 
     invoke-interface {v3}, Lcotlin/sequences/m;->iterator()Ljava/util/Iterator;
@@ -232,7 +228,6 @@
 
     move-result-object v5
 
-    .line 5
     iget-object v6, p1, Lcotlin/sequences/SequencesKt__SequencesKt$flatMapIndexed$1;->$transform:Lcotlin/jvm/u/p;
 
     add-int/lit8 v7, v1, 0x1
@@ -250,7 +245,6 @@
 
     move-result-object v1
 
-    .line 6
     iget-object v5, p1, Lcotlin/sequences/SequencesKt__SequencesKt$flatMapIndexed$1;->$iterator:Lcotlin/jvm/u/l;
 
     invoke-interface {v5, v1}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
@@ -280,7 +274,6 @@
 
     goto :goto_1
 
-    .line 7
     :cond_4
     sget-object p1, Lcotlin/t1;->a:Lcotlin/t1;
 

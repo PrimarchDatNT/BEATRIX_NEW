@@ -31,7 +31,6 @@
 .method constructor <init>(Lcom/sdk/imp/base/mraid/e;Landroid/content/Context;Ljava/lang/String;Lcom/sdk/imp/base/mraid/e$e;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/sdk/imp/base/mraid/e$b;->d:Lcom/sdk/imp/base/mraid/e;
 
     iput-object p2, p0, Lcom/sdk/imp/base/mraid/e$b;->a:Landroid/content/Context;
@@ -50,7 +49,6 @@
 .method public onClick(Landroid/content/DialogInterface;I)V
     .locals 2
 
-    .line 1
     iget-object p1, p0, Lcom/sdk/imp/base/mraid/e$b;->d:Lcom/sdk/imp/base/mraid/e;
 
     iget-object p2, p0, Lcom/sdk/imp/base/mraid/e$b;->a:Landroid/content/Context;

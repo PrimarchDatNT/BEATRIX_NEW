@@ -41,7 +41,6 @@
 .method static constructor <clinit>()V
     .locals 9
 
-    .line 1
     new-instance v0, Lcom/mopub/mobileads/FullscreenAdController$ControllerState;
 
     const-string v1, "VIDEO"
@@ -52,7 +51,6 @@
 
     sput-object v0, Lcom/mopub/mobileads/FullscreenAdController$ControllerState;->VIDEO:Lcom/mopub/mobileads/FullscreenAdController$ControllerState;
 
-    .line 2
     new-instance v1, Lcom/mopub/mobileads/FullscreenAdController$ControllerState;
 
     const-string v3, "MRAID"
@@ -63,7 +61,6 @@
 
     sput-object v1, Lcom/mopub/mobileads/FullscreenAdController$ControllerState;->MRAID:Lcom/mopub/mobileads/FullscreenAdController$ControllerState;
 
-    .line 3
     new-instance v3, Lcom/mopub/mobileads/FullscreenAdController$ControllerState;
 
     const-string v5, "HTML"
@@ -74,7 +71,6 @@
 
     sput-object v3, Lcom/mopub/mobileads/FullscreenAdController$ControllerState;->HTML:Lcom/mopub/mobileads/FullscreenAdController$ControllerState;
 
-    .line 4
     new-instance v5, Lcom/mopub/mobileads/FullscreenAdController$ControllerState;
 
     const-string v7, "IMAGE"
@@ -97,7 +93,6 @@
 
     aput-object v5, v7, v8
 
-    .line 5
     sput-object v7, Lcom/mopub/mobileads/FullscreenAdController$ControllerState;->$VALUES:[Lcom/mopub/mobileads/FullscreenAdController$ControllerState;
 
     return-void
@@ -111,7 +106,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
     return-void
@@ -120,7 +114,6 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/mopub/mobileads/FullscreenAdController$ControllerState;
     .locals 1
 
-    .line 1
     const-class v0, Lcom/mopub/mobileads/FullscreenAdController$ControllerState;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -135,7 +128,6 @@
 .method public static values()[Lcom/mopub/mobileads/FullscreenAdController$ControllerState;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/mopub/mobileads/FullscreenAdController$ControllerState;->$VALUES:[Lcom/mopub/mobileads/FullscreenAdController$ControllerState;
 
     invoke-virtual {v0}, [Lcom/mopub/mobileads/FullscreenAdController$ControllerState;->clone()Ljava/lang/Object;

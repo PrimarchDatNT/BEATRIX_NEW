@@ -45,10 +45,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/io/InputStream;-><init>()V
 
-    .line 2
     invoke-static {p1}, Lcom/google/common/base/t;->E(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -57,7 +55,6 @@
 
     iput-object p1, p0, Lcom/google/common/io/x;->a:Ljava/util/Iterator;
 
-    .line 3
     invoke-direct {p0}, Lcom/google/common/io/x;->a()V
 
     return-void
@@ -71,10 +68,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/io/x;->close()V
 
-    .line 2
     iget-object v0, p0, Lcom/google/common/io/x;->a:Ljava/util/Iterator;
 
     invoke-interface {v0}, Ljava/util/Iterator;->hasNext()Z
@@ -83,7 +78,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 3
     iget-object v0, p0, Lcom/google/common/io/x;->a:Ljava/util/Iterator;
 
     invoke-interface {v0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
@@ -112,7 +106,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/io/x;->b:Ljava/io/InputStream;
 
     if-nez v0, :cond_0
@@ -121,7 +114,6 @@
 
     return v0
 
-    .line 2
     :cond_0
     invoke-virtual {v0}, Ljava/io/InputStream;->available()I
 
@@ -138,20 +130,17 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/io/x;->b:Ljava/io/InputStream;
 
     if-eqz v0, :cond_0
 
     const/4 v1, 0x0
 
-    .line 2
     :try_start_0
     invoke-virtual {v0}, Ljava/io/InputStream;->close()V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 3
     iput-object v1, p0, Lcom/google/common/io/x;->b:Ljava/io/InputStream;
 
     goto :goto_0
@@ -161,7 +150,6 @@
 
     iput-object v1, p0, Lcom/google/common/io/x;->b:Ljava/io/InputStream;
 
-    .line 4
     throw v0
 
     :cond_0
@@ -185,7 +173,6 @@
         }
     .end annotation
 
-    .line 1
     :goto_0
     iget-object v0, p0, Lcom/google/common/io/x;->b:Ljava/io/InputStream;
 
@@ -193,7 +180,6 @@
 
     if-eqz v0, :cond_1
 
-    .line 2
     invoke-virtual {v0}, Ljava/io/InputStream;->read()I
 
     move-result v0
@@ -202,7 +188,6 @@
 
     return v0
 
-    .line 3
     :cond_0
     invoke-direct {p0}, Lcom/google/common/io/x;->a()V
 
@@ -224,7 +209,6 @@
         }
     .end annotation
 
-    .line 4
     :goto_0
     iget-object v0, p0, Lcom/google/common/io/x;->b:Ljava/io/InputStream;
 
@@ -232,7 +216,6 @@
 
     if-eqz v0, :cond_1
 
-    .line 5
     invoke-virtual {v0, p1, p2, p3}, Ljava/io/InputStream;->read([BII)I
 
     move-result v0
@@ -241,7 +224,6 @@
 
     return v0
 
-    .line 6
     :cond_0
     invoke-direct {p0}, Lcom/google/common/io/x;->a()V
 
@@ -259,7 +241,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/io/x;->b:Ljava/io/InputStream;
 
     const-wide/16 v1, 0x0
@@ -272,7 +253,6 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     invoke-virtual {v0, p1, p2}, Ljava/io/InputStream;->skip(J)J
 
@@ -284,7 +264,6 @@
 
     return-wide v3
 
-    .line 3
     :cond_1
     invoke-virtual {p0}, Lcom/google/common/io/x;->read()I
 
@@ -296,7 +275,6 @@
 
     return-wide v1
 
-    .line 4
     :cond_2
     iget-object v0, p0, Lcom/google/common/io/x;->b:Ljava/io/InputStream;
 

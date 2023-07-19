@@ -64,7 +64,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/meitu/core/openglEffect/MTPoseEffectParam$MTPosePointIndex;
 
     const-string v2, "PP_HeadTop_0"
@@ -75,7 +74,6 @@
 
     sput-object v1, Lcom/meitu/core/openglEffect/MTPoseEffectParam$MTPosePointIndex;->PP_HeadTop_0:Lcom/meitu/core/openglEffect/MTPoseEffectParam$MTPosePointIndex;
 
-    .line 2
     new-instance v2, Lcom/meitu/core/openglEffect/MTPoseEffectParam$MTPosePointIndex;
 
     const-string v4, "PP_Neck_1"
@@ -86,7 +84,6 @@
 
     sput-object v2, Lcom/meitu/core/openglEffect/MTPoseEffectParam$MTPosePointIndex;->PP_Neck_1:Lcom/meitu/core/openglEffect/MTPoseEffectParam$MTPosePointIndex;
 
-    .line 3
     new-instance v4, Lcom/meitu/core/openglEffect/MTPoseEffectParam$MTPosePointIndex;
 
     const-string v6, "PP_LeftShoulder_2"
@@ -97,7 +94,6 @@
 
     sput-object v4, Lcom/meitu/core/openglEffect/MTPoseEffectParam$MTPosePointIndex;->PP_LeftShoulder_2:Lcom/meitu/core/openglEffect/MTPoseEffectParam$MTPosePointIndex;
 
-    .line 4
     new-instance v6, Lcom/meitu/core/openglEffect/MTPoseEffectParam$MTPosePointIndex;
 
     const-string v8, "PP_RightShoulder_3"
@@ -108,7 +104,6 @@
 
     sput-object v6, Lcom/meitu/core/openglEffect/MTPoseEffectParam$MTPosePointIndex;->PP_RightShoulder_3:Lcom/meitu/core/openglEffect/MTPoseEffectParam$MTPosePointIndex;
 
-    .line 5
     new-instance v8, Lcom/meitu/core/openglEffect/MTPoseEffectParam$MTPosePointIndex;
 
     const-string v10, "PP_LeftElbow_4"
@@ -119,7 +114,6 @@
 
     sput-object v8, Lcom/meitu/core/openglEffect/MTPoseEffectParam$MTPosePointIndex;->PP_LeftElbow_4:Lcom/meitu/core/openglEffect/MTPoseEffectParam$MTPosePointIndex;
 
-    .line 6
     new-instance v10, Lcom/meitu/core/openglEffect/MTPoseEffectParam$MTPosePointIndex;
 
     const-string v12, "PP_RightElbow_5"
@@ -130,7 +124,6 @@
 
     sput-object v10, Lcom/meitu/core/openglEffect/MTPoseEffectParam$MTPosePointIndex;->PP_RightElbow_5:Lcom/meitu/core/openglEffect/MTPoseEffectParam$MTPosePointIndex;
 
-    .line 7
     new-instance v12, Lcom/meitu/core/openglEffect/MTPoseEffectParam$MTPosePointIndex;
 
     const-string v14, "PP_LeftWrist_6"
@@ -141,7 +134,6 @@
 
     sput-object v12, Lcom/meitu/core/openglEffect/MTPoseEffectParam$MTPosePointIndex;->PP_LeftWrist_6:Lcom/meitu/core/openglEffect/MTPoseEffectParam$MTPosePointIndex;
 
-    .line 8
     new-instance v14, Lcom/meitu/core/openglEffect/MTPoseEffectParam$MTPosePointIndex;
 
     const-string v0, "PP_RightWrist_7"
@@ -152,7 +144,6 @@
 
     sput-object v14, Lcom/meitu/core/openglEffect/MTPoseEffectParam$MTPosePointIndex;->PP_RightWrist_7:Lcom/meitu/core/openglEffect/MTPoseEffectParam$MTPosePointIndex;
 
-    .line 9
     new-instance v0, Lcom/meitu/core/openglEffect/MTPoseEffectParam$MTPosePointIndex;
 
     const-string v15, "PP_LeftHips_8"
@@ -163,7 +154,6 @@
 
     sput-object v0, Lcom/meitu/core/openglEffect/MTPoseEffectParam$MTPosePointIndex;->PP_LeftHips_8:Lcom/meitu/core/openglEffect/MTPoseEffectParam$MTPosePointIndex;
 
-    .line 10
     new-instance v15, Lcom/meitu/core/openglEffect/MTPoseEffectParam$MTPosePointIndex;
 
     const-string v13, "PP_RightHips_9"
@@ -174,7 +164,6 @@
 
     sput-object v15, Lcom/meitu/core/openglEffect/MTPoseEffectParam$MTPosePointIndex;->PP_RightHips_9:Lcom/meitu/core/openglEffect/MTPoseEffectParam$MTPosePointIndex;
 
-    .line 11
     new-instance v13, Lcom/meitu/core/openglEffect/MTPoseEffectParam$MTPosePointIndex;
 
     const-string v11, "PP_LeftKnees_10"
@@ -185,7 +174,6 @@
 
     sput-object v13, Lcom/meitu/core/openglEffect/MTPoseEffectParam$MTPosePointIndex;->PP_LeftKnees_10:Lcom/meitu/core/openglEffect/MTPoseEffectParam$MTPosePointIndex;
 
-    .line 12
     new-instance v11, Lcom/meitu/core/openglEffect/MTPoseEffectParam$MTPosePointIndex;
 
     const-string v9, "PP_RightKnees_11"
@@ -196,7 +184,6 @@
 
     sput-object v11, Lcom/meitu/core/openglEffect/MTPoseEffectParam$MTPosePointIndex;->PP_RightKnees_11:Lcom/meitu/core/openglEffect/MTPoseEffectParam$MTPosePointIndex;
 
-    .line 13
     new-instance v9, Lcom/meitu/core/openglEffect/MTPoseEffectParam$MTPosePointIndex;
 
     const-string v7, "PP_LeftAnkle_12"
@@ -207,7 +194,6 @@
 
     sput-object v9, Lcom/meitu/core/openglEffect/MTPoseEffectParam$MTPosePointIndex;->PP_LeftAnkle_12:Lcom/meitu/core/openglEffect/MTPoseEffectParam$MTPosePointIndex;
 
-    .line 14
     new-instance v7, Lcom/meitu/core/openglEffect/MTPoseEffectParam$MTPosePointIndex;
 
     const-string v5, "PP_RightAnkle_13"
@@ -218,7 +204,6 @@
 
     sput-object v7, Lcom/meitu/core/openglEffect/MTPoseEffectParam$MTPosePointIndex;->PP_RightAnkle_13:Lcom/meitu/core/openglEffect/MTPoseEffectParam$MTPosePointIndex;
 
-    .line 15
     new-instance v5, Lcom/meitu/core/openglEffect/MTPoseEffectParam$MTPosePointIndex;
 
     const-string v3, "PP_Num"
@@ -293,7 +278,6 @@
 
     aput-object v5, v3, v7
 
-    .line 16
     sput-object v3, Lcom/meitu/core/openglEffect/MTPoseEffectParam$MTPosePointIndex;->$VALUES:[Lcom/meitu/core/openglEffect/MTPoseEffectParam$MTPosePointIndex;
 
     const v0, 0xbfa4
@@ -311,7 +295,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
     return-void
@@ -324,7 +307,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     const-class v1, Lcom/meitu/core/openglEffect/MTPoseEffectParam$MTPosePointIndex;
 
     invoke-static {v1, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -345,7 +327,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/meitu/core/openglEffect/MTPoseEffectParam$MTPosePointIndex;->$VALUES:[Lcom/meitu/core/openglEffect/MTPoseEffectParam$MTPosePointIndex;
 
     invoke-virtual {v1}, [Lcom/meitu/core/openglEffect/MTPoseEffectParam$MTPosePointIndex;->clone()Ljava/lang/Object;

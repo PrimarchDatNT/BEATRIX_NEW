@@ -21,7 +21,6 @@
     .annotation build Lcotlin/internal/f;
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/io/FileInputStream;
 
     invoke-direct {v0, p0}, Ljava/io/FileInputStream;-><init>(Ljava/io/File;)V
@@ -40,10 +39,8 @@
 
     if-eqz p2, :cond_0
 
-    .line 1
     sget-object p1, Lcotlin/text/d;->a:Ljava/nio/charset/Charset;
 
-    .line 2
     :cond_0
     new-instance p2, Ljava/io/FileInputStream;
 
@@ -97,7 +94,6 @@
 
     invoke-static {p2, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     new-instance v0, Ljava/io/FileInputStream;
 
     invoke-direct {v0, p0}, Ljava/io/FileInputStream;-><init>(Ljava/io/File;)V
@@ -206,7 +202,6 @@
 
     if-eqz p3, :cond_0
 
-    .line 1
     sget-object p1, Lcotlin/text/d;->a:Ljava/nio/charset/Charset;
 
     :cond_0
@@ -224,7 +219,6 @@
 
     const/16 p3, 0x2000
 
-    .line 2
     new-instance v0, Ljava/io/FileInputStream;
 
     invoke-direct {v0, p0}, Ljava/io/FileInputStream;-><init>(Ljava/io/File;)V
@@ -339,7 +333,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     new-instance v0, Ljava/io/FileOutputStream;
 
     invoke-direct {v0, p0}, Ljava/io/FileOutputStream;-><init>(Ljava/io/File;)V
@@ -400,7 +393,6 @@
 
     invoke-static {p2, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-virtual {p1, p2}, Ljava/lang/String;->getBytes(Ljava/nio/charset/Charset;)[B
 
     move-result-object p1
@@ -421,7 +413,6 @@
 
     if-eqz p3, :cond_0
 
-    .line 1
     sget-object p2, Lcotlin/text/d;->a:Ljava/nio/charset/Charset;
 
     :cond_0
@@ -435,7 +426,6 @@
     .annotation build Lcotlin/internal/f;
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/io/FileOutputStream;
 
     invoke-direct {v0, p0}, Ljava/io/FileOutputStream;-><init>(Ljava/io/File;)V
@@ -454,10 +444,8 @@
 
     if-eqz p2, :cond_0
 
-    .line 1
     sget-object p1, Lcotlin/text/d;->a:Ljava/nio/charset/Charset;
 
-    .line 2
     :cond_0
     new-instance p2, Ljava/io/FileOutputStream;
 
@@ -489,7 +477,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     new-instance v0, Ljava/io/FileOutputStream;
 
     const/4 v1, 0x1
@@ -552,7 +539,6 @@
 
     invoke-static {p2, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-virtual {p1, p2}, Ljava/lang/String;->getBytes(Ljava/nio/charset/Charset;)[B
 
     move-result-object p1
@@ -573,7 +559,6 @@
 
     if-eqz p3, :cond_0
 
-    .line 1
     sget-object p2, Lcotlin/text/d;->a:Ljava/nio/charset/Charset;
 
     :cond_0
@@ -587,7 +572,6 @@
     .annotation build Lcotlin/internal/f;
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/io/FileInputStream;
 
     invoke-direct {v0, p0}, Ljava/io/FileInputStream;-><init>(Ljava/io/File;)V
@@ -622,7 +606,6 @@
 
     if-eqz p4, :cond_0
 
-    .line 1
     sget-object p1, Lcotlin/text/d;->a:Ljava/nio/charset/Charset;
 
     :cond_0
@@ -632,7 +615,6 @@
 
     const/16 p2, 0x2000
 
-    .line 2
     :cond_1
     new-instance p3, Ljava/io/FileInputStream;
 
@@ -666,7 +648,6 @@
     .annotation build Lcotlin/internal/f;
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/io/FileOutputStream;
 
     invoke-direct {v0, p0}, Ljava/io/FileOutputStream;-><init>(Ljava/io/File;)V
@@ -701,7 +682,6 @@
 
     if-eqz p4, :cond_0
 
-    .line 1
     sget-object p1, Lcotlin/text/d;->a:Ljava/nio/charset/Charset;
 
     :cond_0
@@ -711,7 +691,6 @@
 
     const/16 p2, 0x2000
 
-    .line 2
     :cond_1
     new-instance p3, Ljava/io/FileOutputStream;
 
@@ -773,19 +752,16 @@
 
     const/16 v0, 0x200
 
-    .line 1
     invoke-static {p1, v0}, Lcotlin/g2/o;->n(II)I
 
     move-result p1
 
     new-array p1, p1, [B
 
-    .line 2
     new-instance v0, Ljava/io/FileInputStream;
 
     invoke-direct {v0, p0}, Ljava/io/FileInputStream;-><init>(Ljava/io/File;)V
 
-    .line 3
     :goto_0
     :try_start_0
     invoke-virtual {v0, p1}, Ljava/io/FileInputStream;->read([B)I
@@ -794,19 +770,16 @@
 
     if-gtz p0, :cond_0
 
-    .line 4
     sget-object p0, Lcotlin/t1;->a:Lcotlin/t1;
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
     const/4 p0, 0x0
 
-    .line 5
     invoke-static {v0, p0}, Lcotlin/io/b;->a(Ljava/io/Closeable;Ljava/lang/Throwable;)V
 
     return-void
 
-    .line 6
     :cond_0
     :try_start_1
     invoke-static {p0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -822,7 +795,6 @@
     :catchall_0
     move-exception p0
 
-    .line 7
     :try_start_2
     throw p0
     :try_end_2
@@ -868,7 +840,6 @@
 
     const/16 v0, 0x1000
 
-    .line 1
     invoke-static {p0, v0, p1}, Lcotlin/io/FilesKt__FileReadWriteKt;->n(Ljava/io/File;ILcotlin/jvm/u/p;)V
 
     return-void
@@ -913,7 +884,6 @@
 
     invoke-static {p2, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     new-instance v0, Ljava/io/BufferedReader;
 
     new-instance v1, Ljava/io/InputStreamReader;
@@ -938,7 +908,6 @@
 
     if-eqz p3, :cond_0
 
-    .line 1
     sget-object p1, Lcotlin/text/d;->a:Ljava/nio/charset/Charset;
 
     :cond_0
@@ -952,7 +921,6 @@
     .annotation build Lcotlin/internal/f;
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/io/FileInputStream;
 
     invoke-direct {v0, p0}, Ljava/io/FileInputStream;-><init>(Ljava/io/File;)V
@@ -965,7 +933,6 @@
     .annotation build Lcotlin/internal/f;
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/io/FileOutputStream;
 
     invoke-direct {v0, p0}, Ljava/io/FileOutputStream;-><init>(Ljava/io/File;)V
@@ -978,7 +945,6 @@
     .annotation build Lcotlin/internal/f;
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/io/PrintWriter;
 
     new-instance v1, Ljava/io/FileOutputStream;
@@ -1019,10 +985,8 @@
 
     if-eqz p2, :cond_0
 
-    .line 1
     sget-object p1, Lcotlin/text/d;->a:Ljava/nio/charset/Charset;
 
-    .line 2
     :cond_0
     new-instance p2, Ljava/io/PrintWriter;
 
@@ -1070,12 +1034,10 @@
 
     invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     new-instance v0, Ljava/io/FileInputStream;
 
     invoke-direct {v0, p0}, Ljava/io/FileInputStream;-><init>(Ljava/io/File;)V
 
-    .line 2
     :try_start_0
     invoke-virtual {p0}, Ljava/io/File;->length()J
 
@@ -1095,7 +1057,6 @@
 
     long-to-int v2, v1
 
-    .line 3
     :try_start_1
     new-array v1, v2, [B
 
@@ -1108,7 +1069,6 @@
     :goto_0
     if-lez v4, :cond_1
 
-    .line 4
     invoke-virtual {v0, v1, v6, v4}, Ljava/io/FileInputStream;->read([BII)I
 
     move-result v7
@@ -1134,7 +1094,6 @@
 
     if-lez v4, :cond_2
 
-    .line 5
     :try_start_2
     invoke-static {v1, v6}, Ljava/util/Arrays;->copyOf([BI)[B
 
@@ -1144,7 +1103,6 @@
 
     goto :goto_2
 
-    .line 6
     :cond_2
     invoke-virtual {v0}, Ljava/io/FileInputStream;->read()I
 
@@ -1156,7 +1114,6 @@
 
     goto :goto_2
 
-    .line 7
     :cond_3
     new-instance v6, Lcotlin/io/f;
 
@@ -1164,15 +1121,12 @@
 
     invoke-direct {v6, v9}, Lcotlin/io/f;-><init>(I)V
 
-    .line 8
     invoke-virtual {v6, v4}, Ljava/io/ByteArrayOutputStream;->write(I)V
 
     const/4 v4, 0x2
 
-    .line 9
     invoke-static {v0, v6, v3, v4, v8}, Lcotlin/io/a;->l(Ljava/io/InputStream;Ljava/io/OutputStream;IILjava/lang/Object;)J
 
-    .line 10
     invoke-virtual {v6}, Ljava/io/ByteArrayOutputStream;->size()I
 
     move-result v4
@@ -1181,37 +1135,31 @@
 
     if-ltz v4, :cond_4
 
-    .line 11
     invoke-virtual {v6}, Lcotlin/io/f;->a()[B
 
     move-result-object p0
 
-    .line 12
     invoke-static {v1, v4}, Ljava/util/Arrays;->copyOf([BI)[B
 
     move-result-object v1
 
     invoke-static {v1, v7}, Lcotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 13
     invoke-virtual {v6}, Ljava/io/ByteArrayOutputStream;->size()I
 
     move-result v4
 
-    .line 14
     invoke-static {p0, v1, v2, v3, v4}, Lcotlin/collections/k;->W0([B[BIII)[B
 
     move-result-object v1
     :try_end_2
     .catchall {:try_start_2 .. :try_end_2} :catchall_0
 
-    .line 15
     :goto_2
     invoke-static {v0, v8}, Lcotlin/io/b;->a(Ljava/io/Closeable;Ljava/lang/Throwable;)V
 
     return-object v1
 
-    .line 16
     :cond_4
     :try_start_3
     new-instance v1, Ljava/lang/OutOfMemoryError;
@@ -1236,7 +1184,6 @@
 
     throw v1
 
-    .line 17
     :cond_5
     new-instance v3, Ljava/lang/OutOfMemoryError;
 
@@ -1271,7 +1218,6 @@
     :catchall_0
     move-exception p0
 
-    .line 18
     :try_start_4
     throw p0
     :try_end_4
@@ -1318,12 +1264,10 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
 
-    .line 2
     new-instance v1, Lcotlin/io/FilesKt__FileReadWriteKt$readLines$1;
 
     invoke-direct {v1, v0}, Lcotlin/io/FilesKt__FileReadWriteKt$readLines$1;-><init>(Ljava/util/ArrayList;)V
@@ -1340,7 +1284,6 @@
 
     if-eqz p2, :cond_0
 
-    .line 1
     sget-object p1, Lcotlin/text/d;->a:Ljava/nio/charset/Charset;
 
     :cond_0
@@ -1372,7 +1315,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     new-instance v0, Ljava/io/FileInputStream;
 
     invoke-direct {v0, p0}, Ljava/io/FileInputStream;-><init>(Ljava/io/File;)V
@@ -1417,7 +1359,6 @@
 
     if-eqz p2, :cond_0
 
-    .line 1
     sget-object p1, Lcotlin/text/d;->a:Ljava/nio/charset/Charset;
 
     :cond_0

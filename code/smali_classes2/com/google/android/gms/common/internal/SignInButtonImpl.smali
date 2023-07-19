@@ -8,7 +8,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-direct {p0, p1, v0}, Lcom/google/android/gms/common/internal/SignInButtonImpl;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
     return-void
@@ -19,7 +18,6 @@
 
     const v0, 0x1010048
 
-    .line 2
     invoke-direct {p0, p1, p2, v0}, Landroid/widget/Button;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
     return-void
@@ -40,7 +38,6 @@
 
     return p3
 
-    .line 1
     :cond_0
     new-instance p1, Ljava/lang/IllegalStateException;
 
@@ -76,17 +73,14 @@
 .method public final a(Landroid/content/res/Resources;II)V
     .locals 6
 
-    .line 1
     sget-object v0, Landroid/graphics/Typeface;->DEFAULT_BOLD:Landroid/graphics/Typeface;
 
     invoke-virtual {p0, v0}, Landroid/widget/Button;->setTypeface(Landroid/graphics/Typeface;)V
 
     const/high16 v0, 0x41600000    # 14.0f
 
-    .line 2
     invoke-virtual {p0, v0}, Landroid/widget/Button;->setTextSize(F)V
 
-    .line 3
     invoke-virtual {p1}, Landroid/content/res/Resources;->getDisplayMetrics()Landroid/util/DisplayMetrics;
 
     move-result-object v0
@@ -103,18 +97,14 @@
 
     float-to-int v0, v0
 
-    .line 4
     invoke-virtual {p0, v0}, Landroid/widget/Button;->setMinHeight(I)V
 
-    .line 5
     invoke-virtual {p0, v0}, Landroid/widget/Button;->setMinWidth(I)V
 
-    .line 6
     sget v0, Lf/f/b/b/e/a$c;->b:I
 
     sget v1, Lf/f/b/b/e/a$c;->g:I
 
-    .line 7
     invoke-static {p3, v0, v1, v1}, Lcom/google/android/gms/common/internal/SignInButtonImpl;->c(IIII)I
 
     move-result v0
@@ -123,7 +113,6 @@
 
     sget v2, Lf/f/b/b/e/a$c;->p:I
 
-    .line 8
     invoke-static {p3, v1, v2, v2}, Lcom/google/android/gms/common/internal/SignInButtonImpl;->c(IIII)I
 
     move-result v1
@@ -144,7 +133,6 @@
 
     goto :goto_0
 
-    .line 9
     :cond_0
     new-instance p1, Ljava/lang/IllegalStateException;
 
@@ -167,7 +155,6 @@
     :cond_1
     move v0, v1
 
-    .line 10
     :goto_0
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 
@@ -177,36 +164,28 @@
 
     move-result-object v0
 
-    .line 11
     sget v1, Lf/f/b/b/e/a$b;->k:I
 
-    .line 12
     invoke-virtual {p1, v1}, Landroid/content/res/Resources;->getColorStateList(I)Landroid/content/res/ColorStateList;
 
     move-result-object v1
 
-    .line 13
     invoke-static {v0, v1}, Landroidx/core/graphics/drawable/DrawableCompat;->setTintList(Landroid/graphics/drawable/Drawable;Landroid/content/res/ColorStateList;)V
 
-    .line 14
     sget-object v1, Landroid/graphics/PorterDuff$Mode;->SRC_ATOP:Landroid/graphics/PorterDuff$Mode;
 
     invoke-static {v0, v1}, Landroidx/core/graphics/drawable/DrawableCompat;->setTintMode(Landroid/graphics/drawable/Drawable;Landroid/graphics/PorterDuff$Mode;)V
 
-    .line 15
     invoke-virtual {p0, v0}, Landroid/widget/Button;->setBackgroundDrawable(Landroid/graphics/drawable/Drawable;)V
 
-    .line 16
     sget v0, Lf/f/b/b/e/a$b;->a:I
 
     sget v1, Lf/f/b/b/e/a$b;->f:I
 
-    .line 17
     invoke-static {p3, v0, v1, v1}, Lcom/google/android/gms/common/internal/SignInButtonImpl;->c(IIII)I
 
     move-result p3
 
-    .line 18
     invoke-virtual {p1, p3}, Landroid/content/res/Resources;->getColorStateList(I)Landroid/content/res/ColorStateList;
 
     move-result-object p3
@@ -227,12 +206,10 @@
 
     if-ne p2, v4, :cond_2
 
-    .line 19
     invoke-virtual {p0, p3}, Landroid/widget/Button;->setText(Ljava/lang/CharSequence;)V
 
     goto :goto_1
 
-    .line 20
     :cond_2
     new-instance p1, Ljava/lang/IllegalStateException;
 
@@ -252,7 +229,6 @@
 
     throw p1
 
-    .line 21
     :cond_3
     sget p2, Lf/f/b/b/e/a$e;->q:I
 
@@ -264,7 +240,6 @@
 
     goto :goto_1
 
-    .line 22
     :cond_4
     sget p2, Lf/f/b/b/e/a$e;->p:I
 
@@ -274,11 +249,9 @@
 
     invoke-virtual {p0, p1}, Landroid/widget/Button;->setText(Ljava/lang/CharSequence;)V
 
-    .line 23
     :goto_1
     invoke-virtual {p0, p3}, Landroid/widget/Button;->setTransformationMethod(Landroid/text/method/TransformationMethod;)V
 
-    .line 24
     invoke-virtual {p0}, Landroid/widget/Button;->getContext()Landroid/content/Context;
 
     move-result-object p1
@@ -291,7 +264,6 @@
 
     const/16 p1, 0x13
 
-    .line 25
     invoke-virtual {p0, p1}, Landroid/widget/Button;->setGravity(I)V
 
     :cond_5
@@ -301,7 +273,6 @@
 .method public final b(Landroid/content/res/Resources;Lcom/google/android/gms/common/internal/SignInButtonConfig;)V
     .locals 1
 
-    .line 1
     invoke-virtual {p2}, Lcom/google/android/gms/common/internal/SignInButtonConfig;->y()I
 
     move-result v0

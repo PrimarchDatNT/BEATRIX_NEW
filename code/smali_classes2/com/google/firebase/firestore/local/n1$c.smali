@@ -26,7 +26,6 @@
 
     const/16 v1, 0x8
 
-    .line 1
     invoke-direct {p0, p1, p2, v0, v1}, Landroid/database/sqlite/SQLiteOpenHelper;-><init>(Landroid/content/Context;Ljava/lang/String;Landroid/database/sqlite/SQLiteDatabase$CursorFactory;I)V
 
     return-void
@@ -35,12 +34,10 @@
 .method private a(Landroid/database/sqlite/SQLiteDatabase;)V
     .locals 1
 
-    .line 1
     iget-boolean v0, p0, Lcom/google/firebase/firestore/local/n1$c;->a:Z
 
     if-nez v0, :cond_0
 
-    .line 2
     invoke-virtual {p0, p1}, Lcom/google/firebase/firestore/local/n1$c;->onConfigure(Landroid/database/sqlite/SQLiteDatabase;)V
 
     :cond_0
@@ -54,7 +51,6 @@
 
     const/4 v0, 0x1
 
-    .line 1
     iput-boolean v0, p0, Lcom/google/firebase/firestore/local/n1$c;->a:Z
 
     const/4 v0, 0x0
@@ -63,12 +59,10 @@
 
     const-string v1, "PRAGMA locking_mode = EXCLUSIVE"
 
-    .line 2
     invoke-virtual {p1, v1, v0}, Landroid/database/sqlite/SQLiteDatabase;->rawQuery(Ljava/lang/String;[Ljava/lang/String;)Landroid/database/Cursor;
 
     move-result-object p1
 
-    .line 3
     invoke-interface {p1}, Landroid/database/Cursor;->close()V
 
     return-void
@@ -77,10 +71,8 @@
 .method public onCreate(Landroid/database/sqlite/SQLiteDatabase;)V
     .locals 1
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/google/firebase/firestore/local/n1$c;->a(Landroid/database/sqlite/SQLiteDatabase;)V
 
-    .line 2
     new-instance v0, Lcom/google/firebase/firestore/local/l2;
 
     invoke-direct {v0, p1}, Lcom/google/firebase/firestore/local/l2;-><init>(Landroid/database/sqlite/SQLiteDatabase;)V
@@ -95,7 +87,6 @@
 .method public onDowngrade(Landroid/database/sqlite/SQLiteDatabase;II)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/google/firebase/firestore/local/n1$c;->a(Landroid/database/sqlite/SQLiteDatabase;)V
 
     return-void
@@ -104,7 +95,6 @@
 .method public onOpen(Landroid/database/sqlite/SQLiteDatabase;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/google/firebase/firestore/local/n1$c;->a(Landroid/database/sqlite/SQLiteDatabase;)V
 
     return-void
@@ -113,10 +103,8 @@
 .method public onUpgrade(Landroid/database/sqlite/SQLiteDatabase;II)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/google/firebase/firestore/local/n1$c;->a(Landroid/database/sqlite/SQLiteDatabase;)V
 
-    .line 2
     new-instance p3, Lcom/google/firebase/firestore/local/l2;
 
     invoke-direct {p3, p1}, Lcom/google/firebase/firestore/local/l2;-><init>(Landroid/database/sqlite/SQLiteDatabase;)V

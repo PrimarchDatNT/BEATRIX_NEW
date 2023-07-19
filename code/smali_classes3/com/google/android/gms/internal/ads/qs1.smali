@@ -18,7 +18,6 @@
 .method constructor <init>(Ljava/lang/Class;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/google/android/gms/internal/ads/ur1;-><init>(Ljava/lang/Class;)V
 
     return-void
@@ -34,17 +33,14 @@
         }
     .end annotation
 
-    .line 1
     check-cast p1, Lcom/google/android/gms/internal/ads/uu1;
 
-    .line 2
     new-instance v0, Lcom/google/android/gms/internal/ads/py1;
 
     new-instance v1, Lcom/google/android/gms/internal/ads/ss1;
 
     invoke-direct {v1}, Lcom/google/android/gms/internal/ads/ss1;-><init>()V
 
-    .line 3
     invoke-virtual {p1}, Lcom/google/android/gms/internal/ads/uu1;->G()Lcom/google/android/gms/internal/ads/yu1;
 
     move-result-object v2
@@ -61,7 +57,6 @@
 
     invoke-direct {v2}, Lcom/google/android/gms/internal/ads/hu1;-><init>()V
 
-    .line 4
     invoke-virtual {p1}, Lcom/google/android/gms/internal/ads/uu1;->H()Lcom/google/android/gms/internal/ads/iw1;
 
     move-result-object v3
@@ -74,7 +69,6 @@
 
     check-cast v2, Lcom/google/android/gms/internal/ads/yr1;
 
-    .line 5
     invoke-virtual {p1}, Lcom/google/android/gms/internal/ads/uu1;->H()Lcom/google/android/gms/internal/ads/iw1;
 
     move-result-object p1

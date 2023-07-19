@@ -704,7 +704,6 @@
 
     int-to-short v3, v3
 
-    .line 1
     :try_start_0
     sget-object v4, Lcom/appsflyer/internal/c;->AFExecutor:[B
 
@@ -724,7 +723,6 @@
 
     move-result-object v3
 
-    .line 2
     sget-object v6, Lcom/appsflyer/internal/c;->post:Ljava/lang/Object;
 
     const/4 v7, 0x0
@@ -773,7 +771,6 @@
 
     const/4 v13, 0x0
 
-    .line 3
     :try_start_1
     aget-byte v14, v4, v10
 
@@ -789,7 +786,6 @@
 
     move-result-object v8
 
-    .line 4
     invoke-static {v8}, Ljava/lang/Class;->forName(Ljava/lang/String;)Ljava/lang/Class;
 
     move-result-object v8
@@ -814,12 +810,10 @@
 
     new-array v14, v13, [Ljava/lang/Class;
 
-    .line 5
     invoke-virtual {v8, v4, v14}, Ljava/lang/Class;->getMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
 
     move-result-object v4
 
-    .line 6
     invoke-virtual {v4, v7, v7}, Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v4
@@ -838,7 +832,6 @@
 
     int-to-short v8, v8
 
-    .line 7
     :try_start_2
     sget-object v14, Lcom/appsflyer/internal/c;->AFExecutor:[B
 
@@ -854,7 +847,6 @@
 
     move-result-object v5
 
-    .line 8
     invoke-static {v5}, Ljava/lang/Class;->forName(Ljava/lang/String;)Ljava/lang/Class;
 
     move-result-object v5
@@ -877,12 +869,10 @@
 
     new-array v14, v13, [Ljava/lang/Class;
 
-    .line 9
     invoke-virtual {v5, v8, v14}, Ljava/lang/Class;->getMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
 
     move-result-object v5
 
-    .line 10
     invoke-virtual {v5, v7, v7}, Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v4
@@ -911,7 +901,6 @@
 
     if-eq v5, v8, :cond_3
 
-    .line 11
     sget v5, Lcom/appsflyer/internal/c;->onAppLinkFetchFinished:I
 
     and-int/lit8 v8, v5, 0x1d
@@ -926,7 +915,6 @@
 
     rem-int/2addr v8, v14
 
-    .line 12
     :try_start_3
     invoke-virtual {v4}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
@@ -952,12 +940,10 @@
 
     move-result-object v8
 
-    .line 13
     invoke-virtual {v5, v8, v7}, Ljava/lang/Class;->getMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
 
     move-result-object v5
 
-    .line 14
     invoke-virtual {v5, v4, v7}, Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v5
@@ -975,7 +961,6 @@
 
     if-eqz v4, :cond_4
 
-    .line 15
     sget v12, Lcom/appsflyer/internal/c;->AFFacebookDeferredDeeplink$AppLinkFetchEvents:I
 
     xor-int/lit8 v15, v12, 0x67
@@ -992,7 +977,6 @@
 
     rem-int/2addr v15, v14
 
-    .line 16
     :try_start_4
     invoke-virtual {v4}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
@@ -1018,12 +1002,10 @@
 
     move-result-object v9
 
-    .line 17
     invoke-virtual {v12, v9, v7}, Ljava/lang/Class;->getMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
 
     move-result-object v9
 
-    .line 18
     invoke-virtual {v9, v4, v7}, Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v9
@@ -1055,7 +1037,6 @@
 
     goto :goto_6
 
-    .line 19
     :cond_6
     :try_start_5
     invoke-virtual {v4}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
@@ -1082,19 +1063,16 @@
 
     move-result-object v11
 
-    .line 20
     invoke-virtual {v12, v11, v7}, Ljava/lang/Class;->getMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
 
     move-result-object v11
 
-    .line 21
     invoke-virtual {v11, v4, v7}, Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v4
     :try_end_5
     .catch Ljava/lang/Exception; {:try_start_5 .. :try_end_5} :catch_4
 
-    .line 22
     :goto_6
     sget v11, Lcom/appsflyer/internal/c;->onAppLinkFetchFinished:I
 
@@ -1120,7 +1098,6 @@
 
     if-eqz v5, :cond_7
 
-    .line 23
     sget v6, Lcom/appsflyer/internal/c;->AFFacebookDeferredDeeplink$AppLinkFetchEvents:I
 
     add-int/lit8 v6, v6, 0x62
@@ -1148,7 +1125,6 @@
     :goto_8
     if-eqz v5, :cond_b
 
-    .line 24
     :try_start_6
     new-instance v5, Ljava/lang/StringBuilder;
 
@@ -1186,7 +1162,6 @@
     :try_end_6
     .catch Ljava/lang/Exception; {:try_start_6 .. :try_end_6} :catch_e
 
-    .line 25
     sget v6, Lcom/appsflyer/internal/c;->AFFacebookDeferredDeeplink$AppLinkFetchEvents:I
 
     add-int/lit8 v6, v6, 0x27
@@ -1253,7 +1228,6 @@
 
     int-to-short v5, v5
 
-    .line 26
     aget-byte v7, v13, v11
 
     int-to-byte v7, v7
@@ -1318,7 +1292,6 @@
 
     int-to-short v4, v4
 
-    .line 27
     sget-object v6, Lcom/appsflyer/internal/c;->AFExecutor:[B
 
     aget-byte v7, v6, v11
@@ -1470,7 +1443,6 @@
 
     int-to-short v6, v6
 
-    .line 28
     :try_start_b
     sget-object v7, Lcom/appsflyer/internal/c;->AFExecutor:[B
 
@@ -1580,7 +1552,6 @@
     :try_end_d
     .catch Ljava/lang/Exception; {:try_start_d .. :try_end_d} :catch_e
 
-    .line 29
     :cond_f
     :goto_c
     sget v6, Lcom/appsflyer/internal/c;->onAppLinkFetchFinished:I
@@ -1603,7 +1574,6 @@
 
     int-to-short v6, v6
 
-    .line 30
     :try_start_e
     sget-object v7, Lcom/appsflyer/internal/c;->AFExecutor:[B
 
@@ -1663,7 +1633,6 @@
 
     int-to-short v12, v12
 
-    .line 31
     :try_start_f
     aget-byte v13, v7, v11
 
@@ -1815,7 +1784,6 @@
 
     const/16 v20, 0x53
 
-    .line 32
     :try_start_10
     aget-byte v4, v7, v20
 
@@ -1839,7 +1807,6 @@
 
     const/16 v15, 0x19
 
-    .line 33
     aget-byte v15, v7, v15
 
     int-to-byte v15, v15
@@ -1873,7 +1840,6 @@
 
     goto :goto_d
 
-    .line 34
     :cond_10
     sget v7, Lcom/appsflyer/internal/c;->onAppLinkFetchFinished:I
 
@@ -2017,7 +1983,6 @@
 
     if-ge v4, v11, :cond_7a
 
-    .line 35
     :try_start_13
     aget-boolean v11, v9, v4
     :try_end_13
@@ -2037,7 +2002,6 @@
 
     if-eq v11, v15, :cond_79
 
-    .line 36
     :try_start_14
     aget-boolean v15, v5, v4
 
@@ -2053,7 +2017,6 @@
 
     add-int/lit8 v14, v14, 0x23
 
-    .line 37
     rem-int/lit16 v8, v14, 0x80
 
     sput v8, Lcom/appsflyer/internal/c;->AFFacebookDeferredDeeplink$AppLinkFetchEvents:I
@@ -2090,7 +2053,6 @@
     :cond_19
     if-eqz v11, :cond_1b
 
-    .line 38
     :goto_18
     :try_start_16
     sget-object v8, Lcom/appsflyer/internal/c;->AFExecutor:[B
@@ -2215,7 +2177,6 @@
 
     move-object/from16 v32, v5
 
-    .line 39
     :cond_1c
     new-instance v3, Ljava/lang/StringBuilder;
 
@@ -2388,7 +2349,6 @@
     :goto_1b
     if-eqz v15, :cond_36
 
-    .line 40
     :try_start_1c
     new-instance v8, Ljava/util/Random;
 
@@ -2396,7 +2356,6 @@
     :try_end_1c
     .catchall {:try_start_1c .. :try_end_1c} :catchall_13
 
-    .line 41
     :try_start_1d
     sget v10, Lcom/appsflyer/internal/c;->addChannel:I
 
@@ -2555,7 +2514,6 @@
 
     const/4 v3, 0x6
 
-    .line 42
     :goto_20
     :try_start_1f
     new-instance v5, Ljava/lang/StringBuilder;
@@ -2575,7 +2533,6 @@
 
     const/16 v7, 0x2e
 
-    .line 43
     invoke-virtual {v5, v7}, Ljava/lang/StringBuilder;->append(C)Ljava/lang/StringBuilder;
 
     const/4 v7, 0x0
@@ -2589,12 +2546,10 @@
 
     const/16 v3, 0x1a
 
-    .line 44
     invoke-virtual {v8, v3}, Ljava/util/Random;->nextInt(I)I
 
     move-result v3
 
-    .line 45
     invoke-virtual {v8}, Ljava/util/Random;->nextBoolean()Z
 
     move-result v39
@@ -2629,7 +2584,6 @@
 
     add-int/lit8 v3, v3, 0x41
 
-    .line 46
     sget v9, Lcom/appsflyer/internal/c;->AFFacebookDeferredDeeplink$AppLinkFetchEvents:I
 
     xor-int/lit8 v13, v9, 0x47
@@ -2664,7 +2618,6 @@
     :goto_23
     int-to-char v3, v3
 
-    .line 47
     :try_start_21
     invoke-virtual {v5, v3}, Ljava/lang/StringBuilder;->append(C)Ljava/lang/StringBuilder;
 
@@ -2679,7 +2632,6 @@
 
     const/16 v3, 0xc
 
-    .line 48
     invoke-virtual {v8, v3}, Ljava/util/Random;->nextInt(I)I
 
     move-result v3
@@ -2698,7 +2650,6 @@
 
     int-to-char v3, v3
 
-    .line 49
     invoke-virtual {v5, v3}, Ljava/lang/StringBuilder;->append(C)Ljava/lang/StringBuilder;
 
     :goto_24
@@ -2731,7 +2682,6 @@
 
     move-object/from16 v40, v13
 
-    .line 50
     invoke-virtual {v5}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     move-result-object v3
@@ -2740,7 +2690,6 @@
 
     if-nez v6, :cond_2a
 
-    .line 51
     sget v5, Lcom/appsflyer/internal/c;->onAppLinkFetchFinished:I
 
     or-int/lit8 v6, v5, 0x19
@@ -2772,7 +2721,6 @@
 
     aput-object v11, v6, v3
 
-    .line 52
     sget-object v3, Lcom/appsflyer/internal/c;->AFExecutor:[B
 
     const/16 v5, 0x9d
@@ -2882,7 +2830,6 @@
 
     if-nez v14, :cond_2d
 
-    .line 53
     sget v5, Lcom/appsflyer/internal/c;->AFFacebookDeferredDeeplink$AppLinkFetchEvents:I
 
     xor-int/lit8 v7, v5, 0x5b
@@ -2914,7 +2861,6 @@
 
     aput-object v11, v7, v3
 
-    .line 54
     sget-object v3, Lcom/appsflyer/internal/c;->AFExecutor:[B
 
     const/16 v5, 0x9d
@@ -3016,7 +2962,6 @@
 
     aput-object v11, v7, v3
 
-    .line 55
     sget-object v3, Lcom/appsflyer/internal/c;->AFExecutor:[B
 
     const/16 v5, 0x9d
@@ -3098,7 +3043,6 @@
 
     const/16 v8, 0x9d
 
-    .line 56
     aget-byte v9, v3, v8
 
     int-to-byte v8, v9
@@ -3251,7 +3195,6 @@
 
     move-object v3, v0
 
-    .line 57
     :try_start_2a
     new-instance v6, Ljava/lang/StringBuilder;
 
@@ -3406,7 +3349,6 @@
 
     move-object v3, v0
 
-    .line 58
     invoke-virtual {v3}, Ljava/lang/Throwable;->getCause()Ljava/lang/Throwable;
 
     move-result-object v5
@@ -3427,7 +3369,6 @@
 
     move-object/from16 v43, v14
 
-    .line 59
     sget v5, Lcom/appsflyer/internal/c;->AFFacebookDeferredDeeplink$AppLinkFetchEvents:I
 
     or-int/lit8 v6, v5, 0x39
@@ -3459,7 +3400,6 @@
 
     aput-object v11, v6, v3
 
-    .line 60
     sget-object v3, Lcom/appsflyer/internal/c;->AFExecutor:[B
 
     const/16 v5, 0x9d
@@ -3612,7 +3552,6 @@
 
     move-object v3, v0
 
-    .line 61
     invoke-virtual {v3}, Ljava/lang/Throwable;->getCause()Ljava/lang/Throwable;
 
     move-result-object v5
@@ -3685,7 +3624,6 @@
     :try_start_2f
     new-array v3, v3, [B
 
-    .line 62
     const-class v5, Lcom/appsflyer/internal/c;
 
     const/16 v6, 0x125
@@ -3710,7 +3648,6 @@
 
     move-result-object v6
 
-    .line 63
     invoke-virtual {v5, v6}, Ljava/lang/Class;->getResourceAsStream(Ljava/lang/String;)Ljava/io/InputStream;
 
     move-result-object v5
@@ -3799,7 +3736,6 @@
 
     const/16 v8, 0x9d
 
-    .line 64
     aget-byte v10, v7, v8
 
     int-to-byte v8, v10
@@ -3852,7 +3788,6 @@
 
     const/16 v8, 0x9d
 
-    .line 65
     :try_start_32
     aget-byte v9, v7, v8
 
@@ -3919,7 +3854,6 @@
 
     add-int/2addr v10, v11
 
-    .line 66
     :try_start_33
     aget-byte v10, v3, v10
 
@@ -3935,7 +3869,6 @@
 
     aput-byte v9, v3, v8
 
-    .line 67
     array-length v8, v3
     :try_end_33
     .catchall {:try_start_33 .. :try_end_33} :catchall_51
@@ -4025,7 +3958,6 @@
     :try_end_34
     .catchall {:try_start_34 .. :try_end_34} :catchall_4c
 
-    .line 68
     :try_start_35
     sget-object v3, Lcom/appsflyer/internal/c;->post:Ljava/lang/Object;
     :try_end_35
@@ -4115,7 +4047,6 @@
 
     const/4 v10, 0x0
 
-    .line 69
     invoke-static {v10}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v19
@@ -4476,7 +4407,6 @@
 
     const/4 v6, 0x0
 
-    .line 70
     invoke-static {v6}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v10
@@ -4700,7 +4630,6 @@
     :try_start_44
     new-array v5, v4, [I
 
-    .line 71
     sget-wide v9, Lcom/appsflyer/internal/c;->key:J
 
     const/16 v4, 0x20
@@ -4737,7 +4666,6 @@
 
     aput v4, v5, v6
 
-    .line 72
     new-instance v4, Lcom/appsflyer/internal/ai;
 
     sget v48, Lcom/appsflyer/internal/c;->isEncrypt:I
@@ -4766,7 +4694,6 @@
     :try_start_45
     new-array v7, v4, [Ljava/lang/Object;
 
-    .line 73
     invoke-static {v5, v6}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
 
     move-result-object v4
@@ -4857,7 +4784,6 @@
     :goto_36
     if-eqz v4, :cond_50
 
-    .line 74
     sget v4, Lcom/appsflyer/internal/c;->AFFacebookDeferredDeeplink$AppLinkFetchEvents:I
 
     and-int/lit8 v5, v4, 0x75
@@ -4874,7 +4800,6 @@
 
     rem-int/2addr v5, v4
 
-    .line 75
     :try_start_46
     sget-object v4, Lcom/appsflyer/internal/c;->post:Ljava/lang/Object;
     :try_end_46
@@ -4915,7 +4840,6 @@
 
     const/16 v9, 0x9d
 
-    .line 76
     aget-byte v10, v8, v9
 
     int-to-byte v9, v10
@@ -4982,7 +4906,6 @@
     :goto_39
     if-lez v10, :cond_41
 
-    .line 77
     :try_start_49
     invoke-static {v8, v10}, Ljava/lang/Math;->min(II)I
 
@@ -5125,7 +5048,6 @@
     :try_start_4c
     new-array v11, v8, [Ljava/lang/Object;
 
-    .line 78
     invoke-static {v4}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v8
@@ -5270,7 +5192,6 @@
     :goto_3b
     move-object v3, v0
 
-    .line 79
     invoke-virtual {v3}, Ljava/lang/Throwable;->getCause()Ljava/lang/Throwable;
 
     move-result-object v4
@@ -5310,7 +5231,6 @@
 
     move/from16 v44, v15
 
-    .line 80
     :cond_42
     :try_start_4e
     sget-object v3, Lcom/appsflyer/internal/c;->AFExecutor:[B
@@ -5423,7 +5343,6 @@
 
     const/16 v4, 0x9d
 
-    .line 81
     :try_start_51
     aget-byte v8, v3, v4
 
@@ -5475,7 +5394,6 @@
 
     const/16 v6, 0x275
 
-    .line 82
     :try_start_52
     aget-byte v7, v3, v6
 
@@ -5501,7 +5419,6 @@
 
     const/16 v7, 0x45
 
-    .line 83
     aget-byte v7, v3, v7
 
     int-to-byte v7, v7
@@ -5544,7 +5461,6 @@
 
     const/16 v6, 0x9d
 
-    .line 84
     :try_start_53
     aget-byte v8, v3, v6
 
@@ -5664,7 +5580,6 @@
 
     const/4 v6, 0x0
 
-    .line 85
     invoke-static {v6}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v11
@@ -5673,7 +5588,6 @@
 
     aput-object v11, v7, v6
 
-    .line 86
     invoke-virtual {v4, v9, v7}, Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v4
@@ -5682,7 +5596,6 @@
 
     const/16 v6, 0x9d
 
-    .line 87
     :try_start_58
     aget-byte v7, v3, v6
 
@@ -5738,7 +5651,6 @@
     :try_end_58
     .catchall {:try_start_58 .. :try_end_58} :catchall_21
 
-    .line 88
     sget v5, Lcom/appsflyer/internal/c;->onAppLinkFetchFinished:I
 
     add-int/lit8 v5, v5, 0x26
@@ -5757,7 +5669,6 @@
 
     const/16 v5, 0x9d
 
-    .line 89
     :try_start_59
     aget-byte v6, v3, v5
 
@@ -5809,7 +5720,6 @@
     :try_end_59
     .catchall {:try_start_59 .. :try_end_59} :catchall_20
 
-    .line 90
     sget v5, Lcom/appsflyer/internal/c;->onAppLinkFetchFinished:I
 
     xor-int/lit8 v6, v5, 0x43
@@ -5830,13 +5740,11 @@
 
     rem-int/2addr v6, v5
 
-    .line 91
     :try_start_5a
     sget-object v5, Lcom/appsflyer/internal/c;->params:Ljava/lang/Object;
 
     if-nez v5, :cond_44
 
-    .line 92
     const-class v5, Lcom/appsflyer/internal/c;
     :try_end_5a
     .catchall {:try_start_5a .. :try_end_5a} :catchall_17
@@ -5910,7 +5818,6 @@
 
     move-object v3, v0
 
-    .line 93
     invoke-virtual {v3}, Ljava/lang/Throwable;->getCause()Ljava/lang/Throwable;
 
     move-result-object v4
@@ -5927,7 +5834,6 @@
 
     move-object v3, v0
 
-    .line 94
     invoke-virtual {v3}, Ljava/lang/Throwable;->getCause()Ljava/lang/Throwable;
 
     move-result-object v4
@@ -5954,7 +5860,6 @@
     :goto_3e
     move-object v3, v0
 
-    .line 95
     :try_start_5d
     invoke-virtual {v3}, Ljava/lang/Throwable;->getCause()Ljava/lang/Throwable;
 
@@ -5999,7 +5904,6 @@
 
     move-object v3, v0
 
-    .line 96
     invoke-virtual {v3}, Ljava/lang/Throwable;->getCause()Ljava/lang/Throwable;
 
     move-result-object v4
@@ -6028,7 +5932,6 @@
     :goto_3f
     move-object v3, v0
 
-    .line 97
     invoke-virtual {v3}, Ljava/lang/Throwable;->getCause()Ljava/lang/Throwable;
 
     move-result-object v4
@@ -6080,7 +5983,6 @@
 
     move-object v3, v0
 
-    .line 98
     :try_start_5e
     invoke-virtual {v3}, Ljava/lang/Throwable;->getCause()Ljava/lang/Throwable;
 
@@ -6109,7 +6011,6 @@
 
     move-object v3, v0
 
-    .line 99
     :try_start_5f
     new-instance v4, Ljava/lang/StringBuilder;
 
@@ -6263,7 +6164,6 @@
     :try_end_61
     .catchall {:try_start_61 .. :try_end_61} :catchall_2c
 
-    .line 100
     :goto_41
     :try_start_62
     sget-object v4, Lcom/appsflyer/internal/c;->AFExecutor:[B
@@ -6326,7 +6226,6 @@
 
     const/16 v5, 0x9d
 
-    .line 101
     :try_start_63
     aget-byte v6, v4, v5
     :try_end_63
@@ -6381,7 +6280,6 @@
     :try_end_64
     .catchall {:try_start_64 .. :try_end_64} :catchall_2e
 
-    .line 102
     :try_start_65
     throw v3
 
@@ -6398,7 +6296,6 @@
     :goto_42
     move-object v3, v0
 
-    .line 103
     invoke-virtual {v3}, Ljava/lang/Throwable;->getCause()Ljava/lang/Throwable;
 
     move-result-object v4
@@ -6417,7 +6314,6 @@
 
     move-object v3, v0
 
-    .line 104
     invoke-virtual {v3}, Ljava/lang/Throwable;->getCause()Ljava/lang/Throwable;
 
     move-result-object v4
@@ -6440,7 +6336,6 @@
 
     const/16 v10, 0x32
 
-    .line 105
     :try_start_66
     new-instance v3, Ljava/util/zip/ZipInputStream;
 
@@ -6448,7 +6343,6 @@
 
     invoke-direct {v3, v4}, Ljava/util/zip/ZipInputStream;-><init>(Ljava/io/InputStream;)V
 
-    .line 106
     invoke-virtual {v3}, Ljava/util/zip/ZipInputStream;->getNextEntry()Ljava/util/zip/ZipEntry;
 
     move-result-object v4
@@ -6470,7 +6364,6 @@
 
     const/16 v5, 0x9d
 
-    .line 107
     aget-byte v9, v8, v5
 
     int-to-byte v5, v9
@@ -6579,7 +6472,6 @@
 
     const/4 v11, 0x0
 
-    .line 108
     :goto_43
     sget v13, Lcom/appsflyer/internal/c;->onAppLinkFetchFinished:I
 
@@ -6602,7 +6494,6 @@
 
     aput-object v9, v14, v13
 
-    .line 109
     sget-object v13, Lcom/appsflyer/internal/c;->AFExecutor:[B
 
     const/16 v15, 0x9d
@@ -6690,7 +6581,6 @@
 
     int-to-long v14, v11
 
-    .line 110
     :try_start_6c
     invoke-virtual {v4}, Ljava/util/zip/ZipEntry;->getSize()J
 
@@ -6714,7 +6604,6 @@
 
     goto/16 :goto_48
 
-    .line 111
     :cond_53
     sget v10, Lcom/appsflyer/internal/c;->onAppLinkFetchFinished:I
 
@@ -6761,7 +6650,6 @@
     :try_end_6d
     .catchall {:try_start_6d .. :try_end_6d} :catchall_32
 
-    .line 112
     :try_start_6e
     invoke-static {v6}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -6920,7 +6808,6 @@
 
     const/16 v4, 0x9d
 
-    .line 113
     :try_start_71
     aget-byte v6, v13, v4
 
@@ -6976,7 +6863,6 @@
 
     const/16 v6, 0x9d
 
-    .line 114
     :try_start_72
     aget-byte v9, v13, v6
 
@@ -7046,7 +6932,6 @@
     .catch Ljava/io/IOException; {:try_start_73 .. :try_end_73} :catch_8
     .catchall {:try_start_73 .. :try_end_73} :catchall_33
 
-    .line 115
     :catch_8
     :goto_49
     :try_start_74
@@ -7122,7 +7007,6 @@
     .catch Ljava/io/IOException; {:try_start_75 .. :try_end_75} :catch_9
     .catchall {:try_start_75 .. :try_end_75} :catchall_33
 
-    .line 116
     :catch_9
     :goto_4a
     :try_start_76
@@ -7173,7 +7057,6 @@
 
     const/16 v6, 0x275
 
-    .line 117
     :try_start_78
     aget-byte v8, v7, v6
 
@@ -7203,7 +7086,6 @@
 
     const/16 v9, 0x9d
 
-    .line 118
     aget-byte v10, v7, v9
 
     int-to-byte v9, v10
@@ -7275,7 +7157,6 @@
 
     const/16 v4, 0x9d
 
-    .line 119
     aget-byte v10, v7, v4
 
     int-to-byte v4, v10
@@ -7353,7 +7234,6 @@
 
     const/16 v6, 0x275
 
-    .line 120
     :try_start_7b
     aget-byte v8, v7, v6
 
@@ -7379,7 +7259,6 @@
 
     const/16 v8, 0x71
 
-    .line 121
     aget-byte v8, v7, v8
 
     int-to-byte v8, v8
@@ -7402,22 +7281,18 @@
 
     const/4 v6, 0x1
 
-    .line 122
     invoke-virtual {v5, v6}, Ljava/lang/reflect/Field;->setAccessible(Z)V
 
-    .line 123
     invoke-virtual {v5, v3}, Ljava/lang/reflect/Field;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v6
 
-    .line 124
     invoke-virtual {v6}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
     move-result-object v8
 
     const/16 v9, 0xb
 
-    .line 125
     aget-byte v9, v7, v9
 
     int-to-short v9, v9
@@ -7442,7 +7317,6 @@
 
     const/4 v10, 0x1
 
-    .line 126
     invoke-virtual {v9, v10}, Ljava/lang/reflect/Field;->setAccessible(Z)V
 
     const/16 v10, 0x141
@@ -7451,7 +7325,6 @@
 
     const/16 v11, 0x9
 
-    .line 127
     aget-byte v12, v7, v11
 
     int-to-byte v11, v12
@@ -7472,47 +7345,38 @@
 
     const/4 v8, 0x1
 
-    .line 128
     invoke-virtual {v7, v8}, Ljava/lang/reflect/Field;->setAccessible(Z)V
 
-    .line 129
     invoke-virtual {v9, v6}, Ljava/lang/reflect/Field;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v8
 
-    .line 130
     invoke-virtual {v7, v6}, Ljava/lang/reflect/Field;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v6
 
-    .line 131
     invoke-virtual {v5, v4}, Ljava/lang/reflect/Field;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v5
 
-    .line 132
     new-instance v10, Ljava/util/ArrayList;
 
     check-cast v8, Ljava/util/List;
 
     invoke-direct {v10, v8}, Ljava/util/ArrayList;-><init>(Ljava/util/Collection;)V
 
-    .line 133
     invoke-virtual {v6}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
     move-result-object v8
 
-    .line 134
     invoke-virtual {v8}, Ljava/lang/Class;->getComponentType()Ljava/lang/Class;
 
     move-result-object v8
 
-    .line 135
     invoke-static {v6}, Ljava/lang/reflect/Array;->getLength(Ljava/lang/Object;)I
 
     move-result v11
 
-    .line 136
     invoke-static {v8, v11}, Ljava/lang/reflect/Array;->newInstance(Ljava/lang/Class;I)Ljava/lang/Object;
 
     move-result-object v8
@@ -7525,7 +7389,6 @@
     :goto_4b
     if-ge v12, v11, :cond_58
 
-    .line 137
     :try_start_7c
     invoke-static {v6, v12}, Ljava/lang/reflect/Array;->get(Ljava/lang/Object;I)Ljava/lang/Object;
 
@@ -7555,18 +7418,15 @@
 
     goto/16 :goto_57
 
-    .line 138
     :cond_58
     :try_start_7d
     invoke-virtual {v9, v5, v10}, Ljava/lang/reflect/Field;->set(Ljava/lang/Object;Ljava/lang/Object;)V
 
-    .line 139
     invoke-virtual {v7, v5, v8}, Ljava/lang/reflect/Field;->set(Ljava/lang/Object;Ljava/lang/Object;)V
     :try_end_7d
     .catch Ljava/lang/Exception; {:try_start_7d .. :try_end_7d} :catch_d
     .catchall {:try_start_7d .. :try_end_7d} :catchall_41
 
-    .line 140
     sget v3, Lcom/appsflyer/internal/c;->onAppLinkFetchFinished:I
 
     add-int/lit8 v3, v3, 0x2e
@@ -7583,7 +7443,6 @@
 
     rem-int/2addr v3, v5
 
-    .line 141
     :try_start_7e
     sget-object v3, Lcom/appsflyer/internal/c;->params:Ljava/lang/Object;
     :try_end_7e
@@ -7591,7 +7450,6 @@
 
     if-nez v3, :cond_59
 
-    .line 142
     :try_start_7f
     sput-object v4, Lcom/appsflyer/internal/c;->params:Ljava/lang/Object;
 
@@ -7611,7 +7469,6 @@
 
     if-eq v3, v5, :cond_5b
 
-    .line 143
     sget v3, Lcom/appsflyer/internal/c;->addChannel:I
 
     xor-int/lit16 v5, v3, 0x20a
@@ -7646,7 +7503,6 @@
 
     const/16 v6, 0xf5
 
-    .line 144
     aget-byte v6, v5, v6
 
     neg-int v6, v6
@@ -7688,7 +7544,6 @@
 
     aput-object v53, v5, v8
 
-    .line 145
     invoke-virtual {v3, v4, v5}, Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v3
@@ -7708,7 +7563,6 @@
 
     move-object v3, v0
 
-    .line 146
     :try_start_81
     invoke-virtual {v3}, Ljava/lang/reflect/InvocationTargetException;->getCause()Ljava/lang/Throwable;
 
@@ -7731,7 +7585,6 @@
 
     int-to-short v3, v3
 
-    .line 147
     :try_start_82
     sget-object v5, Lcom/appsflyer/internal/c;->AFExecutor:[B
 
@@ -7757,7 +7610,6 @@
 
     const/16 v7, 0xf5
 
-    .line 148
     aget-byte v7, v5, v7
 
     neg-int v7, v7
@@ -7834,7 +7686,6 @@
 
     aput-object v53, v9, v8
 
-    .line 149
     const-class v8, Lcom/appsflyer/internal/c;
     :try_end_82
     .catchall {:try_start_82 .. :try_end_82} :catchall_41
@@ -7909,7 +7760,6 @@
 
     const/16 v8, 0x1ae
 
-    .line 150
     aget-byte v9, v5, v8
 
     int-to-byte v8, v9
@@ -7932,7 +7782,6 @@
 
     new-array v5, v7, [Ljava/lang/Object;
 
-    .line 151
     invoke-virtual {v3, v4, v5}, Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
     :try_end_85
     .catchall {:try_start_85 .. :try_end_85} :catchall_3b
@@ -7955,7 +7804,6 @@
 
     if-eq v5, v6, :cond_63
 
-    .line 152
     sget v5, Lcom/appsflyer/internal/c;->onAppLinkFetchFinished:I
 
     or-int/lit8 v7, v5, 0x6b
@@ -7976,7 +7824,6 @@
 
     rem-int/2addr v7, v5
 
-    .line 153
     :try_start_86
     move-object v6, v3
 
@@ -7986,7 +7833,6 @@
 
     int-to-short v3, v3
 
-    .line 154
     sget-object v5, Lcom/appsflyer/internal/c;->AFExecutor:[B
 
     const/16 v7, 0x1ae
@@ -8009,7 +7855,6 @@
 
     new-array v8, v3, [Ljava/lang/Class;
 
-    .line 155
     const-class v3, Ljava/lang/Object;
 
     const/4 v9, 0x0
@@ -8022,12 +7867,10 @@
 
     aput-object v3, v8, v9
 
-    .line 156
     invoke-virtual {v6, v8}, Ljava/lang/Class;->getDeclaredConstructor([Ljava/lang/Class;)Ljava/lang/reflect/Constructor;
 
     move-result-object v3
 
-    .line 157
     invoke-virtual {v3, v9}, Ljava/lang/reflect/Constructor;->setAccessible(Z)V
 
     const/4 v8, 0x2
@@ -8047,7 +7890,6 @@
     :cond_5f
     const/4 v4, 0x0
 
-    .line 158
     :goto_53
     invoke-static {v4}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
 
@@ -8067,7 +7909,6 @@
 
     new-array v4, v4, [B
 
-    .line 159
     const-class v8, Lcom/appsflyer/internal/c;
 
     const/16 v9, 0x1fc
@@ -8090,7 +7931,6 @@
 
     move-result-object v9
 
-    .line 160
     invoke-virtual {v8, v9}, Ljava/lang/Class;->getResourceAsStream(Ljava/lang/String;)Ljava/io/InputStream;
 
     move-result-object v8
@@ -8170,7 +8010,6 @@
     :try_end_87
     .catchall {:try_start_87 .. :try_end_87} :catchall_3a
 
-    .line 161
     sget v9, Lcom/appsflyer/internal/c;->AFFacebookDeferredDeeplink$AppLinkFetchEvents:I
 
     xor-int/lit8 v10, v9, 0x2d
@@ -8200,7 +8039,6 @@
 
     const/16 v10, 0x9d
 
-    .line 162
     aget-byte v11, v5, v10
 
     int-to-byte v10, v11
@@ -8253,7 +8091,6 @@
 
     const/16 v9, 0x9d
 
-    .line 163
     :try_start_89
     aget-byte v10, v5, v9
 
@@ -8300,7 +8137,6 @@
     :try_end_8a
     .catchall {:try_start_8a .. :try_end_8a} :catchall_37
 
-    .line 164
     :try_start_8b
     invoke-static/range {v28 .. v28}, Ljava/lang/Math;->abs(I)I
 
@@ -8331,7 +8167,6 @@
     :goto_54
     move-object v3, v0
 
-    .line 165
     invoke-virtual {v3}, Ljava/lang/Throwable;->getCause()Ljava/lang/Throwable;
 
     move-result-object v4
@@ -8350,7 +8185,6 @@
 
     move-object v3, v0
 
-    .line 166
     invoke-virtual {v3}, Ljava/lang/Throwable;->getCause()Ljava/lang/Throwable;
 
     move-result-object v4
@@ -8369,7 +8203,6 @@
 
     move-object v3, v0
 
-    .line 167
     invoke-virtual {v3}, Ljava/lang/Throwable;->getCause()Ljava/lang/Throwable;
 
     move-result-object v4
@@ -8395,7 +8228,6 @@
 
     new-array v5, v3, [Ljava/lang/Class;
 
-    .line 168
     const-class v3, Ljava/lang/Object;
 
     const/4 v6, 0x0
@@ -8410,12 +8242,10 @@
 
     move-object/from16 v3, v52
 
-    .line 169
     invoke-virtual {v3, v5}, Ljava/lang/Class;->getDeclaredConstructor([Ljava/lang/Class;)Ljava/lang/reflect/Constructor;
 
     move-result-object v3
 
-    .line 170
     invoke-virtual {v3, v6}, Ljava/lang/reflect/Constructor;->setAccessible(Z)V
 
     const/4 v5, 0x2
@@ -8435,7 +8265,6 @@
     :cond_64
     const/4 v4, 0x0
 
-    .line 171
     :goto_55
     invoke-static {v4}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
 
@@ -8482,7 +8311,6 @@
     :goto_56
     move-object v3, v0
 
-    .line 172
     invoke-virtual {v3}, Ljava/lang/Throwable;->getCause()Ljava/lang/Throwable;
 
     move-result-object v4
@@ -8503,7 +8331,6 @@
 
     move-object v4, v0
 
-    .line 173
     :goto_57
     new-instance v5, Ljava/lang/StringBuilder;
 
@@ -8656,7 +8483,6 @@
 
     move-object v3, v0
 
-    .line 174
     invoke-virtual {v3}, Ljava/lang/Throwable;->getCause()Ljava/lang/Throwable;
 
     move-result-object v4
@@ -8677,7 +8503,6 @@
 
     move-object v3, v0
 
-    .line 175
     invoke-virtual {v3}, Ljava/lang/Throwable;->getCause()Ljava/lang/Throwable;
 
     move-result-object v4
@@ -8705,7 +8530,6 @@
 
     move-object v3, v0
 
-    .line 176
     invoke-virtual {v3}, Ljava/lang/Throwable;->getCause()Ljava/lang/Throwable;
 
     move-result-object v4
@@ -8736,7 +8560,6 @@
 
     move-object v3, v0
 
-    .line 177
     invoke-virtual {v3}, Ljava/lang/Throwable;->getCause()Ljava/lang/Throwable;
 
     move-result-object v4
@@ -8761,7 +8584,6 @@
 
     move-object v3, v0
 
-    .line 178
     invoke-virtual {v3}, Ljava/lang/Throwable;->getCause()Ljava/lang/Throwable;
 
     move-result-object v4
@@ -8810,7 +8632,6 @@
 
     move-object v3, v0
 
-    .line 179
     invoke-virtual {v3}, Ljava/lang/Throwable;->getCause()Ljava/lang/Throwable;
 
     move-result-object v4
@@ -8835,7 +8656,6 @@
 
     move-object v3, v0
 
-    .line 180
     invoke-virtual {v3}, Ljava/lang/Throwable;->getCause()Ljava/lang/Throwable;
 
     move-result-object v4
@@ -8901,7 +8721,6 @@
 
     move-object v3, v0
 
-    .line 181
     invoke-virtual {v3}, Ljava/lang/Throwable;->getCause()Ljava/lang/Throwable;
 
     move-result-object v4
@@ -8933,7 +8752,6 @@
 
     move-object v3, v0
 
-    .line 182
     invoke-virtual {v3}, Ljava/lang/Throwable;->getCause()Ljava/lang/Throwable;
 
     move-result-object v4
@@ -8960,7 +8778,6 @@
 
     move-object v3, v0
 
-    .line 183
     invoke-virtual {v3}, Ljava/lang/Throwable;->getCause()Ljava/lang/Throwable;
 
     move-result-object v4
@@ -8987,7 +8804,6 @@
 
     move-object v3, v0
 
-    .line 184
     invoke-virtual {v3}, Ljava/lang/Throwable;->getCause()Ljava/lang/Throwable;
 
     move-result-object v4
@@ -9053,7 +8869,6 @@
 
     if-ge v4, v5, :cond_75
 
-    .line 185
     :try_start_8e
     aget-boolean v6, v39, v4
     :try_end_8e
@@ -9061,7 +8876,6 @@
 
     if-eqz v6, :cond_74
 
-    .line 186
     sget v4, Lcom/appsflyer/internal/c;->onAppLinkFetchFinished:I
 
     xor-int/lit8 v6, v4, 0xb
@@ -9105,7 +8919,6 @@
     :goto_60
     if-nez v4, :cond_78
 
-    .line 187
     sget v1, Lcom/appsflyer/internal/c;->onAppLinkFetchFinished:I
 
     or-int/lit8 v4, v1, 0x57
@@ -9132,7 +8945,6 @@
 
     int-to-short v1, v1
 
-    .line 188
     :try_start_8f
     sget-object v4, Lcom/appsflyer/internal/c;->AFExecutor:[B
 
@@ -9267,10 +9079,8 @@
 
     const/4 v7, 0x0
 
-    .line 189
     sput-object v7, Lcom/appsflyer/internal/c;->post:Ljava/lang/Object;
 
-    .line 190
     sput-object v7, Lcom/appsflyer/internal/c;->params:Ljava/lang/Object;
 
     goto :goto_62
@@ -9355,7 +9165,6 @@
 
     move-object v1, v0
 
-    .line 191
     invoke-virtual {v1}, Ljava/lang/Throwable;->getCause()Ljava/lang/Throwable;
 
     move-result-object v2
@@ -9372,7 +9181,6 @@
 
     move-object v1, v0
 
-    .line 192
     invoke-virtual {v1}, Ljava/lang/Throwable;->getCause()Ljava/lang/Throwable;
 
     move-result-object v2
@@ -9407,7 +9215,6 @@
 
     move-object v1, v0
 
-    .line 193
     new-instance v2, Ljava/lang/RuntimeException;
 
     invoke-direct {v2, v1}, Ljava/lang/RuntimeException;-><init>(Ljava/lang/Throwable;)V
@@ -9418,7 +9225,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void

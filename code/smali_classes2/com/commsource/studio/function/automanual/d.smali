@@ -30,7 +30,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     iput-object p1, p0, Lcom/commsource/studio/function/automanual/d;->b:Lcom/commsource/studio/processor/BaseEffectProcessor;
@@ -57,7 +56,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/studio/function/automanual/d;->a:Lcom/commsource/studio/function/automanual/AutoManualStackLogic;
 
     if-nez v0, :cond_0
@@ -75,7 +73,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/studio/function/automanual/d;->b:Lcom/commsource/studio/processor/BaseEffectProcessor;
 
     return-object v0
@@ -92,7 +89,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/studio/function/automanual/d;->b:Lcom/commsource/studio/processor/BaseEffectProcessor;
 
     invoke-virtual {v0}, Lcom/commsource/studio/processor/BaseEffectProcessor;->n()Lcom/commsource/easyeditor/utils/opengl/f;
@@ -122,7 +118,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/function/automanual/d;->a:Lcom/commsource/studio/function/automanual/AutoManualStackLogic;
 
     return-void
@@ -139,7 +134,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/function/automanual/d;->b:Lcom/commsource/studio/processor/BaseEffectProcessor;
 
     return-void

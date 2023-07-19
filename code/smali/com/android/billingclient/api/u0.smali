@@ -16,7 +16,6 @@
 .method constructor <init>(Lcom/android/billingclient/api/e;Ljava/util/concurrent/Future;Ljava/lang/Runnable;)V
     .locals 0
 
-    .line 1
     iput-object p2, p0, Lcom/android/billingclient/api/u0;->a:Ljava/util/concurrent/Future;
 
     iput-object p3, p0, Lcom/android/billingclient/api/u0;->b:Ljava/lang/Runnable;
@@ -31,7 +30,6 @@
 .method public final run()V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/android/billingclient/api/u0;->a:Ljava/util/concurrent/Future;
 
     invoke-interface {v0}, Ljava/util/concurrent/Future;->isDone()Z
@@ -48,7 +46,6 @@
 
     if-nez v0, :cond_0
 
-    .line 2
     iget-object v0, p0, Lcom/android/billingclient/api/u0;->a:Ljava/util/concurrent/Future;
 
     const/4 v1, 0x1
@@ -59,15 +56,12 @@
 
     const-string v1, "Async task is taking too long, cancel it!"
 
-    .line 3
     invoke-static {v0, v1}, Lf/f/b/b/h/e/b;->l(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 4
     iget-object v0, p0, Lcom/android/billingclient/api/u0;->b:Ljava/lang/Runnable;
 
     if-eqz v0, :cond_0
 
-    .line 5
     invoke-interface {v0}, Ljava/lang/Runnable;->run()V
 
     :cond_0

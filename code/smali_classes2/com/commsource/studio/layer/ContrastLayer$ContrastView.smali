@@ -47,26 +47,22 @@
 
     invoke-static {p2, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/layer/ContrastLayer$ContrastView;->d:Lcom/commsource/studio/layer/ContrastLayer;
 
     invoke-direct {p0, p2}, Landroid/view/View;-><init>(Landroid/content/Context;)V
 
-    .line 2
     new-instance p1, Landroid/graphics/Paint;
 
     invoke-direct {p1}, Landroid/graphics/Paint;-><init>()V
 
     iput-object p1, p0, Lcom/commsource/studio/layer/ContrastLayer$ContrastView;->b:Landroid/graphics/Paint;
 
-    .line 3
     new-instance p1, Landroid/graphics/Paint;
 
     invoke-direct {p1}, Landroid/graphics/Paint;-><init>()V
 
     iput-object p1, p0, Lcom/commsource/studio/layer/ContrastLayer$ContrastView;->c:Landroid/graphics/Paint;
 
-    .line 4
     new-instance v0, Lcom/commsource/studio/layer/ContrastLayer$ContrastView$a;
 
     const-string v1, "DECODE-COLOR-PICKER_IMAGE"
@@ -75,7 +71,6 @@
 
     invoke-static {v0}, Lcom/commsource/util/c2;->e(Lcom/commsource/util/u2/a;)V
 
-    .line 5
     new-instance p2, Landroid/graphics/PorterDuffXfermode;
 
     sget-object v0, Landroid/graphics/PorterDuff$Mode;->DST_IN:Landroid/graphics/PorterDuff$Mode;
@@ -94,7 +89,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/studio/layer/ContrastLayer$ContrastView;->a:Landroid/graphics/BitmapShader;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -109,7 +103,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/studio/layer/ContrastLayer$ContrastView;->b:Landroid/graphics/Paint;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -124,7 +117,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/layer/ContrastLayer$ContrastView;->a:Landroid/graphics/BitmapShader;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -218,7 +210,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/layer/ContrastLayer$ContrastView;->d:Lcom/commsource/studio/layer/ContrastLayer;
 
     invoke-virtual {v1}, Lcom/commsource/studio/layer/BaseLayer;->r()Lcom/commsource/studio/MatrixBox;
@@ -231,7 +222,6 @@
 
     invoke-virtual {p1, v1}, Landroid/graphics/Canvas;->concat(Landroid/graphics/Matrix;)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/layer/ContrastLayer$ContrastView;->d:Lcom/commsource/studio/layer/ContrastLayer;
 
     invoke-virtual {v1}, Lcom/commsource/studio/layer/BaseLayer;->s()F
@@ -256,15 +246,12 @@
 
     move-result v1
 
-    .line 3
     iget-object v2, p0, Lcom/commsource/studio/layer/ContrastLayer$ContrastView;->b:Landroid/graphics/Paint;
 
     invoke-virtual {p1, v2}, Landroid/graphics/Canvas;->drawPaint(Landroid/graphics/Paint;)V
 
-    .line 4
     invoke-virtual {p1, v1}, Landroid/graphics/Canvas;->restoreToCount(I)V
 
-    .line 5
     iget-object v1, p0, Lcom/commsource/studio/layer/ContrastLayer$ContrastView;->d:Lcom/commsource/studio/layer/ContrastLayer;
 
     invoke-virtual {v1}, Lcom/commsource/studio/layer/BaseLayer;->s()F
@@ -283,7 +270,6 @@
 
     move-result v1
 
-    .line 6
     iget-object v2, p0, Lcom/commsource/studio/layer/ContrastLayer$ContrastView;->d:Lcom/commsource/studio/layer/ContrastLayer;
 
     invoke-static {v2}, Lcom/commsource/studio/layer/ContrastLayer;->r0(Lcom/commsource/studio/layer/ContrastLayer;)Landroid/graphics/Bitmap;
@@ -296,10 +282,8 @@
 
     const/4 v4, 0x0
 
-    .line 7
     invoke-virtual {p1, v2, v4, v4, v3}, Landroid/graphics/Canvas;->drawBitmap(Landroid/graphics/Bitmap;FFLandroid/graphics/Paint;)V
 
-    .line 8
     :cond_0
     iget-object v2, p0, Lcom/commsource/studio/layer/ContrastLayer$ContrastView;->d:Lcom/commsource/studio/layer/ContrastLayer;
 
@@ -309,12 +293,10 @@
 
     if-eqz v2, :cond_3
 
-    .line 9
     invoke-static {v2}, Lcom/meitu/library/p/e/a;->a(Landroid/graphics/Bitmap;)[I
 
     move-result-object v4
 
-    .line 10
     array-length v5, v4
 
     const/4 v6, 0x0
@@ -345,7 +327,6 @@
     :goto_1
     if-eqz v6, :cond_3
 
-    .line 11
     iget-object v4, p0, Lcom/commsource/studio/layer/ContrastLayer$ContrastView;->d:Lcom/commsource/studio/layer/ContrastLayer;
 
     invoke-static {v4}, Lcom/commsource/studio/layer/ContrastLayer;->p0(Lcom/commsource/studio/layer/ContrastLayer;)Landroid/graphics/Rect;
@@ -356,11 +337,9 @@
 
     invoke-virtual {p1, v2, v3, v4, v5}, Landroid/graphics/Canvas;->drawBitmap(Landroid/graphics/Bitmap;Landroid/graphics/Rect;Landroid/graphics/Rect;Landroid/graphics/Paint;)V
 
-    .line 12
     :cond_3
     invoke-virtual {p1, v1}, Landroid/graphics/Canvas;->restoreToCount(I)V
 
-    .line 13
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

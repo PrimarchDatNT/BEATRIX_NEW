@@ -18,7 +18,6 @@
 .method constructor <init>(Ljava/lang/String;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/commsource/util/u2/a;-><init>(Ljava/lang/String;)V
 
     return-void
@@ -33,12 +32,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     const-class v1, Lcom/commsource/util/CopyAssetToSdManager;
 
     monitor-enter v1
 
-    .line 2
     :try_start_0
     invoke-static {}, Lcom/commsource/util/CopyAssetToSdManager$CopyATSEnum;->values()[Lcom/commsource/util/CopyAssetToSdManager$CopyATSEnum;
 
@@ -53,7 +50,6 @@
 
     aget-object v5, v2, v4
 
-    .line 3
     invoke-static {v5}, Lcom/commsource/util/CopyAssetToSdManager;->a(Lcom/commsource/util/CopyAssetToSdManager$CopyATSEnum;)Z
 
     move-result v6
@@ -62,7 +58,6 @@
 
     const-string v6, "CopyAssetToSdManager"
 
-    .line 4
     new-instance v7, Ljava/lang/StringBuilder;
 
     invoke-direct {v7}, Ljava/lang/StringBuilder;-><init>()V
@@ -89,12 +84,10 @@
 
     const/4 v6, 0x2
 
-    .line 5
     invoke-virtual {v5, v6}, Lcom/commsource/util/CopyAssetToSdManager$CopyATSEnum;->setCopyState(I)V
 
     goto :goto_1
 
-    .line 6
     :cond_0
     invoke-static {v5}, Lcom/commsource/util/CopyAssetToSdManager;->b(Lcom/commsource/util/CopyAssetToSdManager$CopyATSEnum;)V
 
@@ -103,13 +96,11 @@
 
     goto :goto_0
 
-    .line 7
     :cond_1
     monitor-exit v1
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -117,7 +108,6 @@
     :catchall_0
     move-exception v2
 
-    .line 9
     :try_start_1
     monitor-exit v1
     :try_end_1

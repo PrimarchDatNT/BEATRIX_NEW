@@ -25,7 +25,6 @@
 .method constructor <init>(Lcom/meitu/core/openglView/MTRenderer;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/core/openglView/MTRenderer$2;->this$0:Lcom/meitu/core/openglView/MTRenderer;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -42,7 +41,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/core/openglView/MTRenderer$2;->this$0:Lcom/meitu/core/openglView/MTRenderer;
 
     invoke-static {v1}, Lcom/meitu/core/openglView/MTRenderer;->access$400(Lcom/meitu/core/openglView/MTRenderer;)Lcom/meitu/core/openglView/MTOpenGL;
@@ -57,7 +55,6 @@
 
     invoke-virtual {v1, v2}, Lcom/meitu/core/openglView/MTOpenGL;->drawToScreen(I)V
 
-    .line 2
     iget-object v1, p0, Lcom/meitu/core/openglView/MTRenderer$2;->this$0:Lcom/meitu/core/openglView/MTRenderer;
 
     invoke-static {v1}, Lcom/meitu/core/openglView/MTRenderer;->access$400(Lcom/meitu/core/openglView/MTRenderer;)Lcom/meitu/core/openglView/MTOpenGL;
@@ -78,7 +75,6 @@
 
     invoke-virtual {v1, v2, v3}, Lcom/meitu/core/openglView/MTOpenGL;->copyTexture(II)Z
 
-    .line 3
     iget-object v1, p0, Lcom/meitu/core/openglView/MTRenderer$2;->this$0:Lcom/meitu/core/openglView/MTRenderer;
 
     invoke-static {v1}, Lcom/meitu/core/openglView/MTRenderer;->access$400(Lcom/meitu/core/openglView/MTRenderer;)Lcom/meitu/core/openglView/MTOpenGL;
@@ -99,7 +95,6 @@
 
     invoke-virtual {v1, v2, v3}, Lcom/meitu/core/openglView/MTOpenGL;->copyTexture(II)Z
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

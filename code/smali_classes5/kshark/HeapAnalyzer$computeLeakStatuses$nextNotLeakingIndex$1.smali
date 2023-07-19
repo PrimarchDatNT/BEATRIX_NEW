@@ -52,7 +52,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 2
     iget-object v0, p0, Lkshark/HeapAnalyzer$computeLeakStatuses$nextNotLeakingIndex$1;->$lastNotLeakingElementIndex:Lcotlin/jvm/internal/Ref$IntRef;
 
     iget v0, v0, Lcotlin/jvm/internal/Ref$IntRef;->element:I
@@ -77,7 +76,6 @@
 .method public bridge synthetic invoke(Ljava/lang/Object;)Ljava/lang/Object;
     .locals 0
 
-    .line 1
     check-cast p1, Ljava/lang/Number;
 
     invoke-virtual {p1}, Ljava/lang/Number;->intValue()I

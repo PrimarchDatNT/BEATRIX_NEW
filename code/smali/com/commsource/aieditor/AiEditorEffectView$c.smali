@@ -25,7 +25,6 @@
 .method constructor <init>(Lcom/commsource/aieditor/AiEditorEffectView;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/aieditor/AiEditorEffectView$c;->a:Lcom/commsource/aieditor/AiEditorEffectView;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -42,7 +41,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/aieditor/AiEditorEffectView$c;->a:Lcom/commsource/aieditor/AiEditorEffectView;
 
     invoke-static {v1}, Lcom/commsource/aieditor/AiEditorEffectView;->i(Lcom/commsource/aieditor/AiEditorEffectView;)Z
@@ -51,12 +49,10 @@
 
     if-nez v1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 3
     :cond_0
     iget-object v1, p0, Lcom/commsource/aieditor/AiEditorEffectView$c;->a:Lcom/commsource/aieditor/AiEditorEffectView;
 
@@ -72,7 +68,6 @@
 
     invoke-static {v1, v2}, Lcom/commsource/aieditor/AiEditorEffectView;->k(Lcom/commsource/aieditor/AiEditorEffectView;Landroid/animation/ValueAnimator;)Landroid/animation/ValueAnimator;
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/aieditor/AiEditorEffectView$c;->a:Lcom/commsource/aieditor/AiEditorEffectView;
 
     invoke-static {v1}, Lcom/commsource/aieditor/AiEditorEffectView;->j(Lcom/commsource/aieditor/AiEditorEffectView;)Landroid/animation/ValueAnimator;
@@ -85,7 +80,6 @@
 
     invoke-virtual {v1, v2}, Landroid/animation/ValueAnimator;->addUpdateListener(Landroid/animation/ValueAnimator$AnimatorUpdateListener;)V
 
-    .line 5
     iget-object v1, p0, Lcom/commsource/aieditor/AiEditorEffectView$c;->a:Lcom/commsource/aieditor/AiEditorEffectView;
 
     invoke-static {v1}, Lcom/commsource/aieditor/AiEditorEffectView;->j(Lcom/commsource/aieditor/AiEditorEffectView;)Landroid/animation/ValueAnimator;
@@ -96,7 +90,6 @@
 
     invoke-virtual {v1, v2, v3}, Landroid/animation/ValueAnimator;->setDuration(J)Landroid/animation/ValueAnimator;
 
-    .line 6
     iget-object v1, p0, Lcom/commsource/aieditor/AiEditorEffectView$c;->a:Lcom/commsource/aieditor/AiEditorEffectView;
 
     invoke-static {v1}, Lcom/commsource/aieditor/AiEditorEffectView;->j(Lcom/commsource/aieditor/AiEditorEffectView;)Landroid/animation/ValueAnimator;
@@ -105,7 +98,6 @@
 
     invoke-virtual {v1}, Landroid/animation/ValueAnimator;->start()V
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

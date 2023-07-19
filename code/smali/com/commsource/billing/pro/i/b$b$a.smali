@@ -50,7 +50,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/billing/pro/i/b$b$a;->b:Lcotlin/jvm/internal/Ref$IntRef;
 
     iget v1, v0, Lcotlin/jvm/internal/Ref$IntRef;->element:I
@@ -59,12 +58,10 @@
 
     iput v1, v0, Lcotlin/jvm/internal/Ref$IntRef;->element:I
 
-    .line 2
     iget v0, p0, Lcom/commsource/billing/pro/i/b$b$a;->c:I
 
     if-ne v0, v1, :cond_0
 
-    .line 3
     iget-object v0, p0, Lcom/commsource/billing/pro/i/b$b$a;->a:Lcom/commsource/billing/pro/i/b$b;
 
     iget-object v0, v0, Lcom/commsource/billing/pro/i/b$b;->a:Lf/k/h/a/l/y/c;
@@ -73,7 +70,6 @@
 
     invoke-interface {v0, v1}, Lf/k/h/a/l/y/c;->a(I)V
 
-    .line 4
     :cond_0
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

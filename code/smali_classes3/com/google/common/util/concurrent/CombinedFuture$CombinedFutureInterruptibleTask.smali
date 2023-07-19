@@ -36,17 +36,14 @@
 .method constructor <init>(Lcom/google/common/util/concurrent/CombinedFuture;Ljava/util/concurrent/Executor;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/common/util/concurrent/CombinedFuture$CombinedFutureInterruptibleTask;->this$0:Lcom/google/common/util/concurrent/CombinedFuture;
 
     invoke-direct {p0}, Lcom/google/common/util/concurrent/InterruptibleTask;-><init>()V
 
     const/4 p1, 0x1
 
-    .line 2
     iput-boolean p1, p0, Lcom/google/common/util/concurrent/CombinedFuture$CombinedFutureInterruptibleTask;->thrownByExecute:Z
 
-    .line 3
     invoke-static {p2}, Lcom/google/common/base/t;->E(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -70,7 +67,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/util/concurrent/CombinedFuture$CombinedFutureInterruptibleTask;->this$0:Lcom/google/common/util/concurrent/CombinedFuture;
 
     const/4 v1, 0x0
@@ -79,12 +75,10 @@
 
     if-eqz p2, :cond_2
 
-    .line 2
     instance-of p1, p2, Ljava/util/concurrent/ExecutionException;
 
     if-eqz p1, :cond_0
 
-    .line 3
     iget-object p1, p0, Lcom/google/common/util/concurrent/CombinedFuture$CombinedFutureInterruptibleTask;->this$0:Lcom/google/common/util/concurrent/CombinedFuture;
 
     invoke-virtual {p2}, Ljava/lang/Throwable;->getCause()Ljava/lang/Throwable;
@@ -95,13 +89,11 @@
 
     goto :goto_0
 
-    .line 4
     :cond_0
     instance-of p1, p2, Ljava/util/concurrent/CancellationException;
 
     if-eqz p1, :cond_1
 
-    .line 5
     iget-object p1, p0, Lcom/google/common/util/concurrent/CombinedFuture$CombinedFutureInterruptibleTask;->this$0:Lcom/google/common/util/concurrent/CombinedFuture;
 
     const/4 p2, 0x0
@@ -110,7 +102,6 @@
 
     goto :goto_0
 
-    .line 6
     :cond_1
     iget-object p1, p0, Lcom/google/common/util/concurrent/CombinedFuture$CombinedFutureInterruptibleTask;->this$0:Lcom/google/common/util/concurrent/CombinedFuture;
 
@@ -118,7 +109,6 @@
 
     goto :goto_0
 
-    .line 7
     :cond_2
     invoke-virtual {p0, p1}, Lcom/google/common/util/concurrent/CombinedFuture$CombinedFutureInterruptibleTask;->setValue(Ljava/lang/Object;)V
 
@@ -129,7 +119,6 @@
 .method final execute()V
     .locals 2
 
-    .line 1
     :try_start_0
     iget-object v0, p0, Lcom/google/common/util/concurrent/CombinedFuture$CombinedFutureInterruptibleTask;->listenerExecutor:Ljava/util/concurrent/Executor;
 
@@ -142,12 +131,10 @@
     :catch_0
     move-exception v0
 
-    .line 2
     iget-boolean v1, p0, Lcom/google/common/util/concurrent/CombinedFuture$CombinedFutureInterruptibleTask;->thrownByExecute:Z
 
     if-eqz v1, :cond_0
 
-    .line 3
     iget-object v1, p0, Lcom/google/common/util/concurrent/CombinedFuture$CombinedFutureInterruptibleTask;->this$0:Lcom/google/common/util/concurrent/CombinedFuture;
 
     invoke-virtual {v1, v0}, Lcom/google/common/util/concurrent/AbstractFuture;->D(Ljava/lang/Throwable;)Z
@@ -160,7 +147,6 @@
 .method final isDone()Z
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/util/concurrent/CombinedFuture$CombinedFutureInterruptibleTask;->this$0:Lcom/google/common/util/concurrent/CombinedFuture;
 
     invoke-virtual {v0}, Lcom/google/common/util/concurrent/AbstractFuture$i;->isDone()Z

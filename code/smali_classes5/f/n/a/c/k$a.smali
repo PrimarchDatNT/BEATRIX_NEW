@@ -29,7 +29,6 @@
 .method constructor <init>(Lf/n/a/c/h;Ljava/lang/String;Lcom/qiniu/android/http/g;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lf/n/a/c/k$a;->a:Lf/n/a/c/h;
 
     iput-object p2, p0, Lf/n/a/c/k$a;->b:Ljava/lang/String;
@@ -46,7 +45,6 @@
 .method public run()V
     .locals 4
 
-    .line 1
     iget-object v0, p0, Lf/n/a/c/k$a;->a:Lf/n/a/c/h;
 
     iget-object v1, p0, Lf/n/a/c/k$a;->b:Ljava/lang/String;

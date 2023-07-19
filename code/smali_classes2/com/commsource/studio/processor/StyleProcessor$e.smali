@@ -71,26 +71,22 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/processor/StyleProcessor$e;->m:Lcom/commsource/studio/processor/StyleProcessor;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     new-instance p1, Lcom/meitu/mtoilpainting/MeituOilPainting;
 
     invoke-direct {p1}, Lcom/meitu/mtoilpainting/MeituOilPainting;-><init>()V
 
     iput-object p1, p0, Lcom/commsource/studio/processor/StyleProcessor$e;->c:Lcom/meitu/mtoilpainting/MeituOilPainting;
 
-    .line 3
     new-instance p1, Ljava/util/ArrayList;
 
     invoke-direct {p1}, Ljava/util/ArrayList;-><init>()V
 
     iput-object p1, p0, Lcom/commsource/studio/processor/StyleProcessor$e;->i:Ljava/util/ArrayList;
 
-    .line 4
     new-instance p1, Ljava/util/ArrayList;
 
     invoke-direct {p1}, Ljava/util/ArrayList;-><init>()V
@@ -107,7 +103,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p1}, Lcom/commsource/studio/bean/f;->f()Ljava/lang/String;
 
     move-result-object p1
@@ -132,7 +127,6 @@
     :pswitch_0
     const-string p2, "1STY00000005"
 
-    .line 2
     invoke-virtual {p1, p2}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p1
@@ -146,7 +140,6 @@
     :pswitch_1
     const-string p2, "1STY00000004"
 
-    .line 3
     invoke-virtual {p1, p2}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p1
@@ -160,7 +153,6 @@
     :pswitch_2
     const-string v1, "1STY00000003"
 
-    .line 4
     invoke-virtual {p1, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p1
@@ -181,7 +173,6 @@
     :pswitch_3
     const-string p2, "1STY00000002"
 
-    .line 5
     invoke-virtual {p1, p2}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p1
@@ -195,7 +186,6 @@
     :pswitch_4
     const-string p2, "1STY00000001"
 
-    .line 6
     invoke-virtual {p1, p2}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p1
@@ -209,7 +199,6 @@
     :cond_2
     const-string p2, "1STY00000017"
 
-    .line 7
     invoke-virtual {p1, p2}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p1
@@ -220,12 +209,10 @@
 
     goto :goto_1
 
-    .line 8
     :cond_3
     :goto_0
     sget-object p1, Lcom/meitu/mtoilpainting/MeituOilPainting$OilPaintType;->CRAYON:Lcom/meitu/mtoilpainting/MeituOilPainting$OilPaintType;
 
-    .line 9
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -256,7 +243,6 @@
 
     const/4 p2, 0x0
 
-    .line 1
     :cond_0
     invoke-direct {p0, p1, p2}, Lcom/commsource/studio/processor/StyleProcessor$e;->a(Lcom/commsource/studio/bean/f;Z)Lcom/meitu/mtoilpainting/MeituOilPainting$OilPaintType;
 
@@ -276,17 +262,14 @@
 
     invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v2, v0, Lcom/commsource/studio/processor/StyleProcessor$e;->a:Z
 
     if-nez v2, :cond_8
 
     const/4 v2, 0x1
 
-    .line 2
     iput-boolean v2, v0, Lcom/commsource/studio/processor/StyleProcessor$e;->a:Z
 
-    .line 3
     iget-object v3, v0, Lcom/commsource/studio/processor/StyleProcessor$e;->m:Lcom/commsource/studio/processor/StyleProcessor;
 
     invoke-virtual {v3}, Lcom/commsource/studio/processor/BaseEffectProcessor;->n()Lcom/commsource/easyeditor/utils/opengl/f;
@@ -301,12 +284,10 @@
 
     if-eqz v3, :cond_8
 
-    .line 4
     invoke-static {v3}, Lcom/meitu/core/types/NativeBitmap;->createBitmap(Landroid/graphics/Bitmap;)Lcom/meitu/core/types/NativeBitmap;
 
     move-result-object v4
 
-    .line 5
     invoke-static {}, Lcom/commsource/beautyplus/g0/b;->g()Lcom/commsource/beautyplus/g0/b;
 
     move-result-object v5
@@ -319,7 +300,6 @@
 
     if-eqz v5, :cond_0
 
-    .line 6
     iget-object v7, v5, Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/MTFaceResult;->faces:[Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/MTFace;
 
     if-eqz v7, :cond_0
@@ -336,7 +316,6 @@
 
     if-lez v7, :cond_5
 
-    .line 7
     sget-object v7, Lf/d/e/b/b;->b:Lf/d/e/b/b;
 
     invoke-virtual {v7, v4}, Lf/d/e/b/b;->b(Lcom/meitu/core/types/NativeBitmap;)Lcom/meitu/mtlab/MTAiInterface/MTSegmentModule/MTSegment;
@@ -349,7 +328,6 @@
 
     iput-object v8, v0, Lcom/commsource/studio/processor/StyleProcessor$e;->e:Landroid/graphics/Bitmap;
 
-    .line 8
     invoke-virtual {v7, v4}, Lf/d/e/b/b;->f(Lcom/meitu/core/types/NativeBitmap;)Lcom/meitu/mtlab/MTAiInterface/MTSegmentModule/MTSegment;
 
     move-result-object v8
@@ -360,7 +338,6 @@
 
     iput-object v8, v0, Lcom/commsource/studio/processor/StyleProcessor$e;->f:Landroid/graphics/Bitmap;
 
-    .line 9
     invoke-virtual {v7, v4}, Lf/d/e/b/b;->h(Lcom/meitu/core/types/NativeBitmap;)Lcom/meitu/mtlab/MTAiInterface/MTSegmentModule/MTSegment;
 
     move-result-object v8
@@ -371,28 +348,24 @@
 
     iput-object v7, v0, Lcom/commsource/studio/processor/StyleProcessor$e;->g:Landroid/graphics/Bitmap;
 
-    .line 10
     iget v7, v0, Lcom/commsource/studio/processor/StyleProcessor$e;->d:I
 
     new-array v7, v7, [Landroid/graphics/RectF;
 
     iput-object v7, v0, Lcom/commsource/studio/processor/StyleProcessor$e;->j:[Landroid/graphics/RectF;
 
-    .line 11
     iget-object v7, v5, Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/MTFaceResult;->faces:[Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/MTFace;
 
     const-string v8, "faceResult.faces"
 
     invoke-static {v7, v8}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 12
     new-instance v9, Ljava/util/ArrayList;
 
     array-length v10, v7
 
     invoke-direct {v9, v10}, Ljava/util/ArrayList;-><init>(I)V
 
-    .line 13
     array-length v10, v7
 
     const/4 v11, 0x0
@@ -402,7 +375,6 @@
 
     aget-object v12, v7, v11
 
-    .line 14
     iget-object v12, v12, Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/MTFace;->faceBounds:Landroid/graphics/RectF;
 
     invoke-interface {v9, v12}, Ljava/util/Collection;->add(Ljava/lang/Object;)Z
@@ -418,7 +390,6 @@
 
     new-array v9, v6, [Landroid/graphics/RectF;
 
-    .line 15
     invoke-interface {v7, v9}, Ljava/util/Collection;->toArray([Ljava/lang/Object;)[Ljava/lang/Object;
 
     move-result-object v7
@@ -429,19 +400,16 @@
 
     iput-object v7, v0, Lcom/commsource/studio/processor/StyleProcessor$e;->j:[Landroid/graphics/RectF;
 
-    .line 16
     iget-object v5, v5, Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/MTFaceResult;->faces:[Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/MTFace;
 
     invoke-static {v5, v8}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 17
     new-instance v7, Ljava/util/ArrayList;
 
     array-length v8, v5
 
     invoke-direct {v7, v8}, Ljava/util/ArrayList;-><init>(I)V
 
-    .line 18
     array-length v8, v5
 
     const/4 v9, 0x0
@@ -451,7 +419,6 @@
 
     aget-object v10, v5, v9
 
-    .line 19
     iget-object v10, v10, Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/MTFace;->facePoints:[Landroid/graphics/PointF;
 
     invoke-interface {v7, v10}, Ljava/util/Collection;->add(Ljava/lang/Object;)Z
@@ -469,24 +436,20 @@
 
     const-string v7, "nativeBitmap"
 
-    .line 20
     invoke-static {v4, v7}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v4}, Lcom/meitu/core/types/NativeBitmap;->getWidth()I
 
     move-result v7
 
-    .line 21
     invoke-virtual {v4}, Lcom/meitu/core/types/NativeBitmap;->getHeight()I
 
     move-result v8
 
-    .line 22
     invoke-static {v5, v7, v8}, Lcom/meitu/core/processor/MteBaseEffectUtil;->createFaceMask(Ljava/util/ArrayList;II)Landroid/graphics/Bitmap;
 
     move-result-object v5
 
-    .line 23
     iget v7, v0, Lcom/commsource/studio/processor/StyleProcessor$e;->d:I
 
     new-array v8, v7, [Landroid/graphics/Bitmap;
@@ -498,7 +461,6 @@
     :goto_3
     if-ge v8, v7, :cond_5
 
-    .line 24
     iget-object v9, v0, Lcom/commsource/studio/processor/StyleProcessor$e;->h:[Landroid/graphics/Bitmap;
 
     if-nez v9, :cond_3
@@ -512,7 +474,6 @@
 
     goto :goto_3
 
-    .line 25
     :cond_4
     new-instance v2, Ljava/lang/NullPointerException;
 
@@ -524,7 +485,6 @@
 
     throw v2
 
-    .line 26
     :cond_5
     invoke-static {}, Lcom/commsource/material/f;->a()Ljava/util/List;
 
@@ -534,22 +494,18 @@
 
     move-result-object v5
 
-    .line 27
     new-instance v7, Lcom/meitu/mtobjdetect/MTAnimalData;
 
     invoke-direct {v7}, Lcom/meitu/mtobjdetect/MTAnimalData;-><init>()V
 
-    .line 28
     iget-wide v8, v7, Lcom/meitu/mtobjdetect/MTAnimalData;->a:J
 
     invoke-virtual {v5, v8, v9, v3}, Lcom/meitu/mtobjdetect/MTThingsDetectorNative;->c(JLandroid/graphics/Bitmap;)I
 
-    .line 29
     iget-object v8, v0, Lcom/commsource/studio/processor/StyleProcessor$e;->k:Ljava/util/ArrayList;
 
     invoke-virtual {v8}, Ljava/util/ArrayList;->clear()V
 
-    .line 30
     invoke-virtual {v7}, Lcom/meitu/mtobjdetect/MTAnimalData;->f()I
 
     move-result v8
@@ -559,17 +515,14 @@
     :goto_4
     if-ge v9, v8, :cond_7
 
-    .line 31
     invoke-virtual {v7, v9}, Lcom/meitu/mtobjdetect/MTAnimalData;->j(I)[F
 
     move-result-object v10
 
-    .line 32
     array-length v11, v10
 
     div-int/lit8 v11, v11, 0x2
 
-    .line 33
     new-array v12, v11, [Landroid/graphics/PointF;
 
     const/4 v13, 0x0
@@ -577,14 +530,12 @@
     :goto_5
     if-ge v13, v11, :cond_6
 
-    .line 34
     new-instance v14, Landroid/graphics/PointF;
 
     mul-int/lit8 v15, v13, 0x2
 
     add-int/lit8 v16, v15, 0x0
 
-    .line 35
     aget v16, v10, v16
 
     invoke-virtual {v3}, Landroid/graphics/Bitmap;->getWidth()I
@@ -597,7 +548,6 @@
 
     add-int/2addr v15, v2
 
-    .line 36
     aget v15, v10, v15
 
     invoke-virtual {v3}, Landroid/graphics/Bitmap;->getHeight()I
@@ -608,7 +558,6 @@
 
     div-float/2addr v15, v2
 
-    .line 37
     invoke-direct {v14, v6, v15}, Landroid/graphics/PointF;-><init>(FF)V
 
     aput-object v14, v12, v13
@@ -621,7 +570,6 @@
 
     goto :goto_5
 
-    .line 38
     :cond_6
     iget-object v2, v0, Lcom/commsource/studio/processor/StyleProcessor$e;->k:Ljava/util/ArrayList;
 
@@ -635,14 +583,11 @@
 
     goto :goto_4
 
-    .line 39
     :cond_7
     invoke-virtual {v5}, Lcom/meitu/mtobjdetect/MTThingsDetectorNative;->b()V
 
-    .line 40
     invoke-virtual {v4}, Lcom/meitu/core/types/NativeBitmap;->recycle()V
 
-    .line 41
     :cond_8
     invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -658,7 +603,6 @@
 
     invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v2, p0, Lcom/commsource/studio/processor/StyleProcessor$e;->b:Lcom/commsource/studio/bean/f;
 
     invoke-static {p1, v2}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
@@ -667,12 +611,10 @@
 
     if-eqz v2, :cond_0
 
-    .line 2
     invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 3
     :cond_0
     iget-object v2, p0, Lcom/commsource/studio/processor/StyleProcessor$e;->m:Lcom/commsource/studio/processor/StyleProcessor;
 
@@ -690,13 +632,11 @@
 
     check-cast v2, Lcotlin/t1;
 
-    .line 4
     :cond_1
     iget-object v2, p0, Lcom/commsource/studio/processor/StyleProcessor$e;->l:Lcom/commsource/easyeditor/utils/opengl/f;
 
     if-nez v2, :cond_2
 
-    .line 5
     iget-object v2, p0, Lcom/commsource/studio/processor/StyleProcessor$e;->m:Lcom/commsource/studio/processor/StyleProcessor;
 
     invoke-virtual {v2}, Lcom/commsource/studio/processor/BaseEffectProcessor;->n()Lcom/commsource/easyeditor/utils/opengl/f;
@@ -719,7 +659,6 @@
 
     iput-object v2, p0, Lcom/commsource/studio/processor/StyleProcessor$e;->l:Lcom/commsource/easyeditor/utils/opengl/f;
 
-    .line 6
     :cond_2
     iget-object v2, p0, Lcom/commsource/studio/processor/StyleProcessor$e;->m:Lcom/commsource/studio/processor/StyleProcessor;
 
@@ -739,22 +678,18 @@
 
     if-eqz v2, :cond_4
 
-    .line 7
     invoke-static {v2}, Landroid/graphics/BitmapFactory;->decodeFile(Ljava/lang/String;)Landroid/graphics/Bitmap;
 
     move-result-object v2
 
     if-eqz v2, :cond_4
 
-    .line 8
     iget-object p1, p0, Lcom/commsource/studio/processor/StyleProcessor$e;->l:Lcom/commsource/easyeditor/utils/opengl/f;
 
     invoke-static {v2, p1}, Lcom/commsource/easyeditor/utils/opengl/n;->e(Landroid/graphics/Bitmap;Lcom/commsource/easyeditor/utils/opengl/f;)V
 
-    .line 9
     invoke-virtual {v2}, Landroid/graphics/Bitmap;->recycle()V
 
-    .line 10
     iget-object p1, p0, Lcom/commsource/studio/processor/StyleProcessor$e;->m:Lcom/commsource/studio/processor/StyleProcessor;
 
     invoke-virtual {p1}, Lcom/commsource/studio/processor/StyleProcessor;->x0()Lcotlin/jvm/u/l;
@@ -769,17 +704,14 @@
 
     check-cast p1, Lcotlin/t1;
 
-    .line 11
     :cond_3
     invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 12
     :cond_4
     invoke-direct {p0}, Lcom/commsource/studio/processor/StyleProcessor$e;->c()V
 
-    .line 13
     iget-object v2, p0, Lcom/commsource/studio/processor/StyleProcessor$e;->c:Lcom/meitu/mtoilpainting/MeituOilPainting;
 
     iget v3, p0, Lcom/commsource/studio/processor/StyleProcessor$e;->d:I
@@ -800,7 +732,6 @@
 
     invoke-virtual {v2, v3}, Lcom/meitu/mtoilpainting/MeituOilPainting;->c(Lcom/meitu/mtoilpainting/MeituOilPainting$OilPaintType;)V
 
-    .line 14
     iget-object v2, p0, Lcom/commsource/studio/processor/StyleProcessor$e;->l:Lcom/commsource/easyeditor/utils/opengl/f;
 
     if-eqz v2, :cond_6
@@ -813,13 +744,11 @@
 
     invoke-virtual {v3, v4, v2}, Lcom/meitu/mtoilpainting/MeituOilPainting;->e(II)V
 
-    .line 15
     :cond_6
     iget v2, p0, Lcom/commsource/studio/processor/StyleProcessor$e;->d:I
 
     if-lez v2, :cond_a
 
-    .line 16
     iget-object v2, p0, Lcom/commsource/studio/processor/StyleProcessor$e;->f:Landroid/graphics/Bitmap;
 
     if-eqz v2, :cond_7
@@ -828,7 +757,6 @@
 
     invoke-virtual {v3, v2}, Lcom/meitu/mtoilpainting/MeituOilPainting;->l(Landroid/graphics/Bitmap;)Z
 
-    .line 17
     :cond_7
     iget-object v2, p0, Lcom/commsource/studio/processor/StyleProcessor$e;->e:Landroid/graphics/Bitmap;
 
@@ -838,7 +766,6 @@
 
     invoke-virtual {v3, v2}, Lcom/meitu/mtoilpainting/MeituOilPainting;->i(Landroid/graphics/Bitmap;)Z
 
-    .line 18
     :cond_8
     iget-object v2, p0, Lcom/commsource/studio/processor/StyleProcessor$e;->g:Landroid/graphics/Bitmap;
 
@@ -848,13 +775,11 @@
 
     invoke-virtual {v3, v2}, Lcom/meitu/mtoilpainting/MeituOilPainting;->m(Landroid/graphics/Bitmap;)Z
 
-    .line 19
     :cond_9
     iget-object v2, p0, Lcom/commsource/studio/processor/StyleProcessor$e;->h:[Landroid/graphics/Bitmap;
 
     if-eqz v2, :cond_a
 
-    .line 20
     iget-object v3, p0, Lcom/commsource/studio/processor/StyleProcessor$e;->c:Lcom/meitu/mtoilpainting/MeituOilPainting;
 
     iget-object v4, p0, Lcom/commsource/studio/processor/StyleProcessor$e;->j:[Landroid/graphics/RectF;
@@ -863,7 +788,6 @@
 
     invoke-virtual {v3, v2, v4, v5}, Lcom/meitu/mtoilpainting/MeituOilPainting;->k([Landroid/graphics/Bitmap;[Landroid/graphics/RectF;Ljava/util/ArrayList;)Z
 
-    .line 21
     :cond_a
     iget-object v2, p0, Lcom/commsource/studio/processor/StyleProcessor$e;->k:Ljava/util/ArrayList;
 
@@ -873,14 +797,12 @@
 
     if-lez v2, :cond_b
 
-    .line 22
     iget-object v2, p0, Lcom/commsource/studio/processor/StyleProcessor$e;->c:Lcom/meitu/mtoilpainting/MeituOilPainting;
 
     iget-object v3, p0, Lcom/commsource/studio/processor/StyleProcessor$e;->k:Ljava/util/ArrayList;
 
     invoke-virtual {v2, v3}, Lcom/meitu/mtoilpainting/MeituOilPainting;->h(Ljava/util/ArrayList;)Z
 
-    .line 23
     :cond_b
     iget-object v2, p0, Lcom/commsource/studio/processor/StyleProcessor$e;->m:Lcom/commsource/studio/processor/StyleProcessor;
 
@@ -894,31 +816,25 @@
 
     if-eqz v2, :cond_c
 
-    .line 24
     iget-object v3, p0, Lcom/commsource/studio/processor/StyleProcessor$e;->c:Lcom/meitu/mtoilpainting/MeituOilPainting;
 
     invoke-virtual {v3, v2}, Lcom/meitu/mtoilpainting/MeituOilPainting;->b(Landroid/graphics/Bitmap;)Z
 
-    .line 25
     iget-object v3, p0, Lcom/commsource/studio/processor/StyleProcessor$e;->l:Lcom/commsource/easyeditor/utils/opengl/f;
 
     invoke-static {v2, v3}, Lcom/commsource/easyeditor/utils/opengl/n;->e(Landroid/graphics/Bitmap;Lcom/commsource/easyeditor/utils/opengl/f;)V
 
-    .line 26
     iget-object v3, p0, Lcom/commsource/studio/processor/StyleProcessor$e;->m:Lcom/commsource/studio/processor/StyleProcessor;
 
     invoke-static {v3, v2, p1}, Lcom/commsource/studio/processor/StyleProcessor;->J(Lcom/commsource/studio/processor/StyleProcessor;Landroid/graphics/Bitmap;Lcom/commsource/studio/bean/f;)V
 
-    .line 27
     invoke-virtual {v2}, Landroid/graphics/Bitmap;->recycle()V
 
-    .line 28
     :cond_c
     iget-object p1, p0, Lcom/commsource/studio/processor/StyleProcessor$e;->c:Lcom/meitu/mtoilpainting/MeituOilPainting;
 
     invoke-virtual {p1}, Lcom/meitu/mtoilpainting/MeituOilPainting;->g()V
 
-    .line 29
     iget-object p1, p0, Lcom/commsource/studio/processor/StyleProcessor$e;->m:Lcom/commsource/studio/processor/StyleProcessor;
 
     invoke-virtual {p1}, Lcom/commsource/studio/processor/StyleProcessor;->x0()Lcotlin/jvm/u/l;
@@ -933,7 +849,6 @@
 
     check-cast p1, Lcotlin/t1;
 
-    .line 30
     :cond_d
     invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -949,19 +864,16 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/processor/StyleProcessor$e;->c:Lcom/meitu/mtoilpainting/MeituOilPainting;
 
     invoke-virtual {v1}, Lcom/meitu/mtoilpainting/MeituOilPainting;->f()V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/processor/StyleProcessor$e;->l:Lcom/commsource/easyeditor/utils/opengl/f;
 
     if-eqz v1, :cond_0
 
     invoke-virtual {v1}, Lcom/commsource/easyeditor/utils/opengl/f;->k()V
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -991,18 +903,14 @@
 
     invoke-static {p2, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/commsource/studio/processor/StyleProcessor$e;->d(Lcom/commsource/studio/bean/f;)V
 
-    .line 2
     iput-object p1, p0, Lcom/commsource/studio/processor/StyleProcessor$e;->b:Lcom/commsource/studio/bean/f;
 
-    .line 3
     iget-object p1, p0, Lcom/commsource/studio/processor/StyleProcessor$e;->l:Lcom/commsource/easyeditor/utils/opengl/f;
 
     if-eqz p1, :cond_0
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/studio/processor/StyleProcessor$e;->m:Lcom/commsource/studio/processor/StyleProcessor;
 
     invoke-virtual {v1}, Lcom/commsource/studio/processor/BaseEffectProcessor;->o()Lcom/commsource/studio/shader/n;
@@ -1011,7 +919,6 @@
 
     invoke-virtual {v1, p1, p2}, Lcom/commsource/studio/shader/n;->k(Lcom/commsource/easyeditor/utils/opengl/f;Lcom/commsource/easyeditor/utils/opengl/f;)V
 
-    .line 5
     iget-object p1, p0, Lcom/commsource/studio/processor/StyleProcessor$e;->m:Lcom/commsource/studio/processor/StyleProcessor;
 
     invoke-virtual {p1}, Lcom/commsource/studio/processor/StyleProcessor;->r0()I
@@ -1020,13 +927,11 @@
 
     invoke-static {p1, p2}, Lcom/commsource/studio/processor/StyleProcessor;->S(Lcom/commsource/studio/processor/StyleProcessor;I)V
 
-    .line 6
     :cond_0
     iget-object p1, p0, Lcom/commsource/studio/processor/StyleProcessor$e;->m:Lcom/commsource/studio/processor/StyleProcessor;
 
     invoke-static {p1}, Lcom/commsource/studio/processor/StyleProcessor;->L(Lcom/commsource/studio/processor/StyleProcessor;)V
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

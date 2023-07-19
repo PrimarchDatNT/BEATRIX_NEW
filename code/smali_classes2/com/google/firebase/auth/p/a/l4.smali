@@ -30,7 +30,6 @@
 .method constructor <init>(Lcom/google/firebase/auth/p/a/b0;Ljava/lang/String;Ljava/lang/String;Lcom/google/firebase/auth/p/a/q2;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/firebase/auth/p/a/l4;->d:Lcom/google/firebase/auth/p/a/b0;
 
     iput-object p2, p0, Lcom/google/firebase/auth/p/a/l4;->a:Ljava/lang/String;
@@ -53,12 +52,10 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-static {p1}, Lcom/google/firebase/auth/internal/m0;->b(Ljava/lang/String;)Lcom/google/android/gms/common/api/Status;
 
     move-result-object p1
 
-    .line 2
     iget-object v0, p0, Lcom/google/firebase/auth/p/a/l4;->c:Lcom/google/firebase/auth/p/a/q2;
 
     invoke-virtual {v0, p1}, Lcom/google/firebase/auth/p/a/q2;->a(Lcom/google/android/gms/common/api/Status;)V
@@ -69,15 +66,12 @@
 .method public final synthetic onSuccess(Ljava/lang/Object;)V
     .locals 3
 
-    .line 1
     check-cast p1, Lcom/google/android/gms/internal/firebase_auth/zzes;
 
-    .line 2
     new-instance v0, Lcom/google/android/gms/internal/firebase_auth/h2;
 
     invoke-direct {v0}, Lcom/google/android/gms/internal/firebase_auth/h2;-><init>()V
 
-    .line 3
     invoke-virtual {p1}, Lcom/google/android/gms/internal/firebase_auth/zzes;->y()Ljava/lang/String;
 
     move-result-object v1
@@ -88,17 +82,14 @@
 
     iget-object v2, p0, Lcom/google/firebase/auth/p/a/l4;->a:Ljava/lang/String;
 
-    .line 4
     invoke-virtual {v1, v2}, Lcom/google/android/gms/internal/firebase_auth/h2;->g(Ljava/lang/String;)Lcom/google/android/gms/internal/firebase_auth/h2;
 
     move-result-object v1
 
     iget-object v2, p0, Lcom/google/firebase/auth/p/a/l4;->b:Ljava/lang/String;
 
-    .line 5
     invoke-virtual {v1, v2}, Lcom/google/android/gms/internal/firebase_auth/h2;->h(Ljava/lang/String;)Lcom/google/android/gms/internal/firebase_auth/h2;
 
-    .line 6
     iget-object v1, p0, Lcom/google/firebase/auth/p/a/l4;->d:Lcom/google/firebase/auth/p/a/b0;
 
     iget-object v2, p0, Lcom/google/firebase/auth/p/a/l4;->c:Lcom/google/firebase/auth/p/a/q2;

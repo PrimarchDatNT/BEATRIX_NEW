@@ -72,28 +72,24 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 2
     new-instance v1, Landroid/graphics/Paint;
 
     const/4 v2, 0x1
 
     invoke-direct {v1, v2}, Landroid/graphics/Paint;-><init>(I)V
 
-    .line 3
     sget-object v2, Landroid/graphics/Paint$Style;->STROKE:Landroid/graphics/Paint$Style;
 
     invoke-virtual {v1, v2}, Landroid/graphics/Paint;->setStyle(Landroid/graphics/Paint$Style;)V
 
     sget v2, Lcom/res/provider/ResCOLOR;->black10:I
 
-    .line 4
     invoke-static {v2}, Lcom/commsource/util/u1;->b(I)I
 
     move-result v2
 
     invoke-virtual {v1, v2}, Landroid/graphics/Paint;->setColor(I)V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
@@ -106,7 +102,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/comic/StrokeView$paint$2;->invoke()Landroid/graphics/Paint;
 
     move-result-object v1

@@ -51,17 +51,14 @@
 
     const/4 v0, 0x0
 
-    .line 1
     sput-boolean v0, Lcom/google/protobuf/j0;->b:Z
 
-    .line 2
     invoke-static {}, Lcom/google/protobuf/j0;->j()Ljava/lang/Class;
 
     move-result-object v0
 
     sput-object v0, Lcom/google/protobuf/j0;->d:Ljava/lang/Class;
 
-    .line 3
     new-instance v0, Lcom/google/protobuf/j0;
 
     const/4 v1, 0x1
@@ -76,10 +73,8 @@
 .method constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     new-instance v0, Ljava/util/HashMap;
 
     invoke-direct {v0}, Ljava/util/HashMap;-><init>()V
@@ -92,15 +87,12 @@
 .method constructor <init>(Lcom/google/protobuf/j0;)V
     .locals 1
 
-    .line 3
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 4
     sget-object v0, Lcom/google/protobuf/j0;->e:Lcom/google/protobuf/j0;
 
     if-ne p1, v0, :cond_0
 
-    .line 5
     invoke-static {}, Ljava/util/Collections;->emptyMap()Ljava/util/Map;
 
     move-result-object p1
@@ -109,11 +101,9 @@
 
     goto :goto_0
 
-    .line 6
     :cond_0
     iget-object p1, p1, Lcom/google/protobuf/j0;->a:Ljava/util/Map;
 
-    .line 7
     invoke-static {p1}, Ljava/util/Collections;->unmodifiableMap(Ljava/util/Map;)Ljava/util/Map;
 
     move-result-object p1
@@ -127,10 +117,8 @@
 .method constructor <init>(Z)V
     .locals 0
 
-    .line 8
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 9
     invoke-static {}, Ljava/util/Collections;->emptyMap()Ljava/util/Map;
 
     move-result-object p1
@@ -143,7 +131,6 @@
 .method private static synthetic c()V
     .locals 9
 
-    .line 1
     new-instance v8, Ln/a/b/c/e;
 
     const-class v0, Lcom/google/protobuf/j0;
@@ -188,7 +175,6 @@
 .method public static e()Lcom/google/protobuf/j0;
     .locals 1
 
-    .line 1
     invoke-static {}, Lcom/google/protobuf/h0;->c()Lcom/google/protobuf/j0;
 
     move-result-object v0
@@ -199,7 +185,6 @@
 .method static final synthetic g(Lcom/google/protobuf/j0;Ljava/lang/reflect/Method;Ljava/lang/Object;[Ljava/lang/Object;Lorg/aspectj/lang/c;)Ljava/lang/Object;
     .locals 0
 
-    .line 1
     invoke-virtual {p1, p2, p3}, Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p0
@@ -210,7 +195,6 @@
 .method public static h()Z
     .locals 1
 
-    .line 1
     sget-boolean v0, Lcom/google/protobuf/j0;->b:Z
 
     return v0
@@ -219,7 +203,6 @@
 .method public static i()Lcom/google/protobuf/j0;
     .locals 1
 
-    .line 1
     invoke-static {}, Lcom/google/protobuf/h0;->b()Lcom/google/protobuf/j0;
 
     move-result-object v0
@@ -240,7 +223,6 @@
     :try_start_0
     const-string v0, "com.google.protobuf.Extension"
 
-    .line 1
     invoke-static {v0}, Ljava/lang/Class;->forName(Ljava/lang/String;)Ljava/lang/Class;
 
     move-result-object v0
@@ -258,7 +240,6 @@
 .method public static k(Z)V
     .locals 0
 
-    .line 1
     sput-boolean p0, Lcom/google/protobuf/j0;->b:Z
 
     return-void
@@ -276,7 +257,6 @@
         }
     .end annotation
 
-    .line 1
     const-class v0, Lcom/google/protobuf/GeneratedMessageLite$h;
 
     invoke-virtual {p1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
@@ -289,14 +269,12 @@
 
     if-eqz v0, :cond_0
 
-    .line 2
     move-object v0, p1
 
     check-cast v0, Lcom/google/protobuf/GeneratedMessageLite$h;
 
     invoke-virtual {p0, v0}, Lcom/google/protobuf/j0;->b(Lcom/google/protobuf/GeneratedMessageLite$h;)V
 
-    .line 3
     :cond_0
     invoke-static {p0}, Lcom/google/protobuf/h0;->f(Lcom/google/protobuf/j0;)Z
 
@@ -308,7 +286,6 @@
 
     const/4 v1, 0x1
 
-    .line 4
     :try_start_0
     invoke-virtual {p0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
@@ -379,7 +356,6 @@
     :catch_0
     move-exception v2
 
-    .line 5
     new-instance v3, Ljava/lang/IllegalArgumentException;
 
     new-array v1, v1, [Ljava/lang/Object;
@@ -388,7 +364,6 @@
 
     const-string p1, "Could not invoke ExtensionRegistry#add for %s"
 
-    .line 6
     invoke-static {p1, v1}, Ljava/lang/String;->format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object p1
@@ -412,24 +387,20 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/protobuf/j0;->a:Ljava/util/Map;
 
     new-instance v1, Lcom/google/protobuf/j0$a;
 
-    .line 2
     invoke-virtual {p1}, Lcom/google/protobuf/GeneratedMessageLite$h;->h()Lcom/google/protobuf/i1;
 
     move-result-object v2
 
-    .line 3
     invoke-virtual {p1}, Lcom/google/protobuf/GeneratedMessageLite$h;->d()I
 
     move-result v3
 
     invoke-direct {v1, v2, v3}, Lcom/google/protobuf/j0$a;-><init>(Ljava/lang/Object;I)V
 
-    .line 4
     invoke-interface {v0, v1, p1}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     return-void
@@ -447,14 +418,12 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/protobuf/j0;->a:Ljava/util/Map;
 
     new-instance v1, Lcom/google/protobuf/j0$a;
 
     invoke-direct {v1, p1, p2}, Lcom/google/protobuf/j0$a;-><init>(Ljava/lang/Object;I)V
 
-    .line 2
     invoke-interface {v0, v1}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -467,7 +436,6 @@
 .method public f()Lcom/google/protobuf/j0;
     .locals 1
 
-    .line 1
     new-instance v0, Lcom/google/protobuf/j0;
 
     invoke-direct {v0, p0}, Lcom/google/protobuf/j0;-><init>(Lcom/google/protobuf/j0;)V

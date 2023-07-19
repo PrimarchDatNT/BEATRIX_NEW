@@ -33,7 +33,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-direct {p0}, Lcotlin/collections/i1;-><init>()V
 
     iput-object p1, p0, Lcotlin/c1$a;->b:[B
@@ -46,7 +45,6 @@
 .method public b()B
     .locals 3
 
-    .line 1
     iget v0, p0, Lcotlin/c1$a;->a:I
 
     iget-object v1, p0, Lcotlin/c1$a;->b:[B
@@ -84,7 +82,6 @@
 .method public hasNext()Z
     .locals 2
 
-    .line 1
     iget v0, p0, Lcotlin/c1$a;->a:I
 
     iget-object v1, p0, Lcotlin/c1$a;->b:[B

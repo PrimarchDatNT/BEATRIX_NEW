@@ -38,15 +38,12 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/util/p2/b;-><init>()V
 
     const-string v0, ""
 
-    .line 2
     iput-object v0, p0, Lcom/commsource/util/delegate/process/m;->a:Ljava/lang/String;
 
-    .line 3
     iput-object p1, p0, Lcom/commsource/util/delegate/process/m;->a:Ljava/lang/String;
 
     return-void
@@ -65,7 +62,6 @@
 
     if-ne p1, p2, :cond_0
 
-    .line 1
     invoke-static {}, Lf/d/i/o;->o0()Z
 
     move-result p1
@@ -89,7 +85,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     new-instance v0, Landroid/content/Intent;
 
     invoke-virtual {p1}, Landroidx/fragment/app/Fragment;->getContext()Landroid/content/Context;
@@ -100,14 +95,12 @@
 
     invoke-direct {v0, v1, v2}, Landroid/content/Intent;-><init>(Landroid/content/Context;Ljava/lang/Class;)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/util/delegate/process/m;->a:Ljava/lang/String;
 
     const-string v2, "SubSource"
 
     invoke-virtual {v0, v2, v1}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/util/delegate/process/m;->b:[Ljava/lang/String;
 
     const/4 v2, 0x0
@@ -138,10 +131,8 @@
 
     const-string v2, "MultipleSources"
 
-    .line 4
     invoke-virtual {v0, v2, v1}, Landroid/content/Intent;->putExtra(Ljava/lang/String;[Ljava/lang/String;)Landroid/content/Intent;
 
-    .line 5
     :cond_3
     iget-object v1, p0, Lcom/commsource/util/delegate/process/m;->d:Ljava/lang/String;
 
@@ -149,7 +140,6 @@
 
     invoke-virtual {v0, v2, v1}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
 
-    .line 6
     iget-boolean v1, p0, Lcom/commsource/util/delegate/process/m;->c:Z
 
     const-string v2, "one_thing_in_the_end"
@@ -158,10 +148,8 @@
 
     const/16 v1, 0x3e8
 
-    .line 7
     invoke-virtual {p1, v0, v1}, Landroidx/fragment/app/Fragment;->startActivityForResult(Landroid/content/Intent;I)V
 
-    .line 8
     invoke-virtual {p1}, Landroidx/fragment/app/Fragment;->getActivity()Landroidx/fragment/app/FragmentActivity;
 
     move-result-object p1
@@ -176,7 +164,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/util/delegate/process/m;->d:Ljava/lang/String;
 
     return-object v0
@@ -187,7 +174,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/util/delegate/process/m;->b:[Ljava/lang/String;
 
     return-object v0
@@ -198,7 +184,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/util/delegate/process/m;->a:Ljava/lang/String;
 
     return-object v0
@@ -207,7 +192,6 @@
 .method public final g()Z
     .locals 1
 
-    .line 1
     iget-boolean v0, p0, Lcom/commsource/util/delegate/process/m;->c:Z
 
     return v0
@@ -223,7 +207,6 @@
         .end annotation
     .end param
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/util/delegate/process/m;->d:Ljava/lang/String;
 
     return-void
@@ -236,7 +219,6 @@
         .end annotation
     .end param
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/util/delegate/process/m;->b:[Ljava/lang/String;
 
     return-void
@@ -245,7 +227,6 @@
 .method public final k(Z)V
     .locals 0
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/util/delegate/process/m;->c:Z
 
     return-void
@@ -262,7 +243,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/util/delegate/process/m;->a:Ljava/lang/String;
 
     return-void

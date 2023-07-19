@@ -54,14 +54,12 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcotlin/sequences/j$a;->c:Lcotlin/sequences/j;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/4 p1, -0x2
 
-    .line 2
     iput p1, p0, Lcotlin/sequences/j$a;->b:I
 
     return-void
@@ -70,7 +68,6 @@
 .method private final a()V
     .locals 2
 
-    .line 1
     iget v0, p0, Lcotlin/sequences/j$a;->b:I
 
     const/4 v1, -0x2
@@ -116,7 +113,6 @@
     :cond_1
     const/4 v0, 0x1
 
-    .line 2
     :goto_1
     iput v0, p0, Lcotlin/sequences/j$a;->b:I
 
@@ -136,7 +132,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcotlin/sequences/j$a;->a:Ljava/lang/Object;
 
     return-object v0
@@ -145,7 +140,6 @@
 .method public final c()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lcotlin/sequences/j$a;->b:I
 
     return v0
@@ -163,7 +157,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcotlin/sequences/j$a;->a:Ljava/lang/Object;
 
     return-void
@@ -172,7 +165,6 @@
 .method public final e(I)V
     .locals 0
 
-    .line 1
     iput p1, p0, Lcotlin/sequences/j$a;->b:I
 
     return-void
@@ -181,15 +173,12 @@
 .method public hasNext()Z
     .locals 2
 
-    .line 1
     iget v0, p0, Lcotlin/sequences/j$a;->b:I
 
     if-gez v0, :cond_0
 
-    .line 2
     invoke-direct {p0}, Lcotlin/sequences/j$a;->a()V
 
-    .line 3
     :cond_0
     iget v0, p0, Lcotlin/sequences/j$a;->b:I
 
@@ -217,21 +206,17 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget v0, p0, Lcotlin/sequences/j$a;->b:I
 
     if-gez v0, :cond_0
 
-    .line 2
     invoke-direct {p0}, Lcotlin/sequences/j$a;->a()V
 
-    .line 3
     :cond_0
     iget v0, p0, Lcotlin/sequences/j$a;->b:I
 
     if-eqz v0, :cond_1
 
-    .line 4
     iget-object v0, p0, Lcotlin/sequences/j$a;->a:Ljava/lang/Object;
 
     const-string v1, "null cannot be cast to non-null type T"
@@ -240,12 +225,10 @@
 
     const/4 v1, -0x1
 
-    .line 5
     iput v1, p0, Lcotlin/sequences/j$a;->b:I
 
     return-object v0
 
-    .line 6
     :cond_1
     new-instance v0, Ljava/util/NoSuchElementException;
 

@@ -51,10 +51,8 @@
 .method public constructor <init>()V
     .locals 2
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/studio/function/BaseSubFragment;-><init>()V
 
-    .line 2
     sget-object v0, Lcom/commsource/studio/n0;->z:Lcom/commsource/studio/n0;
 
     invoke-virtual {v0}, Lcom/commsource/studio/n0;->t()I
@@ -65,7 +63,6 @@
 
     iput v0, p0, Lcom/commsource/studio/function/RemoveWrinkleFragment;->c0:F
 
-    .line 3
     new-instance v0, Lcom/commsource/studio/effect/c;
 
     sget-object v1, Lcom/commsource/studio/sub/SubModuleEnum;->RemoveWrinkle:Lcom/commsource/studio/sub/SubModuleEnum;
@@ -74,7 +71,6 @@
 
     iput-object v0, p0, Lcom/commsource/studio/function/RemoveWrinkleFragment;->h0:Lcom/commsource/studio/effect/c;
 
-    .line 4
     new-instance v0, Lcom/commsource/studio/function/RemoveWrinkleFragment$autoManualStackLogic$2;
 
     invoke-direct {v0, p0}, Lcom/commsource/studio/function/RemoveWrinkleFragment$autoManualStackLogic$2;-><init>(Lcom/commsource/studio/function/RemoveWrinkleFragment;)V
@@ -87,7 +83,6 @@
 
     const/4 v0, 0x0
 
-    .line 5
     invoke-virtual {p0, v0}, Lcom/commsource/studio/function/BaseSubFragment;->q1(Z)V
 
     return-void
@@ -100,7 +95,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/studio/function/RemoveWrinkleFragment;->e0:Lcom/commsource/studio/processor/m;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -115,7 +109,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/studio/function/RemoveWrinkleFragment;->d0:Lcom/commsource/beautyplus/f0/cb;
 
     if-nez p0, :cond_0
@@ -137,7 +130,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/studio/function/RemoveWrinkleFragment;->g0:Lcom/commsource/studio/layer/PaintMaskLayer;
 
     if-nez p0, :cond_0
@@ -159,7 +151,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/studio/function/RemoveWrinkleFragment;->L1()V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -174,7 +165,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/studio/function/RemoveWrinkleFragment;->M1()V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -189,7 +179,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/function/RemoveWrinkleFragment;->e0:Lcom/commsource/studio/processor/m;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -204,7 +193,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/function/RemoveWrinkleFragment;->d0:Lcom/commsource/beautyplus/f0/cb;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -219,7 +207,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/function/RemoveWrinkleFragment;->g0:Lcom/commsource/studio/layer/PaintMaskLayer;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -254,14 +241,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/studio/function/RemoveWrinkleFragment;->I1()Lcom/commsource/studio/function/automanual/AutoManualStackLogic;
 
     move-result-object v1
 
     invoke-virtual {v1}, Lcom/commsource/studio/function/automanual/AutoManualStackLogic;->l()V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/function/RemoveWrinkleFragment;->d0:Lcom/commsource/beautyplus/f0/cb;
 
     if-nez v1, :cond_0
@@ -289,7 +274,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/widget/XSeekBar;->setProgress(I)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -302,7 +286,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/studio/function/RemoveWrinkleFragment;->I1()Lcom/commsource/studio/function/automanual/AutoManualStackLogic;
 
     move-result-object v1
@@ -319,7 +302,6 @@
 
     if-eqz v1, :cond_1
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/function/RemoveWrinkleFragment;->d0:Lcom/commsource/beautyplus/f0/cb;
 
     if-nez v1, :cond_0
@@ -333,7 +315,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_1
     iget-object v1, p0, Lcom/commsource/studio/function/RemoveWrinkleFragment;->d0:Lcom/commsource/beautyplus/f0/cb;
 
@@ -350,7 +331,6 @@
 
     if-eqz v1, :cond_4
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/studio/function/RemoveWrinkleFragment;->d0:Lcom/commsource/beautyplus/f0/cb;
 
     if-nez v1, :cond_3
@@ -366,7 +346,6 @@
     :goto_0
     const-string v1, "KEY_FIRST_MANUAL_TIP_FIRM"
 
-    .line 5
     invoke-static {v1}, Lf/d/i/h;->C0(Ljava/lang/String;)Z
 
     move-result v2
@@ -375,15 +354,12 @@
 
     sget v2, Lcom/res/provider/ResSTRING;->t_toast_beauty_firm_skin:I
 
-    .line 6
     invoke-static {v2}, Lf/k/c/c/f;->r(I)V
 
     const/4 v2, 0x0
 
-    .line 7
     invoke-static {v1, v2}, Lf/d/i/h;->v1(Ljava/lang/String;Z)V
 
-    .line 8
     :cond_5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -397,7 +373,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/studio/function/RemoveWrinkleFragment;->I1()Lcom/commsource/studio/function/automanual/AutoManualStackLogic;
 
     move-result-object p0
@@ -416,14 +391,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/util/HashMap;
 
     const/16 v2, 0x8
 
     invoke-direct {v1, v2}, Ljava/util/HashMap;-><init>(I)V
 
-    .line 2
     sget-object v2, Lcom/commsource/studio/effect/t;->d:Lcom/commsource/studio/effect/t$a;
 
     invoke-virtual {p0}, Lcom/commsource/studio/function/RemoveWrinkleFragment;->J1()Lcom/commsource/studio/effect/c;
@@ -440,7 +413,6 @@
 
     invoke-interface {v1, v3, v2}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 3
     sget-object v2, Lcom/commsource/studio/effect/c;->p:Lcom/commsource/studio/effect/c$a;
 
     invoke-virtual {p0}, Lcom/commsource/studio/function/RemoveWrinkleFragment;->J1()Lcom/commsource/studio/effect/c;
@@ -455,7 +427,6 @@
 
     invoke-interface {v1, v4, v3}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 4
     invoke-virtual {p0}, Lcom/commsource/studio/function/RemoveWrinkleFragment;->J1()Lcom/commsource/studio/effect/c;
 
     move-result-object v3
@@ -470,13 +441,10 @@
 
     const-string v2, "beaufirmyes"
 
-    .line 5
     invoke-static {v2, v1}, Lcom/commsource/statistics/i;->s(Ljava/lang/String;Ljava/util/Map;)V
 
-    .line 6
     invoke-super {p0}, Lcom/commsource/studio/function/BaseSubFragment;->G0()V
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -491,7 +459,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/function/RemoveWrinkleFragment;->h0:Lcom/commsource/studio/effect/c;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -506,7 +473,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/commsource/studio/processor/m;
 
     new-instance v2, Lcom/commsource/studio/r0/w;
@@ -539,15 +505,12 @@
 
     invoke-direct {v1, v2}, Lcom/commsource/studio/processor/m;-><init>(Lcom/commsource/camera/newrender/renderproxy/n;)V
 
-    .line 2
     invoke-virtual {p0, v1}, Lcom/commsource/studio/function/BaseSubFragment;->D(Lcom/commsource/studio/processor/BaseEffectProcessor;)V
 
-    .line 3
     new-instance v2, Lcom/commsource/camera/d1/g/r;
 
     invoke-direct {v2}, Lcom/commsource/camera/d1/g/r;-><init>()V
 
-    .line 4
     invoke-virtual {p0}, Lcom/commsource/studio/function/BaseSubFragment;->r0()Lcom/commsource/studio/ImageStudioViewModel;
 
     move-result-object v3
@@ -562,14 +525,12 @@
 
     invoke-virtual {v2, v3}, Lcom/commsource/camera/d1/g/r;->a(Landroid/graphics/Bitmap;)V
 
-    .line 5
     invoke-virtual {v1}, Lcom/commsource/studio/processor/BaseEffectProcessor;->d()Lcom/commsource/studio/o;
 
     move-result-object v3
 
     invoke-virtual {v3, v2}, Lcom/commsource/studio/o;->C(Lcom/commsource/camera/d1/g/r;)V
 
-    .line 6
     invoke-virtual {v1}, Lcom/commsource/studio/processor/m;->J()Lcom/commsource/camera/newrender/renderproxy/n;
 
     move-result-object v3
@@ -580,7 +541,6 @@
 
     invoke-virtual {v3, v2, v4}, Lcom/commsource/camera/newrender/renderproxy/n;->s(Ljava/lang/Object;Ljava/lang/Class;)V
 
-    .line 7
     invoke-virtual {v1}, Lcom/commsource/studio/processor/m;->J()Lcom/commsource/camera/newrender/renderproxy/n;
 
     move-result-object v2
@@ -603,34 +563,28 @@
 
     invoke-virtual {v2, v3, v4}, Lcom/commsource/camera/newrender/renderproxy/n;->s(Ljava/lang/Object;Ljava/lang/Class;)V
 
-    .line 8
     invoke-direct {p0}, Lcom/commsource/studio/function/RemoveWrinkleFragment;->I1()Lcom/commsource/studio/function/automanual/AutoManualStackLogic;
 
     move-result-object v2
 
-    .line 9
     new-instance v3, Lcom/commsource/studio/function/RemoveWrinkleFragment$a;
 
     invoke-direct {v3, v1, v1}, Lcom/commsource/studio/function/RemoveWrinkleFragment$a;-><init>(Lcom/commsource/studio/processor/m;Lcom/commsource/studio/processor/BaseEffectProcessor;)V
 
-    .line 10
     invoke-virtual {v1}, Lcom/commsource/studio/processor/BaseEffectProcessor;->n()Lcom/commsource/easyeditor/utils/opengl/f;
 
     move-result-object v4
 
     invoke-virtual {v3, v4}, Lcom/commsource/studio/function/RemoveWrinkleFragment$a;->d(Lcom/commsource/easyeditor/utils/opengl/f;)V
 
-    .line 11
     invoke-virtual {v2, v3}, Lcom/commsource/studio/function/automanual/AutoManualStackLogic;->p(Lcom/commsource/studio/function/automanual/a;)V
 
-    .line 12
     invoke-virtual {p0}, Lcom/commsource/studio/function/BaseSubFragment;->F0()Z
 
     move-result v2
 
     if-nez v2, :cond_0
 
-    .line 13
     invoke-virtual {v1}, Lcom/commsource/studio/processor/m;->J()Lcom/commsource/camera/newrender/renderproxy/n;
 
     move-result-object v2
@@ -659,26 +613,21 @@
 
     invoke-virtual {v2, v3}, Lcom/commsource/studio/r0/v;->z(F)V
 
-    .line 14
     invoke-virtual {v1}, Lcom/commsource/studio/processor/BaseEffectProcessor;->e()Lcom/commsource/easyeditor/utils/opengl/f;
 
     move-result-object v2
 
     invoke-virtual {v1, v2}, Lcom/commsource/studio/processor/m;->s(Lcom/commsource/easyeditor/utils/opengl/f;)V
 
-    .line 15
     :cond_0
     iput-object v1, p0, Lcom/commsource/studio/function/RemoveWrinkleFragment;->e0:Lcom/commsource/studio/processor/m;
 
-    .line 16
     new-instance v1, Lcom/commsource/studio/processor/l;
 
     invoke-direct {v1}, Lcom/commsource/studio/processor/l;-><init>()V
 
-    .line 17
     invoke-virtual {p0, v1}, Lcom/commsource/studio/function/BaseSubFragment;->D(Lcom/commsource/studio/processor/BaseEffectProcessor;)V
 
-    .line 18
     invoke-direct {p0}, Lcom/commsource/studio/function/RemoveWrinkleFragment;->I1()Lcom/commsource/studio/function/automanual/AutoManualStackLogic;
 
     move-result-object v2
@@ -709,10 +658,8 @@
 
     invoke-virtual {v2, v3}, Lcom/commsource/studio/function/automanual/AutoManualStackLogic;->q(Lcom/commsource/studio/function/automanual/d;)V
 
-    .line 19
     iput-object v1, p0, Lcom/commsource/studio/function/RemoveWrinkleFragment;->f0:Lcom/commsource/studio/processor/l;
 
-    .line 20
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -727,7 +674,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/function/RemoveWrinkleFragment;->f0:Lcom/commsource/studio/processor/l;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -742,10 +688,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0}, Lcom/commsource/studio/function/BaseSubFragment;->L0()V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/function/RemoveWrinkleFragment;->d0:Lcom/commsource/beautyplus/f0/cb;
 
     if-nez v1, :cond_0
@@ -763,7 +707,6 @@
 
     invoke-virtual {v1}, Lcom/commsource/studio/component/UndoRedoComponent$c;->B()V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -776,17 +719,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0}, Lcom/commsource/studio/function/BaseSubFragment;->M0()V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/function/RemoveWrinkleFragment;->f0:Lcom/commsource/studio/processor/l;
 
     if-eqz v1, :cond_0
 
     invoke-virtual {v1, p0}, Lcom/commsource/studio/processor/b;->J(Landroidx/fragment/app/Fragment;)V
 
-    .line 3
     :cond_0
     const-class v1, Lcom/commsource/studio/component/AutoManualComponent$b;
 
@@ -796,7 +736,6 @@
 
     check-cast v1, Lcom/commsource/studio/component/AutoManualComponent$b;
 
-    .line 4
     invoke-virtual {v1}, Lcom/commsource/studio/component/AutoManualComponent$b;->y()Landroidx/lifecycle/MutableLiveData;
 
     move-result-object v1
@@ -811,7 +750,6 @@
 
     invoke-virtual {v1, v2, v3}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 5
     iget-object v1, p0, Lcom/commsource/studio/function/RemoveWrinkleFragment;->d0:Lcom/commsource/beautyplus/f0/cb;
 
     if-nez v1, :cond_1
@@ -829,7 +767,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/widget/XSeekBar;->f(Lcom/commsource/widget/XSeekBar$b;)V
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -850,7 +787,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/function/RemoveWrinkleFragment;->h0:Lcom/commsource/studio/effect/c;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -869,7 +805,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/function/RemoveWrinkleFragment;->f0:Lcom/commsource/studio/processor/l;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -884,7 +819,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/studio/function/RemoveWrinkleFragment;->J1()Lcom/commsource/studio/effect/c;
 
     move-result-object v1
@@ -901,7 +835,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Lcom/commsource/studio/effect/c;
 
     invoke-virtual {p0, p1}, Lcom/commsource/studio/function/RemoveWrinkleFragment;->N1(Lcom/commsource/studio/effect/c;)V
@@ -918,7 +851,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/function/RemoveWrinkleFragment;->c0:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -933,7 +865,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/studio/function/RemoveWrinkleFragment;->c0:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -966,7 +897,6 @@
 
     invoke-static {p1, p3}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     new-instance p3, Lcom/commsource/studio/layer/PaintMaskLayer;
 
     iget-object v0, p0, Lcom/commsource/beautyplus/i0/a;->b:Landroid/app/Activity;
@@ -983,20 +913,16 @@
 
     const/4 v2, 0x0
 
-    .line 2
     invoke-static {p0, p3, v0, v1, v2}, Lcom/commsource/studio/function/BaseSubFragment;->F(Lcom/commsource/studio/function/BaseSubFragment;Lcom/commsource/studio/layer/d;IILjava/lang/Object;)V
 
-    .line 3
     new-instance v0, Lcom/commsource/studio/function/RemoveWrinkleFragment$onCreateView$$inlined$apply$lambda$1;
 
     invoke-direct {v0, p0}, Lcom/commsource/studio/function/RemoveWrinkleFragment$onCreateView$$inlined$apply$lambda$1;-><init>(Lcom/commsource/studio/function/RemoveWrinkleFragment;)V
 
     invoke-virtual {p3, v0}, Lcom/commsource/studio/layer/PaintMaskLayer;->Q0(Lcotlin/jvm/u/p;)V
 
-    .line 4
     iput-object p3, p0, Lcom/commsource/studio/function/RemoveWrinkleFragment;->g0:Lcom/commsource/studio/layer/PaintMaskLayer;
 
-    .line 5
     invoke-static {p1}, Lcom/commsource/beautyplus/f0/cb;->d(Landroid/view/LayoutInflater;)Lcom/commsource/beautyplus/f0/cb;
 
     move-result-object p1
@@ -1011,13 +937,11 @@
 
     if-nez p1, :cond_0
 
-    .line 6
     invoke-static {p3}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
     invoke-virtual {p1, p0}, Lcom/commsource/beautyplus/f0/cb;->i(Landroidx/fragment/app/Fragment;)V
 
-    .line 7
     iget-object p1, p0, Lcom/commsource/studio/function/RemoveWrinkleFragment;->d0:Lcom/commsource/beautyplus/f0/cb;
 
     if-nez p1, :cond_1
@@ -1069,10 +993,8 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-super {p0, p1, p2}, Lcom/commsource/studio/function/BaseSubFragment;->onViewCreated(Landroid/view/View;Landroid/os/Bundle;)V
 
-    .line 2
     iget-object p1, p0, Lcom/commsource/studio/function/RemoveWrinkleFragment;->d0:Lcom/commsource/beautyplus/f0/cb;
 
     const-string p2, "mViewBinding"
@@ -1090,7 +1012,6 @@
 
     invoke-virtual {p0, p1}, Lcom/commsource/studio/function/BaseSubFragment;->C(Landroid/view/View;)V
 
-    .line 3
     iget-object p1, p0, Lcom/commsource/studio/function/RemoveWrinkleFragment;->d0:Lcom/commsource/beautyplus/f0/cb;
 
     if-nez p1, :cond_1
@@ -1106,7 +1027,6 @@
 
     invoke-virtual {p0, p1}, Lcom/commsource/studio/function/BaseSubFragment;->C(Landroid/view/View;)V
 
-    .line 4
     iget-object p1, p0, Lcom/commsource/studio/function/RemoveWrinkleFragment;->d0:Lcom/commsource/beautyplus/f0/cb;
 
     if-nez p1, :cond_2
@@ -1122,7 +1042,6 @@
 
     invoke-virtual {p0, p1}, Lcom/commsource/studio/function/BaseSubFragment;->C(Landroid/view/View;)V
 
-    .line 5
     iget-object p1, p0, Lcom/commsource/studio/function/RemoveWrinkleFragment;->d0:Lcom/commsource/beautyplus/f0/cb;
 
     if-nez p1, :cond_3
@@ -1138,7 +1057,6 @@
 
     invoke-virtual {p0, p1}, Lcom/commsource/studio/function/BaseSubFragment;->C(Landroid/view/View;)V
 
-    .line 6
     invoke-virtual {p0}, Lcom/commsource/studio/function/BaseSubFragment;->F0()Z
 
     move-result p1
@@ -1147,7 +1065,6 @@
 
     if-nez p1, :cond_6
 
-    .line 7
     invoke-virtual {p0}, Lcom/commsource/studio/function/BaseSubFragment;->n0()Lcom/commsource/beautyplus/router/RouterEntity;
 
     move-result-object p1
@@ -1158,12 +1075,10 @@
 
     const-string v3, "strength"
 
-    .line 8
     invoke-virtual {p1, v3, v2}, Lcom/commsource/beautyplus/router/RouterEntity;->getParameterInt(Ljava/lang/String;I)I
 
     move-result v2
 
-    .line 9
     :cond_4
     invoke-virtual {p0}, Lcom/commsource/studio/function/RemoveWrinkleFragment;->J1()Lcom/commsource/studio/effect/c;
 
@@ -1175,7 +1090,6 @@
 
     invoke-static {p1, v2, v1, v3, v4}, Lcom/commsource/studio/effect/c;->I(Lcom/commsource/studio/effect/c;IIILjava/lang/Object;)V
 
-    .line 10
     iget-object p1, p0, Lcom/commsource/studio/function/RemoveWrinkleFragment;->d0:Lcom/commsource/beautyplus/f0/cb;
 
     if-nez p1, :cond_5
@@ -1187,7 +1101,6 @@
 
     invoke-virtual {p1, v2}, Lcom/commsource/widget/XSeekBar;->setProgress(I)V
 
-    .line 11
     :cond_6
     iget-object p1, p0, Lcom/commsource/studio/function/RemoveWrinkleFragment;->d0:Lcom/commsource/beautyplus/f0/cb;
 
@@ -1204,14 +1117,12 @@
 
     invoke-virtual {p1, v2}, Lcom/commsource/studio/component/AutoManualComponent;->setForceManualMode(Z)V
 
-    .line 12
     invoke-virtual {p0}, Lcom/commsource/studio/function/BaseSubFragment;->n0()Lcom/commsource/beautyplus/router/RouterEntity;
 
     move-result-object p1
 
     if-eqz p1, :cond_b
 
-    .line 13
     invoke-virtual {p1}, Lcom/commsource/beautyplus/router/RouterEntity;->getLastPathSegment()Ljava/lang/String;
 
     move-result-object v2
@@ -1224,7 +1135,6 @@
 
     if-eqz v2, :cond_9
 
-    .line 14
     iget-object p1, p0, Lcom/commsource/studio/function/RemoveWrinkleFragment;->d0:Lcom/commsource/beautyplus/f0/cb;
 
     if-nez p1, :cond_8
@@ -1238,7 +1148,6 @@
 
     goto :goto_0
 
-    .line 15
     :cond_9
     invoke-virtual {p1}, Lcom/commsource/beautyplus/router/RouterEntity;->getLastPathSegment()Ljava/lang/String;
 
@@ -1252,7 +1161,6 @@
 
     if-eqz p1, :cond_b
 
-    .line 16
     iget-object p1, p0, Lcom/commsource/studio/function/RemoveWrinkleFragment;->d0:Lcom/commsource/beautyplus/f0/cb;
 
     if-nez p1, :cond_a
@@ -1266,7 +1174,6 @@
 
     invoke-virtual {p1, v1}, Lcom/commsource/studio/component/AutoManualComponent;->setDefaultManualMode(Z)V
 
-    .line 17
     :cond_b
     :goto_0
     iget-object p1, p0, Lcom/commsource/studio/function/RemoveWrinkleFragment;->d0:Lcom/commsource/beautyplus/f0/cb;
@@ -1282,7 +1189,6 @@
 
     const/high16 v1, 0x41000000    # 8.0f
 
-    .line 18
     invoke-static {v1}, Lcom/meitu/library/p/f/i;->b(F)F
 
     move-result v1
@@ -1295,7 +1201,6 @@
 
     invoke-virtual {p1, p2, v1, v2}, Lcom/commsource/studio/component/PaintEraserComponent;->m(IFF)V
 
-    .line 19
     const-class p1, Lcom/commsource/studio/component/UndoRedoComponent$c;
 
     invoke-virtual {p0, p1}, Lcom/commsource/studio/function/BaseSubFragment;->x0(Ljava/lang/Class;)Landroidx/lifecycle/AndroidViewModel;
@@ -1318,7 +1223,6 @@
 
     invoke-virtual {p1, p2, v1}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 20
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

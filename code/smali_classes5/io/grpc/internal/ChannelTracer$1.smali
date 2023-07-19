@@ -32,7 +32,6 @@
 .method constructor <init>(Lio/grpc/internal/ChannelTracer;I)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lio/grpc/internal/ChannelTracer$1;->this$0:Lio/grpc/internal/ChannelTracer;
 
     iput p2, p0, Lio/grpc/internal/ChannelTracer$1;->val$maxEvents:I
@@ -50,7 +49,6 @@
         value = "lock"
     .end annotation
 
-    .line 2
     invoke-virtual {p0}, Ljava/util/ArrayDeque;->size()I
 
     move-result v0
@@ -59,16 +57,13 @@
 
     if-ne v0, v1, :cond_0
 
-    .line 3
     invoke-virtual {p0}, Ljava/util/ArrayDeque;->removeFirst()Ljava/lang/Object;
 
-    .line 4
     :cond_0
     iget-object v0, p0, Lio/grpc/internal/ChannelTracer$1;->this$0:Lio/grpc/internal/ChannelTracer;
 
     invoke-static {v0}, Lio/grpc/internal/ChannelTracer;->a(Lio/grpc/internal/ChannelTracer;)I
 
-    .line 5
     invoke-super {p0, p1}, Ljava/util/ArrayDeque;->add(Ljava/lang/Object;)Z
 
     move-result p1
@@ -82,7 +77,6 @@
         value = "lock"
     .end annotation
 
-    .line 1
     check-cast p1, Lio/grpc/InternalChannelz$ChannelTrace$Event;
 
     invoke-virtual {p0, p1}, Lio/grpc/internal/ChannelTracer$1;->add(Lio/grpc/InternalChannelz$ChannelTrace$Event;)Z

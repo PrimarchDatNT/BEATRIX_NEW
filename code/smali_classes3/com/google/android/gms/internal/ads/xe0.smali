@@ -84,22 +84,16 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/google/android/gms/internal/ads/xe0;->a:Lcom/google/android/gms/internal/ads/te0;
 
-    .line 3
     iput-object p2, p0, Lcom/google/android/gms/internal/ads/xe0;->b:Lcom/google/android/gms/internal/ads/d62;
 
-    .line 4
     iput-object p3, p0, Lcom/google/android/gms/internal/ads/xe0;->c:Lcom/google/android/gms/internal/ads/d62;
 
-    .line 5
     iput-object p4, p0, Lcom/google/android/gms/internal/ads/xe0;->d:Lcom/google/android/gms/internal/ads/d62;
 
-    .line 6
     iput-object p5, p0, Lcom/google/android/gms/internal/ads/xe0;->e:Lcom/google/android/gms/internal/ads/d62;
 
     return-void
@@ -127,7 +121,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v6, Lcom/google/android/gms/internal/ads/xe0;
 
     move-object v0, v6
@@ -152,7 +145,6 @@
 .method public final synthetic get()Ljava/lang/Object;
     .locals 6
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/xe0;->b:Lcom/google/android/gms/internal/ads/d62;
 
     invoke-interface {v0}, Lcom/google/android/gms/internal/ads/d62;->get()Ljava/lang/Object;
@@ -185,22 +177,18 @@
 
     check-cast v3, Lcom/google/android/gms/internal/ads/kh1;
 
-    .line 2
     new-instance v4, Lcom/google/android/gms/internal/ads/od0;
 
     new-instance v5, Lcom/google/android/gms/internal/ads/we0;
 
     invoke-direct {v5, v0, v1, v2, v3}, Lcom/google/android/gms/internal/ads/we0;-><init>(Landroid/content/Context;Lcom/google/android/gms/internal/ads/zzbbd;Lcom/google/android/gms/internal/ads/ug1;Lcom/google/android/gms/internal/ads/kh1;)V
 
-    .line 3
     sget-object v0, Lcom/google/android/gms/internal/ads/dq;->f:Lcom/google/android/gms/internal/ads/uq1;
 
-    .line 4
     invoke-direct {v4, v5, v0}, Lcom/google/android/gms/internal/ads/od0;-><init>(Ljava/lang/Object;Ljava/util/concurrent/Executor;)V
 
     const-string v0, "Cannot return null from a non-@Nullable @Provides method"
 
-    .line 5
     invoke-static {v4, v0}, Lcom/google/android/gms/internal/ads/a62;->b(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
 
     move-result-object v0

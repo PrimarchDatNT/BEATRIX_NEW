@@ -62,7 +62,6 @@
 
     if-eqz p1, :cond_1
 
-    .line 1
     invoke-virtual {p1}, Ljava/lang/Integer;->intValue()I
 
     move-result v2
@@ -71,7 +70,6 @@
 
     if-ne v2, v3, :cond_0
 
-    .line 2
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/transaction/ArTransaction$b;->a:Lcom/commsource/camera/xcamera/cover/transaction/ArTransaction;
 
     invoke-virtual {p1}, Lcom/commsource/camera/xcamera/cover/transaction/ArTransaction;->H()Lcom/commsource/camera/xcamera/BpCameraViewModel;
@@ -82,7 +80,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_0
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/transaction/ArTransaction$b;->a:Lcom/commsource/camera/xcamera/cover/transaction/ArTransaction;
 
@@ -98,7 +95,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_1
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/transaction/ArTransaction$b;->a:Lcom/commsource/camera/xcamera/cover/transaction/ArTransaction;
 
@@ -108,7 +104,6 @@
 
     invoke-virtual {p1, v1}, Lcom/commsource/camera/xcamera/BpCameraViewModel;->A2(I)V
 
-    .line 5
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -122,7 +117,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Ljava/lang/Integer;
 
     invoke-virtual {p0, p1}, Lcom/commsource/camera/xcamera/cover/transaction/ArTransaction$b;->a(Ljava/lang/Integer;)V

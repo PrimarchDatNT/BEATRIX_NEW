@@ -62,17 +62,14 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/puzzle/patchedworld/frame/PuzzleActivity$e;->a:Lcom/commsource/puzzle/patchedworld/frame/PuzzleActivity;
 
     invoke-static {v1}, Lcom/commsource/puzzle/patchedworld/frame/PuzzleActivity;->h1(Lcom/commsource/puzzle/patchedworld/frame/PuzzleActivity;)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/puzzle/patchedworld/frame/PuzzleActivity$e;->a:Lcom/commsource/puzzle/patchedworld/frame/PuzzleActivity;
 
     invoke-static {v1, p1}, Lcom/commsource/puzzle/patchedworld/frame/PuzzleActivity;->X0(Lcom/commsource/puzzle/patchedworld/frame/PuzzleActivity;Lcom/commsource/puzzle/patchedworld/x/b$c;)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -85,7 +82,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Lcom/commsource/puzzle/patchedworld/x/b$c;
 
     invoke-virtual {p0, p1}, Lcom/commsource/puzzle/patchedworld/frame/PuzzleActivity$e;->a(Lcom/commsource/puzzle/patchedworld/x/b$c;)V

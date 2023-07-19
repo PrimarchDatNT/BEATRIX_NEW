@@ -34,28 +34,22 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const-string v0, "https://api.data.meitu.com/location"
 
-    .line 2
     iput-object v0, p0, Lcom/meitu/countrylocation/h;->a:Ljava/lang/String;
 
     const/16 v0, 0x2710
 
-    .line 3
     iput v0, p0, Lcom/meitu/countrylocation/h;->g:I
 
     const/4 v0, 0x0
 
-    .line 4
     iput-boolean v0, p0, Lcom/meitu/countrylocation/h;->p:Z
 
-    .line 5
     iput v0, p0, Lcom/meitu/countrylocation/h;->J:I
 
-    .line 6
     iput-boolean v0, p0, Lcom/meitu/countrylocation/h;->K:Z
 
     return-void
@@ -64,55 +58,40 @@
 .method public constructor <init>(Ljava/lang/String;Ljava/lang/String;ILjava/lang/String;Ljava/lang/String;IZIZ)V
     .locals 1
 
-    .line 7
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const-string v0, "https://api.data.meitu.com/location"
 
-    .line 8
     iput-object v0, p0, Lcom/meitu/countrylocation/h;->a:Ljava/lang/String;
 
     const/16 v0, 0x2710
 
-    .line 9
     iput v0, p0, Lcom/meitu/countrylocation/h;->g:I
 
     const/4 v0, 0x0
 
-    .line 10
     iput-boolean v0, p0, Lcom/meitu/countrylocation/h;->p:Z
 
-    .line 11
     iput v0, p0, Lcom/meitu/countrylocation/h;->J:I
 
-    .line 12
     iput-boolean v0, p0, Lcom/meitu/countrylocation/h;->K:Z
 
-    .line 13
     iput-object p1, p0, Lcom/meitu/countrylocation/h;->a:Ljava/lang/String;
 
-    .line 14
     iput-object p2, p0, Lcom/meitu/countrylocation/h;->b:Ljava/lang/String;
 
-    .line 15
     iput p3, p0, Lcom/meitu/countrylocation/h;->c:I
 
-    .line 16
     iput-object p4, p0, Lcom/meitu/countrylocation/h;->d:Ljava/lang/String;
 
-    .line 17
     iput-object p5, p0, Lcom/meitu/countrylocation/h;->f:Ljava/lang/String;
 
-    .line 18
     iput p6, p0, Lcom/meitu/countrylocation/h;->g:I
 
-    .line 19
     iput-boolean p7, p0, Lcom/meitu/countrylocation/h;->p:Z
 
-    .line 20
     iput p8, p0, Lcom/meitu/countrylocation/h;->J:I
 
-    .line 21
     iput-boolean p9, p0, Lcom/meitu/countrylocation/h;->K:Z
 
     return-void
@@ -127,7 +106,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/countrylocation/h;->f:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -142,7 +120,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/countrylocation/h;->J:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -157,7 +134,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/countrylocation/h;->d:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -177,7 +153,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0}, Ljava/lang/Object;->clone()Ljava/lang/Object;
 
     move-result-object v1
@@ -194,7 +169,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/countrylocation/h;->c:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -209,7 +183,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/countrylocation/h;->g:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -224,7 +197,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/countrylocation/h;->b:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -239,7 +211,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/countrylocation/h;->a:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -254,7 +225,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/meitu/countrylocation/h;->K:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -269,7 +239,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/meitu/countrylocation/h;->p:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -284,10 +253,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/countrylocation/h;->f:Ljava/lang/String;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -300,10 +267,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/meitu/countrylocation/h;->K:Z
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -316,10 +281,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/meitu/countrylocation/h;->J:I
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -332,10 +295,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/meitu/countrylocation/h;->p:Z
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -348,10 +309,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/countrylocation/h;->d:Ljava/lang/String;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -364,10 +323,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/meitu/countrylocation/h;->c:I
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -380,10 +337,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/meitu/countrylocation/h;->g:I
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -396,10 +351,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/countrylocation/h;->b:Ljava/lang/String;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -412,10 +365,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/countrylocation/h;->a:Ljava/lang/String;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

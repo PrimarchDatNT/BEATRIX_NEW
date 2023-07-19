@@ -58,7 +58,6 @@
 
     goto :goto_0
 
-    .line 1
     :cond_0
     sget-object v1, Lcom/commsource/camera/xcamera/cover/transaction/a;->a:[I
 
@@ -74,7 +73,6 @@
 
     goto :goto_0
 
-    .line 2
     :cond_1
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
@@ -86,7 +84,6 @@
 
     if-eqz p1, :cond_2
 
-    .line 3
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
     move-result-object p1
@@ -95,7 +92,6 @@
 
     move-result-wide v1
 
-    .line 4
     invoke-static {}, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/z0;->E()Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/z0;
 
     move-result-object p1
@@ -108,7 +104,6 @@
 
     invoke-virtual {p1, v2, v1}, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/z0;->x(ILcom/commsource/util/common/d;)V
 
-    .line 5
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
     move-result-object p1
@@ -117,7 +112,6 @@
 
     invoke-static {p1, v1}, Lf/d/i/n;->o2(Landroid/content/Context;Z)V
 
-    .line 6
     :cond_2
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -132,7 +126,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Lcom/commsource/camera/xcamera/cover/bottomFunction/BottomFunction;
 
     invoke-virtual {p0, p1}, Lcom/commsource/camera/xcamera/cover/transaction/ArTransaction$g;->a(Lcom/commsource/camera/xcamera/cover/bottomFunction/BottomFunction;)V

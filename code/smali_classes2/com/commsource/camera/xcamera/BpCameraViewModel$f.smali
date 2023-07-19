@@ -38,7 +38,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/camera/xcamera/BpCameraViewModel$f;->a:Lcom/commsource/camera/xcamera/BpCameraViewModel;
 
     iput-object p2, p0, Lcom/commsource/camera/xcamera/BpCameraViewModel$f;->b:Lcom/meitu/template/bean/k;
@@ -59,7 +58,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/BpCameraViewModel$f;->a:Lcom/commsource/camera/xcamera/BpCameraViewModel;
 
     invoke-static {v1}, Lcom/commsource/camera/xcamera/BpCameraViewModel;->g1(Lcom/commsource/camera/xcamera/BpCameraViewModel;)Lcom/commsource/camera/xcamera/CameraEffectManager;
@@ -88,7 +86,6 @@
 
     if-eqz v1, :cond_1
 
-    .line 2
     sget-object v2, Lcom/commsource/camera/a1/g;->g:[I
 
     array-length v3, v2
@@ -100,14 +97,12 @@
 
     aget v5, v2, v4
 
-    .line 3
     invoke-static {v1, v5}, Lcom/commsource/camera/newrender/renderproxy/ARKernelUtils;->i(Lcom/meitu/mtlab/arkernelinterface/core/ARKernelPlistDataInterfaceJNI;I)Z
 
     move-result v6
 
     if-nez v6, :cond_0
 
-    .line 4
     iget-object v6, p0, Lcom/commsource/camera/xcamera/BpCameraViewModel$f;->b:Lcom/meitu/template/bean/k;
 
     if-eqz v6, :cond_0
@@ -125,7 +120,6 @@
 
     goto :goto_0
 
-    .line 5
     :cond_1
     new-instance v1, Lcom/commsource/camera/xcamera/BpCameraViewModel$f$a;
 
@@ -133,7 +127,6 @@
 
     invoke-static {v1}, Lcom/commsource/util/g2;->k(Ljava/lang/Runnable;)V
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -146,7 +139,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

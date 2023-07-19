@@ -26,7 +26,6 @@
 .method constructor <init>(Lcom/mopub/network/MoPubImageLoader$ImageListener;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/mopub/network/MoPubImageLoader$fetch$1;->$listener:Lcom/mopub/network/MoPubImageLoader$ImageListener;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -43,14 +42,12 @@
         .end annotation
     .end param
 
-    .line 1
     sget-object v0, Lcom/mopub/network/MoPubNetworkError;->Companion:Lcom/mopub/network/MoPubNetworkError$Companion;
 
     invoke-virtual {v0, p1}, Lcom/mopub/network/MoPubNetworkError$Companion;->volleyErrorToMoPubNetworkError$mopub_sdk_networking_release(Lcom/mopub/volley/VolleyError;)Lcom/mopub/network/MoPubNetworkError;
 
     move-result-object p1
 
-    .line 2
     iget-object v0, p0, Lcom/mopub/network/MoPubImageLoader$fetch$1;->$listener:Lcom/mopub/network/MoPubImageLoader$ImageListener;
 
     invoke-interface {v0, p1}, Lcom/mopub/network/MoPubResponse$Listener;->onErrorResponse(Lcom/mopub/network/MoPubNetworkError;)V
@@ -69,7 +66,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     new-instance v0, Lcom/mopub/network/MoPubImageLoader$ImageContainer;
 
     invoke-virtual {p1}, Lcom/mopub/volley/toolbox/ImageLoader$ImageContainer;->getBitmap()Landroid/graphics/Bitmap;
@@ -78,7 +74,6 @@
 
     invoke-direct {v0, p1}, Lcom/mopub/network/MoPubImageLoader$ImageContainer;-><init>(Landroid/graphics/Bitmap;)V
 
-    .line 2
     iget-object p1, p0, Lcom/mopub/network/MoPubImageLoader$fetch$1;->$listener:Lcom/mopub/network/MoPubImageLoader$ImageListener;
 
     invoke-interface {p1, v0, p2}, Lcom/mopub/network/MoPubImageLoader$ImageListener;->onResponse(Lcom/mopub/network/MoPubImageLoader$ImageContainer;Z)V

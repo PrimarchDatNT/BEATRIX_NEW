@@ -42,7 +42,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/sharelink/ShareDialog$e;->a:Lcom/commsource/sharelink/ShareDialog;
 
     invoke-static {v0}, Lcom/commsource/sharelink/ShareDialog;->K(Lcom/commsource/sharelink/ShareDialog;)Landroid/app/Dialog;
@@ -67,7 +66,6 @@
 
     if-nez v0, :cond_0
 
-    .line 2
     iget-object v0, p0, Lcom/commsource/sharelink/ShareDialog$e;->a:Lcom/commsource/sharelink/ShareDialog;
 
     invoke-static {v0}, Lcom/commsource/sharelink/ShareDialog;->K(Lcom/commsource/sharelink/ShareDialog;)Landroid/app/Dialog;
@@ -76,7 +74,6 @@
 
     invoke-virtual {v0}, Landroid/app/Dialog;->show()V
 
-    .line 3
     :cond_0
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

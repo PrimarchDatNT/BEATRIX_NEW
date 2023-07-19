@@ -29,7 +29,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -38,10 +37,8 @@
 .method public constructor <init>(I)V
     .locals 0
 
-    .line 2
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 3
     iput p1, p0, Lcom/tencent/matrix/h/b;->a:I
 
     return-void
@@ -50,10 +47,8 @@
 .method public constructor <init>(Lorg/json/JSONObject;)V
     .locals 0
 
-    .line 4
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 5
     iput-object p1, p0, Lcom/tencent/matrix/h/b;->d:Lorg/json/JSONObject;
 
     return-void
@@ -64,7 +59,6 @@
 .method public a()Lorg/json/JSONObject;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/tencent/matrix/h/b;->d:Lorg/json/JSONObject;
 
     return-object v0
@@ -73,7 +67,6 @@
 .method public b()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/tencent/matrix/h/b;->c:Ljava/lang/String;
 
     return-object v0
@@ -82,7 +75,6 @@
 .method public c()Lcom/tencent/matrix/g/c;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/tencent/matrix/h/b;->e:Lcom/tencent/matrix/g/c;
 
     return-object v0
@@ -91,7 +83,6 @@
 .method public d()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/tencent/matrix/h/b;->b:Ljava/lang/String;
 
     return-object v0
@@ -100,7 +91,6 @@
 .method public e()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lcom/tencent/matrix/h/b;->a:I
 
     return v0
@@ -109,7 +99,6 @@
 .method public f(Lorg/json/JSONObject;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/tencent/matrix/h/b;->d:Lorg/json/JSONObject;
 
     return-void
@@ -118,7 +107,6 @@
 .method public g(Ljava/lang/String;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/tencent/matrix/h/b;->c:Ljava/lang/String;
 
     return-void
@@ -127,7 +115,6 @@
 .method public h(Lcom/tencent/matrix/g/c;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/tencent/matrix/h/b;->e:Lcom/tencent/matrix/g/c;
 
     return-void
@@ -136,7 +123,6 @@
 .method public i(Ljava/lang/String;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/tencent/matrix/h/b;->b:Ljava/lang/String;
 
     return-void
@@ -145,7 +131,6 @@
 .method public j(I)V
     .locals 0
 
-    .line 1
     iput p1, p0, Lcom/tencent/matrix/h/b;->a:I
 
     return-void
@@ -154,7 +139,6 @@
 .method public toString()Ljava/lang/String;
     .locals 4
 
-    .line 1
     iget-object v0, p0, Lcom/tencent/matrix/h/b;->d:Lorg/json/JSONObject;
 
     if-eqz v0, :cond_0
@@ -175,7 +159,6 @@
 
     const/4 v2, 0x0
 
-    .line 2
     iget-object v3, p0, Lcom/tencent/matrix/h/b;->b:Ljava/lang/String;
 
     aput-object v3, v1, v2

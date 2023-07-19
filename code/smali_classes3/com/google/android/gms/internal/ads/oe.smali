@@ -14,7 +14,6 @@
 .method constructor <init>(Lcom/google/android/gms/internal/ads/zzapn;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/android/gms/internal/ads/oe;->a:Lcom/google/android/gms/internal/ads/zzapn;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -29,10 +28,8 @@
 
     const-string v0, "Opening AdMobCustomTabsAdapter overlay."
 
-    .line 1
     invoke-static {v0}, Lcom/google/android/gms/internal/ads/aq;->f(Ljava/lang/String;)V
 
-    .line 2
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/oe;->a:Lcom/google/android/gms/internal/ads/zzapn;
 
     invoke-static {v0}, Lcom/google/android/gms/internal/ads/zzapn;->a(Lcom/google/android/gms/internal/ads/zzapn;)Lcom/google/android/gms/ads/mediation/q;
@@ -51,10 +48,8 @@
 
     const-string v0, "AdMobCustomTabsAdapter overlay is closed."
 
-    .line 1
     invoke-static {v0}, Lcom/google/android/gms/internal/ads/aq;->f(Ljava/lang/String;)V
 
-    .line 2
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/oe;->a:Lcom/google/android/gms/internal/ads/zzapn;
 
     invoke-static {v0}, Lcom/google/android/gms/internal/ads/zzapn;->a(Lcom/google/android/gms/internal/ads/zzapn;)Lcom/google/android/gms/ads/mediation/q;
@@ -73,7 +68,6 @@
 
     const-string v0, "AdMobCustomTabsAdapter overlay is paused."
 
-    .line 1
     invoke-static {v0}, Lcom/google/android/gms/internal/ads/aq;->f(Ljava/lang/String;)V
 
     return-void
@@ -84,7 +78,6 @@
 
     const-string v0, "AdMobCustomTabsAdapter overlay is resumed."
 
-    .line 1
     invoke-static {v0}, Lcom/google/android/gms/internal/ads/aq;->f(Ljava/lang/String;)V
 
     return-void

@@ -32,7 +32,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/video/cover/VideoControllCover$c;->a:Lcom/commsource/video/cover/VideoControllCover;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -49,17 +48,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p0, p1, p2}, Lcom/commsource/widget/XSeekBar$b$a;->c(Lcom/commsource/widget/XSeekBar$b;IF)V
 
-    .line 2
     iget-object p1, p0, Lcom/commsource/video/cover/VideoControllCover$c;->a:Lcom/commsource/video/cover/VideoControllCover;
 
     const/4 p2, 0x1
 
     invoke-virtual {p1, p2}, Lcom/commsource/video/cover/VideoControllCover;->B(Z)V
 
-    .line 3
     iget-object p1, p0, Lcom/commsource/video/cover/VideoControllCover$c;->a:Lcom/commsource/video/cover/VideoControllCover;
 
     invoke-virtual {p1}, Lcom/commsource/video/cover/VideoControllCover;->u()Lcom/commsource/video/decoder/d;
@@ -68,7 +64,6 @@
 
     invoke-virtual {p1}, Lcom/commsource/video/decoder/d;->c()V
 
-    .line 4
     iget-object p1, p0, Lcom/commsource/video/cover/VideoControllCover$c;->a:Lcom/commsource/video/cover/VideoControllCover;
 
     invoke-virtual {p1}, Lcom/commsource/video/cover/a;->k()Lcom/commsource/video/view/XVideoUIGroup;
@@ -77,7 +72,6 @@
 
     invoke-virtual {p1}, Lcom/commsource/video/view/XVideoUIGroup;->e()V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -90,7 +84,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p0, p1, p2, p3}, Lcom/commsource/widget/XSeekBar$b$a;->a(Lcom/commsource/widget/XSeekBar$b;IFZ)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -105,7 +98,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p0, p1, p2, p3}, Lcom/commsource/widget/XSeekBar$b$a;->b(Lcom/commsource/widget/XSeekBar$b;IFZ)V
 
     if-eqz p3, :cond_0
@@ -116,7 +108,6 @@
 
     div-float/2addr p1, p2
 
-    .line 2
     iget-object p2, p0, Lcom/commsource/video/cover/VideoControllCover$c;->a:Lcom/commsource/video/cover/VideoControllCover;
 
     invoke-virtual {p2}, Lcom/commsource/video/cover/VideoControllCover;->t()I
@@ -127,7 +118,6 @@
 
     mul-float p1, p1, p2
 
-    .line 3
     iget-object p2, p0, Lcom/commsource/video/cover/VideoControllCover$c;->a:Lcom/commsource/video/cover/VideoControllCover;
 
     invoke-virtual {p2}, Lcom/commsource/video/cover/VideoControllCover;->v()Ljava/lang/String;
@@ -136,7 +126,6 @@
 
     if-eqz p2, :cond_0
 
-    .line 4
     iget-object p3, p0, Lcom/commsource/video/cover/VideoControllCover$c;->a:Lcom/commsource/video/cover/VideoControllCover;
 
     invoke-virtual {p3}, Lcom/commsource/video/cover/a;->m()Landroidx/databinding/ViewDataBinding;
@@ -161,7 +150,6 @@
 
     invoke-virtual {p3, p1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 5
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -175,10 +163,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p0, p1, p2, p3}, Lcom/commsource/widget/XSeekBar$b$a;->d(Lcom/commsource/widget/XSeekBar$b;IFZ)V
 
-    .line 2
     iget-object p2, p0, Lcom/commsource/video/cover/VideoControllCover$c;->a:Lcom/commsource/video/cover/VideoControllCover;
 
     const/4 p3, 0x0
@@ -191,7 +177,6 @@
 
     div-float/2addr p1, p2
 
-    .line 3
     iget-object p2, p0, Lcom/commsource/video/cover/VideoControllCover$c;->a:Lcom/commsource/video/cover/VideoControllCover;
 
     invoke-virtual {p2}, Lcom/commsource/video/cover/VideoControllCover;->t()I
@@ -202,7 +187,6 @@
 
     mul-float p1, p1, p2
 
-    .line 4
     iget-object p2, p0, Lcom/commsource/video/cover/VideoControllCover$c;->a:Lcom/commsource/video/cover/VideoControllCover;
 
     invoke-virtual {p2}, Lcom/commsource/video/cover/a;->k()Lcom/commsource/video/view/XVideoUIGroup;
@@ -213,7 +197,6 @@
 
     invoke-virtual {p2, p1}, Lcom/commsource/video/view/XVideoUIGroup;->s(I)V
 
-    .line 5
     iget-object p1, p0, Lcom/commsource/video/cover/VideoControllCover$c;->a:Lcom/commsource/video/cover/VideoControllCover;
 
     invoke-virtual {p1}, Lcom/commsource/video/cover/a;->k()Lcom/commsource/video/view/XVideoUIGroup;
@@ -222,7 +205,6 @@
 
     invoke-virtual {p1}, Lcom/commsource/video/view/XVideoUIGroup;->o()V
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

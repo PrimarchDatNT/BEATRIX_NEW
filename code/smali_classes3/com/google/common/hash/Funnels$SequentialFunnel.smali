@@ -53,10 +53,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     invoke-static {p1}, Lcom/google/common/base/t;->E(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -77,15 +75,12 @@
         .end annotation
     .end param
 
-    .line 1
     instance-of v0, p1, Lcom/google/common/hash/Funnels$SequentialFunnel;
 
     if-eqz v0, :cond_0
 
-    .line 2
     check-cast p1, Lcom/google/common/hash/Funnels$SequentialFunnel;
 
-    .line 3
     iget-object v0, p0, Lcom/google/common/hash/Funnels$SequentialFunnel;->elementFunnel:Lcom/google/common/hash/Funnel;
 
     iget-object p1, p1, Lcom/google/common/hash/Funnels$SequentialFunnel;->elementFunnel:Lcom/google/common/hash/Funnel;
@@ -114,7 +109,6 @@
         }
     .end annotation
 
-    .line 2
     invoke-interface {p1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object p1
@@ -130,7 +124,6 @@
 
     move-result-object v0
 
-    .line 3
     iget-object v1, p0, Lcom/google/common/hash/Funnels$SequentialFunnel;->elementFunnel:Lcom/google/common/hash/Funnel;
 
     invoke-interface {v1, v0, p2}, Lcom/google/common/hash/Funnel;->funnel(Ljava/lang/Object;Lcom/google/common/hash/p;)V
@@ -144,7 +137,6 @@
 .method public bridge synthetic funnel(Ljava/lang/Object;Lcom/google/common/hash/p;)V
     .locals 0
 
-    .line 1
     check-cast p1, Ljava/lang/Iterable;
 
     invoke-virtual {p0, p1, p2}, Lcom/google/common/hash/Funnels$SequentialFunnel;->funnel(Ljava/lang/Iterable;Lcom/google/common/hash/p;)V
@@ -155,7 +147,6 @@
 .method public hashCode()I
     .locals 2
 
-    .line 1
     const-class v0, Lcom/google/common/hash/Funnels$SequentialFunnel;
 
     invoke-virtual {v0}, Ljava/lang/Object;->hashCode()I
@@ -176,7 +167,6 @@
 .method public toString()Ljava/lang/String;
     .locals 2
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V

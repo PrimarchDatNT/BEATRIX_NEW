@@ -69,7 +69,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     :try_start_0
     sget-object v0, Lcotlin/Result;->Companion:Lcotlin/Result$a;
 

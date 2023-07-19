@@ -39,7 +39,6 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
     new-instance v0, Lcom/kwai/koom/javaoom/common/KHeapFile$BaseFile$a;
 
     invoke-direct {v0}, Lcom/kwai/koom/javaoom/common/KHeapFile$BaseFile$a;-><init>()V
@@ -52,10 +51,8 @@
 .method protected constructor <init>(Landroid/os/Parcel;)V
     .locals 0
 
-    .line 4
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 5
     invoke-virtual {p1}, Landroid/os/Parcel;->readString()Ljava/lang/String;
 
     move-result-object p1
@@ -68,10 +65,8 @@
 .method private constructor <init>(Ljava/lang/String;)V
     .locals 0
 
-    .line 2
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 3
     iput-object p1, p0, Lcom/kwai/koom/javaoom/common/KHeapFile$BaseFile;->b:Ljava/lang/String;
 
     return-void
@@ -80,7 +75,6 @@
 .method synthetic constructor <init>(Ljava/lang/String;Lcom/kwai/koom/javaoom/common/KHeapFile$a;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/kwai/koom/javaoom/common/KHeapFile$BaseFile;-><init>(Ljava/lang/String;)V
 
     return-void
@@ -91,7 +85,6 @@
 .method public a()V
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/kwai/koom/javaoom/common/KHeapFile$BaseFile;->b()Ljava/io/File;
 
     move-result-object v0
@@ -100,7 +93,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-virtual {v0}, Ljava/io/File;->delete()Z
 
     :cond_0
@@ -110,7 +102,6 @@
 .method public b()Ljava/io/File;
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/kwai/koom/javaoom/common/KHeapFile$BaseFile;->a:Ljava/io/File;
 
     if-nez v0, :cond_0
@@ -130,7 +121,6 @@
 .method public c()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/kwai/koom/javaoom/common/KHeapFile$BaseFile;->b:Ljava/lang/String;
 
     return-object v0
@@ -147,7 +137,6 @@
 .method public writeToParcel(Landroid/os/Parcel;I)V
     .locals 0
 
-    .line 1
     iget-object p2, p0, Lcom/kwai/koom/javaoom/common/KHeapFile$BaseFile;->b:Ljava/lang/String;
 
     invoke-virtual {p1, p2}, Landroid/os/Parcel;->writeString(Ljava/lang/String;)V

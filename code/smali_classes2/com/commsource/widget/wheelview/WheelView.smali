@@ -113,14 +113,12 @@
 
     new-array v1, v1, [I
 
-    .line 1
     fill-array-data v1, :array_0
 
     sput-object v1, Lcom/commsource/widget/wheelview/WheelView;->j0:[I
 
     const/high16 v1, 0x41000000    # 8.0f
 
-    .line 2
     invoke-static {v1}, Lcom/meitu/library/p/f/i;->d(F)I
 
     move-result v2
@@ -129,21 +127,18 @@
 
     const/high16 v2, 0x41800000    # 16.0f
 
-    .line 3
     invoke-static {v2}, Lcom/meitu/library/p/f/i;->d(F)I
 
     move-result v3
 
     sput v3, Lcom/commsource/widget/wheelview/WheelView;->l0:I
 
-    .line 4
     invoke-static {v2}, Lcom/meitu/library/p/f/i;->d(F)I
 
     move-result v2
 
     sput v2, Lcom/commsource/widget/wheelview/WheelView;->m0:I
 
-    .line 5
     sget v2, Lcom/commsource/widget/wheelview/WheelView;->l0:I
 
     div-int/lit8 v2, v2, 0xa
@@ -152,21 +147,18 @@
 
     const/high16 v2, 0x41200000    # 10.0f
 
-    .line 6
     invoke-static {v2}, Lcom/meitu/library/p/f/i;->d(F)I
 
     move-result v3
 
     sput v3, Lcom/commsource/widget/wheelview/WheelView;->o0:I
 
-    .line 7
     invoke-static {v1}, Lcom/meitu/library/p/f/i;->d(F)I
 
     move-result v1
 
     sput v1, Lcom/commsource/widget/wheelview/WheelView;->p0:I
 
-    .line 8
     invoke-static {v2}, Lcom/meitu/library/p/f/i;->d(F)I
 
     move-result v1
@@ -192,7 +184,6 @@
 
     const/4 v0, 0x0
 
-    .line 17
     invoke-direct {p0, p1, v0}, Lcom/commsource/widget/wheelview/WheelView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
     return-void
@@ -203,7 +194,6 @@
 
     const/4 v0, 0x0
 
-    .line 16
     invoke-direct {p0, p1, p2, v0}, Lcom/commsource/widget/wheelview/WheelView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
     return-void
@@ -212,73 +202,58 @@
 .method public constructor <init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1, p2, p3}, Landroid/view/View;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
     const/4 p2, 0x0
 
-    .line 2
     iput-object p2, p0, Lcom/commsource/widget/wheelview/WheelView;->a:Lcom/commsource/widget/wheelview/g;
 
     const/4 p2, 0x0
 
-    .line 3
     iput p2, p0, Lcom/commsource/widget/wheelview/WheelView;->b:I
 
-    .line 4
     iput p2, p0, Lcom/commsource/widget/wheelview/WheelView;->c:I
 
-    .line 5
     iput p2, p0, Lcom/commsource/widget/wheelview/WheelView;->d:I
 
     const/4 p3, 0x3
 
-    .line 6
     iput p3, p0, Lcom/commsource/widget/wheelview/WheelView;->f:I
 
-    .line 7
     iput p2, p0, Lcom/commsource/widget/wheelview/WheelView;->g:I
 
-    .line 8
     iput-boolean p2, p0, Lcom/commsource/widget/wheelview/WheelView;->V:Z
 
-    .line 9
     new-instance p3, Ljava/util/LinkedList;
 
     invoke-direct {p3}, Ljava/util/LinkedList;-><init>()V
 
     iput-object p3, p0, Lcom/commsource/widget/wheelview/WheelView;->W:Ljava/util/List;
 
-    .line 10
     new-instance p3, Ljava/util/LinkedList;
 
     invoke-direct {p3}, Ljava/util/LinkedList;-><init>()V
 
     iput-object p3, p0, Lcom/commsource/widget/wheelview/WheelView;->a0:Ljava/util/List;
 
-    .line 11
     new-instance p3, Lcom/commsource/widget/wheelview/WheelView$a;
 
     invoke-direct {p3, p0}, Lcom/commsource/widget/wheelview/WheelView$a;-><init>(Lcom/commsource/widget/wheelview/WheelView;)V
 
     iput-object p3, p0, Lcom/commsource/widget/wheelview/WheelView;->b0:Landroid/view/GestureDetector$SimpleOnGestureListener;
 
-    .line 12
     iput p2, p0, Lcom/commsource/widget/wheelview/WheelView;->c0:I
 
     const/4 p2, 0x1
 
-    .line 13
     iput p2, p0, Lcom/commsource/widget/wheelview/WheelView;->d0:I
 
-    .line 14
     new-instance p2, Lcom/commsource/widget/wheelview/WheelView$b;
 
     invoke-direct {p2, p0}, Lcom/commsource/widget/wheelview/WheelView$b;-><init>(Lcom/commsource/widget/wheelview/WheelView;)V
 
     iput-object p2, p0, Lcom/commsource/widget/wheelview/WheelView;->e0:Landroid/os/Handler;
 
-    .line 15
     invoke-direct {p0, p1}, Lcom/commsource/widget/wheelview/WheelView;->C(Landroid/content/Context;)V
 
     return-void
@@ -295,12 +270,10 @@
 
     const/4 p1, 0x0
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
 
-    .line 2
     :cond_0
     invoke-direct {p0}, Lcom/commsource/widget/wheelview/WheelView;->getItemHeight()I
 
@@ -316,7 +289,6 @@
 
     sub-int/2addr p1, v1
 
-    .line 3
     invoke-virtual {p0}, Landroid/view/View;->getSuggestedMinimumHeight()I
 
     move-result v1
@@ -325,7 +297,6 @@
 
     move-result p1
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
@@ -338,7 +309,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/widget/wheelview/WheelView;->a:Lcom/commsource/widget/wheelview/g;
 
     const/4 v2, 0x0
@@ -353,7 +323,6 @@
 
     goto :goto_1
 
-    .line 2
     :cond_0
     iget-object v1, p0, Lcom/commsource/widget/wheelview/WheelView;->a:Lcom/commsource/widget/wheelview/g;
 
@@ -365,13 +334,11 @@
 
     if-lt p1, v1, :cond_2
 
-    .line 3
     :cond_1
     iget-boolean v3, p0, Lcom/commsource/widget/wheelview/WheelView;->V:Z
 
     if-nez v3, :cond_2
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v2
@@ -384,11 +351,9 @@
 
     goto :goto_0
 
-    .line 5
     :cond_3
     rem-int/2addr p1, v1
 
-    .line 6
     iget-object v1, p0, Lcom/commsource/widget/wheelview/WheelView;->a:Lcom/commsource/widget/wheelview/g;
 
     invoke-interface {v1, p1}, Lcom/commsource/widget/wheelview/g;->getItem(I)Ljava/lang/String;
@@ -399,7 +364,6 @@
 
     return-object p1
 
-    .line 7
     :cond_4
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -419,7 +383,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Landroid/view/GestureDetector;
 
     iget-object v2, p0, Lcom/commsource/widget/wheelview/WheelView;->b0:Landroid/view/GestureDetector$SimpleOnGestureListener;
@@ -430,17 +393,14 @@
 
     const/4 v2, 0x0
 
-    .line 2
     invoke-virtual {v1, v2}, Landroid/view/GestureDetector;->setIsLongpressEnabled(Z)V
 
-    .line 3
     new-instance v1, Landroid/widget/Scroller;
 
     invoke-direct {v1, p1}, Landroid/widget/Scroller;-><init>(Landroid/content/Context;)V
 
     iput-object v1, p0, Lcom/commsource/widget/wheelview/WheelView;->T:Landroid/widget/Scroller;
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -453,12 +413,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/widget/wheelview/WheelView;->p:Landroid/text/TextPaint;
 
     if-nez v1, :cond_0
 
-    .line 2
     new-instance v1, Landroid/text/TextPaint;
 
     const/4 v2, 0x1
@@ -467,20 +425,17 @@
 
     iput-object v1, p0, Lcom/commsource/widget/wheelview/WheelView;->p:Landroid/text/TextPaint;
 
-    .line 3
     sget v2, Lcom/commsource/widget/wheelview/WheelView;->l0:I
 
     int-to-float v2, v2
 
     invoke-virtual {v1, v2}, Landroid/text/TextPaint;->setTextSize(F)V
 
-    .line 4
     :cond_0
     iget-object v1, p0, Lcom/commsource/widget/wheelview/WheelView;->J:Landroid/text/TextPaint;
 
     if-nez v1, :cond_1
 
-    .line 5
     new-instance v1, Landroid/text/TextPaint;
 
     const/4 v2, 0x5
@@ -489,14 +444,12 @@
 
     iput-object v1, p0, Lcom/commsource/widget/wheelview/WheelView;->J:Landroid/text/TextPaint;
 
-    .line 6
     sget v2, Lcom/commsource/widget/wheelview/WheelView;->m0:I
 
     int-to-float v2, v2
 
     invoke-virtual {v1, v2}, Landroid/text/TextPaint;->setTextSize(F)V
 
-    .line 7
     iget-object v1, p0, Lcom/commsource/widget/wheelview/WheelView;->J:Landroid/text/TextPaint;
 
     const/4 v2, 0x0
@@ -507,13 +460,11 @@
 
     invoke-virtual {v1, v4, v2, v4, v3}, Landroid/text/TextPaint;->setShadowLayer(FFFI)V
 
-    .line 8
     :cond_1
     iget-object v1, p0, Lcom/commsource/widget/wheelview/WheelView;->O:Landroid/graphics/drawable/GradientDrawable;
 
     if-nez v1, :cond_2
 
-    .line 9
     new-instance v1, Landroid/graphics/drawable/GradientDrawable;
 
     sget-object v2, Landroid/graphics/drawable/GradientDrawable$Orientation;->TOP_BOTTOM:Landroid/graphics/drawable/GradientDrawable$Orientation;
@@ -524,13 +475,11 @@
 
     iput-object v1, p0, Lcom/commsource/widget/wheelview/WheelView;->O:Landroid/graphics/drawable/GradientDrawable;
 
-    .line 10
     :cond_2
     iget-object v1, p0, Lcom/commsource/widget/wheelview/WheelView;->P:Landroid/graphics/drawable/GradientDrawable;
 
     if-nez v1, :cond_3
 
-    .line 11
     new-instance v1, Landroid/graphics/drawable/GradientDrawable;
 
     sget-object v2, Landroid/graphics/drawable/GradientDrawable$Orientation;->BOTTOM_TOP:Landroid/graphics/drawable/GradientDrawable$Orientation;
@@ -541,7 +490,6 @@
 
     iput-object v1, p0, Lcom/commsource/widget/wheelview/WheelView;->P:Landroid/graphics/drawable/GradientDrawable;
 
-    .line 12
     :cond_3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -557,18 +505,14 @@
 
     const/4 v1, 0x0
 
-    .line 1
     iput-object v1, p0, Lcom/commsource/widget/wheelview/WheelView;->K:Landroid/text/StaticLayout;
 
-    .line 2
     iput-object v1, p0, Lcom/commsource/widget/wheelview/WheelView;->M:Landroid/text/StaticLayout;
 
     const/4 v1, 0x0
 
-    .line 3
     iput v1, p0, Lcom/commsource/widget/wheelview/WheelView;->R:I
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -581,12 +525,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/widget/wheelview/WheelView;->a:Lcom/commsource/widget/wheelview/g;
 
     if-nez v1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -594,20 +536,16 @@
     :cond_0
     const/4 v1, 0x0
 
-    .line 3
     iput v1, p0, Lcom/commsource/widget/wheelview/WheelView;->U:I
 
-    .line 4
     iget v2, p0, Lcom/commsource/widget/wheelview/WheelView;->R:I
 
-    .line 5
     invoke-direct {p0}, Lcom/commsource/widget/wheelview/WheelView;->getItemHeight()I
 
     move-result v3
 
     const/4 v4, 0x1
 
-    .line 6
     iget v5, p0, Lcom/commsource/widget/wheelview/WheelView;->b:I
 
     if-lez v2, :cond_1
@@ -628,7 +566,6 @@
     :goto_0
     const/4 v1, 0x1
 
-    .line 7
     :cond_2
     iget-boolean v5, p0, Lcom/commsource/widget/wheelview/WheelView;->V:Z
 
@@ -670,14 +607,12 @@
     :goto_1
     move v9, v2
 
-    .line 8
     invoke-static {v9}, Ljava/lang/Math;->abs(I)I
 
     move-result v1
 
     if-le v1, v4, :cond_6
 
-    .line 9
     iget-object v5, p0, Lcom/commsource/widget/wheelview/WheelView;->T:Landroid/widget/Scroller;
 
     const/4 v6, 0x0
@@ -690,16 +625,13 @@
 
     invoke-virtual/range {v5 .. v10}, Landroid/widget/Scroller;->startScroll(IIIII)V
 
-    .line 10
     invoke-direct {p0, v4}, Lcom/commsource/widget/wheelview/WheelView;->setNextMessage(I)V
 
     goto :goto_2
 
-    .line 11
     :cond_6
     invoke-virtual {p0}, Lcom/commsource/widget/wheelview/WheelView;->z()V
 
-    .line 12
     :goto_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -713,20 +645,16 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/widget/wheelview/WheelView;->Q:Z
 
     if-nez v1, :cond_0
 
     const/4 v1, 0x1
 
-    .line 2
     iput-boolean v1, p0, Lcom/commsource/widget/wheelview/WheelView;->Q:Z
 
-    .line 3
     invoke-virtual {p0}, Lcom/commsource/widget/wheelview/WheelView;->J()V
 
-    .line 4
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -740,7 +668,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean p0, p0, Lcom/commsource/widget/wheelview/WheelView;->Q:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -755,7 +682,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/widget/wheelview/WheelView;->T:Landroid/widget/Scroller;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -770,7 +696,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/commsource/widget/wheelview/WheelView;->setNextMessage(I)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -785,7 +710,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/widget/wheelview/WheelView;->e0:Landroid/os/Handler;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -800,7 +724,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/widget/wheelview/WheelView;->G()V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -815,7 +738,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/widget/wheelview/WheelView;->s()V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -830,7 +752,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/widget/wheelview/WheelView;->O()V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -845,17 +766,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/widget/wheelview/WheelView;->g:I
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
 
-    .line 3
     :cond_0
     iget-object v1, p0, Lcom/commsource/widget/wheelview/WheelView;->K:Landroid/text/StaticLayout;
 
@@ -869,7 +787,6 @@
 
     if-le v1, v2, :cond_1
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/widget/wheelview/WheelView;->K:Landroid/text/StaticLayout;
 
     invoke-virtual {v1, v2}, Landroid/text/StaticLayout;->getLineTop(I)I
@@ -888,12 +805,10 @@
 
     iput v1, p0, Lcom/commsource/widget/wheelview/WheelView;->g:I
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
 
-    .line 6
     :cond_1
     invoke-virtual {p0}, Landroid/view/View;->getHeight()I
 
@@ -915,7 +830,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/widget/wheelview/WheelView;->getAdapter()Lcom/commsource/widget/wheelview/g;
 
     move-result-object v1
@@ -924,12 +838,10 @@
 
     if-nez v1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v2
 
-    .line 3
     :cond_0
     invoke-interface {v1}, Lcom/commsource/widget/wheelview/g;->b()I
 
@@ -937,7 +849,6 @@
 
     if-lez v3, :cond_1
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v3
@@ -945,12 +856,10 @@
     :cond_1
     const/4 v3, 0x0
 
-    .line 5
     iget v4, p0, Lcom/commsource/widget/wheelview/WheelView;->f:I
 
     div-int/lit8 v4, v4, 0x2
 
-    .line 6
     iget v5, p0, Lcom/commsource/widget/wheelview/WheelView;->b:I
 
     sub-int/2addr v5, v4
@@ -966,19 +875,16 @@
 
     add-int/2addr v5, v6
 
-    .line 7
     invoke-interface {v1}, Lcom/commsource/widget/wheelview/g;->a()I
 
     move-result v6
 
-    .line 8
     invoke-static {v5, v6}, Ljava/lang/Math;->min(II)I
 
     move-result v5
 
     if-ge v4, v5, :cond_4
 
-    .line 9
     invoke-interface {v1, v4}, Lcom/commsource/widget/wheelview/g;->getItem(I)Ljava/lang/String;
 
     move-result-object v5
@@ -987,7 +893,6 @@
 
     if-eqz v3, :cond_2
 
-    .line 10
     invoke-virtual {v3}, Ljava/lang/String;->length()I
 
     move-result v6
@@ -1009,7 +914,6 @@
     :cond_4
     if-eqz v3, :cond_5
 
-    .line 11
     invoke-virtual {v3}, Ljava/lang/String;->length()I
 
     move-result v2
@@ -1027,7 +931,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/commsource/widget/wheelview/WheelView;->u(I)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1042,7 +945,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget p0, p0, Lcom/commsource/widget/wheelview/WheelView;->U:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1057,7 +959,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/widget/wheelview/WheelView;->U:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1072,7 +973,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget p0, p0, Lcom/commsource/widget/wheelview/WheelView;->b:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1087,7 +987,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/widget/wheelview/WheelView;->getItemHeight()I
 
     move-result p0
@@ -1104,7 +1003,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget p0, p0, Lcom/commsource/widget/wheelview/WheelView;->R:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1119,7 +1017,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/widget/wheelview/WheelView;->a:Lcom/commsource/widget/wheelview/g;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1134,19 +1031,16 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
 
-    .line 2
     iget v2, p0, Lcom/commsource/widget/wheelview/WheelView;->f:I
 
     div-int/lit8 v2, v2, 0x2
 
     add-int/lit8 v2, v2, 0x1
 
-    .line 3
     iget v3, p0, Lcom/commsource/widget/wheelview/WheelView;->b:I
 
     sub-int/2addr v3, v2
@@ -1162,7 +1056,6 @@
 
     if-eq v3, v4, :cond_1
 
-    .line 4
     :cond_0
     invoke-direct {p0, v3}, Lcom/commsource/widget/wheelview/WheelView;->B(I)Ljava/lang/String;
 
@@ -1170,10 +1063,8 @@
 
     if-eqz v4, :cond_1
 
-    .line 5
     invoke-virtual {v1, v4}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 6
     :cond_1
     iget v4, p0, Lcom/commsource/widget/wheelview/WheelView;->b:I
 
@@ -1183,7 +1074,6 @@
 
     const-string v4, "\n"
 
-    .line 7
     invoke-virtual {v1, v4}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     :cond_2
@@ -1191,7 +1081,6 @@
 
     goto :goto_0
 
-    .line 8
     :cond_3
     invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
@@ -1209,10 +1098,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/widget/wheelview/WheelView;->D()V
 
-    .line 2
     invoke-direct {p0}, Lcom/commsource/widget/wheelview/WheelView;->getMaxTextLength()I
 
     move-result v1
@@ -1221,7 +1108,6 @@
 
     if-lez v1, :cond_0
 
-    .line 3
     iget-object v3, p0, Lcom/commsource/widget/wheelview/WheelView;->p:Landroid/text/TextPaint;
 
     const-string v4, "0"
@@ -1244,16 +1130,13 @@
 
     float-to-int v1, v1
 
-    .line 4
     iput v1, p0, Lcom/commsource/widget/wheelview/WheelView;->c:I
 
     goto :goto_0
 
-    .line 5
     :cond_0
     iput v2, p0, Lcom/commsource/widget/wheelview/WheelView;->c:I
 
-    .line 6
     :goto_0
     iget v1, p0, Lcom/commsource/widget/wheelview/WheelView;->c:I
 
@@ -1263,10 +1146,8 @@
 
     iput v1, p0, Lcom/commsource/widget/wheelview/WheelView;->c:I
 
-    .line 7
     iput v2, p0, Lcom/commsource/widget/wheelview/WheelView;->d:I
 
-    .line 8
     iget-object v1, p0, Lcom/commsource/widget/wheelview/WheelView;->N:Ljava/lang/String;
 
     if-eqz v1, :cond_1
@@ -1277,7 +1158,6 @@
 
     if-lez v1, :cond_1
 
-    .line 9
     iget-object v1, p0, Lcom/commsource/widget/wheelview/WheelView;->N:Ljava/lang/String;
 
     iget-object v3, p0, Lcom/commsource/widget/wheelview/WheelView;->J:Landroid/text/TextPaint;
@@ -1305,7 +1185,6 @@
 
     goto :goto_1
 
-    .line 10
     :cond_2
     iget v1, p0, Lcom/commsource/widget/wheelview/WheelView;->c:I
 
@@ -1321,12 +1200,10 @@
 
     if-lez v4, :cond_3
 
-    .line 11
     sget v4, Lcom/commsource/widget/wheelview/WheelView;->p0:I
 
     add-int/2addr v1, v4
 
-    .line 12
     :cond_3
     invoke-virtual {p0}, Landroid/view/View;->getSuggestedMinimumWidth()I
 
@@ -1352,7 +1229,6 @@
     :goto_1
     if-eqz v3, :cond_7
 
-    .line 13
     sget p2, Lcom/commsource/widget/wheelview/WheelView;->p0:I
 
     sub-int v1, p1, p2
@@ -1365,18 +1241,15 @@
 
     if-gtz v1, :cond_5
 
-    .line 14
     iput v2, p0, Lcom/commsource/widget/wheelview/WheelView;->d:I
 
     iput v2, p0, Lcom/commsource/widget/wheelview/WheelView;->c:I
 
-    .line 15
     :cond_5
     iget v2, p0, Lcom/commsource/widget/wheelview/WheelView;->d:I
 
     if-lez v2, :cond_6
 
-    .line 16
     iget p2, p0, Lcom/commsource/widget/wheelview/WheelView;->c:I
 
     int-to-double v3, p2
@@ -1393,12 +1266,10 @@
 
     double-to-int p2, v3
 
-    .line 17
     iput p2, p0, Lcom/commsource/widget/wheelview/WheelView;->c:I
 
     sub-int/2addr v1, p2
 
-    .line 18
     iput v1, p0, Lcom/commsource/widget/wheelview/WheelView;->d:I
 
     goto :goto_2
@@ -1406,22 +1277,18 @@
     :cond_6
     add-int/2addr v1, p2
 
-    .line 19
     iput v1, p0, Lcom/commsource/widget/wheelview/WheelView;->c:I
 
-    .line 20
     :cond_7
     :goto_2
     iget p2, p0, Lcom/commsource/widget/wheelview/WheelView;->c:I
 
     if-lez p2, :cond_8
 
-    .line 21
     iget v1, p0, Lcom/commsource/widget/wheelview/WheelView;->d:I
 
     invoke-direct {p0, p2, v1}, Lcom/commsource/widget/wheelview/WheelView;->t(II)V
 
-    .line 22
     :cond_8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1435,21 +1302,18 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/widget/wheelview/WheelView;->e0:Landroid/os/Handler;
 
     const/4 v2, 0x0
 
     invoke-virtual {v1, v2}, Landroid/os/Handler;->removeMessages(I)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/widget/wheelview/WheelView;->e0:Landroid/os/Handler;
 
     const/4 v2, 0x1
 
     invoke-virtual {v1, v2}, Landroid/os/Handler;->removeMessages(I)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1462,15 +1326,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/widget/wheelview/WheelView;->s()V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/widget/wheelview/WheelView;->e0:Landroid/os/Handler;
 
     invoke-virtual {v1, p1}, Landroid/os/Handler;->sendEmptyMessage(I)Z
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1483,7 +1344,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/widget/wheelview/WheelView;->K:Landroid/text/StaticLayout;
 
     if-eqz v1, :cond_1
@@ -1496,7 +1356,6 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     iget-object v1, p0, Lcom/commsource/widget/wheelview/WheelView;->K:Landroid/text/StaticLayout;
 
@@ -1504,14 +1363,12 @@
 
     goto :goto_2
 
-    .line 3
     :cond_1
     :goto_0
     new-instance v1, Landroid/text/StaticLayout;
 
     iget-boolean v2, p0, Lcom/commsource/widget/wheelview/WheelView;->Q:Z
 
-    .line 4
     invoke-direct {p0, v2}, Lcom/commsource/widget/wheelview/WheelView;->q(Z)Ljava/lang/String;
 
     move-result-object v3
@@ -1546,7 +1403,6 @@
 
     iput-object v1, p0, Lcom/commsource/widget/wheelview/WheelView;->K:Landroid/text/StaticLayout;
 
-    .line 5
     :goto_2
     iget-boolean v1, p0, Lcom/commsource/widget/wheelview/WheelView;->Q:Z
 
@@ -1564,7 +1420,6 @@
 
     if-le v1, p1, :cond_7
 
-    .line 6
     :cond_3
     invoke-virtual {p0}, Lcom/commsource/widget/wheelview/WheelView;->getAdapter()Lcom/commsource/widget/wheelview/g;
 
@@ -1582,7 +1437,6 @@
 
     move-result-object v2
 
-    .line 7
     :cond_4
     new-instance v1, Landroid/text/StaticLayout;
 
@@ -1628,18 +1482,15 @@
 
     goto :goto_5
 
-    .line 8
     :cond_7
     iget-boolean v1, p0, Lcom/commsource/widget/wheelview/WheelView;->Q:Z
 
     if-eqz v1, :cond_8
 
-    .line 9
     iput-object v2, p0, Lcom/commsource/widget/wheelview/WheelView;->M:Landroid/text/StaticLayout;
 
     goto :goto_5
 
-    .line 10
     :cond_8
     iget-object v1, p0, Lcom/commsource/widget/wheelview/WheelView;->M:Landroid/text/StaticLayout;
 
@@ -1648,7 +1499,6 @@
     :goto_5
     if-lez p2, :cond_b
 
-    .line 11
     iget-object p1, p0, Lcom/commsource/widget/wheelview/WheelView;->L:Landroid/text/StaticLayout;
 
     if-eqz p1, :cond_a
@@ -1661,7 +1511,6 @@
 
     goto :goto_6
 
-    .line 12
     :cond_9
     iget-object p1, p0, Lcom/commsource/widget/wheelview/WheelView;->L:Landroid/text/StaticLayout;
 
@@ -1669,7 +1518,6 @@
 
     goto :goto_7
 
-    .line 13
     :cond_a
     :goto_6
     new-instance p1, Landroid/text/StaticLayout;
@@ -1696,7 +1544,6 @@
 
     iput-object p1, p0, Lcom/commsource/widget/wheelview/WheelView;->L:Landroid/text/StaticLayout;
 
-    .line 14
     :cond_b
     :goto_7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1711,26 +1558,22 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/widget/wheelview/WheelView;->R:I
 
     add-int/2addr v1, p1
 
     iput v1, p0, Lcom/commsource/widget/wheelview/WheelView;->R:I
 
-    .line 2
     invoke-direct {p0}, Lcom/commsource/widget/wheelview/WheelView;->getItemHeight()I
 
     move-result p1
 
     div-int/2addr v1, p1
 
-    .line 3
     iget p1, p0, Lcom/commsource/widget/wheelview/WheelView;->b:I
 
     sub-int/2addr p1, v1
 
-    .line 4
     iget-boolean v2, p0, Lcom/commsource/widget/wheelview/WheelView;->V:Z
 
     const/4 v3, 0x0
@@ -1748,7 +1591,6 @@
     :goto_0
     if-gez p1, :cond_0
 
-    .line 5
     iget-object v2, p0, Lcom/commsource/widget/wheelview/WheelView;->a:Lcom/commsource/widget/wheelview/g;
 
     invoke-interface {v2}, Lcom/commsource/widget/wheelview/g;->a()I
@@ -1759,7 +1601,6 @@
 
     goto :goto_0
 
-    .line 6
     :cond_0
     iget-object v2, p0, Lcom/commsource/widget/wheelview/WheelView;->a:Lcom/commsource/widget/wheelview/g;
 
@@ -1771,7 +1612,6 @@
 
     goto :goto_1
 
-    .line 7
     :cond_1
     iget-boolean v2, p0, Lcom/commsource/widget/wheelview/WheelView;->Q:Z
 
@@ -1779,14 +1619,12 @@
 
     if-gez p1, :cond_2
 
-    .line 8
     iget v1, p0, Lcom/commsource/widget/wheelview/WheelView;->b:I
 
     const/4 p1, 0x0
 
     goto :goto_1
 
-    .line 9
     :cond_2
     iget-object v2, p0, Lcom/commsource/widget/wheelview/WheelView;->a:Lcom/commsource/widget/wheelview/g;
 
@@ -1796,7 +1634,6 @@
 
     if-lt p1, v2, :cond_4
 
-    .line 10
     iget p1, p0, Lcom/commsource/widget/wheelview/WheelView;->b:I
 
     iget-object v1, p0, Lcom/commsource/widget/wheelview/WheelView;->a:Lcom/commsource/widget/wheelview/g;
@@ -1809,7 +1646,6 @@
 
     add-int/lit8 v1, p1, 0x1
 
-    .line 11
     iget-object p1, p0, Lcom/commsource/widget/wheelview/WheelView;->a:Lcom/commsource/widget/wheelview/g;
 
     invoke-interface {p1}, Lcom/commsource/widget/wheelview/g;->a()I
@@ -1820,13 +1656,11 @@
 
     goto :goto_1
 
-    .line 12
     :cond_3
     invoke-static {p1, v3}, Ljava/lang/Math;->max(II)I
 
     move-result p1
 
-    .line 13
     iget-object v2, p0, Lcom/commsource/widget/wheelview/WheelView;->a:Lcom/commsource/widget/wheelview/g;
 
     invoke-interface {v2}, Lcom/commsource/widget/wheelview/g;->a()I
@@ -1839,26 +1673,21 @@
 
     move-result p1
 
-    .line 14
     :cond_4
     :goto_1
     iget v2, p0, Lcom/commsource/widget/wheelview/WheelView;->R:I
 
-    .line 15
     iget v4, p0, Lcom/commsource/widget/wheelview/WheelView;->b:I
 
     if-eq p1, v4, :cond_5
 
-    .line 16
     invoke-virtual {p0, p1, v3}, Lcom/commsource/widget/wheelview/WheelView;->N(IZ)V
 
     goto :goto_2
 
-    .line 17
     :cond_5
     invoke-virtual {p0}, Landroid/view/View;->invalidate()V
 
-    .line 18
     :goto_2
     invoke-direct {p0}, Lcom/commsource/widget/wheelview/WheelView;->getItemHeight()I
 
@@ -1870,14 +1699,12 @@
 
     iput v2, p0, Lcom/commsource/widget/wheelview/WheelView;->R:I
 
-    .line 19
     invoke-virtual {p0}, Landroid/view/View;->getHeight()I
 
     move-result p1
 
     if-le v2, p1, :cond_6
 
-    .line 20
     iget p1, p0, Lcom/commsource/widget/wheelview/WheelView;->R:I
 
     invoke-virtual {p0}, Landroid/view/View;->getHeight()I
@@ -1894,7 +1721,6 @@
 
     iput p1, p0, Lcom/commsource/widget/wheelview/WheelView;->R:I
 
-    .line 21
     :cond_6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1908,21 +1734,18 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Landroid/view/View;->getHeight()I
 
     move-result v0
 
     div-int/lit8 v0, v0, 0x2
 
-    .line 2
     invoke-direct {p0}, Lcom/commsource/widget/wheelview/WheelView;->getItemHeight()I
 
     move-result v0
 
     div-int/lit8 v0, v0, 0x2
 
-    .line 3
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1935,10 +1758,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p1}, Landroid/graphics/Canvas;->save()I
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/widget/wheelview/WheelView;->K:Landroid/text/StaticLayout;
 
     const/4 v2, 0x1
@@ -1949,7 +1770,6 @@
 
     neg-int v1, v1
 
-    .line 3
     iget v2, p0, Lcom/commsource/widget/wheelview/WheelView;->R:I
 
     add-int/2addr v1, v2
@@ -1960,14 +1780,12 @@
 
     invoke-virtual {p1, v2, v1}, Landroid/graphics/Canvas;->translate(FF)V
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/widget/wheelview/WheelView;->p:Landroid/text/TextPaint;
 
     const v2, -0x444340
 
     invoke-virtual {v1, v2}, Landroid/text/TextPaint;->setColor(I)V
 
-    .line 5
     iget-object v1, p0, Lcom/commsource/widget/wheelview/WheelView;->p:Landroid/text/TextPaint;
 
     invoke-virtual {p0}, Landroid/view/View;->getDrawableState()[I
@@ -1976,15 +1794,12 @@
 
     iput-object v2, v1, Landroid/text/TextPaint;->drawableState:[I
 
-    .line 6
     iget-object v1, p0, Lcom/commsource/widget/wheelview/WheelView;->K:Landroid/text/StaticLayout;
 
     invoke-virtual {v1, p1}, Landroid/text/StaticLayout;->draw(Landroid/graphics/Canvas;)V
 
-    .line 7
     invoke-virtual {p1}, Landroid/graphics/Canvas;->restore()V
 
-    .line 8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1997,7 +1812,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/widget/wheelview/WheelView;->O:Landroid/graphics/drawable/GradientDrawable;
 
     invoke-virtual {p0}, Landroid/view/View;->getWidth()I
@@ -2016,12 +1830,10 @@
 
     invoke-virtual {v1, v4, v4, v2, v3}, Landroid/graphics/drawable/GradientDrawable;->setBounds(IIII)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/widget/wheelview/WheelView;->O:Landroid/graphics/drawable/GradientDrawable;
 
     invoke-virtual {v1, p1}, Landroid/graphics/drawable/GradientDrawable;->draw(Landroid/graphics/Canvas;)V
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/widget/wheelview/WheelView;->P:Landroid/graphics/drawable/GradientDrawable;
 
     invoke-virtual {p0}, Landroid/view/View;->getHeight()I
@@ -2048,12 +1860,10 @@
 
     invoke-virtual {v1, v4, v2, v3, v5}, Landroid/graphics/drawable/GradientDrawable;->setBounds(IIII)V
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/widget/wheelview/WheelView;->P:Landroid/graphics/drawable/GradientDrawable;
 
     invoke-virtual {v1, p1}, Landroid/graphics/drawable/GradientDrawable;->draw(Landroid/graphics/Canvas;)V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2066,14 +1876,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/widget/wheelview/WheelView;->J:Landroid/text/TextPaint;
 
     const v2, -0xcccccd
 
     invoke-virtual {v1, v2}, Landroid/text/TextPaint;->setColor(I)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/widget/wheelview/WheelView;->J:Landroid/text/TextPaint;
 
     invoke-virtual {p0}, Landroid/view/View;->getDrawableState()[I
@@ -2082,12 +1890,10 @@
 
     iput-object v2, v1, Landroid/text/TextPaint;->drawableState:[I
 
-    .line 3
     new-instance v1, Landroid/graphics/Rect;
 
     invoke-direct {v1}, Landroid/graphics/Rect;-><init>()V
 
-    .line 4
     iget-object v2, p0, Lcom/commsource/widget/wheelview/WheelView;->K:Landroid/text/StaticLayout;
 
     iget v3, p0, Lcom/commsource/widget/wheelview/WheelView;->f:I
@@ -2096,15 +1902,12 @@
 
     invoke-virtual {v2, v3, v1}, Landroid/text/StaticLayout;->getLineBounds(ILandroid/graphics/Rect;)I
 
-    .line 5
     iget-object v2, p0, Lcom/commsource/widget/wheelview/WheelView;->L:Landroid/text/StaticLayout;
 
     if-eqz v2, :cond_0
 
-    .line 6
     invoke-virtual {p1}, Landroid/graphics/Canvas;->save()I
 
-    .line 7
     iget-object v2, p0, Lcom/commsource/widget/wheelview/WheelView;->K:Landroid/text/StaticLayout;
 
     invoke-virtual {v2}, Landroid/text/StaticLayout;->getWidth()I
@@ -2123,26 +1926,21 @@
 
     invoke-virtual {p1, v2, v3}, Landroid/graphics/Canvas;->translate(FF)V
 
-    .line 8
     iget-object v2, p0, Lcom/commsource/widget/wheelview/WheelView;->L:Landroid/text/StaticLayout;
 
     invoke-virtual {v2, p1}, Landroid/text/StaticLayout;->draw(Landroid/graphics/Canvas;)V
 
-    .line 9
     invoke-virtual {p1}, Landroid/graphics/Canvas;->restore()V
 
-    .line 10
     :cond_0
     iget-object v2, p0, Lcom/commsource/widget/wheelview/WheelView;->M:Landroid/text/StaticLayout;
 
     if-eqz v2, :cond_1
 
-    .line 11
     invoke-virtual {p1}, Landroid/graphics/Canvas;->save()I
 
     const/4 v2, 0x0
 
-    .line 12
     iget v1, v1, Landroid/graphics/Rect;->top:I
 
     iget v3, p0, Lcom/commsource/widget/wheelview/WheelView;->R:I
@@ -2153,15 +1951,12 @@
 
     invoke-virtual {p1, v2, v1}, Landroid/graphics/Canvas;->translate(FF)V
 
-    .line 13
     iget-object v1, p0, Lcom/commsource/widget/wheelview/WheelView;->M:Landroid/text/StaticLayout;
 
     invoke-virtual {v1, p1}, Landroid/text/StaticLayout;->draw(Landroid/graphics/Canvas;)V
 
-    .line 14
     invoke-virtual {p1}, Landroid/graphics/Canvas;->restore()V
 
-    .line 15
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -2177,7 +1972,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/widget/wheelview/WheelView;->V:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2192,7 +1986,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/widget/wheelview/WheelView;->W:Ljava/util/List;
 
     invoke-interface {v1}, Ljava/util/List;->iterator()Ljava/util/Iterator;
@@ -2212,12 +2005,10 @@
 
     check-cast v2, Lcom/commsource/widget/wheelview/e;
 
-    .line 2
     invoke-interface {v2, p0, p1, p2}, Lcom/commsource/widget/wheelview/e;->a(Lcom/commsource/widget/wheelview/WheelView;II)V
 
     goto :goto_0
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -2231,7 +2022,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/widget/wheelview/WheelView;->a0:Ljava/util/List;
 
     invoke-interface {v1}, Ljava/util/List;->iterator()Ljava/util/Iterator;
@@ -2251,12 +2041,10 @@
 
     check-cast v2, Lcom/commsource/widget/wheelview/f;
 
-    .line 2
     invoke-interface {v2, p0}, Lcom/commsource/widget/wheelview/f;->a(Lcom/commsource/widget/wheelview/WheelView;)V
 
     goto :goto_0
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -2270,7 +2058,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/widget/wheelview/WheelView;->a0:Ljava/util/List;
 
     invoke-interface {v1}, Ljava/util/List;->iterator()Ljava/util/Iterator;
@@ -2290,12 +2077,10 @@
 
     check-cast v2, Lcom/commsource/widget/wheelview/f;
 
-    .line 2
     invoke-interface {v2, p0}, Lcom/commsource/widget/wheelview/f;->b(Lcom/commsource/widget/wheelview/WheelView;)V
 
     goto :goto_0
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -2309,12 +2094,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/widget/wheelview/WheelView;->W:Ljava/util/List;
 
     invoke-interface {v1, p1}, Ljava/util/List;->remove(Ljava/lang/Object;)Z
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2327,12 +2110,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/widget/wheelview/WheelView;->a0:Ljava/util/List;
 
     invoke-interface {v1, p1}, Ljava/util/List;->remove(Ljava/lang/Object;)Z
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2345,26 +2126,22 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/widget/wheelview/WheelView;->T:Landroid/widget/Scroller;
 
     const/4 v2, 0x1
 
     invoke-virtual {v1, v2}, Landroid/widget/Scroller;->forceFinished(Z)V
 
-    .line 2
     iget v1, p0, Lcom/commsource/widget/wheelview/WheelView;->R:I
 
     iput v1, p0, Lcom/commsource/widget/wheelview/WheelView;->U:I
 
-    .line 3
     invoke-direct {p0}, Lcom/commsource/widget/wheelview/WheelView;->getItemHeight()I
 
     move-result v1
 
     mul-int p1, p1, v1
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/widget/wheelview/WheelView;->T:Landroid/widget/Scroller;
 
     iget v3, p0, Lcom/commsource/widget/wheelview/WheelView;->U:I
@@ -2381,13 +2158,10 @@
 
     const/4 p1, 0x0
 
-    .line 5
     invoke-direct {p0, p1}, Lcom/commsource/widget/wheelview/WheelView;->setNextMessage(I)V
 
-    .line 6
     invoke-direct {p0}, Lcom/commsource/widget/wheelview/WheelView;->O()V
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2400,7 +2174,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/widget/wheelview/WheelView;->a:Lcom/commsource/widget/wheelview/g;
 
     if-eqz v1, :cond_7
@@ -2416,7 +2189,6 @@
     :cond_0
     if-ltz p1, :cond_1
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/widget/wheelview/WheelView;->a:Lcom/commsource/widget/wheelview/g;
 
     invoke-interface {v1}, Lcom/commsource/widget/wheelview/g;->a()I
@@ -2425,7 +2197,6 @@
 
     if-lt p1, v1, :cond_3
 
-    .line 3
     :cond_1
     iget-boolean v1, p0, Lcom/commsource/widget/wheelview/WheelView;->V:Z
 
@@ -2434,7 +2205,6 @@
     :goto_0
     if-gez p1, :cond_2
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/widget/wheelview/WheelView;->a:Lcom/commsource/widget/wheelview/g;
 
     invoke-interface {v1}, Lcom/commsource/widget/wheelview/g;->a()I
@@ -2445,7 +2215,6 @@
 
     goto :goto_0
 
-    .line 5
     :cond_2
     iget-object v1, p0, Lcom/commsource/widget/wheelview/WheelView;->a:Lcom/commsource/widget/wheelview/g;
 
@@ -2455,7 +2224,6 @@
 
     rem-int/2addr p1, v1
 
-    .line 6
     :cond_3
     iget v1, p0, Lcom/commsource/widget/wheelview/WheelView;->b:I
 
@@ -2467,41 +2235,32 @@
 
     const/16 p2, 0x64
 
-    .line 7
     invoke-virtual {p0, p1, p2}, Lcom/commsource/widget/wheelview/WheelView;->M(II)V
 
     goto :goto_1
 
-    .line 8
     :cond_4
     invoke-direct {p0}, Lcom/commsource/widget/wheelview/WheelView;->E()V
 
-    .line 9
     iget p2, p0, Lcom/commsource/widget/wheelview/WheelView;->b:I
 
-    .line 10
     iput p1, p0, Lcom/commsource/widget/wheelview/WheelView;->b:I
 
-    .line 11
     invoke-virtual {p0, p2, p1}, Lcom/commsource/widget/wheelview/WheelView;->H(II)V
 
-    .line 12
     invoke-virtual {p0}, Landroid/view/View;->invalidate()V
 
-    .line 13
     :cond_5
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 14
     :cond_6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 15
     :cond_7
     :goto_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2516,7 +2275,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/widget/wheelview/WheelView;->a:Lcom/commsource/widget/wheelview/g;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2531,7 +2289,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/widget/wheelview/WheelView;->b:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2546,7 +2303,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/widget/wheelview/WheelView;->N:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2561,7 +2317,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/widget/wheelview/WheelView;->f:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2576,12 +2331,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/widget/wheelview/WheelView;->W:Ljava/util/List;
 
     invoke-interface {v1, p1}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2594,20 +2347,16 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0, p1}, Landroid/view/View;->onDraw(Landroid/graphics/Canvas;)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/widget/wheelview/WheelView;->K:Landroid/text/StaticLayout;
 
     if-nez v1, :cond_1
 
-    .line 3
     iget v1, p0, Lcom/commsource/widget/wheelview/WheelView;->c:I
 
     if-nez v1, :cond_0
 
-    .line 4
     invoke-virtual {p0}, Landroid/view/View;->getWidth()I
 
     move-result v1
@@ -2618,23 +2367,19 @@
 
     goto :goto_0
 
-    .line 5
     :cond_0
     iget v2, p0, Lcom/commsource/widget/wheelview/WheelView;->d:I
 
     invoke-direct {p0, v1, v2}, Lcom/commsource/widget/wheelview/WheelView;->t(II)V
 
-    .line 6
     :cond_1
     :goto_0
     iget v1, p0, Lcom/commsource/widget/wheelview/WheelView;->c:I
 
     if-lez v1, :cond_2
 
-    .line 7
     invoke-virtual {p1}, Landroid/graphics/Canvas;->save()I
 
-    .line 8
     sget v1, Lcom/commsource/widget/wheelview/WheelView;->q0:I
 
     int-to-float v1, v1
@@ -2647,20 +2392,15 @@
 
     invoke-virtual {p1, v1, v2}, Landroid/graphics/Canvas;->translate(FF)V
 
-    .line 9
     invoke-direct {p0, p1}, Lcom/commsource/widget/wheelview/WheelView;->w(Landroid/graphics/Canvas;)V
 
-    .line 10
     invoke-direct {p0, p1}, Lcom/commsource/widget/wheelview/WheelView;->y(Landroid/graphics/Canvas;)V
 
-    .line 11
     invoke-virtual {p1}, Landroid/graphics/Canvas;->restore()V
 
-    .line 12
     :cond_2
     invoke-direct {p0, p1}, Lcom/commsource/widget/wheelview/WheelView;->v(Landroid/graphics/Canvas;)V
 
-    .line 13
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2673,27 +2413,22 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Landroid/view/View$MeasureSpec;->getMode(I)I
 
     move-result v1
 
-    .line 2
     invoke-static {p2}, Landroid/view/View$MeasureSpec;->getMode(I)I
 
     move-result v2
 
-    .line 3
     invoke-static {p1}, Landroid/view/View$MeasureSpec;->getSize(I)I
 
     move-result p1
 
-    .line 4
     invoke-static {p2}, Landroid/view/View$MeasureSpec;->getSize(I)I
 
     move-result p2
 
-    .line 5
     invoke-direct {p0, p1, v1}, Lcom/commsource/widget/wheelview/WheelView;->r(II)I
 
     move-result p1
@@ -2704,7 +2439,6 @@
 
     goto :goto_0
 
-    .line 6
     :cond_0
     iget-object v1, p0, Lcom/commsource/widget/wheelview/WheelView;->K:Landroid/text/StaticLayout;
 
@@ -2716,7 +2450,6 @@
 
     if-ne v2, v3, :cond_1
 
-    .line 7
     invoke-static {v1, p2}, Ljava/lang/Math;->min(II)I
 
     move-result p2
@@ -2726,11 +2459,9 @@
     :cond_1
     move p2, v1
 
-    .line 8
     :goto_0
     invoke-virtual {p0, p1, p2}, Landroid/view/View;->setMeasuredDimension(II)V
 
-    .line 9
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2743,7 +2474,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/widget/wheelview/WheelView;->getAdapter()Lcom/commsource/widget/wheelview/g;
 
     move-result-object v1
@@ -2752,12 +2482,10 @@
 
     if-nez v1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v2
 
-    .line 3
     :cond_0
     iget-object v1, p0, Lcom/commsource/widget/wheelview/WheelView;->S:Landroid/view/GestureDetector;
 
@@ -2767,7 +2495,6 @@
 
     if-nez v1, :cond_2
 
-    .line 4
     invoke-virtual {p1}, Landroid/view/MotionEvent;->getAction()I
 
     move-result v1
@@ -2782,11 +2509,9 @@
 
     if-ne p1, v1, :cond_2
 
-    .line 5
     :cond_1
     invoke-direct {p0}, Lcom/commsource/widget/wheelview/WheelView;->G()V
 
-    .line 6
     :cond_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -2800,12 +2525,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/widget/wheelview/WheelView;->a0:Ljava/util/List;
 
     invoke-interface {v1, p1}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2818,16 +2541,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/widget/wheelview/WheelView;->a:Lcom/commsource/widget/wheelview/g;
 
-    .line 2
     invoke-direct {p0}, Lcom/commsource/widget/wheelview/WheelView;->E()V
 
-    .line 3
     invoke-virtual {p0}, Landroid/view/View;->invalidate()V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2842,10 +2561,8 @@
 
     const/4 v1, 0x0
 
-    .line 1
     invoke-virtual {p0, p1, v1}, Lcom/commsource/widget/wheelview/WheelView;->N(IZ)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2858,16 +2575,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/widget/wheelview/WheelView;->V:Z
 
-    .line 2
     invoke-virtual {p0}, Landroid/view/View;->invalidate()V
 
-    .line 3
     invoke-direct {p0}, Lcom/commsource/widget/wheelview/WheelView;->E()V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2880,14 +2593,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/widget/wheelview/WheelView;->T:Landroid/widget/Scroller;
 
     const/4 v2, 0x1
 
     invoke-virtual {v1, v2}, Landroid/widget/Scroller;->forceFinished(Z)V
 
-    .line 2
     new-instance v1, Landroid/widget/Scroller;
 
     invoke-virtual {p0}, Landroid/view/View;->getContext()Landroid/content/Context;
@@ -2898,7 +2609,6 @@
 
     iput-object v1, p0, Lcom/commsource/widget/wheelview/WheelView;->T:Landroid/widget/Scroller;
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2911,7 +2621,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/widget/wheelview/WheelView;->N:Ljava/lang/String;
 
     if-eqz v1, :cond_0
@@ -2922,19 +2631,15 @@
 
     if-nez v1, :cond_1
 
-    .line 2
     :cond_0
     iput-object p1, p0, Lcom/commsource/widget/wheelview/WheelView;->N:Ljava/lang/String;
 
     const/4 p1, 0x0
 
-    .line 3
     iput-object p1, p0, Lcom/commsource/widget/wheelview/WheelView;->L:Landroid/text/StaticLayout;
 
-    .line 4
     invoke-virtual {p0}, Landroid/view/View;->invalidate()V
 
-    .line 5
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -2948,13 +2653,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/widget/wheelview/WheelView;->f:I
 
-    .line 2
     invoke-virtual {p0}, Landroid/view/View;->invalidate()V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2967,27 +2669,21 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/widget/wheelview/WheelView;->Q:Z
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-virtual {p0}, Lcom/commsource/widget/wheelview/WheelView;->I()V
 
     const/4 v1, 0x0
 
-    .line 3
     iput-boolean v1, p0, Lcom/commsource/widget/wheelview/WheelView;->Q:Z
 
-    .line 4
     :cond_0
     invoke-direct {p0}, Lcom/commsource/widget/wheelview/WheelView;->E()V
 
-    .line 5
     invoke-virtual {p0}, Landroid/view/View;->invalidate()V
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

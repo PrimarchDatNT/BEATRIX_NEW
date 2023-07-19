@@ -25,7 +25,6 @@
 .method constructor <init>(Lcom/sdk/api/d;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/sdk/api/d$b;->a:Lcom/sdk/api/d;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -38,14 +37,12 @@
 .method public onFailed(I)V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/sdk/api/d$b;->a:Lcom/sdk/api/d;
 
     const/4 v1, 0x0
 
     invoke-static {v0, v1}, Lcom/sdk/api/d;->b(Lcom/sdk/api/d;Z)Z
 
-    .line 2
     iget-object v0, p0, Lcom/sdk/api/d$b;->a:Lcom/sdk/api/d;
 
     const/4 v1, 0x1
@@ -58,19 +55,16 @@
 .method public onLoadSuccess(Landroid/view/View;II)V
     .locals 1
 
-    .line 1
     iget-object p2, p0, Lcom/sdk/api/d$b;->a:Lcom/sdk/api/d;
 
     const/4 v0, 0x0
 
     invoke-static {p2, v0}, Lcom/sdk/api/d;->b(Lcom/sdk/api/d;Z)Z
 
-    .line 2
     iget-object p2, p0, Lcom/sdk/api/d$b;->a:Lcom/sdk/api/d;
 
     invoke-static {p2, p1}, Lcom/sdk/api/d;->c(Lcom/sdk/api/d;Landroid/view/View;)Landroid/view/View;
 
-    .line 3
     iget-object p1, p0, Lcom/sdk/api/d$b;->a:Lcom/sdk/api/d;
 
     const/4 p2, 0x2

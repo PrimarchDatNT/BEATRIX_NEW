@@ -11,7 +11,6 @@
 
     const-string v0, "com.google.android.gms.signin.internal.ISignInCallbacks"
 
-    .line 1
     invoke-direct {p0, v0}, Lcom/google/android/gms/internal/base/b;-><init>(Ljava/lang/String;)V
 
     return-void
@@ -51,7 +50,6 @@
 
     return p1
 
-    .line 1
     :cond_0
     sget-object p1, Lcom/google/android/gms/signin/internal/zaj;->CREATOR:Landroid/os/Parcelable$Creator;
 
@@ -61,12 +59,10 @@
 
     check-cast p1, Lcom/google/android/gms/signin/internal/zaj;
 
-    .line 2
     invoke-interface {p0, p1}, Lcom/google/android/gms/signin/internal/d;->G1(Lcom/google/android/gms/signin/internal/zaj;)V
 
     goto :goto_0
 
-    .line 3
     :cond_1
     sget-object p1, Lcom/google/android/gms/common/api/Status;->CREATOR:Landroid/os/Parcelable$Creator;
 
@@ -76,7 +72,6 @@
 
     check-cast p1, Lcom/google/android/gms/common/api/Status;
 
-    .line 4
     sget-object p4, Lcom/google/android/gms/auth/api/signin/GoogleSignInAccount;->CREATOR:Landroid/os/Parcelable$Creator;
 
     invoke-static {p2, p4}, Lcom/google/android/gms/internal/base/c;->b(Landroid/os/Parcel;Landroid/os/Parcelable$Creator;)Landroid/os/Parcelable;
@@ -85,12 +80,10 @@
 
     check-cast p2, Lcom/google/android/gms/auth/api/signin/GoogleSignInAccount;
 
-    .line 5
     invoke-interface {p0, p1, p2}, Lcom/google/android/gms/signin/internal/d;->m6(Lcom/google/android/gms/common/api/Status;Lcom/google/android/gms/auth/api/signin/GoogleSignInAccount;)V
 
     goto :goto_0
 
-    .line 6
     :cond_2
     sget-object p1, Lcom/google/android/gms/common/api/Status;->CREATOR:Landroid/os/Parcelable$Creator;
 
@@ -100,12 +93,10 @@
 
     check-cast p1, Lcom/google/android/gms/common/api/Status;
 
-    .line 7
     invoke-interface {p0, p1}, Lcom/google/android/gms/signin/internal/d;->I3(Lcom/google/android/gms/common/api/Status;)V
 
     goto :goto_0
 
-    .line 8
     :cond_3
     sget-object p1, Lcom/google/android/gms/common/api/Status;->CREATOR:Landroid/os/Parcelable$Creator;
 
@@ -115,12 +106,10 @@
 
     check-cast p1, Lcom/google/android/gms/common/api/Status;
 
-    .line 9
     invoke-interface {p0, p1}, Lcom/google/android/gms/signin/internal/d;->y3(Lcom/google/android/gms/common/api/Status;)V
 
     goto :goto_0
 
-    .line 10
     :cond_4
     sget-object p1, Lcom/google/android/gms/common/ConnectionResult;->CREATOR:Landroid/os/Parcelable$Creator;
 
@@ -130,7 +119,6 @@
 
     check-cast p1, Lcom/google/android/gms/common/ConnectionResult;
 
-    .line 11
     sget-object p4, Lcom/google/android/gms/signin/internal/zaa;->CREATOR:Landroid/os/Parcelable$Creator;
 
     invoke-static {p2, p4}, Lcom/google/android/gms/internal/base/c;->b(Landroid/os/Parcel;Landroid/os/Parcelable$Creator;)Landroid/os/Parcelable;
@@ -139,10 +127,8 @@
 
     check-cast p2, Lcom/google/android/gms/signin/internal/zaa;
 
-    .line 12
     invoke-interface {p0, p1, p2}, Lcom/google/android/gms/signin/internal/d;->Z8(Lcom/google/android/gms/common/ConnectionResult;Lcom/google/android/gms/signin/internal/zaa;)V
 
-    .line 13
     :goto_0
     invoke-virtual {p3}, Landroid/os/Parcel;->writeNoException()V
 

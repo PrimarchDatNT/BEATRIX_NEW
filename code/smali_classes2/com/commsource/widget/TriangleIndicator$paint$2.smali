@@ -72,7 +72,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 2
     new-instance v1, Landroid/graphics/Paint;
 
     const/4 v2, 0x1
@@ -81,7 +80,6 @@
 
     sget v2, Lcom/res/provider/ResCOLOR;->white:I
 
-    .line 3
     invoke-static {v2}, Lcom/commsource/util/u1;->b(I)I
 
     move-result v2
@@ -94,10 +92,8 @@
 
     const/high16 v4, 0x33000000
 
-    .line 4
     invoke-virtual {v1, v2, v3, v3, v4}, Landroid/graphics/Paint;->setShadowLayer(FFFI)V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
@@ -110,7 +106,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/widget/TriangleIndicator$paint$2;->invoke()Landroid/graphics/Paint;
 
     move-result-object v1

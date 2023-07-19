@@ -35,7 +35,6 @@
 .method constructor <init>(Lcom/meitu/remote/config/c$d;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/remote/config/c$d$a;->a:Lcom/meitu/remote/config/c$d;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -61,7 +60,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0, p1}, Lcom/meitu/remote/config/c$d$a;->b(Lcom/google/android/gms/tasks/k;)Ljava/lang/Boolean;
 
     move-result-object p1
@@ -97,7 +95,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/remote/config/c$d$a;->a:Lcom/meitu/remote/config/c$d;
 
     iget-object v1, v1, Lcom/meitu/remote/config/c$d;->c:Lcom/meitu/remote/config/c;

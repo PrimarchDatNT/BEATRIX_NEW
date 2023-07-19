@@ -10,7 +10,6 @@
 .method constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -33,7 +32,6 @@
 .method public c(Z)Li/a/b;
     .locals 0
 
-    .line 1
     sget-object p1, Li/a/h/a$a;->r:Li/a/h/a$a;
 
     return-object p1
@@ -52,7 +50,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {}, Ljava/util/Collections;->emptyMap()Ljava/util/Map;
 
     move-result-object v0
@@ -91,7 +88,6 @@
 .method public i()Li/a/d;
     .locals 1
 
-    .line 1
     sget-object v0, Li/a/h/c;->a:Li/a/h/c;
 
     return-object v0
@@ -112,7 +108,6 @@
 .method public start()Li/a/d;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Li/a/h/e;->i()Li/a/d;
 
     move-result-object v0
@@ -123,7 +118,6 @@
 .method public toString()Ljava/lang/String;
     .locals 1
 
-    .line 1
     const-class v0, Li/a/h/d;
 
     invoke-virtual {v0}, Ljava/lang/Class;->getSimpleName()Ljava/lang/String;

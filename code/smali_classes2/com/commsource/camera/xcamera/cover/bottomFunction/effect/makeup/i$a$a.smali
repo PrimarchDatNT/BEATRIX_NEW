@@ -43,7 +43,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/i$a$a;->a:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/i$a;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -72,7 +71,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/repository/child/makeup/MakeupMaterialRepository;->E:Lcom/commsource/repository/child/makeup/MakeupMaterialRepository;
 
     invoke-virtual {v1}, Lcom/commsource/repository/child/makeup/MakeupMaterialRepository;->y()Landroidx/lifecycle/MutableLiveData;
@@ -83,12 +81,10 @@
 
     if-eqz p1, :cond_5
 
-    .line 2
     new-instance v1, Ljava/util/ArrayList;
 
     invoke-direct {v1, p1}, Ljava/util/ArrayList;-><init>(Ljava/util/Collection;)V
 
-    .line 3
     invoke-virtual {v1}, Ljava/util/ArrayList;->iterator()Ljava/util/Iterator;
 
     move-result-object p1
@@ -97,7 +93,6 @@
 
     invoke-static {p1, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 4
     :cond_0
     :goto_0
     invoke-interface {p1}, Ljava/util/Iterator;->hasNext()Z
@@ -106,7 +101,6 @@
 
     if-eqz v2, :cond_1
 
-    .line 5
     invoke-interface {p1}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
     move-result-object v2
@@ -117,7 +111,6 @@
 
     check-cast v2, Lcom/commsource/repository/child/makeup/e;
 
-    .line 6
     iget-object v3, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/i$a$a;->a:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/i$a;
 
     iget-boolean v3, v3, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/i$a;->b:Z
@@ -132,12 +125,10 @@
 
     if-ne v2, v3, :cond_0
 
-    .line 7
     invoke-interface {p1}, Ljava/util/Iterator;->remove()V
 
     goto :goto_0
 
-    .line 8
     :cond_1
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/i$a$a;->a:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/i$a;
 
@@ -145,7 +136,6 @@
 
     if-nez p1, :cond_4
 
-    .line 9
     invoke-virtual {v1}, Ljava/util/ArrayList;->iterator()Ljava/util/Iterator;
 
     move-result-object p1
@@ -163,7 +153,6 @@
 
     check-cast v2, Lcom/commsource/repository/child/makeup/e;
 
-    .line 10
     invoke-virtual {v2}, Lcom/commsource/repository/child/makeup/e;->c()Ljava/util/ArrayList;
 
     move-result-object v3
@@ -185,12 +174,10 @@
 
     check-cast v4, Lcom/commsource/repository/child/makeup/h;
 
-    .line 11
     invoke-virtual {v4}, Lcom/commsource/repository/child/makeup/h;->a()V
 
     goto :goto_1
 
-    .line 12
     :cond_3
     invoke-virtual {v2}, Lcom/commsource/repository/child/makeup/e;->a()Ljava/util/ArrayList;
 
@@ -213,12 +200,10 @@
 
     check-cast v3, Lcom/commsource/repository/child/makeup/h;
 
-    .line 13
     invoke-virtual {v3}, Lcom/commsource/repository/child/makeup/h;->a()V
 
     goto :goto_2
 
-    .line 14
     :cond_4
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/i$a$a;->a:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/i$a;
 
@@ -230,7 +215,6 @@
 
     invoke-virtual {p1, v1}, Landroidx/lifecycle/MutableLiveData;->setValue(Ljava/lang/Object;)V
 
-    .line 15
     :cond_5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -244,7 +228,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Ljava/util/List;
 
     invoke-virtual {p0, p1}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/i$a$a;->a(Ljava/util/List;)V

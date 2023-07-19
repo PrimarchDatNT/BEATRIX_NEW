@@ -56,7 +56,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 2
     new-instance v1, Landroid/widget/TextView;
 
     iget-object v2, p0, Lcom/commsource/store/XDownloadButton$tvDownloadNext$2;->$context:Landroid/content/Context;
@@ -65,19 +64,16 @@
 
     const/16 v2, 0x11
 
-    .line 3
     invoke-virtual {v1, v2}, Landroid/widget/TextView;->setGravity(I)V
 
     const/4 v2, 0x1
 
     const/high16 v3, 0x41200000    # 10.0f
 
-    .line 4
     invoke-virtual {v1, v2, v3}, Landroid/widget/TextView;->setTextSize(IF)V
 
     sget v2, Lcom/res/provider/ResCOLOR;->Primary_A:I
 
-    .line 5
     invoke-static {v2}, Lcom/commsource/util/l0;->P(I)I
 
     move-result v2
@@ -86,10 +82,8 @@
 
     sget v2, Lcom/res/provider/ResSTRING;->use_now:I
 
-    .line 6
     invoke-virtual {v1, v2}, Landroid/widget/TextView;->setText(I)V
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
@@ -102,7 +96,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/store/XDownloadButton$tvDownloadNext$2;->invoke()Landroid/widget/TextView;
 
     move-result-object v1

@@ -37,17 +37,14 @@
 .method public constructor <init>(Ljava/lang/String;Ljava/lang/String;)V
     .locals 2
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
 
     iput-object v0, p0, Lcom/commsource/beautyplus/m0/c;->a:Ljava/util/List;
 
-    .line 3
     new-instance v0, Ljava/util/concurrent/atomic/AtomicBoolean;
 
     const/4 v1, 0x0
@@ -56,17 +53,14 @@
 
     iput-object v0, p0, Lcom/commsource/beautyplus/m0/c;->b:Ljava/util/concurrent/atomic/AtomicBoolean;
 
-    .line 4
     new-instance v0, Ljava/util/concurrent/locks/ReentrantReadWriteLock;
 
     invoke-direct {v0}, Ljava/util/concurrent/locks/ReentrantReadWriteLock;-><init>()V
 
     iput-object v0, p0, Lcom/commsource/beautyplus/m0/c;->e:Ljava/util/concurrent/locks/ReentrantReadWriteLock;
 
-    .line 5
     iput-object p1, p0, Lcom/commsource/beautyplus/m0/c;->c:Ljava/lang/String;
 
-    .line 6
     iput-object p2, p0, Lcom/commsource/beautyplus/m0/c;->d:Ljava/lang/String;
 
     return-void
@@ -75,7 +69,6 @@
 .method static synthetic a(Lcom/commsource/beautyplus/m0/c;)Ljava/util/concurrent/locks/ReentrantReadWriteLock;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/beautyplus/m0/c;->e:Ljava/util/concurrent/locks/ReentrantReadWriteLock;
 
     return-object p0
@@ -84,7 +77,6 @@
 .method static synthetic b(Lcom/commsource/beautyplus/m0/c;)Ljava/util/List;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/beautyplus/m0/c;->a:Ljava/util/List;
 
     return-object p0
@@ -93,7 +85,6 @@
 .method static synthetic c(Lcom/commsource/beautyplus/m0/c;Landroid/content/Context;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/commsource/beautyplus/m0/c;->k(Landroid/content/Context;)V
 
     return-void
@@ -102,7 +93,6 @@
 .method private j(Landroid/content/Context;)V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/beautyplus/m0/c;->c:Ljava/lang/String;
 
     iget-object v1, p0, Lcom/commsource/beautyplus/m0/c;->d:Ljava/lang/String;
@@ -111,14 +101,12 @@
 
     move-result-object p1
 
-    .line 2
     invoke-static {p1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v0
 
     if-nez v0, :cond_1
 
-    .line 3
     :try_start_0
     iget-object v0, p0, Lcom/commsource/beautyplus/m0/c;->e:Ljava/util/concurrent/locks/ReentrantReadWriteLock;
 
@@ -128,21 +116,18 @@
 
     invoke-virtual {v0}, Ljava/util/concurrent/locks/ReentrantReadWriteLock$ReadLock;->lock()V
 
-    .line 4
     invoke-virtual {p0, p1}, Lcom/commsource/beautyplus/m0/c;->h(Ljava/lang/String;)Ljava/util/List;
 
     move-result-object p1
 
     if-eqz p1, :cond_0
 
-    .line 5
     invoke-interface {p1}, Ljava/util/List;->isEmpty()Z
 
     move-result v0
 
     if-nez v0, :cond_0
 
-    .line 6
     iget-object v0, p0, Lcom/commsource/beautyplus/m0/c;->a:Ljava/util/List;
 
     invoke-interface {v0, p1}, Ljava/util/List;->addAll(Ljava/util/Collection;)Z
@@ -160,18 +145,15 @@
     :catch_0
     move-exception p1
 
-    .line 7
     :try_start_1
     invoke-virtual {p1}, Ljava/lang/Exception;->printStackTrace()V
 
     const-string v0, "ADFilter"
 
-    .line 8
     invoke-static {v0, p1}, Lcom/meitu/library/util/Debug/Debug;->g(Ljava/lang/String;Ljava/lang/Throwable;)V
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
-    .line 9
     :cond_0
     :goto_0
     iget-object p1, p0, Lcom/commsource/beautyplus/m0/c;->e:Ljava/util/concurrent/locks/ReentrantReadWriteLock;
@@ -193,7 +175,6 @@
 
     invoke-virtual {v0}, Ljava/util/concurrent/locks/ReentrantReadWriteLock$ReadLock;->unlock()V
 
-    .line 10
     throw p1
 
     :cond_1
@@ -206,7 +187,6 @@
 
     const-string v0, "ADFilter"
 
-    .line 1
     :try_start_0
     iget-object v1, p0, Lcom/commsource/beautyplus/m0/c;->a:Ljava/util/List;
 
@@ -214,14 +194,12 @@
 
     move-result-object v1
 
-    .line 2
     invoke-static {v1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v2
 
     if-nez v2, :cond_0
 
-    .line 3
     new-instance v2, Ljava/lang/StringBuilder;
 
     invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
@@ -238,7 +216,6 @@
 
     invoke-static {v0, v2}, Lcom/meitu/library/util/Debug/Debug;->e(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 4
     iget-object v2, p0, Lcom/commsource/beautyplus/m0/c;->c:Ljava/lang/String;
 
     iget-object v3, p0, Lcom/commsource/beautyplus/m0/c;->d:Ljava/lang/String;
@@ -252,10 +229,8 @@
     :catch_0
     move-exception p1
 
-    .line 5
     invoke-static {v0, p1}, Lcom/meitu/library/util/Debug/Debug;->g(Ljava/lang/String;Ljava/lang/Throwable;)V
 
-    .line 6
     invoke-static {p1}, Lcom/meitu/library/util/Debug/Debug;->q(Ljava/lang/Throwable;)V
 
     :cond_0
@@ -268,7 +243,6 @@
 .method public d(Landroid/content/Context;)V
     .locals 3
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/beautyplus/m0/c;->e:Ljava/util/concurrent/locks/ReentrantReadWriteLock;
 
     invoke-virtual {v0}, Ljava/util/concurrent/locks/ReentrantReadWriteLock;->writeLock()Ljava/util/concurrent/locks/ReentrantReadWriteLock$WriteLock;
@@ -277,13 +251,11 @@
 
     invoke-virtual {v0}, Ljava/util/concurrent/locks/ReentrantReadWriteLock$WriteLock;->lock()V
 
-    .line 2
     :try_start_0
     iget-object v0, p0, Lcom/commsource/beautyplus/m0/c;->a:Ljava/util/List;
 
     invoke-interface {v0}, Ljava/util/List;->clear()V
 
-    .line 3
     iget-object v0, p0, Lcom/commsource/beautyplus/m0/c;->c:Ljava/lang/String;
 
     iget-object v1, p0, Lcom/commsource/beautyplus/m0/c;->d:Ljava/lang/String;
@@ -294,7 +266,6 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 4
     iget-object p1, p0, Lcom/commsource/beautyplus/m0/c;->e:Ljava/util/concurrent/locks/ReentrantReadWriteLock;
 
     invoke-virtual {p1}, Ljava/util/concurrent/locks/ReentrantReadWriteLock;->writeLock()Ljava/util/concurrent/locks/ReentrantReadWriteLock$WriteLock;
@@ -316,7 +287,6 @@
 
     invoke-virtual {v0}, Ljava/util/concurrent/locks/ReentrantReadWriteLock$WriteLock;->unlock()V
 
-    .line 5
     throw p1
 .end method
 
@@ -341,7 +311,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/beautyplus/m0/c;->e:Ljava/util/concurrent/locks/ReentrantReadWriteLock;
 
     invoke-virtual {v0}, Ljava/util/concurrent/locks/ReentrantReadWriteLock;->readLock()Ljava/util/concurrent/locks/ReentrantReadWriteLock$ReadLock;
@@ -350,13 +319,11 @@
 
     invoke-virtual {v0}, Ljava/util/concurrent/locks/ReentrantReadWriteLock$ReadLock;->lock()V
 
-    .line 2
     :try_start_0
     iget-object v0, p0, Lcom/commsource/beautyplus/m0/c;->a:Ljava/util/List;
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/beautyplus/m0/c;->e:Ljava/util/concurrent/locks/ReentrantReadWriteLock;
 
     invoke-virtual {v1}, Ljava/util/concurrent/locks/ReentrantReadWriteLock;->readLock()Ljava/util/concurrent/locks/ReentrantReadWriteLock$ReadLock;
@@ -378,14 +345,12 @@
 
     invoke-virtual {v1}, Ljava/util/concurrent/locks/ReentrantReadWriteLock$ReadLock;->unlock()V
 
-    .line 4
     throw v0
 .end method
 
 .method public g(Landroid/content/Context;)V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/beautyplus/m0/c;->b:Ljava/util/concurrent/atomic/AtomicBoolean;
 
     invoke-virtual {v0}, Ljava/util/concurrent/atomic/AtomicBoolean;->get()Z
@@ -394,10 +359,8 @@
 
     if-nez v0, :cond_0
 
-    .line 2
     invoke-direct {p0, p1}, Lcom/commsource/beautyplus/m0/c;->j(Landroid/content/Context;)V
 
-    .line 3
     iget-object p1, p0, Lcom/commsource/beautyplus/m0/c;->b:Ljava/util/concurrent/atomic/AtomicBoolean;
 
     const/4 v0, 0x1
@@ -430,7 +393,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/beautyplus/m0/c;->b:Ljava/util/concurrent/atomic/AtomicBoolean;
 
     invoke-virtual {v0}, Ljava/util/concurrent/atomic/AtomicBoolean;->get()Z
@@ -441,7 +403,6 @@
 
     return-void
 
-    .line 2
     :cond_0
     new-instance v0, Lcom/commsource/beautyplus/m0/c$a;
 

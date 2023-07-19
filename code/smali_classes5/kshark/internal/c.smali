@@ -52,7 +52,6 @@
 
     sput-object v0, Lkshark/internal/c;->l:Lkshark/internal/c$a;
 
-    .line 1
     sget-object v0, Lkshark/PrimitiveType;->BOOLEAN:Lkshark/PrimitiveType;
 
     invoke-virtual {v0}, Lkshark/PrimitiveType;->getHprofType()I
@@ -61,7 +60,6 @@
 
     sput v0, Lkshark/internal/c;->d:I
 
-    .line 2
     sget-object v0, Lkshark/PrimitiveType;->CHAR:Lkshark/PrimitiveType;
 
     invoke-virtual {v0}, Lkshark/PrimitiveType;->getHprofType()I
@@ -70,7 +68,6 @@
 
     sput v0, Lkshark/internal/c;->e:I
 
-    .line 3
     sget-object v0, Lkshark/PrimitiveType;->FLOAT:Lkshark/PrimitiveType;
 
     invoke-virtual {v0}, Lkshark/PrimitiveType;->getHprofType()I
@@ -79,7 +76,6 @@
 
     sput v0, Lkshark/internal/c;->f:I
 
-    .line 4
     sget-object v0, Lkshark/PrimitiveType;->DOUBLE:Lkshark/PrimitiveType;
 
     invoke-virtual {v0}, Lkshark/PrimitiveType;->getHprofType()I
@@ -88,7 +84,6 @@
 
     sput v0, Lkshark/internal/c;->g:I
 
-    .line 5
     sget-object v0, Lkshark/PrimitiveType;->BYTE:Lkshark/PrimitiveType;
 
     invoke-virtual {v0}, Lkshark/PrimitiveType;->getHprofType()I
@@ -97,7 +92,6 @@
 
     sput v0, Lkshark/internal/c;->h:I
 
-    .line 6
     sget-object v0, Lkshark/PrimitiveType;->SHORT:Lkshark/PrimitiveType;
 
     invoke-virtual {v0}, Lkshark/PrimitiveType;->getHprofType()I
@@ -106,7 +100,6 @@
 
     sput v0, Lkshark/internal/c;->i:I
 
-    .line 7
     sget-object v0, Lkshark/PrimitiveType;->INT:Lkshark/PrimitiveType;
 
     invoke-virtual {v0}, Lkshark/PrimitiveType;->getHprofType()I
@@ -115,7 +108,6 @@
 
     sput v0, Lkshark/internal/c;->j:I
 
-    .line 8
     sget-object v0, Lkshark/PrimitiveType;->LONG:Lkshark/PrimitiveType;
 
     invoke-virtual {v0}, Lkshark/PrimitiveType;->getHprofType()I
@@ -138,7 +130,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     iput-object p1, p0, Lkshark/internal/c;->b:Lkshark/m$b$c$c;
@@ -151,7 +142,6 @@
 .method private final a()Z
     .locals 4
 
-    .line 1
     iget-object v0, p0, Lkshark/internal/c;->b:Lkshark/m$b$c$c;
 
     invoke-virtual {v0}, Lkshark/m$b$c$c;->b()[B
@@ -166,7 +156,6 @@
 
     add-int/2addr v1, v2
 
-    .line 2
     iput v1, p0, Lkshark/internal/c;->a:I
 
     const/4 v1, 0x0
@@ -187,7 +176,6 @@
 .method private final b()V
     .locals 1
 
-    .line 1
     iget v0, p0, Lkshark/internal/c;->a:I
 
     add-int/lit8 v0, v0, 0x1
@@ -200,7 +188,6 @@
 .method private final c()V
     .locals 1
 
-    .line 1
     iget v0, p0, Lkshark/internal/c;->a:I
 
     add-int/lit8 v0, v0, 0x2
@@ -213,7 +200,6 @@
 .method private final d()V
     .locals 1
 
-    .line 1
     iget v0, p0, Lkshark/internal/c;->a:I
 
     add-int/lit8 v0, v0, 0x8
@@ -226,7 +212,6 @@
 .method private final e()V
     .locals 1
 
-    .line 1
     iget v0, p0, Lkshark/internal/c;->a:I
 
     add-int/lit8 v0, v0, 0x4
@@ -239,7 +224,6 @@
 .method private final f()J
     .locals 2
 
-    .line 1
     iget v0, p0, Lkshark/internal/c;->c:I
 
     const/4 v1, 0x4
@@ -250,14 +234,12 @@
 
     if-ne v0, v1, :cond_0
 
-    .line 2
     invoke-direct {p0}, Lkshark/internal/c;->h()J
 
     move-result-wide v0
 
     goto :goto_0
 
-    .line 3
     :cond_0
     new-instance v0, Ljava/lang/IllegalArgumentException;
 
@@ -267,7 +249,6 @@
 
     throw v0
 
-    .line 4
     :cond_1
     invoke-direct {p0}, Lkshark/internal/c;->g()I
 
@@ -282,7 +263,6 @@
 .method private final g()I
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lkshark/internal/c;->b:Lkshark/m$b$c$c;
 
     invoke-virtual {v0}, Lkshark/m$b$c$c;->b()[B
@@ -295,7 +275,6 @@
 
     move-result v0
 
-    .line 2
     iget v1, p0, Lkshark/internal/c;->a:I
 
     add-int/lit8 v1, v1, 0x4
@@ -308,7 +287,6 @@
 .method private final h()J
     .locals 3
 
-    .line 1
     iget-object v0, p0, Lkshark/internal/c;->b:Lkshark/m$b$c$c;
 
     invoke-virtual {v0}, Lkshark/m$b$c$c;->b()[B
@@ -321,7 +299,6 @@
 
     move-result-wide v0
 
-    .line 2
     iget v2, p0, Lkshark/internal/c;->a:I
 
     add-int/lit8 v2, v2, 0x8
@@ -334,7 +311,6 @@
 .method private final i()V
     .locals 1
 
-    .line 1
     iget v0, p0, Lkshark/internal/c;->a:I
 
     add-int/lit8 v0, v0, 0x2
@@ -359,7 +335,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-virtual {p1}, Lkshark/m$b$c$a$a;->f()I
 
     move-result v0
@@ -370,7 +345,6 @@
 
     if-ne v0, v2, :cond_0
 
-    .line 2
     new-instance v1, Lkshark/b0$i;
 
     invoke-direct {p0}, Lkshark/internal/c;->f()J
@@ -381,13 +355,11 @@
 
     goto :goto_0
 
-    .line 3
     :cond_0
     sget v2, Lkshark/internal/c;->d:I
 
     if-ne v0, v2, :cond_1
 
-    .line 4
     new-instance v1, Lkshark/b0$a;
 
     invoke-direct {p0}, Lkshark/internal/c;->a()Z
@@ -398,68 +370,56 @@
 
     goto :goto_0
 
-    .line 5
     :cond_1
     sget v2, Lkshark/internal/c;->e:I
 
     if-ne v0, v2, :cond_2
 
-    .line 6
     invoke-direct {p0}, Lkshark/internal/c;->c()V
 
     goto :goto_0
 
-    .line 7
     :cond_2
     sget v2, Lkshark/internal/c;->f:I
 
     if-ne v0, v2, :cond_3
 
-    .line 8
     invoke-direct {p0}, Lkshark/internal/c;->e()V
 
     goto :goto_0
 
-    .line 9
     :cond_3
     sget v2, Lkshark/internal/c;->g:I
 
     if-ne v0, v2, :cond_4
 
-    .line 10
     invoke-direct {p0}, Lkshark/internal/c;->d()V
 
     goto :goto_0
 
-    .line 11
     :cond_4
     sget v2, Lkshark/internal/c;->h:I
 
     if-ne v0, v2, :cond_5
 
-    .line 12
     invoke-direct {p0}, Lkshark/internal/c;->b()V
 
     goto :goto_0
 
-    .line 13
     :cond_5
     sget v2, Lkshark/internal/c;->i:I
 
     if-ne v0, v2, :cond_6
 
-    .line 14
     invoke-direct {p0}, Lkshark/internal/c;->i()V
 
     goto :goto_0
 
-    .line 15
     :cond_6
     sget v1, Lkshark/internal/c;->j:I
 
     if-ne v0, v1, :cond_7
 
-    .line 16
     new-instance v1, Lkshark/b0$g;
 
     invoke-direct {p0}, Lkshark/internal/c;->g()I
@@ -470,13 +430,11 @@
 
     goto :goto_0
 
-    .line 17
     :cond_7
     sget v1, Lkshark/internal/c;->k:I
 
     if-ne v0, v1, :cond_8
 
-    .line 18
     new-instance v1, Lkshark/b0$h;
 
     invoke-direct {p0}, Lkshark/internal/c;->h()J
@@ -488,7 +446,6 @@
     :goto_0
     return-object v1
 
-    .line 19
     :cond_8
     new-instance v0, Ljava/lang/IllegalStateException;
 

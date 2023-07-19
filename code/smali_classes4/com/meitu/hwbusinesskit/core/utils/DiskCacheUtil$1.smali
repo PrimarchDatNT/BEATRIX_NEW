@@ -26,7 +26,6 @@
 .method constructor <init>(Ljava/lang/String;ZLjava/lang/String;Lcom/meitu/hwbusinesskit/core/utils/DiskCacheUtil$ICacheProcessor;)V
     .locals 0
 
-    .line 1
     iput-boolean p2, p0, Lcom/meitu/hwbusinesskit/core/utils/DiskCacheUtil$1;->val$versionClear:Z
 
     iput-object p3, p0, Lcom/meitu/hwbusinesskit/core/utils/DiskCacheUtil$1;->val$asKey:Ljava/lang/String;
@@ -47,28 +46,24 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/meitu/hwbusinesskit/core/utils/DiskCacheUtil$1;->val$versionClear:Z
 
     const-string v2, "file"
 
     invoke-static {v1, v2}, Lcom/meitu/hwbusinesskit/core/utils/DiskCacheUtil;->access$000(ZLjava/lang/String;)V
 
-    .line 2
     invoke-static {}, Lcom/meitu/hwbusinesskit/core/utils/DiskCacheUtil;->access$100()Lf/i/a/a;
 
     move-result-object v1
 
     if-eqz v1, :cond_1
 
-    .line 3
     iget-object v1, p0, Lcom/meitu/hwbusinesskit/core/utils/DiskCacheUtil$1;->val$asKey:Ljava/lang/String;
 
     invoke-static {v1}, Lcom/meitu/hwbusinesskit/core/utils/DiskCacheUtil;->access$200(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v1
 
-    .line 4
     :try_start_0
     invoke-static {}, Lcom/meitu/hwbusinesskit/core/utils/DiskCacheUtil;->access$100()Lf/i/a/a;
 
@@ -80,12 +75,10 @@
 
     if-eqz v1, :cond_0
 
-    .line 5
     iget-object v2, p0, Lcom/meitu/hwbusinesskit/core/utils/DiskCacheUtil$1;->val$cache:Lcom/meitu/hwbusinesskit/core/utils/DiskCacheUtil$ICacheProcessor;
 
     invoke-interface {v2, v1}, Lcom/meitu/hwbusinesskit/core/utils/DiskCacheUtil$ICacheProcessor;->doCache(Lf/i/a/a$c;)V
 
-    .line 6
     :cond_0
     invoke-static {}, Lcom/meitu/hwbusinesskit/core/utils/DiskCacheUtil;->access$100()Lf/i/a/a;
 
@@ -100,10 +93,8 @@
     :catch_0
     move-exception v1
 
-    .line 7
     invoke-static {v1}, Lcom/meitu/hwbusinesskit/core/utils/TestLog;->log(Ljava/lang/Throwable;)V
 
-    .line 8
     :cond_1
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

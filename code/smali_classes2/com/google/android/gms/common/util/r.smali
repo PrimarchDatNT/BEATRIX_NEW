@@ -22,7 +22,6 @@
 
     const-string v0, "\\\\."
 
-    .line 1
     invoke-static {v0}, Ljava/util/regex/Pattern;->compile(Ljava/lang/String;)Ljava/util/regex/Pattern;
 
     move-result-object v0
@@ -31,7 +30,6 @@
 
     const-string v0, "[\\\\\"/\u0008\u000c\n\r\t]"
 
-    .line 2
     invoke-static {v0}, Ljava/util/regex/Pattern;->compile(Ljava/lang/String;)Ljava/util/regex/Pattern;
 
     move-result-object v0
@@ -44,7 +42,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -72,7 +69,6 @@
 
     goto/16 :goto_1
 
-    .line 1
     :cond_1
     instance-of v2, p0, Lorg/json/JSONObject;
 
@@ -82,13 +78,10 @@
 
     if-eqz v2, :cond_6
 
-    .line 2
     check-cast p0, Lorg/json/JSONObject;
 
-    .line 3
     check-cast p1, Lorg/json/JSONObject;
 
-    .line 4
     invoke-virtual {p0}, Lorg/json/JSONObject;->length()I
 
     move-result v2
@@ -101,13 +94,11 @@
 
     return v1
 
-    .line 5
     :cond_2
     invoke-virtual {p0}, Lorg/json/JSONObject;->keys()Ljava/util/Iterator;
 
     move-result-object v2
 
-    .line 6
     :cond_3
     invoke-interface {v2}, Ljava/util/Iterator;->hasNext()Z
 
@@ -115,14 +106,12 @@
 
     if-eqz v3, :cond_5
 
-    .line 7
     invoke-interface {v2}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
     move-result-object v3
 
     check-cast v3, Ljava/lang/String;
 
-    .line 8
     invoke-virtual {p1, v3}, Lorg/json/JSONObject;->has(Ljava/lang/String;)Z
 
     move-result v4
@@ -131,19 +120,16 @@
 
     return v1
 
-    .line 9
     :cond_4
     :try_start_0
     invoke-virtual {p0, v3}, Lorg/json/JSONObject;->get(Ljava/lang/String;)Ljava/lang/Object;
 
     move-result-object v4
 
-    .line 10
     invoke-virtual {p1, v3}, Lorg/json/JSONObject;->get(Ljava/lang/String;)Ljava/lang/Object;
 
     move-result-object v3
 
-    .line 11
     invoke-static {v4, v3}, Lcom/google/android/gms/common/util/r;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v3
@@ -158,7 +144,6 @@
     :cond_5
     return v0
 
-    .line 12
     :cond_6
     instance-of v2, p0, Lorg/json/JSONArray;
 
@@ -168,13 +153,10 @@
 
     if-eqz v2, :cond_a
 
-    .line 13
     check-cast p0, Lorg/json/JSONArray;
 
-    .line 14
     check-cast p1, Lorg/json/JSONArray;
 
-    .line 15
     invoke-virtual {p0}, Lorg/json/JSONArray;->length()I
 
     move-result v2
@@ -190,7 +172,6 @@
     :cond_7
     const/4 v2, 0x0
 
-    .line 16
     :goto_0
     invoke-virtual {p0}, Lorg/json/JSONArray;->length()I
 
@@ -198,18 +179,15 @@
 
     if-ge v2, v3, :cond_9
 
-    .line 17
     :try_start_1
     invoke-virtual {p0, v2}, Lorg/json/JSONArray;->get(I)Ljava/lang/Object;
 
     move-result-object v3
 
-    .line 18
     invoke-virtual {p1, v2}, Lorg/json/JSONArray;->get(I)Ljava/lang/Object;
 
     move-result-object v4
 
-    .line 19
     invoke-static {v3, v4}, Lcom/google/android/gms/common/util/r;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v3
@@ -231,7 +209,6 @@
     :cond_9
     return v0
 
-    .line 20
     :cond_a
     invoke-virtual {p0, p1}, Ljava/lang/Object;->equals(Ljava/lang/Object;)Z
 
@@ -249,14 +226,12 @@
     .annotation build Lcom/google/android/gms/common/annotation/a;
     .end annotation
 
-    .line 1
     invoke-static {p0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v0
 
     if-nez v0, :cond_8
 
-    .line 2
     sget-object v0, Lcom/google/android/gms/common/util/r;->b:Ljava/util/regex/Pattern;
 
     invoke-virtual {v0, p0}, Ljava/util/regex/Pattern;->matcher(Ljava/lang/CharSequence;)Ljava/util/regex/Matcher;
@@ -265,7 +240,6 @@
 
     const/4 v1, 0x0
 
-    .line 3
     :goto_0
     invoke-virtual {v0}, Ljava/util/regex/Matcher;->find()Z
 
@@ -275,12 +249,10 @@
 
     if-nez v1, :cond_0
 
-    .line 4
     new-instance v1, Ljava/lang/StringBuffer;
 
     invoke-direct {v1}, Ljava/lang/StringBuffer;-><init>()V
 
-    .line 5
     :cond_0
     invoke-virtual {v0}, Ljava/util/regex/Matcher;->group()Ljava/lang/String;
 
@@ -319,7 +291,6 @@
     :pswitch_0
     const-string v2, "\\\\n"
 
-    .line 6
     invoke-virtual {v0, v1, v2}, Ljava/util/regex/Matcher;->appendReplacement(Ljava/lang/StringBuffer;Ljava/lang/String;)Ljava/util/regex/Matcher;
 
     goto :goto_0
@@ -327,7 +298,6 @@
     :pswitch_1
     const-string v2, "\\\\t"
 
-    .line 7
     invoke-virtual {v0, v1, v2}, Ljava/util/regex/Matcher;->appendReplacement(Ljava/lang/StringBuffer;Ljava/lang/String;)Ljava/util/regex/Matcher;
 
     goto :goto_0
@@ -335,7 +305,6 @@
     :pswitch_2
     const-string v2, "\\\\b"
 
-    .line 8
     invoke-virtual {v0, v1, v2}, Ljava/util/regex/Matcher;->appendReplacement(Ljava/lang/StringBuffer;Ljava/lang/String;)Ljava/util/regex/Matcher;
 
     goto :goto_0
@@ -343,7 +312,6 @@
     :cond_1
     const-string v2, "\\\\\\\\"
 
-    .line 9
     invoke-virtual {v0, v1, v2}, Ljava/util/regex/Matcher;->appendReplacement(Ljava/lang/StringBuffer;Ljava/lang/String;)Ljava/util/regex/Matcher;
 
     goto :goto_0
@@ -351,7 +319,6 @@
     :cond_2
     const-string v2, "\\\\/"
 
-    .line 10
     invoke-virtual {v0, v1, v2}, Ljava/util/regex/Matcher;->appendReplacement(Ljava/lang/StringBuffer;Ljava/lang/String;)Ljava/util/regex/Matcher;
 
     goto :goto_0
@@ -359,7 +326,6 @@
     :cond_3
     const-string v2, "\\\\\\\""
 
-    .line 11
     invoke-virtual {v0, v1, v2}, Ljava/util/regex/Matcher;->appendReplacement(Ljava/lang/StringBuffer;Ljava/lang/String;)Ljava/util/regex/Matcher;
 
     goto :goto_0
@@ -367,7 +333,6 @@
     :cond_4
     const-string v2, "\\\\r"
 
-    .line 12
     invoke-virtual {v0, v1, v2}, Ljava/util/regex/Matcher;->appendReplacement(Ljava/lang/StringBuffer;Ljava/lang/String;)Ljava/util/regex/Matcher;
 
     goto :goto_0
@@ -375,7 +340,6 @@
     :cond_5
     const-string v2, "\\\\f"
 
-    .line 13
     invoke-virtual {v0, v1, v2}, Ljava/util/regex/Matcher;->appendReplacement(Ljava/lang/StringBuffer;Ljava/lang/String;)Ljava/util/regex/Matcher;
 
     goto :goto_0
@@ -385,11 +349,9 @@
 
     return-object p0
 
-    .line 14
     :cond_7
     invoke-virtual {v0, v1}, Ljava/util/regex/Matcher;->appendTail(Ljava/lang/StringBuffer;)Ljava/lang/StringBuffer;
 
-    .line 15
     invoke-virtual {v1}, Ljava/lang/StringBuffer;->toString()Ljava/lang/String;
 
     move-result-object p0
@@ -410,19 +372,16 @@
     .annotation build Lcom/google/android/gms/common/annotation/a;
     .end annotation
 
-    .line 1
     invoke-static {p0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v0
 
     if-nez v0, :cond_b
 
-    .line 2
     invoke-static {p0}, Lcom/google/android/gms/common/util/j0;->a(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p0
 
-    .line 3
     sget-object v0, Lcom/google/android/gms/common/util/r;->a:Ljava/util/regex/Pattern;
 
     invoke-virtual {v0, p0}, Ljava/util/regex/Pattern;->matcher(Ljava/lang/CharSequence;)Ljava/util/regex/Matcher;
@@ -431,7 +390,6 @@
 
     const/4 v1, 0x0
 
-    .line 4
     :goto_0
     invoke-virtual {v0}, Ljava/util/regex/Matcher;->find()Z
 
@@ -441,12 +399,10 @@
 
     if-nez v1, :cond_0
 
-    .line 5
     new-instance v1, Ljava/lang/StringBuffer;
 
     invoke-direct {v1}, Ljava/lang/StringBuffer;-><init>()V
 
-    .line 6
     :cond_0
     invoke-virtual {v0}, Ljava/util/regex/Matcher;->group()Ljava/lang/String;
 
@@ -492,12 +448,10 @@
 
     const-string v2, "\t"
 
-    .line 7
     invoke-virtual {v0, v1, v2}, Ljava/util/regex/Matcher;->appendReplacement(Ljava/lang/StringBuffer;Ljava/lang/String;)Ljava/util/regex/Matcher;
 
     goto :goto_0
 
-    .line 8
     :cond_1
     new-instance p0, Ljava/lang/IllegalStateException;
 
@@ -510,7 +464,6 @@
     :cond_2
     const-string v2, "\r"
 
-    .line 9
     invoke-virtual {v0, v1, v2}, Ljava/util/regex/Matcher;->appendReplacement(Ljava/lang/StringBuffer;Ljava/lang/String;)Ljava/util/regex/Matcher;
 
     goto :goto_0
@@ -518,7 +471,6 @@
     :cond_3
     const-string v2, "\n"
 
-    .line 10
     invoke-virtual {v0, v1, v2}, Ljava/util/regex/Matcher;->appendReplacement(Ljava/lang/StringBuffer;Ljava/lang/String;)Ljava/util/regex/Matcher;
 
     goto :goto_0
@@ -526,7 +478,6 @@
     :cond_4
     const-string v2, "\u000c"
 
-    .line 11
     invoke-virtual {v0, v1, v2}, Ljava/util/regex/Matcher;->appendReplacement(Ljava/lang/StringBuffer;Ljava/lang/String;)Ljava/util/regex/Matcher;
 
     goto :goto_0
@@ -534,7 +485,6 @@
     :cond_5
     const-string v2, "\u0008"
 
-    .line 12
     invoke-virtual {v0, v1, v2}, Ljava/util/regex/Matcher;->appendReplacement(Ljava/lang/StringBuffer;Ljava/lang/String;)Ljava/util/regex/Matcher;
 
     goto :goto_0
@@ -542,7 +492,6 @@
     :cond_6
     const-string v2, "\\\\"
 
-    .line 13
     invoke-virtual {v0, v1, v2}, Ljava/util/regex/Matcher;->appendReplacement(Ljava/lang/StringBuffer;Ljava/lang/String;)Ljava/util/regex/Matcher;
 
     goto :goto_0
@@ -550,7 +499,6 @@
     :cond_7
     const-string v2, "/"
 
-    .line 14
     invoke-virtual {v0, v1, v2}, Ljava/util/regex/Matcher;->appendReplacement(Ljava/lang/StringBuffer;Ljava/lang/String;)Ljava/util/regex/Matcher;
 
     goto :goto_0
@@ -558,7 +506,6 @@
     :cond_8
     const-string v2, "\""
 
-    .line 15
     invoke-virtual {v0, v1, v2}, Ljava/util/regex/Matcher;->appendReplacement(Ljava/lang/StringBuffer;Ljava/lang/String;)Ljava/util/regex/Matcher;
 
     goto :goto_0
@@ -568,11 +515,9 @@
 
     return-object p0
 
-    .line 16
     :cond_a
     invoke-virtual {v0, v1}, Ljava/util/regex/Matcher;->appendTail(Ljava/lang/StringBuffer;)Ljava/lang/StringBuffer;
 
-    .line 17
     invoke-virtual {v1}, Ljava/lang/StringBuffer;->toString()Ljava/lang/String;
 
     move-result-object p0

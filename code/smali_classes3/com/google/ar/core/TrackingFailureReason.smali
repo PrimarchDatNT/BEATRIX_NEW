@@ -37,7 +37,6 @@
 .method static constructor <clinit>()V
     .locals 13
 
-    .line 1
     new-instance v0, Lcom/google/ar/core/TrackingFailureReason;
 
     const-string v1, "NONE"
@@ -48,7 +47,6 @@
 
     sput-object v0, Lcom/google/ar/core/TrackingFailureReason;->NONE:Lcom/google/ar/core/TrackingFailureReason;
 
-    .line 2
     new-instance v1, Lcom/google/ar/core/TrackingFailureReason;
 
     const-string v3, "BAD_STATE"
@@ -59,7 +57,6 @@
 
     sput-object v1, Lcom/google/ar/core/TrackingFailureReason;->BAD_STATE:Lcom/google/ar/core/TrackingFailureReason;
 
-    .line 3
     new-instance v3, Lcom/google/ar/core/TrackingFailureReason;
 
     const-string v5, "INSUFFICIENT_LIGHT"
@@ -70,7 +67,6 @@
 
     sput-object v3, Lcom/google/ar/core/TrackingFailureReason;->INSUFFICIENT_LIGHT:Lcom/google/ar/core/TrackingFailureReason;
 
-    .line 4
     new-instance v5, Lcom/google/ar/core/TrackingFailureReason;
 
     const-string v7, "EXCESSIVE_MOTION"
@@ -81,7 +77,6 @@
 
     sput-object v5, Lcom/google/ar/core/TrackingFailureReason;->EXCESSIVE_MOTION:Lcom/google/ar/core/TrackingFailureReason;
 
-    .line 5
     new-instance v7, Lcom/google/ar/core/TrackingFailureReason;
 
     const-string v9, "INSUFFICIENT_FEATURES"
@@ -92,7 +87,6 @@
 
     sput-object v7, Lcom/google/ar/core/TrackingFailureReason;->INSUFFICIENT_FEATURES:Lcom/google/ar/core/TrackingFailureReason;
 
-    .line 6
     new-instance v9, Lcom/google/ar/core/TrackingFailureReason;
 
     const-string v11, "CAMERA_UNAVAILABLE"
@@ -119,7 +113,6 @@
 
     aput-object v9, v11, v12
 
-    .line 7
     sput-object v11, Lcom/google/ar/core/TrackingFailureReason;->$VALUES:[Lcom/google/ar/core/TrackingFailureReason;
 
     return-void
@@ -133,10 +126,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 2
     iput p3, p0, Lcom/google/ar/core/TrackingFailureReason;->nativeCode:I
 
     return-void
@@ -145,7 +136,6 @@
 .method static forNumber(I)Lcom/google/ar/core/TrackingFailureReason;
     .locals 5
 
-    .line 1
     invoke-static {}, Lcom/google/ar/core/TrackingFailureReason;->values()[Lcom/google/ar/core/TrackingFailureReason;
 
     move-result-object v0
@@ -159,7 +149,6 @@
 
     aget-object v3, v0, v2
 
-    .line 2
     iget v4, v3, Lcom/google/ar/core/TrackingFailureReason;->nativeCode:I
 
     if-ne v4, p0, :cond_0
@@ -171,7 +160,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_1
     new-instance v0, Lcom/google/ar/core/exceptions/FatalException;
 
@@ -199,7 +187,6 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/google/ar/core/TrackingFailureReason;
     .locals 1
 
-    .line 1
     const-class v0, Lcom/google/ar/core/TrackingFailureReason;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -214,7 +201,6 @@
 .method public static values()[Lcom/google/ar/core/TrackingFailureReason;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/google/ar/core/TrackingFailureReason;->$VALUES:[Lcom/google/ar/core/TrackingFailureReason;
 
     invoke-virtual {v0}, [Lcom/google/ar/core/TrackingFailureReason;->clone()Ljava/lang/Object;

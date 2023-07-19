@@ -21,10 +21,8 @@
 .method public constructor <init>(Lf/r/c/b;)V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     const-class v0, Lf/r/c/e/i/a;
 
     invoke-virtual {v0}, Ljava/lang/Class;->getSimpleName()Ljava/lang/String;
@@ -33,12 +31,10 @@
 
     iput-object v0, p0, Lf/r/c/e/i/a;->a:Ljava/lang/String;
 
-    .line 3
     iput-object p1, p0, Lf/r/c/e/i/a;->b:Lf/r/c/b;
 
     const/4 p1, 0x0
 
-    .line 4
     iput-object p1, p0, Lf/r/c/e/i/a;->c:Landroid/location/Location;
 
     return-void
@@ -47,7 +43,6 @@
 .method private e()Ljava/lang/String;
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Lf/r/c/e/i/a;->g()Z
 
     move-result v0
@@ -58,7 +53,6 @@
 
     return-object v0
 
-    .line 2
     :cond_0
     invoke-direct {p0}, Lf/r/c/e/i/a;->f()Z
 
@@ -79,7 +73,6 @@
 .method private f()Z
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lf/r/c/e/i/a;->b:Lf/r/c/b;
 
     invoke-interface {v0}, Lf/r/c/b;->g()Landroid/app/Activity;
@@ -108,7 +101,6 @@
 .method private g()Z
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lf/r/c/e/i/a;->b:Lf/r/c/b;
 
     invoke-interface {v0}, Lf/r/c/b;->g()Landroid/app/Activity;
@@ -141,7 +133,6 @@
     .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lf/r/c/e/i/a;->c:Landroid/location/Location;
 
     return-object v0
@@ -150,7 +141,6 @@
 .method public b()V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lf/r/c/e/i/a;->d:Landroid/location/LocationManager;
 
     if-eqz v0, :cond_1
@@ -167,7 +157,6 @@
 
     if-eqz v0, :cond_1
 
-    .line 2
     :cond_0
     iget-object v0, p0, Lf/r/c/e/i/a;->d:Landroid/location/LocationManager;
 
@@ -182,7 +171,6 @@
     .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
-    .line 1
     new-instance v0, Landroid/location/Geocoder;
 
     iget-object v1, p0, Lf/r/c/e/i/a;->b:Lf/r/c/b;
@@ -197,7 +185,6 @@
 
     invoke-direct {v0, v1, v2}, Landroid/location/Geocoder;-><init>(Landroid/content/Context;Ljava/util/Locale;)V
 
-    .line 2
     :try_start_0
     iget-object v1, p0, Lf/r/c/e/i/a;->c:Landroid/location/Location;
 
@@ -217,7 +204,6 @@
 
     move-result-object v0
 
-    .line 3
     invoke-interface {v0}, Ljava/util/List;->isEmpty()Z
 
     move-result v1
@@ -226,7 +212,6 @@
 
     const/4 v1, 0x0
 
-    .line 4
     invoke-interface {v0, v1}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object v0
@@ -256,7 +241,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lf/r/c/e/i/a;->b:Lf/r/c/b;
 
     invoke-interface {v0}, Lf/r/c/b;->a()Landroid/content/SharedPreferences;
@@ -275,7 +259,6 @@
 
     move-result-object v0
 
-    .line 2
     iget-object v1, p0, Lf/r/c/e/i/a;->b:Lf/r/c/b;
 
     invoke-interface {v1}, Lf/r/c/b;->a()Landroid/content/SharedPreferences;
@@ -290,7 +273,6 @@
 
     move-result v8
 
-    .line 3
     invoke-direct {p0}, Lf/r/c/e/i/a;->f()Z
 
     move-result v1
@@ -305,7 +287,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_0
     iget-object v0, p0, Lf/r/c/e/i/a;->a:Ljava/lang/String;
 
@@ -315,7 +296,6 @@
 
     goto :goto_1
 
-    .line 5
     :cond_1
     :goto_0
     iget-object v1, p0, Lf/r/c/e/i/a;->b:Lf/r/c/b;
@@ -324,14 +304,12 @@
 
     move-result-object v1
 
-    .line 6
     invoke-direct {p0}, Lf/r/c/e/i/a;->e()Ljava/lang/String;
 
     move-result-object v5
 
     const-string v2, "location"
 
-    .line 7
     invoke-virtual {v1, v2}, Landroid/content/Context;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
 
     move-result-object v1
@@ -344,14 +322,12 @@
 
     if-eqz v1, :cond_2
 
-    .line 8
     invoke-virtual {v1, v5}, Landroid/location/LocationManager;->getLastKnownLocation(Ljava/lang/String;)Landroid/location/Location;
 
     move-result-object v1
 
     iput-object v1, p0, Lf/r/c/e/i/a;->c:Landroid/location/Location;
 
-    .line 9
     iget-object v4, p0, Lf/r/c/e/i/a;->d:Landroid/location/LocationManager;
 
     invoke-virtual {v0}, Ljava/lang/Long;->longValue()J
@@ -364,7 +340,6 @@
 
     goto :goto_1
 
-    .line 10
     :cond_2
     iget-object v0, p0, Lf/r/c/e/i/a;->a:Ljava/lang/String;
 
@@ -379,7 +354,6 @@
 .method public onLocationChanged(Landroid/location/Location;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lf/r/c/e/i/a;->c:Landroid/location/Location;
 
     return-void

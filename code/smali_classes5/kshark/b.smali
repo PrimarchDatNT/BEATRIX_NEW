@@ -11,7 +11,6 @@
 .method public static final synthetic a(Lkshark/v;Lkshark/u;Lkshark/h;)V
     .locals 0
 
-    .line 1
     invoke-static {p0, p1, p2}, Lkshark/b;->c(Lkshark/v;Lkshark/u;Lkshark/h;)V
 
     return-void
@@ -20,7 +19,6 @@
 .method public static final synthetic b(Lkshark/h;Ljava/lang/String;)Ljava/lang/String;
     .locals 0
 
-    .line 1
     invoke-static {p0, p1}, Lkshark/b;->d(Lkshark/h;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p0
@@ -39,7 +37,6 @@
 
     return-void
 
-    .line 1
     :cond_0
     invoke-virtual {p2}, Lkshark/h;->c()Lkshark/j;
 
@@ -53,7 +50,6 @@
 
     return-void
 
-    .line 2
     :cond_1
     invoke-virtual {p2}, Lkshark/h;->c()Lkshark/j;
 
@@ -67,16 +63,13 @@
 
     invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
-    .line 3
     :cond_2
     new-instance v1, Lkshark/v;
 
     invoke-direct {v1, v0}, Lkshark/v;-><init>(Lkshark/HeapObject;)V
 
-    .line 4
     invoke-interface {p1, v1}, Lkshark/u;->inspect(Lkshark/v;)V
 
-    .line 5
     new-instance p1, Ljava/lang/StringBuilder;
 
     invoke-direct {p1}, Ljava/lang/StringBuilder;-><init>()V
@@ -109,7 +102,6 @@
 
     move-result-object p1
 
-    .line 6
     invoke-virtual {p0}, Lkshark/v;->b()Ljava/util/LinkedHashSet;
 
     move-result-object p2
@@ -118,7 +110,6 @@
 
     move-result-object v0
 
-    .line 7
     new-instance v2, Ljava/util/ArrayList;
 
     const/16 v3, 0xa
@@ -129,7 +120,6 @@
 
     invoke-direct {v2, v4}, Ljava/util/ArrayList;-><init>(I)V
 
-    .line 8
     invoke-interface {v0}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v0
@@ -147,10 +137,8 @@
 
     move-result-object v4
 
-    .line 9
     check-cast v4, Ljava/lang/String;
 
-    .line 10
     new-instance v6, Ljava/lang/StringBuilder;
 
     invoke-direct {v6}, Ljava/lang/StringBuilder;-><init>()V
@@ -172,7 +160,6 @@
     :cond_3
     invoke-static {p2, v2}, Lcotlin/collections/s;->q0(Ljava/util/Collection;Ljava/lang/Iterable;)Z
 
-    .line 11
     invoke-virtual {p0}, Lkshark/v;->c()Ljava/util/Set;
 
     move-result-object p2
@@ -181,7 +168,6 @@
 
     move-result-object v0
 
-    .line 12
     new-instance v2, Ljava/util/ArrayList;
 
     invoke-static {v0, v3}, Lcotlin/collections/s;->Y(Ljava/lang/Iterable;I)I
@@ -190,7 +176,6 @@
 
     invoke-direct {v2, v4}, Ljava/util/ArrayList;-><init>(I)V
 
-    .line 13
     invoke-interface {v0}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v0
@@ -206,10 +191,8 @@
 
     move-result-object v4
 
-    .line 14
     check-cast v4, Ljava/lang/String;
 
-    .line 15
     new-instance v6, Ljava/lang/StringBuilder;
 
     invoke-direct {v6}, Ljava/lang/StringBuilder;-><init>()V
@@ -231,7 +214,6 @@
     :cond_4
     invoke-static {p2, v2}, Lcotlin/collections/s;->q0(Ljava/util/Collection;Ljava/lang/Iterable;)Z
 
-    .line 16
     invoke-virtual {p0}, Lkshark/v;->e()Ljava/util/Set;
 
     move-result-object p0
@@ -240,7 +222,6 @@
 
     move-result-object p2
 
-    .line 17
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-static {p2, v3}, Lcotlin/collections/s;->Y(Ljava/lang/Iterable;I)I
@@ -249,7 +230,6 @@
 
     invoke-direct {v0, v1}, Ljava/util/ArrayList;-><init>(I)V
 
-    .line 18
     invoke-interface {p2}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object p2
@@ -265,10 +245,8 @@
 
     move-result-object v1
 
-    .line 19
     check-cast v1, Ljava/lang/String;
 
-    .line 20
     new-instance v2, Ljava/lang/StringBuilder;
 
     invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
@@ -300,7 +278,6 @@
         .end annotation
     .end param
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -353,7 +330,6 @@
 
     const-string v0, "android.app.Activity"
 
-    .line 1
     invoke-virtual {p0, v0}, Lkshark/HeapObject$HeapInstance;->r(Ljava/lang/String;)Z
 
     move-result v1
@@ -365,14 +341,12 @@
     :cond_0
     const-string v1, "android.content.ContextWrapper"
 
-    .line 2
     invoke-virtual {p0, v1}, Lkshark/HeapObject$HeapInstance;->r(Ljava/lang/String;)Z
 
     move-result v2
 
     if-eqz v2, :cond_b
 
-    .line 3
     new-instance v2, Ljava/util/ArrayList;
 
     invoke-direct {v2}, Ljava/util/ArrayList;-><init>()V
@@ -386,7 +360,6 @@
     :goto_1
     if-eqz v4, :cond_b
 
-    .line 4
     invoke-virtual {p0}, Lkshark/HeapObject$HeapInstance;->g()J
 
     move-result-wide v4
@@ -401,7 +374,6 @@
 
     const-string v5, "mBase"
 
-    .line 5
     invoke-virtual {p0, v1, v5}, Lkshark/HeapObject$HeapInstance;->j(Ljava/lang/String;Ljava/lang/String;)Lkshark/h;
 
     move-result-object v5
@@ -415,14 +387,12 @@
 
     move-result-object v5
 
-    .line 6
     invoke-virtual {v5}, Lkshark/j;->n()Z
 
     move-result v6
 
     if-eqz v6, :cond_1
 
-    .line 7
     invoke-virtual {v5}, Lkshark/j;->i()Lkshark/HeapObject;
 
     move-result-object v5
@@ -440,7 +410,6 @@
 
     invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
-    .line 8
     :cond_4
     invoke-virtual {v5, v0}, Lkshark/HeapObject$HeapInstance;->r(Ljava/lang/String;)Z
 
@@ -453,7 +422,6 @@
     :cond_5
     const-string v6, "com.android.internal.policy.DecorContext"
 
-    .line 9
     invoke-virtual {p0, v6}, Lkshark/HeapObject$HeapInstance;->r(Ljava/lang/String;)Z
 
     move-result v7
@@ -462,14 +430,12 @@
 
     const-string v7, "mPhoneWindow"
 
-    .line 10
     invoke-virtual {p0, v6, v7}, Lkshark/HeapObject$HeapInstance;->j(Ljava/lang/String;Ljava/lang/String;)Lkshark/h;
 
     move-result-object p0
 
     if-eqz p0, :cond_9
 
-    .line 11
     invoke-virtual {p0}, Lkshark/h;->e()Lkshark/HeapObject$HeapInstance;
 
     move-result-object p0
@@ -483,7 +449,6 @@
 
     const-string v6, "mContext"
 
-    .line 12
     invoke-virtual {p0, v5, v6}, Lkshark/HeapObject$HeapInstance;->j(Ljava/lang/String;Ljava/lang/String;)Lkshark/h;
 
     move-result-object p0
@@ -501,7 +466,6 @@
 
     invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
-    .line 13
     :cond_8
     invoke-virtual {v5, v0}, Lkshark/HeapObject$HeapInstance;->r(Ljava/lang/String;)Z
 
@@ -511,7 +475,6 @@
 
     return-object v5
 
-    .line 14
     :cond_9
     invoke-virtual {v5, v1}, Lkshark/HeapObject$HeapInstance;->r(Ljava/lang/String;)Z
 
@@ -519,7 +482,6 @@
 
     if-eqz p0, :cond_a
 
-    .line 15
     invoke-virtual {v5}, Lkshark/HeapObject$HeapInstance;->g()J
 
     move-result-wide v6

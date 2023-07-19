@@ -42,7 +42,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/home/homepagedialog/a$a;->a:Lcom/commsource/home/homepagedialog/a;
 
     invoke-virtual {v0}, Lcom/commsource/home/homepagedialog/d;->a()Lcom/commsource/home/homepagedialog/b;
@@ -57,7 +56,6 @@
 
     invoke-virtual {v0, v1}, Lcom/commsource/home/homepagedialog/b;->c(I)V
 
-    .line 2
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

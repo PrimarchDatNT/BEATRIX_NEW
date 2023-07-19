@@ -13,7 +13,6 @@
 
     return-void
 
-    .line 1
     :cond_0
     new-instance p1, Ljava/lang/NullPointerException;
 
@@ -53,7 +52,6 @@
 
     throw p1
 
-    .line 2
     :cond_1
     new-instance p0, Ljava/lang/NullPointerException;
 
@@ -97,7 +95,6 @@
 
     return p0
 
-    .line 1
     :cond_0
     new-instance v0, Ljava/lang/IllegalArgumentException;
 

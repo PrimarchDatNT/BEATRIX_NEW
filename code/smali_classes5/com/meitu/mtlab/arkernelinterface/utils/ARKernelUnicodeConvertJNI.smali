@@ -7,7 +7,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -20,7 +19,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p0}, Lcom/meitu/mtlab/arkernelinterface/utils/ARKernelUnicodeConvertJNI;->nativeUTF32ToUTF8([I)Ljava/lang/String;
 
     move-result-object p0
@@ -37,7 +35,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p0}, Lcom/meitu/mtlab/arkernelinterface/utils/ARKernelUnicodeConvertJNI;->nativeUTF8ToUTF32(Ljava/lang/String;)[I
 
     move-result-object p0
@@ -54,7 +51,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p0}, Lcom/meitu/mtlab/arkernelinterface/utils/ARKernelUnicodeConvertJNI;->nativeUTF8ToUTF32Byte([B)[I
 
     move-result-object p0

@@ -17,7 +17,6 @@
 .method constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/google/android/gms/common/api/a$a;-><init>()V
 
     return-void
@@ -28,12 +27,10 @@
 .method public final synthetic c(Landroid/content/Context;Landroid/os/Looper;Lcom/google/android/gms/common/internal/f;Ljava/lang/Object;Lcom/google/android/gms/common/api/i$b;Lcom/google/android/gms/common/api/i$c;)Lcom/google/android/gms/common/api/a$f;
     .locals 7
 
-    .line 1
     move-object v4, p4
 
     check-cast v4, Lcom/google/firebase/auth/p/a/i3;
 
-    .line 2
     new-instance p4, Lcom/google/firebase/auth/p/a/s2;
 
     move-object v0, p4

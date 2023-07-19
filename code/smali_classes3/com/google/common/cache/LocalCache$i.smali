@@ -29,7 +29,6 @@
 .method constructor <init>(Lcom/google/common/cache/LocalCache;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/common/cache/LocalCache$i;->K:Lcom/google/common/cache/LocalCache;
 
     invoke-direct {p0, p1}, Lcom/google/common/cache/LocalCache$h;-><init>(Lcom/google/common/cache/LocalCache;)V
@@ -47,7 +46,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/cache/LocalCache$h;->c()Lcom/google/common/cache/LocalCache$d0;
 
     move-result-object v0

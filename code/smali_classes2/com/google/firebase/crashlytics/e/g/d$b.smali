@@ -26,15 +26,12 @@
 .method constructor <init>(Lcom/google/firebase/crashlytics/e/g/d;[BI)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/firebase/crashlytics/e/g/d$b;->c:Lcom/google/firebase/crashlytics/e/g/d;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p2, p0, Lcom/google/firebase/crashlytics/e/g/d$b;->a:[B
 
-    .line 3
     iput p3, p0, Lcom/google/firebase/crashlytics/e/g/d$b;->b:I
 
     return-void

@@ -36,7 +36,6 @@
 .method constructor <init>(Lcom/google/common/collect/ImmutableRangeSet;IILcom/google/common/collect/Range;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/common/collect/ImmutableRangeSet$1;->this$0:Lcom/google/common/collect/ImmutableRangeSet;
 
     iput p2, p0, Lcom/google/common/collect/ImmutableRangeSet$1;->val$length:I
@@ -62,14 +61,12 @@
         }
     .end annotation
 
-    .line 2
     iget v0, p0, Lcom/google/common/collect/ImmutableRangeSet$1;->val$length:I
 
     invoke-static {p1, v0}, Lcom/google/common/base/t;->C(II)I
 
     if-eqz p1, :cond_1
 
-    .line 3
     iget v0, p0, Lcom/google/common/collect/ImmutableRangeSet$1;->val$length:I
 
     add-int/lit8 v0, v0, -0x1
@@ -78,7 +75,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_0
     iget-object v0, p0, Lcom/google/common/collect/ImmutableRangeSet$1;->this$0:Lcom/google/common/collect/ImmutableRangeSet;
 
@@ -98,7 +94,6 @@
 
     return-object p1
 
-    .line 5
     :cond_1
     :goto_0
     iget-object v0, p0, Lcom/google/common/collect/ImmutableRangeSet$1;->this$0:Lcom/google/common/collect/ImmutableRangeSet;
@@ -129,7 +124,6 @@
 .method public bridge synthetic get(I)Ljava/lang/Object;
     .locals 0
 
-    .line 1
     invoke-virtual {p0, p1}, Lcom/google/common/collect/ImmutableRangeSet$1;->get(I)Lcom/google/common/collect/Range;
 
     move-result-object p1
@@ -148,7 +142,6 @@
 .method public size()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lcom/google/common/collect/ImmutableRangeSet$1;->val$length:I
 
     return v0

@@ -20,7 +20,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     sget-object v0, Lcotlin/coroutines/intrinsics/CoroutineSingletons;->COROUTINE_SUSPENDED:Lcotlin/coroutines/intrinsics/CoroutineSingletons;
 
     return-object v0
@@ -61,7 +60,6 @@
         version = "1.3"
     .end annotation
 
-    .line 1
     new-instance p0, Lcotlin/NotImplementedError;
 
     const-string p1, "Implementation of suspendCoroutineUninterceptedOrReturn is intrinsic"

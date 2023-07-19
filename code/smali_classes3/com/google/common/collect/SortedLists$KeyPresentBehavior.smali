@@ -40,7 +40,6 @@
 .method static constructor <clinit>()V
     .locals 11
 
-    .line 1
     new-instance v0, Lcom/google/common/collect/SortedLists$KeyPresentBehavior$1;
 
     const-string v1, "ANY_PRESENT"
@@ -51,7 +50,6 @@
 
     sput-object v0, Lcom/google/common/collect/SortedLists$KeyPresentBehavior;->ANY_PRESENT:Lcom/google/common/collect/SortedLists$KeyPresentBehavior;
 
-    .line 2
     new-instance v1, Lcom/google/common/collect/SortedLists$KeyPresentBehavior$2;
 
     const-string v3, "LAST_PRESENT"
@@ -62,7 +60,6 @@
 
     sput-object v1, Lcom/google/common/collect/SortedLists$KeyPresentBehavior;->LAST_PRESENT:Lcom/google/common/collect/SortedLists$KeyPresentBehavior;
 
-    .line 3
     new-instance v3, Lcom/google/common/collect/SortedLists$KeyPresentBehavior$3;
 
     const-string v5, "FIRST_PRESENT"
@@ -73,7 +70,6 @@
 
     sput-object v3, Lcom/google/common/collect/SortedLists$KeyPresentBehavior;->FIRST_PRESENT:Lcom/google/common/collect/SortedLists$KeyPresentBehavior;
 
-    .line 4
     new-instance v5, Lcom/google/common/collect/SortedLists$KeyPresentBehavior$4;
 
     const-string v7, "FIRST_AFTER"
@@ -84,7 +80,6 @@
 
     sput-object v5, Lcom/google/common/collect/SortedLists$KeyPresentBehavior;->FIRST_AFTER:Lcom/google/common/collect/SortedLists$KeyPresentBehavior;
 
-    .line 5
     new-instance v7, Lcom/google/common/collect/SortedLists$KeyPresentBehavior$5;
 
     const-string v9, "LAST_BEFORE"
@@ -109,7 +104,6 @@
 
     aput-object v7, v9, v10
 
-    .line 6
     sput-object v9, Lcom/google/common/collect/SortedLists$KeyPresentBehavior;->$VALUES:[Lcom/google/common/collect/SortedLists$KeyPresentBehavior;
 
     return-void
@@ -123,7 +117,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
     return-void
@@ -132,7 +125,6 @@
 .method synthetic constructor <init>(Ljava/lang/String;ILcom/google/common/collect/SortedLists$a;)V
     .locals 0
 
-    .line 2
     invoke-direct {p0, p1, p2}, Lcom/google/common/collect/SortedLists$KeyPresentBehavior;-><init>(Ljava/lang/String;I)V
 
     return-void
@@ -141,7 +133,6 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/google/common/collect/SortedLists$KeyPresentBehavior;
     .locals 1
 
-    .line 1
     const-class v0, Lcom/google/common/collect/SortedLists$KeyPresentBehavior;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -156,7 +147,6 @@
 .method public static values()[Lcom/google/common/collect/SortedLists$KeyPresentBehavior;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/google/common/collect/SortedLists$KeyPresentBehavior;->$VALUES:[Lcom/google/common/collect/SortedLists$KeyPresentBehavior;
 
     invoke-virtual {v0}, [Lcom/google/common/collect/SortedLists$KeyPresentBehavior;->clone()Ljava/lang/Object;

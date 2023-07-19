@@ -17,7 +17,6 @@
 .method static constructor <clinit>()V
     .locals 2
 
-    .line 1
     new-instance v0, Lcom/google/firebase/firestore/model/value/c;
 
     sget-object v1, Ljava/lang/Boolean;->TRUE:Ljava/lang/Boolean;
@@ -26,7 +25,6 @@
 
     sput-object v0, Lcom/google/firebase/firestore/model/value/c;->N:Lcom/google/firebase/firestore/model/value/c;
 
-    .line 2
     new-instance v0, Lcom/google/firebase/firestore/model/value/c;
 
     sget-object v1, Ljava/lang/Boolean;->FALSE:Ljava/lang/Boolean;
@@ -41,10 +39,8 @@
 .method private constructor <init>(Ljava/lang/Boolean;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/google/firebase/firestore/model/value/e;-><init>()V
 
-    .line 2
     invoke-virtual {p1}, Ljava/lang/Boolean;->booleanValue()Z
 
     move-result p1
@@ -57,7 +53,6 @@
 .method public static p(Ljava/lang/Boolean;)Lcom/google/firebase/firestore/model/value/c;
     .locals 0
 
-    .line 1
     invoke-virtual {p0}, Ljava/lang/Boolean;->booleanValue()Z
 
     move-result p0
@@ -80,12 +75,10 @@
 .method public a(Lcom/google/firebase/firestore/model/value/e;)I
     .locals 1
 
-    .line 1
     instance-of v0, p1, Lcom/google/firebase/firestore/model/value/c;
 
     if-eqz v0, :cond_0
 
-    .line 2
     iget-boolean v0, p0, Lcom/google/firebase/firestore/model/value/c;->M:Z
 
     check-cast p1, Lcom/google/firebase/firestore/model/value/c;
@@ -98,7 +91,6 @@
 
     return p1
 
-    .line 3
     :cond_0
     invoke-virtual {p0, p1}, Lcom/google/firebase/firestore/model/value/e;->f(Lcom/google/firebase/firestore/model/value/e;)I
 
@@ -110,7 +102,6 @@
 .method public bridge synthetic compareTo(Ljava/lang/Object;)I
     .locals 0
 
-    .line 1
     check-cast p1, Lcom/google/firebase/firestore/model/value/e;
 
     invoke-virtual {p0, p1}, Lcom/google/firebase/firestore/model/value/c;->a(Lcom/google/firebase/firestore/model/value/e;)I
@@ -147,7 +138,6 @@
 .method public bridge synthetic h()Ljava/lang/Object;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/firebase/firestore/model/value/c;->o()Ljava/lang/Boolean;
 
     move-result-object v0
@@ -158,7 +148,6 @@
 .method public hashCode()I
     .locals 1
 
-    .line 1
     iget-boolean v0, p0, Lcom/google/firebase/firestore/model/value/c;->M:Z
 
     return v0
@@ -167,7 +156,6 @@
 .method public o()Ljava/lang/Boolean;
     .locals 1
 
-    .line 1
     iget-boolean v0, p0, Lcom/google/firebase/firestore/model/value/c;->M:Z
 
     invoke-static {v0}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;

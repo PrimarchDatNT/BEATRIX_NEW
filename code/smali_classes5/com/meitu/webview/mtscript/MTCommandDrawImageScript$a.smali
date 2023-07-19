@@ -30,7 +30,6 @@
 .method constructor <init>(Lcom/meitu/webview/mtscript/MTCommandDrawImageScript;Ljava/lang/Class;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/webview/mtscript/MTCommandDrawImageScript$a;->c:Lcom/meitu/webview/mtscript/MTCommandDrawImageScript;
 
     invoke-direct {p0, p1, p2}, Lcom/meitu/webview/mtscript/i$c;-><init>(Lcom/meitu/webview/mtscript/i;Ljava/lang/Class;)V
@@ -47,7 +46,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Lcom/meitu/webview/mtscript/MTCommandDrawImageScript$Model;
 
     invoke-virtual {p0, p1}, Lcom/meitu/webview/mtscript/MTCommandDrawImageScript$a;->d(Lcom/meitu/webview/mtscript/MTCommandDrawImageScript$Model;)V
@@ -64,7 +62,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/lang/Thread;
 
     new-instance v2, Lcom/meitu/webview/mtscript/MTCommandDrawImageScript$a$a;
@@ -75,10 +72,8 @@
 
     invoke-direct {v1, v2, p1}, Ljava/lang/Thread;-><init>(Ljava/lang/Runnable;Ljava/lang/String;)V
 
-    .line 2
     invoke-virtual {v1}, Ljava/lang/Thread;->start()V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

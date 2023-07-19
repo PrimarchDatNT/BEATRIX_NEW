@@ -17,7 +17,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -42,7 +41,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/meitu/http/api/AdvanceApi$advanceSwitch$1;
 
     invoke-direct {v1, p1, p2}, Lcom/meitu/http/api/AdvanceApi$advanceSwitch$1;-><init>(Ljava/lang/String;Ljava/lang/String;)V
@@ -83,7 +81,6 @@
 
     const-string v2, ""
 
-    .line 1
     invoke-direct {p0, v1, v2}, Lcom/meitu/http/api/AdvanceApi;->a(Ljava/lang/String;Ljava/lang/String;)Lf/k/k/u/c;
 
     move-result-object v1
@@ -117,7 +114,6 @@
 
     const-string v2, ""
 
-    .line 1
     invoke-direct {p0, v1, v2}, Lcom/meitu/http/api/AdvanceApi;->a(Ljava/lang/String;Ljava/lang/String;)Lf/k/k/u/c;
 
     move-result-object v1
@@ -154,7 +150,6 @@
 
     const-string v1, "text_switch"
 
-    .line 1
     invoke-direct {p0, v1, p1}, Lcom/meitu/http/api/AdvanceApi;->a(Ljava/lang/String;Ljava/lang/String;)Lf/k/k/u/c;
 
     move-result-object p1

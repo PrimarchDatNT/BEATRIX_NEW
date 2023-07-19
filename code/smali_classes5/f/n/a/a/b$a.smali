@@ -27,7 +27,6 @@
 .method constructor <init>(Lf/n/a/a/b;Lf/n/a/a/b$c;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lf/n/a/a/b$a;->b:Lf/n/a/a/b;
 
     iput-object p2, p0, Lf/n/a/a/b$a;->a:Lf/n/a/a/b$c;
@@ -42,12 +41,10 @@
 .method public run()V
     .locals 2
 
-    .line 1
     sget-boolean v0, Lf/n/a/a/a;->a:Z
 
     if-eqz v0, :cond_0
 
-    .line 2
     :try_start_0
     iget-object v0, p0, Lf/n/a/a/b$a;->b:Lf/n/a/a/b;
 

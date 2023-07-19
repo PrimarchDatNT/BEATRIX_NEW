@@ -29,15 +29,12 @@
 .method public constructor <init>(Lcom/tencent/bugly/crashreport/biz/a;Lcom/tencent/bugly/crashreport/biz/UserInfoBean;Z)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/tencent/bugly/crashreport/biz/a$c;->c:Lcom/tencent/bugly/crashreport/biz/a;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p2, p0, Lcom/tencent/bugly/crashreport/biz/a$c;->b:Lcom/tencent/bugly/crashreport/biz/UserInfoBean;
 
-    .line 3
     iput-boolean p3, p0, Lcom/tencent/bugly/crashreport/biz/a$c;->a:Z
 
     return-void
@@ -48,7 +45,6 @@
 .method public final run()V
     .locals 3
 
-    .line 1
     :try_start_0
     iget-object v0, p0, Lcom/tencent/bugly/crashreport/biz/a$c;->b:Lcom/tencent/bugly/crashreport/biz/UserInfoBean;
 
@@ -56,7 +52,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-static {}, Lcom/tencent/bugly/crashreport/common/info/a;->b()Lcom/tencent/bugly/crashreport/common/info/a;
 
     move-result-object v1
@@ -76,23 +71,19 @@
 
     new-array v2, v1, [Ljava/lang/Object;
 
-    .line 3
     invoke-static {v0, v2}, Lcom/tencent/bugly/proguard/x;->c(Ljava/lang/String;[Ljava/lang/Object;)Z
 
-    .line 4
     iget-object v0, p0, Lcom/tencent/bugly/crashreport/biz/a$c;->c:Lcom/tencent/bugly/crashreport/biz/a;
 
     iget-object v2, p0, Lcom/tencent/bugly/crashreport/biz/a$c;->b:Lcom/tencent/bugly/crashreport/biz/UserInfoBean;
 
     invoke-static {v0, v2, v1}, Lcom/tencent/bugly/crashreport/biz/a;->a(Lcom/tencent/bugly/crashreport/biz/a;Lcom/tencent/bugly/crashreport/biz/UserInfoBean;Z)V
 
-    .line 5
     :cond_1
     iget-boolean v0, p0, Lcom/tencent/bugly/crashreport/biz/a$c;->a:Z
 
     if-eqz v0, :cond_2
 
-    .line 6
     iget-object v0, p0, Lcom/tencent/bugly/crashreport/biz/a$c;->c:Lcom/tencent/bugly/crashreport/biz/a;
 
     invoke-static {}, Lcom/tencent/bugly/proguard/w;->a()Lcom/tencent/bugly/proguard/w;
@@ -115,14 +106,12 @@
     :catchall_0
     move-exception v0
 
-    .line 7
     invoke-static {v0}, Lcom/tencent/bugly/proguard/x;->a(Ljava/lang/Throwable;)Z
 
     move-result v1
 
     if-nez v1, :cond_3
 
-    .line 8
     invoke-virtual {v0}, Ljava/lang/Throwable;->printStackTrace()V
 
     :cond_3

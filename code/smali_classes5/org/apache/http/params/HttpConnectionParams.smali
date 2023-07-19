@@ -15,7 +15,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -26,14 +25,12 @@
 
     const-string v0, "HTTP parameters"
 
-    .line 1
     invoke-static {p0, v0}, Lorg/apache/http/util/Args;->notNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
 
     const-string v0, "http.connection.timeout"
 
     const/4 v1, 0x0
 
-    .line 2
     invoke-interface {p0, v0, v1}, Lorg/apache/http/params/HttpParams;->getIntParameter(Ljava/lang/String;I)I
 
     move-result p0
@@ -46,14 +43,12 @@
 
     const-string v0, "HTTP parameters"
 
-    .line 1
     invoke-static {p0, v0}, Lorg/apache/http/util/Args;->notNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
 
     const-string v0, "http.socket.linger"
 
     const/4 v1, -0x1
 
-    .line 2
     invoke-interface {p0, v0, v1}, Lorg/apache/http/params/HttpParams;->getIntParameter(Ljava/lang/String;I)I
 
     move-result p0
@@ -66,14 +61,12 @@
 
     const-string v0, "HTTP parameters"
 
-    .line 1
     invoke-static {p0, v0}, Lorg/apache/http/util/Args;->notNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
 
     const-string v0, "http.socket.keepalive"
 
     const/4 v1, 0x0
 
-    .line 2
     invoke-interface {p0, v0, v1}, Lorg/apache/http/params/HttpParams;->getBooleanParameter(Ljava/lang/String;Z)Z
 
     move-result p0
@@ -86,14 +79,12 @@
 
     const-string v0, "HTTP parameters"
 
-    .line 1
     invoke-static {p0, v0}, Lorg/apache/http/util/Args;->notNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
 
     const-string v0, "http.socket.reuseaddr"
 
     const/4 v1, 0x0
 
-    .line 2
     invoke-interface {p0, v0, v1}, Lorg/apache/http/params/HttpParams;->getBooleanParameter(Ljava/lang/String;Z)Z
 
     move-result p0
@@ -106,14 +97,12 @@
 
     const-string v0, "HTTP parameters"
 
-    .line 1
     invoke-static {p0, v0}, Lorg/apache/http/util/Args;->notNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
 
     const-string v0, "http.socket.timeout"
 
     const/4 v1, 0x0
 
-    .line 2
     invoke-interface {p0, v0, v1}, Lorg/apache/http/params/HttpParams;->getIntParameter(Ljava/lang/String;I)I
 
     move-result p0
@@ -126,14 +115,12 @@
 
     const-string v0, "HTTP parameters"
 
-    .line 1
     invoke-static {p0, v0}, Lorg/apache/http/util/Args;->notNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
 
     const-string v0, "http.socket.buffer-size"
 
     const/4 v1, -0x1
 
-    .line 2
     invoke-interface {p0, v0, v1}, Lorg/apache/http/params/HttpParams;->getIntParameter(Ljava/lang/String;I)I
 
     move-result p0
@@ -146,14 +133,12 @@
 
     const-string v0, "HTTP parameters"
 
-    .line 1
     invoke-static {p0, v0}, Lorg/apache/http/util/Args;->notNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
 
     const-string v0, "http.tcp.nodelay"
 
     const/4 v1, 0x1
 
-    .line 2
     invoke-interface {p0, v0, v1}, Lorg/apache/http/params/HttpParams;->getBooleanParameter(Ljava/lang/String;Z)Z
 
     move-result p0
@@ -166,14 +151,12 @@
 
     const-string v0, "HTTP parameters"
 
-    .line 1
     invoke-static {p0, v0}, Lorg/apache/http/util/Args;->notNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
 
     const-string v0, "http.connection.stalecheck"
 
     const/4 v1, 0x1
 
-    .line 2
     invoke-interface {p0, v0, v1}, Lorg/apache/http/params/HttpParams;->getBooleanParameter(Ljava/lang/String;Z)Z
 
     move-result p0
@@ -186,12 +169,10 @@
 
     const-string v0, "HTTP parameters"
 
-    .line 1
     invoke-static {p0, v0}, Lorg/apache/http/util/Args;->notNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
 
     const-string v0, "http.connection.timeout"
 
-    .line 2
     invoke-interface {p0, v0, p1}, Lorg/apache/http/params/HttpParams;->setIntParameter(Ljava/lang/String;I)Lorg/apache/http/params/HttpParams;
 
     return-void
@@ -202,12 +183,10 @@
 
     const-string v0, "HTTP parameters"
 
-    .line 1
     invoke-static {p0, v0}, Lorg/apache/http/util/Args;->notNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
 
     const-string v0, "http.socket.linger"
 
-    .line 2
     invoke-interface {p0, v0, p1}, Lorg/apache/http/params/HttpParams;->setIntParameter(Ljava/lang/String;I)Lorg/apache/http/params/HttpParams;
 
     return-void
@@ -218,12 +197,10 @@
 
     const-string v0, "HTTP parameters"
 
-    .line 1
     invoke-static {p0, v0}, Lorg/apache/http/util/Args;->notNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
 
     const-string v0, "http.socket.keepalive"
 
-    .line 2
     invoke-interface {p0, v0, p1}, Lorg/apache/http/params/HttpParams;->setBooleanParameter(Ljava/lang/String;Z)Lorg/apache/http/params/HttpParams;
 
     return-void
@@ -234,12 +211,10 @@
 
     const-string v0, "HTTP parameters"
 
-    .line 1
     invoke-static {p0, v0}, Lorg/apache/http/util/Args;->notNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
 
     const-string v0, "http.socket.reuseaddr"
 
-    .line 2
     invoke-interface {p0, v0, p1}, Lorg/apache/http/params/HttpParams;->setBooleanParameter(Ljava/lang/String;Z)Lorg/apache/http/params/HttpParams;
 
     return-void
@@ -250,12 +225,10 @@
 
     const-string v0, "HTTP parameters"
 
-    .line 1
     invoke-static {p0, v0}, Lorg/apache/http/util/Args;->notNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
 
     const-string v0, "http.socket.timeout"
 
-    .line 2
     invoke-interface {p0, v0, p1}, Lorg/apache/http/params/HttpParams;->setIntParameter(Ljava/lang/String;I)Lorg/apache/http/params/HttpParams;
 
     return-void
@@ -266,12 +239,10 @@
 
     const-string v0, "HTTP parameters"
 
-    .line 1
     invoke-static {p0, v0}, Lorg/apache/http/util/Args;->notNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
 
     const-string v0, "http.socket.buffer-size"
 
-    .line 2
     invoke-interface {p0, v0, p1}, Lorg/apache/http/params/HttpParams;->setIntParameter(Ljava/lang/String;I)Lorg/apache/http/params/HttpParams;
 
     return-void
@@ -282,12 +253,10 @@
 
     const-string v0, "HTTP parameters"
 
-    .line 1
     invoke-static {p0, v0}, Lorg/apache/http/util/Args;->notNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
 
     const-string v0, "http.connection.stalecheck"
 
-    .line 2
     invoke-interface {p0, v0, p1}, Lorg/apache/http/params/HttpParams;->setBooleanParameter(Ljava/lang/String;Z)Lorg/apache/http/params/HttpParams;
 
     return-void
@@ -298,12 +267,10 @@
 
     const-string v0, "HTTP parameters"
 
-    .line 1
     invoke-static {p0, v0}, Lorg/apache/http/util/Args;->notNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
 
     const-string v0, "http.tcp.nodelay"
 
-    .line 2
     invoke-interface {p0, v0, p1}, Lorg/apache/http/params/HttpParams;->setBooleanParameter(Ljava/lang/String;Z)Lorg/apache/http/params/HttpParams;
 
     return-void

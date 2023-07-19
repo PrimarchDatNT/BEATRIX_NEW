@@ -30,7 +30,6 @@
 
     move-object v4, p4
 
-    .line 1
     invoke-direct/range {v0 .. v5}, Lcom/google/common/base/CaseFormat;-><init>(Ljava/lang/String;ILcom/google/common/base/b;Ljava/lang/String;Lcom/google/common/base/CaseFormat$1;)V
 
     return-void
@@ -41,7 +40,6 @@
 .method convert(Lcom/google/common/base/CaseFormat;Ljava/lang/String;)Ljava/lang/String;
     .locals 3
 
-    .line 1
     sget-object v0, Lcom/google/common/base/CaseFormat;->LOWER_UNDERSCORE:Lcom/google/common/base/CaseFormat;
 
     const/16 v1, 0x5f
@@ -50,20 +48,17 @@
 
     if-ne p1, v0, :cond_0
 
-    .line 2
     invoke-virtual {p2, v2, v1}, Ljava/lang/String;->replace(CC)Ljava/lang/String;
 
     move-result-object p1
 
     return-object p1
 
-    .line 3
     :cond_0
     sget-object v0, Lcom/google/common/base/CaseFormat;->UPPER_UNDERSCORE:Lcom/google/common/base/CaseFormat;
 
     if-ne p1, v0, :cond_1
 
-    .line 4
     invoke-virtual {p2, v2, v1}, Ljava/lang/String;->replace(CC)Ljava/lang/String;
 
     move-result-object p1
@@ -74,7 +69,6 @@
 
     return-object p1
 
-    .line 5
     :cond_1
     invoke-super {p0, p1, p2}, Lcom/google/common/base/CaseFormat;->convert(Lcom/google/common/base/CaseFormat;Ljava/lang/String;)Ljava/lang/String;
 
@@ -86,7 +80,6 @@
 .method normalizeWord(Ljava/lang/String;)Ljava/lang/String;
     .locals 0
 
-    .line 1
     invoke-static {p1}, Lcom/google/common/base/a;->g(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p1

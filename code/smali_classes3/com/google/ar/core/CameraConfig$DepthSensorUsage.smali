@@ -38,7 +38,6 @@
 .method static constructor <clinit>()V
     .locals 6
 
-    .line 1
     new-instance v0, Lcom/google/ar/core/CameraConfig$DepthSensorUsage;
 
     const-string v1, "REQUIRE_AND_USE"
@@ -51,7 +50,6 @@
 
     sput-object v0, Lcom/google/ar/core/CameraConfig$DepthSensorUsage;->REQUIRE_AND_USE:Lcom/google/ar/core/CameraConfig$DepthSensorUsage;
 
-    .line 2
     new-instance v1, Lcom/google/ar/core/CameraConfig$DepthSensorUsage;
 
     const-string v4, "DO_NOT_USE"
@@ -68,7 +66,6 @@
 
     aput-object v1, v4, v3
 
-    .line 3
     sput-object v4, Lcom/google/ar/core/CameraConfig$DepthSensorUsage;->$VALUES:[Lcom/google/ar/core/CameraConfig$DepthSensorUsage;
 
     return-void
@@ -82,10 +79,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 2
     iput p3, p0, Lcom/google/ar/core/CameraConfig$DepthSensorUsage;->nativeCode:I
 
     return-void
@@ -94,7 +89,6 @@
 .method static forNumber(I)Lcom/google/ar/core/CameraConfig$DepthSensorUsage;
     .locals 5
 
-    .line 1
     invoke-static {}, Lcom/google/ar/core/CameraConfig$DepthSensorUsage;->values()[Lcom/google/ar/core/CameraConfig$DepthSensorUsage;
 
     move-result-object v0
@@ -108,7 +102,6 @@
 
     aget-object v3, v0, v2
 
-    .line 2
     iget v4, v3, Lcom/google/ar/core/CameraConfig$DepthSensorUsage;->nativeCode:I
 
     if-ne v4, p0, :cond_0
@@ -120,7 +113,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_1
     new-instance v0, Lcom/google/ar/core/exceptions/FatalException;
 
@@ -148,7 +140,6 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/google/ar/core/CameraConfig$DepthSensorUsage;
     .locals 1
 
-    .line 1
     const-class v0, Lcom/google/ar/core/CameraConfig$DepthSensorUsage;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -163,7 +154,6 @@
 .method public static values()[Lcom/google/ar/core/CameraConfig$DepthSensorUsage;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/google/ar/core/CameraConfig$DepthSensorUsage;->$VALUES:[Lcom/google/ar/core/CameraConfig$DepthSensorUsage;
 
     invoke-virtual {v0}, [Lcom/google/ar/core/CameraConfig$DepthSensorUsage;->clone()Ljava/lang/Object;

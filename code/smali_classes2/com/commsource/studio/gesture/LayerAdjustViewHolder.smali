@@ -41,10 +41,8 @@
 
     sget v0, Lcom/res/provider/ResLAYOUT;->item_adjust_layer:I
 
-    .line 1
     invoke-direct {p0, p1, p2, v0}, Lcom/commsource/widget/h1/f;-><init>(Landroid/content/Context;Landroid/view/ViewGroup;I)V
 
-    .line 2
     new-instance p1, Lcom/commsource/studio/gesture/LayerAdjustViewHolder$viewBinding$2;
 
     invoke-direct {p1, p0}, Lcom/commsource/studio/gesture/LayerAdjustViewHolder$viewBinding$2;-><init>(Lcom/commsource/studio/gesture/LayerAdjustViewHolder;)V
@@ -110,10 +108,8 @@
 
     invoke-static {p2, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-super {p0, p1, p2, p3}, Lcom/commsource/widget/h1/f;->k(ILcom/commsource/widget/h1/d;Ljava/util/List;)V
 
-    .line 2
     invoke-virtual {p2}, Lcom/commsource/widget/h1/d;->b()Ljava/lang/Object;
 
     move-result-object p1
@@ -142,7 +138,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_0
     invoke-direct {p0}, Lcom/commsource/studio/gesture/LayerAdjustViewHolder;->v()Lcom/commsource/beautyplus/f0/uc;
 
@@ -154,7 +149,6 @@
 
     invoke-static {p1}, Lcom/commsource/util/l0;->v0(Landroid/view/View;)V
 
-    .line 4
     invoke-direct {p0}, Lcom/commsource/studio/gesture/LayerAdjustViewHolder;->v()Lcom/commsource/beautyplus/f0/uc;
 
     move-result-object p1
@@ -165,7 +159,6 @@
 
     invoke-static {p1}, Lcom/commsource/util/l0;->v0(Landroid/view/View;)V
 
-    .line 5
     invoke-direct {p0}, Lcom/commsource/studio/gesture/LayerAdjustViewHolder;->v()Lcom/commsource/beautyplus/f0/uc;
 
     move-result-object p1
@@ -176,7 +169,6 @@
 
     invoke-static {p1}, Lcom/commsource/util/l0;->w(Landroid/view/View;)V
 
-    .line 6
     invoke-direct {p0}, Lcom/commsource/studio/gesture/LayerAdjustViewHolder;->v()Lcom/commsource/beautyplus/f0/uc;
 
     move-result-object p1
@@ -195,7 +187,6 @@
 
     invoke-virtual {p1, p3}, Landroid/widget/TextView;->setText(I)V
 
-    .line 7
     invoke-direct {p0}, Lcom/commsource/studio/gesture/LayerAdjustViewHolder;->v()Lcom/commsource/beautyplus/f0/uc;
 
     move-result-object p1
@@ -216,7 +207,6 @@
 
     goto :goto_1
 
-    .line 8
     :cond_1
     :goto_0
     invoke-direct {p0}, Lcom/commsource/studio/gesture/LayerAdjustViewHolder;->v()Lcom/commsource/beautyplus/f0/uc;
@@ -229,7 +219,6 @@
 
     invoke-static {p1}, Lcom/commsource/util/l0;->w(Landroid/view/View;)V
 
-    .line 9
     invoke-direct {p0}, Lcom/commsource/studio/gesture/LayerAdjustViewHolder;->v()Lcom/commsource/beautyplus/f0/uc;
 
     move-result-object p1
@@ -240,7 +229,6 @@
 
     invoke-static {p1}, Lcom/commsource/util/l0;->w(Landroid/view/View;)V
 
-    .line 10
     invoke-direct {p0}, Lcom/commsource/studio/gesture/LayerAdjustViewHolder;->v()Lcom/commsource/beautyplus/f0/uc;
 
     move-result-object p1
@@ -251,7 +239,6 @@
 
     invoke-static {p1}, Lcom/commsource/util/l0;->v0(Landroid/view/View;)V
 
-    .line 11
     invoke-direct {p0}, Lcom/commsource/studio/gesture/LayerAdjustViewHolder;->v()Lcom/commsource/beautyplus/f0/uc;
 
     move-result-object p1
@@ -270,7 +257,6 @@
 
     invoke-virtual {p1, p3}, Landroid/widget/TextView;->setText(I)V
 
-    .line 12
     :goto_1
     invoke-virtual {p2}, Lcom/commsource/widget/h1/d;->b()Ljava/lang/Object;
 
@@ -284,7 +270,6 @@
 
     if-ne p1, p2, :cond_2
 
-    .line 13
     invoke-direct {p0}, Lcom/commsource/studio/gesture/LayerAdjustViewHolder;->v()Lcom/commsource/beautyplus/f0/uc;
 
     move-result-object p1
@@ -297,7 +282,6 @@
 
     goto :goto_2
 
-    .line 14
     :cond_2
     invoke-direct {p0}, Lcom/commsource/studio/gesture/LayerAdjustViewHolder;->v()Lcom/commsource/beautyplus/f0/uc;
 
@@ -309,7 +293,6 @@
 
     invoke-static {p1}, Lcom/commsource/util/l0;->w(Landroid/view/View;)V
 
-    .line 15
     :goto_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

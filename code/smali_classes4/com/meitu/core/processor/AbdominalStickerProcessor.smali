@@ -7,7 +7,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/meitu/core/NativeBaseClass;-><init>()V
 
     return-void
@@ -20,7 +19,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/meitu/core/types/NativeBitmap;->nativeInstance()J
 
     move-result-wide v1
@@ -59,7 +57,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/meitu/core/types/NativeBitmap;->nativeInstance()J
 
     move-result-wide v1
@@ -119,26 +116,22 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/core/processor/AbdominalStickerProcessor;->nativeGetBokenhAbdomenInfo(Landroid/graphics/Bitmap;)[F
 
     move-result-object p1
 
     if-eqz p1, :cond_0
 
-    .line 2
     array-length v1, p1
 
     if-lez v1, :cond_0
 
-    .line 3
     new-instance v1, Ljava/util/ArrayList;
 
     invoke-direct {v1}, Ljava/util/ArrayList;-><init>()V
 
     const/4 v2, 0x0
 
-    .line 4
     :goto_0
     array-length v3, p1
 
@@ -146,7 +139,6 @@
 
     if-ge v2, v3, :cond_1
 
-    .line 5
     new-instance v3, Landroid/graphics/PointF;
 
     mul-int/lit8 v4, v2, 0x2
@@ -168,7 +160,6 @@
     :cond_0
     const/4 v1, 0x0
 
-    .line 6
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

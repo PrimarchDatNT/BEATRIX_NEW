@@ -33,10 +33,8 @@
     .annotation build Lcom/google/android/gms/common/annotation/a;
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/google/android/gms/common/api/internal/e;->a:Lcom/google/android/gms/common/data/DataHolder;
 
     return-void
@@ -57,7 +55,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/common/api/internal/e;->a:Lcom/google/android/gms/common/data/DataHolder;
 
     invoke-virtual {p0, p1, v0}, Lcom/google/android/gms/common/api/internal/e;->c(Ljava/lang/Object;Lcom/google/android/gms/common/data/DataHolder;)V
@@ -70,12 +67,10 @@
     .annotation build Lcom/google/android/gms/common/annotation/a;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/common/api/internal/e;->a:Lcom/google/android/gms/common/data/DataHolder;
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-virtual {v0}, Lcom/google/android/gms/common/data/DataHolder;->close()V
 
     :cond_0

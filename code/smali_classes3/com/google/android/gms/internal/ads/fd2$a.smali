@@ -24,13 +24,10 @@
 .method public constructor <init>(Ljava/lang/String;Z)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/google/android/gms/internal/ads/fd2$a;->a:Ljava/lang/String;
 
-    .line 3
     iput-boolean p2, p0, Lcom/google/android/gms/internal/ads/fd2$a;->b:Z
 
     return-void
@@ -52,7 +49,6 @@
 
     if-eqz p1, :cond_2
 
-    .line 1
     invoke-virtual {p1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
     move-result-object v2
@@ -63,11 +59,9 @@
 
     goto :goto_0
 
-    .line 2
     :cond_1
     check-cast p1, Lcom/google/android/gms/internal/ads/fd2$a;
 
-    .line 3
     iget-object v2, p0, Lcom/google/android/gms/internal/ads/fd2$a;->a:Ljava/lang/String;
 
     iget-object v3, p1, Lcom/google/android/gms/internal/ads/fd2$a;->a:Ljava/lang/String;
@@ -94,7 +88,6 @@
 .method public final hashCode()I
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/fd2$a;->a:Ljava/lang/String;
 
     if-nez v0, :cond_0
@@ -113,7 +106,6 @@
 
     mul-int/lit8 v0, v0, 0x1f
 
-    .line 2
     iget-boolean v1, p0, Lcom/google/android/gms/internal/ads/fd2$a;->b:Z
 
     if-eqz v1, :cond_1

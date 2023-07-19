@@ -42,7 +42,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/NestLayout$a;->a:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/NestLayout;
 
     invoke-virtual {v1}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/NestLayout;->g()Z
@@ -53,7 +52,6 @@
 
     if-eqz v1, :cond_1
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/NestLayout$a;->a:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/NestLayout;
 
     invoke-static {v1}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/NestLayout;->d(Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/NestLayout;)Landroid/view/View;
@@ -93,7 +91,6 @@
 
     throw v1
 
-    .line 3
     :cond_1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/NestLayout$a;->a:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/NestLayout;
 
@@ -113,13 +110,11 @@
 
     iput v2, v1, Landroid/view/ViewGroup$MarginLayoutParams;->bottomMargin:I
 
-    .line 4
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 5
     :cond_2
     new-instance v1, Lcotlin/TypeCastException;
 

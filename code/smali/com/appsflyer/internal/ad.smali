@@ -39,19 +39,16 @@
 .method public static $$a()Lcom/appsflyer/internal/ad;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/appsflyer/internal/ad;->$$b:Lcom/appsflyer/internal/ad;
 
     if-nez v0, :cond_0
 
-    .line 2
     new-instance v0, Lcom/appsflyer/internal/ad;
 
     invoke-direct {v0}, Lcom/appsflyer/internal/ad;-><init>()V
 
     sput-object v0, Lcom/appsflyer/internal/ad;->$$b:Lcom/appsflyer/internal/ad;
 
-    .line 3
     :cond_0
     sget-object v0, Lcom/appsflyer/internal/ad;->$$b:Lcom/appsflyer/internal/ad;
 
@@ -61,60 +58,49 @@
 .method public static $$a(Ljava/lang/String;Landroid/content/pm/PackageManager;)V
     .locals 3
 
-    .line 6
     :try_start_0
     sget-object v0, Lcom/appsflyer/internal/ad;->$$b:Lcom/appsflyer/internal/ad;
 
     if-nez v0, :cond_0
 
-    .line 7
     new-instance v0, Lcom/appsflyer/internal/ad;
 
     invoke-direct {v0}, Lcom/appsflyer/internal/ad;-><init>()V
 
     sput-object v0, Lcom/appsflyer/internal/ad;->$$b:Lcom/appsflyer/internal/ad;
 
-    .line 8
     :cond_0
     sget-object v0, Lcom/appsflyer/internal/ad;->$$b:Lcom/appsflyer/internal/ad;
 
-    .line 9
     invoke-direct {v0, p0, p1}, Lcom/appsflyer/internal/ad;->$$b(Ljava/lang/String;Landroid/content/pm/PackageManager;)V
 
-    .line 10
     sget-object p1, Lcom/appsflyer/internal/ad;->$$b:Lcom/appsflyer/internal/ad;
 
     if-nez p1, :cond_1
 
-    .line 11
     new-instance p1, Lcom/appsflyer/internal/ad;
 
     invoke-direct {p1}, Lcom/appsflyer/internal/ad;-><init>()V
 
     sput-object p1, Lcom/appsflyer/internal/ad;->$$b:Lcom/appsflyer/internal/ad;
 
-    .line 12
     :cond_1
     sget-object p1, Lcom/appsflyer/internal/ad;->$$b:Lcom/appsflyer/internal/ad;
 
-    .line 13
     invoke-direct {p1}, Lcom/appsflyer/internal/ad;->AFDeepLinkManager()Ljava/lang/String;
 
     move-result-object p1
 
-    .line 14
     new-instance v0, Lcom/appsflyer/BackgroundHttpTask;
 
     new-instance v1, Lcom/appsflyer/internal/model/event/ProxyEvent;
 
     invoke-direct {v1}, Lcom/appsflyer/internal/model/event/ProxyEvent;-><init>()V
 
-    .line 15
     invoke-virtual {v1, p1}, Lcom/appsflyer/internal/model/event/ProxyEvent;->body(Ljava/lang/String;)Lcom/appsflyer/internal/model/event/BackgroundEvent;
 
     move-result-object p1
 
-    .line 16
     invoke-static {}, Lcom/appsflyer/AppsFlyerLib;->getInstance()Lcom/appsflyer/AppsFlyerLib;
 
     move-result-object v1
@@ -133,7 +119,6 @@
 
     sget-object v2, Lcom/appsflyer/internal/ad;->AFDateFormat:Ljava/lang/String;
 
-    .line 17
     invoke-static {v2}, Lcom/appsflyer/ServerConfigHandler;->getUrl(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v2
@@ -163,7 +148,6 @@
     :catchall_0
     move-exception p0
 
-    .line 18
     invoke-static {p0}, Lcom/appsflyer/AFLogger;->afErrorLog(Ljava/lang/Throwable;)V
 
     return-void
@@ -174,20 +158,17 @@
 
     monitor-enter p0
 
-    .line 13
     :try_start_0
     invoke-static {}, Lcom/appsflyer/AppsFlyerProperties;->getInstance()Lcom/appsflyer/AppsFlyerProperties;
 
     move-result-object v0
 
-    .line 14
     invoke-static {}, Lcom/appsflyer/AppsFlyerLibCore;->getInstance()Lcom/appsflyer/AppsFlyerLibCore;
 
     move-result-object v1
 
     const-string v2, "remote_debug_static_data"
 
-    .line 15
     invoke-virtual {v0, v2}, Lcom/appsflyer/AppsFlyerProperties;->getString(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v2
@@ -196,7 +177,6 @@
 
     if-eqz v2, :cond_0
 
-    .line 16
     :try_start_1
     new-instance p1, Lorg/json/JSONObject;
 
@@ -208,7 +188,6 @@
 
     goto :goto_0
 
-    .line 17
     :cond_0
     :try_start_2
     new-instance v2, Lorg/json/JSONObject;
@@ -217,7 +196,6 @@
 
     iput-object v2, p0, Lcom/appsflyer/internal/ad;->valueOf:Lorg/json/JSONObject;
 
-    .line 18
     sget-object v4, Landroid/os/Build;->BRAND:Ljava/lang/String;
 
     sget-object v5, Landroid/os/Build;->MODEL:Ljava/lang/String;
@@ -226,7 +204,6 @@
 
     const-string v2, "advertiserId"
 
-    .line 19
     invoke-virtual {v0, v2}, Lcom/appsflyer/AppsFlyerProperties;->getString(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v7
@@ -237,10 +214,8 @@
 
     move-object v3, p0
 
-    .line 20
     invoke-direct/range {v3 .. v9}, Lcom/appsflyer/internal/ad;->$$b(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 21
     new-instance v1, Ljava/lang/StringBuilder;
 
     const-string v2, "6.1.4."
@@ -257,33 +232,28 @@
 
     const-string v2, "AppsFlyerKey"
 
-    .line 22
     invoke-virtual {v0, v2}, Lcom/appsflyer/AppsFlyerProperties;->getString(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v2
 
     const-string v3, "KSAppsFlyerId"
 
-    .line 23
     invoke-virtual {v0, v3}, Lcom/appsflyer/AppsFlyerProperties;->getString(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v3
 
     const-string/jumbo v4, "uid"
 
-    .line 24
     invoke-virtual {v0, v4}, Lcom/appsflyer/AppsFlyerProperties;->getString(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v4
 
-    .line 25
     invoke-direct {p0, v1, v2, v3, v4}, Lcom/appsflyer/internal/ad;->valueOf(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
     :try_end_2
     .catchall {:try_start_2 .. :try_end_2} :catchall_2
 
     const/4 v1, 0x0
 
-    .line 26
     :try_start_3
     invoke-virtual {p2, p1, v1}, Landroid/content/pm/PackageManager;->getPackageInfo(Ljava/lang/String;I)Landroid/content/pm/PackageInfo;
 
@@ -293,19 +263,16 @@
 
     const-string v1, "channel"
 
-    .line 27
     invoke-virtual {v0, v1}, Lcom/appsflyer/AppsFlyerProperties;->getString(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v1
 
     const-string v2, "preInstallName"
 
-    .line 28
     invoke-virtual {v0, v2}, Lcom/appsflyer/AppsFlyerProperties;->getString(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v2
 
-    .line 29
     invoke-static {p2}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
 
     move-result-object p2
@@ -318,7 +285,6 @@
     :try_start_4
     const-string p1, "remote_debug_static_data"
 
-    .line 30
     iget-object p2, p0, Lcom/appsflyer/internal/ad;->valueOf:Lorg/json/JSONObject;
 
     invoke-virtual {p2}, Lorg/json/JSONObject;->toString()Ljava/lang/String;
@@ -329,7 +295,6 @@
     :try_end_4
     .catchall {:try_start_4 .. :try_end_4} :catchall_2
 
-    .line 31
     :catchall_1
     :goto_0
     :try_start_5
@@ -344,7 +309,6 @@
     .catch Lorg/json/JSONException; {:try_start_5 .. :try_end_5} :catch_0
     .catchall {:try_start_5 .. :try_end_5} :catchall_2
 
-    .line 32
     monitor-exit p0
 
     return-void
@@ -352,13 +316,11 @@
     :catch_0
     move-exception p1
 
-    .line 33
     :try_start_6
     invoke-virtual {p1}, Ljava/lang/Throwable;->printStackTrace()V
     :try_end_6
     .catchall {:try_start_6 .. :try_end_6} :catchall_2
 
-    .line 34
     monitor-exit p0
 
     return-void
@@ -376,7 +338,6 @@
 
     monitor-enter p0
 
-    .line 1
     :try_start_0
     iget-object v0, p0, Lcom/appsflyer/internal/ad;->valueOf:Lorg/json/JSONObject;
 
@@ -384,14 +345,12 @@
 
     invoke-virtual {v0, v1, p1}, Lorg/json/JSONObject;->put(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;
 
-    .line 2
     iget-object p1, p0, Lcom/appsflyer/internal/ad;->valueOf:Lorg/json/JSONObject;
 
     const-string v0, "model"
 
     invoke-virtual {p1, v0, p2}, Lorg/json/JSONObject;->put(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;
 
-    .line 3
     iget-object p1, p0, Lcom/appsflyer/internal/ad;->valueOf:Lorg/json/JSONObject;
 
     const-string p2, "platform"
@@ -400,7 +359,6 @@
 
     invoke-virtual {p1, p2, v0}, Lorg/json/JSONObject;->put(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;
 
-    .line 4
     iget-object p1, p0, Lcom/appsflyer/internal/ad;->valueOf:Lorg/json/JSONObject;
 
     const-string p2, "platform_version"
@@ -409,14 +367,12 @@
 
     if-eqz p4, :cond_0
 
-    .line 5
     invoke-virtual {p4}, Ljava/lang/String;->length()I
 
     move-result p1
 
     if-lez p1, :cond_0
 
-    .line 6
     iget-object p1, p0, Lcom/appsflyer/internal/ad;->valueOf:Lorg/json/JSONObject;
 
     const-string p2, "advertiserId"
@@ -426,14 +382,12 @@
     :cond_0
     if-eqz p5, :cond_1
 
-    .line 7
     invoke-virtual {p5}, Ljava/lang/String;->length()I
 
     move-result p1
 
     if-lez p1, :cond_1
 
-    .line 8
     iget-object p1, p0, Lcom/appsflyer/internal/ad;->valueOf:Lorg/json/JSONObject;
 
     const-string p2, "imei"
@@ -443,14 +397,12 @@
     :cond_1
     if-eqz p6, :cond_2
 
-    .line 9
     invoke-virtual {p6}, Ljava/lang/String;->length()I
 
     move-result p1
 
     if-lez p1, :cond_2
 
-    .line 10
     iget-object p1, p0, Lcom/appsflyer/internal/ad;->valueOf:Lorg/json/JSONObject;
 
     const-string p2, "android_id"
@@ -459,13 +411,11 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 11
     :cond_2
     monitor-exit p0
 
     return-void
 
-    .line 12
     :catchall_0
     monitor-exit p0
 
@@ -481,15 +431,12 @@
 .method private constructor <init>()V
     .locals 4
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/4 v0, 0x1
 
-    .line 2
     iput-boolean v0, p0, Lcom/appsflyer/internal/ad;->values:Z
 
-    .line 3
     new-instance v1, Ljava/util/ArrayList;
 
     invoke-direct {v1}, Ljava/util/ArrayList;-><init>()V
@@ -498,15 +445,12 @@
 
     const/4 v1, 0x0
 
-    .line 4
     iput v1, p0, Lcom/appsflyer/internal/ad;->collectIntentsFromActivities:I
 
     const-string v2, "-1"
 
-    .line 5
     iput-object v2, p0, Lcom/appsflyer/internal/ad;->AFDeepLinkManager:Ljava/lang/String;
 
-    .line 6
     invoke-static {}, Lcom/appsflyer/AppsFlyerProperties;->getInstance()Lcom/appsflyer/AppsFlyerProperties;
 
     move-result-object v2
@@ -521,13 +465,10 @@
 
     xor-int/2addr v0, v2
 
-    .line 7
     iput-boolean v0, p0, Lcom/appsflyer/internal/ad;->$$a:Z
 
-    .line 8
     iput v1, p0, Lcom/appsflyer/internal/ad;->collectIntentsFromActivities:I
 
-    .line 9
     iput-boolean v1, p0, Lcom/appsflyer/internal/ad;->dateFormatUTC:Z
 
     return-void
@@ -548,7 +489,6 @@
 
     return-object p1
 
-    .line 15
     :cond_0
     array-length v2, p1
 
@@ -556,16 +496,13 @@
 
     new-array v2, v2, [Ljava/lang/String;
 
-    .line 16
     aput-object p0, v2, v0
 
-    .line 17
     :goto_0
     array-length p0, p1
 
     if-ge v1, p0, :cond_1
 
-    .line 18
     aget-object p0, p1, v1
 
     invoke-virtual {p0}, Ljava/lang/Object;->toString()Ljava/lang/String;
@@ -587,7 +524,6 @@
 
     monitor-enter p0
 
-    .line 1
     :try_start_0
     iget-object v0, p0, Lcom/appsflyer/internal/ad;->valueOf:Lorg/json/JSONObject;
 
@@ -601,7 +537,6 @@
 
     invoke-virtual {v0, v1, v2}, Lorg/json/JSONObject;->put(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;
 
-    .line 2
     iget-object v0, p0, Lcom/appsflyer/internal/ad;->valueOf:Lorg/json/JSONObject;
 
     invoke-virtual {v0}, Lorg/json/JSONObject;->toString()Ljava/lang/String;
@@ -611,7 +546,6 @@
     .catch Lorg/json/JSONException; {:try_start_0 .. :try_end_0} :catch_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 3
     :try_start_1
     invoke-direct {p0}, Lcom/appsflyer/internal/ad;->dateFormatUTC()V
     :try_end_1
@@ -630,7 +564,6 @@
     :catch_0
     const/4 v0, 0x0
 
-    .line 4
     :catch_1
     :goto_0
     monitor-exit p0
@@ -643,7 +576,6 @@
 
     monitor-enter p0
 
-    .line 1
     :try_start_0
     iget-object v0, p0, Lcom/appsflyer/internal/ad;->getDataFormatter:Ljava/util/List;
 
@@ -651,12 +583,10 @@
 
     const/4 v0, 0x0
 
-    .line 2
     iput v0, p0, Lcom/appsflyer/internal/ad;->collectIntentsFromActivities:I
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 3
     monitor-exit p0
 
     return-void
@@ -672,7 +602,6 @@
 .method private getDataFormatter()Z
     .locals 1
 
-    .line 1
     iget-boolean v0, p0, Lcom/appsflyer/internal/ad;->$$a:Z
 
     if-eqz v0, :cond_1
@@ -701,7 +630,6 @@
 
     monitor-enter p0
 
-    .line 4
     :try_start_0
     iget-object v0, p0, Lcom/appsflyer/internal/ad;->valueOf:Lorg/json/JSONObject;
 
@@ -711,14 +639,12 @@
 
     if-eqz p2, :cond_0
 
-    .line 5
     invoke-virtual {p2}, Ljava/lang/String;->length()I
 
     move-result p1
 
     if-lez p1, :cond_0
 
-    .line 6
     iget-object p1, p0, Lcom/appsflyer/internal/ad;->valueOf:Lorg/json/JSONObject;
 
     const-string v0, "devkey"
@@ -728,14 +654,12 @@
     :cond_0
     if-eqz p3, :cond_1
 
-    .line 7
     invoke-virtual {p3}, Ljava/lang/String;->length()I
 
     move-result p1
 
     if-lez p1, :cond_1
 
-    .line 8
     iget-object p1, p0, Lcom/appsflyer/internal/ad;->valueOf:Lorg/json/JSONObject;
 
     const-string p2, "originalAppsFlyerId"
@@ -745,14 +669,12 @@
     :cond_1
     if-eqz p4, :cond_2
 
-    .line 9
     invoke-virtual {p4}, Ljava/lang/String;->length()I
 
     move-result p1
 
     if-lez p1, :cond_2
 
-    .line 10
     iget-object p1, p0, Lcom/appsflyer/internal/ad;->valueOf:Lorg/json/JSONObject;
 
     const-string/jumbo p2, "uid"
@@ -761,13 +683,11 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 11
     :cond_2
     monitor-exit p0
 
     return-void
 
-    .line 12
     :catchall_0
     monitor-exit p0
 
@@ -781,7 +701,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 5
     :try_start_0
     invoke-virtual {p1}, Ljava/lang/String;->length()I
 
@@ -789,7 +708,6 @@
 
     if-lez v0, :cond_0
 
-    .line 6
     iget-object v0, p0, Lcom/appsflyer/internal/ad;->valueOf:Lorg/json/JSONObject;
 
     const-string v1, "app_id"
@@ -799,14 +717,12 @@
     :cond_0
     if-eqz p2, :cond_1
 
-    .line 7
     invoke-virtual {p2}, Ljava/lang/String;->length()I
 
     move-result p1
 
     if-lez p1, :cond_1
 
-    .line 8
     iget-object p1, p0, Lcom/appsflyer/internal/ad;->valueOf:Lorg/json/JSONObject;
 
     const-string v0, "app_version"
@@ -816,14 +732,12 @@
     :cond_1
     if-eqz p3, :cond_2
 
-    .line 9
     invoke-virtual {p3}, Ljava/lang/String;->length()I
 
     move-result p1
 
     if-lez p1, :cond_2
 
-    .line 10
     iget-object p1, p0, Lcom/appsflyer/internal/ad;->valueOf:Lorg/json/JSONObject;
 
     const-string p2, "channel"
@@ -833,14 +747,12 @@
     :cond_2
     if-eqz p4, :cond_3
 
-    .line 11
     invoke-virtual {p4}, Ljava/lang/String;->length()I
 
     move-result p1
 
     if-lez p1, :cond_3
 
-    .line 12
     iget-object p1, p0, Lcom/appsflyer/internal/ad;->valueOf:Lorg/json/JSONObject;
 
     const-string p2, "preInstall"
@@ -851,13 +763,11 @@
 
     goto :goto_0
 
-    .line 13
     :catchall_0
     monitor-exit p0
 
     return-void
 
-    .line 14
     :cond_3
     :goto_0
     monitor-exit p0
@@ -872,13 +782,11 @@
 
     monitor-enter p0
 
-    .line 4
     :try_start_0
     iput-object p1, p0, Lcom/appsflyer/internal/ad;->AFDeepLinkManager:Ljava/lang/String;
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 5
     monitor-exit p0
 
     return-void
@@ -898,16 +806,13 @@
 
     const/4 v0, 0x0
 
-    .line 35
     :try_start_0
     iput-boolean v0, p0, Lcom/appsflyer/internal/ad;->values:Z
 
-    .line 36
     invoke-direct {p0}, Lcom/appsflyer/internal/ad;->dateFormatUTC()V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 37
     monitor-exit p0
 
     return-void
@@ -927,13 +832,11 @@
 
     const/4 v0, 0x1
 
-    .line 1
     :try_start_0
     iput-boolean v0, p0, Lcom/appsflyer/internal/ad;->dateFormatUTC:Z
 
     const-string v0, "r_debugging_on"
 
-    .line 2
     new-instance v1, Ljava/text/SimpleDateFormat;
 
     const-string/jumbo v2, "yyyy-MM-dd HH:mm:ssZ"
@@ -962,7 +865,6 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 3
     monitor-exit p0
 
     return-void
@@ -980,7 +882,6 @@
 
     monitor-enter p0
 
-    .line 4
     :try_start_0
     invoke-direct {p0}, Lcom/appsflyer/internal/ad;->getDataFormatter()Z
 
@@ -998,7 +899,6 @@
 
     goto/16 :goto_1
 
-    .line 5
     :cond_0
     :try_start_1
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
@@ -1007,14 +907,12 @@
 
     const-string v2, ", "
 
-    .line 6
     invoke-static {v2, p3}, Landroid/text/TextUtils;->join(Ljava/lang/CharSequence;[Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object p3
 
     if-eqz p1, :cond_1
 
-    .line 7
     new-instance v2, Ljava/lang/StringBuilder;
 
     invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
@@ -1025,7 +923,6 @@
 
     invoke-virtual {v2, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 8
     invoke-static {}, Ljava/lang/Thread;->currentThread()Ljava/lang/Thread;
 
     move-result-object v0
@@ -1071,7 +968,6 @@
 
     invoke-virtual {p1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 9
     invoke-static {}, Ljava/lang/Thread;->currentThread()Ljava/lang/Thread;
 
     move-result-object v0
@@ -1098,13 +994,11 @@
 
     move-result-object p1
 
-    .line 10
     :goto_0
     iget-object p2, p0, Lcom/appsflyer/internal/ad;->getDataFormatter:Ljava/util/List;
 
     invoke-interface {p2, p1}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
-    .line 11
     iget p2, p0, Lcom/appsflyer/internal/ad;->collectIntentsFromActivities:I
 
     invoke-virtual {p1}, Ljava/lang/String;->length()I
@@ -1119,18 +1013,15 @@
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
-    .line 12
     monitor-exit p0
 
     return-void
 
-    .line 13
     :catchall_0
     monitor-exit p0
 
     return-void
 
-    .line 14
     :cond_2
     :goto_1
     monitor-exit p0
@@ -1148,7 +1039,6 @@
 .method public final getInstance()Z
     .locals 1
 
-    .line 1
     iget-boolean v0, p0, Lcom/appsflyer/internal/ad;->dateFormatUTC:Z
 
     return v0
@@ -1161,16 +1051,13 @@
 
     const/4 v0, 0x0
 
-    .line 1
     :try_start_0
     iput-object v0, p0, Lcom/appsflyer/internal/ad;->valueOf:Lorg/json/JSONObject;
 
-    .line 2
     sput-object v0, Lcom/appsflyer/internal/ad;->$$b:Lcom/appsflyer/internal/ad;
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 3
     monitor-exit p0
 
     return-void
@@ -1191,7 +1078,6 @@
     :try_start_0
     const-string v0, "r_debugging_off"
 
-    .line 1
     new-instance v1, Ljava/text/SimpleDateFormat;
 
     const-string/jumbo v2, "yyyy-MM-dd HH:mm:ssZ"
@@ -1218,15 +1104,12 @@
 
     invoke-virtual {p0, v0, v1, v3}, Lcom/appsflyer/internal/ad;->AFDateFormat(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;)V
 
-    .line 2
     iput-boolean v2, p0, Lcom/appsflyer/internal/ad;->dateFormatUTC:Z
 
-    .line 3
     iput-boolean v2, p0, Lcom/appsflyer/internal/ad;->values:Z
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 4
     monitor-exit p0
 
     return-void

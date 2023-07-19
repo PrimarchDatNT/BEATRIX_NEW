@@ -20,7 +20,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -29,7 +28,6 @@
 .method public synthetic constructor <init>(Lcotlin/jvm/internal/u;)V
     .locals 0
 
-    .line 2
     invoke-direct {p0}, Lcom/commsource/studio/component/StudioProViewModel$a;-><init>()V
 
     return-void
@@ -50,14 +48,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     instance-of v1, p1, Lcom/commsource/studio/effect/c;
 
     const-string v2, "\u7f16\u8f91"
 
     if-eqz v1, :cond_0
 
-    .line 2
     check-cast p1, Lcom/commsource/studio/effect/c;
 
     invoke-virtual {p1}, Lcom/commsource/studio/effect/c;->D()Lcom/commsource/studio/sub/SubModuleEnum;
@@ -106,20 +102,17 @@
 
     goto :goto_1
 
-    .line 3
     :cond_0
     instance-of v1, p1, Lcom/commsource/studio/effect/p;
 
     if-eqz v1, :cond_2
 
-    .line 4
     check-cast p1, Lcom/commsource/studio/effect/p;
 
     invoke-virtual {p1}, Lcom/commsource/studio/effect/p;->t()Ljava/util/ArrayList;
 
     move-result-object p1
 
-    .line 5
     invoke-interface {p1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object p1
@@ -138,7 +131,6 @@
 
     check-cast v1, Lcom/commsource/beautymain/data/c;
 
-    .line 6
     invoke-virtual {v1}, Lcom/commsource/beautymain/data/c;->g()I
 
     move-result v1
@@ -153,7 +145,6 @@
 
     goto :goto_0
 
-    .line 7
     :cond_2
     instance-of v1, p1, Lcom/commsource/studio/effect/x;
 
@@ -163,7 +154,6 @@
 
     goto :goto_1
 
-    .line 8
     :cond_3
     instance-of v1, p1, Lcom/commsource/studio/effect/remold/b;
 
@@ -173,7 +163,6 @@
 
     goto :goto_1
 
-    .line 9
     :cond_4
     instance-of v1, p1, Lcom/commsource/studio/effect/bodyshape/b;
 
@@ -183,7 +172,6 @@
 
     goto :goto_1
 
-    .line 10
     :cond_5
     instance-of v1, p1, Lcom/commsource/studio/effect/g;
 
@@ -193,7 +181,6 @@
 
     goto :goto_1
 
-    .line 11
     :cond_6
     instance-of v1, p1, Lcom/commsource/studio/effect/v;
 
@@ -203,7 +190,6 @@
 
     goto :goto_1
 
-    .line 12
     :cond_7
     instance-of p1, p1, Lcom/commsource/studio/effect/q;
 
@@ -211,7 +197,6 @@
 
     const-string v2, "SkinTone"
 
-    .line 13
     :cond_8
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

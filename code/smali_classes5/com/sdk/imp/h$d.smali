@@ -25,7 +25,6 @@
 .method private constructor <init>(Lcom/sdk/imp/h;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/sdk/imp/h$d;->a:Lcom/sdk/imp/h;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -36,7 +35,6 @@
 .method synthetic constructor <init>(Lcom/sdk/imp/h;Lcom/sdk/imp/h$a;)V
     .locals 0
 
-    .line 2
     invoke-direct {p0, p1}, Lcom/sdk/imp/h$d;-><init>(Lcom/sdk/imp/h;)V
 
     return-void
@@ -51,7 +49,6 @@
 
     const-string v1, "CommonVideoAdController onVideoComplete"
 
-    .line 1
     invoke-static {v0, v1}, Lf/q/b/g;->b(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
@@ -60,7 +57,6 @@
 .method public onImpression()V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/sdk/imp/h$d;->a:Lcom/sdk/imp/h;
 
     invoke-static {v0}, Lcom/sdk/imp/h;->l(Lcom/sdk/imp/h;)V
@@ -69,17 +65,14 @@
 
     const-string v1, "onImpression: "
 
-    .line 2
     invoke-static {v0, v1}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 3
     iget-object v0, p0, Lcom/sdk/imp/h$d;->a:Lcom/sdk/imp/h;
 
     iget-object v0, v0, Lcom/sdk/imp/a;->c:Lcom/sdk/imp/a$a;
 
     if-eqz v0, :cond_0
 
-    .line 4
     invoke-interface {v0}, Lcom/sdk/imp/a$a;->d()V
 
     :cond_0
@@ -93,7 +86,6 @@
 
     const-string v0, "CommonVideoAdController onKeyPercentProgress"
 
-    .line 1
     invoke-static {p1, v0}, Lf/q/b/g;->b(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
@@ -106,17 +98,14 @@
 
     const-string v0, "onLearnMore: "
 
-    .line 1
     invoke-static {p1, v0}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 2
     iget-object p1, p0, Lcom/sdk/imp/h$d;->a:Lcom/sdk/imp/h;
 
     iget-object p1, p1, Lcom/sdk/imp/a;->c:Lcom/sdk/imp/a$a;
 
     if-eqz p1, :cond_0
 
-    .line 3
     invoke-interface {p1}, Lcom/sdk/imp/a$a;->onAdClick()V
 
     :cond_0
@@ -126,7 +115,6 @@
 .method public onMediaPlayerError(II)V
     .locals 2
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -173,7 +161,6 @@
 
     const-string v1, "onReplay: "
 
-    .line 1
     invoke-static {v0, v1}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
 
     return-void
@@ -186,7 +173,6 @@
 
     const-string v1, "CommonVideoAdController onSkipClick"
 
-    .line 1
     invoke-static {v0, v1}, Lf/q/b/g;->b(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void

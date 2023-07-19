@@ -189,7 +189,6 @@
 
     invoke-static {p6, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     iput p1, p0, Lcom/mopub/mobileads/VastCompanionAdConfig;->width:I
@@ -231,7 +230,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/mobileads/VastCompanionAdConfig;->clickTrackers:Ljava/util/List;
 
     invoke-interface {v0, p1}, Ljava/util/List;->addAll(Ljava/util/Collection;)Z
@@ -259,7 +257,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/mobileads/VastCompanionAdConfig;->creativeViewTrackers:Ljava/util/List;
 
     invoke-interface {v0, p1}, Ljava/util/List;->addAll(Ljava/util/Collection;)Z
@@ -272,7 +269,6 @@
 
     if-eqz p2, :cond_1
 
-    .line 1
     iget v0, p0, Lcom/mopub/mobileads/VastCompanionAdConfig;->height:I
 
     if-nez v0, :cond_0
@@ -286,7 +282,6 @@
 
     div-double p1, v1, p1
 
-    .line 2
     iget v3, p0, Lcom/mopub/mobileads/VastCompanionAdConfig;->width:I
 
     int-to-double v3, v3
@@ -301,7 +296,6 @@
 
     move-result-wide p1
 
-    .line 3
     iget v0, p0, Lcom/mopub/mobileads/VastCompanionAdConfig;->width:I
 
     int-to-double v3, v0
@@ -316,7 +310,6 @@
 
     add-double/2addr p1, v0
 
-    .line 4
     invoke-virtual {p0}, Lcom/mopub/mobileads/VastCompanionAdConfig;->formatScore()D
 
     move-result-wide v0
@@ -351,7 +344,6 @@
 
     return v0
 
-    .line 1
     :cond_0
     instance-of v1, p1, Lcom/mopub/mobileads/VastCompanionAdConfig;
 
@@ -361,7 +353,6 @@
 
     return v2
 
-    .line 2
     :cond_1
     iget v1, p0, Lcom/mopub/mobileads/VastCompanionAdConfig;->width:I
 
@@ -373,7 +364,6 @@
 
     return v2
 
-    .line 3
     :cond_2
     iget v1, p0, Lcom/mopub/mobileads/VastCompanionAdConfig;->height:I
 
@@ -383,7 +373,6 @@
 
     return v2
 
-    .line 4
     :cond_3
     iget-object v1, p0, Lcom/mopub/mobileads/VastCompanionAdConfig;->vastResource:Lcom/mopub/mobileads/VastResource;
 
@@ -399,7 +388,6 @@
 
     return v2
 
-    .line 5
     :cond_4
     iget-object v1, p0, Lcom/mopub/mobileads/VastCompanionAdConfig;->clickThroughUrl:Ljava/lang/String;
 
@@ -415,7 +403,6 @@
 
     return v2
 
-    .line 6
     :cond_5
     iget-object v1, p0, Lcom/mopub/mobileads/VastCompanionAdConfig;->clickTrackers:Ljava/util/List;
 
@@ -431,7 +418,6 @@
 
     return v2
 
-    .line 7
     :cond_6
     iget-object v1, p0, Lcom/mopub/mobileads/VastCompanionAdConfig;->creativeViewTrackers:Ljava/util/List;
 
@@ -447,7 +433,6 @@
 
     return v2
 
-    .line 8
     :cond_7
     iget-object v1, p0, Lcom/mopub/mobileads/VastCompanionAdConfig;->customCtaText:Ljava/lang/String;
 
@@ -470,7 +455,6 @@
 .method public final formatScore()D
     .locals 6
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/mobileads/VastCompanionAdConfig;->vastResource:Lcom/mopub/mobileads/VastResource;
 
     invoke-virtual {v0}, Lcom/mopub/mobileads/VastResource;->getType()Lcom/mopub/mobileads/VastResource$Type;
@@ -507,7 +491,6 @@
 
     goto :goto_1
 
-    .line 2
     :cond_0
     new-instance v0, Lcotlin/NoWhenBranchMatchedException;
 
@@ -526,7 +509,6 @@
 
     goto :goto_1
 
-    .line 3
     :cond_3
     sget-object v0, Lcom/mopub/mobileads/VastResource$CreativeType;->JAVASCRIPT:Lcom/mopub/mobileads/VastResource$CreativeType;
 
@@ -544,7 +526,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_4
     sget-object v0, Lcom/mopub/mobileads/VastResource$CreativeType;->IMAGE:Lcom/mopub/mobileads/VastResource$CreativeType;
 
@@ -574,7 +555,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/mobileads/VastCompanionAdConfig;->clickThroughUrl:Ljava/lang/String;
 
     return-object v0
@@ -594,7 +574,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/mobileads/VastCompanionAdConfig;->clickTrackers:Ljava/util/List;
 
     return-object v0
@@ -614,7 +593,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/mobileads/VastCompanionAdConfig;->creativeViewTrackers:Ljava/util/List;
 
     return-object v0
@@ -625,7 +603,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/mobileads/VastCompanionAdConfig;->customCtaText:Ljava/lang/String;
 
     return-object v0
@@ -634,7 +611,6 @@
 .method public final getHeight()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lcom/mopub/mobileads/VastCompanionAdConfig;->height:I
 
     return v0
@@ -645,7 +621,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/mobileads/VastCompanionAdConfig;->vastResource:Lcom/mopub/mobileads/VastResource;
 
     return-object v0
@@ -654,7 +629,6 @@
 .method public final getWidth()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lcom/mopub/mobileads/VastCompanionAdConfig;->width:I
 
     return v0
@@ -679,12 +653,10 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     instance-of v0, p1, Landroid/app/Activity;
 
     if-eqz v0, :cond_3
 
-    .line 2
     iget-object v0, p0, Lcom/mopub/mobileads/VastCompanionAdConfig;->vastResource:Lcom/mopub/mobileads/VastResource;
 
     iget-object v1, p0, Lcom/mopub/mobileads/VastCompanionAdConfig;->clickThroughUrl:Ljava/lang/String;
@@ -695,7 +667,6 @@
 
     if-eqz p3, :cond_2
 
-    .line 3
     invoke-interface {p3}, Ljava/lang/CharSequence;->length()I
 
     move-result v0
@@ -724,62 +695,52 @@
     :goto_1
     if-eqz p3, :cond_2
 
-    .line 4
     new-instance v0, Lcom/mopub/common/UrlHandler$Builder;
 
     invoke-direct {v0}, Lcom/mopub/common/UrlHandler$Builder;-><init>()V
 
-    .line 5
     sget-object v3, Lcom/mopub/common/UrlAction;->IGNORE_ABOUT_SCHEME:Lcom/mopub/common/UrlAction;
 
     const/4 v4, 0x6
 
     new-array v4, v4, [Lcom/mopub/common/UrlAction;
 
-    .line 6
     sget-object v5, Lcom/mopub/common/UrlAction;->OPEN_APP_MARKET:Lcom/mopub/common/UrlAction;
 
     aput-object v5, v4, v2
 
-    .line 7
     sget-object v2, Lcom/mopub/common/UrlAction;->OPEN_NATIVE_BROWSER:Lcom/mopub/common/UrlAction;
 
     aput-object v2, v4, v1
 
     const/4 v1, 0x2
 
-    .line 8
     sget-object v2, Lcom/mopub/common/UrlAction;->OPEN_IN_APP_BROWSER:Lcom/mopub/common/UrlAction;
 
     aput-object v2, v4, v1
 
     const/4 v1, 0x3
 
-    .line 9
     sget-object v2, Lcom/mopub/common/UrlAction;->HANDLE_SHARE_TWEET:Lcom/mopub/common/UrlAction;
 
     aput-object v2, v4, v1
 
     const/4 v1, 0x4
 
-    .line 10
     sget-object v2, Lcom/mopub/common/UrlAction;->FOLLOW_DEEP_LINK_WITH_FALLBACK:Lcom/mopub/common/UrlAction;
 
     aput-object v2, v4, v1
 
     const/4 v1, 0x5
 
-    .line 11
     sget-object v2, Lcom/mopub/common/UrlAction;->FOLLOW_DEEP_LINK:Lcom/mopub/common/UrlAction;
 
     aput-object v2, v4, v1
 
-    .line 12
     invoke-virtual {v0, v3, v4}, Lcom/mopub/common/UrlHandler$Builder;->withSupportedUrlActions(Lcom/mopub/common/UrlAction;[Lcom/mopub/common/UrlAction;)Lcom/mopub/common/UrlHandler$Builder;
 
     move-result-object v0
 
-    .line 13
     new-instance v1, Lcom/mopub/mobileads/VastCompanionAdConfig$handleClick$$inlined$let$lambda$1;
 
     invoke-direct {v1, p4, p1, p2}, Lcom/mopub/mobileads/VastCompanionAdConfig$handleClick$$inlined$let$lambda$1;-><init>(Ljava/lang/String;Landroid/content/Context;I)V
@@ -788,28 +749,23 @@
 
     move-result-object p2
 
-    .line 14
     invoke-virtual {p2, p4}, Lcom/mopub/common/UrlHandler$Builder;->withDspCreativeId(Ljava/lang/String;)Lcom/mopub/common/UrlHandler$Builder;
 
     move-result-object p2
 
-    .line 15
     invoke-virtual {p2}, Lcom/mopub/common/UrlHandler$Builder;->withoutMoPubBrowser()Lcom/mopub/common/UrlHandler$Builder;
 
     move-result-object p2
 
-    .line 16
     invoke-virtual {p2}, Lcom/mopub/common/UrlHandler$Builder;->build()Lcom/mopub/common/UrlHandler;
 
     move-result-object p2
 
-    .line 17
     invoke-virtual {p2, p1, p3}, Lcom/mopub/common/UrlHandler;->handleUrl(Landroid/content/Context;Ljava/lang/String;)V
 
     :cond_2
     return-void
 
-    .line 18
     :cond_3
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -835,17 +791,14 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/mobileads/VastCompanionAdConfig;->creativeViewTrackers:Ljava/util/List;
 
-    .line 2
     invoke-static {p2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object p2
 
     const/4 v1, 0x0
 
-    .line 3
     invoke-static {v0, v1, p2, v1, p1}, Lcom/mopub/network/TrackingRequest;->makeVastTrackingHttpRequest(Ljava/util/List;Lcom/mopub/mobileads/VastErrorCode;Ljava/lang/Integer;Ljava/lang/String;Landroid/content/Context;)V
 
     return-void
@@ -854,19 +807,16 @@
 .method public hashCode()I
     .locals 3
 
-    .line 1
     iget v0, p0, Lcom/mopub/mobileads/VastCompanionAdConfig;->width:I
 
     mul-int/lit8 v0, v0, 0x1f
 
-    .line 2
     iget v1, p0, Lcom/mopub/mobileads/VastCompanionAdConfig;->height:I
 
     add-int/2addr v0, v1
 
     mul-int/lit8 v0, v0, 0x1f
 
-    .line 3
     iget-object v1, p0, Lcom/mopub/mobileads/VastCompanionAdConfig;->vastResource:Lcom/mopub/mobileads/VastResource;
 
     invoke-virtual {v1}, Lcom/mopub/mobileads/VastResource;->hashCode()I
@@ -877,7 +827,6 @@
 
     mul-int/lit8 v0, v0, 0x1f
 
-    .line 4
     iget-object v1, p0, Lcom/mopub/mobileads/VastCompanionAdConfig;->clickThroughUrl:Ljava/lang/String;
 
     const/4 v2, 0x0
@@ -898,7 +847,6 @@
 
     mul-int/lit8 v0, v0, 0x1f
 
-    .line 5
     iget-object v1, p0, Lcom/mopub/mobileads/VastCompanionAdConfig;->clickTrackers:Ljava/util/List;
 
     invoke-virtual {v1}, Ljava/lang/Object;->hashCode()I
@@ -909,7 +857,6 @@
 
     mul-int/lit8 v0, v0, 0x1f
 
-    .line 6
     iget-object v1, p0, Lcom/mopub/mobileads/VastCompanionAdConfig;->creativeViewTrackers:Ljava/util/List;
 
     invoke-virtual {v1}, Ljava/lang/Object;->hashCode()I
@@ -920,7 +867,6 @@
 
     mul-int/lit8 v0, v0, 0x1f
 
-    .line 7
     iget-object v1, p0, Lcom/mopub/mobileads/VastCompanionAdConfig;->customCtaText:Ljava/lang/String;
 
     if-eqz v1, :cond_1
@@ -940,7 +886,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -977,7 +922,6 @@
 
     invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 2
     iget-object v2, p0, Lcom/mopub/mobileads/VastCompanionAdConfig;->clickThroughUrl:Ljava/lang/String;
 
     invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
@@ -996,7 +940,6 @@
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 3
     iget-object v1, p0, Lcom/mopub/mobileads/VastCompanionAdConfig;->creativeViewTrackers:Ljava/util/List;
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;

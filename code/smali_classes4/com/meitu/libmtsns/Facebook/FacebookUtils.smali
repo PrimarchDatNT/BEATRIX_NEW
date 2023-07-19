@@ -27,7 +27,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/meitu/libmtsns/Facebook/FacebookUtils;->a()Ljava/util/Set;
 
     move-result-object v1
@@ -42,7 +41,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -63,12 +61,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/meitu/libmtsns/Facebook/FacebookUtils$1;
 
     invoke-direct {v1}, Lcom/meitu/libmtsns/Facebook/FacebookUtils$1;-><init>()V
 
-    .line 2
     invoke-static {v1}, Ljava/util/Collections;->unmodifiableSet(Ljava/util/Set;)Ljava/util/Set;
 
     move-result-object v1
@@ -96,14 +92,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/util/HashSet;
 
     invoke-direct {v1}, Ljava/util/HashSet;-><init>()V
 
     if-eqz p0, :cond_3
 
-    .line 2
     invoke-interface {p0}, Ljava/util/Collection;->isEmpty()Z
 
     move-result v2
@@ -112,7 +106,6 @@
 
     goto :goto_1
 
-    .line 3
     :cond_0
     invoke-interface {p0}, Ljava/util/Collection;->iterator()Ljava/util/Iterator;
 
@@ -132,25 +125,21 @@
 
     check-cast v2, Ljava/lang/String;
 
-    .line 4
     invoke-static {v2}, Lcom/meitu/libmtsns/Facebook/FacebookUtils;->d(Ljava/lang/String;)Z
 
     move-result v3
 
     if-eqz v3, :cond_1
 
-    .line 5
     invoke-interface {v1, v2}, Ljava/util/Set;->add(Ljava/lang/Object;)Z
 
     goto :goto_0
 
-    .line 6
     :cond_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
 
-    .line 7
     :cond_3
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -176,14 +165,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/util/HashSet;
 
     invoke-direct {v1}, Ljava/util/HashSet;-><init>()V
 
     if-eqz p0, :cond_3
 
-    .line 2
     invoke-interface {p0}, Ljava/util/Collection;->isEmpty()Z
 
     move-result v2
@@ -192,7 +179,6 @@
 
     goto :goto_1
 
-    .line 3
     :cond_0
     invoke-interface {p0}, Ljava/util/Collection;->iterator()Ljava/util/Iterator;
 
@@ -212,25 +198,21 @@
 
     check-cast v2, Ljava/lang/String;
 
-    .line 4
     invoke-static {v2}, Lcom/meitu/libmtsns/Facebook/FacebookUtils;->d(Ljava/lang/String;)Z
 
     move-result v3
 
     if-nez v3, :cond_1
 
-    .line 5
     invoke-interface {v1, v2}, Ljava/util/Set;->add(Ljava/lang/Object;)Z
 
     goto :goto_0
 
-    .line 6
     :cond_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
 
-    .line 7
     :cond_3
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -249,7 +231,6 @@
 
     const-string v1, "publish"
 
-    .line 1
     invoke-virtual {p0, v1}, Ljava/lang/String;->startsWith(Ljava/lang/String;)Z
 
     move-result v1
@@ -258,7 +239,6 @@
 
     const-string v1, "manage"
 
-    .line 2
     invoke-virtual {p0, v1}, Ljava/lang/String;->startsWith(Ljava/lang/String;)Z
 
     move-result v1
@@ -281,7 +261,6 @@
     :cond_1
     const/4 p0, 0x0
 
-    .line 3
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

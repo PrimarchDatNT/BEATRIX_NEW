@@ -12,7 +12,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lio/grpc/g;-><init>()V
 
     return-void
@@ -43,7 +42,6 @@
         value = "https://github.com/grpc/grpc-java/issues/4359"
     .end annotation
 
-    .line 1
     new-instance p1, Ljava/lang/UnsupportedOperationException;
 
     const-string v0, "Not implemented"
@@ -65,7 +63,6 @@
         value = "https://github.com/grpc/grpc-java/issues/4359"
     .end annotation
 
-    .line 1
     new-instance p1, Ljava/lang/UnsupportedOperationException;
 
     const-string p2, "Not implemented"

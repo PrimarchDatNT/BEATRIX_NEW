@@ -41,7 +41,6 @@
 
     const/4 v0, 0x3
 
-    .line 1
     invoke-direct {p0, v0}, Lcom/google/common/collect/p1;-><init>(I)V
 
     return-void
@@ -52,7 +51,6 @@
 
     const/high16 v0, 0x3f800000    # 1.0f
 
-    .line 2
     invoke-direct {p0, p1, v0}, Lcom/google/common/collect/p1;-><init>(IF)V
 
     return-void
@@ -61,7 +59,6 @@
 .method constructor <init>(IF)V
     .locals 0
 
-    .line 3
     invoke-direct {p0, p1, p2}, Lcom/google/common/collect/o1;-><init>(IF)V
 
     return-void
@@ -77,10 +74,8 @@
         }
     .end annotation
 
-    .line 4
     invoke-direct {p0}, Lcom/google/common/collect/o1;-><init>()V
 
-    .line 5
     invoke-virtual {p1}, Lcom/google/common/collect/o1;->D()I
 
     move-result v0
@@ -89,7 +84,6 @@
 
     invoke-virtual {p0, v0, v1}, Lcom/google/common/collect/p1;->o(IF)V
 
-    .line 6
     invoke-virtual {p1}, Lcom/google/common/collect/o1;->f()I
 
     move-result v0
@@ -99,7 +93,6 @@
 
     if-eq v0, v1, :cond_0
 
-    .line 7
     invoke-virtual {p1, v0}, Lcom/google/common/collect/o1;->j(I)Ljava/lang/Object;
 
     move-result-object v1
@@ -110,7 +103,6 @@
 
     invoke-virtual {p0, v1, v2}, Lcom/google/common/collect/o1;->v(Ljava/lang/Object;I)I
 
-    .line 8
     invoke-virtual {p1, v0}, Lcom/google/common/collect/o1;->t(I)I
 
     move-result v0
@@ -133,7 +125,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/google/common/collect/p1;
 
     invoke-direct {v0}, Lcom/google/common/collect/p1;-><init>()V
@@ -153,7 +144,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/google/common/collect/p1;
 
     invoke-direct {v0, p0}, Lcom/google/common/collect/p1;-><init>(I)V
@@ -164,7 +154,6 @@
 .method private H(I)I
     .locals 3
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/p1;->o:[J
 
     aget-wide v1, v0, p1
@@ -181,7 +170,6 @@
 .method private I(I)I
     .locals 3
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/p1;->o:[J
 
     aget-wide v1, v0, p1
@@ -194,7 +182,6 @@
 .method private J(II)V
     .locals 5
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/p1;->o:[J
 
     aget-wide v1, v0, p1
@@ -223,24 +210,20 @@
 
     if-ne p1, v0, :cond_0
 
-    .line 1
     iput p2, p0, Lcom/google/common/collect/p1;->p:I
 
     goto :goto_0
 
-    .line 2
     :cond_0
     invoke-direct {p0, p1, p2}, Lcom/google/common/collect/p1;->L(II)V
 
     :goto_0
     if-ne p2, v0, :cond_1
 
-    .line 3
     iput p1, p0, Lcom/google/common/collect/p1;->q:I
 
     goto :goto_1
 
-    .line 4
     :cond_1
     invoke-direct {p0, p2, p1}, Lcom/google/common/collect/p1;->J(II)V
 
@@ -251,7 +234,6 @@
 .method private L(II)V
     .locals 7
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/p1;->o:[J
 
     aget-wide v1, v0, p1
@@ -278,15 +260,12 @@
 .method public a()V
     .locals 1
 
-    .line 1
     invoke-super {p0}, Lcom/google/common/collect/o1;->a()V
 
     const/4 v0, -0x2
 
-    .line 2
     iput v0, p0, Lcom/google/common/collect/p1;->p:I
 
-    .line 3
     iput v0, p0, Lcom/google/common/collect/p1;->q:I
 
     return-void
@@ -295,7 +274,6 @@
 .method f()I
     .locals 2
 
-    .line 1
     iget v0, p0, Lcom/google/common/collect/p1;->p:I
 
     const/4 v1, -0x2
@@ -311,25 +289,20 @@
 .method o(IF)V
     .locals 2
 
-    .line 1
     invoke-super {p0, p1, p2}, Lcom/google/common/collect/o1;->o(IF)V
 
     const/4 p2, -0x2
 
-    .line 2
     iput p2, p0, Lcom/google/common/collect/p1;->p:I
 
-    .line 3
     iput p2, p0, Lcom/google/common/collect/p1;->q:I
 
-    .line 4
     new-array p1, p1, [J
 
     iput-object p1, p0, Lcom/google/common/collect/p1;->o:[J
 
     const-wide/16 v0, -0x1
 
-    .line 5
     invoke-static {p1, v0, v1}, Ljava/util/Arrays;->fill([JJ)V
 
     return-void
@@ -343,17 +316,14 @@
         }
     .end annotation
 
-    .line 1
     invoke-super {p0, p1, p2, p3, p4}, Lcom/google/common/collect/o1;->p(ILjava/lang/Object;II)V
 
-    .line 2
     iget p2, p0, Lcom/google/common/collect/p1;->q:I
 
     invoke-direct {p0, p2, p1}, Lcom/google/common/collect/p1;->K(II)V
 
     const/4 p2, -0x2
 
-    .line 3
     invoke-direct {p0, p1, p2}, Lcom/google/common/collect/p1;->K(II)V
 
     return-void
@@ -362,14 +332,12 @@
 .method q(I)V
     .locals 3
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/collect/o1;->D()I
 
     move-result v0
 
     add-int/lit8 v0, v0, -0x1
 
-    .line 2
     invoke-direct {p0, p1}, Lcom/google/common/collect/p1;->H(I)I
 
     move-result v1
@@ -382,21 +350,18 @@
 
     if-ge p1, v0, :cond_0
 
-    .line 3
     invoke-direct {p0, v0}, Lcom/google/common/collect/p1;->H(I)I
 
     move-result v1
 
     invoke-direct {p0, v1, p1}, Lcom/google/common/collect/p1;->K(II)V
 
-    .line 4
     invoke-direct {p0, v0}, Lcom/google/common/collect/p1;->I(I)I
 
     move-result v0
 
     invoke-direct {p0, p1, v0}, Lcom/google/common/collect/p1;->K(II)V
 
-    .line 5
     :cond_0
     invoke-super {p0, p1}, Lcom/google/common/collect/o1;->q(I)V
 
@@ -406,7 +371,6 @@
 .method t(I)I
     .locals 1
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/google/common/collect/p1;->I(I)I
 
     move-result p1
@@ -424,7 +388,6 @@
 .method u(II)I
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/collect/o1;->D()I
 
     move-result v0
@@ -440,15 +403,12 @@
 .method z(I)V
     .locals 4
 
-    .line 1
     invoke-super {p0, p1}, Lcom/google/common/collect/o1;->z(I)V
 
-    .line 2
     iget-object v0, p0, Lcom/google/common/collect/p1;->o:[J
 
     array-length v1, v0
 
-    .line 3
     invoke-static {v0, p1}, Ljava/util/Arrays;->copyOf([JI)[J
 
     move-result-object v0
@@ -457,7 +417,6 @@
 
     const-wide/16 v2, -0x1
 
-    .line 4
     invoke-static {v0, v1, p1, v2, v3}, Ljava/util/Arrays;->fill([JIIJ)V
 
     return-void

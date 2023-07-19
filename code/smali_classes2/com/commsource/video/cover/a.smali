@@ -52,7 +52,6 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     iput p1, p0, Lcom/commsource/video/cover/a;->d:I
@@ -115,10 +114,8 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/video/cover/a;->a:Lcom/commsource/video/view/XVideoUIGroup;
 
-    .line 2
     new-instance v0, Landroid/view/ViewStub;
 
     invoke-virtual {p1}, Landroid/widget/FrameLayout;->getContext()Landroid/content/Context;
@@ -135,7 +132,6 @@
 
     const-string v1, "vsCover"
 
-    .line 3
     invoke-static {v1}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
@@ -153,12 +149,10 @@
 .method public final j()V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/video/cover/a;->c:Landroidx/databinding/ViewDataBinding;
 
     if-nez v0, :cond_2
 
-    .line 2
     iget-object v0, p0, Lcom/commsource/video/cover/a;->b:Landroid/view/ViewStub;
 
     if-nez v0, :cond_0
@@ -172,7 +166,6 @@
 
     move-result-object v0
 
-    .line 3
     invoke-static {v0}, Landroidx/databinding/DataBindingUtil;->bind(Landroid/view/View;)Landroidx/databinding/ViewDataBinding;
 
     move-result-object v0
@@ -181,12 +174,10 @@
 
     iput-object v0, p0, Lcom/commsource/video/cover/a;->c:Landroidx/databinding/ViewDataBinding;
 
-    .line 4
     invoke-virtual {p0}, Lcom/commsource/video/cover/a;->o()V
 
     goto :goto_0
 
-    .line 5
     :cond_1
     new-instance v0, Lcotlin/TypeCastException;
 
@@ -206,7 +197,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/video/cover/a;->a:Lcom/commsource/video/view/XVideoUIGroup;
 
     if-nez v0, :cond_0
@@ -222,7 +212,6 @@
 .method public final l()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lcom/commsource/video/cover/a;->d:I
 
     return v0
@@ -239,7 +228,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/video/cover/a;->c:Landroidx/databinding/ViewDataBinding;
 
     return-object v0
@@ -250,7 +238,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/video/cover/a;->b:Landroid/view/ViewStub;
 
     if-nez v0, :cond_0
@@ -277,7 +264,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/video/cover/a;->a:Lcom/commsource/video/view/XVideoUIGroup;
 
     return-void
@@ -295,7 +281,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/video/cover/a;->c:Landroidx/databinding/ViewDataBinding;
 
     return-void
@@ -312,7 +297,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/video/cover/a;->b:Landroid/view/ViewStub;
 
     return-void

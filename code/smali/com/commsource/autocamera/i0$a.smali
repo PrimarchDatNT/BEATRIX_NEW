@@ -27,7 +27,6 @@
 .method constructor <init>(Lcom/commsource/autocamera/i0;Lcom/commsource/beautyplus/f0/g;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/autocamera/i0$a;->b:Lcom/commsource/autocamera/i0;
 
     iput-object p2, p0, Lcom/commsource/autocamera/i0$a;->a:Lcom/commsource/beautyplus/f0/g;
@@ -46,7 +45,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/autocamera/i0$a;->a:Lcom/commsource/beautyplus/f0/g;
 
     invoke-virtual {v1}, Landroidx/databinding/ViewDataBinding;->getRoot()Landroid/view/View;
@@ -59,7 +57,6 @@
 
     invoke-virtual {v1, p0}, Landroid/view/ViewTreeObserver;->removeOnPreDrawListener(Landroid/view/ViewTreeObserver$OnPreDrawListener;)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/autocamera/i0$a;->b:Lcom/commsource/autocamera/i0;
 
     invoke-static {v1}, Lcom/commsource/autocamera/i0;->c(Lcom/commsource/autocamera/i0;)Lcom/commsource/beautyplus/f0/g;
@@ -74,7 +71,6 @@
 
     invoke-static {v1, v2}, Lcom/commsource/autocamera/i0;->b(Lcom/commsource/autocamera/i0;I)I
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/autocamera/i0$a;->b:Lcom/commsource/autocamera/i0;
 
     invoke-static {v1}, Lcom/commsource/autocamera/i0;->c(Lcom/commsource/autocamera/i0;)Lcom/commsource/beautyplus/f0/g;
@@ -89,7 +85,6 @@
 
     invoke-static {v1, v2}, Lcom/commsource/autocamera/i0;->e(Lcom/commsource/autocamera/i0;I)I
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/autocamera/i0$a;->b:Lcom/commsource/autocamera/i0;
 
     invoke-static {v1}, Lcom/commsource/autocamera/i0;->c(Lcom/commsource/autocamera/i0;)Lcom/commsource/beautyplus/f0/g;
@@ -104,7 +99,6 @@
 
     invoke-static {v1, v2}, Lcom/commsource/autocamera/i0;->g(Lcom/commsource/autocamera/i0;I)I
 
-    .line 5
     iget-object v1, p0, Lcom/commsource/autocamera/i0$a;->b:Lcom/commsource/autocamera/i0;
 
     invoke-static {v1}, Lcom/commsource/autocamera/i0;->f(Lcom/commsource/autocamera/i0;)I
@@ -113,7 +107,6 @@
 
     invoke-static {v1, v2}, Lcom/commsource/autocamera/i0;->i(Lcom/commsource/autocamera/i0;I)I
 
-    .line 6
     iget-object v1, p0, Lcom/commsource/autocamera/i0$a;->b:Lcom/commsource/autocamera/i0;
 
     invoke-static {v1}, Lcom/commsource/autocamera/i0;->c(Lcom/commsource/autocamera/i0;)Lcom/commsource/beautyplus/f0/g;
@@ -130,7 +123,6 @@
 
     invoke-static {v1, v2}, Lcom/commsource/util/l2;->N(Landroid/view/View;I)V
 
-    .line 7
     iget-object v1, p0, Lcom/commsource/autocamera/i0$a;->b:Lcom/commsource/autocamera/i0;
 
     invoke-static {v1}, Lcom/commsource/autocamera/i0;->c(Lcom/commsource/autocamera/i0;)Lcom/commsource/beautyplus/f0/g;
@@ -147,7 +139,6 @@
 
     invoke-virtual {v1, v2}, Landroid/widget/ImageView;->getGlobalVisibleRect(Landroid/graphics/Rect;)Z
 
-    .line 8
     iget-object v1, p0, Lcom/commsource/autocamera/i0$a;->b:Lcom/commsource/autocamera/i0;
 
     invoke-static {v1}, Lcom/commsource/autocamera/i0;->c(Lcom/commsource/autocamera/i0;)Lcom/commsource/beautyplus/f0/g;
@@ -164,7 +155,6 @@
 
     invoke-virtual {v1, v2}, Landroid/widget/LinearLayout;->getGlobalVisibleRect(Landroid/graphics/Rect;)Z
 
-    .line 9
     iget-object v1, p0, Lcom/commsource/autocamera/i0$a;->b:Lcom/commsource/autocamera/i0;
 
     invoke-static {v1}, Lcom/commsource/autocamera/i0;->a(Lcom/commsource/autocamera/i0;)I
@@ -185,7 +175,6 @@
 
     invoke-static {v1, v2}, Lcom/commsource/autocamera/i0;->m(Lcom/commsource/autocamera/i0;F)F
 
-    .line 10
     iget-object v1, p0, Lcom/commsource/autocamera/i0$a;->b:Lcom/commsource/autocamera/i0;
 
     invoke-static {v1}, Lcom/commsource/autocamera/i0;->d(Lcom/commsource/autocamera/i0;)I
@@ -206,14 +195,12 @@
 
     invoke-static {v1, v2}, Lcom/commsource/autocamera/i0;->o(Lcom/commsource/autocamera/i0;F)F
 
-    .line 11
     iget-object v1, p0, Lcom/commsource/autocamera/i0$a;->b:Lcom/commsource/autocamera/i0;
 
     const/4 v2, 0x1
 
     invoke-static {v1, v2}, Lcom/commsource/autocamera/i0;->p(Lcom/commsource/autocamera/i0;Z)Z
 
-    .line 12
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const/4 v0, 0x0

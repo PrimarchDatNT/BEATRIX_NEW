@@ -25,7 +25,6 @@
 .method constructor <init>(Lcom/sdk/imp/base/mraid/MraidBridge;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/sdk/imp/base/mraid/MraidBridge$d;->a:Lcom/sdk/imp/base/mraid/MraidBridge;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -38,7 +37,6 @@
 .method public onVisibilityChanged(Z)V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/sdk/imp/base/mraid/MraidBridge$d;->a:Lcom/sdk/imp/base/mraid/MraidBridge;
 
     invoke-static {v0}, Lcom/sdk/imp/base/mraid/MraidBridge;->a(Lcom/sdk/imp/base/mraid/MraidBridge;)Lcom/sdk/imp/base/mraid/MraidBridge$h;
@@ -47,7 +45,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 2
     iget-object v0, p0, Lcom/sdk/imp/base/mraid/MraidBridge$d;->a:Lcom/sdk/imp/base/mraid/MraidBridge;
 
     invoke-static {v0}, Lcom/sdk/imp/base/mraid/MraidBridge;->a(Lcom/sdk/imp/base/mraid/MraidBridge;)Lcom/sdk/imp/base/mraid/MraidBridge$h;

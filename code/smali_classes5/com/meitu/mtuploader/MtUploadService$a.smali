@@ -27,7 +27,6 @@
 .method constructor <init>(Lcom/meitu/mtuploader/MtUploadService;Lcom/meitu/mtuploader/bean/MtUploadBean;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/mtuploader/MtUploadService$a;->b:Lcom/meitu/mtuploader/MtUploadService;
 
     iput-object p2, p0, Lcom/meitu/mtuploader/MtUploadService$a;->a:Lcom/meitu/mtuploader/bean/MtUploadBean;
@@ -46,7 +45,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcom/meitu/mtuploader/MtUploadService$a;->a:Lcom/meitu/mtuploader/bean/MtUploadBean;
 
     invoke-virtual {v0}, Lcom/meitu/mtuploader/bean/MtUploadBean;->getStatisticUploadBean()Lcom/meitu/mtuploader/s/a;
@@ -57,7 +55,6 @@
 
     invoke-virtual {v0, v1}, Lcom/meitu/mtuploader/s/a;->t(I)V
 
-    .line 2
     iget-object v0, p0, Lcom/meitu/mtuploader/MtUploadService$a;->a:Lcom/meitu/mtuploader/bean/MtUploadBean;
 
     invoke-virtual {v0}, Lcom/meitu/mtuploader/bean/MtUploadBean;->getStatisticUploadBean()Lcom/meitu/mtuploader/s/a;
@@ -70,7 +67,6 @@
 
     invoke-virtual {v0, v1, v2}, Lcom/meitu/mtuploader/s/a;->o(J)V
 
-    .line 3
     iget-object v0, p0, Lcom/meitu/mtuploader/MtUploadService$a;->a:Lcom/meitu/mtuploader/bean/MtUploadBean;
 
     invoke-virtual {v0}, Lcom/meitu/mtuploader/bean/MtUploadBean;->getStatisticUploadBean()Lcom/meitu/mtuploader/s/a;
@@ -81,14 +77,12 @@
 
     invoke-virtual {v0, v1}, Lcom/meitu/mtuploader/s/a;->s(I)V
 
-    .line 4
     iget-object v0, p0, Lcom/meitu/mtuploader/MtUploadService$a;->b:Lcom/meitu/mtuploader/MtUploadService;
 
     iget-object v1, p0, Lcom/meitu/mtuploader/MtUploadService$a;->a:Lcom/meitu/mtuploader/bean/MtUploadBean;
 
     invoke-static {v0, v1, p2}, Lcom/meitu/mtuploader/MtUploadService;->c(Lcom/meitu/mtuploader/MtUploadService;Lcom/meitu/mtuploader/bean/MtUploadBean;Ljava/lang/String;)V
 
-    .line 5
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -101,14 +95,12 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcom/meitu/mtuploader/MtUploadService$a;->b:Lcom/meitu/mtuploader/MtUploadService;
 
     iget-object v1, p0, Lcom/meitu/mtuploader/MtUploadService$a;->a:Lcom/meitu/mtuploader/bean/MtUploadBean;
 
     invoke-static {v0, v1, p2}, Lcom/meitu/mtuploader/MtUploadService;->b(Lcom/meitu/mtuploader/MtUploadService;Lcom/meitu/mtuploader/bean/MtUploadBean;I)V
 
-    .line 2
     iget-object v0, p0, Lcom/meitu/mtuploader/MtUploadService$a;->a:Lcom/meitu/mtuploader/bean/MtUploadBean;
 
     invoke-virtual {v0}, Lcom/meitu/mtuploader/bean/MtUploadBean;->getStatisticUploadBean()Lcom/meitu/mtuploader/s/a;
@@ -117,7 +109,6 @@
 
     invoke-virtual {v0, p2}, Lcom/meitu/mtuploader/s/a;->s(I)V
 
-    .line 3
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -130,7 +121,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -161,12 +151,10 @@
 
     invoke-static {v1, p1}, Lcom/meitu/mtuploader/w/b;->a(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 2
     invoke-static {p2}, Lcom/meitu/mtuploader/t/e;->a(I)I
 
     move-result p1
 
-    .line 3
     iget-object v2, p0, Lcom/meitu/mtuploader/MtUploadService$a;->a:Lcom/meitu/mtuploader/bean/MtUploadBean;
 
     invoke-virtual {v2}, Lcom/meitu/mtuploader/bean/MtUploadBean;->getStatisticUploadBean()Lcom/meitu/mtuploader/s/a;
@@ -179,7 +167,6 @@
 
     if-ge p2, p1, :cond_0
 
-    .line 4
     iget-object p1, p0, Lcom/meitu/mtuploader/MtUploadService$a;->a:Lcom/meitu/mtuploader/bean/MtUploadBean;
 
     invoke-virtual {p1}, Lcom/meitu/mtuploader/bean/MtUploadBean;->getStatisticUploadBean()Lcom/meitu/mtuploader/s/a;
@@ -204,7 +191,6 @@
 
     goto :goto_0
 
-    .line 5
     :cond_0
     iget-object p1, p0, Lcom/meitu/mtuploader/MtUploadService$a;->a:Lcom/meitu/mtuploader/bean/MtUploadBean;
 
@@ -228,7 +214,6 @@
 
     invoke-virtual {p1, v2}, Lcom/meitu/mtuploader/s/a;->p(Ljava/lang/String;)V
 
-    .line 6
     :goto_0
     iget-object p1, p0, Lcom/meitu/mtuploader/MtUploadService$a;->a:Lcom/meitu/mtuploader/bean/MtUploadBean;
 
@@ -240,7 +225,6 @@
 
     if-eqz p1, :cond_2
 
-    .line 7
     invoke-virtual {p1}, Lcom/meitu/mtuploader/bean/MtTokenBean;->getOrder()Ljava/util/List;
 
     move-result-object p1
@@ -249,7 +233,6 @@
 
     goto :goto_1
 
-    .line 8
     :cond_1
     invoke-interface {p1}, Ljava/util/List;->size()I
 
@@ -257,7 +240,6 @@
 
     move v2, p1
 
-    .line 9
     :cond_2
     :goto_1
     new-instance p1, Ljava/lang/StringBuilder;
@@ -288,7 +270,6 @@
 
     invoke-static {v1, p1}, Lcom/meitu/mtuploader/w/b;->a(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 10
     invoke-static {p2}, Lcom/meitu/mtuploader/k;->h(I)Z
 
     move-result p1
@@ -297,7 +278,6 @@
 
     if-eqz p1, :cond_4
 
-    .line 11
     iget-object p1, p0, Lcom/meitu/mtuploader/MtUploadService$a;->a:Lcom/meitu/mtuploader/bean/MtUploadBean;
 
     invoke-virtual {p1}, Lcom/meitu/mtuploader/bean/MtUploadBean;->getStatisticUploadBean()Lcom/meitu/mtuploader/s/a;
@@ -322,24 +302,20 @@
 
     const-string p1, "isTokenInvalidate auto restart"
 
-    .line 12
     invoke-static {v1, p1}, Lcom/meitu/mtuploader/w/b;->a(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 13
     iget-object p1, p0, Lcom/meitu/mtuploader/MtUploadService$a;->a:Lcom/meitu/mtuploader/bean/MtUploadBean;
 
     const/4 v2, 0x0
 
     invoke-virtual {p1, v2}, Lcom/meitu/mtuploader/bean/MtUploadBean;->setTokenBean(Lcom/meitu/mtuploader/bean/MtTokenBean;)V
 
-    .line 14
     iget-object p1, p0, Lcom/meitu/mtuploader/MtUploadService$a;->a:Lcom/meitu/mtuploader/bean/MtUploadBean;
 
     invoke-virtual {p1}, Lcom/meitu/mtuploader/bean/MtUploadBean;->getGetTokenFailCount()I
 
     move-result p1
 
-    .line 15
     new-instance v2, Ljava/lang/StringBuilder;
 
     invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
@@ -358,14 +334,12 @@
 
     if-ge p1, v3, :cond_3
 
-    .line 16
     iget-object p2, p0, Lcom/meitu/mtuploader/MtUploadService$a;->a:Lcom/meitu/mtuploader/bean/MtUploadBean;
 
     add-int/2addr p1, v3
 
     invoke-virtual {p2, p1}, Lcom/meitu/mtuploader/bean/MtUploadBean;->setGetTokenFailCount(I)V
 
-    .line 17
     iget-object p1, p0, Lcom/meitu/mtuploader/MtUploadService$a;->b:Lcom/meitu/mtuploader/MtUploadService;
 
     iget-object p2, p0, Lcom/meitu/mtuploader/MtUploadService$a;->a:Lcom/meitu/mtuploader/bean/MtUploadBean;
@@ -374,7 +348,6 @@
 
     goto :goto_3
 
-    .line 18
     :cond_3
     iget-object p1, p0, Lcom/meitu/mtuploader/MtUploadService$a;->b:Lcom/meitu/mtuploader/MtUploadService;
 
@@ -384,7 +357,6 @@
 
     goto :goto_3
 
-    .line 19
     :cond_4
     invoke-static {p2}, Lcom/meitu/mtuploader/k;->f(I)Z
 
@@ -394,7 +366,6 @@
 
     iget-object p1, p0, Lcom/meitu/mtuploader/MtUploadService$a;->a:Lcom/meitu/mtuploader/bean/MtUploadBean;
 
-    .line 20
     invoke-virtual {p1}, Lcom/meitu/mtuploader/bean/MtUploadBean;->getFailCount()I
 
     move-result p1
@@ -433,10 +404,8 @@
 
     const-string p1, "retry upload"
 
-    .line 21
     invoke-static {v1, p1}, Lcom/meitu/mtuploader/w/b;->a(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 22
     iget-object p1, p0, Lcom/meitu/mtuploader/MtUploadService$a;->a:Lcom/meitu/mtuploader/bean/MtUploadBean;
 
     invoke-virtual {p1}, Lcom/meitu/mtuploader/bean/MtUploadBean;->getFailCount()I
@@ -445,19 +414,16 @@
 
     add-int/2addr p1, v3
 
-    .line 23
     iget-object p2, p0, Lcom/meitu/mtuploader/MtUploadService$a;->a:Lcom/meitu/mtuploader/bean/MtUploadBean;
 
     invoke-virtual {p2, p1}, Lcom/meitu/mtuploader/bean/MtUploadBean;->setFailCount(I)V
 
-    .line 24
     iget-object p2, p0, Lcom/meitu/mtuploader/MtUploadService$a;->b:Lcom/meitu/mtuploader/MtUploadService;
 
     iget-object p3, p0, Lcom/meitu/mtuploader/MtUploadService$a;->a:Lcom/meitu/mtuploader/bean/MtUploadBean;
 
     invoke-static {p2, p3, p1}, Lcom/meitu/mtuploader/MtUploadService;->e(Lcom/meitu/mtuploader/MtUploadService;Lcom/meitu/mtuploader/bean/MtUploadBean;I)V
 
-    .line 25
     iget-object p1, p0, Lcom/meitu/mtuploader/MtUploadService$a;->b:Lcom/meitu/mtuploader/MtUploadService;
 
     iget-object p2, p0, Lcom/meitu/mtuploader/MtUploadService$a;->a:Lcom/meitu/mtuploader/bean/MtUploadBean;
@@ -473,15 +439,12 @@
 
     const-string p1, "failed code 701, clearUploadRecord, retry upload"
 
-    .line 26
     invoke-static {v1, p1}, Lcom/meitu/mtuploader/w/b;->a(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 27
     iget-object p1, p0, Lcom/meitu/mtuploader/MtUploadService$a;->a:Lcom/meitu/mtuploader/bean/MtUploadBean;
 
     invoke-static {p1}, Lcom/meitu/mtuploader/k;->c(Lcom/meitu/mtuploader/bean/MtUploadBean;)V
 
-    .line 28
     :cond_7
     iget-object p1, p0, Lcom/meitu/mtuploader/MtUploadService$a;->b:Lcom/meitu/mtuploader/MtUploadService;
 
@@ -489,7 +452,6 @@
 
     invoke-static {p1, v1, p2, p3}, Lcom/meitu/mtuploader/MtUploadService;->d(Lcom/meitu/mtuploader/MtUploadService;Lcom/meitu/mtuploader/bean/MtUploadBean;ILjava/lang/String;)V
 
-    .line 29
     :goto_3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -503,14 +465,12 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcom/meitu/mtuploader/MtUploadService$a;->b:Lcom/meitu/mtuploader/MtUploadService;
 
     iget-object v1, p0, Lcom/meitu/mtuploader/MtUploadService$a;->a:Lcom/meitu/mtuploader/bean/MtUploadBean;
 
     invoke-static {v0, v1}, Lcom/meitu/mtuploader/MtUploadService;->p(Lcom/meitu/mtuploader/MtUploadService;Lcom/meitu/mtuploader/bean/MtUploadBean;)V
 
-    .line 2
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -523,7 +483,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -536,14 +495,12 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcom/meitu/mtuploader/MtUploadService$a;->b:Lcom/meitu/mtuploader/MtUploadService;
 
     iget-object v1, p0, Lcom/meitu/mtuploader/MtUploadService$a;->a:Lcom/meitu/mtuploader/bean/MtUploadBean;
 
     invoke-static {v0, v1, p2, p3}, Lcom/meitu/mtuploader/MtUploadService;->o(Lcom/meitu/mtuploader/MtUploadService;Lcom/meitu/mtuploader/bean/MtUploadBean;ILjava/lang/String;)V
 
-    .line 2
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

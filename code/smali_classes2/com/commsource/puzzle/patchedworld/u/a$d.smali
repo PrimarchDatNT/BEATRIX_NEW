@@ -26,7 +26,6 @@
 .method constructor <init>(Lcom/commsource/puzzle/patchedworld/u/a;Ljava/lang/String;ZLcom/commsource/puzzle/patchedworld/u/a$f;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/puzzle/patchedworld/u/a$d;->J:Lcom/commsource/puzzle/patchedworld/u/a;
 
     iput-boolean p3, p0, Lcom/commsource/puzzle/patchedworld/u/a$d;->g:Z
@@ -47,26 +46,22 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/puzzle/patchedworld/u/a$d;->g:Z
 
     if-eqz v1, :cond_2
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/puzzle/patchedworld/u/a$d;->J:Lcom/commsource/puzzle/patchedworld/u/a;
 
     invoke-virtual {v1}, Lcom/commsource/puzzle/patchedworld/u/a;->x()Landroid/graphics/Bitmap;
 
     move-result-object v1
 
-    .line 3
     invoke-static {v1}, Lcom/meitu/library/p/e/a;->z(Landroid/graphics/Bitmap;)Z
 
     move-result v2
 
     if-eqz v2, :cond_2
 
-    .line 4
     iget-object v2, p0, Lcom/commsource/puzzle/patchedworld/u/a$d;->J:Lcom/commsource/puzzle/patchedworld/u/a;
 
     invoke-static {}, Lcom/commsource/beautyplus/util/v;->H()Ljava/lang/String;
@@ -77,7 +72,6 @@
 
     const/4 v2, 0x0
 
-    .line 5
     iget-object v3, p0, Lcom/commsource/puzzle/patchedworld/u/a$d;->J:Lcom/commsource/puzzle/patchedworld/u/a;
 
     invoke-static {v3}, Lcom/commsource/puzzle/patchedworld/u/a;->k(Lcom/commsource/puzzle/patchedworld/u/a;)Ljava/lang/String;
@@ -90,14 +84,12 @@
 
     if-eqz v1, :cond_2
 
-    .line 6
     new-instance v1, Ljava/util/HashMap;
 
     const/16 v2, 0x8
 
     invoke-direct {v1, v2}, Ljava/util/HashMap;-><init>(I)V
 
-    .line 7
     iget-object v2, p0, Lcom/commsource/puzzle/patchedworld/u/a$d;->J:Lcom/commsource/puzzle/patchedworld/u/a;
 
     invoke-static {v2}, Lcom/commsource/puzzle/patchedworld/u/a;->i(Lcom/commsource/puzzle/patchedworld/u/a;)Lcom/commsource/puzzle/patchedworld/t/d;
@@ -106,7 +98,6 @@
 
     if-eqz v2, :cond_0
 
-    .line 8
     iget-object v2, p0, Lcom/commsource/puzzle/patchedworld/u/a$d;->J:Lcom/commsource/puzzle/patchedworld/u/a;
 
     invoke-static {v2}, Lcom/commsource/puzzle/patchedworld/u/a;->i(Lcom/commsource/puzzle/patchedworld/u/a;)Lcom/commsource/puzzle/patchedworld/t/d;
@@ -121,7 +112,6 @@
 
     invoke-interface {v1, v3, v2}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 9
     :cond_0
     iget-object v2, p0, Lcom/commsource/puzzle/patchedworld/u/a$d;->J:Lcom/commsource/puzzle/patchedworld/u/a;
 
@@ -131,7 +121,6 @@
 
     if-eqz v2, :cond_1
 
-    .line 10
     iget-object v2, p0, Lcom/commsource/puzzle/patchedworld/u/a$d;->J:Lcom/commsource/puzzle/patchedworld/u/a;
 
     invoke-static {v2}, Lcom/commsource/puzzle/patchedworld/u/a;->m(Lcom/commsource/puzzle/patchedworld/u/a;)Lcom/commsource/puzzle/patchedworld/t/a;
@@ -151,10 +140,8 @@
 
     const-string v3, "\u62fc\u56fe"
 
-    .line 11
     invoke-interface {v1, v2, v3}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 12
     new-instance v2, Ljava/lang/StringBuilder;
 
     invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
@@ -181,10 +168,8 @@
 
     const-string v2, "puzzle_save"
 
-    .line 13
     invoke-static {v2, v1}, Lcom/commsource/statistics/i;->s(Ljava/lang/String;Ljava/util/Map;)V
 
-    .line 14
     :cond_2
     iget-object v1, p0, Lcom/commsource/puzzle/patchedworld/u/a$d;->p:Lcom/commsource/puzzle/patchedworld/u/a$f;
 
@@ -192,7 +177,6 @@
 
     const/4 v2, 0x1
 
-    .line 15
     iget-object v3, p0, Lcom/commsource/puzzle/patchedworld/u/a$d;->J:Lcom/commsource/puzzle/patchedworld/u/a;
 
     invoke-static {v3}, Lcom/commsource/puzzle/patchedworld/u/a;->k(Lcom/commsource/puzzle/patchedworld/u/a;)Ljava/lang/String;
@@ -201,7 +185,6 @@
 
     invoke-interface {v1, v2, v3}, Lcom/commsource/puzzle/patchedworld/u/a$f;->a(ZLjava/lang/String;)V
 
-    .line 16
     :cond_3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

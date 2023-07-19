@@ -41,7 +41,6 @@
 
     iput-object p2, p0, Lcotlinx/coroutines/flow/FlowKt__MergeKt$map$$inlined$unsafeTransform$2$2;->b:Lcotlinx/coroutines/flow/FlowKt__MergeKt$map$$inlined$unsafeTransform$2;
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -70,10 +69,8 @@
 
     invoke-static {v0}, Lcotlin/jvm/internal/c0;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcotlinx/coroutines/flow/FlowKt__MergeKt$map$$inlined$unsafeTransform$2$2;->a:Lcotlinx/coroutines/flow/e;
 
-    .line 2
     iget-object v1, p0, Lcotlinx/coroutines/flow/FlowKt__MergeKt$map$$inlined$unsafeTransform$2$2;->b:Lcotlinx/coroutines/flow/FlowKt__MergeKt$map$$inlined$unsafeTransform$2;
 
     iget-object v1, v1, Lcotlinx/coroutines/flow/FlowKt__MergeKt$map$$inlined$unsafeTransform$2;->b:Lcotlin/jvm/u/p;
@@ -110,10 +107,8 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcotlinx/coroutines/flow/FlowKt__MergeKt$map$$inlined$unsafeTransform$2$2;->a:Lcotlinx/coroutines/flow/e;
 
-    .line 2
     iget-object v1, p0, Lcotlinx/coroutines/flow/FlowKt__MergeKt$map$$inlined$unsafeTransform$2$2;->b:Lcotlinx/coroutines/flow/FlowKt__MergeKt$map$$inlined$unsafeTransform$2;
 
     iget-object v1, v1, Lcotlinx/coroutines/flow/FlowKt__MergeKt$map$$inlined$unsafeTransform$2;->b:Lcotlin/jvm/u/p;

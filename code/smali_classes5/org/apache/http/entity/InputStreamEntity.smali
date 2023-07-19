@@ -20,7 +20,6 @@
 
     const-wide/16 v0, -0x1
 
-    .line 1
     invoke-direct {p0, p1, v0, v1}, Lorg/apache/http/entity/InputStreamEntity;-><init>(Ljava/io/InputStream;J)V
 
     return-void
@@ -31,7 +30,6 @@
 
     const/4 v0, 0x0
 
-    .line 2
     invoke-direct {p0, p1, p2, p3, v0}, Lorg/apache/http/entity/InputStreamEntity;-><init>(Ljava/io/InputStream;JLorg/apache/http/entity/ContentType;)V
 
     return-void
@@ -40,12 +38,10 @@
 .method public constructor <init>(Ljava/io/InputStream;JLorg/apache/http/entity/ContentType;)V
     .locals 1
 
-    .line 4
     invoke-direct {p0}, Lorg/apache/http/entity/AbstractHttpEntity;-><init>()V
 
     const-string v0, "Source input stream"
 
-    .line 5
     invoke-static {p1, v0}, Lorg/apache/http/util/Args;->notNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
 
     move-result-object p1
@@ -54,12 +50,10 @@
 
     iput-object p1, p0, Lorg/apache/http/entity/InputStreamEntity;->content:Ljava/io/InputStream;
 
-    .line 6
     iput-wide p2, p0, Lorg/apache/http/entity/InputStreamEntity;->length:J
 
     if-eqz p4, :cond_0
 
-    .line 7
     invoke-virtual {p4}, Lorg/apache/http/entity/ContentType;->toString()Ljava/lang/String;
 
     move-result-object p1
@@ -75,7 +69,6 @@
 
     const-wide/16 v0, -0x1
 
-    .line 3
     invoke-direct {p0, p1, v0, v1, p2}, Lorg/apache/http/entity/InputStreamEntity;-><init>(Ljava/io/InputStream;JLorg/apache/http/entity/ContentType;)V
 
     return-void
@@ -91,7 +84,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lorg/apache/http/entity/InputStreamEntity;->content:Ljava/io/InputStream;
 
     return-object v0
@@ -100,7 +92,6 @@
 .method public getContentLength()J
     .locals 2
 
-    .line 1
     iget-wide v0, p0, Lorg/apache/http/entity/InputStreamEntity;->length:J
 
     return-wide v0
@@ -132,10 +123,8 @@
 
     const-string v0, "Output stream"
 
-    .line 1
     invoke-static {p1, v0}, Lorg/apache/http/util/Args;->notNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
 
-    .line 2
     iget-object v0, p0, Lorg/apache/http/entity/InputStreamEntity;->content:Ljava/io/InputStream;
 
     const/16 v1, 0x1000
@@ -143,7 +132,6 @@
     :try_start_0
     new-array v1, v1, [B
 
-    .line 3
     iget-wide v2, p0, Lorg/apache/http/entity/InputStreamEntity;->length:J
 
     const/4 v4, -0x1
@@ -156,7 +144,6 @@
 
     if-gez v8, :cond_0
 
-    .line 4
     :goto_0
     invoke-virtual {v0, v1}, Ljava/io/InputStream;->read([B)I
 
@@ -164,7 +151,6 @@
 
     if-eq v2, v4, :cond_2
 
-    .line 5
     invoke-virtual {p1, v1, v7, v2}, Ljava/io/OutputStream;->write([BII)V
 
     goto :goto_0
@@ -177,7 +163,6 @@
 
     const-wide/16 v8, 0x1000
 
-    .line 6
     invoke-static {v8, v9, v2, v3}, Ljava/lang/Math;->min(JJ)J
 
     move-result-wide v8
@@ -192,7 +177,6 @@
 
     goto :goto_2
 
-    .line 7
     :cond_1
     invoke-virtual {p1, v1, v7, v8}, Ljava/io/OutputStream;->write([BII)V
     :try_end_0
@@ -204,7 +188,6 @@
 
     goto :goto_1
 
-    .line 8
     :cond_2
     :goto_2
     invoke-virtual {v0}, Ljava/io/InputStream;->close()V

@@ -21,7 +21,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -30,7 +29,6 @@
 .method synthetic constructor <init>(Lcom/tencent/matrix/backtrace/WarmUpService$a;)V
     .locals 0
 
-    .line 2
     invoke-direct {p0}, Lcom/tencent/matrix/backtrace/WarmUpService$b;-><init>()V
 
     return-void
@@ -41,7 +39,6 @@
 .method public handleMessage(Landroid/os/Message;)Z
     .locals 3
 
-    .line 1
     iget p1, p1, Landroid/os/Message;->what:I
 
     const/4 v0, 0x0
@@ -56,17 +53,14 @@
 
     const-string v2, "Suicide."
 
-    .line 2
     invoke-static {v1, v2, p1}, Lcom/tencent/matrix/util/b;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
-    .line 3
     invoke-static {}, Landroid/os/Process;->myPid()I
 
     move-result p1
 
     invoke-static {p1}, Landroid/os/Process;->killProcess(I)V
 
-    .line 4
     invoke-static {v0}, Ljava/lang/System;->exit(I)V
 
     :cond_0

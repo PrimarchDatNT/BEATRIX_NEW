@@ -19,7 +19,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -28,7 +27,6 @@
 .method public synthetic constructor <init>(Lcotlin/jvm/internal/u;)V
     .locals 0
 
-    .line 2
     invoke-direct {p0}, Lcom/commsource/camera/fastcapture/SelfiePhotoData$a;-><init>()V
 
     return-void
@@ -45,21 +43,18 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/commsource/camera/fastcapture/SelfiePhotoData;
 
     const/4 v2, 0x0
 
     invoke-direct {v1, v2}, Lcom/commsource/camera/fastcapture/SelfiePhotoData;-><init>(Lcotlin/jvm/internal/u;)V
 
-    .line 2
     invoke-static {}, Lcom/commsource/beautyplus/util/v;->H()Ljava/lang/String;
 
     move-result-object v2
 
     invoke-virtual {v1, v2}, Lcom/commsource/camera/fastcapture/SelfiePhotoData;->setSaveOriginalPath(Ljava/lang/String;)V
 
-    .line 3
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
     move-result-object v2
@@ -70,7 +65,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/camera/fastcapture/SelfiePhotoData;->setNeedSaveOriginal(Z)V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1

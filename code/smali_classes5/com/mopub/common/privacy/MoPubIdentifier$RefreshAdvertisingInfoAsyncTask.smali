@@ -32,7 +32,6 @@
 .method private constructor <init>(Lcom/mopub/common/privacy/MoPubIdentifier;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/mopub/common/privacy/MoPubIdentifier$RefreshAdvertisingInfoAsyncTask;->this$0:Lcom/mopub/common/privacy/MoPubIdentifier;
 
     invoke-direct {p0}, Landroid/os/AsyncTask;-><init>()V
@@ -43,7 +42,6 @@
 .method synthetic constructor <init>(Lcom/mopub/common/privacy/MoPubIdentifier;Lcom/mopub/common/privacy/MoPubIdentifier$1;)V
     .locals 0
 
-    .line 2
     invoke-direct {p0, p1}, Lcom/mopub/common/privacy/MoPubIdentifier$RefreshAdvertisingInfoAsyncTask;-><init>(Lcom/mopub/common/privacy/MoPubIdentifier;)V
 
     return-void
@@ -54,7 +52,6 @@
 .method protected bridge synthetic doInBackground([Ljava/lang/Object;)Ljava/lang/Object;
     .locals 0
 
-    .line 1
     check-cast p1, [Ljava/lang/Void;
 
     invoke-virtual {p0, p1}, Lcom/mopub/common/privacy/MoPubIdentifier$RefreshAdvertisingInfoAsyncTask;->doInBackground([Ljava/lang/Void;)Ljava/lang/Void;
@@ -67,12 +64,10 @@
 .method protected varargs doInBackground([Ljava/lang/Void;)Ljava/lang/Void;
     .locals 1
 
-    .line 2
     iget-object p1, p0, Lcom/mopub/common/privacy/MoPubIdentifier$RefreshAdvertisingInfoAsyncTask;->this$0:Lcom/mopub/common/privacy/MoPubIdentifier;
 
     invoke-virtual {p1}, Lcom/mopub/common/privacy/MoPubIdentifier;->refreshAdvertisingInfoBackgroundThread()V
 
-    .line 3
     iget-object p1, p0, Lcom/mopub/common/privacy/MoPubIdentifier$RefreshAdvertisingInfoAsyncTask;->this$0:Lcom/mopub/common/privacy/MoPubIdentifier;
 
     const/4 v0, 0x0

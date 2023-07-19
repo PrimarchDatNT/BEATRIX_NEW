@@ -62,14 +62,12 @@
         }
     .end annotation
 
-    .line 1
     iget v0, p0, Lcotlin/text/StringsKt___StringsKt$windowedSequence$2;->$size:I
 
     add-int/2addr v0, p1
 
     if-ltz v0, :cond_0
 
-    .line 2
     iget-object v1, p0, Lcotlin/text/StringsKt___StringsKt$windowedSequence$2;->$this_windowedSequence:Ljava/lang/CharSequence;
 
     invoke-interface {v1}, Ljava/lang/CharSequence;->length()I
@@ -85,7 +83,6 @@
 
     move-result v0
 
-    .line 3
     :cond_1
     iget-object v1, p0, Lcotlin/text/StringsKt___StringsKt$windowedSequence$2;->$transform:Lcotlin/jvm/u/l;
 

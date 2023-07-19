@@ -29,7 +29,6 @@
 .method private static final b(Ljava/lang/Throwable;Ljava/lang/String;)Lcotlinx/coroutines/internal/t;
     .locals 1
 
-    .line 1
     sget-boolean v0, Lcotlinx/coroutines/internal/s;->b:Z
 
     if-eqz v0, :cond_0
@@ -43,7 +42,6 @@
     :cond_0
     if-eqz p0, :cond_1
 
-    .line 2
     throw p0
 
     :cond_1
@@ -72,7 +70,6 @@
 
     move-object p1, v0
 
-    .line 1
     :cond_1
     invoke-static {p0, p1}, Lcotlinx/coroutines/internal/s;->b(Ljava/lang/Throwable;Ljava/lang/String;)Lcotlinx/coroutines/internal/t;
 
@@ -90,7 +87,6 @@
     .annotation build Lcotlinx/coroutines/y1;
     .end annotation
 
-    .line 1
     instance-of p0, p0, Lcotlinx/coroutines/internal/t;
 
     return p0
@@ -101,7 +97,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/lang/IllegalStateException;
 
     const-string v1, "Module with the Main dispatcher is missing. Add dependency providing the Main dispatcher, e.g. \'kotlinx-coroutines-android\' and ensure it has the same version as \'kotlinx-coroutines-core\'"
@@ -139,7 +134,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     :try_start_0
     invoke-interface {p0, p1}, Lcotlinx/coroutines/internal/MainDispatcherFactory;->b(Ljava/util/List;)Lcotlinx/coroutines/m2;
 
@@ -152,7 +146,6 @@
     :catchall_0
     move-exception p1
 
-    .line 2
     invoke-interface {p0}, Lcotlinx/coroutines/internal/MainDispatcherFactory;->a()Ljava/lang/String;
 
     move-result-object p0

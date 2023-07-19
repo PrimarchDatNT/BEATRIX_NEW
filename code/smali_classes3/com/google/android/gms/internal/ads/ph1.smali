@@ -7,14 +7,12 @@
 .method public static a(Landroid/os/Bundle;Ljava/lang/String;)Landroid/os/Bundle;
     .locals 0
 
-    .line 1
     invoke-virtual {p0, p1}, Landroid/os/Bundle;->getBundle(Ljava/lang/String;)Landroid/os/Bundle;
 
     move-result-object p0
 
     if-nez p0, :cond_0
 
-    .line 2
     new-instance p0, Landroid/os/Bundle;
 
     invoke-direct {p0}, Landroid/os/Bundle;-><init>()V
@@ -28,7 +26,6 @@
 
     if-eqz p2, :cond_0
 
-    .line 1
     invoke-virtual {p0, p1, p2}, Landroid/os/Bundle;->putBundle(Ljava/lang/String;Landroid/os/Bundle;)V
 
     :cond_0
@@ -40,7 +37,6 @@
 
     if-eqz p3, :cond_0
 
-    .line 1
     invoke-virtual {p2}, Ljava/lang/Boolean;->booleanValue()Z
 
     move-result p2
@@ -56,7 +52,6 @@
 
     if-eqz p3, :cond_0
 
-    .line 1
     invoke-virtual {p2}, Ljava/lang/Integer;->intValue()I
 
     move-result p2
@@ -72,7 +67,6 @@
 
     if-eqz p2, :cond_0
 
-    .line 1
     invoke-virtual {p0, p1, p2}, Landroid/os/Bundle;->putString(Ljava/lang/String;Ljava/lang/String;)V
 
     :cond_0
@@ -84,7 +78,6 @@
 
     if-eqz p3, :cond_0
 
-    .line 1
     invoke-virtual {p0, p1, p2}, Landroid/os/Bundle;->putString(Ljava/lang/String;Ljava/lang/String;)V
 
     :cond_0
@@ -106,7 +99,6 @@
 
     if-eqz p2, :cond_0
 
-    .line 1
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0, p2}, Ljava/util/ArrayList;-><init>(Ljava/util/Collection;)V

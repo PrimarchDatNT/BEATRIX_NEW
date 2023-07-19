@@ -59,7 +59,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
     move-result-object v1
@@ -70,7 +69,6 @@
 
     move-result-object v1
 
-    .line 2
     new-instance v2, Lcom/commsource/studio/doodle/NewDoodleRepository$e$a$a;
 
     invoke-direct {v2}, Lcom/commsource/studio/doodle/NewDoodleRepository$e$a$a;-><init>()V
@@ -79,7 +77,6 @@
 
     move-result-object v2
 
-    .line 3
     invoke-static {v1, v2}, Lcom/meitu/webview/utils/c;->a(Ljava/lang/String;Ljava/lang/reflect/Type;)Ljava/lang/Object;
 
     move-result-object v1
@@ -90,12 +87,10 @@
 
     check-cast v1, Ljava/util/ArrayList;
 
-    .line 4
     new-instance v2, Ljava/util/ArrayList;
 
     invoke-direct {v2}, Ljava/util/ArrayList;-><init>()V
 
-    .line 5
     invoke-interface {v1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v3
@@ -124,26 +119,22 @@
     :cond_0
     check-cast v6, Lcom/commsource/studio/doodle/j;
 
-    .line 6
     invoke-virtual {v6, v5}, Lcom/commsource/studio/doodle/j;->l(I)V
 
     sget v5, Lcom/res/provider/ResSTRING;->doodle_base_category:I
 
-    .line 7
     invoke-static {v5}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
 
     move-result-object v5
 
     invoke-virtual {v6, v5}, Lcom/commsource/studio/doodle/j;->k(Ljava/lang/String;)V
 
-    .line 8
     invoke-virtual {v6}, Lcom/commsource/studio/doodle/j;->d()Ljava/util/List;
 
     move-result-object v5
 
     if-eqz v5, :cond_2
 
-    .line 9
     invoke-interface {v5}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v5
@@ -170,10 +161,8 @@
     :cond_1
     check-cast v9, Lcom/commsource/studio/doodle/DoodleMaterial;
 
-    .line 10
     invoke-virtual {v9, v8}, Lcom/commsource/studio/doodle/DoodleMaterial;->setSort(I)V
 
-    .line 11
     invoke-virtual {v6}, Lcom/commsource/studio/doodle/j;->a()Ljava/lang/String;
 
     move-result-object v8
@@ -182,17 +171,14 @@
 
     const/4 v8, 0x1
 
-    .line 12
     invoke-virtual {v9, v8}, Lcom/commsource/studio/doodle/DoodleMaterial;->setDownloadState(I)V
 
-    .line 13
     invoke-virtual {v9, v8}, Lcom/commsource/studio/doodle/DoodleMaterial;->setInternalState(I)V
 
     move v8, v10
 
     goto :goto_1
 
-    .line 14
     :cond_2
     invoke-virtual {v6}, Lcom/commsource/studio/doodle/j;->d()Ljava/util/List;
 
@@ -200,7 +186,6 @@
 
     if-eqz v5, :cond_3
 
-    .line 15
     invoke-virtual {v2, v5}, Ljava/util/ArrayList;->addAll(Ljava/util/Collection;)Z
 
     :cond_3
@@ -208,7 +193,6 @@
 
     goto :goto_0
 
-    .line 16
     :cond_4
     sget-object v3, Lcom/commsource/studio/doodle/c;->w:Lcom/commsource/studio/doodle/c;
 
@@ -216,10 +200,8 @@
 
     move-result-object v3
 
-    .line 17
     invoke-virtual {v1, v3}, Ljava/util/ArrayList;->addAll(Ljava/util/Collection;)Z
 
-    .line 18
     invoke-interface {v1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v1
@@ -237,7 +219,6 @@
 
     check-cast v3, Lcom/commsource/studio/doodle/j;
 
-    .line 19
     sget-object v4, Lcom/commsource/studio/doodle/NewDoodleRepository;->y:Lcom/commsource/studio/doodle/NewDoodleRepository;
 
     invoke-static {v4}, Lcom/commsource/studio/doodle/NewDoodleRepository;->q(Lcom/commsource/studio/doodle/NewDoodleRepository;)Lf/k/i0/a/o0;
@@ -254,7 +235,6 @@
 
     if-nez v5, :cond_5
 
-    .line 20
     invoke-static {v4}, Lcom/commsource/studio/doodle/NewDoodleRepository;->q(Lcom/commsource/studio/doodle/NewDoodleRepository;)Lf/k/i0/a/o0;
 
     move-result-object v4
@@ -263,7 +243,6 @@
 
     goto :goto_2
 
-    .line 21
     :cond_5
     invoke-virtual {v5}, Lcom/commsource/studio/doodle/j;->c()I
 
@@ -271,7 +250,6 @@
 
     invoke-virtual {v3, v5}, Lcom/commsource/studio/doodle/j;->l(I)V
 
-    .line 22
     invoke-static {v4}, Lcom/commsource/studio/doodle/NewDoodleRepository;->q(Lcom/commsource/studio/doodle/NewDoodleRepository;)Lf/k/i0/a/o0;
 
     move-result-object v4
@@ -280,13 +258,11 @@
 
     goto :goto_2
 
-    .line 23
     :cond_6
     sget-object v1, Lcom/commsource/studio/doodle/NewDoodleRepository;->y:Lcom/commsource/studio/doodle/NewDoodleRepository;
 
     invoke-static {v1, v2}, Lcom/commsource/studio/doodle/NewDoodleRepository;->v(Lcom/commsource/studio/doodle/NewDoodleRepository;Ljava/util/List;)V
 
-    .line 24
     invoke-interface {v2}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v1
@@ -304,7 +280,6 @@
 
     check-cast v2, Lcom/commsource/studio/doodle/DoodleMaterial;
 
-    .line 25
     sget-object v3, Lcom/commsource/studio/doodle/NewDoodleRepository;->y:Lcom/commsource/studio/doodle/NewDoodleRepository;
 
     invoke-static {v3}, Lcom/commsource/studio/doodle/NewDoodleRepository;->r(Lcom/commsource/studio/doodle/NewDoodleRepository;)Lf/k/i0/a/q0;
@@ -321,7 +296,6 @@
 
     if-nez v4, :cond_7
 
-    .line 26
     invoke-static {v3}, Lcom/commsource/studio/doodle/NewDoodleRepository;->r(Lcom/commsource/studio/doodle/NewDoodleRepository;)Lf/k/i0/a/q0;
 
     move-result-object v3
@@ -330,7 +304,6 @@
 
     goto :goto_3
 
-    .line 27
     :cond_7
     invoke-virtual {v4}, Lcom/commsource/studio/doodle/DoodleMaterial;->getSort()I
 
@@ -338,14 +311,12 @@
 
     invoke-virtual {v2, v5}, Lcom/commsource/studio/doodle/DoodleMaterial;->setSort(I)V
 
-    .line 28
     invoke-virtual {v4}, Lcom/commsource/studio/doodle/DoodleMaterial;->getDownloadState()I
 
     move-result v4
 
     invoke-virtual {v2, v4}, Lcom/commsource/studio/doodle/DoodleMaterial;->setDownloadState(I)V
 
-    .line 29
     invoke-static {v3}, Lcom/commsource/studio/doodle/NewDoodleRepository;->r(Lcom/commsource/studio/doodle/NewDoodleRepository;)Lf/k/i0/a/q0;
 
     move-result-object v3
@@ -354,7 +325,6 @@
 
     goto :goto_3
 
-    .line 30
     :cond_8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

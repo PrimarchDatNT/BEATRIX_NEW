@@ -32,7 +32,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lf/r/c/c/b$z;->b:Lf/r/c/c/b;
 
     iput-object p2, p0, Lf/r/c/c/b$z;->a:Ljava/lang/String;
@@ -47,7 +46,6 @@
 .method public run()V
     .locals 4
 
-    .line 1
     iget-object v0, p0, Lf/r/c/c/b$z;->b:Lf/r/c/c/b;
 
     invoke-static {v0}, Lf/r/c/c/b;->a0(Lf/r/c/c/b;)Landroid/app/Activity;
@@ -78,7 +76,6 @@
     :goto_0
     const/4 v1, 0x0
 
-    .line 2
     iget-object v2, p0, Lf/r/c/c/b$z;->a:Ljava/lang/String;
 
     const-string v3, "://play.google.com/store/apps/"
@@ -89,7 +86,6 @@
 
     if-ltz v2, :cond_1
 
-    .line 3
     iget-object v1, p0, Lf/r/c/c/b$z;->a:Ljava/lang/String;
 
     add-int/lit8 v2, v2, 0x1e
@@ -100,7 +96,6 @@
 
     goto :goto_1
 
-    .line 4
     :cond_1
     iget-object v2, p0, Lf/r/c/c/b$z;->a:Ljava/lang/String;
 
@@ -112,7 +107,6 @@
 
     if-eqz v2, :cond_2
 
-    .line 5
     iget-object v1, p0, Lf/r/c/c/b$z;->a:Ljava/lang/String;
 
     const/16 v2, 0x9
@@ -125,7 +119,6 @@
     :goto_1
     if-eqz v1, :cond_3
 
-    .line 6
     iget-object v2, p0, Lf/r/c/c/b$z;->b:Lf/r/c/c/b;
 
     invoke-static {v2, v1, v0}, Lf/r/c/c/b;->d0(Lf/r/c/c/b;Ljava/lang/String;Landroid/content/Context;)Z
@@ -136,7 +129,6 @@
 
     return-void
 
-    .line 7
     :cond_3
     new-instance v1, Landroid/content/Intent;
 
@@ -144,14 +136,12 @@
 
     invoke-direct {v1, v0, v2}, Landroid/content/Intent;-><init>(Landroid/content/Context;Ljava/lang/Class;)V
 
-    .line 8
     iget-object v2, p0, Lf/r/c/c/b$z;->a:Ljava/lang/String;
 
     const-string v3, "in_app_browser_url"
 
     invoke-virtual {v1, v3, v2}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
 
-    .line 9
     invoke-virtual {v0, v1}, Landroid/content/Context;->startActivity(Landroid/content/Intent;)V
 
     return-void

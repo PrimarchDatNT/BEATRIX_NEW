@@ -24,10 +24,8 @@
 .method constructor <init>(Lcom/google/common/base/b;Lcom/google/common/base/b;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/google/common/base/b;-><init>()V
 
-    .line 2
     invoke-static {p1}, Lcom/google/common/base/t;->E(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -36,7 +34,6 @@
 
     iput-object p1, p0, Lcom/google/common/base/b$b;->b:Lcom/google/common/base/b;
 
-    .line 3
     invoke-static {p2}, Lcom/google/common/base/t;->E(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -53,7 +50,6 @@
 .method public B(C)Z
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/base/b$b;->b:Lcom/google/common/base/b;
 
     invoke-virtual {v0, p1}, Lcom/google/common/base/b;->B(C)Z
@@ -86,30 +82,24 @@
     .annotation build Lf/f/e/a/c;
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/util/BitSet;
 
     invoke-direct {v0}, Ljava/util/BitSet;-><init>()V
 
-    .line 2
     iget-object v1, p0, Lcom/google/common/base/b$b;->b:Lcom/google/common/base/b;
 
     invoke-virtual {v1, v0}, Lcom/google/common/base/b;->Q(Ljava/util/BitSet;)V
 
-    .line 3
     new-instance v1, Ljava/util/BitSet;
 
     invoke-direct {v1}, Ljava/util/BitSet;-><init>()V
 
-    .line 4
     iget-object v2, p0, Lcom/google/common/base/b$b;->c:Lcom/google/common/base/b;
 
     invoke-virtual {v2, v1}, Lcom/google/common/base/b;->Q(Ljava/util/BitSet;)V
 
-    .line 5
     invoke-virtual {v0, v1}, Ljava/util/BitSet;->and(Ljava/util/BitSet;)V
 
-    .line 6
     invoke-virtual {p1, v0}, Ljava/util/BitSet;->or(Ljava/util/BitSet;)V
 
     return-void
@@ -120,7 +110,6 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    .line 1
     check-cast p1, Ljava/lang/Character;
 
     invoke-super {p0, p1}, Lcom/google/common/base/b;->e(Ljava/lang/Character;)Z
@@ -133,7 +122,6 @@
 .method public toString()Ljava/lang/String;
     .locals 2
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V

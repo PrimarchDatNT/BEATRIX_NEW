@@ -16,7 +16,6 @@
 
     const-string v0, "119.29.29.29"
 
-    .line 3
     invoke-direct {p0, v0}, Lcom/qiniu/android/dns/http/b;-><init>(Ljava/lang/String;)V
 
     return-void
@@ -25,10 +24,8 @@
 .method public constructor <init>(Ljava/lang/String;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/qiniu/android/dns/http/b;->a:Ljava/lang/String;
 
     return-void
@@ -44,7 +41,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance p2, Ljava/net/URL;
 
     new-instance v0, Ljava/lang/StringBuilder;
@@ -65,7 +61,6 @@
 
     invoke-direct {p2, p1}, Ljava/net/URL;-><init>(Ljava/lang/String;)V
 
-    .line 2
     invoke-virtual {p2}, Ljava/net/URL;->openConnection()Ljava/net/URLConnection;
 
     move-result-object p1
@@ -74,15 +69,12 @@
 
     const/16 p2, 0x1388
 
-    .line 3
     invoke-virtual {p1, p2}, Ljava/net/HttpURLConnection;->setConnectTimeout(I)V
 
     const/16 p2, 0x2710
 
-    .line 4
     invoke-virtual {p1, p2}, Ljava/net/HttpURLConnection;->setReadTimeout(I)V
 
-    .line 5
     invoke-virtual {p1}, Ljava/net/HttpURLConnection;->getResponseCode()I
 
     move-result p2
@@ -95,7 +87,6 @@
 
     return-object v0
 
-    .line 6
     :cond_0
     invoke-virtual {p1}, Ljava/net/HttpURLConnection;->getContentLength()I
 
@@ -109,28 +100,23 @@
 
     goto :goto_1
 
-    .line 7
     :cond_1
     invoke-virtual {p1}, Ljava/net/HttpURLConnection;->getInputStream()Ljava/io/InputStream;
 
     move-result-object p1
 
-    .line 8
     new-array p2, p2, [B
 
-    .line 9
     invoke-virtual {p1, p2}, Ljava/io/InputStream;->read([B)I
 
     move-result v1
 
-    .line 10
     invoke-virtual {p1}, Ljava/io/InputStream;->close()V
 
     if-gtz v1, :cond_2
 
     return-object v0
 
-    .line 11
     :cond_2
     new-instance p1, Ljava/lang/String;
 
@@ -140,12 +126,10 @@
 
     const-string p2, ","
 
-    .line 12
     invoke-virtual {p1, p2}, Ljava/lang/String;->split(Ljava/lang/String;)[Ljava/lang/String;
 
     move-result-object p1
 
-    .line 13
     array-length p2, p1
 
     const/4 v1, 0x2
@@ -157,7 +141,6 @@
     :cond_3
     const/4 p2, 0x1
 
-    .line 14
     :try_start_0
     aget-object p2, p1, p2
 
@@ -167,7 +150,6 @@
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
-    .line 15
     aget-object p1, p1, v2
 
     const-string v1, ";"
@@ -176,20 +158,17 @@
 
     move-result-object p1
 
-    .line 16
     array-length v1, p1
 
     if-nez v1, :cond_4
 
     return-object v0
 
-    .line 17
     :cond_4
     array-length v0, p1
 
     new-array v0, v0, [Lcom/qiniu/android/dns/g;
 
-    .line 18
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v3
@@ -198,13 +177,11 @@
 
     div-long v9, v3, v5
 
-    .line 19
     :goto_0
     array-length v1, p1
 
     if-ge v2, v1, :cond_5
 
-    .line 20
     new-instance v1, Lcom/qiniu/android/dns/g;
 
     aget-object v4, p1, v2

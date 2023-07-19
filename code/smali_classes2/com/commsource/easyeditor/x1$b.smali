@@ -27,12 +27,10 @@
 .method private constructor <init>(Lcom/commsource/easyeditor/x1;Landroid/content/Context;)V
     .locals 0
 
-    .line 2
     iput-object p1, p0, Lcom/commsource/easyeditor/x1$b;->b:Lcom/commsource/easyeditor/x1;
 
     invoke-direct {p0}, Lcom/commsource/beautymain/widget/gesturewidget/e$c;-><init>()V
 
-    .line 3
     new-instance p1, Lcom/commsource/beautymain/widget/gesturewidget/e;
 
     invoke-direct {p1, p2, p0}, Lcom/commsource/beautymain/widget/gesturewidget/e;-><init>(Landroid/content/Context;Lcom/commsource/beautymain/widget/gesturewidget/e$b;)V
@@ -45,7 +43,6 @@
 .method synthetic constructor <init>(Lcom/commsource/easyeditor/x1;Landroid/content/Context;Lcom/commsource/easyeditor/x1$a;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1, p2}, Lcom/commsource/easyeditor/x1$b;-><init>(Lcom/commsource/easyeditor/x1;Landroid/content/Context;)V
 
     return-void
@@ -58,7 +55,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/easyeditor/x1$b;->b:Lcom/commsource/easyeditor/x1;
 
     invoke-static {v1}, Lcom/commsource/easyeditor/x1;->d(Lcom/commsource/easyeditor/x1;)Ljava/util/List;
@@ -67,12 +63,10 @@
 
     if-nez v1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 3
     :cond_0
     iget-object v1, p0, Lcom/commsource/easyeditor/x1$b;->b:Lcom/commsource/easyeditor/x1;
 
@@ -102,7 +96,6 @@
 
     if-ne v1, v2, :cond_1
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -110,7 +103,6 @@
     :cond_1
     add-int/2addr v1, p1
 
-    .line 5
     iget-object p1, p0, Lcom/commsource/easyeditor/x1$b;->b:Lcom/commsource/easyeditor/x1;
 
     invoke-static {p1}, Lcom/commsource/easyeditor/x1;->d(Lcom/commsource/easyeditor/x1;)Ljava/util/List;
@@ -135,7 +127,6 @@
 
     rem-int/2addr v1, p1
 
-    .line 6
     iget-object p1, p0, Lcom/commsource/easyeditor/x1$b;->b:Lcom/commsource/easyeditor/x1;
 
     invoke-static {p1}, Lcom/commsource/easyeditor/x1;->d(Lcom/commsource/easyeditor/x1;)Ljava/util/List;
@@ -148,7 +139,6 @@
 
     check-cast p1, Lcom/meitu/template/bean/Filter;
 
-    .line 7
     iget-object v2, p0, Lcom/commsource/easyeditor/x1$b;->b:Lcom/commsource/easyeditor/x1;
 
     invoke-static {v2}, Lcom/commsource/easyeditor/x1;->e(Lcom/commsource/easyeditor/x1;)Lcom/commsource/widget/h1/e;
@@ -157,7 +147,6 @@
 
     invoke-virtual {v2, p1}, Lcom/commsource/widget/h1/e;->E(Ljava/lang/Object;)V
 
-    .line 8
     iget-object v2, p0, Lcom/commsource/easyeditor/x1$b;->b:Lcom/commsource/easyeditor/x1;
 
     invoke-static {v2}, Lcom/commsource/easyeditor/x1;->a(Lcom/commsource/easyeditor/x1;)Lcom/commsource/beautyplus/f0/w;
@@ -168,14 +157,12 @@
 
     invoke-virtual {v2, v1}, Landroidx/recyclerview/widget/RecyclerView;->smoothScrollToPosition(I)V
 
-    .line 9
     iget-object v1, p0, Lcom/commsource/easyeditor/x1$b;->b:Lcom/commsource/easyeditor/x1;
 
     const/4 v2, 0x1
 
     invoke-static {v1, p1, v2}, Lcom/commsource/easyeditor/x1;->f(Lcom/commsource/easyeditor/x1;Lcom/meitu/template/bean/Filter;Z)V
 
-    .line 10
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -192,10 +179,8 @@
 
     const/4 p2, -0x1
 
-    .line 1
     invoke-direct {p0, p2}, Lcom/commsource/easyeditor/x1$b;->d(I)V
 
-    .line 2
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const/4 p1, 0x1
@@ -212,10 +197,8 @@
 
     const/4 p2, 0x1
 
-    .line 1
     invoke-direct {p0, p2}, Lcom/commsource/easyeditor/x1$b;->d(I)V
 
-    .line 2
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p2
@@ -233,12 +216,10 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/easyeditor/x1$b;->a:Lcom/commsource/beautymain/widget/gesturewidget/e;
 
     invoke-virtual {v0, p2}, Lcom/commsource/beautymain/widget/gesturewidget/e;->I(Landroid/view/MotionEvent;)Z
 
-    .line 2
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const/4 p1, 0x1

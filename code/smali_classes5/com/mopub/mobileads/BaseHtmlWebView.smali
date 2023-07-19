@@ -22,13 +22,10 @@
 .method public constructor <init>(Landroid/content/Context;)V
     .locals 2
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/mopub/mobileads/BaseWebViewViewability;-><init>(Landroid/content/Context;)V
 
-    .line 2
     invoke-direct {p0}, Lcom/mopub/mobileads/BaseHtmlWebView;->disableScrollingAndZoom()V
 
-    .line 3
     invoke-virtual {p0}, Landroid/webkit/WebView;->getSettings()Landroid/webkit/WebSettings;
 
     move-result-object v0
@@ -37,7 +34,6 @@
 
     invoke-virtual {v0, v1}, Landroid/webkit/WebSettings;->setJavaScriptEnabled(Z)V
 
-    .line 4
     new-instance v0, Lcom/mopub/mobileads/ViewGestureDetector;
 
     invoke-direct {v0, p1}, Lcom/mopub/mobileads/ViewGestureDetector;-><init>(Landroid/content/Context;)V
@@ -46,7 +42,6 @@
 
     const/4 p1, 0x0
 
-    .line 5
     invoke-virtual {p0, p1}, Landroid/webkit/WebView;->setBackgroundColor(I)V
 
     return-void
@@ -55,7 +50,6 @@
 .method static synthetic access$000(Lcom/mopub/mobileads/BaseHtmlWebView;)Lcom/mopub/mobileads/ViewGestureDetector;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lcom/mopub/mobileads/BaseHtmlWebView;->mViewGestureDetector:Lcom/mopub/mobileads/ViewGestureDetector;
 
     return-object p0
@@ -66,19 +60,14 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-virtual {p0, v0}, Landroid/webkit/WebView;->setHorizontalScrollBarEnabled(Z)V
 
-    .line 2
     invoke-virtual {p0, v0}, Landroid/webkit/WebView;->setHorizontalScrollbarOverlay(Z)V
 
-    .line 3
     invoke-virtual {p0, v0}, Landroid/webkit/WebView;->setVerticalScrollBarEnabled(Z)V
 
-    .line 4
     invoke-virtual {p0, v0}, Landroid/webkit/WebView;->setVerticalScrollbarOverlay(Z)V
 
-    .line 5
     invoke-virtual {p0}, Landroid/webkit/WebView;->getSettings()Landroid/webkit/WebSettings;
 
     move-result-object v1
@@ -93,7 +82,6 @@
 .method public init()V
     .locals 0
 
-    .line 1
     invoke-virtual {p0}, Lcom/mopub/mobileads/BaseHtmlWebView;->initializeOnTouchListener()V
 
     return-void
@@ -102,7 +90,6 @@
 .method initializeOnTouchListener()V
     .locals 1
 
-    .line 1
     new-instance v0, Lcom/mopub/mobileads/BaseHtmlWebView$1;
 
     invoke-direct {v0, p0}, Lcom/mopub/mobileads/BaseHtmlWebView$1;-><init>(Lcom/mopub/mobileads/BaseHtmlWebView;)V
@@ -115,7 +102,6 @@
 .method loadHtmlResponse(Ljava/lang/String;)V
     .locals 8
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -171,19 +157,16 @@
     :cond_0
     const-string v0, "javascript:"
 
-    .line 1
     invoke-virtual {p1, v0}, Ljava/lang/String;->startsWith(Ljava/lang/String;)Z
 
     move-result v0
 
     if-eqz v0, :cond_1
 
-    .line 2
     invoke-super {p0, p1}, Landroid/webkit/WebView;->loadUrl(Ljava/lang/String;)V
 
     return-void
 
-    .line 3
     :cond_1
     sget-object v0, Lcom/mopub/common/logging/MoPubLog$SdkLogEvent;->CUSTOM:Lcom/mopub/common/logging/MoPubLog$SdkLogEvent;
 
@@ -217,12 +200,10 @@
 .method public onResetUserClick()V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/mobileads/BaseHtmlWebView;->mViewGestureDetector:Lcom/mopub/mobileads/ViewGestureDetector;
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-virtual {v0}, Lcom/mopub/mobileads/ViewGestureDetector;->onResetUserClick()V
 
     :cond_0
@@ -232,7 +213,6 @@
 .method public stopLoading()V
     .locals 5
 
-    .line 1
     iget-boolean v0, p0, Lcom/mopub/mobileads/BaseWebView;->mIsDestroyed:Z
 
     const/4 v1, 0x0
@@ -241,7 +221,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 2
     sget-object v0, Lcom/mopub/common/logging/MoPubLog$SdkLogEvent;->CUSTOM:Lcom/mopub/common/logging/MoPubLog$SdkLogEvent;
 
     new-array v2, v2, [Ljava/lang/Object;
@@ -272,7 +251,6 @@
 
     return-void
 
-    .line 3
     :cond_0
     invoke-virtual {p0}, Landroid/webkit/WebView;->getSettings()Landroid/webkit/WebSettings;
 
@@ -280,7 +258,6 @@
 
     if-nez v0, :cond_1
 
-    .line 4
     sget-object v0, Lcom/mopub/common/logging/MoPubLog$SdkLogEvent;->CUSTOM:Lcom/mopub/common/logging/MoPubLog$SdkLogEvent;
 
     new-array v2, v2, [Ljava/lang/Object;
@@ -311,14 +288,11 @@
 
     return-void
 
-    .line 5
     :cond_1
     invoke-virtual {v0, v1}, Landroid/webkit/WebSettings;->setJavaScriptEnabled(Z)V
 
-    .line 6
     invoke-super {p0}, Landroid/webkit/WebView;->stopLoading()V
 
-    .line 7
     invoke-virtual {v0, v2}, Landroid/webkit/WebSettings;->setJavaScriptEnabled(Z)V
 
     return-void
@@ -327,12 +301,10 @@
 .method public wasClicked()Z
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/mobileads/BaseHtmlWebView;->mViewGestureDetector:Lcom/mopub/mobileads/ViewGestureDetector;
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-virtual {v0}, Lcom/mopub/mobileads/ViewGestureDetector;->isClicked()Z
 
     move-result v0

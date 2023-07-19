@@ -28,13 +28,10 @@
         .end annotation
     .end param
 
-    .line 2
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 3
     iput-object p1, p0, Lf/k/g0/g/c/a$b;->a:Ljava/lang/String;
 
-    .line 4
     iput-object p2, p0, Lf/k/g0/g/c/a$b;->b:[Lf/k/g0/g/c/a$a;
 
     return-void
@@ -50,7 +47,6 @@
 
     const-string v0, "version"
 
-    .line 1
     invoke-virtual {p1, v0}, Lorg/json/JSONObject;->getString(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
@@ -79,7 +75,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lf/k/g0/g/c/a$b;->b:[Lf/k/g0/g/c/a$a;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -94,7 +89,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lf/k/g0/g/c/a$b;->b:[Lf/k/g0/g/c/a$a;
 
     array-length v1, v1
@@ -103,12 +97,10 @@
 
     const/4 v1, 0x0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
 
-    .line 3
     :cond_0
     new-instance v1, Ljava/lang/StringBuilder;
 
@@ -116,7 +108,6 @@
 
     const/4 v2, 0x0
 
-    .line 4
     :cond_1
     :goto_0
     iget-object v3, p0, Lf/k/g0/g/c/a$b;->b:[Lf/k/g0/g/c/a$a;
@@ -125,10 +116,8 @@
 
     if-ge v2, v4, :cond_2
 
-    .line 5
     aget-object v3, v3, v2
 
-    .line 6
     invoke-static {v3}, Lf/k/g0/g/c/a$a;->a(Lf/k/g0/g/c/a$a;)I
 
     move-result v3
@@ -137,7 +126,6 @@
 
     add-int/lit8 v2, v2, 0x1
 
-    .line 7
     iget-object v3, p0, Lf/k/g0/g/c/a$b;->b:[Lf/k/g0/g/c/a$a;
 
     array-length v3, v3
@@ -146,12 +134,10 @@
 
     const/16 v3, 0x2c
 
-    .line 8
     invoke-virtual {v1, v3}, Ljava/lang/StringBuilder;->append(C)Ljava/lang/StringBuilder;
 
     goto :goto_0
 
-    .line 9
     :cond_2
     invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
@@ -169,7 +155,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lf/k/g0/g/c/a$b;->a:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

@@ -19,7 +19,6 @@
 .method static constructor <clinit>()V
     .locals 3
 
-    .line 1
     sget-object v0, Ljava/util/concurrent/TimeUnit;->DAYS:Ljava/util/concurrent/TimeUnit;
 
     const-wide/16 v1, 0x7
@@ -36,16 +35,12 @@
 .method private constructor <init>(Ljava/lang/String;Ljava/lang/String;J)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/google/firebase/iid/c0;->a:Ljava/lang/String;
 
-    .line 3
     iput-object p2, p0, Lcom/google/firebase/iid/c0;->b:Ljava/lang/String;
 
-    .line 4
     iput-wide p3, p0, Lcom/google/firebase/iid/c0;->c:J
 
     return-void
@@ -54,7 +49,6 @@
 .method static a(Ljava/lang/String;)Lcom/google/firebase/iid/c0;
     .locals 6
 
-    .line 1
     invoke-static {p0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v0
@@ -68,39 +62,33 @@
     :cond_0
     const-string v0, "{"
 
-    .line 2
     invoke-virtual {p0, v0}, Ljava/lang/String;->startsWith(Ljava/lang/String;)Z
 
     move-result v0
 
     if-eqz v0, :cond_1
 
-    .line 3
     :try_start_0
     new-instance v0, Lorg/json/JSONObject;
 
     invoke-direct {v0, p0}, Lorg/json/JSONObject;-><init>(Ljava/lang/String;)V
 
-    .line 4
     new-instance p0, Lcom/google/firebase/iid/c0;
 
     const-string v2, "token"
 
-    .line 5
     invoke-virtual {v0, v2}, Lorg/json/JSONObject;->getString(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v2
 
     const-string v3, "appVersion"
 
-    .line 6
     invoke-virtual {v0, v3}, Lorg/json/JSONObject;->getString(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v3
 
     const-string v4, "timestamp"
 
-    .line 7
     invoke-virtual {v0, v4}, Lorg/json/JSONObject;->getLong(Ljava/lang/String;)J
 
     move-result-wide v4
@@ -114,7 +102,6 @@
     :catch_0
     move-exception p0
 
-    .line 8
     invoke-static {p0}, Ljava/lang/String;->valueOf(Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object p0
@@ -149,7 +136,6 @@
 
     return-object v1
 
-    .line 9
     :cond_1
     new-instance v0, Lcom/google/firebase/iid/c0;
 
@@ -173,7 +159,6 @@
 
     return-object p0
 
-    .line 1
     :cond_0
     iget-object p0, p0, Lcom/google/firebase/iid/c0;->a:Ljava/lang/String;
 
@@ -183,7 +168,6 @@
 .method static c(Ljava/lang/String;Ljava/lang/String;J)Ljava/lang/String;
     .locals 2
 
-    .line 1
     :try_start_0
     new-instance v0, Lorg/json/JSONObject;
 
@@ -191,20 +175,16 @@
 
     const-string v1, "token"
 
-    .line 2
     invoke-virtual {v0, v1, p0}, Lorg/json/JSONObject;->put(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;
 
     const-string p0, "appVersion"
 
-    .line 3
     invoke-virtual {v0, p0, p1}, Lorg/json/JSONObject;->put(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;
 
     const-string p0, "timestamp"
 
-    .line 4
     invoke-virtual {v0, p0, p2, p3}, Lorg/json/JSONObject;->put(Ljava/lang/String;J)Lorg/json/JSONObject;
 
-    .line 5
     invoke-virtual {v0}, Lorg/json/JSONObject;->toString()Ljava/lang/String;
 
     move-result-object p0
@@ -216,7 +196,6 @@
     :catch_0
     move-exception p0
 
-    .line 6
     invoke-static {p0}, Ljava/lang/String;->valueOf(Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object p0
@@ -259,7 +238,6 @@
 .method final d(Ljava/lang/String;)Z
     .locals 6
 
-    .line 1
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v0
@@ -276,7 +254,6 @@
 
     iget-object v0, p0, Lcom/google/firebase/iid/c0;->b:Ljava/lang/String;
 
-    .line 2
     invoke-virtual {p1, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p1

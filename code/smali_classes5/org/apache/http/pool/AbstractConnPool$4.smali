@@ -35,7 +35,6 @@
 .method constructor <init>(Lorg/apache/http/pool/AbstractConnPool;J)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lorg/apache/http/pool/AbstractConnPool$4;->this$0:Lorg/apache/http/pool/AbstractConnPool;
 
     iput-wide p2, p0, Lorg/apache/http/pool/AbstractConnPool$4;->val$now:J
@@ -57,7 +56,6 @@
         }
     .end annotation
 
-    .line 1
     iget-wide v0, p0, Lorg/apache/http/pool/AbstractConnPool$4;->val$now:J
 
     invoke-virtual {p1, v0, v1}, Lorg/apache/http/pool/PoolEntry;->isExpired(J)Z
@@ -66,7 +64,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-virtual {p1}, Lorg/apache/http/pool/PoolEntry;->close()V
 
     :cond_0

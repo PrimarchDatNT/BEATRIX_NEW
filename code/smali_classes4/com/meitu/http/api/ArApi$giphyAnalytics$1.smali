@@ -66,7 +66,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Lf/k/k/g;
 
     invoke-virtual {p0, p1}, Lcom/meitu/http/api/ArApi$giphyAnalytics$1;->invoke(Lf/k/k/g;)V
@@ -93,17 +92,14 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 2
     new-instance v1, Lcom/meitu/http/api/ArApi$giphyAnalytics$1$1;
 
     invoke-direct {v1, p0}, Lcom/meitu/http/api/ArApi$giphyAnalytics$1$1;-><init>(Lcom/meitu/http/api/ArApi$giphyAnalytics$1;)V
 
     invoke-static {p1, v1}, Lf/k/k/u/b;->f(Lf/k/k/d;Lcotlin/jvm/u/l;)V
 
-    .line 3
     invoke-static {p1}, Lf/k/k/u/b;->e(Lf/k/k/d;)V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

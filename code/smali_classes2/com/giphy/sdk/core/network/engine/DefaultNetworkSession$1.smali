@@ -45,7 +45,6 @@
 .method constructor <init>(Lcom/giphy/sdk/core/network/engine/DefaultNetworkSession;Landroid/net/Uri;Ljava/lang/String;Ljava/util/Map;Ljava/lang/String;Ljava/util/Map;Ljava/lang/Class;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/giphy/sdk/core/network/engine/DefaultNetworkSession$1;->this$0:Lcom/giphy/sdk/core/network/engine/DefaultNetworkSession;
 
     iput-object p2, p0, Lcom/giphy/sdk/core/network/engine/DefaultNetworkSession$1;->val$serverUrl:Landroid/net/Uri;
@@ -83,7 +82,6 @@
 
     const/4 v0, 0x0
 
-    .line 2
     :try_start_0
     iget-object v1, p0, Lcom/giphy/sdk/core/network/engine/DefaultNetworkSession$1;->val$serverUrl:Landroid/net/Uri;
 
@@ -97,12 +95,10 @@
 
     move-result-object v1
 
-    .line 3
     iget-object v2, p0, Lcom/giphy/sdk/core/network/engine/DefaultNetworkSession$1;->val$queryStrings:Ljava/util/Map;
 
     if-eqz v2, :cond_0
 
-    .line 4
     invoke-interface {v2}, Ljava/util/Map;->entrySet()Ljava/util/Set;
 
     move-result-object v2
@@ -124,7 +120,6 @@
 
     check-cast v3, Ljava/util/Map$Entry;
 
-    .line 5
     invoke-interface {v3}, Ljava/util/Map$Entry;->getKey()Ljava/lang/Object;
 
     move-result-object v4
@@ -141,7 +136,6 @@
 
     goto :goto_0
 
-    .line 6
     :cond_0
     new-instance v2, Ljava/net/URL;
 
@@ -155,7 +149,6 @@
 
     invoke-direct {v2, v1}, Ljava/net/URL;-><init>(Ljava/lang/String;)V
 
-    .line 7
     invoke-virtual {v2}, Ljava/net/URL;->openConnection()Ljava/net/URLConnection;
 
     move-result-object v1
@@ -164,18 +157,15 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_1
 
-    .line 8
     :try_start_1
     iget-object v0, p0, Lcom/giphy/sdk/core/network/engine/DefaultNetworkSession$1;->val$method:Ljava/lang/String;
 
     invoke-virtual {v1, v0}, Ljava/net/HttpURLConnection;->setRequestMethod(Ljava/lang/String;)V
 
-    .line 9
     iget-object v0, p0, Lcom/giphy/sdk/core/network/engine/DefaultNetworkSession$1;->val$headers:Ljava/util/Map;
 
     if-eqz v0, :cond_1
 
-    .line 10
     invoke-interface {v0}, Ljava/util/Map;->entrySet()Ljava/util/Set;
 
     move-result-object v0
@@ -197,7 +187,6 @@
 
     check-cast v3, Ljava/util/Map$Entry;
 
-    .line 11
     invoke-interface {v3}, Ljava/util/Map$Entry;->getKey()Ljava/lang/Object;
 
     move-result-object v4
@@ -214,11 +203,9 @@
 
     goto :goto_1
 
-    .line 12
     :cond_1
     invoke-virtual {v1}, Ljava/net/HttpURLConnection;->connect()V
 
-    .line 13
     iget-object v0, p0, Lcom/giphy/sdk/core/network/engine/DefaultNetworkSession$1;->this$0:Lcom/giphy/sdk/core/network/engine/DefaultNetworkSession;
 
     iget-object v3, p0, Lcom/giphy/sdk/core/network/engine/DefaultNetworkSession$1;->val$responseClass:Ljava/lang/Class;
@@ -231,7 +218,6 @@
 
     if-eqz v1, :cond_2
 
-    .line 14
     invoke-virtual {v1}, Ljava/net/HttpURLConnection;->disconnect()V
 
     :cond_2
@@ -251,7 +237,6 @@
     :catchall_1
     move-exception v1
 
-    .line 15
     :goto_2
     :try_start_2
     const-class v2, Lcom/giphy/sdk/core/network/engine/NetworkSession;
@@ -264,7 +249,6 @@
 
     invoke-static {v2, v3, v1}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
 
-    .line 16
     throw v1
     :try_end_2
     .catchall {:try_start_2 .. :try_end_2} :catchall_2
@@ -274,7 +258,6 @@
 
     if-eqz v0, :cond_3
 
-    .line 17
     invoke-virtual {v0}, Ljava/net/HttpURLConnection;->disconnect()V
 
     :cond_3
@@ -289,7 +272,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/giphy/sdk/core/network/engine/DefaultNetworkSession$1;->call()Lcom/giphy/sdk/core/network/response/GenericResponse;
 
     move-result-object v0

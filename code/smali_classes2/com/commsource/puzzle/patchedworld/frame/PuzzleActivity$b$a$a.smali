@@ -47,7 +47,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/puzzle/patchedworld/frame/PuzzleActivity$b$a$a;->a:Lcom/commsource/puzzle/patchedworld/frame/PuzzleActivity$b$a;
 
     iget-object v1, v1, Lcom/commsource/puzzle/patchedworld/frame/PuzzleActivity$b$a;->a:Lcom/commsource/puzzle/patchedworld/frame/PuzzleActivity$b;
@@ -56,7 +55,6 @@
 
     invoke-static {v1}, Lcom/commsource/puzzle/patchedworld/frame/PuzzleActivity;->R0(Lcom/commsource/puzzle/patchedworld/frame/PuzzleActivity;)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/puzzle/patchedworld/frame/PuzzleActivity$b$a$a;->a:Lcom/commsource/puzzle/patchedworld/frame/PuzzleActivity$b$a;
 
     iget-object v1, v1, Lcom/commsource/puzzle/patchedworld/frame/PuzzleActivity$b$a;->a:Lcom/commsource/puzzle/patchedworld/frame/PuzzleActivity$b;
@@ -73,7 +71,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/puzzle/patchedworld/s/b;->h(I)V
 
-    .line 3
     :cond_0
     iget-object v1, p0, Lcom/commsource/puzzle/patchedworld/frame/PuzzleActivity$b$a$a;->b:Lcom/commsource/puzzle/patchedworld/x/b;
 
@@ -85,7 +82,6 @@
 
     if-eqz v1, :cond_1
 
-    .line 4
     invoke-interface {v1}, Ljava/util/Collection;->isEmpty()Z
 
     move-result v1
@@ -94,7 +90,6 @@
 
     if-eqz v1, :cond_1
 
-    .line 5
     iget-object v1, p0, Lcom/commsource/puzzle/patchedworld/frame/PuzzleActivity$b$a$a;->a:Lcom/commsource/puzzle/patchedworld/frame/PuzzleActivity$b$a;
 
     iget-object v1, v1, Lcom/commsource/puzzle/patchedworld/frame/PuzzleActivity$b$a;->a:Lcom/commsource/puzzle/patchedworld/frame/PuzzleActivity$b;
@@ -121,7 +116,6 @@
 
     invoke-virtual {v1, v3}, Landroidx/lifecycle/MutableLiveData;->setValue(Ljava/lang/Object;)V
 
-    .line 6
     :cond_1
     iget-object v1, p0, Lcom/commsource/puzzle/patchedworld/frame/PuzzleActivity$b$a$a;->a:Lcom/commsource/puzzle/patchedworld/frame/PuzzleActivity$b$a;
 
@@ -141,7 +135,6 @@
 
     if-ne v1, v2, :cond_2
 
-    .line 7
     iget-object v1, p0, Lcom/commsource/puzzle/patchedworld/frame/PuzzleActivity$b$a$a;->a:Lcom/commsource/puzzle/patchedworld/frame/PuzzleActivity$b$a;
 
     iget-object v1, v1, Lcom/commsource/puzzle/patchedworld/frame/PuzzleActivity$b$a;->a:Lcom/commsource/puzzle/patchedworld/frame/PuzzleActivity$b;
@@ -156,7 +149,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/studio/text/TextTabView;->setSelectItem(I)V
 
-    .line 8
     iget-object v1, p0, Lcom/commsource/puzzle/patchedworld/frame/PuzzleActivity$b$a$a;->a:Lcom/commsource/puzzle/patchedworld/frame/PuzzleActivity$b$a;
 
     iget-object v1, v1, Lcom/commsource/puzzle/patchedworld/frame/PuzzleActivity$b$a;->a:Lcom/commsource/puzzle/patchedworld/frame/PuzzleActivity$b;
@@ -165,7 +157,6 @@
 
     invoke-static {v1, v2}, Lcom/commsource/puzzle/patchedworld/frame/PuzzleActivity;->i1(Lcom/commsource/puzzle/patchedworld/frame/PuzzleActivity;Z)V
 
-    .line 9
     :cond_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

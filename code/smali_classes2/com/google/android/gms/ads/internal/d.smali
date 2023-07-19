@@ -18,12 +18,10 @@
 .method public constructor <init>()V
     .locals 2
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const-wide/16 v0, 0x0
 
-    .line 2
     iput-wide v0, p0, Lcom/google/android/gms/ads/internal/d;->b:J
 
     return-void
@@ -46,7 +44,6 @@
     .annotation build Lcom/google/android/gms/common/util/d0;
     .end annotation
 
-    .line 1
     invoke-static {}, Lcom/google/android/gms/ads/internal/p;->j()Lcom/google/android/gms/common/util/g;
 
     move-result-object v0
@@ -67,12 +64,10 @@
 
     const-string p1, "Not retrying to fetch app settings"
 
-    .line 2
     invoke-static {p1}, Lcom/google/android/gms/internal/ads/aq;->i(Ljava/lang/String;)V
 
     return-void
 
-    .line 3
     :cond_0
     invoke-static {}, Lcom/google/android/gms/ads/internal/p;->j()Lcom/google/android/gms/common/util/g;
 
@@ -96,13 +91,11 @@
 
     goto :goto_2
 
-    .line 4
     :cond_2
     invoke-virtual {p4}, Lcom/google/android/gms/internal/ads/fm;->a()J
 
     move-result-wide v2
 
-    .line 5
     invoke-static {}, Lcom/google/android/gms/ads/internal/p;->j()Lcom/google/android/gms/common/util/g;
 
     move-result-object v4
@@ -113,10 +106,8 @@
 
     sub-long/2addr v4, v2
 
-    .line 6
     sget-object v2, Lcom/google/android/gms/internal/ads/w;->v2:Lcom/google/android/gms/internal/ads/h;
 
-    .line 7
     invoke-static {}, Lcom/google/android/gms/internal/ads/zm2;->e()Lcom/google/android/gms/internal/ads/s;
 
     move-result-object v3
@@ -125,7 +116,6 @@
 
     move-result-object v2
 
-    .line 8
     check-cast v2, Ljava/lang/Long;
 
     invoke-virtual {v2}, Ljava/lang/Long;->longValue()J
@@ -146,7 +136,6 @@
     :goto_1
     if-nez v2, :cond_1
 
-    .line 9
     invoke-virtual {p4}, Lcom/google/android/gms/internal/ads/fm;->b()Z
 
     move-result p4
@@ -166,12 +155,10 @@
 
     const-string p1, "Context not provided to fetch application settings"
 
-    .line 10
     invoke-static {p1}, Lcom/google/android/gms/internal/ads/aq;->i(Ljava/lang/String;)V
 
     return-void
 
-    .line 11
     :cond_6
     invoke-static {p5}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
@@ -187,12 +174,10 @@
 
     const-string p1, "App settings could not be fetched. Required parameters missing"
 
-    .line 12
     invoke-static {p1}, Lcom/google/android/gms/internal/ads/aq;->i(Ljava/lang/String;)V
 
     return-void
 
-    .line 13
     :cond_7
     invoke-virtual {p1}, Landroid/content/Context;->getApplicationContext()Landroid/content/Context;
 
@@ -205,18 +190,15 @@
     :cond_8
     move-object p4, p1
 
-    .line 14
     :goto_3
     iput-object p4, p0, Lcom/google/android/gms/ads/internal/d;->a:Landroid/content/Context;
 
-    .line 15
     invoke-static {}, Lcom/google/android/gms/ads/internal/p;->p()Lcom/google/android/gms/internal/ads/ka;
 
     move-result-object p4
 
     iget-object v0, p0, Lcom/google/android/gms/ads/internal/d;->a:Landroid/content/Context;
 
-    .line 16
     invoke-virtual {p4, v0, p2}, Lcom/google/android/gms/internal/ads/ka;->b(Landroid/content/Context;Lcom/google/android/gms/internal/ads/zzbbd;)Lcom/google/android/gms/internal/ads/ta;
 
     move-result-object p2
@@ -225,18 +207,15 @@
 
     const-string v0, "google.afma.config.fetchAppSettings"
 
-    .line 17
     invoke-virtual {p2, v0, p4, p4}, Lcom/google/android/gms/internal/ads/ta;->a(Ljava/lang/String;Lcom/google/android/gms/internal/ads/ma;Lcom/google/android/gms/internal/ads/na;)Lcom/google/android/gms/internal/ads/la;
 
     move-result-object p2
 
-    .line 18
     :try_start_0
     new-instance p4, Lorg/json/JSONObject;
 
     invoke-direct {p4}, Lorg/json/JSONObject;-><init>()V
 
-    .line 19
     invoke-static {p5}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v0
@@ -245,12 +224,10 @@
 
     const-string p6, "app_id"
 
-    .line 20
     invoke-virtual {p4, p6, p5}, Lorg/json/JSONObject;->put(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;
 
     goto :goto_4
 
-    .line 21
     :cond_9
     invoke-static {p6}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
@@ -260,50 +237,41 @@
 
     const-string p5, "ad_unit_id"
 
-    .line 22
     invoke-virtual {p4, p5, p6}, Lorg/json/JSONObject;->put(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;
 
     :cond_a
     :goto_4
     const-string p5, "is_init"
 
-    .line 23
     invoke-virtual {p4, p5, p3}, Lorg/json/JSONObject;->put(Ljava/lang/String;Z)Lorg/json/JSONObject;
 
     const-string p3, "pn"
 
-    .line 24
     invoke-virtual {p1}, Landroid/content/Context;->getPackageName()Ljava/lang/String;
 
     move-result-object p1
 
     invoke-virtual {p4, p3, p1}, Lorg/json/JSONObject;->put(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;
 
-    .line 25
     invoke-interface {p2, p4}, Lcom/google/android/gms/internal/ads/la;->c(Ljava/lang/Object;)Lcom/google/android/gms/internal/ads/rq1;
 
     move-result-object p1
 
-    .line 26
     sget-object p2, Lcom/google/android/gms/ads/internal/f;->a:Lcom/google/android/gms/internal/ads/xp1;
 
-    .line 27
     sget-object p3, Lcom/google/android/gms/internal/ads/dq;->f:Lcom/google/android/gms/internal/ads/uq1;
 
-    .line 28
     invoke-static {p1, p2, p3}, Lcom/google/android/gms/internal/ads/jq1;->j(Lcom/google/android/gms/internal/ads/rq1;Lcom/google/android/gms/internal/ads/xp1;Ljava/util/concurrent/Executor;)Lcom/google/android/gms/internal/ads/rq1;
 
     move-result-object p2
 
     if-eqz p7, :cond_b
 
-    .line 29
     invoke-interface {p1, p7, p3}, Lcom/google/android/gms/internal/ads/rq1;->addListener(Ljava/lang/Runnable;Ljava/util/concurrent/Executor;)V
 
     :cond_b
     const-string p1, "ConfigLoader.maybeFetchNewAppSettings"
 
-    .line 30
     invoke-static {p2, p1}, Lcom/google/android/gms/internal/ads/hq;->a(Lcom/google/android/gms/internal/ads/rq1;Ljava/lang/String;)V
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
@@ -315,7 +283,6 @@
 
     const-string p2, "Error requesting application settings"
 
-    .line 31
     invoke-static {p2, p1}, Lcom/google/android/gms/internal/ads/aq;->c(Ljava/lang/String;Ljava/lang/Throwable;)V
 
     return-void
@@ -328,7 +295,6 @@
 
     if-eqz p4, :cond_0
 
-    .line 1
     invoke-virtual {p4}, Lcom/google/android/gms/internal/ads/fm;->d()Ljava/lang/String;
 
     move-result-object v0
@@ -355,7 +321,6 @@
 
     move-object v7, p3
 
-    .line 2
     invoke-direct/range {v1 .. v8}, Lcom/google/android/gms/ads/internal/d;->c(Landroid/content/Context;Lcom/google/android/gms/internal/ads/zzbbd;ZLcom/google/android/gms/internal/ads/fm;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Runnable;)V
 
     return-void
@@ -384,7 +349,6 @@
 
     move-object v7, p4
 
-    .line 1
     invoke-direct/range {v0 .. v7}, Lcom/google/android/gms/ads/internal/d;->c(Landroid/content/Context;Lcom/google/android/gms/internal/ads/zzbbd;ZLcom/google/android/gms/internal/ads/fm;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Runnable;)V
 
     return-void

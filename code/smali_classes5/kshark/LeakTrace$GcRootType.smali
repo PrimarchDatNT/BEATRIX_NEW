@@ -76,7 +76,6 @@
 
     const-string v4, "Global variable in native code"
 
-    .line 1
     invoke-direct {v1, v2, v3, v4}, Lkshark/LeakTrace$GcRootType;-><init>(Ljava/lang/String;ILjava/lang/String;)V
 
     sput-object v1, Lkshark/LeakTrace$GcRootType;->JNI_GLOBAL:Lkshark/LeakTrace$GcRootType;
@@ -91,7 +90,6 @@
 
     const-string v4, "Local variable in native code"
 
-    .line 2
     invoke-direct {v1, v2, v3, v4}, Lkshark/LeakTrace$GcRootType;-><init>(Ljava/lang/String;ILjava/lang/String;)V
 
     sput-object v1, Lkshark/LeakTrace$GcRootType;->JNI_LOCAL:Lkshark/LeakTrace$GcRootType;
@@ -106,7 +104,6 @@
 
     const-string v4, "Java local variable"
 
-    .line 3
     invoke-direct {v1, v2, v3, v4}, Lkshark/LeakTrace$GcRootType;-><init>(Ljava/lang/String;ILjava/lang/String;)V
 
     sput-object v1, Lkshark/LeakTrace$GcRootType;->JAVA_FRAME:Lkshark/LeakTrace$GcRootType;
@@ -121,7 +118,6 @@
 
     const-string v4, "Input or output parameters in native code"
 
-    .line 4
     invoke-direct {v1, v2, v3, v4}, Lkshark/LeakTrace$GcRootType;-><init>(Ljava/lang/String;ILjava/lang/String;)V
 
     sput-object v1, Lkshark/LeakTrace$GcRootType;->NATIVE_STACK:Lkshark/LeakTrace$GcRootType;
@@ -136,7 +132,6 @@
 
     const-string v4, "System class"
 
-    .line 5
     invoke-direct {v1, v2, v3, v4}, Lkshark/LeakTrace$GcRootType;-><init>(Ljava/lang/String;ILjava/lang/String;)V
 
     sput-object v1, Lkshark/LeakTrace$GcRootType;->STICKY_CLASS:Lkshark/LeakTrace$GcRootType;
@@ -151,7 +146,6 @@
 
     const-string v4, "Thread block"
 
-    .line 6
     invoke-direct {v1, v2, v3, v4}, Lkshark/LeakTrace$GcRootType;-><init>(Ljava/lang/String;ILjava/lang/String;)V
 
     sput-object v1, Lkshark/LeakTrace$GcRootType;->THREAD_BLOCK:Lkshark/LeakTrace$GcRootType;
@@ -166,7 +160,6 @@
 
     const-string v4, "Monitor (anything that called the wait() or notify() methods, or that is synchronized.)"
 
-    .line 7
     invoke-direct {v1, v2, v3, v4}, Lkshark/LeakTrace$GcRootType;-><init>(Ljava/lang/String;ILjava/lang/String;)V
 
     sput-object v1, Lkshark/LeakTrace$GcRootType;->MONITOR_USED:Lkshark/LeakTrace$GcRootType;
@@ -181,7 +174,6 @@
 
     const-string v4, "Thread object"
 
-    .line 8
     invoke-direct {v1, v2, v3, v4}, Lkshark/LeakTrace$GcRootType;-><init>(Ljava/lang/String;ILjava/lang/String;)V
 
     sput-object v1, Lkshark/LeakTrace$GcRootType;->THREAD_OBJECT:Lkshark/LeakTrace$GcRootType;
@@ -196,7 +188,6 @@
 
     const-string v4, "Root JNI monitor"
 
-    .line 9
     invoke-direct {v1, v2, v3, v4}, Lkshark/LeakTrace$GcRootType;-><init>(Ljava/lang/String;ILjava/lang/String;)V
 
     sput-object v1, Lkshark/LeakTrace$GcRootType;->JNI_MONITOR:Lkshark/LeakTrace$GcRootType;
@@ -226,7 +217,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
     iput-object p3, p0, Lkshark/LeakTrace$GcRootType;->description:Ljava/lang/String;
@@ -269,7 +259,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lkshark/LeakTrace$GcRootType;->description:Ljava/lang/String;
 
     return-object v0

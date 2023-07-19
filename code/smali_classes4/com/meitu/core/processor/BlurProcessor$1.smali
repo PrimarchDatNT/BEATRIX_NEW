@@ -29,7 +29,6 @@
 .method constructor <init>(Landroid/graphics/Bitmap;IZ)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/core/processor/BlurProcessor$1;->val$bitmap:Landroid/graphics/Bitmap;
 
     iput p2, p0, Lcom/meitu/core/processor/BlurProcessor$1;->val$radius:I
@@ -50,7 +49,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/core/processor/BlurProcessor$1;->val$bitmap:Landroid/graphics/Bitmap;
 
     iget v2, p0, Lcom/meitu/core/processor/BlurProcessor$1;->val$radius:I
@@ -63,7 +61,6 @@
 
     invoke-static {v1}, Lcom/meitu/core/processor/BlurProcessor;->access$002(Z)Z
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

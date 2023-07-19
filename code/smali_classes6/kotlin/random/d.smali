@@ -24,7 +24,6 @@
 
     invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     instance-of v0, p0, Lcotlin/random/a;
 
     if-nez v0, :cond_0
@@ -75,7 +74,6 @@
 
     invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     instance-of v0, p0, Lcotlin/random/KotlinRandom;
 
     if-nez v0, :cond_0
@@ -114,7 +112,6 @@
     .annotation build Lcotlin/internal/f;
     .end annotation
 
-    .line 1
     sget-object v0, Lcotlin/internal/l;->a:Lcotlin/internal/k;
 
     invoke-virtual {v0}, Lcotlin/internal/k;->b()Lcotlin/random/e;

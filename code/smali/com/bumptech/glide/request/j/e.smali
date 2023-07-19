@@ -36,7 +36,6 @@
 
     const/high16 v0, -0x80000000
 
-    .line 1
     invoke-direct {p0, v0, v0}, Lcom/bumptech/glide/request/j/e;-><init>(II)V
 
     return-void
@@ -45,25 +44,20 @@
 .method public constructor <init>(II)V
     .locals 3
 
-    .line 2
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 3
     invoke-static {p1, p2}, Lcom/bumptech/glide/s/m;->v(II)Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
-    .line 4
     iput p1, p0, Lcom/bumptech/glide/request/j/e;->a:I
 
-    .line 5
     iput p2, p0, Lcom/bumptech/glide/request/j/e;->b:I
 
     return-void
 
-    .line 6
     :cond_0
     new-instance v0, Ljava/lang/IllegalArgumentException;
 
@@ -99,7 +93,6 @@
     .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/bumptech/glide/request/j/e;->c:Lcom/bumptech/glide/request/d;
 
     return-object v0
@@ -132,7 +125,6 @@
         .end annotation
     .end param
 
-    .line 1
     iput-object p1, p0, Lcom/bumptech/glide/request/j/e;->c:Lcom/bumptech/glide/request/d;
 
     return-void
@@ -155,7 +147,6 @@
         .end annotation
     .end param
 
-    .line 1
     iget v0, p0, Lcom/bumptech/glide/request/j/e;->a:I
 
     iget v1, p0, Lcom/bumptech/glide/request/j/e;->b:I

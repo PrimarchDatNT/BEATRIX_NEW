@@ -29,7 +29,6 @@
 
     const-string v0, "([a-zA-Z0-9-!#$%&\'*+.^_`{|}~]+)/([a-zA-Z0-9-!#$%&\'*+.^_`{|}~]+)"
 
-    .line 1
     invoke-static {v0}, Ljava/util/regex/Pattern;->compile(Ljava/lang/String;)Ljava/util/regex/Pattern;
 
     move-result-object v0
@@ -38,7 +37,6 @@
 
     const-string v0, ";\\s*(?:([a-zA-Z0-9-!#$%&\'*+.^_`{|}~]+)=(?:([a-zA-Z0-9-!#$%&\'*+.^_`{|}~]+)|\"([^\"]*)\"))?"
 
-    .line 2
     invoke-static {v0}, Ljava/util/regex/Pattern;->compile(Ljava/lang/String;)Ljava/util/regex/Pattern;
 
     move-result-object v0
@@ -51,19 +49,14 @@
 .method private constructor <init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/squareup/okhttp/MediaType;->mediaType:Ljava/lang/String;
 
-    .line 3
     iput-object p2, p0, Lcom/squareup/okhttp/MediaType;->type:Ljava/lang/String;
 
-    .line 4
     iput-object p3, p0, Lcom/squareup/okhttp/MediaType;->subtype:Ljava/lang/String;
 
-    .line 5
     iput-object p4, p0, Lcom/squareup/okhttp/MediaType;->charset:Ljava/lang/String;
 
     return-void
@@ -72,14 +65,12 @@
 .method public static parse(Ljava/lang/String;)Lcom/squareup/okhttp/MediaType;
     .locals 9
 
-    .line 1
     sget-object v0, Lcom/squareup/okhttp/MediaType;->TYPE_SUBTYPE:Ljava/util/regex/Pattern;
 
     invoke-virtual {v0, p0}, Ljava/util/regex/Pattern;->matcher(Ljava/lang/CharSequence;)Ljava/util/regex/Matcher;
 
     move-result-object v0
 
-    .line 2
     invoke-virtual {v0}, Ljava/util/regex/Matcher;->lookingAt()Z
 
     move-result v1
@@ -93,7 +84,6 @@
     :cond_0
     const/4 v1, 0x1
 
-    .line 3
     invoke-virtual {v0, v1}, Ljava/util/regex/Matcher;->group(I)Ljava/lang/String;
 
     move-result-object v3
@@ -106,7 +96,6 @@
 
     const/4 v5, 0x2
 
-    .line 4
     invoke-virtual {v0, v5}, Ljava/util/regex/Matcher;->group(I)Ljava/lang/String;
 
     move-result-object v6
@@ -115,14 +104,12 @@
 
     move-result-object v4
 
-    .line 5
     sget-object v6, Lcom/squareup/okhttp/MediaType;->PARAMETER:Ljava/util/regex/Pattern;
 
     invoke-virtual {v6, p0}, Ljava/util/regex/Pattern;->matcher(Ljava/lang/CharSequence;)Ljava/util/regex/Matcher;
 
     move-result-object v6
 
-    .line 6
     invoke-virtual {v0}, Ljava/util/regex/Matcher;->end()I
 
     move-result v0
@@ -136,14 +123,12 @@
 
     if-ge v0, v8, :cond_7
 
-    .line 7
     invoke-virtual {p0}, Ljava/lang/String;->length()I
 
     move-result v8
 
     invoke-virtual {v6, v0, v8}, Ljava/util/regex/Matcher;->region(II)Ljava/util/regex/Matcher;
 
-    .line 8
     invoke-virtual {v6}, Ljava/util/regex/Matcher;->lookingAt()Z
 
     move-result v0
@@ -152,7 +137,6 @@
 
     return-object v2
 
-    .line 9
     :cond_1
     invoke-virtual {v6, v1}, Ljava/util/regex/Matcher;->group(I)Ljava/lang/String;
 
@@ -162,7 +146,6 @@
 
     const-string v8, "charset"
 
-    .line 10
     invoke-virtual {v0, v8}, Ljava/lang/String;->equalsIgnoreCase(Ljava/lang/String;)Z
 
     move-result v0
@@ -171,7 +154,6 @@
 
     goto :goto_3
 
-    .line 11
     :cond_2
     invoke-virtual {v6, v5}, Ljava/util/regex/Matcher;->group(I)Ljava/lang/String;
 
@@ -179,7 +161,6 @@
 
     if-eqz v0, :cond_3
 
-    .line 12
     invoke-virtual {v6, v5}, Ljava/util/regex/Matcher;->group(I)Ljava/lang/String;
 
     move-result-object v0
@@ -189,7 +170,6 @@
     :cond_3
     const/4 v0, 0x3
 
-    .line 13
     invoke-virtual {v6, v0}, Ljava/util/regex/Matcher;->group(I)Ljava/lang/String;
 
     move-result-object v0
@@ -197,7 +177,6 @@
     :goto_1
     if-eqz v7, :cond_5
 
-    .line 14
     invoke-virtual {v0, v7}, Ljava/lang/String;->equalsIgnoreCase(Ljava/lang/String;)Z
 
     move-result v7
@@ -206,7 +185,6 @@
 
     goto :goto_2
 
-    .line 15
     :cond_4
     new-instance v0, Ljava/lang/IllegalArgumentException;
 
@@ -232,7 +210,6 @@
     :goto_2
     move-object v7, v0
 
-    .line 16
     :cond_6
     :goto_3
     invoke-virtual {v6}, Ljava/util/regex/Matcher;->end()I
@@ -241,7 +218,6 @@
 
     goto :goto_0
 
-    .line 17
     :cond_7
     new-instance v0, Lcom/squareup/okhttp/MediaType;
 
@@ -255,7 +231,6 @@
 .method public charset()Ljava/nio/charset/Charset;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/squareup/okhttp/MediaType;->charset:Ljava/lang/String;
 
     if-eqz v0, :cond_0
@@ -276,7 +251,6 @@
 .method public charset(Ljava/nio/charset/Charset;)Ljava/nio/charset/Charset;
     .locals 1
 
-    .line 2
     iget-object v0, p0, Lcom/squareup/okhttp/MediaType;->charset:Ljava/lang/String;
 
     if-eqz v0, :cond_0
@@ -292,7 +266,6 @@
 .method public equals(Ljava/lang/Object;)Z
     .locals 1
 
-    .line 1
     instance-of v0, p1, Lcom/squareup/okhttp/MediaType;
 
     if-eqz v0, :cond_0
@@ -323,7 +296,6 @@
 .method public hashCode()I
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/squareup/okhttp/MediaType;->mediaType:Ljava/lang/String;
 
     invoke-virtual {v0}, Ljava/lang/String;->hashCode()I
@@ -336,7 +308,6 @@
 .method public subtype()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/squareup/okhttp/MediaType;->subtype:Ljava/lang/String;
 
     return-object v0
@@ -345,7 +316,6 @@
 .method public toString()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/squareup/okhttp/MediaType;->mediaType:Ljava/lang/String;
 
     return-object v0
@@ -354,7 +324,6 @@
 .method public type()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/squareup/okhttp/MediaType;->type:Ljava/lang/String;
 
     return-object v0

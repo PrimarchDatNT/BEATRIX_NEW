@@ -36,15 +36,12 @@
 .method public constructor <init>(Landroid/content/Context;)V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/4 v0, 0x1
 
-    .line 2
     iput-boolean v0, p0, Lcom/commsource/camera/c0$a;->c:Z
 
-    .line 3
     iput-object p1, p0, Lcom/commsource/camera/c0$a;->a:Landroid/content/Context;
 
     return-void
@@ -57,15 +54,12 @@
 
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p1}, Landroid/app/Dialog;->dismiss()V
 
-    .line 2
     iget-object p1, p0, Lcom/commsource/camera/c0$a;->e:Lcom/meitu/hwbusinesskit/core/ad/NativeAd;
 
     invoke-virtual {p1}, Lcom/meitu/hwbusinesskit/core/ad/NativeAd;->destroy()V
 
-    .line 3
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -78,15 +72,12 @@
 
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p1}, Landroid/app/Dialog;->dismiss()V
 
-    .line 2
     iget-object p1, p0, Lcom/commsource/camera/c0$a;->e:Lcom/meitu/hwbusinesskit/core/ad/NativeAd;
 
     invoke-virtual {p1}, Lcom/meitu/hwbusinesskit/core/ad/NativeAd;->destroy()V
 
-    .line 3
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -99,17 +90,14 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/camera/c0$a;->h:Lcom/commsource/camera/b0;
 
     if-eqz v0, :cond_0
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/camera/c0$a;->f:Lcom/meitu/hwbusinesskit/core/widget/NativeAdView;
 
     invoke-interface {v0, v1}, Lcom/commsource/camera/b0;->c(Landroid/view/View;)V
 
-    .line 3
     :cond_0
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -125,7 +113,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/c0$a;->a:Landroid/content/Context;
 
     const-string v2, "layout_inflater"
@@ -136,17 +123,14 @@
 
     check-cast v1, Landroid/view/LayoutInflater;
 
-    .line 2
     iget v2, p0, Lcom/commsource/camera/c0$a;->d:I
 
     if-gtz v2, :cond_0
 
     sget v2, Lcom/res/provider/ResSTYLE;->advertDialog:I
 
-    .line 3
     iput v2, p0, Lcom/commsource/camera/c0$a;->d:I
 
-    .line 4
     :cond_0
     new-instance v2, Lcom/commsource/camera/c0;
 
@@ -156,17 +140,14 @@
 
     invoke-direct {v2, v3, v4}, Lcom/commsource/camera/c0;-><init>(Landroid/content/Context;I)V
 
-    .line 5
     iget-boolean v3, p0, Lcom/commsource/camera/c0$a;->b:Z
 
     invoke-virtual {v2, v3}, Landroid/app/Dialog;->setCanceledOnTouchOutside(Z)V
 
-    .line 6
     iget-boolean v3, p0, Lcom/commsource/camera/c0$a;->c:Z
 
     invoke-virtual {v2, v3}, Landroid/app/Dialog;->setCancelable(Z)V
 
-    .line 7
     iget-object v3, p0, Lcom/commsource/camera/c0$a;->g:Landroid/content/DialogInterface$OnDismissListener;
 
     invoke-virtual {v2, v3}, Lcom/commsource/widget/dialog/l0;->setOnDismissListener(Landroid/content/DialogInterface$OnDismissListener;)V
@@ -177,14 +158,12 @@
 
     const/4 v5, 0x0
 
-    .line 8
     invoke-virtual {v1, v3, v4, v5}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
     move-result-object v1
 
     sget v3, Lcom/res/provider/ResID;->ll_ad_container:I
 
-    .line 9
     invoke-virtual {v1, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v3
@@ -195,7 +174,6 @@
 
     sget v3, Lcom/res/provider/ResID;->iv_cancel:I
 
-    .line 10
     invoke-virtual {v1, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v3
@@ -204,21 +182,18 @@
 
     sget v4, Lcom/res/provider/ResID;->rl_cancle:I
 
-    .line 11
     invoke-virtual {v1, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v4
 
     check-cast v4, Landroid/widget/RelativeLayout;
 
-    .line 12
     new-instance v5, Lcom/commsource/camera/b;
 
     invoke-direct {v5, p0, v2}, Lcom/commsource/camera/b;-><init>(Lcom/commsource/camera/c0$a;Lcom/commsource/camera/c0;)V
 
     invoke-virtual {v4, v5}, Landroid/widget/RelativeLayout;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 13
     new-instance v4, Lcom/commsource/camera/a;
 
     invoke-direct {v4, p0, v2}, Lcom/commsource/camera/a;-><init>(Lcom/commsource/camera/c0$a;Lcom/commsource/camera/c0;)V
@@ -227,24 +202,20 @@
 
     sget v3, Lcom/res/provider/ResID;->piv_report_enter:I
 
-    .line 14
     invoke-virtual {v1, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v3
 
     check-cast v3, Lcom/commsource/widget/PressImageView;
 
-    .line 15
     new-instance v4, Lcom/commsource/camera/c;
 
     invoke-direct {v4, p0}, Lcom/commsource/camera/c;-><init>(Lcom/commsource/camera/c0$a;)V
 
     invoke-virtual {v3, v4}, Landroid/widget/ImageView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 16
     invoke-virtual {v2, v1}, Landroid/app/Dialog;->setContentView(Landroid/view/View;)V
 
-    .line 17
     invoke-virtual {v2}, Landroid/app/Dialog;->getWindow()Landroid/view/Window;
 
     move-result-object v1
@@ -253,28 +224,24 @@
 
     move-result-object v1
 
-    .line 18
     invoke-static {}, Lcom/meitu/library/p/f/i;->z()I
 
     move-result v3
 
     iput v3, v1, Landroid/view/WindowManager$LayoutParams;->width:I
 
-    .line 19
     invoke-static {}, Lcom/meitu/library/p/f/i;->x()I
 
     move-result v3
 
     iput v3, v1, Landroid/view/WindowManager$LayoutParams;->height:I
 
-    .line 20
     invoke-virtual {v2}, Landroid/app/Dialog;->getWindow()Landroid/view/Window;
 
     move-result-object v3
 
     invoke-virtual {v3, v1}, Landroid/view/Window;->setAttributes(Landroid/view/WindowManager$LayoutParams;)V
 
-    .line 21
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v2
@@ -311,10 +278,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/camera/c0$a;->c:Z
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
@@ -327,10 +292,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/camera/c0$a;->b:Z
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
@@ -343,10 +306,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/camera/c0$a;->e:Lcom/meitu/hwbusinesskit/core/ad/NativeAd;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
@@ -359,10 +320,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/camera/c0$a;->g:Landroid/content/DialogInterface$OnDismissListener;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
@@ -375,10 +334,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/camera/c0$a;->h:Lcom/commsource/camera/b0;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
@@ -391,10 +348,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/camera/c0$a;->d:I
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
@@ -407,7 +362,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/c0$a;->e:Lcom/meitu/hwbusinesskit/core/ad/NativeAd;
 
     if-eqz v1, :cond_0
@@ -416,10 +370,8 @@
 
     if-eqz v2, :cond_0
 
-    .line 2
     invoke-virtual {v1, v2}, Lcom/meitu/hwbusinesskit/core/ad/NativeAd;->show(Lcom/meitu/hwbusinesskit/core/widget/BaseAdView;)V
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

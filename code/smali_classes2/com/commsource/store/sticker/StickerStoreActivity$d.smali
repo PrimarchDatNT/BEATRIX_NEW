@@ -54,14 +54,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Landroid/content/Intent;
 
     invoke-direct {v1}, Landroid/content/Intent;-><init>()V
 
     const-string v2, "groupId"
 
-    .line 2
     invoke-static {p1, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {p1}, Ljava/lang/Integer;->intValue()I
@@ -72,24 +70,20 @@
 
     invoke-virtual {v1, v2, p1}, Landroid/content/Intent;->putExtra(Ljava/lang/String;I)Landroid/content/Intent;
 
-    .line 3
     iget-object p1, p0, Lcom/commsource/store/sticker/StickerStoreActivity$d;->a:Lcom/commsource/store/sticker/StickerStoreActivity;
 
     const/4 v2, -0x1
 
     invoke-virtual {p1, v2, v1}, Landroid/app/Activity;->setResult(ILandroid/content/Intent;)V
 
-    .line 4
     iget-object p1, p0, Lcom/commsource/store/sticker/StickerStoreActivity$d;->a:Lcom/commsource/store/sticker/StickerStoreActivity;
 
     invoke-virtual {p1}, Lcom/commsource/beautyplus/BaseActivity;->finish()V
 
-    .line 5
     iget-object p1, p0, Lcom/commsource/store/sticker/StickerStoreActivity$d;->a:Lcom/commsource/store/sticker/StickerStoreActivity;
 
     invoke-static {p1}, Lcom/commsource/util/h2;->e(Landroid/app/Activity;)V
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -102,7 +96,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Ljava/lang/Integer;
 
     invoke-virtual {p0, p1}, Lcom/commsource/store/sticker/StickerStoreActivity$d;->a(Ljava/lang/Integer;)V

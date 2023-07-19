@@ -7,7 +7,6 @@
 .method constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -18,7 +17,6 @@
 
     if-eqz p0, :cond_1
 
-    .line 1
     invoke-interface {p0}, Ljava/lang/CharSequence;->length()I
 
     move-result p0

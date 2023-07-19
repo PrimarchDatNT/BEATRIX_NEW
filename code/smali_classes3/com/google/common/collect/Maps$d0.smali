@@ -44,7 +44,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1, p2}, Lcom/google/common/collect/Maps$o;-><init>(Ljava/util/Set;Lcom/google/common/base/n;)V
 
     return-void
@@ -62,7 +61,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/collect/Maps$d0;->e()Ljava/util/SortedSet;
 
     move-result-object v0
@@ -77,7 +75,6 @@
 .method bridge synthetic d()Ljava/util/Set;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/collect/Maps$d0;->e()Ljava/util/SortedSet;
 
     move-result-object v0
@@ -95,7 +92,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-super {p0}, Lcom/google/common/collect/Maps$o;->d()Ljava/util/Set;
 
     move-result-object v0
@@ -113,7 +109,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/collect/Maps$d0;->e()Ljava/util/SortedSet;
 
     move-result-object v0
@@ -135,7 +130,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/collect/Maps$d0;->e()Ljava/util/SortedSet;
 
     move-result-object v0
@@ -163,7 +157,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/collect/Maps$d0;->e()Ljava/util/SortedSet;
 
     move-result-object v0
@@ -183,7 +176,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/collect/Maps$d0;->e()Ljava/util/SortedSet;
 
     move-result-object v0
@@ -205,7 +197,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/collect/Maps$d0;->e()Ljava/util/SortedSet;
 
     move-result-object v0
@@ -233,7 +224,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/collect/Maps$d0;->e()Ljava/util/SortedSet;
 
     move-result-object v0

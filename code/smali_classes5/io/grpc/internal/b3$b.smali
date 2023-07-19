@@ -31,7 +31,6 @@
 .method constructor <init>(Lio/grpc/internal/b3;Ljava/util/concurrent/Executor;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lio/grpc/internal/b3$b;->b:Lio/grpc/internal/b3;
 
     iput-object p2, p0, Lio/grpc/internal/b3$b;->a:Ljava/util/concurrent/Executor;
@@ -84,7 +83,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object p2, p0, Lio/grpc/internal/b3$b;->a:Ljava/util/concurrent/Executor;
 
     new-instance v0, Lio/grpc/internal/b3$b$a;

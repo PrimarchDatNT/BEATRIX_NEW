@@ -19,12 +19,10 @@
 .method public constructor <init>()V
     .locals 2
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const-wide/16 v0, 0x0
 
-    .line 2
     iput-wide v0, p0, Lcom/meitu/core/processor/Light3DProcessor;->m_nativeGLPtr:J
 
     return-void
@@ -37,7 +35,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/meitu/core/processor/Light3DProcessor$ApplicationConfigureHolder;->sharedApplicationConfigure:Lcom/meitu/core/processor/Light3DProcessor;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -102,7 +99,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/core/processor/Light3DProcessor;->m_nativeGLPtr:J
 
     invoke-static {v1, v2, p1, p2}, Lcom/meitu/core/processor/Light3DProcessor;->nativeChangeFaceAngle(JFF)Z
@@ -121,12 +117,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/core/processor/Light3DProcessor;->m_nativeGLPtr:J
 
     invoke-static {v1, v2, p1}, Lcom/meitu/core/processor/Light3DProcessor;->nativeChangeFaceInputAlpha(JF)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -139,12 +133,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/core/processor/Light3DProcessor;->m_nativeGLPtr:J
 
     invoke-static {v1, v2, p1}, Lcom/meitu/core/processor/Light3DProcessor;->nativeChangeFaceLightDistanceZ(JF)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -157,12 +149,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/core/processor/Light3DProcessor;->m_nativeGLPtr:J
 
     invoke-static {v1, v2, p1}, Lcom/meitu/core/processor/Light3DProcessor;->nativeChangeFaceLightIntensity(JF)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -175,7 +165,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/core/processor/Light3DProcessor;->m_nativeGLPtr:J
 
     invoke-static {v1, v2, p1, p2}, Lcom/meitu/core/processor/Light3DProcessor;->nativeChangeLightPos(JFF)Z
@@ -194,12 +183,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/core/processor/Light3DProcessor;->m_nativeGLPtr:J
 
     invoke-static {v1, v2, p1}, Lcom/meitu/core/processor/Light3DProcessor;->nativeChangeFaceMix(JF)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -212,7 +199,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/core/processor/Light3DProcessor;->m_nativeGLPtr:J
 
     invoke-static {v1, v2, p1, p2, p3}, Lcom/meitu/core/processor/Light3DProcessor;->nativeChangeFaceNumber(JFFF)Z
@@ -231,7 +217,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/core/processor/Light3DProcessor;->m_nativeGLPtr:J
 
     invoke-static {v1, v2}, Lcom/meitu/core/processor/Light3DProcessor;->nativeDrawLight(J)Z
@@ -250,7 +235,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/core/processor/Light3DProcessor;->m_nativeGLPtr:J
 
     invoke-static {v1, v2, p1}, Lcom/meitu/core/processor/Light3DProcessor;->nativeGetFacePic(JLandroid/graphics/Bitmap;)Z
@@ -269,7 +253,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/core/processor/Light3DProcessor;->m_nativeGLPtr:J
 
     const-wide/16 v3, 0x0
@@ -278,7 +261,6 @@
 
     if-nez v5, :cond_0
 
-    .line 2
     invoke-static {}, Lcom/meitu/core/processor/Light3DProcessor;->nativeLight3DInit()J
 
     move-result-wide v1
@@ -292,13 +274,11 @@
 
     const-string v2, "light3dInit false! nativeGLPtr != 0"
 
-    .line 3
     invoke-static {v1, v2}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;)I
 
     :goto_0
     const/4 v1, 0x1
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
@@ -315,20 +295,16 @@
 
     const-string v2, "light3dRelease()"
 
-    .line 1
     invoke-static {v1, v2}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 2
     iget-wide v1, p0, Lcom/meitu/core/processor/Light3DProcessor;->m_nativeGLPtr:J
 
     invoke-static {v1, v2}, Lcom/meitu/core/processor/Light3DProcessor;->nativeLight3DRelease(J)V
 
     const-wide/16 v1, 0x0
 
-    .line 3
     iput-wide v1, p0, Lcom/meitu/core/processor/Light3DProcessor;->m_nativeGLPtr:J
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -341,7 +317,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/core/processor/Light3DProcessor;->m_nativeGLPtr:J
 
     invoke-static {v1, v2, p1}, Lcom/meitu/core/processor/Light3DProcessor;->nativeSetBodyMask(JLandroid/graphics/Bitmap;)Z
@@ -360,7 +335,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/core/processor/Light3DProcessor;->m_nativeGLPtr:J
 
     invoke-static {v1, v2, p1, p2}, Lcom/meitu/core/processor/Light3DProcessor;->nativeSetPath(JLjava/lang/String;Ljava/lang/String;)Z
@@ -381,7 +355,6 @@
 
     move-object v1, p0
 
-    .line 2
     iget-wide v2, v1, Lcom/meitu/core/processor/Light3DProcessor;->m_nativeGLPtr:J
 
     move v4, p1
@@ -412,7 +385,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/core/processor/Light3DProcessor;->m_nativeGLPtr:J
 
     move-object v3, p1
@@ -437,7 +409,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/core/processor/Light3DProcessor;->m_nativeGLPtr:J
 
     invoke-static {v1, v2, p1}, Lcom/meitu/core/processor/Light3DProcessor;->nativeSetSkinMask(JLandroid/graphics/Bitmap;)Z

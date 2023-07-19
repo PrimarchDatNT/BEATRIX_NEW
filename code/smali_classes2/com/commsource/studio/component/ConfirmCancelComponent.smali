@@ -35,7 +35,6 @@
 
     const/4 v0, 0x0
 
-    .line 8
     invoke-direct {p0, p1, v0}, Lcom/commsource/studio/component/ConfirmCancelComponent;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
     return-void
@@ -58,7 +57,6 @@
 
     const/4 v0, 0x0
 
-    .line 6
     invoke-direct {p0, p1, p2, v0}, Lcom/commsource/studio/component/ConfirmCancelComponent;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
     return-void
@@ -79,10 +77,8 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-direct {p0, p1, p2, p3}, Lcom/commsource/studio/component/ComponentView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
-    .line 2
     invoke-virtual {p0}, Landroid/widget/FrameLayout;->getContext()Landroid/content/Context;
 
     move-result-object p1
@@ -97,7 +93,6 @@
 
     const-string p2, "this"
 
-    .line 3
     invoke-static {p1, p2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {p1}, Landroidx/databinding/ViewDataBinding;->getRoot()Landroid/view/View;
@@ -108,7 +103,6 @@
 
     const-string p2, "ComponentConfirmCancelBi\u2026 addView(this.root)\n    }"
 
-    .line 4
     invoke-static {p1, p2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     iput-object p1, p0, Lcom/commsource/studio/component/ConfirmCancelComponent;->f:Lcom/commsource/beautyplus/f0/w1;
@@ -132,7 +126,6 @@
 
     const/4 p3, 0x0
 
-    .line 5
     :cond_1
     invoke-direct {p0, p1, p2, p3}, Lcom/commsource/studio/component/ConfirmCancelComponent;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
@@ -148,7 +141,6 @@
 
     const/4 p2, 0x0
 
-    .line 7
     :cond_0
     invoke-direct {p0, p1, p2}, Lcom/commsource/studio/component/ConfirmCancelComponent;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
@@ -162,7 +154,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/studio/component/ConfirmCancelComponent;->d:Lcom/commsource/studio/component/ConfirmCancelComponent$a;
 
     if-nez p0, :cond_0
@@ -184,7 +175,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/studio/component/ConfirmCancelComponent;->f:Lcom/commsource/beautyplus/f0/w1;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -199,7 +189,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/commsource/studio/component/ConfirmCancelComponent;->k(Lcom/commsource/studio/sub/SubModuleEnum;)Z
 
     move-result p0
@@ -216,7 +205,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/component/ConfirmCancelComponent;->d:Lcom/commsource/studio/component/ConfirmCancelComponent$a;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -231,7 +219,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Landroid/widget/FrameLayout;->getContext()Landroid/content/Context;
 
     move-result-object v1
@@ -240,14 +227,12 @@
 
     check-cast v1, Landroid/app/Activity;
 
-    .line 2
     new-instance v2, Landroid/content/Intent;
 
     const-class v3, Lcom/commsource/beautymain/activity/BeautyHelpActivity;
 
     invoke-direct {v2, v1, v3}, Landroid/content/Intent;-><init>(Landroid/content/Context;Ljava/lang/Class;)V
 
-    .line 3
     iget-object v3, p0, Lcom/commsource/studio/component/ConfirmCancelComponent;->d:Lcom/commsource/studio/component/ConfirmCancelComponent$a;
 
     if-nez v3, :cond_0
@@ -275,22 +260,18 @@
 
     invoke-virtual {v2, v4, v3}, Landroid/content/Intent;->putExtra(Ljava/lang/String;I)Landroid/content/Intent;
 
-    .line 4
     invoke-virtual {v1, v2}, Landroid/app/Activity;->startActivity(Landroid/content/Intent;)V
 
     const/high16 v2, 0x10a0000
 
     const/4 v3, 0x0
 
-    .line 5
     invoke-virtual {v1, v2, v3}, Landroid/app/Activity;->overridePendingTransition(II)V
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 7
     :cond_1
     new-instance v1, Lcotlin/TypeCastException;
 
@@ -310,7 +291,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/studio/sub/SubModuleEnum;->DeFocus:Lcom/commsource/studio/sub/SubModuleEnum;
 
     if-eq p1, v1, :cond_1
@@ -347,7 +327,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/commsource/widget/dialog/s0/a0$a;
 
     invoke-direct {v1}, Lcom/commsource/widget/dialog/s0/a0$a;-><init>()V
@@ -358,7 +337,6 @@
 
     sget v4, Lcom/res/provider/ResSTRING;->ajust_the_effect_area:I
 
-    .line 2
     invoke-static {v4}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
 
     move-result-object v4
@@ -385,7 +363,6 @@
 
     sget v3, Lcom/res/provider/ResDRAWABLE;->edit_softfocus_icon_guide_red:I
 
-    .line 3
     invoke-static {v3}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v3
@@ -404,20 +381,16 @@
 
     move-result-object v1
 
-    .line 4
     invoke-virtual {v1, v6}, Lcom/commsource/widget/dialog/s0/a0$a;->p(Z)Lcom/commsource/widget/dialog/s0/a0$a;
 
     move-result-object v1
 
-    .line 5
     invoke-virtual {v1}, Lcom/commsource/widget/dialog/s0/a0$a;->c()Lcom/commsource/widget/dialog/s0/a0;
 
     move-result-object v1
 
-    .line 6
     invoke-virtual {v1}, Lf/d/a;->F()V
 
-    .line 7
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
     move-result-object v1
@@ -426,7 +399,6 @@
 
     invoke-static {v1, v2, v5}, Lf/d/i/h;->r1(Landroid/content/Context;Ljava/lang/String;Z)V
 
-    .line 8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -443,7 +415,6 @@
 
     goto :goto_0
 
-    .line 1
     :cond_0
     sget-object v1, Lcom/commsource/studio/component/b;->a:[I
 
@@ -535,7 +506,6 @@
     :goto_0
     const/4 p1, -0x1
 
-    .line 2
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -645,7 +615,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     iget-object p1, p0, Lcom/commsource/studio/component/ConfirmCancelComponent;->f:Lcom/commsource/beautyplus/f0/w1;
 
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/w1;->a:Lcom/commsource/widget/IconFrontView;
@@ -658,7 +627,6 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     iget-object p1, p0, Lcom/commsource/studio/component/ConfirmCancelComponent;->f:Lcom/commsource/beautyplus/f0/w1;
 
@@ -670,7 +638,6 @@
 
     invoke-virtual {p1, v1}, Landroid/widget/TextView;->setAlpha(F)V
 
-    .line 3
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -684,7 +651,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/component/ConfirmCancelComponent;->d:Lcom/commsource/studio/component/ConfirmCancelComponent$a;
 
     if-nez v1, :cond_0
@@ -704,21 +670,17 @@
 
     check-cast v1, Lcom/commsource/studio/sub/SubModuleEnum;
 
-    .line 2
     sget-object v2, Lcom/commsource/studio/sub/SubModuleEnum;->DeFocus:Lcom/commsource/studio/sub/SubModuleEnum;
 
     if-ne v1, v2, :cond_1
 
-    .line 3
     invoke-direct {p0}, Lcom/commsource/studio/component/ConfirmCancelComponent;->l()V
 
     goto :goto_0
 
-    .line 4
     :cond_1
     invoke-direct {p0}, Lcom/commsource/studio/component/ConfirmCancelComponent;->j()V
 
-    .line 5
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -748,7 +710,6 @@
 
     invoke-static {p2, p1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     const-class p1, Lcom/commsource/studio/component/ConfirmCancelComponent$a;
 
     invoke-virtual {p0, p1}, Lcom/commsource/studio/component/ComponentView;->e(Ljava/lang/Class;)Landroidx/lifecycle/AndroidViewModel;
@@ -757,7 +718,6 @@
 
     check-cast p1, Lcom/commsource/studio/component/ConfirmCancelComponent$a;
 
-    .line 2
     invoke-virtual {p1}, Lcom/commsource/studio/component/ConfirmCancelComponent$a;->A()Landroidx/lifecycle/MutableLiveData;
 
     move-result-object v1
@@ -768,10 +728,8 @@
 
     invoke-virtual {v1, p2, v2}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 3
     iput-object p1, p0, Lcom/commsource/studio/component/ConfirmCancelComponent;->d:Lcom/commsource/studio/component/ConfirmCancelComponent$a;
 
-    .line 4
     const-class p1, Lcom/commsource/studio/component/AutoManualComponent$b;
 
     invoke-virtual {p0, p1}, Lcom/commsource/studio/component/ComponentView;->e(Ljava/lang/Class;)Landroidx/lifecycle/AndroidViewModel;
@@ -790,7 +748,6 @@
 
     invoke-virtual {p1, p2, v1}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 5
     iget-object p1, p0, Lcom/commsource/studio/component/ConfirmCancelComponent;->f:Lcom/commsource/beautyplus/f0/w1;
 
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/w1;->b:Lcom/commsource/widget/PressImageView;
@@ -801,7 +758,6 @@
 
     invoke-virtual {p1, p2}, Landroid/widget/ImageView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 6
     iget-object p1, p0, Lcom/commsource/studio/component/ConfirmCancelComponent;->f:Lcom/commsource/beautyplus/f0/w1;
 
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/w1;->c:Lcom/commsource/widget/PressImageView;
@@ -812,7 +768,6 @@
 
     invoke-virtual {p1, p2}, Landroid/widget/ImageView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 7
     iget-object p1, p0, Lcom/commsource/studio/component/ConfirmCancelComponent;->f:Lcom/commsource/beautyplus/f0/w1;
 
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/w1;->a:Lcom/commsource/widget/IconFrontView;
@@ -823,7 +778,6 @@
 
     invoke-virtual {p1, p2}, Landroid/widget/TextView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -844,7 +798,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/component/ConfirmCancelComponent;->f:Lcom/commsource/beautyplus/f0/w1;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/w1;->d:Lcom/commsource/widget/BoldTextView;
@@ -855,7 +808,6 @@
 
     invoke-virtual {v1, p1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

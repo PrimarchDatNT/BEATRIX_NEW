@@ -33,41 +33,34 @@
 .method public constructor <init>(Landroid/content/Context;Lf/k/g0/b;JJ)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     invoke-virtual {p1}, Landroid/content/Context;->getApplicationContext()Landroid/content/Context;
 
     move-result-object p1
 
     iput-object p1, p0, Lf/k/g0/h/e;->a:Landroid/content/Context;
 
-    .line 3
     invoke-virtual {p2}, Lf/k/g0/b;->i()Ljava/lang/String;
 
     move-result-object p1
 
     iput-object p1, p0, Lf/k/g0/h/e;->b:Ljava/lang/String;
 
-    .line 4
     invoke-virtual {p2}, Lf/k/g0/b;->j()Ljava/lang/String;
 
     move-result-object p1
 
     iput-object p1, p0, Lf/k/g0/h/e;->d:Ljava/lang/String;
 
-    .line 5
     invoke-virtual {p2}, Lf/k/g0/b;->h()Ljava/lang/String;
 
     move-result-object p1
 
     iput-object p1, p0, Lf/k/g0/h/e;->c:Ljava/lang/String;
 
-    .line 6
     iput-wide p3, p0, Lf/k/g0/h/e;->e:J
 
-    .line 7
     iput-wide p5, p0, Lf/k/g0/h/e;->f:J
 
     return-void
@@ -97,7 +90,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/util/HashMap;
 
     invoke-direct {v1}, Ljava/util/HashMap;-><init>()V
@@ -106,22 +98,18 @@
 
     const-string v2, "appInstanceId"
 
-    .line 2
     invoke-interface {v1, v2, p1}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 3
     iget-object p1, p0, Lf/k/g0/h/e;->c:Ljava/lang/String;
 
     const-string v2, "appId"
 
     invoke-interface {v1, v2, p1}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 4
     invoke-interface {p2}, Ljava/util/Map;->entrySet()Ljava/util/Set;
 
     move-result-object p1
 
-    .line 5
     invoke-interface {p1}, Ljava/util/Set;->iterator()Ljava/util/Iterator;
 
     move-result-object p1
@@ -140,21 +128,18 @@
 
     check-cast p2, Ljava/util/Map$Entry;
 
-    .line 6
     invoke-interface {p2}, Ljava/util/Map$Entry;->getKey()Ljava/lang/Object;
 
     move-result-object v2
 
     check-cast v2, Ljava/lang/String;
 
-    .line 7
     invoke-interface {p2}, Ljava/util/Map$Entry;->getValue()Ljava/lang/Object;
 
     move-result-object p2
 
     check-cast p2, Ljava/lang/String;
 
-    .line 8
     invoke-static {v2}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v3
@@ -167,12 +152,10 @@
 
     if-nez v3, :cond_0
 
-    .line 9
     invoke-interface {v1, v2, p2}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     goto :goto_0
 
-    .line 10
     :cond_1
     iget-object p1, p0, Lf/k/g0/h/e;->a:Landroid/content/Context;
 
@@ -184,7 +167,6 @@
 
     invoke-interface {v1, p2, p1}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 11
     new-instance p1, Lorg/json/JSONObject;
 
     invoke-direct {p1, v1}, Lorg/json/JSONObject;-><init>(Ljava/util/Map;)V
@@ -193,7 +175,6 @@
 
     return-object p1
 
-    .line 12
     :cond_2
     new-instance p1, Lcom/meitu/remote/config/RemoteConfigClientException;
 
@@ -213,7 +194,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lf/k/g0/h/e;->a:Landroid/content/Context;
 
     invoke-static {v1}, Lf/k/g0/e/e/a;->d(Landroid/content/Context;)Ljava/lang/String;
@@ -224,7 +204,6 @@
 
     invoke-virtual {p1, v2, v1}, Ljava/net/HttpURLConnection;->setRequestProperty(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 2
     iget-object v1, p0, Lf/k/g0/h/e;->a:Landroid/content/Context;
 
     invoke-static {v1}, Lf/k/g0/e/e/a;->c(Landroid/content/Context;)Ljava/lang/String;
@@ -239,15 +218,12 @@
 
     const-string v2, "application/json"
 
-    .line 3
     invoke-virtual {p1, v1, v2}, Ljava/net/HttpURLConnection;->setRequestProperty(Ljava/lang/String;Ljava/lang/String;)V
 
     const-string v1, "Accept"
 
-    .line 4
     invoke-virtual {p1, v1, v2}, Ljava/net/HttpURLConnection;->setRequestProperty(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -270,7 +246,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-interface {p2}, Ljava/util/Map;->entrySet()Ljava/util/Set;
 
     move-result-object p2
@@ -292,7 +267,6 @@
 
     check-cast v1, Ljava/util/Map$Entry;
 
-    .line 2
     invoke-interface {v1}, Ljava/util/Map$Entry;->getKey()Ljava/lang/Object;
 
     move-result-object v2
@@ -309,7 +283,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -328,12 +301,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     array-length v1, p2
 
     invoke-virtual {p1, v1}, Ljava/net/HttpURLConnection;->setFixedLengthStreamingMode(I)V
 
-    .line 2
     new-instance v1, Ljava/io/BufferedOutputStream;
 
     invoke-virtual {p1}, Ljava/net/HttpURLConnection;->getOutputStream()Ljava/io/OutputStream;
@@ -342,16 +313,12 @@
 
     invoke-direct {v1, p1}, Ljava/io/BufferedOutputStream;-><init>(Ljava/io/OutputStream;)V
 
-    .line 3
     invoke-virtual {v1, p2}, Ljava/io/OutputStream;->write([B)V
 
-    .line 4
     invoke-virtual {v1}, Ljava/io/OutputStream;->flush()V
 
-    .line 5
     invoke-virtual {v1}, Ljava/io/OutputStream;->close()V
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -376,24 +343,18 @@
 
     const/4 v1, 0x0
 
-    .line 1
     invoke-virtual {p1, v1}, Ljava/net/HttpURLConnection;->setDoOutput(Z)V
 
     const v1, 0xea60
 
-    .line 2
     invoke-virtual {p1, v1}, Ljava/net/HttpURLConnection;->setConnectTimeout(I)V
 
-    .line 3
     invoke-virtual {p1, v1}, Ljava/net/HttpURLConnection;->setReadTimeout(I)V
 
-    .line 4
     invoke-direct {p0, p1}, Lf/k/g0/h/e;->e(Ljava/net/HttpURLConnection;)V
 
-    .line 5
     invoke-direct {p0, p1, p2}, Lf/k/g0/h/e;->f(Ljava/net/HttpURLConnection;Ljava/util/Map;)V
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -413,7 +374,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     :try_start_0
     new-instance v1, Ljava/net/URL;
 
@@ -441,7 +401,6 @@
 
     invoke-direct {v1, v2}, Ljava/net/URL;-><init>(Ljava/lang/String;)V
 
-    .line 2
     invoke-virtual {v1}, Ljava/net/URL;->openConnection()Ljava/net/URLConnection;
 
     move-result-object v1
@@ -457,7 +416,6 @@
     :catch_0
     move-exception v1
 
-    .line 3
     new-instance v2, Lcom/meitu/remote/config/RemoteConfigException;
 
     invoke-virtual {v1}, Ljava/io/IOException;->getMessage()Ljava/lang/String;
@@ -480,7 +438,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lf/k/g0/h/e;->e:J
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -497,7 +454,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lf/k/g0/h/e;->f:J
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -533,34 +489,27 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0, p1, p4}, Lf/k/g0/h/e;->h(Ljava/net/HttpURLConnection;Ljava/util/Map;)V
 
-    .line 2
     :try_start_0
     invoke-direct {p0, p2, p3}, Lf/k/g0/h/e;->b(Ljava/lang/String;Ljava/util/Map;)Lorg/json/JSONObject;
 
     move-result-object p2
 
-    .line 3
     invoke-virtual {p2}, Lorg/json/JSONObject;->toString()Ljava/lang/String;
 
     move-result-object p2
 
     const-string p3, "utf-8"
 
-    .line 4
     invoke-virtual {p2, p3}, Ljava/lang/String;->getBytes(Ljava/lang/String;)[B
 
     move-result-object p2
 
-    .line 5
     invoke-direct {p0, p1, p2}, Lf/k/g0/h/e;->g(Ljava/net/HttpURLConnection;[B)V
 
-    .line 6
     invoke-virtual {p1}, Ljava/net/HttpURLConnection;->connect()V
 
-    .line 7
     invoke-virtual {p1}, Ljava/net/HttpURLConnection;->getResponseCode()I
 
     move-result p2
@@ -574,10 +523,8 @@
 
     if-ne p2, p3, :cond_0
 
-    .line 8
     invoke-virtual {p1}, Ljava/net/HttpURLConnection;->disconnect()V
 
-    .line 9
     :goto_0
     :try_start_1
     invoke-virtual {p1}, Ljava/net/HttpURLConnection;->getInputStream()Ljava/io/InputStream;
@@ -590,12 +537,10 @@
 
     goto :goto_1
 
-    .line 10
     :cond_0
     :try_start_2
     new-instance p3, Lcom/meitu/remote/config/RemoteConfigServerException;
 
-    .line 11
     invoke-virtual {p1}, Ljava/net/HttpURLConnection;->getResponseMessage()Ljava/lang/String;
 
     move-result-object p4
@@ -619,13 +564,11 @@
     :catch_0
     move-exception p2
 
-    .line 12
     :try_start_3
     invoke-virtual {p2}, Ljava/lang/Exception;->printStackTrace()V
     :try_end_3
     .catchall {:try_start_3 .. :try_end_3} :catchall_0
 
-    .line 13
     invoke-virtual {p1}, Ljava/net/HttpURLConnection;->disconnect()V
 
     goto :goto_0
@@ -633,18 +576,15 @@
     :catch_1
     move-exception p2
 
-    .line 14
     :try_start_4
     invoke-virtual {p2}, Ljava/lang/Exception;->printStackTrace()V
     :try_end_4
     .catchall {:try_start_4 .. :try_end_4} :catchall_0
 
-    .line 15
     invoke-virtual {p1}, Ljava/net/HttpURLConnection;->disconnect()V
 
     goto :goto_0
 
-    .line 16
     :catch_2
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -654,7 +594,6 @@
     :catch_3
     move-exception p2
 
-    .line 17
     :try_start_5
     new-instance p3, Lcom/meitu/remote/config/RemoteConfigClientException;
 
@@ -668,11 +607,9 @@
     :try_end_5
     .catchall {:try_start_5 .. :try_end_5} :catchall_0
 
-    .line 18
     :goto_2
     invoke-virtual {p1}, Ljava/net/HttpURLConnection;->disconnect()V
 
-    .line 19
     :try_start_6
     invoke-virtual {p1}, Ljava/net/HttpURLConnection;->getInputStream()Ljava/io/InputStream;
 
@@ -682,7 +619,6 @@
     :try_end_6
     .catch Ljava/io/IOException; {:try_start_6 .. :try_end_6} :catch_4
 
-    .line 20
     :catch_4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

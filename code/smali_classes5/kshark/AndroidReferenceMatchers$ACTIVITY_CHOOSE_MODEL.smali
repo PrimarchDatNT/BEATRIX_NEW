@@ -27,7 +27,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-direct {p0, p1, p2, v0}, Lkshark/AndroidReferenceMatchers;-><init>(Ljava/lang/String;ILcotlin/jvm/internal/u;)V
 
     return-void
@@ -54,10 +53,8 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     sget-object v1, Lkshark/AndroidReferenceMatchers;->Companion:Lkshark/AndroidReferenceMatchers$Companion;
 
-    .line 2
     sget-object v0, Lkshark/AndroidReferenceMatchers$ACTIVITY_CHOOSE_MODEL$add$1;->INSTANCE:Lkshark/AndroidReferenceMatchers$ACTIVITY_CHOOSE_MODEL$add$1;
 
     const-string v2, "androidx.appcompat.internal.widget.ActivityChooserModel"
@@ -66,7 +63,6 @@
 
     const-string v4, "ActivityChooserModel holds a static reference to the last set ActivityChooserModelPolicy which can be an activity context. Tracked here: https://code.google.com/p/android/issues/detail?id=172659 Hack: https://gist.github.com/andaag/b05ab66ed0f06167d6e0"
 
-    .line 3
     invoke-virtual {v1, v2, v3, v4, v0}, Lkshark/AndroidReferenceMatchers$Companion;->f(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lcotlin/jvm/u/l;)Lkshark/LibraryLeakReferenceMatcher;
 
     move-result-object v0
@@ -83,7 +79,6 @@
 
     const/4 v7, 0x0
 
-    .line 4
     invoke-static/range {v1 .. v7}, Lkshark/AndroidReferenceMatchers$Companion;->g(Lkshark/AndroidReferenceMatchers$Companion;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lcotlin/jvm/u/l;ILjava/lang/Object;)Lkshark/LibraryLeakReferenceMatcher;
 
     move-result-object v0

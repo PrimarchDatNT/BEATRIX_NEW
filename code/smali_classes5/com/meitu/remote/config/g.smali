@@ -23,24 +23,20 @@
 .method private constructor <init>(Lcom/meitu/remote/config/g$b;)V
     .locals 2
 
-    .line 2
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 3
     invoke-static {p1}, Lcom/meitu/remote/config/g$b;->a(Lcom/meitu/remote/config/g$b;)J
 
     move-result-wide v0
 
     iput-wide v0, p0, Lcom/meitu/remote/config/g;->a:J
 
-    .line 4
     invoke-static {p1}, Lcom/meitu/remote/config/g$b;->b(Lcom/meitu/remote/config/g$b;)J
 
     move-result-wide v0
 
     iput-wide v0, p0, Lcom/meitu/remote/config/g;->b:J
 
-    .line 5
     invoke-static {p1}, Lcom/meitu/remote/config/g$b;->c(Lcom/meitu/remote/config/g$b;)Z
 
     move-result p1
@@ -53,7 +49,6 @@
 .method synthetic constructor <init>(Lcom/meitu/remote/config/g$b;Lcom/meitu/remote/config/g$a;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/meitu/remote/config/g;-><init>(Lcom/meitu/remote/config/g$b;)V
 
     return-void
@@ -77,33 +72,28 @@
 
     const-string v1, "meitu_remote_config_auto_fetch_enabled"
 
-    .line 1
     invoke-static {p0, v1}, Lf/k/g0/e/e/f;->a(Landroid/content/Context;Ljava/lang/String;)Ljava/lang/Boolean;
 
     move-result-object v1
 
     const-string v2, "meitu_remote_config_fetch_timeout_in_seconds"
 
-    .line 2
     invoke-static {p0, v2}, Lf/k/g0/e/e/f;->b(Landroid/content/Context;Ljava/lang/String;)Ljava/lang/Integer;
 
     move-result-object v2
 
     const-string v3, "meitu_remote_config_minimum_fetch_interval"
 
-    .line 3
     invoke-static {p0, v3}, Lf/k/g0/e/e/f;->b(Landroid/content/Context;Ljava/lang/String;)Ljava/lang/Integer;
 
     move-result-object p0
 
-    .line 4
     new-instance v3, Lcom/meitu/remote/config/g$b;
 
     invoke-direct {v3}, Lcom/meitu/remote/config/g$b;-><init>()V
 
     if-eqz v1, :cond_0
 
-    .line 5
     invoke-virtual {v1}, Ljava/lang/Boolean;->booleanValue()Z
 
     move-result v1
@@ -113,7 +103,6 @@
     :cond_0
     if-eqz v2, :cond_1
 
-    .line 6
     invoke-virtual {v2}, Ljava/lang/Integer;->intValue()I
 
     move-result v1
@@ -125,7 +114,6 @@
     :cond_1
     if-eqz p0, :cond_2
 
-    .line 7
     invoke-virtual {p0}, Ljava/lang/Integer;->intValue()I
 
     move-result p0
@@ -134,7 +122,6 @@
 
     invoke-virtual {v3, v1, v2}, Lcom/meitu/remote/config/g$b;->j(J)Lcom/meitu/remote/config/g$b;
 
-    .line 8
     :cond_2
     invoke-virtual {v3}, Lcom/meitu/remote/config/g$b;->d()Lcom/meitu/remote/config/g;
 
@@ -154,7 +141,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/meitu/remote/config/g;->c:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -169,7 +155,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/remote/config/g;->a:J
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -184,7 +169,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/remote/config/g;->b:J
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -201,26 +185,22 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/meitu/remote/config/g$b;
 
     invoke-direct {v1}, Lcom/meitu/remote/config/g$b;-><init>()V
 
-    .line 2
     invoke-virtual {p0}, Lcom/meitu/remote/config/g;->c()J
 
     move-result-wide v2
 
     invoke-virtual {v1, v2, v3}, Lcom/meitu/remote/config/g$b;->i(J)Lcom/meitu/remote/config/g$b;
 
-    .line 3
     invoke-virtual {p0}, Lcom/meitu/remote/config/g;->d()J
 
     move-result-wide v2
 
     invoke-virtual {v1, v2, v3}, Lcom/meitu/remote/config/g$b;->j(J)Lcom/meitu/remote/config/g$b;
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1

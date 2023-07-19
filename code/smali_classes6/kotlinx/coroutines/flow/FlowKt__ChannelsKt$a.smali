@@ -37,7 +37,6 @@
 
     iput-object p1, p0, Lcotlinx/coroutines/flow/FlowKt__ChannelsKt$a;->a:Lcotlinx/coroutines/channels/i;
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -58,7 +57,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcotlinx/coroutines/flow/FlowKt__ChannelsKt$a;->a:Lcotlinx/coroutines/channels/i;
 
     invoke-interface {v0}, Lcotlinx/coroutines/channels/i;->A()Lcotlinx/coroutines/channels/y;
@@ -77,7 +75,6 @@
 
     return-object p1
 
-    .line 2
     :cond_0
     sget-object p1, Lcotlin/t1;->a:Lcotlin/t1;
 

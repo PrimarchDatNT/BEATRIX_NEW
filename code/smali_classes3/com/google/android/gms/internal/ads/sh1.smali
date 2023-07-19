@@ -7,7 +7,6 @@
 .method public static a(ILjava/lang/Throwable;Ljava/lang/String;)V
     .locals 2
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     const/16 v1, 0x1f
@@ -26,7 +25,6 @@
 
     invoke-static {v0}, Lcom/google/android/gms/internal/ads/aq;->h(Ljava/lang/String;)V
 
-    .line 2
     invoke-static {p2, p1}, Lcom/google/android/gms/internal/ads/sm;->l(Ljava/lang/String;Ljava/lang/Throwable;)V
 
     const/4 v0, 0x3
@@ -35,7 +33,6 @@
 
     return-void
 
-    .line 3
     :cond_0
     invoke-static {}, Lcom/google/android/gms/ads/internal/p;->g()Lcom/google/android/gms/internal/ads/em;
 
@@ -53,12 +50,10 @@
 
     const-string p0, "This request is sent from a test device."
 
-    .line 1
     invoke-static {p0}, Lcom/google/android/gms/internal/ads/aq;->h(Ljava/lang/String;)V
 
     return-void
 
-    .line 2
     :cond_0
     invoke-static {}, Lcom/google/android/gms/internal/ads/zm2;->a()Lcom/google/android/gms/internal/ads/pp;
 
@@ -94,7 +89,6 @@
 
     move-result-object p0
 
-    .line 3
     invoke-static {p0}, Lcom/google/android/gms/internal/ads/aq;->h(Ljava/lang/String;)V
 
     return-void

@@ -14,7 +14,6 @@
 
     add-int v0, p1, p2
 
-    .line 1
     div-int/lit8 v0, v0, 0x2
 
     invoke-static {p0, v0}, Lcotlin/k1;->q([JI)J
@@ -25,7 +24,6 @@
     :goto_0
     if-gt p1, p2, :cond_3
 
-    .line 2
     :goto_1
     invoke-static {p0, p1}, Lcotlin/k1;->q([JI)J
 
@@ -41,7 +39,6 @@
 
     goto :goto_1
 
-    .line 3
     :cond_1
     :goto_2
     invoke-static {p0, p2}, Lcotlin/k1;->q([JI)J
@@ -61,19 +58,16 @@
     :cond_2
     if-gt p1, p2, :cond_0
 
-    .line 4
     invoke-static {p0, p1}, Lcotlin/k1;->q([JI)J
 
     move-result-wide v2
 
-    .line 5
     invoke-static {p0, p2}, Lcotlin/k1;->q([JI)J
 
     move-result-wide v4
 
     invoke-static {p0, p1, v4, v5}, Lcotlin/k1;->C([JIJ)V
 
-    .line 6
     invoke-static {p0, p2, v2, v3}, Lcotlin/k1;->C([JIJ)V
 
     add-int/lit8 p1, p1, 0x1
@@ -93,7 +87,6 @@
 
     add-int v0, p1, p2
 
-    .line 1
     div-int/lit8 v0, v0, 0x2
 
     invoke-static {p0, v0}, Lcotlin/c1;->q([BI)B
@@ -104,7 +97,6 @@
     :goto_0
     if-gt p1, p2, :cond_3
 
-    .line 2
     :goto_1
     invoke-static {p0, p1}, Lcotlin/c1;->q([BI)B
 
@@ -124,7 +116,6 @@
 
     goto :goto_1
 
-    .line 3
     :cond_1
     :goto_2
     invoke-static {p0, p2}, Lcotlin/c1;->q([BI)B
@@ -146,19 +137,16 @@
     :cond_2
     if-gt p1, p2, :cond_0
 
-    .line 4
     invoke-static {p0, p1}, Lcotlin/c1;->q([BI)B
 
     move-result v1
 
-    .line 5
     invoke-static {p0, p2}, Lcotlin/c1;->q([BI)B
 
     move-result v2
 
     invoke-static {p0, p1, v2}, Lcotlin/c1;->C([BIB)V
 
-    .line 6
     invoke-static {p0, p2, v1}, Lcotlin/c1;->C([BIB)V
 
     add-int/lit8 p1, p1, 0x1
@@ -178,7 +166,6 @@
 
     add-int v0, p1, p2
 
-    .line 1
     div-int/lit8 v0, v0, 0x2
 
     invoke-static {p0, v0}, Lcotlin/q1;->q([SI)S
@@ -189,7 +176,6 @@
     :goto_0
     if-gt p1, p2, :cond_3
 
-    .line 2
     :goto_1
     invoke-static {p0, p1}, Lcotlin/q1;->q([SI)S
 
@@ -211,7 +197,6 @@
 
     goto :goto_1
 
-    .line 3
     :cond_1
     :goto_2
     invoke-static {p0, p2}, Lcotlin/q1;->q([SI)S
@@ -233,19 +218,16 @@
     :cond_2
     if-gt p1, p2, :cond_0
 
-    .line 4
     invoke-static {p0, p1}, Lcotlin/q1;->q([SI)S
 
     move-result v1
 
-    .line 5
     invoke-static {p0, p2}, Lcotlin/q1;->q([SI)S
 
     move-result v2
 
     invoke-static {p0, p1, v2}, Lcotlin/q1;->C([SIS)V
 
-    .line 6
     invoke-static {p0, p2, v1}, Lcotlin/q1;->C([SIS)V
 
     add-int/lit8 p1, p1, 0x1
@@ -265,7 +247,6 @@
 
     add-int v0, p1, p2
 
-    .line 1
     div-int/lit8 v0, v0, 0x2
 
     invoke-static {p0, v0}, Lcotlin/g1;->q([II)I
@@ -276,7 +257,6 @@
     :goto_0
     if-gt p1, p2, :cond_3
 
-    .line 2
     :goto_1
     invoke-static {p0, p1}, Lcotlin/g1;->q([II)I
 
@@ -292,7 +272,6 @@
 
     goto :goto_1
 
-    .line 3
     :cond_1
     :goto_2
     invoke-static {p0, p2}, Lcotlin/g1;->q([II)I
@@ -312,19 +291,16 @@
     :cond_2
     if-gt p1, p2, :cond_0
 
-    .line 4
     invoke-static {p0, p1}, Lcotlin/g1;->q([II)I
 
     move-result v1
 
-    .line 5
     invoke-static {p0, p2}, Lcotlin/g1;->q([II)I
 
     move-result v2
 
     invoke-static {p0, p1, v2}, Lcotlin/g1;->C([III)V
 
-    .line 6
     invoke-static {p0, p2, v1}, Lcotlin/g1;->C([III)V
 
     add-int/lit8 p1, p1, 0x1
@@ -342,7 +318,6 @@
     .annotation build Lcotlin/p;
     .end annotation
 
-    .line 1
     invoke-static {p0, p1, p2}, Lcotlin/collections/h1;->a([JII)I
 
     move-result v0
@@ -351,13 +326,11 @@
 
     if-ge p1, v1, :cond_0
 
-    .line 2
     invoke-static {p0, p1, v1}, Lcotlin/collections/h1;->e([JII)V
 
     :cond_0
     if-ge v0, p2, :cond_1
 
-    .line 3
     invoke-static {p0, v0, p2}, Lcotlin/collections/h1;->e([JII)V
 
     :cond_1
@@ -369,7 +342,6 @@
     .annotation build Lcotlin/p;
     .end annotation
 
-    .line 1
     invoke-static {p0, p1, p2}, Lcotlin/collections/h1;->b([BII)I
 
     move-result v0
@@ -378,13 +350,11 @@
 
     if-ge p1, v1, :cond_0
 
-    .line 2
     invoke-static {p0, p1, v1}, Lcotlin/collections/h1;->f([BII)V
 
     :cond_0
     if-ge v0, p2, :cond_1
 
-    .line 3
     invoke-static {p0, v0, p2}, Lcotlin/collections/h1;->f([BII)V
 
     :cond_1
@@ -396,7 +366,6 @@
     .annotation build Lcotlin/p;
     .end annotation
 
-    .line 1
     invoke-static {p0, p1, p2}, Lcotlin/collections/h1;->c([SII)I
 
     move-result v0
@@ -405,13 +374,11 @@
 
     if-ge p1, v1, :cond_0
 
-    .line 2
     invoke-static {p0, p1, v1}, Lcotlin/collections/h1;->g([SII)V
 
     :cond_0
     if-ge v0, p2, :cond_1
 
-    .line 3
     invoke-static {p0, v0, p2}, Lcotlin/collections/h1;->g([SII)V
 
     :cond_1
@@ -423,7 +390,6 @@
     .annotation build Lcotlin/p;
     .end annotation
 
-    .line 1
     invoke-static {p0, p1, p2}, Lcotlin/collections/h1;->d([III)I
 
     move-result v0
@@ -432,13 +398,11 @@
 
     if-ge p1, v1, :cond_0
 
-    .line 2
     invoke-static {p0, p1, v1}, Lcotlin/collections/h1;->h([III)V
 
     :cond_0
     if-ge v0, p2, :cond_1
 
-    .line 3
     invoke-static {p0, v0, p2}, Lcotlin/collections/h1;->h([III)V
 
     :cond_1
@@ -460,7 +424,6 @@
 
     add-int/lit8 p2, p2, -0x1
 
-    .line 1
     invoke-static {p0, p1, p2}, Lcotlin/collections/h1;->e([JII)V
 
     return-void
@@ -481,7 +444,6 @@
 
     add-int/lit8 p2, p2, -0x1
 
-    .line 1
     invoke-static {p0, p1, p2}, Lcotlin/collections/h1;->f([BII)V
 
     return-void
@@ -502,7 +464,6 @@
 
     add-int/lit8 p2, p2, -0x1
 
-    .line 1
     invoke-static {p0, p1, p2}, Lcotlin/collections/h1;->g([SII)V
 
     return-void
@@ -523,7 +484,6 @@
 
     add-int/lit8 p2, p2, -0x1
 
-    .line 1
     invoke-static {p0, p1, p2}, Lcotlin/collections/h1;->h([III)V
 
     return-void

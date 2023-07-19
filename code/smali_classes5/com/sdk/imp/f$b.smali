@@ -25,7 +25,6 @@
 .method private constructor <init>(Lcom/sdk/imp/f;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/sdk/imp/f$b;->a:Lcom/sdk/imp/f;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -36,7 +35,6 @@
 .method synthetic constructor <init>(Lcom/sdk/imp/f;Lcom/sdk/imp/f$a;)V
     .locals 0
 
-    .line 2
     invoke-direct {p0, p1}, Lcom/sdk/imp/f$b;-><init>(Lcom/sdk/imp/f;)V
 
     return-void
@@ -51,17 +49,14 @@
 
     const-string v0, "CommonBannerAdController onBannerClicked"
 
-    .line 1
     invoke-static {p1, v0}, Lf/q/b/g;->b(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 2
     iget-object p1, p0, Lcom/sdk/imp/f$b;->a:Lcom/sdk/imp/f;
 
     iget-object p1, p1, Lcom/sdk/imp/a;->c:Lcom/sdk/imp/a$a;
 
     if-eqz p1, :cond_0
 
-    .line 3
     invoke-interface {p1}, Lcom/sdk/imp/a$a;->onAdClick()V
 
     :cond_0
@@ -75,17 +70,14 @@
 
     const-string v0, "CommonBannerAdController onBannerFailed"
 
-    .line 1
     invoke-static {p1, v0}, Lf/q/b/g;->b(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 2
     iget-object p1, p0, Lcom/sdk/imp/f$b;->a:Lcom/sdk/imp/f;
 
     iget-object p1, p1, Lcom/sdk/imp/a;->c:Lcom/sdk/imp/a$a;
 
     if-eqz p1, :cond_0
 
-    .line 3
     invoke-interface {p1, p2}, Lcom/sdk/imp/a$a;->b(I)V
 
     :cond_0
@@ -95,7 +87,6 @@
 .method public onBannerLoaded(Lcom/sdk/api/BannerView;I)V
     .locals 2
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -114,7 +105,6 @@
 
     invoke-static {v0, p2}, Lf/q/b/g;->b(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 2
     iget-object p2, p0, Lcom/sdk/imp/f$b;->a:Lcom/sdk/imp/f;
 
     invoke-static {p2}, Lcom/sdk/imp/f;->g(Lcom/sdk/imp/f;)Landroid/view/View;
@@ -123,7 +113,6 @@
 
     if-eqz p2, :cond_0
 
-    .line 3
     iget-object p2, p0, Lcom/sdk/imp/f$b;->a:Lcom/sdk/imp/f;
 
     invoke-static {p2}, Lcom/sdk/imp/f;->g(Lcom/sdk/imp/f;)Landroid/view/View;
@@ -134,7 +123,6 @@
 
     invoke-virtual {p2, v0}, Landroid/view/View;->setVisibility(I)V
 
-    .line 4
     :cond_0
     iget-object p2, p0, Lcom/sdk/imp/f$b;->a:Lcom/sdk/imp/f;
 
@@ -142,7 +130,6 @@
 
     if-eqz p2, :cond_1
 
-    .line 5
     invoke-interface {p2, p1}, Lcom/sdk/imp/a$a;->c(Landroid/view/View;)V
 
     :cond_1
@@ -156,17 +143,14 @@
 
     const-string v1, "CommonBannerAdController onBannerPrepared"
 
-    .line 1
     invoke-static {v0, v1}, Lf/q/b/g;->b(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 2
     iget-object v0, p0, Lcom/sdk/imp/f$b;->a:Lcom/sdk/imp/f;
 
     iget-object v0, v0, Lcom/sdk/imp/a;->c:Lcom/sdk/imp/a$a;
 
     if-eqz v0, :cond_0
 
-    .line 3
     invoke-interface {v0, p1}, Lcom/sdk/imp/a$a;->c(Landroid/view/View;)V
 
     :cond_0
@@ -178,7 +162,6 @@
 
     const-string v0, "CommonAdView"
 
-    .line 1
     invoke-static {v0, p1}, Lf/q/b/g;->b(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void

@@ -29,7 +29,6 @@
 
     iput-object p3, p0, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmTransaction$a$a;->f:Ljava/lang/String;
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/commsource/util/delegate/process/m;-><init>(Ljava/lang/String;)V
 
     return-void
@@ -44,7 +43,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

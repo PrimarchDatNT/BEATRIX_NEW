@@ -26,7 +26,6 @@
 .method constructor <init>(Lcom/meitu/mtuploader/f$e;Landroid/content/Context;Lcom/meitu/mtuploader/bean/MtBusinessBean;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/mtuploader/f$b;->c:Lcom/meitu/mtuploader/f$e;
 
     iput-object p2, p0, Lcom/meitu/mtuploader/f$b;->d:Landroid/content/Context;
@@ -51,10 +50,8 @@
 
     const-string v1, "getToken onException"
 
-    .line 1
     invoke-static {v0, v1}, Lcom/meitu/mtuploader/w/b;->a(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 2
     invoke-static {v0, p2}, Lcom/meitu/mtuploader/w/b;->d(Ljava/lang/String;Ljava/lang/Throwable;)V
 
     if-nez p2, :cond_0
@@ -63,7 +60,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_0
     new-instance v0, Ljava/lang/StringBuilder;
 
@@ -83,7 +79,6 @@
 
     move-result-object p2
 
-    .line 4
     :goto_0
     iget-object v0, p0, Lcom/meitu/mtuploader/f$b;->c:Lcom/meitu/mtuploader/f$e;
 
@@ -93,7 +88,6 @@
 
     invoke-static {v0, v1, p2, v2}, Lcom/meitu/mtuploader/f;->b(Lcom/meitu/mtuploader/f$e;ILjava/lang/String;Lcom/meitu/mtuploader/bean/MtTokenBean;)V
 
-    .line 5
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -120,7 +114,6 @@
 
     const-string v0, "MtTokenUtil"
 
-    .line 1
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -143,7 +136,6 @@
 
     invoke-static {v0, p1}, Lcom/meitu/mtuploader/w/b;->a(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 2
     invoke-static {p3}, Lcom/meitu/mtuploader/f;->c(Ljava/lang/String;)Z
 
     move-result p1
@@ -156,10 +148,8 @@
 
     const-string v1, "get new token isResultSuccess"
 
-    .line 3
     invoke-static {p1, v1}, Lcom/meitu/mtuploader/w/b;->a(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 4
     :try_start_0
     invoke-static {}, Lcom/meitu/mtuploader/f;->e()Lcom/google/gson/Gson;
 
@@ -181,7 +171,6 @@
 
     if-eqz p1, :cond_1
 
-    .line 5
     invoke-interface {p1}, Ljava/util/List;->isEmpty()Z
 
     move-result v1
@@ -195,29 +184,24 @@
 
     const-string v2, "get new token successful"
 
-    .line 6
     invoke-static {v1, v2}, Lcom/meitu/mtuploader/w/b;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     const/4 v1, 0x0
 
-    .line 7
     invoke-interface {p1, v1}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object v1
 
     check-cast v1, Lcom/meitu/mtuploader/bean/MtTokenBean;
 
-    .line 8
     invoke-static {}, Lcom/meitu/mtuploader/f;->f()Lcom/meitu/mtuploader/u/b;
 
     move-result-object v2
 
-    .line 9
     const-class v3, Lcom/meitu/mtuploader/f;
 
     monitor-enter v3
 
-    .line 10
     :try_start_1
     iget-object v4, p0, Lcom/meitu/mtuploader/f$b;->d:Landroid/content/Context;
 
@@ -225,12 +209,10 @@
 
     invoke-virtual {v2, v4, p1, v5}, Lcom/meitu/mtuploader/u/b;->k(Landroid/content/Context;Ljava/util/List;Lcom/meitu/mtuploader/bean/MtBusinessBean;)V
 
-    .line 11
     monitor-exit v3
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
-    .line 12
     iget-object p1, p0, Lcom/meitu/mtuploader/f$b;->c:Lcom/meitu/mtuploader/f$e;
 
     invoke-static {p1, p3, v0, v1}, Lcom/meitu/mtuploader/f;->b(Lcom/meitu/mtuploader/f$e;ILjava/lang/String;Lcom/meitu/mtuploader/bean/MtTokenBean;)V
@@ -240,7 +222,6 @@
     :catchall_0
     move-exception p1
 
-    .line 13
     :try_start_2
     monitor-exit v3
     :try_end_2
@@ -256,10 +237,8 @@
 
     const-string v1, "get new token tokenBeanList is empty"
 
-    .line 14
     invoke-static {p1, v1}, Lcom/meitu/mtuploader/w/b;->a(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 15
     iget-object p1, p0, Lcom/meitu/mtuploader/f$b;->c:Lcom/meitu/mtuploader/f$e;
 
     const-string v1, "token response format is not correct"
@@ -273,10 +252,8 @@
 
     const-string p3, "token response format is not correct"
 
-    .line 16
     invoke-static {p1, p3}, Lcom/meitu/mtuploader/w/b;->a(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 17
     iget-object p1, p0, Lcom/meitu/mtuploader/f$b;->c:Lcom/meitu/mtuploader/f$e;
 
     const/16 p3, -0x66
@@ -285,7 +262,6 @@
 
     invoke-static {p1, p3, v1, v0}, Lcom/meitu/mtuploader/f;->b(Lcom/meitu/mtuploader/f$e;ILjava/lang/String;Lcom/meitu/mtuploader/bean/MtTokenBean;)V
 
-    .line 18
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -295,10 +271,8 @@
 
     const-string v1, "get new token result failed"
 
-    .line 19
     invoke-static {p1, v1}, Lcom/meitu/mtuploader/w/b;->a(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 20
     :try_start_3
     new-instance p1, Lorg/json/JSONObject;
 
@@ -306,19 +280,16 @@
 
     const-string p3, "err_code"
 
-    .line 21
     invoke-virtual {p1, p3}, Lorg/json/JSONObject;->getInt(Ljava/lang/String;)I
 
     move-result p3
 
     const-string v1, "err_msg"
 
-    .line 22
     invoke-virtual {p1, v1}, Lorg/json/JSONObject;->getString(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p1
 
-    .line 23
     iget-object v1, p0, Lcom/meitu/mtuploader/f$b;->c:Lcom/meitu/mtuploader/f$e;
 
     invoke-static {v1, p3, p1, v0}, Lcom/meitu/mtuploader/f;->b(Lcom/meitu/mtuploader/f$e;ILjava/lang/String;Lcom/meitu/mtuploader/bean/MtTokenBean;)V
@@ -332,10 +303,8 @@
 
     const-string p3, "MtTokenUtil"
 
-    .line 24
     invoke-static {p3, p1}, Lcom/meitu/mtuploader/w/b;->d(Ljava/lang/String;Ljava/lang/Throwable;)V
 
-    .line 25
     iget-object p1, p0, Lcom/meitu/mtuploader/f$b;->c:Lcom/meitu/mtuploader/f$e;
 
     const/4 p3, 0x2
@@ -344,7 +313,6 @@
 
     invoke-static {p1, p3, v1, v0}, Lcom/meitu/mtuploader/f;->b(Lcom/meitu/mtuploader/f$e;ILjava/lang/String;Lcom/meitu/mtuploader/bean/MtTokenBean;)V
 
-    .line 26
     :goto_1
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

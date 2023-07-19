@@ -32,17 +32,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lf/k/m0/a;->a:Ljava/lang/String;
 
     sput-object v1, Lcom/meitu/debug/Logger;->a:Ljava/lang/String;
 
     const/4 v1, 0x4
 
-    .line 2
     sput v1, Lcom/meitu/debug/Logger;->b:I
 
-    .line 3
     new-instance v1, Lcom/meitu/debug/a;
 
     invoke-direct {v1}, Lcom/meitu/debug/a;-><init>()V
@@ -51,7 +48,6 @@
 
     const-string v1, ""
 
-    .line 4
     sput-object v1, Lcom/meitu/debug/Logger;->d:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -62,7 +58,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -77,7 +72,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/meitu/debug/Logger;->d:Ljava/lang/String;
 
     invoke-virtual {v1, p1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -86,10 +80,8 @@
 
     if-eqz p1, :cond_0
 
-    .line 2
     invoke-static {p0}, Lcom/meitu/debug/Logger;->w(Ljava/lang/String;)V
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -105,7 +97,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/meitu/debug/Logger;->d:Ljava/lang/String;
 
     invoke-virtual {v1, p2}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -114,10 +105,8 @@
 
     if-eqz p2, :cond_0
 
-    .line 2
     invoke-static {p0, p1}, Lcom/meitu/debug/Logger;->x(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -133,7 +122,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/meitu/debug/Logger;->d:Ljava/lang/String;
 
     invoke-virtual {v1, p3}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -142,10 +130,8 @@
 
     if-eqz p3, :cond_0
 
-    .line 2
     invoke-static {p0, p1, p2}, Lcom/meitu/debug/Logger;->y(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -161,7 +147,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/meitu/debug/Logger;->d:Ljava/lang/String;
 
     invoke-virtual {v1, p2}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -170,10 +155,8 @@
 
     if-eqz p2, :cond_0
 
-    .line 2
     invoke-static {p0, p1}, Lcom/meitu/debug/Logger;->z(Ljava/lang/String;Ljava/lang/Throwable;)V
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -187,7 +170,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget v1, Lcom/meitu/debug/Logger;->b:I
 
     if-gt v1, p0, :cond_0
@@ -214,7 +196,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/meitu/debug/Logger$a;->a:[I
 
     invoke-virtual {p0}, Ljava/lang/Enum;->ordinal()I
@@ -225,57 +206,45 @@
 
     packed-switch p0, :pswitch_data_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 3
     :pswitch_0
     invoke-static {p1}, Lcom/meitu/debug/Logger;->i(Ljava/lang/String;)V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 5
     :pswitch_1
     invoke-static {p1}, Lcom/meitu/debug/Logger;->X(Ljava/lang/String;)V
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 7
     :pswitch_2
     invoke-static {p1}, Lcom/meitu/debug/Logger;->a(Ljava/lang/String;)V
 
-    .line 8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 9
     :pswitch_3
     invoke-static {p1}, Lcom/meitu/debug/Logger;->w(Ljava/lang/String;)V
 
-    .line 10
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 11
     :pswitch_4
     invoke-static {p1}, Lcom/meitu/debug/Logger;->P(Ljava/lang/String;)V
 
-    .line 12
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 13
     :pswitch_5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -301,7 +270,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/meitu/debug/Logger$a;->a:[I
 
     invoke-virtual {p0}, Ljava/lang/Enum;->ordinal()I
@@ -312,57 +280,45 @@
 
     packed-switch p0, :pswitch_data_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 3
     :pswitch_0
     invoke-static {p1, p2}, Lcom/meitu/debug/Logger;->j(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 5
     :pswitch_1
     invoke-static {p1, p2}, Lcom/meitu/debug/Logger;->Y(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 7
     :pswitch_2
     invoke-static {p1, p2}, Lcom/meitu/debug/Logger;->b(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 9
     :pswitch_3
     invoke-static {p1, p2}, Lcom/meitu/debug/Logger;->x(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 10
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 11
     :pswitch_4
     invoke-static {p1, p2}, Lcom/meitu/debug/Logger;->Q(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 12
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 13
     :pswitch_5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -388,7 +344,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/meitu/debug/Logger$a;->a:[I
 
     invoke-virtual {p0}, Ljava/lang/Enum;->ordinal()I
@@ -399,57 +354,45 @@
 
     packed-switch p0, :pswitch_data_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 3
     :pswitch_0
     invoke-static {p1, p2, p3}, Lcom/meitu/debug/Logger;->k(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 5
     :pswitch_1
     invoke-static {p1, p2, p3}, Lcom/meitu/debug/Logger;->Z(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 7
     :pswitch_2
     invoke-static {p1, p2, p3}, Lcom/meitu/debug/Logger;->c(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V
 
-    .line 8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 9
     :pswitch_3
     invoke-static {p1, p2, p3}, Lcom/meitu/debug/Logger;->y(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V
 
-    .line 10
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 11
     :pswitch_4
     invoke-static {p1, p2, p3}, Lcom/meitu/debug/Logger;->R(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V
 
-    .line 12
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 13
     :pswitch_5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -475,7 +418,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/meitu/debug/Logger$a;->a:[I
 
     invoke-virtual {p0}, Ljava/lang/Enum;->ordinal()I
@@ -486,57 +428,45 @@
 
     packed-switch p0, :pswitch_data_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 3
     :pswitch_0
     invoke-static {p1, p2}, Lcom/meitu/debug/Logger;->l(Ljava/lang/String;Ljava/lang/Throwable;)V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 5
     :pswitch_1
     invoke-static {p1, p2}, Lcom/meitu/debug/Logger;->a0(Ljava/lang/String;Ljava/lang/Throwable;)V
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 7
     :pswitch_2
     invoke-static {p1, p2}, Lcom/meitu/debug/Logger;->d(Ljava/lang/String;Ljava/lang/Throwable;)V
 
-    .line 8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 9
     :pswitch_3
     invoke-static {p1, p2}, Lcom/meitu/debug/Logger;->z(Ljava/lang/String;Ljava/lang/Throwable;)V
 
-    .line 10
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 11
     :pswitch_4
     invoke-static {p1, p2}, Lcom/meitu/debug/Logger;->S(Ljava/lang/String;Ljava/lang/Throwable;)V
 
-    .line 12
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 13
     :pswitch_5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -566,15 +496,12 @@
 
     if-gt p0, v1, :cond_0
 
-    .line 1
     sput p0, Lcom/meitu/debug/Logger;->b:I
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 3
     :cond_0
     new-instance v1, Ljava/lang/IllegalArgumentException;
 
@@ -610,19 +537,16 @@
 
     if-eqz p0, :cond_0
 
-    .line 1
     invoke-static {p0}, Lcom/meitu/debug/Logger;->s(Lcom/meitu/debug/Logger$LoggerLevel;)I
 
     move-result p0
 
     invoke-static {p0}, Lcom/meitu/debug/Logger;->J(I)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 3
     :cond_0
     new-instance p0, Ljava/lang/IllegalArgumentException;
 
@@ -646,15 +570,12 @@
 
     if-eqz p0, :cond_0
 
-    .line 1
     sput-object p0, Lcom/meitu/debug/Logger;->d:Ljava/lang/String;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 3
     :cond_0
     new-instance p0, Ljava/lang/IllegalArgumentException;
 
@@ -674,13 +595,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p0}, Lcom/meitu/debug/Logger;->J(I)V
 
-    .line 2
     invoke-static {p0}, Lcom/meitu/debug/Logger;->N(I)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -693,10 +611,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p0}, Lcom/meitu/media/mtmvcore/MTMVConfig;->setLogLevel(I)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -709,10 +625,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sput-object p0, Lcom/meitu/debug/Logger;->a:Ljava/lang/String;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -729,10 +643,8 @@
 
     const/4 v2, 0x0
 
-    .line 1
     invoke-static {v1, p0, v2}, Lcom/meitu/debug/Logger;->R(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -747,10 +659,8 @@
 
     const/4 v1, 0x0
 
-    .line 1
     invoke-static {p0, p1, v1}, Lcom/meitu/debug/Logger;->R(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -765,14 +675,12 @@
 
     const/4 v1, 0x1
 
-    .line 1
     invoke-static {v1}, Lcom/meitu/debug/Logger;->E(I)Z
 
     move-result v1
 
     if-eqz v1, :cond_0
 
-    .line 2
     sget-object v1, Lcom/meitu/debug/Logger;->c:Lcom/meitu/debug/a;
 
     new-instance v2, Ljava/lang/StringBuilder;
@@ -791,7 +699,6 @@
 
     invoke-virtual {v1, p0, p1, p2}, Lcom/meitu/debug/a;->d(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -807,10 +714,8 @@
 
     const-string v1, ""
 
-    .line 1
     invoke-static {p0, v1, p1}, Lcom/meitu/debug/Logger;->R(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -825,7 +730,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/meitu/debug/Logger;->d:Ljava/lang/String;
 
     invoke-virtual {v1, p1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -834,10 +738,8 @@
 
     if-eqz p1, :cond_0
 
-    .line 2
     invoke-static {p0}, Lcom/meitu/debug/Logger;->P(Ljava/lang/String;)V
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -853,7 +755,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/meitu/debug/Logger;->d:Ljava/lang/String;
 
     invoke-virtual {v1, p2}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -862,10 +763,8 @@
 
     if-eqz p2, :cond_0
 
-    .line 2
     invoke-static {p0, p1}, Lcom/meitu/debug/Logger;->Q(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -881,7 +780,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/meitu/debug/Logger;->d:Ljava/lang/String;
 
     invoke-virtual {v1, p3}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -890,10 +788,8 @@
 
     if-eqz p3, :cond_0
 
-    .line 2
     invoke-static {p0, p1, p2}, Lcom/meitu/debug/Logger;->R(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -909,7 +805,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/meitu/debug/Logger;->d:Ljava/lang/String;
 
     invoke-virtual {v1, p2}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -918,10 +813,8 @@
 
     if-eqz p2, :cond_0
 
-    .line 2
     invoke-static {p0, p1}, Lcom/meitu/debug/Logger;->S(Ljava/lang/String;Ljava/lang/Throwable;)V
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -939,10 +832,8 @@
 
     const/4 v2, 0x0
 
-    .line 1
     invoke-static {v1, p0, v2}, Lcom/meitu/debug/Logger;->Z(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -957,10 +848,8 @@
 
     const/4 v1, 0x0
 
-    .line 1
     invoke-static {p0, p1, v1}, Lcom/meitu/debug/Logger;->Z(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -975,14 +864,12 @@
 
     const/4 v1, 0x4
 
-    .line 1
     invoke-static {v1}, Lcom/meitu/debug/Logger;->E(I)Z
 
     move-result v1
 
     if-eqz v1, :cond_0
 
-    .line 2
     sget-object v1, Lcom/meitu/debug/Logger;->c:Lcom/meitu/debug/a;
 
     new-instance v2, Ljava/lang/StringBuilder;
@@ -1001,7 +888,6 @@
 
     invoke-virtual {v1, p0, p1, p2}, Lcom/meitu/debug/a;->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1019,10 +905,8 @@
 
     const/4 v2, 0x0
 
-    .line 1
     invoke-static {v1, p0, v2}, Lcom/meitu/debug/Logger;->c(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1037,10 +921,8 @@
 
     const-string v1, ""
 
-    .line 1
     invoke-static {p0, v1, p1}, Lcom/meitu/debug/Logger;->Z(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1055,10 +937,8 @@
 
     const/4 v1, 0x0
 
-    .line 1
     invoke-static {p0, p1, v1}, Lcom/meitu/debug/Logger;->c(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1073,10 +953,8 @@
 
     const-string v1, ""
 
-    .line 1
     invoke-static {v1, p0}, Lcom/meitu/debug/Logger;->a0(Ljava/lang/String;Ljava/lang/Throwable;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1091,14 +969,12 @@
 
     const/4 v1, 0x2
 
-    .line 1
     invoke-static {v1}, Lcom/meitu/debug/Logger;->E(I)Z
 
     move-result v1
 
     if-eqz v1, :cond_0
 
-    .line 2
     sget-object v1, Lcom/meitu/debug/Logger;->c:Lcom/meitu/debug/a;
 
     new-instance v2, Ljava/lang/StringBuilder;
@@ -1117,7 +993,6 @@
 
     invoke-virtual {v1, p0, p1, p2}, Lcom/meitu/debug/a;->a(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1131,7 +1006,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/meitu/debug/Logger;->d:Ljava/lang/String;
 
     invoke-virtual {v1, p1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -1140,10 +1014,8 @@
 
     if-eqz p1, :cond_0
 
-    .line 2
     invoke-static {p0}, Lcom/meitu/debug/Logger;->X(Ljava/lang/String;)V
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1159,10 +1031,8 @@
 
     const-string v1, ""
 
-    .line 1
     invoke-static {p0, v1, p1}, Lcom/meitu/debug/Logger;->c(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1177,7 +1047,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/meitu/debug/Logger;->d:Ljava/lang/String;
 
     invoke-virtual {v1, p2}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -1186,10 +1055,8 @@
 
     if-eqz p2, :cond_0
 
-    .line 2
     invoke-static {p0, p1}, Lcom/meitu/debug/Logger;->Y(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1205,7 +1072,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/meitu/debug/Logger;->d:Ljava/lang/String;
 
     invoke-virtual {v1, p1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -1214,10 +1080,8 @@
 
     if-eqz p1, :cond_0
 
-    .line 2
     invoke-static {p0}, Lcom/meitu/debug/Logger;->a(Ljava/lang/String;)V
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1233,7 +1097,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/meitu/debug/Logger;->d:Ljava/lang/String;
 
     invoke-virtual {v1, p3}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -1242,10 +1105,8 @@
 
     if-eqz p3, :cond_0
 
-    .line 2
     invoke-static {p0, p1, p2}, Lcom/meitu/debug/Logger;->Z(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1261,7 +1122,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/meitu/debug/Logger;->d:Ljava/lang/String;
 
     invoke-virtual {v1, p2}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -1270,10 +1130,8 @@
 
     if-eqz p2, :cond_0
 
-    .line 2
     invoke-static {p0, p1}, Lcom/meitu/debug/Logger;->b(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1289,7 +1147,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/meitu/debug/Logger;->d:Ljava/lang/String;
 
     invoke-virtual {v1, p2}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -1298,10 +1155,8 @@
 
     if-eqz p2, :cond_0
 
-    .line 2
     invoke-static {p0, p1}, Lcom/meitu/debug/Logger;->a0(Ljava/lang/String;Ljava/lang/Throwable;)V
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1317,7 +1172,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/meitu/debug/Logger;->d:Ljava/lang/String;
 
     invoke-virtual {v1, p3}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -1326,10 +1180,8 @@
 
     if-eqz p3, :cond_0
 
-    .line 2
     invoke-static {p0, p1, p2}, Lcom/meitu/debug/Logger;->c(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1345,7 +1197,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/meitu/debug/Logger;->d:Ljava/lang/String;
 
     invoke-virtual {v1, p1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -1354,10 +1205,8 @@
 
     if-eqz p1, :cond_0
 
-    .line 2
     invoke-static {p0}, Lcom/meitu/debug/Logger;->b0(Ljava/lang/Throwable;)V
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1373,7 +1222,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/meitu/debug/Logger;->d:Ljava/lang/String;
 
     invoke-virtual {v1, p2}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -1382,10 +1230,8 @@
 
     if-eqz p2, :cond_0
 
-    .line 2
     invoke-static {p0, p1}, Lcom/meitu/debug/Logger;->d(Ljava/lang/String;Ljava/lang/Throwable;)V
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1403,10 +1249,8 @@
 
     const/4 v2, 0x0
 
-    .line 1
     invoke-static {v1, p0, v2}, Lcom/meitu/debug/Logger;->k(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1421,10 +1265,8 @@
 
     const/4 v1, 0x0
 
-    .line 1
     invoke-static {p0, p1, v1}, Lcom/meitu/debug/Logger;->k(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1439,14 +1281,12 @@
 
     const/4 v1, 0x5
 
-    .line 1
     invoke-static {v1}, Lcom/meitu/debug/Logger;->E(I)Z
 
     move-result v1
 
     if-eqz v1, :cond_0
 
-    .line 2
     sget-object v1, Lcom/meitu/debug/Logger;->c:Lcom/meitu/debug/a;
 
     new-instance v2, Ljava/lang/StringBuilder;
@@ -1465,7 +1305,6 @@
 
     invoke-virtual {v1, p0, p1, p2}, Lcom/meitu/debug/a;->b(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1481,10 +1320,8 @@
 
     const-string v1, ""
 
-    .line 1
     invoke-static {p0, v1, p1}, Lcom/meitu/debug/Logger;->k(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1499,10 +1336,8 @@
 
     const-string v1, ""
 
-    .line 1
     invoke-static {v1, p0}, Lcom/meitu/debug/Logger;->l(Ljava/lang/String;Ljava/lang/Throwable;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1517,7 +1352,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/meitu/debug/Logger;->d:Ljava/lang/String;
 
     invoke-virtual {v1, p1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -1526,10 +1360,8 @@
 
     if-eqz p1, :cond_0
 
-    .line 2
     invoke-static {p0}, Lcom/meitu/debug/Logger;->i(Ljava/lang/String;)V
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1545,7 +1377,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/meitu/debug/Logger;->d:Ljava/lang/String;
 
     invoke-virtual {v1, p2}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -1554,10 +1385,8 @@
 
     if-eqz p2, :cond_0
 
-    .line 2
     invoke-static {p0, p1}, Lcom/meitu/debug/Logger;->j(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1573,7 +1402,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/meitu/debug/Logger;->d:Ljava/lang/String;
 
     invoke-virtual {v1, p3}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -1582,10 +1410,8 @@
 
     if-eqz p3, :cond_0
 
-    .line 2
     invoke-static {p0, p1, p2}, Lcom/meitu/debug/Logger;->k(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1601,7 +1427,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/meitu/debug/Logger;->d:Ljava/lang/String;
 
     invoke-virtual {v1, p2}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -1610,10 +1435,8 @@
 
     if-eqz p2, :cond_0
 
-    .line 2
     invoke-static {p0, p1}, Lcom/meitu/debug/Logger;->l(Ljava/lang/String;Ljava/lang/Throwable;)V
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1629,7 +1452,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/meitu/debug/Logger;->d:Ljava/lang/String;
 
     invoke-virtual {v1, p1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -1638,10 +1460,8 @@
 
     if-eqz p1, :cond_0
 
-    .line 2
     invoke-static {p0}, Lcom/meitu/debug/Logger;->m(Ljava/lang/Throwable;)V
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1657,7 +1477,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/meitu/debug/Logger$a;->a:[I
 
     invoke-virtual {p0}, Ljava/lang/Enum;->ordinal()I
@@ -1670,7 +1489,6 @@
 
     const/4 p0, 0x0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p0
@@ -1678,7 +1496,6 @@
     :pswitch_0
     const/4 p0, 0x5
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p0
@@ -1686,7 +1503,6 @@
     :pswitch_1
     const/4 p0, 0x4
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p0
@@ -1694,7 +1510,6 @@
     :pswitch_2
     const/4 p0, 0x2
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p0
@@ -1702,7 +1517,6 @@
     :pswitch_3
     const/4 p0, 0x3
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p0
@@ -1710,7 +1524,6 @@
     :pswitch_4
     const/4 p0, 0x1
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p0
@@ -1718,7 +1531,6 @@
     :pswitch_5
     const/4 p0, 0x7
 
-    .line 8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p0
@@ -1767,14 +1579,12 @@
 
     if-eq p0, v1, :cond_0
 
-    .line 1
     sget-object p0, Lcom/meitu/debug/Logger$LoggerLevel;->ALL:Lcom/meitu/debug/Logger$LoggerLevel;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
 
-    .line 2
     :cond_0
     sget-object p0, Lcom/meitu/debug/Logger$LoggerLevel;->NONE:Lcom/meitu/debug/Logger$LoggerLevel;
 
@@ -1782,7 +1592,6 @@
 
     return-object p0
 
-    .line 3
     :cond_1
     sget-object p0, Lcom/meitu/debug/Logger$LoggerLevel;->ERROR:Lcom/meitu/debug/Logger$LoggerLevel;
 
@@ -1790,7 +1599,6 @@
 
     return-object p0
 
-    .line 4
     :cond_2
     sget-object p0, Lcom/meitu/debug/Logger$LoggerLevel;->WARNING:Lcom/meitu/debug/Logger$LoggerLevel;
 
@@ -1798,7 +1606,6 @@
 
     return-object p0
 
-    .line 5
     :cond_3
     sget-object p0, Lcom/meitu/debug/Logger$LoggerLevel;->INFO:Lcom/meitu/debug/Logger$LoggerLevel;
 
@@ -1806,7 +1613,6 @@
 
     return-object p0
 
-    .line 6
     :cond_4
     sget-object p0, Lcom/meitu/debug/Logger$LoggerLevel;->Logger:Lcom/meitu/debug/Logger$LoggerLevel;
 
@@ -1814,7 +1620,6 @@
 
     return-object p0
 
-    .line 7
     :cond_5
     sget-object p0, Lcom/meitu/debug/Logger$LoggerLevel;->VERBOSE:Lcom/meitu/debug/Logger$LoggerLevel;
 
@@ -1832,7 +1637,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget v1, Lcom/meitu/debug/Logger;->b:I
 
     invoke-static {v1}, Lcom/meitu/debug/Logger;->t(I)Lcom/meitu/debug/Logger$LoggerLevel;
@@ -1851,7 +1655,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/meitu/debug/Logger;->a:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1870,10 +1673,8 @@
 
     const/4 v2, 0x0
 
-    .line 1
     invoke-static {v1, p0, v2}, Lcom/meitu/debug/Logger;->y(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1888,10 +1689,8 @@
 
     const/4 v1, 0x0
 
-    .line 1
     invoke-static {p0, p1, v1}, Lcom/meitu/debug/Logger;->y(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1906,14 +1705,12 @@
 
     const/4 v1, 0x3
 
-    .line 1
     invoke-static {v1}, Lcom/meitu/debug/Logger;->E(I)Z
 
     move-result v1
 
     if-eqz v1, :cond_0
 
-    .line 2
     sget-object v1, Lcom/meitu/debug/Logger;->c:Lcom/meitu/debug/a;
 
     new-instance v2, Ljava/lang/StringBuilder;
@@ -1932,7 +1729,6 @@
 
     invoke-virtual {v1, p0, p1, p2}, Lcom/meitu/debug/a;->c(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1948,10 +1744,8 @@
 
     const-string v1, ""
 
-    .line 1
     invoke-static {p0, v1, p1}, Lcom/meitu/debug/Logger;->y(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

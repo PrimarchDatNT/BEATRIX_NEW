@@ -25,7 +25,6 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
     new-instance v0, Lcom/google/android/datatransport/k/y/e;
 
     invoke-direct {v0}, Lcom/google/android/datatransport/k/y/e;-><init>()V
@@ -38,7 +37,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -47,7 +45,6 @@
 .method public static a()Lcom/google/android/datatransport/k/y/e;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/google/android/datatransport/k/y/e;->a:Lcom/google/android/datatransport/k/y/e;
 
     return-object v0
@@ -56,7 +53,6 @@
 .method public static b()Lcom/google/android/datatransport/k/y/a;
     .locals 2
 
-    .line 1
     invoke-static {}, Lcom/google/android/datatransport/k/y/d;->a()Lcom/google/android/datatransport/k/y/a;
 
     move-result-object v0
@@ -77,7 +73,6 @@
 .method public c()Lcom/google/android/datatransport/k/y/a;
     .locals 1
 
-    .line 1
     invoke-static {}, Lcom/google/android/datatransport/k/y/e;->b()Lcom/google/android/datatransport/k/y/a;
 
     move-result-object v0
@@ -88,7 +83,6 @@
 .method public bridge synthetic get()Ljava/lang/Object;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/android/datatransport/k/y/e;->c()Lcom/google/android/datatransport/k/y/a;
 
     move-result-object v0

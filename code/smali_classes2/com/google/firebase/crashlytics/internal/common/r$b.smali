@@ -28,7 +28,6 @@
 .method constructor <init>(Ljava/lang/String;Ljava/util/concurrent/ExecutorService;JLjava/util/concurrent/TimeUnit;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/firebase/crashlytics/internal/common/r$b;->a:Ljava/lang/String;
 
     iput-object p2, p0, Lcom/google/firebase/crashlytics/internal/common/r$b;->b:Ljava/util/concurrent/ExecutorService;
@@ -47,7 +46,6 @@
 .method public a()V
     .locals 5
 
-    .line 1
     :try_start_0
     invoke-static {}, Lcom/google/firebase/crashlytics/e/b;->f()Lcom/google/firebase/crashlytics/e/b;
 
@@ -71,12 +69,10 @@
 
     invoke-virtual {v0, v1}, Lcom/google/firebase/crashlytics/e/b;->b(Ljava/lang/String;)V
 
-    .line 2
     iget-object v0, p0, Lcom/google/firebase/crashlytics/internal/common/r$b;->b:Ljava/util/concurrent/ExecutorService;
 
     invoke-interface {v0}, Ljava/util/concurrent/ExecutorService;->shutdown()V
 
-    .line 3
     iget-object v0, p0, Lcom/google/firebase/crashlytics/internal/common/r$b;->b:Ljava/util/concurrent/ExecutorService;
 
     iget-wide v1, p0, Lcom/google/firebase/crashlytics/internal/common/r$b;->c:J
@@ -89,7 +85,6 @@
 
     if-nez v0, :cond_0
 
-    .line 4
     invoke-static {}, Lcom/google/firebase/crashlytics/e/b;->f()Lcom/google/firebase/crashlytics/e/b;
 
     move-result-object v0
@@ -110,10 +105,8 @@
 
     move-result-object v1
 
-    .line 5
     invoke-virtual {v0, v1}, Lcom/google/firebase/crashlytics/e/b;->b(Ljava/lang/String;)V
 
-    .line 6
     iget-object v0, p0, Lcom/google/firebase/crashlytics/internal/common/r$b;->b:Ljava/util/concurrent/ExecutorService;
 
     invoke-interface {v0}, Ljava/util/concurrent/ExecutorService;->shutdownNow()Ljava/util/List;
@@ -122,7 +115,6 @@
 
     goto :goto_0
 
-    .line 7
     :catch_0
     invoke-static {}, Lcom/google/firebase/crashlytics/e/b;->f()Lcom/google/firebase/crashlytics/e/b;
 
@@ -142,15 +134,12 @@
 
     const-string v3, "Interrupted while waiting for %s to shut down. Requesting immediate shutdown."
 
-    .line 8
     invoke-static {v1, v3, v2}, Ljava/lang/String;->format(Ljava/util/Locale;Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object v1
 
-    .line 9
     invoke-virtual {v0, v1}, Lcom/google/firebase/crashlytics/e/b;->b(Ljava/lang/String;)V
 
-    .line 10
     iget-object v0, p0, Lcom/google/firebase/crashlytics/internal/common/r$b;->b:Ljava/util/concurrent/ExecutorService;
 
     invoke-interface {v0}, Ljava/util/concurrent/ExecutorService;->shutdownNow()Ljava/util/List;

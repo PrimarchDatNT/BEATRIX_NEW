@@ -22,7 +22,6 @@
 .method constructor <init>(Lcom/commsource/autocamera/SimpleCameraViewModel$g;Ljava/lang/String;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/autocamera/SimpleCameraViewModel$g$a;->g:Lcom/commsource/autocamera/SimpleCameraViewModel$g;
 
     invoke-direct {p0, p2}, Lcom/commsource/util/u2/a;-><init>(Ljava/lang/String;)V
@@ -39,7 +38,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/autocamera/SimpleCameraViewModel$g$a;->g:Lcom/commsource/autocamera/SimpleCameraViewModel$g;
 
     iget-object v1, v1, Lcom/commsource/autocamera/SimpleCameraViewModel$g;->d:Lcom/commsource/autocamera/SimpleCameraViewModel;
@@ -50,7 +48,6 @@
 
     if-eqz v1, :cond_0
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/autocamera/SimpleCameraViewModel$g$a;->g:Lcom/commsource/autocamera/SimpleCameraViewModel$g;
 
     iget-object v1, v1, Lcom/commsource/autocamera/SimpleCameraViewModel$g;->d:Lcom/commsource/autocamera/SimpleCameraViewModel;
@@ -69,7 +66,6 @@
 
     invoke-virtual {v1, v2}, Lcom/meitu/library/camera/MTCamera;->z0(I)V
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

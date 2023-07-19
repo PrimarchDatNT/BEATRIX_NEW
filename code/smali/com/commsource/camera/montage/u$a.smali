@@ -25,7 +25,6 @@
 .method constructor <init>(Lcom/commsource/camera/montage/u;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/camera/montage/u$a;->a:Lcom/commsource/camera/montage/u;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -42,7 +41,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -55,7 +53,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -70,12 +67,10 @@
 
     if-eqz p3, :cond_0
 
-    .line 1
     iget-object p3, p0, Lcom/commsource/camera/montage/u$a;->a:Lcom/commsource/camera/montage/u;
 
     invoke-static {p3, p1}, Lcom/commsource/camera/montage/u;->C(Lcom/commsource/camera/montage/u;I)V
 
-    .line 2
     :cond_0
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -89,12 +84,10 @@
 
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p3, p0, Lcom/commsource/camera/montage/u$a;->a:Lcom/commsource/camera/montage/u;
 
     invoke-static {p3, p1}, Lcom/commsource/camera/montage/u;->C(Lcom/commsource/camera/montage/u;I)V
 
-    .line 2
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

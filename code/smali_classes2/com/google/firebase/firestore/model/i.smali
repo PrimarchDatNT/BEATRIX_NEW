@@ -13,13 +13,10 @@
 .method constructor <init>(Lcom/google/firebase/firestore/model/e;Lcom/google/firebase/firestore/model/l;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/google/firebase/firestore/model/i;->a:Lcom/google/firebase/firestore/model/e;
 
-    .line 3
     iput-object p2, p0, Lcom/google/firebase/firestore/model/i;->b:Lcom/google/firebase/firestore/model/l;
 
     return-void
@@ -30,7 +27,6 @@
 .method public a()Lcom/google/firebase/firestore/model/e;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/firestore/model/i;->a:Lcom/google/firebase/firestore/model/e;
 
     return-object v0
@@ -39,7 +35,6 @@
 .method public b()Lcom/google/firebase/firestore/model/l;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/firestore/model/i;->b:Lcom/google/firebase/firestore/model/l;
 
     return-object v0

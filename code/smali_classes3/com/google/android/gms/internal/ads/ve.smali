@@ -34,13 +34,10 @@
 
     const-string v0, "storePicture"
 
-    .line 1
     invoke-direct {p0, p1, v0}, Lcom/google/android/gms/internal/ads/ff;-><init>(Lcom/google/android/gms/internal/ads/lu;Ljava/lang/String;)V
 
-    .line 2
     iput-object p2, p0, Lcom/google/android/gms/internal/ads/ve;->c:Ljava/util/Map;
 
-    .line 3
     invoke-interface {p1}, Lcom/google/android/gms/internal/ads/lu;->d()Landroid/app/Activity;
 
     move-result-object p1
@@ -53,7 +50,6 @@
 .method static synthetic i(Lcom/google/android/gms/internal/ads/ve;)Landroid/content/Context;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lcom/google/android/gms/internal/ads/ve;->d:Landroid/content/Context;
 
     return-object p0
@@ -64,19 +60,16 @@
 .method public final h()V
     .locals 6
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/ve;->d:Landroid/content/Context;
 
     if-nez v0, :cond_0
 
     const-string v0, "Activity context is not available"
 
-    .line 2
     invoke-virtual {p0, v0}, Lcom/google/android/gms/internal/ads/ff;->e(Ljava/lang/String;)V
 
     return-void
 
-    .line 3
     :cond_0
     invoke-static {}, Lcom/google/android/gms/ads/internal/p;->c()Lcom/google/android/gms/internal/ads/cn;
 
@@ -86,7 +79,6 @@
 
     move-result-object v0
 
-    .line 4
     invoke-virtual {v0}, Lcom/google/android/gms/internal/ads/d;->d()Z
 
     move-result v0
@@ -95,12 +87,10 @@
 
     const-string v0, "Feature is not supported by the device."
 
-    .line 5
     invoke-virtual {p0, v0}, Lcom/google/android/gms/internal/ads/ff;->e(Ljava/lang/String;)V
 
     return-void
 
-    .line 6
     :cond_1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/ve;->c:Ljava/util/Map;
 
@@ -112,7 +102,6 @@
 
     check-cast v0, Ljava/lang/String;
 
-    .line 7
     invoke-static {v0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v1
@@ -121,12 +110,10 @@
 
     const-string v0, "Image url cannot be empty."
 
-    .line 8
     invoke-virtual {p0, v0}, Lcom/google/android/gms/internal/ads/ff;->e(Ljava/lang/String;)V
 
     return-void
 
-    .line 9
     :cond_2
     invoke-static {v0}, Landroid/webkit/URLUtil;->isValidUrl(Ljava/lang/String;)Z
 
@@ -136,7 +123,6 @@
 
     const-string v1, "Invalid image url: "
 
-    .line 10
     invoke-static {v0}, Ljava/lang/String;->valueOf(Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object v0
@@ -163,18 +149,15 @@
 
     return-void
 
-    .line 11
     :cond_4
     invoke-static {v0}, Landroid/net/Uri;->parse(Ljava/lang/String;)Landroid/net/Uri;
 
     move-result-object v1
 
-    .line 12
     invoke-virtual {v1}, Landroid/net/Uri;->getLastPathSegment()Ljava/lang/String;
 
     move-result-object v1
 
-    .line 13
     invoke-static {}, Lcom/google/android/gms/ads/internal/p;->c()Lcom/google/android/gms/internal/ads/cn;
 
     invoke-static {v1}, Lcom/google/android/gms/internal/ads/cn;->W(Ljava/lang/String;)Z
@@ -185,7 +168,6 @@
 
     const-string v0, "Image type not recognized: "
 
-    .line 14
     invoke-static {v1}, Ljava/lang/String;->valueOf(Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object v1
@@ -214,7 +196,6 @@
 
     return-void
 
-    .line 15
     :cond_6
     invoke-static {}, Lcom/google/android/gms/ads/internal/p;->g()Lcom/google/android/gms/internal/ads/em;
 
@@ -224,7 +205,6 @@
 
     move-result-object v2
 
-    .line 16
     invoke-static {}, Lcom/google/android/gms/ads/internal/p;->c()Lcom/google/android/gms/internal/ads/cn;
 
     iget-object v3, p0, Lcom/google/android/gms/internal/ads/ve;->d:Landroid/content/Context;
@@ -235,7 +215,6 @@
 
     if-eqz v2, :cond_7
 
-    .line 17
     sget v4, Lcom/google/android/gms/ads/w/a$a;->a:I
 
     invoke-virtual {v2, v4}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
@@ -252,7 +231,6 @@
 
     if-eqz v2, :cond_8
 
-    .line 18
     sget v4, Lcom/google/android/gms/ads/w/a$a;->b:I
 
     invoke-virtual {v2, v4}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
@@ -264,13 +242,11 @@
     :cond_8
     const-string v4, "Allow Ad to store image in Picture gallery?"
 
-    .line 19
     :goto_3
     invoke-virtual {v3, v4}, Landroid/app/AlertDialog$Builder;->setMessage(Ljava/lang/CharSequence;)Landroid/app/AlertDialog$Builder;
 
     if-eqz v2, :cond_9
 
-    .line 20
     sget v4, Lcom/google/android/gms/ads/w/a$a;->c:I
 
     invoke-virtual {v2, v4}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
@@ -287,12 +263,10 @@
 
     invoke-direct {v5, p0, v0, v1}, Lcom/google/android/gms/internal/ads/ye;-><init>(Lcom/google/android/gms/internal/ads/ve;Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 21
     invoke-virtual {v3, v4, v5}, Landroid/app/AlertDialog$Builder;->setPositiveButton(Ljava/lang/CharSequence;Landroid/content/DialogInterface$OnClickListener;)Landroid/app/AlertDialog$Builder;
 
     if-eqz v2, :cond_a
 
-    .line 22
     sget v0, Lcom/google/android/gms/ads/w/a$a;->d:I
 
     invoke-virtual {v2, v0}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
@@ -309,15 +283,12 @@
 
     invoke-direct {v1, p0}, Lcom/google/android/gms/internal/ads/xe;-><init>(Lcom/google/android/gms/internal/ads/ve;)V
 
-    .line 23
     invoke-virtual {v3, v0, v1}, Landroid/app/AlertDialog$Builder;->setNegativeButton(Ljava/lang/CharSequence;Landroid/content/DialogInterface$OnClickListener;)Landroid/app/AlertDialog$Builder;
 
-    .line 24
     invoke-virtual {v3}, Landroid/app/AlertDialog$Builder;->create()Landroid/app/AlertDialog;
 
     move-result-object v0
 
-    .line 25
     invoke-virtual {v0}, Landroid/app/AlertDialog;->show()V
 
     return-void

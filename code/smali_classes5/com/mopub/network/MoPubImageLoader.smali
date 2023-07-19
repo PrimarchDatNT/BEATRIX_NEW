@@ -39,15 +39,12 @@
 
     invoke-static {p2, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     new-instance v0, Lcom/mopub/network/MoPubImageLoader$volleyImageCache$1;
 
     invoke-direct {v0, p2}, Lcom/mopub/network/MoPubImageLoader$volleyImageCache$1;-><init>(Lcom/mopub/network/MoPubImageLoader$ImageCache;)V
 
-    .line 3
     new-instance p2, Lcom/mopub/network/MoPubImageLoader$1;
 
     if-eqz p1, :cond_0
@@ -104,7 +101,6 @@
 
     if-eqz p3, :cond_2
 
-    .line 1
     sget-object p5, Landroid/widget/ImageView$ScaleType;->CENTER_INSIDE:Landroid/widget/ImageView$ScaleType;
 
     :cond_2
@@ -120,7 +116,6 @@
 
     return-void
 
-    .line 2
     :cond_3
     new-instance p0, Ljava/lang/UnsupportedOperationException;
 
@@ -260,14 +255,12 @@
 
     invoke-static {p5, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     new-instance v3, Lcom/mopub/network/MoPubImageLoader$fetch$1;
 
     invoke-direct {v3, p2}, Lcom/mopub/network/MoPubImageLoader$fetch$1;-><init>(Lcom/mopub/network/MoPubImageLoader$ImageListener;)V
 
     iput-object v3, p0, Lcom/mopub/network/MoPubImageLoader;->volleyImageListener:Lcom/mopub/volley/toolbox/ImageLoader$ImageListener;
 
-    .line 2
     iget-object v1, p0, Lcom/mopub/network/MoPubImageLoader;->volleyImageLoader:Lcom/mopub/volley/toolbox/ImageLoader;
 
     if-nez v3, :cond_0

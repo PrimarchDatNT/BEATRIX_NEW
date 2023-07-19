@@ -10,7 +10,6 @@
 .method constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -21,7 +20,6 @@
 .method public final run()V
     .locals 5
 
-    .line 1
     :try_start_0
     invoke-static {}, Lcom/google/android/gms/internal/ads/kt1;->v()Lcom/google/android/gms/internal/ads/jl1;
 
@@ -29,7 +27,6 @@
 
     invoke-virtual {v0}, Lcom/google/android/gms/internal/ads/jl1;->n()V
 
-    .line 2
     invoke-static {}, Lcom/google/android/gms/internal/ads/kt1;->v()Lcom/google/android/gms/internal/ads/jl1;
 
     move-result-object v0
@@ -43,7 +40,6 @@
     :catch_0
     move-exception v0
 
-    .line 3
     invoke-static {}, Lcom/google/android/gms/internal/ads/kt1;->w()Lcom/google/android/gms/internal/ads/wl1;
 
     move-result-object v1

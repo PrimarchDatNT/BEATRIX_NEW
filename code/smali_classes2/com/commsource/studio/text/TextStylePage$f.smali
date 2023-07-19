@@ -43,7 +43,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/text/TextStylePage$f;->a:Lcom/commsource/studio/text/TextStylePage;
 
     const-string v2, "it"
@@ -52,7 +51,6 @@
 
     invoke-static {v1, p1}, Lcom/commsource/studio/text/TextStylePage;->f(Lcom/commsource/studio/text/TextStylePage;Landroid/view/View;)V
 
-    .line 2
     iget-object p1, p0, Lcom/commsource/studio/text/TextStylePage$f;->a:Lcom/commsource/studio/text/TextStylePage;
 
     invoke-static {p1}, Lcom/commsource/studio/text/TextStylePage;->a(Lcom/commsource/studio/text/TextStylePage;)Lcom/commsource/studio/text/TextViewModel;
@@ -71,7 +69,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/studio/text/TextStylePage$f;->a:Lcom/commsource/studio/text/TextStylePage;
 
     invoke-static {v1}, Lcom/commsource/studio/text/TextStylePage;->b(Lcom/commsource/studio/text/TextStylePage;)Lcom/commsource/beautyplus/f0/ck;
@@ -90,7 +87,6 @@
 
     invoke-virtual {p1, v1}, Lcom/commsource/studio/text/TextGroupParam;->setBold(Z)V
 
-    .line 4
     iget-object p1, p0, Lcom/commsource/studio/text/TextStylePage$f;->a:Lcom/commsource/studio/text/TextStylePage;
 
     invoke-static {p1}, Lcom/commsource/studio/text/TextStylePage;->a(Lcom/commsource/studio/text/TextStylePage;)Lcom/commsource/studio/text/TextViewModel;
@@ -105,7 +101,6 @@
 
     invoke-virtual {p1, v1}, Lcom/commsource/beautyfilter/NoStickLiveData;->setValue(Ljava/lang/Object;)V
 
-    .line 5
     iget-object p1, p0, Lcom/commsource/studio/text/TextStylePage$f;->a:Lcom/commsource/studio/text/TextStylePage;
 
     invoke-static {p1}, Lcom/commsource/studio/text/TextStylePage;->a(Lcom/commsource/studio/text/TextStylePage;)Lcom/commsource/studio/text/TextViewModel;
@@ -120,7 +115,6 @@
 
     invoke-virtual {p1, v1}, Landroidx/lifecycle/MutableLiveData;->setValue(Ljava/lang/Object;)V
 
-    .line 6
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

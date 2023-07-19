@@ -35,7 +35,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/commsource/billing/g/a;-><init>(Ljava/lang/Object;)V
 
     return-void
@@ -58,7 +57,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/billing/g/a;->a:Ljava/lang/Object;
 
     check-cast v1, Ljava/util/List;
@@ -80,7 +78,6 @@
 
     check-cast v2, Lcom/meitu/global/billing/purchase/data/MTGPurchase;
 
-    .line 2
     invoke-virtual {v2}, Lcom/meitu/global/billing/purchase/data/MTGPurchase;->getProductId()Ljava/lang/String;
 
     move-result-object v2
@@ -93,7 +90,6 @@
 
     const/4 p1, 0x1
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
@@ -101,7 +97,6 @@
     :cond_1
     const/4 p1, 0x0
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1

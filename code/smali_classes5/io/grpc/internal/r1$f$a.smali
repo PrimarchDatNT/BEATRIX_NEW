@@ -27,7 +27,6 @@
 .method constructor <init>(Lio/grpc/internal/r1$f;Li/b/b;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lio/grpc/internal/r1$f$a;->b:Lio/grpc/internal/r1$f;
 
     iput-object p2, p0, Lio/grpc/internal/r1$f$a;->a:Li/b/b;
@@ -44,15 +43,12 @@
 
     const-string v0, "MigratingThreadDeframer.request"
 
-    .line 1
     invoke-static {v0}, Li/b/c;->l(Ljava/lang/String;)V
 
-    .line 2
     iget-object v1, p0, Lio/grpc/internal/r1$f$a;->a:Li/b/b;
 
     invoke-static {v1}, Li/b/c;->i(Li/b/b;)V
 
-    .line 3
     :try_start_0
     iget-object v1, p0, Lio/grpc/internal/r1$f$a;->b:Lio/grpc/internal/r1$f;
 
@@ -64,7 +60,6 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 4
     invoke-static {v0}, Li/b/c;->n(Ljava/lang/String;)V
 
     return-void

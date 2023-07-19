@@ -102,7 +102,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-direct {p0, v0}, Lkshark/Leak;-><init>(Lcotlin/jvm/internal/u;)V
 
     iput-object p1, p0, Lkshark/LibraryLeak;->leakTraces:Ljava/util/List;
@@ -307,7 +306,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lkshark/LibraryLeak;->description:Ljava/lang/String;
 
     return-object v0
@@ -327,7 +325,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lkshark/LibraryLeak;->leakTraces:Ljava/util/List;
 
     return-object v0
@@ -338,7 +335,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lkshark/LibraryLeak;->pattern:Lkshark/ReferencePattern;
 
     return-object v0
@@ -349,7 +345,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lkshark/LibraryLeak;->pattern:Lkshark/ReferencePattern;
 
     invoke-virtual {v0}, Ljava/lang/Object;->toString()Ljava/lang/String;
@@ -364,7 +359,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lkshark/LibraryLeak;->pattern:Lkshark/ReferencePattern;
 
     invoke-virtual {v0}, Ljava/lang/Object;->toString()Ljava/lang/String;
@@ -438,7 +432,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lkshark/LibraryLeak;->leakTrace:Lkshark/LeakTrace;
 
     if-nez v0, :cond_0
@@ -460,7 +453,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -477,7 +469,6 @@
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 2
     iget-object v1, p0, Lkshark/LibraryLeak;->description:Ljava/lang/String;
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
@@ -486,7 +477,6 @@
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(C)Ljava/lang/StringBuilder;
 
-    .line 3
     invoke-super {p0}, Lkshark/Leak;->toString()Ljava/lang/String;
 
     move-result-object v2

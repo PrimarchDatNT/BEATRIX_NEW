@@ -57,12 +57,10 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/function/MosaicFragment$g;->a:Lcom/commsource/studio/function/MosaicFragment;
 
     invoke-static {v1, p1}, Lcom/commsource/studio/function/MosaicFragment;->z1(Lcom/commsource/studio/function/MosaicFragment;Lcom/commsource/beautymain/data/c;)V
 
-    .line 2
     iget-object p1, p0, Lcom/commsource/studio/function/MosaicFragment$g;->a:Lcom/commsource/studio/function/MosaicFragment;
 
     invoke-static {p1}, Lcom/commsource/studio/function/MosaicFragment;->B1(Lcom/commsource/studio/function/MosaicFragment;)Lcom/commsource/beautyplus/f0/m9;
@@ -73,7 +71,6 @@
 
     invoke-virtual {p1}, Lcom/commsource/studio/component/PaintEraserComponent;->j()V
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -87,7 +84,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Lcom/commsource/beautymain/data/c;
 
     invoke-virtual {p0, p1}, Lcom/commsource/studio/function/MosaicFragment$g;->a(Lcom/commsource/beautymain/data/c;)V

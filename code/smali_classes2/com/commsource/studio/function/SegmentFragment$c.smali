@@ -56,7 +56,6 @@
 
     const-string v1, "it"
 
-    .line 1
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {p1}, Ljava/lang/Boolean;->booleanValue()Z
@@ -65,7 +64,6 @@
 
     if-eqz p1, :cond_1
 
-    .line 2
     iget-object p1, p0, Lcom/commsource/studio/function/SegmentFragment$c;->a:Lcom/commsource/studio/function/SegmentFragment;
 
     invoke-static {p1}, Lcom/commsource/studio/function/SegmentFragment;->D1(Lcom/commsource/studio/function/SegmentFragment;)Lcom/commsource/studio/layer/FaceLabelLayer;
@@ -82,7 +80,6 @@
 
     invoke-static {p1}, Lcom/commsource/util/l0;->w(Landroid/view/View;)V
 
-    .line 3
     :cond_0
     iget-object p1, p0, Lcom/commsource/studio/function/SegmentFragment$c;->a:Lcom/commsource/studio/function/SegmentFragment;
 
@@ -118,7 +115,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_1
     iget-object p1, p0, Lcom/commsource/studio/function/SegmentFragment$c;->a:Lcom/commsource/studio/function/SegmentFragment;
 
@@ -136,7 +132,6 @@
 
     invoke-static {p1}, Lcom/commsource/util/l0;->v0(Landroid/view/View;)V
 
-    .line 5
     :cond_2
     iget-object p1, p0, Lcom/commsource/studio/function/SegmentFragment$c;->a:Lcom/commsource/studio/function/SegmentFragment;
 
@@ -146,7 +141,6 @@
 
     invoke-virtual {p1}, Lcom/commsource/studio/layer/ContrastLayer;->u0()V
 
-    .line 6
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -160,7 +154,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Ljava/lang/Boolean;
 
     invoke-virtual {p0, p1}, Lcom/commsource/studio/function/SegmentFragment$c;->a(Ljava/lang/Boolean;)V

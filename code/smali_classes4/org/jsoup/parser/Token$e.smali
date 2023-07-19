@@ -32,27 +32,22 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-direct {p0, v0}, Lorg/jsoup/parser/Token;-><init>(Lorg/jsoup/parser/Token$a;)V
 
-    .line 2
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
 
     iput-object v1, p0, Lorg/jsoup/parser/Token$e;->b:Ljava/lang/StringBuilder;
 
-    .line 3
     iput-object v0, p0, Lorg/jsoup/parser/Token$e;->c:Ljava/lang/String;
 
-    .line 4
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
 
     iput-object v0, p0, Lorg/jsoup/parser/Token$e;->d:Ljava/lang/StringBuilder;
 
-    .line 5
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -61,10 +56,8 @@
 
     const/4 v0, 0x0
 
-    .line 6
     iput-boolean v0, p0, Lorg/jsoup/parser/Token$e;->f:Z
 
-    .line 7
     sget-object v0, Lorg/jsoup/parser/Token$TokenType;->Doctype:Lorg/jsoup/parser/Token$TokenType;
 
     iput-object v0, p0, Lorg/jsoup/parser/Token;->a:Lorg/jsoup/parser/Token$TokenType;
@@ -77,29 +70,24 @@
 .method m()Lorg/jsoup/parser/Token;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lorg/jsoup/parser/Token$e;->b:Ljava/lang/StringBuilder;
 
     invoke-static {v0}, Lorg/jsoup/parser/Token;->n(Ljava/lang/StringBuilder;)V
 
     const/4 v0, 0x0
 
-    .line 2
     iput-object v0, p0, Lorg/jsoup/parser/Token$e;->c:Ljava/lang/String;
 
-    .line 3
     iget-object v0, p0, Lorg/jsoup/parser/Token$e;->d:Ljava/lang/StringBuilder;
 
     invoke-static {v0}, Lorg/jsoup/parser/Token;->n(Ljava/lang/StringBuilder;)V
 
-    .line 4
     iget-object v0, p0, Lorg/jsoup/parser/Token$e;->e:Ljava/lang/StringBuilder;
 
     invoke-static {v0}, Lorg/jsoup/parser/Token;->n(Ljava/lang/StringBuilder;)V
 
     const/4 v0, 0x0
 
-    .line 5
     iput-boolean v0, p0, Lorg/jsoup/parser/Token$e;->f:Z
 
     return-object p0
@@ -108,7 +96,6 @@
 .method p()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lorg/jsoup/parser/Token$e;->b:Ljava/lang/StringBuilder;
 
     invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
@@ -121,7 +108,6 @@
 .method q()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lorg/jsoup/parser/Token$e;->c:Ljava/lang/String;
 
     return-object v0
@@ -130,7 +116,6 @@
 .method r()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lorg/jsoup/parser/Token$e;->d:Ljava/lang/StringBuilder;
 
     invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
@@ -143,7 +128,6 @@
 .method public s()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lorg/jsoup/parser/Token$e;->e:Ljava/lang/StringBuilder;
 
     invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
@@ -156,7 +140,6 @@
 .method public t()Z
     .locals 1
 
-    .line 1
     iget-boolean v0, p0, Lorg/jsoup/parser/Token$e;->f:Z
 
     return v0

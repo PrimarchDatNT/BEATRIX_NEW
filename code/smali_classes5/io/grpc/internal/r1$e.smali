@@ -32,7 +32,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lio/grpc/internal/r1$e;->b:Lio/grpc/internal/r1;
 
     iput p2, p0, Lio/grpc/internal/r1$e;->a:I
@@ -49,7 +48,6 @@
 
     if-nez p1, :cond_0
 
-    .line 1
     iget-object p1, p0, Lio/grpc/internal/r1$e;->b:Lio/grpc/internal/r1;
 
     iget v0, p0, Lio/grpc/internal/r1$e;->a:I
@@ -58,7 +56,6 @@
 
     return-void
 
-    .line 2
     :cond_0
     :try_start_0
     iget-object p1, p0, Lio/grpc/internal/r1$e;->b:Lio/grpc/internal/r1;
@@ -78,7 +75,6 @@
     :catchall_0
     move-exception p1
 
-    .line 3
     iget-object v0, p0, Lio/grpc/internal/r1$e;->b:Lio/grpc/internal/r1;
 
     invoke-static {v0}, Lio/grpc/internal/r1;->m(Lio/grpc/internal/r1;)Lio/grpc/internal/m;
@@ -87,7 +83,6 @@
 
     invoke-virtual {v0, p1}, Lio/grpc/internal/m;->c(Ljava/lang/Throwable;)V
 
-    .line 4
     iget-object p1, p0, Lio/grpc/internal/r1$e;->b:Lio/grpc/internal/r1;
 
     invoke-static {p1}, Lio/grpc/internal/r1;->l(Lio/grpc/internal/r1;)Lio/grpc/internal/MessageDeframer;
@@ -96,7 +91,6 @@
 
     invoke-virtual {p1}, Lio/grpc/internal/MessageDeframer;->close()V
 
-    .line 5
     :goto_0
     iget-object p1, p0, Lio/grpc/internal/r1$e;->b:Lio/grpc/internal/r1;
 
@@ -110,7 +104,6 @@
 
     if-nez p1, :cond_1
 
-    .line 6
     iget-object p1, p0, Lio/grpc/internal/r1$e;->b:Lio/grpc/internal/r1;
 
     invoke-static {p1}, Lio/grpc/internal/r1;->n(Lio/grpc/internal/r1;)Ljava/lang/Object;
@@ -122,10 +115,8 @@
     :try_start_1
     const-string v0, "MigratingThreadDeframer.deframerOnApplicationThread"
 
-    .line 7
     invoke-static {v0}, Li/b/c;->f(Ljava/lang/String;)V
 
-    .line 8
     iget-object v0, p0, Lio/grpc/internal/r1$e;->b:Lio/grpc/internal/r1;
 
     invoke-static {v0}, Lio/grpc/internal/r1;->o(Lio/grpc/internal/r1;)Lio/grpc/internal/r1$h;
@@ -140,14 +131,12 @@
 
     invoke-virtual {v0, v1}, Lio/grpc/internal/r1$h;->f(Lio/grpc/internal/MessageDeframer$b;)V
 
-    .line 9
     iget-object v0, p0, Lio/grpc/internal/r1$e;->b:Lio/grpc/internal/r1;
 
     const/4 v1, 0x0
 
     invoke-static {v0, v1}, Lio/grpc/internal/r1;->p(Lio/grpc/internal/r1;Z)Z
 
-    .line 10
     monitor-exit p1
 
     goto :goto_1

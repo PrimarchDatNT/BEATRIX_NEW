@@ -7,7 +7,6 @@
 .method public static a(J)Ljava/util/Date;
     .locals 3
 
-    .line 1
     new-instance v0, Ljava/util/Date;
 
     const-wide/32 v1, 0x7c25b080

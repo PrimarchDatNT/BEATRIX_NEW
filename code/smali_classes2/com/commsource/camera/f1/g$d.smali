@@ -40,7 +40,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/camera/f1/g$d;->a:Lcom/commsource/camera/f1/g;
 
     iput p2, p0, Lcom/commsource/camera/f1/g$d;->b:I
@@ -63,7 +62,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/f1/g$d;->a:Lcom/commsource/camera/f1/g;
 
     invoke-virtual {v1}, Lcom/commsource/camera/f1/g;->g()Ljava/lang/Runnable;
@@ -72,7 +70,6 @@
 
     invoke-static {v1}, Lcom/commsource/util/g2;->h(Ljava/lang/Runnable;)V
 
-    .line 2
     sget-object v1, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/LookMaterialRepository;->l:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/LookMaterialRepository;
 
     invoke-virtual {v1}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/LookMaterialRepository;->i()Ljava/util/concurrent/CopyOnWriteArrayList;
@@ -87,21 +84,18 @@
 
     invoke-virtual {v2, v3}, Ljava/util/concurrent/CopyOnWriteArrayList;->remove(Ljava/lang/Object;)Z
 
-    .line 3
     iget v2, p0, Lcom/commsource/camera/f1/g$d;->b:I
 
     invoke-virtual {v1, v2}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/LookMaterialRepository;->o(I)Lcom/meitu/template/bean/LookMaterial;
 
     move-result-object v1
 
-    .line 4
     new-instance v2, Lcom/commsource/camera/f1/g$d$b;
 
     invoke-direct {v2, p0, v1}, Lcom/commsource/camera/f1/g$d$b;-><init>(Lcom/commsource/camera/f1/g$d;Lcom/meitu/template/bean/LookMaterial;)V
 
     invoke-static {v2}, Lcom/commsource/util/g2;->k(Ljava/lang/Runnable;)V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -114,7 +108,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/f1/g$d;->a:Lcom/commsource/camera/f1/g;
 
     invoke-virtual {v1}, Lcom/commsource/camera/f1/g;->g()Ljava/lang/Runnable;
@@ -123,7 +116,6 @@
 
     invoke-static {v1}, Lcom/commsource/util/g2;->h(Ljava/lang/Runnable;)V
 
-    .line 2
     sget-object v1, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/LookMaterialRepository;->l:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/LookMaterialRepository;
 
     invoke-virtual {v1}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/LookMaterialRepository;->i()Ljava/util/concurrent/CopyOnWriteArrayList;
@@ -138,14 +130,12 @@
 
     invoke-virtual {v1, v2}, Ljava/util/concurrent/CopyOnWriteArrayList;->remove(Ljava/lang/Object;)Z
 
-    .line 3
     new-instance v1, Lcom/commsource/camera/f1/g$d$a;
 
     invoke-direct {v1, p0}, Lcom/commsource/camera/f1/g$d$a;-><init>(Lcom/commsource/camera/f1/g$d;)V
 
     invoke-static {v1}, Lcom/commsource/util/g2;->k(Ljava/lang/Runnable;)V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

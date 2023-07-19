@@ -45,17 +45,14 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-direct {p0, p1, p2, v0}, Lcom/google/android/gms/internal/ads/zzdub;-><init>(Lcom/google/android/gms/internal/ads/zzdsr;ZZ)V
 
-    .line 2
     new-instance p1, Lcom/google/android/gms/internal/ads/zzduk;
 
     invoke-direct {p1, p0, p4, p3}, Lcom/google/android/gms/internal/ads/zzduk;-><init>(Lcom/google/android/gms/internal/ads/aq1;Ljava/util/concurrent/Callable;Ljava/util/concurrent/Executor;)V
 
     iput-object p1, p0, Lcom/google/android/gms/internal/ads/aq1;->R:Lcom/google/android/gms/internal/ads/zzdun;
 
-    .line 3
     invoke-virtual {p0}, Lcom/google/android/gms/internal/ads/zzdub;->P()V
 
     return-void
@@ -66,7 +63,6 @@
 
     const/4 p1, 0x0
 
-    .line 1
     iput-object p1, p0, Lcom/google/android/gms/internal/ads/aq1;->R:Lcom/google/android/gms/internal/ads/zzdun;
 
     return-object p1
@@ -77,17 +73,14 @@
 .method final M(Lcom/google/android/gms/internal/ads/zzdub$zza;)V
     .locals 1
 
-    .line 1
     invoke-super {p0, p1}, Lcom/google/android/gms/internal/ads/zzdub;->M(Lcom/google/android/gms/internal/ads/zzdub$zza;)V
 
-    .line 2
     sget-object v0, Lcom/google/android/gms/internal/ads/zzdub$zza;->zzhnw:Lcom/google/android/gms/internal/ads/zzdub$zza;
 
     if-ne p1, v0, :cond_0
 
     const/4 p1, 0x0
 
-    .line 3
     iput-object p1, p0, Lcom/google/android/gms/internal/ads/aq1;->R:Lcom/google/android/gms/internal/ads/zzdun;
 
     :cond_0
@@ -97,12 +90,10 @@
 .method final Q()V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/aq1;->R:Lcom/google/android/gms/internal/ads/zzdun;
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-virtual {v0}, Lcom/google/android/gms/internal/ads/zzdun;->execute()V
 
     :cond_0
@@ -122,12 +113,10 @@
 .method protected final e()V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/aq1;->R:Lcom/google/android/gms/internal/ads/zzdun;
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-virtual {v0}, Lcom/google/android/gms/internal/ads/zzdve;->interruptTask()V
 
     :cond_0

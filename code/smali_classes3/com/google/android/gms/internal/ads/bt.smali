@@ -40,7 +40,6 @@
 
     new-array v0, v0, [Lcom/google/android/gms/internal/ads/gb2;
 
-    .line 1
     new-instance v1, Lcom/google/android/gms/internal/ads/vc2;
 
     invoke-direct {v1}, Lcom/google/android/gms/internal/ads/vc2;-><init>()V

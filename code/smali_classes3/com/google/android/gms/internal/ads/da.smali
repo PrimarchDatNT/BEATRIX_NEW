@@ -14,7 +14,6 @@
 .method constructor <init>(Lcom/google/android/gms/internal/ads/aa;Lcom/google/android/gms/internal/ads/w9;)V
     .locals 0
 
-    .line 1
     iput-object p2, p0, Lcom/google/android/gms/internal/ads/da;->a:Lcom/google/android/gms/internal/ads/w9;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -29,10 +28,8 @@
 
     const-string v0, "Rejecting reference for JS Engine."
 
-    .line 1
     invoke-static {v0}, Lcom/google/android/gms/internal/ads/sm;->m(Ljava/lang/String;)V
 
-    .line 2
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/da;->a:Lcom/google/android/gms/internal/ads/w9;
 
     invoke-virtual {v0}, Lcom/google/android/gms/internal/ads/sq;->b()V

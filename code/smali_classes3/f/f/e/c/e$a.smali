@@ -25,7 +25,6 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
     new-instance v0, Lf/f/e/c/e$a;
 
     invoke-direct {v0}, Lf/f/e/c/e$a;-><init>()V
@@ -38,7 +37,6 @@
 .method constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -47,7 +45,6 @@
 .method private static b(Lf/f/e/c/i;)Ljava/util/logging/Logger;
     .locals 2
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -88,12 +85,10 @@
 .method private static c(Lf/f/e/c/i;)Ljava/lang/String;
     .locals 3
 
-    .line 1
     invoke-virtual {p0}, Lf/f/e/c/i;->d()Ljava/lang/reflect/Method;
 
     move-result-object v0
 
-    .line 2
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -102,7 +97,6 @@
 
     invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 3
     invoke-virtual {v0}, Ljava/lang/reflect/Method;->getName()Ljava/lang/String;
 
     move-result-object v2
@@ -113,7 +107,6 @@
 
     invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(C)Ljava/lang/StringBuilder;
 
-    .line 4
     invoke-virtual {v0}, Ljava/lang/reflect/Method;->getParameterTypes()[Ljava/lang/Class;
 
     move-result-object v0
@@ -136,7 +129,6 @@
 
     invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 5
     invoke-virtual {p0}, Lf/f/e/c/i;->c()Ljava/lang/Object;
 
     move-result-object v0
@@ -147,7 +139,6 @@
 
     invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 6
     invoke-virtual {p0}, Lf/f/e/c/i;->a()Ljava/lang/Object;
 
     move-result-object p0
@@ -166,12 +157,10 @@
 .method public a(Ljava/lang/Throwable;Lf/f/e/c/i;)V
     .locals 3
 
-    .line 1
     invoke-static {p2}, Lf/f/e/c/e$a;->b(Lf/f/e/c/i;)Ljava/util/logging/Logger;
 
     move-result-object v0
 
-    .line 2
     sget-object v1, Ljava/util/logging/Level;->SEVERE:Ljava/util/logging/Level;
 
     invoke-virtual {v0, v1}, Ljava/util/logging/Logger;->isLoggable(Ljava/util/logging/Level;)Z
@@ -180,7 +169,6 @@
 
     if-eqz v2, :cond_0
 
-    .line 3
     invoke-static {p2}, Lf/f/e/c/e$a;->c(Lf/f/e/c/i;)Ljava/lang/String;
 
     move-result-object p2

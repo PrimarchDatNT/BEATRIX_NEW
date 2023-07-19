@@ -72,10 +72,8 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-direct {p0, p1, p2, v0}, Lcotlinx/coroutines/channels/d;-><init>(Lcotlin/coroutines/CoroutineContext;Lcotlinx/coroutines/channels/l;Z)V
 
-    .line 2
     invoke-static {p3, p0, p0}, Lcotlin/coroutines/intrinsics/a;->c(Lcotlin/jvm/u/p;Ljava/lang/Object;Lcotlin/coroutines/c;)Lcotlin/coroutines/c;
 
     move-result-object p1
@@ -115,10 +113,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcotlinx/coroutines/JobSupport;->start()Z
 
-    .line 2
     invoke-super {p0}, Lcotlinx/coroutines/channels/m;->x()Lcotlinx/coroutines/selects/e;
 
     move-result-object v0
@@ -135,12 +131,10 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-super {p0, p1}, Lcotlinx/coroutines/channels/m;->Q(Ljava/lang/Throwable;)Z
 
     move-result p1
 
-    .line 2
     invoke-virtual {p0}, Lcotlinx/coroutines/JobSupport;->start()Z
 
     return p1
@@ -166,10 +160,8 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcotlinx/coroutines/JobSupport;->start()Z
 
-    .line 2
     invoke-super {p0, p1, p2}, Lcotlinx/coroutines/channels/m;->U(Ljava/lang/Object;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p1
@@ -196,10 +188,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcotlinx/coroutines/JobSupport;->start()Z
 
-    .line 2
     invoke-super {p0, p1}, Lcotlinx/coroutines/channels/m;->offer(Ljava/lang/Object;)Z
 
     move-result p1
@@ -210,7 +200,6 @@
 .method protected u1()V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcotlinx/coroutines/channels/s;->f:Lcotlin/coroutines/c;
 
     invoke-static {v0, p0}, Lcotlinx/coroutines/s3/a;->b(Lcotlin/coroutines/c;Lcotlin/coroutines/c;)V

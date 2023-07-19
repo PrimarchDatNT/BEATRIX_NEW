@@ -71,24 +71,20 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
 
     iput-object v0, p0, Lcom/commsource/studio/bean/e;->b:Ljava/util/List;
 
-    .line 3
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
 
     iput-object v0, p0, Lcom/commsource/studio/bean/e;->c:Ljava/util/List;
 
-    .line 4
     new-instance v0, Lcom/commsource/studio/DraftDataManager;
 
     invoke-direct {v0}, Lcom/commsource/studio/DraftDataManager;-><init>()V
@@ -107,12 +103,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/bean/e;->c:Ljava/util/List;
 
     invoke-interface {v1}, Ljava/util/List;->clear()V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -127,7 +121,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/bean/e;->b:Ljava/util/List;
 
     invoke-static {v1}, Lcotlin/collections/s;->G(Ljava/util/List;)I
@@ -154,7 +147,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/bean/e;->d:Lcom/commsource/studio/bean/Step;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -169,7 +161,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/bean/e;->c:Ljava/util/List;
 
     invoke-interface {v1}, Ljava/util/Collection;->isEmpty()Z
@@ -190,7 +181,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/bean/e;->b:Ljava/util/List;
 
     invoke-interface {v1}, Ljava/util/Collection;->isEmpty()Z
@@ -219,37 +209,28 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-virtual {p1}, Lcom/commsource/studio/bean/Step;->copyStep()Lcom/commsource/studio/bean/Step;
 
     move-result-object v1
 
     iput-object v1, p0, Lcom/commsource/studio/bean/e;->d:Lcom/commsource/studio/bean/Step;
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/bean/e;->e:Lcom/commsource/studio/DraftDataManager;
 
     invoke-virtual {v1}, Lcom/commsource/studio/DraftDataManager;->j()V
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/studio/bean/e;->e:Lcom/commsource/studio/DraftDataManager;
 
-    .line 4
     new-instance v2, Lcom/commsource/studio/DraftDataManager$DraftData;
 
-    .line 5
     iget-object v3, p0, Lcom/commsource/studio/bean/e;->b:Ljava/util/List;
 
-    .line 6
     iget-object v4, p0, Lcom/commsource/studio/bean/e;->c:Ljava/util/List;
 
-    .line 7
     invoke-direct {v2, p1, v3, v4}, Lcom/commsource/studio/DraftDataManager$DraftData;-><init>(Lcom/commsource/studio/bean/Step;Ljava/util/List;Ljava/util/List;)V
 
-    .line 8
     invoke-virtual {v1, v2}, Lcom/commsource/studio/DraftDataManager;->p(Lcom/commsource/studio/DraftDataManager$DraftData;)V
 
-    .line 9
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -270,7 +251,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/bean/e;->b:Ljava/util/List;
 
     invoke-interface {v1}, Ljava/util/List;->isEmpty()Z
@@ -279,7 +259,6 @@
 
     if-nez v1, :cond_0
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/bean/e;->b:Ljava/util/List;
 
     invoke-static {v1}, Lcotlin/collections/s;->a3(Ljava/util/List;)Ljava/lang/Object;
@@ -298,7 +277,6 @@
 
     move-result v1
 
-    .line 3
     iget-object v2, p0, Lcom/commsource/studio/bean/e;->b:Ljava/util/List;
 
     invoke-static {v2}, Lcotlin/collections/s;->a3(Ljava/util/List;)Ljava/lang/Object;
@@ -313,7 +291,6 @@
 
     if-le v1, v2, :cond_1
 
-    .line 4
     :cond_0
     iget v1, p0, Lcom/commsource/studio/bean/e;->a:I
 
@@ -321,7 +298,6 @@
 
     iput v1, p0, Lcom/commsource/studio/bean/e;->a:I
 
-    .line 5
     :cond_1
     iget-object v1, p0, Lcom/commsource/studio/bean/e;->d:Lcom/commsource/studio/bean/Step;
 
@@ -331,7 +307,6 @@
 
     invoke-interface {v2, v1}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
-    .line 6
     :cond_2
     invoke-virtual {p1}, Lcom/commsource/studio/bean/Step;->copyStep()Lcom/commsource/studio/bean/Step;
 
@@ -339,30 +314,22 @@
 
     iput-object v1, p0, Lcom/commsource/studio/bean/e;->d:Lcom/commsource/studio/bean/Step;
 
-    .line 7
     iget-object v1, p0, Lcom/commsource/studio/bean/e;->c:Ljava/util/List;
 
     invoke-interface {v1}, Ljava/util/List;->clear()V
 
-    .line 8
     iget-object v1, p0, Lcom/commsource/studio/bean/e;->e:Lcom/commsource/studio/DraftDataManager;
 
-    .line 9
     new-instance v2, Lcom/commsource/studio/DraftDataManager$DraftData;
 
-    .line 10
     iget-object v3, p0, Lcom/commsource/studio/bean/e;->b:Ljava/util/List;
 
-    .line 11
     iget-object v4, p0, Lcom/commsource/studio/bean/e;->c:Ljava/util/List;
 
-    .line 12
     invoke-direct {v2, p1, v3, v4}, Lcom/commsource/studio/DraftDataManager$DraftData;-><init>(Lcom/commsource/studio/bean/Step;Ljava/util/List;Ljava/util/List;)V
 
-    .line 13
     invoke-virtual {v1, v2}, Lcom/commsource/studio/DraftDataManager;->p(Lcom/commsource/studio/DraftDataManager$DraftData;)V
 
-    .line 14
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -377,12 +344,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/bean/e;->e:Lcom/commsource/studio/DraftDataManager;
 
     invoke-virtual {v1}, Lcom/commsource/studio/DraftDataManager;->j()V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/bean/e;->e:Lcom/commsource/studio/DraftDataManager;
 
     invoke-virtual {v1}, Lcom/commsource/studio/DraftDataManager;->f()Lcom/commsource/studio/DraftDataManager$DraftData;
@@ -391,7 +356,6 @@
 
     if-eqz v1, :cond_0
 
-    .line 3
     invoke-virtual {v1}, Lcom/commsource/studio/DraftDataManager$DraftData;->getCurStep()Lcom/commsource/studio/bean/Step;
 
     move-result-object v2
@@ -402,21 +366,18 @@
 
     iput-object v2, p0, Lcom/commsource/studio/bean/e;->d:Lcom/commsource/studio/bean/Step;
 
-    .line 4
     invoke-virtual {v1}, Lcom/commsource/studio/DraftDataManager$DraftData;->getBkSteps()Ljava/util/List;
 
     move-result-object v2
 
     iput-object v2, p0, Lcom/commsource/studio/bean/e;->b:Ljava/util/List;
 
-    .line 5
     invoke-virtual {v1}, Lcom/commsource/studio/DraftDataManager$DraftData;->getFwSteps()Ljava/util/List;
 
     move-result-object v2
 
     iput-object v2, p0, Lcom/commsource/studio/bean/e;->c:Ljava/util/List;
 
-    .line 6
     invoke-virtual {v1}, Lcom/commsource/studio/DraftDataManager$DraftData;->getCurStep()Lcom/commsource/studio/bean/Step;
 
     move-result-object v1
@@ -428,7 +389,6 @@
     :cond_0
     const/4 v1, 0x0
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
@@ -443,14 +403,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/studio/bean/e;->d()Z
 
     move-result v1
 
     if-nez v1, :cond_0
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/bean/e;->b:Ljava/util/List;
 
     invoke-static {v1}, Lcotlin/collections/s;->a3(Ljava/util/List;)Ljava/lang/Object;
@@ -463,7 +421,6 @@
 
     return-object v1
 
-    .line 3
     :cond_0
     iget-object v1, p0, Lcom/commsource/studio/bean/e;->c:Ljava/util/List;
 
@@ -477,17 +434,14 @@
 
     check-cast v1, Lcom/commsource/studio/bean/Step;
 
-    .line 4
     iget-object v2, p0, Lcom/commsource/studio/bean/e;->d:Lcom/commsource/studio/bean/Step;
 
     if-eqz v2, :cond_1
 
-    .line 5
     iget-object v3, p0, Lcom/commsource/studio/bean/e;->b:Ljava/util/List;
 
     invoke-interface {v3, v2}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
-    .line 6
     :cond_1
     invoke-virtual {v1}, Lcom/commsource/studio/bean/Step;->copyStep()Lcom/commsource/studio/bean/Step;
 
@@ -495,25 +449,18 @@
 
     iput-object v2, p0, Lcom/commsource/studio/bean/e;->d:Lcom/commsource/studio/bean/Step;
 
-    .line 7
     iget-object v2, p0, Lcom/commsource/studio/bean/e;->e:Lcom/commsource/studio/DraftDataManager;
 
-    .line 8
     new-instance v3, Lcom/commsource/studio/DraftDataManager$DraftData;
 
-    .line 9
     iget-object v4, p0, Lcom/commsource/studio/bean/e;->b:Ljava/util/List;
 
-    .line 10
     iget-object v5, p0, Lcom/commsource/studio/bean/e;->c:Ljava/util/List;
 
-    .line 11
     invoke-direct {v3, v1, v4, v5}, Lcom/commsource/studio/DraftDataManager$DraftData;-><init>(Lcom/commsource/studio/bean/Step;Ljava/util/List;Ljava/util/List;)V
 
-    .line 12
     invoke-virtual {v2, v3}, Lcom/commsource/studio/DraftDataManager;->p(Lcom/commsource/studio/DraftDataManager$DraftData;)V
 
-    .line 13
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
@@ -526,12 +473,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/bean/e;->e:Lcom/commsource/studio/DraftDataManager;
 
     invoke-virtual {v1}, Lcom/commsource/studio/DraftDataManager;->o()V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -546,14 +491,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/studio/bean/e;->e()Z
 
     move-result v1
 
     if-nez v1, :cond_0
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/bean/e;->b:Ljava/util/List;
 
     invoke-static {v1}, Lcotlin/collections/s;->a3(Ljava/util/List;)Ljava/lang/Object;
@@ -566,7 +509,6 @@
 
     return-object v1
 
-    .line 3
     :cond_0
     iget-object v1, p0, Lcom/commsource/studio/bean/e;->b:Ljava/util/List;
 
@@ -580,17 +522,14 @@
 
     check-cast v1, Lcom/commsource/studio/bean/Step;
 
-    .line 4
     iget-object v2, p0, Lcom/commsource/studio/bean/e;->d:Lcom/commsource/studio/bean/Step;
 
     if-eqz v2, :cond_1
 
-    .line 5
     iget-object v3, p0, Lcom/commsource/studio/bean/e;->c:Ljava/util/List;
 
     invoke-interface {v3, v2}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
-    .line 6
     :cond_1
     invoke-virtual {v1}, Lcom/commsource/studio/bean/Step;->copyStep()Lcom/commsource/studio/bean/Step;
 
@@ -598,25 +537,18 @@
 
     iput-object v2, p0, Lcom/commsource/studio/bean/e;->d:Lcom/commsource/studio/bean/Step;
 
-    .line 7
     iget-object v2, p0, Lcom/commsource/studio/bean/e;->e:Lcom/commsource/studio/DraftDataManager;
 
-    .line 8
     new-instance v3, Lcom/commsource/studio/DraftDataManager$DraftData;
 
-    .line 9
     iget-object v4, p0, Lcom/commsource/studio/bean/e;->b:Ljava/util/List;
 
-    .line 10
     iget-object v5, p0, Lcom/commsource/studio/bean/e;->c:Ljava/util/List;
 
-    .line 11
     invoke-direct {v3, v1, v4, v5}, Lcom/commsource/studio/DraftDataManager$DraftData;-><init>(Lcom/commsource/studio/bean/Step;Ljava/util/List;Ljava/util/List;)V
 
-    .line 12
     invoke-virtual {v2, v3}, Lcom/commsource/studio/DraftDataManager;->p(Lcom/commsource/studio/DraftDataManager$DraftData;)V
 
-    .line 13
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1

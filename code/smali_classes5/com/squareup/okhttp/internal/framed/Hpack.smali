@@ -43,7 +43,6 @@
 
     new-array v0, v0, [Lcom/squareup/okhttp/internal/framed/Header;
 
-    .line 1
     new-instance v1, Lcom/squareup/okhttp/internal/framed/Header;
 
     sget-object v2, Lcom/squareup/okhttp/internal/framed/Header;->TARGET_AUTHORITY:Lokio/ByteString;
@@ -668,7 +667,6 @@
 
     sput-object v0, Lcom/squareup/okhttp/internal/framed/Hpack;->STATIC_HEADER_TABLE:[Lcom/squareup/okhttp/internal/framed/Header;
 
-    .line 2
     invoke-static {}, Lcom/squareup/okhttp/internal/framed/Hpack;->nameToFirstIndex()Ljava/util/Map;
 
     move-result-object v0
@@ -681,7 +679,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -690,7 +687,6 @@
 .method static synthetic access$000()[Lcom/squareup/okhttp/internal/framed/Header;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/squareup/okhttp/internal/framed/Hpack;->STATIC_HEADER_TABLE:[Lcom/squareup/okhttp/internal/framed/Header;
 
     return-object v0
@@ -704,7 +700,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p0}, Lcom/squareup/okhttp/internal/framed/Hpack;->checkLowercase(Lokio/ByteString;)Lokio/ByteString;
 
     move-result-object p0
@@ -715,7 +710,6 @@
 .method static synthetic access$200()Ljava/util/Map;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/squareup/okhttp/internal/framed/Hpack;->NAME_TO_FIRST_INDEX:Ljava/util/Map;
 
     return-object v0
@@ -729,7 +723,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lokio/ByteString;->size()I
 
     move-result v0
@@ -739,7 +732,6 @@
     :goto_0
     if-ge v1, v0, :cond_2
 
-    .line 2
     invoke-virtual {p0, v1}, Lokio/ByteString;->getByte(I)B
 
     move-result v2
@@ -754,7 +746,6 @@
 
     goto :goto_1
 
-    .line 3
     :cond_0
     new-instance v0, Ljava/io/IOException;
 
@@ -802,7 +793,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/util/LinkedHashMap;
 
     sget-object v1, Lcom/squareup/okhttp/internal/framed/Hpack;->STATIC_HEADER_TABLE:[Lcom/squareup/okhttp/internal/framed/Header;
@@ -813,7 +803,6 @@
 
     const/4 v1, 0x0
 
-    .line 2
     :goto_0
     sget-object v2, Lcom/squareup/okhttp/internal/framed/Hpack;->STATIC_HEADER_TABLE:[Lcom/squareup/okhttp/internal/framed/Header;
 
@@ -821,7 +810,6 @@
 
     if-ge v1, v3, :cond_1
 
-    .line 3
     aget-object v3, v2, v1
 
     iget-object v3, v3, Lcom/squareup/okhttp/internal/framed/Header;->name:Lokio/ByteString;
@@ -832,7 +820,6 @@
 
     if-nez v3, :cond_0
 
-    .line 4
     aget-object v2, v2, v1
 
     iget-object v2, v2, Lcom/squareup/okhttp/internal/framed/Header;->name:Lokio/ByteString;
@@ -848,7 +835,6 @@
 
     goto :goto_0
 
-    .line 5
     :cond_1
     invoke-static {v0}, Ljava/util/Collections;->unmodifiableMap(Ljava/util/Map;)Ljava/util/Map;
 

@@ -32,10 +32,8 @@
 
     const/4 v0, 0x0
 
-    .line 15
     invoke-direct {p0, p2, v0}, Lcom/commsource/camera/mvp/helper/XSpanUtils$d;-><init>(ILcom/commsource/camera/mvp/helper/XSpanUtils$a;)V
 
-    .line 16
     iput p1, p0, Lcom/commsource/camera/mvp/helper/XSpanUtils$e;->K:I
 
     return-void
@@ -44,7 +42,6 @@
 .method synthetic constructor <init>(IILcom/commsource/camera/mvp/helper/XSpanUtils$a;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1, p2}, Lcom/commsource/camera/mvp/helper/XSpanUtils$e;-><init>(II)V
 
     return-void
@@ -55,10 +52,8 @@
 
     const/4 v0, 0x0
 
-    .line 5
     invoke-direct {p0, p2, v0}, Lcom/commsource/camera/mvp/helper/XSpanUtils$d;-><init>(ILcom/commsource/camera/mvp/helper/XSpanUtils$a;)V
 
-    .line 6
     new-instance p2, Landroid/graphics/drawable/BitmapDrawable;
 
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
@@ -73,7 +68,6 @@
 
     iput-object p2, p0, Lcom/commsource/camera/mvp/helper/XSpanUtils$e;->p:Landroid/graphics/drawable/Drawable;
 
-    .line 7
     invoke-virtual {p2}, Landroid/graphics/drawable/Drawable;->getIntrinsicWidth()I
 
     move-result p1
@@ -86,7 +80,6 @@
 
     const/4 v1, 0x0
 
-    .line 8
     invoke-virtual {p2, v1, v1, p1, v0}, Landroid/graphics/drawable/Drawable;->setBounds(IIII)V
 
     return-void
@@ -95,7 +88,6 @@
 .method synthetic constructor <init>(Landroid/graphics/Bitmap;ILcom/commsource/camera/mvp/helper/XSpanUtils$a;)V
     .locals 0
 
-    .line 2
     invoke-direct {p0, p1, p2}, Lcom/commsource/camera/mvp/helper/XSpanUtils$e;-><init>(Landroid/graphics/Bitmap;I)V
 
     return-void
@@ -106,13 +98,10 @@
 
     const/4 v0, 0x0
 
-    .line 9
     invoke-direct {p0, p2, v0}, Lcom/commsource/camera/mvp/helper/XSpanUtils$d;-><init>(ILcom/commsource/camera/mvp/helper/XSpanUtils$a;)V
 
-    .line 10
     iput-object p1, p0, Lcom/commsource/camera/mvp/helper/XSpanUtils$e;->p:Landroid/graphics/drawable/Drawable;
 
-    .line 11
     invoke-virtual {p1}, Landroid/graphics/drawable/Drawable;->getIntrinsicWidth()I
 
     move-result p2
@@ -125,7 +114,6 @@
 
     const/4 v1, 0x0
 
-    .line 12
     invoke-virtual {p1, v1, v1, p2, v0}, Landroid/graphics/drawable/Drawable;->setBounds(IIII)V
 
     return-void
@@ -134,7 +122,6 @@
 .method synthetic constructor <init>(Landroid/graphics/drawable/Drawable;ILcom/commsource/camera/mvp/helper/XSpanUtils$a;)V
     .locals 0
 
-    .line 3
     invoke-direct {p0, p1, p2}, Lcom/commsource/camera/mvp/helper/XSpanUtils$e;-><init>(Landroid/graphics/drawable/Drawable;I)V
 
     return-void
@@ -145,10 +132,8 @@
 
     const/4 v0, 0x0
 
-    .line 13
     invoke-direct {p0, p2, v0}, Lcom/commsource/camera/mvp/helper/XSpanUtils$d;-><init>(ILcom/commsource/camera/mvp/helper/XSpanUtils$a;)V
 
-    .line 14
     iput-object p1, p0, Lcom/commsource/camera/mvp/helper/XSpanUtils$e;->J:Landroid/net/Uri;
 
     return-void
@@ -157,7 +142,6 @@
 .method synthetic constructor <init>(Landroid/net/Uri;ILcom/commsource/camera/mvp/helper/XSpanUtils$a;)V
     .locals 0
 
-    .line 4
     invoke-direct {p0, p1, p2}, Lcom/commsource/camera/mvp/helper/XSpanUtils$e;-><init>(Landroid/net/Uri;I)V
 
     return-void
@@ -172,14 +156,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/mvp/helper/XSpanUtils$e;->p:Landroid/graphics/drawable/Drawable;
 
     if-eqz v1, :cond_0
 
     goto/16 :goto_1
 
-    .line 2
     :cond_0
     iget-object v1, p0, Lcom/commsource/camera/mvp/helper/XSpanUtils$e;->J:Landroid/net/Uri;
 
@@ -191,7 +173,6 @@
 
     if-eqz v1, :cond_2
 
-    .line 3
     :try_start_0
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
@@ -207,12 +188,10 @@
 
     move-result-object v1
 
-    .line 4
     invoke-static {v1}, Landroid/graphics/BitmapFactory;->decodeStream(Ljava/io/InputStream;)Landroid/graphics/Bitmap;
 
     move-result-object v5
 
-    .line 5
     new-instance v6, Landroid/graphics/drawable/BitmapDrawable;
 
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
@@ -227,7 +206,6 @@
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_1
 
-    .line 6
     :try_start_1
     invoke-virtual {v6}, Landroid/graphics/drawable/Drawable;->getIntrinsicWidth()I
 
@@ -237,12 +215,10 @@
 
     move-result v5
 
-    .line 7
     invoke-virtual {v6, v3, v3, v4, v5}, Landroid/graphics/drawable/Drawable;->setBounds(IIII)V
 
     if-eqz v1, :cond_1
 
-    .line 8
     invoke-virtual {v1}, Ljava/io/InputStream;->close()V
     :try_end_1
     .catch Ljava/lang/Exception; {:try_start_1 .. :try_end_1} :catch_0
@@ -262,7 +238,6 @@
     :catch_1
     move-exception v1
 
-    .line 9
     :goto_0
     new-instance v3, Ljava/lang/StringBuilder;
 
@@ -286,7 +261,6 @@
 
     goto :goto_1
 
-    .line 10
     :cond_2
     :try_start_2
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
@@ -301,7 +275,6 @@
     :try_end_2
     .catch Ljava/lang/Exception; {:try_start_2 .. :try_end_2} :catch_2
 
-    .line 11
     :try_start_3
     invoke-virtual {v1}, Landroid/graphics/drawable/Drawable;->getIntrinsicWidth()I
 
@@ -311,7 +284,6 @@
 
     move-result v5
 
-    .line 12
     invoke-virtual {v1, v3, v3, v4, v5}, Landroid/graphics/drawable/Drawable;->setBounds(IIII)V
     :try_end_3
     .catch Ljava/lang/Exception; {:try_start_3 .. :try_end_3} :catch_3
@@ -321,7 +293,6 @@
     :catch_2
     move-object v1, v4
 
-    .line 13
     :catch_3
     new-instance v3, Ljava/lang/StringBuilder;
 
@@ -341,7 +312,6 @@
 
     invoke-static {v2, v3}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 14
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

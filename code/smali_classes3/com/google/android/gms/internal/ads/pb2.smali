@@ -14,10 +14,8 @@
 .method public constructor <init>(J)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-wide p1, p0, Lcom/google/android/gms/internal/ads/pb2;->a:J
 
     return-void
@@ -36,7 +34,6 @@
 .method public final getDurationUs()J
     .locals 2
 
-    .line 1
     iget-wide v0, p0, Lcom/google/android/gms/internal/ads/pb2;->a:J
 
     return-wide v0

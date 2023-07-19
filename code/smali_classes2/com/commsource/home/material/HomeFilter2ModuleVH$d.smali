@@ -55,7 +55,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p2, Lcom/commsource/home/entity/g;
 
     invoke-virtual {p0, p1, p2}, Lcom/commsource/home/material/HomeFilter2ModuleVH$d;->b(ILcom/commsource/home/entity/g;)Z
@@ -82,7 +81,6 @@
 
     if-eqz v9, :cond_0
 
-    .line 1
     iget-object v1, v0, Lcom/commsource/home/material/HomeFilter2ModuleVH$d;->a:Lcom/commsource/home/material/HomeFilter2ModuleVH;
 
     invoke-virtual {v1}, Lcom/commsource/home/BaseHomeModuleVH;->y()Lcom/commsource/home/NewHomeContentViewModel;
@@ -97,7 +95,6 @@
 
     invoke-virtual {v1, v2, v9}, Lcom/commsource/home/NewHomeContentViewModel;->P(Landroid/app/Activity;Lcom/commsource/home/entity/g;)V
 
-    .line 2
     iget-object v1, v0, Lcom/commsource/home/material/HomeFilter2ModuleVH$d;->a:Lcom/commsource/home/material/HomeFilter2ModuleVH;
 
     invoke-virtual {v1}, Lcom/commsource/home/BaseHomeModuleVH;->y()Lcom/commsource/home/NewHomeContentViewModel;
@@ -146,7 +143,6 @@
 
     invoke-static/range {v1 .. v8}, Lcom/commsource/home/d;->b(Lcom/commsource/home/d;ILcom/commsource/home/entity/ContentModule;ILcom/commsource/home/entity/d;Ljava/lang/String;ILjava/lang/Object;)V
 
-    .line 3
     iget-object v1, v0, Lcom/commsource/home/material/HomeFilter2ModuleVH$d;->a:Lcom/commsource/home/material/HomeFilter2ModuleVH;
 
     invoke-virtual {v1}, Lcom/commsource/home/BaseHomeModuleVH;->y()Lcom/commsource/home/NewHomeContentViewModel;
@@ -197,7 +193,6 @@
 
     invoke-static/range {v1 .. v9}, Lcom/commsource/home/d;->m(Lcom/commsource/home/d;Ljava/lang/String;ILcom/commsource/home/entity/ContentModule;ILcom/commsource/home/entity/d;Ljava/lang/String;ILjava/lang/Object;)V
 
-    .line 4
     :cond_0
     invoke-static {v10}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

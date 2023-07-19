@@ -18,7 +18,6 @@
 .method protected constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/google/common/collect/u0;-><init>()V
 
     return-void
@@ -37,7 +36,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/util/concurrent/t;->J0()Ljava/util/concurrent/ExecutorService;
 
     move-result-object v0
@@ -52,7 +50,6 @@
 .method protected bridge synthetic delegate()Ljava/lang/Object;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/util/concurrent/t;->J0()Ljava/util/concurrent/ExecutorService;
 
     move-result-object v0
@@ -63,7 +60,6 @@
 .method public execute(Ljava/lang/Runnable;)V
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/util/concurrent/t;->J0()Ljava/util/concurrent/ExecutorService;
 
     move-result-object v0
@@ -96,7 +92,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/util/concurrent/t;->J0()Ljava/util/concurrent/ExecutorService;
 
     move-result-object v0
@@ -133,7 +128,6 @@
         }
     .end annotation
 
-    .line 2
     invoke-virtual {p0}, Lcom/google/common/util/concurrent/t;->J0()Ljava/util/concurrent/ExecutorService;
 
     move-result-object v0
@@ -166,7 +160,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/util/concurrent/t;->J0()Ljava/util/concurrent/ExecutorService;
 
     move-result-object v0
@@ -202,7 +195,6 @@
         }
     .end annotation
 
-    .line 2
     invoke-virtual {p0}, Lcom/google/common/util/concurrent/t;->J0()Ljava/util/concurrent/ExecutorService;
 
     move-result-object v0
@@ -217,7 +209,6 @@
 .method public isShutdown()Z
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/util/concurrent/t;->J0()Ljava/util/concurrent/ExecutorService;
 
     move-result-object v0
@@ -232,7 +223,6 @@
 .method public isTerminated()Z
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/util/concurrent/t;->J0()Ljava/util/concurrent/ExecutorService;
 
     move-result-object v0
@@ -247,7 +237,6 @@
 .method public shutdown()V
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/util/concurrent/t;->J0()Ljava/util/concurrent/ExecutorService;
 
     move-result-object v0
@@ -268,7 +257,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/util/concurrent/t;->J0()Ljava/util/concurrent/ExecutorService;
 
     move-result-object v0
@@ -292,7 +280,6 @@
         }
     .end annotation
 
-    .line 2
     invoke-virtual {p0}, Lcom/google/common/util/concurrent/t;->J0()Ljava/util/concurrent/ExecutorService;
 
     move-result-object v0
@@ -318,7 +305,6 @@
         }
     .end annotation
 
-    .line 3
     invoke-virtual {p0}, Lcom/google/common/util/concurrent/t;->J0()Ljava/util/concurrent/ExecutorService;
 
     move-result-object v0
@@ -344,7 +330,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/util/concurrent/t;->J0()Ljava/util/concurrent/ExecutorService;
 
     move-result-object v0

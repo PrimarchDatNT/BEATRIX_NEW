@@ -26,7 +26,6 @@
 .method static constructor <clinit>()V
     .locals 2
 
-    .line 1
     new-instance v0, Lcom/google/android/gms/internal/ads/hu1;
 
     invoke-direct {v0}, Lcom/google/android/gms/internal/ads/hu1;-><init>()V
@@ -37,20 +36,16 @@
 
     sput-object v0, Lcom/google/android/gms/internal/ads/mu1;->a:Ljava/lang/String;
 
-    .line 2
     invoke-static {}, Lcom/google/android/gms/internal/ads/kx1;->A()Lcom/google/android/gms/internal/ads/kx1;
 
     move-result-object v0
 
-    .line 3
     sput-object v0, Lcom/google/android/gms/internal/ads/mu1;->b:Lcom/google/android/gms/internal/ads/kx1;
 
     sput-object v0, Lcom/google/android/gms/internal/ads/mu1;->c:Lcom/google/android/gms/internal/ads/kx1;
 
-    .line 4
     sput-object v0, Lcom/google/android/gms/internal/ads/mu1;->d:Lcom/google/android/gms/internal/ads/kx1;
 
-    .line 5
     :try_start_0
     invoke-static {}, Lcom/google/android/gms/internal/ads/mu1;->a()V
     :try_end_0
@@ -61,7 +56,6 @@
     :catch_0
     move-exception v0
 
-    .line 6
     new-instance v1, Ljava/lang/ExceptionInInitializerError;
 
     invoke-direct {v1, v0}, Ljava/lang/ExceptionInInitializerError;-><init>(Ljava/lang/Throwable;)V
@@ -77,7 +71,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/google/android/gms/internal/ads/hu1;
 
     invoke-direct {v0}, Lcom/google/android/gms/internal/ads/hu1;-><init>()V
@@ -86,14 +79,12 @@
 
     invoke-static {v0, v1}, Lcom/google/android/gms/internal/ads/hs1;->k(Lcom/google/android/gms/internal/ads/sr1;Z)V
 
-    .line 2
     new-instance v0, Lcom/google/android/gms/internal/ads/cu1;
 
     invoke-direct {v0}, Lcom/google/android/gms/internal/ads/cu1;-><init>()V
 
     invoke-static {v0, v1}, Lcom/google/android/gms/internal/ads/hs1;->k(Lcom/google/android/gms/internal/ads/sr1;Z)V
 
-    .line 3
     new-instance v0, Lcom/google/android/gms/internal/ads/ku1;
 
     invoke-direct {v0}, Lcom/google/android/gms/internal/ads/ku1;-><init>()V

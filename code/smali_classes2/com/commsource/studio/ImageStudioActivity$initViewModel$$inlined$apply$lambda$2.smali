@@ -75,7 +75,6 @@
 
     goto :goto_0
 
-    .line 1
     :cond_0
     invoke-virtual/range {p1 .. p1}, Ljava/lang/Integer;->intValue()I
 
@@ -98,7 +97,6 @@
 
     if-ne v9, v6, :cond_6
 
-    .line 2
     :goto_1
     iget-object v9, v0, Lcom/commsource/studio/ImageStudioActivity$initViewModel$$inlined$apply$lambda$2;->a:Lcom/commsource/studio/ImageStudioActivity;
 
@@ -134,7 +132,6 @@
     :goto_3
     invoke-virtual {v9, v10}, Landroid/widget/TextView;->setVisibility(I)V
 
-    .line 3
     iget-object v9, v0, Lcom/commsource/studio/ImageStudioActivity$initViewModel$$inlined$apply$lambda$2;->a:Lcom/commsource/studio/ImageStudioActivity;
 
     invoke-virtual {v9}, Lcom/commsource/studio/ImageStudioActivity;->l1()Lcom/commsource/beautyplus/f0/k0;
@@ -151,7 +148,6 @@
 
     invoke-static {v9, v7}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 4
     invoke-virtual {v9}, Landroid/view/View;->getVisibility()I
 
     move-result v9
@@ -166,7 +162,6 @@
     :goto_4
     if-eqz v6, :cond_8
 
-    .line 5
     iget-object v5, v0, Lcom/commsource/studio/ImageStudioActivity$initViewModel$$inlined$apply$lambda$2;->a:Lcom/commsource/studio/ImageStudioActivity;
 
     invoke-virtual {v5}, Lcom/commsource/studio/ImageStudioActivity;->l1()Lcom/commsource/beautyplus/f0/k0;
@@ -201,7 +196,6 @@
 
     invoke-static/range {v9 .. v15}, Lcom/commsource/util/l0;->q0(Landroid/view/View;FJLcotlin/jvm/u/a;ILjava/lang/Object;)V
 
-    .line 6
     iget-object v5, v0, Lcom/commsource/studio/ImageStudioActivity$initViewModel$$inlined$apply$lambda$2;->a:Lcom/commsource/studio/ImageStudioActivity;
 
     invoke-virtual {v5}, Lcom/commsource/studio/ImageStudioActivity;->l1()Lcom/commsource/beautyplus/f0/k0;
@@ -224,7 +218,6 @@
 
     invoke-static/range {v6 .. v12}, Lcom/commsource/util/l0;->q0(Landroid/view/View;FJLcotlin/jvm/u/a;ILjava/lang/Object;)V
 
-    .line 7
     iget-object v4, v0, Lcom/commsource/studio/ImageStudioActivity$initViewModel$$inlined$apply$lambda$2;->a:Lcom/commsource/studio/ImageStudioActivity;
 
     sget v5, Lcom/res/provider/ResID;->layerSelectComponent:I
@@ -251,7 +244,6 @@
 
     invoke-static/range {v5 .. v11}, Lcom/commsource/util/l0;->q0(Landroid/view/View;FJLcotlin/jvm/u/a;ILjava/lang/Object;)V
 
-    .line 8
     iget-object v3, v0, Lcom/commsource/studio/ImageStudioActivity$initViewModel$$inlined$apply$lambda$2;->a:Lcom/commsource/studio/ImageStudioActivity;
 
     sget v4, Lcom/res/provider/ResID;->undoRedo:I
@@ -280,7 +272,6 @@
 
     goto/16 :goto_6
 
-    .line 9
     :cond_6
     :goto_5
     iget-object v6, v0, Lcom/commsource/studio/ImageStudioActivity$initViewModel$$inlined$apply$lambda$2;->a:Lcom/commsource/studio/ImageStudioActivity;
@@ -295,7 +286,6 @@
 
     invoke-static {v6}, Lcom/commsource/util/l0;->w(Landroid/view/View;)V
 
-    .line 10
     iget-object v5, v0, Lcom/commsource/studio/ImageStudioActivity$initViewModel$$inlined$apply$lambda$2;->a:Lcom/commsource/studio/ImageStudioActivity;
 
     invoke-virtual {v5}, Lcom/commsource/studio/ImageStudioActivity;->l1()Lcom/commsource/beautyplus/f0/k0;
@@ -314,7 +304,6 @@
 
     invoke-static {v5}, Lcom/commsource/util/l0;->v0(Landroid/view/View;)V
 
-    .line 11
     iget-object v5, v0, Lcom/commsource/studio/ImageStudioActivity$initViewModel$$inlined$apply$lambda$2;->a:Lcom/commsource/studio/ImageStudioActivity;
 
     invoke-virtual {v5}, Lcom/commsource/studio/ImageStudioActivity;->l1()Lcom/commsource/beautyplus/f0/k0;
@@ -343,7 +332,6 @@
 
     invoke-static/range {v9 .. v15}, Lcom/commsource/util/l0;->q0(Landroid/view/View;FJLcotlin/jvm/u/a;ILjava/lang/Object;)V
 
-    .line 12
     iget-object v5, v0, Lcom/commsource/studio/ImageStudioActivity$initViewModel$$inlined$apply$lambda$2;->a:Lcom/commsource/studio/ImageStudioActivity;
 
     invoke-virtual {v5}, Lcom/commsource/studio/ImageStudioActivity;->l1()Lcom/commsource/beautyplus/f0/k0;
@@ -374,7 +362,6 @@
 
     sub-float/2addr v5, v6
 
-    .line 13
     iget-object v6, v0, Lcom/commsource/studio/ImageStudioActivity$initViewModel$$inlined$apply$lambda$2;->a:Lcom/commsource/studio/ImageStudioActivity;
 
     sget v7, Lcom/res/provider/ResID;->layerSelectComponent:I
@@ -391,7 +378,6 @@
 
     if-nez v6, :cond_7
 
-    .line 14
     iget-object v6, v0, Lcom/commsource/studio/ImageStudioActivity$initViewModel$$inlined$apply$lambda$2;->a:Lcom/commsource/studio/ImageStudioActivity;
 
     invoke-virtual {v6, v7}, Lcom/commsource/studio/ImageStudioActivity;->M0(I)Landroid/view/View;
@@ -402,7 +388,6 @@
 
     invoke-virtual {v6}, Lcom/commsource/studio/gesture/LayerSelectComponent;->x()V
 
-    .line 15
     :cond_7
     iget-object v6, v0, Lcom/commsource/studio/ImageStudioActivity$initViewModel$$inlined$apply$lambda$2;->a:Lcom/commsource/studio/ImageStudioActivity;
 
@@ -428,7 +413,6 @@
 
     invoke-static/range {v8 .. v14}, Lcom/commsource/util/l0;->q0(Landroid/view/View;FJLcotlin/jvm/u/a;ILjava/lang/Object;)V
 
-    .line 16
     iget-object v5, v0, Lcom/commsource/studio/ImageStudioActivity$initViewModel$$inlined$apply$lambda$2;->a:Lcom/commsource/studio/ImageStudioActivity;
 
     invoke-virtual {v5, v7}, Lcom/commsource/studio/ImageStudioActivity;->M0(I)Landroid/view/View;
@@ -453,7 +437,6 @@
 
     invoke-static/range {v9 .. v15}, Lcom/commsource/util/l0;->q0(Landroid/view/View;FJLcotlin/jvm/u/a;ILjava/lang/Object;)V
 
-    .line 17
     iget-object v3, v0, Lcom/commsource/studio/ImageStudioActivity$initViewModel$$inlined$apply$lambda$2;->a:Lcom/commsource/studio/ImageStudioActivity;
 
     sget v5, Lcom/res/provider/ResID;->undoRedo:I
@@ -470,7 +453,6 @@
 
     invoke-static/range {v9 .. v15}, Lcom/commsource/util/l0;->q0(Landroid/view/View;FJLcotlin/jvm/u/a;ILjava/lang/Object;)V
 
-    .line 18
     :cond_8
     :goto_6
     invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -485,7 +467,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Ljava/lang/Integer;
 
     invoke-virtual {p0, p1}, Lcom/commsource/studio/ImageStudioActivity$initViewModel$$inlined$apply$lambda$2;->a(Ljava/lang/Integer;)V

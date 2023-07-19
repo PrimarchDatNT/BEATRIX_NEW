@@ -40,7 +40,6 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
     new-instance v0, Lcom/google/firebase/auth/u;
 
     invoke-direct {v0}, Lcom/google/firebase/auth/u;-><init>()V
@@ -71,17 +70,14 @@
     .annotation build Lcom/google/android/gms/common/internal/safeparcel/SafeParcelable$b;
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Lcom/google/firebase/auth/AuthCredential;-><init>()V
 
-    .line 2
     invoke-static {p1}, Lcom/google/android/gms/common/internal/b0;->g(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p1
 
     iput-object p1, p0, Lcom/google/firebase/auth/TwitterAuthCredential;->a:Ljava/lang/String;
 
-    .line 3
     invoke-static {p2}, Lcom/google/android/gms/common/internal/b0;->g(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p1
@@ -102,21 +98,16 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-static {p0}, Lcom/google/android/gms/common/internal/b0;->k(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 2
     new-instance v9, Lcom/google/android/gms/internal/firebase_auth/zzfm;
 
-    .line 3
     iget-object v2, p0, Lcom/google/firebase/auth/TwitterAuthCredential;->a:Ljava/lang/String;
 
-    .line 4
     invoke-virtual {p0}, Lcom/google/firebase/auth/AuthCredential;->y()Ljava/lang/String;
 
     move-result-object v3
 
-    .line 5
     iget-object v5, p0, Lcom/google/firebase/auth/TwitterAuthCredential;->b:Ljava/lang/String;
 
     const/4 v1, 0x0
@@ -131,7 +122,6 @@
 
     move-object v7, p1
 
-    .line 6
     invoke-direct/range {v0 .. v8}, Lcom/google/android/gms/internal/firebase_auth/zzfm;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     return-object v9
@@ -142,30 +132,24 @@
 .method public writeToParcel(Landroid/os/Parcel;I)V
     .locals 3
 
-    .line 1
     invoke-static {p1}, Lcom/google/android/gms/common/internal/safeparcel/a;->a(Landroid/os/Parcel;)I
 
     move-result p2
 
-    .line 2
     iget-object v0, p0, Lcom/google/firebase/auth/TwitterAuthCredential;->a:Ljava/lang/String;
 
     const/4 v1, 0x1
 
     const/4 v2, 0x0
 
-    .line 3
     invoke-static {p1, v1, v0, v2}, Lcom/google/android/gms/common/internal/safeparcel/a;->X(Landroid/os/Parcel;ILjava/lang/String;Z)V
 
-    .line 4
     iget-object v0, p0, Lcom/google/firebase/auth/TwitterAuthCredential;->b:Ljava/lang/String;
 
     const/4 v1, 0x2
 
-    .line 5
     invoke-static {p1, v1, v0, v2}, Lcom/google/android/gms/common/internal/safeparcel/a;->X(Landroid/os/Parcel;ILjava/lang/String;Z)V
 
-    .line 6
     invoke-static {p1, p2}, Lcom/google/android/gms/common/internal/safeparcel/a;->b(Landroid/os/Parcel;I)V
 
     return-void

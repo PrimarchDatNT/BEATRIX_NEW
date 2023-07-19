@@ -25,10 +25,8 @@
 .method constructor <init>(II)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1}, Ljava/util/ArrayList;-><init>(I)V
 
-    .line 2
     iput p2, p0, Lorg/jsoup/parser/ParseErrorList;->maxSize:I
 
     return-void
@@ -37,7 +35,6 @@
 .method public static noTracking()Lorg/jsoup/parser/ParseErrorList;
     .locals 2
 
-    .line 1
     new-instance v0, Lorg/jsoup/parser/ParseErrorList;
 
     const/4 v1, 0x0
@@ -50,7 +47,6 @@
 .method public static tracking(I)Lorg/jsoup/parser/ParseErrorList;
     .locals 2
 
-    .line 1
     new-instance v0, Lorg/jsoup/parser/ParseErrorList;
 
     const/16 v1, 0x10
@@ -65,7 +61,6 @@
 .method canAddError()Z
     .locals 2
 
-    .line 1
     invoke-virtual {p0}, Ljava/util/ArrayList;->size()I
 
     move-result v0
@@ -88,7 +83,6 @@
 .method getMaxSize()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lorg/jsoup/parser/ParseErrorList;->maxSize:I
 
     return v0

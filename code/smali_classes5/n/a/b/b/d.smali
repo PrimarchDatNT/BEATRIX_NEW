@@ -15,7 +15,6 @@
 .method static constructor <clinit>()V
     .locals 0
 
-    .line 1
     invoke-static {}, Ln/a/b/b/d;->p()V
 
     return-void
@@ -24,10 +23,8 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     sget-object v0, Ln/a/b/b/d;->b:Ln/a/b/b/g/d;
 
     invoke-interface {v0}, Ln/a/b/b/g/d;->b()Ln/a/b/b/g/c;
@@ -42,7 +39,6 @@
 .method private static b(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
     .locals 0
 
-    .line 1
     :try_start_0
     invoke-static {p0, p1}, Ljava/lang/System;->getProperty(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
@@ -59,7 +55,6 @@
 .method private static c()Ln/a/b/b/g/d;
     .locals 1
 
-    .line 1
     new-instance v0, Ln/a/b/b/g/e;
 
     invoke-direct {v0}, Ln/a/b/b/g/e;-><init>()V
@@ -70,7 +65,6 @@
 .method private static d()Ln/a/b/b/g/d;
     .locals 1
 
-    .line 1
     new-instance v0, Ln/a/b/b/g/f;
 
     invoke-direct {v0}, Ln/a/b/b/g/f;-><init>()V
@@ -81,7 +75,6 @@
 .method private e()Ljava/util/Stack;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Ln/a/b/b/d;->a:Ln/a/b/b/g/c;
 
     invoke-interface {v0}, Ln/a/b/b/g/c;->a()Ljava/util/Stack;
@@ -94,7 +87,6 @@
 .method public static f()Ljava/lang/String;
     .locals 1
 
-    .line 1
     sget-object v0, Ln/a/b/b/d;->b:Ln/a/b/b/g/d;
 
     invoke-virtual {v0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
@@ -115,12 +107,10 @@
 
     const-string v1, "unspecified"
 
-    .line 1
     invoke-static {v0, v1}, Ln/a/b/b/d;->b(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
 
-    .line 2
     invoke-virtual {v0, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v1
@@ -135,14 +125,12 @@
 
     const-string v1, "0.0"
 
-    .line 3
     invoke-static {v0, v1}, Ljava/lang/System;->getProperty(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
 
     const-string v1, "46.0"
 
-    .line 4
     invoke-virtual {v0, v1}, Ljava/lang/String;->compareTo(Ljava/lang/String;)I
 
     move-result v0
@@ -158,7 +146,6 @@
     :cond_1
     const-string v1, "yes"
 
-    .line 5
     invoke-virtual {v0, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v1
@@ -179,7 +166,6 @@
     :goto_1
     if-eqz v2, :cond_3
 
-    .line 6
     invoke-static {}, Ln/a/b/b/d;->c()Ln/a/b/b/g/d;
 
     move-result-object v0
@@ -188,7 +174,6 @@
 
     goto :goto_2
 
-    .line 7
     :cond_3
     invoke-static {}, Ln/a/b/b/d;->d()Ln/a/b/b/g/d;
 
@@ -205,7 +190,6 @@
 .method public a(I)Ljava/lang/Object;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Ln/a/b/b/d;->i()Ln/a/b/a;
 
     move-result-object v0
@@ -216,7 +200,6 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     invoke-virtual {v0, p1}, Ln/a/b/a;->a(I)Ljava/lang/Object;
 
@@ -229,7 +212,6 @@
 .method public g()Z
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ln/a/b/b/d;->e()Ljava/util/Stack;
 
     move-result-object v0
@@ -246,26 +228,22 @@
 .method public h()Ljava/lang/Object;
     .locals 2
 
-    .line 1
     invoke-direct {p0}, Ln/a/b/b/d;->e()Ljava/util/Stack;
 
     move-result-object v0
 
-    .line 2
     invoke-virtual {v0}, Ljava/util/Stack;->isEmpty()Z
 
     move-result v1
 
     if-nez v1, :cond_0
 
-    .line 3
     invoke-virtual {v0}, Ljava/util/Stack;->peek()Ljava/lang/Object;
 
     move-result-object v0
 
     return-object v0
 
-    .line 4
     :cond_0
     new-instance v0, Lorg/aspectj/lang/NoAspectBoundException;
 
@@ -277,12 +255,10 @@
 .method public i()Ln/a/b/a;
     .locals 2
 
-    .line 1
     invoke-direct {p0}, Ln/a/b/b/d;->e()Ljava/util/Stack;
 
     move-result-object v0
 
-    .line 2
     invoke-virtual {v0}, Ljava/util/Stack;->isEmpty()Z
 
     move-result v1
@@ -293,7 +269,6 @@
 
     return-object v0
 
-    .line 3
     :cond_0
     invoke-virtual {v0}, Ljava/util/Stack;->peek()Ljava/lang/Object;
 
@@ -307,21 +282,18 @@
 .method public j()Ljava/lang/Object;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Ln/a/b/b/d;->i()Ln/a/b/a;
 
     move-result-object v0
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-virtual {v0}, Ln/a/b/a;->b()Ljava/lang/Object;
 
     move-result-object v0
 
     return-object v0
 
-    .line 3
     :cond_0
     new-instance v0, Lorg/aspectj/lang/NoAspectBoundException;
 
@@ -333,12 +305,10 @@
 .method public k()Ln/a/b/a;
     .locals 2
 
-    .line 1
     invoke-direct {p0}, Ln/a/b/b/d;->e()Ljava/util/Stack;
 
     move-result-object v0
 
-    .line 2
     invoke-virtual {v0}, Ljava/util/Stack;->isEmpty()Z
 
     move-result v1
@@ -352,7 +322,6 @@
     :cond_0
     const/4 v1, 0x0
 
-    .line 3
     invoke-virtual {v0, v1}, Ljava/util/Stack;->elementAt(I)Ljava/lang/Object;
 
     move-result-object v0
@@ -365,22 +334,18 @@
 .method public l()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ln/a/b/b/d;->e()Ljava/util/Stack;
 
     move-result-object v0
 
-    .line 2
     invoke-virtual {v0}, Ljava/util/Stack;->pop()Ljava/lang/Object;
 
-    .line 3
     invoke-virtual {v0}, Ljava/util/Stack;->isEmpty()Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
-    .line 4
     iget-object v0, p0, Ln/a/b/b/d;->a:Ln/a/b/b/g/c;
 
     invoke-interface {v0}, Ln/a/b/b/g/c;->b()V
@@ -392,7 +357,6 @@
 .method public m(Ljava/lang/Object;)V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ln/a/b/b/d;->e()Ljava/util/Stack;
 
     move-result-object v0
@@ -405,7 +369,6 @@
 .method public n([Ljava/lang/Object;)V
     .locals 2
 
-    .line 1
     invoke-direct {p0}, Ln/a/b/b/d;->e()Ljava/util/Stack;
 
     move-result-object v0
@@ -422,7 +385,6 @@
 .method public o(Ljava/lang/Object;)V
     .locals 2
 
-    .line 1
     invoke-direct {p0}, Ln/a/b/b/d;->e()Ljava/util/Stack;
 
     move-result-object v0

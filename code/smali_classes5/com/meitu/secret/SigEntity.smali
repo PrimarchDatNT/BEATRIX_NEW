@@ -29,7 +29,6 @@
 
     invoke-static {}, Lcom/meitu/secret/SigEntity;->ajc$preClinit()V
 
-    .line 1
     invoke-static {}, Lcom/meitu/secret/SigEntity;->getContext()Landroid/content/Context;
 
     move-result-object v1
@@ -38,16 +37,13 @@
 
     if-nez v1, :cond_0
 
-    .line 2
     invoke-static {v2}, Ljava/lang/System;->loadLibrary(Ljava/lang/String;)V
 
     goto :goto_0
 
-    .line 3
     :cond_0
     invoke-static {v1, v2}, Lcom/getkeepsafe/relinker/d;->b(Landroid/content/Context;Ljava/lang/String;)V
 
-    .line 4
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -57,16 +53,12 @@
 .method public constructor <init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/meitu/secret/SigEntity;->sigTime:Ljava/lang/String;
 
-    .line 3
     iput-object p2, p0, Lcom/meitu/secret/SigEntity;->sigVersion:Ljava/lang/String;
 
-    .line 4
     iput-object p3, p0, Lcom/meitu/secret/SigEntity;->sig:Ljava/lang/String;
 
     return-void
@@ -75,19 +67,14 @@
 .method public constructor <init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
     .locals 0
 
-    .line 5
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 6
     iput-object p1, p0, Lcom/meitu/secret/SigEntity;->sigTime:Ljava/lang/String;
 
-    .line 7
     iput-object p2, p0, Lcom/meitu/secret/SigEntity;->sigVersion:Ljava/lang/String;
 
-    .line 8
     iput-object p3, p0, Lcom/meitu/secret/SigEntity;->sig:Ljava/lang/String;
 
-    .line 9
     iput-object p4, p0, Lcom/meitu/secret/SigEntity;->finalString:Ljava/lang/String;
 
     return-void
@@ -100,7 +87,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v9, Ln/a/b/c/e;
 
     const-class v1, Lcom/meitu/secret/SigEntity;
@@ -169,25 +155,21 @@
 
     if-eqz p2, :cond_2
 
-    .line 14
     array-length v1, p1
 
     new-array v1, v1, [[B
 
     const/4 v2, 0x0
 
-    .line 15
     :goto_0
     array-length v3, p1
 
     if-ge v2, v3, :cond_1
 
-    .line 16
     aget-object v3, p1, v2
 
     if-nez v3, :cond_0
 
-    .line 17
     new-instance v3, Ljava/lang/StringBuilder;
 
     invoke-direct {v3}, Ljava/lang/StringBuilder;-><init>()V
@@ -214,10 +196,8 @@
 
     const-string v3, ""
 
-    .line 18
     aput-object v3, p1, v2
 
-    .line 19
     :cond_0
     aget-object v3, p1, v2
 
@@ -231,7 +211,6 @@
 
     goto :goto_0
 
-    .line 20
     :cond_1
     invoke-static {p0, v1, p2}, Lcom/meitu/secret/SigEntity;->nativeGeneratorSigOld(Ljava/lang/String;[[BLjava/lang/String;)Lcom/meitu/secret/SigEntity;
 
@@ -241,7 +220,6 @@
 
     return-object p0
 
-    .line 21
     :cond_2
     new-instance p0, Landroid/util/AndroidRuntimeException;
 
@@ -285,30 +263,25 @@
 
     if-eqz p3, :cond_3
 
-    .line 1
     instance-of v1, p3, Landroid/content/Context;
 
     if-eqz v1, :cond_2
 
-    .line 2
     array-length v1, p1
 
     new-array v1, v1, [[B
 
     const/4 v2, 0x0
 
-    .line 3
     :goto_0
     array-length v3, p1
 
     if-ge v2, v3, :cond_1
 
-    .line 4
     aget-object v3, p1, v2
 
     if-nez v3, :cond_0
 
-    .line 5
     new-instance v3, Ljava/lang/StringBuilder;
 
     invoke-direct {v3}, Ljava/lang/StringBuilder;-><init>()V
@@ -335,10 +308,8 @@
 
     const-string v3, ""
 
-    .line 6
     aput-object v3, p1, v2
 
-    .line 7
     :cond_0
     aget-object v3, p1, v2
 
@@ -352,7 +323,6 @@
 
     goto :goto_0
 
-    .line 8
     :cond_1
     :try_start_0
     invoke-static {p0, v1, p2, p3}, Lcom/meitu/secret/SigEntity;->nativeGeneratorSig(Ljava/lang/String;[[BLjava/lang/String;Ljava/lang/Object;)Lcom/meitu/secret/SigEntity;
@@ -363,7 +333,6 @@
 
     goto :goto_1
 
-    .line 9
     :catch_0
     move-object p1, p3
 
@@ -373,18 +342,15 @@
 
     invoke-static {p1, v2}, Lcom/getkeepsafe/relinker/d;->b(Landroid/content/Context;Ljava/lang/String;)V
 
-    .line 10
     invoke-static {p0, v1, p2, p3}, Lcom/meitu/secret/SigEntity;->nativeGeneratorSig(Ljava/lang/String;[[BLjava/lang/String;Ljava/lang/Object;)Lcom/meitu/secret/SigEntity;
 
     move-result-object p0
 
-    .line 11
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
 
-    .line 12
     :cond_2
     new-instance p0, Landroid/util/AndroidRuntimeException;
 
@@ -396,7 +362,6 @@
 
     throw p0
 
-    .line 13
     :cond_3
     new-instance p0, Landroid/util/AndroidRuntimeException;
 
@@ -422,25 +387,21 @@
 
     if-eqz p2, :cond_2
 
-    .line 1
     array-length v1, p1
 
     new-array v1, v1, [[B
 
     const/4 v2, 0x0
 
-    .line 2
     :goto_0
     array-length v3, p1
 
     if-ge v2, v3, :cond_1
 
-    .line 3
     aget-object v3, p1, v2
 
     if-nez v3, :cond_0
 
-    .line 4
     new-instance v3, Ljava/lang/StringBuilder;
 
     invoke-direct {v3}, Ljava/lang/StringBuilder;-><init>()V
@@ -467,10 +428,8 @@
 
     const-string v3, ""
 
-    .line 5
     aput-object v3, p1, v2
 
-    .line 6
     :cond_0
     aget-object v3, p1, v2
 
@@ -484,7 +443,6 @@
 
     goto :goto_0
 
-    .line 7
     :cond_1
     invoke-static {p0, v1, p2, p3}, Lcom/meitu/secret/SigEntity;->nativeGeneratorSigFinal(Ljava/lang/String;[[BLjava/lang/String;Ljava/lang/Object;)Lcom/meitu/secret/SigEntity;
 
@@ -494,7 +452,6 @@
 
     return-object p0
 
-    .line 8
     :cond_2
     new-instance p0, Landroid/util/AndroidRuntimeException;
 
@@ -519,7 +476,6 @@
     :try_start_0
     const-string v2, "android.app.ActivityThread"
 
-    .line 1
     invoke-static {v2}, Ljava/lang/Class;->forName(Ljava/lang/String;)Ljava/lang/Class;
 
     move-result-object v2
@@ -587,10 +543,8 @@
     :catchall_0
     move-exception v2
 
-    .line 2
     invoke-virtual {v2}, Ljava/lang/Throwable;->printStackTrace()V
 
-    .line 3
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -604,7 +558,6 @@
 
     invoke-static {p3}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0, p1, p2}, Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p0

@@ -16,17 +16,14 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/4 v0, 0x1
 
-    .line 2
     iput-boolean v0, p0, Lcom/google/android/gms/internal/measurement/j2;->a:Z
 
     const/4 v0, -0x1
 
-    .line 3
     iput v0, p0, Lcom/google/android/gms/internal/measurement/j2;->b:I
 
     return-void
@@ -42,7 +39,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/android/gms/internal/measurement/j2;->zza()Lcom/google/android/gms/internal/measurement/i5;
 
     move-result-object v0
@@ -53,7 +49,6 @@
 .method public final zza()Lcom/google/android/gms/internal/measurement/i5;
     .locals 2
 
-    .line 1
     new-instance v0, Ljava/lang/UnsupportedOperationException;
 
     const-string v1, "clone() should be implemented by subclasses."

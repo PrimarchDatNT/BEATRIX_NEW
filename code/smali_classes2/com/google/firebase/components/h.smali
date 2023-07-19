@@ -62,13 +62,10 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/google/firebase/components/h;->a:Ljava/lang/Object;
 
-    .line 3
     iput-object p2, p0, Lcom/google/firebase/components/h;->b:Lcom/google/firebase/components/h$c;
 
     return-void
@@ -90,7 +87,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/google/firebase/components/h;
 
     new-instance v1, Lcom/google/firebase/components/h$b;
@@ -124,12 +120,10 @@
 
     const-string v2, "ComponentDiscovery"
 
-    .line 1
     new-instance v3, Ljava/util/ArrayList;
 
     invoke-direct {v3}, Ljava/util/ArrayList;-><init>()V
 
-    .line 2
     invoke-interface {p0}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
     move-result-object p0
@@ -151,13 +145,11 @@
 
     const/4 v6, 0x0
 
-    .line 3
     :try_start_0
     invoke-static {v4}, Ljava/lang/Class;->forName(Ljava/lang/String;)Ljava/lang/Class;
 
     move-result-object v7
 
-    .line 4
     const-class v8, Lcom/google/firebase/components/j;
 
     invoke-virtual {v8, v7}, Ljava/lang/Class;->isAssignableFrom(Ljava/lang/Class;)Z
@@ -178,12 +170,10 @@
 
     aput-object v9, v8, v5
 
-    .line 5
     invoke-static {v7, v8}, Ljava/lang/String;->format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object v7
 
-    .line 6
     invoke-static {v2, v7}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;)I
 
     goto :goto_0
@@ -191,7 +181,6 @@
     :cond_0
     new-array v8, v6, [Ljava/lang/Class;
 
-    .line 7
     invoke-virtual {v7, v8}, Ljava/lang/Class;->getDeclaredConstructor([Ljava/lang/Class;)Ljava/lang/reflect/Constructor;
 
     move-result-object v7
@@ -221,7 +210,6 @@
 
     aput-object v4, v5, v6
 
-    .line 8
     invoke-static {v0, v5}, Ljava/lang/String;->format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object v4
@@ -237,7 +225,6 @@
 
     aput-object v4, v5, v6
 
-    .line 9
     invoke-static {v0, v5}, Ljava/lang/String;->format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object v4
@@ -253,7 +240,6 @@
 
     aput-object v4, v5, v6
 
-    .line 10
     invoke-static {v1, v5}, Ljava/lang/String;->format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object v4
@@ -269,7 +255,6 @@
 
     aput-object v4, v5, v6
 
-    .line 11
     invoke-static {v1, v5}, Ljava/lang/String;->format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object v4
@@ -287,7 +272,6 @@
 
     const-string v4, "Class %s is not an found."
 
-    .line 12
     invoke-static {v4, v5}, Ljava/lang/String;->format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object v4
@@ -313,7 +297,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/components/h;->b:Lcom/google/firebase/components/h$c;
 
     iget-object v1, p0, Lcom/google/firebase/components/h;->a:Ljava/lang/Object;

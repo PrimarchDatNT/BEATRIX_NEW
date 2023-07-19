@@ -54,80 +54,64 @@
 .method public constructor <init>(Lcom/commsource/billing/bean/SubPriceInfo$Builder;)V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iget-object v0, p1, Lcom/commsource/billing/bean/SubPriceInfo$Builder;->userType:Lcom/commsource/billing/SubUserType;
 
     iput-object v0, p0, Lcom/commsource/billing/bean/SubPriceInfo;->userType:Lcom/commsource/billing/SubUserType;
 
-    .line 3
     iget-object v0, p1, Lcom/commsource/billing/bean/SubPriceInfo$Builder;->monthlyPrice:Ljava/lang/String;
 
     iput-object v0, p0, Lcom/commsource/billing/bean/SubPriceInfo;->monthlyPrice:Ljava/lang/String;
 
-    .line 4
     iget-object v0, p1, Lcom/commsource/billing/bean/SubPriceInfo$Builder;->yearlyPrice:Ljava/lang/String;
 
     iput-object v0, p0, Lcom/commsource/billing/bean/SubPriceInfo;->yearlyPrice:Ljava/lang/String;
 
-    .line 5
     iget-object v0, p1, Lcom/commsource/billing/bean/SubPriceInfo$Builder;->monthlyFullPrice:Ljava/lang/String;
 
     iput-object v0, p0, Lcom/commsource/billing/bean/SubPriceInfo;->monthlyFullPrice:Ljava/lang/String;
 
-    .line 6
     iget-object v0, p1, Lcom/commsource/billing/bean/SubPriceInfo$Builder;->yearlyFullPrice:Ljava/lang/String;
 
     iput-object v0, p0, Lcom/commsource/billing/bean/SubPriceInfo;->yearlyFullPrice:Ljava/lang/String;
 
-    .line 7
     iget-object v0, p1, Lcom/commsource/billing/bean/SubPriceInfo$Builder;->monthlyDiscount:Ljava/lang/String;
 
     iput-object v0, p0, Lcom/commsource/billing/bean/SubPriceInfo;->monthlyDiscount:Ljava/lang/String;
 
-    .line 8
     iget-object v0, p1, Lcom/commsource/billing/bean/SubPriceInfo$Builder;->yearlyDiscount:Ljava/lang/String;
 
     iput-object v0, p0, Lcom/commsource/billing/bean/SubPriceInfo;->yearlyDiscount:Ljava/lang/String;
 
-    .line 9
     iget v0, p1, Lcom/commsource/billing/bean/SubPriceInfo$Builder;->yearlyDiscountValue:I
 
     iput v0, p0, Lcom/commsource/billing/bean/SubPriceInfo;->yearlyDiscountValue:I
 
-    .line 10
     iget v0, p1, Lcom/commsource/billing/bean/SubPriceInfo$Builder;->monthlyDiscountValue:I
 
     iput v0, p0, Lcom/commsource/billing/bean/SubPriceInfo;->monthlyDiscountValue:I
 
-    .line 11
     iget v0, p1, Lcom/commsource/billing/bean/SubPriceInfo$Builder;->monthlyFreeTrialPeriod:I
 
     iput v0, p0, Lcom/commsource/billing/bean/SubPriceInfo;->monthlyFreeTrialPeriod:I
 
-    .line 12
     iget v0, p1, Lcom/commsource/billing/bean/SubPriceInfo$Builder;->yearlyFreeTrialPeriod:I
 
     iput v0, p0, Lcom/commsource/billing/bean/SubPriceInfo;->yearlyFreeTrialPeriod:I
 
-    .line 13
     iget v0, p1, Lcom/commsource/billing/bean/SubPriceInfo$Builder;->monthIntroductoryDay:I
 
     iput v0, p0, Lcom/commsource/billing/bean/SubPriceInfo;->monthIntroductoryDay:I
 
-    .line 14
     iget-object v0, p1, Lcom/commsource/billing/bean/SubPriceInfo$Builder;->monthIntroductoryPrice:Ljava/lang/String;
 
     iput-object v0, p0, Lcom/commsource/billing/bean/SubPriceInfo;->monthIntroductoryPrice:Ljava/lang/String;
 
-    .line 15
     iget v0, p1, Lcom/commsource/billing/bean/SubPriceInfo$Builder;->yearIntroductoryDay:I
 
     iput v0, p0, Lcom/commsource/billing/bean/SubPriceInfo;->yearIntroductoryDay:I
 
-    .line 16
     iget-object p1, p1, Lcom/commsource/billing/bean/SubPriceInfo$Builder;->yearIntroductoryPrice:Ljava/lang/String;
 
     iput-object p1, p0, Lcom/commsource/billing/bean/SubPriceInfo;->yearIntroductoryPrice:Ljava/lang/String;
@@ -144,7 +128,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/billing/bean/SubPriceInfo;->monthIntroductoryDay:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -159,7 +142,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/billing/bean/SubPriceInfo;->monthIntroductoryPrice:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -174,7 +156,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/billing/bean/SubPriceInfo;->monthlyDiscount:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -189,7 +170,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/billing/bean/SubPriceInfo;->monthlyDiscountValue:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -204,7 +184,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/billing/bean/SubPriceInfo;->monthlyFreeTrialPeriod:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -219,7 +198,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/billing/bean/SubPriceInfo;->monthlyFullPrice:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -234,7 +212,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/billing/bean/SubPriceInfo;->monthlyPrice:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -249,7 +226,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/billing/bean/SubPriceInfo;->userType:Lcom/commsource/billing/SubUserType;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -264,7 +240,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/billing/bean/SubPriceInfo;->yearIntroductoryDay:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -279,7 +254,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/billing/bean/SubPriceInfo;->yearIntroductoryPrice:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -294,7 +268,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/billing/bean/SubPriceInfo;->yearlyDiscount:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -309,7 +282,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/billing/bean/SubPriceInfo;->yearlyDiscountValue:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -324,7 +296,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/billing/bean/SubPriceInfo;->yearlyFreeTrialPeriod:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -339,7 +310,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/billing/bean/SubPriceInfo;->yearlyFullPrice:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -354,7 +324,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/billing/bean/SubPriceInfo;->yearlyPrice:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -369,7 +338,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/billing/bean/SubPriceInfo;->monthIntroductoryPrice:Ljava/lang/String;
 
     invoke-static {v1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
@@ -402,7 +370,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/billing/bean/SubPriceInfo;->yearIntroductoryPrice:Ljava/lang/String;
 
     invoke-static {v1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
@@ -435,7 +402,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/billing/bean/SubPriceInfo;->monthlyFullPrice:Ljava/lang/String;
 
     invoke-static {v1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
@@ -472,7 +438,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/billing/bean/SubPriceInfo;->monthlyFullPrice:Ljava/lang/String;
 
     invoke-static {v1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
@@ -491,7 +456,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/billing/bean/SubPriceInfo;->monthlyPrice:Ljava/lang/String;
 
     invoke-static {v1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
@@ -532,7 +496,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/billing/bean/SubPriceInfo;->yearlyFullPrice:Ljava/lang/String;
 
     invoke-static {v1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z

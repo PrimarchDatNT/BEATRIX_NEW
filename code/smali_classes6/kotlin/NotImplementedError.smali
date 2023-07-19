@@ -30,7 +30,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-direct {p0, p1}, Ljava/lang/Error;-><init>(Ljava/lang/String;)V
 
     return-void
@@ -45,7 +44,6 @@
 
     const-string p1, "An operation is not implemented."
 
-    .line 2
     :cond_0
     invoke-direct {p0, p1}, Lcotlin/NotImplementedError;-><init>(Ljava/lang/String;)V
 

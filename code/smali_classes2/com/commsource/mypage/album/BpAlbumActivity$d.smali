@@ -54,7 +54,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Ljava/lang/Boolean;->TRUE:Ljava/lang/Boolean;
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
@@ -63,20 +62,17 @@
 
     if-eqz p1, :cond_0
 
-    .line 2
     iget-object p1, p0, Lcom/commsource/mypage/album/BpAlbumActivity$d;->a:Lcom/commsource/mypage/album/BpAlbumActivity;
 
     invoke-virtual {p1}, Lcom/commsource/beautyplus/BaseActivity;->J0()V
 
     goto :goto_0
 
-    .line 3
     :cond_0
     iget-object p1, p0, Lcom/commsource/mypage/album/BpAlbumActivity$d;->a:Lcom/commsource/mypage/album/BpAlbumActivity;
 
     invoke-virtual {p1}, Lcom/commsource/beautyplus/BaseActivity;->r0()V
 
-    .line 4
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -90,7 +86,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Ljava/lang/Boolean;
 
     invoke-virtual {p0, p1}, Lcom/commsource/mypage/album/BpAlbumActivity$d;->a(Ljava/lang/Boolean;)V

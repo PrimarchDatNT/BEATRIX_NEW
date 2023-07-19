@@ -51,12 +51,10 @@
 .method private constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/4 v0, 0x0
 
-    .line 2
     iput-boolean v0, p0, Lcom/mopub/volley/toolbox/RequestFuture;->mResultReceived:Z
 
     return-void
@@ -82,18 +80,15 @@
 
     monitor-enter p0
 
-    .line 1
     :try_start_0
     iget-object v0, p0, Lcom/mopub/volley/toolbox/RequestFuture;->mException:Lcom/mopub/volley/VolleyError;
 
     if-nez v0, :cond_5
 
-    .line 2
     iget-boolean v0, p0, Lcom/mopub/volley/toolbox/RequestFuture;->mResultReceived:Z
 
     if-eqz v0, :cond_0
 
-    .line 3
     iget-object p1, p0, Lcom/mopub/volley/toolbox/RequestFuture;->mResult:Ljava/lang/Object;
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
@@ -107,7 +102,6 @@
 
     if-nez p1, :cond_1
 
-    .line 4
     :goto_0
     :try_start_1
     invoke-virtual {p0}, Lcom/mopub/volley/toolbox/RequestFuture;->isDone()Z
@@ -116,12 +110,10 @@
 
     if-nez p1, :cond_2
 
-    .line 5
     invoke-virtual {p0, v0, v1}, Ljava/lang/Object;->wait(J)V
 
     goto :goto_0
 
-    .line 6
     :cond_1
     invoke-virtual {p1}, Ljava/lang/Long;->longValue()J
 
@@ -131,19 +123,16 @@
 
     if-lez v4, :cond_2
 
-    .line 7
     invoke-static {}, Landroid/os/SystemClock;->uptimeMillis()J
 
     move-result-wide v0
 
-    .line 8
     invoke-virtual {p1}, Ljava/lang/Long;->longValue()J
 
     move-result-wide v2
 
     add-long/2addr v2, v0
 
-    .line 9
     :goto_1
     invoke-virtual {p0}, Lcom/mopub/volley/toolbox/RequestFuture;->isDone()Z
 
@@ -157,28 +146,23 @@
 
     sub-long v0, v2, v0
 
-    .line 10
     invoke-virtual {p0, v0, v1}, Ljava/lang/Object;->wait(J)V
 
-    .line 11
     invoke-static {}, Landroid/os/SystemClock;->uptimeMillis()J
 
     move-result-wide v0
 
     goto :goto_1
 
-    .line 12
     :cond_2
     iget-object p1, p0, Lcom/mopub/volley/toolbox/RequestFuture;->mException:Lcom/mopub/volley/VolleyError;
 
     if-nez p1, :cond_4
 
-    .line 13
     iget-boolean p1, p0, Lcom/mopub/volley/toolbox/RequestFuture;->mResultReceived:Z
 
     if-eqz p1, :cond_3
 
-    .line 14
     iget-object p1, p0, Lcom/mopub/volley/toolbox/RequestFuture;->mResult:Ljava/lang/Object;
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
@@ -187,7 +171,6 @@
 
     return-object p1
 
-    .line 15
     :cond_3
     :try_start_2
     new-instance p1, Ljava/util/concurrent/TimeoutException;
@@ -196,7 +179,6 @@
 
     throw p1
 
-    .line 16
     :cond_4
     new-instance p1, Ljava/util/concurrent/ExecutionException;
 
@@ -206,7 +188,6 @@
 
     throw p1
 
-    .line 17
     :cond_5
     new-instance p1, Ljava/util/concurrent/ExecutionException;
 
@@ -238,7 +219,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/mopub/volley/toolbox/RequestFuture;
 
     invoke-direct {v0}, Lcom/mopub/volley/toolbox/RequestFuture;-><init>()V
@@ -253,7 +233,6 @@
 
     monitor-enter p0
 
-    .line 1
     :try_start_0
     iget-object p1, p0, Lcom/mopub/volley/toolbox/RequestFuture;->mRequest:Lcom/mopub/volley/Request;
     :try_end_0
@@ -263,12 +242,10 @@
 
     if-nez p1, :cond_0
 
-    .line 2
     monitor-exit p0
 
     return v0
 
-    .line 3
     :cond_0
     :try_start_1
     invoke-virtual {p0}, Lcom/mopub/volley/toolbox/RequestFuture;->isDone()Z
@@ -277,7 +254,6 @@
 
     if-nez p1, :cond_1
 
-    .line 4
     iget-object p1, p0, Lcom/mopub/volley/toolbox/RequestFuture;->mRequest:Lcom/mopub/volley/Request;
 
     invoke-virtual {p1}, Lcom/mopub/volley/Request;->cancel()V
@@ -286,12 +262,10 @@
 
     const/4 p1, 0x1
 
-    .line 5
     monitor-exit p0
 
     return p1
 
-    .line 6
     :cond_1
     monitor-exit p0
 
@@ -322,7 +296,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     :try_start_0
     invoke-direct {p0, v0}, Lcom/mopub/volley/toolbox/RequestFuture;->doGet(Ljava/lang/Long;)Ljava/lang/Object;
 
@@ -335,7 +308,6 @@
     :catch_0
     move-exception v0
 
-    .line 2
     new-instance v1, Ljava/lang/AssertionError;
 
     invoke-direct {v1, v0}, Ljava/lang/AssertionError;-><init>(Ljava/lang/Object;)V
@@ -361,7 +333,6 @@
         }
     .end annotation
 
-    .line 3
     sget-object v0, Ljava/util/concurrent/TimeUnit;->MILLISECONDS:Ljava/util/concurrent/TimeUnit;
 
     invoke-virtual {v0, p1, p2, p3}, Ljava/util/concurrent/TimeUnit;->convert(JLjava/util/concurrent/TimeUnit;)J
@@ -382,7 +353,6 @@
 .method public isCancelled()Z
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/volley/toolbox/RequestFuture;->mRequest:Lcom/mopub/volley/Request;
 
     if-nez v0, :cond_0
@@ -391,7 +361,6 @@
 
     return v0
 
-    .line 2
     :cond_0
     invoke-virtual {v0}, Lcom/mopub/volley/Request;->isCanceled()Z
 
@@ -405,7 +374,6 @@
 
     monitor-enter p0
 
-    .line 1
     :try_start_0
     iget-boolean v0, p0, Lcom/mopub/volley/toolbox/RequestFuture;->mResultReceived:Z
 
@@ -452,16 +420,13 @@
 
     monitor-enter p0
 
-    .line 1
     :try_start_0
     iput-object p1, p0, Lcom/mopub/volley/toolbox/RequestFuture;->mException:Lcom/mopub/volley/VolleyError;
 
-    .line 2
     invoke-virtual {p0}, Ljava/lang/Object;->notifyAll()V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 3
     monitor-exit p0
 
     return-void
@@ -486,19 +451,15 @@
 
     const/4 v0, 0x1
 
-    .line 1
     :try_start_0
     iput-boolean v0, p0, Lcom/mopub/volley/toolbox/RequestFuture;->mResultReceived:Z
 
-    .line 2
     iput-object p1, p0, Lcom/mopub/volley/toolbox/RequestFuture;->mResult:Ljava/lang/Object;
 
-    .line 3
     invoke-virtual {p0}, Ljava/lang/Object;->notifyAll()V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 4
     monitor-exit p0
 
     return-void
@@ -521,7 +482,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/mopub/volley/toolbox/RequestFuture;->mRequest:Lcom/mopub/volley/Request;
 
     return-void

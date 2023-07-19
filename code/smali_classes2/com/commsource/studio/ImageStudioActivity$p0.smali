@@ -57,12 +57,10 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     sget-object v1, Lcom/commsource/studio/DraftDataManager;->i:Lcom/commsource/studio/DraftDataManager$a;
 
     invoke-virtual {v1}, Lcom/commsource/studio/DraftDataManager$a;->a()V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/ImageStudioActivity$p0;->a:Lcom/commsource/studio/ImageStudioActivity;
 
     invoke-virtual {v1}, Lcom/commsource/studio/ImageStudioActivity;->m1()Lcom/commsource/studio/ImageStudioViewModel;
@@ -87,7 +85,6 @@
 
     if-eqz v1, :cond_0
 
-    .line 3
     new-instance v1, Landroid/content/Intent;
 
     iget-object v2, p0, Lcom/commsource/studio/ImageStudioActivity$p0;->a:Lcom/commsource/studio/ImageStudioActivity;
@@ -98,17 +95,14 @@
 
     const/high16 v2, 0x24000000
 
-    .line 4
     invoke-virtual {v1, v2}, Landroid/content/Intent;->setFlags(I)Landroid/content/Intent;
 
-    .line 5
     iget-object v2, p0, Lcom/commsource/studio/ImageStudioActivity$p0;->a:Lcom/commsource/studio/ImageStudioActivity;
 
     invoke-virtual {v2, v1}, Landroid/app/Activity;->startActivity(Landroid/content/Intent;)V
 
     goto :goto_0
 
-    .line 6
     :cond_0
     iget-object v1, p0, Lcom/commsource/studio/ImageStudioActivity$p0;->a:Lcom/commsource/studio/ImageStudioActivity;
 
@@ -122,7 +116,6 @@
 
     if-eqz v1, :cond_1
 
-    .line 7
     sget-object v1, Lcom/commsource/mypage/album/BpAlbumJumpRouter;->a:Lcom/commsource/mypage/album/BpAlbumJumpRouter;
 
     iget-object v2, p0, Lcom/commsource/studio/ImageStudioActivity$p0;->a:Lcom/commsource/studio/ImageStudioActivity;
@@ -131,17 +124,14 @@
 
     goto :goto_0
 
-    .line 8
     :cond_1
     iget-object v1, p0, Lcom/commsource/studio/ImageStudioActivity$p0;->a:Lcom/commsource/studio/ImageStudioActivity;
 
     invoke-static {v1}, Lcom/commsource/studio/ImageStudioActivity;->U0(Lcom/commsource/studio/ImageStudioActivity;)V
 
-    .line 9
     :goto_0
     invoke-virtual {p1}, Lcom/commsource/widget/dialog/i0;->dismiss()V
 
-    .line 10
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

@@ -46,7 +46,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/studio/text/TextEditPage$b;->a:Lcom/commsource/beautyplus/f0/mm;
 
     iget-object v0, v0, Lcom/commsource/beautyplus/f0/mm;->f:Landroid/widget/EditText;
@@ -55,19 +54,16 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/EditText;->setText(Ljava/lang/CharSequence;)V
 
-    .line 2
     iget-object v0, p0, Lcom/commsource/studio/text/TextEditPage$b;->a:Lcom/commsource/beautyplus/f0/mm;
 
     iget-object v0, v0, Lcom/commsource/beautyplus/f0/mm;->f:Landroid/widget/EditText;
 
     invoke-static {v0}, Lcom/commsource/camera/f1/r;->a(Landroid/view/View;)V
 
-    .line 3
     iget-object v0, p0, Lcom/commsource/studio/text/TextEditPage$b;->b:Lcom/commsource/studio/text/TextEditPage;
 
     invoke-virtual {v0}, Landroid/app/Dialog;->dismiss()V
 
-    .line 4
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

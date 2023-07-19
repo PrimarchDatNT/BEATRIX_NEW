@@ -70,7 +70,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p1}, Lcom/commsource/studio/doodle/DoodleMaterial;->getPaidSort()I
 
     move-result v1
@@ -83,7 +82,6 @@
 
     if-ne v1, v2, :cond_2
 
-    .line 2
     invoke-virtual {p1}, Lcom/commsource/studio/doodle/DoodleMaterial;->isInternal()Z
 
     move-result v1
@@ -98,7 +96,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_0
     invoke-virtual {p1}, Lcom/commsource/studio/doodle/DoodleMaterial;->isInternal()Z
 
@@ -110,7 +107,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_1
     invoke-virtual {p2}, Lcom/commsource/studio/doodle/DoodleMaterial;->isInternal()Z
 
@@ -122,7 +118,6 @@
 
     goto :goto_0
 
-    .line 5
     :cond_2
     invoke-virtual {p1}, Lcom/commsource/studio/doodle/DoodleMaterial;->getPaidSort()I
 
@@ -136,7 +131,6 @@
 
     move-result v3
 
-    .line 6
     :cond_3
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -151,7 +145,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Lcom/commsource/studio/doodle/DoodleMaterial;
 
     check-cast p2, Lcom/commsource/studio/doodle/DoodleMaterial;

@@ -27,7 +27,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Landroid/content/BroadcastReceiver;-><init>()V
 
     return-void
@@ -40,7 +39,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/commsource/push/NotificationBarPush;
 
     invoke-direct {v1}, Lcom/commsource/push/NotificationBarPush;-><init>()V
@@ -49,7 +47,6 @@
 
     const/4 v3, 0x0
 
-    .line 2
     invoke-virtual {p2, v2, v3}, Landroid/content/Intent;->getIntExtra(Ljava/lang/String;I)I
 
     move-result p2
@@ -60,7 +57,6 @@
 
     if-ne p2, v4, :cond_0
 
-    .line 3
     invoke-static {p1, v4}, Lf/d/i/e;->z3(Landroid/content/Context;I)V
 
     goto :goto_0
@@ -68,10 +64,8 @@
     :cond_0
     if-ne p2, v2, :cond_1
 
-    .line 4
     invoke-static {p1, v2}, Lf/d/i/e;->z3(Landroid/content/Context;I)V
 
-    .line 5
     :cond_1
     :goto_0
     invoke-static {p1}, Lf/d/i/e;->x0(Landroid/content/Context;)I
@@ -82,7 +76,6 @@
 
     sget v2, Lcom/res/provider/ResSTRING;->notification_content1:I
 
-    .line 6
     invoke-static {p1, v4}, Lf/d/i/e;->n3(Landroid/content/Context;I)V
 
     goto :goto_1
@@ -92,7 +85,6 @@
 
     sget v3, Lcom/res/provider/ResSTRING;->notification_content2:I
 
-    .line 7
     invoke-static {p1, v2}, Lf/d/i/e;->n3(Landroid/content/Context;I)V
 
     sget v2, Lcom/res/provider/ResSTRING;->notification_content2:I
@@ -102,10 +94,8 @@
     :cond_3
     sget v2, Lcom/res/provider/ResSTRING;->notification_content3:I
 
-    .line 8
     invoke-static {p1, v3}, Lf/d/i/e;->n3(Landroid/content/Context;I)V
 
-    .line 9
     :goto_1
     new-instance v3, Ljava/lang/StringBuilder;
 
@@ -125,7 +115,6 @@
 
     sget p2, Lcom/res/provider/ResSTRING;->app_name:I
 
-    .line 10
     invoke-virtual {p1, p2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
     move-result-object p2
@@ -134,22 +123,18 @@
 
     const-string p2, "beautyplus://"
 
-    .line 11
     invoke-virtual {v1, p2}, Lcom/commsource/push/NotificationBarPush;->setUri(Ljava/lang/String;)V
 
-    .line 12
     invoke-virtual {p1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
     move-result-object p2
 
     invoke-virtual {v1, p2}, Lcom/commsource/push/NotificationBarPush;->setContent(Ljava/lang/String;)V
 
-    .line 13
     invoke-virtual {v1, v4}, Lcom/commsource/push/NotificationBarPush;->setPushType(I)V
 
     const-string p2, "notification"
 
-    .line 14
     invoke-virtual {p1, p2}, Landroid/content/Context;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
 
     move-result-object p2
@@ -158,10 +143,8 @@
 
     const/4 v2, 0x0
 
-    .line 15
     invoke-static {p2, p1, v1, v2}, Lcom/commsource/push/NotificationSender;->notificationBar(Landroid/app/NotificationManager;Landroid/content/Context;Lcom/commsource/push/NotificationBarPush;Lcom/meitu/pushkit/sdk/info/PushInfo;)V
 
-    .line 16
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -179,7 +162,6 @@
     :try_start_0
     const-string v1, "com.commsource.beautyplus.TenDaysPushNotification"
 
-    .line 1
     invoke-virtual {p2}, Landroid/content/Intent;->getAction()Ljava/lang/String;
 
     move-result-object v2
@@ -190,7 +172,6 @@
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-direct {p0, p1, p2}, Lcom/commsource/push/NotificationBroadcastReceiver;->a(Landroid/content/Context;Landroid/content/Intent;)V
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
@@ -200,10 +181,8 @@
     :catch_0
     move-exception p1
 
-    .line 3
     invoke-static {p1}, Lcom/meitu/library/util/Debug/Debug;->a0(Ljava/lang/Throwable;)V
 
-    .line 4
     :cond_0
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

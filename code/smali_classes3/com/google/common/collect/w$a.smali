@@ -45,10 +45,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Lcom/google/common/collect/l0;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/google/common/collect/w$a;->a:Ljava/lang/Object;
 
     return-void
@@ -66,7 +64,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {}, Ljava/util/Collections;->emptyList()Ljava/util/List;
 
     move-result-object v0
@@ -84,10 +81,8 @@
 
     const/4 p2, 0x0
 
-    .line 2
     invoke-static {p1, p2}, Lcom/google/common/base/t;->d0(II)I
 
-    .line 3
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
     new-instance p2, Ljava/lang/StringBuilder;
@@ -121,7 +116,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-virtual {p0, v0, p1}, Lcom/google/common/collect/w$a;->add(ILjava/lang/Object;)V
 
     const/4 p1, 0x1
@@ -142,15 +136,12 @@
     .annotation build Lf/f/f/a/a;
     .end annotation
 
-    .line 2
     invoke-static {p2}, Lcom/google/common/base/t;->E(Ljava/lang/Object;)Ljava/lang/Object;
 
     const/4 p2, 0x0
 
-    .line 3
     invoke-static {p1, p2}, Lcom/google/common/base/t;->d0(II)I
 
-    .line 4
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
     new-instance p2, Ljava/lang/StringBuilder;
@@ -186,7 +177,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-virtual {p0, v0, p1}, Lcom/google/common/collect/w$a;->addAll(ILjava/util/Collection;)Z
 
     const/4 p1, 0x1
@@ -197,7 +187,6 @@
 .method protected bridge synthetic delegate()Ljava/lang/Object;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/collect/w$a;->J0()Ljava/util/List;
 
     move-result-object v0
@@ -208,7 +197,6 @@
 .method protected bridge synthetic delegate()Ljava/util/Collection;
     .locals 1
 
-    .line 2
     invoke-virtual {p0}, Lcom/google/common/collect/w$a;->J0()Ljava/util/List;
 
     move-result-object v0

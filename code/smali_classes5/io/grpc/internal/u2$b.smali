@@ -62,12 +62,10 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const-string v0, "provider"
 
-    .line 2
     invoke-static {p1, v0}, Lcom/google/common/base/t;->F(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -76,10 +74,8 @@
 
     iput-object p1, p0, Lio/grpc/internal/u2$b;->a:Lio/grpc/u0;
 
-    .line 3
     iput-object p2, p0, Lio/grpc/internal/u2$b;->b:Ljava/util/Map;
 
-    .line 4
     iput-object p3, p0, Lio/grpc/internal/u2$b;->c:Ljava/lang/Object;
 
     return-void
@@ -92,7 +88,6 @@
     .annotation runtime Ljavax/annotation/j;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lio/grpc/internal/u2$b;->c:Ljava/lang/Object;
 
     return-object v0
@@ -101,7 +96,6 @@
 .method public b()Lio/grpc/u0;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lio/grpc/internal/u2$b;->a:Lio/grpc/u0;
 
     return-object v0
@@ -121,7 +115,6 @@
 
     if-eqz p1, :cond_3
 
-    .line 1
     const-class v2, Lio/grpc/internal/u2$b;
 
     invoke-virtual {p1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
@@ -132,11 +125,9 @@
 
     goto :goto_1
 
-    .line 2
     :cond_1
     check-cast p1, Lio/grpc/internal/u2$b;
 
-    .line 3
     iget-object v2, p0, Lio/grpc/internal/u2$b;->a:Lio/grpc/u0;
 
     iget-object v3, p1, Lio/grpc/internal/u2$b;->a:Lio/grpc/u0;
@@ -151,7 +142,6 @@
 
     iget-object v3, p1, Lio/grpc/internal/u2$b;->b:Ljava/util/Map;
 
-    .line 4
     invoke-static {v2, v3}, Lcom/google/common/base/q;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v2
@@ -162,7 +152,6 @@
 
     iget-object p1, p1, Lio/grpc/internal/u2$b;->c:Ljava/lang/Object;
 
-    .line 5
     invoke-static {v2, p1}, Lcom/google/common/base/q;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result p1
@@ -189,7 +178,6 @@
 
     new-array v0, v0, [Ljava/lang/Object;
 
-    .line 1
     iget-object v1, p0, Lio/grpc/internal/u2$b;->a:Lio/grpc/u0;
 
     const/4 v2, 0x0
@@ -218,7 +206,6 @@
 .method public toString()Ljava/lang/String;
     .locals 3
 
-    .line 1
     invoke-static {p0}, Lcom/google/common/base/p;->c(Ljava/lang/Object;)Lcom/google/common/base/p$b;
 
     move-result-object v0
@@ -227,7 +214,6 @@
 
     const-string v2, "provider"
 
-    .line 2
     invoke-virtual {v0, v2, v1}, Lcom/google/common/base/p$b;->f(Ljava/lang/String;Ljava/lang/Object;)Lcom/google/common/base/p$b;
 
     move-result-object v0
@@ -236,7 +222,6 @@
 
     const-string v2, "rawConfig"
 
-    .line 3
     invoke-virtual {v0, v2, v1}, Lcom/google/common/base/p$b;->f(Ljava/lang/String;Ljava/lang/Object;)Lcom/google/common/base/p$b;
 
     move-result-object v0
@@ -245,12 +230,10 @@
 
     const-string v2, "config"
 
-    .line 4
     invoke-virtual {v0, v2, v1}, Lcom/google/common/base/p$b;->f(Ljava/lang/String;Ljava/lang/Object;)Lcom/google/common/base/p$b;
 
     move-result-object v0
 
-    .line 5
     invoke-virtual {v0}, Lcom/google/common/base/p$b;->toString()Ljava/lang/String;
 
     move-result-object v0

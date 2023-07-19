@@ -49,17 +49,14 @@
 
     sget v1, Lcom/res/provider/ResSTRING;->error_network:I
 
-    .line 1
     invoke-static {v1}, Lf/k/c/c/f;->r(I)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/function/StyleFragment$onGlResourceInit$$inlined$apply$lambda$3$a;->b:Lcom/commsource/studio/bean/f;
 
     const/4 v2, 0x0
 
     if-eqz v1, :cond_5
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/studio/function/StyleFragment$onGlResourceInit$$inlined$apply$lambda$3$a;->a:Lcom/commsource/studio/function/StyleFragment$onGlResourceInit$$inlined$apply$lambda$3;
 
     iget-object v1, v1, Lcom/commsource/studio/function/StyleFragment$onGlResourceInit$$inlined$apply$lambda$3;->this$0:Lcom/commsource/studio/function/StyleFragment;
@@ -78,7 +75,6 @@
 
     if-eqz v1, :cond_6
 
-    .line 4
     invoke-interface {v1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v1
@@ -96,14 +92,12 @@
 
     check-cast v3, Lcom/commsource/studio/bean/g;
 
-    .line 5
     invoke-virtual {v3}, Lcom/commsource/studio/bean/g;->c()Ljava/util/List;
 
     move-result-object v3
 
     if-eqz v3, :cond_0
 
-    .line 6
     invoke-interface {v3}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v3
@@ -122,7 +116,6 @@
 
     check-cast v4, Lcom/commsource/studio/bean/f;
 
-    .line 7
     invoke-virtual {v4}, Lcom/commsource/studio/bean/f;->f()Ljava/lang/String;
 
     move-result-object v5
@@ -139,7 +132,6 @@
 
     if-eqz v5, :cond_1
 
-    .line 8
     invoke-virtual {v4}, Lcom/commsource/studio/bean/f;->i()I
 
     move-result v5
@@ -148,7 +140,6 @@
 
     if-ne v5, v6, :cond_3
 
-    .line 9
     iget-object v5, p0, Lcom/commsource/studio/function/StyleFragment$onGlResourceInit$$inlined$apply$lambda$3$a;->a:Lcom/commsource/studio/function/StyleFragment$onGlResourceInit$$inlined$apply$lambda$3;
 
     iget-object v5, v5, Lcom/commsource/studio/function/StyleFragment$onGlResourceInit$$inlined$apply$lambda$3;->this$0:Lcom/commsource/studio/function/StyleFragment;
@@ -176,7 +167,6 @@
 
     goto :goto_1
 
-    .line 10
     :cond_3
     iget-object v5, p0, Lcom/commsource/studio/function/StyleFragment$onGlResourceInit$$inlined$apply$lambda$3$a;->a:Lcom/commsource/studio/function/StyleFragment$onGlResourceInit$$inlined$apply$lambda$3;
 
@@ -203,7 +193,6 @@
 
     move-result v5
 
-    .line 11
     :goto_1
     iget-object v6, p0, Lcom/commsource/studio/function/StyleFragment$onGlResourceInit$$inlined$apply$lambda$3$a;->a:Lcom/commsource/studio/function/StyleFragment$onGlResourceInit$$inlined$apply$lambda$3;
 
@@ -217,7 +206,6 @@
 
     goto :goto_0
 
-    .line 12
     :cond_5
     iget-object v1, p0, Lcom/commsource/studio/function/StyleFragment$onGlResourceInit$$inlined$apply$lambda$3$a;->a:Lcom/commsource/studio/function/StyleFragment$onGlResourceInit$$inlined$apply$lambda$3;
 
@@ -245,7 +233,6 @@
 
     invoke-virtual {v1, v2, v3, v2}, Lcom/commsource/studio/function/StyleViewModel;->L(ILcom/commsource/studio/bean/f;Z)V
 
-    .line 13
     :cond_6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

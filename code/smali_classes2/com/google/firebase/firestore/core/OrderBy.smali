@@ -21,13 +21,10 @@
 .method private constructor <init>(Lcom/google/firebase/firestore/core/OrderBy$Direction;Lcom/google/firebase/firestore/model/h;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/google/firebase/firestore/core/OrderBy;->a:Lcom/google/firebase/firestore/core/OrderBy$Direction;
 
-    .line 3
     iput-object p2, p0, Lcom/google/firebase/firestore/core/OrderBy;->b:Lcom/google/firebase/firestore/model/h;
 
     return-void
@@ -36,7 +33,6 @@
 .method public static d(Lcom/google/firebase/firestore/core/OrderBy$Direction;Lcom/google/firebase/firestore/model/h;)Lcom/google/firebase/firestore/core/OrderBy;
     .locals 1
 
-    .line 1
     new-instance v0, Lcom/google/firebase/firestore/core/OrderBy;
 
     invoke-direct {v0, p0, p1}, Lcom/google/firebase/firestore/core/OrderBy;-><init>(Lcom/google/firebase/firestore/core/OrderBy$Direction;Lcom/google/firebase/firestore/model/h;)V
@@ -49,7 +45,6 @@
 .method a(Lcom/google/firebase/firestore/model/Document;Lcom/google/firebase/firestore/model/Document;)I
     .locals 3
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/firestore/core/OrderBy;->b:Lcom/google/firebase/firestore/model/h;
 
     sget-object v1, Lcom/google/firebase/firestore/model/h;->b:Lcom/google/firebase/firestore/model/h;
@@ -60,7 +55,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 2
     iget-object v0, p0, Lcom/google/firebase/firestore/core/OrderBy;->a:Lcom/google/firebase/firestore/core/OrderBy$Direction;
 
     invoke-virtual {v0}, Lcom/google/firebase/firestore/core/OrderBy$Direction;->getComparisonModifier()I
@@ -84,7 +78,6 @@
 
     return v0
 
-    .line 3
     :cond_0
     iget-object v0, p0, Lcom/google/firebase/firestore/core/OrderBy;->b:Lcom/google/firebase/firestore/model/h;
 
@@ -92,7 +85,6 @@
 
     move-result-object p1
 
-    .line 4
     iget-object v0, p0, Lcom/google/firebase/firestore/core/OrderBy;->b:Lcom/google/firebase/firestore/model/h;
 
     invoke-virtual {p2, v0}, Lcom/google/firebase/firestore/model/Document;->e(Lcom/google/firebase/firestore/model/h;)Lcom/google/firebase/firestore/model/value/e;
@@ -117,10 +109,8 @@
 
     const-string v2, "Trying to compare documents on fields that don\'t exist."
 
-    .line 5
     invoke-static {v1, v2, v0}, Lcom/google/firebase/firestore/util/b;->d(ZLjava/lang/String;[Ljava/lang/Object;)V
 
-    .line 6
     iget-object v0, p0, Lcom/google/firebase/firestore/core/OrderBy;->a:Lcom/google/firebase/firestore/core/OrderBy$Direction;
 
     invoke-virtual {v0}, Lcom/google/firebase/firestore/core/OrderBy$Direction;->getComparisonModifier()I
@@ -137,7 +127,6 @@
 .method public b()Lcom/google/firebase/firestore/core/OrderBy$Direction;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/firestore/core/OrderBy;->a:Lcom/google/firebase/firestore/core/OrderBy$Direction;
 
     return-object v0
@@ -146,7 +135,6 @@
 .method public c()Lcom/google/firebase/firestore/model/h;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/firestore/core/OrderBy;->b:Lcom/google/firebase/firestore/model/h;
 
     return-object v0
@@ -159,18 +147,15 @@
 
     if-eqz p1, :cond_1
 
-    .line 1
     instance-of v1, p1, Lcom/google/firebase/firestore/core/OrderBy;
 
     if-nez v1, :cond_0
 
     goto :goto_0
 
-    .line 2
     :cond_0
     check-cast p1, Lcom/google/firebase/firestore/core/OrderBy;
 
-    .line 3
     iget-object v1, p0, Lcom/google/firebase/firestore/core/OrderBy;->a:Lcom/google/firebase/firestore/core/OrderBy$Direction;
 
     iget-object v2, p1, Lcom/google/firebase/firestore/core/OrderBy;->a:Lcom/google/firebase/firestore/core/OrderBy$Direction;
@@ -197,7 +182,6 @@
 .method public hashCode()I
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/firestore/core/OrderBy;->a:Lcom/google/firebase/firestore/core/OrderBy$Direction;
 
     invoke-virtual {v0}, Ljava/lang/Enum;->hashCode()I
@@ -210,7 +194,6 @@
 
     mul-int/lit8 v1, v1, 0x1f
 
-    .line 2
     iget-object v0, p0, Lcom/google/firebase/firestore/core/OrderBy;->b:Lcom/google/firebase/firestore/model/h;
 
     invoke-virtual {v0}, Lcom/google/firebase/firestore/model/a;->hashCode()I
@@ -225,7 +208,6 @@
 .method public toString()Ljava/lang/String;
     .locals 3
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V

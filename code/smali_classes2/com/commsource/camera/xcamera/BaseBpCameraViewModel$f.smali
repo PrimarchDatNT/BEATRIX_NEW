@@ -31,7 +31,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel$f;->a:Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -52,7 +51,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -65,12 +63,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel$f;->a:Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;
 
     invoke-virtual {v1, p1}, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;->L0(I)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -85,7 +81,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const/4 v0, 0x0
@@ -166,7 +161,6 @@
 
     goto :goto_4
 
-    .line 1
     :cond_7
     :goto_3
     iget-object p1, p0, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel$f;->a:Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;
@@ -175,13 +169,11 @@
 
     move-result p1
 
-    .line 2
     :goto_4
     iget-object v1, p0, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel$f;->a:Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;
 
     invoke-virtual {v1, p1}, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;->M0(I)V
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel$f;->a:Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;
 
     invoke-virtual {v1}, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;->f0()Landroidx/lifecycle/MutableLiveData;
@@ -205,7 +197,6 @@
 
     if-eq v1, p1, :cond_9
 
-    .line 4
     :goto_5
     iget-object v1, p0, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel$f;->a:Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;
 
@@ -219,7 +210,6 @@
 
     invoke-virtual {v1, p1}, Landroidx/lifecycle/MutableLiveData;->postValue(Ljava/lang/Object;)V
 
-    .line 5
     :cond_9
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

@@ -46,7 +46,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -57,7 +56,6 @@
 .method public a()F
     .locals 1
 
-    .line 1
     iget v0, p0, Lcom/airbnb/lottie/a0/b;->b:F
 
     return v0
@@ -71,7 +69,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/airbnb/lottie/a0/b;->d:Ljava/lang/Object;
 
     return-object v0
@@ -80,7 +77,6 @@
 .method public c()F
     .locals 1
 
-    .line 1
     iget v0, p0, Lcom/airbnb/lottie/a0/b;->f:F
 
     return v0
@@ -89,7 +85,6 @@
 .method public d()F
     .locals 1
 
-    .line 1
     iget v0, p0, Lcom/airbnb/lottie/a0/b;->e:F
 
     return v0
@@ -98,7 +93,6 @@
 .method public e()F
     .locals 1
 
-    .line 1
     iget v0, p0, Lcom/airbnb/lottie/a0/b;->g:F
 
     return v0
@@ -107,7 +101,6 @@
 .method public f()F
     .locals 1
 
-    .line 1
     iget v0, p0, Lcom/airbnb/lottie/a0/b;->a:F
 
     return v0
@@ -121,7 +114,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/airbnb/lottie/a0/b;->c:Ljava/lang/Object;
 
     return-object v0
@@ -143,25 +135,18 @@
         }
     .end annotation
 
-    .line 1
     iput p1, p0, Lcom/airbnb/lottie/a0/b;->a:F
 
-    .line 2
     iput p2, p0, Lcom/airbnb/lottie/a0/b;->b:F
 
-    .line 3
     iput-object p3, p0, Lcom/airbnb/lottie/a0/b;->c:Ljava/lang/Object;
 
-    .line 4
     iput-object p4, p0, Lcom/airbnb/lottie/a0/b;->d:Ljava/lang/Object;
 
-    .line 5
     iput p5, p0, Lcom/airbnb/lottie/a0/b;->e:F
 
-    .line 6
     iput p6, p0, Lcom/airbnb/lottie/a0/b;->f:F
 
-    .line 7
     iput p7, p0, Lcom/airbnb/lottie/a0/b;->g:F
 
     return-object p0

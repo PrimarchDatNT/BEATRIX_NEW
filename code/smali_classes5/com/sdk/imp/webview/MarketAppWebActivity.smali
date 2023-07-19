@@ -75,7 +75,6 @@
 
     const-string v0, "app_web_title"
 
-    .line 1
     sput-object v0, Lcom/sdk/imp/webview/MarketAppWebActivity;->W:Ljava/lang/String;
 
     return-void
@@ -84,51 +83,38 @@
 .method public constructor <init>()V
     .locals 3
 
-    .line 1
     invoke-direct {p0}, Landroid/app/Activity;-><init>()V
 
     const/4 v0, 0x0
 
-    .line 2
     iput-object v0, p0, Lcom/sdk/imp/webview/MarketAppWebActivity;->a:Lcom/sdk/imp/webview/WebViewEx;
 
-    .line 3
     iput-object v0, p0, Lcom/sdk/imp/webview/MarketAppWebActivity;->b:Landroid/widget/TextView;
 
-    .line 4
     iput-object v0, p0, Lcom/sdk/imp/webview/MarketAppWebActivity;->c:Landroid/widget/ProgressBar;
 
     const-string v1, ""
 
-    .line 5
     iput-object v1, p0, Lcom/sdk/imp/webview/MarketAppWebActivity;->f:Ljava/lang/String;
 
-    .line 6
     iput-object v1, p0, Lcom/sdk/imp/webview/MarketAppWebActivity;->g:Ljava/lang/String;
 
     const/4 v1, 0x0
 
-    .line 7
     iput-boolean v1, p0, Lcom/sdk/imp/webview/MarketAppWebActivity;->p:Z
 
-    .line 8
     iput-object v0, p0, Lcom/sdk/imp/webview/MarketAppWebActivity;->J:Ljava/lang/String;
 
     const/4 v2, 0x1
 
-    .line 9
     iput-boolean v2, p0, Lcom/sdk/imp/webview/MarketAppWebActivity;->K:Z
 
-    .line 10
     iput-object v0, p0, Lcom/sdk/imp/webview/MarketAppWebActivity;->P:Landroid/webkit/WebChromeClient$CustomViewCallback;
 
-    .line 11
     iput-boolean v1, p0, Lcom/sdk/imp/webview/MarketAppWebActivity;->Q:Z
 
-    .line 12
     iput-boolean v1, p0, Lcom/sdk/imp/webview/MarketAppWebActivity;->S:Z
 
-    .line 13
     new-instance v0, Lcom/sdk/imp/webview/MarketAppWebActivity$d;
 
     invoke-direct {v0}, Lcom/sdk/imp/webview/MarketAppWebActivity$d;-><init>()V
@@ -141,7 +127,6 @@
 .method static synthetic a(Lcom/sdk/imp/webview/MarketAppWebActivity;Ljava/lang/String;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/sdk/imp/webview/MarketAppWebActivity;->n(Ljava/lang/String;)V
 
     return-void
@@ -150,7 +135,6 @@
 .method private static synthetic b()V
     .locals 10
 
-    .line 1
     new-instance v8, Ln/a/b/c/e;
 
     const-class v0, Lcom/sdk/imp/webview/MarketAppWebActivity;
@@ -223,7 +207,6 @@
 .method private c()V
     .locals 3
 
-    .line 1
     invoke-virtual {p0}, Landroid/app/Activity;->getIntent()Landroid/content/Intent;
 
     move-result-object v0
@@ -234,7 +217,6 @@
 
     move-result-object v0
 
-    .line 2
     invoke-virtual {p0}, Landroid/app/Activity;->getIntent()Landroid/content/Intent;
 
     move-result-object v1
@@ -247,7 +229,6 @@
 
     iput-object v1, p0, Lcom/sdk/imp/webview/MarketAppWebActivity;->J:Ljava/lang/String;
 
-    .line 3
     iput-object v0, p0, Lcom/sdk/imp/webview/MarketAppWebActivity;->f:Ljava/lang/String;
 
     return-void
@@ -263,7 +244,6 @@
         }
     .end annotation
 
-    .line 1
     sget v0, Lcom/sdk/api/i$e;->u0:I
 
     invoke-virtual {p0, v0}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
@@ -274,7 +254,6 @@
 
     iput-object v0, p0, Lcom/sdk/imp/webview/MarketAppWebActivity;->M:Landroid/widget/FrameLayout;
 
-    .line 2
     sget v0, Lcom/sdk/api/i$e;->v0:I
 
     invoke-virtual {p0, v0}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
@@ -283,7 +262,6 @@
 
     iput-object v0, p0, Lcom/sdk/imp/webview/MarketAppWebActivity;->N:Landroid/view/View;
 
-    .line 3
     sget v0, Lcom/sdk/api/i$e;->p0:I
 
     invoke-virtual {p0, v0}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
@@ -294,7 +272,6 @@
 
     iput-object v0, p0, Lcom/sdk/imp/webview/MarketAppWebActivity;->c:Landroid/widget/ProgressBar;
 
-    .line 4
     sget v0, Lcom/sdk/api/i$e;->T0:I
 
     invoke-virtual {p0, v0}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
@@ -305,7 +282,6 @@
 
     iput-object v0, p0, Lcom/sdk/imp/webview/MarketAppWebActivity;->b:Landroid/widget/TextView;
 
-    .line 5
     sget v0, Lcom/sdk/api/i$e;->U0:I
 
     invoke-virtual {p0, v0}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
@@ -316,7 +292,6 @@
 
     iput-object v0, p0, Lcom/sdk/imp/webview/MarketAppWebActivity;->d:Landroid/widget/TextView;
 
-    .line 6
     sget v0, Lcom/sdk/api/i$e;->S0:I
 
     invoke-virtual {p0, v0}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
@@ -327,7 +302,6 @@
 
     iput-object v0, p0, Lcom/sdk/imp/webview/MarketAppWebActivity;->a:Lcom/sdk/imp/webview/WebViewEx;
 
-    .line 7
     sget v0, Lcom/sdk/api/i$e;->b0:I
 
     invoke-virtual {p0, v0}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
@@ -338,7 +312,6 @@
 
     iput-object v0, p0, Lcom/sdk/imp/webview/MarketAppWebActivity;->L:Landroid/widget/ImageView;
 
-    .line 8
     iget-object v0, p0, Lcom/sdk/imp/webview/MarketAppWebActivity;->a:Lcom/sdk/imp/webview/WebViewEx;
 
     invoke-virtual {v0}, Landroid/webkit/WebView;->getSettings()Landroid/webkit/WebSettings;
@@ -349,7 +322,6 @@
 
     invoke-virtual {v0, v1}, Landroid/webkit/WebSettings;->setJavaScriptEnabled(Z)V
 
-    .line 9
     iget-object v0, p0, Lcom/sdk/imp/webview/MarketAppWebActivity;->a:Lcom/sdk/imp/webview/WebViewEx;
 
     invoke-virtual {v0}, Landroid/webkit/WebView;->getSettings()Landroid/webkit/WebSettings;
@@ -360,7 +332,6 @@
 
     invoke-virtual {v0, v2}, Landroid/webkit/WebSettings;->setDefaultTextEncodingName(Ljava/lang/String;)V
 
-    .line 10
     iget-object v0, p0, Lcom/sdk/imp/webview/MarketAppWebActivity;->a:Lcom/sdk/imp/webview/WebViewEx;
 
     invoke-virtual {v0}, Landroid/webkit/WebView;->getSettings()Landroid/webkit/WebSettings;
@@ -369,7 +340,6 @@
 
     invoke-virtual {v0, v1}, Landroid/webkit/WebSettings;->setUseWideViewPort(Z)V
 
-    .line 11
     iget-object v0, p0, Lcom/sdk/imp/webview/MarketAppWebActivity;->a:Lcom/sdk/imp/webview/WebViewEx;
 
     invoke-virtual {v0}, Landroid/webkit/WebView;->getSettings()Landroid/webkit/WebSettings;
@@ -378,7 +348,6 @@
 
     invoke-virtual {v0, v1}, Landroid/webkit/WebSettings;->setLoadWithOverviewMode(Z)V
 
-    .line 12
     iget-object v0, p0, Lcom/sdk/imp/webview/MarketAppWebActivity;->a:Lcom/sdk/imp/webview/WebViewEx;
 
     invoke-virtual {v0}, Landroid/webkit/WebView;->getSettings()Landroid/webkit/WebSettings;
@@ -387,12 +356,10 @@
 
     invoke-virtual {v0, v1}, Landroid/webkit/WebSettings;->setDomStorageEnabled(Z)V
 
-    .line 13
     iget-boolean v0, p0, Lcom/sdk/imp/webview/MarketAppWebActivity;->Q:Z
 
     if-eqz v0, :cond_0
 
-    .line 14
     iget-object v0, p0, Lcom/sdk/imp/webview/MarketAppWebActivity;->a:Lcom/sdk/imp/webview/WebViewEx;
 
     invoke-virtual {v0}, Landroid/webkit/WebView;->getSettings()Landroid/webkit/WebSettings;
@@ -401,7 +368,6 @@
 
     invoke-virtual {v0, v1}, Landroid/webkit/WebSettings;->setBlockNetworkImage(Z)V
 
-    .line 15
     :cond_0
     iget-object v0, p0, Lcom/sdk/imp/webview/MarketAppWebActivity;->a:Lcom/sdk/imp/webview/WebViewEx;
 
@@ -411,17 +377,14 @@
 
     invoke-virtual {v0, v1}, Landroid/webkit/WebView;->setWebChromeClient(Landroid/webkit/WebChromeClient;)V
 
-    .line 16
     new-instance v0, Lcom/sdk/imp/webview/MarketAppWebActivity$b;
 
     invoke-direct {v0, p0}, Lcom/sdk/imp/webview/MarketAppWebActivity$b;-><init>(Lcom/sdk/imp/webview/MarketAppWebActivity;)V
 
-    .line 17
     iget-object v1, p0, Lcom/sdk/imp/webview/MarketAppWebActivity;->a:Lcom/sdk/imp/webview/WebViewEx;
 
     invoke-virtual {v1, v0}, Landroid/webkit/WebView;->setWebViewClient(Landroid/webkit/WebViewClient;)V
 
-    .line 18
     sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
 
     const/16 v1, 0xa
@@ -432,14 +395,12 @@
 
     if-ge v0, v1, :cond_1
 
-    .line 19
     iget-object v0, p0, Lcom/sdk/imp/webview/MarketAppWebActivity;->a:Lcom/sdk/imp/webview/WebViewEx;
 
     const-string v1, "searchBoxJavaBridge_"
 
     invoke-virtual {v0, v1}, Landroid/webkit/WebView;->removeJavascriptInterface(Ljava/lang/String;)V
 
-    .line 20
     :cond_1
     sget v0, Lcom/sdk/api/i$e;->y:I
 
@@ -453,15 +414,12 @@
 
     invoke-virtual {v0, v1}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 21
     invoke-direct {p0}, Lcom/sdk/imp/webview/MarketAppWebActivity;->r()V
 
-    .line 22
     iget-object v0, p0, Lcom/sdk/imp/webview/MarketAppWebActivity;->a:Lcom/sdk/imp/webview/WebViewEx;
 
     invoke-virtual {v0}, Lcom/sdk/imp/webview/WebViewEx;->a()V
 
-    .line 23
     invoke-virtual {p0}, Lcom/sdk/imp/webview/MarketAppWebActivity;->m()V
 
     return-void
@@ -470,7 +428,6 @@
 .method static final synthetic f(Lcom/sdk/imp/webview/MarketAppWebActivity;Ljava/lang/reflect/Method;Ljava/lang/Object;[Ljava/lang/Object;Lorg/aspectj/lang/c;)Ljava/lang/Object;
     .locals 0
 
-    .line 1
     invoke-virtual {p1, p2, p3}, Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p0
@@ -481,7 +438,6 @@
 .method static final synthetic g(Lcom/sdk/imp/webview/MarketAppWebActivity;Ljava/lang/reflect/Method;Ljava/lang/Object;[Ljava/lang/Object;Lorg/aspectj/lang/c;)Ljava/lang/Object;
     .locals 0
 
-    .line 1
     invoke-virtual {p1, p2, p3}, Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p0
@@ -494,7 +450,6 @@
 
     const-string v0, "com.android.vending"
 
-    .line 1
     invoke-static {p0, v0}, Lcom/sdk/imp/webview/MarketAppWebActivity;->i(Landroid/content/Context;Ljava/lang/String;)Z
 
     move-result p0
@@ -511,14 +466,12 @@
 
     return v0
 
-    .line 1
     :cond_0
     :try_start_0
     invoke-virtual {p0}, Landroid/content/Context;->getPackageManager()Landroid/content/pm/PackageManager;
 
     move-result-object p0
 
-    .line 2
     invoke-virtual {p0, p1, v0}, Landroid/content/pm/PackageManager;->getPackageInfo(Ljava/lang/String;I)Landroid/content/pm/PackageInfo;
 
     move-result-object p0
@@ -539,7 +492,6 @@
 .method public static final k(Landroid/content/Context;)Z
     .locals 3
 
-    .line 1
     new-instance v0, Ljava/io/File;
 
     new-instance v1, Ljava/lang/StringBuilder;
@@ -566,7 +518,6 @@
 
     invoke-direct {v0, v1}, Ljava/io/File;-><init>(Ljava/lang/String;)V
 
-    .line 2
     invoke-virtual {v0}, Ljava/io/File;->exists()Z
 
     move-result v0
@@ -583,14 +534,12 @@
     :try_start_0
     const-string v2, "webviewCache.db"
 
-    .line 3
     invoke-virtual {p0, v2, v1, v0}, Landroid/content/Context;->openOrCreateDatabase(Ljava/lang/String;ILandroid/database/sqlite/SQLiteDatabase$CursorFactory;)Landroid/database/sqlite/SQLiteDatabase;
 
     move-result-object v0
 
     if-eqz v0, :cond_1
 
-    .line 4
     invoke-virtual {v0}, Landroid/database/sqlite/SQLiteDatabase;->close()V
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
@@ -611,7 +560,6 @@
     :catch_0
     move-exception p0
 
-    .line 5
     :try_start_1
     invoke-virtual {p0}, Ljava/lang/Exception;->printStackTrace()V
     :try_end_1
@@ -619,7 +567,6 @@
 
     if-eqz v0, :cond_2
 
-    .line 6
     :goto_0
     invoke-virtual {v0}, Landroid/database/sqlite/SQLiteDatabase;->close()V
 
@@ -633,7 +580,6 @@
 
     invoke-virtual {v0}, Landroid/database/sqlite/SQLiteDatabase;->close()V
 
-    .line 7
     :cond_3
     throw p0
 .end method
@@ -711,7 +657,6 @@
     :cond_4
     move p2, p1
 
-    .line 1
     :goto_1
     iget-object p1, p0, Lcom/sdk/imp/webview/MarketAppWebActivity;->U:Lcom/sdk/imp/webview/MarketAppWebActivity$d;
 
@@ -723,7 +668,6 @@
 
     goto :goto_2
 
-    .line 2
     :cond_5
     iput p2, p1, Lcom/sdk/imp/webview/MarketAppWebActivity$d;->d:I
 
@@ -740,7 +684,6 @@
 .method private n(Ljava/lang/String;)V
     .locals 2
 
-    .line 1
     invoke-static {p1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v0
@@ -752,7 +695,6 @@
     :cond_0
     const-string v0, "intent:"
 
-    .line 2
     invoke-virtual {p1, v0}, Ljava/lang/String;->startsWith(Ljava/lang/String;)Z
 
     move-result v0
@@ -761,13 +703,11 @@
 
     const/4 v0, 0x1
 
-    .line 3
     :try_start_0
     invoke-static {p1, v0}, Landroid/content/Intent;->parseUri(Ljava/lang/String;I)Landroid/content/Intent;
 
     move-result-object p1
 
-    .line 4
     invoke-virtual {p0}, Landroid/app/Activity;->getPackageManager()Landroid/content/pm/PackageManager;
 
     move-result-object v0
@@ -782,7 +722,6 @@
 
     const-string v0, "browser_fallback_url"
 
-    .line 5
     invoke-virtual {p1, v0}, Landroid/content/Intent;->getStringExtra(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p1
@@ -791,7 +730,6 @@
 
     const-string v0, "market:"
 
-    .line 6
     invoke-virtual {p1, v0}, Ljava/lang/String;->startsWith(Ljava/lang/String;)Z
 
     move-result v0
@@ -800,19 +738,15 @@
 
     const/4 v0, 0x0
 
-    .line 7
     invoke-static {p1, p0, v0}, Lf/q/b/b;->M(Ljava/lang/String;Landroid/content/Context;Lcom/sdk/imp/internal/loader/Ad;)V
 
-    .line 8
     invoke-virtual {p0}, Landroid/app/Activity;->finish()V
 
     goto :goto_0
 
-    .line 9
     :cond_1
     invoke-virtual {p0, p1}, Landroid/app/Activity;->startActivity(Landroid/content/Intent;)V
 
-    .line 10
     invoke-virtual {p0}, Landroid/app/Activity;->finish()V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
@@ -822,7 +756,6 @@
     :catchall_0
     move-exception p1
 
-    .line 11
     invoke-virtual {p1}, Ljava/lang/Throwable;->printStackTrace()V
 
     :cond_2
@@ -833,7 +766,6 @@
 .method public static q(Landroid/content/Context;Ljava/lang/String;)V
     .locals 3
 
-    .line 1
     new-instance v0, Landroid/content/Intent;
 
     const-string v1, "android.intent.action.VIEW"
@@ -842,24 +774,20 @@
 
     const/high16 v1, 0x10000000
 
-    .line 2
     invoke-virtual {v0, v1}, Landroid/content/Intent;->setFlags(I)Landroid/content/Intent;
 
     const-string v1, "com.android.vending"
 
     const-string v2, "com.google.android.finsky.activities.MainActivity"
 
-    .line 3
     invoke-virtual {v0, v1, v2}, Landroid/content/Intent;->setClassName(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
 
-    .line 4
     invoke-static {p1}, Landroid/net/Uri;->parse(Ljava/lang/String;)Landroid/net/Uri;
 
     move-result-object p1
 
     invoke-virtual {v0, p1}, Landroid/content/Intent;->setData(Landroid/net/Uri;)Landroid/content/Intent;
 
-    .line 5
     invoke-static {p0, v0}, Lf/q/b/b;->U(Landroid/content/Context;Landroid/content/Intent;)Z
 
     return-void
@@ -868,7 +796,6 @@
 .method private r()V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/sdk/imp/webview/MarketAppWebActivity;->b:Landroid/widget/TextView;
 
     if-eqz v0, :cond_0
@@ -877,10 +804,8 @@
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 3
     :cond_0
     iget-object v0, p0, Lcom/sdk/imp/webview/MarketAppWebActivity;->d:Landroid/widget/TextView;
 
@@ -890,7 +815,6 @@
 
     if-eqz v1, :cond_1
 
-    .line 4
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
     :cond_1
@@ -900,7 +824,6 @@
 .method public static s(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;)V
     .locals 2
 
-    .line 1
     new-instance v0, Landroid/content/Intent;
 
     const-class v1, Lcom/sdk/imp/webview/MarketAppWebActivity;
@@ -909,25 +832,20 @@
 
     const-string v1, "app_web_url"
 
-    .line 2
     invoke-virtual {v0, v1, p1}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
 
-    .line 3
     sget-object p1, Lcom/sdk/imp/webview/MarketAppWebActivity;->W:Ljava/lang/String;
 
     invoke-virtual {v0, p1, p2}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
 
-    .line 4
     instance-of p1, p0, Landroid/app/Activity;
 
     if-nez p1, :cond_0
 
     const/high16 p1, 0x10000000
 
-    .line 5
     invoke-virtual {v0, p1}, Landroid/content/Intent;->addFlags(I)Landroid/content/Intent;
 
-    .line 6
     :cond_0
     invoke-virtual {p0, v0}, Landroid/content/Context;->startActivity(Landroid/content/Intent;)V
 
@@ -937,7 +855,6 @@
 .method private t()V
     .locals 8
 
-    .line 1
     new-instance v7, Landroid/view/animation/RotateAnimation;
 
     const/4 v1, 0x0
@@ -960,24 +877,20 @@
 
     const-wide/16 v0, 0x320
 
-    .line 2
     invoke-virtual {v7, v0, v1}, Landroid/view/animation/RotateAnimation;->setDuration(J)V
 
-    .line 3
     iget-object v0, p0, Lcom/sdk/imp/webview/MarketAppWebActivity;->T:Landroid/view/animation/RotateAnimation;
 
     const/4 v1, 0x1
 
     invoke-virtual {v0, v1}, Landroid/view/animation/RotateAnimation;->setRepeatMode(I)V
 
-    .line 4
     iget-object v0, p0, Lcom/sdk/imp/webview/MarketAppWebActivity;->T:Landroid/view/animation/RotateAnimation;
 
     const/4 v1, -0x1
 
     invoke-virtual {v0, v1}, Landroid/view/animation/RotateAnimation;->setRepeatCount(I)V
 
-    .line 5
     iget-object v0, p0, Lcom/sdk/imp/webview/MarketAppWebActivity;->T:Landroid/view/animation/RotateAnimation;
 
     new-instance v1, Landroid/view/animation/LinearInterpolator;
@@ -986,14 +899,12 @@
 
     invoke-virtual {v0, v1}, Landroid/view/animation/RotateAnimation;->setInterpolator(Landroid/view/animation/Interpolator;)V
 
-    .line 6
     iget-object v0, p0, Lcom/sdk/imp/webview/MarketAppWebActivity;->L:Landroid/widget/ImageView;
 
     iget-object v1, p0, Lcom/sdk/imp/webview/MarketAppWebActivity;->T:Landroid/view/animation/RotateAnimation;
 
     invoke-virtual {v0, v1}, Landroid/widget/ImageView;->startAnimation(Landroid/view/animation/Animation;)V
 
-    .line 7
     iget-object v0, p0, Lcom/sdk/imp/webview/MarketAppWebActivity;->L:Landroid/widget/ImageView;
 
     const/4 v1, 0x0
@@ -1006,7 +917,6 @@
 .method private u()V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/sdk/imp/webview/MarketAppWebActivity;->T:Landroid/view/animation/RotateAnimation;
 
     if-eqz v0, :cond_0
@@ -1019,12 +929,10 @@
 
     if-nez v0, :cond_0
 
-    .line 2
     iget-object v0, p0, Lcom/sdk/imp/webview/MarketAppWebActivity;->L:Landroid/widget/ImageView;
 
     invoke-virtual {v0}, Landroid/widget/ImageView;->clearAnimation()V
 
-    .line 3
     iget-object v0, p0, Lcom/sdk/imp/webview/MarketAppWebActivity;->L:Landroid/widget/ImageView;
 
     const/16 v1, 0x8
@@ -1042,14 +950,12 @@
 
     const-string v0, "input_method"
 
-    .line 1
     invoke-virtual {p0, v0}, Landroid/app/Activity;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
 
     move-result-object v0
 
     check-cast v0, Landroid/view/inputmethod/InputMethodManager;
 
-    .line 2
     invoke-virtual {p0}, Landroid/app/Activity;->getCurrentFocus()Landroid/view/View;
 
     move-result-object v1
@@ -1058,7 +964,6 @@
 
     if-eqz v1, :cond_0
 
-    .line 3
     invoke-virtual {v1}, Landroid/view/View;->getWindowToken()Landroid/os/IBinder;
 
     move-result-object v1
@@ -1074,7 +979,6 @@
 .method j(Ljava/lang/String;)Z
     .locals 1
 
-    .line 1
     invoke-static {p1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v0
@@ -1112,7 +1016,6 @@
 .method m()V
     .locals 3
 
-    .line 1
     iget-object v0, p0, Lcom/sdk/imp/webview/MarketAppWebActivity;->f:Ljava/lang/String;
 
     invoke-static {v0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
@@ -1123,15 +1026,12 @@
 
     const/4 v0, 0x0
 
-    .line 2
     iput-boolean v0, p0, Lcom/sdk/imp/webview/MarketAppWebActivity;->p:Z
 
-    .line 3
     iget-object v0, p0, Lcom/sdk/imp/webview/MarketAppWebActivity;->a:Lcom/sdk/imp/webview/WebViewEx;
 
     if-eqz v0, :cond_1
 
-    .line 4
     iget-object v0, p0, Lcom/sdk/imp/webview/MarketAppWebActivity;->g:Ljava/lang/String;
 
     invoke-static {v0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
@@ -1140,7 +1040,6 @@
 
     if-nez v0, :cond_0
 
-    .line 5
     iget-object v0, p0, Lcom/sdk/imp/webview/MarketAppWebActivity;->a:Lcom/sdk/imp/webview/WebViewEx;
 
     iget-object v1, p0, Lcom/sdk/imp/webview/MarketAppWebActivity;->f:Ljava/lang/String;
@@ -1155,7 +1054,6 @@
 
     goto :goto_0
 
-    .line 6
     :cond_0
     iget-object v0, p0, Lcom/sdk/imp/webview/MarketAppWebActivity;->a:Lcom/sdk/imp/webview/WebViewEx;
 
@@ -1175,7 +1073,6 @@
 
     const/4 v1, 0x0
 
-    .line 1
     :try_start_0
     invoke-static {p1, v0}, Landroid/content/Intent;->parseUri(Ljava/lang/String;I)Landroid/content/Intent;
 
@@ -1185,15 +1082,12 @@
 
     const-string v3, "android.intent.category.BROWSABLE"
 
-    .line 2
     invoke-virtual {v2, v3}, Landroid/content/Intent;->addCategory(Ljava/lang/String;)Landroid/content/Intent;
 
     const/4 v3, 0x0
 
-    .line 3
     invoke-virtual {v2, v3}, Landroid/content/Intent;->setComponent(Landroid/content/ComponentName;)Landroid/content/Intent;
 
-    .line 4
     invoke-virtual {v2}, Landroid/content/Intent;->getDataString()Ljava/lang/String;
 
     move-result-object v3
@@ -1208,7 +1102,6 @@
 
     return v1
 
-    .line 5
     :cond_0
     invoke-virtual {v2}, Landroid/content/Intent;->getDataString()Ljava/lang/String;
 
@@ -1224,7 +1117,6 @@
 
     return v0
 
-    .line 6
     :cond_1
     invoke-virtual {v2}, Landroid/content/Intent;->getAction()Ljava/lang/String;
 
@@ -1240,7 +1132,6 @@
 
     const-string v3, "file://"
 
-    .line 7
     invoke-virtual {p1, v3}, Ljava/lang/String;->startsWith(Ljava/lang/String;)Z
 
     move-result v3
@@ -1258,7 +1149,6 @@
     :cond_2
     return v1
 
-    .line 8
     :cond_3
     invoke-virtual {v2}, Landroid/content/Intent;->getAction()Ljava/lang/String;
 
@@ -1272,7 +1162,6 @@
 
     const-string v3, "http://"
 
-    .line 9
     invoke-virtual {p1, v3}, Ljava/lang/String;->startsWith(Ljava/lang/String;)Z
 
     move-result v3
@@ -1293,14 +1182,12 @@
     :cond_5
     const-string v3, "market://"
 
-    .line 10
     invoke-virtual {p1, v3}, Ljava/lang/String;->startsWith(Ljava/lang/String;)Z
 
     move-result v3
 
     if-eqz v3, :cond_7
 
-    .line 11
     invoke-virtual {p0}, Landroid/app/Activity;->getApplicationContext()Landroid/content/Context;
 
     move-result-object v1
@@ -1311,7 +1198,6 @@
 
     if-eqz v1, :cond_6
 
-    .line 12
     invoke-virtual {p0}, Landroid/app/Activity;->getApplicationContext()Landroid/content/Context;
 
     move-result-object v1
@@ -1324,7 +1210,6 @@
     :cond_7
     const/4 p1, -0x1
 
-    .line 13
     :try_start_1
     invoke-virtual {p0, v2, p1}, Landroid/app/Activity;->startActivityIfNeeded(Landroid/content/Intent;I)Z
 
@@ -1345,29 +1230,24 @@
 .method public onBackPressed()V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/sdk/imp/webview/MarketAppWebActivity;->a:Lcom/sdk/imp/webview/WebViewEx;
 
     if-eqz v0, :cond_2
 
-    .line 2
     invoke-virtual {v0}, Landroid/webkit/WebView;->canGoBack()Z
 
     move-result v0
 
     if-eqz v0, :cond_1
 
-    .line 3
     iget-boolean v0, p0, Lcom/sdk/imp/webview/MarketAppWebActivity;->S:Z
 
     if-eqz v0, :cond_0
 
-    .line 4
     invoke-super {p0}, Landroid/app/Activity;->onBackPressed()V
 
     goto :goto_0
 
-    .line 5
     :cond_0
     iget-object v0, p0, Lcom/sdk/imp/webview/MarketAppWebActivity;->a:Lcom/sdk/imp/webview/WebViewEx;
 
@@ -1375,13 +1255,11 @@
 
     goto :goto_0
 
-    .line 6
     :cond_1
     invoke-super {p0}, Landroid/app/Activity;->onBackPressed()V
 
     goto :goto_0
 
-    .line 7
     :cond_2
     invoke-super {p0}, Landroid/app/Activity;->onBackPressed()V
 
@@ -1392,15 +1270,12 @@
 .method protected onCreate(Landroid/os/Bundle;)V
     .locals 1
 
-    .line 1
     invoke-super {p0, p1}, Landroid/app/Activity;->onCreate(Landroid/os/Bundle;)V
 
-    .line 2
     sget p1, Lcom/sdk/api/i$g;->a:I
 
     invoke-virtual {p0, p1}, Landroid/app/Activity;->setContentView(I)V
 
-    .line 3
     :try_start_0
     invoke-virtual {p0}, Landroid/app/Activity;->getIntent()Landroid/content/Intent;
 
@@ -1412,24 +1287,19 @@
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
-    .line 4
     invoke-static {p0}, Lcom/sdk/imp/webview/MarketAppWebActivity;->k(Landroid/content/Context;)Z
 
     move-result p1
 
     if-eqz p1, :cond_0
 
-    .line 5
     invoke-virtual {p0}, Landroid/app/Activity;->finish()V
 
-    .line 6
     :cond_0
     iput-object p0, p0, Lcom/sdk/imp/webview/MarketAppWebActivity;->R:Landroid/content/Context;
 
-    .line 7
     invoke-direct {p0}, Lcom/sdk/imp/webview/MarketAppWebActivity;->c()V
 
-    .line 8
     invoke-direct {p0}, Lcom/sdk/imp/webview/MarketAppWebActivity;->e()V
 
     return-void
@@ -1437,10 +1307,8 @@
     :catch_0
     const/4 p1, 0x0
 
-    .line 9
     iput-boolean p1, p0, Lcom/sdk/imp/webview/MarketAppWebActivity;->K:Z
 
-    .line 10
     invoke-virtual {p0}, Landroid/app/Activity;->finish()V
 
     return-void
@@ -1449,12 +1317,10 @@
 .method protected onDestroy()V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/sdk/imp/webview/MarketAppWebActivity;->a:Lcom/sdk/imp/webview/WebViewEx;
 
     if-eqz v0, :cond_1
 
-    .line 2
     invoke-virtual {v0}, Landroid/webkit/WebView;->getParent()Landroid/view/ViewParent;
 
     move-result-object v0
@@ -1463,28 +1329,23 @@
 
     if-eqz v0, :cond_0
 
-    .line 3
     iget-object v1, p0, Lcom/sdk/imp/webview/MarketAppWebActivity;->a:Lcom/sdk/imp/webview/WebViewEx;
 
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->removeView(Landroid/view/View;)V
 
-    .line 4
     :cond_0
     iget-object v0, p0, Lcom/sdk/imp/webview/MarketAppWebActivity;->a:Lcom/sdk/imp/webview/WebViewEx;
 
     invoke-virtual {v0}, Landroid/webkit/WebView;->removeAllViews()V
 
-    .line 5
     iget-object v0, p0, Lcom/sdk/imp/webview/MarketAppWebActivity;->a:Lcom/sdk/imp/webview/WebViewEx;
 
     invoke-virtual {v0}, Landroid/webkit/WebView;->destroy()V
 
     const/4 v0, 0x0
 
-    .line 6
     iput-object v0, p0, Lcom/sdk/imp/webview/MarketAppWebActivity;->a:Lcom/sdk/imp/webview/WebViewEx;
 
-    .line 7
     :cond_1
     invoke-super {p0}, Landroid/app/Activity;->onDestroy()V
 
@@ -1494,17 +1355,14 @@
 .method protected onNewIntent(Landroid/content/Intent;)V
     .locals 2
 
-    .line 1
     invoke-super {p0, p1}, Landroid/app/Activity;->onNewIntent(Landroid/content/Intent;)V
 
-    .line 2
     iget-boolean v0, p0, Lcom/sdk/imp/webview/MarketAppWebActivity;->K:Z
 
     if-nez v0, :cond_0
 
     return-void
 
-    .line 3
     :cond_0
     :try_start_0
     invoke-virtual {p0}, Landroid/app/Activity;->getIntent()Landroid/content/Intent;
@@ -1517,16 +1375,12 @@
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
-    .line 4
     invoke-virtual {p0, p1}, Landroid/app/Activity;->setIntent(Landroid/content/Intent;)V
 
-    .line 5
     invoke-direct {p0}, Lcom/sdk/imp/webview/MarketAppWebActivity;->c()V
 
-    .line 6
     invoke-virtual {p0}, Lcom/sdk/imp/webview/MarketAppWebActivity;->m()V
 
-    .line 7
     invoke-direct {p0}, Lcom/sdk/imp/webview/MarketAppWebActivity;->r()V
 
     :catch_0
@@ -1536,13 +1390,11 @@
 .method protected onPause()V
     .locals 7
 
-    .line 1
     invoke-super {p0}, Landroid/app/Activity;->onPause()V
 
     :try_start_0
     const-string v0, "android.webkit.WebView"
 
-    .line 2
     invoke-static {v0}, Ljava/lang/Class;->forName(Ljava/lang/String;)Ljava/lang/Class;
 
     move-result-object v0
@@ -1612,13 +1464,11 @@
 .method protected onResume()V
     .locals 7
 
-    .line 1
     invoke-super {p0}, Landroid/app/Activity;->onResume()V
 
     :try_start_0
     const-string v0, "android.webkit.WebView"
 
-    .line 2
     invoke-static {v0}, Ljava/lang/Class;->forName(Ljava/lang/String;)Ljava/lang/Class;
 
     move-result-object v0
@@ -1688,7 +1538,6 @@
 .method protected p()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/sdk/imp/webview/MarketAppWebActivity;->u()V
 
     return-void
@@ -1697,7 +1546,6 @@
 .method protected v()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/sdk/imp/webview/MarketAppWebActivity;->t()V
 
     return-void
@@ -1706,7 +1554,6 @@
 .method protected w()V
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Landroid/app/Activity;->isFinishing()Z
 
     move-result v0
@@ -1720,7 +1567,6 @@
 .method x(I)V
     .locals 3
 
-    .line 1
     iget-object v0, p0, Lcom/sdk/imp/webview/MarketAppWebActivity;->U:Lcom/sdk/imp/webview/MarketAppWebActivity$d;
 
     iget v1, v0, Lcom/sdk/imp/webview/MarketAppWebActivity$d;->c:I
@@ -1729,11 +1575,9 @@
 
     return-void
 
-    .line 2
     :cond_0
     iput p1, v0, Lcom/sdk/imp/webview/MarketAppWebActivity$d;->c:I
 
-    .line 3
     invoke-virtual {v0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
     const/16 v0, 0x64
@@ -1753,37 +1597,30 @@
 
     if-le p1, v1, :cond_3
 
-    .line 4
     iget-object v1, p0, Lcom/sdk/imp/webview/MarketAppWebActivity;->a:Lcom/sdk/imp/webview/WebViewEx;
 
     if-eqz v1, :cond_2
 
-    .line 5
     invoke-virtual {v1, v2}, Landroid/webkit/WebView;->setVisibility(I)V
 
-    .line 6
     :cond_2
     invoke-direct {p0}, Lcom/sdk/imp/webview/MarketAppWebActivity;->u()V
 
-    .line 7
     :cond_3
     iget-object v1, p0, Lcom/sdk/imp/webview/MarketAppWebActivity;->c:Landroid/widget/ProgressBar;
 
     invoke-virtual {v1, p1}, Landroid/widget/ProgressBar;->setProgress(I)V
 
-    .line 8
     iget-object v1, p0, Lcom/sdk/imp/webview/MarketAppWebActivity;->U:Lcom/sdk/imp/webview/MarketAppWebActivity$d;
 
     invoke-virtual {v1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
     if-lt p1, v0, :cond_4
 
-    .line 9
     iget-object p1, p0, Lcom/sdk/imp/webview/MarketAppWebActivity;->U:Lcom/sdk/imp/webview/MarketAppWebActivity$d;
 
     invoke-virtual {p1}, Lcom/sdk/imp/webview/MarketAppWebActivity$d;->a()V
 
-    .line 10
     iget-object p1, p0, Lcom/sdk/imp/webview/MarketAppWebActivity;->c:Landroid/widget/ProgressBar;
 
     const/16 v0, 0x8
@@ -1792,7 +1629,6 @@
 
     goto :goto_0
 
-    .line 11
     :cond_4
     iget-object p1, p0, Lcom/sdk/imp/webview/MarketAppWebActivity;->U:Lcom/sdk/imp/webview/MarketAppWebActivity$d;
 
@@ -1800,7 +1636,6 @@
 
     if-nez p1, :cond_5
 
-    .line 12
     iget-object p1, p0, Lcom/sdk/imp/webview/MarketAppWebActivity;->c:Landroid/widget/ProgressBar;
 
     invoke-virtual {p1, v2}, Landroid/widget/ProgressBar;->setVisibility(I)V

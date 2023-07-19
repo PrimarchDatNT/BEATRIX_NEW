@@ -44,14 +44,12 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
     new-instance v0, Lcom/google/android/gms/internal/ads/sa;
 
     invoke-direct {v0}, Lcom/google/android/gms/internal/ads/sa;-><init>()V
 
     sput-object v0, Lcom/google/android/gms/internal/ads/ta;->b:Lcom/google/android/gms/internal/ads/go;
 
-    .line 2
     new-instance v0, Lcom/google/android/gms/internal/ads/va;
 
     invoke-direct {v0}, Lcom/google/android/gms/internal/ads/va;-><init>()V
@@ -64,10 +62,8 @@
 .method public constructor <init>(Landroid/content/Context;Lcom/google/android/gms/internal/ads/zzbbd;Ljava/lang/String;)V
     .locals 7
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     new-instance v6, Lcom/google/android/gms/internal/ads/j9;
 
     sget-object v4, Lcom/google/android/gms/internal/ads/ta;->b:Lcom/google/android/gms/internal/ads/go;
@@ -110,7 +106,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/google/android/gms/internal/ads/ua;
 
     iget-object v1, p0, Lcom/google/android/gms/internal/ads/ta;->a:Lcom/google/android/gms/internal/ads/j9;
@@ -123,7 +118,6 @@
 .method public final b()Lcom/google/android/gms/internal/ads/ya;
     .locals 2
 
-    .line 1
     new-instance v0, Lcom/google/android/gms/internal/ads/ya;
 
     iget-object v1, p0, Lcom/google/android/gms/internal/ads/ta;->a:Lcom/google/android/gms/internal/ads/j9;

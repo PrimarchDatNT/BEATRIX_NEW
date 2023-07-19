@@ -33,7 +33,6 @@
 .method static constructor <clinit>()V
     .locals 5
 
-    .line 1
     new-instance v0, Lio/jaegertracing/thrift/sampling_manager/SamplingStrategyType;
 
     const-string v1, "PROBABILISTIC"
@@ -44,7 +43,6 @@
 
     sput-object v0, Lio/jaegertracing/thrift/sampling_manager/SamplingStrategyType;->PROBABILISTIC:Lio/jaegertracing/thrift/sampling_manager/SamplingStrategyType;
 
-    .line 2
     new-instance v1, Lio/jaegertracing/thrift/sampling_manager/SamplingStrategyType;
 
     const-string v3, "RATE_LIMITING"
@@ -63,7 +61,6 @@
 
     aput-object v1, v3, v4
 
-    .line 3
     sput-object v3, Lio/jaegertracing/thrift/sampling_manager/SamplingStrategyType;->$VALUES:[Lio/jaegertracing/thrift/sampling_manager/SamplingStrategyType;
 
     return-void
@@ -77,10 +74,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 2
     iput p3, p0, Lio/jaegertracing/thrift/sampling_manager/SamplingStrategyType;->value:I
 
     return-void
@@ -99,13 +94,11 @@
 
     return-object p0
 
-    .line 1
     :cond_0
     sget-object p0, Lio/jaegertracing/thrift/sampling_manager/SamplingStrategyType;->RATE_LIMITING:Lio/jaegertracing/thrift/sampling_manager/SamplingStrategyType;
 
     return-object p0
 
-    .line 2
     :cond_1
     sget-object p0, Lio/jaegertracing/thrift/sampling_manager/SamplingStrategyType;->PROBABILISTIC:Lio/jaegertracing/thrift/sampling_manager/SamplingStrategyType;
 
@@ -115,7 +108,6 @@
 .method public static valueOf(Ljava/lang/String;)Lio/jaegertracing/thrift/sampling_manager/SamplingStrategyType;
     .locals 1
 
-    .line 1
     const-class v0, Lio/jaegertracing/thrift/sampling_manager/SamplingStrategyType;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -130,7 +122,6 @@
 .method public static values()[Lio/jaegertracing/thrift/sampling_manager/SamplingStrategyType;
     .locals 1
 
-    .line 1
     sget-object v0, Lio/jaegertracing/thrift/sampling_manager/SamplingStrategyType;->$VALUES:[Lio/jaegertracing/thrift/sampling_manager/SamplingStrategyType;
 
     invoke-virtual {v0}, [Lio/jaegertracing/thrift/sampling_manager/SamplingStrategyType;->clone()Ljava/lang/Object;
@@ -147,7 +138,6 @@
 .method public getValue()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lio/jaegertracing/thrift/sampling_manager/SamplingStrategyType;->value:I
 
     return v0

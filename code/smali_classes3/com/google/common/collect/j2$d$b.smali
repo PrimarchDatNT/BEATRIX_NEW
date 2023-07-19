@@ -30,7 +30,6 @@
 .method constructor <init>(Lcom/google/common/collect/j2$d;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/common/collect/j2$d$b;->a:Lcom/google/common/collect/j2$d;
 
     invoke-direct {p0}, Ljava/util/AbstractMap;-><init>()V
@@ -41,7 +40,6 @@
 .method static synthetic a(Lcom/google/common/collect/j2$d$b;Lcom/google/common/base/u;)Z
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/google/common/collect/j2$d$b;->c(Lcom/google/common/base/u;)Z
 
     move-result p0
@@ -62,12 +60,10 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {}, Lcom/google/common/collect/Lists;->q()Ljava/util/ArrayList;
 
     move-result-object v0
 
-    .line 2
     invoke-virtual {p0}, Lcom/google/common/collect/j2$d$b;->entrySet()Ljava/util/Set;
 
     move-result-object v1
@@ -90,14 +86,12 @@
 
     check-cast v2, Ljava/util/Map$Entry;
 
-    .line 3
     invoke-interface {p1, v2}, Lcom/google/common/base/u;->apply(Ljava/lang/Object;)Z
 
     move-result v3
 
     if-eqz v3, :cond_0
 
-    .line 4
     invoke-interface {v2}, Ljava/util/Map$Entry;->getKey()Ljava/lang/Object;
 
     move-result-object v2
@@ -106,7 +100,6 @@
 
     goto :goto_0
 
-    .line 5
     :cond_1
     invoke-interface {v0}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
@@ -125,7 +118,6 @@
 
     check-cast v1, Lcom/google/common/collect/Range;
 
-    .line 6
     iget-object v2, p0, Lcom/google/common/collect/j2$d$b;->a:Lcom/google/common/collect/j2$d;
 
     iget-object v2, v2, Lcom/google/common/collect/j2$d;->b:Lcom/google/common/collect/j2;
@@ -134,7 +126,6 @@
 
     goto :goto_1
 
-    .line 7
     :cond_2
     invoke-interface {v0}, Ljava/util/List;->isEmpty()Z
 
@@ -159,7 +150,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/j2$d$b;->a:Lcom/google/common/collect/j2$d;
 
     invoke-static {v0}, Lcom/google/common/collect/j2$d;->a(Lcom/google/common/collect/j2$d;)Lcom/google/common/collect/Range;
@@ -172,20 +162,17 @@
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-static {}, Lcom/google/common/collect/Iterators;->u()Lcom/google/common/collect/l2;
 
     move-result-object v0
 
     return-object v0
 
-    .line 3
     :cond_0
     iget-object v0, p0, Lcom/google/common/collect/j2$d$b;->a:Lcom/google/common/collect/j2$d;
 
     iget-object v0, v0, Lcom/google/common/collect/j2$d;->b:Lcom/google/common/collect/j2;
 
-    .line 4
     invoke-static {v0}, Lcom/google/common/collect/j2;->a(Lcom/google/common/collect/j2;)Ljava/util/NavigableMap;
 
     move-result-object v0
@@ -210,19 +197,16 @@
 
     iget-object v1, v1, Lcom/google/common/collect/Range;->lowerBound:Lcom/google/common/collect/Cut;
 
-    .line 5
     invoke-static {v0, v1}, Lcom/google/common/base/p;->a(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v0
 
     check-cast v0, Lcom/google/common/collect/Cut;
 
-    .line 6
     iget-object v1, p0, Lcom/google/common/collect/j2$d$b;->a:Lcom/google/common/collect/j2$d;
 
     iget-object v1, v1, Lcom/google/common/collect/j2$d;->b:Lcom/google/common/collect/j2;
 
-    .line 7
     invoke-static {v1}, Lcom/google/common/collect/j2;->a(Lcom/google/common/collect/j2;)Ljava/util/NavigableMap;
 
     move-result-object v1
@@ -241,7 +225,6 @@
 
     move-result-object v0
 
-    .line 8
     new-instance v1, Lcom/google/common/collect/j2$d$b$c;
 
     invoke-direct {v1, p0, v0}, Lcom/google/common/collect/j2$d$b$c;-><init>(Lcom/google/common/collect/j2$d$b;Ljava/util/Iterator;)V
@@ -252,7 +235,6 @@
 .method public clear()V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/j2$d$b;->a:Lcom/google/common/collect/j2$d;
 
     invoke-virtual {v0}, Lcom/google/common/collect/j2$d;->clear()V
@@ -263,7 +245,6 @@
 .method public containsKey(Ljava/lang/Object;)Z
     .locals 0
 
-    .line 1
     invoke-virtual {p0, p1}, Lcom/google/common/collect/j2$d$b;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -293,7 +274,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/google/common/collect/j2$d$b$b;
 
     invoke-direct {v0, p0}, Lcom/google/common/collect/j2$d$b$b;-><init>(Lcom/google/common/collect/j2$d$b;)V
@@ -313,16 +293,13 @@
 
     const/4 v0, 0x0
 
-    .line 1
     :try_start_0
     instance-of v1, p1, Lcom/google/common/collect/Range;
 
     if-eqz v1, :cond_3
 
-    .line 2
     check-cast p1, Lcom/google/common/collect/Range;
 
-    .line 3
     iget-object v1, p0, Lcom/google/common/collect/j2$d$b;->a:Lcom/google/common/collect/j2$d;
 
     invoke-static {v1}, Lcom/google/common/collect/j2$d;->a(Lcom/google/common/collect/j2$d;)Lcom/google/common/collect/Range;
@@ -343,7 +320,6 @@
 
     goto :goto_1
 
-    .line 4
     :cond_0
     iget-object v1, p1, Lcom/google/common/collect/Range;->lowerBound:Lcom/google/common/collect/Cut;
 
@@ -361,12 +337,10 @@
 
     if-nez v1, :cond_2
 
-    .line 5
     iget-object v1, p0, Lcom/google/common/collect/j2$d$b;->a:Lcom/google/common/collect/j2$d;
 
     iget-object v1, v1, Lcom/google/common/collect/j2$d;->b:Lcom/google/common/collect/j2;
 
-    .line 6
     invoke-static {v1}, Lcom/google/common/collect/j2;->a(Lcom/google/common/collect/j2;)Ljava/util/NavigableMap;
 
     move-result-object v1
@@ -379,7 +353,6 @@
 
     if-eqz v1, :cond_1
 
-    .line 7
     invoke-interface {v1}, Ljava/util/Map$Entry;->getValue()Ljava/lang/Object;
 
     move-result-object v1
@@ -393,7 +366,6 @@
 
     goto :goto_0
 
-    .line 8
     :cond_2
     iget-object v1, p0, Lcom/google/common/collect/j2$d$b;->a:Lcom/google/common/collect/j2$d;
 
@@ -414,7 +386,6 @@
     :goto_0
     if-eqz v1, :cond_3
 
-    .line 9
     invoke-virtual {v1}, Lcom/google/common/collect/j2$c;->b()Lcom/google/common/collect/Range;
 
     move-result-object v2
@@ -431,7 +402,6 @@
 
     if-eqz v2, :cond_3
 
-    .line 10
     invoke-virtual {v1}, Lcom/google/common/collect/j2$c;->b()Lcom/google/common/collect/Range;
 
     move-result-object v2
@@ -452,7 +422,6 @@
 
     if-eqz p1, :cond_3
 
-    .line 11
     invoke-virtual {v1}, Lcom/google/common/collect/j2$c;->getValue()Ljava/lang/Object;
 
     move-result-object p1
@@ -478,7 +447,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/google/common/collect/j2$d$b$a;
 
     invoke-direct {v0, p0, p0}, Lcom/google/common/collect/j2$d$b$a;-><init>(Lcom/google/common/collect/j2$d$b;Ljava/util/Map;)V
@@ -496,17 +464,14 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0, p1}, Lcom/google/common/collect/j2$d$b;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v0
 
     if-eqz v0, :cond_0
 
-    .line 2
     check-cast p1, Lcom/google/common/collect/Range;
 
-    .line 3
     iget-object v1, p0, Lcom/google/common/collect/j2$d$b;->a:Lcom/google/common/collect/j2$d;
 
     iget-object v1, v1, Lcom/google/common/collect/j2$d;->b:Lcom/google/common/collect/j2;
@@ -531,7 +496,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/google/common/collect/j2$d$b$d;
 
     invoke-direct {v0, p0, p0}, Lcom/google/common/collect/j2$d$b$d;-><init>(Lcom/google/common/collect/j2$d$b;Ljava/util/Map;)V

@@ -80,10 +80,8 @@
 .method public constructor <init>()V
     .locals 2
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/studio/function/BaseSubFragment;-><init>()V
 
-    .line 2
     sget-object v0, Lcom/commsource/studio/n0;->z:Lcom/commsource/studio/n0;
 
     invoke-virtual {v0}, Lcom/commsource/studio/n0;->t()I
@@ -94,22 +92,18 @@
 
     iput v0, p0, Lcom/commsource/studio/function/TeethCorrectFragment;->c0:F
 
-    .line 3
     new-instance v0, Lcom/commsource/studio/effect/x;
 
     invoke-direct {v0}, Lcom/commsource/studio/effect/x;-><init>()V
 
     const/4 v1, 0x0
 
-    .line 4
     invoke-virtual {v0, v1}, Lcom/commsource/studio/effect/k;->r(Z)V
 
-    .line 5
     iput-object v0, p0, Lcom/commsource/studio/function/TeethCorrectFragment;->g0:Lcom/commsource/studio/effect/x;
 
     const/4 v0, 0x1
 
-    .line 6
     invoke-virtual {p0, v0}, Lcom/commsource/studio/function/BaseSubFragment;->q1(Z)V
 
     return-void
@@ -122,7 +116,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/studio/function/TeethCorrectFragment;->e0:Lcom/commsource/studio/processor/MultiFaceEffectProcessor;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -137,7 +130,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/studio/function/TeethCorrectFragment;->d0:Lcom/commsource/beautyplus/f0/ac;
 
     if-nez p0, :cond_0
@@ -159,7 +151,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/function/TeethCorrectFragment;->e0:Lcom/commsource/studio/processor/MultiFaceEffectProcessor;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -174,7 +165,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/function/TeethCorrectFragment;->d0:Lcom/commsource/beautyplus/f0/ac;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -189,7 +179,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/studio/function/BaseSubFragment;->r0()Lcom/commsource/studio/ImageStudioViewModel;
 
     move-result-object v1
@@ -215,20 +204,17 @@
     :cond_0
     const/4 v2, 0x0
 
-    .line 2
     :goto_0
     iget-object v1, p0, Lcom/commsource/studio/function/TeethCorrectFragment;->e0:Lcom/commsource/studio/processor/MultiFaceEffectProcessor;
 
     if-eqz v1, :cond_1
 
-    .line 3
     new-instance v3, Lcom/commsource/studio/function/TeethCorrectFragment$changeTeethCorrectStrength$$inlined$let$lambda$1;
 
     invoke-direct {v3, v1, p0, p1, v2}, Lcom/commsource/studio/function/TeethCorrectFragment$changeTeethCorrectStrength$$inlined$let$lambda$1;-><init>(Lcom/commsource/studio/processor/MultiFaceEffectProcessor;Lcom/commsource/studio/function/TeethCorrectFragment;IZ)V
 
     invoke-virtual {p0, v3}, Lcom/commsource/studio/function/BaseSubFragment;->Z0(Lcotlin/jvm/u/a;)V
 
-    .line 4
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -242,7 +228,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/commsource/studio/function/TeethCorrectFragment;->E1(I)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -261,7 +246,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/function/TeethCorrectFragment;->g0:Lcom/commsource/studio/effect/x;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -276,10 +260,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0}, Lcom/commsource/studio/function/BaseSubFragment;->G()V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/function/TeethCorrectFragment;->f0:Lcom/commsource/studio/layer/MultiFaceSelectLayer;
 
     if-eqz v1, :cond_0
@@ -294,7 +276,6 @@
 
     invoke-virtual {v1, v2}, Landroid/view/View;->setAlpha(F)V
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -308,14 +289,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/util/HashMap;
 
     const/4 v2, 0x4
 
     invoke-direct {v1, v2}, Ljava/util/HashMap;-><init>(I)V
 
-    .line 2
     invoke-virtual {p0}, Lcom/commsource/studio/function/TeethCorrectFragment;->F1()Lcom/commsource/studio/effect/x;
 
     move-result-object v2
@@ -349,7 +328,6 @@
 
     invoke-interface {v1, v3, v2}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 3
     invoke-static {}, Lf/d/i/o;->o0()Z
 
     move-result v2
@@ -370,10 +348,8 @@
 
     const-string v2, "beau_teeth_correction_yes"
 
-    .line 4
     invoke-static {v2, v1}, Lcom/commsource/statistics/i;->s(Ljava/lang/String;Ljava/util/Map;)V
 
-    .line 5
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
     move-result-object v1
@@ -382,7 +358,6 @@
 
     invoke-static {v1, v2}, Lcom/commsource/statistics/c;->f(Landroid/content/Context;Ljava/lang/String;)V
 
-    .line 6
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
     move-result-object v1
@@ -391,10 +366,8 @@
 
     invoke-static {v1, v2}, Lcom/commsource/statistics/c;->f(Landroid/content/Context;Ljava/lang/String;)V
 
-    .line 7
     invoke-super {p0}, Lcom/commsource/studio/function/BaseSubFragment;->G0()V
 
-    .line 8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -415,7 +388,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/function/TeethCorrectFragment;->g0:Lcom/commsource/studio/effect/x;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -430,7 +402,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/studio/function/BaseSubFragment;->r0()Lcom/commsource/studio/ImageStudioViewModel;
 
     move-result-object v1
@@ -443,7 +414,6 @@
 
     invoke-virtual {v1, v2}, Landroidx/lifecycle/MutableLiveData;->postValue(Ljava/lang/Object;)V
 
-    .line 2
     new-instance v1, Lcom/commsource/studio/function/TeethCorrectFragment$b;
 
     new-instance v2, Lcom/commsource/studio/r0/d0;
@@ -476,10 +446,8 @@
 
     invoke-direct {v1, p0, v2}, Lcom/commsource/studio/function/TeethCorrectFragment$b;-><init>(Lcom/commsource/studio/function/TeethCorrectFragment;Lcom/commsource/camera/newrender/renderproxy/n;)V
 
-    .line 3
     invoke-virtual {p0, v1}, Lcom/commsource/studio/function/BaseSubFragment;->D(Lcom/commsource/studio/processor/BaseEffectProcessor;)V
 
-    .line 4
     invoke-virtual {v1}, Lcom/commsource/studio/processor/m;->J()Lcom/commsource/camera/newrender/renderproxy/n;
 
     move-result-object v2
@@ -504,7 +472,6 @@
 
     invoke-virtual {v2, v3}, Lcom/commsource/studio/r0/d0;->C(I)V
 
-    .line 5
     invoke-virtual {v1}, Lcom/commsource/studio/processor/m;->J()Lcom/commsource/camera/newrender/renderproxy/n;
 
     move-result-object v2
@@ -533,13 +500,10 @@
 
     const/4 v4, 0x3
 
-    .line 6
     invoke-static {v1, v2, v3, v4, v3}, Lcom/commsource/studio/processor/BaseEffectProcessor;->z(Lcom/commsource/studio/processor/BaseEffectProcessor;ZLcotlin/jvm/u/a;ILjava/lang/Object;)V
 
-    .line 7
     iput-object v1, p0, Lcom/commsource/studio/function/TeethCorrectFragment;->e0:Lcom/commsource/studio/processor/MultiFaceEffectProcessor;
 
-    .line 8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -552,10 +516,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0}, Lcom/commsource/studio/function/BaseSubFragment;->L0()V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -568,10 +530,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0}, Lcom/commsource/studio/function/BaseSubFragment;->M0()V
 
-    .line 2
     invoke-virtual {p0}, Lcom/commsource/studio/function/BaseSubFragment;->r0()Lcom/commsource/studio/ImageStudioViewModel;
 
     move-result-object v1
@@ -594,7 +554,6 @@
 
     invoke-virtual {v1, v2, v3}, Lcom/commsource/beautyfilter/NoStickLiveData;->a(Landroidx/lifecycle/LifecycleOwner;Lcom/commsource/beautyfilter/NoStickLiveData$a;)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -607,7 +566,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/studio/function/TeethCorrectFragment;->F1()Lcom/commsource/studio/effect/x;
 
     move-result-object v1
@@ -624,7 +582,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Lcom/commsource/studio/effect/x;
 
     invoke-virtual {p0, p1}, Lcom/commsource/studio/function/TeethCorrectFragment;->G1(Lcom/commsource/studio/effect/x;)V
@@ -641,7 +598,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/function/TeethCorrectFragment;->c0:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -656,7 +612,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/studio/function/TeethCorrectFragment;->c0:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -689,7 +644,6 @@
 
     invoke-static {p1, p3}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-static {p1}, Lcom/commsource/beautyplus/f0/ac;->d(Landroid/view/LayoutInflater;)Lcom/commsource/beautyplus/f0/ac;
 
     move-result-object p1
@@ -704,13 +658,11 @@
 
     if-nez p1, :cond_0
 
-    .line 2
     invoke-static {p3}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
     invoke-virtual {p1, p0}, Lcom/commsource/beautyplus/f0/ac;->i(Landroidx/fragment/app/Fragment;)V
 
-    .line 3
     iget-object p1, p0, Lcom/commsource/studio/function/TeethCorrectFragment;->d0:Lcom/commsource/beautyplus/f0/ac;
 
     if-nez p1, :cond_1
@@ -766,7 +718,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/function/TeethCorrectFragment;->d0:Lcom/commsource/beautyplus/f0/ac;
 
     const-string v2, "mViewBinding"
@@ -784,7 +735,6 @@
 
     invoke-virtual {p0, v1}, Lcom/commsource/studio/function/BaseSubFragment;->C(Landroid/view/View;)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/function/TeethCorrectFragment;->d0:Lcom/commsource/beautyplus/f0/ac;
 
     if-nez v1, :cond_1
@@ -800,7 +750,6 @@
 
     invoke-virtual {p0, v1}, Lcom/commsource/studio/function/BaseSubFragment;->C(Landroid/view/View;)V
 
-    .line 3
     invoke-virtual {p0}, Lcom/commsource/studio/function/BaseSubFragment;->r0()Lcom/commsource/studio/ImageStudioViewModel;
 
     move-result-object v1
@@ -830,7 +779,6 @@
     :cond_2
     const/4 v1, 0x0
 
-    .line 4
     :goto_0
     invoke-virtual {p0}, Lcom/commsource/studio/function/BaseSubFragment;->r0()Lcom/commsource/studio/ImageStudioViewModel;
 
@@ -852,7 +800,6 @@
 
     if-eqz v5, :cond_7
 
-    .line 5
     invoke-virtual {p0}, Lcom/commsource/studio/function/BaseSubFragment;->r0()Lcom/commsource/studio/ImageStudioViewModel;
 
     move-result-object v7
@@ -865,7 +812,6 @@
 
     if-nez v7, :cond_7
 
-    .line 6
     array-length v7, v5
 
     const/4 v8, 0x0
@@ -873,7 +819,6 @@
     :goto_1
     if-ge v8, v7, :cond_4
 
-    .line 7
     aget-boolean v9, v5, v8
 
     if-eqz v9, :cond_3
@@ -888,13 +833,11 @@
     :cond_4
     const/4 v8, -0x1
 
-    .line 8
     :goto_2
     invoke-static {v8}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v5
 
-    .line 9
     invoke-virtual {v5}, Ljava/lang/Number;->intValue()I
 
     move-result v7
@@ -923,7 +866,6 @@
 
     move-result v5
 
-    .line 10
     invoke-virtual {p0}, Lcom/commsource/studio/function/BaseSubFragment;->r0()Lcom/commsource/studio/ImageStudioViewModel;
 
     move-result-object v7
@@ -935,7 +877,6 @@
 
     if-eqz v1, :cond_8
 
-    .line 11
     new-instance v1, Lcom/commsource/studio/function/TeethCorrectFragment$d;
 
     iget-object v7, p0, Lcom/commsource/beautyplus/i0/a;->b:Landroid/app/Activity;
@@ -946,10 +887,8 @@
 
     invoke-direct {v1, p0, v7}, Lcom/commsource/studio/function/TeethCorrectFragment$d;-><init>(Lcom/commsource/studio/function/TeethCorrectFragment;Landroid/content/Context;)V
 
-    .line 12
     invoke-static {p0, v1, v3, v5, v6}, Lcom/commsource/studio/function/BaseSubFragment;->F(Lcom/commsource/studio/function/BaseSubFragment;Lcom/commsource/studio/layer/d;IILjava/lang/Object;)V
 
-    .line 13
     invoke-virtual {v1}, Lcom/commsource/studio/layer/BaseLayer;->F()Landroid/view/View;
 
     move-result-object v7
@@ -958,10 +897,8 @@
 
     invoke-virtual {v7, v8}, Landroid/view/View;->setAlpha(F)V
 
-    .line 14
     iput-object v1, p0, Lcom/commsource/studio/function/TeethCorrectFragment;->f0:Lcom/commsource/studio/layer/MultiFaceSelectLayer;
 
-    .line 15
     :cond_8
     invoke-virtual {p0}, Lcom/commsource/studio/function/BaseSubFragment;->n0()Lcom/commsource/beautyplus/router/RouterEntity;
 
@@ -971,7 +908,6 @@
 
     const-string v7, "strength"
 
-    .line 16
     invoke-static {v1, v7, v3, v5, v6}, Lcom/commsource/beautyplus/router/RouterEntity;->getParameterInt$default(Lcom/commsource/beautyplus/router/RouterEntity;Ljava/lang/String;IILjava/lang/Object;)I
 
     move-result v1
@@ -980,7 +916,6 @@
 
     move v5, v1
 
-    .line 17
     :cond_9
     invoke-virtual {p0}, Lcom/commsource/studio/function/TeethCorrectFragment;->F1()Lcom/commsource/studio/effect/x;
 
@@ -996,7 +931,6 @@
 
     invoke-virtual {v1, v5, v3}, Lcom/commsource/studio/effect/x;->w(II)V
 
-    .line 18
     iget-object v1, p0, Lcom/commsource/studio/function/TeethCorrectFragment;->d0:Lcom/commsource/beautyplus/f0/ac;
 
     if-nez v1, :cond_a
@@ -1012,7 +946,6 @@
 
     invoke-virtual {v1, v4}, Landroid/widget/LinearLayout;->setSelected(Z)V
 
-    .line 19
     iget-object v1, p0, Lcom/commsource/studio/function/TeethCorrectFragment;->d0:Lcom/commsource/beautyplus/f0/ac;
 
     if-nez v1, :cond_b
@@ -1028,7 +961,6 @@
 
     invoke-virtual {v1, v3}, Landroid/widget/LinearLayout;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 20
     iget-object v1, p0, Lcom/commsource/studio/function/TeethCorrectFragment;->d0:Lcom/commsource/beautyplus/f0/ac;
 
     if-nez v1, :cond_c
@@ -1044,7 +976,6 @@
 
     invoke-virtual {v1, v3}, Landroid/widget/LinearLayout;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 21
     iget-object v1, p0, Lcom/commsource/studio/function/TeethCorrectFragment;->d0:Lcom/commsource/beautyplus/f0/ac;
 
     if-nez v1, :cond_d
@@ -1060,10 +991,8 @@
 
     invoke-virtual {v1, v2}, Landroid/widget/LinearLayout;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 22
     invoke-super {p0, p1, p2}, Lcom/commsource/studio/function/BaseSubFragment;->onViewCreated(Landroid/view/View;Landroid/os/Bundle;)V
 
-    .line 23
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

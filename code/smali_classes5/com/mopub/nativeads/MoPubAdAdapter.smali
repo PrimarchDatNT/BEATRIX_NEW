@@ -51,7 +51,6 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-static {}, Lcom/mopub/nativeads/MoPubNativeAdPositioning;->serverPositioning()Lcom/mopub/nativeads/MoPubNativeAdPositioning$MoPubServerPositioning;
 
     move-result-object v0
@@ -76,7 +75,6 @@
         .end annotation
     .end param
 
-    .line 3
     new-instance v0, Lcom/mopub/nativeads/MoPubStreamAdPlacer;
 
     invoke-direct {v0, p1, p3}, Lcom/mopub/nativeads/MoPubStreamAdPlacer;-><init>(Landroid/app/Activity;Lcom/mopub/nativeads/MoPubNativeAdPositioning$MoPubClientPositioning;)V
@@ -105,7 +103,6 @@
         .end annotation
     .end param
 
-    .line 2
     new-instance v0, Lcom/mopub/nativeads/MoPubStreamAdPlacer;
 
     invoke-direct {v0, p1, p3}, Lcom/mopub/nativeads/MoPubStreamAdPlacer;-><init>(Landroid/app/Activity;Lcom/mopub/nativeads/MoPubNativeAdPositioning$MoPubServerPositioning;)V
@@ -136,47 +133,38 @@
     .annotation build Lcom/mopub/common/VisibleForTesting;
     .end annotation
 
-    .line 4
     invoke-direct {p0}, Landroid/widget/BaseAdapter;-><init>()V
 
-    .line 5
     iput-object p2, p0, Lcom/mopub/nativeads/MoPubAdAdapter;->mOriginalAdapter:Landroid/widget/Adapter;
 
-    .line 6
     iput-object p1, p0, Lcom/mopub/nativeads/MoPubAdAdapter;->mStreamAdPlacer:Lcom/mopub/nativeads/MoPubStreamAdPlacer;
 
-    .line 7
     new-instance v0, Ljava/util/WeakHashMap;
 
     invoke-direct {v0}, Ljava/util/WeakHashMap;-><init>()V
 
     iput-object v0, p0, Lcom/mopub/nativeads/MoPubAdAdapter;->mViewPositionMap:Ljava/util/WeakHashMap;
 
-    .line 8
     iput-object p3, p0, Lcom/mopub/nativeads/MoPubAdAdapter;->mVisibilityTracker:Lcom/mopub/common/VisibilityTracker;
 
-    .line 9
     new-instance v0, Lcom/mopub/nativeads/MoPubAdAdapter$1;
 
     invoke-direct {v0, p0}, Lcom/mopub/nativeads/MoPubAdAdapter$1;-><init>(Lcom/mopub/nativeads/MoPubAdAdapter;)V
 
     invoke-virtual {p3, v0}, Lcom/mopub/common/VisibilityTracker;->setVisibilityTrackerListener(Lcom/mopub/common/VisibilityTracker$VisibilityTrackerListener;)V
 
-    .line 10
     new-instance p3, Lcom/mopub/nativeads/MoPubAdAdapter$2;
 
     invoke-direct {p3, p0}, Lcom/mopub/nativeads/MoPubAdAdapter$2;-><init>(Lcom/mopub/nativeads/MoPubAdAdapter;)V
 
     invoke-interface {p2, p3}, Landroid/widget/Adapter;->registerDataSetObserver(Landroid/database/DataSetObserver;)V
 
-    .line 11
     new-instance p3, Lcom/mopub/nativeads/MoPubAdAdapter$3;
 
     invoke-direct {p3, p0}, Lcom/mopub/nativeads/MoPubAdAdapter$3;-><init>(Lcom/mopub/nativeads/MoPubAdAdapter;)V
 
     invoke-virtual {p1, p3}, Lcom/mopub/nativeads/MoPubStreamAdPlacer;->setAdLoadedListener(Lcom/mopub/nativeads/MoPubNativeAdLoadedListener;)V
 
-    .line 12
     invoke-interface {p2}, Landroid/widget/Adapter;->getCount()I
 
     move-result p2
@@ -189,7 +177,6 @@
 .method static synthetic access$000(Lcom/mopub/nativeads/MoPubAdAdapter;Ljava/util/List;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/mopub/nativeads/MoPubAdAdapter;->handleVisibilityChange(Ljava/util/List;)V
 
     return-void
@@ -198,7 +185,6 @@
 .method static synthetic access$100(Lcom/mopub/nativeads/MoPubAdAdapter;)Landroid/widget/Adapter;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lcom/mopub/nativeads/MoPubAdAdapter;->mOriginalAdapter:Landroid/widget/Adapter;
 
     return-object p0
@@ -207,7 +193,6 @@
 .method static synthetic access$200(Lcom/mopub/nativeads/MoPubAdAdapter;)Lcom/mopub/nativeads/MoPubStreamAdPlacer;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lcom/mopub/nativeads/MoPubAdAdapter;->mStreamAdPlacer:Lcom/mopub/nativeads/MoPubStreamAdPlacer;
 
     return-object p0
@@ -228,7 +213,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-interface {p1}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
     move-result-object p1
@@ -250,7 +234,6 @@
 
     check-cast v2, Landroid/view/View;
 
-    .line 2
     iget-object v3, p0, Lcom/mopub/nativeads/MoPubAdAdapter;->mViewPositionMap:Ljava/util/WeakHashMap;
 
     invoke-virtual {v3, v2}, Ljava/util/WeakHashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
@@ -263,7 +246,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_0
     invoke-virtual {v2}, Ljava/lang/Integer;->intValue()I
 
@@ -273,7 +255,6 @@
 
     move-result v0
 
-    .line 4
     invoke-virtual {v2}, Ljava/lang/Integer;->intValue()I
 
     move-result v2
@@ -284,7 +265,6 @@
 
     goto :goto_0
 
-    .line 5
     :cond_1
     iget-object p1, p0, Lcom/mopub/nativeads/MoPubAdAdapter;->mStreamAdPlacer:Lcom/mopub/nativeads/MoPubStreamAdPlacer;
 
@@ -300,7 +280,6 @@
 .method public areAllItemsEnabled()Z
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/nativeads/MoPubAdAdapter;->mOriginalAdapter:Landroid/widget/Adapter;
 
     instance-of v1, v0, Landroid/widget/ListAdapter;
@@ -309,7 +288,6 @@
 
     check-cast v0, Landroid/widget/ListAdapter;
 
-    .line 2
     invoke-interface {v0}, Landroid/widget/ListAdapter;->areAllItemsEnabled()Z
 
     move-result v0
@@ -330,7 +308,6 @@
 .method public clearAds()V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/nativeads/MoPubAdAdapter;->mStreamAdPlacer:Lcom/mopub/nativeads/MoPubStreamAdPlacer;
 
     invoke-virtual {v0}, Lcom/mopub/nativeads/MoPubStreamAdPlacer;->clearAds()V
@@ -341,12 +318,10 @@
 .method public destroy()V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/nativeads/MoPubAdAdapter;->mStreamAdPlacer:Lcom/mopub/nativeads/MoPubStreamAdPlacer;
 
     invoke-virtual {v0}, Lcom/mopub/nativeads/MoPubStreamAdPlacer;->destroy()V
 
-    .line 2
     iget-object v0, p0, Lcom/mopub/nativeads/MoPubAdAdapter;->mVisibilityTracker:Lcom/mopub/common/VisibilityTracker;
 
     invoke-virtual {v0}, Lcom/mopub/common/VisibilityTracker;->destroy()V
@@ -357,7 +332,6 @@
 .method public getAdjustedPosition(I)I
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/nativeads/MoPubAdAdapter;->mStreamAdPlacer:Lcom/mopub/nativeads/MoPubStreamAdPlacer;
 
     invoke-virtual {v0, p1}, Lcom/mopub/nativeads/MoPubStreamAdPlacer;->getAdjustedPosition(I)I
@@ -370,7 +344,6 @@
 .method public getCount()I
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/nativeads/MoPubAdAdapter;->mStreamAdPlacer:Lcom/mopub/nativeads/MoPubStreamAdPlacer;
 
     iget-object v1, p0, Lcom/mopub/nativeads/MoPubAdAdapter;->mOriginalAdapter:Landroid/widget/Adapter;
@@ -391,7 +364,6 @@
     .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/nativeads/MoPubAdAdapter;->mStreamAdPlacer:Lcom/mopub/nativeads/MoPubStreamAdPlacer;
 
     invoke-virtual {v0, p1}, Lcom/mopub/nativeads/MoPubStreamAdPlacer;->getAdData(I)Ljava/lang/Object;
@@ -402,7 +374,6 @@
 
     return-object v0
 
-    .line 2
     :cond_0
     iget-object v0, p0, Lcom/mopub/nativeads/MoPubAdAdapter;->mOriginalAdapter:Landroid/widget/Adapter;
 
@@ -422,7 +393,6 @@
 .method public getItemId(I)J
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/nativeads/MoPubAdAdapter;->mStreamAdPlacer:Lcom/mopub/nativeads/MoPubStreamAdPlacer;
 
     invoke-virtual {v0, p1}, Lcom/mopub/nativeads/MoPubStreamAdPlacer;->getAdData(I)Ljava/lang/Object;
@@ -431,7 +401,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-static {v0}, Ljava/lang/System;->identityHashCode(Ljava/lang/Object;)I
 
     move-result p1
@@ -442,7 +411,6 @@
 
     return-wide v0
 
-    .line 3
     :cond_0
     iget-object v0, p0, Lcom/mopub/nativeads/MoPubAdAdapter;->mOriginalAdapter:Landroid/widget/Adapter;
 
@@ -462,7 +430,6 @@
 .method public getItemViewType(I)I
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/nativeads/MoPubAdAdapter;->mStreamAdPlacer:Lcom/mopub/nativeads/MoPubStreamAdPlacer;
 
     invoke-virtual {v0, p1}, Lcom/mopub/nativeads/MoPubStreamAdPlacer;->getAdViewType(I)I
@@ -471,7 +438,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 2
     iget-object p1, p0, Lcom/mopub/nativeads/MoPubAdAdapter;->mOriginalAdapter:Landroid/widget/Adapter;
 
     invoke-interface {p1}, Landroid/widget/Adapter;->getViewTypeCount()I
@@ -484,7 +450,6 @@
 
     return v0
 
-    .line 3
     :cond_0
     iget-object v0, p0, Lcom/mopub/nativeads/MoPubAdAdapter;->mOriginalAdapter:Landroid/widget/Adapter;
 
@@ -504,7 +469,6 @@
 .method public getOriginalPosition(I)I
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/nativeads/MoPubAdAdapter;->mStreamAdPlacer:Lcom/mopub/nativeads/MoPubStreamAdPlacer;
 
     invoke-virtual {v0, p1}, Lcom/mopub/nativeads/MoPubStreamAdPlacer;->getOriginalPosition(I)I
@@ -519,7 +483,6 @@
     .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/nativeads/MoPubAdAdapter;->mStreamAdPlacer:Lcom/mopub/nativeads/MoPubStreamAdPlacer;
 
     invoke-virtual {v0, p1, p2, p3}, Lcom/mopub/nativeads/MoPubStreamAdPlacer;->getAdView(ILandroid/view/View;Landroid/view/ViewGroup;)Landroid/view/View;
@@ -530,23 +493,19 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     iget-object v0, p0, Lcom/mopub/nativeads/MoPubAdAdapter;->mOriginalAdapter:Landroid/widget/Adapter;
 
     iget-object v1, p0, Lcom/mopub/nativeads/MoPubAdAdapter;->mStreamAdPlacer:Lcom/mopub/nativeads/MoPubStreamAdPlacer;
 
-    .line 3
     invoke-virtual {v1, p1}, Lcom/mopub/nativeads/MoPubStreamAdPlacer;->getOriginalPosition(I)I
 
     move-result v1
 
-    .line 4
     invoke-interface {v0, v1, p2, p3}, Landroid/widget/Adapter;->getView(ILandroid/view/View;Landroid/view/ViewGroup;)Landroid/view/View;
 
     move-result-object v0
 
-    .line 5
     :goto_0
     iget-object p2, p0, Lcom/mopub/nativeads/MoPubAdAdapter;->mViewPositionMap:Ljava/util/WeakHashMap;
 
@@ -556,7 +515,6 @@
 
     invoke-virtual {p2, v0, p1}, Ljava/util/WeakHashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 6
     iget-object p1, p0, Lcom/mopub/nativeads/MoPubAdAdapter;->mVisibilityTracker:Lcom/mopub/common/VisibilityTracker;
 
     const/4 p2, 0x0
@@ -571,7 +529,6 @@
 .method public getViewTypeCount()I
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/nativeads/MoPubAdAdapter;->mOriginalAdapter:Landroid/widget/Adapter;
 
     invoke-interface {v0}, Landroid/widget/Adapter;->getViewTypeCount()I
@@ -594,15 +551,12 @@
     .annotation build Lcom/mopub/common/VisibleForTesting;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/nativeads/MoPubAdAdapter;->mAdLoadedListener:Lcom/mopub/nativeads/MoPubNativeAdLoadedListener;
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-interface {v0, p1}, Lcom/mopub/nativeads/MoPubNativeAdLoadedListener;->onAdLoaded(I)V
 
-    .line 3
     :cond_0
     invoke-virtual {p0}, Landroid/widget/BaseAdapter;->notifyDataSetChanged()V
 
@@ -614,15 +568,12 @@
     .annotation build Lcom/mopub/common/VisibleForTesting;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/nativeads/MoPubAdAdapter;->mAdLoadedListener:Lcom/mopub/nativeads/MoPubNativeAdLoadedListener;
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-interface {v0, p1}, Lcom/mopub/nativeads/MoPubNativeAdLoadedListener;->onAdRemoved(I)V
 
-    .line 3
     :cond_0
     invoke-virtual {p0}, Landroid/widget/BaseAdapter;->notifyDataSetChanged()V
 
@@ -632,7 +583,6 @@
 .method public hasStableIds()Z
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/nativeads/MoPubAdAdapter;->mOriginalAdapter:Landroid/widget/Adapter;
 
     invoke-interface {v0}, Landroid/widget/Adapter;->hasStableIds()Z
@@ -645,7 +595,6 @@
 .method public insertItem(I)V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/nativeads/MoPubAdAdapter;->mStreamAdPlacer:Lcom/mopub/nativeads/MoPubStreamAdPlacer;
 
     invoke-virtual {v0, p1}, Lcom/mopub/nativeads/MoPubStreamAdPlacer;->insertItem(I)V
@@ -656,7 +605,6 @@
 .method public isAd(I)Z
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/nativeads/MoPubAdAdapter;->mStreamAdPlacer:Lcom/mopub/nativeads/MoPubStreamAdPlacer;
 
     invoke-virtual {v0, p1}, Lcom/mopub/nativeads/MoPubStreamAdPlacer;->isAd(I)Z
@@ -669,7 +617,6 @@
 .method public isEmpty()Z
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/nativeads/MoPubAdAdapter;->mOriginalAdapter:Landroid/widget/Adapter;
 
     invoke-interface {v0}, Landroid/widget/Adapter;->isEmpty()Z
@@ -697,7 +644,6 @@
 .method public isEnabled(I)Z
     .locals 2
 
-    .line 1
     invoke-virtual {p0, p1}, Lcom/mopub/nativeads/MoPubAdAdapter;->isAd(I)Z
 
     move-result v0
@@ -714,7 +660,6 @@
 
     iget-object v1, p0, Lcom/mopub/nativeads/MoPubAdAdapter;->mStreamAdPlacer:Lcom/mopub/nativeads/MoPubStreamAdPlacer;
 
-    .line 2
     invoke-virtual {v1, p1}, Lcom/mopub/nativeads/MoPubStreamAdPlacer;->getOriginalPosition(I)I
 
     move-result p1
@@ -747,7 +692,6 @@
         .end annotation
     .end param
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/nativeads/MoPubAdAdapter;->mStreamAdPlacer:Lcom/mopub/nativeads/MoPubStreamAdPlacer;
 
     invoke-virtual {v0, p1}, Lcom/mopub/nativeads/MoPubStreamAdPlacer;->loadAds(Ljava/lang/String;)V
@@ -766,7 +710,6 @@
         .end annotation
     .end param
 
-    .line 2
     iget-object v0, p0, Lcom/mopub/nativeads/MoPubAdAdapter;->mStreamAdPlacer:Lcom/mopub/nativeads/MoPubStreamAdPlacer;
 
     invoke-virtual {v0, p1, p2}, Lcom/mopub/nativeads/MoPubStreamAdPlacer;->loadAds(Ljava/lang/String;Lcom/mopub/nativeads/RequestParameters;)V
@@ -787,7 +730,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-virtual {p0, p1, p2, v0}, Lcom/mopub/nativeads/MoPubAdAdapter;->refreshAds(Landroid/widget/ListView;Ljava/lang/String;Lcom/mopub/nativeads/RequestParameters;)V
 
     return-void
@@ -810,7 +752,6 @@
 
     const-string v0, "You called MoPubAdAdapter.refreshAds with a null ListView"
 
-    .line 2
     invoke-static {p1, v0}, Lcom/mopub/common/Preconditions$NoThrow;->checkNotNull(Ljava/lang/Object;Ljava/lang/String;)Z
 
     move-result v0
@@ -822,7 +763,6 @@
     :cond_0
     const/4 v0, 0x0
 
-    .line 3
     invoke-virtual {p1, v0}, Landroid/widget/ListView;->getChildAt(I)Landroid/view/View;
 
     move-result-object v1
@@ -833,13 +773,11 @@
 
     goto :goto_0
 
-    .line 4
     :cond_1
     invoke-virtual {v1}, Landroid/view/View;->getTop()I
 
     move-result v1
 
-    .line 5
     :goto_0
     invoke-virtual {p1}, Landroid/widget/ListView;->getFirstVisiblePosition()I
 
@@ -847,12 +785,10 @@
 
     add-int/lit8 v3, v2, -0x1
 
-    .line 6
     invoke-static {v3, v0}, Ljava/lang/Math;->max(II)I
 
     move-result v3
 
-    .line 7
     :goto_1
     iget-object v4, p0, Lcom/mopub/nativeads/MoPubAdAdapter;->mStreamAdPlacer:Lcom/mopub/nativeads/MoPubStreamAdPlacer;
 
@@ -868,13 +804,11 @@
 
     goto :goto_1
 
-    .line 8
     :cond_2
     invoke-virtual {p1}, Landroid/widget/ListView;->getLastVisiblePosition()I
 
     move-result v4
 
-    .line 9
     :goto_2
     iget-object v5, p0, Lcom/mopub/nativeads/MoPubAdAdapter;->mStreamAdPlacer:Lcom/mopub/nativeads/MoPubStreamAdPlacer;
 
@@ -896,7 +830,6 @@
 
     goto :goto_2
 
-    .line 10
     :cond_3
     iget-object v5, p0, Lcom/mopub/nativeads/MoPubAdAdapter;->mStreamAdPlacer:Lcom/mopub/nativeads/MoPubStreamAdPlacer;
 
@@ -904,7 +837,6 @@
 
     move-result v3
 
-    .line 11
     iget-object v5, p0, Lcom/mopub/nativeads/MoPubAdAdapter;->mStreamAdPlacer:Lcom/mopub/nativeads/MoPubStreamAdPlacer;
 
     add-int/lit8 v4, v4, 0x1
@@ -913,7 +845,6 @@
 
     move-result v4
 
-    .line 12
     iget-object v5, p0, Lcom/mopub/nativeads/MoPubAdAdapter;->mStreamAdPlacer:Lcom/mopub/nativeads/MoPubStreamAdPlacer;
 
     invoke-virtual {p0}, Lcom/mopub/nativeads/MoPubAdAdapter;->getCount()I
@@ -924,12 +855,10 @@
 
     move-result v5
 
-    .line 13
     iget-object v6, p0, Lcom/mopub/nativeads/MoPubAdAdapter;->mStreamAdPlacer:Lcom/mopub/nativeads/MoPubStreamAdPlacer;
 
     invoke-virtual {v6, v4, v5}, Lcom/mopub/nativeads/MoPubStreamAdPlacer;->removeAdsInRange(II)I
 
-    .line 14
     iget-object v4, p0, Lcom/mopub/nativeads/MoPubAdAdapter;->mStreamAdPlacer:Lcom/mopub/nativeads/MoPubStreamAdPlacer;
 
     invoke-virtual {v4, v0, v3}, Lcom/mopub/nativeads/MoPubStreamAdPlacer;->removeAdsInRange(II)I
@@ -940,10 +869,8 @@
 
     sub-int/2addr v2, v0
 
-    .line 15
     invoke-virtual {p1, v2, v1}, Landroid/widget/ListView;->setSelectionFromTop(II)V
 
-    .line 16
     :cond_4
     invoke-virtual {p0, p2, p3}, Lcom/mopub/nativeads/MoPubAdAdapter;->loadAds(Ljava/lang/String;Lcom/mopub/nativeads/RequestParameters;)V
 
@@ -959,7 +886,6 @@
 
     const-string v0, "Tried to set a null ad renderer on the placer."
 
-    .line 1
     invoke-static {p1, v0}, Lcom/mopub/common/Preconditions$NoThrow;->checkNotNull(Ljava/lang/Object;Ljava/lang/String;)Z
 
     move-result v0
@@ -968,7 +894,6 @@
 
     return-void
 
-    .line 2
     :cond_0
     iget-object v0, p0, Lcom/mopub/nativeads/MoPubAdAdapter;->mStreamAdPlacer:Lcom/mopub/nativeads/MoPubStreamAdPlacer;
 
@@ -980,7 +905,6 @@
 .method public removeItem(I)V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/nativeads/MoPubAdAdapter;->mStreamAdPlacer:Lcom/mopub/nativeads/MoPubStreamAdPlacer;
 
     invoke-virtual {v0, p1}, Lcom/mopub/nativeads/MoPubStreamAdPlacer;->removeItem(I)V
@@ -995,7 +919,6 @@
         .end annotation
     .end param
 
-    .line 1
     iput-object p1, p0, Lcom/mopub/nativeads/MoPubAdAdapter;->mAdLoadedListener:Lcom/mopub/nativeads/MoPubNativeAdLoadedListener;
 
     return-void
@@ -1014,7 +937,6 @@
 
     const-string v0, "You called MoPubAdAdapter.setOnClickListener with a null ListView"
 
-    .line 1
     invoke-static {p1, v0}, Lcom/mopub/common/Preconditions$NoThrow;->checkNotNull(Ljava/lang/Object;Ljava/lang/String;)Z
 
     move-result v0
@@ -1028,12 +950,10 @@
 
     const/4 p2, 0x0
 
-    .line 2
     invoke-virtual {p1, p2}, Landroid/widget/ListView;->setOnItemClickListener(Landroid/widget/AdapterView$OnItemClickListener;)V
 
     return-void
 
-    .line 3
     :cond_1
     new-instance v0, Lcom/mopub/nativeads/MoPubAdAdapter$4;
 
@@ -1057,7 +977,6 @@
 
     const-string v0, "You called MoPubAdAdapter.setOnItemLongClickListener with a null ListView"
 
-    .line 1
     invoke-static {p1, v0}, Lcom/mopub/common/Preconditions$NoThrow;->checkNotNull(Ljava/lang/Object;Ljava/lang/String;)Z
 
     move-result v0
@@ -1071,12 +990,10 @@
 
     const/4 p2, 0x0
 
-    .line 2
     invoke-virtual {p1, p2}, Landroid/widget/ListView;->setOnItemLongClickListener(Landroid/widget/AdapterView$OnItemLongClickListener;)V
 
     return-void
 
-    .line 3
     :cond_1
     new-instance v0, Lcom/mopub/nativeads/MoPubAdAdapter$5;
 
@@ -1100,7 +1017,6 @@
 
     const-string v0, "You called MoPubAdAdapter.setOnItemSelectedListener with a null ListView"
 
-    .line 1
     invoke-static {p1, v0}, Lcom/mopub/common/Preconditions$NoThrow;->checkNotNull(Ljava/lang/Object;Ljava/lang/String;)Z
 
     move-result v0
@@ -1114,12 +1030,10 @@
 
     const/4 p2, 0x0
 
-    .line 2
     invoke-virtual {p1, p2}, Landroid/widget/ListView;->setOnItemSelectedListener(Landroid/widget/AdapterView$OnItemSelectedListener;)V
 
     return-void
 
-    .line 3
     :cond_1
     new-instance v0, Lcom/mopub/nativeads/MoPubAdAdapter$6;
 
@@ -1139,7 +1053,6 @@
 
     const-string v0, "You called MoPubAdAdapter.setSelection with a null ListView"
 
-    .line 1
     invoke-static {p1, v0}, Lcom/mopub/common/Preconditions$NoThrow;->checkNotNull(Ljava/lang/Object;Ljava/lang/String;)Z
 
     move-result v0
@@ -1148,7 +1061,6 @@
 
     return-void
 
-    .line 2
     :cond_0
     iget-object v0, p0, Lcom/mopub/nativeads/MoPubAdAdapter;->mStreamAdPlacer:Lcom/mopub/nativeads/MoPubStreamAdPlacer;
 
@@ -1170,7 +1082,6 @@
 
     const-string v0, "You called MoPubAdAdapter.smoothScrollToPosition with a null ListView"
 
-    .line 1
     invoke-static {p1, v0}, Lcom/mopub/common/Preconditions$NoThrow;->checkNotNull(Ljava/lang/Object;Ljava/lang/String;)Z
 
     move-result v0
@@ -1179,7 +1090,6 @@
 
     return-void
 
-    .line 2
     :cond_0
     iget-object v0, p0, Lcom/mopub/nativeads/MoPubAdAdapter;->mStreamAdPlacer:Lcom/mopub/nativeads/MoPubStreamAdPlacer;
 

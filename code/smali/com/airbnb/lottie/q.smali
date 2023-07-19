@@ -65,7 +65,6 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
     invoke-static {}, Ljava/util/concurrent/Executors;->newCachedThreadPool()Ljava/util/concurrent/ExecutorService;
 
     move-result-object v0
@@ -94,7 +93,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-direct {p0, p1, v0}, Lcom/airbnb/lottie/q;-><init>(Ljava/util/concurrent/Callable;Z)V
 
     return-void
@@ -117,10 +115,8 @@
         }
     .end annotation
 
-    .line 2
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 3
     new-instance v0, Ljava/util/LinkedHashSet;
 
     const/4 v1, 0x1
@@ -129,14 +125,12 @@
 
     iput-object v0, p0, Lcom/airbnb/lottie/q;->a:Ljava/util/Set;
 
-    .line 4
     new-instance v0, Ljava/util/LinkedHashSet;
 
     invoke-direct {v0, v1}, Ljava/util/LinkedHashSet;-><init>(I)V
 
     iput-object v0, p0, Lcom/airbnb/lottie/q;->b:Ljava/util/Set;
 
-    .line 5
     new-instance v0, Landroid/os/Handler;
 
     invoke-static {}, Landroid/os/Looper;->getMainLooper()Landroid/os/Looper;
@@ -149,12 +143,10 @@
 
     const/4 v0, 0x0
 
-    .line 6
     iput-object v0, p0, Lcom/airbnb/lottie/q;->d:Lcom/airbnb/lottie/p;
 
     if-eqz p2, :cond_0
 
-    .line 7
     :try_start_0
     invoke-interface {p1}, Ljava/util/concurrent/Callable;->call()Ljava/lang/Object;
 
@@ -171,7 +163,6 @@
     :catchall_0
     move-exception p1
 
-    .line 8
     new-instance p2, Lcom/airbnb/lottie/p;
 
     invoke-direct {p2, p1}, Lcom/airbnb/lottie/p;-><init>(Ljava/lang/Throwable;)V
@@ -180,7 +171,6 @@
 
     goto :goto_0
 
-    .line 9
     :cond_0
     sget-object p2, Lcom/airbnb/lottie/q;->e:Ljava/util/concurrent/Executor;
 
@@ -197,7 +187,6 @@
 .method static synthetic a(Lcom/airbnb/lottie/q;)Lcom/airbnb/lottie/p;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lcom/airbnb/lottie/q;->d:Lcom/airbnb/lottie/p;
 
     return-object p0
@@ -206,7 +195,6 @@
 .method static synthetic b(Lcom/airbnb/lottie/q;Ljava/lang/Object;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/airbnb/lottie/q;->i(Ljava/lang/Object;)V
 
     return-void
@@ -215,7 +203,6 @@
 .method static synthetic c(Lcom/airbnb/lottie/q;Ljava/lang/Throwable;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/airbnb/lottie/q;->g(Ljava/lang/Throwable;)V
 
     return-void
@@ -224,7 +211,6 @@
 .method static synthetic d(Lcom/airbnb/lottie/q;Lcom/airbnb/lottie/p;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/airbnb/lottie/q;->l(Lcom/airbnb/lottie/p;)V
 
     return-void
@@ -235,7 +221,6 @@
 
     monitor-enter p0
 
-    .line 1
     :try_start_0
     new-instance v0, Ljava/util/ArrayList;
 
@@ -243,7 +228,6 @@
 
     invoke-direct {v0, v1}, Ljava/util/ArrayList;-><init>(Ljava/util/Collection;)V
 
-    .line 2
     invoke-interface {v0}, Ljava/util/List;->isEmpty()Z
 
     move-result v1
@@ -252,17 +236,14 @@
 
     const-string v0, "Lottie encountered an error but no failure listener was added:"
 
-    .line 3
     invoke-static {v0, p1}, Lcom/airbnb/lottie/z/d;->f(Ljava/lang/String;Ljava/lang/Throwable;)V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 4
     monitor-exit p0
 
     return-void
 
-    .line 5
     :cond_0
     :try_start_1
     invoke-interface {v0}, Ljava/util/List;->iterator()Ljava/util/Iterator;
@@ -282,14 +263,12 @@
 
     check-cast v1, Lcom/airbnb/lottie/l;
 
-    .line 6
     invoke-interface {v1, p1}, Lcom/airbnb/lottie/l;->a(Ljava/lang/Object;)V
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
     goto :goto_0
 
-    .line 7
     :cond_1
     monitor-exit p0
 
@@ -306,7 +285,6 @@
 .method private h()V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/airbnb/lottie/q;->c:Landroid/os/Handler;
 
     new-instance v1, Lcom/airbnb/lottie/q$a;
@@ -328,7 +306,6 @@
 
     monitor-enter p0
 
-    .line 1
     :try_start_0
     new-instance v0, Ljava/util/ArrayList;
 
@@ -336,7 +313,6 @@
 
     invoke-direct {v0, v1}, Ljava/util/ArrayList;-><init>(Ljava/util/Collection;)V
 
-    .line 2
     invoke-interface {v0}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
     move-result-object v0
@@ -354,14 +330,12 @@
 
     check-cast v1, Lcom/airbnb/lottie/l;
 
-    .line 3
     invoke-interface {v1, p1}, Lcom/airbnb/lottie/l;->a(Ljava/lang/Object;)V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
     goto :goto_0
 
-    .line 4
     :cond_0
     monitor-exit p0
 
@@ -389,20 +363,16 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/airbnb/lottie/q;->d:Lcom/airbnb/lottie/p;
 
     if-nez v0, :cond_0
 
-    .line 2
     iput-object p1, p0, Lcom/airbnb/lottie/q;->d:Lcom/airbnb/lottie/p;
 
-    .line 3
     invoke-direct {p0}, Lcom/airbnb/lottie/q;->h()V
 
     return-void
 
-    .line 4
     :cond_0
     new-instance p1, Ljava/lang/IllegalStateException;
 
@@ -430,7 +400,6 @@
 
     monitor-enter p0
 
-    .line 1
     :try_start_0
     iget-object v0, p0, Lcom/airbnb/lottie/q;->d:Lcom/airbnb/lottie/p;
 
@@ -444,7 +413,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 2
     iget-object v0, p0, Lcom/airbnb/lottie/q;->d:Lcom/airbnb/lottie/p;
 
     invoke-virtual {v0}, Lcom/airbnb/lottie/p;->a()Ljava/lang/Throwable;
@@ -453,7 +421,6 @@
 
     invoke-interface {p1, v0}, Lcom/airbnb/lottie/l;->a(Ljava/lang/Object;)V
 
-    .line 3
     :cond_0
     iget-object v0, p0, Lcom/airbnb/lottie/q;->b:Ljava/util/Set;
 
@@ -461,7 +428,6 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 4
     monitor-exit p0
 
     return-object p0
@@ -488,7 +454,6 @@
 
     monitor-enter p0
 
-    .line 1
     :try_start_0
     iget-object v0, p0, Lcom/airbnb/lottie/q;->d:Lcom/airbnb/lottie/p;
 
@@ -502,7 +467,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 2
     iget-object v0, p0, Lcom/airbnb/lottie/q;->d:Lcom/airbnb/lottie/p;
 
     invoke-virtual {v0}, Lcom/airbnb/lottie/p;->b()Ljava/lang/Object;
@@ -511,7 +475,6 @@
 
     invoke-interface {p1, v0}, Lcom/airbnb/lottie/l;->a(Ljava/lang/Object;)V
 
-    .line 3
     :cond_0
     iget-object v0, p0, Lcom/airbnb/lottie/q;->a:Ljava/util/Set;
 
@@ -519,7 +482,6 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 4
     monitor-exit p0
 
     return-object p0
@@ -547,7 +509,6 @@
 
     monitor-enter p0
 
-    .line 1
     :try_start_0
     iget-object v0, p0, Lcom/airbnb/lottie/q;->b:Ljava/util/Set;
 
@@ -555,7 +516,6 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 2
     monitor-exit p0
 
     return-object p0
@@ -582,7 +542,6 @@
 
     monitor-enter p0
 
-    .line 1
     :try_start_0
     iget-object v0, p0, Lcom/airbnb/lottie/q;->a:Ljava/util/Set;
 
@@ -590,7 +549,6 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 2
     monitor-exit p0
 
     return-object p0

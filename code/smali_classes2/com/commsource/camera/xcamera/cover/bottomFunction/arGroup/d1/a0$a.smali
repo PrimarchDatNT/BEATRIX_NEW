@@ -24,14 +24,12 @@
 .method constructor <init>(Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/d1/a0;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/d1/a0$a;->b:Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/d1/a0;
 
     invoke-direct {p0}, Landroidx/recyclerview/widget/RecyclerView$OnScrollListener;-><init>()V
 
     const/4 p1, 0x0
 
-    .line 2
     iput p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/d1/a0$a;->a:I
 
     return-void
@@ -50,14 +48,12 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v0, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/d1/a0$a;->a:I
 
     if-nez v0, :cond_0
 
     if-eqz p2, :cond_0
 
-    .line 2
     iget-object v0, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/d1/a0$a;->b:Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/d1/a0;
 
     invoke-static {v0}, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/d1/a0;->A(Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/d1/a0;)Lcom/commsource/beautyplus/f0/a7;
@@ -68,7 +64,6 @@
 
     invoke-virtual {v0}, Landroid/widget/EditText;->clearFocus()V
 
-    .line 3
     iget-object v0, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/d1/a0$a;->b:Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/d1/a0;
 
     invoke-static {v0}, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/d1/a0;->A(Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/d1/a0;)Lcom/commsource/beautyplus/f0/a7;
@@ -90,7 +85,6 @@
 
     if-ne p2, v0, :cond_1
 
-    .line 4
     iget-object v0, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/d1/a0$a;->b:Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/d1/a0;
 
     invoke-static {v0}, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/d1/a0;->A(Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/d1/a0;)Lcom/commsource/beautyplus/f0/a7;
@@ -101,7 +95,6 @@
 
     invoke-virtual {v0}, Landroid/widget/EditText;->clearFocus()V
 
-    .line 5
     iget-object v0, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/d1/a0$a;->b:Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/d1/a0;
 
     invoke-static {v0}, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/d1/a0;->A(Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/d1/a0;)Lcom/commsource/beautyplus/f0/a7;
@@ -112,12 +105,10 @@
 
     invoke-static {v0}, Lcom/commsource/camera/f1/r;->a(Landroid/view/View;)V
 
-    .line 6
     :cond_1
     :goto_0
     iput p2, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/d1/a0$a;->a:I
 
-    .line 7
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

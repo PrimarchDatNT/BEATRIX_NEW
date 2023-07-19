@@ -43,14 +43,12 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v0, Ljava/util/HashMap;
 
     const/4 v1, 0x4
 
     invoke-direct {v0, v1}, Ljava/util/HashMap;-><init>(I)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/LookFragment$g;->a:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/LookFragment;
 
     invoke-virtual {v1}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/LookFragment;->K()Lcom/commsource/camera/xcamera/cover/CameraCaptureViewModel;
@@ -69,29 +67,24 @@
 
     const-string v2, "\u5c55\u793a"
 
-    .line 3
     invoke-virtual {v0, v1, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v1, "\u65f6\u673a"
 
     const-string v2, "Look"
 
-    .line 4
     invoke-virtual {v0, v1, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v1, "selfie_cancel_ar"
 
-    .line 5
     invoke-static {v1, v0}, Lcom/commsource/statistics/i;->s(Ljava/lang/String;Ljava/util/Map;)V
 
-    .line 6
     new-instance v0, Lcom/commsource/widget/dialog/s0/t$a;
 
     invoke-direct {v0}, Lcom/commsource/widget/dialog/s0/t$a;-><init>()V
 
     sget v1, Lcom/res/provider/ResSTRING;->sure_to_cancel_ar:I
 
-    .line 7
     invoke-static {v1}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
 
     move-result-object v1
@@ -102,7 +95,6 @@
 
     sget v1, Lcom/res/provider/ResSTRING;->dialog_confirm:I
 
-    .line 8
     invoke-static {v1}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
 
     move-result-object v1
@@ -113,7 +105,6 @@
 
     sget v1, Lcom/res/provider/ResSTRING;->cancel:I
 
-    .line 9
     invoke-static {v1}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
 
     move-result-object v1
@@ -124,12 +115,10 @@
 
     const/4 v1, 0x1
 
-    .line 10
     invoke-virtual {v0, v1}, Lcom/commsource/widget/dialog/s0/t$a;->p(Z)Lcom/commsource/widget/dialog/s0/t$a;
 
     move-result-object v0
 
-    .line 11
     new-instance v1, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/LookFragment$g$a;
 
     invoke-direct {v1, p0}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/LookFragment$g$a;-><init>(Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/LookFragment$g;)V
@@ -138,7 +127,6 @@
 
     move-result-object v0
 
-    .line 12
     new-instance v1, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/LookFragment$g$b;
 
     invoke-direct {v1, p0}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/LookFragment$g$b;-><init>(Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/LookFragment$g;)V
@@ -147,15 +135,12 @@
 
     move-result-object v0
 
-    .line 13
     invoke-virtual {v0}, Lcom/commsource/widget/dialog/s0/t$a;->a()Lcom/commsource/widget/dialog/s0/t;
 
     move-result-object v0
 
-    .line 14
     invoke-virtual {v0}, Lf/d/a;->F()V
 
-    .line 15
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

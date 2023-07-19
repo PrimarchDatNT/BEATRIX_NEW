@@ -34,7 +34,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 2
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -43,7 +42,6 @@
 .method synthetic constructor <init>(Lio/grpc/HttpConnectProxiedSocketAddress$a;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lio/grpc/HttpConnectProxiedSocketAddress$b;-><init>()V
 
     return-void
@@ -54,7 +52,6 @@
 .method public a()Lio/grpc/HttpConnectProxiedSocketAddress;
     .locals 7
 
-    .line 1
     new-instance v6, Lio/grpc/HttpConnectProxiedSocketAddress;
 
     iget-object v1, p0, Lio/grpc/HttpConnectProxiedSocketAddress$b;->a:Ljava/net/SocketAddress;
@@ -81,7 +78,6 @@
         .end annotation
     .end param
 
-    .line 1
     iput-object p1, p0, Lio/grpc/HttpConnectProxiedSocketAddress$b;->d:Ljava/lang/String;
 
     return-object p0
@@ -92,7 +88,6 @@
 
     const-string v0, "proxyAddress"
 
-    .line 1
     invoke-static {p1, v0}, Lcom/google/common/base/t;->F(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -109,7 +104,6 @@
 
     const-string v0, "targetAddress"
 
-    .line 1
     invoke-static {p1, v0}, Lcom/google/common/base/t;->F(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -128,7 +122,6 @@
         .end annotation
     .end param
 
-    .line 1
     iput-object p1, p0, Lio/grpc/HttpConnectProxiedSocketAddress$b;->c:Ljava/lang/String;
 
     return-object p0

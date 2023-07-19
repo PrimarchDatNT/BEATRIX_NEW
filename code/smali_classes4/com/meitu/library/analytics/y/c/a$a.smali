@@ -29,7 +29,6 @@
 .method constructor <init>(Lcom/meitu/library/analytics/y/c/a;Lcom/meitu/library/analytics/sdk/content/f;J)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/library/analytics/y/c/a$a;->c:Lcom/meitu/library/analytics/y/c/a;
 
     iput-object p2, p0, Lcom/meitu/library/analytics/y/c/a$a;->a:Lcom/meitu/library/analytics/sdk/content/f;
@@ -50,7 +49,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/library/analytics/y/c/a$a;->a:Lcom/meitu/library/analytics/sdk/content/f;
 
     invoke-static {v1}, Lcom/meitu/library/analytics/y/c/a;->e(Lcom/meitu/library/analytics/sdk/content/f;)[Ljava/lang/String;
@@ -59,12 +57,10 @@
 
     if-nez v1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 3
     :cond_0
     invoke-static {}, Lcom/meitu/library/analytics/y/h/f;->g()Lcom/meitu/library/analytics/y/h/h;
 
@@ -76,7 +72,6 @@
 
     invoke-interface {v2, v3}, Lcom/meitu/library/analytics/y/h/h;->post(Ljava/lang/Runnable;)V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

@@ -58,7 +58,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     const-class v1, Lf/k/m/f/b;
 
     invoke-virtual {v1}, Ljava/lang/Class;->getSimpleName()Ljava/lang/String;
@@ -75,10 +74,8 @@
 .method private constructor <init>()V
     .locals 2
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     new-instance v0, Ljava/util/LinkedList;
 
     invoke-direct {v0}, Ljava/util/LinkedList;-><init>()V
@@ -87,10 +84,8 @@
 
     const/4 v0, 0x0
 
-    .line 3
     iput-boolean v0, p0, Lf/k/m/f/b;->c:Z
 
-    .line 4
     new-instance v0, Ljava/util/HashMap;
 
     const/4 v1, 0x5
@@ -99,14 +94,12 @@
 
     iput-object v0, p0, Lf/k/m/f/b;->d:Ljava/util/HashMap;
 
-    .line 5
     new-instance v0, Ljava/util/LinkedList;
 
     invoke-direct {v0}, Ljava/util/LinkedList;-><init>()V
 
     iput-object v0, p0, Lf/k/m/f/b;->e:Ljava/util/List;
 
-    .line 6
     new-instance v0, Lf/k/m/f/b$c;
 
     invoke-direct {v0, p0}, Lf/k/m/f/b$c;-><init>(Lf/k/m/f/b;)V
@@ -127,10 +120,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     monitor-enter p0
 
-    .line 2
     :try_start_0
     invoke-direct {p0, p1}, Lf/k/m/f/b;->t(Ljava/lang/String;)Lf/k/m/f/e/b;
 
@@ -138,7 +129,6 @@
 
     if-nez v1, :cond_0
 
-    .line 3
     monitor-exit p0
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
@@ -147,22 +137,18 @@
 
     return-void
 
-    .line 4
     :cond_0
     :try_start_1
     invoke-interface {v1, p1}, Lf/k/m/f/e/b;->c(Ljava/lang/String;)V
 
-    .line 5
     iget-object v1, p0, Lf/k/m/f/b;->d:Ljava/util/HashMap;
 
     invoke-virtual {v1, p1}, Ljava/util/HashMap;->remove(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 6
     monitor-exit p0
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -170,7 +156,6 @@
     :catchall_0
     move-exception p1
 
-    .line 8
     :try_start_2
     monitor-exit p0
     :try_end_2
@@ -192,10 +177,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     monitor-enter p0
 
-    .line 2
     :try_start_0
     invoke-virtual {p1}, Lcom/android/billingclient/api/Purchase;->j()Ljava/lang/String;
 
@@ -207,7 +190,6 @@
 
     if-nez v1, :cond_0
 
-    .line 3
     monitor-exit p0
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
@@ -216,7 +198,6 @@
 
     return-void
 
-    .line 4
     :cond_0
     :try_start_1
     invoke-virtual {p1}, Lcom/android/billingclient/api/Purchase;->j()Ljava/lang/String;
@@ -225,7 +206,6 @@
 
     invoke-interface {v1, v2, p1}, Lf/k/m/f/e/b;->i(Ljava/lang/String;Lcom/android/billingclient/api/Purchase;)V
 
-    .line 5
     iget-object v1, p0, Lf/k/m/f/b;->d:Ljava/util/HashMap;
 
     invoke-virtual {p1}, Lcom/android/billingclient/api/Purchase;->j()Ljava/lang/String;
@@ -234,12 +214,10 @@
 
     invoke-virtual {v1, p1}, Ljava/util/HashMap;->remove(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 6
     monitor-exit p0
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -247,7 +225,6 @@
     :catchall_0
     move-exception p1
 
-    .line 8
     :try_start_2
     monitor-exit p0
     :try_end_2
@@ -269,10 +246,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     monitor-enter p0
 
-    .line 2
     :try_start_0
     invoke-direct {p0, p1}, Lf/k/m/f/b;->t(Ljava/lang/String;)Lf/k/m/f/e/b;
 
@@ -280,7 +255,6 @@
 
     if-nez v1, :cond_0
 
-    .line 3
     monitor-exit p0
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
@@ -289,22 +263,18 @@
 
     return-void
 
-    .line 4
     :cond_0
     :try_start_1
     invoke-interface {v1, p1}, Lf/k/m/f/e/b;->b(Ljava/lang/String;)V
 
-    .line 5
     iget-object v1, p0, Lf/k/m/f/b;->d:Ljava/util/HashMap;
 
     invoke-virtual {v1, p1}, Ljava/util/HashMap;->remove(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 6
     monitor-exit p0
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -312,7 +282,6 @@
     :catchall_0
     move-exception p1
 
-    .line 8
     :try_start_2
     monitor-exit p0
     :try_end_2
@@ -330,7 +299,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     :try_start_0
     iget-object v1, p0, Lf/k/m/f/b;->a:Lcom/android/billingclient/api/d;
 
@@ -349,10 +317,8 @@
 
     if-eqz p2, :cond_0
 
-    .line 2
     invoke-interface {p2, p1}, Lf/k/m/f/e/d;->j(Ljava/lang/Exception;)V
 
-    .line 3
     :cond_0
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -369,14 +335,12 @@
 
     if-eqz p1, :cond_3
 
-    .line 1
     invoke-virtual {p1}, Lcom/android/billingclient/api/Purchase$b;->a()Lcom/android/billingclient/api/h;
 
     move-result-object v1
 
     if-eqz v1, :cond_3
 
-    .line 2
     invoke-virtual {p1}, Lcom/android/billingclient/api/Purchase$b;->a()Lcom/android/billingclient/api/h;
 
     move-result-object v1
@@ -387,19 +351,16 @@
 
     if-nez v1, :cond_3
 
-    .line 3
     new-instance v1, Ljava/util/ArrayList;
 
     invoke-direct {v1}, Ljava/util/ArrayList;-><init>()V
 
-    .line 4
     invoke-virtual {p1}, Lcom/android/billingclient/api/Purchase$b;->b()Ljava/util/List;
 
     move-result-object p1
 
     if-eqz p1, :cond_2
 
-    .line 5
     invoke-interface {p1}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
     move-result-object p1
@@ -418,7 +379,6 @@
 
     check-cast v2, Lcom/android/billingclient/api/Purchase;
 
-    .line 6
     invoke-virtual {v2}, Lcom/android/billingclient/api/Purchase;->f()I
 
     move-result v3
@@ -427,19 +387,16 @@
 
     if-ne v3, v4, :cond_0
 
-    .line 7
     invoke-virtual {v2}, Lcom/android/billingclient/api/Purchase;->k()Z
 
     move-result v3
 
     if-eqz v3, :cond_1
 
-    .line 8
     invoke-interface {v1, v2}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
     goto :goto_0
 
-    .line 9
     :cond_1
     invoke-direct {p0, v2}, Lf/k/m/f/b;->p(Lcom/android/billingclient/api/Purchase;)V
 
@@ -448,7 +405,6 @@
     :cond_2
     if-eqz p2, :cond_5
 
-    .line 10
     invoke-interface {p2, v1}, Lf/k/m/f/e/d;->m(Ljava/util/List;)V
 
     goto :goto_2
@@ -458,7 +414,6 @@
 
     if-eqz p1, :cond_4
 
-    .line 11
     invoke-virtual {p1}, Lcom/android/billingclient/api/Purchase$b;->a()Lcom/android/billingclient/api/h;
 
     move-result-object p1
@@ -471,7 +426,6 @@
     :goto_1
     invoke-interface {p2, p1}, Lf/k/m/f/e/d;->k(Lcom/android/billingclient/api/h;)V
 
-    .line 12
     :cond_5
     :goto_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -497,20 +451,17 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     :try_start_0
     invoke-static {}, Lcom/android/billingclient/api/o;->c()Lcom/android/billingclient/api/o$a;
 
     move-result-object v1
 
-    .line 2
     invoke-virtual {v1, p1}, Lcom/android/billingclient/api/o$a;->b(Ljava/util/List;)Lcom/android/billingclient/api/o$a;
 
     move-result-object p1
 
     invoke-virtual {p1, p2}, Lcom/android/billingclient/api/o$a;->c(Ljava/lang/String;)Lcom/android/billingclient/api/o$a;
 
-    .line 3
     iget-object p1, p0, Lf/k/m/f/b;->a:Lcom/android/billingclient/api/d;
 
     invoke-virtual {v1}, Lcom/android/billingclient/api/o$a;->a()Lcom/android/billingclient/api/o;
@@ -532,10 +483,8 @@
 
     if-eqz p3, :cond_0
 
-    .line 4
     invoke-interface {p3, p1}, Lf/k/m/f/e/e;->n(Ljava/lang/Exception;)V
 
-    .line 5
     :cond_0
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -550,21 +499,17 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     monitor-enter p0
 
     const/4 v1, 0x1
 
-    .line 2
     :try_start_0
     iput-boolean v1, p0, Lf/k/m/f/b;->c:Z
 
-    .line 3
     monitor-exit p0
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 4
     iget-object v1, p0, Lf/k/m/f/b;->a:Lcom/android/billingclient/api/d;
 
     new-instance v2, Lf/k/m/f/b$d;
@@ -573,7 +518,6 @@
 
     invoke-virtual {v1, v2}, Lcom/android/billingclient/api/d;->l(Lcom/android/billingclient/api/f;)V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -581,7 +525,6 @@
     :catchall_0
     move-exception p1
 
-    .line 6
     :try_start_1
     monitor-exit p0
     :try_end_1
@@ -612,7 +555,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-interface {p2}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
     move-result-object p2
@@ -634,7 +576,6 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     invoke-virtual {v0}, Lcom/android/billingclient/api/Purchase;->f()I
 
@@ -648,7 +589,6 @@
 
     if-eq v1, v2, :cond_1
 
-    .line 3
     sget-object v1, Lf/k/m/f/b;->f:Ljava/lang/String;
 
     new-instance v2, Ljava/lang/StringBuilder;
@@ -683,7 +623,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_1
     invoke-virtual {v0}, Lcom/android/billingclient/api/Purchase;->j()Ljava/lang/String;
 
@@ -693,7 +632,6 @@
 
     goto :goto_0
 
-    .line 5
     :cond_2
     invoke-virtual {v0}, Lcom/android/billingclient/api/Purchase;->k()Z
 
@@ -701,10 +639,8 @@
 
     if-nez v1, :cond_3
 
-    .line 6
     monitor-enter p0
 
-    .line 7
     :try_start_0
     invoke-virtual {v0}, Lcom/android/billingclient/api/Purchase;->j()Ljava/lang/String;
 
@@ -714,22 +650,18 @@
 
     move-result-object v1
 
-    .line 8
     monitor-exit p0
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 9
     new-instance v2, Lf/k/m/f/b$b;
 
     invoke-direct {v2, p0, v0}, Lf/k/m/f/b$b;-><init>(Lf/k/m/f/b;Lcom/android/billingclient/api/Purchase;)V
 
-    .line 10
     invoke-virtual {v0}, Lcom/android/billingclient/api/Purchase;->j()Ljava/lang/String;
 
     move-result-object v0
 
-    .line 11
     invoke-direct {p0, v2, v1, v0}, Lf/k/m/f/b;->s(Ljava/lang/Runnable;Lf/k/m/f/e/a;Ljava/lang/Object;)V
 
     goto :goto_0
@@ -737,7 +669,6 @@
     :catchall_0
     move-exception p2
 
-    .line 12
     :try_start_1
     monitor-exit p0
     :try_end_1
@@ -747,13 +678,11 @@
 
     throw p2
 
-    .line 13
     :cond_3
     invoke-direct {p0, v0}, Lf/k/m/f/b;->B(Lcom/android/billingclient/api/Purchase;)V
 
     goto :goto_0
 
-    .line 14
     :cond_4
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -767,7 +696,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lf/k/m/f/b;->a:Lcom/android/billingclient/api/d;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -782,7 +710,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lf/k/m/f/b;->a:Lcom/android/billingclient/api/d;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -797,7 +724,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lf/k/m/f/b;->f:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -812,7 +738,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0, p1, p2, p3}, Lf/k/m/f/b;->z(Lcom/android/billingclient/api/Purchase;ILjava/lang/String;)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -827,7 +752,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0, p1}, Lf/k/m/f/b;->B(Lcom/android/billingclient/api/Purchase;)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -842,7 +766,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0, p1}, Lf/k/m/f/b;->p(Lcom/android/billingclient/api/Purchase;)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -857,7 +780,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lf/k/m/f/b;->b:Ljava/util/List;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -872,7 +794,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lf/k/m/f/b;->c:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -887,7 +808,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0, p1, p2, p3}, Lf/k/m/f/b;->I(Ljava/util/List;Ljava/lang/String;Lf/k/m/f/e/e;)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -902,7 +822,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0, p1, p2}, Lf/k/m/f/b;->G(Lcom/android/billingclient/api/Purchase$b;Lf/k/m/f/e/d;)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -917,7 +836,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0, p1, p2}, Lf/k/m/f/b;->E(Ljava/lang/String;Lf/k/m/f/e/d;)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -932,7 +850,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lf/k/m/f/b;->d:Ljava/util/HashMap;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -947,7 +864,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lf/k/m/f/b;->q()V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -962,7 +878,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lf/k/m/f/b;->e:Ljava/util/List;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -981,15 +896,12 @@
 
     const-string p1, "check signature Unknown data null error!"
 
-    .line 1
     invoke-static {p1}, Lf/k/m/j/e;->c(Ljava/lang/String;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 3
     :cond_0
     iget-object v1, p0, Lf/k/m/f/b;->a:Lcom/android/billingclient/api/d;
 
@@ -1003,11 +915,9 @@
 
     goto :goto_1
 
-    .line 4
     :cond_1
     monitor-enter p0
 
-    .line 5
     :try_start_0
     iget-object v1, p0, Lf/k/m/f/b;->e:Ljava/util/List;
 
@@ -1024,27 +934,23 @@
     :cond_2
     const/4 v1, 0x0
 
-    .line 6
     :goto_0
     iget-object v2, p0, Lf/k/m/f/b;->e:Ljava/util/List;
 
     invoke-interface {v2, p1}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
-    .line 7
     monitor-exit p0
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
     if-eqz v1, :cond_3
 
-    .line 8
     new-instance v1, Lf/k/m/f/b$k;
 
     invoke-direct {v1, p0, p1}, Lf/k/m/f/b$k;-><init>(Lf/k/m/f/b;Lcom/android/billingclient/api/Purchase;)V
 
     invoke-static {v1}, Lf/k/m/j/j;->g(Ljava/lang/Runnable;)V
 
-    .line 9
     :cond_3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1053,7 +959,6 @@
     :catchall_0
     move-exception p1
 
-    .line 10
     :try_start_1
     monitor-exit p0
     :try_end_1
@@ -1067,17 +972,14 @@
     :goto_1
     const-string v1, "check: can\'t connect google play"
 
-    .line 11
     invoke-static {v1}, Lf/k/m/j/e;->c(Ljava/lang/String;)V
 
     const/4 v1, -0x1
 
     const/4 v2, 0x0
 
-    .line 12
     invoke-direct {p0, p1, v1, v2}, Lf/k/m/f/b;->z(Lcom/android/billingclient/api/Purchase;ILjava/lang/String;)V
 
-    .line 13
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1090,10 +992,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     monitor-enter p0
 
-    .line 2
     :try_start_0
     iget-object v1, p0, Lf/k/m/f/b;->d:Ljava/util/HashMap;
 
@@ -1101,12 +1001,10 @@
 
     move-result-object v1
 
-    .line 3
     new-instance v2, Ljava/util/ArrayList;
 
     invoke-direct {v2, v1}, Ljava/util/ArrayList;-><init>(Ljava/util/Collection;)V
 
-    .line 4
     invoke-interface {v2}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
     move-result-object v1
@@ -1125,7 +1023,6 @@
 
     check-cast v2, Ljava/lang/String;
 
-    .line 5
     iget-object v3, p0, Lf/k/m/f/b;->d:Ljava/util/HashMap;
 
     invoke-virtual {v3, v2}, Ljava/util/HashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
@@ -1136,14 +1033,12 @@
 
     if-eqz v3, :cond_1
 
-    .line 6
     invoke-virtual {v3}, Ljava/lang/ref/WeakReference;->get()Ljava/lang/Object;
 
     move-result-object v3
 
     if-nez v3, :cond_0
 
-    .line 7
     :cond_1
     iget-object v3, p0, Lf/k/m/f/b;->d:Ljava/util/HashMap;
 
@@ -1151,13 +1046,11 @@
 
     goto :goto_0
 
-    .line 8
     :cond_2
     monitor-exit p0
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 9
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1165,7 +1058,6 @@
     :catchall_0
     move-exception v1
 
-    .line 10
     :try_start_1
     monitor-exit p0
     :try_end_1
@@ -1183,7 +1075,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lf/k/m/f/b;->a:Lcom/android/billingclient/api/d;
 
     invoke-virtual {v1}, Lcom/android/billingclient/api/d;->e()Z
@@ -1192,27 +1083,22 @@
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-interface {p1}, Ljava/lang/Runnable;->run()V
 
     goto :goto_0
 
-    .line 3
     :cond_0
     iget-object v1, p0, Lf/k/m/f/b;->b:Ljava/util/List;
 
     invoke-interface {v1, p1}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
-    .line 4
     monitor-enter p0
 
-    .line 5
     :try_start_0
     iget-boolean p1, p0, Lf/k/m/f/b;->c:Z
 
     if-eqz p1, :cond_1
 
-    .line 6
     monitor-exit p0
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
@@ -1221,17 +1107,14 @@
 
     return-void
 
-    .line 7
     :cond_1
     :try_start_1
     monitor-exit p0
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
-    .line 8
     invoke-direct {p0, p2, p3}, Lf/k/m/f/b;->J(Lf/k/m/f/e/a;Ljava/lang/Object;)V
 
-    .line 9
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1240,7 +1123,6 @@
     :catchall_0
     move-exception p1
 
-    .line 10
     :try_start_2
     monitor-exit p0
     :try_end_2
@@ -1258,7 +1140,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lf/k/m/f/b;->d:Ljava/util/HashMap;
 
     invoke-virtual {v1, p1}, Ljava/util/HashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
@@ -1269,7 +1150,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 2
     invoke-virtual {p1}, Ljava/lang/ref/WeakReference;->get()Ljava/lang/Object;
 
     move-result-object p1
@@ -1294,30 +1174,25 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lf/k/m/f/b;->g:Lf/k/m/f/b;
 
     if-nez v1, :cond_1
 
-    .line 2
     const-class v1, Lf/k/m/f/b;
 
     monitor-enter v1
 
-    .line 3
     :try_start_0
     sget-object v2, Lf/k/m/f/b;->g:Lf/k/m/f/b;
 
     if-nez v2, :cond_0
 
-    .line 4
     new-instance v2, Lf/k/m/f/b;
 
     invoke-direct {v2}, Lf/k/m/f/b;-><init>()V
 
     sput-object v2, Lf/k/m/f/b;->g:Lf/k/m/f/b;
 
-    .line 5
     :cond_0
     monitor-exit v1
 
@@ -1334,7 +1209,6 @@
 
     throw v2
 
-    .line 6
     :cond_1
     :goto_0
     sget-object v1, Lf/k/m/f/b;->g:Lf/k/m/f/b;
@@ -1351,10 +1225,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     monitor-enter p0
 
-    .line 2
     :try_start_0
     iget-object v1, p0, Lf/k/m/f/b;->d:Ljava/util/HashMap;
 
@@ -1370,10 +1242,8 @@
 
     const-string v1, "Unknown ITEM_ALREADY_OWNED info enter!"
 
-    .line 3
     invoke-static {v1}, Lf/k/m/j/e;->c(Ljava/lang/String;)V
 
-    .line 4
     monitor-exit p0
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
@@ -1382,7 +1252,6 @@
 
     return-void
 
-    .line 5
     :cond_0
     :try_start_1
     iget-object v1, p0, Lf/k/m/f/b;->d:Ljava/util/HashMap;
@@ -1407,7 +1276,6 @@
 
     check-cast v1, Ljava/lang/String;
 
-    .line 6
     iget-object v2, p0, Lf/k/m/f/b;->d:Ljava/util/HashMap;
 
     invoke-virtual {v2, v1}, Ljava/util/HashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
@@ -1420,7 +1288,6 @@
 
     goto :goto_0
 
-    .line 7
     :cond_1
     invoke-virtual {v2}, Ljava/lang/ref/WeakReference;->get()Ljava/lang/Object;
 
@@ -1435,22 +1302,18 @@
     :cond_2
     const/4 v3, 0x0
 
-    .line 8
     invoke-interface {v2, v1, v3}, Lf/k/m/f/e/b;->i(Ljava/lang/String;Lcom/android/billingclient/api/Purchase;)V
 
-    .line 9
     iget-object v2, p0, Lf/k/m/f/b;->d:Ljava/util/HashMap;
 
     invoke-virtual {v2, v1}, Ljava/util/HashMap;->remove(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 10
     :cond_3
     :goto_0
     monitor-exit p0
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
-    .line 11
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1458,7 +1321,6 @@
     :catchall_0
     move-exception v1
 
-    .line 12
     :try_start_2
     monitor-exit p0
     :try_end_2
@@ -1476,10 +1338,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     monitor-enter p0
 
-    .line 2
     :try_start_0
     iget-object v1, p0, Lf/k/m/f/b;->d:Ljava/util/HashMap;
 
@@ -1487,7 +1347,6 @@
 
     move-result-object v1
 
-    .line 3
     invoke-interface {v1}, Ljava/util/Set;->iterator()Ljava/util/Iterator;
 
     move-result-object v1
@@ -1506,25 +1365,21 @@
 
     check-cast v2, Ljava/lang/String;
 
-    .line 4
     invoke-direct {p0, v2}, Lf/k/m/f/b;->t(Ljava/lang/String;)Lf/k/m/f/e/b;
 
     move-result-object v3
 
     if-eqz v3, :cond_0
 
-    .line 5
     invoke-interface {v3, v2}, Lf/k/m/f/e/b;->b(Ljava/lang/String;)V
 
     goto :goto_0
 
-    .line 6
     :cond_1
     monitor-exit p0
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1532,7 +1387,6 @@
     :catchall_0
     move-exception v1
 
-    .line 8
     :try_start_1
     monitor-exit p0
     :try_end_1
@@ -1550,10 +1404,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     monitor-enter p0
 
-    .line 2
     :try_start_0
     iget-object v1, p0, Lf/k/m/f/b;->d:Ljava/util/HashMap;
 
@@ -1561,7 +1413,6 @@
 
     move-result-object v1
 
-    .line 3
     new-instance v2, Ljava/lang/StringBuilder;
 
     invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
@@ -1582,7 +1433,6 @@
 
     invoke-static {v2}, Lf/k/m/j/e;->g(Ljava/lang/String;)V
 
-    .line 4
     invoke-interface {v1}, Ljava/util/Set;->iterator()Ljava/util/Iterator;
 
     move-result-object v1
@@ -1601,25 +1451,21 @@
 
     check-cast v2, Ljava/lang/String;
 
-    .line 5
     invoke-direct {p0, v2}, Lf/k/m/f/b;->t(Ljava/lang/String;)Lf/k/m/f/e/b;
 
     move-result-object v3
 
     if-eqz v3, :cond_0
 
-    .line 6
     invoke-interface {v3, v2, p1, p2}, Lf/k/m/f/e/b;->a(Ljava/lang/String;ILjava/lang/String;)V
 
     goto :goto_0
 
-    .line 7
     :cond_1
     monitor-exit p0
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1627,7 +1473,6 @@
     :catchall_0
     move-exception p1
 
-    .line 9
     :try_start_1
     monitor-exit p0
     :try_end_1
@@ -1653,10 +1498,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     monitor-enter p0
 
-    .line 2
     :try_start_0
     invoke-virtual {p1}, Lcom/android/billingclient/api/Purchase;->j()Ljava/lang/String;
 
@@ -1668,7 +1511,6 @@
 
     if-nez v1, :cond_0
 
-    .line 3
     monitor-exit p0
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
@@ -1677,7 +1519,6 @@
 
     return-void
 
-    .line 4
     :cond_0
     :try_start_1
     invoke-virtual {p1}, Lcom/android/billingclient/api/Purchase;->j()Ljava/lang/String;
@@ -1686,7 +1527,6 @@
 
     invoke-interface {v1, v2, p2, p3}, Lf/k/m/f/e/b;->a(Ljava/lang/String;ILjava/lang/String;)V
 
-    .line 5
     iget-object p2, p0, Lf/k/m/f/b;->d:Ljava/util/HashMap;
 
     invoke-virtual {p1}, Lcom/android/billingclient/api/Purchase;->j()Ljava/lang/String;
@@ -1695,12 +1535,10 @@
 
     invoke-virtual {p2, p1}, Ljava/util/HashMap;->remove(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 6
     monitor-exit p0
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1708,7 +1546,6 @@
     :catchall_0
     move-exception p1
 
-    .line 8
     :try_start_2
     monitor-exit p0
     :try_end_2
@@ -1728,14 +1565,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lf/k/m/f/b$h;
 
     invoke-direct {v1, p0, p1, p2}, Lf/k/m/f/b$h;-><init>(Lf/k/m/f/b;Ljava/lang/String;Lf/k/m/f/e/d;)V
 
     invoke-direct {p0, v1, p2, p1}, Lf/k/m/f/b;->s(Ljava/lang/Runnable;Lf/k/m/f/e/a;Ljava/lang/Object;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1748,14 +1583,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lf/k/m/f/b$g;
 
     invoke-direct {v1, p0, p1, p2}, Lf/k/m/f/b$g;-><init>(Lf/k/m/f/b;Ljava/lang/String;Lf/k/m/f/e/d;)V
 
     invoke-direct {p0, v1, p2, p1}, Lf/k/m/f/b;->s(Ljava/lang/Runnable;Lf/k/m/f/e/a;Ljava/lang/Object;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1779,14 +1612,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lf/k/m/f/b$e;
 
     invoke-direct {v1, p0, p1, p2, p3}, Lf/k/m/f/b$e;-><init>(Lf/k/m/f/b;Ljava/util/List;Ljava/lang/String;Lf/k/m/f/e/e;)V
 
     invoke-direct {p0, v1, p3, p1}, Lf/k/m/f/b;->s(Ljava/lang/Runnable;Lf/k/m/f/e/a;Ljava/lang/Object;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1812,7 +1643,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lf/k/m/f/b;->f:Ljava/lang/String;
 
     new-instance v2, Ljava/lang/StringBuilder;
@@ -1845,7 +1675,6 @@
 
     invoke-static {v1, v2}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 2
     new-instance v2, Ljava/lang/StringBuilder;
 
     invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
@@ -1862,7 +1691,6 @@
 
     invoke-static {v1, v2}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 3
     invoke-virtual {p1}, Lcom/android/billingclient/api/h;->b()I
 
     move-result v2
@@ -1877,7 +1705,6 @@
 
     if-eq v2, v3, :cond_2
 
-    .line 4
     new-instance v2, Ljava/lang/StringBuilder;
 
     invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
@@ -1900,7 +1727,6 @@
 
     if-eqz p2, :cond_1
 
-    .line 5
     invoke-interface {p2}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
     move-result-object p2
@@ -1922,7 +1748,6 @@
 
     goto :goto_0
 
-    .line 6
     :cond_0
     invoke-virtual {p1}, Lcom/android/billingclient/api/h;->b()I
 
@@ -1936,7 +1761,6 @@
 
     goto :goto_0
 
-    .line 7
     :cond_1
     invoke-virtual {p1}, Lcom/android/billingclient/api/h;->b()I
 
@@ -1953,12 +1777,10 @@
     :cond_2
     if-nez p2, :cond_3
 
-    .line 8
     invoke-direct {p0}, Lf/k/m/f/b;->w()V
 
     goto :goto_2
 
-    .line 9
     :cond_3
     invoke-direct {p0, p1, p2}, Lf/k/m/f/b;->K(Lcom/android/billingclient/api/h;Ljava/util/List;)V
 
@@ -1967,12 +1789,10 @@
     :cond_4
     const-string p1, "onPurchasesUpdated() - user cancelled the purchase flow - skipping"
 
-    .line 10
     invoke-static {v1, p1}, Lf/k/m/j/e;->h(Ljava/lang/String;Ljava/lang/String;)V
 
     if-eqz p2, :cond_6
 
-    .line 11
     invoke-interface {p2}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
     move-result-object p1
@@ -1994,7 +1814,6 @@
 
     goto :goto_1
 
-    .line 12
     :cond_5
     invoke-virtual {p2}, Lcom/android/billingclient/api/Purchase;->j()Ljava/lang/String;
 
@@ -2004,7 +1823,6 @@
 
     goto :goto_1
 
-    .line 13
     :cond_6
     invoke-direct {p0}, Lf/k/m/f/b;->x()V
 
@@ -2015,11 +1833,9 @@
 
     goto :goto_2
 
-    .line 14
     :cond_8
     invoke-direct {p0, p1, p2}, Lf/k/m/f/b;->K(Lcom/android/billingclient/api/h;Ljava/util/List;)V
 
-    .line 15
     :cond_9
     :goto_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2034,14 +1850,12 @@
 
     invoke-static {p3}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v0, Lf/k/m/f/b$a;
 
     invoke-direct {v0, p0, p2, p1}, Lf/k/m/f/b$a;-><init>(Lf/k/m/f/b;Lf/k/m/f/e/c;Ljava/lang/String;)V
 
     invoke-direct {p0, v0, p2, p1}, Lf/k/m/f/b;->s(Ljava/lang/Runnable;Lf/k/m/f/e/a;Ljava/lang/Object;)V
 
-    .line 2
     invoke-static {p3}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2062,16 +1876,13 @@
 
     const-string v1, "activity is null"
 
-    .line 1
     invoke-interface {p3, p2, p1, v1}, Lf/k/m/f/e/b;->a(Ljava/lang/String;ILjava/lang/String;)V
 
-    .line 2
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 3
     :cond_1
     invoke-static {p1}, Lf/k/m/j/f;->b(Landroid/content/Context;)Z
 
@@ -2081,16 +1892,13 @@
 
     if-eqz p3, :cond_2
 
-    .line 4
     invoke-interface {p3, p2}, Lf/k/m/f/e/b;->h(Ljava/lang/String;)V
 
-    .line 5
     :cond_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 6
     :cond_3
     new-instance v1, Lf/k/m/f/b$j;
 
@@ -2098,7 +1906,6 @@
 
     invoke-direct {p0, v1, p3, p2}, Lf/k/m/f/b;->s(Ljava/lang/Runnable;Lf/k/m/f/e/a;Ljava/lang/Object;)V
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

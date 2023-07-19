@@ -36,10 +36,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Lcom/squareup/okhttp/internal/Platform;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/squareup/okhttp/internal/Platform$JdkPlatform;->sslContextClass:Ljava/lang/Class;
 
     return-void
@@ -50,7 +48,6 @@
 .method public trustManager(Ljavax/net/ssl/SSLSocketFactory;)Ljavax/net/ssl/X509TrustManager;
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/squareup/okhttp/internal/Platform$JdkPlatform;->sslContextClass:Ljava/lang/Class;
 
     const-string v1, "context"
@@ -65,7 +62,6 @@
 
     return-object p1
 
-    .line 2
     :cond_0
     const-class v0, Ljavax/net/ssl/X509TrustManager;
 

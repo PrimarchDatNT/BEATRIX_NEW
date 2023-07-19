@@ -25,7 +25,6 @@
 .method constructor <init>(Lcom/mopub/nativeads/MoPubCustomEventNative$MoPubStaticNativeAd;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/mopub/nativeads/MoPubCustomEventNative$MoPubStaticNativeAd$1;->this$0:Lcom/mopub/nativeads/MoPubCustomEventNative$MoPubStaticNativeAd;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -38,7 +37,6 @@
 .method public onImagesCached()V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/nativeads/MoPubCustomEventNative$MoPubStaticNativeAd$1;->this$0:Lcom/mopub/nativeads/MoPubCustomEventNative$MoPubStaticNativeAd;
 
     invoke-virtual {v0}, Lcom/mopub/nativeads/BaseNativeAd;->isInvalidated()Z
@@ -49,7 +47,6 @@
 
     return-void
 
-    .line 2
     :cond_0
     iget-object v0, p0, Lcom/mopub/nativeads/MoPubCustomEventNative$MoPubStaticNativeAd$1;->this$0:Lcom/mopub/nativeads/MoPubCustomEventNative$MoPubStaticNativeAd;
 
@@ -67,7 +64,6 @@
 .method public onImagesFailedToCache(Lcom/mopub/nativeads/NativeErrorCode;)V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/nativeads/MoPubCustomEventNative$MoPubStaticNativeAd$1;->this$0:Lcom/mopub/nativeads/MoPubCustomEventNative$MoPubStaticNativeAd;
 
     invoke-virtual {v0}, Lcom/mopub/nativeads/BaseNativeAd;->isInvalidated()Z
@@ -78,7 +74,6 @@
 
     return-void
 
-    .line 2
     :cond_0
     iget-object v0, p0, Lcom/mopub/nativeads/MoPubCustomEventNative$MoPubStaticNativeAd$1;->this$0:Lcom/mopub/nativeads/MoPubCustomEventNative$MoPubStaticNativeAd;
 

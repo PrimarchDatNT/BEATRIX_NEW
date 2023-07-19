@@ -23,7 +23,6 @@
 .method static constructor <clinit>()V
     .locals 2
 
-    .line 1
     new-instance v0, Lcom/google/firebase/firestore/model/n/k;
 
     const/4 v1, 0x0
@@ -46,7 +45,6 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/4 v0, 0x0
@@ -71,13 +69,10 @@
 
     const-string v2, "Precondition can specify \"exists\" or \"updateTime\" but not both"
 
-    .line 2
     invoke-static {v1, v2, v0}, Lcom/google/firebase/firestore/util/b;->d(ZLjava/lang/String;[Ljava/lang/Object;)V
 
-    .line 3
     iput-object p1, p0, Lcom/google/firebase/firestore/model/n/k;->a:Lcom/google/firebase/firestore/model/l;
 
-    .line 4
     iput-object p2, p0, Lcom/google/firebase/firestore/model/n/k;->b:Ljava/lang/Boolean;
 
     return-void
@@ -86,7 +81,6 @@
 .method public static a(Z)Lcom/google/firebase/firestore/model/n/k;
     .locals 2
 
-    .line 1
     new-instance v0, Lcom/google/firebase/firestore/model/n/k;
 
     invoke-static {p0}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
@@ -103,7 +97,6 @@
 .method public static f(Lcom/google/firebase/firestore/model/l;)Lcom/google/firebase/firestore/model/n/k;
     .locals 2
 
-    .line 1
     new-instance v0, Lcom/google/firebase/firestore/model/n/k;
 
     const/4 v1, 0x0
@@ -120,7 +113,6 @@
     .annotation runtime Ljavax/annotation/j;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/firestore/model/n/k;->b:Ljava/lang/Boolean;
 
     return-object v0
@@ -131,7 +123,6 @@
     .annotation runtime Ljavax/annotation/j;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/firestore/model/n/k;->a:Lcom/google/firebase/firestore/model/l;
 
     return-object v0
@@ -140,7 +131,6 @@
 .method public d()Z
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/firestore/model/n/k;->a:Lcom/google/firebase/firestore/model/l;
 
     if-nez v0, :cond_0
@@ -167,7 +157,6 @@
         .end annotation
     .end param
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/firestore/model/n/k;->a:Lcom/google/firebase/firestore/model/l;
 
     const/4 v1, 0x1
@@ -176,7 +165,6 @@
 
     if-eqz v0, :cond_1
 
-    .line 2
     instance-of v0, p1, Lcom/google/firebase/firestore/model/Document;
 
     if-eqz v0, :cond_0
@@ -201,13 +189,11 @@
     :goto_0
     return v1
 
-    .line 3
     :cond_1
     iget-object v0, p0, Lcom/google/firebase/firestore/model/n/k;->b:Ljava/lang/Boolean;
 
     if-eqz v0, :cond_3
 
-    .line 4
     invoke-virtual {v0}, Ljava/lang/Boolean;->booleanValue()Z
 
     move-result v0
@@ -224,7 +210,6 @@
     :goto_1
     return v1
 
-    .line 5
     :cond_3
     invoke-virtual {p0}, Lcom/google/firebase/firestore/model/n/k;->d()Z
 
@@ -253,7 +238,6 @@
 
     if-eqz p1, :cond_6
 
-    .line 1
     const-class v2, Lcom/google/firebase/firestore/model/n/k;
 
     invoke-virtual {p1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
@@ -264,11 +248,9 @@
 
     goto :goto_2
 
-    .line 2
     :cond_1
     check-cast p1, Lcom/google/firebase/firestore/model/n/k;
 
-    .line 3
     iget-object v2, p0, Lcom/google/firebase/firestore/model/n/k;->a:Lcom/google/firebase/firestore/model/l;
 
     if-eqz v2, :cond_2
@@ -291,7 +273,6 @@
     :goto_0
     return v1
 
-    .line 4
     :cond_3
     iget-object v2, p0, Lcom/google/firebase/firestore/model/n/k;->b:Ljava/lang/Boolean;
 
@@ -324,7 +305,6 @@
 .method public hashCode()I
     .locals 3
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/firestore/model/n/k;->a:Lcom/google/firebase/firestore/model/l;
 
     const/4 v1, 0x0
@@ -343,7 +323,6 @@
     :goto_0
     mul-int/lit8 v0, v0, 0x1f
 
-    .line 2
     iget-object v2, p0, Lcom/google/firebase/firestore/model/n/k;->b:Ljava/lang/Boolean;
 
     if-eqz v2, :cond_1
@@ -361,7 +340,6 @@
 .method public toString()Ljava/lang/String;
     .locals 3
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/firebase/firestore/model/n/k;->d()Z
 
     move-result v0
@@ -372,7 +350,6 @@
 
     return-object v0
 
-    .line 2
     :cond_0
     iget-object v0, p0, Lcom/google/firebase/firestore/model/n/k;->a:Lcom/google/firebase/firestore/model/l;
 
@@ -380,7 +357,6 @@
 
     if-eqz v0, :cond_1
 
-    .line 3
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -401,13 +377,11 @@
 
     return-object v0
 
-    .line 4
     :cond_1
     iget-object v0, p0, Lcom/google/firebase/firestore/model/n/k;->b:Ljava/lang/Boolean;
 
     if-eqz v0, :cond_2
 
-    .line 5
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -435,7 +409,6 @@
 
     const-string v1, "Invalid Precondition"
 
-    .line 6
     invoke-static {v1, v0}, Lcom/google/firebase/firestore/util/b;->a(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/AssertionError;
 
     move-result-object v0

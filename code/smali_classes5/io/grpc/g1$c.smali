@@ -57,13 +57,10 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lio/grpc/g1$c;->a:Ljava/lang/Object;
 
-    .line 3
     iput-object p2, p0, Lio/grpc/g1$c;->b:Ljava/lang/Object;
 
     return-void
@@ -79,12 +76,10 @@
         }
     .end annotation
 
-    .line 1
     iget-object p2, p0, Lio/grpc/g1$c;->a:Ljava/lang/Object;
 
     if-ne p2, p1, :cond_0
 
-    .line 2
     iget-object p1, p0, Lio/grpc/g1$c;->b:Ljava/lang/Object;
 
     return-object p1
@@ -105,7 +100,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lio/grpc/g1$c;->a:Ljava/lang/Object;
 
     invoke-virtual {v0}, Ljava/lang/Object;->hashCode()I
@@ -114,7 +108,6 @@
 
     if-eq v0, p3, :cond_0
 
-    .line 2
     new-instance v1, Lio/grpc/g1$c;
 
     invoke-direct {v1, p1, p2}, Lio/grpc/g1$c;-><init>(Ljava/lang/Object;Ljava/lang/Object;)V
@@ -125,20 +118,17 @@
 
     return-object p1
 
-    .line 3
     :cond_0
     iget-object p3, p0, Lio/grpc/g1$c;->a:Ljava/lang/Object;
 
     if-ne p3, p1, :cond_1
 
-    .line 4
     new-instance p3, Lio/grpc/g1$c;
 
     invoke-direct {p3, p1, p2}, Lio/grpc/g1$c;-><init>(Ljava/lang/Object;Ljava/lang/Object;)V
 
     return-object p3
 
-    .line 5
     :cond_1
     new-instance p3, Lio/grpc/g1$a;
 
@@ -166,7 +156,6 @@
 
     new-array v0, v0, [Ljava/lang/Object;
 
-    .line 1
     iget-object v1, p0, Lio/grpc/g1$c;->a:Ljava/lang/Object;
 
     const/4 v2, 0x0

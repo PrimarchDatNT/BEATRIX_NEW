@@ -49,13 +49,10 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lio/grpc/o1;->a:Lio/grpc/MethodDescriptor;
 
-    .line 3
     iput-object p2, p0, Lio/grpc/o1;->b:Lio/grpc/l1;
 
     return-void
@@ -79,7 +76,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lio/grpc/o1;
 
     invoke-direct {v0, p0, p1}, Lio/grpc/o1;-><init>(Lio/grpc/MethodDescriptor;Lio/grpc/l1;)V
@@ -99,7 +95,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lio/grpc/o1;->a:Lio/grpc/MethodDescriptor;
 
     return-object v0
@@ -115,7 +110,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lio/grpc/o1;->b:Lio/grpc/l1;
 
     return-object v0
@@ -133,7 +127,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lio/grpc/o1;
 
     iget-object v1, p0, Lio/grpc/o1;->a:Lio/grpc/MethodDescriptor;

@@ -24,7 +24,6 @@
 .method constructor <init>(Lcom/google/firebase/appindexing/internal/m;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/firebase/appindexing/internal/o;->c:Lcom/google/firebase/appindexing/internal/m;
 
     invoke-direct {p0}, Lcom/google/android/gms/common/api/internal/w;-><init>()V
@@ -42,22 +41,18 @@
         }
     .end annotation
 
-    .line 1
     check-cast p1, Lcom/google/firebase/appindexing/internal/g;
 
-    .line 2
     invoke-virtual {p1}, Lcom/google/android/gms/common/internal/e;->G()Landroid/os/IInterface;
 
     move-result-object p1
 
     check-cast p1, Lcom/google/firebase/appindexing/internal/u;
 
-    .line 3
     new-instance v0, Lcom/google/firebase/appindexing/internal/p;
 
     invoke-direct {v0, p0, p2}, Lcom/google/firebase/appindexing/internal/p;-><init>(Lcom/google/firebase/appindexing/internal/o;Lcom/google/android/gms/tasks/l;)V
 
-    .line 4
     iget-object v1, p0, Lcom/google/firebase/appindexing/internal/o;->c:Lcom/google/firebase/appindexing/internal/m;
 
     invoke-static {v1}, Lcom/google/firebase/appindexing/internal/m;->e(Lcom/google/firebase/appindexing/internal/m;)Lcom/google/firebase/appindexing/internal/zzx;
@@ -76,7 +71,6 @@
 
     goto :goto_0
 
-    .line 5
     :cond_0
     iget p1, p1, Lcom/google/firebase/appindexing/internal/zzf;->a:I
 
@@ -95,7 +89,6 @@
 
     const/4 v1, 0x4
 
-    .line 6
     invoke-static {v1}, Lcom/google/firebase/appindexing/internal/w;->a(I)Z
 
     move-result v1
@@ -104,10 +97,8 @@
 
     const-string v1, "FirebaseAppIndex"
 
-    .line 7
     invoke-static {v1, p1}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 8
     :cond_1
     invoke-virtual {p2, v4}, Lcom/google/android/gms/tasks/l;->e(Ljava/lang/Object;)Z
 
@@ -115,7 +106,6 @@
 
     if-eqz p1, :cond_8
 
-    .line 9
     iget-object p1, p0, Lcom/google/firebase/appindexing/internal/o;->c:Lcom/google/firebase/appindexing/internal/m;
 
     iget-object p1, p1, Lcom/google/firebase/appindexing/internal/m;->c:Lcom/google/firebase/appindexing/internal/l;
@@ -126,7 +116,6 @@
 
     monitor-enter p1
 
-    .line 10
     :try_start_0
     iget-object p2, p0, Lcom/google/firebase/appindexing/internal/o;->c:Lcom/google/firebase/appindexing/internal/m;
 
@@ -138,7 +127,6 @@
 
     if-nez p2, :cond_3
 
-    .line 11
     iget-object p2, p0, Lcom/google/firebase/appindexing/internal/o;->c:Lcom/google/firebase/appindexing/internal/m;
 
     iget-object p2, p2, Lcom/google/firebase/appindexing/internal/m;->c:Lcom/google/firebase/appindexing/internal/l;
@@ -155,7 +143,6 @@
 
     check-cast v4, Lcom/google/firebase/appindexing/internal/m;
 
-    .line 12
     iget-object p2, p0, Lcom/google/firebase/appindexing/internal/o;->c:Lcom/google/firebase/appindexing/internal/m;
 
     if-ne v4, p2, :cond_2
@@ -167,7 +154,6 @@
 
     goto :goto_1
 
-    .line 13
     :cond_3
     iget-object p2, p0, Lcom/google/firebase/appindexing/internal/o;->c:Lcom/google/firebase/appindexing/internal/m;
 
@@ -175,7 +161,6 @@
 
     invoke-static {p2, v0}, Lcom/google/firebase/appindexing/internal/l;->a(Lcom/google/firebase/appindexing/internal/l;I)I
 
-    .line 14
     :goto_1
     monitor-exit p1
 
@@ -195,7 +180,6 @@
 
     const/16 v0, 0x29
 
-    .line 15
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1, v0}, Ljava/lang/StringBuilder;-><init>(I)V
@@ -212,7 +196,6 @@
 
     const/4 v0, 0x6
 
-    .line 16
     invoke-static {v0}, Lcom/google/firebase/appindexing/internal/w;->a(I)Z
 
     move-result v0
@@ -221,10 +204,8 @@
 
     const-string v0, "FirebaseAppIndex"
 
-    .line 17
     invoke-static {v0, p1}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 18
     :cond_5
     invoke-virtual {p2, v4}, Lcom/google/android/gms/tasks/l;->e(Ljava/lang/Object;)Z
 
@@ -232,7 +213,6 @@
 
     if-eqz p1, :cond_6
 
-    .line 19
     iget-object p1, p0, Lcom/google/firebase/appindexing/internal/o;->c:Lcom/google/firebase/appindexing/internal/m;
 
     invoke-static {p1}, Lcom/google/firebase/appindexing/internal/m;->c(Lcom/google/firebase/appindexing/internal/m;)Lcom/google/android/gms/tasks/l;
@@ -247,7 +227,6 @@
 
     invoke-virtual {p1, p2}, Lcom/google/android/gms/tasks/l;->b(Ljava/lang/Exception;)V
 
-    .line 20
     :cond_6
     iget-object p1, p0, Lcom/google/firebase/appindexing/internal/o;->c:Lcom/google/firebase/appindexing/internal/m;
 
@@ -259,7 +238,6 @@
 
     monitor-enter p1
 
-    .line 21
     :try_start_1
     iget-object p2, p0, Lcom/google/firebase/appindexing/internal/o;->c:Lcom/google/firebase/appindexing/internal/m;
 
@@ -275,7 +253,6 @@
 
     check-cast p2, Lcom/google/firebase/appindexing/internal/m;
 
-    .line 22
     iget-object v0, p0, Lcom/google/firebase/appindexing/internal/o;->c:Lcom/google/firebase/appindexing/internal/m;
 
     if-ne p2, v0, :cond_7
@@ -288,7 +265,6 @@
     :goto_2
     invoke-static {v3}, Lcom/google/android/gms/common/internal/b0;->q(Z)V
 
-    .line 23
     iget-object p2, p0, Lcom/google/firebase/appindexing/internal/o;->c:Lcom/google/firebase/appindexing/internal/m;
 
     iget-object p2, p2, Lcom/google/firebase/appindexing/internal/m;->c:Lcom/google/firebase/appindexing/internal/l;
@@ -305,14 +281,12 @@
 
     check-cast v4, Lcom/google/firebase/appindexing/internal/m;
 
-    .line 24
     iget-object p2, p0, Lcom/google/firebase/appindexing/internal/o;->c:Lcom/google/firebase/appindexing/internal/m;
 
     iget-object p2, p2, Lcom/google/firebase/appindexing/internal/m;->c:Lcom/google/firebase/appindexing/internal/l;
 
     invoke-static {p2, v2}, Lcom/google/firebase/appindexing/internal/l;->a(Lcom/google/firebase/appindexing/internal/l;I)I
 
-    .line 25
     monitor-exit p1
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_1
@@ -321,7 +295,6 @@
     :goto_3
     if-eqz v4, :cond_9
 
-    .line 26
     invoke-virtual {v4}, Lcom/google/firebase/appindexing/internal/m;->a()V
 
     :cond_9
@@ -330,7 +303,6 @@
     :catchall_1
     move-exception p2
 
-    .line 27
     :try_start_2
     monitor-exit p1
     :try_end_2

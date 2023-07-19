@@ -40,17 +40,14 @@
 
     const-string v0, "ClearVideoCacheTask"
 
-    .line 1
     invoke-direct {p0, v0}, Lcom/commsource/util/u2/a;-><init>(Ljava/lang/String;)V
 
-    .line 2
     new-instance v0, Ljava/util/LinkedList;
 
     invoke-direct {v0}, Ljava/util/LinkedList;-><init>()V
 
     iput-object v0, p0, Lcom/commsource/camera/r0$b;->g:Ljava/util/List;
 
-    .line 3
     iput-object p1, p0, Lcom/commsource/camera/r0$b;->g:Ljava/util/List;
 
     return-void
@@ -65,7 +62,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/io/File;
 
     invoke-static {}, Lcom/commsource/beautyplus/util/v;->c()Ljava/lang/String;
@@ -78,7 +74,6 @@
 
     invoke-static {v1, v2}, Lcom/meitu/library/p/g/b;->j(Ljava/io/File;Z)Z
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

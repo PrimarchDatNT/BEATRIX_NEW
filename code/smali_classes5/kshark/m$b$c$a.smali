@@ -97,7 +97,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-direct {p0, v0}, Lkshark/m$b$c;-><init>(Lcotlin/jvm/internal/u;)V
 
     iput-wide p1, p0, Lkshark/m$b$c$a;->a:J
@@ -126,7 +125,6 @@
 .method public final a()J
     .locals 2
 
-    .line 1
     iget-wide v0, p0, Lkshark/m$b$c$a;->d:J
 
     return-wide v0
@@ -146,7 +144,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lkshark/m$b$c$a;->i:Ljava/util/List;
 
     return-object v0
@@ -155,7 +152,6 @@
 .method public final c()J
     .locals 2
 
-    .line 1
     iget-wide v0, p0, Lkshark/m$b$c$a;->a:J
 
     return-wide v0
@@ -164,7 +160,6 @@
 .method public final d()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lkshark/m$b$c$a;->g:I
 
     return v0
@@ -173,7 +168,6 @@
 .method public final e()J
     .locals 2
 
-    .line 1
     iget-wide v0, p0, Lkshark/m$b$c$a;->f:J
 
     return-wide v0
@@ -182,7 +176,6 @@
 .method public final f()J
     .locals 2
 
-    .line 1
     iget-wide v0, p0, Lkshark/m$b$c$a;->e:J
 
     return-wide v0
@@ -191,7 +184,6 @@
 .method public final g()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lkshark/m$b$c$a;->b:I
 
     return v0
@@ -211,7 +203,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lkshark/m$b$c$a;->h:Ljava/util/List;
 
     return-object v0
@@ -220,7 +211,6 @@
 .method public final i()J
     .locals 2
 
-    .line 1
     iget-wide v0, p0, Lkshark/m$b$c$a;->c:J
 
     return-wide v0

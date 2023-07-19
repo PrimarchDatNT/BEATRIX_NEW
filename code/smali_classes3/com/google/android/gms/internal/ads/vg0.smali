@@ -94,22 +94,16 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/google/android/gms/internal/ads/vg0;->a:Lcom/google/android/gms/internal/ads/d62;
 
-    .line 3
     iput-object p2, p0, Lcom/google/android/gms/internal/ads/vg0;->b:Lcom/google/android/gms/internal/ads/d62;
 
-    .line 4
     iput-object p3, p0, Lcom/google/android/gms/internal/ads/vg0;->c:Lcom/google/android/gms/internal/ads/d62;
 
-    .line 5
     iput-object p4, p0, Lcom/google/android/gms/internal/ads/vg0;->d:Lcom/google/android/gms/internal/ads/d62;
 
-    .line 6
     iput-object p5, p0, Lcom/google/android/gms/internal/ads/vg0;->e:Lcom/google/android/gms/internal/ads/d62;
 
     return-void
@@ -120,7 +114,6 @@
 .method public final synthetic get()Ljava/lang/Object;
     .locals 5
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/vg0;->a:Lcom/google/android/gms/internal/ads/d62;
 
     invoke-interface {v0}, Lcom/google/android/gms/internal/ads/d62;->get()Ljava/lang/Object;
@@ -161,12 +154,10 @@
 
     check-cast v4, Lcom/google/android/gms/internal/ads/x90;
 
-    .line 2
     invoke-virtual {v0}, Lcom/google/android/gms/internal/ads/yw;->l()Lcom/google/android/gms/internal/ads/a30;
 
     move-result-object v0
 
-    .line 3
     invoke-virtual {v1}, Lcom/google/android/gms/internal/ads/z60$a;->d()Lcom/google/android/gms/internal/ads/z60;
 
     move-result-object v1
@@ -175,12 +166,10 @@
 
     move-result-object v0
 
-    .line 4
     invoke-interface {v0, v2}, Lcom/google/android/gms/internal/ads/a30;->n(Lcom/google/android/gms/internal/ads/hc0;)Lcom/google/android/gms/internal/ads/a30;
 
     move-result-object v0
 
-    .line 5
     invoke-interface {v0, v3}, Lcom/google/android/gms/internal/ads/a30;->p(Lcom/google/android/gms/internal/ads/ig0;)Lcom/google/android/gms/internal/ads/a30;
 
     move-result-object v0
@@ -191,7 +180,6 @@
 
     invoke-direct {v1, v2}, Lcom/google/android/gms/internal/ads/q11;-><init>(Lcom/google/android/gms/internal/ads/p0;)V
 
-    .line 6
     invoke-interface {v0, v1}, Lcom/google/android/gms/internal/ads/a30;->o(Lcom/google/android/gms/internal/ads/q11;)Lcom/google/android/gms/internal/ads/a30;
 
     move-result-object v0
@@ -200,7 +188,6 @@
 
     invoke-direct {v1, v4}, Lcom/google/android/gms/internal/ads/t30;-><init>(Lcom/google/android/gms/internal/ads/x90;)V
 
-    .line 7
     invoke-interface {v0, v1}, Lcom/google/android/gms/internal/ads/a30;->x(Lcom/google/android/gms/internal/ads/t30;)Lcom/google/android/gms/internal/ads/a30;
 
     move-result-object v0
@@ -209,24 +196,20 @@
 
     invoke-direct {v1, v2}, Lcom/google/android/gms/internal/ads/z10;-><init>(Landroid/view/ViewGroup;)V
 
-    .line 8
     invoke-interface {v0, v1}, Lcom/google/android/gms/internal/ads/a30;->u(Lcom/google/android/gms/internal/ads/z10;)Lcom/google/android/gms/internal/ads/a30;
 
     move-result-object v0
 
-    .line 9
     invoke-interface {v0}, Lcom/google/android/gms/internal/ads/a30;->w()Lcom/google/android/gms/internal/ads/w20;
 
     move-result-object v0
 
-    .line 10
     invoke-virtual {v0}, Lcom/google/android/gms/internal/ads/w20;->e()Lcom/google/android/gms/internal/ads/c40;
 
     move-result-object v0
 
     const-string v1, "Cannot return null from a non-@Nullable @Provides method"
 
-    .line 11
     invoke-static {v0, v1}, Lcom/google/android/gms/internal/ads/a62;->b(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
 
     move-result-object v0

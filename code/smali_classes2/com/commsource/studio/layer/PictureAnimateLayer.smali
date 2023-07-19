@@ -60,31 +60,26 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/commsource/studio/layer/d;-><init>(Landroid/content/Context;)V
 
-    .line 2
     new-instance p1, Lcom/commsource/studio/MatrixBox;
 
     invoke-direct {p1}, Lcom/commsource/studio/MatrixBox;-><init>()V
 
     iput-object p1, p0, Lcom/commsource/studio/layer/PictureAnimateLayer;->N:Lcom/commsource/studio/MatrixBox;
 
-    .line 3
     new-instance p1, Lcom/commsource/studio/MatrixBox;
 
     invoke-direct {p1}, Lcom/commsource/studio/MatrixBox;-><init>()V
 
     iput-object p1, p0, Lcom/commsource/studio/layer/PictureAnimateLayer;->O:Lcom/commsource/studio/MatrixBox;
 
-    .line 4
     new-instance p1, Lcom/commsource/studio/MatrixBox;
 
     invoke-direct {p1}, Lcom/commsource/studio/MatrixBox;-><init>()V
 
     iput-object p1, p0, Lcom/commsource/studio/layer/PictureAnimateLayer;->P:Lcom/commsource/studio/MatrixBox;
 
-    .line 5
     new-instance p1, Landroid/animation/ValueAnimator;
 
     invoke-direct {p1}, Landroid/animation/ValueAnimator;-><init>()V
@@ -93,7 +88,6 @@
 
     const/high16 p1, 0x3f800000    # 1.0f
 
-    .line 6
     iput p1, p0, Lcom/commsource/studio/layer/PictureAnimateLayer;->S:F
 
     return-void
@@ -128,7 +122,6 @@
 
     move-object p3, v1
 
-    .line 1
     :cond_2
     invoke-virtual {p0, p1, p2, p3}, Lcom/commsource/studio/layer/PictureAnimateLayer;->z0(ZLcotlin/jvm/u/a;Lcotlin/jvm/u/a;)V
 
@@ -148,7 +141,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/commsource/studio/layer/PictureAnimateLayer$onCreateView$1;
 
     invoke-virtual {p0}, Lcom/commsource/studio/layer/BaseLayer;->A()Landroid/content/Context;
@@ -171,7 +163,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/layer/PictureAnimateLayer;->R:Landroid/animation/ValueAnimator;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -197,7 +188,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/layer/PictureAnimateLayer;->T:Lcotlin/jvm/u/a;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -212,7 +202,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/layer/PictureAnimateLayer;->S:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -229,7 +218,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/layer/PictureAnimateLayer;->Q:Landroid/graphics/Bitmap;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -246,7 +234,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/layer/PictureAnimateLayer;->P:Lcom/commsource/studio/MatrixBox;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -263,7 +250,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/layer/PictureAnimateLayer;->N:Lcom/commsource/studio/MatrixBox;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -280,7 +266,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/layer/PictureAnimateLayer;->O:Lcom/commsource/studio/MatrixBox;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -307,7 +292,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/layer/PictureAnimateLayer;->T:Lcotlin/jvm/u/a;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -322,7 +306,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/studio/layer/PictureAnimateLayer;->S:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -341,7 +324,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/layer/PictureAnimateLayer;->Q:Landroid/graphics/Bitmap;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -375,21 +357,18 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/studio/layer/BaseLayer;->F()Landroid/view/View;
 
     move-result-object v0
 
     invoke-static {v0}, Lcom/commsource/util/l0;->v0(Landroid/view/View;)V
 
-    .line 2
     iget-object v0, p0, Lcom/commsource/studio/layer/PictureAnimateLayer;->P:Lcom/commsource/studio/MatrixBox;
 
     iget-object v1, p0, Lcom/commsource/studio/layer/PictureAnimateLayer;->N:Lcom/commsource/studio/MatrixBox;
 
     invoke-virtual {v0, v1}, Lcom/commsource/studio/MatrixBox;->set(Lcom/commsource/studio/MatrixBox;)V
 
-    .line 3
     iget-object v2, p0, Lcom/commsource/studio/layer/PictureAnimateLayer;->P:Lcom/commsource/studio/MatrixBox;
 
     iget-object v3, p0, Lcom/commsource/studio/layer/PictureAnimateLayer;->O:Lcom/commsource/studio/MatrixBox;
@@ -430,18 +409,14 @@
 
     invoke-direct {v7, p0}, Lcom/commsource/studio/layer/PictureAnimateLayer$startAnimate$1;-><init>(Lcom/commsource/studio/layer/PictureAnimateLayer;)V
 
-    .line 4
     new-instance v8, Lcom/commsource/studio/layer/PictureAnimateLayer$startAnimate$2;
 
     invoke-direct {v8, p0, p3}, Lcom/commsource/studio/layer/PictureAnimateLayer$startAnimate$2;-><init>(Lcom/commsource/studio/layer/PictureAnimateLayer;Lcotlin/jvm/u/a;)V
 
-    .line 5
     invoke-virtual/range {v2 .. v8}, Lcom/commsource/studio/MatrixBox;->animateToMatrix(Lcom/commsource/studio/MatrixBox;Landroid/graphics/PointF;JLcotlin/jvm/u/a;Lcotlin/jvm/u/a;)V
 
-    .line 6
     iput-object p2, p0, Lcom/commsource/studio/layer/PictureAnimateLayer;->T:Lcotlin/jvm/u/a;
 
-    .line 7
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

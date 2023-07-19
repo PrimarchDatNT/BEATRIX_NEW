@@ -54,18 +54,14 @@
 
     sget v0, Lcom/res/provider/ResSTYLE;->arDialog:I
 
-    .line 1
     invoke-direct {p0, p1, v0}, Landroid/app/Dialog;-><init>(Landroid/content/Context;I)V
 
     const/4 p1, 0x0
 
-    .line 2
     iput-boolean p1, p0, Lcom/commsource/widget/dialog/j0;->b:Z
 
-    .line 3
     iput-boolean p1, p0, Lcom/commsource/widget/dialog/j0;->g:Z
 
-    .line 4
     new-instance v0, Landroid/os/Handler;
 
     invoke-static {}, Landroid/os/Looper;->getMainLooper()Landroid/os/Looper;
@@ -76,13 +72,10 @@
 
     iput-object v0, p0, Lcom/commsource/widget/dialog/j0;->J:Landroid/os/Handler;
 
-    .line 5
     iput-boolean p1, p0, Lcom/commsource/widget/dialog/j0;->L:Z
 
-    .line 6
     iput-boolean p1, p0, Lcom/commsource/widget/dialog/j0;->M:Z
 
-    .line 7
     iput-boolean p1, p0, Lcom/commsource/widget/dialog/j0;->N:Z
 
     return-void
@@ -95,7 +88,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/commsource/widget/dialog/j0;->n(Ljava/lang/String;)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -110,7 +102,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/commsource/widget/dialog/j0;->o(I)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -125,7 +116,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/commsource/widget/dialog/j0;->v(Ljava/lang/String;)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -140,7 +130,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/commsource/widget/dialog/j0;->t(Lcom/commsource/widget/dialog/j0$b;)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -155,7 +144,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/commsource/widget/dialog/j0;->u(Ljava/lang/String;)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -170,7 +158,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/commsource/widget/dialog/j0;->r(Z)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -185,7 +172,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/commsource/widget/dialog/j0;->p(Z)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -200,7 +186,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/commsource/widget/dialog/j0;->q(Z)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -215,7 +200,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/widget/dialog/j0;->a:Lcom/commsource/beautyplus/f0/s6;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/s6;->c:Lcom/meitu/ratiorelativelayout/RatioRelativeLayout;
@@ -224,7 +208,6 @@
 
     invoke-virtual {v1, v2}, Landroid/widget/RelativeLayout;->setVisibility(I)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/widget/dialog/j0;->a:Lcom/commsource/beautyplus/f0/s6;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/s6;->a:Landroid/widget/RelativeLayout;
@@ -233,42 +216,36 @@
 
     invoke-virtual {v1, v3}, Landroid/widget/RelativeLayout;->setVisibility(I)V
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/widget/dialog/j0;->a:Lcom/commsource/beautyplus/f0/s6;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/s6;->b:Landroid/widget/RelativeLayout;
 
     invoke-virtual {v1, v3}, Landroid/widget/RelativeLayout;->setVisibility(I)V
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/widget/dialog/j0;->a:Lcom/commsource/beautyplus/f0/s6;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/s6;->W:Lcom/commsource/widget/PressAutoFitTextView;
 
     invoke-virtual {v1, v2}, Landroid/widget/TextView;->setEnabled(Z)V
 
-    .line 5
     iget-object v1, p0, Lcom/commsource/widget/dialog/j0;->a:Lcom/commsource/beautyplus/f0/s6;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/s6;->N:Lcom/commsource/widget/dialog/NumberSeekBar;
 
     invoke-virtual {v1, p0}, Landroid/widget/SeekBar;->setOnSeekBarChangeListener(Landroid/widget/SeekBar$OnSeekBarChangeListener;)V
 
-    .line 6
     iget-object v1, p0, Lcom/commsource/widget/dialog/j0;->a:Lcom/commsource/beautyplus/f0/s6;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/s6;->W:Lcom/commsource/widget/PressAutoFitTextView;
 
     invoke-virtual {v1, p0}, Landroid/widget/TextView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 7
     iget-object v1, p0, Lcom/commsource/widget/dialog/j0;->a:Lcom/commsource/beautyplus/f0/s6;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/s6;->Q:Lcom/commsource/widget/PressAutoFitTextView;
 
     invoke-virtual {v1, p0}, Landroid/widget/TextView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 8
     iget-object v1, p0, Lcom/commsource/widget/dialog/j0;->c:Ljava/lang/String;
 
     invoke-static {v1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
@@ -277,7 +254,6 @@
 
     if-nez v1, :cond_0
 
-    .line 9
     iget-object v1, p0, Lcom/commsource/widget/dialog/j0;->a:Lcom/commsource/beautyplus/f0/s6;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/s6;->b0:Lcom/commsource/widget/AutoFitTextView;
@@ -286,7 +262,6 @@
 
     invoke-virtual {v1, v2}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 10
     :cond_0
     iget-object v1, p0, Lcom/commsource/widget/dialog/j0;->d:Ljava/lang/String;
 
@@ -296,7 +271,6 @@
 
     if-nez v1, :cond_1
 
-    .line 11
     iget-object v1, p0, Lcom/commsource/widget/dialog/j0;->a:Lcom/commsource/beautyplus/f0/s6;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/s6;->U:Lcom/commsource/widget/AutoFitTextView;
@@ -305,13 +279,11 @@
 
     invoke-virtual {v1, v2}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 12
     :cond_1
     iget-boolean v1, p0, Lcom/commsource/widget/dialog/j0;->g:Z
 
     if-eqz v1, :cond_2
 
-    .line 13
     iget-object v1, p0, Lcom/commsource/widget/dialog/j0;->p:Ljava/lang/String;
 
     invoke-static {v1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
@@ -320,7 +292,6 @@
 
     if-nez v1, :cond_3
 
-    .line 14
     invoke-virtual {p0}, Landroid/app/Dialog;->getContext()Landroid/content/Context;
 
     move-result-object v1
@@ -343,7 +314,6 @@
 
     goto :goto_0
 
-    .line 15
     :cond_2
     iget-object v1, p0, Lcom/commsource/widget/dialog/j0;->a:Lcom/commsource/beautyplus/f0/s6;
 
@@ -353,7 +323,6 @@
 
     invoke-virtual {v1, v2}, Landroid/widget/ImageView;->setImageResource(I)V
 
-    .line 16
     :cond_3
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -368,7 +337,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/widget/dialog/j0;->a:Lcom/commsource/beautyplus/f0/s6;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/s6;->c:Lcom/meitu/ratiorelativelayout/RatioRelativeLayout;
@@ -377,7 +345,6 @@
 
     invoke-virtual {v1, v2}, Landroid/widget/RelativeLayout;->setVisibility(I)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/widget/dialog/j0;->a:Lcom/commsource/beautyplus/f0/s6;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/s6;->a:Landroid/widget/RelativeLayout;
@@ -386,35 +353,30 @@
 
     invoke-virtual {v1, v3}, Landroid/widget/RelativeLayout;->setVisibility(I)V
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/widget/dialog/j0;->a:Lcom/commsource/beautyplus/f0/s6;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/s6;->b:Landroid/widget/RelativeLayout;
 
     invoke-virtual {v1, v2}, Landroid/widget/RelativeLayout;->setVisibility(I)V
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/widget/dialog/j0;->a:Lcom/commsource/beautyplus/f0/s6;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/s6;->R:Lcom/commsource/widget/AutoFitTextView;
 
     invoke-virtual {v1, p0}, Landroid/widget/TextView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 5
     iget-object v1, p0, Lcom/commsource/widget/dialog/j0;->a:Lcom/commsource/beautyplus/f0/s6;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/s6;->X:Lcom/commsource/widget/PressAutoFitTextView;
 
     invoke-virtual {v1, v3}, Landroid/widget/TextView;->setEnabled(Z)V
 
-    .line 6
     iget-object v1, p0, Lcom/commsource/widget/dialog/j0;->a:Lcom/commsource/beautyplus/f0/s6;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/s6;->X:Lcom/commsource/widget/PressAutoFitTextView;
 
     invoke-virtual {v1, p0}, Landroid/widget/TextView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 7
     iget-object v1, p0, Lcom/commsource/widget/dialog/j0;->c:Ljava/lang/String;
 
     invoke-static {v1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
@@ -423,7 +385,6 @@
 
     if-nez v1, :cond_0
 
-    .line 8
     iget-object v1, p0, Lcom/commsource/widget/dialog/j0;->a:Lcom/commsource/beautyplus/f0/s6;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/s6;->Z:Lcom/commsource/widget/AutoFitTextView;
@@ -432,7 +393,6 @@
 
     invoke-virtual {v1, v2}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 9
     :cond_0
     iget-object v1, p0, Lcom/commsource/widget/dialog/j0;->d:Ljava/lang/String;
 
@@ -442,7 +402,6 @@
 
     if-nez v1, :cond_1
 
-    .line 10
     iget-object v1, p0, Lcom/commsource/widget/dialog/j0;->a:Lcom/commsource/beautyplus/f0/s6;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/s6;->S:Lcom/commsource/widget/AutoFitTextView;
@@ -451,7 +410,6 @@
 
     invoke-virtual {v1, v2}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 11
     :cond_1
     new-instance v1, Lcom/commsource/widget/SScoreRateView;
 
@@ -463,7 +421,6 @@
 
     iput-object v1, p0, Lcom/commsource/widget/dialog/j0;->K:Lcom/commsource/widget/SScoreRateView;
 
-    .line 12
     new-instance v1, Landroid/widget/FrameLayout$LayoutParams;
 
     const/4 v2, -0x2
@@ -472,10 +429,8 @@
 
     const/16 v2, 0x11
 
-    .line 13
     iput v2, v1, Landroid/widget/FrameLayout$LayoutParams;->gravity:I
 
-    .line 14
     iget-object v2, p0, Lcom/commsource/widget/dialog/j0;->a:Lcom/commsource/beautyplus/f0/s6;
 
     iget-object v2, v2, Lcom/commsource/beautyplus/f0/s6;->K:Landroid/widget/FrameLayout;
@@ -484,7 +439,6 @@
 
     invoke-virtual {v2, v4, v1}, Landroid/widget/FrameLayout;->addView(Landroid/view/View;Landroid/view/ViewGroup$LayoutParams;)V
 
-    .line 15
     iget-object v1, p0, Lcom/commsource/widget/dialog/j0;->K:Lcom/commsource/widget/SScoreRateView;
 
     new-instance v2, Lcom/commsource/widget/dialog/c;
@@ -493,14 +447,12 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/widget/SScoreRateView;->setOnIndexSelectedListener(Lcom/commsource/widget/SScoreRateView$a;)V
 
-    .line 16
     iget-boolean v1, p0, Lcom/commsource/widget/dialog/j0;->g:Z
 
     const-string v2, "http"
 
     if-eqz v1, :cond_3
 
-    .line 17
     iget-object v1, p0, Lcom/commsource/widget/dialog/j0;->p:Ljava/lang/String;
 
     invoke-static {v1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
@@ -509,7 +461,6 @@
 
     if-nez v1, :cond_6
 
-    .line 18
     iget-object v1, p0, Lcom/commsource/widget/dialog/j0;->p:Ljava/lang/String;
 
     invoke-virtual {v1, v2}, Ljava/lang/String;->startsWith(Ljava/lang/String;)Z
@@ -518,14 +469,12 @@
 
     if-nez v1, :cond_2
 
-    .line 19
     iget-object v1, p0, Lcom/commsource/widget/dialog/j0;->a:Lcom/commsource/beautyplus/f0/s6;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/s6;->d:Lcom/commsource/widget/IconFrontView;
 
     invoke-virtual {v1, v3}, Landroid/widget/TextView;->setVisibility(I)V
 
-    .line 20
     iget-object v1, p0, Lcom/commsource/widget/dialog/j0;->a:Lcom/commsource/beautyplus/f0/s6;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/s6;->d:Lcom/commsource/widget/IconFrontView;
@@ -536,7 +485,6 @@
 
     goto :goto_0
 
-    .line 21
     :cond_2
     iget-object v1, p0, Lcom/commsource/widget/dialog/j0;->a:Lcom/commsource/beautyplus/f0/s6;
 
@@ -544,7 +492,6 @@
 
     invoke-virtual {v1, v3}, Landroid/widget/ImageView;->setVisibility(I)V
 
-    .line 22
     invoke-virtual {p0}, Landroid/app/Dialog;->getContext()Landroid/content/Context;
 
     move-result-object v1
@@ -567,7 +514,6 @@
 
     goto :goto_0
 
-    .line 23
     :cond_3
     iget v1, p0, Lcom/commsource/widget/dialog/j0;->f:I
 
@@ -581,7 +527,6 @@
 
     if-nez v1, :cond_5
 
-    .line 24
     iget-object v1, p0, Lcom/commsource/widget/dialog/j0;->p:Ljava/lang/String;
 
     invoke-virtual {v1, v2}, Ljava/lang/String;->startsWith(Ljava/lang/String;)Z
@@ -590,14 +535,12 @@
 
     if-nez v1, :cond_4
 
-    .line 25
     iget-object v1, p0, Lcom/commsource/widget/dialog/j0;->a:Lcom/commsource/beautyplus/f0/s6;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/s6;->d:Lcom/commsource/widget/IconFrontView;
 
     invoke-virtual {v1, v3}, Landroid/widget/TextView;->setVisibility(I)V
 
-    .line 26
     iget-object v1, p0, Lcom/commsource/widget/dialog/j0;->a:Lcom/commsource/beautyplus/f0/s6;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/s6;->d:Lcom/commsource/widget/IconFrontView;
@@ -608,7 +551,6 @@
 
     goto :goto_0
 
-    .line 27
     :cond_4
     iget-object v1, p0, Lcom/commsource/widget/dialog/j0;->a:Lcom/commsource/beautyplus/f0/s6;
 
@@ -616,7 +558,6 @@
 
     invoke-virtual {v1, v3}, Landroid/widget/ImageView;->setVisibility(I)V
 
-    .line 28
     invoke-virtual {p0}, Landroid/app/Dialog;->getContext()Landroid/content/Context;
 
     move-result-object v1
@@ -639,7 +580,6 @@
 
     goto :goto_0
 
-    .line 29
     :cond_5
     iget-object v1, p0, Lcom/commsource/widget/dialog/j0;->a:Lcom/commsource/beautyplus/f0/s6;
 
@@ -647,7 +587,6 @@
 
     invoke-virtual {v1, v3}, Landroid/widget/ImageView;->setVisibility(I)V
 
-    .line 30
     iget-object v1, p0, Lcom/commsource/widget/dialog/j0;->a:Lcom/commsource/beautyplus/f0/s6;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/s6;->g:Lcom/commsource/widget/CircleImageView;
@@ -656,7 +595,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/widget/CircleImageView;->setImageResource(I)V
 
-    .line 31
     :cond_6
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -671,7 +609,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/widget/dialog/j0;->a:Lcom/commsource/beautyplus/f0/s6;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/s6;->c:Lcom/meitu/ratiorelativelayout/RatioRelativeLayout;
@@ -680,14 +617,12 @@
 
     invoke-virtual {v1, v2}, Landroid/widget/RelativeLayout;->setVisibility(I)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/widget/dialog/j0;->a:Lcom/commsource/beautyplus/f0/s6;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/s6;->a:Landroid/widget/RelativeLayout;
 
     invoke-virtual {v1, v2}, Landroid/widget/RelativeLayout;->setVisibility(I)V
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/widget/dialog/j0;->a:Lcom/commsource/beautyplus/f0/s6;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/s6;->b:Landroid/widget/RelativeLayout;
@@ -696,42 +631,36 @@
 
     invoke-virtual {v1, v2}, Landroid/widget/RelativeLayout;->setVisibility(I)V
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/widget/dialog/j0;->a:Lcom/commsource/beautyplus/f0/s6;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/s6;->Y:Lcom/commsource/widget/PressAutoFitTextView;
 
     invoke-virtual {v1, v2}, Landroid/widget/TextView;->setEnabled(Z)V
 
-    .line 5
     iget-object v1, p0, Lcom/commsource/widget/dialog/j0;->a:Lcom/commsource/beautyplus/f0/s6;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/s6;->Y:Lcom/commsource/widget/PressAutoFitTextView;
 
     invoke-virtual {v1, p0}, Landroid/widget/TextView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 6
     iget-object v1, p0, Lcom/commsource/widget/dialog/j0;->a:Lcom/commsource/beautyplus/f0/s6;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/s6;->Y:Lcom/commsource/widget/PressAutoFitTextView;
 
     invoke-virtual {v1, v2}, Landroid/widget/TextView;->setEnabled(Z)V
 
-    .line 7
     iget-object v1, p0, Lcom/commsource/widget/dialog/j0;->a:Lcom/commsource/beautyplus/f0/s6;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/s6;->V:Lcom/commsource/widget/PressAutoFitTextView;
 
     invoke-virtual {v1, p0}, Landroid/widget/TextView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 8
     iget-object v1, p0, Lcom/commsource/widget/dialog/j0;->a:Lcom/commsource/beautyplus/f0/s6;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/s6;->O:Lcom/commsource/widget/dialog/NumberSeekBar;
 
     invoke-virtual {v1, p0}, Landroid/widget/SeekBar;->setOnSeekBarChangeListener(Landroid/widget/SeekBar$OnSeekBarChangeListener;)V
 
-    .line 9
     iget-object v1, p0, Lcom/commsource/widget/dialog/j0;->c:Ljava/lang/String;
 
     invoke-static {v1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
@@ -740,7 +669,6 @@
 
     if-nez v1, :cond_0
 
-    .line 10
     iget-object v1, p0, Lcom/commsource/widget/dialog/j0;->a:Lcom/commsource/beautyplus/f0/s6;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/s6;->a0:Lcom/commsource/widget/AutoFitTextView;
@@ -749,7 +677,6 @@
 
     invoke-virtual {v1, v3}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 11
     :cond_0
     iget-object v1, p0, Lcom/commsource/widget/dialog/j0;->d:Ljava/lang/String;
 
@@ -759,7 +686,6 @@
 
     if-nez v1, :cond_1
 
-    .line 12
     iget-object v1, p0, Lcom/commsource/widget/dialog/j0;->a:Lcom/commsource/beautyplus/f0/s6;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/s6;->T:Lcom/commsource/widget/AutoFitTextView;
@@ -768,7 +694,6 @@
 
     invoke-virtual {v1, v3}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 13
     :cond_1
     iget-boolean v1, p0, Lcom/commsource/widget/dialog/j0;->g:Z
 
@@ -776,7 +701,6 @@
 
     if-eqz v1, :cond_3
 
-    .line 14
     iget-object v1, p0, Lcom/commsource/widget/dialog/j0;->p:Ljava/lang/String;
 
     invoke-static {v1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
@@ -785,7 +709,6 @@
 
     if-nez v1, :cond_6
 
-    .line 15
     iget-object v1, p0, Lcom/commsource/widget/dialog/j0;->p:Ljava/lang/String;
 
     invoke-virtual {v1, v3}, Ljava/lang/String;->startsWith(Ljava/lang/String;)Z
@@ -794,14 +717,12 @@
 
     if-nez v1, :cond_2
 
-    .line 16
     iget-object v1, p0, Lcom/commsource/widget/dialog/j0;->a:Lcom/commsource/beautyplus/f0/s6;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/s6;->f:Lcom/commsource/widget/IconFrontView;
 
     invoke-virtual {v1, v2}, Landroid/widget/TextView;->setVisibility(I)V
 
-    .line 17
     iget-object v1, p0, Lcom/commsource/widget/dialog/j0;->a:Lcom/commsource/beautyplus/f0/s6;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/s6;->f:Lcom/commsource/widget/IconFrontView;
@@ -812,7 +733,6 @@
 
     goto :goto_0
 
-    .line 18
     :cond_2
     iget-object v1, p0, Lcom/commsource/widget/dialog/j0;->a:Lcom/commsource/beautyplus/f0/s6;
 
@@ -820,7 +740,6 @@
 
     invoke-virtual {v1, v2}, Landroid/widget/ImageView;->setVisibility(I)V
 
-    .line 19
     invoke-virtual {p0}, Landroid/app/Dialog;->getContext()Landroid/content/Context;
 
     move-result-object v1
@@ -843,7 +762,6 @@
 
     goto :goto_0
 
-    .line 20
     :cond_3
     iget v1, p0, Lcom/commsource/widget/dialog/j0;->f:I
 
@@ -857,7 +775,6 @@
 
     if-nez v1, :cond_5
 
-    .line 21
     iget-object v1, p0, Lcom/commsource/widget/dialog/j0;->p:Ljava/lang/String;
 
     invoke-virtual {v1, v3}, Ljava/lang/String;->startsWith(Ljava/lang/String;)Z
@@ -866,14 +783,12 @@
 
     if-nez v1, :cond_4
 
-    .line 22
     iget-object v1, p0, Lcom/commsource/widget/dialog/j0;->a:Lcom/commsource/beautyplus/f0/s6;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/s6;->f:Lcom/commsource/widget/IconFrontView;
 
     invoke-virtual {v1, v2}, Landroid/widget/TextView;->setVisibility(I)V
 
-    .line 23
     iget-object v1, p0, Lcom/commsource/widget/dialog/j0;->a:Lcom/commsource/beautyplus/f0/s6;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/s6;->f:Lcom/commsource/widget/IconFrontView;
@@ -884,7 +799,6 @@
 
     goto :goto_0
 
-    .line 24
     :cond_4
     iget-object v1, p0, Lcom/commsource/widget/dialog/j0;->a:Lcom/commsource/beautyplus/f0/s6;
 
@@ -892,7 +806,6 @@
 
     invoke-virtual {v1, v2}, Landroid/widget/ImageView;->setVisibility(I)V
 
-    .line 25
     invoke-virtual {p0}, Landroid/app/Dialog;->getContext()Landroid/content/Context;
 
     move-result-object v1
@@ -915,7 +828,6 @@
 
     goto :goto_0
 
-    .line 26
     :cond_5
     iget-object v1, p0, Lcom/commsource/widget/dialog/j0;->a:Lcom/commsource/beautyplus/f0/s6;
 
@@ -923,7 +835,6 @@
 
     invoke-virtual {v1, v2}, Landroid/widget/ImageView;->setVisibility(I)V
 
-    .line 27
     iget-object v1, p0, Lcom/commsource/widget/dialog/j0;->a:Lcom/commsource/beautyplus/f0/s6;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/s6;->p:Lcom/commsource/widget/CircleImageView;
@@ -932,7 +843,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/widget/CircleImageView;->setImageResource(I)V
 
-    .line 28
     :cond_6
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -949,17 +859,14 @@
 
     if-lez p1, :cond_0
 
-    .line 1
     iget-boolean p1, p0, Lcom/commsource/widget/dialog/j0;->L:Z
 
     if-nez p1, :cond_0
 
     const/4 p1, 0x1
 
-    .line 2
     iput-boolean p1, p0, Lcom/commsource/widget/dialog/j0;->L:Z
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/widget/dialog/j0;->a:Lcom/commsource/beautyplus/f0/s6;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/s6;->S:Lcom/commsource/widget/AutoFitTextView;
@@ -968,7 +875,6 @@
 
     invoke-virtual {v1, v2}, Landroid/widget/TextView;->setText(I)V
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/widget/dialog/j0;->a:Lcom/commsource/beautyplus/f0/s6;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/s6;->S:Lcom/commsource/widget/AutoFitTextView;
@@ -985,12 +891,10 @@
 
     invoke-virtual {v1, v2}, Landroid/widget/TextView;->setTextColor(I)V
 
-    .line 5
     iget-object v1, p0, Lcom/commsource/widget/dialog/j0;->a:Lcom/commsource/beautyplus/f0/s6;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/s6;->X:Lcom/commsource/widget/PressAutoFitTextView;
 
-    .line 6
     invoke-virtual {p0}, Landroid/app/Dialog;->getContext()Landroid/content/Context;
 
     move-result-object v2
@@ -1003,14 +907,12 @@
 
     invoke-virtual {v1, v2}, Landroid/widget/TextView;->setBackground(Landroid/graphics/drawable/Drawable;)V
 
-    .line 7
     iget-object v1, p0, Lcom/commsource/widget/dialog/j0;->a:Lcom/commsource/beautyplus/f0/s6;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/s6;->X:Lcom/commsource/widget/PressAutoFitTextView;
 
     invoke-virtual {v1, p1}, Landroid/widget/TextView;->setEnabled(Z)V
 
-    .line 8
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1026,17 +928,14 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     invoke-virtual {p1}, Ljava/lang/String;->isEmpty()Z
 
     move-result v1
 
     if-nez v1, :cond_0
 
-    .line 2
     iput-object p1, p0, Lcom/commsource/widget/dialog/j0;->d:Ljava/lang/String;
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1052,10 +951,8 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     iput p1, p0, Lcom/commsource/widget/dialog/j0;->f:I
 
-    .line 2
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1069,10 +966,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/widget/dialog/j0;->M:Z
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1085,10 +980,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/widget/dialog/j0;->N:Z
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1101,10 +994,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/widget/dialog/j0;->g:Z
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1117,10 +1008,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/widget/dialog/j0;->O:Lcom/commsource/widget/dialog/j0$b;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1133,10 +1022,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/widget/dialog/j0;->p:Ljava/lang/String;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1151,17 +1038,14 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     invoke-virtual {p1}, Ljava/lang/String;->isEmpty()Z
 
     move-result v1
 
     if-nez v1, :cond_0
 
-    .line 2
     iput-object p1, p0, Lcom/commsource/widget/dialog/j0;->c:Ljava/lang/String;
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1185,7 +1069,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p1}, Landroid/view/View;->getId()I
 
     move-result p1
@@ -1194,13 +1077,11 @@
 
     goto :goto_0
 
-    .line 2
     :sswitch_0
     iget-object p1, p0, Lcom/commsource/widget/dialog/j0;->O:Lcom/commsource/widget/dialog/j0$b;
 
     if-eqz p1, :cond_0
 
-    .line 3
     invoke-virtual {p0}, Landroid/app/Dialog;->getContext()Landroid/content/Context;
 
     move-result-object v1
@@ -1215,19 +1096,16 @@
 
     invoke-interface {p1, v1, v2}, Lcom/commsource/widget/dialog/j0$b;->a(Landroid/content/Context;I)V
 
-    .line 4
     :cond_0
     invoke-virtual {p0}, Landroid/app/Dialog;->dismiss()V
 
     goto :goto_0
 
-    .line 5
     :sswitch_1
     iget-object p1, p0, Lcom/commsource/widget/dialog/j0;->O:Lcom/commsource/widget/dialog/j0$b;
 
     if-eqz p1, :cond_1
 
-    .line 6
     invoke-virtual {p0}, Landroid/app/Dialog;->getContext()Landroid/content/Context;
 
     move-result-object v1
@@ -1240,19 +1118,16 @@
 
     invoke-interface {p1, v1, v2}, Lcom/commsource/widget/dialog/j0$b;->a(Landroid/content/Context;I)V
 
-    .line 7
     :cond_1
     invoke-virtual {p0}, Landroid/app/Dialog;->dismiss()V
 
     goto :goto_0
 
-    .line 8
     :sswitch_2
     iget-object p1, p0, Lcom/commsource/widget/dialog/j0;->O:Lcom/commsource/widget/dialog/j0$b;
 
     if-eqz p1, :cond_2
 
-    .line 9
     invoke-virtual {p0}, Landroid/app/Dialog;->getContext()Landroid/content/Context;
 
     move-result-object v1
@@ -1267,22 +1142,18 @@
 
     invoke-interface {p1, v1, v2}, Lcom/commsource/widget/dialog/j0$b;->a(Landroid/content/Context;I)V
 
-    .line 10
     :cond_2
     invoke-virtual {p0}, Landroid/app/Dialog;->dismiss()V
 
     goto :goto_0
 
-    .line 11
     :sswitch_3
     iget-object p1, p0, Lcom/commsource/widget/dialog/j0;->O:Lcom/commsource/widget/dialog/j0$b;
 
     if-eqz p1, :cond_3
 
-    .line 12
     invoke-interface {p1}, Lcom/commsource/widget/dialog/j0$b;->c()V
 
-    .line 13
     :cond_3
     iget-object p1, p0, Lcom/commsource/widget/dialog/j0;->J:Landroid/os/Handler;
 
@@ -1290,25 +1161,20 @@
 
     invoke-virtual {p1, v1}, Landroid/os/Handler;->removeCallbacksAndMessages(Ljava/lang/Object;)V
 
-    .line 14
     invoke-virtual {p0}, Landroid/app/Dialog;->dismiss()V
 
     goto :goto_0
 
-    .line 15
     :sswitch_4
     iget-object p1, p0, Lcom/commsource/widget/dialog/j0;->O:Lcom/commsource/widget/dialog/j0$b;
 
     if-eqz p1, :cond_4
 
-    .line 16
     invoke-interface {p1}, Lcom/commsource/widget/dialog/j0$b;->c()V
 
-    .line 17
     :cond_4
     invoke-virtual {p0}, Landroid/app/Dialog;->dismiss()V
 
-    .line 18
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1334,10 +1200,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0, p1}, Landroid/app/Dialog;->onCreate(Landroid/os/Bundle;)V
 
-    .line 2
     invoke-virtual {p0}, Landroid/app/Dialog;->getContext()Landroid/content/Context;
 
     move-result-object p1
@@ -1360,7 +1224,6 @@
 
     iput-object p1, p0, Lcom/commsource/widget/dialog/j0;->a:Lcom/commsource/beautyplus/f0/s6;
 
-    .line 3
     iget-boolean v1, p0, Lcom/commsource/widget/dialog/j0;->M:Z
 
     if-nez v1, :cond_1
@@ -1371,7 +1234,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_0
     invoke-virtual {p1}, Landroidx/databinding/ViewDataBinding;->getRoot()Landroid/view/View;
 
@@ -1381,7 +1243,6 @@
 
     const/high16 v2, 0x439b0000    # 310.0f
 
-    .line 5
     invoke-static {v2}, Lcom/meitu/library/p/f/i;->d(F)I
 
     move-result v2
@@ -1394,12 +1255,10 @@
 
     invoke-direct {v1, v2, v4}, Landroid/widget/RelativeLayout$LayoutParams;-><init>(II)V
 
-    .line 6
     invoke-virtual {p0, p1, v1}, Landroid/app/Dialog;->setContentView(Landroid/view/View;Landroid/view/ViewGroup$LayoutParams;)V
 
     goto :goto_1
 
-    .line 7
     :cond_1
     :goto_0
     invoke-virtual {p1}, Landroidx/databinding/ViewDataBinding;->getRoot()Landroid/view/View;
@@ -1408,7 +1267,6 @@
 
     new-instance v1, Landroid/widget/RelativeLayout$LayoutParams;
 
-    .line 8
     invoke-static {}, Lcom/meitu/library/p/f/i;->z()I
 
     move-result v2
@@ -1417,40 +1275,32 @@
 
     invoke-direct {v1, v2, v4}, Landroid/widget/RelativeLayout$LayoutParams;-><init>(II)V
 
-    .line 9
     invoke-virtual {p0, p1, v1}, Landroid/app/Dialog;->setContentView(Landroid/view/View;Landroid/view/ViewGroup$LayoutParams;)V
 
-    .line 10
     :goto_1
     iget-boolean p1, p0, Lcom/commsource/widget/dialog/j0;->M:Z
 
     if-eqz p1, :cond_2
 
-    .line 11
     invoke-direct {p0}, Lcom/commsource/widget/dialog/j0;->j()V
 
     goto :goto_2
 
-    .line 12
     :cond_2
     iget-boolean p1, p0, Lcom/commsource/widget/dialog/j0;->N:Z
 
     if-eqz p1, :cond_3
 
-    .line 13
     invoke-direct {p0}, Lcom/commsource/widget/dialog/j0;->k()V
 
     goto :goto_2
 
-    .line 14
     :cond_3
     invoke-direct {p0}, Lcom/commsource/widget/dialog/j0;->i()V
 
-    .line 15
     :goto_2
     invoke-virtual {p0, v3}, Landroid/app/Dialog;->setCanceledOnTouchOutside(Z)V
 
-    .line 16
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1465,26 +1315,22 @@
 
     if-eqz p3, :cond_1
 
-    .line 1
     iget-boolean p2, p0, Lcom/commsource/widget/dialog/j0;->b:Z
 
     if-nez p2, :cond_1
 
-    .line 2
     iget-boolean p2, p0, Lcom/commsource/widget/dialog/j0;->N:Z
 
     const/4 p3, 0x1
 
     if-nez p2, :cond_0
 
-    .line 3
     iget-object p2, p0, Lcom/commsource/widget/dialog/j0;->a:Lcom/commsource/beautyplus/f0/s6;
 
     iget-object p2, p2, Lcom/commsource/beautyplus/f0/s6;->W:Lcom/commsource/widget/PressAutoFitTextView;
 
     invoke-virtual {p2, p3}, Landroid/widget/TextView;->setEnabled(Z)V
 
-    .line 4
     iget-object p2, p0, Lcom/commsource/widget/dialog/j0;->a:Lcom/commsource/beautyplus/f0/s6;
 
     iget-object p2, p2, Lcom/commsource/beautyplus/f0/s6;->W:Lcom/commsource/widget/PressAutoFitTextView;
@@ -1493,7 +1339,6 @@
 
     invoke-virtual {p2, v0}, Landroidx/appcompat/widget/AppCompatTextView;->setBackgroundResource(I)V
 
-    .line 5
     iget-object p2, p0, Lcom/commsource/widget/dialog/j0;->a:Lcom/commsource/beautyplus/f0/s6;
 
     iget-object p2, p2, Lcom/commsource/beautyplus/f0/s6;->W:Lcom/commsource/widget/PressAutoFitTextView;
@@ -1504,13 +1349,11 @@
 
     goto :goto_0
 
-    .line 6
     :cond_0
     iget-object p2, p0, Lcom/commsource/widget/dialog/j0;->a:Lcom/commsource/beautyplus/f0/s6;
 
     iget-object p2, p2, Lcom/commsource/beautyplus/f0/s6;->Y:Lcom/commsource/widget/PressAutoFitTextView;
 
-    .line 7
     invoke-virtual {p0}, Landroid/app/Dialog;->getContext()Landroid/content/Context;
 
     move-result-object v0
@@ -1523,18 +1366,15 @@
 
     invoke-virtual {p2, v0}, Landroid/widget/TextView;->setBackground(Landroid/graphics/drawable/Drawable;)V
 
-    .line 8
     iget-object p2, p0, Lcom/commsource/widget/dialog/j0;->a:Lcom/commsource/beautyplus/f0/s6;
 
     iget-object p2, p2, Lcom/commsource/beautyplus/f0/s6;->Y:Lcom/commsource/widget/PressAutoFitTextView;
 
     invoke-virtual {p2, p3}, Landroid/widget/TextView;->setEnabled(Z)V
 
-    .line 9
     :goto_0
     iput-boolean p3, p0, Lcom/commsource/widget/dialog/j0;->b:Z
 
-    .line 10
     :cond_1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1548,7 +1388,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1561,12 +1400,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/widget/dialog/j0;->N:Z
 
     if-eqz v1, :cond_0
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/widget/dialog/j0;->a:Lcom/commsource/beautyplus/f0/s6;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/s6;->O:Lcom/commsource/widget/dialog/NumberSeekBar;
@@ -1577,7 +1414,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_0
     iget-object v1, p0, Lcom/commsource/widget/dialog/j0;->a:Lcom/commsource/beautyplus/f0/s6;
 
@@ -1594,7 +1430,6 @@
 
     const/4 v1, 0x0
 
-    .line 4
     invoke-virtual {p1, v1}, Landroid/widget/SeekBar;->setProgress(I)V
 
     goto :goto_1
@@ -1604,10 +1439,8 @@
 
     mul-int/lit8 v1, v1, 0xa
 
-    .line 5
     invoke-virtual {p1, v1}, Landroid/widget/SeekBar;->setProgress(I)V
 
-    .line 6
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

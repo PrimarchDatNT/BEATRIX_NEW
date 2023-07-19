@@ -158,7 +158,6 @@
 
     sput-object v0, Lkshark/l;->h0:Lkshark/l$a;
 
-    .line 1
     sget-object v0, Lkshark/PrimitiveType;->BOOLEAN:Lkshark/PrimitiveType;
 
     invoke-virtual {v0}, Lkshark/PrimitiveType;->getByteSize()I
@@ -167,7 +166,6 @@
 
     sput v1, Lkshark/l;->f:I
 
-    .line 2
     sget-object v1, Lkshark/PrimitiveType;->CHAR:Lkshark/PrimitiveType;
 
     invoke-virtual {v1}, Lkshark/PrimitiveType;->getByteSize()I
@@ -176,7 +174,6 @@
 
     sput v2, Lkshark/l;->g:I
 
-    .line 3
     sget-object v2, Lkshark/PrimitiveType;->FLOAT:Lkshark/PrimitiveType;
 
     invoke-virtual {v2}, Lkshark/PrimitiveType;->getByteSize()I
@@ -185,7 +182,6 @@
 
     sput v3, Lkshark/l;->h:I
 
-    .line 4
     sget-object v3, Lkshark/PrimitiveType;->DOUBLE:Lkshark/PrimitiveType;
 
     invoke-virtual {v3}, Lkshark/PrimitiveType;->getByteSize()I
@@ -194,7 +190,6 @@
 
     sput v4, Lkshark/l;->i:I
 
-    .line 5
     sget-object v4, Lkshark/PrimitiveType;->BYTE:Lkshark/PrimitiveType;
 
     invoke-virtual {v4}, Lkshark/PrimitiveType;->getByteSize()I
@@ -203,7 +198,6 @@
 
     sput v5, Lkshark/l;->j:I
 
-    .line 6
     sget-object v5, Lkshark/PrimitiveType;->SHORT:Lkshark/PrimitiveType;
 
     invoke-virtual {v5}, Lkshark/PrimitiveType;->getByteSize()I
@@ -212,7 +206,6 @@
 
     sput v6, Lkshark/l;->k:I
 
-    .line 7
     sget-object v6, Lkshark/PrimitiveType;->INT:Lkshark/PrimitiveType;
 
     invoke-virtual {v6}, Lkshark/PrimitiveType;->getByteSize()I
@@ -221,7 +214,6 @@
 
     sput v7, Lkshark/l;->l:I
 
-    .line 8
     sget-object v7, Lkshark/PrimitiveType;->LONG:Lkshark/PrimitiveType;
 
     invoke-virtual {v7}, Lkshark/PrimitiveType;->getByteSize()I
@@ -230,56 +222,48 @@
 
     sput v8, Lkshark/l;->m:I
 
-    .line 9
     invoke-virtual {v0}, Lkshark/PrimitiveType;->getHprofType()I
 
     move-result v0
 
     sput v0, Lkshark/l;->n:I
 
-    .line 10
     invoke-virtual {v1}, Lkshark/PrimitiveType;->getHprofType()I
 
     move-result v0
 
     sput v0, Lkshark/l;->o:I
 
-    .line 11
     invoke-virtual {v2}, Lkshark/PrimitiveType;->getHprofType()I
 
     move-result v0
 
     sput v0, Lkshark/l;->p:I
 
-    .line 12
     invoke-virtual {v3}, Lkshark/PrimitiveType;->getHprofType()I
 
     move-result v0
 
     sput v0, Lkshark/l;->q:I
 
-    .line 13
     invoke-virtual {v4}, Lkshark/PrimitiveType;->getHprofType()I
 
     move-result v0
 
     sput v0, Lkshark/l;->r:I
 
-    .line 14
     invoke-virtual {v5}, Lkshark/PrimitiveType;->getHprofType()I
 
     move-result v0
 
     sput v0, Lkshark/l;->s:I
 
-    .line 15
     invoke-virtual {v6}, Lkshark/PrimitiveType;->getHprofType()I
 
     move-result v0
 
     sput v0, Lkshark/l;->t:I
 
-    .line 16
     invoke-virtual {v7}, Lkshark/PrimitiveType;->getHprofType()I
 
     move-result v0
@@ -300,7 +284,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     iput-object p1, p0, Lkshark/l;->c:Lokio/BufferedSource;
@@ -309,10 +292,8 @@
 
     iput-wide p3, p0, Lkshark/l;->e:J
 
-    .line 2
     iput-wide p3, p0, Lkshark/l;->a:J
 
-    .line 3
     sget-object p1, Lkshark/PrimitiveType;->Companion:Lkshark/PrimitiveType$a;
 
     invoke-virtual {p1}, Lkshark/PrimitiveType$a;->a()Ljava/util/Map;
@@ -351,7 +332,6 @@
 
     const-wide/16 p3, 0x0
 
-    .line 4
     :cond_0
     invoke-direct {p0, p1, p2, p3, p4}, Lkshark/l;-><init>(Lokio/BufferedSource;IJ)V
 
@@ -361,7 +341,6 @@
 .method private final E()S
     .locals 4
 
-    .line 1
     iget-wide v0, p0, Lkshark/l;->a:J
 
     sget v2, Lkshark/l;->k:I
@@ -372,7 +351,6 @@
 
     iput-wide v0, p0, Lkshark/l;->a:J
 
-    .line 2
     iget-object v0, p0, Lkshark/l;->c:Lokio/BufferedSource;
 
     invoke-interface {v0}, Lokio/BufferedSource;->readShort()S
@@ -385,7 +363,6 @@
 .method private final F(I)[S
     .locals 3
 
-    .line 1
     new-array v0, p1, [S
 
     const/4 v1, 0x0
@@ -410,7 +387,6 @@
 .method private final G(ILjava/nio/charset/Charset;)Ljava/lang/String;
     .locals 4
 
-    .line 1
     iget-wide v0, p0, Lkshark/l;->a:J
 
     int-to-long v2, p1
@@ -419,7 +395,6 @@
 
     iput-wide v0, p0, Lkshark/l;->a:J
 
-    .line 2
     iget-object p1, p0, Lkshark/l;->c:Lokio/BufferedSource;
 
     invoke-interface {p1, v2, v3, p2}, Lokio/BufferedSource;->readString(JLjava/nio/charset/Charset;)Ljava/lang/String;
@@ -436,7 +411,6 @@
 .method private final H()I
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Lkshark/l;->g()B
 
     move-result v0
@@ -449,7 +423,6 @@
 .method private final I()J
     .locals 4
 
-    .line 1
     invoke-direct {p0}, Lkshark/l;->w()I
 
     move-result v0
@@ -466,7 +439,6 @@
 .method private final J()I
     .locals 2
 
-    .line 1
     invoke-direct {p0}, Lkshark/l;->E()S
 
     move-result v0
@@ -481,14 +453,12 @@
 .method private final K(J)Ljava/lang/String;
     .locals 2
 
-    .line 1
     iget-wide v0, p0, Lkshark/l;->a:J
 
     add-long/2addr v0, p1
 
     iput-wide v0, p0, Lkshark/l;->a:J
 
-    .line 2
     iget-object v0, p0, Lkshark/l;->c:Lokio/BufferedSource;
 
     invoke-interface {v0, p1, p2}, Lokio/BufferedSource;->readUtf8(J)Ljava/lang/String;
@@ -505,7 +475,6 @@
 .method private final N(I)V
     .locals 4
 
-    .line 1
     iget-wide v0, p0, Lkshark/l;->a:J
 
     int-to-long v2, p1
@@ -514,7 +483,6 @@
 
     iput-wide v0, p0, Lkshark/l;->a:J
 
-    .line 2
     iget-object p1, p0, Lkshark/l;->c:Lokio/BufferedSource;
 
     invoke-interface {p1, v2, v3}, Lokio/BufferedSource;->skip(J)V
@@ -525,14 +493,12 @@
 .method private final O(J)V
     .locals 2
 
-    .line 1
     iget-wide v0, p0, Lkshark/l;->a:J
 
     add-long/2addr v0, p1
 
     iput-wide v0, p0, Lkshark/l;->a:J
 
-    .line 2
     iget-object v0, p0, Lkshark/l;->c:Lokio/BufferedSource;
 
     invoke-interface {v0, p1, p2}, Lokio/BufferedSource;->skip(J)V
@@ -543,7 +509,6 @@
 .method private final P()V
     .locals 4
 
-    .line 1
     iget v0, p0, Lkshark/l;->d:I
 
     sget v1, Lkshark/l;->l:I
@@ -564,10 +529,8 @@
 
     add-int/2addr v2, v1
 
-    .line 2
     invoke-direct {p0, v2}, Lkshark/l;->N(I)V
 
-    .line 3
     invoke-direct {p0}, Lkshark/l;->J()I
 
     move-result v0
@@ -579,12 +542,10 @@
     :goto_0
     if-ge v2, v0, :cond_0
 
-    .line 4
     sget v3, Lkshark/l;->k:I
 
     invoke-direct {p0, v3}, Lkshark/l;->N(I)V
 
-    .line 5
     invoke-direct {p0}, Lkshark/l;->H()I
 
     move-result v3
@@ -599,7 +560,6 @@
 
     goto :goto_0
 
-    .line 6
     :cond_0
     invoke-direct {p0}, Lkshark/l;->J()I
 
@@ -608,17 +568,14 @@
     :goto_1
     if-ge v1, v0, :cond_1
 
-    .line 7
     iget v2, p0, Lkshark/l;->d:I
 
     invoke-direct {p0, v2}, Lkshark/l;->N(I)V
 
-    .line 8
     invoke-direct {p0}, Lkshark/l;->H()I
 
     move-result v2
 
-    .line 9
     invoke-direct {p0, v2}, Lkshark/l;->U(I)I
 
     move-result v2
@@ -629,13 +586,11 @@
 
     goto :goto_1
 
-    .line 10
     :cond_1
     invoke-direct {p0}, Lkshark/l;->J()I
 
     move-result v0
 
-    .line 11
     iget v1, p0, Lkshark/l;->d:I
 
     sget v2, Lkshark/l;->j:I
@@ -652,7 +607,6 @@
 .method private final Q()V
     .locals 1
 
-    .line 1
     iget v0, p0, Lkshark/l;->d:I
 
     add-int/2addr v0, v0
@@ -665,7 +619,6 @@
 .method private final R()V
     .locals 2
 
-    .line 1
     iget v0, p0, Lkshark/l;->d:I
 
     sget v1, Lkshark/l;->l:I
@@ -676,12 +629,10 @@
 
     invoke-direct {p0, v1}, Lkshark/l;->N(I)V
 
-    .line 2
     invoke-direct {p0}, Lkshark/l;->w()I
 
     move-result v0
 
-    .line 3
     invoke-direct {p0, v0}, Lkshark/l;->N(I)V
 
     return-void
@@ -690,7 +641,6 @@
 .method private final S()V
     .locals 2
 
-    .line 1
     iget v0, p0, Lkshark/l;->d:I
 
     sget v1, Lkshark/l;->l:I
@@ -699,12 +649,10 @@
 
     invoke-direct {p0, v0}, Lkshark/l;->N(I)V
 
-    .line 2
     invoke-direct {p0}, Lkshark/l;->w()I
 
     move-result v0
 
-    .line 3
     iget v1, p0, Lkshark/l;->d:I
 
     mul-int v0, v0, v1
@@ -719,7 +667,6 @@
 .method private final T()V
     .locals 2
 
-    .line 1
     iget v0, p0, Lkshark/l;->d:I
 
     sget v1, Lkshark/l;->l:I
@@ -728,17 +675,14 @@
 
     invoke-direct {p0, v0}, Lkshark/l;->N(I)V
 
-    .line 2
     invoke-direct {p0}, Lkshark/l;->w()I
 
     move-result v0
 
-    .line 3
     invoke-direct {p0}, Lkshark/l;->H()I
 
     move-result v1
 
-    .line 4
     invoke-direct {p0, v1}, Lkshark/l;->U(I)I
 
     move-result v1
@@ -753,7 +697,6 @@
 .method private final U(I)I
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lkshark/l;->b:Ljava/util/Map;
 
     invoke-static {p1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -776,7 +719,6 @@
 .method private final a()Z
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lkshark/l;->c:Lokio/BufferedSource;
 
     invoke-interface {v0}, Lokio/BufferedSource;->exhausted()Z
@@ -789,7 +731,6 @@
 .method private final e()Z
     .locals 4
 
-    .line 1
     iget-wide v0, p0, Lkshark/l;->a:J
 
     sget v2, Lkshark/l;->f:I
@@ -800,7 +741,6 @@
 
     iput-wide v0, p0, Lkshark/l;->a:J
 
-    .line 2
     iget-object v0, p0, Lkshark/l;->c:Lokio/BufferedSource;
 
     invoke-interface {v0}, Lokio/BufferedSource;->readByte()B
@@ -823,7 +763,6 @@
 .method private final f(I)[Z
     .locals 4
 
-    .line 1
     new-array v0, p1, [Z
 
     const/4 v1, 0x0
@@ -860,7 +799,6 @@
 .method private final g()B
     .locals 4
 
-    .line 1
     iget-wide v0, p0, Lkshark/l;->a:J
 
     sget v2, Lkshark/l;->j:I
@@ -871,7 +809,6 @@
 
     iput-wide v0, p0, Lkshark/l;->a:J
 
-    .line 2
     iget-object v0, p0, Lkshark/l;->c:Lokio/BufferedSource;
 
     invoke-interface {v0}, Lokio/BufferedSource;->readByte()B
@@ -884,7 +821,6 @@
 .method private final h(I)[B
     .locals 4
 
-    .line 1
     iget-wide v0, p0, Lkshark/l;->a:J
 
     int-to-long v2, p1
@@ -893,7 +829,6 @@
 
     iput-wide v0, p0, Lkshark/l;->a:J
 
-    .line 2
     iget-object p1, p0, Lkshark/l;->c:Lokio/BufferedSource;
 
     invoke-interface {p1, v2, v3}, Lokio/BufferedSource;->readByteArray(J)[B
@@ -910,7 +845,6 @@
 .method private final i()C
     .locals 2
 
-    .line 1
     sget v0, Lkshark/l;->g:I
 
     sget-object v1, Lcotlin/text/d;->c:Ljava/nio/charset/Charset;
@@ -931,7 +865,6 @@
 .method private final j(I)[C
     .locals 1
 
-    .line 1
     sget v0, Lkshark/l;->g:I
 
     mul-int v0, v0, p1
@@ -967,7 +900,6 @@
 .method private final m()D
     .locals 2
 
-    .line 1
     sget-object v0, Lcotlin/jvm/internal/v;->h:Lcotlin/jvm/internal/v;
 
     invoke-direct {p0}, Lkshark/l;->y()J
@@ -984,7 +916,6 @@
 .method private final n(I)[D
     .locals 4
 
-    .line 1
     new-array v0, p1, [D
 
     const/4 v1, 0x0
@@ -1009,7 +940,6 @@
 .method private final o()F
     .locals 1
 
-    .line 1
     sget-object v0, Lcotlin/jvm/internal/y;->h:Lcotlin/jvm/internal/y;
 
     invoke-direct {p0}, Lkshark/l;->w()I
@@ -1026,7 +956,6 @@
 .method private final p(I)[F
     .locals 3
 
-    .line 1
     new-array v0, p1, [F
 
     const/4 v1, 0x0
@@ -1051,12 +980,10 @@
 .method private final q()Lkshark/m$b$b;
     .locals 4
 
-    .line 1
     invoke-direct {p0}, Lkshark/l;->w()I
 
     move-result v0
 
-    .line 2
     new-instance v1, Lkshark/m$b$b;
 
     invoke-direct {p0}, Lkshark/l;->s()J
@@ -1071,7 +998,6 @@
 .method private final s()J
     .locals 2
 
-    .line 1
     iget v0, p0, Lkshark/l;->d:I
 
     const/4 v1, 0x1
@@ -1090,14 +1016,12 @@
 
     if-ne v0, v1, :cond_0
 
-    .line 2
     invoke-direct {p0}, Lkshark/l;->y()J
 
     move-result-wide v0
 
     goto :goto_1
 
-    .line 3
     :cond_0
     new-instance v0, Ljava/lang/IllegalArgumentException;
 
@@ -1107,7 +1031,6 @@
 
     throw v0
 
-    .line 4
     :cond_1
     invoke-direct {p0}, Lkshark/l;->w()I
 
@@ -1115,7 +1038,6 @@
 
     goto :goto_0
 
-    .line 5
     :cond_2
     invoke-direct {p0}, Lkshark/l;->E()S
 
@@ -1123,7 +1045,6 @@
 
     goto :goto_0
 
-    .line 6
     :cond_3
     invoke-direct {p0}, Lkshark/l;->g()B
 
@@ -1139,7 +1060,6 @@
 .method private final t(I)[J
     .locals 4
 
-    .line 1
     new-array v0, p1, [J
 
     const/4 v1, 0x0
@@ -1164,7 +1084,6 @@
 .method private final w()I
     .locals 4
 
-    .line 1
     iget-wide v0, p0, Lkshark/l;->a:J
 
     sget v2, Lkshark/l;->l:I
@@ -1175,7 +1094,6 @@
 
     iput-wide v0, p0, Lkshark/l;->a:J
 
-    .line 2
     iget-object v0, p0, Lkshark/l;->c:Lokio/BufferedSource;
 
     invoke-interface {v0}, Lokio/BufferedSource;->readInt()I
@@ -1188,7 +1106,6 @@
 .method private final x(I)[I
     .locals 3
 
-    .line 1
     new-array v0, p1, [I
 
     const/4 v1, 0x0
@@ -1213,7 +1130,6 @@
 .method private final y()J
     .locals 4
 
-    .line 1
     iget-wide v0, p0, Lkshark/l;->a:J
 
     sget v2, Lkshark/l;->m:I
@@ -1224,7 +1140,6 @@
 
     iput-wide v0, p0, Lkshark/l;->a:J
 
-    .line 2
     iget-object v0, p0, Lkshark/l;->c:Lokio/BufferedSource;
 
     invoke-interface {v0}, Lokio/BufferedSource;->readLong()J
@@ -1237,7 +1152,6 @@
 .method private final z(I)[J
     .locals 4
 
-    .line 1
     new-array v0, p1, [J
 
     const/4 v1, 0x0
@@ -1266,32 +1180,26 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Lkshark/l;->s()J
 
     move-result-wide v1
 
-    .line 2
     invoke-direct {p0}, Lkshark/l;->w()I
 
     move-result v3
 
-    .line 3
     invoke-direct {p0}, Lkshark/l;->w()I
 
     move-result v7
 
-    .line 4
     invoke-direct {p0}, Lkshark/l;->s()J
 
     move-result-wide v4
 
-    .line 5
     invoke-direct {p0, v7}, Lkshark/l;->t(I)[J
 
     move-result-object v6
 
-    .line 6
     new-instance v8, Lkshark/m$b$c$e;
 
     move-object v0, v8
@@ -1306,34 +1214,28 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Lkshark/l;->s()J
 
     move-result-wide v1
 
-    .line 2
     invoke-direct {p0}, Lkshark/l;->w()I
 
     move-result v3
 
-    .line 3
     invoke-direct {p0}, Lkshark/l;->w()I
 
     move-result v6
 
-    .line 4
     invoke-direct {p0}, Lkshark/l;->s()J
 
     move-result-wide v4
 
-    .line 5
     iget v0, p0, Lkshark/l;->d:I
 
     mul-int v0, v0, v6
 
     invoke-direct {p0, v0}, Lkshark/l;->N(I)V
 
-    .line 6
     new-instance v7, Lkshark/m$b$c$f;
 
     move-object v0, v7
@@ -1348,44 +1250,36 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Lkshark/l;->s()J
 
     move-result-wide v0
 
-    .line 2
     invoke-direct {p0}, Lkshark/l;->w()I
 
     move-result v2
 
-    .line 3
     invoke-direct {p0}, Lkshark/l;->w()I
 
     move-result v3
 
-    .line 4
     invoke-direct {p0}, Lkshark/l;->H()I
 
     move-result v4
 
-    .line 5
     sget v5, Lkshark/l;->n:I
 
     if-ne v4, v5, :cond_0
 
     new-instance v4, Lkshark/m$b$c$g$a;
 
-    .line 6
     invoke-direct {p0, v3}, Lkshark/l;->f(I)[Z
 
     move-result-object v3
 
-    .line 7
     invoke-direct {v4, v0, v1, v2, v3}, Lkshark/m$b$c$g$a;-><init>(JI[Z)V
 
     goto :goto_0
 
-    .line 8
     :cond_0
     sget v5, Lkshark/l;->o:I
 
@@ -1393,17 +1287,14 @@
 
     new-instance v4, Lkshark/m$b$c$g$c;
 
-    .line 9
     invoke-direct {p0, v3}, Lkshark/l;->j(I)[C
 
     move-result-object v3
 
-    .line 10
     invoke-direct {v4, v0, v1, v2, v3}, Lkshark/m$b$c$g$c;-><init>(JI[C)V
 
     goto :goto_0
 
-    .line 11
     :cond_1
     sget v5, Lkshark/l;->p:I
 
@@ -1411,17 +1302,14 @@
 
     new-instance v4, Lkshark/m$b$c$g$e;
 
-    .line 12
     invoke-direct {p0, v3}, Lkshark/l;->p(I)[F
 
     move-result-object v3
 
-    .line 13
     invoke-direct {v4, v0, v1, v2, v3}, Lkshark/m$b$c$g$e;-><init>(JI[F)V
 
     goto :goto_0
 
-    .line 14
     :cond_2
     sget v5, Lkshark/l;->q:I
 
@@ -1429,17 +1317,14 @@
 
     new-instance v4, Lkshark/m$b$c$g$d;
 
-    .line 15
     invoke-direct {p0, v3}, Lkshark/l;->n(I)[D
 
     move-result-object v3
 
-    .line 16
     invoke-direct {v4, v0, v1, v2, v3}, Lkshark/m$b$c$g$d;-><init>(JI[D)V
 
     goto :goto_0
 
-    .line 17
     :cond_3
     sget v5, Lkshark/l;->r:I
 
@@ -1447,17 +1332,14 @@
 
     new-instance v4, Lkshark/m$b$c$g$b;
 
-    .line 18
     invoke-direct {p0, v3}, Lkshark/l;->h(I)[B
 
     move-result-object v3
 
-    .line 19
     invoke-direct {v4, v0, v1, v2, v3}, Lkshark/m$b$c$g$b;-><init>(JI[B)V
 
     goto :goto_0
 
-    .line 20
     :cond_4
     sget v5, Lkshark/l;->s:I
 
@@ -1465,17 +1347,14 @@
 
     new-instance v4, Lkshark/m$b$c$g$h;
 
-    .line 21
     invoke-direct {p0, v3}, Lkshark/l;->F(I)[S
 
     move-result-object v3
 
-    .line 22
     invoke-direct {v4, v0, v1, v2, v3}, Lkshark/m$b$c$g$h;-><init>(JI[S)V
 
     goto :goto_0
 
-    .line 23
     :cond_5
     sget v5, Lkshark/l;->t:I
 
@@ -1483,17 +1362,14 @@
 
     new-instance v4, Lkshark/m$b$c$g$f;
 
-    .line 24
     invoke-direct {p0, v3}, Lkshark/l;->x(I)[I
 
     move-result-object v3
 
-    .line 25
     invoke-direct {v4, v0, v1, v2, v3}, Lkshark/m$b$c$g$f;-><init>(JI[I)V
 
     goto :goto_0
 
-    .line 26
     :cond_6
     sget v5, Lkshark/l;->u:I
 
@@ -1501,18 +1377,15 @@
 
     new-instance v4, Lkshark/m$b$c$g$g;
 
-    .line 27
     invoke-direct {p0, v3}, Lkshark/l;->z(I)[J
 
     move-result-object v3
 
-    .line 28
     invoke-direct {v4, v0, v1, v2, v3}, Lkshark/m$b$c$g$g;-><init>(JI[J)V
 
     :goto_0
     return-object v4
 
-    .line 29
     :cond_7
     new-instance v0, Ljava/lang/IllegalStateException;
 
@@ -1540,22 +1413,18 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Lkshark/l;->s()J
 
     move-result-wide v1
 
-    .line 2
     invoke-direct {p0}, Lkshark/l;->w()I
 
     move-result v3
 
-    .line 3
     invoke-direct {p0}, Lkshark/l;->w()I
 
     move-result v4
 
-    .line 4
     sget-object v0, Lkshark/PrimitiveType;->Companion:Lkshark/PrimitiveType$a;
 
     invoke-virtual {v0}, Lkshark/PrimitiveType$a;->b()Ljava/util/Map;
@@ -1578,7 +1447,6 @@
 
     check-cast v5, Lkshark/PrimitiveType;
 
-    .line 5
     invoke-virtual {v5}, Lkshark/PrimitiveType;->getByteSize()I
 
     move-result v0
@@ -1587,7 +1455,6 @@
 
     invoke-direct {p0, v0}, Lkshark/l;->N(I)V
 
-    .line 6
     new-instance v6, Lkshark/m$b$c$h;
 
     move-object v0, v6
@@ -1606,7 +1473,6 @@
 
     if-ne p1, v0, :cond_0
 
-    .line 1
     new-instance p1, Lkshark/b0$i;
 
     invoke-direct {p0}, Lkshark/l;->s()J
@@ -1617,7 +1483,6 @@
 
     goto/16 :goto_0
 
-    .line 2
     :cond_0
     sget v0, Lkshark/l;->n:I
 
@@ -1633,7 +1498,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_1
     sget v0, Lkshark/l;->o:I
 
@@ -1649,7 +1513,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_2
     sget v0, Lkshark/l;->p:I
 
@@ -1665,7 +1528,6 @@
 
     goto :goto_0
 
-    .line 5
     :cond_3
     sget v0, Lkshark/l;->q:I
 
@@ -1681,7 +1543,6 @@
 
     goto :goto_0
 
-    .line 6
     :cond_4
     sget v0, Lkshark/l;->r:I
 
@@ -1697,7 +1558,6 @@
 
     goto :goto_0
 
-    .line 7
     :cond_5
     sget v0, Lkshark/l;->s:I
 
@@ -1713,7 +1573,6 @@
 
     goto :goto_0
 
-    .line 8
     :cond_6
     sget v0, Lkshark/l;->t:I
 
@@ -1729,7 +1588,6 @@
 
     goto :goto_0
 
-    .line 9
     :cond_7
     sget v0, Lkshark/l;->u:I
 
@@ -1746,7 +1604,6 @@
     :goto_0
     return-object p1
 
-    .line 10
     :cond_8
     new-instance v0, Ljava/lang/IllegalStateException;
 
@@ -1772,7 +1629,6 @@
 .method public final M(J)V
     .locals 0
 
-    .line 1
     iput-wide p1, p0, Lkshark/l;->a:J
 
     return-void
@@ -1781,7 +1637,6 @@
 .method public final b()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lkshark/l;->d:I
 
     return v0
@@ -1790,7 +1645,6 @@
 .method public final c()J
     .locals 2
 
-    .line 1
     iget-wide v0, p0, Lkshark/l;->a:J
 
     return-wide v0
@@ -1799,7 +1653,6 @@
 .method public final d()J
     .locals 2
 
-    .line 1
     iget-wide v0, p0, Lkshark/l;->e:J
 
     return-wide v0
@@ -1812,48 +1665,38 @@
 
     move-object/from16 v0, p0
 
-    .line 1
     invoke-direct/range {p0 .. p0}, Lkshark/l;->s()J
 
     move-result-wide v2
 
-    .line 2
     invoke-direct/range {p0 .. p0}, Lkshark/l;->w()I
 
     move-result v4
 
-    .line 3
     invoke-direct/range {p0 .. p0}, Lkshark/l;->s()J
 
     move-result-wide v5
 
-    .line 4
     invoke-direct/range {p0 .. p0}, Lkshark/l;->s()J
 
     move-result-wide v7
 
-    .line 5
     invoke-direct/range {p0 .. p0}, Lkshark/l;->s()J
 
     move-result-wide v9
 
-    .line 6
     invoke-direct/range {p0 .. p0}, Lkshark/l;->s()J
 
     move-result-wide v11
 
-    .line 7
     invoke-direct/range {p0 .. p0}, Lkshark/l;->s()J
 
-    .line 8
     invoke-direct/range {p0 .. p0}, Lkshark/l;->s()J
 
-    .line 9
     invoke-direct/range {p0 .. p0}, Lkshark/l;->w()I
 
     move-result v13
 
-    .line 10
     invoke-direct/range {p0 .. p0}, Lkshark/l;->J()I
 
     move-result v1
@@ -1863,12 +1706,10 @@
     :goto_0
     if-ge v15, v1, :cond_0
 
-    .line 11
     sget v14, Lkshark/l;->k:I
 
     invoke-direct {v0, v14}, Lkshark/l;->N(I)V
 
-    .line 12
     invoke-direct/range {p0 .. p0}, Lkshark/l;->H()I
 
     move-result v14
@@ -1883,13 +1724,11 @@
 
     goto :goto_0
 
-    .line 13
     :cond_0
     invoke-direct/range {p0 .. p0}, Lkshark/l;->J()I
 
     move-result v1
 
-    .line 14
     new-instance v14, Ljava/util/ArrayList;
 
     invoke-direct {v14, v1}, Ljava/util/ArrayList;-><init>(I)V
@@ -1901,31 +1740,26 @@
 
     move-wide/from16 v17, v11
 
-    .line 15
     invoke-direct/range {p0 .. p0}, Lkshark/l;->s()J
 
     move-result-wide v11
 
     move/from16 v19, v1
 
-    .line 16
     invoke-direct/range {p0 .. p0}, Lkshark/l;->H()I
 
     move-result v1
 
     move/from16 v20, v13
 
-    .line 17
     invoke-virtual {v0, v1}, Lkshark/l;->L(I)Lkshark/b0;
 
     move-result-object v13
 
-    .line 18
     new-instance v0, Lkshark/m$b$c$a$b;
 
     invoke-direct {v0, v11, v12, v1, v13}, Lkshark/m$b$c$a$b;-><init>(JILkshark/b0;)V
 
-    .line 19
     invoke-virtual {v14, v0}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
     add-int/lit8 v15, v15, 0x1
@@ -1945,12 +1779,10 @@
 
     move/from16 v20, v13
 
-    .line 20
     invoke-direct/range {p0 .. p0}, Lkshark/l;->J()I
 
     move-result v0
 
-    .line 21
     new-instance v15, Ljava/util/ArrayList;
 
     invoke-direct {v15, v0}, Ljava/util/ArrayList;-><init>(I)V
@@ -1960,7 +1792,6 @@
     :goto_2
     if-ge v1, v0, :cond_2
 
-    .line 22
     new-instance v11, Lkshark/m$b$c$a$a;
 
     invoke-direct/range {p0 .. p0}, Lkshark/l;->s()J
@@ -1983,7 +1814,6 @@
 
     goto :goto_2
 
-    .line 23
     :cond_2
     new-instance v0, Lkshark/m$b$c$a;
 
@@ -2005,48 +1835,38 @@
 
     move-object/from16 v0, p0
 
-    .line 1
     invoke-direct/range {p0 .. p0}, Lkshark/l;->s()J
 
     move-result-wide v2
 
-    .line 2
     invoke-direct/range {p0 .. p0}, Lkshark/l;->w()I
 
     move-result v4
 
-    .line 3
     invoke-direct/range {p0 .. p0}, Lkshark/l;->s()J
 
     move-result-wide v5
 
-    .line 4
     invoke-direct/range {p0 .. p0}, Lkshark/l;->s()J
 
     move-result-wide v7
 
-    .line 5
     invoke-direct/range {p0 .. p0}, Lkshark/l;->s()J
 
     move-result-wide v9
 
-    .line 6
     invoke-direct/range {p0 .. p0}, Lkshark/l;->s()J
 
     move-result-wide v11
 
-    .line 7
     invoke-direct/range {p0 .. p0}, Lkshark/l;->s()J
 
-    .line 8
     invoke-direct/range {p0 .. p0}, Lkshark/l;->s()J
 
-    .line 9
     invoke-direct/range {p0 .. p0}, Lkshark/l;->w()I
 
     move-result v13
 
-    .line 10
     invoke-direct/range {p0 .. p0}, Lkshark/l;->J()I
 
     move-result v1
@@ -2056,12 +1876,10 @@
     :goto_0
     if-ge v15, v1, :cond_0
 
-    .line 11
     sget v14, Lkshark/l;->k:I
 
     invoke-direct {v0, v14}, Lkshark/l;->N(I)V
 
-    .line 12
     invoke-direct/range {p0 .. p0}, Lkshark/l;->H()I
 
     move-result v14
@@ -2076,7 +1894,6 @@
 
     goto :goto_0
 
-    .line 13
     :cond_0
     invoke-direct/range {p0 .. p0}, Lkshark/l;->J()I
 
@@ -2087,12 +1904,10 @@
     :goto_1
     if-ge v1, v14, :cond_2
 
-    .line 14
     iget v15, v0, Lkshark/l;->d:I
 
     invoke-direct {v0, v15}, Lkshark/l;->N(I)V
 
-    .line 15
     invoke-direct/range {p0 .. p0}, Lkshark/l;->H()I
 
     move-result v15
@@ -2103,12 +1918,10 @@
 
     if-ne v15, v14, :cond_1
 
-    .line 16
     iget v14, v0, Lkshark/l;->d:I
 
     goto :goto_2
 
-    .line 17
     :cond_1
     sget-object v14, Lkshark/PrimitiveType;->Companion:Lkshark/PrimitiveType$a;
 
@@ -2130,7 +1943,6 @@
 
     move-result v14
 
-    .line 18
     :goto_2
     invoke-direct {v0, v14}, Lkshark/l;->N(I)V
 
@@ -2143,12 +1955,10 @@
     :cond_2
     move/from16 v16, v14
 
-    .line 19
     invoke-direct/range {p0 .. p0}, Lkshark/l;->J()I
 
     move-result v15
 
-    .line 20
     iget v1, v0, Lkshark/l;->d:I
 
     add-int/lit8 v1, v1, 0x1
@@ -2157,7 +1967,6 @@
 
     invoke-direct {v0, v1}, Lkshark/l;->N(I)V
 
-    .line 21
     new-instance v17, Lkshark/m$b$c$b;
 
     move-object/from16 v1, v17
@@ -2205,7 +2014,6 @@
 
     invoke-static {v2, v3}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     const-class v3, Lkshark/m;
 
     invoke-static {v3}, Lcotlin/jvm/internal/n0;->d(Ljava/lang/Class;)Lcotlin/reflect/d;
@@ -2218,7 +2026,6 @@
 
     if-nez v3, :cond_1
 
-    .line 2
     const-class v6, Lkshark/m$f;
 
     invoke-static {v6}, Lcotlin/jvm/internal/n0;->d(Ljava/lang/Class;)Lcotlin/reflect/d;
@@ -2245,7 +2052,6 @@
     :goto_1
     if-nez v3, :cond_3
 
-    .line 3
     const-class v7, Lkshark/m$c;
 
     invoke-static {v7}, Lcotlin/jvm/internal/n0;->d(Ljava/lang/Class;)Lcotlin/reflect/d;
@@ -2272,7 +2078,6 @@
     :goto_3
     if-nez v3, :cond_5
 
-    .line 4
     const-class v8, Lkshark/m$a;
 
     invoke-static {v8}, Lcotlin/jvm/internal/n0;->d(Ljava/lang/Class;)Lcotlin/reflect/d;
@@ -2299,7 +2104,6 @@
     :goto_5
     if-nez v3, :cond_7
 
-    .line 5
     const-class v9, Lkshark/m$d;
 
     invoke-static {v9}, Lcotlin/jvm/internal/n0;->d(Ljava/lang/Class;)Lcotlin/reflect/d;
@@ -2326,7 +2130,6 @@
     :goto_7
     if-nez v3, :cond_9
 
-    .line 6
     const-class v10, Lkshark/m$e;
 
     invoke-static {v10}, Lcotlin/jvm/internal/n0;->d(Ljava/lang/Class;)Lcotlin/reflect/d;
@@ -2353,7 +2156,6 @@
     :goto_9
     if-nez v3, :cond_b
 
-    .line 7
     const-class v11, Lkshark/m$b;
 
     invoke-static {v11}, Lcotlin/jvm/internal/n0;->d(Ljava/lang/Class;)Lcotlin/reflect/d;
@@ -2380,7 +2182,6 @@
     :goto_b
     if-nez v11, :cond_d
 
-    .line 8
     const-class v12, Lkshark/m$b$a;
 
     invoke-static {v12}, Lcotlin/jvm/internal/n0;->d(Ljava/lang/Class;)Lcotlin/reflect/d;
@@ -2407,7 +2208,6 @@
     :goto_d
     if-nez v3, :cond_f
 
-    .line 9
     const-class v3, Lkshark/m$b$b;
 
     invoke-static {v3}, Lcotlin/jvm/internal/n0;->d(Ljava/lang/Class;)Lcotlin/reflect/d;
@@ -2434,7 +2234,6 @@
     :goto_f
     if-nez v11, :cond_11
 
-    .line 10
     const-class v11, Lkshark/m$b$c;
 
     invoke-static {v11}, Lcotlin/jvm/internal/n0;->d(Ljava/lang/Class;)Lcotlin/reflect/d;
@@ -2461,7 +2260,6 @@
     :goto_11
     if-nez v11, :cond_13
 
-    .line 11
     const-class v13, Lkshark/m$b$c$a;
 
     invoke-static {v13}, Lcotlin/jvm/internal/n0;->d(Ljava/lang/Class;)Lcotlin/reflect/d;
@@ -2485,7 +2283,6 @@
     :goto_12
     const/4 v13, 0x1
 
-    .line 12
     :goto_13
     const-class v14, Lkshark/m$b$c$b;
 
@@ -2499,7 +2296,6 @@
 
     if-nez v11, :cond_15
 
-    .line 13
     const-class v15, Lkshark/m$b$c$c;
 
     invoke-static {v15}, Lcotlin/jvm/internal/n0;->d(Ljava/lang/Class;)Lcotlin/reflect/d;
@@ -2523,7 +2319,6 @@
     :goto_14
     const/4 v15, 0x1
 
-    .line 14
     :goto_15
     const-class v16, Lkshark/m$b$c$d;
 
@@ -2537,7 +2332,6 @@
 
     if-nez v11, :cond_17
 
-    .line 15
     const-class v16, Lkshark/m$b$c$e;
 
     invoke-static/range {v16 .. v16}, Lcotlin/jvm/internal/n0;->d(Ljava/lang/Class;)Lcotlin/reflect/d;
@@ -2561,7 +2355,6 @@
     :goto_16
     const/4 v5, 0x1
 
-    .line 16
     :goto_17
     const-class v16, Lkshark/m$b$c$f;
 
@@ -2577,7 +2370,6 @@
 
     if-nez v11, :cond_19
 
-    .line 17
     const-class v11, Lkshark/m$b$c$g;
 
     invoke-static {v11}, Lcotlin/jvm/internal/n0;->d(Ljava/lang/Class;)Lcotlin/reflect/d;
@@ -2601,7 +2393,6 @@
     :goto_18
     const/4 v11, 0x1
 
-    .line 18
     :goto_19
     const-class v16, Lkshark/m$b$c$h;
 
@@ -2615,14 +2406,12 @@
 
     move-result v1
 
-    .line 19
     sget-object v7, Lkshark/PrimitiveType;->INT:Lkshark/PrimitiveType;
 
     invoke-virtual {v7}, Lkshark/PrimitiveType;->getByteSize()I
 
     move-result v7
 
-    .line 20
     :goto_1a
     invoke-direct/range {p0 .. p0}, Lkshark/l;->a()Z
 
@@ -2632,19 +2421,16 @@
 
     move/from16 v16, v9
 
-    .line 21
     invoke-direct/range {p0 .. p0}, Lkshark/l;->H()I
 
     move-result v9
 
-    .line 22
     invoke-direct {v0, v7}, Lkshark/l;->N(I)V
 
     move/from16 v19, v13
 
     move/from16 v20, v14
 
-    .line 23
     invoke-direct/range {p0 .. p0}, Lkshark/l;->I()J
 
     move-result-wide v13
@@ -2679,7 +2465,6 @@
 
     if-eq v9, v10, :cond_1a
 
-    .line 24
     invoke-direct {v0, v13, v14}, Lkshark/l;->O(J)V
 
     goto :goto_1b
@@ -2687,13 +2472,10 @@
     :cond_1a
     if-eqz v8, :cond_1b
 
-    .line 25
     iget-wide v9, v0, Lkshark/l;->a:J
 
-    .line 26
     sget-object v13, Lkshark/m$a;->a:Lkshark/m$a;
 
-    .line 27
     invoke-interface {v2, v9, v10, v13}, Lkshark/w;->a(JLkshark/m;)V
 
     :cond_1b
@@ -2710,7 +2492,6 @@
 
     goto/16 :goto_1e
 
-    .line 28
     :cond_1c
     iget-wide v9, v0, Lkshark/l;->a:J
 
@@ -2728,7 +2509,6 @@
 
     move/from16 v23, v5
 
-    .line 29
     :goto_1c
     iget-wide v5, v0, Lkshark/l;->a:J
 
@@ -2740,7 +2520,6 @@
 
     if-gez v29, :cond_42
 
-    .line 30
     invoke-direct/range {p0 .. p0}, Lkshark/l;->H()I
 
     move-result v8
@@ -2769,7 +2548,6 @@
 
     packed-switch v8, :pswitch_data_2
 
-    .line 31
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -2846,7 +2624,6 @@
 
     move-result-object v1
 
-    .line 32
     new-instance v2, Ljava/lang/IllegalStateException;
 
     invoke-direct {v2, v1}, Ljava/lang/IllegalStateException;-><init>(Ljava/lang/String;)V
@@ -2860,18 +2637,14 @@
 
     if-eqz v12, :cond_1d
 
-    .line 33
     iget-wide v3, v0, Lkshark/l;->a:J
 
-    .line 34
     new-instance v9, Lkshark/m$b$a;
 
-    .line 35
     new-instance v10, Lkshark/d$g;
 
     move-wide/from16 v30, v5
 
-    .line 36
     invoke-direct/range {p0 .. p0}, Lkshark/l;->s()J
 
     move-result-wide v5
@@ -2884,18 +2657,14 @@
 
     move-wide/from16 v32, v13
 
-    .line 37
     invoke-direct/range {p0 .. p0}, Lkshark/l;->w()I
 
     move-result v13
 
-    .line 38
     invoke-direct {v10, v5, v6, v8, v13}, Lkshark/d$g;-><init>(JII)V
 
-    .line 39
     invoke-direct {v9, v10}, Lkshark/m$b$a;-><init>(Lkshark/d;)V
 
-    .line 40
     invoke-interface {v2, v3, v4, v9}, Lkshark/w;->a(JLkshark/m;)V
 
     goto/16 :goto_1d
@@ -2907,7 +2676,6 @@
 
     move-wide/from16 v32, v13
 
-    .line 41
     iget v3, v0, Lkshark/l;->d:I
 
     add-int/2addr v3, v7
@@ -2927,13 +2695,10 @@
 
     if-eqz v12, :cond_1e
 
-    .line 42
     iget-wide v3, v0, Lkshark/l;->a:J
 
-    .line 43
     new-instance v5, Lkshark/m$b$a;
 
-    .line 44
     new-instance v6, Lkshark/d$p;
 
     invoke-direct/range {p0 .. p0}, Lkshark/l;->s()J
@@ -2942,15 +2707,12 @@
 
     invoke-direct {v6, v8, v9}, Lkshark/d$p;-><init>(J)V
 
-    .line 45
     invoke-direct {v5, v6}, Lkshark/m$b$a;-><init>(Lkshark/d;)V
 
-    .line 46
     invoke-interface {v2, v3, v4, v5}, Lkshark/w;->a(JLkshark/m;)V
 
     goto/16 :goto_1d
 
-    .line 47
     :cond_1e
     iget v3, v0, Lkshark/l;->d:I
 
@@ -2967,13 +2729,10 @@
 
     if-eqz v12, :cond_1f
 
-    .line 48
     iget-wide v3, v0, Lkshark/l;->a:J
 
-    .line 49
     new-instance v5, Lkshark/m$b$a;
 
-    .line 50
     new-instance v6, Lkshark/d$j;
 
     invoke-direct/range {p0 .. p0}, Lkshark/l;->s()J
@@ -2982,15 +2741,12 @@
 
     invoke-direct {v6, v8, v9}, Lkshark/d$j;-><init>(J)V
 
-    .line 51
     invoke-direct {v5, v6}, Lkshark/m$b$a;-><init>(Lkshark/d;)V
 
-    .line 52
     invoke-interface {v2, v3, v4, v5}, Lkshark/w;->a(JLkshark/m;)V
 
     goto/16 :goto_1d
 
-    .line 53
     :cond_1f
     iget v3, v0, Lkshark/l;->d:I
 
@@ -3007,13 +2763,10 @@
 
     if-eqz v12, :cond_20
 
-    .line 54
     iget-wide v3, v0, Lkshark/l;->a:J
 
-    .line 55
     new-instance v5, Lkshark/m$b$a;
 
-    .line 56
     new-instance v6, Lkshark/d$a;
 
     invoke-direct/range {p0 .. p0}, Lkshark/l;->s()J
@@ -3022,15 +2775,12 @@
 
     invoke-direct {v6, v8, v9}, Lkshark/d$a;-><init>(J)V
 
-    .line 57
     invoke-direct {v5, v6}, Lkshark/m$b$a;-><init>(Lkshark/d;)V
 
-    .line 58
     invoke-interface {v2, v3, v4, v5}, Lkshark/w;->a(JLkshark/m;)V
 
     goto/16 :goto_1d
 
-    .line 59
     :cond_20
     iget v3, v0, Lkshark/l;->d:I
 
@@ -3047,13 +2797,10 @@
 
     if-eqz v12, :cond_21
 
-    .line 60
     iget-wide v3, v0, Lkshark/l;->a:J
 
-    .line 61
     new-instance v5, Lkshark/m$b$a;
 
-    .line 62
     new-instance v6, Lkshark/d$b;
 
     invoke-direct/range {p0 .. p0}, Lkshark/l;->s()J
@@ -3062,15 +2809,12 @@
 
     invoke-direct {v6, v8, v9}, Lkshark/d$b;-><init>(J)V
 
-    .line 63
     invoke-direct {v5, v6}, Lkshark/m$b$a;-><init>(Lkshark/d;)V
 
-    .line 64
     invoke-interface {v2, v3, v4, v5}, Lkshark/w;->a(JLkshark/m;)V
 
     goto/16 :goto_1d
 
-    .line 65
     :cond_21
     iget v3, v0, Lkshark/l;->d:I
 
@@ -3087,10 +2831,8 @@
 
     if-eqz v12, :cond_22
 
-    .line 66
     iget-wide v3, v0, Lkshark/l;->a:J
 
-    .line 67
     new-instance v5, Lkshark/m$b$a;
 
     new-instance v6, Lkshark/d$c;
@@ -3103,12 +2845,10 @@
 
     invoke-direct {v5, v6}, Lkshark/m$b$a;-><init>(Lkshark/d;)V
 
-    .line 68
     invoke-interface {v2, v3, v4, v5}, Lkshark/w;->a(JLkshark/m;)V
 
     goto/16 :goto_1d
 
-    .line 69
     :cond_22
     iget v3, v0, Lkshark/l;->d:I
 
@@ -3125,15 +2865,12 @@
 
     if-eqz v11, :cond_23
 
-    .line 70
     iget-wide v3, v0, Lkshark/l;->a:J
 
-    .line 71
     invoke-virtual/range {p0 .. p0}, Lkshark/l;->C()Lkshark/m$b$c$g;
 
     move-result-object v5
 
-    .line 72
     invoke-interface {v2, v3, v4, v5}, Lkshark/w;->a(JLkshark/m;)V
 
     goto/16 :goto_1d
@@ -3141,20 +2878,16 @@
     :cond_23
     if-eqz v1, :cond_24
 
-    .line 73
     iget-wide v3, v0, Lkshark/l;->a:J
 
-    .line 74
     invoke-virtual/range {p0 .. p0}, Lkshark/l;->D()Lkshark/m$b$c$h;
 
     move-result-object v5
 
-    .line 75
     invoke-interface {v2, v3, v4, v5}, Lkshark/w;->a(JLkshark/m;)V
 
     goto/16 :goto_1d
 
-    .line 76
     :cond_24
     invoke-direct/range {p0 .. p0}, Lkshark/l;->T()V
 
@@ -3169,15 +2902,12 @@
 
     if-eqz v23, :cond_25
 
-    .line 77
     iget-wide v3, v0, Lkshark/l;->a:J
 
-    .line 78
     invoke-virtual/range {p0 .. p0}, Lkshark/l;->A()Lkshark/m$b$c$e;
 
     move-result-object v5
 
-    .line 79
     invoke-interface {v2, v3, v4, v5}, Lkshark/w;->a(JLkshark/m;)V
 
     goto/16 :goto_1d
@@ -3185,20 +2915,16 @@
     :cond_25
     if-eqz v26, :cond_26
 
-    .line 80
     iget-wide v3, v0, Lkshark/l;->a:J
 
-    .line 81
     invoke-virtual/range {p0 .. p0}, Lkshark/l;->B()Lkshark/m$b$c$f;
 
     move-result-object v5
 
-    .line 82
     invoke-interface {v2, v3, v4, v5}, Lkshark/w;->a(JLkshark/m;)V
 
     goto/16 :goto_1d
 
-    .line 83
     :cond_26
     invoke-direct/range {p0 .. p0}, Lkshark/l;->S()V
 
@@ -3213,15 +2939,12 @@
 
     if-eqz v15, :cond_27
 
-    .line 84
     iget-wide v3, v0, Lkshark/l;->a:J
 
-    .line 85
     invoke-virtual/range {p0 .. p0}, Lkshark/l;->u()Lkshark/m$b$c$c;
 
     move-result-object v5
 
-    .line 86
     invoke-interface {v2, v3, v4, v5}, Lkshark/w;->a(JLkshark/m;)V
 
     goto/16 :goto_1d
@@ -3229,20 +2952,16 @@
     :cond_27
     if-eqz v25, :cond_28
 
-    .line 87
     iget-wide v3, v0, Lkshark/l;->a:J
 
-    .line 88
     invoke-virtual/range {p0 .. p0}, Lkshark/l;->v()Lkshark/m$b$c$d;
 
     move-result-object v5
 
-    .line 89
     invoke-interface {v2, v3, v4, v5}, Lkshark/w;->a(JLkshark/m;)V
 
     goto/16 :goto_1d
 
-    .line 90
     :cond_28
     invoke-direct/range {p0 .. p0}, Lkshark/l;->R()V
 
@@ -3257,15 +2976,12 @@
 
     if-eqz v19, :cond_29
 
-    .line 91
     iget-wide v3, v0, Lkshark/l;->a:J
 
-    .line 92
     invoke-virtual/range {p0 .. p0}, Lkshark/l;->k()Lkshark/m$b$c$a;
 
     move-result-object v5
 
-    .line 93
     invoke-interface {v2, v3, v4, v5}, Lkshark/w;->a(JLkshark/m;)V
 
     goto/16 :goto_1d
@@ -3273,20 +2989,16 @@
     :cond_29
     if-eqz v20, :cond_2a
 
-    .line 94
     iget-wide v3, v0, Lkshark/l;->a:J
 
-    .line 95
     invoke-virtual/range {p0 .. p0}, Lkshark/l;->l()Lkshark/m$b$c$b;
 
     move-result-object v5
 
-    .line 96
     invoke-interface {v2, v3, v4, v5}, Lkshark/w;->a(JLkshark/m;)V
 
     goto/16 :goto_1d
 
-    .line 97
     :cond_2a
     invoke-direct/range {p0 .. p0}, Lkshark/l;->P()V
 
@@ -3301,42 +3013,32 @@
 
     if-eqz v12, :cond_2b
 
-    .line 98
     iget-wide v3, v0, Lkshark/l;->a:J
 
-    .line 99
     new-instance v5, Lkshark/m$b$a;
 
-    .line 100
     new-instance v6, Lkshark/d$m;
 
-    .line 101
     invoke-direct/range {p0 .. p0}, Lkshark/l;->s()J
 
     move-result-wide v8
 
-    .line 102
     invoke-direct/range {p0 .. p0}, Lkshark/l;->w()I
 
     move-result v10
 
-    .line 103
     invoke-direct/range {p0 .. p0}, Lkshark/l;->w()I
 
     move-result v13
 
-    .line 104
     invoke-direct {v6, v8, v9, v10, v13}, Lkshark/d$m;-><init>(JII)V
 
-    .line 105
     invoke-direct {v5, v6}, Lkshark/m$b$a;-><init>(Lkshark/d;)V
 
-    .line 106
     invoke-interface {v2, v3, v4, v5}, Lkshark/w;->a(JLkshark/m;)V
 
     goto/16 :goto_1d
 
-    .line 107
     :cond_2b
     iget v3, v0, Lkshark/l;->d:I
 
@@ -3357,13 +3059,10 @@
 
     if-eqz v12, :cond_2c
 
-    .line 108
     iget-wide v3, v0, Lkshark/l;->a:J
 
-    .line 109
     new-instance v5, Lkshark/m$b$a;
 
-    .line 110
     new-instance v6, Lkshark/d$h;
 
     invoke-direct/range {p0 .. p0}, Lkshark/l;->s()J
@@ -3372,15 +3071,12 @@
 
     invoke-direct {v6, v8, v9}, Lkshark/d$h;-><init>(J)V
 
-    .line 111
     invoke-direct {v5, v6}, Lkshark/m$b$a;-><init>(Lkshark/d;)V
 
-    .line 112
     invoke-interface {v2, v3, v4, v5}, Lkshark/w;->a(JLkshark/m;)V
 
     goto/16 :goto_1d
 
-    .line 113
     :cond_2c
     iget v3, v0, Lkshark/l;->d:I
 
@@ -3397,13 +3093,10 @@
 
     if-eqz v12, :cond_2d
 
-    .line 114
     iget-wide v3, v0, Lkshark/l;->a:J
 
-    .line 115
     new-instance v5, Lkshark/m$b$a;
 
-    .line 116
     new-instance v6, Lkshark/d$l;
 
     invoke-direct/range {p0 .. p0}, Lkshark/l;->s()J
@@ -3416,15 +3109,12 @@
 
     invoke-direct {v6, v8, v9, v10}, Lkshark/d$l;-><init>(JI)V
 
-    .line 117
     invoke-direct {v5, v6}, Lkshark/m$b$a;-><init>(Lkshark/d;)V
 
-    .line 118
     invoke-interface {v2, v3, v4, v5}, Lkshark/w;->a(JLkshark/m;)V
 
     goto/16 :goto_1d
 
-    .line 119
     :cond_2d
     iget v3, v0, Lkshark/l;->d:I
 
@@ -3443,13 +3133,10 @@
 
     if-eqz v12, :cond_2e
 
-    .line 120
     iget-wide v3, v0, Lkshark/l;->a:J
 
-    .line 121
     new-instance v5, Lkshark/m$b$a;
 
-    .line 122
     new-instance v6, Lkshark/d$k;
 
     invoke-direct/range {p0 .. p0}, Lkshark/l;->s()J
@@ -3458,15 +3145,12 @@
 
     invoke-direct {v6, v8, v9}, Lkshark/d$k;-><init>(J)V
 
-    .line 123
     invoke-direct {v5, v6}, Lkshark/m$b$a;-><init>(Lkshark/d;)V
 
-    .line 124
     invoke-interface {v2, v3, v4, v5}, Lkshark/w;->a(JLkshark/m;)V
 
     goto/16 :goto_1d
 
-    .line 125
     :cond_2e
     iget v3, v0, Lkshark/l;->d:I
 
@@ -3483,13 +3167,10 @@
 
     if-eqz v12, :cond_2f
 
-    .line 126
     iget-wide v3, v0, Lkshark/l;->a:J
 
-    .line 127
     new-instance v5, Lkshark/m$b$a;
 
-    .line 128
     new-instance v6, Lkshark/d$i;
 
     invoke-direct/range {p0 .. p0}, Lkshark/l;->s()J
@@ -3502,15 +3183,12 @@
 
     invoke-direct {v6, v8, v9, v10}, Lkshark/d$i;-><init>(JI)V
 
-    .line 129
     invoke-direct {v5, v6}, Lkshark/m$b$a;-><init>(Lkshark/d;)V
 
-    .line 130
     invoke-interface {v2, v3, v4, v5}, Lkshark/w;->a(JLkshark/m;)V
 
     goto/16 :goto_1d
 
-    .line 131
     :cond_2f
     iget v3, v0, Lkshark/l;->d:I
 
@@ -3529,16 +3207,12 @@
 
     if-eqz v12, :cond_30
 
-    .line 132
     iget-wide v3, v0, Lkshark/l;->a:J
 
-    .line 133
     new-instance v5, Lkshark/m$b$a;
 
-    .line 134
     new-instance v6, Lkshark/d$d;
 
-    .line 135
     invoke-direct/range {p0 .. p0}, Lkshark/l;->s()J
 
     move-result-wide v8
@@ -3551,18 +3225,14 @@
 
     move-result v13
 
-    .line 136
     invoke-direct {v6, v8, v9, v10, v13}, Lkshark/d$d;-><init>(JII)V
 
-    .line 137
     invoke-direct {v5, v6}, Lkshark/m$b$a;-><init>(Lkshark/d;)V
 
-    .line 138
     invoke-interface {v2, v3, v4, v5}, Lkshark/w;->a(JLkshark/m;)V
 
     goto/16 :goto_1d
 
-    .line 139
     :cond_30
     iget v3, v0, Lkshark/l;->d:I
 
@@ -3583,16 +3253,12 @@
 
     if-eqz v12, :cond_31
 
-    .line 140
     iget-wide v3, v0, Lkshark/l;->a:J
 
-    .line 141
     new-instance v5, Lkshark/m$b$a;
 
-    .line 142
     new-instance v6, Lkshark/d$f;
 
-    .line 143
     invoke-direct/range {p0 .. p0}, Lkshark/l;->s()J
 
     move-result-wide v8
@@ -3605,18 +3271,14 @@
 
     move-result v13
 
-    .line 144
     invoke-direct {v6, v8, v9, v10, v13}, Lkshark/d$f;-><init>(JII)V
 
-    .line 145
     invoke-direct {v5, v6}, Lkshark/m$b$a;-><init>(Lkshark/d;)V
 
-    .line 146
     invoke-interface {v2, v3, v4, v5}, Lkshark/w;->a(JLkshark/m;)V
 
     goto/16 :goto_1d
 
-    .line 147
     :cond_31
     iget v3, v0, Lkshark/l;->d:I
 
@@ -3637,10 +3299,8 @@
 
     if-eqz v12, :cond_32
 
-    .line 148
     iget-wide v3, v0, Lkshark/l;->a:J
 
-    .line 149
     new-instance v5, Lkshark/m$b$a;
 
     new-instance v6, Lkshark/d$e;
@@ -3657,12 +3317,10 @@
 
     invoke-direct {v5, v6}, Lkshark/m$b$a;-><init>(Lkshark/d;)V
 
-    .line 150
     invoke-interface {v2, v3, v4, v5}, Lkshark/w;->a(JLkshark/m;)V
 
     goto/16 :goto_1d
 
-    .line 151
     :cond_32
     iget v3, v0, Lkshark/l;->d:I
 
@@ -3681,10 +3339,8 @@
 
     if-eqz v12, :cond_34
 
-    .line 152
     iget-wide v3, v0, Lkshark/l;->a:J
 
-    .line 153
     new-instance v5, Lkshark/m$b$a;
 
     new-instance v6, Lkshark/d$n;
@@ -3697,12 +3353,10 @@
 
     invoke-direct {v5, v6}, Lkshark/m$b$a;-><init>(Lkshark/d;)V
 
-    .line 154
     invoke-interface {v2, v3, v4, v5}, Lkshark/w;->a(JLkshark/m;)V
 
     goto :goto_1d
 
-    .line 155
     :cond_34
     iget v3, v0, Lkshark/l;->d:I
 
@@ -3719,26 +3373,21 @@
 
     if-eqz v24, :cond_36
 
-    .line 156
     iget-wide v3, v0, Lkshark/l;->a:J
 
-    .line 157
     invoke-direct/range {p0 .. p0}, Lkshark/l;->q()Lkshark/m$b$b;
 
     move-result-object v5
 
-    .line 158
     invoke-interface {v2, v3, v4, v5}, Lkshark/w;->a(JLkshark/m;)V
 
     goto :goto_1d
 
-    .line 159
     :cond_36
     invoke-direct/range {p0 .. p0}, Lkshark/l;->Q()V
 
     goto :goto_1d
 
-    .line 160
     :cond_37
     new-instance v1, Ljava/lang/UnsupportedOperationException;
 
@@ -3757,13 +3406,10 @@
 
     if-eqz v12, :cond_39
 
-    .line 161
     iget-wide v3, v0, Lkshark/l;->a:J
 
-    .line 162
     new-instance v5, Lkshark/m$b$a;
 
-    .line 163
     new-instance v6, Lkshark/d$o;
 
     invoke-direct/range {p0 .. p0}, Lkshark/l;->s()J
@@ -3772,15 +3418,12 @@
 
     invoke-direct {v6, v8, v9}, Lkshark/d$o;-><init>(J)V
 
-    .line 164
     invoke-direct {v5, v6}, Lkshark/m$b$a;-><init>(Lkshark/d;)V
 
-    .line 165
     invoke-interface {v2, v3, v4, v5}, Lkshark/w;->a(JLkshark/m;)V
 
     goto :goto_1d
 
-    .line 166
     :cond_39
     iget v3, v0, Lkshark/l;->d:I
 
@@ -3814,35 +3457,28 @@
 
     if-eqz v21, :cond_3b
 
-    .line 167
     iget-wide v3, v0, Lkshark/l;->a:J
 
-    .line 168
     invoke-direct/range {p0 .. p0}, Lkshark/l;->w()I
 
     move-result v5
 
-    .line 169
     invoke-direct/range {p0 .. p0}, Lkshark/l;->w()I
 
     move-result v6
 
-    .line 170
     invoke-direct/range {p0 .. p0}, Lkshark/l;->w()I
 
     move-result v8
 
-    .line 171
     invoke-direct {v0, v8}, Lkshark/l;->t(I)[J
 
     move-result-object v8
 
-    .line 172
     new-instance v9, Lkshark/m$e;
 
     invoke-direct {v9, v5, v6, v8}, Lkshark/m$e;-><init>(II[J)V
 
-    .line 173
     invoke-interface {v2, v3, v4, v9}, Lkshark/w;->a(JLkshark/m;)V
 
     goto/16 :goto_1e
@@ -3850,7 +3486,6 @@
     :cond_3b
     move-wide/from16 v3, v32
 
-    .line 174
     invoke-direct {v0, v3, v4}, Lkshark/l;->O(J)V
 
     goto/16 :goto_1e
@@ -3870,53 +3505,42 @@
 
     if-eqz v16, :cond_3d
 
-    .line 175
     iget-wide v3, v0, Lkshark/l;->a:J
 
-    .line 176
     new-instance v5, Lkshark/m$d;
 
-    .line 177
     invoke-direct/range {p0 .. p0}, Lkshark/l;->s()J
 
     move-result-wide v29
 
-    .line 178
     invoke-direct/range {p0 .. p0}, Lkshark/l;->s()J
 
     move-result-wide v31
 
-    .line 179
     invoke-direct/range {p0 .. p0}, Lkshark/l;->s()J
 
     move-result-wide v33
 
-    .line 180
     invoke-direct/range {p0 .. p0}, Lkshark/l;->s()J
 
     move-result-wide v35
 
-    .line 181
     invoke-direct/range {p0 .. p0}, Lkshark/l;->w()I
 
     move-result v37
 
-    .line 182
     invoke-direct/range {p0 .. p0}, Lkshark/l;->w()I
 
     move-result v38
 
     move-object/from16 v28, v5
 
-    .line 183
     invoke-direct/range {v28 .. v38}, Lkshark/m$d;-><init>(JJJJII)V
 
-    .line 184
     invoke-interface {v2, v3, v4, v5}, Lkshark/w;->a(JLkshark/m;)V
 
     goto :goto_1e
 
-    .line 185
     :cond_3d
     invoke-direct {v0, v3, v4}, Lkshark/l;->O(J)V
 
@@ -3937,42 +3561,34 @@
 
     if-eqz v18, :cond_3f
 
-    .line 186
     iget-wide v3, v0, Lkshark/l;->a:J
 
-    .line 187
     invoke-direct/range {p0 .. p0}, Lkshark/l;->w()I
 
     move-result v29
 
-    .line 188
     invoke-direct/range {p0 .. p0}, Lkshark/l;->s()J
 
     move-result-wide v30
 
-    .line 189
     invoke-direct/range {p0 .. p0}, Lkshark/l;->w()I
 
     move-result v32
 
-    .line 190
     invoke-direct/range {p0 .. p0}, Lkshark/l;->s()J
 
     move-result-wide v33
 
-    .line 191
     new-instance v5, Lkshark/m$c;
 
     move-object/from16 v28, v5
 
     invoke-direct/range {v28 .. v34}, Lkshark/m$c;-><init>(IJIJ)V
 
-    .line 192
     invoke-interface {v2, v3, v4, v5}, Lkshark/w;->a(JLkshark/m;)V
 
     goto :goto_1e
 
-    .line 193
     :cond_3f
     invoke-direct {v0, v3, v4}, Lkshark/l;->O(J)V
 
@@ -3993,37 +3609,30 @@
 
     if-eqz v17, :cond_41
 
-    .line 194
     iget-wide v5, v0, Lkshark/l;->a:J
 
-    .line 195
     invoke-direct/range {p0 .. p0}, Lkshark/l;->s()J
 
     move-result-wide v8
 
-    .line 196
     iget v10, v0, Lkshark/l;->d:I
 
     int-to-long v13, v10
 
     sub-long v13, v3, v13
 
-    .line 197
     invoke-direct {v0, v13, v14}, Lkshark/l;->K(J)Ljava/lang/String;
 
     move-result-object v3
 
-    .line 198
     new-instance v4, Lkshark/m$f;
 
     invoke-direct {v4, v8, v9, v3}, Lkshark/m$f;-><init>(JLjava/lang/String;)V
 
-    .line 199
     invoke-interface {v2, v5, v6, v4}, Lkshark/w;->a(JLkshark/m;)V
 
     goto :goto_1e
 
-    .line 200
     :cond_41
     invoke-direct {v0, v3, v4}, Lkshark/l;->O(J)V
 
@@ -4088,32 +3697,26 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Lkshark/l;->s()J
 
     move-result-wide v1
 
-    .line 2
     invoke-direct {p0}, Lkshark/l;->w()I
 
     move-result v3
 
-    .line 3
     invoke-direct {p0}, Lkshark/l;->s()J
 
     move-result-wide v4
 
-    .line 4
     invoke-direct {p0}, Lkshark/l;->w()I
 
     move-result v0
 
-    .line 5
     invoke-direct {p0, v0}, Lkshark/l;->h(I)[B
 
     move-result-object v6
 
-    .line 6
     new-instance v7, Lkshark/m$b$c$c;
 
     move-object v0, v7
@@ -4128,30 +3731,24 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Lkshark/l;->s()J
 
     move-result-wide v1
 
-    .line 2
     invoke-direct {p0}, Lkshark/l;->w()I
 
     move-result v3
 
-    .line 3
     invoke-direct {p0}, Lkshark/l;->s()J
 
     move-result-wide v4
 
-    .line 4
     invoke-direct {p0}, Lkshark/l;->w()I
 
     move-result v0
 
-    .line 5
     invoke-direct {p0, v0}, Lkshark/l;->N(I)V
 
-    .line 6
     new-instance v6, Lkshark/m$b$c$d;
 
     move-object v0, v6

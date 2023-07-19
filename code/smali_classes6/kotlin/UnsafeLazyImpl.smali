@@ -54,13 +54,10 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcotlin/UnsafeLazyImpl;->initializer:Lcotlin/jvm/u/a;
 
-    .line 3
     sget-object p1, Lcotlin/n1;->a:Lcotlin/n1;
 
     iput-object p1, p0, Lcotlin/UnsafeLazyImpl;->_value:Ljava/lang/Object;
@@ -71,7 +68,6 @@
 .method private final writeReplace()Ljava/lang/Object;
     .locals 2
 
-    .line 1
     new-instance v0, Lcotlin/InitializedLazyImpl;
 
     invoke-virtual {p0}, Lcotlin/UnsafeLazyImpl;->getValue()Ljava/lang/Object;
@@ -93,14 +89,12 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcotlin/UnsafeLazyImpl;->_value:Ljava/lang/Object;
 
     sget-object v1, Lcotlin/n1;->a:Lcotlin/n1;
 
     if-ne v0, v1, :cond_0
 
-    .line 2
     iget-object v0, p0, Lcotlin/UnsafeLazyImpl;->initializer:Lcotlin/jvm/u/a;
 
     invoke-static {v0}, Lcotlin/jvm/internal/f0;->m(Ljava/lang/Object;)V
@@ -113,10 +107,8 @@
 
     const/4 v0, 0x0
 
-    .line 3
     iput-object v0, p0, Lcotlin/UnsafeLazyImpl;->initializer:Lcotlin/jvm/u/a;
 
-    .line 4
     :cond_0
     iget-object v0, p0, Lcotlin/UnsafeLazyImpl;->_value:Ljava/lang/Object;
 
@@ -126,7 +118,6 @@
 .method public isInitialized()Z
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcotlin/UnsafeLazyImpl;->_value:Ljava/lang/Object;
 
     sget-object v1, Lcotlin/n1;->a:Lcotlin/n1;
@@ -149,7 +140,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcotlin/UnsafeLazyImpl;->isInitialized()Z
 
     move-result v0

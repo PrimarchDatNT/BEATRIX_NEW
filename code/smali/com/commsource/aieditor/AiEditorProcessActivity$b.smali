@@ -25,7 +25,6 @@
 .method constructor <init>(Lcom/commsource/aieditor/AiEditorProcessActivity;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/aieditor/AiEditorProcessActivity$b;->a:Lcom/commsource/aieditor/AiEditorProcessActivity;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -42,7 +41,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/aieditor/AiEditorProcessActivity$b;->a:Lcom/commsource/aieditor/AiEditorProcessActivity;
 
     invoke-static {v0}, Lcom/commsource/aieditor/AiEditorProcessActivity;->M0(Lcom/commsource/aieditor/AiEditorProcessActivity;)Lcom/commsource/beautyplus/f0/e;
@@ -59,7 +57,6 @@
 
     if-ne v0, v1, :cond_0
 
-    .line 2
     iget-object v0, p0, Lcom/commsource/aieditor/AiEditorProcessActivity$b;->a:Lcom/commsource/aieditor/AiEditorProcessActivity;
 
     invoke-static {v0}, Lcom/commsource/aieditor/AiEditorProcessActivity;->M0(Lcom/commsource/aieditor/AiEditorProcessActivity;)Lcom/commsource/beautyplus/f0/e;
@@ -72,10 +69,8 @@
 
     invoke-virtual {v0, v1}, Landroid/view/View;->setVisibility(I)V
 
-    .line 3
     iget-object v0, p0, Lcom/commsource/aieditor/AiEditorProcessActivity$b;->a:Lcom/commsource/aieditor/AiEditorProcessActivity;
 
-    .line 4
     invoke-static {v0}, Lcom/commsource/aieditor/AiEditorProcessActivity;->L0(Lcom/commsource/aieditor/AiEditorProcessActivity;)I
 
     move-result v0
@@ -88,10 +83,8 @@
 
     const-string v2, "miniapp_feature"
 
-    .line 5
     invoke-static {v1, v2, v0}, Lcom/commsource/statistics/i;->r(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 6
     iget-object v0, p0, Lcom/commsource/aieditor/AiEditorProcessActivity$b;->a:Lcom/commsource/aieditor/AiEditorProcessActivity;
 
     invoke-static {v0}, Lcom/commsource/aieditor/AiEditorProcessActivity;->M0(Lcom/commsource/aieditor/AiEditorProcessActivity;)Lcom/commsource/beautyplus/f0/e;
@@ -104,7 +97,6 @@
 
     invoke-virtual {v0, v1}, Lcom/commsource/aieditor/AiEditorSaveView;->setSaveStatus(I)V
 
-    .line 7
     iget-object v0, p0, Lcom/commsource/aieditor/AiEditorProcessActivity$b;->a:Lcom/commsource/aieditor/AiEditorProcessActivity;
 
     invoke-static {v0}, Lcom/commsource/aieditor/AiEditorProcessActivity;->O0(Lcom/commsource/aieditor/AiEditorProcessActivity;)Lcom/commsource/aieditor/d0;
@@ -113,7 +105,6 @@
 
     invoke-virtual {v0}, Lcom/commsource/aieditor/d0;->G()V
 
-    .line 8
     :cond_0
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

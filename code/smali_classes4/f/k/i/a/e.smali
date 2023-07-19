@@ -16,13 +16,10 @@
 .method public constructor <init>(Lf/k/i/a/d;Lokhttp3/Response;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lf/k/i/a/e;->a:Lf/k/i/a/d;
 
-    .line 3
     iput-object p2, p0, Lf/k/i/a/e;->b:Lokhttp3/Response;
 
     return-void
@@ -37,12 +34,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lf/k/i/a/e;->b:Lokhttp3/Response;
 
     if-eqz v1, :cond_0
 
-    .line 2
     :try_start_0
     invoke-virtual {v1}, Lokhttp3/Response;->body()Lokhttp3/ResponseBody;
 
@@ -59,13 +54,11 @@
     :catch_0
     move-exception v1
 
-    .line 3
     invoke-virtual {v1}, Ljava/io/IOException;->printStackTrace()V
 
     :cond_0
     const/4 v1, 0x0
 
-    .line 4
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -79,12 +72,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lf/k/i/a/e;->b:Lokhttp3/Response;
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-virtual {v1}, Lokhttp3/Response;->body()Lokhttp3/ResponseBody;
 
     move-result-object v1
@@ -98,7 +89,6 @@
     :cond_0
     const/4 v1, 0x0
 
-    .line 3
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -112,12 +102,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lf/k/i/a/e;->b:Lokhttp3/Response;
 
     if-eqz v1, :cond_0
 
-    .line 2
     :try_start_0
     invoke-virtual {v1}, Lokhttp3/Response;->body()Lokhttp3/ResponseBody;
 
@@ -134,13 +122,11 @@
     :catch_0
     move-exception v1
 
-    .line 3
     invoke-virtual {v1}, Ljava/io/IOException;->printStackTrace()V
 
     :cond_0
     const/4 v1, 0x0
 
-    .line 4
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -154,18 +140,15 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     :try_start_0
     iget-object v1, p0, Lf/k/i/a/e;->b:Lokhttp3/Response;
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-virtual {v1}, Lokhttp3/Response;->close()V
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
-    .line 3
     :catch_0
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -180,7 +163,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lf/k/i/a/e;->a:Lf/k/i/a/d;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -195,7 +177,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lf/k/i/a/e;->b:Lokhttp3/Response;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -210,7 +191,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lf/k/i/a/e;->a:Lf/k/i/a/d;
 
     if-nez v1, :cond_0
@@ -237,12 +217,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lf/k/i/a/e;->b:Lokhttp3/Response;
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-virtual {v1, p1}, Lokhttp3/Response;->header(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p1
@@ -254,7 +232,6 @@
     :cond_0
     const/4 p1, 0x0
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p1
@@ -267,12 +244,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lf/k/i/a/e;->b:Lokhttp3/Response;
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-virtual {v1}, Lokhttp3/Response;->code()I
 
     move-result v1
@@ -284,7 +259,6 @@
     :cond_0
     const/4 v1, -0x1
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
@@ -307,12 +281,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lf/k/i/a/e;->b:Lokhttp3/Response;
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-virtual {v1}, Lokhttp3/Response;->headers()Lokhttp3/Headers;
 
     move-result-object v1
@@ -328,7 +300,6 @@
     :cond_0
     const/4 v1, 0x0
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1

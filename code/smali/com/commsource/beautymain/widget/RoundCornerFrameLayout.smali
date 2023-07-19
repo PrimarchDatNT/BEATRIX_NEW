@@ -19,24 +19,20 @@
 .method public constructor <init>(Landroid/content/Context;)V
     .locals 2
 
-    .line 1
     invoke-direct {p0, p1}, Landroid/widget/FrameLayout;-><init>(Landroid/content/Context;)V
 
-    .line 2
     new-instance p1, Landroid/graphics/RectF;
 
     invoke-direct {p1}, Landroid/graphics/RectF;-><init>()V
 
     iput-object p1, p0, Lcom/commsource/beautymain/widget/RoundCornerFrameLayout;->c:Landroid/graphics/RectF;
 
-    .line 3
     new-instance p1, Landroid/graphics/Path;
 
     invoke-direct {p1}, Landroid/graphics/Path;-><init>()V
 
     iput-object p1, p0, Lcom/commsource/beautymain/widget/RoundCornerFrameLayout;->d:Landroid/graphics/Path;
 
-    .line 4
     new-instance p1, Landroid/graphics/PaintFlagsDrawFilter;
 
     const/4 v0, 0x0
@@ -53,24 +49,20 @@
 .method public constructor <init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
     .locals 3
 
-    .line 5
     invoke-direct {p0, p1, p2}, Landroid/widget/FrameLayout;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
-    .line 6
     new-instance v0, Landroid/graphics/RectF;
 
     invoke-direct {v0}, Landroid/graphics/RectF;-><init>()V
 
     iput-object v0, p0, Lcom/commsource/beautymain/widget/RoundCornerFrameLayout;->c:Landroid/graphics/RectF;
 
-    .line 7
     new-instance v0, Landroid/graphics/Path;
 
     invoke-direct {v0}, Landroid/graphics/Path;-><init>()V
 
     iput-object v0, p0, Lcom/commsource/beautymain/widget/RoundCornerFrameLayout;->d:Landroid/graphics/Path;
 
-    .line 8
     new-instance v0, Landroid/graphics/PaintFlagsDrawFilter;
 
     const/4 v1, 0x0
@@ -81,7 +73,6 @@
 
     iput-object v0, p0, Lcom/commsource/beautymain/widget/RoundCornerFrameLayout;->f:Landroid/graphics/DrawFilter;
 
-    .line 9
     sget-object v0, Lcom/res/provider/ResSTYLEABLE;->D1:[I
 
     invoke-virtual {p1, p2, v0}, Landroid/content/Context;->obtainStyledAttributes(Landroid/util/AttributeSet;[I)Landroid/content/res/TypedArray;
@@ -90,15 +81,12 @@
 
     const/4 p2, 0x0
 
-    .line 10
     invoke-virtual {p1, v1, p2}, Landroid/content/res/TypedArray;->getDimension(IF)F
 
     move-result p2
 
-    .line 11
     invoke-virtual {p0, p2}, Lcom/commsource/beautymain/widget/RoundCornerFrameLayout;->setCornerRadius(F)V
 
-    .line 12
     invoke-virtual {p1}, Landroid/content/res/TypedArray;->recycle()V
 
     return-void
@@ -115,7 +103,6 @@
 
     invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v2, v0, Lcom/commsource/beautymain/widget/RoundCornerFrameLayout;->b:[F
 
     const/4 v3, 0x7
@@ -142,28 +129,20 @@
 
     if-ne v12, v11, :cond_0
 
-    .line 2
     aput p1, v2, v10
 
-    .line 3
     aput p1, v2, v9
 
-    .line 4
     aput p2, v2, v8
 
-    .line 5
     aput p2, v2, v7
 
-    .line 6
     aput p3, v2, v6
 
-    .line 7
     aput p3, v2, v5
 
-    .line 8
     aput p4, v2, v4
 
-    .line 9
     aput p4, v2, v3
 
     goto :goto_0
@@ -187,10 +166,8 @@
 
     aput p4, v2, v3
 
-    .line 10
     iput-object v2, v0, Lcom/commsource/beautymain/widget/RoundCornerFrameLayout;->b:[F
 
-    .line 11
     :goto_0
     invoke-virtual {p0}, Landroid/widget/FrameLayout;->getWidth()I
 
@@ -204,7 +181,6 @@
 
     if-eqz v2, :cond_1
 
-    .line 12
     iget-object v2, v0, Lcom/commsource/beautymain/widget/RoundCornerFrameLayout;->c:Landroid/graphics/RectF;
 
     invoke-virtual {p0}, Landroid/widget/FrameLayout;->getWidth()I
@@ -223,12 +199,10 @@
 
     invoke-virtual {v2, v5, v5, v3, v4}, Landroid/graphics/RectF;->set(FFFF)V
 
-    .line 13
     iget-object v2, v0, Lcom/commsource/beautymain/widget/RoundCornerFrameLayout;->d:Landroid/graphics/Path;
 
     invoke-virtual {v2}, Landroid/graphics/Path;->reset()V
 
-    .line 14
     iget-object v2, v0, Lcom/commsource/beautymain/widget/RoundCornerFrameLayout;->d:Landroid/graphics/Path;
 
     iget-object v3, v0, Lcom/commsource/beautymain/widget/RoundCornerFrameLayout;->c:Landroid/graphics/RectF;
@@ -239,11 +213,9 @@
 
     invoke-virtual {v2, v3, v4, v5}, Landroid/graphics/Path;->addRoundRect(Landroid/graphics/RectF;[FLandroid/graphics/Path$Direction;)V
 
-    .line 15
     :cond_1
     invoke-virtual {p0}, Landroid/widget/FrameLayout;->invalidate()V
 
-    .line 16
     invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -256,20 +228,16 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/beautymain/widget/RoundCornerFrameLayout;->d:Landroid/graphics/Path;
 
     invoke-virtual {p1, v1}, Landroid/graphics/Canvas;->clipPath(Landroid/graphics/Path;)Z
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/beautymain/widget/RoundCornerFrameLayout;->f:Landroid/graphics/DrawFilter;
 
     invoke-virtual {p1, v1}, Landroid/graphics/Canvas;->setDrawFilter(Landroid/graphics/DrawFilter;)V
 
-    .line 3
     invoke-super {p0, p1}, Landroid/widget/FrameLayout;->dispatchDraw(Landroid/graphics/Canvas;)V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -282,10 +250,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0, p1, p2, p3, p4}, Landroid/widget/FrameLayout;->onSizeChanged(IIII)V
 
-    .line 2
     iget-object p3, p0, Lcom/commsource/beautymain/widget/RoundCornerFrameLayout;->c:Landroid/graphics/RectF;
 
     int-to-float p1, p1
@@ -296,17 +262,14 @@
 
     invoke-virtual {p3, p4, p4, p1, p2}, Landroid/graphics/RectF;->set(FFFF)V
 
-    .line 3
     iget-object p1, p0, Lcom/commsource/beautymain/widget/RoundCornerFrameLayout;->d:Landroid/graphics/Path;
 
     invoke-virtual {p1}, Landroid/graphics/Path;->reset()V
 
-    .line 4
     iget-object p1, p0, Lcom/commsource/beautymain/widget/RoundCornerFrameLayout;->b:[F
 
     if-eqz p1, :cond_0
 
-    .line 5
     iget-object p2, p0, Lcom/commsource/beautymain/widget/RoundCornerFrameLayout;->d:Landroid/graphics/Path;
 
     iget-object p3, p0, Lcom/commsource/beautymain/widget/RoundCornerFrameLayout;->c:Landroid/graphics/RectF;
@@ -317,7 +280,6 @@
 
     goto :goto_0
 
-    .line 6
     :cond_0
     iget-object p1, p0, Lcom/commsource/beautymain/widget/RoundCornerFrameLayout;->d:Landroid/graphics/Path;
 
@@ -329,7 +291,6 @@
 
     invoke-virtual {p1, p2, p3, p3, p4}, Landroid/graphics/Path;->addRoundRect(Landroid/graphics/RectF;FFLandroid/graphics/Path$Direction;)V
 
-    .line 7
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -345,7 +306,6 @@
 
     const/4 v1, 0x0
 
-    .line 1
     iput-object v1, p0, Lcom/commsource/beautymain/widget/RoundCornerFrameLayout;->b:[F
 
     const/4 v1, 0x0
@@ -356,11 +316,9 @@
 
     const/4 p1, 0x0
 
-    .line 2
     :cond_0
     iput p1, p0, Lcom/commsource/beautymain/widget/RoundCornerFrameLayout;->a:F
 
-    .line 3
     invoke-virtual {p0}, Landroid/widget/FrameLayout;->getWidth()I
 
     move-result p1
@@ -373,7 +331,6 @@
 
     if-eqz p1, :cond_1
 
-    .line 4
     iget-object p1, p0, Lcom/commsource/beautymain/widget/RoundCornerFrameLayout;->c:Landroid/graphics/RectF;
 
     invoke-virtual {p0}, Landroid/widget/FrameLayout;->getWidth()I
@@ -390,12 +347,10 @@
 
     invoke-virtual {p1, v1, v1, v2, v3}, Landroid/graphics/RectF;->set(FFFF)V
 
-    .line 5
     iget-object p1, p0, Lcom/commsource/beautymain/widget/RoundCornerFrameLayout;->d:Landroid/graphics/Path;
 
     invoke-virtual {p1}, Landroid/graphics/Path;->reset()V
 
-    .line 6
     iget-object p1, p0, Lcom/commsource/beautymain/widget/RoundCornerFrameLayout;->d:Landroid/graphics/Path;
 
     iget-object v1, p0, Lcom/commsource/beautymain/widget/RoundCornerFrameLayout;->c:Landroid/graphics/RectF;
@@ -406,11 +361,9 @@
 
     invoke-virtual {p1, v1, v2, v2, v3}, Landroid/graphics/Path;->addRoundRect(Landroid/graphics/RectF;FFLandroid/graphics/Path$Direction;)V
 
-    .line 7
     :cond_1
     invoke-virtual {p0}, Landroid/widget/FrameLayout;->invalidate()V
 
-    .line 8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

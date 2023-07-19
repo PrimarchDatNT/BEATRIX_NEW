@@ -44,16 +44,12 @@
         }
     .end annotation
 
-    .line 2
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 3
     iput-object p1, p0, Lorg/greenrobot/eventbus/util/a;->a:Ljava/util/concurrent/Executor;
 
-    .line 4
     iput-object p2, p0, Lorg/greenrobot/eventbus/util/a;->c:Lorg/greenrobot/eventbus/c;
 
-    .line 5
     iput-object p4, p0, Lorg/greenrobot/eventbus/util/a;->d:Ljava/lang/Object;
 
     const/4 p1, 0x1
@@ -63,7 +59,6 @@
 
     const/4 p2, 0x0
 
-    .line 6
     const-class p4, Ljava/lang/Throwable;
 
     aput-object p4, p1, p2
@@ -81,7 +76,6 @@
     :catch_0
     move-exception p1
 
-    .line 7
     new-instance p2, Ljava/lang/RuntimeException;
 
     const-string p3, "Failure event class must have a constructor with one parameter of type Throwable"
@@ -94,7 +88,6 @@
 .method synthetic constructor <init>(Ljava/util/concurrent/Executor;Lorg/greenrobot/eventbus/c;Ljava/lang/Class;Ljava/lang/Object;Lorg/greenrobot/eventbus/util/a$a;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1, p2, p3, p4}, Lorg/greenrobot/eventbus/util/a;-><init>(Ljava/util/concurrent/Executor;Lorg/greenrobot/eventbus/c;Ljava/lang/Class;Ljava/lang/Object;)V
 
     return-void
@@ -103,7 +96,6 @@
 .method static synthetic a(Lorg/greenrobot/eventbus/util/a;)Ljava/lang/reflect/Constructor;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lorg/greenrobot/eventbus/util/a;->b:Ljava/lang/reflect/Constructor;
 
     return-object p0
@@ -112,7 +104,6 @@
 .method static synthetic b(Lorg/greenrobot/eventbus/util/a;)Ljava/lang/Object;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lorg/greenrobot/eventbus/util/a;->d:Ljava/lang/Object;
 
     return-object p0
@@ -121,7 +112,6 @@
 .method static synthetic c(Lorg/greenrobot/eventbus/util/a;)Lorg/greenrobot/eventbus/c;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lorg/greenrobot/eventbus/util/a;->c:Lorg/greenrobot/eventbus/c;
 
     return-object p0
@@ -130,7 +120,6 @@
 .method public static d()Lorg/greenrobot/eventbus/util/a$b;
     .locals 2
 
-    .line 1
     new-instance v0, Lorg/greenrobot/eventbus/util/a$b;
 
     const/4 v1, 0x0
@@ -143,7 +132,6 @@
 .method public static e()Lorg/greenrobot/eventbus/util/a;
     .locals 2
 
-    .line 1
     new-instance v0, Lorg/greenrobot/eventbus/util/a$b;
 
     const/4 v1, 0x0
@@ -162,7 +150,6 @@
 .method public f(Lorg/greenrobot/eventbus/util/a$c;)V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lorg/greenrobot/eventbus/util/a;->a:Ljava/util/concurrent/Executor;
 
     new-instance v1, Lorg/greenrobot/eventbus/util/a$a;

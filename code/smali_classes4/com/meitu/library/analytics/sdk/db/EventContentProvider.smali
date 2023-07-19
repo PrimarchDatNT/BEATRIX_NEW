@@ -91,24 +91,20 @@
 .method public constructor <init>()V
     .locals 2
 
-    .line 1
     invoke-direct {p0}, Landroid/content/ContentProvider;-><init>()V
 
-    .line 2
     new-instance v0, Ljava/util/HashMap;
 
     invoke-direct {v0}, Ljava/util/HashMap;-><init>()V
 
     iput-object v0, p0, Lcom/meitu/library/analytics/sdk/db/EventContentProvider;->mEventsProjectionMap:Ljava/util/HashMap;
 
-    .line 3
     new-instance v0, Ljava/util/HashMap;
 
     invoke-direct {v0}, Ljava/util/HashMap;-><init>()V
 
     iput-object v0, p0, Lcom/meitu/library/analytics/sdk/db/EventContentProvider;->mSessionsProjecttionMap:Ljava/util/HashMap;
 
-    .line 4
     new-instance v0, Landroid/content/UriMatcher;
 
     const/4 v1, -0x1
@@ -117,14 +113,12 @@
 
     iput-object v0, p0, Lcom/meitu/library/analytics/sdk/db/EventContentProvider;->mURIMatcher:Landroid/content/UriMatcher;
 
-    .line 5
     new-instance v0, Lcom/meitu/library/analytics/sdk/db/a;
 
     invoke-direct {v0}, Lcom/meitu/library/analytics/sdk/db/a;-><init>()V
 
     iput-object v0, p0, Lcom/meitu/library/analytics/sdk/db/EventContentProvider;->appGlobalParams:Lcom/meitu/library/analytics/sdk/db/a;
 
-    .line 6
     new-instance v0, Lcom/meitu/library/analytics/sdk/db/j;
 
     invoke-direct {v0}, Lcom/meitu/library/analytics/sdk/db/j;-><init>()V
@@ -141,26 +135,21 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v1
 
-    .line 2
     monitor-enter p0
 
-    .line 3
     :try_start_0
     invoke-static {}, Lcom/meitu/library/analytics/sdk/db/g;->l()Ljava/lang/String;
 
     move-result-object v3
 
-    .line 4
     monitor-exit p0
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 5
     invoke-static {}, Lcom/meitu/library/analytics/y/j/d;->f()I
 
     move-result v4
@@ -185,7 +174,6 @@
 
     const/4 v7, 0x1
 
-    .line 6
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v8
@@ -200,7 +188,6 @@
 
     invoke-static {v4, v5, v6}, Lcom/meitu/library/analytics/y/j/d;->c(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
-    .line 7
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -209,7 +196,6 @@
     :catchall_0
     move-exception v1
 
-    .line 8
     :try_start_1
     monitor-exit p0
     :try_end_1
@@ -229,12 +215,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/meitu/library/analytics/sdk/db/EventContentProvider;->parseEventIdFromUri(Landroid/net/Uri;)J
 
     move-result-wide v1
 
-    .line 2
     new-instance p1, Ljava/lang/StringBuilder;
 
     invoke-direct {p1}, Ljava/lang/StringBuilder;-><init>()V
@@ -265,19 +249,16 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p1, p2}, Landroid/net/Uri;->getQueryParameter(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p1
 
     if-nez p1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p3
 
-    .line 3
     :cond_0
     :try_start_0
     invoke-static {p1}, Ljava/lang/Integer;->parseInt(Ljava/lang/String;)I
@@ -293,7 +274,6 @@
     :catch_0
     move-exception p3
 
-    .line 4
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -318,7 +298,6 @@
 
     move-result-object p1
 
-    .line 5
     new-instance p2, Ljava/lang/IllegalArgumentException;
 
     invoke-direct {p2, p1, p3}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;Ljava/lang/Throwable;)V
@@ -335,7 +314,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     :try_start_0
     invoke-virtual {p1}, Landroid/net/Uri;->getPathSegments()Ljava/util/List;
 
@@ -362,7 +340,6 @@
     :catch_0
     move-exception v1
 
-    .line 2
     new-instance v2, Ljava/lang/IllegalArgumentException;
 
     new-instance v3, Ljava/lang/StringBuilder;
@@ -405,44 +382,36 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/library/analytics/sdk/db/EventContentProvider;->mDbHelper:Lcom/meitu/library/analytics/sdk/db/e;
 
     invoke-virtual {v1}, Lcom/meitu/library/analytics/sdk/db/e;->b()Landroid/database/sqlite/SQLiteDatabase;
 
     move-result-object v1
 
-    .line 2
     new-instance v2, Ljava/lang/StringBuilder;
 
     invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
 
     const-string v3, "SELECT * FROM "
 
-    .line 3
     invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     const-string v3, "events"
 
-    .line 4
     invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     const-string v4, " LEFT JOIN "
 
-    .line 5
     invoke-virtual {v2, v4}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     const-string v4, "sessions"
 
-    .line 6
     invoke-virtual {v2, v4}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     const-string v5, " ON "
 
-    .line 7
     invoke-virtual {v2, v5}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 8
     invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     const/16 v3, 0x2e
@@ -455,10 +424,8 @@
 
     const/16 v6, 0x3d
 
-    .line 9
     invoke-virtual {v2, v6}, Ljava/lang/StringBuilder;->append(C)Ljava/lang/StringBuilder;
 
-    .line 10
     invoke-virtual {v2, v4}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(C)Ljava/lang/StringBuilder;
@@ -467,7 +434,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 11
     invoke-virtual {p1}, Ljava/lang/String;->length()I
 
     move-result v3
@@ -476,7 +442,6 @@
 
     const-string v3, " WHERE "
 
-    .line 12
     invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     invoke-virtual {v2, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
@@ -484,7 +449,6 @@
     :cond_0
     if-eqz p3, :cond_1
 
-    .line 13
     invoke-virtual {p3}, Ljava/lang/String;->length()I
 
     move-result p1
@@ -493,7 +457,6 @@
 
     const-string p1, " ORDER BY "
 
-    .line 14
     invoke-virtual {v2, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     invoke-virtual {v2, p3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
@@ -503,7 +466,6 @@
 
     const-string p1, " LIMIT "
 
-    .line 15
     invoke-virtual {v2, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     invoke-virtual {v2, p4}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
@@ -511,10 +473,8 @@
     :cond_2
     const-string p1, ";"
 
-    .line 16
     invoke-virtual {v2, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 17
     invoke-virtual {v2}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     move-result-object p1
@@ -535,25 +495,21 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/meitu/library/analytics/sdk/db/EventContentProvider;->gInstance:Lcom/meitu/library/analytics/sdk/db/EventContentProvider;
 
     if-nez v1, :cond_0
 
     const/4 p0, -0x1
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p0
 
-    .line 3
     :cond_0
     const-class v2, Lcom/meitu/library/analytics/sdk/db/EventContentProvider;
 
     monitor-enter v2
 
-    .line 4
     :try_start_0
     iget-object v3, v1, Lcom/meitu/library/analytics/sdk/db/EventContentProvider;->appGlobalParams:Lcom/meitu/library/analytics/sdk/db/a;
 
@@ -563,7 +519,6 @@
 
     const-string p1, "global_params"
 
-    .line 5
     iget-object v1, v1, Lcom/meitu/library/analytics/sdk/db/EventContentProvider;->appGlobalParams:Lcom/meitu/library/analytics/sdk/db/a;
 
     invoke-virtual {v1}, Lcom/meitu/library/analytics/sdk/db/a;->toString()Ljava/lang/String;
@@ -572,12 +527,10 @@
 
     invoke-static {p1, v1}, Lcom/meitu/library/analytics/sdk/db/g;->c(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 6
     monitor-exit v2
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p0
@@ -585,7 +538,6 @@
     :catchall_0
     move-exception p0
 
-    .line 8
     :try_start_1
     monitor-exit v2
     :try_end_1
@@ -603,36 +555,30 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/meitu/library/analytics/sdk/db/EventContentProvider;->gInstance:Lcom/meitu/library/analytics/sdk/db/EventContentProvider;
 
     if-nez v1, :cond_0
 
     const/4 p0, -0x1
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p0
 
-    .line 3
     :cond_0
     const-class v1, Lcom/meitu/library/analytics/sdk/db/EventContentProvider;
 
     monitor-enter v1
 
-    .line 4
     :try_start_0
     invoke-static {p0, p1}, Lcom/meitu/library/analytics/sdk/db/g;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     const/4 p0, 0x1
 
-    .line 5
     monitor-exit v1
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p0
@@ -640,7 +586,6 @@
     :catchall_0
     move-exception p0
 
-    .line 7
     :try_start_1
     monitor-exit v1
     :try_end_1
@@ -674,7 +619,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/meitu/library/analytics/sdk/content/f;->S()Lcom/meitu/library/analytics/sdk/content/f;
 
     move-result-object v1
@@ -685,7 +629,6 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     invoke-virtual {v1, v1, p1, p2, p3}, Lcom/meitu/library/analytics/sdk/content/f;->i(Lcom/meitu/library/analytics/sdk/content/f;Ljava/lang/String;Ljava/lang/String;Landroid/os/Bundle;)Landroid/os/Bundle;
 
@@ -716,7 +659,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/library/analytics/sdk/db/EventContentProvider;->mURIMatcher:Landroid/content/UriMatcher;
 
     invoke-virtual {v1, p1}, Landroid/content/UriMatcher;->match(Landroid/net/Uri;)I
@@ -735,7 +677,6 @@
 
     new-array p3, p3, [Ljava/lang/Object;
 
-    .line 2
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v1
@@ -744,7 +685,6 @@
 
     invoke-static {p1, p2, p3}, Lcom/meitu/library/analytics/y/j/d;->k(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v2
@@ -752,45 +692,38 @@
     :pswitch_0
     if-nez p3, :cond_0
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v2
 
-    .line 5
     :cond_0
     monitor-enter p0
 
     :try_start_0
     const-string p1, "clear_all"
 
-    .line 6
     invoke-static {p1, p2}, Landroid/text/TextUtils;->equals(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)Z
 
     move-result p1
 
     if-eqz p1, :cond_1
 
-    .line 7
     invoke-static {}, Lcom/meitu/library/analytics/sdk/db/m/b;->b()I
 
     move-result p1
 
     goto :goto_0
 
-    .line 8
     :cond_1
     invoke-static {p3}, Lcom/meitu/library/analytics/sdk/db/m/b;->c([Ljava/lang/String;)I
 
     move-result p1
 
-    .line 9
     :goto_0
     monitor-exit p0
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 10
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
@@ -798,7 +731,6 @@
     :catchall_0
     move-exception p1
 
-    .line 11
     :try_start_1
     monitor-exit p0
     :try_end_1
@@ -808,11 +740,9 @@
 
     throw p1
 
-    .line 12
     :pswitch_1
     monitor-enter p0
 
-    .line 13
     :try_start_2
     iget-object p1, p0, Lcom/meitu/library/analytics/sdk/db/EventContentProvider;->appGlobalParams:Lcom/meitu/library/analytics/sdk/db/a;
 
@@ -822,7 +752,6 @@
 
     const-string p2, "global_params"
 
-    .line 14
     iget-object p3, p0, Lcom/meitu/library/analytics/sdk/db/EventContentProvider;->appGlobalParams:Lcom/meitu/library/analytics/sdk/db/a;
 
     invoke-virtual {p3}, Lcom/meitu/library/analytics/sdk/db/a;->toString()Ljava/lang/String;
@@ -831,12 +760,10 @@
 
     invoke-static {p2, p3}, Lcom/meitu/library/analytics/sdk/db/g;->c(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 15
     monitor-exit p0
     :try_end_2
     .catchall {:try_start_2 .. :try_end_2} :catchall_1
 
-    .line 16
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
@@ -844,7 +771,6 @@
     :catchall_1
     move-exception p1
 
-    .line 17
     :try_start_3
     monitor-exit p0
     :try_end_3
@@ -854,7 +780,6 @@
 
     throw p1
 
-    .line 18
     :pswitch_2
     new-instance p2, Ljava/lang/UnsupportedOperationException;
 
@@ -878,7 +803,6 @@
 
     throw p2
 
-    .line 19
     :pswitch_3
     iget-object p1, p0, Lcom/meitu/library/analytics/sdk/db/EventContentProvider;->mDbHelper:Lcom/meitu/library/analytics/sdk/db/e;
 
@@ -888,17 +812,14 @@
 
     const-string v1, "events"
 
-    .line 20
     invoke-virtual {p1, v1, p2, p3}, Landroid/database/sqlite/SQLiteDatabase;->delete(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;)I
 
     move-result p2
 
     const-string p3, "delete FROM sessions WHERE session_id IN  (SELECT session_id FROM sessions WHERE session_id NOT IN (SELECT distinct session_id FROM events WHERE session_id NOT NULL ) ORDER BY session_id DESC limit -1 offset 1 );"
 
-    .line 21
     invoke-virtual {p1, p3}, Landroid/database/sqlite/SQLiteDatabase;->execSQL(Ljava/lang/String;)V
 
-    .line 22
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p2
@@ -924,7 +845,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/analytics/sdk/db/e;->a(Landroid/content/Context;)Lcom/meitu/library/analytics/sdk/db/e;
 
     move-result-object p1
@@ -947,7 +867,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/library/analytics/sdk/db/EventContentProvider;->mURIMatcher:Landroid/content/UriMatcher;
 
     invoke-virtual {v1, p1}, Landroid/content/UriMatcher;->match(Landroid/net/Uri;)I
@@ -956,7 +875,6 @@
 
     packed-switch v1, :pswitch_data_0
 
-    .line 2
     new-instance v1, Ljava/lang/IllegalArgumentException;
 
     new-instance v2, Ljava/lang/StringBuilder;
@@ -979,7 +897,6 @@
 
     throw v1
 
-    .line 3
     :pswitch_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -987,7 +904,6 @@
 
     return-object p1
 
-    .line 4
     :pswitch_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -995,7 +911,6 @@
 
     return-object p1
 
-    .line 5
     :pswitch_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1003,7 +918,6 @@
 
     return-object p1
 
-    .line 6
     :pswitch_3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1011,7 +925,6 @@
 
     return-object p1
 
-    .line 7
     :pswitch_4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1019,7 +932,6 @@
 
     return-object p1
 
-    .line 8
     :pswitch_5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1062,12 +974,10 @@
 
     if-nez p2, :cond_0
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
 
-    .line 2
     :cond_0
     iget-object v2, p0, Lcom/meitu/library/analytics/sdk/db/EventContentProvider;->mURIMatcher:Landroid/content/UriMatcher;
 
@@ -1085,7 +995,6 @@
 
     const/4 p2, 0x0
 
-    .line 3
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v2
@@ -1098,12 +1007,10 @@
 
     invoke-static {p2, v2, p1}, Lcom/meitu/library/analytics/y/j/d;->k(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
 
-    .line 5
     :pswitch_0
     iget-object v2, p0, Lcom/meitu/library/analytics/sdk/db/EventContentProvider;->mDbHelper:Lcom/meitu/library/analytics/sdk/db/e;
 
@@ -1111,29 +1018,24 @@
 
     move-result-object v2
 
-    .line 6
     iget-object v5, p0, Lcom/meitu/library/analytics/sdk/db/EventContentProvider;->mSessionsProjecttionMap:Ljava/util/HashMap;
 
     invoke-static {v5, p2}, Lcom/meitu/library/analytics/sdk/db/n/a;->a(Ljava/util/HashMap;Landroid/content/ContentValues;)V
 
     const-string v5, "sessions"
 
-    .line 7
     invoke-virtual {v2, v5, v1, p2}, Landroid/database/sqlite/SQLiteDatabase;->insert(Ljava/lang/String;Ljava/lang/String;Landroid/content/ContentValues;)J
 
     move-result-wide v6
 
-    .line 8
     iget-object v2, p0, Lcom/meitu/library/analytics/sdk/db/EventContentProvider;->mTestDbHelper:Lcom/meitu/library/analytics/sdk/db/e;
 
     if-eqz v2, :cond_1
 
-    .line 9
     invoke-virtual {v2}, Lcom/meitu/library/analytics/sdk/db/e;->d()Landroid/database/sqlite/SQLiteDatabase;
 
     move-result-object v2
 
-    .line 10
     invoke-virtual {v2, v5, v1, p2}, Landroid/database/sqlite/SQLiteDatabase;->insert(Ljava/lang/String;Ljava/lang/String;Landroid/content/ContentValues;)J
 
     :cond_1
@@ -1141,7 +1043,6 @@
 
     if-lez p2, :cond_2
 
-    .line 11
     invoke-static {p1, v6, v7}, Landroid/content/ContentUris;->withAppendedId(Landroid/net/Uri;J)Landroid/net/Uri;
 
     move-result-object p1
@@ -1150,13 +1051,11 @@
 
     return-object p1
 
-    .line 12
     :cond_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
 
-    .line 13
     :pswitch_1
     new-instance p2, Ljava/lang/UnsupportedOperationException;
 
@@ -1183,7 +1082,6 @@
     :pswitch_2
     const-string v2, "event_type"
 
-    .line 14
     invoke-virtual {p2, v2}, Landroid/content/ContentValues;->getAsInteger(Ljava/lang/String;)Ljava/lang/Integer;
 
     move-result-object v2
@@ -1194,7 +1092,6 @@
 
     if-lez v2, :cond_3
 
-    .line 15
     invoke-virtual {p2}, Landroid/content/ContentValues;->keySet()Ljava/util/Set;
 
     move-result-object v2
@@ -1207,14 +1104,12 @@
 
     if-nez v2, :cond_3
 
-    .line 16
     invoke-direct {p0}, Lcom/meitu/library/analytics/sdk/db/EventContentProvider;->getEventDeviceInfo()Ljava/lang/String;
 
     move-result-object v2
 
     invoke-virtual {p2, v5, v2}, Landroid/content/ContentValues;->put(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 17
     :cond_3
     iget-object v2, p0, Lcom/meitu/library/analytics/sdk/db/EventContentProvider;->mDbHelper:Lcom/meitu/library/analytics/sdk/db/e;
 
@@ -1222,19 +1117,16 @@
 
     move-result-object v2
 
-    .line 18
     iget-object v5, p0, Lcom/meitu/library/analytics/sdk/db/EventContentProvider;->mEventsProjectionMap:Ljava/util/HashMap;
 
     invoke-static {v5, p2}, Lcom/meitu/library/analytics/sdk/db/n/a;->a(Ljava/util/HashMap;Landroid/content/ContentValues;)V
 
     const-string v5, "select session_id from sessions order by session_id desc limit 1"
 
-    .line 19
     invoke-static {v2, v5, v1}, Landroid/database/DatabaseUtils;->longForQuery(Landroid/database/sqlite/SQLiteDatabase;Ljava/lang/String;[Ljava/lang/String;)J
 
     move-result-wide v5
 
-    .line 20
     invoke-static {v5, v6}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
 
     move-result-object v5
@@ -1243,7 +1135,6 @@
 
     invoke-virtual {p2, v6, v5}, Landroid/content/ContentValues;->put(Ljava/lang/String;Ljava/lang/Long;)V
 
-    .line 21
     invoke-static {}, Lcom/meitu/library/analytics/sdk/db/h;->i()J
 
     move-result-wide v5
@@ -1256,7 +1147,6 @@
 
     invoke-virtual {p2, v6, v5}, Landroid/content/ContentValues;->put(Ljava/lang/String;Ljava/lang/Long;)V
 
-    .line 22
     iget-object v5, p0, Lcom/meitu/library/analytics/sdk/db/EventContentProvider;->geoLocationInfo:Lcom/meitu/library/analytics/sdk/db/j;
 
     invoke-virtual {v5}, Lcom/meitu/library/analytics/sdk/db/j;->e()Ljava/lang/String;
@@ -1269,22 +1159,18 @@
 
     const-string v5, "events"
 
-    .line 23
     invoke-virtual {v2, v5, v1, p2}, Landroid/database/sqlite/SQLiteDatabase;->insert(Ljava/lang/String;Ljava/lang/String;Landroid/content/ContentValues;)J
 
     move-result-wide v6
 
-    .line 24
     iget-object v2, p0, Lcom/meitu/library/analytics/sdk/db/EventContentProvider;->mTestDbHelper:Lcom/meitu/library/analytics/sdk/db/e;
 
     if-eqz v2, :cond_4
 
-    .line 25
     invoke-virtual {v2}, Lcom/meitu/library/analytics/sdk/db/e;->d()Landroid/database/sqlite/SQLiteDatabase;
 
     move-result-object v2
 
-    .line 26
     invoke-virtual {v2, v5, v1, p2}, Landroid/database/sqlite/SQLiteDatabase;->insert(Ljava/lang/String;Ljava/lang/String;Landroid/content/ContentValues;)J
 
     :cond_4
@@ -1292,7 +1178,6 @@
 
     if-lez p2, :cond_5
 
-    .line 27
     invoke-static {p1, v6, v7}, Landroid/content/ContentUris;->withAppendedId(Landroid/net/Uri;J)Landroid/net/Uri;
 
     move-result-object p1
@@ -1301,7 +1186,6 @@
 
     return-object p1
 
-    .line 28
     :cond_5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1328,22 +1212,18 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sput-object p0, Lcom/meitu/library/analytics/sdk/db/EventContentProvider;->gInstance:Lcom/meitu/library/analytics/sdk/db/EventContentProvider;
 
-    .line 2
     invoke-virtual {p0}, Landroid/content/ContentProvider;->getContext()Landroid/content/Context;
 
     move-result-object v1
 
-    .line 3
     invoke-virtual {p0, v1}, Lcom/meitu/library/analytics/sdk/db/EventContentProvider;->getDatabaseHelper(Landroid/content/Context;)Lcom/meitu/library/analytics/sdk/db/e;
 
     move-result-object v1
 
     iput-object v1, p0, Lcom/meitu/library/analytics/sdk/db/EventContentProvider;->mDbHelper:Lcom/meitu/library/analytics/sdk/db/e;
 
-    .line 4
     invoke-virtual {p0}, Landroid/content/ContentProvider;->getContext()Landroid/content/Context;
 
     move-result-object v1
@@ -1352,7 +1232,6 @@
 
     move-result-object v1
 
-    .line 5
     new-instance v2, Ljava/lang/StringBuilder;
 
     invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
@@ -1367,7 +1246,6 @@
 
     move-result-object v1
 
-    .line 6
     iget-object v2, p0, Lcom/meitu/library/analytics/sdk/db/EventContentProvider;->mURIMatcher:Landroid/content/UriMatcher;
 
     const-string v3, "events"
@@ -1376,7 +1254,6 @@
 
     invoke-virtual {v2, v1, v3, v4}, Landroid/content/UriMatcher;->addURI(Ljava/lang/String;Ljava/lang/String;I)V
 
-    .line 7
     iget-object v2, p0, Lcom/meitu/library/analytics/sdk/db/EventContentProvider;->mURIMatcher:Landroid/content/UriMatcher;
 
     const-string v3, "events/#"
@@ -1385,7 +1262,6 @@
 
     invoke-virtual {v2, v1, v3, v5}, Landroid/content/UriMatcher;->addURI(Ljava/lang/String;Ljava/lang/String;I)V
 
-    .line 8
     iget-object v2, p0, Lcom/meitu/library/analytics/sdk/db/EventContentProvider;->mURIMatcher:Landroid/content/UriMatcher;
 
     const-string v3, "eventsparams"
@@ -1394,7 +1270,6 @@
 
     invoke-virtual {v2, v1, v3, v5}, Landroid/content/UriMatcher;->addURI(Ljava/lang/String;Ljava/lang/String;I)V
 
-    .line 9
     iget-object v2, p0, Lcom/meitu/library/analytics/sdk/db/EventContentProvider;->mURIMatcher:Landroid/content/UriMatcher;
 
     const-string v3, "appglobalparams"
@@ -1403,7 +1278,6 @@
 
     invoke-virtual {v2, v1, v3, v5}, Landroid/content/UriMatcher;->addURI(Ljava/lang/String;Ljava/lang/String;I)V
 
-    .line 10
     iget-object v2, p0, Lcom/meitu/library/analytics/sdk/db/EventContentProvider;->mURIMatcher:Landroid/content/UriMatcher;
 
     const-string v3, "geolocationinfo"
@@ -1412,7 +1286,6 @@
 
     invoke-virtual {v2, v1, v3, v5}, Landroid/content/UriMatcher;->addURI(Ljava/lang/String;Ljava/lang/String;I)V
 
-    .line 11
     iget-object v2, p0, Lcom/meitu/library/analytics/sdk/db/EventContentProvider;->mURIMatcher:Landroid/content/UriMatcher;
 
     const-string v3, "traceinfo"
@@ -1421,7 +1294,6 @@
 
     invoke-virtual {v2, v1, v3, v5}, Landroid/content/UriMatcher;->addURI(Ljava/lang/String;Ljava/lang/String;I)V
 
-    .line 12
     iget-object v2, p0, Lcom/meitu/library/analytics/sdk/db/EventContentProvider;->mURIMatcher:Landroid/content/UriMatcher;
 
     const-string v3, "sessions"
@@ -1430,134 +1302,114 @@
 
     invoke-virtual {v2, v1, v3, v5}, Landroid/content/UriMatcher;->addURI(Ljava/lang/String;Ljava/lang/String;I)V
 
-    .line 13
     iget-object v1, p0, Lcom/meitu/library/analytics/sdk/db/EventContentProvider;->mEventsProjectionMap:Ljava/util/HashMap;
 
     const-string v2, "_id"
 
     invoke-virtual {v1, v2, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 14
     iget-object v1, p0, Lcom/meitu/library/analytics/sdk/db/EventContentProvider;->mEventsProjectionMap:Ljava/util/HashMap;
 
     const-string v2, "event_id"
 
     invoke-virtual {v1, v2, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 15
     iget-object v1, p0, Lcom/meitu/library/analytics/sdk/db/EventContentProvider;->mEventsProjectionMap:Ljava/util/HashMap;
 
     const-string v2, "event_type"
 
     invoke-virtual {v1, v2, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 16
     iget-object v1, p0, Lcom/meitu/library/analytics/sdk/db/EventContentProvider;->mEventsProjectionMap:Ljava/util/HashMap;
 
     const-string v2, "event_source"
 
     invoke-virtual {v1, v2, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 17
     iget-object v1, p0, Lcom/meitu/library/analytics/sdk/db/EventContentProvider;->mEventsProjectionMap:Ljava/util/HashMap;
 
     const-string v2, "time"
 
     invoke-virtual {v1, v2, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 18
     iget-object v1, p0, Lcom/meitu/library/analytics/sdk/db/EventContentProvider;->mEventsProjectionMap:Ljava/util/HashMap;
 
     const-string v2, "duration"
 
     invoke-virtual {v1, v2, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 19
     iget-object v1, p0, Lcom/meitu/library/analytics/sdk/db/EventContentProvider;->mEventsProjectionMap:Ljava/util/HashMap;
 
     const-string v2, "params"
 
     invoke-virtual {v1, v2, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 20
     iget-object v1, p0, Lcom/meitu/library/analytics/sdk/db/EventContentProvider;->mEventsProjectionMap:Ljava/util/HashMap;
 
     const-string v2, "device_info"
 
     invoke-virtual {v1, v2, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 21
     iget-object v1, p0, Lcom/meitu/library/analytics/sdk/db/EventContentProvider;->mEventsProjectionMap:Ljava/util/HashMap;
 
     const-string v2, "session_id"
 
     invoke-virtual {v1, v2, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 22
     iget-object v1, p0, Lcom/meitu/library/analytics/sdk/db/EventContentProvider;->mEventsProjectionMap:Ljava/util/HashMap;
 
     const-string v3, "event_persistent"
 
     invoke-virtual {v1, v3, v3}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 23
     iget-object v1, p0, Lcom/meitu/library/analytics/sdk/db/EventContentProvider;->mEventsProjectionMap:Ljava/util/HashMap;
 
     const-string v3, "event_log_id"
 
     invoke-virtual {v1, v3, v3}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 24
     iget-object v1, p0, Lcom/meitu/library/analytics/sdk/db/EventContentProvider;->mEventsProjectionMap:Ljava/util/HashMap;
 
     const-string v3, "switch_state"
 
     invoke-virtual {v1, v3, v3}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 25
     iget-object v1, p0, Lcom/meitu/library/analytics/sdk/db/EventContentProvider;->mEventsProjectionMap:Ljava/util/HashMap;
 
     const-string v3, "permission_state"
 
     invoke-virtual {v1, v3, v3}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 26
     iget-object v1, p0, Lcom/meitu/library/analytics/sdk/db/EventContentProvider;->mEventsProjectionMap:Ljava/util/HashMap;
 
     const-string v3, "bssid"
 
     invoke-virtual {v1, v3, v3}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 27
     iget-object v1, p0, Lcom/meitu/library/analytics/sdk/db/EventContentProvider;->mEventsProjectionMap:Ljava/util/HashMap;
 
     const-string v3, "geo_location_info"
 
     invoke-virtual {v1, v3, v3}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 28
     iget-object v1, p0, Lcom/meitu/library/analytics/sdk/db/EventContentProvider;->mEventsProjectionMap:Ljava/util/HashMap;
 
     const-string v3, "event_priority"
 
     invoke-virtual {v1, v3, v3}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 29
     iget-object v1, p0, Lcom/meitu/library/analytics/sdk/db/EventContentProvider;->mSessionsProjecttionMap:Ljava/util/HashMap;
 
     invoke-virtual {v1, v2, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 30
     iget-object v1, p0, Lcom/meitu/library/analytics/sdk/db/EventContentProvider;->mSessionsProjecttionMap:Ljava/util/HashMap;
 
     const-string v2, "session_value"
 
     invoke-virtual {v1, v2, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 31
     invoke-virtual {p0}, Lcom/meitu/library/analytics/sdk/db/EventContentProvider;->resetTestDBHelper()V
 
-    .line 32
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v4
@@ -1592,7 +1444,6 @@
 
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcom/meitu/library/analytics/sdk/db/EventContentProvider;->mURIMatcher:Landroid/content/UriMatcher;
 
     invoke-virtual {v0, p1}, Landroid/content/UriMatcher;->match(Landroid/net/Uri;)I
@@ -1607,12 +1458,10 @@
 
     if-ne v0, p3, :cond_0
 
-    .line 2
     invoke-direct {p0, p1}, Lcom/meitu/library/analytics/sdk/db/EventContentProvider;->parseEventIdFromUri(Landroid/net/Uri;)J
 
     move-result-wide p3
 
-    .line 3
     new-instance p1, Ljava/lang/StringBuilder;
 
     invoke-direct {p1}, Ljava/lang/StringBuilder;-><init>()V
@@ -1639,7 +1488,6 @@
 
     return-object p1
 
-    .line 4
     :cond_0
     new-instance p3, Ljava/lang/IllegalArgumentException;
 
@@ -1668,12 +1516,10 @@
 
     const-string v1, "limit"
 
-    .line 5
     invoke-direct {p0, p1, v1, v0}, Lcom/meitu/library/analytics/sdk/db/EventContentProvider;->getIntParam(Landroid/net/Uri;Ljava/lang/String;I)I
 
     move-result p1
 
-    .line 6
     invoke-direct {p0, p3, p4, p5, p1}, Lcom/meitu/library/analytics/sdk/db/EventContentProvider;->queryEvents(Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;I)Landroid/database/Cursor;
 
     move-result-object p1
@@ -1690,19 +1536,16 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/meitu/library/analytics/sdk/content/f;->W()Z
 
     move-result v1
 
     if-eqz v1, :cond_0
 
-    .line 2
     iget-object v1, p0, Lcom/meitu/library/analytics/sdk/db/EventContentProvider;->mTestDbHelper:Lcom/meitu/library/analytics/sdk/db/e;
 
     if-nez v1, :cond_1
 
-    .line 3
     invoke-virtual {p0}, Landroid/content/ContentProvider;->getContext()Landroid/content/Context;
 
     move-result-object v1
@@ -1718,10 +1561,8 @@
     :cond_0
     const/4 v1, 0x0
 
-    .line 4
     iput-object v1, p0, Lcom/meitu/library/analytics/sdk/db/EventContentProvider;->mTestDbHelper:Lcom/meitu/library/analytics/sdk/db/e;
 
-    .line 5
     :cond_1
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1752,7 +1593,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/library/analytics/sdk/db/EventContentProvider;->mURIMatcher:Landroid/content/UriMatcher;
 
     invoke-virtual {v1, p1}, Landroid/content/UriMatcher;->match(Landroid/net/Uri;)I
@@ -1771,7 +1611,6 @@
 
     new-array p3, v3, [Ljava/lang/Object;
 
-    .line 2
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object p4
@@ -1780,18 +1619,15 @@
 
     invoke-static {p1, p2, p3}, Lcom/meitu/library/analytics/y/j/d;->k(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v2
 
-    .line 4
     :pswitch_0
     invoke-static {p2}, Lcom/meitu/library/analytics/sdk/db/m/a;->b(Landroid/content/ContentValues;)Lcom/meitu/library/analytics/sdk/db/m/a;
 
     move-result-object p1
 
-    .line 5
     iget-object p2, p1, Lcom/meitu/library/analytics/sdk/db/m/a;->b:Ljava/lang/String;
 
     iget-object p3, p1, Lcom/meitu/library/analytics/sdk/db/m/a;->c:Ljava/lang/String;
@@ -1804,23 +1640,19 @@
 
     invoke-static {p2, p3, p4, v1, p1}, Lcom/meitu/library/analytics/sdk/db/m/b;->i(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ZI)V
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v3
 
-    .line 7
     :pswitch_1
     iget-object p1, p0, Lcom/meitu/library/analytics/sdk/db/EventContentProvider;->geoLocationInfo:Lcom/meitu/library/analytics/sdk/db/j;
 
     invoke-virtual {p1, p2}, Lcom/meitu/library/analytics/sdk/db/j;->r(Landroid/content/ContentValues;)V
 
-    .line 8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v3
 
-    .line 9
     :pswitch_2
     iget-object p1, p0, Lcom/meitu/library/analytics/sdk/db/EventContentProvider;->mDbHelper:Lcom/meitu/library/analytics/sdk/db/e;
 
@@ -1828,30 +1660,25 @@
 
     move-result-object p1
 
-    .line 10
     iget-object v1, p0, Lcom/meitu/library/analytics/sdk/db/EventContentProvider;->mSessionsProjecttionMap:Ljava/util/HashMap;
 
     invoke-static {v1, p2}, Lcom/meitu/library/analytics/sdk/db/n/a;->a(Ljava/util/HashMap;Landroid/content/ContentValues;)V
 
-    .line 11
     iget-object v1, p0, Lcom/meitu/library/analytics/sdk/db/EventContentProvider;->mTestDbHelper:Lcom/meitu/library/analytics/sdk/db/e;
 
     if-eqz v1, :cond_0
 
-    .line 12
     invoke-virtual {v1}, Lcom/meitu/library/analytics/sdk/db/e;->d()Landroid/database/sqlite/SQLiteDatabase;
 
     move-result-object v1
 
     const-string v2, "sessions"
 
-    .line 13
     invoke-virtual {v1, v2, p2, p3, p4}, Landroid/database/sqlite/SQLiteDatabase;->update(Ljava/lang/String;Landroid/content/ContentValues;Ljava/lang/String;[Ljava/lang/String;)I
 
     :cond_0
     const-string v1, "sessions"
 
-    .line 14
     invoke-virtual {p1, v1, p2, p3, p4}, Landroid/database/sqlite/SQLiteDatabase;->update(Ljava/lang/String;Landroid/content/ContentValues;Ljava/lang/String;[Ljava/lang/String;)I
 
     move-result p1
@@ -1860,11 +1687,9 @@
 
     return p1
 
-    .line 15
     :pswitch_3
     monitor-enter p0
 
-    .line 16
     :try_start_0
     iget-object p1, p0, Lcom/meitu/library/analytics/sdk/db/EventContentProvider;->appGlobalParams:Lcom/meitu/library/analytics/sdk/db/a;
 
@@ -1874,7 +1699,6 @@
 
     const-string p2, "global_params"
 
-    .line 17
     iget-object p3, p0, Lcom/meitu/library/analytics/sdk/db/EventContentProvider;->appGlobalParams:Lcom/meitu/library/analytics/sdk/db/a;
 
     invoke-virtual {p3}, Lcom/meitu/library/analytics/sdk/db/a;->toString()Ljava/lang/String;
@@ -1883,12 +1707,10 @@
 
     invoke-static {p2, p3}, Lcom/meitu/library/analytics/sdk/db/g;->c(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 18
     monitor-exit p0
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 19
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
@@ -1896,7 +1718,6 @@
     :catchall_0
     move-exception p1
 
-    .line 20
     :try_start_1
     monitor-exit p0
     :try_end_1
@@ -1906,7 +1727,6 @@
 
     throw p1
 
-    .line 21
     :pswitch_4
     invoke-virtual {p2}, Landroid/content/ContentValues;->keySet()Ljava/util/Set;
 
@@ -1914,16 +1734,13 @@
 
     if-nez p1, :cond_1
 
-    .line 22
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v2
 
-    .line 23
     :cond_1
     monitor-enter p0
 
-    .line 24
     :try_start_2
     invoke-interface {p1}, Ljava/util/Set;->iterator()Ljava/util/Iterator;
 
@@ -1944,7 +1761,6 @@
 
     add-int/lit8 v2, v2, 0x1
 
-    .line 25
     invoke-virtual {p2, p3}, Landroid/content/ContentValues;->getAsString(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p4
@@ -1953,13 +1769,11 @@
 
     goto :goto_0
 
-    .line 26
     :cond_2
     monitor-exit p0
     :try_end_2
     .catchall {:try_start_2 .. :try_end_2} :catchall_1
 
-    .line 27
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v2
@@ -1967,7 +1781,6 @@
     :catchall_1
     move-exception p1
 
-    .line 28
     :try_start_3
     monitor-exit p0
     :try_end_3
@@ -1977,7 +1790,6 @@
 
     throw p1
 
-    .line 29
     :pswitch_5
     new-instance p2, Ljava/lang/UnsupportedOperationException;
 
@@ -2001,7 +1813,6 @@
 
     throw p2
 
-    .line 30
     :pswitch_6
     iget-object p1, p0, Lcom/meitu/library/analytics/sdk/db/EventContentProvider;->mDbHelper:Lcom/meitu/library/analytics/sdk/db/e;
 
@@ -2009,30 +1820,25 @@
 
     move-result-object p1
 
-    .line 31
     iget-object v1, p0, Lcom/meitu/library/analytics/sdk/db/EventContentProvider;->mEventsProjectionMap:Ljava/util/HashMap;
 
     invoke-static {v1, p2}, Lcom/meitu/library/analytics/sdk/db/n/a;->a(Ljava/util/HashMap;Landroid/content/ContentValues;)V
 
-    .line 32
     iget-object v1, p0, Lcom/meitu/library/analytics/sdk/db/EventContentProvider;->mTestDbHelper:Lcom/meitu/library/analytics/sdk/db/e;
 
     if-eqz v1, :cond_3
 
-    .line 33
     invoke-virtual {v1}, Lcom/meitu/library/analytics/sdk/db/e;->d()Landroid/database/sqlite/SQLiteDatabase;
 
     move-result-object v1
 
     const-string v2, "events"
 
-    .line 34
     invoke-virtual {v1, v2, p2, p3, p4}, Landroid/database/sqlite/SQLiteDatabase;->update(Ljava/lang/String;Landroid/content/ContentValues;Ljava/lang/String;[Ljava/lang/String;)I
 
     :cond_3
     const-string v1, "events"
 
-    .line 35
     invoke-virtual {p1, v1, p2, p3, p4}, Landroid/database/sqlite/SQLiteDatabase;->update(Ljava/lang/String;Landroid/content/ContentValues;Ljava/lang/String;[Ljava/lang/String;)I
 
     move-result p1

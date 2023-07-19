@@ -24,17 +24,14 @@
 .method public constructor <init>(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;)V
     .locals 1
 
-    .line 1
     invoke-direct {p0, p1}, Landroid/widget/RelativeLayout;-><init>(Landroid/content/Context;)V
 
-    .line 2
     new-instance v0, Lcom/google/android/gms/internal/ads/tn;
 
     invoke-direct {v0, p1, p2}, Lcom/google/android/gms/internal/ads/tn;-><init>(Landroid/content/Context;Ljava/lang/String;)V
 
     iput-object v0, p0, Lcom/google/android/gms/ads/internal/overlay/zzj;->a:Lcom/google/android/gms/internal/ads/tn;
 
-    .line 3
     invoke-virtual {v0, p3}, Lcom/google/android/gms/internal/ads/tn;->g(Ljava/lang/String;)V
 
     return-void
@@ -45,12 +42,10 @@
 .method public final onInterceptTouchEvent(Landroid/view/MotionEvent;)Z
     .locals 1
 
-    .line 1
     iget-boolean v0, p0, Lcom/google/android/gms/ads/internal/overlay/zzj;->b:Z
 
     if-nez v0, :cond_0
 
-    .line 2
     iget-object v0, p0, Lcom/google/android/gms/ads/internal/overlay/zzj;->a:Lcom/google/android/gms/internal/ads/tn;
 
     invoke-virtual {v0, p1}, Lcom/google/android/gms/internal/ads/tn;->h(Landroid/view/MotionEvent;)V

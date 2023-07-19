@@ -58,7 +58,6 @@
 
     goto :goto_0
 
-    .line 1
     :cond_0
     invoke-virtual {p1}, Ljava/lang/Integer;->intValue()I
 
@@ -78,7 +77,6 @@
 
     goto :goto_1
 
-    .line 2
     :cond_2
     invoke-virtual {p1}, Ljava/lang/Integer;->intValue()I
 
@@ -96,7 +94,6 @@
 
     goto :goto_3
 
-    .line 3
     :cond_4
     invoke-virtual {p1}, Ljava/lang/Integer;->intValue()I
 
@@ -104,7 +101,6 @@
 
     if-ne p1, v1, :cond_5
 
-    .line 4
     :goto_2
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/window/H5Cover$d;->a:Lcom/commsource/camera/xcamera/cover/window/H5Cover;
 
@@ -114,7 +110,6 @@
 
     goto :goto_4
 
-    .line 5
     :cond_5
     :goto_3
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/window/H5Cover$d;->a:Lcom/commsource/camera/xcamera/cover/window/H5Cover;
@@ -123,7 +118,6 @@
 
     invoke-virtual {p1, v1}, Lcom/commsource/camera/xcamera/cover/window/H5Cover;->X(Z)V
 
-    .line 6
     :goto_4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -137,7 +131,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Ljava/lang/Integer;
 
     invoke-virtual {p0, p1}, Lcom/commsource/camera/xcamera/cover/window/H5Cover$d;->a(Ljava/lang/Integer;)V

@@ -25,7 +25,6 @@
 .method constructor <init>(Lcom/appsflyer/AFSensorManager;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/appsflyer/AFSensorManager$6;->$$b:Lcom/appsflyer/AFSensorManager;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -38,7 +37,6 @@
 .method public final run()V
     .locals 4
 
-    .line 1
     :try_start_0
     iget-object v0, p0, Lcom/appsflyer/AFSensorManager$6;->$$b:Lcom/appsflyer/AFSensorManager;
 
@@ -52,7 +50,6 @@
 
     if-nez v0, :cond_0
 
-    .line 2
     iget-object v0, p0, Lcom/appsflyer/AFSensorManager$6;->$$b:Lcom/appsflyer/AFSensorManager;
 
     invoke-static {v0}, Lcom/appsflyer/AFSensorManager;->AFDateFormat(Lcom/appsflyer/AFSensorManager;)Ljava/util/Map;
@@ -80,7 +77,6 @@
 
     check-cast v1, Lcom/appsflyer/internal/t;
 
-    .line 3
     iget-object v2, p0, Lcom/appsflyer/AFSensorManager$6;->$$b:Lcom/appsflyer/AFSensorManager;
 
     invoke-static {v2}, Lcom/appsflyer/AFSensorManager;->values(Lcom/appsflyer/AFSensorManager;)Landroid/hardware/SensorManager;
@@ -89,7 +85,6 @@
 
     invoke-virtual {v2, v1}, Landroid/hardware/SensorManager;->unregisterListener(Landroid/hardware/SensorEventListener;)V
 
-    .line 4
     iget-object v2, p0, Lcom/appsflyer/AFSensorManager$6;->$$b:Lcom/appsflyer/AFSensorManager;
 
     invoke-static {v2}, Lcom/appsflyer/AFSensorManager;->getDataFormatter(Lcom/appsflyer/AFSensorManager;)Ljava/util/Map;
@@ -98,14 +93,12 @@
 
     const/4 v3, 0x1
 
-    .line 5
     invoke-virtual {v1, v2, v3}, Lcom/appsflyer/internal/t;->valueOf(Ljava/util/Map;Z)V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
     goto :goto_0
 
-    .line 6
     :catchall_0
     :cond_0
     iget-object v0, p0, Lcom/appsflyer/AFSensorManager$6;->$$b:Lcom/appsflyer/AFSensorManager;
@@ -114,7 +107,6 @@
 
     invoke-static {v0, v1}, Lcom/appsflyer/AFSensorManager;->valueOf(Lcom/appsflyer/AFSensorManager;I)I
 
-    .line 7
     iget-object v0, p0, Lcom/appsflyer/AFSensorManager$6;->$$b:Lcom/appsflyer/AFSensorManager;
 
     invoke-static {v0, v1}, Lcom/appsflyer/AFSensorManager;->$$b(Lcom/appsflyer/AFSensorManager;Z)Z

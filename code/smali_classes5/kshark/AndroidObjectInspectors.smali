@@ -347,14 +347,12 @@
 
     sput-object v0, Lkshark/AndroidObjectInspectors;->Companion:Lkshark/AndroidObjectInspectors$a;
 
-    .line 1
     sget-object v1, Lkshark/ObjectInspectors;->Companion:Lkshark/ObjectInspectors$a;
 
     invoke-virtual {v1}, Lkshark/ObjectInspectors$a;->c()Ljava/util/List;
 
     move-result-object v1
 
-    .line 2
     const-class v2, Lkshark/AndroidObjectInspectors;
 
     invoke-static {v2}, Ljava/util/EnumSet;->allOf(Ljava/lang/Class;)Ljava/util/EnumSet;
@@ -369,7 +367,6 @@
 
     move-result-object v0
 
-    .line 3
     invoke-static {v1, v0}, Lcotlin/collections/s;->o4(Ljava/util/Collection;Ljava/lang/Iterable;)Ljava/util/List;
 
     move-result-object v0
@@ -387,7 +384,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
     return-void
@@ -396,7 +392,6 @@
 .method public synthetic constructor <init>(Ljava/lang/String;ILcotlin/jvm/internal/u;)V
     .locals 0
 
-    .line 2
     invoke-direct {p0, p1, p2}, Lkshark/AndroidObjectInspectors;-><init>(Ljava/lang/String;I)V
 
     return-void
@@ -405,7 +400,6 @@
 .method public static final synthetic access$getAppLeakingObjectFilters$cp()Ljava/util/List;
     .locals 1
 
-    .line 1
     sget-object v0, Lkshark/AndroidObjectInspectors;->appLeakingObjectFilters:Ljava/util/List;
 
     return-object v0
@@ -456,7 +450,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lkshark/AndroidObjectInspectors;->leakingObjectFilter:Lcotlin/jvm/u/l;
 
     return-object v0

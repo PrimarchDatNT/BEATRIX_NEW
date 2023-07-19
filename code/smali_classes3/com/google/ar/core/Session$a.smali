@@ -36,7 +36,6 @@
 .method static constructor <clinit>()V
     .locals 3
 
-    .line 1
     new-instance v0, Lcom/google/ar/core/Session$a;
 
     const-string v1, "END_OF_LIST"
@@ -53,7 +52,6 @@
 
     aput-object v0, v1, v2
 
-    .line 2
     sput-object v1, Lcom/google/ar/core/Session$a;->c:[Lcom/google/ar/core/Session$a;
 
     return-void
@@ -69,10 +67,8 @@
 
     const/4 p2, 0x0
 
-    .line 1
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 2
     iput p2, p0, Lcom/google/ar/core/Session$a;->b:I
 
     return-void
@@ -81,7 +77,6 @@
 .method public static values()[Lcom/google/ar/core/Session$a;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/google/ar/core/Session$a;->c:[Lcom/google/ar/core/Session$a;
 
     invoke-virtual {v0}, [Lcom/google/ar/core/Session$a;->clone()Ljava/lang/Object;

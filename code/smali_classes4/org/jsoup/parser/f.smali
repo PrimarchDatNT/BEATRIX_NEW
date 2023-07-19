@@ -57,7 +57,6 @@
 .method static constructor <clinit>()V
     .locals 67
 
-    .line 1
     new-instance v0, Ljava/util/HashMap;
 
     invoke-direct {v0}, Ljava/util/HashMap;-><init>()V
@@ -192,7 +191,6 @@
 
     const-string v64, "center"
 
-    .line 2
     filled-new-array/range {v1 .. v64}, [Ljava/lang/String;
 
     move-result-object v0
@@ -331,7 +329,6 @@
 
     const-string v66, "s"
 
-    .line 3
     filled-new-array/range {v1 .. v66}, [Ljava/lang/String;
 
     move-result-object v1
@@ -380,7 +377,6 @@
 
     const-string v22, "track"
 
-    .line 4
     filled-new-array/range {v2 .. v22}, [Ljava/lang/String;
 
     move-result-object v1
@@ -425,7 +421,6 @@
 
     const-string v20, "s"
 
-    .line 5
     filled-new-array/range {v2 .. v20}, [Ljava/lang/String;
 
     move-result-object v1
@@ -440,7 +435,6 @@
 
     const-string v4, "textarea"
 
-    .line 6
     filled-new-array {v1, v2, v3, v4}, [Ljava/lang/String;
 
     move-result-object v1
@@ -463,7 +457,6 @@
 
     const-string v12, "textarea"
 
-    .line 7
     filled-new-array/range {v5 .. v12}, [Ljava/lang/String;
 
     move-result-object v1
@@ -478,14 +471,12 @@
 
     const-string v5, "select"
 
-    .line 8
     filled-new-array {v1, v2, v3, v5, v4}, [Ljava/lang/String;
 
     move-result-object v1
 
     sput-object v1, Lorg/jsoup/parser/f;->S:[Ljava/lang/String;
 
-    .line 9
     array-length v1, v0
 
     const/4 v2, 0x0
@@ -497,19 +488,16 @@
 
     aget-object v4, v0, v3
 
-    .line 10
     new-instance v5, Lorg/jsoup/parser/f;
 
     invoke-direct {v5, v4}, Lorg/jsoup/parser/f;-><init>(Ljava/lang/String;)V
 
-    .line 11
     invoke-static {v5}, Lorg/jsoup/parser/f;->n(Lorg/jsoup/parser/f;)V
 
     add-int/lit8 v3, v3, 0x1
 
     goto :goto_0
 
-    .line 12
     :cond_0
     sget-object v0, Lorg/jsoup/parser/f;->N:[Ljava/lang/String;
 
@@ -522,25 +510,20 @@
 
     aget-object v4, v0, v3
 
-    .line 13
     new-instance v5, Lorg/jsoup/parser/f;
 
     invoke-direct {v5, v4}, Lorg/jsoup/parser/f;-><init>(Ljava/lang/String;)V
 
-    .line 14
     iput-boolean v2, v5, Lorg/jsoup/parser/f;->c:Z
 
-    .line 15
     iput-boolean v2, v5, Lorg/jsoup/parser/f;->d:Z
 
-    .line 16
     invoke-static {v5}, Lorg/jsoup/parser/f;->n(Lorg/jsoup/parser/f;)V
 
     add-int/lit8 v3, v3, 0x1
 
     goto :goto_1
 
-    .line 17
     :cond_1
     sget-object v0, Lorg/jsoup/parser/f;->O:[Ljava/lang/String;
 
@@ -555,7 +538,6 @@
 
     aget-object v5, v0, v3
 
-    .line 18
     sget-object v6, Lorg/jsoup/parser/f;->L:Ljava/util/Map;
 
     invoke-interface {v6, v5}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
@@ -564,17 +546,14 @@
 
     check-cast v5, Lorg/jsoup/parser/f;
 
-    .line 19
     invoke-static {v5}, Lorg/jsoup/helper/c;->j(Ljava/lang/Object;)V
 
-    .line 20
     iput-boolean v4, v5, Lorg/jsoup/parser/f;->f:Z
 
     add-int/lit8 v3, v3, 0x1
 
     goto :goto_2
 
-    .line 21
     :cond_2
     sget-object v0, Lorg/jsoup/parser/f;->P:[Ljava/lang/String;
 
@@ -587,7 +566,6 @@
 
     aget-object v5, v0, v3
 
-    .line 22
     sget-object v6, Lorg/jsoup/parser/f;->L:Ljava/util/Map;
 
     invoke-interface {v6, v5}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
@@ -596,17 +574,14 @@
 
     check-cast v5, Lorg/jsoup/parser/f;
 
-    .line 23
     invoke-static {v5}, Lorg/jsoup/helper/c;->j(Ljava/lang/Object;)V
 
-    .line 24
     iput-boolean v2, v5, Lorg/jsoup/parser/f;->d:Z
 
     add-int/lit8 v3, v3, 0x1
 
     goto :goto_3
 
-    .line 25
     :cond_3
     sget-object v0, Lorg/jsoup/parser/f;->Q:[Ljava/lang/String;
 
@@ -619,7 +594,6 @@
 
     aget-object v5, v0, v3
 
-    .line 26
     sget-object v6, Lorg/jsoup/parser/f;->L:Ljava/util/Map;
 
     invoke-interface {v6, v5}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
@@ -628,17 +602,14 @@
 
     check-cast v5, Lorg/jsoup/parser/f;
 
-    .line 27
     invoke-static {v5}, Lorg/jsoup/helper/c;->j(Ljava/lang/Object;)V
 
-    .line 28
     iput-boolean v4, v5, Lorg/jsoup/parser/f;->p:Z
 
     add-int/lit8 v3, v3, 0x1
 
     goto :goto_4
 
-    .line 29
     :cond_4
     sget-object v0, Lorg/jsoup/parser/f;->R:[Ljava/lang/String;
 
@@ -651,7 +622,6 @@
 
     aget-object v5, v0, v3
 
-    .line 30
     sget-object v6, Lorg/jsoup/parser/f;->L:Ljava/util/Map;
 
     invoke-interface {v6, v5}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
@@ -660,17 +630,14 @@
 
     check-cast v5, Lorg/jsoup/parser/f;
 
-    .line 31
     invoke-static {v5}, Lorg/jsoup/helper/c;->j(Ljava/lang/Object;)V
 
-    .line 32
     iput-boolean v4, v5, Lorg/jsoup/parser/f;->J:Z
 
     add-int/lit8 v3, v3, 0x1
 
     goto :goto_5
 
-    .line 33
     :cond_5
     sget-object v0, Lorg/jsoup/parser/f;->S:[Ljava/lang/String;
 
@@ -681,7 +648,6 @@
 
     aget-object v3, v0, v2
 
-    .line 34
     sget-object v5, Lorg/jsoup/parser/f;->L:Ljava/util/Map;
 
     invoke-interface {v5, v3}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
@@ -690,10 +656,8 @@
 
     check-cast v3, Lorg/jsoup/parser/f;
 
-    .line 35
     invoke-static {v3}, Lorg/jsoup/helper/c;->j(Ljava/lang/Object;)V
 
-    .line 36
     iput-boolean v4, v3, Lorg/jsoup/parser/f;->K:Z
 
     add-int/lit8 v2, v2, 0x1
@@ -707,38 +671,28 @@
 .method private constructor <init>(Ljava/lang/String;)V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/4 v0, 0x1
 
-    .line 2
     iput-boolean v0, p0, Lorg/jsoup/parser/f;->c:Z
 
-    .line 3
     iput-boolean v0, p0, Lorg/jsoup/parser/f;->d:Z
 
     const/4 v0, 0x0
 
-    .line 4
     iput-boolean v0, p0, Lorg/jsoup/parser/f;->f:Z
 
-    .line 5
     iput-boolean v0, p0, Lorg/jsoup/parser/f;->g:Z
 
-    .line 6
     iput-boolean v0, p0, Lorg/jsoup/parser/f;->p:Z
 
-    .line 7
     iput-boolean v0, p0, Lorg/jsoup/parser/f;->J:Z
 
-    .line 8
     iput-boolean v0, p0, Lorg/jsoup/parser/f;->K:Z
 
-    .line 9
     iput-object p1, p0, Lorg/jsoup/parser/f;->a:Ljava/lang/String;
 
-    .line 10
     invoke-static {p1}, Lorg/jsoup/b/b;->a(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p1
@@ -751,7 +705,6 @@
 .method public static j(Ljava/lang/String;)Z
     .locals 1
 
-    .line 1
     sget-object v0, Lorg/jsoup/parser/f;->L:Ljava/util/Map;
 
     invoke-interface {v0, p0}, Ljava/util/Map;->containsKey(Ljava/lang/Object;)Z
@@ -764,7 +717,6 @@
 .method private static n(Lorg/jsoup/parser/f;)V
     .locals 2
 
-    .line 1
     sget-object v0, Lorg/jsoup/parser/f;->L:Ljava/util/Map;
 
     iget-object v1, p0, Lorg/jsoup/parser/f;->a:Ljava/lang/String;
@@ -777,7 +729,6 @@
 .method public static p(Ljava/lang/String;)Lorg/jsoup/parser/f;
     .locals 1
 
-    .line 1
     sget-object v0, Lorg/jsoup/parser/d;->d:Lorg/jsoup/parser/d;
 
     invoke-static {p0, v0}, Lorg/jsoup/parser/f;->q(Ljava/lang/String;Lorg/jsoup/parser/d;)Lorg/jsoup/parser/f;
@@ -790,10 +741,8 @@
 .method public static q(Ljava/lang/String;Lorg/jsoup/parser/d;)Lorg/jsoup/parser/f;
     .locals 2
 
-    .line 1
     invoke-static {p0}, Lorg/jsoup/helper/c;->j(Ljava/lang/Object;)V
 
-    .line 2
     sget-object v0, Lorg/jsoup/parser/f;->L:Ljava/util/Map;
 
     invoke-interface {v0, p0}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
@@ -804,20 +753,16 @@
 
     if-nez v1, :cond_2
 
-    .line 3
     invoke-virtual {p1, p0}, Lorg/jsoup/parser/d;->c(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p0
 
-    .line 4
     invoke-static {p0}, Lorg/jsoup/helper/c;->h(Ljava/lang/String;)V
 
-    .line 5
     invoke-static {p0}, Lorg/jsoup/b/b;->a(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v1
 
-    .line 6
     invoke-interface {v0, v1}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v0
@@ -826,19 +771,16 @@
 
     if-nez v0, :cond_0
 
-    .line 7
     new-instance v1, Lorg/jsoup/parser/f;
 
     invoke-direct {v1, p0}, Lorg/jsoup/parser/f;-><init>(Ljava/lang/String;)V
 
     const/4 p0, 0x0
 
-    .line 8
     iput-boolean p0, v1, Lorg/jsoup/parser/f;->c:Z
 
     goto :goto_0
 
-    .line 9
     :cond_0
     invoke-virtual {p1}, Lorg/jsoup/parser/d;->e()Z
 
@@ -852,12 +794,10 @@
 
     if-nez p1, :cond_1
 
-    .line 10
     invoke-virtual {v0}, Lorg/jsoup/parser/f;->a()Lorg/jsoup/parser/f;
 
     move-result-object v1
 
-    .line 11
     iput-object p0, v1, Lorg/jsoup/parser/f;->a:Ljava/lang/String;
 
     goto :goto_0
@@ -875,7 +815,6 @@
 .method protected a()Lorg/jsoup/parser/f;
     .locals 2
 
-    .line 1
     :try_start_0
     invoke-super {p0}, Ljava/lang/Object;->clone()Ljava/lang/Object;
 
@@ -890,7 +829,6 @@
     :catch_0
     move-exception v0
 
-    .line 2
     new-instance v1, Ljava/lang/RuntimeException;
 
     invoke-direct {v1, v0}, Ljava/lang/RuntimeException;-><init>(Ljava/lang/Throwable;)V
@@ -901,7 +839,6 @@
 .method public b()Z
     .locals 1
 
-    .line 1
     iget-boolean v0, p0, Lorg/jsoup/parser/f;->d:Z
 
     return v0
@@ -910,7 +847,6 @@
 .method public c()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lorg/jsoup/parser/f;->a:Ljava/lang/String;
 
     return-object v0
@@ -924,7 +860,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lorg/jsoup/parser/f;->a()Lorg/jsoup/parser/f;
 
     move-result-object v0
@@ -935,7 +870,6 @@
 .method public d()Z
     .locals 1
 
-    .line 1
     iget-boolean v0, p0, Lorg/jsoup/parser/f;->c:Z
 
     return v0
@@ -944,7 +878,6 @@
 .method public e()Z
     .locals 1
 
-    .line 1
     iget-boolean v0, p0, Lorg/jsoup/parser/f;->f:Z
 
     return v0
@@ -959,7 +892,6 @@
 
     return v0
 
-    .line 1
     :cond_0
     instance-of v1, p1, Lorg/jsoup/parser/f;
 
@@ -969,11 +901,9 @@
 
     return v2
 
-    .line 2
     :cond_1
     check-cast p1, Lorg/jsoup/parser/f;
 
-    .line 3
     iget-object v1, p0, Lorg/jsoup/parser/f;->a:Ljava/lang/String;
 
     iget-object v3, p1, Lorg/jsoup/parser/f;->a:Ljava/lang/String;
@@ -986,7 +916,6 @@
 
     return v2
 
-    .line 4
     :cond_2
     iget-boolean v1, p0, Lorg/jsoup/parser/f;->f:Z
 
@@ -996,7 +925,6 @@
 
     return v2
 
-    .line 5
     :cond_3
     iget-boolean v1, p0, Lorg/jsoup/parser/f;->d:Z
 
@@ -1006,7 +934,6 @@
 
     return v2
 
-    .line 6
     :cond_4
     iget-boolean v1, p0, Lorg/jsoup/parser/f;->c:Z
 
@@ -1016,7 +943,6 @@
 
     return v2
 
-    .line 7
     :cond_5
     iget-boolean v1, p0, Lorg/jsoup/parser/f;->p:Z
 
@@ -1026,7 +952,6 @@
 
     return v2
 
-    .line 8
     :cond_6
     iget-boolean v1, p0, Lorg/jsoup/parser/f;->g:Z
 
@@ -1036,7 +961,6 @@
 
     return v2
 
-    .line 9
     :cond_7
     iget-boolean v1, p0, Lorg/jsoup/parser/f;->J:Z
 
@@ -1046,7 +970,6 @@
 
     return v2
 
-    .line 10
     :cond_8
     iget-boolean v1, p0, Lorg/jsoup/parser/f;->K:Z
 
@@ -1066,7 +989,6 @@
 .method public f()Z
     .locals 1
 
-    .line 1
     iget-boolean v0, p0, Lorg/jsoup/parser/f;->J:Z
 
     return v0
@@ -1075,7 +997,6 @@
 .method public g()Z
     .locals 1
 
-    .line 1
     iget-boolean v0, p0, Lorg/jsoup/parser/f;->K:Z
 
     return v0
@@ -1084,7 +1005,6 @@
 .method public h()Z
     .locals 1
 
-    .line 1
     iget-boolean v0, p0, Lorg/jsoup/parser/f;->c:Z
 
     xor-int/lit8 v0, v0, 0x1
@@ -1095,7 +1015,6 @@
 .method public hashCode()I
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lorg/jsoup/parser/f;->a:Ljava/lang/String;
 
     invoke-virtual {v0}, Ljava/lang/String;->hashCode()I
@@ -1104,49 +1023,42 @@
 
     mul-int/lit8 v0, v0, 0x1f
 
-    .line 2
     iget-boolean v1, p0, Lorg/jsoup/parser/f;->c:Z
 
     add-int/2addr v0, v1
 
     mul-int/lit8 v0, v0, 0x1f
 
-    .line 3
     iget-boolean v1, p0, Lorg/jsoup/parser/f;->d:Z
 
     add-int/2addr v0, v1
 
     mul-int/lit8 v0, v0, 0x1f
 
-    .line 4
     iget-boolean v1, p0, Lorg/jsoup/parser/f;->f:Z
 
     add-int/2addr v0, v1
 
     mul-int/lit8 v0, v0, 0x1f
 
-    .line 5
     iget-boolean v1, p0, Lorg/jsoup/parser/f;->g:Z
 
     add-int/2addr v0, v1
 
     mul-int/lit8 v0, v0, 0x1f
 
-    .line 6
     iget-boolean v1, p0, Lorg/jsoup/parser/f;->p:Z
 
     add-int/2addr v0, v1
 
     mul-int/lit8 v0, v0, 0x1f
 
-    .line 7
     iget-boolean v1, p0, Lorg/jsoup/parser/f;->J:Z
 
     add-int/2addr v0, v1
 
     mul-int/lit8 v0, v0, 0x1f
 
-    .line 8
     iget-boolean v1, p0, Lorg/jsoup/parser/f;->K:Z
 
     add-int/2addr v0, v1
@@ -1157,7 +1069,6 @@
 .method public i()Z
     .locals 2
 
-    .line 1
     sget-object v0, Lorg/jsoup/parser/f;->L:Ljava/util/Map;
 
     iget-object v1, p0, Lorg/jsoup/parser/f;->a:Ljava/lang/String;
@@ -1172,7 +1083,6 @@
 .method public k()Z
     .locals 1
 
-    .line 1
     iget-boolean v0, p0, Lorg/jsoup/parser/f;->f:Z
 
     if-nez v0, :cond_1
@@ -1199,7 +1109,6 @@
 .method public l()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lorg/jsoup/parser/f;->b:Ljava/lang/String;
 
     return-object v0
@@ -1208,7 +1117,6 @@
 .method public m()Z
     .locals 1
 
-    .line 1
     iget-boolean v0, p0, Lorg/jsoup/parser/f;->p:Z
 
     return v0
@@ -1219,7 +1127,6 @@
 
     const/4 v0, 0x1
 
-    .line 1
     iput-boolean v0, p0, Lorg/jsoup/parser/f;->g:Z
 
     return-object p0
@@ -1228,7 +1135,6 @@
 .method public toString()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lorg/jsoup/parser/f;->a:Ljava/lang/String;
 
     return-object v0

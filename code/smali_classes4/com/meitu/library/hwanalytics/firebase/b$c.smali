@@ -46,7 +46,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/library/hwanalytics/firebase/b$c;->a:Landroid/database/sqlite/SQLiteDatabase;
 
     iget-object v2, p0, Lcom/meitu/library/hwanalytics/firebase/b$c;->b:Landroid/content/ContentValues;
@@ -57,7 +56,6 @@
 
     invoke-virtual {v1, v3, v4, v2}, Landroid/database/sqlite/SQLiteDatabase;->insert(Ljava/lang/String;Ljava/lang/String;Landroid/content/ContentValues;)J
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

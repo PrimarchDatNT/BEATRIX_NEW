@@ -59,7 +59,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcotlin/z1/b$c;->a:Ljava/util/Comparator;
 
     iget-object v1, p0, Lcotlin/z1/b$c;->b:Lcotlin/jvm/u/l;

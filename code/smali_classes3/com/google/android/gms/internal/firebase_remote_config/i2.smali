@@ -14,7 +14,6 @@
 .method protected constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -23,7 +22,6 @@
 .method public static b(C)Lcom/google/android/gms/internal/firebase_remote_config/i2;
     .locals 1
 
-    .line 1
     new-instance p0, Lcom/google/android/gms/internal/firebase_remote_config/k2;
 
     const/16 v0, 0x2c
@@ -40,7 +38,6 @@
 
     new-array v0, v0, [C
 
-    .line 1
     fill-array-data v0, :array_0
 
     const/4 v1, 0x0
@@ -56,7 +53,6 @@
 
     const-string v5, "0123456789ABCDEF"
 
-    .line 2
     invoke-virtual {v5, v4}, Ljava/lang/String;->charAt(I)C
 
     move-result v4
@@ -71,7 +67,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_0
     invoke-static {v0}, Ljava/lang/String;->copyValueOf([C)Ljava/lang/String;
 
@@ -93,7 +88,6 @@
 .method static synthetic e(C)Ljava/lang/String;
     .locals 0
 
-    .line 1
     invoke-static {p0}, Lcom/google/android/gms/internal/firebase_remote_config/i2;->d(C)Ljava/lang/String;
 
     move-result-object p0
@@ -106,20 +100,17 @@
 .method public a(Ljava/lang/CharSequence;I)I
     .locals 2
 
-    .line 1
     invoke-interface {p1}, Ljava/lang/CharSequence;->length()I
 
     move-result v0
 
     const-string v1, "index"
 
-    .line 2
     invoke-static {p2, v0, v1}, Lcom/google/android/gms/internal/firebase_remote_config/s2;->c(IILjava/lang/String;)I
 
     :goto_0
     if-ge p2, v0, :cond_1
 
-    .line 3
     invoke-interface {p1, p2}, Ljava/lang/CharSequence;->charAt(I)C
 
     move-result v1

@@ -44,7 +44,6 @@
 
     const-string v0, "event"
 
-    .line 1
     invoke-static {p2, v0}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {p2}, Landroid/view/MotionEvent;->getAction()I
@@ -55,7 +54,6 @@
 
     if-nez v0, :cond_0
 
-    .line 2
     iget-object p2, p0, Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity$c;->a:Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity;
 
     invoke-static {p2}, Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity;->P0(Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity;)Lcom/commsource/beautyplus/f0/s0;
@@ -72,7 +70,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_0
     invoke-virtual {p2}, Landroid/view/MotionEvent;->getAction()I
 
@@ -82,7 +79,6 @@
 
     if-ne p2, v0, :cond_1
 
-    .line 4
     iget-object p2, p0, Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity$c;->a:Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity;
 
     invoke-static {p2}, Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity;->P0(Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity;)Lcom/commsource/beautyplus/f0/s0;
@@ -101,7 +97,6 @@
     :goto_0
     const/4 p2, 0x0
 
-    .line 5
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p2

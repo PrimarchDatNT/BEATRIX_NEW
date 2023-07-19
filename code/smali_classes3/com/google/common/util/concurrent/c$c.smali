@@ -34,7 +34,6 @@
 .method private constructor <init>(Lcom/google/common/util/concurrent/c;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/common/util/concurrent/c$c;->a:Lcom/google/common/util/concurrent/c;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -45,7 +44,6 @@
 .method synthetic constructor <init>(Lcom/google/common/util/concurrent/c;Lcom/google/common/util/concurrent/c$a;)V
     .locals 0
 
-    .line 2
     invoke-direct {p0, p1}, Lcom/google/common/util/concurrent/c$c;-><init>(Lcom/google/common/util/concurrent/c;)V
 
     return-void
@@ -56,7 +54,6 @@
 .method public a()Ljava/lang/String;
     .locals 2
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -91,7 +88,6 @@
 .method public bridge synthetic get()Ljava/lang/Object;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/util/concurrent/c$c;->a()Ljava/lang/String;
 
     move-result-object v0

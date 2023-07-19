@@ -23,7 +23,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/bumptech/glide/load/c;->b:Ljava/nio/charset/Charset;
 
     const-string v2, "com.commsource.camera.RoundedBorderCorners"
@@ -44,7 +43,6 @@
 
     const/4 v0, -0x1
 
-    .line 1
     invoke-direct {p0, p1, v0}, Lcom/commsource/camera/u0;-><init>(II)V
 
     return-void
@@ -53,7 +51,6 @@
 .method public constructor <init>(II)V
     .locals 2
 
-    .line 2
     invoke-direct {p0}, Lcom/bumptech/glide/load/resource/bitmap/h;-><init>()V
 
     if-lez p1, :cond_0
@@ -68,13 +65,10 @@
     :goto_0
     const-string v1, "roundingRadius must be greater than 0."
 
-    .line 3
     invoke-static {v0, v1}, Lcom/bumptech/glide/s/k;->a(ZLjava/lang/String;)V
 
-    .line 4
     iput p1, p0, Lcom/commsource/camera/u0;->c:I
 
-    .line 5
     iput p2, p0, Lcom/commsource/camera/u0;->d:I
 
     return-void
@@ -93,14 +87,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/camera/u0;->f:[B
 
     invoke-virtual {p1, v1}, Ljava/security/MessageDigest;->update([B)V
 
     const/4 v1, 0x4
 
-    .line 2
     invoke-static {v1}, Ljava/nio/ByteBuffer;->allocate(I)Ljava/nio/ByteBuffer;
 
     move-result-object v1
@@ -115,10 +107,8 @@
 
     move-result-object v1
 
-    .line 3
     invoke-virtual {p1, v1}, Ljava/security/MessageDigest;->update([B)V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -139,14 +129,12 @@
 
     invoke-static {p3}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget p4, p0, Lcom/commsource/camera/u0;->c:I
 
     invoke-static {p1, p2, p4}, Lcom/bumptech/glide/load/resource/bitmap/c0;->q(Lcom/bumptech/glide/load/engine/bitmap_recycle/e;Landroid/graphics/Bitmap;I)Landroid/graphics/Bitmap;
 
     move-result-object p1
 
-    .line 2
     invoke-virtual {p1}, Landroid/graphics/Bitmap;->getWidth()I
 
     move-result p2
@@ -167,22 +155,18 @@
 
     move-result-object p2
 
-    .line 3
     new-instance p4, Landroid/graphics/Paint;
 
     invoke-direct {p4}, Landroid/graphics/Paint;-><init>()V
 
-    .line 4
     new-instance v0, Landroid/graphics/Canvas;
 
     invoke-direct {v0, p2}, Landroid/graphics/Canvas;-><init>(Landroid/graphics/Bitmap;)V
 
-    .line 5
     iget v1, p0, Lcom/commsource/camera/u0;->d:I
 
     invoke-virtual {p4, v1}, Landroid/graphics/Paint;->setColor(I)V
 
-    .line 6
     new-instance v1, Landroid/graphics/RectF;
 
     invoke-virtual {p2}, Landroid/graphics/Bitmap;->getWidth()I
@@ -211,20 +195,16 @@
 
     const/high16 v1, 0x41200000    # 10.0f
 
-    .line 7
     invoke-virtual {v0, p1, v1, v1, p4}, Landroid/graphics/Canvas;->drawBitmap(Landroid/graphics/Bitmap;FFLandroid/graphics/Paint;)V
 
-    .line 8
     invoke-virtual {p1}, Landroid/graphics/Bitmap;->isRecycled()Z
 
     move-result p4
 
     if-nez p4, :cond_0
 
-    .line 9
     invoke-virtual {p1}, Landroid/graphics/Bitmap;->recycle()V
 
-    .line 10
     :cond_0
     invoke-static {p3}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -238,17 +218,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     instance-of v1, p1, Lcom/commsource/camera/u0;
 
     const/4 v2, 0x0
 
     if-eqz v1, :cond_1
 
-    .line 2
     check-cast p1, Lcom/commsource/camera/u0;
 
-    .line 3
     iget v1, p0, Lcom/commsource/camera/u0;->c:I
 
     iget p1, p1, Lcom/commsource/camera/u0;->c:I
@@ -262,7 +239,6 @@
 
     return v2
 
-    .line 4
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -276,17 +252,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/camera/u0;->c:I
 
-    .line 2
     invoke-static {v1}, Lcom/bumptech/glide/s/m;->n(I)I
 
     move-result v1
 
     const v2, 0x543da654
 
-    .line 3
     invoke-static {v2, v1}, Lcom/bumptech/glide/s/m;->o(II)I
 
     move-result v1

@@ -22,7 +22,6 @@
 .method constructor <init>(Lcom/mopub/common/MoPubBrowser;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/mopub/common/MoPubBrowser$5;->this$0:Lcom/mopub/common/MoPubBrowser;
 
     invoke-direct {p0}, Landroid/webkit/WebChromeClient;-><init>()V
@@ -39,7 +38,6 @@
 
     if-ne p2, v0, :cond_0
 
-    .line 1
     iget-object v1, p0, Lcom/mopub/common/MoPubBrowser$5;->this$0:Lcom/mopub/common/MoPubBrowser;
 
     invoke-virtual {p1}, Landroid/webkit/WebView;->getUrl()Ljava/lang/String;
@@ -50,7 +48,6 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     iget-object p1, p0, Lcom/mopub/common/MoPubBrowser$5;->this$0:Lcom/mopub/common/MoPubBrowser;
 
@@ -58,7 +55,6 @@
 
     invoke-virtual {p1, v1}, Landroid/app/Activity;->setTitle(Ljava/lang/CharSequence;)V
 
-    .line 3
     :goto_0
     iget-object p1, p0, Lcom/mopub/common/MoPubBrowser$5;->this$0:Lcom/mopub/common/MoPubBrowser;
 
@@ -74,7 +70,6 @@
 
     if-ge p1, v1, :cond_1
 
-    .line 4
     iget-object p1, p0, Lcom/mopub/common/MoPubBrowser$5;->this$0:Lcom/mopub/common/MoPubBrowser;
 
     mul-int/lit8 p2, p2, 0x64

@@ -24,7 +24,6 @@
 .method constructor <init>(Lf/r/c/c/b;Lcom/spotxchange/v4/exceptions/SPXHeartbeatException;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lf/r/c/c/b$b0;->d:Lf/r/c/c/b;
 
     iput-object p2, p0, Lf/r/c/c/b$b0;->c:Lcom/spotxchange/v4/exceptions/SPXHeartbeatException;
@@ -39,7 +38,6 @@
 .method public run()V
     .locals 3
 
-    .line 1
     iget-object v0, p0, Lf/r/c/c/b$l0;->a:Lcom/spotxchange/v4/SpotXAdPlayer$e;
 
     iget-object v1, p0, Lf/r/c/c/b$b0;->c:Lcom/spotxchange/v4/exceptions/SPXHeartbeatException;

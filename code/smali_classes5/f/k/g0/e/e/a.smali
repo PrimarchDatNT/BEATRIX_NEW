@@ -31,7 +31,6 @@
 
     const/4 v1, 0x0
 
-    .line 1
     sput-object v1, Lf/k/g0/e/e/a;->a:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -42,7 +41,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -55,12 +53,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lf/k/g0/e/e/a;->c:Ljava/lang/String;
 
     if-nez v1, :cond_0
 
-    .line 2
     :try_start_0
     invoke-virtual {p0}, Landroid/content/Context;->getPackageManager()Landroid/content/pm/PackageManager;
 
@@ -78,14 +74,12 @@
 
     if-eqz p0, :cond_0
 
-    .line 3
     iget-object p0, p0, Landroid/content/pm/PackageInfo;->versionName:Ljava/lang/String;
 
     sput-object p0, Lf/k/g0/e/e/a;->c:Ljava/lang/String;
     :try_end_0
     .catch Landroid/content/pm/PackageManager$NameNotFoundException; {:try_start_0 .. :try_end_0} :catch_0
 
-    .line 4
     :catch_0
     :cond_0
     sget-object p0, Lf/k/g0/e/e/a;->c:Ljava/lang/String;
@@ -102,12 +96,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lf/k/g0/e/e/a;->d:Ljava/lang/String;
 
     if-nez v1, :cond_0
 
-    .line 2
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -142,7 +134,6 @@
 
     sput-object v1, Lf/k/g0/e/e/a;->d:Ljava/lang/String;
 
-    .line 3
     :cond_0
     sget-object v1, Lf/k/g0/e/e/a;->d:Ljava/lang/String;
 
@@ -158,12 +149,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lf/k/g0/e/e/a;->a:Ljava/lang/String;
 
     if-nez v1, :cond_0
 
-    .line 2
     :try_start_0
     invoke-virtual {p0}, Landroid/content/Context;->getPackageManager()Landroid/content/pm/PackageManager;
 
@@ -197,7 +186,6 @@
 
     if-eqz v1, :cond_0
 
-    .line 3
     iget-object p0, p0, Landroid/content/pm/PackageInfo;->signatures:[Landroid/content/pm/Signature;
 
     const/4 v2, 0x0
@@ -220,7 +208,6 @@
     :try_end_0
     .catch Landroid/content/pm/PackageManager$NameNotFoundException; {:try_start_0 .. :try_end_0} :catch_0
 
-    .line 4
     :catch_0
     :cond_0
     sget-object p0, Lf/k/g0/e/e/a;->a:Ljava/lang/String;
@@ -237,19 +224,16 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lf/k/g0/e/e/a;->b:Ljava/lang/String;
 
     if-nez v1, :cond_0
 
-    .line 2
     invoke-virtual {p0}, Landroid/content/Context;->getPackageName()Ljava/lang/String;
 
     move-result-object p0
 
     sput-object p0, Lf/k/g0/e/e/a;->b:Ljava/lang/String;
 
-    .line 3
     :cond_0
     sget-object p0, Lf/k/g0/e/e/a;->b:Ljava/lang/String;
 
@@ -272,7 +256,6 @@
 
     if-ge v1, v2, :cond_1
 
-    .line 1
     :try_start_0
     invoke-static {p0}, Ljava/security/MessageDigest;->getInstance(Ljava/lang/String;)Ljava/security/MessageDigest;
 
@@ -282,7 +265,6 @@
 
     if-eqz v2, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v2
@@ -296,7 +278,6 @@
     :cond_1
     const/4 p0, 0x0
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0

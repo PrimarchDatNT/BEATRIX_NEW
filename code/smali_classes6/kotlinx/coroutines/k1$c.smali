@@ -49,14 +49,12 @@
 .method public constructor <init>(J)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     iput-wide p1, p0, Lcotlinx/coroutines/k1$c;->c:J
 
     const/4 p1, -0x1
 
-    .line 2
     iput p1, p0, Lcotlinx/coroutines/k1$c;->b:I
 
     return-void
@@ -67,7 +65,6 @@
 .method public a()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lcotlinx/coroutines/k1$c;->b:I
 
     return v0
@@ -76,7 +73,6 @@
 .method public bridge synthetic compareTo(Ljava/lang/Object;)I
     .locals 0
 
-    .line 1
     check-cast p1, Lcotlinx/coroutines/k1$c;
 
     invoke-virtual {p0, p1}, Lcotlinx/coroutines/k1$c;->o(Lcotlinx/coroutines/k1$c;)I
@@ -91,11 +87,9 @@
 
     monitor-enter p0
 
-    .line 1
     :try_start_0
     iget-object v0, p0, Lcotlinx/coroutines/k1$c;->a:Ljava/lang/Object;
 
-    .line 2
     invoke-static {}, Lcotlinx/coroutines/n1;->d()Lcotlinx/coroutines/internal/c0;
 
     move-result-object v1
@@ -108,7 +102,6 @@
 
     return-void
 
-    .line 3
     :cond_0
     :try_start_1
     instance-of v1, v0, Lcotlinx/coroutines/k1$d;
@@ -124,7 +117,6 @@
 
     invoke-virtual {v0, p0}, Lcotlinx/coroutines/internal/k0;->j(Lcotlinx/coroutines/internal/l0;)Z
 
-    .line 4
     :cond_2
     invoke-static {}, Lcotlinx/coroutines/n1;->d()Lcotlinx/coroutines/internal/c0;
 
@@ -134,7 +126,6 @@
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
-    .line 5
     monitor-exit p0
 
     return-void
@@ -161,7 +152,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcotlinx/coroutines/k1$c;->a:Ljava/lang/Object;
 
     invoke-static {}, Lcotlinx/coroutines/n1;->d()Lcotlinx/coroutines/internal/c0;
@@ -180,12 +170,10 @@
     :goto_0
     if-eqz v0, :cond_1
 
-    .line 2
     iput-object p1, p0, Lcotlinx/coroutines/k1$c;->a:Ljava/lang/Object;
 
     return-void
 
-    .line 3
     :cond_1
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -213,7 +201,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcotlinx/coroutines/k1$c;->a:Ljava/lang/Object;
 
     instance-of v1, v0, Lcotlinx/coroutines/internal/k0;
@@ -235,7 +222,6 @@
         .end annotation
     .end param
 
-    .line 1
     iget-wide v0, p0, Lcotlinx/coroutines/k1$c;->c:J
 
     iget-wide v2, p1, Lcotlinx/coroutines/k1$c;->c:J
@@ -279,7 +265,6 @@
 
     monitor-enter p0
 
-    .line 1
     :try_start_0
     iget-object v0, p0, Lcotlinx/coroutines/k1$c;->a:Ljava/lang/Object;
 
@@ -297,14 +282,12 @@
 
     return p1
 
-    .line 2
     :cond_0
     :try_start_1
     monitor-enter p3
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_1
 
-    .line 3
     :try_start_2
     invoke-virtual {p3}, Lcotlinx/coroutines/internal/k0;->e()Lcotlinx/coroutines/internal/l0;
 
@@ -312,7 +295,6 @@
 
     check-cast v0, Lcotlinx/coroutines/k1$c;
 
-    .line 4
     invoke-static {p4}, Lcotlinx/coroutines/k1;->Y(Lcotlinx/coroutines/k1;)Z
 
     move-result p4
@@ -337,13 +319,11 @@
 
     if-nez v0, :cond_2
 
-    .line 5
     :try_start_4
     iput-wide p1, p3, Lcotlinx/coroutines/k1$d;->b:J
 
     goto :goto_1
 
-    .line 6
     :cond_2
     iget-wide v3, v0, Lcotlinx/coroutines/k1$c;->c:J
 
@@ -358,7 +338,6 @@
     :cond_3
     move-wide p1, v3
 
-    .line 7
     :goto_0
     iget-wide v3, p3, Lcotlinx/coroutines/k1$d;->b:J
 
@@ -370,7 +349,6 @@
 
     iput-wide p1, p3, Lcotlinx/coroutines/k1$d;->b:J
 
-    .line 8
     :cond_4
     :goto_1
     iget-wide p1, p0, Lcotlinx/coroutines/k1$c;->c:J
@@ -385,13 +363,11 @@
 
     iput-wide v3, p0, Lcotlinx/coroutines/k1$c;->c:J
 
-    .line 9
     :cond_5
     invoke-virtual {p3, p0}, Lcotlinx/coroutines/internal/k0;->a(Lcotlinx/coroutines/internal/l0;)V
     :try_end_4
     .catchall {:try_start_4 .. :try_end_4} :catchall_0
 
-    .line 10
     :try_start_5
     monitor-exit p3
     :try_end_5
@@ -399,7 +375,6 @@
 
     const/4 p1, 0x0
 
-    .line 11
     monitor-exit p0
 
     return p1
@@ -407,7 +382,6 @@
     :catchall_0
     move-exception p1
 
-    .line 12
     :try_start_6
     monitor-exit p3
 
@@ -426,7 +400,6 @@
 .method public final s(J)Z
     .locals 3
 
-    .line 1
     iget-wide v0, p0, Lcotlinx/coroutines/k1$c;->c:J
 
     sub-long/2addr p1, v0
@@ -451,7 +424,6 @@
 .method public setIndex(I)V
     .locals 0
 
-    .line 1
     iput p1, p0, Lcotlinx/coroutines/k1$c;->b:I
 
     return-void
@@ -462,7 +434,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V

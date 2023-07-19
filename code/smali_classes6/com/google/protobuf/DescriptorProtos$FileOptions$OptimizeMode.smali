@@ -60,7 +60,6 @@
 .method static constructor <clinit>()V
     .locals 8
 
-    .line 1
     new-instance v0, Lcom/google/protobuf/DescriptorProtos$FileOptions$OptimizeMode;
 
     const-string v1, "SPEED"
@@ -73,7 +72,6 @@
 
     sput-object v0, Lcom/google/protobuf/DescriptorProtos$FileOptions$OptimizeMode;->SPEED:Lcom/google/protobuf/DescriptorProtos$FileOptions$OptimizeMode;
 
-    .line 2
     new-instance v1, Lcom/google/protobuf/DescriptorProtos$FileOptions$OptimizeMode;
 
     const-string v4, "CODE_SIZE"
@@ -84,7 +82,6 @@
 
     sput-object v1, Lcom/google/protobuf/DescriptorProtos$FileOptions$OptimizeMode;->CODE_SIZE:Lcom/google/protobuf/DescriptorProtos$FileOptions$OptimizeMode;
 
-    .line 3
     new-instance v4, Lcom/google/protobuf/DescriptorProtos$FileOptions$OptimizeMode;
 
     const-string v6, "LITE_RUNTIME"
@@ -103,10 +100,8 @@
 
     aput-object v4, v6, v5
 
-    .line 4
     sput-object v6, Lcom/google/protobuf/DescriptorProtos$FileOptions$OptimizeMode;->$VALUES:[Lcom/google/protobuf/DescriptorProtos$FileOptions$OptimizeMode;
 
-    .line 5
     new-instance v0, Lcom/google/protobuf/DescriptorProtos$FileOptions$OptimizeMode$a;
 
     invoke-direct {v0}, Lcom/google/protobuf/DescriptorProtos$FileOptions$OptimizeMode$a;-><init>()V
@@ -124,10 +119,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 2
     iput p3, p0, Lcom/google/protobuf/DescriptorProtos$FileOptions$OptimizeMode;->value:I
 
     return-void
@@ -152,19 +145,16 @@
 
     return-object p0
 
-    .line 1
     :cond_0
     sget-object p0, Lcom/google/protobuf/DescriptorProtos$FileOptions$OptimizeMode;->LITE_RUNTIME:Lcom/google/protobuf/DescriptorProtos$FileOptions$OptimizeMode;
 
     return-object p0
 
-    .line 2
     :cond_1
     sget-object p0, Lcom/google/protobuf/DescriptorProtos$FileOptions$OptimizeMode;->CODE_SIZE:Lcom/google/protobuf/DescriptorProtos$FileOptions$OptimizeMode;
 
     return-object p0
 
-    .line 3
     :cond_2
     sget-object p0, Lcom/google/protobuf/DescriptorProtos$FileOptions$OptimizeMode;->SPEED:Lcom/google/protobuf/DescriptorProtos$FileOptions$OptimizeMode;
 
@@ -182,7 +172,6 @@
         }
     .end annotation
 
-    .line 1
     sget-object v0, Lcom/google/protobuf/DescriptorProtos$FileOptions$OptimizeMode;->internalValueMap:Lcom/google/protobuf/z0$d;
 
     return-object v0
@@ -193,7 +182,6 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    .line 2
     invoke-static {p0}, Lcom/google/protobuf/DescriptorProtos$FileOptions$OptimizeMode;->forNumber(I)Lcom/google/protobuf/DescriptorProtos$FileOptions$OptimizeMode;
 
     move-result-object p0
@@ -204,7 +192,6 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/google/protobuf/DescriptorProtos$FileOptions$OptimizeMode;
     .locals 1
 
-    .line 1
     const-class v0, Lcom/google/protobuf/DescriptorProtos$FileOptions$OptimizeMode;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -219,7 +206,6 @@
 .method public static values()[Lcom/google/protobuf/DescriptorProtos$FileOptions$OptimizeMode;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/google/protobuf/DescriptorProtos$FileOptions$OptimizeMode;->$VALUES:[Lcom/google/protobuf/DescriptorProtos$FileOptions$OptimizeMode;
 
     invoke-virtual {v0}, [Lcom/google/protobuf/DescriptorProtos$FileOptions$OptimizeMode;->clone()Ljava/lang/Object;
@@ -236,7 +222,6 @@
 .method public final getNumber()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lcom/google/protobuf/DescriptorProtos$FileOptions$OptimizeMode;->value:I
 
     return v0

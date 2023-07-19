@@ -43,7 +43,6 @@
 .method static constructor <clinit>()V
     .locals 15
 
-    .line 1
     new-instance v0, Lcom/giphy/sdk/core/models/enums/RatingType;
 
     const-string v1, "r"
@@ -54,7 +53,6 @@
 
     sput-object v0, Lcom/giphy/sdk/core/models/enums/RatingType;->r:Lcom/giphy/sdk/core/models/enums/RatingType;
 
-    .line 2
     new-instance v1, Lcom/giphy/sdk/core/models/enums/RatingType;
 
     const-string v3, "y"
@@ -65,7 +63,6 @@
 
     sput-object v1, Lcom/giphy/sdk/core/models/enums/RatingType;->y:Lcom/giphy/sdk/core/models/enums/RatingType;
 
-    .line 3
     new-instance v3, Lcom/giphy/sdk/core/models/enums/RatingType;
 
     const-string v5, "g"
@@ -76,7 +73,6 @@
 
     sput-object v3, Lcom/giphy/sdk/core/models/enums/RatingType;->g:Lcom/giphy/sdk/core/models/enums/RatingType;
 
-    .line 4
     new-instance v5, Lcom/giphy/sdk/core/models/enums/RatingType;
 
     const-string v7, "pg"
@@ -87,7 +83,6 @@
 
     sput-object v5, Lcom/giphy/sdk/core/models/enums/RatingType;->pg:Lcom/giphy/sdk/core/models/enums/RatingType;
 
-    .line 5
     new-instance v7, Lcom/giphy/sdk/core/models/enums/RatingType;
 
     const-string v9, "pg13"
@@ -100,7 +95,6 @@
 
     sput-object v7, Lcom/giphy/sdk/core/models/enums/RatingType;->pg13:Lcom/giphy/sdk/core/models/enums/RatingType;
 
-    .line 6
     new-instance v9, Lcom/giphy/sdk/core/models/enums/RatingType;
 
     const-string v11, "unrated"
@@ -111,7 +105,6 @@
 
     sput-object v9, Lcom/giphy/sdk/core/models/enums/RatingType;->unrated:Lcom/giphy/sdk/core/models/enums/RatingType;
 
-    .line 7
     new-instance v11, Lcom/giphy/sdk/core/models/enums/RatingType;
 
     const-string v13, "nsfw"
@@ -140,7 +133,6 @@
 
     aput-object v11, v13, v14
 
-    .line 8
     sput-object v13, Lcom/giphy/sdk/core/models/enums/RatingType;->$VALUES:[Lcom/giphy/sdk/core/models/enums/RatingType;
 
     return-void
@@ -156,10 +148,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 2
     iput-object p3, p0, Lcom/giphy/sdk/core/models/enums/RatingType;->rating:Ljava/lang/String;
 
     return-void
@@ -168,7 +158,6 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/giphy/sdk/core/models/enums/RatingType;
     .locals 1
 
-    .line 1
     const-class v0, Lcom/giphy/sdk/core/models/enums/RatingType;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -183,7 +172,6 @@
 .method public static values()[Lcom/giphy/sdk/core/models/enums/RatingType;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/giphy/sdk/core/models/enums/RatingType;->$VALUES:[Lcom/giphy/sdk/core/models/enums/RatingType;
 
     invoke-virtual {v0}, [Lcom/giphy/sdk/core/models/enums/RatingType;->clone()Ljava/lang/Object;
@@ -200,7 +188,6 @@
 .method public toString()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/giphy/sdk/core/models/enums/RatingType;->rating:Ljava/lang/String;
 
     return-object v0

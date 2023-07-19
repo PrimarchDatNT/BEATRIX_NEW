@@ -40,10 +40,8 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-direct {p0}, Landroid/content/BroadcastReceiver;-><init>()V
 
-    .line 2
     new-instance v0, Ljava/lang/ref/WeakReference;
 
     invoke-direct {v0, p1}, Ljava/lang/ref/WeakReference;-><init>(Ljava/lang/Object;)V
@@ -70,7 +68,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/beautyplus/setting/test/TestFuncFloatingWinService$b;->a:Ljava/lang/ref/WeakReference;
 
     invoke-virtual {v0}, Ljava/lang/ref/WeakReference;->get()Ljava/lang/Object;
@@ -87,7 +84,6 @@
 
     const-string v2, "processStatus"
 
-    .line 2
     invoke-virtual {p2, v2, v1}, Landroid/content/Intent;->getIntExtra(Ljava/lang/String;I)I
 
     move-result v1
@@ -101,17 +97,14 @@
 
     goto :goto_0
 
-    .line 3
     :cond_1
     invoke-static {v0}, Lcom/commsource/beautyplus/setting/test/TestFuncFloatingWinService;->a(Lcom/commsource/beautyplus/setting/test/TestFuncFloatingWinService;)V
 
     goto :goto_0
 
-    .line 4
     :cond_2
     invoke-static {v0}, Lcom/commsource/beautyplus/setting/test/TestFuncFloatingWinService;->b(Lcom/commsource/beautyplus/setting/test/TestFuncFloatingWinService;)V
 
-    .line 5
     :cond_3
     :goto_0
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V

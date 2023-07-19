@@ -35,30 +35,24 @@
 .method public constructor <init>(Landroid/content/Context;Ljava/util/concurrent/ExecutorService;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lf/k/g0/g/a;->a:Landroid/content/Context;
 
-    .line 3
     iput-object p2, p0, Lf/k/g0/g/a;->d:Ljava/util/concurrent/ExecutorService;
 
-    .line 4
     invoke-direct {p0}, Lf/k/g0/g/a;->a()Lf/k/g0/g/d/d;
 
     move-result-object p1
 
     iput-object p1, p0, Lf/k/g0/g/a;->e:Lf/k/g0/g/d/d;
 
-    .line 5
     invoke-direct {p0}, Lf/k/g0/g/a;->f()Lf/k/g0/g/c/a;
 
     move-result-object p1
 
     iput-object p1, p0, Lf/k/g0/g/a;->b:Lf/k/g0/g/c/a;
 
-    .line 6
     invoke-direct {p0}, Lf/k/g0/g/a;->e()Ljava/util/List;
 
     move-result-object p1
@@ -75,21 +69,18 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/util/ArrayList;
 
     const/4 v2, 0x2
 
     invoke-direct {v1, v2}, Ljava/util/ArrayList;-><init>(I)V
 
-    .line 2
     invoke-static {}, Lf/k/g0/g/b;->a()Z
 
     move-result v2
 
     if-eqz v2, :cond_0
 
-    .line 3
     new-instance v2, Lf/k/g0/g/d/e;
 
     iget-object v3, p0, Lf/k/g0/g/a;->a:Landroid/content/Context;
@@ -98,7 +89,6 @@
 
     invoke-interface {v1, v2}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
-    .line 4
     :cond_0
     invoke-static {}, Lf/k/g0/g/b;->d()Z
 
@@ -106,7 +96,6 @@
 
     if-eqz v2, :cond_1
 
-    .line 5
     new-instance v2, Lf/k/g0/g/d/c;
 
     iget-object v3, p0, Lf/k/g0/g/a;->a:Landroid/content/Context;
@@ -117,7 +106,6 @@
 
     invoke-interface {v1, v2}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
-    .line 6
     :cond_1
     new-instance v2, Lf/k/g0/g/d/a;
 
@@ -143,21 +131,18 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/util/ArrayList;
 
     const/4 v2, 0x3
 
     invoke-direct {v1, v2}, Ljava/util/ArrayList;-><init>(I)V
 
-    .line 2
     invoke-static {}, Lf/k/g0/g/b;->a()Z
 
     move-result v2
 
     if-eqz v2, :cond_0
 
-    .line 3
     new-instance v2, Lf/k/g0/g/e/d/a;
 
     iget-object v3, p0, Lf/k/g0/g/a;->a:Landroid/content/Context;
@@ -168,7 +153,6 @@
 
     invoke-interface {v1, v2}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
-    .line 4
     :cond_0
     invoke-static {}, Lf/k/g0/g/b;->d()Z
 
@@ -176,7 +160,6 @@
 
     if-eqz v2, :cond_1
 
-    .line 5
     new-instance v2, Lf/k/g0/g/e/e/a;
 
     iget-object v3, p0, Lf/k/g0/g/a;->a:Landroid/content/Context;
@@ -187,7 +170,6 @@
 
     invoke-interface {v1, v2}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
-    .line 6
     :cond_1
     invoke-static {}, Lf/k/g0/g/b;->b()Z
 
@@ -195,7 +177,6 @@
 
     if-eqz v2, :cond_2
 
-    .line 7
     new-instance v2, Lf/k/g0/g/e/c/a;
 
     iget-object v3, p0, Lf/k/g0/g/a;->a:Landroid/content/Context;
@@ -206,7 +187,6 @@
 
     invoke-interface {v1, v2}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
-    .line 8
     :cond_2
     invoke-static {v1}, Ljava/util/Collections;->unmodifiableList(Ljava/util/List;)Ljava/util/List;
 
@@ -224,14 +204,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lf/k/g0/g/b;->c()Z
 
     move-result v1
 
     if-eqz v1, :cond_0
 
-    .line 2
     new-instance v1, Lf/k/g0/g/c/b;
 
     iget-object v2, p0, Lf/k/g0/g/a;->a:Landroid/content/Context;
@@ -240,13 +218,11 @@
 
     goto :goto_0
 
-    .line 3
     :cond_0
     new-instance v1, Lf/k/g0/g/c/c;
 
     invoke-direct {v1}, Lf/k/g0/g/c/c;-><init>()V
 
-    .line 4
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -262,7 +238,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lf/k/g0/g/a;->e:Lf/k/g0/g/d/d;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -285,7 +260,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lf/k/g0/g/a;->c:Ljava/util/List;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -302,7 +276,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lf/k/g0/g/a;->b:Lf/k/g0/g/c/a;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

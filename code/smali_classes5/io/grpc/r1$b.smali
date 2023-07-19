@@ -51,10 +51,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Lio/grpc/z;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lio/grpc/r1$b;->a:Lio/grpc/r1$c;
 
     return-void
@@ -63,7 +61,6 @@
 .method static synthetic m(Lio/grpc/r1$c;)Lio/grpc/r1$b;
     .locals 0
 
-    .line 1
     invoke-static {p0}, Lio/grpc/r1$b;->n(Lio/grpc/r1$c;)Lio/grpc/r1$b;
 
     move-result-object p0
@@ -87,7 +84,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lio/grpc/r1$b;
 
     invoke-direct {v0, p0}, Lio/grpc/r1$b;-><init>(Lio/grpc/r1$c;)V
@@ -100,7 +96,6 @@
 .method public b()Lio/grpc/a;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lio/grpc/r1$b;->a:Lio/grpc/r1$c;
 
     invoke-virtual {v0}, Lio/grpc/r1$c;->a()Lio/grpc/a;
@@ -113,7 +108,6 @@
 .method public c()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lio/grpc/r1$b;->a:Lio/grpc/r1$c;
 
     invoke-virtual {v0}, Lio/grpc/r1$c;->b()Ljava/lang/String;
@@ -133,7 +127,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lio/grpc/r1$b;->a:Lio/grpc/r1$c;
 
     invoke-virtual {v0}, Lio/grpc/r1$c;->c()Lio/grpc/MethodDescriptor;
@@ -169,7 +162,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/lang/UnsupportedOperationException;
 
     invoke-direct {v0}, Ljava/lang/UnsupportedOperationException;-><init>()V

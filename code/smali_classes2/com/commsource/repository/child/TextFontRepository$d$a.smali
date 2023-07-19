@@ -59,7 +59,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
     move-result-object v1
@@ -70,7 +69,6 @@
 
     move-result-object v1
 
-    .line 2
     new-instance v2, Lcom/commsource/repository/child/TextFontRepository$d$a$a;
 
     invoke-direct {v2}, Lcom/commsource/repository/child/TextFontRepository$d$a$a;-><init>()V
@@ -79,7 +77,6 @@
 
     move-result-object v2
 
-    .line 3
     invoke-static {v1, v2}, Lcom/meitu/webview/utils/c;->a(Ljava/lang/String;Ljava/lang/reflect/Type;)Ljava/lang/Object;
 
     move-result-object v1
@@ -90,12 +87,10 @@
 
     check-cast v1, Ljava/util/ArrayList;
 
-    .line 4
     new-instance v2, Ljava/util/ArrayList;
 
     invoke-direct {v2}, Ljava/util/ArrayList;-><init>()V
 
-    .line 5
     invoke-interface {v1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v1
@@ -116,14 +111,12 @@
 
     check-cast v3, Lcom/commsource/studio/text/TextFontMaterialJsonBean;
 
-    .line 6
     invoke-virtual {v3}, Lcom/commsource/studio/text/TextFontMaterialJsonBean;->getTextFonts()Ljava/util/List;
 
     move-result-object v5
 
     if-eqz v5, :cond_2
 
-    .line 7
     invoke-interface {v5}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v5
@@ -148,7 +141,6 @@
     :cond_1
     check-cast v6, Lcom/commsource/studio/text/TextFontMaterial;
 
-    .line 8
     invoke-virtual {v3}, Lcom/commsource/studio/text/TextFontMaterialJsonBean;->getName()Ljava/lang/String;
 
     move-result-object v4
@@ -157,17 +149,14 @@
 
     const/4 v4, 0x1
 
-    .line 9
     invoke-virtual {v6, v4}, Lcom/commsource/studio/text/TextFontMaterial;->setDownloadState(I)V
 
-    .line 10
     invoke-virtual {v6, v4}, Lcom/commsource/studio/text/TextFontMaterial;->setInternalState(I)V
 
     move v4, v7
 
     goto :goto_1
 
-    .line 11
     :cond_2
     invoke-virtual {v3}, Lcom/commsource/studio/text/TextFontMaterialJsonBean;->getTextFonts()Ljava/util/List;
 
@@ -175,12 +164,10 @@
 
     if-eqz v3, :cond_0
 
-    .line 12
     invoke-virtual {v2, v3}, Ljava/util/ArrayList;->addAll(Ljava/util/Collection;)Z
 
     goto :goto_0
 
-    .line 13
     :cond_3
     sget-object v1, Lcom/commsource/repository/child/TextFontRepository;->v:Lcom/commsource/repository/child/TextFontRepository;
 
@@ -190,7 +177,6 @@
 
     new-array v3, v4, [Lcom/commsource/studio/text/TextFontMaterial;
 
-    .line 14
     invoke-interface {v2, v3}, Ljava/util/Collection;->toArray([Ljava/lang/Object;)[Ljava/lang/Object;
 
     move-result-object v2
@@ -199,15 +185,12 @@
 
     check-cast v2, [Lcom/commsource/studio/text/TextFontMaterial;
 
-    .line 15
     invoke-interface {v1, v2}, Lf/k/i0/a/a1;->E2([Lcom/commsource/studio/text/TextFontMaterial;)V
 
-    .line 16
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 17
     :cond_4
     new-instance v1, Ljava/lang/NullPointerException;
 

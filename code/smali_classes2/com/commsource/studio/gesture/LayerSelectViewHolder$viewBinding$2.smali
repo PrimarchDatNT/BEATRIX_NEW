@@ -53,7 +53,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/gesture/LayerSelectViewHolder$viewBinding$2;->this$0:Lcom/commsource/studio/gesture/LayerSelectViewHolder;
 
     iget-object v1, v1, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->itemView:Landroid/view/View;
@@ -74,7 +73,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/studio/gesture/LayerSelectViewHolder$viewBinding$2;->invoke()Lcom/commsource/beautyplus/f0/gi;
 
     move-result-object v1

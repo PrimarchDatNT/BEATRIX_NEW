@@ -25,7 +25,6 @@
 .method constructor <init>(Lcom/mopub/nativeads/CustomEventNativeAdapter;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/mopub/nativeads/CustomEventNativeAdapter$1;->this$0:Lcom/mopub/nativeads/CustomEventNativeAdapter;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -38,7 +37,6 @@
 .method public run()V
     .locals 6
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/nativeads/CustomEventNativeAdapter$1;->this$0:Lcom/mopub/nativeads/CustomEventNativeAdapter;
 
     invoke-static {v0}, Lcom/mopub/nativeads/CustomEventNativeAdapter;->access$000(Lcom/mopub/nativeads/CustomEventNativeAdapter;)Z
@@ -49,7 +47,6 @@
 
     return-void
 
-    .line 2
     :cond_0
     sget-object v0, Lcom/mopub/common/logging/MoPubLog$SdkLogEvent;->CUSTOM:Lcom/mopub/common/logging/MoPubLog$SdkLogEvent;
 
@@ -69,7 +66,6 @@
 
     sget-object v4, Lcom/mopub/mobileads/MoPubErrorCode;->NETWORK_TIMEOUT:Lcom/mopub/mobileads/MoPubErrorCode;
 
-    .line 3
     invoke-virtual {v4}, Lcom/mopub/mobileads/MoPubErrorCode;->getIntCode()I
 
     move-result v5
@@ -88,15 +84,12 @@
 
     aput-object v3, v1, v2
 
-    .line 4
     invoke-static {v0, v1}, Lcom/mopub/common/logging/MoPubLog;->log(Lcom/mopub/common/logging/MoPubLog$MPLogEventType;[Ljava/lang/Object;)V
 
-    .line 5
     iget-object v0, p0, Lcom/mopub/nativeads/CustomEventNativeAdapter$1;->this$0:Lcom/mopub/nativeads/CustomEventNativeAdapter;
 
     invoke-virtual {v0}, Lcom/mopub/nativeads/CustomEventNativeAdapter;->stopLoading()V
 
-    .line 6
     iget-object v0, p0, Lcom/mopub/nativeads/CustomEventNativeAdapter$1;->this$0:Lcom/mopub/nativeads/CustomEventNativeAdapter;
 
     invoke-static {v0}, Lcom/mopub/nativeads/CustomEventNativeAdapter;->access$100(Lcom/mopub/nativeads/CustomEventNativeAdapter;)Lcom/mopub/nativeads/CustomEventNative$CustomEventNativeListener;

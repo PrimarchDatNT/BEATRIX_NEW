@@ -57,7 +57,6 @@
 
     const-string v1, "it"
 
-    .line 1
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {p1}, Ljava/lang/Boolean;->booleanValue()Z
@@ -68,7 +67,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 2
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/ProCover$b;->a:Lcom/commsource/camera/xcamera/cover/ProCover;
 
     invoke-virtual {p1}, Lcom/commsource/camera/xcamera/cover/AbsLazyCover;->A()Landroidx/databinding/ViewDataBinding;
@@ -91,7 +89,6 @@
 
     goto/16 :goto_0
 
-    .line 3
     :cond_0
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/ProCover$b;->a:Lcom/commsource/camera/xcamera/cover/ProCover;
 
@@ -113,7 +110,6 @@
 
     check-cast p1, Lcom/commsource/camera/xcamera/cover/bottomFunction/BottomFunction;
 
-    .line 4
     iget-object v2, p0, Lcom/commsource/camera/xcamera/cover/ProCover$b;->a:Lcom/commsource/camera/xcamera/cover/ProCover;
 
     invoke-virtual {v2}, Lcom/commsource/camera/xcamera/cover/ProCover;->P()Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/EffectFunctionViewModel;
@@ -130,7 +126,6 @@
 
     check-cast v2, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/EffectFunction;
 
-    .line 5
     iget-object v3, p0, Lcom/commsource/camera/xcamera/cover/ProCover$b;->a:Lcom/commsource/camera/xcamera/cover/ProCover;
 
     invoke-static {v3}, Lcom/commsource/camera/xcamera/cover/ProCover;->G(Lcom/commsource/camera/xcamera/cover/ProCover;)Z
@@ -139,7 +134,6 @@
 
     if-nez v3, :cond_3
 
-    .line 6
     iget-object v3, p0, Lcom/commsource/camera/xcamera/cover/ProCover$b;->a:Lcom/commsource/camera/xcamera/cover/ProCover;
 
     invoke-static {v3}, Lcom/commsource/camera/xcamera/cover/ProCover;->E(Lcom/commsource/camera/xcamera/cover/ProCover;)Z
@@ -156,7 +150,6 @@
 
     if-ne v2, p1, :cond_3
 
-    .line 7
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/ProCover$b;->a:Lcom/commsource/camera/xcamera/cover/ProCover;
 
     invoke-virtual {p1}, Lcom/commsource/camera/xcamera/cover/ProCover;->N()Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;
@@ -175,7 +168,6 @@
 
     if-eqz p1, :cond_3
 
-    .line 8
     invoke-virtual {p1}, Lcom/meitu/template/bean/Filter;->getGroupId()I
 
     move-result v2
@@ -188,7 +180,6 @@
 
     if-eqz v2, :cond_2
 
-    .line 9
     iget-object v2, p0, Lcom/commsource/camera/xcamera/cover/ProCover$b;->a:Lcom/commsource/camera/xcamera/cover/ProCover;
 
     invoke-virtual {v2}, Lcom/commsource/camera/xcamera/cover/AbsLazyCover;->A()Landroidx/databinding/ViewDataBinding;
@@ -205,7 +196,6 @@
 
     new-array v3, v3, [Ljava/lang/String;
 
-    .line 10
     invoke-static {}, Lcom/commsource/util/b2;->d()Ljava/lang/String;
 
     move-result-object v4
@@ -238,10 +228,8 @@
 
     move-result-object p1
 
-    .line 11
     invoke-virtual {v2, p1}, Lcom/commsource/widget/ProView;->N(Ljava/util/List;)V
 
-    .line 12
     :cond_1
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/ProCover$b;->a:Lcom/commsource/camera/xcamera/cover/ProCover;
 
@@ -267,7 +255,6 @@
 
     goto :goto_0
 
-    .line 13
     :cond_2
     invoke-virtual {p1}, Lcom/meitu/template/bean/Filter;->getFilterId()I
 
@@ -275,7 +262,6 @@
 
     if-eqz p1, :cond_3
 
-    .line 14
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/ProCover$b;->a:Lcom/commsource/camera/xcamera/cover/ProCover;
 
     invoke-virtual {p1}, Lcom/commsource/camera/xcamera/cover/AbsLazyCover;->A()Landroidx/databinding/ViewDataBinding;
@@ -296,7 +282,6 @@
 
     invoke-virtual {p1, v1}, Lcom/commsource/widget/ProView;->M(Ljava/lang/Integer;)V
 
-    .line 15
     :cond_3
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -311,7 +296,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Ljava/lang/Boolean;
 
     invoke-virtual {p0, p1}, Lcom/commsource/camera/xcamera/cover/ProCover$b;->a(Ljava/lang/Boolean;)V

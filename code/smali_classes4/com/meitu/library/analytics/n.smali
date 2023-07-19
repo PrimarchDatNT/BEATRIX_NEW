@@ -19,10 +19,8 @@
 .method constructor <init>(Lcom/meitu/library/analytics/o$a;)V
     .locals 1
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/meitu/library/analytics/a;-><init>(Lcom/meitu/library/analytics/o$a;)V
 
-    .line 2
     new-instance v0, Lcom/meitu/library/analytics/a0/a;
 
     iget-object p1, p1, Lcom/meitu/library/analytics/o$a;->a:Landroid/app/Application;
@@ -45,19 +43,16 @@
 
     const/4 v1, 0x0
 
-    .line 1
     invoke-virtual {p1, v1}, Lcom/meitu/library/analytics/sdk/content/f$c;->l(Z)Lcom/meitu/library/analytics/sdk/content/f$c;
 
     move-result-object p1
 
-    .line 2
     invoke-static {}, Lcom/meitu/library/analytics/gid/d;->u()Lcom/meitu/library/analytics/y/d/e$c;
 
     move-result-object v1
 
     invoke-virtual {p1, v1}, Lcom/meitu/library/analytics/sdk/content/f$c;->k(Lcom/meitu/library/analytics/y/d/e$c;)Lcom/meitu/library/analytics/sdk/content/f$c;
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -70,7 +65,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const/4 v0, 0x0
@@ -85,7 +79,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -98,7 +91,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/library/analytics/n;->e:Lcom/meitu/library/analytics/a0/a;
 
     invoke-virtual {v1}, Lcom/meitu/library/analytics/a0/a;->b()Ljava/lang/String;
@@ -117,7 +109,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/library/analytics/n;->e:Lcom/meitu/library/analytics/a0/a;
 
     invoke-virtual {v1}, Lcom/meitu/library/analytics/a0/a;->c()I
@@ -136,7 +127,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/library/analytics/n;->e:Lcom/meitu/library/analytics/a0/a;
 
     invoke-virtual {v1}, Lcom/meitu/library/analytics/a0/a;->getOaid()Ljava/lang/String;
@@ -155,7 +145,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/library/analytics/n;->e:Lcom/meitu/library/analytics/a0/a;
 
     invoke-virtual {v1, p1}, Lcom/meitu/library/analytics/a0/a;->y(Lcom/meitu/library/analytics/sdk/content/Switcher;)Z

@@ -37,31 +37,26 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     new-instance v0, Landroid/os/Bundle;
 
     invoke-direct {v0}, Landroid/os/Bundle;-><init>()V
 
     iput-object v0, p0, Lcom/google/firebase/messaging/RemoteMessage$a;->a:Landroid/os/Bundle;
 
-    .line 3
     new-instance v1, Landroidx/collection/ArrayMap;
 
     invoke-direct {v1}, Landroidx/collection/ArrayMap;-><init>()V
 
     iput-object v1, p0, Lcom/google/firebase/messaging/RemoteMessage$a;->b:Ljava/util/Map;
 
-    .line 4
     invoke-static {p1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v1
 
     if-eqz v1, :cond_1
 
-    .line 5
     new-instance v0, Ljava/lang/IllegalArgumentException;
 
     const-string v1, "Invalid to: "
@@ -95,7 +90,6 @@
     :cond_1
     const-string v1, "google.to"
 
-    .line 6
     invoke-virtual {v0, v1, p1}, Landroid/os/Bundle;->putString(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
@@ -116,7 +110,6 @@
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/messaging/RemoteMessage$a;->b:Ljava/util/Map;
 
     invoke-interface {v0, p1, p2}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
@@ -129,12 +122,10 @@
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
-    .line 1
     new-instance v0, Landroid/os/Bundle;
 
     invoke-direct {v0}, Landroid/os/Bundle;-><init>()V
 
-    .line 2
     iget-object v1, p0, Lcom/google/firebase/messaging/RemoteMessage$a;->b:Ljava/util/Map;
 
     invoke-interface {v1}, Ljava/util/Map;->entrySet()Ljava/util/Set;
@@ -158,7 +149,6 @@
 
     check-cast v2, Ljava/util/Map$Entry;
 
-    .line 3
     invoke-interface {v2}, Ljava/util/Map$Entry;->getKey()Ljava/lang/Object;
 
     move-result-object v3
@@ -175,20 +165,17 @@
 
     goto :goto_0
 
-    .line 4
     :cond_0
     iget-object v1, p0, Lcom/google/firebase/messaging/RemoteMessage$a;->a:Landroid/os/Bundle;
 
     invoke-virtual {v0, v1}, Landroid/os/Bundle;->putAll(Landroid/os/Bundle;)V
 
-    .line 5
     iget-object v1, p0, Lcom/google/firebase/messaging/RemoteMessage$a;->a:Landroid/os/Bundle;
 
     const-string v2, "from"
 
     invoke-virtual {v1, v2}, Landroid/os/Bundle;->remove(Ljava/lang/String;)V
 
-    .line 6
     new-instance v1, Lcom/google/firebase/messaging/RemoteMessage;
 
     invoke-direct {v1, v0}, Lcom/google/firebase/messaging/RemoteMessage;-><init>(Landroid/os/Bundle;)V
@@ -201,7 +188,6 @@
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/messaging/RemoteMessage$a;->b:Ljava/util/Map;
 
     invoke-interface {v0}, Ljava/util/Map;->clear()V
@@ -218,7 +204,6 @@
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/messaging/RemoteMessage$a;->a:Landroid/os/Bundle;
 
     const-string v1, "collapse_key"
@@ -248,12 +233,10 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/messaging/RemoteMessage$a;->b:Ljava/util/Map;
 
     invoke-interface {v0}, Ljava/util/Map;->clear()V
 
-    .line 2
     iget-object v0, p0, Lcom/google/firebase/messaging/RemoteMessage$a;->b:Ljava/util/Map;
 
     invoke-interface {v0, p1}, Ljava/util/Map;->putAll(Ljava/util/Map;)V
@@ -270,7 +253,6 @@
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/messaging/RemoteMessage$a;->a:Landroid/os/Bundle;
 
     const-string v1, "google.message_id"
@@ -289,7 +271,6 @@
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/messaging/RemoteMessage$a;->a:Landroid/os/Bundle;
 
     const-string v1, "message_type"
@@ -310,7 +291,6 @@
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/messaging/RemoteMessage$a;->a:Landroid/os/Bundle;
 
     invoke-static {p1}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;

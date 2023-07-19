@@ -57,12 +57,10 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity$i;->a:Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity;
 
     invoke-static {v1, p1}, Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity;->d1(Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity;Lcom/commsource/billing/bean/SubPriceInfo;)V
 
-    .line 2
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -76,7 +74,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Lcom/commsource/billing/bean/SubPriceInfo;
 
     invoke-virtual {p0, p1}, Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity$i;->a(Lcom/commsource/billing/bean/SubPriceInfo;)V

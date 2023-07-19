@@ -13,19 +13,16 @@
 
     const-string v0, "Lier_filterGL"
 
-    .line 1
     invoke-direct {p0}, Lcom/meitu/core/MTFilterLibrary;-><init>()V
 
     const-wide/16 v1, 0x0
 
-    .line 2
     iput-wide v1, p0, Lcom/meitu/core/filtergl/facedata/MTFilterFaceDataJNI;->nativeInstance:J
 
     cmp-long v3, v1, v1
 
     if-nez v3, :cond_1
 
-    .line 3
     :try_start_0
     invoke-direct {p0}, Lcom/meitu/core/filtergl/facedata/MTFilterFaceDataJNI;->nativeCreateInstance()J
 
@@ -41,13 +38,10 @@
     :try_start_1
     const-string v1, " nativeCreateInstance fail 1... try again!"
 
-    .line 4
     invoke-static {v0, v1}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 5
     invoke-static {}, Lcom/meitu/core/MTFilterLibrary;->loadMTFilterLibrary()V
 
-    .line 6
     invoke-direct {p0}, Lcom/meitu/core/filtergl/facedata/MTFilterFaceDataJNI;->nativeCreateInstance()J
 
     move-result-wide v1
@@ -62,13 +56,10 @@
     :try_start_2
     const-string v1, " nativeCreateInstance fail 2... try again"
 
-    .line 7
     invoke-static {v0, v1}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 8
     invoke-static {}, Lcom/meitu/core/MTFilterLibrary;->loadMTFilterLibrary()V
 
-    .line 9
     invoke-direct {p0}, Lcom/meitu/core/filtergl/facedata/MTFilterFaceDataJNI;->nativeCreateInstance()J
 
     move-result-wide v1
@@ -84,15 +75,12 @@
 
     const-string v1, " nativeCreateInstance fail 3..."
 
-    .line 10
     invoke-static {v0, v1}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 11
     sget-object v1, Lcom/meitu/core/MTFilterLibrary;->applicationContext:Landroid/content/Context;
 
     if-eqz v1, :cond_0
 
-    .line 12
     new-instance v0, Ljava/lang/IllegalStateException;
 
     sget-object v1, Lcom/meitu/core/MTFilterLibrary;->applicationContext:Landroid/content/Context;
@@ -110,10 +98,8 @@
     :cond_0
     const-string v1, "ToolMtEncode, applicationContext == null"
 
-    .line 13
     invoke-static {v0, v1}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 14
     new-instance v0, Ljava/lang/IllegalStateException;
 
     invoke-direct {v0}, Ljava/lang/IllegalStateException;-><init>()V
@@ -167,7 +153,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     :try_start_0
     iget-wide v1, p0, Lcom/meitu/core/filtergl/facedata/MTFilterFaceDataJNI;->nativeInstance:J
 
@@ -186,10 +171,8 @@
 
     const-string v1, " nativeGetFacialLandmark2D fail. try again!"
 
-    .line 2
     invoke-static {p1, v1}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 3
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -208,7 +191,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     :try_start_0
     iget-wide v1, p0, Lcom/meitu/core/filtergl/facedata/MTFilterFaceDataJNI;->nativeInstance:J
 
@@ -216,7 +198,6 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 2
     :goto_0
     invoke-super {p0}, Ljava/lang/Object;->finalize()V
 
@@ -228,13 +209,10 @@
 
     const-string v2, " nativeDestroyInstance fail. try again!"
 
-    .line 3
     invoke-static {v1, v2}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 4
     invoke-static {}, Lcom/meitu/core/MTFilterLibrary;->loadMTFilterLibrary()V
 
-    .line 5
     iget-wide v1, p0, Lcom/meitu/core/filtergl/facedata/MTFilterFaceDataJNI;->nativeInstance:J
 
     invoke-direct {p0, v1, v2}, Lcom/meitu/core/filtergl/facedata/MTFilterFaceDataJNI;->nativeDestroyInstance(J)V
@@ -243,7 +221,6 @@
 
     goto :goto_0
 
-    .line 6
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -252,10 +229,8 @@
     :catchall_1
     move-exception v1
 
-    .line 7
     invoke-super {p0}, Ljava/lang/Object;->finalize()V
 
-    .line 8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     throw v1
@@ -268,7 +243,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     :try_start_0
     iget-wide v1, p0, Lcom/meitu/core/filtergl/facedata/MTFilterFaceDataJNI;->nativeInstance:J
 
@@ -287,13 +261,10 @@
 
     const-string v2, " nativeGetFaceCount fail. try again!"
 
-    .line 2
     invoke-static {v1, v2}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 3
     invoke-static {}, Lcom/meitu/core/MTFilterLibrary;->loadMTFilterLibrary()V
 
-    .line 4
     iget-wide v1, p0, Lcom/meitu/core/filtergl/facedata/MTFilterFaceDataJNI;->nativeInstance:J
 
     invoke-direct {p0, v1, v2}, Lcom/meitu/core/filtergl/facedata/MTFilterFaceDataJNI;->nativeGetFaceCount(J)I
@@ -312,7 +283,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     :try_start_0
     iget-wide v1, p0, Lcom/meitu/core/filtergl/facedata/MTFilterFaceDataJNI;->nativeInstance:J
 
@@ -329,13 +299,10 @@
 
     const-string v2, " nativeGetFaceRect fail. try again!"
 
-    .line 2
     invoke-static {v1, v2}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 3
     invoke-static {}, Lcom/meitu/core/MTFilterLibrary;->loadMTFilterLibrary()V
 
-    .line 4
     iget-wide v1, p0, Lcom/meitu/core/filtergl/facedata/MTFilterFaceDataJNI;->nativeInstance:J
 
     invoke-direct {p0, v1, v2, p1}, Lcom/meitu/core/filtergl/facedata/MTFilterFaceDataJNI;->nativeGetFaceRect(JI)[F
@@ -345,14 +312,12 @@
     :goto_0
     if-eqz p1, :cond_0
 
-    .line 5
     array-length v1, p1
 
     const/4 v2, 0x4
 
     if-ne v1, v2, :cond_0
 
-    .line 6
     new-instance v1, Landroid/graphics/RectF;
 
     const/4 v2, 0x0
@@ -380,7 +345,6 @@
     :cond_0
     const/4 p1, 0x0
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p1
@@ -393,7 +357,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     :try_start_0
     iget-wide v1, p0, Lcom/meitu/core/filtergl/facedata/MTFilterFaceDataJNI;->nativeInstance:J
 
@@ -412,13 +375,10 @@
 
     const-string v2, " nativeGetFacialLandmark2D fail. try again!"
 
-    .line 2
     invoke-static {v1, v2}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 3
     invoke-static {}, Lcom/meitu/core/MTFilterLibrary;->loadMTFilterLibrary()V
 
-    .line 4
     iget-wide v1, p0, Lcom/meitu/core/filtergl/facedata/MTFilterFaceDataJNI;->nativeInstance:J
 
     invoke-direct {p0, v1, v2, p1}, Lcom/meitu/core/filtergl/facedata/MTFilterFaceDataJNI;->nativeGetFacialLandmark2D(JI)[F
@@ -437,7 +397,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/core/filtergl/facedata/MTFilterFaceDataJNI;->nativeInstance:J
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -452,7 +411,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     :try_start_0
     iget-wide v1, p0, Lcom/meitu/core/filtergl/facedata/MTFilterFaceDataJNI;->nativeInstance:J
 
@@ -471,13 +429,10 @@
 
     const-string v2, " nativeGetPointCount2D fail. try again!"
 
-    .line 2
     invoke-static {v1, v2}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 3
     invoke-static {}, Lcom/meitu/core/MTFilterLibrary;->loadMTFilterLibrary()V
 
-    .line 4
     iget-wide v1, p0, Lcom/meitu/core/filtergl/facedata/MTFilterFaceDataJNI;->nativeInstance:J
 
     invoke-direct {p0, v1, v2, p1}, Lcom/meitu/core/filtergl/facedata/MTFilterFaceDataJNI;->nativeGetPointCount2D(JI)I
@@ -496,7 +451,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     :try_start_0
     iget-wide v1, p0, Lcom/meitu/core/filtergl/facedata/MTFilterFaceDataJNI;->nativeInstance:J
 
@@ -511,18 +465,14 @@
 
     const-string v2, " nativeSetFaceCount fail. try again!"
 
-    .line 2
     invoke-static {v1, v2}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 3
     invoke-static {}, Lcom/meitu/core/MTFilterLibrary;->loadMTFilterLibrary()V
 
-    .line 4
     iget-wide v1, p0, Lcom/meitu/core/filtergl/facedata/MTFilterFaceDataJNI;->nativeInstance:J
 
     invoke-direct {p0, v1, v2, p1}, Lcom/meitu/core/filtergl/facedata/MTFilterFaceDataJNI;->nativeSetFaceCount(JI)V
 
-    .line 5
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -536,7 +486,6 @@
 
     invoke-static {v8}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     :try_start_0
     iget-wide v1, p0, Lcom/meitu/core/filtergl/facedata/MTFilterFaceDataJNI;->nativeInstance:J
 
@@ -563,13 +512,10 @@
 
     const-string v1, " nativeSetFaceRect fail. try again!"
 
-    .line 2
     invoke-static {v0, v1}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 3
     invoke-static {}, Lcom/meitu/core/MTFilterLibrary;->loadMTFilterLibrary()V
 
-    .line 4
     iget-wide v1, p0, Lcom/meitu/core/filtergl/facedata/MTFilterFaceDataJNI;->nativeInstance:J
 
     move-object v0, p0
@@ -586,7 +532,6 @@
 
     invoke-direct/range {v0 .. v7}, Lcom/meitu/core/filtergl/facedata/MTFilterFaceDataJNI;->nativeSetFaceRect(JIFFFF)V
 
-    .line 5
     :goto_0
     invoke-static {v8}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -600,7 +545,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     :try_start_0
     iget-wide v1, p0, Lcom/meitu/core/filtergl/facedata/MTFilterFaceDataJNI;->nativeInstance:J
 
@@ -615,18 +559,14 @@
 
     const-string v2, " nativeSetFacialLandmark2D fail. try again!"
 
-    .line 2
     invoke-static {v1, v2}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 3
     invoke-static {}, Lcom/meitu/core/MTFilterLibrary;->loadMTFilterLibrary()V
 
-    .line 4
     iget-wide v1, p0, Lcom/meitu/core/filtergl/facedata/MTFilterFaceDataJNI;->nativeInstance:J
 
     invoke-direct {p0, v1, v2, p1, p2}, Lcom/meitu/core/filtergl/facedata/MTFilterFaceDataJNI;->nativeSetFacialLandmark2D(JI[F)V
 
-    .line 5
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -640,7 +580,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     :try_start_0
     iget-wide v1, p0, Lcom/meitu/core/filtergl/facedata/MTFilterFaceDataJNI;->nativeInstance:J
 
@@ -655,18 +594,14 @@
 
     const-string v2, " nativeSetPointCount2D fail. try again!"
 
-    .line 2
     invoke-static {v1, v2}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 3
     invoke-static {}, Lcom/meitu/core/MTFilterLibrary;->loadMTFilterLibrary()V
 
-    .line 4
     iget-wide v1, p0, Lcom/meitu/core/filtergl/facedata/MTFilterFaceDataJNI;->nativeInstance:J
 
     invoke-direct {p0, v1, v2, p1, p2}, Lcom/meitu/core/filtergl/facedata/MTFilterFaceDataJNI;->nativeSetPointCount2D(JII)V
 
-    .line 5
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

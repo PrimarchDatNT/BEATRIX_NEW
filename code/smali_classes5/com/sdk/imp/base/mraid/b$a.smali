@@ -25,7 +25,6 @@
 .method constructor <init>(Lcom/sdk/imp/base/mraid/b;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/sdk/imp/base/mraid/b$a;->a:Lcom/sdk/imp/base/mraid/b;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -38,7 +37,6 @@
 .method public onClose()V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/sdk/imp/base/mraid/b$a;->a:Lcom/sdk/imp/base/mraid/b;
 
     invoke-virtual {v0}, Lcom/sdk/imp/base/mraid/b;->u()V

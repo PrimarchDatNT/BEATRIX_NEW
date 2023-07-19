@@ -9,7 +9,6 @@
 
     const/4 p1, 0x0
 
-    .line 1
     invoke-direct {p0, p1}, Landroid/database/ContentObserver;-><init>(Landroid/os/Handler;)V
 
     return-void
@@ -20,7 +19,6 @@
 .method public final onChange(Z)V
     .locals 0
 
-    .line 1
     invoke-static {}, Lcom/google/android/gms/internal/measurement/m1;->g()V
 
     return-void

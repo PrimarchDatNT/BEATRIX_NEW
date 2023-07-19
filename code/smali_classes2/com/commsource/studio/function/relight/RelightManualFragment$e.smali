@@ -30,7 +30,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/function/relight/RelightManualFragment$e;->a:Lcom/commsource/studio/function/relight/RelightManualFragment;
 
     invoke-direct {p0, p2}, Landroidx/viewpager2/adapter/FragmentStateAdapter;-><init>(Landroidx/fragment/app/Fragment;)V
@@ -55,14 +54,12 @@
 
     if-eq p1, v1, :cond_0
 
-    .line 1
     new-instance p1, Lcom/commsource/studio/function/relight/AtmosphereRelightFragment;
 
     invoke-direct {p1}, Lcom/commsource/studio/function/relight/AtmosphereRelightFragment;-><init>()V
 
     goto :goto_0
 
-    .line 2
     :cond_0
     new-instance p1, Lcom/commsource/studio/function/relight/BackgroundRelightFragment;
 
@@ -70,13 +67,11 @@
 
     goto :goto_0
 
-    .line 3
     :cond_1
     new-instance p1, Lcom/commsource/studio/function/relight/FaceRelightFragment;
 
     invoke-direct {p1}, Lcom/commsource/studio/function/relight/FaceRelightFragment;-><init>()V
 
-    .line 4
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -90,7 +85,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const/4 v0, 0x3

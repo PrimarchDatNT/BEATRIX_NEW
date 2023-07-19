@@ -23,7 +23,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -37,35 +36,29 @@
     .annotation runtime Ljavax/annotation/j;
     .end annotation
 
-    .line 1
     sget-object v0, Lcom/google/android/gms/common/util/x;->a:Ljava/lang/String;
 
     if-nez v0, :cond_1
 
-    .line 2
     sget v0, Lcom/google/android/gms/common/util/x;->b:I
 
     if-nez v0, :cond_0
 
-    .line 3
     invoke-static {}, Landroid/os/Process;->myPid()I
 
     move-result v0
 
     sput v0, Lcom/google/android/gms/common/util/x;->b:I
 
-    .line 4
     :cond_0
     sget v0, Lcom/google/android/gms/common/util/x;->b:I
 
-    .line 5
     invoke-static {v0}, Lcom/google/android/gms/common/util/x;->b(I)Ljava/lang/String;
 
     move-result-object v0
 
     sput-object v0, Lcom/google/android/gms/common/util/x;->a:Ljava/lang/String;
 
-    .line 6
     :cond_1
     sget-object v0, Lcom/google/android/gms/common/util/x;->a:Ljava/lang/String;
 
@@ -86,7 +79,6 @@
     :cond_0
     const/16 v1, 0x19
 
-    .line 1
     :try_start_0
     new-instance v2, Ljava/lang/StringBuilder;
 
@@ -113,7 +105,6 @@
     .catch Ljava/io/IOException; {:try_start_0 .. :try_end_0} :catch_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_1
 
-    .line 2
     :try_start_1
     invoke-virtual {p0}, Ljava/io/BufferedReader;->readLine()Ljava/lang/String;
 
@@ -126,7 +117,6 @@
     .catch Ljava/io/IOException; {:try_start_1 .. :try_end_1} :catch_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
-    .line 3
     invoke-static {p0}, Lcom/google/android/gms/common/util/q;->b(Ljava/io/Closeable;)V
 
     goto :goto_1
@@ -145,7 +135,6 @@
 
     move-object p0, v3
 
-    .line 4
     :goto_0
     invoke-static {p0}, Lcom/google/android/gms/common/util/q;->b(Ljava/io/Closeable;)V
 
@@ -154,7 +143,6 @@
     :catch_0
     move-object p0, v0
 
-    .line 5
     :catch_1
     invoke-static {p0}, Lcom/google/android/gms/common/util/q;->b(Ljava/io/Closeable;)V
 
@@ -170,12 +158,10 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {}, Landroid/os/StrictMode;->allowThreadDiskReads()Landroid/os/StrictMode$ThreadPolicy;
 
     move-result-object v0
 
-    .line 2
     :try_start_0
     new-instance v1, Ljava/io/BufferedReader;
 
@@ -187,7 +173,6 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 3
     invoke-static {v0}, Landroid/os/StrictMode;->setThreadPolicy(Landroid/os/StrictMode$ThreadPolicy;)V
 
     return-object v1
@@ -195,7 +180,6 @@
     :catchall_0
     move-exception p0
 
-    .line 4
     invoke-static {v0}, Landroid/os/StrictMode;->setThreadPolicy(Landroid/os/StrictMode$ThreadPolicy;)V
 
     throw p0

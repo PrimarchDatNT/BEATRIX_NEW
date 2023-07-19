@@ -67,7 +67,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/function/SegmentFragment$h;->a:Lcom/commsource/studio/function/SegmentFragment;
 
     invoke-static {v1}, Lcom/commsource/studio/function/SegmentFragment;->C1(Lcom/commsource/studio/function/SegmentFragment;)Lcom/commsource/studio/layer/FaceOval;
@@ -78,7 +77,6 @@
 
     invoke-virtual {v1, p1, v2, v3}, Lcom/commsource/studio/function/SegmentFragment;->O1(Ljava/util/List;Lcom/commsource/studio/layer/FaceOval;Z)V
 
-    .line 2
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -92,7 +90,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Ljava/util/List;
 
     invoke-virtual {p0, p1}, Lcom/commsource/studio/function/SegmentFragment$h;->a(Ljava/util/List;)V

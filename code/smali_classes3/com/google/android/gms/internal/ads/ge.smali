@@ -7,7 +7,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -21,11 +20,9 @@
         }
     .end annotation
 
-    .line 1
     :try_start_0
     const-class v0, Lcom/google/android/gms/internal/ads/ge;
 
-    .line 2
     invoke-virtual {v0}, Ljava/lang/Class;->getClassLoader()Ljava/lang/ClassLoader;
 
     move-result-object v0
@@ -38,7 +35,6 @@
 
     new-array v0, v1, [Ljava/lang/Class;
 
-    .line 3
     invoke-virtual {p0, v0}, Ljava/lang/Class;->getDeclaredConstructor([Ljava/lang/Class;)Ljava/lang/reflect/Constructor;
 
     move-result-object p0
@@ -51,7 +47,6 @@
 
     check-cast p0, Lcom/google/android/gms/ads/mediation/rtb/RtbAdapter;
 
-    .line 4
     new-instance v0, Lcom/google/android/gms/internal/ads/fe;
 
     invoke-direct {v0, p0}, Lcom/google/android/gms/internal/ads/fe;-><init>(Lcom/google/android/gms/ads/mediation/rtb/RtbAdapter;)V
@@ -60,7 +55,6 @@
 
     return-object v0
 
-    .line 5
     :catchall_0
     new-instance p0, Landroid/os/RemoteException;
 

@@ -38,10 +38,8 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/airbnb/lottie/q$b;->a:Lcom/airbnb/lottie/q;
 
-    .line 2
     invoke-direct {p0, p2}, Ljava/util/concurrent/FutureTask;-><init>(Ljava/util/concurrent/Callable;)V
 
     return-void
@@ -52,7 +50,6 @@
 .method protected done()V
     .locals 3
 
-    .line 1
     invoke-virtual {p0}, Ljava/util/concurrent/FutureTask;->isCancelled()Z
 
     move-result v0
@@ -61,7 +58,6 @@
 
     return-void
 
-    .line 2
     :cond_0
     :try_start_0
     iget-object v0, p0, Lcom/airbnb/lottie/q$b;->a:Lcom/airbnb/lottie/q;
@@ -87,7 +83,6 @@
     :catch_1
     move-exception v0
 
-    .line 3
     :goto_0
     iget-object v1, p0, Lcom/airbnb/lottie/q$b;->a:Lcom/airbnb/lottie/q;
 

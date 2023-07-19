@@ -25,7 +25,6 @@
 .method constructor <init>(I)V
     .locals 0
 
-    .line 1
     iput p1, p0, Lcom/bumptech/glide/load/resource/bitmap/c0$a;->a:I
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -38,7 +37,6 @@
 .method public a(Landroid/graphics/Canvas;Landroid/graphics/Paint;Landroid/graphics/RectF;)V
     .locals 2
 
-    .line 1
     iget v0, p0, Lcom/bumptech/glide/load/resource/bitmap/c0$a;->a:I
 
     int-to-float v1, v0

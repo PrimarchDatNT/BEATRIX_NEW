@@ -25,7 +25,6 @@
 .method private constructor <init>(Lcom/meitu/library/abtest/g/b;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/library/abtest/g/b$d;->w:Lcom/meitu/library/abtest/g/b;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -36,7 +35,6 @@
 .method synthetic constructor <init>(Lcom/meitu/library/abtest/g/b;Lcom/meitu/library/abtest/g/b$a;)V
     .locals 0
 
-    .line 2
     invoke-direct {p0, p1}, Lcom/meitu/library/abtest/g/b$d;-><init>(Lcom/meitu/library/abtest/g/b;)V
 
     return-void
@@ -51,13 +49,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/meitu/library/abtest/g/b$c;->a:Ljava/util/List;
 
-    .line 2
     monitor-enter v1
 
-    .line 3
     :try_start_0
     invoke-interface {v1}, Ljava/util/List;->size()I
 
@@ -65,7 +60,6 @@
 
     if-lez v2, :cond_0
 
-    .line 4
     iget-object v2, p0, Lcom/meitu/library/abtest/g/b$d;->w:Lcom/meitu/library/abtest/g/b;
 
     invoke-static {v2, v1}, Lcom/meitu/library/abtest/g/b;->d(Lcom/meitu/library/abtest/g/b;Ljava/util/List;)[Ljava/lang/String;
@@ -77,7 +71,6 @@
     :cond_0
     const/4 v2, 0x0
 
-    .line 5
     :goto_0
     monitor-exit v1
     :try_end_0
@@ -85,7 +78,6 @@
 
     if-eqz v2, :cond_1
 
-    .line 6
     iget-object v1, p0, Lcom/meitu/library/abtest/g/b$d;->w:Lcom/meitu/library/abtest/g/b;
 
     invoke-static {v1, v2}, Lcom/meitu/library/abtest/g/b;->c(Lcom/meitu/library/abtest/g/b;[Ljava/lang/String;)V
@@ -93,7 +85,6 @@
     :cond_1
     const/4 v1, 0x1
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
@@ -101,7 +92,6 @@
     :catchall_0
     move-exception v2
 
-    .line 8
     :try_start_1
     monitor-exit v1
     :try_end_1

@@ -99,10 +99,8 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/commsource/autocamera/SimpleCameraViewModel;-><init>(Landroid/app/Application;)V
 
-    .line 2
     new-instance p1, Landroidx/lifecycle/MutableLiveData;
 
     invoke-direct {p1}, Landroidx/lifecycle/MutableLiveData;-><init>()V
@@ -111,45 +109,38 @@
 
     const/4 p1, 0x0
 
-    .line 3
     iput-boolean p1, p0, Lcom/commsource/autocamera/AutoCameraViewModel;->e0:Z
 
-    .line 4
     new-instance p1, Landroidx/lifecycle/MutableLiveData;
 
     invoke-direct {p1}, Landroidx/lifecycle/MutableLiveData;-><init>()V
 
     iput-object p1, p0, Lcom/commsource/autocamera/AutoCameraViewModel;->f0:Landroidx/lifecycle/MutableLiveData;
 
-    .line 5
     new-instance p1, Landroidx/lifecycle/MutableLiveData;
 
     invoke-direct {p1}, Landroidx/lifecycle/MutableLiveData;-><init>()V
 
     iput-object p1, p0, Lcom/commsource/autocamera/AutoCameraViewModel;->g0:Landroidx/lifecycle/MutableLiveData;
 
-    .line 6
     new-instance p1, Landroidx/lifecycle/MutableLiveData;
 
     invoke-direct {p1}, Landroidx/lifecycle/MutableLiveData;-><init>()V
 
     iput-object p1, p0, Lcom/commsource/autocamera/AutoCameraViewModel;->h0:Landroidx/lifecycle/MutableLiveData;
 
-    .line 7
     new-instance p1, Landroidx/lifecycle/MutableLiveData;
 
     invoke-direct {p1}, Landroidx/lifecycle/MutableLiveData;-><init>()V
 
     iput-object p1, p0, Lcom/commsource/autocamera/AutoCameraViewModel;->i0:Landroidx/lifecycle/MutableLiveData;
 
-    .line 8
     new-instance p1, Lcom/commsource/autocamera/AutoCameraViewModel$g;
 
     invoke-direct {p1}, Lcom/commsource/autocamera/AutoCameraViewModel$g;-><init>()V
 
     iput-object p1, p0, Lcom/commsource/autocamera/AutoCameraViewModel;->j0:Lcom/commsource/autocamera/AutoCameraViewModel$g;
 
-    .line 9
     invoke-direct {p0}, Lcom/commsource/autocamera/AutoCameraViewModel;->a1()V
 
     return-void
@@ -162,7 +153,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/autocamera/AutoCameraViewModel;->k0:Lcom/meitu/template/bean/Filter;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -177,7 +167,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/autocamera/AutoCameraViewModel;->k0:Lcom/meitu/template/bean/Filter;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -192,7 +181,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/autocamera/AutoCameraViewModel;->j0:Lcom/commsource/autocamera/AutoCameraViewModel$g;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -207,7 +195,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/autocamera/AutoCameraViewModel;->h0:Landroidx/lifecycle/MutableLiveData;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -222,27 +209,22 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/commsource/camera/param/MakeupParam;
 
     invoke-direct {v1}, Lcom/commsource/camera/param/MakeupParam;-><init>()V
 
     const-string v2, "facelift/facelift_config_onlyHeadScale.plist"
 
-    .line 2
     invoke-virtual {v1, v2}, Lcom/commsource/camera/param/MakeupParam;->setPlistPath(Ljava/lang/String;)V
 
     const-string v2, "facelift/res"
 
-    .line 3
     invoke-virtual {v1, v2}, Lcom/commsource/camera/param/MakeupParam;->setResourcePath(Ljava/lang/String;)V
 
     const/16 v2, 0xc
 
-    .line 4
     invoke-virtual {v1, v2}, Lcom/commsource/camera/param/MakeupParam;->setMakeupType(I)V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
@@ -255,7 +237,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/commsource/autocamera/AutoCameraViewModel$a;
 
     const-string v2, "generateFilterConfig"
@@ -264,7 +245,6 @@
 
     invoke-static {v1}, Lcom/commsource/util/c2;->g(Lcom/commsource/util/u2/a;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -277,7 +257,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/commsource/autocamera/AutoCameraViewModel$f;
 
     const-string v2, "AutoCameraParseConfig"
@@ -286,7 +265,6 @@
 
     invoke-static {v1}, Lcom/commsource/util/c2;->e(Lcom/commsource/util/u2/a;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -301,14 +279,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/commsource/camera/x0/c;
 
     invoke-direct {v1}, Lcom/commsource/camera/x0/c;-><init>()V
 
     iput-object v1, p0, Lcom/commsource/autocamera/AutoCameraViewModel;->m0:Lcom/commsource/camera/x0/c;
 
-    .line 2
     invoke-static {}, Lcom/commsource/camera/f1/e;->b()Lcom/commsource/camera/f1/e;
 
     move-result-object v2
@@ -319,7 +295,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/camera/x0/c;->S0(Lf/d/e/a/m;)V
 
-    .line 3
     invoke-static {}, Lcom/commsource/camera/f1/e;->b()Lcom/commsource/camera/f1/e;
 
     move-result-object v1
@@ -328,15 +303,12 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/camera/f1/e;->c(I)V
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/autocamera/AutoCameraViewModel;->m0:Lcom/commsource/camera/x0/c;
 
     invoke-virtual {p1, v1}, Lcom/meitu/library/camera/MTCamera$e;->a(Lcom/meitu/library/camera/q/b;)Lcom/meitu/library/camera/MTCamera$e;
 
-    .line 5
     invoke-virtual {p0}, Lcom/commsource/autocamera/AutoCameraViewModel;->l1()V
 
-    .line 6
     new-instance v1, Lcom/commsource/autocamera/h0;
 
     iget-object v2, p0, Lcom/commsource/autocamera/SimpleCameraViewModel;->c:Lcom/commsource/camera/newrender/renderproxy/m;
@@ -351,7 +323,6 @@
 
     invoke-virtual {p1, v1}, Lcom/meitu/library/camera/MTCamera$e;->a(Lcom/meitu/library/camera/q/b;)Lcom/meitu/library/camera/MTCamera$e;
 
-    .line 7
     iget-object v1, p0, Lcom/commsource/autocamera/AutoCameraViewModel;->l0:Lcom/commsource/autocamera/h0;
 
     new-instance v2, Lcom/commsource/autocamera/AutoCameraViewModel$d;
@@ -360,7 +331,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/autocamera/h0;->V(Lcom/commsource/autocamera/h0$a;)V
 
-    .line 8
     new-instance v1, Lcom/commsource/autocamera/f0;
 
     iget-object v2, p0, Lcom/commsource/autocamera/AutoCameraViewModel;->g0:Landroidx/lifecycle/MutableLiveData;
@@ -369,7 +339,6 @@
 
     invoke-virtual {p1, v1}, Lcom/meitu/library/camera/MTCamera$e;->a(Lcom/meitu/library/camera/q/b;)Lcom/meitu/library/camera/MTCamera$e;
 
-    .line 9
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -382,10 +351,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/autocamera/AutoCameraViewModel;->X0()V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -398,7 +365,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/autocamera/AutoCameraViewModel;->h0:Landroidx/lifecycle/MutableLiveData;
 
     invoke-virtual {v1}, Landroidx/lifecycle/LiveData;->getValue()Ljava/lang/Object;
@@ -409,16 +375,13 @@
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-virtual {p0, v1}, Lcom/commsource/autocamera/AutoCameraViewModel;->o1(Lcom/commsource/camera/lookwheel/EffectBean;)V
 
     goto :goto_0
 
-    .line 3
     :cond_0
     invoke-direct {p0}, Lcom/commsource/autocamera/AutoCameraViewModel;->i1()V
 
-    .line 4
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -434,27 +397,22 @@
 
     const/4 v1, 0x0
 
-    .line 1
     invoke-static {v1}, Lcom/commsource/camera/newrender/renderproxy/t;->h(Ljava/lang/String;)V
 
     const/4 v2, 0x5
 
     const/4 v3, 0x0
 
-    .line 2
     invoke-virtual {p0, v2, v3}, Lcom/commsource/autocamera/SimpleCameraViewModel;->D0(IZ)V
 
-    .line 3
     invoke-virtual {p0, v1}, Lcom/commsource/autocamera/SimpleCameraViewModel;->H0(Lcom/meitu/template/bean/Filter;)V
 
-    .line 4
     invoke-direct {p0}, Lcom/commsource/autocamera/AutoCameraViewModel;->Z0()Lcom/commsource/camera/param/MakeupParam;
 
     move-result-object v1
 
     invoke-virtual {p0, v1}, Lcom/commsource/autocamera/SimpleCameraViewModel;->z0(Lcom/commsource/camera/param/MakeupParam;)V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -467,19 +425,16 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0}, Lcom/commsource/autocamera/SimpleCameraViewModel;->Z()Lcom/commsource/autocamera/SimpleCameraViewModel$d;
 
     move-result-object v1
 
-    .line 2
     iget-boolean v2, p0, Lcom/commsource/autocamera/AutoCameraViewModel;->n0:Z
 
     if-eqz v2, :cond_0
 
     const/4 v2, 0x0
 
-    .line 3
     invoke-virtual {v1, v2}, Lcom/commsource/autocamera/SimpleCameraViewModel$d;->t(I)V
 
     goto :goto_0
@@ -487,14 +442,12 @@
     :cond_0
     const/high16 v2, 0x42780000    # 62.0f
 
-    .line 4
     invoke-static {v2}, Lcom/meitu/library/p/f/i;->d(F)I
 
     move-result v2
 
     invoke-virtual {v1, v2}, Lcom/commsource/autocamera/SimpleCameraViewModel$d;->t(I)V
 
-    .line 5
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -516,7 +469,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/autocamera/AutoCameraViewModel;->h0:Landroidx/lifecycle/MutableLiveData;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -539,7 +491,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/autocamera/AutoCameraViewModel;->i0:Landroidx/lifecycle/MutableLiveData;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -562,7 +513,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/autocamera/AutoCameraViewModel;->d0:Landroidx/lifecycle/MutableLiveData;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -585,7 +535,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/autocamera/AutoCameraViewModel;->g0:Landroidx/lifecycle/MutableLiveData;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -608,7 +557,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/autocamera/AutoCameraViewModel;->f0:Landroidx/lifecycle/MutableLiveData;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -623,7 +571,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/commsource/material/ImageSegmentExecutor;->F()Z
 
     move-result v1
@@ -640,7 +587,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/autocamera/AutoCameraViewModel;->e0:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -655,7 +601,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/commsource/autocamera/AutoCameraViewModel$e;
 
     const-string v2, "Save Photo"
@@ -664,7 +609,6 @@
 
     invoke-static {v1}, Lcom/commsource/util/c2;->e(Lcom/commsource/util/u2/a;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -677,7 +621,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/autocamera/SimpleCameraViewModel;->c:Lcom/commsource/camera/newrender/renderproxy/m;
 
     invoke-virtual {v1}, Lcom/commsource/camera/newrender/renderproxy/m;->h0()Lcom/commsource/camera/newrender/renderproxy/v/c0;
@@ -692,10 +635,8 @@
 
     div-float/2addr p1, v2
 
-    .line 2
     invoke-virtual {v1, p1}, Lcom/commsource/camera/newrender/renderproxy/v/c0;->j2(F)V
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -709,7 +650,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/autocamera/SimpleCameraViewModel;->c:Lcom/commsource/camera/newrender/renderproxy/m;
 
     new-instance v2, Lcom/commsource/camera/newrender/renderproxy/v/b0;
@@ -728,7 +668,6 @@
 
     const/high16 v3, 0x3f800000    # 1.0f
 
-    .line 2
     invoke-virtual {v2, v3}, Lcom/commsource/camera/newrender/renderproxy/v/c0;->n2(F)Lcom/commsource/camera/newrender/renderproxy/v/c0;
 
     move-result-object v2
@@ -739,17 +678,14 @@
 
     move-result-object v2
 
-    .line 3
     invoke-virtual {v1, v2}, Lcom/commsource/camera/newrender/renderproxy/m;->J(Lcom/commsource/camera/newrender/renderproxy/v/v;)Lcom/commsource/camera/newrender/renderproxy/m;
 
-    .line 4
     invoke-static {}, Lcom/commsource/autocamera/e0;->L()I
 
     move-result v1
 
     invoke-virtual {p0, v1}, Lcom/commsource/autocamera/AutoCameraViewModel;->k1(I)V
 
-    .line 5
     iget-object v1, p0, Lcom/commsource/autocamera/SimpleCameraViewModel;->c:Lcom/commsource/camera/newrender/renderproxy/m;
 
     new-instance v2, Lcom/commsource/autocamera/AutoCameraViewModel$c;
@@ -758,7 +694,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/camera/newrender/renderproxy/m;->K0(Lcom/commsource/camera/l0;)V
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -771,14 +706,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/commsource/material/ImageSegmentExecutor;->F()Z
 
     move-result v1
 
     if-eqz v1, :cond_0
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/autocamera/AutoCameraViewModel;->m0:Lcom/commsource/camera/x0/c;
 
     invoke-static {}, Lcom/commsource/material/ImageSegmentExecutor;->s()Ljava/lang/String;
@@ -789,7 +722,6 @@
 
     invoke-virtual {v1, v2, v3}, Lcom/commsource/camera/x0/c;->j1(Ljava/lang/String;Z)V
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/autocamera/AutoCameraViewModel;->m0:Lcom/commsource/camera/x0/c;
 
     invoke-static {}, Lcom/commsource/material/ImageSegmentExecutor;->s()Ljava/lang/String;
@@ -798,7 +730,6 @@
 
     invoke-virtual {v1, v2, v3}, Lcom/commsource/camera/x0/c;->u1(Ljava/lang/String;Z)V
 
-    .line 4
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -812,10 +743,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/autocamera/AutoCameraViewModel;->e0:Z
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -828,10 +757,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/autocamera/AutoCameraViewModel;->n0:Z
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -844,7 +771,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p1}, Lcom/commsource/camera/lookwheel/EffectBean;->getBeautyFaceConfig()Ljava/lang/String;
 
     move-result-object v1
@@ -855,15 +781,12 @@
 
     const/4 v2, 0x0
 
-    .line 2
     invoke-virtual {p0, v1, v2}, Lcom/commsource/autocamera/SimpleCameraViewModel;->D0(IZ)V
 
-    .line 3
     invoke-virtual {p1}, Lcom/commsource/camera/lookwheel/EffectBean;->getEffectDegreeBean()Lcom/commsource/camera/lookwheel/StyleEffectDegree;
 
     move-result-object v1
 
-    .line 4
     invoke-virtual {p1}, Lcom/commsource/camera/lookwheel/EffectBean;->getFilter()Lcom/meitu/template/bean/Filter;
 
     move-result-object v2
@@ -886,7 +809,6 @@
     :goto_0
     invoke-virtual {p0, v2, v3}, Lcom/commsource/autocamera/SimpleCameraViewModel;->G0(Lcom/meitu/template/bean/Filter;I)V
 
-    .line 5
     invoke-virtual {p1}, Lcom/commsource/camera/lookwheel/EffectBean;->getFaceLiftMakeupParam()Lcom/commsource/camera/param/MakeupParam;
 
     move-result-object v2
@@ -905,7 +827,6 @@
 
     invoke-virtual {p0, v2, v3, p1, v4}, Lcom/commsource/autocamera/SimpleCameraViewModel;->A0(Lcom/commsource/camera/param/MakeupParam;Ljava/util/HashMap;Lcom/commsource/camera/param/MakeupParam;Lcom/commsource/camera/mvp/f/a;)V
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -918,10 +839,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0}, Lcom/commsource/autocamera/SimpleCameraViewModel;->onDestroy()V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

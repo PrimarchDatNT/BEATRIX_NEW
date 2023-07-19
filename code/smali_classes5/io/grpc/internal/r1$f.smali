@@ -32,7 +32,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lio/grpc/internal/r1$f;->b:Lio/grpc/internal/r1;
 
     iput p2, p0, Lio/grpc/internal/r1$f;->a:I
@@ -49,12 +48,10 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     invoke-static {}, Li/b/c;->j()Li/b/b;
 
     move-result-object p1
 
-    .line 2
     iget-object v0, p0, Lio/grpc/internal/r1$f;->b:Lio/grpc/internal/r1;
 
     invoke-static {v0}, Lio/grpc/internal/r1;->g(Lio/grpc/internal/r1;)Lio/grpc/internal/m$d;
@@ -72,10 +69,8 @@
     :cond_0
     const-string p1, "MigratingThreadDeframer.request"
 
-    .line 3
     invoke-static {p1}, Li/b/c;->l(Ljava/lang/String;)V
 
-    .line 4
     :try_start_0
     iget-object v0, p0, Lio/grpc/internal/r1$f;->b:Lio/grpc/internal/r1;
 
@@ -89,7 +84,6 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 5
     :goto_0
     invoke-static {p1}, Li/b/c;->n(Ljava/lang/String;)V
 
@@ -98,7 +92,6 @@
     :catchall_0
     move-exception v0
 
-    .line 6
     :try_start_1
     iget-object v1, p0, Lio/grpc/internal/r1$f;->b:Lio/grpc/internal/r1;
 
@@ -108,7 +101,6 @@
 
     invoke-virtual {v1, v0}, Lio/grpc/internal/m;->c(Ljava/lang/Throwable;)V
 
-    .line 7
     iget-object v0, p0, Lio/grpc/internal/r1$f;->b:Lio/grpc/internal/r1;
 
     invoke-static {v0}, Lio/grpc/internal/r1;->l(Lio/grpc/internal/r1;)Lio/grpc/internal/MessageDeframer;
@@ -127,7 +119,6 @@
     :catchall_1
     move-exception v0
 
-    .line 8
     invoke-static {p1}, Li/b/c;->n(Ljava/lang/String;)V
 
     throw v0

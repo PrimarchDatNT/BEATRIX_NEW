@@ -83,7 +83,6 @@
 
     const-wide/16 v1, 0x2710
 
-    .line 1
     invoke-static {v0, v1, v2}, Lcom/google/android/gms/internal/ads/y0;->c(Ljava/lang/String;J)Lcom/google/android/gms/internal/ads/y0;
 
     move-result-object v0
@@ -94,7 +93,6 @@
 
     const/4 v1, 0x0
 
-    .line 2
     invoke-static {v0, v1}, Lcom/google/android/gms/internal/ads/y0;->d(Ljava/lang/String;Z)Lcom/google/android/gms/internal/ads/y0;
 
     move-result-object v0
@@ -105,7 +103,6 @@
 
     const-string v2, "1.0"
 
-    .line 3
     invoke-static {v0, v2}, Lcom/google/android/gms/internal/ads/y0;->e(Ljava/lang/String;Ljava/lang/String;)Lcom/google/android/gms/internal/ads/y0;
 
     move-result-object v0
@@ -116,7 +113,6 @@
 
     const-string v2, "com.google."
 
-    .line 4
     invoke-static {v0, v2}, Lcom/google/android/gms/internal/ads/y0;->e(Ljava/lang/String;Ljava/lang/String;)Lcom/google/android/gms/internal/ads/y0;
 
     move-result-object v0
@@ -125,7 +121,6 @@
 
     const-string v0, "gads:sdk_crash_report_enabled"
 
-    .line 5
     invoke-static {v0, v1}, Lcom/google/android/gms/internal/ads/y0;->d(Ljava/lang/String;Z)Lcom/google/android/gms/internal/ads/y0;
 
     move-result-object v0
@@ -134,7 +129,6 @@
 
     const-string v0, "gads:sdk_crash_report_full_stacktrace"
 
-    .line 6
     invoke-static {v0, v1}, Lcom/google/android/gms/internal/ads/y0;->d(Ljava/lang/String;Z)Lcom/google/android/gms/internal/ads/y0;
 
     move-result-object v0
@@ -145,7 +139,6 @@
 
     const-wide v1, 0x3f847ae147ae147bL    # 0.01
 
-    .line 7
     invoke-static {v0, v1, v2}, Lcom/google/android/gms/internal/ads/y0;->b(Ljava/lang/String;D)Lcom/google/android/gms/internal/ads/y0;
 
     move-result-object v0

@@ -22,7 +22,6 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
     new-instance v0, Lcom/google/common/io/f$d;
 
     invoke-direct {v0}, Lcom/google/common/io/f$d;-><init>()V
@@ -39,7 +38,6 @@
 
     new-array v0, v0, [B
 
-    .line 1
     invoke-direct {p0, v0}, Lcom/google/common/io/f$b;-><init>([B)V
 
     return-void
@@ -50,10 +48,8 @@
 .method public a(Ljava/nio/charset/Charset;)Lcom/google/common/io/j;
     .locals 0
 
-    .line 1
     invoke-static {p1}, Lcom/google/common/base/t;->E(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 2
     invoke-static {}, Lcom/google/common/io/j;->h()Lcom/google/common/io/j;
 
     move-result-object p1
@@ -64,7 +60,6 @@
 .method public o()[B
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/io/f$b;->a:[B
 
     return-object v0

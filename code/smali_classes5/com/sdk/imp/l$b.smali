@@ -44,7 +44,6 @@
 .method constructor <init>(Lcom/sdk/imp/l;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/sdk/imp/l$b;->l:Lcom/sdk/imp/l;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V

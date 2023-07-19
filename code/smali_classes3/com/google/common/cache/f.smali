@@ -34,7 +34,6 @@
 .method protected constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/google/common/collect/u0;-><init>()V
 
     return-void
@@ -52,7 +51,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/cache/f;->delegate()Lcom/google/common/cache/c;
 
     move-result-object v0
@@ -67,7 +65,6 @@
 .method public cleanUp()V
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/cache/f;->delegate()Lcom/google/common/cache/c;
 
     move-result-object v0
@@ -90,7 +87,6 @@
 .method protected bridge synthetic delegate()Ljava/lang/Object;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/cache/f;->delegate()Lcom/google/common/cache/c;
 
     move-result-object v0
@@ -114,7 +110,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/cache/f;->delegate()Lcom/google/common/cache/c;
 
     move-result-object v0
@@ -138,7 +133,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/cache/f;->delegate()Lcom/google/common/cache/c;
 
     move-result-object v0
@@ -163,7 +157,6 @@
     .annotation runtime Ln/b/a/a/a/g;
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/cache/f;->delegate()Lcom/google/common/cache/c;
 
     move-result-object v0
@@ -178,7 +171,6 @@
 .method public invalidate(Ljava/lang/Object;)V
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/cache/f;->delegate()Lcom/google/common/cache/c;
 
     move-result-object v0
@@ -191,7 +183,6 @@
 .method public invalidateAll()V
     .locals 1
 
-    .line 2
     invoke-virtual {p0}, Lcom/google/common/cache/f;->delegate()Lcom/google/common/cache/c;
 
     move-result-object v0
@@ -211,7 +202,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/cache/f;->delegate()Lcom/google/common/cache/c;
 
     move-result-object v0
@@ -229,7 +219,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/cache/f;->delegate()Lcom/google/common/cache/c;
 
     move-result-object v0
@@ -249,7 +238,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/cache/f;->delegate()Lcom/google/common/cache/c;
 
     move-result-object v0
@@ -262,7 +250,6 @@
 .method public size()J
     .locals 2
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/cache/f;->delegate()Lcom/google/common/cache/c;
 
     move-result-object v0
@@ -277,7 +264,6 @@
 .method public stats()Lcom/google/common/cache/e;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/cache/f;->delegate()Lcom/google/common/cache/c;
 
     move-result-object v0

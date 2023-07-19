@@ -42,7 +42,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/beautyplus/setting/preenv/PreEnvViewModel$a;->a:Lcom/commsource/beautyplus/setting/preenv/PreEnvViewModel;
 
     invoke-virtual {v1}, Lcom/commsource/beautyplus/setting/preenv/PreEnvViewModel;->A()Landroidx/lifecycle/MutableLiveData;
@@ -53,14 +52,12 @@
 
     invoke-virtual {v1, v2}, Landroidx/lifecycle/MutableLiveData;->postValue(Ljava/lang/Object;)V
 
-    .line 2
     invoke-static {}, Lcom/meitu/template/feedback/util/e;->N()Z
 
     move-result v1
 
     if-eqz v1, :cond_0
 
-    .line 3
     new-instance v1, Lcom/commsource/camera/ardata/e;
 
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
@@ -71,7 +68,6 @@
 
     invoke-virtual {v1}, Lcom/commsource/camera/ardata/j;->n()V
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/beautyplus/setting/preenv/PreEnvViewModel$a;->a:Lcom/commsource/beautyplus/setting/preenv/PreEnvViewModel;
 
     invoke-virtual {v1}, Lcom/commsource/beautyplus/setting/preenv/PreEnvViewModel;->B()Lcom/commsource/beautyfilter/NoStickLiveData;
@@ -90,7 +86,6 @@
 
     goto :goto_0
 
-    .line 5
     :cond_0
     iget-object v1, p0, Lcom/commsource/beautyplus/setting/preenv/PreEnvViewModel$a;->a:Lcom/commsource/beautyplus/setting/preenv/PreEnvViewModel;
 
@@ -108,7 +103,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/beautyfilter/NoStickLiveData;->postValue(Ljava/lang/Object;)V
 
-    .line 6
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

@@ -41,10 +41,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/google/android/gms/internal/ads/f10;->a:Lcom/google/android/gms/internal/ads/d62;
 
     return-void
@@ -62,7 +60,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/google/android/gms/internal/ads/f10;
 
     invoke-direct {v0, p0}, Lcom/google/android/gms/internal/ads/f10;-><init>(Lcom/google/android/gms/internal/ads/d62;)V
@@ -77,7 +74,6 @@
     .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/f10;->a:Lcom/google/android/gms/internal/ads/d62;
 
     invoke-interface {v0}, Lcom/google/android/gms/internal/ads/d62;->get()Ljava/lang/Object;
@@ -86,7 +82,6 @@
 
     check-cast v0, Lcom/google/android/gms/internal/ads/ug1;
 
-    .line 2
     invoke-static {v0}, Lcom/google/android/gms/internal/ads/g10;->a(Lcom/google/android/gms/internal/ads/ug1;)Lorg/json/JSONObject;
 
     move-result-object v0

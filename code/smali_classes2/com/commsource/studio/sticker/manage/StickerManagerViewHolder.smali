@@ -56,21 +56,18 @@
 
     sget v0, Lcom/res/provider/ResLAYOUT;->item_sticker_manager:I
 
-    .line 1
     invoke-direct {p0, p1, p2, v0}, Lcom/commsource/widget/h1/f;-><init>(Landroid/content/Context;Landroid/view/ViewGroup;I)V
 
     iput-object p1, p0, Lcom/commsource/studio/sticker/manage/StickerManagerViewHolder;->O:Landroid/content/Context;
 
     const/high16 p1, 0x42c50000    # 98.5f
 
-    .line 2
     invoke-static {p1}, Lcom/meitu/library/p/f/i;->b(F)F
 
     move-result p1
 
     iput p1, p0, Lcom/commsource/studio/sticker/manage/StickerManagerViewHolder;->p:F
 
-    .line 3
     iget-object p1, p0, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->itemView:Landroid/view/View;
 
     invoke-static {p1}, Lcom/commsource/beautyplus/f0/kj;->a(Landroid/view/View;)Lcom/commsource/beautyplus/f0/kj;
@@ -79,14 +76,12 @@
 
     iput-object p1, p0, Lcom/commsource/studio/sticker/manage/StickerManagerViewHolder;->K:Lcom/commsource/beautyplus/f0/kj;
 
-    .line 4
     new-instance p2, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/c;
 
     invoke-direct {p2}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/c;-><init>()V
 
     iput-object p2, p0, Lcom/commsource/studio/sticker/manage/StickerManagerViewHolder;->L:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/c;
 
-    .line 5
     new-instance p2, Lcom/commsource/studio/sticker/manage/StickerManagerViewHolder$mViewModel$2;
 
     invoke-direct {p2, p0}, Lcom/commsource/studio/sticker/manage/StickerManagerViewHolder$mViewModel$2;-><init>(Lcom/commsource/studio/sticker/manage/StickerManagerViewHolder;)V
@@ -97,7 +92,6 @@
 
     iput-object p2, p0, Lcom/commsource/studio/sticker/manage/StickerManagerViewHolder;->N:Lcotlin/w;
 
-    .line 6
     invoke-virtual {p1}, Landroidx/databinding/ViewDataBinding;->executePendingBindings()V
 
     return-void
@@ -110,7 +104,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/studio/sticker/manage/StickerManagerViewHolder;->K:Lcom/commsource/beautyplus/f0/kj;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -125,7 +118,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/widget/h1/f;->f:Lcom/commsource/widget/h1/e;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -140,7 +132,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/sticker/manage/StickerManagerViewHolder;->M:Landroidx/recyclerview/widget/ItemTouchHelper;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -155,7 +146,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/studio/sticker/manage/StickerManagerViewHolder;->p:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -190,7 +180,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/widget/h1/f;->f:Lcom/commsource/widget/h1/e;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -205,7 +194,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/studio/sticker/manage/StickerManagerViewHolder;->M:Landroidx/recyclerview/widget/ItemTouchHelper;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -220,7 +208,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/studio/sticker/manage/StickerManagerViewHolder;->G()Lcom/commsource/studio/sticker/StickerViewModel;
 
     move-result-object p0
@@ -237,7 +224,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget p0, p0, Lcom/commsource/studio/sticker/manage/StickerManagerViewHolder;->p:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -254,7 +240,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/sticker/manage/StickerManagerViewHolder;->L:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/c;
 
     invoke-virtual {p0}, Lcom/commsource/widget/h1/f;->c()Lcom/commsource/widget/h1/d;
@@ -281,7 +266,6 @@
 
     invoke-virtual {v1, v2, v3}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/c;->k(ZLcotlin/jvm/u/l;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -296,7 +280,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/sticker/manage/StickerManagerViewHolder;->O:Landroid/content/Context;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -340,10 +323,8 @@
 
     invoke-static {p2, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-super {p0, p1, p2, p3}, Lcom/commsource/widget/h1/f;->k(ILcom/commsource/widget/h1/d;Ljava/util/List;)V
 
-    .line 2
     iget-object p1, p0, Lcom/commsource/widget/h1/f;->f:Lcom/commsource/widget/h1/e;
 
     const/4 v1, 0x0
@@ -364,7 +345,6 @@
 
     if-eqz p1, :cond_3
 
-    .line 3
     iget-object p1, p0, Lcom/commsource/widget/h1/f;->f:Lcom/commsource/widget/h1/e;
 
     if-eqz p1, :cond_1
@@ -398,7 +378,6 @@
 
     throw p1
 
-    .line 4
     :cond_3
     :goto_2
     sget-object p1, Lcom/commsource/studio/sticker/StickerManager;->p:Lcom/commsource/studio/sticker/StickerManager;
@@ -419,7 +398,6 @@
 
     iput-object p1, p0, Lcom/commsource/studio/sticker/manage/StickerManagerViewHolder;->J:Lcom/meitu/template/bean/StickerGroup;
 
-    .line 5
     iget-object p1, p0, Lcom/commsource/studio/sticker/manage/StickerManagerViewHolder;->K:Lcom/commsource/beautyplus/f0/kj;
 
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/kj;->b:Lcom/commsource/widget/IconFrontView;
@@ -432,14 +410,12 @@
 
     invoke-virtual {p1, v3}, Landroid/widget/TextView;->setTextColor(I)V
 
-    .line 6
     iget-object p1, p0, Lcom/commsource/studio/sticker/manage/StickerManagerViewHolder;->K:Lcom/commsource/beautyplus/f0/kj;
 
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/kj;->c:Landroid/widget/TextView;
 
     invoke-virtual {p1, v2}, Landroid/widget/TextView;->setBackgroundResource(I)V
 
-    .line 7
     iget-object p1, p0, Lcom/commsource/studio/sticker/manage/StickerManagerViewHolder;->K:Lcom/commsource/beautyplus/f0/kj;
 
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/kj;->f:Landroid/widget/TextView;
@@ -459,7 +435,6 @@
     :cond_4
     invoke-virtual {p1, v1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 8
     iget-object p1, p0, Lcom/commsource/widget/h1/f;->d:Landroid/content/Context;
 
     invoke-static {p1}, Lcom/commsource/util/u0;->i(Landroid/content/Context;)Lcom/commsource/util/u0$d;
@@ -486,19 +461,16 @@
 
     sget v1, Lcom/res/provider/ResDRAWABLE;->edit_sticker_icon_placeholder:I
 
-    .line 9
     invoke-virtual {p1, v1}, Lcom/commsource/util/u0$d;->q(I)Lcom/commsource/util/u0$d;
 
     move-result-object p1
 
-    .line 10
     iget-object v1, p0, Lcom/commsource/studio/sticker/manage/StickerManagerViewHolder;->K:Lcom/commsource/beautyplus/f0/kj;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/kj;->d:Landroid/widget/ImageView;
 
     invoke-virtual {p1, v1}, Lcom/commsource/util/u0$d;->e(Landroid/widget/ImageView;)V
 
-    .line 11
     invoke-virtual {p2}, Lcom/commsource/widget/h1/d;->b()Ljava/lang/Object;
 
     move-result-object p1
@@ -519,7 +491,6 @@
 
     if-eqz p1, :cond_5
 
-    .line 12
     iget-object p1, p0, Lcom/commsource/studio/sticker/manage/StickerManagerViewHolder;->K:Lcom/commsource/beautyplus/f0/kj;
 
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/kj;->a:Landroid/widget/RelativeLayout;
@@ -532,7 +503,6 @@
 
     invoke-virtual {p1, p3}, Landroid/widget/RelativeLayout;->setBackgroundColor(I)V
 
-    .line 13
     iget-object p1, p0, Lcom/commsource/studio/sticker/manage/StickerManagerViewHolder;->K:Lcom/commsource/beautyplus/f0/kj;
 
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/kj;->c:Landroid/widget/TextView;
@@ -555,7 +525,6 @@
 
     invoke-virtual {p1, p3}, Landroid/widget/TextView;->setTranslationX(F)V
 
-    .line 14
     iget-object p1, p0, Lcom/commsource/studio/sticker/manage/StickerManagerViewHolder;->K:Lcom/commsource/beautyplus/f0/kj;
 
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/kj;->a:Landroid/widget/RelativeLayout;
@@ -568,7 +537,6 @@
 
     invoke-virtual {p1, p3}, Landroid/widget/RelativeLayout;->setTranslationX(F)V
 
-    .line 15
     iget-object p1, p0, Lcom/commsource/studio/sticker/manage/StickerManagerViewHolder;->K:Lcom/commsource/beautyplus/f0/kj;
 
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/kj;->g:Landroid/widget/ImageView;
@@ -577,7 +545,6 @@
 
     invoke-virtual {p1, v3}, Landroid/widget/ImageView;->setAlpha(F)V
 
-    .line 16
     iget-object p1, p0, Lcom/commsource/studio/sticker/manage/StickerManagerViewHolder;->L:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/c;
 
     const/4 p3, 0x1
@@ -589,12 +556,10 @@
     :cond_5
     if-eqz p3, :cond_6
 
-    .line 17
     invoke-virtual {p0}, Lcom/commsource/studio/sticker/manage/StickerManagerViewHolder;->E()V
 
     goto :goto_3
 
-    .line 18
     :cond_6
     iget-object p1, p0, Lcom/commsource/studio/sticker/manage/StickerManagerViewHolder;->K:Lcom/commsource/beautyplus/f0/kj;
 
@@ -608,7 +573,6 @@
 
     invoke-virtual {p1, p3}, Landroid/widget/RelativeLayout;->setBackgroundColor(I)V
 
-    .line 19
     iget-object p1, p0, Lcom/commsource/studio/sticker/manage/StickerManagerViewHolder;->K:Lcom/commsource/beautyplus/f0/kj;
 
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/kj;->c:Landroid/widget/TextView;
@@ -617,7 +581,6 @@
 
     invoke-virtual {p1, v3}, Landroid/widget/TextView;->setTranslationX(F)V
 
-    .line 20
     iget-object p1, p0, Lcom/commsource/studio/sticker/manage/StickerManagerViewHolder;->K:Lcom/commsource/beautyplus/f0/kj;
 
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/kj;->a:Landroid/widget/RelativeLayout;
@@ -626,7 +589,6 @@
 
     invoke-virtual {p1, v3}, Landroid/widget/RelativeLayout;->setTranslationX(F)V
 
-    .line 21
     iget-object p1, p0, Lcom/commsource/studio/sticker/manage/StickerManagerViewHolder;->K:Lcom/commsource/beautyplus/f0/kj;
 
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/kj;->g:Landroid/widget/ImageView;
@@ -637,14 +599,12 @@
 
     invoke-virtual {p1, p3}, Landroid/widget/ImageView;->setAlpha(F)V
 
-    .line 22
     iget-object p1, p0, Lcom/commsource/studio/sticker/manage/StickerManagerViewHolder;->L:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/c;
 
     const/4 p3, 0x0
 
     invoke-virtual {p1, p3}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/c;->p(Z)V
 
-    .line 23
     :goto_3
     iget-object p1, p0, Lcom/commsource/studio/sticker/manage/StickerManagerViewHolder;->K:Lcom/commsource/beautyplus/f0/kj;
 
@@ -656,7 +616,6 @@
 
     invoke-virtual {p1, p3}, Landroid/widget/TextView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 24
     iget-object p1, p0, Lcom/commsource/studio/sticker/manage/StickerManagerViewHolder;->K:Lcom/commsource/beautyplus/f0/kj;
 
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/kj;->b:Lcom/commsource/widget/IconFrontView;
@@ -667,7 +626,6 @@
 
     invoke-virtual {p1, p3}, Landroid/widget/TextView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 25
     iget-object p1, p0, Lcom/commsource/studio/sticker/manage/StickerManagerViewHolder;->K:Lcom/commsource/beautyplus/f0/kj;
 
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/kj;->a:Landroid/widget/RelativeLayout;
@@ -678,7 +636,6 @@
 
     invoke-virtual {p1, p2}, Landroid/widget/RelativeLayout;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 26
     iget-object p1, p0, Lcom/commsource/studio/sticker/manage/StickerManagerViewHolder;->K:Lcom/commsource/beautyplus/f0/kj;
 
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/kj;->g:Landroid/widget/ImageView;
@@ -689,7 +646,6 @@
 
     invoke-virtual {p1, p2}, Landroid/widget/ImageView;->setOnTouchListener(Landroid/view/View$OnTouchListener;)V
 
-    .line 27
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

@@ -46,17 +46,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/util/ArrayList;
 
     invoke-direct {v1}, Ljava/util/ArrayList;-><init>()V
 
-    .line 2
     iget-object v2, p0, Lf/k/m/g/b$d$b;->b:Ljava/util/List;
 
     if-eqz v2, :cond_1
 
-    .line 3
     invoke-interface {v2}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
     move-result-object v2
@@ -75,7 +72,6 @@
 
     check-cast v3, Lcom/meitu/global/billing/purchase/data/MTGPurchase;
 
-    .line 4
     instance-of v4, v3, Lcom/meitu/global/billing/purchase/data/SubsPurchase;
 
     if-eqz v4, :cond_0
@@ -100,7 +96,6 @@
 
     if-eqz v4, :cond_0
 
-    .line 5
     iget-object v4, p0, Lf/k/m/g/b$d$b;->a:Lf/k/m/g/b$d;
 
     iget-object v4, v4, Lf/k/m/g/b$d;->a:Lf/k/m/g/b;
@@ -115,19 +110,16 @@
 
     move-result-object v3
 
-    .line 6
     invoke-virtual {v1, v3}, Ljava/util/ArrayList;->contains(Ljava/lang/Object;)Z
 
     move-result v4
 
     if-nez v4, :cond_0
 
-    .line 7
     invoke-virtual {v1, v3}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
     goto :goto_0
 
-    .line 8
     :cond_1
     invoke-static {}, Lf/k/m/j/e;->i()Z
 
@@ -135,7 +127,6 @@
 
     if-eqz v2, :cond_2
 
-    .line 9
     iget-object v2, p0, Lf/k/m/g/b$d$b;->a:Lf/k/m/g/b$d;
 
     iget-object v2, v2, Lf/k/m/g/b$d;->a:Lf/k/m/g/b;
@@ -164,7 +155,6 @@
 
     invoke-static {v2, v3}, Lf/k/m/j/e;->b(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 10
     :cond_2
     iget-object v2, p0, Lf/k/m/g/b$d$b;->a:Lf/k/m/g/b$d;
 
@@ -174,14 +164,12 @@
 
     move-result-object v1
 
-    .line 11
     invoke-static {}, Lf/k/m/j/e;->i()Z
 
     move-result v2
 
     if-eqz v2, :cond_3
 
-    .line 12
     iget-object v2, p0, Lf/k/m/g/b$d$b;->a:Lf/k/m/g/b$d;
 
     iget-object v2, v2, Lf/k/m/g/b$d;->a:Lf/k/m/g/b;
@@ -210,7 +198,6 @@
 
     invoke-static {v2, v3}, Lf/k/m/j/e;->b(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 13
     :cond_3
     new-instance v2, Lf/k/m/g/b$d$b$a;
 
@@ -218,7 +205,6 @@
 
     invoke-static {v2}, Lf/k/m/j/j;->i(Ljava/lang/Runnable;)V
 
-    .line 14
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

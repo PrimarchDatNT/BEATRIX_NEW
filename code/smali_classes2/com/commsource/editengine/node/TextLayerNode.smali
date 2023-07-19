@@ -56,12 +56,10 @@
 
     invoke-static {p2, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/commsource/editengine/i;-><init>(Lcom/commsource/editengine/b;)V
 
     iput-object p2, p0, Lcom/commsource/editengine/node/TextLayerNode;->k:Lcom/commsource/studio/bean/TextLayerInfo;
 
-    .line 2
     sget-object p1, Lcom/commsource/editengine/node/TextLayerNode$arKernelInterface$2;->INSTANCE:Lcom/commsource/editengine/node/TextLayerNode$arKernelInterface$2;
 
     invoke-static {p1}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
@@ -70,7 +68,6 @@
 
     iput-object p1, p0, Lcom/commsource/editengine/node/TextLayerNode;->c:Lcotlin/w;
 
-    .line 3
     sget-object p1, Lcom/commsource/editengine/node/TextLayerNode$interactionService$2;->INSTANCE:Lcom/commsource/editengine/node/TextLayerNode$interactionService$2;
 
     invoke-static {p1}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
@@ -79,14 +76,12 @@
 
     iput-object p1, p0, Lcom/commsource/editengine/node/TextLayerNode;->d:Lcotlin/w;
 
-    .line 4
     new-instance p1, Lcom/meitu/mtlab/arkernelinterface/interaction/ARKernelCanvasPropertyJNI;
 
     invoke-direct {p1}, Lcom/meitu/mtlab/arkernelinterface/interaction/ARKernelCanvasPropertyJNI;-><init>()V
 
     iput-object p1, p0, Lcom/commsource/editengine/node/TextLayerNode;->e:Lcom/meitu/mtlab/arkernelinterface/interaction/ARKernelCanvasPropertyJNI;
 
-    .line 5
     sget-object p1, Lcom/commsource/editengine/node/TextLayerNode$enumMap$2;->INSTANCE:Lcom/commsource/editengine/node/TextLayerNode$enumMap$2;
 
     invoke-static {p1}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
@@ -178,12 +173,10 @@
 
     const/4 p1, 0x0
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p1
 
-    .line 2
     :cond_0
     invoke-direct {p0}, Lcom/commsource/editengine/node/TextLayerNode;->o()Lcom/meitu/mtlab/arkernelinterface/interaction/ARKernelPublicInteractionService;
 
@@ -213,12 +206,10 @@
 
     if-nez p1, :cond_0
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
 
-    .line 2
     :cond_0
     invoke-direct {p0}, Lcom/commsource/editengine/node/TextLayerNode;->o()Lcom/meitu/mtlab/arkernelinterface/interaction/ARKernelPublicInteractionService;
 
@@ -234,7 +225,6 @@
 
     if-eqz p1, :cond_3
 
-    .line 3
     invoke-virtual {p1}, Lcom/meitu/mtlab/arkernelinterface/interaction/ARKernelLayerInteraction;->getTextFuncStructVector()[Lcom/meitu/mtlab/arkernelinterface/interaction/ARKernelTextInteraction;
 
     move-result-object v2
@@ -277,7 +267,6 @@
     :goto_1
     if-eqz v2, :cond_3
 
-    .line 4
     invoke-virtual {p1}, Lcom/meitu/mtlab/arkernelinterface/interaction/ARKernelLayerInteraction;->getTextFuncStructVector()[Lcom/meitu/mtlab/arkernelinterface/interaction/ARKernelTextInteraction;
 
     move-result-object p1
@@ -288,7 +277,6 @@
 
     return-object p1
 
-    .line 5
     :cond_3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -312,7 +300,6 @@
 
     invoke-static {p3, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget p3, p0, Lcom/commsource/editengine/node/TextLayerNode;->h:I
 
     if-ne p1, p3, :cond_0
@@ -321,26 +308,21 @@
 
     if-eq p2, p3, :cond_1
 
-    .line 2
     :cond_0
     iput p1, p0, Lcom/commsource/editengine/node/TextLayerNode;->h:I
 
-    .line 3
     iput p2, p0, Lcom/commsource/editengine/node/TextLayerNode;->i:I
 
-    .line 4
     iget-object p3, p0, Lcom/commsource/editengine/node/TextLayerNode;->e:Lcom/meitu/mtlab/arkernelinterface/interaction/ARKernelCanvasPropertyJNI;
 
     invoke-virtual {p3, p1, p2}, Lcom/meitu/mtlab/arkernelinterface/interaction/ARKernelCanvasPropertyJNI;->setCanvasSize(II)V
 
-    .line 5
     iget-object p1, p0, Lcom/commsource/editengine/node/TextLayerNode;->e:Lcom/meitu/mtlab/arkernelinterface/interaction/ARKernelCanvasPropertyJNI;
 
     const/4 p2, 0x0
 
     invoke-virtual {p1, p2}, Lcom/meitu/mtlab/arkernelinterface/interaction/ARKernelCanvasPropertyJNI;->setLayerLimitArea(Z)V
 
-    .line 6
     :cond_1
     invoke-direct {p0}, Lcom/commsource/editengine/node/TextLayerNode;->o()Lcom/meitu/mtlab/arkernelinterface/interaction/ARKernelPublicInteractionService;
 
@@ -350,7 +332,6 @@
 
     invoke-virtual {p1, p2}, Lcom/meitu/mtlab/arkernelinterface/interaction/ARKernelPublicInteractionService;->resizeCanvas(Lcom/meitu/mtlab/arkernelinterface/interaction/ARKernelCanvasPropertyJNI;)V
 
-    .line 7
     iget-object p1, p0, Lcom/commsource/editengine/node/TextLayerNode;->f:Lcom/meitu/mtlab/arkernelinterface/core/ARKernelPlistDataInterfaceJNI;
 
     invoke-direct {p0, p1}, Lcom/commsource/editengine/node/TextLayerNode;->p(Lcom/meitu/mtlab/arkernelinterface/core/ARKernelPlistDataInterfaceJNI;)Lcom/meitu/mtlab/arkernelinterface/interaction/ARKernelLayerInteraction;
@@ -359,7 +340,6 @@
 
     if-eqz p1, :cond_3
 
-    .line 8
     iget-object p2, p0, Lcom/commsource/editengine/node/TextLayerNode;->k:Lcom/commsource/studio/bean/TextLayerInfo;
 
     invoke-virtual {p2}, Lcom/commsource/studio/bean/FocusLayerInfo;->getAlpha()F
@@ -368,7 +348,6 @@
 
     invoke-virtual {p1, p2}, Lcom/meitu/mtlab/arkernelinterface/interaction/ARKernelLayerInteraction;->setAlpha(F)V
 
-    .line 9
     iget-object p2, p0, Lcom/commsource/editengine/node/TextLayerNode;->k:Lcom/commsource/studio/bean/TextLayerInfo;
 
     invoke-virtual {p2}, Lcom/commsource/studio/bean/FocusLayerInfo;->getDrawMatrixBox()Lcom/commsource/studio/MatrixBox;
@@ -381,7 +360,6 @@
 
     invoke-virtual {p1, p2}, Lcom/meitu/mtlab/arkernelinterface/interaction/ARKernelLayerInteraction;->setScale(F)V
 
-    .line 10
     iget-object p2, p0, Lcom/commsource/editengine/node/TextLayerNode;->k:Lcom/commsource/studio/bean/TextLayerInfo;
 
     invoke-virtual {p2}, Lcom/commsource/studio/bean/FocusLayerInfo;->getPosition()Lcom/commsource/studio/layer/Position;
@@ -408,7 +386,6 @@
 
     invoke-virtual {p1, p2}, Lcom/meitu/mtlab/arkernelinterface/interaction/ARKernelLayerInteraction;->setRotate(F)V
 
-    .line 11
     invoke-direct {p0}, Lcom/commsource/editengine/node/TextLayerNode;->m()Ljava/util/HashMap;
 
     move-result-object p2
@@ -439,7 +416,6 @@
     :goto_0
     invoke-virtual {p1, p2}, Lcom/meitu/mtlab/arkernelinterface/interaction/ARKernelLayerInteraction;->setBlendMode(I)V
 
-    .line 12
     iget-object p2, p0, Lcom/commsource/editengine/node/TextLayerNode;->k:Lcom/commsource/studio/bean/TextLayerInfo;
 
     invoke-virtual {p2}, Lcom/commsource/studio/bean/TextLayerInfo;->getTextCenterX()F
@@ -458,7 +434,6 @@
 
     move-result p2
 
-    .line 13
     iget-object p3, p0, Lcom/commsource/editengine/node/TextLayerNode;->k:Lcom/commsource/studio/bean/TextLayerInfo;
 
     invoke-virtual {p3}, Lcom/commsource/studio/bean/TextLayerInfo;->getTextCenterY()F
@@ -477,10 +452,8 @@
 
     move-result p3
 
-    .line 14
     invoke-virtual {p1, p2, p3}, Lcom/meitu/mtlab/arkernelinterface/interaction/ARKernelLayerInteraction;->setTrans(II)V
 
-    .line 15
     :cond_3
     invoke-direct {p0}, Lcom/commsource/editengine/node/TextLayerNode;->o()Lcom/meitu/mtlab/arkernelinterface/interaction/ARKernelPublicInteractionService;
 
@@ -488,7 +461,6 @@
 
     invoke-virtual {p1}, Lcom/meitu/mtlab/arkernelinterface/interaction/ARKernelPublicInteractionService;->dispatch()V
 
-    .line 16
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -501,10 +473,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0}, Lcom/commsource/editengine/i;->d()V
 
-    .line 2
     invoke-static {}, Lcom/meitu/library/application/BaseApplication;->getApplication()Landroid/app/Application;
 
     move-result-object v1
@@ -513,15 +483,12 @@
 
     const/4 v1, 0x0
 
-    .line 3
     invoke-static {v1}, Lcom/meitu/mtlab/arkernelinterface/core/ARKernelGlobalInterfaceJNI;->setInternalLogLevel(I)V
 
     const-string v2, "ARKernelBuiltin"
 
-    .line 4
     invoke-static {v2, v1}, Lcom/meitu/mtlab/arkernelinterface/core/ARKernelGlobalInterfaceJNI;->setDirectory(Ljava/lang/String;I)V
 
-    .line 5
     invoke-direct {p0}, Lcom/commsource/editengine/node/TextLayerNode;->j()Lcom/meitu/mtlab/arkernelinterface/core/ARKernelInterfaceJNI;
 
     move-result-object v1
@@ -532,7 +499,6 @@
 
     invoke-virtual {v1, v2}, Lcom/meitu/mtlab/arkernelinterface/core/ARKernelInterfaceJNI;->initialize(Lcom/meitu/mtlab/arkernelinterface/interaction/ARKernelPublicInteractionService;)V
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -545,24 +511,20 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0}, Lcom/commsource/editengine/i;->e()V
 
-    .line 2
     invoke-direct {p0}, Lcom/commsource/editengine/node/TextLayerNode;->j()Lcom/meitu/mtlab/arkernelinterface/core/ARKernelInterfaceJNI;
 
     move-result-object v1
 
     invoke-virtual {v1}, Lcom/meitu/mtlab/arkernelinterface/core/ARKernelInterfaceJNI;->clearCallbackObject()V
 
-    .line 3
     invoke-direct {p0}, Lcom/commsource/editengine/node/TextLayerNode;->j()Lcom/meitu/mtlab/arkernelinterface/core/ARKernelInterfaceJNI;
 
     move-result-object v1
 
     invoke-virtual {v1}, Lcom/meitu/mtlab/arkernelinterface/core/ARKernelInterfaceJNI;->unloadPart()Z
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/editengine/node/TextLayerNode;->f:Lcom/meitu/mtlab/arkernelinterface/core/ARKernelPlistDataInterfaceJNI;
 
     if-eqz v1, :cond_0
@@ -573,7 +535,6 @@
 
     invoke-virtual {v2, v1}, Lcom/meitu/mtlab/arkernelinterface/core/ARKernelInterfaceJNI;->deleteConfiguration(Lcom/meitu/mtlab/arkernelinterface/core/ARKernelPlistDataInterfaceJNI;)V
 
-    .line 5
     :cond_0
     invoke-direct {p0}, Lcom/commsource/editengine/node/TextLayerNode;->j()Lcom/meitu/mtlab/arkernelinterface/core/ARKernelInterfaceJNI;
 
@@ -581,7 +542,6 @@
 
     invoke-virtual {v1}, Lcom/meitu/mtlab/arkernelinterface/core/ARKernelInterfaceJNI;->release()V
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -612,7 +572,6 @@
 
     invoke-static {p2, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     sget-object v1, Lcom/commsource/studio/PictureSelectView;->c0:Lcom/commsource/studio/PictureSelectView$a;
 
     invoke-virtual {v1}, Lcom/commsource/studio/PictureSelectView$a;->a()Z
@@ -621,36 +580,27 @@
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p1
 
-    .line 3
     :cond_0
     invoke-direct {p0}, Lcom/commsource/editengine/node/TextLayerNode;->j()Lcom/meitu/mtlab/arkernelinterface/core/ARKernelInterfaceJNI;
 
     move-result-object v2
 
-    .line 4
     iget v3, p1, Lcom/commsource/easyeditor/utils/opengl/f;->a:I
 
-    .line 5
     iget v4, p2, Lcom/commsource/easyeditor/utils/opengl/f;->a:I
 
-    .line 6
     iget v5, p1, Lcom/commsource/easyeditor/utils/opengl/f;->c:I
 
-    .line 7
     iget v6, p1, Lcom/commsource/easyeditor/utils/opengl/f;->d:I
 
-    .line 8
     iget v7, p1, Lcom/commsource/easyeditor/utils/opengl/f;->b:I
 
-    .line 9
     iget v8, p2, Lcom/commsource/easyeditor/utils/opengl/f;->b:I
 
-    .line 10
     invoke-virtual/range {v2 .. v8}, Lcom/meitu/mtlab/arkernelinterface/core/ARKernelInterfaceJNI;->onDrawFrame(IIIIII)Z
 
     move-result v1
@@ -659,7 +609,6 @@
 
     move-object p1, p2
 
-    .line 11
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -673,7 +622,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/editengine/node/TextLayerNode;->k:Lcom/commsource/studio/bean/TextLayerInfo;
 
     invoke-virtual {v0}, Lcom/commsource/studio/bean/TextLayerInfo;->getTextGroupParam()Lcom/commsource/studio/text/TextGroupParam;
@@ -682,7 +630,6 @@
 
     if-eqz v0, :cond_f
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/editengine/node/TextLayerNode;->g:Ljava/lang/String;
 
     invoke-virtual {v0}, Lcom/commsource/studio/text/TextGroupParam;->getConfigPath()Ljava/lang/String;
@@ -707,36 +654,30 @@
 
     if-eqz v1, :cond_2
 
-    .line 3
     :cond_0
     iget-object v1, p0, Lcom/commsource/editengine/node/TextLayerNode;->f:Lcom/meitu/mtlab/arkernelinterface/core/ARKernelPlistDataInterfaceJNI;
 
     if-eqz v1, :cond_1
 
-    .line 4
     invoke-virtual {v1, v3}, Lcom/meitu/mtlab/arkernelinterface/core/ARKernelPlistDataInterfaceJNI;->setApply(Z)V
 
-    .line 5
     invoke-direct {p0}, Lcom/commsource/editengine/node/TextLayerNode;->j()Lcom/meitu/mtlab/arkernelinterface/core/ARKernelInterfaceJNI;
 
     move-result-object v4
 
     invoke-virtual {v4}, Lcom/meitu/mtlab/arkernelinterface/core/ARKernelInterfaceJNI;->unloadPart()Z
 
-    .line 6
     invoke-direct {p0}, Lcom/commsource/editengine/node/TextLayerNode;->j()Lcom/meitu/mtlab/arkernelinterface/core/ARKernelInterfaceJNI;
 
     move-result-object v4
 
     invoke-virtual {v4, v1}, Lcom/meitu/mtlab/arkernelinterface/core/ARKernelInterfaceJNI;->deleteConfiguration(Lcom/meitu/mtlab/arkernelinterface/core/ARKernelPlistDataInterfaceJNI;)V
 
-    .line 7
     :cond_1
     invoke-direct {p0}, Lcom/commsource/editengine/node/TextLayerNode;->j()Lcom/meitu/mtlab/arkernelinterface/core/ARKernelInterfaceJNI;
 
     move-result-object v1
 
-    .line 8
     invoke-virtual {v0}, Lcom/commsource/studio/text/TextGroupParam;->getConfigPath()Ljava/lang/String;
 
     move-result-object v4
@@ -745,26 +686,20 @@
 
     move-result-object v4
 
-    .line 9
     invoke-virtual {v4}, Lcom/meitu/mtlab/arkernelinterface/core/ARKernelPlistDataInterfaceJNI;->prepare()Z
 
-    .line 10
     invoke-virtual {v4, v2}, Lcom/meitu/mtlab/arkernelinterface/core/ARKernelPlistDataInterfaceJNI;->setApply(Z)V
 
-    .line 11
     iput-object v4, p0, Lcom/commsource/editengine/node/TextLayerNode;->f:Lcom/meitu/mtlab/arkernelinterface/core/ARKernelPlistDataInterfaceJNI;
 
-    .line 12
     invoke-virtual {v1}, Lcom/meitu/mtlab/arkernelinterface/core/ARKernelInterfaceJNI;->reloadPartControl()Z
 
-    .line 13
     invoke-virtual {v0}, Lcom/commsource/studio/text/TextGroupParam;->getConfigPath()Ljava/lang/String;
 
     move-result-object v1
 
     iput-object v1, p0, Lcom/commsource/editengine/node/TextLayerNode;->g:Ljava/lang/String;
 
-    .line 14
     :cond_2
     iget-object v1, p0, Lcom/commsource/editengine/node/TextLayerNode;->f:Lcom/meitu/mtlab/arkernelinterface/core/ARKernelPlistDataInterfaceJNI;
 
@@ -774,20 +709,16 @@
 
     if-eqz v1, :cond_e
 
-    .line 15
     invoke-virtual {v0}, Lcom/commsource/studio/text/TextGroupParam;->getNeedReadTemplateParams()Z
 
     move-result v4
 
     if-eqz v4, :cond_3
 
-    .line 16
     invoke-virtual {v0, v1}, Lcom/commsource/studio/text/TextGroupParam;->syncTemplateAttr(Lcom/meitu/mtlab/arkernelinterface/interaction/ARKernelTextInteraction;)V
 
-    .line 17
     invoke-virtual {v0, v3}, Lcom/commsource/studio/text/TextGroupParam;->setNeedReadTemplateParams(Z)V
 
-    .line 18
     :cond_3
     sget-object v4, Lcom/commsource/repository/child/TextFontRepository;->v:Lcom/commsource/repository/child/TextFontRepository;
 
@@ -801,86 +732,73 @@
 
     if-eqz v4, :cond_4
 
-    .line 19
     invoke-virtual {v4}, Lcom/commsource/studio/text/TextFontMaterial;->getTextFontPath()Ljava/lang/String;
 
     move-result-object v4
 
     invoke-virtual {v1, v4}, Lcom/meitu/mtlab/arkernelinterface/interaction/ARKernelTextInteraction;->setFontLibrary(Ljava/lang/String;)V
 
-    .line 20
     :cond_4
     invoke-virtual {v1}, Lcom/meitu/mtlab/arkernelinterface/interaction/ARKernelTextInteraction;->getColorORGBA()Lcom/meitu/mtlab/arkernelinterface/interaction/ARKernelTextInteraction$ARKernelColorORGBA;
 
     move-result-object v4
 
-    .line 21
     invoke-virtual {v0}, Lcom/commsource/studio/text/TextGroupParam;->getTextColorR()F
 
     move-result v5
 
     iput v5, v4, Lcom/meitu/mtlab/arkernelinterface/interaction/ARKernelTextInteraction$ARKernelColorORGBA;->r:F
 
-    .line 22
     invoke-virtual {v0}, Lcom/commsource/studio/text/TextGroupParam;->getTextColorG()F
 
     move-result v5
 
     iput v5, v4, Lcom/meitu/mtlab/arkernelinterface/interaction/ARKernelTextInteraction$ARKernelColorORGBA;->g:F
 
-    .line 23
     invoke-virtual {v0}, Lcom/commsource/studio/text/TextGroupParam;->getTextColorB()F
 
     move-result v5
 
     iput v5, v4, Lcom/meitu/mtlab/arkernelinterface/interaction/ARKernelTextInteraction$ARKernelColorORGBA;->b:F
 
-    .line 24
     invoke-virtual {v0}, Lcom/commsource/studio/text/TextGroupParam;->getTextOpacity()F
 
     move-result v5
 
     iput v5, v4, Lcom/meitu/mtlab/arkernelinterface/interaction/ARKernelTextInteraction$ARKernelColorORGBA;->a:F
 
-    .line 25
     invoke-virtual {v1, v4}, Lcom/meitu/mtlab/arkernelinterface/interaction/ARKernelTextInteraction;->setColorORGBA(Lcom/meitu/mtlab/arkernelinterface/interaction/ARKernelTextInteraction$ARKernelColorORGBA;)V
 
-    .line 26
     invoke-virtual {v0}, Lcom/commsource/studio/text/TextGroupParam;->isBold()Z
 
     move-result v4
 
     invoke-virtual {v1, v4}, Lcom/meitu/mtlab/arkernelinterface/interaction/ARKernelTextInteraction;->setIsBold(Z)V
 
-    .line 27
     invoke-virtual {v0}, Lcom/commsource/studio/text/TextGroupParam;->isItalic()Z
 
     move-result v4
 
     invoke-virtual {v1, v4}, Lcom/meitu/mtlab/arkernelinterface/interaction/ARKernelTextInteraction;->setIsItalic(Z)V
 
-    .line 28
     invoke-virtual {v0}, Lcom/commsource/studio/text/TextGroupParam;->isUnderline()Z
 
     move-result v4
 
     invoke-virtual {v1, v4}, Lcom/meitu/mtlab/arkernelinterface/interaction/ARKernelTextInteraction;->setIsUnderline(Z)V
 
-    .line 29
     invoke-virtual {v0}, Lcom/commsource/studio/text/TextGroupParam;->isStrikeThrough()Z
 
     move-result v4
 
     invoke-virtual {v1, v4}, Lcom/meitu/mtlab/arkernelinterface/interaction/ARKernelTextInteraction;->setIsStrikeThrough(Z)V
 
-    .line 30
     invoke-virtual {v0}, Lcom/commsource/studio/text/TextGroupParam;->getJustify()I
 
     move-result v4
 
     invoke-virtual {v1, v4}, Lcom/meitu/mtlab/arkernelinterface/interaction/ARKernelTextInteraction;->setJustify(I)V
 
-    .line 31
     invoke-virtual {v0}, Lcom/commsource/studio/text/TextGroupParam;->getText()Ljava/lang/String;
 
     move-result-object v4
@@ -904,7 +822,6 @@
 
     move-result-object v4
 
-    .line 32
     :goto_0
     sget v5, Landroid/os/Build$VERSION;->SDK_INT:I
 
@@ -916,7 +833,6 @@
 
     if-eqz v4, :cond_7
 
-    .line 33
     sget-object v5, Lcotlin/text/d;->a:Ljava/nio/charset/Charset;
 
     if-eqz v4, :cond_6
@@ -954,7 +870,6 @@
 
     goto :goto_2
 
-    .line 34
     :cond_8
     invoke-static {v4}, Lcom/meitu/mtlab/arkernelinterface/utils/ARKernelUnicodeConvertJNI;->UTF8ToUTF32(Ljava/lang/String;)[I
 
@@ -962,13 +877,11 @@
 
     invoke-virtual {v1, v4}, Lcom/meitu/mtlab/arkernelinterface/interaction/ARKernelTextInteraction;->setText([I)V
 
-    .line 35
     :goto_2
     invoke-virtual {v1}, Lcom/meitu/mtlab/arkernelinterface/interaction/ARKernelTextInteraction;->getStrokeConfig()Lcom/meitu/mtlab/arkernelinterface/interaction/ARKernelTextInteraction$ARKernelTextStrokeConfig;
 
     move-result-object v4
 
-    .line 36
     invoke-virtual {v0}, Lcom/commsource/studio/text/TextGroupParam;->getStrokeEnable()Z
 
     move-result v5
@@ -993,98 +906,82 @@
     :cond_a
     iput-boolean v3, v4, Lcom/meitu/mtlab/arkernelinterface/interaction/ARKernelTextInteraction$ARKernelTextStrokeConfig;->enable:Z
 
-    .line 37
     iput-boolean v2, v4, Lcom/meitu/mtlab/arkernelinterface/interaction/ARKernelTextInteraction$ARKernelTextStrokeConfig;->editable:Z
 
-    .line 38
     invoke-virtual {v0}, Lcom/commsource/studio/text/TextGroupParam;->getStrokeOpacity()F
 
     move-result v3
 
     iput v3, v4, Lcom/meitu/mtlab/arkernelinterface/interaction/ARKernelTextInteraction$ARKernelTextStrokeConfig;->a:F
 
-    .line 39
     invoke-virtual {v0}, Lcom/commsource/studio/text/TextGroupParam;->getStrokeColorR()F
 
     move-result v3
 
     iput v3, v4, Lcom/meitu/mtlab/arkernelinterface/interaction/ARKernelTextInteraction$ARKernelTextStrokeConfig;->r:F
 
-    .line 40
     invoke-virtual {v0}, Lcom/commsource/studio/text/TextGroupParam;->getStrokeColorG()F
 
     move-result v3
 
     iput v3, v4, Lcom/meitu/mtlab/arkernelinterface/interaction/ARKernelTextInteraction$ARKernelTextStrokeConfig;->g:F
 
-    .line 41
     invoke-virtual {v0}, Lcom/commsource/studio/text/TextGroupParam;->getStrokeColorB()F
 
     move-result v3
 
     iput v3, v4, Lcom/meitu/mtlab/arkernelinterface/interaction/ARKernelTextInteraction$ARKernelTextStrokeConfig;->b:F
 
-    .line 42
     invoke-virtual {v0}, Lcom/commsource/studio/text/TextGroupParam;->getStrokeWidth()F
 
     move-result v3
 
     iput v3, v4, Lcom/meitu/mtlab/arkernelinterface/interaction/ARKernelTextInteraction$ARKernelTextStrokeConfig;->size:F
 
-    .line 43
     invoke-virtual {v1, v4}, Lcom/meitu/mtlab/arkernelinterface/interaction/ARKernelTextInteraction;->setStrokeConfig(Lcom/meitu/mtlab/arkernelinterface/interaction/ARKernelTextInteraction$ARKernelTextStrokeConfig;)V
 
-    .line 44
     invoke-virtual {v1}, Lcom/meitu/mtlab/arkernelinterface/interaction/ARKernelTextInteraction;->getBackgroundColorConfig()Lcom/meitu/mtlab/arkernelinterface/interaction/ARKernelTextInteraction$ARKernelTextBackgroundColorConfig;
 
     move-result-object v3
 
-    .line 45
     invoke-virtual {v0}, Lcom/commsource/studio/text/TextGroupParam;->getBackgroundEnable()Z
 
     move-result v4
 
     iput-boolean v4, v3, Lcom/meitu/mtlab/arkernelinterface/interaction/ARKernelTextInteraction$ARKernelTextBackgroundColorConfig;->enable:Z
 
-    .line 46
     iput-boolean v2, v3, Lcom/meitu/mtlab/arkernelinterface/interaction/ARKernelTextInteraction$ARKernelTextBackgroundColorConfig;->editable:Z
 
-    .line 47
     invoke-virtual {v0}, Lcom/commsource/studio/text/TextGroupParam;->getBackgroundOpacity()F
 
     move-result v4
 
     iput v4, v3, Lcom/meitu/mtlab/arkernelinterface/interaction/ARKernelTextInteraction$ARKernelTextBackgroundColorConfig;->a:F
 
-    .line 48
     invoke-virtual {v0}, Lcom/commsource/studio/text/TextGroupParam;->getBackgroundColorR()F
 
     move-result v4
 
     iput v4, v3, Lcom/meitu/mtlab/arkernelinterface/interaction/ARKernelTextInteraction$ARKernelTextBackgroundColorConfig;->r:F
 
-    .line 49
     invoke-virtual {v0}, Lcom/commsource/studio/text/TextGroupParam;->getBackgroundColorG()F
 
     move-result v4
 
     iput v4, v3, Lcom/meitu/mtlab/arkernelinterface/interaction/ARKernelTextInteraction$ARKernelTextBackgroundColorConfig;->g:F
 
-    .line 50
     invoke-virtual {v0}, Lcom/commsource/studio/text/TextGroupParam;->getBackgroundColorB()F
 
     move-result v4
 
     iput v4, v3, Lcom/meitu/mtlab/arkernelinterface/interaction/ARKernelTextInteraction$ARKernelTextBackgroundColorConfig;->b:F
 
-    .line 51
     invoke-virtual {v0}, Lcom/commsource/studio/text/TextGroupParam;->getBackgroundRadius()F
 
     move-result v4
 
     iput v4, v3, Lcom/meitu/mtlab/arkernelinterface/interaction/ARKernelTextInteraction$ARKernelTextBackgroundColorConfig;->roundWeight:F
 
-    .line 52
     invoke-virtual {v0}, Lcom/commsource/studio/text/TextGroupParam;->getTemplate()Lcom/commsource/studio/text/TextTemplate;
 
     move-result-object v4
@@ -1110,11 +1007,9 @@
     :cond_b
     const/4 v4, 0x0
 
-    .line 53
     :goto_3
     iput v4, v3, Lcom/meitu/mtlab/arkernelinterface/interaction/ARKernelTextInteraction$ARKernelTextBackgroundColorConfig;->marginExtendCoefBottom:F
 
-    .line 54
     invoke-virtual {v0}, Lcom/commsource/studio/text/TextGroupParam;->getTemplate()Lcom/commsource/studio/text/TextTemplate;
 
     move-result-object v4
@@ -1133,93 +1028,77 @@
 
     move-result v5
 
-    .line 55
     :cond_c
     iput v5, v3, Lcom/meitu/mtlab/arkernelinterface/interaction/ARKernelTextInteraction$ARKernelTextBackgroundColorConfig;->marginExtendCoefTop:F
 
-    .line 56
     invoke-virtual {v1, v3}, Lcom/meitu/mtlab/arkernelinterface/interaction/ARKernelTextInteraction;->setBackgroundColorConfig(Lcom/meitu/mtlab/arkernelinterface/interaction/ARKernelTextInteraction$ARKernelTextBackgroundColorConfig;)V
 
-    .line 57
     invoke-virtual {v1}, Lcom/meitu/mtlab/arkernelinterface/interaction/ARKernelTextInteraction;->getShadowConfig()Lcom/meitu/mtlab/arkernelinterface/interaction/ARKernelTextInteraction$ARKernelTextShadowConfig;
 
     move-result-object v3
 
-    .line 58
     invoke-virtual {v0}, Lcom/commsource/studio/text/TextGroupParam;->getShadowEnable()Z
 
     move-result v4
 
     iput-boolean v4, v3, Lcom/meitu/mtlab/arkernelinterface/interaction/ARKernelTextInteraction$ARKernelTextShadowConfig;->enable:Z
 
-    .line 59
     iput-boolean v2, v3, Lcom/meitu/mtlab/arkernelinterface/interaction/ARKernelTextInteraction$ARKernelTextShadowConfig;->editable:Z
 
-    .line 60
     invoke-virtual {v0}, Lcom/commsource/studio/text/TextGroupParam;->getShadowOpacity()F
 
     move-result v4
 
     iput v4, v3, Lcom/meitu/mtlab/arkernelinterface/interaction/ARKernelTextInteraction$ARKernelTextShadowConfig;->a:F
 
-    .line 61
     invoke-virtual {v0}, Lcom/commsource/studio/text/TextGroupParam;->getShadowColorR()F
 
     move-result v4
 
     iput v4, v3, Lcom/meitu/mtlab/arkernelinterface/interaction/ARKernelTextInteraction$ARKernelTextShadowConfig;->r:F
 
-    .line 62
     invoke-virtual {v0}, Lcom/commsource/studio/text/TextGroupParam;->getShadowColorG()F
 
     move-result v4
 
     iput v4, v3, Lcom/meitu/mtlab/arkernelinterface/interaction/ARKernelTextInteraction$ARKernelTextShadowConfig;->g:F
 
-    .line 63
     invoke-virtual {v0}, Lcom/commsource/studio/text/TextGroupParam;->getShadowColorB()F
 
     move-result v4
 
     iput v4, v3, Lcom/meitu/mtlab/arkernelinterface/interaction/ARKernelTextInteraction$ARKernelTextShadowConfig;->b:F
 
-    .line 64
     invoke-virtual {v0}, Lcom/commsource/studio/text/TextGroupParam;->getShadowBlur()F
 
     move-result v4
 
     iput v4, v3, Lcom/meitu/mtlab/arkernelinterface/interaction/ARKernelTextInteraction$ARKernelTextShadowConfig;->blur:F
 
-    .line 65
     invoke-virtual {v0}, Lcom/commsource/studio/text/TextGroupParam;->getShadowDistance()F
 
     move-result v4
 
     iput v4, v3, Lcom/meitu/mtlab/arkernelinterface/interaction/ARKernelTextInteraction$ARKernelTextShadowConfig;->offset_x:F
 
-    .line 66
     invoke-virtual {v0}, Lcom/commsource/studio/text/TextGroupParam;->getShadowDistance()F
 
     move-result v4
 
     iput v4, v3, Lcom/meitu/mtlab/arkernelinterface/interaction/ARKernelTextInteraction$ARKernelTextShadowConfig;->offset_y:F
 
-    .line 67
     invoke-virtual {v1, v3}, Lcom/meitu/mtlab/arkernelinterface/interaction/ARKernelTextInteraction;->setShadowConfig(Lcom/meitu/mtlab/arkernelinterface/interaction/ARKernelTextInteraction$ARKernelTextShadowConfig;)V
 
-    .line 68
     invoke-virtual {v1}, Lcom/meitu/mtlab/arkernelinterface/interaction/ARKernelTextInteraction;->getGlowConfig()Lcom/meitu/mtlab/arkernelinterface/interaction/ARKernelTextInteraction$ARKernelTextGlowConfig;
 
     move-result-object v3
 
-    .line 69
     invoke-virtual {v0}, Lcom/commsource/studio/text/TextGroupParam;->getAppendGlow()Z
 
     move-result v4
 
     if-eqz v4, :cond_d
 
-    .line 70
     new-instance v4, Ljava/lang/StringBuilder;
 
     invoke-direct {v4}, Ljava/lang/StringBuilder;-><init>()V
@@ -1286,16 +1165,12 @@
 
     invoke-static {v4, v12, v7, v13, v7}, Lcom/commsource/util/l0;->L(Ljava/lang/String;Ljava/lang/String;Lcom/meitu/library/util/Debug/Debug$DebugLevel;ILjava/lang/Object;)V
 
-    .line 71
     iput-boolean v2, v3, Lcom/meitu/mtlab/arkernelinterface/interaction/ARKernelTextInteraction$ARKernelTextGlowConfig;->enable:Z
 
-    .line 72
     iput-boolean v2, v3, Lcom/meitu/mtlab/arkernelinterface/interaction/ARKernelTextInteraction$ARKernelTextGlowConfig;->editable:Z
 
-    .line 73
     iput-boolean v2, v3, Lcom/meitu/mtlab/arkernelinterface/interaction/ARKernelTextInteraction$ARKernelTextGlowConfig;->bColorWork:Z
 
-    .line 74
     invoke-virtual {v0}, Lcom/commsource/studio/text/TextGroupParam;->getGlowOpacity()F
 
     move-result v2
@@ -1308,7 +1183,6 @@
 
     iput v2, v3, Lcom/meitu/mtlab/arkernelinterface/interaction/ARKernelTextInteraction$ARKernelTextGlowConfig;->a:F
 
-    .line 75
     invoke-virtual {v0}, Lcom/commsource/studio/text/TextGroupParam;->getGlowColorR()F
 
     move-result v2
@@ -1321,7 +1195,6 @@
 
     iput v2, v3, Lcom/meitu/mtlab/arkernelinterface/interaction/ARKernelTextInteraction$ARKernelTextGlowConfig;->r:F
 
-    .line 76
     invoke-virtual {v0}, Lcom/commsource/studio/text/TextGroupParam;->getGlowColorG()F
 
     move-result v2
@@ -1334,7 +1207,6 @@
 
     iput v2, v3, Lcom/meitu/mtlab/arkernelinterface/interaction/ARKernelTextInteraction$ARKernelTextGlowConfig;->g:F
 
-    .line 77
     invoke-virtual {v0}, Lcom/commsource/studio/text/TextGroupParam;->getGlowColorB()F
 
     move-result v2
@@ -1347,7 +1219,6 @@
 
     iput v2, v3, Lcom/meitu/mtlab/arkernelinterface/interaction/ARKernelTextInteraction$ARKernelTextGlowConfig;->b:F
 
-    .line 78
     new-instance v2, Ljava/lang/StringBuilder;
 
     invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
@@ -1398,10 +1269,8 @@
 
     invoke-static {v2, v12, v7, v13, v7}, Lcom/commsource/util/l0;->L(Ljava/lang/String;Ljava/lang/String;Lcom/meitu/library/util/Debug/Debug$DebugLevel;ILjava/lang/Object;)V
 
-    .line 79
     invoke-virtual {v1, v3}, Lcom/meitu/mtlab/arkernelinterface/interaction/ARKernelTextInteraction;->setGlowConfig(Lcom/meitu/mtlab/arkernelinterface/interaction/ARKernelTextInteraction$ARKernelTextGlowConfig;)V
 
-    .line 80
     :cond_d
     invoke-virtual {v0}, Lcom/commsource/studio/text/TextGroupParam;->getSpaceLineHeight()F
 
@@ -1409,27 +1278,23 @@
 
     invoke-virtual {v1, v2}, Lcom/meitu/mtlab/arkernelinterface/interaction/ARKernelTextInteraction;->setLineSpacing(F)V
 
-    .line 81
     invoke-virtual {v0}, Lcom/commsource/studio/text/TextGroupParam;->getSpaceLineLetterSpace()F
 
     move-result v0
 
     invoke-virtual {v1, v0}, Lcom/meitu/mtlab/arkernelinterface/interaction/ARKernelTextInteraction;->setSpacing(F)V
 
-    .line 82
     invoke-direct {p0}, Lcom/commsource/editengine/node/TextLayerNode;->o()Lcom/meitu/mtlab/arkernelinterface/interaction/ARKernelPublicInteractionService;
 
     move-result-object v0
 
     invoke-virtual {v0}, Lcom/meitu/mtlab/arkernelinterface/interaction/ARKernelPublicInteractionService;->dispatch()V
 
-    .line 83
     :cond_e
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 84
     :cond_f
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1443,7 +1308,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/editengine/node/TextLayerNode;->i:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1458,7 +1322,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/editengine/node/TextLayerNode;->h:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1475,7 +1338,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/editengine/node/TextLayerNode;->k:Lcom/commsource/studio/bean/TextLayerInfo;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1492,12 +1354,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/editengine/node/TextLayerNode;->f:Lcom/meitu/mtlab/arkernelinterface/core/ARKernelPlistDataInterfaceJNI;
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-direct {p0, v1}, Lcom/commsource/editengine/node/TextLayerNode;->p(Lcom/meitu/mtlab/arkernelinterface/core/ARKernelPlistDataInterfaceJNI;)Lcom/meitu/mtlab/arkernelinterface/interaction/ARKernelLayerInteraction;
 
     move-result-object v1
@@ -1508,7 +1368,6 @@
 
     new-array v2, v2, [F
 
-    .line 3
     invoke-virtual {v1}, Lcom/meitu/mtlab/arkernelinterface/interaction/ARKernelLayerInteraction;->getFinalSize()[I
 
     move-result-object v3
@@ -1521,7 +1380,6 @@
 
     aput v3, v2, v4
 
-    .line 4
     invoke-virtual {v1}, Lcom/meitu/mtlab/arkernelinterface/interaction/ARKernelLayerInteraction;->getFinalSize()[I
 
     move-result-object v3
@@ -1534,7 +1392,6 @@
 
     aput v3, v2, v5
 
-    .line 5
     invoke-virtual {v1, v4}, Lcom/meitu/mtlab/arkernelinterface/interaction/ARKernelLayerInteraction;->GetBorderPadding(I)F
 
     move-result v3
@@ -1543,7 +1400,6 @@
 
     aput v3, v2, v4
 
-    .line 6
     invoke-virtual {v1, v5}, Lcom/meitu/mtlab/arkernelinterface/interaction/ARKernelLayerInteraction;->GetBorderPadding(I)F
 
     move-result v3
@@ -1554,7 +1410,6 @@
 
     const/4 v3, 0x4
 
-    .line 7
     invoke-virtual {v1, v4}, Lcom/meitu/mtlab/arkernelinterface/interaction/ARKernelLayerInteraction;->GetBorderPadding(I)F
 
     move-result v4
@@ -1563,14 +1418,12 @@
 
     const/4 v3, 0x5
 
-    .line 8
     invoke-virtual {v1, v5}, Lcom/meitu/mtlab/arkernelinterface/interaction/ARKernelLayerInteraction;->GetBorderPadding(I)F
 
     move-result v1
 
     aput v1, v2, v3
 
-    .line 9
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v2
@@ -1578,7 +1431,6 @@
     :cond_0
     const/4 v1, 0x0
 
-    .line 10
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
@@ -1593,7 +1445,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/editengine/node/TextLayerNode;->g:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1610,7 +1461,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/editengine/node/TextLayerNode;->f:Lcom/meitu/mtlab/arkernelinterface/core/ARKernelPlistDataInterfaceJNI;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1625,7 +1475,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/editengine/node/TextLayerNode;->i:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1640,7 +1489,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/editengine/node/TextLayerNode;->h:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1663,7 +1511,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/editengine/node/TextLayerNode;->k:Lcom/commsource/studio/bean/TextLayerInfo;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1682,7 +1529,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/editengine/node/TextLayerNode;->g:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1701,7 +1547,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/editengine/node/TextLayerNode;->f:Lcom/meitu/mtlab/arkernelinterface/core/ARKernelPlistDataInterfaceJNI;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

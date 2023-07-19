@@ -29,7 +29,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/gesture/LayerSelectComponent$a;->a:Lcom/commsource/studio/gesture/LayerSelectComponent;
 
     invoke-direct {p0}, Lcom/commsource/studio/bean/c;-><init>()V
@@ -46,7 +45,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/gesture/LayerSelectComponent$a;->a:Lcom/commsource/studio/gesture/LayerSelectComponent;
 
     invoke-virtual {v1}, Lcom/commsource/studio/gesture/LayerSelectComponent;->getContentBinding()Lcom/commsource/beautyplus/f0/ym;
@@ -59,7 +57,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/studio/LayerManageListLayout;->A(Lcom/commsource/studio/bean/GroupLayerInfo;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -76,7 +73,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/gesture/LayerSelectComponent$a;->a:Lcom/commsource/studio/gesture/LayerSelectComponent;
 
     invoke-virtual {v1}, Lcom/commsource/studio/gesture/LayerSelectComponent;->getContentBinding()Lcom/commsource/beautyplus/f0/ym;
@@ -85,10 +81,8 @@
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/ym;->K:Lcom/commsource/studio/LayerManageListLayout;
 
-    .line 2
     invoke-virtual {v1, p1}, Lcom/commsource/studio/LayerManageListLayout;->setSelected(Lcom/commsource/studio/bean/BaseLayerInfo;)V
 
-    .line 3
     iget-object v2, p0, Lcom/commsource/studio/gesture/LayerSelectComponent$a;->a:Lcom/commsource/studio/gesture/LayerSelectComponent;
 
     invoke-static {v2}, Lcom/commsource/studio/gesture/LayerSelectComponent;->f(Lcom/commsource/studio/gesture/LayerSelectComponent;)Lcom/commsource/studio/ImageStudioViewModel;
@@ -117,10 +111,8 @@
 
     const/4 v4, 0x0
 
-    .line 4
     invoke-static {v1, p1, v2, v3, v4}, Lcom/commsource/studio/LayerManageListLayout;->t(Lcom/commsource/studio/LayerManageListLayout;Lcom/commsource/studio/bean/BaseLayerInfo;ZILjava/lang/Object;)V
 
-    .line 5
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -150,7 +142,6 @@
 
     invoke-static {p2, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/gesture/LayerSelectComponent$a;->a:Lcom/commsource/studio/gesture/LayerSelectComponent;
 
     invoke-virtual {v1}, Lcom/commsource/studio/gesture/LayerSelectComponent;->getContentBinding()Lcom/commsource/beautyplus/f0/ym;
@@ -159,7 +150,6 @@
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/ym;->K:Lcom/commsource/studio/LayerManageListLayout;
 
-    .line 2
     invoke-virtual {v1, p2}, Lcom/commsource/studio/LayerManageListLayout;->A(Lcom/commsource/studio/bean/GroupLayerInfo;)V
 
     const/4 p2, 0x0
@@ -168,10 +158,8 @@
 
     const/4 v3, 0x0
 
-    .line 3
     invoke-static {v1, p1, p2, v2, v3}, Lcom/commsource/studio/LayerManageListLayout;->t(Lcom/commsource/studio/LayerManageListLayout;Lcom/commsource/studio/bean/BaseLayerInfo;ZILjava/lang/Object;)V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -192,7 +180,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/gesture/LayerSelectComponent$a;->a:Lcom/commsource/studio/gesture/LayerSelectComponent;
 
     invoke-virtual {v1}, Lcom/commsource/studio/gesture/LayerSelectComponent;->getContentBinding()Lcom/commsource/beautyplus/f0/ym;
@@ -203,12 +190,10 @@
 
     invoke-virtual {v1, p1}, Lcom/commsource/studio/LayerManageListLayout;->A(Lcom/commsource/studio/bean/GroupLayerInfo;)V
 
-    .line 2
     iget-object p1, p0, Lcom/commsource/studio/gesture/LayerSelectComponent$a;->a:Lcom/commsource/studio/gesture/LayerSelectComponent;
 
     invoke-static {p1}, Lcom/commsource/studio/gesture/LayerSelectComponent;->g(Lcom/commsource/studio/gesture/LayerSelectComponent;)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -237,7 +222,6 @@
 
     invoke-static {p2, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/gesture/LayerSelectComponent$a;->a:Lcom/commsource/studio/gesture/LayerSelectComponent;
 
     invoke-virtual {v1}, Lcom/commsource/studio/gesture/LayerSelectComponent;->getContentBinding()Lcom/commsource/beautyplus/f0/ym;
@@ -246,7 +230,6 @@
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/ym;->K:Lcom/commsource/studio/LayerManageListLayout;
 
-    .line 2
     invoke-virtual {v1, p2}, Lcom/commsource/studio/LayerManageListLayout;->A(Lcom/commsource/studio/bean/GroupLayerInfo;)V
 
     const/4 p2, 0x0
@@ -255,10 +238,8 @@
 
     const/4 v3, 0x0
 
-    .line 3
     invoke-static {v1, p1, p2, v2, v3}, Lcom/commsource/studio/LayerManageListLayout;->t(Lcom/commsource/studio/LayerManageListLayout;Lcom/commsource/studio/bean/BaseLayerInfo;ZILjava/lang/Object;)V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

@@ -43,7 +43,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/studio/sticker/StickerFragment$g;->a:Lcom/commsource/studio/sticker/StickerFragment;
 
     invoke-virtual {v0}, Lcom/commsource/studio/sub/BaseSubTabFragment;->K()Lcom/commsource/beautyplus/f0/k0;
@@ -62,12 +61,10 @@
 
     if-eqz v0, :cond_5
 
-    .line 2
     instance-of v1, v0, Lcom/commsource/studio/bean/StickerLayerInfo;
 
     if-eqz v1, :cond_5
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/studio/sticker/StickerFragment$g;->a:Lcom/commsource/studio/sticker/StickerFragment;
 
     invoke-static {v1}, Lcom/commsource/studio/sticker/StickerFragment;->X(Lcom/commsource/studio/sticker/StickerFragment;)Lcom/commsource/beautyplus/f0/ma;
@@ -78,7 +75,6 @@
 
     invoke-virtual {v1}, Lcom/commsource/studio/doodle/shop/ColorPickerComponent;->s()V
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/studio/sticker/StickerFragment$g;->a:Lcom/commsource/studio/sticker/StickerFragment;
 
     invoke-static {v1}, Lcom/commsource/studio/sticker/StickerFragment;->Z(Lcom/commsource/studio/sticker/StickerFragment;)Lcom/commsource/studio/sticker/k;
@@ -148,7 +144,6 @@
     :cond_3
     if-eqz v2, :cond_4
 
-    .line 5
     iget-object v0, p0, Lcom/commsource/studio/sticker/StickerFragment$g;->a:Lcom/commsource/studio/sticker/StickerFragment;
 
     invoke-virtual {v2}, Lcom/meitu/template/bean/StickerGroup;->getGroupId()I
@@ -159,7 +154,6 @@
 
     goto :goto_1
 
-    .line 6
     :cond_4
     new-instance v1, Lcom/commsource/util/p2/c;
 
@@ -175,7 +169,6 @@
 
     invoke-direct {v1, v2}, Lcom/commsource/util/p2/c;-><init>(Landroidx/fragment/app/FragmentActivity;)V
 
-    .line 7
     new-instance v2, Lcom/commsource/studio/sticker/StickerFragment$g$a;
 
     move-object v3, v0
@@ -194,7 +187,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/util/p2/c;->c(Lcom/commsource/util/p2/b;)V
 
-    .line 8
     :cond_5
     :goto_1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V

@@ -11,7 +11,6 @@
 .method public constructor <init>(Ljava/lang/String;)V
     .locals 1
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -34,7 +33,6 @@
 .method public constructor <init>(Ljava/lang/String;Ljava/lang/Throwable;)V
     .locals 1
 
-    .line 2
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -59,7 +57,6 @@
 
     const-string v0, "No explanation error. Version: "
 
-    .line 3
     invoke-direct {p0, v0, p1}, Ljava/lang/Exception;-><init>(Ljava/lang/String;Ljava/lang/Throwable;)V
 
     return-void

@@ -40,18 +40,14 @@
 .method public constructor <init>(Lcom/meitu/template/bean/ArMaterial;ILjava/lang/String;I)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/template/bean/ArMaterial$BgmJsonBean;->this$0:Lcom/meitu/template/bean/ArMaterial;
 
     invoke-direct {p0}, Lcom/meitu/template/bean/BaseBean;-><init>()V
 
-    .line 2
     iput p2, p0, Lcom/meitu/template/bean/ArMaterial$BgmJsonBean;->enable:I
 
-    .line 3
     iput-object p3, p0, Lcom/meitu/template/bean/ArMaterial$BgmJsonBean;->url:Ljava/lang/String;
 
-    .line 4
     iput p4, p0, Lcom/meitu/template/bean/ArMaterial$BgmJsonBean;->number:I
 
     return-void
@@ -64,7 +60,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget p0, p0, Lcom/meitu/template/bean/ArMaterial$BgmJsonBean;->enable:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -79,7 +74,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/meitu/template/bean/ArMaterial$BgmJsonBean;->url:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -94,7 +88,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget p0, p0, Lcom/meitu/template/bean/ArMaterial$BgmJsonBean;->number:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -111,7 +104,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/template/bean/ArMaterial$BgmJsonBean;->enable:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -126,7 +118,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/template/bean/ArMaterial$BgmJsonBean;->number:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -141,7 +132,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/template/bean/ArMaterial$BgmJsonBean;->url:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -156,10 +146,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/meitu/template/bean/ArMaterial$BgmJsonBean;->enable:I
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -172,10 +160,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/meitu/template/bean/ArMaterial$BgmJsonBean;->number:I
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -188,10 +174,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/template/bean/ArMaterial$BgmJsonBean;->url:Ljava/lang/String;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

@@ -35,12 +35,10 @@
 .method public final a(Lcom/google/firebase/components/g;)Ljava/lang/Object;
     .locals 7
 
-    .line 1
     new-instance v6, Lcom/google/firebase/remoteconfig/g;
 
     const-class v0, Landroid/content/Context;
 
-    .line 2
     invoke-interface {p1, v0}, Lcom/google/firebase/components/g;->a(Ljava/lang/Class;)Ljava/lang/Object;
 
     move-result-object v0
@@ -51,7 +49,6 @@
 
     const-class v0, Lcom/google/firebase/d;
 
-    .line 3
     invoke-interface {p1, v0}, Lcom/google/firebase/components/g;->a(Ljava/lang/Class;)Ljava/lang/Object;
 
     move-result-object v0
@@ -62,7 +59,6 @@
 
     const-class v0, Lcom/google/firebase/iid/FirebaseInstanceId;
 
-    .line 4
     invoke-interface {p1, v0}, Lcom/google/firebase/components/g;->a(Ljava/lang/Class;)Ljava/lang/Object;
 
     move-result-object v0
@@ -73,7 +69,6 @@
 
     const-class v0, Lcom/google/firebase/abt/component/a;
 
-    .line 5
     invoke-interface {p1, v0}, Lcom/google/firebase/components/g;->a(Ljava/lang/Class;)Ljava/lang/Object;
 
     move-result-object v0
@@ -88,7 +83,6 @@
 
     const-class v0, Lcom/google/firebase/analytics/a/a;
 
-    .line 6
     invoke-interface {p1, v0}, Lcom/google/firebase/components/g;->a(Ljava/lang/Class;)Ljava/lang/Object;
 
     move-result-object p1

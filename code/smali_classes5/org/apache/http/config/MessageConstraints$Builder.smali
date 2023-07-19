@@ -24,15 +24,12 @@
 .method constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/4 v0, -0x1
 
-    .line 2
     iput v0, p0, Lorg/apache/http/config/MessageConstraints$Builder;->maxLineLength:I
 
-    .line 3
     iput v0, p0, Lorg/apache/http/config/MessageConstraints$Builder;->maxHeaderCount:I
 
     return-void
@@ -43,7 +40,6 @@
 .method public build()Lorg/apache/http/config/MessageConstraints;
     .locals 3
 
-    .line 1
     new-instance v0, Lorg/apache/http/config/MessageConstraints;
 
     iget v1, p0, Lorg/apache/http/config/MessageConstraints$Builder;->maxLineLength:I
@@ -58,7 +54,6 @@
 .method public setMaxHeaderCount(I)Lorg/apache/http/config/MessageConstraints$Builder;
     .locals 0
 
-    .line 1
     iput p1, p0, Lorg/apache/http/config/MessageConstraints$Builder;->maxHeaderCount:I
 
     return-object p0
@@ -67,7 +62,6 @@
 .method public setMaxLineLength(I)Lorg/apache/http/config/MessageConstraints$Builder;
     .locals 0
 
-    .line 1
     iput p1, p0, Lorg/apache/http/config/MessageConstraints$Builder;->maxLineLength:I
 
     return-object p0

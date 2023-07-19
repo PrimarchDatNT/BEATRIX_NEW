@@ -65,7 +65,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/util/XFunctionFragmentHelper$showFunction$$inlined$let$lambda$2;->invoke()V
 
     sget-object v1, Lcotlin/t1;->a:Lcotlin/t1;
@@ -82,7 +81,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/util/XFunctionFragmentHelper$showFunction$$inlined$let$lambda$2;->$it:Lcom/commsource/camera/xcamera/cover/bottomFunction/a;
 
     invoke-virtual {v1}, Landroidx/fragment/app/Fragment;->isAdded()Z
@@ -91,7 +89,6 @@
 
     if-eqz v1, :cond_0
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/util/XFunctionFragmentHelper$showFunction$$inlined$let$lambda$2;->this$0:Lcom/commsource/util/XFunctionFragmentHelper;
 
     invoke-virtual {v1}, Lcom/commsource/util/XFunctionFragmentHelper;->b()Landroidx/fragment/app/FragmentManager;
@@ -102,19 +99,16 @@
 
     move-result-object v1
 
-    .line 4
     iget-object v2, p0, Lcom/commsource/util/XFunctionFragmentHelper$showFunction$$inlined$let$lambda$2;->$it:Lcom/commsource/camera/xcamera/cover/bottomFunction/a;
 
     invoke-virtual {v1, v2}, Landroidx/fragment/app/FragmentTransaction;->show(Landroidx/fragment/app/Fragment;)Landroidx/fragment/app/FragmentTransaction;
 
     move-result-object v1
 
-    .line 5
     invoke-virtual {v1}, Landroidx/fragment/app/FragmentTransaction;->commitNowAllowingStateLoss()V
 
     goto :goto_0
 
-    .line 6
     :cond_0
     iget-object v1, p0, Lcom/commsource/util/XFunctionFragmentHelper$showFunction$$inlined$let$lambda$2;->this$0:Lcom/commsource/util/XFunctionFragmentHelper;
 
@@ -126,7 +120,6 @@
 
     move-result-object v1
 
-    .line 7
     iget-object v2, p0, Lcom/commsource/util/XFunctionFragmentHelper$showFunction$$inlined$let$lambda$2;->this$0:Lcom/commsource/util/XFunctionFragmentHelper;
 
     invoke-virtual {v2}, Lcom/commsource/util/XFunctionFragmentHelper;->e()I
@@ -145,10 +138,8 @@
 
     move-result-object v1
 
-    .line 8
     invoke-virtual {v1}, Landroidx/fragment/app/FragmentTransaction;->commitNowAllowingStateLoss()V
 
-    .line 9
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

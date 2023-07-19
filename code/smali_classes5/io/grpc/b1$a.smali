@@ -34,7 +34,6 @@
 .method constructor <init>(Lio/grpc/b1;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lio/grpc/b1$a;->a:Lio/grpc/b1;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -47,7 +46,6 @@
 .method public a(Lio/grpc/a1;Lio/grpc/a1;)I
     .locals 0
 
-    .line 1
     invoke-virtual {p1}, Lio/grpc/a1;->g()I
 
     move-result p1
@@ -64,7 +62,6 @@
 .method public bridge synthetic compare(Ljava/lang/Object;Ljava/lang/Object;)I
     .locals 0
 
-    .line 1
     check-cast p1, Lio/grpc/a1;
 
     check-cast p2, Lio/grpc/a1;

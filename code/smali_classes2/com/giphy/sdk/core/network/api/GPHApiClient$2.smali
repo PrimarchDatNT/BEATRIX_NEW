@@ -38,7 +38,6 @@
 .method constructor <init>(Lcom/giphy/sdk/core/network/api/GPHApiClient;Ljava/lang/String;Lcom/giphy/sdk/core/network/api/CompletionHandler;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/giphy/sdk/core/network/api/GPHApiClient$2;->this$0:Lcom/giphy/sdk/core/network/api/GPHApiClient;
 
     iput-object p2, p0, Lcom/giphy/sdk/core/network/api/GPHApiClient$2;->val$categoryEncodedName:Ljava/lang/String;
@@ -59,14 +58,12 @@
 
     if-eqz p1, :cond_1
 
-    .line 2
     invoke-virtual {p1}, Lcom/giphy/sdk/core/network/response/ListCategoryResponse;->getData()Ljava/util/List;
 
     move-result-object p2
 
     if-eqz p2, :cond_0
 
-    .line 3
     invoke-virtual {p1}, Lcom/giphy/sdk/core/network/response/ListCategoryResponse;->getData()Ljava/util/List;
 
     move-result-object p2
@@ -88,7 +85,6 @@
 
     check-cast v1, Lcom/giphy/sdk/core/models/Category;
 
-    .line 4
     new-instance v2, Ljava/lang/StringBuilder;
 
     invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
@@ -115,7 +111,6 @@
 
     goto :goto_0
 
-    .line 5
     :cond_0
     iget-object p2, p0, Lcom/giphy/sdk/core/network/api/GPHApiClient$2;->val$completionHandler:Lcom/giphy/sdk/core/network/api/CompletionHandler;
 
@@ -123,7 +118,6 @@
 
     goto :goto_1
 
-    .line 6
     :cond_1
     iget-object p1, p0, Lcom/giphy/sdk/core/network/api/GPHApiClient$2;->val$completionHandler:Lcom/giphy/sdk/core/network/api/CompletionHandler;
 
@@ -136,7 +130,6 @@
 .method public bridge synthetic onComplete(Ljava/lang/Object;Ljava/lang/Throwable;)V
     .locals 0
 
-    .line 1
     check-cast p1, Lcom/giphy/sdk/core/network/response/ListCategoryResponse;
 
     invoke-virtual {p0, p1, p2}, Lcom/giphy/sdk/core/network/api/GPHApiClient$2;->onComplete(Lcom/giphy/sdk/core/network/response/ListCategoryResponse;Ljava/lang/Throwable;)V

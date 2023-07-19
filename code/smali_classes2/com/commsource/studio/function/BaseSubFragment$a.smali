@@ -50,7 +50,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/function/BaseSubFragment$a;->a:Landroid/view/View;
 
     invoke-virtual {v1}, Landroid/view/View;->animate()Landroid/view/ViewPropertyAnimator;
@@ -65,7 +64,6 @@
 
     move-result-object v1
 
-    .line 2
     new-instance v2, Lcom/commsource/studio/function/BaseSubFragment$a$a;
 
     invoke-direct {v2, p0}, Lcom/commsource/studio/function/BaseSubFragment$a$a;-><init>(Lcom/commsource/studio/function/BaseSubFragment$a;)V
@@ -76,7 +74,6 @@
 
     const/4 v2, 0x0
 
-    .line 3
     invoke-virtual {v1, v2}, Landroid/view/ViewPropertyAnimator;->translationY(F)Landroid/view/ViewPropertyAnimator;
 
     move-result-object v1
@@ -89,7 +86,6 @@
 
     invoke-virtual {v1}, Landroid/view/ViewPropertyAnimator;->start()V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

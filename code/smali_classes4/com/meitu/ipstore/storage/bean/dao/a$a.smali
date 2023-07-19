@@ -18,7 +18,6 @@
 .method public constructor <init>(Landroid/content/Context;Ljava/lang/String;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1, p2}, Lcom/meitu/ipstore/storage/bean/dao/a$b;-><init>(Landroid/content/Context;Ljava/lang/String;)V
 
     return-void
@@ -27,7 +26,6 @@
 .method public constructor <init>(Landroid/content/Context;Ljava/lang/String;Landroid/database/sqlite/SQLiteDatabase$CursorFactory;)V
     .locals 0
 
-    .line 2
     invoke-direct {p0, p1, p2, p3}, Lcom/meitu/ipstore/storage/bean/dao/a$b;-><init>(Landroid/content/Context;Ljava/lang/String;Landroid/database/sqlite/SQLiteDatabase$CursorFactory;)V
 
     return-void
@@ -42,7 +40,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -73,13 +70,10 @@
 
     const/4 p2, 0x1
 
-    .line 2
     invoke-static {p1, p2}, Lcom/meitu/ipstore/storage/bean/dao/a;->g(Lorg/greenrobot/greendao/database/a;Z)V
 
-    .line 3
     invoke-virtual {p0, p1}, Lcom/meitu/ipstore/storage/bean/dao/a$b;->h(Lorg/greenrobot/greendao/database/a;)V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

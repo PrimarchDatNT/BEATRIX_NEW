@@ -77,10 +77,8 @@
 .method public constructor <init>(Lcom/google/firebase/d;)V
     .locals 4
 
-    .line 1
     new-instance v0, Lcom/google/firebase/auth/p/a/h3;
 
-    .line 2
     invoke-virtual {p1}, Lcom/google/firebase/d;->q()Lcom/google/firebase/l;
 
     move-result-object v1
@@ -95,20 +93,16 @@
 
     move-result-object v0
 
-    .line 3
     invoke-virtual {p1}, Lcom/google/firebase/d;->l()Landroid/content/Context;
 
     move-result-object v1
 
-    .line 4
     invoke-static {v1, v0}, Lcom/google/firebase/auth/p/a/g3;->a(Landroid/content/Context;Lcom/google/firebase/auth/p/a/i3;)Lcom/google/firebase/auth/p/a/q;
 
     move-result-object v0
 
-    .line 5
     new-instance v1, Lcom/google/firebase/auth/internal/w;
 
-    .line 6
     invoke-virtual {p1}, Lcom/google/firebase/d;->l()Landroid/content/Context;
 
     move-result-object v2
@@ -119,12 +113,10 @@
 
     invoke-direct {v1, v2, v3}, Lcom/google/firebase/auth/internal/w;-><init>(Landroid/content/Context;Ljava/lang/String;)V
 
-    .line 7
     invoke-static {}, Lcom/google/firebase/auth/internal/o;->e()Lcom/google/firebase/auth/internal/o;
 
     move-result-object v2
 
-    .line 8
     invoke-direct {p0, p1, v0, v1, v2}, Lcom/google/firebase/auth/FirebaseAuth;-><init>(Lcom/google/firebase/d;Lcom/google/firebase/auth/p/a/q;Lcom/google/firebase/auth/internal/w;Lcom/google/firebase/auth/internal/o;)V
 
     return-void
@@ -135,24 +127,20 @@
     .annotation build Lcom/google/android/gms/common/util/d0;
     .end annotation
 
-    .line 9
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 10
     new-instance v0, Ljava/lang/Object;
 
     invoke-direct {v0}, Ljava/lang/Object;-><init>()V
 
     iput-object v0, p0, Lcom/google/firebase/auth/FirebaseAuth;->h:Ljava/lang/Object;
 
-    .line 11
     new-instance v0, Ljava/lang/Object;
 
     invoke-direct {v0}, Ljava/lang/Object;-><init>()V
 
     iput-object v0, p0, Lcom/google/firebase/auth/FirebaseAuth;->j:Ljava/lang/Object;
 
-    .line 12
     invoke-static {p1}, Lcom/google/android/gms/common/internal/b0;->k(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -161,7 +149,6 @@
 
     iput-object p1, p0, Lcom/google/firebase/auth/FirebaseAuth;->a:Lcom/google/firebase/d;
 
-    .line 13
     invoke-static {p2}, Lcom/google/android/gms/common/internal/b0;->k(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -170,7 +157,6 @@
 
     iput-object p1, p0, Lcom/google/firebase/auth/FirebaseAuth;->e:Lcom/google/firebase/auth/p/a/q;
 
-    .line 14
     invoke-static {p3}, Lcom/google/android/gms/common/internal/b0;->k(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -179,14 +165,12 @@
 
     iput-object p1, p0, Lcom/google/firebase/auth/FirebaseAuth;->l:Lcom/google/firebase/auth/internal/w;
 
-    .line 15
     new-instance p2, Lcom/google/firebase/auth/internal/g0;
 
     invoke-direct {p2}, Lcom/google/firebase/auth/internal/g0;-><init>()V
 
     iput-object p2, p0, Lcom/google/firebase/auth/FirebaseAuth;->g:Lcom/google/firebase/auth/internal/g0;
 
-    .line 16
     invoke-static {p4}, Lcom/google/android/gms/common/internal/b0;->k(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p2
@@ -195,35 +179,30 @@
 
     iput-object p2, p0, Lcom/google/firebase/auth/FirebaseAuth;->m:Lcom/google/firebase/auth/internal/o;
 
-    .line 17
     new-instance p3, Ljava/util/concurrent/CopyOnWriteArrayList;
 
     invoke-direct {p3}, Ljava/util/concurrent/CopyOnWriteArrayList;-><init>()V
 
     iput-object p3, p0, Lcom/google/firebase/auth/FirebaseAuth;->b:Ljava/util/List;
 
-    .line 18
     new-instance p3, Ljava/util/concurrent/CopyOnWriteArrayList;
 
     invoke-direct {p3}, Ljava/util/concurrent/CopyOnWriteArrayList;-><init>()V
 
     iput-object p3, p0, Lcom/google/firebase/auth/FirebaseAuth;->c:Ljava/util/List;
 
-    .line 19
     new-instance p3, Ljava/util/concurrent/CopyOnWriteArrayList;
 
     invoke-direct {p3}, Ljava/util/concurrent/CopyOnWriteArrayList;-><init>()V
 
     iput-object p3, p0, Lcom/google/firebase/auth/FirebaseAuth;->d:Ljava/util/List;
 
-    .line 20
     invoke-static {}, Lcom/google/firebase/auth/internal/x;->a()Lcom/google/firebase/auth/internal/x;
 
     move-result-object p3
 
     iput-object p3, p0, Lcom/google/firebase/auth/FirebaseAuth;->o:Lcom/google/firebase/auth/internal/x;
 
-    .line 21
     invoke-virtual {p1}, Lcom/google/firebase/auth/internal/w;->d()Lcom/google/firebase/auth/FirebaseUser;
 
     move-result-object p3
@@ -232,21 +211,18 @@
 
     if-eqz p3, :cond_0
 
-    .line 22
     invoke-virtual {p1, p3}, Lcom/google/firebase/auth/internal/w;->f(Lcom/google/firebase/auth/FirebaseUser;)Lcom/google/android/gms/internal/firebase_auth/zzes;
 
     move-result-object p1
 
     if-eqz p1, :cond_0
 
-    .line 23
     iget-object p3, p0, Lcom/google/firebase/auth/FirebaseAuth;->f:Lcom/google/firebase/auth/FirebaseUser;
 
     const/4 p4, 0x0
 
     invoke-virtual {p0, p3, p1, p4}, Lcom/google/firebase/auth/FirebaseAuth;->Q(Lcom/google/firebase/auth/FirebaseUser;Lcom/google/android/gms/internal/firebase_auth/zzes;Z)V
 
-    .line 24
     :cond_0
     invoke-virtual {p2, p0}, Lcom/google/firebase/auth/internal/o;->d(Lcom/google/firebase/auth/FirebaseAuth;)V
 
@@ -274,10 +250,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p1}, Lcom/google/android/gms/common/internal/b0;->k(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 2
     iget-object v0, p0, Lcom/google/firebase/auth/FirebaseAuth;->e:Lcom/google/firebase/auth/p/a/q;
 
     iget-object v1, p0, Lcom/google/firebase/auth/FirebaseAuth;->a:Lcom/google/firebase/d;
@@ -292,7 +266,6 @@
 .method static synthetic P(Lcom/google/firebase/auth/FirebaseAuth;)Ljava/util/List;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lcom/google/firebase/auth/FirebaseAuth;->c:Ljava/util/List;
 
     return-object p0
@@ -305,13 +278,11 @@
 
     monitor-enter p0
 
-    .line 1
     :try_start_0
     iput-object p1, p0, Lcom/google/firebase/auth/FirebaseAuth;->n:Lcom/google/firebase/auth/internal/v;
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 2
     monitor-exit p0
 
     return-void
@@ -327,7 +298,6 @@
 .method static synthetic W(Lcom/google/firebase/auth/FirebaseAuth;)Ljava/util/List;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lcom/google/firebase/auth/FirebaseAuth;->b:Ljava/util/List;
 
     return-object p0
@@ -344,7 +314,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     invoke-virtual {p1}, Lcom/google/firebase/auth/FirebaseUser;->getUid()Ljava/lang/String;
 
     move-result-object v1
@@ -384,13 +353,11 @@
     :cond_0
     const-string v1, "Notifying id token listeners about a sign-out event."
 
-    .line 2
     invoke-static {v0, v1}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
 
     :goto_0
     if-eqz p1, :cond_1
 
-    .line 3
     invoke-virtual {p1}, Lcom/google/firebase/auth/FirebaseUser;->z1()Ljava/lang/String;
 
     move-result-object p1
@@ -400,13 +367,11 @@
     :cond_1
     const/4 p1, 0x0
 
-    .line 4
     :goto_1
     new-instance v0, Lcom/google/firebase/v/c;
 
     invoke-direct {v0, p1}, Lcom/google/firebase/v/c;-><init>(Ljava/lang/String;)V
 
-    .line 5
     iget-object p1, p0, Lcom/google/firebase/auth/FirebaseAuth;->o:Lcom/google/firebase/auth/internal/x;
 
     new-instance v1, Lcom/google/firebase/auth/f0;
@@ -421,14 +386,12 @@
 .method private final Z(Ljava/lang/String;)Z
     .locals 1
 
-    .line 1
     invoke-static {p1}, Lcom/google/firebase/auth/w;->d(Ljava/lang/String;)Lcom/google/firebase/auth/w;
 
     move-result-object p1
 
     if-eqz p1, :cond_0
 
-    .line 2
     iget-object v0, p0, Lcom/google/firebase/auth/FirebaseAuth;->k:Ljava/lang/String;
 
     invoke-virtual {p1}, Lcom/google/firebase/auth/w;->c()Ljava/lang/String;
@@ -454,7 +417,6 @@
 .method static synthetic c0(Lcom/google/firebase/auth/FirebaseAuth;)Ljava/util/List;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lcom/google/firebase/auth/FirebaseAuth;->d:Ljava/util/List;
 
     return-object p0
@@ -471,7 +433,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     invoke-virtual {p1}, Lcom/google/firebase/auth/FirebaseUser;->getUid()Ljava/lang/String;
 
     move-result-object p1
@@ -511,10 +472,8 @@
     :cond_0
     const-string p1, "Notifying auth state listeners about a sign-out event."
 
-    .line 2
     invoke-static {v0, p1}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 3
     :goto_0
     iget-object p1, p0, Lcom/google/firebase/auth/FirebaseAuth;->o:Lcom/google/firebase/auth/internal/x;
 
@@ -534,24 +493,19 @@
 
     monitor-enter p0
 
-    .line 1
     :try_start_0
     iget-object v0, p0, Lcom/google/firebase/auth/FirebaseAuth;->n:Lcom/google/firebase/auth/internal/v;
 
     if-nez v0, :cond_0
 
-    .line 2
     new-instance v0, Lcom/google/firebase/auth/internal/v;
 
-    .line 3
     iget-object v1, p0, Lcom/google/firebase/auth/FirebaseAuth;->a:Lcom/google/firebase/d;
 
-    .line 4
     invoke-direct {v0, v1}, Lcom/google/firebase/auth/internal/v;-><init>(Lcom/google/firebase/d;)V
 
     invoke-direct {p0, v0}, Lcom/google/firebase/auth/FirebaseAuth;->R(Lcom/google/firebase/auth/internal/v;)V
 
-    .line 5
     :cond_0
     iget-object v0, p0, Lcom/google/firebase/auth/FirebaseAuth;->n:Lcom/google/firebase/auth/internal/v;
     :try_end_0
@@ -574,12 +528,10 @@
     .annotation build Landroidx/annotation/Keep;
     .end annotation
 
-    .line 1
     invoke-static {}, Lcom/google/firebase/d;->n()Lcom/google/firebase/d;
 
     move-result-object v0
 
-    .line 2
     const-class v1, Lcom/google/firebase/auth/FirebaseAuth;
 
     invoke-virtual {v0, v1}, Lcom/google/firebase/d;->j(Ljava/lang/Class;)Ljava/lang/Object;
@@ -600,7 +552,6 @@
     .annotation build Landroidx/annotation/Keep;
     .end annotation
 
-    .line 3
     const-class v0, Lcom/google/firebase/auth/FirebaseAuth;
 
     invoke-virtual {p0, v0}, Lcom/google/firebase/d;->j(Ljava/lang/Class;)Ljava/lang/Object;
@@ -615,7 +566,6 @@
 .method static synthetic i0(Lcom/google/firebase/auth/FirebaseAuth;)Lcom/google/firebase/auth/internal/g0;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lcom/google/firebase/auth/FirebaseAuth;->g:Lcom/google/firebase/auth/internal/g0;
 
     return-object p0
@@ -624,7 +574,6 @@
 .method static synthetic k0(Lcom/google/firebase/auth/FirebaseAuth;)Lcom/google/firebase/auth/FirebaseUser;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lcom/google/firebase/auth/FirebaseAuth;->f:Lcom/google/firebase/auth/FirebaseUser;
 
     return-object p0
@@ -657,13 +606,10 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p1}, Lcom/google/android/gms/common/internal/b0;->g(Ljava/lang/String;)Ljava/lang/String;
 
-    .line 2
     invoke-static {p2}, Lcom/google/android/gms/common/internal/b0;->g(Ljava/lang/String;)Ljava/lang/String;
 
-    .line 3
     iget-object v0, p0, Lcom/google/firebase/auth/FirebaseAuth;->e:Lcom/google/firebase/auth/p/a/q;
 
     iget-object v1, p0, Lcom/google/firebase/auth/FirebaseAuth;->a:Lcom/google/firebase/d;
@@ -710,7 +656,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p1, p2}, Lcom/google/firebase/auth/b;->b(Ljava/lang/String;Ljava/lang/String;)Lcom/google/firebase/auth/AuthCredential;
 
     move-result-object p1
@@ -725,15 +670,12 @@
 .method public C()V
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/firebase/auth/FirebaseAuth;->e0()V
 
-    .line 2
     iget-object v0, p0, Lcom/google/firebase/auth/FirebaseAuth;->n:Lcom/google/firebase/auth/internal/v;
 
     if-eqz v0, :cond_0
 
-    .line 3
     invoke-virtual {v0}, Lcom/google/firebase/auth/internal/v;->a()V
 
     :cond_0
@@ -762,59 +704,47 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p2}, Lcom/google/android/gms/common/internal/b0;->k(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 2
     invoke-static {p1}, Lcom/google/android/gms/common/internal/b0;->k(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 3
     new-instance v0, Lcom/google/android/gms/tasks/l;
 
     invoke-direct {v0}, Lcom/google/android/gms/tasks/l;-><init>()V
 
-    .line 4
     iget-object v1, p0, Lcom/google/firebase/auth/FirebaseAuth;->m:Lcom/google/firebase/auth/internal/o;
 
-    .line 5
     invoke-virtual {v1, p1, v0, p0}, Lcom/google/firebase/auth/internal/o;->b(Landroid/app/Activity;Lcom/google/android/gms/tasks/l;Lcom/google/firebase/auth/FirebaseAuth;)Z
 
     move-result v1
 
     if-nez v1, :cond_0
 
-    .line 6
     new-instance p1, Lcom/google/android/gms/common/api/Status;
 
     const/16 p2, 0x42a1
 
     invoke-direct {p1, p2}, Lcom/google/android/gms/common/api/Status;-><init>(I)V
 
-    .line 7
     invoke-static {p1}, Lcom/google/firebase/auth/p/a/u2;->d(Lcom/google/android/gms/common/api/Status;)Lcom/google/firebase/FirebaseException;
 
     move-result-object p1
 
-    .line 8
     invoke-static {p1}, Lcom/google/android/gms/tasks/n;->f(Ljava/lang/Exception;)Lcom/google/android/gms/tasks/k;
 
     move-result-object p1
 
     return-object p1
 
-    .line 9
     :cond_0
     invoke-virtual {p1}, Landroid/app/Activity;->getApplicationContext()Landroid/content/Context;
 
     move-result-object v1
 
-    .line 10
     invoke-static {v1, p0}, Lcom/google/firebase/auth/internal/t;->d(Landroid/content/Context;Lcom/google/firebase/auth/FirebaseAuth;)V
 
-    .line 11
     invoke-virtual {p2, p1}, Lcom/google/firebase/auth/d;->a(Landroid/app/Activity;)V
 
-    .line 12
     invoke-virtual {v0}, Lcom/google/android/gms/tasks/l;->a()Lcom/google/android/gms/tasks/k;
 
     move-result-object p1
@@ -841,7 +771,6 @@
 
     if-eqz p1, :cond_4
 
-    .line 1
     invoke-virtual {p1}, Lcom/google/firebase/auth/FirebaseUser;->t1()Ljava/lang/String;
 
     move-result-object v0
@@ -865,7 +794,6 @@
 
     if-eqz v0, :cond_2
 
-    .line 2
     invoke-virtual {p1}, Lcom/google/firebase/auth/FirebaseUser;->t1()Ljava/lang/String;
 
     move-result-object v1
@@ -876,7 +804,6 @@
 
     if-nez v0, :cond_2
 
-    .line 3
     :cond_1
     new-instance p1, Lcom/google/android/gms/common/api/Status;
 
@@ -884,19 +811,16 @@
 
     invoke-direct {p1, v0}, Lcom/google/android/gms/common/api/Status;-><init>(I)V
 
-    .line 4
     invoke-static {p1}, Lcom/google/firebase/auth/p/a/u2;->d(Lcom/google/android/gms/common/api/Status;)Lcom/google/firebase/FirebaseException;
 
     move-result-object p1
 
-    .line 5
     invoke-static {p1}, Lcom/google/android/gms/tasks/n;->f(Ljava/lang/Exception;)Lcom/google/android/gms/tasks/k;
 
     move-result-object p1
 
     return-object p1
 
-    .line 6
     :cond_2
     invoke-virtual {p1}, Lcom/google/firebase/auth/FirebaseUser;->u1()Lcom/google/firebase/d;
 
@@ -910,7 +834,6 @@
 
     move-result-object v0
 
-    .line 7
     iget-object v1, p0, Lcom/google/firebase/auth/FirebaseAuth;->a:Lcom/google/firebase/d;
 
     invoke-virtual {v1}, Lcom/google/firebase/d;->q()Lcom/google/firebase/l;
@@ -921,7 +844,6 @@
 
     move-result-object v1
 
-    .line 8
     invoke-virtual {p1}, Lcom/google/firebase/auth/FirebaseUser;->x1()Lcom/google/android/gms/internal/firebase_auth/zzes;
 
     move-result-object v2
@@ -938,14 +860,12 @@
 
     if-eqz v0, :cond_3
 
-    .line 9
     iget-object v0, p0, Lcom/google/firebase/auth/FirebaseAuth;->a:Lcom/google/firebase/d;
 
     invoke-static {v0, p1}, Lcom/google/firebase/auth/internal/zzm;->B1(Lcom/google/firebase/d;Lcom/google/firebase/auth/FirebaseUser;)Lcom/google/firebase/auth/FirebaseUser;
 
     move-result-object v0
 
-    .line 10
     invoke-virtual {p1}, Lcom/google/firebase/auth/FirebaseUser;->x1()Lcom/google/android/gms/internal/firebase_auth/zzes;
 
     move-result-object p1
@@ -956,14 +876,12 @@
 
     const/4 p1, 0x0
 
-    .line 11
     invoke-static {p1}, Lcom/google/android/gms/tasks/n;->g(Ljava/lang/Object;)Lcom/google/android/gms/tasks/k;
 
     move-result-object p1
 
     return-object p1
 
-    .line 12
     :cond_3
     new-instance v0, Lcom/google/firebase/auth/FirebaseAuth$e;
 
@@ -975,7 +893,6 @@
 
     return-object p1
 
-    .line 13
     :cond_4
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -989,12 +906,10 @@
 .method public F()V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/auth/FirebaseAuth;->h:Ljava/lang/Object;
 
     monitor-enter v0
 
-    .line 2
     :try_start_0
     invoke-static {}, Lcom/google/firebase/auth/p/a/l3;->b()Ljava/lang/String;
 
@@ -1002,7 +917,6 @@
 
     iput-object v1, p0, Lcom/google/firebase/auth/FirebaseAuth;->i:Ljava/lang/String;
 
-    .line 3
     monitor-exit v0
 
     return-void
@@ -1037,10 +951,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p1}, Lcom/google/android/gms/common/internal/b0;->g(Ljava/lang/String;)Ljava/lang/String;
 
-    .line 2
     iget-object v0, p0, Lcom/google/firebase/auth/FirebaseAuth;->e:Lcom/google/firebase/auth/p/a/q;
 
     iget-object v1, p0, Lcom/google/firebase/auth/FirebaseAuth;->a:Lcom/google/firebase/d;
@@ -1081,62 +993,49 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p1}, Lcom/google/android/gms/common/internal/b0;->k(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 2
     invoke-static {p2}, Lcom/google/android/gms/common/internal/b0;->k(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 3
     invoke-static {p3}, Lcom/google/android/gms/common/internal/b0;->k(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 4
     new-instance v0, Lcom/google/android/gms/tasks/l;
 
     invoke-direct {v0}, Lcom/google/android/gms/tasks/l;-><init>()V
 
-    .line 5
     iget-object v1, p0, Lcom/google/firebase/auth/FirebaseAuth;->m:Lcom/google/firebase/auth/internal/o;
 
-    .line 6
     invoke-virtual {v1, p1, v0, p0, p3}, Lcom/google/firebase/auth/internal/o;->c(Landroid/app/Activity;Lcom/google/android/gms/tasks/l;Lcom/google/firebase/auth/FirebaseAuth;Lcom/google/firebase/auth/FirebaseUser;)Z
 
     move-result v1
 
     if-nez v1, :cond_0
 
-    .line 7
     new-instance p1, Lcom/google/android/gms/common/api/Status;
 
     const/16 p2, 0x42a1
 
     invoke-direct {p1, p2}, Lcom/google/android/gms/common/api/Status;-><init>(I)V
 
-    .line 8
     invoke-static {p1}, Lcom/google/firebase/auth/p/a/u2;->d(Lcom/google/android/gms/common/api/Status;)Lcom/google/firebase/FirebaseException;
 
     move-result-object p1
 
-    .line 9
     invoke-static {p1}, Lcom/google/android/gms/tasks/n;->f(Ljava/lang/Exception;)Lcom/google/android/gms/tasks/k;
 
     move-result-object p1
 
     return-object p1
 
-    .line 10
     :cond_0
     invoke-virtual {p1}, Landroid/app/Activity;->getApplicationContext()Landroid/content/Context;
 
     move-result-object v1
 
-    .line 11
     invoke-static {v1, p0, p3}, Lcom/google/firebase/auth/internal/t;->e(Landroid/content/Context;Lcom/google/firebase/auth/FirebaseAuth;Lcom/google/firebase/auth/FirebaseUser;)V
 
-    .line 12
     invoke-virtual {p2, p1}, Lcom/google/firebase/auth/d;->b(Landroid/app/Activity;)V
 
-    .line 13
     invoke-virtual {v0}, Lcom/google/android/gms/tasks/l;->a()Lcom/google/android/gms/tasks/k;
 
     move-result-object p1
@@ -1169,28 +1068,23 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p2}, Lcom/google/android/gms/common/internal/b0;->g(Ljava/lang/String;)Ljava/lang/String;
 
-    .line 2
     iget-object v0, p0, Lcom/google/firebase/auth/FirebaseAuth;->i:Ljava/lang/String;
 
     if-eqz v0, :cond_1
 
     if-nez p1, :cond_0
 
-    .line 3
     invoke-static {}, Lcom/google/firebase/auth/ActionCodeSettings;->L0()Lcom/google/firebase/auth/ActionCodeSettings;
 
     move-result-object p1
 
-    .line 4
     :cond_0
     iget-object v0, p0, Lcom/google/firebase/auth/FirebaseAuth;->i:Ljava/lang/String;
 
     invoke-virtual {p1, v0}, Lcom/google/firebase/auth/ActionCodeSettings;->A0(Ljava/lang/String;)V
 
-    .line 5
     :cond_1
     iget-object v0, p0, Lcom/google/firebase/auth/FirebaseAuth;->e:Lcom/google/firebase/auth/p/a/q;
 
@@ -1228,13 +1122,10 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p1}, Lcom/google/android/gms/common/internal/b0;->k(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 2
     invoke-static {p2}, Lcom/google/android/gms/common/internal/b0;->k(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 3
     const-class v0, Lcom/google/firebase/auth/EmailAuthCredential;
 
     invoke-virtual {p2}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
@@ -1247,39 +1138,32 @@
 
     if-eqz v0, :cond_2
 
-    .line 4
     check-cast p2, Lcom/google/firebase/auth/EmailAuthCredential;
 
-    .line 5
     invoke-virtual {p2}, Lcom/google/firebase/auth/AuthCredential;->z()Ljava/lang/String;
 
     move-result-object v0
 
     const-string v1, "password"
 
-    .line 6
     invoke-virtual {v1, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
-    .line 7
     iget-object v1, p0, Lcom/google/firebase/auth/FirebaseAuth;->e:Lcom/google/firebase/auth/p/a/q;
 
     iget-object v2, p0, Lcom/google/firebase/auth/FirebaseAuth;->a:Lcom/google/firebase/d;
 
-    .line 8
     invoke-virtual {p2}, Lcom/google/firebase/auth/EmailAuthCredential;->r()Ljava/lang/String;
 
     move-result-object v4
 
-    .line 9
     invoke-virtual {p2}, Lcom/google/firebase/auth/EmailAuthCredential;->A()Ljava/lang/String;
 
     move-result-object v5
 
-    .line 10
     invoke-virtual {p1}, Lcom/google/firebase/auth/FirebaseUser;->t1()Ljava/lang/String;
 
     move-result-object v6
@@ -1290,14 +1174,12 @@
 
     move-object v3, p1
 
-    .line 11
     invoke-virtual/range {v1 .. v7}, Lcom/google/firebase/auth/p/a/q;->t(Lcom/google/firebase/d;Lcom/google/firebase/auth/FirebaseUser;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lcom/google/firebase/auth/internal/a0;)Lcom/google/android/gms/tasks/k;
 
     move-result-object p1
 
     return-object p1
 
-    .line 12
     :cond_0
     invoke-virtual {p2}, Lcom/google/firebase/auth/EmailAuthCredential;->V()Ljava/lang/String;
 
@@ -1309,14 +1191,12 @@
 
     if-eqz v0, :cond_1
 
-    .line 13
     new-instance p1, Lcom/google/android/gms/common/api/Status;
 
     const/16 p2, 0x42b0
 
     invoke-direct {p1, p2}, Lcom/google/android/gms/common/api/Status;-><init>(I)V
 
-    .line 14
     invoke-static {p1}, Lcom/google/firebase/auth/p/a/u2;->d(Lcom/google/android/gms/common/api/Status;)Lcom/google/firebase/FirebaseException;
 
     move-result-object p1
@@ -1327,7 +1207,6 @@
 
     return-object p1
 
-    .line 15
     :cond_1
     iget-object v0, p0, Lcom/google/firebase/auth/FirebaseAuth;->e:Lcom/google/firebase/auth/p/a/q;
 
@@ -1343,13 +1222,11 @@
 
     return-object p1
 
-    .line 16
     :cond_2
     instance-of v0, p2, Lcom/google/firebase/auth/PhoneAuthCredential;
 
     if-eqz v0, :cond_3
 
-    .line 17
     iget-object v1, p0, Lcom/google/firebase/auth/FirebaseAuth;->e:Lcom/google/firebase/auth/p/a/q;
 
     iget-object v2, p0, Lcom/google/firebase/auth/FirebaseAuth;->a:Lcom/google/firebase/d;
@@ -1372,13 +1249,11 @@
 
     return-object p1
 
-    .line 18
     :cond_3
     iget-object v0, p0, Lcom/google/firebase/auth/FirebaseAuth;->e:Lcom/google/firebase/auth/p/a/q;
 
     iget-object v1, p0, Lcom/google/firebase/auth/FirebaseAuth;->a:Lcom/google/firebase/d;
 
-    .line 19
     invoke-virtual {p1}, Lcom/google/firebase/auth/FirebaseUser;->t1()Ljava/lang/String;
 
     move-result-object v4
@@ -1391,7 +1266,6 @@
 
     move-object v3, p2
 
-    .line 20
     invoke-virtual/range {v0 .. v5}, Lcom/google/firebase/auth/p/a/q;->m(Lcom/google/firebase/d;Lcom/google/firebase/auth/FirebaseUser;Lcom/google/firebase/auth/AuthCredential;Ljava/lang/String;Lcom/google/firebase/auth/internal/a0;)Lcom/google/android/gms/tasks/k;
 
     move-result-object p1
@@ -1424,13 +1298,10 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p1}, Lcom/google/android/gms/common/internal/b0;->k(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 2
     invoke-static {p2}, Lcom/google/android/gms/common/internal/b0;->k(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 3
     iget-object v0, p0, Lcom/google/firebase/auth/FirebaseAuth;->e:Lcom/google/firebase/auth/p/a/q;
 
     iget-object v1, p0, Lcom/google/firebase/auth/FirebaseAuth;->a:Lcom/google/firebase/d;
@@ -1471,13 +1342,10 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p1}, Lcom/google/android/gms/common/internal/b0;->k(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 2
     invoke-static {p2}, Lcom/google/android/gms/common/internal/b0;->k(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 3
     iget-object v0, p0, Lcom/google/firebase/auth/FirebaseAuth;->e:Lcom/google/firebase/auth/p/a/q;
 
     iget-object v1, p0, Lcom/google/firebase/auth/FirebaseAuth;->a:Lcom/google/firebase/d;
@@ -1518,13 +1386,10 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p2}, Lcom/google/android/gms/common/internal/b0;->g(Ljava/lang/String;)Ljava/lang/String;
 
-    .line 2
     invoke-static {p1}, Lcom/google/android/gms/common/internal/b0;->k(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 3
     iget-object v0, p0, Lcom/google/firebase/auth/FirebaseAuth;->e:Lcom/google/firebase/auth/p/a/q;
 
     iget-object v1, p0, Lcom/google/firebase/auth/FirebaseAuth;->a:Lcom/google/firebase/d;
@@ -1562,32 +1427,27 @@
 
     if-nez p1, :cond_0
 
-    .line 1
     new-instance p1, Lcom/google/android/gms/common/api/Status;
 
     const/16 p2, 0x4457
 
     invoke-direct {p1, p2}, Lcom/google/android/gms/common/api/Status;-><init>(I)V
 
-    .line 2
     invoke-static {p1}, Lcom/google/firebase/auth/p/a/u2;->d(Lcom/google/android/gms/common/api/Status;)Lcom/google/firebase/FirebaseException;
 
     move-result-object p1
 
-    .line 3
     invoke-static {p1}, Lcom/google/android/gms/tasks/n;->f(Ljava/lang/Exception;)Lcom/google/android/gms/tasks/k;
 
     move-result-object p1
 
     return-object p1
 
-    .line 4
     :cond_0
     invoke-virtual {p1}, Lcom/google/firebase/auth/FirebaseUser;->x1()Lcom/google/android/gms/internal/firebase_auth/zzes;
 
     move-result-object v0
 
-    .line 5
     invoke-virtual {v0}, Lcom/google/android/gms/internal/firebase_auth/zzes;->z()Z
 
     move-result v1
@@ -1596,7 +1456,6 @@
 
     if-nez p2, :cond_1
 
-    .line 6
     invoke-virtual {v0}, Lcom/google/android/gms/internal/firebase_auth/zzes;->y()Ljava/lang/String;
 
     move-result-object p1
@@ -1605,20 +1464,17 @@
 
     move-result-object p1
 
-    .line 7
     invoke-static {p1}, Lcom/google/android/gms/tasks/n;->g(Ljava/lang/Object;)Lcom/google/android/gms/tasks/k;
 
     move-result-object p1
 
     return-object p1
 
-    .line 8
     :cond_1
     iget-object p2, p0, Lcom/google/firebase/auth/FirebaseAuth;->e:Lcom/google/firebase/auth/p/a/q;
 
     iget-object v1, p0, Lcom/google/firebase/auth/FirebaseAuth;->a:Lcom/google/firebase/d;
 
-    .line 9
     invoke-virtual {v0}, Lcom/google/android/gms/internal/firebase_auth/zzes;->w0()Ljava/lang/String;
 
     move-result-object v0
@@ -1627,7 +1483,6 @@
 
     invoke-direct {v2, p0}, Lcom/google/firebase/auth/h0;-><init>(Lcom/google/firebase/auth/FirebaseAuth;)V
 
-    .line 10
     invoke-virtual {p2, v1, p1, v0, v2}, Lcom/google/firebase/auth/p/a/q;->s(Lcom/google/firebase/d;Lcom/google/firebase/auth/FirebaseUser;Ljava/lang/String;Lcom/google/firebase/auth/internal/a0;)Lcom/google/android/gms/tasks/k;
 
     move-result-object p1
@@ -1646,13 +1501,10 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-static {p1}, Lcom/google/android/gms/common/internal/b0;->k(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 2
     invoke-static {p2}, Lcom/google/android/gms/common/internal/b0;->k(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 3
     iget-object v0, p0, Lcom/google/firebase/auth/FirebaseAuth;->f:Lcom/google/firebase/auth/FirebaseUser;
 
     const/4 v1, 0x0
@@ -1666,30 +1518,25 @@
 
     goto :goto_2
 
-    .line 4
     :cond_0
     invoke-virtual {v0}, Lcom/google/firebase/auth/FirebaseUser;->x1()Lcom/google/android/gms/internal/firebase_auth/zzes;
 
     move-result-object v0
 
-    .line 5
     invoke-virtual {v0}, Lcom/google/android/gms/internal/firebase_auth/zzes;->y()Ljava/lang/String;
 
     move-result-object v0
 
-    .line 6
     invoke-virtual {p2}, Lcom/google/android/gms/internal/firebase_auth/zzes;->y()Ljava/lang/String;
 
     move-result-object v3
 
-    .line 7
     invoke-virtual {v0, v3}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v0
 
     xor-int/2addr v0, v2
 
-    .line 8
     iget-object v3, p0, Lcom/google/firebase/auth/FirebaseAuth;->f:Lcom/google/firebase/auth/FirebaseUser;
 
     invoke-virtual {v3}, Lcom/google/firebase/auth/FirebaseUser;->getUid()Ljava/lang/String;
@@ -1722,22 +1569,18 @@
 
     goto :goto_0
 
-    .line 9
     :cond_2
     :goto_2
     invoke-static {p1}, Lcom/google/android/gms/common/internal/b0;->k(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 10
     iget-object v0, p0, Lcom/google/firebase/auth/FirebaseAuth;->f:Lcom/google/firebase/auth/FirebaseUser;
 
     if-nez v0, :cond_3
 
-    .line 11
     iput-object p1, p0, Lcom/google/firebase/auth/FirebaseAuth;->f:Lcom/google/firebase/auth/FirebaseUser;
 
     goto :goto_3
 
-    .line 12
     :cond_3
     invoke-virtual {p1}, Lcom/google/firebase/auth/FirebaseUser;->M()Ljava/util/List;
 
@@ -1745,19 +1588,16 @@
 
     invoke-virtual {v0, v3}, Lcom/google/firebase/auth/FirebaseUser;->q1(Ljava/util/List;)Lcom/google/firebase/auth/FirebaseUser;
 
-    .line 13
     invoke-virtual {p1}, Lcom/google/firebase/auth/FirebaseUser;->Q()Z
 
     move-result v0
 
     if-nez v0, :cond_4
 
-    .line 14
     iget-object v0, p0, Lcom/google/firebase/auth/FirebaseAuth;->f:Lcom/google/firebase/auth/FirebaseUser;
 
     invoke-virtual {v0}, Lcom/google/firebase/auth/FirebaseUser;->w1()Lcom/google/firebase/auth/FirebaseUser;
 
-    .line 15
     :cond_4
     invoke-virtual {p1}, Lcom/google/firebase/auth/FirebaseUser;->A1()Lcom/google/firebase/auth/o0;
 
@@ -1767,7 +1607,6 @@
 
     move-result-object v0
 
-    .line 16
     iget-object v3, p0, Lcom/google/firebase/auth/FirebaseAuth;->f:Lcom/google/firebase/auth/FirebaseUser;
 
     invoke-virtual {v3, v0}, Lcom/google/firebase/auth/FirebaseUser;->s1(Ljava/util/List;)V
@@ -1775,7 +1614,6 @@
     :goto_3
     if-eqz p3, :cond_5
 
-    .line 17
     iget-object v0, p0, Lcom/google/firebase/auth/FirebaseAuth;->l:Lcom/google/firebase/auth/internal/w;
 
     iget-object v3, p0, Lcom/google/firebase/auth/FirebaseAuth;->f:Lcom/google/firebase/auth/FirebaseUser;
@@ -1785,15 +1623,12 @@
     :cond_5
     if-eqz v2, :cond_7
 
-    .line 18
     iget-object v0, p0, Lcom/google/firebase/auth/FirebaseAuth;->f:Lcom/google/firebase/auth/FirebaseUser;
 
     if-eqz v0, :cond_6
 
-    .line 19
     invoke-virtual {v0, p2}, Lcom/google/firebase/auth/FirebaseUser;->r1(Lcom/google/android/gms/internal/firebase_auth/zzes;)V
 
-    .line 20
     :cond_6
     iget-object v0, p0, Lcom/google/firebase/auth/FirebaseAuth;->f:Lcom/google/firebase/auth/FirebaseUser;
 
@@ -1802,7 +1637,6 @@
     :cond_7
     if-eqz v1, :cond_8
 
-    .line 21
     iget-object v0, p0, Lcom/google/firebase/auth/FirebaseAuth;->f:Lcom/google/firebase/auth/FirebaseUser;
 
     invoke-direct {p0, v0}, Lcom/google/firebase/auth/FirebaseAuth;->d0(Lcom/google/firebase/auth/FirebaseUser;)V
@@ -1810,12 +1644,10 @@
     :cond_8
     if-eqz p3, :cond_9
 
-    .line 22
     iget-object p3, p0, Lcom/google/firebase/auth/FirebaseAuth;->l:Lcom/google/firebase/auth/internal/w;
 
     invoke-virtual {p3, p1, p2}, Lcom/google/firebase/auth/internal/w;->b(Lcom/google/firebase/auth/FirebaseUser;Lcom/google/android/gms/internal/firebase_auth/zzes;)V
 
-    .line 23
     :cond_9
     invoke-direct {p0}, Lcom/google/firebase/auth/FirebaseAuth;->f0()Lcom/google/firebase/auth/internal/v;
 
@@ -1853,7 +1685,6 @@
 
     move-object v0, p0
 
-    .line 1
     sget-object v1, Ljava/util/concurrent/TimeUnit;->SECONDS:Ljava/util/concurrent/TimeUnit;
 
     move-wide v2, p2
@@ -1876,7 +1707,6 @@
 
     if-gtz v3, :cond_1
 
-    .line 2
     new-instance v1, Lcom/google/android/gms/internal/firebase_auth/zzfe;
 
     iget-object v7, v0, Lcom/google/firebase/auth/FirebaseAuth;->i:Ljava/lang/String;
@@ -1891,7 +1721,6 @@
 
     invoke-direct/range {v2 .. v8}, Lcom/google/android/gms/internal/firebase_auth/zzfe;-><init>(Ljava/lang/String;JZLjava/lang/String;Ljava/lang/String;)V
 
-    .line 3
     iget-object v2, v0, Lcom/google/firebase/auth/FirebaseAuth;->g:Lcom/google/firebase/auth/internal/g0;
 
     invoke-virtual {v2}, Lcom/google/firebase/auth/internal/g0;->d()Z
@@ -1902,7 +1731,6 @@
 
     iget-object v2, v0, Lcom/google/firebase/auth/FirebaseAuth;->g:Lcom/google/firebase/auth/internal/g0;
 
-    .line 4
     invoke-virtual {v2}, Lcom/google/firebase/auth/internal/g0;->b()Ljava/lang/String;
 
     move-result-object v2
@@ -1915,7 +1743,6 @@
 
     if-eqz v2, :cond_0
 
-    .line 5
     new-instance v2, Lcom/google/firebase/auth/g0;
 
     move-object/from16 v3, p5
@@ -1931,7 +1758,6 @@
 
     move-object v9, v3
 
-    .line 6
     :goto_0
     iget-object v6, v0, Lcom/google/firebase/auth/FirebaseAuth;->e:Lcom/google/firebase/auth/p/a/q;
 
@@ -1947,7 +1773,6 @@
 
     return-void
 
-    .line 7
     :cond_1
     new-instance v1, Ljava/lang/IllegalArgumentException;
 
@@ -1985,62 +1810,49 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p1}, Lcom/google/android/gms/common/internal/b0;->k(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 2
     invoke-static {p2}, Lcom/google/android/gms/common/internal/b0;->k(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 3
     invoke-static {p3}, Lcom/google/android/gms/common/internal/b0;->k(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 4
     new-instance v0, Lcom/google/android/gms/tasks/l;
 
     invoke-direct {v0}, Lcom/google/android/gms/tasks/l;-><init>()V
 
-    .line 5
     iget-object v1, p0, Lcom/google/firebase/auth/FirebaseAuth;->m:Lcom/google/firebase/auth/internal/o;
 
-    .line 6
     invoke-virtual {v1, p1, v0, p0, p3}, Lcom/google/firebase/auth/internal/o;->c(Landroid/app/Activity;Lcom/google/android/gms/tasks/l;Lcom/google/firebase/auth/FirebaseAuth;Lcom/google/firebase/auth/FirebaseUser;)Z
 
     move-result v1
 
     if-nez v1, :cond_0
 
-    .line 7
     new-instance p1, Lcom/google/android/gms/common/api/Status;
 
     const/16 p2, 0x42a1
 
     invoke-direct {p1, p2}, Lcom/google/android/gms/common/api/Status;-><init>(I)V
 
-    .line 8
     invoke-static {p1}, Lcom/google/firebase/auth/p/a/u2;->d(Lcom/google/android/gms/common/api/Status;)Lcom/google/firebase/FirebaseException;
 
     move-result-object p1
 
-    .line 9
     invoke-static {p1}, Lcom/google/android/gms/tasks/n;->f(Ljava/lang/Exception;)Lcom/google/android/gms/tasks/k;
 
     move-result-object p1
 
     return-object p1
 
-    .line 10
     :cond_0
     invoke-virtual {p1}, Landroid/app/Activity;->getApplicationContext()Landroid/content/Context;
 
     move-result-object v1
 
-    .line 11
     invoke-static {v1, p0, p3}, Lcom/google/firebase/auth/internal/t;->e(Landroid/content/Context;Lcom/google/firebase/auth/FirebaseAuth;Lcom/google/firebase/auth/FirebaseUser;)V
 
-    .line 12
     invoke-virtual {p2, p1}, Lcom/google/firebase/auth/d;->c(Landroid/app/Activity;)V
 
-    .line 13
     invoke-virtual {v0}, Lcom/google/android/gms/tasks/l;->a()Lcom/google/android/gms/tasks/k;
 
     move-result-object p1
@@ -2070,13 +1882,10 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p1}, Lcom/google/android/gms/common/internal/b0;->k(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 2
     invoke-static {p2}, Lcom/google/android/gms/common/internal/b0;->k(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 3
     const-class v0, Lcom/google/firebase/auth/EmailAuthCredential;
 
     invoke-virtual {p2}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
@@ -2089,39 +1898,32 @@
 
     if-eqz v0, :cond_2
 
-    .line 4
     check-cast p2, Lcom/google/firebase/auth/EmailAuthCredential;
 
-    .line 5
     invoke-virtual {p2}, Lcom/google/firebase/auth/AuthCredential;->z()Ljava/lang/String;
 
     move-result-object v0
 
     const-string v1, "password"
 
-    .line 6
     invoke-virtual {v1, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
-    .line 7
     iget-object v1, p0, Lcom/google/firebase/auth/FirebaseAuth;->e:Lcom/google/firebase/auth/p/a/q;
 
     iget-object v2, p0, Lcom/google/firebase/auth/FirebaseAuth;->a:Lcom/google/firebase/d;
 
-    .line 8
     invoke-virtual {p2}, Lcom/google/firebase/auth/EmailAuthCredential;->r()Ljava/lang/String;
 
     move-result-object v4
 
-    .line 9
     invoke-virtual {p2}, Lcom/google/firebase/auth/EmailAuthCredential;->A()Ljava/lang/String;
 
     move-result-object v5
 
-    .line 10
     invoke-virtual {p1}, Lcom/google/firebase/auth/FirebaseUser;->t1()Ljava/lang/String;
 
     move-result-object v6
@@ -2132,14 +1934,12 @@
 
     move-object v3, p1
 
-    .line 11
     invoke-virtual/range {v1 .. v7}, Lcom/google/firebase/auth/p/a/q;->I(Lcom/google/firebase/d;Lcom/google/firebase/auth/FirebaseUser;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lcom/google/firebase/auth/internal/a0;)Lcom/google/android/gms/tasks/k;
 
     move-result-object p1
 
     return-object p1
 
-    .line 12
     :cond_0
     invoke-virtual {p2}, Lcom/google/firebase/auth/EmailAuthCredential;->V()Ljava/lang/String;
 
@@ -2151,14 +1951,12 @@
 
     if-eqz v0, :cond_1
 
-    .line 13
     new-instance p1, Lcom/google/android/gms/common/api/Status;
 
     const/16 p2, 0x42b0
 
     invoke-direct {p1, p2}, Lcom/google/android/gms/common/api/Status;-><init>(I)V
 
-    .line 14
     invoke-static {p1}, Lcom/google/firebase/auth/p/a/u2;->d(Lcom/google/android/gms/common/api/Status;)Lcom/google/firebase/FirebaseException;
 
     move-result-object p1
@@ -2169,7 +1967,6 @@
 
     return-object p1
 
-    .line 15
     :cond_1
     iget-object v0, p0, Lcom/google/firebase/auth/FirebaseAuth;->e:Lcom/google/firebase/auth/p/a/q;
 
@@ -2185,13 +1982,11 @@
 
     return-object p1
 
-    .line 16
     :cond_2
     instance-of v0, p2, Lcom/google/firebase/auth/PhoneAuthCredential;
 
     if-eqz v0, :cond_3
 
-    .line 17
     iget-object v1, p0, Lcom/google/firebase/auth/FirebaseAuth;->e:Lcom/google/firebase/auth/p/a/q;
 
     iget-object v2, p0, Lcom/google/firebase/auth/FirebaseAuth;->a:Lcom/google/firebase/d;
@@ -2214,13 +2009,11 @@
 
     return-object p1
 
-    .line 18
     :cond_3
     iget-object v0, p0, Lcom/google/firebase/auth/FirebaseAuth;->e:Lcom/google/firebase/auth/p/a/q;
 
     iget-object v1, p0, Lcom/google/firebase/auth/FirebaseAuth;->a:Lcom/google/firebase/d;
 
-    .line 19
     invoke-virtual {p1}, Lcom/google/firebase/auth/FirebaseUser;->t1()Ljava/lang/String;
 
     move-result-object v4
@@ -2233,7 +2026,6 @@
 
     move-object v3, p2
 
-    .line 20
     invoke-virtual/range {v0 .. v5}, Lcom/google/firebase/auth/p/a/q;->E(Lcom/google/firebase/d;Lcom/google/firebase/auth/FirebaseUser;Lcom/google/firebase/auth/AuthCredential;Ljava/lang/String;Lcom/google/firebase/auth/internal/a0;)Lcom/google/android/gms/tasks/k;
 
     move-result-object p1
@@ -2266,13 +2058,10 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p1}, Lcom/google/android/gms/common/internal/b0;->k(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 2
     invoke-static {p2}, Lcom/google/android/gms/common/internal/b0;->g(Ljava/lang/String;)Ljava/lang/String;
 
-    .line 3
     iget-object v0, p0, Lcom/google/firebase/auth/FirebaseAuth;->e:Lcom/google/firebase/auth/p/a/q;
 
     iget-object v1, p0, Lcom/google/firebase/auth/FirebaseAuth;->a:Lcom/google/firebase/d;
@@ -2293,12 +2082,10 @@
     .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/auth/FirebaseAuth;->j:Ljava/lang/Object;
 
     monitor-enter v0
 
-    .line 2
     :try_start_0
     iget-object v1, p0, Lcom/google/firebase/auth/FirebaseAuth;->k:Ljava/lang/String;
 
@@ -2309,7 +2096,6 @@
     :catchall_0
     move-exception v1
 
-    .line 3
     monitor-exit v0
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
@@ -2331,7 +2117,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/auth/FirebaseAuth;->f:Lcom/google/firebase/auth/FirebaseUser;
 
     invoke-virtual {p0, v0, p1}, Lcom/google/firebase/auth/FirebaseAuth;->O(Lcom/google/firebase/auth/FirebaseUser;Z)Lcom/google/android/gms/tasks/k;
@@ -2366,13 +2151,10 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p2}, Lcom/google/android/gms/common/internal/b0;->k(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 2
     invoke-static {p1}, Lcom/google/android/gms/common/internal/b0;->k(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 3
     iget-object v0, p0, Lcom/google/firebase/auth/FirebaseAuth;->e:Lcom/google/firebase/auth/p/a/q;
 
     iget-object v1, p0, Lcom/google/firebase/auth/FirebaseAuth;->a:Lcom/google/firebase/d;
@@ -2397,15 +2179,12 @@
     .annotation build Lcom/google/android/gms/common/annotation/a;
     .end annotation
 
-    .line 1
     invoke-static {p1}, Lcom/google/android/gms/common/internal/b0;->k(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 2
     iget-object v0, p0, Lcom/google/firebase/auth/FirebaseAuth;->c:Ljava/util/List;
 
     invoke-interface {v0, p1}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
-    .line 3
     invoke-direct {p0}, Lcom/google/firebase/auth/FirebaseAuth;->f0()Lcom/google/firebase/auth/internal/v;
 
     move-result-object p1
@@ -2446,13 +2225,10 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p1}, Lcom/google/android/gms/common/internal/b0;->k(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 2
     invoke-static {p2}, Lcom/google/android/gms/common/internal/b0;->g(Ljava/lang/String;)Ljava/lang/String;
 
-    .line 3
     iget-object v0, p0, Lcom/google/firebase/auth/FirebaseAuth;->e:Lcom/google/firebase/auth/p/a/q;
 
     iget-object v1, p0, Lcom/google/firebase/auth/FirebaseAuth;->a:Lcom/google/firebase/d;
@@ -2477,15 +2253,12 @@
     .annotation build Lcom/google/android/gms/common/annotation/a;
     .end annotation
 
-    .line 1
     invoke-static {p1}, Lcom/google/android/gms/common/internal/b0;->k(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 2
     iget-object v0, p0, Lcom/google/firebase/auth/FirebaseAuth;->c:Ljava/util/List;
 
     invoke-interface {v0, p1}, Ljava/util/List;->remove(Ljava/lang/Object;)Z
 
-    .line 3
     invoke-direct {p0}, Lcom/google/firebase/auth/FirebaseAuth;->f0()Lcom/google/firebase/auth/internal/v;
 
     move-result-object p1
@@ -2508,12 +2281,10 @@
         .end annotation
     .end param
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/auth/FirebaseAuth;->d:Ljava/util/List;
 
     invoke-interface {v0, p1}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
-    .line 2
     iget-object v0, p0, Lcom/google/firebase/auth/FirebaseAuth;->o:Lcom/google/firebase/auth/internal/x;
 
     new-instance v1, Lcom/google/firebase/auth/c0;
@@ -2532,12 +2303,10 @@
         .end annotation
     .end param
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/auth/FirebaseAuth;->b:Ljava/util/List;
 
     invoke-interface {v0, p1}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
-    .line 2
     iget-object v0, p0, Lcom/google/firebase/auth/FirebaseAuth;->o:Lcom/google/firebase/auth/internal/x;
 
     new-instance v1, Lcom/google/firebase/auth/d0;
@@ -2552,17 +2321,14 @@
 .method public final e0()V
     .locals 5
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/auth/FirebaseAuth;->f:Lcom/google/firebase/auth/FirebaseUser;
 
     const/4 v1, 0x0
 
     if-eqz v0, :cond_0
 
-    .line 2
     iget-object v2, p0, Lcom/google/firebase/auth/FirebaseAuth;->l:Lcom/google/firebase/auth/internal/w;
 
-    .line 3
     invoke-static {v0}, Lcom/google/android/gms/common/internal/b0;->k(Ljava/lang/Object;)Ljava/lang/Object;
 
     const/4 v3, 0x1
@@ -2571,7 +2337,6 @@
 
     const/4 v4, 0x0
 
-    .line 4
     invoke-virtual {v0}, Lcom/google/firebase/auth/FirebaseUser;->getUid()Ljava/lang/String;
 
     move-result-object v0
@@ -2586,22 +2351,17 @@
 
     invoke-virtual {v2, v0}, Lcom/google/firebase/auth/internal/w;->a(Ljava/lang/String;)V
 
-    .line 5
     iput-object v1, p0, Lcom/google/firebase/auth/FirebaseAuth;->f:Lcom/google/firebase/auth/FirebaseUser;
 
-    .line 6
     :cond_0
     iget-object v0, p0, Lcom/google/firebase/auth/FirebaseAuth;->l:Lcom/google/firebase/auth/internal/w;
 
     const-string v2, "com.google.firebase.auth.FIREBASE_USER"
 
-    .line 7
     invoke-virtual {v0, v2}, Lcom/google/firebase/auth/internal/w;->a(Ljava/lang/String;)V
 
-    .line 8
     invoke-direct {p0, v1}, Lcom/google/firebase/auth/FirebaseAuth;->X(Lcom/google/firebase/auth/FirebaseUser;)V
 
-    .line 9
     invoke-direct {p0, v1}, Lcom/google/firebase/auth/FirebaseAuth;->d0(Lcom/google/firebase/auth/FirebaseUser;)V
 
     return-void
@@ -2627,10 +2387,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p1}, Lcom/google/android/gms/common/internal/b0;->g(Ljava/lang/String;)Ljava/lang/String;
 
-    .line 2
     iget-object v0, p0, Lcom/google/firebase/auth/FirebaseAuth;->e:Lcom/google/firebase/auth/p/a/q;
 
     iget-object v1, p0, Lcom/google/firebase/auth/FirebaseAuth;->a:Lcom/google/firebase/d;
@@ -2664,10 +2422,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p1}, Lcom/google/android/gms/common/internal/b0;->g(Ljava/lang/String;)Ljava/lang/String;
 
-    .line 2
     iget-object v0, p0, Lcom/google/firebase/auth/FirebaseAuth;->e:Lcom/google/firebase/auth/p/a/q;
 
     iget-object v1, p0, Lcom/google/firebase/auth/FirebaseAuth;->a:Lcom/google/firebase/d;
@@ -2684,7 +2440,6 @@
 .method public final g0()Lcom/google/firebase/d;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/auth/FirebaseAuth;->a:Lcom/google/firebase/d;
 
     return-object v0
@@ -2695,7 +2450,6 @@
     .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/auth/FirebaseAuth;->f:Lcom/google/firebase/auth/FirebaseUser;
 
     if-nez v0, :cond_0
@@ -2737,13 +2491,10 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p1}, Lcom/google/android/gms/common/internal/b0;->g(Ljava/lang/String;)Ljava/lang/String;
 
-    .line 2
     invoke-static {p2}, Lcom/google/android/gms/common/internal/b0;->g(Ljava/lang/String;)Ljava/lang/String;
 
-    .line 3
     iget-object v0, p0, Lcom/google/firebase/auth/FirebaseAuth;->e:Lcom/google/firebase/auth/p/a/q;
 
     iget-object v1, p0, Lcom/google/firebase/auth/FirebaseAuth;->a:Lcom/google/firebase/d;
@@ -2774,7 +2525,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/google/firebase/auth/FirebaseAuth$c;
 
     invoke-direct {v0, p0}, Lcom/google/firebase/auth/FirebaseAuth$c;-><init>(Lcom/google/firebase/auth/FirebaseAuth;)V
@@ -2811,13 +2561,10 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p1}, Lcom/google/android/gms/common/internal/b0;->g(Ljava/lang/String;)Ljava/lang/String;
 
-    .line 2
     invoke-static {p2}, Lcom/google/android/gms/common/internal/b0;->g(Ljava/lang/String;)Ljava/lang/String;
 
-    .line 3
     iget-object v0, p0, Lcom/google/firebase/auth/FirebaseAuth;->e:Lcom/google/firebase/auth/p/a/q;
 
     iget-object v1, p0, Lcom/google/firebase/auth/FirebaseAuth;->a:Lcom/google/firebase/d;
@@ -2859,10 +2606,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p1}, Lcom/google/android/gms/common/internal/b0;->g(Ljava/lang/String;)Ljava/lang/String;
 
-    .line 2
     iget-object v0, p0, Lcom/google/firebase/auth/FirebaseAuth;->e:Lcom/google/firebase/auth/p/a/q;
 
     iget-object v1, p0, Lcom/google/firebase/auth/FirebaseAuth;->a:Lcom/google/firebase/d;
@@ -2896,10 +2641,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p1}, Lcom/google/android/gms/common/internal/b0;->k(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 2
     iget-object v0, p0, Lcom/google/firebase/auth/FirebaseAuth;->e:Lcom/google/firebase/auth/p/a/q;
 
     new-instance v1, Lcom/google/firebase/auth/i0;
@@ -2916,7 +2659,6 @@
 .method public k()Lcom/google/firebase/d;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/auth/FirebaseAuth;->a:Lcom/google/firebase/d;
 
     return-object v0
@@ -2927,7 +2669,6 @@
     .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/auth/FirebaseAuth;->f:Lcom/google/firebase/auth/FirebaseUser;
 
     return-object v0
@@ -2940,19 +2681,15 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-static {p1}, Lcom/google/android/gms/common/internal/b0;->g(Ljava/lang/String;)Ljava/lang/String;
 
-    .line 2
     iget-object v0, p0, Lcom/google/firebase/auth/FirebaseAuth;->j:Ljava/lang/Object;
 
     monitor-enter v0
 
-    .line 3
     :try_start_0
     iput-object p1, p0, Lcom/google/firebase/auth/FirebaseAuth;->k:Ljava/lang/String;
 
-    .line 4
     monitor-exit v0
 
     return-void
@@ -2970,7 +2707,6 @@
 .method public m()Lcom/google/firebase/auth/f;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/auth/FirebaseAuth;->g:Lcom/google/firebase/auth/internal/g0;
 
     return-object v0
@@ -2981,12 +2717,10 @@
     .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/auth/FirebaseAuth;->h:Ljava/lang/Object;
 
     monitor-enter v0
 
-    .line 2
     :try_start_0
     iget-object v1, p0, Lcom/google/firebase/auth/FirebaseAuth;->i:Ljava/lang/String;
 
@@ -2997,7 +2731,6 @@
     :catchall_0
     move-exception v1
 
-    .line 3
     monitor-exit v0
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
@@ -3019,7 +2752,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/auth/FirebaseAuth;->m:Lcom/google/firebase/auth/internal/o;
 
     invoke-virtual {v0}, Lcom/google/firebase/auth/internal/o;->f()Lcom/google/android/gms/tasks/k;
@@ -3036,7 +2768,6 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-static {p1}, Lcom/google/firebase/auth/EmailAuthCredential;->M(Ljava/lang/String;)Z
 
     move-result p1
@@ -3051,7 +2782,6 @@
         .end annotation
     .end param
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/auth/FirebaseAuth;->d:Ljava/util/List;
 
     invoke-interface {v0, p1}, Ljava/util/List;->remove(Ljava/lang/Object;)Z
@@ -3066,7 +2796,6 @@
         .end annotation
     .end param
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/auth/FirebaseAuth;->b:Ljava/util/List;
 
     invoke-interface {v0, p1}, Ljava/util/List;->remove(Ljava/lang/Object;)Z
@@ -3094,12 +2823,10 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p1}, Lcom/google/android/gms/common/internal/b0;->g(Ljava/lang/String;)Ljava/lang/String;
 
     const/4 v0, 0x0
 
-    .line 2
     invoke-virtual {p0, p1, v0}, Lcom/google/firebase/auth/FirebaseAuth;->t(Ljava/lang/String;Lcom/google/firebase/auth/ActionCodeSettings;)Lcom/google/android/gms/tasks/k;
 
     move-result-object p1
@@ -3132,32 +2859,26 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p1}, Lcom/google/android/gms/common/internal/b0;->g(Ljava/lang/String;)Ljava/lang/String;
 
     if-nez p2, :cond_0
 
-    .line 2
     invoke-static {}, Lcom/google/firebase/auth/ActionCodeSettings;->L0()Lcom/google/firebase/auth/ActionCodeSettings;
 
     move-result-object p2
 
-    .line 3
     :cond_0
     iget-object v0, p0, Lcom/google/firebase/auth/FirebaseAuth;->i:Ljava/lang/String;
 
     if-eqz v0, :cond_1
 
-    .line 4
     invoke-virtual {p2, v0}, Lcom/google/firebase/auth/ActionCodeSettings;->A0(Ljava/lang/String;)V
 
-    .line 5
     :cond_1
     sget-object v0, Lcom/google/android/gms/internal/firebase_auth/zzfw;->zzve:Lcom/google/android/gms/internal/firebase_auth/zzfw;
 
     invoke-virtual {p2, v0}, Lcom/google/firebase/auth/ActionCodeSettings;->y0(Lcom/google/android/gms/internal/firebase_auth/zzfw;)V
 
-    .line 6
     iget-object v0, p0, Lcom/google/firebase/auth/FirebaseAuth;->e:Lcom/google/firebase/auth/p/a/q;
 
     iget-object v1, p0, Lcom/google/firebase/auth/FirebaseAuth;->a:Lcom/google/firebase/d;
@@ -3193,28 +2914,22 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p1}, Lcom/google/android/gms/common/internal/b0;->g(Ljava/lang/String;)Ljava/lang/String;
 
-    .line 2
     invoke-static {p2}, Lcom/google/android/gms/common/internal/b0;->k(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 3
     invoke-virtual {p2}, Lcom/google/firebase/auth/ActionCodeSettings;->y()Z
 
     move-result v0
 
     if-eqz v0, :cond_1
 
-    .line 4
     iget-object v0, p0, Lcom/google/firebase/auth/FirebaseAuth;->i:Ljava/lang/String;
 
     if-eqz v0, :cond_0
 
-    .line 5
     invoke-virtual {p2, v0}, Lcom/google/firebase/auth/ActionCodeSettings;->A0(Ljava/lang/String;)V
 
-    .line 6
     :cond_0
     iget-object v0, p0, Lcom/google/firebase/auth/FirebaseAuth;->e:Lcom/google/firebase/auth/p/a/q;
 
@@ -3228,7 +2943,6 @@
 
     return-object p1
 
-    .line 7
     :cond_1
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -3256,7 +2970,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/auth/FirebaseAuth;->e:Lcom/google/firebase/auth/p/a/q;
 
     invoke-virtual {v0, p1}, Lcom/google/firebase/auth/p/a/q;->g(Ljava/lang/String;)Lcom/google/android/gms/tasks/k;
@@ -3273,19 +2986,15 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-static {p1}, Lcom/google/android/gms/common/internal/b0;->g(Ljava/lang/String;)Ljava/lang/String;
 
-    .line 2
     iget-object v0, p0, Lcom/google/firebase/auth/FirebaseAuth;->h:Ljava/lang/Object;
 
     monitor-enter v0
 
-    .line 3
     :try_start_0
     iput-object p1, p0, Lcom/google/firebase/auth/FirebaseAuth;->i:Ljava/lang/String;
 
-    .line 4
     monitor-exit v0
 
     return-void
@@ -3314,7 +3023,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/auth/FirebaseAuth;->f:Lcom/google/firebase/auth/FirebaseUser;
 
     if-eqz v0, :cond_0
@@ -3325,29 +3033,24 @@
 
     if-eqz v0, :cond_0
 
-    .line 2
     iget-object v0, p0, Lcom/google/firebase/auth/FirebaseAuth;->f:Lcom/google/firebase/auth/FirebaseUser;
 
     check-cast v0, Lcom/google/firebase/auth/internal/zzm;
 
     const/4 v1, 0x0
 
-    .line 3
     invoke-virtual {v0, v1}, Lcom/google/firebase/auth/internal/zzm;->I1(Z)V
 
-    .line 4
     new-instance v1, Lcom/google/firebase/auth/internal/zzg;
 
     invoke-direct {v1, v0}, Lcom/google/firebase/auth/internal/zzg;-><init>(Lcom/google/firebase/auth/internal/zzm;)V
 
-    .line 5
     invoke-static {v1}, Lcom/google/android/gms/tasks/n;->g(Ljava/lang/Object;)Lcom/google/android/gms/tasks/k;
 
     move-result-object v0
 
     return-object v0
 
-    .line 6
     :cond_0
     iget-object v0, p0, Lcom/google/firebase/auth/FirebaseAuth;->e:Lcom/google/firebase/auth/p/a/q;
 
@@ -3386,35 +3089,28 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p1}, Lcom/google/android/gms/common/internal/b0;->k(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 2
     instance-of v0, p1, Lcom/google/firebase/auth/EmailAuthCredential;
 
     if-eqz v0, :cond_2
 
-    .line 3
     check-cast p1, Lcom/google/firebase/auth/EmailAuthCredential;
 
-    .line 4
     invoke-virtual {p1}, Lcom/google/firebase/auth/EmailAuthCredential;->y0()Z
 
     move-result v0
 
     if-nez v0, :cond_0
 
-    .line 5
     iget-object v1, p0, Lcom/google/firebase/auth/FirebaseAuth;->e:Lcom/google/firebase/auth/p/a/q;
 
     iget-object v2, p0, Lcom/google/firebase/auth/FirebaseAuth;->a:Lcom/google/firebase/d;
 
-    .line 6
     invoke-virtual {p1}, Lcom/google/firebase/auth/EmailAuthCredential;->r()Ljava/lang/String;
 
     move-result-object v3
 
-    .line 7
     invoke-virtual {p1}, Lcom/google/firebase/auth/EmailAuthCredential;->A()Ljava/lang/String;
 
     move-result-object v4
@@ -3425,14 +3121,12 @@
 
     invoke-direct {v6, p0}, Lcom/google/firebase/auth/FirebaseAuth$d;-><init>(Lcom/google/firebase/auth/FirebaseAuth;)V
 
-    .line 8
     invoke-virtual/range {v1 .. v6}, Lcom/google/firebase/auth/p/a/q;->L(Lcom/google/firebase/d;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lcom/google/firebase/auth/internal/d;)Lcom/google/android/gms/tasks/k;
 
     move-result-object p1
 
     return-object p1
 
-    .line 9
     :cond_0
     invoke-virtual {p1}, Lcom/google/firebase/auth/EmailAuthCredential;->V()Ljava/lang/String;
 
@@ -3444,14 +3138,12 @@
 
     if-eqz v0, :cond_1
 
-    .line 10
     new-instance p1, Lcom/google/android/gms/common/api/Status;
 
     const/16 v0, 0x42b0
 
     invoke-direct {p1, v0}, Lcom/google/android/gms/common/api/Status;-><init>(I)V
 
-    .line 11
     invoke-static {p1}, Lcom/google/firebase/auth/p/a/u2;->d(Lcom/google/android/gms/common/api/Status;)Lcom/google/firebase/FirebaseException;
 
     move-result-object p1
@@ -3462,7 +3154,6 @@
 
     return-object p1
 
-    .line 12
     :cond_1
     iget-object v0, p0, Lcom/google/firebase/auth/FirebaseAuth;->e:Lcom/google/firebase/auth/p/a/q;
 
@@ -3478,16 +3169,13 @@
 
     return-object p1
 
-    .line 13
     :cond_2
     instance-of v0, p1, Lcom/google/firebase/auth/PhoneAuthCredential;
 
     if-eqz v0, :cond_3
 
-    .line 14
     check-cast p1, Lcom/google/firebase/auth/PhoneAuthCredential;
 
-    .line 15
     iget-object v0, p0, Lcom/google/firebase/auth/FirebaseAuth;->e:Lcom/google/firebase/auth/p/a/q;
 
     iget-object v1, p0, Lcom/google/firebase/auth/FirebaseAuth;->a:Lcom/google/firebase/d;
@@ -3504,7 +3192,6 @@
 
     return-object p1
 
-    .line 16
     :cond_3
     iget-object v0, p0, Lcom/google/firebase/auth/FirebaseAuth;->e:Lcom/google/firebase/auth/p/a/q;
 
@@ -3543,10 +3230,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p1}, Lcom/google/android/gms/common/internal/b0;->g(Ljava/lang/String;)Ljava/lang/String;
 
-    .line 2
     iget-object v0, p0, Lcom/google/firebase/auth/FirebaseAuth;->e:Lcom/google/firebase/auth/p/a/q;
 
     iget-object v1, p0, Lcom/google/firebase/auth/FirebaseAuth;->a:Lcom/google/firebase/d;

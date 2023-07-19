@@ -32,10 +32,8 @@
 .method private constructor <init>(Ljava/net/URL;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/google/firebase/messaging/v;->a:Ljava/net/URL;
 
     return-void
@@ -46,7 +44,6 @@
     .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
-    .line 1
     invoke-static {p0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v0
@@ -57,7 +54,6 @@
 
     return-object v1
 
-    .line 2
     :cond_0
     :try_start_0
     new-instance v0, Lcom/google/firebase/messaging/v;
@@ -77,7 +73,6 @@
 
     const-string v0, "Not downloading image, bad URL: "
 
-    .line 3
     invoke-static {p0}, Ljava/lang/String;->valueOf(Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object p0
@@ -115,14 +110,12 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/messaging/v;->a:Ljava/net/URL;
 
     invoke-virtual {v0}, Ljava/net/URL;->openConnection()Ljava/net/URLConnection;
 
     move-result-object v0
 
-    .line 2
     invoke-virtual {v0}, Ljava/net/URLConnection;->getContentLength()I
 
     move-result v1
@@ -131,23 +124,19 @@
 
     if-gt v1, v2, :cond_4
 
-    .line 3
     invoke-virtual {v0}, Ljava/net/URLConnection;->getInputStream()Ljava/io/InputStream;
 
     move-result-object v0
 
-    .line 4
     :try_start_0
     iput-object v0, p0, Lcom/google/firebase/messaging/v;->c:Ljava/io/InputStream;
 
     const-wide/32 v3, 0x100001
 
-    .line 5
     invoke-static {v0, v3, v4}, Lf/f/b/b/h/c/j;->a(Ljava/io/InputStream;J)Ljava/io/InputStream;
 
     move-result-object v1
 
-    .line 6
     invoke-static {v1}, Lf/f/b/b/h/c/j;->b(Ljava/io/InputStream;)[B
 
     move-result-object v1
@@ -156,7 +145,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 7
     invoke-virtual {v0}, Ljava/io/InputStream;->close()V
 
     :cond_0
@@ -164,14 +152,12 @@
 
     const-string v3, "FirebaseMessaging"
 
-    .line 8
     invoke-static {v3, v0}, Landroid/util/Log;->isLoggable(Ljava/lang/String;I)Z
 
     move-result v0
 
     if-eqz v0, :cond_1
 
-    .line 9
     array-length v0, v1
 
     iget-object v4, p0, Lcom/google/firebase/messaging/v;->a:Ljava/net/URL;
@@ -212,7 +198,6 @@
 
     invoke-static {v3, v0}, Landroid/util/Log;->v(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 10
     :cond_1
     array-length v0, v1
 
@@ -220,7 +205,6 @@
 
     return-object v1
 
-    .line 11
     :cond_2
     new-instance v0, Ljava/io/IOException;
 
@@ -235,7 +219,6 @@
 
     if-eqz v0, :cond_3
 
-    .line 12
     :try_start_1
     invoke-virtual {v0}, Ljava/io/InputStream;->close()V
     :try_end_1
@@ -252,7 +235,6 @@
     :goto_0
     throw v1
 
-    .line 13
     :cond_4
     new-instance v0, Ljava/io/IOException;
 
@@ -276,7 +258,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/messaging/v;->b:Lcom/google/android/gms/tasks/k;
 
     invoke-static {v0}, Lcom/google/android/gms/common/internal/b0;->k(Ljava/lang/Object;)Ljava/lang/Object;
@@ -291,7 +272,6 @@
 .method public final c(Ljava/util/concurrent/Executor;)V
     .locals 1
 
-    .line 1
     new-instance v0, Lcom/google/firebase/messaging/x;
 
     invoke-direct {v0, p0}, Lcom/google/firebase/messaging/x;-><init>(Lcom/google/firebase/messaging/v;)V
@@ -308,7 +288,6 @@
 .method public final close()V
     .locals 3
 
-    .line 1
     :try_start_0
     iget-object v0, p0, Lcom/google/firebase/messaging/v;->c:Ljava/io/InputStream;
 
@@ -325,7 +304,6 @@
 
     const-string v2, "Failed to close the image download stream."
 
-    .line 2
     invoke-static {v1, v2, v0}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
 
     return-void
@@ -339,7 +317,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/messaging/v;->a:Ljava/net/URL;
 
     invoke-static {v0}, Ljava/lang/String;->valueOf(Ljava/lang/Object;)Ljava/lang/String;
@@ -374,12 +351,10 @@
 
     invoke-static {v1, v0}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 2
     invoke-direct {p0}, Lcom/google/firebase/messaging/v;->e()[B
 
     move-result-object v0
 
-    .line 3
     array-length v2, v0
 
     const/4 v3, 0x0
@@ -392,14 +367,12 @@
 
     const/4 v2, 0x3
 
-    .line 4
     invoke-static {v1, v2}, Landroid/util/Log;->isLoggable(Ljava/lang/String;I)Z
 
     move-result v2
 
     if-eqz v2, :cond_0
 
-    .line 5
     iget-object v2, p0, Lcom/google/firebase/messaging/v;->a:Ljava/net/URL;
 
     invoke-static {v2}, Ljava/lang/String;->valueOf(Ljava/lang/Object;)Ljava/lang/String;
@@ -435,7 +408,6 @@
     :cond_0
     return-object v0
 
-    .line 6
     :cond_1
     new-instance v0, Ljava/io/IOException;
 

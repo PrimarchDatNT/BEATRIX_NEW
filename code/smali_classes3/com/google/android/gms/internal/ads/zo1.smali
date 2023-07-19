@@ -18,10 +18,8 @@
 
     const-string v0, "initialArraySize"
 
-    .line 1
     invoke-static {p0, v0}, Lcom/google/android/gms/internal/ads/po1;->b(ILjava/lang/String;)I
 
-    .line 2
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0, p0}, Ljava/util/ArrayList;-><init>(I)V

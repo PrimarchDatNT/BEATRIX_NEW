@@ -25,7 +25,6 @@
 .method constructor <init>(Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager$1;->this$0:Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -42,7 +41,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager$1;->this$0:Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager;
 
     const/16 v2, 0x4b1
@@ -51,7 +49,6 @@
 
     invoke-virtual {v1, v2, v3}, Lcom/meitu/hwbusinesskit/core/manager/BaseAdManager;->onAdLoadFail(ILjava/lang/String;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

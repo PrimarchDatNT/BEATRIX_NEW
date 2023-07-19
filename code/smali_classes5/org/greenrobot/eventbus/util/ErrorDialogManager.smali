@@ -41,7 +41,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -50,7 +49,6 @@
 .method static synthetic a(Ljava/lang/Object;Lorg/greenrobot/eventbus/util/f;)Z
     .locals 0
 
-    .line 1
     invoke-static {p0, p1}, Lorg/greenrobot/eventbus/util/ErrorDialogManager;->g(Ljava/lang/Object;Lorg/greenrobot/eventbus/util/f;)Z
 
     move-result p0
@@ -65,7 +63,6 @@
 
     const/4 v1, 0x0
 
-    .line 1
     invoke-static {p0, v0, v1}, Lorg/greenrobot/eventbus/util/ErrorDialogManager;->e(Landroid/app/Activity;ZLandroid/os/Bundle;)V
 
     return-void
@@ -74,31 +71,26 @@
 .method public static c(Landroid/app/Activity;Ljava/lang/Object;ZLandroid/os/Bundle;)V
     .locals 1
 
-    .line 1
     sget-object v0, Lorg/greenrobot/eventbus/util/ErrorDialogManager;->a:Lorg/greenrobot/eventbus/util/c;
 
     if-eqz v0, :cond_1
 
-    .line 2
     invoke-static {p0}, Lorg/greenrobot/eventbus/util/ErrorDialogManager;->h(Landroid/app/Activity;)Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
-    .line 3
     invoke-static {p0, p1, p2, p3}, Lorg/greenrobot/eventbus/util/ErrorDialogManager$a;->q(Landroid/app/Activity;Ljava/lang/Object;ZLandroid/os/Bundle;)V
 
     goto :goto_0
 
-    .line 4
     :cond_0
     invoke-static {p0, p1, p2, p3}, Lorg/greenrobot/eventbus/util/ErrorDialogManager$HoneycombManagerFragment;->a(Landroid/app/Activity;Ljava/lang/Object;ZLandroid/os/Bundle;)V
 
     :goto_0
     return-void
 
-    .line 5
     :cond_1
     new-instance p0, Ljava/lang/RuntimeException;
 
@@ -114,7 +106,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-static {p0, p1, v0}, Lorg/greenrobot/eventbus/util/ErrorDialogManager;->e(Landroid/app/Activity;ZLandroid/os/Bundle;)V
 
     return-void
@@ -123,12 +114,10 @@
 .method public static e(Landroid/app/Activity;ZLandroid/os/Bundle;)V
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
     move-result-object v0
 
-    .line 2
     invoke-static {p0, v0, p1, p2}, Lorg/greenrobot/eventbus/util/ErrorDialogManager;->c(Landroid/app/Activity;Ljava/lang/Object;ZLandroid/os/Bundle;)V
 
     return-void
@@ -137,7 +126,6 @@
 .method protected static f(Lorg/greenrobot/eventbus/util/f;)V
     .locals 2
 
-    .line 1
     sget-object v0, Lorg/greenrobot/eventbus/util/ErrorDialogManager;->a:Lorg/greenrobot/eventbus/util/c;
 
     iget-object v0, v0, Lorg/greenrobot/eventbus/util/c;->a:Lorg/greenrobot/eventbus/util/b;
@@ -146,15 +134,12 @@
 
     if-eqz v1, :cond_1
 
-    .line 2
     iget-object v0, v0, Lorg/greenrobot/eventbus/util/b;->g:Ljava/lang/String;
 
     if-nez v0, :cond_0
 
-    .line 3
     sget-object v0, Lorg/greenrobot/eventbus/c;->q:Ljava/lang/String;
 
-    .line 4
     :cond_0
     iget-object p0, p0, Lorg/greenrobot/eventbus/util/f;->a:Ljava/lang/Throwable;
 
@@ -171,14 +156,12 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     invoke-virtual {p1}, Lorg/greenrobot/eventbus/util/f;->a()Ljava/lang/Object;
 
     move-result-object p1
 
     if-eqz p1, :cond_0
 
-    .line 2
     invoke-virtual {p1, p0}, Ljava/lang/Object;->equals(Ljava/lang/Object;)Z
 
     move-result p0
@@ -198,7 +181,6 @@
 .method private static h(Landroid/app/Activity;)Z
     .locals 3
 
-    .line 1
     invoke-virtual {p0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
     move-result-object v0
@@ -210,14 +192,12 @@
 
     if-eqz v0, :cond_5
 
-    .line 2
     invoke-virtual {v0}, Ljava/lang/Class;->getName()Ljava/lang/String;
 
     move-result-object v1
 
     const-string v2, "androidx.fragment.app.FragmentActivity"
 
-    .line 3
     invoke-virtual {v1, v2}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v2
@@ -231,7 +211,6 @@
     :cond_1
     const-string v2, "com.actionbarsherlock.app"
 
-    .line 4
     invoke-virtual {v1, v2}, Ljava/lang/String;->startsWith(Ljava/lang/String;)Z
 
     move-result v2
@@ -240,7 +219,6 @@
 
     const-string v2, ".SherlockActivity"
 
-    .line 5
     invoke-virtual {v1, v2}, Ljava/lang/String;->endsWith(Ljava/lang/String;)Z
 
     move-result v2
@@ -257,7 +235,6 @@
 
     const-string v2, ".SherlockPreferenceActivity"
 
-    .line 6
     invoke-virtual {v1, v2}, Ljava/lang/String;->endsWith(Ljava/lang/String;)Z
 
     move-result v2
@@ -266,7 +243,6 @@
 
     goto :goto_0
 
-    .line 7
     :cond_2
     new-instance p0, Ljava/lang/RuntimeException;
 
@@ -292,14 +268,12 @@
     :goto_0
     const-string v2, "android.app.Activity"
 
-    .line 8
     invoke-virtual {v1, v2}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v1
 
     if-eqz v1, :cond_0
 
-    .line 9
     sget p0, Landroid/os/Build$VERSION;->SDK_INT:I
 
     const/16 v0, 0xb
@@ -311,7 +285,6 @@
     :goto_1
     return p0
 
-    .line 10
     :cond_4
     new-instance p0, Ljava/lang/RuntimeException;
 
@@ -321,7 +294,6 @@
 
     throw p0
 
-    .line 11
     :cond_5
     new-instance v0, Ljava/lang/RuntimeException;
 

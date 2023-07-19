@@ -19,7 +19,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -47,12 +46,10 @@
 
     const-string v0, "Server option \""
 
-    .line 1
     new-instance v1, Ljava/util/HashMap;
 
     invoke-direct {v1}, Ljava/util/HashMap;-><init>()V
 
-    .line 2
     invoke-virtual {p0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
     move-result-object v2
@@ -70,7 +67,6 @@
 
     aget-object v5, v2, v4
 
-    .line 3
     const-class v6, Lcom/google/ads/mediation/MediationServerParameters$a;
 
     invoke-virtual {v5, v6}, Ljava/lang/reflect/Field;->getAnnotation(Ljava/lang/Class;)Ljava/lang/annotation/Annotation;
@@ -81,7 +77,6 @@
 
     if-eqz v6, :cond_0
 
-    .line 4
     invoke-interface {v6}, Lcom/google/ads/mediation/MediationServerParameters$a;->name()Ljava/lang/String;
 
     move-result-object v6
@@ -93,7 +88,6 @@
 
     goto :goto_0
 
-    .line 5
     :cond_1
     invoke-interface {v1}, Ljava/util/Map;->isEmpty()Z
 
@@ -103,10 +97,8 @@
 
     const-string v2, "No server options fields detected. To suppress this message either add a field with the @Parameter annotation, or override the load() method."
 
-    .line 6
     invoke-static {v2}, Lcom/google/android/gms/internal/ads/aq;->i(Ljava/lang/String;)V
 
-    .line 7
     :cond_2
     invoke-interface {p1}, Ljava/util/Map;->entrySet()Ljava/util/Set;
 
@@ -129,7 +121,6 @@
 
     check-cast v2, Ljava/util/Map$Entry;
 
-    .line 8
     invoke-interface {v2}, Ljava/util/Map$Entry;->getKey()Ljava/lang/Object;
 
     move-result-object v3
@@ -142,7 +133,6 @@
 
     if-eqz v3, :cond_3
 
-    .line 9
     :try_start_0
     invoke-interface {v2}, Ljava/util/Map$Entry;->getValue()Ljava/lang/Object;
 
@@ -155,7 +145,6 @@
 
     goto :goto_1
 
-    .line 10
     :catch_0
     invoke-interface {v2}, Ljava/util/Map$Entry;->getKey()Ljava/lang/Object;
 
@@ -193,7 +182,6 @@
 
     goto :goto_1
 
-    .line 11
     :catch_1
     invoke-interface {v2}, Ljava/util/Map$Entry;->getKey()Ljava/lang/Object;
 
@@ -227,12 +215,10 @@
 
     move-result-object v2
 
-    .line 12
     invoke-static {v2}, Lcom/google/android/gms/internal/ads/aq;->i(Ljava/lang/String;)V
 
     goto :goto_1
 
-    .line 13
     :cond_3
     invoke-interface {v2}, Ljava/util/Map$Entry;->getKey()Ljava/lang/Object;
 
@@ -240,7 +226,6 @@
 
     check-cast v3, Ljava/lang/String;
 
-    .line 14
     invoke-interface {v2}, Ljava/util/Map$Entry;->getValue()Ljava/lang/Object;
 
     move-result-object v2
@@ -291,18 +276,15 @@
 
     move-result-object v2
 
-    .line 15
     invoke-static {v2}, Lcom/google/android/gms/internal/ads/aq;->f(Ljava/lang/String;)V
 
     goto/16 :goto_1
 
-    .line 16
     :cond_4
     new-instance p1, Ljava/lang/StringBuilder;
 
     invoke-direct {p1}, Ljava/lang/StringBuilder;-><init>()V
 
-    .line 17
     invoke-interface {v1}, Ljava/util/Map;->values()Ljava/util/Collection;
 
     move-result-object v0
@@ -325,7 +307,6 @@
 
     check-cast v1, Ljava/lang/reflect/Field;
 
-    .line 18
     const-class v2, Lcom/google/ads/mediation/MediationServerParameters$a;
 
     invoke-virtual {v1, v2}, Ljava/lang/reflect/Field;->getAnnotation(Ljava/lang/Class;)Ljava/lang/annotation/Annotation;
@@ -342,10 +323,8 @@
 
     const-string v2, "Required server option missing: "
 
-    .line 19
     const-class v3, Lcom/google/ads/mediation/MediationServerParameters$a;
 
-    .line 20
     invoke-virtual {v1, v3}, Ljava/lang/reflect/Field;->getAnnotation(Ljava/lang/Class;)Ljava/lang/annotation/Annotation;
 
     move-result-object v3
@@ -379,11 +358,9 @@
 
     move-object v2, v3
 
-    .line 21
     :goto_3
     invoke-static {v2}, Lcom/google/android/gms/internal/ads/aq;->i(Ljava/lang/String;)V
 
-    .line 22
     invoke-virtual {p1}, Ljava/lang/StringBuilder;->length()I
 
     move-result v2
@@ -392,10 +369,8 @@
 
     const-string v2, ", "
 
-    .line 23
     invoke-virtual {p1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 24
     :cond_7
     const-class v2, Lcom/google/ads/mediation/MediationServerParameters$a;
 
@@ -413,7 +388,6 @@
 
     goto :goto_2
 
-    .line 25
     :cond_8
     invoke-virtual {p1}, Ljava/lang/StringBuilder;->length()I
 
@@ -421,12 +395,10 @@
 
     if-lez v0, :cond_a
 
-    .line 26
     new-instance v0, Lcom/google/ads/mediation/MediationServerParameters$MappingException;
 
     const-string v1, "Required server option(s) missing: "
 
-    .line 27
     invoke-virtual {p1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     move-result-object p1

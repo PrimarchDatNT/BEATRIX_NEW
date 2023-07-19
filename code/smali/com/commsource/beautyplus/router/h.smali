@@ -91,7 +91,6 @@
 
     invoke-static {p3, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     iput-object p1, p0, Lcom/commsource/beautyplus/router/h;->b:Ljava/lang/String;
@@ -126,7 +125,6 @@
 
     if-eqz p4, :cond_2
 
-    .line 2
     new-instance p3, Ljava/util/LinkedList;
 
     invoke-direct {p3}, Ljava/util/LinkedList;-><init>()V
@@ -150,7 +148,6 @@
 
     if-eqz p1, :cond_1
 
-    .line 1
     invoke-interface {p1}, Ljava/lang/CharSequence;->length()I
 
     move-result v3
@@ -171,7 +168,6 @@
     :goto_1
     if-eqz v3, :cond_2
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
@@ -179,7 +175,6 @@
     :cond_2
     if-eqz p2, :cond_4
 
-    .line 3
     invoke-interface {p2}, Ljava/lang/CharSequence;->length()I
 
     move-result v3
@@ -195,7 +190,6 @@
     :goto_2
     if-eqz v1, :cond_5
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v2
@@ -207,14 +201,12 @@
 
     const-string v4, "*"
 
-    .line 5
     invoke-static {p1, v4, v2, v1, v3}, Lcotlin/text/m;->T2(Ljava/lang/CharSequence;Ljava/lang/CharSequence;ZILjava/lang/Object;)Z
 
     move-result v1
 
     if-eqz v1, :cond_6
 
-    .line 6
     new-instance v1, Lcotlin/text/Regex;
 
     invoke-direct {v1, p1}, Lcotlin/text/Regex;-><init>(Ljava/lang/String;)V
@@ -225,13 +217,11 @@
 
     goto :goto_3
 
-    .line 7
     :cond_6
     invoke-static {p1, p2}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result p1
 
-    .line 8
     :goto_3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -249,7 +239,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/beautyplus/router/h;->b:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -277,7 +266,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/beautyplus/router/h;->d:Ljava/util/List;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -294,7 +282,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/beautyplus/router/h;->c:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -311,7 +298,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/beautyplus/router/h;->a:Lcom/commsource/beautyplus/router/e;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -334,7 +320,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/beautyplus/router/h;->b:Ljava/lang/String;
 
     invoke-virtual {p1}, Lcom/commsource/beautyplus/router/RouterEntity;->getHost()Ljava/lang/String;
@@ -365,7 +350,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/beautyplus/router/h;->b:Ljava/lang/String;
 
     invoke-static {v1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
@@ -376,7 +360,6 @@
 
     if-nez v1, :cond_0
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/beautyplus/router/h;->b:Ljava/lang/String;
 
     invoke-virtual {p1}, Lcom/commsource/beautyplus/router/RouterEntity;->getHost()Ljava/lang/String;
@@ -389,12 +372,10 @@
 
     if-nez v1, :cond_0
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v2
 
-    .line 4
     :cond_0
     iget-object v1, p0, Lcom/commsource/beautyplus/router/h;->c:Ljava/lang/String;
 
@@ -404,7 +385,6 @@
 
     if-nez v1, :cond_1
 
-    .line 5
     iget-object v1, p0, Lcom/commsource/beautyplus/router/h;->c:Ljava/lang/String;
 
     invoke-virtual {p1}, Lcom/commsource/beautyplus/router/RouterEntity;->getPath()Ljava/lang/String;
@@ -417,16 +397,13 @@
 
     if-nez v1, :cond_1
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v2
 
-    .line 7
     :cond_1
     iget-object v1, p0, Lcom/commsource/beautyplus/router/h;->d:Ljava/util/List;
 
-    .line 8
     invoke-interface {v1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v1
@@ -444,7 +421,6 @@
 
     check-cast v3, Lcotlin/Pair;
 
-    .line 9
     invoke-virtual {v3}, Lcotlin/Pair;->getSecond()Ljava/lang/Object;
 
     move-result-object v4
@@ -467,7 +443,6 @@
 
     if-nez v3, :cond_2
 
-    .line 10
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v2
@@ -475,7 +450,6 @@
     :cond_3
     const/4 p1, 0x1
 
-    .line 11
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
@@ -492,7 +466,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/beautyplus/router/h;->b:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -525,7 +498,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/beautyplus/router/h;->d:Ljava/util/List;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -544,7 +516,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/beautyplus/router/h;->c:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -563,7 +534,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/beautyplus/router/h;->a:Lcom/commsource/beautyplus/router/e;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

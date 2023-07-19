@@ -19,7 +19,6 @@
 .method constructor <init>(I)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/commsource/repository/h;-><init>(I)V
 
     return-void
@@ -34,14 +33,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/repository/child/TextureRepository$e$a;->a:Lcom/commsource/repository/child/TextureRepository$e$a;
 
     const-string v2, "InsertTextureData"
 
     invoke-static {v2, v1}, Lcom/commsource/util/c2;->f(Ljava/lang/String;Ljava/lang/Runnable;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

@@ -33,7 +33,6 @@
 .method static constructor <clinit>()V
     .locals 3
 
-    .line 1
     invoke-static {}, Lcom/google/android/gms/internal/ads/zzdtu;->w()Z
 
     move-result v0
@@ -42,15 +41,12 @@
 
     if-eqz v0, :cond_0
 
-    .line 2
     sput-object v1, Lcom/google/android/gms/internal/ads/zzdtu$c;->d:Lcom/google/android/gms/internal/ads/zzdtu$c;
 
-    .line 3
     sput-object v1, Lcom/google/android/gms/internal/ads/zzdtu$c;->c:Lcom/google/android/gms/internal/ads/zzdtu$c;
 
     return-void
 
-    .line 4
     :cond_0
     new-instance v0, Lcom/google/android/gms/internal/ads/zzdtu$c;
 
@@ -60,7 +56,6 @@
 
     sput-object v0, Lcom/google/android/gms/internal/ads/zzdtu$c;->d:Lcom/google/android/gms/internal/ads/zzdtu$c;
 
-    .line 5
     new-instance v0, Lcom/google/android/gms/internal/ads/zzdtu$c;
 
     const/4 v2, 0x1
@@ -79,13 +74,10 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-boolean p1, p0, Lcom/google/android/gms/internal/ads/zzdtu$c;->a:Z
 
-    .line 3
     iput-object p2, p0, Lcom/google/android/gms/internal/ads/zzdtu$c;->b:Ljava/lang/Throwable;
 
     return-void

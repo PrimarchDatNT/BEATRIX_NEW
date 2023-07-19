@@ -19,7 +19,6 @@
 .method public constructor <init>(Ljava/lang/String;Ljava/lang/String;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1, p2}, Lorg/apache/http/message/BasicHttpRequest;-><init>(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
@@ -28,7 +27,6 @@
 .method public constructor <init>(Ljava/lang/String;Ljava/lang/String;Lorg/apache/http/ProtocolVersion;)V
     .locals 0
 
-    .line 2
     invoke-direct {p0, p1, p2, p3}, Lorg/apache/http/message/BasicHttpRequest;-><init>(Ljava/lang/String;Ljava/lang/String;Lorg/apache/http/ProtocolVersion;)V
 
     return-void
@@ -37,7 +35,6 @@
 .method public constructor <init>(Lorg/apache/http/RequestLine;)V
     .locals 0
 
-    .line 3
     invoke-direct {p0, p1}, Lorg/apache/http/message/BasicHttpRequest;-><init>(Lorg/apache/http/RequestLine;)V
 
     return-void
@@ -50,14 +47,12 @@
 
     const-string v0, "Expect"
 
-    .line 1
     invoke-virtual {p0, v0}, Lorg/apache/http/message/AbstractHttpMessage;->getFirstHeader(Ljava/lang/String;)Lorg/apache/http/Header;
 
     move-result-object v0
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-interface {v0}, Lorg/apache/http/Header;->getValue()Ljava/lang/String;
 
     move-result-object v0
@@ -84,7 +79,6 @@
 .method public getEntity()Lorg/apache/http/HttpEntity;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lorg/apache/http/message/BasicHttpEntityEnclosingRequest;->entity:Lorg/apache/http/HttpEntity;
 
     return-object v0
@@ -93,7 +87,6 @@
 .method public setEntity(Lorg/apache/http/HttpEntity;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lorg/apache/http/message/BasicHttpEntityEnclosingRequest;->entity:Lorg/apache/http/HttpEntity;
 
     return-void

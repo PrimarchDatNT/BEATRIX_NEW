@@ -49,15 +49,12 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-direct {p0, p1, p2, p3}, Lcom/commsource/widget/h1/f;-><init>(Landroid/content/Context;Landroid/view/ViewGroup;I)V
 
     const-string p2, "CENTER_POSITION"
 
-    .line 2
     iput-object p2, p0, Lcom/commsource/home/BaseHomeModuleVH;->p:Ljava/lang/String;
 
-    .line 3
     new-instance p2, Landroidx/lifecycle/ViewModelProvider;
 
     if-eqz p1, :cond_1
@@ -82,19 +79,16 @@
 
     iput-object p2, p0, Lcom/commsource/home/BaseHomeModuleVH;->J:Lcom/commsource/home/NewHomeContentViewModel;
 
-    .line 4
     move-object p2, p1
 
     check-cast p2, Landroid/app/Activity;
 
     iput-object p2, p0, Lcom/commsource/home/BaseHomeModuleVH;->K:Landroid/app/Activity;
 
-    .line 5
     instance-of p1, p1, Lcom/commsource/beautyplus/BaseActivity;
 
     if-eqz p1, :cond_0
 
-    .line 6
     invoke-virtual {p3}, Landroidx/activity/ComponentActivity;->getLifecycle()Landroidx/lifecycle/Lifecycle;
 
     move-result-object p1
@@ -104,7 +98,6 @@
     :cond_0
     return-void
 
-    .line 7
     :cond_1
     new-instance p1, Lcotlin/TypeCastException;
 
@@ -177,7 +170,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/home/BaseHomeModuleVH;->p:Ljava/lang/String;
 
     return-object v0
@@ -188,7 +180,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/home/BaseHomeModuleVH;->K:Landroid/app/Activity;
 
     return-object v0
@@ -199,7 +190,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/home/BaseHomeModuleVH;->J:Lcom/commsource/home/NewHomeContentViewModel;
 
     return-object v0
@@ -222,15 +212,12 @@
 
     new-array v1, v0, [I
 
-    .line 1
     invoke-virtual {p1, v1}, Landroid/view/View;->getLocationOnScreen([I)V
 
     const/4 v2, 0x0
 
-    .line 2
     aget v3, v1, v2
 
-    .line 3
     aget v1, v1, v2
 
     invoke-virtual {p1}, Landroid/view/View;->getHeight()I
@@ -241,7 +228,6 @@
 
     if-ltz v3, :cond_0
 
-    .line 4
     sget-object p1, Lcom/commsource/home/c;->y:Lcom/commsource/home/c;
 
     invoke-virtual {p1}, Lcom/commsource/home/c;->q()I
@@ -255,7 +241,6 @@
     :cond_0
     if-gtz v1, :cond_1
 
-    .line 5
     sget-object p1, Lcom/commsource/home/c;->y:Lcom/commsource/home/c;
 
     invoke-virtual {p1}, Lcom/commsource/home/c;->q()I

@@ -30,7 +30,6 @@
 
     move v4, p4
 
-    .line 1
     invoke-direct/range {v0 .. v5}, Lcom/google/protobuf/WireFormat$FieldType;-><init>(Ljava/lang/String;ILcom/google/protobuf/WireFormat$JavaType;ILcom/google/protobuf/WireFormat$a;)V
 
     return-void

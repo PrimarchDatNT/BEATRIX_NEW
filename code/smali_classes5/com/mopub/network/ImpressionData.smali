@@ -70,10 +70,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     new-instance v0, Lcom/mopub/network/ImpressionData$SerializableJson;
 
     invoke-direct {v0, p1}, Lcom/mopub/network/ImpressionData$SerializableJson;-><init>(Lorg/json/JSONObject;)V
@@ -98,7 +96,6 @@
 
     return-object v0
 
-    .line 1
     :cond_0
     :try_start_0
     new-instance v1, Lcom/mopub/network/ImpressionData;
@@ -112,7 +109,6 @@
     :catch_0
     move-exception p0
 
-    .line 2
     sget-object v1, Lcom/mopub/common/logging/MoPubLog$SdkLogEvent;->CUSTOM:Lcom/mopub/common/logging/MoPubLog$SdkLogEvent;
 
     const/4 v2, 0x1
@@ -142,10 +138,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p1}, Ljava/io/ObjectInputStream;->defaultReadObject()V
 
-    .line 2
     new-instance v0, Lcom/mopub/network/ImpressionData$SerializableJson;
 
     invoke-virtual {p1}, Ljava/io/ObjectInputStream;->readUTF()Ljava/lang/String;
@@ -167,10 +161,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p1}, Ljava/io/ObjectOutputStream;->defaultWriteObject()V
 
-    .line 2
     iget-object v0, p0, Lcom/mopub/network/ImpressionData;->mJson:Lcom/mopub/network/ImpressionData$SerializableJson;
 
     invoke-virtual {v0}, Lorg/json/JSONObject;->toString()Ljava/lang/String;
@@ -189,7 +181,6 @@
     .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/network/ImpressionData;->mJson:Lcom/mopub/network/ImpressionData$SerializableJson;
 
     const-string v1, "adgroup_id"
@@ -208,7 +199,6 @@
     .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/network/ImpressionData;->mJson:Lcom/mopub/network/ImpressionData$SerializableJson;
 
     const-string v1, "adgroup_name"
@@ -227,7 +217,6 @@
     .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
-    .line 1
     :try_start_0
     iget-object v0, p0, Lcom/mopub/network/ImpressionData;->mJson:Lcom/mopub/network/ImpressionData$SerializableJson;
 
@@ -256,7 +245,6 @@
     .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/network/ImpressionData;->mJson:Lcom/mopub/network/ImpressionData$SerializableJson;
 
     const-string v1, "adgroup_type"
@@ -275,7 +263,6 @@
     .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/network/ImpressionData;->mJson:Lcom/mopub/network/ImpressionData$SerializableJson;
 
     const-string v1, "adunit_format"
@@ -294,7 +281,6 @@
     .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/network/ImpressionData;->mJson:Lcom/mopub/network/ImpressionData$SerializableJson;
 
     const-string v1, "adunit_id"
@@ -313,7 +299,6 @@
     .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/network/ImpressionData;->mJson:Lcom/mopub/network/ImpressionData$SerializableJson;
 
     const-string v1, "adunit_name"
@@ -332,7 +317,6 @@
     .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/network/ImpressionData;->mJson:Lcom/mopub/network/ImpressionData$SerializableJson;
 
     const-string v1, "app_version"
@@ -351,7 +335,6 @@
     .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/network/ImpressionData;->mJson:Lcom/mopub/network/ImpressionData$SerializableJson;
 
     const-string v1, "country"
@@ -370,7 +353,6 @@
     .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/network/ImpressionData;->mJson:Lcom/mopub/network/ImpressionData$SerializableJson;
 
     const-string v1, "currency"
@@ -389,7 +371,6 @@
     .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/network/ImpressionData;->mJson:Lcom/mopub/network/ImpressionData$SerializableJson;
 
     const-string v1, "demand_partner_data"
@@ -406,7 +387,6 @@
     .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/network/ImpressionData;->mJson:Lcom/mopub/network/ImpressionData$SerializableJson;
 
     const-string v1, "id"
@@ -425,7 +405,6 @@
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/network/ImpressionData;->mJson:Lcom/mopub/network/ImpressionData$SerializableJson;
 
     return-object v0
@@ -436,7 +415,6 @@
     .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/network/ImpressionData;->mJson:Lcom/mopub/network/ImpressionData$SerializableJson;
 
     const-string v1, "network_name"
@@ -455,7 +433,6 @@
     .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/network/ImpressionData;->mJson:Lcom/mopub/network/ImpressionData$SerializableJson;
 
     const-string v1, "network_placement_id"
@@ -474,7 +451,6 @@
     .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/network/ImpressionData;->mJson:Lcom/mopub/network/ImpressionData$SerializableJson;
 
     const-string v1, "precision"
@@ -493,7 +469,6 @@
     .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
-    .line 1
     :try_start_0
     iget-object v0, p0, Lcom/mopub/network/ImpressionData;->mJson:Lcom/mopub/network/ImpressionData$SerializableJson;
 

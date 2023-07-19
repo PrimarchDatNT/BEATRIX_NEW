@@ -54,7 +54,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p2, Lcom/commsource/studio/function/background/GradientMaterial;
 
     invoke-virtual {p0, p1, p2}, Lcom/commsource/studio/function/background/BackgroundAdjustFragment$gradientAdapter$2$a;->b(ILcom/commsource/studio/function/background/GradientMaterial;)Z
@@ -73,7 +72,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/function/background/BackgroundAdjustFragment$gradientAdapter$2$a;->a:Lcom/commsource/studio/function/background/BackgroundAdjustFragment$gradientAdapter$2;
 
     iget-object v1, v1, Lcom/commsource/studio/function/background/BackgroundAdjustFragment$gradientAdapter$2;->this$0:Lcom/commsource/studio/function/background/BackgroundAdjustFragment;
@@ -86,14 +84,12 @@
 
     invoke-virtual {v1, p1}, Landroidx/recyclerview/widget/RecyclerView;->smoothScrollToPosition(I)V
 
-    .line 2
     iget-object p1, p0, Lcom/commsource/studio/function/background/BackgroundAdjustFragment$gradientAdapter$2$a;->a:Lcom/commsource/studio/function/background/BackgroundAdjustFragment$gradientAdapter$2;
 
     iget-object p1, p1, Lcom/commsource/studio/function/background/BackgroundAdjustFragment$gradientAdapter$2;->this$0:Lcom/commsource/studio/function/background/BackgroundAdjustFragment;
 
     invoke-static {p1, p2}, Lcom/commsource/studio/function/background/BackgroundAdjustFragment;->C(Lcom/commsource/studio/function/background/BackgroundAdjustFragment;Lcom/commsource/studio/function/background/GradientMaterial;)V
 
-    .line 3
     iget-object p1, p0, Lcom/commsource/studio/function/background/BackgroundAdjustFragment$gradientAdapter$2$a;->a:Lcom/commsource/studio/function/background/BackgroundAdjustFragment$gradientAdapter$2;
 
     iget-object p1, p1, Lcom/commsource/studio/function/background/BackgroundAdjustFragment$gradientAdapter$2;->this$0:Lcom/commsource/studio/function/background/BackgroundAdjustFragment;
@@ -104,7 +100,6 @@
 
     invoke-static {p1, p2}, Lcom/commsource/studio/function/background/BackgroundAdjustFragment;->A(Lcom/commsource/studio/function/background/BackgroundAdjustFragment;Lcom/commsource/studio/function/background/GradientMaterial;)V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const/4 p1, 0x0

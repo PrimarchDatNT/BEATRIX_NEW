@@ -18,7 +18,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Landroid/content/BroadcastReceiver;-><init>()V
 
     return-void
@@ -43,7 +42,6 @@
 
     const-wide/16 v2, -0x1
 
-    .line 1
     invoke-virtual {p2, v1, v2, v3}, Landroid/content/Intent;->getLongExtra(Ljava/lang/String;J)J
 
     move-result-wide v1
@@ -56,12 +54,10 @@
 
     if-gtz p2, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 3
     :cond_0
     :try_start_1
     new-instance p2, Landroid/app/DownloadManager$Query;
@@ -76,24 +72,20 @@
 
     aput-wide v1, v3, v4
 
-    .line 4
     invoke-virtual {p2, v3}, Landroid/app/DownloadManager$Query;->setFilterById([J)Landroid/app/DownloadManager$Query;
 
     const-string v1, "download"
 
-    .line 5
     invoke-virtual {p1, v1}, Landroid/content/Context;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
 
     move-result-object v1
 
     check-cast v1, Landroid/app/DownloadManager;
 
-    .line 6
     invoke-virtual {v1, p2}, Landroid/app/DownloadManager;->query(Landroid/app/DownloadManager$Query;)Landroid/database/Cursor;
 
     move-result-object p2
 
-    .line 7
     invoke-interface {p2}, Landroid/database/Cursor;->moveToFirst()Z
 
     move-result v1
@@ -102,7 +94,6 @@
 
     const-string v1, "local_uri"
 
-    .line 8
     invoke-interface {p2, v1}, Landroid/database/Cursor;->getColumnIndex(Ljava/lang/String;)I
 
     move-result v1
@@ -111,14 +102,12 @@
 
     move-result-object v1
 
-    .line 9
     new-instance v2, Landroid/content/Intent;
 
     const-string v3, "android.intent.action.VIEW"
 
     invoke-direct {v2, v3}, Landroid/content/Intent;-><init>(Ljava/lang/String;)V
 
-    .line 10
     invoke-static {v1}, Landroid/net/Uri;->parse(Ljava/lang/String;)Landroid/net/Uri;
 
     move-result-object v1
@@ -127,10 +116,8 @@
 
     invoke-virtual {v2, v1, v3}, Landroid/content/Intent;->setDataAndType(Landroid/net/Uri;Ljava/lang/String;)Landroid/content/Intent;
 
-    .line 11
     invoke-virtual {p1, v2}, Landroid/content/Context;->startActivity(Landroid/content/Intent;)V
 
-    .line 12
     :cond_1
     invoke-interface {p2}, Landroid/database/Cursor;->close()V
     :try_end_1
@@ -141,10 +128,8 @@
     :catch_0
     move-exception p1
 
-    .line 13
     invoke-static {p1}, Lcom/meitu/library/util/Debug/Debug;->a0(Ljava/lang/Throwable;)V
 
-    .line 14
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

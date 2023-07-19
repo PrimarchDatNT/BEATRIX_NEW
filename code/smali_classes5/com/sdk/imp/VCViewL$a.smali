@@ -25,7 +25,6 @@
 .method constructor <init>(Lcom/sdk/imp/VCViewL;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/sdk/imp/VCViewL$a;->a:Lcom/sdk/imp/VCViewL;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V

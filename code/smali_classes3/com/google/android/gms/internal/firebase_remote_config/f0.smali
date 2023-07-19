@@ -6,7 +6,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/google/android/gms/internal/firebase_remote_config/v;-><init>()V
 
     return-void
@@ -15,7 +14,6 @@
 .method private final h(Ljava/io/Reader;)Lcom/google/android/gms/internal/firebase_remote_config/a0;
     .locals 2
 
-    .line 1
     new-instance v0, Lcom/google/android/gms/internal/firebase_remote_config/j0;
 
     new-instance v1, Lcom/google/android/gms/internal/firebase_remote_config/i4;
@@ -30,7 +28,6 @@
 .method public static i()Lcom/google/android/gms/internal/firebase_remote_config/f0;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/google/android/gms/internal/firebase_remote_config/h0;->a:Lcom/google/android/gms/internal/firebase_remote_config/f0;
 
     return-object v0
@@ -41,12 +38,10 @@
 .method public final b(Ljava/io/OutputStream;Ljava/nio/charset/Charset;)Lcom/google/android/gms/internal/firebase_remote_config/y;
     .locals 1
 
-    .line 1
     new-instance v0, Ljava/io/OutputStreamWriter;
 
     invoke-direct {v0, p1, p2}, Ljava/io/OutputStreamWriter;-><init>(Ljava/io/OutputStream;Ljava/nio/charset/Charset;)V
 
-    .line 2
     new-instance p1, Lcom/google/android/gms/internal/firebase_remote_config/g0;
 
     new-instance p2, Lcom/google/android/gms/internal/firebase_remote_config/j4;
@@ -61,7 +56,6 @@
 .method public final c(Ljava/io/InputStream;)Lcom/google/android/gms/internal/firebase_remote_config/a0;
     .locals 2
 
-    .line 1
     new-instance v0, Ljava/io/InputStreamReader;
 
     sget-object v1, Lcom/google/android/gms/internal/firebase_remote_config/n0;->a:Ljava/nio/charset/Charset;
@@ -80,14 +74,12 @@
 
     if-nez p2, :cond_0
 
-    .line 1
     invoke-virtual {p0, p1}, Lcom/google/android/gms/internal/firebase_remote_config/v;->c(Ljava/io/InputStream;)Lcom/google/android/gms/internal/firebase_remote_config/a0;
 
     move-result-object p1
 
     return-object p1
 
-    .line 2
     :cond_0
     new-instance v0, Ljava/io/InputStreamReader;
 
@@ -103,7 +95,6 @@
 .method public final f(Ljava/lang/String;)Lcom/google/android/gms/internal/firebase_remote_config/a0;
     .locals 1
 
-    .line 1
     new-instance v0, Ljava/io/StringReader;
 
     invoke-direct {v0, p1}, Ljava/io/StringReader;-><init>(Ljava/lang/String;)V

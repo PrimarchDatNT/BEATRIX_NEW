@@ -15,7 +15,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     const-class v1, Lcom/commsource/beautyplus/g0/d;
 
     invoke-virtual {v1}, Ljava/lang/Class;->getSimpleName()Ljava/lang/String;
@@ -32,7 +31,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -49,12 +47,10 @@
 
     if-gez p0, :cond_0
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p3
 
-    .line 2
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -72,12 +68,10 @@
 
     if-lez v1, :cond_0
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p0
 
-    .line 2
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -97,10 +91,8 @@
 
     const-string p1, " faceData Cache is empty"
 
-    .line 1
     invoke-static {p0, p1}, Lcom/meitu/library/util/Debug/Debug;->n(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -108,7 +100,6 @@
     :cond_0
     if-eqz p0, :cond_1
 
-    .line 3
     iget-object v1, p0, Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/MTFaceResult;->size:Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineSize;
 
     iget v2, v1, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineSize;->width:I
@@ -117,7 +108,6 @@
 
     invoke-static {p0, p1, v2, v1}, Lcom/commsource/beautyplus/g0/d;->d(Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/MTFaceResult;Lcom/meitu/core/types/FaceData;II)V
 
-    .line 4
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -135,14 +125,12 @@
 
     if-nez p1, :cond_0
 
-    .line 1
     new-instance v2, Lcom/meitu/core/types/FaceData;
 
     invoke-direct {v2}, Lcom/meitu/core/types/FaceData;-><init>()V
 
     goto :goto_0
 
-    .line 2
     :cond_0
     invoke-virtual/range {p1 .. p1}, Lcom/meitu/core/types/FaceData;->clear()V
 
@@ -151,7 +139,6 @@
     :goto_0
     if-eqz v0, :cond_d
 
-    .line 3
     iget-object v3, v0, Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/MTFaceResult;->faces:[Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/MTFace;
 
     if-nez v3, :cond_1
@@ -161,12 +148,10 @@
     :cond_1
     move/from16 v13, p2
 
-    .line 4
     invoke-virtual {v2, v13}, Lcom/meitu/core/types/FaceData;->setDetectWidth(I)V
 
     move/from16 v7, p3
 
-    .line 5
     invoke-virtual {v2, v7}, Lcom/meitu/core/types/FaceData;->setDetectHeight(I)V
 
     const/4 v3, 0x0
@@ -175,7 +160,6 @@
 
     const/4 v6, 0x0
 
-    .line 6
     :goto_1
     iget-object v4, v0, Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/MTFaceResult;->faces:[Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/MTFace;
 
@@ -183,18 +167,14 @@
 
     if-ge v6, v5, :cond_c
 
-    .line 7
     aget-object v15, v4, v6
 
-    .line 8
     sget-object v4, Lcom/meitu/core/types/FaceData$MTGender;->UNDEFINE_GENDER:Lcom/meitu/core/types/FaceData$MTGender;
 
-    .line 9
     sget-object v5, Lcom/meitu/core/types/FaceData$MTRace;->UNDEFINE_SKIN_RACE:Lcom/meitu/core/types/FaceData$MTRace;
 
     const/4 v8, -0x1
 
-    .line 10
     iget-object v9, v15, Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/MTFace;->gender:Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/attribute/MTGender;
 
     const/4 v10, 0x1
@@ -205,7 +185,6 @@
 
     if-nez v11, :cond_2
 
-    .line 11
     sget-object v4, Lcom/meitu/core/types/FaceData$MTGender;->FEMALE:Lcom/meitu/core/types/FaceData$MTGender;
 
     goto :goto_2
@@ -213,24 +192,20 @@
     :cond_2
     if-eqz v9, :cond_3
 
-    .line 12
     iget v9, v9, Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/attribute/MTGender;->top:I
 
     if-ne v9, v10, :cond_3
 
-    .line 13
     sget-object v4, Lcom/meitu/core/types/FaceData$MTGender;->MALE:Lcom/meitu/core/types/FaceData$MTGender;
 
     :cond_3
     :goto_2
     move-object v14, v4
 
-    .line 14
     iget-object v4, v15, Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/MTFace;->race:Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/attribute/MTRace;
 
     if-eqz v4, :cond_7
 
-    .line 15
     iget v4, v4, Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/attribute/MTRace;->top:I
 
     if-eqz v4, :cond_6
@@ -255,19 +230,16 @@
 
     goto :goto_3
 
-    .line 16
     :cond_4
     sget-object v5, Lcom/meitu/core/types/FaceData$MTRace;->BLACK_SKIN_RACE:Lcom/meitu/core/types/FaceData$MTRace;
 
     goto :goto_3
 
-    .line 17
     :cond_5
     sget-object v5, Lcom/meitu/core/types/FaceData$MTRace;->YELLOW_SKIN_RACE:Lcom/meitu/core/types/FaceData$MTRace;
 
     goto :goto_3
 
-    .line 18
     :cond_6
     sget-object v5, Lcom/meitu/core/types/FaceData$MTRace;->WHITE_SKIN_RACE:Lcom/meitu/core/types/FaceData$MTRace;
 
@@ -275,12 +247,10 @@
     :goto_3
     move-object v12, v5
 
-    .line 19
     iget-object v4, v15, Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/MTFace;->age:Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/attribute/MTAge;
 
     if-eqz v4, :cond_8
 
-    .line 20
     iget v4, v4, Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/attribute/MTAge;->value:I
 
     move/from16 v18, v4
@@ -290,7 +260,6 @@
     :cond_8
     const/16 v18, -0x1
 
-    .line 21
     :goto_4
     iget-object v4, v15, Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/MTFace;->facePoints:[Landroid/graphics/PointF;
 
@@ -298,7 +267,6 @@
 
     if-eqz v3, :cond_9
 
-    .line 22
     array-length v5, v3
 
     mul-int/lit8 v8, v4, 0x2
@@ -308,7 +276,6 @@
     :cond_9
     mul-int/lit8 v3, v4, 0x2
 
-    .line 23
     new-array v3, v3, [F
 
     :cond_a
@@ -321,7 +288,6 @@
 
     mul-int/lit8 v5, v3, 0x2
 
-    .line 24
     iget-object v8, v15, Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/MTFace;->facePoints:[Landroid/graphics/PointF;
 
     aget-object v9, v8, v3
@@ -332,7 +298,6 @@
 
     add-int/2addr v5, v10
 
-    .line 25
     aget-object v8, v8, v3
 
     iget v8, v8, Landroid/graphics/PointF;->y:F
@@ -343,7 +308,6 @@
 
     goto :goto_5
 
-    .line 26
     :cond_b
     invoke-virtual {v2}, Lcom/meitu/core/types/FaceData;->nativeInstance()J
 
@@ -357,7 +321,6 @@
 
     iget v10, v3, Landroid/graphics/RectF;->top:F
 
-    .line 27
     invoke-virtual {v3}, Landroid/graphics/RectF;->width()F
 
     move-result v11
@@ -408,7 +371,6 @@
 
     move-object/from16 v13, v21
 
-    .line 28
     invoke-virtual/range {v3 .. v19}, Lcom/meitu/core/types/FaceData;->addMTFaceFeatureToFaceData(JIIIFFFF[FFFFIII)V
 
     add-int/lit8 v6, v0, 0x1
@@ -426,7 +388,6 @@
     :cond_c
     const/16 v0, 0x56c5
 
-    .line 29
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -435,14 +396,12 @@
     :goto_6
     const/16 v0, 0x56c5
 
-    .line 30
     sget-object v1, Lcom/commsource/beautyplus/g0/d;->a:Ljava/lang/String;
 
     const-string v2, "input faceResult error !"
 
     invoke-static {v1, v2}, Lcom/meitu/library/util/Debug/Debug;->n(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 31
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -457,7 +416,6 @@
 
     if-eqz p0, :cond_5
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/MTFaceResult;->faces:[Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/MTFace;
 
     if-eqz v1, :cond_5
@@ -471,12 +429,10 @@
     :cond_0
     if-nez p1, :cond_1
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 3
     :cond_1
     iget v1, p1, Landroid/graphics/RectF;->left:F
 
@@ -488,7 +444,6 @@
 
     mul-float v1, v1, v3
 
-    .line 4
     iget v3, p1, Landroid/graphics/RectF;->top:F
 
     iget v2, v2, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineSize;->height:I
@@ -497,7 +452,6 @@
 
     mul-float v3, v3, v2
 
-    .line 5
     invoke-virtual {p1}, Landroid/graphics/RectF;->width()F
 
     move-result v2
@@ -510,7 +464,6 @@
 
     mul-float v2, v2, v4
 
-    .line 6
     invoke-virtual {p1}, Landroid/graphics/RectF;->height()F
 
     move-result p1
@@ -523,7 +476,6 @@
 
     mul-float p1, p1, v6
 
-    .line 7
     iget v6, v4, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineSize;->width:I
 
     int-to-float v6, v6
@@ -532,19 +484,16 @@
 
     float-to-int v7, v2
 
-    .line 8
     iput v7, v4, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineSize;->width:I
 
     float-to-int v7, p1
 
-    .line 9
     iput v7, v4, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineSize;->height:I
 
     const/4 v4, 0x0
 
     const/4 v7, 0x0
 
-    .line 10
     :goto_0
     iget-object v8, p0, Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/MTFaceResult;->faces:[Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/MTFace;
 
@@ -552,15 +501,12 @@
 
     if-ge v7, v9, :cond_4
 
-    .line 11
     aget-object v8, v8, v7
 
-    .line 12
     iget-object v9, v8, Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/MTFace;->faceBounds:Landroid/graphics/RectF;
 
     if-eqz v9, :cond_2
 
-    .line 13
     iget v10, v9, Landroid/graphics/RectF;->left:F
 
     mul-float v10, v10, v6
@@ -571,7 +517,6 @@
 
     iput v10, v9, Landroid/graphics/RectF;->left:F
 
-    .line 14
     iget v10, v9, Landroid/graphics/RectF;->top:F
 
     mul-float v10, v10, v5
@@ -582,7 +527,6 @@
 
     iput v10, v9, Landroid/graphics/RectF;->top:F
 
-    .line 15
     iget v10, v9, Landroid/graphics/RectF;->right:F
 
     mul-float v10, v10, v6
@@ -593,7 +537,6 @@
 
     iput v10, v9, Landroid/graphics/RectF;->right:F
 
-    .line 16
     iget v10, v9, Landroid/graphics/RectF;->bottom:F
 
     mul-float v10, v10, v5
@@ -604,13 +547,11 @@
 
     iput v10, v9, Landroid/graphics/RectF;->bottom:F
 
-    .line 17
     :cond_2
     iget-object v8, v8, Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/MTFace;->facePoints:[Landroid/graphics/PointF;
 
     if-eqz v8, :cond_3
 
-    .line 18
     array-length v9, v8
 
     const/4 v10, 0x0
@@ -620,7 +561,6 @@
 
     aget-object v11, v8, v10
 
-    .line 19
     iget v12, v11, Landroid/graphics/PointF;->x:F
 
     mul-float v12, v12, v6
@@ -631,7 +571,6 @@
 
     iput v12, v11, Landroid/graphics/PointF;->x:F
 
-    .line 20
     iget v12, v11, Landroid/graphics/PointF;->y:F
 
     mul-float v12, v12, v5
@@ -651,13 +590,11 @@
 
     goto :goto_0
 
-    .line 21
     :cond_4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 22
     :cond_5
     :goto_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -672,7 +609,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p1, Landroid/graphics/PointF;->x:F
 
     iget v2, p0, Landroid/graphics/PointF;->x:F
@@ -713,7 +649,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/MTFace;->age:Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/attribute/MTAge;
 
     if-nez p0, :cond_0
@@ -722,7 +657,6 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     iget p0, p0, Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/attribute/MTAge;->value:I
 
@@ -741,19 +675,16 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/MTFace;->gender:Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/attribute/MTGender;
 
     if-nez p0, :cond_0
 
     const/4 p0, -0x1
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p0
 
-    .line 3
     :cond_0
     iget p0, p0, Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/attribute/MTGender;->top:I
 
@@ -761,7 +692,6 @@
 
     if-ne p0, v1, :cond_1
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
@@ -769,7 +699,6 @@
     :cond_1
     const/4 p0, 0x0
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p0
@@ -782,19 +711,16 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Landroid/graphics/RectF;
 
     invoke-direct {v1}, Landroid/graphics/RectF;-><init>()V
 
     const/4 v2, 0x0
 
-    .line 2
     invoke-virtual {v1, v2, v2, v2, v2}, Landroid/graphics/RectF;->set(FFFF)V
 
     if-eqz p0, :cond_1
 
-    .line 3
     invoke-virtual {p0}, Lcom/meitu/core/types/FaceData;->getFaceCount()I
 
     move-result v3
@@ -805,12 +731,10 @@
 
     const/4 v3, 0x2
 
-    .line 4
     invoke-virtual {p0, p1, v3}, Lcom/meitu/core/types/FaceData;->getFaceLandmarkRatio(II)Ljava/util/ArrayList;
 
     move-result-object p0
 
-    .line 5
     invoke-virtual {p0}, Ljava/util/ArrayList;->size()I
 
     move-result p1
@@ -830,35 +754,30 @@
     :goto_0
     if-ge v4, p1, :cond_0
 
-    .line 6
     invoke-virtual {p0, v4}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
 
     move-result-object v7
 
     check-cast v7, Landroid/graphics/PointF;
 
-    .line 7
     iget v8, v7, Landroid/graphics/PointF;->x:F
 
     invoke-static {v5, v8}, Ljava/lang/Math;->min(FF)F
 
     move-result v5
 
-    .line 8
     iget v8, v7, Landroid/graphics/PointF;->x:F
 
     invoke-static {v2, v8}, Ljava/lang/Math;->max(FF)F
 
     move-result v2
 
-    .line 9
     iget v8, v7, Landroid/graphics/PointF;->y:F
 
     invoke-static {v6, v8}, Ljava/lang/Math;->min(FF)F
 
     move-result v6
 
-    .line 10
     iget v7, v7, Landroid/graphics/PointF;->y:F
 
     invoke-static {v3, v7}, Ljava/lang/Math;->max(FF)F
@@ -869,11 +788,9 @@
 
     goto :goto_0
 
-    .line 11
     :cond_0
     invoke-virtual {v1, v5, v6, v2, v3}, Landroid/graphics/RectF;->set(FFFF)V
 
-    .line 12
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -887,24 +804,20 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Landroid/graphics/RectF;
 
     invoke-direct {v1}, Landroid/graphics/RectF;-><init>()V
 
     const/4 v2, 0x0
 
-    .line 2
     invoke-virtual {v1, v2, v2, v2, v2}, Landroid/graphics/RectF;->set(FFFF)V
 
     if-eqz p0, :cond_1
 
-    .line 3
     iget-object p0, p0, Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/MTFace;->facePoints:[Landroid/graphics/PointF;
 
     if-eqz p0, :cond_1
 
-    .line 4
     array-length v3, p0
 
     const/4 v4, 0x0
@@ -922,31 +835,26 @@
     :goto_0
     if-ge v5, v3, :cond_0
 
-    .line 5
     aget-object v8, p0, v5
 
-    .line 6
     iget v9, v8, Landroid/graphics/PointF;->x:F
 
     invoke-static {v6, v9}, Ljava/lang/Math;->min(FF)F
 
     move-result v6
 
-    .line 7
     iget v9, v8, Landroid/graphics/PointF;->x:F
 
     invoke-static {v2, v9}, Ljava/lang/Math;->max(FF)F
 
     move-result v2
 
-    .line 8
     iget v9, v8, Landroid/graphics/PointF;->y:F
 
     invoke-static {v7, v9}, Ljava/lang/Math;->min(FF)F
 
     move-result v7
 
-    .line 9
     iget v8, v8, Landroid/graphics/PointF;->y:F
 
     invoke-static {v4, v8}, Ljava/lang/Math;->max(FF)F
@@ -957,11 +865,9 @@
 
     goto :goto_0
 
-    .line 10
     :cond_0
     invoke-virtual {v1, v6, v7, v2, v4}, Landroid/graphics/RectF;->set(FFFF)V
 
-    .line 11
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -977,19 +883,16 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/MTFace;->race:Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/attribute/MTRace;
 
     const/4 v1, -0x1
 
     if-nez p0, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
 
-    .line 3
     :cond_0
     iget p0, p0, Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/attribute/MTRace;->top:I
 
@@ -1015,36 +918,30 @@
 
     if-eq p0, v2, :cond_1
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
 
-    .line 5
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v2
 
-    .line 6
     :cond_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v2
 
-    .line 7
     :cond_3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v2
 
-    .line 8
     :cond_4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v2
 
-    .line 9
     :cond_5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1053,7 +950,6 @@
     :cond_6
     const/4 p0, 0x0
 
-    .line 10
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p0
@@ -1068,7 +964,6 @@
 
     if-eqz p0, :cond_1
 
-    .line 1
     invoke-virtual {p0}, Lcom/meitu/core/types/FaceData;->getFaceCount()I
 
     move-result v1
@@ -1077,14 +972,12 @@
 
     const/4 v1, 0x2
 
-    .line 2
     invoke-virtual {p0, p1, v1}, Lcom/meitu/core/types/FaceData;->getFaceLandmarkRatio(II)Ljava/util/ArrayList;
 
     move-result-object p0
 
     const/16 p1, 0x59
 
-    .line 3
     invoke-virtual {p0, p1}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
 
     move-result-object p1
@@ -1105,7 +998,6 @@
 
     const/16 p1, 0x68
 
-    .line 4
     invoke-virtual {p0, p1}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
 
     move-result-object v4
@@ -1130,7 +1022,6 @@
 
     div-double/2addr v2, v4
 
-    .line 5
     invoke-virtual {p0, v1}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
 
     move-result-object v1
@@ -1149,7 +1040,6 @@
 
     const/16 p1, 0x56
 
-    .line 6
     invoke-virtual {p0, p1}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
 
     move-result-object p1
@@ -1202,7 +1092,6 @@
     :cond_2
     const/4 p0, 0x0
 
-    .line 7
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

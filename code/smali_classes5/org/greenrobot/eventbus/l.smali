@@ -38,22 +38,16 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lorg/greenrobot/eventbus/l;->a:Ljava/lang/reflect/Method;
 
-    .line 3
     iput-object p3, p0, Lorg/greenrobot/eventbus/l;->b:Lorg/greenrobot/eventbus/ThreadMode;
 
-    .line 4
     iput-object p2, p0, Lorg/greenrobot/eventbus/l;->c:Ljava/lang/Class;
 
-    .line 5
     iput p4, p0, Lorg/greenrobot/eventbus/l;->d:I
 
-    .line 6
     iput-boolean p5, p0, Lorg/greenrobot/eventbus/l;->e:Z
 
     return-void
@@ -64,20 +58,17 @@
 
     monitor-enter p0
 
-    .line 1
     :try_start_0
     iget-object v0, p0, Lorg/greenrobot/eventbus/l;->f:Ljava/lang/String;
 
     if-nez v0, :cond_0
 
-    .line 2
     new-instance v0, Ljava/lang/StringBuilder;
 
     const/16 v1, 0x40
 
     invoke-direct {v0, v1}, Ljava/lang/StringBuilder;-><init>(I)V
 
-    .line 3
     iget-object v1, p0, Lorg/greenrobot/eventbus/l;->a:Ljava/lang/reflect/Method;
 
     invoke-virtual {v1}, Ljava/lang/reflect/Method;->getDeclaringClass()Ljava/lang/Class;
@@ -92,7 +83,6 @@
 
     const/16 v1, 0x23
 
-    .line 4
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(C)Ljava/lang/StringBuilder;
 
     iget-object v1, p0, Lorg/greenrobot/eventbus/l;->a:Ljava/lang/reflect/Method;
@@ -105,7 +95,6 @@
 
     const/16 v1, 0x28
 
-    .line 5
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(C)Ljava/lang/StringBuilder;
 
     iget-object v1, p0, Lorg/greenrobot/eventbus/l;->c:Ljava/lang/Class;
@@ -116,7 +105,6 @@
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 6
     invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     move-result-object v0
@@ -125,7 +113,6 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 7
     :cond_0
     monitor-exit p0
 
@@ -150,22 +137,17 @@
 
     return p1
 
-    .line 1
     :cond_0
     instance-of v0, p1, Lorg/greenrobot/eventbus/l;
 
     if-eqz v0, :cond_1
 
-    .line 2
     invoke-direct {p0}, Lorg/greenrobot/eventbus/l;->a()V
 
-    .line 3
     check-cast p1, Lorg/greenrobot/eventbus/l;
 
-    .line 4
     invoke-direct {p1}, Lorg/greenrobot/eventbus/l;->a()V
 
-    .line 5
     iget-object v0, p0, Lorg/greenrobot/eventbus/l;->f:Ljava/lang/String;
 
     iget-object p1, p1, Lorg/greenrobot/eventbus/l;->f:Ljava/lang/String;
@@ -185,7 +167,6 @@
 .method public hashCode()I
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lorg/greenrobot/eventbus/l;->a:Ljava/lang/reflect/Method;
 
     invoke-virtual {v0}, Ljava/lang/reflect/Method;->hashCode()I

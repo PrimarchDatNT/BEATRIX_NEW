@@ -21,12 +21,10 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/4 v0, 0x1
 
-    .line 2
     iput-boolean v0, p0, Lcom/mopub/mobileads/BaseAd;->mAutomaticImpressionAndClickTracking:Z
 
     return-void
@@ -96,19 +94,14 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p1}, Lcom/mopub/common/Preconditions;->checkNotNull(Ljava/lang/Object;)V
 
-    .line 2
     invoke-static {p2}, Lcom/mopub/common/Preconditions;->checkNotNull(Ljava/lang/Object;)V
 
-    .line 3
     invoke-static {p3}, Lcom/mopub/common/Preconditions;->checkNotNull(Ljava/lang/Object;)V
 
-    .line 4
     iput-object p2, p0, Lcom/mopub/mobileads/BaseAd;->mLoadListener:Lcom/mopub/mobileads/AdLifecycleListener$LoadListener;
 
-    .line 5
     instance-of p2, p1, Landroid/app/Activity;
 
     if-eqz p2, :cond_0
@@ -123,20 +116,16 @@
 
     if-eqz v0, :cond_0
 
-    .line 6
     invoke-static {p2}, Lcom/mopub/common/MoPubLifecycleManager;->getInstance(Landroid/app/Activity;)Lcom/mopub/common/MoPubLifecycleManager;
 
     move-result-object p2
 
-    .line 7
     invoke-virtual {p0}, Lcom/mopub/mobileads/BaseAd;->getLifecycleListener()Lcom/mopub/common/LifecycleListener;
 
     move-result-object v0
 
-    .line 8
     invoke-virtual {p2, v0}, Lcom/mopub/common/MoPubLifecycleManager;->addLifecycleListener(Lcom/mopub/common/LifecycleListener;)V
 
-    .line 9
     :cond_0
     invoke-virtual {p0, p1, p3}, Lcom/mopub/mobileads/BaseAd;->load(Landroid/content/Context;Lcom/mopub/mobileads/AdData;)V
 
@@ -150,13 +139,10 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-static {p1}, Lcom/mopub/common/Preconditions;->checkNotNull(Ljava/lang/Object;)V
 
-    .line 2
     iput-object p1, p0, Lcom/mopub/mobileads/BaseAd;->mInteractionListener:Lcom/mopub/mobileads/AdLifecycleListener$InteractionListener;
 
-    .line 3
     invoke-virtual {p0}, Lcom/mopub/mobileads/BaseAd;->show()V
 
     return-void
@@ -165,7 +151,6 @@
 .method isAutomaticImpressionAndClickTrackingEnabled()Z
     .locals 1
 
-    .line 1
     iget-boolean v0, p0, Lcom/mopub/mobileads/BaseAd;->mAutomaticImpressionAndClickTracking:Z
 
     return v0
@@ -193,7 +178,6 @@
 .method protected setAutomaticImpressionAndClickTracking(Z)V
     .locals 0
 
-    .line 1
     iput-boolean p1, p0, Lcom/mopub/mobileads/BaseAd;->mAutomaticImpressionAndClickTracking:Z
 
     return-void

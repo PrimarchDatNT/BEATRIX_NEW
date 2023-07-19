@@ -19,12 +19,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
 
-    .line 2
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
     move-result-object v2
@@ -49,7 +47,6 @@
 
     sput-object v1, Lcom/commsource/easyeditor/z1/l;->b:Ljava/lang/String;
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -58,7 +55,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -71,7 +67,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/easyeditor/z1/l;->b:Ljava/lang/String;
 
     invoke-static {v1}, Lcom/meitu/library/p/g/b;->y(Ljava/lang/String;)Z
@@ -82,7 +77,6 @@
 
     sget-object v1, Lcom/commsource/util/CopyAssetToSdManager$CopyATSEnum;->AiHDR:Lcom/commsource/util/CopyAssetToSdManager$CopyATSEnum;
 
-    .line 2
     invoke-static {v1}, Lcom/commsource/util/CopyAssetToSdManager;->d(Lcom/commsource/util/CopyAssetToSdManager$CopyATSEnum;)Z
 
     move-result v1
@@ -96,7 +90,6 @@
     :cond_0
     const/4 v1, 0x0
 
-    .line 3
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -119,7 +112,6 @@
 
     const/4 p1, 0x0
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
@@ -128,7 +120,6 @@
 
     return-object p1
 
-    .line 2
     :cond_0
     :try_start_1
     iget-object v1, p0, Lcom/commsource/easyeditor/z1/l;->a:Lcom/meitu/mtlab/beautyplus/imageproc/MTlabImageAiEnhance;
@@ -141,7 +132,6 @@
 
     if-eqz v1, :cond_1
 
-    .line 3
     new-instance v1, Lcom/meitu/mtlab/beautyplus/imageproc/MTlabImageAiEnhance;
 
     sget-object v2, Lcom/commsource/util/CopyAssetToSdManager$CopyATSEnum;->AiHDR:Lcom/commsource/util/CopyAssetToSdManager$CopyATSEnum;
@@ -158,7 +148,6 @@
 
     iput-object v1, p0, Lcom/commsource/easyeditor/z1/l;->a:Lcom/meitu/mtlab/beautyplus/imageproc/MTlabImageAiEnhance;
 
-    .line 4
     :cond_1
     iget-object p3, p0, Lcom/commsource/easyeditor/z1/l;->a:Lcom/meitu/mtlab/beautyplus/imageproc/MTlabImageAiEnhance;
     :try_end_1
@@ -174,7 +163,6 @@
 
     goto :goto_1
 
-    .line 5
     :cond_2
     :try_start_2
     invoke-virtual {p1}, Landroid/graphics/Bitmap;->getWidth()I
@@ -189,7 +177,6 @@
 
     move-result-object p3
 
-    .line 6
     invoke-static {p1, p3}, Lcom/commsource/util/common/e;->g(Landroid/graphics/Bitmap;Landroid/graphics/Bitmap;)V
     :try_end_2
     .catch Ljava/lang/Exception; {:try_start_2 .. :try_end_2} :catch_0
@@ -200,22 +187,18 @@
     :catch_0
     move-exception p3
 
-    .line 7
     :try_start_3
     invoke-virtual {p3}, Ljava/lang/Exception;->printStackTrace()V
 
-    .line 8
     invoke-static {p1}, Landroid/graphics/Bitmap;->createBitmap(Landroid/graphics/Bitmap;)Landroid/graphics/Bitmap;
 
     move-result-object p3
 
-    .line 9
     :goto_0
     iget-object p1, p0, Lcom/commsource/easyeditor/z1/l;->a:Lcom/meitu/mtlab/beautyplus/imageproc/MTlabImageAiEnhance;
 
     invoke-virtual {p1, p3, p2}, Lcom/meitu/mtlab/beautyplus/imageproc/MTlabImageAiEnhance;->a(Landroid/graphics/Bitmap;F)Z
 
-    .line 10
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
     :try_end_3
     .catchall {:try_start_3 .. :try_end_3} :catchall_0
@@ -224,7 +207,6 @@
 
     return-object p3
 
-    .line 11
     :cond_3
     :goto_1
     :try_start_4

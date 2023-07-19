@@ -35,7 +35,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/meitu/media/tools/editor/OutputImageFormat;
 
     const-string v2, "I420"
@@ -46,7 +45,6 @@
 
     sput-object v1, Lcom/meitu/media/tools/editor/OutputImageFormat;->I420:Lcom/meitu/media/tools/editor/OutputImageFormat;
 
-    .line 2
     new-instance v2, Lcom/meitu/media/tools/editor/OutputImageFormat;
 
     const-string v4, "NV21"
@@ -57,7 +55,6 @@
 
     sput-object v2, Lcom/meitu/media/tools/editor/OutputImageFormat;->NV21:Lcom/meitu/media/tools/editor/OutputImageFormat;
 
-    .line 3
     new-instance v4, Lcom/meitu/media/tools/editor/OutputImageFormat;
 
     const-string v6, "JPEG"
@@ -78,7 +75,6 @@
 
     aput-object v4, v6, v7
 
-    .line 4
     sput-object v6, Lcom/meitu/media/tools/editor/OutputImageFormat;->$VALUES:[Lcom/meitu/media/tools/editor/OutputImageFormat;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -96,10 +92,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 2
     iput-object p3, p0, Lcom/meitu/media/tools/editor/OutputImageFormat;->friendlyName:Ljava/lang/String;
 
     return-void
@@ -112,7 +106,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     const-class v1, Lcom/meitu/media/tools/editor/OutputImageFormat;
 
     invoke-static {v1, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -133,7 +126,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/meitu/media/tools/editor/OutputImageFormat;->$VALUES:[Lcom/meitu/media/tools/editor/OutputImageFormat;
 
     invoke-virtual {v1}, [Lcom/meitu/media/tools/editor/OutputImageFormat;->clone()Ljava/lang/Object;
@@ -156,7 +148,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/media/tools/editor/OutputImageFormat;->friendlyName:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

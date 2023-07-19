@@ -51,10 +51,8 @@
         }
     .end annotation
 
-    .line 5
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 6
     iput-object p1, p0, Lcom/google/firebase/database/collection/f;->a:Lcom/google/firebase/database/collection/d;
 
     return-void
@@ -72,20 +70,16 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     invoke-static {}, Ljava/util/Collections;->emptyMap()Ljava/util/Map;
 
     move-result-object v0
 
-    .line 3
     invoke-static {}, Lcom/google/firebase/database/collection/d$a;->d()Lcom/google/firebase/database/collection/d$a$a;
 
     move-result-object v1
 
-    .line 4
     invoke-static {p1, v0, v1, p2}, Lcom/google/firebase/database/collection/d$a;->a(Ljava/util/List;Ljava/util/Map;Lcom/google/firebase/database/collection/d$a$a;Ljava/util/Comparator;)Lcom/google/firebase/database/collection/d;
 
     move-result-object p1
@@ -105,7 +99,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/database/collection/f;->a:Lcom/google/firebase/database/collection/d;
 
     invoke-virtual {v0}, Lcom/google/firebase/database/collection/d;->h()Ljava/lang/Object;
@@ -123,7 +116,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/database/collection/f;->a:Lcom/google/firebase/database/collection/d;
 
     invoke-virtual {v0}, Lcom/google/firebase/database/collection/d;->i()Ljava/lang/Object;
@@ -141,7 +133,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/database/collection/f;->a:Lcom/google/firebase/database/collection/d;
 
     invoke-virtual {v0, p1}, Lcom/google/firebase/database/collection/d;->b(Ljava/lang/Object;)Z
@@ -159,7 +150,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/database/collection/f;->a:Lcom/google/firebase/database/collection/d;
 
     invoke-virtual {v0, p1}, Lcom/google/firebase/database/collection/d;->j(Ljava/lang/Object;)Ljava/lang/Object;
@@ -178,7 +168,6 @@
 
     return p1
 
-    .line 1
     :cond_0
     instance-of v0, p1, Lcom/google/firebase/database/collection/f;
 
@@ -188,11 +177,9 @@
 
     return p1
 
-    .line 2
     :cond_1
     check-cast p1, Lcom/google/firebase/database/collection/f;
 
-    .line 3
     iget-object v0, p0, Lcom/google/firebase/database/collection/f;->a:Lcom/google/firebase/database/collection/d;
 
     iget-object p1, p1, Lcom/google/firebase/database/collection/f;->a:Lcom/google/firebase/database/collection/d;
@@ -214,7 +201,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/google/firebase/database/collection/f;
 
     iget-object v1, p0, Lcom/google/firebase/database/collection/f;->a:Lcom/google/firebase/database/collection/d;
@@ -233,7 +219,6 @@
 .method public hashCode()I
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/database/collection/f;->a:Lcom/google/firebase/database/collection/d;
 
     invoke-virtual {v0}, Lcom/google/firebase/database/collection/d;->hashCode()I
@@ -253,7 +238,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/google/firebase/database/collection/f$a;
 
     iget-object v1, p0, Lcom/google/firebase/database/collection/f;->a:Lcom/google/firebase/database/collection/d;
@@ -275,7 +259,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/database/collection/f;->a:Lcom/google/firebase/database/collection/d;
 
     invoke-virtual {v0, p1}, Lcom/google/firebase/database/collection/d;->indexOf(Ljava/lang/Object;)I
@@ -288,7 +271,6 @@
 .method public isEmpty()Z
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/database/collection/f;->a:Lcom/google/firebase/database/collection/d;
 
     invoke-virtual {v0}, Lcom/google/firebase/database/collection/d;->isEmpty()Z
@@ -308,7 +290,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/google/firebase/database/collection/f$a;
 
     iget-object v1, p0, Lcom/google/firebase/database/collection/f;->a:Lcom/google/firebase/database/collection/d;
@@ -332,14 +313,12 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/database/collection/f;->a:Lcom/google/firebase/database/collection/d;
 
     invoke-virtual {v0, p1}, Lcom/google/firebase/database/collection/d;->q(Ljava/lang/Object;)Lcom/google/firebase/database/collection/d;
 
     move-result-object p1
 
-    .line 2
     iget-object v0, p0, Lcom/google/firebase/database/collection/f;->a:Lcom/google/firebase/database/collection/d;
 
     if-ne p1, v0, :cond_0
@@ -367,7 +346,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/google/firebase/database/collection/f$a;
 
     iget-object v1, p0, Lcom/google/firebase/database/collection/f;->a:Lcom/google/firebase/database/collection/d;
@@ -391,7 +369,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/google/firebase/database/collection/f$a;
 
     iget-object v1, p0, Lcom/google/firebase/database/collection/f;->a:Lcom/google/firebase/database/collection/d;
@@ -408,7 +385,6 @@
 .method public size()I
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/database/collection/f;->a:Lcom/google/firebase/database/collection/d;
 
     invoke-virtual {v0}, Lcom/google/firebase/database/collection/d;->size()I

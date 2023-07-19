@@ -27,7 +27,6 @@
 .method constructor <init>(Lcom/sdk/imp/player/a$n;Landroid/view/Surface;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/sdk/imp/player/a$n$d;->b:Lcom/sdk/imp/player/a$n;
 
     iput-object p2, p0, Lcom/sdk/imp/player/a$n$d;->a:Landroid/view/Surface;
@@ -42,14 +41,12 @@
 .method public run()V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/sdk/imp/player/a$n$d;->b:Lcom/sdk/imp/player/a$n;
 
     iget-object v1, p0, Lcom/sdk/imp/player/a$n$d;->a:Landroid/view/Surface;
 
     invoke-static {v0, v1}, Lcom/sdk/imp/player/a$n;->e(Lcom/sdk/imp/player/a$n;Landroid/view/Surface;)Landroid/view/Surface;
 
-    .line 2
     iget-object v0, p0, Lcom/sdk/imp/player/a$n$d;->b:Lcom/sdk/imp/player/a$n;
 
     invoke-static {v0}, Lcom/sdk/imp/player/a$n;->d(Lcom/sdk/imp/player/a$n;)Landroid/view/Surface;
@@ -58,7 +55,6 @@
 
     if-nez v0, :cond_0
 
-    .line 3
     iget-object v0, p0, Lcom/sdk/imp/player/a$n$d;->b:Lcom/sdk/imp/player/a$n;
 
     const/16 v1, 0x8
@@ -67,7 +63,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_0
     iget-object v0, p0, Lcom/sdk/imp/player/a$n$d;->b:Lcom/sdk/imp/player/a$n;
 

@@ -7,7 +7,6 @@
 .method public constructor <init>(Landroid/content/Context;Ljava/lang/String;Landroid/database/sqlite/SQLiteDatabase$CursorFactory;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1, p2, p3}, Lcom/meitu/ipstore/storage/bean/dao/a$a;-><init>(Landroid/content/Context;Ljava/lang/String;Landroid/database/sqlite/SQLiteDatabase$CursorFactory;)V
 
     return-void
@@ -28,7 +27,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     const-class v1, Lcom/meitu/ipstore/storage/bean/dao/PartnerBeanDao;
 
     aput-object v1, p3, v0
@@ -41,7 +39,6 @@
 
     invoke-static {p1, p3}, Lf/k/m/i/d;->i(Landroid/database/sqlite/SQLiteDatabase;[Ljava/lang/Class;)V
 
-    .line 2
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

@@ -12,7 +12,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/google/common/base/g;-><init>()V
 
     return-void
@@ -33,7 +32,6 @@
 
     if-eqz p0, :cond_0
 
-    .line 1
     invoke-virtual {p0, p1}, Ljava/lang/Object;->equals(Ljava/lang/Object;)Z
 
     move-result p0
@@ -62,7 +60,6 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-static {p0}, Ljava/util/Arrays;->hashCode([Ljava/lang/Object;)I
 
     move-result p0

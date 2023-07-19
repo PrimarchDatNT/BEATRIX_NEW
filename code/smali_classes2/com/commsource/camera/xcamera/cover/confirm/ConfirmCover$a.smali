@@ -46,15 +46,12 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lf/d/d/p;->L()V
 
-    .line 2
     iget-object v0, p0, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover$a;->a:Lcom/commsource/widget/dialog/g0;
 
     invoke-virtual {v0}, Lcom/commsource/widget/dialog/i0;->dismissAllowingStateLoss()V
 
-    .line 3
     iget-object v0, p0, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover$a;->b:Lcotlin/jvm/internal/Ref$ObjectRef;
 
     iget-object v0, v0, Lcotlin/jvm/internal/Ref$ObjectRef;->element:Ljava/lang/Object;
@@ -63,7 +60,6 @@
 
     invoke-interface {v0}, Ljava/lang/Runnable;->run()V
 
-    .line 4
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

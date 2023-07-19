@@ -31,7 +31,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     const-class v1, Lcom/commsource/puzzle/patchedworld/j;
 
     invoke-virtual {v1}, Ljava/lang/Class;->getSimpleName()Ljava/lang/String;
@@ -62,25 +61,20 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/commsource/puzzle/patchedworld/i;-><init>(Lcom/commsource/puzzle/patchedworld/ImagePatch;)V
 
     const/4 p1, 0x4
 
-    .line 2
     iput p1, p0, Lcom/commsource/puzzle/patchedworld/j;->p:I
 
-    .line 3
     new-instance p1, Landroid/graphics/Rect;
 
     invoke-direct {p1}, Landroid/graphics/Rect;-><init>()V
 
     iput-object p1, p0, Lcom/commsource/puzzle/patchedworld/j;->q:Landroid/graphics/Rect;
 
-    .line 4
     iput-object p2, p0, Lcom/commsource/puzzle/patchedworld/j;->o:Landroid/graphics/drawable/Drawable;
 
-    .line 5
     iput p3, p0, Lcom/commsource/puzzle/patchedworld/j;->p:I
 
     return-void
@@ -99,7 +93,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -116,12 +109,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     instance-of v1, p1, Lcom/commsource/puzzle/patchedworld/codingUtil/d;
 
     if-eqz v1, :cond_1
 
-    .line 2
     move-object v1, p1
 
     check-cast v1, Lcom/commsource/puzzle/patchedworld/codingUtil/d;
@@ -147,14 +138,12 @@
 
     check-cast v1, Lcom/commsource/puzzle/patchedworld/ImagePatch;
 
-    .line 3
     invoke-virtual {v1}, Lcom/commsource/puzzle/patchedworld/VisualPatch;->K()Landroid/graphics/Matrix;
 
     move-result-object v1
 
     goto :goto_0
 
-    .line 4
     :cond_1
     iget-object v1, p0, Lcom/commsource/puzzle/patchedworld/n;->a:Lcom/commsource/puzzle/patchedworld/VisualPatch;
 
@@ -164,16 +153,13 @@
 
     move-result-object v1
 
-    .line 5
     :goto_0
     invoke-virtual {p1}, Landroid/graphics/Canvas;->save()I
 
     if-eqz v1, :cond_2
 
-    .line 6
     invoke-virtual {p1, v1}, Landroid/graphics/Canvas;->setMatrix(Landroid/graphics/Matrix;)V
 
-    .line 7
     iget-object v1, p0, Lcom/commsource/puzzle/patchedworld/j;->o:Landroid/graphics/drawable/Drawable;
 
     invoke-virtual {p1}, Landroid/graphics/Canvas;->getWidth()I
@@ -190,16 +176,13 @@
 
     invoke-virtual {v1, v2}, Landroid/graphics/drawable/Drawable;->setBounds(Landroid/graphics/Rect;)V
 
-    .line 8
     iget-object v1, p0, Lcom/commsource/puzzle/patchedworld/j;->o:Landroid/graphics/drawable/Drawable;
 
     invoke-virtual {v1, p1}, Landroid/graphics/drawable/Drawable;->draw(Landroid/graphics/Canvas;)V
 
-    .line 9
     :cond_2
     invoke-virtual {p1}, Landroid/graphics/Canvas;->restore()V
 
-    .line 10
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -212,27 +195,23 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0, p1, p2}, Lcom/commsource/puzzle/patchedworld/i;->e(II)Landroid/graphics/Rect;
 
     move-result-object v1
 
     if-nez v1, :cond_0
 
-    .line 2
     new-instance v1, Landroid/graphics/Rect;
 
     const/4 v2, 0x0
 
     invoke-direct {v1, v2, v2, p1, p2}, Landroid/graphics/Rect;-><init>(IIII)V
 
-    .line 3
     :cond_0
     new-instance p1, Landroid/graphics/Point;
 
     invoke-direct {p1}, Landroid/graphics/Point;-><init>()V
 
-    .line 4
     iget p2, p0, Lcom/commsource/puzzle/patchedworld/j;->p:I
 
     const/4 v2, 0x1
@@ -247,7 +226,6 @@
 
     if-eq p2, v2, :cond_1
 
-    .line 5
     iget p2, v1, Landroid/graphics/Rect;->right:I
 
     iget v1, v1, Landroid/graphics/Rect;->bottom:I
@@ -256,7 +234,6 @@
 
     goto :goto_0
 
-    .line 6
     :cond_1
     iget p2, v1, Landroid/graphics/Rect;->left:I
 
@@ -266,7 +243,6 @@
 
     goto :goto_0
 
-    .line 7
     :cond_2
     iget p2, v1, Landroid/graphics/Rect;->right:I
 
@@ -276,7 +252,6 @@
 
     goto :goto_0
 
-    .line 8
     :cond_3
     iget p2, v1, Landroid/graphics/Rect;->left:I
 
@@ -284,7 +259,6 @@
 
     invoke-virtual {p1, p2, v1}, Landroid/graphics/Point;->set(II)V
 
-    .line 9
     :goto_0
     iget-object p2, p0, Lcom/commsource/puzzle/patchedworld/n;->a:Lcom/commsource/puzzle/patchedworld/VisualPatch;
 
@@ -296,14 +270,12 @@
 
     const/high16 v1, 0x3f800000    # 1.0f
 
-    .line 10
     invoke-static {p2}, Lcom/commsource/puzzle/patchedworld/codingUtil/n;->f(Landroid/graphics/Matrix;)F
 
     move-result p2
 
     div-float/2addr v1, p2
 
-    .line 11
     iget-object p2, p0, Lcom/commsource/puzzle/patchedworld/j;->o:Landroid/graphics/drawable/Drawable;
 
     invoke-virtual {p2}, Landroid/graphics/drawable/Drawable;->getIntrinsicWidth()I
@@ -320,7 +292,6 @@
 
     float-to-int p2, p2
 
-    .line 12
     iget-object v3, p0, Lcom/commsource/puzzle/patchedworld/j;->o:Landroid/graphics/drawable/Drawable;
 
     invoke-virtual {v3}, Landroid/graphics/drawable/Drawable;->getIntrinsicHeight()I
@@ -335,7 +306,6 @@
 
     float-to-int v1, v3
 
-    .line 13
     iget-object v2, p0, Lcom/commsource/puzzle/patchedworld/j;->q:Landroid/graphics/Rect;
 
     iget v3, p1, Landroid/graphics/Point;->x:I
@@ -352,7 +322,6 @@
 
     invoke-virtual {v2, v4, v5, v3, p1}, Landroid/graphics/Rect;->set(IIII)V
 
-    .line 14
     iget-object p1, p0, Lcom/commsource/puzzle/patchedworld/j;->q:Landroid/graphics/Rect;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -367,7 +336,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const/4 v0, -0x3
@@ -388,7 +356,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -405,7 +372,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

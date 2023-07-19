@@ -71,7 +71,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 2
     new-instance v1, Lcom/commsource/beautyfilter/NewBeautyFilterManager;
 
     const/4 v2, 0x0
@@ -90,7 +89,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/beautyfilter/NewBeautyFilterManager$Companion$instance$2;->invoke()Lcom/commsource/beautyfilter/NewBeautyFilterManager;
 
     move-result-object v1

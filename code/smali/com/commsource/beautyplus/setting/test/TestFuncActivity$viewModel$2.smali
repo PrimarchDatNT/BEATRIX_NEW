@@ -55,7 +55,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/beautyplus/setting/test/TestFuncActivity$viewModel$2;->this$0:Lcom/commsource/beautyplus/setting/test/TestFuncActivity;
 
     invoke-static {v1}, Landroidx/lifecycle/ViewModelProviders;->of(Landroidx/fragment/app/FragmentActivity;)Landroidx/lifecycle/ViewModelProvider;
@@ -82,7 +81,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/beautyplus/setting/test/TestFuncActivity$viewModel$2;->invoke()Lcom/commsource/beautyplus/setting/test/TestFuncViewModel;
 
     move-result-object v1

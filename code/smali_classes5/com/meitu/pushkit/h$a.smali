@@ -27,7 +27,6 @@
 .method constructor <init>(Lcom/meitu/pushkit/h;Ljava/lang/String;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/pushkit/h$a;->b:Lcom/meitu/pushkit/h;
 
     iput-object p2, p0, Lcom/meitu/pushkit/h$a;->a:Ljava/lang/String;
@@ -46,7 +45,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p3, p0, Lcom/meitu/pushkit/h$a;->a:Ljava/lang/String;
 
     invoke-virtual {p3, p2}, Ljava/lang/String;->startsWith(Ljava/lang/String;)Z
@@ -55,7 +53,6 @@
 
     if-eqz p2, :cond_0
 
-    .line 2
     iget-object p2, p0, Lcom/meitu/pushkit/h$a;->b:Lcom/meitu/pushkit/h;
 
     invoke-static {p2}, Lcom/meitu/pushkit/h;->a(Lcom/meitu/pushkit/h;)Landroid/os/Handler;
@@ -66,7 +63,6 @@
 
     invoke-virtual {p2, p3}, Landroid/os/Handler;->sendEmptyMessage(I)Z
 
-    .line 3
     :cond_0
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

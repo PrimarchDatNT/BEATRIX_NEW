@@ -21,7 +21,6 @@
 .method private constructor <init>(Landroid/content/Context;Ljava/lang/String;Landroid/database/sqlite/SQLiteDatabase$CursorFactory;I)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1, p2, p3, p4}, Landroid/database/sqlite/SQLiteOpenHelper;-><init>(Landroid/content/Context;Ljava/lang/String;Landroid/database/sqlite/SQLiteDatabase$CursorFactory;I)V
 
     return-void
@@ -34,23 +33,19 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/meitu/mtuploader/u/c;->g:Lcom/meitu/mtuploader/u/c;
 
     if-nez v1, :cond_1
 
-    .line 2
     const-class v1, Lcom/meitu/mtuploader/u/c;
 
     monitor-enter v1
 
-    .line 3
     :try_start_0
     sget-object v2, Lcom/meitu/mtuploader/u/c;->g:Lcom/meitu/mtuploader/u/c;
 
     if-nez v2, :cond_0
 
-    .line 4
     new-instance v2, Lcom/meitu/mtuploader/u/c;
 
     const-string v3, "mtuploader.db"
@@ -63,7 +58,6 @@
 
     sput-object v2, Lcom/meitu/mtuploader/u/c;->g:Lcom/meitu/mtuploader/u/c;
 
-    .line 5
     :cond_0
     monitor-exit v1
 
@@ -80,7 +74,6 @@
 
     throw p0
 
-    .line 6
     :cond_1
     :goto_0
     sget-object p0, Lcom/meitu/mtuploader/u/c;->g:Lcom/meitu/mtuploader/u/c;
@@ -101,10 +94,8 @@
 
     const-string v1, "create table token (id integer primary key autoincrement, orders varchar(20) not null, groupid integer not null, sequence integer not null, starttime long not null, token varchar(100) not null, key varchar(60) not null, url varchar(100) not null, backup_url varchar(100) not null, ttl integer not null, chunk_size integer not null, connect_timeout integer not null, socket_timeout integer not null, uploadkey varchar(100) not null, filetype varchar(10) not null, suffix varchar(10) not null);"
 
-    .line 1
     invoke-virtual {p1, v1}, Landroid/database/sqlite/SQLiteDatabase;->execSQL(Ljava/lang/String;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -119,13 +110,10 @@
 
     const-string p3, "drop table if existstoken"
 
-    .line 1
     invoke-virtual {p1, p3}, Landroid/database/sqlite/SQLiteDatabase;->execSQL(Ljava/lang/String;)V
 
-    .line 2
     invoke-virtual {p0, p1}, Lcom/meitu/mtuploader/u/c;->onCreate(Landroid/database/sqlite/SQLiteDatabase;)V
 
-    .line 3
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

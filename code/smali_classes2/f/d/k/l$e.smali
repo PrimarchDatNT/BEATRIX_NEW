@@ -32,7 +32,6 @@
 .method constructor <init>(Lf/d/k/l;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lf/d/k/l$e;->a:Lf/d/k/l;
 
     invoke-direct {p0}, Landroid/os/AsyncTask;-><init>()V
@@ -49,7 +48,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lf/d/k/l$e;->a:Lf/d/k/l;
 
     invoke-static {v0}, Lf/d/k/l;->u(Lf/d/k/l;)Landroid/graphics/Bitmap;
@@ -68,7 +66,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lf/d/k/l$e;->a:Lf/d/k/l;
 
     invoke-virtual {v1}, Landroidx/fragment/app/Fragment;->isAdded()Z
@@ -79,7 +76,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 2
     iget-object v1, p0, Lf/d/k/l$e;->a:Lf/d/k/l;
 
     invoke-static {v1}, Lf/d/k/l;->E(Lf/d/k/l;)Landroid/widget/ImageView;
@@ -88,7 +84,6 @@
 
     invoke-virtual {v1, p1}, Landroid/widget/ImageView;->setImageBitmap(Landroid/graphics/Bitmap;)V
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -102,7 +97,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, [Ljava/lang/Void;
 
     invoke-virtual {p0, p1}, Lf/d/k/l$e;->a([Ljava/lang/Void;)Landroid/graphics/Bitmap;
@@ -121,7 +115,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Landroid/graphics/Bitmap;
 
     invoke-virtual {p0, p1}, Lf/d/k/l$e;->b(Landroid/graphics/Bitmap;)V

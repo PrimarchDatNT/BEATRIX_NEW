@@ -23,10 +23,8 @@
 .method public constructor <init>()V
     .locals 2
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/studio/sub/BaseSubTabFragment;-><init>()V
 
-    .line 2
     sget-object v0, Lcom/commsource/studio/n0;->z:Lcom/commsource/studio/n0;
 
     invoke-virtual {v0}, Lcom/commsource/studio/n0;->e()I
@@ -43,7 +41,6 @@
 
     iput v0, p0, Lcom/commsource/studio/function/background/BackgroundFragment;->L:I
 
-    .line 3
     new-instance v0, Lcom/commsource/studio/function/background/BackgroundFragment$mViewBinding$2;
 
     invoke-direct {v0, p0}, Lcom/commsource/studio/function/background/BackgroundFragment$mViewBinding$2;-><init>(Lcom/commsource/studio/function/background/BackgroundFragment;)V
@@ -54,7 +51,6 @@
 
     iput-object v0, p0, Lcom/commsource/studio/function/background/BackgroundFragment;->M:Lcotlin/w;
 
-    .line 4
     new-instance v0, Lcom/commsource/studio/function/background/BackgroundFragment$backgroundViewModel$2;
 
     invoke-direct {v0, p0}, Lcom/commsource/studio/function/background/BackgroundFragment$backgroundViewModel$2;-><init>(Lcom/commsource/studio/function/background/BackgroundFragment;)V
@@ -65,7 +61,6 @@
 
     iput-object v0, p0, Lcom/commsource/studio/function/background/BackgroundFragment;->N:Lcotlin/w;
 
-    .line 5
     new-instance v0, Lcom/commsource/studio/function/background/BackgroundFragment$colorPickerLayer$2;
 
     invoke-direct {v0, p0}, Lcom/commsource/studio/function/background/BackgroundFragment$colorPickerLayer$2;-><init>(Lcom/commsource/studio/function/background/BackgroundFragment;)V
@@ -86,7 +81,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/studio/function/background/BackgroundFragment;->a0()Lcom/commsource/studio/function/background/BackgroundViewModel;
 
     move-result-object p0
@@ -103,7 +97,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/studio/function/background/BackgroundFragment;->b0()Lcom/commsource/studio/doodle/ColorPickerLayer;
 
     move-result-object p0
@@ -120,7 +113,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/beautyplus/i0/a;->b:Landroid/app/Activity;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -135,7 +127,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/studio/function/background/BackgroundFragment;->d0()Lcom/commsource/beautyplus/f0/gb;
 
     move-result-object p0
@@ -152,7 +143,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/studio/function/background/BackgroundFragment;->e0()V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -167,7 +157,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/commsource/studio/function/background/BackgroundFragment;->f0(Z)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -182,7 +171,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/beautyplus/i0/a;->b:Landroid/app/Activity;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -257,7 +245,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/studio/sub/BaseSubTabFragment;->L()Lcom/commsource/studio/ImageStudioViewModel;
 
     move-result-object v1
@@ -272,7 +259,6 @@
 
     invoke-static {v1, v2, v3, v2}, Lcom/commsource/studio/bean/a;->r0(Lcom/commsource/studio/bean/a;Ljava/lang/Boolean;ILjava/lang/Object;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -285,7 +271,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -300,10 +285,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0}, Lcom/commsource/studio/sub/BaseSubTabFragment;->B()V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -316,10 +299,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0}, Lcom/commsource/studio/sub/BaseSubTabFragment;->G()V
 
-    .line 2
     invoke-virtual {p0}, Lcom/commsource/studio/sub/BaseSubTabFragment;->K()Lcom/commsource/beautyplus/f0/k0;
 
     move-result-object v1
@@ -334,7 +315,6 @@
 
     invoke-static {v1, v2, v3, v4}, Lcom/commsource/studio/StudioCanvasContainer;->g(Lcom/commsource/studio/StudioCanvasContainer;ZILjava/lang/Object;)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -347,10 +327,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0}, Lcom/commsource/studio/sub/BaseSubTabFragment;->H()V
 
-    .line 2
     invoke-direct {p0}, Lcom/commsource/studio/function/background/BackgroundFragment;->a0()Lcom/commsource/studio/function/background/BackgroundViewModel;
 
     move-result-object v1
@@ -363,7 +341,6 @@
 
     invoke-virtual {v1, v2}, Landroidx/lifecycle/MutableLiveData;->setValue(Ljava/lang/Object;)V
 
-    .line 3
     invoke-direct {p0}, Lcom/commsource/studio/function/background/BackgroundFragment;->a0()Lcom/commsource/studio/function/background/BackgroundViewModel;
 
     move-result-object v1
@@ -374,7 +351,6 @@
 
     invoke-virtual {v1}, Ljava/util/HashMap;->clear()V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -387,7 +363,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/function/background/BackgroundFragment;->L:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -402,7 +377,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/studio/function/background/BackgroundFragment;->L:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -435,14 +409,12 @@
 
     invoke-static {p1, p3}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/studio/function/background/BackgroundFragment;->d0()Lcom/commsource/beautyplus/f0/gb;
 
     move-result-object p1
 
     invoke-virtual {p1, p0}, Lcom/commsource/beautyplus/f0/gb;->i(Landroidx/fragment/app/Fragment;)V
 
-    .line 2
     invoke-direct {p0}, Lcom/commsource/studio/function/background/BackgroundFragment;->a0()Lcom/commsource/studio/function/background/BackgroundViewModel;
 
     move-result-object p1
@@ -455,7 +427,6 @@
 
     invoke-virtual {p1, p3}, Lcom/commsource/studio/f;->c(Landroidx/fragment/app/FragmentActivity;)V
 
-    .line 3
     invoke-direct {p0}, Lcom/commsource/studio/function/background/BackgroundFragment;->d0()Lcom/commsource/beautyplus/f0/gb;
 
     move-result-object p1
@@ -468,7 +439,6 @@
 
     return-object p1
 
-    .line 4
     :cond_0
     new-instance p1, Lcotlin/TypeCastException;
 
@@ -516,17 +486,14 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-super {p0, p1, p2}, Landroidx/fragment/app/Fragment;->onViewCreated(Landroid/view/View;Landroid/os/Bundle;)V
 
-    .line 2
     invoke-direct {p0}, Lcom/commsource/studio/function/background/BackgroundFragment;->b0()Lcom/commsource/studio/doodle/ColorPickerLayer;
 
     move-result-object p1
 
     invoke-virtual {p0, p1}, Lcom/commsource/studio/sub/BaseSubTabFragment;->A(Lcom/commsource/studio/layer/d;)V
 
-    .line 3
     invoke-direct {p0}, Lcom/commsource/studio/function/background/BackgroundFragment;->b0()Lcom/commsource/studio/doodle/ColorPickerLayer;
 
     move-result-object p1
@@ -535,7 +502,6 @@
 
     invoke-virtual {p1, p2}, Lcom/commsource/studio/doodle/ColorPickerLayer;->j0(Z)V
 
-    .line 4
     invoke-virtual {p0}, Lcom/commsource/studio/sub/BaseSubTabFragment;->L()Lcom/commsource/studio/ImageStudioViewModel;
 
     move-result-object p1
@@ -550,12 +516,10 @@
 
     if-eqz p1, :cond_0
 
-    .line 5
     invoke-virtual {p1}, Lcom/commsource/studio/bean/BgLayerInfo;->isNeedPro()Z
 
     move-result p1
 
-    .line 6
     invoke-virtual {p0}, Lcom/commsource/studio/sub/BaseSubTabFragment;->K()Lcom/commsource/beautyplus/f0/k0;
 
     move-result-object v1
@@ -564,7 +528,6 @@
 
     invoke-virtual {v1, p1, p2}, Lcom/commsource/widget/ProView;->I(ZZ)V
 
-    .line 7
     :cond_0
     invoke-direct {p0}, Lcom/commsource/studio/function/background/BackgroundFragment;->d0()Lcom/commsource/beautyplus/f0/gb;
 
@@ -572,7 +535,6 @@
 
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/gb;->c:Landroidx/recyclerview/widget/RecyclerView;
 
-    .line 8
     new-instance v1, Lcom/commsource/widget/h1/e;
 
     invoke-virtual {p1}, Landroid/view/ViewGroup;->getContext()Landroid/content/Context;
@@ -581,7 +543,6 @@
 
     invoke-direct {v1, v2}, Lcom/commsource/widget/h1/e;-><init>(Landroid/content/Context;)V
 
-    .line 9
     const-class v2, Ljava/lang/Integer;
 
     new-instance v3, Lcom/commsource/studio/function/background/BackgroundFragment$a;
@@ -590,7 +551,6 @@
 
     invoke-virtual {v1, v2, v3}, Lcom/commsource/widget/h1/e;->J(Ljava/lang/Class;Lcom/commsource/widget/h1/e$b;)V
 
-    .line 10
     invoke-static {}, Lcom/commsource/widget/h1/c;->j()Lcom/commsource/widget/h1/c;
 
     move-result-object v2
@@ -601,7 +561,6 @@
 
     sget v4, Lcom/res/provider/ResSTRING;->t_ratio_and_color:I
 
-    .line 11
     invoke-static {v4}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v4
@@ -612,41 +571,32 @@
 
     sget v5, Lcom/res/provider/ResSTRING;->t_texture:I
 
-    .line 12
     invoke-static {v5}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v5
 
     aput-object v5, v3, v4
 
-    .line 13
     invoke-static {v3}, Lcotlin/collections/s;->r([Ljava/lang/Object;)Ljava/util/ArrayList;
 
     move-result-object v3
 
-    .line 14
     const-class v4, Lcom/commsource/studio/function/background/a;
 
-    .line 15
     invoke-virtual {v2, v3, v4}, Lcom/commsource/widget/h1/c;->c(Ljava/util/List;Ljava/lang/Class;)Lcom/commsource/widget/h1/c;
 
     move-result-object v2
 
-    .line 16
     invoke-virtual {v2}, Lcom/commsource/widget/h1/c;->i()Ljava/util/List;
 
     move-result-object v2
 
-    .line 17
     invoke-virtual {v1, v2}, Lcom/commsource/widget/h1/e;->Q(Ljava/util/List;)V
 
-    .line 18
     invoke-virtual {v1, p2}, Lcom/commsource/widget/h1/e;->G(I)V
 
-    .line 19
     invoke-virtual {p1, v1}, Landroidx/recyclerview/widget/RecyclerView;->setAdapter(Landroidx/recyclerview/widget/RecyclerView$Adapter;)V
 
-    .line 20
     new-instance v1, Landroidx/recyclerview/widget/LinearLayoutManager;
 
     invoke-virtual {p1}, Landroid/view/ViewGroup;->getContext()Landroid/content/Context;
@@ -657,7 +607,6 @@
 
     invoke-virtual {p1, v1}, Landroidx/recyclerview/widget/RecyclerView;->setLayoutManager(Landroidx/recyclerview/widget/RecyclerView$LayoutManager;)V
 
-    .line 21
     invoke-direct {p0}, Lcom/commsource/studio/function/background/BackgroundFragment;->d0()Lcom/commsource/beautyplus/f0/gb;
 
     move-result-object p1
@@ -672,7 +621,6 @@
 
     invoke-virtual {p1, v1}, Lcom/commsource/widget/LineSelectView;->setItemMargin(F)V
 
-    .line 22
     invoke-direct {p0}, Lcom/commsource/studio/function/background/BackgroundFragment;->d0()Lcom/commsource/beautyplus/f0/gb;
 
     move-result-object p1
@@ -685,7 +633,6 @@
 
     invoke-virtual {p1, p2}, Landroidx/viewpager2/widget/ViewPager2;->setUserInputEnabled(Z)V
 
-    .line 23
     invoke-direct {p0}, Lcom/commsource/studio/function/background/BackgroundFragment;->d0()Lcom/commsource/beautyplus/f0/gb;
 
     move-result-object p1
@@ -700,7 +647,6 @@
 
     invoke-virtual {p1, p2}, Landroidx/viewpager2/widget/ViewPager2;->setAdapter(Landroidx/recyclerview/widget/RecyclerView$Adapter;)V
 
-    .line 24
     invoke-direct {p0}, Lcom/commsource/studio/function/background/BackgroundFragment;->a0()Lcom/commsource/studio/function/background/BackgroundViewModel;
 
     move-result-object p1
@@ -709,20 +655,16 @@
 
     move-result-object p1
 
-    .line 25
     invoke-virtual {p0}, Landroidx/fragment/app/Fragment;->getViewLifecycleOwner()Landroidx/lifecycle/LifecycleOwner;
 
     move-result-object p2
 
-    .line 26
     new-instance v1, Lcom/commsource/studio/function/background/BackgroundFragment$c;
 
     invoke-direct {v1, p0}, Lcom/commsource/studio/function/background/BackgroundFragment$c;-><init>(Lcom/commsource/studio/function/background/BackgroundFragment;)V
 
-    .line 27
     invoke-virtual {p1, p2, v1}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 28
     invoke-direct {p0}, Lcom/commsource/studio/function/background/BackgroundFragment;->a0()Lcom/commsource/studio/function/background/BackgroundViewModel;
 
     move-result-object p1
@@ -731,20 +673,16 @@
 
     move-result-object p1
 
-    .line 29
     invoke-virtual {p0}, Landroidx/fragment/app/Fragment;->getViewLifecycleOwner()Landroidx/lifecycle/LifecycleOwner;
 
     move-result-object p2
 
-    .line 30
     new-instance v1, Lcom/commsource/studio/function/background/BackgroundFragment$d;
 
     invoke-direct {v1, p0}, Lcom/commsource/studio/function/background/BackgroundFragment$d;-><init>(Lcom/commsource/studio/function/background/BackgroundFragment;)V
 
-    .line 31
     invoke-virtual {p1, p2, v1}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 32
     invoke-direct {p0}, Lcom/commsource/studio/function/background/BackgroundFragment;->a0()Lcom/commsource/studio/function/background/BackgroundViewModel;
 
     move-result-object p1
@@ -753,20 +691,16 @@
 
     move-result-object p1
 
-    .line 33
     invoke-virtual {p0}, Landroidx/fragment/app/Fragment;->getViewLifecycleOwner()Landroidx/lifecycle/LifecycleOwner;
 
     move-result-object p2
 
-    .line 34
     new-instance v1, Lcom/commsource/studio/function/background/BackgroundFragment$onViewCreated$6;
 
     invoke-direct {v1, p0}, Lcom/commsource/studio/function/background/BackgroundFragment$onViewCreated$6;-><init>(Lcom/commsource/studio/function/background/BackgroundFragment;)V
 
-    .line 35
     invoke-virtual {p1, p2, v1}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 36
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

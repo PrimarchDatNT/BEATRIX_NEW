@@ -35,7 +35,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/mixlayer/ImageStyleSubFragment$b;->a:Lcom/commsource/studio/mixlayer/ImageStyleSubFragment;
 
     iput-object p2, p0, Lcom/commsource/studio/mixlayer/ImageStyleSubFragment$b;->b:Lcom/commsource/widget/XSeekBar;
@@ -54,7 +53,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p2, p0, Lcom/commsource/studio/mixlayer/ImageStyleSubFragment$b;->a:Lcom/commsource/studio/mixlayer/ImageStyleSubFragment;
 
     invoke-static {p2}, Lcom/commsource/studio/mixlayer/ImageStyleSubFragment;->B(Lcom/commsource/studio/mixlayer/ImageStyleSubFragment;)Lcom/commsource/studio/mixlayer/ImageStyleViewModel;
@@ -69,7 +67,6 @@
 
     invoke-virtual {p2, v0}, Landroidx/lifecycle/MutableLiveData;->setValue(Ljava/lang/Object;)V
 
-    .line 2
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -82,7 +79,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p0, p1, p2, p3}, Lcom/commsource/widget/XSeekBar$b$a;->a(Lcom/commsource/widget/XSeekBar$b;IFZ)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -99,17 +95,14 @@
 
     if-eqz p3, :cond_0
 
-    .line 1
     iget-object p3, p0, Lcom/commsource/studio/mixlayer/ImageStyleSubFragment$b;->a:Lcom/commsource/studio/mixlayer/ImageStyleSubFragment;
 
     invoke-static {p3}, Lcom/commsource/studio/mixlayer/ImageStyleSubFragment;->B(Lcom/commsource/studio/mixlayer/ImageStyleSubFragment;)Lcom/commsource/studio/mixlayer/ImageStyleViewModel;
 
     move-result-object p3
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/mixlayer/ImageStyleSubFragment$b;->b:Lcom/commsource/widget/XSeekBar;
 
-    .line 3
     iget-object v2, p0, Lcom/commsource/studio/mixlayer/ImageStyleSubFragment$b;->a:Lcom/commsource/studio/mixlayer/ImageStyleSubFragment;
 
     invoke-static {v2}, Lcom/commsource/studio/mixlayer/ImageStyleSubFragment;->D(Lcom/commsource/studio/mixlayer/ImageStyleSubFragment;)Lcom/commsource/beautyplus/f0/u8;
@@ -128,10 +121,8 @@
 
     int-to-float v2, v2
 
-    .line 4
     invoke-virtual {p3, v1, p2, v2}, Lcom/commsource/studio/mixlayer/ImageStyleViewModel;->H(Lcom/commsource/widget/XSeekBar;FF)V
 
-    .line 5
     iget-object v3, p0, Lcom/commsource/studio/mixlayer/ImageStyleSubFragment$b;->a:Lcom/commsource/studio/mixlayer/ImageStyleSubFragment;
 
     iget-object p2, p0, Lcom/commsource/studio/mixlayer/ImageStyleSubFragment$b;->b:Lcom/commsource/widget/XSeekBar;
@@ -150,7 +141,6 @@
 
     invoke-static/range {v3 .. v8}, Lcom/commsource/studio/mixlayer/ImageStyleSubFragment;->d0(Lcom/commsource/studio/mixlayer/ImageStyleSubFragment;IIZILjava/lang/Object;)V
 
-    .line 6
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -166,7 +156,6 @@
 
     if-eqz p3, :cond_0
 
-    .line 1
     iget-object p3, p0, Lcom/commsource/studio/mixlayer/ImageStyleSubFragment$b;->a:Lcom/commsource/studio/mixlayer/ImageStyleSubFragment;
 
     invoke-static {p3}, Lcom/commsource/studio/mixlayer/ImageStyleSubFragment;->B(Lcom/commsource/studio/mixlayer/ImageStyleSubFragment;)Lcom/commsource/studio/mixlayer/ImageStyleViewModel;
@@ -185,7 +174,6 @@
 
     invoke-static/range {v0 .. v5}, Lcom/commsource/studio/mixlayer/ImageStyleViewModel;->I(Lcom/commsource/studio/mixlayer/ImageStyleViewModel;Lcom/commsource/widget/XSeekBar;FFILjava/lang/Object;)V
 
-    .line 2
     iget-object p3, p0, Lcom/commsource/studio/mixlayer/ImageStyleSubFragment$b;->a:Lcom/commsource/studio/mixlayer/ImageStyleSubFragment;
 
     iget-object v0, p0, Lcom/commsource/studio/mixlayer/ImageStyleSubFragment$b;->b:Lcom/commsource/widget/XSeekBar;
@@ -198,7 +186,6 @@
 
     invoke-static {p3, v0, p1, v1}, Lcom/commsource/studio/mixlayer/ImageStyleSubFragment;->H(Lcom/commsource/studio/mixlayer/ImageStyleSubFragment;IIZ)V
 
-    .line 3
     iget-object p3, p0, Lcom/commsource/studio/mixlayer/ImageStyleSubFragment$b;->a:Lcom/commsource/studio/mixlayer/ImageStyleSubFragment;
 
     invoke-static {p3}, Lcom/commsource/studio/mixlayer/ImageStyleSubFragment;->B(Lcom/commsource/studio/mixlayer/ImageStyleSubFragment;)Lcom/commsource/studio/mixlayer/ImageStyleViewModel;
@@ -215,7 +202,6 @@
 
     invoke-virtual {p3, v0, p1}, Lcom/commsource/studio/mixlayer/ImageStyleViewModel;->l0(II)V
 
-    .line 4
     :cond_0
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

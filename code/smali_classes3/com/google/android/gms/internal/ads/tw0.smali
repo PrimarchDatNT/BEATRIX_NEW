@@ -26,10 +26,8 @@
 .method public final apply(Ljava/lang/Object;)Ljava/lang/Object;
     .locals 0
 
-    .line 1
     iget-object p1, p0, Lcom/google/android/gms/internal/ads/tw0;->a:Lcom/google/android/gms/internal/ads/h10;
 
-    .line 2
     invoke-virtual {p1}, Lcom/google/android/gms/internal/ads/h10;->h()Lcom/google/android/gms/internal/ads/t10;
 
     move-result-object p1

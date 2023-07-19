@@ -42,7 +42,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/component/PaintEraserComponent$d;->a:Lcom/commsource/studio/component/PaintEraserComponent;
 
     invoke-virtual {v1}, Lcom/commsource/studio/component/PaintEraserComponent;->getViewBinding()Lcom/commsource/beautyplus/f0/e2;
@@ -63,12 +62,10 @@
 
     invoke-virtual {v1, v2}, Landroid/widget/TextView;->setTranslationX(F)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/component/PaintEraserComponent$d;->a:Lcom/commsource/studio/component/PaintEraserComponent;
 
     invoke-virtual {v1}, Lcom/commsource/studio/component/PaintEraserComponent;->j()V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

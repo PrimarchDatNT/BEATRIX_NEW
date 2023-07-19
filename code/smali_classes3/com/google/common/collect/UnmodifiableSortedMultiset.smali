@@ -53,7 +53,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/google/common/collect/Multisets$UnmodifiableMultiset;-><init>(Lcom/google/common/collect/m1;)V
 
     return-void
@@ -71,7 +70,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/collect/UnmodifiableSortedMultiset;->delegate()Lcom/google/common/collect/b2;
 
     move-result-object v0
@@ -93,7 +91,6 @@
         }
     .end annotation
 
-    .line 2
     invoke-virtual {p0}, Lcom/google/common/collect/UnmodifiableSortedMultiset;->delegate()Lcom/google/common/collect/b2;
 
     move-result-object v0
@@ -112,7 +109,6 @@
 .method bridge synthetic createElementSet()Ljava/util/Set;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/collect/UnmodifiableSortedMultiset;->createElementSet()Ljava/util/NavigableSet;
 
     move-result-object v0
@@ -130,7 +126,6 @@
         }
     .end annotation
 
-    .line 4
     invoke-super {p0}, Lcom/google/common/collect/Multisets$UnmodifiableMultiset;->delegate()Lcom/google/common/collect/m1;
 
     move-result-object v0
@@ -143,7 +138,6 @@
 .method protected bridge synthetic delegate()Lcom/google/common/collect/m1;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/collect/UnmodifiableSortedMultiset;->delegate()Lcom/google/common/collect/b2;
 
     move-result-object v0
@@ -154,7 +148,6 @@
 .method protected bridge synthetic delegate()Ljava/lang/Object;
     .locals 1
 
-    .line 2
     invoke-virtual {p0}, Lcom/google/common/collect/UnmodifiableSortedMultiset;->delegate()Lcom/google/common/collect/b2;
 
     move-result-object v0
@@ -165,7 +158,6 @@
 .method protected bridge synthetic delegate()Ljava/util/Collection;
     .locals 1
 
-    .line 3
     invoke-virtual {p0}, Lcom/google/common/collect/UnmodifiableSortedMultiset;->delegate()Lcom/google/common/collect/b2;
 
     move-result-object v0
@@ -183,12 +175,10 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/UnmodifiableSortedMultiset;->descendingMultiset:Lcom/google/common/collect/UnmodifiableSortedMultiset;
 
     if-nez v0, :cond_0
 
-    .line 2
     new-instance v0, Lcom/google/common/collect/UnmodifiableSortedMultiset;
 
     invoke-virtual {p0}, Lcom/google/common/collect/UnmodifiableSortedMultiset;->delegate()Lcom/google/common/collect/b2;
@@ -201,10 +191,8 @@
 
     invoke-direct {v0, v1}, Lcom/google/common/collect/UnmodifiableSortedMultiset;-><init>(Lcom/google/common/collect/b2;)V
 
-    .line 3
     iput-object p0, v0, Lcom/google/common/collect/UnmodifiableSortedMultiset;->descendingMultiset:Lcom/google/common/collect/UnmodifiableSortedMultiset;
 
-    .line 4
     iput-object v0, p0, Lcom/google/common/collect/UnmodifiableSortedMultiset;->descendingMultiset:Lcom/google/common/collect/UnmodifiableSortedMultiset;
 
     :cond_0
@@ -221,7 +209,6 @@
         }
     .end annotation
 
-    .line 3
     invoke-super {p0}, Lcom/google/common/collect/Multisets$UnmodifiableMultiset;->elementSet()Ljava/util/Set;
 
     move-result-object v0
@@ -234,7 +221,6 @@
 .method public bridge synthetic elementSet()Ljava/util/Set;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/collect/UnmodifiableSortedMultiset;->elementSet()Ljava/util/NavigableSet;
 
     move-result-object v0
@@ -245,7 +231,6 @@
 .method public bridge synthetic elementSet()Ljava/util/SortedSet;
     .locals 1
 
-    .line 2
     invoke-virtual {p0}, Lcom/google/common/collect/UnmodifiableSortedMultiset;->elementSet()Ljava/util/NavigableSet;
 
     move-result-object v0
@@ -263,7 +248,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/collect/UnmodifiableSortedMultiset;->delegate()Lcom/google/common/collect/b2;
 
     move-result-object v0
@@ -287,7 +271,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/collect/UnmodifiableSortedMultiset;->delegate()Lcom/google/common/collect/b2;
 
     move-result-object v0
@@ -313,7 +296,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/collect/UnmodifiableSortedMultiset;->delegate()Lcom/google/common/collect/b2;
 
     move-result-object v0
@@ -335,7 +317,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/lang/UnsupportedOperationException;
 
     invoke-direct {v0}, Ljava/lang/UnsupportedOperationException;-><init>()V
@@ -353,7 +334,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/lang/UnsupportedOperationException;
 
     invoke-direct {v0}, Ljava/lang/UnsupportedOperationException;-><init>()V
@@ -375,7 +355,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/collect/UnmodifiableSortedMultiset;->delegate()Lcom/google/common/collect/b2;
 
     move-result-object v0
@@ -384,7 +363,6 @@
 
     move-result-object p1
 
-    .line 2
     invoke-static {p1}, Lcom/google/common/collect/Multisets;->B(Lcom/google/common/collect/b2;)Lcom/google/common/collect/b2;
 
     move-result-object p1
@@ -404,7 +382,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/collect/UnmodifiableSortedMultiset;->delegate()Lcom/google/common/collect/b2;
 
     move-result-object v0

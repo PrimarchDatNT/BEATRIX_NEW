@@ -21,7 +21,6 @@
 .method public constructor <init>(Lcom/bumptech/glide/integration/webp/decoder/k;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/bumptech/glide/load/l/e/b;-><init>(Landroid/graphics/drawable/Drawable;)V
 
     return-void
@@ -32,7 +31,6 @@
 .method public a()I
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/bumptech/glide/load/l/e/b;->a:Landroid/graphics/drawable/Drawable;
 
     check-cast v0, Lcom/bumptech/glide/integration/webp/decoder/k;
@@ -47,14 +45,12 @@
 .method public b()V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/bumptech/glide/load/l/e/b;->a:Landroid/graphics/drawable/Drawable;
 
     check-cast v0, Lcom/bumptech/glide/integration/webp/decoder/k;
 
     invoke-virtual {v0}, Lcom/bumptech/glide/integration/webp/decoder/k;->stop()V
 
-    .line 2
     iget-object v0, p0, Lcom/bumptech/glide/load/l/e/b;->a:Landroid/graphics/drawable/Drawable;
 
     check-cast v0, Lcom/bumptech/glide/integration/webp/decoder/k;
@@ -75,7 +71,6 @@
         }
     .end annotation
 
-    .line 1
     const-class v0, Lcom/bumptech/glide/integration/webp/decoder/k;
 
     return-object v0
@@ -84,7 +79,6 @@
 .method public initialize()V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/bumptech/glide/load/l/e/b;->a:Landroid/graphics/drawable/Drawable;
 
     check-cast v0, Lcom/bumptech/glide/integration/webp/decoder/k;

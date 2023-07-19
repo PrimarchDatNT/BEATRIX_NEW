@@ -42,7 +42,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -69,7 +68,6 @@
 
     invoke-static {p2, v0, p3}, Lcom/commsource/util/l0;->K(Ljava/lang/String;Ljava/lang/String;Lcom/meitu/library/util/Debug/Debug$DebugLevel;)V
 
-    .line 2
     iget-object p2, p0, Lcom/commsource/video/decoder/SysMediaPlayer$onErrorListener$2$a;->a:Lcom/commsource/video/decoder/SysMediaPlayer$onErrorListener$2;
 
     iget-object p2, p2, Lcom/commsource/video/decoder/SysMediaPlayer$onErrorListener$2;->this$0:Lcom/commsource/video/decoder/SysMediaPlayer;
@@ -78,14 +76,12 @@
 
     invoke-virtual {p2, p3}, Lcom/commsource/video/decoder/a;->I(I)V
 
-    .line 3
     iget-object p2, p0, Lcom/commsource/video/decoder/SysMediaPlayer$onErrorListener$2$a;->a:Lcom/commsource/video/decoder/SysMediaPlayer$onErrorListener$2;
 
     iget-object p2, p2, Lcom/commsource/video/decoder/SysMediaPlayer$onErrorListener$2;->this$0:Lcom/commsource/video/decoder/SysMediaPlayer;
 
     invoke-virtual {p2, p3}, Lcom/commsource/video/decoder/SysMediaPlayer;->e0(I)V
 
-    .line 4
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const/4 p1, 0x1

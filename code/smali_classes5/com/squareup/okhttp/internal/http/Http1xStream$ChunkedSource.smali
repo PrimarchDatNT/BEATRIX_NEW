@@ -37,7 +37,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/squareup/okhttp/internal/http/Http1xStream$ChunkedSource;->this$0:Lcom/squareup/okhttp/internal/http/Http1xStream;
 
     const/4 v0, 0x0
@@ -46,15 +45,12 @@
 
     const-wide/16 v0, -0x1
 
-    .line 2
     iput-wide v0, p0, Lcom/squareup/okhttp/internal/http/Http1xStream$ChunkedSource;->bytesRemainingInChunk:J
 
     const/4 p1, 0x1
 
-    .line 3
     iput-boolean p1, p0, Lcom/squareup/okhttp/internal/http/Http1xStream$ChunkedSource;->hasMoreChunks:Z
 
-    .line 4
     iput-object p2, p0, Lcom/squareup/okhttp/internal/http/Http1xStream$ChunkedSource;->httpEngine:Lcom/squareup/okhttp/internal/http/HttpEngine;
 
     return-void
@@ -68,7 +64,6 @@
         }
     .end annotation
 
-    .line 1
     iget-wide v0, p0, Lcom/squareup/okhttp/internal/http/Http1xStream$ChunkedSource;->bytesRemainingInChunk:J
 
     const-wide/16 v2, -0x1
@@ -77,7 +72,6 @@
 
     if-eqz v4, :cond_0
 
-    .line 2
     iget-object v0, p0, Lcom/squareup/okhttp/internal/http/Http1xStream$ChunkedSource;->this$0:Lcom/squareup/okhttp/internal/http/Http1xStream;
 
     invoke-static {v0}, Lcom/squareup/okhttp/internal/http/Http1xStream;->access$600(Lcom/squareup/okhttp/internal/http/Http1xStream;)Lokio/BufferedSource;
@@ -86,7 +80,6 @@
 
     invoke-interface {v0}, Lokio/BufferedSource;->readUtf8LineStrict()Ljava/lang/String;
 
-    .line 3
     :cond_0
     :try_start_0
     iget-object v0, p0, Lcom/squareup/okhttp/internal/http/Http1xStream$ChunkedSource;->this$0:Lcom/squareup/okhttp/internal/http/Http1xStream;
@@ -101,7 +94,6 @@
 
     iput-wide v0, p0, Lcom/squareup/okhttp/internal/http/Http1xStream$ChunkedSource;->bytesRemainingInChunk:J
 
-    .line 4
     iget-object v0, p0, Lcom/squareup/okhttp/internal/http/Http1xStream$ChunkedSource;->this$0:Lcom/squareup/okhttp/internal/http/Http1xStream;
 
     invoke-static {v0}, Lcom/squareup/okhttp/internal/http/Http1xStream;->access$600(Lcom/squareup/okhttp/internal/http/Http1xStream;)Lokio/BufferedSource;
@@ -116,7 +108,6 @@
 
     move-result-object v0
 
-    .line 5
     iget-wide v1, p0, Lcom/squareup/okhttp/internal/http/Http1xStream$ChunkedSource;->bytesRemainingInChunk:J
 
     const-wide/16 v3, 0x0
@@ -141,7 +132,6 @@
 
     if-eqz v1, :cond_3
 
-    .line 6
     :cond_1
     iget-wide v0, p0, Lcom/squareup/okhttp/internal/http/Http1xStream$ChunkedSource;->bytesRemainingInChunk:J
 
@@ -151,10 +141,8 @@
 
     const/4 v0, 0x0
 
-    .line 7
     iput-boolean v0, p0, Lcom/squareup/okhttp/internal/http/Http1xStream$ChunkedSource;->hasMoreChunks:Z
 
-    .line 8
     iget-object v0, p0, Lcom/squareup/okhttp/internal/http/Http1xStream$ChunkedSource;->httpEngine:Lcom/squareup/okhttp/internal/http/HttpEngine;
 
     iget-object v1, p0, Lcom/squareup/okhttp/internal/http/Http1xStream$ChunkedSource;->this$0:Lcom/squareup/okhttp/internal/http/Http1xStream;
@@ -165,13 +153,11 @@
 
     invoke-virtual {v0, v1}, Lcom/squareup/okhttp/internal/http/HttpEngine;->receiveHeaders(Lcom/squareup/okhttp/Headers;)V
 
-    .line 9
     invoke-virtual {p0}, Lcom/squareup/okhttp/internal/http/Http1xStream$AbstractSource;->endOfInput()V
 
     :cond_2
     return-void
 
-    .line 10
     :cond_3
     :try_start_1
     new-instance v1, Ljava/net/ProtocolException;
@@ -207,7 +193,6 @@
     :catch_0
     move-exception v0
 
-    .line 11
     new-instance v1, Ljava/net/ProtocolException;
 
     invoke-virtual {v0}, Ljava/lang/NumberFormatException;->getMessage()Ljava/lang/String;
@@ -229,14 +214,12 @@
         }
     .end annotation
 
-    .line 1
     iget-boolean v0, p0, Lcom/squareup/okhttp/internal/http/Http1xStream$AbstractSource;->closed:Z
 
     if-eqz v0, :cond_0
 
     return-void
 
-    .line 2
     :cond_0
     iget-boolean v0, p0, Lcom/squareup/okhttp/internal/http/Http1xStream$ChunkedSource;->hasMoreChunks:Z
 
@@ -252,13 +235,11 @@
 
     if-nez v0, :cond_1
 
-    .line 3
     invoke-virtual {p0}, Lcom/squareup/okhttp/internal/http/Http1xStream$AbstractSource;->unexpectedEndOfInput()V
 
     :cond_1
     const/4 v0, 0x1
 
-    .line 4
     iput-boolean v0, p0, Lcom/squareup/okhttp/internal/http/Http1xStream$AbstractSource;->closed:Z
 
     return-void
@@ -278,12 +259,10 @@
 
     if-ltz v2, :cond_5
 
-    .line 1
     iget-boolean v2, p0, Lcom/squareup/okhttp/internal/http/Http1xStream$AbstractSource;->closed:Z
 
     if-nez v2, :cond_4
 
-    .line 2
     iget-boolean v2, p0, Lcom/squareup/okhttp/internal/http/Http1xStream$ChunkedSource;->hasMoreChunks:Z
 
     const-wide/16 v3, -0x1
@@ -292,7 +271,6 @@
 
     return-wide v3
 
-    .line 3
     :cond_0
     iget-wide v5, p0, Lcom/squareup/okhttp/internal/http/Http1xStream$ChunkedSource;->bytesRemainingInChunk:J
 
@@ -304,18 +282,15 @@
 
     if-nez v0, :cond_2
 
-    .line 4
     :cond_1
     invoke-direct {p0}, Lcom/squareup/okhttp/internal/http/Http1xStream$ChunkedSource;->readChunkSize()V
 
-    .line 5
     iget-boolean v0, p0, Lcom/squareup/okhttp/internal/http/Http1xStream$ChunkedSource;->hasMoreChunks:Z
 
     if-nez v0, :cond_2
 
     return-wide v3
 
-    .line 6
     :cond_2
     iget-object v0, p0, Lcom/squareup/okhttp/internal/http/Http1xStream$ChunkedSource;->this$0:Lcom/squareup/okhttp/internal/http/Http1xStream;
 
@@ -337,7 +312,6 @@
 
     if-eqz p3, :cond_3
 
-    .line 7
     iget-wide v0, p0, Lcom/squareup/okhttp/internal/http/Http1xStream$ChunkedSource;->bytesRemainingInChunk:J
 
     sub-long/2addr v0, p1
@@ -346,11 +320,9 @@
 
     return-wide p1
 
-    .line 8
     :cond_3
     invoke-virtual {p0}, Lcom/squareup/okhttp/internal/http/Http1xStream$AbstractSource;->unexpectedEndOfInput()V
 
-    .line 9
     new-instance p1, Ljava/net/ProtocolException;
 
     const-string p2, "unexpected end of stream"
@@ -359,7 +331,6 @@
 
     throw p1
 
-    .line 10
     :cond_4
     new-instance p1, Ljava/lang/IllegalStateException;
 
@@ -369,7 +340,6 @@
 
     throw p1
 
-    .line 11
     :cond_5
     new-instance p1, Ljava/lang/IllegalArgumentException;
 

@@ -69,7 +69,6 @@
 
     const/high16 v1, 0x43200000    # 160.0f
 
-    .line 1
     invoke-static {v1}, Lcom/meitu/library/p/f/i;->d(F)I
 
     move-result v1
@@ -78,7 +77,6 @@
 
     const/4 v1, 0x0
 
-    .line 2
     sput v1, Lcom/commsource/camera/mvp/c;->w:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -89,7 +87,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -102,7 +99,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/meitu/library/p/f/i;->V()Z
 
     move-result v1
@@ -111,7 +107,6 @@
 
     const/high16 v1, 0x42cc0000    # 102.0f
 
-    .line 2
     invoke-static {v1}, Lcom/meitu/library/p/f/i;->d(F)I
 
     move-result v1
@@ -120,7 +115,6 @@
 
     return v1
 
-    .line 3
     :cond_0
     invoke-static {}, Lcom/meitu/library/p/f/i;->P()Z
 
@@ -130,7 +124,6 @@
 
     const/high16 v1, 0x42b20000    # 89.0f
 
-    .line 4
     invoke-static {v1}, Lcom/meitu/library/p/f/i;->d(F)I
 
     move-result v1
@@ -142,7 +135,6 @@
     :cond_1
     const/high16 v1, 0x42580000    # 54.0f
 
-    .line 5
     invoke-static {v1}, Lcom/meitu/library/p/f/i;->d(F)I
 
     move-result v1
@@ -159,7 +151,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget v1, Lcom/commsource/camera/mvp/c;->w:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -174,10 +165,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sput p0, Lcom/commsource/camera/mvp/c;->w:I
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

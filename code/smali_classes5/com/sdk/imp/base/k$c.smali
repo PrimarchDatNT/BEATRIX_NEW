@@ -45,20 +45,16 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     sget-object v0, Lcom/sdk/imp/base/UrlAction;->NOOP:Lcom/sdk/imp/base/UrlAction;
 
-    .line 3
     invoke-static {v0}, Ljava/util/EnumSet;->of(Ljava/lang/Enum;)Ljava/util/EnumSet;
 
     move-result-object v0
 
     iput-object v0, p0, Lcom/sdk/imp/base/k$c;->a:Ljava/util/EnumSet;
 
-    .line 4
     invoke-static {}, Lcom/sdk/imp/base/k;->a()Lcom/sdk/imp/base/k$d;
 
     move-result-object v0
@@ -67,7 +63,6 @@
 
     const/4 v0, 0x0
 
-    .line 5
     iput-boolean v0, p0, Lcom/sdk/imp/base/k$c;->d:Z
 
     return-void
@@ -78,7 +73,6 @@
 .method public a()Lcom/sdk/imp/base/k;
     .locals 7
 
-    .line 1
     new-instance v6, Lcom/sdk/imp/base/k;
 
     iget-object v1, p0, Lcom/sdk/imp/base/k$c;->a:Ljava/util/EnumSet;
@@ -105,7 +99,6 @@
         .end annotation
     .end param
 
-    .line 1
     iput-object p1, p0, Lcom/sdk/imp/base/k$c;->b:Lcom/sdk/imp/base/k$d;
 
     return-object p0
@@ -122,7 +115,6 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-static {p1, p2}, Ljava/util/EnumSet;->of(Ljava/lang/Enum;[Ljava/lang/Enum;)Ljava/util/EnumSet;
 
     move-result-object p1
@@ -148,7 +140,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p1}, Ljava/util/EnumSet;->copyOf(Ljava/util/EnumSet;)Ljava/util/EnumSet;
 
     move-result-object p1
@@ -165,7 +156,6 @@
         .end annotation
     .end param
 
-    .line 1
     iput-object p1, p0, Lcom/sdk/imp/base/k$c;->c:Lcom/sdk/imp/base/k$e;
 
     return-object p0

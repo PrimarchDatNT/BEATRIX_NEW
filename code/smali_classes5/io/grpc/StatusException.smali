@@ -21,7 +21,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-direct {p0, p1, v0}, Lio/grpc/StatusException;-><init>(Lio/grpc/Status;Lio/grpc/y0;)V
 
     return-void
@@ -36,7 +35,6 @@
 
     const/4 v0, 0x1
 
-    .line 2
     invoke-direct {p0, p1, p2, v0}, Lio/grpc/StatusException;-><init>(Lio/grpc/Status;Lio/grpc/y0;Z)V
 
     return-void
@@ -49,7 +47,6 @@
         .end annotation
     .end param
 
-    .line 3
     invoke-static {p1}, Lio/grpc/Status;->i(Lio/grpc/Status;)Ljava/lang/String;
 
     move-result-object v0
@@ -60,16 +57,12 @@
 
     invoke-direct {p0, v0, v1}, Ljava/lang/Exception;-><init>(Ljava/lang/String;Ljava/lang/Throwable;)V
 
-    .line 4
     iput-object p1, p0, Lio/grpc/StatusException;->status:Lio/grpc/Status;
 
-    .line 5
     iput-object p2, p0, Lio/grpc/StatusException;->trailers:Lio/grpc/y0;
 
-    .line 6
     iput-boolean p3, p0, Lio/grpc/StatusException;->fillInStackTrace:Z
 
-    .line 7
     invoke-virtual {p0}, Lio/grpc/StatusException;->fillInStackTrace()Ljava/lang/Throwable;
 
     return-void
@@ -82,7 +75,6 @@
 
     monitor-enter p0
 
-    .line 1
     :try_start_0
     iget-boolean v0, p0, Lio/grpc/StatusException;->fillInStackTrace:Z
 
@@ -115,7 +107,6 @@
 .method public final getStatus()Lio/grpc/Status;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lio/grpc/StatusException;->status:Lio/grpc/Status;
 
     return-object v0
@@ -124,7 +115,6 @@
 .method public final getTrailers()Lio/grpc/y0;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lio/grpc/StatusException;->trailers:Lio/grpc/y0;
 
     return-object v0

@@ -30,7 +30,6 @@
 .method constructor <init>(Lcom/meitu/library/analytics/sdk/content/f$f;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/library/analytics/sdk/content/f$f$d;->c:Lcom/meitu/library/analytics/sdk/content/f$f;
 
     invoke-direct {p0}, Lcom/meitu/library/analytics/y/l/i;-><init>()V

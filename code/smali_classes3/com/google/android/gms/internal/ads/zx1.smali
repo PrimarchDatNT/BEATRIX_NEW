@@ -9,7 +9,6 @@
 
     if-ltz p3, :cond_1
 
-    .line 1
     invoke-virtual {p1}, Ljava/nio/ByteBuffer;->remaining()I
 
     move-result v0
@@ -33,7 +32,6 @@
     :goto_0
     if-ge v0, p3, :cond_0
 
-    .line 2
     invoke-virtual {p1}, Ljava/nio/ByteBuffer;->get()B
 
     move-result v1
@@ -55,7 +53,6 @@
     :cond_0
     return-void
 
-    .line 3
     :cond_1
     new-instance p0, Ljava/lang/IllegalArgumentException;
 
@@ -71,7 +68,6 @@
 
     if-ltz p4, :cond_1
 
-    .line 1
     array-length v0, p0
 
     sub-int/2addr v0, p4
@@ -84,7 +80,6 @@
 
     if-lt v0, p3, :cond_1
 
-    .line 2
     new-array v0, p4, [B
 
     const/4 v1, 0x0
@@ -94,7 +89,6 @@
 
     add-int v2, v1, p1
 
-    .line 3
     aget-byte v2, p0, v2
 
     add-int v3, v1, p3
@@ -114,7 +108,6 @@
     :cond_0
     return-object v0
 
-    .line 4
     :cond_1
     new-instance p0, Ljava/lang/IllegalArgumentException;
 
@@ -133,7 +126,6 @@
         }
     .end annotation
 
-    .line 1
     array-length v0, p0
 
     const/4 v1, 0x0
@@ -149,14 +141,12 @@
 
     const v5, 0x7fffffff
 
-    .line 2
     array-length v6, v4
 
     sub-int/2addr v5, v6
 
     if-gt v3, v5, :cond_0
 
-    .line 3
     array-length v4, v4
 
     add-int/2addr v3, v4
@@ -165,7 +155,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_0
     new-instance p0, Ljava/security/GeneralSecurityException;
 
@@ -175,11 +164,9 @@
 
     throw p0
 
-    .line 5
     :cond_1
     new-array v0, v3, [B
 
-    .line 6
     array-length v2, p0
 
     const/4 v3, 0x0
@@ -191,12 +178,10 @@
 
     aget-object v5, p0, v3
 
-    .line 7
     array-length v6, v5
 
     invoke-static {v5, v1, v0, v4, v6}, Ljava/lang/System;->arraycopy(Ljava/lang/Object;ILjava/lang/Object;II)V
 
-    .line 8
     array-length v5, v5
 
     add-int/2addr v4, v5
@@ -212,14 +197,12 @@
 .method public static final d([B[B)[B
     .locals 2
 
-    .line 1
     array-length v0, p0
 
     array-length v1, p1
 
     if-ne v0, v1, :cond_0
 
-    .line 2
     array-length v0, p0
 
     const/4 v1, 0x0
@@ -230,7 +213,6 @@
 
     return-object p0
 
-    .line 3
     :cond_0
     new-instance p0, Ljava/lang/IllegalArgumentException;
 

@@ -26,7 +26,6 @@
 .method constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/ThreadLocal;-><init>()V
 
     return-void
@@ -40,7 +39,6 @@
     :try_start_0
     const-string v0, "MD5"
 
-    .line 1
     invoke-static {v0}, Ljava/security/MessageDigest;->getInstance(Ljava/lang/String;)Ljava/security/MessageDigest;
 
     move-result-object v0
@@ -52,7 +50,6 @@
     :catch_0
     move-exception v0
 
-    .line 2
     new-instance v1, Ljava/lang/RuntimeException;
 
     const-string v2, "Initialize MD5 failed."
@@ -65,7 +62,6 @@
 .method protected bridge synthetic initialValue()Ljava/lang/Object;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/tencent/matrix/util/c$a;->a()Ljava/security/MessageDigest;
 
     move-result-object v0

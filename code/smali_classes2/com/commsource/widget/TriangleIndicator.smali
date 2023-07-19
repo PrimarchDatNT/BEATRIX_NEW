@@ -55,7 +55,6 @@
 
     const/high16 v1, 0x40800000    # 4.0f
 
-    .line 1
     invoke-static {v1}, Lcom/meitu/library/p/f/i;->b(F)F
 
     move-result v1
@@ -140,10 +139,8 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 2
     invoke-direct {p0, p1, p2, p3}, Landroid/view/View;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
-    .line 3
     sget-object p1, Lcom/commsource/widget/TriangleIndicator$paint$2;->INSTANCE:Lcom/commsource/widget/TriangleIndicator$paint$2;
 
     invoke-static {p1}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
@@ -152,7 +149,6 @@
 
     iput-object p1, p0, Lcom/commsource/widget/TriangleIndicator;->a:Lcotlin/w;
 
-    .line 4
     new-instance p1, Landroid/graphics/Path;
 
     invoke-direct {p1}, Landroid/graphics/Path;-><init>()V
@@ -178,7 +174,6 @@
 
     const/4 p3, 0x0
 
-    .line 1
     :cond_1
     invoke-direct {p0, p1, p2, p3}, Lcom/commsource/widget/TriangleIndicator;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
@@ -192,7 +187,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget v1, Lcom/commsource/widget/TriangleIndicator;->g:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -278,7 +272,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/widget/TriangleIndicator;->d:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -293,7 +286,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/widget/TriangleIndicator;->c:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -332,7 +324,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/widget/TriangleIndicator;->b:Landroid/graphics/Path;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -351,12 +342,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0, p1}, Landroid/view/View;->onDraw(Landroid/graphics/Canvas;)V
 
     if-eqz p1, :cond_0
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/widget/TriangleIndicator;->b:Landroid/graphics/Path;
 
     invoke-virtual {p0}, Lcom/commsource/widget/TriangleIndicator;->getPaint()Landroid/graphics/Paint;
@@ -365,7 +354,6 @@
 
     invoke-virtual {p1, v1, v2}, Landroid/graphics/Canvas;->drawPath(Landroid/graphics/Path;Landroid/graphics/Paint;)V
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -379,16 +367,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0, p1, p2, p3, p4}, Landroid/view/View;->onSizeChanged(IIII)V
 
-    .line 2
     iput p1, p0, Lcom/commsource/widget/TriangleIndicator;->c:I
 
-    .line 3
     iput p2, p0, Lcom/commsource/widget/TriangleIndicator;->d:I
 
-    .line 4
     iget-object p1, p0, Lcom/commsource/widget/TriangleIndicator;->b:Landroid/graphics/Path;
 
     int-to-float p2, p2
@@ -397,7 +381,6 @@
 
     invoke-virtual {p1, p3, p2}, Landroid/graphics/Path;->moveTo(FF)V
 
-    .line 5
     iget-object p1, p0, Lcom/commsource/widget/TriangleIndicator;->b:Landroid/graphics/Path;
 
     iget p2, p0, Lcom/commsource/widget/TriangleIndicator;->c:I
@@ -422,7 +405,6 @@
 
     invoke-virtual {p1, p2, v2}, Landroid/graphics/Path;->lineTo(FF)V
 
-    .line 6
     iget-object p1, p0, Lcom/commsource/widget/TriangleIndicator;->b:Landroid/graphics/Path;
 
     iget p2, p0, Lcom/commsource/widget/TriangleIndicator;->c:I
@@ -447,7 +429,6 @@
 
     invoke-virtual {p1, v2, p3, p2, p4}, Landroid/graphics/Path;->quadTo(FFFF)V
 
-    .line 7
     iget-object p1, p0, Lcom/commsource/widget/TriangleIndicator;->b:Landroid/graphics/Path;
 
     iget p2, p0, Lcom/commsource/widget/TriangleIndicator;->c:I
@@ -460,12 +441,10 @@
 
     invoke-virtual {p1, p2, p3}, Landroid/graphics/Path;->lineTo(FF)V
 
-    .line 8
     iget-object p1, p0, Lcom/commsource/widget/TriangleIndicator;->b:Landroid/graphics/Path;
 
     invoke-virtual {p1}, Landroid/graphics/Path;->close()V
 
-    .line 9
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -478,7 +457,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/widget/TriangleIndicator;->d:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -493,7 +471,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/widget/TriangleIndicator;->c:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

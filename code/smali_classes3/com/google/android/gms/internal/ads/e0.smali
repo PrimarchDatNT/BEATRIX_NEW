@@ -23,7 +23,6 @@
 
     goto :goto_0
 
-    .line 1
     :cond_0
     iget-boolean v1, p0, Lcom/google/android/gms/internal/ads/j0;->a:Z
 
@@ -33,7 +32,6 @@
 
     goto :goto_0
 
-    .line 2
     :cond_1
     invoke-static {}, Lcom/google/android/gms/ads/internal/p;->j()Lcom/google/android/gms/common/util/g;
 
@@ -69,7 +67,6 @@
 
     return-object p0
 
-    .line 1
     :cond_0
     invoke-static {}, Lcom/google/android/gms/ads/internal/p;->j()Lcom/google/android/gms/common/util/g;
 

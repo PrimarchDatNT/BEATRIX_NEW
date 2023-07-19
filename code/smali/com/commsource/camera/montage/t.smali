@@ -29,7 +29,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/camera/xcamera/cover/bottomFunction/a;-><init>()V
 
     return-void
@@ -42,7 +41,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/camera/montage/t;->J:Lcom/commsource/camera/montage/x;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -57,7 +55,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/camera/montage/t;->d:Lcom/commsource/beautyplus/f0/i9;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -72,7 +69,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/montage/t;->d:Lcom/commsource/beautyplus/f0/i9;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/i9;->a:Landroidx/recyclerview/widget/RecyclerView;
@@ -83,7 +79,6 @@
 
     if-nez v1, :cond_0
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/camera/montage/t;->d:Lcom/commsource/beautyplus/f0/i9;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/i9;->a:Landroidx/recyclerview/widget/RecyclerView;
@@ -92,7 +87,6 @@
 
     invoke-virtual {v1, v2}, Landroidx/recyclerview/widget/RecyclerView;->setAdapter(Landroidx/recyclerview/widget/RecyclerView$Adapter;)V
 
-    .line 3
     :cond_0
     iget-object v1, p0, Lcom/commsource/camera/montage/t;->f:Lcom/commsource/camera/montage/w;
 
@@ -106,7 +100,6 @@
 
     const/4 v2, 0x0
 
-    .line 4
     :goto_0
     iget-object v3, p0, Lcom/commsource/camera/montage/t;->p:Ljava/util/List;
 
@@ -116,7 +109,6 @@
 
     if-ge v2, v3, :cond_2
 
-    .line 5
     iget-object v3, p0, Lcom/commsource/camera/montage/t;->p:Ljava/util/List;
 
     invoke-interface {v3, v2}, Ljava/util/List;->get(I)Ljava/lang/Object;
@@ -147,7 +139,6 @@
     :cond_2
     const/4 v2, 0x0
 
-    .line 6
     :goto_1
     new-instance v3, Lcom/commsource/camera/montage/g0;
 
@@ -159,33 +150,28 @@
 
     iput-object v3, p0, Lcom/commsource/camera/montage/t;->K:Lcom/commsource/camera/montage/g0;
 
-    .line 7
     iget-object v4, p0, Lcom/commsource/camera/montage/t;->d:Lcom/commsource/beautyplus/f0/i9;
 
     iget-object v4, v4, Lcom/commsource/beautyplus/f0/i9;->b:Lcom/commsource/camera/montage/CustomViewPager;
 
     invoke-virtual {v4, v3}, Landroidx/viewpager/widget/ViewPager;->setAdapter(Landroidx/viewpager/widget/PagerAdapter;)V
 
-    .line 8
     iget-object v3, p0, Lcom/commsource/camera/montage/t;->J:Lcom/commsource/camera/montage/x;
 
     invoke-virtual {v3, v2}, Lcom/commsource/camera/montage/x;->f(I)V
 
-    .line 9
     iget-object v3, p0, Lcom/commsource/camera/montage/t;->K:Lcom/commsource/camera/montage/g0;
 
     iget-object v4, p0, Lcom/commsource/camera/montage/t;->p:Ljava/util/List;
 
     invoke-virtual {v3, v4, v1}, Lcom/commsource/camera/montage/g0;->b(Ljava/util/List;Z)V
 
-    .line 10
     iget-object v1, p0, Lcom/commsource/camera/montage/t;->d:Lcom/commsource/beautyplus/f0/i9;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/i9;->b:Lcom/commsource/camera/montage/CustomViewPager;
 
     invoke-virtual {v1, v2}, Landroidx/viewpager/widget/ViewPager;->setCurrentItem(I)V
 
-    .line 11
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -198,14 +184,12 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/camera/montage/t;->d:Lcom/commsource/beautyplus/f0/i9;
 
     iget-object v0, v0, Lcom/commsource/beautyplus/f0/i9;->b:Lcom/commsource/camera/montage/CustomViewPager;
 
     invoke-virtual {v0, p2}, Landroidx/viewpager/widget/ViewPager;->setCurrentItem(I)V
 
-    .line 2
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -226,25 +210,21 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/montage/t;->p:Ljava/util/List;
 
     if-nez v1, :cond_0
 
-    .line 2
     new-instance v1, Ljava/util/ArrayList;
 
     invoke-direct {v1}, Ljava/util/ArrayList;-><init>()V
 
     iput-object v1, p0, Lcom/commsource/camera/montage/t;->p:Ljava/util/List;
 
-    .line 3
     :cond_0
     iget-object v1, p0, Lcom/commsource/camera/montage/t;->p:Ljava/util/List;
 
     invoke-interface {v1}, Ljava/util/List;->clear()V
 
-    .line 4
     invoke-interface {p1}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
     move-result-object p1
@@ -263,7 +243,6 @@
 
     check-cast v1, Lcom/commsource/camera/montage/y;
 
-    .line 5
     invoke-virtual {v1}, Lcom/commsource/camera/montage/y;->h()I
 
     move-result v2
@@ -274,14 +253,12 @@
 
     if-eqz v2, :cond_1
 
-    .line 6
     iget-object v2, p0, Lcom/commsource/camera/montage/t;->p:Ljava/util/List;
 
     invoke-interface {v2, v1}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
     goto :goto_0
 
-    .line 7
     :cond_2
     new-instance p1, Lcom/commsource/camera/montage/y;
 
@@ -289,20 +266,16 @@
 
     const/16 v1, 0x38d
 
-    .line 8
     invoke-virtual {p1, v1}, Lcom/commsource/camera/montage/y;->t(I)V
 
     const/4 v1, 0x1
 
-    .line 9
     invoke-virtual {p1, v1}, Lcom/commsource/camera/montage/y;->w(Z)V
 
-    .line 10
     iget-object v1, p0, Lcom/commsource/camera/montage/t;->p:Ljava/util/List;
 
     invoke-interface {v1, p1}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
-    .line 11
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -333,15 +306,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0}, Lcom/commsource/beautyplus/i0/a;->m()V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/camera/montage/t;->d:Lcom/commsource/beautyplus/f0/i9;
 
     if-eqz v1, :cond_0
 
-    .line 3
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/i9;->a:Landroidx/recyclerview/widget/RecyclerView;
 
     new-instance v2, Lcom/commsource/camera/montage/a;
@@ -350,7 +320,6 @@
 
     invoke-virtual {v1, v2}, Landroid/view/ViewGroup;->post(Ljava/lang/Runnable;)Z
 
-    .line 4
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -382,7 +351,6 @@
 
     const/4 v1, 0x0
 
-    .line 1
     invoke-static {p1, v0, p2, v1}, Landroidx/databinding/DataBindingUtil;->inflate(Landroid/view/LayoutInflater;ILandroid/view/ViewGroup;Z)Landroidx/databinding/ViewDataBinding;
 
     move-result-object p1
@@ -391,7 +359,6 @@
 
     iput-object p1, p0, Lcom/commsource/camera/montage/t;->d:Lcom/commsource/beautyplus/f0/i9;
 
-    .line 2
     invoke-virtual {p1}, Landroidx/databinding/ViewDataBinding;->getRoot()Landroid/view/View;
 
     move-result-object p1
@@ -416,7 +383,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p2, p0, Lcom/commsource/beautyplus/i0/a;->b:Landroid/app/Activity;
 
     check-cast p2, Landroidx/fragment/app/FragmentActivity;
@@ -435,7 +401,6 @@
 
     iput-object p2, p0, Lcom/commsource/camera/montage/t;->f:Lcom/commsource/camera/montage/w;
 
-    .line 2
     iget-object p2, p0, Lcom/commsource/beautyplus/i0/a;->b:Landroid/app/Activity;
 
     check-cast p2, Landroidx/fragment/app/FragmentActivity;
@@ -454,21 +419,18 @@
 
     iput-object p2, p0, Lcom/commsource/camera/montage/t;->g:Lcom/commsource/camera/montage/e0;
 
-    .line 3
     new-instance p2, Lcom/commsource/camera/montage/x;
 
     invoke-direct {p2}, Lcom/commsource/camera/montage/x;-><init>()V
 
     iput-object p2, p0, Lcom/commsource/camera/montage/t;->J:Lcom/commsource/camera/montage/x;
 
-    .line 4
     new-instance v0, Lcom/commsource/camera/montage/b;
 
     invoke-direct {v0, p0}, Lcom/commsource/camera/montage/b;-><init>(Lcom/commsource/camera/montage/t;)V
 
     invoke-virtual {p2, v0}, Lcom/commsource/camera/montage/x;->h(Lcom/commsource/camera/montage/x$b;)V
 
-    .line 5
     new-instance p2, Lcom/commsource/camera/montage/g0;
 
     invoke-virtual {p0}, Landroidx/fragment/app/Fragment;->getChildFragmentManager()Landroidx/fragment/app/FragmentManager;
@@ -479,14 +441,12 @@
 
     iput-object p2, p0, Lcom/commsource/camera/montage/t;->K:Lcom/commsource/camera/montage/g0;
 
-    .line 6
     iget-object v0, p0, Lcom/commsource/camera/montage/t;->d:Lcom/commsource/beautyplus/f0/i9;
 
     iget-object v0, v0, Lcom/commsource/beautyplus/f0/i9;->b:Lcom/commsource/camera/montage/CustomViewPager;
 
     invoke-virtual {v0, p2}, Landroidx/viewpager/widget/ViewPager;->setAdapter(Landroidx/viewpager/widget/PagerAdapter;)V
 
-    .line 7
     iget-object p2, p0, Lcom/commsource/camera/montage/t;->d:Lcom/commsource/beautyplus/f0/i9;
 
     iget-object p2, p2, Lcom/commsource/beautyplus/f0/i9;->b:Lcom/commsource/camera/montage/CustomViewPager;
@@ -497,7 +457,6 @@
 
     invoke-virtual {p2, v0}, Landroidx/viewpager/widget/ViewPager;->addOnPageChangeListener(Landroidx/viewpager/widget/ViewPager$OnPageChangeListener;)V
 
-    .line 8
     iget-object p2, p0, Lcom/commsource/camera/montage/t;->f:Lcom/commsource/camera/montage/w;
 
     invoke-virtual {p2}, Lcom/commsource/camera/montage/w;->T()Ljava/util/List;
@@ -506,7 +465,6 @@
 
     invoke-direct {p0, p2}, Lcom/commsource/camera/montage/t;->G(Ljava/util/List;)V
 
-    .line 9
     iget-object p2, p0, Lcom/commsource/camera/montage/t;->d:Lcom/commsource/beautyplus/f0/i9;
 
     iget-object p2, p2, Lcom/commsource/beautyplus/f0/i9;->a:Landroidx/recyclerview/widget/RecyclerView;
@@ -517,14 +475,12 @@
 
     if-nez p2, :cond_0
 
-    .line 10
     iget-object p2, p0, Lcom/commsource/camera/montage/t;->d:Lcom/commsource/beautyplus/f0/i9;
 
     iget-object p2, p2, Lcom/commsource/beautyplus/f0/i9;->a:Landroidx/recyclerview/widget/RecyclerView;
 
     new-instance v0, Landroidx/recyclerview/widget/GridLayoutManager;
 
-    .line 11
     invoke-virtual {p0}, Landroidx/fragment/app/Fragment;->getContext()Landroid/content/Context;
 
     move-result-object v1
@@ -541,10 +497,8 @@
 
     invoke-direct {v0, v1, v2, v3, v4}, Landroidx/recyclerview/widget/GridLayoutManager;-><init>(Landroid/content/Context;IIZ)V
 
-    .line 12
     invoke-virtual {p2, v0}, Landroidx/recyclerview/widget/RecyclerView;->setLayoutManager(Landroidx/recyclerview/widget/RecyclerView$LayoutManager;)V
 
-    .line 13
     iget-object p2, p0, Lcom/commsource/camera/montage/t;->d:Lcom/commsource/beautyplus/f0/i9;
 
     iget-object p2, p2, Lcom/commsource/beautyplus/f0/i9;->a:Landroidx/recyclerview/widget/RecyclerView;
@@ -553,7 +507,6 @@
 
     invoke-virtual {p2, v0}, Landroidx/recyclerview/widget/RecyclerView;->setAdapter(Landroidx/recyclerview/widget/RecyclerView$Adapter;)V
 
-    .line 14
     :cond_0
     iget-object p2, p0, Lcom/commsource/camera/montage/t;->J:Lcom/commsource/camera/montage/x;
 
@@ -561,7 +514,6 @@
 
     invoke-virtual {p2, v0}, Lcom/commsource/camera/montage/x;->g(Ljava/util/List;)V
 
-    .line 15
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -586,10 +538,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0, p1}, Lcom/commsource/camera/xcamera/cover/bottomFunction/a;->x(Lcotlin/jvm/u/a;)V
 
-    .line 2
     iget-object p1, p0, Lcom/commsource/camera/montage/t;->d:Lcom/commsource/beautyplus/f0/i9;
 
     invoke-virtual {p1}, Landroidx/databinding/ViewDataBinding;->getRoot()Landroid/view/View;
@@ -608,7 +558,6 @@
 
     invoke-virtual {p1}, Landroid/view/ViewPropertyAnimator;->cancel()V
 
-    .line 3
     iget-object p1, p0, Lcom/commsource/camera/montage/t;->d:Lcom/commsource/beautyplus/f0/i9;
 
     invoke-virtual {p1}, Landroidx/databinding/ViewDataBinding;->getRoot()Landroid/view/View;
@@ -627,7 +576,6 @@
 
     invoke-virtual {p1, v1}, Landroid/view/View;->setTranslationY(F)V
 
-    .line 4
     iget-object p1, p0, Lcom/commsource/camera/montage/t;->d:Lcom/commsource/beautyplus/f0/i9;
 
     invoke-virtual {p1}, Landroidx/databinding/ViewDataBinding;->getRoot()Landroid/view/View;
@@ -648,22 +596,18 @@
 
     invoke-direct {v1}, Lcom/commsource/camera/xcamera/cover/bottomFunction/c;-><init>()V
 
-    .line 5
     invoke-virtual {p1, v1}, Landroid/view/ViewPropertyAnimator;->setInterpolator(Landroid/animation/TimeInterpolator;)Landroid/view/ViewPropertyAnimator;
 
     move-result-object p1
 
     sget-wide v1, Lcom/commsource/camera/xcamera/cover/bottomFunction/BottomFunction;->BOTTOM_DURATION:J
 
-    .line 6
     invoke-virtual {p1, v1, v2}, Landroid/view/ViewPropertyAnimator;->setDuration(J)Landroid/view/ViewPropertyAnimator;
 
     move-result-object p1
 
-    .line 7
     invoke-virtual {p1}, Landroid/view/ViewPropertyAnimator;->start()V
 
-    .line 8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -688,7 +632,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/montage/t;->d:Lcom/commsource/beautyplus/f0/i9;
 
     invoke-virtual {v1}, Landroidx/databinding/ViewDataBinding;->getRoot()Landroid/view/View;
@@ -707,7 +650,6 @@
 
     invoke-virtual {v1}, Landroid/view/ViewPropertyAnimator;->cancel()V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/camera/montage/t;->d:Lcom/commsource/beautyplus/f0/i9;
 
     invoke-virtual {v1}, Landroidx/databinding/ViewDataBinding;->getRoot()Landroid/view/View;
@@ -720,12 +662,10 @@
 
     sget-wide v2, Lcom/commsource/camera/xcamera/cover/bottomFunction/BottomFunction;->BOTTOM_DURATION:J
 
-    .line 3
     invoke-virtual {v1, v2, v3}, Landroid/view/ViewPropertyAnimator;->setDuration(J)Landroid/view/ViewPropertyAnimator;
 
     move-result-object v1
 
-    .line 4
     invoke-static {}, Lcom/meitu/library/p/f/i;->x()I
 
     move-result v2
@@ -744,7 +684,6 @@
 
     invoke-direct {v2}, Lcom/commsource/camera/xcamera/cover/bottomFunction/d;-><init>()V
 
-    .line 5
     invoke-virtual {v1, v2}, Landroid/view/ViewPropertyAnimator;->setInterpolator(Landroid/animation/TimeInterpolator;)Landroid/view/ViewPropertyAnimator;
 
     move-result-object v1
@@ -753,15 +692,12 @@
 
     invoke-direct {v2, p0, p1}, Lcom/commsource/camera/montage/t$b;-><init>(Lcom/commsource/camera/montage/t;Lcotlin/jvm/u/a;)V
 
-    .line 6
     invoke-virtual {v1, v2}, Landroid/view/ViewPropertyAnimator;->setListener(Landroid/animation/Animator$AnimatorListener;)Landroid/view/ViewPropertyAnimator;
 
     move-result-object p1
 
-    .line 7
     invoke-virtual {p1}, Landroid/view/ViewPropertyAnimator;->start()V
 
-    .line 8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

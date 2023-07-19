@@ -293,17 +293,14 @@
 
     const/4 v1, 0x2
 
-    .line 1
     sput v1, Lcom/commsource/studio/MaskCompositionView;->R0:I
 
     const v1, 0x3e4ccccd    # 0.2f
 
-    .line 2
     sput v1, Lcom/commsource/studio/MaskCompositionView;->S0:F
 
     const/16 v1, 0x19
 
-    .line 3
     invoke-static {v1}, Lcom/commsource/util/l0;->p(I)F
 
     move-result v1
@@ -312,7 +309,6 @@
 
     const/16 v1, 0x10
 
-    .line 4
     invoke-static {v1}, Lcom/commsource/util/l0;->p(I)F
 
     move-result v1
@@ -321,7 +317,6 @@
 
     const/16 v1, 0x14
 
-    .line 5
     invoke-static {v1}, Lcom/commsource/util/l0;->p(I)F
 
     move-result v1
@@ -330,7 +325,6 @@
 
     const/4 v1, 0x3
 
-    .line 6
     invoke-static {v1}, Lcom/commsource/util/l0;->p(I)F
 
     move-result v1
@@ -339,7 +333,6 @@
 
     const/4 v1, 0x1
 
-    .line 7
     invoke-static {v1}, Lcom/commsource/util/l0;->p(I)F
 
     move-result v1
@@ -348,7 +341,6 @@
 
     const/16 v1, 0x34
 
-    .line 8
     invoke-static {v1}, Lcom/commsource/util/l0;->p(I)F
 
     move-result v1
@@ -433,52 +425,44 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 2
     invoke-direct {p0, p1, p2, p3}, Landroid/view/View;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
-    .line 3
     new-instance p1, Landroid/graphics/RectF;
 
     invoke-direct {p1}, Landroid/graphics/RectF;-><init>()V
 
     iput-object p1, p0, Lcom/commsource/studio/MaskCompositionView;->c:Landroid/graphics/RectF;
 
-    .line 4
     new-instance p1, Landroid/graphics/RectF;
 
     invoke-direct {p1}, Landroid/graphics/RectF;-><init>()V
 
     iput-object p1, p0, Lcom/commsource/studio/MaskCompositionView;->f:Landroid/graphics/RectF;
 
-    .line 5
     new-instance p1, Landroid/graphics/Matrix;
 
     invoke-direct {p1}, Landroid/graphics/Matrix;-><init>()V
 
     iput-object p1, p0, Lcom/commsource/studio/MaskCompositionView;->J:Landroid/graphics/Matrix;
 
-    .line 6
     new-instance p1, Lcom/commsource/studio/MatrixBox;
 
     invoke-direct {p1}, Lcom/commsource/studio/MatrixBox;-><init>()V
 
     iput-object p1, p0, Lcom/commsource/studio/MaskCompositionView;->K:Lcom/commsource/studio/MatrixBox;
 
-    .line 7
     new-instance p1, Lcom/commsource/studio/MatrixBox;
 
     invoke-direct {p1}, Lcom/commsource/studio/MatrixBox;-><init>()V
 
     iput-object p1, p0, Lcom/commsource/studio/MaskCompositionView;->L:Lcom/commsource/studio/MatrixBox;
 
-    .line 8
     new-instance p1, Lcom/commsource/studio/MatrixBox;
 
     invoke-direct {p1}, Lcom/commsource/studio/MatrixBox;-><init>()V
 
     iput-object p1, p0, Lcom/commsource/studio/MaskCompositionView;->M:Lcom/commsource/studio/MatrixBox;
 
-    .line 9
     new-instance p1, Lcom/commsource/studio/MatrixBox;
 
     invoke-direct {p1}, Lcom/commsource/studio/MatrixBox;-><init>()V
@@ -489,10 +473,8 @@
 
     new-array p2, p1, [F
 
-    .line 10
     iput-object p2, p0, Lcom/commsource/studio/MaskCompositionView;->O:[F
 
-    .line 11
     new-instance p2, Lcom/commsource/studio/c;
 
     const/4 v1, 0x0
@@ -511,7 +493,6 @@
 
     iput-object p2, p0, Lcom/commsource/studio/MaskCompositionView;->P:Lcom/commsource/studio/c;
 
-    .line 12
     new-instance p2, Lcom/commsource/studio/c;
 
     const/4 v7, 0x0
@@ -534,7 +515,6 @@
 
     new-array p2, p2, [Lcom/commsource/studio/c;
 
-    .line 13
     new-instance p3, Lcom/commsource/studio/c;
 
     const/4 v0, 0x0
@@ -549,7 +529,6 @@
 
     aput-object p3, p2, v3
 
-    .line 14
     new-instance p3, Lcom/commsource/studio/c;
 
     const/high16 v4, 0x42b40000    # 90.0f
@@ -560,7 +539,6 @@
 
     aput-object p3, p2, v4
 
-    .line 15
     new-instance p3, Lcom/commsource/studio/c;
 
     const/high16 v5, 0x43340000    # 180.0f
@@ -569,7 +547,6 @@
 
     aput-object p3, p2, p1
 
-    .line 16
     new-instance p3, Lcom/commsource/studio/c;
 
     const/high16 v5, -0x3d4c0000    # -90.0f
@@ -580,45 +557,38 @@
 
     aput-object p3, p2, v1
 
-    .line 17
     iput-object p2, p0, Lcom/commsource/studio/MaskCompositionView;->R:[Lcom/commsource/studio/c;
 
-    .line 18
     new-instance p2, Lcom/commsource/studio/MatrixBox;
 
     invoke-direct {p2}, Lcom/commsource/studio/MatrixBox;-><init>()V
 
     iput-object p2, p0, Lcom/commsource/studio/MaskCompositionView;->S:Lcom/commsource/studio/MatrixBox;
 
-    .line 19
     new-instance p2, Lcom/commsource/studio/MatrixBox;
 
     invoke-direct {p2}, Lcom/commsource/studio/MatrixBox;-><init>()V
 
     iput-object p2, p0, Lcom/commsource/studio/MaskCompositionView;->T:Lcom/commsource/studio/MatrixBox;
 
-    .line 20
     new-instance p2, Lcom/commsource/studio/MatrixBox;
 
     invoke-direct {p2}, Lcom/commsource/studio/MatrixBox;-><init>()V
 
     iput-object p2, p0, Lcom/commsource/studio/MaskCompositionView;->U:Lcom/commsource/studio/MatrixBox;
 
-    .line 21
     new-instance p2, Landroid/graphics/Rect;
 
     invoke-direct {p2}, Landroid/graphics/Rect;-><init>()V
 
     iput-object p2, p0, Lcom/commsource/studio/MaskCompositionView;->a0:Landroid/graphics/Rect;
 
-    .line 22
     new-instance p2, Landroid/graphics/RectF;
 
     invoke-direct {p2}, Landroid/graphics/RectF;-><init>()V
 
     iput-object p2, p0, Lcom/commsource/studio/MaskCompositionView;->b0:Landroid/graphics/RectF;
 
-    .line 23
     new-instance p2, Landroid/graphics/RectF;
 
     invoke-direct {p2}, Landroid/graphics/RectF;-><init>()V
@@ -627,41 +597,34 @@
 
     const/high16 p2, 0x3f800000    # 1.0f
 
-    .line 24
     iput p2, p0, Lcom/commsource/studio/MaskCompositionView;->d0:F
 
-    .line 25
     new-instance p2, Landroid/graphics/Paint;
 
     invoke-direct {p2, v1}, Landroid/graphics/Paint;-><init>(I)V
 
     iput-object p2, p0, Lcom/commsource/studio/MaskCompositionView;->e0:Landroid/graphics/Paint;
 
-    .line 26
     new-instance p2, Landroid/graphics/PaintFlagsDrawFilter;
 
     invoke-direct {p2, v3, v1}, Landroid/graphics/PaintFlagsDrawFilter;-><init>(II)V
 
     iput-object p2, p0, Lcom/commsource/studio/MaskCompositionView;->f0:Landroid/graphics/PaintFlagsDrawFilter;
 
-    .line 27
     new-instance p2, Landroid/graphics/Path;
 
     invoke-direct {p2}, Landroid/graphics/Path;-><init>()V
 
     iput-object p2, p0, Lcom/commsource/studio/MaskCompositionView;->g0:Landroid/graphics/Path;
 
-    .line 28
     new-instance p2, Landroid/graphics/Paint;
 
     invoke-direct {p2, v4}, Landroid/graphics/Paint;-><init>(I)V
 
-    .line 29
     sget-object p3, Landroid/graphics/Paint$Style;->STROKE:Landroid/graphics/Paint$Style;
 
     invoke-virtual {p2, p3}, Landroid/graphics/Paint;->setStyle(Landroid/graphics/Paint$Style;)V
 
-    .line 30
     invoke-static {v4}, Lcom/commsource/util/l0;->p(I)F
 
     move-result p3
@@ -670,27 +633,22 @@
 
     sget p3, Lcom/res/provider/ResCOLOR;->white:I
 
-    .line 31
     invoke-static {p3}, Lcom/commsource/util/l0;->P(I)I
 
     move-result p3
 
     invoke-virtual {p2, p3}, Landroid/graphics/Paint;->setColor(I)V
 
-    .line 32
     iput-object p2, p0, Lcom/commsource/studio/MaskCompositionView;->h0:Landroid/graphics/Paint;
 
-    .line 33
     new-instance p2, Landroid/graphics/Paint;
 
     invoke-direct {p2, v4}, Landroid/graphics/Paint;-><init>(I)V
 
-    .line 34
     sget-object p3, Landroid/graphics/Paint$Style;->STROKE:Landroid/graphics/Paint$Style;
 
     invoke-virtual {p2, p3}, Landroid/graphics/Paint;->setStyle(Landroid/graphics/Paint$Style;)V
 
-    .line 35
     invoke-static {v2}, Lcom/commsource/util/l0;->o(F)F
 
     move-result p3
@@ -699,34 +657,28 @@
 
     sget p3, Lcom/res/provider/ResCOLOR;->white50:I
 
-    .line 36
     invoke-static {p3}, Lcom/commsource/util/l0;->P(I)I
 
     move-result p3
 
     invoke-virtual {p2, p3}, Landroid/graphics/Paint;->setColor(I)V
 
-    .line 37
     iput-object p2, p0, Lcom/commsource/studio/MaskCompositionView;->i0:Landroid/graphics/Paint;
 
-    .line 38
     new-instance p2, Landroid/graphics/Paint;
 
     invoke-direct {p2, v4}, Landroid/graphics/Paint;-><init>(I)V
 
     sget p3, Lcom/res/provider/ResCOLOR;->black30:I
 
-    .line 39
     invoke-static {p3}, Lcom/commsource/util/l0;->P(I)I
 
     move-result p3
 
     invoke-virtual {p2, p3}, Landroid/graphics/Paint;->setColor(I)V
 
-    .line 40
     iput-object p2, p0, Lcom/commsource/studio/MaskCompositionView;->j0:Landroid/graphics/Paint;
 
-    .line 41
     new-instance p2, Landroid/graphics/PorterDuffXfermode;
 
     sget-object p3, Landroid/graphics/PorterDuff$Mode;->SRC_OUT:Landroid/graphics/PorterDuff$Mode;
@@ -735,31 +687,26 @@
 
     iput-object p2, p0, Lcom/commsource/studio/MaskCompositionView;->k0:Landroid/graphics/PorterDuffXfermode;
 
-    .line 42
     new-instance p2, Landroid/graphics/Paint;
 
     invoke-direct {p2, v4}, Landroid/graphics/Paint;-><init>(I)V
 
     sget p3, Lcom/res/provider/ResCOLOR;->black54:I
 
-    .line 43
     invoke-static {p3}, Lcom/commsource/util/l0;->P(I)I
 
     move-result p3
 
     invoke-virtual {p2, p3}, Landroid/graphics/Paint;->setColor(I)V
 
-    .line 44
     iput-object p2, p0, Lcom/commsource/studio/MaskCompositionView;->l0:Landroid/graphics/Paint;
 
-    .line 45
     new-instance p2, Landroid/graphics/RectF;
 
     invoke-direct {p2}, Landroid/graphics/RectF;-><init>()V
 
     iput-object p2, p0, Lcom/commsource/studio/MaskCompositionView;->n0:Landroid/graphics/RectF;
 
-    .line 46
     new-instance p2, Landroid/graphics/RectF;
 
     invoke-direct {p2}, Landroid/graphics/RectF;-><init>()V
@@ -768,10 +715,8 @@
 
     new-array p2, p1, [F
 
-    .line 47
     iput-object p2, p0, Lcom/commsource/studio/MaskCompositionView;->p0:[F
 
-    .line 48
     new-instance p2, Lcom/commsource/studio/i;
 
     new-instance p3, Lcom/commsource/studio/MaskCompositionView$b;
@@ -782,7 +727,6 @@
 
     iput-object p2, p0, Lcom/commsource/studio/MaskCompositionView;->r0:Lcom/commsource/studio/i;
 
-    .line 49
     new-instance p2, Lcom/commsource/camera/f1/n;
 
     invoke-direct {p2, v0}, Lcom/commsource/camera/f1/n;-><init>(F)V
@@ -791,7 +735,6 @@
 
     new-array p2, p1, [F
 
-    .line 50
     fill-array-data p2, :array_0
 
     invoke-static {p2}, Lcom/commsource/camera/f1/l;->e([F)Lcom/commsource/camera/f1/l;
@@ -800,12 +743,10 @@
 
     const-wide/16 v1, 0x15e
 
-    .line 51
     invoke-virtual {p2, v1, v2}, Lcom/commsource/camera/f1/l;->b(J)Lcom/commsource/camera/f1/l;
 
     move-result-object p2
 
-    .line 52
     new-instance p3, Lcom/commsource/widget/r0;
 
     invoke-direct {p3}, Lcom/commsource/widget/r0;-><init>()V
@@ -814,7 +755,6 @@
 
     move-result-object p2
 
-    .line 53
     new-instance p3, Lcom/commsource/studio/MaskCompositionView$c;
 
     invoke-direct {p3, p0}, Lcom/commsource/studio/MaskCompositionView$c;-><init>(Lcom/commsource/studio/MaskCompositionView;)V
@@ -825,56 +765,48 @@
 
     iput-object p2, p0, Lcom/commsource/studio/MaskCompositionView;->t0:Lcom/commsource/camera/f1/l;
 
-    .line 54
     new-instance p2, Landroid/graphics/RectF;
 
     invoke-direct {p2}, Landroid/graphics/RectF;-><init>()V
 
     iput-object p2, p0, Lcom/commsource/studio/MaskCompositionView;->u0:Landroid/graphics/RectF;
 
-    .line 55
     new-instance p2, Landroid/graphics/RectF;
 
     invoke-direct {p2}, Landroid/graphics/RectF;-><init>()V
 
     iput-object p2, p0, Lcom/commsource/studio/MaskCompositionView;->v0:Landroid/graphics/RectF;
 
-    .line 56
     new-instance p2, Landroid/graphics/Matrix;
 
     invoke-direct {p2}, Landroid/graphics/Matrix;-><init>()V
 
     iput-object p2, p0, Lcom/commsource/studio/MaskCompositionView;->w0:Landroid/graphics/Matrix;
 
-    .line 57
     new-instance p2, Landroid/graphics/RectF;
 
     invoke-direct {p2}, Landroid/graphics/RectF;-><init>()V
 
     iput-object p2, p0, Lcom/commsource/studio/MaskCompositionView;->x0:Landroid/graphics/RectF;
 
-    .line 58
     new-instance p2, Landroid/graphics/Matrix;
 
     invoke-direct {p2}, Landroid/graphics/Matrix;-><init>()V
 
     iput-object p2, p0, Lcom/commsource/studio/MaskCompositionView;->y0:Landroid/graphics/Matrix;
 
-    .line 59
     new-instance p2, Lcom/commsource/camera/f1/n;
 
     invoke-direct {p2}, Lcom/commsource/camera/f1/n;-><init>()V
 
     iput-object p2, p0, Lcom/commsource/studio/MaskCompositionView;->z0:Lcom/commsource/camera/f1/n;
 
-    .line 60
     new-instance p2, Lcom/commsource/camera/f1/n;
 
     invoke-direct {p2}, Lcom/commsource/camera/f1/n;-><init>()V
 
     iput-object p2, p0, Lcom/commsource/studio/MaskCompositionView;->A0:Lcom/commsource/camera/f1/n;
 
-    .line 61
     new-instance p2, Lcom/commsource/camera/f1/n;
 
     invoke-direct {p2}, Lcom/commsource/camera/f1/n;-><init>()V
@@ -883,19 +815,16 @@
 
     new-array p2, p1, [F
 
-    .line 62
     fill-array-data p2, :array_1
 
     invoke-static {p2}, Lcom/commsource/camera/f1/l;->e([F)Lcom/commsource/camera/f1/l;
 
     move-result-object p2
 
-    .line 63
     invoke-virtual {p2, v1, v2}, Lcom/commsource/camera/f1/l;->b(J)Lcom/commsource/camera/f1/l;
 
     move-result-object p2
 
-    .line 64
     new-instance p3, Lcom/commsource/widget/r0;
 
     invoke-direct {p3}, Lcom/commsource/widget/r0;-><init>()V
@@ -904,7 +833,6 @@
 
     move-result-object p2
 
-    .line 65
     new-instance p3, Lcom/commsource/studio/MaskCompositionView$e;
 
     invoke-direct {p3, p0}, Lcom/commsource/studio/MaskCompositionView$e;-><init>(Lcom/commsource/studio/MaskCompositionView;)V
@@ -915,33 +843,28 @@
 
     iput-object p2, p0, Lcom/commsource/studio/MaskCompositionView;->C0:Lcom/commsource/camera/f1/l;
 
-    .line 66
     new-instance p2, Lcom/commsource/studio/MatrixBox;
 
     invoke-direct {p2}, Lcom/commsource/studio/MatrixBox;-><init>()V
 
     iput-object p2, p0, Lcom/commsource/studio/MaskCompositionView;->D0:Lcom/commsource/studio/MatrixBox;
 
-    .line 67
     new-instance p2, Lcom/commsource/studio/MatrixBox;
 
     invoke-direct {p2}, Lcom/commsource/studio/MatrixBox;-><init>()V
 
     iput-object p2, p0, Lcom/commsource/studio/MaskCompositionView;->E0:Lcom/commsource/studio/MatrixBox;
 
-    .line 68
     new-instance p2, Landroid/graphics/RectF;
 
     invoke-direct {p2}, Landroid/graphics/RectF;-><init>()V
 
-    .line 69
     invoke-static {}, Lcom/meitu/library/p/f/i;->z()I
 
     move-result p3
 
     int-to-float p3, p3
 
-    .line 70
     invoke-static {}, Lcom/meitu/library/p/f/i;->F()I
 
     move-result v1
@@ -958,20 +881,16 @@
 
     sub-float/2addr v1, v2
 
-    .line 71
     invoke-virtual {p2, v0, v0, p3, v1}, Landroid/graphics/RectF;->set(FFFF)V
 
-    .line 72
     iput-object p2, p0, Lcom/commsource/studio/MaskCompositionView;->F0:Landroid/graphics/RectF;
 
-    .line 73
     new-instance p2, Landroid/graphics/RectF;
 
     invoke-direct {p2}, Landroid/graphics/RectF;-><init>()V
 
     iput-object p2, p0, Lcom/commsource/studio/MaskCompositionView;->G0:Landroid/graphics/RectF;
 
-    .line 74
     new-instance p2, Landroid/graphics/RectF;
 
     invoke-direct {p2}, Landroid/graphics/RectF;-><init>()V
@@ -980,31 +899,26 @@
 
     new-array p2, p1, [F
 
-    .line 75
     iput-object p2, p0, Lcom/commsource/studio/MaskCompositionView;->I0:[F
 
-    .line 76
     new-instance p2, Lcom/commsource/camera/f1/n;
 
     invoke-direct {p2}, Lcom/commsource/camera/f1/n;-><init>()V
 
     iput-object p2, p0, Lcom/commsource/studio/MaskCompositionView;->K0:Lcom/commsource/camera/f1/n;
 
-    .line 77
     new-instance p2, Lcom/commsource/camera/f1/n;
 
     invoke-direct {p2}, Lcom/commsource/camera/f1/n;-><init>()V
 
     iput-object p2, p0, Lcom/commsource/studio/MaskCompositionView;->L0:Lcom/commsource/camera/f1/n;
 
-    .line 78
     new-instance p2, Lcom/commsource/camera/f1/n;
 
     invoke-direct {p2}, Lcom/commsource/camera/f1/n;-><init>()V
 
     iput-object p2, p0, Lcom/commsource/studio/MaskCompositionView;->M0:Lcom/commsource/camera/f1/n;
 
-    .line 79
     new-instance p2, Lcom/commsource/camera/f1/n;
 
     invoke-direct {p2}, Lcom/commsource/camera/f1/n;-><init>()V
@@ -1013,7 +927,6 @@
 
     new-array p1, p1, [F
 
-    .line 80
     fill-array-data p1, :array_2
 
     invoke-static {p1}, Lcom/commsource/camera/f1/l;->e([F)Lcom/commsource/camera/f1/l;
@@ -1022,12 +935,10 @@
 
     const-wide/16 p2, 0x12c
 
-    .line 81
     invoke-virtual {p1, p2, p3}, Lcom/commsource/camera/f1/l;->b(J)Lcom/commsource/camera/f1/l;
 
     move-result-object p1
 
-    .line 82
     new-instance p2, Landroid/view/animation/AccelerateDecelerateInterpolator;
 
     invoke-direct {p2}, Landroid/view/animation/AccelerateDecelerateInterpolator;-><init>()V
@@ -1036,7 +947,6 @@
 
     move-result-object p1
 
-    .line 83
     new-instance p2, Lcom/commsource/studio/MaskCompositionView$d;
 
     invoke-direct {p2, p0}, Lcom/commsource/studio/MaskCompositionView$d;-><init>(Lcom/commsource/studio/MaskCompositionView;)V
@@ -1084,7 +994,6 @@
 
     const/4 p3, 0x0
 
-    .line 1
     :cond_1
     invoke-direct {p0, p1, p2, p3}, Lcom/commsource/studio/MaskCompositionView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
@@ -1122,7 +1031,6 @@
 
     move v4, p4
 
-    .line 1
     invoke-virtual/range {v0 .. v5}, Lcom/commsource/studio/MaskCompositionView;->G(FFFFZ)V
 
     invoke-static {p7}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1143,7 +1051,6 @@
 
     const/high16 p1, 0x3f800000    # 1.0f
 
-    .line 1
     invoke-static {p1}, Ljava/lang/Float;->valueOf(F)Ljava/lang/Float;
 
     move-result-object p1
@@ -1183,7 +1090,6 @@
 
     const/4 p1, 0x0
 
-    .line 1
     :cond_0
     invoke-virtual {p0, p1}, Lcom/commsource/studio/MaskCompositionView;->L(Z)V
 
@@ -1199,7 +1105,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/studio/MaskCompositionView;->N0:Lcom/commsource/camera/f1/n;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1214,7 +1119,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget v1, Lcom/commsource/studio/MaskCompositionView;->U0:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1229,7 +1133,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget v1, Lcom/commsource/studio/MaskCompositionView;->R0:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1244,7 +1147,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget v1, Lcom/commsource/studio/MaskCompositionView;->S0:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1259,7 +1161,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget v1, Lcom/commsource/studio/MaskCompositionView;->T0:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1274,7 +1175,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/studio/MaskCompositionView;->y0:Landroid/graphics/Matrix;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1289,7 +1189,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget v1, Lcom/commsource/studio/MaskCompositionView;->W0:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1304,7 +1203,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/studio/MaskCompositionView;->K0:Lcom/commsource/camera/f1/n;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1319,7 +1217,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget v1, Lcom/commsource/studio/MaskCompositionView;->Y0:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1334,7 +1231,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget v1, Lcom/commsource/studio/MaskCompositionView;->X0:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1349,7 +1245,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/studio/MaskCompositionView;->M0:Lcom/commsource/camera/f1/n;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1364,7 +1259,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/studio/MaskCompositionView;->z0:Lcom/commsource/camera/f1/n;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1379,7 +1273,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/studio/MaskCompositionView;->w0:Landroid/graphics/Matrix;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1394,7 +1287,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/studio/MaskCompositionView;->L0:Lcom/commsource/camera/f1/n;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1409,7 +1301,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/studio/MaskCompositionView;->A0:Lcom/commsource/camera/f1/n;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1424,7 +1315,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/studio/MaskCompositionView;->B0:Lcom/commsource/camera/f1/n;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1439,7 +1329,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget v1, Lcom/commsource/studio/MaskCompositionView;->V0:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1454,7 +1343,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/studio/MaskCompositionView;->C0:Lcom/commsource/camera/f1/l;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1483,17 +1371,14 @@
 
     invoke-static {v7, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object v1, v0, Lcom/commsource/studio/MaskCompositionView;->N:Lcom/commsource/studio/MatrixBox;
 
     invoke-virtual {v1}, Lcom/commsource/studio/MatrixBox;->getScale()F
 
     move-result v9
 
-    .line 2
     invoke-virtual/range {p1 .. p1}, Landroid/graphics/Canvas;->save()I
 
-    .line 3
     iget-object v1, v0, Lcom/commsource/studio/MaskCompositionView;->N:Lcom/commsource/studio/MatrixBox;
 
     invoke-virtual {v1}, Lcom/commsource/studio/MatrixBox;->getMatrix()Landroid/graphics/Matrix;
@@ -1502,7 +1387,6 @@
 
     invoke-virtual {v7, v1}, Landroid/graphics/Canvas;->concat(Landroid/graphics/Matrix;)V
 
-    .line 4
     iget-object v1, v0, Lcom/commsource/studio/MaskCompositionView;->h0:Landroid/graphics/Paint;
 
     sget v2, Lcom/commsource/studio/MaskCompositionView;->X0:F
@@ -1511,24 +1395,20 @@
 
     invoke-virtual {v1, v2}, Landroid/graphics/Paint;->setStrokeWidth(F)V
 
-    .line 5
     iget-object v1, v0, Lcom/commsource/studio/MaskCompositionView;->c0:Landroid/graphics/RectF;
 
     iget-object v2, v0, Lcom/commsource/studio/MaskCompositionView;->h0:Landroid/graphics/Paint;
 
     invoke-virtual {v7, v1, v2}, Landroid/graphics/Canvas;->drawRect(Landroid/graphics/RectF;Landroid/graphics/Paint;)V
 
-    .line 6
     sget v1, Lcom/commsource/studio/MaskCompositionView;->W0:F
 
     div-float v10, v1, v9
 
-    .line 7
     iget-object v1, v0, Lcom/commsource/studio/MaskCompositionView;->i0:Landroid/graphics/Paint;
 
     invoke-virtual {v1, v10}, Landroid/graphics/Paint;->setStrokeWidth(F)V
 
-    .line 8
     iget-object v1, v0, Lcom/commsource/studio/MaskCompositionView;->i0:Landroid/graphics/Paint;
 
     sget v2, Lcom/res/provider/ResCOLOR;->white:I
@@ -1539,24 +1419,20 @@
 
     invoke-virtual {v1, v2}, Landroid/graphics/Paint;->setColor(I)V
 
-    .line 9
     sget v1, Lcom/commsource/studio/MaskCompositionView;->U0:F
 
     div-float v11, v1, v9
 
-    .line 10
     sget v1, Lcom/commsource/studio/MaskCompositionView;->V0:F
 
     div-float v12, v1, v9
 
-    .line 11
     iget-object v1, v0, Lcom/commsource/studio/MaskCompositionView;->c0:Landroid/graphics/RectF;
 
     iget v2, v1, Landroid/graphics/RectF;->left:F
 
     sub-float v3, v2, v10
 
-    .line 12
     iget v1, v1, Landroid/graphics/RectF;->top:F
 
     const/4 v4, 0x2
@@ -1571,7 +1447,6 @@
 
     sub-float v6, v1, v14
 
-    .line 13
     iget-object v15, v0, Lcom/commsource/studio/MaskCompositionView;->i0:Landroid/graphics/Paint;
 
     move-object/from16 v1, p1
@@ -1586,24 +1461,20 @@
 
     move-object v6, v15
 
-    .line 14
     invoke-virtual/range {v1 .. v6}, Landroid/graphics/Canvas;->drawLine(FFFFLandroid/graphics/Paint;)V
 
-    .line 15
     iget-object v1, v0, Lcom/commsource/studio/MaskCompositionView;->c0:Landroid/graphics/RectF;
 
     iget v2, v1, Landroid/graphics/RectF;->left:F
 
     sub-float v3, v2, v14
 
-    .line 16
     iget v4, v1, Landroid/graphics/RectF;->top:F
 
     sub-float v5, v2, v14
 
     add-float v6, v4, v11
 
-    .line 17
     iget-object v15, v0, Lcom/commsource/studio/MaskCompositionView;->i0:Landroid/graphics/Paint;
 
     move-object/from16 v1, p1
@@ -1618,17 +1489,14 @@
 
     move-object v6, v15
 
-    .line 18
     invoke-virtual/range {v1 .. v6}, Landroid/graphics/Canvas;->drawLine(FFFFLandroid/graphics/Paint;)V
 
-    .line 19
     iget-object v1, v0, Lcom/commsource/studio/MaskCompositionView;->c0:Landroid/graphics/RectF;
 
     iget v2, v1, Landroid/graphics/RectF;->left:F
 
     sub-float v3, v2, v10
 
-    .line 20
     iget v1, v1, Landroid/graphics/RectF;->bottom:F
 
     add-float v4, v1, v14
@@ -1637,7 +1505,6 @@
 
     add-float v6, v1, v14
 
-    .line 21
     iget-object v15, v0, Lcom/commsource/studio/MaskCompositionView;->i0:Landroid/graphics/Paint;
 
     move-object/from16 v1, p1
@@ -1652,24 +1519,20 @@
 
     move-object v6, v15
 
-    .line 22
     invoke-virtual/range {v1 .. v6}, Landroid/graphics/Canvas;->drawLine(FFFFLandroid/graphics/Paint;)V
 
-    .line 23
     iget-object v1, v0, Lcom/commsource/studio/MaskCompositionView;->c0:Landroid/graphics/RectF;
 
     iget v2, v1, Landroid/graphics/RectF;->left:F
 
     sub-float v3, v2, v14
 
-    .line 24
     iget v5, v1, Landroid/graphics/RectF;->bottom:F
 
     sub-float v4, v5, v11
 
     sub-float v6, v2, v14
 
-    .line 25
     iget-object v15, v0, Lcom/commsource/studio/MaskCompositionView;->i0:Landroid/graphics/Paint;
 
     move-object/from16 v1, p1
@@ -1682,17 +1545,14 @@
 
     move-object v6, v15
 
-    .line 26
     invoke-virtual/range {v1 .. v6}, Landroid/graphics/Canvas;->drawLine(FFFFLandroid/graphics/Paint;)V
 
-    .line 27
     iget-object v1, v0, Lcom/commsource/studio/MaskCompositionView;->c0:Landroid/graphics/RectF;
 
     iget v2, v1, Landroid/graphics/RectF;->right:F
 
     sub-float v3, v2, v11
 
-    .line 28
     iget v1, v1, Landroid/graphics/RectF;->top:F
 
     sub-float v4, v1, v14
@@ -1701,7 +1561,6 @@
 
     sub-float v6, v1, v14
 
-    .line 29
     iget-object v15, v0, Lcom/commsource/studio/MaskCompositionView;->i0:Landroid/graphics/Paint;
 
     move-object/from16 v1, p1
@@ -1716,24 +1575,20 @@
 
     move-object v6, v15
 
-    .line 30
     invoke-virtual/range {v1 .. v6}, Landroid/graphics/Canvas;->drawLine(FFFFLandroid/graphics/Paint;)V
 
-    .line 31
     iget-object v1, v0, Lcom/commsource/studio/MaskCompositionView;->c0:Landroid/graphics/RectF;
 
     iget v2, v1, Landroid/graphics/RectF;->right:F
 
     add-float v3, v2, v14
 
-    .line 32
     iget v4, v1, Landroid/graphics/RectF;->top:F
 
     add-float v5, v2, v14
 
     add-float v6, v4, v11
 
-    .line 33
     iget-object v15, v0, Lcom/commsource/studio/MaskCompositionView;->i0:Landroid/graphics/Paint;
 
     move-object/from16 v1, p1
@@ -1748,17 +1603,14 @@
 
     move-object v6, v15
 
-    .line 34
     invoke-virtual/range {v1 .. v6}, Landroid/graphics/Canvas;->drawLine(FFFFLandroid/graphics/Paint;)V
 
-    .line 35
     iget-object v1, v0, Lcom/commsource/studio/MaskCompositionView;->c0:Landroid/graphics/RectF;
 
     iget v2, v1, Landroid/graphics/RectF;->right:F
 
     sub-float v3, v2, v11
 
-    .line 36
     iget v1, v1, Landroid/graphics/RectF;->bottom:F
 
     add-float v4, v1, v14
@@ -1767,7 +1619,6 @@
 
     add-float v6, v1, v14
 
-    .line 37
     iget-object v10, v0, Lcom/commsource/studio/MaskCompositionView;->i0:Landroid/graphics/Paint;
 
     move-object/from16 v1, p1
@@ -1782,24 +1633,20 @@
 
     move-object v6, v10
 
-    .line 38
     invoke-virtual/range {v1 .. v6}, Landroid/graphics/Canvas;->drawLine(FFFFLandroid/graphics/Paint;)V
 
-    .line 39
     iget-object v1, v0, Lcom/commsource/studio/MaskCompositionView;->c0:Landroid/graphics/RectF;
 
     iget v2, v1, Landroid/graphics/RectF;->right:F
 
     add-float v3, v2, v14
 
-    .line 40
     iget v5, v1, Landroid/graphics/RectF;->bottom:F
 
     sub-float v4, v5, v11
 
     add-float v6, v2, v14
 
-    .line 41
     iget-object v10, v0, Lcom/commsource/studio/MaskCompositionView;->i0:Landroid/graphics/Paint;
 
     move-object/from16 v1, p1
@@ -1812,10 +1659,8 @@
 
     move-object v6, v10
 
-    .line 42
     invoke-virtual/range {v1 .. v6}, Landroid/graphics/Canvas;->drawLine(FFFFLandroid/graphics/Paint;)V
 
-    .line 43
     iget-object v1, v0, Lcom/commsource/studio/MaskCompositionView;->c0:Landroid/graphics/RectF;
 
     invoke-virtual {v1}, Landroid/graphics/RectF;->centerX()F
@@ -1826,36 +1671,30 @@
 
     sub-float v2, v1, v12
 
-    .line 44
     iget-object v1, v0, Lcom/commsource/studio/MaskCompositionView;->c0:Landroid/graphics/RectF;
 
     iget v3, v1, Landroid/graphics/RectF;->top:F
 
     sub-float/2addr v3, v14
 
-    .line 45
     invoke-virtual {v1}, Landroid/graphics/RectF;->centerX()F
 
     move-result v1
 
     add-float v4, v1, v12
 
-    .line 46
     iget-object v1, v0, Lcom/commsource/studio/MaskCompositionView;->c0:Landroid/graphics/RectF;
 
     iget v1, v1, Landroid/graphics/RectF;->top:F
 
     sub-float v5, v1, v14
 
-    .line 47
     iget-object v6, v0, Lcom/commsource/studio/MaskCompositionView;->i0:Landroid/graphics/Paint;
 
     move-object/from16 v1, p1
 
-    .line 48
     invoke-virtual/range {v1 .. v6}, Landroid/graphics/Canvas;->drawLine(FFFFLandroid/graphics/Paint;)V
 
-    .line 49
     iget-object v1, v0, Lcom/commsource/studio/MaskCompositionView;->c0:Landroid/graphics/RectF;
 
     invoke-virtual {v1}, Landroid/graphics/RectF;->centerX()F
@@ -1864,108 +1703,90 @@
 
     sub-float v2, v1, v12
 
-    .line 50
     iget-object v1, v0, Lcom/commsource/studio/MaskCompositionView;->c0:Landroid/graphics/RectF;
 
     iget v3, v1, Landroid/graphics/RectF;->bottom:F
 
     add-float/2addr v3, v14
 
-    .line 51
     invoke-virtual {v1}, Landroid/graphics/RectF;->centerX()F
 
     move-result v1
 
     add-float v4, v1, v12
 
-    .line 52
     iget-object v1, v0, Lcom/commsource/studio/MaskCompositionView;->c0:Landroid/graphics/RectF;
 
     iget v1, v1, Landroid/graphics/RectF;->bottom:F
 
     add-float v5, v1, v14
 
-    .line 53
     iget-object v6, v0, Lcom/commsource/studio/MaskCompositionView;->i0:Landroid/graphics/Paint;
 
     move-object/from16 v1, p1
 
-    .line 54
     invoke-virtual/range {v1 .. v6}, Landroid/graphics/Canvas;->drawLine(FFFFLandroid/graphics/Paint;)V
 
-    .line 55
     iget-object v1, v0, Lcom/commsource/studio/MaskCompositionView;->c0:Landroid/graphics/RectF;
 
     iget v2, v1, Landroid/graphics/RectF;->left:F
 
     sub-float/2addr v2, v14
 
-    .line 56
     invoke-virtual {v1}, Landroid/graphics/RectF;->centerY()F
 
     move-result v1
 
     sub-float v3, v1, v12
 
-    .line 57
     iget-object v1, v0, Lcom/commsource/studio/MaskCompositionView;->c0:Landroid/graphics/RectF;
 
     iget v4, v1, Landroid/graphics/RectF;->left:F
 
     sub-float/2addr v4, v14
 
-    .line 58
     invoke-virtual {v1}, Landroid/graphics/RectF;->centerY()F
 
     move-result v1
 
     add-float v5, v1, v12
 
-    .line 59
     iget-object v6, v0, Lcom/commsource/studio/MaskCompositionView;->i0:Landroid/graphics/Paint;
 
     move-object/from16 v1, p1
 
-    .line 60
     invoke-virtual/range {v1 .. v6}, Landroid/graphics/Canvas;->drawLine(FFFFLandroid/graphics/Paint;)V
 
-    .line 61
     iget-object v1, v0, Lcom/commsource/studio/MaskCompositionView;->c0:Landroid/graphics/RectF;
 
     iget v2, v1, Landroid/graphics/RectF;->right:F
 
     add-float/2addr v2, v14
 
-    .line 62
     invoke-virtual {v1}, Landroid/graphics/RectF;->centerY()F
 
     move-result v1
 
     sub-float v3, v1, v12
 
-    .line 63
     iget-object v1, v0, Lcom/commsource/studio/MaskCompositionView;->c0:Landroid/graphics/RectF;
 
     iget v4, v1, Landroid/graphics/RectF;->right:F
 
     add-float/2addr v4, v14
 
-    .line 64
     invoke-virtual {v1}, Landroid/graphics/RectF;->centerY()F
 
     move-result v1
 
     add-float v5, v1, v12
 
-    .line 65
     iget-object v6, v0, Lcom/commsource/studio/MaskCompositionView;->i0:Landroid/graphics/Paint;
 
     move-object/from16 v1, p1
 
-    .line 66
     invoke-virtual/range {v1 .. v6}, Landroid/graphics/Canvas;->drawLine(FFFFLandroid/graphics/Paint;)V
 
-    .line 67
     iget-object v1, v0, Lcom/commsource/studio/MaskCompositionView;->i0:Landroid/graphics/Paint;
 
     const/high16 v2, 0x3f000000    # 0.5f
@@ -1978,7 +1799,6 @@
 
     invoke-virtual {v1, v2}, Landroid/graphics/Paint;->setStrokeWidth(F)V
 
-    .line 68
     iget-object v1, v0, Lcom/commsource/studio/MaskCompositionView;->i0:Landroid/graphics/Paint;
 
     sget v2, Lcom/res/provider/ResCOLOR;->white50:I
@@ -1989,7 +1809,6 @@
 
     invoke-virtual {v1, v2}, Landroid/graphics/Paint;->setColor(I)V
 
-    .line 69
     iget-object v1, v0, Lcom/commsource/studio/MaskCompositionView;->i0:Landroid/graphics/Paint;
 
     iget-object v2, v0, Lcom/commsource/studio/MaskCompositionView;->s0:Lcom/commsource/camera/f1/n;
@@ -2008,12 +1827,10 @@
 
     invoke-virtual {v1, v2}, Landroid/graphics/Paint;->setAlpha(I)V
 
-    .line 70
     iget-object v1, v0, Lcom/commsource/studio/MaskCompositionView;->c0:Landroid/graphics/RectF;
 
     iget v2, v1, Landroid/graphics/RectF;->left:F
 
-    .line 71
     iget v3, v1, Landroid/graphics/RectF;->top:F
 
     invoke-virtual {v1}, Landroid/graphics/RectF;->height()F
@@ -2026,12 +1843,10 @@
 
     add-float/2addr v3, v1
 
-    .line 72
     iget-object v1, v0, Lcom/commsource/studio/MaskCompositionView;->c0:Landroid/graphics/RectF;
 
     iget v4, v1, Landroid/graphics/RectF;->right:F
 
-    .line 73
     iget v5, v1, Landroid/graphics/RectF;->top:F
 
     invoke-virtual {v1}, Landroid/graphics/RectF;->height()F
@@ -2042,20 +1857,16 @@
 
     add-float/2addr v5, v1
 
-    .line 74
     iget-object v6, v0, Lcom/commsource/studio/MaskCompositionView;->i0:Landroid/graphics/Paint;
 
     move-object/from16 v1, p1
 
-    .line 75
     invoke-virtual/range {v1 .. v6}, Landroid/graphics/Canvas;->drawLine(FFFFLandroid/graphics/Paint;)V
 
-    .line 76
     iget-object v1, v0, Lcom/commsource/studio/MaskCompositionView;->c0:Landroid/graphics/RectF;
 
     iget v2, v1, Landroid/graphics/RectF;->left:F
 
-    .line 77
     iget v3, v1, Landroid/graphics/RectF;->top:F
 
     invoke-virtual {v1}, Landroid/graphics/RectF;->height()F
@@ -2068,12 +1879,10 @@
 
     add-float/2addr v3, v1
 
-    .line 78
     iget-object v1, v0, Lcom/commsource/studio/MaskCompositionView;->c0:Landroid/graphics/RectF;
 
     iget v4, v1, Landroid/graphics/RectF;->right:F
 
-    .line 79
     iget v5, v1, Landroid/graphics/RectF;->top:F
 
     invoke-virtual {v1}, Landroid/graphics/RectF;->height()F
@@ -2086,15 +1895,12 @@
 
     add-float/2addr v5, v1
 
-    .line 80
     iget-object v6, v0, Lcom/commsource/studio/MaskCompositionView;->i0:Landroid/graphics/Paint;
 
     move-object/from16 v1, p1
 
-    .line 81
     invoke-virtual/range {v1 .. v6}, Landroid/graphics/Canvas;->drawLine(FFFFLandroid/graphics/Paint;)V
 
-    .line 82
     iget-object v1, v0, Lcom/commsource/studio/MaskCompositionView;->c0:Landroid/graphics/RectF;
 
     iget v2, v1, Landroid/graphics/RectF;->left:F
@@ -2107,12 +1913,10 @@
 
     add-float/2addr v2, v1
 
-    .line 83
     iget-object v1, v0, Lcom/commsource/studio/MaskCompositionView;->c0:Landroid/graphics/RectF;
 
     iget v3, v1, Landroid/graphics/RectF;->top:F
 
-    .line 84
     iget v4, v1, Landroid/graphics/RectF;->left:F
 
     invoke-virtual {v1}, Landroid/graphics/RectF;->width()F
@@ -2123,20 +1927,16 @@
 
     add-float/2addr v4, v1
 
-    .line 85
     iget-object v1, v0, Lcom/commsource/studio/MaskCompositionView;->c0:Landroid/graphics/RectF;
 
     iget v5, v1, Landroid/graphics/RectF;->bottom:F
 
-    .line 86
     iget-object v6, v0, Lcom/commsource/studio/MaskCompositionView;->i0:Landroid/graphics/Paint;
 
     move-object/from16 v1, p1
 
-    .line 87
     invoke-virtual/range {v1 .. v6}, Landroid/graphics/Canvas;->drawLine(FFFFLandroid/graphics/Paint;)V
 
-    .line 88
     iget-object v1, v0, Lcom/commsource/studio/MaskCompositionView;->c0:Landroid/graphics/RectF;
 
     iget v2, v1, Landroid/graphics/RectF;->left:F
@@ -2151,12 +1951,10 @@
 
     add-float/2addr v2, v1
 
-    .line 89
     iget-object v1, v0, Lcom/commsource/studio/MaskCompositionView;->c0:Landroid/graphics/RectF;
 
     iget v3, v1, Landroid/graphics/RectF;->top:F
 
-    .line 90
     iget v4, v1, Landroid/graphics/RectF;->left:F
 
     invoke-virtual {v1}, Landroid/graphics/RectF;->width()F
@@ -2169,23 +1967,18 @@
 
     add-float/2addr v4, v1
 
-    .line 91
     iget-object v1, v0, Lcom/commsource/studio/MaskCompositionView;->c0:Landroid/graphics/RectF;
 
     iget v5, v1, Landroid/graphics/RectF;->bottom:F
 
-    .line 92
     iget-object v6, v0, Lcom/commsource/studio/MaskCompositionView;->i0:Landroid/graphics/Paint;
 
     move-object/from16 v1, p1
 
-    .line 93
     invoke-virtual/range {v1 .. v6}, Landroid/graphics/Canvas;->drawLine(FFFFLandroid/graphics/Paint;)V
 
-    .line 94
     invoke-virtual/range {p1 .. p1}, Landroid/graphics/Canvas;->restore()V
 
-    .line 95
     invoke-static {v8}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2212,7 +2005,6 @@
 
     new-array v1, v1, [F
 
-    .line 1
     invoke-virtual {p1}, Landroid/view/MotionEvent;->getX()F
 
     move-result v2
@@ -2229,10 +2021,8 @@
 
     aput p1, v1, v2
 
-    .line 2
     invoke-virtual {p0, v1}, Lcom/commsource/studio/MaskCompositionView;->y([F)V
 
-    .line 3
     iget-object p1, p0, Lcom/commsource/studio/MaskCompositionView;->c0:Landroid/graphics/RectF;
 
     iget v2, p1, Landroid/graphics/RectF;->left:F
@@ -2251,7 +2041,6 @@
 
     goto/16 :goto_0
 
-    .line 4
     :cond_0
     iget-object p1, p0, Lcom/commsource/studio/MaskCompositionView;->c0:Landroid/graphics/RectF;
 
@@ -2269,7 +2058,6 @@
 
     goto :goto_0
 
-    .line 5
     :cond_1
     iget-object p1, p0, Lcom/commsource/studio/MaskCompositionView;->c0:Landroid/graphics/RectF;
 
@@ -2287,7 +2075,6 @@
 
     goto :goto_0
 
-    .line 6
     :cond_2
     iget-object p1, p0, Lcom/commsource/studio/MaskCompositionView;->c0:Landroid/graphics/RectF;
 
@@ -2305,7 +2092,6 @@
 
     goto :goto_0
 
-    .line 7
     :cond_3
     iget-object p1, p0, Lcom/commsource/studio/MaskCompositionView;->c0:Landroid/graphics/RectF;
 
@@ -2325,7 +2111,6 @@
 
     goto :goto_0
 
-    .line 8
     :cond_4
     iget-object p1, p0, Lcom/commsource/studio/MaskCompositionView;->c0:Landroid/graphics/RectF;
 
@@ -2347,7 +2132,6 @@
 
     goto :goto_0
 
-    .line 9
     :cond_5
     iget-object p1, p0, Lcom/commsource/studio/MaskCompositionView;->c0:Landroid/graphics/RectF;
 
@@ -2367,7 +2151,6 @@
 
     goto :goto_0
 
-    .line 10
     :cond_6
     iget-object p1, p0, Lcom/commsource/studio/MaskCompositionView;->c0:Landroid/graphics/RectF;
 
@@ -2392,7 +2175,6 @@
     :cond_7
     const/4 p1, 0x0
 
-    .line 11
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -2406,7 +2188,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/studio/MaskCompositionView;->g:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2421,7 +2202,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/studio/MaskCompositionView;->p:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2436,7 +2216,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/studio/MaskCompositionView;->q0:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2451,7 +2230,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/MaskCompositionView;->C0:Lcom/commsource/camera/f1/l;
 
     const-string v2, "validAnimator"
@@ -2488,7 +2266,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/MaskCompositionView;->J0:I
 
     const/4 v2, 0x1
@@ -2497,14 +2274,12 @@
 
     iput v1, p0, Lcom/commsource/studio/MaskCompositionView;->J0:I
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/MaskCompositionView;->H0:Landroid/graphics/RectF;
 
     iget-object v3, p0, Lcom/commsource/studio/MaskCompositionView;->c0:Landroid/graphics/RectF;
 
     invoke-virtual {v1, v3}, Landroid/graphics/RectF;->set(Landroid/graphics/RectF;)V
 
-    .line 3
     sget v1, Lcom/commsource/studio/MaskCompositionView;->Y0:F
 
     invoke-virtual {p0}, Lcom/commsource/studio/MaskCompositionView;->getViewScaleFractor()F
@@ -2513,14 +2288,12 @@
 
     div-float/2addr v1, v3
 
-    .line 4
     iget-object v3, p0, Lcom/commsource/studio/MaskCompositionView;->G0:Landroid/graphics/RectF;
 
     iget-object v4, p0, Lcom/commsource/studio/MaskCompositionView;->c0:Landroid/graphics/RectF;
 
     invoke-virtual {v3, v4}, Landroid/graphics/RectF;->set(Landroid/graphics/RectF;)V
 
-    .line 5
     iget-object v3, p0, Lcom/commsource/studio/MaskCompositionView;->G0:Landroid/graphics/RectF;
 
     iget v4, v3, Landroid/graphics/RectF;->left:F
@@ -2529,21 +2302,18 @@
 
     iput v4, v3, Landroid/graphics/RectF;->left:F
 
-    .line 6
     iget v4, v3, Landroid/graphics/RectF;->top:F
 
     add-float/2addr v4, p2
 
     iput v4, v3, Landroid/graphics/RectF;->top:F
 
-    .line 7
     iget v4, v3, Landroid/graphics/RectF;->right:F
 
     add-float/2addr v4, p3
 
     iput v4, v3, Landroid/graphics/RectF;->right:F
 
-    .line 8
     iget v4, v3, Landroid/graphics/RectF;->bottom:F
 
     add-float/2addr v4, p4
@@ -2556,7 +2326,6 @@
 
     if-eqz v5, :cond_1
 
-    .line 9
     invoke-virtual {v3}, Landroid/graphics/RectF;->width()F
 
     move-result v3
@@ -2565,12 +2334,10 @@
 
     if-lez v3, :cond_0
 
-    .line 10
     iget-object v3, p0, Lcom/commsource/studio/MaskCompositionView;->S:Lcom/commsource/studio/MatrixBox;
 
     invoke-virtual {v3, p1, v4}, Lcom/commsource/studio/MatrixBox;->postTranslate(FF)V
 
-    .line 11
     iget-object v3, p0, Lcom/commsource/studio/MaskCompositionView;->c0:Landroid/graphics/RectF;
 
     iget v5, v3, Landroid/graphics/RectF;->left:F
@@ -2581,7 +2348,6 @@
 
     goto :goto_0
 
-    .line 12
     :cond_0
     iget-object v3, p0, Lcom/commsource/studio/MaskCompositionView;->S:Lcom/commsource/studio/MatrixBox;
 
@@ -2595,7 +2361,6 @@
 
     invoke-virtual {v3, v5, v4}, Lcom/commsource/studio/MatrixBox;->postTranslate(FF)V
 
-    .line 13
     iget-object v3, p0, Lcom/commsource/studio/MaskCompositionView;->c0:Landroid/graphics/RectF;
 
     iget v5, v3, Landroid/graphics/RectF;->right:F
@@ -2610,7 +2375,6 @@
 
     if-eqz v3, :cond_3
 
-    .line 14
     iget-object v3, p0, Lcom/commsource/studio/MaskCompositionView;->G0:Landroid/graphics/RectF;
 
     invoke-virtual {v3}, Landroid/graphics/RectF;->height()F
@@ -2621,12 +2385,10 @@
 
     if-lez v3, :cond_2
 
-    .line 15
     iget-object v3, p0, Lcom/commsource/studio/MaskCompositionView;->S:Lcom/commsource/studio/MatrixBox;
 
     invoke-virtual {v3, v4, p2}, Lcom/commsource/studio/MatrixBox;->postTranslate(FF)V
 
-    .line 16
     iget-object v3, p0, Lcom/commsource/studio/MaskCompositionView;->c0:Landroid/graphics/RectF;
 
     iget v5, v3, Landroid/graphics/RectF;->top:F
@@ -2637,7 +2399,6 @@
 
     goto :goto_1
 
-    .line 17
     :cond_2
     iget-object v3, p0, Lcom/commsource/studio/MaskCompositionView;->S:Lcom/commsource/studio/MatrixBox;
 
@@ -2651,7 +2412,6 @@
 
     invoke-virtual {v3, v4, v5}, Lcom/commsource/studio/MatrixBox;->postTranslate(FF)V
 
-    .line 18
     iget-object v3, p0, Lcom/commsource/studio/MaskCompositionView;->c0:Landroid/graphics/RectF;
 
     iget v5, v3, Landroid/graphics/RectF;->bottom:F
@@ -2666,7 +2426,6 @@
 
     if-eqz v3, :cond_5
 
-    .line 19
     iget-object v3, p0, Lcom/commsource/studio/MaskCompositionView;->G0:Landroid/graphics/RectF;
 
     invoke-virtual {v3}, Landroid/graphics/RectF;->width()F
@@ -2677,7 +2436,6 @@
 
     if-lez v3, :cond_4
 
-    .line 20
     iget-object v3, p0, Lcom/commsource/studio/MaskCompositionView;->c0:Landroid/graphics/RectF;
 
     iget v5, v3, Landroid/graphics/RectF;->right:F
@@ -2688,7 +2446,6 @@
 
     goto :goto_2
 
-    .line 21
     :cond_4
     iget-object v3, p0, Lcom/commsource/studio/MaskCompositionView;->c0:Landroid/graphics/RectF;
 
@@ -2704,7 +2461,6 @@
 
     if-eqz v3, :cond_7
 
-    .line 22
     iget-object v3, p0, Lcom/commsource/studio/MaskCompositionView;->G0:Landroid/graphics/RectF;
 
     invoke-virtual {v3}, Landroid/graphics/RectF;->height()F
@@ -2715,7 +2471,6 @@
 
     if-lez v3, :cond_6
 
-    .line 23
     iget-object v1, p0, Lcom/commsource/studio/MaskCompositionView;->c0:Landroid/graphics/RectF;
 
     iget v3, v1, Landroid/graphics/RectF;->bottom:F
@@ -2726,7 +2481,6 @@
 
     goto :goto_3
 
-    .line 24
     :cond_6
     iget-object v3, p0, Lcom/commsource/studio/MaskCompositionView;->c0:Landroid/graphics/RectF;
 
@@ -2742,7 +2496,6 @@
 
     if-eqz p5, :cond_e
 
-    .line 25
     iget-object v3, p0, Lcom/commsource/studio/MaskCompositionView;->m0:Lcom/commsource/studio/function/composition/CompositionView$AdjustEnum;
 
     if-nez v3, :cond_8
@@ -2762,83 +2515,69 @@
 
     goto/16 :goto_4
 
-    .line 26
     :pswitch_0
     iget-object v3, p0, Lcom/commsource/studio/MaskCompositionView;->I0:[F
 
-    .line 27
     iget-object v4, p0, Lcom/commsource/studio/MaskCompositionView;->c0:Landroid/graphics/RectF;
 
     iget v5, v4, Landroid/graphics/RectF;->right:F
 
     aput v5, v3, v1
 
-    .line 28
     iget v4, v4, Landroid/graphics/RectF;->bottom:F
 
     aput v4, v3, v2
 
     goto :goto_4
 
-    .line 29
     :pswitch_1
     iget-object v3, p0, Lcom/commsource/studio/MaskCompositionView;->I0:[F
 
-    .line 30
     iget-object v4, p0, Lcom/commsource/studio/MaskCompositionView;->c0:Landroid/graphics/RectF;
 
     iget v5, v4, Landroid/graphics/RectF;->left:F
 
     aput v5, v3, v1
 
-    .line 31
     iget v4, v4, Landroid/graphics/RectF;->bottom:F
 
     aput v4, v3, v2
 
     goto :goto_4
 
-    .line 32
     :pswitch_2
     iget-object v3, p0, Lcom/commsource/studio/MaskCompositionView;->I0:[F
 
-    .line 33
     iget-object v4, p0, Lcom/commsource/studio/MaskCompositionView;->c0:Landroid/graphics/RectF;
 
     iget v5, v4, Landroid/graphics/RectF;->right:F
 
     aput v5, v3, v1
 
-    .line 34
     iget v4, v4, Landroid/graphics/RectF;->top:F
 
     aput v4, v3, v2
 
     goto :goto_4
 
-    .line 35
     :pswitch_3
     iget-object v3, p0, Lcom/commsource/studio/MaskCompositionView;->I0:[F
 
-    .line 36
     iget-object v4, p0, Lcom/commsource/studio/MaskCompositionView;->c0:Landroid/graphics/RectF;
 
     iget v5, v4, Landroid/graphics/RectF;->left:F
 
     aput v5, v3, v1
 
-    .line 37
     iget v4, v4, Landroid/graphics/RectF;->top:F
 
     aput v4, v3, v2
 
     goto :goto_4
 
-    .line 38
     :pswitch_4
     iget-object v3, p0, Lcom/commsource/studio/MaskCompositionView;->I0:[F
 
-    .line 39
     iget-object v4, p0, Lcom/commsource/studio/MaskCompositionView;->c0:Landroid/graphics/RectF;
 
     invoke-virtual {v4}, Landroid/graphics/RectF;->centerX()F
@@ -2847,7 +2586,6 @@
 
     aput v4, v3, v1
 
-    .line 40
     iget-object v4, p0, Lcom/commsource/studio/MaskCompositionView;->c0:Landroid/graphics/RectF;
 
     iget v4, v4, Landroid/graphics/RectF;->bottom:F
@@ -2856,18 +2594,15 @@
 
     goto :goto_4
 
-    .line 41
     :pswitch_5
     iget-object v3, p0, Lcom/commsource/studio/MaskCompositionView;->I0:[F
 
-    .line 42
     iget-object v4, p0, Lcom/commsource/studio/MaskCompositionView;->c0:Landroid/graphics/RectF;
 
     iget v5, v4, Landroid/graphics/RectF;->right:F
 
     aput v5, v3, v1
 
-    .line 43
     invoke-virtual {v4}, Landroid/graphics/RectF;->centerY()F
 
     move-result v4
@@ -2876,11 +2611,9 @@
 
     goto :goto_4
 
-    .line 44
     :pswitch_6
     iget-object v3, p0, Lcom/commsource/studio/MaskCompositionView;->I0:[F
 
-    .line 45
     iget-object v4, p0, Lcom/commsource/studio/MaskCompositionView;->c0:Landroid/graphics/RectF;
 
     invoke-virtual {v4}, Landroid/graphics/RectF;->centerX()F
@@ -2889,7 +2622,6 @@
 
     aput v4, v3, v1
 
-    .line 46
     iget-object v4, p0, Lcom/commsource/studio/MaskCompositionView;->c0:Landroid/graphics/RectF;
 
     iget v4, v4, Landroid/graphics/RectF;->top:F
@@ -2898,25 +2630,21 @@
 
     goto :goto_4
 
-    .line 47
     :pswitch_7
     iget-object v3, p0, Lcom/commsource/studio/MaskCompositionView;->I0:[F
 
-    .line 48
     iget-object v4, p0, Lcom/commsource/studio/MaskCompositionView;->c0:Landroid/graphics/RectF;
 
     iget v5, v4, Landroid/graphics/RectF;->left:F
 
     aput v5, v3, v1
 
-    .line 49
     invoke-virtual {v4}, Landroid/graphics/RectF;->centerY()F
 
     move-result v4
 
     aput v4, v3, v2
 
-    .line 50
     :goto_4
     iget-object v3, p0, Lcom/commsource/studio/MaskCompositionView;->N:Lcom/commsource/studio/MatrixBox;
 
@@ -2928,7 +2656,6 @@
 
     invoke-virtual {v3, v4}, Landroid/graphics/Matrix;->mapPoints([F)V
 
-    .line 51
     iget-object v3, p0, Lcom/commsource/studio/MaskCompositionView;->F0:Landroid/graphics/RectF;
 
     iget-object v4, p0, Lcom/commsource/studio/MaskCompositionView;->I0:[F
@@ -2943,7 +2670,6 @@
 
     if-nez v3, :cond_d
 
-    .line 52
     invoke-static {p1}, Ljava/lang/Math;->abs(F)F
 
     move-result v3
@@ -2954,7 +2680,6 @@
 
     if-gtz v3, :cond_9
 
-    .line 53
     invoke-static {p2}, Ljava/lang/Math;->abs(F)F
 
     move-result v3
@@ -2963,7 +2688,6 @@
 
     if-gtz v3, :cond_9
 
-    .line 54
     invoke-static {p3}, Ljava/lang/Math;->abs(F)F
 
     move-result v3
@@ -2972,7 +2696,6 @@
 
     if-gtz v3, :cond_9
 
-    .line 55
     invoke-static {p4}, Ljava/lang/Math;->abs(F)F
 
     move-result v3
@@ -2997,7 +2720,6 @@
     :goto_5
     if-eqz v2, :cond_c
 
-    .line 56
     iget-object v2, p0, Lcom/commsource/studio/MaskCompositionView;->c0:Landroid/graphics/RectF;
 
     iget-object v3, p0, Lcom/commsource/studio/MaskCompositionView;->H0:Landroid/graphics/RectF;
@@ -3006,7 +2728,6 @@
 
     neg-float p1, p1
 
-    .line 57
     sget v2, Lcom/commsource/studio/MaskCompositionView;->R0:I
 
     int-to-float v3, v2
@@ -3039,7 +2760,6 @@
 
     goto :goto_6
 
-    .line 58
     :cond_c
     iget-object v1, p0, Lcom/commsource/studio/MaskCompositionView;->c0:Landroid/graphics/RectF;
 
@@ -3047,7 +2767,6 @@
 
     invoke-virtual {v1, v2}, Landroid/graphics/RectF;->set(Landroid/graphics/RectF;)V
 
-    .line 59
     sget v1, Lcom/commsource/studio/MaskCompositionView;->R0:I
 
     int-to-float v2, v1
@@ -3072,12 +2791,10 @@
 
     invoke-virtual/range {v3 .. v8}, Lcom/commsource/studio/MaskCompositionView;->G(FFFFZ)V
 
-    .line 60
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 61
     :cond_d
     :goto_6
     iget-object p1, p0, Lcom/commsource/studio/MaskCompositionView;->c:Landroid/graphics/RectF;
@@ -3086,7 +2803,6 @@
 
     invoke-virtual {p1, p2}, Landroid/graphics/RectF;->set(Landroid/graphics/RectF;)V
 
-    .line 62
     :cond_e
     new-instance p1, Ljava/lang/StringBuilder;
 
@@ -3112,13 +2828,10 @@
 
     invoke-static {p1, p3, p4, p2, p4}, Lcom/commsource/util/l0;->L(Ljava/lang/String;Ljava/lang/String;Lcom/meitu/library/util/Debug/Debug$DebugLevel;ILjava/lang/Object;)V
 
-    .line 63
     iput v1, p0, Lcom/commsource/studio/MaskCompositionView;->J0:I
 
-    .line 64
     invoke-virtual {p0, v1}, Lcom/commsource/studio/MaskCompositionView;->L(Z)V
 
-    .line 65
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -3161,7 +2874,6 @@
 
     if-eqz p4, :cond_2
 
-    .line 1
     invoke-virtual {p4}, Lcom/commsource/studio/bean/d;->c()Lcom/commsource/studio/y;
 
     move-result-object p4
@@ -3174,10 +2886,8 @@
 
     if-eqz p4, :cond_2
 
-    .line 2
     iput-object p4, p0, Lcom/commsource/studio/MaskCompositionView;->d:Landroid/graphics/Bitmap;
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/studio/MaskCompositionView;->a0:Landroid/graphics/Rect;
 
     invoke-virtual {p4}, Landroid/graphics/Bitmap;->getWidth()I
@@ -3192,7 +2902,6 @@
 
     invoke-virtual {v1, v3, v3, v2, p4}, Landroid/graphics/Rect;->set(IIII)V
 
-    .line 4
     iget-object p4, p0, Lcom/commsource/studio/MaskCompositionView;->f:Landroid/graphics/RectF;
 
     iget-object v1, p0, Lcom/commsource/studio/MaskCompositionView;->a0:Landroid/graphics/Rect;
@@ -3201,17 +2910,14 @@
 
     if-eqz p5, :cond_0
 
-    .line 5
     iget-object p4, p0, Lcom/commsource/studio/MaskCompositionView;->T:Lcom/commsource/studio/MatrixBox;
 
     invoke-virtual {p4, p5}, Lcom/commsource/studio/MatrixBox;->set(Lcom/commsource/studio/MatrixBox;)V
 
-    .line 6
     iget-object p4, p0, Lcom/commsource/studio/MaskCompositionView;->U:Lcom/commsource/studio/MatrixBox;
 
     invoke-virtual {p4, p5}, Lcom/commsource/studio/MatrixBox;->set(Lcom/commsource/studio/MatrixBox;)V
 
-    .line 7
     iget-object p4, p0, Lcom/commsource/studio/MaskCompositionView;->D0:Lcom/commsource/studio/MatrixBox;
 
     invoke-virtual {p4, p5}, Lcom/commsource/studio/MatrixBox;->set(Lcom/commsource/studio/MatrixBox;)V
@@ -3219,7 +2925,6 @@
     :cond_0
     if-eqz p6, :cond_2
 
-    .line 8
     invoke-virtual {p6}, Landroid/graphics/RectF;->width()F
 
     move-result p4
@@ -3238,21 +2943,18 @@
 
     if-nez p4, :cond_1
 
-    .line 9
     iget-object p4, p0, Lcom/commsource/studio/MaskCompositionView;->b0:Landroid/graphics/RectF;
 
     iget-object p5, p0, Lcom/commsource/studio/MaskCompositionView;->a0:Landroid/graphics/Rect;
 
     invoke-virtual {p4, p5}, Landroid/graphics/RectF;->set(Landroid/graphics/Rect;)V
 
-    .line 10
     iget-object p4, p0, Lcom/commsource/studio/MaskCompositionView;->c0:Landroid/graphics/RectF;
 
     iget-object p5, p0, Lcom/commsource/studio/MaskCompositionView;->a0:Landroid/graphics/Rect;
 
     invoke-virtual {p4, p5}, Landroid/graphics/RectF;->set(Landroid/graphics/Rect;)V
 
-    .line 11
     iget-object p4, p0, Lcom/commsource/studio/MaskCompositionView;->c:Landroid/graphics/RectF;
 
     iget-object p5, p0, Lcom/commsource/studio/MaskCompositionView;->a0:Landroid/graphics/Rect;
@@ -3261,48 +2963,38 @@
 
     goto :goto_0
 
-    .line 12
     :cond_1
     iget-object p4, p0, Lcom/commsource/studio/MaskCompositionView;->b0:Landroid/graphics/RectF;
 
     invoke-virtual {p4, p6}, Landroid/graphics/RectF;->set(Landroid/graphics/RectF;)V
 
-    .line 13
     iget-object p4, p0, Lcom/commsource/studio/MaskCompositionView;->c0:Landroid/graphics/RectF;
 
     invoke-virtual {p4, p6}, Landroid/graphics/RectF;->set(Landroid/graphics/RectF;)V
 
-    .line 14
     iget-object p4, p0, Lcom/commsource/studio/MaskCompositionView;->c:Landroid/graphics/RectF;
 
     invoke-virtual {p4, p6}, Landroid/graphics/RectF;->set(Landroid/graphics/RectF;)V
 
-    .line 15
     :goto_0
     invoke-virtual {p0}, Landroid/view/View;->postInvalidate()V
 
-    .line 16
     :cond_2
     iput-boolean p2, p0, Lcom/commsource/studio/MaskCompositionView;->g:Z
 
-    .line 17
     iput-boolean p3, p0, Lcom/commsource/studio/MaskCompositionView;->p:Z
 
     if-eqz p1, :cond_3
 
-    .line 18
     invoke-virtual {p1}, Ljava/lang/Number;->floatValue()F
 
     move-result p1
 
-    .line 19
     iput p1, p0, Lcom/commsource/studio/MaskCompositionView;->d0:F
 
-    .line 20
     :cond_3
     invoke-virtual {p0}, Landroid/view/View;->postInvalidate()V
 
-    .line 21
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -3331,7 +3023,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/MaskCompositionView;->T:Lcom/commsource/studio/MatrixBox;
 
     invoke-virtual {v1}, Lcom/commsource/studio/MatrixBox;->getMatrix()Landroid/graphics/Matrix;
@@ -3360,24 +3051,19 @@
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-interface {p1}, Lcotlin/jvm/u/a;->invoke()Ljava/lang/Object;
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 4
     :cond_0
     iput-object p1, p0, Lcom/commsource/studio/MaskCompositionView;->P0:Lcotlin/jvm/u/a;
 
-    .line 5
     iget-object p1, p0, Lcom/commsource/studio/MaskCompositionView;->O0:Lcom/commsource/camera/f1/l;
 
     invoke-virtual {p1}, Lcom/commsource/camera/f1/l;->a()V
 
-    .line 6
     iget-object p1, p0, Lcom/commsource/studio/MaskCompositionView;->K0:Lcom/commsource/camera/f1/n;
 
     iget-object v1, p0, Lcom/commsource/studio/MaskCompositionView;->c0:Landroid/graphics/RectF;
@@ -3390,7 +3076,6 @@
 
     invoke-virtual {p1, v1, v2}, Lcom/commsource/camera/f1/n;->f(FF)V
 
-    .line 7
     iget-object p1, p0, Lcom/commsource/studio/MaskCompositionView;->L0:Lcom/commsource/camera/f1/n;
 
     iget-object v1, p0, Lcom/commsource/studio/MaskCompositionView;->c0:Landroid/graphics/RectF;
@@ -3403,7 +3088,6 @@
 
     invoke-virtual {p1, v1, v2}, Lcom/commsource/camera/f1/n;->f(FF)V
 
-    .line 8
     iget-object p1, p0, Lcom/commsource/studio/MaskCompositionView;->M0:Lcom/commsource/camera/f1/n;
 
     iget-object v1, p0, Lcom/commsource/studio/MaskCompositionView;->c0:Landroid/graphics/RectF;
@@ -3416,7 +3100,6 @@
 
     invoke-virtual {p1, v1, v2}, Lcom/commsource/camera/f1/n;->f(FF)V
 
-    .line 9
     iget-object p1, p0, Lcom/commsource/studio/MaskCompositionView;->N0:Lcom/commsource/camera/f1/n;
 
     iget-object v1, p0, Lcom/commsource/studio/MaskCompositionView;->c0:Landroid/graphics/RectF;
@@ -3429,7 +3112,6 @@
 
     invoke-virtual {p1, v1, v2}, Lcom/commsource/camera/f1/n;->f(FF)V
 
-    .line 10
     iget-object v3, p0, Lcom/commsource/studio/MaskCompositionView;->U:Lcom/commsource/studio/MatrixBox;
 
     iget-object v4, p0, Lcom/commsource/studio/MaskCompositionView;->T:Lcom/commsource/studio/MatrixBox;
@@ -3448,12 +3130,10 @@
 
     invoke-static/range {v3 .. v11}, Lcom/commsource/studio/MatrixBox;->animateToMatrix$default(Lcom/commsource/studio/MatrixBox;Lcom/commsource/studio/MatrixBox;Landroid/graphics/PointF;JLcotlin/jvm/u/a;Lcotlin/jvm/u/a;ILjava/lang/Object;)V
 
-    .line 11
     iget-object p1, p0, Lcom/commsource/studio/MaskCompositionView;->O0:Lcom/commsource/camera/f1/l;
 
     invoke-virtual {p1}, Lcom/commsource/camera/f1/l;->j()V
 
-    .line 12
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -3466,26 +3146,22 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/MaskCompositionView;->C0:Lcom/commsource/camera/f1/l;
 
     invoke-virtual {v1}, Lcom/commsource/camera/f1/l;->a()V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/MaskCompositionView;->u0:Landroid/graphics/RectF;
 
     iget-object v2, p0, Lcom/commsource/studio/MaskCompositionView;->a0:Landroid/graphics/Rect;
 
     invoke-virtual {v1, v2}, Landroid/graphics/RectF;->set(Landroid/graphics/Rect;)V
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/studio/MaskCompositionView;->v0:Landroid/graphics/RectF;
 
     iget-object v2, p0, Lcom/commsource/studio/MaskCompositionView;->c0:Landroid/graphics/RectF;
 
     invoke-virtual {v1, v2}, Landroid/graphics/RectF;->set(Landroid/graphics/RectF;)V
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/studio/MaskCompositionView;->U:Lcom/commsource/studio/MatrixBox;
 
     invoke-virtual {v1}, Lcom/commsource/studio/MatrixBox;->calculateInvertMatrix()Landroid/graphics/Matrix;
@@ -3496,7 +3172,6 @@
 
     invoke-virtual {v1, v2}, Landroid/graphics/Matrix;->mapRect(Landroid/graphics/RectF;)Z
 
-    .line 5
     iget-object v1, p0, Lcom/commsource/studio/MaskCompositionView;->u0:Landroid/graphics/RectF;
 
     iget-object v2, p0, Lcom/commsource/studio/MaskCompositionView;->v0:Landroid/graphics/RectF;
@@ -3507,12 +3182,10 @@
 
     if-eqz v1, :cond_0
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 7
     :cond_0
     iget-object v1, p0, Lcom/commsource/studio/MaskCompositionView;->u0:Landroid/graphics/RectF;
 
@@ -3554,7 +3227,6 @@
 
     if-ltz v1, :cond_5
 
-    .line 8
     iget-object v1, p0, Lcom/commsource/studio/MaskCompositionView;->u0:Landroid/graphics/RectF;
 
     iget v4, v1, Landroid/graphics/RectF;->left:F
@@ -3572,7 +3244,6 @@
 
     goto :goto_1
 
-    .line 9
     :cond_1
     iget v4, v1, Landroid/graphics/RectF;->right:F
 
@@ -3587,7 +3258,6 @@
     :cond_2
     const/4 v6, 0x0
 
-    .line 10
     :goto_1
     iget v4, v1, Landroid/graphics/RectF;->top:F
 
@@ -3604,7 +3274,6 @@
 
     goto/16 :goto_7
 
-    .line 11
     :cond_3
     iget v1, v1, Landroid/graphics/RectF;->bottom:F
 
@@ -3625,7 +3294,6 @@
 
     goto :goto_2
 
-    .line 12
     :cond_5
     iget-object v1, p0, Lcom/commsource/studio/MaskCompositionView;->v0:Landroid/graphics/RectF;
 
@@ -3641,7 +3309,6 @@
 
     div-float/2addr v1, v4
 
-    .line 13
     iget-object v4, p0, Lcom/commsource/studio/MaskCompositionView;->v0:Landroid/graphics/RectF;
 
     invoke-virtual {v4}, Landroid/graphics/RectF;->height()F
@@ -3660,19 +3327,16 @@
 
     move-result v1
 
-    .line 14
     iget-object v4, p0, Lcom/commsource/studio/MaskCompositionView;->x0:Landroid/graphics/RectF;
 
     iget-object v5, p0, Lcom/commsource/studio/MaskCompositionView;->u0:Landroid/graphics/RectF;
 
     invoke-virtual {v4, v5}, Landroid/graphics/RectF;->set(Landroid/graphics/RectF;)V
 
-    .line 15
     iget-object v4, p0, Lcom/commsource/studio/MaskCompositionView;->w0:Landroid/graphics/Matrix;
 
     invoke-virtual {v4}, Landroid/graphics/Matrix;->reset()V
 
-    .line 16
     iget-object v4, p0, Lcom/commsource/studio/MaskCompositionView;->w0:Landroid/graphics/Matrix;
 
     iget-object v5, p0, Lcom/commsource/studio/MaskCompositionView;->u0:Landroid/graphics/RectF;
@@ -3689,14 +3353,12 @@
 
     invoke-virtual {v4, v1, v1, v5, v6}, Landroid/graphics/Matrix;->postScale(FFFF)Z
 
-    .line 17
     iget-object v4, p0, Lcom/commsource/studio/MaskCompositionView;->w0:Landroid/graphics/Matrix;
 
     iget-object v5, p0, Lcom/commsource/studio/MaskCompositionView;->x0:Landroid/graphics/RectF;
 
     invoke-virtual {v4, v5}, Landroid/graphics/Matrix;->mapRect(Landroid/graphics/RectF;)Z
 
-    .line 18
     iget-object v4, p0, Lcom/commsource/studio/MaskCompositionView;->x0:Landroid/graphics/RectF;
 
     iget-object v5, p0, Lcom/commsource/studio/MaskCompositionView;->v0:Landroid/graphics/RectF;
@@ -3707,7 +3369,6 @@
 
     if-nez v4, :cond_a
 
-    .line 19
     iget-object v4, p0, Lcom/commsource/studio/MaskCompositionView;->x0:Landroid/graphics/RectF;
 
     iget v5, v4, Landroid/graphics/RectF;->left:F
@@ -3725,7 +3386,6 @@
 
     goto :goto_4
 
-    .line 20
     :cond_6
     iget v5, v4, Landroid/graphics/RectF;->right:F
 
@@ -3740,7 +3400,6 @@
     :cond_7
     const/4 v7, 0x0
 
-    .line 21
     :goto_4
     iget v5, v4, Landroid/graphics/RectF;->top:F
 
@@ -3759,7 +3418,6 @@
 
     goto :goto_7
 
-    .line 22
     :cond_8
     iget v4, v4, Landroid/graphics/RectF;->bottom:F
 
@@ -3784,7 +3442,6 @@
     :goto_6
     const/4 v7, 0x0
 
-    .line 23
     :goto_7
     iget-object v4, p0, Lcom/commsource/studio/MaskCompositionView;->y0:Landroid/graphics/Matrix;
 
@@ -3798,38 +3455,31 @@
 
     if-eqz p1, :cond_b
 
-    .line 24
     iget-object p1, p0, Lcom/commsource/studio/MaskCompositionView;->z0:Lcom/commsource/camera/f1/n;
 
     invoke-virtual {p1, v3, v1}, Lcom/commsource/camera/f1/n;->f(FF)V
 
-    .line 25
     iget-object p1, p0, Lcom/commsource/studio/MaskCompositionView;->A0:Lcom/commsource/camera/f1/n;
 
     invoke-virtual {p1, v2, v6}, Lcom/commsource/camera/f1/n;->f(FF)V
 
-    .line 26
     iget-object p1, p0, Lcom/commsource/studio/MaskCompositionView;->B0:Lcom/commsource/camera/f1/n;
 
     invoke-virtual {p1, v2, v7}, Lcom/commsource/camera/f1/n;->f(FF)V
 
-    .line 27
     iget-object p1, p0, Lcom/commsource/studio/MaskCompositionView;->C0:Lcom/commsource/camera/f1/l;
 
     invoke-virtual {p1}, Lcom/commsource/camera/f1/l;->j()V
 
     goto :goto_8
 
-    .line 28
     :cond_b
     iget-object p1, p0, Lcom/commsource/studio/MaskCompositionView;->U:Lcom/commsource/studio/MatrixBox;
 
     iget-object v2, p0, Lcom/commsource/studio/MaskCompositionView;->w0:Landroid/graphics/Matrix;
 
-    .line 29
     invoke-virtual {v2}, Landroid/graphics/Matrix;->reset()V
 
-    .line 30
     iget-object v3, p0, Lcom/commsource/studio/MaskCompositionView;->a0:Landroid/graphics/Rect;
 
     invoke-virtual {v3}, Landroid/graphics/Rect;->centerX()I
@@ -3848,21 +3498,16 @@
 
     invoke-virtual {v2, v1, v1, v3, v4}, Landroid/graphics/Matrix;->postScale(FFFF)Z
 
-    .line 31
     invoke-virtual {v2, v6, v7}, Landroid/graphics/Matrix;->postTranslate(FF)Z
 
-    .line 32
     iget-object v1, p0, Lcom/commsource/studio/MaskCompositionView;->y0:Landroid/graphics/Matrix;
 
     invoke-virtual {v2, v1}, Landroid/graphics/Matrix;->postConcat(Landroid/graphics/Matrix;)Z
 
-    .line 33
     invoke-virtual {p1, v2}, Lcom/commsource/studio/MatrixBox;->set(Landroid/graphics/Matrix;)V
 
-    .line 34
     invoke-virtual {p0}, Landroid/view/View;->invalidate()V
 
-    .line 35
     :goto_8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -3876,36 +3521,30 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/MaskCompositionView;->N:Lcom/commsource/studio/MatrixBox;
 
     invoke-virtual {v1}, Lcom/commsource/studio/MatrixBox;->reset()V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/MaskCompositionView;->N:Lcom/commsource/studio/MatrixBox;
 
     iget-object v2, p0, Lcom/commsource/studio/MaskCompositionView;->K:Lcom/commsource/studio/MatrixBox;
 
     invoke-virtual {v1, v2}, Lcom/commsource/studio/MatrixBox;->postConcat(Lcom/commsource/studio/MatrixBox;)V
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/studio/MaskCompositionView;->N:Lcom/commsource/studio/MatrixBox;
 
     iget-object v2, p0, Lcom/commsource/studio/MaskCompositionView;->L:Lcom/commsource/studio/MatrixBox;
 
     invoke-virtual {v1, v2}, Lcom/commsource/studio/MatrixBox;->postConcat(Lcom/commsource/studio/MatrixBox;)V
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/studio/MaskCompositionView;->N:Lcom/commsource/studio/MatrixBox;
 
     iget-object v2, p0, Lcom/commsource/studio/MaskCompositionView;->M:Lcom/commsource/studio/MatrixBox;
 
     invoke-virtual {v1, v2}, Lcom/commsource/studio/MatrixBox;->postConcat(Lcom/commsource/studio/MatrixBox;)V
 
-    .line 5
     invoke-virtual {p0}, Landroid/view/View;->postInvalidate()V
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -3918,17 +3557,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/MaskCompositionView;->N:Lcom/commsource/studio/MatrixBox;
 
     invoke-virtual {v1}, Lcom/commsource/studio/MatrixBox;->getRotate()F
 
     move-result v1
 
-    .line 2
     iget-object v2, p0, Lcom/commsource/studio/MaskCompositionView;->R:[Lcom/commsource/studio/c;
 
-    .line 3
     array-length v3, v2
 
     const/4 v4, 0x0
@@ -3938,7 +3574,6 @@
 
     aget-object v5, v2, v4
 
-    .line 4
     invoke-virtual {v5}, Lcom/commsource/studio/c;->d()F
 
     move-result v6
@@ -3951,7 +3586,6 @@
 
     goto :goto_0
 
-    .line 5
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -4036,7 +3670,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/MaskCompositionView;->E0:Lcom/commsource/studio/MatrixBox;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -4053,7 +3686,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/MaskCompositionView;->d:Landroid/graphics/Bitmap;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -4070,7 +3702,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/MaskCompositionView;->U:Lcom/commsource/studio/MatrixBox;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -4087,7 +3718,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/MaskCompositionView;->T:Lcom/commsource/studio/MatrixBox;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -4104,7 +3734,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/MaskCompositionView;->f:Landroid/graphics/RectF;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -4121,7 +3750,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/MaskCompositionView;->r0:Lcom/commsource/studio/i;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -4138,7 +3766,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/MaskCompositionView;->O:[F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -4153,7 +3780,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/MaskCompositionView;->J0:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -4170,7 +3796,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/MaskCompositionView;->M:Lcom/commsource/studio/MatrixBox;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -4187,7 +3812,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/MaskCompositionView;->L:Lcom/commsource/studio/MatrixBox;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -4204,7 +3828,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/MaskCompositionView;->H0:Landroid/graphics/RectF;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -4221,7 +3844,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/MaskCompositionView;->m0:Lcom/commsource/studio/function/composition/CompositionView$AdjustEnum;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -4238,7 +3860,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/MaskCompositionView;->p0:[F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -4255,7 +3876,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/MaskCompositionView;->n0:Landroid/graphics/RectF;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -4272,7 +3892,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/MaskCompositionView;->K:Lcom/commsource/studio/MatrixBox;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -4289,7 +3908,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/MaskCompositionView;->b:Landroid/graphics/drawable/Drawable;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -4306,7 +3924,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/MaskCompositionView;->J:Landroid/graphics/Matrix;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -4323,7 +3940,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/MaskCompositionView;->s0:Lcom/commsource/camera/f1/n;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -4338,7 +3954,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/MaskCompositionView;->t0:Lcom/commsource/camera/f1/l;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -4355,7 +3970,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/MaskCompositionView;->c:Landroid/graphics/RectF;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -4372,7 +3986,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/MaskCompositionView;->P:Lcom/commsource/studio/c;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -4389,7 +4002,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/MaskCompositionView;->S:Lcom/commsource/studio/MatrixBox;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -4406,7 +4018,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/MaskCompositionView;->N:Lcom/commsource/studio/MatrixBox;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -4423,7 +4034,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/MaskCompositionView;->c0:Landroid/graphics/RectF;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -4440,7 +4050,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/MaskCompositionView;->b0:Landroid/graphics/RectF;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -4457,7 +4066,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/MaskCompositionView;->a:Lcom/commsource/studio/i0;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -4474,7 +4082,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/MaskCompositionView;->o0:Landroid/graphics/RectF;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -4491,7 +4098,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/MaskCompositionView;->a0:Landroid/graphics/Rect;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -4508,7 +4114,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/MaskCompositionView;->g0:Landroid/graphics/Path;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -4525,7 +4130,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/MaskCompositionView;->D0:Lcom/commsource/studio/MatrixBox;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -4551,7 +4155,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/MaskCompositionView;->P0:Lcotlin/jvm/u/a;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -4568,7 +4171,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/MaskCompositionView;->G0:Landroid/graphics/RectF;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -4585,7 +4187,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/MaskCompositionView;->I0:[F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -4602,7 +4203,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/MaskCompositionView;->Q:Lcom/commsource/studio/c;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -4617,7 +4217,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/MaskCompositionView;->W:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -4634,7 +4233,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/MaskCompositionView;->F0:Landroid/graphics/RectF;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -4649,7 +4247,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/MaskCompositionView;->N:Lcom/commsource/studio/MatrixBox;
 
     invoke-virtual {v1}, Lcom/commsource/studio/MatrixBox;->getScale()F
@@ -4668,7 +4265,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/MaskCompositionView;->V:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -4685,7 +4281,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/MaskCompositionView;->k0:Landroid/graphics/PorterDuffXfermode;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -4708,25 +4303,20 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-super {p0, p1}, Landroid/view/View;->onDraw(Landroid/graphics/Canvas;)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/MaskCompositionView;->d:Landroid/graphics/Bitmap;
 
     if-eqz v1, :cond_6
 
-    .line 3
     iget-object v2, p0, Lcom/commsource/studio/MaskCompositionView;->f0:Landroid/graphics/PaintFlagsDrawFilter;
 
     invoke-virtual {p1, v2}, Landroid/graphics/Canvas;->setDrawFilter(Landroid/graphics/DrawFilter;)V
 
-    .line 4
     iget-object v2, p0, Lcom/commsource/studio/MaskCompositionView;->g0:Landroid/graphics/Path;
 
     invoke-virtual {v2}, Landroid/graphics/Path;->reset()V
 
-    .line 5
     iget-object v2, p0, Lcom/commsource/studio/MaskCompositionView;->g0:Landroid/graphics/Path;
 
     iget-object v3, p0, Lcom/commsource/studio/MaskCompositionView;->c0:Landroid/graphics/RectF;
@@ -4735,10 +4325,8 @@
 
     invoke-virtual {v2, v3, v4}, Landroid/graphics/Path;->addRect(Landroid/graphics/RectF;Landroid/graphics/Path$Direction;)V
 
-    .line 6
     invoke-virtual {p1}, Landroid/graphics/Canvas;->save()I
 
-    .line 7
     iget-object v2, p0, Lcom/commsource/studio/MaskCompositionView;->N:Lcom/commsource/studio/MatrixBox;
 
     invoke-virtual {v2}, Lcom/commsource/studio/MatrixBox;->getMatrix()Landroid/graphics/Matrix;
@@ -4747,31 +4335,25 @@
 
     invoke-virtual {p1, v2}, Landroid/graphics/Canvas;->concat(Landroid/graphics/Matrix;)V
 
-    .line 8
     sget v2, Landroid/os/Build$VERSION;->SDK_INT:I
 
     const/16 v3, 0x1a
 
     if-lt v2, v3, :cond_0
 
-    .line 9
     iget-object v2, p0, Lcom/commsource/studio/MaskCompositionView;->g0:Landroid/graphics/Path;
 
     invoke-virtual {p1, v2}, Landroid/graphics/Canvas;->clipOutPath(Landroid/graphics/Path;)Z
 
-    .line 10
     :cond_0
     iget-object v2, p0, Lcom/commsource/studio/MaskCompositionView;->j0:Landroid/graphics/Paint;
 
     invoke-virtual {p1, v2}, Landroid/graphics/Canvas;->drawPaint(Landroid/graphics/Paint;)V
 
-    .line 11
     invoke-virtual {p1}, Landroid/graphics/Canvas;->restore()V
 
-    .line 12
     invoke-virtual {p1}, Landroid/graphics/Canvas;->save()I
 
-    .line 13
     iget-object v2, p0, Lcom/commsource/studio/MaskCompositionView;->N:Lcom/commsource/studio/MatrixBox;
 
     invoke-virtual {v2}, Lcom/commsource/studio/MatrixBox;->getMatrix()Landroid/graphics/Matrix;
@@ -4780,7 +4362,6 @@
 
     invoke-virtual {p1, v2}, Landroid/graphics/Canvas;->concat(Landroid/graphics/Matrix;)V
 
-    .line 14
     iget-object v2, p0, Lcom/commsource/studio/MaskCompositionView;->U:Lcom/commsource/studio/MatrixBox;
 
     invoke-virtual {v2}, Lcom/commsource/studio/MatrixBox;->getMatrix()Landroid/graphics/Matrix;
@@ -4789,7 +4370,6 @@
 
     invoke-virtual {p1, v2}, Landroid/graphics/Canvas;->concat(Landroid/graphics/Matrix;)V
 
-    .line 15
     iget-object v2, p0, Lcom/commsource/studio/MaskCompositionView;->e0:Landroid/graphics/Paint;
 
     const v3, 0x3e99999a    # 0.3f
@@ -4814,20 +4394,16 @@
 
     invoke-virtual {v2, v4}, Landroid/graphics/Paint;->setAlpha(I)V
 
-    .line 16
     iget-object v2, p0, Lcom/commsource/studio/MaskCompositionView;->e0:Landroid/graphics/Paint;
 
     const/4 v4, 0x0
 
     invoke-virtual {p1, v1, v4, v4, v2}, Landroid/graphics/Canvas;->drawBitmap(Landroid/graphics/Bitmap;FFLandroid/graphics/Paint;)V
 
-    .line 17
     invoke-virtual {p1}, Landroid/graphics/Canvas;->restore()V
 
-    .line 18
     invoke-virtual {p1}, Landroid/graphics/Canvas;->save()I
 
-    .line 19
     iget-object v2, p0, Lcom/commsource/studio/MaskCompositionView;->N:Lcom/commsource/studio/MatrixBox;
 
     invoke-virtual {v2}, Lcom/commsource/studio/MatrixBox;->getMatrix()Landroid/graphics/Matrix;
@@ -4836,12 +4412,10 @@
 
     invoke-virtual {p1, v2}, Landroid/graphics/Canvas;->concat(Landroid/graphics/Matrix;)V
 
-    .line 20
     iget-object v2, p0, Lcom/commsource/studio/MaskCompositionView;->g0:Landroid/graphics/Path;
 
     invoke-virtual {p1, v2}, Landroid/graphics/Canvas;->clipPath(Landroid/graphics/Path;)Z
 
-    .line 21
     iget-object v2, p0, Lcom/commsource/studio/MaskCompositionView;->U:Lcom/commsource/studio/MatrixBox;
 
     invoke-virtual {v2}, Lcom/commsource/studio/MatrixBox;->getMatrix()Landroid/graphics/Matrix;
@@ -4850,7 +4424,6 @@
 
     invoke-virtual {p1, v2}, Landroid/graphics/Canvas;->concat(Landroid/graphics/Matrix;)V
 
-    .line 22
     iget-object v2, p0, Lcom/commsource/studio/MaskCompositionView;->e0:Landroid/graphics/Paint;
 
     invoke-virtual {p0}, Landroid/view/View;->getAlpha()F
@@ -4867,15 +4440,12 @@
 
     invoke-virtual {v2, v3}, Landroid/graphics/Paint;->setAlpha(I)V
 
-    .line 23
     iget-object v2, p0, Lcom/commsource/studio/MaskCompositionView;->e0:Landroid/graphics/Paint;
 
     invoke-virtual {p1, v1, v4, v4, v2}, Landroid/graphics/Canvas;->drawBitmap(Landroid/graphics/Bitmap;FFLandroid/graphics/Paint;)V
 
-    .line 24
     invoke-virtual {p1}, Landroid/graphics/Canvas;->restore()V
 
-    .line 25
     iget-object v1, p0, Lcom/commsource/studio/MaskCompositionView;->b:Landroid/graphics/drawable/Drawable;
 
     if-eqz v1, :cond_5
@@ -4884,7 +4454,6 @@
 
     const/4 v4, 0x0
 
-    .line 26
     iget v1, p0, Lcom/commsource/studio/MaskCompositionView;->V:I
 
     int-to-float v5, v1
@@ -4901,7 +4470,6 @@
 
     move-result v1
 
-    .line 27
     iget-object v2, p0, Lcom/commsource/studio/MaskCompositionView;->N:Lcom/commsource/studio/MatrixBox;
 
     invoke-virtual {v2}, Lcom/commsource/studio/MatrixBox;->getMatrix()Landroid/graphics/Matrix;
@@ -4910,13 +4478,10 @@
 
     invoke-virtual {p1, v2}, Landroid/graphics/Canvas;->concat(Landroid/graphics/Matrix;)V
 
-    .line 28
     iget-object v2, p0, Lcom/commsource/studio/MaskCompositionView;->J:Landroid/graphics/Matrix;
 
-    .line 29
     invoke-virtual {v2}, Landroid/graphics/Matrix;->reset()V
 
-    .line 30
     iget-boolean v3, p0, Lcom/commsource/studio/MaskCompositionView;->g:Z
 
     const/high16 v4, 0x3f800000    # 1.0f
@@ -4927,7 +4492,6 @@
 
     if-eqz v3, :cond_1
 
-    .line 31
     iget-object v3, p0, Lcom/commsource/studio/MaskCompositionView;->c0:Landroid/graphics/RectF;
 
     iget v7, v3, Landroid/graphics/RectF;->left:F
@@ -4954,13 +4518,11 @@
 
     invoke-virtual {v2, v5, v4, v7, v8}, Landroid/graphics/Matrix;->preScale(FFFF)Z
 
-    .line 32
     :cond_1
     iget-boolean v3, p0, Lcom/commsource/studio/MaskCompositionView;->p:Z
 
     if-eqz v3, :cond_2
 
-    .line 33
     iget-object v3, p0, Lcom/commsource/studio/MaskCompositionView;->c0:Landroid/graphics/RectF;
 
     iget v7, v3, Landroid/graphics/RectF;->left:F
@@ -4987,46 +4549,37 @@
 
     invoke-virtual {v2, v4, v5, v7, v8}, Landroid/graphics/Matrix;->preScale(FFFF)Z
 
-    .line 34
     :cond_2
     invoke-virtual {p1, v2}, Landroid/graphics/Canvas;->concat(Landroid/graphics/Matrix;)V
 
-    .line 35
     iget-object v2, p0, Lcom/commsource/studio/MaskCompositionView;->g0:Landroid/graphics/Path;
 
     invoke-virtual {p1, v2}, Landroid/graphics/Canvas;->clipPath(Landroid/graphics/Path;)Z
 
-    .line 36
     iget-object v2, p0, Lcom/commsource/studio/MaskCompositionView;->b:Landroid/graphics/drawable/Drawable;
 
     if-eqz v2, :cond_3
 
-    .line 37
     iget-object v3, p0, Lcom/commsource/studio/MaskCompositionView;->c0:Landroid/graphics/RectF;
 
     iget v4, v3, Landroid/graphics/RectF;->left:F
 
     float-to-int v4, v4
 
-    .line 38
     iget v5, v3, Landroid/graphics/RectF;->top:F
 
     float-to-int v5, v5
 
-    .line 39
     iget v6, v3, Landroid/graphics/RectF;->right:F
 
     float-to-int v6, v6
 
-    .line 40
     iget v3, v3, Landroid/graphics/RectF;->bottom:F
 
     float-to-int v3, v3
 
-    .line 41
     invoke-virtual {v2, v4, v5, v6, v3}, Landroid/graphics/drawable/Drawable;->setBounds(IIII)V
 
-    .line 42
     :cond_3
     iget-object v2, p0, Lcom/commsource/studio/MaskCompositionView;->b:Landroid/graphics/drawable/Drawable;
 
@@ -5034,7 +4587,6 @@
 
     invoke-virtual {v2, p1}, Landroid/graphics/drawable/Drawable;->draw(Landroid/graphics/Canvas;)V
 
-    .line 43
     :cond_4
     iget-object v2, p0, Lcom/commsource/studio/MaskCompositionView;->l0:Landroid/graphics/Paint;
 
@@ -5042,26 +4594,21 @@
 
     invoke-virtual {v2, v3}, Landroid/graphics/Paint;->setXfermode(Landroid/graphics/Xfermode;)Landroid/graphics/Xfermode;
 
-    .line 44
     iget-object v2, p0, Lcom/commsource/studio/MaskCompositionView;->l0:Landroid/graphics/Paint;
 
     invoke-virtual {p1, v2}, Landroid/graphics/Canvas;->drawPaint(Landroid/graphics/Paint;)V
 
-    .line 45
     iget-object v2, p0, Lcom/commsource/studio/MaskCompositionView;->l0:Landroid/graphics/Paint;
 
     const/4 v3, 0x0
 
     invoke-virtual {v2, v3}, Landroid/graphics/Paint;->setXfermode(Landroid/graphics/Xfermode;)Landroid/graphics/Xfermode;
 
-    .line 46
     invoke-virtual {p1, v1}, Landroid/graphics/Canvas;->restoreToCount(I)V
 
-    .line 47
     :cond_5
     invoke-virtual {p0, p1}, Lcom/commsource/studio/MaskCompositionView;->A(Landroid/graphics/Canvas;)V
 
-    .line 48
     :cond_6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -5075,16 +4622,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0, p1, p2, p3, p4}, Landroid/view/View;->onSizeChanged(IIII)V
 
-    .line 2
     iput p1, p0, Lcom/commsource/studio/MaskCompositionView;->V:I
 
-    .line 3
     iput p2, p0, Lcom/commsource/studio/MaskCompositionView;->W:I
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -5105,12 +4648,10 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/MaskCompositionView;->r0:Lcom/commsource/studio/i;
 
     invoke-virtual {v1, p1}, Lcom/commsource/studio/i;->C(Landroid/view/MotionEvent;)Z
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const/4 p1, 0x1
@@ -5129,7 +4670,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/MaskCompositionView;->d:Landroid/graphics/Bitmap;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -5152,7 +4692,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/MaskCompositionView;->f:Landroid/graphics/RectF;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -5175,7 +4714,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/MaskCompositionView;->O:[F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -5190,7 +4728,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/studio/MaskCompositionView;->J0:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -5209,7 +4746,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/MaskCompositionView;->m0:Lcom/commsource/studio/function/composition/CompositionView$AdjustEnum;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -5232,7 +4768,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/MaskCompositionView;->n0:Landroid/graphics/RectF;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -5251,7 +4786,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/MaskCompositionView;->b:Landroid/graphics/drawable/Drawable;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -5274,7 +4808,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/MaskCompositionView;->J:Landroid/graphics/Matrix;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -5289,7 +4822,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/studio/MaskCompositionView;->g:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -5304,7 +4836,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/studio/MaskCompositionView;->p:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -5327,7 +4858,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/MaskCompositionView;->P:Lcom/commsource/studio/c;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -5342,7 +4872,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/studio/MaskCompositionView;->q0:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -5361,7 +4890,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/MaskCompositionView;->a:Lcom/commsource/studio/i0;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -5384,7 +4912,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/MaskCompositionView;->o0:Landroid/graphics/RectF;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -5411,7 +4938,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/MaskCompositionView;->P0:Lcotlin/jvm/u/a;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -5434,7 +4960,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/MaskCompositionView;->Q:Lcom/commsource/studio/c;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -5449,7 +4974,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/studio/MaskCompositionView;->W:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -5464,7 +4988,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/studio/MaskCompositionView;->V:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -5483,19 +5006,16 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/MaskCompositionView;->a:Lcom/commsource/studio/i0;
 
     const/4 v1, 0x0
 
     if-nez p1, :cond_0
 
-    .line 2
     iput-object v1, p0, Lcom/commsource/studio/MaskCompositionView;->b:Landroid/graphics/drawable/Drawable;
 
     goto :goto_0
 
-    .line 3
     :cond_0
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
@@ -5522,7 +5042,6 @@
     :goto_0
     if-eqz p2, :cond_3
 
-    .line 4
     iget-object p2, p0, Lcom/commsource/studio/MaskCompositionView;->c0:Landroid/graphics/RectF;
 
     iget-object v2, p0, Lcom/commsource/studio/MaskCompositionView;->c:Landroid/graphics/RectF;
@@ -5531,7 +5050,6 @@
 
     if-eqz p1, :cond_1
 
-    .line 5
     invoke-virtual {p1}, Lcom/commsource/studio/i0;->h()Ljava/lang/String;
 
     move-result-object v1
@@ -5539,7 +5057,6 @@
     :cond_1
     if-eqz v1, :cond_3
 
-    .line 6
     invoke-virtual {p1}, Lcom/commsource/studio/i0;->h()Ljava/lang/String;
 
     move-result-object v2
@@ -5564,7 +5081,6 @@
 
     const/4 p2, 0x0
 
-    .line 7
     invoke-interface {p1, p2}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object p2
@@ -5589,7 +5105,6 @@
 
     div-float/2addr p2, p1
 
-    .line 8
     iget-object p1, p0, Lcom/commsource/studio/MaskCompositionView;->c:Landroid/graphics/RectF;
 
     invoke-virtual {p1}, Landroid/graphics/RectF;->width()F
@@ -5610,7 +5125,6 @@
 
     if-lez p1, :cond_2
 
-    .line 9
     iget-object p1, p0, Lcom/commsource/studio/MaskCompositionView;->c:Landroid/graphics/RectF;
 
     invoke-virtual {p1}, Landroid/graphics/RectF;->height()F
@@ -5619,7 +5133,6 @@
 
     mul-float p1, p1, p2
 
-    .line 10
     iget-object p2, p0, Lcom/commsource/studio/MaskCompositionView;->c:Landroid/graphics/RectF;
 
     invoke-virtual {p2}, Landroid/graphics/RectF;->width()F
@@ -5642,12 +5155,10 @@
 
     move-object v2, p0
 
-    .line 11
     invoke-virtual/range {v2 .. v7}, Lcom/commsource/studio/MaskCompositionView;->G(FFFFZ)V
 
     goto :goto_1
 
-    .line 12
     :cond_2
     iget-object p1, p0, Lcom/commsource/studio/MaskCompositionView;->c:Landroid/graphics/RectF;
 
@@ -5657,7 +5168,6 @@
 
     div-float/2addr p1, p2
 
-    .line 13
     iget-object p2, p0, Lcom/commsource/studio/MaskCompositionView;->c:Landroid/graphics/RectF;
 
     invoke-virtual {p2}, Landroid/graphics/RectF;->height()F
@@ -5680,15 +5190,12 @@
 
     move-object v2, p0
 
-    .line 14
     invoke-virtual/range {v2 .. v7}, Lcom/commsource/studio/MaskCompositionView;->G(FFFFZ)V
 
-    .line 15
     :cond_3
     :goto_1
     invoke-virtual {p0}, Landroid/view/View;->invalidate()V
 
-    .line 16
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -5701,22 +5208,18 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/MaskCompositionView;->E0:Lcom/commsource/studio/MatrixBox;
 
     iget-object v2, p0, Lcom/commsource/studio/MaskCompositionView;->D0:Lcom/commsource/studio/MatrixBox;
 
     invoke-virtual {v1, v2}, Lcom/commsource/studio/MatrixBox;->set(Lcom/commsource/studio/MatrixBox;)V
 
-    .line 2
     invoke-virtual {p0}, Lcom/commsource/studio/MaskCompositionView;->getViewScaleFractor()F
 
     move-result v1
 
-    .line 3
     iget-object v2, p0, Lcom/commsource/studio/MaskCompositionView;->O:[F
 
-    .line 4
     iget-object v3, p0, Lcom/commsource/studio/MaskCompositionView;->a0:Landroid/graphics/Rect;
 
     invoke-virtual {v3}, Landroid/graphics/Rect;->centerX()I
@@ -5729,7 +5232,6 @@
 
     aput v3, v2, v4
 
-    .line 5
     iget-object v3, p0, Lcom/commsource/studio/MaskCompositionView;->a0:Landroid/graphics/Rect;
 
     invoke-virtual {v3}, Landroid/graphics/Rect;->centerY()I
@@ -5742,7 +5244,6 @@
 
     aput v3, v2, v5
 
-    .line 6
     iget-object v3, p0, Lcom/commsource/studio/MaskCompositionView;->E0:Lcom/commsource/studio/MatrixBox;
 
     invoke-virtual {v3}, Lcom/commsource/studio/MatrixBox;->getMatrix()Landroid/graphics/Matrix;
@@ -5751,12 +5252,10 @@
 
     invoke-virtual {v3, v2}, Landroid/graphics/Matrix;->mapPoints([F)V
 
-    .line 7
     iget-object v2, p0, Lcom/commsource/studio/MaskCompositionView;->P:Lcom/commsource/studio/c;
 
     const/16 v3, 0xa
 
-    .line 8
     invoke-static {v3}, Lcom/commsource/util/l0;->n(I)I
 
     move-result v6
@@ -5767,7 +5266,6 @@
 
     invoke-virtual {v2, v6}, Lcom/commsource/studio/c;->j(F)V
 
-    .line 9
     invoke-static {v5}, Lcom/commsource/util/l0;->n(I)I
 
     move-result v6
@@ -5778,7 +5276,6 @@
 
     invoke-virtual {v2, v6}, Lcom/commsource/studio/c;->g(F)V
 
-    .line 10
     iget-object v6, p0, Lcom/commsource/studio/MaskCompositionView;->c0:Landroid/graphics/RectF;
 
     invoke-virtual {v6}, Landroid/graphics/RectF;->centerX()F
@@ -5787,10 +5284,8 @@
 
     invoke-virtual {v2, v6}, Lcom/commsource/studio/c;->i(F)V
 
-    .line 11
     iget-object v2, p0, Lcom/commsource/studio/MaskCompositionView;->Q:Lcom/commsource/studio/c;
 
-    .line 12
     invoke-static {v3}, Lcom/commsource/util/l0;->n(I)I
 
     move-result v3
@@ -5801,7 +5296,6 @@
 
     invoke-virtual {v2, v3}, Lcom/commsource/studio/c;->j(F)V
 
-    .line 13
     invoke-static {v5}, Lcom/commsource/util/l0;->n(I)I
 
     move-result v3
@@ -5812,7 +5306,6 @@
 
     invoke-virtual {v2, v3}, Lcom/commsource/studio/c;->g(F)V
 
-    .line 14
     iget-object v1, p0, Lcom/commsource/studio/MaskCompositionView;->c0:Landroid/graphics/RectF;
 
     invoke-virtual {v1}, Landroid/graphics/RectF;->centerY()F
@@ -5821,17 +5314,14 @@
 
     invoke-virtual {v2, v1}, Lcom/commsource/studio/c;->i(F)V
 
-    .line 15
     iget-object v1, p0, Lcom/commsource/studio/MaskCompositionView;->E0:Lcom/commsource/studio/MatrixBox;
 
     invoke-virtual {v1}, Lcom/commsource/studio/MatrixBox;->getRotate()F
 
     move-result v1
 
-    .line 16
     iget-object v2, p0, Lcom/commsource/studio/MaskCompositionView;->R:[Lcom/commsource/studio/c;
 
-    .line 17
     array-length v3, v2
 
     const/4 v6, 0x0
@@ -5843,14 +5333,12 @@
 
     aget-object v8, v2, v6
 
-    .line 18
     invoke-virtual {v8, v1}, Lcom/commsource/studio/c;->a(F)Lcotlin/Triple;
 
     move-result-object v8
 
     if-eqz v8, :cond_1
 
-    .line 19
     iget-object v9, p0, Lcom/commsource/studio/MaskCompositionView;->E0:Lcom/commsource/studio/MatrixBox;
 
     invoke-virtual {v8}, Lcotlin/Triple;->getFirst()Ljava/lang/Object;
@@ -5871,7 +5359,6 @@
 
     invoke-virtual {v9, v10, v12, v11}, Lcom/commsource/studio/MatrixBox;->postRotate(FFF)V
 
-    .line 20
     invoke-virtual {v8}, Lcotlin/Triple;->getSecond()Ljava/lang/Object;
 
     move-result-object v9
@@ -5884,7 +5371,6 @@
 
     if-eqz v9, :cond_0
 
-    .line 21
     iget-object v9, p0, Lcom/commsource/studio/MaskCompositionView;->D0:Lcom/commsource/studio/MatrixBox;
 
     invoke-virtual {v8}, Lcotlin/Triple;->getFirst()Ljava/lang/Object;
@@ -5905,7 +5391,6 @@
 
     invoke-virtual {v9, v10, v12, v11}, Lcom/commsource/studio/MatrixBox;->postRotate(FFF)V
 
-    .line 22
     :cond_0
     invoke-virtual {v8}, Lcotlin/Triple;->getThird()Ljava/lang/Object;
 
@@ -5924,7 +5409,6 @@
 
     goto :goto_0
 
-    .line 23
     :cond_2
     new-instance v2, Ljava/lang/StringBuilder;
 
@@ -5956,10 +5440,8 @@
 
     invoke-static {v1, v3, v6, v2, v6}, Lcom/commsource/util/l0;->L(Ljava/lang/String;Ljava/lang/String;Lcom/meitu/library/util/Debug/Debug$DebugLevel;ILjava/lang/Object;)V
 
-    .line 24
     iget-object v1, p0, Lcom/commsource/studio/MaskCompositionView;->Q:Lcom/commsource/studio/c;
 
-    .line 25
     iget-object v2, p0, Lcom/commsource/studio/MaskCompositionView;->O:[F
 
     aget v2, v2, v5
@@ -5972,7 +5454,6 @@
 
     if-eqz v1, :cond_4
 
-    .line 26
     iget-object v3, p0, Lcom/commsource/studio/MaskCompositionView;->E0:Lcom/commsource/studio/MatrixBox;
 
     invoke-virtual {v1}, Lcotlin/Triple;->getFirst()Ljava/lang/Object;
@@ -5987,7 +5468,6 @@
 
     invoke-virtual {v3, v2, v5}, Lcom/commsource/studio/MatrixBox;->postTranslate(FF)V
 
-    .line 27
     invoke-virtual {v1}, Lcotlin/Triple;->getSecond()Ljava/lang/Object;
 
     move-result-object v3
@@ -6000,7 +5480,6 @@
 
     if-eqz v3, :cond_3
 
-    .line 28
     iget-object v3, p0, Lcom/commsource/studio/MaskCompositionView;->D0:Lcom/commsource/studio/MatrixBox;
 
     invoke-virtual {v1}, Lcotlin/Triple;->getFirst()Ljava/lang/Object;
@@ -6015,7 +5494,6 @@
 
     invoke-virtual {v3, v2, v5}, Lcom/commsource/studio/MatrixBox;->postTranslate(FF)V
 
-    .line 29
     :cond_3
     invoke-virtual {v1}, Lcotlin/Triple;->getThird()Ljava/lang/Object;
 
@@ -6029,11 +5507,9 @@
 
     or-int/2addr v7, v1
 
-    .line 30
     :cond_4
     iget-object v1, p0, Lcom/commsource/studio/MaskCompositionView;->P:Lcom/commsource/studio/c;
 
-    .line 31
     iget-object v3, p0, Lcom/commsource/studio/MaskCompositionView;->O:[F
 
     aget v3, v3, v4
@@ -6044,7 +5520,6 @@
 
     if-eqz v1, :cond_6
 
-    .line 32
     iget-object v3, p0, Lcom/commsource/studio/MaskCompositionView;->E0:Lcom/commsource/studio/MatrixBox;
 
     invoke-virtual {v1}, Lcotlin/Triple;->getFirst()Ljava/lang/Object;
@@ -6059,7 +5534,6 @@
 
     invoke-virtual {v3, v4, v2}, Lcom/commsource/studio/MatrixBox;->postTranslate(FF)V
 
-    .line 33
     invoke-virtual {v1}, Lcotlin/Triple;->getSecond()Ljava/lang/Object;
 
     move-result-object v3
@@ -6072,7 +5546,6 @@
 
     if-eqz v3, :cond_5
 
-    .line 34
     iget-object v3, p0, Lcom/commsource/studio/MaskCompositionView;->D0:Lcom/commsource/studio/MatrixBox;
 
     invoke-virtual {v1}, Lcotlin/Triple;->getFirst()Ljava/lang/Object;
@@ -6087,7 +5560,6 @@
 
     invoke-virtual {v3, v4, v2}, Lcom/commsource/studio/MatrixBox;->postTranslate(FF)V
 
-    .line 35
     :cond_5
     invoke-virtual {v1}, Lcotlin/Triple;->getThird()Ljava/lang/Object;
 
@@ -6101,7 +5573,6 @@
 
     or-int/2addr v7, v1
 
-    .line 36
     :cond_6
     iget-object v1, p0, Lcom/commsource/studio/MaskCompositionView;->U:Lcom/commsource/studio/MatrixBox;
 
@@ -6111,10 +5582,8 @@
 
     if-eqz v7, :cond_7
 
-    .line 37
     invoke-static {p0}, Lcom/commsource/util/l0;->x(Landroid/view/View;)V
 
-    .line 38
     :cond_7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -6136,7 +5605,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/studio/MaskCompositionView;->getViewScaleFractor()F
 
     move-result v1
@@ -6145,7 +5613,6 @@
 
     const/4 v1, 0x0
 
-    .line 2
     aget v2, p1, v1
 
     const/4 v3, 0x1
@@ -6193,7 +5660,6 @@
 
     invoke-static {p2, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     sget v1, Lcom/commsource/studio/MaskCompositionView;->Y0:F
 
     invoke-virtual {p0}, Lcom/commsource/studio/MaskCompositionView;->getViewScaleFractor()F
@@ -6204,7 +5670,6 @@
 
     const/4 v2, 0x0
 
-    .line 2
     aget v3, p2, v2
 
     const/4 v4, 0x1
@@ -6215,27 +5680,22 @@
 
     move-result p2
 
-    .line 3
     aget v2, p1, v2
 
-    .line 4
     aget p1, p1, v4
 
-    .line 5
     invoke-static {v2, p1, p3, p4}, Lcom/commsource/util/common/i;->j(FFFF)F
 
     move-result p1
 
     div-float/2addr p2, p1
 
-    .line 6
     iget-object p1, p0, Lcom/commsource/studio/MaskCompositionView;->o0:Landroid/graphics/RectF;
 
     iget-object p3, p0, Lcom/commsource/studio/MaskCompositionView;->n0:Landroid/graphics/RectF;
 
     invoke-virtual {p1, p3}, Landroid/graphics/RectF;->set(Landroid/graphics/RectF;)V
 
-    .line 7
     iget-object p1, p0, Lcom/commsource/studio/MaskCompositionView;->o0:Landroid/graphics/RectF;
 
     invoke-virtual {p1}, Landroid/graphics/RectF;->width()F
@@ -6244,7 +5704,6 @@
 
     mul-float p1, p1, p2
 
-    .line 8
     iget-object p3, p0, Lcom/commsource/studio/MaskCompositionView;->o0:Landroid/graphics/RectF;
 
     invoke-virtual {p3}, Landroid/graphics/RectF;->height()F
@@ -6284,7 +5743,6 @@
     :goto_0
     move v1, p1
 
-    .line 9
     :goto_1
     iget-object p1, p0, Lcom/commsource/studio/MaskCompositionView;->o0:Landroid/graphics/RectF;
 
@@ -6292,7 +5750,6 @@
 
     invoke-virtual {p1, p2, p2, v1, p3}, Landroid/graphics/RectF;->set(FFFF)V
 
-    .line 10
     iget-object p1, p0, Lcom/commsource/studio/MaskCompositionView;->o0:Landroid/graphics/RectF;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -6315,7 +5772,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/MaskCompositionView;->N:Lcom/commsource/studio/MatrixBox;
 
     invoke-virtual {v1}, Lcom/commsource/studio/MatrixBox;->calculateInvertMatrix()Landroid/graphics/Matrix;
@@ -6324,7 +5780,6 @@
 
     invoke-virtual {v1, p1}, Landroid/graphics/Matrix;->mapPoints([F)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -6339,10 +5794,8 @@
 
     const/4 v1, 0x0
 
-    .line 1
     iput-object v1, p0, Lcom/commsource/studio/MaskCompositionView;->d:Landroid/graphics/Bitmap;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

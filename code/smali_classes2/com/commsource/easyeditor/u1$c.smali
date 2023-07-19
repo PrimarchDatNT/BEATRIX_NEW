@@ -22,7 +22,6 @@
 .method public constructor <init>(Lcom/commsource/easyeditor/u1;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/easyeditor/u1$c;->a:Lcom/commsource/easyeditor/u1;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -37,7 +36,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0, p1, p2}, Lcom/commsource/easyeditor/u1$c;->c(Landroid/view/View;Z)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -52,7 +50,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p1}, Landroid/view/View;->getLeft()I
 
     move-result v1
@@ -69,7 +66,6 @@
 
     div-float/2addr v1, v2
 
-    .line 2
     invoke-virtual {p1}, Landroid/view/View;->getWidth()I
 
     move-result v2
@@ -96,7 +92,6 @@
 
     add-float/2addr p1, v2
 
-    .line 3
     iget-object v2, p0, Lcom/commsource/easyeditor/u1$c;->a:Lcom/commsource/easyeditor/u1;
 
     invoke-static {v2}, Lcom/commsource/easyeditor/u1;->u(Lcom/commsource/easyeditor/u1;)Lcom/commsource/beautyplus/f0/u7;
@@ -113,7 +108,6 @@
 
     if-nez p2, :cond_0
 
-    .line 4
     iget-object p2, p0, Lcom/commsource/easyeditor/u1$c;->a:Lcom/commsource/easyeditor/u1;
 
     invoke-static {p2}, Lcom/commsource/easyeditor/u1;->u(Lcom/commsource/easyeditor/u1;)Lcom/commsource/beautyplus/f0/u7;
@@ -124,7 +118,6 @@
 
     invoke-virtual {p2, v1}, Landroid/view/View;->setTranslationX(F)V
 
-    .line 5
     iget-object p2, p0, Lcom/commsource/easyeditor/u1$c;->a:Lcom/commsource/easyeditor/u1;
 
     invoke-static {p2}, Lcom/commsource/easyeditor/u1;->u(Lcom/commsource/easyeditor/u1;)Lcom/commsource/beautyplus/f0/u7;
@@ -137,7 +130,6 @@
 
     goto :goto_0
 
-    .line 6
     :cond_0
     iget-object p2, p0, Lcom/commsource/easyeditor/u1$c;->a:Lcom/commsource/easyeditor/u1;
 
@@ -151,27 +143,22 @@
 
     move-result-object p2
 
-    .line 7
     invoke-virtual {p2, p1}, Landroid/view/ViewPropertyAnimator;->scaleX(F)Landroid/view/ViewPropertyAnimator;
 
     move-result-object p1
 
-    .line 8
     invoke-virtual {p1, v1}, Landroid/view/ViewPropertyAnimator;->translationX(F)Landroid/view/ViewPropertyAnimator;
 
     move-result-object p1
 
     const-wide/16 v1, 0xdc
 
-    .line 9
     invoke-virtual {p1, v1, v2}, Landroid/view/ViewPropertyAnimator;->setDuration(J)Landroid/view/ViewPropertyAnimator;
 
     move-result-object p1
 
-    .line 10
     invoke-virtual {p1}, Landroid/view/ViewPropertyAnimator;->start()V
 
-    .line 11
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -187,14 +174,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p1}, Landroid/view/View;->getWidth()I
 
     move-result v1
 
     if-nez v1, :cond_0
 
-    .line 2
     invoke-virtual {p1}, Landroid/view/View;->getViewTreeObserver()Landroid/view/ViewTreeObserver;
 
     move-result-object v1
@@ -210,10 +195,8 @@
     :cond_0
     const/4 v1, 0x1
 
-    .line 3
     invoke-direct {p0, p1, v1}, Lcom/commsource/easyeditor/u1$c;->c(Landroid/view/View;Z)V
 
-    .line 4
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

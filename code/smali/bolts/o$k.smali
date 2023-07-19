@@ -37,7 +37,6 @@
 .method constructor <init>(Ljava/util/concurrent/atomic/AtomicBoolean;Lbolts/p;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lbolts/o$k;->a:Ljava/util/concurrent/atomic/AtomicBoolean;
 
     iput-object p2, p0, Lbolts/o$k;->b:Lbolts/p;
@@ -60,7 +59,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lbolts/o$k;->a:Ljava/util/concurrent/atomic/AtomicBoolean;
 
     const/4 v1, 0x0
@@ -73,14 +71,12 @@
 
     if-eqz v0, :cond_0
 
-    .line 2
     iget-object v0, p0, Lbolts/o$k;->b:Lbolts/p;
 
     invoke-virtual {v0, p1}, Lbolts/p;->d(Ljava/lang/Object;)V
 
     goto :goto_0
 
-    .line 3
     :cond_0
     invoke-virtual {p1}, Lbolts/o;->E()Ljava/lang/Exception;
 
@@ -98,7 +94,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0, p1}, Lbolts/o$k;->a(Lbolts/o;)Ljava/lang/Void;
 
     move-result-object p1

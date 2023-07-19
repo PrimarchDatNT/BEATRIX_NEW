@@ -23,28 +23,24 @@
 
     const/4 v1, 0x4
 
-    .line 1
     sput v1, Lcom/commsource/easyeditor/utils/opengl/p;->a:I
 
     const/16 v1, 0x8
 
     new-array v2, v1, [F
 
-    .line 2
     fill-array-data v2, :array_0
 
     sput-object v2, Lcom/commsource/easyeditor/utils/opengl/p;->b:[F
 
     new-array v2, v1, [F
 
-    .line 3
     fill-array-data v2, :array_1
 
     sput-object v2, Lcom/commsource/easyeditor/utils/opengl/p;->c:[F
 
     new-array v1, v1, [F
 
-    .line 4
     fill-array-data v1, :array_2
 
     sput-object v1, Lcom/commsource/easyeditor/utils/opengl/p;->d:[F
@@ -95,7 +91,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -108,7 +103,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/easyeditor/utils/opengl/p;->d:[F
 
     array-length v2, v1
@@ -121,7 +115,6 @@
 
     move-result-object v2
 
-    .line 2
     invoke-static {}, Ljava/nio/ByteOrder;->nativeOrder()Ljava/nio/ByteOrder;
 
     move-result-object v3
@@ -130,7 +123,6 @@
 
     move-result-object v2
 
-    .line 3
     invoke-virtual {v2}, Ljava/nio/ByteBuffer;->asFloatBuffer()Ljava/nio/FloatBuffer;
 
     move-result-object v2
@@ -142,13 +134,11 @@
     :cond_0
     sget-object v1, Lcom/commsource/easyeditor/utils/opengl/p;->b:[F
 
-    .line 4
     :goto_0
     invoke-virtual {v2, v1}, Ljava/nio/FloatBuffer;->put([F)Ljava/nio/FloatBuffer;
 
     move-result-object p0
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
@@ -161,7 +151,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/easyeditor/utils/opengl/p;->c:[F
 
     array-length v2, v1
@@ -174,7 +163,6 @@
 
     move-result-object v2
 
-    .line 2
     invoke-static {}, Ljava/nio/ByteOrder;->nativeOrder()Ljava/nio/ByteOrder;
 
     move-result-object v3
@@ -183,17 +171,14 @@
 
     move-result-object v2
 
-    .line 3
     invoke-virtual {v2}, Ljava/nio/ByteBuffer;->asFloatBuffer()Ljava/nio/FloatBuffer;
 
     move-result-object v2
 
-    .line 4
     invoke-virtual {v2, v1}, Ljava/nio/FloatBuffer;->put([F)Ljava/nio/FloatBuffer;
 
     move-result-object v1
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1

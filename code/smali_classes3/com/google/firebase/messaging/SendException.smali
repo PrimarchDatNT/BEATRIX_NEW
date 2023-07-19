@@ -23,7 +23,6 @@
 .method constructor <init>(Ljava/lang/String;)V
     .locals 7
 
-    .line 1
     invoke-direct {p0, p1}, Ljava/lang/Exception;-><init>(Ljava/lang/String;)V
 
     const/4 v0, 0x4
@@ -38,7 +37,6 @@
 
     if-eqz p1, :cond_5
 
-    .line 2
     sget-object v5, Ljava/util/Locale;->US:Ljava/util/Locale;
 
     invoke-virtual {p1, v5}, Ljava/lang/String;->toLowerCase(Ljava/util/Locale;)Ljava/lang/String;
@@ -159,7 +157,6 @@
     :goto_1
     const/4 v0, 0x0
 
-    .line 3
     :goto_2
     :pswitch_3
     iput v0, p0, Lcom/google/firebase/messaging/SendException;->zza:I
@@ -190,7 +187,6 @@
 .method public final getErrorCode()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lcom/google/firebase/messaging/SendException;->zza:I
 
     return v0

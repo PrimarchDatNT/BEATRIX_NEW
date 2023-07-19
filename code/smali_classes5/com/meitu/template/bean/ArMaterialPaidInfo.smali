@@ -101,7 +101,6 @@
     .annotation build Landroidx/room/Ignore;
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Lcom/meitu/template/bean/BaseBean;-><init>()V
 
     return-void
@@ -112,10 +111,8 @@
     .annotation build Landroidx/room/Ignore;
     .end annotation
 
-    .line 2
     invoke-direct {p0}, Lcom/meitu/template/bean/BaseBean;-><init>()V
 
-    .line 3
     iput-object p1, p0, Lcom/meitu/template/bean/ArMaterialPaidInfo;->id:Ljava/lang/Long;
 
     return-void
@@ -124,25 +121,18 @@
 .method public constructor <init>(Ljava/lang/Long;IILjava/lang/String;Ljava/lang/String;I)V
     .locals 0
 
-    .line 4
     invoke-direct {p0}, Lcom/meitu/template/bean/BaseBean;-><init>()V
 
-    .line 5
     iput-object p1, p0, Lcom/meitu/template/bean/ArMaterialPaidInfo;->id:Ljava/lang/Long;
 
-    .line 6
     iput p2, p0, Lcom/meitu/template/bean/ArMaterialPaidInfo;->number:I
 
-    .line 7
     iput p3, p0, Lcom/meitu/template/bean/ArMaterialPaidInfo;->categoryNumber:I
 
-    .line 8
     iput-object p4, p0, Lcom/meitu/template/bean/ArMaterialPaidInfo;->goodsId:Ljava/lang/String;
 
-    .line 9
     iput-object p5, p0, Lcom/meitu/template/bean/ArMaterialPaidInfo;->items:Ljava/lang/String;
 
-    .line 10
     iput p6, p0, Lcom/meitu/template/bean/ArMaterialPaidInfo;->isPaid:I
 
     return-void
@@ -157,7 +147,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/template/bean/ArMaterialPaidInfo;->categoryNumber:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -172,7 +161,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/template/bean/ArMaterialPaidInfo;->goodsId:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -187,7 +175,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/template/bean/ArMaterialPaidInfo;->id:Ljava/lang/Long;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -202,7 +189,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/template/bean/ArMaterialPaidInfo;->isPaid:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -217,7 +203,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/template/bean/ArMaterialPaidInfo;->items:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -232,7 +217,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/template/bean/ArMaterialPaidInfo;->number:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -247,7 +231,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/template/bean/ArMaterialPaidInfo;->isPaid:I
 
     const/4 v2, 0x2
@@ -274,10 +257,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/meitu/template/bean/ArMaterialPaidInfo;->categoryNumber:I
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -290,10 +271,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/template/bean/ArMaterialPaidInfo;->goodsId:Ljava/lang/String;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -306,10 +285,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/template/bean/ArMaterialPaidInfo;->id:Ljava/lang/Long;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -322,10 +299,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/meitu/template/bean/ArMaterialPaidInfo;->isPaid:I
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -338,10 +313,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/template/bean/ArMaterialPaidInfo;->items:Ljava/lang/String;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -354,10 +327,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/meitu/template/bean/ArMaterialPaidInfo;->number:I
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -370,19 +341,16 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/template/bean/ArMaterialPaidInfo;->paidInfo:Lcom/meitu/template/bean/ArMaterialPaidInfo$a;
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-static {v1}, Lcom/meitu/template/bean/ArMaterialPaidInfo$a;->a(Lcom/meitu/template/bean/ArMaterialPaidInfo$a;)Ljava/lang/String;
 
     move-result-object v1
 
     invoke-virtual {p0, v1}, Lcom/meitu/template/bean/ArMaterialPaidInfo;->setGoodsId(Ljava/lang/String;)V
 
-    .line 3
     :cond_0
     iget-object v1, p0, Lcom/meitu/template/bean/ArMaterialPaidInfo;->paidItems:Ljava/util/List;
 
@@ -394,7 +362,6 @@
 
     if-nez v1, :cond_1
 
-    .line 4
     invoke-static {}, Lcom/meitu/webview/utils/c;->b()Lcom/google/gson/Gson;
 
     move-result-object v1
@@ -410,11 +377,9 @@
     :cond_1
     const-string v1, ""
 
-    .line 5
     :goto_0
     invoke-virtual {p0, v1}, Lcom/meitu/template/bean/ArMaterialPaidInfo;->setItems(Ljava/lang/String;)V
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

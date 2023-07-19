@@ -24,7 +24,6 @@
 .method constructor <init>(Lcom/commsource/camera/montage/t;Lcotlin/jvm/u/a;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/camera/montage/t$b;->b:Lcom/commsource/camera/montage/t;
 
     iput-object p2, p0, Lcom/commsource/camera/montage/t$b;->a:Lcotlin/jvm/u/a;
@@ -43,15 +42,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0, p1}, Landroid/animation/AnimatorListenerAdapter;->onAnimationEnd(Landroid/animation/Animator;)V
 
-    .line 2
     iget-object p1, p0, Lcom/commsource/camera/montage/t$b;->a:Lcotlin/jvm/u/a;
 
     invoke-interface {p1}, Lcotlin/jvm/u/a;->invoke()Ljava/lang/Object;
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

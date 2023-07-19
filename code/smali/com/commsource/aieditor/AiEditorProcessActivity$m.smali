@@ -27,7 +27,6 @@
 .method constructor <init>(Lcom/commsource/aieditor/AiEditorProcessActivity;Ljava/lang/Integer;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/aieditor/AiEditorProcessActivity$m;->b:Lcom/commsource/aieditor/AiEditorProcessActivity;
 
     iput-object p2, p0, Lcom/commsource/aieditor/AiEditorProcessActivity$m;->a:Ljava/lang/Integer;
@@ -46,14 +45,12 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v0, Ljava/util/HashMap;
 
     const/16 v1, 0x8
 
     invoke-direct {v0, v1}, Ljava/util/HashMap;-><init>(I)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/aieditor/AiEditorProcessActivity$m;->a:Ljava/lang/Integer;
 
     invoke-static {v1}, Ljava/lang/String;->valueOf(Ljava/lang/Object;)Ljava/lang/String;
@@ -64,7 +61,6 @@
 
     invoke-interface {v0, v2, v1}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 3
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -85,7 +81,6 @@
 
     invoke-interface {v0, v1, p2}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 4
     iget-object p2, p0, Lcom/commsource/aieditor/AiEditorProcessActivity$m;->b:Lcom/commsource/aieditor/AiEditorProcessActivity;
 
     invoke-static {p2}, Lcom/commsource/aieditor/AiEditorProcessActivity;->L0(Lcom/commsource/aieditor/AiEditorProcessActivity;)I
@@ -102,10 +97,8 @@
 
     const-string p2, "Sscore_Submit"
 
-    .line 5
     invoke-static {p2, v0}, Lcom/commsource/statistics/i;->s(Ljava/lang/String;Ljava/util/Map;)V
 
-    .line 6
     iget-object p2, p0, Lcom/commsource/aieditor/AiEditorProcessActivity$m;->b:Lcom/commsource/aieditor/AiEditorProcessActivity;
 
     invoke-static {p2}, Lcom/commsource/aieditor/AiEditorProcessActivity;->O0(Lcom/commsource/aieditor/AiEditorProcessActivity;)Lcom/commsource/aieditor/d0;
@@ -120,7 +113,6 @@
 
     invoke-virtual {p2, v0}, Landroidx/lifecycle/MutableLiveData;->setValue(Ljava/lang/Object;)V
 
-    .line 7
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -133,7 +125,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/aieditor/AiEditorProcessActivity$m;->b:Lcom/commsource/aieditor/AiEditorProcessActivity;
 
     invoke-static {v1}, Lcom/commsource/aieditor/AiEditorProcessActivity;->O0(Lcom/commsource/aieditor/AiEditorProcessActivity;)Lcom/commsource/aieditor/d0;
@@ -148,7 +139,6 @@
 
     invoke-virtual {v1, v2}, Landroidx/lifecycle/MutableLiveData;->setValue(Ljava/lang/Object;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -161,14 +151,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/util/HashMap;
 
     const/16 v2, 0x8
 
     invoke-direct {v1, v2}, Ljava/util/HashMap;-><init>(I)V
 
-    .line 2
     iget-object v2, p0, Lcom/commsource/aieditor/AiEditorProcessActivity$m;->a:Ljava/lang/Integer;
 
     invoke-static {v2}, Ljava/lang/String;->valueOf(Ljava/lang/Object;)Ljava/lang/String;
@@ -179,7 +167,6 @@
 
     invoke-interface {v1, v3, v2}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 3
     iget-object v2, p0, Lcom/commsource/aieditor/AiEditorProcessActivity$m;->b:Lcom/commsource/aieditor/AiEditorProcessActivity;
 
     invoke-static {v2}, Lcom/commsource/aieditor/AiEditorProcessActivity;->L0(Lcom/commsource/aieditor/AiEditorProcessActivity;)I
@@ -196,10 +183,8 @@
 
     const-string v2, "Sscore_NotNow"
 
-    .line 4
     invoke-static {v2, v1}, Lcom/commsource/statistics/i;->s(Ljava/lang/String;Ljava/util/Map;)V
 
-    .line 5
     iget-object v1, p0, Lcom/commsource/aieditor/AiEditorProcessActivity$m;->b:Lcom/commsource/aieditor/AiEditorProcessActivity;
 
     invoke-static {v1}, Lcom/commsource/aieditor/AiEditorProcessActivity;->O0(Lcom/commsource/aieditor/AiEditorProcessActivity;)Lcom/commsource/aieditor/d0;
@@ -214,7 +199,6 @@
 
     invoke-virtual {v1, v2}, Landroidx/lifecycle/MutableLiveData;->setValue(Ljava/lang/Object;)V
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

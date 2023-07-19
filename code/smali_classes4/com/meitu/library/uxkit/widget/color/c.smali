@@ -53,7 +53,6 @@
 
     const/4 v0, 0x1
 
-    .line 14
     invoke-direct {p0, p1, p2, v0}, Lcom/meitu/library/uxkit/widget/color/c;-><init>(Landroidx/recyclerview/widget/RecyclerView;Lcom/meitu/library/uxkit/widget/color/a$a;Z)V
 
     return-void
@@ -70,31 +69,24 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p2}, Lcom/meitu/library/uxkit/widget/color/a;-><init>(Lcom/meitu/library/uxkit/widget/color/a$a;)V
 
     const/4 p2, 0x1
 
-    .line 2
     iput-boolean p2, p0, Lcom/meitu/library/uxkit/widget/color/c;->g:Z
 
-    .line 3
     new-instance v0, Lcom/meitu/library/uxkit/widget/color/c$b;
 
     invoke-direct {v0, p0}, Lcom/meitu/library/uxkit/widget/color/c$b;-><init>(Lcom/meitu/library/uxkit/widget/color/c;)V
 
     iput-object v0, p0, Lcom/meitu/library/uxkit/widget/color/c;->h:Landroid/view/View$OnClickListener;
 
-    .line 4
     iput-boolean p3, p0, Lcom/meitu/library/uxkit/widget/color/c;->g:Z
 
-    .line 5
     iput-object p1, p0, Lcom/meitu/library/uxkit/widget/color/c;->e:Landroidx/recyclerview/widget/RecyclerView;
 
-    .line 6
     invoke-virtual {p1, p2}, Landroid/view/ViewGroup;->setFocusable(Z)V
 
-    .line 7
     new-instance p3, Landroidx/recyclerview/widget/LinearLayoutManager;
 
     invoke-virtual {p1}, Landroid/view/ViewGroup;->getContext()Landroid/content/Context;
@@ -105,20 +97,16 @@
 
     const/4 p1, 0x0
 
-    .line 8
     invoke-virtual {p3, p1}, Landroidx/recyclerview/widget/LinearLayoutManager;->setOrientation(I)V
 
-    .line 9
     iget-object p1, p0, Lcom/meitu/library/uxkit/widget/color/c;->e:Landroidx/recyclerview/widget/RecyclerView;
 
     invoke-virtual {p1, p2}, Landroidx/recyclerview/widget/RecyclerView;->setItemViewCacheSize(I)V
 
-    .line 10
     iget-object p1, p0, Lcom/meitu/library/uxkit/widget/color/c;->e:Landroidx/recyclerview/widget/RecyclerView;
 
     invoke-virtual {p1, p3}, Landroidx/recyclerview/widget/RecyclerView;->setLayoutManager(Landroidx/recyclerview/widget/RecyclerView$LayoutManager;)V
 
-    .line 11
     new-instance p1, Lcom/meitu/library/uxkit/widget/color/c$c;
 
     const/4 p2, 0x0
@@ -127,12 +115,10 @@
 
     iput-object p1, p0, Lcom/meitu/library/uxkit/widget/color/c;->f:Lcom/meitu/library/uxkit/widget/color/c$c;
 
-    .line 12
     iget-object p2, p0, Lcom/meitu/library/uxkit/widget/color/c;->e:Landroidx/recyclerview/widget/RecyclerView;
 
     invoke-virtual {p2, p1}, Landroidx/recyclerview/widget/RecyclerView;->setAdapter(Landroidx/recyclerview/widget/RecyclerView$Adapter;)V
 
-    .line 13
     iget-object p1, p0, Lcom/meitu/library/uxkit/widget/color/c;->e:Landroidx/recyclerview/widget/RecyclerView;
 
     new-instance p2, Lcom/meitu/library/uxkit/widget/color/c$a;
@@ -151,7 +137,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/meitu/library/uxkit/widget/color/c;->e:Landroidx/recyclerview/widget/RecyclerView;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -166,7 +151,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/meitu/library/uxkit/widget/color/c;->f:Lcom/meitu/library/uxkit/widget/color/c$c;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -181,7 +165,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/meitu/library/uxkit/widget/color/c;->h:Landroid/view/View$OnClickListener;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -196,7 +179,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0, p1, p2}, Lcom/meitu/library/uxkit/widget/color/c;->q(IZ)I
 
     move-result p0
@@ -219,7 +201,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/meitu/library/uxkit/widget/color/c;->g:Z
 
     if-eqz v1, :cond_2
@@ -240,7 +221,6 @@
     :cond_1
     const/16 p1, 0xeb
 
-    .line 2
     :goto_0
     invoke-static {p1, p1, p1}, Landroid/graphics/Color;->rgb(III)I
 
@@ -250,7 +230,6 @@
 
     return p1
 
-    .line 3
     :cond_2
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -267,7 +246,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/library/uxkit/widget/color/c;->f:Lcom/meitu/library/uxkit/widget/color/c$c;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -282,7 +260,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/library/uxkit/widget/color/c;->e:Landroidx/recyclerview/widget/RecyclerView;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -299,7 +276,6 @@
 
     const/high16 v1, 0x41500000    # 13.0f
 
-    .line 1
     invoke-static {v1}, Lcom/meitu/library/p/f/i;->d(F)I
 
     move-result v1
@@ -318,7 +294,6 @@
 
     const/high16 v1, 0x42200000    # 40.0f
 
-    .line 1
     invoke-static {v1}, Lcom/meitu/library/p/f/i;->d(F)I
 
     move-result v1
@@ -335,7 +310,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const/4 v0, 0x1

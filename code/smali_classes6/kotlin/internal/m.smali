@@ -10,7 +10,6 @@
 .method private static final a(III)I
     .locals 0
 
-    .line 1
     invoke-static {p0, p2}, Lcotlin/internal/m;->e(II)I
 
     move-result p0
@@ -31,7 +30,6 @@
 .method private static final b(JJJ)J
     .locals 0
 
-    .line 1
     invoke-static {p0, p1, p4, p5}, Lcotlin/internal/m;->f(JJ)J
 
     move-result-wide p0
@@ -60,7 +58,6 @@
 
     goto :goto_0
 
-    .line 1
     :cond_0
     invoke-static {p1, p0, p2}, Lcotlin/internal/m;->a(III)I
 
@@ -80,7 +77,6 @@
     :cond_2
     neg-int p2, p2
 
-    .line 2
     invoke-static {p0, p1, p2}, Lcotlin/internal/m;->a(III)I
 
     move-result p0
@@ -90,7 +86,6 @@
     :goto_0
     return p1
 
-    .line 3
     :cond_3
     new-instance p0, Ljava/lang/IllegalArgumentException;
 
@@ -125,7 +120,6 @@
 
     move-wide v4, p4
 
-    .line 1
     invoke-static/range {v0 .. v5}, Lcotlin/internal/m;->b(JJJ)J
 
     move-result-wide p0
@@ -150,7 +144,6 @@
 
     move-wide v3, p2
 
-    .line 2
     invoke-static/range {v1 .. v6}, Lcotlin/internal/m;->b(JJJ)J
 
     move-result-wide p0
@@ -160,7 +153,6 @@
     :goto_0
     return-wide p2
 
-    .line 3
     :cond_3
     new-instance p0, Ljava/lang/IllegalArgumentException;
 
@@ -174,7 +166,6 @@
 .method private static final e(II)I
     .locals 0
 
-    .line 1
     rem-int/2addr p0, p1
 
     if-ltz p0, :cond_0
@@ -191,7 +182,6 @@
 .method private static final f(JJ)J
     .locals 3
 
-    .line 1
     rem-long/2addr p0, p2
 
     const-wide/16 v0, 0x0

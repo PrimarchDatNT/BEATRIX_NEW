@@ -25,7 +25,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     new-instance v0, Lcotlin/text/k$b;
 
     invoke-direct {v0, p0}, Lcotlin/text/k$b;-><init>(Lcotlin/text/k;)V

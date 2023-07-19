@@ -23,7 +23,6 @@
 .method constructor <init>(Ljava/lang/Runnable;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/util/l0$a;->a:Ljava/lang/Runnable;
 
     invoke-direct {p0}, Landroid/animation/AnimatorListenerAdapter;-><init>()V
@@ -46,10 +45,8 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     invoke-virtual {p1}, Landroid/animation/Animator;->removeAllListeners()V
 
-    .line 2
     :cond_0
     iget-object p1, p0, Lcom/commsource/util/l0$a;->a:Ljava/lang/Runnable;
 
@@ -57,7 +54,6 @@
 
     invoke-interface {p1}, Ljava/lang/Runnable;->run()V
 
-    .line 3
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

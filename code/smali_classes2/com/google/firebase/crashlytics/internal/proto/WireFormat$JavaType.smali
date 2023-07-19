@@ -52,7 +52,6 @@
 .method static constructor <clinit>()V
     .locals 16
 
-    .line 1
     new-instance v0, Lcom/google/firebase/crashlytics/internal/proto/WireFormat$JavaType;
 
     const/4 v1, 0x0
@@ -67,7 +66,6 @@
 
     sput-object v0, Lcom/google/firebase/crashlytics/internal/proto/WireFormat$JavaType;->INT:Lcom/google/firebase/crashlytics/internal/proto/WireFormat$JavaType;
 
-    .line 2
     new-instance v2, Lcom/google/firebase/crashlytics/internal/proto/WireFormat$JavaType;
 
     const-wide/16 v3, 0x0
@@ -84,7 +82,6 @@
 
     sput-object v2, Lcom/google/firebase/crashlytics/internal/proto/WireFormat$JavaType;->LONG:Lcom/google/firebase/crashlytics/internal/proto/WireFormat$JavaType;
 
-    .line 3
     new-instance v3, Lcom/google/firebase/crashlytics/internal/proto/WireFormat$JavaType;
 
     const/4 v4, 0x0
@@ -101,7 +98,6 @@
 
     sput-object v3, Lcom/google/firebase/crashlytics/internal/proto/WireFormat$JavaType;->FLOAT:Lcom/google/firebase/crashlytics/internal/proto/WireFormat$JavaType;
 
-    .line 4
     new-instance v4, Lcom/google/firebase/crashlytics/internal/proto/WireFormat$JavaType;
 
     const-wide/16 v8, 0x0
@@ -118,7 +114,6 @@
 
     sput-object v4, Lcom/google/firebase/crashlytics/internal/proto/WireFormat$JavaType;->DOUBLE:Lcom/google/firebase/crashlytics/internal/proto/WireFormat$JavaType;
 
-    .line 5
     new-instance v6, Lcom/google/firebase/crashlytics/internal/proto/WireFormat$JavaType;
 
     sget-object v8, Ljava/lang/Boolean;->FALSE:Ljava/lang/Boolean;
@@ -131,7 +126,6 @@
 
     sput-object v6, Lcom/google/firebase/crashlytics/internal/proto/WireFormat$JavaType;->BOOLEAN:Lcom/google/firebase/crashlytics/internal/proto/WireFormat$JavaType;
 
-    .line 6
     new-instance v8, Lcom/google/firebase/crashlytics/internal/proto/WireFormat$JavaType;
 
     const-string v10, "STRING"
@@ -144,7 +138,6 @@
 
     sput-object v8, Lcom/google/firebase/crashlytics/internal/proto/WireFormat$JavaType;->STRING:Lcom/google/firebase/crashlytics/internal/proto/WireFormat$JavaType;
 
-    .line 7
     new-instance v10, Lcom/google/firebase/crashlytics/internal/proto/WireFormat$JavaType;
 
     sget-object v13, Lcom/google/firebase/crashlytics/internal/proto/a;->c:Lcom/google/firebase/crashlytics/internal/proto/a;
@@ -157,7 +150,6 @@
 
     sput-object v10, Lcom/google/firebase/crashlytics/internal/proto/WireFormat$JavaType;->BYTE_STRING:Lcom/google/firebase/crashlytics/internal/proto/WireFormat$JavaType;
 
-    .line 8
     new-instance v13, Lcom/google/firebase/crashlytics/internal/proto/WireFormat$JavaType;
 
     const-string v14, "ENUM"
@@ -170,7 +162,6 @@
 
     sput-object v13, Lcom/google/firebase/crashlytics/internal/proto/WireFormat$JavaType;->ENUM:Lcom/google/firebase/crashlytics/internal/proto/WireFormat$JavaType;
 
-    .line 9
     new-instance v14, Lcom/google/firebase/crashlytics/internal/proto/WireFormat$JavaType;
 
     const-string v15, "MESSAGE"
@@ -211,7 +202,6 @@
 
     aput-object v14, v12, v11
 
-    .line 10
     sput-object v12, Lcom/google/firebase/crashlytics/internal/proto/WireFormat$JavaType;->$VALUES:[Lcom/google/firebase/crashlytics/internal/proto/WireFormat$JavaType;
 
     return-void
@@ -227,10 +217,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 2
     iput-object p3, p0, Lcom/google/firebase/crashlytics/internal/proto/WireFormat$JavaType;->defaultDefault:Ljava/lang/Object;
 
     return-void
@@ -239,7 +227,6 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/google/firebase/crashlytics/internal/proto/WireFormat$JavaType;
     .locals 1
 
-    .line 1
     const-class v0, Lcom/google/firebase/crashlytics/internal/proto/WireFormat$JavaType;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -254,7 +241,6 @@
 .method public static values()[Lcom/google/firebase/crashlytics/internal/proto/WireFormat$JavaType;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/google/firebase/crashlytics/internal/proto/WireFormat$JavaType;->$VALUES:[Lcom/google/firebase/crashlytics/internal/proto/WireFormat$JavaType;
 
     invoke-virtual {v0}, [Lcom/google/firebase/crashlytics/internal/proto/WireFormat$JavaType;->clone()Ljava/lang/Object;
@@ -271,7 +257,6 @@
 .method getDefaultDefault()Ljava/lang/Object;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/crashlytics/internal/proto/WireFormat$JavaType;->defaultDefault:Ljava/lang/Object;
 
     return-object v0

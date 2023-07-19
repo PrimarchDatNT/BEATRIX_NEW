@@ -11,7 +11,6 @@
 .method public constructor <init>(IIII)V
     .locals 2
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     const/16 v1, 0x52
@@ -50,7 +49,6 @@
 
     invoke-direct {p0, p2}, Ljava/lang/Exception;-><init>(Ljava/lang/String;)V
 
-    .line 2
     iput p1, p0, Lcom/google/android/gms/internal/ads/zzit;->zzalw:I
 
     return-void

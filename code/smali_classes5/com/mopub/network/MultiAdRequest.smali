@@ -67,17 +67,14 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-static {p1}, Lcom/mopub/network/MultiAdRequest;->clearUrlIfSdkNotInitialized(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v2
 
-    .line 2
     invoke-static {p1}, Lcom/mopub/network/MoPubRequestUtils;->truncateQueryParamsIfPost(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v3
 
-    .line 3
     invoke-static {p1}, Lcom/mopub/network/MoPubRequestUtils;->chooseMethod(Ljava/lang/String;)Lcom/mopub/network/MoPubRequest$Method;
 
     move-result-object v4
@@ -88,53 +85,40 @@
 
     move-object v5, p5
 
-    .line 4
     invoke-direct/range {v0 .. v5}, Lcom/mopub/network/MoPubRequest;-><init>(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Lcom/mopub/network/MoPubRequest$Method;Lcom/mopub/network/MoPubResponse$Listener;)V
 
     const/4 v0, 0x0
 
-    .line 5
     iput v0, p0, Lcom/mopub/network/MultiAdRequest;->hashCode:I
 
-    .line 6
     invoke-static {p1}, Lcom/mopub/common/Preconditions;->checkNotNull(Ljava/lang/Object;)V
 
-    .line 7
     invoke-static {p2}, Lcom/mopub/common/Preconditions;->checkNotNull(Ljava/lang/Object;)V
 
-    .line 8
     invoke-static {p4}, Lcom/mopub/common/Preconditions;->checkNotNull(Ljava/lang/Object;)V
 
-    .line 9
     invoke-static {p5}, Lcom/mopub/common/Preconditions;->checkNotNull(Ljava/lang/Object;)V
 
-    .line 10
     iput-object p3, p0, Lcom/mopub/network/MultiAdRequest;->mAdUnitId:Ljava/lang/String;
 
-    .line 11
     iput-object p5, p0, Lcom/mopub/network/MultiAdRequest;->mListener:Lcom/mopub/network/MultiAdRequest$Listener;
 
-    .line 12
     iput-object p2, p0, Lcom/mopub/network/MultiAdRequest;->mAdFormat:Lcom/mopub/common/AdFormat;
 
-    .line 13
     invoke-virtual {p4}, Landroid/content/Context;->getApplicationContext()Landroid/content/Context;
 
     move-result-object p1
 
     iput-object p1, p0, Lcom/mopub/network/MultiAdRequest;->mContext:Landroid/content/Context;
 
-    .line 14
     invoke-virtual {p0, v0}, Lcom/mopub/network/MoPubRequest;->setShouldCache(Z)V
 
-    .line 15
     invoke-static {}, Lcom/mopub/common/MoPub;->getPersonalInformationManager()Lcom/mopub/common/privacy/PersonalInfoManager;
 
     move-result-object p1
 
     if-eqz p1, :cond_0
 
-    .line 16
     invoke-virtual {p1, v0}, Lcom/mopub/common/privacy/PersonalInfoManager;->requestSync(Z)V
 
     :cond_0
@@ -150,7 +134,6 @@
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
-    .line 1
     invoke-static {}, Lcom/mopub/common/MoPub;->getPersonalInformationManager()Lcom/mopub/common/privacy/PersonalInfoManager;
 
     move-result-object v0
@@ -168,7 +151,6 @@
     :cond_0
     return-object p0
 
-    .line 2
     :cond_1
     :goto_0
     sget-object p0, Lcom/mopub/common/logging/MoPubLog$AdLogEvent;->CUSTOM:Lcom/mopub/common/logging/MoPubLog$AdLogEvent;
@@ -199,14 +181,12 @@
         .end annotation
     .end param
 
-    .line 2
     invoke-virtual {p0}, Lcom/mopub/network/MoPubRequest;->isCanceled()Z
 
     move-result v0
 
     if-nez v0, :cond_0
 
-    .line 3
     iget-object v0, p0, Lcom/mopub/network/MultiAdRequest;->mListener:Lcom/mopub/network/MultiAdRequest$Listener;
 
     invoke-interface {v0, p1}, Lcom/mopub/network/MoPubResponse$Listener;->onResponse(Ljava/lang/Object;)V
@@ -222,7 +202,6 @@
         .end annotation
     .end param
 
-    .line 1
     check-cast p1, Lcom/mopub/network/MultiAdResponse;
 
     invoke-virtual {p0, p1}, Lcom/mopub/network/MultiAdRequest;->deliverResponse(Lcom/mopub/network/MultiAdResponse;)V
@@ -239,7 +218,6 @@
 
     return v0
 
-    .line 1
     :cond_0
     instance-of v1, p1, Lcom/mopub/network/MultiAdRequest;
 
@@ -249,16 +227,13 @@
 
     return v2
 
-    .line 2
     :cond_1
     check-cast p1, Lcom/mopub/network/MultiAdRequest;
 
-    .line 3
     iget-object v1, p0, Lcom/mopub/network/MultiAdRequest;->mAdUnitId:Ljava/lang/String;
 
     if-eqz v1, :cond_3
 
-    .line 4
     iget-object v3, p1, Lcom/mopub/network/MultiAdRequest;->mAdUnitId:Ljava/lang/String;
 
     if-nez v3, :cond_2
@@ -274,7 +249,6 @@
 
     goto :goto_0
 
-    .line 5
     :cond_3
     iget-object v1, p1, Lcom/mopub/network/MultiAdRequest;->mAdUnitId:Ljava/lang/String;
 
@@ -290,14 +264,12 @@
     :goto_0
     if-nez v1, :cond_5
 
-    .line 6
     iget-object v1, p0, Lcom/mopub/network/MultiAdRequest;->mAdFormat:Lcom/mopub/common/AdFormat;
 
     iget-object v3, p1, Lcom/mopub/network/MultiAdRequest;->mAdFormat:Lcom/mopub/common/AdFormat;
 
     if-ne v1, v3, :cond_5
 
-    .line 7
     invoke-virtual {p0}, Lcom/mopub/network/MoPubRequest;->getUrl()Ljava/lang/String;
 
     move-result-object v1
@@ -326,7 +298,6 @@
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/mopub/network/MoPubRequest;->getUrl()Ljava/lang/String;
 
     move-result-object v0
@@ -341,7 +312,6 @@
 
     return-object v0
 
-    .line 2
     :cond_0
     invoke-super {p0}, Lcom/mopub/network/MoPubRequest;->getBodyContentType()Ljava/lang/String;
 
@@ -365,7 +335,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/mopub/network/MoPubRequest;->getUrl()Ljava/lang/String;
 
     move-result-object v0
@@ -380,7 +349,6 @@
 
     return-object v0
 
-    .line 2
     :cond_0
     invoke-super {p0}, Lcom/mopub/network/MoPubRequest;->getParams()Ljava/util/Map;
 
@@ -392,12 +360,10 @@
 .method public hashCode()I
     .locals 2
 
-    .line 1
     iget v0, p0, Lcom/mopub/network/MultiAdRequest;->hashCode:I
 
     if-nez v0, :cond_1
 
-    .line 2
     iget-object v0, p0, Lcom/mopub/network/MultiAdRequest;->mAdUnitId:Ljava/lang/String;
 
     if-nez v0, :cond_0
@@ -414,7 +380,6 @@
     :goto_0
     mul-int/lit8 v0, v0, 0x1f
 
-    .line 3
     iget-object v1, p0, Lcom/mopub/network/MultiAdRequest;->mAdFormat:Lcom/mopub/common/AdFormat;
 
     invoke-virtual {v1}, Ljava/lang/Enum;->hashCode()I
@@ -425,7 +390,6 @@
 
     mul-int/lit8 v0, v0, 0x1f
 
-    .line 4
     invoke-virtual {p0}, Lcom/mopub/network/MoPubRequest;->getOriginalUrl()Ljava/lang/String;
 
     move-result-object v1
@@ -436,10 +400,8 @@
 
     add-int/2addr v0, v1
 
-    .line 5
     iput v0, p0, Lcom/mopub/network/MultiAdRequest;->hashCode:I
 
-    .line 6
     :cond_1
     iget v0, p0, Lcom/mopub/network/MultiAdRequest;->hashCode:I
 
@@ -462,7 +424,6 @@
         }
     .end annotation
 
-    .line 1
     :try_start_0
     new-instance v0, Lcom/mopub/network/MultiAdResponse;
 
@@ -476,7 +437,6 @@
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
-    .line 2
     invoke-static {v0, p1}, Lcom/mopub/network/MoPubResponse;->success(Ljava/lang/Object;Lcom/mopub/network/MoPubNetworkResponse;)Lcom/mopub/network/MoPubResponse;
 
     move-result-object p1
@@ -486,12 +446,10 @@
     :catch_0
     move-exception p1
 
-    .line 3
     instance-of v0, p1, Lcom/mopub/network/MoPubNetworkError;
 
     if-eqz v0, :cond_0
 
-    .line 4
     check-cast p1, Lcom/mopub/network/MoPubNetworkError;
 
     invoke-static {p1}, Lcom/mopub/network/MoPubResponse;->error(Lcom/mopub/network/MoPubNetworkError;)Lcom/mopub/network/MoPubResponse;
@@ -500,7 +458,6 @@
 
     return-object p1
 
-    .line 5
     :cond_0
     new-instance v0, Lcom/mopub/network/MoPubNetworkError$Builder;
 
@@ -510,17 +467,14 @@
 
     sget-object p1, Lcom/mopub/network/MoPubNetworkError$Reason;->UNSPECIFIED:Lcom/mopub/network/MoPubNetworkError$Reason;
 
-    .line 6
     invoke-virtual {v0, p1}, Lcom/mopub/network/MoPubNetworkError$Builder;->reason(Lcom/mopub/network/MoPubNetworkError$Reason;)Lcom/mopub/network/MoPubNetworkError$Builder;
 
     move-result-object p1
 
-    .line 7
     invoke-virtual {p1}, Lcom/mopub/network/MoPubNetworkError$Builder;->build()Lcom/mopub/network/MoPubNetworkError;
 
     move-result-object p1
 
-    .line 8
     invoke-static {p1}, Lcom/mopub/network/MoPubResponse;->error(Lcom/mopub/network/MoPubNetworkError;)Lcom/mopub/network/MoPubResponse;
 
     move-result-object p1

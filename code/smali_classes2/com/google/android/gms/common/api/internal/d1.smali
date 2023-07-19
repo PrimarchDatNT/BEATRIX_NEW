@@ -18,10 +18,8 @@
 .method constructor <init>(Lcom/google/android/gms/common/api/internal/w0;)V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Lcom/google/android/gms/common/api/internal/r1;-><init>()V
 
-    .line 2
     new-instance v0, Ljava/lang/ref/WeakReference;
 
     invoke-direct {v0, p1}, Ljava/lang/ref/WeakReference;-><init>(Ljava/lang/Object;)V
@@ -36,7 +34,6 @@
 .method public final a()V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/common/api/internal/d1;->a:Ljava/lang/ref/WeakReference;
 
     invoke-virtual {v0}, Ljava/lang/ref/WeakReference;->get()Ljava/lang/Object;
@@ -49,7 +46,6 @@
 
     return-void
 
-    .line 2
     :cond_0
     invoke-static {v0}, Lcom/google/android/gms/common/api/internal/w0;->N(Lcom/google/android/gms/common/api/internal/w0;)V
 

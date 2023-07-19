@@ -36,13 +36,11 @@
 .method public final b(Ljava/lang/Object;)V
     .locals 2
 
-    .line 1
     check-cast p1, Lorg/json/JSONObject;
 
     :try_start_0
     const-string v0, "sdk_env"
 
-    .line 2
     invoke-virtual {p1, v0}, Lorg/json/JSONObject;->getJSONObject(Ljava/lang/String;)Lorg/json/JSONObject;
 
     move-result-object p1
@@ -51,7 +49,6 @@
 
     const v1, 0xbdfcc1
 
-    .line 3
     invoke-virtual {p1, v0, v1}, Lorg/json/JSONObject;->put(Ljava/lang/String;I)Lorg/json/JSONObject;
     :try_end_0
     .catch Lorg/json/JSONException; {:try_start_0 .. :try_end_0} :catch_0

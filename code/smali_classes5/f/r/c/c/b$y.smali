@@ -25,7 +25,6 @@
 .method constructor <init>(Lf/r/c/c/b;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lf/r/c/c/b$y;->a:Lf/r/c/c/b;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -38,7 +37,6 @@
 .method public run()V
     .locals 4
 
-    .line 1
     iget-object v0, p0, Lf/r/c/c/b$y;->a:Lf/r/c/c/b;
 
     invoke-static {v0}, Lf/r/c/c/b;->D(Lf/r/c/c/b;)Lf/r/c/d/c;
@@ -47,7 +45,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 2
     iget-object v0, p0, Lf/r/c/c/b$y;->a:Lf/r/c/c/b;
 
     invoke-static {v0}, Lf/r/c/c/b;->D(Lf/r/c/c/b;)Lf/r/c/d/c;
@@ -56,7 +53,6 @@
 
     invoke-virtual {v0}, Lf/r/c/d/c;->k()V
 
-    .line 3
     :cond_0
     new-instance v0, Landroid/os/Handler;
 

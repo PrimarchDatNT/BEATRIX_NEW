@@ -29,7 +29,6 @@
 .method constructor <init>(Lcom/google/common/collect/AbstractMapBasedMultimap;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/common/collect/AbstractMapBasedMultimap$a;->g:Lcom/google/common/collect/AbstractMapBasedMultimap;
 
     invoke-direct {p0, p1}, Lcom/google/common/collect/AbstractMapBasedMultimap$d;-><init>(Lcom/google/common/collect/AbstractMapBasedMultimap;)V

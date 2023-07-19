@@ -39,7 +39,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     invoke-static {p0}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->A(Lcotlinx/coroutines/channels/y;)Lcotlin/jvm/u/l;
 
     move-result-object p0
@@ -69,7 +68,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     invoke-static {p0, p1, p2, p3}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->z0(Lcotlinx/coroutines/channels/y;Ljava/lang/Object;Lcotlin/jvm/u/q;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p0
@@ -118,7 +116,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     invoke-static {p0, p1, p2}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->A1(Lcotlinx/coroutines/channels/y;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p0
@@ -152,7 +149,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     invoke-static {p0}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->B([Lcotlinx/coroutines/channels/y;)Lcotlin/jvm/u/l;
 
     move-result-object p0
@@ -203,7 +199,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     invoke-static {p0, p1, p2}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->B0(Lcotlinx/coroutines/channels/y;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p0
@@ -233,7 +228,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     invoke-static {p0, p1, p2}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->A1(Lcotlinx/coroutines/channels/y;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p0
@@ -274,7 +268,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     invoke-static {p0, p1}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->C(Lcotlinx/coroutines/channels/y;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p0
@@ -333,7 +326,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     invoke-static {p0, p1, p2, p3}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->C0(Lcotlinx/coroutines/channels/y;Lcotlin/jvm/u/l;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p0
@@ -365,7 +357,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     invoke-static {p0}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->C1(Lcotlinx/coroutines/channels/y;)Lcotlinx/coroutines/selects/d;
 
     move-result-object p0
@@ -414,7 +405,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     invoke-static {p0, p1, p2}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->D(Lcotlinx/coroutines/channels/y;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p0
@@ -444,7 +434,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     invoke-static {p0, p1, p2}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->B0(Lcotlinx/coroutines/channels/y;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p0
@@ -497,7 +486,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     invoke-static {p0, p1, p2}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->D1(Lcotlinx/coroutines/channels/y;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p0
@@ -527,7 +515,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     invoke-static {p0, p1, p2}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->D(Lcotlinx/coroutines/channels/y;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p0
@@ -561,7 +548,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     invoke-static {p0, p1, p2, p3}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->C0(Lcotlinx/coroutines/channels/y;Lcotlin/jvm/u/l;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p0
@@ -591,7 +577,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     invoke-static {p0, p1, p2}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->D1(Lcotlinx/coroutines/channels/y;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p0
@@ -625,7 +610,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     invoke-static {p0}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->F(Lcotlinx/coroutines/channels/y;)Lcotlinx/coroutines/channels/y;
 
     move-result-object p0
@@ -680,7 +664,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     invoke-static {p0, p1, p2, p3}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->F0(Lcotlinx/coroutines/channels/y;Ljava/util/Map;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p0
@@ -717,7 +700,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     invoke-static {p0, p1}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->F1(Lcotlinx/coroutines/channels/y;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p0
@@ -768,7 +750,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     invoke-static {p0, p1, p2}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->G(Lcotlinx/coroutines/channels/y;Lcotlin/coroutines/CoroutineContext;Lcotlin/jvm/u/p;)Lcotlinx/coroutines/channels/y;
 
     move-result-object p0
@@ -831,7 +812,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     invoke-static {p0, p1, p2, p3, p4}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->G0(Lcotlinx/coroutines/channels/y;Ljava/util/Map;Lcotlin/jvm/u/l;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p0
@@ -876,7 +856,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     invoke-static {p0, p1, p2}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->G1(Lcotlinx/coroutines/channels/y;Lcotlin/jvm/u/p;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p0
@@ -887,7 +866,6 @@
 .method public static synthetic H(Lcotlinx/coroutines/channels/y;Lcotlin/coroutines/CoroutineContext;Lcotlin/jvm/u/p;ILjava/lang/Object;)Lcotlinx/coroutines/channels/y;
     .locals 0
 
-    .line 1
     invoke-static {p0, p1, p2, p3, p4}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->H(Lcotlinx/coroutines/channels/y;Lcotlin/coroutines/CoroutineContext;Lcotlin/jvm/u/p;ILjava/lang/Object;)Lcotlinx/coroutines/channels/y;
 
     move-result-object p0
@@ -921,7 +899,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     invoke-static {p0, p1, p2, p3}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->F0(Lcotlinx/coroutines/channels/y;Ljava/util/Map;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p0
@@ -951,7 +928,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     invoke-static {p0, p1, p2}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->G1(Lcotlinx/coroutines/channels/y;Lcotlin/jvm/u/p;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p0
@@ -991,7 +967,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     invoke-static {p0, p1, p2}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->I(Lcotlinx/coroutines/channels/y;ILcotlin/coroutines/CoroutineContext;)Lcotlinx/coroutines/channels/y;
 
     move-result-object p0
@@ -1029,7 +1004,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     invoke-static {p0, p1, p2, p3, p4}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->G0(Lcotlinx/coroutines/channels/y;Ljava/util/Map;Lcotlin/jvm/u/l;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p0
@@ -1076,7 +1050,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     invoke-static {p0, p1, p2}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->I1(Lcotlinx/coroutines/channels/y;Lcotlin/jvm/u/q;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p0
@@ -1087,7 +1060,6 @@
 .method public static synthetic J(Lcotlinx/coroutines/channels/y;ILcotlin/coroutines/CoroutineContext;ILjava/lang/Object;)Lcotlinx/coroutines/channels/y;
     .locals 0
 
-    .line 1
     invoke-static {p0, p1, p2, p3, p4}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->J(Lcotlinx/coroutines/channels/y;ILcotlin/coroutines/CoroutineContext;ILjava/lang/Object;)Lcotlinx/coroutines/channels/y;
 
     move-result-object p0
@@ -1128,7 +1100,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     invoke-static {p0, p1, p2}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->J0(Lcotlinx/coroutines/channels/y;Ljava/lang/Object;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p0
@@ -1158,7 +1129,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     invoke-static {p0, p1, p2}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->I1(Lcotlinx/coroutines/channels/y;Lcotlin/jvm/u/q;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p0
@@ -1209,7 +1179,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     invoke-static {p0, p1, p2}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->K(Lcotlinx/coroutines/channels/y;Lcotlin/coroutines/CoroutineContext;Lcotlin/jvm/u/p;)Lcotlinx/coroutines/channels/y;
 
     move-result-object p0
@@ -1258,7 +1227,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     invoke-static {p0, p1, p2}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->K0(Lcotlinx/coroutines/channels/y;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p0
@@ -1292,7 +1260,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     invoke-static {p0}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->K1(Lcotlinx/coroutines/channels/y;)Lcotlinx/coroutines/channels/y;
 
     move-result-object p0
@@ -1303,7 +1270,6 @@
 .method public static synthetic L(Lcotlinx/coroutines/channels/y;Lcotlin/coroutines/CoroutineContext;Lcotlin/jvm/u/p;ILjava/lang/Object;)Lcotlinx/coroutines/channels/y;
     .locals 0
 
-    .line 1
     invoke-static {p0, p1, p2, p3, p4}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->L(Lcotlinx/coroutines/channels/y;Lcotlin/coroutines/CoroutineContext;Lcotlin/jvm/u/p;ILjava/lang/Object;)Lcotlinx/coroutines/channels/y;
 
     move-result-object p0
@@ -1333,7 +1299,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     invoke-static {p0, p1, p2}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->K0(Lcotlinx/coroutines/channels/y;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p0
@@ -1357,7 +1322,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p0, p1}, Lcotlinx/coroutines/channels/ChannelsKt__ChannelsKt;->a(Lcotlinx/coroutines/channels/c0;Ljava/lang/Object;)V
 
     return-void
@@ -1394,7 +1358,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     invoke-static {p0, p1, p2}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->M(Lcotlinx/coroutines/channels/y;ILcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p0
@@ -1443,7 +1406,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     invoke-static {p0, p1, p2}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->M0(Lcotlinx/coroutines/channels/y;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p0
@@ -1482,7 +1444,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     invoke-static {p0, p1}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->L1(Lcotlinx/coroutines/channels/y;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p0
@@ -1529,7 +1490,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     invoke-static {p0, p1, p2, p3}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->N(Lcotlinx/coroutines/channels/y;ILcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p0
@@ -1559,7 +1519,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     invoke-static {p0, p1, p2}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->M0(Lcotlinx/coroutines/channels/y;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p0
@@ -1606,7 +1565,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     invoke-static {p0, p1, p2}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->M1(Lcotlinx/coroutines/channels/y;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p0
@@ -1636,7 +1594,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     invoke-static {p0, p1, p2, p3}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->N(Lcotlinx/coroutines/channels/y;ILcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p0
@@ -1675,7 +1632,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     invoke-static {p0, p1}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->O0(Lcotlinx/coroutines/channels/y;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p0
@@ -1705,7 +1661,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     invoke-static {p0, p1, p2}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->M1(Lcotlinx/coroutines/channels/y;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p0
@@ -1744,7 +1699,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     invoke-static {p0, p1, p2}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->P(Lcotlinx/coroutines/channels/y;ILcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p0
@@ -1791,7 +1745,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     invoke-static {p0, p1, p2}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->P0(Lcotlinx/coroutines/channels/y;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p0
@@ -1830,7 +1783,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     invoke-static {p0, p1}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->O1(Lcotlinx/coroutines/channels/y;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p0
@@ -1881,7 +1833,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     invoke-static {p0, p1, p2}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->Q(Lcotlinx/coroutines/channels/y;Lcotlin/coroutines/CoroutineContext;Lcotlin/jvm/u/p;)Lcotlinx/coroutines/channels/y;
 
     move-result-object p0
@@ -1911,7 +1862,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     invoke-static {p0, p1, p2}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->P0(Lcotlinx/coroutines/channels/y;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p0
@@ -1958,7 +1908,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     invoke-static {p0, p1, p2}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->P1(Lcotlinx/coroutines/channels/y;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p0
@@ -1969,7 +1918,6 @@
 .method public static synthetic R(Lcotlinx/coroutines/channels/y;Lcotlin/coroutines/CoroutineContext;Lcotlin/jvm/u/p;ILjava/lang/Object;)Lcotlinx/coroutines/channels/y;
     .locals 0
 
-    .line 1
     invoke-static {p0, p1, p2, p3, p4}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->R(Lcotlinx/coroutines/channels/y;Lcotlin/coroutines/CoroutineContext;Lcotlin/jvm/u/p;ILjava/lang/Object;)Lcotlinx/coroutines/channels/y;
 
     move-result-object p0
@@ -2010,7 +1958,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     invoke-static {p0, p1, p2}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->R0(Lcotlinx/coroutines/channels/y;Ljava/lang/Object;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p0
@@ -2040,7 +1987,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     invoke-static {p0, p1, p2}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->P1(Lcotlinx/coroutines/channels/y;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p0
@@ -2093,7 +2039,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     invoke-static {p0, p1, p2}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->S(Lcotlinx/coroutines/channels/y;Lcotlin/coroutines/CoroutineContext;Lcotlin/jvm/u/q;)Lcotlinx/coroutines/channels/y;
 
     move-result-object p0
@@ -2132,7 +2077,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     invoke-static {p0, p1}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->S0(Lcotlinx/coroutines/channels/y;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p0
@@ -2181,7 +2125,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     invoke-static {p0, p1, p2}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->R1(Lcotlinx/coroutines/channels/y;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p0
@@ -2192,7 +2135,6 @@
 .method public static synthetic T(Lcotlinx/coroutines/channels/y;Lcotlin/coroutines/CoroutineContext;Lcotlin/jvm/u/q;ILjava/lang/Object;)Lcotlinx/coroutines/channels/y;
     .locals 0
 
-    .line 1
     invoke-static {p0, p1, p2, p3, p4}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->T(Lcotlinx/coroutines/channels/y;Lcotlin/coroutines/CoroutineContext;Lcotlin/jvm/u/q;ILjava/lang/Object;)Lcotlinx/coroutines/channels/y;
 
     move-result-object p0
@@ -2239,7 +2181,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     invoke-static {p0, p1, p2}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->T0(Lcotlinx/coroutines/channels/y;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p0
@@ -2269,7 +2210,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     invoke-static {p0, p1, p2}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->R1(Lcotlinx/coroutines/channels/y;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p0
@@ -2324,7 +2264,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     invoke-static {p0, p1, p2, p3}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->U(Lcotlinx/coroutines/channels/y;Ljava/util/Collection;Lcotlin/jvm/u/p;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p0
@@ -2354,7 +2293,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     invoke-static {p0, p1, p2}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->T0(Lcotlinx/coroutines/channels/y;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p0
@@ -2403,7 +2341,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     invoke-static {p0, p1, p2}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->T1(Lcotlinx/coroutines/channels/y;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p0
@@ -2458,7 +2395,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     invoke-static {p0, p1, p2, p3}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->V(Lcotlinx/coroutines/channels/y;Lcotlinx/coroutines/channels/c0;Lcotlin/jvm/u/p;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p0
@@ -2509,7 +2445,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     invoke-static {p0, p1, p2}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->V0(Lcotlinx/coroutines/channels/y;Lcotlin/coroutines/CoroutineContext;Lcotlin/jvm/u/p;)Lcotlinx/coroutines/channels/y;
 
     move-result-object p0
@@ -2539,7 +2474,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     invoke-static {p0, p1, p2}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->T1(Lcotlinx/coroutines/channels/y;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p0
@@ -2573,7 +2507,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     invoke-static {p0, p1, p2, p3}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->U(Lcotlinx/coroutines/channels/y;Ljava/util/Collection;Lcotlin/jvm/u/p;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p0
@@ -2584,7 +2517,6 @@
 .method public static synthetic W0(Lcotlinx/coroutines/channels/y;Lcotlin/coroutines/CoroutineContext;Lcotlin/jvm/u/p;ILjava/lang/Object;)Lcotlinx/coroutines/channels/y;
     .locals 0
 
-    .line 1
     invoke-static {p0, p1, p2, p3, p4}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->W0(Lcotlinx/coroutines/channels/y;Lcotlin/coroutines/CoroutineContext;Lcotlin/jvm/u/p;ILjava/lang/Object;)Lcotlinx/coroutines/channels/y;
 
     move-result-object p0
@@ -2624,7 +2556,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     invoke-static {p0, p1, p2}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->V1(Lcotlinx/coroutines/channels/y;ILcotlin/coroutines/CoroutineContext;)Lcotlinx/coroutines/channels/y;
 
     move-result-object p0
@@ -2658,7 +2589,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     invoke-static {p0, p1, p2, p3}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->V(Lcotlinx/coroutines/channels/y;Lcotlinx/coroutines/channels/c0;Lcotlin/jvm/u/p;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p0
@@ -2711,7 +2641,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     invoke-static {p0, p1, p2}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->X0(Lcotlinx/coroutines/channels/y;Lcotlin/coroutines/CoroutineContext;Lcotlin/jvm/u/q;)Lcotlinx/coroutines/channels/y;
 
     move-result-object p0
@@ -2722,7 +2651,6 @@
 .method public static synthetic X1(Lcotlinx/coroutines/channels/y;ILcotlin/coroutines/CoroutineContext;ILjava/lang/Object;)Lcotlinx/coroutines/channels/y;
     .locals 0
 
-    .line 1
     invoke-static {p0, p1, p2, p3, p4}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->W1(Lcotlinx/coroutines/channels/y;ILcotlin/coroutines/CoroutineContext;ILjava/lang/Object;)Lcotlinx/coroutines/channels/y;
 
     move-result-object p0
@@ -2773,7 +2701,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     invoke-static {p0, p1, p2}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->Y(Lcotlinx/coroutines/channels/y;Lcotlin/coroutines/CoroutineContext;Lcotlin/jvm/u/p;)Lcotlinx/coroutines/channels/y;
 
     move-result-object p0
@@ -2784,7 +2711,6 @@
 .method public static synthetic Y0(Lcotlinx/coroutines/channels/y;Lcotlin/coroutines/CoroutineContext;Lcotlin/jvm/u/q;ILjava/lang/Object;)Lcotlinx/coroutines/channels/y;
     .locals 0
 
-    .line 1
     invoke-static {p0, p1, p2, p3, p4}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->Y0(Lcotlinx/coroutines/channels/y;Lcotlin/coroutines/CoroutineContext;Lcotlin/jvm/u/q;ILjava/lang/Object;)Lcotlinx/coroutines/channels/y;
 
     move-result-object p0
@@ -2835,7 +2761,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     invoke-static {p0, p1, p2}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->X1(Lcotlinx/coroutines/channels/y;Lcotlin/coroutines/CoroutineContext;Lcotlin/jvm/u/p;)Lcotlinx/coroutines/channels/y;
 
     move-result-object p0
@@ -2846,7 +2771,6 @@
 .method public static synthetic Z(Lcotlinx/coroutines/channels/y;Lcotlin/coroutines/CoroutineContext;Lcotlin/jvm/u/p;ILjava/lang/Object;)Lcotlinx/coroutines/channels/y;
     .locals 0
 
-    .line 1
     invoke-static {p0, p1, p2, p3, p4}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->Z(Lcotlinx/coroutines/channels/y;Lcotlin/coroutines/CoroutineContext;Lcotlin/jvm/u/p;ILjava/lang/Object;)Lcotlinx/coroutines/channels/y;
 
     move-result-object p0
@@ -2899,7 +2823,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     invoke-static {p0, p1, p2}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->Z0(Lcotlinx/coroutines/channels/y;Lcotlin/coroutines/CoroutineContext;Lcotlin/jvm/u/q;)Lcotlinx/coroutines/channels/y;
 
     move-result-object p0
@@ -2910,7 +2833,6 @@
 .method public static synthetic Z1(Lcotlinx/coroutines/channels/y;Lcotlin/coroutines/CoroutineContext;Lcotlin/jvm/u/p;ILjava/lang/Object;)Lcotlinx/coroutines/channels/y;
     .locals 0
 
-    .line 1
     invoke-static {p0, p1, p2, p3, p4}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->Y1(Lcotlinx/coroutines/channels/y;Lcotlin/coroutines/CoroutineContext;Lcotlin/jvm/u/p;ILjava/lang/Object;)Lcotlinx/coroutines/channels/y;
 
     move-result-object p0
@@ -2959,7 +2881,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     invoke-static {p0, p1, p2}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->a(Lcotlinx/coroutines/channels/y;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p0
@@ -2993,7 +2914,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     invoke-static {p0}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->a0(Lcotlinx/coroutines/channels/y;)Lcotlinx/coroutines/channels/y;
 
     move-result-object p0
@@ -3004,7 +2924,6 @@
 .method public static synthetic a1(Lcotlinx/coroutines/channels/y;Lcotlin/coroutines/CoroutineContext;Lcotlin/jvm/u/q;ILjava/lang/Object;)Lcotlinx/coroutines/channels/y;
     .locals 0
 
-    .line 1
     invoke-static {p0, p1, p2, p3, p4}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->a1(Lcotlinx/coroutines/channels/y;Lcotlin/coroutines/CoroutineContext;Lcotlin/jvm/u/q;ILjava/lang/Object;)Lcotlinx/coroutines/channels/y;
 
     move-result-object p0
@@ -3049,7 +2968,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     invoke-static {p0, p1, p2}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->Z1(Lcotlinx/coroutines/channels/y;Lcotlinx/coroutines/channels/c0;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p0
@@ -3079,7 +2997,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     invoke-static {p0, p1, p2}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->a(Lcotlinx/coroutines/channels/y;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p0
@@ -3124,7 +3041,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     invoke-static {p0, p1, p2}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->b0(Lcotlinx/coroutines/channels/y;Ljava/util/Collection;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p0
@@ -3179,7 +3095,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     invoke-static {p0, p1, p2, p3}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->b1(Lcotlinx/coroutines/channels/y;Ljava/util/Collection;Lcotlin/jvm/u/p;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p0
@@ -3224,7 +3139,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     invoke-static {p0, p1, p2}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->a2(Lcotlinx/coroutines/channels/y;Ljava/util/Collection;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p0
@@ -3265,7 +3179,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     invoke-static {p0, p1}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->c(Lcotlinx/coroutines/channels/y;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p0
@@ -3310,7 +3223,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     invoke-static {p0, p1, p2}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->c0(Lcotlinx/coroutines/channels/y;Lcotlinx/coroutines/channels/c0;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p0
@@ -3365,7 +3277,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     invoke-static {p0, p1, p2, p3}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->c1(Lcotlinx/coroutines/channels/y;Lcotlinx/coroutines/channels/c0;Lcotlin/jvm/u/p;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p0
@@ -3401,7 +3312,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     invoke-static {p0, p1}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->b2(Lcotlinx/coroutines/channels/y;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p0
@@ -3450,7 +3360,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     invoke-static {p0, p1, p2}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->d(Lcotlinx/coroutines/channels/y;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p0
@@ -3503,7 +3412,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     invoke-static {p0, p1, p2, p3}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->d0(Lcotlinx/coroutines/channels/y;Ljava/util/Collection;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p0
@@ -3537,7 +3445,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     invoke-static {p0, p1, p2, p3}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->b1(Lcotlinx/coroutines/channels/y;Ljava/util/Collection;Lcotlin/jvm/u/p;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p0
@@ -3586,7 +3493,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     invoke-static {p0, p1, p2}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->c2(Lcotlinx/coroutines/channels/y;Ljava/util/Map;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p0
@@ -3616,7 +3522,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     invoke-static {p0, p1, p2}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->d(Lcotlinx/coroutines/channels/y;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p0
@@ -3669,7 +3574,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     invoke-static {p0, p1, p2, p3}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->e0(Lcotlinx/coroutines/channels/y;Lcotlinx/coroutines/channels/c0;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p0
@@ -3703,7 +3607,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     invoke-static {p0, p1, p2, p3}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->c1(Lcotlinx/coroutines/channels/y;Lcotlinx/coroutines/channels/c0;Lcotlin/jvm/u/p;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p0
@@ -3748,7 +3651,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     invoke-static {p0, p1}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->d2(Lcotlinx/coroutines/channels/y;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p0
@@ -3801,7 +3703,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     invoke-static {p0, p1, p2}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->f(Lcotlinx/coroutines/channels/y;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p0
@@ -3835,7 +3736,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     invoke-static {p0, p1, p2, p3}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->d0(Lcotlinx/coroutines/channels/y;Ljava/util/Collection;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p0
@@ -3890,7 +3790,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     invoke-static {p0, p1, p2, p3}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->f1(Lcotlinx/coroutines/channels/y;Ljava/util/Collection;Lcotlin/jvm/u/p;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p0
@@ -3931,7 +3830,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     invoke-static {p0, p1}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->e2(Lcotlinx/coroutines/channels/y;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p0
@@ -3961,7 +3859,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     invoke-static {p0, p1, p2}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->f(Lcotlinx/coroutines/channels/y;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p0
@@ -3995,7 +3892,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     invoke-static {p0, p1, p2, p3}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->e0(Lcotlinx/coroutines/channels/y;Lcotlinx/coroutines/channels/c0;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p0
@@ -4050,7 +3946,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     invoke-static {p0, p1, p2, p3}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->g1(Lcotlinx/coroutines/channels/y;Lcotlinx/coroutines/channels/c0;Lcotlin/jvm/u/p;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p0
@@ -4091,7 +3986,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     invoke-static {p0, p1}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->f2(Lcotlinx/coroutines/channels/y;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p0
@@ -4140,7 +4034,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     invoke-static {p0, p1, p2}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->h(Lcotlinx/coroutines/channels/y;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p0
@@ -4193,7 +4086,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     invoke-static {p0, p1, p2, p3}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->h0(Lcotlinx/coroutines/channels/y;Ljava/util/Collection;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p0
@@ -4227,7 +4119,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     invoke-static {p0, p1, p2, p3}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->f1(Lcotlinx/coroutines/channels/y;Ljava/util/Collection;Lcotlin/jvm/u/p;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p0
@@ -4268,7 +4159,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     invoke-static {p0, p1}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->g2(Lcotlinx/coroutines/channels/y;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p0
@@ -4325,7 +4215,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     invoke-static {p0, p1, p2, p3}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->i(Lcotlinx/coroutines/channels/y;Lcotlin/jvm/u/l;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p0
@@ -4378,7 +4267,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     invoke-static {p0, p1, p2, p3}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->i0(Lcotlinx/coroutines/channels/y;Lcotlinx/coroutines/channels/c0;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p0
@@ -4412,7 +4300,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     invoke-static {p0, p1, p2, p3}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->g1(Lcotlinx/coroutines/channels/y;Lcotlinx/coroutines/channels/c0;Lcotlin/jvm/u/p;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p0
@@ -4453,7 +4340,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     invoke-static {p0, p1}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->h2(Lcotlinx/coroutines/channels/y;Lcotlin/coroutines/CoroutineContext;)Lcotlinx/coroutines/channels/y;
 
     move-result-object p0
@@ -4483,7 +4369,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     invoke-static {p0, p1, p2}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->h(Lcotlinx/coroutines/channels/y;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p0
@@ -4517,7 +4402,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     invoke-static {p0, p1, p2, p3}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->h0(Lcotlinx/coroutines/channels/y;Ljava/util/Collection;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p0
@@ -4568,7 +4452,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     invoke-static {p0, p1, p2}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->j1(Lcotlinx/coroutines/channels/y;Lcotlin/coroutines/CoroutineContext;Lcotlin/jvm/u/p;)Lcotlinx/coroutines/channels/y;
 
     move-result-object p0
@@ -4579,7 +4462,6 @@
 .method public static synthetic j2(Lcotlinx/coroutines/channels/y;Lcotlin/coroutines/CoroutineContext;ILjava/lang/Object;)Lcotlinx/coroutines/channels/y;
     .locals 0
 
-    .line 1
     invoke-static {p0, p1, p2, p3}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->i2(Lcotlinx/coroutines/channels/y;Lcotlin/coroutines/CoroutineContext;ILjava/lang/Object;)Lcotlinx/coroutines/channels/y;
 
     move-result-object p0
@@ -4613,7 +4495,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     invoke-static {p0, p1, p2, p3}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->i(Lcotlinx/coroutines/channels/y;Lcotlin/jvm/u/l;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p0
@@ -4647,7 +4528,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     invoke-static {p0, p1, p2, p3}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->i0(Lcotlinx/coroutines/channels/y;Lcotlinx/coroutines/channels/c0;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p0
@@ -4658,7 +4538,6 @@
 .method public static synthetic k1(Lcotlinx/coroutines/channels/y;Lcotlin/coroutines/CoroutineContext;Lcotlin/jvm/u/p;ILjava/lang/Object;)Lcotlinx/coroutines/channels/y;
     .locals 0
 
-    .line 1
     invoke-static {p0, p1, p2, p3, p4}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->k1(Lcotlinx/coroutines/channels/y;Lcotlin/coroutines/CoroutineContext;Lcotlin/jvm/u/p;ILjava/lang/Object;)Lcotlinx/coroutines/channels/y;
 
     move-result-object p0
@@ -4701,7 +4580,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     invoke-static {p0, p1}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->j2(Lcotlinx/coroutines/channels/y;Lcotlinx/coroutines/channels/y;)Lcotlinx/coroutines/channels/y;
 
     move-result-object p0
@@ -4754,7 +4632,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     invoke-static {p0, p1, p2, p3}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->l(Lcotlinx/coroutines/channels/y;Ljava/util/Map;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p0
@@ -4801,7 +4678,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     invoke-static {p0, p1, p2}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->l0(Lcotlinx/coroutines/channels/y;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p0
@@ -4854,7 +4730,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     invoke-static {p0, p1, p2, p3}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->l1(Lcotlinx/coroutines/channels/y;Ljava/util/Collection;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p0
@@ -4909,7 +4784,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     invoke-static {p0, p1, p2, p3}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->k2(Lcotlinx/coroutines/channels/y;Lcotlinx/coroutines/channels/y;Lcotlin/coroutines/CoroutineContext;Lcotlin/jvm/u/p;)Lcotlinx/coroutines/channels/y;
 
     move-result-object p0
@@ -4970,7 +4844,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     invoke-static {p0, p1, p2, p3, p4}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->m(Lcotlinx/coroutines/channels/y;Ljava/util/Map;Lcotlin/jvm/u/l;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p0
@@ -5000,7 +4873,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     invoke-static {p0, p1, p2}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->l0(Lcotlinx/coroutines/channels/y;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p0
@@ -5053,7 +4925,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     invoke-static {p0, p1, p2, p3}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->m1(Lcotlinx/coroutines/channels/y;Lcotlinx/coroutines/channels/c0;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p0
@@ -5064,7 +4935,6 @@
 .method public static synthetic m2(Lcotlinx/coroutines/channels/y;Lcotlinx/coroutines/channels/y;Lcotlin/coroutines/CoroutineContext;Lcotlin/jvm/u/p;ILjava/lang/Object;)Lcotlinx/coroutines/channels/y;
     .locals 0
 
-    .line 1
     invoke-static/range {p0 .. p5}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->l2(Lcotlinx/coroutines/channels/y;Lcotlinx/coroutines/channels/y;Lcotlin/coroutines/CoroutineContext;Lcotlin/jvm/u/p;ILjava/lang/Object;)Lcotlinx/coroutines/channels/y;
 
     move-result-object p0
@@ -5098,7 +4968,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     invoke-static {p0, p1, p2, p3}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->l(Lcotlinx/coroutines/channels/y;Ljava/util/Map;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p0
@@ -5145,7 +5014,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     invoke-static {p0, p1, p2}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->n0(Lcotlinx/coroutines/channels/y;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p0
@@ -5179,7 +5047,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     invoke-static {p0, p1, p2, p3}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->l1(Lcotlinx/coroutines/channels/y;Ljava/util/Collection;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p0
@@ -5217,7 +5084,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     invoke-static {p0, p1, p2, p3, p4}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->m(Lcotlinx/coroutines/channels/y;Ljava/util/Map;Lcotlin/jvm/u/l;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p0
@@ -5247,7 +5113,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     invoke-static {p0, p1, p2}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->n0(Lcotlinx/coroutines/channels/y;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p0
@@ -5281,7 +5146,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     invoke-static {p0, p1, p2, p3}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->m1(Lcotlinx/coroutines/channels/y;Lcotlinx/coroutines/channels/c0;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p0
@@ -5338,7 +5202,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     invoke-static {p0, p1, p2, p3}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->p(Lcotlinx/coroutines/channels/y;Ljava/util/Map;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p0
@@ -5377,7 +5240,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     invoke-static {p0, p1}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->p0(Lcotlinx/coroutines/channels/y;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p0
@@ -5430,7 +5292,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     invoke-static {p0, p1, p2, p3}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->p1(Lcotlinx/coroutines/channels/y;Ljava/util/Collection;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p0
@@ -5464,7 +5325,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     invoke-static {p0, p1, p2, p3}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->p(Lcotlinx/coroutines/channels/y;Ljava/util/Map;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p0
@@ -5511,7 +5371,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     invoke-static {p0, p1, p2}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->q0(Lcotlinx/coroutines/channels/y;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p0
@@ -5564,7 +5423,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     invoke-static {p0, p1, p2, p3}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->q1(Lcotlinx/coroutines/channels/y;Lcotlinx/coroutines/channels/c0;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p0
@@ -5595,7 +5453,6 @@
     .annotation build Lcotlin/p0;
     .end annotation
 
-    .line 1
     invoke-static {p0, p1}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->r(Lcotlinx/coroutines/channels/y;Ljava/lang/Throwable;)V
 
     return-void
@@ -5623,7 +5480,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     invoke-static {p0, p1, p2}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->q0(Lcotlinx/coroutines/channels/y;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p0
@@ -5657,7 +5513,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     invoke-static {p0, p1, p2, p3}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->p1(Lcotlinx/coroutines/channels/y;Ljava/util/Collection;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p0
@@ -5694,7 +5549,6 @@
     .annotation build Lcotlinx/coroutines/r2;
     .end annotation
 
-    .line 1
     invoke-static {p0, p1}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->s(Lcotlinx/coroutines/channels/i;Lcotlin/jvm/u/l;)Ljava/lang/Object;
 
     move-result-object p0
@@ -5733,7 +5587,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     invoke-static {p0, p1}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->s0(Lcotlinx/coroutines/channels/y;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p0
@@ -5767,7 +5620,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     invoke-static {p0, p1, p2, p3}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->q1(Lcotlinx/coroutines/channels/y;Lcotlinx/coroutines/channels/c0;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p0
@@ -5804,7 +5656,6 @@
     .annotation build Lcotlinx/coroutines/s1;
     .end annotation
 
-    .line 1
     invoke-static {p0, p1}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->t(Lcotlinx/coroutines/channels/y;Lcotlin/jvm/u/l;)Ljava/lang/Object;
 
     move-result-object p0
@@ -5851,7 +5702,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     invoke-static {p0, p1, p2}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->t0(Lcotlinx/coroutines/channels/y;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p0
@@ -5898,7 +5748,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     invoke-static {p0, p1, p2}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->t1(Lcotlinx/coroutines/channels/y;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p0
@@ -5945,7 +5794,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     invoke-static {p0, p1, p2}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->u(Lcotlinx/coroutines/channels/i;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p0
@@ -5975,7 +5823,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     invoke-static {p0, p1, p2}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->t0(Lcotlinx/coroutines/channels/y;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p0
@@ -6005,7 +5852,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     invoke-static {p0, p1, p2}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->t1(Lcotlinx/coroutines/channels/y;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p0
@@ -6052,7 +5898,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     invoke-static {p0, p1, p2}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->v(Lcotlinx/coroutines/channels/y;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p0
@@ -6105,7 +5950,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     invoke-static {p0, p1, p2}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->v0(Lcotlinx/coroutines/channels/y;Lcotlin/coroutines/CoroutineContext;Lcotlin/jvm/u/p;)Lcotlinx/coroutines/channels/y;
 
     move-result-object p0
@@ -6150,7 +5994,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     invoke-static {p0, p1, p2}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->v1(Lcotlinx/coroutines/channels/y;Ljava/util/Comparator;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p0
@@ -6178,7 +6021,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     invoke-static {p0, p1, p2}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->u(Lcotlinx/coroutines/channels/i;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p0
@@ -6189,7 +6031,6 @@
 .method public static synthetic w0(Lcotlinx/coroutines/channels/y;Lcotlin/coroutines/CoroutineContext;Lcotlin/jvm/u/p;ILjava/lang/Object;)Lcotlinx/coroutines/channels/y;
     .locals 0
 
-    .line 1
     invoke-static {p0, p1, p2, p3, p4}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->w0(Lcotlinx/coroutines/channels/y;Lcotlin/coroutines/CoroutineContext;Lcotlin/jvm/u/p;ILjava/lang/Object;)Lcotlinx/coroutines/channels/y;
 
     move-result-object p0
@@ -6236,7 +6077,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     invoke-static {p0, p1, p2}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->w1(Lcotlinx/coroutines/channels/y;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p0
@@ -6264,7 +6104,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     invoke-static {p0, p1, p2}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->v(Lcotlinx/coroutines/channels/y;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p0
@@ -6311,7 +6150,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     invoke-static {p0, p1, p2, p3}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->x0(Lcotlinx/coroutines/channels/y;Ljava/lang/Object;Lcotlin/jvm/u/p;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p0
@@ -6341,7 +6179,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     invoke-static {p0, p1, p2}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->w1(Lcotlinx/coroutines/channels/y;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p0
@@ -6392,7 +6229,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     invoke-static {p0, p1, p2}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->y(Lcotlinx/coroutines/channels/y;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p0
@@ -6422,7 +6258,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     invoke-static {p0, p1, p2, p3}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->x0(Lcotlinx/coroutines/channels/y;Ljava/lang/Object;Lcotlin/jvm/u/p;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p0
@@ -6467,7 +6302,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     invoke-static {p0, p1, p2}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->y1(Lcotlinx/coroutines/channels/y;Ljava/util/Comparator;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p0
@@ -6497,7 +6331,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     invoke-static {p0, p1, p2}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->y(Lcotlinx/coroutines/channels/y;Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p0
@@ -6546,7 +6379,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     invoke-static {p0, p1, p2, p3}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->z0(Lcotlinx/coroutines/channels/y;Ljava/lang/Object;Lcotlin/jvm/u/q;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p0
@@ -6587,7 +6419,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     invoke-static {p0, p1}, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt;->z1(Lcotlinx/coroutines/channels/y;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p0

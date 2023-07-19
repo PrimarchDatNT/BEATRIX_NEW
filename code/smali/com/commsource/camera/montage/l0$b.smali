@@ -25,7 +25,6 @@
 .method public constructor <init>(Lcom/commsource/camera/montage/l0;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/camera/montage/l0$b;->a:Lcom/commsource/camera/montage/l0;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -42,7 +41,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const-string v0, "MTBeautyRenderer"
@@ -57,7 +55,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p2, p0, Lcom/commsource/camera/montage/l0$b;->a:Lcom/commsource/camera/montage/l0;
 
     invoke-virtual {p2}, Lcom/commsource/camera/render/c;->f()Z
@@ -66,7 +63,6 @@
 
     if-nez p2, :cond_0
 
-    .line 2
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p3
@@ -76,7 +72,6 @@
 
     new-array v3, p2, [I
 
-    .line 3
     iget-object p4, p0, Lcom/commsource/camera/montage/l0$b;->a:Lcom/commsource/camera/montage/l0;
 
     invoke-static {p4}, Lcom/commsource/camera/montage/l0;->X(Lcom/commsource/camera/montage/l0;)I
@@ -119,23 +114,19 @@
 
     if-eqz p4, :cond_3
 
-    .line 4
     :cond_1
     iget-object p4, p0, Lcom/commsource/camera/montage/l0$b;->a:Lcom/commsource/camera/montage/l0;
 
     invoke-virtual {p4}, Lcom/commsource/camera/montage/l0;->X1()V
 
-    .line 5
     iget-object p4, p0, Lcom/commsource/camera/montage/l0$b;->a:Lcom/commsource/camera/montage/l0;
 
     invoke-static {p4, p5}, Lcom/commsource/camera/montage/l0;->S0(Lcom/commsource/camera/montage/l0;I)I
 
-    .line 6
     iget-object p4, p0, Lcom/commsource/camera/montage/l0$b;->a:Lcom/commsource/camera/montage/l0;
 
     invoke-static {p4, p6}, Lcom/commsource/camera/montage/l0;->h1(Lcom/commsource/camera/montage/l0;I)I
 
-    .line 7
     iget-object p4, p0, Lcom/commsource/camera/montage/l0$b;->a:Lcom/commsource/camera/montage/l0;
 
     invoke-static {p4}, Lcom/commsource/camera/montage/l0;->L0(Lcom/commsource/camera/montage/l0;)I
@@ -150,7 +141,6 @@
 
     invoke-static {v3, p4, p5}, Lcom/meitu/library/n/c/c;->c([III)V
 
-    .line 8
     iget-object p4, p0, Lcom/commsource/camera/montage/l0$b;->a:Lcom/commsource/camera/montage/l0;
 
     aget p5, v3, v0
@@ -159,10 +149,8 @@
 
     aput v0, v3, v0
 
-    .line 9
     invoke-static {p2, v3, v0}, Landroid/opengl/GLES20;->glGenFramebuffers(I[II)V
 
-    .line 10
     iget-object p4, p0, Lcom/commsource/camera/montage/l0$b;->a:Lcom/commsource/camera/montage/l0;
 
     aget p5, v3, v0
@@ -171,7 +159,6 @@
 
     aput v0, v3, v0
 
-    .line 11
     iget-object p4, p0, Lcom/commsource/camera/montage/l0$b;->a:Lcom/commsource/camera/montage/l0;
 
     invoke-static {p4}, Lcom/commsource/camera/montage/l0;->q0(Lcom/commsource/camera/montage/l0;)I
@@ -186,18 +173,14 @@
 
     const/16 p6, 0xde1
 
-    .line 12
     iget-object v1, p0, Lcom/commsource/camera/montage/l0$b;->a:Lcom/commsource/camera/montage/l0;
 
-    .line 13
     invoke-static {v1}, Lcom/commsource/camera/montage/l0;->X(Lcom/commsource/camera/montage/l0;)I
 
     move-result v1
 
-    .line 14
     invoke-static {p5, p4, p6, v1, v0}, Landroid/opengl/GLES20;->glFramebufferTexture2D(IIIII)V
 
-    .line 15
     invoke-static {p5}, Landroid/opengl/GLES20;->glCheckFramebufferStatus(I)I
 
     move-result p4
@@ -210,15 +193,12 @@
 
     const-string p4, "PicInPicRenderer bind fbo error"
 
-    .line 16
     invoke-static {p2, p4}, Lcom/meitu/library/util/Debug/Debug;->n(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 17
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p3
 
-    .line 18
     :cond_2
     iget-object p4, p0, Lcom/commsource/camera/montage/l0$b;->a:Lcom/commsource/camera/montage/l0;
 
@@ -231,7 +211,6 @@
     :cond_3
     aput p3, v3, v0
 
-    .line 19
     iget-object p2, p0, Lcom/commsource/camera/montage/l0$b;->a:Lcom/commsource/camera/montage/l0;
 
     invoke-static {p2}, Lcom/commsource/camera/montage/l0;->u1(Lcom/commsource/camera/montage/l0;)Lcom/meitu/library/n/a/i;
@@ -240,12 +219,10 @@
 
     if-nez p2, :cond_4
 
-    .line 20
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p3
 
-    .line 21
     :cond_4
     iget-object p2, p0, Lcom/commsource/camera/montage/l0$b;->a:Lcom/commsource/camera/montage/l0;
 
@@ -261,7 +238,6 @@
 
     iget-object p2, p0, Lcom/commsource/camera/montage/l0$b;->a:Lcom/commsource/camera/montage/l0;
 
-    .line 22
     invoke-static {p2}, Lcom/commsource/camera/montage/l0;->q0(Lcom/commsource/camera/montage/l0;)I
 
     move-result v5
@@ -270,10 +246,8 @@
 
     sget-object v7, Lcom/meitu/library/n/a/c;->r:[F
 
-    .line 23
     invoke-virtual/range {v0 .. v7}, Lcom/meitu/library/n/a/i;->a(Ljava/nio/FloatBuffer;Ljava/nio/FloatBuffer;[III[F[F)V
 
-    .line 24
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p3
@@ -286,7 +260,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const-string v0, "MTBeautyRenderer"
@@ -301,7 +274,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const/4 v0, 0x1
@@ -316,7 +288,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const-string v0, "MTBeautyRenderer"

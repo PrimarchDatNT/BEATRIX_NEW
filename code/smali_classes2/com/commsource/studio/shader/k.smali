@@ -19,7 +19,6 @@
 .method public constructor <init>()V
     .locals 4
 
-    .line 1
     new-instance v0, Lcom/commsource/studio/shader/e;
 
     const/4 v1, 0x0
@@ -46,7 +45,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/studio/shader/a;->d()Lcom/commsource/studio/shader/BaseShader;
 
     move-result-object v1
@@ -61,7 +59,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/studio/shader/e$a;->f(Z)V
 
-    .line 2
     invoke-virtual {p0}, Lcom/commsource/studio/shader/a;->c()Lcom/commsource/studio/shader/BaseShader;
 
     move-result-object v1
@@ -74,7 +71,6 @@
 
     invoke-virtual {v1, p1}, Lcom/commsource/studio/shader/j$a;->e(I)V
 
-    .line 3
     invoke-virtual {p0}, Lcom/commsource/studio/shader/a;->c()Lcom/commsource/studio/shader/BaseShader;
 
     move-result-object p1
@@ -87,7 +83,6 @@
 
     invoke-virtual {p1, p2}, Lcom/commsource/studio/shader/j$a;->d(I)V
 
-    .line 4
     invoke-virtual {p0}, Lcom/commsource/studio/shader/a;->c()Lcom/commsource/studio/shader/BaseShader;
 
     move-result-object p1
@@ -100,10 +95,8 @@
 
     invoke-virtual {p1, p3}, Lcom/commsource/studio/shader/j$a;->f(F)V
 
-    .line 5
     invoke-super {p0}, Lcom/commsource/studio/shader/a;->a()V
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

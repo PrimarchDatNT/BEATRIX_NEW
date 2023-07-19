@@ -36,7 +36,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 2
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -45,7 +44,6 @@
 .method synthetic constructor <init>(Lio/grpc/internal/DnsNameResolver$a;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lio/grpc/internal/DnsNameResolver$c;-><init>()V
 
     return-void
@@ -54,7 +52,6 @@
 .method static synthetic a(Lio/grpc/internal/DnsNameResolver$c;)Ljava/util/List;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lio/grpc/internal/DnsNameResolver$c;->b:Ljava/util/List;
 
     return-object p0
@@ -63,7 +60,6 @@
 .method static synthetic b(Lio/grpc/internal/DnsNameResolver$c;Ljava/util/List;)Ljava/util/List;
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lio/grpc/internal/DnsNameResolver$c;->b:Ljava/util/List;
 
     return-object p1
@@ -72,7 +68,6 @@
 .method static synthetic c(Lio/grpc/internal/DnsNameResolver$c;)Lio/grpc/Status;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lio/grpc/internal/DnsNameResolver$c;->a:Lio/grpc/Status;
 
     return-object p0
@@ -81,7 +76,6 @@
 .method static synthetic d(Lio/grpc/internal/DnsNameResolver$c;Lio/grpc/Status;)Lio/grpc/Status;
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lio/grpc/internal/DnsNameResolver$c;->a:Lio/grpc/Status;
 
     return-object p1
@@ -90,7 +84,6 @@
 .method static synthetic e(Lio/grpc/internal/DnsNameResolver$c;)Lio/grpc/z0$c;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lio/grpc/internal/DnsNameResolver$c;->c:Lio/grpc/z0$c;
 
     return-object p0
@@ -99,7 +92,6 @@
 .method static synthetic f(Lio/grpc/internal/DnsNameResolver$c;Lio/grpc/z0$c;)Lio/grpc/z0$c;
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lio/grpc/internal/DnsNameResolver$c;->c:Lio/grpc/z0$c;
 
     return-object p1

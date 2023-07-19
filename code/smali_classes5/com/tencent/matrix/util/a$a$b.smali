@@ -26,7 +26,6 @@
 .method constructor <init>(Lcom/tencent/matrix/util/a$a;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/tencent/matrix/util/a$a$b;->c:Lcom/tencent/matrix/util/a$a;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -39,7 +38,6 @@
 .method public toString()Ljava/lang/String;
     .locals 2
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V

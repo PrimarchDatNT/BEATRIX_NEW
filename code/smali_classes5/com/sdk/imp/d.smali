@@ -72,10 +72,8 @@
 .method public constructor <init>(Landroid/content/Context;)V
     .locals 3
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
@@ -84,40 +82,30 @@
 
     const/4 v0, 0x1
 
-    .line 3
     iput v0, p0, Lcom/sdk/imp/d;->d:I
 
     const/4 v1, 0x0
 
-    .line 4
     iput-boolean v1, p0, Lcom/sdk/imp/d;->i:Z
 
-    .line 5
     iput-boolean v1, p0, Lcom/sdk/imp/d;->j:Z
 
     const v2, 0x927c0
 
-    .line 6
     iput v2, p0, Lcom/sdk/imp/d;->k:I
 
-    .line 7
     iput v0, p0, Lcom/sdk/imp/d;->m:I
 
-    .line 8
     iput-boolean v1, p0, Lcom/sdk/imp/d;->n:Z
 
     const-string v0, ""
 
-    .line 9
     iput-object v0, p0, Lcom/sdk/imp/d;->o:Ljava/lang/String;
 
-    .line 10
     iput-boolean v1, p0, Lcom/sdk/imp/d;->p:Z
 
-    .line 11
     iput-object p1, p0, Lcom/sdk/imp/d;->b:Landroid/content/Context;
 
-    .line 12
     new-instance p1, Lcom/sdk/imp/d$a;
 
     invoke-direct {p1, p0}, Lcom/sdk/imp/d$a;-><init>(Lcom/sdk/imp/d;)V
@@ -130,15 +118,12 @@
 .method private D()V
     .locals 1
 
-    .line 1
     iget-boolean v0, p0, Lcom/sdk/imp/d;->n:Z
 
     if-nez v0, :cond_0
 
-    .line 2
     invoke-direct {p0}, Lcom/sdk/imp/d;->V()V
 
-    .line 3
     :cond_0
     new-instance v0, Lcom/sdk/imp/d$d;
 
@@ -152,10 +137,8 @@
 .method private E(I)V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Lcom/sdk/imp/d;->V()V
 
-    .line 2
     new-instance v0, Lcom/sdk/imp/d$g;
 
     invoke-direct {v0, p0, p1}, Lcom/sdk/imp/d$g;-><init>(Lcom/sdk/imp/d;I)V
@@ -168,7 +151,6 @@
 .method private F(ILandroid/view/View;ILcom/sdk/imp/internal/loader/Ad;)V
     .locals 2
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -189,25 +171,20 @@
 
     invoke-static {v1, v0}, Lf/q/b/g;->b(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 2
     invoke-direct {p0}, Lcom/sdk/imp/d;->V()V
 
-    .line 3
     iget-boolean v0, p0, Lcom/sdk/imp/d;->j:Z
 
     if-eqz v0, :cond_1
 
     const/4 v0, 0x0
 
-    .line 4
     iput-boolean v0, p0, Lcom/sdk/imp/d;->j:Z
 
-    .line 5
     iget-object v0, p0, Lcom/sdk/imp/d;->g:Lcom/sdk/imp/d$j;
 
     if-eqz v0, :cond_1
 
-    .line 6
     invoke-direct {p0, p1, p2}, Lcom/sdk/imp/d;->T(ILandroid/view/View;)Z
 
     move-result p1
@@ -216,10 +193,8 @@
 
     const/4 p1, 0x1
 
-    .line 7
     iput-boolean p1, p0, Lcom/sdk/imp/d;->i:Z
 
-    .line 8
     iget-object p1, p0, Lcom/sdk/imp/d;->g:Lcom/sdk/imp/d$j;
 
     invoke-interface {p1, p2, p3, p4}, Lcom/sdk/imp/d$j;->c(Landroid/view/View;ILcom/sdk/imp/internal/loader/Ad;)V
@@ -229,7 +204,6 @@
     :cond_0
     const/16 p1, 0x7d
 
-    .line 9
     invoke-direct {p0, p1}, Lcom/sdk/imp/d;->E(I)V
 
     :cond_1
@@ -240,10 +214,8 @@
 .method private G(I)V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Lcom/sdk/imp/d;->V()V
 
-    .line 2
     new-instance v0, Lcom/sdk/imp/d$f;
 
     invoke-direct {v0, p0, p1}, Lcom/sdk/imp/d$f;-><init>(Lcom/sdk/imp/d;I)V
@@ -256,7 +228,6 @@
 .method private H(Ljava/lang/String;)V
     .locals 1
 
-    .line 1
     new-instance v0, Lcom/sdk/imp/d$h;
 
     invoke-direct {v0, p0, p1}, Lcom/sdk/imp/d$h;-><init>(Lcom/sdk/imp/d;Ljava/lang/String;)V
@@ -271,12 +242,10 @@
 
     const-string v0, "UsBannerView"
 
-    .line 1
     new-instance v7, Ljava/util/HashMap;
 
     invoke-direct {v7}, Ljava/util/HashMap;-><init>()V
 
-    .line 2
     iget-boolean v1, p0, Lcom/sdk/imp/d;->n:Z
 
     if-eqz v1, :cond_0
@@ -293,7 +262,6 @@
 
     invoke-interface {v7, v2, v1}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 3
     invoke-virtual {p1}, Lcom/sdk/imp/internal/loader/Ad;->getHtml()Ljava/lang/String;
 
     move-result-object v1
@@ -302,7 +270,6 @@
 
     invoke-interface {v7, v2, v1}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 4
     sget-object v1, Lcom/sdk/api/Const$Event;->BannerViewController_parseHtmlData:Lcom/sdk/api/Const$Event;
 
     const/4 v2, 0x0
@@ -319,7 +286,6 @@
 
     if-eqz p1, :cond_7
 
-    .line 5
     iget-object v2, p0, Lcom/sdk/imp/d;->b:Landroid/content/Context;
 
     if-eqz v2, :cond_7
@@ -336,7 +302,6 @@
 
     goto :goto_3
 
-    .line 6
     :cond_1
     :try_start_0
     invoke-virtual {p1}, Lcom/sdk/imp/internal/loader/Ad;->getHtml()Ljava/lang/String;
@@ -351,14 +316,12 @@
 
     if-eqz v2, :cond_6
 
-    .line 7
     array-length v3, v2
 
     if-nez v3, :cond_2
 
     goto :goto_2
 
-    .line 8
     :cond_2
     invoke-static {}, Lcom/sdk/api/a;->n()Z
 
@@ -368,17 +331,14 @@
 
     if-eqz v0, :cond_3
 
-    .line 9
     sget-object v0, Lcom/sdk/api/a;->f:Ljava/lang/String;
 
     iput-object v0, p0, Lcom/sdk/imp/d;->o:Ljava/lang/String;
 
-    .line 10
     iput-boolean v3, p0, Lcom/sdk/imp/d;->p:Z
 
     goto :goto_1
 
-    .line 11
     :cond_3
     new-instance v0, Ljava/lang/String;
 
@@ -386,7 +346,6 @@
 
     iput-object v0, p0, Lcom/sdk/imp/d;->o:Ljava/lang/String;
 
-    .line 12
     invoke-virtual {p1}, Lcom/sdk/imp/internal/loader/Ad;->getFw()I
 
     move-result v0
@@ -400,7 +359,6 @@
     :cond_4
     iput-boolean v1, p0, Lcom/sdk/imp/d;->p:Z
 
-    .line 13
     invoke-static {}, Lcom/sdk/api/a;->p()Z
 
     move-result v0
@@ -415,12 +373,10 @@
 
     if-nez v0, :cond_5
 
-    .line 14
     sget-object v0, Lcom/sdk/imp/o;->a:Ljava/lang/String;
 
     iput-object v0, p0, Lcom/sdk/imp/d;->o:Ljava/lang/String;
 
-    .line 15
     :cond_5
     :goto_1
     new-instance v0, Lcom/sdk/imp/d$i;
@@ -429,7 +385,6 @@
 
     iput-object v0, p0, Lcom/sdk/imp/d;->h:Lcom/sdk/imp/d$i;
 
-    .line 16
     new-instance p1, Lcom/sdk/imp/d$c;
 
     invoke-direct {p1, p0}, Lcom/sdk/imp/d$c;-><init>(Lcom/sdk/imp/d;)V
@@ -442,7 +397,6 @@
     :goto_2
     const-string p1, "banner parse html is empty"
 
-    .line 17
     invoke-static {v0, p1}, Lf/q/b/g;->b(Ljava/lang/String;Ljava/lang/String;)V
 
     return v1
@@ -450,7 +404,6 @@
     :catch_0
     const-string p1, "banner Base64 decode html error"
 
-    .line 18
     invoke-static {v0, p1}, Lf/q/b/g;->b(Ljava/lang/String;Ljava/lang/String;)V
 
     :cond_7
@@ -461,7 +414,6 @@
 .method private L(Lcom/sdk/imp/internal/loader/Ad;)V
     .locals 1
 
-    .line 1
     new-instance v0, Lcom/sdk/imp/d$e;
 
     invoke-direct {v0, p0, p1}, Lcom/sdk/imp/d$e;-><init>(Lcom/sdk/imp/d;Lcom/sdk/imp/internal/loader/Ad;)V
@@ -485,7 +437,6 @@
     :cond_0
     const/4 p1, 0x0
 
-    .line 1
     :try_start_0
     iget-object v1, p0, Lcom/sdk/imp/d;->h:Lcom/sdk/imp/d$i;
 
@@ -493,7 +444,6 @@
 
     move-result-object v1
 
-    .line 2
     invoke-virtual {v1}, Lcom/sdk/imp/internal/loader/Ad;->getWidth()I
 
     move-result v2
@@ -506,7 +456,6 @@
 
     move-result v2
 
-    .line 3
     invoke-virtual {v1}, Lcom/sdk/imp/internal/loader/Ad;->getHeight()I
 
     move-result v1
@@ -523,7 +472,6 @@
 
     if-lez v1, :cond_1
 
-    .line 4
     new-instance p1, Landroid/widget/FrameLayout$LayoutParams;
 
     invoke-direct {p1, v2, v1}, Landroid/widget/FrameLayout$LayoutParams;-><init>(II)V
@@ -531,21 +479,18 @@
     :cond_1
     if-eqz p1, :cond_5
 
-    .line 5
     iget-object v3, p0, Lcom/sdk/imp/d;->b:Landroid/content/Context;
 
     invoke-static {v3}, Lf/q/b/e;->k(Landroid/content/Context;)I
 
     move-result v3
 
-    .line 6
     iget-object v4, p0, Lcom/sdk/imp/d;->b:Landroid/content/Context;
 
     invoke-static {v4}, Lf/q/b/e;->h(Landroid/content/Context;)I
 
     move-result v4
 
-    .line 7
     iget v5, p1, Landroid/widget/FrameLayout$LayoutParams;->width:I
 
     if-lt v3, v5, :cond_2
@@ -557,7 +502,6 @@
     :cond_2
     mul-int v6, v5, v4
 
-    .line 8
     iget v7, p1, Landroid/widget/FrameLayout$LayoutParams;->height:I
 
     mul-int v8, v7, v3
@@ -570,7 +514,6 @@
 
     div-float/2addr v2, v4
 
-    .line 9
     iput v3, p1, Landroid/widget/FrameLayout$LayoutParams;->width:I
 
     int-to-float v1, v1
@@ -579,7 +522,6 @@
 
     float-to-int v1, v1
 
-    .line 10
     iput v1, p1, Landroid/widget/FrameLayout$LayoutParams;->height:I
 
     goto :goto_0
@@ -591,7 +533,6 @@
 
     div-float/2addr v1, v3
 
-    .line 11
     iput v4, p1, Landroid/widget/FrameLayout$LayoutParams;->height:I
 
     int-to-float v2, v2
@@ -600,10 +541,8 @@
 
     float-to-int v1, v2
 
-    .line 12
     iput v1, p1, Landroid/widget/FrameLayout$LayoutParams;->width:I
 
-    .line 13
     :cond_4
     :goto_0
     invoke-virtual {p2, p1}, Landroid/view/View;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
@@ -622,7 +561,6 @@
 
     const-string v1, "stackerror:"
 
-    .line 14
     invoke-static {p2, v1, p1}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
 
     :cond_6
@@ -633,24 +571,20 @@
 .method private U()V
     .locals 4
 
-    .line 1
     invoke-direct {p0}, Lcom/sdk/imp/d;->V()V
 
     const-string v0, "UsBannerView"
 
     const-string v1, "startTimeoutTask: "
 
-    .line 2
     invoke-static {v0, v1}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 3
     new-instance v0, Ljava/util/Timer;
 
     invoke-direct {v0}, Ljava/util/Timer;-><init>()V
 
     iput-object v0, p0, Lcom/sdk/imp/d;->l:Ljava/util/Timer;
 
-    .line 4
     new-instance v1, Lcom/sdk/imp/d$b;
 
     invoke-direct {v1, p0}, Lcom/sdk/imp/d$b;-><init>(Lcom/sdk/imp/d;)V
@@ -671,25 +605,20 @@
 
     const-string v1, "stopTimeoutTask: "
 
-    .line 1
     invoke-static {v0, v1}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 2
     iget-object v0, p0, Lcom/sdk/imp/d;->l:Ljava/util/Timer;
 
     if-eqz v0, :cond_0
 
-    .line 3
     invoke-virtual {v0}, Ljava/util/Timer;->purge()I
 
-    .line 4
     iget-object v0, p0, Lcom/sdk/imp/d;->l:Ljava/util/Timer;
 
     invoke-virtual {v0}, Ljava/util/Timer;->cancel()V
 
     const/4 v0, 0x0
 
-    .line 5
     iput-object v0, p0, Lcom/sdk/imp/d;->l:Ljava/util/Timer;
 
     :cond_0
@@ -699,7 +628,6 @@
 .method static synthetic a(Lcom/sdk/imp/d;)Z
     .locals 0
 
-    .line 1
     iget-boolean p0, p0, Lcom/sdk/imp/d;->n:Z
 
     return p0
@@ -708,7 +636,6 @@
 .method static synthetic b(Lcom/sdk/imp/d;)Ljava/util/List;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lcom/sdk/imp/d;->a:Ljava/util/List;
 
     return-object p0
@@ -717,7 +644,6 @@
 .method static synthetic c(Lcom/sdk/imp/d;)Z
     .locals 0
 
-    .line 1
     iget-boolean p0, p0, Lcom/sdk/imp/d;->p:Z
 
     return p0
@@ -726,7 +652,6 @@
 .method static synthetic d(Lcom/sdk/imp/d;Lcom/sdk/imp/base/HtmlBannerWebView;)Lcom/sdk/imp/base/HtmlBannerWebView;
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/sdk/imp/d;->q:Lcom/sdk/imp/base/HtmlBannerWebView;
 
     return-object p1
@@ -735,7 +660,6 @@
 .method static synthetic e(Lcom/sdk/imp/d;Lcom/sdk/imp/base/mraid/MraidBridge$MraidWebView;)Lcom/sdk/imp/base/mraid/MraidBridge$MraidWebView;
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/sdk/imp/d;->r:Lcom/sdk/imp/base/mraid/MraidBridge$MraidWebView;
 
     return-object p1
@@ -744,7 +668,6 @@
 .method static synthetic f(Lcom/sdk/imp/d;ILandroid/view/View;ILcom/sdk/imp/internal/loader/Ad;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1, p2, p3, p4}, Lcom/sdk/imp/d;->F(ILandroid/view/View;ILcom/sdk/imp/internal/loader/Ad;)V
 
     return-void
@@ -753,7 +676,6 @@
 .method static synthetic g(Lcom/sdk/imp/d;I)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/sdk/imp/d;->E(I)V
 
     return-void
@@ -762,7 +684,6 @@
 .method static synthetic h(Lcom/sdk/imp/d;)Lcom/sdk/imp/d$j;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lcom/sdk/imp/d;->g:Lcom/sdk/imp/d$j;
 
     return-object p0
@@ -771,7 +692,6 @@
 .method static synthetic i(Lcom/sdk/imp/d;Ljava/lang/String;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/sdk/imp/d;->H(Ljava/lang/String;)V
 
     return-void
@@ -780,7 +700,6 @@
 .method static synthetic j(Lcom/sdk/imp/d;)Z
     .locals 0
 
-    .line 1
     iget-boolean p0, p0, Lcom/sdk/imp/d;->j:Z
 
     return p0
@@ -789,7 +708,6 @@
 .method static synthetic k(Lcom/sdk/imp/d;Z)Z
     .locals 0
 
-    .line 1
     iput-boolean p1, p0, Lcom/sdk/imp/d;->j:Z
 
     return p1
@@ -798,7 +716,6 @@
 .method static synthetic l(Lcom/sdk/imp/d;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/sdk/imp/d;->t()V
 
     return-void
@@ -807,7 +724,6 @@
 .method static synthetic m(Lcom/sdk/imp/d;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/sdk/imp/d;->y()V
 
     return-void
@@ -816,7 +732,6 @@
 .method static synthetic n(Lcom/sdk/imp/d;)Ljava/lang/String;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lcom/sdk/imp/d;->c:Ljava/lang/String;
 
     return-object p0
@@ -825,7 +740,6 @@
 .method static synthetic o(Lcom/sdk/imp/d;I)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/sdk/imp/d;->G(I)V
 
     return-void
@@ -834,7 +748,6 @@
 .method static synthetic p(Lcom/sdk/imp/d;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/sdk/imp/d;->V()V
 
     return-void
@@ -843,7 +756,6 @@
 .method static synthetic q(Lcom/sdk/imp/d;)Landroid/content/Context;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lcom/sdk/imp/d;->b:Landroid/content/Context;
 
     return-object p0
@@ -852,7 +764,6 @@
 .method static synthetic r(Lcom/sdk/imp/d;)Lcom/sdk/imp/d$i;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lcom/sdk/imp/d;->h:Lcom/sdk/imp/d$i;
 
     return-object p0
@@ -861,7 +772,6 @@
 .method static synthetic s(Lcom/sdk/imp/d;)Ljava/lang/String;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lcom/sdk/imp/d;->o:Ljava/lang/String;
 
     return-object p0
@@ -870,7 +780,6 @@
 .method private t()V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/sdk/imp/d;->a:Ljava/util/List;
 
     if-eqz v0, :cond_0
@@ -881,7 +790,6 @@
 
     if-nez v0, :cond_0
 
-    .line 2
     invoke-direct {p0}, Lcom/sdk/imp/d;->D()V
 
     :cond_0
@@ -891,7 +799,6 @@
 .method private y()V
     .locals 3
 
-    .line 1
     iget-object v0, p0, Lcom/sdk/imp/d;->a:Ljava/util/List;
 
     if-eqz v0, :cond_2
@@ -904,7 +811,6 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     iget-object v0, p0, Lcom/sdk/imp/d;->a:Ljava/util/List;
 
@@ -918,7 +824,6 @@
 
     if-eqz v0, :cond_1
 
-    .line 3
     invoke-virtual {p0, v0}, Lcom/sdk/imp/d;->A(Lcom/sdk/imp/internal/loader/Ad;)Z
 
     move-result v1
@@ -929,17 +834,14 @@
 
     const-string v2, "banner has cache ad data"
 
-    .line 4
     invoke-static {v1, v2}, Lf/q/b/g;->b(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 5
     iget-object v1, p0, Lcom/sdk/imp/d;->c:Ljava/lang/String;
 
     sget-object v2, Lcom/sdk/api/AdStatus;->ABANDON:Lcom/sdk/api/AdStatus;
 
     invoke-static {v1, v0, v2}, Lcom/sdk/imp/z/g;->i(Ljava/lang/String;Lcom/sdk/imp/internal/loader/Ad;Lcom/sdk/api/AdStatus;)V
 
-    .line 6
     invoke-direct {p0}, Lcom/sdk/imp/d;->y()V
 
     :cond_1
@@ -949,7 +851,6 @@
     :goto_0
     const/16 v0, 0x7c
 
-    .line 7
     invoke-direct {p0, v0}, Lcom/sdk/imp/d;->G(I)V
 
     return-void
@@ -966,7 +867,6 @@
 
     return v0
 
-    .line 1
     :cond_0
     invoke-virtual {p0, p1}, Lcom/sdk/imp/d;->w(Lcom/sdk/imp/internal/loader/Ad;)Z
 
@@ -974,7 +874,6 @@
 
     if-nez v1, :cond_2
 
-    .line 2
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -989,7 +888,6 @@
 
     invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 3
     invoke-virtual {p1}, Lcom/sdk/imp/internal/loader/Ad;->getExtension()Ljava/lang/String;
 
     move-result-object v2
@@ -1012,15 +910,12 @@
 
     const-string v2, "UsBannerView"
 
-    .line 4
     invoke-static {v2, v1}, Lf/q/b/g;->d(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 5
     new-instance v9, Ljava/util/HashMap;
 
     invoke-direct {v9}, Ljava/util/HashMap;-><init>()V
 
-    .line 6
     iget-boolean v1, p0, Lcom/sdk/imp/d;->n:Z
 
     if-eqz v1, :cond_1
@@ -1037,7 +932,6 @@
 
     invoke-interface {v9, v2, v1}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 7
     invoke-virtual {p1}, Lcom/sdk/imp/internal/loader/Ad;->getExtension()Ljava/lang/String;
 
     move-result-object v1
@@ -1046,7 +940,6 @@
 
     invoke-interface {v9, v2, v1}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 8
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -1069,7 +962,6 @@
 
     invoke-interface {v9, v1, p1}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 9
     sget-object v3, Lcom/sdk/api/Const$Event;->BannerViewController_loadBannerFromAd:Lcom/sdk/api/Const$Event;
 
     const/4 v4, 0x0
@@ -1084,7 +976,6 @@
 
     return v0
 
-    .line 10
     :cond_2
     invoke-direct {p0, p1}, Lcom/sdk/imp/d;->I(Lcom/sdk/imp/internal/loader/Ad;)Z
 
@@ -1104,7 +995,6 @@
         }
     .end annotation
 
-    .line 1
     iget-boolean v0, p0, Lcom/sdk/imp/d;->j:Z
 
     if-nez v0, :cond_1
@@ -1122,15 +1012,12 @@
     :cond_0
     const/4 v0, 0x1
 
-    .line 2
     iput-boolean v0, p0, Lcom/sdk/imp/d;->j:Z
 
-    .line 3
     iget-object v0, p0, Lcom/sdk/imp/d;->a:Ljava/util/List;
 
     invoke-interface {v0, p1}, Ljava/util/List;->addAll(Ljava/util/Collection;)Z
 
-    .line 4
     invoke-direct {p0}, Lcom/sdk/imp/d;->y()V
 
     :cond_1
@@ -1141,7 +1028,6 @@
 .method public C()Z
     .locals 1
 
-    .line 1
     iget-boolean v0, p0, Lcom/sdk/imp/d;->n:Z
 
     return v0
@@ -1150,14 +1036,12 @@
 .method public J()V
     .locals 1
 
-    .line 1
     iget-boolean v0, p0, Lcom/sdk/imp/d;->n:Z
 
     if-eqz v0, :cond_0
 
     return-void
 
-    .line 2
     :cond_0
     invoke-direct {p0}, Lcom/sdk/imp/d;->y()V
 
@@ -1169,7 +1053,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -1192,7 +1075,6 @@
 
     invoke-static {v1, v0}, Lf/q/b/g;->b(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 2
     invoke-virtual {p1}, Lcom/sdk/imp/internal/loader/Ad;->getPosid()Ljava/lang/String;
 
     move-result-object v0
@@ -1206,7 +1088,6 @@
 .method public M(Lcom/sdk/imp/d$j;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/sdk/imp/d;->g:Lcom/sdk/imp/d$j;
 
     return-void
@@ -1217,7 +1098,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     iget-object v0, p0, Lcom/sdk/imp/d;->a:Ljava/util/List;
 
     invoke-interface {v0, p1}, Ljava/util/List;->add(Ljava/lang/Object;)Z
@@ -1229,7 +1109,6 @@
 .method public O(I)V
     .locals 0
 
-    .line 1
     iput p1, p0, Lcom/sdk/imp/d;->m:I
 
     return-void
@@ -1240,7 +1119,6 @@
 
     if-lez p1, :cond_0
 
-    .line 1
     iput p1, p0, Lcom/sdk/imp/d;->k:I
 
     :cond_0
@@ -1250,7 +1128,6 @@
 .method public Q(Z)V
     .locals 0
 
-    .line 1
     iput-boolean p1, p0, Lcom/sdk/imp/d;->n:Z
 
     return-void
@@ -1259,7 +1136,6 @@
 .method public R(Ljava/lang/String;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/sdk/imp/d;->c:Ljava/lang/String;
 
     return-void
@@ -1280,7 +1156,6 @@
 
     if-ne p1, v0, :cond_1
 
-    .line 1
     :cond_0
     iput p1, p0, Lcom/sdk/imp/d;->d:I
 
@@ -1295,39 +1170,30 @@
 
     const-string v1, "banner controller destroy"
 
-    .line 1
     invoke-static {v0, v1}, Lf/q/b/g;->b(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 2
     invoke-direct {p0}, Lcom/sdk/imp/d;->V()V
 
-    .line 3
     iget-object v0, p0, Lcom/sdk/imp/d;->q:Lcom/sdk/imp/base/HtmlBannerWebView;
 
     if-eqz v0, :cond_0
 
-    .line 4
     invoke-virtual {v0}, Lcom/sdk/imp/webview/BaseWebView;->destroy()V
 
-    .line 5
     :cond_0
     iget-object v0, p0, Lcom/sdk/imp/d;->r:Lcom/sdk/imp/base/mraid/MraidBridge$MraidWebView;
 
     if-eqz v0, :cond_1
 
-    .line 6
     invoke-virtual {v0}, Lcom/sdk/imp/webview/BaseWebView;->destroy()V
 
     :cond_1
     const/4 v0, 0x0
 
-    .line 7
     iput-object v0, p0, Lcom/sdk/imp/d;->f:Lcom/sdk/imp/z/a$b;
 
-    .line 8
     iput-object v0, p0, Lcom/sdk/imp/d;->h:Lcom/sdk/imp/d$i;
 
-    .line 9
     iput-object v0, p0, Lcom/sdk/imp/d;->g:Lcom/sdk/imp/d$j;
 
     return-void
@@ -1336,7 +1202,6 @@
 .method public v()Lcom/sdk/imp/d$i;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/sdk/imp/d;->h:Lcom/sdk/imp/d$i;
 
     return-object v0
@@ -1347,7 +1212,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     invoke-virtual {p1}, Lcom/sdk/imp/internal/loader/Ad;->getAppShowType()I
 
     move-result v0
@@ -1379,7 +1243,6 @@
 .method public x()Z
     .locals 1
 
-    .line 1
     iget-boolean v0, p0, Lcom/sdk/imp/d;->i:Z
 
     return v0
@@ -1388,7 +1251,6 @@
 .method public z()V
     .locals 8
 
-    .line 1
     iget-boolean v0, p0, Lcom/sdk/imp/d;->j:Z
 
     if-eqz v0, :cond_0
@@ -1398,13 +1260,10 @@
     :cond_0
     const/4 v0, 0x1
 
-    .line 2
     iput-boolean v0, p0, Lcom/sdk/imp/d;->j:Z
 
-    .line 3
     invoke-direct {p0}, Lcom/sdk/imp/d;->U()V
 
-    .line 4
     iget-object v0, p0, Lcom/sdk/imp/d;->c:Ljava/lang/String;
 
     invoke-static {v0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
@@ -1415,12 +1274,10 @@
 
     const/16 v0, 0x81
 
-    .line 5
     invoke-direct {p0, v0}, Lcom/sdk/imp/d;->G(I)V
 
     return-void
 
-    .line 6
     :cond_1
     iget-object v0, p0, Lcom/sdk/imp/d;->a:Ljava/util/List;
 
@@ -1434,30 +1291,24 @@
 
     const-string v1, "banner has cache ad data"
 
-    .line 7
     invoke-static {v0, v1}, Lf/q/b/g;->b(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 8
     invoke-direct {p0}, Lcom/sdk/imp/d;->D()V
 
-    .line 9
     iget-boolean v0, p0, Lcom/sdk/imp/d;->n:Z
 
     if-eqz v0, :cond_2
 
-    .line 10
     invoke-direct {p0}, Lcom/sdk/imp/d;->y()V
 
     :cond_2
     return-void
 
-    .line 11
     :cond_3
     iget-object v0, p0, Lcom/sdk/imp/d;->e:Lcom/sdk/imp/z/a;
 
     if-nez v0, :cond_4
 
-    .line 12
     new-instance v0, Lcom/sdk/imp/z/a;
 
     iget-object v1, p0, Lcom/sdk/imp/d;->c:Ljava/lang/String;
@@ -1468,17 +1319,14 @@
 
     const/16 v1, 0xa
 
-    .line 13
     invoke-virtual {v0, v1}, Lcom/sdk/imp/z/a;->t(I)V
 
-    .line 14
     iget-object v0, p0, Lcom/sdk/imp/d;->e:Lcom/sdk/imp/z/a;
 
     iget-object v1, p0, Lcom/sdk/imp/d;->f:Lcom/sdk/imp/z/a$b;
 
     invoke-virtual {v0, v1}, Lcom/sdk/imp/z/a;->p(Lcom/sdk/imp/z/a$b;)V
 
-    .line 15
     :cond_4
     iget-object v0, p0, Lcom/sdk/imp/d;->e:Lcom/sdk/imp/z/a;
 
@@ -1486,17 +1334,14 @@
 
     invoke-virtual {v0, v1}, Lcom/sdk/imp/z/a;->s(I)V
 
-    .line 16
     iget-object v0, p0, Lcom/sdk/imp/d;->e:Lcom/sdk/imp/z/a;
 
     invoke-virtual {v0}, Lcom/sdk/imp/z/a;->l()V
 
-    .line 17
     new-instance v7, Ljava/util/HashMap;
 
     invoke-direct {v7}, Ljava/util/HashMap;-><init>()V
 
-    .line 18
     sget-object v1, Lcom/sdk/api/Const$Event;->BannerViewController_loadAd:Lcom/sdk/api/Const$Event;
 
     const/4 v2, 0x0

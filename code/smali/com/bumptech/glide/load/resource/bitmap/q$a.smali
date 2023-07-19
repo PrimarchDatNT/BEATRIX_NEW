@@ -18,7 +18,6 @@
 .method constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/bumptech/glide/load/engine/bitmap_recycle/f;-><init>()V
 
     return-void

@@ -9,7 +9,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-direct {p0, v0, v0, v0}, Lcom/appsflyer/internal/model/event/Purchase;-><init>(Ljava/lang/String;Ljava/lang/Boolean;Landroid/content/Context;)V
 
     return-void
@@ -30,7 +29,6 @@
         .end annotation
     .end param
 
-    .line 2
     sget-object v3, Ljava/lang/Boolean;->FALSE:Ljava/lang/Boolean;
 
     const/4 v2, 0x0

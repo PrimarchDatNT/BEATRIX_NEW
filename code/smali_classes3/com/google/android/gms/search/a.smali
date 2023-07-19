@@ -49,21 +49,18 @@
 .method static constructor <clinit>()V
     .locals 4
 
-    .line 1
     new-instance v0, Lcom/google/android/gms/search/d;
 
     invoke-direct {v0}, Lcom/google/android/gms/search/d;-><init>()V
 
     sput-object v0, Lcom/google/android/gms/search/a;->a:Lcom/google/android/gms/common/api/a$a;
 
-    .line 2
     new-instance v1, Lcom/google/android/gms/common/api/a$g;
 
     invoke-direct {v1}, Lcom/google/android/gms/common/api/a$g;-><init>()V
 
     sput-object v1, Lcom/google/android/gms/search/a;->b:Lcom/google/android/gms/common/api/a$g;
 
-    .line 3
     new-instance v2, Lcom/google/android/gms/common/api/a;
 
     const-string v3, "SearchAuth.API"
@@ -72,7 +69,6 @@
 
     sput-object v2, Lcom/google/android/gms/search/a;->c:Lcom/google/android/gms/common/api/a;
 
-    .line 4
     new-instance v0, Lcom/google/android/gms/internal/icing/s;
 
     invoke-direct {v0}, Lcom/google/android/gms/internal/icing/s;-><init>()V
@@ -85,7 +81,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void

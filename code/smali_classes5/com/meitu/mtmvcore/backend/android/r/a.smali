@@ -56,7 +56,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     const-class v1, Lcom/meitu/mtmvcore/backend/android/r/a;
 
     invoke-virtual {v1}, Ljava/lang/Class;->getSimpleName()Ljava/lang/String;
@@ -75,46 +74,36 @@
 
     const-string v0, "OffscreenThread"
 
-    .line 1
     invoke-direct {p0, v0}, Landroid/os/HandlerThread;-><init>(Ljava/lang/String;)V
 
-    .line 2
     sget-object v0, Ljavax/microedition/khronos/egl/EGL10;->EGL_NO_DISPLAY:Ljavax/microedition/khronos/egl/EGLDisplay;
 
     iput-object v0, p0, Lcom/meitu/mtmvcore/backend/android/r/a;->c:Ljavax/microedition/khronos/egl/EGLDisplay;
 
-    .line 3
     sget-object v0, Ljavax/microedition/khronos/egl/EGL10;->EGL_NO_CONTEXT:Ljavax/microedition/khronos/egl/EGLContext;
 
     iput-object v0, p0, Lcom/meitu/mtmvcore/backend/android/r/a;->d:Ljavax/microedition/khronos/egl/EGLContext;
 
-    .line 4
     sget-object v0, Ljavax/microedition/khronos/egl/EGL10;->EGL_NO_SURFACE:Ljavax/microedition/khronos/egl/EGLSurface;
 
     iput-object v0, p0, Lcom/meitu/mtmvcore/backend/android/r/a;->f:Ljavax/microedition/khronos/egl/EGLSurface;
 
     const/16 v0, 0x2d0
 
-    .line 5
     iput v0, p0, Lcom/meitu/mtmvcore/backend/android/r/a;->J:I
 
     const/16 v0, 0x500
 
-    .line 6
     iput v0, p0, Lcom/meitu/mtmvcore/backend/android/r/a;->K:I
 
     const/4 v0, 0x1
 
-    .line 7
     iput-boolean v0, p0, Lcom/meitu/mtmvcore/backend/android/r/a;->O:Z
 
-    .line 8
     iput-object p1, p0, Lcom/meitu/mtmvcore/backend/android/r/a;->M:Lcom/meitu/mtmvcore/backend/android/r/a$c;
 
-    .line 9
     iput-object p2, p0, Lcom/meitu/mtmvcore/backend/android/r/a;->N:Lcom/meitu/mtmvcore/backend/android/r/d;
 
-    .line 10
     sget-object p1, Lcom/meitu/mtmvcore/backend/android/r/a;->Q:Ljava/lang/String;
 
     const-string p2, "instantiate the ApplicationThread object"
@@ -131,7 +120,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/meitu/mtmvcore/backend/android/r/a;->Q:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -152,15 +140,12 @@
 
     const/4 v3, 0x0
 
-    .line 1
     invoke-static {v1, v2, v3}, Landroid/opengl/GLES20;->glGenTextures(I[II)V
 
-    .line 2
     aget v1, v2, v3
 
     if-eqz v1, :cond_0
 
-    .line 3
     aget v1, v2, v3
 
     const/16 v4, 0xde1
@@ -171,26 +156,22 @@
 
     const/16 v5, 0x2600
 
-    .line 4
     invoke-static {v4, v1, v5}, Landroid/opengl/GLES20;->glTexParameteri(III)V
 
     const/16 v1, 0x2800
 
     const/16 v5, 0x2601
 
-    .line 5
     invoke-static {v4, v1, v5}, Landroid/opengl/GLES20;->glTexParameteri(III)V
 
     const/16 v1, 0x2802
 
     const v5, 0x812f
 
-    .line 6
     invoke-static {v4, v1, v5}, Landroid/opengl/GLES20;->glTexParameteri(III)V
 
     const/16 v1, 0x2803
 
-    .line 7
     invoke-static {v4, v1, v5}, Landroid/opengl/GLES20;->glTexParameteri(III)V
 
     const/16 v6, 0xde1
@@ -211,23 +192,19 @@
 
     move/from16 v12, p3
 
-    .line 8
     invoke-static/range {v6 .. v14}, Landroid/opengl/GLES20;->glTexImage2D(IIIIIIIILjava/nio/Buffer;)V
 
-    .line 9
     aget v1, v2, v3
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
 
-    .line 10
     :cond_0
     invoke-static {}, Landroid/opengl/GLES20;->glGetError()I
 
     move-result v1
 
-    .line 11
     new-instance v2, Ljava/lang/RuntimeException;
 
     new-instance v3, Ljava/lang/StringBuilder;
@@ -271,10 +248,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/meitu/mtmvcore/backend/android/r/a;->J:I
 
-    .line 2
     iput p2, p0, Lcom/meitu/mtmvcore/backend/android/r/a;->K:I
 
     const/4 v1, 0x1
@@ -283,20 +258,16 @@
 
     const/4 v3, 0x0
 
-    .line 3
     invoke-static {v1, v2, v3}, Landroid/opengl/GLES20;->glGenFramebuffers(I[II)V
 
-    .line 4
     aget v1, v2, v3
 
     if-eqz v1, :cond_2
 
-    .line 5
     aget v1, v2, v3
 
     iput v1, p0, Lcom/meitu/mtmvcore/backend/android/r/a;->g:I
 
-    .line 6
     sget-object v1, Lcom/meitu/mtmvcore/backend/android/r/a;->Q:Ljava/lang/String;
 
     new-instance v2, Ljava/lang/StringBuilder;
@@ -317,28 +288,23 @@
 
     invoke-static {v1, v2}, Lcom/meitu/debug/Logger;->x(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 7
     iget-object v2, p0, Lcom/meitu/mtmvcore/backend/android/r/a;->N:Lcom/meitu/mtmvcore/backend/android/r/d;
 
     if-eqz v2, :cond_0
 
-    .line 8
     iget v4, p0, Lcom/meitu/mtmvcore/backend/android/r/a;->g:I
 
     invoke-interface {v2, v4}, Lcom/meitu/mtmvcore/backend/android/r/d;->setFrameBufferId(I)V
 
-    .line 9
     :cond_0
     iget v2, p0, Lcom/meitu/mtmvcore/backend/android/r/a;->p:I
 
     const/16 v4, 0x1908
 
-    .line 10
     invoke-direct {p0, p1, p2, v4}, Lcom/meitu/mtmvcore/backend/android/r/a;->b(III)I
 
     move-result p1
 
-    .line 11
     new-instance p2, Ljava/lang/StringBuilder;
 
     invoke-direct {p2}, Ljava/lang/StringBuilder;-><init>()V
@@ -355,15 +321,12 @@
 
     invoke-static {v1, p2}, Lcom/meitu/debug/Logger;->x(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 12
     iget-object p2, p0, Lcom/meitu/mtmvcore/backend/android/r/a;->N:Lcom/meitu/mtmvcore/backend/android/r/d;
 
     if-eqz p2, :cond_1
 
-    .line 13
     invoke-interface {p2, p1}, Lcom/meitu/mtmvcore/backend/android/r/d;->setTextureId(I)V
 
-    .line 14
     :cond_1
     iget p2, p0, Lcom/meitu/mtmvcore/backend/android/r/a;->g:I
 
@@ -375,10 +338,8 @@
 
     const/16 v4, 0xde1
 
-    .line 15
     invoke-static {v1, p2, v4, p1, v3}, Landroid/opengl/GLES20;->glFramebufferTexture2D(IIIII)V
 
-    .line 16
     new-instance p2, Landroid/util/Pair;
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -395,13 +356,11 @@
 
     return-object p2
 
-    .line 17
     :cond_2
     invoke-static {}, Landroid/opengl/GLES20;->glGetError()I
 
     move-result p1
 
-    .line 18
     new-instance p2, Ljava/lang/RuntimeException;
 
     new-instance v1, Ljava/lang/StringBuilder;
@@ -436,7 +395,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Ljavax/microedition/khronos/egl/EGLContext;->getEGL()Ljavax/microedition/khronos/egl/EGL;
 
     move-result-object v1
@@ -445,7 +403,6 @@
 
     iput-object v1, p0, Lcom/meitu/mtmvcore/backend/android/r/a;->b:Ljavax/microedition/khronos/egl/EGL10;
 
-    .line 2
     sget-object v2, Ljavax/microedition/khronos/egl/EGL10;->EGL_DEFAULT_DISPLAY:Ljava/lang/Object;
 
     invoke-interface {v1, v2}, Ljavax/microedition/khronos/egl/EGL10;->eglGetDisplay(Ljava/lang/Object;)Ljavax/microedition/khronos/egl/EGLDisplay;
@@ -454,7 +411,6 @@
 
     iput-object v1, p0, Lcom/meitu/mtmvcore/backend/android/r/a;->c:Ljavax/microedition/khronos/egl/EGLDisplay;
 
-    .line 3
     sget-object v2, Ljavax/microedition/khronos/egl/EGL10;->EGL_NO_DISPLAY:Ljavax/microedition/khronos/egl/EGLDisplay;
 
     if-eq v1, v2, :cond_4
@@ -463,7 +419,6 @@
 
     new-array v2, v2, [I
 
-    .line 4
     iget-object v3, p0, Lcom/meitu/mtmvcore/backend/android/r/a;->b:Ljavax/microedition/khronos/egl/EGL10;
 
     invoke-interface {v3, v1, v2}, Ljavax/microedition/khronos/egl/EGL10;->eglInitialize(Ljavax/microedition/khronos/egl/EGLDisplay;[I)Z
@@ -476,7 +431,6 @@
 
     new-array v4, v1, [I
 
-    .line 5
     fill-array-data v4, :array_0
 
     const/4 v1, 0x1
@@ -485,7 +439,6 @@
 
     new-array v1, v1, [Ljavax/microedition/khronos/egl/EGLConfig;
 
-    .line 6
     iget-object v2, p0, Lcom/meitu/mtmvcore/backend/android/r/a;->b:Ljavax/microedition/khronos/egl/EGL10;
 
     iget-object v3, p0, Lcom/meitu/mtmvcore/backend/android/r/a;->c:Ljavax/microedition/khronos/egl/EGLDisplay;
@@ -504,10 +457,8 @@
 
     new-array v2, v2, [I
 
-    .line 7
     fill-array-data v2, :array_1
 
-    .line 8
     iget-object v3, p0, Lcom/meitu/mtmvcore/backend/android/r/a;->b:Ljavax/microedition/khronos/egl/EGL10;
 
     iget-object v4, p0, Lcom/meitu/mtmvcore/backend/android/r/a;->c:Ljavax/microedition/khronos/egl/EGLDisplay;
@@ -528,10 +479,8 @@
 
     new-array v2, v2, [I
 
-    .line 9
     fill-array-data v2, :array_2
 
-    .line 10
     iget-object v3, p0, Lcom/meitu/mtmvcore/backend/android/r/a;->b:Ljavax/microedition/khronos/egl/EGL10;
 
     iget-object v4, p0, Lcom/meitu/mtmvcore/backend/android/r/a;->c:Ljavax/microedition/khronos/egl/EGLDisplay;
@@ -544,14 +493,12 @@
 
     iput-object v1, p0, Lcom/meitu/mtmvcore/backend/android/r/a;->f:Ljavax/microedition/khronos/egl/EGLSurface;
 
-    .line 11
     invoke-static {}, Landroid/opengl/GLES20;->glGetError()I
 
     move-result v1
 
     if-eqz v1, :cond_0
 
-    .line 12
     sget-object v2, Lcom/meitu/mtmvcore/backend/android/r/a;->Q:Ljava/lang/String;
 
     new-instance v3, Ljava/lang/StringBuilder;
@@ -570,20 +517,17 @@
 
     invoke-static {v2, v1}, Lcom/meitu/debug/Logger;->j(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 13
     :cond_0
     iget-object v1, p0, Lcom/meitu/mtmvcore/backend/android/r/a;->f:Ljavax/microedition/khronos/egl/EGLSurface;
 
     if-eqz v1, :cond_1
 
-    .line 14
     sget-object v1, Lcom/meitu/mtmvcore/backend/android/r/a;->Q:Ljava/lang/String;
 
     const-string v2, "create surface complete"
 
     invoke-static {v1, v2}, Lcom/meitu/debug/Logger;->x(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 15
     iget-object v1, p0, Lcom/meitu/mtmvcore/backend/android/r/a;->b:Ljavax/microedition/khronos/egl/EGL10;
 
     iget-object v2, p0, Lcom/meitu/mtmvcore/backend/android/r/a;->c:Ljavax/microedition/khronos/egl/EGLDisplay;
@@ -594,12 +538,10 @@
 
     invoke-interface {v1, v2, v3, v3, v4}, Ljavax/microedition/khronos/egl/EGL10;->eglMakeCurrent(Ljavax/microedition/khronos/egl/EGLDisplay;Ljavax/microedition/khronos/egl/EGLSurface;Ljavax/microedition/khronos/egl/EGLSurface;Ljavax/microedition/khronos/egl/EGLContext;)Z
 
-    .line 16
     invoke-static {}, Landroid/opengl/EGL14;->eglGetCurrentContext()Landroid/opengl/EGLContext;
 
     move-result-object v1
 
-    .line 17
     iget v2, p0, Lcom/meitu/mtmvcore/backend/android/r/a;->J:I
 
     iget v3, p0, Lcom/meitu/mtmvcore/backend/android/r/a;->K:I
@@ -608,7 +550,6 @@
 
     move-result-object v2
 
-    .line 18
     iget-object v2, v2, Landroid/util/Pair;->second:Ljava/lang/Object;
 
     check-cast v2, Ljava/lang/Integer;
@@ -619,20 +560,16 @@
 
     iput v2, p0, Lcom/meitu/mtmvcore/backend/android/r/a;->p:I
 
-    .line 19
     iget-object v2, p0, Lcom/meitu/mtmvcore/backend/android/r/a;->d:Ljavax/microedition/khronos/egl/EGLContext;
 
     invoke-direct {p0, v2, v1}, Lcom/meitu/mtmvcore/backend/android/r/a;->n(Ljavax/microedition/khronos/egl/EGLContext;Landroid/opengl/EGLContext;)V
 
-    .line 20
     invoke-static {}, Lcom/meitu/media/mtmvcore/MTMVConfig;->registerEGLContext()Z
 
-    .line 21
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 22
     :cond_1
     new-instance v1, Ljava/lang/RuntimeException;
 
@@ -644,7 +581,6 @@
 
     throw v1
 
-    .line 23
     :cond_2
     new-instance v1, Ljava/lang/RuntimeException;
 
@@ -678,7 +614,6 @@
 
     throw v1
 
-    .line 24
     :cond_3
     new-instance v1, Ljava/lang/RuntimeException;
 
@@ -712,7 +647,6 @@
 
     throw v1
 
-    .line 25
     :cond_4
     new-instance v1, Ljava/lang/RuntimeException;
 
@@ -795,7 +729,6 @@
 
     new-array v2, v1, [I
 
-    .line 1
     iget v3, p0, Lcom/meitu/mtmvcore/backend/android/r/a;->g:I
 
     const/4 v4, 0x0
@@ -806,14 +739,12 @@
 
     new-array v2, v1, [I
 
-    .line 2
     iget v3, p0, Lcom/meitu/mtmvcore/backend/android/r/a;->p:I
 
     aput v3, v2, v4
 
     invoke-static {v1, v2, v4}, Landroid/opengl/GLES20;->glDeleteTextures(I[II)V
 
-    .line 3
     sget-object v1, Lcom/meitu/mtmvcore/backend/android/r/a;->Q:Ljava/lang/String;
 
     new-instance v2, Ljava/lang/StringBuilder;
@@ -842,13 +773,10 @@
 
     invoke-static {v1, v2}, Lcom/meitu/debug/Logger;->x(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 4
     iput v4, p0, Lcom/meitu/mtmvcore/backend/android/r/a;->g:I
 
-    .line 5
     iput v4, p0, Lcom/meitu/mtmvcore/backend/android/r/a;->p:I
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -861,31 +789,26 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/meitu/mtmvcore/backend/android/r/a;->j()V
 
-    .line 2
     iget-object v1, p0, Lcom/meitu/mtmvcore/backend/android/r/a;->c:Ljavax/microedition/khronos/egl/EGLDisplay;
 
     sget-object v2, Ljavax/microedition/khronos/egl/EGL10;->EGL_NO_DISPLAY:Ljavax/microedition/khronos/egl/EGLDisplay;
 
     if-eq v1, v2, :cond_0
 
-    .line 3
     iget-object v2, p0, Lcom/meitu/mtmvcore/backend/android/r/a;->b:Ljavax/microedition/khronos/egl/EGL10;
 
     iget-object v3, p0, Lcom/meitu/mtmvcore/backend/android/r/a;->f:Ljavax/microedition/khronos/egl/EGLSurface;
 
     invoke-interface {v2, v1, v3}, Ljavax/microedition/khronos/egl/EGL10;->eglDestroySurface(Ljavax/microedition/khronos/egl/EGLDisplay;Ljavax/microedition/khronos/egl/EGLSurface;)Z
 
-    .line 4
     sget-object v1, Lcom/meitu/mtmvcore/backend/android/r/a;->Q:Ljava/lang/String;
 
     const-string v2, "release eglSurface"
 
     invoke-static {v1, v2}, Lcom/meitu/debug/Logger;->x(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 5
     iget-object v2, p0, Lcom/meitu/mtmvcore/backend/android/r/a;->b:Ljavax/microedition/khronos/egl/EGL10;
 
     iget-object v3, p0, Lcom/meitu/mtmvcore/backend/android/r/a;->c:Ljavax/microedition/khronos/egl/EGLDisplay;
@@ -896,10 +819,8 @@
 
     const-string v2, "release eglContext"
 
-    .line 6
     invoke-static {v1, v2}, Lcom/meitu/debug/Logger;->x(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 7
     iget-object v1, p0, Lcom/meitu/mtmvcore/backend/android/r/a;->b:Ljavax/microedition/khronos/egl/EGL10;
 
     iget-object v2, p0, Lcom/meitu/mtmvcore/backend/android/r/a;->c:Ljavax/microedition/khronos/egl/EGLDisplay;
@@ -910,44 +831,36 @@
 
     invoke-interface {v1, v2, v3, v3, v4}, Ljavax/microedition/khronos/egl/EGL10;->eglMakeCurrent(Ljavax/microedition/khronos/egl/EGLDisplay;Ljavax/microedition/khronos/egl/EGLSurface;Ljavax/microedition/khronos/egl/EGLSurface;Ljavax/microedition/khronos/egl/EGLContext;)Z
 
-    .line 8
     :cond_0
     sget-object v1, Ljavax/microedition/khronos/egl/EGL10;->EGL_NO_DISPLAY:Ljavax/microedition/khronos/egl/EGLDisplay;
 
     iput-object v1, p0, Lcom/meitu/mtmvcore/backend/android/r/a;->c:Ljavax/microedition/khronos/egl/EGLDisplay;
 
-    .line 9
     sget-object v1, Ljavax/microedition/khronos/egl/EGL10;->EGL_NO_SURFACE:Ljavax/microedition/khronos/egl/EGLSurface;
 
     iput-object v1, p0, Lcom/meitu/mtmvcore/backend/android/r/a;->f:Ljavax/microedition/khronos/egl/EGLSurface;
 
-    .line 10
     sget-object v1, Ljavax/microedition/khronos/egl/EGL10;->EGL_NO_CONTEXT:Ljavax/microedition/khronos/egl/EGLContext;
 
     iput-object v1, p0, Lcom/meitu/mtmvcore/backend/android/r/a;->d:Ljavax/microedition/khronos/egl/EGLContext;
 
-    .line 11
     iget-object v1, p0, Lcom/meitu/mtmvcore/backend/android/r/a;->N:Lcom/meitu/mtmvcore/backend/android/r/d;
 
     if-eqz v1, :cond_1
 
-    .line 12
     invoke-interface {v1}, Lcom/meitu/mtmvcore/backend/android/r/d;->reset()V
 
     :cond_1
     const/4 v1, 0x0
 
-    .line 13
     iput-object v1, p0, Lcom/meitu/mtmvcore/backend/android/r/a;->N:Lcom/meitu/mtmvcore/backend/android/r/d;
 
-    .line 14
     sget-object v1, Lcom/meitu/mtmvcore/backend/android/r/a;->Q:Ljava/lang/String;
 
     const-string v2, "destroy offscreen thread opengl resources complete"
 
     invoke-static {v1, v2}, Lcom/meitu/debug/Logger;->x(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 15
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -960,15 +873,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/mtmvcore/backend/android/r/a;->N:Lcom/meitu/mtmvcore/backend/android/r/d;
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-interface {v1, p1, p2}, Lcom/meitu/mtmvcore/backend/android/r/d;->setSharedEglContext(Ljavax/microedition/khronos/egl/EGLContext;Landroid/opengl/EGLContext;)V
 
-    .line 3
     :cond_0
     sget-object p1, Lcom/meitu/mtmvcore/backend/android/r/a;->Q:Ljava/lang/String;
 
@@ -976,7 +886,6 @@
 
     invoke-static {p1, p2}, Lcom/meitu/debug/Logger;->x(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -991,17 +900,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/meitu/mtmvcore/backend/android/r/a;->j()V
 
-    .line 2
     sget-object v1, Lcom/meitu/mtmvcore/backend/android/r/a;->Q:Ljava/lang/String;
 
     const-string v2, "deleteFboAndTexture now"
 
     invoke-static {v1, v2}, Lcom/meitu/debug/Logger;->x(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1014,23 +920,18 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/meitu/mtmvcore/backend/android/r/a;->k()V
 
-    .line 2
     iget-object v1, p0, Lcom/meitu/mtmvcore/backend/android/r/a;->a:Landroid/os/Looper;
 
     const/4 v2, 0x0
 
     if-eqz v1, :cond_0
 
-    .line 3
     invoke-virtual {v1}, Landroid/os/Looper;->quit()V
 
-    .line 4
     iput-object v2, p0, Lcom/meitu/mtmvcore/backend/android/r/a;->a:Landroid/os/Looper;
 
-    .line 5
     sget-object v1, Lcom/meitu/mtmvcore/backend/android/r/a;->Q:Ljava/lang/String;
 
     const-string v3, "looper != null, quit it"
@@ -1039,7 +940,6 @@
 
     goto :goto_0
 
-    .line 6
     :cond_0
     sget-object v1, Lcom/meitu/mtmvcore/backend/android/r/a;->Q:Ljava/lang/String;
 
@@ -1047,23 +947,19 @@
 
     invoke-static {v1, v3}, Lcom/meitu/debug/Logger;->x(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 7
     :goto_0
     iput-object v2, p0, Lcom/meitu/mtmvcore/backend/android/r/a;->L:Landroid/os/Handler;
 
     const/4 v1, 0x1
 
-    .line 8
     iput-boolean v1, p0, Lcom/meitu/mtmvcore/backend/android/r/a;->O:Z
 
-    .line 9
     sget-object v1, Lcom/meitu/mtmvcore/backend/android/r/a;->Q:Ljava/lang/String;
 
     const-string v2, "destroy offscreen thread complete"
 
     invoke-static {v1, v2}, Lcom/meitu/debug/Logger;->x(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 10
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1076,7 +972,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/mtmvcore/backend/android/r/a;->K:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1091,7 +986,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/mtmvcore/backend/android/r/a;->J:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1106,7 +1000,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/mtmvcore/backend/android/r/a;->J:I
 
     if-ne v1, p1, :cond_0
@@ -1119,7 +1012,6 @@
 
     if-nez v1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1129,7 +1021,6 @@
 
     new-array v2, v1, [I
 
-    .line 3
     iget v3, p0, Lcom/meitu/mtmvcore/backend/android/r/a;->g:I
 
     const/4 v4, 0x0
@@ -1138,17 +1029,14 @@
 
     invoke-static {v1, v2, v4}, Landroid/opengl/GLES20;->glDeleteFramebuffers(I[II)V
 
-    .line 4
     iput v4, p0, Lcom/meitu/mtmvcore/backend/android/r/a;->g:I
 
-    .line 5
     invoke-direct {p0, p1, p2}, Lcom/meitu/mtmvcore/backend/android/r/a;->c(II)Landroid/util/Pair;
 
     move-result-object v2
 
     new-array v3, v1, [I
 
-    .line 6
     iget-object v5, v2, Landroid/util/Pair;->first:Ljava/lang/Object;
 
     check-cast v5, Ljava/lang/Integer;
@@ -1161,7 +1049,6 @@
 
     invoke-static {v1, v3, v4}, Landroid/opengl/GLES20;->glDeleteTextures(I[II)V
 
-    .line 7
     iget-object v1, v2, Landroid/util/Pair;->second:Ljava/lang/Object;
 
     check-cast v1, Ljava/lang/Integer;
@@ -1172,28 +1059,22 @@
 
     iput v1, p0, Lcom/meitu/mtmvcore/backend/android/r/a;->p:I
 
-    .line 8
     invoke-static {v4, v4, p1, p2}, Landroid/opengl/GLES20;->glViewport(IIII)V
 
     const/high16 v1, 0x3f800000    # 1.0f
 
     const/4 v2, 0x0
 
-    .line 9
     invoke-static {v2, v2, v2, v1}, Landroid/opengl/GLES20;->glClearColor(FFFF)V
 
     const/16 v1, 0x4000
 
-    .line 10
     invoke-static {v1}, Landroid/opengl/GLES20;->glClear(I)V
 
-    .line 11
     invoke-static {}, Landroid/opengl/GLES20;->glFinish()V
 
-    .line 12
     iput-boolean v4, p0, Lcom/meitu/mtmvcore/backend/android/r/a;->O:Z
 
-    .line 13
     sget-object v1, Lcom/meitu/mtmvcore/backend/android/r/a;->Q:Ljava/lang/String;
 
     new-instance v2, Ljava/lang/StringBuilder;
@@ -1218,7 +1099,6 @@
 
     invoke-static {v1, p1}, Lcom/meitu/debug/Logger;->x(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 14
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1231,10 +1111,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/meitu/mtmvcore/backend/android/r/a;->O:Z
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1247,24 +1125,20 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0}, Landroid/os/HandlerThread;->onLooperPrepared()V
 
-    .line 2
     sget-object v1, Lcom/meitu/mtmvcore/backend/android/r/a;->Q:Ljava/lang/String;
 
     const-string v2, "onLooperPrepared"
 
     invoke-static {v1, v2}, Lcom/meitu/debug/Logger;->b(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 3
     invoke-virtual {p0}, Landroid/os/HandlerThread;->getLooper()Landroid/os/Looper;
 
     move-result-object v2
 
     iput-object v2, p0, Lcom/meitu/mtmvcore/backend/android/r/a;->a:Landroid/os/Looper;
 
-    .line 4
     new-instance v2, Lcom/meitu/mtmvcore/backend/android/r/a$a;
 
     iget-object v3, p0, Lcom/meitu/mtmvcore/backend/android/r/a;->a:Landroid/os/Looper;
@@ -1273,15 +1147,12 @@
 
     iput-object v2, p0, Lcom/meitu/mtmvcore/backend/android/r/a;->L:Landroid/os/Handler;
 
-    .line 5
     invoke-direct {p0}, Lcom/meitu/mtmvcore/backend/android/r/a;->i()V
 
-    .line 6
     iget-object v2, p0, Lcom/meitu/mtmvcore/backend/android/r/a;->M:Lcom/meitu/mtmvcore/backend/android/r/a$c;
 
     if-eqz v2, :cond_0
 
-    .line 7
     iget-object v1, p0, Lcom/meitu/mtmvcore/backend/android/r/a;->a:Landroid/os/Looper;
 
     iget-object v3, p0, Lcom/meitu/mtmvcore/backend/android/r/a;->L:Landroid/os/Handler;
@@ -1293,10 +1164,8 @@
     :cond_0
     const-string v2, "cannot callback init status, callback listener is null"
 
-    .line 8
     invoke-static {v1, v2}, Lcom/meitu/debug/Logger;->x(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 9
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

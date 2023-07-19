@@ -43,7 +43,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/function/background/BackgroundAdjustFragment$g$a;->a:Lcom/commsource/studio/function/background/BackgroundAdjustFragment$g;
 
     iget-object v1, v1, Lcom/commsource/studio/function/background/BackgroundAdjustFragment$g;->a:Lcom/commsource/studio/function/background/BackgroundAdjustFragment;
@@ -72,7 +71,6 @@
 
     if-eqz v1, :cond_4
 
-    .line 2
     iget-object v2, p0, Lcom/commsource/studio/function/background/BackgroundAdjustFragment$g$a;->a:Lcom/commsource/studio/function/background/BackgroundAdjustFragment$g;
 
     iget-object v2, v2, Lcom/commsource/studio/function/background/BackgroundAdjustFragment$g;->a:Lcom/commsource/studio/function/background/BackgroundAdjustFragment;
@@ -89,7 +87,6 @@
 
     const/4 v3, 0x0
 
-    .line 3
     invoke-interface {v2}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v2
@@ -116,7 +113,6 @@
 
     const-string v6, "item"
 
-    .line 4
     invoke-static {v4, v6}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v4}, Lcom/commsource/widget/h1/d;->b()Ljava/lang/Object;
@@ -127,7 +123,6 @@
 
     if-eqz v6, :cond_3
 
-    .line 5
     invoke-virtual {v4}, Lcom/commsource/widget/h1/d;->b()Ljava/lang/Object;
 
     move-result-object v4
@@ -162,7 +157,6 @@
 
     if-eqz v4, :cond_3
 
-    .line 6
     iget-object v4, p0, Lcom/commsource/studio/function/background/BackgroundAdjustFragment$g$a;->a:Lcom/commsource/studio/function/background/BackgroundAdjustFragment$g;
 
     iget-object v4, v4, Lcom/commsource/studio/function/background/BackgroundAdjustFragment$g;->a:Lcom/commsource/studio/function/background/BackgroundAdjustFragment;
@@ -173,7 +167,6 @@
 
     invoke-virtual {v4, v3}, Lcom/commsource/widget/h1/e;->G(I)V
 
-    .line 7
     iget-object v3, p0, Lcom/commsource/studio/function/background/BackgroundAdjustFragment$g$a;->a:Lcom/commsource/studio/function/background/BackgroundAdjustFragment$g;
 
     iget-object v3, v3, Lcom/commsource/studio/function/background/BackgroundAdjustFragment$g;->a:Lcom/commsource/studio/function/background/BackgroundAdjustFragment;
@@ -200,7 +193,6 @@
 
     goto :goto_2
 
-    .line 8
     :cond_2
     new-instance v1, Lcotlin/TypeCastException;
 
@@ -218,7 +210,6 @@
 
     goto :goto_0
 
-    .line 9
     :cond_4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

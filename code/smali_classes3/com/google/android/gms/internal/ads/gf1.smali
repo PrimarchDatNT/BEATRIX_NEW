@@ -34,7 +34,6 @@
 .method public final a(Ljava/lang/Object;)V
     .locals 5
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/gf1;->a:Lcom/google/android/gms/internal/ads/ei;
 
     iget-object v1, p0, Lcom/google/android/gms/internal/ads/gf1;->b:Ljava/lang/String;
@@ -43,10 +42,8 @@
 
     check-cast p1, Lcom/google/android/gms/internal/ads/oj;
 
-    .line 2
     new-instance v3, Lcom/google/android/gms/internal/ads/bk;
 
-    .line 3
     invoke-interface {v0}, Lcom/google/android/gms/internal/ads/ei;->getType()Ljava/lang/String;
 
     move-result-object v4
@@ -57,7 +54,6 @@
 
     invoke-direct {v3, v4, v0}, Lcom/google/android/gms/internal/ads/bk;-><init>(Ljava/lang/String;I)V
 
-    .line 4
     invoke-interface {p1, v3, v1, v2}, Lcom/google/android/gms/internal/ads/oj;->C6(Lcom/google/android/gms/internal/ads/aj;Ljava/lang/String;Ljava/lang/String;)V
 
     return-void

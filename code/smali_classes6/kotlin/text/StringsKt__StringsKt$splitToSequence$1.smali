@@ -72,7 +72,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object v0, p0, Lcotlin/text/StringsKt__StringsKt$splitToSequence$1;->$this_splitToSequence:Ljava/lang/CharSequence;
 
     invoke-static {v0, p1}, Lcotlin/text/StringsKt__StringsKt;->c5(Ljava/lang/CharSequence;Lcotlin/g2/k;)Ljava/lang/String;

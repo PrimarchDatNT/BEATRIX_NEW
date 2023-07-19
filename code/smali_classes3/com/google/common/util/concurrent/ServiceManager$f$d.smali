@@ -22,10 +22,8 @@
 .method constructor <init>(Lcom/google/common/util/concurrent/ServiceManager$f;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/common/util/concurrent/ServiceManager$f$d;->e:Lcom/google/common/util/concurrent/ServiceManager$f;
 
-    .line 2
     iget-object p1, p1, Lcom/google/common/util/concurrent/ServiceManager$f;->a:Lcom/google/common/util/concurrent/m0;
 
     invoke-direct {p0, p1}, Lcom/google/common/util/concurrent/m0$a;-><init>(Lcom/google/common/util/concurrent/m0;)V
@@ -41,7 +39,6 @@
         value = "ServiceManagerState.this.monitor"
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/util/concurrent/ServiceManager$f$d;->e:Lcom/google/common/util/concurrent/ServiceManager$f;
 
     iget-object v0, v0, Lcom/google/common/util/concurrent/ServiceManager$f;->c:Lcom/google/common/collect/m1;

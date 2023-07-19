@@ -46,12 +46,10 @@
 
     move-object/from16 v10, p11
 
-    .line 1
     invoke-direct/range {v0 .. v10}, Lcom/google/android/gms/ads/mediation/d;-><init>(Landroid/content/Context;Ljava/lang/String;Landroid/os/Bundle;Landroid/os/Bundle;ZLandroid/location/Location;IILjava/lang/String;Ljava/lang/String;)V
 
     move-object/from16 v1, p10
 
-    .line 2
     iput-object v1, v0, Lcom/google/android/gms/ads/mediation/j;->n:Lcom/google/android/gms/ads/e;
 
     return-void
@@ -62,7 +60,6 @@
 .method public k()Lcom/google/android/gms/ads/e;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/ads/mediation/j;->n:Lcom/google/android/gms/ads/e;
 
     return-object v0

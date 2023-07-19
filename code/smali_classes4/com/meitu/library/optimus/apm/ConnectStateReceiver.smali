@@ -23,10 +23,8 @@
 
     const/4 v1, 0x0
 
-    .line 1
     sput-boolean v1, Lcom/meitu/library/optimus/apm/ConnectStateReceiver;->b:Z
 
-    .line 2
     sput-boolean v1, Lcom/meitu/library/optimus/apm/ConnectStateReceiver;->c:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -37,10 +35,8 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Landroid/content/BroadcastReceiver;-><init>()V
 
-    .line 2
     const-class v0, Lcom/meitu/library/optimus/apm/ConnectStateReceiver;
 
     invoke-virtual {v0}, Ljava/lang/Class;->getName()Ljava/lang/String;
@@ -64,42 +60,34 @@
     :try_start_0
     invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-boolean v2, Lcom/meitu/library/optimus/apm/ConnectStateReceiver;->c:Z
 
     if-nez v2, :cond_0
 
     const/4 v2, 0x1
 
-    .line 2
     sput-boolean v2, Lcom/meitu/library/optimus/apm/ConnectStateReceiver;->c:Z
 
-    .line 3
     new-instance v2, Landroid/content/IntentFilter;
 
     invoke-direct {v2}, Landroid/content/IntentFilter;-><init>()V
 
     const-string v3, "android.net.conn.CONNECTIVITY_CHANGE"
 
-    .line 4
     invoke-virtual {v2, v3}, Landroid/content/IntentFilter;->addAction(Ljava/lang/String;)V
 
     const-string v3, "android.net.wifi.STATE_CHANGE"
 
-    .line 5
     invoke-virtual {v2, v3}, Landroid/content/IntentFilter;->addAction(Ljava/lang/String;)V
 
-    .line 6
     new-instance v3, Lcom/meitu/library/optimus/apm/ConnectStateReceiver;
 
     invoke-direct {v3}, Lcom/meitu/library/optimus/apm/ConnectStateReceiver;-><init>()V
 
     invoke-virtual {p0, v3, v2}, Landroid/content/Context;->registerReceiver(Landroid/content/BroadcastReceiver;Landroid/content/IntentFilter;)Landroid/content/Intent;
 
-    .line 7
     invoke-static {p0}, Lcom/meitu/library/optimus/apm/r;->b(Landroid/content/Context;)V
 
-    .line 8
     :cond_0
     invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
     :try_end_0
@@ -126,7 +114,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     :try_start_0
     invoke-virtual {p2}, Landroid/content/Intent;->getAction()Ljava/lang/String;
 
@@ -140,7 +127,6 @@
 
     if-nez v1, :cond_0
 
-    .line 2
     invoke-virtual {p2}, Landroid/content/Intent;->getAction()Ljava/lang/String;
 
     move-result-object p2
@@ -156,7 +142,6 @@
     :cond_0
     const-string p2, "connectivity"
 
-    .line 3
     invoke-virtual {p1, p2}, Landroid/content/Context;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
 
     move-result-object p1
@@ -165,28 +150,23 @@
 
     const/4 p2, 0x0
 
-    .line 4
     invoke-virtual {p1, p2}, Landroid/net/ConnectivityManager;->getNetworkInfo(I)Landroid/net/NetworkInfo;
 
     move-result-object p1
 
     if-eqz p1, :cond_1
 
-    .line 5
     invoke-virtual {p1}, Landroid/net/NetworkInfo;->isConnected()Z
 
     move-result p2
 
-    .line 6
     :cond_1
     sget-boolean p1, Lcom/meitu/library/optimus/apm/ConnectStateReceiver;->b:Z
 
     if-eq p2, p1, :cond_2
 
-    .line 7
     sput-boolean p2, Lcom/meitu/library/optimus/apm/ConnectStateReceiver;->b:Z
 
-    .line 8
     invoke-static {p2}, Lcom/meitu/library/optimus/apm/r;->c(Z)V
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
@@ -198,10 +178,8 @@
 
     const-string p2, "onReceive error."
 
-    .line 9
     invoke-static {p2, p1}, Lcom/meitu/library/optimus/apm/x/a;->d(Ljava/lang/String;Ljava/lang/Throwable;)V
 
-    .line 10
     :cond_2
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

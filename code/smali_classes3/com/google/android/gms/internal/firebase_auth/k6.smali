@@ -44,7 +44,6 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
     invoke-static {}, Lcom/google/android/gms/internal/firebase_auth/k6;->L()Ljava/lang/Class;
 
     move-result-object v0
@@ -53,7 +52,6 @@
 
     const/4 v0, 0x0
 
-    .line 2
     invoke-static {v0}, Lcom/google/android/gms/internal/firebase_auth/k6;->Z(Z)Lcom/google/android/gms/internal/firebase_auth/b7;
 
     move-result-object v0
@@ -62,14 +60,12 @@
 
     const/4 v0, 0x1
 
-    .line 3
     invoke-static {v0}, Lcom/google/android/gms/internal/firebase_auth/k6;->Z(Z)Lcom/google/android/gms/internal/firebase_auth/b7;
 
     move-result-object v0
 
     sput-object v0, Lcom/google/android/gms/internal/firebase_auth/k6;->c:Lcom/google/android/gms/internal/firebase_auth/b7;
 
-    .line 4
     new-instance v0, Lcom/google/android/gms/internal/firebase_auth/c7;
 
     invoke-direct {v0}, Lcom/google/android/gms/internal/firebase_auth/c7;-><init>()V
@@ -86,7 +82,6 @@
 
     if-eqz p0, :cond_0
 
-    .line 1
     invoke-virtual {p0, p1}, Ljava/lang/Object;->equals(Ljava/lang/Object;)Z
 
     move-result p0
@@ -128,14 +123,12 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     invoke-interface {p1}, Ljava/util/List;->isEmpty()Z
 
     move-result v0
 
     if-nez v0, :cond_0
 
-    .line 2
     invoke-interface {p2, p0, p1, p3}, Lcom/google/android/gms/internal/firebase_auth/r7;->r(ILjava/util/List;Z)V
 
     :cond_0
@@ -163,14 +156,12 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     invoke-interface {p1}, Ljava/util/List;->isEmpty()Z
 
     move-result v0
 
     if-nez v0, :cond_0
 
-    .line 2
     invoke-interface {p2, p0, p1, p3}, Lcom/google/android/gms/internal/firebase_auth/r7;->o(ILjava/util/List;Z)V
 
     :cond_0
@@ -187,7 +178,6 @@
         }
     .end annotation
 
-    .line 1
     const-class v0, Lcom/google/android/gms/internal/firebase_auth/k4;
 
     invoke-virtual {v0, p0}, Ljava/lang/Class;->isAssignableFrom(Ljava/lang/Class;)Z
@@ -200,7 +190,6 @@
 
     if-eqz v0, :cond_1
 
-    .line 2
     invoke-virtual {v0, p0}, Ljava/lang/Class;->isAssignableFrom(Ljava/lang/Class;)Z
 
     move-result p0
@@ -209,7 +198,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_0
     new-instance p0, Ljava/lang/IllegalArgumentException;
 
@@ -245,14 +233,12 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     invoke-interface {p1}, Ljava/util/List;->isEmpty()Z
 
     move-result v0
 
     if-nez v0, :cond_0
 
-    .line 2
     invoke-interface {p2, p0, p1, p3}, Lcom/google/android/gms/internal/firebase_auth/r7;->a(ILjava/util/List;Z)V
 
     :cond_0
@@ -280,14 +266,12 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     invoke-interface {p1}, Ljava/util/List;->isEmpty()Z
 
     move-result v0
 
     if-nez v0, :cond_0
 
-    .line 2
     invoke-interface {p2, p0, p1, p3}, Lcom/google/android/gms/internal/firebase_auth/r7;->p(ILjava/util/List;Z)V
 
     :cond_0
@@ -315,14 +299,12 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     invoke-interface {p1}, Ljava/util/List;->isEmpty()Z
 
     move-result v0
 
     if-nez v0, :cond_0
 
-    .line 2
     invoke-interface {p2, p0, p1, p3}, Lcom/google/android/gms/internal/firebase_auth/r7;->j(ILjava/util/List;Z)V
 
     :cond_0
@@ -350,14 +332,12 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     invoke-interface {p1}, Ljava/util/List;->isEmpty()Z
 
     move-result v0
 
     if-nez v0, :cond_0
 
-    .line 2
     invoke-interface {p2, p0, p1, p3}, Lcom/google/android/gms/internal/firebase_auth/r7;->e(ILjava/util/List;Z)V
 
     :cond_0
@@ -374,7 +354,6 @@
         }
     .end annotation
 
-    .line 1
     sget-object v0, Lcom/google/android/gms/internal/firebase_auth/k6;->b:Lcom/google/android/gms/internal/firebase_auth/b7;
 
     return-object v0
@@ -390,7 +369,6 @@
         }
     .end annotation
 
-    .line 1
     sget-object v0, Lcom/google/android/gms/internal/firebase_auth/k6;->c:Lcom/google/android/gms/internal/firebase_auth/b7;
 
     return-object v0
@@ -406,7 +384,6 @@
         }
     .end annotation
 
-    .line 1
     sget-object v0, Lcom/google/android/gms/internal/firebase_auth/k6;->d:Lcom/google/android/gms/internal/firebase_auth/b7;
 
     return-object v0
@@ -425,7 +402,6 @@
     :try_start_0
     const-string v0, "com.google.protobuf.GeneratedMessage"
 
-    .line 1
     invoke-static {v0}, Ljava/lang/Class;->forName(Ljava/lang/String;)Ljava/lang/Class;
 
     move-result-object v0
@@ -453,7 +429,6 @@
     :try_start_0
     const-string v0, "com.google.protobuf.UnknownFieldSetSchema"
 
-    .line 1
     invoke-static {v0}, Ljava/lang/Class;->forName(Ljava/lang/String;)Ljava/lang/Class;
 
     move-result-object v0
@@ -489,14 +464,12 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     invoke-interface {p1}, Ljava/util/List;->isEmpty()Z
 
     move-result v0
 
     if-nez v0, :cond_0
 
-    .line 2
     invoke-interface {p2, p0, p1, p3}, Lcom/google/android/gms/internal/firebase_auth/r7;->q(ILjava/util/List;Z)V
 
     :cond_0
@@ -524,14 +497,12 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     invoke-interface {p1}, Ljava/util/List;->isEmpty()Z
 
     move-result v0
 
     if-nez v0, :cond_0
 
-    .line 2
     invoke-interface {p2, p0, p1, p3}, Lcom/google/android/gms/internal/firebase_auth/r7;->n(ILjava/util/List;Z)V
 
     :cond_0
@@ -559,14 +530,12 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     invoke-interface {p1}, Ljava/util/List;->isEmpty()Z
 
     move-result v0
 
     if-nez v0, :cond_0
 
-    .line 2
     invoke-interface {p2, p0, p1, p3}, Lcom/google/android/gms/internal/firebase_auth/r7;->m(ILjava/util/List;Z)V
 
     :cond_0
@@ -584,7 +553,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-interface {p1}, Ljava/util/List;->size()I
 
     move-result p2
@@ -595,13 +563,11 @@
 
     return p0
 
-    .line 2
     :cond_0
     invoke-static {p1}, Lcom/google/android/gms/internal/firebase_auth/k6;->b0(Ljava/util/List;)I
 
     move-result p2
 
-    .line 3
     invoke-interface {p1}, Ljava/util/List;->size()I
 
     move-result p1
@@ -628,7 +594,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-interface {p1}, Ljava/util/List;->size()I
 
     move-result p2
@@ -639,13 +604,11 @@
 
     return p0
 
-    .line 2
     :cond_0
     invoke-static {p1}, Lcom/google/android/gms/internal/firebase_auth/k6;->c0(Ljava/util/List;)I
 
     move-result p1
 
-    .line 3
     invoke-static {p0}, Lcom/google/android/gms/internal/firebase_auth/zzha;->t(I)I
 
     move-result p0
@@ -668,7 +631,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-interface {p1}, Ljava/util/List;->size()I
 
     move-result p2
@@ -679,13 +641,11 @@
 
     return p0
 
-    .line 2
     :cond_0
     invoke-static {p1}, Lcom/google/android/gms/internal/firebase_auth/k6;->d0(Ljava/util/List;)I
 
     move-result p1
 
-    .line 3
     invoke-static {p0}, Lcom/google/android/gms/internal/firebase_auth/zzha;->t(I)I
 
     move-result p0
@@ -708,7 +668,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-interface {p1}, Ljava/util/List;->size()I
 
     move-result p2
@@ -719,13 +678,11 @@
 
     return p0
 
-    .line 2
     :cond_0
     invoke-static {p1}, Lcom/google/android/gms/internal/firebase_auth/k6;->i(Ljava/util/List;)I
 
     move-result p1
 
-    .line 3
     invoke-static {p0}, Lcom/google/android/gms/internal/firebase_auth/zzha;->t(I)I
 
     move-result p0
@@ -748,7 +705,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-interface {p1}, Ljava/util/List;->size()I
 
     move-result p2
@@ -759,13 +715,11 @@
 
     return p0
 
-    .line 2
     :cond_0
     invoke-static {p1}, Lcom/google/android/gms/internal/firebase_auth/k6;->j(Ljava/util/List;)I
 
     move-result p1
 
-    .line 3
     invoke-static {p0}, Lcom/google/android/gms/internal/firebase_auth/zzha;->t(I)I
 
     move-result p0
@@ -788,7 +742,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-interface {p1}, Ljava/util/List;->size()I
 
     move-result p2
@@ -799,13 +752,11 @@
 
     return p0
 
-    .line 2
     :cond_0
     invoke-static {p1}, Lcom/google/android/gms/internal/firebase_auth/k6;->k(Ljava/util/List;)I
 
     move-result p1
 
-    .line 3
     invoke-static {p0}, Lcom/google/android/gms/internal/firebase_auth/zzha;->t(I)I
 
     move-result p0
@@ -828,7 +779,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-interface {p1}, Ljava/util/List;->size()I
 
     move-result p2
@@ -839,13 +789,11 @@
 
     return p0
 
-    .line 2
     :cond_0
     invoke-static {p1}, Lcom/google/android/gms/internal/firebase_auth/k6;->l(Ljava/util/List;)I
 
     move-result p1
 
-    .line 3
     invoke-static {p0}, Lcom/google/android/gms/internal/firebase_auth/zzha;->t(I)I
 
     move-result p0
@@ -867,7 +815,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-interface {p1}, Ljava/util/List;->size()I
 
     move-result p1
@@ -878,7 +825,6 @@
 
     return p2
 
-    .line 2
     :cond_0
     invoke-static {p0, p2}, Lcom/google/android/gms/internal/firebase_auth/zzha;->B0(II)I
 
@@ -899,7 +845,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-interface {p1}, Ljava/util/List;->size()I
 
     move-result p1
@@ -913,7 +858,6 @@
     :cond_0
     const-wide/16 v0, 0x0
 
-    .line 2
     invoke-static {p0, v0, v1}, Lcom/google/android/gms/internal/firebase_auth/zzha;->m0(IJ)I
 
     move-result p0
@@ -935,7 +879,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     :try_start_0
     invoke-static {}, Lcom/google/android/gms/internal/firebase_auth/k6;->M()Ljava/lang/Class;
 
@@ -950,7 +893,6 @@
 
     new-array v3, v2, [Ljava/lang/Class;
 
-    .line 2
     sget-object v4, Ljava/lang/Boolean;->TYPE:Ljava/lang/Class;
 
     const/4 v5, 0x0
@@ -999,7 +941,6 @@
 
     if-nez p2, :cond_0
 
-    .line 1
     invoke-virtual {p3}, Lcom/google/android/gms/internal/firebase_auth/b7;->n()Ljava/lang/Object;
 
     move-result-object p2
@@ -1007,7 +948,6 @@
     :cond_0
     int-to-long v0, p1
 
-    .line 2
     invoke-virtual {p3, p2, p0, v0, v1}, Lcom/google/android/gms/internal/firebase_auth/b7;->a(Ljava/lang/Object;IJ)V
 
     return-object p2
@@ -1023,7 +963,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-interface {p1}, Ljava/util/List;->size()I
 
     move-result p1
@@ -1037,7 +976,6 @@
     :cond_0
     const/4 p2, 0x1
 
-    .line 2
     invoke-static {p0, p2}, Lcom/google/android/gms/internal/firebase_auth/zzha;->Y(IZ)I
 
     move-result p0
@@ -1070,13 +1008,11 @@
 
     return-object p3
 
-    .line 1
     :cond_0
     instance-of v0, p1, Ljava/util/RandomAccess;
 
     if-eqz v0, :cond_4
 
-    .line 2
     invoke-interface {p1}, Ljava/util/List;->size()I
 
     move-result v0
@@ -1088,7 +1024,6 @@
     :goto_0
     if-ge v1, v0, :cond_3
 
-    .line 3
     invoke-interface {p1, v1}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object v3
@@ -1099,7 +1034,6 @@
 
     move-result v3
 
-    .line 4
     invoke-interface {p2, v3}, Lcom/google/android/gms/internal/firebase_auth/q4;->a(I)Z
 
     move-result v4
@@ -1108,7 +1042,6 @@
 
     if-eq v1, v2, :cond_1
 
-    .line 5
     invoke-static {v3}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v3
@@ -1120,7 +1053,6 @@
 
     goto :goto_1
 
-    .line 6
     :cond_2
     invoke-static {p0, v3, p3, p4}, Lcom/google/android/gms/internal/firebase_auth/k6;->a(IILjava/lang/Object;Lcom/google/android/gms/internal/firebase_auth/b7;)Ljava/lang/Object;
 
@@ -1134,7 +1066,6 @@
     :cond_3
     if-eq v2, v0, :cond_6
 
-    .line 7
     invoke-interface {p1, v2, v0}, Ljava/util/List;->subList(II)Ljava/util/List;
 
     move-result-object p0
@@ -1143,7 +1074,6 @@
 
     goto :goto_3
 
-    .line 8
     :cond_4
     invoke-interface {p1}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
@@ -1157,7 +1087,6 @@
 
     if-eqz v0, :cond_6
 
-    .line 9
     invoke-interface {p1}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
     move-result-object v0
@@ -1168,19 +1097,16 @@
 
     move-result v0
 
-    .line 10
     invoke-interface {p2, v0}, Lcom/google/android/gms/internal/firebase_auth/q4;->a(I)Z
 
     move-result v1
 
     if-nez v1, :cond_5
 
-    .line 11
     invoke-static {p0, v0, p3, p4}, Lcom/google/android/gms/internal/firebase_auth/k6;->a(IILjava/lang/Object;Lcom/google/android/gms/internal/firebase_auth/b7;)Ljava/lang/Object;
 
     move-result-object p3
 
-    .line 12
     invoke-interface {p1}, Ljava/util/Iterator;->remove()V
 
     goto :goto_2
@@ -1201,7 +1127,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-interface {p0}, Ljava/util/List;->size()I
 
     move-result v0
@@ -1212,13 +1137,11 @@
 
     return v1
 
-    .line 2
     :cond_0
     instance-of v2, p0, Lcom/google/android/gms/internal/firebase_auth/g5;
 
     if-eqz v2, :cond_1
 
-    .line 3
     check-cast p0, Lcom/google/android/gms/internal/firebase_auth/g5;
 
     const/4 v2, 0x0
@@ -1226,7 +1149,6 @@
     :goto_0
     if-ge v1, v0, :cond_2
 
-    .line 4
     invoke-virtual {p0, v1}, Lcom/google/android/gms/internal/firebase_auth/g5;->getLong(I)J
 
     move-result-wide v3
@@ -1247,7 +1169,6 @@
     :goto_1
     if-ge v1, v0, :cond_2
 
-    .line 5
     invoke-interface {p0, v1}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object v3
@@ -1293,14 +1214,12 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     invoke-interface {p1}, Ljava/util/List;->isEmpty()Z
 
     move-result v0
 
     if-nez v0, :cond_0
 
-    .line 2
     invoke-interface {p2, p0, p1}, Lcom/google/android/gms/internal/firebase_auth/r7;->l(ILjava/util/List;)V
 
     :cond_0
@@ -1318,7 +1237,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-interface {p0}, Ljava/util/List;->size()I
 
     move-result v0
@@ -1329,13 +1247,11 @@
 
     return v1
 
-    .line 2
     :cond_0
     instance-of v2, p0, Lcom/google/android/gms/internal/firebase_auth/g5;
 
     if-eqz v2, :cond_1
 
-    .line 3
     check-cast p0, Lcom/google/android/gms/internal/firebase_auth/g5;
 
     const/4 v2, 0x0
@@ -1343,7 +1259,6 @@
     :goto_0
     if-ge v1, v0, :cond_2
 
-    .line 4
     invoke-virtual {p0, v1}, Lcom/google/android/gms/internal/firebase_auth/g5;->getLong(I)J
 
     move-result-wide v3
@@ -1364,7 +1279,6 @@
     :goto_1
     if-ge v1, v0, :cond_2
 
-    .line 5
     invoke-interface {p0, v1}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object v3
@@ -1410,14 +1324,12 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     invoke-interface {p1}, Ljava/util/List;->isEmpty()Z
 
     move-result v0
 
     if-nez v0, :cond_0
 
-    .line 2
     invoke-interface {p2, p0, p1, p3}, Lcom/google/android/gms/internal/firebase_auth/r7;->L(ILjava/util/List;Lcom/google/android/gms/internal/firebase_auth/i6;)V
 
     :cond_0
@@ -1435,7 +1347,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-interface {p0}, Ljava/util/List;->size()I
 
     move-result v0
@@ -1446,13 +1357,11 @@
 
     return v1
 
-    .line 2
     :cond_0
     instance-of v2, p0, Lcom/google/android/gms/internal/firebase_auth/g5;
 
     if-eqz v2, :cond_1
 
-    .line 3
     check-cast p0, Lcom/google/android/gms/internal/firebase_auth/g5;
 
     const/4 v2, 0x0
@@ -1460,7 +1369,6 @@
     :goto_0
     if-ge v1, v0, :cond_2
 
-    .line 4
     invoke-virtual {p0, v1}, Lcom/google/android/gms/internal/firebase_auth/g5;->getLong(I)J
 
     move-result-wide v3
@@ -1481,7 +1389,6 @@
     :goto_1
     if-ge v1, v0, :cond_2
 
-    .line 5
     invoke-interface {p0, v1}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object v3
@@ -1527,14 +1434,12 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     invoke-interface {p1}, Ljava/util/List;->isEmpty()Z
 
     move-result v0
 
     if-nez v0, :cond_0
 
-    .line 2
     invoke-interface {p2, p0, p1, p3}, Lcom/google/android/gms/internal/firebase_auth/r7;->t(ILjava/util/List;Z)V
 
     :cond_0
@@ -1555,12 +1460,10 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0, p2}, Lcom/google/android/gms/internal/firebase_auth/b4;->g(Ljava/lang/Object;)Lcom/google/android/gms/internal/firebase_auth/c4;
 
     move-result-object p2
 
-    .line 2
     iget-object v0, p2, Lcom/google/android/gms/internal/firebase_auth/c4;->a:Lcom/google/android/gms/internal/firebase_auth/j6;
 
     invoke-virtual {v0}, Ljava/util/AbstractMap;->isEmpty()Z
@@ -1569,12 +1472,10 @@
 
     if-nez v0, :cond_0
 
-    .line 3
     invoke-virtual {p0, p1}, Lcom/google/android/gms/internal/firebase_auth/b4;->h(Ljava/lang/Object;)Lcom/google/android/gms/internal/firebase_auth/c4;
 
     move-result-object p0
 
-    .line 4
     invoke-virtual {p0, p2}, Lcom/google/android/gms/internal/firebase_auth/c4;->h(Lcom/google/android/gms/internal/firebase_auth/c4;)V
 
     :cond_0
@@ -1593,7 +1494,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p1, p3, p4}, Lcom/google/android/gms/internal/firebase_auth/g7;->G(Ljava/lang/Object;J)Ljava/lang/Object;
 
     move-result-object v0
@@ -1602,12 +1502,10 @@
 
     move-result-object p2
 
-    .line 2
     invoke-interface {p0, v0, p2}, Lcom/google/android/gms/internal/firebase_auth/l5;->e(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p0
 
-    .line 3
     invoke-static {p1, p3, p4, p0}, Lcom/google/android/gms/internal/firebase_auth/g7;->f(Ljava/lang/Object;JLjava/lang/Object;)V
 
     return-void
@@ -1629,22 +1527,18 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0, p1}, Lcom/google/android/gms/internal/firebase_auth/b7;->q(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v0
 
-    .line 2
     invoke-virtual {p0, p2}, Lcom/google/android/gms/internal/firebase_auth/b7;->q(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p2
 
-    .line 3
     invoke-virtual {p0, v0, p2}, Lcom/google/android/gms/internal/firebase_auth/b7;->m(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p2
 
-    .line 4
     invoke-virtual {p0, p1, p2}, Lcom/google/android/gms/internal/firebase_auth/b7;->k(Ljava/lang/Object;Ljava/lang/Object;)V
 
     return-void
@@ -1661,7 +1555,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-interface {p0}, Ljava/util/List;->size()I
 
     move-result v0
@@ -1672,13 +1565,11 @@
 
     return v1
 
-    .line 2
     :cond_0
     instance-of v2, p0, Lcom/google/android/gms/internal/firebase_auth/m4;
 
     if-eqz v2, :cond_1
 
-    .line 3
     check-cast p0, Lcom/google/android/gms/internal/firebase_auth/m4;
 
     const/4 v2, 0x0
@@ -1686,7 +1577,6 @@
     :goto_0
     if-ge v1, v0, :cond_2
 
-    .line 4
     invoke-virtual {p0, v1}, Lcom/google/android/gms/internal/firebase_auth/m4;->getInt(I)I
 
     move-result v3
@@ -1707,7 +1597,6 @@
     :goto_1
     if-ge v1, v0, :cond_2
 
-    .line 5
     invoke-interface {p0, v1}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object v3
@@ -1743,7 +1632,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-interface {p0}, Ljava/util/List;->size()I
 
     move-result v0
@@ -1754,13 +1642,11 @@
 
     return v1
 
-    .line 2
     :cond_0
     instance-of v2, p0, Lcom/google/android/gms/internal/firebase_auth/m4;
 
     if-eqz v2, :cond_1
 
-    .line 3
     check-cast p0, Lcom/google/android/gms/internal/firebase_auth/m4;
 
     const/4 v2, 0x0
@@ -1768,7 +1654,6 @@
     :goto_0
     if-ge v1, v0, :cond_2
 
-    .line 4
     invoke-virtual {p0, v1}, Lcom/google/android/gms/internal/firebase_auth/m4;->getInt(I)I
 
     move-result v3
@@ -1789,7 +1674,6 @@
     :goto_1
     if-ge v1, v0, :cond_2
 
-    .line 5
     invoke-interface {p0, v1}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object v3
@@ -1825,7 +1709,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-interface {p0}, Ljava/util/List;->size()I
 
     move-result v0
@@ -1836,13 +1719,11 @@
 
     return v1
 
-    .line 2
     :cond_0
     instance-of v2, p0, Lcom/google/android/gms/internal/firebase_auth/m4;
 
     if-eqz v2, :cond_1
 
-    .line 3
     check-cast p0, Lcom/google/android/gms/internal/firebase_auth/m4;
 
     const/4 v2, 0x0
@@ -1850,7 +1731,6 @@
     :goto_0
     if-ge v1, v0, :cond_2
 
-    .line 4
     invoke-virtual {p0, v1}, Lcom/google/android/gms/internal/firebase_auth/m4;->getInt(I)I
 
     move-result v3
@@ -1871,7 +1751,6 @@
     :goto_1
     if-ge v1, v0, :cond_2
 
-    .line 5
     invoke-interface {p0, v1}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object v3
@@ -1907,7 +1786,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-interface {p0}, Ljava/util/List;->size()I
 
     move-result v0
@@ -1918,13 +1796,11 @@
 
     return v1
 
-    .line 2
     :cond_0
     instance-of v2, p0, Lcom/google/android/gms/internal/firebase_auth/m4;
 
     if-eqz v2, :cond_1
 
-    .line 3
     check-cast p0, Lcom/google/android/gms/internal/firebase_auth/m4;
 
     const/4 v2, 0x0
@@ -1932,7 +1808,6 @@
     :goto_0
     if-ge v1, v0, :cond_2
 
-    .line 4
     invoke-virtual {p0, v1}, Lcom/google/android/gms/internal/firebase_auth/m4;->getInt(I)I
 
     move-result v3
@@ -1953,7 +1828,6 @@
     :goto_1
     if-ge v1, v0, :cond_2
 
-    .line 5
     invoke-interface {p0, v1}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object v3
@@ -1988,7 +1862,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-interface {p0}, Ljava/util/List;->size()I
 
     move-result p0
@@ -2008,7 +1881,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-interface {p0}, Ljava/util/List;->size()I
 
     move-result p0
@@ -2028,7 +1900,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-interface {p0}, Ljava/util/List;->size()I
 
     move-result p0
@@ -2057,14 +1928,12 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     invoke-interface {p1}, Ljava/util/List;->isEmpty()Z
 
     move-result v0
 
     if-nez v0, :cond_0
 
-    .line 2
     invoke-interface {p2, p0, p1}, Lcom/google/android/gms/internal/firebase_auth/r7;->k(ILjava/util/List;)V
 
     :cond_0
@@ -2092,14 +1961,12 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     invoke-interface {p1}, Ljava/util/List;->isEmpty()Z
 
     move-result v0
 
     if-nez v0, :cond_0
 
-    .line 2
     invoke-interface {p2, p0, p1, p3}, Lcom/google/android/gms/internal/firebase_auth/r7;->N(ILjava/util/List;Lcom/google/android/gms/internal/firebase_auth/i6;)V
 
     :cond_0
@@ -2127,14 +1994,12 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     invoke-interface {p1}, Ljava/util/List;->isEmpty()Z
 
     move-result v0
 
     if-nez v0, :cond_0
 
-    .line 2
     invoke-interface {p2, p0, p1, p3}, Lcom/google/android/gms/internal/firebase_auth/r7;->u(ILjava/util/List;Z)V
 
     :cond_0
@@ -2144,12 +2009,10 @@
 .method static s(ILjava/lang/Object;Lcom/google/android/gms/internal/firebase_auth/i6;)I
     .locals 1
 
-    .line 1
     instance-of v0, p1, Lcom/google/android/gms/internal/firebase_auth/x4;
 
     if-eqz v0, :cond_0
 
-    .line 2
     check-cast p1, Lcom/google/android/gms/internal/firebase_auth/x4;
 
     invoke-static {p0, p1}, Lcom/google/android/gms/internal/firebase_auth/zzha;->b(ILcom/google/android/gms/internal/firebase_auth/x4;)I
@@ -2158,7 +2021,6 @@
 
     return p0
 
-    .line 3
     :cond_0
     check-cast p1, Lcom/google/android/gms/internal/firebase_auth/s5;
 
@@ -2179,7 +2041,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-interface {p1}, Ljava/util/List;->size()I
 
     move-result v0
@@ -2190,7 +2051,6 @@
 
     return v1
 
-    .line 2
     :cond_0
     invoke-static {p0}, Lcom/google/android/gms/internal/firebase_auth/zzha;->t(I)I
 
@@ -2198,28 +2058,23 @@
 
     mul-int p0, p0, v0
 
-    .line 3
     instance-of v2, p1, Lcom/google/android/gms/internal/firebase_auth/z4;
 
     if-eqz v2, :cond_2
 
-    .line 4
     check-cast p1, Lcom/google/android/gms/internal/firebase_auth/z4;
 
     :goto_0
     if-ge v1, v0, :cond_4
 
-    .line 5
     invoke-interface {p1, v1}, Lcom/google/android/gms/internal/firebase_auth/z4;->r0(I)Ljava/lang/Object;
 
     move-result-object v2
 
-    .line 6
     instance-of v3, v2, Lcom/google/android/gms/internal/firebase_auth/zzgf;
 
     if-eqz v3, :cond_1
 
-    .line 7
     check-cast v2, Lcom/google/android/gms/internal/firebase_auth/zzgf;
 
     invoke-static {v2}, Lcom/google/android/gms/internal/firebase_auth/zzha;->K(Lcom/google/android/gms/internal/firebase_auth/zzgf;)I
@@ -2228,7 +2083,6 @@
 
     goto :goto_1
 
-    .line 8
     :cond_1
     check-cast v2, Ljava/lang/String;
 
@@ -2247,17 +2101,14 @@
     :goto_2
     if-ge v1, v0, :cond_4
 
-    .line 9
     invoke-interface {p1, v1}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object v2
 
-    .line 10
     instance-of v3, v2, Lcom/google/android/gms/internal/firebase_auth/zzgf;
 
     if-eqz v3, :cond_3
 
-    .line 11
     check-cast v2, Lcom/google/android/gms/internal/firebase_auth/zzgf;
 
     invoke-static {v2}, Lcom/google/android/gms/internal/firebase_auth/zzha;->K(Lcom/google/android/gms/internal/firebase_auth/zzgf;)I
@@ -2266,7 +2117,6 @@
 
     goto :goto_3
 
-    .line 12
     :cond_3
     check-cast v2, Ljava/lang/String;
 
@@ -2297,7 +2147,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-interface {p1}, Ljava/util/List;->size()I
 
     move-result v0
@@ -2308,7 +2157,6 @@
 
     return v1
 
-    .line 2
     :cond_0
     invoke-static {p0}, Lcom/google/android/gms/internal/firebase_auth/zzha;->t(I)I
 
@@ -2319,17 +2167,14 @@
     :goto_0
     if-ge v1, v0, :cond_2
 
-    .line 3
     invoke-interface {p1, v1}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object v2
 
-    .line 4
     instance-of v3, v2, Lcom/google/android/gms/internal/firebase_auth/x4;
 
     if-eqz v3, :cond_1
 
-    .line 5
     check-cast v2, Lcom/google/android/gms/internal/firebase_auth/x4;
 
     invoke-static {v2}, Lcom/google/android/gms/internal/firebase_auth/zzha;->c(Lcom/google/android/gms/internal/firebase_auth/x4;)I
@@ -2338,7 +2183,6 @@
 
     goto :goto_1
 
-    .line 6
     :cond_1
     check-cast v2, Lcom/google/android/gms/internal/firebase_auth/s5;
 
@@ -2378,14 +2222,12 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     invoke-interface {p1}, Ljava/util/List;->isEmpty()Z
 
     move-result v0
 
     if-nez v0, :cond_0
 
-    .line 2
     invoke-interface {p2, p0, p1, p3}, Lcom/google/android/gms/internal/firebase_auth/r7;->d(ILjava/util/List;Z)V
 
     :cond_0
@@ -2403,7 +2245,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-interface {p1}, Ljava/util/List;->size()I
 
     move-result v0
@@ -2414,7 +2255,6 @@
 
     return v1
 
-    .line 2
     :cond_0
     invoke-static {p0}, Lcom/google/android/gms/internal/firebase_auth/zzha;->t(I)I
 
@@ -2422,7 +2262,6 @@
 
     mul-int v0, v0, p0
 
-    .line 3
     :goto_0
     invoke-interface {p1}, Ljava/util/List;->size()I
 
@@ -2430,7 +2269,6 @@
 
     if-ge v1, p0, :cond_1
 
-    .line 4
     invoke-interface {p1, v1}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object p0
@@ -2464,7 +2302,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-interface {p1}, Ljava/util/List;->size()I
 
     move-result v0
@@ -2481,7 +2318,6 @@
     :goto_0
     if-ge v1, v0, :cond_1
 
-    .line 2
     invoke-interface {p1, v1}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object v3
@@ -2523,14 +2359,12 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     invoke-interface {p1}, Ljava/util/List;->isEmpty()Z
 
     move-result v0
 
     if-nez v0, :cond_0
 
-    .line 2
     invoke-interface {p2, p0, p1, p3}, Lcom/google/android/gms/internal/firebase_auth/r7;->s(ILjava/util/List;Z)V
 
     :cond_0
@@ -2558,14 +2392,12 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     invoke-interface {p1}, Ljava/util/List;->isEmpty()Z
 
     move-result v0
 
     if-nez v0, :cond_0
 
-    .line 2
     invoke-interface {p2, p0, p1, p3}, Lcom/google/android/gms/internal/firebase_auth/r7;->i(ILjava/util/List;Z)V
 
     :cond_0

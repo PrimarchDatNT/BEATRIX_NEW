@@ -25,7 +25,6 @@
 .method constructor <init>(Lcom/mopub/nativeads/MoPubStreamAdPlacer;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/mopub/nativeads/MoPubStreamAdPlacer$2;->this$0:Lcom/mopub/nativeads/MoPubStreamAdPlacer;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -38,7 +37,6 @@
 .method public run()V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/nativeads/MoPubStreamAdPlacer$2;->this$0:Lcom/mopub/nativeads/MoPubStreamAdPlacer;
 
     invoke-static {v0}, Lcom/mopub/nativeads/MoPubStreamAdPlacer;->access$000(Lcom/mopub/nativeads/MoPubStreamAdPlacer;)Z
@@ -49,13 +47,11 @@
 
     return-void
 
-    .line 2
     :cond_0
     iget-object v0, p0, Lcom/mopub/nativeads/MoPubStreamAdPlacer$2;->this$0:Lcom/mopub/nativeads/MoPubStreamAdPlacer;
 
     invoke-static {v0}, Lcom/mopub/nativeads/MoPubStreamAdPlacer;->access$100(Lcom/mopub/nativeads/MoPubStreamAdPlacer;)V
 
-    .line 3
     iget-object v0, p0, Lcom/mopub/nativeads/MoPubStreamAdPlacer$2;->this$0:Lcom/mopub/nativeads/MoPubStreamAdPlacer;
 
     const/4 v1, 0x0

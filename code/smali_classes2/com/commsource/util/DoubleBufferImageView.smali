@@ -30,7 +30,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-direct {p0, p1, v0}, Lcom/commsource/util/DoubleBufferImageView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
     return-void
@@ -53,7 +52,6 @@
 
     const/4 v0, 0x0
 
-    .line 2
     invoke-direct {p0, p1, p2, v0}, Lcom/commsource/util/DoubleBufferImageView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
     return-void
@@ -74,19 +72,16 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 3
     invoke-direct {p0, p1, p2, p3}, Landroid/widget/FrameLayout;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
     const/4 p1, 0x2
 
     new-array p2, p1, [Landroid/widget/ImageView;
 
-    .line 4
     iput-object p2, p0, Lcom/commsource/util/DoubleBufferImageView;->a:[Landroid/widget/ImageView;
 
     new-array p1, p1, [F
 
-    .line 5
     fill-array-data p1, :array_0
 
     invoke-static {p1}, Landroid/animation/ValueAnimator;->ofFloat([F)Landroid/animation/ValueAnimator;
@@ -95,7 +90,6 @@
 
     iput-object p1, p0, Lcom/commsource/util/DoubleBufferImageView;->b:Landroid/animation/ValueAnimator;
 
-    .line 6
     new-instance p1, Landroid/widget/ImageView;
 
     invoke-virtual {p0}, Landroid/widget/FrameLayout;->getContext()Landroid/content/Context;
@@ -108,7 +102,6 @@
 
     aput-object p1, p2, p3
 
-    .line 7
     new-instance p1, Landroid/widget/ImageView;
 
     invoke-virtual {p0}, Landroid/widget/FrameLayout;->getContext()Landroid/content/Context;
@@ -121,14 +114,12 @@
 
     aput-object p1, p2, v0
 
-    .line 8
     aget-object p1, p2, p3
 
     const/4 p3, -0x1
 
     invoke-virtual {p0, p1, p3, p3}, Landroid/widget/FrameLayout;->addView(Landroid/view/View;II)V
 
-    .line 9
     aget-object p1, p2, v0
 
     invoke-virtual {p0, p1, p3, p3}, Landroid/widget/FrameLayout;->addView(Landroid/view/View;II)V
@@ -149,7 +140,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/util/DoubleBufferImageView;->a:[Landroid/widget/ImageView;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -164,12 +154,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/util/DoubleBufferImageView;->b:Landroid/animation/ValueAnimator;
 
     invoke-virtual {v1}, Landroid/animation/ValueAnimator;->removeAllUpdateListeners()V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/util/DoubleBufferImageView;->b:Landroid/animation/ValueAnimator;
 
     invoke-virtual {v1}, Landroid/animation/ValueAnimator;->cancel()V
@@ -180,7 +168,6 @@
 
     if-eqz p2, :cond_2
 
-    .line 3
     iget-object p2, p0, Lcom/commsource/util/DoubleBufferImageView;->a:[Landroid/widget/ImageView;
 
     aget-object p2, p2, p1
@@ -189,7 +176,6 @@
 
     invoke-virtual {p2, v1}, Landroid/widget/ImageView;->setAlpha(F)V
 
-    .line 4
     :cond_0
     iget-object p2, p0, Lcom/commsource/util/DoubleBufferImageView;->a:[Landroid/widget/ImageView;
 
@@ -201,7 +187,6 @@
 
     invoke-virtual {p2, v2}, Landroid/widget/ImageView;->setAlpha(F)V
 
-    .line 5
     :cond_1
     iget-object p2, p0, Lcom/commsource/util/DoubleBufferImageView;->b:Landroid/animation/ValueAnimator;
 
@@ -211,14 +196,12 @@
 
     invoke-virtual {p2, v1}, Landroid/animation/ValueAnimator;->addUpdateListener(Landroid/animation/ValueAnimator$AnimatorUpdateListener;)V
 
-    .line 6
     iget-object p1, p0, Lcom/commsource/util/DoubleBufferImageView;->b:Landroid/animation/ValueAnimator;
 
     invoke-virtual {p1}, Landroid/animation/ValueAnimator;->start()V
 
     goto :goto_0
 
-    .line 7
     :cond_2
     iget-object p2, p0, Lcom/commsource/util/DoubleBufferImageView;->a:[Landroid/widget/ImageView;
 
@@ -228,7 +211,6 @@
 
     invoke-virtual {p2, v2}, Landroid/widget/ImageView;->setAlpha(F)V
 
-    .line 8
     :cond_3
     iget-object p2, p0, Lcom/commsource/util/DoubleBufferImageView;->a:[Landroid/widget/ImageView;
 
@@ -240,7 +222,6 @@
 
     invoke-virtual {p1, v1}, Landroid/widget/ImageView;->setAlpha(F)V
 
-    .line 9
     :cond_4
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -261,7 +242,6 @@
 
     const/4 p2, 0x0
 
-    .line 1
     :cond_0
     invoke-direct {p0, p1, p2}, Lcom/commsource/util/DoubleBufferImageView;->e(IZ)V
 
@@ -350,17 +330,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/util/DoubleBufferImageView;->c:I
 
     rsub-int/lit8 v1, v1, 0x1
 
     iput v1, p0, Lcom/commsource/util/DoubleBufferImageView;->c:I
 
-    .line 2
     invoke-direct {p0, v1, p1}, Lcom/commsource/util/DoubleBufferImageView;->e(IZ)V
 
-    .line 3
     iget-object p1, p0, Lcom/commsource/util/DoubleBufferImageView;->a:[Landroid/widget/ImageView;
 
     iget v1, p0, Lcom/commsource/util/DoubleBufferImageView;->c:I

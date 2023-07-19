@@ -82,7 +82,6 @@
 
     sget v1, Lcom/res/provider/ResSTRING;->unable_access_to_camera_or_album:I
 
-    .line 1
     invoke-static {v1}, Lcom/commsource/util/l0;->e0(I)Ljava/lang/String;
 
     move-result-object v1
@@ -91,7 +90,6 @@
 
     sget v1, Lcom/res/provider/ResSTRING;->try_again:I
 
-    .line 2
     invoke-static {v1}, Lcom/commsource/util/l0;->e0(I)Ljava/lang/String;
 
     move-result-object v1
@@ -100,7 +98,6 @@
 
     sget v1, Lcom/res/provider/ResSTRING;->go_it:I
 
-    .line 3
     invoke-static {v1}, Lcom/commsource/util/l0;->e0(I)Ljava/lang/String;
 
     move-result-object v1
@@ -115,13 +112,10 @@
 
     const/4 v2, 0x3
 
-    .line 4
     invoke-static {p1, v1, v1, v2, v1}, Lcom/commsource/widget/dialog/delegate/XDialogKt;->d(Lcom/commsource/widget/dialog/delegate/d/a;Ljava/lang/String;Lcotlin/jvm/u/l;ILjava/lang/Object;)V
 
-    .line 5
     invoke-static {p1}, Lcom/commsource/widget/dialog/delegate/XDialogKt;->p(Lcom/commsource/widget/dialog/delegate/d/a;)Lcom/commsource/widget/dialog/delegate/d/a;
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

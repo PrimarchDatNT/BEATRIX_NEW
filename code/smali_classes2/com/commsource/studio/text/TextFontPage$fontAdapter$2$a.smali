@@ -30,7 +30,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/text/TextFontPage$fontAdapter$2$a;->p:Lcom/commsource/studio/text/TextFontPage$fontAdapter$2;
 
     invoke-direct {p0, p2}, Lcom/commsource/widget/h1/e;-><init>(Landroid/content/Context;)V
@@ -55,17 +54,14 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-virtual {p1}, Landroidx/recyclerview/widget/RecyclerView;->getLayoutManager()Landroidx/recyclerview/widget/RecyclerView$LayoutManager;
 
     move-result-object p1
 
-    .line 2
     instance-of v1, p1, Landroidx/recyclerview/widget/GridLayoutManager;
 
     if-eqz v1, :cond_0
 
-    .line 3
     check-cast p1, Landroidx/recyclerview/widget/GridLayoutManager;
 
     new-instance v1, Lcom/commsource/studio/text/TextFontPage$fontAdapter$2$a$a;
@@ -74,7 +70,6 @@
 
     invoke-virtual {p1, v1}, Landroidx/recyclerview/widget/GridLayoutManager;->setSpanSizeLookup(Landroidx/recyclerview/widget/GridLayoutManager$SpanSizeLookup;)V
 
-    .line 4
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

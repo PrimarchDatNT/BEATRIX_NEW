@@ -23,7 +23,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -34,7 +33,6 @@
 .method public final synthetic B4(Lcom/google/android/gms/internal/icing/i3;)Lcom/google/android/gms/internal/icing/j3;
     .locals 1
 
-    .line 1
     invoke-interface {p0}, Lcom/google/android/gms/internal/icing/k3;->d()Lcom/google/android/gms/internal/icing/i3;
 
     move-result-object v0
@@ -49,7 +47,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 2
     check-cast p1, Lcom/google/android/gms/internal/icing/x0;
 
     invoke-virtual {p0, p1}, Lcom/google/android/gms/internal/icing/y0;->e(Lcom/google/android/gms/internal/icing/x0;)Lcom/google/android/gms/internal/icing/y0;
@@ -58,7 +55,6 @@
 
     return-object p1
 
-    .line 3
     :cond_0
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -77,7 +73,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/android/gms/internal/icing/y0;->f()Lcom/google/android/gms/internal/icing/y0;
 
     move-result-object v0

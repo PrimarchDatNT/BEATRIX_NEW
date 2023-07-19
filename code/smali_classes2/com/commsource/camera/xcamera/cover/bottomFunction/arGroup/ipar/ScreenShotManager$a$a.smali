@@ -34,7 +34,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/ipar/ScreenShotManager$a$a;->g:Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/ipar/ScreenShotManager$a;
 
     iput-object p2, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/ipar/ScreenShotManager$a$a;->p:Landroid/net/Uri;
@@ -55,7 +54,6 @@
 
     invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v2, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/ipar/ScreenShotManager$a$a;->g:Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/ipar/ScreenShotManager$a;
 
     invoke-virtual {v2}, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/ipar/ScreenShotManager$a;->f()Z
@@ -66,7 +64,6 @@
 
     const/4 v2, 0x0
 
-    .line 2
     :try_start_0
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
@@ -80,7 +77,6 @@
 
     move-result-object v5
 
-    .line 3
     iget-object v6, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/ipar/ScreenShotManager$a$a;->p:Landroid/net/Uri;
 
     filled-new-array {v0}, [Ljava/lang/String;
@@ -93,7 +89,6 @@
 
     const-string v10, "date_added desc limit 1"
 
-    .line 4
     invoke-virtual/range {v5 .. v10}, Landroid/content/ContentResolver;->query(Landroid/net/Uri;[Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;)Landroid/database/Cursor;
 
     move-result-object v3
@@ -103,23 +98,19 @@
 
     if-eqz v3, :cond_0
 
-    .line 5
     :try_start_1
     invoke-interface {v3}, Landroid/database/Cursor;->moveToFirst()Z
 
-    .line 6
     invoke-interface {v3, v0}, Landroid/database/Cursor;->getColumnIndex(Ljava/lang/String;)I
 
     move-result v0
 
-    .line 7
     invoke-interface {v3, v0}, Landroid/database/Cursor;->getString(I)Ljava/lang/String;
 
     move-result-object v0
 
     if-eqz v0, :cond_0
 
-    .line 8
     new-instance v4, Ljava/io/File;
 
     invoke-direct {v4, v0}, Ljava/io/File;-><init>(Ljava/lang/String;)V
@@ -156,7 +147,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 9
     sget-object v0, Lcom/meitu/library/hwanalytics/spm/SPMManager;->h:Lcom/meitu/library/hwanalytics/spm/SPMManager$a;
 
     invoke-virtual {v0}, Lcom/meitu/library/hwanalytics/spm/SPMManager$a;->a()Lcom/meitu/library/hwanalytics/spm/SPMManager;
@@ -175,7 +165,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 10
     new-instance v2, Ljava/util/HashMap;
 
     const/4 v4, 0x4
@@ -184,12 +173,10 @@
 
     const-string v4, "page"
 
-    .line 11
     invoke-virtual {v2, v4, v0}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "user_label"
 
-    .line 12
     iget-object v4, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/ipar/ScreenShotManager$a$a;->g:Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/ipar/ScreenShotManager$a;
 
     invoke-static {v4}, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/ipar/ScreenShotManager$a;->a(Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/ipar/ScreenShotManager$a;)Ljava/lang/String;
@@ -200,7 +187,6 @@
 
     const-string v0, "page_screenshot"
 
-    .line 13
     invoke-static {v0, v2}, Lcom/commsource/statistics/i;->s(Ljava/lang/String;Ljava/util/Map;)V
     :try_end_1
     .catch Ljava/lang/Exception; {:try_start_1 .. :try_end_1} :catch_0
@@ -226,7 +212,6 @@
     :goto_0
     if-eqz v3, :cond_2
 
-    .line 14
     invoke-interface {v3}, Landroid/database/Cursor;->close()V
 
     goto :goto_3
@@ -239,7 +224,6 @@
     :catch_1
     move-exception v0
 
-    .line 15
     :goto_1
     :try_start_2
     invoke-virtual {v0}, Ljava/lang/Exception;->printStackTrace()V
@@ -248,7 +232,6 @@
 
     if-eqz v2, :cond_2
 
-    .line 16
     invoke-interface {v2}, Landroid/database/Cursor;->close()V
 
     goto :goto_3
@@ -263,7 +246,6 @@
 
     throw v0
 
-    .line 17
     :cond_2
     :goto_3
     invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V

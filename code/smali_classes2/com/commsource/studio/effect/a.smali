@@ -26,10 +26,8 @@
 .method public constructor <init>()V
     .locals 7
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/studio/effect/k;-><init>()V
 
-    .line 2
     new-instance v0, Ljava/util/LinkedList;
 
     invoke-direct {v0}, Ljava/util/LinkedList;-><init>()V
@@ -38,15 +36,12 @@
 
     const/4 v0, 0x0
 
-    .line 3
     invoke-virtual {p0, v0}, Lcom/commsource/studio/effect/k;->r(Z)V
 
-    .line 4
     invoke-static {}, Lcom/commsource/studio/sub/AdjustEffectEnum;->values()[Lcom/commsource/studio/sub/AdjustEffectEnum;
 
     move-result-object v1
 
-    .line 5
     array-length v2, v1
 
     :goto_0
@@ -54,7 +49,6 @@
 
     aget-object v3, v1, v0
 
-    .line 6
     iget-object v4, p0, Lcom/commsource/studio/effect/a;->i:Ljava/util/LinkedList;
 
     new-instance v5, Lcom/commsource/studio/effect/d;
@@ -82,7 +76,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/effect/a;->i:Ljava/util/LinkedList;
 
     invoke-interface {v1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
@@ -165,7 +158,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/effect/a;->i:Ljava/util/LinkedList;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

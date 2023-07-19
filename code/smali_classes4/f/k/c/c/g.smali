@@ -44,17 +44,14 @@
 
     invoke-static {p2, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-direct {p0, p1, p2}, Landroid/view/TouchDelegate;-><init>(Landroid/graphics/Rect;Landroid/view/View;)V
 
-    .line 2
     new-instance p1, Ljava/util/LinkedHashMap;
 
     invoke-direct {p1}, Ljava/util/LinkedHashMap;-><init>()V
 
     iput-object p1, p0, Lf/k/c/c/g;->a:Ljava/util/LinkedHashMap;
 
-    .line 3
     invoke-virtual {p2}, Landroid/view/View;->getContext()Landroid/content/Context;
 
     move-result-object p1
@@ -83,7 +80,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lf/k/c/c/g;->a:Ljava/util/LinkedHashMap;
 
     invoke-interface {v1}, Ljava/util/Map;->entrySet()Ljava/util/Set;
@@ -94,7 +90,6 @@
 
     move-result-object v1
 
-    .line 2
     :cond_0
     invoke-interface {v1}, Ljava/util/Iterator;->hasNext()Z
 
@@ -108,7 +103,6 @@
 
     check-cast v2, Ljava/util/Map$Entry;
 
-    .line 3
     invoke-interface {v2}, Ljava/util/Map$Entry;->getValue()Ljava/lang/Object;
 
     move-result-object v3
@@ -121,7 +115,6 @@
 
     if-eqz v3, :cond_0
 
-    .line 4
     invoke-interface {v2}, Ljava/util/Map$Entry;->getKey()Ljava/lang/Object;
 
     move-result-object p1
@@ -135,7 +128,6 @@
     :cond_1
     const/4 p1, 0x0
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p1
@@ -166,7 +158,6 @@
 
     invoke-static {p2, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget v1, p0, Lf/k/c/c/g;->c:I
 
     neg-int v2, v1
@@ -175,12 +166,10 @@
 
     invoke-virtual {p1, v2, v1}, Landroid/graphics/Rect;->inset(II)V
 
-    .line 2
     iget-object v1, p0, Lf/k/c/c/g;->a:Ljava/util/LinkedHashMap;
 
     invoke-interface {v1, p2, p1}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -201,21 +190,18 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-virtual {p1}, Landroid/view/MotionEvent;->getX()F
 
     move-result v1
 
     float-to-int v1, v1
 
-    .line 2
     invoke-virtual {p1}, Landroid/view/MotionEvent;->getY()F
 
     move-result v2
 
     float-to-int v2, v2
 
-    .line 3
     invoke-virtual {p1}, Landroid/view/MotionEvent;->getActionMasked()I
 
     move-result v3
@@ -249,18 +235,15 @@
     :cond_0
     const/4 v1, 0x0
 
-    .line 4
     iput-object v1, p0, Lf/k/c/c/g;->b:Landroid/view/View;
 
     goto :goto_0
 
-    .line 5
     :cond_1
     iget-object v3, p0, Lf/k/c/c/g;->b:Landroid/view/View;
 
     if-eqz v3, :cond_4
 
-    .line 6
     iget-object v7, p0, Lf/k/c/c/g;->a:Ljava/util/LinkedHashMap;
 
     invoke-virtual {v7, v3}, Ljava/util/LinkedHashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
@@ -282,7 +265,6 @@
 
     goto :goto_0
 
-    .line 7
     :cond_3
     invoke-direct {p0, v1, v2}, Lf/k/c/c/g;->b(II)Landroid/view/View;
 
@@ -290,7 +272,6 @@
 
     iput-object v1, p0, Lf/k/c/c/g;->b:Landroid/view/View;
 
-    .line 8
     :cond_4
     :goto_0
     iget-object v1, p0, Lf/k/c/c/g;->b:Landroid/view/View;
@@ -299,7 +280,6 @@
 
     if-eqz v5, :cond_5
 
-    .line 9
     invoke-virtual {v1}, Landroid/view/View;->getWidth()I
 
     move-result v2
@@ -320,7 +300,6 @@
 
     goto :goto_1
 
-    .line 10
     :cond_5
     iget v2, p0, Lf/k/c/c/g;->c:I
 
@@ -338,13 +317,11 @@
 
     invoke-virtual {p1, v3, v2}, Landroid/view/MotionEvent;->setLocation(FF)V
 
-    .line 11
     :goto_1
     invoke-virtual {v1, p1}, Landroid/view/View;->dispatchTouchEvent(Landroid/view/MotionEvent;)Z
 
     move-result v4
 
-    .line 12
     :cond_6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

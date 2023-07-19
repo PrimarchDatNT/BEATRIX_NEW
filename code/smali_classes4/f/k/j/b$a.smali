@@ -29,7 +29,6 @@
 .method constructor <init>(Lf/k/j/b;IZ)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lf/k/j/b$a;->c:Lf/k/j/b;
 
     iput p2, p0, Lf/k/j/b$a;->a:I
@@ -66,7 +65,6 @@
 
     invoke-static {v8}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v9, p0, Lf/k/j/b$a;->c:Lf/k/j/b;
 
     iget v10, p0, Lf/k/j/b$a;->a:I
@@ -77,14 +75,12 @@
 
     move-result-object v9
 
-    .line 2
     invoke-static {v9}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v10
 
     if-nez v10, :cond_0
 
-    .line 3
     :try_start_0
     new-instance v10, Lorg/json/JSONObject;
 
@@ -92,7 +88,6 @@
 
     const-string v11, "code"
 
-    .line 4
     invoke-virtual {v10, v11}, Lorg/json/JSONObject;->optInt(Ljava/lang/String;)I
 
     move-result v11
@@ -101,58 +96,44 @@
 
     const-string v11, "data"
 
-    .line 5
     invoke-virtual {v10, v11}, Lorg/json/JSONObject;->getJSONObject(Ljava/lang/String;)Lorg/json/JSONObject;
 
     move-result-object v10
 
-    .line 6
     iget-object v11, p0, Lf/k/j/b$a;->c:Lf/k/j/b;
 
     const/4 v12, 0x1
 
-    .line 7
     invoke-virtual {v10, v6, v12}, Lorg/json/JSONObject;->optBoolean(Ljava/lang/String;Z)Z
 
     move-result v13
 
-    .line 8
     invoke-static {v11, v13}, Lf/k/j/b;->c(Lf/k/j/b;Z)Z
 
-    .line 9
     iget-object v11, p0, Lf/k/j/b$a;->c:Lf/k/j/b;
 
-    .line 10
     invoke-virtual {v10, v5, v12}, Lorg/json/JSONObject;->optBoolean(Ljava/lang/String;Z)Z
 
     move-result v13
 
-    .line 11
     invoke-static {v11, v13}, Lf/k/j/b;->e(Lf/k/j/b;Z)Z
 
-    .line 12
     iget-object v11, p0, Lf/k/j/b$a;->c:Lf/k/j/b;
 
-    .line 13
     invoke-virtual {v10, v4, v12}, Lorg/json/JSONObject;->optBoolean(Ljava/lang/String;Z)Z
 
     move-result v13
 
-    .line 14
     invoke-static {v11, v13}, Lf/k/j/b;->g(Lf/k/j/b;Z)Z
 
-    .line 15
     iget-object v11, p0, Lf/k/j/b$a;->c:Lf/k/j/b;
 
-    .line 16
     invoke-virtual {v10, v3, v12}, Lorg/json/JSONObject;->optBoolean(Ljava/lang/String;Z)Z
 
     move-result v13
 
-    .line 17
     invoke-static {v11, v13}, Lf/k/j/b;->i(Lf/k/j/b;Z)Z
 
-    .line 18
     iget-object v11, p0, Lf/k/j/b$a;->c:Lf/k/j/b;
 
     invoke-virtual {v10, v2, v12}, Lorg/json/JSONObject;->optBoolean(Ljava/lang/String;Z)Z
@@ -161,7 +142,6 @@
 
     invoke-static {v11, v13}, Lf/k/j/b;->k(Lf/k/j/b;Z)Z
 
-    .line 19
     iget-object v11, p0, Lf/k/j/b$a;->c:Lf/k/j/b;
 
     invoke-virtual {v10, v1, v12}, Lorg/json/JSONObject;->optBoolean(Ljava/lang/String;Z)Z
@@ -170,7 +150,6 @@
 
     invoke-static {v11, v13}, Lf/k/j/b;->m(Lf/k/j/b;Z)Z
 
-    .line 20
     iget-object v11, p0, Lf/k/j/b$a;->c:Lf/k/j/b;
 
     invoke-virtual {v10, v0, v12}, Lorg/json/JSONObject;->optBoolean(Ljava/lang/String;Z)Z
@@ -179,51 +158,38 @@
 
     invoke-static {v11, v10}, Lf/k/j/b;->o(Lf/k/j/b;Z)Z
 
-    .line 21
     iget-object v10, p0, Lf/k/j/b$a;->c:Lf/k/j/b;
 
-    .line 22
     invoke-static {v10}, Lf/k/j/b;->b(Lf/k/j/b;)Z
 
     move-result v10
 
-    .line 23
     invoke-static {v7, v6, v10}, Lcom/meitu/library/p/g/c;->o(Ljava/lang/String;Ljava/lang/String;Z)V
 
-    .line 24
     iget-object v6, p0, Lf/k/j/b$a;->c:Lf/k/j/b;
 
-    .line 25
     invoke-static {v6}, Lf/k/j/b;->d(Lf/k/j/b;)Z
 
     move-result v6
 
-    .line 26
     invoke-static {v7, v5, v6}, Lcom/meitu/library/p/g/c;->o(Ljava/lang/String;Ljava/lang/String;Z)V
 
-    .line 27
     iget-object v5, p0, Lf/k/j/b$a;->c:Lf/k/j/b;
 
-    .line 28
     invoke-static {v5}, Lf/k/j/b;->f(Lf/k/j/b;)Z
 
     move-result v5
 
-    .line 29
     invoke-static {v7, v4, v5}, Lcom/meitu/library/p/g/c;->o(Ljava/lang/String;Ljava/lang/String;Z)V
 
-    .line 30
     iget-object v4, p0, Lf/k/j/b$a;->c:Lf/k/j/b;
 
-    .line 31
     invoke-static {v4}, Lf/k/j/b;->h(Lf/k/j/b;)Z
 
     move-result v4
 
-    .line 32
     invoke-static {v7, v3, v4}, Lcom/meitu/library/p/g/c;->o(Ljava/lang/String;Ljava/lang/String;Z)V
 
-    .line 33
     iget-object v3, p0, Lf/k/j/b$a;->c:Lf/k/j/b;
 
     invoke-static {v3}, Lf/k/j/b;->j(Lf/k/j/b;)Z
@@ -232,7 +198,6 @@
 
     invoke-static {v7, v2, v3}, Lcom/meitu/library/p/g/c;->o(Ljava/lang/String;Ljava/lang/String;Z)V
 
-    .line 34
     iget-object v2, p0, Lf/k/j/b$a;->c:Lf/k/j/b;
 
     invoke-static {v2}, Lf/k/j/b;->l(Lf/k/j/b;)Z
@@ -241,7 +206,6 @@
 
     invoke-static {v7, v1, v2}, Lcom/meitu/library/p/g/c;->o(Ljava/lang/String;Ljava/lang/String;Z)V
 
-    .line 35
     iget-object v1, p0, Lf/k/j/b$a;->c:Lf/k/j/b;
 
     invoke-static {v1}, Lf/k/j/b;->n(Lf/k/j/b;)Z
@@ -252,15 +216,12 @@
 
     const-string v0, "last_request_time"
 
-    .line 36
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v1
 
-    .line 37
     invoke-static {v7, v0, v1, v2}, Lcom/meitu/library/p/g/c;->m(Ljava/lang/String;Ljava/lang/String;J)V
 
-    .line 38
     iget-object v0, p0, Lf/k/j/b$a;->c:Lf/k/j/b;
 
     invoke-static {v0}, Lf/k/j/b;->p(Lf/k/j/b;)Lf/k/j/b$b;
@@ -269,7 +230,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 39
     iget-object v0, p0, Lf/k/j/b$a;->c:Lf/k/j/b;
 
     invoke-static {v0}, Lf/k/j/b;->p(Lf/k/j/b;)Lf/k/j/b$b;
@@ -285,10 +245,8 @@
     :catch_0
     move-exception v0
 
-    .line 40
     invoke-virtual {v0}, Ljava/lang/Exception;->printStackTrace()V
 
-    .line 41
     :cond_0
     :goto_0
     iget-object v0, p0, Lf/k/j/b$a;->c:Lf/k/j/b;
@@ -299,7 +257,6 @@
 
     if-eqz v0, :cond_1
 
-    .line 42
     sget-object v0, Lf/k/j/b;->l:Ljava/lang/String;
 
     new-instance v1, Ljava/lang/StringBuilder;
@@ -324,7 +281,6 @@
 
     iget-object v2, p0, Lf/k/j/b$a;->c:Lf/k/j/b;
 
-    .line 43
     invoke-static {v2}, Lf/k/j/b;->d(Lf/k/j/b;)Z
 
     move-result v2
@@ -337,7 +293,6 @@
 
     iget-object v2, p0, Lf/k/j/b$a;->c:Lf/k/j/b;
 
-    .line 44
     invoke-static {v2}, Lf/k/j/b;->f(Lf/k/j/b;)Z
 
     move-result v2
@@ -374,7 +329,6 @@
 
     iget-object v2, p0, Lf/k/j/b$a;->c:Lf/k/j/b;
 
-    .line 45
     invoke-static {v2}, Lf/k/j/b;->l(Lf/k/j/b;)Z
 
     move-result v2
@@ -397,10 +351,8 @@
 
     move-result-object v1
 
-    .line 46
     invoke-static {v0, v1}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 47
     :cond_1
     invoke-static {v8}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

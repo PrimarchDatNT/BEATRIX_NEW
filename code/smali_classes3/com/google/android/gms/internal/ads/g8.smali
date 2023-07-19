@@ -13,13 +13,10 @@
 .method private constructor <init>(Landroid/content/Context;Lcom/google/android/gms/internal/ads/in2;)V
     .locals 0
 
-    .line 5
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 6
     iput-object p1, p0, Lcom/google/android/gms/internal/ads/g8;->a:Landroid/content/Context;
 
-    .line 7
     iput-object p2, p0, Lcom/google/android/gms/internal/ads/g8;->b:Lcom/google/android/gms/internal/ads/in2;
 
     return-void
@@ -30,14 +27,12 @@
 
     const-string v0, "context cannot be null"
 
-    .line 1
     invoke-static {p1, v0}, Lcom/google/android/gms/common/internal/b0;->l(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v0
 
     check-cast v0, Landroid/content/Context;
 
-    .line 2
     invoke-static {}, Lcom/google/android/gms/internal/ads/zm2;->b()Lcom/google/android/gms/internal/ads/im2;
 
     move-result-object v1
@@ -46,12 +41,10 @@
 
     invoke-direct {v2}, Lcom/google/android/gms/internal/ads/qb;-><init>()V
 
-    .line 3
     invoke-virtual {v1, p1, p2, v2}, Lcom/google/android/gms/internal/ads/im2;->i(Landroid/content/Context;Ljava/lang/String;Lcom/google/android/gms/internal/ads/tb;)Lcom/google/android/gms/internal/ads/in2;
 
     move-result-object p1
 
-    .line 4
     invoke-direct {p0, v0, p1}, Lcom/google/android/gms/internal/ads/g8;-><init>(Landroid/content/Context;Lcom/google/android/gms/internal/ads/in2;)V
 
     return-void
@@ -62,7 +55,6 @@
 .method public final a(Lcom/google/android/gms/ads/instream/a$a;)Lcom/google/android/gms/internal/ads/g8;
     .locals 2
 
-    .line 1
     :try_start_0
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/g8;->b:Lcom/google/android/gms/internal/ads/in2;
 
@@ -81,7 +73,6 @@
 
     const-string v0, "#007 Could not call remote method."
 
-    .line 2
     invoke-static {v0, p1}, Lcom/google/android/gms/internal/ads/aq;->e(Ljava/lang/String;Ljava/lang/Throwable;)V
 
     :goto_0
@@ -91,7 +82,6 @@
 .method public final b(Lcom/google/android/gms/internal/ads/b8;)Lcom/google/android/gms/internal/ads/g8;
     .locals 2
 
-    .line 1
     :try_start_0
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/g8;->b:Lcom/google/android/gms/internal/ads/in2;
 
@@ -110,7 +100,6 @@
 
     const-string v0, "#007 Could not call remote method."
 
-    .line 2
     invoke-static {v0, p1}, Lcom/google/android/gms/internal/ads/aq;->e(Ljava/lang/String;Ljava/lang/Throwable;)V
 
     :goto_0
@@ -120,7 +109,6 @@
 .method public final c()Lcom/google/android/gms/internal/ads/d8;
     .locals 3
 
-    .line 1
     :try_start_0
     new-instance v0, Lcom/google/android/gms/internal/ads/d8;
 
@@ -143,7 +131,6 @@
 
     const-string v1, "#007 Could not call remote method."
 
-    .line 2
     invoke-static {v1, v0}, Lcom/google/android/gms/internal/ads/aq;->e(Ljava/lang/String;Ljava/lang/Throwable;)V
 
     const/4 v0, 0x0

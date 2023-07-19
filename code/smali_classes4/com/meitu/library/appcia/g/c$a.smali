@@ -42,7 +42,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/library/appcia/g/c$a;->a:Lcom/meitu/library/appcia/g/c;
 
     invoke-static {v1}, Lcom/meitu/library/appcia/g/c;->x(Lcom/meitu/library/appcia/g/c;)Ljava/util/concurrent/atomic/AtomicBoolean;
@@ -55,21 +54,18 @@
 
     if-nez v1, :cond_0
 
-    .line 2
     iget-object v1, p0, Lcom/meitu/library/appcia/g/c$a;->a:Lcom/meitu/library/appcia/g/c;
 
     const/4 v2, 0x1
 
     invoke-static {v1, v2}, Lcom/meitu/library/appcia/g/c;->A(Lcom/meitu/library/appcia/g/c;Z)V
 
-    .line 3
     iget-object v1, p0, Lcom/meitu/library/appcia/g/c$a;->a:Lcom/meitu/library/appcia/g/c;
 
     const-wide/16 v2, 0x0
 
     invoke-static {v1, v2, v3}, Lcom/meitu/library/appcia/g/c;->y(Lcom/meitu/library/appcia/g/c;J)V
 
-    .line 4
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

@@ -22,7 +22,6 @@
 .method constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -53,7 +52,6 @@
 
     invoke-static {p2, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-virtual {p2}, Lcom/commsource/mypage/album/w;->i()Lcom/commsource/cloudalbum/bean/CAImageInfo;
 
     move-result-object p2
@@ -64,10 +62,8 @@
 
     const-string v1, "\u684c\u9762\u5feb\u6377\u65b9\u5f0f"
 
-    .line 2
     invoke-static {p1, p2, v1}, Lcom/commsource/easyeditor/EasyEditorActivity;->E2(Landroid/app/Activity;Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

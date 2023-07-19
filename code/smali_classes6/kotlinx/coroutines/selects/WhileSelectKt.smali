@@ -77,7 +77,6 @@
 
     move-result-object v1
 
-    .line 1
     iget v2, v0, Lcotlinx/coroutines/selects/WhileSelectKt$whileSelect$1;->label:I
 
     const/4 v3, 0x1
@@ -94,7 +93,6 @@
 
     goto :goto_3
 
-    .line 2
     :cond_1
     new-instance p0, Ljava/lang/IllegalStateException;
 
@@ -104,22 +102,18 @@
 
     throw p0
 
-    .line 3
     :cond_2
     invoke-static {p1}, Lcotlin/r0;->n(Ljava/lang/Object;)V
 
-    .line 4
     :goto_1
     iput-object p0, v0, Lcotlinx/coroutines/selects/WhileSelectKt$whileSelect$1;->L$0:Ljava/lang/Object;
 
     iput v3, v0, Lcotlinx/coroutines/selects/WhileSelectKt$whileSelect$1;->label:I
 
-    .line 5
     new-instance p1, Lcotlinx/coroutines/selects/b;
 
     invoke-direct {p1, v0}, Lcotlinx/coroutines/selects/b;-><init>(Lcotlin/coroutines/c;)V
 
-    .line 6
     :try_start_0
     invoke-interface {p0, p1}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
     :try_end_0
@@ -130,16 +124,13 @@
     :catchall_0
     move-exception v2
 
-    .line 7
     invoke-virtual {p1, v2}, Lcotlinx/coroutines/selects/b;->n0(Ljava/lang/Throwable;)V
 
-    .line 8
     :goto_2
     invoke-virtual {p1}, Lcotlinx/coroutines/selects/b;->m0()Ljava/lang/Object;
 
     move-result-object p1
 
-    .line 9
     invoke-static {}, Lcotlin/coroutines/intrinsics/a;->h()Ljava/lang/Object;
 
     move-result-object v2
@@ -153,7 +144,6 @@
 
     return-object v1
 
-    .line 10
     :cond_4
     :goto_3
     check-cast p1, Ljava/lang/Boolean;
@@ -166,7 +156,6 @@
 
     goto :goto_1
 
-    .line 11
     :cond_5
     sget-object p0, Lcotlin/t1;->a:Lcotlin/t1;
 
@@ -192,15 +181,12 @@
     :goto_0
     const/4 v0, 0x0
 
-    .line 1
     invoke-static {v0}, Lcotlin/jvm/internal/c0;->e(I)V
 
-    .line 2
     new-instance v0, Lcotlinx/coroutines/selects/b;
 
     invoke-direct {v0, p1}, Lcotlinx/coroutines/selects/b;-><init>(Lcotlin/coroutines/c;)V
 
-    .line 3
     :try_start_0
     invoke-interface {p0, v0}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
     :try_end_0
@@ -211,16 +197,13 @@
     :catchall_0
     move-exception v1
 
-    .line 4
     invoke-virtual {v0, v1}, Lcotlinx/coroutines/selects/b;->n0(Ljava/lang/Throwable;)V
 
-    .line 5
     :goto_1
     invoke-virtual {v0}, Lcotlinx/coroutines/selects/b;->m0()Ljava/lang/Object;
 
     move-result-object v0
 
-    .line 6
     invoke-static {}, Lcotlin/coroutines/intrinsics/a;->h()Ljava/lang/Object;
 
     move-result-object v1
@@ -234,7 +217,6 @@
 
     invoke-static {v1}, Lcotlin/jvm/internal/c0;->e(I)V
 
-    .line 7
     check-cast v0, Ljava/lang/Boolean;
 
     invoke-virtual {v0}, Ljava/lang/Boolean;->booleanValue()Z
@@ -245,7 +227,6 @@
 
     goto :goto_0
 
-    .line 8
     :cond_1
     sget-object p0, Lcotlin/t1;->a:Lcotlin/t1;
 

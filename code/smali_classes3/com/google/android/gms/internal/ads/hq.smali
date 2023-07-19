@@ -16,7 +16,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/google/android/gms/internal/ads/kq;
 
     invoke-direct {v0, p1}, Lcom/google/android/gms/internal/ads/kq;-><init>(Ljava/lang/String;)V
@@ -40,7 +39,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/google/android/gms/internal/ads/jq;
 
     invoke-direct {v0, p1}, Lcom/google/android/gms/internal/ads/jq;-><init>(Ljava/lang/String;)V

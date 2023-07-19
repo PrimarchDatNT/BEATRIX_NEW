@@ -52,13 +52,10 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/util/AbstractSet;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/google/common/collect/Sets$m;->a:Lcom/google/common/collect/ImmutableMap;
 
-    .line 3
     iput p2, p0, Lcom/google/common/collect/Sets$m;->b:I
 
     return-void
@@ -67,7 +64,6 @@
 .method static synthetic b(Lcom/google/common/collect/Sets$m;)Lcom/google/common/collect/ImmutableMap;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lcom/google/common/collect/Sets$m;->a:Lcom/google/common/collect/ImmutableMap;
 
     return-object p0
@@ -76,7 +72,6 @@
 .method static synthetic c(Lcom/google/common/collect/Sets$m;)I
     .locals 0
 
-    .line 1
     iget p0, p0, Lcom/google/common/collect/Sets$m;->b:I
 
     return p0
@@ -91,7 +86,6 @@
         .end annotation
     .end param
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/Sets$m;->a:Lcom/google/common/collect/ImmutableMap;
 
     invoke-virtual {v0, p1}, Lcom/google/common/collect/ImmutableMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
@@ -104,7 +98,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 2
     iget v1, p0, Lcom/google/common/collect/Sets$m;->b:I
 
     invoke-virtual {p1}, Ljava/lang/Integer;->intValue()I
@@ -136,7 +129,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/google/common/collect/Sets$m$a;
 
     invoke-direct {v0, p0}, Lcom/google/common/collect/Sets$m$a;-><init>(Lcom/google/common/collect/Sets$m;)V
@@ -147,7 +139,6 @@
 .method public size()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lcom/google/common/collect/Sets$m;->b:I
 
     invoke-static {v0}, Ljava/lang/Integer;->bitCount(I)I

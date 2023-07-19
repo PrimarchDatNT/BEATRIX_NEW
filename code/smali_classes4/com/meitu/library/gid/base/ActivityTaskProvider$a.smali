@@ -27,22 +27,17 @@
 .method constructor <init>(Lcom/meitu/library/gid/base/ActivityTaskProvider;Lcom/meitu/library/gid/base/g;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/library/gid/base/ActivityTaskProvider$a;->b:Lcom/meitu/library/gid/base/ActivityTaskProvider;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p2, p0, Lcom/meitu/library/gid/base/ActivityTaskProvider$a;->a:Lcom/meitu/library/gid/base/g;
 
-    .line 3
     monitor-enter p1
 
-    .line 4
     :try_start_0
     invoke-static {p1, p0}, Lcom/meitu/library/gid/base/ActivityTaskProvider;->b(Lcom/meitu/library/gid/base/ActivityTaskProvider;Ljava/lang/Runnable;)Ljava/lang/Runnable;
 
-    .line 5
     monitor-exit p1
 
     return-void
@@ -66,12 +61,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/library/gid/base/ActivityTaskProvider$a;->b:Lcom/meitu/library/gid/base/ActivityTaskProvider;
 
     monitor-enter v1
 
-    .line 2
     :try_start_0
     iget-object v2, p0, Lcom/meitu/library/gid/base/ActivityTaskProvider$a;->b:Lcom/meitu/library/gid/base/ActivityTaskProvider;
 
@@ -85,10 +78,8 @@
 
     const-string v3, "PageInvisibleDelayRunnable cancel:[Cache isn\'t self!]"
 
-    .line 3
     invoke-static {v2, v3}, Lcom/meitu/library/gid/base/v;->i(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 4
     monitor-exit v1
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
@@ -97,7 +88,6 @@
 
     return-void
 
-    .line 5
     :cond_0
     :try_start_1
     iget-object v2, p0, Lcom/meitu/library/gid/base/ActivityTaskProvider$a;->b:Lcom/meitu/library/gid/base/ActivityTaskProvider;
@@ -106,7 +96,6 @@
 
     invoke-static {v2, v3}, Lcom/meitu/library/gid/base/ActivityTaskProvider;->b(Lcom/meitu/library/gid/base/ActivityTaskProvider;Ljava/lang/Runnable;)Ljava/lang/Runnable;
 
-    .line 6
     monitor-exit v1
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
@@ -121,14 +110,12 @@
 
     const/4 v4, 0x0
 
-    .line 7
     iget-object v5, p0, Lcom/meitu/library/gid/base/ActivityTaskProvider$a;->a:Lcom/meitu/library/gid/base/g;
 
     aput-object v5, v3, v4
 
     invoke-static {v1, v2, v3}, Lcom/meitu/library/gid/base/v;->c(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
-    .line 8
     invoke-static {}, Lcom/meitu/library/gid/base/ActivityTaskProvider;->c()Lcom/meitu/library/gid/base/i;
 
     move-result-object v1
@@ -139,12 +126,10 @@
 
     move-result v1
 
-    .line 9
     iget-object v2, p0, Lcom/meitu/library/gid/base/ActivityTaskProvider$a;->b:Lcom/meitu/library/gid/base/ActivityTaskProvider;
 
     invoke-static {v2, v1}, Lcom/meitu/library/gid/base/ActivityTaskProvider;->d(Lcom/meitu/library/gid/base/ActivityTaskProvider;I)V
 
-    .line 10
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -152,7 +137,6 @@
     :catchall_0
     move-exception v2
 
-    .line 11
     :try_start_2
     monitor-exit v1
     :try_end_2

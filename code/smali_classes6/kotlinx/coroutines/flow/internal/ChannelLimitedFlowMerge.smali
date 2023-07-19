@@ -52,7 +52,6 @@
         }
     .end annotation
 
-    .line 3
     invoke-direct {p0, p2, p3}, Lcotlinx/coroutines/flow/internal/ChannelFlow;-><init>(Lcotlin/coroutines/CoroutineContext;I)V
 
     iput-object p1, p0, Lcotlinx/coroutines/flow/internal/ChannelLimitedFlowMerge;->c:Ljava/lang/Iterable;
@@ -67,7 +66,6 @@
 
     if-eqz p5, :cond_0
 
-    .line 1
     sget-object p2, Lcotlin/coroutines/EmptyCoroutineContext;->INSTANCE:Lcotlin/coroutines/EmptyCoroutineContext;
 
     :cond_0
@@ -77,7 +75,6 @@
 
     const/4 p3, -0x2
 
-    .line 2
     :cond_1
     invoke-direct {p0, p1, p2, p3}, Lcotlinx/coroutines/flow/internal/ChannelLimitedFlowMerge;-><init>(Ljava/lang/Iterable;Lcotlin/coroutines/CoroutineContext;I)V
 
@@ -112,15 +109,12 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     new-instance p2, Lcotlinx/coroutines/flow/internal/j;
 
     invoke-direct {p2, p1}, Lcotlinx/coroutines/flow/internal/j;-><init>(Lcotlinx/coroutines/channels/c0;)V
 
-    .line 2
     iget-object v0, p0, Lcotlinx/coroutines/flow/internal/ChannelLimitedFlowMerge;->c:Ljava/lang/Iterable;
 
-    .line 3
     invoke-interface {v0}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v0
@@ -142,7 +136,6 @@
 
     const/4 v4, 0x0
 
-    .line 4
     new-instance v5, Lcotlinx/coroutines/flow/internal/ChannelLimitedFlowMerge$collectTo$$inlined$forEach$lambda$1;
 
     const/4 v2, 0x0
@@ -159,7 +152,6 @@
 
     goto :goto_0
 
-    .line 5
     :cond_0
     sget-object p1, Lcotlin/t1;->a:Lcotlin/t1;
 
@@ -185,7 +177,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     new-instance v0, Lcotlinx/coroutines/flow/internal/ChannelLimitedFlowMerge;
 
     iget-object v1, p0, Lcotlinx/coroutines/flow/internal/ChannelLimitedFlowMerge;->c:Ljava/lang/Iterable;
@@ -214,7 +205,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcotlinx/coroutines/flow/internal/ChannelFlow;->a:Lcotlin/coroutines/CoroutineContext;
 
     iget v1, p0, Lcotlinx/coroutines/flow/internal/ChannelFlow;->b:I

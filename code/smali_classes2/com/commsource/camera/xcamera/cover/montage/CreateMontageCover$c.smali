@@ -60,7 +60,6 @@
 
     if-eqz p1, :cond_7
 
-    .line 1
     invoke-virtual {p1}, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/arChild/s;->a()I
 
     move-result p1
@@ -71,7 +70,6 @@
 
     goto/16 :goto_0
 
-    .line 2
     :cond_0
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/montage/CreateMontageCover$c;->a:Lcom/commsource/camera/xcamera/cover/montage/CreateMontageCover;
 
@@ -85,12 +83,10 @@
 
     if-eqz p1, :cond_1
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 4
     :cond_1
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/montage/CreateMontageCover$c;->a:Lcom/commsource/camera/xcamera/cover/montage/CreateMontageCover;
 
@@ -104,12 +100,10 @@
 
     if-eqz p1, :cond_2
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 6
     :cond_2
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/montage/CreateMontageCover$c;->a:Lcom/commsource/camera/xcamera/cover/montage/CreateMontageCover;
 
@@ -119,7 +113,6 @@
 
     if-nez p1, :cond_3
 
-    .line 7
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/montage/CreateMontageCover$c;->a:Lcom/commsource/camera/xcamera/cover/montage/CreateMontageCover;
 
     new-instance v1, Lcom/commsource/camera/montage/z;
@@ -128,7 +121,6 @@
 
     invoke-virtual {p1, v1}, Lcom/commsource/camera/xcamera/cover/montage/CreateMontageCover;->R(Lcom/commsource/camera/montage/z;)V
 
-    .line 8
     :cond_3
     new-instance p1, Lcotlin/jvm/internal/Ref$ObjectRef;
 
@@ -140,14 +132,12 @@
 
     iput-object v1, p1, Lcotlin/jvm/internal/Ref$ObjectRef;->element:Ljava/lang/Object;
 
-    .line 9
     invoke-static {}, Lcom/commsource/camera/montage/z;->e()Z
 
     move-result v1
 
     if-eqz v1, :cond_5
 
-    .line 10
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/montage/CreateMontageCover$c;->a:Lcom/commsource/camera/xcamera/cover/montage/CreateMontageCover;
 
     invoke-virtual {v1}, Lcom/commsource/camera/xcamera/cover/AbsBaseCover;->c()Lcom/commsource/camera/xcamera/cover/CoverGroup;
@@ -164,7 +154,6 @@
 
     if-eqz v1, :cond_4
 
-    .line 11
     sget-object v1, Lcom/meitu/library/hwanalytics/spm/d;->b:Lcom/meitu/library/hwanalytics/spm/d;
 
     const-string v2, "source_click_position"
@@ -177,15 +166,12 @@
 
     const-string v3, "Anime"
 
-    .line 12
     invoke-virtual {v1, v2, v3}, Lcom/meitu/library/hwanalytics/spm/d;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     const-string v2, "prf_func"
 
-    .line 13
     invoke-virtual {v1, v2, v3}, Lcom/meitu/library/hwanalytics/spm/d;->d(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 14
     new-instance v1, Lcom/commsource/util/p2/c;
 
     iget-object v2, p0, Lcom/commsource/camera/xcamera/cover/montage/CreateMontageCover$c;->a:Lcom/commsource/camera/xcamera/cover/montage/CreateMontageCover;
@@ -200,7 +186,6 @@
 
     invoke-direct {v1, v2}, Lcom/commsource/util/p2/c;-><init>(Landroidx/fragment/app/FragmentActivity;)V
 
-    .line 15
     new-instance v2, Lcom/commsource/camera/xcamera/cover/montage/CreateMontageCover$c$a;
 
     const-string v3, "Montage"
@@ -211,7 +196,6 @@
 
     goto :goto_0
 
-    .line 16
     :cond_4
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/montage/CreateMontageCover$c;->a:Lcom/commsource/camera/xcamera/cover/montage/CreateMontageCover;
 
@@ -237,7 +221,6 @@
 
     goto :goto_0
 
-    .line 17
     :cond_5
     iget-object p1, p1, Lcotlin/jvm/internal/Ref$ObjectRef;->element:Ljava/lang/Object;
 
@@ -245,7 +228,6 @@
 
     invoke-interface {p1}, Ljava/lang/Runnable;->run()V
 
-    .line 18
     :cond_6
     :goto_0
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/montage/CreateMontageCover$c;->a:Lcom/commsource/camera/xcamera/cover/montage/CreateMontageCover;
@@ -266,7 +248,6 @@
 
     invoke-virtual {p1, v1}, Landroidx/lifecycle/MutableLiveData;->setValue(Ljava/lang/Object;)V
 
-    .line 19
     :cond_7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -280,7 +261,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/arChild/s;
 
     invoke-virtual {p0, p1}, Lcom/commsource/camera/xcamera/cover/montage/CreateMontageCover$c;->a(Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/arChild/s;)V

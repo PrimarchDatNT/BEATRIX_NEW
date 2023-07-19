@@ -20,7 +20,6 @@
 .method constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -31,26 +30,22 @@
 .method public final synthetic compare(Ljava/lang/Object;Ljava/lang/Object;)I
     .locals 4
 
-    .line 1
     check-cast p1, Lcom/google/android/gms/internal/icing/zzce;
 
     check-cast p2, Lcom/google/android/gms/internal/icing/zzce;
 
-    .line 2
     invoke-virtual {p1}, Lcom/google/android/gms/internal/icing/zzce;->iterator()Ljava/util/Iterator;
 
     move-result-object v0
 
     check-cast v0, Lcom/google/android/gms/internal/icing/k1;
 
-    .line 3
     invoke-virtual {p2}, Lcom/google/android/gms/internal/icing/zzce;->iterator()Ljava/util/Iterator;
 
     move-result-object v1
 
     check-cast v1, Lcom/google/android/gms/internal/icing/k1;
 
-    .line 4
     :cond_0
     invoke-interface {v0}, Ljava/util/Iterator;->hasNext()Z
 
@@ -64,7 +59,6 @@
 
     if-eqz v2, :cond_1
 
-    .line 5
     invoke-interface {v0}, Lcom/google/android/gms/internal/icing/k1;->h()B
 
     move-result v2
@@ -89,7 +83,6 @@
 
     return v2
 
-    .line 6
     :cond_1
     invoke-virtual {p1}, Lcom/google/android/gms/internal/icing/zzce;->size()I
 

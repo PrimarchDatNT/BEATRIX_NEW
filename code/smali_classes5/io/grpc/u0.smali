@@ -23,7 +23,6 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
     new-instance v0, Lio/grpc/u0$a;
 
     invoke-direct {v0}, Lio/grpc/u0$a;-><init>()V
@@ -40,7 +39,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lio/grpc/t0$c;-><init>()V
 
     return-void
@@ -69,7 +67,6 @@
         }
     .end annotation
 
-    .line 1
     sget-object p1, Lio/grpc/u0;->a:Lio/grpc/z0$c;
 
     return-object p1
@@ -94,7 +91,6 @@
 .method public final hashCode()I
     .locals 1
 
-    .line 1
     invoke-super {p0}, Ljava/lang/Object;->hashCode()I
 
     move-result v0
@@ -105,12 +101,10 @@
 .method public final toString()Ljava/lang/String;
     .locals 3
 
-    .line 1
     invoke-static {p0}, Lcom/google/common/base/p;->c(Ljava/lang/Object;)Lcom/google/common/base/p$b;
 
     move-result-object v0
 
-    .line 2
     invoke-virtual {p0}, Lio/grpc/u0;->b()Ljava/lang/String;
 
     move-result-object v1
@@ -121,7 +115,6 @@
 
     move-result-object v0
 
-    .line 3
     invoke-virtual {p0}, Lio/grpc/u0;->c()I
 
     move-result v1
@@ -132,7 +125,6 @@
 
     move-result-object v0
 
-    .line 4
     invoke-virtual {p0}, Lio/grpc/u0;->d()Z
 
     move-result v1
@@ -143,7 +135,6 @@
 
     move-result-object v0
 
-    .line 5
     invoke-virtual {v0}, Lcom/google/common/base/p$b;->toString()Ljava/lang/String;
 
     move-result-object v0

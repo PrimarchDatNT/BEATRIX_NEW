@@ -31,19 +31,14 @@
 .method public constructor <init>(ILjava/lang/String;Lorg/aspectj/lang/f;Lorg/aspectj/lang/reflect/z;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p2, p0, Ln/a/b/c/h$b;->a:Ljava/lang/String;
 
-    .line 3
     iput-object p3, p0, Ln/a/b/c/h$b;->b:Lorg/aspectj/lang/f;
 
-    .line 4
     iput-object p4, p0, Ln/a/b/c/h$b;->c:Lorg/aspectj/lang/reflect/z;
 
-    .line 5
     iput p1, p0, Ln/a/b/c/h$b;->d:I
 
     return-void
@@ -54,12 +49,10 @@
 .method a(Ln/a/b/c/n;)Ljava/lang/String;
     .locals 2
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuffer;
 
     invoke-direct {v0}, Ljava/lang/StringBuffer;-><init>()V
 
-    .line 2
     invoke-virtual {p0}, Ln/a/b/c/h$b;->k()Ljava/lang/String;
 
     move-result-object v1
@@ -72,10 +65,8 @@
 
     const-string v1, "("
 
-    .line 3
     invoke-virtual {v0, v1}, Ljava/lang/StringBuffer;->append(Ljava/lang/String;)Ljava/lang/StringBuffer;
 
-    .line 4
     invoke-virtual {p0}, Ln/a/b/c/h$b;->g()Lorg/aspectj/lang/f;
 
     move-result-object v1
@@ -90,10 +81,8 @@
 
     const-string p1, ")"
 
-    .line 5
     invoke-virtual {v0, p1}, Ljava/lang/StringBuffer;->append(Ljava/lang/String;)Ljava/lang/StringBuffer;
 
-    .line 6
     invoke-virtual {v0}, Ljava/lang/StringBuffer;->toString()Ljava/lang/String;
 
     move-result-object p1
@@ -104,7 +93,6 @@
 .method public final b()Ljava/lang/String;
     .locals 1
 
-    .line 1
     sget-object v0, Ln/a/b/c/n;->j:Ln/a/b/c/n;
 
     invoke-virtual {p0, v0}, Ln/a/b/c/h$b;->a(Ln/a/b/c/n;)Ljava/lang/String;
@@ -117,7 +105,6 @@
 .method public final e()Ljava/lang/String;
     .locals 1
 
-    .line 1
     sget-object v0, Ln/a/b/c/n;->l:Ln/a/b/c/n;
 
     invoke-virtual {p0, v0}, Ln/a/b/c/h$b;->a(Ln/a/b/c/n;)Ljava/lang/String;
@@ -130,7 +117,6 @@
 .method public f()Lorg/aspectj/lang/reflect/z;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Ln/a/b/c/h$b;->c:Lorg/aspectj/lang/reflect/z;
 
     return-object v0
@@ -139,7 +125,6 @@
 .method public g()Lorg/aspectj/lang/f;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Ln/a/b/c/h$b;->b:Lorg/aspectj/lang/f;
 
     return-object v0
@@ -148,7 +133,6 @@
 .method public getId()I
     .locals 1
 
-    .line 1
     iget v0, p0, Ln/a/b/c/h$b;->d:I
 
     return v0
@@ -157,7 +141,6 @@
 .method public k()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Ln/a/b/c/h$b;->a:Ljava/lang/String;
 
     return-object v0
@@ -166,7 +149,6 @@
 .method public final toString()Ljava/lang/String;
     .locals 1
 
-    .line 1
     sget-object v0, Ln/a/b/c/n;->k:Ln/a/b/c/n;
 
     invoke-virtual {p0, v0}, Ln/a/b/c/h$b;->a(Ln/a/b/c/n;)Ljava/lang/String;

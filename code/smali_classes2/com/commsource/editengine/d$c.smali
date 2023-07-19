@@ -46,14 +46,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/editengine/d$c;->a:Lcom/commsource/editengine/d;
 
     const/4 v2, 0x1
 
     invoke-virtual {v1, v2}, Lcom/commsource/editengine/d;->y(Z)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/editengine/d$c;->a:Lcom/commsource/editengine/d;
 
     invoke-virtual {v1}, Lcom/commsource/editengine/d;->k()Lcom/commsource/editengine/b;
@@ -81,7 +79,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/easyeditor/utils/opengl/e;->F(Ljava/lang/Runnable;)V
 
-    .line 3
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

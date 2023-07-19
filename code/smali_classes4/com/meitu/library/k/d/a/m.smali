@@ -19,7 +19,6 @@
 
     new-array v1, v1, [C
 
-    .line 1
     fill-array-data v1, :array_0
 
     sput-object v1, Lcom/meitu/library/k/d/a/m;->a:[C
@@ -102,7 +101,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -115,14 +113,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Ljava/lang/String;->length()I
 
     move-result v1
 
     if-ge v1, p1, :cond_1
 
-    .line 2
     new-instance v2, Ljava/lang/StringBuffer;
 
     invoke-direct {v2}, Ljava/lang/StringBuffer;-><init>()V
@@ -132,23 +128,19 @@
 
     const-string v3, "0"
 
-    .line 3
     invoke-virtual {v2, v3}, Ljava/lang/StringBuffer;->append(Ljava/lang/String;)Ljava/lang/StringBuffer;
 
     add-int/lit8 v1, v1, 0x1
 
     goto :goto_0
 
-    .line 4
     :cond_0
     invoke-virtual {v2, p0}, Ljava/lang/StringBuffer;->append(Ljava/lang/String;)Ljava/lang/StringBuffer;
 
-    .line 5
     invoke-virtual {v2}, Ljava/lang/StringBuffer;->toString()Ljava/lang/String;
 
     move-result-object p0
 
-    .line 6
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -177,7 +169,6 @@
     :cond_0
     add-int/lit8 v1, v1, -0x1
 
-    .line 1
     sget-object v5, Lcom/meitu/library/k/d/a/m;->a:[C
 
     and-long v6, p0, v3
@@ -196,7 +187,6 @@
 
     if-nez v7, :cond_0
 
-    .line 2
     new-instance p0, Ljava/lang/String;
 
     rsub-int/lit8 p1, v1, 0x40
@@ -217,14 +207,12 @@
 
     const/4 v1, 0x6
 
-    .line 1
     invoke-static {p0, p1, v1}, Lcom/meitu/library/k/d/a/m;->b(JI)Ljava/lang/String;
 
     move-result-object p0
 
     const/4 p1, 0x3
 
-    .line 2
     invoke-static {p0, p1}, Lcom/meitu/library/k/d/a/m;->a(Ljava/lang/String;I)Ljava/lang/String;
 
     move-result-object p0

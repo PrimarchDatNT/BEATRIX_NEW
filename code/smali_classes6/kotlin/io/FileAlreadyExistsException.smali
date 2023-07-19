@@ -26,7 +26,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 2
     invoke-direct {p0, p1, p2, p3}, Lcotlin/io/FileSystemException;-><init>(Ljava/io/File;Ljava/io/File;Ljava/lang/String;)V
 
     return-void
@@ -50,7 +49,6 @@
 
     move-object p3, v0
 
-    .line 1
     :cond_1
     invoke-direct {p0, p1, p2, p3}, Lcotlin/io/FileAlreadyExistsException;-><init>(Ljava/io/File;Ljava/io/File;Ljava/lang/String;)V
 

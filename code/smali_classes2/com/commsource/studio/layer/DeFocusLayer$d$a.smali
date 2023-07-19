@@ -44,7 +44,6 @@
 
     const-string v1, "it"
 
-    .line 1
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {p1}, Landroid/animation/ValueAnimator;->getAnimatedValue()Ljava/lang/Object;
@@ -67,7 +66,6 @@
 
     if-gez v3, :cond_0
 
-    .line 2
     iget-object v3, p0, Lcom/commsource/studio/layer/DeFocusLayer$d$a;->a:Lcom/commsource/studio/layer/DeFocusLayer$d;
 
     iget-object v3, v3, Lcom/commsource/studio/layer/DeFocusLayer$d;->a:Lcom/commsource/studio/layer/DeFocusLayer;
@@ -99,7 +97,6 @@
 
     if-gtz v4, :cond_1
 
-    .line 3
     iget-object v4, p0, Lcom/commsource/studio/layer/DeFocusLayer$d$a;->a:Lcom/commsource/studio/layer/DeFocusLayer$d;
 
     iget-object v4, v4, Lcom/commsource/studio/layer/DeFocusLayer$d;->a:Lcom/commsource/studio/layer/DeFocusLayer;
@@ -120,7 +117,6 @@
 
     invoke-virtual {v4, p1}, Landroid/graphics/Paint;->setAlpha(I)V
 
-    .line 4
     :cond_1
     iget-object p1, p0, Lcom/commsource/studio/layer/DeFocusLayer$d$a;->a:Lcom/commsource/studio/layer/DeFocusLayer$d;
 
@@ -132,12 +128,10 @@
 
     invoke-virtual {p1}, Landroid/view/View;->invalidate()V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 6
     :cond_2
     new-instance p1, Lcotlin/TypeCastException;
 

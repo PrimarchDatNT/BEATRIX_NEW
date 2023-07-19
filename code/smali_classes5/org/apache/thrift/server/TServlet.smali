@@ -27,7 +27,6 @@
 .method public constructor <init>(Lorg/apache/thrift/TProcessor;Lorg/apache/thrift/protocol/TProtocolFactory;)V
     .locals 0
 
-    .line 6
     invoke-direct {p0, p1, p2, p2}, Lorg/apache/thrift/server/TServlet;-><init>(Lorg/apache/thrift/TProcessor;Lorg/apache/thrift/protocol/TProtocolFactory;Lorg/apache/thrift/protocol/TProtocolFactory;)V
 
     return-void
@@ -36,19 +35,14 @@
 .method public constructor <init>(Lorg/apache/thrift/TProcessor;Lorg/apache/thrift/protocol/TProtocolFactory;Lorg/apache/thrift/protocol/TProtocolFactory;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljavax/servlet/http/HttpServlet;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lorg/apache/thrift/server/TServlet;->processor:Lorg/apache/thrift/TProcessor;
 
-    .line 3
     iput-object p2, p0, Lorg/apache/thrift/server/TServlet;->inProtocolFactory:Lorg/apache/thrift/protocol/TProtocolFactory;
 
-    .line 4
     iput-object p3, p0, Lorg/apache/thrift/server/TServlet;->outProtocolFactory:Lorg/apache/thrift/protocol/TProtocolFactory;
 
-    .line 5
     new-instance p1, Ljava/util/ArrayList;
 
     invoke-direct {p1}, Ljava/util/ArrayList;-><init>()V
@@ -63,7 +57,6 @@
 .method public addCustomHeader(Ljava/lang/String;Ljava/lang/String;)V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lorg/apache/thrift/server/TServlet;->customHeaders:Ljava/util/Collection;
 
     new-instance v1, Lorg/apache/thrift/server/TServlet$1;
@@ -84,7 +77,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0, p1, p2}, Lorg/apache/thrift/server/TServlet;->doPost(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)V
 
     return-void
@@ -102,15 +94,12 @@
     :try_start_0
     const-string v0, "application/x-thrift"
 
-    .line 1
     invoke-interface {p2, v0}, Ljavax/servlet/http/HttpServletResponse;->setContentType(Ljava/lang/String;)V
 
-    .line 2
     iget-object v0, p0, Lorg/apache/thrift/server/TServlet;->customHeaders:Ljava/util/Collection;
 
     if-eqz v0, :cond_0
 
-    .line 3
     invoke-interface {v0}, Ljava/util/Collection;->iterator()Ljava/util/Iterator;
 
     move-result-object v0
@@ -128,7 +117,6 @@
 
     check-cast v1, Ljava/util/Map$Entry;
 
-    .line 4
     invoke-interface {v1}, Ljava/util/Map$Entry;->getKey()Ljava/lang/Object;
 
     move-result-object v2
@@ -145,42 +133,35 @@
 
     goto :goto_0
 
-    .line 5
     :cond_0
     invoke-interface {p1}, Ljavax/servlet/http/HttpServletRequest;->getInputStream()Ljavax/servlet/ServletInputStream;
 
     move-result-object p1
 
-    .line 6
     invoke-interface {p2}, Ljavax/servlet/http/HttpServletResponse;->getOutputStream()Ljavax/servlet/ServletOutputStream;
 
     move-result-object p2
 
-    .line 7
     new-instance v0, Lorg/apache/thrift/transport/TIOStreamTransport;
 
     invoke-direct {v0, p1, p2}, Lorg/apache/thrift/transport/TIOStreamTransport;-><init>(Ljava/io/InputStream;Ljava/io/OutputStream;)V
 
-    .line 8
     iget-object p1, p0, Lorg/apache/thrift/server/TServlet;->inProtocolFactory:Lorg/apache/thrift/protocol/TProtocolFactory;
 
     invoke-interface {p1, v0}, Lorg/apache/thrift/protocol/TProtocolFactory;->getProtocol(Lorg/apache/thrift/transport/TTransport;)Lorg/apache/thrift/protocol/TProtocol;
 
     move-result-object p1
 
-    .line 9
     iget-object v1, p0, Lorg/apache/thrift/server/TServlet;->outProtocolFactory:Lorg/apache/thrift/protocol/TProtocolFactory;
 
     invoke-interface {v1, v0}, Lorg/apache/thrift/protocol/TProtocolFactory;->getProtocol(Lorg/apache/thrift/transport/TTransport;)Lorg/apache/thrift/protocol/TProtocol;
 
     move-result-object v0
 
-    .line 10
     iget-object v1, p0, Lorg/apache/thrift/server/TServlet;->processor:Lorg/apache/thrift/TProcessor;
 
     invoke-interface {v1, p1, v0}, Lorg/apache/thrift/TProcessor;->process(Lorg/apache/thrift/protocol/TProtocol;Lorg/apache/thrift/protocol/TProtocol;)Z
 
-    .line 11
     invoke-virtual {p2}, Ljava/io/OutputStream;->flush()V
     :try_end_0
     .catch Lorg/apache/thrift/TException; {:try_start_0 .. :try_end_0} :catch_0
@@ -190,7 +171,6 @@
     :catch_0
     move-exception p1
 
-    .line 12
     new-instance p2, Ljavax/servlet/ServletException;
 
     invoke-direct {p2, p1}, Ljavax/servlet/ServletException;-><init>(Ljava/lang/Throwable;)V
@@ -211,12 +191,10 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lorg/apache/thrift/server/TServlet;->customHeaders:Ljava/util/Collection;
 
     invoke-interface {v0}, Ljava/util/Collection;->clear()V
 
-    .line 2
     iget-object v0, p0, Lorg/apache/thrift/server/TServlet;->customHeaders:Ljava/util/Collection;
 
     invoke-interface {v0, p1}, Ljava/util/Collection;->addAll(Ljava/util/Collection;)Z

@@ -74,14 +74,12 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
     new-instance v0, Lcom/google/api/Distribution;
 
     invoke-direct {v0}, Lcom/google/api/Distribution;-><init>()V
 
     sput-object v0, Lcom/google/api/Distribution;->T:Lcom/google/api/Distribution;
 
-    .line 2
     invoke-virtual {v0}, Lcom/google/protobuf/GeneratedMessageLite;->ug()V
 
     return-void
@@ -90,10 +88,8 @@
 .method private constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Lcom/google/protobuf/GeneratedMessageLite;-><init>()V
 
-    .line 2
     invoke-static {}, Lcom/google/protobuf/GeneratedMessageLite;->la()Lcom/google/protobuf/z0$h;
 
     move-result-object v0
@@ -108,7 +104,6 @@
 
     const-wide/16 v0, 0x0
 
-    .line 1
     iput-wide v0, p0, Lcom/google/api/Distribution;->J:D
 
     return-void
@@ -117,7 +112,6 @@
 .method private Bh()V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/api/Distribution;->M:Lcom/google/protobuf/z0$h;
 
     invoke-interface {v0}, Lcom/google/protobuf/z0$j;->s0()Z
@@ -126,10 +120,8 @@
 
     if-nez v0, :cond_0
 
-    .line 2
     iget-object v0, p0, Lcom/google/api/Distribution;->M:Lcom/google/protobuf/z0$h;
 
-    .line 3
     invoke-static {v0}, Lcom/google/protobuf/GeneratedMessageLite;->Dg(Lcom/google/protobuf/z0$h;)Lcom/google/protobuf/z0$h;
 
     move-result-object v0
@@ -143,7 +135,6 @@
 .method public static Ch()Lcom/google/api/Distribution;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/google/api/Distribution;->T:Lcom/google/api/Distribution;
 
     return-object v0
@@ -152,22 +143,18 @@
 .method private Dh(Lcom/google/api/Distribution$BucketOptions;)V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/google/api/Distribution;->L:Lcom/google/api/Distribution$BucketOptions;
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-static {}, Lcom/google/api/Distribution$BucketOptions;->sh()Lcom/google/api/Distribution$BucketOptions;
 
     move-result-object v1
 
     if-eq v0, v1, :cond_0
 
-    .line 3
     iget-object v0, p0, Lcom/google/api/Distribution;->L:Lcom/google/api/Distribution$BucketOptions;
 
-    .line 4
     invoke-static {v0}, Lcom/google/api/Distribution$BucketOptions;->xh(Lcom/google/api/Distribution$BucketOptions;)Lcom/google/api/Distribution$BucketOptions$a;
 
     move-result-object v0
@@ -188,7 +175,6 @@
 
     goto :goto_0
 
-    .line 5
     :cond_0
     iput-object p1, p0, Lcom/google/api/Distribution;->L:Lcom/google/api/Distribution$BucketOptions;
 
@@ -199,22 +185,18 @@
 .method private Eh(Lcom/google/api/Distribution$d;)V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/google/api/Distribution;->K:Lcom/google/api/Distribution$d;
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-static {}, Lcom/google/api/Distribution$d;->hh()Lcom/google/api/Distribution$d;
 
     move-result-object v1
 
     if-eq v0, v1, :cond_0
 
-    .line 3
     iget-object v0, p0, Lcom/google/api/Distribution;->K:Lcom/google/api/Distribution$d;
 
-    .line 4
     invoke-static {v0}, Lcom/google/api/Distribution$d;->jh(Lcom/google/api/Distribution$d;)Lcom/google/api/Distribution$d$a;
 
     move-result-object v0
@@ -235,7 +217,6 @@
 
     goto :goto_0
 
-    .line 5
     :cond_0
     iput-object p1, p0, Lcom/google/api/Distribution;->K:Lcom/google/api/Distribution$d;
 
@@ -246,7 +227,6 @@
 .method public static Fh()Lcom/google/api/Distribution$c;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/google/api/Distribution;->T:Lcom/google/api/Distribution;
 
     invoke-virtual {v0}, Lcom/google/protobuf/GeneratedMessageLite;->Yg()Lcom/google/protobuf/GeneratedMessageLite$b;
@@ -261,7 +241,6 @@
 .method public static Gh(Lcom/google/api/Distribution;)Lcom/google/api/Distribution$c;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/google/api/Distribution;->T:Lcom/google/api/Distribution;
 
     invoke-virtual {v0}, Lcom/google/protobuf/GeneratedMessageLite;->Yg()Lcom/google/protobuf/GeneratedMessageLite$b;
@@ -287,7 +266,6 @@
         }
     .end annotation
 
-    .line 1
     sget-object v0, Lcom/google/api/Distribution;->T:Lcom/google/api/Distribution;
 
     invoke-static {v0, p0}, Lcom/google/protobuf/GeneratedMessageLite;->Ig(Lcom/google/protobuf/GeneratedMessageLite;Ljava/io/InputStream;)Lcom/google/protobuf/GeneratedMessageLite;
@@ -307,7 +285,6 @@
         }
     .end annotation
 
-    .line 1
     sget-object v0, Lcom/google/api/Distribution;->T:Lcom/google/api/Distribution;
 
     invoke-static {v0, p0, p1}, Lcom/google/protobuf/GeneratedMessageLite;->Jg(Lcom/google/protobuf/GeneratedMessageLite;Ljava/io/InputStream;Lcom/google/protobuf/j0;)Lcom/google/protobuf/GeneratedMessageLite;
@@ -327,7 +304,6 @@
         }
     .end annotation
 
-    .line 1
     sget-object v0, Lcom/google/api/Distribution;->T:Lcom/google/api/Distribution;
 
     invoke-static {v0, p0}, Lcom/google/protobuf/GeneratedMessageLite;->Kg(Lcom/google/protobuf/GeneratedMessageLite;Lcom/google/protobuf/ByteString;)Lcom/google/protobuf/GeneratedMessageLite;
@@ -347,7 +323,6 @@
         }
     .end annotation
 
-    .line 1
     sget-object v0, Lcom/google/api/Distribution;->T:Lcom/google/api/Distribution;
 
     invoke-static {v0, p0, p1}, Lcom/google/protobuf/GeneratedMessageLite;->Lg(Lcom/google/protobuf/GeneratedMessageLite;Lcom/google/protobuf/ByteString;Lcom/google/protobuf/j0;)Lcom/google/protobuf/GeneratedMessageLite;
@@ -367,7 +342,6 @@
         }
     .end annotation
 
-    .line 1
     sget-object v0, Lcom/google/api/Distribution;->T:Lcom/google/api/Distribution;
 
     invoke-static {v0, p0}, Lcom/google/protobuf/GeneratedMessageLite;->Mg(Lcom/google/protobuf/GeneratedMessageLite;Lcom/google/protobuf/q;)Lcom/google/protobuf/GeneratedMessageLite;
@@ -387,7 +361,6 @@
         }
     .end annotation
 
-    .line 1
     sget-object v0, Lcom/google/api/Distribution;->T:Lcom/google/api/Distribution;
 
     invoke-static {v0, p0, p1}, Lcom/google/protobuf/GeneratedMessageLite;->Ng(Lcom/google/protobuf/GeneratedMessageLite;Lcom/google/protobuf/q;Lcom/google/protobuf/j0;)Lcom/google/protobuf/GeneratedMessageLite;
@@ -407,7 +380,6 @@
         }
     .end annotation
 
-    .line 1
     sget-object v0, Lcom/google/api/Distribution;->T:Lcom/google/api/Distribution;
 
     invoke-static {v0, p0}, Lcom/google/protobuf/GeneratedMessageLite;->Og(Lcom/google/protobuf/GeneratedMessageLite;Ljava/io/InputStream;)Lcom/google/protobuf/GeneratedMessageLite;
@@ -427,7 +399,6 @@
         }
     .end annotation
 
-    .line 1
     sget-object v0, Lcom/google/api/Distribution;->T:Lcom/google/api/Distribution;
 
     invoke-static {v0, p0, p1}, Lcom/google/protobuf/GeneratedMessageLite;->Pg(Lcom/google/protobuf/GeneratedMessageLite;Ljava/io/InputStream;Lcom/google/protobuf/j0;)Lcom/google/protobuf/GeneratedMessageLite;
@@ -447,7 +418,6 @@
         }
     .end annotation
 
-    .line 1
     sget-object v0, Lcom/google/api/Distribution;->T:Lcom/google/api/Distribution;
 
     invoke-static {v0, p0}, Lcom/google/protobuf/GeneratedMessageLite;->Qg(Lcom/google/protobuf/GeneratedMessageLite;[B)Lcom/google/protobuf/GeneratedMessageLite;
@@ -467,7 +437,6 @@
         }
     .end annotation
 
-    .line 1
     sget-object v0, Lcom/google/api/Distribution;->T:Lcom/google/api/Distribution;
 
     invoke-static {v0, p0, p1}, Lcom/google/protobuf/GeneratedMessageLite;->Rg(Lcom/google/protobuf/GeneratedMessageLite;[BLcom/google/protobuf/j0;)Lcom/google/protobuf/GeneratedMessageLite;
@@ -490,7 +459,6 @@
         }
     .end annotation
 
-    .line 1
     sget-object v0, Lcom/google/api/Distribution;->T:Lcom/google/api/Distribution;
 
     invoke-virtual {v0}, Lcom/google/protobuf/GeneratedMessageLite;->Qf()Lcom/google/protobuf/s1;
@@ -503,10 +471,8 @@
 .method private Sh(IJ)V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Lcom/google/api/Distribution;->Bh()V
 
-    .line 2
     iget-object v0, p0, Lcom/google/api/Distribution;->M:Lcom/google/protobuf/z0$h;
 
     invoke-interface {v0, p1, p2, p3}, Lcom/google/protobuf/z0$h;->d1(IJ)J
@@ -517,7 +483,6 @@
 .method private Th(Lcom/google/api/Distribution$BucketOptions$a;)V
     .locals 0
 
-    .line 1
     invoke-virtual {p1}, Lcom/google/protobuf/GeneratedMessageLite$b;->Hg()Lcom/google/protobuf/GeneratedMessageLite;
 
     move-result-object p1
@@ -532,10 +497,8 @@
 .method private Uh(Lcom/google/api/Distribution$BucketOptions;)V
     .locals 0
 
-    .line 1
     invoke-static {p1}, Ljava/util/Objects;->requireNonNull(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 2
     iput-object p1, p0, Lcom/google/api/Distribution;->L:Lcom/google/api/Distribution$BucketOptions;
 
     return-void
@@ -544,7 +507,6 @@
 .method private Vh(J)V
     .locals 0
 
-    .line 1
     iput-wide p1, p0, Lcom/google/api/Distribution;->g:J
 
     return-void
@@ -553,7 +515,6 @@
 .method private Wh(D)V
     .locals 0
 
-    .line 1
     iput-wide p1, p0, Lcom/google/api/Distribution;->p:D
 
     return-void
@@ -562,7 +523,6 @@
 .method private Xh(Lcom/google/api/Distribution$d$a;)V
     .locals 0
 
-    .line 1
     invoke-virtual {p1}, Lcom/google/protobuf/GeneratedMessageLite$b;->Hg()Lcom/google/protobuf/GeneratedMessageLite;
 
     move-result-object p1
@@ -577,10 +537,8 @@
 .method private Yh(Lcom/google/api/Distribution$d;)V
     .locals 0
 
-    .line 1
     invoke-static {p1}, Ljava/util/Objects;->requireNonNull(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 2
     iput-object p1, p0, Lcom/google/api/Distribution;->K:Lcom/google/api/Distribution$d;
 
     return-void
@@ -589,7 +547,6 @@
 .method private Zh(D)V
     .locals 0
 
-    .line 1
     iput-wide p1, p0, Lcom/google/api/Distribution;->J:D
 
     return-void
@@ -598,7 +555,6 @@
 .method static synthetic ah()Lcom/google/api/Distribution;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/google/api/Distribution;->T:Lcom/google/api/Distribution;
 
     return-object v0
@@ -607,7 +563,6 @@
 .method static synthetic bh(Lcom/google/api/Distribution;J)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1, p2}, Lcom/google/api/Distribution;->Vh(J)V
 
     return-void
@@ -616,7 +571,6 @@
 .method static synthetic ch(Lcom/google/api/Distribution;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/google/api/Distribution;->xh()V
 
     return-void
@@ -625,7 +579,6 @@
 .method static synthetic dh(Lcom/google/api/Distribution;D)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1, p2}, Lcom/google/api/Distribution;->Wh(D)V
 
     return-void
@@ -634,7 +587,6 @@
 .method static synthetic eh(Lcom/google/api/Distribution;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/google/api/Distribution;->yh()V
 
     return-void
@@ -643,7 +595,6 @@
 .method static synthetic fh(Lcom/google/api/Distribution;D)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1, p2}, Lcom/google/api/Distribution;->Zh(D)V
 
     return-void
@@ -652,7 +603,6 @@
 .method static synthetic gh(Lcom/google/api/Distribution;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/google/api/Distribution;->Ah()V
 
     return-void
@@ -661,7 +611,6 @@
 .method static synthetic hh(Lcom/google/api/Distribution;Lcom/google/api/Distribution$d;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/google/api/Distribution;->Yh(Lcom/google/api/Distribution$d;)V
 
     return-void
@@ -670,7 +619,6 @@
 .method static synthetic ih(Lcom/google/api/Distribution;Lcom/google/api/Distribution$d$a;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/google/api/Distribution;->Xh(Lcom/google/api/Distribution$d$a;)V
 
     return-void
@@ -679,7 +627,6 @@
 .method static synthetic jh(Lcom/google/api/Distribution;Lcom/google/api/Distribution$d;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/google/api/Distribution;->Eh(Lcom/google/api/Distribution$d;)V
 
     return-void
@@ -688,7 +635,6 @@
 .method static synthetic kh(Lcom/google/api/Distribution;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/google/api/Distribution;->zh()V
 
     return-void
@@ -697,7 +643,6 @@
 .method static synthetic lh(Lcom/google/api/Distribution;Lcom/google/api/Distribution$BucketOptions;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/google/api/Distribution;->Uh(Lcom/google/api/Distribution$BucketOptions;)V
 
     return-void
@@ -706,7 +651,6 @@
 .method static synthetic mh(Lcom/google/api/Distribution;Lcom/google/api/Distribution$BucketOptions$a;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/google/api/Distribution;->Th(Lcom/google/api/Distribution$BucketOptions$a;)V
 
     return-void
@@ -715,7 +659,6 @@
 .method static synthetic nh(Lcom/google/api/Distribution;Lcom/google/api/Distribution$BucketOptions;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/google/api/Distribution;->Dh(Lcom/google/api/Distribution$BucketOptions;)V
 
     return-void
@@ -724,7 +667,6 @@
 .method static synthetic oh(Lcom/google/api/Distribution;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/google/api/Distribution;->wh()V
 
     return-void
@@ -733,7 +675,6 @@
 .method static synthetic ph(Lcom/google/api/Distribution;IJ)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1, p2, p3}, Lcom/google/api/Distribution;->Sh(IJ)V
 
     return-void
@@ -742,7 +683,6 @@
 .method static synthetic qh(Lcom/google/api/Distribution;J)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1, p2}, Lcom/google/api/Distribution;->uh(J)V
 
     return-void
@@ -751,7 +691,6 @@
 .method static synthetic rh(Lcom/google/api/Distribution;Ljava/lang/Iterable;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/google/api/Distribution;->th(Ljava/lang/Iterable;)V
 
     return-void
@@ -760,7 +699,6 @@
 .method static synthetic sh(Lcom/google/api/Distribution;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/google/api/Distribution;->vh()V
 
     return-void
@@ -778,10 +716,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Lcom/google/api/Distribution;->Bh()V
 
-    .line 2
     iget-object v0, p0, Lcom/google/api/Distribution;->M:Lcom/google/protobuf/z0$h;
 
     invoke-static {p1, v0}, Lcom/google/protobuf/a;->J0(Ljava/lang/Iterable;Ljava/util/Collection;)V
@@ -792,10 +728,8 @@
 .method private uh(J)V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Lcom/google/api/Distribution;->Bh()V
 
-    .line 2
     iget-object v0, p0, Lcom/google/api/Distribution;->M:Lcom/google/protobuf/z0$h;
 
     invoke-interface {v0, p1, p2}, Lcom/google/protobuf/z0$h;->K0(J)V
@@ -806,7 +740,6 @@
 .method private vh()V
     .locals 1
 
-    .line 1
     invoke-static {}, Lcom/google/protobuf/GeneratedMessageLite;->la()Lcom/google/protobuf/z0$h;
 
     move-result-object v0
@@ -821,7 +754,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     iput-object v0, p0, Lcom/google/api/Distribution;->L:Lcom/google/api/Distribution$BucketOptions;
 
     return-void
@@ -832,7 +764,6 @@
 
     const-wide/16 v0, 0x0
 
-    .line 1
     iput-wide v0, p0, Lcom/google/api/Distribution;->g:J
 
     return-void
@@ -843,7 +774,6 @@
 
     const-wide/16 v0, 0x0
 
-    .line 1
     iput-wide v0, p0, Lcom/google/api/Distribution;->p:D
 
     return-void
@@ -854,7 +784,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     iput-object v0, p0, Lcom/google/api/Distribution;->K:Lcom/google/api/Distribution$d;
 
     return-void
@@ -865,7 +794,6 @@
 .method public Ba(I)J
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/google/api/Distribution;->M:Lcom/google/protobuf/z0$h;
 
     invoke-interface {v0, p1}, Lcom/google/protobuf/z0$h;->getLong(I)J
@@ -878,7 +806,6 @@
 .method public G7()Z
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/api/Distribution;->K:Lcom/google/api/Distribution$d;
 
     if-eqz v0, :cond_0
@@ -897,7 +824,6 @@
 .method public Mc()Lcom/google/api/Distribution$BucketOptions;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/api/Distribution;->L:Lcom/google/api/Distribution$BucketOptions;
 
     if-nez v0, :cond_0
@@ -913,7 +839,6 @@
 .method protected final S6(Lcom/google/protobuf/GeneratedMessageLite$MethodToInvoke;Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
     .locals 12
 
-    .line 1
     sget-object v0, Lcom/google/api/Distribution$a;->a:[I
 
     invoke-virtual {p1}, Ljava/lang/Enum;->ordinal()I
@@ -930,14 +855,12 @@
 
     packed-switch p1, :pswitch_data_0
 
-    .line 2
     new-instance p1, Ljava/lang/UnsupportedOperationException;
 
     invoke-direct {p1}, Ljava/lang/UnsupportedOperationException;-><init>()V
 
     throw p1
 
-    .line 3
     :pswitch_0
     sget-object p1, Lcom/google/api/Distribution;->U:Lcom/google/protobuf/s1;
 
@@ -947,13 +870,11 @@
 
     monitor-enter p1
 
-    .line 4
     :try_start_0
     sget-object p2, Lcom/google/api/Distribution;->U:Lcom/google/protobuf/s1;
 
     if-nez p2, :cond_0
 
-    .line 5
     new-instance p2, Lcom/google/protobuf/GeneratedMessageLite$c;
 
     sget-object p3, Lcom/google/api/Distribution;->T:Lcom/google/api/Distribution;
@@ -962,7 +883,6 @@
 
     sput-object p2, Lcom/google/api/Distribution;->U:Lcom/google/protobuf/s1;
 
-    .line 6
     :cond_0
     monitor-exit p1
 
@@ -977,25 +897,21 @@
 
     throw p2
 
-    .line 7
     :cond_1
     :goto_0
     sget-object p1, Lcom/google/api/Distribution;->U:Lcom/google/protobuf/s1;
 
     return-object p1
 
-    .line 8
     :pswitch_1
     check-cast p2, Lcom/google/protobuf/q;
 
-    .line 9
     check-cast p3, Lcom/google/protobuf/j0;
 
     :cond_2
     :goto_1
     if-nez v1, :cond_10
 
-    .line 10
     :try_start_1
     invoke-virtual {p2}, Lcom/google/protobuf/q;->X()I
 
@@ -1031,7 +947,6 @@
 
     if-eq p1, v3, :cond_3
 
-    .line 11
     invoke-virtual {p2, p1}, Lcom/google/protobuf/q;->g0(I)Z
 
     move-result p1
@@ -1040,18 +955,15 @@
 
     goto/16 :goto_5
 
-    .line 12
     :cond_3
     invoke-virtual {p2}, Lcom/google/protobuf/q;->M()I
 
     move-result p1
 
-    .line 13
     invoke-virtual {p2, p1}, Lcom/google/protobuf/q;->r(I)I
 
     move-result p1
 
-    .line 14
     iget-object v3, p0, Lcom/google/api/Distribution;->M:Lcom/google/protobuf/z0$h;
 
     invoke-interface {v3}, Lcom/google/protobuf/z0$j;->s0()Z
@@ -1066,17 +978,14 @@
 
     if-lez v3, :cond_4
 
-    .line 15
     iget-object v3, p0, Lcom/google/api/Distribution;->M:Lcom/google/protobuf/z0$h;
 
-    .line 16
     invoke-static {v3}, Lcom/google/protobuf/GeneratedMessageLite;->Dg(Lcom/google/protobuf/z0$h;)Lcom/google/protobuf/z0$h;
 
     move-result-object v3
 
     iput-object v3, p0, Lcom/google/api/Distribution;->M:Lcom/google/protobuf/z0$h;
 
-    .line 17
     :cond_4
     :goto_2
     invoke-virtual {p2}, Lcom/google/protobuf/q;->g()I
@@ -1085,7 +994,6 @@
 
     if-lez v3, :cond_5
 
-    .line 18
     iget-object v3, p0, Lcom/google/api/Distribution;->M:Lcom/google/protobuf/z0$h;
 
     invoke-virtual {p2}, Lcom/google/protobuf/q;->E()J
@@ -1096,13 +1004,11 @@
 
     goto :goto_2
 
-    .line 19
     :cond_5
     invoke-virtual {p2, p1}, Lcom/google/protobuf/q;->q(I)V
 
     goto :goto_1
 
-    .line 20
     :cond_6
     iget-object p1, p0, Lcom/google/api/Distribution;->M:Lcom/google/protobuf/z0$h;
 
@@ -1112,17 +1018,14 @@
 
     if-nez p1, :cond_7
 
-    .line 21
     iget-object p1, p0, Lcom/google/api/Distribution;->M:Lcom/google/protobuf/z0$h;
 
-    .line 22
     invoke-static {p1}, Lcom/google/protobuf/GeneratedMessageLite;->Dg(Lcom/google/protobuf/z0$h;)Lcom/google/protobuf/z0$h;
 
     move-result-object p1
 
     iput-object p1, p0, Lcom/google/api/Distribution;->M:Lcom/google/protobuf/z0$h;
 
-    .line 23
     :cond_7
     iget-object p1, p0, Lcom/google/api/Distribution;->M:Lcom/google/protobuf/z0$h;
 
@@ -1134,13 +1037,11 @@
 
     goto :goto_1
 
-    .line 24
     :cond_8
     iget-object p1, p0, Lcom/google/api/Distribution;->L:Lcom/google/api/Distribution$BucketOptions;
 
     if-eqz p1, :cond_9
 
-    .line 25
     invoke-virtual {p1}, Lcom/google/protobuf/GeneratedMessageLite;->Yg()Lcom/google/protobuf/GeneratedMessageLite$b;
 
     move-result-object p1
@@ -1152,7 +1053,6 @@
     :cond_9
     move-object p1, v0
 
-    .line 26
     :goto_3
     invoke-static {}, Lcom/google/api/Distribution$BucketOptions;->Ih()Lcom/google/protobuf/s1;
 
@@ -1168,10 +1068,8 @@
 
     if-eqz p1, :cond_2
 
-    .line 27
     invoke-virtual {p1, v3}, Lcom/google/protobuf/GeneratedMessageLite$b;->Pg(Lcom/google/protobuf/GeneratedMessageLite;)Lcom/google/protobuf/GeneratedMessageLite$b;
 
-    .line 28
     invoke-virtual {p1}, Lcom/google/protobuf/GeneratedMessageLite$b;->Ig()Lcom/google/protobuf/GeneratedMessageLite;
 
     move-result-object p1
@@ -1182,13 +1080,11 @@
 
     goto/16 :goto_1
 
-    .line 29
     :cond_a
     iget-object p1, p0, Lcom/google/api/Distribution;->K:Lcom/google/api/Distribution$d;
 
     if-eqz p1, :cond_b
 
-    .line 30
     invoke-virtual {p1}, Lcom/google/protobuf/GeneratedMessageLite;->Yg()Lcom/google/protobuf/GeneratedMessageLite$b;
 
     move-result-object p1
@@ -1200,7 +1096,6 @@
     :cond_b
     move-object p1, v0
 
-    .line 31
     :goto_4
     invoke-static {}, Lcom/google/api/Distribution$d;->uh()Lcom/google/protobuf/s1;
 
@@ -1216,10 +1111,8 @@
 
     if-eqz p1, :cond_2
 
-    .line 32
     invoke-virtual {p1, v3}, Lcom/google/protobuf/GeneratedMessageLite$b;->Pg(Lcom/google/protobuf/GeneratedMessageLite;)Lcom/google/protobuf/GeneratedMessageLite$b;
 
-    .line 33
     invoke-virtual {p1}, Lcom/google/protobuf/GeneratedMessageLite$b;->Ig()Lcom/google/protobuf/GeneratedMessageLite;
 
     move-result-object p1
@@ -1230,7 +1123,6 @@
 
     goto/16 :goto_1
 
-    .line 34
     :cond_c
     invoke-virtual {p2}, Lcom/google/protobuf/q;->w()D
 
@@ -1240,7 +1132,6 @@
 
     goto/16 :goto_1
 
-    .line 35
     :cond_d
     invoke-virtual {p2}, Lcom/google/protobuf/q;->w()D
 
@@ -1250,7 +1141,6 @@
 
     goto/16 :goto_1
 
-    .line 36
     :cond_e
     invoke-virtual {p2}, Lcom/google/protobuf/q;->E()J
 
@@ -1278,13 +1168,11 @@
     :catch_0
     move-exception p1
 
-    .line 37
     :try_start_2
     new-instance p2, Ljava/lang/RuntimeException;
 
     new-instance p3, Lcom/google/protobuf/InvalidProtocolBufferException;
 
-    .line 38
     invoke-virtual {p1}, Ljava/io/IOException;->getMessage()Ljava/lang/String;
 
     move-result-object p1
@@ -1302,7 +1190,6 @@
     :catch_1
     move-exception p1
 
-    .line 39
     new-instance p2, Ljava/lang/RuntimeException;
 
     invoke-virtual {p1, p0}, Lcom/google/protobuf/InvalidProtocolBufferException;->setUnfinishedMessage(Lcom/google/protobuf/i1;)Lcom/google/protobuf/InvalidProtocolBufferException;
@@ -1315,25 +1202,20 @@
     :try_end_2
     .catchall {:try_start_2 .. :try_end_2} :catchall_1
 
-    .line 40
     :goto_6
     throw p1
 
-    .line 41
     :cond_10
     :pswitch_2
     sget-object p1, Lcom/google/api/Distribution;->T:Lcom/google/api/Distribution;
 
     return-object p1
 
-    .line 42
     :pswitch_3
     check-cast p2, Lcom/google/protobuf/GeneratedMessageLite$k;
 
-    .line 43
     check-cast p3, Lcom/google/api/Distribution;
 
-    .line 44
     iget-wide v5, p0, Lcom/google/api/Distribution;->g:J
 
     const-wide/16 v3, 0x0
@@ -1374,7 +1256,6 @@
 
     iput-wide v3, p0, Lcom/google/api/Distribution;->g:J
 
-    .line 45
     iget-wide v5, p0, Lcom/google/api/Distribution;->p:D
 
     const-wide/16 v10, 0x0
@@ -1413,7 +1294,6 @@
 
     iput-wide v3, p0, Lcom/google/api/Distribution;->p:D
 
-    .line 46
     iget-wide v3, p0, Lcom/google/api/Distribution;->J:D
 
     cmpl-double p1, v3, v10
@@ -1456,7 +1336,6 @@
 
     iput-wide v0, p0, Lcom/google/api/Distribution;->J:D
 
-    .line 47
     iget-object p1, p0, Lcom/google/api/Distribution;->K:Lcom/google/api/Distribution$d;
 
     iget-object v0, p3, Lcom/google/api/Distribution;->K:Lcom/google/api/Distribution$d;
@@ -1469,7 +1348,6 @@
 
     iput-object p1, p0, Lcom/google/api/Distribution;->K:Lcom/google/api/Distribution$d;
 
-    .line 48
     iget-object p1, p0, Lcom/google/api/Distribution;->L:Lcom/google/api/Distribution$BucketOptions;
 
     iget-object v0, p3, Lcom/google/api/Distribution;->L:Lcom/google/api/Distribution$BucketOptions;
@@ -1482,7 +1360,6 @@
 
     iput-object p1, p0, Lcom/google/api/Distribution;->L:Lcom/google/api/Distribution$BucketOptions;
 
-    .line 49
     iget-object p1, p0, Lcom/google/api/Distribution;->M:Lcom/google/protobuf/z0$h;
 
     iget-object v0, p3, Lcom/google/api/Distribution;->M:Lcom/google/protobuf/z0$h;
@@ -1493,12 +1370,10 @@
 
     iput-object p1, p0, Lcom/google/api/Distribution;->M:Lcom/google/protobuf/z0$h;
 
-    .line 50
     sget-object p1, Lcom/google/protobuf/GeneratedMessageLite$j;->a:Lcom/google/protobuf/GeneratedMessageLite$j;
 
     if-ne p2, p1, :cond_17
 
-    .line 51
     iget p1, p0, Lcom/google/api/Distribution;->f:I
 
     iget p2, p3, Lcom/google/api/Distribution;->f:I
@@ -1510,7 +1385,6 @@
     :cond_17
     return-object p0
 
-    .line 52
     :pswitch_4
     new-instance p1, Lcom/google/api/Distribution$c;
 
@@ -1518,7 +1392,6 @@
 
     return-object p1
 
-    .line 53
     :pswitch_5
     iget-object p1, p0, Lcom/google/api/Distribution;->M:Lcom/google/protobuf/z0$h;
 
@@ -1526,13 +1399,11 @@
 
     return-object v0
 
-    .line 54
     :pswitch_6
     sget-object p1, Lcom/google/api/Distribution;->T:Lcom/google/api/Distribution;
 
     return-object p1
 
-    .line 55
     :pswitch_7
     new-instance p1, Lcom/google/api/Distribution;
 
@@ -1556,7 +1427,6 @@
 .method public Te()D
     .locals 2
 
-    .line 1
     iget-wide v0, p0, Lcom/google/api/Distribution;->J:D
 
     return-wide v0
@@ -1565,7 +1435,6 @@
 .method public X1()Lcom/google/api/Distribution$d;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/api/Distribution;->K:Lcom/google/api/Distribution$d;
 
     if-nez v0, :cond_0
@@ -1581,7 +1450,6 @@
 .method public Y6()I
     .locals 8
 
-    .line 1
     iget v0, p0, Lcom/google/protobuf/GeneratedMessageLite;->c:I
 
     const/4 v1, -0x1
@@ -1590,7 +1458,6 @@
 
     return v0
 
-    .line 2
     :cond_0
     iget-wide v0, p0, Lcom/google/api/Distribution;->g:J
 
@@ -1604,7 +1471,6 @@
 
     if-eqz v6, :cond_1
 
-    .line 3
     invoke-static {v4, v0, v1}, Lcom/google/protobuf/CodedOutputStream;->E(IJ)I
 
     move-result v0
@@ -1616,7 +1482,6 @@
     :cond_1
     const/4 v0, 0x0
 
-    .line 4
     :goto_0
     iget-wide v1, p0, Lcom/google/api/Distribution;->p:D
 
@@ -1628,14 +1493,12 @@
 
     const/4 v3, 0x2
 
-    .line 5
     invoke-static {v3, v1, v2}, Lcom/google/protobuf/CodedOutputStream;->q(ID)I
 
     move-result v1
 
     add-int/2addr v0, v1
 
-    .line 6
     :cond_2
     iget-wide v1, p0, Lcom/google/api/Distribution;->J:D
 
@@ -1645,14 +1508,12 @@
 
     const/4 v3, 0x3
 
-    .line 7
     invoke-static {v3, v1, v2}, Lcom/google/protobuf/CodedOutputStream;->q(ID)I
 
     move-result v1
 
     add-int/2addr v0, v1
 
-    .line 8
     :cond_3
     iget-object v1, p0, Lcom/google/api/Distribution;->K:Lcom/google/api/Distribution$d;
 
@@ -1660,7 +1521,6 @@
 
     const/4 v1, 0x4
 
-    .line 9
     invoke-virtual {p0}, Lcom/google/api/Distribution;->X1()Lcom/google/api/Distribution$d;
 
     move-result-object v2
@@ -1671,7 +1531,6 @@
 
     add-int/2addr v0, v1
 
-    .line 10
     :cond_4
     iget-object v1, p0, Lcom/google/api/Distribution;->L:Lcom/google/api/Distribution$BucketOptions;
 
@@ -1679,7 +1538,6 @@
 
     const/4 v1, 0x6
 
-    .line 11
     invoke-virtual {p0}, Lcom/google/api/Distribution;->Mc()Lcom/google/api/Distribution$BucketOptions;
 
     move-result-object v2
@@ -1693,7 +1551,6 @@
     :cond_5
     const/4 v1, 0x0
 
-    .line 12
     :goto_1
     iget-object v2, p0, Lcom/google/api/Distribution;->M:Lcom/google/protobuf/z0$h;
 
@@ -1703,10 +1560,8 @@
 
     if-ge v5, v2, :cond_6
 
-    .line 13
     iget-object v2, p0, Lcom/google/api/Distribution;->M:Lcom/google/protobuf/z0$h;
 
-    .line 14
     invoke-interface {v2, v5}, Lcom/google/protobuf/z0$h;->getLong(I)J
 
     move-result-wide v2
@@ -1724,7 +1579,6 @@
     :cond_6
     add-int/2addr v0, v1
 
-    .line 15
     invoke-virtual {p0}, Lcom/google/api/Distribution;->r5()Ljava/util/List;
 
     move-result-object v1
@@ -1737,7 +1591,6 @@
 
     add-int/2addr v0, v1
 
-    .line 16
     iput v0, p0, Lcom/google/protobuf/GeneratedMessageLite;->c:I
 
     return v0
@@ -1746,7 +1599,6 @@
 .method public c5()D
     .locals 2
 
-    .line 1
     iget-wide v0, p0, Lcom/google/api/Distribution;->p:D
 
     return-wide v0
@@ -1755,7 +1607,6 @@
 .method public getCount()J
     .locals 2
 
-    .line 1
     iget-wide v0, p0, Lcom/google/api/Distribution;->g:J
 
     return-wide v0
@@ -1764,7 +1615,6 @@
 .method public gf()Z
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/api/Distribution;->L:Lcom/google/api/Distribution$BucketOptions;
 
     if-eqz v0, :cond_0
@@ -1791,7 +1641,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/api/Distribution;->M:Lcom/google/protobuf/z0$h;
 
     return-object v0
@@ -1800,7 +1649,6 @@
 .method public t3()I
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/api/Distribution;->M:Lcom/google/protobuf/z0$h;
 
     invoke-interface {v0}, Ljava/util/List;->size()I
@@ -1818,10 +1666,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/api/Distribution;->Y6()I
 
-    .line 2
     iget-wide v0, p0, Lcom/google/api/Distribution;->g:J
 
     const-wide/16 v2, 0x0
@@ -1832,10 +1678,8 @@
 
     const/4 v2, 0x1
 
-    .line 3
     invoke-virtual {p1, v2, v0, v1}, Lcom/google/protobuf/CodedOutputStream;->Q0(IJ)V
 
-    .line 4
     :cond_0
     iget-wide v0, p0, Lcom/google/api/Distribution;->p:D
 
@@ -1847,10 +1691,8 @@
 
     const/4 v4, 0x2
 
-    .line 5
     invoke-virtual {p1, v4, v0, v1}, Lcom/google/protobuf/CodedOutputStream;->C0(ID)V
 
-    .line 6
     :cond_1
     iget-wide v0, p0, Lcom/google/api/Distribution;->J:D
 
@@ -1860,10 +1702,8 @@
 
     const/4 v2, 0x3
 
-    .line 7
     invoke-virtual {p1, v2, v0, v1}, Lcom/google/protobuf/CodedOutputStream;->C0(ID)V
 
-    .line 8
     :cond_2
     iget-object v0, p0, Lcom/google/api/Distribution;->K:Lcom/google/api/Distribution$d;
 
@@ -1871,14 +1711,12 @@
 
     const/4 v0, 0x4
 
-    .line 9
     invoke-virtual {p0}, Lcom/google/api/Distribution;->X1()Lcom/google/api/Distribution$d;
 
     move-result-object v1
 
     invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/CodedOutputStream;->S0(ILcom/google/protobuf/i1;)V
 
-    .line 10
     :cond_3
     iget-object v0, p0, Lcom/google/api/Distribution;->L:Lcom/google/api/Distribution$BucketOptions;
 
@@ -1886,7 +1724,6 @@
 
     const/4 v0, 0x6
 
-    .line 11
     invoke-virtual {p0}, Lcom/google/api/Distribution;->Mc()Lcom/google/api/Distribution$BucketOptions;
 
     move-result-object v1
@@ -1896,7 +1733,6 @@
     :cond_4
     const/4 v0, 0x0
 
-    .line 12
     :goto_0
     iget-object v1, p0, Lcom/google/api/Distribution;->M:Lcom/google/protobuf/z0$h;
 
@@ -1908,7 +1744,6 @@
 
     const/4 v1, 0x7
 
-    .line 13
     iget-object v2, p0, Lcom/google/api/Distribution;->M:Lcom/google/protobuf/z0$h;
 
     invoke-interface {v2, v0}, Lcom/google/protobuf/z0$h;->getLong(I)J

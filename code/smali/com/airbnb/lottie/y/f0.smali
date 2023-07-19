@@ -23,7 +23,6 @@
 
     const-string v5, "hd"
 
-    .line 1
     filled-new-array/range {v0 .. v5}, [Ljava/lang/String;
 
     move-result-object v0
@@ -40,7 +39,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -70,7 +68,6 @@
 
     const/4 v9, 0x0
 
-    .line 1
     :goto_0
     invoke-virtual {p0}, Lcom/airbnb/lottie/parser/moshi/JsonReader;->f()Z
 
@@ -78,7 +75,6 @@
 
     if-eqz v3, :cond_6
 
-    .line 2
     sget-object v3, Lcom/airbnb/lottie/y/f0;->a:Lcom/airbnb/lottie/parser/moshi/JsonReader$a;
 
     invoke-virtual {p0, v3}, Lcom/airbnb/lottie/parser/moshi/JsonReader;->o(Lcom/airbnb/lottie/parser/moshi/JsonReader$a;)I
@@ -105,15 +101,12 @@
 
     if-eq v3, v6, :cond_0
 
-    .line 3
     invoke-virtual {p0}, Lcom/airbnb/lottie/parser/moshi/JsonReader;->p()V
 
-    .line 4
     invoke-virtual {p0}, Lcom/airbnb/lottie/parser/moshi/JsonReader;->q()V
 
     goto :goto_0
 
-    .line 5
     :cond_0
     invoke-virtual {p0}, Lcom/airbnb/lottie/parser/moshi/JsonReader;->g()Z
 
@@ -121,7 +114,6 @@
 
     goto :goto_0
 
-    .line 6
     :cond_1
     invoke-virtual {p0}, Lcom/airbnb/lottie/parser/moshi/JsonReader;->i()I
 
@@ -129,7 +121,6 @@
 
     goto :goto_0
 
-    .line 7
     :cond_2
     invoke-virtual {p0}, Lcom/airbnb/lottie/parser/moshi/JsonReader;->g()Z
 
@@ -137,7 +128,6 @@
 
     goto :goto_0
 
-    .line 8
     :cond_3
     invoke-static {p0, p1}, Lcom/airbnb/lottie/y/d;->h(Lcom/airbnb/lottie/parser/moshi/JsonReader;Lcom/airbnb/lottie/g;)Lcom/airbnb/lottie/model/i/d;
 
@@ -145,7 +135,6 @@
 
     goto :goto_0
 
-    .line 9
     :cond_4
     invoke-static {p0, p1}, Lcom/airbnb/lottie/y/d;->c(Lcom/airbnb/lottie/parser/moshi/JsonReader;Lcom/airbnb/lottie/g;)Lcom/airbnb/lottie/model/i/a;
 
@@ -153,7 +142,6 @@
 
     goto :goto_0
 
-    .line 10
     :cond_5
     invoke-virtual {p0}, Lcom/airbnb/lottie/parser/moshi/JsonReader;->k()Ljava/lang/String;
 
@@ -164,7 +152,6 @@
     :cond_6
     if-nez v2, :cond_7
 
-    .line 11
     new-instance p0, Lcom/airbnb/lottie/model/i/d;
 
     new-instance p1, Lcom/airbnb/lottie/a0/a;
@@ -193,7 +180,6 @@
     :goto_1
     if-ne v0, v1, :cond_8
 
-    .line 12
     sget-object p0, Landroid/graphics/Path$FillType;->WINDING:Landroid/graphics/Path$FillType;
 
     goto :goto_2
@@ -204,7 +190,6 @@
     :goto_2
     move-object v6, p0
 
-    .line 13
     new-instance p0, Lcom/airbnb/lottie/model/content/i;
 
     move-object v3, p0

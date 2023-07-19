@@ -22,7 +22,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -42,7 +41,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0}, Ljava/lang/Object;->clone()Ljava/lang/Object;
 
     move-result-object v1
@@ -51,12 +49,10 @@
 
     if-eqz v1, :cond_1
 
-    .line 2
     iget-object v2, p0, Lcom/meitu/mtlab/MTAiInterface/MTSkinBCCModule/MTSkinBCCResult;->size:Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineSize;
 
     if-eqz v2, :cond_0
 
-    .line 3
     new-instance v2, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineSize;
 
     iget-object v3, v1, Lcom/meitu/mtlab/MTAiInterface/MTSkinBCCModule/MTSkinBCCResult;->size:Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineSize;
@@ -69,13 +65,11 @@
 
     iput-object v2, v1, Lcom/meitu/mtlab/MTAiInterface/MTSkinBCCModule/MTSkinBCCResult;->size:Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineSize;
 
-    .line 4
     :cond_0
     iget-object v2, p0, Lcom/meitu/mtlab/MTAiInterface/MTSkinBCCModule/MTSkinBCCResult;->skinBCC:Lcom/meitu/mtlab/MTAiInterface/MTSkinBCCModule/MTSkinBCC;
 
     if-eqz v2, :cond_1
 
-    .line 5
     invoke-virtual {v2}, Lcom/meitu/mtlab/MTAiInterface/MTSkinBCCModule/MTSkinBCC;->clone()Ljava/lang/Object;
 
     move-result-object v2
@@ -84,7 +78,6 @@
 
     iput-object v2, v1, Lcom/meitu/mtlab/MTAiInterface/MTSkinBCCModule/MTSkinBCCResult;->skinBCC:Lcom/meitu/mtlab/MTAiInterface/MTSkinBCCModule/MTSkinBCC;
 
-    .line 6
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

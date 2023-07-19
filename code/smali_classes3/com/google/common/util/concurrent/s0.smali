@@ -30,10 +30,8 @@
 .method constructor <init>(Lcom/google/common/util/concurrent/s0$a;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     invoke-static {p1}, Lcom/google/common/base/t;->E(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -48,7 +46,6 @@
 .method private c(JJ)Z
     .locals 2
 
-    .line 1
     invoke-virtual {p0, p1, p2}, Lcom/google/common/util/concurrent/s0;->m(J)J
 
     move-result-wide v0
@@ -85,7 +82,6 @@
     :goto_0
     const-string v1, "Requested permits (%s) must be positive"
 
-    .line 1
     invoke-static {v0, v1, p0}, Lcom/google/common/base/t;->k(ZLjava/lang/String;I)V
 
     return-void
@@ -94,7 +90,6 @@
 .method public static e(D)Lcom/google/common/util/concurrent/s0;
     .locals 1
 
-    .line 1
     invoke-static {}, Lcom/google/common/util/concurrent/s0$a;->a()Lcom/google/common/util/concurrent/s0$a;
 
     move-result-object v0
@@ -125,12 +120,10 @@
     :goto_0
     const-string v1, "warmupPeriod must not be negative: %s"
 
-    .line 1
     invoke-static {v0, v1, p2, p3}, Lcom/google/common/base/t;->p(ZLjava/lang/String;J)V
 
     const-wide/high16 v7, 0x4008000000000000L    # 3.0
 
-    .line 2
     invoke-static {}, Lcom/google/common/util/concurrent/s0$a;->a()Lcom/google/common/util/concurrent/s0$a;
 
     move-result-object v9
@@ -141,7 +134,6 @@
 
     move-object v6, p4
 
-    .line 3
     invoke-static/range {v2 .. v9}, Lcom/google/common/util/concurrent/s0;->g(DJLjava/util/concurrent/TimeUnit;DLcom/google/common/util/concurrent/s0$a;)Lcom/google/common/util/concurrent/s0;
 
     move-result-object p0
@@ -154,7 +146,6 @@
     .annotation build Lf/f/e/a/d;
     .end annotation
 
-    .line 1
     new-instance v7, Lcom/google/common/util/concurrent/y0$c;
 
     move-object v0, v7
@@ -169,7 +160,6 @@
 
     invoke-direct/range {v0 .. v6}, Lcom/google/common/util/concurrent/y0$c;-><init>(Lcom/google/common/util/concurrent/s0$a;JLjava/util/concurrent/TimeUnit;D)V
 
-    .line 2
     invoke-virtual {v7, p0, p1}, Lcom/google/common/util/concurrent/s0;->q(D)V
 
     return-object v7
@@ -180,14 +170,12 @@
     .annotation build Lf/f/e/a/d;
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/google/common/util/concurrent/y0$b;
 
     const-wide/high16 v1, 0x3ff0000000000000L    # 1.0
 
     invoke-direct {v0, p2, v1, v2}, Lcom/google/common/util/concurrent/y0$b;-><init>(Lcom/google/common/util/concurrent/s0$a;D)V
 
-    .line 2
     invoke-virtual {v0, p0, p1}, Lcom/google/common/util/concurrent/s0;->q(D)V
 
     return-object v0
@@ -196,28 +184,23 @@
 .method private l()Ljava/lang/Object;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/util/concurrent/s0;->b:Ljava/lang/Object;
 
     if-nez v0, :cond_1
 
-    .line 2
     monitor-enter p0
 
-    .line 3
     :try_start_0
     iget-object v0, p0, Lcom/google/common/util/concurrent/s0;->b:Ljava/lang/Object;
 
     if-nez v0, :cond_0
 
-    .line 4
     new-instance v0, Ljava/lang/Object;
 
     invoke-direct {v0}, Ljava/lang/Object;-><init>()V
 
     iput-object v0, p0, Lcom/google/common/util/concurrent/s0;->b:Ljava/lang/Object;
 
-    .line 5
     :cond_0
     monitor-exit p0
 
@@ -246,7 +229,6 @@
 
     const/4 v0, 0x1
 
-    .line 1
     invoke-virtual {p0, v0}, Lcom/google/common/util/concurrent/s0;->b(I)D
 
     move-result-wide v0
@@ -259,12 +241,10 @@
     .annotation build Lf/f/f/a/a;
     .end annotation
 
-    .line 1
     invoke-virtual {p0, p1}, Lcom/google/common/util/concurrent/s0;->n(I)J
 
     move-result-wide v0
 
-    .line 2
     iget-object p1, p0, Lcom/google/common/util/concurrent/s0;->a:Lcom/google/common/util/concurrent/s0$a;
 
     invoke-virtual {p1, v0, v1}, Lcom/google/common/util/concurrent/s0$a;->c(J)V
@@ -275,7 +255,6 @@
 
     mul-double v0, v0, v2
 
-    .line 3
     sget-object p1, Ljava/util/concurrent/TimeUnit;->SECONDS:Ljava/util/concurrent/TimeUnit;
 
     const-wide/16 v2, 0x1
@@ -300,14 +279,12 @@
 .method public final k()D
     .locals 3
 
-    .line 1
     invoke-direct {p0}, Lcom/google/common/util/concurrent/s0;->l()Ljava/lang/Object;
 
     move-result-object v0
 
     monitor-enter v0
 
-    .line 2
     :try_start_0
     invoke-virtual {p0}, Lcom/google/common/util/concurrent/s0;->i()D
 
@@ -320,7 +297,6 @@
     :catchall_0
     move-exception v1
 
-    .line 3
     monitor-exit v0
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
@@ -334,17 +310,14 @@
 .method final n(I)J
     .locals 3
 
-    .line 1
     invoke-static {p1}, Lcom/google/common/util/concurrent/s0;->d(I)V
 
-    .line 2
     invoke-direct {p0}, Lcom/google/common/util/concurrent/s0;->l()Ljava/lang/Object;
 
     move-result-object v0
 
     monitor-enter v0
 
-    .line 3
     :try_start_0
     iget-object v1, p0, Lcom/google/common/util/concurrent/s0;->a:Lcom/google/common/util/concurrent/s0$a;
 
@@ -363,7 +336,6 @@
     :catchall_0
     move-exception p1
 
-    .line 4
     monitor-exit v0
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
@@ -374,7 +346,6 @@
 .method final o(IJ)J
     .locals 2
 
-    .line 1
     invoke-virtual {p0, p1, p2, p3}, Lcom/google/common/util/concurrent/s0;->p(IJ)J
 
     move-result-wide v0
@@ -383,7 +354,6 @@
 
     const-wide/16 p1, 0x0
 
-    .line 2
     invoke-static {v0, v1, p1, p2}, Ljava/lang/Math;->max(JJ)J
 
     move-result-wide p1
@@ -403,7 +373,6 @@
 
     if-lez v2, :cond_0
 
-    .line 1
     invoke-static {p1, p2}, Ljava/lang/Double;->isNaN(D)Z
 
     move-result v0
@@ -420,17 +389,14 @@
     :goto_0
     const-string v1, "rate must be positive"
 
-    .line 2
     invoke-static {v0, v1}, Lcom/google/common/base/t;->e(ZLjava/lang/Object;)V
 
-    .line 3
     invoke-direct {p0}, Lcom/google/common/util/concurrent/s0;->l()Ljava/lang/Object;
 
     move-result-object v0
 
     monitor-enter v0
 
-    .line 4
     :try_start_0
     iget-object v1, p0, Lcom/google/common/util/concurrent/s0;->a:Lcom/google/common/util/concurrent/s0$a;
 
@@ -440,7 +406,6 @@
 
     invoke-virtual {p0, p1, p2, v1, v2}, Lcom/google/common/util/concurrent/s0;->j(DJ)V
 
-    .line 5
     monitor-exit v0
 
     return-void
@@ -458,7 +423,6 @@
 .method public r()Z
     .locals 4
 
-    .line 1
     sget-object v0, Ljava/util/concurrent/TimeUnit;->MICROSECONDS:Ljava/util/concurrent/TimeUnit;
 
     const/4 v1, 0x1
@@ -475,7 +439,6 @@
 .method public s(I)Z
     .locals 3
 
-    .line 1
     sget-object v0, Ljava/util/concurrent/TimeUnit;->MICROSECONDS:Ljava/util/concurrent/TimeUnit;
 
     const-wide/16 v1, 0x0
@@ -490,7 +453,6 @@
 .method public t(IJLjava/util/concurrent/TimeUnit;)Z
     .locals 2
 
-    .line 1
     invoke-virtual {p4, p2, p3}, Ljava/util/concurrent/TimeUnit;->toMicros(J)J
 
     move-result-wide p2
@@ -501,17 +463,14 @@
 
     move-result-wide p2
 
-    .line 2
     invoke-static {p1}, Lcom/google/common/util/concurrent/s0;->d(I)V
 
-    .line 3
     invoke-direct {p0}, Lcom/google/common/util/concurrent/s0;->l()Ljava/lang/Object;
 
     move-result-object p4
 
     monitor-enter p4
 
-    .line 4
     :try_start_0
     iget-object v0, p0, Lcom/google/common/util/concurrent/s0;->a:Lcom/google/common/util/concurrent/s0$a;
 
@@ -519,7 +478,6 @@
 
     move-result-wide v0
 
-    .line 5
     invoke-direct {p0, v0, v1, p2, p3}, Lcom/google/common/util/concurrent/s0;->c(JJ)Z
 
     move-result p2
@@ -528,23 +486,19 @@
 
     const/4 p1, 0x0
 
-    .line 6
     monitor-exit p4
 
     return p1
 
-    .line 7
     :cond_0
     invoke-virtual {p0, p1, v0, v1}, Lcom/google/common/util/concurrent/s0;->o(IJ)J
 
     move-result-wide p1
 
-    .line 8
     monitor-exit p4
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 9
     iget-object p3, p0, Lcom/google/common/util/concurrent/s0;->a:Lcom/google/common/util/concurrent/s0$a;
 
     invoke-virtual {p3, p1, p2}, Lcom/google/common/util/concurrent/s0$a;->c(J)V
@@ -556,7 +510,6 @@
     :catchall_0
     move-exception p1
 
-    .line 10
     :try_start_1
     monitor-exit p4
     :try_end_1
@@ -568,7 +521,6 @@
 .method public toString()Ljava/lang/String;
     .locals 4
 
-    .line 1
     sget-object v0, Ljava/util/Locale;->ROOT:Ljava/util/Locale;
 
     const/4 v1, 0x1
@@ -601,7 +553,6 @@
 
     const/4 v0, 0x1
 
-    .line 1
     invoke-virtual {p0, v0, p1, p2, p3}, Lcom/google/common/util/concurrent/s0;->t(IJLjava/util/concurrent/TimeUnit;)Z
 
     move-result p1

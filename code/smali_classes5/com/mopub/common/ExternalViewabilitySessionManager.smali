@@ -45,15 +45,12 @@
 .method private constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/4 v0, 0x0
 
-    .line 2
     iput-object v0, p0, Lcom/mopub/common/ExternalViewabilitySessionManager;->mViewabilityTracker:Lcom/mopub/common/ViewabilityTracker;
 
-    .line 3
     new-instance v0, Ljava/util/HashSet;
 
     invoke-direct {v0}, Ljava/util/HashSet;-><init>()V
@@ -68,19 +65,16 @@
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
-    .line 1
     sget-object v0, Lcom/mopub/common/ExternalViewabilitySessionManager;->sCreator:Lcom/mopub/common/ExternalViewabilitySessionManager$ExternalViewabilityManagerFactory;
 
     if-nez v0, :cond_0
 
-    .line 2
     new-instance v0, Lcom/mopub/common/ExternalViewabilitySessionManager;
 
     invoke-direct {v0}, Lcom/mopub/common/ExternalViewabilitySessionManager;-><init>()V
 
     return-object v0
 
-    .line 3
     :cond_0
     invoke-interface {v0}, Lcom/mopub/common/ExternalViewabilitySessionManager$ExternalViewabilityManagerFactory;->create()Lcom/mopub/common/ExternalViewabilitySessionManager;
 
@@ -98,7 +92,6 @@
     .annotation build Lcom/mopub/common/VisibleForTesting;
     .end annotation
 
-    .line 1
     sput-object p0, Lcom/mopub/common/ExternalViewabilitySessionManager;->sCreator:Lcom/mopub/common/ExternalViewabilitySessionManager$ExternalViewabilityManagerFactory;
 
     return-void
@@ -129,23 +122,18 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {}, Lcom/mopub/common/Preconditions;->checkUiThread()V
 
-    .line 2
     invoke-static {p1}, Lcom/mopub/common/Preconditions;->checkNotNull(Ljava/lang/Object;)V
 
-    .line 3
     invoke-static {p2}, Lcom/mopub/common/Preconditions;->checkNotNull(Ljava/lang/Object;)V
 
-    .line 4
     iget-object v0, p0, Lcom/mopub/common/ExternalViewabilitySessionManager;->mViewabilityTracker:Lcom/mopub/common/ViewabilityTracker;
 
     if-eqz v0, :cond_0
 
     return-void
 
-    .line 5
     :cond_0
     :try_start_0
     invoke-static {p1, p2}, Lcom/mopub/common/ViewabilityTracker;->createNativeTracker(Landroid/view/View;Ljava/util/Set;)Lcom/mopub/common/ViewabilityTracker;
@@ -161,7 +149,6 @@
     :catch_0
     move-exception p1
 
-    .line 6
     sget-object p2, Lcom/mopub/common/logging/MoPubLog$SdkLogEvent;->CUSTOM_WITH_THROWABLE:Lcom/mopub/common/logging/MoPubLog$SdkLogEvent;
 
     const/4 v0, 0x2
@@ -207,23 +194,18 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {}, Lcom/mopub/common/Preconditions;->checkUiThread()V
 
-    .line 2
     invoke-static {p1}, Lcom/mopub/common/Preconditions;->checkNotNull(Ljava/lang/Object;)V
 
-    .line 3
     invoke-static {p2}, Lcom/mopub/common/Preconditions;->checkNotNull(Ljava/lang/Object;)V
 
-    .line 4
     iget-object v0, p0, Lcom/mopub/common/ExternalViewabilitySessionManager;->mViewabilityTracker:Lcom/mopub/common/ViewabilityTracker;
 
     if-eqz v0, :cond_0
 
     return-void
 
-    .line 5
     :cond_0
     :try_start_0
     invoke-static {p1, p2}, Lcom/mopub/common/ViewabilityTrackerVideo;->createVastVideoTracker(Landroid/view/View;Ljava/util/Set;)Lcom/mopub/common/ViewabilityTracker;
@@ -239,7 +221,6 @@
     :catch_0
     move-exception p1
 
-    .line 6
     sget-object p2, Lcom/mopub/common/logging/MoPubLog$SdkLogEvent;->CUSTOM_WITH_THROWABLE:Lcom/mopub/common/logging/MoPubLog$SdkLogEvent;
 
     const/4 v0, 0x2
@@ -271,20 +252,16 @@
     .annotation build Landroidx/annotation/UiThread;
     .end annotation
 
-    .line 1
     invoke-static {}, Lcom/mopub/common/Preconditions;->checkUiThread()V
 
-    .line 2
     invoke-static {p1}, Lcom/mopub/common/Preconditions;->checkNotNull(Ljava/lang/Object;)V
 
-    .line 3
     iget-object v0, p0, Lcom/mopub/common/ExternalViewabilitySessionManager;->mViewabilityTracker:Lcom/mopub/common/ViewabilityTracker;
 
     if-eqz v0, :cond_0
 
     return-void
 
-    .line 4
     :cond_0
     :try_start_0
     invoke-static {p1}, Lcom/mopub/common/ViewabilityTracker;->createWebViewTracker(Landroid/webkit/WebView;)Lcom/mopub/common/ViewabilityTracker;
@@ -300,7 +277,6 @@
     :catch_0
     move-exception p1
 
-    .line 5
     sget-object v0, Lcom/mopub/common/logging/MoPubLog$SdkLogEvent;->CUSTOM_WITH_THROWABLE:Lcom/mopub/common/logging/MoPubLog$SdkLogEvent;
 
     const/4 v1, 0x2
@@ -328,16 +304,13 @@
     .annotation build Landroidx/annotation/UiThread;
     .end annotation
 
-    .line 1
     invoke-static {}, Lcom/mopub/common/Preconditions;->checkUiThread()V
 
-    .line 2
     :try_start_0
     iget-object v0, p0, Lcom/mopub/common/ExternalViewabilitySessionManager;->mViewabilityTracker:Lcom/mopub/common/ViewabilityTracker;
 
     if-eqz v0, :cond_0
 
-    .line 3
     invoke-virtual {v0}, Lcom/mopub/common/ViewabilityTracker;->stopTracking()V
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
@@ -347,7 +320,6 @@
     :catch_0
     move-exception v0
 
-    .line 4
     sget-object v1, Lcom/mopub/common/logging/MoPubLog$SdkLogEvent;->CUSTOM_WITH_THROWABLE:Lcom/mopub/common/logging/MoPubLog$SdkLogEvent;
 
     const/4 v2, 0x2
@@ -374,12 +346,10 @@
 .method public hasImpressionOccurred()Z
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/common/ExternalViewabilitySessionManager;->mViewabilityTracker:Lcom/mopub/common/ViewabilityTracker;
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-virtual {v0}, Lcom/mopub/common/ViewabilityTracker;->hasImpressionOccurred()Z
 
     move-result v0
@@ -397,10 +367,8 @@
     .annotation build Landroidx/annotation/UiThread;
     .end annotation
 
-    .line 1
     invoke-static {}, Lcom/mopub/common/Preconditions;->checkUiThread()V
 
-    .line 2
     iget-object v0, p0, Lcom/mopub/common/ExternalViewabilitySessionManager;->mViewabilityTracker:Lcom/mopub/common/ViewabilityTracker;
 
     if-nez v0, :cond_0
@@ -409,7 +377,6 @@
 
     return v0
 
-    .line 3
     :cond_0
     invoke-virtual {v0}, Lcom/mopub/common/ViewabilityTracker;->isTracking()Z
 
@@ -423,10 +390,8 @@
     .annotation build Landroidx/annotation/UiThread;
     .end annotation
 
-    .line 1
     invoke-static {}, Lcom/mopub/common/Preconditions;->checkUiThread()V
 
-    .line 2
     :try_start_0
     iget-object v0, p0, Lcom/mopub/common/ExternalViewabilitySessionManager;->mViewabilityTracker:Lcom/mopub/common/ViewabilityTracker;
 
@@ -438,7 +403,6 @@
 
     div-float/2addr p1, p2
 
-    .line 3
     invoke-virtual {v0, p1}, Lcom/mopub/common/ViewabilityTracker;->videoPrepared(F)V
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
@@ -448,7 +412,6 @@
     :catch_0
     move-exception p1
 
-    .line 4
     sget-object p2, Lcom/mopub/common/logging/MoPubLog$SdkLogEvent;->CUSTOM_WITH_THROWABLE:Lcom/mopub/common/logging/MoPubLog$SdkLogEvent;
 
     const/4 v0, 0x2
@@ -481,19 +444,15 @@
     .annotation build Landroidx/annotation/UiThread;
     .end annotation
 
-    .line 1
     invoke-static {}, Lcom/mopub/common/Preconditions;->checkUiThread()V
 
-    .line 2
     invoke-static {p1}, Lcom/mopub/common/Preconditions;->checkNotNull(Ljava/lang/Object;)V
 
-    .line 3
     :try_start_0
     iget-object p2, p0, Lcom/mopub/common/ExternalViewabilitySessionManager;->mViewabilityTracker:Lcom/mopub/common/ViewabilityTracker;
 
     if-eqz p2, :cond_0
 
-    .line 4
     invoke-virtual {p2, p1}, Lcom/mopub/common/ViewabilityTracker;->trackVideo(Lcom/mopub/common/VideoEvent;)V
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
@@ -503,7 +462,6 @@
     :catch_0
     move-exception p1
 
-    .line 5
     sget-object p2, Lcom/mopub/common/logging/MoPubLog$SdkLogEvent;->CUSTOM_WITH_THROWABLE:Lcom/mopub/common/logging/MoPubLog$SdkLogEvent;
 
     const/4 v0, 0x2
@@ -540,10 +498,8 @@
     .annotation build Landroidx/annotation/UiThread;
     .end annotation
 
-    .line 1
     invoke-static {}, Lcom/mopub/common/Preconditions;->checkUiThread()V
 
-    .line 2
     iget-object v0, p0, Lcom/mopub/common/ExternalViewabilitySessionManager;->mViewabilityTracker:Lcom/mopub/common/ViewabilityTracker;
 
     if-nez v0, :cond_0
@@ -552,7 +508,6 @@
 
     if-eqz p2, :cond_2
 
-    .line 3
     :try_start_0
     iget-object v0, p0, Lcom/mopub/common/ExternalViewabilitySessionManager;->mObstructions:Ljava/util/Set;
 
@@ -569,10 +524,8 @@
 
     if-eqz p2, :cond_1
 
-    .line 4
     invoke-virtual {v0, p1, p2}, Lcom/mopub/common/ViewabilityTracker;->registerFriendlyObstruction(Landroid/view/View;Lcom/mopub/common/ViewabilityObstruction;)V
 
-    .line 5
     :cond_1
     iget-object p1, p0, Lcom/mopub/common/ExternalViewabilitySessionManager;->mObstructions:Ljava/util/Set;
 
@@ -582,12 +535,10 @@
 
     if-lez p1, :cond_2
 
-    .line 6
     iget-object p1, p0, Lcom/mopub/common/ExternalViewabilitySessionManager;->mObstructions:Ljava/util/Set;
 
     invoke-virtual {v0, p1}, Lcom/mopub/common/ViewabilityTracker;->registerFriendlyObstructions(Ljava/lang/Iterable;)V
 
-    .line 7
     iget-object p1, p0, Lcom/mopub/common/ExternalViewabilitySessionManager;->mObstructions:Ljava/util/Set;
 
     invoke-interface {p1}, Ljava/util/Set;->clear()V
@@ -599,7 +550,6 @@
     :catch_0
     move-exception p1
 
-    .line 8
     sget-object p2, Lcom/mopub/common/logging/MoPubLog$AdLogEvent;->CUSTOM:Lcom/mopub/common/logging/MoPubLog$AdLogEvent;
 
     const/4 v0, 0x1
@@ -628,12 +578,10 @@
         .end annotation
     .end param
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/common/ExternalViewabilitySessionManager;->mViewabilityTracker:Lcom/mopub/common/ViewabilityTracker;
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-virtual {v0, p1}, Lcom/mopub/common/ViewabilityTracker;->registerTrackedView(Landroid/view/View;)V
 
     :cond_0
@@ -651,7 +599,6 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-virtual {p0, p1, p2}, Lcom/mopub/common/ExternalViewabilitySessionManager;->registerFriendlyObstruction(Landroid/view/View;Lcom/mopub/common/ViewabilityObstruction;)V
 
     return-void
@@ -666,7 +613,6 @@
     .annotation build Lcom/mopub/common/VisibleForTesting;
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/mopub/common/ExternalViewabilitySessionManager;->mViewabilityTracker:Lcom/mopub/common/ViewabilityTracker;
 
     return-void
@@ -677,10 +623,8 @@
     .annotation build Landroidx/annotation/UiThread;
     .end annotation
 
-    .line 1
     invoke-static {}, Lcom/mopub/common/Preconditions;->checkUiThread()V
 
-    .line 2
     :try_start_0
     iget-object v0, p0, Lcom/mopub/common/ExternalViewabilitySessionManager;->mViewabilityTracker:Lcom/mopub/common/ViewabilityTracker;
 
@@ -688,10 +632,8 @@
 
     const/4 v0, 0x0
 
-    .line 3
     invoke-virtual {p0, v0, v0}, Lcom/mopub/common/ExternalViewabilitySessionManager;->registerFriendlyObstruction(Landroid/view/View;Lcom/mopub/common/ViewabilityObstruction;)V
 
-    .line 4
     iget-object v0, p0, Lcom/mopub/common/ExternalViewabilitySessionManager;->mViewabilityTracker:Lcom/mopub/common/ViewabilityTracker;
 
     invoke-virtual {v0}, Lcom/mopub/common/ViewabilityTracker;->startTracking()V
@@ -703,7 +645,6 @@
     :catch_0
     move-exception v0
 
-    .line 5
     sget-object v1, Lcom/mopub/common/logging/MoPubLog$SdkLogEvent;->CUSTOM_WITH_THROWABLE:Lcom/mopub/common/logging/MoPubLog$SdkLogEvent;
 
     const/4 v2, 0x2
@@ -732,16 +673,13 @@
     .annotation build Landroidx/annotation/UiThread;
     .end annotation
 
-    .line 1
     invoke-static {}, Lcom/mopub/common/Preconditions;->checkUiThread()V
 
-    .line 2
     :try_start_0
     iget-object v0, p0, Lcom/mopub/common/ExternalViewabilitySessionManager;->mViewabilityTracker:Lcom/mopub/common/ViewabilityTracker;
 
     if-eqz v0, :cond_0
 
-    .line 3
     invoke-virtual {v0}, Lcom/mopub/common/ViewabilityTracker;->trackImpression()V
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
@@ -751,7 +689,6 @@
     :catch_0
     move-exception v0
 
-    .line 4
     sget-object v1, Lcom/mopub/common/logging/MoPubLog$SdkLogEvent;->CUSTOM_WITH_THROWABLE:Lcom/mopub/common/logging/MoPubLog$SdkLogEvent;
 
     const/4 v2, 0x2

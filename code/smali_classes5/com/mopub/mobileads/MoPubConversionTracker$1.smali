@@ -27,7 +27,6 @@
 .method constructor <init>(Lcom/mopub/mobileads/MoPubConversionTracker;Z)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/mopub/mobileads/MoPubConversionTracker$1;->this$0:Lcom/mopub/mobileads/MoPubConversionTracker;
 
     iput-boolean p2, p0, Lcom/mopub/mobileads/MoPubConversionTracker$1;->val$sessionTracker:Z
@@ -54,7 +53,6 @@
         .end annotation
     .end param
 
-    .line 1
     check-cast p1, Ljava/lang/String;
 
     invoke-virtual {p0, p1}, Lcom/mopub/mobileads/MoPubConversionTracker$1;->onResponse(Ljava/lang/String;)V
@@ -69,14 +67,12 @@
         .end annotation
     .end param
 
-    .line 2
     iget-boolean p1, p0, Lcom/mopub/mobileads/MoPubConversionTracker$1;->val$sessionTracker:Z
 
     if-eqz p1, :cond_0
 
     return-void
 
-    .line 3
     :cond_0
     iget-object p1, p0, Lcom/mopub/mobileads/MoPubConversionTracker$1;->this$0:Lcom/mopub/mobileads/MoPubConversionTracker;
 
@@ -84,14 +80,12 @@
 
     move-result-object p1
 
-    .line 4
     invoke-interface {p1}, Landroid/content/SharedPreferences;->edit()Landroid/content/SharedPreferences$Editor;
 
     move-result-object p1
 
     iget-object v0, p0, Lcom/mopub/mobileads/MoPubConversionTracker$1;->this$0:Lcom/mopub/mobileads/MoPubConversionTracker;
 
-    .line 5
     invoke-static {v0}, Lcom/mopub/mobileads/MoPubConversionTracker;->access$100(Lcom/mopub/mobileads/MoPubConversionTracker;)Ljava/lang/String;
 
     move-result-object v0
@@ -104,7 +98,6 @@
 
     iget-object v0, p0, Lcom/mopub/mobileads/MoPubConversionTracker$1;->this$0:Lcom/mopub/mobileads/MoPubConversionTracker;
 
-    .line 6
     invoke-static {v0}, Lcom/mopub/mobileads/MoPubConversionTracker;->access$000(Lcom/mopub/mobileads/MoPubConversionTracker;)Ljava/lang/String;
 
     move-result-object v0
@@ -115,7 +108,6 @@
 
     move-result-object p1
 
-    .line 7
     invoke-interface {p1}, Landroid/content/SharedPreferences$Editor;->apply()V
 
     return-void

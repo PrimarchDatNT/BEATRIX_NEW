@@ -7,7 +7,6 @@
 .method static a(Landroid/os/Bundle;Ljava/lang/String;Ljava/lang/String;)Lcom/android/billingclient/api/h;
     .locals 7
 
-    .line 1
     sget-object v0, Lcom/android/billingclient/api/a0;->l:Lcom/android/billingclient/api/h;
 
     const/4 v1, 0x0
@@ -22,7 +21,6 @@
 
     const-string p2, "%s got null owned items list"
 
-    .line 2
     invoke-static {p2, p0}, Ljava/lang/String;->format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object p0
@@ -31,33 +29,27 @@
 
     return-object v0
 
-    .line 3
     :cond_0
     invoke-static {p0, p1}, Lf/f/b/b/h/e/b;->b(Landroid/os/Bundle;Ljava/lang/String;)I
 
     move-result v3
 
-    .line 4
     invoke-static {p0, p1}, Lf/f/b/b/h/e/b;->k(Landroid/os/Bundle;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v4
 
-    .line 5
     invoke-static {}, Lcom/android/billingclient/api/h;->c()Lcom/android/billingclient/api/h$a;
 
     move-result-object v5
 
-    .line 6
     invoke-virtual {v5, v3}, Lcom/android/billingclient/api/h$a;->c(I)Lcom/android/billingclient/api/h$a;
 
     move-result-object v5
 
-    .line 7
     invoke-virtual {v5, v4}, Lcom/android/billingclient/api/h$a;->b(Ljava/lang/String;)Lcom/android/billingclient/api/h$a;
 
     move-result-object v4
 
-    .line 8
     invoke-virtual {v4}, Lcom/android/billingclient/api/h$a;->a()Lcom/android/billingclient/api/h;
 
     move-result-object v4
@@ -70,7 +62,6 @@
 
     aput-object p2, p0, v1
 
-    .line 9
     invoke-static {v3}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object p2
@@ -83,7 +74,6 @@
 
     move-result-object p0
 
-    .line 10
     invoke-static {p1, p0}, Lf/f/b/b/h/e/b;->l(Ljava/lang/String;Ljava/lang/String;)V
 
     return-object v4
@@ -91,7 +81,6 @@
     :cond_1
     const-string v3, "INAPP_PURCHASE_ITEM_LIST"
 
-    .line 11
     invoke-virtual {p0, v3}, Landroid/os/Bundle;->containsKey(Ljava/lang/String;)Z
 
     move-result v4
@@ -100,7 +89,6 @@
 
     const-string v4, "INAPP_PURCHASE_DATA_LIST"
 
-    .line 12
     invoke-virtual {p0, v4}, Landroid/os/Bundle;->containsKey(Ljava/lang/String;)Z
 
     move-result v5
@@ -109,7 +97,6 @@
 
     const-string v5, "INAPP_DATA_SIGNATURE_LIST"
 
-    .line 13
     invoke-virtual {p0, v5}, Landroid/os/Bundle;->containsKey(Ljava/lang/String;)Z
 
     move-result v6
@@ -118,18 +105,15 @@
 
     goto :goto_0
 
-    .line 14
     :cond_2
     invoke-virtual {p0, v3}, Landroid/os/Bundle;->getStringArrayList(Ljava/lang/String;)Ljava/util/ArrayList;
 
     move-result-object v3
 
-    .line 15
     invoke-virtual {p0, v4}, Landroid/os/Bundle;->getStringArrayList(Ljava/lang/String;)Ljava/util/ArrayList;
 
     move-result-object v4
 
-    .line 16
     invoke-virtual {p0, v5}, Landroid/os/Bundle;->getStringArrayList(Ljava/lang/String;)Ljava/util/ArrayList;
 
     move-result-object p0
@@ -142,12 +126,10 @@
 
     const-string p2, "Bundle returned from %s contains null SKUs list."
 
-    .line 17
     invoke-static {p2, p0}, Ljava/lang/String;->format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object p0
 
-    .line 18
     invoke-static {p1, p0}, Lf/f/b/b/h/e/b;->l(Ljava/lang/String;Ljava/lang/String;)V
 
     return-object v0
@@ -161,12 +143,10 @@
 
     const-string p2, "Bundle returned from %s contains null purchases list."
 
-    .line 19
     invoke-static {p2, p0}, Ljava/lang/String;->format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object p0
 
-    .line 20
     invoke-static {p1, p0}, Lf/f/b/b/h/e/b;->l(Ljava/lang/String;Ljava/lang/String;)V
 
     return-object v0
@@ -180,17 +160,14 @@
 
     const-string p2, "Bundle returned from %s contains null signatures list."
 
-    .line 21
     invoke-static {p2, p0}, Ljava/lang/String;->format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object p0
 
-    .line 22
     invoke-static {p1, p0}, Lf/f/b/b/h/e/b;->l(Ljava/lang/String;Ljava/lang/String;)V
 
     return-object v0
 
-    .line 23
     :cond_5
     sget-object p0, Lcom/android/billingclient/api/a0;->p:Lcom/android/billingclient/api/h;
 
@@ -204,12 +181,10 @@
 
     const-string p2, "Bundle returned from %s doesn\'t contain required fields."
 
-    .line 24
     invoke-static {p2, p0}, Ljava/lang/String;->format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object p0
 
-    .line 25
     invoke-static {p1, p0}, Lf/f/b/b/h/e/b;->l(Ljava/lang/String;Ljava/lang/String;)V
 
     return-object v0

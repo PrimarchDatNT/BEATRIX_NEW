@@ -30,7 +30,6 @@
 .method constructor <init>(Lf/k/i0/a/e0;Landroidx/room/RoomDatabase;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lf/k/i0/a/e0$a;->a:Lf/k/i0/a/e0;
 
     invoke-direct {p0, p2}, Landroidx/room/EntityInsertionAdapter;-><init>(Landroidx/room/RoomDatabase;)V
@@ -47,7 +46,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p2}, Lcom/commsource/camera/a1/f;->n()I
 
     move-result v1
@@ -58,7 +56,6 @@
 
     invoke-interface {p1, v3, v1, v2}, Landroidx/sqlite/db/SupportSQLiteProgram;->bindLong(IJ)V
 
-    .line 2
     invoke-virtual {p2}, Lcom/commsource/camera/a1/f;->t()Ljava/lang/String;
 
     move-result-object v1
@@ -67,12 +64,10 @@
 
     if-nez v1, :cond_0
 
-    .line 3
     invoke-interface {p1, v2}, Landroidx/sqlite/db/SupportSQLiteProgram;->bindNull(I)V
 
     goto :goto_0
 
-    .line 4
     :cond_0
     invoke-virtual {p2}, Lcom/commsource/camera/a1/f;->t()Ljava/lang/String;
 
@@ -83,7 +78,6 @@
     :goto_0
     const/4 v1, 0x3
 
-    .line 5
     invoke-virtual {p2}, Lcom/commsource/camera/a1/f;->p()I
 
     move-result v2
@@ -94,7 +88,6 @@
 
     const/4 v1, 0x4
 
-    .line 6
     invoke-virtual {p2}, Lcom/commsource/camera/a1/f;->a()I
 
     move-result v2
@@ -105,7 +98,6 @@
 
     const/4 v1, 0x5
 
-    .line 7
     invoke-virtual {p2}, Lcom/commsource/camera/a1/f;->f()I
 
     move-result v2
@@ -114,7 +106,6 @@
 
     invoke-interface {p1, v1, v2, v3}, Landroidx/sqlite/db/SupportSQLiteProgram;->bindLong(IJ)V
 
-    .line 8
     invoke-virtual {p2}, Lcom/commsource/camera/a1/f;->E()Z
 
     move-result v1
@@ -123,12 +114,10 @@
 
     int-to-long v3, v1
 
-    .line 9
     invoke-interface {p1, v2, v3, v4}, Landroidx/sqlite/db/SupportSQLiteProgram;->bindLong(IJ)V
 
     const/4 v1, 0x7
 
-    .line 10
     invoke-virtual {p2}, Lcom/commsource/camera/a1/f;->A()I
 
     move-result v2
@@ -137,7 +126,6 @@
 
     invoke-interface {p1, v1, v2, v3}, Landroidx/sqlite/db/SupportSQLiteProgram;->bindLong(IJ)V
 
-    .line 11
     invoke-virtual {p2}, Lcom/commsource/camera/a1/f;->s()Ljava/lang/String;
 
     move-result-object v1
@@ -146,12 +134,10 @@
 
     if-nez v1, :cond_1
 
-    .line 12
     invoke-interface {p1, v2}, Landroidx/sqlite/db/SupportSQLiteProgram;->bindNull(I)V
 
     goto :goto_1
 
-    .line 13
     :cond_1
     invoke-virtual {p2}, Lcom/commsource/camera/a1/f;->s()Ljava/lang/String;
 
@@ -159,7 +145,6 @@
 
     invoke-interface {p1, v2, v1}, Landroidx/sqlite/db/SupportSQLiteProgram;->bindString(ILjava/lang/String;)V
 
-    .line 14
     :goto_1
     invoke-virtual {p2}, Lcom/commsource/camera/a1/f;->r()Ljava/lang/String;
 
@@ -169,12 +154,10 @@
 
     if-nez v1, :cond_2
 
-    .line 15
     invoke-interface {p1, v2}, Landroidx/sqlite/db/SupportSQLiteProgram;->bindNull(I)V
 
     goto :goto_2
 
-    .line 16
     :cond_2
     invoke-virtual {p2}, Lcom/commsource/camera/a1/f;->r()Ljava/lang/String;
 
@@ -185,7 +168,6 @@
     :goto_2
     const/16 v1, 0xa
 
-    .line 17
     invoke-virtual {p2}, Lcom/commsource/camera/a1/f;->u()J
 
     move-result-wide v2
@@ -194,7 +176,6 @@
 
     const/16 v1, 0xb
 
-    .line 18
     invoke-virtual {p2}, Lcom/commsource/camera/a1/f;->c()I
 
     move-result v2
@@ -205,7 +186,6 @@
 
     const/16 v1, 0xc
 
-    .line 19
     invoke-virtual {p2}, Lcom/commsource/camera/a1/f;->v()I
 
     move-result v2
@@ -216,7 +196,6 @@
 
     const/16 v1, 0xd
 
-    .line 20
     invoke-virtual {p2}, Lcom/commsource/camera/a1/f;->d()I
 
     move-result v2
@@ -225,7 +204,6 @@
 
     invoke-interface {p1, v1, v2, v3}, Landroidx/sqlite/db/SupportSQLiteProgram;->bindLong(IJ)V
 
-    .line 21
     invoke-virtual {p2}, Lcom/commsource/camera/a1/f;->m()Ljava/lang/String;
 
     move-result-object v1
@@ -234,12 +212,10 @@
 
     if-nez v1, :cond_3
 
-    .line 22
     invoke-interface {p1, v2}, Landroidx/sqlite/db/SupportSQLiteProgram;->bindNull(I)V
 
     goto :goto_3
 
-    .line 23
     :cond_3
     invoke-virtual {p2}, Lcom/commsource/camera/a1/f;->m()Ljava/lang/String;
 
@@ -247,7 +223,6 @@
 
     invoke-interface {p1, v2, v1}, Landroidx/sqlite/db/SupportSQLiteProgram;->bindString(ILjava/lang/String;)V
 
-    .line 24
     :goto_3
     invoke-virtual {p2}, Lcom/commsource/camera/a1/f;->h()Ljava/lang/String;
 
@@ -257,12 +232,10 @@
 
     if-nez v1, :cond_4
 
-    .line 25
     invoke-interface {p1, v2}, Landroidx/sqlite/db/SupportSQLiteProgram;->bindNull(I)V
 
     goto :goto_4
 
-    .line 26
     :cond_4
     invoke-virtual {p2}, Lcom/commsource/camera/a1/f;->h()Ljava/lang/String;
 
@@ -270,7 +243,6 @@
 
     invoke-interface {p1, v2, v1}, Landroidx/sqlite/db/SupportSQLiteProgram;->bindString(ILjava/lang/String;)V
 
-    .line 27
     :goto_4
     invoke-virtual {p2}, Lcom/commsource/camera/a1/f;->C()Z
 
@@ -280,12 +252,10 @@
 
     int-to-long v3, v1
 
-    .line 28
     invoke-interface {p1, v2, v3, v4}, Landroidx/sqlite/db/SupportSQLiteProgram;->bindLong(IJ)V
 
     const/16 v1, 0x11
 
-    .line 29
     invoke-virtual {p2}, Lcom/commsource/camera/a1/f;->b()I
 
     move-result v2
@@ -296,7 +266,6 @@
 
     const/16 v1, 0x12
 
-    .line 30
     invoke-virtual {p2}, Lcom/commsource/camera/a1/f;->q()I
 
     move-result v2
@@ -307,7 +276,6 @@
 
     const/16 v1, 0x13
 
-    .line 31
     invoke-virtual {p2}, Lcom/commsource/camera/a1/f;->o()I
 
     move-result v2
@@ -316,7 +284,6 @@
 
     invoke-interface {p1, v1, v2, v3}, Landroidx/sqlite/db/SupportSQLiteProgram;->bindLong(IJ)V
 
-    .line 32
     invoke-virtual {p2}, Lcom/commsource/camera/a1/f;->z()Ljava/lang/String;
 
     move-result-object v1
@@ -325,12 +292,10 @@
 
     if-nez v1, :cond_5
 
-    .line 33
     invoke-interface {p1, v2}, Landroidx/sqlite/db/SupportSQLiteProgram;->bindNull(I)V
 
     goto :goto_5
 
-    .line 34
     :cond_5
     invoke-virtual {p2}, Lcom/commsource/camera/a1/f;->z()Ljava/lang/String;
 
@@ -341,7 +306,6 @@
     :goto_5
     const/16 v1, 0x15
 
-    .line 35
     invoke-virtual {p2}, Lcom/commsource/camera/a1/f;->x()I
 
     move-result v2
@@ -352,7 +316,6 @@
 
     const/16 v1, 0x16
 
-    .line 36
     invoke-virtual {p2}, Lcom/commsource/camera/a1/f;->j()I
 
     move-result v2
@@ -363,7 +326,6 @@
 
     const/16 v1, 0x17
 
-    .line 37
     invoke-virtual {p2}, Lcom/commsource/camera/a1/f;->e()I
 
     move-result v2
@@ -374,7 +336,6 @@
 
     const/16 v1, 0x18
 
-    .line 38
     invoke-virtual {p2}, Lcom/commsource/camera/a1/f;->k()I
 
     move-result p2
@@ -383,7 +344,6 @@
 
     invoke-interface {p1, v1, v2, v3}, Landroidx/sqlite/db/SupportSQLiteProgram;->bindLong(IJ)V
 
-    .line 39
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -396,7 +356,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p2, Lcom/commsource/camera/a1/f;
 
     invoke-virtual {p0, p1, p2}, Lf/k/i0/a/e0$a;->a(Landroidx/sqlite/db/SupportSQLiteStatement;Lcom/commsource/camera/a1/f;)V
@@ -413,7 +372,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const-string v0, "INSERT OR REPLACE INTO `MAKEUP_ENTITY` (`_id`,`name`,`type`,`alpha`,`default_alpha`,`is_internal`,`version_control`,`min_version`,`max_version`,`red_end_time`,`auto_download`,`sort`,`category_id`,`icon`,`file`,`is_downloaded`,`apply_model`,`material_type`,`is_default`,`theme_color`,`suit_default_alpha`,`filter_default_alpha`,`corner_marker`,`gender`) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)"

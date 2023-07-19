@@ -14,7 +14,6 @@
 .method constructor <init>(Lcom/google/android/gms/internal/ads/j80;Lcom/google/android/gms/internal/ads/ee0;)V
     .locals 0
 
-    .line 1
     iput-object p2, p0, Lcom/google/android/gms/internal/ads/n80;->a:Lcom/google/android/gms/internal/ads/ee0;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -51,7 +50,6 @@
         .end annotation
     .end param
 
-    .line 1
     iget-object p1, p0, Lcom/google/android/gms/internal/ads/n80;->a:Lcom/google/android/gms/internal/ads/ee0;
 
     invoke-interface {p1}, Lcom/google/android/gms/internal/ads/ee0;->a()V

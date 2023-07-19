@@ -25,7 +25,6 @@
 .method constructor <init>(Lio/grpc/okhttp/f;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lio/grpc/okhttp/f$b;->a:Lio/grpc/okhttp/f;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -38,7 +37,6 @@
 .method public read()Lio/grpc/internal/g3$d;
     .locals 6
 
-    .line 1
     iget-object v0, p0, Lio/grpc/okhttp/f$b;->a:Lio/grpc/okhttp/f;
 
     invoke-static {v0}, Lio/grpc/okhttp/f;->k(Lio/grpc/okhttp/f;)Ljava/lang/Object;
@@ -47,7 +45,6 @@
 
     monitor-enter v0
 
-    .line 2
     :try_start_0
     iget-object v1, p0, Lio/grpc/okhttp/f$b;->a:Lio/grpc/okhttp/f;
 
@@ -80,7 +77,6 @@
 
     int-to-long v4, v1
 
-    .line 3
     :goto_0
     new-instance v1, Lio/grpc/internal/g3$d;
 
@@ -93,7 +89,6 @@
     :catchall_0
     move-exception v1
 
-    .line 4
     monitor-exit v0
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0

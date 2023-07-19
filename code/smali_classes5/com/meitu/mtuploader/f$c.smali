@@ -31,7 +31,6 @@
 .method constructor <init>(Lcom/meitu/mtuploader/f$e;ILjava/lang/String;Lcom/meitu/mtuploader/bean/MtTokenBean;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/mtuploader/f$c;->a:Lcom/meitu/mtuploader/f$e;
 
     iput p2, p0, Lcom/meitu/mtuploader/f$c;->b:I
@@ -54,7 +53,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/mtuploader/f$c;->a:Lcom/meitu/mtuploader/f$e;
 
     iget v2, p0, Lcom/meitu/mtuploader/f$c;->b:I
@@ -65,7 +63,6 @@
 
     invoke-interface {v1, v2, v3, v4}, Lcom/meitu/mtuploader/f$e;->a(ILjava/lang/String;Lcom/meitu/mtuploader/bean/MtTokenBean;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

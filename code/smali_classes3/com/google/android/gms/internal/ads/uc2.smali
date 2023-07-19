@@ -10,7 +10,6 @@
 .method constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -25,7 +24,6 @@
 
     new-array v0, v0, [Lcom/google/android/gms/internal/ads/gb2;
 
-    .line 1
     new-instance v1, Lcom/google/android/gms/internal/ads/vc2;
 
     invoke-direct {v1}, Lcom/google/android/gms/internal/ads/vc2;-><init>()V

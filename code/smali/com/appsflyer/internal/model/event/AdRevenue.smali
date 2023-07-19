@@ -7,7 +7,6 @@
 .method public constructor <init>()V
     .locals 2
 
-    .line 1
     sget-object v0, Ljava/lang/Boolean;->FALSE:Ljava/lang/Boolean;
 
     const/4 v1, 0x0
@@ -22,7 +21,6 @@
 .method public urlString(Ljava/lang/String;)Lcom/appsflyer/AFEvent;
     .locals 0
 
-    .line 1
     invoke-virtual {p0, p1}, Lcom/appsflyer/AFEvent;->addChannel(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p1

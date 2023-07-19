@@ -24,13 +24,10 @@
 .method constructor <init>(Lcom/meitu/library/uxkit/widget/color/c;Landroid/view/View;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/library/uxkit/widget/color/c$d;->b:Lcom/meitu/library/uxkit/widget/color/c;
 
-    .line 2
     invoke-direct {p0, p2}, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;-><init>(Landroid/view/View;)V
 
-    .line 3
     invoke-static {p1}, Lcom/meitu/library/uxkit/widget/color/c;->l(Lcom/meitu/library/uxkit/widget/color/c;)Landroid/view/View$OnClickListener;
 
     move-result-object p1
@@ -47,7 +44,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/meitu/library/uxkit/widget/color/c$d;->a:Lcom/meitu/library/uxkit/widget/color/ColorPickerView;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -62,7 +58,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/library/uxkit/widget/color/c$d;->a:Lcom/meitu/library/uxkit/widget/color/ColorPickerView;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

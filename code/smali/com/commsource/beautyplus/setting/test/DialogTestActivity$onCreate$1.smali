@@ -42,7 +42,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v0, Lcom/commsource/beautyplus/setting/test/DialogTestActivity$onCreate$1$1;
 
     invoke-direct {v0, p0}, Lcom/commsource/beautyplus/setting/test/DialogTestActivity$onCreate$1$1;-><init>(Lcom/commsource/beautyplus/setting/test/DialogTestActivity$onCreate$1;)V
@@ -51,10 +50,8 @@
 
     move-result-object v0
 
-    .line 2
     invoke-virtual {v0}, Lf/d/a;->F()V
 
-    .line 3
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

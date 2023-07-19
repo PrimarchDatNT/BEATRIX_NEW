@@ -111,7 +111,6 @@
 
     invoke-static {p7, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     iput-wide p1, p0, Lkshark/LeakTraceObject;->objectId:J
@@ -477,7 +476,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lkshark/LeakTraceObject;->className:Ljava/lang/String;
 
     return-object v0
@@ -488,7 +486,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lkshark/LeakTraceObject;->className:Ljava/lang/String;
 
     const/16 v1, 0x2e
@@ -514,7 +511,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lkshark/LeakTraceObject;->labels:Ljava/util/Set;
 
     return-object v0
@@ -525,7 +521,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lkshark/LeakTraceObject;->leakingStatus:Lkshark/LeakTraceObject$LeakingStatus;
 
     return-object v0
@@ -536,7 +531,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lkshark/LeakTraceObject;->leakingStatusReason:Ljava/lang/String;
 
     return-object v0
@@ -545,7 +539,6 @@
 .method public final getObjectId()J
     .locals 2
 
-    .line 1
     iget-wide v0, p0, Lkshark/LeakTraceObject;->objectId:J
 
     return-wide v0
@@ -556,7 +549,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lkshark/LeakTraceObject;->type:Lkshark/LeakTraceObject$ObjectType;
 
     return-object v0
@@ -567,7 +559,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lkshark/LeakTraceObject;->type:Lkshark/LeakTraceObject$ObjectType;
 
     invoke-virtual {v0}, Ljava/lang/Enum;->name()Ljava/lang/String;

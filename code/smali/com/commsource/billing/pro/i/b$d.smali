@@ -41,7 +41,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/billing/pro/i/b$d;->a:Lcom/commsource/billing/pro/i/b;
 
     iput-wide p2, p0, Lcom/commsource/billing/pro/i/b$d;->b:J
@@ -76,10 +75,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/billing/pro/i/b$d;->a:Lcom/commsource/billing/pro/i/b;
 
-    .line 2
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v2
@@ -94,12 +91,10 @@
 
     move-object v6, p1
 
-    .line 3
     invoke-static/range {v1 .. v6}, Lcom/commsource/billing/pro/i/b;->i(Lcom/commsource/billing/pro/i/b;IJLjava/util/List;Ljava/util/List;)V
 
     if-eqz p1, :cond_1
 
-    .line 4
     invoke-interface {p1}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
     move-result-object v1
@@ -117,7 +112,6 @@
 
     check-cast v2, Lcom/meitu/global/billing/product/data/Product;
 
-    .line 5
     iget-object v3, p0, Lcom/commsource/billing/pro/i/b$d;->a:Lcom/commsource/billing/pro/i/b;
 
     invoke-static {v3}, Lcom/commsource/billing/pro/i/b;->h(Lcom/commsource/billing/pro/i/b;)Ljava/util/HashMap;
@@ -134,7 +128,6 @@
 
     invoke-interface {v3, v4, v2}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 6
     new-instance v3, Ljava/lang/StringBuilder;
 
     invoke-direct {v3}, Ljava/lang/StringBuilder;-><init>()V
@@ -159,7 +152,6 @@
 
     goto :goto_0
 
-    .line 7
     :cond_0
     iget-object v1, p0, Lcom/commsource/billing/pro/i/b$d;->d:Lcom/commsource/billing/pro/a;
 
@@ -167,7 +159,6 @@
 
     invoke-interface {v1, p1}, Lcom/commsource/billing/pro/a;->a(Ljava/lang/Object;)V
 
-    .line 8
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -181,10 +172,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/billing/pro/i/b$d;->a:Lcom/commsource/billing/pro/i/b;
 
-    .line 2
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v2
@@ -199,10 +188,8 @@
 
     move v2, p1
 
-    .line 3
     invoke-static/range {v1 .. v6}, Lcom/commsource/billing/pro/i/b;->i(Lcom/commsource/billing/pro/i/b;IJLjava/util/List;Ljava/util/List;)V
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/billing/pro/i/b$d;->d:Lcom/commsource/billing/pro/a;
 
     if-eqz v1, :cond_0
@@ -211,7 +198,6 @@
 
     invoke-interface {v1, p1, v2}, Lcom/commsource/billing/pro/a;->onError(ILjava/lang/String;)V
 
-    .line 5
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

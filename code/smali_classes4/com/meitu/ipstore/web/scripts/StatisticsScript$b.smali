@@ -30,7 +30,6 @@
 .method constructor <init>(Lcom/meitu/ipstore/web/scripts/StatisticsScript;Ljava/lang/Class;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/ipstore/web/scripts/StatisticsScript$b;->c:Lcom/meitu/ipstore/web/scripts/StatisticsScript;
 
     invoke-direct {p0, p1, p2}, Lcom/meitu/webview/mtscript/i$c;-><init>(Lcom/meitu/webview/mtscript/i;Ljava/lang/Class;)V
@@ -47,7 +46,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Lcom/meitu/ipstore/web/scripts/StatisticsScript$Model;
 
     invoke-virtual {p0, p1}, Lcom/meitu/ipstore/web/scripts/StatisticsScript$b;->d(Lcom/meitu/ipstore/web/scripts/StatisticsScript$Model;)V
@@ -64,7 +62,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p1, Lcom/meitu/ipstore/web/scripts/StatisticsScript$Model;->event:Ljava/lang/String;
 
     invoke-static {v1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
@@ -73,12 +70,10 @@
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 3
     :cond_0
     invoke-static {}, Lf/k/m/b;->i()Lf/k/m/b;
 
@@ -90,14 +85,12 @@
 
     if-eqz v1, :cond_1
 
-    .line 4
     iget-object v2, p1, Lcom/meitu/ipstore/web/scripts/StatisticsScript$Model;->event:Ljava/lang/String;
 
     iget-object p1, p1, Lcom/meitu/ipstore/web/scripts/StatisticsScript$Model;->params:Ljava/util/Map;
 
     invoke-interface {v1, v2, p1}, Lf/k/m/d;->f(Ljava/lang/String;Ljava/util/Map;)V
 
-    .line 5
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

@@ -54,7 +54,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p2, Lcom/commsource/studio/sub/SubModuleEnum;
 
     invoke-virtual {p0, p1, p2}, Lcom/commsource/studio/sub/e$b;->b(ILcom/commsource/studio/sub/SubModuleEnum;)Z
@@ -73,7 +72,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p2}, Lcom/commsource/studio/sub/SubModuleEnum;->getStatisticName()Ljava/lang/String;
 
     move-result-object v1
@@ -82,22 +80,18 @@
 
     const-string v3, "\u5b50\u529f\u80fd"
 
-    .line 2
     invoke-static {v2, v3, v1}, Lcom/commsource/statistics/i;->r(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 3
     sget-object v1, Lcom/commsource/studio/sub/SubModuleEnum;->Segment:Lcom/commsource/studio/sub/SubModuleEnum;
 
     if-ne p2, v1, :cond_0
 
-    .line 4
     sget-object v1, Lcom/commsource/studio/function/SegmentFragment;->u0:Lcom/commsource/studio/function/SegmentFragment$a;
 
     const-string v2, "\u7f16\u8f91"
 
     invoke-virtual {v1, v2}, Lcom/commsource/studio/function/SegmentFragment$a;->b(Ljava/lang/String;)V
 
-    .line 5
     :cond_0
     iget-object v1, p0, Lcom/commsource/studio/sub/e$b;->a:Lcom/commsource/studio/sub/e;
 
@@ -117,7 +111,6 @@
 
     invoke-virtual {v1, v2}, Landroidx/lifecycle/MutableLiveData;->setValue(Ljava/lang/Object;)V
 
-    .line 6
     iget-object p2, p0, Lcom/commsource/studio/sub/e$b;->a:Lcom/commsource/studio/sub/e;
 
     invoke-virtual {p2}, Lcom/commsource/studio/sub/e;->X()Lcom/commsource/beautyplus/f0/gc;
@@ -130,7 +123,6 @@
 
     const/4 p1, 0x0
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1

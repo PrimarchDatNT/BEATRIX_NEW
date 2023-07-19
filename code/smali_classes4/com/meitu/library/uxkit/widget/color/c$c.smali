@@ -30,7 +30,6 @@
 .method private constructor <init>(Lcom/meitu/library/uxkit/widget/color/c;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/library/uxkit/widget/color/c$c;->a:Lcom/meitu/library/uxkit/widget/color/c;
 
     invoke-direct {p0}, Landroidx/recyclerview/widget/RecyclerView$Adapter;-><init>()V
@@ -41,7 +40,6 @@
 .method synthetic constructor <init>(Lcom/meitu/library/uxkit/widget/color/c;Lcom/meitu/library/uxkit/widget/color/c$a;)V
     .locals 0
 
-    .line 2
     invoke-direct {p0, p1}, Lcom/meitu/library/uxkit/widget/color/c$c;-><init>(Lcom/meitu/library/uxkit/widget/color/c;)V
 
     return-void
@@ -67,7 +65,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/library/uxkit/widget/color/c$c;->a:Lcom/meitu/library/uxkit/widget/color/c;
 
     iget-object v1, v1, Lcom/meitu/library/uxkit/widget/color/a;->a:Ljava/util/List;
@@ -78,7 +75,6 @@
 
     check-cast v1, Lcom/meitu/library/uxkit/widget/color/AbsColorBean;
 
-    .line 2
     iget-object v1, v1, Lcom/meitu/library/uxkit/widget/color/AbsColorBean;->color:[F
 
     const/4 v2, 0x0
@@ -103,7 +99,6 @@
 
     move-result v1
 
-    .line 3
     iget-object v3, p1, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->itemView:Landroid/view/View;
 
     invoke-static {p2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -112,7 +107,6 @@
 
     invoke-virtual {v3, v5}, Landroid/view/View;->setTag(Ljava/lang/Object;)V
 
-    .line 4
     invoke-static {p1}, Lcom/meitu/library/uxkit/widget/color/c$d;->a(Lcom/meitu/library/uxkit/widget/color/c$d;)Lcom/meitu/library/uxkit/widget/color/ColorPickerView;
 
     move-result-object v3
@@ -137,7 +131,6 @@
     :goto_0
     invoke-virtual {v3, v5}, Lcom/meitu/library/uxkit/widget/color/ColorPickerView;->setInnerHollow(Z)V
 
-    .line 5
     invoke-static {p1}, Lcom/meitu/library/uxkit/widget/color/c$d;->a(Lcom/meitu/library/uxkit/widget/color/c$d;)Lcom/meitu/library/uxkit/widget/color/ColorPickerView;
 
     move-result-object v3
@@ -156,7 +149,6 @@
 
     invoke-virtual {v3, v5, v1}, Lcom/meitu/library/uxkit/widget/color/ColorPickerView;->b(II)V
 
-    .line 6
     invoke-static {p1}, Lcom/meitu/library/uxkit/widget/color/c$d;->a(Lcom/meitu/library/uxkit/widget/color/c$d;)Lcom/meitu/library/uxkit/widget/color/ColorPickerView;
 
     move-result-object p1
@@ -172,7 +164,6 @@
     :cond_1
     invoke-virtual {p1, v2}, Lcom/meitu/library/uxkit/widget/color/ColorPickerView;->a(Z)V
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -201,7 +192,6 @@
 
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p1}, Landroid/view/ViewGroup;->getContext()Landroid/content/Context;
 
     move-result-object p1
@@ -214,7 +204,6 @@
 
     move-result-object p1
 
-    .line 2
     new-instance v0, Lcom/meitu/library/uxkit/widget/color/c$d;
 
     iget-object v1, p0, Lcom/meitu/library/uxkit/widget/color/c$c;->a:Lcom/meitu/library/uxkit/widget/color/c;
@@ -223,7 +212,6 @@
 
     sget v1, Lcom/res/provider/ResID;->color_picker_view:I
 
-    .line 3
     invoke-virtual {p1, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object p1
@@ -232,7 +220,6 @@
 
     invoke-static {v0, p1}, Lcom/meitu/library/uxkit/widget/color/c$d;->b(Lcom/meitu/library/uxkit/widget/color/c$d;Lcom/meitu/library/uxkit/widget/color/ColorPickerView;)Lcom/meitu/library/uxkit/widget/color/ColorPickerView;
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/uxkit/widget/color/c$d;->a(Lcom/meitu/library/uxkit/widget/color/c$d;)Lcom/meitu/library/uxkit/widget/color/ColorPickerView;
 
     move-result-object p1
@@ -241,7 +228,6 @@
 
     move-result-object p1
 
-    .line 5
     iget-object v1, p0, Lcom/meitu/library/uxkit/widget/color/c$c;->a:Lcom/meitu/library/uxkit/widget/color/c;
 
     invoke-virtual {v1}, Lcom/meitu/library/uxkit/widget/color/c;->o()I
@@ -250,7 +236,6 @@
 
     iput v1, p1, Landroid/view/ViewGroup$LayoutParams;->width:I
 
-    .line 6
     iget-object v1, p0, Lcom/meitu/library/uxkit/widget/color/c$c;->a:Lcom/meitu/library/uxkit/widget/color/c;
 
     invoke-virtual {v1}, Lcom/meitu/library/uxkit/widget/color/c;->o()I
@@ -259,14 +244,12 @@
 
     iput v1, p1, Landroid/view/ViewGroup$LayoutParams;->height:I
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/uxkit/widget/color/c$d;->a(Lcom/meitu/library/uxkit/widget/color/c$d;)Lcom/meitu/library/uxkit/widget/color/ColorPickerView;
 
     move-result-object v1
 
     invoke-virtual {v1, p1}, Landroid/view/View;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
 
-    .line 8
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v0
@@ -279,7 +262,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/library/uxkit/widget/color/c$c;->a:Lcom/meitu/library/uxkit/widget/color/c;
 
     iget-object v1, v1, Lcom/meitu/library/uxkit/widget/color/a;->a:Ljava/util/List;
@@ -304,7 +286,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Lcom/meitu/library/uxkit/widget/color/c$d;
 
     invoke-virtual {p0, p1, p2}, Lcom/meitu/library/uxkit/widget/color/c$c;->a(Lcom/meitu/library/uxkit/widget/color/c$d;I)V
@@ -327,7 +308,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0, p1, p2}, Lcom/meitu/library/uxkit/widget/color/c$c;->b(Landroid/view/ViewGroup;I)Lcom/meitu/library/uxkit/widget/color/c$d;
 
     move-result-object p1

@@ -42,7 +42,6 @@
 .method static constructor <clinit>()V
     .locals 13
 
-    .line 1
     new-instance v0, Lcom/appsflyer/internal/l$c;
 
     const-string v1, "EMPTY_ARRAY"
@@ -53,7 +52,6 @@
 
     sput-object v0, Lcom/appsflyer/internal/l$c;->AFDateFormat:Lcom/appsflyer/internal/l$c;
 
-    .line 2
     new-instance v1, Lcom/appsflyer/internal/l$c;
 
     const-string v3, "NONEMPTY_ARRAY"
@@ -64,7 +62,6 @@
 
     sput-object v1, Lcom/appsflyer/internal/l$c;->$$b:Lcom/appsflyer/internal/l$c;
 
-    .line 3
     new-instance v3, Lcom/appsflyer/internal/l$c;
 
     const-string v5, "EMPTY_OBJECT"
@@ -75,7 +72,6 @@
 
     sput-object v3, Lcom/appsflyer/internal/l$c;->valueOf:Lcom/appsflyer/internal/l$c;
 
-    .line 4
     new-instance v5, Lcom/appsflyer/internal/l$c;
 
     const-string v7, "DANGLING_KEY"
@@ -86,7 +82,6 @@
 
     sput-object v5, Lcom/appsflyer/internal/l$c;->$$a:Lcom/appsflyer/internal/l$c;
 
-    .line 5
     new-instance v7, Lcom/appsflyer/internal/l$c;
 
     const-string v9, "NONEMPTY_OBJECT"
@@ -97,7 +92,6 @@
 
     sput-object v7, Lcom/appsflyer/internal/l$c;->values:Lcom/appsflyer/internal/l$c;
 
-    .line 6
     new-instance v9, Lcom/appsflyer/internal/l$c;
 
     const-string v11, "NULL"
@@ -124,7 +118,6 @@
 
     aput-object v9, v11, v12
 
-    .line 7
     sput-object v11, Lcom/appsflyer/internal/l$c;->dateFormatUTC:[Lcom/appsflyer/internal/l$c;
 
     return-void
@@ -138,7 +131,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
     return-void
@@ -147,7 +139,6 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/appsflyer/internal/l$c;
     .locals 1
 
-    .line 1
     const-class v0, Lcom/appsflyer/internal/l$c;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -162,7 +153,6 @@
 .method public static values()[Lcom/appsflyer/internal/l$c;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/appsflyer/internal/l$c;->dateFormatUTC:[Lcom/appsflyer/internal/l$c;
 
     invoke-virtual {v0}, [Lcom/appsflyer/internal/l$c;->clone()Ljava/lang/Object;

@@ -25,7 +25,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -42,7 +41,6 @@
 
     if-eqz p0, :cond_1
 
-    .line 1
     invoke-static {p1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v2
@@ -51,14 +49,12 @@
 
     goto :goto_1
 
-    .line 2
     :cond_0
     :try_start_0
     invoke-virtual {p0}, Landroid/content/Context;->getContentResolver()Landroid/content/ContentResolver;
 
     move-result-object p0
 
-    .line 3
     sget-object v2, Landroid/provider/MediaStore$Images$Media;->EXTERNAL_CONTENT_URI:Landroid/net/Uri;
 
     const-string v3, "_data =? "
@@ -71,7 +67,6 @@
 
     aput-object p1, v4, v5
 
-    .line 4
     invoke-virtual {p0, v2, v3, v4}, Landroid/content/ContentResolver;->delete(Landroid/net/Uri;Ljava/lang/String;[Ljava/lang/String;)I
 
     move-result v1
@@ -83,16 +78,13 @@
     :catch_0
     move-exception p0
 
-    .line 5
     invoke-static {p0}, Lcom/meitu/library/util/Debug/Debug;->q(Ljava/lang/Throwable;)V
 
-    .line 6
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
 
-    .line 7
     :cond_1
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -111,12 +103,10 @@
 
     if-nez p0, :cond_0
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
 
-    .line 2
     :cond_0
     sget-object v3, Landroid/provider/MediaStore$Images$Media;->EXTERNAL_CONTENT_URI:Landroid/net/Uri;
 
@@ -126,7 +116,6 @@
 
     const-string v10, "_data"
 
-    .line 3
     filled-new-array {v8, v9, v10}, [Ljava/lang/String;
 
     move-result-object v4
@@ -137,14 +126,12 @@
 
     const-string v6, "image/vnd.wap.wbmp"
 
-    .line 4
     filled-new-array {v2, v6}, [Ljava/lang/String;
 
     move-result-object v6
 
     const-string v7, "date_modified DESC"
 
-    .line 5
     :try_start_0
     invoke-virtual {p0}, Landroid/content/Context;->getContentResolver()Landroid/content/ContentResolver;
 
@@ -161,7 +148,6 @@
     :catch_0
     move-exception p0
 
-    .line 6
     invoke-virtual {p0}, Ljava/lang/Exception;->printStackTrace()V
 
     move-object p0, v1
@@ -169,18 +155,15 @@
     :goto_0
     if-nez p0, :cond_1
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
 
-    .line 8
     :cond_1
     new-instance v2, Lcom/commsource/album/provider/BucketInfo;
 
     invoke-direct {v2}, Lcom/commsource/album/provider/BucketInfo;-><init>()V
 
-    .line 9
     :cond_2
     invoke-interface {p0}, Landroid/database/Cursor;->moveToNext()Z
 
@@ -188,7 +171,6 @@
 
     if-eqz v3, :cond_3
 
-    .line 10
     invoke-interface {p0, v10}, Landroid/database/Cursor;->getColumnIndex(Ljava/lang/String;)I
 
     move-result v3
@@ -197,7 +179,6 @@
 
     move-result-object v3
 
-    .line 11
     invoke-static {v3}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v4
@@ -212,7 +193,6 @@
 
     if-eqz v4, :cond_2
 
-    .line 12
     invoke-interface {p0, v8}, Landroid/database/Cursor;->getColumnIndex(Ljava/lang/String;)I
 
     move-result v4
@@ -223,14 +203,12 @@
 
     invoke-virtual {v2, v4}, Lcom/commsource/album/provider/BucketInfo;->setDirID(Ljava/lang/String;)V
 
-    .line 13
     invoke-interface {p0}, Landroid/database/Cursor;->getCount()I
 
     move-result v4
 
     invoke-virtual {v2, v4}, Lcom/commsource/album/provider/BucketInfo;->setDirItemNum(I)V
 
-    .line 14
     invoke-interface {p0, v9}, Landroid/database/Cursor;->getColumnIndex(Ljava/lang/String;)I
 
     move-result v4
@@ -241,31 +219,25 @@
 
     invoke-virtual {v2, v4}, Lcom/commsource/album/provider/BucketInfo;->setDirName(Ljava/lang/String;)V
 
-    .line 15
     invoke-virtual {v2, v3}, Lcom/commsource/album/provider/BucketInfo;->setPicPath(Ljava/lang/String;)V
 
     const-wide/16 v3, -0x1
 
-    .line 16
     invoke-virtual {v2, v3, v4}, Lcom/commsource/album/provider/BucketInfo;->setLastModified(J)V
 
-    .line 17
     :cond_3
     invoke-interface {p0}, Landroid/database/Cursor;->close()V
 
-    .line 18
     invoke-virtual {v2}, Lcom/commsource/album/provider/BucketInfo;->getDirPath()Ljava/lang/String;
 
     move-result-object p0
 
     if-nez p0, :cond_4
 
-    .line 19
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
 
-    .line 20
     :cond_4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -283,7 +255,6 @@
 
     if-nez p1, :cond_0
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
@@ -291,12 +262,10 @@
     :cond_0
     const-string v2, "_data"
 
-    .line 2
     filled-new-array {v2}, [Ljava/lang/String;
 
     move-result-object v5
 
-    .line 3
     invoke-virtual {p0}, Landroid/content/Context;->getContentResolver()Landroid/content/ContentResolver;
 
     move-result-object v3
@@ -315,7 +284,6 @@
 
     if-eqz p0, :cond_1
 
-    .line 4
     invoke-interface {p0}, Landroid/database/Cursor;->moveToFirst()Z
 
     move-result p1
@@ -324,20 +292,16 @@
 
     const/4 p1, 0x0
 
-    .line 5
     invoke-interface {p0, p1}, Landroid/database/Cursor;->getString(I)Ljava/lang/String;
 
     move-result-object p1
 
-    .line 6
     invoke-interface {p0}, Landroid/database/Cursor;->close()V
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p1
 
-    .line 8
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -351,7 +315,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Landroid/content/Context;->getContentResolver()Landroid/content/ContentResolver;
 
     move-result-object v1
@@ -360,7 +323,6 @@
 
     const-string v2, "date_modified"
 
-    .line 2
     filled-new-array {p0, v2}, [Ljava/lang/String;
 
     move-result-object v3
@@ -369,7 +331,6 @@
 
     const/4 v7, 0x0
 
-    .line 3
     :try_start_0
     sget-object v2, Landroid/provider/MediaStore$Images$Media;->EXTERNAL_CONTENT_URI:Landroid/net/Uri;
 
@@ -426,7 +387,6 @@
     :catch_0
     move-exception p1
 
-    .line 4
     invoke-virtual {p1}, Ljava/lang/Exception;->printStackTrace()V
 
     move-object p1, v7
@@ -434,12 +394,10 @@
     :goto_0
     if-nez p1, :cond_0
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v7
 
-    .line 6
     :cond_0
     invoke-interface {p1}, Landroid/database/Cursor;->moveToFirst()Z
 
@@ -447,7 +405,6 @@
 
     if-eqz v1, :cond_1
 
-    .line 7
     invoke-interface {p1, p0}, Landroid/database/Cursor;->getColumnIndex(Ljava/lang/String;)I
 
     move-result p0
@@ -456,14 +413,11 @@
 
     move-result-object v7
 
-    .line 8
     invoke-interface {p1}, Landroid/database/Cursor;->moveToNext()Z
 
-    .line 9
     :cond_1
     invoke-interface {p1}, Landroid/database/Cursor;->close()V
 
-    .line 10
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v7
@@ -491,18 +445,15 @@
 
     if-nez p1, :cond_0
 
-    .line 1
     invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v2
 
-    .line 2
     :cond_0
     new-instance v3, Ljava/util/ArrayList;
 
     invoke-direct {v3}, Ljava/util/ArrayList;-><init>()V
 
-    .line 3
     sget-object v0, Landroid/provider/MediaStore$Images$Media;->EXTERNAL_CONTENT_URI:Landroid/net/Uri;
 
     const-string v10, "_id"
@@ -515,7 +466,6 @@
 
     const-string v14, "height"
 
-    .line 4
     filled-new-array {v10, v11, v12, v13, v14}, [Ljava/lang/String;
 
     move-result-object v6
@@ -538,7 +488,6 @@
 
     const-string v9, "date_modified DESC"
 
-    .line 5
     :try_start_0
     invoke-virtual {p0}, Landroid/content/Context;->getContentResolver()Landroid/content/ContentResolver;
 
@@ -552,7 +501,6 @@
 
     if-eqz v2, :cond_1
 
-    .line 6
     invoke-interface {v2}, Landroid/database/Cursor;->moveToFirst()Z
 
     :goto_0
@@ -562,12 +510,10 @@
 
     if-nez v4, :cond_1
 
-    .line 7
     new-instance v4, Lcom/commsource/album/provider/ImageInfo;
 
     invoke-direct {v4}, Lcom/commsource/album/provider/ImageInfo;-><init>()V
 
-    .line 8
     invoke-interface {v2, v10}, Landroid/database/Cursor;->getColumnIndex(Ljava/lang/String;)I
 
     move-result v5
@@ -582,7 +528,6 @@
 
     invoke-virtual {v4, v5}, Lcom/commsource/album/provider/ImageInfo;->setImageUri(Landroid/net/Uri;)V
 
-    .line 9
     invoke-interface {v2, v11}, Landroid/database/Cursor;->getColumnIndex(Ljava/lang/String;)I
 
     move-result v5
@@ -593,7 +538,6 @@
 
     invoke-virtual {v4, v5}, Lcom/commsource/album/provider/ImageInfo;->setImagePath(Ljava/lang/String;)V
 
-    .line 10
     new-instance v5, Ljava/lang/StringBuilder;
 
     invoke-direct {v5}, Ljava/lang/StringBuilder;-><init>()V
@@ -618,7 +562,6 @@
 
     invoke-virtual {v4, v5}, Lcom/commsource/album/provider/ImageInfo;->setImageId(Ljava/lang/String;)V
 
-    .line 11
     invoke-interface {v2, v12}, Landroid/database/Cursor;->getColumnIndex(Ljava/lang/String;)I
 
     move-result v5
@@ -629,7 +572,6 @@
 
     invoke-virtual {v4, v5}, Lcom/commsource/album/provider/ImageInfo;->setModifyDate(Ljava/lang/String;)V
 
-    .line 12
     invoke-interface {v2, v14}, Landroid/database/Cursor;->getColumnIndex(Ljava/lang/String;)I
 
     move-result v5
@@ -640,7 +582,6 @@
 
     invoke-virtual {v4, v5}, Lcom/commsource/album/provider/ImageInfo;->setHeight(I)V
 
-    .line 13
     invoke-interface {v2, v13}, Landroid/database/Cursor;->getColumnIndex(Ljava/lang/String;)I
 
     move-result v5
@@ -651,10 +592,8 @@
 
     invoke-virtual {v4, v5}, Lcom/commsource/album/provider/ImageInfo;->setWidth(I)V
 
-    .line 14
     invoke-interface {v3, v4}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
-    .line 15
     invoke-interface {v2}, Landroid/database/Cursor;->moveToNext()Z
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
@@ -675,7 +614,6 @@
     :catch_0
     move-exception v0
 
-    .line 16
     :try_start_1
     invoke-static {v0}, Lcom/meitu/library/util/Debug/Debug;->a0(Ljava/lang/Throwable;)V
     :try_end_1
@@ -683,11 +621,9 @@
 
     if-eqz v2, :cond_2
 
-    .line 17
     :goto_1
     invoke-interface {v2}, Landroid/database/Cursor;->close()V
 
-    .line 18
     :cond_2
     invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -696,10 +632,8 @@
     :goto_2
     if-eqz v2, :cond_3
 
-    .line 19
     invoke-interface {v2}, Landroid/database/Cursor;->close()V
 
-    .line 20
     :cond_3
     invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -713,7 +647,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v1
@@ -722,7 +655,6 @@
 
     const-string v1, "/."
 
-    .line 2
     invoke-virtual {p0, v1}, Ljava/lang/String;->contains(Ljava/lang/CharSequence;)Z
 
     move-result p0
@@ -734,7 +666,6 @@
     :cond_0
     const/4 p0, 0x0
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p0
@@ -757,12 +688,10 @@
 
     invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/commsource/util/d2;->b()Lcom/commsource/util/d2;
 
     move-result-object v0
 
-    .line 2
     invoke-virtual/range {p0 .. p0}, Landroid/content/Context;->getContentResolver()Landroid/content/ContentResolver;
 
     move-result-object v2
@@ -771,12 +700,10 @@
 
     if-nez v2, :cond_0
 
-    .line 3
     invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v8
 
-    .line 4
     :cond_0
     sget-object v9, Landroid/provider/MediaStore$Images$Media;->EXTERNAL_CONTENT_URI:Landroid/net/Uri;
 
@@ -788,14 +715,12 @@
 
     const-string v13, "_id"
 
-    .line 5
     filled-new-array {v10, v11, v12, v13}, [Ljava/lang/String;
 
     move-result-object v4
 
     const-string v7, "date_modified DESC"
 
-    .line 6
     :try_start_0
     new-instance v14, Ljava/util/HashMap;
 
@@ -809,7 +734,6 @@
 
     move-object v3, v9
 
-    .line 7
     invoke-virtual/range {v2 .. v7}, Landroid/content/ContentResolver;->query(Landroid/net/Uri;[Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;)Landroid/database/Cursor;
 
     move-result-object v2
@@ -821,16 +745,13 @@
 
     if-eqz v2, :cond_1
 
-    .line 8
     invoke-interface {v2}, Landroid/database/Cursor;->close()V
 
-    .line 9
     :cond_1
     invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v8
 
-    .line 10
     :cond_2
     :goto_0
     :try_start_1
@@ -840,7 +761,6 @@
 
     if-eqz v3, :cond_5
 
-    .line 11
     invoke-interface {v2, v11}, Landroid/database/Cursor;->getColumnIndex(Ljava/lang/String;)I
 
     move-result v3
@@ -849,7 +769,6 @@
 
     move-result-object v3
 
-    .line 12
     invoke-static {v3}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v4
@@ -858,7 +777,6 @@
 
     goto :goto_0
 
-    .line 13
     :cond_3
     invoke-interface {v2, v10}, Landroid/database/Cursor;->getColumnIndex(Ljava/lang/String;)I
 
@@ -868,14 +786,12 @@
 
     move-result-object v4
 
-    .line 14
     invoke-virtual {v14, v4}, Ljava/util/HashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v5
 
     check-cast v5, Lcom/commsource/album/provider/BucketInfo;
 
-    .line 15
     invoke-interface {v2, v12}, Landroid/database/Cursor;->getColumnIndex(Ljava/lang/String;)I
 
     move-result v6
@@ -884,7 +800,6 @@
 
     move-result-object v6
 
-    .line 16
     invoke-interface {v2, v13}, Landroid/database/Cursor;->getColumnIndex(Ljava/lang/String;)I
 
     move-result v7
@@ -903,32 +818,24 @@
 
     if-nez v5, :cond_4
 
-    .line 17
     new-instance v5, Lcom/commsource/album/provider/BucketInfo;
 
     invoke-direct {v5}, Lcom/commsource/album/provider/BucketInfo;-><init>()V
 
-    .line 18
     invoke-virtual {v5, v4}, Lcom/commsource/album/provider/BucketInfo;->setDirID(Ljava/lang/String;)V
 
-    .line 19
     invoke-virtual {v5, v3}, Lcom/commsource/album/provider/BucketInfo;->setDirName(Ljava/lang/String;)V
 
-    .line 20
     invoke-virtual {v5, v6}, Lcom/commsource/album/provider/BucketInfo;->setPicPath(Ljava/lang/String;)V
 
-    .line 21
     invoke-virtual {v5, v7}, Lcom/commsource/album/provider/BucketInfo;->setImageUri(Landroid/net/Uri;)V
 
     const-wide/16 v6, -0x1
 
-    .line 22
     invoke-virtual {v5, v6, v7}, Lcom/commsource/album/provider/BucketInfo;->setLastModified(J)V
 
-    .line 23
     invoke-virtual {v14, v4, v5}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 24
     :cond_4
     invoke-virtual {v5}, Lcom/commsource/album/provider/BucketInfo;->getDirItemNum()I
 
@@ -944,13 +851,11 @@
 
     goto :goto_0
 
-    .line 25
     :cond_5
     invoke-interface {v2}, Landroid/database/Cursor;->close()V
 
     const-string v3, "lhy"
 
-    .line 26
     new-instance v4, Ljava/lang/StringBuilder;
 
     invoke-direct {v4}, Ljava/lang/StringBuilder;-><init>()V
@@ -971,7 +876,6 @@
 
     invoke-static {v3, v0}, Lcom/meitu/library/util/Debug/Debug;->P(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 27
     invoke-static {v14}, Lcom/commsource/album/provider/a;->h(Ljava/util/HashMap;)Ljava/util/ArrayList;
 
     move-result-object v0
@@ -981,10 +885,8 @@
 
     if-eqz v2, :cond_6
 
-    .line 28
     invoke-interface {v2}, Landroid/database/Cursor;->close()V
 
-    .line 29
     :cond_6
     invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1005,7 +907,6 @@
 
     move-object v2, v8
 
-    .line 30
     :goto_1
     :try_start_2
     invoke-static {v0}, Lcom/meitu/library/util/Debug/Debug;->a0(Ljava/lang/Throwable;)V
@@ -1014,10 +915,8 @@
 
     if-eqz v2, :cond_7
 
-    .line 31
     invoke-interface {v2}, Landroid/database/Cursor;->close()V
 
-    .line 32
     :cond_7
     invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1031,10 +930,8 @@
     :goto_2
     if-eqz v8, :cond_8
 
-    .line 33
     invoke-interface {v8}, Landroid/database/Cursor;->close()V
 
-    .line 34
     :cond_8
     invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1060,14 +957,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/util/ArrayList;
 
     invoke-direct {v1}, Ljava/util/ArrayList;-><init>()V
 
     if-eqz p0, :cond_9
 
-    .line 2
     invoke-virtual {p0}, Ljava/util/HashMap;->isEmpty()Z
 
     move-result v2
@@ -1076,53 +971,43 @@
 
     goto/16 :goto_1
 
-    .line 3
     :cond_0
     new-instance v2, Ljava/util/LinkedHashSet;
 
     invoke-direct {v2}, Ljava/util/LinkedHashSet;-><init>()V
 
-    .line 4
     new-instance v3, Ljava/util/LinkedHashSet;
 
     invoke-direct {v3}, Ljava/util/LinkedHashSet;-><init>()V
 
-    .line 5
     new-instance v4, Ljava/util/LinkedHashSet;
 
     invoke-direct {v4}, Ljava/util/LinkedHashSet;-><init>()V
 
-    .line 6
     new-instance v5, Ljava/util/LinkedHashSet;
 
     invoke-direct {v5}, Ljava/util/LinkedHashSet;-><init>()V
 
-    .line 7
     new-instance v6, Ljava/util/LinkedHashSet;
 
     invoke-direct {v6}, Ljava/util/LinkedHashSet;-><init>()V
 
-    .line 8
     new-instance v7, Ljava/util/LinkedHashSet;
 
     invoke-direct {v7}, Ljava/util/LinkedHashSet;-><init>()V
 
-    .line 9
     new-instance v8, Ljava/util/LinkedHashSet;
 
     invoke-direct {v8}, Ljava/util/LinkedHashSet;-><init>()V
 
-    .line 10
     new-instance v9, Ljava/util/LinkedHashSet;
 
     invoke-direct {v9}, Ljava/util/LinkedHashSet;-><init>()V
 
-    .line 11
     new-instance v10, Ljava/util/LinkedHashSet;
 
     invoke-direct {v10}, Ljava/util/LinkedHashSet;-><init>()V
 
-    .line 12
     invoke-virtual {p0}, Ljava/util/HashMap;->values()Ljava/util/Collection;
 
     move-result-object p0
@@ -1145,7 +1030,6 @@
 
     check-cast v11, Lcom/commsource/album/provider/BucketInfo;
 
-    .line 13
     invoke-virtual {v11}, Lcom/commsource/album/provider/BucketInfo;->getDirName()Ljava/lang/String;
 
     move-result-object v12
@@ -1166,7 +1050,6 @@
 
     if-nez v12, :cond_1
 
-    .line 14
     invoke-virtual {v11}, Lcom/commsource/album/provider/BucketInfo;->getDirName()Ljava/lang/String;
 
     move-result-object v12
@@ -1179,7 +1062,6 @@
 
     if-eqz v12, :cond_2
 
-    .line 15
     invoke-virtual {v11}, Lcom/commsource/album/provider/BucketInfo;->getDirPath()Ljava/lang/String;
 
     move-result-object v12
@@ -1192,7 +1074,6 @@
 
     if-eqz v12, :cond_2
 
-    .line 16
     invoke-virtual {v3, v11}, Ljava/util/LinkedHashSet;->contains(Ljava/lang/Object;)Z
 
     move-result v12
@@ -1205,12 +1086,10 @@
 
     if-lez v12, :cond_1
 
-    .line 17
     invoke-virtual {v3, v11}, Ljava/util/LinkedHashSet;->add(Ljava/lang/Object;)Z
 
     goto :goto_0
 
-    .line 18
     :cond_2
     invoke-virtual {v11}, Lcom/commsource/album/provider/BucketInfo;->getDirName()Ljava/lang/String;
 
@@ -1224,7 +1103,6 @@
 
     if-eqz v12, :cond_3
 
-    .line 19
     invoke-virtual {v11}, Lcom/commsource/album/provider/BucketInfo;->getDirPath()Ljava/lang/String;
 
     move-result-object v12
@@ -1237,7 +1115,6 @@
 
     if-eqz v12, :cond_3
 
-    .line 20
     invoke-virtual {v4, v11}, Ljava/util/LinkedHashSet;->contains(Ljava/lang/Object;)Z
 
     move-result v12
@@ -1250,12 +1127,10 @@
 
     if-lez v12, :cond_1
 
-    .line 21
     invoke-virtual {v4, v11}, Ljava/util/LinkedHashSet;->add(Ljava/lang/Object;)Z
 
     goto :goto_0
 
-    .line 22
     :cond_3
     invoke-virtual {v11}, Lcom/commsource/album/provider/BucketInfo;->getDirPath()Ljava/lang/String;
 
@@ -1269,7 +1144,6 @@
 
     if-eqz v12, :cond_4
 
-    .line 23
     invoke-virtual {v5, v11}, Ljava/util/LinkedHashSet;->contains(Ljava/lang/Object;)Z
 
     move-result v12
@@ -1282,7 +1156,6 @@
 
     if-lez v12, :cond_1
 
-    .line 24
     invoke-virtual {v11}, Lcom/commsource/album/provider/BucketInfo;->getPicPath()Ljava/lang/String;
 
     move-result-object v12
@@ -1293,12 +1166,10 @@
 
     if-nez v12, :cond_1
 
-    .line 25
     invoke-virtual {v5, v11}, Ljava/util/LinkedHashSet;->add(Ljava/lang/Object;)Z
 
     goto/16 :goto_0
 
-    .line 26
     :cond_4
     invoke-virtual {v11}, Lcom/commsource/album/provider/BucketInfo;->getDirName()Ljava/lang/String;
 
@@ -1312,7 +1183,6 @@
 
     if-eqz v12, :cond_5
 
-    .line 27
     invoke-virtual {v6, v11}, Ljava/util/LinkedHashSet;->contains(Ljava/lang/Object;)Z
 
     move-result v12
@@ -1325,7 +1195,6 @@
 
     if-lez v12, :cond_1
 
-    .line 28
     invoke-virtual {v11}, Lcom/commsource/album/provider/BucketInfo;->getPicPath()Ljava/lang/String;
 
     move-result-object v12
@@ -1336,12 +1205,10 @@
 
     if-nez v12, :cond_1
 
-    .line 29
     invoke-virtual {v6, v11}, Ljava/util/LinkedHashSet;->add(Ljava/lang/Object;)Z
 
     goto/16 :goto_0
 
-    .line 30
     :cond_5
     invoke-virtual {v11}, Lcom/commsource/album/provider/BucketInfo;->getDirName()Ljava/lang/String;
 
@@ -1355,7 +1222,6 @@
 
     if-eqz v12, :cond_6
 
-    .line 31
     invoke-virtual {v7, v11}, Ljava/util/LinkedHashSet;->contains(Ljava/lang/Object;)Z
 
     move-result v12
@@ -1368,7 +1234,6 @@
 
     if-lez v12, :cond_1
 
-    .line 32
     invoke-virtual {v11}, Lcom/commsource/album/provider/BucketInfo;->getPicPath()Ljava/lang/String;
 
     move-result-object v12
@@ -1379,12 +1244,10 @@
 
     if-nez v12, :cond_1
 
-    .line 33
     invoke-virtual {v7, v11}, Ljava/util/LinkedHashSet;->add(Ljava/lang/Object;)Z
 
     goto/16 :goto_0
 
-    .line 34
     :cond_6
     invoke-virtual {v11}, Lcom/commsource/album/provider/BucketInfo;->getDirName()Ljava/lang/String;
 
@@ -1398,7 +1261,6 @@
 
     if-eqz v12, :cond_7
 
-    .line 35
     invoke-virtual {v9, v11}, Ljava/util/LinkedHashSet;->contains(Ljava/lang/Object;)Z
 
     move-result v12
@@ -1411,7 +1273,6 @@
 
     if-lez v12, :cond_1
 
-    .line 36
     invoke-virtual {v11}, Lcom/commsource/album/provider/BucketInfo;->getPicPath()Ljava/lang/String;
 
     move-result-object v12
@@ -1422,12 +1283,10 @@
 
     if-nez v12, :cond_1
 
-    .line 37
     invoke-virtual {v9, v11}, Ljava/util/LinkedHashSet;->add(Ljava/lang/Object;)Z
 
     goto/16 :goto_0
 
-    .line 38
     :cond_7
     invoke-virtual {v10, v11}, Ljava/util/LinkedHashSet;->contains(Ljava/lang/Object;)Z
 
@@ -1441,7 +1300,6 @@
 
     if-lez v12, :cond_1
 
-    .line 39
     invoke-virtual {v11}, Lcom/commsource/album/provider/BucketInfo;->getPicPath()Ljava/lang/String;
 
     move-result-object v12
@@ -1452,45 +1310,33 @@
 
     if-nez v12, :cond_1
 
-    .line 40
     invoke-virtual {v10, v11}, Ljava/util/LinkedHashSet;->add(Ljava/lang/Object;)Z
 
     goto/16 :goto_0
 
-    .line 41
     :cond_8
     invoke-virtual {v1, v2}, Ljava/util/ArrayList;->addAll(Ljava/util/Collection;)Z
 
-    .line 42
     invoke-virtual {v1, v3}, Ljava/util/ArrayList;->addAll(Ljava/util/Collection;)Z
 
-    .line 43
     invoke-virtual {v1, v4}, Ljava/util/ArrayList;->addAll(Ljava/util/Collection;)Z
 
-    .line 44
     invoke-virtual {v1, v5}, Ljava/util/ArrayList;->addAll(Ljava/util/Collection;)Z
 
-    .line 45
     invoke-virtual {v1, v6}, Ljava/util/ArrayList;->addAll(Ljava/util/Collection;)Z
 
-    .line 46
     invoke-virtual {v1, v7}, Ljava/util/ArrayList;->addAll(Ljava/util/Collection;)Z
 
-    .line 47
     invoke-virtual {v1, v8}, Ljava/util/ArrayList;->addAll(Ljava/util/Collection;)Z
 
-    .line 48
     invoke-virtual {v1, v9}, Ljava/util/ArrayList;->addAll(Ljava/util/Collection;)Z
 
-    .line 49
     invoke-virtual {v1, v10}, Ljava/util/ArrayList;->addAll(Ljava/util/Collection;)Z
 
-    .line 50
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
 
-    .line 51
     :cond_9
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

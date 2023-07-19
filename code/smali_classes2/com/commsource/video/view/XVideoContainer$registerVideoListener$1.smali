@@ -54,7 +54,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Ljava/lang/Number;
 
     invoke-virtual {p1}, Ljava/lang/Number;->intValue()I
@@ -104,10 +103,8 @@
     :cond_0
     const-string p1, "receive Video ERROR"
 
-    .line 2
     invoke-static {p1, v1, v3, v2, v3}, Lcom/commsource/util/l0;->L(Ljava/lang/String;Ljava/lang/String;Lcom/meitu/library/util/Debug/Debug$DebugLevel;ILjava/lang/Object;)V
 
-    .line 3
     iget-object p1, p0, Lcom/commsource/video/view/XVideoContainer$registerVideoListener$1;->this$0:Lcom/commsource/video/view/XVideoContainer;
 
     invoke-virtual {p1}, Lcom/commsource/video/view/XVideoContainer;->getDismissCover()Ljava/lang/Runnable;
@@ -116,7 +113,6 @@
 
     invoke-virtual {p1, v1}, Landroid/widget/FrameLayout;->removeCallbacks(Ljava/lang/Runnable;)Z
 
-    .line 4
     iget-object p1, p0, Lcom/commsource/video/view/XVideoContainer$registerVideoListener$1;->this$0:Lcom/commsource/video/view/XVideoContainer;
 
     invoke-virtual {p1}, Lcom/commsource/video/view/XVideoContainer;->getVideoCover()Landroid/widget/ImageView;
@@ -130,7 +126,6 @@
     :cond_1
     const-string p1, "receive Video COMPLETE"
 
-    .line 5
     invoke-static {p1, v1, v3, v2, v3}, Lcom/commsource/util/l0;->L(Ljava/lang/String;Ljava/lang/String;Lcom/meitu/library/util/Debug/Debug$DebugLevel;ILjava/lang/Object;)V
 
     goto :goto_0
@@ -138,7 +133,6 @@
     :cond_2
     const-string p1, "receive Video PAUSE"
 
-    .line 6
     invoke-static {p1, v1, v3, v2, v3}, Lcom/commsource/util/l0;->L(Ljava/lang/String;Ljava/lang/String;Lcom/meitu/library/util/Debug/Debug$DebugLevel;ILjava/lang/Object;)V
 
     goto :goto_0
@@ -146,7 +140,6 @@
     :cond_3
     const-string p1, "receive Video PLAY"
 
-    .line 7
     invoke-static {p1, v1, v3, v2, v3}, Lcom/commsource/util/l0;->L(Ljava/lang/String;Ljava/lang/String;Lcom/meitu/library/util/Debug/Debug$DebugLevel;ILjava/lang/Object;)V
 
     goto :goto_0
@@ -154,10 +147,8 @@
     :cond_4
     const-string p1, "receive Video INITIALIZE"
 
-    .line 8
     invoke-static {p1, v1, v3, v2, v3}, Lcom/commsource/util/l0;->L(Ljava/lang/String;Ljava/lang/String;Lcom/meitu/library/util/Debug/Debug$DebugLevel;ILjava/lang/Object;)V
 
-    .line 9
     iget-object p1, p0, Lcom/commsource/video/view/XVideoContainer$registerVideoListener$1;->this$0:Lcom/commsource/video/view/XVideoContainer;
 
     invoke-virtual {p1}, Lcom/commsource/video/view/XVideoContainer;->getDismissCover()Ljava/lang/Runnable;
@@ -166,7 +157,6 @@
 
     invoke-virtual {p1, v1}, Landroid/widget/FrameLayout;->removeCallbacks(Ljava/lang/Runnable;)Z
 
-    .line 10
     iget-object p1, p0, Lcom/commsource/video/view/XVideoContainer$registerVideoListener$1;->this$0:Lcom/commsource/video/view/XVideoContainer;
 
     invoke-virtual {p1}, Lcom/commsource/video/view/XVideoContainer;->getVideoCover()Landroid/widget/ImageView;
@@ -175,7 +165,6 @@
 
     invoke-static {p1}, Lcom/commsource/util/l0;->v0(Landroid/view/View;)V
 
-    .line 11
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

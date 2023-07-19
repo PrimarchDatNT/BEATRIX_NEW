@@ -22,7 +22,6 @@
 .method constructor <init>(Lcom/commsource/widget/BeforeAfterView;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/widget/BeforeAfterView$a;->a:Lcom/commsource/widget/BeforeAfterView;
 
     invoke-direct {p0}, Lcom/commsource/beautymain/widget/gesturewidget/e$c;-><init>()V
@@ -39,7 +38,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/widget/BeforeAfterView$a;->a:Lcom/commsource/widget/BeforeAfterView;
 
     invoke-static {v1}, Lcom/commsource/widget/BeforeAfterView;->c(Lcom/commsource/widget/BeforeAfterView;)Landroid/graphics/RectF;
@@ -60,7 +58,6 @@
 
     invoke-static {v1, p1}, Lcom/commsource/widget/BeforeAfterView;->b(Lcom/commsource/widget/BeforeAfterView;Z)Z
 
-    .line 2
     iget-object p1, p0, Lcom/commsource/widget/BeforeAfterView$a;->a:Lcom/commsource/widget/BeforeAfterView;
 
     invoke-static {p1}, Lcom/commsource/widget/BeforeAfterView;->a(Lcom/commsource/widget/BeforeAfterView;)Z
@@ -71,7 +68,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 3
     iget-object p1, p0, Lcom/commsource/widget/BeforeAfterView$a;->a:Lcom/commsource/widget/BeforeAfterView;
 
     invoke-static {p1}, Lcom/commsource/widget/BeforeAfterView;->e(Lcom/commsource/widget/BeforeAfterView;)Lcom/commsource/widget/BeforeAfterView$c;
@@ -80,7 +76,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 4
     iget-object p1, p0, Lcom/commsource/widget/BeforeAfterView$a;->a:Lcom/commsource/widget/BeforeAfterView;
 
     invoke-static {p1}, Lcom/commsource/widget/BeforeAfterView;->e(Lcom/commsource/widget/BeforeAfterView;)Lcom/commsource/widget/BeforeAfterView$c;
@@ -89,7 +84,6 @@
 
     invoke-interface {p1, v1}, Lcom/commsource/widget/BeforeAfterView$c;->a(Z)V
 
-    .line 5
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -103,7 +97,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/widget/BeforeAfterView$a;->a:Lcom/commsource/widget/BeforeAfterView;
 
     invoke-static {v1}, Lcom/commsource/widget/BeforeAfterView;->e(Lcom/commsource/widget/BeforeAfterView;)Lcom/commsource/widget/BeforeAfterView$c;
@@ -112,7 +105,6 @@
 
     if-eqz v1, :cond_0
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/widget/BeforeAfterView$a;->a:Lcom/commsource/widget/BeforeAfterView;
 
     invoke-static {v1}, Lcom/commsource/widget/BeforeAfterView;->e(Lcom/commsource/widget/BeforeAfterView;)Lcom/commsource/widget/BeforeAfterView$c;
@@ -123,7 +115,6 @@
 
     invoke-interface {v1, v2}, Lcom/commsource/widget/BeforeAfterView$c;->a(Z)V
 
-    .line 3
     :cond_0
     invoke-super {p0, p1}, Lcom/commsource/beautymain/widget/gesturewidget/e$c;->onMajorFingerUp(Landroid/view/MotionEvent;)Z
 
@@ -141,7 +132,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p2, p0, Lcom/commsource/widget/BeforeAfterView$a;->a:Lcom/commsource/widget/BeforeAfterView;
 
     invoke-static {p2}, Lcom/commsource/widget/BeforeAfterView;->a(Lcom/commsource/widget/BeforeAfterView;)Z
@@ -150,7 +140,6 @@
 
     if-eqz p2, :cond_2
 
-    .line 2
     iget-object p2, p0, Lcom/commsource/widget/BeforeAfterView$a;->a:Lcom/commsource/widget/BeforeAfterView;
 
     invoke-static {p2}, Lcom/commsource/widget/BeforeAfterView;->f(Lcom/commsource/widget/BeforeAfterView;)F
@@ -161,7 +150,6 @@
 
     invoke-static {p2, p4}, Lcom/commsource/widget/BeforeAfterView;->g(Lcom/commsource/widget/BeforeAfterView;F)F
 
-    .line 3
     iget-object p2, p0, Lcom/commsource/widget/BeforeAfterView$a;->a:Lcom/commsource/widget/BeforeAfterView;
 
     invoke-static {p2}, Lcom/commsource/widget/BeforeAfterView;->f(Lcom/commsource/widget/BeforeAfterView;)F
@@ -174,14 +162,12 @@
 
     if-gez p2, :cond_0
 
-    .line 4
     iget-object p2, p0, Lcom/commsource/widget/BeforeAfterView$a;->a:Lcom/commsource/widget/BeforeAfterView;
 
     invoke-static {p2, p3}, Lcom/commsource/widget/BeforeAfterView;->g(Lcom/commsource/widget/BeforeAfterView;F)F
 
     goto :goto_0
 
-    .line 5
     :cond_0
     iget-object p2, p0, Lcom/commsource/widget/BeforeAfterView$a;->a:Lcom/commsource/widget/BeforeAfterView;
 
@@ -201,7 +187,6 @@
 
     if-lez p2, :cond_1
 
-    .line 6
     iget-object p2, p0, Lcom/commsource/widget/BeforeAfterView$a;->a:Lcom/commsource/widget/BeforeAfterView;
 
     invoke-virtual {p2}, Landroid/view/View;->getWidth()I
@@ -212,7 +197,6 @@
 
     invoke-static {p2, p3}, Lcom/commsource/widget/BeforeAfterView;->g(Lcom/commsource/widget/BeforeAfterView;F)F
 
-    .line 7
     :cond_1
     :goto_0
     iget-object p2, p0, Lcom/commsource/widget/BeforeAfterView$a;->a:Lcom/commsource/widget/BeforeAfterView;
@@ -231,7 +215,6 @@
 
     iput p3, p2, Landroid/graphics/Rect;->left:I
 
-    .line 8
     iget-object p2, p0, Lcom/commsource/widget/BeforeAfterView$a;->a:Lcom/commsource/widget/BeforeAfterView;
 
     invoke-static {p2}, Lcom/commsource/widget/BeforeAfterView;->i(Lcom/commsource/widget/BeforeAfterView;)Landroid/graphics/Rect;
@@ -248,7 +231,6 @@
 
     iput p3, p2, Landroid/graphics/Rect;->right:I
 
-    .line 9
     iget-object p2, p0, Lcom/commsource/widget/BeforeAfterView$a;->a:Lcom/commsource/widget/BeforeAfterView;
 
     invoke-virtual {p2}, Landroid/view/View;->postInvalidate()V
@@ -256,7 +238,6 @@
     :cond_2
     const/4 p2, 0x1
 
-    .line 10
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p2

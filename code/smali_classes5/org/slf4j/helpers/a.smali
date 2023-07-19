@@ -28,7 +28,6 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
     invoke-static {}, Lorg/slf4j/helpers/a;->e()Z
 
     move-result v0
@@ -41,10 +40,8 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     new-instance v0, Ljava/lang/InheritableThreadLocal;
 
     invoke-direct {v0}, Ljava/lang/InheritableThreadLocal;-><init>()V
@@ -60,14 +57,12 @@
     :try_start_0
     const-string v0, "java.version"
 
-    .line 1
     invoke-static {v0}, Ljava/lang/System;->getProperty(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
 
     const-string v1, "1.4"
 
-    .line 2
     invoke-virtual {v0, v1}, Ljava/lang/String;->startsWith(Ljava/lang/String;)Z
 
     move-result v0
@@ -89,7 +84,6 @@
 
     if-eqz p1, :cond_1
 
-    .line 1
     iget-object v0, p0, Lorg/slf4j/helpers/a;->a:Ljava/lang/InheritableThreadLocal;
 
     invoke-virtual {v0}, Ljava/lang/InheritableThreadLocal;->get()Ljava/lang/Object;
@@ -100,7 +94,6 @@
 
     if-nez v0, :cond_0
 
-    .line 2
     new-instance v0, Ljava/util/HashMap;
 
     invoke-direct {v0}, Ljava/util/HashMap;-><init>()V
@@ -109,18 +102,15 @@
 
     move-result-object v0
 
-    .line 3
     iget-object v1, p0, Lorg/slf4j/helpers/a;->a:Ljava/lang/InheritableThreadLocal;
 
     invoke-virtual {v1, v0}, Ljava/lang/InheritableThreadLocal;->set(Ljava/lang/Object;)V
 
-    .line 4
     :cond_0
     invoke-interface {v0, p1, p2}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     return-void
 
-    .line 5
     :cond_1
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -143,7 +133,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lorg/slf4j/helpers/a;->a:Ljava/lang/InheritableThreadLocal;
 
     invoke-virtual {v0}, Ljava/lang/InheritableThreadLocal;->get()Ljava/lang/Object;
@@ -154,7 +143,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 2
     new-instance v1, Ljava/util/HashMap;
 
     invoke-direct {v1}, Ljava/util/HashMap;-><init>()V
@@ -163,14 +151,11 @@
 
     move-result-object v1
 
-    .line 3
     monitor-enter v0
 
-    .line 4
     :try_start_0
     invoke-interface {v1, v0}, Ljava/util/Map;->putAll(Ljava/util/Map;)V
 
-    .line 5
     monitor-exit v0
 
     return-object v1
@@ -202,7 +187,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/util/HashMap;
 
     invoke-direct {v0, p1}, Ljava/util/HashMap;-><init>(Ljava/util/Map;)V
@@ -211,7 +195,6 @@
 
     move-result-object p1
 
-    .line 2
     iget-object v0, p0, Lorg/slf4j/helpers/a;->a:Ljava/lang/InheritableThreadLocal;
 
     invoke-virtual {v0, p1}, Ljava/lang/InheritableThreadLocal;->set(Ljava/lang/Object;)V
@@ -222,7 +205,6 @@
 .method public clear()V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lorg/slf4j/helpers/a;->a:Ljava/lang/InheritableThreadLocal;
 
     invoke-virtual {v0}, Ljava/lang/InheritableThreadLocal;->get()Ljava/lang/Object;
@@ -233,17 +215,14 @@
 
     if-eqz v0, :cond_1
 
-    .line 2
     invoke-interface {v0}, Ljava/util/Map;->clear()V
 
-    .line 3
     invoke-static {}, Lorg/slf4j/helpers/a;->e()Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
-    .line 4
     iget-object v0, p0, Lorg/slf4j/helpers/a;->a:Ljava/lang/InheritableThreadLocal;
 
     const/4 v1, 0x0
@@ -252,7 +231,6 @@
 
     goto :goto_0
 
-    .line 5
     :cond_0
     iget-object v0, p0, Lorg/slf4j/helpers/a;->a:Ljava/lang/InheritableThreadLocal;
 
@@ -274,7 +252,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lorg/slf4j/helpers/a;->a:Ljava/lang/InheritableThreadLocal;
 
     invoke-virtual {v0}, Ljava/lang/InheritableThreadLocal;->get()Ljava/lang/Object;
@@ -285,7 +262,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-interface {v0}, Ljava/util/Map;->keySet()Ljava/util/Set;
 
     move-result-object v0
@@ -301,7 +277,6 @@
 .method public get(Ljava/lang/String;)Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lorg/slf4j/helpers/a;->a:Ljava/lang/InheritableThreadLocal;
 
     invoke-virtual {v0}, Ljava/lang/InheritableThreadLocal;->get()Ljava/lang/Object;
@@ -314,7 +289,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 2
     invoke-interface {v0, p1}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -332,7 +306,6 @@
 .method public remove(Ljava/lang/String;)V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lorg/slf4j/helpers/a;->a:Ljava/lang/InheritableThreadLocal;
 
     invoke-virtual {v0}, Ljava/lang/InheritableThreadLocal;->get()Ljava/lang/Object;
@@ -343,7 +316,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-interface {v0, p1}, Ljava/util/Map;->remove(Ljava/lang/Object;)Ljava/lang/Object;
 
     :cond_0

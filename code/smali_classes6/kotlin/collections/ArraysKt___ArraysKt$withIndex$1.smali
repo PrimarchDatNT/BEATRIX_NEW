@@ -69,7 +69,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcotlin/collections/ArraysKt___ArraysKt$withIndex$1;->$this_withIndex:[Ljava/lang/Object;
 
     invoke-static {v0}, Lcotlin/jvm/internal/h;->a([Ljava/lang/Object;)Ljava/util/Iterator;

@@ -53,7 +53,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/store/XDownloadButton$Executer$execute$task$1;->invoke()V
 
     sget-object v1, Lcotlin/t1;->a:Lcotlin/t1;
@@ -70,7 +69,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/store/XDownloadButton$Executer$execute$task$1;->this$0:Lcom/commsource/store/XDownloadButton$Executer;
 
     invoke-static {v1}, Lcom/commsource/store/XDownloadButton$Executer;->f(Lcom/commsource/store/XDownloadButton$Executer;)I
@@ -101,7 +99,6 @@
 
     goto/16 :goto_0
 
-    .line 3
     :cond_0
     iget-object v1, p0, Lcom/commsource/store/XDownloadButton$Executer$execute$task$1;->this$0:Lcom/commsource/store/XDownloadButton$Executer;
 
@@ -119,7 +116,6 @@
 
     invoke-static {v1, v3, v9, v4, v2}, Lcom/commsource/util/l0;->a0(Landroid/view/View;IIILjava/lang/Object;)V
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/store/XDownloadButton$Executer$execute$task$1;->this$0:Lcom/commsource/store/XDownloadButton$Executer;
 
     invoke-virtual {v1}, Lcom/commsource/store/XDownloadButton$Executer;->t()Lcom/commsource/store/XDownloadButton;
@@ -132,7 +128,6 @@
 
     invoke-virtual {v1, v8}, Landroid/widget/TextView;->setAlpha(F)V
 
-    .line 5
     iget-object v1, p0, Lcom/commsource/store/XDownloadButton$Executer$execute$task$1;->this$0:Lcom/commsource/store/XDownloadButton$Executer;
 
     invoke-virtual {v1}, Lcom/commsource/store/XDownloadButton$Executer;->t()Lcom/commsource/store/XDownloadButton;
@@ -145,7 +140,6 @@
 
     invoke-virtual {v1, v8}, Landroid/widget/TextView;->setAlpha(F)V
 
-    .line 6
     iget-object v1, p0, Lcom/commsource/store/XDownloadButton$Executer$execute$task$1;->this$0:Lcom/commsource/store/XDownloadButton$Executer;
 
     invoke-virtual {v1}, Lcom/commsource/store/XDownloadButton$Executer;->t()Lcom/commsource/store/XDownloadButton;
@@ -158,7 +152,6 @@
 
     invoke-virtual {v1, v8}, Landroid/view/View;->setAlpha(F)V
 
-    .line 7
     iget-object v1, p0, Lcom/commsource/store/XDownloadButton$Executer$execute$task$1;->this$0:Lcom/commsource/store/XDownloadButton$Executer;
 
     invoke-virtual {v1}, Lcom/commsource/store/XDownloadButton$Executer;->t()Lcom/commsource/store/XDownloadButton;
@@ -171,7 +164,6 @@
 
     invoke-virtual {v1, v7}, Landroid/widget/TextView;->setAlpha(F)V
 
-    .line 8
     iget-object v1, p0, Lcom/commsource/store/XDownloadButton$Executer$execute$task$1;->this$0:Lcom/commsource/store/XDownloadButton$Executer;
 
     invoke-static {v1}, Lcom/commsource/store/XDownloadButton$Executer;->e(Lcom/commsource/store/XDownloadButton$Executer;)I
@@ -180,7 +172,6 @@
 
     if-ne v1, v6, :cond_1
 
-    .line 9
     iget-object v1, p0, Lcom/commsource/store/XDownloadButton$Executer$execute$task$1;->this$0:Lcom/commsource/store/XDownloadButton$Executer;
 
     invoke-virtual {v1}, Lcom/commsource/store/XDownloadButton$Executer;->t()Lcom/commsource/store/XDownloadButton;
@@ -193,7 +184,6 @@
 
     invoke-virtual {v1, v7}, Landroid/widget/ImageView;->setAlpha(F)V
 
-    .line 10
     iget-object v1, p0, Lcom/commsource/store/XDownloadButton$Executer$execute$task$1;->this$0:Lcom/commsource/store/XDownloadButton$Executer;
 
     invoke-virtual {v1}, Lcom/commsource/store/XDownloadButton$Executer;->t()Lcom/commsource/store/XDownloadButton;
@@ -232,7 +222,6 @@
 
     invoke-virtual {v1, v2}, Landroid/widget/ImageView;->setTranslationX(F)V
 
-    .line 11
     iget-object v1, p0, Lcom/commsource/store/XDownloadButton$Executer$execute$task$1;->this$0:Lcom/commsource/store/XDownloadButton$Executer;
 
     invoke-virtual {v1}, Lcom/commsource/store/XDownloadButton$Executer;->t()Lcom/commsource/store/XDownloadButton;
@@ -253,7 +242,6 @@
 
     goto/16 :goto_0
 
-    .line 12
     :cond_1
     iget-object v1, p0, Lcom/commsource/store/XDownloadButton$Executer$execute$task$1;->this$0:Lcom/commsource/store/XDownloadButton$Executer;
 
@@ -267,7 +255,6 @@
 
     invoke-virtual {v1, v8}, Landroid/widget/ImageView;->setAlpha(F)V
 
-    .line 13
     iget-object v1, p0, Lcom/commsource/store/XDownloadButton$Executer$execute$task$1;->this$0:Lcom/commsource/store/XDownloadButton$Executer;
 
     invoke-virtual {v1}, Lcom/commsource/store/XDownloadButton$Executer;->t()Lcom/commsource/store/XDownloadButton;
@@ -280,7 +267,6 @@
 
     invoke-virtual {v1, v8}, Landroid/widget/ImageView;->setTranslationX(F)V
 
-    .line 14
     iget-object v1, p0, Lcom/commsource/store/XDownloadButton$Executer$execute$task$1;->this$0:Lcom/commsource/store/XDownloadButton$Executer;
 
     invoke-virtual {v1}, Lcom/commsource/store/XDownloadButton$Executer;->t()Lcom/commsource/store/XDownloadButton;
@@ -295,7 +281,6 @@
 
     goto/16 :goto_0
 
-    .line 15
     :cond_2
     iget-object v1, p0, Lcom/commsource/store/XDownloadButton$Executer$execute$task$1;->this$0:Lcom/commsource/store/XDownloadButton$Executer;
 
@@ -313,7 +298,6 @@
 
     invoke-static {v1, v3, v5, v4, v2}, Lcom/commsource/util/l0;->a0(Landroid/view/View;IIILjava/lang/Object;)V
 
-    .line 16
     iget-object v1, p0, Lcom/commsource/store/XDownloadButton$Executer$execute$task$1;->this$0:Lcom/commsource/store/XDownloadButton$Executer;
 
     invoke-virtual {v1}, Lcom/commsource/store/XDownloadButton$Executer;->t()Lcom/commsource/store/XDownloadButton;
@@ -326,7 +310,6 @@
 
     invoke-virtual {v1, v8}, Landroid/widget/ImageView;->setAlpha(F)V
 
-    .line 17
     iget-object v1, p0, Lcom/commsource/store/XDownloadButton$Executer$execute$task$1;->this$0:Lcom/commsource/store/XDownloadButton$Executer;
 
     invoke-virtual {v1}, Lcom/commsource/store/XDownloadButton$Executer;->t()Lcom/commsource/store/XDownloadButton;
@@ -339,7 +322,6 @@
 
     invoke-virtual {v1, v8}, Landroid/widget/TextView;->setAlpha(F)V
 
-    .line 18
     iget-object v1, p0, Lcom/commsource/store/XDownloadButton$Executer$execute$task$1;->this$0:Lcom/commsource/store/XDownloadButton$Executer;
 
     invoke-virtual {v1}, Lcom/commsource/store/XDownloadButton$Executer;->t()Lcom/commsource/store/XDownloadButton;
@@ -352,7 +334,6 @@
 
     invoke-virtual {v1, v8}, Landroid/widget/TextView;->setAlpha(F)V
 
-    .line 19
     iget-object v1, p0, Lcom/commsource/store/XDownloadButton$Executer$execute$task$1;->this$0:Lcom/commsource/store/XDownloadButton$Executer;
 
     invoke-virtual {v1}, Lcom/commsource/store/XDownloadButton$Executer;->t()Lcom/commsource/store/XDownloadButton;
@@ -365,7 +346,6 @@
 
     invoke-virtual {v1, v8}, Landroid/widget/ImageView;->setTranslationX(F)V
 
-    .line 20
     iget-object v1, p0, Lcom/commsource/store/XDownloadButton$Executer$execute$task$1;->this$0:Lcom/commsource/store/XDownloadButton$Executer;
 
     invoke-virtual {v1}, Lcom/commsource/store/XDownloadButton$Executer;->t()Lcom/commsource/store/XDownloadButton;
@@ -378,7 +358,6 @@
 
     invoke-virtual {v1, v8}, Landroid/widget/TextView;->setTranslationX(F)V
 
-    .line 21
     iget-object v1, p0, Lcom/commsource/store/XDownloadButton$Executer$execute$task$1;->this$0:Lcom/commsource/store/XDownloadButton$Executer;
 
     invoke-virtual {v1}, Lcom/commsource/store/XDownloadButton$Executer;->t()Lcom/commsource/store/XDownloadButton;
@@ -391,7 +370,6 @@
 
     invoke-virtual {v1, v8}, Landroid/widget/TextView;->setTranslationX(F)V
 
-    .line 22
     iget-object v1, p0, Lcom/commsource/store/XDownloadButton$Executer$execute$task$1;->this$0:Lcom/commsource/store/XDownloadButton$Executer;
 
     invoke-virtual {v1}, Lcom/commsource/store/XDownloadButton$Executer;->t()Lcom/commsource/store/XDownloadButton;
@@ -404,7 +382,6 @@
 
     invoke-virtual {v1, v7}, Landroid/view/View;->setAlpha(F)V
 
-    .line 23
     iget-object v1, p0, Lcom/commsource/store/XDownloadButton$Executer$execute$task$1;->this$0:Lcom/commsource/store/XDownloadButton$Executer;
 
     invoke-virtual {v1}, Lcom/commsource/store/XDownloadButton$Executer;->t()Lcom/commsource/store/XDownloadButton;
@@ -419,7 +396,6 @@
 
     goto/16 :goto_0
 
-    .line 24
     :cond_3
     iget-object v1, p0, Lcom/commsource/store/XDownloadButton$Executer$execute$task$1;->this$0:Lcom/commsource/store/XDownloadButton$Executer;
 
@@ -437,7 +413,6 @@
 
     invoke-static {v1, v3, v9, v4, v2}, Lcom/commsource/util/l0;->a0(Landroid/view/View;IIILjava/lang/Object;)V
 
-    .line 25
     iget-object v1, p0, Lcom/commsource/store/XDownloadButton$Executer$execute$task$1;->this$0:Lcom/commsource/store/XDownloadButton$Executer;
 
     invoke-virtual {v1}, Lcom/commsource/store/XDownloadButton$Executer;->t()Lcom/commsource/store/XDownloadButton;
@@ -450,7 +425,6 @@
 
     invoke-virtual {v1, v7}, Landroid/widget/TextView;->setAlpha(F)V
 
-    .line 26
     iget-object v1, p0, Lcom/commsource/store/XDownloadButton$Executer$execute$task$1;->this$0:Lcom/commsource/store/XDownloadButton$Executer;
 
     invoke-virtual {v1}, Lcom/commsource/store/XDownloadButton$Executer;->t()Lcom/commsource/store/XDownloadButton;
@@ -463,7 +437,6 @@
 
     invoke-virtual {v1, v7}, Landroid/widget/TextView;->setAlpha(F)V
 
-    .line 27
     iget-object v1, p0, Lcom/commsource/store/XDownloadButton$Executer$execute$task$1;->this$0:Lcom/commsource/store/XDownloadButton$Executer;
 
     invoke-virtual {v1}, Lcom/commsource/store/XDownloadButton$Executer;->t()Lcom/commsource/store/XDownloadButton;
@@ -476,7 +449,6 @@
 
     invoke-virtual {v1, v8}, Landroid/view/View;->setAlpha(F)V
 
-    .line 28
     iget-object v1, p0, Lcom/commsource/store/XDownloadButton$Executer$execute$task$1;->this$0:Lcom/commsource/store/XDownloadButton$Executer;
 
     invoke-virtual {v1}, Lcom/commsource/store/XDownloadButton$Executer;->t()Lcom/commsource/store/XDownloadButton;
@@ -489,7 +461,6 @@
 
     invoke-virtual {v1, v8}, Landroid/widget/TextView;->setAlpha(F)V
 
-    .line 29
     iget-object v1, p0, Lcom/commsource/store/XDownloadButton$Executer$execute$task$1;->this$0:Lcom/commsource/store/XDownloadButton$Executer;
 
     invoke-static {v1}, Lcom/commsource/store/XDownloadButton$Executer;->e(Lcom/commsource/store/XDownloadButton$Executer;)I
@@ -498,7 +469,6 @@
 
     if-ne v1, v6, :cond_4
 
-    .line 30
     iget-object v1, p0, Lcom/commsource/store/XDownloadButton$Executer$execute$task$1;->this$0:Lcom/commsource/store/XDownloadButton$Executer;
 
     invoke-virtual {v1}, Lcom/commsource/store/XDownloadButton$Executer;->t()Lcom/commsource/store/XDownloadButton;
@@ -511,7 +481,6 @@
 
     invoke-virtual {v1, v7}, Landroid/widget/ImageView;->setAlpha(F)V
 
-    .line 31
     iget-object v1, p0, Lcom/commsource/store/XDownloadButton$Executer$execute$task$1;->this$0:Lcom/commsource/store/XDownloadButton$Executer;
 
     invoke-virtual {v1}, Lcom/commsource/store/XDownloadButton$Executer;->t()Lcom/commsource/store/XDownloadButton;
@@ -550,7 +519,6 @@
 
     invoke-virtual {v1, v2}, Landroid/widget/ImageView;->setTranslationX(F)V
 
-    .line 32
     iget-object v1, p0, Lcom/commsource/store/XDownloadButton$Executer$execute$task$1;->this$0:Lcom/commsource/store/XDownloadButton$Executer;
 
     invoke-virtual {v1}, Lcom/commsource/store/XDownloadButton$Executer;->t()Lcom/commsource/store/XDownloadButton;
@@ -563,7 +531,6 @@
 
     invoke-virtual {v1}, Landroid/widget/TextView;->getTranslationX()F
 
-    .line 33
     iget-object v1, p0, Lcom/commsource/store/XDownloadButton$Executer$execute$task$1;->this$0:Lcom/commsource/store/XDownloadButton$Executer;
 
     invoke-virtual {v1}, Lcom/commsource/store/XDownloadButton$Executer;->t()Lcom/commsource/store/XDownloadButton;
@@ -586,7 +553,6 @@
 
     goto :goto_0
 
-    .line 34
     :cond_4
     iget-object v1, p0, Lcom/commsource/store/XDownloadButton$Executer$execute$task$1;->this$0:Lcom/commsource/store/XDownloadButton$Executer;
 
@@ -600,7 +566,6 @@
 
     invoke-virtual {v1, v8}, Landroid/widget/ImageView;->setAlpha(F)V
 
-    .line 35
     iget-object v1, p0, Lcom/commsource/store/XDownloadButton$Executer$execute$task$1;->this$0:Lcom/commsource/store/XDownloadButton$Executer;
 
     invoke-virtual {v1}, Lcom/commsource/store/XDownloadButton$Executer;->t()Lcom/commsource/store/XDownloadButton;
@@ -613,7 +578,6 @@
 
     invoke-virtual {v1, v8}, Landroid/widget/ImageView;->setTranslationX(F)V
 
-    .line 36
     iget-object v1, p0, Lcom/commsource/store/XDownloadButton$Executer$execute$task$1;->this$0:Lcom/commsource/store/XDownloadButton$Executer;
 
     invoke-virtual {v1}, Lcom/commsource/store/XDownloadButton$Executer;->t()Lcom/commsource/store/XDownloadButton;
@@ -626,7 +590,6 @@
 
     invoke-virtual {v1, v8}, Landroid/widget/TextView;->setTranslationX(F)V
 
-    .line 37
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

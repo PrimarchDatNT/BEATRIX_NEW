@@ -45,7 +45,6 @@
 .method static constructor <clinit>()V
     .locals 10
 
-    .line 1
     new-instance v0, Lcom/mopub/common/util/DeviceUtils$ForceOrientation;
 
     const-string v1, "FORCE_PORTRAIT"
@@ -58,7 +57,6 @@
 
     sput-object v0, Lcom/mopub/common/util/DeviceUtils$ForceOrientation;->FORCE_PORTRAIT:Lcom/mopub/common/util/DeviceUtils$ForceOrientation;
 
-    .line 2
     new-instance v1, Lcom/mopub/common/util/DeviceUtils$ForceOrientation;
 
     const-string v3, "FORCE_LANDSCAPE"
@@ -71,7 +69,6 @@
 
     sput-object v1, Lcom/mopub/common/util/DeviceUtils$ForceOrientation;->FORCE_LANDSCAPE:Lcom/mopub/common/util/DeviceUtils$ForceOrientation;
 
-    .line 3
     new-instance v3, Lcom/mopub/common/util/DeviceUtils$ForceOrientation;
 
     const-string v5, "DEVICE_ORIENTATION"
@@ -84,7 +81,6 @@
 
     sput-object v3, Lcom/mopub/common/util/DeviceUtils$ForceOrientation;->DEVICE_ORIENTATION:Lcom/mopub/common/util/DeviceUtils$ForceOrientation;
 
-    .line 4
     new-instance v5, Lcom/mopub/common/util/DeviceUtils$ForceOrientation;
 
     const-string v7, "UNDEFINED"
@@ -109,7 +105,6 @@
 
     aput-object v5, v7, v8
 
-    .line 5
     sput-object v7, Lcom/mopub/common/util/DeviceUtils$ForceOrientation;->$VALUES:[Lcom/mopub/common/util/DeviceUtils$ForceOrientation;
 
     return-void
@@ -129,10 +124,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 2
     iput-object p3, p0, Lcom/mopub/common/util/DeviceUtils$ForceOrientation;->mKey:Ljava/lang/String;
 
     return-void
@@ -147,7 +140,6 @@
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
-    .line 1
     invoke-static {}, Lcom/mopub/common/util/DeviceUtils$ForceOrientation;->values()[Lcom/mopub/common/util/DeviceUtils$ForceOrientation;
 
     move-result-object v0
@@ -161,7 +153,6 @@
 
     aget-object v3, v0, v2
 
-    .line 2
     iget-object v4, v3, Lcom/mopub/common/util/DeviceUtils$ForceOrientation;->mKey:Ljava/lang/String;
 
     invoke-virtual {v4, p0}, Ljava/lang/String;->equalsIgnoreCase(Ljava/lang/String;)Z
@@ -177,7 +168,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_1
     sget-object p0, Lcom/mopub/common/util/DeviceUtils$ForceOrientation;->UNDEFINED:Lcom/mopub/common/util/DeviceUtils$ForceOrientation;
 
@@ -187,7 +177,6 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/mopub/common/util/DeviceUtils$ForceOrientation;
     .locals 1
 
-    .line 1
     const-class v0, Lcom/mopub/common/util/DeviceUtils$ForceOrientation;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -202,7 +191,6 @@
 .method public static values()[Lcom/mopub/common/util/DeviceUtils$ForceOrientation;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/mopub/common/util/DeviceUtils$ForceOrientation;->$VALUES:[Lcom/mopub/common/util/DeviceUtils$ForceOrientation;
 
     invoke-virtual {v0}, [Lcom/mopub/common/util/DeviceUtils$ForceOrientation;->clone()Ljava/lang/Object;

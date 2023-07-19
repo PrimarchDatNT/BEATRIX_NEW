@@ -29,7 +29,6 @@
 .method constructor <init>(Lio/grpc/internal/h0$p;Lio/grpc/Status;Lio/grpc/y0;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lio/grpc/internal/h0$p$d;->c:Lio/grpc/internal/h0$p;
 
     iput-object p2, p0, Lio/grpc/internal/h0$p$d;->a:Lio/grpc/Status;
@@ -46,7 +45,6 @@
 .method public run()V
     .locals 3
 
-    .line 1
     iget-object v0, p0, Lio/grpc/internal/h0$p$d;->c:Lio/grpc/internal/h0$p;
 
     invoke-static {v0}, Lio/grpc/internal/h0$p;->h(Lio/grpc/internal/h0$p;)Lio/grpc/internal/ClientStreamListener;

@@ -22,7 +22,6 @@
 .method public asBinder()Landroid/os/IBinder;
     .locals 1
 
-    .line 1
     new-instance v0, Ljava/lang/NoSuchMethodError;
 
     invoke-direct {v0}, Ljava/lang/NoSuchMethodError;-><init>()V
@@ -38,7 +37,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance p1, Ljava/lang/NoSuchMethodError;
 
     invoke-direct {p1}, Ljava/lang/NoSuchMethodError;-><init>()V

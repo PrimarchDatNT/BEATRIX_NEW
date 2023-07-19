@@ -19,7 +19,6 @@
 .method public constructor <init>(I)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1}, Ljava/util/ArrayList;-><init>(I)V
 
     return-void
@@ -35,10 +34,8 @@
         }
     .end annotation
 
-    .line 3
     invoke-virtual {p0}, Lorg/jsoup/helper/ChangeNotifyingArrayList;->onContentsChanged()V
 
-    .line 4
     invoke-super {p0, p1, p2}, Ljava/util/ArrayList;->add(ILjava/lang/Object;)V
 
     return-void
@@ -52,10 +49,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lorg/jsoup/helper/ChangeNotifyingArrayList;->onContentsChanged()V
 
-    .line 2
     invoke-super {p0, p1}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
     move-result p1
@@ -73,10 +68,8 @@
         }
     .end annotation
 
-    .line 3
     invoke-virtual {p0}, Lorg/jsoup/helper/ChangeNotifyingArrayList;->onContentsChanged()V
 
-    .line 4
     invoke-super {p0, p1, p2}, Ljava/util/ArrayList;->addAll(ILjava/util/Collection;)Z
 
     move-result p1
@@ -94,10 +87,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lorg/jsoup/helper/ChangeNotifyingArrayList;->onContentsChanged()V
 
-    .line 2
     invoke-super {p0, p1}, Ljava/util/ArrayList;->addAll(Ljava/util/Collection;)Z
 
     move-result p1
@@ -108,10 +99,8 @@
 .method public clear()V
     .locals 0
 
-    .line 1
     invoke-virtual {p0}, Lorg/jsoup/helper/ChangeNotifyingArrayList;->onContentsChanged()V
 
-    .line 2
     invoke-super {p0}, Ljava/util/ArrayList;->clear()V
 
     return-void
@@ -128,10 +117,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lorg/jsoup/helper/ChangeNotifyingArrayList;->onContentsChanged()V
 
-    .line 2
     invoke-super {p0, p1}, Ljava/util/ArrayList;->remove(I)Ljava/lang/Object;
 
     move-result-object p1
@@ -142,10 +129,8 @@
 .method public remove(Ljava/lang/Object;)Z
     .locals 0
 
-    .line 3
     invoke-virtual {p0}, Lorg/jsoup/helper/ChangeNotifyingArrayList;->onContentsChanged()V
 
-    .line 4
     invoke-super {p0, p1}, Ljava/util/ArrayList;->remove(Ljava/lang/Object;)Z
 
     move-result p1
@@ -163,10 +148,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lorg/jsoup/helper/ChangeNotifyingArrayList;->onContentsChanged()V
 
-    .line 2
     invoke-super {p0, p1}, Ljava/util/ArrayList;->removeAll(Ljava/util/Collection;)Z
 
     move-result p1
@@ -177,10 +160,8 @@
 .method protected removeRange(II)V
     .locals 0
 
-    .line 1
     invoke-virtual {p0}, Lorg/jsoup/helper/ChangeNotifyingArrayList;->onContentsChanged()V
 
-    .line 2
     invoke-super {p0, p1, p2}, Ljava/util/ArrayList;->removeRange(II)V
 
     return-void
@@ -196,10 +177,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lorg/jsoup/helper/ChangeNotifyingArrayList;->onContentsChanged()V
 
-    .line 2
     invoke-super {p0, p1}, Ljava/util/ArrayList;->retainAll(Ljava/util/Collection;)Z
 
     move-result p1
@@ -215,10 +194,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lorg/jsoup/helper/ChangeNotifyingArrayList;->onContentsChanged()V
 
-    .line 2
     invoke-super {p0, p1, p2}, Ljava/util/ArrayList;->set(ILjava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1

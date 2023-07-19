@@ -19,7 +19,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -28,7 +27,6 @@
 .method public synthetic constructor <init>(Lcotlin/jvm/internal/u;)V
     .locals 0
 
-    .line 2
     invoke-direct {p0}, Lcotlin/i2/d$a;-><init>()V
 
     return-void
@@ -55,7 +53,6 @@
 
     invoke-static {p4, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-static {p1, p2, p3, p4}, Lcotlin/i2/h;->b(DLjava/util/concurrent/TimeUnit;Ljava/util/concurrent/TimeUnit;)D
 
     move-result-wide p1
@@ -66,7 +63,6 @@
 .method public final b()D
     .locals 2
 
-    .line 1
     invoke-static {}, Lcotlin/i2/d;->a()D
 
     move-result-wide v0
@@ -77,7 +73,6 @@
 .method public final c()D
     .locals 2
 
-    .line 1
     invoke-static {}, Lcotlin/i2/d;->f()D
 
     move-result-wide v0

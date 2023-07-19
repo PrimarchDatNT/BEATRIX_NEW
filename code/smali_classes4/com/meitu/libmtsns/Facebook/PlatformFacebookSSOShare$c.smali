@@ -42,17 +42,14 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Lcom/meitu/libmtsns/framwork/i/a$a;-><init>()V
 
     const/4 v0, 0x1
 
-    .line 2
     iput-boolean v0, p0, Lcom/meitu/libmtsns/Facebook/PlatformFacebookSSOShare$c;->i:Z
 
     const/4 v0, 0x0
 
-    .line 3
     iput-boolean v0, p0, Lcom/meitu/libmtsns/framwork/i/d$l;->a:Z
 
     return-void
@@ -63,7 +60,6 @@
 .method protected c()V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/meitu/libmtsns/Facebook/PlatformFacebookSSOShare$c;->h:Ljava/lang/String;
 
     invoke-static {v0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
@@ -80,12 +76,10 @@
 
     if-eqz v0, :cond_0
 
-    .line 2
     iget-object v0, p0, Lcom/meitu/libmtsns/Facebook/PlatformFacebookSSOShare$c;->h:Ljava/lang/String;
 
     iput-object v0, p0, Lcom/meitu/libmtsns/framwork/i/a$a;->g:Ljava/lang/String;
 
-    .line 3
     :cond_0
     iget-boolean v0, p0, Lcom/meitu/libmtsns/Facebook/PlatformFacebookSSOShare$c;->i:Z
 
@@ -93,7 +87,6 @@
 
     const/4 v0, 0x0
 
-    .line 4
     iput-boolean v0, p0, Lcom/meitu/libmtsns/framwork/i/a$a;->f:Z
 
     :cond_1

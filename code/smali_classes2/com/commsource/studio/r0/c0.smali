@@ -23,12 +23,10 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/commsource/studio/r0/x;-><init>(Ljava/lang/String;)V
 
     const/4 p1, 0x0
 
-    .line 2
     invoke-virtual {p0, p1}, Lcom/commsource/studio/r0/x;->z(Z)V
 
     return-void
@@ -43,7 +41,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/r0/c0;->k:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -58,10 +55,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/studio/r0/c0;->k:F
 
-    .line 2
     invoke-virtual {p0}, Lcom/commsource/studio/r0/x;->w()Lcom/meitu/core/MTRtEffectRender;
 
     move-result-object p1
@@ -70,7 +65,6 @@
 
     move-result-object p1
 
-    .line 3
     iget v1, p0, Lcom/commsource/studio/r0/c0;->k:F
 
     const v2, 0x3f4ccccd    # 0.8f
@@ -81,40 +75,32 @@
 
     const/4 v2, 0x1
 
-    .line 4
     iput-boolean v2, p1, Lcom/meitu/core/MTRtEffectRender$AnattaParameter;->blurSwitch:Z
 
     const/high16 v3, 0x3f000000    # 0.5f
 
     mul-float v3, v3, v1
 
-    .line 5
     iput v3, p1, Lcom/meitu/core/MTRtEffectRender$AnattaParameter;->faceColorAlpha:F
 
-    .line 6
     iput-boolean v2, p1, Lcom/meitu/core/MTRtEffectRender$AnattaParameter;->faceColorSwitch:Z
 
-    .line 7
     iput v1, p1, Lcom/meitu/core/MTRtEffectRender$AnattaParameter;->autoContrastAlpha:F
 
     const v3, 0x3e4ccccd    # 0.2f
 
     mul-float v1, v1, v3
 
-    .line 8
     iput v1, p1, Lcom/meitu/core/MTRtEffectRender$AnattaParameter;->sharpenAlpha:F
 
-    .line 9
     iput-boolean v2, p1, Lcom/meitu/core/MTRtEffectRender$AnattaParameter;->autoContrastSwitch:Z
 
-    .line 10
     invoke-virtual {p0}, Lcom/commsource/studio/r0/x;->w()Lcom/meitu/core/MTRtEffectRender;
 
     move-result-object p1
 
     invoke-virtual {p1}, Lcom/meitu/core/MTRtEffectRender;->flushAnattaParameter()V
 
-    .line 11
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

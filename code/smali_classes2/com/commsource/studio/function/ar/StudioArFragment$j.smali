@@ -57,12 +57,10 @@
 
     if-eqz p1, :cond_3
 
-    .line 1
     invoke-virtual {p1}, Ljava/lang/Number;->intValue()I
 
     move-result p1
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/function/ar/StudioArFragment$j;->a:Lcom/commsource/studio/function/ar/StudioArFragment;
 
     invoke-virtual {v1}, Lcom/commsource/studio/function/ar/StudioArFragment;->C1()Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/c1;
@@ -91,7 +89,6 @@
 
     const-string v2, "groups"
 
-    .line 3
     invoke-static {v1, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-interface {v1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
@@ -137,14 +134,12 @@
 
     if-eqz v3, :cond_3
 
-    .line 4
     new-instance v2, Lcom/commsource/studio/function/ar/StudioArFragment$j$a;
 
     invoke-direct {v2, v3, v1, p1, p0}, Lcom/commsource/studio/function/ar/StudioArFragment$j$a;-><init>(Lcom/meitu/template/bean/ArMaterialGroup;Ljava/util/List;ILcom/commsource/studio/function/ar/StudioArFragment$j;)V
 
     invoke-static {v2}, Lcom/commsource/util/g2;->j(Ljava/lang/Runnable;)V
 
-    .line 5
     :cond_3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -158,7 +153,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Ljava/lang/Integer;
 
     invoke-virtual {p0, p1}, Lcom/commsource/studio/function/ar/StudioArFragment$j;->a(Ljava/lang/Integer;)V

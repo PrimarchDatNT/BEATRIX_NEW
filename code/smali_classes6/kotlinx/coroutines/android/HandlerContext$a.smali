@@ -35,7 +35,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcotlinx/coroutines/android/HandlerContext$a;->a:Lcotlinx/coroutines/android/HandlerContext;
 
     iput-object p2, p0, Lcotlinx/coroutines/android/HandlerContext$a;->b:Ljava/lang/Runnable;
@@ -50,7 +49,6 @@
 .method public dispose()V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcotlinx/coroutines/android/HandlerContext$a;->a:Lcotlinx/coroutines/android/HandlerContext;
 
     invoke-static {v0}, Lcotlinx/coroutines/android/HandlerContext;->E(Lcotlinx/coroutines/android/HandlerContext;)Landroid/os/Handler;

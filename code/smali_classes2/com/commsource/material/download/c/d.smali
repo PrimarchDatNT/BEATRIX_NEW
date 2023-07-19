@@ -44,7 +44,6 @@
 
     if-nez p1, :cond_0
 
-    .line 1
     invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_0
@@ -59,7 +58,6 @@
 
     iput-object p4, p0, Lcom/commsource/material/download/c/d;->n:Ljava/lang/String;
 
-    .line 2
     new-instance p1, Ljava/util/concurrent/CopyOnWriteArraySet;
 
     invoke-direct {p1}, Ljava/util/concurrent/CopyOnWriteArraySet;-><init>()V
@@ -85,7 +83,6 @@
 
     const/4 p4, 0x0
 
-    .line 3
     :cond_1
     invoke-direct {p0, p1, p2, p3, p4}, Lcom/commsource/material/download/c/d;-><init>(Ljava/lang/String;Ljava/lang/String;ZLjava/lang/String;)V
 
@@ -99,28 +96,23 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/io/File;
 
     invoke-direct {v1, p1}, Ljava/io/File;-><init>(Ljava/lang/String;)V
 
-    .line 2
     invoke-virtual {v1}, Ljava/io/File;->exists()Z
 
     move-result v1
 
     if-nez v1, :cond_0
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 4
     :cond_0
     iget-object v1, p0, Lcom/commsource/material/download/c/d;->l:Ljava/util/concurrent/CopyOnWriteArraySet;
 
-    .line 5
     invoke-interface {v1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v1
@@ -139,12 +131,10 @@
 
     check-cast v2, Lcom/commsource/material/download/c/d;
 
-    .line 6
     iget-boolean v3, v2, Lcom/commsource/material/download/c/d;->m:Z
 
     if-eqz v3, :cond_4
 
-    .line 7
     iget-object v3, p0, Lcom/commsource/material/download/c/d;->n:Ljava/lang/String;
 
     iget-object v4, v2, Lcom/commsource/material/download/c/d;->n:Ljava/lang/String;
@@ -157,7 +147,6 @@
 
     if-eqz v3, :cond_1
 
-    .line 8
     new-instance v3, Ljava/io/File;
 
     iget-object v4, v2, Lcom/commsource/material/download/c/d;->n:Ljava/lang/String;
@@ -169,17 +158,14 @@
     :cond_2
     invoke-direct {v3, v4}, Ljava/io/File;-><init>(Ljava/lang/String;)V
 
-    .line 9
     invoke-virtual {v3}, Ljava/io/File;->exists()Z
 
     move-result v4
 
     if-nez v4, :cond_3
 
-    .line 10
     invoke-virtual {v3}, Ljava/io/File;->mkdir()Z
 
-    .line 11
     :cond_3
     iget-object v2, v2, Lcom/commsource/material/download/c/d;->n:Ljava/lang/String;
 
@@ -187,7 +173,6 @@
 
     goto :goto_0
 
-    .line 12
     :cond_4
     invoke-virtual {p0}, Lcom/commsource/material/DownloadTask;->l()Ljava/lang/String;
 
@@ -205,7 +190,6 @@
 
     if-eqz v3, :cond_1
 
-    .line 13
     invoke-virtual {v2}, Lcom/commsource/material/DownloadTask;->l()Ljava/lang/String;
 
     move-result-object v2
@@ -214,7 +198,6 @@
 
     goto :goto_0
 
-    .line 14
     :cond_5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -228,19 +211,16 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/io/File;
 
     invoke-direct {v1, p2}, Ljava/io/File;-><init>(Ljava/lang/String;)V
 
-    .line 2
     invoke-virtual {v1}, Ljava/io/File;->exists()Z
 
     move-result v2
 
     if-nez v2, :cond_0
 
-    .line 3
     new-instance v2, Lcom/commsource/material/DownloadException;
 
     const-string v3, "\u4e0b\u8f7d\u6587\u4ef6\u4e0d\u5b58\u5728"
@@ -249,13 +229,11 @@
 
     invoke-super {p0, p0, v2}, Lcom/commsource/material/download/c/c;->a(Lcom/commsource/material/DownloadTask;Ljava/lang/Exception;)V
 
-    .line 4
     :cond_0
     iget-boolean v2, p0, Lcom/commsource/material/download/c/d;->m:Z
 
     if-eqz v2, :cond_4
 
-    .line 5
     new-instance v2, Ljava/io/File;
 
     iget-object v3, p0, Lcom/commsource/material/download/c/d;->n:Ljava/lang/String;
@@ -267,17 +245,14 @@
     :cond_1
     invoke-direct {v2, v3}, Ljava/io/File;-><init>(Ljava/lang/String;)V
 
-    .line 6
     invoke-virtual {v2}, Ljava/io/File;->exists()Z
 
     move-result v3
 
     if-nez v3, :cond_2
 
-    .line 7
     invoke-virtual {v2}, Ljava/io/File;->mkdir()Z
 
-    .line 8
     :cond_2
     iget-object v2, p0, Lcom/commsource/material/download/c/d;->n:Ljava/lang/String;
 
@@ -285,17 +260,14 @@
 
     move-result v2
 
-    .line 9
     invoke-static {v1}, Lcom/meitu/library/p/g/b;->l(Ljava/io/File;)Z
 
     if-eqz v2, :cond_3
 
-    .line 10
     invoke-super {p0, p1, p2}, Lcom/commsource/material/download/c/c;->b(Lcom/commsource/material/DownloadTask;Ljava/lang/String;)V
 
     goto :goto_0
 
-    .line 11
     :cond_3
     new-instance p1, Lcom/commsource/material/DownloadException;
 
@@ -307,11 +279,9 @@
 
     goto :goto_0
 
-    .line 12
     :cond_4
     invoke-super {p0, p1, p2}, Lcom/commsource/material/download/c/c;->b(Lcom/commsource/material/DownloadTask;Ljava/lang/String;)V
 
-    .line 13
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -343,13 +313,10 @@
 
     invoke-static {p2, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-direct {p0, p2}, Lcom/commsource/material/download/c/d;->w(Ljava/lang/String;)V
 
-    .line 2
     invoke-direct {p0, p1, p2}, Lcom/commsource/material/download/c/d;->x(Lcom/commsource/material/DownloadTask;Ljava/lang/String;)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -373,7 +340,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/material/download/c/d;->l:Ljava/util/concurrent/CopyOnWriteArraySet;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

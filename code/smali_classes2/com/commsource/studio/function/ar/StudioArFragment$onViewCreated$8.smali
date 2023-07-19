@@ -54,7 +54,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Ljava/lang/Number;
 
     invoke-virtual {p1}, Ljava/lang/Number;->floatValue()F
@@ -77,7 +76,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/function/ar/StudioArFragment$onViewCreated$8;->this$0:Lcom/commsource/studio/function/ar/StudioArFragment;
 
     sget-object v2, Lcom/commsource/studio/n0;->z:Lcom/commsource/studio/n0;
@@ -92,7 +90,6 @@
 
     invoke-virtual {v1, v3}, Lcom/commsource/studio/function/ar/StudioArFragment;->n1(F)V
 
-    .line 3
     iget-object p1, p0, Lcom/commsource/studio/function/ar/StudioArFragment$onViewCreated$8;->this$0:Lcom/commsource/studio/function/ar/StudioArFragment;
 
     invoke-virtual {p1}, Lcom/commsource/studio/function/BaseSubFragment;->q0()Lcom/commsource/beautyplus/f0/k0;
@@ -127,7 +124,6 @@
 
     invoke-static/range {v3 .. v9}, Lcom/commsource/studio/StudioCanvasContainer;->B(Lcom/commsource/studio/StudioCanvasContainer;FFZLcotlin/jvm/u/a;ILjava/lang/Object;)V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

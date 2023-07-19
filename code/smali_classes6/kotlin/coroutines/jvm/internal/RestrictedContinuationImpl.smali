@@ -26,12 +26,10 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1}, Lcotlin/coroutines/jvm/internal/BaseContinuationImpl;-><init>(Lcotlin/coroutines/c;)V
 
     if-eqz p1, :cond_2
 
-    .line 2
     invoke-interface {p1}, Lcotlin/coroutines/c;->getContext()Lcotlin/coroutines/CoroutineContext;
 
     move-result-object p1
@@ -77,7 +75,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     sget-object v0, Lcotlin/coroutines/EmptyCoroutineContext;->INSTANCE:Lcotlin/coroutines/EmptyCoroutineContext;
 
     return-object v0

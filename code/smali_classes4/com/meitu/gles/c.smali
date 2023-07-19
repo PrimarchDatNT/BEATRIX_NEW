@@ -13,10 +13,8 @@
 .method public constructor <init>(Lcom/meitu/gles/Texture2dProgram;)V
     .locals 2
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     new-instance v0, Lcom/meitu/gles/Drawable2d;
 
     sget-object v1, Lcom/meitu/gles/Drawable2d$Prefab;->FULL_RECTANGLE:Lcom/meitu/gles/Drawable2d$Prefab;
@@ -25,7 +23,6 @@
 
     iput-object v0, p0, Lcom/meitu/gles/c;->a:Lcom/meitu/gles/Drawable2d;
 
-    .line 3
     iput-object p1, p0, Lcom/meitu/gles/c;->b:Lcom/meitu/gles/Texture2dProgram;
 
     return-void
@@ -40,15 +37,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/gles/c;->b:Lcom/meitu/gles/Texture2dProgram;
 
     invoke-virtual {v1}, Lcom/meitu/gles/Texture2dProgram;->d()V
 
-    .line 2
     iput-object p1, p0, Lcom/meitu/gles/c;->b:Lcom/meitu/gles/Texture2dProgram;
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -61,7 +55,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/gles/c;->b:Lcom/meitu/gles/Texture2dProgram;
 
     invoke-virtual {v1}, Lcom/meitu/gles/Texture2dProgram;->a()I
@@ -80,7 +73,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/gles/c;->b:Lcom/meitu/gles/Texture2dProgram;
 
     sget-object v2, Lcom/meitu/gles/d;->b:[F
@@ -93,7 +85,6 @@
 
     iget-object v4, p0, Lcom/meitu/gles/c;->a:Lcom/meitu/gles/Drawable2d;
 
-    .line 2
     invoke-virtual {v4}, Lcom/meitu/gles/Drawable2d;->e()I
 
     move-result v5
@@ -106,21 +97,18 @@
 
     iget-object v4, p0, Lcom/meitu/gles/c;->a:Lcom/meitu/gles/Drawable2d;
 
-    .line 3
     invoke-virtual {v4}, Lcom/meitu/gles/Drawable2d;->f()I
 
     move-result v7
 
     iget-object v4, p0, Lcom/meitu/gles/c;->a:Lcom/meitu/gles/Drawable2d;
 
-    .line 4
     invoke-virtual {v4}, Lcom/meitu/gles/Drawable2d;->b()Ljava/nio/FloatBuffer;
 
     move-result-object v9
 
     iget-object v4, p0, Lcom/meitu/gles/c;->a:Lcom/meitu/gles/Drawable2d;
 
-    .line 5
     invoke-virtual {v4}, Lcom/meitu/gles/Drawable2d;->c()I
 
     move-result v11
@@ -131,10 +119,8 @@
 
     move v10, p1
 
-    .line 6
     invoke-virtual/range {v1 .. v11}, Lcom/meitu/gles/Texture2dProgram;->b([FLjava/nio/FloatBuffer;IIII[FLjava/nio/FloatBuffer;II)V
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -147,7 +133,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/gles/c;->b:Lcom/meitu/gles/Texture2dProgram;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -164,10 +149,8 @@
 
     const/4 v1, 0x1
 
-    .line 1
     invoke-virtual {p0, v1}, Lcom/meitu/gles/c;->f(Z)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -180,23 +163,19 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/gles/c;->b:Lcom/meitu/gles/Texture2dProgram;
 
     if-eqz v1, :cond_1
 
     if-eqz p1, :cond_0
 
-    .line 2
     invoke-virtual {v1}, Lcom/meitu/gles/Texture2dProgram;->d()V
 
     :cond_0
     const/4 p1, 0x0
 
-    .line 3
     iput-object p1, p0, Lcom/meitu/gles/c;->b:Lcom/meitu/gles/Texture2dProgram;
 
-    .line 4
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

@@ -22,10 +22,8 @@
 .method public constructor <init>(Ljava/lang/String;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lorg/greenrobot/greendao/l/m$a;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lorg/greenrobot/greendao/l/m$c;->d:Ljava/lang/String;
 
     return-void
@@ -34,10 +32,8 @@
 .method public constructor <init>(Ljava/lang/String;Ljava/lang/Object;)V
     .locals 0
 
-    .line 3
     invoke-direct {p0, p2}, Lorg/greenrobot/greendao/l/m$a;-><init>(Ljava/lang/Object;)V
 
-    .line 4
     iput-object p1, p0, Lorg/greenrobot/greendao/l/m$c;->d:Ljava/lang/String;
 
     return-void
@@ -46,10 +42,8 @@
 .method public varargs constructor <init>(Ljava/lang/String;[Ljava/lang/Object;)V
     .locals 0
 
-    .line 5
     invoke-direct {p0, p2}, Lorg/greenrobot/greendao/l/m$a;-><init>([Ljava/lang/Object;)V
 
-    .line 6
     iput-object p1, p0, Lorg/greenrobot/greendao/l/m$c;->d:Ljava/lang/String;
 
     return-void
@@ -60,7 +54,6 @@
 .method public b(Ljava/lang/StringBuilder;Ljava/lang/String;)V
     .locals 0
 
-    .line 1
     iget-object p2, p0, Lorg/greenrobot/greendao/l/m$c;->d:Ljava/lang/String;
 
     invoke-virtual {p1, p2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;

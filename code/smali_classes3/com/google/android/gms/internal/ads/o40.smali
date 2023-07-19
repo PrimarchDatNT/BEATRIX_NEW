@@ -27,7 +27,6 @@
 .method constructor <init>(Lcom/google/android/gms/internal/ads/i40;Lcom/google/android/gms/internal/ads/gq1;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/android/gms/internal/ads/o40;->b:Lcom/google/android/gms/internal/ads/i40;
 
     iput-object p2, p0, Lcom/google/android/gms/internal/ads/o40;->a:Lcom/google/android/gms/internal/ads/gq1;
@@ -42,12 +41,10 @@
 .method public final a(Ljava/lang/Throwable;)V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/o40;->b:Lcom/google/android/gms/internal/ads/i40;
 
     invoke-static {v0}, Lcom/google/android/gms/internal/ads/i40;->c(Lcom/google/android/gms/internal/ads/i40;)V
 
-    .line 2
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/o40;->a:Lcom/google/android/gms/internal/ads/gq1;
 
     invoke-interface {v0, p1}, Lcom/google/android/gms/internal/ads/gq1;->a(Ljava/lang/Throwable;)V
@@ -58,15 +55,12 @@
 .method public final synthetic onSuccess(Ljava/lang/Object;)V
     .locals 1
 
-    .line 1
     check-cast p1, Lcom/google/android/gms/internal/ads/b40;
 
-    .line 2
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/o40;->b:Lcom/google/android/gms/internal/ads/i40;
 
     invoke-static {v0}, Lcom/google/android/gms/internal/ads/i40;->c(Lcom/google/android/gms/internal/ads/i40;)V
 
-    .line 3
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/o40;->a:Lcom/google/android/gms/internal/ads/gq1;
 
     invoke-interface {v0, p1}, Lcom/google/android/gms/internal/ads/gq1;->onSuccess(Ljava/lang/Object;)V

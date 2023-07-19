@@ -27,7 +27,6 @@
 .method constructor <init>(Lio/grpc/internal/m;I)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lio/grpc/internal/m$a;->b:Lio/grpc/internal/m;
 
     iput p2, p0, Lio/grpc/internal/m$a;->a:I
@@ -42,7 +41,6 @@
 .method public run()V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lio/grpc/internal/m$a;->b:Lio/grpc/internal/m;
 
     invoke-static {v0}, Lio/grpc/internal/m;->e(Lio/grpc/internal/m;)Lio/grpc/internal/MessageDeframer$b;

@@ -11,7 +11,6 @@
 .method private constructor <init>(Lcom/google/android/gms/internal/ads/cn;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/android/gms/internal/ads/in;->a:Lcom/google/android/gms/internal/ads/cn;
 
     invoke-direct {p0}, Landroid/content/BroadcastReceiver;-><init>()V
@@ -22,7 +21,6 @@
 .method synthetic constructor <init>(Lcom/google/android/gms/internal/ads/cn;Lcom/google/android/gms/internal/ads/en;)V
     .locals 0
 
-    .line 2
     invoke-direct {p0, p1}, Lcom/google/android/gms/internal/ads/in;-><init>(Lcom/google/android/gms/internal/ads/cn;)V
 
     return-void
@@ -33,7 +31,6 @@
 .method public final onReceive(Landroid/content/Context;Landroid/content/Intent;)V
     .locals 1
 
-    .line 1
     invoke-virtual {p2}, Landroid/content/Intent;->getAction()Ljava/lang/String;
 
     move-result-object p1
@@ -46,7 +43,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 2
     iget-object p1, p0, Lcom/google/android/gms/internal/ads/in;->a:Lcom/google/android/gms/internal/ads/cn;
 
     const/4 p2, 0x1
@@ -55,7 +51,6 @@
 
     return-void
 
-    .line 3
     :cond_0
     invoke-virtual {p2}, Landroid/content/Intent;->getAction()Ljava/lang/String;
 
@@ -69,7 +64,6 @@
 
     if-eqz p1, :cond_1
 
-    .line 4
     iget-object p1, p0, Lcom/google/android/gms/internal/ads/in;->a:Lcom/google/android/gms/internal/ads/cn;
 
     const/4 p2, 0x0

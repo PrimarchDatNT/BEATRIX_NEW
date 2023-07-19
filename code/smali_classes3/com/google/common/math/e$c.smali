@@ -22,7 +22,6 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
     new-instance v0, Lcom/google/common/math/e$c;
 
     invoke-direct {v0}, Lcom/google/common/math/e$c;-><init>()V
@@ -35,7 +34,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/google/common/math/e;-><init>()V
 
     return-void

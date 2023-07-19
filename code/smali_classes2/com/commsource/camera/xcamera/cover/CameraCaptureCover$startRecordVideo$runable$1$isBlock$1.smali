@@ -53,7 +53,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/CameraCaptureCover$startRecordVideo$runable$1$isBlock$1;->invoke()V
 
     sget-object v1, Lcotlin/t1;->a:Lcotlin/t1;
@@ -70,7 +69,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/CameraCaptureCover$startRecordVideo$runable$1$isBlock$1;->this$0:Lcom/commsource/camera/xcamera/cover/CameraCaptureCover$startRecordVideo$runable$1;
 
     iget-object v1, v1, Lcom/commsource/camera/xcamera/cover/CameraCaptureCover$startRecordVideo$runable$1;->a:Lcom/commsource/camera/xcamera/cover/CameraCaptureCover;
@@ -79,7 +77,6 @@
 
     move-result v1
 
-    .line 3
     iget-object v2, p0, Lcom/commsource/camera/xcamera/cover/CameraCaptureCover$startRecordVideo$runable$1$isBlock$1;->this$0:Lcom/commsource/camera/xcamera/cover/CameraCaptureCover$startRecordVideo$runable$1;
 
     iget-object v2, v2, Lcom/commsource/camera/xcamera/cover/CameraCaptureCover$startRecordVideo$runable$1;->a:Lcom/commsource/camera/xcamera/cover/CameraCaptureCover;
@@ -92,7 +89,6 @@
 
     move-result v2
 
-    .line 4
     iget-object v3, p0, Lcom/commsource/camera/xcamera/cover/CameraCaptureCover$startRecordVideo$runable$1$isBlock$1;->this$0:Lcom/commsource/camera/xcamera/cover/CameraCaptureCover$startRecordVideo$runable$1;
 
     iget-object v3, v3, Lcom/commsource/camera/xcamera/cover/CameraCaptureCover$startRecordVideo$runable$1;->a:Lcom/commsource/camera/xcamera/cover/CameraCaptureCover;
@@ -113,7 +109,6 @@
 
     if-eqz v3, :cond_0
 
-    .line 5
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/CameraCaptureCover$startRecordVideo$runable$1$isBlock$1;->this$0:Lcom/commsource/camera/xcamera/cover/CameraCaptureCover$startRecordVideo$runable$1;
 
     iget-object v1, v1, Lcom/commsource/camera/xcamera/cover/CameraCaptureCover$startRecordVideo$runable$1;->a:Lcom/commsource/camera/xcamera/cover/CameraCaptureCover;
@@ -132,24 +127,20 @@
 
     const-string v2, "videoSession"
 
-    .line 6
     invoke-static {v1, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v1}, Lcom/commsource/camera/r0$c;->N()I
 
     move-result v4
 
-    .line 7
     invoke-virtual {v1}, Lcom/commsource/camera/r0$c;->M()I
 
     move-result v2
 
-    .line 8
     invoke-virtual {v1}, Lcom/commsource/camera/r0$c;->I()I
 
     move-result v3
 
-    .line 9
     invoke-virtual {v1}, Lcom/commsource/camera/r0$c;->J()I
 
     move-result v1
@@ -167,7 +158,6 @@
     :cond_0
     const/4 v3, -0x1
 
-    .line 10
     :goto_0
     iget-object v5, p0, Lcom/commsource/camera/xcamera/cover/CameraCaptureCover$startRecordVideo$runable$1$isBlock$1;->this$0:Lcom/commsource/camera/xcamera/cover/CameraCaptureCover$startRecordVideo$runable$1;
 
@@ -183,7 +173,6 @@
 
     invoke-virtual {v5, v2}, Lcom/commsource/camera/xcamera/h;->F(I)V
 
-    .line 11
     iget-object v2, p0, Lcom/commsource/camera/xcamera/cover/CameraCaptureCover$startRecordVideo$runable$1$isBlock$1;->this$0:Lcom/commsource/camera/xcamera/cover/CameraCaptureCover$startRecordVideo$runable$1;
 
     iget-object v2, v2, Lcom/commsource/camera/xcamera/cover/CameraCaptureCover$startRecordVideo$runable$1;->a:Lcom/commsource/camera/xcamera/cover/CameraCaptureCover;
@@ -198,7 +187,6 @@
 
     invoke-virtual {v2, v1}, Lcom/commsource/camera/xcamera/h;->H(I)V
 
-    .line 12
     iget-object v2, p0, Lcom/commsource/camera/xcamera/cover/CameraCaptureCover$startRecordVideo$runable$1$isBlock$1;->this$0:Lcom/commsource/camera/xcamera/cover/CameraCaptureCover$startRecordVideo$runable$1;
 
     iget-object v2, v2, Lcom/commsource/camera/xcamera/cover/CameraCaptureCover$startRecordVideo$runable$1;->a:Lcom/commsource/camera/xcamera/cover/CameraCaptureCover;
@@ -207,7 +195,6 @@
 
     move-result-object v2
 
-    .line 13
     invoke-static {}, Lcom/commsource/beautyplus/util/v;->c()Ljava/lang/String;
 
     move-result-object v5
@@ -216,10 +203,8 @@
 
     invoke-static {v5, v6}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 14
     invoke-virtual {v2, v4, v3, v1, v5}, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;->V0(IIILjava/lang/String;)V
 
-    .line 15
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

@@ -53,7 +53,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/shader/BaseShader$shaderId$2;->this$0:Lcom/commsource/studio/shader/BaseShader;
 
     invoke-static {v1}, Lcom/commsource/studio/shader/BaseShader;->a(Lcom/commsource/studio/shader/BaseShader;)I
@@ -82,7 +81,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/studio/shader/BaseShader$shaderId$2;->invoke()I
 
     move-result v1

@@ -13,7 +13,6 @@
 .method constructor <init>(Lcom/google/android/gms/common/api/internal/g$a;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/android/gms/common/api/internal/l1;->a:Lcom/google/android/gms/common/api/internal/g$a;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -26,7 +25,6 @@
 .method public final run()V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/common/api/internal/l1;->a:Lcom/google/android/gms/common/api/internal/g$a;
 
     invoke-static {v0}, Lcom/google/android/gms/common/api/internal/g$a;->G(Lcom/google/android/gms/common/api/internal/g$a;)V

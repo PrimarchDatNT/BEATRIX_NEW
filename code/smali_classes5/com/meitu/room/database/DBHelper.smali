@@ -26,14 +26,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/meitu/room/database/DBHelper;
 
     invoke-direct {v1}, Lcom/meitu/room/database/DBHelper;-><init>()V
 
     sput-object v1, Lcom/meitu/room/database/DBHelper;->c:Lcom/meitu/room/database/DBHelper;
 
-    .line 2
     sget-object v1, Lcotlin/LazyThreadSafetyMode;->SYNCHRONIZED:Lcotlin/LazyThreadSafetyMode;
 
     sget-object v2, Lcom/meitu/room/database/DBHelper$dataBase$2;->INSTANCE:Lcom/meitu/room/database/DBHelper$dataBase$2;
@@ -52,7 +50,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -65,7 +62,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/meitu/room/database/DBHelper;->b()Ljava/util/List;
 
     move-result-object p0
@@ -94,7 +90,6 @@
 
     new-array v1, v0, [Landroidx/room/migration/Migration;
 
-    .line 1
     new-instance v2, Lcom/meitu/room/database/DBHelper$k;
 
     const/16 v3, 0x19
@@ -107,7 +102,6 @@
 
     aput-object v2, v1, v3
 
-    .line 2
     new-instance v2, Lcom/meitu/room/database/DBHelper$v;
 
     const/16 v3, 0x1b
@@ -118,7 +112,6 @@
 
     aput-object v2, v1, v5
 
-    .line 3
     new-instance v2, Lcom/meitu/room/database/DBHelper$g0;
 
     const/16 v5, 0x1c
@@ -129,7 +122,6 @@
 
     aput-object v2, v1, v6
 
-    .line 4
     new-instance v2, Lcom/meitu/room/database/DBHelper$r0;
 
     const/16 v6, 0x1d
@@ -140,7 +132,6 @@
 
     aput-object v2, v1, v7
 
-    .line 5
     new-instance v2, Lcom/meitu/room/database/DBHelper$z0;
 
     const/16 v7, 0x1e
@@ -151,7 +142,6 @@
 
     aput-object v2, v1, v8
 
-    .line 6
     new-instance v2, Lcom/meitu/room/database/DBHelper$a1;
 
     const/16 v8, 0x1f
@@ -162,7 +152,6 @@
 
     aput-object v2, v1, v9
 
-    .line 7
     new-instance v2, Lcom/meitu/room/database/DBHelper$b1;
 
     const/16 v9, 0x20
@@ -173,7 +162,6 @@
 
     aput-object v2, v1, v10
 
-    .line 8
     new-instance v2, Lcom/meitu/room/database/DBHelper$c1;
 
     const/16 v10, 0x21
@@ -184,7 +172,6 @@
 
     aput-object v2, v1, v11
 
-    .line 9
     new-instance v2, Lcom/meitu/room/database/DBHelper$d1;
 
     const/16 v11, 0x22
@@ -195,7 +182,6 @@
 
     aput-object v2, v1, v12
 
-    .line 10
     new-instance v2, Lcom/meitu/room/database/DBHelper$a;
 
     const/16 v12, 0x23
@@ -206,7 +192,6 @@
 
     aput-object v2, v1, v13
 
-    .line 11
     new-instance v2, Lcom/meitu/room/database/DBHelper$b;
 
     const/16 v13, 0x24
@@ -217,7 +202,6 @@
 
     aput-object v2, v1, v14
 
-    .line 12
     new-instance v2, Lcom/meitu/room/database/DBHelper$c;
 
     const/16 v14, 0x25
@@ -228,7 +212,6 @@
 
     aput-object v2, v1, v15
 
-    .line 13
     new-instance v2, Lcom/meitu/room/database/DBHelper$d;
 
     const/16 v15, 0x26
@@ -239,7 +222,6 @@
 
     aput-object v2, v1, v16
 
-    .line 14
     new-instance v2, Lcom/meitu/room/database/DBHelper$e;
 
     const/16 v14, 0x27
@@ -250,7 +232,6 @@
 
     aput-object v2, v1, v17
 
-    .line 15
     new-instance v2, Lcom/meitu/room/database/DBHelper$f;
 
     const/16 v15, 0x28
@@ -261,7 +242,6 @@
 
     aput-object v2, v1, v18
 
-    .line 16
     new-instance v2, Lcom/meitu/room/database/DBHelper$g;
 
     const/16 v14, 0x29
@@ -272,7 +252,6 @@
 
     aput-object v2, v1, v19
 
-    .line 17
     new-instance v2, Lcom/meitu/room/database/DBHelper$h;
 
     const/16 v15, 0x2a
@@ -283,7 +262,6 @@
 
     aput-object v2, v1, v20
 
-    .line 18
     new-instance v2, Lcom/meitu/room/database/DBHelper$i;
 
     const/16 v14, 0x2b
@@ -294,7 +272,6 @@
 
     aput-object v2, v1, v21
 
-    .line 19
     new-instance v2, Lcom/meitu/room/database/DBHelper$j;
 
     const/16 v15, 0x2c
@@ -305,7 +282,6 @@
 
     aput-object v2, v1, v22
 
-    .line 20
     new-instance v2, Lcom/meitu/room/database/DBHelper$l;
 
     const/16 v14, 0x2d
@@ -316,7 +292,6 @@
 
     aput-object v2, v1, v23
 
-    .line 21
     new-instance v2, Lcom/meitu/room/database/DBHelper$m;
 
     const/16 v15, 0x2e
@@ -327,7 +302,6 @@
 
     aput-object v2, v1, v24
 
-    .line 22
     new-instance v2, Lcom/meitu/room/database/DBHelper$n;
 
     const/16 v14, 0x2f
@@ -338,7 +312,6 @@
 
     aput-object v2, v1, v14
 
-    .line 23
     new-instance v2, Lcom/meitu/room/database/DBHelper$o;
 
     const/16 v14, 0x2f
@@ -351,7 +324,6 @@
 
     aput-object v2, v1, v14
 
-    .line 24
     new-instance v2, Lcom/meitu/room/database/DBHelper$p;
 
     const/16 v14, 0x30
@@ -364,7 +336,6 @@
 
     aput-object v2, v1, v14
 
-    .line 25
     new-instance v2, Lcom/meitu/room/database/DBHelper$q;
 
     const/16 v14, 0x31
@@ -377,7 +348,6 @@
 
     aput-object v2, v1, v14
 
-    .line 26
     new-instance v2, Lcom/meitu/room/database/DBHelper$r;
 
     const/16 v14, 0x32
@@ -390,7 +360,6 @@
 
     aput-object v2, v1, v14
 
-    .line 27
     new-instance v2, Lcom/meitu/room/database/DBHelper$s;
 
     const/16 v14, 0x33
@@ -401,7 +370,6 @@
 
     aput-object v2, v1, v4
 
-    .line 28
     new-instance v2, Lcom/meitu/room/database/DBHelper$t;
 
     const/16 v4, 0x34
@@ -412,7 +380,6 @@
 
     aput-object v2, v1, v3
 
-    .line 29
     new-instance v2, Lcom/meitu/room/database/DBHelper$u;
 
     const/16 v3, 0x35
@@ -423,7 +390,6 @@
 
     aput-object v2, v1, v5
 
-    .line 30
     new-instance v2, Lcom/meitu/room/database/DBHelper$w;
 
     const/16 v3, 0x36
@@ -434,7 +400,6 @@
 
     aput-object v2, v1, v6
 
-    .line 31
     new-instance v2, Lcom/meitu/room/database/DBHelper$x;
 
     const/16 v3, 0x37
@@ -443,7 +408,6 @@
 
     aput-object v2, v1, v7
 
-    .line 32
     new-instance v2, Lcom/meitu/room/database/DBHelper$y;
 
     const/16 v3, 0x39
@@ -452,7 +416,6 @@
 
     aput-object v2, v1, v8
 
-    .line 33
     new-instance v0, Lcom/meitu/room/database/DBHelper$z;
 
     const/16 v2, 0x39
@@ -463,7 +426,6 @@
 
     aput-object v0, v1, v9
 
-    .line 34
     new-instance v0, Lcom/meitu/room/database/DBHelper$a0;
 
     const/16 v2, 0x3a
@@ -474,7 +436,6 @@
 
     aput-object v0, v1, v10
 
-    .line 35
     new-instance v0, Lcom/meitu/room/database/DBHelper$b0;
 
     const/16 v2, 0x3b
@@ -485,7 +446,6 @@
 
     aput-object v0, v1, v11
 
-    .line 36
     new-instance v0, Lcom/meitu/room/database/DBHelper$c0;
 
     const/16 v2, 0x3c
@@ -496,7 +456,6 @@
 
     aput-object v0, v1, v12
 
-    .line 37
     new-instance v0, Lcom/meitu/room/database/DBHelper$d0;
 
     const/16 v2, 0x3d
@@ -507,7 +466,6 @@
 
     aput-object v0, v1, v13
 
-    .line 38
     new-instance v0, Lcom/meitu/room/database/DBHelper$e0;
 
     const/16 v2, 0x3e
@@ -520,7 +478,6 @@
 
     aput-object v0, v1, v2
 
-    .line 39
     new-instance v0, Lcom/meitu/room/database/DBHelper$f0;
 
     const/16 v2, 0x3f
@@ -533,7 +490,6 @@
 
     aput-object v0, v1, v2
 
-    .line 40
     new-instance v0, Lcom/meitu/room/database/DBHelper$h0;
 
     const/16 v2, 0x40
@@ -546,7 +502,6 @@
 
     aput-object v0, v1, v2
 
-    .line 41
     new-instance v0, Lcom/meitu/room/database/DBHelper$i0;
 
     const/16 v2, 0x41
@@ -559,7 +514,6 @@
 
     aput-object v0, v1, v2
 
-    .line 42
     new-instance v0, Lcom/meitu/room/database/DBHelper$j0;
 
     const/16 v2, 0x42
@@ -572,7 +526,6 @@
 
     aput-object v0, v1, v2
 
-    .line 43
     new-instance v0, Lcom/meitu/room/database/DBHelper$k0;
 
     const/16 v2, 0x43
@@ -585,7 +538,6 @@
 
     aput-object v0, v1, v2
 
-    .line 44
     new-instance v0, Lcom/meitu/room/database/DBHelper$l0;
 
     const/16 v2, 0x44
@@ -598,7 +550,6 @@
 
     aput-object v0, v1, v2
 
-    .line 45
     new-instance v0, Lcom/meitu/room/database/DBHelper$m0;
 
     const/16 v2, 0x45
@@ -611,7 +562,6 @@
 
     aput-object v0, v1, v2
 
-    .line 46
     new-instance v0, Lcom/meitu/room/database/DBHelper$n0;
 
     const/16 v2, 0x46
@@ -624,7 +574,6 @@
 
     aput-object v0, v1, v2
 
-    .line 47
     new-instance v0, Lcom/meitu/room/database/DBHelper$o0;
 
     const/16 v2, 0x47
@@ -637,7 +586,6 @@
 
     aput-object v0, v1, v2
 
-    .line 48
     new-instance v0, Lcom/meitu/room/database/DBHelper$p0;
 
     const/16 v2, 0x48
@@ -650,7 +598,6 @@
 
     aput-object v0, v1, v2
 
-    .line 49
     new-instance v0, Lcom/meitu/room/database/DBHelper$q0;
 
     const/16 v2, 0x49
@@ -663,7 +610,6 @@
 
     aput-object v0, v1, v2
 
-    .line 50
     new-instance v0, Lcom/meitu/room/database/DBHelper$s0;
 
     const/16 v2, 0x4a
@@ -676,7 +622,6 @@
 
     aput-object v0, v1, v2
 
-    .line 51
     new-instance v0, Lcom/meitu/room/database/DBHelper$t0;
 
     const/16 v2, 0x4b
@@ -689,7 +634,6 @@
 
     aput-object v0, v1, v2
 
-    .line 52
     new-instance v0, Lcom/meitu/room/database/DBHelper$u0;
 
     const/16 v2, 0x4c
@@ -702,7 +646,6 @@
 
     aput-object v0, v1, v2
 
-    .line 53
     new-instance v0, Lcom/meitu/room/database/DBHelper$v0;
 
     const/16 v2, 0x4d
@@ -715,7 +658,6 @@
 
     aput-object v0, v1, v2
 
-    .line 54
     new-instance v0, Lcom/meitu/room/database/DBHelper$w0;
 
     const/16 v2, 0x4e
@@ -728,7 +670,6 @@
 
     aput-object v0, v1, v2
 
-    .line 55
     new-instance v0, Lcom/meitu/room/database/DBHelper$x0;
 
     const/16 v2, 0x4f
@@ -741,7 +682,6 @@
 
     aput-object v0, v1, v2
 
-    .line 56
     new-instance v0, Lcom/meitu/room/database/DBHelper$y0;
 
     const/16 v2, 0x50
@@ -754,7 +694,6 @@
 
     aput-object v0, v1, v2
 
-    .line 57
     invoke-static {v1}, Lcotlin/collections/s;->r([Ljava/lang/Object;)Ljava/util/ArrayList;
 
     move-result-object v0
@@ -807,7 +746,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/meitu/room/database/DBHelper;->c()Lcom/meitu/room/database/MTBeautyplusDatabase;
 
     move-result-object v1

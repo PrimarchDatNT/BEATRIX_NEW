@@ -30,7 +30,6 @@
 .method constructor <init>(Lcom/meitu/ipstore/web/scripts/c;Ljava/lang/Class;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/ipstore/web/scripts/c$a;->c:Lcom/meitu/ipstore/web/scripts/c;
 
     invoke-direct {p0, p1, p2}, Lcom/meitu/webview/mtscript/i$c;-><init>(Lcom/meitu/webview/mtscript/i;Ljava/lang/Class;)V
@@ -47,7 +46,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Lcom/meitu/ipstore/web/scripts/RestoreScript$Model;
 
     invoke-virtual {p0, p1}, Lcom/meitu/ipstore/web/scripts/c$a;->d(Lcom/meitu/ipstore/web/scripts/RestoreScript$Model;)V
@@ -66,10 +64,8 @@
 
     const-string v0, "purchasedProducts"
 
-    .line 1
     invoke-static {v0}, Lf/k/m/j/e;->a(Ljava/lang/String;)V
 
-    .line 2
     invoke-static {}, Lf/k/m/b;->i()Lf/k/m/b;
 
     move-result-object v0
@@ -82,17 +78,14 @@
 
     iget-object v1, p0, Lcom/meitu/ipstore/web/scripts/c$a;->c:Lcom/meitu/ipstore/web/scripts/c;
 
-    .line 3
     invoke-virtual {v1}, Lcom/meitu/webview/mtscript/i;->n()Landroid/app/Activity;
 
     move-result-object v2
 
     const/4 v3, 0x1
 
-    .line 4
     invoke-virtual {v0, v3, v1, v2}, Lcom/meitu/ipstore/core/b;->q(ILcom/meitu/ipstore/core/a$c;Landroid/app/Activity;)V
 
-    .line 5
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

@@ -87,10 +87,8 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     new-instance v0, Ljava/lang/Object;
 
     invoke-direct {v0}, Ljava/lang/Object;-><init>()V
@@ -99,10 +97,8 @@
 
     const/4 v0, 0x0
 
-    .line 3
     iput-object v0, p0, Lcom/mopub/network/AdLoader;->mLastDeliveredResponse:Lcom/mopub/network/AdResponse;
 
-    .line 4
     invoke-static {p1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v0
@@ -111,33 +107,26 @@
 
     invoke-static {v0}, Lcom/mopub/common/Preconditions;->checkArgument(Z)V
 
-    .line 5
     invoke-static {p2}, Lcom/mopub/common/Preconditions;->checkNotNull(Ljava/lang/Object;)V
 
-    .line 6
     invoke-static {p4}, Lcom/mopub/common/Preconditions;->checkNotNull(Ljava/lang/Object;)V
 
-    .line 7
     invoke-static {p5}, Lcom/mopub/common/Preconditions;->checkNotNull(Ljava/lang/Object;)V
 
-    .line 8
     new-instance v0, Ljava/lang/ref/WeakReference;
 
     invoke-direct {v0, p4}, Ljava/lang/ref/WeakReference;-><init>(Ljava/lang/Object;)V
 
     iput-object v0, p0, Lcom/mopub/network/AdLoader;->mContext:Ljava/lang/ref/WeakReference;
 
-    .line 9
     iput-object p5, p0, Lcom/mopub/network/AdLoader;->mOriginalListener:Lcom/mopub/network/AdLoader$Listener;
 
-    .line 10
     new-instance p5, Landroid/os/Handler;
 
     invoke-direct {p5}, Landroid/os/Handler;-><init>()V
 
     iput-object p5, p0, Lcom/mopub/network/AdLoader;->mHandler:Landroid/os/Handler;
 
-    .line 11
     new-instance v5, Lcom/mopub/network/AdLoader$1;
 
     invoke-direct {v5, p0}, Lcom/mopub/network/AdLoader$1;-><init>(Lcom/mopub/network/AdLoader;)V
@@ -146,13 +135,10 @@
 
     const/4 p5, 0x0
 
-    .line 12
     iput-boolean p5, p0, Lcom/mopub/network/AdLoader;->mRunning:Z
 
-    .line 13
     iput-boolean p5, p0, Lcom/mopub/network/AdLoader;->mFailed:Z
 
-    .line 14
     new-instance p5, Lcom/mopub/network/MultiAdRequest;
 
     move-object v0, p5
@@ -175,7 +161,6 @@
 .method static synthetic access$002(Lcom/mopub/network/AdLoader;Z)Z
     .locals 0
 
-    .line 1
     iput-boolean p1, p0, Lcom/mopub/network/AdLoader;->mFailed:Z
 
     return p1
@@ -184,7 +169,6 @@
 .method static synthetic access$102(Lcom/mopub/network/AdLoader;Z)Z
     .locals 0
 
-    .line 1
     iput-boolean p1, p0, Lcom/mopub/network/AdLoader;->mRunning:Z
 
     return p1
@@ -193,7 +177,6 @@
 .method static synthetic access$200(Lcom/mopub/network/AdLoader;Lcom/mopub/network/MoPubNetworkError;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/mopub/network/AdLoader;->deliverError(Lcom/mopub/network/MoPubNetworkError;)V
 
     return-void
@@ -202,7 +185,6 @@
 .method static synthetic access$300(Lcom/mopub/network/AdLoader;)Ljava/lang/Object;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lcom/mopub/network/AdLoader;->lock:Ljava/lang/Object;
 
     return-object p0
@@ -211,7 +193,6 @@
 .method static synthetic access$400(Lcom/mopub/network/AdLoader;Lcom/mopub/network/AdResponse;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/mopub/network/AdLoader;->deliverResponse(Lcom/mopub/network/AdResponse;)V
 
     return-void
@@ -230,7 +211,6 @@
 
     if-nez p1, :cond_0
 
-    .line 1
     sget-object p1, Lcom/mopub/common/logging/MoPubLog$AdLogEvent;->CUSTOM:Lcom/mopub/common/logging/MoPubLog$AdLogEvent;
 
     new-array v1, v1, [Ljava/lang/Object;
@@ -243,7 +223,6 @@
 
     return-void
 
-    .line 2
     :cond_0
     iget-object v2, p0, Lcom/mopub/network/AdLoader;->mContext:Ljava/lang/ref/WeakReference;
 
@@ -255,23 +234,19 @@
 
     if-eqz v2, :cond_3
 
-    .line 3
     iget-object v3, p0, Lcom/mopub/network/AdLoader;->mLastDeliveredResponse:Lcom/mopub/network/AdResponse;
 
     if-nez v3, :cond_1
 
     goto :goto_0
 
-    .line 4
     :cond_1
     iget-object v0, p0, Lcom/mopub/network/AdLoader;->mDownloadTracker:Lcom/mopub/network/ContentDownloadAnalytics;
 
     if-eqz v0, :cond_2
 
-    .line 5
     invoke-virtual {v0, v2, p1}, Lcom/mopub/network/ContentDownloadAnalytics;->reportAfterLoad(Landroid/content/Context;Lcom/mopub/mobileads/MoPubError;)V
 
-    .line 6
     iget-object v0, p0, Lcom/mopub/network/AdLoader;->mDownloadTracker:Lcom/mopub/network/ContentDownloadAnalytics;
 
     invoke-virtual {v0, v2, p1}, Lcom/mopub/network/ContentDownloadAnalytics;->reportAfterLoadFail(Landroid/content/Context;Lcom/mopub/mobileads/MoPubError;)V
@@ -279,7 +254,6 @@
     :cond_2
     return-void
 
-    .line 7
     :cond_3
     :goto_0
     sget-object p1, Lcom/mopub/common/logging/MoPubLog$AdLogEvent;->CUSTOM:Lcom/mopub/common/logging/MoPubLog$AdLogEvent;
@@ -304,35 +278,29 @@
 
     const/4 v0, 0x0
 
-    .line 1
     iput-object v0, p0, Lcom/mopub/network/AdLoader;->mLastDeliveredResponse:Lcom/mopub/network/AdResponse;
 
-    .line 2
     iget-object v0, p0, Lcom/mopub/network/AdLoader;->mOriginalListener:Lcom/mopub/network/AdLoader$Listener;
 
     if-eqz v0, :cond_1
 
-    .line 3
     invoke-virtual {p1}, Lcom/mopub/network/MoPubNetworkError;->getReason()Lcom/mopub/network/MoPubNetworkError$Reason;
 
     move-result-object v0
 
     if-eqz v0, :cond_0
 
-    .line 4
     iget-object v0, p0, Lcom/mopub/network/AdLoader;->mOriginalListener:Lcom/mopub/network/AdLoader$Listener;
 
     invoke-interface {v0, p1}, Lcom/mopub/network/MoPubResponse$Listener;->onErrorResponse(Lcom/mopub/network/MoPubNetworkError;)V
 
     goto :goto_0
 
-    .line 5
     :cond_0
     iget-object v0, p0, Lcom/mopub/network/AdLoader;->mOriginalListener:Lcom/mopub/network/AdLoader$Listener;
 
     new-instance v1, Lcom/mopub/network/MoPubNetworkError$Builder;
 
-    .line 6
     invoke-virtual {p1}, Lcom/mopub/network/MoPubNetworkError;->getMessage()Ljava/lang/String;
 
     move-result-object v2
@@ -345,17 +313,14 @@
 
     sget-object p1, Lcom/mopub/network/MoPubNetworkError$Reason;->UNSPECIFIED:Lcom/mopub/network/MoPubNetworkError$Reason;
 
-    .line 7
     invoke-virtual {v1, p1}, Lcom/mopub/network/MoPubNetworkError$Builder;->reason(Lcom/mopub/network/MoPubNetworkError$Reason;)Lcom/mopub/network/MoPubNetworkError$Builder;
 
     move-result-object p1
 
-    .line 8
     invoke-virtual {p1}, Lcom/mopub/network/MoPubNetworkError$Builder;->build()Lcom/mopub/network/MoPubNetworkError;
 
     move-result-object p1
 
-    .line 9
     invoke-interface {v0, p1}, Lcom/mopub/network/MoPubResponse$Listener;->onErrorResponse(Lcom/mopub/network/MoPubNetworkError;)V
 
     :cond_1
@@ -370,10 +335,8 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-static {p1}, Lcom/mopub/common/Preconditions;->checkNotNull(Ljava/lang/Object;)V
 
-    .line 2
     iget-object v0, p0, Lcom/mopub/network/AdLoader;->mContext:Ljava/lang/ref/WeakReference;
 
     invoke-virtual {v0}, Ljava/lang/ref/WeakReference;->get()Ljava/lang/Object;
@@ -382,25 +345,20 @@
 
     check-cast v0, Landroid/content/Context;
 
-    .line 3
     new-instance v1, Lcom/mopub/network/ContentDownloadAnalytics;
 
     invoke-direct {v1, p1}, Lcom/mopub/network/ContentDownloadAnalytics;-><init>(Lcom/mopub/network/AdResponse;)V
 
     iput-object v1, p0, Lcom/mopub/network/AdLoader;->mDownloadTracker:Lcom/mopub/network/ContentDownloadAnalytics;
 
-    .line 4
     invoke-virtual {v1, v0}, Lcom/mopub/network/ContentDownloadAnalytics;->reportBeforeLoad(Landroid/content/Context;)V
 
-    .line 5
     iget-object v0, p0, Lcom/mopub/network/AdLoader;->mOriginalListener:Lcom/mopub/network/AdLoader$Listener;
 
     if-eqz v0, :cond_0
 
-    .line 6
     iput-object p1, p0, Lcom/mopub/network/AdLoader;->mLastDeliveredResponse:Lcom/mopub/network/AdResponse;
 
-    .line 7
     invoke-interface {v0, p1}, Lcom/mopub/network/MoPubResponse$Listener;->onResponse(Ljava/lang/Object;)V
 
     :cond_0
@@ -431,7 +389,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p1}, Lcom/mopub/common/Preconditions;->checkNotNull(Ljava/lang/Object;)V
 
     if-nez p2, :cond_0
@@ -440,7 +397,6 @@
 
     return-object p1
 
-    .line 2
     :cond_0
     invoke-virtual {p1}, Lcom/mopub/network/MoPubRequest;->getUrl()Ljava/lang/String;
 
@@ -458,7 +414,6 @@
 
     if-eqz v0, :cond_1
 
-    .line 3
     new-instance v0, Ljava/lang/String;
 
     invoke-virtual {p1}, Lcom/mopub/network/MoPubRequest;->getBody()[B
@@ -472,7 +427,6 @@
     :cond_1
     const-string v0, "<no body>"
 
-    .line 4
     :goto_0
     sget-object v1, Lcom/mopub/common/logging/MoPubLog$AdLogEvent;->REQUESTED:Lcom/mopub/common/logging/MoPubLog$AdLogEvent;
 
@@ -494,18 +448,14 @@
 
     invoke-static {v1, v2}, Lcom/mopub/common/logging/MoPubLog;->log(Lcom/mopub/common/logging/MoPubLog$MPLogEventType;[Ljava/lang/Object;)V
 
-    .line 5
     iput-boolean v3, p0, Lcom/mopub/network/AdLoader;->mRunning:Z
 
-    .line 6
     invoke-static {p2}, Lcom/mopub/network/Networking;->getRequestQueue(Landroid/content/Context;)Lcom/mopub/network/MoPubRequestQueue;
 
     move-result-object p2
 
-    .line 7
     iput-object p1, p0, Lcom/mopub/network/AdLoader;->mMultiAdRequest:Lcom/mopub/network/MultiAdRequest;
 
-    .line 8
     invoke-virtual {p2, p1}, Lcom/mopub/network/MoPubRequestQueue;->add(Lcom/mopub/network/MoPubRequest;)V
 
     return-object p1
@@ -518,17 +468,14 @@
 
     const/4 v0, 0x1
 
-    .line 1
     iput-boolean v0, p0, Lcom/mopub/network/AdLoader;->mContentDownloaded:Z
 
-    .line 2
     iget-object v1, p0, Lcom/mopub/network/AdLoader;->mDownloadTracker:Lcom/mopub/network/ContentDownloadAnalytics;
 
     const/4 v2, 0x0
 
     if-nez v1, :cond_0
 
-    .line 3
     sget-object v1, Lcom/mopub/common/logging/MoPubLog$AdLogEvent;->CUSTOM:Lcom/mopub/common/logging/MoPubLog$AdLogEvent;
 
     new-array v0, v0, [Ljava/lang/Object;
@@ -541,7 +488,6 @@
 
     return-void
 
-    .line 4
     :cond_0
     iget-object v1, p0, Lcom/mopub/network/AdLoader;->mContext:Ljava/lang/ref/WeakReference;
 
@@ -553,14 +499,12 @@
 
     if-eqz v1, :cond_2
 
-    .line 5
     iget-object v3, p0, Lcom/mopub/network/AdLoader;->mLastDeliveredResponse:Lcom/mopub/network/AdResponse;
 
     if-nez v3, :cond_1
 
     goto :goto_0
 
-    .line 6
     :cond_1
     iget-object v0, p0, Lcom/mopub/network/AdLoader;->mDownloadTracker:Lcom/mopub/network/ContentDownloadAnalytics;
 
@@ -568,14 +512,12 @@
 
     invoke-virtual {v0, v1, v2}, Lcom/mopub/network/ContentDownloadAnalytics;->reportAfterLoad(Landroid/content/Context;Lcom/mopub/mobileads/MoPubError;)V
 
-    .line 7
     iget-object v0, p0, Lcom/mopub/network/AdLoader;->mDownloadTracker:Lcom/mopub/network/ContentDownloadAnalytics;
 
     invoke-virtual {v0, v1}, Lcom/mopub/network/ContentDownloadAnalytics;->reportAfterLoadSuccess(Landroid/content/Context;)V
 
     return-void
 
-    .line 8
     :cond_2
     :goto_0
     sget-object v1, Lcom/mopub/common/logging/MoPubLog$AdLogEvent;->CUSTOM:Lcom/mopub/common/logging/MoPubLog$AdLogEvent;
@@ -594,7 +536,6 @@
 .method public hasMoreAds()Z
     .locals 3
 
-    .line 1
     iget-boolean v0, p0, Lcom/mopub/network/AdLoader;->mFailed:Z
 
     const/4 v1, 0x0
@@ -603,7 +544,6 @@
 
     return v1
 
-    .line 2
     :cond_0
     iget-boolean v0, p0, Lcom/mopub/network/AdLoader;->mContentDownloaded:Z
 
@@ -611,13 +551,11 @@
 
     return v1
 
-    .line 3
     :cond_1
     iget-object v0, p0, Lcom/mopub/network/AdLoader;->mMultiAdResponse:Lcom/mopub/network/MultiAdResponse;
 
     if-eqz v0, :cond_2
 
-    .line 4
     invoke-virtual {v0}, Lcom/mopub/network/MultiAdResponse;->hasNext()Z
 
     move-result v2
@@ -640,7 +578,6 @@
 .method public isFailed()Z
     .locals 1
 
-    .line 1
     iget-boolean v0, p0, Lcom/mopub/network/AdLoader;->mFailed:Z
 
     return v0
@@ -649,7 +586,6 @@
 .method public isRunning()Z
     .locals 1
 
-    .line 1
     iget-boolean v0, p0, Lcom/mopub/network/AdLoader;->mRunning:Z
 
     return v0
@@ -674,17 +610,14 @@
         }
     .end annotation
 
-    .line 1
     iget-boolean v0, p0, Lcom/mopub/network/AdLoader;->mRunning:Z
 
     if-eqz v0, :cond_0
 
-    .line 2
     iget-object p1, p0, Lcom/mopub/network/AdLoader;->mMultiAdRequest:Lcom/mopub/network/MultiAdRequest;
 
     return-object p1
 
-    .line 3
     :cond_0
     iget-boolean v0, p0, Lcom/mopub/network/AdLoader;->mFailed:Z
 
@@ -692,7 +625,6 @@
 
     if-eqz v0, :cond_1
 
-    .line 4
     iget-object p1, p0, Lcom/mopub/network/AdLoader;->mHandler:Landroid/os/Handler;
 
     new-instance v0, Lcom/mopub/network/AdLoader$2;
@@ -703,19 +635,16 @@
 
     return-object v1
 
-    .line 5
     :cond_1
     iget-object v0, p0, Lcom/mopub/network/AdLoader;->lock:Ljava/lang/Object;
 
     monitor-enter v0
 
-    .line 6
     :try_start_0
     iget-object v2, p0, Lcom/mopub/network/AdLoader;->mMultiAdResponse:Lcom/mopub/network/MultiAdResponse;
 
     if-nez v2, :cond_3
 
-    .line 7
     invoke-static {}, Lcom/mopub/network/RequestRateTracker;->getInstance()Lcom/mopub/network/RequestRateTracker;
 
     move-result-object p1
@@ -730,7 +659,6 @@
 
     if-eqz p1, :cond_2
 
-    .line 8
     sget-object p1, Lcom/mopub/common/logging/MoPubLog$SdkLogEvent;->CUSTOM:Lcom/mopub/common/logging/MoPubLog$SdkLogEvent;
 
     const/4 v2, 0x1
@@ -761,10 +689,8 @@
 
     invoke-static {p1, v3}, Lcom/mopub/common/logging/MoPubLog;->log(Lcom/mopub/common/logging/MoPubLog$MPLogEventType;[Ljava/lang/Object;)V
 
-    .line 9
     iput-boolean v2, p0, Lcom/mopub/network/AdLoader;->mFailed:Z
 
-    .line 10
     iget-object p1, p0, Lcom/mopub/network/AdLoader;->mHandler:Landroid/os/Handler;
 
     new-instance v2, Lcom/mopub/network/AdLoader$3;
@@ -773,12 +699,10 @@
 
     invoke-virtual {p1, v2}, Landroid/os/Handler;->post(Ljava/lang/Runnable;)Z
 
-    .line 11
     monitor-exit v0
 
     return-object v1
 
-    .line 12
     :cond_2
     iget-object p1, p0, Lcom/mopub/network/AdLoader;->mMultiAdRequest:Lcom/mopub/network/MultiAdRequest;
 
@@ -801,10 +725,8 @@
     :cond_3
     if-eqz p1, :cond_4
 
-    .line 13
     invoke-direct {p0, p1}, Lcom/mopub/network/AdLoader;->creativeDownloadFailed(Lcom/mopub/mobileads/MoPubError;)V
 
-    .line 14
     :cond_4
     iget-object p1, p0, Lcom/mopub/network/AdLoader;->mMultiAdResponse:Lcom/mopub/network/MultiAdResponse;
 
@@ -814,14 +736,12 @@
 
     if-eqz p1, :cond_5
 
-    .line 15
     iget-object p1, p0, Lcom/mopub/network/AdLoader;->mMultiAdResponse:Lcom/mopub/network/MultiAdResponse;
 
     invoke-virtual {p1}, Lcom/mopub/network/MultiAdResponse;->next()Lcom/mopub/network/AdResponse;
 
     move-result-object p1
 
-    .line 16
     iget-object v1, p0, Lcom/mopub/network/AdLoader;->mHandler:Landroid/os/Handler;
 
     new-instance v2, Lcom/mopub/network/AdLoader$4;
@@ -830,14 +750,12 @@
 
     invoke-virtual {v1, v2}, Landroid/os/Handler;->post(Ljava/lang/Runnable;)Z
 
-    .line 17
     iget-object p1, p0, Lcom/mopub/network/AdLoader;->mMultiAdRequest:Lcom/mopub/network/MultiAdRequest;
 
     monitor-exit v0
 
     return-object p1
 
-    .line 18
     :cond_5
     iget-object p1, p0, Lcom/mopub/network/AdLoader;->mMultiAdResponse:Lcom/mopub/network/MultiAdResponse;
 
@@ -847,7 +765,6 @@
 
     if-nez p1, :cond_6
 
-    .line 19
     new-instance p1, Lcom/mopub/network/MultiAdRequest;
 
     iget-object v1, p0, Lcom/mopub/network/AdLoader;->mMultiAdResponse:Lcom/mopub/network/MultiAdResponse;
@@ -864,7 +781,6 @@
 
     iget-object v1, p0, Lcom/mopub/network/AdLoader;->mContext:Ljava/lang/ref/WeakReference;
 
-    .line 20
     invoke-virtual {v1}, Ljava/lang/ref/WeakReference;->get()Ljava/lang/Object;
 
     move-result-object v1
@@ -881,7 +797,6 @@
 
     iput-object p1, p0, Lcom/mopub/network/AdLoader;->mMultiAdRequest:Lcom/mopub/network/MultiAdRequest;
 
-    .line 21
     iget-object v1, p0, Lcom/mopub/network/AdLoader;->mContext:Ljava/lang/ref/WeakReference;
 
     invoke-virtual {v1}, Ljava/lang/ref/WeakReference;->get()Ljava/lang/Object;
@@ -898,13 +813,11 @@
 
     return-object p1
 
-    .line 22
     :cond_6
     monitor-exit v0
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 23
     iget-object p1, p0, Lcom/mopub/network/AdLoader;->mHandler:Landroid/os/Handler;
 
     new-instance v0, Lcom/mopub/network/AdLoader$5;
@@ -918,7 +831,6 @@
     :catchall_0
     move-exception p1
 
-    .line 24
     :try_start_1
     monitor-exit v0
     :try_end_1

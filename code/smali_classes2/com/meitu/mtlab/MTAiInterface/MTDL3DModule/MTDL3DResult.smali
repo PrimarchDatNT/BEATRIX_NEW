@@ -22,12 +22,10 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/4 v0, 0x1
 
-    .line 2
     iput-boolean v0, p0, Lcom/meitu/mtlab/MTAiInterface/MTDL3DModule/MTDL3DResult;->normalize:Z
 
     return-void
@@ -47,7 +45,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0}, Ljava/lang/Object;->clone()Ljava/lang/Object;
 
     move-result-object v1
@@ -56,12 +53,10 @@
 
     if-eqz v1, :cond_2
 
-    .line 2
     iget-object v2, p0, Lcom/meitu/mtlab/MTAiInterface/MTDL3DModule/MTDL3DResult;->size:Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineSize;
 
     if-eqz v2, :cond_0
 
-    .line 3
     new-instance v3, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineSize;
 
     iget v4, v2, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineSize;->width:I
@@ -72,7 +67,6 @@
 
     iput-object v3, v1, Lcom/meitu/mtlab/MTAiInterface/MTDL3DModule/MTDL3DResult;->size:Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineSize;
 
-    .line 4
     :cond_0
     iget-object v2, p0, Lcom/meitu/mtlab/MTAiInterface/MTDL3DModule/MTDL3DResult;->dl3ds:[Lcom/meitu/mtlab/MTAiInterface/MTDL3DModule/MTDL3D;
 
@@ -82,14 +76,12 @@
 
     if-lez v3, :cond_2
 
-    .line 5
     array-length v2, v2
 
     new-array v2, v2, [Lcom/meitu/mtlab/MTAiInterface/MTDL3DModule/MTDL3D;
 
     const/4 v3, 0x0
 
-    .line 6
     :goto_0
     iget-object v4, p0, Lcom/meitu/mtlab/MTAiInterface/MTDL3DModule/MTDL3DResult;->dl3ds:[Lcom/meitu/mtlab/MTAiInterface/MTDL3DModule/MTDL3D;
 
@@ -97,7 +89,6 @@
 
     if-ge v3, v5, :cond_1
 
-    .line 7
     aget-object v4, v4, v3
 
     invoke-virtual {v4}, Lcom/meitu/mtlab/MTAiInterface/MTDL3DModule/MTDL3D;->clone()Ljava/lang/Object;
@@ -112,11 +103,9 @@
 
     goto :goto_0
 
-    .line 8
     :cond_1
     iput-object v2, v1, Lcom/meitu/mtlab/MTAiInterface/MTDL3DModule/MTDL3DResult;->dl3ds:[Lcom/meitu/mtlab/MTAiInterface/MTDL3DModule/MTDL3D;
 
-    .line 9
     :cond_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

@@ -34,14 +34,12 @@
 .method static constructor <clinit>()V
     .locals 2
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
 
     const-class v1, Lcom/google/common/util/concurrent/FuturesGetChecked$GetCheckedTypeValidatorHolder;
 
-    .line 2
     invoke-virtual {v1}, Ljava/lang/Class;->getName()Ljava/lang/String;
 
     move-result-object v1
@@ -58,7 +56,6 @@
 
     sput-object v0, Lcom/google/common/util/concurrent/FuturesGetChecked$GetCheckedTypeValidatorHolder;->a:Ljava/lang/String;
 
-    .line 3
     invoke-static {}, Lcom/google/common/util/concurrent/FuturesGetChecked$GetCheckedTypeValidatorHolder;->a()Lcom/google/common/util/concurrent/FuturesGetChecked$b;
 
     move-result-object v0
@@ -71,7 +68,6 @@
 .method constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -80,7 +76,6 @@
 .method static a()Lcom/google/common/util/concurrent/FuturesGetChecked$b;
     .locals 2
 
-    .line 1
     :try_start_0
     sget-object v0, Lcom/google/common/util/concurrent/FuturesGetChecked$GetCheckedTypeValidatorHolder;->a:Ljava/lang/String;
 
@@ -88,7 +83,6 @@
 
     move-result-object v0
 
-    .line 2
     invoke-virtual {v0}, Ljava/lang/Class;->getEnumConstants()[Ljava/lang/Object;
 
     move-result-object v0
@@ -103,7 +97,6 @@
 
     return-object v0
 
-    .line 3
     :catchall_0
     invoke-static {}, Lcom/google/common/util/concurrent/FuturesGetChecked;->l()Lcom/google/common/util/concurrent/FuturesGetChecked$b;
 

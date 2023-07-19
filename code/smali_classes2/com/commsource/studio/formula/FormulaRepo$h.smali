@@ -54,7 +54,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p1}, Lcom/commsource/studio/formula/JsFormula;->getSortMap()Ljava/util/HashMap;
 
     move-result-object p1
@@ -122,7 +121,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Lcom/commsource/studio/formula/JsFormula;
 
     check-cast p2, Lcom/commsource/studio/formula/JsFormula;

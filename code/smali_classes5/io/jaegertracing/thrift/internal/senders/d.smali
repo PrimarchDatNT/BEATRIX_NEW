@@ -25,7 +25,6 @@
 
     const/4 v2, 0x0
 
-    .line 1
     invoke-direct {p0, v0, v1, v2}, Lio/jaegertracing/thrift/internal/senders/d;-><init>(Ljava/lang/String;II)V
 
     return-void
@@ -34,14 +33,12 @@
 .method public constructor <init>(Ljava/lang/String;II)V
     .locals 1
 
-    .line 2
     sget-object v0, Lio/jaegertracing/thrift/internal/senders/ThriftSenderBase$ProtocolType;->Compact:Lio/jaegertracing/thrift/internal/senders/ThriftSenderBase$ProtocolType;
 
     invoke-direct {p0, v0, p3}, Lio/jaegertracing/thrift/internal/senders/b;-><init>(Lio/jaegertracing/thrift/internal/senders/ThriftSenderBase$ProtocolType;I)V
 
     if-eqz p1, :cond_0
 
-    .line 3
     invoke-virtual {p1}, Ljava/lang/String;->length()I
 
     move-result p3
@@ -56,7 +53,6 @@
 
     const/16 p2, 0x1aaf
 
-    .line 4
     :cond_2
     invoke-static {p1, p2}, Lio/jaegertracing/c/a/a/a/b;->b(Ljava/lang/String;I)Lio/jaegertracing/c/a/a/a/b;
 
@@ -64,7 +60,6 @@
 
     iput-object p1, p0, Lio/jaegertracing/thrift/internal/senders/d;->k:Lio/jaegertracing/c/a/a/a/b;
 
-    .line 5
     new-instance p2, Lio/jaegertracing/agent/thrift/Agent$e;
 
     iget-object p3, p0, Lio/jaegertracing/thrift/internal/senders/ThriftSenderBase;->a:Lorg/apache/thrift/protocol/TProtocolFactory;
@@ -90,7 +85,6 @@
         }
     .end annotation
 
-    .line 1
     :try_start_0
     invoke-super {p0}, Lio/jaegertracing/thrift/internal/senders/b;->close()I
 
@@ -98,7 +92,6 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 2
     iget-object v1, p0, Lio/jaegertracing/thrift/internal/senders/d;->k:Lio/jaegertracing/c/a/a/a/b;
 
     invoke-virtual {v1}, Lio/jaegertracing/c/a/a/a/b;->close()V
@@ -133,7 +126,6 @@
         }
     .end annotation
 
-    .line 1
     :try_start_0
     iget-object v0, p0, Lio/jaegertracing/thrift/internal/senders/d;->j:Lio/jaegertracing/agent/thrift/Agent$e;
 
@@ -150,7 +142,6 @@
     :catch_0
     move-exception p1
 
-    .line 2
     new-instance v0, Lio/jaegertracing/internal/exceptions/SenderException;
 
     const/4 v1, 0x1

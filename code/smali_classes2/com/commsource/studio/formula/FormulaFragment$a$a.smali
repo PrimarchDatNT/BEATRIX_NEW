@@ -28,7 +28,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/formula/FormulaFragment$a$a;->d:Lcom/commsource/studio/formula/FormulaFragment$a;
 
     invoke-direct {p0}, Lcom/commsource/util/delegate/process/c;-><init>()V
@@ -53,14 +52,12 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     new-instance v1, Lcom/commsource/studio/formula/FormulaFragment$a$a$a;
 
     invoke-direct {v1, p0, p1}, Lcom/commsource/studio/formula/FormulaFragment$a$a$a;-><init>(Lcom/commsource/studio/formula/FormulaFragment$a$a;Ljava/lang/String;)V
 
     invoke-static {v1}, Lcom/commsource/util/g2;->j(Ljava/lang/Runnable;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

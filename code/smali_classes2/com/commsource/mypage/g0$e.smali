@@ -22,7 +22,6 @@
 .method constructor <init>(Lcom/commsource/mypage/g0;Ljava/lang/String;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/mypage/g0$e;->g:Lcom/commsource/mypage/g0;
 
     invoke-direct {p0, p2}, Lcom/commsource/util/u2/a;-><init>(Ljava/lang/String;)V
@@ -37,7 +36,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/mypage/g0$e;->g:Lcom/commsource/mypage/g0;
 
     invoke-static {v1}, Lcom/commsource/mypage/g0;->E(Lcom/commsource/mypage/g0;)Lcom/commsource/mypage/album/BpAlbumViewModel;
@@ -68,7 +66,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/mypage/g0$e;->g:Lcom/commsource/mypage/g0;
 
     invoke-static {v1}, Lcom/commsource/mypage/g0;->z(Lcom/commsource/mypage/g0;)Landroid/graphics/Bitmap;
@@ -93,7 +90,6 @@
 
     goto/16 :goto_1
 
-    .line 2
     :cond_0
     iget-object v1, p0, Lcom/commsource/mypage/g0$e;->g:Lcom/commsource/mypage/g0;
 
@@ -105,7 +101,6 @@
 
     move-result-object v1
 
-    .line 3
     iget-object v3, p0, Lcom/commsource/mypage/g0$e;->g:Lcom/commsource/mypage/g0;
 
     invoke-static {v3}, Lcom/commsource/mypage/g0;->w(Lcom/commsource/mypage/g0;)Lcom/commsource/beautyplus/f0/i7;
@@ -124,7 +119,6 @@
 
     if-eqz v3, :cond_4
 
-    .line 4
     new-instance v3, Ljava/lang/StringBuilder;
 
     invoke-direct {v3}, Ljava/lang/StringBuilder;-><init>()V
@@ -147,7 +141,6 @@
 
     move-result-object v3
 
-    .line 5
     new-instance v4, Ljava/io/File;
 
     invoke-static {}, Lcom/commsource/camera/montage/v;->f0()Ljava/lang/String;
@@ -156,30 +149,25 @@
 
     invoke-direct {v4, v5}, Ljava/io/File;-><init>(Ljava/lang/String;)V
 
-    .line 6
     invoke-virtual {v4}, Ljava/io/File;->exists()Z
 
     move-result v5
 
     if-nez v5, :cond_1
 
-    .line 7
     invoke-virtual {v4}, Ljava/io/File;->mkdirs()Z
 
-    .line 8
     :cond_1
     new-instance v4, Ljava/io/File;
 
     invoke-direct {v4, v3}, Ljava/io/File;-><init>(Ljava/lang/String;)V
 
-    .line 9
     invoke-virtual {v4}, Ljava/io/File;->exists()Z
 
     move-result v5
 
     if-eqz v5, :cond_2
 
-    .line 10
     invoke-virtual {v4}, Ljava/io/File;->delete()Z
 
     :cond_2
@@ -187,12 +175,10 @@
 
     const/16 v5, 0x500
 
-    .line 11
     invoke-virtual {v1, v4, v5}, Lcom/meitu/core/types/NativeBitmap;->scale(II)Lcom/meitu/core/types/NativeBitmap;
 
     move-result-object v4
 
-    .line 12
     invoke-virtual {v4}, Lcom/meitu/core/types/NativeBitmap;->getImage()Landroid/graphics/Bitmap;
 
     move-result-object v5
@@ -203,13 +189,10 @@
 
     invoke-static {v5, v3, v6, v7}, Lcom/commsource/util/common/e;->D(Landroid/graphics/Bitmap;Ljava/lang/String;ILandroid/graphics/Bitmap$CompressFormat;)Z
 
-    .line 13
     invoke-virtual {v1}, Lcom/meitu/core/types/NativeBitmap;->recycle()V
 
-    .line 14
     invoke-virtual {v4}, Lcom/meitu/core/types/NativeBitmap;->recycle()V
 
-    .line 15
     iget-object v1, p0, Lcom/commsource/mypage/g0$e;->g:Lcom/commsource/mypage/g0;
 
     invoke-virtual {v1}, Lcom/commsource/beautyplus/i0/a;->q()Landroidx/fragment/app/FragmentActivity;
@@ -220,7 +203,6 @@
 
     invoke-virtual {v1}, Lcom/commsource/beautyplus/BaseActivity;->r0()V
 
-    .line 16
     new-instance v1, Ljava/io/File;
 
     invoke-direct {v1, v3}, Ljava/io/File;-><init>(Ljava/lang/String;)V
@@ -231,15 +213,12 @@
 
     if-eqz v1, :cond_3
 
-    .line 17
     new-instance v1, Lcom/commsource/cloudalbum/bean/CAImageInfo;
 
     invoke-direct {v1}, Lcom/commsource/cloudalbum/bean/CAImageInfo;-><init>()V
 
-    .line 18
     invoke-virtual {v1, v3}, Lcom/commsource/cloudalbum/bean/CAImageInfo;->E(Ljava/lang/String;)V
 
-    .line 19
     new-instance v2, Lcom/commsource/mypage/d;
 
     invoke-direct {v2, p0, v1}, Lcom/commsource/mypage/d;-><init>(Lcom/commsource/mypage/g0$e;Lcom/commsource/cloudalbum/bean/CAImageInfo;)V
@@ -248,18 +227,15 @@
 
     goto :goto_0
 
-    .line 20
     :cond_3
     invoke-static {v2}, Lf/k/c/c/f;->w(I)V
 
-    .line 21
     :cond_4
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 22
     :cond_5
     :goto_1
     iget-object v1, p0, Lcom/commsource/mypage/g0$e;->g:Lcom/commsource/mypage/g0;
@@ -272,10 +248,8 @@
 
     invoke-virtual {v1}, Lcom/commsource/beautyplus/BaseActivity;->r0()V
 
-    .line 23
     invoke-static {v2}, Lf/k/c/c/f;->w(I)V
 
-    .line 24
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

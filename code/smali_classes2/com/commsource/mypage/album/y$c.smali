@@ -26,7 +26,6 @@
 .method constructor <init>(Ljava/lang/String;Ljava/lang/String;Landroid/app/Activity;Lcom/commsource/mypage/album/y$g;)V
     .locals 0
 
-    .line 1
     iput-object p2, p0, Lcom/commsource/mypage/album/y$c;->g:Ljava/lang/String;
 
     iput-object p3, p0, Lcom/commsource/mypage/album/y$c;->p:Landroid/app/Activity;
@@ -45,7 +44,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p0}, Lcom/commsource/widget/dialog/s0/t;->L(Landroid/content/Context;)Z
 
     move-result v1
@@ -54,7 +52,6 @@
 
     sget v1, Lcom/res/provider/ResSTRING;->toast_image_damaged_please_choose_again:I
 
-    .line 2
     invoke-virtual {p0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
     move-result-object v1
@@ -80,10 +77,8 @@
 
     move-object v4, p2
 
-    .line 3
     invoke-interface/range {v2 .. v7}, Lcom/commsource/mypage/album/y$g;->a(ILjava/lang/String;Lcom/meitu/core/types/FaceData;II)V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -96,7 +91,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p0}, Lcom/commsource/widget/dialog/s0/t;->L(Landroid/content/Context;)Z
 
     move-result v1
@@ -105,7 +99,6 @@
 
     sget v1, Lcom/res/provider/ResSTRING;->toast_image_damaged_please_choose_again:I
 
-    .line 2
     invoke-virtual {p0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
     move-result-object v1
@@ -131,10 +124,8 @@
 
     move-object v4, p2
 
-    .line 3
     invoke-interface/range {v2 .. v7}, Lcom/commsource/mypage/album/y$g;->a(ILjava/lang/String;Lcom/meitu/core/types/FaceData;II)V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -149,14 +140,12 @@
 
     sget v1, Lcom/res/provider/ResSTRING;->toast_image_aspect_ratio_too_big:I
 
-    .line 1
     invoke-virtual {p0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
     move-result-object v1
 
     sget v2, Lcom/res/provider/ResSTRING;->ok:I
 
-    .line 2
     invoke-virtual {p0, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
     move-result-object v2
@@ -179,22 +168,18 @@
 
     sget v3, Lcom/res/provider/ResSTRING;->cancel:I
 
-    .line 3
     invoke-virtual {p0, v3}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
     move-result-object p0
 
-    .line 4
     invoke-static {v1, v2, v9, p0}, Lcom/commsource/widget/dialog/s0/t;->j0(Ljava/lang/String;Ljava/lang/String;Lcom/commsource/widget/dialog/s0/y;Ljava/lang/String;)V
 
     const/4 v4, 0x1
 
     move-object v3, p1
 
-    .line 5
     invoke-interface/range {v3 .. v8}, Lcom/commsource/mypage/album/y$g;->a(ILjava/lang/String;Lcom/meitu/core/types/FaceData;II)V
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -219,7 +204,6 @@
 
     move v6, p4
 
-    .line 1
     invoke-interface/range {v1 .. v6}, Lcom/commsource/mypage/album/y$g;->a(ILjava/lang/String;Lcom/meitu/core/types/FaceData;II)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -246,13 +230,10 @@
 
     move v6, p4
 
-    .line 1
     invoke-interface/range {v1 .. v6}, Lcom/commsource/mypage/album/y$g;->a(ILjava/lang/String;Lcom/meitu/core/types/FaceData;II)V
 
-    .line 2
     invoke-virtual {p5}, Lcom/commsource/widget/dialog/i0;->dismiss()V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -267,14 +248,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/mypage/album/y$c;->g:Ljava/lang/String;
 
     invoke-static {v1}, Lcom/meitu/library/p/e/a;->q(Ljava/lang/String;)Landroid/graphics/BitmapFactory$Options;
 
     move-result-object v1
 
-    .line 2
     iget-boolean v2, v1, Landroid/graphics/BitmapFactory$Options;->mCancel:Z
 
     if-nez v2, :cond_5
@@ -298,7 +277,6 @@
     :cond_0
     const/4 v2, 0x0
 
-    .line 3
     iget-object v3, p0, Lcom/commsource/mypage/album/y$c;->p:Landroid/app/Activity;
 
     iget-object v4, p0, Lcom/commsource/mypage/album/y$c;->g:Ljava/lang/String;
@@ -311,7 +289,6 @@
 
     if-nez v3, :cond_1
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/mypage/album/y$c;->p:Landroid/app/Activity;
 
     iget-object v2, p0, Lcom/commsource/mypage/album/y$c;->J:Lcom/commsource/mypage/album/y$g;
@@ -324,30 +301,25 @@
 
     invoke-static {v4}, Lcom/commsource/util/g2;->k(Ljava/lang/Runnable;)V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 6
     :cond_1
     invoke-virtual {v3}, Landroid/graphics/Bitmap;->getWidth()I
 
     move-result v10
 
-    .line 7
     invoke-virtual {v3}, Landroid/graphics/Bitmap;->getHeight()I
 
     move-result v11
 
-    .line 8
     invoke-static {v3}, Lcom/meitu/library/p/e/a;->z(Landroid/graphics/Bitmap;)Z
 
     move-result v4
 
     if-eqz v4, :cond_2
 
-    .line 9
     invoke-static {}, Lcom/commsource/beautyplus/g0/b;->g()Lcom/commsource/beautyplus/g0/b;
 
     move-result-object v2
@@ -359,7 +331,6 @@
     :cond_2
     move-object v9, v2
 
-    .line 10
     iget v2, v1, Landroid/graphics/BitmapFactory$Options;->outWidth:I
 
     int-to-double v2, v2
@@ -384,7 +355,6 @@
 
     goto :goto_0
 
-    .line 11
     :cond_3
     iget-object v6, p0, Lcom/commsource/mypage/album/y$c;->J:Lcom/commsource/mypage/album/y$g;
 
@@ -404,12 +374,10 @@
 
     invoke-static {v1}, Lcom/commsource/util/g2;->k(Ljava/lang/Runnable;)V
 
-    .line 12
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 13
     :cond_4
     :goto_0
     iget-object v6, p0, Lcom/commsource/mypage/album/y$c;->p:Landroid/app/Activity;
@@ -426,12 +394,10 @@
 
     invoke-static {v1}, Lcom/commsource/util/g2;->k(Ljava/lang/Runnable;)V
 
-    .line 14
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 15
     :cond_5
     :goto_1
     iget-object v1, p0, Lcom/commsource/mypage/album/y$c;->p:Landroid/app/Activity;
@@ -446,7 +412,6 @@
 
     invoke-static {v4}, Lcom/commsource/util/g2;->k(Ljava/lang/Runnable;)V
 
-    .line 16
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

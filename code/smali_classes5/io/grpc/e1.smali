@@ -21,7 +21,6 @@
 .method constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lio/grpc/k1;-><init>()V
 
     return-void
@@ -32,7 +31,6 @@
 .method public a(Lio/grpc/Status;Lio/grpc/y0;)V
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lio/grpc/e1;->l()Lio/grpc/k1;
 
     move-result-object v0
@@ -48,7 +46,6 @@
         value = "https://github.com/grpc/grpc-java/issues/1779"
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lio/grpc/e1;->l()Lio/grpc/k1;
 
     move-result-object v0
@@ -63,7 +60,6 @@
 .method public c()Ljava/lang/String;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lio/grpc/e1;->l()Lio/grpc/k1;
 
     move-result-object v0
@@ -78,7 +74,6 @@
 .method public e()Z
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lio/grpc/e1;->l()Lio/grpc/k1;
 
     move-result-object v0
@@ -93,7 +88,6 @@
 .method public f()Z
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lio/grpc/e1;->l()Lio/grpc/k1;
 
     move-result-object v0
@@ -108,7 +102,6 @@
 .method public g(I)V
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lio/grpc/e1;->l()Lio/grpc/k1;
 
     move-result-object v0
@@ -121,7 +114,6 @@
 .method public h(Lio/grpc/y0;)V
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lio/grpc/e1;->l()Lio/grpc/k1;
 
     move-result-object v0
@@ -137,7 +129,6 @@
         value = "https://github.com/grpc/grpc-java/issues/1704"
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lio/grpc/e1;->l()Lio/grpc/k1;
 
     move-result-object v0
@@ -153,7 +144,6 @@
         value = "https://github.com/grpc/grpc-java/issues/1703"
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lio/grpc/e1;->l()Lio/grpc/k1;
 
     move-result-object v0
@@ -176,7 +166,6 @@
 .method public toString()Ljava/lang/String;
     .locals 3
 
-    .line 1
     invoke-static {p0}, Lcom/google/common/base/p;->c(Ljava/lang/Object;)Lcom/google/common/base/p$b;
 
     move-result-object v0

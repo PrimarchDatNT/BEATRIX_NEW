@@ -44,38 +44,30 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/puzzle/patchedworld/VisualPatch$b;-><init>()V
 
     const/4 v0, 0x1
 
-    .line 2
     iput-boolean v0, p0, Lcom/commsource/puzzle/patchedworld/ImagePatch$a;->W:Z
 
     const/high16 v0, 0x3f800000    # 1.0f
 
-    .line 3
     iput v0, p0, Lcom/commsource/puzzle/patchedworld/ImagePatch$a;->Z:F
 
-    .line 4
     sget-object v0, Lcom/commsource/puzzle/patchedworld/ImagePatch$ScaleType;->FIT_XY:Lcom/commsource/puzzle/patchedworld/ImagePatch$ScaleType;
 
     iput-object v0, p0, Lcom/commsource/puzzle/patchedworld/ImagePatch$a;->a0:Lcom/commsource/puzzle/patchedworld/ImagePatch$ScaleType;
 
-    .line 5
     sget-object v0, Lcom/commsource/puzzle/patchedworld/ImagePatch$ImageType;->COMMON:Lcom/commsource/puzzle/patchedworld/ImagePatch$ImageType;
 
     iput-object v0, p0, Lcom/commsource/puzzle/patchedworld/ImagePatch$a;->b0:Lcom/commsource/puzzle/patchedworld/ImagePatch$ImageType;
 
     const/4 v0, 0x0
 
-    .line 6
     iput v0, p0, Lcom/commsource/puzzle/patchedworld/ImagePatch$a;->c0:I
 
-    .line 7
     iput-boolean v0, p0, Lcom/commsource/puzzle/patchedworld/ImagePatch$a;->e0:Z
 
-    .line 8
     iput v0, p0, Lcom/commsource/puzzle/patchedworld/ImagePatch$a;->f0:I
 
     return-void
@@ -84,38 +76,30 @@
 .method public constructor <init>(II)V
     .locals 0
 
-    .line 9
     invoke-direct {p0, p1, p2}, Lcom/commsource/puzzle/patchedworld/VisualPatch$b;-><init>(II)V
 
     const/4 p1, 0x1
 
-    .line 10
     iput-boolean p1, p0, Lcom/commsource/puzzle/patchedworld/ImagePatch$a;->W:Z
 
     const/high16 p1, 0x3f800000    # 1.0f
 
-    .line 11
     iput p1, p0, Lcom/commsource/puzzle/patchedworld/ImagePatch$a;->Z:F
 
-    .line 12
     sget-object p1, Lcom/commsource/puzzle/patchedworld/ImagePatch$ScaleType;->FIT_XY:Lcom/commsource/puzzle/patchedworld/ImagePatch$ScaleType;
 
     iput-object p1, p0, Lcom/commsource/puzzle/patchedworld/ImagePatch$a;->a0:Lcom/commsource/puzzle/patchedworld/ImagePatch$ScaleType;
 
-    .line 13
     sget-object p1, Lcom/commsource/puzzle/patchedworld/ImagePatch$ImageType;->COMMON:Lcom/commsource/puzzle/patchedworld/ImagePatch$ImageType;
 
     iput-object p1, p0, Lcom/commsource/puzzle/patchedworld/ImagePatch$a;->b0:Lcom/commsource/puzzle/patchedworld/ImagePatch$ImageType;
 
     const/4 p1, 0x0
 
-    .line 14
     iput p1, p0, Lcom/commsource/puzzle/patchedworld/ImagePatch$a;->c0:I
 
-    .line 15
     iput-boolean p1, p0, Lcom/commsource/puzzle/patchedworld/ImagePatch$a;->e0:Z
 
-    .line 16
     iput p1, p0, Lcom/commsource/puzzle/patchedworld/ImagePatch$a;->f0:I
 
     return-void
@@ -124,38 +108,30 @@
 .method public constructor <init>(IIII)V
     .locals 0
 
-    .line 17
     invoke-direct {p0, p1, p2, p3, p4}, Lcom/commsource/puzzle/patchedworld/VisualPatch$b;-><init>(IIII)V
 
     const/4 p1, 0x1
 
-    .line 18
     iput-boolean p1, p0, Lcom/commsource/puzzle/patchedworld/ImagePatch$a;->W:Z
 
     const/high16 p1, 0x3f800000    # 1.0f
 
-    .line 19
     iput p1, p0, Lcom/commsource/puzzle/patchedworld/ImagePatch$a;->Z:F
 
-    .line 20
     sget-object p1, Lcom/commsource/puzzle/patchedworld/ImagePatch$ScaleType;->FIT_XY:Lcom/commsource/puzzle/patchedworld/ImagePatch$ScaleType;
 
     iput-object p1, p0, Lcom/commsource/puzzle/patchedworld/ImagePatch$a;->a0:Lcom/commsource/puzzle/patchedworld/ImagePatch$ScaleType;
 
-    .line 21
     sget-object p1, Lcom/commsource/puzzle/patchedworld/ImagePatch$ImageType;->COMMON:Lcom/commsource/puzzle/patchedworld/ImagePatch$ImageType;
 
     iput-object p1, p0, Lcom/commsource/puzzle/patchedworld/ImagePatch$a;->b0:Lcom/commsource/puzzle/patchedworld/ImagePatch$ImageType;
 
     const/4 p1, 0x0
 
-    .line 22
     iput p1, p0, Lcom/commsource/puzzle/patchedworld/ImagePatch$a;->c0:I
 
-    .line 23
     iput-boolean p1, p0, Lcom/commsource/puzzle/patchedworld/ImagePatch$a;->e0:Z
 
-    .line 24
     iput p1, p0, Lcom/commsource/puzzle/patchedworld/ImagePatch$a;->f0:I
 
     return-void
@@ -168,7 +144,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/puzzle/patchedworld/ImagePatch$a;->a0:Lcom/commsource/puzzle/patchedworld/ImagePatch$ScaleType;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -183,7 +158,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/puzzle/patchedworld/ImagePatch$a;->U:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -198,7 +172,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean p0, p0, Lcom/commsource/puzzle/patchedworld/ImagePatch$a;->e0:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -213,7 +186,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget p0, p0, Lcom/commsource/puzzle/patchedworld/ImagePatch$a;->f0:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -228,7 +200,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/puzzle/patchedworld/ImagePatch$a;->V:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -243,7 +214,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/commsource/puzzle/patchedworld/ImagePatch$a;->X:J
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -258,7 +228,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/puzzle/patchedworld/ImagePatch$a;->Y:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -273,7 +242,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget p0, p0, Lcom/commsource/puzzle/patchedworld/ImagePatch$a;->Z:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -288,7 +256,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/puzzle/patchedworld/ImagePatch$a;->b0:Lcom/commsource/puzzle/patchedworld/ImagePatch$ImageType;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -303,7 +270,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget p0, p0, Lcom/commsource/puzzle/patchedworld/ImagePatch$a;->c0:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -318,7 +284,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean p0, p0, Lcom/commsource/puzzle/patchedworld/ImagePatch$a;->W:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -333,7 +298,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean p0, p0, Lcom/commsource/puzzle/patchedworld/ImagePatch$a;->d0:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -350,7 +314,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/puzzle/patchedworld/ImagePatch$a;->X0()Lcom/commsource/puzzle/patchedworld/ImagePatch;
 
     move-result-object v1
@@ -367,7 +330,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/commsource/puzzle/patchedworld/ImagePatch;
 
     invoke-direct {v1, p0}, Lcom/commsource/puzzle/patchedworld/ImagePatch;-><init>(Lcom/commsource/puzzle/patchedworld/ImagePatch$a;)V
@@ -384,10 +346,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-wide p1, p0, Lcom/commsource/puzzle/patchedworld/ImagePatch$a;->X:J
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
@@ -400,10 +360,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/puzzle/patchedworld/ImagePatch$a;->Z:F
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
@@ -416,10 +374,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/puzzle/patchedworld/ImagePatch$a;->Y:Ljava/lang/String;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
@@ -432,10 +388,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/puzzle/patchedworld/ImagePatch$a;->e0:Z
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
@@ -448,10 +402,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/puzzle/patchedworld/ImagePatch$a;->d0:Z
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -464,10 +416,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/puzzle/patchedworld/ImagePatch$a;->b0:Lcom/commsource/puzzle/patchedworld/ImagePatch$ImageType;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
@@ -480,10 +430,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/puzzle/patchedworld/ImagePatch$a;->U:Ljava/lang/String;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
@@ -496,10 +444,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/puzzle/patchedworld/ImagePatch$a;->V:Ljava/lang/String;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
@@ -512,10 +458,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/puzzle/patchedworld/ImagePatch$a;->W:Z
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
@@ -528,10 +472,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/puzzle/patchedworld/ImagePatch$a;->a0:Lcom/commsource/puzzle/patchedworld/ImagePatch$ScaleType;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
@@ -544,10 +486,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/puzzle/patchedworld/ImagePatch$a;->f0:I
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
@@ -560,10 +500,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/puzzle/patchedworld/ImagePatch$a;->c0:I
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0

@@ -7,7 +7,6 @@
 .method public constructor <init>(Ljava/lang/String;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1}, Lorg/jsoup/nodes/m;-><init>(Ljava/lang/String;)V
 
     return-void
@@ -33,12 +32,10 @@
 
     const-string p2, "<![CDATA["
 
-    .line 1
     invoke-interface {p1, p2}, Ljava/lang/Appendable;->append(Ljava/lang/CharSequence;)Ljava/lang/Appendable;
 
     move-result-object p1
 
-    .line 2
     invoke-virtual {p0}, Lorg/jsoup/nodes/m;->n0()Ljava/lang/String;
 
     move-result-object p2
@@ -54,7 +51,6 @@
     :try_start_0
     const-string p2, "]]>"
 
-    .line 1
     invoke-interface {p1, p2}, Ljava/lang/Appendable;->append(Ljava/lang/CharSequence;)Ljava/lang/Appendable;
     :try_end_0
     .catch Ljava/io/IOException; {:try_start_0 .. :try_end_0} :catch_0
@@ -64,7 +60,6 @@
     :catch_0
     move-exception p1
 
-    .line 2
     new-instance p2, Lorg/jsoup/UncheckedIOException;
 
     invoke-direct {p2, p1}, Lorg/jsoup/UncheckedIOException;-><init>(Ljava/io/IOException;)V
@@ -80,7 +75,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lorg/jsoup/nodes/c;->v0()Lorg/jsoup/nodes/c;
 
     move-result-object v0
@@ -91,7 +85,6 @@
 .method public bridge synthetic l0()Lorg/jsoup/nodes/m;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lorg/jsoup/nodes/c;->v0()Lorg/jsoup/nodes/c;
 
     move-result-object v0
@@ -102,7 +95,6 @@
 .method public bridge synthetic s()Lorg/jsoup/nodes/j;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lorg/jsoup/nodes/c;->v0()Lorg/jsoup/nodes/c;
 
     move-result-object v0
@@ -113,7 +105,6 @@
 .method public t0()Ljava/lang/String;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lorg/jsoup/nodes/m;->n0()Ljava/lang/String;
 
     move-result-object v0
@@ -124,7 +115,6 @@
 .method public v0()Lorg/jsoup/nodes/c;
     .locals 1
 
-    .line 1
     invoke-super {p0}, Lorg/jsoup/nodes/m;->l0()Lorg/jsoup/nodes/m;
 
     move-result-object v0

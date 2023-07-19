@@ -39,10 +39,8 @@
 .method constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     new-instance v0, Landroid/os/Handler;
 
     invoke-direct {v0}, Landroid/os/Handler;-><init>()V
@@ -57,17 +55,14 @@
 .method a()V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/sdk/imp/base/mraid/b$j;->b:Lcom/sdk/imp/base/mraid/b$j$a;
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-virtual {v0}, Lcom/sdk/imp/base/mraid/b$j$a;->c()V
 
     const/4 v0, 0x0
 
-    .line 3
     iput-object v0, p0, Lcom/sdk/imp/base/mraid/b$j;->b:Lcom/sdk/imp/base/mraid/b$j$a;
 
     :cond_0
@@ -81,7 +76,6 @@
         .end annotation
     .end param
 
-    .line 1
     new-instance v0, Lcom/sdk/imp/base/mraid/b$j$a;
 
     iget-object v1, p0, Lcom/sdk/imp/base/mraid/b$j;->a:Landroid/os/Handler;

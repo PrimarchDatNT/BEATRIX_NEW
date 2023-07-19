@@ -14,7 +14,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -25,7 +24,6 @@
 .method public a(Lcom/google/android/gms/common/api/Status;)Ljava/lang/Exception;
     .locals 2
 
-    .line 1
     invoke-virtual {p1}, Lcom/google/android/gms/common/api/Status;->z()I
 
     move-result v0
@@ -34,7 +32,6 @@
 
     if-ne v0, v1, :cond_0
 
-    .line 2
     new-instance v0, Lcom/google/firebase/FirebaseException;
 
     invoke-virtual {p1}, Lcom/google/android/gms/common/api/Status;->w0()Ljava/lang/String;
@@ -45,7 +42,6 @@
 
     return-object v0
 
-    .line 3
     :cond_0
     new-instance v0, Lcom/google/firebase/FirebaseApiNotAvailableException;
 

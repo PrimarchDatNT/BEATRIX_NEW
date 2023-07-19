@@ -24,14 +24,12 @@
 .method protected constructor <init>(Lorg/apache/thrift/protocol/TSimpleJSONProtocol;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lorg/apache/thrift/protocol/TSimpleJSONProtocol$MapContext;->this$0:Lorg/apache/thrift/protocol/TSimpleJSONProtocol;
 
     invoke-direct {p0, p1}, Lorg/apache/thrift/protocol/TSimpleJSONProtocol$StructContext;-><init>(Lorg/apache/thrift/protocol/TSimpleJSONProtocol;)V
 
     const/4 p1, 0x1
 
-    .line 2
     iput-boolean p1, p0, Lorg/apache/thrift/protocol/TSimpleJSONProtocol$MapContext;->isKey:Z
 
     return-void
@@ -42,7 +40,6 @@
 .method protected isMapKey()Z
     .locals 1
 
-    .line 1
     iget-boolean v0, p0, Lorg/apache/thrift/protocol/TSimpleJSONProtocol$MapContext;->isKey:Z
 
     return v0
@@ -56,10 +53,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-super {p0}, Lorg/apache/thrift/protocol/TSimpleJSONProtocol$StructContext;->write()V
 
-    .line 2
     iget-boolean v0, p0, Lorg/apache/thrift/protocol/TSimpleJSONProtocol$MapContext;->isKey:Z
 
     xor-int/lit8 v0, v0, 0x1

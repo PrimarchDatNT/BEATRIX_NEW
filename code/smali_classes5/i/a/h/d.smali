@@ -15,7 +15,6 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
     new-instance v0, Li/a/h/e;
 
     invoke-direct {v0}, Li/a/h/e;-><init>()V

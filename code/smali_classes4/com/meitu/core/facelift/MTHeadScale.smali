@@ -11,15 +11,12 @@
 .method public constructor <init>()V
     .locals 2
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const-wide/16 v0, 0x0
 
-    .line 2
     iput-wide v0, p0, Lcom/meitu/core/facelift/MTHeadScale;->nativeInstance:J
 
-    .line 3
     :try_start_0
     invoke-direct {p0}, Lcom/meitu/core/facelift/MTHeadScale;->nativeCreate()J
 
@@ -31,11 +28,9 @@
 
     goto :goto_0
 
-    .line 4
     :catch_0
     invoke-static {}, Lcom/meitu/core/MTRtEffectConfigJNI;->loadLibrary()V
 
-    .line 5
     invoke-direct {p0}, Lcom/meitu/core/facelift/MTHeadScale;->nativeCreate()J
 
     move-result-wide v0
@@ -138,7 +133,6 @@
 
     move-object v11, p0
 
-    .line 1
     iget-wide v2, v11, Lcom/meitu/core/facelift/MTHeadScale;->nativeInstance:J
 
     move-object v1, p0
@@ -178,7 +172,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     :try_start_0
     iget-wide v1, p0, Lcom/meitu/core/facelift/MTHeadScale;->nativeInstance:J
 
@@ -186,10 +179,8 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 2
     invoke-super {p0}, Ljava/lang/Object;->finalize()V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -197,10 +188,8 @@
     :catchall_0
     move-exception v1
 
-    .line 4
     invoke-super {p0}, Ljava/lang/Object;->finalize()V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     throw v1
@@ -213,7 +202,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/core/facelift/MTHeadScale;->nativeInstance:J
 
     invoke-direct {p0, v1, v2}, Lcom/meitu/core/facelift/MTHeadScale;->nativeGetFaceID(J)I
@@ -232,7 +220,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/core/facelift/MTHeadScale;->nativeInstance:J
 
     invoke-direct {p0, v1, v2}, Lcom/meitu/core/facelift/MTHeadScale;->nativeGetFaceIndex(J)I
@@ -251,7 +238,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/core/facelift/MTHeadScale;->nativeInstance:J
 
     invoke-direct {p0, v1, v2}, Lcom/meitu/core/facelift/MTHeadScale;->nativeGetFaPoint(J)[F
@@ -270,7 +256,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/core/facelift/MTHeadScale;->nativeInstance:J
 
     invoke-direct {p0, v1, v2}, Lcom/meitu/core/facelift/MTHeadScale;->nativeGetFacePointCount(J)I
@@ -289,7 +274,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/core/facelift/MTHeadScale;->nativeInstance:J
 
     invoke-direct {p0, v1, v2}, Lcom/meitu/core/facelift/MTHeadScale;->nativeGetFaceRect(J)[F
@@ -308,7 +292,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/core/facelift/MTHeadScale;->nativeInstance:J
 
     invoke-direct {p0, v1, v2}, Lcom/meitu/core/facelift/MTHeadScale;->nativeGetMiniFace(J)F
@@ -327,7 +310,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/core/facelift/MTHeadScale;->nativeInstance:J
 
     invoke-direct {p0, v1, v2}, Lcom/meitu/core/facelift/MTHeadScale;->nativeGetVertexForBackgroundRepair(J)[F
@@ -346,7 +328,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/core/facelift/MTHeadScale;->nativeInstance:J
 
     invoke-direct {p0, v1, v2}, Lcom/meitu/core/facelift/MTHeadScale;->nativeGetVertexNumForBackGroundRepair(J)I
@@ -365,7 +346,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     :try_start_0
     iget-wide v1, p0, Lcom/meitu/core/facelift/MTHeadScale;->nativeInstance:J
 
@@ -375,16 +355,13 @@
 
     goto :goto_0
 
-    .line 2
     :catch_0
     invoke-static {}, Lcom/meitu/core/MTRtEffectConfigJNI;->loadLibrary()V
 
-    .line 3
     iget-wide v1, p0, Lcom/meitu/core/facelift/MTHeadScale;->nativeInstance:J
 
     invoke-direct {p0, v1, v2}, Lcom/meitu/core/facelift/MTHeadScale;->nativeInit(J)V
 
-    .line 4
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -398,12 +375,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/core/facelift/MTHeadScale;->nativeInstance:J
 
     invoke-direct {p0, v1, v2}, Lcom/meitu/core/facelift/MTHeadScale;->nativeRelease(J)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -416,12 +391,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/core/facelift/MTHeadScale;->nativeInstance:J
 
     invoke-direct {p0, v1, v2}, Lcom/meitu/core/facelift/MTHeadScale;->nativeResetMeshData(J)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -436,7 +409,6 @@
 
     move-object v10, p0
 
-    .line 1
     iget-wide v2, v10, Lcom/meitu/core/facelift/MTHeadScale;->nativeInstance:J
 
     move-object v1, p0
@@ -455,7 +427,6 @@
 
     invoke-direct/range {v1 .. v9}, Lcom/meitu/core/facelift/MTHeadScale;->nativeRunBackgroundRepair(JIIIIII)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -468,12 +439,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/core/facelift/MTHeadScale;->nativeInstance:J
 
     invoke-direct {p0, v1, v2, p1}, Lcom/meitu/core/facelift/MTHeadScale;->nativeSetAssignFaceIndex(JI)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -486,12 +455,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/core/facelift/MTHeadScale;->nativeInstance:J
 
     invoke-direct {p0, v1, v2, p1}, Lcom/meitu/core/facelift/MTHeadScale;->nativeSetDenseMesh(JZ)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -504,7 +471,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/core/facelift/MTHeadScale;->nativeInstance:J
 
     invoke-virtual {p1}, Lcom/meitu/core/MTRtEffectFaceData;->nativeInstance()J
@@ -513,7 +479,6 @@
 
     invoke-direct {p0, v1, v2, v3, v4}, Lcom/meitu/core/facelift/MTHeadScale;->nativeSetFaceData(JJ)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -526,12 +491,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/core/facelift/MTHeadScale;->nativeInstance:J
 
     invoke-direct {p0, v1, v2, p1}, Lcom/meitu/core/facelift/MTHeadScale;->nativeSetGroupParaWeight(JF)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -544,12 +507,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/core/facelift/MTHeadScale;->nativeInstance:J
 
     invoke-direct {p0, v1, v2, p1}, Lcom/meitu/core/facelift/MTHeadScale;->nativeSetGroupfieMode(JI)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -562,12 +523,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/core/facelift/MTHeadScale;->nativeInstance:J
 
     invoke-direct {p0, v1, v2, p1}, Lcom/meitu/core/facelift/MTHeadScale;->nativeSetHeadScale(JI)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -580,12 +539,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/core/facelift/MTHeadScale;->nativeInstance:J
 
     invoke-direct {p0, v1, v2, p1}, Lcom/meitu/core/facelift/MTHeadScale;->nativeSetIsGradualChange(JZ)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -598,12 +555,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/core/facelift/MTHeadScale;->nativeInstance:J
 
     invoke-direct {p0, v1, v2, p1}, Lcom/meitu/core/facelift/MTHeadScale;->nativeSetIsMiniFaceLimit(JZ)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -616,12 +571,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/core/facelift/MTHeadScale;->nativeInstance:J
 
     invoke-direct {p0, v1, v2, p1}, Lcom/meitu/core/facelift/MTHeadScale;->nativeSetIsNeedFixFaceID(JZ)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -634,7 +587,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v2, p0, Lcom/meitu/core/facelift/MTHeadScale;->nativeInstance:J
 
     move-object v1, p0
@@ -651,7 +603,6 @@
 
     invoke-direct/range {v1 .. v8}, Lcom/meitu/core/facelift/MTHeadScale;->nativeSetPortraitMaskWithBytebuffer(JLjava/nio/ByteBuffer;IIII)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -664,12 +615,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/core/facelift/MTHeadScale;->nativeInstance:J
 
     invoke-direct {p0, v1, v2, p1}, Lcom/meitu/core/facelift/MTHeadScale;->nativeSetSmartFaceIntensity(JF)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -682,12 +631,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/core/facelift/MTHeadScale;->nativeInstance:J
 
     invoke-direct {p0, v1, v2, p1, p2}, Lcom/meitu/core/facelift/MTHeadScale;->nativeSetVertexForBackgroundRepair(J[FI)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

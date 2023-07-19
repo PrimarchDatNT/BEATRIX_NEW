@@ -42,7 +42,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v0, Lcom/commsource/util/p2/c;
 
     iget-object v1, p0, Lcom/commsource/studio/sub/StudioBeautyFilterFragment$c;->a:Lcom/commsource/studio/sub/StudioBeautyFilterFragment;
@@ -57,7 +56,6 @@
 
     invoke-direct {v0, v1}, Lcom/commsource/util/p2/c;-><init>(Landroidx/fragment/app/FragmentActivity;)V
 
-    .line 2
     new-instance v1, Lcom/commsource/studio/sub/StudioBeautyFilterFragment$c$a;
 
     invoke-direct {v1, p0}, Lcom/commsource/studio/sub/StudioBeautyFilterFragment$c$a;-><init>(Lcom/commsource/studio/sub/StudioBeautyFilterFragment$c;)V
@@ -70,10 +68,8 @@
 
     const-string v2, "\u4eba\u50cf\u7f8e\u989c"
 
-    .line 3
     invoke-static {v0, v1, v2}, Lcom/commsource/statistics/i;->r(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 4
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

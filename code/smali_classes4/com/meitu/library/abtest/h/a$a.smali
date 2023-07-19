@@ -27,7 +27,6 @@
 .method constructor <init>(Lcom/meitu/library/abtest/h/h;Lcom/meitu/library/abtest/h/g;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/library/abtest/h/a$a;->a:Lcom/meitu/library/abtest/h/h;
 
     iput-object p2, p0, Lcom/meitu/library/abtest/h/a$a;->b:Lcom/meitu/library/abtest/h/g;
@@ -46,7 +45,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/library/abtest/h/a$a;->a:Lcom/meitu/library/abtest/h/h;
 
     if-eqz v1, :cond_3
@@ -59,7 +57,6 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     iget-object v1, p0, Lcom/meitu/library/abtest/h/a$a;->a:Lcom/meitu/library/abtest/h/h;
 
@@ -69,12 +66,10 @@
 
     if-nez v1, :cond_2
 
-    .line 3
     iget-object v1, p0, Lcom/meitu/library/abtest/h/a$a;->b:Lcom/meitu/library/abtest/h/g;
 
     if-eqz v1, :cond_1
 
-    .line 4
     new-instance v2, Ljava/lang/NullPointerException;
 
     const-string v3, "ab request is null!"
@@ -83,19 +78,16 @@
 
     invoke-interface {v1, v2}, Lcom/meitu/library/abtest/h/g;->a(Ljava/lang/Exception;)V
 
-    .line 5
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 6
     :cond_2
     invoke-static {}, Lcom/meitu/library/abtest/h/j;->c()Lokhttp3/OkHttpClient;
 
     move-result-object v2
 
-    .line 7
     invoke-virtual {v2, v1}, Lokhttp3/OkHttpClient;->newCall(Lokhttp3/Request;)Lokhttp3/Call;
 
     move-result-object v1
@@ -106,19 +98,16 @@
 
     invoke-interface {v1, v2}, Lokhttp3/Call;->enqueue(Lokhttp3/Callback;)V
 
-    .line 8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 9
     :cond_3
     :goto_0
     iget-object v1, p0, Lcom/meitu/library/abtest/h/a$a;->b:Lcom/meitu/library/abtest/h/g;
 
     if-eqz v1, :cond_4
 
-    .line 10
     new-instance v2, Ljava/lang/IllegalArgumentException;
 
     const-string v3, "AB config is not valid!"
@@ -127,7 +116,6 @@
 
     invoke-interface {v1, v2}, Lcom/meitu/library/abtest/h/g;->a(Ljava/lang/Exception;)V
 
-    .line 11
     :cond_4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

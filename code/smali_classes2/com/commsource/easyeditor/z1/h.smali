@@ -31,7 +31,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/camera/newrender/renderproxy/n;-><init>()V
 
     return-void
@@ -46,7 +45,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/meitu/render/MTBPColorRender;
 
     invoke-direct {v1}, Lcom/meitu/render/MTBPColorRender;-><init>()V
@@ -55,10 +53,8 @@
 
     const/4 v2, 0x0
 
-    .line 2
     invoke-virtual {v1, v2}, Lcom/meitu/render/MTBPColorRender;->e(I)V
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/easyeditor/z1/h;->g:Lcom/meitu/render/MTBPColorRender;
 
     const-string v2, "brightness"
@@ -67,7 +63,6 @@
 
     invoke-virtual {v1, v2, v3}, Lcom/meitu/render/MTBPColorRender;->a(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/easyeditor/z1/h;->g:Lcom/meitu/render/MTBPColorRender;
 
     const-string v2, "saturation"
@@ -76,7 +71,6 @@
 
     invoke-virtual {v1, v2, v3}, Lcom/meitu/render/MTBPColorRender;->a(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 5
     iget-object v1, p0, Lcom/commsource/easyeditor/z1/h;->g:Lcom/meitu/render/MTBPColorRender;
 
     const-string v2, "comparison"
@@ -85,7 +79,6 @@
 
     invoke-virtual {v1, v2, v3}, Lcom/meitu/render/MTBPColorRender;->a(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 6
     iget-object v1, p0, Lcom/commsource/easyeditor/z1/h;->g:Lcom/meitu/render/MTBPColorRender;
 
     const-string v2, "temperature"
@@ -94,7 +87,6 @@
 
     invoke-virtual {v1, v2, v3}, Lcom/meitu/render/MTBPColorRender;->a(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -107,7 +99,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -120,12 +111,10 @@
 
     invoke-static {p7}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/easyeditor/z1/h;->g:Lcom/meitu/render/MTBPColorRender;
 
     if-nez v0, :cond_0
 
-    .line 2
     invoke-static {p7}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p3
@@ -143,7 +132,6 @@
 
     move v6, p6
 
-    .line 3
     invoke-virtual/range {v0 .. v6}, Lcom/meitu/render/MTBPColorRender;->f(IIIIII)I
 
     move-result p1
@@ -164,15 +152,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/easyeditor/z1/h;->g:Lcom/meitu/render/MTBPColorRender;
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-virtual {v1, p1, p2}, Lcom/meitu/render/MTBPColorRender;->c(Ljava/lang/String;F)V
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

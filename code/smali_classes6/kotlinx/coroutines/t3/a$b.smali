@@ -32,7 +32,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcotlinx/coroutines/t3/a$b;->f:Lcotlinx/coroutines/t3/a;
 
     invoke-direct {p0}, Lcotlinx/coroutines/j1;-><init>()V
@@ -43,7 +42,6 @@
 
     const/4 v1, 0x0
 
-    .line 2
     invoke-static {p0, p1, v0, v1}, Lcotlinx/coroutines/j1;->L(Lcotlinx/coroutines/j1;ZILjava/lang/Object;)V
 
     return-void
@@ -54,7 +52,6 @@
 .method public P()J
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcotlinx/coroutines/t3/a$b;->f:Lcotlinx/coroutines/t3/a;
 
     invoke-static {v0}, Lcotlinx/coroutines/t3/a;->l(Lcotlinx/coroutines/t3/a;)J
@@ -88,15 +85,12 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcotlinx/coroutines/t3/a$b;->f:Lcotlinx/coroutines/t3/a;
 
-    .line 2
     new-instance v1, Lcotlinx/coroutines/t3/a$b$b;
 
     invoke-direct {v1, p0, p3}, Lcotlinx/coroutines/t3/a$b$b;-><init>(Lcotlinx/coroutines/t3/a$b;Lcotlinx/coroutines/m;)V
 
-    .line 3
     invoke-static {v0, v1, p1, p2}, Lcotlinx/coroutines/t3/a;->k(Lcotlinx/coroutines/t3/a;Ljava/lang/Runnable;J)Lcotlinx/coroutines/t3/c;
 
     return-void
@@ -122,7 +116,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     invoke-static {p0, p1, p2, p3}, Lcotlinx/coroutines/u0$a;->a(Lcotlinx/coroutines/u0;JLcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p1
@@ -139,14 +132,12 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcotlinx/coroutines/t3/a$b;->f:Lcotlinx/coroutines/t3/a;
 
     invoke-static {v0, p3, p1, p2}, Lcotlinx/coroutines/t3/a;->k(Lcotlinx/coroutines/t3/a;Ljava/lang/Runnable;J)Lcotlinx/coroutines/t3/c;
 
     move-result-object p1
 
-    .line 2
     new-instance p2, Lcotlinx/coroutines/t3/a$b$a;
 
     invoke-direct {p2, p0, p1}, Lcotlinx/coroutines/t3/a$b$a;-><init>(Lcotlinx/coroutines/t3/a$b;Lcotlinx/coroutines/t3/c;)V
@@ -159,7 +150,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -194,7 +184,6 @@
         .end annotation
     .end param
 
-    .line 1
     iget-object p1, p0, Lcotlinx/coroutines/t3/a$b;->f:Lcotlinx/coroutines/t3/a;
 
     invoke-static {p1, p2}, Lcotlinx/coroutines/t3/a;->b(Lcotlinx/coroutines/t3/a;Ljava/lang/Runnable;)V

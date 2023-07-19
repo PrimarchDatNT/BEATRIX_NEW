@@ -132,14 +132,12 @@
 
     invoke-static {}, Lcotlin/coroutines/intrinsics/a;->h()Ljava/lang/Object;
 
-    .line 1
     iget v0, p0, Lcom/mopub/common/CacheService$putToDiskCacheAsync$2$1;->label:I
 
     if-nez v0, :cond_1
 
     invoke-static {p1}, Lcotlin/r0;->n(Ljava/lang/Object;)V
 
-    .line 2
     sget-object p1, Lcom/mopub/common/logging/MoPubLog$SdkLogEvent;->CUSTOM:Lcom/mopub/common/logging/MoPubLog$SdkLogEvent;
 
     const/4 v0, 0x1
@@ -154,7 +152,6 @@
 
     invoke-static {p1, v0}, Lcom/mopub/common/logging/MoPubLog;->log(Lcom/mopub/common/logging/MoPubLog$MPLogEventType;[Ljava/lang/Object;)V
 
-    .line 3
     iget-object p1, p0, Lcom/mopub/common/CacheService$putToDiskCacheAsync$2$1;->this$0:Lcom/mopub/common/CacheService$putToDiskCacheAsync$2;
 
     iget-object p1, p1, Lcom/mopub/common/CacheService$putToDiskCacheAsync$2;->$listener:Lcom/mopub/common/CacheService$DiskLruCacheListener;

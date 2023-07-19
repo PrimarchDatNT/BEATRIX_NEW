@@ -54,7 +54,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer$DoubleTapAction;
 
     const-string v2, "NONE"
@@ -65,7 +64,6 @@
 
     sput-object v1, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer$DoubleTapAction;->NONE:Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer$DoubleTapAction;
 
-    .line 2
     new-instance v2, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer$DoubleTapAction;
 
     const-string v4, "ZOOM_IN_TO_MAX_SCALE"
@@ -76,7 +74,6 @@
 
     sput-object v2, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer$DoubleTapAction;->ZOOM_IN_TO_MAX_SCALE:Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer$DoubleTapAction;
 
-    .line 3
     new-instance v4, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer$DoubleTapAction;
 
     const-string v6, "ZOOM_OUT_TO_MIN_SCALE"
@@ -87,7 +84,6 @@
 
     sput-object v4, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer$DoubleTapAction;->ZOOM_OUT_TO_MIN_SCALE:Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer$DoubleTapAction;
 
-    .line 4
     new-instance v6, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer$DoubleTapAction;
 
     const-string v8, "ZOOM_IN_STEP_BY_STEP"
@@ -98,7 +94,6 @@
 
     sput-object v6, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer$DoubleTapAction;->ZOOM_IN_STEP_BY_STEP:Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer$DoubleTapAction;
 
-    .line 5
     new-instance v8, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer$DoubleTapAction;
 
     const-string v10, "ZOOM_OUT_STEP_BY_STEP"
@@ -109,7 +104,6 @@
 
     sput-object v8, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer$DoubleTapAction;->ZOOM_OUT_STEP_BY_STEP:Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer$DoubleTapAction;
 
-    .line 6
     new-instance v10, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer$DoubleTapAction;
 
     const-string v12, "RESTORE"
@@ -120,7 +114,6 @@
 
     sput-object v10, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer$DoubleTapAction;->RESTORE:Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer$DoubleTapAction;
 
-    .line 7
     new-instance v12, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer$DoubleTapAction;
 
     const-string v14, "SCALE_MAX_OR_RESTORE"
@@ -131,7 +124,6 @@
 
     sput-object v12, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer$DoubleTapAction;->SCALE_MAX_OR_RESTORE:Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer$DoubleTapAction;
 
-    .line 8
     new-instance v14, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer$DoubleTapAction;
 
     const-string v0, "SCALE_MIN_OR_RESTORE"
@@ -164,7 +156,6 @@
 
     aput-object v14, v0, v15
 
-    .line 9
     sput-object v0, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer$DoubleTapAction;->$VALUES:[Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer$DoubleTapAction;
 
     const v0, 0xa6a8
@@ -182,10 +173,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 2
     iput p3, p0, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer$DoubleTapAction;->mAction:I
 
     return-void
@@ -218,14 +207,12 @@
 
     if-eq p0, v1, :cond_0
 
-    .line 2
     sget-object p0, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer$DoubleTapAction;->NONE:Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer$DoubleTapAction;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
 
-    .line 3
     :cond_0
     sget-object p0, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer$DoubleTapAction;->RESTORE:Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer$DoubleTapAction;
 
@@ -233,7 +220,6 @@
 
     return-object p0
 
-    .line 4
     :cond_1
     sget-object p0, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer$DoubleTapAction;->ZOOM_OUT_STEP_BY_STEP:Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer$DoubleTapAction;
 
@@ -241,7 +227,6 @@
 
     return-object p0
 
-    .line 5
     :cond_2
     sget-object p0, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer$DoubleTapAction;->ZOOM_IN_STEP_BY_STEP:Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer$DoubleTapAction;
 
@@ -249,7 +234,6 @@
 
     return-object p0
 
-    .line 6
     :cond_3
     sget-object p0, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer$DoubleTapAction;->ZOOM_OUT_TO_MIN_SCALE:Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer$DoubleTapAction;
 
@@ -257,7 +241,6 @@
 
     return-object p0
 
-    .line 7
     :cond_4
     sget-object p0, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer$DoubleTapAction;->ZOOM_IN_TO_MAX_SCALE:Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer$DoubleTapAction;
 
@@ -273,7 +256,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     const-class v1, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer$DoubleTapAction;
 
     invoke-static {v1, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -294,7 +276,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer$DoubleTapAction;->$VALUES:[Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer$DoubleTapAction;
 
     invoke-virtual {v1}, [Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer$DoubleTapAction;->clone()Ljava/lang/Object;
@@ -317,7 +298,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer$DoubleTapAction;->mAction:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

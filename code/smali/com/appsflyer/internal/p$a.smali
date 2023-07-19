@@ -35,10 +35,8 @@
 .method private constructor <init>()V
     .locals 2
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     new-instance v0, Ljava/util/concurrent/LinkedBlockingQueue;
 
     const/4 v1, 0x1
@@ -49,7 +47,6 @@
 
     const/4 v0, 0x0
 
-    .line 3
     iput-boolean v0, p0, Lcom/appsflyer/internal/p$a;->$$a:Z
 
     return-void
@@ -58,7 +55,6 @@
 .method synthetic constructor <init>(B)V
     .locals 0
 
-    .line 4
     invoke-direct {p0}, Lcom/appsflyer/internal/p$a;-><init>()V
 
     return-void
@@ -69,7 +65,6 @@
 .method public final onServiceConnected(Landroid/content/ComponentName;Landroid/os/IBinder;)V
     .locals 0
 
-    .line 1
     :try_start_0
     iget-object p1, p0, Lcom/appsflyer/internal/p$a;->valueOf:Ljava/util/concurrent/LinkedBlockingQueue;
 

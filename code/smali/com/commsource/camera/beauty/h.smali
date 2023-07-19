@@ -39,7 +39,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -52,7 +51,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/camera/beauty/h;->a:Landroid/content/Context;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -67,14 +65,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/util/HashMap;
 
     const/4 v2, 0x4
 
     invoke-direct {v1, v2}, Ljava/util/HashMap;-><init>(I)V
 
-    .line 2
     new-instance v2, Ljava/lang/StringBuilder;
 
     invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
@@ -91,7 +87,6 @@
 
     invoke-virtual {v1, p0, p1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 3
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
     move-result-object p0
@@ -104,10 +99,8 @@
 
     const-string/jumbo v1, "\u5206\u4eab\u6e20\u9053"
 
-    .line 4
     invoke-static {p0, v1, p1}, Lcom/commsource/statistics/i;->r(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -120,14 +113,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/util/HashMap;
 
     const/4 v2, 0x4
 
     invoke-direct {v1, v2}, Ljava/util/HashMap;-><init>(I)V
 
-    .line 2
     new-instance v2, Ljava/lang/StringBuilder;
 
     invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
@@ -146,7 +137,6 @@
 
     invoke-virtual {v1, v4, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 3
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
     move-result-object v2
@@ -155,7 +145,6 @@
 
     invoke-static {v2, v4, v1}, Lcom/commsource/statistics/m;->j(Landroid/content/Context;Ljava/lang/String;Ljava/util/Map;)V
 
-    .line 4
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -174,7 +163,6 @@
 
     invoke-static {v1, v2, p0}, Lcom/commsource/statistics/i;->r(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -187,12 +175,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/beauty/h;->e:Lcom/commsource/beautyplus/advert/ArPopWindowBean;
 
     if-eqz v1, :cond_1
 
-    .line 2
     invoke-virtual {v1}, Lcom/commsource/beautyplus/advert/ArPopWindowBean;->getJumpType()I
 
     move-result v1
@@ -203,22 +189,18 @@
 
     if-ne v1, v2, :cond_0
 
-    .line 3
     new-instance v1, Landroid/content/Intent;
 
     invoke-direct {v1}, Landroid/content/Intent;-><init>()V
 
-    .line 4
     iget-object v2, p0, Lcom/commsource/camera/beauty/h;->a:Landroid/content/Context;
 
     const-class v4, Lcom/commsource/beautyplus/web/WebActivity;
 
     invoke-virtual {v1, v2, v4}, Landroid/content/Intent;->setClass(Landroid/content/Context;Ljava/lang/Class;)Landroid/content/Intent;
 
-    .line 5
     invoke-virtual {v1, v3}, Landroid/content/Intent;->setFlags(I)Landroid/content/Intent;
 
-    .line 6
     iget-object v2, p0, Lcom/commsource/camera/beauty/h;->e:Lcom/commsource/beautyplus/advert/ArPopWindowBean;
 
     invoke-virtual {v2}, Lcom/commsource/beautyplus/advert/ArPopWindowBean;->getJumpUrl()Ljava/lang/String;
@@ -229,14 +211,12 @@
 
     invoke-virtual {v1, v3, v2}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
 
-    .line 7
     iget-object v2, p0, Lcom/commsource/camera/beauty/h;->a:Landroid/content/Context;
 
     invoke-virtual {v2, v1}, Landroid/content/Context;->startActivity(Landroid/content/Intent;)V
 
     goto :goto_0
 
-    .line 8
     :cond_0
     new-instance v1, Landroid/content/Intent;
 
@@ -244,10 +224,8 @@
 
     const-string v2, "android.intent.action.VIEW"
 
-    .line 9
     invoke-virtual {v1, v2}, Landroid/content/Intent;->setAction(Ljava/lang/String;)Landroid/content/Intent;
 
-    .line 10
     iget-object v2, p0, Lcom/commsource/camera/beauty/h;->e:Lcom/commsource/beautyplus/advert/ArPopWindowBean;
 
     invoke-virtual {v2}, Lcom/commsource/beautyplus/advert/ArPopWindowBean;->getJumpUrl()Ljava/lang/String;
@@ -260,10 +238,8 @@
 
     invoke-virtual {v1, v2}, Landroid/content/Intent;->setData(Landroid/net/Uri;)Landroid/content/Intent;
 
-    .line 11
     invoke-virtual {v1, v3}, Landroid/content/Intent;->setFlags(I)Landroid/content/Intent;
 
-    .line 12
     iget-object v2, p0, Lcom/commsource/camera/beauty/h;->a:Landroid/content/Context;
 
     invoke-virtual {v2, v1}, Landroid/content/Context;->startActivity(Landroid/content/Intent;)V
@@ -271,10 +247,8 @@
     :goto_0
     if-eqz p1, :cond_1
 
-    .line 13
     invoke-interface {p1}, Lcom/commsource/camera/beauty/h$c;->b()V
 
-    .line 14
     :cond_1
     iget p1, p0, Lcom/commsource/camera/beauty/h;->c:I
 
@@ -286,12 +260,10 @@
 
     invoke-static {p1, v1}, Lf/d/i/f;->T(II)V
 
-    .line 15
     invoke-virtual {p2}, Lcom/commsource/widget/dialog/i0;->dismiss()V
 
     const/4 p1, 0x0
 
-    .line 16
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p1
@@ -304,7 +276,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/camera/beauty/h;->c:I
 
     iget-object v2, p0, Lcom/commsource/camera/beauty/h;->e:Lcom/commsource/beautyplus/advert/ArPopWindowBean;
@@ -315,14 +286,12 @@
 
     invoke-static {v1, v2}, Lf/d/i/f;->T(II)V
 
-    .line 2
     iget v1, p0, Lcom/commsource/camera/beauty/h;->c:I
 
     const-string v2, "System"
 
     invoke-static {v1, v2}, Lcom/commsource/camera/beauty/h;->b(ILjava/lang/String;)V
 
-    .line 3
     new-instance v1, Lcom/commsource/util/p2/c;
 
     invoke-direct {v1, p1}, Lcom/commsource/util/p2/c;-><init>(Landroidx/fragment/app/FragmentActivity;)V
@@ -335,10 +304,8 @@
 
     invoke-virtual {v1, p1}, Lcom/commsource/util/p2/c;->c(Lcom/commsource/util/p2/b;)V
 
-    .line 4
     invoke-virtual {p2}, Lcom/commsource/widget/dialog/i0;->dismiss()V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const/4 p1, 0x0
@@ -355,10 +322,8 @@
 
     if-eqz p0, :cond_0
 
-    .line 1
     invoke-interface {p0}, Lcom/commsource/camera/beauty/h$c;->c()V
 
-    .line 2
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -372,12 +337,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/beauty/h;->e:Lcom/commsource/beautyplus/advert/ArPopWindowBean;
 
     if-eqz v1, :cond_1
 
-    .line 2
     invoke-virtual {v1}, Lcom/commsource/beautyplus/advert/ArPopWindowBean;->getJumpType()I
 
     move-result v1
@@ -386,19 +349,16 @@
 
     if-ne v1, v2, :cond_0
 
-    .line 3
     new-instance v1, Landroid/content/Intent;
 
     invoke-direct {v1}, Landroid/content/Intent;-><init>()V
 
-    .line 4
     iget-object v2, p0, Lcom/commsource/camera/beauty/h;->a:Landroid/content/Context;
 
     const-class v3, Lcom/commsource/beautyplus/web/WebActivity;
 
     invoke-virtual {v1, v2, v3}, Landroid/content/Intent;->setClass(Landroid/content/Context;Ljava/lang/Class;)Landroid/content/Intent;
 
-    .line 5
     iget-object v2, p0, Lcom/commsource/camera/beauty/h;->e:Lcom/commsource/beautyplus/advert/ArPopWindowBean;
 
     invoke-virtual {v2}, Lcom/commsource/beautyplus/advert/ArPopWindowBean;->getJumpUrl()Ljava/lang/String;
@@ -409,12 +369,10 @@
 
     invoke-virtual {v1, v3, v2}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
 
-    .line 6
     invoke-virtual {p1, v1}, Landroid/app/Activity;->startActivity(Landroid/content/Intent;)V
 
     goto :goto_0
 
-    .line 7
     :cond_0
     new-instance v1, Landroid/content/Intent;
 
@@ -422,10 +380,8 @@
 
     const-string v2, "android.intent.action.VIEW"
 
-    .line 8
     invoke-virtual {v1, v2}, Landroid/content/Intent;->setAction(Ljava/lang/String;)Landroid/content/Intent;
 
-    .line 9
     iget-object v2, p0, Lcom/commsource/camera/beauty/h;->e:Lcom/commsource/beautyplus/advert/ArPopWindowBean;
 
     invoke-virtual {v2}, Lcom/commsource/beautyplus/advert/ArPopWindowBean;->getJumpUrl()Ljava/lang/String;
@@ -438,16 +394,13 @@
 
     invoke-virtual {v1, v2}, Landroid/content/Intent;->setData(Landroid/net/Uri;)Landroid/content/Intent;
 
-    .line 10
     invoke-virtual {p1, v1}, Landroid/app/Activity;->startActivity(Landroid/content/Intent;)V
 
     :goto_0
     if-eqz p2, :cond_1
 
-    .line 11
     invoke-interface {p2}, Lcom/commsource/camera/beauty/h$c;->b()V
 
-    .line 12
     :cond_1
     iget p1, p0, Lcom/commsource/camera/beauty/h;->c:I
 
@@ -459,12 +412,10 @@
 
     invoke-static {p1, p2}, Lf/d/i/f;->T(II)V
 
-    .line 13
     invoke-virtual {p3}, Lcom/commsource/widget/dialog/i0;->dismiss()V
 
     const/4 p1, 0x0
 
-    .line 14
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p1
@@ -477,7 +428,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/camera/beauty/h;->c:I
 
     iget-object v2, p0, Lcom/commsource/camera/beauty/h;->e:Lcom/commsource/beautyplus/advert/ArPopWindowBean;
@@ -488,14 +438,12 @@
 
     invoke-static {v1, v2}, Lf/d/i/f;->T(II)V
 
-    .line 2
     iget v1, p0, Lcom/commsource/camera/beauty/h;->c:I
 
     const-string v2, "System"
 
     invoke-static {v1, v2}, Lcom/commsource/camera/beauty/h;->b(ILjava/lang/String;)V
 
-    .line 3
     new-instance v1, Lcom/commsource/util/p2/c;
 
     invoke-direct {v1, p1}, Lcom/commsource/util/p2/c;-><init>(Landroidx/fragment/app/FragmentActivity;)V
@@ -508,10 +456,8 @@
 
     invoke-virtual {v1, p1}, Lcom/commsource/util/p2/c;->c(Lcom/commsource/util/p2/b;)V
 
-    .line 4
     invoke-virtual {p3}, Lcom/commsource/widget/dialog/i0;->dismiss()V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const/4 p1, 0x0
@@ -528,10 +474,8 @@
 
     if-eqz p0, :cond_0
 
-    .line 1
     invoke-interface {p0}, Lcom/commsource/camera/beauty/h$c;->c()V
 
-    .line 2
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -547,19 +491,16 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/beauty/h;->e:Lcom/commsource/beautyplus/advert/ArPopWindowBean;
 
     if-eqz v1, :cond_1
 
-    .line 2
     invoke-virtual {v1}, Lcom/commsource/beautyplus/advert/ArPopWindowBean;->getMaterialList()Ljava/util/List;
 
     move-result-object v1
 
     if-eqz v1, :cond_1
 
-    .line 3
     invoke-interface {v1}, Ljava/util/List;->isEmpty()Z
 
     move-result v2
@@ -568,7 +509,6 @@
 
     const/4 v2, 0x0
 
-    .line 4
     :goto_0
     invoke-interface {v1}, Ljava/util/List;->size()I
 
@@ -576,7 +516,6 @@
 
     if-ge v2, v3, :cond_1
 
-    .line 5
     invoke-interface {v1, v2}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object v3
@@ -589,14 +528,12 @@
 
     if-ne v3, p1, :cond_0
 
-    .line 6
     invoke-static {p1}, Lf/d/i/f;->O(I)I
 
     move-result v3
 
     add-int/lit8 v3, v3, 0x1
 
-    .line 7
     invoke-static {p1, v3}, Lf/d/i/f;->T(II)V
 
     :cond_0
@@ -604,7 +541,6 @@
 
     goto :goto_0
 
-    .line 8
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -630,7 +566,6 @@
 
     if-eqz p1, :cond_2
 
-    .line 1
     invoke-interface {p1}, Ljava/util/List;->isEmpty()Z
 
     move-result v2
@@ -639,14 +574,12 @@
 
     if-eqz p1, :cond_2
 
-    .line 2
     invoke-interface {p1}, Ljava/util/List;->isEmpty()Z
 
     move-result v2
 
     if-nez v2, :cond_2
 
-    .line 3
     invoke-interface {p1}, Ljava/util/List;->size()I
 
     move-result v2
@@ -656,7 +589,6 @@
     :goto_0
     if-ltz v2, :cond_2
 
-    .line 4
     new-instance v3, Ljava/lang/StringBuilder;
 
     invoke-direct {v3}, Ljava/lang/StringBuilder;-><init>()V
@@ -681,7 +613,6 @@
 
     if-nez v1, :cond_0
 
-    .line 5
     invoke-interface {p1, v2}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object v3
@@ -698,7 +629,6 @@
 
     if-eqz v3, :cond_1
 
-    .line 6
     invoke-interface {p1, v2}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object v1
@@ -711,7 +641,6 @@
 
     goto :goto_1
 
-    .line 7
     :cond_0
     invoke-interface {p1, v2}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
@@ -731,7 +660,6 @@
 
     goto :goto_0
 
-    .line 8
     :cond_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -745,10 +673,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/camera/beauty/h;->a:Landroid/content/Context;
 
-    .line 2
     new-instance v1, Lcom/commsource/beautyplus/advert/c;
 
     new-instance v2, Lcom/commsource/beautyplus/advert/a;
@@ -759,10 +685,8 @@
 
     iput-object v1, p0, Lcom/commsource/camera/beauty/h;->h:Lcom/commsource/beautyplus/advert/c;
 
-    .line 3
     iput-object v1, p0, Lcom/commsource/camera/beauty/h;->g:Lcom/commsource/beautyplus/advert/f;
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -815,19 +739,16 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/camera/beauty/h;->b:Z
 
     const/4 v2, 0x0
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v2
 
-    .line 3
     :cond_0
     iput p1, p0, Lcom/commsource/camera/beauty/h;->c:I
 
@@ -837,12 +758,10 @@
 
     if-eq p1, v1, :cond_3
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/camera/beauty/h;->g:Lcom/commsource/beautyplus/advert/f;
 
     if-eqz v1, :cond_3
 
-    .line 5
     invoke-interface {v1, p1}, Lcom/commsource/beautyplus/advert/f;->a(I)Lcom/commsource/beautyplus/advert/ArPopWindowBean;
 
     move-result-object p1
@@ -851,7 +770,6 @@
 
     if-eqz p1, :cond_3
 
-    .line 6
     invoke-virtual {p1}, Lcom/commsource/beautyplus/advert/ArPopWindowBean;->getStyle()I
 
     move-result p1
@@ -860,7 +778,6 @@
 
     if-eq p1, v1, :cond_3
 
-    .line 7
     new-instance p1, Ljava/lang/StringBuilder;
 
     invoke-direct {p1}, Ljava/lang/StringBuilder;-><init>()V
@@ -885,7 +802,6 @@
 
     invoke-static {v1, p1}, Lcom/meitu/library/util/Debug/Debug;->e(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 8
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v3
@@ -894,7 +810,6 @@
 
     div-long/2addr v3, v5
 
-    .line 9
     new-instance p1, Ljava/lang/StringBuilder;
 
     invoke-direct {p1}, Ljava/lang/StringBuilder;-><init>()V
@@ -911,7 +826,6 @@
 
     invoke-static {v1, p1}, Lcom/meitu/library/util/Debug/Debug;->e(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 10
     iget-object p1, p0, Lcom/commsource/camera/beauty/h;->e:Lcom/commsource/beautyplus/advert/ArPopWindowBean;
 
     invoke-virtual {p1}, Lcom/commsource/beautyplus/advert/ArPopWindowBean;->getEndTime()I
@@ -937,10 +851,8 @@
     :cond_1
     const-string/jumbo p1, "\u7a97\u53e3\u8fc7\u671f\u4e86\uff0c\u4e0d\u663e\u793a\u4e14\u5220\u9664\u6570\u636e====="
 
-    .line 11
     invoke-static {v1, p1}, Lcom/meitu/library/util/Debug/Debug;->e(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 12
     iget-object p1, p0, Lcom/commsource/camera/beauty/h;->g:Lcom/commsource/beautyplus/advert/f;
 
     iget-object v1, p0, Lcom/commsource/camera/beauty/h;->e:Lcom/commsource/beautyplus/advert/ArPopWindowBean;
@@ -949,7 +861,6 @@
 
     goto :goto_1
 
-    .line 13
     :cond_2
     :goto_0
     iget p1, p0, Lcom/commsource/camera/beauty/h;->c:I
@@ -960,22 +871,18 @@
 
     iput p1, p0, Lcom/commsource/camera/beauty/h;->d:I
 
-    .line 14
     iget-object p1, p0, Lcom/commsource/camera/beauty/h;->e:Lcom/commsource/beautyplus/advert/ArPopWindowBean;
 
     invoke-virtual {p1}, Lcom/commsource/beautyplus/advert/ArPopWindowBean;->getShowTimes()I
 
     move-result p1
 
-    .line 15
     iget v1, p0, Lcom/commsource/camera/beauty/h;->d:I
 
     if-ge v1, p1, :cond_3
 
-    .line 16
     iget-object p1, p0, Lcom/commsource/camera/beauty/h;->e:Lcom/commsource/beautyplus/advert/ArPopWindowBean;
 
-    .line 17
     invoke-virtual {p1}, Lcom/commsource/beautyplus/advert/ArPopWindowBean;->getId()I
 
     move-result p1
@@ -992,7 +899,6 @@
 
     iput-object p1, p0, Lcom/commsource/camera/beauty/h;->f:Ljava/lang/String;
 
-    .line 18
     invoke-static {p1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result p1
@@ -1011,7 +917,6 @@
 
     const/4 v2, 0x1
 
-    .line 19
     :cond_3
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1026,17 +931,14 @@
 
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p3, p0, Lcom/commsource/camera/beauty/h;->e:Lcom/commsource/beautyplus/advert/ArPopWindowBean;
 
     if-nez p3, :cond_0
 
-    .line 2
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 3
     :cond_0
     invoke-virtual {p3}, Lcom/commsource/beautyplus/advert/ArPopWindowBean;->getJumpType()I
 
@@ -1046,22 +948,18 @@
 
     if-eqz p3, :cond_1
 
-    .line 4
     new-instance p1, Lcom/commsource/widget/dialog/delegate/b;
 
     invoke-direct {p1}, Lcom/commsource/widget/dialog/delegate/b;-><init>()V
 
-    .line 5
     new-instance p3, Lcom/commsource/widget/dialog/delegate/d/g;
 
     invoke-direct {p3}, Lcom/commsource/widget/dialog/delegate/d/g;-><init>()V
 
-    .line 6
     new-instance v1, Lcom/commsource/widget/dialog/delegate/d/e;
 
     invoke-direct {v1}, Lcom/commsource/widget/dialog/delegate/d/e;-><init>()V
 
-    .line 7
     iget-object v2, p0, Lcom/commsource/camera/beauty/h;->f:Ljava/lang/String;
 
     invoke-static {v2}, Lcom/meitu/library/p/e/a;->G(Ljava/lang/String;)Landroid/graphics/Bitmap;
@@ -1070,10 +968,8 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/widget/dialog/delegate/d/e;->m(Landroid/graphics/Bitmap;)V
 
-    .line 8
     invoke-virtual {p3, v1}, Lcom/commsource/widget/dialog/delegate/d/g;->M(Lcom/commsource/widget/dialog/delegate/d/e;)V
 
-    .line 9
     iget-object v1, p0, Lcom/commsource/camera/beauty/h;->e:Lcom/commsource/beautyplus/advert/ArPopWindowBean;
 
     invoke-virtual {v1}, Lcom/commsource/beautyplus/advert/ArPopWindowBean;->getPopupTitle()Ljava/lang/String;
@@ -1082,12 +978,10 @@
 
     invoke-virtual {p3, v1}, Lcom/commsource/widget/dialog/delegate/d/a;->F(Ljava/lang/String;)V
 
-    .line 10
     new-instance v1, Ljava/util/ArrayList;
 
     invoke-direct {v1}, Ljava/util/ArrayList;-><init>()V
 
-    .line 11
     iget-object v2, p0, Lcom/commsource/camera/beauty/h;->e:Lcom/commsource/beautyplus/advert/ArPopWindowBean;
 
     invoke-virtual {v2}, Lcom/commsource/beautyplus/advert/ArPopWindowBean;->getPopupContent()Ljava/lang/String;
@@ -1096,15 +990,12 @@
 
     invoke-virtual {v1, v2}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    .line 12
     invoke-virtual {p3, v1}, Lcom/commsource/widget/dialog/delegate/d/a;->w(Ljava/util/List;)V
 
-    .line 13
     new-instance v1, Ljava/util/ArrayList;
 
     invoke-direct {v1}, Ljava/util/ArrayList;-><init>()V
 
-    .line 14
     new-instance v2, Lcom/commsource/widget/dialog/delegate/c;
 
     iget-object v3, p0, Lcom/commsource/camera/beauty/h;->e:Lcom/commsource/beautyplus/advert/ArPopWindowBean;
@@ -1121,50 +1012,39 @@
 
     invoke-virtual {v1, v2}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    .line 15
     invoke-virtual {p3, v1}, Lcom/commsource/widget/dialog/delegate/d/a;->s(Ljava/util/List;)V
 
-    .line 16
     invoke-virtual {p3, v0}, Lcom/commsource/widget/dialog/delegate/d/a;->t(Z)V
 
-    .line 17
     invoke-virtual {p3, v0}, Lcom/commsource/widget/dialog/delegate/d/a;->u(Z)V
 
-    .line 18
     invoke-virtual {p3, v0}, Lcom/commsource/widget/dialog/delegate/d/a;->v(Z)V
 
-    .line 19
     invoke-static {p3}, Lcom/commsource/widget/dialog/delegate/XDialogKt;->p(Lcom/commsource/widget/dialog/delegate/d/a;)Lcom/commsource/widget/dialog/delegate/d/a;
 
-    .line 20
     new-instance p4, Lcom/commsource/widget/dialog/delegate/a;
 
     invoke-direct {p4, p1, p3}, Lcom/commsource/widget/dialog/delegate/a;-><init>(Lcom/commsource/widget/dialog/delegate/b;Lcom/commsource/widget/dialog/delegate/d/g;)V
 
     invoke-virtual {p1, p4}, Lcom/commsource/widget/dialog/delegate/b;->K(Lcom/commsource/widget/dialog/delegate/DialogDelegate;)V
 
-    .line 21
     invoke-virtual {p1}, Lf/d/a;->F()V
 
     goto :goto_0
 
-    .line 22
     :cond_1
     new-instance p3, Lcom/commsource/widget/dialog/delegate/b;
 
     invoke-direct {p3}, Lcom/commsource/widget/dialog/delegate/b;-><init>()V
 
-    .line 23
     new-instance v1, Lcom/commsource/widget/dialog/delegate/d/g;
 
     invoke-direct {v1}, Lcom/commsource/widget/dialog/delegate/d/g;-><init>()V
 
-    .line 24
     new-instance v2, Lcom/commsource/widget/dialog/delegate/d/e;
 
     invoke-direct {v2}, Lcom/commsource/widget/dialog/delegate/d/e;-><init>()V
 
-    .line 25
     iget-object v3, p0, Lcom/commsource/camera/beauty/h;->f:Ljava/lang/String;
 
     invoke-static {v3}, Lcom/meitu/library/p/e/a;->G(Ljava/lang/String;)Landroid/graphics/Bitmap;
@@ -1173,10 +1053,8 @@
 
     invoke-virtual {v2, v3}, Lcom/commsource/widget/dialog/delegate/d/e;->m(Landroid/graphics/Bitmap;)V
 
-    .line 26
     invoke-virtual {v1, v2}, Lcom/commsource/widget/dialog/delegate/d/g;->M(Lcom/commsource/widget/dialog/delegate/d/e;)V
 
-    .line 27
     iget-object v2, p0, Lcom/commsource/camera/beauty/h;->e:Lcom/commsource/beautyplus/advert/ArPopWindowBean;
 
     invoke-virtual {v2}, Lcom/commsource/beautyplus/advert/ArPopWindowBean;->getPopupTitle()Ljava/lang/String;
@@ -1185,12 +1063,10 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/widget/dialog/delegate/d/a;->F(Ljava/lang/String;)V
 
-    .line 28
     new-instance v2, Ljava/util/ArrayList;
 
     invoke-direct {v2}, Ljava/util/ArrayList;-><init>()V
 
-    .line 29
     iget-object v3, p0, Lcom/commsource/camera/beauty/h;->e:Lcom/commsource/beautyplus/advert/ArPopWindowBean;
 
     invoke-virtual {v3}, Lcom/commsource/beautyplus/advert/ArPopWindowBean;->getPopupContent()Ljava/lang/String;
@@ -1199,15 +1075,12 @@
 
     invoke-virtual {v2, v3}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    .line 30
     invoke-virtual {v1, v2}, Lcom/commsource/widget/dialog/delegate/d/a;->w(Ljava/util/List;)V
 
-    .line 31
     new-instance v2, Ljava/util/ArrayList;
 
     invoke-direct {v2}, Ljava/util/ArrayList;-><init>()V
 
-    .line 32
     new-instance v3, Lcom/commsource/widget/dialog/delegate/c;
 
     sget v4, Lcom/res/provider/ResSTRING;->share:I
@@ -1224,45 +1097,35 @@
 
     invoke-virtual {v2, v3}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    .line 33
     invoke-virtual {v1, v2}, Lcom/commsource/widget/dialog/delegate/d/a;->s(Ljava/util/List;)V
 
-    .line 34
     invoke-virtual {v1, v0}, Lcom/commsource/widget/dialog/delegate/d/a;->t(Z)V
 
-    .line 35
     invoke-virtual {v1, v0}, Lcom/commsource/widget/dialog/delegate/d/a;->u(Z)V
 
-    .line 36
     invoke-virtual {v1, v0}, Lcom/commsource/widget/dialog/delegate/d/a;->v(Z)V
 
-    .line 37
     invoke-static {v1}, Lcom/commsource/widget/dialog/delegate/XDialogKt;->p(Lcom/commsource/widget/dialog/delegate/d/a;)Lcom/commsource/widget/dialog/delegate/d/a;
 
-    .line 38
     new-instance p1, Lcom/commsource/widget/dialog/delegate/a;
 
     invoke-direct {p1, p3, v1}, Lcom/commsource/widget/dialog/delegate/a;-><init>(Lcom/commsource/widget/dialog/delegate/b;Lcom/commsource/widget/dialog/delegate/d/g;)V
 
     invoke-virtual {p3, p1}, Lcom/commsource/widget/dialog/delegate/b;->K(Lcom/commsource/widget/dialog/delegate/DialogDelegate;)V
 
-    .line 39
     new-instance p1, Lcom/commsource/camera/beauty/b;
 
     invoke-direct {p1, p4}, Lcom/commsource/camera/beauty/b;-><init>(Lcom/commsource/camera/beauty/h$c;)V
 
     invoke-virtual {p3, p1}, Lcom/commsource/widget/dialog/i0;->w(Ljava/lang/Runnable;)V
 
-    .line 40
     invoke-virtual {p3}, Lf/d/a;->F()V
 
-    .line 41
     :goto_0
     iget p1, p0, Lcom/commsource/camera/beauty/h;->c:I
 
     invoke-static {p1}, Lcom/commsource/camera/beauty/h;->c(I)V
 
-    .line 42
     iget p1, p0, Lcom/commsource/camera/beauty/h;->c:I
 
     iget p3, p0, Lcom/commsource/camera/beauty/h;->d:I
@@ -1271,10 +1134,8 @@
 
     invoke-static {p1, p3}, Lf/d/i/f;->T(II)V
 
-    .line 43
     iput-boolean v0, p0, Lcom/commsource/camera/beauty/h;->b:Z
 
-    .line 44
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1287,17 +1148,14 @@
 
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p3, p0, Lcom/commsource/camera/beauty/h;->e:Lcom/commsource/beautyplus/advert/ArPopWindowBean;
 
     if-nez p3, :cond_0
 
-    .line 2
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 3
     :cond_0
     invoke-virtual {p3}, Lcom/commsource/beautyplus/advert/ArPopWindowBean;->getJumpType()I
 
@@ -1307,22 +1165,18 @@
 
     if-eqz p3, :cond_1
 
-    .line 4
     new-instance p3, Lcom/commsource/widget/dialog/delegate/b;
 
     invoke-direct {p3}, Lcom/commsource/widget/dialog/delegate/b;-><init>()V
 
-    .line 5
     new-instance v1, Lcom/commsource/widget/dialog/delegate/d/g;
 
     invoke-direct {v1}, Lcom/commsource/widget/dialog/delegate/d/g;-><init>()V
 
-    .line 6
     new-instance v2, Lcom/commsource/widget/dialog/delegate/d/e;
 
     invoke-direct {v2}, Lcom/commsource/widget/dialog/delegate/d/e;-><init>()V
 
-    .line 7
     iget-object v3, p0, Lcom/commsource/camera/beauty/h;->f:Ljava/lang/String;
 
     invoke-static {v3}, Lcom/meitu/library/p/e/a;->G(Ljava/lang/String;)Landroid/graphics/Bitmap;
@@ -1331,10 +1185,8 @@
 
     invoke-virtual {v2, v3}, Lcom/commsource/widget/dialog/delegate/d/e;->m(Landroid/graphics/Bitmap;)V
 
-    .line 8
     invoke-virtual {v1, v2}, Lcom/commsource/widget/dialog/delegate/d/g;->M(Lcom/commsource/widget/dialog/delegate/d/e;)V
 
-    .line 9
     iget-object v2, p0, Lcom/commsource/camera/beauty/h;->e:Lcom/commsource/beautyplus/advert/ArPopWindowBean;
 
     invoke-virtual {v2}, Lcom/commsource/beautyplus/advert/ArPopWindowBean;->getPopupTitle()Ljava/lang/String;
@@ -1343,12 +1195,10 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/widget/dialog/delegate/d/a;->F(Ljava/lang/String;)V
 
-    .line 10
     new-instance v2, Ljava/util/ArrayList;
 
     invoke-direct {v2}, Ljava/util/ArrayList;-><init>()V
 
-    .line 11
     iget-object v3, p0, Lcom/commsource/camera/beauty/h;->e:Lcom/commsource/beautyplus/advert/ArPopWindowBean;
 
     invoke-virtual {v3}, Lcom/commsource/beautyplus/advert/ArPopWindowBean;->getPopupContent()Ljava/lang/String;
@@ -1357,15 +1207,12 @@
 
     invoke-virtual {v2, v3}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    .line 12
     invoke-virtual {v1, v2}, Lcom/commsource/widget/dialog/delegate/d/a;->w(Ljava/util/List;)V
 
-    .line 13
     new-instance v2, Ljava/util/ArrayList;
 
     invoke-direct {v2}, Ljava/util/ArrayList;-><init>()V
 
-    .line 14
     new-instance v3, Lcom/commsource/widget/dialog/delegate/c;
 
     iget-object v4, p0, Lcom/commsource/camera/beauty/h;->e:Lcom/commsource/beautyplus/advert/ArPopWindowBean;
@@ -1382,50 +1229,39 @@
 
     invoke-virtual {v2, v3}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    .line 15
     invoke-virtual {v1, v2}, Lcom/commsource/widget/dialog/delegate/d/a;->s(Ljava/util/List;)V
 
-    .line 16
     invoke-virtual {v1, v0}, Lcom/commsource/widget/dialog/delegate/d/a;->t(Z)V
 
-    .line 17
     invoke-virtual {v1, v0}, Lcom/commsource/widget/dialog/delegate/d/a;->u(Z)V
 
-    .line 18
     invoke-virtual {v1, v0}, Lcom/commsource/widget/dialog/delegate/d/a;->v(Z)V
 
-    .line 19
     invoke-static {v1}, Lcom/commsource/widget/dialog/delegate/XDialogKt;->p(Lcom/commsource/widget/dialog/delegate/d/a;)Lcom/commsource/widget/dialog/delegate/d/a;
 
-    .line 20
     new-instance p1, Lcom/commsource/widget/dialog/delegate/a;
 
     invoke-direct {p1, p3, v1}, Lcom/commsource/widget/dialog/delegate/a;-><init>(Lcom/commsource/widget/dialog/delegate/b;Lcom/commsource/widget/dialog/delegate/d/g;)V
 
     invoke-virtual {p3, p1}, Lcom/commsource/widget/dialog/delegate/b;->K(Lcom/commsource/widget/dialog/delegate/DialogDelegate;)V
 
-    .line 21
     invoke-virtual {p3}, Lf/d/a;->F()V
 
     goto :goto_0
 
-    .line 22
     :cond_1
     new-instance p3, Lcom/commsource/widget/dialog/delegate/b;
 
     invoke-direct {p3}, Lcom/commsource/widget/dialog/delegate/b;-><init>()V
 
-    .line 23
     new-instance v1, Lcom/commsource/widget/dialog/delegate/d/g;
 
     invoke-direct {v1}, Lcom/commsource/widget/dialog/delegate/d/g;-><init>()V
 
-    .line 24
     new-instance v2, Lcom/commsource/widget/dialog/delegate/d/e;
 
     invoke-direct {v2}, Lcom/commsource/widget/dialog/delegate/d/e;-><init>()V
 
-    .line 25
     iget-object v3, p0, Lcom/commsource/camera/beauty/h;->f:Ljava/lang/String;
 
     invoke-static {v3}, Lcom/meitu/library/p/e/a;->G(Ljava/lang/String;)Landroid/graphics/Bitmap;
@@ -1434,10 +1270,8 @@
 
     invoke-virtual {v2, v3}, Lcom/commsource/widget/dialog/delegate/d/e;->m(Landroid/graphics/Bitmap;)V
 
-    .line 26
     invoke-virtual {v1, v2}, Lcom/commsource/widget/dialog/delegate/d/g;->M(Lcom/commsource/widget/dialog/delegate/d/e;)V
 
-    .line 27
     iget-object v2, p0, Lcom/commsource/camera/beauty/h;->e:Lcom/commsource/beautyplus/advert/ArPopWindowBean;
 
     invoke-virtual {v2}, Lcom/commsource/beautyplus/advert/ArPopWindowBean;->getPopupTitle()Ljava/lang/String;
@@ -1446,12 +1280,10 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/widget/dialog/delegate/d/a;->F(Ljava/lang/String;)V
 
-    .line 28
     new-instance v2, Ljava/util/ArrayList;
 
     invoke-direct {v2}, Ljava/util/ArrayList;-><init>()V
 
-    .line 29
     iget-object v3, p0, Lcom/commsource/camera/beauty/h;->e:Lcom/commsource/beautyplus/advert/ArPopWindowBean;
 
     invoke-virtual {v3}, Lcom/commsource/beautyplus/advert/ArPopWindowBean;->getPopupContent()Ljava/lang/String;
@@ -1460,15 +1292,12 @@
 
     invoke-virtual {v2, v3}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    .line 30
     invoke-virtual {v1, v2}, Lcom/commsource/widget/dialog/delegate/d/a;->w(Ljava/util/List;)V
 
-    .line 31
     new-instance v2, Ljava/util/ArrayList;
 
     invoke-direct {v2}, Ljava/util/ArrayList;-><init>()V
 
-    .line 32
     new-instance v3, Lcom/commsource/widget/dialog/delegate/c;
 
     sget v4, Lcom/res/provider/ResSTRING;->share:I
@@ -1485,44 +1314,34 @@
 
     invoke-virtual {v2, v3}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    .line 33
     invoke-virtual {v1, v2}, Lcom/commsource/widget/dialog/delegate/d/a;->s(Ljava/util/List;)V
 
-    .line 34
     invoke-virtual {v1, v0}, Lcom/commsource/widget/dialog/delegate/d/a;->t(Z)V
 
-    .line 35
     invoke-virtual {v1, v0}, Lcom/commsource/widget/dialog/delegate/d/a;->u(Z)V
 
-    .line 36
     invoke-virtual {v1, v0}, Lcom/commsource/widget/dialog/delegate/d/a;->v(Z)V
 
-    .line 37
     invoke-static {v1}, Lcom/commsource/widget/dialog/delegate/XDialogKt;->p(Lcom/commsource/widget/dialog/delegate/d/a;)Lcom/commsource/widget/dialog/delegate/d/a;
 
-    .line 38
     new-instance p1, Lcom/commsource/widget/dialog/delegate/a;
 
     invoke-direct {p1, p3, v1}, Lcom/commsource/widget/dialog/delegate/a;-><init>(Lcom/commsource/widget/dialog/delegate/b;Lcom/commsource/widget/dialog/delegate/d/g;)V
 
     invoke-virtual {p3, p1}, Lcom/commsource/widget/dialog/delegate/b;->K(Lcom/commsource/widget/dialog/delegate/DialogDelegate;)V
 
-    .line 39
     new-instance p1, Lcom/commsource/camera/beauty/f;
 
     invoke-direct {p1, p4}, Lcom/commsource/camera/beauty/f;-><init>(Lcom/commsource/camera/beauty/h$c;)V
 
     invoke-virtual {p3, p1}, Lcom/commsource/widget/dialog/i0;->w(Ljava/lang/Runnable;)V
 
-    .line 40
     invoke-virtual {p3}, Lf/d/a;->F()V
 
-    .line 41
     iget p1, p0, Lcom/commsource/camera/beauty/h;->c:I
 
     invoke-static {p1}, Lcom/commsource/camera/beauty/h;->c(I)V
 
-    .line 42
     :goto_0
     iget p1, p0, Lcom/commsource/camera/beauty/h;->c:I
 
@@ -1532,10 +1351,8 @@
 
     invoke-static {p1, p3}, Lf/d/i/f;->T(II)V
 
-    .line 43
     iput-boolean v0, p0, Lcom/commsource/camera/beauty/h;->b:Z
 
-    .line 44
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

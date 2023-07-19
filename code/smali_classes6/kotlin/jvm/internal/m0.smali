@@ -33,12 +33,10 @@
 .method public constructor <init>(I)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     iput p1, p0, Lcotlin/jvm/internal/m0;->c:I
 
-    .line 2
     new-array p1, p1, [Ljava/lang/Object;
 
     iput-object p1, p0, Lcotlin/jvm/internal/m0;->b:[Ljava/lang/Object;
@@ -70,7 +68,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object v0, p0, Lcotlin/jvm/internal/m0;->b:[Ljava/lang/Object;
 
     iget v1, p0, Lcotlin/jvm/internal/m0;->a:I
@@ -87,7 +84,6 @@
 .method protected final b()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lcotlin/jvm/internal/m0;->a:I
 
     return v0
@@ -108,7 +104,6 @@
 .method protected final e(I)V
     .locals 0
 
-    .line 1
     iput p1, p0, Lcotlin/jvm/internal/m0;->a:I
 
     return-void
@@ -117,7 +112,6 @@
 .method protected final f()I
     .locals 5
 
-    .line 1
     iget v0, p0, Lcotlin/jvm/internal/m0;->c:I
 
     const/4 v1, 0x1
@@ -130,7 +124,6 @@
 
     const/4 v3, 0x0
 
-    .line 2
     :goto_0
     iget-object v4, p0, Lcotlin/jvm/internal/m0;->b:[Ljava/lang/Object;
 
@@ -187,7 +180,6 @@
 
     invoke-static {p2, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget v0, p0, Lcotlin/jvm/internal/m0;->c:I
 
     add-int/lit8 v0, v0, -0x1
@@ -202,7 +194,6 @@
 
     const/4 v4, 0x0
 
-    .line 2
     :goto_0
     iget-object v5, p0, Lcotlin/jvm/internal/m0;->b:[Ljava/lang/Object;
 
@@ -214,18 +205,15 @@
 
     sub-int v6, v2, v3
 
-    .line 3
     invoke-static {p1, v3, p2, v4, v6}, Ljava/lang/System;->arraycopy(Ljava/lang/Object;ILjava/lang/Object;II)V
 
     add-int/2addr v4, v6
 
-    .line 4
     :cond_0
     invoke-virtual {p0, v5}, Lcotlin/jvm/internal/m0;->c(Ljava/lang/Object;)I
 
     move-result v3
 
-    .line 5
     invoke-static {v5, v1, p2, v4, v3}, Ljava/lang/System;->arraycopy(Ljava/lang/Object;ILjava/lang/Object;II)V
 
     add-int/2addr v4, v3
@@ -247,7 +235,6 @@
     :cond_3
     const/4 v4, 0x0
 
-    .line 6
     :goto_1
     iget v0, p0, Lcotlin/jvm/internal/m0;->c:I
 
@@ -255,7 +242,6 @@
 
     sub-int/2addr v0, v1
 
-    .line 7
     invoke-static {p1, v1, p2, v4, v0}, Ljava/lang/System;->arraycopy(Ljava/lang/Object;ILjava/lang/Object;II)V
 
     :cond_4

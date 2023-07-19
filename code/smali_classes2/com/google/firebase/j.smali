@@ -138,10 +138,8 @@
 .method public constructor <init>(I)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput p1, p0, Lcom/google/firebase/j;->a:I
 
     return-void
@@ -152,7 +150,6 @@
 .method public a()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lcom/google/firebase/j;->a:I
 
     return v0

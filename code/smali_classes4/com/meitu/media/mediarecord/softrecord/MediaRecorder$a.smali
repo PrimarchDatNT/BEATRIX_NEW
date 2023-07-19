@@ -27,7 +27,6 @@
 .method constructor <init>(Lcom/meitu/media/mediarecord/softrecord/MediaRecorder;Ljava/lang/ref/WeakReference;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/media/mediarecord/softrecord/MediaRecorder$a;->b:Lcom/meitu/media/mediarecord/softrecord/MediaRecorder;
 
     iput-object p2, p0, Lcom/meitu/media/mediarecord/softrecord/MediaRecorder$a;->a:Ljava/lang/ref/WeakReference;
@@ -46,7 +45,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/media/mediarecord/softrecord/MediaRecorder$a;->a:Ljava/lang/ref/WeakReference;
 
     invoke-virtual {v1}, Ljava/lang/ref/WeakReference;->get()Ljava/lang/Object;
@@ -61,15 +59,12 @@
 
     const-string v3, "Media record begin"
 
-    .line 2
     invoke-static {v2, v3}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 3
     iget-object v2, p0, Lcom/meitu/media/mediarecord/softrecord/MediaRecorder$a;->b:Lcom/meitu/media/mediarecord/softrecord/MediaRecorder;
 
     invoke-interface {v1, v2}, Lcom/meitu/media/mediarecord/softrecord/MediaRecorder$e;->b(Lcom/meitu/media/mediarecord/softrecord/MediaRecorder;)V
 
-    .line 4
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

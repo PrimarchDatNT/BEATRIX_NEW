@@ -25,7 +25,6 @@
 .method constructor <init>(Lcom/commsource/widget/dialog/p0;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/widget/dialog/p0$c;->a:Lcom/commsource/widget/dialog/p0;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -42,12 +41,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/widget/dialog/p0$c;->a:Lcom/commsource/widget/dialog/p0;
 
     invoke-virtual {v1}, Lcom/commsource/widget/dialog/i0;->dismissAllowingStateLoss()V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/widget/dialog/p0$c;->a:Lcom/commsource/widget/dialog/p0;
 
     invoke-static {v1}, Lcom/commsource/widget/dialog/p0;->B(Lcom/commsource/widget/dialog/p0;)Lcom/commsource/widget/dialog/p0$e;
@@ -56,7 +53,6 @@
 
     if-eqz v1, :cond_0
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/widget/dialog/p0$c;->a:Lcom/commsource/widget/dialog/p0;
 
     invoke-static {v1}, Lcom/commsource/widget/dialog/p0;->B(Lcom/commsource/widget/dialog/p0;)Lcom/commsource/widget/dialog/p0$e;
@@ -67,11 +63,9 @@
 
     invoke-interface {v1, v2}, Lcom/commsource/widget/dialog/p0$e;->a(Z)V
 
-    .line 4
     :cond_0
     invoke-virtual {p1}, Lcom/commsource/widget/dialog/i0;->dismiss()V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

@@ -21,7 +21,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/beautyplus/BaseActivity;-><init>()V
 
     return-void
@@ -34,7 +33,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/studio/sticker/CustomStickerActivity;->N:Lcom/commsource/beautyplus/f0/q;
 
     if-nez p0, :cond_0
@@ -56,7 +54,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/studio/sticker/CustomStickerActivity;->P:Lcom/commsource/studio/function/SegmentFragment;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -71,7 +68,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/sticker/CustomStickerActivity;->N:Lcom/commsource/beautyplus/f0/q;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -86,7 +82,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/sticker/CustomStickerActivity;->P:Lcom/commsource/studio/function/SegmentFragment;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -101,23 +96,19 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p0}, Lcom/commsource/util/x;->D(Landroid/content/Context;)Z
 
     move-result v1
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 3
     :cond_0
     sget-object v1, Lcom/commsource/studio/sub/SubModuleEnum;->Segment:Lcom/commsource/studio/sub/SubModuleEnum;
 
-    .line 4
     const-class v2, Lcom/commsource/studio/function/SegmentFragment;
 
     invoke-virtual {v2}, Ljava/lang/Class;->newInstance()Ljava/lang/Object;
@@ -126,18 +117,14 @@
 
     check-cast v2, Lcom/commsource/studio/function/SegmentFragment;
 
-    .line 5
     invoke-virtual {v2, v1}, Lcom/commsource/studio/function/BaseSubFragment;->u1(Lcom/commsource/studio/sub/SubModuleEnum;)V
 
     const/4 v3, 0x1
 
-    .line 6
     invoke-virtual {v2, v3}, Lcom/commsource/studio/function/BaseSubFragment;->r1(Z)V
 
-    .line 7
     iput-object v2, p0, Lcom/commsource/studio/sticker/CustomStickerActivity;->P:Lcom/commsource/studio/function/SegmentFragment;
 
-    .line 8
     invoke-virtual {p0}, Landroidx/fragment/app/FragmentActivity;->getSupportFragmentManager()Landroidx/fragment/app/FragmentManager;
 
     move-result-object v3
@@ -146,7 +133,6 @@
 
     move-result-object v3
 
-    .line 9
     iget-object v4, p0, Lcom/commsource/studio/sticker/CustomStickerActivity;->N:Lcom/commsource/beautyplus/f0/q;
 
     const-string v5, "mViewBinding"
@@ -174,10 +160,8 @@
 
     move-result-object v3
 
-    .line 10
     invoke-virtual {v3}, Landroidx/fragment/app/FragmentTransaction;->commitNowAllowingStateLoss()V
 
-    .line 11
     invoke-virtual {v2}, Landroidx/fragment/app/Fragment;->getView()Landroid/view/View;
 
     move-result-object v3
@@ -188,7 +172,6 @@
 
     invoke-virtual {v3, v4}, Landroid/view/View;->setAlpha(F)V
 
-    .line 12
     :cond_2
     new-instance v3, Lcom/commsource/studio/sticker/CustomStickerActivity$a;
 
@@ -196,7 +179,6 @@
 
     invoke-virtual {v2, v3}, Lcom/commsource/studio/function/BaseSubFragment;->d1(Lcom/commsource/studio/function/q;)V
 
-    .line 13
     iget-object v1, p0, Lcom/commsource/studio/sticker/CustomStickerActivity;->N:Lcom/commsource/beautyplus/f0/q;
 
     if-nez v1, :cond_3
@@ -214,7 +196,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/studio/layer/BaseLayer;->n0(Z)V
 
-    .line 14
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -229,7 +210,6 @@
 
     sget v1, Lcom/res/provider/ResLAYOUT;->activity_custom_sticker:I
 
-    .line 1
     invoke-static {p0, v1}, Landroidx/databinding/DataBindingUtil;->setContentView(Landroid/app/Activity;I)Landroidx/databinding/ViewDataBinding;
 
     move-result-object v1
@@ -242,7 +222,6 @@
 
     iput-object v1, p0, Lcom/commsource/studio/sticker/CustomStickerActivity;->N:Lcom/commsource/beautyplus/f0/q;
 
-    .line 2
     invoke-static {}, Lcom/commsource/widget/o0;->h()Z
 
     move-result v1
@@ -251,7 +230,6 @@
 
     if-eqz v1, :cond_1
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/studio/sticker/CustomStickerActivity;->N:Lcom/commsource/beautyplus/f0/q;
 
     if-nez v1, :cond_0
@@ -275,7 +253,6 @@
 
     invoke-static {v1, v3}, Lcom/commsource/util/l2;->D(Landroid/view/View;I)V
 
-    .line 4
     :cond_1
     iget-object v1, p0, Lcom/commsource/studio/sticker/CustomStickerActivity;->N:Lcom/commsource/beautyplus/f0/q;
 
@@ -286,7 +263,6 @@
     :cond_2
     invoke-virtual {v1, p0}, Lcom/commsource/beautyplus/f0/q;->i(Landroidx/fragment/app/FragmentActivity;)V
 
-    .line 5
     iget-object v1, p0, Lcom/commsource/studio/sticker/CustomStickerActivity;->N:Lcom/commsource/beautyplus/f0/q;
 
     if-nez v1, :cond_3
@@ -302,7 +278,6 @@
 
     invoke-virtual {v1, v3}, Lcom/commsource/widget/ProView;->setOnClickProBannerListener(Lcom/commsource/widget/ProView$c;)V
 
-    .line 6
     iget-object v1, p0, Lcom/commsource/studio/sticker/CustomStickerActivity;->N:Lcom/commsource/beautyplus/f0/q;
 
     if-nez v1, :cond_4
@@ -316,7 +291,6 @@
 
     invoke-virtual {v1, v3}, Lcom/commsource/widget/ProView;->setEditMode(Z)V
 
-    .line 7
     iget-object v1, p0, Lcom/commsource/studio/sticker/CustomStickerActivity;->N:Lcom/commsource/beautyplus/f0/q;
 
     if-nez v1, :cond_5
@@ -332,7 +306,6 @@
 
     sget v4, Lcom/res/provider/ResSTRING;->t_join_unlock:I
 
-    .line 8
     invoke-static {v4}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
 
     move-result-object v4
@@ -343,10 +316,8 @@
 
     move-result-object v2
 
-    .line 9
     invoke-virtual {v1, v2}, Lcom/commsource/widget/ProView;->N(Ljava/util/List;)V
 
-    .line 10
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -359,7 +330,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Landroidx/lifecycle/ViewModelProvider;
 
     invoke-direct {v1, p0}, Landroidx/lifecycle/ViewModelProvider;-><init>(Landroidx/lifecycle/ViewModelStoreOwner;)V
@@ -374,10 +344,8 @@
 
     check-cast v2, Lcom/commsource/studio/ImageStudioViewModel;
 
-    .line 2
     invoke-virtual {v2, p0}, Lcom/commsource/studio/f;->c(Landroidx/fragment/app/FragmentActivity;)V
 
-    .line 3
     iget-object v3, p0, Lcom/commsource/studio/sticker/CustomStickerActivity;->N:Lcom/commsource/beautyplus/f0/q;
 
     if-nez v3, :cond_0
@@ -395,14 +363,12 @@
 
     invoke-virtual {v2, p0, v3}, Lcom/commsource/studio/ImageStudioViewModel;->m1(Lcom/commsource/beautyplus/BaseActivity;Lcom/commsource/studio/StudioCanvasContainer;)V
 
-    .line 4
     new-instance v3, Lcom/commsource/util/q2/b;
 
     invoke-direct {v3, p0}, Lcom/commsource/util/q2/b;-><init>(Landroidx/fragment/app/FragmentActivity;)V
 
     const-string v4, "android.permission.WRITE_EXTERNAL_STORAGE"
 
-    .line 5
     filled-new-array {v4}, [Ljava/lang/String;
 
     move-result-object v4
@@ -411,14 +377,12 @@
 
     move-result-object v3
 
-    .line 6
     new-instance v4, Lcom/commsource/studio/sticker/CustomStickerActivity$initViewModel$$inlined$apply$lambda$1;
 
     invoke-direct {v4, v2, p0}, Lcom/commsource/studio/sticker/CustomStickerActivity$initViewModel$$inlined$apply$lambda$1;-><init>(Lcom/commsource/studio/ImageStudioViewModel;Lcom/commsource/studio/sticker/CustomStickerActivity;)V
 
     invoke-virtual {v3, v4}, Lcom/commsource/util/q2/b;->a(Lcom/commsource/util/q2/f;)V
 
-    .line 7
     invoke-virtual {v2}, Lcom/commsource/studio/ImageStudioViewModel;->h0()Landroidx/lifecycle/MutableLiveData;
 
     move-result-object v3
@@ -429,7 +393,6 @@
 
     invoke-virtual {v3, p0, v4}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 8
     invoke-virtual {v2}, Lcom/commsource/studio/ImageStudioViewModel;->Y0()Landroidx/lifecycle/MutableLiveData;
 
     move-result-object v3
@@ -440,7 +403,6 @@
 
     invoke-virtual {v3, p0, v4}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 9
     invoke-virtual {v2}, Lcom/commsource/studio/ImageStudioViewModel;->d0()Landroidx/lifecycle/MutableLiveData;
 
     move-result-object v3
@@ -451,7 +413,6 @@
 
     invoke-virtual {v3, p0, v4}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 10
     invoke-virtual {p0}, Landroidx/activity/ComponentActivity;->getLifecycle()Landroidx/lifecycle/Lifecycle;
 
     move-result-object v3
@@ -460,12 +421,10 @@
 
     const-string v3, "ViewModelProvider(this).\u2026dObserver(this)\n        }"
 
-    .line 11
     invoke-static {v1, v3}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     iput-object v2, p0, Lcom/commsource/studio/sticker/CustomStickerActivity;->O:Lcom/commsource/studio/ImageStudioViewModel;
 
-    .line 12
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -555,13 +514,10 @@
 
     const-string v1, "beauty_sticker_customize_yes"
 
-    .line 1
     invoke-static {v1}, Lcom/commsource/statistics/i;->p(Ljava/lang/String;)V
 
-    .line 2
     invoke-virtual {p0}, Lcom/commsource/beautyplus/BaseActivity;->J0()V
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/studio/sticker/CustomStickerActivity;->O:Lcom/commsource/studio/ImageStudioViewModel;
 
     if-nez v1, :cond_0
@@ -577,7 +533,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/studio/ImageStudioViewModel;->H1(Lcotlin/jvm/u/a;)V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -594,10 +549,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0, p1}, Lcom/commsource/beautyplus/BaseActivity;->onCreate(Landroid/os/Bundle;)V
 
-    .line 2
     invoke-virtual {p0}, Landroidx/fragment/app/FragmentActivity;->getSupportFragmentManager()Landroidx/fragment/app/FragmentManager;
 
     move-result-object p1
@@ -614,7 +567,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 3
     invoke-virtual {p0}, Landroidx/fragment/app/FragmentActivity;->getSupportFragmentManager()Landroidx/fragment/app/FragmentManager;
 
     move-result-object v1
@@ -629,7 +581,6 @@
 
     invoke-virtual {p1}, Landroidx/fragment/app/FragmentTransaction;->commitNowAllowingStateLoss()V
 
-    .line 4
     :cond_0
     sget-object p1, Lcom/commsource/studio/function/SegmentFragment;->u0:Lcom/commsource/studio/function/SegmentFragment$a;
 
@@ -637,16 +588,12 @@
 
     invoke-virtual {p1, v1}, Lcom/commsource/studio/function/SegmentFragment$a;->b(Ljava/lang/String;)V
 
-    .line 5
     invoke-direct {p0}, Lcom/commsource/studio/sticker/CustomStickerActivity;->S0()V
 
-    .line 6
     invoke-direct {p0}, Lcom/commsource/studio/sticker/CustomStickerActivity;->T0()V
 
-    .line 7
     invoke-direct {p0}, Lcom/commsource/studio/sticker/CustomStickerActivity;->R0()V
 
-    .line 8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

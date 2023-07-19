@@ -15,7 +15,6 @@
 .method static constructor <clinit>()V
     .locals 2
 
-    .line 1
     sget-object v0, Lcom/bumptech/glide/load/c;->b:Ljava/nio/charset/Charset;
 
     const-string v1, "com.bumptech.glide.load.resource.bitmap.CircleCrop.1"
@@ -32,7 +31,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/bumptech/glide/load/resource/bitmap/h;-><init>()V
 
     return-void
@@ -47,7 +45,6 @@
         .end annotation
     .end param
 
-    .line 1
     sget-object v0, Lcom/bumptech/glide/load/resource/bitmap/n;->e:[B
 
     invoke-virtual {p1, v0}, Ljava/security/MessageDigest;->update([B)V
@@ -66,7 +63,6 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-static {p1, p2, p3, p4}, Lcom/bumptech/glide/load/resource/bitmap/c0;->d(Lcom/bumptech/glide/load/engine/bitmap_recycle/e;Landroid/graphics/Bitmap;II)Landroid/graphics/Bitmap;
 
     move-result-object p1
@@ -77,7 +73,6 @@
 .method public equals(Ljava/lang/Object;)Z
     .locals 0
 
-    .line 1
     instance-of p1, p1, Lcom/bumptech/glide/load/resource/bitmap/n;
 
     return p1

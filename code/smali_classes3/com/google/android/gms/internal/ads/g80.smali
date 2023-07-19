@@ -30,12 +30,10 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/google/android/gms/internal/ads/bc0;-><init>(Ljava/util/Set;)V
 
     const/4 p1, 0x0
 
-    .line 2
     iput-boolean p1, p0, Lcom/google/android/gms/internal/ads/g80;->b:Z
 
     return-void
@@ -48,25 +46,21 @@
 
     monitor-enter p0
 
-    .line 1
     :try_start_0
     iget-boolean v0, p0, Lcom/google/android/gms/internal/ads/g80;->b:Z
 
     if-nez v0, :cond_0
 
-    .line 2
     sget-object v0, Lcom/google/android/gms/internal/ads/f80;->a:Lcom/google/android/gms/internal/ads/dc0;
 
     invoke-virtual {p0, v0}, Lcom/google/android/gms/internal/ads/bc0;->B0(Lcom/google/android/gms/internal/ads/dc0;)V
 
     const/4 v0, 0x1
 
-    .line 3
     iput-boolean v0, p0, Lcom/google/android/gms/internal/ads/g80;->b:Z
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 4
     :cond_0
     monitor-exit p0
 

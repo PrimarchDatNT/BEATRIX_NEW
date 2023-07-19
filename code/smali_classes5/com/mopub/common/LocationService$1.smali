@@ -22,7 +22,6 @@
 .method static constructor <clinit>()V
     .locals 3
 
-    .line 1
     invoke-static {}, Lcom/mopub/common/LocationService$ValidLocationProvider;->values()[Lcom/mopub/common/LocationService$ValidLocationProvider;
 
     move-result-object v0

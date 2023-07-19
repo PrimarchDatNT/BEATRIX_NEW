@@ -33,7 +33,6 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     iput-object p1, p0, Lcom/mopub/network/MoPubImageLoader$ImageContainer;->bitmap:Landroid/graphics/Bitmap;
@@ -149,7 +148,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/network/MoPubImageLoader$ImageContainer;->bitmap:Landroid/graphics/Bitmap;
 
     return-object v0

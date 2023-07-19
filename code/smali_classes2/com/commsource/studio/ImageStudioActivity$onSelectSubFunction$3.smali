@@ -62,7 +62,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Lcom/commsource/studio/h0;
 
     invoke-virtual {p0, p1}, Lcom/commsource/studio/ImageStudioActivity$onSelectSubFunction$3;->invoke(Lcom/commsource/studio/h0;)V
@@ -89,7 +88,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/ImageStudioActivity$onSelectSubFunction$3;->this$0:Lcom/commsource/studio/ImageStudioActivity;
 
     invoke-virtual {v1}, Lcom/commsource/studio/ImageStudioActivity;->m1()Lcom/commsource/studio/ImageStudioViewModel;
@@ -106,14 +104,12 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/studio/bean/a;->W(Lcom/commsource/studio/bean/BaseLayerInfo;)V
 
-    .line 3
     invoke-virtual {p1}, Lcom/commsource/studio/PictureAnimationWrapper;->k()Lcom/commsource/studio/bean/PictureLayerInfo;
 
     move-result-object v1
 
     invoke-virtual {v1, p1}, Lcom/commsource/studio/bean/PictureLayerInfo;->setAnimationWrapper(Lcom/commsource/studio/h0;)V
 
-    .line 4
     iget-object p1, p0, Lcom/commsource/studio/ImageStudioActivity$onSelectSubFunction$3;->this$0:Lcom/commsource/studio/ImageStudioActivity;
 
     invoke-virtual {p1}, Lcom/commsource/studio/ImageStudioActivity;->m1()Lcom/commsource/studio/ImageStudioViewModel;
@@ -128,7 +124,6 @@
 
     invoke-virtual {p1, v1}, Landroidx/lifecycle/MutableLiveData;->setValue(Ljava/lang/Object;)V
 
-    .line 5
     iget-object p1, p0, Lcom/commsource/studio/ImageStudioActivity$onSelectSubFunction$3;->this$0:Lcom/commsource/studio/ImageStudioActivity;
 
     iget-object v1, p0, Lcom/commsource/studio/ImageStudioActivity$onSelectSubFunction$3;->$subFunctionEnum:Lcom/commsource/studio/sub/SubModuleEnum;
@@ -137,7 +132,6 @@
 
     invoke-static {p1, v1, v2}, Lcom/commsource/studio/ImageStudioActivity;->W0(Lcom/commsource/studio/ImageStudioActivity;Lcom/commsource/studio/sub/SubModuleEnum;Landroid/os/Bundle;)V
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

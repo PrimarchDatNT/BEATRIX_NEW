@@ -7,7 +7,6 @@
 .method constructor <init>(Lcom/meitu/library/gid/base/u;)V
     .locals 0
 
-    .line 1
     invoke-virtual {p1}, Lcom/meitu/library/gid/base/u;->t()Lcom/meitu/library/gid/base/l0/a;
 
     move-result-object p1

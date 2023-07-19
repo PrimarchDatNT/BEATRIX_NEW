@@ -31,20 +31,16 @@
 .method public constructor <init>(Landroid/content/Context;Lcom/google/android/gms/internal/ads/pm;)V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     new-instance v0, Ljava/util/HashSet;
 
     invoke-direct {v0}, Ljava/util/HashSet;-><init>()V
 
     iput-object v0, p0, Lcom/google/android/gms/internal/ads/ei1;->a:Ljava/util/HashSet;
 
-    .line 3
     iput-object p1, p0, Lcom/google/android/gms/internal/ads/ei1;->b:Landroid/content/Context;
 
-    .line 4
     iput-object p2, p0, Lcom/google/android/gms/internal/ads/ei1;->c:Lcom/google/android/gms/internal/ads/pm;
 
     return-void
@@ -61,7 +57,6 @@
 
     if-eq p1, v0, :cond_0
 
-    .line 1
     :try_start_0
     iget-object p1, p0, Lcom/google/android/gms/internal/ads/ei1;->c:Lcom/google/android/gms/internal/ads/pm;
 
@@ -80,7 +75,6 @@
 
     throw p1
 
-    .line 2
     :cond_0
     :goto_0
     monitor-exit p0
@@ -101,20 +95,17 @@
 
     monitor-enter p0
 
-    .line 1
     :try_start_0
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/ei1;->a:Ljava/util/HashSet;
 
     invoke-virtual {v0}, Ljava/util/HashSet;->clear()V
 
-    .line 2
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/ei1;->a:Ljava/util/HashSet;
 
     invoke-virtual {v0, p1}, Ljava/util/HashSet;->addAll(Ljava/util/Collection;)Z
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 3
     monitor-exit p0
 
     return-void
@@ -130,7 +121,6 @@
 .method public final c()Landroid/os/Bundle;
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/ei1;->c:Lcom/google/android/gms/internal/ads/pm;
 
     iget-object v1, p0, Lcom/google/android/gms/internal/ads/ei1;->b:Landroid/content/Context;

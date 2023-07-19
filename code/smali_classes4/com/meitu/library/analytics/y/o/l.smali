@@ -25,7 +25,6 @@
 
     const-string v1, "GsonHelper"
 
-    .line 1
     sput-object v1, Lcom/meitu/library/analytics/y/o/l;->a:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -36,7 +35,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -61,7 +59,6 @@
 
     const/4 v1, 0x0
 
-    .line 1
     :try_start_0
     new-instance v2, Lcom/google/gson/Gson;
 
@@ -74,7 +71,6 @@
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
@@ -82,7 +78,6 @@
     :catch_0
     move-exception p0
 
-    .line 3
     :try_start_1
     sget-object p1, Lcom/meitu/library/analytics/y/o/l;->a:Ljava/lang/String;
 
@@ -94,7 +89,6 @@
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
@@ -124,7 +118,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/google/gson/Gson;
 
     invoke-direct {v1}, Lcom/google/gson/Gson;-><init>()V
@@ -133,19 +126,16 @@
 
     invoke-direct {v2}, Lcom/meitu/library/analytics/y/o/l$a;-><init>()V
 
-    .line 2
     invoke-virtual {v2}, Lcom/google/gson/reflect/TypeToken;->getType()Ljava/lang/reflect/Type;
 
     move-result-object v2
 
-    .line 3
     invoke-virtual {v1, p0, v2}, Lcom/google/gson/Gson;->fromJson(Ljava/lang/String;Ljava/lang/reflect/Type;)Ljava/lang/Object;
 
     move-result-object p0
 
     check-cast p0, Ljava/util/HashMap;
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
@@ -169,17 +159,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/google/gson/Gson;
 
     invoke-direct {v1}, Lcom/google/gson/Gson;-><init>()V
 
-    .line 2
     new-instance v2, Ljava/util/ArrayList;
 
     invoke-direct {v2}, Ljava/util/ArrayList;-><init>()V
 
-    .line 3
     new-instance v3, Lcom/google/gson/JsonParser;
 
     invoke-direct {v3}, Lcom/google/gson/JsonParser;-><init>()V
@@ -194,7 +181,6 @@
 
     if-eqz p0, :cond_2
 
-    .line 4
     invoke-virtual {p0}, Lcom/google/gson/JsonArray;->size()I
 
     move-result v3
@@ -203,7 +189,6 @@
 
     goto :goto_1
 
-    .line 5
     :cond_0
     invoke-virtual {p0}, Lcom/google/gson/JsonArray;->iterator()Ljava/util/Iterator;
 
@@ -222,7 +207,6 @@
 
     check-cast v3, Lcom/google/gson/JsonElement;
 
-    .line 6
     invoke-virtual {v1, v3, p1}, Lcom/google/gson/Gson;->fromJson(Lcom/google/gson/JsonElement;Ljava/lang/Class;)Ljava/lang/Object;
 
     move-result-object v3
@@ -231,7 +215,6 @@
 
     goto :goto_0
 
-    .line 7
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -241,7 +224,6 @@
     :goto_1
     const/4 p0, 0x0
 
-    .line 8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
@@ -254,7 +236,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/google/gson/Gson;
 
     invoke-direct {v1}, Lcom/google/gson/Gson;-><init>()V

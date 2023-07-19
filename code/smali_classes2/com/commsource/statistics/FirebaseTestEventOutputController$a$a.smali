@@ -58,7 +58,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/statistics/FirebaseTestEventOutputController;->c:Lcom/commsource/statistics/FirebaseTestEventOutputController$a;
 
     invoke-static {v1}, Lcom/commsource/statistics/FirebaseTestEventOutputController$a;->a(Lcom/commsource/statistics/FirebaseTestEventOutputController$a;)Ljava/lang/String;

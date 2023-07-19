@@ -29,7 +29,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/mopub/nativeads/CustomEventNative;-><init>()V
 
     return-void
@@ -81,7 +80,6 @@
 
     move-object/from16 v9, p4
 
-    .line 1
     sget-object v1, Lcom/mopub/common/logging/MoPubLog$AdapterLogEvent;->LOAD_ATTEMPTED:Lcom/mopub/common/logging/MoPubLog$AdapterLogEvent;
 
     const/4 v10, 0x1
@@ -96,7 +94,6 @@
 
     invoke-static {v1, v3}, Lcom/mopub/common/logging/MoPubLog;->log(Lcom/mopub/common/logging/MoPubLog$MPLogEventType;[Ljava/lang/Object;)V
 
-    .line 2
     iget-object v1, v0, Lcom/mopub/nativeads/MoPubCustomEventNative;->moPubStaticNativeAd:Lcom/mopub/nativeads/MoPubCustomEventNative$MoPubStaticNativeAd;
 
     if-eqz v1, :cond_0
@@ -112,12 +109,10 @@
     :cond_0
     const-string v1, "com_mopub_native_json"
 
-    .line 3
     invoke-interface {v8, v1}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v1
 
-    .line 4
     instance-of v3, v1, Lorg/json/JSONObject;
 
     const/4 v12, 0x3
@@ -126,7 +121,6 @@
 
     if-nez v3, :cond_1
 
-    .line 5
     sget-object v1, Lcom/mopub/common/logging/MoPubLog$AdapterLogEvent;->LOAD_FAILED:Lcom/mopub/common/logging/MoPubLog$AdapterLogEvent;
 
     new-array v2, v12, [Ljava/lang/Object;
@@ -135,7 +129,6 @@
 
     sget-object v3, Lcom/mopub/nativeads/NativeErrorCode;->INVALID_RESPONSE:Lcom/mopub/nativeads/NativeErrorCode;
 
-    .line 6
     invoke-virtual {v3}, Lcom/mopub/nativeads/NativeErrorCode;->getIntCode()I
 
     move-result v4
@@ -148,15 +141,12 @@
 
     aput-object v3, v2, v13
 
-    .line 7
     invoke-static {v1, v2}, Lcom/mopub/common/logging/MoPubLog;->log(Lcom/mopub/common/logging/MoPubLog$MPLogEventType;[Ljava/lang/Object;)V
 
-    .line 8
     invoke-interface {v7, v3}, Lcom/mopub/nativeads/CustomEventNative$CustomEventNativeListener;->onNativeAdFailed(Lcom/mopub/nativeads/NativeErrorCode;)V
 
     return-void
 
-    .line 9
     :cond_1
     new-instance v14, Lcom/mopub/nativeads/MoPubCustomEventNative$MoPubStaticNativeAd;
 
@@ -184,25 +174,21 @@
 
     const-string v1, "impression-min-visible-percent"
 
-    .line 10
     invoke-interface {v9, v1}, Ljava/util/Map;->containsKey(Ljava/lang/Object;)Z
 
     move-result v2
 
     if-eqz v2, :cond_2
 
-    .line 11
     :try_start_0
     iget-object v2, v0, Lcom/mopub/nativeads/MoPubCustomEventNative;->moPubStaticNativeAd:Lcom/mopub/nativeads/MoPubCustomEventNative$MoPubStaticNativeAd;
 
-    .line 12
     invoke-interface {v9, v1}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v3
 
     check-cast v3, Ljava/lang/String;
 
-    .line 13
     invoke-static {v3}, Ljava/lang/Integer;->parseInt(Ljava/lang/String;)I
 
     move-result v3
@@ -213,7 +199,6 @@
 
     goto :goto_0
 
-    .line 14
     :catch_0
     sget-object v2, Lcom/mopub/common/logging/MoPubLog$AdapterLogEvent;->CUSTOM:Lcom/mopub/common/logging/MoPubLog$AdapterLogEvent;
 
@@ -231,7 +216,6 @@
 
     invoke-virtual {v4, v5}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 15
     invoke-interface {v9, v1}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v1
@@ -246,25 +230,21 @@
 
     aput-object v1, v3, v10
 
-    .line 16
     invoke-static {v2, v3}, Lcom/mopub/common/logging/MoPubLog;->log(Lcom/mopub/common/logging/MoPubLog$MPLogEventType;[Ljava/lang/Object;)V
 
     :cond_2
     :goto_0
     const-string v1, "impression-visible-ms"
 
-    .line 17
     invoke-interface {v9, v1}, Ljava/util/Map;->containsKey(Ljava/lang/Object;)Z
 
     move-result v2
 
     if-eqz v2, :cond_3
 
-    .line 18
     :try_start_1
     iget-object v2, v0, Lcom/mopub/nativeads/MoPubCustomEventNative;->moPubStaticNativeAd:Lcom/mopub/nativeads/MoPubCustomEventNative$MoPubStaticNativeAd;
 
-    .line 19
     invoke-interface {v9, v1}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v3
@@ -275,14 +255,12 @@
 
     move-result v3
 
-    .line 20
     invoke-virtual {v2, v3}, Lcom/mopub/nativeads/StaticNativeAd;->setImpressionMinTimeViewed(I)V
     :try_end_1
     .catch Ljava/lang/NumberFormatException; {:try_start_1 .. :try_end_1} :catch_1
 
     goto :goto_1
 
-    .line 21
     :catch_1
     sget-object v2, Lcom/mopub/common/logging/MoPubLog$AdapterLogEvent;->CUSTOM:Lcom/mopub/common/logging/MoPubLog$AdapterLogEvent;
 
@@ -300,7 +278,6 @@
 
     invoke-virtual {v4, v5}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 22
     invoke-interface {v9, v1}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v1
@@ -315,32 +292,27 @@
 
     aput-object v1, v3, v10
 
-    .line 23
     invoke-static {v2, v3}, Lcom/mopub/common/logging/MoPubLog;->log(Lcom/mopub/common/logging/MoPubLog$MPLogEventType;[Ljava/lang/Object;)V
 
     :cond_3
     :goto_1
     const-string v1, "impression-min-visible-px"
 
-    .line 24
     invoke-interface {v9, v1}, Ljava/util/Map;->containsKey(Ljava/lang/Object;)Z
 
     move-result v2
 
     if-eqz v2, :cond_4
 
-    .line 25
     :try_start_2
     iget-object v2, v0, Lcom/mopub/nativeads/MoPubCustomEventNative;->moPubStaticNativeAd:Lcom/mopub/nativeads/MoPubCustomEventNative$MoPubStaticNativeAd;
 
-    .line 26
     invoke-interface {v9, v1}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v3
 
     check-cast v3, Ljava/lang/String;
 
-    .line 27
     invoke-static {v3}, Ljava/lang/Integer;->parseInt(Ljava/lang/String;)I
 
     move-result v3
@@ -355,7 +327,6 @@
 
     goto :goto_2
 
-    .line 28
     :catch_2
     sget-object v2, Lcom/mopub/common/logging/MoPubLog$AdapterLogEvent;->CUSTOM:Lcom/mopub/common/logging/MoPubLog$AdapterLogEvent;
 
@@ -373,7 +344,6 @@
 
     invoke-virtual {v4, v5}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 29
     invoke-interface {v9, v1}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v1
@@ -388,7 +358,6 @@
 
     aput-object v1, v3, v10
 
-    .line 30
     invoke-static {v2, v3}, Lcom/mopub/common/logging/MoPubLog;->log(Lcom/mopub/common/logging/MoPubLog$MPLogEventType;[Ljava/lang/Object;)V
 
     :cond_4
@@ -396,17 +365,14 @@
     :try_start_3
     const-string v1, "viewability_vendors"
 
-    .line 31
     invoke-interface {v8, v1}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v1
 
-    .line 32
     instance-of v2, v1, Ljava/util/Set;
 
     if-eqz v2, :cond_5
 
-    .line 33
     iget-object v2, v0, Lcom/mopub/nativeads/MoPubCustomEventNative;->moPubStaticNativeAd:Lcom/mopub/nativeads/MoPubCustomEventNative$MoPubStaticNativeAd;
 
     check-cast v1, Ljava/util/Set;
@@ -417,7 +383,6 @@
 
     goto :goto_3
 
-    .line 34
     :catch_3
     sget-object v1, Lcom/mopub/common/logging/MoPubLog$AdapterLogEvent;->CUSTOM:Lcom/mopub/common/logging/MoPubLog$AdapterLogEvent;
 
@@ -429,7 +394,6 @@
 
     invoke-static {v1, v2}, Lcom/mopub/common/logging/MoPubLog;->log(Lcom/mopub/common/logging/MoPubLog$MPLogEventType;[Ljava/lang/Object;)V
 
-    .line 35
     :cond_5
     :goto_3
     :try_start_4
@@ -437,7 +401,6 @@
 
     invoke-virtual {v1}, Lcom/mopub/nativeads/MoPubCustomEventNative$MoPubStaticNativeAd;->loadAd()V
 
-    .line 36
     sget-object v1, Lcom/mopub/common/logging/MoPubLog$AdapterLogEvent;->LOAD_SUCCESS:Lcom/mopub/common/logging/MoPubLog$AdapterLogEvent;
 
     new-array v2, v10, [Ljava/lang/Object;
@@ -452,7 +415,6 @@
 
     goto :goto_4
 
-    .line 37
     :catch_4
     sget-object v1, Lcom/mopub/common/logging/MoPubLog$AdapterLogEvent;->LOAD_FAILED:Lcom/mopub/common/logging/MoPubLog$AdapterLogEvent;
 
@@ -464,7 +426,6 @@
 
     sget-object v3, Lcom/mopub/nativeads/NativeErrorCode;->UNSPECIFIED:Lcom/mopub/nativeads/NativeErrorCode;
 
-    .line 38
     invoke-virtual {v3}, Lcom/mopub/nativeads/NativeErrorCode;->getIntCode()I
 
     move-result v4
@@ -477,10 +438,8 @@
 
     aput-object v3, v2, v13
 
-    .line 39
     invoke-static {v1, v2}, Lcom/mopub/common/logging/MoPubLog;->log(Lcom/mopub/common/logging/MoPubLog$MPLogEventType;[Ljava/lang/Object;)V
 
-    .line 40
     invoke-interface {v7, v3}, Lcom/mopub/nativeads/CustomEventNative$CustomEventNativeListener;->onNativeAdFailed(Lcom/mopub/nativeads/NativeErrorCode;)V
 
     :goto_4
@@ -490,14 +449,12 @@
 .method protected onInvalidate()V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/nativeads/MoPubCustomEventNative;->moPubStaticNativeAd:Lcom/mopub/nativeads/MoPubCustomEventNative$MoPubStaticNativeAd;
 
     if-nez v0, :cond_0
 
     return-void
 
-    .line 2
     :cond_0
     invoke-virtual {v0}, Lcom/mopub/nativeads/BaseNativeAd;->invalidate()V
 

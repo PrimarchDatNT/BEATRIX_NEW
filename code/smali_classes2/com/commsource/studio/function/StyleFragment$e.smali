@@ -55,7 +55,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/function/StyleFragment$e;->a:Lcom/commsource/studio/function/StyleFragment;
 
     invoke-static {v1}, Lcom/commsource/studio/function/StyleFragment;->J1(Lcom/commsource/studio/function/StyleFragment;)Lcom/commsource/studio/function/style/f;
@@ -68,19 +67,16 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/studio/function/style/f;->c(Ljava/util/List;)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/function/StyleFragment$e;->a:Lcom/commsource/studio/function/StyleFragment;
 
     invoke-static {v1}, Lcom/commsource/studio/function/StyleFragment;->I1(Lcom/commsource/studio/function/StyleFragment;)Lcom/commsource/widget/h1/e;
 
     move-result-object v1
 
-    .line 3
     invoke-static {}, Lcom/commsource/widget/h1/c;->j()Lcom/commsource/widget/h1/c;
 
     move-result-object v2
 
-    .line 4
     invoke-virtual {p1}, Lcom/commsource/studio/function/style/e;->d()Ljava/util/List;
 
     move-result-object v3
@@ -91,15 +87,12 @@
 
     move-result-object v2
 
-    .line 5
     invoke-virtual {v2}, Lcom/commsource/widget/h1/c;->i()Ljava/util/List;
 
     move-result-object v2
 
-    .line 6
     invoke-virtual {v1, v2}, Lcom/commsource/widget/h1/e;->Q(Ljava/util/List;)V
 
-    .line 7
     iget-object v1, p0, Lcom/commsource/studio/function/StyleFragment$e;->a:Lcom/commsource/studio/function/StyleFragment;
 
     invoke-static {v1}, Lcom/commsource/studio/function/StyleFragment;->I1(Lcom/commsource/studio/function/StyleFragment;)Lcom/commsource/widget/h1/e;
@@ -122,7 +115,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/widget/h1/e;->E(Ljava/lang/Object;)V
 
-    .line 8
     iget-object v1, p0, Lcom/commsource/studio/function/StyleFragment$e;->a:Lcom/commsource/studio/function/StyleFragment;
 
     invoke-static {v1}, Lcom/commsource/studio/function/StyleFragment;->E1(Lcom/commsource/studio/function/StyleFragment;)Lcom/commsource/beautyplus/f0/ec;
@@ -137,14 +129,12 @@
 
     invoke-virtual {v1, v2}, Landroid/view/ViewGroup;->post(Ljava/lang/Runnable;)Z
 
-    .line 9
     iget-object v1, p0, Lcom/commsource/studio/function/StyleFragment$e;->a:Lcom/commsource/studio/function/StyleFragment;
 
     invoke-static {v1}, Lcom/commsource/studio/function/StyleFragment;->H1(Lcom/commsource/studio/function/StyleFragment;)Lcom/commsource/widget/h1/e;
 
     move-result-object v1
 
-    .line 10
     invoke-static {}, Lcom/commsource/widget/h1/c;->j()Lcom/commsource/widget/h1/c;
 
     move-result-object v2
@@ -153,7 +143,6 @@
 
     new-array v3, v3, [Lcom/commsource/studio/bean/f;
 
-    .line 11
     invoke-virtual {p1}, Lcom/commsource/studio/function/style/e;->i()Lcom/commsource/studio/bean/f;
 
     move-result-object v4
@@ -172,7 +161,6 @@
 
     move-result-object v2
 
-    .line 12
     invoke-virtual {p1}, Lcom/commsource/studio/function/style/e;->r()Ljava/util/List;
 
     move-result-object v3
@@ -183,7 +171,6 @@
 
     move-result-object v2
 
-    .line 13
     invoke-virtual {p1}, Lcom/commsource/studio/function/style/e;->m()Ljava/util/List;
 
     move-result-object p1
@@ -194,15 +181,12 @@
 
     move-result-object p1
 
-    .line 14
     invoke-virtual {p1}, Lcom/commsource/widget/h1/c;->i()Ljava/util/List;
 
     move-result-object p1
 
-    .line 15
     invoke-virtual {v1, p1}, Lcom/commsource/widget/h1/e;->Q(Ljava/util/List;)V
 
-    .line 16
     iget-object p1, p0, Lcom/commsource/studio/function/StyleFragment$e;->a:Lcom/commsource/studio/function/StyleFragment;
 
     invoke-static {p1}, Lcom/commsource/studio/function/StyleFragment;->H1(Lcom/commsource/studio/function/StyleFragment;)Lcom/commsource/widget/h1/e;
@@ -211,7 +195,6 @@
 
     invoke-virtual {p1, v5}, Lcom/commsource/widget/h1/e;->G(I)V
 
-    .line 17
     iget-object p1, p0, Lcom/commsource/studio/function/StyleFragment$e;->a:Lcom/commsource/studio/function/StyleFragment;
 
     invoke-virtual {p1}, Lcom/commsource/studio/function/BaseSubFragment;->n0()Lcom/commsource/beautyplus/router/RouterEntity;
@@ -220,14 +203,12 @@
 
     if-eqz p1, :cond_0
 
-    .line 18
     new-instance v1, Lcom/commsource/studio/function/StyleFragment$e$a;
 
     invoke-direct {v1, p1, p0}, Lcom/commsource/studio/function/StyleFragment$e$a;-><init>(Lcom/commsource/beautyplus/router/RouterEntity;Lcom/commsource/studio/function/StyleFragment$e;)V
 
     invoke-static {v1}, Lcom/commsource/util/g2;->j(Ljava/lang/Runnable;)V
 
-    .line 19
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -241,7 +222,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Lcom/commsource/studio/function/style/e;
 
     invoke-virtual {p0, p1}, Lcom/commsource/studio/function/StyleFragment$e;->a(Lcom/commsource/studio/function/style/e;)V

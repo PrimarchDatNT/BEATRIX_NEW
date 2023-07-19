@@ -27,7 +27,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/commsource/util/o2/c;-><init>(Ljava/lang/Object;)V
 
     return-void
@@ -42,7 +41,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Landroid/graphics/Rect;
 
     check-cast p2, Landroid/graphics/Rect;
@@ -63,7 +61,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Landroid/graphics/Rect;
 
     invoke-virtual {p0, p1}, Lcom/commsource/util/o2/b;->m(Landroid/graphics/Rect;)Landroid/graphics/Rect;
@@ -100,7 +97,6 @@
 
     invoke-static {p2, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget v1, p1, Landroid/graphics/Rect;->left:I
 
     iget v2, p2, Landroid/graphics/Rect;->left:I
@@ -111,7 +107,6 @@
 
     iput v1, p1, Landroid/graphics/Rect;->left:I
 
-    .line 2
     iget v1, p1, Landroid/graphics/Rect;->top:I
 
     iget v2, p2, Landroid/graphics/Rect;->top:I
@@ -122,7 +117,6 @@
 
     iput v1, p1, Landroid/graphics/Rect;->top:I
 
-    .line 3
     iget v1, p1, Landroid/graphics/Rect;->right:I
 
     iget v2, p2, Landroid/graphics/Rect;->right:I
@@ -133,7 +127,6 @@
 
     iput v1, p1, Landroid/graphics/Rect;->right:I
 
-    .line 4
     iget v1, p1, Landroid/graphics/Rect;->bottom:I
 
     iget p2, p2, Landroid/graphics/Rect;->bottom:I
@@ -144,7 +137,6 @@
 
     iput p2, p1, Landroid/graphics/Rect;->bottom:I
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p1
@@ -167,7 +159,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     new-instance v1, Landroid/graphics/Rect;
 
     invoke-direct {v1, p1}, Landroid/graphics/Rect;-><init>(Landroid/graphics/Rect;)V

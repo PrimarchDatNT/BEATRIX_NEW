@@ -29,7 +29,6 @@
 .method constructor <init>(Lcom/google/common/collect/i;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/common/collect/i$c;->a:Lcom/google/common/collect/i;
 
     invoke-direct {p0}, Ljava/util/AbstractCollection;-><init>()V
@@ -42,7 +41,6 @@
 .method public clear()V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/i$c;->a:Lcom/google/common/collect/i;
 
     invoke-virtual {v0}, Lcom/google/common/collect/i;->clear()V
@@ -53,7 +51,6 @@
 .method public contains(Ljava/lang/Object;)Z
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/i$c;->a:Lcom/google/common/collect/i;
 
     invoke-virtual {v0, p1}, Lcom/google/common/collect/i;->containsValue(Ljava/lang/Object;)Z
@@ -73,7 +70,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/i$c;->a:Lcom/google/common/collect/i;
 
     invoke-virtual {v0}, Lcom/google/common/collect/i;->valuesIterator()Ljava/util/Iterator;
@@ -86,7 +82,6 @@
 .method public size()I
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/i$c;->a:Lcom/google/common/collect/i;
 
     invoke-interface {v0}, Lcom/google/common/collect/f2;->size()I

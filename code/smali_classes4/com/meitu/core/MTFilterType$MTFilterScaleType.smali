@@ -44,7 +44,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/meitu/core/MTFilterType$MTFilterScaleType;
 
     const-string v2, "Filter_Scale_NO"
@@ -55,7 +54,6 @@
 
     sput-object v1, Lcom/meitu/core/MTFilterType$MTFilterScaleType;->Filter_Scale_NO:Lcom/meitu/core/MTFilterType$MTFilterScaleType;
 
-    .line 2
     new-instance v2, Lcom/meitu/core/MTFilterType$MTFilterScaleType;
 
     const-string v4, "Filter_Scale_4_3"
@@ -66,7 +64,6 @@
 
     sput-object v2, Lcom/meitu/core/MTFilterType$MTFilterScaleType;->Filter_Scale_4_3:Lcom/meitu/core/MTFilterType$MTFilterScaleType;
 
-    .line 3
     new-instance v4, Lcom/meitu/core/MTFilterType$MTFilterScaleType;
 
     const-string v6, "Filter_Scale_16_9"
@@ -77,7 +74,6 @@
 
     sput-object v4, Lcom/meitu/core/MTFilterType$MTFilterScaleType;->Filter_Scale_16_9:Lcom/meitu/core/MTFilterType$MTFilterScaleType;
 
-    .line 4
     new-instance v6, Lcom/meitu/core/MTFilterType$MTFilterScaleType;
 
     const-string v8, "Filter_Scale_1_1"
@@ -88,7 +84,6 @@
 
     sput-object v6, Lcom/meitu/core/MTFilterType$MTFilterScaleType;->Filter_Scale_1_1:Lcom/meitu/core/MTFilterType$MTFilterScaleType;
 
-    .line 5
     new-instance v8, Lcom/meitu/core/MTFilterType$MTFilterScaleType;
 
     const-string v10, "Filter_Scale_Other"
@@ -113,7 +108,6 @@
 
     aput-object v8, v10, v11
 
-    .line 6
     sput-object v10, Lcom/meitu/core/MTFilterType$MTFilterScaleType;->$VALUES:[Lcom/meitu/core/MTFilterType$MTFilterScaleType;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -129,7 +123,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
     return-void
@@ -142,7 +135,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     const-class v1, Lcom/meitu/core/MTFilterType$MTFilterScaleType;
 
     invoke-static {v1, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -163,7 +155,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/meitu/core/MTFilterType$MTFilterScaleType;->$VALUES:[Lcom/meitu/core/MTFilterType$MTFilterScaleType;
 
     invoke-virtual {v1}, [Lcom/meitu/core/MTFilterType$MTFilterScaleType;->clone()Ljava/lang/Object;

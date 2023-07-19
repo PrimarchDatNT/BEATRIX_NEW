@@ -26,7 +26,6 @@
 .method constructor <init>(Lf/k/c/b/g/a$b;Landroidx/recyclerview/widget/GridLayoutManager;Landroidx/recyclerview/widget/GridLayoutManager$SpanSizeLookup;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lf/k/c/b/g/a$a;->a:Lf/k/c/b/g/a$b;
 
     iput-object p2, p0, Lf/k/c/b/g/a$a;->b:Landroidx/recyclerview/widget/GridLayoutManager;
@@ -47,7 +46,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lf/k/c/b/g/a$a;->a:Lf/k/c/b/g/a$b;
 
     iget-object v2, p0, Lf/k/c/b/g/a$a;->b:Landroidx/recyclerview/widget/GridLayoutManager;

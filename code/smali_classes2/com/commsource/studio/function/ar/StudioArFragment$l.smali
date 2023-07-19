@@ -32,7 +32,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/function/ar/StudioArFragment$l;->a:Lcom/commsource/studio/function/ar/StudioArFragment;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -57,7 +56,6 @@
 
     invoke-static {p3, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-static {p0, p1, p2, p3}, Lcom/commsource/studio/layer/c$a$a;->a(Lcom/commsource/studio/layer/c$a;FFLandroid/view/MotionEvent;)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -80,7 +78,6 @@
 
     invoke-static {p3, p2}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object p2, p0, Lcom/commsource/studio/function/ar/StudioArFragment$l;->a:Lcom/commsource/studio/function/ar/StudioArFragment;
 
     invoke-virtual {p2}, Lcom/commsource/studio/function/ar/StudioArFragment;->C1()Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/c1;
@@ -107,7 +104,6 @@
 
     if-eqz p2, :cond_0
 
-    .line 2
     iget-object p2, p0, Lcom/commsource/studio/function/ar/StudioArFragment$l;->a:Lcom/commsource/studio/function/ar/StudioArFragment;
 
     invoke-virtual {p2}, Lcom/commsource/studio/function/ar/StudioArFragment;->B1()Lcom/commsource/studio/function/ar/ArProcessor;
@@ -120,7 +116,6 @@
 
     invoke-virtual {p2, p3}, Lcom/commsource/camera/newrender/renderproxy/m;->l(Landroid/view/MotionEvent;)Z
 
-    .line 3
     iget-object p2, p0, Lcom/commsource/studio/function/ar/StudioArFragment$l;->a:Lcom/commsource/studio/function/ar/StudioArFragment;
 
     invoke-virtual {p2}, Lcom/commsource/studio/function/ar/StudioArFragment;->B1()Lcom/commsource/studio/function/ar/ArProcessor;
@@ -135,7 +130,6 @@
 
     invoke-static {p2, p3, v1, v0, v1}, Lcom/commsource/studio/processor/BaseEffectProcessor;->z(Lcom/commsource/studio/processor/BaseEffectProcessor;ZLcotlin/jvm/u/a;ILjava/lang/Object;)V
 
-    .line 4
     :cond_0
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -157,7 +151,6 @@
 
     invoke-static {p3, p2}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object p2, p0, Lcom/commsource/studio/function/ar/StudioArFragment$l;->a:Lcom/commsource/studio/function/ar/StudioArFragment;
 
     invoke-virtual {p2}, Lcom/commsource/studio/function/ar/StudioArFragment;->C1()Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/c1;
@@ -184,7 +177,6 @@
 
     if-eqz p2, :cond_0
 
-    .line 2
     iget-object p2, p0, Lcom/commsource/studio/function/ar/StudioArFragment$l;->a:Lcom/commsource/studio/function/ar/StudioArFragment;
 
     invoke-virtual {p2}, Lcom/commsource/studio/function/ar/StudioArFragment;->B1()Lcom/commsource/studio/function/ar/ArProcessor;
@@ -197,7 +189,6 @@
 
     invoke-virtual {p2, p3}, Lcom/commsource/camera/newrender/renderproxy/m;->l(Landroid/view/MotionEvent;)Z
 
-    .line 3
     iget-object p2, p0, Lcom/commsource/studio/function/ar/StudioArFragment$l;->a:Lcom/commsource/studio/function/ar/StudioArFragment;
 
     invoke-virtual {p2}, Lcom/commsource/studio/function/ar/StudioArFragment;->B1()Lcom/commsource/studio/function/ar/ArProcessor;
@@ -212,7 +203,6 @@
 
     invoke-static {p2, p3, v1, v0, v1}, Lcom/commsource/studio/processor/BaseEffectProcessor;->z(Lcom/commsource/studio/processor/BaseEffectProcessor;ZLcotlin/jvm/u/a;ILjava/lang/Object;)V
 
-    .line 4
     :cond_0
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -234,7 +224,6 @@
 
     invoke-static {p3, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-static {p0, p1, p2, p3}, Lcom/commsource/studio/layer/c$a$a;->e(Lcom/commsource/studio/layer/c$a;FFLandroid/view/MotionEvent;)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -255,12 +244,10 @@
 
     if-nez p4, :cond_0
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 2
     :cond_0
     iget-object p2, p0, Lcom/commsource/studio/function/ar/StudioArFragment$l;->a:Lcom/commsource/studio/function/ar/StudioArFragment;
 
@@ -288,7 +275,6 @@
 
     if-eqz p2, :cond_2
 
-    .line 3
     iget-object p2, p0, Lcom/commsource/studio/function/ar/StudioArFragment$l;->a:Lcom/commsource/studio/function/ar/StudioArFragment;
 
     invoke-virtual {p2}, Lcom/commsource/studio/function/ar/StudioArFragment;->B1()Lcom/commsource/studio/function/ar/ArProcessor;
@@ -301,7 +287,6 @@
 
     invoke-virtual {p2, p5}, Lcom/commsource/camera/newrender/renderproxy/m;->l(Landroid/view/MotionEvent;)Z
 
-    .line 4
     iget-object p2, p0, Lcom/commsource/studio/function/ar/StudioArFragment$l;->a:Lcom/commsource/studio/function/ar/StudioArFragment;
 
     invoke-virtual {p2}, Lcom/commsource/studio/function/ar/StudioArFragment;->B1()Lcom/commsource/studio/function/ar/ArProcessor;
@@ -344,7 +329,6 @@
 
     invoke-static {p2, p3, p5, p4, p5}, Lcom/commsource/studio/processor/BaseEffectProcessor;->z(Lcom/commsource/studio/processor/BaseEffectProcessor;ZLcotlin/jvm/u/a;ILjava/lang/Object;)V
 
-    .line 5
     :cond_2
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

@@ -105,7 +105,6 @@
 .method static constructor <clinit>()V
     .locals 38
 
-    .line 1
     new-instance v0, Lcom/mopub/mobileads/MoPubErrorCode;
 
     const-string v1, "AD_SUCCESS"
@@ -118,7 +117,6 @@
 
     sput-object v0, Lcom/mopub/mobileads/MoPubErrorCode;->AD_SUCCESS:Lcom/mopub/mobileads/MoPubErrorCode;
 
-    .line 2
     new-instance v1, Lcom/mopub/mobileads/MoPubErrorCode;
 
     const-string v3, "DO_NOT_TRACK"
@@ -131,7 +129,6 @@
 
     sput-object v1, Lcom/mopub/mobileads/MoPubErrorCode;->DO_NOT_TRACK:Lcom/mopub/mobileads/MoPubErrorCode;
 
-    .line 3
     new-instance v3, Lcom/mopub/mobileads/MoPubErrorCode;
 
     const-string v5, "UNSPECIFIED"
@@ -144,7 +141,6 @@
 
     sput-object v3, Lcom/mopub/mobileads/MoPubErrorCode;->UNSPECIFIED:Lcom/mopub/mobileads/MoPubErrorCode;
 
-    .line 4
     new-instance v5, Lcom/mopub/mobileads/MoPubErrorCode;
 
     const-string v7, "NO_FILL"
@@ -157,7 +153,6 @@
 
     sput-object v5, Lcom/mopub/mobileads/MoPubErrorCode;->NO_FILL:Lcom/mopub/mobileads/MoPubErrorCode;
 
-    .line 5
     new-instance v7, Lcom/mopub/mobileads/MoPubErrorCode;
 
     const-string v9, "WARMUP"
@@ -170,7 +165,6 @@
 
     sput-object v7, Lcom/mopub/mobileads/MoPubErrorCode;->WARMUP:Lcom/mopub/mobileads/MoPubErrorCode;
 
-    .line 6
     new-instance v9, Lcom/mopub/mobileads/MoPubErrorCode;
 
     const-string v11, "SERVER_ERROR"
@@ -183,7 +177,6 @@
 
     sput-object v9, Lcom/mopub/mobileads/MoPubErrorCode;->SERVER_ERROR:Lcom/mopub/mobileads/MoPubErrorCode;
 
-    .line 7
     new-instance v11, Lcom/mopub/mobileads/MoPubErrorCode;
 
     const-string v13, "TOO_MANY_REQUESTS"
@@ -196,7 +189,6 @@
 
     sput-object v11, Lcom/mopub/mobileads/MoPubErrorCode;->TOO_MANY_REQUESTS:Lcom/mopub/mobileads/MoPubErrorCode;
 
-    .line 8
     new-instance v13, Lcom/mopub/mobileads/MoPubErrorCode;
 
     const-string v15, "INTERNAL_ERROR"
@@ -209,7 +201,6 @@
 
     sput-object v13, Lcom/mopub/mobileads/MoPubErrorCode;->INTERNAL_ERROR:Lcom/mopub/mobileads/MoPubErrorCode;
 
-    .line 9
     new-instance v12, Lcom/mopub/mobileads/MoPubErrorCode;
 
     const-string v15, "RENDER_PROCESS_GONE_WITH_CRASH"
@@ -222,7 +213,6 @@
 
     sput-object v12, Lcom/mopub/mobileads/MoPubErrorCode;->RENDER_PROCESS_GONE_WITH_CRASH:Lcom/mopub/mobileads/MoPubErrorCode;
 
-    .line 10
     new-instance v10, Lcom/mopub/mobileads/MoPubErrorCode;
 
     const-string v15, "RENDER_PROCESS_GONE_UNSPECIFIED"
@@ -235,7 +225,6 @@
 
     sput-object v10, Lcom/mopub/mobileads/MoPubErrorCode;->RENDER_PROCESS_GONE_UNSPECIFIED:Lcom/mopub/mobileads/MoPubErrorCode;
 
-    .line 11
     new-instance v8, Lcom/mopub/mobileads/MoPubErrorCode;
 
     const-string v15, "CANCELLED"
@@ -248,7 +237,6 @@
 
     sput-object v8, Lcom/mopub/mobileads/MoPubErrorCode;->CANCELLED:Lcom/mopub/mobileads/MoPubErrorCode;
 
-    .line 12
     new-instance v6, Lcom/mopub/mobileads/MoPubErrorCode;
 
     const-string v15, "MISSING_AD_UNIT_ID"
@@ -261,7 +249,6 @@
 
     sput-object v6, Lcom/mopub/mobileads/MoPubErrorCode;->MISSING_AD_UNIT_ID:Lcom/mopub/mobileads/MoPubErrorCode;
 
-    .line 13
     new-instance v4, Lcom/mopub/mobileads/MoPubErrorCode;
 
     const-string v15, "NO_CONNECTION"
@@ -274,7 +261,6 @@
 
     sput-object v4, Lcom/mopub/mobileads/MoPubErrorCode;->NO_CONNECTION:Lcom/mopub/mobileads/MoPubErrorCode;
 
-    .line 14
     new-instance v2, Lcom/mopub/mobileads/MoPubErrorCode;
 
     const-string v15, "ADAPTER_NOT_FOUND"
@@ -289,7 +275,6 @@
 
     sput-object v2, Lcom/mopub/mobileads/MoPubErrorCode;->ADAPTER_NOT_FOUND:Lcom/mopub/mobileads/MoPubErrorCode;
 
-    .line 15
     new-instance v4, Lcom/mopub/mobileads/MoPubErrorCode;
 
     const-string v15, "ADAPTER_CONFIGURATION_ERROR"
@@ -304,7 +289,6 @@
 
     sput-object v4, Lcom/mopub/mobileads/MoPubErrorCode;->ADAPTER_CONFIGURATION_ERROR:Lcom/mopub/mobileads/MoPubErrorCode;
 
-    .line 16
     new-instance v2, Lcom/mopub/mobileads/MoPubErrorCode;
 
     const-string v15, "ADAPTER_INITIALIZATION_SUCCESS"
@@ -319,7 +303,6 @@
 
     sput-object v2, Lcom/mopub/mobileads/MoPubErrorCode;->ADAPTER_INITIALIZATION_SUCCESS:Lcom/mopub/mobileads/MoPubErrorCode;
 
-    .line 17
     new-instance v4, Lcom/mopub/mobileads/MoPubErrorCode;
 
     const-string v15, "EXPIRED"
@@ -334,7 +317,6 @@
 
     sput-object v4, Lcom/mopub/mobileads/MoPubErrorCode;->EXPIRED:Lcom/mopub/mobileads/MoPubErrorCode;
 
-    .line 18
     new-instance v2, Lcom/mopub/mobileads/MoPubErrorCode;
 
     const-string v15, "NETWORK_TIMEOUT"
@@ -349,7 +331,6 @@
 
     sput-object v2, Lcom/mopub/mobileads/MoPubErrorCode;->NETWORK_TIMEOUT:Lcom/mopub/mobileads/MoPubErrorCode;
 
-    .line 19
     new-instance v4, Lcom/mopub/mobileads/MoPubErrorCode;
 
     const-string v15, "NETWORK_NO_FILL"
@@ -364,7 +345,6 @@
 
     sput-object v4, Lcom/mopub/mobileads/MoPubErrorCode;->NETWORK_NO_FILL:Lcom/mopub/mobileads/MoPubErrorCode;
 
-    .line 20
     new-instance v2, Lcom/mopub/mobileads/MoPubErrorCode;
 
     const-string v15, "NETWORK_INVALID_STATE"
@@ -379,7 +359,6 @@
 
     sput-object v2, Lcom/mopub/mobileads/MoPubErrorCode;->NETWORK_INVALID_STATE:Lcom/mopub/mobileads/MoPubErrorCode;
 
-    .line 21
     new-instance v4, Lcom/mopub/mobileads/MoPubErrorCode;
 
     const-string v15, "MRAID_LOAD_ERROR"
@@ -394,7 +373,6 @@
 
     sput-object v4, Lcom/mopub/mobileads/MoPubErrorCode;->MRAID_LOAD_ERROR:Lcom/mopub/mobileads/MoPubErrorCode;
 
-    .line 22
     new-instance v15, Lcom/mopub/mobileads/MoPubErrorCode;
 
     const-string v14, "HTML_LOAD_ERROR"
@@ -407,7 +385,6 @@
 
     sput-object v15, Lcom/mopub/mobileads/MoPubErrorCode;->HTML_LOAD_ERROR:Lcom/mopub/mobileads/MoPubErrorCode;
 
-    .line 23
     new-instance v2, Lcom/mopub/mobileads/MoPubErrorCode;
 
     const-string v4, "INLINE_LOAD_ERROR"
@@ -422,7 +399,6 @@
 
     sput-object v2, Lcom/mopub/mobileads/MoPubErrorCode;->INLINE_LOAD_ERROR:Lcom/mopub/mobileads/MoPubErrorCode;
 
-    .line 24
     new-instance v4, Lcom/mopub/mobileads/MoPubErrorCode;
 
     const-string v14, "FULLSCREEN_LOAD_ERROR"
@@ -437,7 +413,6 @@
 
     sput-object v4, Lcom/mopub/mobileads/MoPubErrorCode;->FULLSCREEN_LOAD_ERROR:Lcom/mopub/mobileads/MoPubErrorCode;
 
-    .line 25
     new-instance v2, Lcom/mopub/mobileads/MoPubErrorCode;
 
     const-string v14, "INLINE_SHOW_ERROR"
@@ -452,7 +427,6 @@
 
     sput-object v2, Lcom/mopub/mobileads/MoPubErrorCode;->INLINE_SHOW_ERROR:Lcom/mopub/mobileads/MoPubErrorCode;
 
-    .line 26
     new-instance v4, Lcom/mopub/mobileads/MoPubErrorCode;
 
     const-string v14, "FULLSCREEN_SHOW_ERROR"
@@ -467,7 +441,6 @@
 
     sput-object v4, Lcom/mopub/mobileads/MoPubErrorCode;->FULLSCREEN_SHOW_ERROR:Lcom/mopub/mobileads/MoPubErrorCode;
 
-    .line 27
     new-instance v2, Lcom/mopub/mobileads/MoPubErrorCode;
 
     const-string v14, "VIDEO_CACHE_ERROR"
@@ -482,7 +455,6 @@
 
     sput-object v2, Lcom/mopub/mobileads/MoPubErrorCode;->VIDEO_CACHE_ERROR:Lcom/mopub/mobileads/MoPubErrorCode;
 
-    .line 28
     new-instance v4, Lcom/mopub/mobileads/MoPubErrorCode;
 
     const-string v14, "VIDEO_DOWNLOAD_ERROR"
@@ -497,7 +469,6 @@
 
     sput-object v4, Lcom/mopub/mobileads/MoPubErrorCode;->VIDEO_DOWNLOAD_ERROR:Lcom/mopub/mobileads/MoPubErrorCode;
 
-    .line 29
     new-instance v2, Lcom/mopub/mobileads/MoPubErrorCode;
 
     const-string v14, "GDPR_DOES_NOT_APPLY"
@@ -512,7 +483,6 @@
 
     sput-object v2, Lcom/mopub/mobileads/MoPubErrorCode;->GDPR_DOES_NOT_APPLY:Lcom/mopub/mobileads/MoPubErrorCode;
 
-    .line 30
     new-instance v4, Lcom/mopub/mobileads/MoPubErrorCode;
 
     const-string v14, "REWARDED_CURRENCIES_PARSING_ERROR"
@@ -527,7 +497,6 @@
 
     sput-object v4, Lcom/mopub/mobileads/MoPubErrorCode;->REWARDED_CURRENCIES_PARSING_ERROR:Lcom/mopub/mobileads/MoPubErrorCode;
 
-    .line 31
     new-instance v2, Lcom/mopub/mobileads/MoPubErrorCode;
 
     const-string v14, "REWARD_NOT_SELECTED"
@@ -542,7 +511,6 @@
 
     sput-object v2, Lcom/mopub/mobileads/MoPubErrorCode;->REWARD_NOT_SELECTED:Lcom/mopub/mobileads/MoPubErrorCode;
 
-    .line 32
     new-instance v4, Lcom/mopub/mobileads/MoPubErrorCode;
 
     const-string v14, "AD_NOT_AVAILABLE"
@@ -557,7 +525,6 @@
 
     sput-object v4, Lcom/mopub/mobileads/MoPubErrorCode;->AD_NOT_AVAILABLE:Lcom/mopub/mobileads/MoPubErrorCode;
 
-    .line 33
     new-instance v2, Lcom/mopub/mobileads/MoPubErrorCode;
 
     const-string v14, "AD_SHOW_ERROR"
@@ -572,7 +539,6 @@
 
     sput-object v2, Lcom/mopub/mobileads/MoPubErrorCode;->AD_SHOW_ERROR:Lcom/mopub/mobileads/MoPubErrorCode;
 
-    .line 34
     new-instance v4, Lcom/mopub/mobileads/MoPubErrorCode;
 
     const-string v14, "VIDEO_NOT_AVAILABLE"
@@ -587,7 +553,6 @@
 
     sput-object v4, Lcom/mopub/mobileads/MoPubErrorCode;->VIDEO_NOT_AVAILABLE:Lcom/mopub/mobileads/MoPubErrorCode;
 
-    .line 35
     new-instance v2, Lcom/mopub/mobileads/MoPubErrorCode;
 
     const-string v14, "VIDEO_PLAYBACK_ERROR"
@@ -746,7 +711,6 @@
 
     aput-object v2, v4, v0
 
-    .line 36
     sput-object v4, Lcom/mopub/mobileads/MoPubErrorCode;->$VALUES:[Lcom/mopub/mobileads/MoPubErrorCode;
 
     return-void
@@ -762,10 +726,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 2
     iput-object p3, p0, Lcom/mopub/mobileads/MoPubErrorCode;->message:Ljava/lang/String;
 
     return-void
@@ -774,7 +736,6 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/mopub/mobileads/MoPubErrorCode;
     .locals 1
 
-    .line 1
     const-class v0, Lcom/mopub/mobileads/MoPubErrorCode;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -789,7 +750,6 @@
 .method public static values()[Lcom/mopub/mobileads/MoPubErrorCode;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/mopub/mobileads/MoPubErrorCode;->$VALUES:[Lcom/mopub/mobileads/MoPubErrorCode;
 
     invoke-virtual {v0}, [Lcom/mopub/mobileads/MoPubErrorCode;->clone()Ljava/lang/Object;
@@ -806,7 +766,6 @@
 .method public getIntCode()I
     .locals 3
 
-    .line 1
     sget-object v0, Lcom/mopub/mobileads/MoPubErrorCode$1;->$SwitchMap$com$mopub$mobileads$MoPubErrorCode:[I
 
     invoke-virtual {p0}, Ljava/lang/Enum;->ordinal()I
@@ -846,7 +805,6 @@
 .method public toString()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/mobileads/MoPubErrorCode;->message:Ljava/lang/String;
 
     return-object v0

@@ -31,7 +31,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     const-class v1, Lcom/meitu/widget/layeredimageview/c;
 
     invoke-virtual {v1}, Ljava/lang/Class;->getName()Ljava/lang/String;
@@ -48,10 +47,8 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     new-instance v0, Ljava/util/LinkedHashMap;
 
     invoke-direct {v0}, Ljava/util/LinkedHashMap;-><init>()V
@@ -70,7 +67,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/widget/layeredimageview/c;->a:Ljava/util/LinkedHashMap;
 
     invoke-virtual {v1}, Ljava/util/LinkedHashMap;->entrySet()Ljava/util/Set;
@@ -94,19 +90,16 @@
 
     check-cast v2, Ljava/util/Map$Entry;
 
-    .line 2
     invoke-interface {v2}, Ljava/util/Map$Entry;->getValue()Ljava/lang/Object;
 
     move-result-object v2
 
     check-cast v2, Lcom/meitu/widget/layeredimageview/layer/a;
 
-    .line 3
     invoke-virtual {v2, p1}, Lcom/meitu/widget/layeredimageview/layer/a;->a(Lcom/meitu/widget/layeredimageview/a;)V
 
     goto :goto_0
 
-    .line 4
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -120,7 +113,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/widget/layeredimageview/c;->a:Ljava/util/LinkedHashMap;
 
     invoke-virtual {v1}, Ljava/util/LinkedHashMap;->entrySet()Ljava/util/Set;
@@ -146,14 +138,12 @@
 
     check-cast v3, Ljava/util/Map$Entry;
 
-    .line 2
     invoke-interface {v3}, Ljava/util/Map$Entry;->getValue()Ljava/lang/Object;
 
     move-result-object v3
 
     check-cast v3, Lcom/meitu/widget/layeredimageview/layer/a;
 
-    .line 3
     invoke-virtual {v3, p1}, Lcom/meitu/widget/layeredimageview/layer/a;->b(Lcom/meitu/widget/layeredimageview/a;)Z
 
     move-result v3
@@ -162,7 +152,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -176,7 +165,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/widget/layeredimageview/c;->a:Ljava/util/LinkedHashMap;
 
     invoke-virtual {v1}, Ljava/util/LinkedHashMap;->entrySet()Ljava/util/Set;
@@ -201,7 +189,6 @@
 
     check-cast v2, Ljava/util/Map$Entry;
 
-    .line 2
     invoke-interface {v2}, Ljava/util/Map$Entry;->getValue()Ljava/lang/Object;
 
     move-result-object v2
@@ -210,12 +197,10 @@
 
     if-eqz v2, :cond_0
 
-    .line 3
     invoke-virtual {v2, p1}, Lcom/meitu/widget/layeredimageview/layer/a;->c(Landroid/graphics/Canvas;)V
 
     goto :goto_0
 
-    .line 4
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -229,7 +214,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/widget/layeredimageview/c;->a:Ljava/util/LinkedHashMap;
 
     invoke-virtual {v1}, Ljava/util/LinkedHashMap;->entrySet()Ljava/util/Set;
@@ -255,14 +239,12 @@
 
     check-cast v3, Ljava/util/Map$Entry;
 
-    .line 2
     invoke-interface {v3}, Ljava/util/Map$Entry;->getValue()Ljava/lang/Object;
 
     move-result-object v3
 
     check-cast v3, Lcom/meitu/widget/layeredimageview/layer/a;
 
-    .line 3
     invoke-virtual {v3, p1}, Lcom/meitu/widget/layeredimageview/layer/a;->canScrollHorizontally(I)Z
 
     move-result v3
@@ -271,7 +253,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -285,7 +266,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/widget/layeredimageview/c;->a:Ljava/util/LinkedHashMap;
 
     invoke-virtual {v1}, Ljava/util/LinkedHashMap;->entrySet()Ljava/util/Set;
@@ -311,14 +291,12 @@
 
     check-cast v3, Ljava/util/Map$Entry;
 
-    .line 2
     invoke-interface {v3}, Ljava/util/Map$Entry;->getValue()Ljava/lang/Object;
 
     move-result-object v3
 
     check-cast v3, Lcom/meitu/widget/layeredimageview/layer/a;
 
-    .line 3
     invoke-virtual {v3, p1}, Lcom/meitu/widget/layeredimageview/layer/a;->canScrollVertically(I)Z
 
     move-result v3
@@ -327,7 +305,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -341,7 +318,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/widget/layeredimageview/c;->a:Ljava/util/LinkedHashMap;
 
     invoke-virtual {v1}, Ljava/util/LinkedHashMap;->entrySet()Ljava/util/Set;
@@ -367,14 +343,12 @@
 
     check-cast v3, Ljava/util/Map$Entry;
 
-    .line 2
     invoke-interface {v3}, Ljava/util/Map$Entry;->getValue()Ljava/lang/Object;
 
     move-result-object v3
 
     check-cast v3, Lcom/meitu/widget/layeredimageview/layer/a;
 
-    .line 3
     invoke-virtual {v3, p1}, Lcom/meitu/widget/layeredimageview/layer/a;->d(Lcom/meitu/widget/layeredimageview/a;)Z
 
     move-result v3
@@ -383,7 +357,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -397,12 +370,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/widget/layeredimageview/c;->a:Ljava/util/LinkedHashMap;
 
     invoke-virtual {v1, p1, p2}, Ljava/util/LinkedHashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -415,12 +386,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/widget/layeredimageview/c;->a:Ljava/util/LinkedHashMap;
 
     invoke-virtual {v1}, Ljava/util/LinkedHashMap;->clear()V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -433,7 +402,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/widget/layeredimageview/c;->a:Ljava/util/LinkedHashMap;
 
     invoke-virtual {v1}, Ljava/util/LinkedHashMap;->entrySet()Ljava/util/Set;
@@ -458,7 +426,6 @@
 
     check-cast v2, Ljava/util/Map$Entry;
 
-    .line 2
     invoke-interface {v2}, Ljava/util/Map$Entry;->getValue()Ljava/lang/Object;
 
     move-result-object v2
@@ -469,12 +436,10 @@
 
     const/4 v3, 0x0
 
-    .line 3
     invoke-virtual {v2, v3}, Lcom/meitu/widget/layeredimageview/layer/a;->g(Z)V
 
     goto :goto_0
 
-    .line 4
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -488,7 +453,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/widget/layeredimageview/c;->a:Ljava/util/LinkedHashMap;
 
     invoke-virtual {v1}, Ljava/util/LinkedHashMap;->entrySet()Ljava/util/Set;
@@ -513,7 +477,6 @@
 
     check-cast v2, Ljava/util/Map$Entry;
 
-    .line 2
     invoke-interface {v2}, Ljava/util/Map$Entry;->getValue()Ljava/lang/Object;
 
     move-result-object v2
@@ -524,12 +487,10 @@
 
     const/4 v3, 0x1
 
-    .line 3
     invoke-virtual {v2, v3}, Lcom/meitu/widget/layeredimageview/layer/a;->g(Z)V
 
     goto :goto_0
 
-    .line 4
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -554,7 +515,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/widget/layeredimageview/c;->a:Ljava/util/LinkedHashMap;
 
     invoke-virtual {v1, p2}, Ljava/util/LinkedHashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
@@ -565,14 +525,12 @@
 
     if-eqz p2, :cond_0
 
-    .line 2
     invoke-virtual {p1, p2}, Ljava/lang/Class;->isInstance(Ljava/lang/Object;)Z
 
     move-result v1
 
     if-eqz v1, :cond_0
 
-    .line 3
     invoke-virtual {p1, p2}, Ljava/lang/Class;->cast(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -586,7 +544,6 @@
     :cond_0
     const/4 p1, 0x0
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p1
@@ -599,7 +556,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/widget/layeredimageview/c;->a:Ljava/util/LinkedHashMap;
 
     invoke-virtual {v1, p1}, Ljava/util/LinkedHashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
@@ -610,7 +566,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 2
     invoke-virtual {p1}, Lcom/meitu/widget/layeredimageview/layer/a;->f()Z
 
     move-result p1
@@ -637,7 +592,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/widget/layeredimageview/c;->a:Ljava/util/LinkedHashMap;
 
     invoke-virtual {v1, p1}, Ljava/util/LinkedHashMap;->remove(Ljava/lang/Object;)Ljava/lang/Object;
@@ -658,7 +612,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/widget/layeredimageview/c;->a:Ljava/util/LinkedHashMap;
 
     invoke-virtual {v1, p1}, Ljava/util/LinkedHashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
@@ -669,10 +622,8 @@
 
     if-eqz p1, :cond_0
 
-    .line 2
     invoke-virtual {p1, p2}, Lcom/meitu/widget/layeredimageview/layer/a;->g(Z)V
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -686,7 +637,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/widget/layeredimageview/c;->a:Ljava/util/LinkedHashMap;
 
     invoke-virtual {v1}, Ljava/util/LinkedHashMap;->entrySet()Ljava/util/Set;
@@ -710,19 +660,16 @@
 
     check-cast v2, Ljava/util/Map$Entry;
 
-    .line 2
     invoke-interface {v2}, Ljava/util/Map$Entry;->getValue()Ljava/lang/Object;
 
     move-result-object v2
 
     check-cast v2, Lcom/meitu/widget/layeredimageview/layer/a;
 
-    .line 3
     invoke-virtual {v2, p1, p2}, Lcom/meitu/widget/layeredimageview/layer/a;->onCancel(Landroid/graphics/PointF;Landroid/view/MotionEvent;)V
 
     goto :goto_0
 
-    .line 4
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -736,7 +683,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/widget/layeredimageview/c;->a:Ljava/util/LinkedHashMap;
 
     invoke-virtual {v1}, Ljava/util/LinkedHashMap;->entrySet()Ljava/util/Set;
@@ -762,14 +708,12 @@
 
     check-cast v3, Ljava/util/Map$Entry;
 
-    .line 2
     invoke-interface {v3}, Ljava/util/Map$Entry;->getValue()Ljava/lang/Object;
 
     move-result-object v3
 
     check-cast v3, Lcom/meitu/widget/layeredimageview/layer/a;
 
-    .line 3
     invoke-virtual {v3, p1, p2, p3}, Lcom/meitu/widget/layeredimageview/layer/a;->onDoubleTap(Landroid/view/MotionEvent;Landroid/view/MotionEvent;Landroid/view/MotionEvent;)Z
 
     move-result v3
@@ -778,7 +722,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -792,7 +735,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/widget/layeredimageview/c;->a:Ljava/util/LinkedHashMap;
 
     invoke-virtual {v1}, Ljava/util/LinkedHashMap;->entrySet()Ljava/util/Set;
@@ -818,14 +760,12 @@
 
     check-cast v3, Ljava/util/Map$Entry;
 
-    .line 2
     invoke-interface {v3}, Ljava/util/Map$Entry;->getValue()Ljava/lang/Object;
 
     move-result-object v3
 
     check-cast v3, Lcom/meitu/widget/layeredimageview/layer/a;
 
-    .line 3
     invoke-virtual {v3, p1}, Lcom/meitu/widget/layeredimageview/layer/a;->onDown(Landroid/view/MotionEvent;)Z
 
     move-result v3
@@ -834,7 +774,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -848,7 +787,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/widget/layeredimageview/c;->a:Ljava/util/LinkedHashMap;
 
     invoke-virtual {v1}, Ljava/util/LinkedHashMap;->entrySet()Ljava/util/Set;
@@ -874,14 +812,12 @@
 
     check-cast v3, Ljava/util/Map$Entry;
 
-    .line 2
     invoke-interface {v3}, Ljava/util/Map$Entry;->getValue()Ljava/lang/Object;
 
     move-result-object v3
 
     check-cast v3, Lcom/meitu/widget/layeredimageview/layer/a;
 
-    .line 3
     invoke-virtual {v3, p1, p2, p3, p4}, Lcom/meitu/widget/layeredimageview/layer/a;->onFling(Landroid/view/MotionEvent;Landroid/view/MotionEvent;FF)Z
 
     move-result v3
@@ -890,7 +826,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -904,7 +839,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/widget/layeredimageview/c;->a:Ljava/util/LinkedHashMap;
 
     invoke-virtual {v1}, Ljava/util/LinkedHashMap;->entrySet()Ljava/util/Set;
@@ -930,14 +864,12 @@
 
     check-cast v3, Ljava/util/Map$Entry;
 
-    .line 2
     invoke-interface {v3}, Ljava/util/Map$Entry;->getValue()Ljava/lang/Object;
 
     move-result-object v3
 
     check-cast v3, Lcom/meitu/widget/layeredimageview/layer/a;
 
-    .line 3
     invoke-virtual {v3, p1, p2, p3, p4}, Lcom/meitu/widget/layeredimageview/layer/a;->onFlingFromBottomToTop(Landroid/view/MotionEvent;Landroid/view/MotionEvent;FF)Z
 
     move-result v3
@@ -946,7 +878,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -960,7 +891,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/widget/layeredimageview/c;->a:Ljava/util/LinkedHashMap;
 
     invoke-virtual {v1}, Ljava/util/LinkedHashMap;->entrySet()Ljava/util/Set;
@@ -986,14 +916,12 @@
 
     check-cast v3, Ljava/util/Map$Entry;
 
-    .line 2
     invoke-interface {v3}, Ljava/util/Map$Entry;->getValue()Ljava/lang/Object;
 
     move-result-object v3
 
     check-cast v3, Lcom/meitu/widget/layeredimageview/layer/a;
 
-    .line 3
     invoke-virtual {v3, p1, p2, p3, p4}, Lcom/meitu/widget/layeredimageview/layer/a;->onFlingFromLeftToRight(Landroid/view/MotionEvent;Landroid/view/MotionEvent;FF)Z
 
     move-result v3
@@ -1002,7 +930,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1016,7 +943,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/widget/layeredimageview/c;->a:Ljava/util/LinkedHashMap;
 
     invoke-virtual {v1}, Ljava/util/LinkedHashMap;->entrySet()Ljava/util/Set;
@@ -1042,14 +968,12 @@
 
     check-cast v3, Ljava/util/Map$Entry;
 
-    .line 2
     invoke-interface {v3}, Ljava/util/Map$Entry;->getValue()Ljava/lang/Object;
 
     move-result-object v3
 
     check-cast v3, Lcom/meitu/widget/layeredimageview/layer/a;
 
-    .line 3
     invoke-virtual {v3, p1, p2, p3, p4}, Lcom/meitu/widget/layeredimageview/layer/a;->onFlingFromRightToLeft(Landroid/view/MotionEvent;Landroid/view/MotionEvent;FF)Z
 
     move-result v3
@@ -1058,7 +982,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1072,7 +995,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/widget/layeredimageview/c;->a:Ljava/util/LinkedHashMap;
 
     invoke-virtual {v1}, Ljava/util/LinkedHashMap;->entrySet()Ljava/util/Set;
@@ -1098,14 +1020,12 @@
 
     check-cast v3, Ljava/util/Map$Entry;
 
-    .line 2
     invoke-interface {v3}, Ljava/util/Map$Entry;->getValue()Ljava/lang/Object;
 
     move-result-object v3
 
     check-cast v3, Lcom/meitu/widget/layeredimageview/layer/a;
 
-    .line 3
     invoke-virtual {v3, p1, p2, p3, p4}, Lcom/meitu/widget/layeredimageview/layer/a;->onFlingFromTopToBottom(Landroid/view/MotionEvent;Landroid/view/MotionEvent;FF)Z
 
     move-result v3
@@ -1114,7 +1034,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1128,7 +1047,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/widget/layeredimageview/c;->a:Ljava/util/LinkedHashMap;
 
     invoke-virtual {v1}, Ljava/util/LinkedHashMap;->entrySet()Ljava/util/Set;
@@ -1152,19 +1070,16 @@
 
     check-cast v2, Ljava/util/Map$Entry;
 
-    .line 2
     invoke-interface {v2}, Ljava/util/Map$Entry;->getValue()Ljava/lang/Object;
 
     move-result-object v2
 
     check-cast v2, Lcom/meitu/widget/layeredimageview/layer/a;
 
-    .line 3
     invoke-virtual {v2, p1}, Lcom/meitu/widget/layeredimageview/layer/a;->onLongPress(Landroid/view/MotionEvent;)V
 
     goto :goto_0
 
-    .line 4
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1178,7 +1093,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/widget/layeredimageview/c;->a:Ljava/util/LinkedHashMap;
 
     invoke-virtual {v1}, Ljava/util/LinkedHashMap;->entrySet()Ljava/util/Set;
@@ -1204,14 +1118,12 @@
 
     check-cast v3, Ljava/util/Map$Entry;
 
-    .line 2
     invoke-interface {v3}, Ljava/util/Map$Entry;->getValue()Ljava/lang/Object;
 
     move-result-object v3
 
     check-cast v3, Lcom/meitu/widget/layeredimageview/layer/a;
 
-    .line 3
     invoke-virtual {v3, p1}, Lcom/meitu/widget/layeredimageview/layer/a;->onLongPressUp(Landroid/view/MotionEvent;)Z
 
     move-result v3
@@ -1220,7 +1132,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1234,7 +1145,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/widget/layeredimageview/c;->a:Ljava/util/LinkedHashMap;
 
     invoke-virtual {v1}, Ljava/util/LinkedHashMap;->entrySet()Ljava/util/Set;
@@ -1260,14 +1170,12 @@
 
     check-cast v3, Ljava/util/Map$Entry;
 
-    .line 2
     invoke-interface {v3}, Ljava/util/Map$Entry;->getValue()Ljava/lang/Object;
 
     move-result-object v3
 
     check-cast v3, Lcom/meitu/widget/layeredimageview/layer/a;
 
-    .line 3
     invoke-virtual {v3, p1}, Lcom/meitu/widget/layeredimageview/layer/a;->onMajorFingerDown(Landroid/view/MotionEvent;)Z
 
     move-result v3
@@ -1276,7 +1184,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1290,7 +1197,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/widget/layeredimageview/c;->a:Ljava/util/LinkedHashMap;
 
     invoke-virtual {v1}, Ljava/util/LinkedHashMap;->entrySet()Ljava/util/Set;
@@ -1316,14 +1222,12 @@
 
     check-cast v3, Ljava/util/Map$Entry;
 
-    .line 2
     invoke-interface {v3}, Ljava/util/Map$Entry;->getValue()Ljava/lang/Object;
 
     move-result-object v3
 
     check-cast v3, Lcom/meitu/widget/layeredimageview/layer/a;
 
-    .line 3
     invoke-virtual {v3, p1}, Lcom/meitu/widget/layeredimageview/layer/a;->onMajorFingerUp(Landroid/view/MotionEvent;)Z
 
     move-result v3
@@ -1332,7 +1236,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1346,7 +1249,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/widget/layeredimageview/c;->a:Ljava/util/LinkedHashMap;
 
     invoke-virtual {v1}, Ljava/util/LinkedHashMap;->entrySet()Ljava/util/Set;
@@ -1372,14 +1274,12 @@
 
     check-cast v3, Ljava/util/Map$Entry;
 
-    .line 2
     invoke-interface {v3}, Ljava/util/Map$Entry;->getValue()Ljava/lang/Object;
 
     move-result-object v3
 
     check-cast v3, Lcom/meitu/widget/layeredimageview/layer/a;
 
-    .line 3
     invoke-virtual {v3, p1, p2, p3, p4}, Lcom/meitu/widget/layeredimageview/layer/a;->onMajorScroll(Landroid/view/MotionEvent;Landroid/view/MotionEvent;FF)Z
 
     move-result v3
@@ -1388,7 +1288,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1402,7 +1301,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/widget/layeredimageview/c;->a:Ljava/util/LinkedHashMap;
 
     invoke-virtual {v1}, Ljava/util/LinkedHashMap;->entrySet()Ljava/util/Set;
@@ -1427,7 +1325,6 @@
 
     check-cast v2, Ljava/util/Map$Entry;
 
-    .line 2
     invoke-interface {v2}, Ljava/util/Map$Entry;->getValue()Ljava/lang/Object;
 
     move-result-object v2
@@ -1436,12 +1333,10 @@
 
     if-eqz v2, :cond_0
 
-    .line 3
     invoke-virtual {v2, p1, p2}, Lcom/meitu/widget/layeredimageview/layer/a;->onMeasure(II)V
 
     goto :goto_0
 
-    .line 4
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1455,7 +1350,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/widget/layeredimageview/c;->a:Ljava/util/LinkedHashMap;
 
     invoke-virtual {v1}, Ljava/util/LinkedHashMap;->entrySet()Ljava/util/Set;
@@ -1481,14 +1375,12 @@
 
     check-cast v3, Ljava/util/Map$Entry;
 
-    .line 2
     invoke-interface {v3}, Ljava/util/Map$Entry;->getValue()Ljava/lang/Object;
 
     move-result-object v3
 
     check-cast v3, Lcom/meitu/widget/layeredimageview/layer/a;
 
-    .line 3
     invoke-virtual {v3, p1}, Lcom/meitu/widget/layeredimageview/layer/a;->onMinorFingerDown(Landroid/view/MotionEvent;)Z
 
     move-result v3
@@ -1497,7 +1389,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1511,7 +1402,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/widget/layeredimageview/c;->a:Ljava/util/LinkedHashMap;
 
     invoke-virtual {v1}, Ljava/util/LinkedHashMap;->entrySet()Ljava/util/Set;
@@ -1537,14 +1427,12 @@
 
     check-cast v3, Ljava/util/Map$Entry;
 
-    .line 2
     invoke-interface {v3}, Ljava/util/Map$Entry;->getValue()Ljava/lang/Object;
 
     move-result-object v3
 
     check-cast v3, Lcom/meitu/widget/layeredimageview/layer/a;
 
-    .line 3
     invoke-virtual {v3, p1}, Lcom/meitu/widget/layeredimageview/layer/a;->onMinorFingerUp(Landroid/view/MotionEvent;)Z
 
     move-result v3
@@ -1553,7 +1441,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1567,7 +1454,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/widget/layeredimageview/c;->a:Ljava/util/LinkedHashMap;
 
     invoke-virtual {v1}, Ljava/util/LinkedHashMap;->entrySet()Ljava/util/Set;
@@ -1593,14 +1479,12 @@
 
     check-cast v3, Ljava/util/Map$Entry;
 
-    .line 2
     invoke-interface {v3}, Ljava/util/Map$Entry;->getValue()Ljava/lang/Object;
 
     move-result-object v3
 
     check-cast v3, Lcom/meitu/widget/layeredimageview/layer/a;
 
-    .line 3
     invoke-virtual {v3, p1, p2, p3, p4}, Lcom/meitu/widget/layeredimageview/layer/a;->onScroll(Landroid/view/MotionEvent;Landroid/view/MotionEvent;FF)Z
 
     move-result v3
@@ -1609,7 +1493,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1623,7 +1506,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/widget/layeredimageview/c;->a:Ljava/util/LinkedHashMap;
 
     invoke-virtual {v1}, Ljava/util/LinkedHashMap;->entrySet()Ljava/util/Set;
@@ -1647,19 +1529,16 @@
 
     check-cast v2, Ljava/util/Map$Entry;
 
-    .line 2
     invoke-interface {v2}, Ljava/util/Map$Entry;->getValue()Ljava/lang/Object;
 
     move-result-object v2
 
     check-cast v2, Lcom/meitu/widget/layeredimageview/layer/a;
 
-    .line 3
     invoke-virtual {v2, p1}, Lcom/meitu/widget/layeredimageview/layer/a;->onShowPress(Landroid/view/MotionEvent;)V
 
     goto :goto_0
 
-    .line 4
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1673,7 +1552,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/widget/layeredimageview/c;->a:Ljava/util/LinkedHashMap;
 
     invoke-virtual {v1}, Ljava/util/LinkedHashMap;->entrySet()Ljava/util/Set;
@@ -1697,19 +1575,16 @@
 
     check-cast v2, Ljava/util/Map$Entry;
 
-    .line 2
     invoke-interface {v2}, Ljava/util/Map$Entry;->getValue()Ljava/lang/Object;
 
     move-result-object v2
 
     check-cast v2, Lcom/meitu/widget/layeredimageview/layer/a;
 
-    .line 3
     invoke-virtual {v2, p1, p2}, Lcom/meitu/widget/layeredimageview/layer/a;->onSingleTap(Landroid/view/MotionEvent;Landroid/view/MotionEvent;)V
 
     goto :goto_0
 
-    .line 4
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1723,7 +1598,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/widget/layeredimageview/c;->a:Ljava/util/LinkedHashMap;
 
     invoke-virtual {v1}, Ljava/util/LinkedHashMap;->entrySet()Ljava/util/Set;
@@ -1748,7 +1622,6 @@
 
     check-cast v2, Ljava/util/Map$Entry;
 
-    .line 2
     invoke-interface {v2}, Ljava/util/Map$Entry;->getValue()Ljava/lang/Object;
 
     move-result-object v2
@@ -1757,12 +1630,10 @@
 
     if-eqz v2, :cond_0
 
-    .line 3
     invoke-virtual {v2, p1, p2, p3, p4}, Lcom/meitu/widget/layeredimageview/layer/a;->onSizeChanged(IIII)V
 
     goto :goto_0
 
-    .line 4
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1776,7 +1647,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/widget/layeredimageview/c;->a:Ljava/util/LinkedHashMap;
 
     invoke-virtual {v1}, Ljava/util/LinkedHashMap;->entrySet()Ljava/util/Set;
@@ -1802,14 +1672,12 @@
 
     check-cast v3, Ljava/util/Map$Entry;
 
-    .line 2
     invoke-interface {v3}, Ljava/util/Map$Entry;->getValue()Ljava/lang/Object;
 
     move-result-object v3
 
     check-cast v3, Lcom/meitu/widget/layeredimageview/layer/a;
 
-    .line 3
     invoke-virtual {v3, p1, p2}, Lcom/meitu/widget/layeredimageview/layer/a;->onTap(Landroid/view/MotionEvent;Landroid/view/MotionEvent;)Z
 
     move-result v3
@@ -1818,7 +1686,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1832,7 +1699,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/widget/layeredimageview/c;->a:Ljava/util/LinkedHashMap;
 
     invoke-virtual {v1}, Ljava/util/LinkedHashMap;->entrySet()Ljava/util/Set;
@@ -1857,7 +1723,6 @@
 
     check-cast v2, Ljava/util/Map$Entry;
 
-    .line 2
     invoke-interface {v2}, Ljava/util/Map$Entry;->getValue()Ljava/lang/Object;
 
     move-result-object v2
@@ -1866,12 +1731,10 @@
 
     if-eqz v2, :cond_0
 
-    .line 3
     invoke-virtual {v2, p1}, Lcom/meitu/widget/layeredimageview/layer/a;->setImageBitmap(Landroid/graphics/Bitmap;)V
 
     goto :goto_0
 
-    .line 4
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1885,7 +1748,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/widget/layeredimageview/c;->a:Ljava/util/LinkedHashMap;
 
     invoke-virtual {v1}, Ljava/util/LinkedHashMap;->entrySet()Ljava/util/Set;
@@ -1910,7 +1772,6 @@
 
     check-cast v2, Ljava/util/Map$Entry;
 
-    .line 2
     invoke-interface {v2}, Ljava/util/Map$Entry;->getValue()Ljava/lang/Object;
 
     move-result-object v2
@@ -1919,12 +1780,10 @@
 
     if-eqz v2, :cond_0
 
-    .line 3
     invoke-virtual {v2, p1}, Lcom/meitu/widget/layeredimageview/layer/a;->setImageDrawable(Landroid/graphics/drawable/Drawable;)V
 
     goto :goto_0
 
-    .line 4
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1938,7 +1797,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/widget/layeredimageview/c;->a:Ljava/util/LinkedHashMap;
 
     invoke-virtual {v1}, Ljava/util/LinkedHashMap;->entrySet()Ljava/util/Set;
@@ -1963,7 +1821,6 @@
 
     check-cast v2, Ljava/util/Map$Entry;
 
-    .line 2
     invoke-interface {v2}, Ljava/util/Map$Entry;->getValue()Ljava/lang/Object;
 
     move-result-object v2
@@ -1972,12 +1829,10 @@
 
     if-eqz v2, :cond_0
 
-    .line 3
     invoke-virtual {v2, p1}, Lcom/meitu/widget/layeredimageview/layer/a;->setImageMatrix(Landroid/graphics/Matrix;)V
 
     goto :goto_0
 
-    .line 4
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

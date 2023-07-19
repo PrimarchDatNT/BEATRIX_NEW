@@ -30,12 +30,10 @@
 
     mul-int v1, v0, v0
 
-    .line 1
     sput v1, Lcom/kwai/koom/javaoom/common/c$c;->b:I
 
     mul-int/lit16 v1, v1, 0x400
 
-    .line 2
     sput v1, Lcom/kwai/koom/javaoom/common/c$c;->c:I
 
     return-void
@@ -44,7 +42,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void

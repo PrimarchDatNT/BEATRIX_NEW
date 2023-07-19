@@ -27,7 +27,6 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
     new-instance v0, Lcom/google/android/gms/internal/ads/hv0;
 
     invoke-direct {v0}, Lcom/google/android/gms/internal/ads/hv0;-><init>()V
@@ -40,16 +39,12 @@
 .method public constructor <init>(Lcom/google/android/gms/internal/ads/lv0;Lorg/json/JSONObject;Lcom/google/android/gms/internal/ads/ph;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/google/android/gms/internal/ads/ev0;->a:Lcom/google/android/gms/internal/ads/lv0;
 
-    .line 3
     iput-object p2, p0, Lcom/google/android/gms/internal/ads/ev0;->b:Lorg/json/JSONObject;
 
-    .line 4
     iput-object p3, p0, Lcom/google/android/gms/internal/ads/ev0;->c:Lcom/google/android/gms/internal/ads/ph;
 
     return-void

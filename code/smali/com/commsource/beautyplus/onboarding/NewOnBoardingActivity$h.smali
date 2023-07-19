@@ -32,7 +32,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity$h;->a:Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -49,7 +48,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -62,7 +60,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity$h;->a:Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity;
 
     invoke-static {v1}, Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity;->Q0(Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity;)Lcom/commsource/beautyplus/onboarding/BoardingViewModel;
@@ -75,7 +72,6 @@
 
     if-eqz v1, :cond_3
 
-    .line 2
     invoke-virtual {v1}, Lcom/commsource/beautyplus/onboarding/b/a;->d()Ljava/util/ArrayList;
 
     move-result-object v2
@@ -86,12 +82,10 @@
 
     if-gtz v2, :cond_0
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 4
     :cond_0
     div-int/lit8 p1, p1, 0x21
 
@@ -101,7 +95,6 @@
 
     const/4 p1, 0x1
 
-    .line 5
     :cond_1
     invoke-virtual {v1}, Lcom/commsource/beautyplus/onboarding/b/a;->d()Ljava/util/ArrayList;
 
@@ -125,14 +118,12 @@
 
     check-cast v2, Lcom/commsource/beautyplus/onboarding/b/b;
 
-    .line 6
     invoke-virtual {v2}, Lcom/commsource/beautyplus/onboarding/b/b;->e()I
 
     move-result v3
 
     if-ne p1, v3, :cond_2
 
-    .line 7
     iget-object v3, p0, Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity$h;->a:Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity;
 
     invoke-static {v3}, Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity;->P0(Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity;)Lcom/commsource/beautyplus/f0/s0;
@@ -149,7 +140,6 @@
 
     goto :goto_0
 
-    .line 8
     :cond_3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

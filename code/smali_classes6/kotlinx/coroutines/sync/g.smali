@@ -52,10 +52,8 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-direct {p0, p1, p2, p3}, Lcotlinx/coroutines/internal/z;-><init>(JLcotlinx/coroutines/internal/z;)V
 
-    .line 2
     new-instance p1, Ljava/util/concurrent/atomic/AtomicReferenceArray;
 
     invoke-static {}, Lcotlinx/coroutines/sync/SemaphoreKt;->h()I
@@ -68,7 +66,6 @@
 
     const/4 p1, 0x0
 
-    .line 3
     iput p1, p0, Lcotlinx/coroutines/sync/g;->cancelledSlots:I
 
     return-void
@@ -79,7 +76,6 @@
 .method public d()Z
     .locals 2
 
-    .line 1
     iget v0, p0, Lcotlinx/coroutines/sync/g;->cancelledSlots:I
 
     invoke-static {}, Lcotlinx/coroutines/sync/SemaphoreKt;->h()I
@@ -102,12 +98,10 @@
 .method public final h(I)Z
     .locals 2
 
-    .line 1
     invoke-static {}, Lcotlinx/coroutines/sync/SemaphoreKt;->f()Lcotlinx/coroutines/internal/c0;
 
     move-result-object v0
 
-    .line 2
     iget-object v1, p0, Lcotlinx/coroutines/sync/g;->d:Ljava/util/concurrent/atomic/AtomicReferenceArray;
 
     invoke-virtual {v1, p1, v0}, Ljava/util/concurrent/atomic/AtomicReferenceArray;->getAndSet(ILjava/lang/Object;)Ljava/lang/Object;
@@ -127,7 +121,6 @@
     :cond_0
     const/4 p1, 0x0
 
-    .line 3
     :goto_0
     sget-object v0, Lcotlinx/coroutines/sync/g;->e:Ljava/util/concurrent/atomic/AtomicIntegerFieldUpdater;
 
@@ -141,7 +134,6 @@
 
     if-ne v0, v1, :cond_1
 
-    .line 4
     invoke-virtual {p0}, Lcotlinx/coroutines/internal/z;->g()V
 
     :cond_1
@@ -159,7 +151,6 @@
         .end annotation
     .end param
 
-    .line 1
     iget-object v0, p0, Lcotlinx/coroutines/sync/g;->d:Ljava/util/concurrent/atomic/AtomicReferenceArray;
 
     invoke-virtual {v0, p1, p2, p3}, Ljava/util/concurrent/atomic/AtomicReferenceArray;->compareAndSet(ILjava/lang/Object;Ljava/lang/Object;)Z
@@ -174,7 +165,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcotlinx/coroutines/sync/g;->d:Ljava/util/concurrent/atomic/AtomicReferenceArray;
 
     invoke-virtual {v0, p1}, Ljava/util/concurrent/atomic/AtomicReferenceArray;->get(I)Ljava/lang/Object;
@@ -193,7 +183,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcotlinx/coroutines/sync/g;->d:Ljava/util/concurrent/atomic/AtomicReferenceArray;
 
     invoke-virtual {v0, p1, p2}, Ljava/util/concurrent/atomic/AtomicReferenceArray;->getAndSet(ILjava/lang/Object;)Ljava/lang/Object;
@@ -208,7 +197,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V

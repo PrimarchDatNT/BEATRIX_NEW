@@ -24,10 +24,8 @@
 .method private constructor <init>()V
     .locals 1
 
-    .line 2
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 3
     new-instance v0, Lcom/google/common/collect/MapMaker;
 
     invoke-direct {v0}, Lcom/google/common/collect/MapMaker;-><init>()V
@@ -36,7 +34,6 @@
 
     const/4 v0, 0x1
 
-    .line 4
     iput-boolean v0, p0, Lcom/google/common/collect/g1$b;->b:Z
 
     return-void
@@ -45,7 +42,6 @@
 .method synthetic constructor <init>(Lcom/google/common/collect/g1$a;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/google/common/collect/g1$b;-><init>()V
 
     return-void
@@ -65,17 +61,14 @@
         }
     .end annotation
 
-    .line 1
     iget-boolean v0, p0, Lcom/google/common/collect/g1$b;->b:Z
 
     if-nez v0, :cond_0
 
-    .line 2
     iget-object v0, p0, Lcom/google/common/collect/g1$b;->a:Lcom/google/common/collect/MapMaker;
 
     invoke-virtual {v0}, Lcom/google/common/collect/MapMaker;->l()Lcom/google/common/collect/MapMaker;
 
-    .line 3
     :cond_0
     new-instance v0, Lcom/google/common/collect/g1$d;
 
@@ -91,7 +84,6 @@
 .method public b(I)Lcom/google/common/collect/g1$b;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/g1$b;->a:Lcom/google/common/collect/MapMaker;
 
     invoke-virtual {v0, p1}, Lcom/google/common/collect/MapMaker;->a(I)Lcom/google/common/collect/MapMaker;
@@ -104,7 +96,6 @@
 
     const/4 v0, 0x1
 
-    .line 1
     iput-boolean v0, p0, Lcom/google/common/collect/g1$b;->b:Z
 
     return-object p0
@@ -118,7 +109,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     iput-boolean v0, p0, Lcom/google/common/collect/g1$b;->b:Z
 
     return-object p0

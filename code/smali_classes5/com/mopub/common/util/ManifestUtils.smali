@@ -60,14 +60,12 @@
 .method static constructor <clinit>()V
     .locals 5
 
-    .line 1
     new-instance v0, Lcom/mopub/common/util/ManifestUtils$FlagCheckUtil;
 
     invoke-direct {v0}, Lcom/mopub/common/util/ManifestUtils$FlagCheckUtil;-><init>()V
 
     sput-object v0, Lcom/mopub/common/util/ManifestUtils;->sFlagCheckUtil:Lcom/mopub/common/util/ManifestUtils$FlagCheckUtil;
 
-    .line 2
     new-instance v0, Ljava/util/ArrayList;
 
     const/4 v1, 0x1
@@ -79,19 +77,16 @@
     :try_start_0
     const-string v2, "com.mopub.mobileads.MoPubFullscreenActivity"
 
-    .line 3
     invoke-static {v2}, Ljava/lang/Class;->forName(Ljava/lang/String;)Ljava/lang/Class;
 
     move-result-object v2
 
-    .line 4
     invoke-interface {v0, v2}, Ljava/util/List;->add(Ljava/lang/Object;)Z
     :try_end_0
     .catch Ljava/lang/ClassNotFoundException; {:try_start_0 .. :try_end_0} :catch_0
 
     goto :goto_0
 
-    .line 5
     :catch_0
     sget-object v0, Lcom/mopub/common/logging/MoPubLog$SdkLogEvent;->CUSTOM:Lcom/mopub/common/logging/MoPubLog$SdkLogEvent;
 
@@ -105,7 +100,6 @@
 
     invoke-static {v0, v2}, Lcom/mopub/common/logging/MoPubLog;->log(Lcom/mopub/common/logging/MoPubLog$MPLogEventType;[Ljava/lang/Object;)V
 
-    .line 6
     :goto_0
     sget-object v0, Lcom/mopub/common/util/ManifestUtils;->REQUIRED_WEB_VIEW_SDK_ACTIVITIES:Ljava/util/List;
 
@@ -113,26 +107,22 @@
 
     invoke-interface {v0, v2}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
-    .line 7
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0, v1}, Ljava/util/ArrayList;-><init>(I)V
 
     sput-object v0, Lcom/mopub/common/util/ManifestUtils;->REQUIRED_NATIVE_SDK_ACTIVITIES:Ljava/util/List;
 
-    .line 8
     const-class v2, Lcom/mopub/common/MoPubBrowser;
 
     invoke-interface {v0, v2}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
-    .line 9
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0, v1}, Ljava/util/ArrayList;-><init>(I)V
 
     sput-object v0, Lcom/mopub/common/util/ManifestUtils;->REQUIRED_GDPR_ACTIVITIES:Ljava/util/List;
 
-    .line 10
     const-class v1, Lcom/mopub/common/privacy/ConsentDialogActivity;
 
     invoke-interface {v0, v1}, Ljava/util/List;->add(Ljava/lang/Object;)Z
@@ -143,7 +133,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -158,7 +147,6 @@
 
     const-string v0, "context is not allowed to be null"
 
-    .line 1
     invoke-static {p0, v0}, Lcom/mopub/common/Preconditions$NoThrow;->checkNotNull(Ljava/lang/Object;Ljava/lang/String;)Z
 
     move-result v0
@@ -167,13 +155,11 @@
 
     return-void
 
-    .line 2
     :cond_0
     sget-object v0, Lcom/mopub/common/util/ManifestUtils;->REQUIRED_GDPR_ACTIVITIES:Ljava/util/List;
 
     invoke-static {p0, v0}, Lcom/mopub/common/util/ManifestUtils;->displayWarningForMissingActivities(Landroid/content/Context;Ljava/util/List;)V
 
-    .line 3
     invoke-static {p0, v0}, Lcom/mopub/common/util/ManifestUtils;->displayWarningForMisconfiguredActivities(Landroid/content/Context;Ljava/util/List;)V
 
     return-void
@@ -188,7 +174,6 @@
 
     const-string v0, "context is not allowed to be null"
 
-    .line 1
     invoke-static {p0, v0}, Lcom/mopub/common/Preconditions$NoThrow;->checkNotNull(Ljava/lang/Object;Ljava/lang/String;)Z
 
     move-result v0
@@ -197,13 +182,11 @@
 
     return-void
 
-    .line 2
     :cond_0
     sget-object v0, Lcom/mopub/common/util/ManifestUtils;->REQUIRED_NATIVE_SDK_ACTIVITIES:Ljava/util/List;
 
     invoke-static {p0, v0}, Lcom/mopub/common/util/ManifestUtils;->displayWarningForMissingActivities(Landroid/content/Context;Ljava/util/List;)V
 
-    .line 3
     invoke-static {p0, v0}, Lcom/mopub/common/util/ManifestUtils;->displayWarningForMisconfiguredActivities(Landroid/content/Context;Ljava/util/List;)V
 
     return-void
@@ -218,7 +201,6 @@
 
     const-string v0, "context is not allowed to be null"
 
-    .line 1
     invoke-static {p0, v0}, Lcom/mopub/common/Preconditions$NoThrow;->checkNotNull(Ljava/lang/Object;Ljava/lang/String;)Z
 
     move-result v0
@@ -227,13 +209,11 @@
 
     return-void
 
-    .line 2
     :cond_0
     sget-object v0, Lcom/mopub/common/util/ManifestUtils;->REQUIRED_WEB_VIEW_SDK_ACTIVITIES:Ljava/util/List;
 
     invoke-static {p0, v0}, Lcom/mopub/common/util/ManifestUtils;->displayWarningForMissingActivities(Landroid/content/Context;Ljava/util/List;)V
 
-    .line 3
     invoke-static {p0, v0}, Lcom/mopub/common/util/ManifestUtils;->displayWarningForMisconfiguredActivities(Landroid/content/Context;Ljava/util/List;)V
 
     return-void
@@ -266,17 +246,14 @@
 
     const/4 v0, 0x1
 
-    .line 1
     invoke-static {p0, p1, v0}, Lcom/mopub/common/util/ManifestUtils;->filterDeclaredActivities(Landroid/content/Context;Ljava/util/List;Z)Ljava/util/List;
 
     move-result-object p1
 
-    .line 2
     invoke-static {p0, p1}, Lcom/mopub/common/util/ManifestUtils;->getMisconfiguredActivities(Landroid/content/Context;Ljava/util/List;)Ljava/util/List;
 
     move-result-object p1
 
-    .line 3
     invoke-interface {p1}, Ljava/util/List;->isEmpty()Z
 
     move-result v0
@@ -285,11 +262,9 @@
 
     return-void
 
-    .line 4
     :cond_0
     invoke-static {p0}, Lcom/mopub/common/util/ManifestUtils;->logWarningToast(Landroid/content/Context;)V
 
-    .line 5
     invoke-static {p0, p1}, Lcom/mopub/common/util/ManifestUtils;->logMisconfiguredActivities(Landroid/content/Context;Ljava/util/List;)V
 
     return-void
@@ -322,12 +297,10 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-static {p0, p1, v0}, Lcom/mopub/common/util/ManifestUtils;->filterDeclaredActivities(Landroid/content/Context;Ljava/util/List;Z)Ljava/util/List;
 
     move-result-object p1
 
-    .line 2
     invoke-interface {p1}, Ljava/util/List;->isEmpty()Z
 
     move-result v0
@@ -336,11 +309,9 @@
 
     return-void
 
-    .line 3
     :cond_0
     invoke-static {p0}, Lcom/mopub/common/util/ManifestUtils;->logWarningToast(Landroid/content/Context;)V
 
-    .line 4
     invoke-static {p1}, Lcom/mopub/common/util/ManifestUtils;->logMissingActivities(Ljava/util/List;)V
 
     return-void
@@ -373,12 +344,10 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
 
-    .line 2
     invoke-interface {p1}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
     move-result-object p1
@@ -397,19 +366,16 @@
 
     check-cast v1, Ljava/lang/Class;
 
-    .line 3
     new-instance v2, Landroid/content/Intent;
 
     invoke-direct {v2, p0, v1}, Landroid/content/Intent;-><init>(Landroid/content/Context;Ljava/lang/Class;)V
 
-    .line 4
     invoke-static {p0, v2}, Lcom/mopub/common/util/Intents;->deviceCanHandleIntent(Landroid/content/Context;Landroid/content/Intent;)Z
 
     move-result v2
 
     if-ne v2, p2, :cond_0
 
-    .line 5
     invoke-interface {v0, v1}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
     goto :goto_0
@@ -446,14 +412,12 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Landroid/content/Context;->getPackageManager()Landroid/content/pm/PackageManager;
 
     move-result-object v0
 
     new-instance v1, Landroid/content/ComponentName;
 
-    .line 2
     invoke-virtual {p1}, Ljava/lang/Class;->getName()Ljava/lang/String;
 
     move-result-object v2
@@ -466,14 +430,12 @@
 
     move-result-object p0
 
-    .line 3
     new-instance v0, Lcom/mopub/common/util/ManifestUtils$ActivityConfigChanges;
 
     const/4 v1, 0x0
 
     invoke-direct {v0, v1}, Lcom/mopub/common/util/ManifestUtils$ActivityConfigChanges;-><init>(Lcom/mopub/common/util/ManifestUtils$1;)V
 
-    .line 4
     sget-object v1, Lcom/mopub/common/util/ManifestUtils;->sFlagCheckUtil:Lcom/mopub/common/util/ManifestUtils$FlagCheckUtil;
 
     iget v2, p0, Landroid/content/pm/ActivityInfo;->configChanges:I
@@ -486,7 +448,6 @@
 
     iput-boolean v1, v0, Lcom/mopub/common/util/ManifestUtils$ActivityConfigChanges;->hasKeyboardHidden:Z
 
-    .line 5
     sget-object v1, Lcom/mopub/common/util/ManifestUtils;->sFlagCheckUtil:Lcom/mopub/common/util/ManifestUtils$FlagCheckUtil;
 
     iget v2, p0, Landroid/content/pm/ActivityInfo;->configChanges:I
@@ -501,10 +462,8 @@
 
     const/4 v1, 0x1
 
-    .line 6
     iput-boolean v1, v0, Lcom/mopub/common/util/ManifestUtils$ActivityConfigChanges;->hasScreenSize:Z
 
-    .line 7
     sget-object v1, Lcom/mopub/common/util/ManifestUtils;->sFlagCheckUtil:Lcom/mopub/common/util/ManifestUtils$FlagCheckUtil;
 
     iget p0, p0, Landroid/content/pm/ActivityInfo;->configChanges:I
@@ -551,12 +510,10 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
 
-    .line 2
     invoke-interface {p1}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
     move-result-object p1
@@ -575,7 +532,6 @@
 
     check-cast v1, Ljava/lang/Class;
 
-    .line 3
     :try_start_0
     invoke-static {p0, v1}, Lcom/mopub/common/util/ManifestUtils;->getActivityConfigChanges(Landroid/content/Context;Ljava/lang/Class;)Lcom/mopub/common/util/ManifestUtils$ActivityConfigChanges;
 
@@ -583,7 +539,6 @@
     :try_end_0
     .catch Landroid/content/pm/PackageManager$NameNotFoundException; {:try_start_0 .. :try_end_0} :catch_0
 
-    .line 4
     iget-boolean v3, v2, Lcom/mopub/common/util/ManifestUtils$ActivityConfigChanges;->hasKeyboardHidden:Z
 
     if-eqz v3, :cond_1
@@ -596,7 +551,6 @@
 
     if-nez v2, :cond_0
 
-    .line 5
     :cond_1
     invoke-interface {v0, v1}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
@@ -630,7 +584,6 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    .line 1
     sget-object v0, Lcom/mopub/common/util/ManifestUtils;->REQUIRED_NATIVE_SDK_ACTIVITIES:Ljava/util/List;
 
     return-object v0
@@ -655,7 +608,6 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    .line 1
     sget-object v0, Lcom/mopub/common/util/ManifestUtils;->REQUIRED_WEB_VIEW_SDK_ACTIVITIES:Ljava/util/List;
 
     return-object v0
@@ -668,7 +620,6 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-virtual {p0}, Landroid/content/Context;->getApplicationInfo()Landroid/content/pm/ApplicationInfo;
 
     move-result-object p0
@@ -677,7 +628,6 @@
 
     const/4 v0, 0x2
 
-    .line 2
     invoke-static {p0, v0}, Lcom/mopub/common/util/Utils;->bitMaskContainsFlag(II)Z
 
     move-result p0
@@ -707,14 +657,12 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     const-string v1, "In AndroidManifest, the android:configChanges param is missing values for the following MoPub activities:\n"
 
     invoke-direct {v0, v1}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
-    .line 2
     invoke-interface {p1}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
     move-result-object p1
@@ -733,7 +681,6 @@
 
     check-cast v1, Ljava/lang/Class;
 
-    .line 3
     :try_start_0
     invoke-static {p0, v1}, Lcom/mopub/common/util/ManifestUtils;->getActivityConfigChanges(Landroid/content/Context;Ljava/lang/Class;)Lcom/mopub/common/util/ManifestUtils$ActivityConfigChanges;
 
@@ -741,14 +688,12 @@
     :try_end_0
     .catch Landroid/content/pm/PackageManager$NameNotFoundException; {:try_start_0 .. :try_end_0} :catch_0
 
-    .line 4
     iget-boolean v3, v2, Lcom/mopub/common/util/ManifestUtils$ActivityConfigChanges;->hasKeyboardHidden:Z
 
     const-string v4, "\n\tThe android:configChanges param for activity "
 
     if-nez v3, :cond_1
 
-    .line 5
     new-instance v3, Ljava/lang/StringBuilder;
 
     invoke-direct {v3}, Ljava/lang/StringBuilder;-><init>()V
@@ -771,13 +716,11 @@
 
     invoke-virtual {v0, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 6
     :cond_1
     iget-boolean v3, v2, Lcom/mopub/common/util/ManifestUtils$ActivityConfigChanges;->hasOrientation:Z
 
     if-nez v3, :cond_2
 
-    .line 7
     new-instance v3, Ljava/lang/StringBuilder;
 
     invoke-direct {v3}, Ljava/lang/StringBuilder;-><init>()V
@@ -800,13 +743,11 @@
 
     invoke-virtual {v0, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 8
     :cond_2
     iget-boolean v2, v2, Lcom/mopub/common/util/ManifestUtils$ActivityConfigChanges;->hasScreenSize:Z
 
     if-nez v2, :cond_0
 
-    .line 9
     new-instance v2, Ljava/lang/StringBuilder;
 
     invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
@@ -839,10 +780,8 @@
     :cond_3
     const-string p0, "\n\nPlease update your manifest to include them."
 
-    .line 10
     invoke-virtual {v0, p0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 11
     sget-object p0, Lcom/mopub/common/logging/MoPubLog$SdkLogEvent;->CUSTOM:Lcom/mopub/common/logging/MoPubLog$SdkLogEvent;
 
     const/4 p1, 0x1
@@ -879,14 +818,12 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     const-string v1, "AndroidManifest permissions for the following required MoPub activities are missing:\n"
 
     invoke-direct {v0, v1}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
-    .line 2
     invoke-interface {p0}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
     move-result-object p0
@@ -906,7 +843,6 @@
 
     const-string v2, "\n\t"
 
-    .line 3
     invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     invoke-virtual {v1}, Ljava/lang/Class;->getName()Ljava/lang/String;
@@ -920,10 +856,8 @@
     :cond_0
     const-string p0, "\n\nPlease update your manifest to include them."
 
-    .line 4
     invoke-virtual {v0, p0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 5
     sget-object p0, Lcom/mopub/common/logging/MoPubLog$SdkLogEvent;->CUSTOM:Lcom/mopub/common/logging/MoPubLog$SdkLogEvent;
 
     const/4 v1, 0x1
@@ -950,14 +884,12 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-static {p0}, Lcom/mopub/common/util/ManifestUtils;->isDebuggable(Landroid/content/Context;)Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-virtual {p0}, Landroid/content/Context;->getApplicationContext()Landroid/content/Context;
 
     move-result-object p0
@@ -968,7 +900,6 @@
 
     const-string v1, "ERROR: YOUR MOPUB INTEGRATION IS INCOMPLETE.\nCheck logcat and update your AndroidManifest.xml with the correct activities and configuration."
 
-    .line 3
     invoke-static {p0, v1, v0}, Landroid/widget/Toast;->makeText(Landroid/content/Context;Ljava/lang/CharSequence;I)Landroid/widget/Toast;
 
     move-result-object p0
@@ -977,10 +908,8 @@
 
     const/4 v1, 0x0
 
-    .line 4
     invoke-virtual {p0, v0, v1, v1}, Landroid/widget/Toast;->setGravity(III)V
 
-    .line 5
     invoke-virtual {p0}, Landroid/widget/Toast;->show()V
 
     :cond_0
@@ -995,7 +924,6 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    .line 1
     sput-object p0, Lcom/mopub/common/util/ManifestUtils;->sFlagCheckUtil:Lcom/mopub/common/util/ManifestUtils$FlagCheckUtil;
 
     return-void

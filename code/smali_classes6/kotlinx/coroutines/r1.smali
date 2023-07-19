@@ -16,7 +16,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     instance-of v0, p0, Lcotlinx/coroutines/ExecutorCoroutineDispatcher;
 
     if-nez v0, :cond_0
@@ -63,7 +62,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     instance-of v0, p0, Lcotlinx/coroutines/b1;
 
     if-nez v0, :cond_0
@@ -108,7 +106,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     new-instance v0, Lcotlinx/coroutines/q1;
 
     invoke-direct {v0, p0}, Lcotlinx/coroutines/q1;-><init>(Ljava/util/concurrent/Executor;)V

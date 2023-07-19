@@ -46,14 +46,12 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/commsource/util/common/k;->a()Z
 
     move-result v0
 
     if-nez v0, :cond_3
 
-    .line 2
     iget-object v0, p0, Lcom/commsource/studio/sticker/manage/StickerManagerViewHolder$b;->a:Lcom/commsource/studio/sticker/manage/StickerManagerViewHolder;
 
     invoke-static {v0}, Lcom/commsource/studio/sticker/manage/StickerManagerViewHolder;->v(Lcom/commsource/studio/sticker/manage/StickerManagerViewHolder;)Lcom/commsource/widget/h1/e;
@@ -88,7 +86,6 @@
 
     const-string v2, "eveyItem"
 
-    .line 3
     invoke-static {v1, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v1}, Lcom/commsource/widget/h1/d;->b()Ljava/lang/Object;
@@ -99,7 +96,6 @@
 
     check-cast v1, Lcom/meitu/template/bean/StickerGroup;
 
-    .line 4
     invoke-virtual {v1}, Lcom/meitu/template/bean/StickerGroup;->getGroupId()I
 
     move-result v2
@@ -120,10 +116,8 @@
 
     const/4 v2, 0x0
 
-    .line 5
     invoke-virtual {v1, v2}, Lcom/meitu/template/bean/StickerGroup;->setDeleteState(Z)V
 
-    .line 6
     iget-object v2, p0, Lcom/commsource/studio/sticker/manage/StickerManagerViewHolder$b;->a:Lcom/commsource/studio/sticker/manage/StickerManagerViewHolder;
 
     invoke-static {v2}, Lcom/commsource/studio/sticker/manage/StickerManagerViewHolder;->v(Lcom/commsource/studio/sticker/manage/StickerManagerViewHolder;)Lcom/commsource/widget/h1/e;
@@ -132,17 +126,14 @@
 
     const/16 v3, 0x7b
 
-    .line 7
     invoke-static {v3}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v3
 
-    .line 8
     invoke-virtual {v2, v1, v3}, Lcom/commsource/widget/h1/e;->w(Ljava/lang/Object;Ljava/lang/Object;)V
 
     goto :goto_0
 
-    .line 9
     :cond_1
     new-instance v0, Lcotlin/TypeCastException;
 
@@ -154,7 +145,6 @@
 
     throw v0
 
-    .line 10
     :cond_2
     iget-object v0, p0, Lcom/commsource/studio/sticker/manage/StickerManagerViewHolder$b;->b:Lcom/commsource/widget/h1/d;
 
@@ -168,12 +158,10 @@
 
     invoke-virtual {v0, v1}, Lcom/meitu/template/bean/StickerGroup;->setDeleteState(Z)V
 
-    .line 11
     iget-object v0, p0, Lcom/commsource/studio/sticker/manage/StickerManagerViewHolder$b;->a:Lcom/commsource/studio/sticker/manage/StickerManagerViewHolder;
 
     invoke-virtual {v0}, Lcom/commsource/studio/sticker/manage/StickerManagerViewHolder;->E()V
 
-    .line 12
     :cond_3
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

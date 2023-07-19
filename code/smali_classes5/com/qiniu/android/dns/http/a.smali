@@ -20,7 +20,6 @@
 
     const-string v0, "119.29.29.29"
 
-    .line 7
     invoke-direct {p0, p1, p2, v0}, Lcom/qiniu/android/dns/http/a;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
@@ -29,26 +28,21 @@
 .method public constructor <init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/qiniu/android/dns/http/a;->a:Ljava/lang/String;
 
-    .line 3
     iput-object p3, p0, Lcom/qiniu/android/dns/http/a;->b:Ljava/lang/String;
 
     :try_start_0
     const-string p1, "utf-8"
 
-    .line 4
     invoke-virtual {p2, p1}, Ljava/lang/String;->getBytes(Ljava/lang/String;)[B
 
     move-result-object p1
     :try_end_0
     .catch Ljava/io/UnsupportedEncodingException; {:try_start_0 .. :try_end_0} :catch_0
 
-    .line 5
     new-instance p2, Ljavax/crypto/spec/SecretKeySpec;
 
     const-string p3, "DES"
@@ -62,7 +56,6 @@
     :catch_0
     move-exception p1
 
-    .line 6
     new-instance p2, Ljava/lang/AssertionError;
 
     invoke-direct {p2, p1}, Ljava/lang/AssertionError;-><init>(Ljava/lang/Object;)V
@@ -76,19 +69,16 @@
     :try_start_0
     const-string v0, "DES/ECB/PKCS5Padding"
 
-    .line 1
     invoke-static {v0}, Ljavax/crypto/Cipher;->getInstance(Ljava/lang/String;)Ljavax/crypto/Cipher;
 
     move-result-object v0
 
     const/4 v1, 0x2
 
-    .line 2
     iget-object v2, p0, Lcom/qiniu/android/dns/http/a;->c:Ljavax/crypto/spec/SecretKeySpec;
 
     invoke-virtual {v0, v1, v2}, Ljavax/crypto/Cipher;->init(ILjava/security/Key;)V
 
-    .line 3
     invoke-virtual {p1}, Ljava/lang/String;->toCharArray()[C
 
     move-result-object p1
@@ -101,7 +91,6 @@
 
     move-result-object p1
 
-    .line 4
     new-instance v0, Ljava/lang/String;
 
     invoke-direct {v0, p1}, Ljava/lang/String;-><init>([B)V
@@ -113,7 +102,6 @@
     :catch_0
     move-exception p1
 
-    .line 5
     invoke-virtual {p1}, Ljava/lang/Exception;->printStackTrace()V
 
     const-string p1, ""
@@ -127,21 +115,18 @@
     :try_start_0
     const-string v0, "DES/ECB/PKCS5Padding"
 
-    .line 1
     invoke-static {v0}, Ljavax/crypto/Cipher;->getInstance(Ljava/lang/String;)Ljavax/crypto/Cipher;
 
     move-result-object v0
 
     const/4 v1, 0x1
 
-    .line 2
     iget-object v2, p0, Lcom/qiniu/android/dns/http/a;->c:Ljavax/crypto/spec/SecretKeySpec;
 
     invoke-virtual {v0, v1, v2}, Ljavax/crypto/Cipher;->init(ILjava/security/Key;)V
 
     const-string v1, "utf-8"
 
-    .line 3
     invoke-virtual {p1, v1}, Ljava/lang/String;->getBytes(Ljava/lang/String;)[B
 
     move-result-object p1
@@ -150,7 +135,6 @@
 
     move-result-object p1
 
-    .line 4
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -180,7 +164,6 @@
     :catch_0
     move-exception p1
 
-    .line 5
     invoke-virtual {p1}, Ljava/lang/Exception;->printStackTrace()V
 
     const-string p1, ""
@@ -198,7 +181,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance p2, Ljava/net/URL;
 
     new-instance v0, Ljava/lang/StringBuilder;
@@ -239,7 +221,6 @@
 
     invoke-direct {p2, p1}, Ljava/net/URL;-><init>(Ljava/lang/String;)V
 
-    .line 2
     invoke-virtual {p2}, Ljava/net/URL;->openConnection()Ljava/net/URLConnection;
 
     move-result-object p1
@@ -248,15 +229,12 @@
 
     const/16 p2, 0xbb8
 
-    .line 3
     invoke-virtual {p1, p2}, Ljava/net/HttpURLConnection;->setConnectTimeout(I)V
 
     const/16 p2, 0x1770
 
-    .line 4
     invoke-virtual {p1, p2}, Ljava/net/HttpURLConnection;->setReadTimeout(I)V
 
-    .line 5
     invoke-virtual {p1}, Ljava/net/HttpURLConnection;->getResponseCode()I
 
     move-result p2
@@ -269,7 +247,6 @@
 
     return-object v0
 
-    .line 6
     :cond_0
     invoke-virtual {p1}, Ljava/net/HttpURLConnection;->getContentLength()I
 
@@ -283,28 +260,23 @@
 
     goto :goto_1
 
-    .line 7
     :cond_1
     invoke-virtual {p1}, Ljava/net/HttpURLConnection;->getInputStream()Ljava/io/InputStream;
 
     move-result-object p1
 
-    .line 8
     new-array p2, p2, [B
 
-    .line 9
     invoke-virtual {p1, p2}, Ljava/io/InputStream;->read([B)I
 
     move-result v1
 
-    .line 10
     invoke-virtual {p1}, Ljava/io/InputStream;->close()V
 
     if-gtz v1, :cond_2
 
     return-object v0
 
-    .line 11
     :cond_2
     new-instance p1, Ljava/lang/String;
 
@@ -312,19 +284,16 @@
 
     invoke-direct {p1, p2, v2, v1}, Ljava/lang/String;-><init>([BII)V
 
-    .line 12
     invoke-direct {p0, p1}, Lcom/qiniu/android/dns/http/a;->b(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p1
 
     const-string p2, ","
 
-    .line 13
     invoke-virtual {p1, p2}, Ljava/lang/String;->split(Ljava/lang/String;)[Ljava/lang/String;
 
     move-result-object p1
 
-    .line 14
     array-length p2, p1
 
     const/4 v1, 0x2
@@ -336,7 +305,6 @@
     :cond_3
     const/4 p2, 0x1
 
-    .line 15
     :try_start_0
     aget-object p2, p1, p2
 
@@ -346,7 +314,6 @@
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
-    .line 16
     aget-object p1, p1, v2
 
     const-string v1, ";"
@@ -355,20 +322,17 @@
 
     move-result-object p1
 
-    .line 17
     array-length v1, p1
 
     if-nez v1, :cond_4
 
     return-object v0
 
-    .line 18
     :cond_4
     array-length v0, p1
 
     new-array v0, v0, [Lcom/qiniu/android/dns/g;
 
-    .line 19
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v3
@@ -377,13 +341,11 @@
 
     div-long v9, v3, v5
 
-    .line 20
     :goto_0
     array-length v1, p1
 
     if-ge v2, v1, :cond_5
 
-    .line 21
     new-instance v1, Lcom/qiniu/android/dns/g;
 
     aget-object v4, p1, v2

@@ -40,10 +40,8 @@
 .method public constructor <init>(Lcom/appsflyer/AppsFlyerLibCore;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/appsflyer/OneLinkHttpTask;->afLib:Lcom/appsflyer/AppsFlyerLibCore;
 
     return-void
@@ -54,7 +52,6 @@
 
     const-string v0, ""
 
-    .line 1
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v1
@@ -63,12 +60,10 @@
 
     div-long/2addr v1, v3
 
-    .line 2
     invoke-virtual {p0}, Lcom/appsflyer/OneLinkHttpTask;->getOneLinkUrl()Ljava/lang/String;
 
     move-result-object v3
 
-    .line 3
     new-instance v4, Ljava/lang/StringBuilder;
 
     invoke-direct {v4}, Ljava/lang/StringBuilder;-><init>()V
@@ -85,7 +80,6 @@
 
     invoke-static {v4}, Lcom/appsflyer/AFLogger;->afRDLog(Ljava/lang/String;)V
 
-    .line 4
     :try_start_0
     iget-object v4, p0, Lcom/appsflyer/OneLinkHttpTask;->connectionProvider:Lcom/appsflyer/OneLinkHttpTask$HttpsUrlConnectionProvider;
 
@@ -97,12 +91,10 @@
 
     const-string v6, "application/json"
 
-    .line 5
     invoke-virtual {v4, v5, v6}, Ljavax/net/ssl/HttpsURLConnection;->addRequestProperty(Ljava/lang/String;Ljava/lang/String;)V
 
     const-string v5, "authorization"
 
-    .line 6
     invoke-static {v1, v2}, Lcom/appsflyer/HashUtils;->getOneLinkAuthorization(J)Ljava/lang/String;
 
     move-result-object v6
@@ -111,7 +103,6 @@
 
     const-string v5, "af-timestamp"
 
-    .line 7
     invoke-static {v1, v2}, Ljava/lang/String;->valueOf(J)Ljava/lang/String;
 
     move-result-object v1
@@ -120,21 +111,16 @@
 
     const/16 v1, 0xbb8
 
-    .line 8
     invoke-virtual {v4, v1}, Ljavax/net/ssl/HttpsURLConnection;->setReadTimeout(I)V
 
-    .line 9
     invoke-virtual {v4, v1}, Ljavax/net/ssl/HttpsURLConnection;->setConnectTimeout(I)V
 
-    .line 10
     invoke-virtual {p0, v4}, Lcom/appsflyer/OneLinkHttpTask;->initRequest(Ljavax/net/ssl/HttpsURLConnection;)V
 
-    .line 11
     invoke-virtual {v4}, Ljavax/net/ssl/HttpsURLConnection;->getResponseCode()I
 
     move-result v1
 
-    .line 12
     iget-object v2, p0, Lcom/appsflyer/OneLinkHttpTask;->afLib:Lcom/appsflyer/AppsFlyerLibCore;
 
     invoke-virtual {v2, v4}, Lcom/appsflyer/AppsFlyerLibCore;->readServerResponse(Ljava/net/HttpURLConnection;)Ljava/lang/String;
@@ -150,12 +136,10 @@
     :try_start_1
     const-string v1, "Status 200 ok"
 
-    .line 13
     invoke-static {v1}, Lcom/appsflyer/AFLogger;->afInfoLog(Ljava/lang/String;)V
 
     goto :goto_1
 
-    .line 14
     :cond_0
     new-instance v0, Ljava/lang/StringBuilder;
 
@@ -193,7 +177,6 @@
 
     move-object v0, v1
 
-    .line 15
     :goto_0
     new-instance v1, Ljava/lang/StringBuilder;
 
@@ -211,7 +194,6 @@
 
     invoke-static {v1, v0}, Lcom/appsflyer/AFLogger;->afErrorLog(Ljava/lang/String;Ljava/lang/Throwable;)V
 
-    .line 16
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -234,7 +216,6 @@
 
     move-result-object v0
 
-    .line 17
     :goto_1
     invoke-static {v0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
@@ -242,7 +223,6 @@
 
     if-eqz v1, :cond_1
 
-    .line 18
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -259,12 +239,10 @@
 
     invoke-static {v0}, Lcom/appsflyer/AFLogger;->afInfoLog(Ljava/lang/String;)V
 
-    .line 19
     invoke-virtual {p0, v2}, Lcom/appsflyer/OneLinkHttpTask;->handleResponse(Ljava/lang/String;)V
 
     goto :goto_2
 
-    .line 20
     :cond_1
     new-instance v1, Ljava/lang/StringBuilder;
 
@@ -282,7 +260,6 @@
 
     invoke-static {v0}, Lcom/appsflyer/AFLogger;->afWarnLog(Ljava/lang/String;)V
 
-    .line 21
     invoke-virtual {p0}, Lcom/appsflyer/OneLinkHttpTask;->onErrorResponse()V
 
     :goto_2
@@ -301,7 +278,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-interface {p0}, Ljava/util/Map;->entrySet()Ljava/util/Set;
 
     move-result-object p0
@@ -324,7 +300,6 @@
 
     check-cast v0, Ljava/util/Map$Entry;
 
-    .line 2
     invoke-interface {v0}, Ljava/util/Map$Entry;->getKey()Ljava/lang/Object;
 
     move-result-object v1
@@ -374,7 +349,6 @@
 .method public run()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/appsflyer/OneLinkHttpTask;->doRequest()V
 
     return-void
@@ -383,7 +357,6 @@
 .method public setConnProvider(Lcom/appsflyer/OneLinkHttpTask$HttpsUrlConnectionProvider;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/appsflyer/OneLinkHttpTask;->connectionProvider:Lcom/appsflyer/OneLinkHttpTask$HttpsUrlConnectionProvider;
 
     return-void

@@ -46,7 +46,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/function/relight/RelightManualFragment$c;->a:Lcom/commsource/studio/function/relight/RelightManualFragment;
 
     invoke-static {v1}, Lcom/commsource/studio/function/relight/RelightManualFragment;->A(Lcom/commsource/studio/function/relight/RelightManualFragment;)Lcom/commsource/beautyplus/f0/ga;
@@ -65,12 +64,10 @@
 
     move-result-object v1
 
-    .line 2
     invoke-virtual {v1}, Landroid/view/ViewPropertyAnimator;->withLayer()Landroid/view/ViewPropertyAnimator;
 
     move-result-object v1
 
-    .line 3
     new-instance v2, Lcom/commsource/camera/xcamera/cover/bottomFunction/d;
 
     invoke-direct {v2}, Lcom/commsource/camera/xcamera/cover/bottomFunction/d;-><init>()V
@@ -79,7 +76,6 @@
 
     move-result-object v1
 
-    .line 4
     sget-object v2, Lcom/commsource/studio/n0;->z:Lcom/commsource/studio/n0;
 
     invoke-virtual {v2}, Lcom/commsource/studio/n0;->n()I
@@ -92,7 +88,6 @@
 
     move-result-object v1
 
-    .line 5
     new-instance v2, Lcom/commsource/studio/function/relight/RelightManualFragment$c$a;
 
     invoke-direct {v2, p0}, Lcom/commsource/studio/function/relight/RelightManualFragment$c$a;-><init>(Lcom/commsource/studio/function/relight/RelightManualFragment$c;)V
@@ -101,10 +96,8 @@
 
     move-result-object v1
 
-    .line 6
     invoke-virtual {v1}, Landroid/view/ViewPropertyAnimator;->start()V
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

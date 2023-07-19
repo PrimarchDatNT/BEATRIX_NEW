@@ -54,7 +54,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/camera/xcamera/cover/window/MontagePreviewCover$g;->a:Lcom/commsource/camera/xcamera/cover/window/MontagePreviewCover;
 
     invoke-virtual {v0}, Lcom/commsource/camera/xcamera/cover/window/MontagePreviewCover;->S()Lcom/commsource/camera/montage/e0;
@@ -83,7 +82,6 @@
 
     invoke-virtual {v0, v1}, Lcom/commsource/camera/montage/e0;->Z(Lcom/commsource/camera/xcamera/cover/bottomFunction/BottomFunction;)V
 
-    .line 2
     iget-object v0, p0, Lcom/commsource/camera/xcamera/cover/window/MontagePreviewCover$g;->a:Lcom/commsource/camera/xcamera/cover/window/MontagePreviewCover;
 
     invoke-virtual {v0}, Lcom/commsource/camera/xcamera/cover/window/MontagePreviewCover;->O()Lcom/commsource/camera/xcamera/cover/bottomFunction/b;
@@ -94,7 +92,6 @@
 
     invoke-virtual {v0, v1}, Lcom/commsource/camera/xcamera/cover/bottomFunction/b;->S(Lcom/commsource/camera/xcamera/cover/bottomFunction/BottomFunction;)V
 
-    .line 3
     iget-object v0, p0, Lcom/commsource/camera/xcamera/cover/window/MontagePreviewCover$g;->a:Lcom/commsource/camera/xcamera/cover/window/MontagePreviewCover;
 
     invoke-virtual {v0}, Lcom/commsource/camera/xcamera/cover/window/MontagePreviewCover;->S()Lcom/commsource/camera/montage/e0;
@@ -103,7 +100,6 @@
 
     invoke-virtual {v0}, Lcom/commsource/camera/montage/e0;->U()V
 
-    .line 4
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -116,7 +112,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Ljava/lang/Boolean;
 
     invoke-virtual {p0, p1}, Lcom/commsource/camera/xcamera/cover/window/MontagePreviewCover$g;->a(Ljava/lang/Boolean;)V

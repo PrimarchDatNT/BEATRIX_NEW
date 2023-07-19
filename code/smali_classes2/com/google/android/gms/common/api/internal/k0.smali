@@ -110,54 +110,42 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/4 v0, 0x0
 
-    .line 2
     iput v0, p0, Lcom/google/android/gms/common/api/internal/k0;->g:I
 
-    .line 3
     new-instance v0, Landroid/os/Bundle;
 
     invoke-direct {v0}, Landroid/os/Bundle;-><init>()V
 
     iput-object v0, p0, Lcom/google/android/gms/common/api/internal/k0;->i:Landroid/os/Bundle;
 
-    .line 4
     new-instance v0, Ljava/util/HashSet;
 
     invoke-direct {v0}, Ljava/util/HashSet;-><init>()V
 
     iput-object v0, p0, Lcom/google/android/gms/common/api/internal/k0;->j:Ljava/util/Set;
 
-    .line 5
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
 
     iput-object v0, p0, Lcom/google/android/gms/common/api/internal/k0;->u:Ljava/util/ArrayList;
 
-    .line 6
     iput-object p1, p0, Lcom/google/android/gms/common/api/internal/k0;->a:Lcom/google/android/gms/common/api/internal/f1;
 
-    .line 7
     iput-object p2, p0, Lcom/google/android/gms/common/api/internal/k0;->r:Lcom/google/android/gms/common/internal/f;
 
-    .line 8
     iput-object p3, p0, Lcom/google/android/gms/common/api/internal/k0;->s:Ljava/util/Map;
 
-    .line 9
     iput-object p4, p0, Lcom/google/android/gms/common/api/internal/k0;->d:Lcom/google/android/gms/common/e;
 
-    .line 10
     iput-object p5, p0, Lcom/google/android/gms/common/api/internal/k0;->t:Lcom/google/android/gms/common/api/a$a;
 
-    .line 11
     iput-object p6, p0, Lcom/google/android/gms/common/api/internal/k0;->b:Ljava/util/concurrent/locks/Lock;
 
-    .line 12
     iput-object p7, p0, Lcom/google/android/gms/common/api/internal/k0;->c:Landroid/content/Context;
 
     return-void
@@ -166,7 +154,6 @@
 .method static synthetic A(Lcom/google/android/gms/common/api/internal/k0;)Ljava/util/Set;
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/google/android/gms/common/api/internal/k0;->m()Ljava/util/Set;
 
     move-result-object p0
@@ -177,7 +164,6 @@
 .method static synthetic B(Lcom/google/android/gms/common/api/internal/k0;)Lcom/google/android/gms/common/internal/q;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lcom/google/android/gms/common/api/internal/k0;->o:Lcom/google/android/gms/common/internal/q;
 
     return-object p0
@@ -186,7 +172,6 @@
 .method static synthetic C(Lcom/google/android/gms/common/api/internal/k0;)Lcom/google/android/gms/common/internal/f;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lcom/google/android/gms/common/api/internal/k0;->r:Lcom/google/android/gms/common/internal/f;
 
     return-object p0
@@ -195,7 +180,6 @@
 .method static synthetic D(Lcom/google/android/gms/common/api/internal/k0;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/google/android/gms/common/api/internal/k0;->k()V
 
     return-void
@@ -204,7 +188,6 @@
 .method static synthetic E(Lcom/google/android/gms/common/api/internal/k0;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/google/android/gms/common/api/internal/k0;->i()V
 
     return-void
@@ -213,7 +196,6 @@
 .method static synthetic F(Lcom/google/android/gms/common/api/internal/k0;)Z
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/google/android/gms/common/api/internal/k0;->h()Z
 
     move-result p0
@@ -224,7 +206,6 @@
 .method static synthetic a(Lcom/google/android/gms/common/api/internal/k0;)Landroid/content/Context;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lcom/google/android/gms/common/api/internal/k0;->c:Landroid/content/Context;
 
     return-object p0
@@ -233,7 +214,6 @@
 .method static synthetic b(Lcom/google/android/gms/common/api/internal/k0;Lcom/google/android/gms/common/ConnectionResult;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/google/android/gms/common/api/internal/k0;->x(Lcom/google/android/gms/common/ConnectionResult;)V
 
     return-void
@@ -242,7 +222,6 @@
 .method static synthetic d(Lcom/google/android/gms/common/api/internal/k0;Lcom/google/android/gms/common/ConnectionResult;Lcom/google/android/gms/common/api/a;Z)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1, p2, p3}, Lcom/google/android/gms/common/api/internal/k0;->o(Lcom/google/android/gms/common/ConnectionResult;Lcom/google/android/gms/common/api/a;Z)V
 
     return-void
@@ -251,7 +230,6 @@
 .method static synthetic e(Lcom/google/android/gms/common/api/internal/k0;Lcom/google/android/gms/signin/internal/zaj;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/google/android/gms/common/api/internal/k0;->f(Lcom/google/android/gms/signin/internal/zaj;)V
 
     return-void
@@ -265,7 +243,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-direct {p0, v0}, Lcom/google/android/gms/common/api/internal/k0;->t(I)Z
 
     move-result v0
@@ -274,37 +251,31 @@
 
     return-void
 
-    .line 2
     :cond_0
     invoke-virtual {p1}, Lcom/google/android/gms/signin/internal/zaj;->y()Lcom/google/android/gms/common/ConnectionResult;
 
     move-result-object v0
 
-    .line 3
     invoke-virtual {v0}, Lcom/google/android/gms/common/ConnectionResult;->Q()Z
 
     move-result v1
 
     if-eqz v1, :cond_2
 
-    .line 4
     invoke-virtual {p1}, Lcom/google/android/gms/signin/internal/zaj;->z()Lcom/google/android/gms/common/internal/ResolveAccountResponse;
 
     move-result-object p1
 
-    .line 5
     invoke-virtual {p1}, Lcom/google/android/gms/common/internal/ResolveAccountResponse;->z()Lcom/google/android/gms/common/ConnectionResult;
 
     move-result-object v0
 
-    .line 6
     invoke-virtual {v0}, Lcom/google/android/gms/common/ConnectionResult;->Q()Z
 
     move-result v1
 
     if-nez v1, :cond_1
 
-    .line 7
     invoke-static {v0}, Ljava/lang/String;->valueOf(Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object p1
@@ -341,7 +312,6 @@
 
     invoke-static {v2, p1, v1}, Landroid/util/Log;->wtf(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
 
-    .line 8
     invoke-direct {p0, v0}, Lcom/google/android/gms/common/api/internal/k0;->x(Lcom/google/android/gms/common/ConnectionResult;)V
 
     return-void
@@ -349,36 +319,30 @@
     :cond_1
     const/4 v0, 0x1
 
-    .line 9
     iput-boolean v0, p0, Lcom/google/android/gms/common/api/internal/k0;->n:Z
 
-    .line 10
     invoke-virtual {p1}, Lcom/google/android/gms/common/internal/ResolveAccountResponse;->y()Lcom/google/android/gms/common/internal/q;
 
     move-result-object v0
 
     iput-object v0, p0, Lcom/google/android/gms/common/api/internal/k0;->o:Lcom/google/android/gms/common/internal/q;
 
-    .line 11
     invoke-virtual {p1}, Lcom/google/android/gms/common/internal/ResolveAccountResponse;->A()Z
 
     move-result v0
 
     iput-boolean v0, p0, Lcom/google/android/gms/common/api/internal/k0;->p:Z
 
-    .line 12
     invoke-virtual {p1}, Lcom/google/android/gms/common/internal/ResolveAccountResponse;->M()Z
 
     move-result p1
 
     iput-boolean p1, p0, Lcom/google/android/gms/common/api/internal/k0;->q:Z
 
-    .line 13
     invoke-direct {p0}, Lcom/google/android/gms/common/api/internal/k0;->i()V
 
     return-void
 
-    .line 14
     :cond_2
     invoke-direct {p0, v0}, Lcom/google/android/gms/common/api/internal/k0;->w(Lcom/google/android/gms/common/ConnectionResult;)Z
 
@@ -386,15 +350,12 @@
 
     if-eqz p1, :cond_3
 
-    .line 15
     invoke-direct {p0}, Lcom/google/android/gms/common/api/internal/k0;->k()V
 
-    .line 16
     invoke-direct {p0}, Lcom/google/android/gms/common/api/internal/k0;->i()V
 
     return-void
 
-    .line 17
     :cond_3
     invoke-direct {p0, v0}, Lcom/google/android/gms/common/api/internal/k0;->x(Lcom/google/android/gms/common/ConnectionResult;)V
 
@@ -406,7 +367,6 @@
 
     const/4 p1, 0x0
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/google/android/gms/common/api/internal/k0;->t(I)Z
 
     move-result p0
@@ -420,7 +380,6 @@
         value = "mLock"
     .end annotation
 
-    .line 1
     iget v0, p0, Lcom/google/android/gms/common/api/internal/k0;->h:I
 
     const/4 v1, 0x1
@@ -438,7 +397,6 @@
     :cond_0
     if-gez v0, :cond_1
 
-    .line 2
     iget-object v0, p0, Lcom/google/android/gms/common/api/internal/k0;->a:Lcom/google/android/gms/common/api/internal/f1;
 
     iget-object v0, v0, Lcom/google/android/gms/common/api/internal/f1;->P:Lcom/google/android/gms/common/api/internal/w0;
@@ -451,7 +409,6 @@
 
     invoke-static {v1, v0}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 3
     new-instance v0, Ljava/lang/Exception;
 
     invoke-direct {v0}, Ljava/lang/Exception;-><init>()V
@@ -460,7 +417,6 @@
 
     invoke-static {v1, v3, v0}, Landroid/util/Log;->wtf(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
 
-    .line 4
     new-instance v0, Lcom/google/android/gms/common/ConnectionResult;
 
     const/16 v1, 0x8
@@ -473,20 +429,17 @@
 
     return v2
 
-    .line 5
     :cond_1
     iget-object v0, p0, Lcom/google/android/gms/common/api/internal/k0;->e:Lcom/google/android/gms/common/ConnectionResult;
 
     if-eqz v0, :cond_2
 
-    .line 6
     iget-object v1, p0, Lcom/google/android/gms/common/api/internal/k0;->a:Lcom/google/android/gms/common/api/internal/f1;
 
     iget v3, p0, Lcom/google/android/gms/common/api/internal/k0;->f:I
 
     iput v3, v1, Lcom/google/android/gms/common/api/internal/f1;->O:I
 
-    .line 7
     invoke-direct {p0, v0}, Lcom/google/android/gms/common/api/internal/k0;->x(Lcom/google/android/gms/common/ConnectionResult;)V
 
     return v2
@@ -501,14 +454,12 @@
         value = "mLock"
     .end annotation
 
-    .line 1
     iget v0, p0, Lcom/google/android/gms/common/api/internal/k0;->h:I
 
     if-eqz v0, :cond_0
 
     return-void
 
-    .line 2
     :cond_0
     iget-boolean v0, p0, Lcom/google/android/gms/common/api/internal/k0;->m:Z
 
@@ -518,7 +469,6 @@
 
     if-eqz v0, :cond_5
 
-    .line 3
     :cond_1
     new-instance v0, Ljava/util/ArrayList;
 
@@ -526,10 +476,8 @@
 
     const/4 v1, 0x1
 
-    .line 4
     iput v1, p0, Lcom/google/android/gms/common/api/internal/k0;->g:I
 
-    .line 5
     iget-object v1, p0, Lcom/google/android/gms/common/api/internal/k0;->a:Lcom/google/android/gms/common/api/internal/f1;
 
     iget-object v1, v1, Lcom/google/android/gms/common/api/internal/f1;->g:Ljava/util/Map;
@@ -540,7 +488,6 @@
 
     iput v1, p0, Lcom/google/android/gms/common/api/internal/k0;->h:I
 
-    .line 6
     iget-object v1, p0, Lcom/google/android/gms/common/api/internal/k0;->a:Lcom/google/android/gms/common/api/internal/f1;
 
     iget-object v1, v1, Lcom/google/android/gms/common/api/internal/f1;->g:Ljava/util/Map;
@@ -567,7 +514,6 @@
 
     check-cast v2, Lcom/google/android/gms/common/api/a$c;
 
-    .line 7
     iget-object v3, p0, Lcom/google/android/gms/common/api/internal/k0;->a:Lcom/google/android/gms/common/api/internal/f1;
 
     iget-object v3, v3, Lcom/google/android/gms/common/api/internal/f1;->p:Ljava/util/Map;
@@ -578,19 +524,16 @@
 
     if-eqz v3, :cond_3
 
-    .line 8
     invoke-direct {p0}, Lcom/google/android/gms/common/api/internal/k0;->h()Z
 
     move-result v2
 
     if-eqz v2, :cond_2
 
-    .line 9
     invoke-direct {p0}, Lcom/google/android/gms/common/api/internal/k0;->j()V
 
     goto :goto_0
 
-    .line 10
     :cond_3
     iget-object v3, p0, Lcom/google/android/gms/common/api/internal/k0;->a:Lcom/google/android/gms/common/api/internal/f1;
 
@@ -606,7 +549,6 @@
 
     goto :goto_0
 
-    .line 11
     :cond_4
     invoke-virtual {v0}, Ljava/util/ArrayList;->isEmpty()Z
 
@@ -614,7 +556,6 @@
 
     if-nez v1, :cond_5
 
-    .line 12
     iget-object v1, p0, Lcom/google/android/gms/common/api/internal/k0;->u:Ljava/util/ArrayList;
 
     invoke-static {}, Lcom/google/android/gms/common/api/internal/i1;->a()Ljava/util/concurrent/ExecutorService;
@@ -641,12 +582,10 @@
         value = "mLock"
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/common/api/internal/k0;->a:Lcom/google/android/gms/common/api/internal/f1;
 
     invoke-virtual {v0}, Lcom/google/android/gms/common/api/internal/f1;->n()V
 
-    .line 2
     invoke-static {}, Lcom/google/android/gms/common/api/internal/i1;->a()Ljava/util/concurrent/ExecutorService;
 
     move-result-object v0
@@ -655,20 +594,16 @@
 
     invoke-direct {v1, p0}, Lcom/google/android/gms/common/api/internal/l0;-><init>(Lcom/google/android/gms/common/api/internal/k0;)V
 
-    .line 3
     invoke-interface {v0, v1}, Ljava/util/concurrent/ExecutorService;->execute(Ljava/lang/Runnable;)V
 
-    .line 4
     iget-object v0, p0, Lcom/google/android/gms/common/api/internal/k0;->k:Lf/f/b/b/l/e;
 
     if-eqz v0, :cond_1
 
-    .line 5
     iget-boolean v1, p0, Lcom/google/android/gms/common/api/internal/k0;->p:Z
 
     if-eqz v1, :cond_0
 
-    .line 6
     iget-object v1, p0, Lcom/google/android/gms/common/api/internal/k0;->o:Lcom/google/android/gms/common/internal/q;
 
     iget-boolean v2, p0, Lcom/google/android/gms/common/api/internal/k0;->q:Z
@@ -678,10 +613,8 @@
     :cond_0
     const/4 v0, 0x0
 
-    .line 7
     invoke-direct {p0, v0}, Lcom/google/android/gms/common/api/internal/k0;->p(Z)V
 
-    .line 8
     :cond_1
     iget-object v0, p0, Lcom/google/android/gms/common/api/internal/k0;->a:Lcom/google/android/gms/common/api/internal/f1;
 
@@ -708,7 +641,6 @@
 
     check-cast v1, Lcom/google/android/gms/common/api/a$c;
 
-    .line 9
     iget-object v2, p0, Lcom/google/android/gms/common/api/internal/k0;->a:Lcom/google/android/gms/common/api/internal/f1;
 
     iget-object v2, v2, Lcom/google/android/gms/common/api/internal/f1;->g:Ljava/util/Map;
@@ -719,12 +651,10 @@
 
     check-cast v1, Lcom/google/android/gms/common/api/a$f;
 
-    .line 10
     invoke-interface {v1}, Lcom/google/android/gms/common/api/a$f;->disconnect()V
 
     goto :goto_0
 
-    .line 11
     :cond_2
     iget-object v0, p0, Lcom/google/android/gms/common/api/internal/k0;->i:Landroid/os/Bundle;
 
@@ -741,7 +671,6 @@
     :cond_3
     iget-object v0, p0, Lcom/google/android/gms/common/api/internal/k0;->i:Landroid/os/Bundle;
 
-    .line 12
     :goto_1
     iget-object v1, p0, Lcom/google/android/gms/common/api/internal/k0;->a:Lcom/google/android/gms/common/api/internal/f1;
 
@@ -760,10 +689,8 @@
 
     const/4 v0, 0x0
 
-    .line 1
     iput-boolean v0, p0, Lcom/google/android/gms/common/api/internal/k0;->m:Z
 
-    .line 2
     iget-object v0, p0, Lcom/google/android/gms/common/api/internal/k0;->a:Lcom/google/android/gms/common/api/internal/f1;
 
     iget-object v0, v0, Lcom/google/android/gms/common/api/internal/f1;->P:Lcom/google/android/gms/common/api/internal/w0;
@@ -774,7 +701,6 @@
 
     iput-object v1, v0, Lcom/google/android/gms/common/api/internal/w0;->t:Ljava/util/Set;
 
-    .line 3
     iget-object v0, p0, Lcom/google/android/gms/common/api/internal/k0;->j:Ljava/util/Set;
 
     invoke-interface {v0}, Ljava/util/Set;->iterator()Ljava/util/Iterator;
@@ -795,7 +721,6 @@
 
     check-cast v1, Lcom/google/android/gms/common/api/a$c;
 
-    .line 4
     iget-object v2, p0, Lcom/google/android/gms/common/api/internal/k0;->a:Lcom/google/android/gms/common/api/internal/f1;
 
     iget-object v2, v2, Lcom/google/android/gms/common/api/internal/f1;->p:Ljava/util/Map;
@@ -806,7 +731,6 @@
 
     if-nez v2, :cond_0
 
-    .line 5
     iget-object v2, p0, Lcom/google/android/gms/common/api/internal/k0;->a:Lcom/google/android/gms/common/api/internal/f1;
 
     iget-object v2, v2, Lcom/google/android/gms/common/api/internal/f1;->p:Ljava/util/Map;
@@ -830,7 +754,6 @@
 .method private final l()V
     .locals 5
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/common/api/internal/k0;->u:Ljava/util/ArrayList;
 
     invoke-virtual {v0}, Ljava/util/ArrayList;->size()I
@@ -852,12 +775,10 @@
 
     const/4 v4, 0x1
 
-    .line 2
     invoke-interface {v3, v4}, Ljava/util/concurrent/Future;->cancel(Z)Z
 
     goto :goto_0
 
-    .line 3
     :cond_0
     iget-object v0, p0, Lcom/google/android/gms/common/api/internal/k0;->u:Ljava/util/ArrayList;
 
@@ -877,19 +798,16 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/common/api/internal/k0;->r:Lcom/google/android/gms/common/internal/f;
 
     if-nez v0, :cond_0
 
-    .line 2
     invoke-static {}, Ljava/util/Collections;->emptySet()Ljava/util/Set;
 
     move-result-object v0
 
     return-object v0
 
-    .line 3
     :cond_0
     new-instance v0, Ljava/util/HashSet;
 
@@ -901,15 +819,12 @@
 
     invoke-direct {v0, v1}, Ljava/util/HashSet;-><init>(Ljava/util/Collection;)V
 
-    .line 4
     iget-object v1, p0, Lcom/google/android/gms/common/api/internal/k0;->r:Lcom/google/android/gms/common/internal/f;
 
-    .line 5
     invoke-virtual {v1}, Lcom/google/android/gms/common/internal/f;->i()Ljava/util/Map;
 
     move-result-object v1
 
-    .line 6
     invoke-interface {v1}, Ljava/util/Map;->keySet()Ljava/util/Set;
 
     move-result-object v2
@@ -932,7 +847,6 @@
 
     check-cast v3, Lcom/google/android/gms/common/api/a;
 
-    .line 7
     iget-object v4, p0, Lcom/google/android/gms/common/api/internal/k0;->a:Lcom/google/android/gms/common/api/internal/f1;
 
     iget-object v4, v4, Lcom/google/android/gms/common/api/internal/f1;->p:Ljava/util/Map;
@@ -947,7 +861,6 @@
 
     if-nez v4, :cond_1
 
-    .line 8
     invoke-interface {v1, v3}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v3
@@ -967,7 +880,6 @@
 .method static synthetic n(Lcom/google/android/gms/common/api/internal/k0;)Lcom/google/android/gms/common/e;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lcom/google/android/gms/common/api/internal/k0;->d:Lcom/google/android/gms/common/e;
 
     return-object p0
@@ -988,7 +900,6 @@
         value = "mLock"
     .end annotation
 
-    .line 1
     invoke-virtual {p2}, Lcom/google/android/gms/common/api/a;->c()Lcom/google/android/gms/common/api/a$e;
 
     move-result-object v0
@@ -1003,7 +914,6 @@
 
     if-eqz p3, :cond_2
 
-    .line 2
     invoke-virtual {p1}, Lcom/google/android/gms/common/ConnectionResult;->M()Z
 
     move-result p3
@@ -1015,7 +925,6 @@
 
     goto :goto_1
 
-    .line 3
     :cond_0
     iget-object p3, p0, Lcom/google/android/gms/common/api/internal/k0;->d:Lcom/google/android/gms/common/e;
 
@@ -1037,7 +946,6 @@
     :goto_1
     if-eqz p3, :cond_4
 
-    .line 4
     :cond_2
     iget-object p3, p0, Lcom/google/android/gms/common/api/internal/k0;->e:Lcom/google/android/gms/common/ConnectionResult;
 
@@ -1053,13 +961,10 @@
     :cond_4
     if-eqz v1, :cond_5
 
-    .line 5
     iput-object p1, p0, Lcom/google/android/gms/common/api/internal/k0;->e:Lcom/google/android/gms/common/ConnectionResult;
 
-    .line 6
     iput v0, p0, Lcom/google/android/gms/common/api/internal/k0;->f:I
 
-    .line 7
     :cond_5
     iget-object p3, p0, Lcom/google/android/gms/common/api/internal/k0;->a:Lcom/google/android/gms/common/api/internal/f1;
 
@@ -1080,12 +985,10 @@
         value = "mLock"
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/common/api/internal/k0;->k:Lf/f/b/b/l/e;
 
     if-eqz v0, :cond_2
 
-    .line 2
     invoke-interface {v0}, Lcom/google/android/gms/common/api/a$f;->isConnected()Z
 
     move-result v0
@@ -1094,18 +997,15 @@
 
     if-eqz p1, :cond_0
 
-    .line 3
     iget-object p1, p0, Lcom/google/android/gms/common/api/internal/k0;->k:Lf/f/b/b/l/e;
 
     invoke-interface {p1}, Lf/f/b/b/l/e;->o()V
 
-    .line 4
     :cond_0
     iget-object p1, p0, Lcom/google/android/gms/common/api/internal/k0;->k:Lf/f/b/b/l/e;
 
     invoke-interface {p1}, Lcom/google/android/gms/common/api/a$f;->disconnect()V
 
-    .line 5
     iget-object p1, p0, Lcom/google/android/gms/common/api/internal/k0;->r:Lcom/google/android/gms/common/internal/f;
 
     invoke-virtual {p1}, Lcom/google/android/gms/common/internal/f;->o()Z
@@ -1116,10 +1016,8 @@
 
     if-eqz p1, :cond_1
 
-    .line 6
     iput-object v0, p0, Lcom/google/android/gms/common/api/internal/k0;->k:Lf/f/b/b/l/e;
 
-    .line 7
     :cond_1
     iput-object v0, p0, Lcom/google/android/gms/common/api/internal/k0;->o:Lcom/google/android/gms/common/internal/q;
 
@@ -1130,7 +1028,6 @@
 .method static synthetic q(Lcom/google/android/gms/common/api/internal/k0;Lcom/google/android/gms/common/ConnectionResult;)Z
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/google/android/gms/common/api/internal/k0;->w(Lcom/google/android/gms/common/ConnectionResult;)Z
 
     move-result p0
@@ -1141,7 +1038,6 @@
 .method static synthetic r(Lcom/google/android/gms/common/api/internal/k0;)Ljava/util/concurrent/locks/Lock;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lcom/google/android/gms/common/api/internal/k0;->b:Ljava/util/concurrent/locks/Lock;
 
     return-object p0
@@ -1153,12 +1049,10 @@
         value = "mLock"
     .end annotation
 
-    .line 1
     iget v0, p0, Lcom/google/android/gms/common/api/internal/k0;->g:I
 
     if-eq v0, p1, :cond_0
 
-    .line 2
     iget-object v0, p0, Lcom/google/android/gms/common/api/internal/k0;->a:Lcom/google/android/gms/common/api/internal/f1;
 
     iget-object v0, v0, Lcom/google/android/gms/common/api/internal/f1;->P:Lcom/google/android/gms/common/api/internal/w0;
@@ -1171,7 +1065,6 @@
 
     invoke-static {v1, v0}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 3
     invoke-static {p0}, Ljava/lang/String;->valueOf(Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object v0
@@ -1202,7 +1095,6 @@
 
     invoke-static {v1, v0}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 4
     iget v0, p0, Lcom/google/android/gms/common/api/internal/k0;->h:I
 
     const/16 v2, 0x21
@@ -1223,15 +1115,12 @@
 
     invoke-static {v1, v0}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 5
     iget v0, p0, Lcom/google/android/gms/common/api/internal/k0;->g:I
 
-    .line 6
     invoke-static {v0}, Lcom/google/android/gms/common/api/internal/k0;->v(I)Ljava/lang/String;
 
     move-result-object v0
 
-    .line 7
     invoke-static {p1}, Lcom/google/android/gms/common/api/internal/k0;->v(I)Ljava/lang/String;
 
     move-result-object p1
@@ -1280,10 +1169,8 @@
 
     invoke-direct {v0}, Ljava/lang/Exception;-><init>()V
 
-    .line 8
     invoke-static {v1, p1, v0}, Landroid/util/Log;->wtf(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
 
-    .line 9
     new-instance p1, Lcom/google/android/gms/common/ConnectionResult;
 
     const/16 v0, 0x8
@@ -1307,7 +1194,6 @@
 .method static synthetic u(Lcom/google/android/gms/common/api/internal/k0;)Lcom/google/android/gms/common/api/internal/f1;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lcom/google/android/gms/common/api/internal/k0;->a:Lcom/google/android/gms/common/api/internal/f1;
 
     return-object p0
@@ -1343,7 +1229,6 @@
         value = "mLock"
     .end annotation
 
-    .line 1
     iget-boolean v0, p0, Lcom/google/android/gms/common/api/internal/k0;->l:Z
 
     if-eqz v0, :cond_0
@@ -1370,10 +1255,8 @@
         value = "mLock"
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Lcom/google/android/gms/common/api/internal/k0;->l()V
 
-    .line 2
     invoke-virtual {p1}, Lcom/google/android/gms/common/ConnectionResult;->M()Z
 
     move-result v0
@@ -1382,12 +1265,10 @@
 
     invoke-direct {p0, v0}, Lcom/google/android/gms/common/api/internal/k0;->p(Z)V
 
-    .line 3
     iget-object v0, p0, Lcom/google/android/gms/common/api/internal/k0;->a:Lcom/google/android/gms/common/api/internal/f1;
 
     invoke-virtual {v0, p1}, Lcom/google/android/gms/common/api/internal/f1;->o(Lcom/google/android/gms/common/ConnectionResult;)V
 
-    .line 4
     iget-object v0, p0, Lcom/google/android/gms/common/api/internal/k0;->a:Lcom/google/android/gms/common/api/internal/f1;
 
     iget-object v0, v0, Lcom/google/android/gms/common/api/internal/f1;->Q:Lcom/google/android/gms/common/api/internal/t1;
@@ -1400,7 +1281,6 @@
 .method static synthetic y(Lcom/google/android/gms/common/api/internal/k0;)Z
     .locals 0
 
-    .line 1
     iget-boolean p0, p0, Lcom/google/android/gms/common/api/internal/k0;->m:Z
 
     return p0
@@ -1409,7 +1289,6 @@
 .method static synthetic z(Lcom/google/android/gms/common/api/internal/k0;)Lf/f/b/b/l/e;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lcom/google/android/gms/common/api/internal/k0;->k:Lf/f/b/b/l/e;
 
     return-object p0
@@ -1434,7 +1313,6 @@
 
     const/4 v0, 0x1
 
-    .line 1
     invoke-direct {p0, v0}, Lcom/google/android/gms/common/api/internal/k0;->t(I)Z
 
     move-result v0
@@ -1443,18 +1321,15 @@
 
     return-void
 
-    .line 2
     :cond_0
     invoke-direct {p0, p1, p2, p3}, Lcom/google/android/gms/common/api/internal/k0;->o(Lcom/google/android/gms/common/ConnectionResult;Lcom/google/android/gms/common/api/a;Z)V
 
-    .line 3
     invoke-direct {p0}, Lcom/google/android/gms/common/api/internal/k0;->h()Z
 
     move-result p1
 
     if-eqz p1, :cond_1
 
-    .line 4
     invoke-direct {p0}, Lcom/google/android/gms/common/api/internal/k0;->j()V
 
     :cond_1
@@ -1475,7 +1350,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance p1, Ljava/lang/IllegalStateException;
 
     const-string v0, "GoogleApiClient is not connected yet."
@@ -1499,7 +1373,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/common/api/internal/k0;->a:Lcom/google/android/gms/common/api/internal/f1;
 
     iget-object v0, v0, Lcom/google/android/gms/common/api/internal/f1;->P:Lcom/google/android/gms/common/api/internal/w0;
@@ -1517,7 +1390,6 @@
         value = "mLock"
     .end annotation
 
-    .line 1
     new-instance p1, Lcom/google/android/gms/common/ConnectionResult;
 
     const/16 v0, 0x8
@@ -1537,7 +1409,6 @@
         value = "mLock"
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/common/api/internal/k0;->a:Lcom/google/android/gms/common/api/internal/f1;
 
     iget-object v0, v0, Lcom/google/android/gms/common/api/internal/f1;->p:Ljava/util/Map;
@@ -1546,34 +1417,26 @@
 
     const/4 v0, 0x0
 
-    .line 2
     iput-boolean v0, p0, Lcom/google/android/gms/common/api/internal/k0;->m:Z
 
     const/4 v1, 0x0
 
-    .line 3
     iput-object v1, p0, Lcom/google/android/gms/common/api/internal/k0;->e:Lcom/google/android/gms/common/ConnectionResult;
 
-    .line 4
     iput v0, p0, Lcom/google/android/gms/common/api/internal/k0;->g:I
 
     const/4 v2, 0x1
 
-    .line 5
     iput-boolean v2, p0, Lcom/google/android/gms/common/api/internal/k0;->l:Z
 
-    .line 6
     iput-boolean v0, p0, Lcom/google/android/gms/common/api/internal/k0;->n:Z
 
-    .line 7
     iput-boolean v0, p0, Lcom/google/android/gms/common/api/internal/k0;->p:Z
 
-    .line 8
     new-instance v3, Ljava/util/HashMap;
 
     invoke-direct {v3}, Ljava/util/HashMap;-><init>()V
 
-    .line 9
     iget-object v4, p0, Lcom/google/android/gms/common/api/internal/k0;->s:Ljava/util/Map;
 
     invoke-interface {v4}, Ljava/util/Map;->keySet()Ljava/util/Set;
@@ -1599,7 +1462,6 @@
 
     check-cast v6, Lcom/google/android/gms/common/api/a;
 
-    .line 10
     iget-object v7, p0, Lcom/google/android/gms/common/api/internal/k0;->a:Lcom/google/android/gms/common/api/internal/f1;
 
     iget-object v7, v7, Lcom/google/android/gms/common/api/internal/f1;->g:Ljava/util/Map;
@@ -1614,7 +1476,6 @@
 
     check-cast v7, Lcom/google/android/gms/common/api/a$f;
 
-    .line 11
     invoke-virtual {v6}, Lcom/google/android/gms/common/api/a;->c()Lcom/google/android/gms/common/api/a$e;
 
     move-result-object v8
@@ -1635,7 +1496,6 @@
     :goto_1
     or-int/2addr v5, v8
 
-    .line 12
     iget-object v8, p0, Lcom/google/android/gms/common/api/internal/k0;->s:Ljava/util/Map;
 
     invoke-interface {v8, v6}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
@@ -1648,19 +1508,16 @@
 
     move-result v8
 
-    .line 13
     invoke-interface {v7}, Lcom/google/android/gms/common/api/a$f;->j()Z
 
     move-result v9
 
     if-eqz v9, :cond_2
 
-    .line 14
     iput-boolean v2, p0, Lcom/google/android/gms/common/api/internal/k0;->m:Z
 
     if-eqz v8, :cond_1
 
-    .line 15
     iget-object v9, p0, Lcom/google/android/gms/common/api/internal/k0;->j:Ljava/util/Set;
 
     invoke-virtual {v6}, Lcom/google/android/gms/common/api/a;->a()Lcom/google/android/gms/common/api/a$c;
@@ -1671,11 +1528,9 @@
 
     goto :goto_2
 
-    .line 16
     :cond_1
     iput-boolean v0, p0, Lcom/google/android/gms/common/api/internal/k0;->l:Z
 
-    .line 17
     :cond_2
     :goto_2
     new-instance v9, Lcom/google/android/gms/common/api/internal/m0;
@@ -1689,40 +1544,33 @@
     :cond_3
     if-eqz v5, :cond_4
 
-    .line 18
     iput-boolean v0, p0, Lcom/google/android/gms/common/api/internal/k0;->m:Z
 
-    .line 19
     :cond_4
     iget-boolean v0, p0, Lcom/google/android/gms/common/api/internal/k0;->m:Z
 
     if-eqz v0, :cond_5
 
-    .line 20
     iget-object v0, p0, Lcom/google/android/gms/common/api/internal/k0;->r:Lcom/google/android/gms/common/internal/f;
 
     iget-object v2, p0, Lcom/google/android/gms/common/api/internal/k0;->a:Lcom/google/android/gms/common/api/internal/f1;
 
     iget-object v2, v2, Lcom/google/android/gms/common/api/internal/f1;->P:Lcom/google/android/gms/common/api/internal/w0;
 
-    .line 21
     invoke-static {v2}, Ljava/lang/System;->identityHashCode(Ljava/lang/Object;)I
 
     move-result v2
 
-    .line 22
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v2
 
     invoke-virtual {v0, v2}, Lcom/google/android/gms/common/internal/f;->p(Ljava/lang/Integer;)V
 
-    .line 23
     new-instance v10, Lcom/google/android/gms/common/api/internal/t0;
 
     invoke-direct {v10, p0, v1}, Lcom/google/android/gms/common/api/internal/t0;-><init>(Lcom/google/android/gms/common/api/internal/k0;Lcom/google/android/gms/common/api/internal/l0;)V
 
-    .line 24
     iget-object v4, p0, Lcom/google/android/gms/common/api/internal/k0;->t:Lcom/google/android/gms/common/api/a$a;
 
     iget-object v5, p0, Lcom/google/android/gms/common/api/internal/k0;->c:Landroid/content/Context;
@@ -1731,21 +1579,18 @@
 
     iget-object v0, v0, Lcom/google/android/gms/common/api/internal/f1;->P:Lcom/google/android/gms/common/api/internal/w0;
 
-    .line 25
     invoke-virtual {v0}, Lcom/google/android/gms/common/api/i;->r()Landroid/os/Looper;
 
     move-result-object v6
 
     iget-object v7, p0, Lcom/google/android/gms/common/api/internal/k0;->r:Lcom/google/android/gms/common/internal/f;
 
-    .line 26
     invoke-virtual {v7}, Lcom/google/android/gms/common/internal/f;->m()Lf/f/b/b/l/a;
 
     move-result-object v8
 
     move-object v9, v10
 
-    .line 27
     invoke-virtual/range {v4 .. v10}, Lcom/google/android/gms/common/api/a$a;->c(Landroid/content/Context;Landroid/os/Looper;Lcom/google/android/gms/common/internal/f;Ljava/lang/Object;Lcom/google/android/gms/common/api/i$b;Lcom/google/android/gms/common/api/i$c;)Lcom/google/android/gms/common/api/a$f;
 
     move-result-object v0
@@ -1754,7 +1599,6 @@
 
     iput-object v0, p0, Lcom/google/android/gms/common/api/internal/k0;->k:Lf/f/b/b/l/e;
 
-    .line 28
     :cond_5
     iget-object v0, p0, Lcom/google/android/gms/common/api/internal/k0;->a:Lcom/google/android/gms/common/api/internal/f1;
 
@@ -1766,10 +1610,8 @@
 
     iput v0, p0, Lcom/google/android/gms/common/api/internal/k0;->h:I
 
-    .line 29
     iget-object v0, p0, Lcom/google/android/gms/common/api/internal/k0;->u:Ljava/util/ArrayList;
 
-    .line 30
     invoke-static {}, Lcom/google/android/gms/common/api/internal/i1;->a()Ljava/util/concurrent/ExecutorService;
 
     move-result-object v1
@@ -1782,7 +1624,6 @@
 
     move-result-object v1
 
-    .line 31
     invoke-virtual {v0, v1}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
     return-void
@@ -1800,15 +1641,12 @@
         value = "mLock"
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Lcom/google/android/gms/common/api/internal/k0;->l()V
 
     const/4 v0, 0x1
 
-    .line 2
     invoke-direct {p0, v0}, Lcom/google/android/gms/common/api/internal/k0;->p(Z)V
 
-    .line 3
     iget-object v1, p0, Lcom/google/android/gms/common/api/internal/k0;->a:Lcom/google/android/gms/common/api/internal/f1;
 
     const/4 v2, 0x0
@@ -1826,7 +1664,6 @@
 
     const/4 v0, 0x1
 
-    .line 1
     invoke-direct {p0, v0}, Lcom/google/android/gms/common/api/internal/k0;->t(I)Z
 
     move-result v0
@@ -1838,12 +1675,10 @@
     :cond_0
     if-eqz p1, :cond_1
 
-    .line 2
     iget-object v0, p0, Lcom/google/android/gms/common/api/internal/k0;->i:Landroid/os/Bundle;
 
     invoke-virtual {v0, p1}, Landroid/os/Bundle;->putAll(Landroid/os/Bundle;)V
 
-    .line 3
     :cond_1
     invoke-direct {p0}, Lcom/google/android/gms/common/api/internal/k0;->h()Z
 
@@ -1851,7 +1686,6 @@
 
     if-eqz p1, :cond_2
 
-    .line 4
     invoke-direct {p0}, Lcom/google/android/gms/common/api/internal/k0;->j()V
 
     :cond_2

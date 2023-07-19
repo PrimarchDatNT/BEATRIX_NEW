@@ -27,7 +27,6 @@
 .method constructor <init>(Lf/f/e/c/g;Ljava/lang/Object;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lf/f/e/c/g$a;->b:Lf/f/e/c/g;
 
     iput-object p2, p0, Lf/f/e/c/g$a;->a:Ljava/lang/Object;
@@ -42,7 +41,6 @@
 .method public run()V
     .locals 4
 
-    .line 1
     :try_start_0
     iget-object v0, p0, Lf/f/e/c/g$a;->b:Lf/f/e/c/g;
 
@@ -57,7 +55,6 @@
     :catch_0
     move-exception v0
 
-    .line 2
     iget-object v1, p0, Lf/f/e/c/g$a;->b:Lf/f/e/c/g;
 
     invoke-static {v1}, Lf/f/e/c/g;->b(Lf/f/e/c/g;)Lf/f/e/c/e;

@@ -31,21 +31,18 @@
 .method constructor <init>(Landroidx/recyclerview/widget/RecyclerView;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/puzzle/patchedworld/frame/PuzzleActivity$initRatioUI$1$1;->c:Landroidx/recyclerview/widget/RecyclerView;
 
     invoke-direct {p0}, Landroidx/recyclerview/widget/RecyclerView$ItemDecoration;-><init>()V
 
     const/high16 p1, 0x41200000    # 10.0f
 
-    .line 2
     invoke-static {p1}, Lcom/commsource/util/l0;->o(F)F
 
     move-result p1
 
     iput p1, p0, Lcom/commsource/puzzle/patchedworld/frame/PuzzleActivity$initRatioUI$1$1;->a:F
 
-    .line 3
     sget-object p1, Lcom/commsource/puzzle/patchedworld/frame/PuzzleActivity$initRatioUI$1$1$paint$2;->INSTANCE:Lcom/commsource/puzzle/patchedworld/frame/PuzzleActivity$initRatioUI$1$1$paint$2;
 
     invoke-static {p1}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
@@ -88,7 +85,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/puzzle/patchedworld/frame/PuzzleActivity$initRatioUI$1$1;->a:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -103,7 +99,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/puzzle/patchedworld/frame/PuzzleActivity$initRatioUI$1$1;->a:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -150,10 +145,8 @@
 
     invoke-static {p4, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-super {p0, p1, p2, p3, p4}, Landroidx/recyclerview/widget/RecyclerView$ItemDecoration;->getItemOffsets(Landroid/graphics/Rect;Landroid/view/View;Landroidx/recyclerview/widget/RecyclerView;Landroidx/recyclerview/widget/RecyclerView$State;)V
 
-    .line 2
     invoke-virtual {p3, p2}, Landroidx/recyclerview/widget/RecyclerView;->getChildAdapterPosition(Landroid/view/View;)I
 
     move-result p2
@@ -166,7 +159,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_0
     iget p2, p0, Lcom/commsource/puzzle/patchedworld/frame/PuzzleActivity$initRatioUI$1$1;->a:F
 
@@ -176,7 +168,6 @@
 
     goto :goto_1
 
-    .line 4
     :cond_1
     :goto_0
     iget p2, p0, Lcom/commsource/puzzle/patchedworld/frame/PuzzleActivity$initRatioUI$1$1;->a:F
@@ -191,7 +182,6 @@
 
     iput p2, p1, Landroid/graphics/Rect;->right:I
 
-    .line 5
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -229,10 +219,8 @@
 
     invoke-static {p3, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-super {p0, p1, p2, p3}, Landroidx/recyclerview/widget/RecyclerView$ItemDecoration;->onDrawOver(Landroid/graphics/Canvas;Landroidx/recyclerview/widget/RecyclerView;Landroidx/recyclerview/widget/RecyclerView$State;)V
 
-    .line 2
     iget-object p3, p0, Lcom/commsource/puzzle/patchedworld/frame/PuzzleActivity$initRatioUI$1$1;->c:Landroidx/recyclerview/widget/RecyclerView;
 
     invoke-virtual {p3}, Landroid/view/ViewGroup;->getChildCount()I
@@ -244,12 +232,10 @@
     :goto_0
     if-ge v1, p3, :cond_2
 
-    .line 3
     invoke-virtual {p2, v1}, Landroid/view/ViewGroup;->getChildAt(I)Landroid/view/View;
 
     move-result-object v2
 
-    .line 4
     invoke-virtual {p2, v2}, Landroidx/recyclerview/widget/RecyclerView;->getChildAdapterPosition(Landroid/view/View;)I
 
     move-result v3
@@ -263,7 +249,6 @@
     :cond_0
     const-string v3, "child"
 
-    .line 5
     invoke-static {v2, v3}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v2}, Landroid/view/View;->getRight()I
@@ -276,7 +261,6 @@
 
     add-float v6, v3, v4
 
-    .line 6
     invoke-virtual {p2}, Landroid/view/ViewGroup;->getHeight()I
 
     move-result v3
@@ -295,7 +279,6 @@
 
     sub-float v7, v3, v7
 
-    .line 7
     invoke-virtual {v2}, Landroid/view/View;->getRight()I
 
     move-result v2
@@ -306,7 +289,6 @@
 
     add-float v8, v2, v3
 
-    .line 8
     invoke-virtual {p2}, Landroid/view/ViewGroup;->getHeight()I
 
     move-result v2
@@ -321,14 +303,12 @@
 
     add-float v9, v2, v3
 
-    .line 9
     invoke-virtual {p0}, Lcom/commsource/puzzle/patchedworld/frame/PuzzleActivity$initRatioUI$1$1;->a()Landroid/graphics/Paint;
 
     move-result-object v10
 
     move-object v5, p1
 
-    .line 10
     invoke-virtual/range {v5 .. v10}, Landroid/graphics/Canvas;->drawLine(FFFFLandroid/graphics/Paint;)V
 
     :cond_1
@@ -336,7 +316,6 @@
 
     goto :goto_0
 
-    .line 11
     :cond_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

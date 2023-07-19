@@ -51,7 +51,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/util/ArrayList;
 
     invoke-direct {v1}, Ljava/util/ArrayList;-><init>()V
@@ -62,7 +61,6 @@
 
     if-eqz p1, :cond_4
 
-    .line 2
     invoke-interface {p1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v4
@@ -85,7 +83,6 @@
 
     if-eqz v6, :cond_0
 
-    .line 3
     invoke-virtual {v6}, Lcom/meitu/global/billing/purchase/data/MTGPurchase;->getPaymentType()I
 
     move-result v7
@@ -102,11 +99,9 @@
 
     if-nez v7, :cond_0
 
-    .line 4
     :cond_1
     invoke-virtual {v1, v6}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    .line 5
     invoke-virtual {v6}, Lcom/meitu/global/billing/purchase/data/MTGPurchase;->getPaymentType()I
 
     move-result v7
@@ -115,7 +110,6 @@
 
     if-eqz v5, :cond_3
 
-    .line 6
     invoke-virtual {v6}, Lcom/meitu/global/billing/purchase/data/MTGPurchase;->getPurchaseTime()J
 
     move-result-wide v7
@@ -141,7 +135,6 @@
     :cond_4
     move-object v5, v2
 
-    .line 7
     :cond_5
     instance-of v4, v5, Lcom/meitu/global/billing/purchase/data/SubsPurchase;
 
@@ -151,24 +144,20 @@
 
     if-eqz v5, :cond_8
 
-    .line 8
     check-cast v5, Lcom/meitu/global/billing/purchase/data/SubsPurchase;
 
-    .line 9
     invoke-virtual {v5}, Lcom/meitu/global/billing/purchase/data/SubsPurchase;->isInGracePeriod()Z
 
     move-result v4
 
     if-eqz v4, :cond_6
 
-    .line 10
     invoke-static {}, Lf/d/i/o;->L()I
 
     move-result v7
 
     if-nez v7, :cond_6
 
-    .line 11
     invoke-static {v3}, Lf/d/i/o;->C0(I)V
 
     goto :goto_1
@@ -176,10 +165,8 @@
     :cond_6
     if-nez v4, :cond_7
 
-    .line 12
     invoke-static {v6}, Lf/d/i/o;->C0(I)V
 
-    .line 13
     :cond_7
     :goto_1
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
@@ -192,7 +179,6 @@
 
     invoke-static {v7, v8, v9}, Lf/d/i/o;->I0(Landroid/content/Context;J)V
 
-    .line 14
     iget-object v7, p0, Lcom/commsource/billing/pro/GmsManager$d;->a:Lcom/commsource/billing/pro/GmsManager;
 
     invoke-virtual {v7}, Lcom/commsource/billing/pro/GmsManager;->i()Landroidx/lifecycle/MutableLiveData;
@@ -219,7 +205,6 @@
 
     goto :goto_2
 
-    .line 15
     :cond_8
     new-instance p1, Lcotlin/TypeCastException;
 
@@ -231,7 +216,6 @@
 
     throw p1
 
-    .line 16
     :cond_9
     :goto_2
     invoke-interface {v1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
@@ -287,13 +271,11 @@
     :goto_5
     if-eqz v4, :cond_e
 
-    .line 17
     invoke-static {v4}, Lf/d/i/o;->P0(Z)V
 
     :cond_e
     if-eqz p1, :cond_13
 
-    .line 18
     invoke-interface {p1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object p1
@@ -315,7 +297,6 @@
 
     if-eqz v5, :cond_11
 
-    .line 19
     invoke-virtual {v5}, Lcom/meitu/global/billing/purchase/data/MTGPurchase;->getPaymentType()I
 
     move-result v7
@@ -324,7 +305,6 @@
 
     if-eq v7, v8, :cond_10
 
-    .line 20
     invoke-static {}, Lcom/commsource/camera/z0/e;->F()Z
 
     move-result v7
@@ -337,7 +317,6 @@
 
     if-ne v7, v3, :cond_11
 
-    .line 21
     invoke-virtual {v5}, Lcom/meitu/global/billing/purchase/data/MTGPurchase;->getProductId()Ljava/lang/String;
 
     move-result-object v5
@@ -361,7 +340,6 @@
 
     move-object v2, v4
 
-    .line 22
     :cond_12
     check-cast v2, Lcom/meitu/global/billing/purchase/data/MTGPurchase;
 
@@ -376,10 +354,8 @@
     :goto_7
     if-eqz v3, :cond_15
 
-    .line 23
     invoke-static {v3}, Lf/d/i/o;->O0(Z)V
 
-    .line 24
     :cond_15
     iget-object p1, p0, Lcom/commsource/billing/pro/GmsManager$d;->a:Lcom/commsource/billing/pro/GmsManager;
 
@@ -389,12 +365,10 @@
 
     invoke-virtual {p1, v1}, Landroidx/lifecycle/MutableLiveData;->postValue(Ljava/lang/Object;)V
 
-    .line 25
     iget-object p1, p0, Lcom/commsource/billing/pro/GmsManager$d;->a:Lcom/commsource/billing/pro/GmsManager;
 
     invoke-static {p1}, Lcom/commsource/billing/pro/GmsManager;->d(Lcom/commsource/billing/pro/GmsManager;)V
 
-    .line 26
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

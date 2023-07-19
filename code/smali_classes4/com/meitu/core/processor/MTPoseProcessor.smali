@@ -11,15 +11,12 @@
 .method public constructor <init>()V
     .locals 2
 
-    .line 1
     invoke-direct {p0}, Lcom/meitu/core/processor/MTuneNativeBaseClass;-><init>()V
 
     const-wide/16 v0, 0x0
 
-    .line 2
     iput-wide v0, p0, Lcom/meitu/core/processor/MTPoseProcessor;->nativeInstance:J
 
-    .line 3
     :try_start_0
     invoke-static {}, Lcom/meitu/core/processor/MTPoseProcessor;->nCreate()J
 
@@ -31,7 +28,6 @@
 
     goto :goto_0
 
-    .line 4
     :catch_0
     invoke-static {}, Lcom/meitu/core/processor/MTPoseProcessor;->nCreate()J
 
@@ -121,12 +117,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/core/processor/MTPoseProcessor;->nativeInstance:J
 
     invoke-static {v1, v2, p1, p2, p3}, Lcom/meitu/core/processor/MTPoseProcessor;->nCopyTexToAnotherTexWithRealRect(JIII)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -141,7 +135,6 @@
 
     move-object v1, p0
 
-    .line 1
     iget-wide v2, v1, Lcom/meitu/core/processor/MTPoseProcessor;->nativeInstance:J
 
     move v4, p1
@@ -162,7 +155,6 @@
 
     invoke-static/range {v2 .. v11}, Lcom/meitu/core/processor/MTPoseProcessor;->nDrawTexture(JIIIIIIII)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -180,20 +172,16 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/core/processor/MTPoseProcessor;->nativeInstance:J
 
     invoke-static {v1, v2}, Lcom/meitu/core/processor/MTPoseProcessor;->nFinalize(J)V
 
     const-wide/16 v1, 0x0
 
-    .line 2
     iput-wide v1, p0, Lcom/meitu/core/processor/MTPoseProcessor;->nativeInstance:J
 
-    .line 3
     invoke-super {p0}, Ljava/lang/Object;->finalize()V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -206,7 +194,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/core/processor/MTPoseProcessor;->nativeInstance:J
 
     invoke-static {v1, v2}, Lcom/meitu/core/processor/MTPoseProcessor;->nGetEffectIncreasedRect(J)[F
@@ -225,7 +212,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/core/processor/MTPoseProcessor;->nativeInstance:J
 
     invoke-static {v1, v2}, Lcom/meitu/core/processor/MTPoseProcessor;->nGetLimitIncreasedRect(J)[F
@@ -244,7 +230,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/core/processor/MTPoseProcessor;->nativeInstance:J
 
     invoke-static {v1, v2, p1}, Lcom/meitu/core/processor/MTPoseProcessor;->nGetOrigEdgePoseLandmarks(JI)[F
@@ -263,7 +248,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/core/processor/MTPoseProcessor;->nativeInstance:J
 
     invoke-static {v1, v2, p1, p2}, Lcom/meitu/core/processor/MTPoseProcessor;->nGetPoseEffectCapacity(JII)[I
@@ -282,7 +266,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/core/processor/MTPoseProcessor;->nativeInstance:J
 
     invoke-static {v1, v2}, Lcom/meitu/core/processor/MTPoseProcessor;->nGetRealOutputRect(J)[I
@@ -301,7 +284,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/core/processor/MTPoseProcessor;->nativeInstance:J
 
     invoke-static {v1, v2}, Lcom/meitu/core/processor/MTPoseProcessor;->nGetRectForOutputTex(J)[I
@@ -320,7 +302,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/core/processor/MTPoseProcessor;->nativeInstance:J
 
     invoke-static {v1, v2}, Lcom/meitu/core/processor/MTPoseProcessor;->nGetTexRaduceRate(J)F
@@ -339,12 +320,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/core/processor/MTPoseProcessor;->nativeInstance:J
 
     invoke-static {v1, v2}, Lcom/meitu/core/processor/MTPoseProcessor;->nInitialize(J)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -357,12 +336,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/core/processor/MTPoseProcessor;->nativeInstance:J
 
     invoke-static {v1, v2, p1}, Lcom/meitu/core/processor/MTPoseProcessor;->nLoadMaskDataToTex(JI)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -375,12 +352,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/core/processor/MTPoseProcessor;->nativeInstance:J
 
     invoke-static {v1, v2}, Lcom/meitu/core/processor/MTPoseProcessor;->nRelease(J)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -393,7 +368,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/core/processor/MTPoseProcessor;->nativeInstance:J
 
     invoke-static {v1, v2}, Lcom/meitu/core/processor/MTPoseProcessor;->nReset(J)V
@@ -410,7 +384,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/core/processor/MTPoseProcessor;->nativeInstance:J
 
     move v3, p1
@@ -423,7 +396,6 @@
 
     invoke-static/range {v1 .. v6}, Lcom/meitu/core/processor/MTPoseProcessor;->nSetBackgroundColor(JFFFF)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -436,7 +408,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/core/processor/MTPoseProcessor;->nativeInstance:J
 
     invoke-static {v1, v2, p1}, Lcom/meitu/core/processor/MTPoseProcessor;->nSetDebug(JI)V
@@ -453,12 +424,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/core/processor/MTPoseProcessor;->nativeInstance:J
 
     invoke-static {v1, v2, p1, p2}, Lcom/meitu/core/processor/MTPoseProcessor;->nSetIncreasedRect(J[FF)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -471,12 +440,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/core/processor/MTPoseProcessor;->nativeInstance:J
 
     invoke-static {v1, v2, p1, p2}, Lcom/meitu/core/processor/MTPoseProcessor;->nSetMaxTexWHInfo(JII)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -489,7 +456,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/core/processor/MTPoseProcessor;->nativeInstance:J
 
     move v3, p1
@@ -502,7 +468,6 @@
 
     invoke-static/range {v1 .. v6}, Lcom/meitu/core/processor/MTPoseProcessor;->nSetNewMaskData(JIIII)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -515,7 +480,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/core/processor/MTPoseProcessor;->nativeInstance:J
 
     move v3, p1
@@ -528,7 +492,6 @@
 
     invoke-static/range {v1 .. v6}, Lcom/meitu/core/processor/MTPoseProcessor;->nSetOriginWHInfo(JIIII)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -541,12 +504,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/core/processor/MTPoseProcessor;->nativeInstance:J
 
     invoke-static {v1, v2, p1, p2, p3}, Lcom/meitu/core/processor/MTPoseProcessor;->nSetParameterValues(JI[FI)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -561,7 +522,6 @@
 
     move-object v1, p0
 
-    .line 1
     iget-wide v2, v1, Lcom/meitu/core/processor/MTPoseProcessor;->nativeInstance:J
 
     move v4, p1
@@ -582,7 +542,6 @@
 
     invoke-static/range {v2 .. v11}, Lcom/meitu/core/processor/MTPoseProcessor;->nSetPoseParam(JII[FI[F[F[FI)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

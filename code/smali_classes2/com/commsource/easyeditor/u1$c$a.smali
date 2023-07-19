@@ -27,7 +27,6 @@
 .method constructor <init>(Lcom/commsource/easyeditor/u1$c;Landroid/view/View;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/easyeditor/u1$c$a;->b:Lcom/commsource/easyeditor/u1$c;
 
     iput-object p2, p0, Lcom/commsource/easyeditor/u1$c$a;->a:Landroid/view/View;
@@ -46,7 +45,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/easyeditor/u1$c$a;->b:Lcom/commsource/easyeditor/u1$c;
 
     iget-object v2, p0, Lcom/commsource/easyeditor/u1$c$a;->a:Landroid/view/View;
@@ -55,7 +53,6 @@
 
     invoke-static {v1, v2, v3}, Lcom/commsource/easyeditor/u1$c;->a(Lcom/commsource/easyeditor/u1$c;Landroid/view/View;Z)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/easyeditor/u1$c$a;->a:Landroid/view/View;
 
     invoke-virtual {v1}, Landroid/view/View;->getViewTreeObserver()Landroid/view/ViewTreeObserver;
@@ -64,7 +61,6 @@
 
     invoke-virtual {v1, p0}, Landroid/view/ViewTreeObserver;->removeOnPreDrawListener(Landroid/view/ViewTreeObserver$OnPreDrawListener;)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v3

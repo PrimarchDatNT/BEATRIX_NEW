@@ -11,12 +11,10 @@
 .method constructor <init>(Landroid/content/Context;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/4 p1, 0x0
 
-    .line 2
     iput-boolean p1, p0, Lcom/google/android/gms/measurement/internal/ua;->a:Z
 
     return-void
@@ -25,7 +23,6 @@
 .method public static a()Z
     .locals 2
 
-    .line 1
     invoke-static {}, Landroid/os/Looper;->myLooper()Landroid/os/Looper;
 
     move-result-object v0

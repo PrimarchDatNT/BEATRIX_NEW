@@ -36,10 +36,8 @@
 .method constructor <init>(Lcom/bumptech/glide/load/engine/bitmap_recycle/j$b;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/bumptech/glide/load/engine/bitmap_recycle/j$a;->a:Lcom/bumptech/glide/load/engine/bitmap_recycle/j$b;
 
     return-void
@@ -50,7 +48,6 @@
 .method public a()V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/bumptech/glide/load/engine/bitmap_recycle/j$a;->a:Lcom/bumptech/glide/load/engine/bitmap_recycle/j$b;
 
     invoke-virtual {v0, p0}, Lcom/bumptech/glide/load/engine/bitmap_recycle/d;->c(Lcom/bumptech/glide/load/engine/bitmap_recycle/m;)V
@@ -68,10 +65,8 @@
         }
     .end annotation
 
-    .line 1
     iput p1, p0, Lcom/bumptech/glide/load/engine/bitmap_recycle/j$a;->b:I
 
-    .line 2
     iput-object p2, p0, Lcom/bumptech/glide/load/engine/bitmap_recycle/j$a;->c:Ljava/lang/Class;
 
     return-void
@@ -80,17 +75,14 @@
 .method public equals(Ljava/lang/Object;)Z
     .locals 3
 
-    .line 1
     instance-of v0, p1, Lcom/bumptech/glide/load/engine/bitmap_recycle/j$a;
 
     const/4 v1, 0x0
 
     if-eqz v0, :cond_0
 
-    .line 2
     check-cast p1, Lcom/bumptech/glide/load/engine/bitmap_recycle/j$a;
 
-    .line 3
     iget v0, p0, Lcom/bumptech/glide/load/engine/bitmap_recycle/j$a;->b:I
 
     iget v2, p1, Lcom/bumptech/glide/load/engine/bitmap_recycle/j$a;->b:I
@@ -112,12 +104,10 @@
 .method public hashCode()I
     .locals 2
 
-    .line 1
     iget v0, p0, Lcom/bumptech/glide/load/engine/bitmap_recycle/j$a;->b:I
 
     mul-int/lit8 v0, v0, 0x1f
 
-    .line 2
     iget-object v1, p0, Lcom/bumptech/glide/load/engine/bitmap_recycle/j$a;->c:Ljava/lang/Class;
 
     if-eqz v1, :cond_0
@@ -140,7 +130,6 @@
 .method public toString()Ljava/lang/String;
     .locals 2
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V

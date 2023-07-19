@@ -42,7 +42,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/studio/function/ar/StudioMyArFragment$c$a;->a:Lcom/commsource/studio/function/ar/StudioMyArFragment$c;
 
     iget-object v0, v0, Lcom/commsource/studio/function/ar/StudioMyArFragment$c;->a:Lcom/commsource/studio/function/ar/StudioMyArFragment;
@@ -59,7 +58,6 @@
 
     invoke-virtual {v0, v2}, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/c1;->O0(Z)V
 
-    .line 2
     iget-object v0, p0, Lcom/commsource/studio/function/ar/StudioMyArFragment$c$a;->a:Lcom/commsource/studio/function/ar/StudioMyArFragment$c;
 
     iget-object v0, v0, Lcom/commsource/studio/function/ar/StudioMyArFragment$c;->a:Lcom/commsource/studio/function/ar/StudioMyArFragment;
@@ -86,14 +84,12 @@
 
     if-eqz v0, :cond_0
 
-    .line 3
     invoke-virtual {v0}, Lcom/meitu/template/bean/ArMaterial;->isDownload()Z
 
     move-result v0
 
     if-nez v0, :cond_0
 
-    .line 4
     iget-object v0, p0, Lcom/commsource/studio/function/ar/StudioMyArFragment$c$a;->a:Lcom/commsource/studio/function/ar/StudioMyArFragment$c;
 
     iget-object v0, v0, Lcom/commsource/studio/function/ar/StudioMyArFragment$c;->a:Lcom/commsource/studio/function/ar/StudioMyArFragment;
@@ -106,7 +102,6 @@
 
     invoke-virtual {v0, v1}, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/c1;->y(Lcom/meitu/template/bean/ArMaterial;)V
 
-    .line 5
     :cond_0
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

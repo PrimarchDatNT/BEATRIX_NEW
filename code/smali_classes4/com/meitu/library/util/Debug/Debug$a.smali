@@ -26,7 +26,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/meitu/library/util/Debug/Debug$DebugLevel;->values()[Lcom/meitu/library/util/Debug/Debug$DebugLevel;
 
     move-result-object v1

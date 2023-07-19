@@ -29,7 +29,6 @@
 .method constructor <init>(Ljava/lang/Iterable;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/common/collect/h1$b;->b:Ljava/lang/Iterable;
 
     invoke-direct {p0}, Lcom/google/common/collect/b0;-><init>()V
@@ -49,7 +48,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/h1$b;->b:Ljava/lang/Iterable;
 
     invoke-static {v0}, Lcom/google/common/collect/Iterators;->r(Ljava/lang/Iterable;)Ljava/util/Iterator;
@@ -62,7 +60,6 @@
 .method public toString()Ljava/lang/String;
     .locals 2
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V

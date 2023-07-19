@@ -15,7 +15,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -26,20 +25,16 @@
 .method public create(Lcom/google/android/datatransport/runtime/backends/h;)Lcom/google/android/datatransport/runtime/backends/m;
     .locals 3
 
-    .line 1
     new-instance v0, Lcom/google/android/datatransport/cct/e;
 
-    .line 2
     invoke-virtual {p1}, Lcom/google/android/datatransport/runtime/backends/h;->c()Landroid/content/Context;
 
     move-result-object v1
 
-    .line 3
     invoke-virtual {p1}, Lcom/google/android/datatransport/runtime/backends/h;->f()Lcom/google/android/datatransport/k/y/a;
 
     move-result-object v2
 
-    .line 4
     invoke-virtual {p1}, Lcom/google/android/datatransport/runtime/backends/h;->e()Lcom/google/android/datatransport/k/y/a;
 
     move-result-object p1

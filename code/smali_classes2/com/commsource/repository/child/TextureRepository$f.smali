@@ -31,7 +31,6 @@
 .method constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -62,7 +61,6 @@
 
     goto :goto_1
 
-    .line 1
     :cond_0
     invoke-virtual {p1}, Lcom/commsource/studio/function/background/TextureMaterial;->getSort()I
 
@@ -74,7 +72,6 @@
 
     if-ne v2, v3, :cond_4
 
-    .line 2
     invoke-virtual {p1}, Lcom/commsource/studio/function/background/TextureMaterial;->isInternal()Z
 
     move-result v2
@@ -89,7 +86,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_1
     invoke-virtual {p1}, Lcom/commsource/studio/function/background/TextureMaterial;->isInternal()Z
 
@@ -101,7 +97,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_2
     invoke-virtual {p2}, Lcom/commsource/studio/function/background/TextureMaterial;->isInternal()Z
 
@@ -111,14 +106,12 @@
 
     const/4 v1, 0x1
 
-    .line 5
     :cond_3
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
 
-    .line 6
     :cond_4
     invoke-virtual {p1}, Lcom/commsource/studio/function/background/TextureMaterial;->getSort()I
 
@@ -136,7 +129,6 @@
 
     return p1
 
-    .line 7
     :cond_5
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -151,7 +143,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Lcom/commsource/studio/function/background/TextureMaterial;
 
     check-cast p2, Lcom/commsource/studio/function/background/TextureMaterial;

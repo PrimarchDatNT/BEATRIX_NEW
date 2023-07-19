@@ -58,7 +58,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p2, Ljava/lang/String;
 
     invoke-virtual {p0, p1, p2}, Lcom/commsource/studio/mixlayer/ImageStyleSubFragment$colorAdapter$2$b;->b(ILjava/lang/String;)Z
@@ -77,12 +76,10 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/studio/mixlayer/ImageStyleSubFragment$colorAdapter$2$b;->a:Lcom/commsource/widget/h1/e;
 
     invoke-virtual {v0, p2}, Lcom/commsource/widget/h1/e;->E(Ljava/lang/Object;)V
 
-    .line 2
     iget-object p2, p0, Lcom/commsource/studio/mixlayer/ImageStyleSubFragment$colorAdapter$2$b;->b:Lcom/commsource/studio/mixlayer/ImageStyleSubFragment$colorAdapter$2;
 
     iget-object p2, p2, Lcom/commsource/studio/mixlayer/ImageStyleSubFragment$colorAdapter$2;->this$0:Lcom/commsource/studio/mixlayer/ImageStyleSubFragment;
@@ -91,7 +88,6 @@
 
     invoke-static {p2, v0}, Lcom/commsource/studio/mixlayer/ImageStyleSubFragment;->M(Lcom/commsource/studio/mixlayer/ImageStyleSubFragment;Z)V
 
-    .line 3
     iget-object p2, p0, Lcom/commsource/studio/mixlayer/ImageStyleSubFragment$colorAdapter$2$b;->b:Lcom/commsource/studio/mixlayer/ImageStyleSubFragment$colorAdapter$2;
 
     iget-object p2, p2, Lcom/commsource/studio/mixlayer/ImageStyleSubFragment$colorAdapter$2;->this$0:Lcom/commsource/studio/mixlayer/ImageStyleSubFragment;
@@ -100,7 +96,6 @@
 
     invoke-static {p2, v1}, Lcom/commsource/studio/mixlayer/ImageStyleSubFragment;->L(Lcom/commsource/studio/mixlayer/ImageStyleSubFragment;Z)V
 
-    .line 4
     iget-object p2, p0, Lcom/commsource/studio/mixlayer/ImageStyleSubFragment$colorAdapter$2$b;->b:Lcom/commsource/studio/mixlayer/ImageStyleSubFragment$colorAdapter$2;
 
     iget-object p2, p2, Lcom/commsource/studio/mixlayer/ImageStyleSubFragment$colorAdapter$2;->this$0:Lcom/commsource/studio/mixlayer/ImageStyleSubFragment;
@@ -117,7 +112,6 @@
 
     invoke-virtual {p2, v2}, Landroidx/lifecycle/MutableLiveData;->setValue(Ljava/lang/Object;)V
 
-    .line 5
     iget-object p2, p0, Lcom/commsource/studio/mixlayer/ImageStyleSubFragment$colorAdapter$2$b;->b:Lcom/commsource/studio/mixlayer/ImageStyleSubFragment$colorAdapter$2;
 
     iget-object p2, p2, Lcom/commsource/studio/mixlayer/ImageStyleSubFragment$colorAdapter$2;->this$0:Lcom/commsource/studio/mixlayer/ImageStyleSubFragment;
@@ -136,7 +130,6 @@
 
     invoke-virtual {p2, v2}, Lcom/commsource/studio/mixlayer/ImageStyleViewModel;->E(I)V
 
-    .line 6
     iget-object p2, p0, Lcom/commsource/studio/mixlayer/ImageStyleSubFragment$colorAdapter$2$b;->b:Lcom/commsource/studio/mixlayer/ImageStyleSubFragment$colorAdapter$2;
 
     iget-object p2, p2, Lcom/commsource/studio/mixlayer/ImageStyleSubFragment$colorAdapter$2;->this$0:Lcom/commsource/studio/mixlayer/ImageStyleSubFragment;
@@ -155,7 +148,6 @@
 
     invoke-static {p2, v0, v2, v3, v2}, Lcom/commsource/editengine/d;->u(Lcom/commsource/editengine/d;ZLcotlin/jvm/u/a;ILjava/lang/Object;)V
 
-    .line 7
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1

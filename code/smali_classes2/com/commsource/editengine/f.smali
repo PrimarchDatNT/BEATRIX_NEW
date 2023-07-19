@@ -47,38 +47,32 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     new-instance v0, Landroid/graphics/Point;
 
     invoke-direct {v0}, Landroid/graphics/Point;-><init>()V
 
     iput-object v0, p0, Lcom/commsource/editengine/f;->a:Landroid/graphics/Point;
 
-    .line 3
     new-instance v0, Landroid/graphics/RectF;
 
     invoke-direct {v0}, Landroid/graphics/RectF;-><init>()V
 
     iput-object v0, p0, Lcom/commsource/editengine/f;->b:Landroid/graphics/RectF;
 
-    .line 4
     new-instance v0, Lcom/commsource/studio/shader/g;
 
     invoke-direct {v0}, Lcom/commsource/studio/shader/g;-><init>()V
 
     iput-object v0, p0, Lcom/commsource/editengine/f;->c:Lcom/commsource/studio/shader/g;
 
-    .line 5
     new-instance v0, Lcom/commsource/editengine/b;
 
     invoke-direct {v0}, Lcom/commsource/editengine/b;-><init>()V
 
     iput-object v0, p0, Lcom/commsource/editengine/f;->d:Lcom/commsource/editengine/b;
 
-    .line 6
     new-instance v0, Lcom/commsource/studio/MatrixBox;
 
     invoke-direct {v0}, Lcom/commsource/studio/MatrixBox;-><init>()V
@@ -99,15 +93,12 @@
 
     const/high16 v2, 0x3f800000    # 1.0f
 
-    .line 1
     invoke-static {v1, v1, v1, v2}, Landroid/opengl/GLES20;->glClearColor(FFFF)V
 
     const/16 v1, 0x4100
 
-    .line 2
     invoke-static {v1}, Landroid/opengl/GLES20;->glClear(I)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -122,23 +113,19 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     invoke-virtual {p1}, Lcom/commsource/easyeditor/utils/opengl/f;->h()Z
 
     move-result v1
 
     if-nez v1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 3
     :cond_0
     invoke-direct {p0}, Lcom/commsource/editengine/f;->c()V
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/editengine/f;->a:Landroid/graphics/Point;
 
     iget v2, v1, Landroid/graphics/Point;->x:I
@@ -153,11 +140,9 @@
 
     goto/16 :goto_0
 
-    .line 5
     :cond_1
     sget-object v3, Lcom/commsource/easyeditor/utils/opengl/p;->b:[F
 
-    .line 6
     iget v4, p1, Lcom/commsource/easyeditor/utils/opengl/f;->c:I
 
     iget v5, p1, Lcom/commsource/easyeditor/utils/opengl/f;->d:I
@@ -166,7 +151,6 @@
 
     move-result-object v1
 
-    .line 7
     iget-object v2, p0, Lcom/commsource/editengine/f;->a:Landroid/graphics/Point;
 
     iget v2, v2, Landroid/graphics/Point;->x:I
@@ -179,7 +163,6 @@
 
     div-float/2addr v2, v4
 
-    .line 8
     iget-object v4, p0, Lcom/commsource/editengine/f;->a:Landroid/graphics/Point;
 
     iget v4, v4, Landroid/graphics/Point;->y:I
@@ -198,7 +181,6 @@
 
     const/4 v6, 0x0
 
-    .line 9
     aget v7, v3, v6
 
     div-float/2addr v7, v2
@@ -223,7 +205,6 @@
 
     const/4 v8, 0x3
 
-    .line 10
     aget v9, v3, v8
 
     div-float/2addr v9, v4
@@ -256,14 +237,12 @@
 
     const/4 v2, 0x7
 
-    .line 11
     aget v3, v3, v2
 
     div-float/2addr v3, v4
 
     aput v3, v5, v2
 
-    .line 12
     iget-object v2, p0, Lcom/commsource/editengine/f;->c:Lcom/commsource/studio/shader/g;
 
     invoke-virtual {v2}, Lcom/commsource/studio/shader/a;->d()Lcom/commsource/studio/shader/BaseShader;
@@ -278,17 +257,14 @@
 
     invoke-virtual {v2, v5}, Lcom/commsource/studio/shader/d$a;->j([F)V
 
-    .line 13
     iget-object v2, p0, Lcom/commsource/editengine/f;->b:Landroid/graphics/RectF;
 
     invoke-virtual {v2, v1}, Landroid/graphics/RectF;->set(Landroid/graphics/RectF;)V
 
     const v2, 0x8d40
 
-    .line 14
     invoke-static {v2, v6}, Landroid/opengl/GLES20;->glBindFramebuffer(II)V
 
-    .line 15
     iget-object v2, p0, Lcom/commsource/editengine/f;->a:Landroid/graphics/Point;
 
     iget v3, v2, Landroid/graphics/Point;->x:I
@@ -299,15 +275,12 @@
 
     const/16 v2, 0xbe2
 
-    .line 16
     invoke-static {v2}, Landroid/opengl/GLES20;->glEnable(I)V
 
     const/16 v3, 0x303
 
-    .line 17
     invoke-static {v7, v3}, Landroid/opengl/GLES20;->glBlendFunc(II)V
 
-    .line 18
     iget-object v3, p0, Lcom/commsource/editengine/f;->c:Lcom/commsource/studio/shader/g;
 
     iget-object v4, p0, Lcom/commsource/editengine/f;->p:Lcom/commsource/studio/MatrixBox;
@@ -340,15 +313,12 @@
 
     invoke-virtual {v3, p1, v1}, Lcom/commsource/studio/shader/g;->k(Lcom/commsource/easyeditor/utils/opengl/f;[F)V
 
-    .line 19
     invoke-static {v2}, Landroid/opengl/GLES20;->glDisable(I)V
 
-    .line 20
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 21
     :cond_2
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -373,14 +343,12 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/editengine/f;->d:Lcom/commsource/editengine/b;
 
     check-cast p1, Lcom/commsource/easyeditor/utils/opengl/e;
 
     invoke-virtual {v1, p1}, Lcom/commsource/editengine/b;->j(Lcom/commsource/easyeditor/utils/opengl/e;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -393,7 +361,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -408,7 +375,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/editengine/f;->d:Lcom/commsource/editengine/b;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -425,7 +391,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/editengine/f;->c:Lcom/commsource/studio/shader/g;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -442,7 +407,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/editengine/f;->b:Landroid/graphics/RectF;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -459,7 +423,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/editengine/f;->p:Lcom/commsource/studio/MatrixBox;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -476,7 +439,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/editengine/f;->f:Lcom/commsource/editengine/d;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -491,7 +453,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/editengine/f;->g:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -508,7 +469,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/editengine/f;->a:Landroid/graphics/Point;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -523,7 +483,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/editengine/f;->d:Lcom/commsource/editengine/b;
 
     invoke-virtual {v1}, Lcom/commsource/editengine/b;->c()Lcom/commsource/easyeditor/utils/opengl/e;
@@ -534,7 +493,6 @@
 
     invoke-virtual {v1}, Lcom/commsource/easyeditor/utils/opengl/e;->x()V
 
-    .line 2
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -564,7 +522,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/editengine/f;->d:Lcom/commsource/editengine/b;
 
     invoke-virtual {v1}, Lcom/commsource/editengine/b;->c()Lcom/commsource/easyeditor/utils/opengl/e;
@@ -579,7 +536,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/easyeditor/utils/opengl/e;->F(Ljava/lang/Runnable;)V
 
-    .line 2
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -601,7 +557,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/editengine/f;->p:Lcom/commsource/studio/MatrixBox;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -620,7 +575,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/editengine/f;->f:Lcom/commsource/editengine/d;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -635,20 +589,16 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/commsource/easyeditor/a2/b;->N()V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/editengine/f;->c:Lcom/commsource/studio/shader/g;
 
     invoke-virtual {v1}, Lcom/commsource/studio/shader/a;->e()V
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/editengine/f;->d:Lcom/commsource/editengine/b;
 
     invoke-virtual {v1}, Lcom/commsource/editengine/b;->g()V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -661,17 +611,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/editengine/f;->d:Lcom/commsource/editengine/b;
 
     invoke-virtual {v1}, Lcom/commsource/editengine/b;->h()V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/editengine/f;->c:Lcom/commsource/studio/shader/g;
 
     invoke-virtual {v1}, Lcom/commsource/studio/shader/a;->f()V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -684,14 +631,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/editengine/f;->g:Z
 
     const/4 v2, 0x0
 
     if-eqz v1, :cond_1
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/editengine/f;->f:Lcom/commsource/editengine/d;
 
     if-eqz v1, :cond_0
@@ -705,7 +650,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_1
     iget-object v1, p0, Lcom/commsource/editengine/f;->f:Lcom/commsource/editengine/d;
 
@@ -718,7 +662,6 @@
     :cond_2
     invoke-direct {p0, v2}, Lcom/commsource/editengine/f;->d(Lcom/commsource/easyeditor/utils/opengl/f;)V
 
-    .line 4
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -734,10 +677,8 @@
 
     const/16 v1, 0xb71
 
-    .line 1
     invoke-static {v1}, Landroid/opengl/GLES20;->glDisable(I)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -750,10 +691,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/editengine/f;->g:Z
 
-    .line 2
     iget-object p1, p0, Lcom/commsource/editengine/f;->d:Lcom/commsource/editengine/b;
 
     invoke-virtual {p1}, Lcom/commsource/editengine/b;->c()Lcom/commsource/easyeditor/utils/opengl/e;
@@ -764,7 +703,6 @@
 
     invoke-virtual {p1}, Lcom/commsource/easyeditor/utils/opengl/e;->x()V
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

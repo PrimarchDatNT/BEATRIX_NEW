@@ -32,7 +32,6 @@
 
     const-string v1, "IdentifierManager"
 
-    .line 1
     invoke-static {}, Lcom/bun/miitmdid/c/j/b;->d()V
 
     const-string v2, "com.android.id.impl.IdProviderImpl"
@@ -169,7 +168,6 @@
 .method public static a(Landroid/content/Context;)Ljava/lang/String;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/bun/miitmdid/c/j/b;->e:Ljava/lang/reflect/Method;
 
     invoke-static {p0, v0}, Lcom/bun/miitmdid/c/j/b;->b(Landroid/content/Context;Ljava/lang/reflect/Method;)Ljava/lang/String;
@@ -182,7 +180,6 @@
 .method private static b(Landroid/content/Context;Ljava/lang/reflect/Method;)Ljava/lang/String;
     .locals 7
 
-    .line 1
     sget-object v0, Lcom/bun/miitmdid/c/j/b;->a:Ljava/lang/Object;
 
     const/4 v1, 0x0
@@ -264,7 +261,6 @@
 .method public static c()Z
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/bun/miitmdid/c/j/b;->b:Ljava/lang/Class;
 
     if-eqz v0, :cond_0
@@ -287,7 +283,6 @@
 .method private static synthetic d()V
     .locals 9
 
-    .line 1
     new-instance v8, Ln/a/b/c/e;
 
     const-class v0, Lcom/bun/miitmdid/c/j/b;
@@ -332,7 +327,6 @@
 .method public static e(Landroid/content/Context;)Ljava/lang/String;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/bun/miitmdid/c/j/b;->c:Ljava/lang/reflect/Method;
 
     invoke-static {p0, v0}, Lcom/bun/miitmdid/c/j/b;->b(Landroid/content/Context;Ljava/lang/reflect/Method;)Ljava/lang/String;
@@ -345,7 +339,6 @@
 .method public static f(Landroid/content/Context;)Ljava/lang/String;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/bun/miitmdid/c/j/b;->d:Ljava/lang/reflect/Method;
 
     invoke-static {p0, v0}, Lcom/bun/miitmdid/c/j/b;->b(Landroid/content/Context;Ljava/lang/reflect/Method;)Ljava/lang/String;
@@ -358,7 +351,6 @@
 .method static final synthetic g(Ljava/lang/reflect/Method;Ljava/lang/Object;[Ljava/lang/Object;Lorg/aspectj/lang/c;)Ljava/lang/Object;
     .locals 0
 
-    .line 1
     invoke-virtual {p0, p1, p2}, Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p0

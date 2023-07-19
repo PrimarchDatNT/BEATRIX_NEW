@@ -29,7 +29,6 @@
 .method constructor <init>(Lcom/meitu/library/analytics/sdk/content/e;Z[Lcom/meitu/library/analytics/sdk/content/Switcher;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/library/analytics/sdk/content/e$a;->c:Lcom/meitu/library/analytics/sdk/content/e;
 
     iput-boolean p2, p0, Lcom/meitu/library/analytics/sdk/content/e$a;->a:Z
@@ -50,17 +49,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/library/analytics/sdk/content/e$a;->c:Lcom/meitu/library/analytics/sdk/content/e;
 
     invoke-static {v1}, Lcom/meitu/library/analytics/sdk/content/e;->k(Lcom/meitu/library/analytics/sdk/content/e;)V
 
-    .line 2
     iget-object v1, p0, Lcom/meitu/library/analytics/sdk/content/e$a;->c:Lcom/meitu/library/analytics/sdk/content/e;
 
     invoke-static {v1}, Lcom/meitu/library/analytics/sdk/content/e;->l(Lcom/meitu/library/analytics/sdk/content/e;)V
 
-    .line 3
     iget-object v1, p0, Lcom/meitu/library/analytics/sdk/content/e$a;->c:Lcom/meitu/library/analytics/sdk/content/e;
 
     iget-boolean v2, p0, Lcom/meitu/library/analytics/sdk/content/e$a;->a:Z
@@ -73,19 +69,16 @@
 
     if-eqz v1, :cond_0
 
-    .line 4
     iget-object v1, p0, Lcom/meitu/library/analytics/sdk/content/e$a;->c:Lcom/meitu/library/analytics/sdk/content/e;
 
     invoke-virtual {v1}, Lcom/meitu/library/analytics/sdk/content/e;->y()V
 
-    .line 5
     iget-object v1, p0, Lcom/meitu/library/analytics/sdk/content/e$a;->c:Lcom/meitu/library/analytics/sdk/content/e;
 
     iget-object v2, p0, Lcom/meitu/library/analytics/sdk/content/e$a;->b:[Lcom/meitu/library/analytics/sdk/content/Switcher;
 
     invoke-static {v1, v2}, Lcom/meitu/library/analytics/sdk/content/e;->m(Lcom/meitu/library/analytics/sdk/content/e;[Lcom/meitu/library/analytics/sdk/content/Switcher;)V
 
-    .line 6
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

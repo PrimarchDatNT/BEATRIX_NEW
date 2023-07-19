@@ -162,98 +162,84 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/commsource/studio/sticker/StickerManager;
 
     invoke-direct {v1}, Lcom/commsource/studio/sticker/StickerManager;-><init>()V
 
     sput-object v1, Lcom/commsource/studio/sticker/StickerManager;->p:Lcom/commsource/studio/sticker/StickerManager;
 
-    .line 2
     new-instance v1, Lcom/commsource/beautyfilter/NoStickLiveData;
 
     invoke-direct {v1}, Lcom/commsource/beautyfilter/NoStickLiveData;-><init>()V
 
     sput-object v1, Lcom/commsource/studio/sticker/StickerManager;->a:Lcom/commsource/beautyfilter/NoStickLiveData;
 
-    .line 3
     new-instance v1, Lcom/commsource/beautyfilter/NoStickLiveData;
 
     invoke-direct {v1}, Lcom/commsource/beautyfilter/NoStickLiveData;-><init>()V
 
     sput-object v1, Lcom/commsource/studio/sticker/StickerManager;->b:Lcom/commsource/beautyfilter/NoStickLiveData;
 
-    .line 4
     new-instance v1, Lcom/commsource/beautyfilter/NoStickLiveData;
 
     invoke-direct {v1}, Lcom/commsource/beautyfilter/NoStickLiveData;-><init>()V
 
     sput-object v1, Lcom/commsource/studio/sticker/StickerManager;->c:Lcom/commsource/beautyfilter/NoStickLiveData;
 
-    .line 5
     new-instance v1, Lcom/commsource/beautyfilter/NoStickLiveData;
 
     invoke-direct {v1}, Lcom/commsource/beautyfilter/NoStickLiveData;-><init>()V
 
     sput-object v1, Lcom/commsource/studio/sticker/StickerManager;->d:Lcom/commsource/beautyfilter/NoStickLiveData;
 
-    .line 6
     new-instance v1, Lcom/commsource/beautyfilter/NoStickLiveData;
 
     invoke-direct {v1}, Lcom/commsource/beautyfilter/NoStickLiveData;-><init>()V
 
     sput-object v1, Lcom/commsource/studio/sticker/StickerManager;->e:Lcom/commsource/beautyfilter/NoStickLiveData;
 
-    .line 7
     new-instance v1, Landroid/util/SparseArray;
 
     invoke-direct {v1}, Landroid/util/SparseArray;-><init>()V
 
     sput-object v1, Lcom/commsource/studio/sticker/StickerManager;->f:Landroid/util/SparseArray;
 
-    .line 8
     new-instance v1, Landroid/util/SparseArray;
 
     invoke-direct {v1}, Landroid/util/SparseArray;-><init>()V
 
     sput-object v1, Lcom/commsource/studio/sticker/StickerManager;->g:Landroid/util/SparseArray;
 
-    .line 9
     new-instance v1, Landroid/util/SparseArray;
 
     invoke-direct {v1}, Landroid/util/SparseArray;-><init>()V
 
     sput-object v1, Lcom/commsource/studio/sticker/StickerManager;->h:Landroid/util/SparseArray;
 
-    .line 10
     new-instance v1, Ljava/util/ArrayList;
 
     invoke-direct {v1}, Ljava/util/ArrayList;-><init>()V
 
     sput-object v1, Lcom/commsource/studio/sticker/StickerManager;->i:Ljava/util/ArrayList;
 
-    .line 11
     new-instance v1, Ljava/util/ArrayList;
 
     invoke-direct {v1}, Ljava/util/ArrayList;-><init>()V
 
     sput-object v1, Lcom/commsource/studio/sticker/StickerManager;->j:Ljava/util/ArrayList;
 
-    .line 12
     new-instance v1, Ljava/util/ArrayList;
 
     invoke-direct {v1}, Ljava/util/ArrayList;-><init>()V
 
     sput-object v1, Lcom/commsource/studio/sticker/StickerManager;->k:Ljava/util/ArrayList;
 
-    .line 13
     new-instance v1, Ljava/util/ArrayList;
 
     invoke-direct {v1}, Ljava/util/ArrayList;-><init>()V
 
     sput-object v1, Lcom/commsource/studio/sticker/StickerManager;->m:Ljava/util/ArrayList;
 
-    .line 14
     new-instance v1, Lcom/commsource/beautyfilter/NoStickLiveData;
 
     invoke-direct {v1}, Lcom/commsource/beautyfilter/NoStickLiveData;-><init>()V
@@ -268,7 +254,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -297,35 +282,28 @@
 
     invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v2, Ljava/util/ArrayList;
 
     invoke-direct {v2}, Ljava/util/ArrayList;-><init>()V
 
-    .line 2
     new-instance v3, Ljava/util/ArrayList;
 
     invoke-direct {v3}, Ljava/util/ArrayList;-><init>()V
 
-    .line 3
     new-instance v4, Ljava/util/ArrayList;
 
     invoke-direct {v4}, Ljava/util/ArrayList;-><init>()V
 
-    .line 4
     invoke-static/range {p1 .. p1}, Lcom/commsource/util/l0;->u0(Landroid/util/SparseArray;)Ljava/util/ArrayList;
 
     move-result-object v5
 
-    .line 5
     sget-object v6, Lcom/commsource/studio/sticker/StickerManager$c;->a:Lcom/commsource/studio/sticker/StickerManager$c;
 
     invoke-static {v5, v6}, Lcotlin/collections/s;->p0(Ljava/util/List;Ljava/util/Comparator;)V
 
-    .line 6
     invoke-virtual {v2, v5}, Ljava/util/ArrayList;->addAll(Ljava/util/Collection;)Z
 
-    .line 7
     new-instance v6, Ljava/util/ArrayList;
 
     const/16 v7, 0xa
@@ -336,7 +314,6 @@
 
     invoke-direct {v6, v7}, Ljava/util/ArrayList;-><init>(I)V
 
-    .line 8
     invoke-interface {v5}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v5
@@ -362,20 +339,16 @@
 
     move-result-object v7
 
-    .line 9
     check-cast v7, Lcom/meitu/template/bean/m;
 
-    .line 10
     invoke-static/range {p2 .. p2}, Lcom/commsource/util/l0;->u0(Landroid/util/SparseArray;)Ljava/util/ArrayList;
 
     move-result-object v14
 
-    .line 11
     new-instance v15, Ljava/util/ArrayList;
 
     invoke-direct {v15}, Ljava/util/ArrayList;-><init>()V
 
-    .line 12
     invoke-interface {v14}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v14
@@ -395,7 +368,6 @@
 
     check-cast v17, Lcom/meitu/template/bean/StickerGroup;
 
-    .line 13
     invoke-virtual/range {v17 .. v17}, Lcom/meitu/template/bean/StickerGroup;->getGroupId()I
 
     move-result v1
@@ -494,7 +466,6 @@
 
     goto :goto_1
 
-    .line 14
     :cond_5
     sget-object v1, Lcom/commsource/studio/sticker/StickerManager$d;->a:Lcom/commsource/studio/sticker/StickerManager$d;
 
@@ -502,20 +473,16 @@
 
     move-result-object v1
 
-    .line 15
     invoke-virtual {v7, v1}, Lcom/meitu/template/bean/m;->l(Ljava/util/List;)V
 
-    .line 16
     invoke-virtual {v7}, Lcom/meitu/template/bean/m;->a()I
 
     move-result v8
 
     if-lez v8, :cond_6
 
-    .line 17
     invoke-virtual {v3, v1}, Ljava/util/ArrayList;->addAll(Ljava/util/Collection;)Z
 
-    .line 18
     :cond_6
     invoke-interface {v1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
@@ -535,17 +502,14 @@
 
     check-cast v9, Lcom/meitu/template/bean/StickerGroup;
 
-    .line 19
     invoke-static/range {p3 .. p3}, Lcom/commsource/util/l0;->u0(Landroid/util/SparseArray;)Ljava/util/ArrayList;
 
     move-result-object v10
 
-    .line 20
     new-instance v11, Ljava/util/ArrayList;
 
     invoke-direct {v11}, Ljava/util/ArrayList;-><init>()V
 
-    .line 21
     invoke-interface {v10}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v10
@@ -566,7 +530,6 @@
 
     check-cast v14, Lcom/meitu/template/bean/Sticker;
 
-    .line 22
     invoke-virtual {v14}, Lcom/meitu/template/bean/Sticker;->getGroupId()I
 
     move-result v14
@@ -591,7 +554,6 @@
 
     goto :goto_4
 
-    .line 23
     :cond_a
     sget-object v10, Lcom/commsource/studio/sticker/StickerManager$e;->a:Lcom/commsource/studio/sticker/StickerManager$e;
 
@@ -599,21 +561,18 @@
 
     move-result-object v10
 
-    .line 24
     new-instance v11, Ljava/util/ArrayList;
 
     invoke-direct {v11, v10}, Ljava/util/ArrayList;-><init>(Ljava/util/Collection;)V
 
     invoke-virtual {v9, v11}, Lcom/meitu/template/bean/StickerGroup;->setStickerList(Ljava/util/ArrayList;)V
 
-    .line 25
     invoke-virtual {v7}, Lcom/meitu/template/bean/m;->a()I
 
     move-result v10
 
     if-lez v10, :cond_7
 
-    .line 26
     invoke-virtual {v9}, Lcom/meitu/template/bean/StickerGroup;->getStickerList()Ljava/util/ArrayList;
 
     move-result-object v9
@@ -624,7 +583,6 @@
 
     goto :goto_3
 
-    .line 27
     :cond_b
     invoke-interface {v6, v1}, Ljava/util/Collection;->add(Ljava/lang/Object;)Z
 
@@ -632,7 +590,6 @@
 
     goto/16 :goto_0
 
-    .line 28
     :cond_c
     invoke-interface {v2}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
@@ -683,22 +640,18 @@
 
     if-eqz v5, :cond_10
 
-    .line 29
     new-instance v1, Ljava/util/ArrayList;
 
     invoke-direct {v1, v3}, Ljava/util/ArrayList;-><init>(Ljava/util/Collection;)V
 
-    .line 30
     new-instance v7, Lcom/commsource/studio/sticker/StickerManager$a;
 
     invoke-direct {v7, v3, v0}, Lcom/commsource/studio/sticker/StickerManager$a;-><init>(Ljava/util/ArrayList;Landroid/util/SparseArray;)V
 
     invoke-static {v1, v7}, Lcotlin/collections/s;->p0(Ljava/util/List;Ljava/util/Comparator;)V
 
-    .line 31
     invoke-virtual {v5, v1}, Lcom/meitu/template/bean/m;->l(Ljava/util/List;)V
 
-    .line 32
     :cond_10
     invoke-interface {v2}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
@@ -742,17 +695,14 @@
 
     if-eqz v6, :cond_18
 
-    .line 33
     new-instance v1, Ljava/util/ArrayList;
 
     invoke-direct {v1, v3}, Ljava/util/ArrayList;-><init>(Ljava/util/Collection;)V
 
-    .line 34
     new-instance v5, Ljava/util/ArrayList;
 
     invoke-direct {v5}, Ljava/util/ArrayList;-><init>()V
 
-    .line 35
     invoke-interface {v1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v1
@@ -773,7 +723,6 @@
 
     check-cast v9, Lcom/meitu/template/bean/StickerGroup;
 
-    .line 36
     invoke-virtual {v9}, Lcom/meitu/template/bean/StickerGroup;->getGroupTag()I
 
     move-result v10
@@ -804,7 +753,6 @@
 
     goto :goto_9
 
-    .line 37
     :cond_17
     new-instance v1, Lcom/commsource/studio/sticker/StickerManager$b;
 
@@ -816,19 +764,15 @@
 
     invoke-virtual {v6, v0}, Lcom/meitu/template/bean/m;->l(Ljava/util/List;)V
 
-    .line 38
     :cond_18
     sput-object v2, Lcom/commsource/studio/sticker/StickerManager;->i:Ljava/util/ArrayList;
 
-    .line 39
     sput-object v3, Lcom/commsource/studio/sticker/StickerManager;->j:Ljava/util/ArrayList;
 
-    .line 40
     sput-object v4, Lcom/commsource/studio/sticker/StickerManager;->k:Ljava/util/ArrayList;
 
     const v0, 0x8858
 
-    .line 41
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -855,27 +799,22 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/commsource/studio/sticker/StickerManager$f;
 
     invoke-direct {v1}, Lcom/commsource/studio/sticker/StickerManager$f;-><init>()V
 
-    .line 2
     invoke-static {p1, p2, v1}, Lcom/commsource/util/o1;->a(Ljava/util/List;Ljava/util/List;Lcom/commsource/util/o1$c;)Ljava/util/List;
 
     move-result-object p1
 
-    .line 3
     new-instance p2, Landroid/util/SparseArray;
 
     invoke-direct {p2}, Landroid/util/SparseArray;-><init>()V
 
     const-string v1, "compareResult"
 
-    .line 4
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 5
     invoke-interface {p1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object p1
@@ -893,7 +832,6 @@
 
     check-cast v1, Lcom/meitu/template/bean/m;
 
-    .line 6
     invoke-virtual {v1}, Lcom/meitu/template/bean/m;->a()I
 
     move-result v2
@@ -902,7 +840,6 @@
 
     goto :goto_0
 
-    .line 7
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -933,27 +870,22 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v0, Lcom/commsource/studio/sticker/StickerManager$g;
 
     invoke-direct {v0}, Lcom/commsource/studio/sticker/StickerManager$g;-><init>()V
 
-    .line 2
     invoke-static {p2, p3, v0}, Lcom/commsource/util/o1;->a(Ljava/util/List;Ljava/util/List;Lcom/commsource/util/o1$c;)Ljava/util/List;
 
     move-result-object p2
 
-    .line 3
     new-instance p3, Landroid/util/SparseArray;
 
     invoke-direct {p3}, Landroid/util/SparseArray;-><init>()V
 
     const-string v0, "compareResult"
 
-    .line 4
     invoke-static {p2, v0}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 5
     invoke-interface {p2}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object p2
@@ -971,7 +903,6 @@
 
     check-cast v0, Lcom/meitu/template/bean/StickerGroup;
 
-    .line 6
     invoke-virtual {v0}, Lcom/meitu/template/bean/StickerGroup;->getGroupId()I
 
     move-result v1
@@ -980,7 +911,6 @@
 
     goto :goto_0
 
-    .line 7
     :cond_0
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1008,27 +938,22 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/commsource/studio/sticker/StickerManager$h;
 
     invoke-direct {v1}, Lcom/commsource/studio/sticker/StickerManager$h;-><init>()V
 
-    .line 2
     invoke-static {p1, p2, v1}, Lcom/commsource/util/o1;->a(Ljava/util/List;Ljava/util/List;Lcom/commsource/util/o1$c;)Ljava/util/List;
 
     move-result-object p1
 
-    .line 3
     new-instance p2, Landroid/util/SparseArray;
 
     invoke-direct {p2}, Landroid/util/SparseArray;-><init>()V
 
     const-string v1, "compareResult"
 
-    .line 4
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 5
     invoke-interface {p1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object p1
@@ -1049,7 +974,6 @@
 
     if-eqz v1, :cond_0
 
-    .line 6
     invoke-virtual {v1}, Lcom/meitu/template/bean/Sticker;->getStickerId()I
 
     move-result v2
@@ -1058,7 +982,6 @@
 
     goto :goto_0
 
-    .line 7
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1072,7 +995,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p1}, Lcom/meitu/template/bean/Sticker;->getGroupId()I
 
     move-result v1
@@ -1083,7 +1005,6 @@
 
     if-eqz v1, :cond_0
 
-    .line 2
     sget-object v2, Lcom/commsource/studio/sticker/StickerRepository;->d:Lcom/commsource/studio/sticker/StickerRepository;
 
     invoke-virtual {v2, v1}, Lcom/commsource/studio/sticker/StickerRepository;->t(Lcom/meitu/template/bean/StickerGroup;)V
@@ -1091,13 +1012,10 @@
     :cond_0
     const/4 v1, 0x1
 
-    .line 3
     invoke-virtual {p1, v1}, Lcom/meitu/template/bean/e;->setDownloadState(I)V
 
-    .line 4
     invoke-virtual {p1, p2}, Lcom/meitu/template/bean/Sticker;->setDownloadFrom(I)V
 
-    .line 5
     sget-object v1, Lcom/commsource/studio/k;->V:Lcom/commsource/studio/k;
 
     invoke-virtual {v1}, Lcom/commsource/studio/k;->d()I
@@ -1106,38 +1024,31 @@
 
     if-ne p2, v1, :cond_1
 
-    .line 6
     invoke-virtual {p1}, Lcom/meitu/template/bean/Sticker;->getGroupId()I
 
     move-result p2
 
     invoke-virtual {p0, p2}, Lcom/commsource/studio/sticker/StickerManager;->Y(I)V
 
-    .line 7
     :cond_1
     sget-object p2, Lcom/commsource/studio/sticker/StickerRepository;->d:Lcom/commsource/studio/sticker/StickerRepository;
 
     invoke-virtual {p2, p1}, Lcom/commsource/studio/sticker/StickerRepository;->u(Lcom/meitu/template/bean/Sticker;)V
 
-    .line 8
     invoke-direct {p0, p1}, Lcom/commsource/studio/sticker/StickerManager;->f0(Lcom/meitu/template/bean/Sticker;)V
 
     const/4 p2, 0x0
 
-    .line 9
     invoke-virtual {p0, p1, p2}, Lcom/commsource/studio/sticker/StickerManager;->e0(Lcom/meitu/template/bean/Sticker;Z)V
 
-    .line 10
     sget-object p2, Lcom/commsource/studio/sticker/StickerManager;->d:Lcom/commsource/beautyfilter/NoStickLiveData;
 
     invoke-virtual {p2, p1}, Lcom/commsource/beautyfilter/NoStickLiveData;->postValue(Ljava/lang/Object;)V
 
     const-string p2, "beau_sticker_download_suc"
 
-    .line 11
     invoke-virtual {p0, p2, p1}, Lcom/commsource/studio/sticker/StickerManager;->x(Ljava/lang/String;Lcom/meitu/template/bean/Sticker;)V
 
-    .line 12
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1152,13 +1063,10 @@
 
     const-string v1, "beau_sticker_download_req"
 
-    .line 1
     invoke-virtual {p0, v1, p1}, Lcom/commsource/studio/sticker/StickerManager;->x(Ljava/lang/String;Lcom/meitu/template/bean/Sticker;)V
 
-    .line 2
     invoke-direct {p0, p1, p2}, Lcom/commsource/studio/sticker/StickerManager;->G(Lcom/meitu/template/bean/Sticker;I)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1171,29 +1079,24 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Landroid/util/SparseArray;
 
     invoke-direct {v1}, Landroid/util/SparseArray;-><init>()V
 
-    .line 2
     new-instance v2, Landroid/util/SparseArray;
 
     invoke-direct {v2}, Landroid/util/SparseArray;-><init>()V
 
-    .line 3
     new-instance v3, Landroid/util/SparseArray;
 
     invoke-direct {v3}, Landroid/util/SparseArray;-><init>()V
 
-    .line 4
     sget-object v4, Lcom/commsource/studio/sticker/StickerRepository;->d:Lcom/commsource/studio/sticker/StickerRepository;
 
     invoke-virtual {v4}, Lcom/commsource/studio/sticker/StickerRepository;->d()Ljava/util/List;
 
     move-result-object v4
 
-    .line 5
     invoke-interface {v4}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v4
@@ -1211,7 +1114,6 @@
 
     check-cast v5, Lcom/meitu/template/bean/m;
 
-    .line 6
     invoke-virtual {v5}, Lcom/meitu/template/bean/m;->a()I
 
     move-result v6
@@ -1220,7 +1122,6 @@
 
     goto :goto_0
 
-    .line 7
     :cond_0
     sget-object v4, Lcom/commsource/studio/sticker/StickerRepository;->d:Lcom/commsource/studio/sticker/StickerRepository;
 
@@ -1228,7 +1129,6 @@
 
     move-result-object v4
 
-    .line 8
     invoke-interface {v4}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v4
@@ -1246,7 +1146,6 @@
 
     check-cast v5, Lcom/meitu/template/bean/StickerGroup;
 
-    .line 9
     invoke-virtual {v5}, Lcom/meitu/template/bean/StickerGroup;->getGroupId()I
 
     move-result v6
@@ -1255,7 +1154,6 @@
 
     goto :goto_1
 
-    .line 10
     :cond_1
     sget-object v4, Lcom/commsource/studio/sticker/StickerRepository;->d:Lcom/commsource/studio/sticker/StickerRepository;
 
@@ -1263,7 +1161,6 @@
 
     move-result-object v4
 
-    .line 11
     invoke-interface {v4}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v4
@@ -1281,7 +1178,6 @@
 
     check-cast v5, Lcom/meitu/template/bean/Sticker;
 
-    .line 12
     invoke-virtual {v5}, Lcom/meitu/template/bean/Sticker;->getStickerId()I
 
     move-result v6
@@ -1290,13 +1186,11 @@
 
     goto :goto_2
 
-    .line 13
     :cond_2
     invoke-static {v3}, Lcom/commsource/util/l0;->u0(Landroid/util/SparseArray;)Ljava/util/ArrayList;
 
     move-result-object v4
 
-    .line 14
     invoke-interface {v4}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v4
@@ -1352,20 +1246,17 @@
 
     sget v4, Lcom/res/provider/ResSTRING;->filter_shop_premium:I
 
-    .line 15
     invoke-static {v4}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
 
     move-result-object v4
 
     invoke-virtual {v5, v4}, Lcom/meitu/template/bean/m;->i(Ljava/lang/String;)V
 
-    .line 16
     :cond_6
     invoke-static {v3}, Lcom/commsource/util/l0;->u0(Landroid/util/SparseArray;)Ljava/util/ArrayList;
 
     move-result-object v4
 
-    .line 17
     invoke-interface {v4}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v4
@@ -1412,30 +1303,23 @@
 
     sget v4, Lcom/res/provider/ResSTRING;->t_all:I
 
-    .line 18
     invoke-static {v4}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
 
     move-result-object v4
 
     invoke-virtual {v7, v4}, Lcom/meitu/template/bean/m;->i(Ljava/lang/String;)V
 
-    .line 19
     :cond_a
     invoke-direct {p0, v3, v2, v1}, Lcom/commsource/studio/sticker/StickerManager;->B(Landroid/util/SparseArray;Landroid/util/SparseArray;Landroid/util/SparseArray;)V
 
-    .line 20
     sput-object v1, Lcom/commsource/studio/sticker/StickerManager;->g:Landroid/util/SparseArray;
 
-    .line 21
     sput-object v2, Lcom/commsource/studio/sticker/StickerManager;->f:Landroid/util/SparseArray;
 
-    .line 22
     sput-object v3, Lcom/commsource/studio/sticker/StickerManager;->h:Landroid/util/SparseArray;
 
-    .line 23
     invoke-direct {p0, v8}, Lcom/commsource/studio/sticker/StickerManager;->d0(Z)V
 
-    .line 24
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1448,7 +1332,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0, p1, p2, p3}, Lcom/commsource/studio/sticker/StickerManager;->B(Landroid/util/SparseArray;Landroid/util/SparseArray;Landroid/util/SparseArray;)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1463,7 +1346,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/studio/sticker/StickerManager;->a:Lcom/commsource/beautyfilter/NoStickLiveData;
 
     invoke-static {p1}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
@@ -1472,7 +1354,6 @@
 
     invoke-virtual {v1, p1}, Lcom/commsource/beautyfilter/NoStickLiveData;->postValue(Ljava/lang/Object;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1485,7 +1366,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0, p1, p2}, Lcom/commsource/studio/sticker/StickerManager;->C(Ljava/util/List;Ljava/util/List;)Landroid/util/SparseArray;
 
     move-result-object p0
@@ -1502,7 +1382,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0, p1, p2, p3}, Lcom/commsource/studio/sticker/StickerManager;->D(Ljava/util/List;Ljava/util/List;Ljava/util/List;)Landroid/util/SparseArray;
 
     move-result-object p0
@@ -1519,7 +1398,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/commsource/util/g2;->a()Landroid/os/Handler;
 
     move-result-object v1
@@ -1530,7 +1408,6 @@
 
     invoke-virtual {v1, v2}, Landroid/os/Handler;->post(Ljava/lang/Runnable;)Z
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1543,7 +1420,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0, p1, p2}, Lcom/commsource/studio/sticker/StickerManager;->E(Ljava/util/List;Ljava/util/List;)Landroid/util/SparseArray;
 
     move-result-object p0
@@ -1560,7 +1436,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0, p1, p2}, Lcom/commsource/studio/sticker/StickerManager;->G(Lcom/meitu/template/bean/Sticker;I)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1575,7 +1450,6 @@
 
     invoke-static {p0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v0, Lcom/commsource/studio/sticker/StickerManager;->b:Lcom/commsource/beautyfilter/NoStickLiveData;
 
     invoke-static {p0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1590,7 +1464,6 @@
 
     invoke-static {p0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v0, Lcom/commsource/studio/sticker/StickerManager;->c:Lcom/commsource/beautyfilter/NoStickLiveData;
 
     invoke-static {p0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1605,7 +1478,6 @@
 
     invoke-static {p0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v0, Lcom/commsource/studio/sticker/StickerManager;->h:Landroid/util/SparseArray;
 
     invoke-static {p0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1620,7 +1492,6 @@
 
     invoke-static {p0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v0, Lcom/commsource/studio/sticker/StickerManager;->f:Landroid/util/SparseArray;
 
     invoke-static {p0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1635,7 +1506,6 @@
 
     invoke-static {p0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v0, Lcom/commsource/studio/sticker/StickerManager;->g:Landroid/util/SparseArray;
 
     invoke-static {p0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1650,7 +1520,6 @@
 
     invoke-static {p0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v0, Lcom/commsource/studio/sticker/StickerManager;->m:Ljava/util/ArrayList;
 
     invoke-static {p0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1665,7 +1534,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/studio/sticker/StickerManager;->V()V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1680,7 +1548,6 @@
 
     invoke-static {p0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-boolean v0, Lcom/commsource/studio/sticker/StickerManager;->l:Z
 
     invoke-static {p0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1695,7 +1562,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/commsource/studio/sticker/StickerManager;->d0(Z)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1710,7 +1576,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/commsource/studio/sticker/StickerManager;->f0(Lcom/meitu/template/bean/Sticker;)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1725,7 +1590,6 @@
 
     invoke-static {p0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sput-object p1, Lcom/commsource/studio/sticker/StickerManager;->h:Landroid/util/SparseArray;
 
     invoke-static {p0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1740,7 +1604,6 @@
 
     invoke-static {p0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sput-object p1, Lcom/commsource/studio/sticker/StickerManager;->f:Landroid/util/SparseArray;
 
     invoke-static {p0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1755,7 +1618,6 @@
 
     invoke-static {p0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sput-object p1, Lcom/commsource/studio/sticker/StickerManager;->g:Landroid/util/SparseArray;
 
     invoke-static {p0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1770,7 +1632,6 @@
 
     invoke-static {p0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sput-boolean p1, Lcom/commsource/studio/sticker/StickerManager;->l:Z
 
     invoke-static {p0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1785,7 +1646,6 @@
 
     invoke-static {p0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sput-object p1, Lcom/commsource/studio/sticker/StickerManager;->m:Ljava/util/ArrayList;
 
     invoke-static {p0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1808,14 +1668,12 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     invoke-virtual {p1}, Lcom/meitu/template/bean/StickerGroup;->getStickerList()Ljava/util/ArrayList;
 
     move-result-object p1
 
     if-eqz p1, :cond_0
 
-    .line 2
     invoke-interface {p1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object p1
@@ -1833,7 +1691,6 @@
 
     check-cast v1, Lcom/meitu/template/bean/Sticker;
 
-    .line 3
     sget-object v2, Lcom/commsource/material/c;->m:Lcom/commsource/material/c;
 
     invoke-virtual {v2}, Lcom/commsource/material/c;->j()Lcom/commsource/material/d;
@@ -1848,7 +1705,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1870,7 +1726,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     new-instance v1, Lcom/commsource/studio/sticker/StickerManager$i;
 
     const-string v2, "DELETE-STICKER"
@@ -1879,7 +1734,6 @@
 
     invoke-static {v1}, Lcom/commsource/util/c2;->e(Lcom/commsource/util/u2/a;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1902,10 +1756,8 @@
 
     const-string v1, "beau_sticker_download_req"
 
-    .line 1
     invoke-virtual {p0, v1, p1}, Lcom/commsource/studio/sticker/StickerManager;->x(Ljava/lang/String;Lcom/meitu/template/bean/Sticker;)V
 
-    .line 2
     invoke-virtual {p1}, Lcom/meitu/template/bean/e;->getInternalState()I
 
     move-result v1
@@ -1914,18 +1766,15 @@
 
     if-ne v1, v2, :cond_0
 
-    .line 3
     invoke-direct {p0, p1, p3}, Lcom/commsource/studio/sticker/StickerManager;->H(Lcom/meitu/template/bean/Sticker;I)V
 
     goto :goto_0
 
-    .line 4
     :cond_0
     new-instance v3, Lcom/commsource/material/download/b/b$b;
 
     invoke-direct {v3}, Lcom/commsource/material/download/b/b$b;-><init>()V
 
-    .line 5
     invoke-virtual {p0, p1}, Lcom/commsource/studio/sticker/StickerManager;->T(Lcom/meitu/template/bean/Sticker;)Lcom/commsource/material/download/c/d;
 
     move-result-object v4
@@ -1946,19 +1795,16 @@
 
     move-result-object v1
 
-    .line 6
     invoke-virtual {v1, p2}, Lcom/commsource/material/download/b/b$b;->h(Z)Lcom/commsource/material/download/b/b$b;
 
     move-result-object p2
 
-    .line 7
     invoke-virtual {p0, p1, p3}, Lcom/commsource/studio/sticker/StickerManager;->M(Lcom/meitu/template/bean/Sticker;I)Lcom/commsource/material/download/b/c;
 
     move-result-object p1
 
     invoke-virtual {p2, p1}, Lcom/commsource/material/download/b/b$b;->c(Lcom/commsource/material/download/b/c;)Lcom/commsource/material/download/b/b;
 
-    .line 8
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1990,22 +1836,18 @@
 
     const/4 v1, 0x0
 
-    .line 1
     invoke-virtual {p1, v1}, Lcom/meitu/template/bean/StickerGroup;->setNeedShow(I)V
 
     const/4 v1, 0x1
 
-    .line 2
     invoke-virtual {p1, v1}, Lcom/meitu/template/bean/StickerGroup;->setDownloadAllState(Z)V
 
-    .line 3
     invoke-virtual {p1}, Lcom/meitu/template/bean/StickerGroup;->getStickerList()Ljava/util/ArrayList;
 
     move-result-object v2
 
     if-eqz v2, :cond_1
 
-    .line 4
     invoke-interface {v2}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v2
@@ -2024,29 +1866,24 @@
 
     check-cast v3, Lcom/meitu/template/bean/Sticker;
 
-    .line 5
     invoke-virtual {v3}, Lcom/meitu/template/bean/e;->getDownloadState()I
 
     move-result v4
 
     if-eq v4, v1, :cond_0
 
-    .line 6
     sget-object v4, Lcom/commsource/studio/sticker/StickerManager;->p:Lcom/commsource/studio/sticker/StickerManager;
 
-    .line 7
     sget-object v5, Lcom/commsource/studio/k;->V:Lcom/commsource/studio/k;
 
     invoke-virtual {v5}, Lcom/commsource/studio/k;->d()I
 
     move-result v5
 
-    .line 8
     invoke-virtual {v4, v3, p2, v5}, Lcom/commsource/studio/sticker/StickerManager;->I(Lcom/meitu/template/bean/Sticker;ZI)V
 
     goto :goto_0
 
-    .line 9
     :cond_1
     invoke-static {p3}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
@@ -2054,7 +1891,6 @@
 
     if-nez p2, :cond_2
 
-    .line 10
     new-instance p2, Ljava/util/HashMap;
 
     const/16 v1, 0x8
@@ -2063,10 +1899,8 @@
 
     const-string v1, "\u6765\u6e90"
 
-    .line 11
     invoke-virtual {p2, v1, p3}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 12
     invoke-virtual {p1}, Lcom/meitu/template/bean/StickerGroup;->getCategoryId()I
 
     move-result p3
@@ -2079,7 +1913,6 @@
 
     invoke-virtual {p2, v1, p3}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 13
     invoke-virtual {p1}, Lcom/meitu/template/bean/StickerGroup;->getGroupId()I
 
     move-result p1
@@ -2094,10 +1927,8 @@
 
     const-string p1, "sticker_shop_clk_download"
 
-    .line 14
     invoke-static {p1, p2}, Lcom/commsource/statistics/i;->s(Ljava/lang/String;Ljava/util/Map;)V
 
-    .line 15
     :cond_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -2122,45 +1953,36 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/studio/sticker/StickerManager;->f:Landroid/util/SparseArray;
 
-    .line 2
     sget-object v2, Lcom/commsource/studio/sticker/StickerManager;->g:Landroid/util/SparseArray;
 
-    .line 3
     sget-object v3, Lcom/commsource/studio/sticker/StickerManager;->j:Ljava/util/ArrayList;
 
-    .line 4
     new-instance v4, Ljava/util/ArrayList;
 
     invoke-direct {v4}, Ljava/util/ArrayList;-><init>()V
 
     const/4 v5, -0x8
 
-    .line 5
     invoke-virtual {v1, v5}, Landroid/util/SparseArray;->get(I)Ljava/lang/Object;
 
     move-result-object v5
 
     check-cast v5, Lcom/meitu/template/bean/StickerGroup;
 
-    .line 6
     new-instance v6, Ljava/util/ArrayList;
 
     invoke-direct {v6}, Ljava/util/ArrayList;-><init>()V
 
-    .line 7
     invoke-static {v2}, Lcom/commsource/util/l0;->u0(Landroid/util/SparseArray;)Ljava/util/ArrayList;
 
     move-result-object v2
 
-    .line 8
     new-instance v7, Ljava/util/ArrayList;
 
     invoke-direct {v7}, Ljava/util/ArrayList;-><init>()V
 
-    .line 9
     invoke-interface {v2}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v2
@@ -2185,7 +2007,6 @@
 
     check-cast v11, Lcom/meitu/template/bean/Sticker;
 
-    .line 10
     invoke-virtual {v11}, Lcom/meitu/template/bean/Sticker;->getGroupId()I
 
     move-result v12
@@ -2198,7 +2019,6 @@
 
     if-eqz v12, :cond_1
 
-    .line 11
     invoke-virtual {v12}, Lcom/meitu/template/bean/StickerGroup;->getNeedShow()I
 
     move-result v12
@@ -2226,7 +2046,6 @@
 
     goto :goto_0
 
-    .line 12
     :cond_2
     sget-object v2, Lcom/commsource/studio/sticker/StickerManager$j;->a:Lcom/commsource/studio/sticker/StickerManager$j;
 
@@ -2234,36 +2053,29 @@
 
     move-result-object v2
 
-    .line 13
     invoke-virtual {v6, v2}, Ljava/util/ArrayList;->addAll(Ljava/util/Collection;)Z
 
-    .line 14
     sget-object v2, Lcotlin/t1;->a:Lcotlin/t1;
 
     if-eqz v5, :cond_3
 
-    .line 15
     invoke-virtual {v5, v6}, Lcom/meitu/template/bean/StickerGroup;->setStickerList(Ljava/util/ArrayList;)V
 
     :cond_3
     const/4 v2, -0x2
 
-    .line 16
     invoke-virtual {v1, v2}, Landroid/util/SparseArray;->get(I)Ljava/lang/Object;
 
     move-result-object v1
 
     check-cast v1, Lcom/meitu/template/bean/StickerGroup;
 
-    .line 17
     sget-object v2, Lcom/commsource/studio/sticker/StickerManager;->k:Ljava/util/ArrayList;
 
-    .line 18
     new-instance v6, Ljava/util/ArrayList;
 
     invoke-direct {v6}, Ljava/util/ArrayList;-><init>()V
 
-    .line 19
     invoke-interface {v2}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v2
@@ -2282,14 +2094,12 @@
 
     check-cast v7, Lcom/meitu/template/bean/Sticker;
 
-    .line 20
     invoke-virtual {v7}, Lcom/meitu/template/bean/Sticker;->getStickerRecommendState()I
 
     move-result v8
 
     if-ne v8, v10, :cond_4
 
-    .line 21
     invoke-virtual {v6, v7}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
     goto :goto_1
@@ -2297,10 +2107,8 @@
     :cond_5
     if-eqz v1, :cond_6
 
-    .line 22
     invoke-virtual {v1, v6}, Lcom/meitu/template/bean/StickerGroup;->setStickerList(Ljava/util/ArrayList;)V
 
-    .line 23
     :cond_6
     sget-object v2, Lcom/commsource/studio/sticker/StickerConfig;->F:Lcom/commsource/studio/sticker/StickerConfig;
 
@@ -2312,7 +2120,6 @@
 
     move-result-object v2
 
-    .line 24
     sget-object v6, Lcom/commsource/studio/sticker/StickerManager;->m:Ljava/util/ArrayList;
 
     invoke-interface {v6}, Ljava/util/Collection;->isEmpty()Z
@@ -2323,10 +2130,8 @@
 
     if-eqz v6, :cond_9
 
-    .line 25
     sget-object v6, Lcom/commsource/studio/sticker/StickerManager;->m:Ljava/util/ArrayList;
 
-    .line 26
     invoke-interface {v6}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v6
@@ -2349,7 +2154,6 @@
 
     move-result v7
 
-    .line 27
     invoke-static {v7}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v8
@@ -2360,7 +2164,6 @@
 
     if-nez v8, :cond_7
 
-    .line 28
     invoke-static {v7}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v7
@@ -2369,13 +2172,11 @@
 
     goto :goto_2
 
-    .line 29
     :cond_8
     sget-object v6, Lcom/commsource/studio/sticker/StickerManager;->m:Ljava/util/ArrayList;
 
     invoke-virtual {v6}, Ljava/util/ArrayList;->clear()V
 
-    .line 30
     :cond_9
     sget-object v6, Lcom/commsource/studio/sticker/StickerConfig;->F:Lcom/commsource/studio/sticker/StickerConfig;
 
@@ -2387,7 +2188,6 @@
 
     if-nez v6, :cond_15
 
-    .line 31
     sget-object v6, Lcom/commsource/studio/sticker/StickerManager;->i:Ljava/util/ArrayList;
 
     invoke-interface {v6}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
@@ -2451,7 +2251,6 @@
 
     if-eqz v6, :cond_d
 
-    .line 32
     new-instance v11, Ljava/util/ArrayList;
 
     invoke-static {v6, v8}, Lcotlin/collections/s;->Y(Ljava/lang/Iterable;I)I
@@ -2460,7 +2259,6 @@
 
     invoke-direct {v11, v12}, Ljava/util/ArrayList;-><init>(I)V
 
-    .line 33
     invoke-interface {v6}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v6
@@ -2476,10 +2274,8 @@
 
     move-result-object v12
 
-    .line 34
     check-cast v12, Lcom/meitu/template/bean/StickerGroup;
 
-    .line 35
     invoke-virtual {v12}, Lcom/meitu/template/bean/StickerGroup;->getGroupId()I
 
     move-result v12
@@ -2497,7 +2293,6 @@
 
     invoke-direct {v11}, Ljava/util/ArrayList;-><init>()V
 
-    .line 36
     :cond_e
     instance-of v6, v3, Ljava/util/Collection;
 
@@ -2514,7 +2309,6 @@
 
     goto :goto_7
 
-    .line 37
     :cond_10
     invoke-interface {v3}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
@@ -2533,7 +2327,6 @@
 
     check-cast v12, Lcom/meitu/template/bean/StickerGroup;
 
-    .line 38
     invoke-virtual {v12}, Lcom/meitu/template/bean/StickerGroup;->getInternalState()I
 
     move-result v12
@@ -2555,17 +2348,14 @@
     :goto_7
     if-eqz v6, :cond_15
 
-    .line 39
     sget-object v6, Lcom/commsource/studio/sticker/StickerConfig;->F:Lcom/commsource/studio/sticker/StickerConfig;
 
     invoke-virtual {v6}, Lcom/commsource/studio/sticker/StickerConfig;->j0()V
 
-    .line 40
     new-instance v6, Ljava/util/ArrayList;
 
     invoke-direct {v6}, Ljava/util/ArrayList;-><init>()V
 
-    .line 41
     invoke-interface {v2}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v2
@@ -2590,7 +2380,6 @@
 
     move-result v13
 
-    .line 42
     invoke-static {v13}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v13
@@ -2612,10 +2401,8 @@
 
     move-result-object v2
 
-    .line 43
     invoke-interface {v2, v9, v11}, Ljava/util/List;->addAll(ILjava/util/Collection;)Z
 
-    .line 44
     :cond_15
     sget-object v6, Lcom/commsource/studio/sticker/StickerConfig;->F:Lcom/commsource/studio/sticker/StickerConfig;
 
@@ -2625,7 +2412,6 @@
 
     if-nez v11, :cond_28
 
-    .line 45
     invoke-virtual {v6}, Lcom/commsource/studio/sticker/StickerConfig;->V()Ljava/util/ArrayList;
 
     move-result-object v6
@@ -2634,17 +2420,14 @@
 
     move-result-object v6
 
-    .line 46
     invoke-interface {v6}, Ljava/util/List;->isEmpty()Z
 
     move-result v11
 
     if-eqz v11, :cond_17
 
-    .line 47
     sget-object v6, Lcom/commsource/studio/sticker/StickerManager;->j:Ljava/util/ArrayList;
 
-    .line 48
     new-instance v11, Ljava/util/ArrayList;
 
     invoke-static {v6, v8}, Lcotlin/collections/s;->Y(Ljava/lang/Iterable;I)I
@@ -2653,7 +2436,6 @@
 
     invoke-direct {v11, v12}, Ljava/util/ArrayList;-><init>(I)V
 
-    .line 49
     invoke-interface {v6}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v6
@@ -2669,10 +2451,8 @@
 
     move-result-object v12
 
-    .line 50
     check-cast v12, Lcom/meitu/template/bean/StickerGroup;
 
-    .line 51
     invoke-virtual {v12}, Lcom/meitu/template/bean/StickerGroup;->getGroupId()I
 
     move-result v12
@@ -2688,13 +2468,11 @@
     :cond_16
     move-object v6, v11
 
-    .line 52
     :cond_17
     new-instance v11, Ljava/util/ArrayList;
 
     invoke-direct {v11}, Ljava/util/ArrayList;-><init>()V
 
-    .line 53
     invoke-interface {v6}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v6
@@ -2718,7 +2496,6 @@
 
     move-result v13
 
-    .line 54
     sget-object v14, Lcom/commsource/studio/sticker/StickerManager;->p:Lcom/commsource/studio/sticker/StickerManager;
 
     invoke-virtual {v14, v13}, Lcom/commsource/studio/sticker/StickerManager;->Q(I)Lcom/meitu/template/bean/StickerGroup;
@@ -2727,7 +2504,6 @@
 
     if-eqz v14, :cond_1d
 
-    .line 55
     invoke-virtual {v14}, Lcom/meitu/template/bean/StickerGroup;->getStickerList()Ljava/util/ArrayList;
 
     move-result-object v15
@@ -2753,7 +2529,6 @@
 
     check-cast v17, Lcom/meitu/template/bean/Sticker;
 
-    .line 56
     invoke-virtual/range {v17 .. v17}, Lcom/meitu/template/bean/e;->getDownloadState()I
 
     move-result v7
@@ -2800,7 +2575,6 @@
     :cond_1c
     const/16 v16, 0x0
 
-    .line 57
     :goto_d
     check-cast v16, Lcom/meitu/template/bean/Sticker;
 
@@ -2822,7 +2596,6 @@
     :goto_f
     if-eqz v14, :cond_1f
 
-    .line 58
     invoke-virtual {v14}, Lcom/meitu/template/bean/StickerGroup;->getNeedShow()I
 
     move-result v7
@@ -2858,26 +2631,21 @@
 
     goto :goto_a
 
-    .line 59
     :cond_21
     invoke-static {v11}, Lcotlin/collections/s;->L5(Ljava/util/Collection;)Ljava/util/List;
 
     move-result-object v0
 
-    .line 60
     sget-object v6, Lcom/commsource/studio/sticker/StickerConfig;->F:Lcom/commsource/studio/sticker/StickerConfig;
 
     invoke-virtual {v6}, Lcom/commsource/studio/sticker/StickerConfig;->h0()V
 
-    .line 61
     invoke-interface {v2, v0}, Ljava/util/List;->addAll(Ljava/util/Collection;)Z
 
-    .line 62
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
 
-    .line 63
     invoke-interface {v3}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v3
@@ -2898,7 +2666,6 @@
 
     check-cast v7, Lcom/meitu/template/bean/StickerGroup;
 
-    .line 64
     invoke-virtual {v7}, Lcom/meitu/template/bean/StickerGroup;->getInternalState()I
 
     move-result v7
@@ -2919,7 +2686,6 @@
 
     goto :goto_11
 
-    .line 65
     :cond_24
     new-instance v3, Ljava/util/ArrayList;
 
@@ -2929,7 +2695,6 @@
 
     invoke-direct {v3, v6}, Ljava/util/ArrayList;-><init>(I)V
 
-    .line 66
     invoke-interface {v0}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v0
@@ -2945,10 +2710,8 @@
 
     move-result-object v6
 
-    .line 67
     check-cast v6, Lcom/meitu/template/bean/StickerGroup;
 
-    .line 68
     invoke-virtual {v6}, Lcom/meitu/template/bean/StickerGroup;->getGroupId()I
 
     move-result v6
@@ -2961,13 +2724,11 @@
 
     goto :goto_13
 
-    .line 69
     :cond_25
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
 
-    .line 70
     invoke-interface {v3}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v3
@@ -2992,7 +2753,6 @@
 
     move-result v7
 
-    .line 71
     invoke-static {v7}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v7
@@ -3009,22 +2769,18 @@
 
     goto :goto_14
 
-    .line 72
     :cond_27
     invoke-static {v0}, Lcotlin/collections/s;->L5(Ljava/util/Collection;)Ljava/util/List;
 
     move-result-object v0
 
-    .line 73
     invoke-interface {v2, v0}, Ljava/util/List;->addAll(Ljava/util/Collection;)Z
 
-    .line 74
     :cond_28
     sget-object v0, Lcom/commsource/studio/sticker/StickerConfig;->F:Lcom/commsource/studio/sticker/StickerConfig;
 
     invoke-virtual {v0, v2}, Lcom/commsource/studio/sticker/StickerConfig;->m0(Ljava/util/List;)V
 
-    .line 75
     invoke-interface {v2}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v0
@@ -3047,7 +2803,6 @@
 
     move-result v2
 
-    .line 76
     sget-object v3, Lcom/commsource/studio/sticker/StickerManager;->p:Lcom/commsource/studio/sticker/StickerManager;
 
     invoke-virtual {v3, v2}, Lcom/commsource/studio/sticker/StickerManager;->Q(I)Lcom/meitu/template/bean/StickerGroup;
@@ -3056,7 +2811,6 @@
 
     if-eqz v2, :cond_29
 
-    .line 77
     invoke-virtual {v4, v2}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
     goto :goto_15
@@ -3064,7 +2818,6 @@
     :cond_2a
     if-eqz v1, :cond_2b
 
-    .line 78
     invoke-virtual {v4, v9, v1}, Ljava/util/ArrayList;->add(ILjava/lang/Object;)V
 
     sget-object v0, Lcotlin/t1;->a:Lcotlin/t1;
@@ -3072,7 +2825,6 @@
     :cond_2b
     if-eqz v5, :cond_2c
 
-    .line 79
     invoke-virtual {v4, v9, v5}, Ljava/util/ArrayList;->add(ILjava/lang/Object;)V
 
     sget-object v0, Lcotlin/t1;->a:Lcotlin/t1;
@@ -3080,7 +2832,6 @@
     :cond_2c
     const v0, 0x8860
 
-    .line 80
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v4
@@ -3104,7 +2855,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/studio/sticker/StickerManager;->n:Lcom/commsource/beautyfilter/NoStickLiveData;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -3129,7 +2879,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     new-instance v1, Lcom/commsource/studio/sticker/StickerManager$getDownloadListener$1;
 
     invoke-direct {v1, p1, p2}, Lcom/commsource/studio/sticker/StickerManager$getDownloadListener$1;-><init>(Lcom/meitu/template/bean/Sticker;I)V
@@ -3161,7 +2910,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/studio/sticker/StickerManager;->d:Lcom/commsource/beautyfilter/NoStickLiveData;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -3187,19 +2935,16 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/util/ArrayList;
 
     invoke-direct {v1}, Ljava/util/ArrayList;-><init>()V
 
-    .line 2
     sget-object v2, Lcom/commsource/studio/sticker/StickerConfig;->F:Lcom/commsource/studio/sticker/StickerConfig;
 
     invoke-virtual {v2}, Lcom/commsource/studio/sticker/StickerConfig;->T()Ljava/util/ArrayList;
 
     move-result-object v2
 
-    .line 3
     invoke-interface {v2}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v2
@@ -3222,7 +2967,6 @@
 
     move-result v3
 
-    .line 4
     sget-object v4, Lcom/commsource/studio/sticker/StickerManager;->p:Lcom/commsource/studio/sticker/StickerManager;
 
     invoke-virtual {v4, v3}, Lcom/commsource/studio/sticker/StickerManager;->Q(I)Lcom/meitu/template/bean/StickerGroup;
@@ -3231,12 +2975,10 @@
 
     if-eqz v3, :cond_0
 
-    .line 5
     invoke-virtual {v1, v3}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
     goto :goto_0
 
-    .line 6
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -3252,10 +2994,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/studio/sticker/StickerManager;->g:Landroid/util/SparseArray;
 
-    .line 2
     invoke-virtual {v1, p1}, Landroid/util/SparseArray;->get(I)Ljava/lang/Object;
 
     move-result-object p1
@@ -3276,10 +3016,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/studio/sticker/StickerManager;->f:Landroid/util/SparseArray;
 
-    .line 2
     invoke-virtual {v1, p1}, Landroid/util/SparseArray;->get(I)Ljava/lang/Object;
 
     move-result-object p1
@@ -3300,7 +3038,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/studio/sticker/StickerManager;->f:Landroid/util/SparseArray;
 
     invoke-virtual {v1}, Landroid/util/SparseArray;->size()I
@@ -3312,7 +3049,6 @@
     :goto_0
     if-ge v2, v1, :cond_1
 
-    .line 2
     sget-object v3, Lcom/commsource/studio/sticker/StickerManager;->f:Landroid/util/SparseArray;
 
     invoke-virtual {v3, v2}, Landroid/util/SparseArray;->keyAt(I)I
@@ -3327,14 +3063,12 @@
 
     if-eqz v3, :cond_0
 
-    .line 3
     invoke-virtual {v3}, Lcom/meitu/template/bean/StickerGroup;->getCategoryId()I
 
     move-result v4
 
     if-ne v4, p1, :cond_0
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v3
@@ -3347,7 +3081,6 @@
     :cond_1
     const/4 p1, 0x0
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p1
@@ -3371,15 +3104,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/studio/sticker/StickerManager;->i:Ljava/util/ArrayList;
 
-    .line 2
     new-instance v2, Ljava/util/ArrayList;
 
     invoke-direct {v2}, Ljava/util/ArrayList;-><init>()V
 
-    .line 3
     invoke-interface {v1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v1
@@ -3400,7 +3130,6 @@
 
     check-cast v4, Lcom/meitu/template/bean/m;
 
-    .line 4
     invoke-virtual {v4}, Lcom/meitu/template/bean/m;->a()I
 
     move-result v5
@@ -3435,7 +3164,6 @@
 
     if-eq v5, v6, :cond_3
 
-    .line 5
     invoke-virtual {v4}, Lcom/meitu/template/bean/m;->e()Ljava/util/List;
 
     move-result-object v4
@@ -3468,12 +3196,10 @@
     :cond_3
     if-eqz v7, :cond_0
 
-    .line 6
     invoke-interface {v2, v3}, Ljava/util/Collection;->add(Ljava/lang/Object;)Z
 
     goto :goto_0
 
-    .line 7
     :cond_4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -3497,15 +3223,12 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     new-instance v1, Lcom/commsource/material/download/c/d;
 
-    .line 2
     invoke-virtual {p1}, Lcom/meitu/template/bean/Sticker;->getFileUrl()Ljava/lang/String;
 
     move-result-object v3
 
-    .line 3
     new-instance v2, Ljava/lang/StringBuilder;
 
     invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
@@ -3544,7 +3267,6 @@
 
     move-object v2, v1
 
-    .line 4
     invoke-direct/range {v2 .. v8}, Lcom/commsource/material/download/c/d;-><init>(Ljava/lang/String;Ljava/lang/String;ZLjava/lang/String;ILcotlin/jvm/internal/u;)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -3559,20 +3281,16 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/studio/sticker/StickerManager;->f:Landroid/util/SparseArray;
 
-    .line 2
     invoke-static {v1}, Lcom/commsource/util/l0;->u0(Landroid/util/SparseArray;)Ljava/util/ArrayList;
 
     move-result-object v1
 
-    .line 3
     new-instance v2, Ljava/util/ArrayList;
 
     invoke-direct {v2}, Ljava/util/ArrayList;-><init>()V
 
-    .line 4
     invoke-interface {v1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v1
@@ -3597,7 +3315,6 @@
 
     check-cast v6, Lcom/meitu/template/bean/StickerGroup;
 
-    .line 5
     invoke-virtual {v6}, Lcom/meitu/template/bean/StickerGroup;->getGroupId()I
 
     move-result v7
@@ -3641,7 +3358,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/studio/sticker/StickerConfig;->F:Lcom/commsource/studio/sticker/StickerConfig;
 
     invoke-virtual {v1}, Lcom/commsource/studio/sticker/StickerConfig;->P()I
@@ -3654,32 +3370,26 @@
 
     if-ge v2, v3, :cond_e
 
-    .line 2
     invoke-virtual {v1}, Lcom/commsource/studio/sticker/StickerConfig;->N()Lcom/commsource/studio/sticker/StickerConfig$StickerOnlineInfo;
 
     move-result-object v1
 
-    .line 3
     new-instance v2, Ljava/util/ArrayList;
 
     invoke-direct {v2}, Ljava/util/ArrayList;-><init>()V
 
-    .line 4
     new-instance v3, Ljava/util/ArrayList;
 
     invoke-direct {v3}, Ljava/util/ArrayList;-><init>()V
 
-    .line 5
     new-instance v4, Ljava/util/ArrayList;
 
     invoke-direct {v4}, Ljava/util/ArrayList;-><init>()V
 
-    .line 6
     invoke-virtual {v1}, Lcom/commsource/studio/sticker/StickerConfig$StickerOnlineInfo;->getData()Ljava/util/List;
 
     move-result-object v1
 
-    .line 7
     invoke-interface {v1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v5
@@ -3708,18 +3418,15 @@
     :cond_0
     check-cast v8, Lcom/meitu/template/bean/m;
 
-    .line 8
     invoke-virtual {v8, v7}, Lcom/meitu/template/bean/m;->j(I)V
 
     move v7, v9
 
     goto :goto_0
 
-    .line 9
     :cond_1
     invoke-interface {v2, v1}, Ljava/util/List;->addAll(Ljava/util/Collection;)Z
 
-    .line 10
     new-instance v5, Ljava/util/ArrayList;
 
     const/16 v7, 0xa
@@ -3730,7 +3437,6 @@
 
     invoke-direct {v5, v7}, Ljava/util/ArrayList;-><init>(I)V
 
-    .line 11
     invoke-interface {v1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v1
@@ -3746,17 +3452,14 @@
 
     move-result-object v7
 
-    .line 12
     check-cast v7, Lcom/meitu/template/bean/m;
 
-    .line 13
     invoke-virtual {v7}, Lcom/meitu/template/bean/m;->e()Ljava/util/List;
 
     move-result-object v8
 
     if-eqz v8, :cond_6
 
-    .line 14
     invoke-interface {v8}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v8
@@ -3783,29 +3486,24 @@
     :cond_2
     check-cast v10, Lcom/meitu/template/bean/StickerGroup;
 
-    .line 15
     invoke-virtual {v10, v9}, Lcom/meitu/template/bean/StickerGroup;->setGroupSort(I)V
 
     const/4 v9, 0x1
 
-    .line 16
     invoke-virtual {v10, v9}, Lcom/meitu/template/bean/StickerGroup;->setInternalState(I)V
 
-    .line 17
     invoke-virtual {v7}, Lcom/meitu/template/bean/m;->a()I
 
     move-result v12
 
     invoke-virtual {v10, v12}, Lcom/meitu/template/bean/StickerGroup;->setCategoryId(I)V
 
-    .line 18
     invoke-virtual {v10}, Lcom/meitu/template/bean/StickerGroup;->getStickerList()Ljava/util/ArrayList;
 
     move-result-object v12
 
     if-eqz v12, :cond_4
 
-    .line 19
     invoke-interface {v12}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v12
@@ -3832,20 +3530,16 @@
     :cond_3
     check-cast v14, Lcom/meitu/template/bean/Sticker;
 
-    .line 20
     invoke-virtual {v14, v13}, Lcom/meitu/template/bean/Sticker;->setStickerSort(I)V
 
-    .line 21
     invoke-virtual {v14, v9}, Lcom/meitu/template/bean/e;->setInternalState(I)V
 
-    .line 22
     invoke-virtual {v10}, Lcom/meitu/template/bean/StickerGroup;->getGroupId()I
 
     move-result v13
 
     invoke-virtual {v14, v13}, Lcom/meitu/template/bean/Sticker;->setGroupId(I)V
 
-    .line 23
     sget-object v13, Lcom/commsource/studio/sticker/StickerConfig;->F:Lcom/commsource/studio/sticker/StickerConfig;
 
     invoke-virtual {v13, v14}, Lcom/commsource/studio/sticker/StickerConfig;->O(Lcom/meitu/template/bean/Sticker;)Ljava/lang/String;
@@ -3854,14 +3548,12 @@
 
     invoke-virtual {v14, v13}, Lcom/meitu/template/bean/Sticker;->setStickerThumbnail(Ljava/lang/String;)V
 
-    .line 24
     invoke-interface {v4, v14}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
     move v13, v15
 
     goto :goto_3
 
-    .line 25
     :cond_4
     invoke-interface {v3, v10}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
@@ -3869,7 +3561,6 @@
 
     goto :goto_2
 
-    .line 26
     :cond_5
     sget-object v7, Lcotlin/t1;->a:Lcotlin/t1;
 
@@ -3878,13 +3569,11 @@
     :cond_6
     const/4 v7, 0x0
 
-    .line 27
     :goto_4
     invoke-interface {v5, v7}, Ljava/util/Collection;->add(Ljava/lang/Object;)Z
 
     goto :goto_1
 
-    .line 28
     :cond_7
     sget-object v1, Lcom/commsource/studio/sticker/StickerConfig;->F:Lcom/commsource/studio/sticker/StickerConfig;
 
@@ -3892,10 +3581,8 @@
 
     move-result-object v1
 
-    .line 29
     invoke-interface {v2, v1}, Ljava/util/List;->addAll(Ljava/util/Collection;)Z
 
-    .line 30
     invoke-interface {v2}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v1
@@ -3913,7 +3600,6 @@
 
     check-cast v2, Lcom/meitu/template/bean/m;
 
-    .line 31
     sget-object v5, Lcom/commsource/studio/sticker/StickerRepository;->d:Lcom/commsource/studio/sticker/StickerRepository;
 
     invoke-virtual {v2}, Lcom/meitu/template/bean/m;->a()I
@@ -3926,25 +3612,21 @@
 
     if-eqz v6, :cond_8
 
-    .line 32
     invoke-virtual {v6}, Lcom/meitu/template/bean/m;->c()I
 
     move-result v6
 
     invoke-virtual {v2, v6}, Lcom/meitu/template/bean/m;->j(I)V
 
-    .line 33
     invoke-virtual {v5, v2}, Lcom/commsource/studio/sticker/StickerRepository;->s(Lcom/meitu/template/bean/m;)V
 
     goto :goto_5
 
-    .line 34
     :cond_8
     invoke-virtual {v5, v2}, Lcom/commsource/studio/sticker/StickerRepository;->m(Lcom/meitu/template/bean/m;)V
 
     goto :goto_5
 
-    .line 35
     :cond_9
     sget-object v1, Lcom/commsource/studio/sticker/StickerConfig;->F:Lcom/commsource/studio/sticker/StickerConfig;
 
@@ -3952,10 +3634,8 @@
 
     move-result-object v1
 
-    .line 36
     invoke-interface {v3, v1}, Ljava/util/List;->addAll(Ljava/util/Collection;)Z
 
-    .line 37
     invoke-interface {v3}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v1
@@ -3973,7 +3653,6 @@
 
     check-cast v2, Lcom/meitu/template/bean/StickerGroup;
 
-    .line 38
     sget-object v3, Lcom/commsource/studio/sticker/StickerRepository;->d:Lcom/commsource/studio/sticker/StickerRepository;
 
     invoke-virtual {v2}, Lcom/meitu/template/bean/StickerGroup;->getGroupId()I
@@ -3986,26 +3665,22 @@
 
     if-eqz v5, :cond_a
 
-    .line 39
     invoke-virtual {v5}, Lcom/meitu/template/bean/StickerGroup;->getGroupSort()I
 
     move-result v6
 
     invoke-virtual {v2, v6}, Lcom/meitu/template/bean/StickerGroup;->setGroupSort(I)V
 
-    .line 40
     invoke-virtual {v5}, Lcom/meitu/template/bean/StickerGroup;->getGroupPaidState()I
 
     move-result v5
 
     invoke-virtual {v2, v5}, Lcom/meitu/template/bean/StickerGroup;->setGroupPaidState(I)V
 
-    .line 41
     invoke-virtual {v3, v2}, Lcom/commsource/studio/sticker/StickerRepository;->t(Lcom/meitu/template/bean/StickerGroup;)V
 
     goto :goto_6
 
-    .line 42
     :cond_a
     sget-object v5, Lcom/commsource/studio/sticker/StickerConfig;->F:Lcom/commsource/studio/sticker/StickerConfig;
 
@@ -4019,12 +3694,10 @@
 
     invoke-virtual {v2, v5}, Lcom/meitu/template/bean/StickerGroup;->setGroupName(Ljava/lang/String;)V
 
-    .line 43
     invoke-virtual {v3, v2}, Lcom/commsource/studio/sticker/StickerRepository;->n(Lcom/meitu/template/bean/StickerGroup;)V
 
     goto :goto_6
 
-    .line 44
     :cond_b
     invoke-interface {v4}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
@@ -4043,7 +3716,6 @@
 
     check-cast v2, Lcom/meitu/template/bean/Sticker;
 
-    .line 45
     sget-object v3, Lcom/commsource/studio/sticker/StickerRepository;->d:Lcom/commsource/studio/sticker/StickerRepository;
 
     invoke-virtual {v2}, Lcom/meitu/template/bean/Sticker;->getStickerId()I
@@ -4056,39 +3728,33 @@
 
     if-eqz v4, :cond_c
 
-    .line 46
     invoke-virtual {v4}, Lcom/meitu/template/bean/Sticker;->getStickerSort()I
 
     move-result v5
 
     invoke-virtual {v2, v5}, Lcom/meitu/template/bean/Sticker;->setStickerSort(I)V
 
-    .line 47
     invoke-virtual {v4}, Lcom/meitu/template/bean/e;->getDownloadState()I
 
     move-result v5
 
     invoke-virtual {v2, v5}, Lcom/meitu/template/bean/e;->setDownloadState(I)V
 
-    .line 48
     invoke-virtual {v4}, Lcom/meitu/template/bean/Sticker;->getStickerRecommendState()I
 
     move-result v4
 
     invoke-virtual {v2, v4}, Lcom/meitu/template/bean/Sticker;->setStickerRecommendState(I)V
 
-    .line 49
     invoke-virtual {v3, v2}, Lcom/commsource/studio/sticker/StickerRepository;->u(Lcom/meitu/template/bean/Sticker;)V
 
     goto :goto_7
 
-    .line 50
     :cond_c
     invoke-virtual {v3, v2}, Lcom/commsource/studio/sticker/StickerRepository;->o(Lcom/meitu/template/bean/Sticker;)V
 
     goto :goto_7
 
-    .line 51
     :cond_d
     sget-object v1, Lcom/commsource/studio/sticker/StickerConfig;->F:Lcom/commsource/studio/sticker/StickerConfig;
 
@@ -4098,7 +3764,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/studio/sticker/StickerConfig;->f0(I)V
 
-    .line 52
     :cond_e
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -4112,12 +3777,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-boolean v1, Lcom/commsource/studio/sticker/StickerManager;->o:Z
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -4125,17 +3788,14 @@
     :cond_0
     const/4 v1, 0x1
 
-    .line 3
     sput-boolean v1, Lcom/commsource/studio/sticker/StickerManager;->o:Z
 
-    .line 4
     sget-object v1, Lcom/commsource/studio/sticker/StickerManager;->a:Lcom/commsource/beautyfilter/NoStickLiveData;
 
     const/4 v2, 0x0
 
     invoke-virtual {v1, v2}, Lcom/commsource/beautyfilter/NoStickLiveData;->setValue(Ljava/lang/Object;)V
 
-    .line 5
     new-instance v1, Lcom/commsource/studio/sticker/StickerManager$k;
 
     const-string v2, "Init-Sticker-Manager"
@@ -4144,7 +3804,6 @@
 
     invoke-static {v1}, Lcom/commsource/util/c2;->g(Lcom/commsource/util/u2/a;)V
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -4157,10 +3816,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/studio/sticker/StickerManager$insertGroupToFirstIfNotExist$insertFunc$1;->INSTANCE:Lcom/commsource/studio/sticker/StickerManager$insertGroupToFirstIfNotExist$insertFunc$1;
 
-    .line 2
     invoke-static {}, Landroid/os/Looper;->myLooper()Landroid/os/Looper;
 
     move-result-object v2
@@ -4175,7 +3832,6 @@
 
     if-eqz v2, :cond_0
 
-    .line 3
     invoke-static {p1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object p1
@@ -4184,7 +3840,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_0
     new-instance v2, Lcom/commsource/studio/sticker/StickerManager$l;
 
@@ -4192,7 +3847,6 @@
 
     invoke-static {v2}, Lcom/commsource/util/g2;->k(Ljava/lang/Runnable;)V
 
-    .line 5
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -4214,7 +3868,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     new-instance v1, Lcom/commsource/studio/sticker/StickerManager$m;
 
     const-string v2, "INSERT-STICKER-DB"
@@ -4223,7 +3876,6 @@
 
     invoke-static {v1}, Lcom/commsource/util/c2;->e(Lcom/commsource/util/u2/a;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -4236,7 +3888,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0, p1}, Lcom/commsource/studio/sticker/StickerManager;->P(I)Lcom/meitu/template/bean/Sticker;
 
     move-result-object p1
@@ -4245,7 +3896,6 @@
 
     if-eqz p1, :cond_1
 
-    .line 2
     sget-object v2, Lcom/commsource/studio/sticker/StickerManager;->p:Lcom/commsource/studio/sticker/StickerManager;
 
     invoke-virtual {p1}, Lcom/meitu/template/bean/Sticker;->getGroupId()I
@@ -4281,7 +3931,6 @@
     :cond_1
     const/4 p1, 0x0
 
-    .line 3
     :goto_1
     invoke-static {p1, v1}, Lcom/commsource/util/l0;->E(Ljava/lang/Boolean;Z)Z
 
@@ -4299,7 +3948,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/repository/XRepository;->d:Lcom/commsource/repository/XRepository;
 
     invoke-virtual {v1}, Lcom/commsource/repository/XRepository;->f()Lcom/commsource/repository/c;
@@ -4308,7 +3956,6 @@
 
     invoke-virtual {v1}, Lcom/commsource/repository/c;->d()V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -4329,7 +3976,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-virtual {p1}, Lcom/meitu/template/bean/Sticker;->isFormulaSticker()Z
 
     move-result v1
@@ -4338,12 +3984,10 @@
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v2
 
-    .line 3
     :cond_0
     invoke-virtual {p1}, Lcom/meitu/template/bean/Sticker;->getGroupId()I
 
@@ -4383,15 +4027,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-boolean v1, Lcom/commsource/studio/sticker/StickerManager;->l:Z
 
     if-nez v1, :cond_0
 
-    .line 2
     invoke-virtual {p0}, Lcom/commsource/studio/sticker/StickerManager;->k0()V
 
-    .line 3
     :cond_0
     sget-boolean v1, Lcom/commsource/studio/sticker/StickerManager;->l:Z
 
@@ -4433,7 +4074,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-boolean v1, Lcom/commsource/studio/sticker/StickerManager;->l:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -4448,7 +4088,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/repository/XRepository;->d:Lcom/commsource/repository/XRepository;
 
     invoke-virtual {v1}, Lcom/commsource/repository/XRepository;->f()Lcom/commsource/repository/c;
@@ -4457,7 +4096,6 @@
 
     invoke-virtual {v1}, Lcom/commsource/repository/c;->a()V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -4478,7 +4116,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-virtual {p1}, Lcom/meitu/template/bean/Sticker;->getGroupId()I
 
     move-result p1
@@ -4493,7 +4130,6 @@
 
     const/4 p2, -0x1
 
-    .line 2
     invoke-virtual {p1, p2}, Lcom/meitu/template/bean/StickerGroup;->setGroupDownloadStatus(I)V
 
     goto :goto_0
@@ -4501,17 +4137,14 @@
     :cond_0
     if-eqz p1, :cond_1
 
-    .line 3
     invoke-virtual {p1}, Lcom/meitu/template/bean/StickerGroup;->updateGroupDownloadState()V
 
-    .line 4
     :cond_1
     :goto_0
     sget-object p2, Lcom/commsource/studio/sticker/StickerManager;->e:Lcom/commsource/beautyfilter/NoStickLiveData;
 
     invoke-virtual {p2, p1}, Lcom/commsource/beautyfilter/NoStickLiveData;->postValue(Ljava/lang/Object;)V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -4535,7 +4168,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/studio/sticker/StickerManager;->a:Lcom/commsource/beautyfilter/NoStickLiveData;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -4561,7 +4193,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/studio/sticker/StickerManager;->e:Lcom/commsource/beautyfilter/NoStickLiveData;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -4587,7 +4218,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/studio/sticker/StickerManager;->b:Lcom/commsource/beautyfilter/NoStickLiveData;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -4613,7 +4243,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/studio/sticker/StickerManager;->c:Lcom/commsource/beautyfilter/NoStickLiveData;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -4628,7 +4257,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/commsource/studio/sticker/StickerManager$o;
 
     const-string v2, "Pull-Sicker-Data"
@@ -4637,7 +4265,6 @@
 
     invoke-static {v1}, Lcom/commsource/util/c2;->g(Lcom/commsource/util/u2/a;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -4652,40 +4279,32 @@
 
     const/4 v1, 0x0
 
-    .line 1
     sput-boolean v1, Lcom/commsource/studio/sticker/StickerManager;->o:Z
 
-    .line 2
     sget-object v1, Lcom/commsource/studio/sticker/StickerManager;->f:Landroid/util/SparseArray;
 
     invoke-virtual {v1}, Landroid/util/SparseArray;->clear()V
 
-    .line 3
     sget-object v1, Lcom/commsource/studio/sticker/StickerManager;->g:Landroid/util/SparseArray;
 
     invoke-virtual {v1}, Landroid/util/SparseArray;->clear()V
 
-    .line 4
     sget-object v1, Lcom/commsource/studio/sticker/StickerManager;->h:Landroid/util/SparseArray;
 
     invoke-virtual {v1}, Landroid/util/SparseArray;->clear()V
 
-    .line 5
     sget-object v1, Lcom/commsource/studio/sticker/StickerManager;->i:Ljava/util/ArrayList;
 
     invoke-virtual {v1}, Ljava/util/ArrayList;->clear()V
 
-    .line 6
     sget-object v1, Lcom/commsource/studio/sticker/StickerManager;->j:Ljava/util/ArrayList;
 
     invoke-virtual {v1}, Ljava/util/ArrayList;->clear()V
 
-    .line 7
     sget-object v1, Lcom/commsource/studio/sticker/StickerManager;->k:Ljava/util/ArrayList;
 
     invoke-virtual {v1}, Ljava/util/ArrayList;->clear()V
 
-    .line 8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -4706,7 +4325,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     new-instance v1, Lcom/commsource/studio/sticker/StickerManager$p;
 
     const-string v2, "UPDATE-STICKER-GROUP-DB"
@@ -4715,7 +4333,6 @@
 
     invoke-static {v1}, Lcom/commsource/util/c2;->e(Lcom/commsource/util/u2/a;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -4738,21 +4355,18 @@
 
     const/4 v1, -0x8
 
-    .line 1
     invoke-virtual {p0, v1}, Lcom/commsource/studio/sticker/StickerManager;->Q(I)Lcom/meitu/template/bean/StickerGroup;
 
     move-result-object v1
 
     if-eqz v1, :cond_6
 
-    .line 2
     invoke-virtual {v1}, Lcom/meitu/template/bean/StickerGroup;->getStickerList()Ljava/util/ArrayList;
 
     move-result-object v1
 
     if-eqz v1, :cond_6
 
-    .line 3
     invoke-interface {v1}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
     move-result-object v2
@@ -4772,10 +4386,8 @@
 
     move-result-object v5
 
-    .line 4
     check-cast v5, Lcom/meitu/template/bean/Sticker;
 
-    .line 5
     invoke-virtual {v5}, Lcom/meitu/template/bean/Sticker;->getStickerId()I
 
     move-result v5
@@ -4806,7 +4418,6 @@
     :cond_2
     const/4 v4, -0x1
 
-    .line 6
     :goto_2
     sget-object v2, Lcom/commsource/studio/k;->V:Lcom/commsource/studio/k;
 
@@ -4816,26 +4427,22 @@
 
     invoke-virtual {p1, v5}, Lcom/meitu/template/bean/Sticker;->setContainInHistory(I)V
 
-    .line 7
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v5
 
     invoke-virtual {p1, v5, v6}, Lcom/meitu/template/bean/Sticker;->setHistoryTime(J)V
 
-    .line 8
     invoke-virtual {p1}, Lcom/meitu/template/bean/Sticker;->isCustom()Z
 
     move-result v5
 
     if-eqz v5, :cond_3
 
-    .line 9
     sget-object v5, Lcom/commsource/studio/sticker/StickerManager;->p:Lcom/commsource/studio/sticker/StickerManager;
 
     invoke-virtual {v5, p1}, Lcom/commsource/studio/sticker/StickerManager;->Z(Lcom/meitu/template/bean/Sticker;)V
 
-    .line 10
     sget-object v5, Lcom/commsource/studio/sticker/StickerManager;->g:Landroid/util/SparseArray;
 
     invoke-virtual {p1}, Lcom/meitu/template/bean/Sticker;->getStickerId()I
@@ -4846,7 +4453,6 @@
 
     goto :goto_3
 
-    .line 11
     :cond_3
     sget-object v5, Lcom/commsource/studio/sticker/StickerManager;->p:Lcom/commsource/studio/sticker/StickerManager;
 
@@ -4855,15 +4461,12 @@
     :goto_3
     if-ltz v4, :cond_4
 
-    .line 12
     invoke-virtual {v1, v4}, Ljava/util/ArrayList;->remove(I)Ljava/lang/Object;
 
-    .line 13
     invoke-virtual {v1, v3, p1}, Ljava/util/ArrayList;->add(ILjava/lang/Object;)V
 
     goto :goto_4
 
-    .line 14
     :cond_4
     invoke-virtual {v1}, Ljava/util/ArrayList;->size()I
 
@@ -4873,7 +4476,6 @@
 
     if-lt v4, v5, :cond_5
 
-    .line 15
     invoke-static {v1}, Lcotlin/collections/s;->G(Ljava/util/List;)I
 
     move-result v4
@@ -4888,7 +4490,6 @@
 
     check-cast v4, Lcom/meitu/template/bean/Sticker;
 
-    .line 16
     invoke-virtual {v2}, Lcom/commsource/studio/k;->j()I
 
     move-result v2
@@ -4897,19 +4498,15 @@
 
     const-wide/16 v5, 0x0
 
-    .line 17
     invoke-virtual {v4, v5, v6}, Lcom/meitu/template/bean/Sticker;->setHistoryTime(J)V
 
-    .line 18
     sget-object v2, Lcom/commsource/studio/sticker/StickerManager;->p:Lcom/commsource/studio/sticker/StickerManager;
 
     invoke-virtual {v2, v4}, Lcom/commsource/studio/sticker/StickerManager;->o0(Lcom/meitu/template/bean/Sticker;)V
 
-    .line 19
     :cond_5
     invoke-virtual {v1, v3, p1}, Ljava/util/ArrayList;->add(ILjava/lang/Object;)V
 
-    .line 20
     :cond_6
     :goto_4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -4932,7 +4529,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     new-instance v1, Lcom/commsource/studio/sticker/StickerManager$q;
 
     const-string v2, "UPDATE-STICKER-DB"
@@ -4941,7 +4537,6 @@
 
     invoke-static {v1}, Lcom/commsource/util/c2;->e(Lcom/commsource/util/u2/a;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -4970,7 +4565,6 @@
 
     invoke-static {p2, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-virtual {p2}, Lcom/meitu/template/bean/Sticker;->getGroupId()I
 
     move-result v1
@@ -4981,7 +4575,6 @@
 
     if-eqz v1, :cond_2
 
-    .line 2
     invoke-virtual {v1}, Lcom/meitu/template/bean/StickerGroup;->getGroupId()I
 
     move-result v2
@@ -4994,7 +4587,6 @@
 
     if-eq v2, v3, :cond_0
 
-    .line 3
     invoke-virtual {v1}, Lcom/meitu/template/bean/StickerGroup;->getCategoryId()I
 
     move-result v1
@@ -5013,7 +4605,6 @@
     :cond_1
     const-string v1, "\u5386\u53f2"
 
-    .line 4
     :goto_0
     new-instance v2, Ljava/util/HashMap;
 
@@ -5021,7 +4612,6 @@
 
     invoke-direct {v2, v3}, Ljava/util/HashMap;-><init>(I)V
 
-    .line 5
     invoke-virtual {p2}, Lcom/meitu/template/bean/Sticker;->getGroupId()I
 
     move-result v3
@@ -5036,10 +4626,8 @@
 
     const-string v3, "\u8d34\u7eb8\u5206\u7c7bID"
 
-    .line 6
     invoke-virtual {v2, v3, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 7
     invoke-virtual {p2}, Lcom/meitu/template/bean/Sticker;->getStickerId()I
 
     move-result p2
@@ -5052,10 +4640,8 @@
 
     invoke-virtual {v2, v1, p2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 8
     invoke-static {p1, v2}, Lcom/commsource/statistics/i;->s(Ljava/lang/String;Ljava/util/Map;)V
 
-    .line 9
     :cond_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -5077,7 +4663,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
     move-result-object v1
@@ -5088,15 +4673,12 @@
 
     if-eqz v1, :cond_5
 
-    .line 2
     sget-object v1, Lcom/commsource/studio/sticker/StickerManager;->j:Ljava/util/ArrayList;
 
-    .line 3
     new-instance v2, Ljava/util/ArrayList;
 
     invoke-direct {v2}, Ljava/util/ArrayList;-><init>()V
 
-    .line 4
     invoke-interface {v1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v1
@@ -5119,7 +4701,6 @@
 
     check-cast v5, Lcom/meitu/template/bean/StickerGroup;
 
-    .line 5
     invoke-virtual {v5}, Lcom/meitu/template/bean/StickerGroup;->getInternalState()I
 
     move-result v6
@@ -5154,12 +4735,10 @@
 
     if-ne v6, v8, :cond_1
 
-    .line 6
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
     move-result-object v6
 
-    .line 7
     invoke-static {v6}, Lcom/commsource/beautyplus/util/t;->f(Landroid/content/Context;)Z
 
     move-result v6
@@ -5181,12 +4760,10 @@
     :cond_3
     if-eqz v4, :cond_0
 
-    .line 8
     invoke-interface {v2, v3}, Ljava/util/Collection;->add(Ljava/lang/Object;)Z
 
     goto :goto_0
 
-    .line 9
     :cond_4
     invoke-interface {v2}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
@@ -5205,14 +4782,12 @@
 
     check-cast v2, Lcom/meitu/template/bean/StickerGroup;
 
-    .line 10
     sget-object v3, Lcom/commsource/studio/sticker/StickerManager;->p:Lcom/commsource/studio/sticker/StickerManager;
 
     invoke-virtual {v3, v2, v4, p1}, Lcom/commsource/studio/sticker/StickerManager;->J(Lcom/meitu/template/bean/StickerGroup;ZLjava/lang/String;)V
 
     goto :goto_1
 
-    .line 11
     :cond_5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -5234,7 +4809,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     sget-object v1, Lcom/commsource/material/c;->m:Lcom/commsource/material/c;
 
     invoke-virtual {v1}, Lcom/commsource/material/c;->j()Lcom/commsource/material/d;
@@ -5247,7 +4821,6 @@
 
     invoke-virtual {v1, p1}, Lcom/commsource/material/d;->w(Ljava/lang/String;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

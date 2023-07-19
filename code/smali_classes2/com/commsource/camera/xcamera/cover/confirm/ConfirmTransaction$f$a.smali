@@ -44,7 +44,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmTransaction$f$a;->a:Lcom/commsource/camera/xcamera/cover/confirm/ConfirmTransaction$f;
 
     iget-object p1, p1, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmTransaction$f;->a:Lcom/commsource/camera/xcamera/cover/confirm/ConfirmTransaction;
@@ -61,7 +60,6 @@
 
     invoke-static {p1, v1, v2, v3}, Lcom/commsource/camera/xcamera/cover/confirm/b;->N(Lcom/commsource/camera/xcamera/cover/confirm/b;ZILjava/lang/Object;)V
 
-    .line 2
     :cond_0
     invoke-static {}, Lcom/commsource/beautymain/utils/h;->d()Lcom/commsource/beautymain/utils/h;
 
@@ -69,7 +67,6 @@
 
     invoke-virtual {p1}, Lcom/commsource/beautymain/utils/h;->j()V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

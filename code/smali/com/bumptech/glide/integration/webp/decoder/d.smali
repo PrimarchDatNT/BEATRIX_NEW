@@ -42,12 +42,10 @@
 .method static constructor <clinit>()V
     .locals 2
 
-    .line 1
     sget-object v0, Ljava/lang/Boolean;->FALSE:Ljava/lang/Boolean;
 
     const-string v1, "com.bumptech.glide.integration.webp.decoder.ByteBufferWebpDecoder.DisableAnimation"
 
-    .line 2
     invoke-static {v1, v0}, Lcom/bumptech/glide/load/e;->g(Ljava/lang/String;Ljava/lang/Object;)Lcom/bumptech/glide/load/e;
 
     move-result-object v0
@@ -60,7 +58,6 @@
 .method public constructor <init>(Landroid/content/Context;)V
     .locals 2
 
-    .line 1
     invoke-static {p1}, Lcom/bumptech/glide/c;->d(Landroid/content/Context;)Lcom/bumptech/glide/c;
 
     move-result-object v0
@@ -69,7 +66,6 @@
 
     move-result-object v0
 
-    .line 2
     invoke-static {p1}, Lcom/bumptech/glide/c;->d(Landroid/content/Context;)Lcom/bumptech/glide/c;
 
     move-result-object v1
@@ -78,7 +74,6 @@
 
     move-result-object v1
 
-    .line 3
     invoke-direct {p0, p1, v0, v1}, Lcom/bumptech/glide/integration/webp/decoder/d;-><init>(Landroid/content/Context;Lcom/bumptech/glide/load/engine/bitmap_recycle/b;Lcom/bumptech/glide/load/engine/bitmap_recycle/e;)V
 
     return-void
@@ -87,20 +82,16 @@
 .method public constructor <init>(Landroid/content/Context;Lcom/bumptech/glide/load/engine/bitmap_recycle/b;Lcom/bumptech/glide/load/engine/bitmap_recycle/e;)V
     .locals 0
 
-    .line 4
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 5
     invoke-virtual {p1}, Landroid/content/Context;->getApplicationContext()Landroid/content/Context;
 
     move-result-object p1
 
     iput-object p1, p0, Lcom/bumptech/glide/integration/webp/decoder/d;->a:Landroid/content/Context;
 
-    .line 6
     iput-object p3, p0, Lcom/bumptech/glide/integration/webp/decoder/d;->b:Lcom/bumptech/glide/load/engine/bitmap_recycle/e;
 
-    .line 7
     new-instance p1, Lcom/bumptech/glide/load/l/g/b;
 
     invoke-direct {p1, p3, p2}, Lcom/bumptech/glide/load/l/g/b;-><init>(Lcom/bumptech/glide/load/engine/bitmap_recycle/e;Lcom/bumptech/glide/load/engine/bitmap_recycle/b;)V
@@ -128,7 +119,6 @@
         }
     .end annotation
 
-    .line 1
     check-cast p1, Ljava/nio/ByteBuffer;
 
     invoke-virtual {p0, p1, p2}, Lcom/bumptech/glide/integration/webp/decoder/d;->d(Ljava/nio/ByteBuffer;Lcom/bumptech/glide/load/f;)Z
@@ -157,7 +147,6 @@
         }
     .end annotation
 
-    .line 1
     check-cast p1, Ljava/nio/ByteBuffer;
 
     invoke-virtual {p0, p1, p2, p3, p4}, Lcom/bumptech/glide/integration/webp/decoder/d;->c(Ljava/nio/ByteBuffer;IILcom/bumptech/glide/load/f;)Lcom/bumptech/glide/load/engine/s;
@@ -201,27 +190,22 @@
 
     move-object v0, p0
 
-    .line 1
     invoke-virtual/range {p1 .. p1}, Ljava/nio/ByteBuffer;->remaining()I
 
     move-result v1
 
-    .line 2
     new-array v2, v1, [B
 
     const/4 v3, 0x0
 
     move-object/from16 v7, p1
 
-    .line 3
     invoke-virtual {v7, v2, v3, v1}, Ljava/nio/ByteBuffer;->get([BII)Ljava/nio/ByteBuffer;
 
-    .line 4
     invoke-static {v2}, Lcom/bumptech/glide/integration/webp/WebpImage;->create([B)Lcom/bumptech/glide/integration/webp/WebpImage;
 
     move-result-object v6
 
-    .line 5
     invoke-virtual {v6}, Lcom/bumptech/glide/integration/webp/WebpImage;->getWidth()I
 
     move-result v1
@@ -238,7 +222,6 @@
 
     move-result v8
 
-    .line 6
     sget-object v1, Lcom/bumptech/glide/integration/webp/decoder/o;->q:Lcom/bumptech/glide/load/e;
 
     move-object/from16 v2, p4
@@ -251,7 +234,6 @@
 
     check-cast v9, Lcom/bumptech/glide/integration/webp/decoder/WebpFrameCacheStrategy;
 
-    .line 7
     new-instance v1, Lcom/bumptech/glide/integration/webp/decoder/i;
 
     iget-object v5, v0, Lcom/bumptech/glide/integration/webp/decoder/d;->c:Lcom/bumptech/glide/load/l/g/b;
@@ -260,10 +242,8 @@
 
     invoke-direct/range {v4 .. v9}, Lcom/bumptech/glide/integration/webp/decoder/i;-><init>(Lcom/bumptech/glide/n/a$a;Lcom/bumptech/glide/integration/webp/WebpImage;Ljava/nio/ByteBuffer;ILcom/bumptech/glide/integration/webp/decoder/WebpFrameCacheStrategy;)V
 
-    .line 8
     invoke-virtual {v1}, Lcom/bumptech/glide/integration/webp/decoder/i;->D1()V
 
-    .line 9
     invoke-virtual {v1}, Lcom/bumptech/glide/integration/webp/decoder/i;->C1()Landroid/graphics/Bitmap;
 
     move-result-object v14
@@ -274,13 +254,11 @@
 
     return-object v1
 
-    .line 10
     :cond_0
     invoke-static {}, Lcom/bumptech/glide/load/l/c;->c()Lcom/bumptech/glide/load/l/c;
 
     move-result-object v11
 
-    .line 11
     new-instance v2, Lcom/bumptech/glide/integration/webp/decoder/m;
 
     new-instance v4, Lcom/bumptech/glide/integration/webp/decoder/k;
@@ -320,7 +298,6 @@
         }
     .end annotation
 
-    .line 1
     sget-object v0, Lcom/bumptech/glide/integration/webp/decoder/d;->d:Lcom/bumptech/glide/load/e;
 
     invoke-virtual {p2, v0}, Lcom/bumptech/glide/load/f;->c(Lcom/bumptech/glide/load/e;)Ljava/lang/Object;
@@ -339,13 +316,11 @@
 
     return p1
 
-    .line 2
     :cond_0
     invoke-static {p1}, Lcom/bumptech/glide/integration/webp/WebpHeaderParser;->c(Ljava/nio/ByteBuffer;)Lcom/bumptech/glide/integration/webp/WebpHeaderParser$WebpImageType;
 
     move-result-object p1
 
-    .line 3
     invoke-static {p1}, Lcom/bumptech/glide/integration/webp/WebpHeaderParser;->f(Lcom/bumptech/glide/integration/webp/WebpHeaderParser$WebpImageType;)Z
 
     move-result p1

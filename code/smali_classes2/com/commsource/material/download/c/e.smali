@@ -11,7 +11,6 @@
 .method public constructor <init>(Lcom/commsource/material/download/SegmentModel;)V
     .locals 3
 
-    .line 1
     invoke-virtual {p1}, Lcom/commsource/material/download/SegmentModel;->getUrl()Ljava/lang/String;
 
     move-result-object v0
@@ -38,7 +37,6 @@
 
     invoke-direct {p0, v0, v1}, Lcom/commsource/material/download/c/c;-><init>(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 2
     iput-object p1, p0, Lcom/commsource/material/download/c/e;->l:Lcom/commsource/material/download/SegmentModel;
 
     return-void
@@ -53,14 +51,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/material/download/c/e;->l:Lcom/commsource/material/download/SegmentModel;
 
     invoke-virtual {v1}, Lcom/commsource/material/download/SegmentModel;->getMd5()Ljava/lang/String;
 
     move-result-object v1
 
-    .line 2
     new-instance v2, Ljava/io/File;
 
     invoke-direct {v2, p2}, Ljava/io/File;-><init>(Ljava/lang/String;)V
@@ -69,7 +65,6 @@
 
     move-result-object v2
 
-    .line 3
     invoke-static {v1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v3
@@ -97,7 +92,6 @@
     :goto_0
     const/4 v1, 0x1
 
-    .line 4
     :goto_1
     iget-object v3, p0, Lcom/commsource/material/download/c/e;->l:Lcom/commsource/material/download/SegmentModel;
 
@@ -109,7 +103,6 @@
 
     if-eqz v1, :cond_2
 
-    .line 5
     iget-object v1, p0, Lcom/commsource/material/download/c/e;->l:Lcom/commsource/material/download/SegmentModel;
 
     invoke-virtual {v1}, Lcom/commsource/material/download/SegmentModel;->getPath()Ljava/lang/String;
@@ -128,7 +121,6 @@
 
     if-eqz v1, :cond_2
 
-    .line 6
     iget-object v1, p0, Lcom/commsource/material/download/c/e;->l:Lcom/commsource/material/download/SegmentModel;
 
     invoke-virtual {v1}, Lcom/commsource/material/download/SegmentModel;->getSpKey()Ljava/lang/String;
@@ -137,7 +129,6 @@
 
     invoke-static {v1, v2}, Lcom/commsource/material/download/a;->N(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 7
     iget-object v1, p0, Lcom/commsource/material/download/c/e;->l:Lcom/commsource/material/download/SegmentModel;
 
     invoke-virtual {v1}, Lcom/commsource/material/download/SegmentModel;->getRealPath()Ljava/lang/String;
@@ -166,7 +157,6 @@
 
     if-eqz v1, :cond_4
 
-    .line 8
     iget-object v1, p0, Lcom/commsource/material/download/c/e;->l:Lcom/commsource/material/download/SegmentModel;
 
     invoke-virtual {v1}, Lcom/commsource/material/download/SegmentModel;->getRealSpKey()Ljava/lang/String;
@@ -177,7 +167,6 @@
 
     iget-object v3, p0, Lcom/commsource/material/download/c/e;->l:Lcom/commsource/material/download/SegmentModel;
 
-    .line 9
     invoke-virtual {v3}, Lcom/commsource/material/download/SegmentModel;->getRealPath()Ljava/lang/String;
 
     move-result-object v3
@@ -188,12 +177,10 @@
 
     move-result-object v2
 
-    .line 10
     invoke-static {v1, v2}, Lcom/commsource/material/download/a;->O(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_2
 
-    .line 11
     :cond_2
     iget-object v1, p0, Lcom/commsource/material/download/c/e;->l:Lcom/commsource/material/download/SegmentModel;
 
@@ -208,7 +195,6 @@
     :cond_3
     if-eqz v1, :cond_5
 
-    .line 12
     iget-object v1, p0, Lcom/commsource/material/download/c/e;->l:Lcom/commsource/material/download/SegmentModel;
 
     invoke-virtual {v1}, Lcom/commsource/material/download/SegmentModel;->getSpKey()Ljava/lang/String;
@@ -223,7 +209,6 @@
 
     goto :goto_3
 
-    .line 13
     :cond_5
     iget-object v1, p0, Lcom/commsource/material/download/c/e;->l:Lcom/commsource/material/download/SegmentModel;
 
@@ -236,12 +221,10 @@
     :goto_3
     if-eqz v4, :cond_6
 
-    .line 14
     invoke-super {p0, p1, p2}, Lcom/commsource/material/download/c/c;->b(Lcom/commsource/material/DownloadTask;Ljava/lang/String;)V
 
     goto :goto_4
 
-    .line 15
     :cond_6
     new-instance p2, Lcom/commsource/material/DownloadException;
 
@@ -251,7 +234,6 @@
 
     invoke-super {p0, p1, p2}, Lcom/commsource/material/download/c/c;->a(Lcom/commsource/material/DownloadTask;Ljava/lang/Exception;)V
 
-    .line 16
     :goto_4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -268,7 +250,6 @@
     :try_start_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/material/download/c/e;->l:Lcom/commsource/material/download/SegmentModel;
 
     sget-object v2, Lcom/commsource/material/download/SegmentModel;->Face3D:Lcom/commsource/material/download/SegmentModel;
@@ -285,28 +266,23 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     invoke-super {p0}, Lcom/commsource/material/DownloadTask;->q()V
 
     goto :goto_1
 
-    .line 3
     :cond_1
     :goto_0
     invoke-virtual {p0, p0}, Lcom/commsource/material/download/c/c;->c(Lcom/commsource/material/DownloadTask;)V
 
-    .line 4
     new-instance v1, Lcom/commsource/material/download/c/e$a;
 
     const-string v2, "copyModel"
 
     invoke-direct {v1, p0, v2}, Lcom/commsource/material/download/c/e$a;-><init>(Lcom/commsource/material/download/c/e;Ljava/lang/String;)V
 
-    .line 5
     invoke-static {v1}, Lcom/commsource/util/c2;->e(Lcom/commsource/util/u2/a;)V
 
-    .line 6
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
     :try_end_0

@@ -68,7 +68,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     iput-object p1, p0, Lcotlin/text/Regex$Serialized;->pattern:Ljava/lang/String;
@@ -81,7 +80,6 @@
 .method private final readResolve()Ljava/lang/Object;
     .locals 3
 
-    .line 1
     new-instance v0, Lcotlin/text/Regex;
 
     iget-object v1, p0, Lcotlin/text/Regex$Serialized;->pattern:Ljava/lang/String;
@@ -106,7 +104,6 @@
 .method public final getFlags()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lcotlin/text/Regex$Serialized;->flags:I
 
     return v0
@@ -117,7 +114,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcotlin/text/Regex$Serialized;->pattern:Ljava/lang/String;
 
     return-object v0

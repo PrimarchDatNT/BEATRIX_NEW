@@ -17,7 +17,6 @@
 .method constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -26,7 +25,6 @@
 .method static b()Lf/f/e/c/d;
     .locals 1
 
-    .line 1
     invoke-static {}, Lf/f/e/c/d$b;->e()Lf/f/e/c/d$b;
 
     move-result-object v0
@@ -37,7 +35,6 @@
 .method static c()Lf/f/e/c/d;
     .locals 2
 
-    .line 1
     new-instance v0, Lf/f/e/c/d$c;
 
     const/4 v1, 0x0
@@ -50,7 +47,6 @@
 .method static d()Lf/f/e/c/d;
     .locals 2
 
-    .line 1
     new-instance v0, Lf/f/e/c/d$d;
 
     const/4 v1, 0x0

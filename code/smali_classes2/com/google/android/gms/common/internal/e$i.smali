@@ -30,13 +30,10 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-direct {p0}, Lcom/google/android/gms/common/internal/s$a;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/google/android/gms/common/internal/e$i;->b:Lcom/google/android/gms/common/internal/e;
 
-    .line 3
     iput p2, p0, Lcom/google/android/gms/common/internal/e$i;->c:I
 
     return-void
@@ -57,14 +54,12 @@
     .annotation build Landroidx/annotation/BinderThread;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/common/internal/e$i;->b:Lcom/google/android/gms/common/internal/e;
 
     const-string v1, "onPostInitComplete can be called only once per call to getRemoteService"
 
     invoke-static {v0, v1}, Lcom/google/android/gms/common/internal/b0;->l(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 2
     iget-object v0, p0, Lcom/google/android/gms/common/internal/e$i;->b:Lcom/google/android/gms/common/internal/e;
 
     iget v1, p0, Lcom/google/android/gms/common/internal/e$i;->c:I
@@ -73,7 +68,6 @@
 
     const/4 p1, 0x0
 
-    .line 3
     iput-object p1, p0, Lcom/google/android/gms/common/internal/e$i;->b:Lcom/google/android/gms/common/internal/e;
 
     return-void
@@ -92,25 +86,20 @@
     .annotation build Landroidx/annotation/BinderThread;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/common/internal/e$i;->b:Lcom/google/android/gms/common/internal/e;
 
     const-string v1, "onPostInitCompleteWithConnectionInfo can be called only once per call togetRemoteService"
 
     invoke-static {v0, v1}, Lcom/google/android/gms/common/internal/b0;->l(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 2
     invoke-static {p3}, Lcom/google/android/gms/common/internal/b0;->k(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 3
     iget-object v0, p0, Lcom/google/android/gms/common/internal/e$i;->b:Lcom/google/android/gms/common/internal/e;
 
     invoke-static {v0, p3}, Lcom/google/android/gms/common/internal/e;->W(Lcom/google/android/gms/common/internal/e;Lcom/google/android/gms/common/internal/zzb;)V
 
-    .line 4
     iget-object p3, p3, Lcom/google/android/gms/common/internal/zzb;->a:Landroid/os/Bundle;
 
-    .line 5
     invoke-virtual {p0, p1, p2, p3}, Lcom/google/android/gms/common/internal/e$i;->A3(ILandroid/os/IBinder;Landroid/os/Bundle;)V
 
     return-void
@@ -125,7 +114,6 @@
     .annotation build Landroidx/annotation/BinderThread;
     .end annotation
 
-    .line 1
     new-instance p1, Ljava/lang/Exception;
 
     invoke-direct {p1}, Ljava/lang/Exception;-><init>()V

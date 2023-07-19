@@ -18,7 +18,6 @@
 .method static constructor <clinit>()V
     .locals 3
 
-    .line 1
     new-instance v0, Lcom/google/android/gms/internal/firebase_remote_config/s1;
 
     const-string v1, "-_.*"
@@ -29,7 +28,6 @@
 
     sput-object v0, Lcom/google/android/gms/internal/firebase_remote_config/q1;->a:Lcom/google/android/gms/internal/firebase_remote_config/p1;
 
-    .line 2
     new-instance v0, Lcom/google/android/gms/internal/firebase_remote_config/s1;
 
     const-string v1, "-_.!~*\'()@:$&,;="
@@ -40,7 +38,6 @@
 
     sput-object v0, Lcom/google/android/gms/internal/firebase_remote_config/q1;->b:Lcom/google/android/gms/internal/firebase_remote_config/p1;
 
-    .line 3
     new-instance v0, Lcom/google/android/gms/internal/firebase_remote_config/s1;
 
     const-string v1, "-_.!~*\'()@:$&,;=+/?"
@@ -49,7 +46,6 @@
 
     sput-object v0, Lcom/google/android/gms/internal/firebase_remote_config/q1;->c:Lcom/google/android/gms/internal/firebase_remote_config/p1;
 
-    .line 4
     new-instance v0, Lcom/google/android/gms/internal/firebase_remote_config/s1;
 
     const-string v1, "-_.!~*\'():$&,;="
@@ -58,7 +54,6 @@
 
     sput-object v0, Lcom/google/android/gms/internal/firebase_remote_config/q1;->d:Lcom/google/android/gms/internal/firebase_remote_config/p1;
 
-    .line 5
     new-instance v0, Lcom/google/android/gms/internal/firebase_remote_config/s1;
 
     const-string v1, "-_.!~*\'()@:$,;/?:"
@@ -73,7 +68,6 @@
 .method public static a(Ljava/lang/String;)Ljava/lang/String;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/google/android/gms/internal/firebase_remote_config/q1;->a:Lcom/google/android/gms/internal/firebase_remote_config/p1;
 
     invoke-virtual {v0, p0}, Lcom/google/android/gms/internal/firebase_remote_config/p1;->a(Ljava/lang/String;)Ljava/lang/String;
@@ -89,7 +83,6 @@
     :try_start_0
     const-string v0, "UTF-8"
 
-    .line 1
     invoke-static {p0, v0}, Ljava/net/URLDecoder;->decode(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p0
@@ -101,7 +94,6 @@
     :catch_0
     move-exception p0
 
-    .line 2
     new-instance v0, Ljava/lang/RuntimeException;
 
     invoke-direct {v0, p0}, Ljava/lang/RuntimeException;-><init>(Ljava/lang/Throwable;)V
@@ -112,7 +104,6 @@
 .method public static c(Ljava/lang/String;)Ljava/lang/String;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/google/android/gms/internal/firebase_remote_config/q1;->b:Lcom/google/android/gms/internal/firebase_remote_config/p1;
 
     invoke-virtual {v0, p0}, Lcom/google/android/gms/internal/firebase_remote_config/p1;->a(Ljava/lang/String;)Ljava/lang/String;
@@ -125,7 +116,6 @@
 .method public static d(Ljava/lang/String;)Ljava/lang/String;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/google/android/gms/internal/firebase_remote_config/q1;->c:Lcom/google/android/gms/internal/firebase_remote_config/p1;
 
     invoke-virtual {v0, p0}, Lcom/google/android/gms/internal/firebase_remote_config/p1;->a(Ljava/lang/String;)Ljava/lang/String;
@@ -138,7 +128,6 @@
 .method public static e(Ljava/lang/String;)Ljava/lang/String;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/google/android/gms/internal/firebase_remote_config/q1;->d:Lcom/google/android/gms/internal/firebase_remote_config/p1;
 
     invoke-virtual {v0, p0}, Lcom/google/android/gms/internal/firebase_remote_config/p1;->a(Ljava/lang/String;)Ljava/lang/String;
@@ -151,7 +140,6 @@
 .method public static f(Ljava/lang/String;)Ljava/lang/String;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/google/android/gms/internal/firebase_remote_config/q1;->e:Lcom/google/android/gms/internal/firebase_remote_config/p1;
 
     invoke-virtual {v0, p0}, Lcom/google/android/gms/internal/firebase_remote_config/p1;->a(Ljava/lang/String;)Ljava/lang/String;

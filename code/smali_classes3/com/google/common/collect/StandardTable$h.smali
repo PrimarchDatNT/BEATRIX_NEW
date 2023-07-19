@@ -37,7 +37,6 @@
 .method constructor <init>(Lcom/google/common/collect/StandardTable;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/common/collect/StandardTable$h;->d:Lcom/google/common/collect/StandardTable;
 
     invoke-direct {p0}, Lcom/google/common/collect/Maps$n0;-><init>()V
@@ -60,7 +59,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/google/common/collect/StandardTable$h$a;
 
     invoke-direct {v0, p0}, Lcom/google/common/collect/StandardTable$h$a;-><init>(Lcom/google/common/collect/StandardTable$h;)V
@@ -71,7 +69,6 @@
 .method public containsKey(Ljava/lang/Object;)Z
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/StandardTable$h;->d:Lcom/google/common/collect/StandardTable;
 
     invoke-virtual {v0, p1}, Lcom/google/common/collect/StandardTable;->containsRow(Ljava/lang/Object;)Z
@@ -93,7 +90,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/StandardTable$h;->d:Lcom/google/common/collect/StandardTable;
 
     invoke-virtual {v0, p1}, Lcom/google/common/collect/StandardTable;->containsRow(Ljava/lang/Object;)Z
@@ -135,7 +131,6 @@
 
     goto :goto_0
 
-    .line 1
     :cond_0
     iget-object v0, p0, Lcom/google/common/collect/StandardTable$h;->d:Lcom/google/common/collect/StandardTable;
 
@@ -154,7 +149,6 @@
 .method public bridge synthetic get(Ljava/lang/Object;)Ljava/lang/Object;
     .locals 0
 
-    .line 1
     invoke-virtual {p0, p1}, Lcom/google/common/collect/StandardTable$h;->d(Ljava/lang/Object;)Ljava/util/Map;
 
     move-result-object p1
@@ -165,7 +159,6 @@
 .method public bridge synthetic remove(Ljava/lang/Object;)Ljava/lang/Object;
     .locals 0
 
-    .line 1
     invoke-virtual {p0, p1}, Lcom/google/common/collect/StandardTable$h;->e(Ljava/lang/Object;)Ljava/util/Map;
 
     move-result-object p1

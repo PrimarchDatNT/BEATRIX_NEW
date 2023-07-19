@@ -12,13 +12,10 @@
 .method public constructor <init>(II)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput p1, p0, Lcom/google/android/gms/common/images/a;->a:I
 
-    .line 3
     iput p2, p0, Lcom/google/android/gms/common/images/a;->b:I
 
     return-void
@@ -36,7 +33,6 @@
 
     const/16 v0, 0x2a
 
-    .line 1
     invoke-virtual {p0, v0}, Ljava/lang/String;->indexOf(I)I
 
     move-result v0
@@ -45,7 +41,6 @@
 
     const/16 v0, 0x78
 
-    .line 2
     invoke-virtual {p0, v0}, Ljava/lang/String;->indexOf(I)I
 
     move-result v0
@@ -53,13 +48,11 @@
     :cond_0
     if-ltz v0, :cond_1
 
-    .line 3
     :try_start_0
     new-instance v1, Lcom/google/android/gms/common/images/a;
 
     const/4 v2, 0x0
 
-    .line 4
     invoke-virtual {p0, v2, v0}, Ljava/lang/String;->substring(II)Ljava/lang/String;
 
     move-result-object v2
@@ -70,7 +63,6 @@
 
     add-int/lit8 v0, v0, 0x1
 
-    .line 5
     invoke-virtual {p0, v0}, Ljava/lang/String;->substring(I)Ljava/lang/String;
 
     move-result-object v0
@@ -85,7 +77,6 @@
 
     return-object v1
 
-    .line 6
     :catch_0
     invoke-static {p0}, Lcom/google/android/gms/common/images/a;->d(Ljava/lang/String;)Ljava/lang/NumberFormatException;
 
@@ -93,7 +84,6 @@
 
     throw p0
 
-    .line 7
     :cond_1
     invoke-static {p0}, Lcom/google/android/gms/common/images/a;->d(Ljava/lang/String;)Ljava/lang/NumberFormatException;
 
@@ -101,7 +91,6 @@
 
     throw p0
 
-    .line 8
     :cond_2
     new-instance p0, Ljava/lang/IllegalArgumentException;
 
@@ -115,7 +104,6 @@
 .method private static d(Ljava/lang/String;)Ljava/lang/NumberFormatException;
     .locals 3
 
-    .line 1
     new-instance v0, Ljava/lang/NumberFormatException;
 
     invoke-static {p0}, Ljava/lang/String;->valueOf(Ljava/lang/Object;)Ljava/lang/String;
@@ -156,7 +144,6 @@
 .method public final a()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lcom/google/android/gms/common/images/a;->b:I
 
     return v0
@@ -165,7 +152,6 @@
 .method public final b()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lcom/google/android/gms/common/images/a;->a:I
 
     return v0
@@ -187,16 +173,13 @@
 
     return v1
 
-    .line 1
     :cond_1
     instance-of v2, p1, Lcom/google/android/gms/common/images/a;
 
     if-eqz v2, :cond_2
 
-    .line 2
     check-cast p1, Lcom/google/android/gms/common/images/a;
 
-    .line 3
     iget v2, p0, Lcom/google/android/gms/common/images/a;->a:I
 
     iget v3, p1, Lcom/google/android/gms/common/images/a;->a:I
@@ -218,7 +201,6 @@
 .method public final hashCode()I
     .locals 3
 
-    .line 1
     iget v0, p0, Lcom/google/android/gms/common/images/a;->b:I
 
     iget v1, p0, Lcom/google/android/gms/common/images/a;->a:I
@@ -237,7 +219,6 @@
 .method public final toString()Ljava/lang/String;
     .locals 4
 
-    .line 1
     iget v0, p0, Lcom/google/android/gms/common/images/a;->a:I
 
     iget v1, p0, Lcom/google/android/gms/common/images/a;->b:I

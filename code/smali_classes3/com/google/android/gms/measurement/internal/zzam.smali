@@ -52,7 +52,6 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
     new-instance v0, Lcom/google/android/gms/measurement/internal/n;
 
     invoke-direct {v0}, Lcom/google/android/gms/measurement/internal/n;-><init>()V
@@ -72,10 +71,8 @@
     .annotation build Lcom/google/android/gms/common/internal/safeparcel/SafeParcelable$b;
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Lcom/google/android/gms/common/internal/safeparcel/AbstractSafeParcelable;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/google/android/gms/measurement/internal/zzam;->a:Landroid/os/Bundle;
 
     return-void
@@ -84,7 +81,6 @@
 .method static synthetic z(Lcom/google/android/gms/measurement/internal/zzam;)Landroid/os/Bundle;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lcom/google/android/gms/measurement/internal/zzam;->a:Landroid/os/Bundle;
 
     return-object p0
@@ -95,7 +91,6 @@
 .method final A(Ljava/lang/String;)Ljava/lang/Object;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/measurement/internal/zzam;->a:Landroid/os/Bundle;
 
     invoke-virtual {v0, p1}, Landroid/os/Bundle;->get(Ljava/lang/String;)Ljava/lang/Object;
@@ -108,7 +103,6 @@
 .method public final M()Landroid/os/Bundle;
     .locals 2
 
-    .line 1
     new-instance v0, Landroid/os/Bundle;
 
     iget-object v1, p0, Lcom/google/android/gms/measurement/internal/zzam;->a:Landroid/os/Bundle;
@@ -121,7 +115,6 @@
 .method final Q(Ljava/lang/String;)Ljava/lang/Long;
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/measurement/internal/zzam;->a:Landroid/os/Bundle;
 
     invoke-virtual {v0, p1}, Landroid/os/Bundle;->getLong(Ljava/lang/String;)J
@@ -138,7 +131,6 @@
 .method final V(Ljava/lang/String;)Ljava/lang/Double;
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/measurement/internal/zzam;->a:Landroid/os/Bundle;
 
     invoke-virtual {v0, p1}, Landroid/os/Bundle;->getDouble(Ljava/lang/String;)D
@@ -163,7 +155,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/google/android/gms/measurement/internal/m;
 
     invoke-direct {v0, p0}, Lcom/google/android/gms/measurement/internal/m;-><init>(Lcom/google/android/gms/measurement/internal/zzam;)V
@@ -174,7 +165,6 @@
 .method final l0(Ljava/lang/String;)Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/measurement/internal/zzam;->a:Landroid/os/Bundle;
 
     invoke-virtual {v0, p1}, Landroid/os/Bundle;->getString(Ljava/lang/String;)Ljava/lang/String;
@@ -187,7 +177,6 @@
 .method public final toString()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/measurement/internal/zzam;->a:Landroid/os/Bundle;
 
     invoke-virtual {v0}, Landroid/os/Bundle;->toString()Ljava/lang/String;
@@ -200,12 +189,10 @@
 .method public final writeToParcel(Landroid/os/Parcel;I)V
     .locals 3
 
-    .line 1
     invoke-static {p1}, Lcom/google/android/gms/common/internal/safeparcel/a;->a(Landroid/os/Parcel;)I
 
     move-result p2
 
-    .line 2
     invoke-virtual {p0}, Lcom/google/android/gms/measurement/internal/zzam;->M()Landroid/os/Bundle;
 
     move-result-object v0
@@ -214,10 +201,8 @@
 
     const/4 v2, 0x0
 
-    .line 3
     invoke-static {p1, v1, v0, v2}, Lcom/google/android/gms/common/internal/safeparcel/a;->k(Landroid/os/Parcel;ILandroid/os/Bundle;Z)V
 
-    .line 4
     invoke-static {p1, p2}, Lcom/google/android/gms/common/internal/safeparcel/a;->b(Landroid/os/Parcel;I)V
 
     return-void
@@ -226,7 +211,6 @@
 .method public final y()I
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/measurement/internal/zzam;->a:Landroid/os/Bundle;
 
     invoke-virtual {v0}, Landroid/os/Bundle;->size()I

@@ -13,13 +13,10 @@
 .method constructor <init>(Lio/grpc/z0$d;Ljava/lang/String;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lio/grpc/z0$d;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lio/grpc/internal/v1;->e:Lio/grpc/z0$d;
 
-    .line 3
     iput-object p2, p0, Lio/grpc/internal/v1;->f:Ljava/lang/String;
 
     return-void
@@ -28,7 +25,6 @@
 .method static synthetic e(Lio/grpc/internal/v1;)Ljava/lang/String;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lio/grpc/internal/v1;->f:Ljava/lang/String;
 
     return-object p0
@@ -39,7 +35,6 @@
 .method public a()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lio/grpc/internal/v1;->e:Lio/grpc/z0$d;
 
     invoke-virtual {v0}, Lio/grpc/z0$d;->a()Ljava/lang/String;
@@ -54,7 +49,6 @@
     .annotation runtime Ljavax/annotation/j;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lio/grpc/internal/v1;->e:Lio/grpc/z0$d;
 
     invoke-virtual {v0, p1, p2}, Lio/grpc/z0$d;->c(Ljava/net/URI;Lio/grpc/z0$b;)Lio/grpc/z0;
@@ -67,7 +61,6 @@
 
     return-object p1
 
-    .line 2
     :cond_0
     new-instance p2, Lio/grpc/internal/v1$a;
 

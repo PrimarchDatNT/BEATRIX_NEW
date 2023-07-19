@@ -27,17 +27,14 @@
 .method constructor <init>(Ljava/security/MessageDigest;)V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     invoke-static {}, Lcom/bumptech/glide/s/o/c;->a()Lcom/bumptech/glide/s/o/c;
 
     move-result-object v0
 
     iput-object v0, p0, Lcom/bumptech/glide/load/engine/x/m$b;->b:Lcom/bumptech/glide/s/o/c;
 
-    .line 3
     iput-object p1, p0, Lcom/bumptech/glide/load/engine/x/m$b;->a:Ljava/security/MessageDigest;
 
     return-void
@@ -50,7 +47,6 @@
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/bumptech/glide/load/engine/x/m$b;->b:Lcom/bumptech/glide/s/o/c;
 
     return-object v0

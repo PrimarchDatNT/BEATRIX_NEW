@@ -67,52 +67,40 @@
 .method public constructor <init>()V
     .locals 3
 
-    .line 1
     invoke-direct {p0}, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineOption;-><init>()V
 
     const-wide/16 v0, 0x0
 
-    .line 2
     iput-wide v0, p0, Lcom/meitu/mtlab/MTAiInterface/MTDenseHairModule/MTDenseHairOption;->mNativeInstance:J
 
     const/high16 v2, -0x40800000    # -1.0f
 
-    .line 3
     iput v2, p0, Lcom/meitu/mtlab/MTAiInterface/MTDenseHairModule/MTDenseHairOption;->factorHeight:F
 
     const/4 v2, 0x0
 
-    .line 4
     iput v2, p0, Lcom/meitu/mtlab/MTAiInterface/MTDenseHairModule/MTDenseHairOption;->hairlineCutRegionLeftTopX:I
 
-    .line 5
     iput v2, p0, Lcom/meitu/mtlab/MTAiInterface/MTDenseHairModule/MTDenseHairOption;->hairlineCutRegionLeftTopY:I
 
-    .line 6
     iput v2, p0, Lcom/meitu/mtlab/MTAiInterface/MTDenseHairModule/MTDenseHairOption;->hairlineCutRegionRightBottomX:I
 
-    .line 7
     iput v2, p0, Lcom/meitu/mtlab/MTAiInterface/MTDenseHairModule/MTDenseHairOption;->hairlineCutRegionRightBottomY:I
 
-    .line 8
     iput v2, p0, Lcom/meitu/mtlab/MTAiInterface/MTDenseHairModule/MTDenseHairOption;->hairColorRed:I
 
-    .line 9
     iput v2, p0, Lcom/meitu/mtlab/MTAiInterface/MTDenseHairModule/MTDenseHairOption;->hairColorBlue:I
 
-    .line 10
     iput v2, p0, Lcom/meitu/mtlab/MTAiInterface/MTDenseHairModule/MTDenseHairOption;->hairColorGreen:I
 
     const/4 v2, 0x0
 
-    .line 11
     iput v2, p0, Lcom/meitu/mtlab/MTAiInterface/MTDenseHairModule/MTDenseHairOption;->value_slider:F
 
     cmp-long v2, v0, v0
 
     if-nez v2, :cond_0
 
-    .line 12
     invoke-static {}, Lcom/meitu/mtlab/MTAiInterface/MTDenseHairModule/MTDenseHairOption;->nativeCreateInstance()J
 
     move-result-wide v0
@@ -176,48 +164,36 @@
 
     const-wide/16 v1, 0x0
 
-    .line 1
     iput-wide v1, p0, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineOption;->option:J
 
-    .line 2
     iget-wide v1, p0, Lcom/meitu/mtlab/MTAiInterface/MTDenseHairModule/MTDenseHairOption;->mNativeInstance:J
 
     invoke-static {v1, v2}, Lcom/meitu/mtlab/MTAiInterface/MTDenseHairModule/MTDenseHairOption;->nativeClearOption(J)V
 
     const/high16 v1, -0x40800000    # -1.0f
 
-    .line 3
     iput v1, p0, Lcom/meitu/mtlab/MTAiInterface/MTDenseHairModule/MTDenseHairOption;->factorHeight:F
 
     const/4 v1, 0x0
 
-    .line 4
     iput v1, p0, Lcom/meitu/mtlab/MTAiInterface/MTDenseHairModule/MTDenseHairOption;->hairlineCutRegionLeftTopX:I
 
-    .line 5
     iput v1, p0, Lcom/meitu/mtlab/MTAiInterface/MTDenseHairModule/MTDenseHairOption;->hairlineCutRegionLeftTopY:I
 
-    .line 6
     iput v1, p0, Lcom/meitu/mtlab/MTAiInterface/MTDenseHairModule/MTDenseHairOption;->hairlineCutRegionRightBottomX:I
 
-    .line 7
     iput v1, p0, Lcom/meitu/mtlab/MTAiInterface/MTDenseHairModule/MTDenseHairOption;->hairlineCutRegionRightBottomY:I
 
-    .line 8
     iput v1, p0, Lcom/meitu/mtlab/MTAiInterface/MTDenseHairModule/MTDenseHairOption;->hairColorRed:I
 
-    .line 9
     iput v1, p0, Lcom/meitu/mtlab/MTAiInterface/MTDenseHairModule/MTDenseHairOption;->hairColorBlue:I
 
-    .line 10
     iput v1, p0, Lcom/meitu/mtlab/MTAiInterface/MTDenseHairModule/MTDenseHairOption;->hairColorGreen:I
 
     const/4 v1, 0x0
 
-    .line 11
     iput v1, p0, Lcom/meitu/mtlab/MTAiInterface/MTDenseHairModule/MTDenseHairOption;->value_slider:F
 
-    .line 12
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -230,7 +206,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const/16 v0, 0x20
@@ -250,7 +225,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     :try_start_0
     iget-wide v1, p0, Lcom/meitu/mtlab/MTAiInterface/MTDenseHairModule/MTDenseHairOption;->mNativeInstance:J
 
@@ -258,10 +232,8 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 2
     invoke-super {p0}, Ljava/lang/Object;->finalize()V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -269,10 +241,8 @@
     :catchall_0
     move-exception v1
 
-    .line 4
     invoke-super {p0}, Ljava/lang/Object;->finalize()V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     throw v1
@@ -285,7 +255,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/mtlab/MTAiInterface/MTDenseHairModule/MTDenseHairOption;->mNativeInstance:J
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -300,14 +269,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/mtlab/MTAiInterface/MTDenseHairModule/MTDenseHairOption;->mNativeInstance:J
 
     iget-wide v3, p0, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineOption;->option:J
 
     invoke-static {v1, v2, v3, v4}, Lcom/meitu/mtlab/MTAiInterface/MTDenseHairModule/MTDenseHairOption;->nativeSetOption(JJ)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -320,57 +287,46 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 3
     iget-wide v1, p0, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineOption;->option:J
 
     invoke-static {p1, p2, v1, v2}, Lcom/meitu/mtlab/MTAiInterface/MTDenseHairModule/MTDenseHairOption;->nativeEnableDetectDenseHair(JJ)V
 
-    .line 4
     iget v1, p0, Lcom/meitu/mtlab/MTAiInterface/MTDenseHairModule/MTDenseHairOption;->factorHeight:F
 
     invoke-static {p1, p2, v1}, Lcom/meitu/mtlab/MTAiInterface/MTDenseHairModule/MTDenseHairOption;->nativeEnableFactorHeight(JF)V
 
-    .line 5
     iget v1, p0, Lcom/meitu/mtlab/MTAiInterface/MTDenseHairModule/MTDenseHairOption;->hairlineCutRegionLeftTopX:I
 
     invoke-static {p1, p2, v1}, Lcom/meitu/mtlab/MTAiInterface/MTDenseHairModule/MTDenseHairOption;->nativeEnableHairlineCutRegionLeftTopX(JI)V
 
-    .line 6
     iget v1, p0, Lcom/meitu/mtlab/MTAiInterface/MTDenseHairModule/MTDenseHairOption;->hairlineCutRegionLeftTopY:I
 
     invoke-static {p1, p2, v1}, Lcom/meitu/mtlab/MTAiInterface/MTDenseHairModule/MTDenseHairOption;->nativeEnableHairlineCutRegionLeftTopY(JI)V
 
-    .line 7
     iget v1, p0, Lcom/meitu/mtlab/MTAiInterface/MTDenseHairModule/MTDenseHairOption;->hairlineCutRegionRightBottomX:I
 
     invoke-static {p1, p2, v1}, Lcom/meitu/mtlab/MTAiInterface/MTDenseHairModule/MTDenseHairOption;->nativeEnableHairlineCutRegionRightBottomX(JI)V
 
-    .line 8
     iget v1, p0, Lcom/meitu/mtlab/MTAiInterface/MTDenseHairModule/MTDenseHairOption;->hairlineCutRegionRightBottomY:I
 
     invoke-static {p1, p2, v1}, Lcom/meitu/mtlab/MTAiInterface/MTDenseHairModule/MTDenseHairOption;->nativeEnableHairlineCutRegionRightBottomY(JI)V
 
-    .line 9
     iget v1, p0, Lcom/meitu/mtlab/MTAiInterface/MTDenseHairModule/MTDenseHairOption;->hairColorRed:I
 
     invoke-static {p1, p2, v1}, Lcom/meitu/mtlab/MTAiInterface/MTDenseHairModule/MTDenseHairOption;->nativeEnableHairColorRed(JI)V
 
-    .line 10
     iget v1, p0, Lcom/meitu/mtlab/MTAiInterface/MTDenseHairModule/MTDenseHairOption;->hairColorBlue:I
 
     invoke-static {p1, p2, v1}, Lcom/meitu/mtlab/MTAiInterface/MTDenseHairModule/MTDenseHairOption;->nativeEnableHairColorBlue(JI)V
 
-    .line 11
     iget v1, p0, Lcom/meitu/mtlab/MTAiInterface/MTDenseHairModule/MTDenseHairOption;->hairColorGreen:I
 
     invoke-static {p1, p2, v1}, Lcom/meitu/mtlab/MTAiInterface/MTDenseHairModule/MTDenseHairOption;->nativeEnableHairColorGreen(JI)V
 
-    .line 12
     iget v1, p0, Lcom/meitu/mtlab/MTAiInterface/MTDenseHairModule/MTDenseHairOption;->value_slider:F
 
     invoke-static {p1, p2, v1}, Lcom/meitu/mtlab/MTAiInterface/MTDenseHairModule/MTDenseHairOption;->nativeEnableValue_slider(JF)V
 
-    .line 13
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

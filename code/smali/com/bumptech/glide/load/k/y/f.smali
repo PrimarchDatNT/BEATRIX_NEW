@@ -50,10 +50,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/bumptech/glide/load/k/y/f;->a:Lcom/bumptech/glide/load/k/n;
 
     return-void
@@ -68,7 +66,6 @@
         .end annotation
     .end param
 
-    .line 1
     check-cast p1, Ljava/net/URL;
 
     invoke-virtual {p0, p1}, Lcom/bumptech/glide/load/k/y/f;->d(Ljava/net/URL;)Z
@@ -89,7 +86,6 @@
         .end annotation
     .end param
 
-    .line 1
     check-cast p1, Ljava/net/URL;
 
     invoke-virtual {p0, p1, p2, p3, p4}, Lcom/bumptech/glide/load/k/y/f;->c(Ljava/net/URL;IILcom/bumptech/glide/load/f;)Lcom/bumptech/glide/load/k/n$a;
@@ -122,7 +118,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/bumptech/glide/load/k/y/f;->a:Lcom/bumptech/glide/load/k/n;
 
     new-instance v1, Lcom/bumptech/glide/load/k/g;

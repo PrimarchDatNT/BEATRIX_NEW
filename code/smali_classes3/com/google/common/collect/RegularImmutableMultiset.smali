@@ -68,10 +68,8 @@
 .method static constructor <clinit>()V
     .locals 2
 
-    .line 1
     new-instance v0, Lcom/google/common/collect/RegularImmutableMultiset;
 
-    .line 2
     invoke-static {}, Lcom/google/common/collect/o1;->c()Lcom/google/common/collect/o1;
 
     move-result-object v1
@@ -93,17 +91,14 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Lcom/google/common/collect/ImmutableMultiset;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/google/common/collect/RegularImmutableMultiset;->contents:Lcom/google/common/collect/o1;
 
     const-wide/16 v0, 0x0
 
     const/4 v2, 0x0
 
-    .line 3
     :goto_0
     invoke-virtual {p1}, Lcom/google/common/collect/o1;->D()I
 
@@ -111,7 +106,6 @@
 
     if-ge v2, v3, :cond_0
 
-    .line 4
     invoke-virtual {p1, v2}, Lcom/google/common/collect/o1;->l(I)I
 
     move-result v3
@@ -124,7 +118,6 @@
 
     goto :goto_0
 
-    .line 5
     :cond_0
     invoke-static {v0, v1}, Lcom/google/common/primitives/Ints;->x(J)I
 
@@ -144,7 +137,6 @@
         .end annotation
     .end param
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/RegularImmutableMultiset;->contents:Lcom/google/common/collect/o1;
 
     invoke-virtual {v0, p1}, Lcom/google/common/collect/o1;->g(Ljava/lang/Object;)I
@@ -164,12 +156,10 @@
         }
     .end annotation
 
-    .line 2
     iget-object v0, p0, Lcom/google/common/collect/RegularImmutableMultiset;->elementSet:Lcom/google/common/collect/ImmutableSet;
 
     if-nez v0, :cond_0
 
-    .line 3
     new-instance v0, Lcom/google/common/collect/RegularImmutableMultiset$ElementSet;
 
     const/4 v1, 0x0
@@ -185,7 +175,6 @@
 .method public bridge synthetic elementSet()Ljava/util/Set;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/collect/RegularImmutableMultiset;->elementSet()Lcom/google/common/collect/ImmutableSet;
 
     move-result-object v0
@@ -203,7 +192,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/RegularImmutableMultiset;->contents:Lcom/google/common/collect/o1;
 
     invoke-virtual {v0, p1}, Lcom/google/common/collect/o1;->h(I)Lcom/google/common/collect/m1$a;
@@ -224,7 +212,6 @@
 .method public size()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lcom/google/common/collect/RegularImmutableMultiset;->size:I
 
     return v0
@@ -235,7 +222,6 @@
     .annotation build Lf/f/e/a/c;
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/google/common/collect/RegularImmutableMultiset$SerializedForm;
 
     invoke-direct {v0, p0}, Lcom/google/common/collect/RegularImmutableMultiset$SerializedForm;-><init>(Lcom/google/common/collect/m1;)V

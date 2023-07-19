@@ -32,14 +32,12 @@
     :goto_0
     if-eqz v0, :cond_1
 
-    .line 1
     new-instance v0, Lcotlinx/coroutines/j3;
 
     invoke-direct {v0, p0, p1}, Lcotlinx/coroutines/j3;-><init>(ILjava/lang/String;)V
 
     return-object v0
 
-    .line 2
     :cond_1
     new-instance p1, Ljava/lang/StringBuilder;
 
@@ -84,7 +82,6 @@
 
     const/4 v0, 0x1
 
-    .line 1
     invoke-static {v0, p0}, Lcotlinx/coroutines/k3;->a(ILjava/lang/String;)Lcotlinx/coroutines/ExecutorCoroutineDispatcher;
 
     move-result-object p0

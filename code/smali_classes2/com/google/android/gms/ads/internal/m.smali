@@ -14,7 +14,6 @@
 .method constructor <init>(Lcom/google/android/gms/ads/internal/k;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/android/gms/ads/internal/m;->a:Lcom/google/android/gms/ads/internal/k;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -27,7 +26,6 @@
 .method public final onTouch(Landroid/view/View;Landroid/view/MotionEvent;)Z
     .locals 0
 
-    .line 1
     iget-object p1, p0, Lcom/google/android/gms/ads/internal/m;->a:Lcom/google/android/gms/ads/internal/k;
 
     invoke-static {p1}, Lcom/google/android/gms/ads/internal/k;->W7(Lcom/google/android/gms/ads/internal/k;)Lcom/google/android/gms/internal/ads/d12;
@@ -36,7 +34,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 2
     iget-object p1, p0, Lcom/google/android/gms/ads/internal/m;->a:Lcom/google/android/gms/ads/internal/k;
 
     invoke-static {p1}, Lcom/google/android/gms/ads/internal/k;->W7(Lcom/google/android/gms/ads/internal/k;)Lcom/google/android/gms/internal/ads/d12;

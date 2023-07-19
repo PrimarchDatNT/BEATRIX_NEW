@@ -25,7 +25,6 @@
 .method constructor <init>(Lcom/meitu/hwbusinesskit/core/s2s/S2sAdManager;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/hwbusinesskit/core/s2s/S2sAdManager$1;->this$0:Lcom/meitu/hwbusinesskit/core/s2s/S2sAdManager;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -42,14 +41,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/hwbusinesskit/core/s2s/S2sAdManager$1;->this$0:Lcom/meitu/hwbusinesskit/core/s2s/S2sAdManager;
 
     const/16 v2, 0x4b2
 
     invoke-static {v1, v2, p1}, Lcom/meitu/hwbusinesskit/core/s2s/S2sAdManager;->access$400(Lcom/meitu/hwbusinesskit/core/s2s/S2sAdManager;ILjava/lang/String;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -62,7 +59,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -75,7 +71,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/hwbusinesskit/core/s2s/S2sAdManager$1;->this$0:Lcom/meitu/hwbusinesskit/core/s2s/S2sAdManager;
 
     invoke-static {v1}, Lcom/meitu/hwbusinesskit/core/s2s/S2sAdManager;->access$000(Lcom/meitu/hwbusinesskit/core/s2s/S2sAdManager;)Lcom/meitu/hwbusinesskit/core/bean/AdData;
@@ -88,7 +83,6 @@
 
     invoke-virtual {v1, v2}, Lcom/meitu/hwbusinesskit/core/bean/AdData;->setTitle(Ljava/lang/String;)V
 
-    .line 2
     iget-object v1, p0, Lcom/meitu/hwbusinesskit/core/s2s/S2sAdManager$1;->this$0:Lcom/meitu/hwbusinesskit/core/s2s/S2sAdManager;
 
     invoke-static {v1}, Lcom/meitu/hwbusinesskit/core/s2s/S2sAdManager;->access$100(Lcom/meitu/hwbusinesskit/core/s2s/S2sAdManager;)Lcom/meitu/hwbusinesskit/core/bean/AdData;
@@ -101,7 +95,6 @@
 
     invoke-virtual {v1, v2}, Lcom/meitu/hwbusinesskit/core/bean/AdData;->setContent(Ljava/lang/String;)V
 
-    .line 3
     iget-object v1, p0, Lcom/meitu/hwbusinesskit/core/s2s/S2sAdManager$1;->this$0:Lcom/meitu/hwbusinesskit/core/s2s/S2sAdManager;
 
     invoke-static {v1}, Lcom/meitu/hwbusinesskit/core/s2s/S2sAdManager;->access$200(Lcom/meitu/hwbusinesskit/core/s2s/S2sAdManager;)Lcom/meitu/hwbusinesskit/core/bean/AdData;
@@ -114,12 +107,10 @@
 
     invoke-virtual {v1, v2}, Lcom/meitu/hwbusinesskit/core/bean/AdData;->setBtnText(Ljava/lang/String;)V
 
-    .line 4
     iget-object v1, p0, Lcom/meitu/hwbusinesskit/core/s2s/S2sAdManager$1;->this$0:Lcom/meitu/hwbusinesskit/core/s2s/S2sAdManager;
 
     invoke-static {v1, p1}, Lcom/meitu/hwbusinesskit/core/s2s/S2sAdManager;->access$300(Lcom/meitu/hwbusinesskit/core/s2s/S2sAdManager;Ljava/lang/Object;)V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

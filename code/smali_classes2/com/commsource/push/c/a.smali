@@ -21,7 +21,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -38,16 +37,13 @@
 
     if-nez p1, :cond_0
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
 
-    .line 2
     :cond_0
     iget-object p1, p1, Lcom/commsource/push/bean/b;->a:Ljava/util/List;
 
-    .line 3
     sget-object v2, Landroid/os/Build;->BRAND:Ljava/lang/String;
 
     if-nez v2, :cond_1
@@ -61,7 +57,6 @@
 
     move-result-object v2
 
-    .line 4
     :goto_0
     invoke-static {}, Lf/d/i/o;->o0()Z
 
@@ -71,7 +66,6 @@
 
     const/4 v4, 0x0
 
-    .line 5
     :goto_1
     invoke-interface {p1}, Ljava/util/List;->size()I
 
@@ -79,14 +73,12 @@
 
     if-ge v4, v5, :cond_d
 
-    .line 6
     invoke-interface {p1, v4}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object v5
 
     check-cast v5, Lcom/commsource/push/bean/a;
 
-    .line 7
     invoke-static {p0, v5}, Lcom/commsource/push/c/a;->d(Landroid/content/Context;Lcom/commsource/push/bean/a;)Z
 
     move-result v6
@@ -95,7 +87,6 @@
 
     goto/16 :goto_2
 
-    .line 8
     :cond_2
     iget v6, v5, Lcom/commsource/push/bean/a;->o:I
 
@@ -115,7 +106,6 @@
 
     goto/16 :goto_2
 
-    .line 9
     :cond_3
     iget v6, v5, Lcom/commsource/push/bean/a;->m:I
 
@@ -131,7 +121,6 @@
 
     if-nez v6, :cond_4
 
-    .line 10
     new-instance v6, Ljava/lang/StringBuilder;
 
     invoke-direct {v6}, Ljava/lang/StringBuilder;-><init>()V
@@ -152,7 +141,6 @@
 
     goto/16 :goto_2
 
-    .line 11
     :cond_4
     iget v6, v5, Lcom/commsource/push/bean/a;->c:I
 
@@ -164,7 +152,6 @@
 
     if-nez v6, :cond_5
 
-    .line 12
     new-instance v6, Ljava/lang/StringBuilder;
 
     invoke-direct {v6}, Ljava/lang/StringBuilder;-><init>()V
@@ -185,7 +172,6 @@
 
     goto/16 :goto_2
 
-    .line 13
     :cond_5
     iget v6, v5, Lcom/commsource/push/bean/a;->a:I
 
@@ -197,7 +183,6 @@
 
     if-nez v6, :cond_6
 
-    .line 14
     new-instance v6, Ljava/lang/StringBuilder;
 
     invoke-direct {v6}, Ljava/lang/StringBuilder;-><init>()V
@@ -218,7 +203,6 @@
 
     goto :goto_2
 
-    .line 15
     :cond_6
     iget v6, v5, Lcom/commsource/push/bean/a;->d:I
 
@@ -230,7 +214,6 @@
 
     goto :goto_2
 
-    .line 16
     :cond_7
     iget-object v6, v5, Lcom/commsource/push/bean/a;->t:Ljava/lang/String;
 
@@ -260,7 +243,6 @@
 
     goto :goto_2
 
-    .line 17
     :cond_8
     iget-object v6, v5, Lcom/commsource/push/bean/a;->t:Ljava/lang/String;
 
@@ -290,7 +272,6 @@
 
     goto :goto_2
 
-    .line 18
     :cond_9
     iget v6, v5, Lcom/commsource/push/bean/a;->w:I
 
@@ -307,7 +288,6 @@
 
     if-nez v3, :cond_b
 
-    .line 19
     invoke-static {}, Lf/d/i/o;->m0()Z
 
     move-result v6
@@ -323,7 +303,6 @@
     :cond_c
     move-object v1, v5
 
-    .line 20
     :cond_d
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -337,19 +316,16 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget v1, Lcom/commsource/push/c/a;->f:I
 
     if-nez v1, :cond_0
 
-    .line 2
     invoke-virtual {p0}, Landroid/content/Context;->getPackageManager()Landroid/content/pm/PackageManager;
 
     move-result-object v1
 
     const/4 v2, 0x0
 
-    .line 3
     :try_start_0
     invoke-virtual {p0}, Landroid/content/Context;->getPackageName()Ljava/lang/String;
 
@@ -368,18 +344,15 @@
     :catch_0
     move-exception p0
 
-    .line 4
     invoke-static {p0}, Lcom/meitu/library/util/Debug/Debug;->q(Ljava/lang/Throwable;)V
 
     :goto_0
     if-eqz v2, :cond_0
 
-    .line 5
     iget p0, v2, Landroid/content/pm/PackageInfo;->versionCode:I
 
     sput p0, Lcom/commsource/push/c/a;->f:I
 
-    .line 6
     :cond_0
     sget p0, Lcom/commsource/push/c/a;->f:I
 
@@ -397,7 +370,6 @@
 
     if-eqz p0, :cond_0
 
-    .line 1
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
     move-result-object v1
@@ -408,7 +380,6 @@
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-virtual {p0}, Lcom/commsource/push/bean/UpdateBean;->getVersion()I
 
     move-result v1
@@ -419,7 +390,6 @@
 
     if-le v1, v2, :cond_0
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
@@ -427,7 +397,6 @@
     :cond_0
     const/4 p0, 0x0
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
@@ -448,19 +417,16 @@
 
     const-string v3, "PUSH_DATA_SHOWED"
 
-    .line 1
     invoke-static {p0, v2, v3, v1}, Lcom/commsource/util/common/l;->x(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p0
 
-    .line 2
     invoke-static {p0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v1
 
     if-nez v1, :cond_0
 
-    .line 3
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -492,7 +458,6 @@
     :cond_0
     const/4 p0, 0x0
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p0
@@ -505,14 +470,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/commsource/util/x;->C()Z
 
     move-result v1
 
     const/16 v1, 0x3c
 
-    .line 2
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v2
@@ -523,7 +486,6 @@
 
     const-string v7, "PUSH_CHECK_TIME"
 
-    .line 3
     invoke-static {p0, v6, v7, v4, v5}, Lcom/commsource/util/common/l;->w(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;J)J
 
     move-result-wide v4
@@ -532,7 +494,6 @@
 
     const-wide/16 v4, 0x3e8
 
-    .line 4
     div-long/2addr v2, v4
 
     const-wide/16 v4, 0x3c
@@ -541,7 +502,6 @@
 
     long-to-int p0, v2
 
-    .line 5
     new-instance v2, Ljava/lang/StringBuilder;
 
     invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
@@ -575,7 +535,6 @@
     :cond_0
     const/4 p0, 0x0
 
-    .line 6
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -591,10 +550,8 @@
 
     if-eqz p0, :cond_0
 
-    .line 1
     iget v1, p0, Lcom/commsource/push/bean/e;->c:I
 
-    .line 2
     invoke-static {}, Lcom/meitu/library/p/d/a;->f()Ljava/lang/String;
 
     move-result-object v2
@@ -616,7 +573,6 @@
     :cond_0
     const/4 p0, 0x0
 
-    .line 3
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -630,13 +586,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p0}, Lcom/commsource/push/c/a;->i(Landroid/content/Context;)V
 
-    .line 2
     invoke-static {p0, p1}, Lcom/commsource/push/c/a;->h(Landroid/content/Context;Lcom/commsource/push/bean/a;)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -651,7 +604,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     iget v1, p1, Lcom/commsource/push/bean/a;->g:I
 
     if-lez v1, :cond_0
@@ -662,12 +614,10 @@
 
     const-string v3, ""
 
-    .line 2
     invoke-static {p0, v1, v2, v3}, Lcom/commsource/util/common/l;->x(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v3
 
-    .line 3
     new-instance v4, Ljava/lang/StringBuilder;
 
     invoke-direct {v4}, Ljava/lang/StringBuilder;-><init>()V
@@ -690,10 +640,8 @@
 
     move-result-object v4
 
-    .line 4
     invoke-static {p0, v1, v2, v4}, Lcom/commsource/util/common/l;->C(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Z
 
-    .line 5
     new-instance p0, Ljava/lang/StringBuilder;
 
     invoke-direct {p0}, Ljava/lang/StringBuilder;-><init>()V
@@ -716,7 +664,6 @@
 
     invoke-static {p1, p0}, Lcom/meitu/library/util/Debug/Debug;->e(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 6
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -730,7 +677,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v1
@@ -741,7 +687,6 @@
 
     invoke-static {p0, v3, v4, v1, v2}, Lcom/commsource/util/common/l;->B(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;J)Z
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -758,12 +703,10 @@
 
     if-gtz p1, :cond_0
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
 
-    .line 2
     :cond_0
     invoke-static {p0}, Lcom/commsource/push/c/a;->b(Landroid/content/Context;)I
 
@@ -771,7 +714,6 @@
 
     const/4 v2, 0x0
 
-    .line 3
     :try_start_0
     invoke-static {p2}, Ljava/lang/Integer;->parseInt(Ljava/lang/String;)I
 
@@ -788,7 +730,6 @@
     :cond_1
     const/4 v1, 0x0
 
-    .line 4
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -806,13 +747,11 @@
     :cond_3
     const/4 v1, 0x0
 
-    .line 5
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
 
-    .line 6
     :cond_4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -821,10 +760,8 @@
     :catch_0
     move-exception p0
 
-    .line 7
     invoke-static {p0}, Lcom/meitu/library/util/Debug/Debug;->q(Ljava/lang/Throwable;)V
 
-    .line 8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v2

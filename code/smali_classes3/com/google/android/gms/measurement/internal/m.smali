@@ -35,12 +35,10 @@
 .method constructor <init>(Lcom/google/android/gms/measurement/internal/zzam;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/android/gms/measurement/internal/m;->b:Lcom/google/android/gms/measurement/internal/zzam;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     invoke-static {p1}, Lcom/google/android/gms/measurement/internal/zzam;->z(Lcom/google/android/gms/measurement/internal/zzam;)Landroid/os/Bundle;
 
     move-result-object p1
@@ -63,7 +61,6 @@
 .method public final hasNext()Z
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/measurement/internal/m;->a:Ljava/util/Iterator;
 
     invoke-interface {v0}, Ljava/util/Iterator;->hasNext()Z
@@ -76,7 +73,6 @@
 .method public final synthetic next()Ljava/lang/Object;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/measurement/internal/m;->a:Ljava/util/Iterator;
 
     invoke-interface {v0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
@@ -91,7 +87,6 @@
 .method public final remove()V
     .locals 2
 
-    .line 1
     new-instance v0, Ljava/lang/UnsupportedOperationException;
 
     const-string v1, "Remove not supported"

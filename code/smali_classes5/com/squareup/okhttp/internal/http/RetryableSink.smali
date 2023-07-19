@@ -20,7 +20,6 @@
 
     const/4 v0, -0x1
 
-    .line 4
     invoke-direct {p0, v0}, Lcom/squareup/okhttp/internal/http/RetryableSink;-><init>(I)V
 
     return-void
@@ -29,17 +28,14 @@
 .method public constructor <init>(I)V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     new-instance v0, Lokio/Buffer;
 
     invoke-direct {v0}, Lokio/Buffer;-><init>()V
 
     iput-object v0, p0, Lcom/squareup/okhttp/internal/http/RetryableSink;->content:Lokio/Buffer;
 
-    .line 3
     iput p1, p0, Lcom/squareup/okhttp/internal/http/RetryableSink;->limit:I
 
     return-void
@@ -55,7 +51,6 @@
         }
     .end annotation
 
-    .line 1
     iget-boolean v0, p0, Lcom/squareup/okhttp/internal/http/RetryableSink;->closed:Z
 
     if-eqz v0, :cond_0
@@ -65,10 +60,8 @@
     :cond_0
     const/4 v0, 0x1
 
-    .line 2
     iput-boolean v0, p0, Lcom/squareup/okhttp/internal/http/RetryableSink;->closed:Z
 
-    .line 3
     iget-object v0, p0, Lcom/squareup/okhttp/internal/http/RetryableSink;->content:Lokio/Buffer;
 
     invoke-virtual {v0}, Lokio/Buffer;->size()J
@@ -85,7 +78,6 @@
 
     return-void
 
-    .line 4
     :cond_1
     new-instance v0, Ljava/net/ProtocolException;
 
@@ -107,7 +99,6 @@
 
     iget-object v2, p0, Lcom/squareup/okhttp/internal/http/RetryableSink;->content:Lokio/Buffer;
 
-    .line 5
     invoke-virtual {v2}, Lokio/Buffer;->size()J
 
     move-result-wide v2
@@ -131,7 +122,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/squareup/okhttp/internal/http/RetryableSink;->content:Lokio/Buffer;
 
     invoke-virtual {v0}, Lokio/Buffer;->size()J
@@ -155,7 +145,6 @@
 .method public timeout()Lokio/Timeout;
     .locals 1
 
-    .line 1
     sget-object v0, Lokio/Timeout;->NONE:Lokio/Timeout;
 
     return-object v0
@@ -169,12 +158,10 @@
         }
     .end annotation
 
-    .line 1
     iget-boolean v0, p0, Lcom/squareup/okhttp/internal/http/RetryableSink;->closed:Z
 
     if-nez v0, :cond_2
 
-    .line 2
     invoke-virtual {p1}, Lokio/Buffer;->size()J
 
     move-result-wide v1
@@ -185,7 +172,6 @@
 
     invoke-static/range {v1 .. v6}, Lcom/squareup/okhttp/internal/Util;->checkOffsetAndCount(JJJ)V
 
-    .line 3
     iget v0, p0, Lcom/squareup/okhttp/internal/http/RetryableSink;->limit:I
 
     const/4 v1, -0x1
@@ -210,7 +196,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_0
     new-instance p1, Ljava/net/ProtocolException;
 
@@ -238,7 +223,6 @@
 
     throw p1
 
-    .line 5
     :cond_1
     :goto_0
     iget-object v0, p0, Lcom/squareup/okhttp/internal/http/RetryableSink;->content:Lokio/Buffer;
@@ -247,7 +231,6 @@
 
     return-void
 
-    .line 6
     :cond_2
     new-instance p1, Ljava/lang/IllegalStateException;
 
@@ -266,12 +249,10 @@
         }
     .end annotation
 
-    .line 1
     new-instance v6, Lokio/Buffer;
 
     invoke-direct {v6}, Lokio/Buffer;-><init>()V
 
-    .line 2
     iget-object v0, p0, Lcom/squareup/okhttp/internal/http/RetryableSink;->content:Lokio/Buffer;
 
     invoke-virtual {v0}, Lokio/Buffer;->size()J
@@ -284,7 +265,6 @@
 
     invoke-virtual/range {v0 .. v5}, Lokio/Buffer;->copyTo(Lokio/Buffer;JJ)Lokio/Buffer;
 
-    .line 3
     invoke-virtual {v6}, Lokio/Buffer;->size()J
 
     move-result-wide v0

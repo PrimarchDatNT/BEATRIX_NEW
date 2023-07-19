@@ -34,23 +34,18 @@
 .method private constructor <init>(Lcom/google/android/gms/internal/ads/zzao;)V
     .locals 1
 
-    .line 6
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/4 v0, 0x0
 
-    .line 7
     iput-boolean v0, p0, Lcom/google/android/gms/internal/ads/a8;->d:Z
 
     const/4 v0, 0x0
 
-    .line 8
     iput-object v0, p0, Lcom/google/android/gms/internal/ads/a8;->a:Ljava/lang/Object;
 
-    .line 9
     iput-object v0, p0, Lcom/google/android/gms/internal/ads/a8;->b:Lcom/google/android/gms/internal/ads/ee2;
 
-    .line 10
     iput-object p1, p0, Lcom/google/android/gms/internal/ads/a8;->c:Lcom/google/android/gms/internal/ads/zzao;
 
     return-void
@@ -66,23 +61,18 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/4 v0, 0x0
 
-    .line 2
     iput-boolean v0, p0, Lcom/google/android/gms/internal/ads/a8;->d:Z
 
-    .line 3
     iput-object p1, p0, Lcom/google/android/gms/internal/ads/a8;->a:Ljava/lang/Object;
 
-    .line 4
     iput-object p2, p0, Lcom/google/android/gms/internal/ads/a8;->b:Lcom/google/android/gms/internal/ads/ee2;
 
     const/4 p1, 0x0
 
-    .line 5
     iput-object p1, p0, Lcom/google/android/gms/internal/ads/a8;->c:Lcom/google/android/gms/internal/ads/zzao;
 
     return-void
@@ -102,7 +92,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/google/android/gms/internal/ads/a8;
 
     invoke-direct {v0, p0, p1}, Lcom/google/android/gms/internal/ads/a8;-><init>(Ljava/lang/Object;Lcom/google/android/gms/internal/ads/ee2;)V
@@ -124,7 +113,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/google/android/gms/internal/ads/a8;
 
     invoke-direct {v0, p0}, Lcom/google/android/gms/internal/ads/a8;-><init>(Lcom/google/android/gms/internal/ads/zzao;)V

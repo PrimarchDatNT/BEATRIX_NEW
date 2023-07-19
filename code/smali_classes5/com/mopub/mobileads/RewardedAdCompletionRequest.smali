@@ -46,12 +46,10 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-static {p2}, Lcom/mopub/network/MoPubRequestUtils;->truncateQueryParamsIfPost(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v3
 
-    .line 2
     invoke-static {p2}, Lcom/mopub/network/MoPubRequestUtils;->chooseMethod(Ljava/lang/String;)Lcom/mopub/network/MoPubRequest$Method;
 
     move-result-object v4
@@ -64,18 +62,14 @@
 
     move-object v5, p4
 
-    .line 3
     invoke-direct/range {v0 .. v5}, Lcom/mopub/network/MoPubRequest;-><init>(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Lcom/mopub/network/MoPubRequest$Method;Lcom/mopub/network/MoPubResponse$Listener;)V
 
     const/4 p1, 0x0
 
-    .line 4
     invoke-virtual {p0, p1}, Lcom/mopub/network/MoPubRequest;->setShouldCache(Z)V
 
-    .line 5
     invoke-virtual {p0, p3}, Lcom/mopub/network/MoPubRequest;->setRetryPolicy(Lcom/mopub/network/MoPubRetryPolicy;)V
 
-    .line 6
     iput-object p4, p0, Lcom/mopub/mobileads/RewardedAdCompletionRequest;->mListener:Lcom/mopub/mobileads/RewardedAdCompletionRequest$RewardedAdCompletionRequestListener;
 
     return-void
@@ -90,7 +84,6 @@
         .end annotation
     .end param
 
-    .line 2
     iget-object v0, p0, Lcom/mopub/mobileads/RewardedAdCompletionRequest;->mListener:Lcom/mopub/mobileads/RewardedAdCompletionRequest$RewardedAdCompletionRequestListener;
 
     invoke-interface {v0, p1}, Lcom/mopub/network/MoPubResponse$Listener;->onResponse(Ljava/lang/Object;)V
@@ -105,7 +98,6 @@
         .end annotation
     .end param
 
-    .line 1
     check-cast p1, Ljava/lang/Integer;
 
     invoke-virtual {p0, p1}, Lcom/mopub/mobileads/RewardedAdCompletionRequest;->deliverResponse(Ljava/lang/Integer;)V
@@ -118,7 +110,6 @@
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/mopub/network/MoPubRequest;->getUrl()Ljava/lang/String;
 
     move-result-object v0
@@ -133,7 +124,6 @@
 
     return-object v0
 
-    .line 2
     :cond_0
     invoke-super {p0}, Lcom/mopub/network/MoPubRequest;->getBodyContentType()Ljava/lang/String;
 
@@ -157,7 +147,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/mopub/network/MoPubRequest;->getUrl()Ljava/lang/String;
 
     move-result-object v0
@@ -172,7 +161,6 @@
 
     return-object v0
 
-    .line 2
     :cond_0
     invoke-super {p0}, Lcom/mopub/network/MoPubRequest;->getParams()Ljava/util/Map;
 
@@ -194,7 +182,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p1}, Lcom/mopub/network/MoPubNetworkResponse;->getStatusCode()I
 
     move-result v0

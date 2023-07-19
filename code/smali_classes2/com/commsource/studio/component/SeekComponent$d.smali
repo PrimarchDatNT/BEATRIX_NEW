@@ -33,7 +33,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/component/SeekComponent$d;->a:Lcom/commsource/studio/component/SeekComponent;
 
     iput p2, p0, Lcom/commsource/studio/component/SeekComponent$d;->b:I
@@ -56,7 +55,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -73,7 +71,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v0, p0, Lcom/commsource/studio/component/SeekComponent$d;->b:I
 
     iget-object v1, p0, Lcom/commsource/studio/component/SeekComponent$d;->a:Lcom/commsource/studio/component/SeekComponent;
@@ -84,14 +81,12 @@
 
     if-ge v0, v1, :cond_0
 
-    .line 2
     iget-object v0, p0, Lcom/commsource/studio/component/SeekComponent$d;->a:Lcom/commsource/studio/component/SeekComponent;
 
     iget v1, p0, Lcom/commsource/studio/component/SeekComponent$d;->b:I
 
     invoke-static {v0, v1}, Lcom/commsource/util/l2;->y(Landroid/view/View;I)V
 
-    .line 3
     :cond_0
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -109,7 +104,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -126,7 +120,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/studio/component/SeekComponent$d;->a:Lcom/commsource/studio/component/SeekComponent;
 
     invoke-virtual {v0}, Landroid/widget/FrameLayout;->getHeight()I
@@ -137,12 +130,10 @@
 
     if-ge v0, v1, :cond_0
 
-    .line 2
     iget-object v0, p0, Lcom/commsource/studio/component/SeekComponent$d;->a:Lcom/commsource/studio/component/SeekComponent;
 
     invoke-static {v0, v1}, Lcom/commsource/util/l2;->y(Landroid/view/View;I)V
 
-    .line 3
     :cond_0
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

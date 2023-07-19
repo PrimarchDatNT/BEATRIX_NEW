@@ -31,7 +31,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/camera/xcamera/cover/CameraCaptureCover$g;->a:Lcom/commsource/camera/xcamera/cover/CameraCaptureCover;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -48,12 +47,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/CameraCaptureCover$g;->a:Lcom/commsource/camera/xcamera/cover/CameraCaptureCover;
 
     invoke-static {v1}, Lcom/commsource/camera/xcamera/cover/CameraCaptureCover;->J(Lcom/commsource/camera/xcamera/cover/CameraCaptureCover;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -68,7 +65,6 @@
 
     if-eqz p2, :cond_0
 
-    .line 1
     iget-object p2, p0, Lcom/commsource/camera/xcamera/cover/CameraCaptureCover$g;->a:Lcom/commsource/camera/xcamera/cover/CameraCaptureCover;
 
     invoke-virtual {p2}, Lcom/commsource/camera/xcamera/cover/CameraCaptureCover;->S()Lcom/commsource/camera/xcamera/BpCameraViewModel;
@@ -80,7 +76,6 @@
     :cond_0
     const/4 p2, 0x1
 
-    .line 2
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p2

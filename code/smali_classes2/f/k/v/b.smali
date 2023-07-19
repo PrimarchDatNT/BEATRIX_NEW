@@ -72,7 +72,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -87,107 +86,86 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p1, Lf/k/v/b;->a:Ljava/lang/String;
 
     iput-object v1, p0, Lf/k/v/b;->a:Ljava/lang/String;
 
-    .line 2
     iget-object v1, p1, Lf/k/v/b;->b:Ljava/lang/String;
 
     iput-object v1, p0, Lf/k/v/b;->b:Ljava/lang/String;
 
-    .line 3
     iget v1, p1, Lf/k/v/b;->c:I
 
     iput v1, p0, Lf/k/v/b;->c:I
 
-    .line 4
     iget-boolean v1, p1, Lf/k/v/b;->d:Z
 
     iput-boolean v1, p0, Lf/k/v/b;->d:Z
 
-    .line 5
     iget v1, p1, Lf/k/v/b;->e:I
 
     iput v1, p0, Lf/k/v/b;->e:I
 
-    .line 6
     iget v1, p1, Lf/k/v/b;->f:I
 
     iput v1, p0, Lf/k/v/b;->f:I
 
-    .line 7
     iget-boolean v1, p1, Lf/k/v/b;->g:Z
 
     iput-boolean v1, p0, Lf/k/v/b;->g:Z
 
-    .line 8
     iget v1, p1, Lf/k/v/b;->h:I
 
     iput v1, p0, Lf/k/v/b;->h:I
 
-    .line 9
     iget-boolean v1, p1, Lf/k/v/b;->i:Z
 
     iput-boolean v1, p0, Lf/k/v/b;->i:Z
 
-    .line 10
     iget-boolean v1, p1, Lf/k/v/b;->j:Z
 
     iput-boolean v1, p0, Lf/k/v/b;->j:Z
 
-    .line 11
     iget-boolean v1, p1, Lf/k/v/b;->k:Z
 
     iput-boolean v1, p0, Lf/k/v/b;->k:Z
 
-    .line 12
     iget-boolean v1, p1, Lf/k/v/b;->l:Z
 
     iput-boolean v1, p0, Lf/k/v/b;->l:Z
 
-    .line 13
     iget-object v1, p1, Lf/k/v/b;->m:Ljava/lang/String;
 
     iput-object v1, p0, Lf/k/v/b;->m:Ljava/lang/String;
 
-    .line 14
     iget-object v1, p1, Lf/k/v/b;->n:Ljava/lang/String;
 
     iput-object v1, p0, Lf/k/v/b;->n:Ljava/lang/String;
 
-    .line 15
     iget v1, p1, Lf/k/v/b;->o:I
 
     iput v1, p0, Lf/k/v/b;->o:I
 
-    .line 16
     iget v1, p1, Lf/k/v/b;->p:I
 
     iput v1, p0, Lf/k/v/b;->p:I
 
-    .line 17
     iget v1, p1, Lf/k/v/b;->q:I
 
     iput v1, p0, Lf/k/v/b;->q:I
 
-    .line 18
     iget v1, p1, Lf/k/v/b;->r:I
 
     iput v1, p0, Lf/k/v/b;->r:I
 
-    .line 19
     iget v1, p1, Lf/k/v/b;->t:I
 
     iput v1, p0, Lf/k/v/b;->t:I
 
-    .line 20
     iget-object p1, p1, Lf/k/v/b;->s:Lcom/meitu/core/parse/MteDict;
 
     iput-object p1, p0, Lf/k/v/b;->s:Lcom/meitu/core/parse/MteDict;
 
-    .line 21
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

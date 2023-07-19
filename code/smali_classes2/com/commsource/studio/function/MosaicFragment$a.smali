@@ -33,7 +33,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/function/MosaicFragment$a;->e:Lcom/commsource/studio/function/MosaicFragment;
 
     iput-object p2, p0, Lcom/commsource/studio/function/MosaicFragment$a;->f:Lcom/commsource/beautymain/data/c;
@@ -54,7 +53,6 @@
 
     if-eqz p1, :cond_1
 
-    .line 1
     iget-object p1, p0, Lcom/commsource/studio/function/MosaicFragment$a;->e:Lcom/commsource/studio/function/MosaicFragment;
 
     invoke-static {p1}, Lcom/commsource/studio/function/MosaicFragment;->F1(Lcom/commsource/studio/function/MosaicFragment;)Lcom/commsource/widget/dialog/q0;
@@ -65,7 +63,6 @@
 
     invoke-virtual {p1}, Lcom/commsource/widget/dialog/q0;->dismissAllowingStateLoss()V
 
-    .line 2
     :cond_0
     iget-object p1, p0, Lcom/commsource/studio/function/MosaicFragment$a;->e:Lcom/commsource/studio/function/MosaicFragment;
 
@@ -83,7 +80,6 @@
 
     invoke-virtual {p1, v1, v2}, Lcom/commsource/beautymain/viewmodel/MosaicViewModel;->g0(ILcom/commsource/beautymain/data/c;)V
 
-    .line 3
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

@@ -37,7 +37,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/sticker/StickerFragment$j;->c:Lcom/commsource/studio/sticker/StickerFragment;
 
     invoke-direct {p0}, Lcom/commsource/beautyfilter/NoStickLiveData$a;-><init>()V
@@ -54,7 +53,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Ljava/lang/Integer;
 
     invoke-virtual {p0, p1}, Lcom/commsource/studio/sticker/StickerFragment$j;->e(Ljava/lang/Integer;)V
@@ -77,31 +75,26 @@
 
     if-eqz p1, :cond_2
 
-    .line 1
     invoke-virtual {p1}, Ljava/lang/Number;->intValue()I
 
     const/4 v1, 0x5
 
-    .line 2
     invoke-virtual {p1}, Ljava/lang/Integer;->intValue()I
 
     move-result p1
 
     if-ne p1, v1, :cond_2
 
-    .line 3
     sget-object p1, Lcom/commsource/studio/sub/SubModuleEnum;->Eraser:Lcom/commsource/studio/sub/SubModuleEnum;
 
     const-string v1, "f_stickers"
 
     invoke-virtual {p1, v1}, Lcom/commsource/studio/sub/SubModuleEnum;->setDictValue(Ljava/lang/String;)V
 
-    .line 4
     new-instance v1, Landroid/os/Bundle;
 
     invoke-direct {v1}, Landroid/os/Bundle;-><init>()V
 
-    .line 5
     sget-object v2, Lcom/commsource/studio/sub/SubTabEnum;->Stickers:Lcom/commsource/studio/sub/SubTabEnum;
 
     invoke-virtual {v2}, Lcom/commsource/studio/sub/SubTabEnum;->getId()I
@@ -112,7 +105,6 @@
 
     invoke-virtual {v1, v3, v2}, Landroid/os/Bundle;->putInt(Ljava/lang/String;I)V
 
-    .line 6
     iget-object v2, p0, Lcom/commsource/studio/sticker/StickerFragment$j;->c:Lcom/commsource/studio/sticker/StickerFragment;
 
     invoke-static {v2}, Lcom/commsource/studio/sticker/StickerFragment;->W(Lcom/commsource/studio/sticker/StickerFragment;)Lcom/commsource/widget/h1/e;
@@ -127,10 +119,8 @@
 
     if-eqz v2, :cond_0
 
-    .line 7
     check-cast v2, Lcom/meitu/template/bean/StickerGroup;
 
-    .line 8
     invoke-virtual {v2}, Lcom/meitu/template/bean/StickerGroup;->getGroupId()I
 
     move-result v2
@@ -141,7 +131,6 @@
 
     goto :goto_0
 
-    .line 9
     :cond_0
     new-instance p1, Lcotlin/TypeCastException;
 
@@ -153,7 +142,6 @@
 
     throw p1
 
-    .line 10
     :cond_1
     :goto_0
     iget-object v2, p0, Lcom/commsource/studio/sticker/StickerFragment$j;->c:Lcom/commsource/studio/sticker/StickerFragment;
@@ -172,7 +160,6 @@
 
     invoke-virtual {v2, v3}, Landroidx/lifecycle/MutableLiveData;->setValue(Ljava/lang/Object;)V
 
-    .line 11
     :cond_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

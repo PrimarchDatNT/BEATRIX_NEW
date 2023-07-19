@@ -70,17 +70,14 @@
 
     invoke-static {p2, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-direct {p0, p1, p2, p3}, Landroid/widget/FrameLayout;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
-    .line 2
     new-instance p2, Landroid/widget/ImageView;
 
     invoke-direct {p2, p1}, Landroid/widget/ImageView;-><init>(Landroid/content/Context;)V
 
     iput-object p2, p0, Lcom/commsource/beautyplus/onboarding/ImageTransformationView;->a:Landroid/widget/ImageView;
 
-    .line 3
     new-instance p2, Landroid/widget/ImageView;
 
     invoke-direct {p2, p1}, Landroid/widget/ImageView;-><init>(Landroid/content/Context;)V
@@ -89,14 +86,12 @@
 
     const/4 p1, 0x1
 
-    .line 4
     iput-boolean p1, p0, Lcom/commsource/beautyplus/onboarding/ImageTransformationView;->c:Z
 
     const/4 p1, 0x2
 
     new-array p1, p1, [F
 
-    .line 5
     fill-array-data p1, :array_0
 
     invoke-static {p1}, Lcom/commsource/camera/f1/l;->e([F)Lcom/commsource/camera/f1/l;
@@ -105,7 +100,6 @@
 
     const-wide/16 p2, 0x12c
 
-    .line 6
     invoke-virtual {p1, p2, p3}, Lcom/commsource/camera/f1/l;->b(J)Lcom/commsource/camera/f1/l;
 
     move-result-object p1
@@ -116,7 +110,6 @@
 
     const/high16 v0, 0x3f800000    # 1.0f
 
-    .line 7
     invoke-static {p2, p3, p2, v0}, Landroidx/core/view/animation/PathInterpolatorCompat;->create(FFFF)Landroid/view/animation/Interpolator;
 
     move-result-object p2
@@ -125,7 +118,6 @@
 
     move-result-object p1
 
-    .line 8
     new-instance p2, Lcom/commsource/beautyplus/onboarding/ImageTransformationView$a;
 
     invoke-direct {p2, p0}, Lcom/commsource/beautyplus/onboarding/ImageTransformationView$a;-><init>(Lcom/commsource/beautyplus/onboarding/ImageTransformationView;)V
@@ -136,7 +128,6 @@
 
     iput-object p1, p0, Lcom/commsource/beautyplus/onboarding/ImageTransformationView;->d:Lcom/commsource/camera/f1/l;
 
-    .line 9
     iget-object p1, p0, Lcom/commsource/beautyplus/onboarding/ImageTransformationView;->b:Landroid/widget/ImageView;
 
     invoke-direct {p0}, Lcom/commsource/beautyplus/onboarding/ImageTransformationView;->g()Landroid/widget/FrameLayout$LayoutParams;
@@ -145,7 +136,6 @@
 
     invoke-virtual {p0, p1, p2}, Landroid/widget/FrameLayout;->addView(Landroid/view/View;Landroid/view/ViewGroup$LayoutParams;)V
 
-    .line 10
     iget-object p1, p0, Lcom/commsource/beautyplus/onboarding/ImageTransformationView;->a:Landroid/widget/ImageView;
 
     invoke-direct {p0}, Lcom/commsource/beautyplus/onboarding/ImageTransformationView;->g()Landroid/widget/FrameLayout$LayoutParams;
@@ -174,7 +164,6 @@
 
     const/4 p3, 0x0
 
-    .line 11
     :cond_0
     invoke-direct {p0, p1, p2, p3}, Lcom/commsource/beautyplus/onboarding/ImageTransformationView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
@@ -188,7 +177,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/beautyplus/onboarding/ImageTransformationView;->b:Landroid/widget/ImageView;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -203,7 +191,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/beautyplus/onboarding/ImageTransformationView;->a:Landroid/widget/ImageView;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -218,7 +205,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/beautyplus/onboarding/ImageTransformationView;->b:Landroid/widget/ImageView;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -233,7 +219,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/beautyplus/onboarding/ImageTransformationView;->a:Landroid/widget/ImageView;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -248,7 +233,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Landroid/widget/FrameLayout$LayoutParams;
 
     const/4 v2, -0x1
@@ -267,7 +251,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p1}, Landroid/view/View;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
 
     move-result-object v1
@@ -276,27 +259,20 @@
 
     check-cast v1, Landroid/widget/FrameLayout$LayoutParams;
 
-    .line 2
     iput p2, v1, Landroid/widget/FrameLayout$LayoutParams;->leftMargin:I
 
-    .line 3
     iput p2, v1, Landroid/widget/FrameLayout$LayoutParams;->rightMargin:I
 
-    .line 4
     iput p2, v1, Landroid/widget/FrameLayout$LayoutParams;->topMargin:I
 
-    .line 5
     iput p2, v1, Landroid/widget/FrameLayout$LayoutParams;->bottomMargin:I
 
-    .line 6
     invoke-virtual {p1, v1}, Landroid/view/View;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 8
     :cond_0
     new-instance p1, Lcotlin/TypeCastException;
 
@@ -387,7 +363,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/beautyplus/onboarding/ImageTransformationView;->c:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -402,33 +377,26 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/beautyplus/onboarding/ImageTransformationView;->b:Landroid/widget/ImageView;
 
-    .line 2
     iget-object v2, p0, Lcom/commsource/beautyplus/onboarding/ImageTransformationView;->a:Landroid/widget/ImageView;
 
     iput-object v2, p0, Lcom/commsource/beautyplus/onboarding/ImageTransformationView;->b:Landroid/widget/ImageView;
 
-    .line 3
     iput-object v1, p0, Lcom/commsource/beautyplus/onboarding/ImageTransformationView;->a:Landroid/widget/ImageView;
 
     const/4 v2, 0x0
 
-    .line 4
     invoke-virtual {v1, v2}, Landroid/widget/ImageView;->setAlpha(F)V
 
-    .line 5
     iget-object v1, p0, Lcom/commsource/beautyplus/onboarding/ImageTransformationView;->a:Landroid/widget/ImageView;
 
     invoke-virtual {v1}, Landroid/widget/ImageView;->bringToFront()V
 
-    .line 6
     iget-object v1, p0, Lcom/commsource/beautyplus/onboarding/ImageTransformationView;->a:Landroid/widget/ImageView;
 
     invoke-virtual {v1, p1}, Landroid/widget/ImageView;->setImageResource(I)V
 
-    .line 7
     iget-object p1, p0, Lcom/commsource/beautyplus/onboarding/ImageTransformationView;->a:Landroid/widget/ImageView;
 
     invoke-virtual {p1}, Landroid/widget/ImageView;->getWidth()I
@@ -443,7 +411,6 @@
 
     invoke-virtual {p1, v1}, Landroid/widget/ImageView;->setPivotX(F)V
 
-    .line 8
     iget-object p1, p0, Lcom/commsource/beautyplus/onboarding/ImageTransformationView;->a:Landroid/widget/ImageView;
 
     invoke-virtual {p1}, Landroid/widget/ImageView;->getHeight()I
@@ -456,7 +423,6 @@
 
     invoke-virtual {p1, v1}, Landroid/widget/ImageView;->setPivotY(F)V
 
-    .line 9
     iget-object p1, p0, Lcom/commsource/beautyplus/onboarding/ImageTransformationView;->b:Landroid/widget/ImageView;
 
     invoke-virtual {p1}, Landroid/widget/ImageView;->getWidth()I
@@ -469,7 +435,6 @@
 
     invoke-virtual {p1, v1}, Landroid/widget/ImageView;->setPivotX(F)V
 
-    .line 10
     iget-object p1, p0, Lcom/commsource/beautyplus/onboarding/ImageTransformationView;->b:Landroid/widget/ImageView;
 
     invoke-virtual {p1}, Landroid/widget/ImageView;->getHeight()I
@@ -482,12 +447,10 @@
 
     invoke-virtual {p1, v1}, Landroid/widget/ImageView;->setPivotY(F)V
 
-    .line 11
     iget-object p1, p0, Lcom/commsource/beautyplus/onboarding/ImageTransformationView;->d:Lcom/commsource/camera/f1/l;
 
     invoke-virtual {p1}, Lcom/commsource/camera/f1/l;->j()V
 
-    .line 12
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -508,28 +471,22 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 13
     iget-object v1, p0, Lcom/commsource/beautyplus/onboarding/ImageTransformationView;->b:Landroid/widget/ImageView;
 
-    .line 14
     iget-object v2, p0, Lcom/commsource/beautyplus/onboarding/ImageTransformationView;->a:Landroid/widget/ImageView;
 
     iput-object v2, p0, Lcom/commsource/beautyplus/onboarding/ImageTransformationView;->b:Landroid/widget/ImageView;
 
-    .line 15
     iput-object v1, p0, Lcom/commsource/beautyplus/onboarding/ImageTransformationView;->a:Landroid/widget/ImageView;
 
     const/4 v2, 0x0
 
-    .line 16
     invoke-virtual {v1, v2}, Landroid/widget/ImageView;->setAlpha(F)V
 
-    .line 17
     iget-object v1, p0, Lcom/commsource/beautyplus/onboarding/ImageTransformationView;->a:Landroid/widget/ImageView;
 
     invoke-virtual {v1}, Landroid/widget/ImageView;->bringToFront()V
 
-    .line 18
     invoke-virtual {p0}, Landroid/widget/FrameLayout;->getContext()Landroid/content/Context;
 
     move-result-object v1
@@ -546,7 +503,6 @@
 
     invoke-virtual {p1, v1}, Lcom/commsource/util/u0$d;->e(Landroid/widget/ImageView;)V
 
-    .line 19
     iget-object p1, p0, Lcom/commsource/beautyplus/onboarding/ImageTransformationView;->a:Landroid/widget/ImageView;
 
     invoke-virtual {p1}, Landroid/widget/ImageView;->getWidth()I
@@ -561,7 +517,6 @@
 
     invoke-virtual {p1, v1}, Landroid/widget/ImageView;->setPivotX(F)V
 
-    .line 20
     iget-object p1, p0, Lcom/commsource/beautyplus/onboarding/ImageTransformationView;->a:Landroid/widget/ImageView;
 
     invoke-virtual {p1}, Landroid/widget/ImageView;->getHeight()I
@@ -574,7 +529,6 @@
 
     invoke-virtual {p1, v1}, Landroid/widget/ImageView;->setPivotY(F)V
 
-    .line 21
     iget-object p1, p0, Lcom/commsource/beautyplus/onboarding/ImageTransformationView;->b:Landroid/widget/ImageView;
 
     invoke-virtual {p1}, Landroid/widget/ImageView;->getWidth()I
@@ -587,7 +541,6 @@
 
     invoke-virtual {p1, v1}, Landroid/widget/ImageView;->setPivotX(F)V
 
-    .line 22
     iget-object p1, p0, Lcom/commsource/beautyplus/onboarding/ImageTransformationView;->b:Landroid/widget/ImageView;
 
     invoke-virtual {p1}, Landroid/widget/ImageView;->getHeight()I
@@ -600,12 +553,10 @@
 
     invoke-virtual {p1, v1}, Landroid/widget/ImageView;->setPivotY(F)V
 
-    .line 23
     iget-object p1, p0, Lcom/commsource/beautyplus/onboarding/ImageTransformationView;->d:Lcom/commsource/camera/f1/l;
 
     invoke-virtual {p1}, Lcom/commsource/camera/f1/l;->j()V
 
-    .line 24
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -618,7 +569,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/beautyplus/onboarding/ImageTransformationView;->c:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -633,17 +583,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/beautyplus/onboarding/ImageTransformationView;->a:Landroid/widget/ImageView;
 
     invoke-virtual {v1}, Landroid/widget/ImageView;->bringToFront()V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/beautyplus/onboarding/ImageTransformationView;->a:Landroid/widget/ImageView;
 
     invoke-virtual {v1, p1}, Landroid/widget/ImageView;->setImageResource(I)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -664,12 +611,10 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/beautyplus/onboarding/ImageTransformationView;->a:Landroid/widget/ImageView;
 
     invoke-virtual {v1}, Landroid/widget/ImageView;->bringToFront()V
 
-    .line 5
     invoke-virtual {p0}, Landroid/widget/FrameLayout;->getContext()Landroid/content/Context;
 
     move-result-object v1
@@ -686,7 +631,6 @@
 
     invoke-virtual {p1, v1}, Lcom/commsource/util/u0$d;->e(Landroid/widget/ImageView;)V
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

@@ -66,7 +66,6 @@
 .method static constructor <clinit>()V
     .locals 16
 
-    .line 1
     new-instance v0, Lcom/google/ar/core/Anchor$CloudAnchorState;
 
     const-string v1, "NONE"
@@ -77,7 +76,6 @@
 
     sput-object v0, Lcom/google/ar/core/Anchor$CloudAnchorState;->NONE:Lcom/google/ar/core/Anchor$CloudAnchorState;
 
-    .line 2
     new-instance v1, Lcom/google/ar/core/Anchor$CloudAnchorState;
 
     const-string v3, "TASK_IN_PROGRESS"
@@ -88,7 +86,6 @@
 
     sput-object v1, Lcom/google/ar/core/Anchor$CloudAnchorState;->TASK_IN_PROGRESS:Lcom/google/ar/core/Anchor$CloudAnchorState;
 
-    .line 3
     new-instance v3, Lcom/google/ar/core/Anchor$CloudAnchorState;
 
     const-string v5, "SUCCESS"
@@ -99,7 +96,6 @@
 
     sput-object v3, Lcom/google/ar/core/Anchor$CloudAnchorState;->SUCCESS:Lcom/google/ar/core/Anchor$CloudAnchorState;
 
-    .line 4
     new-instance v5, Lcom/google/ar/core/Anchor$CloudAnchorState;
 
     const-string v7, "ERROR_INTERNAL"
@@ -112,7 +108,6 @@
 
     sput-object v5, Lcom/google/ar/core/Anchor$CloudAnchorState;->ERROR_INTERNAL:Lcom/google/ar/core/Anchor$CloudAnchorState;
 
-    .line 5
     new-instance v7, Lcom/google/ar/core/Anchor$CloudAnchorState;
 
     const-string v9, "ERROR_NOT_AUTHORIZED"
@@ -125,7 +120,6 @@
 
     sput-object v7, Lcom/google/ar/core/Anchor$CloudAnchorState;->ERROR_NOT_AUTHORIZED:Lcom/google/ar/core/Anchor$CloudAnchorState;
 
-    .line 6
     new-instance v9, Lcom/google/ar/core/Anchor$CloudAnchorState;
 
     const-string v11, "ERROR_SERVICE_UNAVAILABLE"
@@ -138,7 +132,6 @@
 
     sput-object v9, Lcom/google/ar/core/Anchor$CloudAnchorState;->ERROR_SERVICE_UNAVAILABLE:Lcom/google/ar/core/Anchor$CloudAnchorState;
 
-    .line 7
     new-instance v11, Lcom/google/ar/core/Anchor$CloudAnchorState;
 
     const-string v13, "ERROR_RESOURCE_EXHAUSTED"
@@ -151,7 +144,6 @@
 
     sput-object v11, Lcom/google/ar/core/Anchor$CloudAnchorState;->ERROR_RESOURCE_EXHAUSTED:Lcom/google/ar/core/Anchor$CloudAnchorState;
 
-    .line 8
     new-instance v13, Lcom/google/ar/core/Anchor$CloudAnchorState;
 
     const-string v15, "ERROR_HOSTING_DATASET_PROCESSING_FAILED"
@@ -164,7 +156,6 @@
 
     sput-object v13, Lcom/google/ar/core/Anchor$CloudAnchorState;->ERROR_HOSTING_DATASET_PROCESSING_FAILED:Lcom/google/ar/core/Anchor$CloudAnchorState;
 
-    .line 9
     new-instance v12, Lcom/google/ar/core/Anchor$CloudAnchorState;
 
     const-string v15, "ERROR_CLOUD_ID_NOT_FOUND"
@@ -177,7 +168,6 @@
 
     sput-object v12, Lcom/google/ar/core/Anchor$CloudAnchorState;->ERROR_CLOUD_ID_NOT_FOUND:Lcom/google/ar/core/Anchor$CloudAnchorState;
 
-    .line 10
     new-instance v10, Lcom/google/ar/core/Anchor$CloudAnchorState;
 
     const-string v15, "ERROR_RESOLVING_LOCALIZATION_NO_MATCH"
@@ -190,7 +180,6 @@
 
     sput-object v10, Lcom/google/ar/core/Anchor$CloudAnchorState;->ERROR_RESOLVING_LOCALIZATION_NO_MATCH:Lcom/google/ar/core/Anchor$CloudAnchorState;
 
-    .line 11
     new-instance v8, Lcom/google/ar/core/Anchor$CloudAnchorState;
 
     const-string v15, "ERROR_RESOLVING_SDK_VERSION_TOO_OLD"
@@ -203,7 +192,6 @@
 
     sput-object v8, Lcom/google/ar/core/Anchor$CloudAnchorState;->ERROR_RESOLVING_SDK_VERSION_TOO_OLD:Lcom/google/ar/core/Anchor$CloudAnchorState;
 
-    .line 12
     new-instance v6, Lcom/google/ar/core/Anchor$CloudAnchorState;
 
     const-string v15, "ERROR_RESOLVING_SDK_VERSION_TOO_NEW"
@@ -216,7 +204,6 @@
 
     sput-object v6, Lcom/google/ar/core/Anchor$CloudAnchorState;->ERROR_RESOLVING_SDK_VERSION_TOO_NEW:Lcom/google/ar/core/Anchor$CloudAnchorState;
 
-    .line 13
     new-instance v4, Lcom/google/ar/core/Anchor$CloudAnchorState;
 
     const-string v15, "ERROR_HOSTING_SERVICE_UNAVAILABLE"
@@ -283,7 +270,6 @@
 
     aput-object v4, v2, v14
 
-    .line 14
     sput-object v2, Lcom/google/ar/core/Anchor$CloudAnchorState;->$VALUES:[Lcom/google/ar/core/Anchor$CloudAnchorState;
 
     return-void
@@ -297,10 +283,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 2
     iput p3, p0, Lcom/google/ar/core/Anchor$CloudAnchorState;->nativeCode:I
 
     return-void
@@ -309,7 +293,6 @@
 .method public static forNumber(I)Lcom/google/ar/core/Anchor$CloudAnchorState;
     .locals 5
 
-    .line 1
     invoke-static {}, Lcom/google/ar/core/Anchor$CloudAnchorState;->values()[Lcom/google/ar/core/Anchor$CloudAnchorState;
 
     move-result-object v0
@@ -323,7 +306,6 @@
 
     aget-object v3, v0, v2
 
-    .line 2
     iget v4, v3, Lcom/google/ar/core/Anchor$CloudAnchorState;->nativeCode:I
 
     if-ne v4, p0, :cond_0
@@ -335,7 +317,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_1
     new-instance v0, Lcom/google/ar/core/exceptions/FatalException;
 
@@ -363,7 +344,6 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/google/ar/core/Anchor$CloudAnchorState;
     .locals 1
 
-    .line 1
     const-class v0, Lcom/google/ar/core/Anchor$CloudAnchorState;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -378,7 +358,6 @@
 .method public static values()[Lcom/google/ar/core/Anchor$CloudAnchorState;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/google/ar/core/Anchor$CloudAnchorState;->$VALUES:[Lcom/google/ar/core/Anchor$CloudAnchorState;
 
     invoke-virtual {v0}, [Lcom/google/ar/core/Anchor$CloudAnchorState;->clone()Ljava/lang/Object;
@@ -395,7 +374,6 @@
 .method public final isError()Z
     .locals 1
 
-    .line 1
     iget v0, p0, Lcom/google/ar/core/Anchor$CloudAnchorState;->nativeCode:I
 
     if-gez v0, :cond_0

@@ -43,7 +43,6 @@
 
     const-wide v1, 0x3fa999999999999aL    # 0.05
 
-    .line 1
     invoke-static {v0, v1, v2}, Lcom/google/android/gms/internal/ads/y0;->b(Ljava/lang/String;D)Lcom/google/android/gms/internal/ads/y0;
 
     move-result-object v0
@@ -54,7 +53,6 @@
 
     const-string v1, "https://csi.gstatic.com/csi"
 
-    .line 2
     invoke-static {v0, v1}, Lcom/google/android/gms/internal/ads/y0;->e(Ljava/lang/String;Ljava/lang/String;)Lcom/google/android/gms/internal/ads/y0;
 
     move-result-object v0
@@ -65,7 +63,6 @@
 
     const/4 v1, 0x0
 
-    .line 3
     invoke-static {v0, v1}, Lcom/google/android/gms/internal/ads/y0;->d(Ljava/lang/String;Z)Lcom/google/android/gms/internal/ads/y0;
 
     move-result-object v0

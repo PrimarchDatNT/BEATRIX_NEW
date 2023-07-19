@@ -26,25 +26,20 @@
 .method public constructor <init>(Lcom/meitu/library/analytics/y/n/i;)V
     .locals 2
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/4 v0, 0x0
 
-    .line 2
     iput-object v0, p0, Lcom/meitu/library/analytics/y/c/f;->c:Ljava/lang/String;
 
     const-wide/16 v0, 0x0
 
-    .line 3
     iput-wide v0, p0, Lcom/meitu/library/analytics/y/c/f;->d:J
 
-    .line 4
     iput-object p1, p0, Lcom/meitu/library/analytics/y/c/f;->a:Lcom/meitu/library/analytics/y/n/i;
 
     const-string p1, ""
 
-    .line 5
     invoke-static {p1}, Lcom/meitu/library/analytics/y/o/p;->c(Ljava/lang/String;)Lcom/meitu/library/analytics/y/o/p$a;
 
     move-result-object p1
@@ -63,7 +58,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/library/analytics/y/c/f;->a:Lcom/meitu/library/analytics/y/n/i;
 
     sget-object v2, Lcom/meitu/library/analytics/y/n/d;->s:Lcom/meitu/library/analytics/y/n/d;
@@ -74,7 +68,6 @@
 
     check-cast v1, Ljava/lang/String;
 
-    .line 2
     iget-object v2, p0, Lcom/meitu/library/analytics/y/c/f;->c:Ljava/lang/String;
 
     invoke-static {v1, v2}, Lcom/meitu/library/analytics/y/o/x;->a(Ljava/lang/String;Ljava/lang/String;)Z
@@ -97,11 +90,9 @@
 
     if-lez v6, :cond_1
 
-    .line 3
     :cond_0
     iput-object v1, p0, Lcom/meitu/library/analytics/y/c/f;->c:Ljava/lang/String;
 
-    .line 4
     new-instance v2, Ljava/lang/String;
 
     const/4 v3, 0x0
@@ -118,14 +109,12 @@
 
     iput-object v1, p0, Lcom/meitu/library/analytics/y/c/f;->b:Lcom/meitu/library/analytics/y/o/p$a;
 
-    .line 5
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v1
 
     iput-wide v1, p0, Lcom/meitu/library/analytics/y/c/f;->d:J
 
-    .line 6
     :cond_1
     iget-object v1, p0, Lcom/meitu/library/analytics/y/c/f;->b:Lcom/meitu/library/analytics/y/o/p$a;
 
@@ -143,7 +132,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/meitu/library/analytics/y/c/f;->b()Lcom/meitu/library/analytics/y/o/p$a;
 
     move-result-object v1

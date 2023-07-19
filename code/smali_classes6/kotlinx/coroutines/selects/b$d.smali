@@ -42,7 +42,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcotlinx/coroutines/selects/b$d;->f:Lcotlinx/coroutines/selects/b;
 
     invoke-direct {p0, p2}, Lcotlinx/coroutines/d2;-><init>(Lcotlinx/coroutines/c2;)V
@@ -59,7 +58,6 @@
         .end annotation
     .end param
 
-    .line 1
     iget-object p1, p0, Lcotlinx/coroutines/selects/b$d;->f:Lcotlinx/coroutines/selects/b;
 
     invoke-virtual {p1}, Lcotlinx/coroutines/selects/b;->o()Z
@@ -68,7 +66,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 2
     iget-object p1, p0, Lcotlinx/coroutines/selects/b$d;->f:Lcotlinx/coroutines/selects/b;
 
     iget-object v0, p0, Lcotlinx/coroutines/i2;->d:Lcotlinx/coroutines/c2;
@@ -86,7 +83,6 @@
 .method public bridge synthetic invoke(Ljava/lang/Object;)Ljava/lang/Object;
     .locals 0
 
-    .line 1
     check-cast p1, Ljava/lang/Throwable;
 
     invoke-virtual {p0, p1}, Lcotlinx/coroutines/selects/b$d;->f0(Ljava/lang/Throwable;)V
@@ -101,7 +97,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V

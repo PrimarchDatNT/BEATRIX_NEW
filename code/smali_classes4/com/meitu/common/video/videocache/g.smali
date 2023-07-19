@@ -19,13 +19,10 @@
 .method public constructor <init>(Lcom/meitu/common/video/videocache/j;Lcom/meitu/common/video/videocache/t/b;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1, p2}, Lcom/meitu/common/video/videocache/n;-><init>(Lcom/meitu/common/video/videocache/p;Lcom/meitu/common/video/videocache/c;)V
 
-    .line 2
     iput-object p2, p0, Lcom/meitu/common/video/videocache/g;->l:Lcom/meitu/common/video/videocache/t/b;
 
-    .line 3
     iput-object p1, p0, Lcom/meitu/common/video/videocache/g;->k:Lcom/meitu/common/video/videocache/j;
 
     return-void
@@ -38,7 +35,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Ljava/util/Locale;->US:Ljava/util/Locale;
 
     invoke-static {v1, p1, p2}, Ljava/lang/String;->format(Ljava/util/Locale;Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
@@ -62,7 +58,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/common/video/videocache/g;->k:Lcom/meitu/common/video/videocache/j;
 
     invoke-virtual {v1}, Lcom/meitu/common/video/videocache/j;->length()J
@@ -86,7 +81,6 @@
     :cond_0
     const/4 v5, 0x0
 
-    .line 2
     :goto_0
     iget-object v6, p0, Lcom/meitu/common/video/videocache/g;->l:Lcom/meitu/common/video/videocache/t/b;
 
@@ -96,7 +90,6 @@
 
     if-eqz v5, :cond_2
 
-    .line 3
     iget-boolean v5, p1, Lcom/meitu/common/video/videocache/f;->c:Z
 
     if-eqz v5, :cond_2
@@ -144,14 +137,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/common/video/videocache/g;->k:Lcom/meitu/common/video/videocache/j;
 
     invoke-virtual {v1}, Lcom/meitu/common/video/videocache/j;->d()Ljava/lang/String;
 
     move-result-object v1
 
-    .line 2
     invoke-static {v1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v2
@@ -160,7 +151,6 @@
 
     xor-int/2addr v2, v3
 
-    .line 3
     iget-object v4, p0, Lcom/meitu/common/video/videocache/g;->l:Lcom/meitu/common/video/videocache/t/b;
 
     invoke-virtual {v4}, Lcom/meitu/common/video/videocache/t/b;->c()Z
@@ -200,7 +190,6 @@
     :cond_1
     const/4 v6, 0x0
 
-    .line 4
     :goto_1
     iget-boolean v7, p1, Lcom/meitu/common/video/videocache/f;->c:Z
 
@@ -227,7 +216,6 @@
     :cond_3
     const/4 v7, 0x0
 
-    .line 5
     :goto_3
     new-instance v11, Ljava/lang/StringBuilder;
 
@@ -244,13 +232,11 @@
     :cond_4
     const-string v12, "HTTP/1.1 200 OK\n"
 
-    .line 6
     :goto_4
     invoke-virtual {v11, v12}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     const-string v12, "Accept-Ranges: bytes\n"
 
-    .line 7
     invoke-virtual {v11, v12}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     const-string v12, ""
@@ -259,7 +245,6 @@
 
     new-array v6, v3, [Ljava/lang/Object;
 
-    .line 8
     invoke-static {v9, v10}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
 
     move-result-object v9
@@ -288,7 +273,6 @@
 
     iget-wide v9, p1, Lcom/meitu/common/video/videocache/f;->b:J
 
-    .line 9
     invoke-static {v9, v10}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
 
     move-result-object p1
@@ -335,7 +319,6 @@
 
     const-string v1, "Content-Type: %s\n"
 
-    .line 10
     invoke-direct {p0, v1, p1}, Lcom/meitu/common/video/videocache/g;->p(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object v12
@@ -345,15 +328,12 @@
 
     const-string p1, "\n"
 
-    .line 11
     invoke-virtual {v11, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 12
     invoke-virtual {v11}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     move-result-object p1
 
-    .line 13
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p1
@@ -376,7 +356,6 @@
 
     new-array v2, v1, [B
 
-    .line 1
     :goto_0
     invoke-virtual {p0, v2, p2, p3, v1}, Lcom/meitu/common/video/videocache/n;->j([BJI)I
 
@@ -388,7 +367,6 @@
 
     const/4 v4, 0x0
 
-    .line 2
     invoke-virtual {p1, v2, v4, v3}, Ljava/io/OutputStream;->write([BII)V
 
     int-to-long v3, v3
@@ -397,11 +375,9 @@
 
     goto :goto_0
 
-    .line 3
     :cond_0
     invoke-virtual {p1}, Ljava/io/OutputStream;->flush()V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -420,7 +396,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/meitu/common/video/videocache/j;
 
     iget-object v2, p0, Lcom/meitu/common/video/videocache/g;->k:Lcom/meitu/common/video/videocache/j;
@@ -431,7 +406,6 @@
 
     int-to-long p2, p3
 
-    .line 2
     :try_start_0
     invoke-virtual {v1, p2, p3}, Lcom/meitu/common/video/videocache/j;->a(J)V
 
@@ -439,7 +413,6 @@
 
     new-array p2, p2, [B
 
-    .line 3
     :goto_0
     invoke-virtual {v1, p2}, Lcom/meitu/common/video/videocache/j;->read([B)I
 
@@ -451,21 +424,17 @@
 
     const/4 v2, 0x0
 
-    .line 4
     invoke-virtual {p1, p2, v2, p3}, Ljava/io/OutputStream;->write([BII)V
 
     goto :goto_0
 
-    .line 5
     :cond_0
     invoke-virtual {p1}, Ljava/io/OutputStream;->flush()V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 6
     invoke-virtual {v1}, Lcom/meitu/common/video/videocache/j;->close()V
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -473,10 +442,8 @@
     :catchall_0
     move-exception p1
 
-    .line 8
     invoke-virtual {v1}, Lcom/meitu/common/video/videocache/j;->close()V
 
-    .line 9
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     throw p1
@@ -491,12 +458,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/common/video/videocache/g;->m:Lcom/meitu/common/video/videocache/d;
 
     if-eqz v1, :cond_0
 
-    .line 2
     iget-object v2, p0, Lcom/meitu/common/video/videocache/g;->l:Lcom/meitu/common/video/videocache/t/b;
 
     iget-object v2, v2, Lcom/meitu/common/video/videocache/t/b;->b:Ljava/io/File;
@@ -509,7 +474,6 @@
 
     invoke-interface {v1, v2, v3, p1}, Lcom/meitu/common/video/videocache/d;->a(Ljava/io/File;Ljava/lang/String;I)V
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -529,7 +493,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/io/BufferedOutputStream;
 
     invoke-virtual {p2}, Ljava/net/Socket;->getOutputStream()Ljava/io/OutputStream;
@@ -538,40 +501,33 @@
 
     invoke-direct {v1, p2}, Ljava/io/BufferedOutputStream;-><init>(Ljava/io/OutputStream;)V
 
-    .line 2
     invoke-direct {p0, p1}, Lcom/meitu/common/video/videocache/g;->r(Lcom/meitu/common/video/videocache/f;)Ljava/lang/String;
 
     move-result-object p2
 
     const-string v2, "UTF-8"
 
-    .line 3
     invoke-virtual {p2, v2}, Ljava/lang/String;->getBytes(Ljava/lang/String;)[B
 
     move-result-object p2
 
     invoke-virtual {v1, p2}, Ljava/io/OutputStream;->write([B)V
 
-    .line 4
     iget-wide v2, p1, Lcom/meitu/common/video/videocache/f;->b:J
 
-    .line 5
     invoke-direct {p0, p1}, Lcom/meitu/common/video/videocache/g;->q(Lcom/meitu/common/video/videocache/f;)Z
 
     move-result p1
 
     if-eqz p1, :cond_0
 
-    .line 6
     invoke-direct {p0, v1, v2, v3}, Lcom/meitu/common/video/videocache/g;->u(Ljava/io/OutputStream;J)V
 
     goto :goto_0
 
-    .line 7
     :cond_0
     invoke-direct {p0, v1, v2, v3}, Lcom/meitu/common/video/videocache/g;->v(Ljava/io/OutputStream;J)V
 
-    .line 8
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -585,10 +541,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/common/video/videocache/g;->m:Lcom/meitu/common/video/videocache/d;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

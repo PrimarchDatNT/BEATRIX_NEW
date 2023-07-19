@@ -57,12 +57,10 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     new-instance v0, Ljava/util/LinkedHashMap;
 
     invoke-direct {v0}, Ljava/util/LinkedHashMap;-><init>()V
 
-    .line 2
     invoke-interface {p0}, Ljava/util/Map;->entrySet()Ljava/util/Set;
 
     move-result-object p0
@@ -85,7 +83,6 @@
 
     check-cast v1, Ljava/util/Map$Entry;
 
-    .line 3
     invoke-interface {p1, v1}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v2
@@ -98,7 +95,6 @@
 
     if-eqz v2, :cond_0
 
-    .line 4
     invoke-interface {v1}, Ljava/util/Map$Entry;->getKey()Ljava/lang/Object;
 
     move-result-object v2
@@ -136,7 +132,6 @@
 
     invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-interface {p0, p1, p2}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     return-void
@@ -181,12 +176,10 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     new-instance v0, Ljava/util/LinkedHashMap;
 
     invoke-direct {v0}, Ljava/util/LinkedHashMap;-><init>()V
 
-    .line 2
     invoke-interface {p0}, Ljava/util/Map;->entrySet()Ljava/util/Set;
 
     move-result-object p0
@@ -209,7 +202,6 @@
 
     check-cast v1, Ljava/util/Map$Entry;
 
-    .line 3
     invoke-interface {v1}, Ljava/util/Map$Entry;->getKey()Ljava/lang/Object;
 
     move-result-object v2
@@ -226,7 +218,6 @@
 
     if-eqz v2, :cond_0
 
-    .line 4
     invoke-interface {v1}, Ljava/util/Map$Entry;->getKey()Ljava/lang/Object;
 
     move-result-object v2
@@ -272,12 +263,10 @@
 
     invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     instance-of v0, p0, Ljava/util/Collection;
 
     if-eqz v0, :cond_3
 
-    .line 2
     move-object v0, p0
 
     check-cast v0, Ljava/util/Collection;
@@ -292,7 +281,6 @@
 
     if-eq v1, v2, :cond_0
 
-    .line 3
     new-instance v1, Ljava/util/LinkedHashMap;
 
     invoke-interface {v0}, Ljava/util/Collection;->size()I
@@ -311,7 +299,6 @@
 
     goto :goto_1
 
-    .line 4
     :cond_0
     instance-of v0, p0, Ljava/util/List;
 
@@ -345,7 +332,6 @@
 
     goto :goto_1
 
-    .line 5
     :cond_2
     invoke-static {}, Lcotlin/collections/q0;->z()Ljava/util/Map;
 
@@ -354,7 +340,6 @@
     :goto_1
     return-object p0
 
-    .line 6
     :cond_3
     new-instance v0, Ljava/util/LinkedHashMap;
 
@@ -412,12 +397,10 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     new-instance v0, Ljava/util/LinkedHashMap;
 
     invoke-direct {v0}, Ljava/util/LinkedHashMap;-><init>()V
 
-    .line 2
     invoke-interface {p0}, Ljava/util/Map;->entrySet()Ljava/util/Set;
 
     move-result-object p0
@@ -440,7 +423,6 @@
 
     check-cast v1, Ljava/util/Map$Entry;
 
-    .line 3
     invoke-interface {p1, v1}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v2
@@ -453,7 +435,6 @@
 
     if-nez v2, :cond_0
 
-    .line 4
     invoke-interface {v1}, Ljava/util/Map$Entry;->getKey()Ljava/lang/Object;
 
     move-result-object v2
@@ -507,7 +488,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-static {p1, p0}, Lcotlin/collections/t0;->w0(Ljava/util/Map;Ljava/lang/Iterable;)V
 
     return-object p1
@@ -562,7 +542,6 @@
 
     invoke-static {p2, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-interface {p0}, Ljava/util/Map;->entrySet()Ljava/util/Set;
 
     move-result-object p0
@@ -585,7 +564,6 @@
 
     check-cast v0, Ljava/util/Map$Entry;
 
-    .line 2
     invoke-interface {p2, v0}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v1
@@ -598,7 +576,6 @@
 
     if-nez v1, :cond_0
 
-    .line 3
     invoke-interface {v0}, Ljava/util/Map$Entry;->getKey()Ljava/lang/Object;
 
     move-result-object v1
@@ -646,7 +623,6 @@
 
     invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-interface {p0}, Ljava/util/Map;->size()I
 
     move-result v0
@@ -657,14 +633,12 @@
 
     if-eq v0, v1, :cond_0
 
-    .line 2
     invoke-static {p0}, Lcotlin/collections/t0;->J0(Ljava/util/Map;)Ljava/util/Map;
 
     move-result-object p0
 
     goto :goto_0
 
-    .line 3
     :cond_0
     invoke-static {p0}, Lcotlin/collections/s0;->o(Ljava/util/Map;)Ljava/util/Map;
 
@@ -672,7 +646,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_1
     invoke-static {}, Lcotlin/collections/q0;->z()Ljava/util/Map;
 
@@ -731,7 +704,6 @@
 
     invoke-static {p2, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-interface {p0}, Ljava/util/Map;->entrySet()Ljava/util/Set;
 
     move-result-object p0
@@ -754,7 +726,6 @@
 
     check-cast v0, Ljava/util/Map$Entry;
 
-    .line 2
     invoke-interface {p2, v0}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v1
@@ -767,7 +738,6 @@
 
     if-eqz v1, :cond_0
 
-    .line 3
     invoke-interface {v0}, Ljava/util/Map$Entry;->getKey()Ljava/lang/Object;
 
     move-result-object v1
@@ -823,7 +793,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-interface {p1, p0}, Ljava/util/Map;->putAll(Ljava/util/Map;)V
 
     return-object p1
@@ -868,12 +837,10 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     new-instance v0, Ljava/util/LinkedHashMap;
 
     invoke-direct {v0}, Ljava/util/LinkedHashMap;-><init>()V
 
-    .line 2
     invoke-interface {p0}, Ljava/util/Map;->entrySet()Ljava/util/Set;
 
     move-result-object p0
@@ -896,7 +863,6 @@
 
     check-cast v1, Ljava/util/Map$Entry;
 
-    .line 3
     invoke-interface {v1}, Ljava/util/Map$Entry;->getValue()Ljava/lang/Object;
 
     move-result-object v2
@@ -913,7 +879,6 @@
 
     if-eqz v2, :cond_0
 
-    .line 4
     invoke-interface {v1}, Ljava/util/Map$Entry;->getKey()Ljava/lang/Object;
 
     move-result-object v2
@@ -959,7 +924,6 @@
 
     invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     new-instance v0, Ljava/util/LinkedHashMap;
 
     invoke-direct {v0}, Ljava/util/LinkedHashMap;-><init>()V
@@ -996,7 +960,6 @@
 
     invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-interface {p0, p1}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p0
@@ -1041,7 +1004,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-static {p1, p0}, Lcotlin/collections/t0;->x0(Ljava/util/Map;Lcotlin/sequences/m;)V
 
     return-object p1
@@ -1066,7 +1028,6 @@
     .annotation build Lcotlin/internal/f;
     .end annotation
 
-    .line 1
     invoke-interface {p0, p1}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p0
@@ -1111,7 +1072,6 @@
 
     invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     array-length v0, p0
 
     if-eqz v0, :cond_1
@@ -1120,7 +1080,6 @@
 
     if-eq v0, v1, :cond_0
 
-    .line 2
     new-instance v0, Ljava/util/LinkedHashMap;
 
     array-length v1, p0
@@ -1140,7 +1099,6 @@
     :cond_0
     const/4 v0, 0x0
 
-    .line 3
     aget-object p0, p0, v0
 
     invoke-static {p0}, Lcotlin/collections/s0;->k(Lcotlin/Pair;)Ljava/util/Map;
@@ -1149,7 +1107,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_1
     invoke-static {}, Lcotlin/collections/q0;->z()Ljava/util/Map;
 
@@ -1191,21 +1148,18 @@
 
     invoke-static {p2, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-interface {p0, p1}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v0
 
     if-nez v0, :cond_0
 
-    .line 2
     invoke-interface {p0, p1}, Ljava/util/Map;->containsKey(Ljava/lang/Object;)Z
 
     move-result p0
 
     if-nez p0, :cond_0
 
-    .line 3
     invoke-interface {p2}, Lcotlin/jvm/u/a;->invoke()Ljava/lang/Object;
 
     move-result-object p0
@@ -1251,7 +1205,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-static {p1, p0}, Lcotlin/collections/t0;->y0(Ljava/util/Map;[Lcotlin/Pair;)V
 
     return-object p1
@@ -1289,19 +1242,16 @@
 
     invoke-static {p2, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-interface {p0, p1}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v0
 
     if-nez v0, :cond_0
 
-    .line 2
     invoke-interface {p2}, Lcotlin/jvm/u/a;->invoke()Ljava/lang/Object;
 
     move-result-object v0
 
-    .line 3
     invoke-interface {p0, p1, v0}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     :cond_0
@@ -1339,7 +1289,6 @@
 
     invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     new-instance v0, Ljava/util/LinkedHashMap;
 
     invoke-direct {v0, p0}, Ljava/util/LinkedHashMap;-><init>(Ljava/util/Map;)V
@@ -1373,7 +1322,6 @@
 
     invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-static {p0, p1}, Lcotlin/collections/r0;->a(Ljava/util/Map;Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p0
@@ -1400,7 +1348,6 @@
     .annotation build Lcotlin/internal/f;
     .end annotation
 
-    .line 1
     new-instance v0, Lcotlin/Pair;
 
     invoke-interface {p0}, Ljava/util/Map$Entry;->getKey()Ljava/lang/Object;
@@ -1437,7 +1384,6 @@
         version = "1.1"
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/util/HashMap;
 
     invoke-direct {v0}, Ljava/util/HashMap;-><init>()V
@@ -1472,7 +1418,6 @@
 
     invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     new-instance v0, Ljava/util/HashMap;
 
     array-length v1, p0
@@ -1509,7 +1454,6 @@
         version = "1.3"
     .end annotation
 
-    .line 1
     invoke-interface {p0}, Ljava/util/Map;->isEmpty()Z
 
     move-result v0
@@ -1541,7 +1485,6 @@
     .annotation build Lcotlin/internal/f;
     .end annotation
 
-    .line 1
     invoke-interface {p0}, Ljava/util/Map;->isEmpty()Z
 
     move-result p0
@@ -1574,7 +1517,6 @@
 
     if-eqz p0, :cond_1
 
-    .line 1
     invoke-interface {p0}, Ljava/util/Map;->isEmpty()Z
 
     move-result p0
@@ -1620,7 +1562,6 @@
 
     invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-interface {p0}, Ljava/util/Map;->entrySet()Ljava/util/Set;
 
     move-result-object p0
@@ -1653,7 +1594,6 @@
         version = "1.1"
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/util/LinkedHashMap;
 
     invoke-direct {v0}, Ljava/util/LinkedHashMap;-><init>()V
@@ -1688,7 +1628,6 @@
 
     invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     new-instance v0, Ljava/util/LinkedHashMap;
 
     array-length v1, p0
@@ -1749,7 +1688,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     new-instance v0, Ljava/util/LinkedHashMap;
 
     invoke-interface {p0}, Ljava/util/Map;->size()I
@@ -1762,12 +1700,10 @@
 
     invoke-direct {v0, v1}, Ljava/util/LinkedHashMap;-><init>(I)V
 
-    .line 2
     invoke-interface {p0}, Ljava/util/Map;->entrySet()Ljava/util/Set;
 
     move-result-object p0
 
-    .line 3
     invoke-interface {p0}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object p0
@@ -1783,14 +1719,12 @@
 
     move-result-object v1
 
-    .line 4
     invoke-interface {p1, v1}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v2
 
     check-cast v1, Ljava/util/Map$Entry;
 
-    .line 5
     invoke-interface {v1}, Ljava/util/Map$Entry;->getValue()Ljava/lang/Object;
 
     move-result-object v1
@@ -1852,12 +1786,10 @@
 
     invoke-static {p2, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-interface {p0}, Ljava/util/Map;->entrySet()Ljava/util/Set;
 
     move-result-object p0
 
-    .line 2
     invoke-interface {p0}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object p0
@@ -1873,14 +1805,12 @@
 
     move-result-object v0
 
-    .line 3
     invoke-interface {p2, v0}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v1
 
     check-cast v0, Ljava/util/Map$Entry;
 
-    .line 4
     invoke-interface {v0}, Ljava/util/Map$Entry;->getValue()Ljava/lang/Object;
 
     move-result-object v0
@@ -1910,7 +1840,6 @@
     .annotation build Lcotlin/internal/f;
     .end annotation
 
-    .line 1
     invoke-static {}, Lcotlin/collections/q0;->z()Ljava/util/Map;
 
     move-result-object v0
@@ -1945,7 +1874,6 @@
 
     invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     array-length v0, p0
 
     if-lez v0, :cond_0
@@ -2016,7 +1944,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     new-instance v0, Ljava/util/LinkedHashMap;
 
     invoke-interface {p0}, Ljava/util/Map;->size()I
@@ -2029,12 +1956,10 @@
 
     invoke-direct {v0, v1}, Ljava/util/LinkedHashMap;-><init>(I)V
 
-    .line 2
     invoke-interface {p0}, Ljava/util/Map;->entrySet()Ljava/util/Set;
 
     move-result-object p0
 
-    .line 3
     invoke-interface {p0}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object p0
@@ -2050,12 +1975,10 @@
 
     move-result-object v1
 
-    .line 4
     move-object v2, v1
 
     check-cast v2, Ljava/util/Map$Entry;
 
-    .line 5
     invoke-interface {v2}, Ljava/util/Map$Entry;->getKey()Ljava/lang/Object;
 
     move-result-object v2
@@ -2121,12 +2044,10 @@
 
     invoke-static {p2, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-interface {p0}, Ljava/util/Map;->entrySet()Ljava/util/Set;
 
     move-result-object p0
 
-    .line 2
     invoke-interface {p0}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object p0
@@ -2142,12 +2063,10 @@
 
     move-result-object v0
 
-    .line 3
     move-object v1, v0
 
     check-cast v1, Ljava/util/Map$Entry;
 
-    .line 4
     invoke-interface {v1}, Ljava/util/Map$Entry;->getKey()Ljava/lang/Object;
 
     move-result-object v1
@@ -2205,7 +2124,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-static {p0}, Lcotlin/collections/t0;->J0(Ljava/util/Map;)Ljava/util/Map;
 
     move-result-object p0
@@ -2254,7 +2172,6 @@
 
     invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-static {p0}, Lcotlin/collections/t0;->J0(Ljava/util/Map;)Ljava/util/Map;
 
     move-result-object p0
@@ -2309,7 +2226,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-static {p0}, Lcotlin/collections/t0;->J0(Ljava/util/Map;)Ljava/util/Map;
 
     move-result-object p0
@@ -2366,7 +2282,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-static {p0}, Lcotlin/collections/t0;->J0(Ljava/util/Map;)Ljava/util/Map;
 
     move-result-object p0
@@ -2411,7 +2326,6 @@
 
     invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-interface {p0}, Ljava/util/Map;->keySet()Ljava/util/Set;
 
     move-result-object p0
@@ -2446,7 +2360,6 @@
 
     invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-interface {p0, p1}, Ljava/util/Map;->remove(Ljava/lang/Object;)Ljava/lang/Object;
 
     return-void
@@ -2479,7 +2392,6 @@
 
     invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-interface {p0}, Ljava/util/Map;->keySet()Ljava/util/Set;
 
     move-result-object p0
@@ -2514,7 +2426,6 @@
 
     invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-interface {p0}, Ljava/util/Map;->keySet()Ljava/util/Set;
 
     move-result-object p0
@@ -2552,7 +2463,6 @@
 
     invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-interface {p0}, Ljava/util/Map;->entrySet()Ljava/util/Set;
 
     move-result-object p0
@@ -2585,7 +2495,6 @@
         version = "1.1"
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/util/LinkedHashMap;
 
     invoke-direct {v0}, Ljava/util/LinkedHashMap;-><init>()V
@@ -2620,7 +2529,6 @@
 
     invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     new-instance v0, Ljava/util/LinkedHashMap;
 
     array-length v1, p0
@@ -2663,7 +2571,6 @@
 
     invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-interface {p0}, Ljava/util/Map;->size()I
 
     move-result v0
@@ -2676,7 +2583,6 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     invoke-static {p0}, Lcotlin/collections/s0;->o(Ljava/util/Map;)Ljava/util/Map;
 
@@ -2684,7 +2590,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_1
     invoke-static {}, Lcotlin/collections/q0;->z()Ljava/util/Map;
 
@@ -2717,7 +2622,6 @@
 
     goto :goto_0
 
-    .line 1
     :cond_0
     invoke-static {}, Lcotlin/collections/q0;->z()Ljava/util/Map;
 
@@ -2766,7 +2670,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-interface {p0}, Ljava/util/Map;->isEmpty()Z
 
     move-result v0
@@ -2829,7 +2732,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     new-instance v0, Ljava/util/LinkedHashMap;
 
     invoke-direct {v0, p0}, Ljava/util/LinkedHashMap;-><init>(Ljava/util/Map;)V
@@ -2876,7 +2778,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-interface {p0}, Ljava/util/Map;->isEmpty()Z
 
     move-result v0
@@ -2949,7 +2850,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     new-instance v0, Ljava/util/LinkedHashMap;
 
     invoke-direct {v0, p0}, Ljava/util/LinkedHashMap;-><init>(Ljava/util/Map;)V
@@ -3000,7 +2900,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-interface {p0}, Ljava/util/Map;->isEmpty()Z
 
     move-result v0
@@ -3051,7 +2950,6 @@
 
     invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-static {p0, p1}, Lcotlin/collections/t0;->w0(Ljava/util/Map;Ljava/lang/Iterable;)V
 
     return-void
@@ -3091,7 +2989,6 @@
         version = "1.3"
     .end annotation
 
-    .line 1
     invoke-static {p0}, Lcotlin/collections/s0;->h(I)Ljava/util/Map;
 
     move-result-object p0
@@ -3128,7 +3025,6 @@
 
     invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-interface {p0, p1}, Ljava/util/Map;->putAll(Ljava/util/Map;)V
 
     return-void
@@ -3168,7 +3064,6 @@
         version = "1.3"
     .end annotation
 
-    .line 1
     invoke-static {}, Lcotlin/collections/s0;->g()Ljava/util/Map;
 
     move-result-object v0
@@ -3205,7 +3100,6 @@
 
     invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-virtual {p1}, Lcotlin/Pair;->getFirst()Ljava/lang/Object;
 
     move-result-object v0
@@ -3240,7 +3134,6 @@
 
     invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-interface {p0}, Ljava/util/Map$Entry;->getKey()Ljava/lang/Object;
 
     move-result-object p0
@@ -3273,7 +3166,6 @@
 
     invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-static {p0, p1}, Lcotlin/collections/t0;->x0(Ljava/util/Map;Lcotlin/sequences/m;)V
 
     return-void
@@ -3300,7 +3192,6 @@
 
     invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-interface {p0}, Ljava/util/Map$Entry;->getValue()Ljava/lang/Object;
 
     move-result-object p0
@@ -3331,7 +3222,6 @@
 
     invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-static {p0, p1}, Lcotlin/collections/t0;->y0(Ljava/util/Map;[Lcotlin/Pair;)V
 
     return-void
@@ -3358,7 +3248,6 @@
 
     invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-interface {p0, p1}, Ljava/util/Map;->containsKey(Ljava/lang/Object;)Z
 
     move-result p0
@@ -3400,7 +3289,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-interface {p1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object p1
@@ -3426,7 +3314,6 @@
 
     move-result-object v0
 
-    .line 2
     invoke-interface {p0, v1, v0}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     goto :goto_0
@@ -3452,7 +3339,6 @@
 
     const-string v0, "null cannot be cast to non-null type kotlin.collections.Map<K, *>"
 
-    .line 1
     invoke-static {p0, v0}, Ljava/util/Objects;->requireNonNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
 
     invoke-interface {p0, p1}, Ljava/util/Map;->containsKey(Ljava/lang/Object;)Z
@@ -3496,7 +3382,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-interface {p1}, Lcotlin/sequences/m;->iterator()Ljava/util/Iterator;
 
     move-result-object p1
@@ -3522,7 +3407,6 @@
 
     move-result-object v0
 
-    .line 2
     invoke-interface {p0, v1, v0}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     goto :goto_0
@@ -3548,7 +3432,6 @@
     .annotation build Lcotlin/internal/f;
     .end annotation
 
-    .line 1
     invoke-interface {p0, p1}, Ljava/util/Map;->containsValue(Ljava/lang/Object;)Z
 
     move-result p0
@@ -3588,7 +3471,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     array-length v0, p1
 
     const/4 v1, 0x0
@@ -3606,7 +3488,6 @@
 
     move-result-object v2
 
-    .line 2
     invoke-interface {p0, v3, v2}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     add-int/lit8 v1, v1, 0x1
@@ -3634,7 +3515,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     sget-object v0, Lcotlin/collections/EmptyMap;->INSTANCE:Lcotlin/collections/EmptyMap;
 
     const-string v1, "null cannot be cast to non-null type kotlin.collections.Map<K, V>"
@@ -3663,7 +3543,6 @@
 
     const-string v0, "null cannot be cast to non-null type kotlin.collections.MutableMap<K, V>"
 
-    .line 1
     invoke-static {p0, v0}, Ljava/util/Objects;->requireNonNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
 
     invoke-static {p0}, Lcotlin/jvm/internal/t0;->k(Ljava/lang/Object;)Ljava/util/Map;

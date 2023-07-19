@@ -28,7 +28,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/StudioTabLayout$a;->c:Lcom/commsource/studio/StudioTabLayout;
 
     invoke-direct {p0}, Lcom/commsource/studio/i$e;-><init>()V
@@ -45,7 +44,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/StudioTabLayout$a;->c:Lcom/commsource/studio/StudioTabLayout;
 
     invoke-static {v1}, Lcom/commsource/studio/StudioTabLayout;->c(Lcom/commsource/studio/StudioTabLayout;)Lcom/commsource/util/p0;
@@ -82,7 +80,6 @@
 
     invoke-virtual {v1, p1, v2, v4, v3}, Lcom/commsource/util/p0;->f(IIII)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -103,10 +100,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0, p3}, Lcom/commsource/studio/StudioTabLayout$a;->c(F)V
 
-    .line 2
     invoke-super {p0, p1, p2, p3, p4}, Lcom/commsource/studio/i$e;->onFlingFromLeftToRight(Landroid/view/MotionEvent;Landroid/view/MotionEvent;FF)Z
 
     move-result p1
@@ -131,10 +126,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0, p3}, Lcom/commsource/studio/StudioTabLayout$a;->c(F)V
 
-    .line 2
     invoke-super {p0, p1, p2, p3, p4}, Lcom/commsource/studio/i$e;->onFlingFromRightToLeft(Landroid/view/MotionEvent;Landroid/view/MotionEvent;FF)Z
 
     move-result p1
@@ -167,7 +160,6 @@
 
     invoke-static {p2, p1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object p1, p0, Lcom/commsource/studio/StudioTabLayout$a;->c:Lcom/commsource/studio/StudioTabLayout;
 
     invoke-static {p1}, Lcom/commsource/studio/StudioTabLayout;->d(Lcom/commsource/studio/StudioTabLayout;)Landroid/animation/ValueAnimator;
@@ -184,7 +176,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 2
     iget-object p1, p0, Lcom/commsource/studio/StudioTabLayout$a;->c:Lcom/commsource/studio/StudioTabLayout;
 
     invoke-static {p1}, Lcom/commsource/studio/StudioTabLayout;->d(Lcom/commsource/studio/StudioTabLayout;)Landroid/animation/ValueAnimator;
@@ -193,7 +184,6 @@
 
     invoke-virtual {p1}, Landroid/animation/ValueAnimator;->removeAllUpdateListeners()V
 
-    .line 3
     iget-object p1, p0, Lcom/commsource/studio/StudioTabLayout$a;->c:Lcom/commsource/studio/StudioTabLayout;
 
     invoke-static {p1}, Lcom/commsource/studio/StudioTabLayout;->d(Lcom/commsource/studio/StudioTabLayout;)Landroid/animation/ValueAnimator;
@@ -202,7 +192,6 @@
 
     invoke-virtual {p1}, Landroid/animation/ValueAnimator;->cancel()V
 
-    .line 4
     :cond_0
     iget-object p1, p0, Lcom/commsource/studio/StudioTabLayout$a;->c:Lcom/commsource/studio/StudioTabLayout;
 
@@ -212,7 +201,6 @@
 
     invoke-virtual {p1}, Lcom/commsource/util/p0;->c()V
 
-    .line 5
     iget-object p1, p0, Lcom/commsource/studio/StudioTabLayout$a;->c:Lcom/commsource/studio/StudioTabLayout;
 
     invoke-virtual {p1}, Lcom/commsource/studio/StudioTabLayout;->getScrollOffset()I
@@ -247,14 +235,12 @@
 
     invoke-virtual {p1, p2}, Lcom/commsource/studio/StudioTabLayout;->setScrollOffset(I)V
 
-    .line 6
     iget-object p1, p0, Lcom/commsource/studio/StudioTabLayout$a;->c:Lcom/commsource/studio/StudioTabLayout;
 
     invoke-static {p1}, Lcom/commsource/studio/StudioTabLayout;->f(Lcom/commsource/studio/StudioTabLayout;)V
 
     const/4 p1, 0x1
 
-    .line 7
     invoke-static {p4}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1

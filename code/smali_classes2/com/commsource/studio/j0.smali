@@ -65,7 +65,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 3
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     iput-object p1, p0, Lcom/commsource/studio/j0;->b:Lcom/commsource/studio/j0$a;
@@ -81,12 +80,10 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     iput-object p1, p0, Lcom/commsource/studio/j0;->a:Ljava/lang/Object;
 
-    .line 2
     new-instance v0, Lcom/commsource/studio/j0$a;
 
     invoke-virtual {p0, p1}, Lcom/commsource/studio/j0;->c(Ljava/lang/Object;)Ljava/lang/String;
@@ -105,12 +102,10 @@
 .method public final a()V
     .locals 3
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/studio/j0;->a:Ljava/lang/Object;
 
     if-nez v0, :cond_0
 
-    .line 2
     iget-object v0, p0, Lcom/commsource/studio/j0;->b:Lcom/commsource/studio/j0$a;
 
     invoke-virtual {v0}, Lcom/commsource/studio/j0$a;->b()Ljava/lang/ref/WeakReference;
@@ -123,13 +118,11 @@
 
     iput-object v0, p0, Lcom/commsource/studio/j0;->a:Ljava/lang/Object;
 
-    .line 3
     :cond_0
     iget-object v0, p0, Lcom/commsource/studio/j0;->a:Ljava/lang/Object;
 
     if-nez v0, :cond_1
 
-    .line 4
     iget-object v0, p0, Lcom/commsource/studio/j0;->b:Lcom/commsource/studio/j0$a;
 
     invoke-virtual {v0}, Lcom/commsource/studio/j0$a;->a()Ljava/lang/String;
@@ -142,7 +135,6 @@
 
     iput-object v0, p0, Lcom/commsource/studio/j0;->a:Ljava/lang/Object;
 
-    .line 5
     iget-object v0, p0, Lcom/commsource/studio/j0;->b:Lcom/commsource/studio/j0$a;
 
     new-instance v1, Ljava/lang/ref/WeakReference;
@@ -194,7 +186,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/studio/j0;->a:Ljava/lang/Object;
 
     return-object v0
@@ -213,7 +204,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/studio/j0;->b:Lcom/commsource/studio/j0$a;
 
     return-object v0
@@ -231,7 +221,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/j0;->a:Ljava/lang/Object;
 
     return-void

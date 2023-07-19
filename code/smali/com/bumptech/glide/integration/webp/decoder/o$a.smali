@@ -36,16 +36,12 @@
 .method constructor <init>(Landroid/os/Handler;IJ)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/bumptech/glide/request/j/n;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/bumptech/glide/integration/webp/decoder/o$a;->d:Landroid/os/Handler;
 
-    .line 3
     iput p2, p0, Lcom/bumptech/glide/integration/webp/decoder/o$a;->f:I
 
-    .line 4
     iput-wide p3, p0, Lcom/bumptech/glide/integration/webp/decoder/o$a;->g:J
 
     return-void
@@ -56,7 +52,6 @@
 .method public bridge synthetic X1(Ljava/lang/Object;Lcom/bumptech/glide/request/k/f;)V
     .locals 0
 
-    .line 1
     check-cast p1, Landroid/graphics/Bitmap;
 
     invoke-virtual {p0, p1, p2}, Lcom/bumptech/glide/integration/webp/decoder/o$a;->d(Landroid/graphics/Bitmap;Lcom/bumptech/glide/request/k/f;)V
@@ -67,7 +62,6 @@
 .method c()Landroid/graphics/Bitmap;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/bumptech/glide/integration/webp/decoder/o$a;->p:Landroid/graphics/Bitmap;
 
     return-object v0
@@ -86,10 +80,8 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/bumptech/glide/integration/webp/decoder/o$a;->p:Landroid/graphics/Bitmap;
 
-    .line 2
     iget-object p1, p0, Lcom/bumptech/glide/integration/webp/decoder/o$a;->d:Landroid/os/Handler;
 
     const/4 p2, 0x1
@@ -98,7 +90,6 @@
 
     move-result-object p1
 
-    .line 3
     iget-object p2, p0, Lcom/bumptech/glide/integration/webp/decoder/o$a;->d:Landroid/os/Handler;
 
     iget-wide v0, p0, Lcom/bumptech/glide/integration/webp/decoder/o$a;->g:J

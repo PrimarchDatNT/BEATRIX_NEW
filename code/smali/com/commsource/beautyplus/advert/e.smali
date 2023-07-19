@@ -31,10 +31,8 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     new-instance v0, Lcom/commsource/beautyplus/advert/j;
 
     invoke-direct {v0}, Lcom/commsource/beautyplus/advert/j;-><init>()V
@@ -47,7 +45,6 @@
 .method static synthetic b(Lcom/commsource/beautyplus/advert/e;ILcom/commsource/beautyplus/advert/l/b;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1, p2}, Lcom/commsource/beautyplus/advert/e;->j(ILcom/commsource/beautyplus/advert/l/b;)V
 
     return-void
@@ -56,7 +53,6 @@
 .method private c(Lcom/commsource/beautyplus/advert/l/a;)V
     .locals 5
 
-    .line 1
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-virtual {p1}, Lcom/commsource/beautyplus/advert/l/a;->a()Ljava/util/List;
@@ -65,12 +61,10 @@
 
     invoke-direct {v0, v1}, Ljava/util/ArrayList;-><init>(Ljava/util/Collection;)V
 
-    .line 2
     invoke-interface {v0}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
     move-result-object v1
 
-    .line 3
     :cond_0
     :goto_0
     invoke-interface {v1}, Ljava/util/Iterator;->hasNext()Z
@@ -79,7 +73,6 @@
 
     if-eqz v2, :cond_2
 
-    .line 4
     invoke-interface {v1}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
     move-result-object v2
@@ -88,37 +81,31 @@
 
     if-eqz v2, :cond_1
 
-    .line 5
     sget-object v3, Lcom/commsource/util/i2;->d:Lcom/commsource/util/i2;
 
     invoke-virtual {v2}, Lcom/commsource/beautyplus/advert/ArPopWindowBean;->getVersionControl()I
 
     move-result v4
 
-    .line 6
     invoke-virtual {v2}, Lcom/commsource/beautyplus/advert/ArPopWindowBean;->getMinVersion()I
 
     move-result v2
 
-    .line 7
     invoke-virtual {v3, v4, v2}, Lcom/commsource/util/i2;->a(II)Z
 
     move-result v2
 
     if-nez v2, :cond_0
 
-    .line 8
     invoke-interface {v1}, Ljava/util/Iterator;->remove()V
 
     goto :goto_0
 
-    .line 9
     :cond_1
     invoke-direct {p0, v2}, Lcom/commsource/beautyplus/advert/e;->l(Lcom/commsource/beautyplus/advert/ArPopWindowBean;)V
 
     goto :goto_0
 
-    .line 10
     :cond_2
     invoke-virtual {p1, v0}, Lcom/commsource/beautyplus/advert/l/a;->c(Ljava/util/List;)V
 
@@ -128,7 +115,6 @@
 .method private d(I)V
     .locals 3
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/beautyplus/advert/e;->b:Lcom/commsource/beautyplus/advert/c;
 
     invoke-virtual {v0, p1}, Lcom/commsource/beautyplus/advert/c;->a(I)Lcom/commsource/beautyplus/advert/ArPopWindowBean;
@@ -137,12 +123,10 @@
 
     if-eqz p1, :cond_0
 
-    .line 2
     invoke-virtual {p1}, Lcom/commsource/beautyplus/advert/ArPopWindowBean;->getPopupPicture()Ljava/lang/String;
 
     move-result-object v0
 
-    .line 3
     invoke-virtual {p1}, Lcom/commsource/beautyplus/advert/ArPopWindowBean;->getId()I
 
     move-result v1
@@ -151,35 +135,30 @@
 
     move-result-object v1
 
-    .line 4
     invoke-static {v1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v2
 
     if-nez v2, :cond_0
 
-    .line 5
     invoke-static {v1}, Lcom/meitu/library/p/g/b;->y(Ljava/lang/String;)Z
 
     move-result v1
 
     if-nez v1, :cond_0
 
-    .line 6
     invoke-static {v0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v1
 
     if-nez v1, :cond_0
 
-    .line 7
     invoke-virtual {p1}, Lcom/commsource/beautyplus/advert/ArPopWindowBean;->getId()I
 
     move-result v1
 
     invoke-static {v1, v0}, Lcom/commsource/beautyplus/advert/j;->k(ILjava/lang/String;)V
 
-    .line 8
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -215,7 +194,6 @@
 
     if-eqz p2, :cond_6
 
-    .line 1
     invoke-virtual {p2}, Lcom/commsource/beautyplus/advert/l/b;->b()I
 
     move-result v0
@@ -224,7 +202,6 @@
 
     goto :goto_3
 
-    .line 2
     :cond_0
     invoke-virtual {p2}, Lcom/commsource/beautyplus/advert/l/b;->a()Lcom/commsource/beautyplus/advert/l/a;
 
@@ -232,7 +209,6 @@
 
     if-nez p2, :cond_4
 
-    .line 3
     invoke-virtual {p0}, Lcom/commsource/beautyplus/advert/e;->h()Ljava/lang/String;
 
     move-result-object v0
@@ -243,7 +219,6 @@
 
     if-eqz v0, :cond_1
 
-    .line 4
     invoke-virtual {v0}, Ljava/lang/String;->isEmpty()Z
 
     move-result v3
@@ -257,7 +232,6 @@
     :cond_1
     const/4 v3, 0x0
 
-    .line 5
     :goto_0
     invoke-virtual {p2}, Lcom/commsource/beautyplus/advert/l/a;->b()Ljava/lang/String;
 
@@ -287,7 +261,6 @@
 
     if-eqz v3, :cond_3
 
-    .line 6
     invoke-virtual {p2}, Lcom/commsource/beautyplus/advert/l/a;->b()Ljava/lang/String;
 
     move-result-object v3
@@ -308,7 +281,6 @@
 
     return-void
 
-    .line 7
     :cond_4
     invoke-virtual {p2}, Lcom/commsource/beautyplus/advert/l/a;->b()Ljava/lang/String;
 
@@ -316,10 +288,8 @@
 
     invoke-virtual {p0, v0}, Lcom/commsource/beautyplus/advert/e;->o(Ljava/lang/String;)V
 
-    .line 8
     invoke-direct {p0, p2}, Lcom/commsource/beautyplus/advert/e;->c(Lcom/commsource/beautyplus/advert/l/a;)V
 
-    .line 9
     invoke-virtual {p2}, Lcom/commsource/beautyplus/advert/l/a;->a()Ljava/util/List;
 
     move-result-object v0
@@ -336,15 +306,12 @@
 
     if-nez v0, :cond_5
 
-    .line 10
     iget-object v0, p0, Lcom/commsource/beautyplus/advert/e;->b:Lcom/commsource/beautyplus/advert/c;
 
     if-eqz v0, :cond_5
 
-    .line 11
     invoke-virtual {v0, p2}, Lcom/commsource/beautyplus/advert/c;->b(Lcom/commsource/beautyplus/advert/l/a;)V
 
-    .line 12
     :cond_5
     invoke-direct {p0, p1}, Lcom/commsource/beautyplus/advert/e;->d(I)V
 
@@ -356,14 +323,12 @@
 .method private l(Lcom/commsource/beautyplus/advert/ArPopWindowBean;)V
     .locals 3
 
-    .line 1
     invoke-virtual {p1}, Lcom/commsource/beautyplus/advert/ArPopWindowBean;->getMaterialList()Ljava/util/List;
 
     move-result-object p1
 
     if-eqz p1, :cond_1
 
-    .line 2
     invoke-interface {p1}, Ljava/util/List;->isEmpty()Z
 
     move-result v0
@@ -374,7 +339,6 @@
 
     const/4 v1, 0x0
 
-    .line 3
     :goto_0
     invoke-interface {p1}, Ljava/util/List;->size()I
 
@@ -382,7 +346,6 @@
 
     if-ge v1, v2, :cond_1
 
-    .line 4
     invoke-interface {p1, v1}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object v2
@@ -391,7 +354,6 @@
 
     if-eqz v2, :cond_0
 
-    .line 5
     invoke-virtual {v2}, Lcom/commsource/beautyplus/advert/ArBusinessBean;->getMaterialNumber()I
 
     move-result v2
@@ -412,7 +374,6 @@
 .method public a(Landroid/content/Context;I)V
     .locals 7
 
-    .line 1
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
     move-result-object v0
@@ -427,12 +388,10 @@
 
     const-wide/16 p1, 0x0
 
-    .line 2
     invoke-virtual {p0, p1, p2}, Lcom/commsource/beautyplus/advert/e;->n(J)V
 
     return-void
 
-    .line 3
     :cond_0
     new-instance v0, Lcom/commsource/beautyplus/advert/c;
 
@@ -444,10 +403,8 @@
 
     iput-object v0, p0, Lcom/commsource/beautyplus/advert/e;->b:Lcom/commsource/beautyplus/advert/c;
 
-    .line 4
     invoke-direct {p0, p2}, Lcom/commsource/beautyplus/advert/e;->d(I)V
 
-    .line 5
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v0
@@ -472,7 +429,6 @@
 
     return-void
 
-    .line 6
     :cond_1
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
@@ -482,7 +438,6 @@
 
     invoke-virtual {p0, v0, v1}, Lcom/commsource/beautyplus/advert/e;->n(J)V
 
-    .line 7
     invoke-virtual {p0, p1, p2}, Lcom/commsource/beautyplus/advert/e;->k(Landroid/content/Context;I)V
 
     return-void
@@ -491,14 +446,12 @@
 .method e(Landroid/content/Context;ILjava/lang/String;)V
     .locals 1
 
-    .line 1
     new-instance v0, Lcom/commsource/beautyplus/advert/e$a;
 
     invoke-direct {v0, p0, p1, p3, p2}, Lcom/commsource/beautyplus/advert/e$a;-><init>(Lcom/commsource/beautyplus/advert/e;Landroid/content/Context;Ljava/lang/String;I)V
 
     iput-object v0, p0, Lcom/commsource/beautyplus/advert/e;->a:Lcom/commsource/beautyplus/advert/e$a;
 
-    .line 2
     invoke-virtual {v0}, Lcom/commsource/camera/ardata/j;->n()V
 
     return-void
@@ -519,12 +472,10 @@
 .method public k(Landroid/content/Context;I)V
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/beautyplus/advert/e;->i()Ljava/lang/String;
 
     move-result-object v0
 
-    .line 2
     invoke-virtual {p0, p1, p2, v0}, Lcom/commsource/beautyplus/advert/e;->e(Landroid/content/Context;ILjava/lang/String;)V
 
     return-void

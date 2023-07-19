@@ -36,14 +36,12 @@
 .method public final b(Ljava/lang/Object;)V
     .locals 2
 
-    .line 1
     check-cast p1, Landroid/os/Bundle;
 
     const-string v0, "sdk_prefetch"
 
     const/4 v1, 0x1
 
-    .line 2
     invoke-virtual {p1, v0, v1}, Landroid/os/Bundle;->putBoolean(Ljava/lang/String;Z)V
 
     return-void

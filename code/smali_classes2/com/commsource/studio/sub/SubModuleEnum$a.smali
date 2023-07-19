@@ -20,7 +20,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -29,7 +28,6 @@
 .method public synthetic constructor <init>(Lcotlin/jvm/internal/u;)V
     .locals 0
 
-    .line 2
     invoke-direct {p0}, Lcom/commsource/studio/sub/SubModuleEnum$a;-><init>()V
 
     return-void
@@ -55,7 +53,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/commsource/studio/sub/SubModuleEnum;->access$getAdjustSubModules$cp()Ljava/util/ArrayList;
 
     move-result-object v1
@@ -84,7 +81,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/commsource/studio/sub/SubModuleEnum;->access$getDictMap$cp()Ljava/util/HashMap;
 
     move-result-object v1
@@ -112,7 +108,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/commsource/studio/sub/SubModuleEnum;->access$getMap$cp()Landroid/util/SparseArray;
 
     move-result-object v1
@@ -140,7 +135,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/commsource/studio/sub/SubModuleEnum;->access$getNeedNetWorkSubModules$cp()Ljava/util/ArrayList;
 
     move-result-object v1
@@ -169,7 +163,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/commsource/studio/sub/SubModuleEnum;->access$getNewSubModuleEnum$cp()Ljava/util/HashMap;
 
     move-result-object v1
@@ -197,7 +190,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/commsource/studio/sub/SubModuleEnum;->access$getNoFaceDisableSubModules$cp()Ljava/util/ArrayList;
 
     move-result-object v1
@@ -225,7 +217,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/commsource/studio/sub/SubModuleEnum;->access$getNoPictureEffectModules$cp()Ljava/util/ArrayList;
 
     move-result-object v1
@@ -253,7 +244,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/commsource/studio/sub/SubModuleEnum;->access$getPaidSubModules$cp()Ljava/util/ArrayList;
 
     move-result-object v1
@@ -272,7 +262,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/studio/sub/SubModuleEnum$a;->c()Landroid/util/SparseArray;
 
     move-result-object v1
@@ -305,12 +294,10 @@
 
     if-nez p1, :cond_0
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
 
-    .line 2
     :cond_0
     invoke-virtual {p0}, Lcom/commsource/studio/sub/SubModuleEnum$a;->b()Ljava/util/HashMap;
 
@@ -326,7 +313,6 @@
 
     goto/16 :goto_7
 
-    .line 3
     :cond_1
     invoke-static {}, Lcom/commsource/studio/effect/remold/RemoldEnum;->values()[Lcom/commsource/studio/effect/remold/RemoldEnum;
 
@@ -366,14 +352,12 @@
     :goto_1
     if-eqz v6, :cond_4
 
-    .line 4
     sget-object p1, Lcom/commsource/studio/sub/SubModuleEnum;->Remold:Lcom/commsource/studio/sub/SubModuleEnum;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p1
 
-    .line 5
     :cond_4
     invoke-static {}, Lcom/commsource/studio/effect/bodyshape/BodyShapeEnum;->values()[Lcom/commsource/studio/effect/bodyshape/BodyShapeEnum;
 
@@ -411,14 +395,12 @@
     :goto_3
     if-eqz v6, :cond_7
 
-    .line 6
     sget-object p1, Lcom/commsource/studio/sub/SubModuleEnum;->BodyShape:Lcom/commsource/studio/sub/SubModuleEnum;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p1
 
-    .line 7
     :cond_7
     invoke-static {}, Lcom/commsource/studio/sub/AdjustEffectEnum;->values()[Lcom/commsource/studio/sub/AdjustEffectEnum;
 
@@ -460,7 +442,6 @@
     :goto_5
     if-eqz v6, :cond_a
 
-    .line 8
     sget-object p1, Lcom/commsource/studio/sub/SubModuleEnum;->Adjust:Lcom/commsource/studio/sub/SubModuleEnum;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -472,21 +453,18 @@
 
     const-string v3, "f_relight"
 
-    .line 9
     invoke-static {p1, v3, v4, v2, v1}, Lcotlin/text/m;->s2(Ljava/lang/String;Ljava/lang/String;ZILjava/lang/Object;)Z
 
     move-result v2
 
     if-eqz v2, :cond_b
 
-    .line 10
     sget-object p1, Lcom/commsource/studio/sub/SubModuleEnum;->Relight:Lcom/commsource/studio/sub/SubModuleEnum;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p1
 
-    .line 11
     :cond_b
     invoke-virtual {p1}, Ljava/lang/String;->hashCode()I
 
@@ -509,7 +487,6 @@
     :cond_c
     const-string v2, "f_slim_manual"
 
-    .line 12
     invoke-virtual {p1, v2}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p1
@@ -523,7 +500,6 @@
     :cond_d
     const-string v2, "f_firm_auto"
 
-    .line 13
     invoke-virtual {p1, v2}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p1
@@ -537,7 +513,6 @@
     :cond_e
     const-string v2, "f_reshape_auto"
 
-    .line 14
     invoke-virtual {p1, v2}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p1
@@ -550,7 +525,6 @@
     :goto_6
     move-object v2, v1
 
-    .line 15
     :goto_7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -564,7 +538,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/studio/sub/SubModuleEnum$a;->e()Ljava/util/HashMap;
 
     move-result-object v1
@@ -577,7 +550,6 @@
 
     invoke-static {v1, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 2
     invoke-interface {v1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v1
@@ -596,7 +568,6 @@
 
     check-cast v2, Ljava/util/Map$Entry;
 
-    .line 3
     invoke-interface {v2}, Ljava/util/Map$Entry;->getValue()Ljava/lang/Object;
 
     move-result-object v3
@@ -617,7 +588,6 @@
 
     if-gez v3, :cond_0
 
-    .line 4
     invoke-interface {v2}, Ljava/util/Map$Entry;->getKey()Ljava/lang/Object;
 
     move-result-object v3
@@ -628,7 +598,6 @@
 
     invoke-static {v3, v4}, Lf/d/i/h;->G1(Lcom/commsource/studio/sub/SubModuleEnum;Z)V
 
-    .line 5
     invoke-interface {v2}, Ljava/util/Map$Entry;->getKey()Ljava/lang/Object;
 
     move-result-object v2
@@ -639,12 +608,10 @@
 
     if-ne v2, v3, :cond_0
 
-    .line 6
     invoke-static {v4}, Lf/d/i/h;->o1(Z)V
 
     goto :goto_0
 
-    .line 7
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

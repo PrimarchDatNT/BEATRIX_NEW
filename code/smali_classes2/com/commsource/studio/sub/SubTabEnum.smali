@@ -117,7 +117,6 @@
 
     new-instance v13, Lcom/commsource/studio/sub/SubTabEnum;
 
-    .line 1
     const-class v10, Lcom/commsource/studio/formula/FormulaFragment;
 
     const-string v4, "Formula"
@@ -138,7 +137,6 @@
 
     move-object v3, v13
 
-    .line 2
     invoke-direct/range {v3 .. v12}, Lcom/commsource/studio/sub/SubTabEnum;-><init>(Ljava/lang/String;IIIILjava/lang/String;Ljava/lang/Class;ILjava/lang/String;)V
 
     sput-object v13, Lcom/commsource/studio/sub/SubTabEnum;->Formula:Lcom/commsource/studio/sub/SubTabEnum;
@@ -149,7 +147,6 @@
 
     new-instance v4, Lcom/commsource/studio/sub/SubTabEnum;
 
-    .line 3
     const-class v21, Lcom/commsource/studio/sub/c;
 
     const-string v15, "Beauty"
@@ -170,7 +167,6 @@
 
     move-object v14, v4
 
-    .line 4
     invoke-direct/range {v14 .. v23}, Lcom/commsource/studio/sub/SubTabEnum;-><init>(Ljava/lang/String;IIIILjava/lang/String;Ljava/lang/Class;ILjava/lang/String;)V
 
     sput-object v4, Lcom/commsource/studio/sub/SubTabEnum;->Beauty:Lcom/commsource/studio/sub/SubTabEnum;
@@ -181,7 +177,6 @@
 
     new-instance v4, Lcom/commsource/studio/sub/SubTabEnum;
 
-    .line 5
     const-class v13, Lcom/commsource/studio/sub/e;
 
     const-string v7, "Edit"
@@ -202,7 +197,6 @@
 
     move-object v6, v4
 
-    .line 6
     invoke-direct/range {v6 .. v15}, Lcom/commsource/studio/sub/SubTabEnum;-><init>(Ljava/lang/String;IIIILjava/lang/String;Ljava/lang/Class;ILjava/lang/String;)V
 
     sput-object v4, Lcom/commsource/studio/sub/SubTabEnum;->Edit:Lcom/commsource/studio/sub/SubTabEnum;
@@ -213,7 +207,6 @@
 
     new-instance v4, Lcom/commsource/studio/sub/SubTabEnum;
 
-    .line 7
     const-class v14, Lcom/commsource/studio/sub/StudioBeautyFilterFragment;
 
     const-string v8, "Filter"
@@ -234,7 +227,6 @@
 
     move-object v7, v4
 
-    .line 8
     invoke-direct/range {v7 .. v16}, Lcom/commsource/studio/sub/SubTabEnum;-><init>(Ljava/lang/String;IIIILjava/lang/String;Ljava/lang/Class;ILjava/lang/String;)V
 
     sput-object v4, Lcom/commsource/studio/sub/SubTabEnum;->Filter:Lcom/commsource/studio/sub/SubTabEnum;
@@ -245,7 +237,6 @@
 
     new-instance v4, Lcom/commsource/studio/sub/SubTabEnum;
 
-    .line 9
     const-class v15, Lcom/commsource/studio/sticker/StickerFragment;
 
     const-string v9, "Stickers"
@@ -266,7 +257,6 @@
 
     move-object v8, v4
 
-    .line 10
     invoke-direct/range {v8 .. v17}, Lcom/commsource/studio/sub/SubTabEnum;-><init>(Ljava/lang/String;IIIILjava/lang/String;Ljava/lang/Class;ILjava/lang/String;)V
 
     sput-object v4, Lcom/commsource/studio/sub/SubTabEnum;->Stickers:Lcom/commsource/studio/sub/SubTabEnum;
@@ -277,7 +267,6 @@
 
     new-instance v4, Lcom/commsource/studio/sub/SubTabEnum;
 
-    .line 11
     const-class v16, Lcom/commsource/studio/doodle/DoodleFragment;
 
     const-string v10, "Doodle"
@@ -298,7 +287,6 @@
 
     move-object v9, v4
 
-    .line 12
     invoke-direct/range {v9 .. v18}, Lcom/commsource/studio/sub/SubTabEnum;-><init>(Ljava/lang/String;IIIILjava/lang/String;Ljava/lang/Class;ILjava/lang/String;)V
 
     sput-object v4, Lcom/commsource/studio/sub/SubTabEnum;->Doodle:Lcom/commsource/studio/sub/SubTabEnum;
@@ -309,7 +297,6 @@
 
     new-instance v4, Lcom/commsource/studio/sub/SubTabEnum;
 
-    .line 13
     const-class v17, Lcom/commsource/studio/sticker/TextFragment;
 
     const-string v11, "Text"
@@ -330,7 +317,6 @@
 
     move-object v10, v4
 
-    .line 14
     invoke-direct/range {v10 .. v19}, Lcom/commsource/studio/sub/SubTabEnum;-><init>(Ljava/lang/String;IIIILjava/lang/String;Ljava/lang/Class;ILjava/lang/String;)V
 
     sput-object v4, Lcom/commsource/studio/sub/SubTabEnum;->Text:Lcom/commsource/studio/sub/SubTabEnum;
@@ -341,7 +327,6 @@
 
     new-instance v4, Lcom/commsource/studio/sub/SubTabEnum;
 
-    .line 15
     const-class v18, Lcom/commsource/studio/function/background/BackgroundFragment;
 
     const-string v12, "Background"
@@ -362,7 +347,6 @@
 
     move-object v11, v4
 
-    .line 16
     invoke-direct/range {v11 .. v20}, Lcom/commsource/studio/sub/SubTabEnum;-><init>(Ljava/lang/String;IIIILjava/lang/String;Ljava/lang/Class;ILjava/lang/String;)V
 
     sput-object v4, Lcom/commsource/studio/sub/SubTabEnum;->Background:Lcom/commsource/studio/sub/SubTabEnum;
@@ -385,59 +369,48 @@
 
     new-array v4, v2, [Lcom/commsource/studio/sub/SubModuleEnum;
 
-    .line 17
     sget-object v12, Lcom/commsource/studio/sub/SubModuleEnum;->Crop:Lcom/commsource/studio/sub/SubModuleEnum;
 
     aput-object v12, v4, v3
 
-    .line 18
     sget-object v12, Lcom/commsource/studio/sub/SubModuleEnum;->Segment:Lcom/commsource/studio/sub/SubModuleEnum;
 
     aput-object v12, v4, v5
 
-    .line 19
     sget-object v12, Lcom/commsource/studio/sub/SubModuleEnum;->AiEnhance:Lcom/commsource/studio/sub/SubModuleEnum;
 
     aput-object v12, v4, v6
 
-    .line 20
     sget-object v12, Lcom/commsource/studio/sub/SubModuleEnum;->Adjust:Lcom/commsource/studio/sub/SubModuleEnum;
 
     aput-object v12, v4, v7
 
-    .line 21
     sget-object v12, Lcom/commsource/studio/sub/SubModuleEnum;->AR:Lcom/commsource/studio/sub/SubModuleEnum;
 
     aput-object v12, v4, v8
 
-    .line 22
     sget-object v12, Lcom/commsource/studio/sub/SubModuleEnum;->Style:Lcom/commsource/studio/sub/SubModuleEnum;
 
     aput-object v12, v4, v9
 
-    .line 23
     sget-object v12, Lcom/commsource/studio/sub/SubModuleEnum;->EliminationPen:Lcom/commsource/studio/sub/SubModuleEnum;
 
     aput-object v12, v4, v10
 
-    .line 24
     sget-object v12, Lcom/commsource/studio/sub/SubModuleEnum;->DeFocus:Lcom/commsource/studio/sub/SubModuleEnum;
 
     aput-object v12, v4, v11
 
-    .line 25
     sget-object v12, Lcom/commsource/studio/sub/SubModuleEnum;->MosaicPen:Lcom/commsource/studio/sub/SubModuleEnum;
 
     aput-object v12, v4, v1
 
-    .line 26
     sget-object v12, Lcom/commsource/studio/sub/SubModuleEnum;->Dispersion:Lcom/commsource/studio/sub/SubModuleEnum;
 
     const/16 v13, 0x9
 
     aput-object v12, v4, v13
 
-    .line 27
     invoke-static {v4}, Lcotlin/collections/s;->r([Ljava/lang/Object;)Ljava/util/ArrayList;
 
     move-result-object v4
@@ -448,132 +421,110 @@
 
     new-array v4, v4, [Lcom/commsource/studio/sub/SubModuleEnum;
 
-    .line 28
     sget-object v12, Lcom/commsource/studio/sub/SubModuleEnum;->OneKeyBeauty:Lcom/commsource/studio/sub/SubModuleEnum;
 
     aput-object v12, v4, v3
 
-    .line 29
     sget-object v3, Lcom/commsource/studio/sub/SubModuleEnum;->AiBeauty:Lcom/commsource/studio/sub/SubModuleEnum;
 
     aput-object v3, v4, v5
 
-    .line 30
     sget-object v3, Lcom/commsource/studio/sub/SubModuleEnum;->Makeup:Lcom/commsource/studio/sub/SubModuleEnum;
 
     aput-object v3, v4, v6
 
-    .line 31
     sget-object v3, Lcom/commsource/studio/sub/SubModuleEnum;->Smooth:Lcom/commsource/studio/sub/SubModuleEnum;
 
     aput-object v3, v4, v7
 
-    .line 32
     sget-object v3, Lcom/commsource/studio/sub/SubModuleEnum;->Evenly:Lcom/commsource/studio/sub/SubModuleEnum;
 
     aput-object v3, v4, v8
 
-    .line 33
     sget-object v3, Lcom/commsource/studio/sub/SubModuleEnum;->CleanOil:Lcom/commsource/studio/sub/SubModuleEnum;
 
     aput-object v3, v4, v9
 
-    .line 34
     sget-object v3, Lcom/commsource/studio/sub/SubModuleEnum;->Slim:Lcom/commsource/studio/sub/SubModuleEnum;
 
     aput-object v3, v4, v10
 
-    .line 35
     sget-object v3, Lcom/commsource/studio/sub/SubModuleEnum;->Tones:Lcom/commsource/studio/sub/SubModuleEnum;
 
     aput-object v3, v4, v11
 
-    .line 36
     sget-object v3, Lcom/commsource/studio/sub/SubModuleEnum;->Remold:Lcom/commsource/studio/sub/SubModuleEnum;
 
     aput-object v3, v4, v1
 
-    .line 37
     sget-object v1, Lcom/commsource/studio/sub/SubModuleEnum;->Shrink:Lcom/commsource/studio/sub/SubModuleEnum;
 
     aput-object v1, v4, v13
 
-    .line 38
     sget-object v1, Lcom/commsource/studio/sub/SubModuleEnum;->Relight:Lcom/commsource/studio/sub/SubModuleEnum;
 
     aput-object v1, v4, v2
 
-    .line 39
     sget-object v1, Lcom/commsource/studio/sub/SubModuleEnum;->RemoveWrinkle:Lcom/commsource/studio/sub/SubModuleEnum;
 
     const/16 v2, 0xb
 
     aput-object v1, v4, v2
 
-    .line 40
     sget-object v1, Lcom/commsource/studio/sub/SubModuleEnum;->EyeEnlarge:Lcom/commsource/studio/sub/SubModuleEnum;
 
     const/16 v2, 0xc
 
     aput-object v1, v4, v2
 
-    .line 41
     sget-object v1, Lcom/commsource/studio/sub/SubModuleEnum;->Acne:Lcom/commsource/studio/sub/SubModuleEnum;
 
     const/16 v2, 0xd
 
     aput-object v1, v4, v2
 
-    .line 42
     sget-object v1, Lcom/commsource/studio/sub/SubModuleEnum;->Countouring:Lcom/commsource/studio/sub/SubModuleEnum;
 
     const/16 v2, 0xe
 
     aput-object v1, v4, v2
 
-    .line 43
     sget-object v1, Lcom/commsource/studio/sub/SubModuleEnum;->NoseSwing:Lcom/commsource/studio/sub/SubModuleEnum;
 
     const/16 v2, 0xf
 
     aput-object v1, v4, v2
 
-    .line 44
     sget-object v1, Lcom/commsource/studio/sub/SubModuleEnum;->BodyShape:Lcom/commsource/studio/sub/SubModuleEnum;
 
     const/16 v2, 0x10
 
     aput-object v1, v4, v2
 
-    .line 45
     sget-object v1, Lcom/commsource/studio/sub/SubModuleEnum;->DarkCircles:Lcom/commsource/studio/sub/SubModuleEnum;
 
     const/16 v2, 0x11
 
     aput-object v1, v4, v2
 
-    .line 46
     sget-object v1, Lcom/commsource/studio/sub/SubModuleEnum;->EyeBrightness:Lcom/commsource/studio/sub/SubModuleEnum;
 
     const/16 v2, 0x12
 
     aput-object v1, v4, v2
 
-    .line 47
     sget-object v1, Lcom/commsource/studio/sub/SubModuleEnum;->TeethCorrect:Lcom/commsource/studio/sub/SubModuleEnum;
 
     const/16 v2, 0x13
 
     aput-object v1, v4, v2
 
-    .line 48
     sget-object v1, Lcom/commsource/studio/sub/SubModuleEnum;->TeethWhiten:Lcom/commsource/studio/sub/SubModuleEnum;
 
     const/16 v2, 0x14
 
     aput-object v1, v4, v2
 
-    .line 49
     invoke-static {v4}, Lcotlin/collections/s;->r([Ljava/lang/Object;)Ljava/util/ArrayList;
 
     move-result-object v1
@@ -600,7 +551,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
     iput p3, p0, Lcom/commsource/studio/sub/SubTabEnum;->id:I
@@ -627,7 +577,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/studio/sub/SubTabEnum;->beautyFunctions:Ljava/util/ArrayList;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -642,7 +591,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/studio/sub/SubTabEnum;->editFunctions:Ljava/util/ArrayList;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -701,7 +649,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/sub/SubTabEnum;->dictValue:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -716,7 +663,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/sub/SubTabEnum;->drawableResId:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -743,7 +689,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/sub/SubTabEnum;->fgClass:Ljava/lang/Class;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -758,7 +703,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/sub/SubTabEnum;->id:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -773,7 +717,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/sub/SubTabEnum;->index:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -788,7 +731,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/sub/SubTabEnum;->nameResId:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -805,7 +747,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/sub/SubTabEnum;->statisticName:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -820,7 +761,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/studio/sub/SubModuleEnum;->Companion:Lcom/commsource/studio/sub/SubModuleEnum$a;
 
     invoke-virtual {v1}, Lcom/commsource/studio/sub/SubModuleEnum$a;->e()Ljava/util/HashMap;
@@ -835,7 +775,6 @@
 
     invoke-static {v1, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 2
     invoke-interface {v1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v1
@@ -853,7 +792,6 @@
 
     check-cast v2, Ljava/util/Map$Entry;
 
-    .line 3
     invoke-interface {v2}, Ljava/util/Map$Entry;->getKey()Ljava/lang/Object;
 
     move-result-object v3
@@ -866,7 +804,6 @@
 
     if-eqz v3, :cond_0
 
-    .line 4
     sget-object v3, Lcom/commsource/studio/sub/SubTabEnum;->editFunctions:Ljava/util/ArrayList;
 
     invoke-interface {v2}, Ljava/util/Map$Entry;->getKey()Ljava/lang/Object;
@@ -885,12 +822,10 @@
 
     if-ne p0, v3, :cond_1
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v4
 
-    .line 6
     :cond_1
     sget-object v3, Lcom/commsource/studio/sub/SubTabEnum;->beautyFunctions:Ljava/util/ArrayList;
 
@@ -908,7 +843,6 @@
 
     if-ne p0, v2, :cond_0
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v4
@@ -916,7 +850,6 @@
     :cond_2
     const/4 v1, 0x0
 
-    .line 8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
@@ -929,7 +862,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/studio/sub/SubTabEnum;->drawableResId:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -944,7 +876,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/studio/sub/SubTabEnum;->id:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -959,7 +890,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/studio/sub/SubTabEnum;->nameResId:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

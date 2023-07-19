@@ -44,10 +44,8 @@
 
     const-string v0, "beauty_layer_help_clk"
 
-    .line 1
     invoke-static {v0}, Lcom/commsource/statistics/i;->p(Ljava/lang/String;)V
 
-    .line 2
     iget-object v0, p0, Lcom/commsource/studio/gesture/LayerSelectComponent$j;->a:Lcom/commsource/studio/gesture/LayerSelectComponent;
 
     invoke-virtual {v0}, Landroid/widget/FrameLayout;->getContext()Landroid/content/Context;
@@ -62,7 +60,6 @@
 
     invoke-static {v0, v1}, Lcom/commsource/util/w0;->u(Landroid/content/Context;Ljava/lang/String;)V
 
-    .line 3
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

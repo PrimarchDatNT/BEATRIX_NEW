@@ -42,7 +42,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/studio/component/ConfirmCancelComponent$e;->a:Lcom/commsource/studio/component/ConfirmCancelComponent;
 
     invoke-static {v0}, Lcom/commsource/studio/component/ConfirmCancelComponent;->f(Lcom/commsource/studio/component/ConfirmCancelComponent;)Lcom/commsource/studio/component/ConfirmCancelComponent$a;
@@ -57,7 +56,6 @@
 
     invoke-virtual {v0, v1}, Landroidx/lifecycle/MutableLiveData;->setValue(Ljava/lang/Object;)V
 
-    .line 2
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

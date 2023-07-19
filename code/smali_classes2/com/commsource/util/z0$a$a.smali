@@ -31,7 +31,6 @@
 .method constructor <init>(Lcom/commsource/util/z0$a;Lcom/google/gson/TypeAdapter;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/util/z0$a$a;->b:Lcom/commsource/util/z0$a;
 
     iput-object p2, p0, Lcom/commsource/util/z0$a$a;->a:Lcom/google/gson/TypeAdapter;
@@ -53,130 +52,104 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p1}, Lcom/google/gson/stream/JsonReader;->hasNext()Z
 
     move-result v1
 
     if-eqz v1, :cond_8
 
-    .line 2
     invoke-virtual {p1}, Lcom/google/gson/stream/JsonReader;->peek()Lcom/google/gson/stream/JsonToken;
 
     move-result-object v1
 
-    .line 3
     sget-object v2, Lcom/google/gson/stream/JsonToken;->STRING:Lcom/google/gson/stream/JsonToken;
 
     if-ne v1, v2, :cond_0
 
-    .line 4
     invoke-virtual {p1}, Lcom/google/gson/stream/JsonReader;->nextString()Ljava/lang/String;
 
     goto :goto_0
 
-    .line 5
     :cond_0
     sget-object v2, Lcom/google/gson/stream/JsonToken;->BEGIN_ARRAY:Lcom/google/gson/stream/JsonToken;
 
     if-ne v1, v2, :cond_1
 
-    .line 6
     invoke-virtual {p1}, Lcom/google/gson/stream/JsonReader;->beginArray()V
 
-    .line 7
     invoke-direct {p0, p1}, Lcom/commsource/util/z0$a$a;->a(Lcom/google/gson/stream/JsonReader;)V
 
-    .line 8
     invoke-virtual {p1}, Lcom/google/gson/stream/JsonReader;->endArray()V
 
     goto :goto_0
 
-    .line 9
     :cond_1
     sget-object v2, Lcom/google/gson/stream/JsonToken;->BEGIN_OBJECT:Lcom/google/gson/stream/JsonToken;
 
     if-ne v1, v2, :cond_2
 
-    .line 10
     invoke-virtual {p1}, Lcom/google/gson/stream/JsonReader;->beginObject()V
 
-    .line 11
     invoke-direct {p0, p1}, Lcom/commsource/util/z0$a$a;->a(Lcom/google/gson/stream/JsonReader;)V
 
-    .line 12
     invoke-virtual {p1}, Lcom/google/gson/stream/JsonReader;->endObject()V
 
     goto :goto_0
 
-    .line 13
     :cond_2
     sget-object v2, Lcom/google/gson/stream/JsonToken;->END_ARRAY:Lcom/google/gson/stream/JsonToken;
 
     if-ne v1, v2, :cond_3
 
-    .line 14
     invoke-virtual {p1}, Lcom/google/gson/stream/JsonReader;->endArray()V
 
     goto :goto_0
 
-    .line 15
     :cond_3
     sget-object v2, Lcom/google/gson/stream/JsonToken;->END_OBJECT:Lcom/google/gson/stream/JsonToken;
 
     if-ne v1, v2, :cond_4
 
-    .line 16
     invoke-virtual {p1}, Lcom/google/gson/stream/JsonReader;->endObject()V
 
     goto :goto_0
 
-    .line 17
     :cond_4
     sget-object v2, Lcom/google/gson/stream/JsonToken;->NUMBER:Lcom/google/gson/stream/JsonToken;
 
     if-ne v1, v2, :cond_5
 
-    .line 18
     invoke-virtual {p1}, Lcom/google/gson/stream/JsonReader;->nextString()Ljava/lang/String;
 
     goto :goto_0
 
-    .line 19
     :cond_5
     sget-object v2, Lcom/google/gson/stream/JsonToken;->BOOLEAN:Lcom/google/gson/stream/JsonToken;
 
     if-ne v1, v2, :cond_6
 
-    .line 20
     invoke-virtual {p1}, Lcom/google/gson/stream/JsonReader;->nextBoolean()Z
 
     goto :goto_0
 
-    .line 21
     :cond_6
     sget-object v2, Lcom/google/gson/stream/JsonToken;->NAME:Lcom/google/gson/stream/JsonToken;
 
     if-ne v1, v2, :cond_7
 
-    .line 22
     invoke-virtual {p1}, Lcom/google/gson/stream/JsonReader;->nextName()Ljava/lang/String;
 
-    .line 23
     invoke-direct {p0, p1}, Lcom/commsource/util/z0$a$a;->a(Lcom/google/gson/stream/JsonReader;)V
 
     goto :goto_0
 
-    .line 24
     :cond_7
     sget-object v2, Lcom/google/gson/stream/JsonToken;->NULL:Lcom/google/gson/stream/JsonToken;
 
     if-ne v1, v2, :cond_8
 
-    .line 25
     invoke-virtual {p1}, Lcom/google/gson/stream/JsonReader;->nextNull()V
 
-    .line 26
     :cond_8
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -206,7 +179,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     :try_start_0
     iget-object v1, p0, Lcom/commsource/util/z0$a$a;->a:Lcom/google/gson/TypeAdapter;
 
@@ -220,13 +192,11 @@
 
     return-object p1
 
-    .line 2
     :catchall_0
     invoke-direct {p0, p1}, Lcom/commsource/util/z0$a$a;->a(Lcom/google/gson/stream/JsonReader;)V
 
     const/4 p1, 0x0
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p1
@@ -246,7 +216,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     :try_start_0
     iget-object v1, p0, Lcom/commsource/util/z0$a$a;->a:Lcom/google/gson/TypeAdapter;
 
@@ -254,7 +223,6 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 2
     :catchall_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

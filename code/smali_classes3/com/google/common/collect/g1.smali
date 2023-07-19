@@ -23,7 +23,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -43,7 +42,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/google/common/collect/g1$c;
 
     invoke-static {p0}, Lcom/google/common/base/t;->E(Ljava/lang/Object;)Ljava/lang/Object;
@@ -60,7 +58,6 @@
 .method public static b()Lcom/google/common/collect/g1$b;
     .locals 2
 
-    .line 1
     new-instance v0, Lcom/google/common/collect/g1$b;
 
     const/4 v1, 0x0
@@ -82,7 +79,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {}, Lcom/google/common/collect/g1;->b()Lcom/google/common/collect/g1$b;
 
     move-result-object v0
@@ -114,7 +110,6 @@
         value = "java.lang.ref.WeakReference"
     .end annotation
 
-    .line 1
     invoke-static {}, Lcom/google/common/collect/g1;->b()Lcom/google/common/collect/g1$b;
 
     move-result-object v0

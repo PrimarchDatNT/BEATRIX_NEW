@@ -42,7 +42,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/video/cover/VideoControllCover$b;->a:Lcom/commsource/video/cover/VideoControllCover;
 
     invoke-virtual {v0}, Lcom/commsource/video/cover/VideoControllCover;->w()Z
@@ -53,7 +52,6 @@
 
     invoke-virtual {v0, v1}, Lcom/commsource/video/cover/VideoControllCover;->A(Z)V
 
-    .line 2
     iget-object v0, p0, Lcom/commsource/video/cover/VideoControllCover$b;->a:Lcom/commsource/video/cover/VideoControllCover;
 
     invoke-virtual {v0}, Lcom/commsource/video/cover/a;->k()Lcom/commsource/video/view/XVideoUIGroup;
@@ -68,7 +66,6 @@
 
     invoke-virtual {v0, v1}, Lcom/commsource/video/view/XVideoUIGroup;->q(Z)V
 
-    .line 3
     iget-object v0, p0, Lcom/commsource/video/cover/VideoControllCover$b;->a:Lcom/commsource/video/cover/VideoControllCover;
 
     invoke-virtual {v0}, Lcom/commsource/video/cover/VideoControllCover;->w()Z
@@ -77,7 +74,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 4
     iget-object v0, p0, Lcom/commsource/video/cover/VideoControllCover$b;->a:Lcom/commsource/video/cover/VideoControllCover;
 
     invoke-virtual {v0}, Lcom/commsource/video/cover/a;->m()Landroidx/databinding/ViewDataBinding;
@@ -98,7 +94,6 @@
 
     goto :goto_0
 
-    .line 5
     :cond_0
     iget-object v0, p0, Lcom/commsource/video/cover/VideoControllCover$b;->a:Lcom/commsource/video/cover/VideoControllCover;
 
@@ -118,7 +113,6 @@
 
     invoke-virtual {v0, v1}, Landroidx/appcompat/widget/AppCompatImageView;->setImageResource(I)V
 
-    .line 6
     :cond_1
     :goto_0
     iget-object v0, p0, Lcom/commsource/video/cover/VideoControllCover$b;->a:Lcom/commsource/video/cover/VideoControllCover;
@@ -129,7 +123,6 @@
 
     invoke-virtual {v0}, Lcom/commsource/video/view/XVideoUIGroup;->o()V
 
-    .line 7
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

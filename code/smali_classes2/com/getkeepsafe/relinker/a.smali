@@ -24,7 +24,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -35,7 +34,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     :try_start_0
     invoke-interface {p1}, Ljava/io/Closeable;->close()V
     :try_end_0
@@ -60,7 +58,6 @@
 
     const-wide/16 v1, 0x0
 
-    .line 1
     :goto_0
     invoke-virtual {p1, v0}, Ljava/io/InputStream;->read([B)I
 
@@ -70,7 +67,6 @@
 
     if-ne v3, v4, :cond_0
 
-    .line 2
     invoke-virtual {p2}, Ljava/io/OutputStream;->flush()V
 
     return-wide v1
@@ -78,7 +74,6 @@
     :cond_0
     const/4 v4, 0x0
 
-    .line 3
     invoke-virtual {p2, v0, v4, v3}, Ljava/io/OutputStream;->write([BII)V
 
     int-to-long v3, v3
@@ -93,7 +88,6 @@
 
     move-object/from16 v0, p2
 
-    .line 1
     invoke-direct/range {p0 .. p1}, Lcom/getkeepsafe/relinker/a;->e(Landroid/content/Context;)[Ljava/lang/String;
 
     move-result-object v1
@@ -124,7 +118,6 @@
 
     if-ge v8, v10, :cond_0
 
-    .line 2
     :try_start_0
     new-instance v8, Ljava/util/zip/ZipFile;
 
@@ -163,7 +156,6 @@
 
     if-ge v8, v10, :cond_4
 
-    .line 3
     array-length v8, v0
 
     const/4 v12, 0x0
@@ -173,7 +165,6 @@
 
     aget-object v13, v0, v12
 
-    .line 4
     new-instance v14, Ljava/lang/StringBuilder;
 
     invoke-direct {v14}, Ljava/lang/StringBuilder;-><init>()V
@@ -212,17 +203,14 @@
 
     move-object/from16 v10, p4
 
-    .line 5
     invoke-virtual {v10, v4, v15}, Lcom/getkeepsafe/relinker/e;->m(Ljava/lang/String;[Ljava/lang/Object;)V
 
-    .line 6
     invoke-virtual {v6, v14}, Ljava/util/zip/ZipFile;->getEntry(Ljava/lang/String;)Ljava/util/zip/ZipEntry;
 
     move-result-object v4
 
     if-eqz v4, :cond_2
 
-    .line 7
     new-instance v0, Lcom/getkeepsafe/relinker/a$a;
 
     invoke-direct {v0, v6, v4}, Lcom/getkeepsafe/relinker/a$a;-><init>(Ljava/util/zip/ZipFile;Ljava/util/zip/ZipEntry;)V
@@ -254,7 +242,6 @@
 
     move-object/from16 v10, p4
 
-    .line 8
     :try_start_1
     invoke-virtual {v6}, Ljava/util/zip/ZipFile;->close()V
     :try_end_1
@@ -275,12 +262,10 @@
 .method private e(Landroid/content/Context;)[Ljava/lang/String;
     .locals 4
 
-    .line 1
     invoke-virtual {p1}, Landroid/content/Context;->getApplicationInfo()Landroid/content/pm/ApplicationInfo;
 
     move-result-object p1
 
-    .line 2
     sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
 
     const/4 v1, 0x0
@@ -299,19 +284,16 @@
 
     if-eqz v3, :cond_0
 
-    .line 3
     array-length v3, v0
 
     add-int/2addr v3, v2
 
     new-array v3, v3, [Ljava/lang/String;
 
-    .line 4
     iget-object p1, p1, Landroid/content/pm/ApplicationInfo;->sourceDir:Ljava/lang/String;
 
     aput-object p1, v3, v1
 
-    .line 5
     array-length p1, v0
 
     invoke-static {v0, v1, v3, v2, p1}, Ljava/lang/System;->arraycopy(Ljava/lang/Object;ILjava/lang/Object;II)V
@@ -321,7 +303,6 @@
     :cond_0
     new-array v0, v2, [Ljava/lang/String;
 
-    .line 6
     iget-object p1, p1, Landroid/content/pm/ApplicationInfo;->sourceDir:Ljava/lang/String;
 
     aput-object p1, v0, v1
@@ -336,7 +317,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     :try_start_0
     invoke-direct {p0, p1, p2, p3, p5}, Lcom/getkeepsafe/relinker/a;->d(Landroid/content/Context;[Ljava/lang/String;Ljava/lang/String;Lcom/getkeepsafe/relinker/e;)Lcom/getkeepsafe/relinker/a$a;
 
@@ -366,12 +346,10 @@
 
     aput-object p3, v4, p2
 
-    .line 2
     invoke-virtual {p5, v1, v4}, Lcom/getkeepsafe/relinker/e;->m(Ljava/lang/String;[Ljava/lang/Object;)V
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_3
 
-    .line 3
     :try_start_2
     invoke-virtual {p4}, Ljava/io/File;->exists()Z
 
@@ -390,7 +368,6 @@
 
     goto/16 :goto_6
 
-    .line 4
     :cond_0
     :try_start_3
     iget-object v1, p1, Lcom/getkeepsafe/relinker/a$a;->a:Ljava/util/zip/ZipFile;
@@ -405,7 +382,6 @@
     .catch Ljava/io/IOException; {:try_start_3 .. :try_end_3} :catch_3
     .catchall {:try_start_3 .. :try_end_3} :catchall_2
 
-    .line 5
     :try_start_4
     new-instance v4, Ljava/io/FileOutputStream;
 
@@ -415,20 +391,17 @@
     .catch Ljava/io/IOException; {:try_start_4 .. :try_end_4} :catch_1
     .catchall {:try_start_4 .. :try_end_4} :catchall_1
 
-    .line 6
     :try_start_5
     invoke-direct {p0, v1, v4}, Lcom/getkeepsafe/relinker/a;->c(Ljava/io/InputStream;Ljava/io/OutputStream;)J
 
     move-result-wide v5
 
-    .line 7
     invoke-virtual {v4}, Ljava/io/FileOutputStream;->getFD()Ljava/io/FileDescriptor;
 
     move-result-object v7
 
     invoke-virtual {v7}, Ljava/io/FileDescriptor;->sync()V
 
-    .line 8
     invoke-virtual {p4}, Ljava/io/File;->length()J
 
     move-result-wide v7
@@ -441,43 +414,34 @@
 
     if-eqz v9, :cond_1
 
-    .line 9
     :try_start_6
     invoke-direct {p0, v1}, Lcom/getkeepsafe/relinker/a;->b(Ljava/io/Closeable;)V
 
-    .line 10
     :goto_1
     invoke-direct {p0, v4}, Lcom/getkeepsafe/relinker/a;->b(Ljava/io/Closeable;)V
 
     goto :goto_6
 
-    .line 11
     :cond_1
     invoke-direct {p0, v1}, Lcom/getkeepsafe/relinker/a;->b(Ljava/io/Closeable;)V
 
-    .line 12
     invoke-direct {p0, v4}, Lcom/getkeepsafe/relinker/a;->b(Ljava/io/Closeable;)V
 
-    .line 13
     invoke-virtual {p4, v3, p2}, Ljava/io/File;->setReadable(ZZ)Z
 
-    .line 14
     invoke-virtual {p4, v3, p2}, Ljava/io/File;->setExecutable(ZZ)Z
 
-    .line 15
     invoke-virtual {p4, v3}, Ljava/io/File;->setWritable(Z)Z
     :try_end_6
     .catchall {:try_start_6 .. :try_end_6} :catchall_3
 
     if-eqz p1, :cond_2
 
-    .line 16
     :try_start_7
     iget-object p1, p1, Lcom/getkeepsafe/relinker/a$a;->a:Ljava/util/zip/ZipFile;
 
     if-eqz p1, :cond_2
 
-    .line 17
     invoke-virtual {p1}, Ljava/util/zip/ZipFile;->close()V
     :try_end_7
     .catch Ljava/io/IOException; {:try_start_7 .. :try_end_7} :catch_0
@@ -516,12 +480,10 @@
 
     move-object v4, v0
 
-    .line 18
     :goto_3
     :try_start_8
     invoke-direct {p0, v0}, Lcom/getkeepsafe/relinker/a;->b(Ljava/io/Closeable;)V
 
-    .line 19
     invoke-direct {p0, v4}, Lcom/getkeepsafe/relinker/a;->b(Ljava/io/Closeable;)V
 
     throw p2
@@ -531,7 +493,6 @@
 
     move-object v4, v1
 
-    .line 20
     :catch_4
     :goto_4
     invoke-direct {p0, v1}, Lcom/getkeepsafe/relinker/a;->b(Ljava/io/Closeable;)V
@@ -558,20 +519,17 @@
     :cond_3
     const-string p2, "FATAL! Couldn\'t extract the library from the APK!"
 
-    .line 21
     invoke-virtual {p5, p2}, Lcom/getkeepsafe/relinker/e;->l(Ljava/lang/String;)V
     :try_end_8
     .catchall {:try_start_8 .. :try_end_8} :catchall_3
 
     if-eqz p1, :cond_4
 
-    .line 22
     :try_start_9
     iget-object p1, p1, Lcom/getkeepsafe/relinker/a$a;->a:Ljava/util/zip/ZipFile;
 
     if-eqz p1, :cond_4
 
-    .line 23
     invoke-virtual {p1}, Ljava/util/zip/ZipFile;->close()V
     :try_end_9
     .catch Ljava/io/IOException; {:try_start_9 .. :try_end_9} :catch_8
@@ -580,7 +538,6 @@
     :cond_4
     return-void
 
-    .line 24
     :cond_5
     :try_start_a
     new-instance p2, Lcom/getkeepsafe/relinker/MissingLibraryException;
@@ -604,18 +561,15 @@
     :goto_7
     if-eqz v0, :cond_6
 
-    .line 25
     :try_start_b
     iget-object p1, v0, Lcom/getkeepsafe/relinker/a$a;->a:Ljava/util/zip/ZipFile;
 
     if-eqz p1, :cond_6
 
-    .line 26
     invoke-virtual {p1}, Ljava/util/zip/ZipFile;->close()V
     :try_end_b
     .catch Ljava/io/IOException; {:try_start_b .. :try_end_b} :catch_9
 
-    .line 27
     :catch_9
     :cond_6
     throw p2

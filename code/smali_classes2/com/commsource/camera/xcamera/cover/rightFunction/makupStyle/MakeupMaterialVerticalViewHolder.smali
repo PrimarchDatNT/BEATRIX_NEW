@@ -44,10 +44,8 @@
 
     sget v0, Lcom/res/provider/ResLAYOUT;->item_makeup_style:I
 
-    .line 1
     invoke-direct {p0, p1, p2, v0}, Lcom/commsource/widget/h1/f;-><init>(Landroid/content/Context;Landroid/view/ViewGroup;I)V
 
-    .line 2
     new-instance p1, Lcom/commsource/camera/xcamera/cover/rightFunction/makupStyle/MakeupMaterialVerticalViewHolder$mViewBinding$2;
 
     invoke-direct {p1, p0}, Lcom/commsource/camera/xcamera/cover/rightFunction/makupStyle/MakeupMaterialVerticalViewHolder$mViewBinding$2;-><init>(Lcom/commsource/camera/xcamera/cover/rightFunction/makupStyle/MakeupMaterialVerticalViewHolder;)V
@@ -89,12 +87,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0, p1, p2, p3}, Lcom/commsource/widget/h1/f;->k(ILcom/commsource/widget/h1/d;Ljava/util/List;)V
 
     if-eqz p2, :cond_7
 
-    .line 2
     invoke-virtual {p2}, Lcom/commsource/widget/h1/d;->b()Ljava/lang/Object;
 
     move-result-object p1
@@ -103,7 +99,6 @@
 
     if-eqz p1, :cond_7
 
-    .line 3
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/rightFunction/makupStyle/MakeupMaterialVerticalViewHolder;->v()Lcom/commsource/beautyplus/f0/yg;
 
     move-result-object p2
@@ -124,14 +119,12 @@
 
     if-eqz p3, :cond_0
 
-    .line 4
     invoke-interface {p3}, Ljava/util/List;->isEmpty()Z
 
     move-result p2
 
     if-eqz p2, :cond_3
 
-    .line 5
     :cond_0
     iget-object p2, p0, Lcom/commsource/widget/h1/f;->d:Landroid/content/Context;
 
@@ -139,7 +132,6 @@
 
     move-result-object p2
 
-    .line 6
     sget-object p3, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/h;->b:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/h$a;
 
     invoke-virtual {p3, p1}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/h$a;->i(Lcom/commsource/repository/child/makeup/h;)Ljava/lang/String;
@@ -150,7 +142,6 @@
 
     move-result-object p2
 
-    .line 7
     iget-object p3, p0, Lcom/commsource/widget/h1/f;->d:Landroid/content/Context;
 
     invoke-static {p3}, Lcom/commsource/util/u0;->i(Landroid/content/Context;)Lcom/commsource/util/u0$d;
@@ -159,22 +150,18 @@
 
     sget v1, Lcom/res/provider/ResDRAWABLE;->placeholder_stickers_45:I
 
-    .line 8
     invoke-virtual {p3, v1}, Lcom/commsource/util/u0$d;->k(I)Lcom/commsource/util/u0$d;
 
     move-result-object p3
 
-    .line 9
     invoke-virtual {p2, p3}, Lcom/commsource/util/u0$d;->c(Lcom/commsource/util/u0$d;)Lcom/commsource/util/u0$d;
 
     move-result-object p2
 
-    .line 10
     invoke-virtual {p2, v1}, Lcom/commsource/util/u0$d;->q(I)Lcom/commsource/util/u0$d;
 
     move-result-object p2
 
-    .line 11
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/rightFunction/makupStyle/MakeupMaterialVerticalViewHolder;->v()Lcom/commsource/beautyplus/f0/yg;
 
     move-result-object p3
@@ -183,7 +170,6 @@
 
     invoke-virtual {p2, p3}, Lcom/commsource/util/u0$d;->e(Landroid/widget/ImageView;)V
 
-    .line 12
     invoke-virtual {p1}, Lcom/commsource/repository/child/makeup/h;->S()Z
 
     move-result p2
@@ -192,7 +178,6 @@
 
     if-eqz p2, :cond_1
 
-    .line 13
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/rightFunction/makupStyle/MakeupMaterialVerticalViewHolder;->v()Lcom/commsource/beautyplus/f0/yg;
 
     move-result-object p2
@@ -203,7 +188,6 @@
 
     invoke-virtual {p2, v1}, Landroid/widget/ImageView;->setImageResource(I)V
 
-    .line 14
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/rightFunction/makupStyle/MakeupMaterialVerticalViewHolder;->v()Lcom/commsource/beautyplus/f0/yg;
 
     move-result-object p2
@@ -216,7 +200,6 @@
 
     goto :goto_0
 
-    .line 15
     :cond_1
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/rightFunction/makupStyle/MakeupMaterialVerticalViewHolder;->v()Lcom/commsource/beautyplus/f0/yg;
 
@@ -228,7 +211,6 @@
 
     invoke-static {p2}, Lcom/commsource/util/l0;->w(Landroid/view/View;)V
 
-    .line 16
     :goto_0
     invoke-virtual {p1}, Lcom/commsource/repository/child/makeup/h;->U()Z
 
@@ -238,7 +220,6 @@
 
     if-eqz p2, :cond_2
 
-    .line 17
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/rightFunction/makupStyle/MakeupMaterialVerticalViewHolder;->v()Lcom/commsource/beautyplus/f0/yg;
 
     move-result-object p2
@@ -249,7 +230,6 @@
 
     invoke-virtual {p2, v1}, Landroidx/appcompat/widget/AppCompatImageView;->setImageResource(I)V
 
-    .line 18
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/rightFunction/makupStyle/MakeupMaterialVerticalViewHolder;->v()Lcom/commsource/beautyplus/f0/yg;
 
     move-result-object p2
@@ -262,7 +242,6 @@
 
     goto :goto_1
 
-    .line 19
     :cond_2
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/rightFunction/makupStyle/MakeupMaterialVerticalViewHolder;->v()Lcom/commsource/beautyplus/f0/yg;
 
@@ -274,7 +253,6 @@
 
     invoke-static {p2}, Lcom/commsource/util/l0;->w(Landroid/view/View;)V
 
-    .line 20
     :cond_3
     :goto_1
     invoke-virtual {p1}, Lcom/commsource/repository/child/makeup/h;->I()Z
@@ -287,7 +265,6 @@
 
     if-eqz p2, :cond_4
 
-    .line 21
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/rightFunction/makupStyle/MakeupMaterialVerticalViewHolder;->v()Lcom/commsource/beautyplus/f0/yg;
 
     move-result-object p1
@@ -298,7 +275,6 @@
 
     invoke-static {p1}, Lcom/commsource/util/l0;->w(Landroid/view/View;)V
 
-    .line 22
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/rightFunction/makupStyle/MakeupMaterialVerticalViewHolder;->v()Lcom/commsource/beautyplus/f0/yg;
 
     move-result-object p1
@@ -311,7 +287,6 @@
 
     goto :goto_2
 
-    .line 23
     :cond_4
     invoke-virtual {p1}, Lcom/commsource/repository/child/makeup/h;->K()Z
 
@@ -319,7 +294,6 @@
 
     if-eqz p2, :cond_5
 
-    .line 24
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/rightFunction/makupStyle/MakeupMaterialVerticalViewHolder;->v()Lcom/commsource/beautyplus/f0/yg;
 
     move-result-object p1
@@ -330,7 +304,6 @@
 
     invoke-static {p1}, Lcom/commsource/util/l0;->w(Landroid/view/View;)V
 
-    .line 25
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/rightFunction/makupStyle/MakeupMaterialVerticalViewHolder;->v()Lcom/commsource/beautyplus/f0/yg;
 
     move-result-object p1
@@ -343,7 +316,6 @@
 
     goto :goto_2
 
-    .line 26
     :cond_5
     invoke-virtual {p1}, Lcom/commsource/repository/child/makeup/h;->N()Z
 
@@ -351,7 +323,6 @@
 
     if-eqz p1, :cond_6
 
-    .line 27
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/rightFunction/makupStyle/MakeupMaterialVerticalViewHolder;->v()Lcom/commsource/beautyplus/f0/yg;
 
     move-result-object p1
@@ -362,7 +333,6 @@
 
     invoke-static {p1}, Lcom/commsource/util/l0;->w(Landroid/view/View;)V
 
-    .line 28
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/rightFunction/makupStyle/MakeupMaterialVerticalViewHolder;->v()Lcom/commsource/beautyplus/f0/yg;
 
     move-result-object p1
@@ -375,7 +345,6 @@
 
     goto :goto_2
 
-    .line 29
     :cond_6
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/rightFunction/makupStyle/MakeupMaterialVerticalViewHolder;->v()Lcom/commsource/beautyplus/f0/yg;
 
@@ -387,7 +356,6 @@
 
     invoke-static {p1}, Lcom/commsource/util/l0;->v0(Landroid/view/View;)V
 
-    .line 30
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/rightFunction/makupStyle/MakeupMaterialVerticalViewHolder;->v()Lcom/commsource/beautyplus/f0/yg;
 
     move-result-object p1
@@ -398,7 +366,6 @@
 
     invoke-static {p1}, Lcom/commsource/util/l0;->w(Landroid/view/View;)V
 
-    .line 31
     :cond_7
     :goto_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

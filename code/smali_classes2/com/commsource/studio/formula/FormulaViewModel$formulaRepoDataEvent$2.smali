@@ -79,12 +79,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 2
     new-instance v1, Landroidx/lifecycle/MediatorLiveData;
 
     invoke-direct {v1}, Landroidx/lifecycle/MediatorLiveData;-><init>()V
 
-    .line 3
     sget-object v2, Lcom/commsource/studio/formula/FormulaRepo;->x:Lcom/commsource/studio/formula/FormulaRepo;
 
     invoke-virtual {v2}, Lcom/commsource/studio/formula/FormulaRepo;->A()Lcom/commsource/beautyfilter/NoStickLiveData;
@@ -97,7 +95,6 @@
 
     invoke-virtual {v1, v2, v3}, Landroidx/lifecycle/MediatorLiveData;->addSource(Landroidx/lifecycle/LiveData;Landroidx/lifecycle/Observer;)V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
@@ -110,7 +107,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/studio/formula/FormulaViewModel$formulaRepoDataEvent$2;->invoke()Landroidx/lifecycle/MediatorLiveData;
 
     move-result-object v1

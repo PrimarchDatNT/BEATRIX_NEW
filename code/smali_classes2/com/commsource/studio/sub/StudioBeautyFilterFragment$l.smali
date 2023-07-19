@@ -59,7 +59,6 @@
 
     if-nez p1, :cond_0
 
-    .line 1
     iget-object p1, p0, Lcom/commsource/studio/sub/StudioBeautyFilterFragment$l;->a:Lcom/commsource/studio/sub/StudioBeautyFilterFragment;
 
     invoke-static {p1}, Lcom/commsource/studio/sub/StudioBeautyFilterFragment;->b0(Lcom/commsource/studio/sub/StudioBeautyFilterFragment;)Lcom/commsource/widget/h1/e;
@@ -68,12 +67,10 @@
 
     invoke-virtual {p1, v1}, Lcom/commsource/widget/h1/e;->E(Ljava/lang/Object;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 3
     :cond_0
     iget-object v2, p0, Lcom/commsource/studio/sub/StudioBeautyFilterFragment$l;->a:Lcom/commsource/studio/sub/StudioBeautyFilterFragment;
 
@@ -83,7 +80,6 @@
 
     invoke-virtual {v2, p1}, Lcom/commsource/widget/h1/e;->E(Ljava/lang/Object;)V
 
-    .line 4
     iget-object v2, p0, Lcom/commsource/studio/sub/StudioBeautyFilterFragment$l;->a:Lcom/commsource/studio/sub/StudioBeautyFilterFragment;
 
     invoke-static {v2}, Lcom/commsource/studio/sub/StudioBeautyFilterFragment;->Z(Lcom/commsource/studio/sub/StudioBeautyFilterFragment;)Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;
@@ -106,7 +102,6 @@
 
     if-eqz v2, :cond_3
 
-    .line 5
     invoke-interface {v2, p1}, Ljava/util/List;->indexOf(Ljava/lang/Object;)I
 
     move-result v2
@@ -138,7 +133,6 @@
     :cond_2
     if-eqz v1, :cond_3
 
-    .line 6
     invoke-virtual {v1}, Ljava/lang/Number;->intValue()I
 
     move-result v1
@@ -153,7 +147,6 @@
 
     invoke-virtual {v2, v1}, Landroidx/recyclerview/widget/RecyclerView;->smoothScrollToPosition(I)V
 
-    .line 7
     :cond_3
     iget-object v1, p0, Lcom/commsource/studio/sub/StudioBeautyFilterFragment$l;->a:Lcom/commsource/studio/sub/StudioBeautyFilterFragment;
 
@@ -171,12 +164,10 @@
 
     if-nez v1, :cond_4
 
-    .line 8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 9
     :cond_4
     iget-object v1, p0, Lcom/commsource/studio/sub/StudioBeautyFilterFragment$l;->a:Lcom/commsource/studio/sub/StudioBeautyFilterFragment;
 
@@ -198,7 +189,6 @@
 
     if-eqz v1, :cond_5
 
-    .line 10
     iget-object p1, p0, Lcom/commsource/studio/sub/StudioBeautyFilterFragment$l;->a:Lcom/commsource/studio/sub/StudioBeautyFilterFragment;
 
     invoke-static {p1}, Lcom/commsource/studio/sub/StudioBeautyFilterFragment;->X(Lcom/commsource/studio/sub/StudioBeautyFilterFragment;)Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/FastCenterScrollLayoutManager;
@@ -207,7 +197,6 @@
 
     invoke-virtual {p1, v4}, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/FastCenterScrollLayoutManager;->f(I)V
 
-    .line 11
     iget-object p1, p0, Lcom/commsource/studio/sub/StudioBeautyFilterFragment$l;->a:Lcom/commsource/studio/sub/StudioBeautyFilterFragment;
 
     invoke-virtual {p1}, Lcom/commsource/studio/sub/StudioBeautyFilterFragment;->C0()Lcom/commsource/beautyplus/f0/g8;
@@ -220,7 +209,6 @@
 
     goto/16 :goto_1
 
-    .line 12
     :cond_5
     iget-object v1, p0, Lcom/commsource/studio/sub/StudioBeautyFilterFragment$l;->a:Lcom/commsource/studio/sub/StudioBeautyFilterFragment;
 
@@ -242,7 +230,6 @@
 
     if-eqz v1, :cond_6
 
-    .line 13
     iget-object p1, p0, Lcom/commsource/studio/sub/StudioBeautyFilterFragment$l;->a:Lcom/commsource/studio/sub/StudioBeautyFilterFragment;
 
     invoke-static {p1}, Lcom/commsource/studio/sub/StudioBeautyFilterFragment;->X(Lcom/commsource/studio/sub/StudioBeautyFilterFragment;)Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/FastCenterScrollLayoutManager;
@@ -251,7 +238,6 @@
 
     invoke-virtual {p1, v4}, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/FastCenterScrollLayoutManager;->f(I)V
 
-    .line 14
     iget-object p1, p0, Lcom/commsource/studio/sub/StudioBeautyFilterFragment$l;->a:Lcom/commsource/studio/sub/StudioBeautyFilterFragment;
 
     invoke-virtual {p1}, Lcom/commsource/studio/sub/StudioBeautyFilterFragment;->C0()Lcom/commsource/beautyplus/f0/g8;
@@ -280,7 +266,6 @@
 
     goto :goto_1
 
-    .line 15
     :cond_6
     iget-object v1, p0, Lcom/commsource/studio/sub/StudioBeautyFilterFragment$l;->a:Lcom/commsource/studio/sub/StudioBeautyFilterFragment;
 
@@ -298,7 +283,6 @@
 
     if-eqz v1, :cond_7
 
-    .line 16
     invoke-virtual {p1}, Lcom/commsource/beautyfilter/a;->a()I
 
     move-result v2
@@ -311,7 +295,6 @@
 
     if-eqz v1, :cond_7
 
-    .line 17
     iget-object v1, p0, Lcom/commsource/studio/sub/StudioBeautyFilterFragment$l;->a:Lcom/commsource/studio/sub/StudioBeautyFilterFragment;
 
     invoke-static {v1}, Lcom/commsource/studio/sub/StudioBeautyFilterFragment;->X(Lcom/commsource/studio/sub/StudioBeautyFilterFragment;)Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/FastCenterScrollLayoutManager;
@@ -320,7 +303,6 @@
 
     invoke-virtual {v1, v4}, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/FastCenterScrollLayoutManager;->f(I)V
 
-    .line 18
     iget-object v1, p0, Lcom/commsource/studio/sub/StudioBeautyFilterFragment$l;->a:Lcom/commsource/studio/sub/StudioBeautyFilterFragment;
 
     invoke-virtual {v1}, Lcom/commsource/studio/sub/StudioBeautyFilterFragment;->C0()Lcom/commsource/beautyplus/f0/g8;
@@ -329,7 +311,6 @@
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/g8;->M:Landroidx/recyclerview/widget/RecyclerView;
 
-    .line 19
     iget-object v2, p0, Lcom/commsource/studio/sub/StudioBeautyFilterFragment$l;->a:Lcom/commsource/studio/sub/StudioBeautyFilterFragment;
 
     invoke-static {v2}, Lcom/commsource/studio/sub/StudioBeautyFilterFragment;->Z(Lcom/commsource/studio/sub/StudioBeautyFilterFragment;)Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;
@@ -340,20 +321,16 @@
 
     move-result-object v2
 
-    .line 20
     invoke-virtual {p1}, Lcom/commsource/beautyfilter/a;->a()I
 
     move-result p1
 
-    .line 21
     invoke-virtual {v2, p1}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/f;->k(I)I
 
     move-result p1
 
-    .line 22
     invoke-virtual {v1, p1}, Landroidx/recyclerview/widget/RecyclerView;->smoothScrollToPosition(I)V
 
-    .line 23
     :cond_7
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -368,7 +345,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Lcom/commsource/beautyfilter/a;
 
     invoke-virtual {p0, p1}, Lcom/commsource/studio/sub/StudioBeautyFilterFragment$l;->a(Lcom/commsource/beautyfilter/a;)V

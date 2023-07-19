@@ -21,13 +21,10 @@
 .method private constructor <init>(Lcom/google/firebase/firestore/core/DocumentViewChange$Type;Lcom/google/firebase/firestore/model/Document;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/google/firebase/firestore/core/DocumentViewChange;->a:Lcom/google/firebase/firestore/core/DocumentViewChange$Type;
 
-    .line 3
     iput-object p2, p0, Lcom/google/firebase/firestore/core/DocumentViewChange;->b:Lcom/google/firebase/firestore/model/Document;
 
     return-void
@@ -36,7 +33,6 @@
 .method public static a(Lcom/google/firebase/firestore/core/DocumentViewChange$Type;Lcom/google/firebase/firestore/model/Document;)Lcom/google/firebase/firestore/core/DocumentViewChange;
     .locals 1
 
-    .line 1
     new-instance v0, Lcom/google/firebase/firestore/core/DocumentViewChange;
 
     invoke-direct {v0, p0, p1}, Lcom/google/firebase/firestore/core/DocumentViewChange;-><init>(Lcom/google/firebase/firestore/core/DocumentViewChange$Type;Lcom/google/firebase/firestore/model/Document;)V
@@ -49,7 +45,6 @@
 .method public b()Lcom/google/firebase/firestore/model/Document;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/firestore/core/DocumentViewChange;->b:Lcom/google/firebase/firestore/model/Document;
 
     return-object v0
@@ -58,7 +53,6 @@
 .method public c()Lcom/google/firebase/firestore/core/DocumentViewChange$Type;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/firestore/core/DocumentViewChange;->a:Lcom/google/firebase/firestore/core/DocumentViewChange$Type;
 
     return-object v0
@@ -67,7 +61,6 @@
 .method public equals(Ljava/lang/Object;)Z
     .locals 3
 
-    .line 1
     instance-of v0, p1, Lcom/google/firebase/firestore/core/DocumentViewChange;
 
     const/4 v1, 0x0
@@ -76,11 +69,9 @@
 
     return v1
 
-    .line 2
     :cond_0
     check-cast p1, Lcom/google/firebase/firestore/core/DocumentViewChange;
 
-    .line 3
     iget-object v0, p0, Lcom/google/firebase/firestore/core/DocumentViewChange;->a:Lcom/google/firebase/firestore/core/DocumentViewChange$Type;
 
     iget-object v2, p1, Lcom/google/firebase/firestore/core/DocumentViewChange;->a:Lcom/google/firebase/firestore/core/DocumentViewChange$Type;
@@ -110,7 +101,6 @@
 .method public hashCode()I
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/firestore/core/DocumentViewChange;->a:Lcom/google/firebase/firestore/core/DocumentViewChange$Type;
 
     invoke-virtual {v0}, Ljava/lang/Enum;->hashCode()I
@@ -123,7 +113,6 @@
 
     mul-int/lit8 v1, v1, 0x1f
 
-    .line 2
     iget-object v0, p0, Lcom/google/firebase/firestore/core/DocumentViewChange;->b:Lcom/google/firebase/firestore/model/Document;
 
     invoke-virtual {v0}, Lcom/google/firebase/firestore/model/Document;->hashCode()I
@@ -138,7 +127,6 @@
 .method public toString()Ljava/lang/String;
     .locals 2
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V

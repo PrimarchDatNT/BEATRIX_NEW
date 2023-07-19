@@ -31,7 +31,6 @@
 
     move v4, p4
 
-    .line 1
     invoke-direct/range {v0 .. v5}, Lcom/commsource/easyeditor/utils/opengl/f;-><init>(IIIIZ)V
 
     return-void
@@ -40,22 +39,16 @@
 .method public constructor <init>(IIIIZ)V
     .locals 0
 
-    .line 2
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 3
     iput p1, p0, Lcom/commsource/easyeditor/utils/opengl/f;->a:I
 
-    .line 4
     iput p2, p0, Lcom/commsource/easyeditor/utils/opengl/f;->b:I
 
-    .line 5
     iput p3, p0, Lcom/commsource/easyeditor/utils/opengl/f;->c:I
 
-    .line 6
     iput p4, p0, Lcom/commsource/easyeditor/utils/opengl/f;->d:I
 
-    .line 7
     iput-boolean p5, p0, Lcom/commsource/easyeditor/utils/opengl/f;->e:Z
 
     return-void
@@ -70,7 +63,6 @@
 
     if-eqz p0, :cond_0
 
-    .line 1
     iget v1, p0, Lcom/commsource/easyeditor/utils/opengl/f;->c:I
 
     if-ne v1, p1, :cond_0
@@ -82,16 +74,13 @@
     :cond_0
     if-eqz p0, :cond_1
 
-    .line 2
     invoke-virtual {p0}, Lcom/commsource/easyeditor/utils/opengl/f;->k()V
 
-    .line 3
     :cond_1
     invoke-static {p1, p2}, Lcom/commsource/easyeditor/utils/opengl/n;->g(II)Lcom/commsource/easyeditor/utils/opengl/f;
 
     move-result-object p0
 
-    .line 4
     :cond_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -107,10 +96,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p0}, Lcom/commsource/easyeditor/utils/opengl/n;->a(Lcom/commsource/easyeditor/utils/opengl/f;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -127,12 +114,10 @@
 
     if-nez p1, :cond_0
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
 
-    .line 2
     :cond_0
     iget v2, p0, Lcom/commsource/easyeditor/utils/opengl/f;->c:I
 
@@ -165,7 +150,6 @@
 
     if-eqz p1, :cond_2
 
-    .line 1
     iget v2, p1, Lcom/commsource/easyeditor/utils/opengl/f;->d:I
 
     if-eqz v2, :cond_2
@@ -176,7 +160,6 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     iget v4, p0, Lcom/commsource/easyeditor/utils/opengl/f;->c:I
 
@@ -213,7 +196,6 @@
 
     return v1
 
-    .line 3
     :cond_2
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -228,7 +210,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p0}, Lcom/commsource/easyeditor/utils/opengl/n;->r(Lcom/commsource/easyeditor/utils/opengl/f;)Landroid/graphics/Bitmap;
 
     move-result-object v1
@@ -245,7 +226,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p0, p1}, Lcom/commsource/easyeditor/utils/opengl/n;->s(Lcom/commsource/easyeditor/utils/opengl/f;I)Landroid/graphics/Bitmap;
 
     move-result-object p1
@@ -262,7 +242,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/easyeditor/utils/opengl/f;->b:I
 
     iget v2, p0, Lcom/commsource/easyeditor/utils/opengl/f;->c:I
@@ -285,7 +264,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -318,7 +296,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/easyeditor/utils/opengl/f;->a:I
 
     if-eqz v1, :cond_0
@@ -351,24 +328,20 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/easyeditor/utils/opengl/f;->b:I
 
     const v2, 0x8d40
 
     invoke-static {v2, v1}, Landroid/opengl/GLES20;->glBindFramebuffer(II)V
 
-    .line 2
     invoke-static {p1}, Lcom/commsource/easyeditor/utils/opengl/n;->j(Landroid/graphics/Bitmap;)Lcom/commsource/easyeditor/utils/opengl/m;
 
     move-result-object p1
 
     const/4 v1, 0x0
 
-    .line 3
     iput-boolean v1, p1, Lcom/commsource/easyeditor/utils/opengl/f;->e:Z
 
-    .line 4
     iget v3, p1, Lcom/commsource/easyeditor/utils/opengl/f;->a:I
 
     const v4, 0x8ce0
@@ -377,7 +350,6 @@
 
     invoke-static {v2, v4, v5, v3, v1}, Landroid/opengl/GLES20;->glFramebufferTexture2D(IIIII)V
 
-    .line 5
     iget v3, p0, Lcom/commsource/easyeditor/utils/opengl/f;->a:I
 
     if-eqz v3, :cond_0
@@ -388,29 +360,23 @@
 
     aput v3, v5, v1
 
-    .line 6
     invoke-static {v4, v5, v1}, Landroid/opengl/GLES20;->glDeleteTextures(I[II)V
 
-    .line 7
     :cond_0
     iget v3, p1, Lcom/commsource/easyeditor/utils/opengl/f;->c:I
 
     iput v3, p0, Lcom/commsource/easyeditor/utils/opengl/f;->c:I
 
-    .line 8
     iget v3, p1, Lcom/commsource/easyeditor/utils/opengl/f;->d:I
 
     iput v3, p0, Lcom/commsource/easyeditor/utils/opengl/f;->d:I
 
-    .line 9
     iget p1, p1, Lcom/commsource/easyeditor/utils/opengl/f;->a:I
 
     iput p1, p0, Lcom/commsource/easyeditor/utils/opengl/f;->a:I
 
-    .line 10
     invoke-static {v2, v1}, Landroid/opengl/GLES20;->glBindFramebuffer(II)V
 
-    .line 11
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -423,7 +389,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/easyeditor/utils/opengl/f;->b:I
 
     const v2, 0x8d40
@@ -436,7 +401,6 @@
 
     const/4 v4, 0x0
 
-    .line 2
     invoke-static {v2, v1, v3, p1, v4}, Landroid/opengl/GLES20;->glFramebufferTexture2D(IIIII)V
 
     if-eqz p1, :cond_0
@@ -447,23 +411,17 @@
 
     aput p1, v3, v4
 
-    .line 3
     invoke-static {v1, v3, v4}, Landroid/opengl/GLES20;->glDeleteTextures(I[II)V
 
-    .line 4
     :cond_0
     iput p2, p0, Lcom/commsource/easyeditor/utils/opengl/f;->c:I
 
-    .line 5
     iput p3, p0, Lcom/commsource/easyeditor/utils/opengl/f;->d:I
 
-    .line 6
     iput p1, p0, Lcom/commsource/easyeditor/utils/opengl/f;->a:I
 
-    .line 7
     invoke-static {v2, v4}, Landroid/opengl/GLES20;->glBindFramebuffer(II)V
 
-    .line 8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -476,7 +434,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/easyeditor/utils/opengl/f;->b:I
 
     if-nez v1, :cond_0
@@ -485,7 +442,6 @@
 
     if-nez v2, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -499,32 +455,26 @@
 
     const v4, 0x8d40
 
-    .line 3
     invoke-static {v4, v1}, Landroid/opengl/GLES20;->glBindFramebuffer(II)V
 
-    .line 4
     iget v1, p0, Lcom/commsource/easyeditor/utils/opengl/f;->b:I
 
     new-array v1, v1, [I
 
     invoke-static {v2, v1, v3}, Landroid/opengl/GLES20;->glDeleteFramebuffers(I[II)V
 
-    .line 5
     iput v3, p0, Lcom/commsource/easyeditor/utils/opengl/f;->b:I
 
     new-array v1, v2, [I
 
-    .line 6
     iget v5, p0, Lcom/commsource/easyeditor/utils/opengl/f;->a:I
 
     aput v5, v1, v3
 
     invoke-static {v2, v1, v3}, Landroid/opengl/GLES20;->glDeleteTextures(I[II)V
 
-    .line 7
     iput v3, p0, Lcom/commsource/easyeditor/utils/opengl/f;->a:I
 
-    .line 8
     invoke-static {v4, v3}, Landroid/opengl/GLES20;->glBindFramebuffer(II)V
 
     goto :goto_0
@@ -532,17 +482,14 @@
     :cond_1
     new-array v1, v2, [I
 
-    .line 9
     iget v4, p0, Lcom/commsource/easyeditor/utils/opengl/f;->a:I
 
     aput v4, v1, v3
 
     invoke-static {v2, v1, v3}, Landroid/opengl/GLES20;->glDeleteTextures(I[II)V
 
-    .line 10
     iput v3, p0, Lcom/commsource/easyeditor/utils/opengl/f;->a:I
 
-    .line 11
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

@@ -69,11 +69,9 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     :try_start_0
     sget-object v0, Lcotlin/Result;->Companion:Lcotlin/Result$a;
 
-    .line 2
     iget-object v0, p0, Lcotlinx/coroutines/internal/ExceptionsConstuctorKt$createConstructor$$inlined$safeCtor$1;->$constructor$inlined:Ljava/lang/reflect/Constructor;
 
     const/4 v1, 0x2
@@ -100,14 +98,12 @@
 
     check-cast p1, Ljava/lang/Throwable;
 
-    .line 3
     invoke-static {p1}, Lcotlin/Result;->constructor-impl(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
 
     goto :goto_0
 
-    .line 4
     :cond_0
     new-instance p1, Lcotlin/TypeCastException;
 
@@ -122,7 +118,6 @@
     :catchall_0
     move-exception p1
 
-    .line 5
     sget-object v0, Lcotlin/Result;->Companion:Lcotlin/Result$a;
 
     invoke-static {p1}, Lcotlin/r0;->a(Ljava/lang/Throwable;)Ljava/lang/Object;

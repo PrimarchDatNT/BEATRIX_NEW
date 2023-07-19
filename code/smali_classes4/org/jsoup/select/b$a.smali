@@ -26,7 +26,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1}, Lorg/jsoup/select/b;-><init>(Ljava/util/Collection;)V
 
     return-void
@@ -35,7 +34,6 @@
 .method varargs constructor <init>([Lorg/jsoup/select/c;)V
     .locals 0
 
-    .line 2
     invoke-static {p1}, Ljava/util/Arrays;->asList([Ljava/lang/Object;)Ljava/util/List;
 
     move-result-object p1
@@ -54,13 +52,11 @@
 
     const/4 v1, 0x0
 
-    .line 1
     :goto_0
     iget v2, p0, Lorg/jsoup/select/b;->b:I
 
     if-ge v1, v2, :cond_1
 
-    .line 2
     iget-object v2, p0, Lorg/jsoup/select/b;->a:Ljava/util/ArrayList;
 
     invoke-virtual {v2, v1}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
@@ -69,7 +65,6 @@
 
     check-cast v2, Lorg/jsoup/select/c;
 
-    .line 3
     invoke-virtual {v2, p1, p2}, Lorg/jsoup/select/c;->a(Lorg/jsoup/nodes/Element;Lorg/jsoup/nodes/Element;)Z
 
     move-result v2
@@ -92,7 +87,6 @@
 .method public toString()Ljava/lang/String;
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lorg/jsoup/select/b;->a:Ljava/util/ArrayList;
 
     const-string v1, " "

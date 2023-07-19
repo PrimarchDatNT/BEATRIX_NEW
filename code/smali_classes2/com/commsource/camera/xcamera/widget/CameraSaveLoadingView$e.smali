@@ -28,7 +28,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/camera/xcamera/widget/CameraSaveLoadingView$e;->a:Lcom/commsource/camera/xcamera/widget/CameraSaveLoadingView;
 
     invoke-direct {p0}, Lcom/commsource/camera/f1/l$a;-><init>()V
@@ -49,10 +48,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0, p1}, Lcom/commsource/camera/f1/l$a;->c(Lcom/commsource/camera/f1/l;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -65,10 +62,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0, p1, p2}, Lcom/commsource/camera/f1/l$a;->e(FF)V
 
-    .line 2
     iget-object p2, p0, Lcom/commsource/camera/xcamera/widget/CameraSaveLoadingView$e;->a:Lcom/commsource/camera/xcamera/widget/CameraSaveLoadingView;
 
     invoke-virtual {p2}, Lcom/commsource/camera/xcamera/widget/CameraSaveLoadingView;->getRotateValuer()Lcom/commsource/camera/f1/n;
@@ -77,12 +72,10 @@
 
     invoke-virtual {p2, p1}, Lcom/commsource/camera/f1/n;->a(F)F
 
-    .line 3
     iget-object p1, p0, Lcom/commsource/camera/xcamera/widget/CameraSaveLoadingView$e;->a:Lcom/commsource/camera/xcamera/widget/CameraSaveLoadingView;
 
     invoke-virtual {p1}, Landroid/view/View;->invalidate()V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

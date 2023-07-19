@@ -10,17 +10,14 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-static {p0}, Lcom/google/android/gms/common/internal/b0;->k(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 2
     invoke-virtual {p0}, Lcom/google/android/gms/common/api/Status;->A()Ljava/lang/String;
 
     move-result-object v0
 
     if-eqz v0, :cond_1
 
-    .line 3
     invoke-virtual {v0}, Ljava/lang/String;->isEmpty()Z
 
     move-result v1
@@ -32,7 +29,6 @@
     :cond_0
     move-object p1, v0
 
-    .line 4
     :cond_1
     :goto_0
     invoke-virtual {p0}, Lcom/google/android/gms/common/api/Status;->z()I
@@ -53,14 +49,12 @@
 
     packed-switch p0, :pswitch_data_0
 
-    .line 5
     new-instance p0, Lcom/google/firebase/appindexing/FirebaseAppIndexingException;
 
     invoke-direct {p0, p1}, Lcom/google/firebase/appindexing/FirebaseAppIndexingException;-><init>(Ljava/lang/String;)V
 
     return-object p0
 
-    .line 6
     :pswitch_0
     new-instance p0, Lcom/google/firebase/appindexing/zzc;
 
@@ -68,7 +62,6 @@
 
     return-object p0
 
-    .line 7
     :pswitch_1
     new-instance p0, Lcom/google/firebase/appindexing/zzd;
 
@@ -76,7 +69,6 @@
 
     return-object p0
 
-    .line 8
     :pswitch_2
     new-instance p0, Lcom/google/firebase/appindexing/zze;
 
@@ -84,7 +76,6 @@
 
     return-object p0
 
-    .line 9
     :pswitch_3
     new-instance p0, Lcom/google/firebase/appindexing/zzg;
 
@@ -92,7 +83,6 @@
 
     return-object p0
 
-    .line 10
     :pswitch_4
     new-instance p0, Lcom/google/firebase/appindexing/zza;
 
@@ -100,7 +90,6 @@
 
     return-object p0
 
-    .line 11
     :pswitch_5
     new-instance p0, Lcom/google/firebase/appindexing/zzb;
 
@@ -108,7 +97,6 @@
 
     return-object p0
 
-    .line 12
     :cond_2
     new-instance p0, Lcom/google/firebase/appindexing/zzf;
 
@@ -116,7 +104,6 @@
 
     return-object p0
 
-    .line 13
     :cond_3
     new-instance p0, Lcom/google/firebase/appindexing/FirebaseAppIndexingTooManyArgumentsException;
 
@@ -124,7 +111,6 @@
 
     return-object p0
 
-    .line 14
     :cond_4
     new-instance p0, Lcom/google/firebase/appindexing/FirebaseAppIndexingInvalidArgumentException;
 

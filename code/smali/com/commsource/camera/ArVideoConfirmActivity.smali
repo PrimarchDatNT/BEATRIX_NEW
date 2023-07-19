@@ -120,47 +120,36 @@
 .method public constructor <init>()V
     .locals 5
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/camera/BaseCameraConfirmActivity;-><init>()V
 
     const/4 v0, 0x0
 
-    .line 2
     iput v0, p0, Lcom/commsource/camera/ArVideoConfirmActivity;->R:I
 
     const/4 v1, 0x0
 
-    .line 3
     iput-object v1, p0, Lcom/commsource/camera/ArVideoConfirmActivity;->S:Ljava/lang/String;
 
-    .line 4
     iput-boolean v0, p0, Lcom/commsource/camera/ArVideoConfirmActivity;->Y:Z
 
     const/4 v2, 0x1
 
-    .line 5
     iput-boolean v2, p0, Lcom/commsource/camera/ArVideoConfirmActivity;->a0:Z
 
-    .line 6
     iput-boolean v2, p0, Lcom/commsource/camera/ArVideoConfirmActivity;->b0:Z
 
-    .line 7
     iput-boolean v2, p0, Lcom/commsource/camera/ArVideoConfirmActivity;->c0:Z
 
-    .line 8
     invoke-static {}, Lcom/meitu/library/p/f/i;->u()I
 
     move-result v3
 
     iput v3, p0, Lcom/commsource/camera/ArVideoConfirmActivity;->j0:I
 
-    .line 9
     iput-boolean v0, p0, Lcom/commsource/camera/ArVideoConfirmActivity;->l0:Z
 
-    .line 10
     iput-object v1, p0, Lcom/commsource/camera/ArVideoConfirmActivity;->m0:Landroid/view/View;
 
-    .line 11
     new-instance v3, Landroid/os/Handler;
 
     invoke-static {}, Landroid/os/Looper;->getMainLooper()Landroid/os/Looper;
@@ -171,39 +160,28 @@
 
     iput-object v3, p0, Lcom/commsource/camera/ArVideoConfirmActivity;->n0:Landroid/os/Handler;
 
-    .line 12
     iput-boolean v0, p0, Lcom/commsource/camera/ArVideoConfirmActivity;->o0:Z
 
-    .line 13
     iput-boolean v0, p0, Lcom/commsource/camera/ArVideoConfirmActivity;->p0:Z
 
-    .line 14
     iput-boolean v0, p0, Lcom/commsource/camera/ArVideoConfirmActivity;->q0:Z
 
-    .line 15
     iput-boolean v2, p0, Lcom/commsource/camera/ArVideoConfirmActivity;->r0:Z
 
-    .line 16
     iput-boolean v0, p0, Lcom/commsource/camera/ArVideoConfirmActivity;->t0:Z
 
-    .line 17
     iput-object v1, p0, Lcom/commsource/camera/ArVideoConfirmActivity;->u0:Lcom/commsource/camera/m0;
 
     const/4 v1, -0x1
 
-    .line 18
     iput v1, p0, Lcom/commsource/camera/ArVideoConfirmActivity;->v0:I
 
-    .line 19
     iput-boolean v0, p0, Lcom/commsource/camera/ArVideoConfirmActivity;->w0:Z
 
-    .line 20
     iput-boolean v2, p0, Lcom/commsource/camera/ArVideoConfirmActivity;->x0:Z
 
-    .line 21
     iput v0, p0, Lcom/commsource/camera/ArVideoConfirmActivity;->y0:I
 
-    .line 22
     new-instance v1, Lcom/commsource/camera/f1/n;
 
     int-to-float v0, v0
@@ -222,7 +200,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/commsource/util/p2/c;
 
     invoke-direct {v1, p0}, Lcom/commsource/util/p2/c;-><init>(Landroidx/fragment/app/FragmentActivity;)V
@@ -247,7 +224,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/commsource/material/i;->n()Lcom/commsource/material/i;
 
     move-result-object v0
@@ -258,7 +234,6 @@
 
     invoke-virtual {v0, v1}, Lcom/commsource/material/i;->d(Landroid/content/Context;)V
 
-    .line 2
     invoke-static {}, Lcom/commsource/material/h;->o()Lcom/commsource/material/h;
 
     move-result-object v0
@@ -269,52 +244,43 @@
 
     invoke-virtual {v0, v1}, Lcom/commsource/material/h;->d(Landroid/content/Context;)V
 
-    .line 3
     invoke-static {}, Lcom/commsource/camera/beauty/j;->d()Lcom/commsource/camera/beauty/j;
 
     move-result-object v0
 
     invoke-virtual {v0}, Lcom/commsource/camera/beauty/j;->b()V
 
-    .line 4
     iget-boolean v0, p0, Lcom/commsource/camera/ArVideoConfirmActivity;->a0:Z
 
     if-eqz v0, :cond_0
 
-    .line 5
     iget-object v0, p0, Lcom/commsource/camera/ArVideoConfirmActivity;->X:Lf/d/k/l;
 
     if-eqz v0, :cond_1
 
     const/4 v0, 0x1
 
-    .line 6
     iput-boolean v0, p0, Lcom/commsource/camera/ArVideoConfirmActivity;->Y:Z
 
-    .line 7
     invoke-static {}, Lcom/commsource/beautyplus/util/v;->m()Ljava/lang/String;
 
     move-result-object v0
 
     iput-object v0, p0, Lcom/commsource/camera/ArVideoConfirmActivity;->Z:Ljava/lang/String;
 
-    .line 8
     iget-object v1, p0, Lcom/commsource/camera/ArVideoConfirmActivity;->X:Lf/d/k/l;
 
     invoke-virtual {v1, v0}, Lf/d/k/l;->P(Ljava/lang/String;)V
 
     goto :goto_0
 
-    .line 9
     :cond_0
     invoke-virtual {p0}, Lcom/commsource/camera/ArVideoConfirmActivity;->finish()V
 
-    .line 10
     :cond_1
     :goto_0
     invoke-direct {p0}, Lcom/commsource/camera/ArVideoConfirmActivity;->h2()V
 
-    .line 11
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -327,34 +293,28 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v0, p0, Lcom/commsource/camera/ArVideoConfirmActivity;->a0:Z
 
     const/4 v1, 0x0
 
     if-eqz v0, :cond_1
 
-    .line 2
     iget-object v0, p0, Lcom/commsource/camera/ArVideoConfirmActivity;->X:Lf/d/k/l;
 
     if-eqz v0, :cond_0
 
-    .line 3
     iput-boolean v1, p0, Lcom/commsource/camera/ArVideoConfirmActivity;->Y:Z
 
-    .line 4
     invoke-static {}, Lcom/commsource/beautyplus/util/v;->m()Ljava/lang/String;
 
     move-result-object v0
 
     iput-object v0, p0, Lcom/commsource/camera/ArVideoConfirmActivity;->Z:Ljava/lang/String;
 
-    .line 5
     iget-object v1, p0, Lcom/commsource/camera/ArVideoConfirmActivity;->X:Lf/d/k/l;
 
     invoke-virtual {v1, v0}, Lf/d/k/l;->P(Ljava/lang/String;)V
 
-    .line 6
     :cond_0
     invoke-static {p0}, Lf/d/i/e;->A1(Landroid/content/Context;)Z
 
@@ -364,26 +324,21 @@
 
     const-string v0, "new_user_take_video_save"
 
-    .line 7
     invoke-static {p0, v0}, Lcom/commsource/statistics/m;->h(Landroid/content/Context;Ljava/lang/String;)V
 
     goto :goto_0
 
-    .line 8
     :cond_1
     iget-boolean v0, p0, Lcom/commsource/camera/BaseCameraConfirmActivity;->Q:Z
 
     if-nez v0, :cond_3
 
-    .line 9
     iget-object v0, p0, Lcom/commsource/camera/ArVideoConfirmActivity;->X:Lf/d/k/l;
 
     if-eqz v0, :cond_2
 
-    .line 10
     invoke-virtual {v0}, Lf/d/k/l;->U()V
 
-    .line 11
     :cond_2
     iget-object v0, p0, Lcom/commsource/camera/ArVideoConfirmActivity;->Z:Ljava/lang/String;
 
@@ -391,7 +346,6 @@
 
     invoke-direct {p0, v1, v0, v2}, Lcom/commsource/camera/ArVideoConfirmActivity;->e2(ZLjava/lang/String;Z)V
 
-    .line 12
     :cond_3
     :goto_0
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -408,12 +362,10 @@
 
     if-nez p1, :cond_0
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 2
     :cond_0
     iget-object v1, p0, Lcom/commsource/camera/ArVideoConfirmActivity;->d0:Lcom/commsource/camera/beauty/ArAnalyAgent$ArVideoInfo;
 
@@ -443,10 +395,8 @@
 
     if-eqz v1, :cond_5
 
-    .line 3
     iget-object p1, p0, Lcom/commsource/camera/ArVideoConfirmActivity;->d0:Lcom/commsource/camera/beauty/ArAnalyAgent$ArVideoInfo;
 
-    .line 4
     invoke-virtual {p1}, Lcom/commsource/camera/beauty/ArAnalyAgent$ArVideoInfo;->getArMaterialId()I
 
     move-result p1
@@ -479,18 +429,14 @@
     :goto_0
     const-string v1, "ad_selfie_ar_video_save"
 
-    .line 5
     invoke-static {p0, v1, v11, p1}, Lcom/commsource/statistics/m;->i(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 6
     new-instance p1, Ljava/util/HashMap;
 
     invoke-direct {p1, v8}, Ljava/util/HashMap;-><init>(I)V
 
-    .line 7
     iget-object v8, p0, Lcom/commsource/camera/ArVideoConfirmActivity;->d0:Lcom/commsource/camera/beauty/ArAnalyAgent$ArVideoInfo;
 
-    .line 8
     invoke-virtual {v8}, Lcom/commsource/camera/beauty/ArAnalyAgent$ArVideoInfo;->getArMaterialId()I
 
     move-result v8
@@ -518,11 +464,9 @@
 
     move-result-object v9
 
-    .line 9
     :goto_1
     invoke-virtual {p1, v11, v9}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 10
     invoke-static {}, Lf/d/i/n;->S0()Z
 
     move-result v8
@@ -537,7 +481,6 @@
     :goto_2
     invoke-virtual {p1, v7, v5}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 11
     iget-object v5, p0, Lcom/commsource/camera/ArVideoConfirmActivity;->d0:Lcom/commsource/camera/beauty/ArAnalyAgent$ArVideoInfo;
 
     invoke-virtual {v5}, Lcom/commsource/camera/beauty/ArAnalyAgent$ArVideoInfo;->isIpAr()Z
@@ -554,12 +497,10 @@
     :goto_3
     invoke-virtual {p1, v4, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 12
     invoke-static {v1, p1}, Lcom/commsource/statistics/i;->s(Ljava/lang/String;Ljava/util/Map;)V
 
     goto/16 :goto_8
 
-    .line 13
     :cond_5
     iget-object v1, p0, Lcom/commsource/camera/ArVideoConfirmActivity;->d0:Lcom/commsource/camera/beauty/ArAnalyAgent$ArVideoInfo;
 
@@ -581,11 +522,9 @@
 
     if-nez p1, :cond_b
 
-    .line 14
     :cond_6
     iget-object p1, p0, Lcom/commsource/camera/ArVideoConfirmActivity;->d0:Lcom/commsource/camera/beauty/ArAnalyAgent$ArVideoInfo;
 
-    .line 15
     invoke-virtual {p1}, Lcom/commsource/camera/beauty/ArAnalyAgent$ArVideoInfo;->getArMaterialId()I
 
     move-result p1
@@ -618,18 +557,14 @@
     :goto_4
     const-string v1, "ad_selfie_ar_buy_save"
 
-    .line 16
     invoke-static {p0, v1, v11, p1}, Lcom/commsource/statistics/m;->i(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 17
     new-instance p1, Ljava/util/HashMap;
 
     invoke-direct {p1, v8}, Ljava/util/HashMap;-><init>(I)V
 
-    .line 18
     iget-object v8, p0, Lcom/commsource/camera/ArVideoConfirmActivity;->d0:Lcom/commsource/camera/beauty/ArAnalyAgent$ArVideoInfo;
 
-    .line 19
     invoke-virtual {v8}, Lcom/commsource/camera/beauty/ArAnalyAgent$ArVideoInfo;->getArMaterialId()I
 
     move-result v8
@@ -657,11 +592,9 @@
 
     move-result-object v9
 
-    .line 20
     :goto_5
     invoke-virtual {p1, v11, v9}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 21
     invoke-static {}, Lf/d/i/n;->S0()Z
 
     move-result v8
@@ -676,7 +609,6 @@
     :goto_6
     invoke-virtual {p1, v7, v5}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 22
     iget-object v5, p0, Lcom/commsource/camera/ArVideoConfirmActivity;->d0:Lcom/commsource/camera/beauty/ArAnalyAgent$ArVideoInfo;
 
     invoke-virtual {v5}, Lcom/commsource/camera/beauty/ArAnalyAgent$ArVideoInfo;->isIpAr()Z
@@ -693,10 +625,8 @@
     :goto_7
     invoke-virtual {p1, v4, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 23
     invoke-static {v1, p1}, Lcom/commsource/statistics/i;->s(Ljava/lang/String;Ljava/util/Map;)V
 
-    .line 24
     :cond_b
     :goto_8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -711,7 +641,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p0}, Lcom/commsource/util/w0;->z(Landroid/app/Activity;)V
 
     const-string v1, "save_storage_alert_clean"
@@ -720,13 +649,10 @@
 
     const-string/jumbo v3, "\u81ea\u62cd"
 
-    .line 2
     invoke-static {v1, v2, v3}, Lcom/commsource/statistics/i;->r(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 3
     invoke-virtual {p1}, Lcom/commsource/widget/dialog/i0;->dismiss()V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -739,7 +665,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p0}, Lcom/commsource/util/w0;->z(Landroid/app/Activity;)V
 
     const-string v1, "save_storage_alert_clean"
@@ -748,13 +673,10 @@
 
     const-string/jumbo v3, "\u81ea\u62cd"
 
-    .line 2
     invoke-static {v1, v2, v3}, Lcom/commsource/statistics/i;->r(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 3
     invoke-virtual {p1}, Lcom/commsource/widget/dialog/i0;->dismiss()V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -767,7 +689,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v0, p0, Lcom/commsource/camera/ArVideoConfirmActivity;->U:I
 
     const/16 v1, 0xf0
@@ -784,7 +705,6 @@
 
     float-to-int v0, v0
 
-    .line 2
     iget-object v2, p0, Lcom/commsource/camera/ArVideoConfirmActivity;->s0:Lcom/commsource/beautyplus/f0/k;
 
     iget-object v2, v2, Lcom/commsource/beautyplus/f0/k;->O:Landroid/widget/ProgressBar;
@@ -793,7 +713,6 @@
 
     invoke-virtual {v2, v3}, Landroid/widget/ProgressBar;->setVisibility(I)V
 
-    .line 3
     iget-object v2, p0, Lcom/commsource/camera/ArVideoConfirmActivity;->s0:Lcom/commsource/beautyplus/f0/k;
 
     iget-object v2, v2, Lcom/commsource/beautyplus/f0/k;->L:Lcom/commsource/widget/IconFrontView;
@@ -802,7 +721,6 @@
 
     invoke-virtual {v2, v3}, Landroid/widget/TextView;->setVisibility(I)V
 
-    .line 4
     iget-object v2, p0, Lcom/commsource/camera/ArVideoConfirmActivity;->s0:Lcom/commsource/beautyplus/f0/k;
 
     iget-object v2, v2, Lcom/commsource/beautyplus/f0/k;->M:Lcom/commsource/widget/PressStrokeTextView;
@@ -815,7 +733,6 @@
 
     invoke-virtual {v2, v3}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 5
     new-instance v2, Lcom/commsource/camera/ArVideoConfirmActivity$e;
 
     const-string v3, "Video2Gif"
@@ -824,7 +741,6 @@
 
     invoke-static {v2}, Lcom/commsource/util/c2;->g(Lcom/commsource/util/u2/a;)V
 
-    .line 6
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -837,7 +753,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/camera/ArVideoConfirmActivity;->k0:F
 
     const/high16 v2, 0x447a0000    # 1000.0f
@@ -854,10 +769,8 @@
 
     const/4 v1, 0x2
 
-    .line 2
     iput v1, p0, Lcom/commsource/camera/ArVideoConfirmActivity;->R:I
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v4
@@ -871,10 +784,8 @@
 
     if-gez v1, :cond_1
 
-    .line 4
     iput v4, p0, Lcom/commsource/camera/ArVideoConfirmActivity;->R:I
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v4
@@ -882,7 +793,6 @@
     :cond_1
     const/4 v1, 0x0
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
@@ -895,7 +805,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/ArVideoConfirmActivity;->W:Landroid/widget/FrameLayout;
 
     iget-object v2, p0, Lcom/commsource/camera/ArVideoConfirmActivity;->z0:Lcom/commsource/camera/f1/n;
@@ -910,7 +819,6 @@
 
     invoke-virtual {v1, p1}, Landroid/widget/FrameLayout;->setRotation(F)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -923,7 +831,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/camera/ArVideoConfirmActivity;->V1()V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -938,7 +845,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean p0, p0, Lcom/commsource/camera/ArVideoConfirmActivity;->e0:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -953,7 +859,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/ArVideoConfirmActivity;->s0:Lcom/commsource/beautyplus/f0/k;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/k;->Z:Lcom/commsource/comic/widget/StrokeTextView;
@@ -964,7 +869,6 @@
 
     invoke-direct {p0, v1, v2, v3, v4}, Lcom/commsource/camera/ArVideoConfirmActivity;->w1(Landroid/view/View;FJ)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -977,7 +881,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/camera/ArVideoConfirmActivity;->a0:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -992,7 +895,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/camera/ArVideoConfirmActivity;->f0:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1007,10 +909,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/camera/ArVideoConfirmActivity;->v0:I
 
-    .line 2
     new-instance p1, Ljava/lang/StringBuilder;
 
     invoke-direct {p1}, Ljava/lang/StringBuilder;-><init>()V
@@ -1031,12 +931,10 @@
 
     invoke-static {v1, p1}, Lcom/meitu/library/util/Debug/Debug;->e(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 3
     iget-object p1, p0, Lcom/commsource/camera/ArVideoConfirmActivity;->d0:Lcom/commsource/camera/beauty/ArAnalyAgent$ArVideoInfo;
 
     if-eqz p1, :cond_1
 
-    .line 4
     invoke-virtual {p1}, Lcom/commsource/camera/beauty/ArAnalyAgent$ArVideoInfo;->getScreenOrientation()I
 
     move-result p1
@@ -1053,13 +951,11 @@
 
     if-ne p1, v1, :cond_1
 
-    .line 5
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 6
     :cond_1
     :try_start_0
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
@@ -1095,14 +991,11 @@
     :catch_0
     move-exception p1
 
-    .line 7
     invoke-virtual {p1}, Landroid/provider/Settings$SettingNotFoundException;->printStackTrace()V
 
-    .line 8
     :goto_1
     invoke-direct {p0}, Lcom/commsource/camera/ArVideoConfirmActivity;->d2()V
 
-    .line 9
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1115,7 +1008,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0, p1, p2, p3}, Lcom/commsource/camera/ArVideoConfirmActivity;->e2(ZLjava/lang/String;Z)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1130,7 +1022,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/camera/ArVideoConfirmActivity;->s0:Lcom/commsource/beautyplus/f0/k;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1145,12 +1036,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/ArVideoConfirmActivity;->d0:Lcom/commsource/camera/beauty/ArAnalyAgent$ArVideoInfo;
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-static {}, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/z0;->E()Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/z0;
 
     move-result-object v1
@@ -1167,7 +1056,6 @@
 
     invoke-virtual {v1, v2, v3}, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/z0;->x(ILcom/commsource/util/common/d;)V
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1181,7 +1069,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/camera/ArVideoConfirmActivity;->m0:Landroid/view/View;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1196,7 +1083,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/home/HomeDeepLinkAnalyze;->g:Lcom/commsource/home/HomeDeepLinkAnalyze$a;
 
     invoke-virtual {v1}, Lcom/commsource/home/HomeDeepLinkAnalyze$a;->b()Lcom/commsource/home/HomeDeepLinkAnalyze;
@@ -1207,7 +1093,6 @@
 
     move-result v1
 
-    .line 2
     iget-object v2, p0, Lcom/commsource/camera/ArVideoConfirmActivity;->d0:Lcom/commsource/camera/beauty/ArAnalyAgent$ArVideoInfo;
 
     invoke-virtual {v2}, Lcom/commsource/camera/beauty/ArAnalyAgent$ArVideoInfo;->getArMaterialIds()Ljava/util/List;
@@ -1230,7 +1115,6 @@
 
     if-nez v2, :cond_1
 
-    .line 3
     iget-object v2, p0, Lcom/commsource/camera/ArVideoConfirmActivity;->d0:Lcom/commsource/camera/beauty/ArAnalyAgent$ArVideoInfo;
 
     invoke-virtual {v2}, Lcom/commsource/camera/beauty/ArAnalyAgent$ArVideoInfo;->getArMaterialIds()Ljava/util/List;
@@ -1274,7 +1158,6 @@
     :goto_0
     if-nez v2, :cond_3
 
-    .line 4
     iget-object v4, p0, Lcom/commsource/camera/ArVideoConfirmActivity;->d0:Lcom/commsource/camera/beauty/ArAnalyAgent$ArVideoInfo;
 
     invoke-virtual {v4}, Lcom/commsource/camera/beauty/ArAnalyAgent$ArVideoInfo;->getUseFilters()Ljava/util/List;
@@ -1295,7 +1178,6 @@
 
     if-nez v4, :cond_3
 
-    .line 5
     iget-object v4, p0, Lcom/commsource/camera/ArVideoConfirmActivity;->d0:Lcom/commsource/camera/beauty/ArAnalyAgent$ArVideoInfo;
 
     invoke-virtual {v4}, Lcom/commsource/camera/beauty/ArAnalyAgent$ArVideoInfo;->getUseFilters()Ljava/util/List;
@@ -1319,7 +1201,6 @@
 
     check-cast v5, Lcom/meitu/template/bean/Filter;
 
-    .line 6
     invoke-virtual {v5}, Lcom/meitu/template/bean/Filter;->getFilterId()I
 
     move-result v5
@@ -1334,7 +1215,6 @@
     :goto_1
     if-eqz v3, :cond_4
 
-    .line 7
     sget-object v2, Lcom/commsource/home/HomeDeepLinkAnalyze;->g:Lcom/commsource/home/HomeDeepLinkAnalyze$a;
 
     invoke-virtual {v2}, Lcom/commsource/home/HomeDeepLinkAnalyze$a;->b()Lcom/commsource/home/HomeDeepLinkAnalyze;
@@ -1343,10 +1223,8 @@
 
     const/4 v3, 0x2
 
-    .line 8
     invoke-virtual {v2, v1, v3}, Lcom/commsource/home/HomeDeepLinkAnalyze;->b(II)V
 
-    .line 9
     :cond_4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1360,7 +1238,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/camera/ArVideoConfirmActivity;->W:Landroid/widget/FrameLayout;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1377,7 +1254,6 @@
 
     const/16 v1, 0x32
 
-    .line 1
     invoke-static {v1}, Lcom/commsource/util/w1;->b(I)Z
 
     move-result v1
@@ -1386,14 +1262,12 @@
 
     sget v1, Lcom/res/provider/ResSTRING;->unable_to_save:I
 
-    .line 2
     invoke-static {v1}, Lcom/meitu/library/p/d/b;->l(I)Ljava/lang/String;
 
     move-result-object v2
 
     sget v1, Lcom/res/provider/ResSTRING;->unable_to_save_explain:I
 
-    .line 3
     invoke-static {v1}, Lcom/meitu/library/p/d/b;->l(I)Ljava/lang/String;
 
     move-result-object v3
@@ -1410,7 +1284,6 @@
 
     sget v1, Lcom/res/provider/ResSTRING;->unable_to_save_later:I
 
-    .line 4
     invoke-static {v1}, Lcom/meitu/library/p/d/b;->l(I)Ljava/lang/String;
 
     move-result-object v6
@@ -1419,7 +1292,6 @@
 
     const/4 v8, 0x1
 
-    .line 5
     invoke-static/range {v2 .. v8}, Lcom/commsource/widget/dialog/s0/t;->u0(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lcom/commsource/widget/dialog/s0/y;Ljava/lang/String;Lcom/commsource/widget/dialog/s0/x;Z)V
 
     const-string v1, "save_storage_alert_imp"
@@ -1428,46 +1300,36 @@
 
     const-string/jumbo v3, "\u81ea\u62cd"
 
-    .line 6
     invoke-static {v1, v2, v3}, Lcom/commsource/statistics/i;->r(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 8
     :cond_0
     iget-boolean v1, p0, Lcom/commsource/camera/ArVideoConfirmActivity;->a0:Z
 
     if-eqz v1, :cond_1
 
-    .line 9
     iget-object v1, p0, Lcom/commsource/camera/ArVideoConfirmActivity;->s0:Lcom/commsource/beautyplus/f0/k;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/k;->d:Lcom/commsource/camera/xcamera/widget/CameraSaveLoadingView;
 
     invoke-virtual {v1}, Lcom/commsource/camera/xcamera/widget/CameraSaveLoadingView;->m()V
 
-    .line 10
     :cond_1
     invoke-direct {p0}, Lcom/commsource/camera/ArVideoConfirmActivity;->U1()V
 
-    .line 11
     new-instance v1, Lcom/commsource/widget/p0;
 
     invoke-direct {v1}, Lcom/commsource/widget/p0;-><init>()V
 
-    .line 12
     invoke-direct {p0, v1}, Lcom/commsource/camera/ArVideoConfirmActivity;->s1(Lcom/commsource/widget/p0;)V
 
-    .line 13
     invoke-direct {p0, v1}, Lcom/commsource/camera/ArVideoConfirmActivity;->t1(Lcom/commsource/widget/p0;)V
 
-    .line 14
     invoke-virtual {v1}, Lcom/commsource/widget/p0;->c()V
 
-    .line 15
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1480,7 +1342,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget p0, p0, Lcom/commsource/camera/ArVideoConfirmActivity;->V:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1497,7 +1358,6 @@
 
     const/16 v1, 0x32
 
-    .line 1
     invoke-static {v1}, Lcom/commsource/util/w1;->b(I)Z
 
     move-result v1
@@ -1506,14 +1366,12 @@
 
     sget v1, Lcom/res/provider/ResSTRING;->unable_to_save:I
 
-    .line 2
     invoke-static {v1}, Lcom/meitu/library/p/d/b;->l(I)Ljava/lang/String;
 
     move-result-object v2
 
     sget v1, Lcom/res/provider/ResSTRING;->unable_to_save_explain:I
 
-    .line 3
     invoke-static {v1}, Lcom/meitu/library/p/d/b;->l(I)Ljava/lang/String;
 
     move-result-object v3
@@ -1530,7 +1388,6 @@
 
     sget v1, Lcom/res/provider/ResSTRING;->unable_to_save_later:I
 
-    .line 4
     invoke-static {v1}, Lcom/meitu/library/p/d/b;->l(I)Ljava/lang/String;
 
     move-result-object v6
@@ -1539,7 +1396,6 @@
 
     const/4 v8, 0x1
 
-    .line 5
     invoke-static/range {v2 .. v8}, Lcom/commsource/widget/dialog/s0/t;->u0(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lcom/commsource/widget/dialog/s0/y;Ljava/lang/String;Lcom/commsource/widget/dialog/s0/x;Z)V
 
     const-string v1, "save_storage_alert_imp"
@@ -1548,10 +1404,8 @@
 
     const-string/jumbo v3, "\u81ea\u62cd"
 
-    .line 6
     invoke-static {v1, v2, v3}, Lcom/commsource/statistics/i;->r(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1563,40 +1417,31 @@
 
     const-string/jumbo v3, "video"
 
-    .line 8
     invoke-static {v1, v2, v3}, Lcom/commsource/statistics/i;->r(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 9
     iget-boolean v1, p0, Lcom/commsource/camera/ArVideoConfirmActivity;->a0:Z
 
     if-eqz v1, :cond_1
 
-    .line 10
     iget-object v1, p0, Lcom/commsource/camera/ArVideoConfirmActivity;->s0:Lcom/commsource/beautyplus/f0/k;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/k;->d:Lcom/commsource/camera/xcamera/widget/CameraSaveLoadingView;
 
     invoke-virtual {v1}, Lcom/commsource/camera/xcamera/widget/CameraSaveLoadingView;->m()V
 
-    .line 11
     :cond_1
     invoke-direct {p0}, Lcom/commsource/camera/ArVideoConfirmActivity;->U1()V
 
-    .line 12
     new-instance v1, Lcom/commsource/widget/p0;
 
     invoke-direct {v1}, Lcom/commsource/widget/p0;-><init>()V
 
-    .line 13
     invoke-direct {p0, v1}, Lcom/commsource/camera/ArVideoConfirmActivity;->s1(Lcom/commsource/widget/p0;)V
 
-    .line 14
     invoke-direct {p0, v1}, Lcom/commsource/camera/ArVideoConfirmActivity;->u1(Lcom/commsource/widget/p0;)V
 
-    .line 15
     invoke-virtual {v1}, Lcom/commsource/widget/p0;->c()V
 
-    .line 16
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1609,7 +1454,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/camera/ArVideoConfirmActivity;->w0:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1624,17 +1468,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/camera/ArVideoConfirmActivity;->q0:Z
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 3
     :cond_0
     iget-boolean v1, p0, Lcom/commsource/camera/ArVideoConfirmActivity;->r0:Z
 
@@ -1644,26 +1485,22 @@
 
     if-eqz v1, :cond_1
 
-    .line 4
     iget-boolean v1, p0, Lcom/commsource/camera/ArVideoConfirmActivity;->b0:Z
 
     iput-boolean v1, p0, Lcom/commsource/camera/ArVideoConfirmActivity;->a0:Z
 
     goto :goto_0
 
-    .line 5
     :cond_1
     iget-boolean v1, p0, Lcom/commsource/camera/ArVideoConfirmActivity;->c0:Z
 
     iput-boolean v1, p0, Lcom/commsource/camera/ArVideoConfirmActivity;->a0:Z
 
-    .line 6
     :goto_0
     iget-boolean v1, p0, Lcom/commsource/camera/ArVideoConfirmActivity;->a0:Z
 
     if-eqz v1, :cond_2
 
-    .line 7
     iget-object v1, p0, Lcom/commsource/camera/ArVideoConfirmActivity;->s0:Lcom/commsource/beautyplus/f0/k;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/k;->d:Lcom/commsource/camera/xcamera/widget/CameraSaveLoadingView;
@@ -1672,7 +1509,6 @@
 
     goto :goto_1
 
-    .line 8
     :cond_2
     iget-object v1, p0, Lcom/commsource/camera/ArVideoConfirmActivity;->s0:Lcom/commsource/beautyplus/f0/k;
 
@@ -1682,13 +1518,11 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/camera/xcamera/widget/CameraSaveLoadingView;->h(Z)V
 
-    .line 9
     :goto_1
     iget-boolean v1, p0, Lcom/commsource/camera/ArVideoConfirmActivity;->r0:Z
 
     if-eqz v1, :cond_3
 
-    .line 10
     iget-object v1, p0, Lcom/commsource/camera/ArVideoConfirmActivity;->s0:Lcom/commsource/beautyplus/f0/k;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/k;->W:Lcom/commsource/widget/IconFrontView;
@@ -1703,7 +1537,6 @@
 
     sget v1, Lcom/res/provider/ResSTRING;->open_original_sound:I
 
-    .line 11
     invoke-virtual {p0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
     move-result-object v1
@@ -1712,7 +1545,6 @@
 
     goto :goto_2
 
-    .line 12
     :cond_3
     iget-object v1, p0, Lcom/commsource/camera/ArVideoConfirmActivity;->s0:Lcom/commsource/beautyplus/f0/k;
 
@@ -1728,14 +1560,12 @@
 
     sget v1, Lcom/res/provider/ResSTRING;->close_original_sound:I
 
-    .line 13
     invoke-virtual {p0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
     move-result-object v1
 
     invoke-static {v1}, Lf/k/c/c/f;->y(Ljava/lang/CharSequence;)V
 
-    .line 14
     :goto_2
     iget-boolean v1, p0, Lcom/commsource/camera/ArVideoConfirmActivity;->r0:Z
 
@@ -1755,17 +1585,14 @@
 
     invoke-static {v2, v3, v1}, Lcom/commsource/statistics/i;->r(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 15
     iget-object v1, p0, Lcom/commsource/camera/ArVideoConfirmActivity;->X:Lf/d/k/l;
 
     if-eqz v1, :cond_5
 
-    .line 16
     iget-boolean v2, p0, Lcom/commsource/camera/ArVideoConfirmActivity;->r0:Z
 
     invoke-virtual {v1, v2}, Lf/d/k/l;->O(Z)V
 
-    .line 17
     :cond_5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1779,7 +1606,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean p0, p0, Lcom/commsource/camera/ArVideoConfirmActivity;->t0:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1794,17 +1620,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/camera/ArVideoConfirmActivity;->o0:Z
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 3
     :cond_0
     invoke-direct {p0}, Lcom/commsource/camera/ArVideoConfirmActivity;->O0()Z
 
@@ -1824,27 +1647,22 @@
 
     const-string v3, "icon\u72b6\u6001"
 
-    .line 4
     invoke-static {v2, v3, v1}, Lcom/commsource/statistics/i;->r(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 5
     invoke-direct {p0}, Lcom/commsource/camera/ArVideoConfirmActivity;->O0()Z
 
     move-result v1
 
     if-eqz v1, :cond_4
 
-    .line 6
     iget-boolean v1, p0, Lcom/commsource/camera/ArVideoConfirmActivity;->p0:Z
 
     if-eqz v1, :cond_2
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 8
     :cond_2
     iget v1, p0, Lcom/commsource/camera/ArVideoConfirmActivity;->R:I
 
@@ -1854,35 +1672,28 @@
 
     sget v1, Lcom/res/provider/ResSTRING;->gif_duration_exceed_limit:I
 
-    .line 9
     invoke-direct {p0, v1}, Lcom/commsource/camera/ArVideoConfirmActivity;->f2(I)V
 
-    .line 10
     :cond_3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 11
     :cond_4
     new-instance v1, Lcom/commsource/widget/p0;
 
     invoke-direct {v1}, Lcom/commsource/widget/p0;-><init>()V
 
-    .line 12
     invoke-direct {p0, v1}, Lcom/commsource/camera/ArVideoConfirmActivity;->s1(Lcom/commsource/widget/p0;)V
 
-    .line 13
     new-instance v2, Lcom/commsource/camera/s;
 
     invoke-direct {v2, p0}, Lcom/commsource/camera/s;-><init>(Lcom/commsource/camera/ArVideoConfirmActivity;)V
 
     invoke-virtual {v1, v2}, Lcom/commsource/widget/p0;->a(Lcom/commsource/widget/p0$a;)V
 
-    .line 14
     invoke-virtual {v1}, Lcom/commsource/widget/p0;->c()V
 
-    .line 15
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1895,7 +1706,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget p0, p0, Lcom/commsource/camera/ArVideoConfirmActivity;->v0:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1912,10 +1722,8 @@
 
     const/4 v1, 0x0
 
-    .line 1
     iput-boolean v1, p0, Lcom/commsource/camera/ArVideoConfirmActivity;->o0:Z
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1928,7 +1736,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/camera/ArVideoConfirmActivity;->X:Lf/d/k/l;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1943,7 +1750,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/commsource/camera/ArVideoConfirmActivity;->v1(Z)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1958,28 +1764,23 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/camera/ArVideoConfirmActivity;->w0:Z
 
     if-nez v1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 3
     :cond_0
     iget-boolean v1, p0, Lcom/commsource/camera/ArVideoConfirmActivity;->t0:Z
 
     if-nez v1, :cond_1
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 5
     :cond_1
     iget v1, p0, Lcom/commsource/camera/ArVideoConfirmActivity;->T:I
 
@@ -2014,7 +1815,6 @@
     :cond_3
     const/4 v1, 0x0
 
-    .line 6
     :goto_1
     iget v2, p0, Lcom/commsource/camera/ArVideoConfirmActivity;->y0:I
 
@@ -2035,7 +1835,6 @@
     :cond_4
     if-ne v2, v7, :cond_5
 
-    .line 7
     iget v8, p0, Lcom/commsource/camera/ArVideoConfirmActivity;->v0:I
 
     if-nez v8, :cond_5
@@ -2044,19 +1843,16 @@
 
     goto :goto_2
 
-    .line 8
     :cond_5
     iget v8, p0, Lcom/commsource/camera/ArVideoConfirmActivity;->v0:I
 
     sub-int/2addr v2, v8
 
-    .line 9
     :goto_2
     iget v8, p0, Lcom/commsource/camera/ArVideoConfirmActivity;->v0:I
 
     iput v8, p0, Lcom/commsource/camera/ArVideoConfirmActivity;->y0:I
 
-    .line 10
     iget-object v8, p0, Lcom/commsource/camera/ArVideoConfirmActivity;->z0:Lcom/commsource/camera/f1/n;
 
     iget v9, v8, Lcom/commsource/camera/f1/n;->b:F
@@ -2069,7 +1865,6 @@
 
     const/4 v2, 0x0
 
-    .line 11
     iget v8, p0, Lcom/commsource/camera/ArVideoConfirmActivity;->y0:I
 
     const/high16 v9, 0x3f800000    # 1.0f
@@ -2081,7 +1876,6 @@
     :cond_6
     if-eqz v3, :cond_7
 
-    .line 12
     sget-object v8, Lcom/commsource/camera/xcamera/cover/CameraConfigViewModel;->q:Lcom/commsource/camera/xcamera/cover/CameraConfigViewModel$a;
 
     iget v10, p0, Lcom/commsource/camera/ArVideoConfirmActivity;->V:I
@@ -2094,7 +1888,6 @@
 
     move-result v8
 
-    .line 13
     iget-object v10, p0, Lcom/commsource/camera/ArVideoConfirmActivity;->W:Landroid/widget/FrameLayout;
 
     invoke-virtual {v10}, Landroid/widget/FrameLayout;->getWidth()I
@@ -2115,7 +1908,6 @@
 
     div-float v9, v10, v9
 
-    .line 14
     iget-object v10, p0, Lcom/commsource/camera/ArVideoConfirmActivity;->W:Landroid/widget/FrameLayout;
 
     invoke-virtual {v10}, Landroid/widget/FrameLayout;->getWidth()I
@@ -2128,17 +1920,14 @@
 
     float-to-int v10, v10
 
-    .line 15
     iget-object v11, p0, Lcom/commsource/camera/ArVideoConfirmActivity;->W:Landroid/widget/FrameLayout;
 
-    .line 16
     invoke-virtual {v11}, Landroid/widget/FrameLayout;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
 
     move-result-object v11
 
     check-cast v11, Landroid/view/ViewGroup$MarginLayoutParams;
 
-    .line 17
     iget v12, v11, Landroid/view/ViewGroup$MarginLayoutParams;->topMargin:I
 
     int-to-float v12, v12
@@ -2172,7 +1961,6 @@
     :cond_7
     if-eqz v1, :cond_8
 
-    .line 18
     iget-object v8, p0, Lcom/commsource/camera/ArVideoConfirmActivity;->W:Landroid/widget/FrameLayout;
 
     invoke-virtual {v8}, Landroid/widget/FrameLayout;->getWidth()I
@@ -2193,49 +1981,40 @@
 
     div-float v9, v8, v9
 
-    .line 19
     :cond_8
     :goto_3
     iget-boolean v8, p0, Lcom/commsource/camera/ArVideoConfirmActivity;->x0:Z
 
     if-eqz v8, :cond_9
 
-    .line 20
     iget-object v8, p0, Lcom/commsource/camera/ArVideoConfirmActivity;->W:Landroid/widget/FrameLayout;
 
     invoke-virtual {v8, v9}, Landroid/widget/FrameLayout;->setScaleX(F)V
 
-    .line 21
     iget-object v8, p0, Lcom/commsource/camera/ArVideoConfirmActivity;->W:Landroid/widget/FrameLayout;
 
     invoke-virtual {v8, v9}, Landroid/widget/FrameLayout;->setScaleY(F)V
 
-    .line 22
     iget-object v8, p0, Lcom/commsource/camera/ArVideoConfirmActivity;->z0:Lcom/commsource/camera/f1/n;
 
     iget v8, v8, Lcom/commsource/camera/f1/n;->b:F
 
-    .line 23
     iget-object v9, p0, Lcom/commsource/camera/ArVideoConfirmActivity;->W:Landroid/widget/FrameLayout;
 
     invoke-virtual {v9, v8}, Landroid/widget/FrameLayout;->setRotation(F)V
 
-    .line 24
     iget-object v9, p0, Lcom/commsource/camera/ArVideoConfirmActivity;->z0:Lcom/commsource/camera/f1/n;
 
     invoke-virtual {v9, v8}, Lcom/commsource/camera/f1/n;->h(F)V
 
-    .line 25
     iget-object v8, p0, Lcom/commsource/camera/ArVideoConfirmActivity;->W:Landroid/widget/FrameLayout;
 
     invoke-virtual {v8, v2}, Landroid/widget/FrameLayout;->setTranslationY(F)V
 
-    .line 26
     iput-boolean v6, p0, Lcom/commsource/camera/ArVideoConfirmActivity;->x0:Z
 
     goto :goto_4
 
-    .line 27
     :cond_9
     iget-object v8, p0, Lcom/commsource/camera/ArVideoConfirmActivity;->W:Landroid/widget/FrameLayout;
 
@@ -2243,14 +2022,12 @@
 
     move-result-object v8
 
-    .line 28
     iget-object v10, p0, Lcom/commsource/camera/ArVideoConfirmActivity;->W:Landroid/widget/FrameLayout;
 
     invoke-virtual {v10}, Landroid/widget/FrameLayout;->getRotation()F
 
     move-result v10
 
-    .line 29
     iget-object v11, p0, Lcom/commsource/camera/ArVideoConfirmActivity;->z0:Lcom/commsource/camera/f1/n;
 
     iget v11, v11, Lcom/commsource/camera/f1/n;->b:F
@@ -2259,23 +2036,18 @@
 
     if-eqz v10, :cond_a
 
-    .line 30
     invoke-virtual {v8}, Landroid/view/ViewPropertyAnimator;->cancel()V
 
-    .line 31
     invoke-virtual {v8, v9}, Landroid/view/ViewPropertyAnimator;->scaleX(F)Landroid/view/ViewPropertyAnimator;
 
-    .line 32
     invoke-virtual {v8, v9}, Landroid/view/ViewPropertyAnimator;->scaleY(F)Landroid/view/ViewPropertyAnimator;
 
-    .line 33
     new-instance v9, Lcom/commsource/camera/o;
 
     invoke-direct {v9, p0}, Lcom/commsource/camera/o;-><init>(Lcom/commsource/camera/ArVideoConfirmActivity;)V
 
     invoke-virtual {v8, v9}, Landroid/view/ViewPropertyAnimator;->setUpdateListener(Landroid/animation/ValueAnimator$AnimatorUpdateListener;)Landroid/view/ViewPropertyAnimator;
 
-    .line 34
     new-instance v9, Lcom/commsource/camera/ArVideoConfirmActivity$d;
 
     invoke-direct {v9, p0, v2}, Lcom/commsource/camera/ArVideoConfirmActivity$d;-><init>(Lcom/commsource/camera/ArVideoConfirmActivity;F)V
@@ -2284,17 +2056,14 @@
 
     const-wide/16 v9, 0xfa
 
-    .line 35
     invoke-virtual {v8, v9, v10}, Landroid/view/ViewPropertyAnimator;->setDuration(J)Landroid/view/ViewPropertyAnimator;
 
-    .line 36
     invoke-virtual {v8}, Landroid/view/ViewPropertyAnimator;->start()V
 
     :cond_a
     :goto_4
     if-eqz v3, :cond_b
 
-    .line 37
     iget v2, p0, Lcom/commsource/camera/ArVideoConfirmActivity;->v0:I
 
     if-eq v2, v4, :cond_c
@@ -2324,11 +2093,9 @@
     :cond_d
     const/4 v5, 0x0
 
-    .line 38
     :goto_5
     invoke-direct {p0, v5}, Lcom/commsource/camera/ArVideoConfirmActivity;->v1(Z)V
 
-    .line 39
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2341,7 +2108,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/camera/ArVideoConfirmActivity;->d2()V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2358,10 +2124,8 @@
 
     const/4 p3, 0x0
 
-    .line 1
     invoke-static {p0, p3}, Lf/d/i/e;->H2(Landroid/content/Context;I)V
 
-    .line 2
     iget-object v0, p0, Lcom/commsource/camera/ArVideoConfirmActivity;->s0:Lcom/commsource/beautyplus/f0/k;
 
     iget-object v0, v0, Lcom/commsource/beautyplus/f0/k;->U:Landroid/view/View;
@@ -2370,10 +2134,8 @@
 
     const/4 p3, 0x1
 
-    .line 3
     iput-boolean p3, p0, Lcom/commsource/camera/BaseCameraConfirmActivity;->Q:Z
 
-    .line 4
     new-instance p3, Lcom/commsource/util/p2/c;
 
     invoke-direct {p3, p0}, Lcom/commsource/util/p2/c;-><init>(Landroidx/fragment/app/FragmentActivity;)V
@@ -2382,10 +2144,8 @@
 
     invoke-direct {v0, p0, p2}, Lcom/commsource/camera/ArVideoConfirmActivity$g;-><init>(Lcom/commsource/camera/ArVideoConfirmActivity;Ljava/lang/String;)V
 
-    .line 5
     invoke-virtual {p3, v0}, Lcom/commsource/util/p2/c;->c(Lcom/commsource/util/p2/b;)V
 
-    .line 6
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2398,7 +2158,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/camera/ArVideoConfirmActivity;->p0:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2415,10 +2174,8 @@
 
     const/4 v1, 0x1
 
-    .line 1
     iput-boolean v1, p0, Lcom/commsource/camera/ArVideoConfirmActivity;->p0:Z
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/camera/ArVideoConfirmActivity;->s0:Lcom/commsource/beautyplus/f0/k;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/k;->Z:Lcom/commsource/comic/widget/StrokeTextView;
@@ -2427,14 +2184,12 @@
 
     invoke-virtual {v1, v2}, Landroid/widget/TextView;->setVisibility(I)V
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/camera/ArVideoConfirmActivity;->s0:Lcom/commsource/beautyplus/f0/k;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/k;->Z:Lcom/commsource/comic/widget/StrokeTextView;
 
     invoke-virtual {v1, p1}, Landroid/widget/TextView;->setText(I)V
 
-    .line 4
     iget-object p1, p0, Lcom/commsource/camera/ArVideoConfirmActivity;->n0:Landroid/os/Handler;
 
     new-instance v1, Lcom/commsource/camera/r;
@@ -2445,7 +2200,6 @@
 
     invoke-virtual {p1, v1, v2, v3}, Landroid/os/Handler;->postDelayed(Ljava/lang/Runnable;J)Z
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2458,7 +2212,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/camera/ArVideoConfirmActivity;->q0:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2473,7 +2226,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/commsource/camera/m0;
 
     new-instance v2, Lcom/commsource/camera/q;
@@ -2484,10 +2236,8 @@
 
     iput-object v1, p0, Lcom/commsource/camera/ArVideoConfirmActivity;->u0:Lcom/commsource/camera/m0;
 
-    .line 2
     invoke-virtual {v1}, Landroid/view/OrientationEventListener;->enable()V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2500,7 +2250,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/camera/ArVideoConfirmActivity;->S:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2515,7 +2264,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p0}, Lf/d/i/e;->A1(Landroid/content/Context;)Z
 
     move-result v1
@@ -2524,14 +2272,11 @@
 
     const-string v1, "new_user_take_video_save"
 
-    .line 2
     invoke-static {p0, v1}, Lcom/commsource/statistics/m;->h(Landroid/content/Context;Ljava/lang/String;)V
 
-    .line 3
     :cond_0
     invoke-virtual {p0}, Lcom/commsource/camera/BaseCameraConfirmActivity;->M0()V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2544,7 +2289,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/camera/ArVideoConfirmActivity;->n0:Landroid/os/Handler;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2559,15 +2303,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/ArVideoConfirmActivity;->u0:Lcom/commsource/camera/m0;
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-virtual {v1}, Landroid/view/OrientationEventListener;->disable()V
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -2581,7 +2322,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/camera/ArVideoConfirmActivity;->o0:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2596,7 +2336,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/commsource/camera/ArVideoConfirmActivity;->f2(I)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2611,7 +2350,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/camera/ArVideoConfirmActivity;->b0:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2626,7 +2364,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/camera/ArVideoConfirmActivity;->c0:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2641,7 +2378,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/camera/ArVideoConfirmActivity;->Z:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2656,7 +2392,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget p0, p0, Lcom/commsource/camera/ArVideoConfirmActivity;->T:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2671,7 +2406,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget p0, p0, Lcom/commsource/camera/ArVideoConfirmActivity;->U:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2686,7 +2420,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/camera/ArVideoConfirmActivity;->d0:Lcom/commsource/camera/beauty/ArAnalyAgent$ArVideoInfo;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2701,7 +2434,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean p0, p0, Lcom/commsource/camera/ArVideoConfirmActivity;->Y:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2716,7 +2448,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/util/delegate/process/o;->c:Lcom/commsource/util/delegate/process/o$a;
 
     iget-object v2, p0, Lcom/commsource/camera/ArVideoConfirmActivity;->d0:Lcom/commsource/camera/beauty/ArAnalyAgent$ArVideoInfo;
@@ -2727,7 +2458,6 @@
 
     if-eqz v1, :cond_0
 
-    .line 2
     sget-object v1, Lcom/meitu/library/hwanalytics/spm/d;->b:Lcom/meitu/library/hwanalytics/spm/d;
 
     const-string/jumbo v2, "source_click_position"
@@ -2736,14 +2466,12 @@
 
     invoke-virtual {v1, v2, v3}, Lcom/meitu/library/hwanalytics/spm/d;->d(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 3
     new-instance v1, Lcom/commsource/camera/l;
 
     invoke-direct {v1, p0}, Lcom/commsource/camera/l;-><init>(Lcom/commsource/camera/ArVideoConfirmActivity;)V
 
     invoke-virtual {p1, v1}, Lcom/commsource/widget/p0;->a(Lcom/commsource/widget/p0$a;)V
 
-    .line 4
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -2757,14 +2485,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/commsource/camera/n;
 
     invoke-direct {v1, p0}, Lcom/commsource/camera/n;-><init>(Lcom/commsource/camera/ArVideoConfirmActivity;)V
 
     invoke-virtual {p1, v1}, Lcom/commsource/widget/p0;->a(Lcom/commsource/widget/p0$a;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2777,14 +2503,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/commsource/camera/t;
 
     invoke-direct {v1, p0}, Lcom/commsource/camera/t;-><init>(Lcom/commsource/camera/ArVideoConfirmActivity;)V
 
     invoke-virtual {p1, v1}, Lcom/commsource/widget/p0;->a(Lcom/commsource/widget/p0$a;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2799,7 +2523,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     iget-object p1, p0, Lcom/commsource/camera/ArVideoConfirmActivity;->s0:Lcom/commsource/beautyplus/f0/k;
 
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/k;->b:Lcom/commsource/widget/PressStrokeTextView;
@@ -2812,7 +2535,6 @@
 
     invoke-virtual {p1, v2}, Lcom/commsource/comic/widget/StrokeTextView;->setTextColor(I)V
 
-    .line 2
     iget-object p1, p0, Lcom/commsource/camera/ArVideoConfirmActivity;->s0:Lcom/commsource/beautyplus/f0/k;
 
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/k;->a:Lcom/commsource/widget/IconFrontView;
@@ -2823,7 +2545,6 @@
 
     invoke-virtual {p1, v2}, Landroid/widget/TextView;->setTextColor(I)V
 
-    .line 3
     iget-object p1, p0, Lcom/commsource/camera/ArVideoConfirmActivity;->s0:Lcom/commsource/beautyplus/f0/k;
 
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/k;->b:Lcom/commsource/widget/PressStrokeTextView;
@@ -2832,14 +2553,12 @@
 
     invoke-virtual {p1, v2}, Lcom/commsource/comic/widget/StrokeTextView;->setStroke(Z)V
 
-    .line 4
     iget-object p1, p0, Lcom/commsource/camera/ArVideoConfirmActivity;->s0:Lcom/commsource/beautyplus/f0/k;
 
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/k;->a:Lcom/commsource/widget/IconFrontView;
 
     invoke-virtual {p1, v2}, Lcom/commsource/widget/IconFrontView;->setShowStroke(Z)V
 
-    .line 5
     iget-object p1, p0, Lcom/commsource/camera/ArVideoConfirmActivity;->s0:Lcom/commsource/beautyplus/f0/k;
 
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/k;->M:Lcom/commsource/widget/PressStrokeTextView;
@@ -2850,7 +2569,6 @@
 
     invoke-virtual {p1, v3}, Lcom/commsource/comic/widget/StrokeTextView;->setTextColor(I)V
 
-    .line 6
     iget-object p1, p0, Lcom/commsource/camera/ArVideoConfirmActivity;->s0:Lcom/commsource/beautyplus/f0/k;
 
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/k;->L:Lcom/commsource/widget/IconFrontView;
@@ -2861,21 +2579,18 @@
 
     invoke-virtual {p1, v3}, Landroid/widget/TextView;->setTextColor(I)V
 
-    .line 7
     iget-object p1, p0, Lcom/commsource/camera/ArVideoConfirmActivity;->s0:Lcom/commsource/beautyplus/f0/k;
 
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/k;->M:Lcom/commsource/widget/PressStrokeTextView;
 
     invoke-virtual {p1, v2}, Lcom/commsource/comic/widget/StrokeTextView;->setStroke(Z)V
 
-    .line 8
     iget-object p1, p0, Lcom/commsource/camera/ArVideoConfirmActivity;->s0:Lcom/commsource/beautyplus/f0/k;
 
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/k;->L:Lcom/commsource/widget/IconFrontView;
 
     invoke-virtual {p1, v2}, Lcom/commsource/widget/IconFrontView;->setShowStroke(Z)V
 
-    .line 9
     iget-object p1, p0, Lcom/commsource/camera/ArVideoConfirmActivity;->s0:Lcom/commsource/beautyplus/f0/k;
 
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/k;->X:Lcom/commsource/widget/PressStrokeTextView;
@@ -2886,7 +2601,6 @@
 
     invoke-virtual {p1, v3}, Lcom/commsource/comic/widget/StrokeTextView;->setTextColor(I)V
 
-    .line 10
     iget-object p1, p0, Lcom/commsource/camera/ArVideoConfirmActivity;->s0:Lcom/commsource/beautyplus/f0/k;
 
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/k;->W:Lcom/commsource/widget/IconFrontView;
@@ -2897,21 +2611,18 @@
 
     invoke-virtual {p1, v3}, Landroid/widget/TextView;->setTextColor(I)V
 
-    .line 11
     iget-object p1, p0, Lcom/commsource/camera/ArVideoConfirmActivity;->s0:Lcom/commsource/beautyplus/f0/k;
 
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/k;->X:Lcom/commsource/widget/PressStrokeTextView;
 
     invoke-virtual {p1, v2}, Lcom/commsource/comic/widget/StrokeTextView;->setStroke(Z)V
 
-    .line 12
     iget-object p1, p0, Lcom/commsource/camera/ArVideoConfirmActivity;->s0:Lcom/commsource/beautyplus/f0/k;
 
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/k;->W:Lcom/commsource/widget/IconFrontView;
 
     invoke-virtual {p1, v2}, Lcom/commsource/widget/IconFrontView;->setShowStroke(Z)V
 
-    .line 13
     iget-object p1, p0, Lcom/commsource/camera/ArVideoConfirmActivity;->s0:Lcom/commsource/beautyplus/f0/k;
 
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/k;->V:Lcom/commsource/widget/PressStrokeTextView;
@@ -2922,7 +2633,6 @@
 
     invoke-virtual {p1, v3}, Lcom/commsource/comic/widget/StrokeTextView;->setTextColor(I)V
 
-    .line 14
     iget-object p1, p0, Lcom/commsource/camera/ArVideoConfirmActivity;->s0:Lcom/commsource/beautyplus/f0/k;
 
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/k;->T:Lcom/commsource/widget/IconFrontView;
@@ -2933,28 +2643,24 @@
 
     invoke-virtual {p1, v1}, Landroid/widget/TextView;->setTextColor(I)V
 
-    .line 15
     iget-object p1, p0, Lcom/commsource/camera/ArVideoConfirmActivity;->s0:Lcom/commsource/beautyplus/f0/k;
 
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/k;->V:Lcom/commsource/widget/PressStrokeTextView;
 
     invoke-virtual {p1, v2}, Lcom/commsource/comic/widget/StrokeTextView;->setStroke(Z)V
 
-    .line 16
     iget-object p1, p0, Lcom/commsource/camera/ArVideoConfirmActivity;->s0:Lcom/commsource/beautyplus/f0/k;
 
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/k;->T:Lcom/commsource/widget/IconFrontView;
 
     invoke-virtual {p1, v2}, Lcom/commsource/widget/IconFrontView;->setShowStroke(Z)V
 
-    .line 17
     iget-object p1, p0, Lcom/commsource/camera/ArVideoConfirmActivity;->s0:Lcom/commsource/beautyplus/f0/k;
 
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/k;->O:Landroid/widget/ProgressBar;
 
     sget v1, Lcom/res/provider/ResDRAWABLE;->progress_arvideo_white_loading:I
 
-    .line 18
     invoke-static {v1}, Lcom/meitu/library/p/d/b;->g(I)Landroid/graphics/drawable/Drawable;
 
     move-result-object v1
@@ -2963,7 +2669,6 @@
 
     goto/16 :goto_0
 
-    .line 19
     :cond_0
     iget-object p1, p0, Lcom/commsource/camera/ArVideoConfirmActivity;->s0:Lcom/commsource/beautyplus/f0/k;
 
@@ -2977,7 +2682,6 @@
 
     invoke-virtual {p1, v2}, Lcom/commsource/comic/widget/StrokeTextView;->setTextColor(I)V
 
-    .line 20
     iget-object p1, p0, Lcom/commsource/camera/ArVideoConfirmActivity;->s0:Lcom/commsource/beautyplus/f0/k;
 
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/k;->a:Lcom/commsource/widget/IconFrontView;
@@ -2988,7 +2692,6 @@
 
     invoke-virtual {p1, v2}, Landroid/widget/TextView;->setTextColor(I)V
 
-    .line 21
     iget-object p1, p0, Lcom/commsource/camera/ArVideoConfirmActivity;->s0:Lcom/commsource/beautyplus/f0/k;
 
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/k;->b:Lcom/commsource/widget/PressStrokeTextView;
@@ -2997,14 +2700,12 @@
 
     invoke-virtual {p1, v2}, Lcom/commsource/comic/widget/StrokeTextView;->setStroke(Z)V
 
-    .line 22
     iget-object p1, p0, Lcom/commsource/camera/ArVideoConfirmActivity;->s0:Lcom/commsource/beautyplus/f0/k;
 
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/k;->a:Lcom/commsource/widget/IconFrontView;
 
     invoke-virtual {p1, v2}, Lcom/commsource/widget/IconFrontView;->setShowStroke(Z)V
 
-    .line 23
     iget-object p1, p0, Lcom/commsource/camera/ArVideoConfirmActivity;->s0:Lcom/commsource/beautyplus/f0/k;
 
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/k;->M:Lcom/commsource/widget/PressStrokeTextView;
@@ -3015,7 +2716,6 @@
 
     invoke-virtual {p1, v3}, Lcom/commsource/comic/widget/StrokeTextView;->setTextColor(I)V
 
-    .line 24
     iget-object p1, p0, Lcom/commsource/camera/ArVideoConfirmActivity;->s0:Lcom/commsource/beautyplus/f0/k;
 
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/k;->L:Lcom/commsource/widget/IconFrontView;
@@ -3026,21 +2726,18 @@
 
     invoke-virtual {p1, v3}, Landroid/widget/TextView;->setTextColor(I)V
 
-    .line 25
     iget-object p1, p0, Lcom/commsource/camera/ArVideoConfirmActivity;->s0:Lcom/commsource/beautyplus/f0/k;
 
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/k;->M:Lcom/commsource/widget/PressStrokeTextView;
 
     invoke-virtual {p1, v2}, Lcom/commsource/comic/widget/StrokeTextView;->setStroke(Z)V
 
-    .line 26
     iget-object p1, p0, Lcom/commsource/camera/ArVideoConfirmActivity;->s0:Lcom/commsource/beautyplus/f0/k;
 
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/k;->L:Lcom/commsource/widget/IconFrontView;
 
     invoke-virtual {p1, v2}, Lcom/commsource/widget/IconFrontView;->setShowStroke(Z)V
 
-    .line 27
     iget-object p1, p0, Lcom/commsource/camera/ArVideoConfirmActivity;->s0:Lcom/commsource/beautyplus/f0/k;
 
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/k;->X:Lcom/commsource/widget/PressStrokeTextView;
@@ -3051,7 +2748,6 @@
 
     invoke-virtual {p1, v3}, Lcom/commsource/comic/widget/StrokeTextView;->setTextColor(I)V
 
-    .line 28
     iget-object p1, p0, Lcom/commsource/camera/ArVideoConfirmActivity;->s0:Lcom/commsource/beautyplus/f0/k;
 
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/k;->W:Lcom/commsource/widget/IconFrontView;
@@ -3062,21 +2758,18 @@
 
     invoke-virtual {p1, v3}, Landroid/widget/TextView;->setTextColor(I)V
 
-    .line 29
     iget-object p1, p0, Lcom/commsource/camera/ArVideoConfirmActivity;->s0:Lcom/commsource/beautyplus/f0/k;
 
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/k;->X:Lcom/commsource/widget/PressStrokeTextView;
 
     invoke-virtual {p1, v2}, Lcom/commsource/comic/widget/StrokeTextView;->setStroke(Z)V
 
-    .line 30
     iget-object p1, p0, Lcom/commsource/camera/ArVideoConfirmActivity;->s0:Lcom/commsource/beautyplus/f0/k;
 
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/k;->W:Lcom/commsource/widget/IconFrontView;
 
     invoke-virtual {p1, v2}, Lcom/commsource/widget/IconFrontView;->setShowStroke(Z)V
 
-    .line 31
     iget-object p1, p0, Lcom/commsource/camera/ArVideoConfirmActivity;->s0:Lcom/commsource/beautyplus/f0/k;
 
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/k;->V:Lcom/commsource/widget/PressStrokeTextView;
@@ -3087,7 +2780,6 @@
 
     invoke-virtual {p1, v3}, Lcom/commsource/comic/widget/StrokeTextView;->setTextColor(I)V
 
-    .line 32
     iget-object p1, p0, Lcom/commsource/camera/ArVideoConfirmActivity;->s0:Lcom/commsource/beautyplus/f0/k;
 
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/k;->T:Lcom/commsource/widget/IconFrontView;
@@ -3098,35 +2790,30 @@
 
     invoke-virtual {p1, v1}, Landroid/widget/TextView;->setTextColor(I)V
 
-    .line 33
     iget-object p1, p0, Lcom/commsource/camera/ArVideoConfirmActivity;->s0:Lcom/commsource/beautyplus/f0/k;
 
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/k;->V:Lcom/commsource/widget/PressStrokeTextView;
 
     invoke-virtual {p1, v2}, Lcom/commsource/comic/widget/StrokeTextView;->setStroke(Z)V
 
-    .line 34
     iget-object p1, p0, Lcom/commsource/camera/ArVideoConfirmActivity;->s0:Lcom/commsource/beautyplus/f0/k;
 
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/k;->T:Lcom/commsource/widget/IconFrontView;
 
     invoke-virtual {p1, v2}, Lcom/commsource/widget/IconFrontView;->setShowStroke(Z)V
 
-    .line 35
     iget-object p1, p0, Lcom/commsource/camera/ArVideoConfirmActivity;->s0:Lcom/commsource/beautyplus/f0/k;
 
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/k;->O:Landroid/widget/ProgressBar;
 
     sget v1, Lcom/res/provider/ResDRAWABLE;->progress_arvideo_loading:I
 
-    .line 36
     invoke-static {v1}, Lcom/meitu/library/p/d/b;->g(I)Landroid/graphics/drawable/Drawable;
 
     move-result-object v1
 
     invoke-virtual {p1, v1}, Landroid/widget/ProgressBar;->setIndeterminateDrawable(Landroid/graphics/drawable/Drawable;)V
 
-    .line 37
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -3140,7 +2827,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p1}, Landroid/view/View;->animate()Landroid/view/ViewPropertyAnimator;
 
     move-result-object v1
@@ -3157,14 +2843,12 @@
 
     move-result-object p1
 
-    .line 2
     invoke-virtual {p1, p3, p4}, Landroid/view/ViewPropertyAnimator;->setDuration(J)Landroid/view/ViewPropertyAnimator;
 
     move-result-object p1
 
     invoke-virtual {p1}, Landroid/view/ViewPropertyAnimator;->start()V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -3177,14 +2861,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/ArVideoConfirmActivity;->s0:Lcom/commsource/beautyplus/f0/k;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/k;->S:Landroid/widget/RelativeLayout;
 
     invoke-virtual {v1, p0}, Landroid/widget/RelativeLayout;->addOnLayoutChangeListener(Landroid/view/View$OnLayoutChangeListener;)V
 
-    .line 2
     invoke-direct {p0}, Lcom/commsource/camera/ArVideoConfirmActivity;->O0()Z
 
     move-result v1
@@ -3203,10 +2885,8 @@
 
     const-string v3, "icon\u72b6\u6001"
 
-    .line 3
     invoke-static {v2, v3, v1}, Lcom/commsource/statistics/i;->r(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/camera/ArVideoConfirmActivity;->s0:Lcom/commsource/beautyplus/f0/k;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/k;->d:Lcom/commsource/camera/xcamera/widget/CameraSaveLoadingView;
@@ -3217,35 +2897,30 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/camera/xcamera/widget/CameraSaveLoadingView;->setOnLoadingListener(Lcom/commsource/camera/xcamera/widget/CameraSaveLoadingView$b;)V
 
-    .line 5
     iget-object v1, p0, Lcom/commsource/camera/ArVideoConfirmActivity;->s0:Lcom/commsource/beautyplus/f0/k;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/k;->c:Landroid/widget/RelativeLayout;
 
     invoke-virtual {v1, p0}, Landroid/widget/RelativeLayout;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 6
     iget-object v1, p0, Lcom/commsource/camera/ArVideoConfirmActivity;->s0:Lcom/commsource/beautyplus/f0/k;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/k;->d:Lcom/commsource/camera/xcamera/widget/CameraSaveLoadingView;
 
     invoke-virtual {v1, p0}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 7
     iget-object v1, p0, Lcom/commsource/camera/ArVideoConfirmActivity;->s0:Lcom/commsource/beautyplus/f0/k;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/k;->g:Landroid/widget/RelativeLayout;
 
     invoke-virtual {v1, p0}, Landroid/widget/RelativeLayout;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 8
     iget-object v1, p0, Lcom/commsource/camera/ArVideoConfirmActivity;->s0:Lcom/commsource/beautyplus/f0/k;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/k;->f:Landroid/widget/RelativeLayout;
 
     invoke-virtual {v1, p0}, Landroid/widget/RelativeLayout;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 9
     iget-object v1, p0, Lcom/commsource/camera/ArVideoConfirmActivity;->s0:Lcom/commsource/beautyplus/f0/k;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/k;->Q:Landroid/widget/RelativeLayout;
@@ -3254,7 +2929,6 @@
 
     sget v1, Lcom/res/provider/ResID;->fl_container:I
 
-    .line 10
     invoke-virtual {p0, v1}, Landroidx/appcompat/app/AppCompatActivity;->findViewById(I)Landroid/view/View;
 
     move-result-object v1
@@ -3263,7 +2937,6 @@
 
     iput-object v1, p0, Lcom/commsource/camera/ArVideoConfirmActivity;->W:Landroid/widget/FrameLayout;
 
-    .line 11
     iget-object v1, p0, Lcom/commsource/camera/ArVideoConfirmActivity;->s0:Lcom/commsource/beautyplus/f0/k;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/k;->P:Landroid/widget/FrameLayout;
@@ -3274,7 +2947,6 @@
 
     sget v1, Lcom/res/provider/ResID;->ll_paid_filter:I
 
-    .line 12
     invoke-virtual {p0, v1}, Landroidx/appcompat/app/AppCompatActivity;->findViewById(I)Landroid/view/View;
 
     move-result-object v1
@@ -3283,7 +2955,6 @@
 
     invoke-virtual {v1, v2}, Landroid/view/View;->setVisibility(I)V
 
-    .line 13
     invoke-static {p0}, Lcom/commsource/advertisiting/d;->X(Landroid/content/Context;)Z
 
     move-result v1
@@ -3292,26 +2963,22 @@
 
     const/4 v1, 0x0
 
-    .line 14
     invoke-static {p0, v1}, Lcom/commsource/advertisiting/d;->n0(Landroid/content/Context;Z)V
 
     sget v1, Lcom/res/provider/ResID;->vs_story_share_tip:I
 
-    .line 15
     invoke-virtual {p0, v1}, Landroidx/appcompat/app/AppCompatActivity;->findViewById(I)Landroid/view/View;
 
     move-result-object v1
 
     check-cast v1, Landroid/view/ViewStub;
 
-    .line 16
     invoke-virtual {v1}, Landroid/view/ViewStub;->inflate()Landroid/view/View;
 
     move-result-object v1
 
     iput-object v1, p0, Lcom/commsource/camera/ArVideoConfirmActivity;->m0:Landroid/view/View;
 
-    .line 17
     iget-object v1, p0, Lcom/commsource/camera/ArVideoConfirmActivity;->s0:Lcom/commsource/beautyplus/f0/k;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/k;->f:Landroid/widget/RelativeLayout;
@@ -3322,7 +2989,6 @@
 
     invoke-virtual {v1, v2}, Landroid/widget/RelativeLayout;->post(Ljava/lang/Runnable;)Z
 
-    .line 18
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -3336,7 +3002,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/ArVideoConfirmActivity;->W:Landroid/widget/FrameLayout;
 
     invoke-virtual {v1}, Landroid/widget/FrameLayout;->getViewTreeObserver()Landroid/view/ViewTreeObserver;
@@ -3349,7 +3014,6 @@
 
     invoke-virtual {v1, v2}, Landroid/view/ViewTreeObserver;->addOnGlobalLayoutListener(Landroid/view/ViewTreeObserver$OnGlobalLayoutListener;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -3366,7 +3030,6 @@
 
     if-eqz p1, :cond_5
 
-    .line 1
     invoke-virtual {p1}, Lcom/commsource/camera/beauty/ArAnalyAgent$ArVideoInfo;->getUseFilters()Ljava/util/List;
 
     move-result-object v2
@@ -3375,7 +3038,6 @@
 
     goto :goto_1
 
-    .line 2
     :cond_0
     invoke-virtual {p1}, Lcom/commsource/camera/beauty/ArAnalyAgent$ArVideoInfo;->getUseFilters()Ljava/util/List;
 
@@ -3401,7 +3063,6 @@
 
     if-eqz v2, :cond_1
 
-    .line 3
     invoke-virtual {v2}, Lcom/meitu/template/bean/Filter;->getGroupId()I
 
     move-result v3
@@ -3414,28 +3075,23 @@
 
     const/4 v1, 0x1
 
-    .line 4
     iget-object v3, p0, Lcom/commsource/camera/ArVideoConfirmActivity;->h0:Lcom/meitu/template/bean/Filter;
 
     if-nez v3, :cond_2
 
-    .line 5
     iput-object v2, p0, Lcom/commsource/camera/ArVideoConfirmActivity;->h0:Lcom/meitu/template/bean/Filter;
 
-    .line 6
     :cond_2
     iget-object v3, p0, Lcom/commsource/camera/ArVideoConfirmActivity;->i0:Ljava/util/ArrayList;
 
     if-nez v3, :cond_3
 
-    .line 7
     new-instance v3, Ljava/util/ArrayList;
 
     invoke-direct {v3}, Ljava/util/ArrayList;-><init>()V
 
     iput-object v3, p0, Lcom/commsource/camera/ArVideoConfirmActivity;->i0:Ljava/util/ArrayList;
 
-    .line 8
     :cond_3
     iget-object v3, p0, Lcom/commsource/camera/ArVideoConfirmActivity;->i0:Ljava/util/ArrayList;
 
@@ -3443,13 +3099,11 @@
 
     goto :goto_0
 
-    .line 9
     :cond_4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
 
-    .line 10
     :cond_5
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -3498,7 +3152,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -3527,7 +3180,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -3556,7 +3208,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/camera/BaseCameraConfirmActivity;->Q:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -3571,7 +3222,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -3592,7 +3242,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -3617,10 +3266,8 @@
 
     const-string v2, "exit"
 
-    .line 1
     invoke-static {v1, v2}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -3633,7 +3280,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const/4 v0, 0x0
@@ -3648,7 +3294,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -3661,7 +3306,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -3674,15 +3318,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/ArVideoConfirmActivity;->X:Lf/d/k/l;
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-virtual {v1}, Lf/d/k/l;->I()V
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -3696,31 +3337,25 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/camera/ArVideoConfirmActivity;->a0:Z
 
     if-nez v1, :cond_0
 
     const/4 v1, -0x1
 
-    .line 2
     invoke-virtual {p0, v1}, Landroid/app/Activity;->setResult(I)V
 
     :cond_0
     const/4 v1, 0x0
 
-    .line 3
     invoke-static {v1}, Lf/d/i/e;->j3(Ljava/lang/String;)V
 
     const/4 v1, 0x0
 
-    .line 4
     invoke-static {v1}, Lf/d/i/e;->x2(I)V
 
-    .line 5
     invoke-super {p0}, Lcom/commsource/beautyplus/BaseActivity;->finish()V
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -3733,7 +3368,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -3746,7 +3380,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -3759,7 +3392,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -3772,12 +3404,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/meitu/library/hwanalytics/spm/e/a;
 
     invoke-direct {v1}, Lcom/meitu/library/hwanalytics/spm/e/a;-><init>()V
 
-    .line 2
     const-class v2, Lcom/commsource/camera/ArVideoConfirmActivity;
 
     invoke-virtual {v2}, Ljava/lang/Class;->getSimpleName()Ljava/lang/String;
@@ -3786,15 +3416,12 @@
 
     invoke-virtual {v1, v2}, Lcom/meitu/library/hwanalytics/spm/e/a;->s(Ljava/lang/String;)V
 
-    .line 3
     invoke-virtual {v1, p0}, Lcom/meitu/library/hwanalytics/spm/e/a;->t(Ljava/lang/Object;)V
 
     const-string v2, "1002_03"
 
-    .line 4
     invoke-virtual {v1, v2}, Lcom/meitu/library/hwanalytics/spm/e/a;->r(Ljava/lang/String;)V
 
-    .line 5
     sget-object v2, Lcom/meitu/library/hwanalytics/spm/SPMManager;->h:Lcom/meitu/library/hwanalytics/spm/SPMManager$a;
 
     invoke-virtual {v2}, Lcom/meitu/library/hwanalytics/spm/SPMManager$a;->a()Lcom/meitu/library/hwanalytics/spm/SPMManager;
@@ -3803,7 +3430,6 @@
 
     invoke-virtual {v2, v1}, Lcom/meitu/library/hwanalytics/spm/SPMManager;->p(Lcom/meitu/library/hwanalytics/spm/e/a;)V
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -3816,7 +3442,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -3829,20 +3454,16 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0, p1, p2, p3}, Landroidx/fragment/app/FragmentActivity;->onActivityResult(IILandroid/content/Intent;)V
 
     if-nez p1, :cond_0
 
-    .line 2
     iget-boolean p1, p0, Lcom/commsource/camera/BaseCameraConfirmActivity;->Q:Z
 
     if-nez p1, :cond_0
 
-    .line 3
     invoke-virtual {p0}, Lcom/commsource/camera/ArVideoConfirmActivity;->finish()V
 
-    .line 4
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -3856,15 +3477,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0}, Lcom/commsource/camera/BaseCameraConfirmActivity;->onBackPressed()V
 
     const-string/jumbo v1, "video_savepage_back"
 
-    .line 2
     invoke-static {v1}, Lcom/commsource/statistics/i;->p(Ljava/lang/String;)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -3877,30 +3495,25 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/commsource/util/common/k;->a()Z
 
     move-result v1
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 3
     :cond_0
     iget-boolean v1, p0, Lcom/commsource/camera/ArVideoConfirmActivity;->q0:Z
 
     if-eqz v1, :cond_1
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 5
     :cond_1
     iget-object v1, p0, Lcom/commsource/camera/ArVideoConfirmActivity;->m0:Landroid/view/View;
 
@@ -3912,14 +3525,12 @@
 
     if-nez v1, :cond_2
 
-    .line 6
     iget-object v1, p0, Lcom/commsource/camera/ArVideoConfirmActivity;->m0:Landroid/view/View;
 
     const/16 v2, 0x8
 
     invoke-virtual {v1, v2}, Landroid/view/View;->setVisibility(I)V
 
-    .line 7
     :cond_2
     iget-object v1, p0, Lcom/commsource/camera/ArVideoConfirmActivity;->s0:Lcom/commsource/beautyplus/f0/k;
 
@@ -3929,57 +3540,46 @@
 
     const-string/jumbo p1, "video_savepage_back"
 
-    .line 8
     invoke-static {p1}, Lcom/commsource/statistics/i;->p(Ljava/lang/String;)V
 
-    .line 9
     invoke-virtual {p0}, Lcom/commsource/camera/ArVideoConfirmActivity;->finish()V
 
     goto :goto_0
 
-    .line 10
     :cond_3
     iget-object v2, v1, Lcom/commsource/beautyplus/f0/k;->g:Landroid/widget/RelativeLayout;
 
     if-ne p1, v2, :cond_4
 
-    .line 11
     invoke-direct {p0}, Lcom/commsource/camera/ArVideoConfirmActivity;->Y1()V
 
     goto :goto_0
 
-    .line 12
     :cond_4
     iget-object v2, v1, Lcom/commsource/beautyplus/f0/k;->d:Lcom/commsource/camera/xcamera/widget/CameraSaveLoadingView;
 
     if-ne p1, v2, :cond_5
 
-    .line 13
     invoke-direct {p0}, Lcom/commsource/camera/ArVideoConfirmActivity;->W1()V
 
     goto :goto_0
 
-    .line 14
     :cond_5
     iget-object v2, v1, Lcom/commsource/beautyplus/f0/k;->f:Landroid/widget/RelativeLayout;
 
     if-ne p1, v2, :cond_6
 
-    .line 15
     invoke-direct {p0}, Lcom/commsource/camera/ArVideoConfirmActivity;->X1()V
 
     goto :goto_0
 
-    .line 16
     :cond_6
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/k;->Q:Landroid/widget/RelativeLayout;
 
     if-ne p1, v1, :cond_7
 
-    .line 17
     invoke-direct {p0}, Lcom/commsource/camera/ArVideoConfirmActivity;->a2()V
 
-    .line 18
     :cond_7
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -3994,10 +3594,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0, p1}, Lcom/commsource/camera/BaseCameraConfirmActivity;->onCreate(Landroid/os/Bundle;)V
 
-    .line 2
     invoke-virtual {p0}, Landroid/app/Activity;->getIntent()Landroid/content/Intent;
 
     move-result-object p1
@@ -4012,7 +3610,6 @@
 
     iput p1, p0, Lcom/commsource/camera/ArVideoConfirmActivity;->T:I
 
-    .line 3
     invoke-virtual {p0}, Landroid/app/Activity;->getIntent()Landroid/content/Intent;
 
     move-result-object p1
@@ -4027,7 +3624,6 @@
 
     iput p1, p0, Lcom/commsource/camera/ArVideoConfirmActivity;->U:I
 
-    .line 4
     invoke-virtual {p0}, Landroid/app/Activity;->getIntent()Landroid/content/Intent;
 
     move-result-object p1
@@ -4042,7 +3638,6 @@
 
     iput p1, p0, Lcom/commsource/camera/ArVideoConfirmActivity;->V:I
 
-    .line 5
     invoke-virtual {p0}, Landroid/app/Activity;->getIntent()Landroid/content/Intent;
 
     move-result-object p1
@@ -4057,10 +3652,8 @@
 
     iput-object p1, p0, Lcom/commsource/camera/ArVideoConfirmActivity;->d0:Lcom/commsource/camera/beauty/ArAnalyAgent$ArVideoInfo;
 
-    .line 6
     invoke-direct {p0}, Lcom/commsource/camera/ArVideoConfirmActivity;->g2()V
 
-    .line 7
     new-instance p1, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/ipar/ScreenShotManager;
 
     invoke-direct {p1, p0}, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/ipar/ScreenShotManager;-><init>(Landroidx/lifecycle/LifecycleOwner;)V
@@ -4069,12 +3662,10 @@
 
     const/4 p1, 0x1
 
-    .line 8
     invoke-static {p0, p1}, Lf/d/i/e;->H2(Landroid/content/Context;I)V
 
     sget v1, Lcom/res/provider/ResLAYOUT;->activity_camera_confirm:I
 
-    .line 9
     invoke-static {p0, v1}, Landroidx/databinding/DataBindingUtil;->setContentView(Landroid/app/Activity;I)Landroidx/databinding/ViewDataBinding;
 
     move-result-object v1
@@ -4083,7 +3674,6 @@
 
     iput-object v1, p0, Lcom/commsource/camera/ArVideoConfirmActivity;->s0:Lcom/commsource/beautyplus/f0/k;
 
-    .line 10
     invoke-virtual {p0}, Landroid/app/Activity;->getIntent()Landroid/content/Intent;
 
     move-result-object v1
@@ -4098,15 +3688,12 @@
 
     const/4 v1, 0x2
 
-    .line 11
     invoke-static {v1}, Lf/d/i/e;->x2(I)V
 
-    .line 12
     iget-object v1, p0, Lcom/commsource/camera/ArVideoConfirmActivity;->S:Ljava/lang/String;
 
     invoke-static {v1}, Lf/d/i/e;->j3(Ljava/lang/String;)V
 
-    .line 13
     iget-object v1, p0, Lcom/commsource/camera/ArVideoConfirmActivity;->d0:Lcom/commsource/camera/beauty/ArAnalyAgent$ArVideoInfo;
 
     invoke-virtual {v1}, Lcom/commsource/camera/beauty/ArAnalyAgent$ArVideoInfo;->getDuration()F
@@ -4115,14 +3702,12 @@
 
     iput v1, p0, Lcom/commsource/camera/ArVideoConfirmActivity;->k0:F
 
-    .line 14
     invoke-direct {p0}, Lcom/commsource/camera/ArVideoConfirmActivity;->O0()Z
 
     move-result v1
 
     if-eqz v1, :cond_0
 
-    .line 15
     iget-object v1, p0, Lcom/commsource/camera/ArVideoConfirmActivity;->s0:Lcom/commsource/beautyplus/f0/k;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/k;->Q:Landroid/widget/RelativeLayout;
@@ -4133,7 +3718,6 @@
 
     goto :goto_0
 
-    .line 16
     :cond_0
     iget-object v1, p0, Lcom/commsource/camera/ArVideoConfirmActivity;->s0:Lcom/commsource/beautyplus/f0/k;
 
@@ -4143,7 +3727,6 @@
 
     invoke-virtual {v1, v2}, Landroid/widget/RelativeLayout;->setAlpha(F)V
 
-    .line 17
     :goto_0
     invoke-virtual {p0}, Landroid/app/Activity;->getIntent()Landroid/content/Intent;
 
@@ -4159,7 +3742,6 @@
 
     iput-boolean v1, p0, Lcom/commsource/camera/ArVideoConfirmActivity;->e0:Z
 
-    .line 18
     iget-object v1, p0, Lcom/commsource/camera/ArVideoConfirmActivity;->d0:Lcom/commsource/camera/beauty/ArAnalyAgent$ArVideoInfo;
 
     invoke-direct {p0, v1}, Lcom/commsource/camera/ArVideoConfirmActivity;->z1(Lcom/commsource/camera/beauty/ArAnalyAgent$ArVideoInfo;)Z
@@ -4168,10 +3750,8 @@
 
     iput-boolean v1, p0, Lcom/commsource/camera/ArVideoConfirmActivity;->g0:Z
 
-    .line 19
     invoke-direct {p0}, Lcom/commsource/camera/ArVideoConfirmActivity;->x1()V
 
-    .line 20
     invoke-virtual {p0}, Landroidx/fragment/app/FragmentActivity;->getSupportFragmentManager()Landroidx/fragment/app/FragmentManager;
 
     move-result-object v1
@@ -4188,7 +3768,6 @@
 
     if-nez v1, :cond_1
 
-    .line 21
     iget-object v1, p0, Lcom/commsource/camera/ArVideoConfirmActivity;->S:Ljava/lang/String;
 
     iget v3, p0, Lcom/commsource/camera/ArVideoConfirmActivity;->T:I
@@ -4203,7 +3782,6 @@
 
     iput-object p1, p0, Lcom/commsource/camera/ArVideoConfirmActivity;->X:Lf/d/k/l;
 
-    .line 22
     :cond_1
     invoke-virtual {p0}, Landroidx/fragment/app/FragmentActivity;->getSupportFragmentManager()Landroidx/fragment/app/FragmentManager;
 
@@ -4215,21 +3793,16 @@
 
     sget v1, Lcom/res/provider/ResID;->fl_container:I
 
-    .line 23
     iget-object v3, p0, Lcom/commsource/camera/ArVideoConfirmActivity;->X:Lf/d/k/l;
 
     invoke-virtual {p1, v1, v3, v2}, Landroidx/fragment/app/FragmentTransaction;->replace(ILandroidx/fragment/app/Fragment;Ljava/lang/String;)Landroidx/fragment/app/FragmentTransaction;
 
-    .line 24
     invoke-virtual {p1}, Landroidx/fragment/app/FragmentTransaction;->commitAllowingStateLoss()I
 
-    .line 25
     invoke-direct {p0}, Lcom/commsource/camera/ArVideoConfirmActivity;->y1()V
 
-    .line 26
     invoke-direct {p0}, Lcom/commsource/camera/ArVideoConfirmActivity;->b2()V
 
-    .line 27
     invoke-static {}, Lcom/commsource/util/x;->C()Z
 
     move-result p1
@@ -4242,10 +3815,8 @@
 
     if-eqz p1, :cond_2
 
-    .line 28
     invoke-static {}, Lcom/tencent/bugly/crashreport/CrashReport;->testJavaCrash()V
 
-    .line 29
     :cond_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -4259,27 +3830,22 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0}, Lcom/commsource/camera/BaseCameraConfirmActivity;->onDestroy()V
 
-    .line 2
     invoke-direct {p0}, Lcom/commsource/camera/ArVideoConfirmActivity;->i2()V
 
-    .line 3
     invoke-static {}, Lcom/commsource/beautymain/utils/h;->d()Lcom/commsource/beautymain/utils/h;
 
     move-result-object v1
 
     invoke-virtual {v1}, Lcom/commsource/beautymain/utils/h;->j()V
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/camera/ArVideoConfirmActivity;->n0:Landroid/os/Handler;
 
     const/4 v2, 0x0
 
     invoke-virtual {v1, v2}, Landroid/os/Handler;->removeCallbacksAndMessages(Ljava/lang/Object;)V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -4292,7 +3858,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget p2, p0, Lcom/commsource/camera/ArVideoConfirmActivity;->j0:I
 
     iget-object p3, p0, Lcom/commsource/camera/ArVideoConfirmActivity;->s0:Lcom/commsource/beautyplus/f0/k;
@@ -4305,7 +3870,6 @@
 
     if-eq p2, p3, :cond_0
 
-    .line 2
     iget-object p2, p0, Lcom/commsource/camera/ArVideoConfirmActivity;->s0:Lcom/commsource/beautyplus/f0/k;
 
     iget-object p2, p2, Lcom/commsource/beautyplus/f0/k;->S:Landroid/widget/RelativeLayout;
@@ -4316,10 +3880,8 @@
 
     iput p2, p0, Lcom/commsource/camera/ArVideoConfirmActivity;->j0:I
 
-    .line 3
     invoke-direct {p0}, Lcom/commsource/camera/ArVideoConfirmActivity;->y1()V
 
-    .line 4
     :cond_0
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -4333,20 +3895,16 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0}, Lcom/commsource/camera/BaseCameraConfirmActivity;->onPause()V
 
-    .line 2
     iget-boolean v1, p0, Lcom/commsource/camera/BaseCameraConfirmActivity;->Q:Z
 
     if-nez v1, :cond_0
 
     const-string v1, "confirmpage_video"
 
-    .line 3
     invoke-static {v1}, Lcom/commsource/statistics/i;->D(Ljava/lang/String;)V
 
-    .line 4
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -4360,36 +3918,29 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0}, Lcom/commsource/camera/BaseCameraConfirmActivity;->onResume()V
 
     const/4 v1, 0x0
 
-    .line 2
     iput-boolean v1, p0, Lcom/commsource/camera/ArVideoConfirmActivity;->f0:Z
 
-    .line 3
     iget-boolean v1, p0, Lcom/commsource/camera/BaseCameraConfirmActivity;->Q:Z
 
     if-nez v1, :cond_0
 
     const-string v1, "confirmpage_video"
 
-    .line 4
     invoke-static {v1}, Lcom/commsource/statistics/i;->C(Ljava/lang/String;)V
 
     :cond_0
     const-string/jumbo v1, "video_savepage_imp"
 
-    .line 5
     invoke-static {v1}, Lcom/commsource/statistics/i;->p(Ljava/lang/String;)V
 
     const/4 v1, 0x2
 
-    .line 6
     invoke-static {v1}, Lf/d/i/e;->x2(I)V
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -4402,32 +3953,25 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/ArVideoConfirmActivity;->X:Lf/d/k/l;
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-virtual {p0}, Lcom/commsource/camera/ArVideoConfirmActivity;->f()V
 
-    .line 3
     :cond_0
     invoke-super {p0}, Lcom/commsource/beautyplus/BaseActivity;->onStop()V
 
-    .line 4
     iget-boolean v1, p0, Lcom/commsource/camera/ArVideoConfirmActivity;->f0:Z
 
     if-eqz v1, :cond_1
 
-    .line 5
     invoke-virtual {p0}, Lcom/commsource/camera/ArVideoConfirmActivity;->finish()V
 
     const/4 v1, 0x0
 
-    .line 6
     iput-boolean v1, p0, Lcom/commsource/camera/ArVideoConfirmActivity;->f0:Z
 
-    .line 7
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -4441,7 +3985,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -4454,7 +3997,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -4467,7 +4009,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/ArVideoConfirmActivity;->X:Lf/d/k/l;
 
     if-eqz v1, :cond_0
@@ -4478,12 +4019,10 @@
 
     if-nez v1, :cond_0
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/camera/ArVideoConfirmActivity;->X:Lf/d/k/l;
 
     invoke-virtual {v1}, Lf/d/k/l;->J0()V
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -4497,7 +4036,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -4510,7 +4048,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/ArVideoConfirmActivity;->s0:Lcom/commsource/beautyplus/f0/k;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/k;->d:Lcom/commsource/camera/xcamera/widget/CameraSaveLoadingView;
@@ -4519,7 +4056,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/camera/xcamera/widget/CameraSaveLoadingView;->h(Z)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -4532,20 +4068,16 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/camera/ArVideoConfirmActivity;->l0:Z
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-virtual {p0}, Lcom/commsource/camera/ArVideoConfirmActivity;->finish()V
 
     const/4 v1, 0x0
 
-    .line 3
     iput-boolean v1, p0, Lcom/commsource/camera/ArVideoConfirmActivity;->l0:Z
 
-    .line 4
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

@@ -7,7 +7,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -34,7 +33,6 @@
     :cond_1
     if-eqz p2, :cond_2
 
-    .line 1
     invoke-virtual/range {p0 .. p0}, Landroid/graphics/Bitmap;->isMutable()Z
 
     move-result v3
@@ -43,7 +41,6 @@
 
     goto :goto_0
 
-    .line 2
     :cond_2
     invoke-virtual/range {p0 .. p0}, Landroid/graphics/Bitmap;->getConfig()Landroid/graphics/Bitmap$Config;
 
@@ -53,20 +50,17 @@
 
     move-result-object v0
 
-    .line 3
     :goto_0
     invoke-virtual {v0}, Landroid/graphics/Bitmap;->getWidth()I
 
     move-result v11
 
-    .line 4
     invoke-virtual {v0}, Landroid/graphics/Bitmap;->getHeight()I
 
     move-result v12
 
     mul-int v13, v11, v12
 
-    .line 5
     new-array v14, v13, [I
 
     const/4 v5, 0x0
@@ -85,7 +79,6 @@
 
     move v10, v12
 
-    .line 6
     invoke-virtual/range {v3 .. v10}, Landroid/graphics/Bitmap;->getPixels([IIIIIII)V
 
     add-int/lit8 v3, v11, -0x1
@@ -96,16 +89,12 @@
 
     add-int/2addr v5, v1
 
-    .line 7
     new-array v6, v13, [I
 
-    .line 8
     new-array v7, v13, [I
 
-    .line 9
     new-array v8, v13, [I
 
-    .line 10
     invoke-static {v11, v12}, Ljava/lang/Math;->max(II)I
 
     move-result v9
@@ -120,7 +109,6 @@
 
     mul-int/lit16 v13, v10, 0x100
 
-    .line 11
     new-array v15, v13, [I
 
     const/4 v1, 0x0
@@ -128,7 +116,6 @@
     :goto_1
     if-ge v1, v13, :cond_3
 
-    .line 12
     div-int v17, v1, v10
 
     aput v17, v15, v1
@@ -152,7 +139,6 @@
 
     aput v5, v13, v1
 
-    .line 13
     const-class v1, I
 
     invoke-static {v1, v13}, Ljava/lang/reflect/Array;->newInstance(Ljava/lang/Class;[I)Ljava/lang/Object;
@@ -211,7 +197,6 @@
 
     const/4 v4, 0x0
 
-    .line 14
     invoke-static {v12, v4}, Ljava/lang/Math;->max(II)I
 
     move-result v9
@@ -226,14 +211,12 @@
 
     add-int v32, v12, v2
 
-    .line 15
     aget-object v32, v1, v32
 
     and-int v29, v9, v29
 
     shr-int/lit8 v29, v29, 0x10
 
-    .line 16
     aput v29, v32, v4
 
     and-int v28, v9, v28
@@ -242,38 +225,32 @@
 
     const/16 v16, 0x1
 
-    .line 17
     aput v28, v32, v16
 
     and-int/lit16 v9, v9, 0xff
 
     const/16 v28, 0x2
 
-    .line 18
     aput v9, v32, v28
 
-    .line 19
     invoke-static {v12}, Ljava/lang/Math;->abs(I)I
 
     move-result v9
 
     sub-int v9, v13, v9
 
-    .line 20
     aget v29, v32, v4
 
     mul-int v29, v29, v9
 
     add-int v0, v0, v29
 
-    .line 21
     aget v29, v32, v16
 
     mul-int v29, v29, v9
 
     add-int v19, v19, v29
 
-    .line 22
     aget v29, v32, v28
 
     mul-int v29, v29, v9
@@ -282,35 +259,29 @@
 
     if-lez v12, :cond_4
 
-    .line 23
     aget v9, v32, v4
 
     add-int v24, v24, v9
 
-    .line 24
     aget v9, v32, v16
 
     add-int v25, v25, v9
 
-    .line 25
     aget v9, v32, v28
 
     add-int v26, v26, v9
 
     goto :goto_4
 
-    .line 26
     :cond_4
     aget v9, v32, v4
 
     add-int v21, v21, v9
 
-    .line 27
     aget v4, v32, v16
 
     add-int v22, v22, v4
 
-    .line 28
     aget v4, v32, v28
 
     add-int v23, v23, v4
@@ -338,17 +309,14 @@
     :goto_5
     if-ge v0, v11, :cond_7
 
-    .line 29
     aget v12, v15, v4
 
     aput v12, v6, v17
 
-    .line 30
     aget v12, v15, v19
 
     aput v12, v7, v17
 
-    .line 31
     aget v12, v15, v20
 
     aput v12, v8, v17
@@ -363,28 +331,24 @@
 
     add-int/2addr v12, v5
 
-    .line 32
     rem-int/2addr v12, v5
 
     aget-object v12, v1, v12
 
     const/16 v32, 0x0
 
-    .line 33
     aget v33, v12, v32
 
     sub-int v21, v21, v33
 
     const/16 v16, 0x1
 
-    .line 34
     aget v32, v12, v16
 
     sub-int v22, v22, v32
 
     const/16 v32, 0x2
 
-    .line 35
     aget v33, v12, v32
 
     sub-int v23, v23, v33
@@ -397,7 +361,6 @@
 
     add-int/lit8 v15, v32, 0x1
 
-    .line 36
     invoke-static {v15, v3}, Ljava/lang/Math;->min(II)I
 
     move-result v15
@@ -409,7 +372,6 @@
     :cond_6
     move-object/from16 v33, v15
 
-    .line 37
     :goto_6
     aget v15, v31, v0
 
@@ -423,7 +385,6 @@
 
     const/16 v34, 0x0
 
-    .line 38
     aput v32, v12, v34
 
     and-int v32, v15, v28
@@ -432,27 +393,22 @@
 
     const/16 v16, 0x1
 
-    .line 39
     aput v32, v12, v16
 
     and-int/lit16 v15, v15, 0xff
 
     const/16 v32, 0x2
 
-    .line 40
     aput v15, v12, v32
 
-    .line 41
     aget v15, v12, v34
 
     add-int v24, v24, v15
 
-    .line 42
     aget v15, v12, v16
 
     add-int v25, v25, v15
 
-    .line 43
     aget v12, v12, v32
 
     add-int v26, v26, v12
@@ -465,46 +421,38 @@
 
     add-int/lit8 v9, v9, 0x1
 
-    .line 44
     rem-int/2addr v9, v5
 
-    .line 45
     rem-int v12, v9, v5
 
     aget-object v12, v1, v12
 
     const/4 v15, 0x0
 
-    .line 46
     aget v32, v12, v15
 
     add-int v21, v21, v32
 
     const/16 v16, 0x1
 
-    .line 47
     aget v32, v12, v16
 
     add-int v22, v22, v32
 
     const/16 v32, 0x2
 
-    .line 48
     aget v34, v12, v32
 
     add-int v23, v23, v34
 
-    .line 49
     aget v34, v12, v15
 
     sub-int v24, v24, v34
 
-    .line 50
     aget v15, v12, v16
 
     sub-int v25, v25, v15
 
-    .line 51
     aget v12, v12, v32
 
     sub-int v26, v26, v12
@@ -587,7 +535,6 @@
 
     const/4 v11, 0x0
 
-    .line 52
     invoke-static {v11, v14}, Ljava/lang/Math;->max(II)I
 
     move-result v23
@@ -596,50 +543,42 @@
 
     add-int v24, v5, v2
 
-    .line 53
     aget-object v24, v1, v24
 
-    .line 54
     aget v25, v6, v23
 
     aput v25, v24, v11
 
-    .line 55
     aget v11, v7, v23
 
     const/16 v16, 0x1
 
     aput v11, v24, v16
 
-    .line 56
     aget v11, v8, v23
 
     const/16 v25, 0x2
 
     aput v11, v24, v25
 
-    .line 57
     invoke-static {v5}, Ljava/lang/Math;->abs(I)I
 
     move-result v11
 
     sub-int v11, v13, v11
 
-    .line 58
     aget v25, v6, v23
 
     mul-int v25, v25, v11
 
     add-int v3, v3, v25
 
-    .line 59
     aget v25, v7, v23
 
     mul-int v25, v25, v11
 
     add-int v4, v4, v25
 
-    .line 60
     aget v23, v8, v23
 
     mul-int v23, v23, v11
@@ -650,21 +589,18 @@
 
     const/4 v11, 0x0
 
-    .line 61
     aget v23, v24, v11
 
     add-int v17, v17, v23
 
     const/16 v16, 0x1
 
-    .line 62
     aget v23, v24, v16
 
     add-int v18, v18, v23
 
     const/16 v23, 0x2
 
-    .line 63
     aget v24, v24, v23
 
     add-int v19, v19, v24
@@ -678,17 +614,14 @@
 
     const/16 v23, 0x2
 
-    .line 64
     aget v25, v24, v11
 
     add-int v10, v10, v25
 
-    .line 65
     aget v11, v24, v16
 
     add-int/2addr v12, v11
 
-    .line 66
     aget v11, v24, v23
 
     add-int/2addr v15, v11
@@ -731,7 +664,6 @@
 
     const/high16 v25, -0x1000000
 
-    .line 67
     aget v26, v21, v23
 
     and-int v25, v26, v25
@@ -764,28 +696,24 @@
 
     add-int v25, v25, v20
 
-    .line 68
     rem-int v25, v25, v20
 
     aget-object v25, v1, v25
 
     const/16 v26, 0x0
 
-    .line 69
     aget v27, v25, v26
 
     sub-int v10, v10, v27
 
     const/16 v16, 0x1
 
-    .line 70
     aget v26, v25, v16
 
     sub-int v12, v12, v26
 
     const/16 v26, 0x2
 
-    .line 71
     aget v27, v25, v26
 
     sub-int v15, v15, v27
@@ -796,7 +724,6 @@
 
     add-int v2, v3, v13
 
-    .line 72
     invoke-static {v2, v11}, Ljava/lang/Math;->min(II)I
 
     move-result v2
@@ -805,44 +732,37 @@
 
     aput v2, v31, v3
 
-    .line 73
     :cond_c
     aget v2, v31, v3
 
     add-int/2addr v2, v0
 
-    .line 74
     aget v27, v6, v2
 
     const/16 v28, 0x0
 
     aput v27, v25, v28
 
-    .line 75
     aget v27, v7, v2
 
     const/16 v16, 0x1
 
     aput v27, v25, v16
 
-    .line 76
     aget v2, v8, v2
 
     const/16 v27, 0x2
 
     aput v2, v25, v27
 
-    .line 77
     aget v2, v25, v28
 
     add-int v17, v17, v2
 
-    .line 78
     aget v2, v25, v16
 
     add-int v18, v18, v2
 
-    .line 79
     aget v2, v25, v27
 
     add-int v19, v19, v2
@@ -855,44 +775,36 @@
 
     add-int/lit8 v24, v24, 0x1
 
-    .line 80
     rem-int v24, v24, v20
 
-    .line 81
     aget-object v2, v1, v24
 
     const/16 v25, 0x0
 
-    .line 82
     aget v27, v2, v25
 
     add-int v10, v10, v27
 
     const/16 v16, 0x1
 
-    .line 83
     aget v27, v2, v16
 
     add-int v12, v12, v27
 
     const/16 v27, 0x2
 
-    .line 84
     aget v28, v2, v27
 
     add-int v15, v15, v28
 
-    .line 85
     aget v28, v2, v25
 
     sub-int v17, v17, v28
 
-    .line 86
     aget v28, v2, v16
 
     sub-int v18, v18, v28
 
-    .line 87
     aget v2, v2, v27
 
     sub-int v19, v19, v2
@@ -951,7 +863,6 @@
 
     move v10, v14
 
-    .line 88
     invoke-virtual/range {v3 .. v10}, Landroid/graphics/Bitmap;->setPixels([IIIIIII)V
 
     return-object p2

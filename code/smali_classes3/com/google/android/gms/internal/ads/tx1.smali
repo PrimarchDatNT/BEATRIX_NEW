@@ -42,14 +42,12 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
     new-instance v0, Lcom/google/android/gms/internal/ads/wx1;
 
     invoke-direct {v0}, Lcom/google/android/gms/internal/ads/wx1;-><init>()V
 
     sput-object v0, Lcom/google/android/gms/internal/ads/tx1;->e:Ljava/lang/ThreadLocal;
 
-    .line 2
     new-instance v0, Lcom/google/android/gms/internal/ads/vx1;
 
     invoke-direct {v0}, Lcom/google/android/gms/internal/ads/vx1;-><init>()V
@@ -67,7 +65,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/16 v0, 0x10
@@ -80,7 +77,6 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -90,17 +86,14 @@
 
     throw p1
 
-    .line 3
     :cond_1
     :goto_0
     iput p2, p0, Lcom/google/android/gms/internal/ads/tx1;->d:I
 
-    .line 4
     array-length p2, p1
 
     invoke-static {p2}, Lcom/google/android/gms/internal/ads/ez1;->a(I)V
 
-    .line 5
     new-instance p2, Ljavax/crypto/spec/SecretKeySpec;
 
     const-string v1, "AES"
@@ -109,7 +102,6 @@
 
     iput-object p2, p0, Lcom/google/android/gms/internal/ads/tx1;->c:Ljavax/crypto/spec/SecretKeySpec;
 
-    .line 6
     sget-object p1, Lcom/google/android/gms/internal/ads/tx1;->e:Ljava/lang/ThreadLocal;
 
     invoke-virtual {p1}, Ljava/lang/ThreadLocal;->get()Ljava/lang/Object;
@@ -120,24 +112,20 @@
 
     const/4 v1, 0x1
 
-    .line 7
     invoke-virtual {p1, v1, p2}, Ljavax/crypto/Cipher;->init(ILjava/security/Key;)V
 
     new-array p2, v0, [B
 
-    .line 8
     invoke-virtual {p1, p2}, Ljavax/crypto/Cipher;->doFinal([B)[B
 
     move-result-object p1
 
-    .line 9
     invoke-static {p1}, Lcom/google/android/gms/internal/ads/tx1;->d([B)[B
 
     move-result-object p1
 
     iput-object p1, p0, Lcom/google/android/gms/internal/ads/tx1;->a:[B
 
-    .line 10
     invoke-static {p1}, Lcom/google/android/gms/internal/ads/tx1;->d([B)[B
 
     move-result-object p1
@@ -168,7 +156,6 @@
 
     if-nez p5, :cond_0
 
-    .line 1
     iget-object p2, p0, Lcom/google/android/gms/internal/ads/tx1;->a:[B
 
     invoke-static {v1, p2}, Lcom/google/android/gms/internal/ads/tx1;->c([B[B)[B
@@ -181,7 +168,6 @@
 
     return-object p1
 
-    .line 2
     :cond_0
     invoke-virtual {p1, v1}, Ljavax/crypto/Cipher;->doFinal([B)[B
 
@@ -201,7 +187,6 @@
     :goto_1
     if-ge v3, v0, :cond_1
 
-    .line 3
     aget-byte v4, p2, v3
 
     add-int v5, p4, v2
@@ -220,7 +205,6 @@
 
     goto :goto_1
 
-    .line 4
     :cond_1
     invoke-virtual {p1, p2}, Ljavax/crypto/Cipher;->doFinal([B)[B
 
@@ -235,17 +219,14 @@
 
     add-int/2addr p4, p5
 
-    .line 5
     invoke-static {p3, v2, p4}, Ljava/util/Arrays;->copyOfRange([BII)[B
 
     move-result-object p3
 
-    .line 6
     array-length p4, p3
 
     if-ne p4, v0, :cond_3
 
-    .line 7
     iget-object p4, p0, Lcom/google/android/gms/internal/ads/tx1;->a:[B
 
     invoke-static {p3, p4}, Lcom/google/android/gms/internal/ads/tx1;->c([B[B)[B
@@ -254,7 +235,6 @@
 
     goto :goto_3
 
-    .line 8
     :cond_3
     iget-object p4, p0, Lcom/google/android/gms/internal/ads/tx1;->b:[B
 
@@ -262,13 +242,11 @@
 
     move-result-object p4
 
-    .line 9
     :goto_2
     array-length p5, p3
 
     if-ge v1, p5, :cond_4
 
-    .line 10
     aget-byte p5, p4, v1
 
     aget-byte v0, p3, v1
@@ -283,7 +261,6 @@
 
     goto :goto_2
 
-    .line 11
     :cond_4
     array-length p5, p3
 
@@ -299,13 +276,11 @@
 
     move-object p3, p4
 
-    .line 12
     :goto_3
     invoke-static {p2, p3}, Lcom/google/android/gms/internal/ads/tx1;->c([B[B)[B
 
     move-result-object p2
 
-    .line 13
     invoke-virtual {p1, p2}, Ljavax/crypto/Cipher;->doFinal([B)[B
 
     move-result-object p1
@@ -316,10 +291,8 @@
 .method private static c([B[B)[B
     .locals 5
 
-    .line 1
     array-length v0, p0
 
-    .line 2
     new-array v1, v0, [B
 
     const/4 v2, 0x0
@@ -327,7 +300,6 @@
     :goto_0
     if-ge v2, v0, :cond_0
 
-    .line 3
     aget-byte v3, p0, v2
 
     aget-byte v4, p1, v2
@@ -362,7 +334,6 @@
 
     if-ge v2, v3, :cond_0
 
-    .line 1
     aget-byte v3, p0, v2
 
     shl-int/lit8 v3, v3, 0x1
@@ -385,13 +356,11 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     aget-byte v2, p0, v3
 
     shl-int/lit8 v2, v2, 0x1
 
-    .line 3
     aget-byte p0, p0, v1
 
     and-int/lit16 p0, p0, 0x80
@@ -427,7 +396,6 @@
 
     move-object/from16 v7, p1
 
-    .line 1
     array-length v0, v7
 
     iget v1, v6, Lcom/google/android/gms/internal/ads/tx1;->d:I
@@ -442,7 +410,6 @@
 
     if-gt v0, v2, :cond_2
 
-    .line 2
     array-length v0, v7
 
     add-int/2addr v0, v1
@@ -451,19 +418,16 @@
 
     new-array v9, v0, [B
 
-    .line 3
     invoke-static {v1}, Lcom/google/android/gms/internal/ads/dz1;->c(I)[B
 
     move-result-object v3
 
-    .line 4
     iget v0, v6, Lcom/google/android/gms/internal/ads/tx1;->d:I
 
     const/4 v10, 0x0
 
     invoke-static {v3, v10, v9, v10, v0}, Ljava/lang/System;->arraycopy(Ljava/lang/Object;ILjava/lang/Object;II)V
 
-    .line 5
     sget-object v0, Lcom/google/android/gms/internal/ads/tx1;->e:Ljava/lang/ThreadLocal;
 
     invoke-virtual {v0}, Ljava/lang/ThreadLocal;->get()Ljava/lang/Object;
@@ -474,7 +438,6 @@
 
     check-cast v11, Ljavax/crypto/Cipher;
 
-    .line 6
     iget-object v0, v6, Lcom/google/android/gms/internal/ads/tx1;->c:Ljavax/crypto/spec/SecretKeySpec;
 
     const/4 v12, 0x1
@@ -485,7 +448,6 @@
 
     const/4 v4, 0x0
 
-    .line 7
     array-length v5, v3
 
     move-object v0, p0
@@ -512,7 +474,6 @@
 
     const/4 v4, 0x0
 
-    .line 8
     array-length v5, v3
 
     move-object v0, p0
@@ -523,7 +484,6 @@
 
     move-result-object v14
 
-    .line 9
     sget-object v0, Lcom/google/android/gms/internal/ads/tx1;->f:Ljava/lang/ThreadLocal;
 
     invoke-virtual {v0}, Ljava/lang/ThreadLocal;->get()Ljava/lang/Object;
@@ -532,7 +492,6 @@
 
     check-cast v0, Ljavax/crypto/Cipher;
 
-    .line 10
     iget-object v1, v6, Lcom/google/android/gms/internal/ads/tx1;->c:Ljavax/crypto/spec/SecretKeySpec;
 
     new-instance v2, Ljavax/crypto/spec/IvParameterSpec;
@@ -543,7 +502,6 @@
 
     const/4 v2, 0x0
 
-    .line 11
     array-length v3, v7
 
     iget v5, v6, Lcom/google/android/gms/internal/ads/tx1;->d:I
@@ -556,7 +514,6 @@
 
     const/4 v2, 0x2
 
-    .line 12
     iget v4, v6, Lcom/google/android/gms/internal/ads/tx1;->d:I
 
     array-length v5, v7
@@ -571,7 +528,6 @@
 
     move-result-object v0
 
-    .line 13
     array-length v1, v7
 
     iget v2, v6, Lcom/google/android/gms/internal/ads/tx1;->d:I
@@ -583,7 +539,6 @@
 
     add-int v2, v1, v10
 
-    .line 14
     aget-byte v3, v14, v10
 
     aget-byte v4, v13, v10
@@ -605,7 +560,6 @@
     :cond_1
     return-object v9
 
-    .line 15
     :cond_2
     new-instance v0, Ljava/security/GeneralSecurityException;
 

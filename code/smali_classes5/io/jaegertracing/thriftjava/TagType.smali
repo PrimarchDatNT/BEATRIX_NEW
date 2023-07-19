@@ -39,7 +39,6 @@
 .method static constructor <clinit>()V
     .locals 11
 
-    .line 1
     new-instance v0, Lio/jaegertracing/thriftjava/TagType;
 
     const-string v1, "STRING"
@@ -50,7 +49,6 @@
 
     sput-object v0, Lio/jaegertracing/thriftjava/TagType;->STRING:Lio/jaegertracing/thriftjava/TagType;
 
-    .line 2
     new-instance v1, Lio/jaegertracing/thriftjava/TagType;
 
     const-string v3, "DOUBLE"
@@ -61,7 +59,6 @@
 
     sput-object v1, Lio/jaegertracing/thriftjava/TagType;->DOUBLE:Lio/jaegertracing/thriftjava/TagType;
 
-    .line 3
     new-instance v3, Lio/jaegertracing/thriftjava/TagType;
 
     const-string v5, "BOOL"
@@ -72,7 +69,6 @@
 
     sput-object v3, Lio/jaegertracing/thriftjava/TagType;->BOOL:Lio/jaegertracing/thriftjava/TagType;
 
-    .line 4
     new-instance v5, Lio/jaegertracing/thriftjava/TagType;
 
     const-string v7, "LONG"
@@ -83,7 +79,6 @@
 
     sput-object v5, Lio/jaegertracing/thriftjava/TagType;->LONG:Lio/jaegertracing/thriftjava/TagType;
 
-    .line 5
     new-instance v7, Lio/jaegertracing/thriftjava/TagType;
 
     const-string v9, "BINARY"
@@ -108,7 +103,6 @@
 
     aput-object v7, v9, v10
 
-    .line 6
     sput-object v9, Lio/jaegertracing/thriftjava/TagType;->$VALUES:[Lio/jaegertracing/thriftjava/TagType;
 
     return-void
@@ -122,10 +116,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 2
     iput p3, p0, Lio/jaegertracing/thriftjava/TagType;->value:I
 
     return-void
@@ -156,31 +148,26 @@
 
     return-object p0
 
-    .line 1
     :cond_0
     sget-object p0, Lio/jaegertracing/thriftjava/TagType;->BINARY:Lio/jaegertracing/thriftjava/TagType;
 
     return-object p0
 
-    .line 2
     :cond_1
     sget-object p0, Lio/jaegertracing/thriftjava/TagType;->LONG:Lio/jaegertracing/thriftjava/TagType;
 
     return-object p0
 
-    .line 3
     :cond_2
     sget-object p0, Lio/jaegertracing/thriftjava/TagType;->BOOL:Lio/jaegertracing/thriftjava/TagType;
 
     return-object p0
 
-    .line 4
     :cond_3
     sget-object p0, Lio/jaegertracing/thriftjava/TagType;->DOUBLE:Lio/jaegertracing/thriftjava/TagType;
 
     return-object p0
 
-    .line 5
     :cond_4
     sget-object p0, Lio/jaegertracing/thriftjava/TagType;->STRING:Lio/jaegertracing/thriftjava/TagType;
 
@@ -190,7 +177,6 @@
 .method public static valueOf(Ljava/lang/String;)Lio/jaegertracing/thriftjava/TagType;
     .locals 1
 
-    .line 1
     const-class v0, Lio/jaegertracing/thriftjava/TagType;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -205,7 +191,6 @@
 .method public static values()[Lio/jaegertracing/thriftjava/TagType;
     .locals 1
 
-    .line 1
     sget-object v0, Lio/jaegertracing/thriftjava/TagType;->$VALUES:[Lio/jaegertracing/thriftjava/TagType;
 
     invoke-virtual {v0}, [Lio/jaegertracing/thriftjava/TagType;->clone()Ljava/lang/Object;
@@ -222,7 +207,6 @@
 .method public getValue()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lio/jaegertracing/thriftjava/TagType;->value:I
 
     return v0

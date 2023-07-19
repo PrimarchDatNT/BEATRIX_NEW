@@ -21,7 +21,6 @@
 
     const-string v0, "libcore.io.Memory"
 
-    .line 1
     invoke-static {v0}, Lcom/google/android/gms/internal/icing/c1;->c(Ljava/lang/String;)Ljava/lang/Class;
 
     move-result-object v0
@@ -30,7 +29,6 @@
 
     const-string v0, "org.robolectric.Robolectric"
 
-    .line 2
     invoke-static {v0}, Lcom/google/android/gms/internal/icing/c1;->c(Ljava/lang/String;)Ljava/lang/Class;
 
     move-result-object v0
@@ -53,7 +51,6 @@
 .method static a()Z
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/google/android/gms/internal/icing/c1;->a:Ljava/lang/Class;
 
     if-eqz v0, :cond_0
@@ -82,7 +79,6 @@
         }
     .end annotation
 
-    .line 1
     sget-object v0, Lcom/google/android/gms/internal/icing/c1;->a:Ljava/lang/Class;
 
     return-object v0
@@ -102,7 +98,6 @@
         }
     .end annotation
 
-    .line 1
     :try_start_0
     invoke-static {p0}, Ljava/lang/Class;->forName(Ljava/lang/String;)Ljava/lang/Class;
 

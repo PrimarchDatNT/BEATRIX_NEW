@@ -28,14 +28,12 @@
 .method private constructor <init>(Lio/grpc/y1/a$b;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lio/grpc/y1/a$b$c;->b:Lio/grpc/y1/a$b;
 
     invoke-direct {p0}, Landroid/net/ConnectivityManager$NetworkCallback;-><init>()V
 
     const/4 p1, 0x0
 
-    .line 2
     iput-boolean p1, p0, Lio/grpc/y1/a$b$c;->a:Z
 
     return-void
@@ -44,7 +42,6 @@
 .method synthetic constructor <init>(Lio/grpc/y1/a$b;Lio/grpc/y1/a$a;)V
     .locals 0
 
-    .line 3
     invoke-direct {p0, p1}, Lio/grpc/y1/a$b$c;-><init>(Lio/grpc/y1/a$b;)V
 
     return-void
@@ -55,12 +52,10 @@
 .method public onAvailable(Landroid/net/Network;)V
     .locals 0
 
-    .line 1
     iget-boolean p1, p0, Lio/grpc/y1/a$b$c;->a:Z
 
     if-eqz p1, :cond_0
 
-    .line 2
     iget-object p1, p0, Lio/grpc/y1/a$b$c;->b:Lio/grpc/y1/a$b;
 
     invoke-static {p1}, Lio/grpc/y1/a$b;->v(Lio/grpc/y1/a$b;)Lio/grpc/w0;
@@ -71,7 +66,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_0
     iget-object p1, p0, Lio/grpc/y1/a$b$c;->b:Lio/grpc/y1/a$b;
 
@@ -84,7 +78,6 @@
     :goto_0
     const/4 p1, 0x1
 
-    .line 4
     iput-boolean p1, p0, Lio/grpc/y1/a$b$c;->a:Z
 
     return-void
@@ -95,7 +88,6 @@
 
     const/4 p1, 0x0
 
-    .line 1
     iput-boolean p1, p0, Lio/grpc/y1/a$b$c;->a:Z
 
     return-void

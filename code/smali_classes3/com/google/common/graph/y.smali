@@ -50,10 +50,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     invoke-static {p1}, Lcom/google/common/base/t;->E(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -68,7 +66,6 @@
 .method static synthetic a(Lcom/google/common/graph/y;)Ljava/util/Map;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lcom/google/common/graph/y;->a:Ljava/util/Map;
 
     return-object p0
@@ -77,7 +74,6 @@
 .method static synthetic b(Lcom/google/common/graph/y;Ljava/util/Map$Entry;)Ljava/util/Map$Entry;
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/common/graph/y;->b:Ljava/util/Map$Entry;
 
     return-object p1
@@ -88,10 +84,8 @@
 .method public final c()V
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/graph/y;->d()V
 
-    .line 2
     iget-object v0, p0, Lcom/google/common/graph/y;->a:Ljava/util/Map;
 
     invoke-interface {v0}, Ljava/util/Map;->clear()V
@@ -104,7 +98,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     iput-object v0, p0, Lcom/google/common/graph/y;->b:Ljava/util/Map$Entry;
 
     return-void
@@ -117,7 +110,6 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-virtual {p0, p1}, Lcom/google/common/graph/y;->g(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v0
@@ -161,7 +153,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0, p1}, Lcom/google/common/graph/y;->g(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v0
@@ -170,7 +161,6 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     invoke-virtual {p0, p1}, Lcom/google/common/graph/y;->h(Ljava/lang/Object;)Ljava/lang/Object;
 
@@ -194,19 +184,16 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/graph/y;->b:Ljava/util/Map$Entry;
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-interface {v0}, Ljava/util/Map$Entry;->getKey()Ljava/lang/Object;
 
     move-result-object v1
 
     if-ne v1, p1, :cond_0
 
-    .line 3
     invoke-interface {v0}, Ljava/util/Map$Entry;->getValue()Ljava/lang/Object;
 
     move-result-object p1
@@ -233,7 +220,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/graph/y;->a:Ljava/util/Map;
 
     invoke-interface {v0, p1}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
@@ -262,10 +248,8 @@
     .annotation build Lf/f/f/a/a;
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/graph/y;->d()V
 
-    .line 2
     iget-object v0, p0, Lcom/google/common/graph/y;->a:Ljava/util/Map;
 
     invoke-interface {v0, p1, p2}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
@@ -292,10 +276,8 @@
     .annotation build Lf/f/f/a/a;
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/graph/y;->d()V
 
-    .line 2
     iget-object v0, p0, Lcom/google/common/graph/y;->a:Ljava/util/Map;
 
     invoke-interface {v0, p1}, Ljava/util/Map;->remove(Ljava/lang/Object;)Ljava/lang/Object;
@@ -315,7 +297,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/google/common/graph/y$a;
 
     invoke-direct {v0, p0}, Lcom/google/common/graph/y$a;-><init>(Lcom/google/common/graph/y;)V

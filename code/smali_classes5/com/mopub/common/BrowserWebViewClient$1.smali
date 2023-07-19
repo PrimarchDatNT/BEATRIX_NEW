@@ -25,7 +25,6 @@
 .method constructor <init>(Lcom/mopub/common/BrowserWebViewClient;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/mopub/common/BrowserWebViewClient$1;->this$0:Lcom/mopub/common/BrowserWebViewClient;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -60,7 +59,6 @@
         .end annotation
     .end param
 
-    .line 1
     sget-object v0, Lcom/mopub/common/UrlAction;->OPEN_IN_APP_BROWSER:Lcom/mopub/common/UrlAction;
 
     invoke-virtual {p2, v0}, Ljava/lang/Enum;->equals(Ljava/lang/Object;)Z
@@ -69,7 +67,6 @@
 
     if-eqz p2, :cond_0
 
-    .line 2
     iget-object p2, p0, Lcom/mopub/common/BrowserWebViewClient$1;->this$0:Lcom/mopub/common/BrowserWebViewClient;
 
     invoke-static {p2}, Lcom/mopub/common/BrowserWebViewClient;->access$000(Lcom/mopub/common/BrowserWebViewClient;)Lcom/mopub/common/MoPubBrowser;
@@ -84,7 +81,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_0
     iget-object p1, p0, Lcom/mopub/common/BrowserWebViewClient$1;->this$0:Lcom/mopub/common/BrowserWebViewClient;
 

@@ -25,7 +25,6 @@
 .method constructor <init>(Lcom/scwang/smartrefresh/layout/SmartRefreshLayout;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/scwang/smartrefresh/layout/SmartRefreshLayout$e;->a:Lcom/scwang/smartrefresh/layout/SmartRefreshLayout;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -38,7 +37,6 @@
 .method public onAnimationUpdate(Landroid/animation/ValueAnimator;)V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/scwang/smartrefresh/layout/SmartRefreshLayout$e;->a:Lcom/scwang/smartrefresh/layout/SmartRefreshLayout;
 
     iget-object v0, v0, Lcom/scwang/smartrefresh/layout/SmartRefreshLayout;->a1:Lcom/scwang/smartrefresh/layout/c/i;

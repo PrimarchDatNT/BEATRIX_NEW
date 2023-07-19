@@ -28,7 +28,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/home/banner/HomeBannerAdModuleVH$a;->a:Lcom/commsource/home/banner/HomeBannerAdModuleVH;
 
     invoke-direct {p0}, Lcom/meitu/hwbusinesskit/core/listener/OnAdListener;-><init>()V
@@ -43,7 +42,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/home/banner/HomeBannerAdModuleVH$a;->a:Lcom/commsource/home/banner/HomeBannerAdModuleVH;
 
     iget-object v1, v1, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->itemView:Landroid/view/View;
@@ -68,7 +66,6 @@
 
     invoke-virtual {v1, v3}, Landroid/widget/TextView;->setVisibility(I)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/home/banner/HomeBannerAdModuleVH$a;->a:Lcom/commsource/home/banner/HomeBannerAdModuleVH;
 
     iget-object v1, v1, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->itemView:Landroid/view/View;
@@ -91,7 +88,6 @@
 
     invoke-virtual {v1, v4}, Landroid/widget/TextView;->setVisibility(I)V
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/home/banner/HomeBannerAdModuleVH$a;->a:Lcom/commsource/home/banner/HomeBannerAdModuleVH;
 
     iget-object v1, v1, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->itemView:Landroid/view/View;
@@ -110,7 +106,6 @@
 
     invoke-virtual {v1, v2}, Landroid/widget/TextView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -147,12 +142,10 @@
 
     if-nez v2, :cond_0
 
-    .line 1
     invoke-static {v4}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 2
     :cond_0
     iget-object v5, v0, Lcom/commsource/home/banner/HomeBannerAdModuleVH$a;->a:Lcom/commsource/home/banner/HomeBannerAdModuleVH;
 
@@ -184,7 +177,6 @@
 
     invoke-virtual {v5, v1}, Lcom/commsource/home/entity/a;->j(Lcom/meitu/hwbusinesskit/core/bean/AdData;)V
 
-    .line 3
     :cond_1
     iget-object v5, v0, Lcom/commsource/home/banner/HomeBannerAdModuleVH$a;->a:Lcom/commsource/home/banner/HomeBannerAdModuleVH;
 
@@ -192,12 +184,10 @@
 
     invoke-static {v5, v6}, Lcom/commsource/home/banner/HomeBannerAdModuleVH;->O(Lcom/commsource/home/banner/HomeBannerAdModuleVH;Z)V
 
-    .line 4
     invoke-virtual/range {p1 .. p1}, Lcom/meitu/hwbusinesskit/core/bean/AdData;->getAdType()Ljava/lang/String;
 
     move-result-object v5
 
-    .line 5
     iget-object v7, v0, Lcom/commsource/home/banner/HomeBannerAdModuleVH$a;->a:Lcom/commsource/home/banner/HomeBannerAdModuleVH;
 
     iget-object v7, v7, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->itemView:Landroid/view/View;
@@ -220,14 +210,12 @@
 
     invoke-virtual {v7, v9}, Landroid/view/View;->setVisibility(I)V
 
-    .line 6
     iget-object v7, v0, Lcom/commsource/home/banner/HomeBannerAdModuleVH$a;->a:Lcom/commsource/home/banner/HomeBannerAdModuleVH;
 
     const/4 v10, 0x0
 
     invoke-static {v7, v10}, Lcom/commsource/home/banner/HomeBannerAdModuleVH;->a0(Lcom/commsource/home/banner/HomeBannerAdModuleVH;Z)V
 
-    .line 7
     invoke-virtual/range {p1 .. p1}, Lcom/meitu/hwbusinesskit/core/bean/AdData;->getPlatform()Ljava/lang/String;
 
     move-result-object v7
@@ -280,7 +268,6 @@
 
     if-eqz v7, :cond_7
 
-    .line 8
     iget-object v7, v0, Lcom/commsource/home/banner/HomeBannerAdModuleVH$a;->a:Lcom/commsource/home/banner/HomeBannerAdModuleVH;
 
     iget-object v7, v7, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->itemView:Landroid/view/View;
@@ -299,7 +286,6 @@
 
     invoke-virtual {v7, v9}, Landroid/widget/TextView;->setVisibility(I)V
 
-    .line 9
     invoke-virtual/range {p1 .. p1}, Lcom/meitu/hwbusinesskit/core/bean/AdData;->getPlatform()Ljava/lang/String;
 
     move-result-object v1
@@ -310,7 +296,6 @@
 
     if-eqz v1, :cond_4
 
-    .line 10
     iget-object v1, v0, Lcom/commsource/home/banner/HomeBannerAdModuleVH$a;->a:Lcom/commsource/home/banner/HomeBannerAdModuleVH;
 
     iget-object v1, v1, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->itemView:Landroid/view/View;
@@ -329,7 +314,6 @@
 
     invoke-virtual {v1, v7}, Landroid/widget/TextView;->setVisibility(I)V
 
-    .line 11
     iget-object v1, v0, Lcom/commsource/home/banner/HomeBannerAdModuleVH$a;->a:Lcom/commsource/home/banner/HomeBannerAdModuleVH;
 
     iget-object v1, v1, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->itemView:Landroid/view/View;
@@ -348,7 +332,6 @@
 
     invoke-virtual {v1, v9}, Landroid/widget/TextView;->setVisibility(I)V
 
-    .line 12
     :cond_4
     iget-object v1, v0, Lcom/commsource/home/banner/HomeBannerAdModuleVH$a;->a:Lcom/commsource/home/banner/HomeBannerAdModuleVH;
 
@@ -370,7 +353,6 @@
 
     invoke-virtual {v1, v9}, Landroid/widget/RelativeLayout;->setScaleX(F)V
 
-    .line 13
     iget-object v1, v0, Lcom/commsource/home/banner/HomeBannerAdModuleVH$a;->a:Lcom/commsource/home/banner/HomeBannerAdModuleVH;
 
     iget-object v1, v1, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->itemView:Landroid/view/View;
@@ -387,7 +369,6 @@
 
     invoke-virtual {v1, v9}, Landroid/widget/RelativeLayout;->setScaleY(F)V
 
-    .line 14
     iget-object v1, v0, Lcom/commsource/home/banner/HomeBannerAdModuleVH$a;->a:Lcom/commsource/home/banner/HomeBannerAdModuleVH;
 
     iget-object v1, v1, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->itemView:Landroid/view/View;
@@ -410,7 +391,6 @@
 
     check-cast v1, Lcom/meitu/ratiorelativelayout/RatioRelativeLayout$LayoutParams;
 
-    .line 15
     iget-object v4, v0, Lcom/commsource/home/banner/HomeBannerAdModuleVH$a;->a:Lcom/commsource/home/banner/HomeBannerAdModuleVH;
 
     invoke-static {v4}, Lcom/commsource/home/banner/HomeBannerAdModuleVH;->H(Lcom/commsource/home/banner/HomeBannerAdModuleVH;)I
@@ -419,7 +399,6 @@
 
     iput v4, v1, Landroid/widget/RelativeLayout$LayoutParams;->width:I
 
-    .line 16
     iget-object v4, v0, Lcom/commsource/home/banner/HomeBannerAdModuleVH$a;->a:Lcom/commsource/home/banner/HomeBannerAdModuleVH;
 
     invoke-static {v4}, Lcom/commsource/home/banner/HomeBannerAdModuleVH;->H(Lcom/commsource/home/banner/HomeBannerAdModuleVH;)I
@@ -442,7 +421,6 @@
 
     iput v4, v1, Landroid/widget/RelativeLayout$LayoutParams;->height:I
 
-    .line 17
     iget-object v4, v0, Lcom/commsource/home/banner/HomeBannerAdModuleVH$a;->a:Lcom/commsource/home/banner/HomeBannerAdModuleVH;
 
     iget-object v4, v4, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->itemView:Landroid/view/View;
@@ -473,7 +451,6 @@
 
     const/high16 v3, 0x3f800000    # 1.0f
 
-    .line 18
     invoke-static {v3}, Lcom/meitu/library/p/f/i;->d(F)I
 
     move-result v3
@@ -485,7 +462,6 @@
 
     move-result v3
 
-    .line 19
     :goto_0
     iget-object v4, v0, Lcom/commsource/home/banner/HomeBannerAdModuleVH$a;->a:Lcom/commsource/home/banner/HomeBannerAdModuleVH;
 
@@ -513,7 +489,6 @@
 
     iput v6, v4, Landroid/view/ViewGroup$LayoutParams;->height:I
 
-    .line 20
     iget-object v4, v0, Lcom/commsource/home/banner/HomeBannerAdModuleVH$a;->a:Lcom/commsource/home/banner/HomeBannerAdModuleVH;
 
     iget-object v4, v4, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->itemView:Landroid/view/View;
@@ -532,35 +507,28 @@
 
     const/16 v3, 0xe
 
-    .line 21
     invoke-virtual {v1, v3}, Landroid/widget/RelativeLayout$LayoutParams;->addRule(I)V
 
     const/16 v3, 0xa
 
-    .line 22
     invoke-virtual {v1, v3}, Landroid/widget/RelativeLayout$LayoutParams;->addRule(I)V
 
     const/4 v3, 0x6
 
     const/4 v4, -0x1
 
-    .line 23
     invoke-virtual {v1, v3, v4}, Landroid/widget/RelativeLayout$LayoutParams;->addRule(II)V
 
     const/4 v3, 0x7
 
-    .line 24
     invoke-virtual {v1, v3, v4}, Landroid/widget/RelativeLayout$LayoutParams;->addRule(II)V
 
     const/4 v6, 0x5
 
-    .line 25
     invoke-virtual {v1, v6, v4}, Landroid/widget/RelativeLayout$LayoutParams;->addRule(II)V
 
-    .line 26
     invoke-virtual {v1, v3}, Landroid/widget/RelativeLayout$LayoutParams;->addRule(I)V
 
-    .line 27
     new-instance v1, Lcom/commsource/widget/CircleImageView;
 
     iget-object v3, v0, Lcom/commsource/home/banner/HomeBannerAdModuleVH$a;->a:Lcom/commsource/home/banner/HomeBannerAdModuleVH;
@@ -573,14 +541,12 @@
 
     const/high16 v3, 0x40c00000    # 6.0f
 
-    .line 28
     invoke-static {v3}, Lcom/meitu/library/p/f/i;->d(F)I
 
     move-result v3
 
     invoke-virtual {v1, v3}, Lcom/commsource/widget/CircleImageView;->setRoundRadius(I)V
 
-    .line 29
     move-object v3, v2
 
     check-cast v3, Landroid/widget/ImageView;
@@ -591,14 +557,12 @@
 
     invoke-virtual {v1, v3}, Lcom/commsource/widget/CircleImageView;->setImageDrawable(Landroid/graphics/drawable/Drawable;)V
 
-    .line 30
     new-instance v3, Lcom/commsource/home/banner/HomeBannerAdModuleVH$a$a;
 
     invoke-direct {v3, v2}, Lcom/commsource/home/banner/HomeBannerAdModuleVH$a$a;-><init>(Landroid/view/View;)V
 
     invoke-virtual {v1, v3}, Landroid/widget/ImageView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 31
     iget-object v2, v0, Lcom/commsource/home/banner/HomeBannerAdModuleVH$a;->a:Lcom/commsource/home/banner/HomeBannerAdModuleVH;
 
     iget-object v2, v2, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->itemView:Landroid/view/View;
@@ -613,7 +577,6 @@
 
     invoke-virtual {v2}, Landroid/widget/RelativeLayout;->removeAllViews()V
 
-    .line 32
     new-instance v2, Landroid/widget/RelativeLayout$LayoutParams;
 
     const/4 v3, -0x1
@@ -622,10 +585,8 @@
 
     const/16 v3, 0xd
 
-    .line 33
     invoke-virtual {v2, v3}, Landroid/widget/RelativeLayout$LayoutParams;->addRule(I)V
 
-    .line 34
     iget-object v3, v0, Lcom/commsource/home/banner/HomeBannerAdModuleVH$a;->a:Lcom/commsource/home/banner/HomeBannerAdModuleVH;
 
     iget-object v3, v3, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->itemView:Landroid/view/View;
@@ -642,7 +603,6 @@
 
     goto/16 :goto_5
 
-    .line 35
     :cond_6
     new-instance v1, Lcotlin/TypeCastException;
 
@@ -657,7 +617,6 @@
     :cond_7
     const-string v7, "video"
 
-    .line 36
     invoke-static {v7, v5}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v10
@@ -678,7 +637,6 @@
 
     if-eqz v10, :cond_a
 
-    .line 37
     iget-object v1, v0, Lcom/commsource/home/banner/HomeBannerAdModuleVH$a;->a:Lcom/commsource/home/banner/HomeBannerAdModuleVH;
 
     iget-object v1, v1, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->itemView:Landroid/view/View;
@@ -699,7 +657,6 @@
 
     invoke-virtual {v1, v9}, Landroid/widget/RelativeLayout;->setScaleX(F)V
 
-    .line 38
     iget-object v1, v0, Lcom/commsource/home/banner/HomeBannerAdModuleVH$a;->a:Lcom/commsource/home/banner/HomeBannerAdModuleVH;
 
     iget-object v1, v1, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->itemView:Landroid/view/View;
@@ -716,7 +673,6 @@
 
     invoke-virtual {v1, v9}, Landroid/widget/RelativeLayout;->setScaleY(F)V
 
-    .line 39
     iget-object v1, v0, Lcom/commsource/home/banner/HomeBannerAdModuleVH$a;->a:Lcom/commsource/home/banner/HomeBannerAdModuleVH;
 
     iget-object v1, v1, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->itemView:Landroid/view/View;
@@ -737,7 +693,6 @@
 
     invoke-virtual {v1, v9}, Landroid/widget/TextView;->setVisibility(I)V
 
-    .line 40
     iget-object v1, v0, Lcom/commsource/home/banner/HomeBannerAdModuleVH$a;->a:Lcom/commsource/home/banner/HomeBannerAdModuleVH;
 
     iget-object v1, v1, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->itemView:Landroid/view/View;
@@ -758,7 +713,6 @@
 
     invoke-virtual {v1, v9}, Landroid/widget/TextView;->setVisibility(I)V
 
-    .line 41
     iget-object v1, v0, Lcom/commsource/home/banner/HomeBannerAdModuleVH$a;->a:Lcom/commsource/home/banner/HomeBannerAdModuleVH;
 
     iget-object v1, v1, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->itemView:Landroid/view/View;
@@ -793,7 +747,6 @@
 
     const/high16 v1, 0x3f800000    # 1.0f
 
-    .line 42
     invoke-static {v1}, Lcom/meitu/library/p/f/i;->d(F)I
 
     move-result v1
@@ -805,7 +758,6 @@
 
     move-result v1
 
-    .line 43
     :goto_1
     iget-object v3, v0, Lcom/commsource/home/banner/HomeBannerAdModuleVH$a;->a:Lcom/commsource/home/banner/HomeBannerAdModuleVH;
 
@@ -835,7 +787,6 @@
 
     iput v9, v3, Landroid/view/ViewGroup$LayoutParams;->height:I
 
-    .line 44
     iget-object v3, v0, Lcom/commsource/home/banner/HomeBannerAdModuleVH$a;->a:Lcom/commsource/home/banner/HomeBannerAdModuleVH;
 
     iget-object v3, v3, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->itemView:Landroid/view/View;
@@ -856,7 +807,6 @@
 
     iput v9, v3, Landroid/view/ViewGroup$LayoutParams;->height:I
 
-    .line 45
     iget-object v1, v0, Lcom/commsource/home/banner/HomeBannerAdModuleVH$a;->a:Lcom/commsource/home/banner/HomeBannerAdModuleVH;
 
     iget-object v1, v1, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->itemView:Landroid/view/View;
@@ -879,7 +829,6 @@
 
     check-cast v1, Lcom/meitu/ratiorelativelayout/RatioRelativeLayout$LayoutParams;
 
-    .line 46
     iget-object v3, v0, Lcom/commsource/home/banner/HomeBannerAdModuleVH$a;->a:Lcom/commsource/home/banner/HomeBannerAdModuleVH;
 
     invoke-static {v3}, Lcom/commsource/home/banner/HomeBannerAdModuleVH;->H(Lcom/commsource/home/banner/HomeBannerAdModuleVH;)I
@@ -900,44 +849,34 @@
 
     const/4 v4, -0x1
 
-    .line 47
     iput v4, v1, Landroid/widget/RelativeLayout$LayoutParams;->width:I
 
-    .line 48
     iput v3, v1, Landroid/widget/RelativeLayout$LayoutParams;->height:I
 
     const/16 v3, 0xd
 
-    .line 49
     invoke-virtual {v1, v3}, Landroid/widget/RelativeLayout$LayoutParams;->addRule(I)V
 
     const/4 v6, 0x6
 
-    .line 50
     invoke-virtual {v1, v6, v4}, Landroid/widget/RelativeLayout$LayoutParams;->addRule(II)V
 
     const/4 v6, 0x7
 
-    .line 51
     invoke-virtual {v1, v6, v4}, Landroid/widget/RelativeLayout$LayoutParams;->addRule(II)V
 
     const/4 v9, 0x5
 
-    .line 52
     invoke-virtual {v1, v9, v4}, Landroid/widget/RelativeLayout$LayoutParams;->addRule(II)V
 
-    .line 53
     invoke-virtual {v1, v6}, Landroid/widget/RelativeLayout$LayoutParams;->addRule(I)V
 
-    .line 54
     new-instance v1, Landroid/widget/RelativeLayout$LayoutParams;
 
     invoke-direct {v1, v4, v4}, Landroid/widget/RelativeLayout$LayoutParams;-><init>(II)V
 
-    .line 55
     invoke-virtual {v1, v3}, Landroid/widget/RelativeLayout$LayoutParams;->addRule(I)V
 
-    .line 56
     iget-object v3, v0, Lcom/commsource/home/banner/HomeBannerAdModuleVH$a;->a:Lcom/commsource/home/banner/HomeBannerAdModuleVH;
 
     iget-object v3, v3, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->itemView:Landroid/view/View;
@@ -952,7 +891,6 @@
 
     invoke-virtual {v3}, Landroid/widget/RelativeLayout;->removeAllViews()V
 
-    .line 57
     iget-object v3, v0, Lcom/commsource/home/banner/HomeBannerAdModuleVH$a;->a:Lcom/commsource/home/banner/HomeBannerAdModuleVH;
 
     iget-object v3, v3, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->itemView:Landroid/view/View;
@@ -969,7 +907,6 @@
 
     goto/16 :goto_5
 
-    .line 58
     :cond_9
     new-instance v1, Lcotlin/TypeCastException;
 
@@ -981,7 +918,6 @@
 
     throw v1
 
-    .line 59
     :cond_a
     invoke-static {v7, v5}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
@@ -1003,7 +939,6 @@
 
     if-eqz v1, :cond_d
 
-    .line 60
     iget-object v1, v0, Lcom/commsource/home/banner/HomeBannerAdModuleVH$a;->a:Lcom/commsource/home/banner/HomeBannerAdModuleVH;
 
     iget-object v1, v1, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->itemView:Landroid/view/View;
@@ -1024,7 +959,6 @@
 
     invoke-virtual {v1, v9}, Landroid/widget/RelativeLayout;->setScaleX(F)V
 
-    .line 61
     iget-object v1, v0, Lcom/commsource/home/banner/HomeBannerAdModuleVH$a;->a:Lcom/commsource/home/banner/HomeBannerAdModuleVH;
 
     iget-object v1, v1, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->itemView:Landroid/view/View;
@@ -1041,10 +975,8 @@
 
     invoke-virtual {v1, v9}, Landroid/widget/RelativeLayout;->setScaleY(F)V
 
-    .line 62
     invoke-direct/range {p0 .. p0}, Lcom/commsource/home/banner/HomeBannerAdModuleVH$a;->a()V
 
-    .line 63
     iget-object v1, v0, Lcom/commsource/home/banner/HomeBannerAdModuleVH$a;->a:Lcom/commsource/home/banner/HomeBannerAdModuleVH;
 
     iget-object v1, v1, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->itemView:Landroid/view/View;
@@ -1079,7 +1011,6 @@
 
     const/high16 v1, 0x3f800000    # 1.0f
 
-    .line 64
     invoke-static {v1}, Lcom/meitu/library/p/f/i;->d(F)I
 
     move-result v1
@@ -1091,7 +1022,6 @@
 
     move-result v1
 
-    .line 65
     :goto_2
     iget-object v3, v0, Lcom/commsource/home/banner/HomeBannerAdModuleVH$a;->a:Lcom/commsource/home/banner/HomeBannerAdModuleVH;
 
@@ -1121,7 +1051,6 @@
 
     iput v9, v3, Landroid/view/ViewGroup$LayoutParams;->height:I
 
-    .line 66
     iget-object v3, v0, Lcom/commsource/home/banner/HomeBannerAdModuleVH$a;->a:Lcom/commsource/home/banner/HomeBannerAdModuleVH;
 
     iget-object v3, v3, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->itemView:Landroid/view/View;
@@ -1142,7 +1071,6 @@
 
     iput v9, v3, Landroid/view/ViewGroup$LayoutParams;->height:I
 
-    .line 67
     iget-object v1, v0, Lcom/commsource/home/banner/HomeBannerAdModuleVH$a;->a:Lcom/commsource/home/banner/HomeBannerAdModuleVH;
 
     iget-object v1, v1, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->itemView:Landroid/view/View;
@@ -1165,7 +1093,6 @@
 
     check-cast v1, Lcom/meitu/ratiorelativelayout/RatioRelativeLayout$LayoutParams;
 
-    .line 68
     iget-object v3, v0, Lcom/commsource/home/banner/HomeBannerAdModuleVH$a;->a:Lcom/commsource/home/banner/HomeBannerAdModuleVH;
 
     invoke-static {v3}, Lcom/commsource/home/banner/HomeBannerAdModuleVH;->H(Lcom/commsource/home/banner/HomeBannerAdModuleVH;)I
@@ -1186,44 +1113,34 @@
 
     const/4 v4, -0x1
 
-    .line 69
     iput v4, v1, Landroid/widget/RelativeLayout$LayoutParams;->width:I
 
-    .line 70
     iput v3, v1, Landroid/widget/RelativeLayout$LayoutParams;->height:I
 
     const/16 v3, 0xd
 
-    .line 71
     invoke-virtual {v1, v3}, Landroid/widget/RelativeLayout$LayoutParams;->addRule(I)V
 
     const/4 v6, 0x6
 
-    .line 72
     invoke-virtual {v1, v6, v4}, Landroid/widget/RelativeLayout$LayoutParams;->addRule(II)V
 
     const/4 v6, 0x7
 
-    .line 73
     invoke-virtual {v1, v6, v4}, Landroid/widget/RelativeLayout$LayoutParams;->addRule(II)V
 
     const/4 v9, 0x5
 
-    .line 74
     invoke-virtual {v1, v9, v4}, Landroid/widget/RelativeLayout$LayoutParams;->addRule(II)V
 
-    .line 75
     invoke-virtual {v1, v6}, Landroid/widget/RelativeLayout$LayoutParams;->addRule(I)V
 
-    .line 76
     new-instance v1, Landroid/widget/RelativeLayout$LayoutParams;
 
     invoke-direct {v1, v4, v4}, Landroid/widget/RelativeLayout$LayoutParams;-><init>(II)V
 
-    .line 77
     invoke-virtual {v1, v3}, Landroid/widget/RelativeLayout$LayoutParams;->addRule(I)V
 
-    .line 78
     iget-object v3, v0, Lcom/commsource/home/banner/HomeBannerAdModuleVH$a;->a:Lcom/commsource/home/banner/HomeBannerAdModuleVH;
 
     iget-object v3, v3, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->itemView:Landroid/view/View;
@@ -1238,7 +1155,6 @@
 
     invoke-virtual {v3}, Landroid/widget/RelativeLayout;->removeAllViews()V
 
-    .line 79
     iget-object v3, v0, Lcom/commsource/home/banner/HomeBannerAdModuleVH$a;->a:Lcom/commsource/home/banner/HomeBannerAdModuleVH;
 
     iget-object v3, v3, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->itemView:Landroid/view/View;
@@ -1255,7 +1171,6 @@
 
     goto/16 :goto_5
 
-    .line 80
     :cond_c
     new-instance v1, Lcotlin/TypeCastException;
 
@@ -1267,7 +1182,6 @@
 
     throw v1
 
-    .line 81
     :cond_d
     iget-object v1, v0, Lcom/commsource/home/banner/HomeBannerAdModuleVH$a;->a:Lcom/commsource/home/banner/HomeBannerAdModuleVH;
 
@@ -1297,7 +1211,6 @@
 
     const/high16 v1, 0x3f800000    # 1.0f
 
-    .line 82
     invoke-static {v1}, Lcom/meitu/library/p/f/i;->d(F)I
 
     move-result v3
@@ -1309,7 +1222,6 @@
 
     move-result v3
 
-    .line 83
     :goto_3
     iget-object v1, v0, Lcom/commsource/home/banner/HomeBannerAdModuleVH$a;->a:Lcom/commsource/home/banner/HomeBannerAdModuleVH;
 
@@ -1325,7 +1237,6 @@
 
     if-le v1, v7, :cond_f
 
-    .line 84
     iget-object v1, v0, Lcom/commsource/home/banner/HomeBannerAdModuleVH$a;->a:Lcom/commsource/home/banner/HomeBannerAdModuleVH;
 
     invoke-static {v1}, Lcom/commsource/home/banner/HomeBannerAdModuleVH;->E(Lcom/commsource/home/banner/HomeBannerAdModuleVH;)I
@@ -1354,7 +1265,6 @@
 
     div-float/2addr v1, v7
 
-    .line 85
     iget-object v7, v0, Lcom/commsource/home/banner/HomeBannerAdModuleVH$a;->a:Lcom/commsource/home/banner/HomeBannerAdModuleVH;
 
     invoke-static {v7}, Lcom/commsource/home/banner/HomeBannerAdModuleVH;->I(Lcom/commsource/home/banner/HomeBannerAdModuleVH;)I
@@ -1367,7 +1277,6 @@
 
     float-to-int v7, v7
 
-    .line 86
     iget-object v9, v0, Lcom/commsource/home/banner/HomeBannerAdModuleVH$a;->a:Lcom/commsource/home/banner/HomeBannerAdModuleVH;
 
     iget-object v9, v9, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->itemView:Landroid/view/View;
@@ -1386,7 +1295,6 @@
 
     invoke-virtual {v9, v1}, Landroid/widget/RelativeLayout;->setScaleX(F)V
 
-    .line 87
     iget-object v9, v0, Lcom/commsource/home/banner/HomeBannerAdModuleVH$a;->a:Lcom/commsource/home/banner/HomeBannerAdModuleVH;
 
     iget-object v9, v9, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->itemView:Landroid/view/View;
@@ -1403,7 +1311,6 @@
 
     invoke-virtual {v9, v1}, Landroid/widget/RelativeLayout;->setScaleY(F)V
 
-    .line 88
     iget-object v1, v0, Lcom/commsource/home/banner/HomeBannerAdModuleVH$a;->a:Lcom/commsource/home/banner/HomeBannerAdModuleVH;
 
     iget-object v1, v1, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->itemView:Landroid/view/View;
@@ -1426,7 +1333,6 @@
 
     iput v7, v1, Landroid/view/ViewGroup$LayoutParams;->height:I
 
-    .line 89
     iget-object v1, v0, Lcom/commsource/home/banner/HomeBannerAdModuleVH$a;->a:Lcom/commsource/home/banner/HomeBannerAdModuleVH;
 
     iget-object v1, v1, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->itemView:Landroid/view/View;
@@ -1451,7 +1357,6 @@
 
     iput v7, v1, Landroid/view/ViewGroup$LayoutParams;->height:I
 
-    .line 90
     iget-object v1, v0, Lcom/commsource/home/banner/HomeBannerAdModuleVH$a;->a:Lcom/commsource/home/banner/HomeBannerAdModuleVH;
 
     iget-object v1, v1, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->itemView:Landroid/view/View;
@@ -1466,7 +1371,6 @@
 
     goto :goto_4
 
-    .line 91
     :cond_f
     iget-object v1, v0, Lcom/commsource/home/banner/HomeBannerAdModuleVH$a;->a:Lcom/commsource/home/banner/HomeBannerAdModuleVH;
 
@@ -1488,7 +1392,6 @@
 
     invoke-virtual {v1, v9}, Landroid/widget/RelativeLayout;->setScaleX(F)V
 
-    .line 92
     iget-object v1, v0, Lcom/commsource/home/banner/HomeBannerAdModuleVH$a;->a:Lcom/commsource/home/banner/HomeBannerAdModuleVH;
 
     iget-object v1, v1, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->itemView:Landroid/view/View;
@@ -1505,7 +1408,6 @@
 
     invoke-virtual {v1, v9}, Landroid/widget/RelativeLayout;->setScaleY(F)V
 
-    .line 93
     iget-object v1, v0, Lcom/commsource/home/banner/HomeBannerAdModuleVH$a;->a:Lcom/commsource/home/banner/HomeBannerAdModuleVH;
 
     iget-object v1, v1, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->itemView:Landroid/view/View;
@@ -1534,7 +1436,6 @@
 
     iput v7, v1, Landroid/view/ViewGroup$LayoutParams;->height:I
 
-    .line 94
     iget-object v1, v0, Lcom/commsource/home/banner/HomeBannerAdModuleVH$a;->a:Lcom/commsource/home/banner/HomeBannerAdModuleVH;
 
     iget-object v1, v1, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->itemView:Landroid/view/View;
@@ -1565,7 +1466,6 @@
 
     iput v7, v1, Landroid/view/ViewGroup$LayoutParams;->height:I
 
-    .line 95
     iget-object v1, v0, Lcom/commsource/home/banner/HomeBannerAdModuleVH$a;->a:Lcom/commsource/home/banner/HomeBannerAdModuleVH;
 
     iget-object v1, v1, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->itemView:Landroid/view/View;
@@ -1586,7 +1486,6 @@
 
     iput v7, v1, Landroid/view/ViewGroup$LayoutParams;->height:I
 
-    .line 96
     :goto_4
     iget-object v1, v0, Lcom/commsource/home/banner/HomeBannerAdModuleVH$a;->a:Lcom/commsource/home/banner/HomeBannerAdModuleVH;
 
@@ -1612,7 +1511,6 @@
 
     check-cast v1, Lcom/meitu/ratiorelativelayout/RatioRelativeLayout$LayoutParams;
 
-    .line 97
     iget-object v4, v0, Lcom/commsource/home/banner/HomeBannerAdModuleVH$a;->a:Lcom/commsource/home/banner/HomeBannerAdModuleVH;
 
     invoke-static {v4}, Lcom/commsource/home/banner/HomeBannerAdModuleVH;->J(Lcom/commsource/home/banner/HomeBannerAdModuleVH;)I
@@ -1621,7 +1519,6 @@
 
     iput v4, v1, Landroid/widget/RelativeLayout$LayoutParams;->width:I
 
-    .line 98
     iget-object v4, v0, Lcom/commsource/home/banner/HomeBannerAdModuleVH$a;->a:Lcom/commsource/home/banner/HomeBannerAdModuleVH;
 
     invoke-static {v4}, Lcom/commsource/home/banner/HomeBannerAdModuleVH;->I(Lcom/commsource/home/banner/HomeBannerAdModuleVH;)I
@@ -1632,35 +1529,28 @@
 
     const/4 v4, 0x0
 
-    .line 99
     iput v4, v1, Landroid/widget/RelativeLayout$LayoutParams;->bottomMargin:I
 
     const/16 v4, 0xd
 
-    .line 100
     invoke-virtual {v1, v4}, Landroid/widget/RelativeLayout$LayoutParams;->addRule(I)V
 
     const/4 v6, 0x6
 
     const/4 v7, -0x1
 
-    .line 101
     invoke-virtual {v1, v6, v7}, Landroid/widget/RelativeLayout$LayoutParams;->addRule(II)V
 
     const/4 v6, 0x7
 
-    .line 102
     invoke-virtual {v1, v6, v7}, Landroid/widget/RelativeLayout$LayoutParams;->addRule(II)V
 
     const/4 v9, 0x5
 
-    .line 103
     invoke-virtual {v1, v9, v7}, Landroid/widget/RelativeLayout$LayoutParams;->addRule(II)V
 
-    .line 104
     invoke-virtual {v1, v6}, Landroid/widget/RelativeLayout$LayoutParams;->addRule(I)V
 
-    .line 105
     new-instance v1, Landroid/widget/RelativeLayout$LayoutParams;
 
     const/4 v6, -0x2
@@ -1669,10 +1559,8 @@
 
     invoke-direct {v1, v6, v7}, Landroid/widget/RelativeLayout$LayoutParams;-><init>(II)V
 
-    .line 106
     invoke-virtual {v1, v4}, Landroid/widget/RelativeLayout$LayoutParams;->addRule(I)V
 
-    .line 107
     iget-object v4, v0, Lcom/commsource/home/banner/HomeBannerAdModuleVH$a;->a:Lcom/commsource/home/banner/HomeBannerAdModuleVH;
 
     iget-object v4, v4, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->itemView:Landroid/view/View;
@@ -1687,7 +1575,6 @@
 
     invoke-virtual {v4}, Landroid/widget/RelativeLayout;->removeAllViews()V
 
-    .line 108
     iget-object v4, v0, Lcom/commsource/home/banner/HomeBannerAdModuleVH$a;->a:Lcom/commsource/home/banner/HomeBannerAdModuleVH;
 
     iget-object v4, v4, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->itemView:Landroid/view/View;
@@ -1705,17 +1592,14 @@
     :goto_5
     const-string v1, "banner_300*250"
 
-    .line 109
     invoke-static {v1, v5}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v1
 
     if-eqz v1, :cond_10
 
-    .line 110
     invoke-direct/range {p0 .. p0}, Lcom/commsource/home/banner/HomeBannerAdModuleVH$a;->a()V
 
-    .line 111
     :cond_10
     iget-object v1, v0, Lcom/commsource/home/banner/HomeBannerAdModuleVH$a;->a:Lcom/commsource/home/banner/HomeBannerAdModuleVH;
 
@@ -1727,7 +1611,6 @@
 
     const/16 v1, 0x7d4f
 
-    .line 112
     invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1735,7 +1618,6 @@
     :cond_11
     const/16 v1, 0x7d4f
 
-    .line 113
     new-instance v2, Lcotlin/TypeCastException;
 
     invoke-direct {v2, v6}, Lcotlin/TypeCastException;-><init>(Ljava/lang/String;)V
@@ -1760,7 +1642,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/home/banner/HomeBannerAdModuleVH$a;->a:Lcom/commsource/home/banner/HomeBannerAdModuleVH;
 
     iget-object v1, v1, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->itemView:Landroid/view/View;
@@ -1779,7 +1660,6 @@
 
     invoke-static {v1, p1}, Lcom/commsource/beautyplus/util/j;->a(Landroid/app/Activity;Lcom/meitu/hwbusinesskit/core/bean/AdData;)V
 
-    .line 2
     iget-object p1, p0, Lcom/commsource/home/banner/HomeBannerAdModuleVH$a;->a:Lcom/commsource/home/banner/HomeBannerAdModuleVH;
 
     invoke-virtual {p1}, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->getAdapterPosition()I
@@ -1824,10 +1704,8 @@
     :goto_0
     const-string v3, "ad_topbanner_click"
 
-    .line 3
     invoke-static {v3, p1, v1}, Lcom/commsource/advertisiting/g/b;->f(Ljava/lang/String;ILcom/commsource/home/entity/a;)V
 
-    .line 4
     iget-object p1, p0, Lcom/commsource/home/banner/HomeBannerAdModuleVH$a;->a:Lcom/commsource/home/banner/HomeBannerAdModuleVH;
 
     invoke-virtual {p1}, Lcom/commsource/home/BaseHomeModuleVH;->y()Lcom/commsource/home/NewHomeContentViewModel;
@@ -1897,7 +1775,6 @@
 
     invoke-static/range {v3 .. v10}, Lcom/commsource/home/d;->b(Lcom/commsource/home/d;ILcom/commsource/home/entity/ContentModule;ILcom/commsource/home/entity/d;Ljava/lang/String;ILjava/lang/Object;)V
 
-    .line 5
     iget-object p1, p0, Lcom/commsource/home/banner/HomeBannerAdModuleVH$a;->a:Lcom/commsource/home/banner/HomeBannerAdModuleVH;
 
     invoke-virtual {p1}, Lcom/commsource/home/BaseHomeModuleVH;->y()Lcom/commsource/home/NewHomeContentViewModel;
@@ -1932,12 +1809,10 @@
 
     invoke-static/range {v1 .. v9}, Lcom/commsource/home/d;->m(Lcom/commsource/home/d;Ljava/lang/String;ILcom/commsource/home/entity/ContentModule;ILcom/commsource/home/entity/d;Ljava/lang/String;ILjava/lang/Object;)V
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 7
     :cond_2
     new-instance p1, Lcotlin/TypeCastException;
 
@@ -1965,14 +1840,12 @@
 
     const/4 v2, 0x0
 
-    .line 1
     invoke-static {v1, p1, v2}, Lcotlin/text/m;->I1(Ljava/lang/String;Ljava/lang/String;Z)Z
 
     move-result p1
 
     if-eqz p1, :cond_0
 
-    .line 2
     iget-object p1, p0, Lcom/commsource/home/banner/HomeBannerAdModuleVH$a;->a:Lcom/commsource/home/banner/HomeBannerAdModuleVH;
 
     iget-object p1, p1, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->itemView:Landroid/view/View;
@@ -1997,7 +1870,6 @@
 
     invoke-virtual {p1, v2}, Landroid/widget/TextView;->setVisibility(I)V
 
-    .line 3
     iget-object p1, p0, Lcom/commsource/home/banner/HomeBannerAdModuleVH$a;->a:Lcom/commsource/home/banner/HomeBannerAdModuleVH;
 
     iget-object p1, p1, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->itemView:Landroid/view/View;
@@ -2018,7 +1890,6 @@
 
     invoke-virtual {p1, v2}, Landroid/widget/TextView;->setVisibility(I)V
 
-    .line 4
     iget-object p1, p0, Lcom/commsource/home/banner/HomeBannerAdModuleVH$a;->a:Lcom/commsource/home/banner/HomeBannerAdModuleVH;
 
     iget-object p1, p1, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->itemView:Landroid/view/View;
@@ -2035,12 +1906,10 @@
 
     invoke-virtual {p1}, Landroid/widget/RelativeLayout;->removeAllViews()V
 
-    .line 5
     iget-object p1, p0, Lcom/commsource/home/banner/HomeBannerAdModuleVH$a;->a:Lcom/commsource/home/banner/HomeBannerAdModuleVH;
 
     invoke-static {p1}, Lcom/commsource/home/banner/HomeBannerAdModuleVH;->Z(Lcom/commsource/home/banner/HomeBannerAdModuleVH;)V
 
-    .line 6
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -2054,10 +1923,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0, p1}, Lcom/meitu/hwbusinesskit/core/listener/OnAdListener;->onFailed(I)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2078,7 +1945,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/home/banner/HomeBannerAdModuleVH$a;->a:Lcom/commsource/home/banner/HomeBannerAdModuleVH;
 
     invoke-virtual {v1}, Lcom/commsource/widget/h1/f;->c()Lcom/commsource/widget/h1/d;
@@ -2109,7 +1975,6 @@
 
     invoke-virtual {v1, p1}, Lcom/commsource/home/entity/a;->j(Lcom/meitu/hwbusinesskit/core/bean/AdData;)V
 
-    .line 2
     :cond_0
     invoke-virtual {p1}, Lcom/meitu/hwbusinesskit/core/bean/AdData;->getAdType()Ljava/lang/String;
 
@@ -2117,7 +1982,6 @@
 
     const-string v2, "native"
 
-    .line 3
     invoke-static {v2, v1}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v2
@@ -2152,7 +2016,6 @@
 
     if-eqz p1, :cond_3
 
-    .line 4
     :cond_1
     iget-object p1, p0, Lcom/commsource/home/banner/HomeBannerAdModuleVH$a;->a:Lcom/commsource/home/banner/HomeBannerAdModuleVH;
 
@@ -2176,7 +2039,6 @@
 
     invoke-virtual {p1, v1}, Landroid/widget/TextView;->setVisibility(I)V
 
-    .line 5
     iget-object p1, p0, Lcom/commsource/home/banner/HomeBannerAdModuleVH$a;->a:Lcom/commsource/home/banner/HomeBannerAdModuleVH;
 
     iget-object p1, p1, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->itemView:Landroid/view/View;
@@ -2197,7 +2059,6 @@
 
     invoke-virtual {p1, v4}, Landroid/widget/TextView;->setVisibility(I)V
 
-    .line 6
     iget-object p1, p0, Lcom/commsource/home/banner/HomeBannerAdModuleVH$a;->a:Lcom/commsource/home/banner/HomeBannerAdModuleVH;
 
     iget-object p1, p1, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->itemView:Landroid/view/View;
@@ -2216,12 +2077,10 @@
 
     invoke-virtual {p1, v1}, Landroid/view/View;->setVisibility(I)V
 
-    .line 7
     iget-object p1, p0, Lcom/commsource/home/banner/HomeBannerAdModuleVH$a;->a:Lcom/commsource/home/banner/HomeBannerAdModuleVH;
 
     invoke-static {p1, v4}, Lcom/commsource/home/banner/HomeBannerAdModuleVH;->a0(Lcom/commsource/home/banner/HomeBannerAdModuleVH;Z)V
 
-    .line 8
     iget-object p1, p0, Lcom/commsource/home/banner/HomeBannerAdModuleVH$a;->a:Lcom/commsource/home/banner/HomeBannerAdModuleVH;
 
     iget-object p1, p1, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->itemView:Landroid/view/View;
@@ -2242,7 +2101,6 @@
 
     invoke-virtual {p1, v2}, Landroid/widget/RelativeLayout;->setScaleX(F)V
 
-    .line 9
     iget-object p1, p0, Lcom/commsource/home/banner/HomeBannerAdModuleVH$a;->a:Lcom/commsource/home/banner/HomeBannerAdModuleVH;
 
     iget-object p1, p1, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->itemView:Landroid/view/View;
@@ -2259,7 +2117,6 @@
 
     invoke-virtual {p1, v2}, Landroid/widget/RelativeLayout;->setScaleY(F)V
 
-    .line 10
     iget-object p1, p0, Lcom/commsource/home/banner/HomeBannerAdModuleVH$a;->a:Lcom/commsource/home/banner/HomeBannerAdModuleVH;
 
     iget-object p1, p1, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->itemView:Landroid/view/View;
@@ -2282,7 +2139,6 @@
 
     check-cast p1, Lcom/meitu/ratiorelativelayout/RatioRelativeLayout$LayoutParams;
 
-    .line 11
     iget-object v7, p0, Lcom/commsource/home/banner/HomeBannerAdModuleVH$a;->a:Lcom/commsource/home/banner/HomeBannerAdModuleVH;
 
     invoke-static {v7}, Lcom/commsource/home/banner/HomeBannerAdModuleVH;->H(Lcom/commsource/home/banner/HomeBannerAdModuleVH;)I
@@ -2293,35 +2149,28 @@
 
     const/16 v7, 0xe
 
-    .line 12
     invoke-virtual {p1, v7}, Landroid/widget/RelativeLayout$LayoutParams;->addRule(I)V
 
     const/16 v7, 0xa
 
-    .line 13
     invoke-virtual {p1, v7}, Landroid/widget/RelativeLayout$LayoutParams;->addRule(I)V
 
     const/4 v7, 0x6
 
     const/4 v8, -0x1
 
-    .line 14
     invoke-virtual {p1, v7, v8}, Landroid/widget/RelativeLayout$LayoutParams;->addRule(II)V
 
     const/4 v7, 0x7
 
-    .line 15
     invoke-virtual {p1, v7, v8}, Landroid/widget/RelativeLayout$LayoutParams;->addRule(II)V
 
     const/4 v9, 0x5
 
-    .line 16
     invoke-virtual {p1, v9, v8}, Landroid/widget/RelativeLayout$LayoutParams;->addRule(II)V
 
-    .line 17
     invoke-virtual {p1, v7}, Landroid/widget/RelativeLayout$LayoutParams;->addRule(I)V
 
-    .line 18
     iget-object v7, p0, Lcom/commsource/home/banner/HomeBannerAdModuleVH$a;->a:Lcom/commsource/home/banner/HomeBannerAdModuleVH;
 
     iget-object v7, v7, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->itemView:Landroid/view/View;
@@ -2342,7 +2191,6 @@
 
     const-string v7, "ivCover"
 
-    .line 19
     invoke-static {v1, v7}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v1}, Landroid/widget/ImageView;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
@@ -2353,12 +2201,10 @@
 
     check-cast v1, Landroid/widget/RelativeLayout$LayoutParams;
 
-    .line 20
     iget v7, p1, Landroid/widget/RelativeLayout$LayoutParams;->width:I
 
     iput v7, v1, Landroid/widget/RelativeLayout$LayoutParams;->width:I
 
-    .line 21
     iget v7, p1, Landroid/widget/RelativeLayout$LayoutParams;->width:I
 
     int-to-float v7, v7
@@ -2383,7 +2229,6 @@
 
     const/high16 v1, 0x42a00000    # 80.0f
 
-    .line 22
     invoke-static {v1}, Lcom/meitu/library/p/f/i;->d(F)I
 
     move-result v1
@@ -2392,7 +2237,6 @@
 
     iput v7, p1, Landroid/widget/RelativeLayout$LayoutParams;->height:I
 
-    .line 23
     iget-object v1, p0, Lcom/commsource/home/banner/HomeBannerAdModuleVH$a;->a:Lcom/commsource/home/banner/HomeBannerAdModuleVH;
 
     iget-object v1, v1, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->itemView:Landroid/view/View;
@@ -2419,7 +2263,6 @@
 
     iput v7, v1, Landroid/view/ViewGroup$LayoutParams;->height:I
 
-    .line 24
     sget v1, Landroid/os/Build$VERSION;->SDK_INT:I
 
     const/16 v7, 0x15
@@ -2439,7 +2282,6 @@
 
     move-result v1
 
-    .line 25
     :goto_0
     iget-object v2, p0, Lcom/commsource/home/banner/HomeBannerAdModuleVH$a;->a:Lcom/commsource/home/banner/HomeBannerAdModuleVH;
 
@@ -2469,7 +2311,6 @@
 
     iput v7, v2, Landroid/view/ViewGroup$LayoutParams;->height:I
 
-    .line 26
     iget-object v2, p0, Lcom/commsource/home/banner/HomeBannerAdModuleVH$a;->a:Lcom/commsource/home/banner/HomeBannerAdModuleVH;
 
     iget-object v2, v2, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->itemView:Landroid/view/View;
@@ -2486,13 +2327,11 @@
 
     iput p1, v2, Landroid/view/ViewGroup$LayoutParams;->height:I
 
-    .line 27
     :cond_3
     iget-object p1, p0, Lcom/commsource/home/banner/HomeBannerAdModuleVH$a;->a:Lcom/commsource/home/banner/HomeBannerAdModuleVH;
 
     invoke-static {p1, v3}, Lcom/commsource/home/banner/HomeBannerAdModuleVH;->O(Lcom/commsource/home/banner/HomeBannerAdModuleVH;Z)V
 
-    .line 28
     iget-object p1, p0, Lcom/commsource/home/banner/HomeBannerAdModuleVH$a;->a:Lcom/commsource/home/banner/HomeBannerAdModuleVH;
 
     iget-object p1, p1, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->itemView:Landroid/view/View;
@@ -2511,12 +2350,10 @@
 
     invoke-virtual {p1, v4}, Landroid/widget/RelativeLayout;->setVisibility(I)V
 
-    .line 29
     iget-object p1, p0, Lcom/commsource/home/banner/HomeBannerAdModuleVH$a;->a:Lcom/commsource/home/banner/HomeBannerAdModuleVH;
 
     invoke-static {p1, v3}, Lcom/commsource/home/banner/HomeBannerAdModuleVH;->X(Lcom/commsource/home/banner/HomeBannerAdModuleVH;Z)V
 
-    .line 30
     iget-object p1, p0, Lcom/commsource/home/banner/HomeBannerAdModuleVH$a;->a:Lcom/commsource/home/banner/HomeBannerAdModuleVH;
 
     invoke-static {p1}, Lcom/commsource/home/banner/HomeBannerAdModuleVH;->G(Lcom/commsource/home/banner/HomeBannerAdModuleVH;)I
@@ -2525,12 +2362,10 @@
 
     invoke-virtual {p1, v1}, Lcom/commsource/home/banner/HomeBannerAdModuleVH;->A(I)V
 
-    .line 31
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 32
     :cond_4
     new-instance p1, Lcotlin/TypeCastException;
 
@@ -2542,7 +2377,6 @@
 
     throw p1
 
-    .line 33
     :cond_5
     new-instance p1, Lcotlin/TypeCastException;
 

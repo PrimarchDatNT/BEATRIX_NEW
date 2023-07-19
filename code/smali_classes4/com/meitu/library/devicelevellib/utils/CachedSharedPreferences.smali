@@ -79,10 +79,8 @@
 .method private constructor <init>(Landroid/content/Context;)V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     sget-object v0, Lcom/meitu/library/devicelevellib/utils/CachedSharedPreferences$cache$2;->INSTANCE:Lcom/meitu/library/devicelevellib/utils/CachedSharedPreferences$cache$2;
 
     invoke-static {v0}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
@@ -91,7 +89,6 @@
 
     iput-object v0, p0, Lcom/meitu/library/devicelevellib/utils/CachedSharedPreferences;->a:Lcotlin/w;
 
-    .line 3
     invoke-virtual {p1}, Landroid/content/Context;->getApplicationContext()Landroid/content/Context;
 
     move-result-object p1
@@ -116,7 +113,6 @@
         .end annotation
     .end param
 
-    .line 4
     invoke-direct {p0, p1}, Lcom/meitu/library/devicelevellib/utils/CachedSharedPreferences;-><init>(Landroid/content/Context;)V
 
     return-void
@@ -131,7 +127,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/meitu/library/devicelevellib/utils/CachedSharedPreferences;->d:Lcom/meitu/library/devicelevellib/utils/CachedSharedPreferences;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -150,7 +145,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sput-object p0, Lcom/meitu/library/devicelevellib/utils/CachedSharedPreferences;->d:Lcom/meitu/library/devicelevellib/utils/CachedSharedPreferences;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -210,7 +204,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-direct {p0}, Lcom/meitu/library/devicelevellib/utils/CachedSharedPreferences;->c()Ljava/util/HashMap;
 
     move-result-object v1
@@ -221,14 +214,12 @@
 
     if-eqz v1, :cond_1
 
-    .line 2
     instance-of v2, v1, Ljava/lang/Integer;
 
     if-nez v2, :cond_0
 
     goto :goto_0
 
-    .line 3
     :cond_0
     check-cast v1, Ljava/lang/Integer;
 
@@ -238,7 +229,6 @@
 
     goto :goto_1
 
-    .line 4
     :cond_1
     :goto_0
     iget-object v1, p0, Lcom/meitu/library/devicelevellib/utils/CachedSharedPreferences;->b:Landroid/content/SharedPreferences;
@@ -247,13 +237,11 @@
 
     move-result p1
 
-    .line 5
     :goto_1
     invoke-static {p1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object p1
 
-    .line 6
     invoke-virtual {p1}, Ljava/lang/Number;->intValue()I
 
     move-result p1
@@ -288,7 +276,6 @@
 
     invoke-static {p2, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-direct {p0}, Lcom/meitu/library/devicelevellib/utils/CachedSharedPreferences;->c()Ljava/util/HashMap;
 
     move-result-object v1
@@ -299,20 +286,17 @@
 
     if-eqz v1, :cond_1
 
-    .line 2
     instance-of v2, v1, Ljava/lang/String;
 
     if-nez v2, :cond_0
 
     goto :goto_0
 
-    .line 3
     :cond_0
     check-cast v1, Ljava/lang/String;
 
     goto :goto_1
 
-    .line 4
     :cond_1
     :goto_0
     iget-object v1, p0, Lcom/meitu/library/devicelevellib/utils/CachedSharedPreferences;->b:Landroid/content/SharedPreferences;
@@ -324,7 +308,6 @@
     :goto_1
     const-string p1, "value"
 
-    .line 5
     invoke-static {v1, p1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -350,7 +333,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/library/devicelevellib/utils/CachedSharedPreferences;->b:Landroid/content/SharedPreferences;
 
     invoke-interface {v1}, Landroid/content/SharedPreferences;->edit()Landroid/content/SharedPreferences$Editor;
@@ -363,7 +345,6 @@
 
     invoke-interface {v1}, Landroid/content/SharedPreferences$Editor;->apply()V
 
-    .line 2
     invoke-direct {p0}, Lcom/meitu/library/devicelevellib/utils/CachedSharedPreferences;->c()Ljava/util/HashMap;
 
     move-result-object v1
@@ -374,7 +355,6 @@
 
     invoke-interface {v1, p1, p2}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
@@ -417,7 +397,6 @@
 
     invoke-static {p2, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/library/devicelevellib/utils/CachedSharedPreferences;->b:Landroid/content/SharedPreferences;
 
     invoke-interface {v1}, Landroid/content/SharedPreferences;->edit()Landroid/content/SharedPreferences$Editor;
@@ -430,14 +409,12 @@
 
     invoke-interface {v1}, Landroid/content/SharedPreferences$Editor;->apply()V
 
-    .line 2
     invoke-direct {p0}, Lcom/meitu/library/devicelevellib/utils/CachedSharedPreferences;->c()Ljava/util/HashMap;
 
     move-result-object v1
 
     invoke-interface {v1, p1, p2}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0

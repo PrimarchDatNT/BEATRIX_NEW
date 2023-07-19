@@ -45,26 +45,20 @@
 
     const/4 v1, 0x0
 
-    .line 1
     sput-boolean v1, Lcom/meitu/hubble/d;->i:Z
 
-    .line 2
     sput-boolean v1, Lcom/meitu/hubble/d;->j:Z
 
     const/4 v2, 0x1
 
-    .line 3
     sput-boolean v2, Lcom/meitu/hubble/d;->k:Z
 
-    .line 4
     sput-boolean v1, Lcom/meitu/hubble/d;->l:Z
 
     const-wide/32 v2, 0x2bf20
 
-    .line 5
     sput-wide v2, Lcom/meitu/hubble/d;->m:J
 
-    .line 6
     sput-boolean v1, Lcom/meitu/hubble/d;->n:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -75,42 +69,32 @@
 .method public constructor <init>()V
     .locals 3
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const-wide/32 v0, 0xea60
 
-    .line 2
     iput-wide v0, p0, Lcom/meitu/hubble/d;->b:J
 
     const-string v2, ""
 
-    .line 3
     iput-object v2, p0, Lcom/meitu/hubble/d;->c:Ljava/lang/String;
 
-    .line 4
     iput-object v2, p0, Lcom/meitu/hubble/d;->d:Ljava/lang/String;
 
     const/4 v2, 0x0
 
-    .line 5
     iput-boolean v2, p0, Lcom/meitu/hubble/d;->e:Z
 
-    .line 6
     iput-boolean v2, p0, Lcom/meitu/hubble/d;->f:Z
 
-    .line 7
     iput-wide v0, p0, Lcom/meitu/hubble/d;->b:J
 
     const/4 v0, 0x0
 
-    .line 8
     iput-object v0, p0, Lcom/meitu/hubble/d;->c:Ljava/lang/String;
 
-    .line 9
     iput-boolean v2, p0, Lcom/meitu/hubble/d;->e:Z
 
-    .line 10
     iput-object v0, p0, Lcom/meitu/hubble/d;->a:Ljava/lang/String;
 
     return-void
@@ -119,37 +103,28 @@
 .method public constructor <init>(Ljava/lang/String;ZZ)V
     .locals 2
 
-    .line 11
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const-wide/32 v0, 0xea60
 
-    .line 12
     iput-wide v0, p0, Lcom/meitu/hubble/d;->b:J
 
     const-string v0, ""
 
-    .line 13
     iput-object v0, p0, Lcom/meitu/hubble/d;->c:Ljava/lang/String;
 
-    .line 14
     iput-object v0, p0, Lcom/meitu/hubble/d;->d:Ljava/lang/String;
 
     const/4 v0, 0x0
 
-    .line 15
     iput-boolean v0, p0, Lcom/meitu/hubble/d;->e:Z
 
-    .line 16
     iput-boolean v0, p0, Lcom/meitu/hubble/d;->f:Z
 
-    .line 17
     iput-object p1, p0, Lcom/meitu/hubble/d;->a:Ljava/lang/String;
 
-    .line 18
     sput-boolean p2, Lcom/meitu/hubble/d;->j:Z
 
-    .line 19
     sput-boolean p3, Lcom/meitu/hubble/d;->i:Z
 
     return-void
@@ -162,7 +137,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-boolean v1, Lcom/meitu/hubble/d;->k:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -177,7 +151,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-boolean v1, Lcom/meitu/hubble/d;->l:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -192,7 +165,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-boolean v1, Lcom/meitu/hubble/d;->j:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -207,7 +179,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-boolean v1, Lcom/meitu/hubble/d;->i:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -224,10 +195,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/hubble/f;->b([Ljava/lang/String;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
@@ -240,10 +209,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sput-boolean p1, Lcom/meitu/hubble/d;->k:Z
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
@@ -256,7 +223,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/hubble/d;->d:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -271,7 +237,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/hubble/d;->b:J
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -286,7 +251,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/hubble/d;->a:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -301,7 +265,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/hubble/d;->c:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -316,7 +279,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/meitu/hubble/d;->f:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -331,7 +293,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/meitu/hubble/d;->e:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -346,7 +307,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-boolean v1, Lcom/meitu/hubble/d;->n:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -361,10 +321,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sput-boolean p1, Lcom/meitu/hubble/d;->l:Z
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
@@ -377,10 +335,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/hubble/d;->d:Ljava/lang/String;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
@@ -393,10 +349,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/meitu/hubble/d;->f:Z
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
@@ -411,14 +365,12 @@
 
     const-wide/32 v1, 0xea60
 
-    .line 1
     invoke-static {v1, v2, p1, p2}, Ljava/lang/Math;->max(JJ)J
 
     move-result-wide p1
 
     iput-wide p1, p0, Lcom/meitu/hubble/d;->b:J
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
@@ -431,10 +383,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sput-boolean p1, Lcom/meitu/hubble/d;->i:Z
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
@@ -447,10 +397,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/hubble/d;->a:Ljava/lang/String;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -463,10 +411,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/meitu/hubble/d;->e:Z
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
@@ -479,10 +425,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sput-boolean p1, Lcom/meitu/hubble/f;->c:Z
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
@@ -499,7 +443,6 @@
 
     const-string v1, "0"
 
-    .line 1
     invoke-virtual {v1, p1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v1
@@ -514,7 +457,6 @@
 
     if-eqz v1, :cond_1
 
-    .line 2
     :cond_0
     sget-boolean p1, Lcom/meitu/hubble/d;->j:Z
 
@@ -522,16 +464,13 @@
 
     const-string p1, ""
 
-    .line 3
     :cond_1
     iput-object p1, p0, Lcom/meitu/hubble/d;->c:Ljava/lang/String;
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
 
-    .line 5
     :cond_2
     new-instance p1, Landroid/util/AndroidRuntimeException;
 
@@ -551,10 +490,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sput-boolean p1, Lcom/meitu/hubble/d;->n:Z
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0

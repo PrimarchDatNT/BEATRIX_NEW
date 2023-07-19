@@ -46,14 +46,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/camera/xcamera/util/e;->c:Lcom/commsource/camera/xcamera/util/e;
 
     iget-object v2, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/c$b;->b:Lcom/meitu/template/bean/LookMaterial;
 
     invoke-virtual {v1, v2}, Lcom/commsource/camera/xcamera/util/e;->m(Lcom/meitu/template/bean/LookMaterial;)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/c$b;->a:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/c;
 
     invoke-virtual {v1}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/c;->B()Landroidx/lifecycle/MutableLiveData;
@@ -64,7 +62,6 @@
 
     invoke-virtual {v1, v2}, Landroidx/lifecycle/MutableLiveData;->postValue(Ljava/lang/Object;)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

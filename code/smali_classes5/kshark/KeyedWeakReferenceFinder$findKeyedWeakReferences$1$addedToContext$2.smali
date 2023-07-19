@@ -50,7 +50,6 @@
 .method public bridge synthetic invoke(Ljava/lang/Object;)Ljava/lang/Object;
     .locals 0
 
-    .line 1
     check-cast p1, Lkshark/HeapObject$HeapInstance;
 
     invoke-virtual {p0, p1}, Lkshark/KeyedWeakReferenceFinder$findKeyedWeakReferences$1$addedToContext$2;->invoke(Lkshark/HeapObject$HeapInstance;)Lkshark/internal/e;
@@ -73,13 +72,10 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 2
     sget-object v0, Lkshark/internal/e;->i:Lkshark/internal/e$a;
 
-    .line 3
     iget-object v1, p0, Lkshark/KeyedWeakReferenceFinder$findKeyedWeakReferences$1$addedToContext$2;->$heapDumpUptimeMillis:Ljava/lang/Long;
 
-    .line 4
     invoke-virtual {v0, p1, v1}, Lkshark/internal/e$a;->a(Lkshark/HeapObject$HeapInstance;Ljava/lang/Long;)Lkshark/internal/e;
 
     move-result-object p1

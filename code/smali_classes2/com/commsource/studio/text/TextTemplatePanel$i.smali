@@ -68,7 +68,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/text/TextTemplatePanel$i;->a:Lcom/commsource/studio/text/TextTemplatePanel;
 
     invoke-virtual {v1}, Lcom/commsource/studio/text/TextTemplatePanel;->h()Lcom/commsource/beautyplus/f0/cc;
@@ -117,7 +116,6 @@
     :cond_2
     const-string p1, "viewHolder"
 
-    .line 2
     invoke-static {p2, p1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {p2}, Lcom/commsource/widget/h1/f;->c()Lcom/commsource/widget/h1/d;
@@ -146,10 +144,8 @@
 
     if-eqz p1, :cond_4
 
-    .line 3
     check-cast p1, Lcom/commsource/studio/text/TextTemplateMaterial;
 
-    .line 4
     iget-object p2, p0, Lcom/commsource/studio/text/TextTemplatePanel$i;->a:Lcom/commsource/studio/text/TextTemplatePanel;
 
     invoke-static {p2}, Lcom/commsource/studio/text/TextTemplatePanel;->a(Lcom/commsource/studio/text/TextTemplatePanel;)Lcom/commsource/studio/text/TextViewModel;
@@ -162,7 +158,6 @@
 
     if-eqz p2, :cond_5
 
-    .line 5
     iget-object p2, p0, Lcom/commsource/studio/text/TextTemplatePanel$i;->a:Lcom/commsource/studio/text/TextTemplatePanel;
 
     invoke-static {p2}, Lcom/commsource/studio/text/TextTemplatePanel;->a(Lcom/commsource/studio/text/TextTemplatePanel;)Lcom/commsource/studio/text/TextViewModel;
@@ -171,7 +166,6 @@
 
     invoke-virtual {p2, p1}, Lcom/commsource/studio/text/TextViewModel;->Z(Lcom/commsource/studio/text/TextTemplateMaterial;)V
 
-    .line 6
     invoke-virtual {p1}, Lcom/commsource/studio/text/TextTemplateMaterial;->getId()Ljava/lang/String;
 
     move-result-object p2
@@ -186,7 +180,6 @@
 
     if-eqz p2, :cond_5
 
-    .line 7
     invoke-virtual {p1}, Lcom/commsource/studio/text/TextTemplateMaterial;->getId()Ljava/lang/String;
 
     move-result-object p1
@@ -195,12 +188,10 @@
 
     const-string v1, "text_id"
 
-    .line 8
     invoke-static {p2, v1, p1}, Lcom/commsource/statistics/i;->r(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_2
 
-    .line 9
     :cond_4
     new-instance p1, Lcotlin/TypeCastException;
 
@@ -212,7 +203,6 @@
 
     throw p1
 
-    .line 10
     :cond_5
     :goto_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -227,7 +217,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Ljava/lang/Integer;
 
     check-cast p2, Lcom/commsource/widget/h1/f;

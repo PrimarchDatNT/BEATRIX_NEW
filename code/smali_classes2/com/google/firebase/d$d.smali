@@ -25,7 +25,6 @@
 .method static constructor <clinit>()V
     .locals 2
 
-    .line 1
     new-instance v0, Landroid/os/Handler;
 
     invoke-static {}, Landroid/os/Looper;->getMainLooper()Landroid/os/Looper;
@@ -42,7 +41,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -51,7 +49,6 @@
 .method synthetic constructor <init>(Lcom/google/firebase/d$a;)V
     .locals 0
 
-    .line 2
     invoke-direct {p0}, Lcom/google/firebase/d$d;-><init>()V
 
     return-void
@@ -66,7 +63,6 @@
         .end annotation
     .end param
 
-    .line 1
     sget-object v0, Lcom/google/firebase/d$d;->a:Landroid/os/Handler;
 
     invoke-virtual {v0, p1}, Landroid/os/Handler;->post(Ljava/lang/Runnable;)Z

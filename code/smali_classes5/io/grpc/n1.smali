@@ -16,7 +16,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -38,10 +37,8 @@
 
     const-string v0, "bindableService"
 
-    .line 1
     invoke-static {p0, v0}, Lcom/google/common/base/t;->F(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 2
     invoke-interface {p0}, Lio/grpc/c;->a()Lio/grpc/q1;
 
     move-result-object p0
@@ -58,10 +55,8 @@
 
     const-string v0, "bindableService"
 
-    .line 1
     invoke-static {p0, v0}, Lcom/google/common/base/t;->F(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 2
     invoke-interface {p0}, Lio/grpc/c;->a()Lio/grpc/q1;
 
     move-result-object p0
@@ -93,10 +88,8 @@
 
     const-string v0, "serviceDef"
 
-    .line 1
     invoke-static {p0, v0}, Lcom/google/common/base/t;->F(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 2
     invoke-interface {p1}, Ljava/util/List;->isEmpty()Z
 
     move-result v0
@@ -105,7 +98,6 @@
 
     return-object p0
 
-    .line 3
     :cond_0
     invoke-virtual {p0}, Lio/grpc/q1;->e()Lio/grpc/t1;
 
@@ -115,7 +107,6 @@
 
     move-result-object v0
 
-    .line 4
     invoke-virtual {p0}, Lio/grpc/q1;->d()Ljava/util/Collection;
 
     move-result-object p0
@@ -137,12 +128,10 @@
 
     check-cast v1, Lio/grpc/o1;
 
-    .line 5
     invoke-static {v0, v1, p1}, Lio/grpc/n1;->k(Lio/grpc/q1$b;Lio/grpc/o1;Ljava/util/List;)V
 
     goto :goto_0
 
-    .line 6
     :cond_1
     invoke-virtual {v0}, Lio/grpc/q1$b;->c()Lio/grpc/q1;
 
@@ -154,7 +143,6 @@
 .method public static varargs d(Lio/grpc/q1;[Lio/grpc/m1;)Lio/grpc/q1;
     .locals 0
 
-    .line 1
     invoke-static {p1}, Ljava/util/Arrays;->asList([Ljava/lang/Object;)Ljava/util/List;
 
     move-result-object p1
@@ -180,7 +168,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-interface {p0}, Lio/grpc/c;->a()Lio/grpc/q1;
 
     move-result-object p0
@@ -195,7 +182,6 @@
 .method public static varargs f(Lio/grpc/c;[Lio/grpc/m1;)Lio/grpc/q1;
     .locals 0
 
-    .line 1
     invoke-interface {p0}, Lio/grpc/c;->a()Lio/grpc/q1;
 
     move-result-object p0
@@ -225,15 +211,12 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0, p1}, Ljava/util/ArrayList;-><init>(Ljava/util/Collection;)V
 
-    .line 2
     invoke-static {v0}, Ljava/util/Collections;->reverse(Ljava/util/List;)V
 
-    .line 3
     invoke-static {p0, v0}, Lio/grpc/n1;->c(Lio/grpc/q1;Ljava/util/List;)Lio/grpc/q1;
 
     move-result-object p0
@@ -244,7 +227,6 @@
 .method public static varargs h(Lio/grpc/q1;[Lio/grpc/m1;)Lio/grpc/q1;
     .locals 0
 
-    .line 1
     invoke-static {p1}, Ljava/util/Arrays;->asList([Ljava/lang/Object;)Ljava/util/List;
 
     move-result-object p1
@@ -262,12 +244,10 @@
         value = "https://github.com/grpc/grpc-java/issues/1712"
     .end annotation
 
-    .line 1
     new-instance v0, Lio/grpc/n1$a;
 
     invoke-direct {v0}, Lio/grpc/n1$a;-><init>()V
 
-    .line 2
     invoke-static {p0, v0}, Lio/grpc/n1;->j(Lio/grpc/q1;Lio/grpc/MethodDescriptor$c;)Lio/grpc/q1;
 
     move-result-object p0
@@ -293,17 +273,14 @@
         value = "https://github.com/grpc/grpc-java/issues/1712"
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
 
-    .line 2
     new-instance v1, Ljava/util/ArrayList;
 
     invoke-direct {v1}, Ljava/util/ArrayList;-><init>()V
 
-    .line 3
     invoke-virtual {p0}, Lio/grpc/q1;->d()Ljava/util/Collection;
 
     move-result-object v2
@@ -325,12 +302,10 @@
 
     check-cast v3, Lio/grpc/o1;
 
-    .line 4
     invoke-virtual {v3}, Lio/grpc/o1;->b()Lio/grpc/MethodDescriptor;
 
     move-result-object v4
 
-    .line 5
     invoke-virtual {v4, p1, p1}, Lio/grpc/MethodDescriptor;->v(Lio/grpc/MethodDescriptor$c;Lio/grpc/MethodDescriptor$c;)Lio/grpc/MethodDescriptor$b;
 
     move-result-object v4
@@ -339,10 +314,8 @@
 
     move-result-object v4
 
-    .line 6
     invoke-interface {v1, v4}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
-    .line 7
     invoke-static {v3, v4}, Lio/grpc/n1;->m(Lio/grpc/o1;Lio/grpc/MethodDescriptor;)Lio/grpc/o1;
 
     move-result-object v3
@@ -351,7 +324,6 @@
 
     goto :goto_0
 
-    .line 8
     :cond_0
     invoke-virtual {p0}, Lio/grpc/q1;->e()Lio/grpc/t1;
 
@@ -365,7 +337,6 @@
 
     move-result-object p1
 
-    .line 9
     invoke-virtual {p0}, Lio/grpc/q1;->e()Lio/grpc/t1;
 
     move-result-object p0
@@ -378,7 +349,6 @@
 
     move-result-object p0
 
-    .line 10
     invoke-interface {v1}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
     move-result-object p1
@@ -396,12 +366,10 @@
 
     check-cast v1, Lio/grpc/MethodDescriptor;
 
-    .line 11
     invoke-virtual {p0, v1}, Lio/grpc/t1$b;->f(Lio/grpc/MethodDescriptor;)Lio/grpc/t1$b;
 
     goto :goto_1
 
-    .line 12
     :cond_1
     invoke-virtual {p0}, Lio/grpc/t1$b;->g()Lio/grpc/t1;
 
@@ -411,7 +379,6 @@
 
     move-result-object p0
 
-    .line 13
     invoke-interface {v0}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
     move-result-object p1
@@ -429,12 +396,10 @@
 
     check-cast v0, Lio/grpc/o1;
 
-    .line 14
     invoke-virtual {p0, v0}, Lio/grpc/q1$b;->b(Lio/grpc/o1;)Lio/grpc/q1$b;
 
     goto :goto_2
 
-    .line 15
     :cond_2
     invoke-virtual {p0}, Lio/grpc/q1$b;->c()Lio/grpc/q1;
 
@@ -462,12 +427,10 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p1}, Lio/grpc/o1;->c()Lio/grpc/l1;
 
     move-result-object v0
 
-    .line 2
     invoke-interface {p2}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
     move-result-object p2
@@ -485,14 +448,12 @@
 
     check-cast v1, Lio/grpc/m1;
 
-    .line 3
     invoke-static {v1, v0}, Lio/grpc/n1$c;->b(Lio/grpc/m1;Lio/grpc/l1;)Lio/grpc/n1$c;
 
     move-result-object v0
 
     goto :goto_0
 
-    .line 4
     :cond_0
     invoke-virtual {p1, v0}, Lio/grpc/o1;->d(Lio/grpc/l1;)Lio/grpc/o1;
 
@@ -527,7 +488,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lio/grpc/n1$b;
 
     invoke-direct {v0, p1, p2, p0}, Lio/grpc/n1$b;-><init>(Lio/grpc/MethodDescriptor;Lio/grpc/MethodDescriptor;Lio/grpc/l1;)V
@@ -557,22 +517,18 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lio/grpc/o1;->c()Lio/grpc/l1;
 
     move-result-object v0
 
-    .line 2
     invoke-virtual {p0}, Lio/grpc/o1;->b()Lio/grpc/MethodDescriptor;
 
     move-result-object p0
 
-    .line 3
     invoke-static {v0, p0, p1}, Lio/grpc/n1;->l(Lio/grpc/l1;Lio/grpc/MethodDescriptor;Lio/grpc/MethodDescriptor;)Lio/grpc/l1;
 
     move-result-object p0
 
-    .line 4
     invoke-static {p1, p0}, Lio/grpc/o1;->a(Lio/grpc/MethodDescriptor;Lio/grpc/l1;)Lio/grpc/o1;
 
     move-result-object p0

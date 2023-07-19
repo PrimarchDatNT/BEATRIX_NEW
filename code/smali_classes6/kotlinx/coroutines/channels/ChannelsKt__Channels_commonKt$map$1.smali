@@ -230,7 +230,6 @@
 
     move-result-object v0
 
-    .line 1
     iget v2, v1, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$map$1;->label:I
 
     const/4 v3, 0x3
@@ -296,7 +295,6 @@
 
     goto/16 :goto_3
 
-    .line 2
     :cond_0
     new-instance v0, Ljava/lang/IllegalStateException;
 
@@ -306,7 +304,6 @@
 
     throw v0
 
-    .line 3
     :cond_1
     iget-object v2, v1, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$map$1;->L$9:Ljava/lang/Object;
 
@@ -437,12 +434,10 @@
 
     iget-object v2, v1, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$map$1;->p$:Lcotlinx/coroutines/channels/w;
 
-    .line 4
     iget-object v8, v1, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$map$1;->$this_map:Lcotlinx/coroutines/channels/y;
 
     const/4 v6, 0x0
 
-    .line 5
     :try_start_3
     invoke-interface {v8}, Lcotlinx/coroutines/channels/y;->iterator()Lcotlinx/coroutines/channels/ChannelIterator;
 
@@ -506,7 +501,6 @@
 
     move-result-object v13
 
-    .line 6
     iget-object v14, v12, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$map$1;->$transform:Lcotlin/jvm/u/p;
 
     iput-object v6, v12, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$map$1;->L$0:Ljava/lang/Object;
@@ -608,14 +602,12 @@
 
     goto :goto_0
 
-    .line 7
     :cond_7
     :try_start_6
     sget-object v0, Lcotlin/t1;->a:Lcotlin/t1;
     :try_end_6
     .catchall {:try_start_6 .. :try_end_6} :catchall_1
 
-    .line 8
     invoke-static {v9, v7}, Lcotlinx/coroutines/channels/o;->r(Lcotlinx/coroutines/channels/y;Ljava/lang/Throwable;)V
 
     return-object v0
@@ -634,7 +626,6 @@
 
     move-object v2, v0
 
-    .line 9
     :goto_4
     :try_start_7
     throw v2
@@ -646,7 +637,6 @@
 
     move-object v3, v0
 
-    .line 10
     invoke-static {v8, v2}, Lcotlinx/coroutines/channels/o;->r(Lcotlinx/coroutines/channels/y;Ljava/lang/Throwable;)V
 
     throw v3

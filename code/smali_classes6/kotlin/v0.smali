@@ -31,12 +31,10 @@
     .annotation build Lcotlin/internal/f;
     .end annotation
 
-    .line 1
     monitor-enter p0
 
     const/4 v0, 0x1
 
-    .line 2
     :try_start_0
     invoke-interface {p1}, Lcotlin/jvm/u/a;->invoke()Ljava/lang/Object;
 
@@ -46,7 +44,6 @@
 
     invoke-static {v0}, Lcotlin/jvm/internal/c0;->d(I)V
 
-    .line 3
     monitor-exit p0
 
     invoke-static {v0}, Lcotlin/jvm/internal/c0;->c(I)V
@@ -56,10 +53,8 @@
     :catchall_0
     move-exception p1
 
-    .line 4
     invoke-static {v0}, Lcotlin/jvm/internal/c0;->d(I)V
 
-    .line 5
     monitor-exit p0
 
     invoke-static {v0}, Lcotlin/jvm/internal/c0;->c(I)V

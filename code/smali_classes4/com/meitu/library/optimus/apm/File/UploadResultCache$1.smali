@@ -31,7 +31,6 @@
 .method constructor <init>(Lcom/meitu/library/optimus/apm/File/UploadResultCache;I)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/library/optimus/apm/File/UploadResultCache$1;->this$0:Lcom/meitu/library/optimus/apm/File/UploadResultCache;
 
     invoke-direct {p0, p2}, Ljava/util/LinkedHashMap;-><init>(I)V
@@ -48,7 +47,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Ljava/util/LinkedHashMap;->size()I
 
     move-result v0

@@ -23,10 +23,8 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Landroidx/fragment/app/Fragment;-><init>()V
 
-    .line 2
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
@@ -45,10 +43,8 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-super {p0, p1, p2, p3}, Landroidx/fragment/app/Fragment;->onActivityResult(IILandroid/content/Intent;)V
 
-    .line 2
     iget-object v0, p0, Lf/m/a/k/a;->a:Ljava/util/ArrayList;
 
     invoke-virtual {v0}, Ljava/util/ArrayList;->iterator()Ljava/util/Iterator;
@@ -59,7 +55,6 @@
 
     invoke-static {v0, v1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 3
     :cond_0
     :goto_0
     invoke-interface {v0}, Ljava/util/Iterator;->hasNext()Z
@@ -68,7 +63,6 @@
 
     if-eqz v1, :cond_1
 
-    .line 4
     invoke-interface {v0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
     move-result-object v1
@@ -79,14 +73,12 @@
 
     check-cast v1, Lf/m/a/k/b;
 
-    .line 5
     invoke-virtual {v1, p1, p2, p3}, Lf/m/a/k/b;->a(IILandroid/content/Intent;)Z
 
     move-result v1
 
     if-eqz v1, :cond_0
 
-    .line 6
     invoke-interface {v0}, Ljava/util/Iterator;->remove()V
 
     goto :goto_0
@@ -114,10 +106,8 @@
 
     invoke-static {p3, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-super {p0, p1, p2, p3}, Landroidx/fragment/app/Fragment;->onRequestPermissionsResult(I[Ljava/lang/String;[I)V
 
-    .line 2
     iget-object v0, p0, Lf/m/a/k/a;->a:Ljava/util/ArrayList;
 
     invoke-virtual {v0}, Ljava/util/ArrayList;->iterator()Ljava/util/Iterator;
@@ -128,7 +118,6 @@
 
     invoke-static {v0, v1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 3
     :cond_0
     :goto_0
     invoke-interface {v0}, Ljava/util/Iterator;->hasNext()Z
@@ -137,7 +126,6 @@
 
     if-eqz v1, :cond_1
 
-    .line 4
     invoke-interface {v0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
     move-result-object v1
@@ -148,14 +136,12 @@
 
     check-cast v1, Lf/m/a/k/b;
 
-    .line 5
     invoke-virtual {v1, p1, p2, p3}, Lf/m/a/k/b;->c(I[Ljava/lang/String;[I)Z
 
     move-result v1
 
     if-eqz v1, :cond_0
 
-    .line 6
     invoke-interface {v0}, Ljava/util/Iterator;->remove()V
 
     goto :goto_0
@@ -175,7 +161,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object v0, p0, Lf/m/a/k/a;->a:Ljava/util/ArrayList;
 
     invoke-virtual {v0, p1}, Ljava/util/ArrayList;->contains(Ljava/lang/Object;)Z
@@ -184,12 +169,10 @@
 
     if-nez v0, :cond_0
 
-    .line 2
     iget-object v0, p0, Lf/m/a/k/a;->a:Ljava/util/ArrayList;
 
     invoke-virtual {v0, p1}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    .line 3
     :cond_0
     invoke-virtual {p1, p0}, Lf/m/a/k/b;->b(Lf/m/a/k/a;)V
 
@@ -207,7 +190,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object v0, p0, Lf/m/a/k/a;->a:Ljava/util/ArrayList;
 
     invoke-virtual {v0, p1}, Ljava/util/ArrayList;->remove(Ljava/lang/Object;)Z

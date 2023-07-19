@@ -99,14 +99,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lf/k/g0/e/e/c;->d()Lf/k/g0/e/e/b;
 
     move-result-object v1
 
     sput-object v1, Lcom/meitu/remote/config/d;->r:Lf/k/g0/e/e/b;
 
-    .line 2
     new-instance v1, Ljava/util/Random;
 
     invoke-direct {v1}, Ljava/util/Random;-><init>()V
@@ -129,7 +127,6 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-static {}, Lf/k/g0/e/d/a;->a()Ljava/util/concurrent/ExecutorService;
 
     move-result-object v2
@@ -150,7 +147,6 @@
 
     move-object v7, p6
 
-    .line 2
     invoke-direct/range {v0 .. v8}, Lcom/meitu/remote/config/d;-><init>(Landroid/content/Context;Ljava/util/concurrent/ExecutorService;Lf/k/g0/a;Lf/k/g0/h/c;Lcom/meitu/remote/abt/a;Lf/k/g0/g/d/d;Lf/k/g0/g/c/a;Z)V
 
     return-void
@@ -169,45 +165,34 @@
     .annotation build Landroidx/annotation/VisibleForTesting;
     .end annotation
 
-    .line 3
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 4
     new-instance v0, Ljava/util/HashMap;
 
     invoke-direct {v0}, Ljava/util/HashMap;-><init>()V
 
     iput-object v0, p0, Lcom/meitu/remote/config/d;->a:Ljava/util/Map;
 
-    .line 5
     new-instance v0, Ljava/util/HashMap;
 
     invoke-direct {v0}, Ljava/util/HashMap;-><init>()V
 
     iput-object v0, p0, Lcom/meitu/remote/config/d;->j:Ljava/util/Map;
 
-    .line 6
     iput-object p1, p0, Lcom/meitu/remote/config/d;->b:Landroid/content/Context;
 
-    .line 7
     iput-object p2, p0, Lcom/meitu/remote/config/d;->c:Ljava/util/concurrent/ExecutorService;
 
-    .line 8
     iput-object p3, p0, Lcom/meitu/remote/config/d;->d:Lf/k/g0/a;
 
-    .line 9
     iput-object p4, p0, Lcom/meitu/remote/config/d;->e:Lf/k/g0/h/c;
 
-    .line 10
     iput-object p5, p0, Lcom/meitu/remote/config/d;->f:Lcom/meitu/remote/abt/a;
 
-    .line 11
     iput-object p6, p0, Lcom/meitu/remote/config/d;->g:Lf/k/g0/g/d/d;
 
-    .line 12
     iput-object p7, p0, Lcom/meitu/remote/config/d;->h:Lf/k/g0/g/c/a;
 
-    .line 13
     invoke-virtual {p3}, Lf/k/g0/a;->g()Lf/k/g0/b;
 
     move-result-object p3
@@ -220,7 +205,6 @@
 
     if-eqz p8, :cond_0
 
-    .line 14
     new-instance p3, Lcom/meitu/remote/config/d$a;
 
     invoke-direct {p3, p0, p1}, Lcom/meitu/remote/config/d$a;-><init>(Lcom/meitu/remote/config/d;Landroid/content/Context;)V
@@ -262,12 +246,10 @@
 
     const-string p1, "%s_%s_%s_%s.json"
 
-    .line 1
     invoke-static {p1, v1}, Ljava/lang/String;->format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object p1
 
-    .line 2
     invoke-static {}, Lf/k/g0/e/d/a;->a()Ljava/util/concurrent/ExecutorService;
 
     move-result-object p2
@@ -276,7 +258,6 @@
 
     move-result-object p0
 
-    .line 3
     invoke-static {p2, p0}, Lcom/meitu/remote/config/i/b;->j(Ljava/util/concurrent/ExecutorService;Lcom/meitu/remote/config/i/h;)Lcom/meitu/remote/config/i/b;
 
     move-result-object p0
@@ -293,7 +274,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/remote/config/d;->b:Landroid/content/Context;
 
     iget-object v2, p0, Lcom/meitu/remote/config/d;->i:Ljava/lang/String;
@@ -314,7 +294,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/meitu/remote/config/i/f;
 
     invoke-direct {v1, p1, p2}, Lcom/meitu/remote/config/i/f;-><init>(Lcom/meitu/remote/config/i/b;Lcom/meitu/remote/config/i/b;)V
@@ -359,17 +338,14 @@
 
     const-string p1, "%s_%s_%s_%s"
 
-    .line 1
     invoke-static {p1, v1}, Ljava/lang/String;->format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object p1
 
-    .line 2
     invoke-virtual {p0, p1, v3}, Landroid/content/Context;->getSharedPreferences(Ljava/lang/String;I)Landroid/content/SharedPreferences;
 
     move-result-object p0
 
-    .line 3
     new-instance p1, Lcom/meitu/remote/config/i/g;
 
     invoke-direct {p1, p0}, Lcom/meitu/remote/config/i/g;-><init>(Landroid/content/SharedPreferences;)V
@@ -397,7 +373,6 @@
     :try_start_0
     invoke-static {v2}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v3, v1, Lcom/meitu/remote/config/d;->a:Ljava/util/Map;
 
     invoke-interface {v3, v0}, Ljava/util/Map;->containsKey(Ljava/lang/Object;)Z
@@ -406,7 +381,6 @@
 
     if-nez v3, :cond_0
 
-    .line 2
     new-instance v3, Lcom/meitu/remote/config/c;
 
     iget-object v5, v1, Lcom/meitu/remote/config/d;->b:Landroid/content/Context;
@@ -435,15 +409,12 @@
 
     invoke-direct/range {v4 .. v15}, Lcom/meitu/remote/config/c;-><init>(Landroid/content/Context;Lf/k/g0/a;Lcom/meitu/remote/abt/a;Lf/k/g0/g/c/a;Ljava/util/concurrent/Executor;Lcom/meitu/remote/config/i/b;Lcom/meitu/remote/config/i/b;Lcom/meitu/remote/config/i/b;Lcom/meitu/remote/config/i/d;Lcom/meitu/remote/config/i/f;Lcom/meitu/remote/config/i/g;)V
 
-    .line 3
     invoke-virtual {v3}, Lcom/meitu/remote/config/c;->I()V
 
-    .line 4
     iget-object v4, v1, Lcom/meitu/remote/config/d;->a:Ljava/util/Map;
 
     invoke-interface {v4, v0, v3}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 5
     :cond_0
     iget-object v3, v1, Lcom/meitu/remote/config/d;->a:Ljava/util/Map;
 
@@ -484,7 +455,6 @@
     :try_start_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/remote/config/d;->a:Ljava/util/Map;
 
     invoke-interface {v1, p1}, Ljava/util/Map;->containsKey(Ljava/lang/Object;)Z
@@ -495,26 +465,22 @@
 
     const-string v1, "fetch"
 
-    .line 2
     invoke-direct {p0, p1, v1}, Lcom/meitu/remote/config/d;->d(Ljava/lang/String;Ljava/lang/String;)Lcom/meitu/remote/config/i/b;
 
     move-result-object v8
 
     const-string v1, "activate"
 
-    .line 3
     invoke-direct {p0, p1, v1}, Lcom/meitu/remote/config/d;->d(Ljava/lang/String;Ljava/lang/String;)Lcom/meitu/remote/config/i/b;
 
     move-result-object v9
 
     const-string v1, "defaults"
 
-    .line 4
     invoke-direct {p0, p1, v1}, Lcom/meitu/remote/config/d;->d(Ljava/lang/String;Ljava/lang/String;)Lcom/meitu/remote/config/i/b;
 
     move-result-object v10
 
-    .line 5
     iget-object v1, p0, Lcom/meitu/remote/config/d;->b:Landroid/content/Context;
 
     iget-object v2, p0, Lcom/meitu/remote/config/d;->i:Ljava/lang/String;
@@ -523,17 +489,14 @@
 
     move-result-object v13
 
-    .line 6
     invoke-virtual {p0, p1, v8, v13}, Lcom/meitu/remote/config/d;->f(Ljava/lang/String;Lcom/meitu/remote/config/i/b;Lcom/meitu/remote/config/i/g;)Lcom/meitu/remote/config/i/d;
 
     move-result-object v11
 
-    .line 7
     invoke-direct {p0, v9, v10}, Lcom/meitu/remote/config/d;->h(Lcom/meitu/remote/config/i/b;Lcom/meitu/remote/config/i/b;)Lcom/meitu/remote/config/i/f;
 
     move-result-object v12
 
-    .line 8
     new-instance v1, Lcom/meitu/remote/config/c;
 
     iget-object v3, p0, Lcom/meitu/remote/config/d;->b:Landroid/content/Context;
@@ -550,15 +513,12 @@
 
     invoke-direct/range {v2 .. v13}, Lcom/meitu/remote/config/c;-><init>(Landroid/content/Context;Lf/k/g0/a;Lcom/meitu/remote/abt/a;Lf/k/g0/g/c/a;Ljava/util/concurrent/Executor;Lcom/meitu/remote/config/i/b;Lcom/meitu/remote/config/i/b;Lcom/meitu/remote/config/i/b;Lcom/meitu/remote/config/i/d;Lcom/meitu/remote/config/i/f;Lcom/meitu/remote/config/i/g;)V
 
-    .line 9
     invoke-virtual {v1}, Lcom/meitu/remote/config/c;->I()V
 
-    .line 10
     iget-object v2, p0, Lcom/meitu/remote/config/d;->a:Ljava/util/Map;
 
     invoke-interface {v2, p1, v1}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 11
     :cond_0
     iget-object v1, p0, Lcom/meitu/remote/config/d;->a:Ljava/util/Map;
 
@@ -593,7 +553,6 @@
 
     const-string v1, "default"
 
-    .line 1
     invoke-virtual {p0, v1}, Lcom/meitu/remote/config/d;->b(Ljava/lang/String;)Lcom/meitu/remote/config/c;
 
     move-result-object v1
@@ -617,7 +576,6 @@
     :try_start_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v13, Lcom/meitu/remote/config/i/d;
 
     iget-object v3, v1, Lcom/meitu/remote/config/d;->e:Lf/k/g0/h/c;
@@ -636,7 +594,6 @@
 
     move-object/from16 v11, p3
 
-    .line 2
     invoke-virtual {p0, p1, v11}, Lcom/meitu/remote/config/d;->g(Ljava/lang/String;Lcom/meitu/remote/config/i/g;)Lcom/meitu/remote/config/i/e;
 
     move-result-object v10
@@ -651,7 +608,6 @@
 
     invoke-direct/range {v2 .. v12}, Lcom/meitu/remote/config/i/d;-><init>(Lf/k/g0/h/c;Lf/k/g0/g/d/d;Lf/k/g0/g/c/a;Ljava/util/concurrent/Executor;Lf/k/g0/e/e/b;Ljava/util/Random;Lcom/meitu/remote/config/i/b;Lcom/meitu/remote/config/i/e;Lcom/meitu/remote/config/i/g;Ljava/util/Map;)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
@@ -677,17 +633,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/remote/config/d;->d:Lf/k/g0/a;
 
     invoke-virtual {v1}, Lf/k/g0/a;->g()Lf/k/g0/b;
 
     move-result-object v3
 
-    .line 2
     iget-object v2, p0, Lcom/meitu/remote/config/d;->b:Landroid/content/Context;
 
-    .line 3
     invoke-virtual {p2}, Lcom/meitu/remote/config/i/g;->c()J
 
     move-result-wide v5
@@ -696,7 +649,6 @@
 
     move-object v4, p1
 
-    .line 4
     invoke-static/range {v2 .. v8}, Lcom/meitu/remote/config/i/e;->b(Landroid/content/Context;Lf/k/g0/b;Ljava/lang/String;JJ)Lcom/meitu/remote/config/i/e;
 
     move-result-object p1
@@ -728,10 +680,8 @@
     :try_start_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/remote/config/d;->j:Ljava/util/Map;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0

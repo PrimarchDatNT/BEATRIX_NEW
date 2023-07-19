@@ -44,33 +44,26 @@
 .method public constructor <init>(JLcom/squareup/okhttp/Request;Lcom/squareup/okhttp/Response;)V
     .locals 3
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/4 v0, -0x1
 
-    .line 2
     iput v0, p0, Lcom/squareup/okhttp/internal/http/CacheStrategy$Factory;->ageSeconds:I
 
-    .line 3
     iput-wide p1, p0, Lcom/squareup/okhttp/internal/http/CacheStrategy$Factory;->nowMillis:J
 
-    .line 4
     iput-object p3, p0, Lcom/squareup/okhttp/internal/http/CacheStrategy$Factory;->request:Lcom/squareup/okhttp/Request;
 
-    .line 5
     iput-object p4, p0, Lcom/squareup/okhttp/internal/http/CacheStrategy$Factory;->cacheResponse:Lcom/squareup/okhttp/Response;
 
     if-eqz p4, :cond_7
 
-    .line 6
     invoke-virtual {p4}, Lcom/squareup/okhttp/Response;->headers()Lcom/squareup/okhttp/Headers;
 
     move-result-object p1
 
     const/4 p2, 0x0
 
-    .line 7
     invoke-virtual {p1}, Lcom/squareup/okhttp/Headers;->size()I
 
     move-result p3
@@ -78,33 +71,28 @@
     :goto_0
     if-ge p2, p3, :cond_7
 
-    .line 8
     invoke-virtual {p1, p2}, Lcom/squareup/okhttp/Headers;->name(I)Ljava/lang/String;
 
     move-result-object p4
 
-    .line 9
     invoke-virtual {p1, p2}, Lcom/squareup/okhttp/Headers;->value(I)Ljava/lang/String;
 
     move-result-object v1
 
     const-string v2, "Date"
 
-    .line 10
     invoke-virtual {v2, p4}, Ljava/lang/String;->equalsIgnoreCase(Ljava/lang/String;)Z
 
     move-result v2
 
     if-eqz v2, :cond_0
 
-    .line 11
     invoke-static {v1}, Lcom/squareup/okhttp/internal/http/HttpDate;->parse(Ljava/lang/String;)Ljava/util/Date;
 
     move-result-object p4
 
     iput-object p4, p0, Lcom/squareup/okhttp/internal/http/CacheStrategy$Factory;->servedDate:Ljava/util/Date;
 
-    .line 12
     iput-object v1, p0, Lcom/squareup/okhttp/internal/http/CacheStrategy$Factory;->servedDateString:Ljava/lang/String;
 
     goto :goto_1
@@ -112,14 +100,12 @@
     :cond_0
     const-string v2, "Expires"
 
-    .line 13
     invoke-virtual {v2, p4}, Ljava/lang/String;->equalsIgnoreCase(Ljava/lang/String;)Z
 
     move-result v2
 
     if-eqz v2, :cond_1
 
-    .line 14
     invoke-static {v1}, Lcom/squareup/okhttp/internal/http/HttpDate;->parse(Ljava/lang/String;)Ljava/util/Date;
 
     move-result-object p4
@@ -131,21 +117,18 @@
     :cond_1
     const-string v2, "Last-Modified"
 
-    .line 15
     invoke-virtual {v2, p4}, Ljava/lang/String;->equalsIgnoreCase(Ljava/lang/String;)Z
 
     move-result v2
 
     if-eqz v2, :cond_2
 
-    .line 16
     invoke-static {v1}, Lcom/squareup/okhttp/internal/http/HttpDate;->parse(Ljava/lang/String;)Ljava/util/Date;
 
     move-result-object p4
 
     iput-object p4, p0, Lcom/squareup/okhttp/internal/http/CacheStrategy$Factory;->lastModified:Ljava/util/Date;
 
-    .line 17
     iput-object v1, p0, Lcom/squareup/okhttp/internal/http/CacheStrategy$Factory;->lastModifiedString:Ljava/lang/String;
 
     goto :goto_1
@@ -153,14 +136,12 @@
     :cond_2
     const-string v2, "ETag"
 
-    .line 18
     invoke-virtual {v2, p4}, Ljava/lang/String;->equalsIgnoreCase(Ljava/lang/String;)Z
 
     move-result v2
 
     if-eqz v2, :cond_3
 
-    .line 19
     iput-object v1, p0, Lcom/squareup/okhttp/internal/http/CacheStrategy$Factory;->etag:Ljava/lang/String;
 
     goto :goto_1
@@ -168,14 +149,12 @@
     :cond_3
     const-string v2, "Age"
 
-    .line 20
     invoke-virtual {v2, p4}, Ljava/lang/String;->equalsIgnoreCase(Ljava/lang/String;)Z
 
     move-result v2
 
     if-eqz v2, :cond_4
 
-    .line 21
     invoke-static {v1, v0}, Lcom/squareup/okhttp/internal/http/HeaderParser;->parseSeconds(Ljava/lang/String;I)I
 
     move-result p4
@@ -184,7 +163,6 @@
 
     goto :goto_1
 
-    .line 22
     :cond_4
     sget-object v2, Lcom/squareup/okhttp/internal/http/OkHeaders;->SENT_MILLIS:Ljava/lang/String;
 
@@ -194,7 +172,6 @@
 
     if-eqz v2, :cond_5
 
-    .line 23
     invoke-static {v1}, Ljava/lang/Long;->parseLong(Ljava/lang/String;)J
 
     move-result-wide v1
@@ -203,7 +180,6 @@
 
     goto :goto_1
 
-    .line 24
     :cond_5
     sget-object v2, Lcom/squareup/okhttp/internal/http/OkHeaders;->RECEIVED_MILLIS:Ljava/lang/String;
 
@@ -213,7 +189,6 @@
 
     if-eqz p4, :cond_6
 
-    .line 25
     invoke-static {v1}, Ljava/lang/Long;->parseLong(Ljava/lang/String;)J
 
     move-result-wide v1
@@ -233,7 +208,6 @@
 .method private cacheResponseAge()J
     .locals 9
 
-    .line 1
     iget-object v0, p0, Lcom/squareup/okhttp/internal/http/CacheStrategy$Factory;->servedDate:Ljava/util/Date;
 
     const-wide/16 v1, 0x0
@@ -242,7 +216,6 @@
 
     iget-wide v3, p0, Lcom/squareup/okhttp/internal/http/CacheStrategy$Factory;->receivedResponseMillis:J
 
-    .line 2
     invoke-virtual {v0}, Ljava/util/Date;->getTime()J
 
     move-result-wide v5
@@ -253,7 +226,6 @@
 
     move-result-wide v1
 
-    .line 3
     :cond_0
     iget v0, p0, Lcom/squareup/okhttp/internal/http/CacheStrategy$Factory;->ageSeconds:I
 
@@ -265,7 +237,6 @@
 
     int-to-long v4, v0
 
-    .line 4
     invoke-virtual {v3, v4, v5}, Ljava/util/concurrent/TimeUnit;->toMillis(J)J
 
     move-result-wide v3
@@ -274,7 +245,6 @@
 
     move-result-wide v1
 
-    .line 5
     :cond_1
     iget-wide v3, p0, Lcom/squareup/okhttp/internal/http/CacheStrategy$Factory;->receivedResponseMillis:J
 
@@ -282,7 +252,6 @@
 
     sub-long v5, v3, v5
 
-    .line 6
     iget-wide v7, p0, Lcom/squareup/okhttp/internal/http/CacheStrategy$Factory;->nowMillis:J
 
     sub-long/2addr v7, v3
@@ -297,14 +266,12 @@
 .method private computeFreshnessLifetime()J
     .locals 7
 
-    .line 1
     iget-object v0, p0, Lcom/squareup/okhttp/internal/http/CacheStrategy$Factory;->cacheResponse:Lcom/squareup/okhttp/Response;
 
     invoke-virtual {v0}, Lcom/squareup/okhttp/Response;->cacheControl()Lcom/squareup/okhttp/CacheControl;
 
     move-result-object v0
 
-    .line 2
     invoke-virtual {v0}, Lcom/squareup/okhttp/CacheControl;->maxAgeSeconds()I
 
     move-result v1
@@ -313,7 +280,6 @@
 
     if-eq v1, v2, :cond_0
 
-    .line 3
     sget-object v1, Ljava/util/concurrent/TimeUnit;->SECONDS:Ljava/util/concurrent/TimeUnit;
 
     invoke-virtual {v0}, Lcom/squareup/okhttp/CacheControl;->maxAgeSeconds()I
@@ -328,7 +294,6 @@
 
     return-wide v0
 
-    .line 4
     :cond_0
     iget-object v0, p0, Lcom/squareup/okhttp/internal/http/CacheStrategy$Factory;->expires:Ljava/util/Date;
 
@@ -336,12 +301,10 @@
 
     if-eqz v0, :cond_3
 
-    .line 5
     iget-object v0, p0, Lcom/squareup/okhttp/internal/http/CacheStrategy$Factory;->servedDate:Ljava/util/Date;
 
     if-eqz v0, :cond_1
 
-    .line 6
     invoke-virtual {v0}, Ljava/util/Date;->getTime()J
 
     move-result-wide v3
@@ -351,7 +314,6 @@
     :cond_1
     iget-wide v3, p0, Lcom/squareup/okhttp/internal/http/CacheStrategy$Factory;->receivedResponseMillis:J
 
-    .line 7
     :goto_0
     iget-object v0, p0, Lcom/squareup/okhttp/internal/http/CacheStrategy$Factory;->expires:Ljava/util/Date;
 
@@ -370,7 +332,6 @@
     :cond_2
     return-wide v1
 
-    .line 8
     :cond_3
     iget-object v0, p0, Lcom/squareup/okhttp/internal/http/CacheStrategy$Factory;->lastModified:Ljava/util/Date;
 
@@ -378,7 +339,6 @@
 
     iget-object v0, p0, Lcom/squareup/okhttp/internal/http/CacheStrategy$Factory;->cacheResponse:Lcom/squareup/okhttp/Response;
 
-    .line 9
     invoke-virtual {v0}, Lcom/squareup/okhttp/Response;->request()Lcom/squareup/okhttp/Request;
 
     move-result-object v0
@@ -393,12 +353,10 @@
 
     if-nez v0, :cond_5
 
-    .line 10
     iget-object v0, p0, Lcom/squareup/okhttp/internal/http/CacheStrategy$Factory;->servedDate:Ljava/util/Date;
 
     if-eqz v0, :cond_4
 
-    .line 11
     invoke-virtual {v0}, Ljava/util/Date;->getTime()J
 
     move-result-wide v3
@@ -408,7 +366,6 @@
     :cond_4
     iget-wide v3, p0, Lcom/squareup/okhttp/internal/http/CacheStrategy$Factory;->sentRequestMillis:J
 
-    .line 12
     :goto_1
     iget-object v0, p0, Lcom/squareup/okhttp/internal/http/CacheStrategy$Factory;->lastModified:Ljava/util/Date;
 
@@ -424,7 +381,6 @@
 
     const-wide/16 v0, 0xa
 
-    .line 13
     div-long v1, v3, v0
 
     :cond_5
@@ -434,14 +390,12 @@
 .method private getCandidate()Lcom/squareup/okhttp/internal/http/CacheStrategy;
     .locals 13
 
-    .line 1
     iget-object v0, p0, Lcom/squareup/okhttp/internal/http/CacheStrategy$Factory;->cacheResponse:Lcom/squareup/okhttp/Response;
 
     const/4 v1, 0x0
 
     if-nez v0, :cond_0
 
-    .line 2
     new-instance v0, Lcom/squareup/okhttp/internal/http/CacheStrategy;
 
     iget-object v2, p0, Lcom/squareup/okhttp/internal/http/CacheStrategy$Factory;->request:Lcom/squareup/okhttp/Request;
@@ -450,7 +404,6 @@
 
     return-object v0
 
-    .line 3
     :cond_0
     iget-object v0, p0, Lcom/squareup/okhttp/internal/http/CacheStrategy$Factory;->request:Lcom/squareup/okhttp/Request;
 
@@ -468,7 +421,6 @@
 
     if-nez v0, :cond_1
 
-    .line 4
     new-instance v0, Lcom/squareup/okhttp/internal/http/CacheStrategy;
 
     iget-object v2, p0, Lcom/squareup/okhttp/internal/http/CacheStrategy$Factory;->request:Lcom/squareup/okhttp/Request;
@@ -477,7 +429,6 @@
 
     return-object v0
 
-    .line 5
     :cond_1
     iget-object v0, p0, Lcom/squareup/okhttp/internal/http/CacheStrategy$Factory;->cacheResponse:Lcom/squareup/okhttp/Response;
 
@@ -489,7 +440,6 @@
 
     if-nez v0, :cond_2
 
-    .line 6
     new-instance v0, Lcom/squareup/okhttp/internal/http/CacheStrategy;
 
     iget-object v2, p0, Lcom/squareup/okhttp/internal/http/CacheStrategy$Factory;->request:Lcom/squareup/okhttp/Request;
@@ -498,7 +448,6 @@
 
     return-object v0
 
-    .line 7
     :cond_2
     iget-object v0, p0, Lcom/squareup/okhttp/internal/http/CacheStrategy$Factory;->request:Lcom/squareup/okhttp/Request;
 
@@ -506,7 +455,6 @@
 
     move-result-object v0
 
-    .line 8
     invoke-virtual {v0}, Lcom/squareup/okhttp/CacheControl;->noCache()Z
 
     move-result v2
@@ -523,18 +471,15 @@
 
     goto/16 :goto_3
 
-    .line 9
     :cond_3
     invoke-direct {p0}, Lcom/squareup/okhttp/internal/http/CacheStrategy$Factory;->cacheResponseAge()J
 
     move-result-wide v2
 
-    .line 10
     invoke-direct {p0}, Lcom/squareup/okhttp/internal/http/CacheStrategy$Factory;->computeFreshnessLifetime()J
 
     move-result-wide v4
 
-    .line 11
     invoke-virtual {v0}, Lcom/squareup/okhttp/CacheControl;->maxAgeSeconds()I
 
     move-result v6
@@ -543,7 +488,6 @@
 
     if-eq v6, v7, :cond_4
 
-    .line 12
     sget-object v6, Ljava/util/concurrent/TimeUnit;->SECONDS:Ljava/util/concurrent/TimeUnit;
 
     invoke-virtual {v0}, Lcom/squareup/okhttp/CacheControl;->maxAgeSeconds()I
@@ -560,7 +504,6 @@
 
     move-result-wide v4
 
-    .line 13
     :cond_4
     invoke-virtual {v0}, Lcom/squareup/okhttp/CacheControl;->minFreshSeconds()I
 
@@ -570,7 +513,6 @@
 
     if-eq v6, v7, :cond_5
 
-    .line 14
     sget-object v6, Ljava/util/concurrent/TimeUnit;->SECONDS:Ljava/util/concurrent/TimeUnit;
 
     invoke-virtual {v0}, Lcom/squareup/okhttp/CacheControl;->minFreshSeconds()I
@@ -588,7 +530,6 @@
     :cond_5
     move-wide v10, v8
 
-    .line 15
     :goto_0
     iget-object v6, p0, Lcom/squareup/okhttp/internal/http/CacheStrategy$Factory;->cacheResponse:Lcom/squareup/okhttp/Response;
 
@@ -596,7 +537,6 @@
 
     move-result-object v6
 
-    .line 16
     invoke-virtual {v6}, Lcom/squareup/okhttp/CacheControl;->mustRevalidate()Z
 
     move-result v12
@@ -609,7 +549,6 @@
 
     if-eq v12, v7, :cond_6
 
-    .line 17
     sget-object v7, Ljava/util/concurrent/TimeUnit;->SECONDS:Ljava/util/concurrent/TimeUnit;
 
     invoke-virtual {v0}, Lcom/squareup/okhttp/CacheControl;->maxStaleSeconds()I
@@ -622,7 +561,6 @@
 
     move-result-wide v8
 
-    .line 18
     :cond_6
     invoke-virtual {v6}, Lcom/squareup/okhttp/CacheControl;->noCache()Z
 
@@ -638,7 +576,6 @@
 
     if-gez v0, :cond_9
 
-    .line 19
     iget-object v0, p0, Lcom/squareup/okhttp/internal/http/CacheStrategy$Factory;->cacheResponse:Lcom/squareup/okhttp/Response;
 
     invoke-virtual {v0}, Lcom/squareup/okhttp/Response;->newBuilder()Lcom/squareup/okhttp/Response$Builder;
@@ -653,7 +590,6 @@
 
     const-string v4, "110 HttpURLConnection \"Response is stale\""
 
-    .line 20
     invoke-virtual {v0, v6, v4}, Lcom/squareup/okhttp/Response$Builder;->addHeader(Ljava/lang/String;Ljava/lang/String;)Lcom/squareup/okhttp/Response$Builder;
 
     :cond_7
@@ -663,7 +599,6 @@
 
     if-lez v7, :cond_8
 
-    .line 21
     invoke-direct {p0}, Lcom/squareup/okhttp/internal/http/CacheStrategy$Factory;->isFreshnessLifetimeHeuristic()Z
 
     move-result v2
@@ -672,10 +607,8 @@
 
     const-string v2, "113 HttpURLConnection \"Heuristic expiration\""
 
-    .line 22
     invoke-virtual {v0, v6, v2}, Lcom/squareup/okhttp/Response$Builder;->addHeader(Ljava/lang/String;Ljava/lang/String;)Lcom/squareup/okhttp/Response$Builder;
 
-    .line 23
     :cond_8
     new-instance v2, Lcom/squareup/okhttp/internal/http/CacheStrategy;
 
@@ -687,7 +620,6 @@
 
     return-object v2
 
-    .line 24
     :cond_9
     iget-object v0, p0, Lcom/squareup/okhttp/internal/http/CacheStrategy$Factory;->request:Lcom/squareup/okhttp/Request;
 
@@ -695,19 +627,16 @@
 
     move-result-object v0
 
-    .line 25
     iget-object v2, p0, Lcom/squareup/okhttp/internal/http/CacheStrategy$Factory;->etag:Ljava/lang/String;
 
     if-eqz v2, :cond_a
 
     const-string v3, "If-None-Match"
 
-    .line 26
     invoke-virtual {v0, v3, v2}, Lcom/squareup/okhttp/Request$Builder;->header(Ljava/lang/String;Ljava/lang/String;)Lcom/squareup/okhttp/Request$Builder;
 
     goto :goto_1
 
-    .line 27
     :cond_a
     iget-object v2, p0, Lcom/squareup/okhttp/internal/http/CacheStrategy$Factory;->lastModified:Ljava/util/Date;
 
@@ -715,32 +644,27 @@
 
     if-eqz v2, :cond_b
 
-    .line 28
     iget-object v2, p0, Lcom/squareup/okhttp/internal/http/CacheStrategy$Factory;->lastModifiedString:Ljava/lang/String;
 
     invoke-virtual {v0, v3, v2}, Lcom/squareup/okhttp/Request$Builder;->header(Ljava/lang/String;Ljava/lang/String;)Lcom/squareup/okhttp/Request$Builder;
 
     goto :goto_1
 
-    .line 29
     :cond_b
     iget-object v2, p0, Lcom/squareup/okhttp/internal/http/CacheStrategy$Factory;->servedDate:Ljava/util/Date;
 
     if-eqz v2, :cond_c
 
-    .line 30
     iget-object v2, p0, Lcom/squareup/okhttp/internal/http/CacheStrategy$Factory;->servedDateString:Ljava/lang/String;
 
     invoke-virtual {v0, v3, v2}, Lcom/squareup/okhttp/Request$Builder;->header(Ljava/lang/String;Ljava/lang/String;)Lcom/squareup/okhttp/Request$Builder;
 
-    .line 31
     :cond_c
     :goto_1
     invoke-virtual {v0}, Lcom/squareup/okhttp/Request$Builder;->build()Lcom/squareup/okhttp/Request;
 
     move-result-object v0
 
-    .line 32
     invoke-static {v0}, Lcom/squareup/okhttp/internal/http/CacheStrategy$Factory;->hasConditions(Lcom/squareup/okhttp/Request;)Z
 
     move-result v2
@@ -763,7 +687,6 @@
     :goto_2
     return-object v2
 
-    .line 33
     :cond_e
     :goto_3
     new-instance v0, Lcom/squareup/okhttp/internal/http/CacheStrategy;
@@ -780,7 +703,6 @@
 
     const-string v0, "If-Modified-Since"
 
-    .line 1
     invoke-virtual {p0, v0}, Lcom/squareup/okhttp/Request;->header(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
@@ -813,7 +735,6 @@
 .method private isFreshnessLifetimeHeuristic()Z
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/squareup/okhttp/internal/http/CacheStrategy$Factory;->cacheResponse:Lcom/squareup/okhttp/Response;
 
     invoke-virtual {v0}, Lcom/squareup/okhttp/Response;->cacheControl()Lcom/squareup/okhttp/CacheControl;
@@ -848,12 +769,10 @@
 .method public get()Lcom/squareup/okhttp/internal/http/CacheStrategy;
     .locals 2
 
-    .line 1
     invoke-direct {p0}, Lcom/squareup/okhttp/internal/http/CacheStrategy$Factory;->getCandidate()Lcom/squareup/okhttp/internal/http/CacheStrategy;
 
     move-result-object v0
 
-    .line 2
     iget-object v1, v0, Lcom/squareup/okhttp/internal/http/CacheStrategy;->networkRequest:Lcom/squareup/okhttp/Request;
 
     if-eqz v1, :cond_0
@@ -870,7 +789,6 @@
 
     if-eqz v1, :cond_0
 
-    .line 3
     new-instance v0, Lcom/squareup/okhttp/internal/http/CacheStrategy;
 
     const/4 v1, 0x0

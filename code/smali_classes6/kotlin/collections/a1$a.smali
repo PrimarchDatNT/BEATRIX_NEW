@@ -40,19 +40,16 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcotlin/collections/a1$a;->f:Lcotlin/collections/a1;
 
     invoke-direct {p0}, Lcotlin/collections/b;-><init>()V
 
-    .line 2
     invoke-virtual {p1}, Lcotlin/collections/AbstractCollection;->size()I
 
     move-result v0
 
     iput v0, p0, Lcotlin/collections/a1$a;->c:I
 
-    .line 3
     invoke-static {p1}, Lcotlin/collections/a1;->j(Lcotlin/collections/a1;)I
 
     move-result p1
@@ -67,17 +64,14 @@
 .method protected a()V
     .locals 2
 
-    .line 1
     iget v0, p0, Lcotlin/collections/a1$a;->c:I
 
     if-nez v0, :cond_0
 
-    .line 2
     invoke-virtual {p0}, Lcotlin/collections/b;->b()V
 
     goto :goto_0
 
-    .line 3
     :cond_0
     iget-object v0, p0, Lcotlin/collections/a1$a;->f:Lcotlin/collections/a1;
 
@@ -91,14 +85,12 @@
 
     invoke-virtual {p0, v0}, Lcotlin/collections/b;->c(Ljava/lang/Object;)V
 
-    .line 4
     iget-object v0, p0, Lcotlin/collections/a1$a;->f:Lcotlin/collections/a1;
 
     iget v1, p0, Lcotlin/collections/a1$a;->d:I
 
     add-int/lit8 v1, v1, 0x1
 
-    .line 5
     invoke-static {v0}, Lcotlin/collections/a1;->h(Lcotlin/collections/a1;)I
 
     move-result v0
@@ -107,7 +99,6 @@
 
     iput v1, p0, Lcotlin/collections/a1$a;->d:I
 
-    .line 6
     iget v0, p0, Lcotlin/collections/a1$a;->c:I
 
     add-int/lit8 v0, v0, -0x1

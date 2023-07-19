@@ -54,12 +54,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Landroid/graphics/Rect;
 
     invoke-direct {v1}, Landroid/graphics/Rect;-><init>()V
 
-    .line 2
     iget-object v2, p0, Lcom/commsource/camera/xcamera/cover/window/ArGiphyDeleteCover$c;->a:Lcom/commsource/camera/xcamera/cover/window/ArGiphyDeleteCover;
 
     invoke-virtual {v2}, Lcom/commsource/camera/xcamera/cover/window/ArGiphyDeleteCover;->J()Lcom/commsource/camera/xcamera/cover/CameraConfigViewModel;
@@ -76,7 +74,6 @@
 
     invoke-virtual {v2, p1, v1}, Lcom/commsource/camera/xcamera/cover/CameraConfigViewModel;->D(ILandroid/graphics/Rect;)V
 
-    .line 3
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/window/ArGiphyDeleteCover$c;->a:Lcom/commsource/camera/xcamera/cover/window/ArGiphyDeleteCover;
 
     invoke-virtual {p1}, Lcom/commsource/camera/xcamera/cover/window/ArGiphyDeleteCover;->I()Lcom/commsource/camera/xcamera/BpCameraViewModel;
@@ -97,7 +94,6 @@
 
     invoke-virtual {p1, v2, v1}, Lcom/commsource/camera/xcamera/BpCameraViewModel;->a3(Landroid/graphics/Point;Landroid/graphics/Rect;)V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -110,7 +106,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Ljava/lang/Integer;
 
     invoke-virtual {p0, p1}, Lcom/commsource/camera/xcamera/cover/window/ArGiphyDeleteCover$c;->a(Ljava/lang/Integer;)V

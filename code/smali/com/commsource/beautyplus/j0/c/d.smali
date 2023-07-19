@@ -29,10 +29,8 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/beautyplus/base/b/a;-><init>()V
 
-    .line 2
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
     move-result-object v0
@@ -51,10 +49,8 @@
 
     const-string v0, "homepageappr"
 
-    .line 1
     invoke-static {v0}, Lcom/commsource/statistics/i;->p(Ljava/lang/String;)V
 
-    .line 2
     iget-object v0, p0, Lcom/commsource/beautyplus/j0/c/d;->d:Landroid/content/Context;
 
     const-string v1, "ad_home_page_show"
@@ -63,7 +59,6 @@
 
     invoke-static {v0, v1, v2}, Lcom/commsource/statistics/m;->j(Landroid/content/Context;Ljava/lang/String;Ljava/util/Map;)V
 
-    .line 3
     iget-object v0, p0, Lcom/commsource/beautyplus/j0/c/d;->d:Landroid/content/Context;
 
     const-string v1, "home_impression"
@@ -72,10 +67,8 @@
 
     const-string v0, "homepage"
 
-    .line 4
     invoke-static {v0}, Lcom/commsource/statistics/i;->C(Ljava/lang/String;)V
 
-    .line 5
     iget-object v0, p0, Lcom/commsource/beautyplus/j0/c/d;->d:Landroid/content/Context;
 
     invoke-static {v0}, Lf/d/i/e;->A1(Landroid/content/Context;)Z
@@ -86,7 +79,6 @@
 
     iget-object v0, p0, Lcom/commsource/beautyplus/j0/c/d;->d:Landroid/content/Context;
 
-    .line 6
     invoke-static {v0}, Lcom/commsource/util/b1;->a(Landroid/content/Context;)Ljava/lang/String;
 
     move-result-object v0
@@ -99,14 +91,12 @@
 
     if-eqz v0, :cond_0
 
-    .line 7
     iget-object v0, p0, Lcom/commsource/beautyplus/j0/c/d;->d:Landroid/content/Context;
 
     const-string v1, "new_user_homepage_impression"
 
     invoke-static {v0, v1}, Lcom/commsource/statistics/m;->h(Landroid/content/Context;Ljava/lang/String;)V
 
-    .line 8
     :cond_0
     invoke-static {}, Lcom/commsource/statistics/n;->a()Lcom/commsource/statistics/n;
 
@@ -118,7 +108,6 @@
 
     if-nez v0, :cond_1
 
-    .line 9
     invoke-static {}, Lcom/commsource/statistics/n;->a()Lcom/commsource/statistics/n;
 
     move-result-object v0
@@ -127,7 +116,6 @@
 
     goto :goto_0
 
-    .line 10
     :cond_1
     invoke-static {}, Lcom/commsource/statistics/n;->a()Lcom/commsource/statistics/n;
 
@@ -137,7 +125,6 @@
 
     invoke-virtual {v0, v1, v2}, Lcom/commsource/statistics/n;->i(J)V
 
-    .line 11
     invoke-static {}, Lcom/commsource/statistics/n;->a()Lcom/commsource/statistics/n;
 
     move-result-object v0
@@ -146,7 +133,6 @@
 
     invoke-virtual {v0, v1}, Lcom/commsource/statistics/n;->h(Z)V
 
-    .line 12
     :goto_0
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -160,7 +146,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/beautyplus/j0/c/d;->d:Landroid/content/Context;
 
     invoke-static {v1}, Lf/d/f/b;->p(Landroid/content/Context;)Z
@@ -169,7 +154,6 @@
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-static {}, Lf/d/f/b;->g()Lf/d/f/b;
 
     move-result-object v1
@@ -178,7 +162,6 @@
 
     invoke-virtual {v1, v2}, Lf/d/f/b;->o(Landroid/content/Context;)V
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -194,7 +177,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Lcom/commsource/beautyplus/j0/c/d$a;
 
     invoke-virtual {p0, p1}, Lcom/commsource/beautyplus/j0/c/d;->g(Lcom/commsource/beautyplus/j0/c/d$a;)V
@@ -211,7 +193,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/beautyplus/j0/c/d;->d:Landroid/content/Context;
 
     invoke-static {v1}, Lf/d/i/e;->j4(Landroid/content/Context;)Z
@@ -220,7 +201,6 @@
 
     if-nez v1, :cond_0
 
-    .line 2
     invoke-virtual {p0}, Lcom/commsource/beautyplus/base/b/a;->c()Lcom/commsource/beautyplus/base/b/a$c;
 
     move-result-object v1
@@ -233,11 +213,9 @@
 
     invoke-interface {v1, v2}, Lcom/commsource/beautyplus/base/b/a$c;->a(Ljava/lang/Integer;)V
 
-    .line 3
     :cond_0
     invoke-direct {p0, p1}, Lcom/commsource/beautyplus/j0/c/d;->h(Lcom/commsource/beautyplus/j0/c/d$a;)V
 
-    .line 4
     invoke-virtual {p0}, Lcom/commsource/beautyplus/base/b/a;->c()Lcom/commsource/beautyplus/base/b/a$c;
 
     move-result-object p1
@@ -248,10 +226,8 @@
 
     invoke-interface {p1, v1}, Lcom/commsource/beautyplus/base/b/a$c;->onSuccess(Ljava/lang/Object;)V
 
-    .line 5
     invoke-direct {p0}, Lcom/commsource/beautyplus/j0/c/d;->i()V
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

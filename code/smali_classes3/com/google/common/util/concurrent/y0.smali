@@ -29,12 +29,10 @@
 .method private constructor <init>(Lcom/google/common/util/concurrent/s0$a;)V
     .locals 2
 
-    .line 2
     invoke-direct {p0, p1}, Lcom/google/common/util/concurrent/s0;-><init>(Lcom/google/common/util/concurrent/s0$a;)V
 
     const-wide/16 v0, 0x0
 
-    .line 3
     iput-wide v0, p0, Lcom/google/common/util/concurrent/y0;->f:J
 
     return-void
@@ -43,7 +41,6 @@
 .method synthetic constructor <init>(Lcom/google/common/util/concurrent/s0$a;Lcom/google/common/util/concurrent/y0$a;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/google/common/util/concurrent/y0;-><init>(Lcom/google/common/util/concurrent/s0$a;)V
 
     return-void
@@ -54,7 +51,6 @@
 .method final i()D
     .locals 4
 
-    .line 1
     sget-object v0, Ljava/util/concurrent/TimeUnit;->SECONDS:Ljava/util/concurrent/TimeUnit;
 
     const-wide/16 v1, 0x1
@@ -75,10 +71,8 @@
 .method final j(DJ)V
     .locals 2
 
-    .line 1
     invoke-virtual {p0, p3, p4}, Lcom/google/common/util/concurrent/y0;->x(J)V
 
-    .line 2
     sget-object p3, Ljava/util/concurrent/TimeUnit;->SECONDS:Ljava/util/concurrent/TimeUnit;
 
     const-wide/16 v0, 0x1
@@ -91,10 +85,8 @@
 
     div-double/2addr p3, p1
 
-    .line 3
     iput-wide p3, p0, Lcom/google/common/util/concurrent/y0;->e:D
 
-    .line 4
     invoke-virtual {p0, p1, p2, p3, p4}, Lcom/google/common/util/concurrent/y0;->w(DD)V
 
     return-void
@@ -103,7 +95,6 @@
 .method final m(J)J
     .locals 0
 
-    .line 1
     iget-wide p1, p0, Lcom/google/common/util/concurrent/y0;->f:J
 
     return-wide p1
@@ -112,15 +103,12 @@
 .method final p(IJ)J
     .locals 8
 
-    .line 1
     invoke-virtual {p0, p2, p3}, Lcom/google/common/util/concurrent/y0;->x(J)V
 
-    .line 2
     iget-wide p2, p0, Lcom/google/common/util/concurrent/y0;->f:J
 
     int-to-double v0, p1
 
-    .line 3
     iget-wide v2, p0, Lcom/google/common/util/concurrent/y0;->c:D
 
     invoke-static {v0, v1, v2, v3}, Ljava/lang/Math;->min(DD)D
@@ -129,10 +117,8 @@
 
     sub-double/2addr v0, v2
 
-    .line 4
     iget-wide v4, p0, Lcom/google/common/util/concurrent/y0;->c:D
 
-    .line 5
     invoke-virtual {p0, v4, v5, v2, v3}, Lcom/google/common/util/concurrent/y0;->y(DD)J
 
     move-result-wide v4
@@ -145,7 +131,6 @@
 
     add-long/2addr v4, v0
 
-    .line 6
     iget-wide v0, p0, Lcom/google/common/util/concurrent/y0;->f:J
 
     invoke-static {v0, v1, v4, v5}, Lcom/google/common/math/LongMath;->w(JJ)J
@@ -154,7 +139,6 @@
 
     iput-wide v0, p0, Lcom/google/common/util/concurrent/y0;->f:J
 
-    .line 7
     iget-wide v0, p0, Lcom/google/common/util/concurrent/y0;->c:D
 
     sub-double/2addr v0, v2
@@ -173,7 +157,6 @@
 .method x(J)V
     .locals 6
 
-    .line 1
     iget-wide v0, p0, Lcom/google/common/util/concurrent/y0;->f:J
 
     cmp-long v2, p1, v0
@@ -184,14 +167,12 @@
 
     long-to-double v0, v0
 
-    .line 2
     invoke-virtual {p0}, Lcom/google/common/util/concurrent/y0;->v()D
 
     move-result-wide v2
 
     div-double/2addr v0, v2
 
-    .line 3
     iget-wide v2, p0, Lcom/google/common/util/concurrent/y0;->d:D
 
     iget-wide v4, p0, Lcom/google/common/util/concurrent/y0;->c:D
@@ -204,7 +185,6 @@
 
     iput-wide v0, p0, Lcom/google/common/util/concurrent/y0;->c:D
 
-    .line 4
     iput-wide p1, p0, Lcom/google/common/util/concurrent/y0;->f:J
 
     :cond_0

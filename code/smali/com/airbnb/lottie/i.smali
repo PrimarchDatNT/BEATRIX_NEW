@@ -37,16 +37,12 @@
         .end annotation
     .end param
 
-    .line 2
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 3
     iput-object p1, p0, Lcom/airbnb/lottie/i;->a:Lcom/airbnb/lottie/network/e;
 
-    .line 4
     iput-object p2, p0, Lcom/airbnb/lottie/i;->b:Lcom/airbnb/lottie/network/d;
 
-    .line 5
     iput-boolean p3, p0, Lcom/airbnb/lottie/i;->c:Z
 
     return-void
@@ -55,7 +51,6 @@
 .method synthetic constructor <init>(Lcom/airbnb/lottie/network/e;Lcom/airbnb/lottie/network/d;ZLcom/airbnb/lottie/i$a;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1, p2, p3}, Lcom/airbnb/lottie/i;-><init>(Lcom/airbnb/lottie/network/e;Lcom/airbnb/lottie/network/d;Z)V
 
     return-void

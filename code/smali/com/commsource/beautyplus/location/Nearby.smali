@@ -44,7 +44,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -59,7 +58,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/beautyplus/location/Nearby;->code:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -74,7 +72,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/beautyplus/location/Nearby;->message:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -97,17 +94,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/beautyplus/location/Nearby;->validWaypointNames:Ljava/util/List;
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
 
-    .line 3
     :cond_0
     new-instance v1, Ljava/util/ArrayList;
 
@@ -117,150 +111,128 @@
 
     const-string/jumbo v2, "\u8f6f\u4ef6\u56ed\u4e8c\u671f"
 
-    .line 4
     invoke-interface {v1, v2}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
-    .line 5
     iget-object v1, p0, Lcom/commsource/beautyplus/location/Nearby;->validWaypointNames:Ljava/util/List;
 
     const-string/jumbo v2, "\u6b63\u83b2\u5bfa\u6865"
 
     invoke-interface {v1, v2}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
-    .line 6
     iget-object v1, p0, Lcom/commsource/beautyplus/location/Nearby;->validWaypointNames:Ljava/util/List;
 
     const-string/jumbo v2, "\u671b\u6d77\u8def8\u53f7"
 
     invoke-interface {v1, v2}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
-    .line 7
     iget-object v1, p0, Lcom/commsource/beautyplus/location/Nearby;->validWaypointNames:Ljava/util/List;
 
     const-string/jumbo v2, "\u671b\u6d77\u8def6\u53f7"
 
     invoke-interface {v1, v2}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
-    .line 8
     iget-object v1, p0, Lcom/commsource/beautyplus/location/Nearby;->validWaypointNames:Ljava/util/List;
 
     const-string/jumbo v2, "\u56fd\u905343\u53f7"
 
     invoke-interface {v1, v2}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
-    .line 9
     iget-object v1, p0, Lcom/commsource/beautyplus/location/Nearby;->validWaypointNames:Ljava/util/List;
 
     const-string/jumbo v2, "\u671b\u6d77\u8def18\u53f7"
 
     invoke-interface {v1, v2}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
-    .line 10
     iget-object v1, p0, Lcom/commsource/beautyplus/location/Nearby;->validWaypointNames:Ljava/util/List;
 
     const-string/jumbo v2, "\u7f8e\u56fe\u516c\u53f8"
 
     invoke-interface {v1, v2}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
-    .line 11
     iget-object v1, p0, Lcom/commsource/beautyplus/location/Nearby;->validWaypointNames:Ljava/util/List;
 
     const-string/jumbo v2, "\u4f70\u7fd4\u9152\u5e97"
 
     invoke-interface {v1, v2}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
-    .line 12
     iget-object v1, p0, Lcom/commsource/beautyplus/location/Nearby;->validWaypointNames:Ljava/util/List;
 
     const-string/jumbo v2, "\u4e2d\u56fd\u79fb\u52a8\u54aa\u5495\u52a8\u6f2b\u6709\u9650\u516c\u53f8"
 
     invoke-interface {v1, v2}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
-    .line 13
     iget-object v1, p0, Lcom/commsource/beautyplus/location/Nearby;->validWaypointNames:Ljava/util/List;
 
     const-string/jumbo v2, "\u53a6\u95e8\u5e02\u8f6f\u4ef6\u56ed"
 
     invoke-interface {v1, v2}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
-    .line 14
     iget-object v1, p0, Lcom/commsource/beautyplus/location/Nearby;->validWaypointNames:Ljava/util/List;
 
     const-string/jumbo v2, "\u817e\u8baf\u4f17\u521b\u7a7a\u95f4\uff08\u53a6\u95e8\uff09"
 
     invoke-interface {v1, v2}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
-    .line 15
     iget-object v1, p0, Lcom/commsource/beautyplus/location/Nearby;->validWaypointNames:Ljava/util/List;
 
     const-string/jumbo v2, "\u53a6\u95e8\u5927\u5b66\u51fa\u7248\u793e"
 
     invoke-interface {v1, v2}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
-    .line 16
     iget-object v1, p0, Lcom/commsource/beautyplus/location/Nearby;->validWaypointNames:Ljava/util/List;
 
     const-string/jumbo v2, "\u8f6f\u4ef6\u56ed\u4e8c\u671f\u7bee\u7403\u573a"
 
     invoke-interface {v1, v2}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
-    .line 17
     iget-object v1, p0, Lcom/commsource/beautyplus/location/Nearby;->validWaypointNames:Ljava/util/List;
 
     const-string/jumbo v2, "\u4e2d\u56fd\u79fb\u52a8\u516c\u53f8"
 
     invoke-interface {v1, v2}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
-    .line 18
     iget-object v1, p0, Lcom/commsource/beautyplus/location/Nearby;->validWaypointNames:Ljava/util/List;
 
     const-string/jumbo v2, "\u53a6\u95e8\u5409\u6bd4\u7279\u7f51\u7edc\u6280\u672f\u80a1\u4efd\u6709\u9650\u516c\u53f8"
 
     invoke-interface {v1, v2}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
-    .line 19
     iget-object v1, p0, Lcom/commsource/beautyplus/location/Nearby;->validWaypointNames:Ljava/util/List;
 
     const-string/jumbo v2, "\u56db\u4e09\u4e5d\u4e5d\u7f51\u7edc\u80a1\u4efd\u6709\u9650\u516c\u53f8"
 
     invoke-interface {v1, v2}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
-    .line 20
     iget-object v1, p0, Lcom/commsource/beautyplus/location/Nearby;->validWaypointNames:Ljava/util/List;
 
     const-string/jumbo v2, "\u5409\u8054"
 
     invoke-interface {v1, v2}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
-    .line 21
     iget-object v1, p0, Lcom/commsource/beautyplus/location/Nearby;->validWaypointNames:Ljava/util/List;
 
     const-string/jumbo v2, "\u7f8e\u4e9a\u67cf\u79d1\u5927\u53a6"
 
     invoke-interface {v1, v2}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
-    .line 22
     iget-object v1, p0, Lcom/commsource/beautyplus/location/Nearby;->validWaypointNames:Ljava/util/List;
 
     const-string/jumbo v2, "\u5409\u6bd4\u7279\u5927\u53a6"
 
     invoke-interface {v1, v2}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
-    .line 23
     iget-object v1, p0, Lcom/commsource/beautyplus/location/Nearby;->validWaypointNames:Ljava/util/List;
 
     const-string/jumbo v2, "\u661f\u5df4\u514b\uff08\u53a6\u95e8\u8f6f\u4ef6\u56ed\u5206\u5e97\uff09"
 
     invoke-interface {v1, v2}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
-    .line 24
     iget-object v1, p0, Lcom/commsource/beautyplus/location/Nearby;->validWaypointNames:Ljava/util/List;
 
     const-string/jumbo v2, "\u56db\u5b63\u9152\u5bb6"
 
     invoke-interface {v1, v2}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
-    .line 25
     iget-object v1, p0, Lcom/commsource/beautyplus/location/Nearby;->validWaypointNames:Ljava/util/List;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -283,17 +255,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/beautyplus/location/Nearby;->validWaypointNames:Ljava/util/List;
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
 
-    .line 3
     :cond_0
     new-instance v1, Ljava/util/ArrayList;
 
@@ -301,7 +270,6 @@
 
     iput-object v1, p0, Lcom/commsource/beautyplus/location/Nearby;->validWaypointNames:Ljava/util/List;
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/beautyplus/location/Nearby;->waypoints:Ljava/util/List;
 
     if-eqz v1, :cond_5
@@ -314,7 +282,6 @@
 
     goto :goto_1
 
-    .line 5
     :cond_1
     iget-object v1, p0, Lcom/commsource/beautyplus/location/Nearby;->waypoints:Ljava/util/List;
 
@@ -336,12 +303,10 @@
 
     check-cast v2, Lcom/commsource/beautyplus/location/Nearby$WaypointsBean;
 
-    .line 6
     invoke-virtual {v2}, Lcom/commsource/beautyplus/location/Nearby$WaypointsBean;->getName()Ljava/lang/String;
 
     move-result-object v2
 
-    .line 7
     invoke-static {v2}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v3
@@ -358,7 +323,6 @@
 
     goto :goto_0
 
-    .line 8
     :cond_3
     iget-object v3, p0, Lcom/commsource/beautyplus/location/Nearby;->validWaypointNames:Ljava/util/List;
 
@@ -366,7 +330,6 @@
 
     goto :goto_0
 
-    .line 9
     :cond_4
     iget-object v1, p0, Lcom/commsource/beautyplus/location/Nearby;->validWaypointNames:Ljava/util/List;
 
@@ -374,7 +337,6 @@
 
     return-object v1
 
-    .line 10
     :cond_5
     :goto_1
     iget-object v1, p0, Lcom/commsource/beautyplus/location/Nearby;->validWaypointNames:Ljava/util/List;
@@ -399,7 +361,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/beautyplus/location/Nearby;->waypoints:Ljava/util/List;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -414,10 +375,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/beautyplus/location/Nearby;->code:Ljava/lang/String;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -430,10 +389,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/beautyplus/location/Nearby;->message:Ljava/lang/String;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -454,10 +411,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/beautyplus/location/Nearby;->waypoints:Ljava/util/List;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

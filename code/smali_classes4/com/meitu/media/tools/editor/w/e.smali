@@ -19,14 +19,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget v1, Landroid/os/Build$VERSION;->SDK_INT:I
 
     sput v1, Lcom/meitu/media/tools/editor/w/e;->a:I
 
     const-string v1, "(\\d\\d\\d\\d)\\-(\\d\\d)\\-(\\d\\d)[Tt](\\d\\d):(\\d\\d):(\\d\\d)(\\.(\\d+))?([Zz]|((\\+|\\-)(\\d\\d):(\\d\\d)))?"
 
-    .line 2
     invoke-static {v1}, Ljava/util/regex/Pattern;->compile(Ljava/lang/String;)Ljava/util/regex/Pattern;
 
     move-result-object v1
@@ -35,14 +33,12 @@
 
     const-string v1, "^(-)?P(([0-9]*)Y)?(([0-9]*)M)?(([0-9]*)D)?(T(([0-9]*)H)?(([0-9]*)M)?(([0-9.]*)S)?)?$"
 
-    .line 3
     invoke-static {v1}, Ljava/util/regex/Pattern;->compile(Ljava/lang/String;)Ljava/util/regex/Pattern;
 
     move-result-object v1
 
     sput-object v1, Lcom/meitu/media/tools/editor/w/e;->c:Ljava/util/regex/Pattern;
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -51,7 +47,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -77,7 +72,6 @@
 
     goto :goto_0
 
-    .line 1
     :cond_1
     invoke-virtual {p0, p1}, Ljava/lang/Object;->equals(Ljava/lang/Object;)Z
 
@@ -107,7 +101,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p0, p1}, Ljava/util/Collections;->binarySearch(Ljava/util/List;Ljava/lang/Object;)I
 
     move-result p1
@@ -129,7 +122,6 @@
     :goto_0
     if-eqz p3, :cond_2
 
-    .line 2
     invoke-interface {p0}, Ljava/util/List;->size()I
 
     move-result p0
@@ -153,7 +145,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p0, p1, p2}, Ljava/util/Arrays;->binarySearch([JJ)I
 
     move-result p1
@@ -175,7 +166,6 @@
     :goto_0
     if-eqz p4, :cond_2
 
-    .line 2
     array-length p0, p0
 
     add-int/lit8 p0, p0, -0x1
@@ -208,7 +198,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p0, p1}, Ljava/util/Collections;->binarySearch(Ljava/util/List;Ljava/lang/Object;)I
 
     move-result p0
@@ -234,7 +223,6 @@
 
     const/4 p1, 0x0
 
-    .line 2
     invoke-static {p1, p0}, Ljava/lang/Math;->max(II)I
 
     move-result p0
@@ -252,7 +240,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p0, p1, p2}, Ljava/util/Arrays;->binarySearch([JJ)I
 
     move-result p0
@@ -278,7 +265,6 @@
 
     const/4 p1, 0x0
 
-    .line 2
     invoke-static {p1, p0}, Ljava/lang/Math;->max(II)I
 
     move-result p0
@@ -296,7 +282,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Ljava/net/URL;->getProtocol()Ljava/lang/String;
 
     move-result-object p0
@@ -319,7 +304,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/meitu/media/tools/editor/w/e$a;
 
     invoke-direct {v1, p0}, Lcom/meitu/media/tools/editor/w/e$a;-><init>(Ljava/lang/String;)V
@@ -340,7 +324,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/meitu/media/tools/editor/w/e$b;
 
     invoke-direct {v1, p0}, Lcom/meitu/media/tools/editor/w/e$b;-><init>(Ljava/lang/String;)V
@@ -366,14 +349,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/meitu/media/tools/editor/w/e;->b:Ljava/util/regex/Pattern;
 
     invoke-virtual {v1, p0}, Ljava/util/regex/Pattern;->matcher(Ljava/lang/CharSequence;)Ljava/util/regex/Matcher;
 
     move-result-object v1
 
-    .line 2
     invoke-virtual {v1}, Ljava/util/regex/Matcher;->matches()Z
 
     move-result v2
@@ -384,7 +365,6 @@
 
     const/16 p0, 0x9
 
-    .line 3
     invoke-virtual {v1, p0}, Ljava/util/regex/Matcher;->group(I)Ljava/lang/String;
 
     move-result-object v2
@@ -393,7 +373,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_0
     invoke-virtual {v1, p0}, Ljava/util/regex/Matcher;->group(I)Ljava/lang/String;
 
@@ -412,7 +391,6 @@
     :cond_1
     const/16 p0, 0xc
 
-    .line 5
     invoke-virtual {v1, p0}, Ljava/util/regex/Matcher;->group(I)Ljava/lang/String;
 
     move-result-object p0
@@ -425,7 +403,6 @@
 
     const/16 v2, 0xd
 
-    .line 6
     invoke-virtual {v1, v2}, Ljava/util/regex/Matcher;->group(I)Ljava/lang/String;
 
     move-result-object v2
@@ -438,7 +415,6 @@
 
     const/16 p0, 0xb
 
-    .line 7
     invoke-virtual {v1, p0}, Ljava/util/regex/Matcher;->group(I)Ljava/lang/String;
 
     move-result-object p0
@@ -453,7 +429,6 @@
 
     mul-int/lit8 v3, v3, -0x1
 
-    .line 8
     :cond_2
     :goto_0
     new-instance p0, Ljava/util/GregorianCalendar;
@@ -466,12 +441,10 @@
 
     invoke-direct {p0, v2}, Ljava/util/GregorianCalendar;-><init>(Ljava/util/TimeZone;)V
 
-    .line 9
     invoke-virtual {p0}, Ljava/util/Calendar;->clear()V
 
     const/4 v2, 0x1
 
-    .line 10
     invoke-virtual {v1, v2}, Ljava/util/regex/Matcher;->group(I)Ljava/lang/String;
 
     move-result-object v4
@@ -482,7 +455,6 @@
 
     const/4 v4, 0x2
 
-    .line 11
     invoke-virtual {v1, v4}, Ljava/util/regex/Matcher;->group(I)Ljava/lang/String;
 
     move-result-object v4
@@ -495,7 +467,6 @@
 
     const/4 v2, 0x3
 
-    .line 12
     invoke-virtual {v1, v2}, Ljava/util/regex/Matcher;->group(I)Ljava/lang/String;
 
     move-result-object v4
@@ -506,7 +477,6 @@
 
     const/4 v4, 0x4
 
-    .line 13
     invoke-virtual {v1, v4}, Ljava/util/regex/Matcher;->group(I)Ljava/lang/String;
 
     move-result-object v4
@@ -517,7 +487,6 @@
 
     const/4 v4, 0x5
 
-    .line 14
     invoke-virtual {v1, v4}, Ljava/util/regex/Matcher;->group(I)Ljava/lang/String;
 
     move-result-object v4
@@ -528,7 +497,6 @@
 
     const/4 v4, 0x6
 
-    .line 15
     invoke-virtual {v1, v4}, Ljava/util/regex/Matcher;->group(I)Ljava/lang/String;
 
     move-result-object v4
@@ -539,12 +507,10 @@
 
     move-object v4, p0
 
-    .line 16
     invoke-virtual/range {v4 .. v10}, Ljava/util/Calendar;->set(IIIIII)V
 
     const/16 v4, 0x8
 
-    .line 17
     invoke-virtual {v1, v4}, Ljava/util/regex/Matcher;->group(I)Ljava/lang/String;
 
     move-result-object v5
@@ -555,7 +521,6 @@
 
     if-nez v5, :cond_3
 
-    .line 18
     new-instance v5, Ljava/math/BigDecimal;
 
     new-instance v6, Ljava/lang/StringBuilder;
@@ -580,7 +545,6 @@
 
     const/16 v1, 0xe
 
-    .line 19
     invoke-virtual {v5, v2}, Ljava/math/BigDecimal;->movePointRight(I)Ljava/math/BigDecimal;
 
     move-result-object v2
@@ -591,7 +555,6 @@
 
     invoke-virtual {p0, v1, v2}, Ljava/util/Calendar;->set(II)V
 
-    .line 20
     :cond_3
     invoke-virtual {p0}, Ljava/util/Calendar;->getTimeInMillis()J
 
@@ -607,13 +570,11 @@
 
     sub-long/2addr v1, v3
 
-    .line 21
     :cond_4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-wide v1
 
-    .line 22
     :cond_5
     new-instance v1, Ljava/text/ParseException;
 
@@ -645,14 +606,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/meitu/media/tools/editor/w/e;->c:Ljava/util/regex/Pattern;
 
     invoke-virtual {v1, p0}, Ljava/util/regex/Pattern;->matcher(Ljava/lang/CharSequence;)Ljava/util/regex/Matcher;
 
     move-result-object v1
 
-    .line 2
     invoke-virtual {v1}, Ljava/util/regex/Matcher;->matches()Z
 
     move-result v2
@@ -665,7 +624,6 @@
 
     const/4 p0, 0x1
 
-    .line 3
     invoke-virtual {v1, p0}, Ljava/util/regex/Matcher;->group(I)Ljava/lang/String;
 
     move-result-object v2
@@ -678,7 +636,6 @@
 
     const/4 v2, 0x3
 
-    .line 4
     invoke-virtual {v1, v2}, Ljava/util/regex/Matcher;->group(I)Ljava/lang/String;
 
     move-result-object v2
@@ -687,7 +644,6 @@
 
     if-eqz v2, :cond_0
 
-    .line 5
     invoke-static {v2}, Ljava/lang/Double;->parseDouble(Ljava/lang/String;)D
 
     move-result-wide v9
@@ -704,14 +660,12 @@
     :goto_0
     const/4 v2, 0x5
 
-    .line 6
     invoke-virtual {v1, v2}, Ljava/util/regex/Matcher;->group(I)Ljava/lang/String;
 
     move-result-object v2
 
     if-eqz v2, :cond_1
 
-    .line 7
     invoke-static {v2}, Ljava/lang/Double;->parseDouble(Ljava/lang/String;)D
 
     move-result-wide v11
@@ -730,14 +684,12 @@
 
     const/4 v2, 0x7
 
-    .line 8
     invoke-virtual {v1, v2}, Ljava/util/regex/Matcher;->group(I)Ljava/lang/String;
 
     move-result-object v2
 
     if-eqz v2, :cond_2
 
-    .line 9
     invoke-static {v2}, Ljava/lang/Double;->parseDouble(Ljava/lang/String;)D
 
     move-result-wide v11
@@ -756,14 +708,12 @@
 
     const/16 v2, 0xa
 
-    .line 10
     invoke-virtual {v1, v2}, Ljava/util/regex/Matcher;->group(I)Ljava/lang/String;
 
     move-result-object v2
 
     if-eqz v2, :cond_3
 
-    .line 11
     invoke-static {v2}, Ljava/lang/Double;->parseDouble(Ljava/lang/String;)D
 
     move-result-wide v11
@@ -780,14 +730,12 @@
 
     const/16 v2, 0xc
 
-    .line 12
     invoke-virtual {v1, v2}, Ljava/util/regex/Matcher;->group(I)Ljava/lang/String;
 
     move-result-object v2
 
     if-eqz v2, :cond_4
 
-    .line 13
     invoke-static {v2}, Ljava/lang/Double;->parseDouble(Ljava/lang/String;)D
 
     move-result-wide v5
@@ -806,14 +754,12 @@
 
     const/16 v2, 0xe
 
-    .line 14
     invoke-virtual {v1, v2}, Ljava/util/regex/Matcher;->group(I)Ljava/lang/String;
 
     move-result-object v1
 
     if-eqz v1, :cond_5
 
-    .line 15
     invoke-static {v1}, Ljava/lang/Double;->parseDouble(Ljava/lang/String;)D
 
     move-result-wide v7
@@ -829,13 +775,11 @@
 
     neg-long v1, v1
 
-    .line 16
     :cond_6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-wide v1
 
-    .line 17
     :cond_7
     invoke-static {p0}, Ljava/lang/Double;->parseDouble(Ljava/lang/String;)D
 
@@ -865,17 +809,14 @@
 
     if-ltz v3, :cond_0
 
-    .line 1
     rem-long v4, p4, p2
 
     cmp-long v6, v4, v1
 
     if-nez v6, :cond_0
 
-    .line 2
     div-long/2addr p4, p2
 
-    .line 3
     div-long/2addr p0, p4
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -885,19 +826,16 @@
     :cond_0
     if-gez v3, :cond_1
 
-    .line 4
     rem-long v3, p2, p4
 
     cmp-long v5, v3, v1
 
     if-nez v5, :cond_1
 
-    .line 5
     div-long/2addr p2, p4
 
     mul-long p0, p0, p2
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-wide p0
@@ -915,7 +853,6 @@
 
     double-to-long p0, p0
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-wide p0
@@ -936,7 +873,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-interface {p0}, Ljava/util/List;->size()I
 
     move-result v1
@@ -951,20 +887,17 @@
 
     if-ltz v6, :cond_0
 
-    .line 2
     rem-long v7, p3, p1
 
     cmp-long v9, v7, v3
 
     if-nez v9, :cond_0
 
-    .line 3
     div-long/2addr p3, p1
 
     :goto_0
     if-ge v5, v1, :cond_2
 
-    .line 4
     invoke-interface {p0, v5}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object p1
@@ -986,20 +919,17 @@
     :cond_0
     if-gez v6, :cond_1
 
-    .line 5
     rem-long v6, p1, p3
 
     cmp-long v8, v6, v3
 
     if-nez v8, :cond_1
 
-    .line 6
     div-long/2addr p1, p3
 
     :goto_1
     if-ge v5, v1, :cond_2
 
-    .line 7
     invoke-interface {p0, v5}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object p3
@@ -1028,7 +958,6 @@
     :goto_2
     if-ge v5, v1, :cond_2
 
-    .line 8
     invoke-interface {p0, v5}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object p3
@@ -1051,7 +980,6 @@
 
     goto :goto_2
 
-    .line 9
     :cond_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1073,23 +1001,19 @@
 
     if-ltz v4, :cond_0
 
-    .line 1
     rem-long v5, p3, p1
 
     cmp-long v7, v5, v1
 
     if-nez v7, :cond_0
 
-    .line 2
     div-long/2addr p3, p1
 
-    .line 3
     :goto_0
     array-length p1, p0
 
     if-ge v3, p1, :cond_2
 
-    .line 4
     aget-wide p1, p0, v3
 
     div-long/2addr p1, p3
@@ -1103,23 +1027,19 @@
     :cond_0
     if-gez v4, :cond_1
 
-    .line 5
     rem-long v4, p1, p3
 
     cmp-long v6, v4, v1
 
     if-nez v6, :cond_1
 
-    .line 6
     div-long/2addr p1, p3
 
-    .line 7
     :goto_1
     array-length p3, p0
 
     if-ge v3, p3, :cond_2
 
-    .line 8
     aget-wide p3, p0, v3
 
     mul-long p3, p3, p1
@@ -1137,13 +1057,11 @@
 
     div-double/2addr p1, p3
 
-    .line 9
     :goto_2
     array-length p3, p0
 
     if-ge v3, p3, :cond_2
 
-    .line 10
     aget-wide p3, p0, v3
 
     long-to-double p3, p3
@@ -1158,7 +1076,6 @@
 
     goto :goto_2
 
-    .line 11
     :cond_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1184,18 +1101,15 @@
 
     const/4 p0, 0x0
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
 
-    .line 2
     :cond_0
     invoke-interface {p0}, Ljava/util/List;->size()I
 
     move-result v1
 
-    .line 3
     new-array v2, v1, [I
 
     const/4 v3, 0x0
@@ -1203,7 +1117,6 @@
     :goto_0
     if-ge v3, v1, :cond_1
 
-    .line 4
     invoke-interface {p0, v3}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object v4
@@ -1220,7 +1133,6 @@
 
     goto :goto_0
 
-    .line 5
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1240,7 +1152,6 @@
 
     goto :goto_0
 
-    .line 1
     :cond_0
     sget-object v1, Ljava/util/Locale;->US:Ljava/util/Locale;
 

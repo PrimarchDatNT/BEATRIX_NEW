@@ -46,10 +46,8 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Landroid/database/Observable;-><init>()V
 
-    .line 2
     new-instance v0, Ljava/util/HashMap;
 
     invoke-direct {v0}, Ljava/util/HashMap;-><init>()V
@@ -64,12 +62,10 @@
 .method protected a(Ljava/lang/String;Ljava/lang/String;Lf/r/c/d/d$d;)Ljava/lang/Object;
     .locals 1
 
-    .line 1
     new-instance v0, Lf/r/c/d/d$a;
 
     invoke-direct {v0, p0, p2, p3}, Lf/r/c/d/d$a;-><init>(Lf/r/c/d/d;Ljava/lang/String;Lf/r/c/d/d$d;)V
 
-    .line 2
     invoke-virtual {p0, p1, v0}, Lf/r/c/d/d;->c(Ljava/lang/String;Lf/r/c/d/d$d;)Ljava/lang/Object;
 
     return-object v0
@@ -78,7 +74,6 @@
 .method public b(Ljava/lang/String;Lf/r/c/d/d$d;)V
     .locals 0
 
-    .line 1
     invoke-virtual {p0, p1, p2}, Lf/r/c/d/d;->c(Ljava/lang/String;Lf/r/c/d/d$d;)Ljava/lang/Object;
 
     return-void
@@ -87,7 +82,6 @@
 .method protected final c(Ljava/lang/String;Lf/r/c/d/d$d;)Ljava/lang/Object;
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lf/r/c/d/d;->a:Ljava/util/HashMap;
 
     invoke-virtual {v0, p1}, Ljava/util/HashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
@@ -98,7 +92,6 @@
 
     if-nez v0, :cond_0
 
-    .line 2
     iget-object v0, p0, Lf/r/c/d/d;->a:Ljava/util/HashMap;
 
     new-instance v1, Ljava/util/ArrayList;
@@ -109,7 +102,6 @@
 
     move-object v0, v1
 
-    .line 3
     :cond_0
     invoke-virtual {v0, p2}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
@@ -125,7 +117,6 @@
 .method protected f(Lf/r/c/d/b;)V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lf/r/c/d/d;->a:Ljava/util/HashMap;
 
     iget-object v1, p1, Lf/r/c/d/b;->a:Ljava/lang/String;
@@ -140,7 +131,6 @@
 
     return-void
 
-    .line 2
     :cond_0
     new-instance v1, Ljava/util/ArrayList;
 
@@ -163,7 +153,6 @@
 
     check-cast v1, Lf/r/c/d/d$d;
 
-    .line 3
     invoke-interface {v1, p1}, Lf/r/c/d/d$d;->a(Lf/r/c/d/b;)V
 
     goto :goto_0
@@ -175,7 +164,6 @@
 .method public g(Lf/r/c/d/b;)V
     .locals 5
 
-    .line 1
     iget-object v0, p1, Lf/r/c/d/b;->f:Ljava/util/ArrayList;
 
     invoke-virtual {v0}, Ljava/util/ArrayList;->size()I
@@ -184,7 +172,6 @@
 
     if-lez v0, :cond_0
 
-    .line 2
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -201,12 +188,10 @@
 
     move-result-object v0
 
-    .line 3
     new-instance v1, Ljava/util/ArrayList;
 
     invoke-direct {v1}, Ljava/util/ArrayList;-><init>()V
 
-    .line 4
     new-instance v2, Lf/r/c/d/d$b;
 
     invoke-direct {v2, p0, p1, v1}, Lf/r/c/d/d$b;-><init>(Lf/r/c/d/d;Lf/r/c/d/b;Ljava/util/ArrayList;)V
@@ -217,10 +202,8 @@
 
     move-result-object v2
 
-    .line 5
     invoke-virtual {v1, v2}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    .line 6
     iget-object p1, p1, Lf/r/c/d/b;->f:Ljava/util/ArrayList;
 
     invoke-virtual {p1}, Ljava/util/ArrayList;->iterator()Ljava/util/Iterator;
@@ -240,7 +223,6 @@
 
     check-cast v2, Lf/r/c/d/b$a;
 
-    .line 7
     iget-object v3, v2, Lf/r/c/d/b$a;->f:Ljava/lang/String;
 
     new-instance v4, Lf/r/c/d/d$c;
@@ -251,7 +233,6 @@
 
     move-result-object v2
 
-    .line 8
     invoke-virtual {v1, v2}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
     goto :goto_0
@@ -271,7 +252,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lf/r/c/d/d;->a:Ljava/util/HashMap;
 
     invoke-virtual {v0}, Ljava/util/HashMap;->values()Ljava/util/Collection;
@@ -295,7 +275,6 @@
 
     check-cast v1, Ljava/util/ArrayList;
 
-    .line 2
     invoke-virtual {v1, p1}, Ljava/util/ArrayList;->removeAll(Ljava/util/Collection;)Z
 
     goto :goto_0

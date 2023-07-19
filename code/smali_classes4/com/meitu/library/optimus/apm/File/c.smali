@@ -56,18 +56,14 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/4 v0, 0x0
 
-    .line 2
     iput-boolean v0, p0, Lcom/meitu/library/optimus/apm/File/c;->d:Z
 
-    .line 3
     iput-object p1, p0, Lcom/meitu/library/optimus/apm/File/c;->a:Ljava/util/List;
 
-    .line 4
     iput-object p2, p0, Lcom/meitu/library/optimus/apm/File/c;->c:Ljava/lang/String;
 
     return-void
@@ -80,7 +76,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/meitu/library/optimus/apm/File/c;->c:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -95,7 +90,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/meitu/library/optimus/apm/File/c;->e:Ljava/util/concurrent/CountDownLatch;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -110,7 +104,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0, p1, p2, p3, p4}, Lcom/meitu/library/optimus/apm/File/c;->d(Ljava/lang/String;Ljava/lang/String;ZZ)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -125,24 +118,20 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/library/optimus/apm/File/c;->c:Ljava/lang/String;
 
     invoke-static {p3, p1, v1}, Lcom/meitu/library/optimus/apm/r;->d(ZLjava/lang/String;Ljava/lang/String;)V
 
-    .line 2
     iget-object p3, p0, Lcom/meitu/library/optimus/apm/File/c;->b:Ljava/util/ArrayList;
 
     if-nez p3, :cond_0
 
-    .line 3
     new-instance p3, Ljava/util/ArrayList;
 
     invoke-direct {p3}, Ljava/util/ArrayList;-><init>()V
 
     iput-object p3, p0, Lcom/meitu/library/optimus/apm/File/c;->b:Ljava/util/ArrayList;
 
-    .line 4
     :cond_0
     :try_start_0
     new-instance p3, Lorg/json/JSONObject;
@@ -151,7 +140,6 @@
 
     const-string p2, "fpath"
 
-    .line 5
     invoke-virtual {p3, p2, p1}, Lorg/json/JSONObject;->put(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;
 
     const-string p1, "org_collect"
@@ -165,11 +153,9 @@
     :cond_1
     const/4 p2, 0x1
 
-    .line 6
     :goto_0
     invoke-virtual {p3, p1, p2}, Lorg/json/JSONObject;->put(Ljava/lang/String;I)Lorg/json/JSONObject;
 
-    .line 7
     iget-object p1, p0, Lcom/meitu/library/optimus/apm/File/c;->b:Ljava/util/ArrayList;
 
     invoke-virtual {p1, p3}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
@@ -183,16 +169,13 @@
 
     const-string p2, "onFileUploadSuccess error."
 
-    .line 8
     invoke-static {p2, p1}, Lcom/meitu/library/optimus/apm/x/a;->d(Ljava/lang/String;Ljava/lang/Throwable;)V
 
-    .line 9
     :goto_1
     iget-object p1, p0, Lcom/meitu/library/optimus/apm/File/c;->e:Ljava/util/concurrent/CountDownLatch;
 
     invoke-virtual {p1}, Ljava/util/concurrent/CountDownLatch;->countDown()V
 
-    .line 10
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -207,7 +190,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/meitu/library/optimus/apm/File/c;->d:Z
 
     if-nez v1, :cond_6
@@ -221,10 +203,8 @@
     :cond_0
     const/4 v1, 0x1
 
-    .line 2
     iput-boolean v1, p0, Lcom/meitu/library/optimus/apm/File/c;->d:Z
 
-    .line 3
     iget-object v1, p0, Lcom/meitu/library/optimus/apm/File/c;->a:Ljava/util/List;
 
     invoke-interface {v1}, Ljava/util/List;->iterator()Ljava/util/Iterator;
@@ -247,7 +227,6 @@
 
     if-eqz v2, :cond_1
 
-    .line 4
     invoke-virtual {v2}, Lcom/meitu/library/optimus/apm/File/a;->a()Ljava/io/File;
 
     move-result-object v3
@@ -256,7 +235,6 @@
 
     goto :goto_0
 
-    .line 5
     :cond_2
     invoke-virtual {v2}, Lcom/meitu/library/optimus/apm/File/a;->a()Ljava/io/File;
 
@@ -266,12 +244,10 @@
 
     move-result-object v2
 
-    .line 6
     iget-object v3, p0, Lcom/meitu/library/optimus/apm/File/c;->c:Ljava/lang/String;
 
     invoke-static {v3, v2}, Lcom/meitu/mtuploader/g;->a0(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 7
     iget-boolean v3, p0, Lcom/meitu/library/optimus/apm/File/c;->f:Z
 
     iget-object v4, p0, Lcom/meitu/library/optimus/apm/File/c;->c:Ljava/lang/String;
@@ -280,14 +256,12 @@
 
     goto :goto_0
 
-    .line 8
     :cond_3
     iget-object v1, p0, Lcom/meitu/library/optimus/apm/File/c;->e:Ljava/util/concurrent/CountDownLatch;
 
     :goto_1
     if-eqz v1, :cond_4
 
-    .line 9
     invoke-virtual {v1}, Ljava/util/concurrent/CountDownLatch;->getCount()J
 
     move-result-wide v2
@@ -298,12 +272,10 @@
 
     if-lez v6, :cond_4
 
-    .line 10
     invoke-virtual {v1}, Ljava/util/concurrent/CountDownLatch;->countDown()V
 
     goto :goto_1
 
-    .line 11
     :cond_4
     invoke-static {}, Lcom/meitu/library/optimus/apm/x/a;->h()Z
 
@@ -313,16 +285,13 @@
 
     const-string v1, "fileUploader cancel !"
 
-    .line 12
     invoke-static {v1}, Lcom/meitu/library/optimus/apm/x/a;->a(Ljava/lang/String;)V
 
-    .line 13
     :cond_5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 14
     :cond_6
     :goto_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -354,7 +323,6 @@
 
     invoke-static {v10}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/meitu/library/optimus/apm/x/a;->h()Z
 
     move-result v1
@@ -363,7 +331,6 @@
 
     if-eqz v1, :cond_1
 
-    .line 2
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -394,7 +361,6 @@
 
     invoke-static {v1}, Lcom/meitu/library/optimus/apm/x/a;->a(Ljava/lang/String;)V
 
-    .line 3
     :cond_1
     iget-object v1, v9, Lcom/meitu/library/optimus/apm/File/c;->a:Ljava/util/List;
 
@@ -408,11 +374,9 @@
 
     goto/16 :goto_4
 
-    .line 4
     :cond_2
     iput-boolean v0, v9, Lcom/meitu/library/optimus/apm/File/c;->f:Z
 
-    .line 5
     new-instance v1, Ljava/util/concurrent/CountDownLatch;
 
     iget-object v3, v9, Lcom/meitu/library/optimus/apm/File/c;->a:Ljava/util/List;
@@ -427,7 +391,6 @@
 
     const/4 v12, 0x0
 
-    .line 6
     :goto_1
     iget-object v1, v9, Lcom/meitu/library/optimus/apm/File/c;->a:Ljava/util/List;
 
@@ -437,21 +400,18 @@
 
     if-ge v12, v1, :cond_9
 
-    .line 7
     invoke-static/range {p2 .. p2}, Lcom/meitu/library/optimus/apm/r;->a(Z)Z
 
     move-result v1
 
     if-nez v1, :cond_3
 
-    .line 8
     iget-object v0, v9, Lcom/meitu/library/optimus/apm/File/c;->b:Ljava/util/ArrayList;
 
     invoke-static {v10}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v0
 
-    .line 9
     :cond_3
     iget-object v1, v9, Lcom/meitu/library/optimus/apm/File/c;->a:Ljava/util/List;
 
@@ -463,7 +423,6 @@
 
     check-cast v13, Lcom/meitu/library/optimus/apm/File/a;
 
-    .line 10
     invoke-virtual {v13}, Lcom/meitu/library/optimus/apm/File/a;->a()Ljava/io/File;
 
     move-result-object v1
@@ -472,12 +431,10 @@
 
     move-result-object v14
 
-    .line 11
     invoke-virtual {v13}, Lcom/meitu/library/optimus/apm/File/a;->e()Ljava/lang/String;
 
     move-result-object v15
 
-    .line 12
     invoke-virtual {v13}, Lcom/meitu/library/optimus/apm/File/a;->f()Z
 
     move-result v6
@@ -486,19 +443,16 @@
 
     if-eqz v6, :cond_5
 
-    .line 13
     invoke-virtual {v8, v14}, Lcom/meitu/library/optimus/apm/File/UploadResultCache;->b(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v1
 
-    .line 14
     invoke-static {}, Lcom/meitu/library/optimus/apm/x/a;->h()Z
 
     move-result v2
 
     if-eqz v2, :cond_4
 
-    .line 15
     new-instance v2, Ljava/lang/StringBuilder;
 
     invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
@@ -521,7 +475,6 @@
 
     invoke-static {v2}, Lcom/meitu/library/optimus/apm/x/a;->a(Ljava/lang/String;)V
 
-    .line 16
     :cond_4
     invoke-static {v1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
@@ -531,12 +484,10 @@
 
     const/4 v2, 0x1
 
-    .line 17
     invoke-direct {v9, v14, v1, v0, v2}, Lcom/meitu/library/optimus/apm/File/c;->d(Ljava/lang/String;Ljava/lang/String;ZZ)V
 
     goto :goto_2
 
-    .line 18
     :cond_5
     new-instance v7, Lcom/meitu/mtuploader/bean/MtUploadBean;
 
@@ -568,30 +519,25 @@
 
     if-eqz v15, :cond_6
 
-    .line 19
     invoke-virtual {v11, v15}, Lcom/meitu/mtuploader/bean/MtUploadBean;->setId(Ljava/lang/String;)V
 
-    .line 20
     :cond_6
     iget-object v1, v9, Lcom/meitu/library/optimus/apm/File/c;->c:Ljava/lang/String;
 
     invoke-virtual {v11, v1}, Lcom/meitu/mtuploader/bean/MtUploadBean;->setUploadKey(Ljava/lang/String;)V
 
-    .line 21
     invoke-virtual {v13}, Lcom/meitu/library/optimus/apm/File/a;->d()Ljava/lang/String;
 
     move-result-object v1
 
     invoke-virtual {v11, v1}, Lcom/meitu/mtuploader/bean/MtUploadBean;->setFileType(Ljava/lang/String;)V
 
-    .line 22
     invoke-virtual {v13}, Lcom/meitu/library/optimus/apm/File/a;->b()Lcom/meitu/mtuploader/bean/MtUploadRequestTokenBean;
 
     move-result-object v1
 
     invoke-virtual {v11, v1}, Lcom/meitu/mtuploader/bean/MtUploadBean;->setRequestTokenBean(Lcom/meitu/mtuploader/bean/MtUploadRequestTokenBean;)V
 
-    .line 23
     invoke-static {}, Lcom/meitu/library/optimus/apm/x/a;->h()Z
 
     move-result v1
@@ -600,14 +546,11 @@
 
     const-string v1, "onUploadStart "
 
-    .line 24
     invoke-static {v1}, Lcom/meitu/library/optimus/apm/x/a;->a(Ljava/lang/String;)V
 
-    .line 25
     :cond_7
     invoke-static {v0, v11}, Lcom/meitu/library/optimus/apm/r;->e(ZLcom/meitu/mtuploader/bean/MtUploadBean;)V
 
-    .line 26
     invoke-static {}, Lcom/meitu/library/optimus/apm/x/a;->h()Z
 
     move-result v1
@@ -616,7 +559,6 @@
 
     const-string v1, "onUploadStart end"
 
-    .line 27
     invoke-static {v1}, Lcom/meitu/library/optimus/apm/x/a;->a(Ljava/lang/String;)V
 
     :cond_8
@@ -627,7 +569,6 @@
 
     goto/16 :goto_1
 
-    .line 28
     :cond_9
     :try_start_0
     invoke-static {}, Lcom/meitu/library/optimus/apm/x/a;->h()Z
@@ -638,10 +579,8 @@
 
     const-string v0, "mCountDownLatch.wait"
 
-    .line 29
     invoke-static {v0}, Lcom/meitu/library/optimus/apm/x/a;->a(Ljava/lang/String;)V
 
-    .line 30
     :cond_a
     iget-object v0, v9, Lcom/meitu/library/optimus/apm/File/c;->e:Ljava/util/concurrent/CountDownLatch;
 
@@ -654,7 +593,6 @@
     :catch_0
     move-exception v0
 
-    .line 31
     invoke-static {}, Lcom/meitu/library/optimus/apm/x/a;->h()Z
 
     move-result v1
@@ -663,10 +601,8 @@
 
     const-string v1, "mCountDownLatch.wait error."
 
-    .line 32
     invoke-static {v1, v0}, Lcom/meitu/library/optimus/apm/x/a;->d(Ljava/lang/String;Ljava/lang/Throwable;)V
 
-    .line 33
     :cond_b
     :goto_3
     iget-object v0, v9, Lcom/meitu/library/optimus/apm/File/c;->b:Ljava/util/ArrayList;
@@ -681,7 +617,6 @@
     :goto_4
     const v1, 0xd847
 
-    .line 34
     invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const/4 v0, 0x0
@@ -696,7 +631,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/meitu/library/optimus/apm/File/c;->d:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

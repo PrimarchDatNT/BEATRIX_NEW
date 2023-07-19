@@ -33,15 +33,12 @@
 
     const/16 v0, 0xa
 
-    .line 1
     invoke-direct {p0, p1, v0}, Landroid/os/HandlerThread;-><init>(Ljava/lang/String;I)V
 
     const/4 p1, 0x0
 
-    .line 2
     iput-boolean p1, p0, Lcom/meitu/library/analytics/y/h/i;->a:Z
 
-    .line 3
     new-instance p1, Ljava/lang/Object;
 
     invoke-direct {p1}, Ljava/lang/Object;-><init>()V
@@ -60,21 +57,17 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/library/analytics/y/h/i;->b:Ljava/lang/Object;
 
     monitor-enter v1
 
-    .line 2
     :try_start_0
     iget-boolean v2, p0, Lcom/meitu/library/analytics/y/h/i;->a:Z
 
     if-eqz v2, :cond_0
 
-    .line 3
     invoke-interface {p1, p0}, Lcom/meitu/library/analytics/y/h/i$a;->a(Landroid/os/HandlerThread;)V
 
-    .line 4
     monitor-exit v1
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
@@ -83,7 +76,6 @@
 
     return-void
 
-    .line 5
     :cond_0
     :try_start_1
     iget-object v2, p0, Lcom/meitu/library/analytics/y/h/i;->c:Ljava/util/List;
@@ -97,7 +89,6 @@
 
     invoke-direct {v2}, Ljava/util/ArrayList;-><init>()V
 
-    .line 6
     :goto_0
     invoke-interface {v2, p1}, Ljava/util/List;->contains(Ljava/lang/Object;)Z
 
@@ -105,19 +96,15 @@
 
     if-nez v3, :cond_2
 
-    .line 7
     invoke-interface {v2, p1}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
-    .line 8
     :cond_2
     iput-object v2, p0, Lcom/meitu/library/analytics/y/h/i;->c:Ljava/util/List;
 
-    .line 9
     monitor-exit v1
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
-    .line 10
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -125,7 +112,6 @@
     :catchall_0
     move-exception p1
 
-    .line 11
     :try_start_2
     monitor-exit v1
     :try_end_2
@@ -143,17 +129,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/meitu/library/analytics/y/h/i;->a:Z
 
     if-nez v1, :cond_1
 
-    .line 2
     iget-object v1, p0, Lcom/meitu/library/analytics/y/h/i;->b:Ljava/lang/Object;
 
     monitor-enter v1
 
-    .line 3
     :try_start_0
     iget-boolean v2, p0, Lcom/meitu/library/analytics/y/h/i;->a:Z
     :try_end_0
@@ -161,7 +144,6 @@
 
     if-nez v2, :cond_0
 
-    .line 4
     :try_start_1
     iget-object v2, p0, Lcom/meitu/library/analytics/y/h/i;->b:Ljava/lang/Object;
 
@@ -175,11 +157,9 @@
     :catch_0
     move-exception v2
 
-    .line 5
     :try_start_2
     invoke-virtual {v2}, Ljava/lang/InterruptedException;->printStackTrace()V
 
-    .line 6
     :cond_0
     :goto_0
     monitor-exit v1
@@ -197,7 +177,6 @@
 
     throw v2
 
-    .line 7
     :cond_1
     :goto_1
     invoke-super {p0}, Landroid/os/HandlerThread;->getLooper()Landroid/os/Looper;
@@ -216,36 +195,29 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0}, Landroid/os/HandlerThread;->onLooperPrepared()V
 
-    .line 2
     iget-object v1, p0, Lcom/meitu/library/analytics/y/h/i;->b:Ljava/lang/Object;
 
     monitor-enter v1
 
     const/4 v2, 0x1
 
-    .line 3
     :try_start_0
     iput-boolean v2, p0, Lcom/meitu/library/analytics/y/h/i;->a:Z
 
-    .line 4
     iget-object v2, p0, Lcom/meitu/library/analytics/y/h/i;->b:Ljava/lang/Object;
 
     invoke-virtual {v2}, Ljava/lang/Object;->notifyAll()V
 
-    .line 5
     iget-object v2, p0, Lcom/meitu/library/analytics/y/h/i;->c:Ljava/util/List;
 
     if-eqz v2, :cond_0
 
     const/4 v3, 0x0
 
-    .line 6
     iput-object v3, p0, Lcom/meitu/library/analytics/y/h/i;->c:Ljava/util/List;
 
-    .line 7
     invoke-interface {v2}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
     move-result-object v2
@@ -263,18 +235,15 @@
 
     check-cast v3, Lcom/meitu/library/analytics/y/h/i$a;
 
-    .line 8
     invoke-interface {v3, p0}, Lcom/meitu/library/analytics/y/h/i$a;->a(Landroid/os/HandlerThread;)V
 
     goto :goto_0
 
-    .line 9
     :cond_0
     monitor-exit v1
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 10
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -282,7 +251,6 @@
     :catchall_0
     move-exception v2
 
-    .line 11
     :try_start_1
     monitor-exit v1
     :try_end_1

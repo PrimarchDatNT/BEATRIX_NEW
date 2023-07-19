@@ -12,7 +12,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -41,7 +40,6 @@
         value = "SCHEMA_VERSION"
     .end annotation
 
-    .line 1
     sget v0, Lcom/google/android/datatransport/k/x/j/i0;->O:I
 
     return v0
@@ -52,7 +50,6 @@
     .annotation runtime Lg/i;
     .end annotation
 
-    .line 1
     sget-object v0, Lcom/google/android/datatransport/k/x/j/d;->f:Lcom/google/android/datatransport/k/x/j/d;
 
     return-object v0

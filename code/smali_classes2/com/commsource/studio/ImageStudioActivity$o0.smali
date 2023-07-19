@@ -58,12 +58,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     instance-of v1, p1, Lcom/commsource/studio/bean/TextLayerInfo;
 
     if-eqz v1, :cond_0
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/ImageStudioActivity$o0;->a:Lcom/commsource/studio/ImageStudioActivity;
 
     invoke-virtual {v1}, Lcom/commsource/studio/ImageStudioActivity;->p1()Lcom/commsource/studio/text/TextViewModel;
@@ -76,7 +74,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_0
     iget-object p1, p0, Lcom/commsource/studio/ImageStudioActivity$o0;->a:Lcom/commsource/studio/ImageStudioActivity;
 
@@ -88,7 +85,6 @@
 
     invoke-virtual {p1, v1}, Lcom/commsource/studio/text/TextViewModel;->U(Lcom/commsource/studio/bean/TextLayerInfo;)V
 
-    .line 4
     :goto_0
     iget-object p1, p0, Lcom/commsource/studio/ImageStudioActivity$o0;->a:Lcom/commsource/studio/ImageStudioActivity;
 
@@ -104,7 +100,6 @@
 
     invoke-virtual {p1, v1}, Landroidx/lifecycle/MutableLiveData;->setValue(Ljava/lang/Object;)V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -117,7 +112,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Lcom/commsource/studio/bean/BaseLayerInfo;
 
     invoke-virtual {p0, p1}, Lcom/commsource/studio/ImageStudioActivity$o0;->a(Lcom/commsource/studio/bean/BaseLayerInfo;)V

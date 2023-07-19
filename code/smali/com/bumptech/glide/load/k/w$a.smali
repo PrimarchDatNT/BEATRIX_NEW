@@ -39,10 +39,8 @@
 .method public constructor <init>(Landroid/content/ContentResolver;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/bumptech/glide/load/k/w$a;->a:Landroid/content/ContentResolver;
 
     return-void
@@ -69,7 +67,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/bumptech/glide/load/j/a;
 
     iget-object v1, p0, Lcom/bumptech/glide/load/k/w$a;->a:Landroid/content/ContentResolver;
@@ -93,7 +90,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance p1, Lcom/bumptech/glide/load/k/w;
 
     invoke-direct {p1, p0}, Lcom/bumptech/glide/load/k/w;-><init>(Lcom/bumptech/glide/load/k/w$c;)V

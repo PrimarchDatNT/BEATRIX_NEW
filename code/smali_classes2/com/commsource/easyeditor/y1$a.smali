@@ -24,7 +24,6 @@
 .method constructor <init>(Lcom/commsource/easyeditor/y1;Ljava/lang/String;Ljava/lang/String;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/easyeditor/y1$a;->p:Lcom/commsource/easyeditor/y1;
 
     iput-object p3, p0, Lcom/commsource/easyeditor/y1$a;->g:Ljava/lang/String;
@@ -43,17 +42,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/commsource/util/d2;->b()Lcom/commsource/util/d2;
 
     move-result-object v1
 
-    .line 2
     invoke-static {}, Lcom/commsource/easyeditor/a2/d;->i()Ljava/util/List;
 
     move-result-object v2
 
-    .line 3
     iget-object v3, p0, Lcom/commsource/easyeditor/y1$a;->p:Lcom/commsource/easyeditor/y1;
 
     invoke-static {v3}, Lcom/commsource/easyeditor/y1;->y(Lcom/commsource/easyeditor/y1;)Lcom/commsource/easyeditor/entity/b;
@@ -62,7 +58,6 @@
 
     invoke-virtual {v3, v2}, Lcom/commsource/easyeditor/entity/b;->v(Ljava/util/List;)V
 
-    .line 4
     iget-object v3, p0, Lcom/commsource/easyeditor/y1$a;->p:Lcom/commsource/easyeditor/y1;
 
     invoke-virtual {v3}, Lcom/commsource/easyeditor/y1;->c0()Landroidx/lifecycle/MutableLiveData;
@@ -71,12 +66,10 @@
 
     invoke-virtual {v3, v2}, Landroidx/lifecycle/MutableLiveData;->postValue(Ljava/lang/Object;)V
 
-    .line 5
     iget-object v2, p0, Lcom/commsource/easyeditor/y1$a;->p:Lcom/commsource/easyeditor/y1;
 
     iget-object v3, p0, Lcom/commsource/easyeditor/y1$a;->g:Ljava/lang/String;
 
-    .line 6
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
     move-result-object v4
@@ -89,10 +82,8 @@
 
     move-result-object v3
 
-    .line 7
     invoke-static {v2, v3}, Lcom/commsource/easyeditor/y1;->A(Lcom/commsource/easyeditor/y1;Lcom/meitu/core/types/NativeBitmap;)Lcom/meitu/core/types/NativeBitmap;
 
-    .line 8
     iget-object v2, p0, Lcom/commsource/easyeditor/y1$a;->p:Lcom/commsource/easyeditor/y1;
 
     invoke-static {v2}, Lcom/commsource/easyeditor/y1;->z(Lcom/commsource/easyeditor/y1;)Lcom/meitu/core/types/NativeBitmap;
@@ -103,7 +94,6 @@
 
     if-nez v2, :cond_0
 
-    .line 9
     iget-object v1, p0, Lcom/commsource/easyeditor/y1$a;->p:Lcom/commsource/easyeditor/y1;
 
     invoke-virtual {v1}, Lcom/commsource/easyeditor/y1;->d0()Landroidx/lifecycle/MutableLiveData;
@@ -112,12 +102,10 @@
 
     invoke-virtual {v1, v3}, Landroidx/lifecycle/MutableLiveData;->postValue(Ljava/lang/Object;)V
 
-    .line 10
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 11
     :cond_0
     iget-object v2, p0, Lcom/commsource/easyeditor/y1$a;->p:Lcom/commsource/easyeditor/y1;
 
@@ -131,7 +119,6 @@
 
     invoke-static {v2, v4}, Lcom/commsource/easyeditor/y1;->C(Lcom/commsource/easyeditor/y1;Landroid/graphics/Bitmap;)Landroid/graphics/Bitmap;
 
-    .line 12
     iget-object v2, p0, Lcom/commsource/easyeditor/y1$a;->p:Lcom/commsource/easyeditor/y1;
 
     invoke-static {v2}, Lcom/commsource/easyeditor/y1;->B(Lcom/commsource/easyeditor/y1;)Landroid/graphics/Bitmap;
@@ -140,7 +127,6 @@
 
     if-nez v2, :cond_1
 
-    .line 13
     iget-object v1, p0, Lcom/commsource/easyeditor/y1$a;->p:Lcom/commsource/easyeditor/y1;
 
     invoke-virtual {v1}, Lcom/commsource/easyeditor/y1;->d0()Landroidx/lifecycle/MutableLiveData;
@@ -149,12 +135,10 @@
 
     invoke-virtual {v1, v3}, Landroidx/lifecycle/MutableLiveData;->postValue(Ljava/lang/Object;)V
 
-    .line 14
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 15
     :cond_1
     new-instance v2, Ljava/lang/StringBuilder;
 
@@ -182,7 +166,6 @@
 
     invoke-static {v5, v2}, Lcom/meitu/library/util/Debug/Debug;->P(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 16
     iget-object v2, p0, Lcom/commsource/easyeditor/y1$a;->p:Lcom/commsource/easyeditor/y1;
 
     invoke-static {v2}, Lcom/commsource/easyeditor/y1;->B(Lcom/commsource/easyeditor/y1;)Landroid/graphics/Bitmap;
@@ -197,7 +180,6 @@
 
     if-nez v2, :cond_2
 
-    .line 17
     iget-object v1, p0, Lcom/commsource/easyeditor/y1$a;->p:Lcom/commsource/easyeditor/y1;
 
     invoke-virtual {v1}, Lcom/commsource/easyeditor/y1;->d0()Landroidx/lifecycle/MutableLiveData;
@@ -206,12 +188,10 @@
 
     invoke-virtual {v1, v3}, Landroidx/lifecycle/MutableLiveData;->postValue(Ljava/lang/Object;)V
 
-    .line 18
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 19
     :cond_2
     invoke-virtual {v2}, Landroid/graphics/Bitmap;->getConfig()Landroid/graphics/Bitmap$Config;
 
@@ -223,7 +203,6 @@
 
     move-result-object v3
 
-    .line 20
     invoke-static {}, Lcom/commsource/util/x;->E()Z
 
     move-result v6
@@ -232,10 +211,8 @@
 
     const/16 v6, 0x32
 
-    .line 21
     invoke-static {v3, v6}, Lcom/meitu/core/processor/BlurProcessor;->stackBlur_bitmap(Landroid/graphics/Bitmap;I)Z
 
-    .line 22
     :cond_3
     iget-object v6, p0, Lcom/commsource/easyeditor/y1$a;->p:Lcom/commsource/easyeditor/y1;
 
@@ -245,7 +222,6 @@
 
     invoke-virtual {v6, v3}, Landroidx/lifecycle/MutableLiveData;->postValue(Ljava/lang/Object;)V
 
-    .line 23
     iget-object v3, p0, Lcom/commsource/easyeditor/y1$a;->p:Lcom/commsource/easyeditor/y1;
 
     invoke-virtual {v3}, Lcom/commsource/easyeditor/y1;->d0()Landroidx/lifecycle/MutableLiveData;
@@ -260,7 +236,6 @@
 
     invoke-virtual {v3, v6}, Landroidx/lifecycle/MutableLiveData;->postValue(Ljava/lang/Object;)V
 
-    .line 24
     new-instance v3, Ljava/lang/StringBuilder;
 
     invoke-direct {v3}, Ljava/lang/StringBuilder;-><init>()V
@@ -283,7 +258,6 @@
 
     invoke-static {v5, v3}, Lcom/meitu/library/util/Debug/Debug;->P(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 25
     iget-object v3, p0, Lcom/commsource/easyeditor/y1$a;->p:Lcom/commsource/easyeditor/y1;
 
     invoke-static {}, Lcom/commsource/beautyplus/g0/b;->g()Lcom/commsource/beautyplus/g0/b;
@@ -302,7 +276,6 @@
 
     invoke-static {v3, v6}, Lcom/commsource/easyeditor/y1;->E(Lcom/commsource/easyeditor/y1;Lcom/meitu/core/types/FaceData;)Lcom/meitu/core/types/FaceData;
 
-    .line 26
     iget-object v3, p0, Lcom/commsource/easyeditor/y1$a;->p:Lcom/commsource/easyeditor/y1;
 
     invoke-static {v3}, Lcom/commsource/easyeditor/y1;->y(Lcom/commsource/easyeditor/y1;)Lcom/commsource/easyeditor/entity/b;
@@ -321,7 +294,6 @@
 
     invoke-virtual {v3, v6}, Lcom/commsource/easyeditor/entity/b;->p(I)V
 
-    .line 27
     iget-object v3, p0, Lcom/commsource/easyeditor/y1$a;->p:Lcom/commsource/easyeditor/y1;
 
     invoke-static {v3}, Lcom/commsource/easyeditor/y1;->F(Lcom/commsource/easyeditor/y1;)Lcom/commsource/easyeditor/z1/k;
@@ -336,7 +308,6 @@
 
     invoke-virtual {v3, v6}, Lcom/commsource/easyeditor/z1/k;->Q(Lcom/meitu/core/types/FaceData;)V
 
-    .line 28
     new-instance v3, Ljava/lang/StringBuilder;
 
     invoke-direct {v3}, Ljava/lang/StringBuilder;-><init>()V
@@ -359,7 +330,6 @@
 
     invoke-static {v5, v1}, Lcom/meitu/library/util/Debug/Debug;->P(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 29
     iget-object v1, p0, Lcom/commsource/easyeditor/y1$a;->p:Lcom/commsource/easyeditor/y1;
 
     invoke-virtual {v1}, Lcom/commsource/easyeditor/y1;->a0()Landroidx/lifecycle/MutableLiveData;
@@ -374,7 +344,6 @@
 
     invoke-virtual {v1, v3}, Landroidx/lifecycle/MutableLiveData;->postValue(Ljava/lang/Object;)V
 
-    .line 30
     iget-object v1, p0, Lcom/commsource/easyeditor/y1$a;->p:Lcom/commsource/easyeditor/y1;
 
     invoke-virtual {v1}, Lcom/commsource/easyeditor/y1;->h0()Landroidx/lifecycle/MutableLiveData;
@@ -385,7 +354,6 @@
 
     invoke-virtual {v1, v3}, Landroidx/lifecycle/MutableLiveData;->postValue(Ljava/lang/Object;)V
 
-    .line 31
     iget-object v1, p0, Lcom/commsource/easyeditor/y1$a;->p:Lcom/commsource/easyeditor/y1;
 
     invoke-static {v1}, Lcom/commsource/easyeditor/y1;->z(Lcom/commsource/easyeditor/y1;)Lcom/meitu/core/types/NativeBitmap;
@@ -402,7 +370,6 @@
 
     move-result-object v1
 
-    .line 32
     iget-object v3, p0, Lcom/commsource/easyeditor/y1$a;->p:Lcom/commsource/easyeditor/y1;
 
     new-instance v4, Lcom/commsource/easyeditor/a2/c;
@@ -415,7 +382,6 @@
 
     invoke-static {v3, v4}, Lcom/commsource/easyeditor/y1;->G(Lcom/commsource/easyeditor/y1;Lcom/commsource/easyeditor/a2/c;)Lcom/commsource/easyeditor/a2/c;
 
-    .line 33
     iget-object v3, p0, Lcom/commsource/easyeditor/y1$a;->p:Lcom/commsource/easyeditor/y1;
 
     new-instance v4, Ljava/util/LinkedList;
@@ -426,7 +392,6 @@
 
     const/4 v3, 0x0
 
-    .line 34
     :goto_0
     iget-object v4, p0, Lcom/commsource/easyeditor/y1$a;->p:Lcom/commsource/easyeditor/y1;
 
@@ -440,19 +405,16 @@
 
     if-ge v3, v4, :cond_4
 
-    .line 35
     sget-object v4, Lcom/meitu/core/face/InterPoint$PointType;->TYPE_171:Lcom/meitu/core/face/InterPoint$PointType;
 
     invoke-virtual {v1, v3, v4}, Lcom/meitu/core/face/InterPoint;->getLandmarks(ILcom/meitu/core/face/InterPoint$PointType;)Ljava/util/ArrayList;
 
     move-result-object v4
 
-    .line 36
     new-instance v5, Lcom/commsource/easyeditor/entity/g;
 
     iget-object v6, p0, Lcom/commsource/easyeditor/y1$a;->p:Lcom/commsource/easyeditor/y1;
 
-    .line 37
     invoke-static {v6}, Lcom/commsource/easyeditor/y1;->D(Lcom/commsource/easyeditor/y1;)Lcom/meitu/core/types/FaceData;
 
     move-result-object v6
@@ -473,7 +435,6 @@
 
     invoke-direct {v5, v4, v6, v7}, Lcom/commsource/easyeditor/entity/g;-><init>(Ljava/util/List;II)V
 
-    .line 38
     iget-object v4, p0, Lcom/commsource/easyeditor/y1$a;->p:Lcom/commsource/easyeditor/y1;
 
     invoke-static {v4}, Lcom/commsource/easyeditor/y1;->D(Lcom/commsource/easyeditor/y1;)Lcom/meitu/core/types/FaceData;
@@ -486,7 +447,6 @@
 
     invoke-virtual {v5, v4}, Lcom/commsource/easyeditor/entity/g;->k(Z)V
 
-    .line 39
     iget-object v4, p0, Lcom/commsource/easyeditor/y1$a;->p:Lcom/commsource/easyeditor/y1;
 
     invoke-static {v4}, Lcom/commsource/easyeditor/y1;->H(Lcom/commsource/easyeditor/y1;)Ljava/util/List;
@@ -499,7 +459,6 @@
 
     goto :goto_0
 
-    .line 40
     :cond_4
     iget-object v1, p0, Lcom/commsource/easyeditor/y1$a;->p:Lcom/commsource/easyeditor/y1;
 
@@ -515,7 +474,6 @@
 
     invoke-virtual {v1, v3}, Landroidx/lifecycle/MutableLiveData;->postValue(Ljava/lang/Object;)V
 
-    .line 41
     iget-object v1, p0, Lcom/commsource/easyeditor/y1$a;->p:Lcom/commsource/easyeditor/y1;
 
     invoke-static {v1}, Lcom/commsource/easyeditor/y1;->F(Lcom/commsource/easyeditor/y1;)Lcom/commsource/easyeditor/z1/k;
@@ -530,10 +488,8 @@
 
     invoke-virtual {v1, v2, v3}, Lcom/commsource/easyeditor/z1/k;->l(Landroid/graphics/Bitmap;Z)V
 
-    .line 42
     invoke-static {v2}, Lcom/commsource/util/common/e;->z(Landroid/graphics/Bitmap;)V
 
-    .line 43
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

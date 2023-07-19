@@ -11,7 +11,6 @@
 .method constructor <init>(Lcom/google/android/gms/internal/ads/b72;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/android/gms/internal/ads/d72;->a:Lcom/google/android/gms/internal/ads/b72;
 
     invoke-direct {p0}, Landroid/content/BroadcastReceiver;-><init>()V
@@ -24,7 +23,6 @@
 .method public final onReceive(Landroid/content/Context;Landroid/content/Intent;)V
     .locals 0
 
-    .line 1
     iget-object p1, p0, Lcom/google/android/gms/internal/ads/d72;->a:Lcom/google/android/gms/internal/ads/b72;
 
     invoke-static {p1}, Lcom/google/android/gms/internal/ads/b72;->c(Lcom/google/android/gms/internal/ads/b72;)V

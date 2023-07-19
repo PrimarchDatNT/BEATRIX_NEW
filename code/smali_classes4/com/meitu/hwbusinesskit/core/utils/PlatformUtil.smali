@@ -19,7 +19,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -32,19 +31,16 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/meitu/hwbusinesskit/core/utils/PlatformUtil;->mInitializedPlatforms:Ljava/util/List;
 
     if-nez v1, :cond_0
 
-    .line 2
     new-instance v1, Ljava/util/ArrayList;
 
     invoke-direct {v1}, Ljava/util/ArrayList;-><init>()V
 
     sput-object v1, Lcom/meitu/hwbusinesskit/core/utils/PlatformUtil;->mInitializedPlatforms:Ljava/util/List;
 
-    .line 3
     :cond_0
     invoke-static {p0}, Lcom/meitu/hwbusinesskit/core/utils/PlatformUtil;->isPlatformInitialized(Ljava/lang/String;)Z
 
@@ -52,12 +48,10 @@
 
     if-nez v1, :cond_1
 
-    .line 4
     sget-object v1, Lcom/meitu/hwbusinesskit/core/utils/PlatformUtil;->mInitializedPlatforms:Ljava/util/List;
 
     invoke-interface {v1, p0}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
-    .line 5
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -71,7 +65,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/meitu/hwbusinesskit/core/utils/PlatformUtil;->mInitializedPlatforms:Ljava/util/List;
 
     if-eqz v1, :cond_0
@@ -84,7 +77,6 @@
 
     sget-object v1, Lcom/meitu/hwbusinesskit/core/utils/PlatformUtil;->mInitializedPlatforms:Ljava/util/List;
 
-    .line 2
     invoke-interface {v1, p0}, Ljava/util/List;->contains(Ljava/lang/Object;)Z
 
     move-result p0
@@ -98,7 +90,6 @@
     :cond_0
     const/4 p0, 0x0
 
-    .line 3
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

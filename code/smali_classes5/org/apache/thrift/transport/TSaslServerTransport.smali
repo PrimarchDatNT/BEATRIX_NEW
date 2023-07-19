@@ -33,7 +33,6 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
     const-class v0, Lorg/apache/thrift/transport/TSaslServerTransport;
 
     invoke-static {v0}, Lorg/slf4j/d;->f(Ljava/lang/Class;)Lorg/slf4j/c;
@@ -63,17 +62,14 @@
         }
     .end annotation
 
-    .line 4
     invoke-direct {p0, p6}, Lorg/apache/thrift/transport/TSaslTransport;-><init>(Lorg/apache/thrift/transport/TTransport;)V
 
-    .line 5
     new-instance p6, Ljava/util/HashMap;
 
     invoke-direct {p6}, Ljava/util/HashMap;-><init>()V
 
     iput-object p6, p0, Lorg/apache/thrift/transport/TSaslServerTransport;->serverDefinitionMap:Ljava/util/Map;
 
-    .line 6
     invoke-virtual/range {p0 .. p5}, Lorg/apache/thrift/transport/TSaslServerTransport;->addServerDefinition(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/util/Map;Ljavax/security/auth/callback/CallbackHandler;)V
 
     return-void
@@ -93,17 +89,14 @@
         }
     .end annotation
 
-    .line 7
     invoke-direct {p0, p2}, Lorg/apache/thrift/transport/TSaslTransport;-><init>(Lorg/apache/thrift/transport/TTransport;)V
 
-    .line 8
     new-instance p2, Ljava/util/HashMap;
 
     invoke-direct {p2}, Ljava/util/HashMap;-><init>()V
 
     iput-object p2, p0, Lorg/apache/thrift/transport/TSaslServerTransport;->serverDefinitionMap:Ljava/util/Map;
 
-    .line 9
     invoke-interface {p2, p1}, Ljava/util/Map;->putAll(Ljava/util/Map;)V
 
     return-void
@@ -112,7 +105,6 @@
 .method synthetic constructor <init>(Ljava/util/Map;Lorg/apache/thrift/transport/TTransport;Lorg/apache/thrift/transport/TSaslServerTransport$1;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1, p2}, Lorg/apache/thrift/transport/TSaslServerTransport;-><init>(Ljava/util/Map;Lorg/apache/thrift/transport/TTransport;)V
 
     return-void
@@ -121,10 +113,8 @@
 .method public constructor <init>(Lorg/apache/thrift/transport/TTransport;)V
     .locals 0
 
-    .line 2
     invoke-direct {p0, p1}, Lorg/apache/thrift/transport/TSaslTransport;-><init>(Lorg/apache/thrift/transport/TTransport;)V
 
-    .line 3
     new-instance p1, Ljava/util/HashMap;
 
     invoke-direct {p1}, Ljava/util/HashMap;-><init>()V
@@ -137,7 +127,6 @@
 .method static synthetic access$000()Lorg/slf4j/c;
     .locals 1
 
-    .line 1
     sget-object v0, Lorg/apache/thrift/transport/TSaslServerTransport;->LOGGER:Lorg/slf4j/c;
 
     return-object v0
@@ -162,7 +151,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lorg/apache/thrift/transport/TSaslServerTransport;->serverDefinitionMap:Ljava/util/Map;
 
     new-instance v7, Lorg/apache/thrift/transport/TSaslServerTransport$TSaslServerDefinition;
@@ -189,7 +177,6 @@
 .method public bridge synthetic close()V
     .locals 0
 
-    .line 1
     invoke-super {p0}, Lorg/apache/thrift/transport/TSaslTransport;->close()V
 
     return-void
@@ -203,7 +190,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-super {p0}, Lorg/apache/thrift/transport/TSaslTransport;->flush()V
 
     return-void
@@ -212,7 +198,6 @@
 .method protected getRole()Lorg/apache/thrift/transport/TSaslTransport$SaslRole;
     .locals 1
 
-    .line 1
     sget-object v0, Lorg/apache/thrift/transport/TSaslTransport$SaslRole;->SERVER:Lorg/apache/thrift/transport/TSaslTransport$SaslRole;
 
     return-object v0
@@ -221,7 +206,6 @@
 .method public bridge synthetic getSaslClient()Ljavax/security/sasl/SaslClient;
     .locals 1
 
-    .line 1
     invoke-super {p0}, Lorg/apache/thrift/transport/TSaslTransport;->getSaslClient()Ljavax/security/sasl/SaslClient;
 
     move-result-object v0
@@ -232,7 +216,6 @@
 .method public bridge synthetic getSaslServer()Ljavax/security/sasl/SaslServer;
     .locals 1
 
-    .line 1
     invoke-super {p0}, Lorg/apache/thrift/transport/TSaslTransport;->getSaslServer()Ljavax/security/sasl/SaslServer;
 
     move-result-object v0
@@ -243,7 +226,6 @@
 .method public bridge synthetic getUnderlyingTransport()Lorg/apache/thrift/transport/TTransport;
     .locals 1
 
-    .line 1
     invoke-super {p0}, Lorg/apache/thrift/transport/TSaslTransport;->getUnderlyingTransport()Lorg/apache/thrift/transport/TTransport;
 
     move-result-object v0
@@ -260,12 +242,10 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lorg/apache/thrift/transport/TSaslTransport;->receiveSaslMessage()Lorg/apache/thrift/transport/TSaslTransport$SaslResponse;
 
     move-result-object v0
 
-    .line 2
     sget-object v1, Lorg/apache/thrift/transport/TSaslServerTransport;->LOGGER:Lorg/slf4j/c;
 
     iget-object v2, v0, Lorg/apache/thrift/transport/TSaslTransport$SaslResponse;->status:Lorg/apache/thrift/transport/TSaslTransport$NegotiationStatus;
@@ -274,14 +254,12 @@
 
     invoke-interface {v1, v3, v2}, Lorg/slf4j/c;->debug(Ljava/lang/String;Ljava/lang/Object;)V
 
-    .line 3
     iget-object v2, v0, Lorg/apache/thrift/transport/TSaslTransport$SaslResponse;->status:Lorg/apache/thrift/transport/TSaslTransport$NegotiationStatus;
 
     sget-object v3, Lorg/apache/thrift/transport/TSaslTransport$NegotiationStatus;->START:Lorg/apache/thrift/transport/TSaslTransport$NegotiationStatus;
 
     if-ne v2, v3, :cond_1
 
-    .line 4
     :try_start_0
     new-instance v2, Ljava/lang/String;
 
@@ -293,7 +271,6 @@
     :try_end_0
     .catch Ljava/io/UnsupportedEncodingException; {:try_start_0 .. :try_end_0} :catch_0
 
-    .line 5
     iget-object v0, p0, Lorg/apache/thrift/transport/TSaslServerTransport;->serverDefinitionMap:Ljava/util/Map;
 
     invoke-interface {v0, v2}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
@@ -304,12 +281,10 @@
 
     const-string v3, "Received mechanism name \'{}\'"
 
-    .line 6
     invoke-interface {v1, v3, v2}, Lorg/slf4j/c;->debug(Ljava/lang/String;Ljava/lang/Object;)V
 
     if-eqz v0, :cond_0
 
-    .line 7
     iget-object v1, v0, Lorg/apache/thrift/transport/TSaslServerTransport$TSaslServerDefinition;->mechanism:Ljava/lang/String;
 
     iget-object v2, v0, Lorg/apache/thrift/transport/TSaslServerTransport$TSaslServerDefinition;->protocol:Ljava/lang/String;
@@ -324,12 +299,10 @@
 
     move-result-object v0
 
-    .line 8
     invoke-virtual {p0, v0}, Lorg/apache/thrift/transport/TSaslTransport;->setSaslServer(Ljavax/security/sasl/SaslServer;)V
 
     return-void
 
-    .line 9
     :cond_0
     sget-object v0, Lorg/apache/thrift/transport/TSaslTransport$NegotiationStatus;->BAD:Lorg/apache/thrift/transport/TSaslTransport$NegotiationStatus;
 
@@ -353,7 +326,6 @@
 
     throw v0
 
-    .line 10
     :catch_0
     new-instance v0, Lorg/apache/thrift/transport/TTransportException;
 
@@ -363,7 +335,6 @@
 
     throw v0
 
-    .line 11
     :cond_1
     sget-object v1, Lorg/apache/thrift/transport/TSaslTransport$NegotiationStatus;->ERROR:Lorg/apache/thrift/transport/TSaslTransport$NegotiationStatus;
 
@@ -393,7 +364,6 @@
 .method public bridge synthetic isOpen()Z
     .locals 1
 
-    .line 1
     invoke-super {p0}, Lorg/apache/thrift/transport/TSaslTransport;->isOpen()Z
 
     move-result v0
@@ -409,7 +379,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-super {p0}, Lorg/apache/thrift/transport/TSaslTransport;->open()V
 
     return-void
@@ -423,7 +392,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-super {p0, p1, p2, p3}, Lorg/apache/thrift/transport/TSaslTransport;->read([BII)I
 
     move-result p1
@@ -439,7 +407,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-super {p0, p1, p2, p3}, Lorg/apache/thrift/transport/TSaslTransport;->write([BII)V
 
     return-void

@@ -58,7 +58,6 @@
 .method protected constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcotlin/collections/AbstractCollection;-><init>()V
 
     return-void
@@ -79,7 +78,6 @@
 
     return p1
 
-    .line 1
     :cond_0
     instance-of v0, p1, Ljava/util/Set;
 
@@ -89,7 +87,6 @@
 
     return p1
 
-    .line 2
     :cond_1
     sget-object v0, Lcotlin/collections/h;->a:Lcotlin/collections/h$a;
 
@@ -105,7 +102,6 @@
 .method public hashCode()I
     .locals 1
 
-    .line 1
     sget-object v0, Lcotlin/collections/h;->a:Lcotlin/collections/h$a;
 
     invoke-virtual {v0, p0}, Lcotlin/collections/h$a;->b(Ljava/util/Collection;)I

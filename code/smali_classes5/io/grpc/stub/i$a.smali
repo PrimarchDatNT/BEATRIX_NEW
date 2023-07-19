@@ -34,7 +34,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lio/grpc/stub/i$a;->b:Lio/grpc/stub/b;
 
     iput-object p2, p0, Lio/grpc/stub/i$a;->c:Ljava/util/Iterator;
@@ -49,14 +48,12 @@
 .method public run()V
     .locals 2
 
-    .line 1
     iget-boolean v0, p0, Lio/grpc/stub/i$a;->a:Z
 
     if-eqz v0, :cond_0
 
     return-void
 
-    .line 2
     :cond_0
     :goto_0
     iget-object v0, p0, Lio/grpc/stub/i$a;->b:Lio/grpc/stub/b;
@@ -75,7 +72,6 @@
 
     if-eqz v0, :cond_1
 
-    .line 3
     iget-object v0, p0, Lio/grpc/stub/i$a;->b:Lio/grpc/stub/b;
 
     iget-object v1, p0, Lio/grpc/stub/i$a;->c:Ljava/util/Iterator;
@@ -88,7 +84,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_1
     iget-object v0, p0, Lio/grpc/stub/i$a;->c:Ljava/util/Iterator;
 
@@ -100,10 +95,8 @@
 
     const/4 v0, 0x1
 
-    .line 5
     iput-boolean v0, p0, Lio/grpc/stub/i$a;->a:Z
 
-    .line 6
     iget-object v0, p0, Lio/grpc/stub/i$a;->b:Lio/grpc/stub/b;
 
     invoke-interface {v0}, Lio/grpc/stub/h;->onCompleted()V

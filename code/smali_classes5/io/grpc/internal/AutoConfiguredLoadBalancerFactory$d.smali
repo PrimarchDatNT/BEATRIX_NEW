@@ -22,10 +22,8 @@
 .method constructor <init>(Lio/grpc/Status;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lio/grpc/t0$i;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lio/grpc/internal/AutoConfiguredLoadBalancerFactory$d;->a:Lio/grpc/Status;
 
     return-void
@@ -36,7 +34,6 @@
 .method public a(Lio/grpc/t0$f;)Lio/grpc/t0$e;
     .locals 0
 
-    .line 1
     iget-object p1, p0, Lio/grpc/internal/AutoConfiguredLoadBalancerFactory$d;->a:Lio/grpc/Status;
 
     invoke-static {p1}, Lio/grpc/t0$e;->f(Lio/grpc/Status;)Lio/grpc/t0$e;

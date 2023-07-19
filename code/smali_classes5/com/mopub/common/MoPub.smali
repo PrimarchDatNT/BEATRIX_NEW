@@ -46,13 +46,10 @@
 
     const/4 v0, 0x0
 
-    .line 1
     sput-boolean v0, Lcom/mopub/common/MoPub;->sSearchedForUpdateActivityMethod:Z
 
-    .line 2
     sput-boolean v0, Lcom/mopub/common/MoPub;->sSdkInitialized:Z
 
-    .line 3
     sput-boolean v0, Lcom/mopub/common/MoPub;->sSdkInitializing:Z
 
     return-void
@@ -61,7 +58,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -70,7 +66,6 @@
 .method static synthetic access$000()Lcom/mopub/common/AdapterConfigurationManager;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/mopub/common/MoPub;->sAdapterConfigurationManager:Lcom/mopub/common/AdapterConfigurationManager;
 
     return-object v0
@@ -79,7 +74,6 @@
 .method static synthetic access$100(Lcom/mopub/common/SdkInitializationListener;)V
     .locals 0
 
-    .line 1
     invoke-static {p0}, Lcom/mopub/common/MoPub;->initializationFinished(Lcom/mopub/common/SdkInitializationListener;)V
 
     return-void
@@ -88,7 +82,6 @@
 .method private static synthetic ajc$preClinit()V
     .locals 9
 
-    .line 1
     new-instance v8, Ln/a/b/c/e;
 
     const-class v0, Lcom/mopub/common/MoPub;
@@ -133,7 +126,6 @@
 .method public static canCollectPersonalInformation()Z
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/mopub/common/MoPub;->sPersonalInfoManager:Lcom/mopub/common/privacy/PersonalInfoManager;
 
     if-eqz v0, :cond_0
@@ -160,7 +152,6 @@
     .annotation build Landroidx/annotation/UiThread;
     .end annotation
 
-    .line 1
     invoke-static {}, Lcom/mopub/common/ViewabilityManager;->disableViewability()V
 
     return-void
@@ -175,7 +166,6 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    .line 2
     invoke-static {}, Lcom/mopub/common/ViewabilityManager;->disableViewability()V
 
     return-void
@@ -195,12 +185,10 @@
         }
     .end annotation
 
-    .line 1
     sget-object v0, Lcom/mopub/common/MoPub;->sAdapterConfigurationManager:Lcom/mopub/common/AdapterConfigurationManager;
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-virtual {v0}, Lcom/mopub/common/AdapterConfigurationManager;->getAdapterConfigurationInfo()Ljava/util/List;
 
     move-result-object v0
@@ -222,10 +210,8 @@
     .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
-    .line 1
     invoke-static {p0}, Lcom/mopub/common/Preconditions;->checkNotNull(Ljava/lang/Object;)V
 
-    .line 2
     sget-object v0, Lcom/mopub/common/MoPub;->sAdapterConfigurationManager:Lcom/mopub/common/AdapterConfigurationManager;
 
     if-nez v0, :cond_0
@@ -234,7 +220,6 @@
 
     return-object p0
 
-    .line 3
     :cond_0
     invoke-virtual {v0, p0}, Lcom/mopub/common/AdapterConfigurationManager;->getTokensAsJsonString(Landroid/content/Context;)Ljava/lang/String;
 
@@ -251,7 +236,6 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    .line 1
     invoke-static {}, Lcom/mopub/common/BrowserAgentManager;->getBrowserAgent()Lcom/mopub/common/BrowserAgentManager$BrowserAgent;
 
     move-result-object v0
@@ -276,7 +260,6 @@
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
-    .line 1
     invoke-static {}, Lcom/mopub/common/LocationService;->getInstance()Lcom/mopub/common/LocationService;
 
     move-result-object v0
@@ -291,7 +274,6 @@
 .method public static getLocationPrecision()I
     .locals 1
 
-    .line 1
     invoke-static {}, Lcom/mopub/common/LocationService;->getInstance()Lcom/mopub/common/LocationService;
 
     move-result-object v0
@@ -306,7 +288,6 @@
 .method public static getMinimumLocationRefreshTimeMillis()J
     .locals 2
 
-    .line 1
     invoke-static {}, Lcom/mopub/common/LocationService;->getInstance()Lcom/mopub/common/LocationService;
 
     move-result-object v0
@@ -323,7 +304,6 @@
     .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
-    .line 1
     sget-object v0, Lcom/mopub/common/MoPub;->sPersonalInfoManager:Lcom/mopub/common/privacy/PersonalInfoManager;
 
     return-object v0
@@ -338,15 +318,12 @@
 
     const/4 v0, 0x0
 
-    .line 1
     sput-boolean v0, Lcom/mopub/common/MoPub;->sSdkInitializing:Z
 
     const/4 v0, 0x1
 
-    .line 2
     sput-boolean v0, Lcom/mopub/common/MoPub;->sSdkInitialized:Z
 
-    .line 3
     new-instance v0, Landroid/os/Handler;
 
     invoke-static {}, Landroid/os/Looper;->getMainLooper()Landroid/os/Looper;
@@ -377,17 +354,14 @@
 
     const-string v0, "initializeRewardedAds was called without the fullscreen module"
 
-    .line 1
     invoke-static {p0}, Lcom/mopub/common/Preconditions;->checkNotNull(Ljava/lang/Object;)V
 
-    .line 2
     invoke-static {p1}, Lcom/mopub/common/Preconditions;->checkNotNull(Ljava/lang/Object;)V
 
     const/4 v1, 0x0
 
     const/4 v2, 0x1
 
-    .line 3
     :try_start_0
     new-instance v3, Lcom/mopub/common/util/Reflection$MethodBuilder;
 
@@ -399,7 +373,6 @@
 
     const-string v4, "com.mopub.mobileads.MoPubRewardedAds"
 
-    .line 4
     invoke-static {v4}, Ljava/lang/Class;->forName(Ljava/lang/String;)Ljava/lang/Class;
 
     move-result-object v4
@@ -408,21 +381,18 @@
 
     move-result-object v3
 
-    .line 5
     invoke-virtual {v3}, Lcom/mopub/common/util/Reflection$MethodBuilder;->setAccessible()Lcom/mopub/common/util/Reflection$MethodBuilder;
 
     move-result-object v3
 
     const-class v4, Landroid/app/Activity;
 
-    .line 6
     invoke-virtual {v3, v4, p0}, Lcom/mopub/common/util/Reflection$MethodBuilder;->addParam(Ljava/lang/Class;Ljava/lang/Object;)Lcom/mopub/common/util/Reflection$MethodBuilder;
 
     move-result-object p0
 
     const-class v3, Lcom/mopub/common/SdkConfiguration;
 
-    .line 7
     invoke-virtual {p0, v3, p1}, Lcom/mopub/common/util/Reflection$MethodBuilder;->addParam(Ljava/lang/Class;Ljava/lang/Object;)Lcom/mopub/common/util/Reflection$MethodBuilder;
 
     move-result-object p0
@@ -438,7 +408,6 @@
     :catch_0
     move-exception p0
 
-    .line 8
     sget-object p1, Lcom/mopub/common/logging/MoPubLog$SdkLogEvent;->ERROR_WITH_THROWABLE:Lcom/mopub/common/logging/MoPubLog$SdkLogEvent;
 
     const/4 v0, 0x2
@@ -455,7 +424,6 @@
 
     goto :goto_0
 
-    .line 9
     :catch_1
     sget-object p0, Lcom/mopub/common/logging/MoPubLog$SdkLogEvent;->CUSTOM:Lcom/mopub/common/logging/MoPubLog$SdkLogEvent;
 
@@ -467,7 +435,6 @@
 
     goto :goto_0
 
-    .line 10
     :catch_2
     sget-object p0, Lcom/mopub/common/logging/MoPubLog$SdkLogEvent;->CUSTOM:Lcom/mopub/common/logging/MoPubLog$SdkLogEvent;
 
@@ -496,20 +463,16 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-static {p0}, Lcom/mopub/common/Preconditions;->checkNotNull(Ljava/lang/Object;)V
 
-    .line 2
     invoke-static {p1}, Lcom/mopub/common/Preconditions;->checkNotNull(Ljava/lang/Object;)V
 
-    .line 3
     invoke-virtual {p1}, Lcom/mopub/common/SdkConfiguration;->getLogLevel()Lcom/mopub/common/logging/MoPubLog$LogLevel;
 
     move-result-object v0
 
     invoke-static {v0}, Lcom/mopub/common/logging/MoPubLog;->setLogLevel(Lcom/mopub/common/logging/MoPubLog$LogLevel;)V
 
-    .line 4
     sget-object v0, Lcom/mopub/common/logging/MoPubLog$SdkLogEvent;->INIT_STARTED:Lcom/mopub/common/logging/MoPubLog$SdkLogEvent;
 
     const/4 v1, 0x0
@@ -518,7 +481,6 @@
 
     invoke-static {v0, v2}, Lcom/mopub/common/logging/MoPubLog;->log(Lcom/mopub/common/logging/MoPubLog$MPLogEventType;[Ljava/lang/Object;)V
 
-    .line 5
     sget-object v0, Lcom/mopub/common/logging/MoPubLog$SdkLogEvent;->CUSTOM:Lcom/mopub/common/logging/MoPubLog$SdkLogEvent;
 
     const/4 v2, 0x1
@@ -547,7 +509,6 @@
 
     invoke-static {v0, v3}, Lcom/mopub/common/logging/MoPubLog;->log(Lcom/mopub/common/logging/MoPubLog$MPLogEventType;[Ljava/lang/Object;)V
 
-    .line 6
     invoke-virtual {p0}, Landroid/content/Context;->getApplicationInfo()Landroid/content/pm/ApplicationInfo;
 
     move-result-object v3
@@ -556,7 +517,6 @@
 
     new-array v4, v2, [Ljava/lang/Object;
 
-    .line 7
     new-instance v5, Ljava/lang/StringBuilder;
 
     invoke-direct {v5}, Ljava/lang/StringBuilder;-><init>()V
@@ -583,7 +543,6 @@
 
     invoke-static {v0, v4}, Lcom/mopub/common/logging/MoPubLog;->log(Lcom/mopub/common/logging/MoPubLog$MPLogEventType;[Ljava/lang/Object;)V
 
-    .line 8
     :cond_0
     invoke-virtual {p0}, Landroid/content/Context;->getApplicationContext()Landroid/content/Context;
 
@@ -591,20 +550,16 @@
 
     invoke-static {v3}, Lcom/mopub/common/ViewabilityManager;->activate(Landroid/content/Context;)V
 
-    .line 9
     instance-of v3, p0, Landroid/app/Activity;
 
     if-eqz v3, :cond_1
 
-    .line 10
     move-object v3, p0
 
     check-cast v3, Landroid/app/Activity;
 
-    .line 11
     invoke-static {v3, p1}, Lcom/mopub/common/MoPub;->initializeRewardedAd(Landroid/app/Activity;Lcom/mopub/common/SdkConfiguration;)V
 
-    .line 12
     :cond_1
     sget-boolean v3, Lcom/mopub/common/MoPub;->sSdkInitialized:Z
 
@@ -616,15 +571,12 @@
 
     aput-object p1, p0, v1
 
-    .line 13
     invoke-static {v0, p0}, Lcom/mopub/common/logging/MoPubLog;->log(Lcom/mopub/common/logging/MoPubLog$MPLogEventType;[Ljava/lang/Object;)V
 
-    .line 14
     invoke-static {p2}, Lcom/mopub/common/MoPub;->initializationFinished(Lcom/mopub/common/SdkInitializationListener;)V
 
     return-void
 
-    .line 15
     :cond_2
     sget-boolean v3, Lcom/mopub/common/MoPub;->sSdkInitializing:Z
 
@@ -636,12 +588,10 @@
 
     aput-object p1, p0, v1
 
-    .line 16
     invoke-static {v0, p0}, Lcom/mopub/common/logging/MoPubLog;->log(Lcom/mopub/common/logging/MoPubLog$MPLogEventType;[Ljava/lang/Object;)V
 
     return-void
 
-    .line 17
     :cond_3
     invoke-static {}, Landroid/os/Looper;->getMainLooper()Landroid/os/Looper;
 
@@ -659,38 +609,31 @@
 
     aput-object p1, p0, v1
 
-    .line 18
     invoke-static {v0, p0}, Lcom/mopub/common/logging/MoPubLog;->log(Lcom/mopub/common/logging/MoPubLog$MPLogEventType;[Ljava/lang/Object;)V
 
     return-void
 
-    .line 19
     :cond_4
     sput-boolean v2, Lcom/mopub/common/MoPub;->sSdkInitializing:Z
 
-    .line 20
     new-instance v0, Lcom/mopub/network/PlayServicesUrlRewriter;
 
     invoke-direct {v0}, Lcom/mopub/network/PlayServicesUrlRewriter;-><init>()V
 
     invoke-static {v0}, Lcom/mopub/network/Networking;->setUrlRewriter(Lcom/mopub/network/MoPubUrlRewriter;)V
 
-    .line 21
     invoke-static {p0}, Lcom/mopub/network/Networking;->getRequestQueue(Landroid/content/Context;)Lcom/mopub/network/MoPubRequestQueue;
 
-    .line 22
     new-instance v0, Lcom/mopub/common/MoPub$InternalSdkInitializationListener;
 
     invoke-direct {v0, p2}, Lcom/mopub/common/MoPub$InternalSdkInitializationListener;-><init>(Lcom/mopub/common/SdkInitializationListener;)V
 
-    .line 23
     new-instance p2, Lcom/mopub/common/CompositeSdkInitializationListener;
 
     const/4 v1, 0x2
 
     invoke-direct {p2, v0, v1}, Lcom/mopub/common/CompositeSdkInitializationListener;-><init>(Lcom/mopub/common/SdkInitializationListener;I)V
 
-    .line 24
     new-instance v0, Lcom/mopub/common/privacy/PersonalInfoManager;
 
     invoke-virtual {p1}, Lcom/mopub/common/SdkConfiguration;->getAdUnitId()Ljava/lang/String;
@@ -701,39 +644,32 @@
 
     sput-object v0, Lcom/mopub/common/MoPub;->sPersonalInfoManager:Lcom/mopub/common/privacy/PersonalInfoManager;
 
-    .line 25
     invoke-virtual {p1}, Lcom/mopub/common/SdkConfiguration;->getLegitimateInterestAllowed()Z
 
     move-result v1
 
     invoke-virtual {v0, v1}, Lcom/mopub/common/privacy/PersonalInfoManager;->setAllowLegitimateInterest(Z)V
 
-    .line 26
     invoke-static {p0}, Lcom/mopub/common/ClientMetadata;->getInstance(Landroid/content/Context;)Lcom/mopub/common/ClientMetadata;
 
-    .line 27
     new-instance v0, Lcom/mopub/common/AdapterConfigurationManager;
 
     invoke-direct {v0, p2}, Lcom/mopub/common/AdapterConfigurationManager;-><init>(Lcom/mopub/common/SdkInitializationListener;)V
 
     sput-object v0, Lcom/mopub/common/MoPub;->sAdapterConfigurationManager:Lcom/mopub/common/AdapterConfigurationManager;
 
-    .line 28
     invoke-virtual {p1}, Lcom/mopub/common/SdkConfiguration;->getAdapterConfigurationClasses()Ljava/util/Set;
 
     move-result-object p2
 
-    .line 29
     invoke-virtual {p1}, Lcom/mopub/common/SdkConfiguration;->getMediatedNetworkConfigurations()Ljava/util/Map;
 
     move-result-object v1
 
-    .line 30
     invoke-virtual {p1}, Lcom/mopub/common/SdkConfiguration;->getMoPubRequestOptions()Ljava/util/Map;
 
     move-result-object p1
 
-    .line 31
     invoke-virtual {v0, p0, p2, v1, p1}, Lcom/mopub/common/AdapterConfigurationManager;->initialize(Landroid/content/Context;Ljava/util/Set;Ljava/util/Map;Ljava/util/Map;)V
 
     return-void
@@ -742,7 +678,6 @@
 .method static final synthetic invoke_aroundBody0(Ljava/lang/reflect/Method;Ljava/lang/Object;[Ljava/lang/Object;Lorg/aspectj/lang/c;)Ljava/lang/Object;
     .locals 0
 
-    .line 1
     invoke-virtual {p0, p1, p2}, Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p0
@@ -753,7 +688,6 @@
 .method public static isSdkInitialized()Z
     .locals 1
 
-    .line 1
     sget-boolean v0, Lcom/mopub/common/MoPub;->sSdkInitialized:Z
 
     return v0
@@ -766,7 +700,6 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-static {p0}, Lcom/mopub/common/MoPubLifecycleManager;->getInstance(Landroid/app/Activity;)Lcom/mopub/common/MoPubLifecycleManager;
 
     move-result-object v0
@@ -783,14 +716,12 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-static {p0}, Lcom/mopub/common/MoPubLifecycleManager;->getInstance(Landroid/app/Activity;)Lcom/mopub/common/MoPubLifecycleManager;
 
     move-result-object v0
 
     invoke-virtual {v0, p0}, Lcom/mopub/common/MoPubLifecycleManager;->onCreate(Landroid/app/Activity;)V
 
-    .line 2
     invoke-static {p0}, Lcom/mopub/common/MoPub;->updateActivity(Landroid/app/Activity;)V
 
     return-void
@@ -803,7 +734,6 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-static {p0}, Lcom/mopub/common/MoPubLifecycleManager;->getInstance(Landroid/app/Activity;)Lcom/mopub/common/MoPubLifecycleManager;
 
     move-result-object v0
@@ -820,7 +750,6 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-static {p0}, Lcom/mopub/common/MoPubLifecycleManager;->getInstance(Landroid/app/Activity;)Lcom/mopub/common/MoPubLifecycleManager;
 
     move-result-object v0
@@ -837,14 +766,12 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-static {p0}, Lcom/mopub/common/MoPubLifecycleManager;->getInstance(Landroid/app/Activity;)Lcom/mopub/common/MoPubLifecycleManager;
 
     move-result-object v0
 
     invoke-virtual {v0, p0}, Lcom/mopub/common/MoPubLifecycleManager;->onRestart(Landroid/app/Activity;)V
 
-    .line 2
     invoke-static {p0}, Lcom/mopub/common/MoPub;->updateActivity(Landroid/app/Activity;)V
 
     return-void
@@ -857,14 +784,12 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-static {p0}, Lcom/mopub/common/MoPubLifecycleManager;->getInstance(Landroid/app/Activity;)Lcom/mopub/common/MoPubLifecycleManager;
 
     move-result-object v0
 
     invoke-virtual {v0, p0}, Lcom/mopub/common/MoPubLifecycleManager;->onResume(Landroid/app/Activity;)V
 
-    .line 2
     invoke-static {p0}, Lcom/mopub/common/MoPub;->updateActivity(Landroid/app/Activity;)V
 
     return-void
@@ -877,14 +802,12 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-static {p0}, Lcom/mopub/common/MoPubLifecycleManager;->getInstance(Landroid/app/Activity;)Lcom/mopub/common/MoPubLifecycleManager;
 
     move-result-object v0
 
     invoke-virtual {v0, p0}, Lcom/mopub/common/MoPubLifecycleManager;->onStart(Landroid/app/Activity;)V
 
-    .line 2
     invoke-static {p0}, Lcom/mopub/common/MoPub;->updateActivity(Landroid/app/Activity;)V
 
     return-void
@@ -897,7 +820,6 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-static {p0}, Lcom/mopub/common/MoPubLifecycleManager;->getInstance(Landroid/app/Activity;)Lcom/mopub/common/MoPubLifecycleManager;
 
     move-result-object v0
@@ -917,18 +839,14 @@
 
     const/4 v0, 0x0
 
-    .line 1
     sput-object v0, Lcom/mopub/common/MoPub;->sAdapterConfigurationManager:Lcom/mopub/common/AdapterConfigurationManager;
 
-    .line 2
     sput-object v0, Lcom/mopub/common/MoPub;->sPersonalInfoManager:Lcom/mopub/common/privacy/PersonalInfoManager;
 
     const/4 v0, 0x0
 
-    .line 3
     sput-boolean v0, Lcom/mopub/common/MoPub;->sSdkInitialized:Z
 
-    .line 4
     sput-boolean v0, Lcom/mopub/common/MoPub;->sSdkInitializing:Z
 
     return-void
@@ -937,12 +855,10 @@
 .method public static setAllowLegitimateInterest(Z)V
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/mopub/common/MoPub;->sPersonalInfoManager:Lcom/mopub/common/privacy/PersonalInfoManager;
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-virtual {v0, p0}, Lcom/mopub/common/privacy/PersonalInfoManager;->setAllowLegitimateInterest(Z)V
 
     :cond_0
@@ -958,10 +874,8 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    .line 1
     invoke-static {p0}, Lcom/mopub/common/Preconditions;->checkNotNull(Ljava/lang/Object;)V
 
-    .line 2
     invoke-virtual {p0}, Lcom/mopub/common/MoPub$BrowserAgent;->toBrowserAgentFromManager()Lcom/mopub/common/BrowserAgentManager$BrowserAgent;
 
     move-result-object p0
@@ -980,10 +894,8 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    .line 1
     invoke-static {p0}, Lcom/mopub/common/Preconditions;->checkNotNull(Ljava/lang/Object;)V
 
-    .line 2
     invoke-virtual {p0}, Lcom/mopub/common/MoPub$BrowserAgent;->toBrowserAgentFromManager()Lcom/mopub/common/BrowserAgentManager$BrowserAgent;
 
     move-result-object p0
@@ -1000,10 +912,8 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-static {p0}, Lcom/mopub/common/Preconditions;->checkNotNull(Ljava/lang/Object;)V
 
-    .line 2
     iget-object v0, p0, Lcom/mopub/common/AppEngineInfo;->mName:Ljava/lang/String;
 
     invoke-static {v0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
@@ -1020,7 +930,6 @@
 
     if-nez v0, :cond_0
 
-    .line 3
     invoke-static {p0}, Lcom/mopub/common/BaseUrlGenerator;->setAppEngineInfo(Lcom/mopub/common/AppEngineInfo;)V
 
     :cond_0
@@ -1034,10 +943,8 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-static {p0}, Lcom/mopub/common/Preconditions;->checkNotNull(Ljava/lang/Object;)V
 
-    .line 2
     invoke-static {}, Lcom/mopub/common/LocationService;->getInstance()Lcom/mopub/common/LocationService;
 
     move-result-object v0
@@ -1050,7 +957,6 @@
 .method public static setLocationPrecision(I)V
     .locals 1
 
-    .line 1
     invoke-static {}, Lcom/mopub/common/LocationService;->getInstance()Lcom/mopub/common/LocationService;
 
     move-result-object v0
@@ -1063,7 +969,6 @@
 .method public static setMinimumLocationRefreshTimeMillis(J)V
     .locals 1
 
-    .line 1
     invoke-static {}, Lcom/mopub/common/LocationService;->getInstance()Lcom/mopub/common/LocationService;
 
     move-result-object v0
@@ -1085,7 +990,6 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    .line 1
     sput-object p0, Lcom/mopub/common/MoPub;->sPersonalInfoManager:Lcom/mopub/common/privacy/PersonalInfoManager;
 
     return-void
@@ -1098,10 +1002,8 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-static {p0}, Lcom/mopub/common/Preconditions;->checkNotNull(Ljava/lang/Object;)V
 
-    .line 2
     invoke-static {p0}, Lcom/mopub/common/BaseUrlGenerator;->setWrapperVersion(Ljava/lang/String;)V
 
     return-void
@@ -1110,7 +1012,6 @@
 .method public static shouldAllowLegitimateInterest()Z
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/mopub/common/MoPub;->sPersonalInfoManager:Lcom/mopub/common/privacy/PersonalInfoManager;
 
     if-eqz v0, :cond_0
@@ -1143,7 +1044,6 @@
 
     const-string v0, "Error while attempting to access the update activity method - this should not have happened"
 
-    .line 1
     sget-boolean v1, Lcom/mopub/common/MoPub;->sSearchedForUpdateActivityMethod:Z
 
     const/4 v2, 0x0
@@ -1152,13 +1052,11 @@
 
     if-nez v1, :cond_0
 
-    .line 2
     sput-boolean v3, Lcom/mopub/common/MoPub;->sSearchedForUpdateActivityMethod:Z
 
     :try_start_0
     const-string v1, "com.mopub.mobileads.MoPubRewardedAdManager"
 
-    .line 3
     invoke-static {v1}, Ljava/lang/Class;->forName(Ljava/lang/String;)Ljava/lang/Class;
 
     move-result-object v1
@@ -1167,7 +1065,6 @@
 
     new-array v5, v3, [Ljava/lang/Class;
 
-    .line 4
     const-class v6, Landroid/app/Activity;
 
     aput-object v6, v5, v2
@@ -1186,7 +1083,6 @@
     :catch_0
     nop
 
-    .line 5
     :cond_0
     :goto_0
     sget-object v1, Lcom/mopub/common/MoPub;->sUpdateActivityMethod:Ljava/lang/reflect/Method;
@@ -1200,7 +1096,6 @@
 
     aput-object p0, v5, v2
 
-    .line 6
     sget-object p0, Lcom/mopub/common/MoPub;->ajc$tjp_0:Lorg/aspectj/lang/c$b;
 
     const/4 v6, 0x0
@@ -1247,7 +1142,6 @@
     :catch_1
     move-exception p0
 
-    .line 7
     sget-object v1, Lcom/mopub/common/logging/MoPubLog$SdkLogEvent;->ERROR_WITH_THROWABLE:Lcom/mopub/common/logging/MoPubLog$SdkLogEvent;
 
     new-array v4, v4, [Ljava/lang/Object;
@@ -1263,7 +1157,6 @@
     :catch_2
     move-exception p0
 
-    .line 8
     sget-object v1, Lcom/mopub/common/logging/MoPubLog$SdkLogEvent;->ERROR_WITH_THROWABLE:Lcom/mopub/common/logging/MoPubLog$SdkLogEvent;
 
     new-array v4, v4, [Ljava/lang/Object;

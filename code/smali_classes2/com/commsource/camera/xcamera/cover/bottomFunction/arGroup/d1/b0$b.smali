@@ -36,7 +36,6 @@
 .method constructor <init>(Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/d1/b0;Ljava/lang/String;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/d1/b0$b;->b:Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/d1/b0;
 
     iput-object p2, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/d1/b0$b;->a:Ljava/lang/String;
@@ -55,7 +54,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Lcom/commsource/camera/ardata/g;
 
     invoke-virtual {p0, p1}, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/d1/b0$b;->c(Lcom/commsource/camera/ardata/g;)V
@@ -72,7 +70,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/d1/b0$b;->b:Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/d1/b0;
 
     invoke-static {v0}, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/d1/b0;->z(Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/d1/b0;)Ljava/lang/String;
@@ -87,7 +84,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 2
     iget-object v0, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/d1/b0$b;->b:Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/d1/b0;
 
     const/4 v1, 0x0
@@ -96,7 +92,6 @@
 
     invoke-static {v0, v1, v2}, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/d1/b0;->D(Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/d1/b0;Lcom/commsource/camera/ardata/g;Ljava/lang/String;)V
 
-    .line 3
     :cond_0
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -110,7 +105,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/d1/b0$b;->b:Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/d1/b0;
 
     invoke-static {v1}, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/d1/b0;->C(Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/d1/b0;)Ljava/util/HashMap;
@@ -121,7 +115,6 @@
 
     invoke-virtual {v1, v2, p1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/d1/b0$b;->b:Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/d1/b0;
 
     invoke-static {v1}, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/d1/b0;->z(Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/d1/b0;)Ljava/lang/String;
@@ -136,14 +129,12 @@
 
     if-eqz v1, :cond_0
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/d1/b0$b;->b:Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/d1/b0;
 
     iget-object v2, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/d1/b0$b;->a:Ljava/lang/String;
 
     invoke-static {v1, p1, v2}, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/d1/b0;->D(Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/d1/b0;Lcom/commsource/camera/ardata/g;Ljava/lang/String;)V
 
-    .line 4
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

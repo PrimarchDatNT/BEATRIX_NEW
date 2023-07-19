@@ -45,7 +45,6 @@
 
     const-string v1, "it"
 
-    .line 1
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {p1}, Landroid/animation/ValueAnimator;->getAnimatedValue()Ljava/lang/Object;
@@ -60,7 +59,6 @@
 
     move-result p1
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/AdjustGuideView$b;->a:Lcom/commsource/studio/AdjustGuideView;
 
     invoke-static {v1}, Lcom/commsource/studio/AdjustGuideView;->e(Lcom/commsource/studio/AdjustGuideView;)Landroid/graphics/RectF;
@@ -79,14 +77,12 @@
 
     iput v2, v1, Landroid/graphics/RectF;->right:F
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/studio/AdjustGuideView$b;->a:Lcom/commsource/studio/AdjustGuideView;
 
     invoke-static {v1}, Lcom/commsource/studio/AdjustGuideView;->k(Lcom/commsource/studio/AdjustGuideView;)Ljava/util/ArrayList;
 
     move-result-object v1
 
-    .line 4
     invoke-interface {v1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v1
@@ -107,7 +103,6 @@
 
     check-cast v2, Lcom/commsource/studio/sub/SubModuleEnum;
 
-    .line 5
     iget-object v4, p0, Lcom/commsource/studio/AdjustGuideView$b;->a:Lcom/commsource/studio/AdjustGuideView;
 
     invoke-static {v4}, Lcom/commsource/studio/AdjustGuideView;->j(Lcom/commsource/studio/AdjustGuideView;)Ljava/util/HashMap;
@@ -126,7 +121,6 @@
 
     if-eqz v4, :cond_0
 
-    .line 6
     iget-object v5, p0, Lcom/commsource/studio/AdjustGuideView$b;->a:Lcom/commsource/studio/AdjustGuideView;
 
     invoke-static {v5}, Lcom/commsource/studio/AdjustGuideView;->i(Lcom/commsource/studio/AdjustGuideView;)Ljava/util/HashMap;
@@ -148,7 +142,6 @@
     :cond_1
     invoke-virtual {v4, v3}, Landroid/view/View;->setTranslationX(F)V
 
-    .line 7
     iget-object v2, p0, Lcom/commsource/studio/AdjustGuideView$b;->a:Lcom/commsource/studio/AdjustGuideView;
 
     invoke-static {v2}, Lcom/commsource/studio/AdjustGuideView;->h(Lcom/commsource/studio/AdjustGuideView;)Lcom/commsource/camera/f1/n;
@@ -163,7 +156,6 @@
 
     goto :goto_0
 
-    .line 8
     :cond_2
     iget-object v1, p0, Lcom/commsource/studio/AdjustGuideView$b;->a:Lcom/commsource/studio/AdjustGuideView;
 
@@ -171,7 +163,6 @@
 
     move-result-object v1
 
-    .line 9
     invoke-interface {v1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v1
@@ -190,7 +181,6 @@
 
     check-cast v2, Lcom/commsource/studio/sub/SubModuleEnum;
 
-    .line 10
     iget-object v4, p0, Lcom/commsource/studio/AdjustGuideView$b;->a:Lcom/commsource/studio/AdjustGuideView;
 
     invoke-static {v4}, Lcom/commsource/studio/AdjustGuideView;->j(Lcom/commsource/studio/AdjustGuideView;)Ljava/util/HashMap;
@@ -232,17 +222,14 @@
     :cond_4
     const/4 v2, 0x0
 
-    .line 11
     :goto_2
     invoke-virtual {v4, v2}, Landroid/view/View;->setTranslationX(F)V
 
     goto :goto_1
 
-    .line 12
     :cond_5
     sget-object v1, Lcom/commsource/studio/sub/SubModuleEnum;->Adjust:Lcom/commsource/studio/sub/SubModuleEnum;
 
-    .line 13
     iget-object v2, p0, Lcom/commsource/studio/AdjustGuideView$b;->a:Lcom/commsource/studio/AdjustGuideView;
 
     invoke-static {v2}, Lcom/commsource/studio/AdjustGuideView;->j(Lcom/commsource/studio/AdjustGuideView;)Ljava/util/HashMap;
@@ -261,7 +248,6 @@
 
     if-eqz v1, :cond_6
 
-    .line 14
     iget-object v2, p0, Lcom/commsource/studio/AdjustGuideView$b;->a:Lcom/commsource/studio/AdjustGuideView;
 
     invoke-static {v2}, Lcom/commsource/studio/AdjustGuideView;->c(Lcom/commsource/studio/AdjustGuideView;)Lcom/commsource/camera/f1/n;
@@ -274,18 +260,15 @@
 
     invoke-virtual {v1, p1}, Landroid/view/View;->setAlpha(F)V
 
-    .line 15
     :cond_6
     iget-object p1, p0, Lcom/commsource/studio/AdjustGuideView$b;->a:Lcom/commsource/studio/AdjustGuideView;
 
     invoke-virtual {p1}, Landroid/widget/FrameLayout;->invalidate()V
 
-    .line 16
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 17
     :cond_7
     new-instance p1, Lcotlin/TypeCastException;
 

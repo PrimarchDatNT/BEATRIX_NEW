@@ -12,7 +12,6 @@
 
     const-string v0, "com.google.android.gms.ads.internal.client.IAdMetadataListener"
 
-    .line 1
     invoke-direct {p0, v0}, Lcom/google/android/gms/internal/ads/l82;-><init>(Ljava/lang/String;)V
 
     return-void
@@ -30,22 +29,18 @@
     :cond_0
     const-string v0, "com.google.android.gms.ads.internal.client.IAdMetadataListener"
 
-    .line 1
     invoke-interface {p0, v0}, Landroid/os/IBinder;->queryLocalInterface(Ljava/lang/String;)Landroid/os/IInterface;
 
     move-result-object v0
 
-    .line 2
     instance-of v1, v0, Lcom/google/android/gms/internal/ads/sn2;
 
     if-eqz v1, :cond_1
 
-    .line 3
     check-cast v0, Lcom/google/android/gms/internal/ads/sn2;
 
     return-object v0
 
-    .line 4
     :cond_1
     new-instance v0, Lcom/google/android/gms/internal/ads/vn2;
 
@@ -68,10 +63,8 @@
 
     if-ne p1, p2, :cond_0
 
-    .line 1
     invoke-interface {p0}, Lcom/google/android/gms/internal/ads/sn2;->X()V
 
-    .line 2
     invoke-virtual {p3}, Landroid/os/Parcel;->writeNoException()V
 
     return p2

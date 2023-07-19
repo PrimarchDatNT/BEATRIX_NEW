@@ -25,7 +25,6 @@
 .method constructor <init>(Lcom/appsflyer/BackgroundHttpTask;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/appsflyer/BackgroundHttpTask$2;->AFDateFormat:Lcom/appsflyer/BackgroundHttpTask;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -38,7 +37,6 @@
 .method public final run()V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/appsflyer/BackgroundHttpTask$2;->AFDateFormat:Lcom/appsflyer/BackgroundHttpTask;
 
     invoke-virtual {v0}, Lcom/appsflyer/BackgroundHttpTask;->doInBackground()Ljava/net/HttpURLConnection;
@@ -47,7 +45,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-virtual {v0}, Ljava/net/HttpURLConnection;->disconnect()V
 
     :cond_0

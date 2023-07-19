@@ -7,7 +7,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -24,7 +23,6 @@
 
     const-string v0, "alarm"
 
-    .line 1
     invoke-virtual {v1, v0}, Landroid/content/Context;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
 
     move-result-object v0
@@ -33,7 +31,6 @@
 
     check-cast v3, Landroid/app/AlarmManager;
 
-    .line 2
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v4
@@ -42,21 +39,17 @@
 
     if-eqz p1, :cond_0
 
-    .line 3
     invoke-static/range {p0 .. p0}, Lf/d/i/e;->G0(Landroid/content/Context;)J
 
     move-result-wide v4
 
     goto :goto_0
 
-    .line 4
     :cond_0
     invoke-static {v1, v4, v5}, Lf/d/i/e;->A3(Landroid/content/Context;J)V
 
-    .line 5
     invoke-static {v1, v6}, Lf/d/i/e;->z3(Landroid/content/Context;I)V
 
-    .line 6
     :goto_0
     new-instance v0, Landroid/content/Intent;
 
@@ -68,34 +61,28 @@
 
     const/4 v9, 0x1
 
-    .line 7
     invoke-virtual {v0, v8, v9}, Landroid/content/Intent;->putExtra(Ljava/lang/String;I)Landroid/content/Intent;
 
     const/high16 v10, 0x10000000
 
-    .line 8
     invoke-static {v1, v6, v0, v10}, Landroid/app/PendingIntent;->getBroadcast(Landroid/content/Context;ILandroid/content/Intent;I)Landroid/app/PendingIntent;
 
     move-result-object v11
 
-    .line 9
     invoke-static {}, Ljava/util/Calendar;->getInstance()Ljava/util/Calendar;
 
     move-result-object v12
 
-    .line 10
     invoke-virtual {v12, v4, v5}, Ljava/util/Calendar;->setTimeInMillis(J)V
 
     const/16 v13, 0xb
 
-    .line 11
     invoke-virtual {v12, v13}, Ljava/util/Calendar;->get(I)I
 
     move-result v13
 
     const/16 v14, 0xc
 
-    .line 12
     invoke-virtual {v12, v14}, Ljava/util/Calendar;->get(I)I
 
     move-result v14
@@ -116,30 +103,24 @@
 
     const/16 v15, 0xd
 
-    .line 13
     invoke-virtual {v12, v15, v14}, Ljava/util/Calendar;->add(II)V
 
-    .line 14
     new-instance v14, Landroid/content/Intent;
 
     invoke-direct {v14, v7}, Landroid/content/Intent;-><init>(Ljava/lang/String;)V
 
     const/4 v7, 0x2
 
-    .line 15
     invoke-virtual {v14, v8, v7}, Landroid/content/Intent;->putExtra(Ljava/lang/String;I)Landroid/content/Intent;
 
-    .line 16
     invoke-static {v1, v9, v14, v10}, Landroid/app/PendingIntent;->getBroadcast(Landroid/content/Context;ILandroid/content/Intent;I)Landroid/app/PendingIntent;
 
     move-result-object v7
 
-    .line 17
     invoke-static {}, Ljava/util/Calendar;->getInstance()Ljava/util/Calendar;
 
     move-result-object v8
 
-    .line 18
     invoke-virtual {v8, v4, v5}, Ljava/util/Calendar;->setTimeInMillis(J)V
 
     add-int/lit16 v13, v13, 0x5a00
@@ -148,17 +129,14 @@
 
     mul-int/lit8 v13, v13, 0x3c
 
-    .line 19
     invoke-virtual {v8, v15, v13}, Ljava/util/Calendar;->add(II)V
 
-    .line 20
     invoke-static/range {p0 .. p0}, Lf/d/i/e;->F0(Landroid/content/Context;)I
 
     move-result v4
 
     if-nez v4, :cond_1
 
-    .line 21
     invoke-virtual {v12}, Ljava/util/Calendar;->getTimeInMillis()J
 
     move-result-wide v15
@@ -171,7 +149,6 @@
 
     if-gtz v5, :cond_1
 
-    .line 22
     invoke-virtual {v8}, Ljava/util/Calendar;->getTimeInMillis()J
 
     move-result-wide v15
@@ -184,13 +161,11 @@
 
     if-lez v5, :cond_1
 
-    .line 23
     invoke-virtual {v1, v0}, Landroid/content/Context;->sendBroadcast(Landroid/content/Intent;)V
 
     :cond_1
     if-eqz v3, :cond_2
 
-    .line 24
     invoke-virtual {v12}, Ljava/util/Calendar;->getTimeInMillis()J
 
     move-result-wide v15
@@ -203,11 +178,9 @@
 
     if-lez v0, :cond_2
 
-    .line 25
     :try_start_0
     invoke-virtual {v3, v11}, Landroid/app/AlarmManager;->cancel(Landroid/app/PendingIntent;)V
 
-    .line 26
     invoke-virtual {v12}, Ljava/util/Calendar;->getTimeInMillis()J
 
     move-result-wide v12
@@ -221,7 +194,6 @@
     :catch_0
     move-exception v0
 
-    .line 27
     invoke-static {v0}, Lcom/meitu/library/util/Debug/Debug;->a0(Ljava/lang/Throwable;)V
 
     :cond_2
@@ -230,7 +202,6 @@
 
     if-ne v4, v9, :cond_4
 
-    .line 28
     :cond_3
     invoke-virtual {v8}, Ljava/util/Calendar;->getTimeInMillis()J
 
@@ -244,13 +215,11 @@
 
     if-gtz v0, :cond_4
 
-    .line 29
     invoke-virtual {v1, v14}, Landroid/content/Context;->sendBroadcast(Landroid/content/Intent;)V
 
     :cond_4
     if-eqz v3, :cond_5
 
-    .line 30
     invoke-virtual {v8}, Ljava/util/Calendar;->getTimeInMillis()J
 
     move-result-wide v0
@@ -263,11 +232,9 @@
 
     if-lez v9, :cond_5
 
-    .line 31
     :try_start_1
     invoke-virtual {v3, v7}, Landroid/app/AlarmManager;->cancel(Landroid/app/PendingIntent;)V
 
-    .line 32
     invoke-virtual {v8}, Ljava/util/Calendar;->getTimeInMillis()J
 
     move-result-wide v0
@@ -281,10 +248,8 @@
     :catch_1
     move-exception v0
 
-    .line 33
     invoke-static {v0}, Lcom/meitu/library/util/Debug/Debug;->a0(Ljava/lang/Throwable;)V
 
-    .line 34
     :cond_5
     :goto_2
     invoke-static {v2}, Lcom/meitu/library/appcia/h/a;->a(I)V

@@ -22,7 +22,6 @@
 .method constructor <init>(Lcom/google/common/util/concurrent/b;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/common/util/concurrent/b$a;->p:Lcom/google/common/util/concurrent/b;
 
     invoke-direct {p0}, Lcom/google/common/util/concurrent/f;-><init>()V
@@ -35,10 +34,8 @@
 .method protected final n()V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/util/concurrent/b$a;->p:Lcom/google/common/util/concurrent/b;
 
-    .line 2
     invoke-virtual {v0}, Lcom/google/common/util/concurrent/b;->k()Ljava/util/concurrent/Executor;
 
     move-result-object v0
@@ -47,12 +44,10 @@
 
     invoke-direct {v1, p0}, Lcom/google/common/util/concurrent/b$a$a;-><init>(Lcom/google/common/util/concurrent/b$a;)V
 
-    .line 3
     invoke-static {v0, v1}, Lcom/google/common/util/concurrent/n0;->t(Ljava/util/concurrent/Executor;Lcom/google/common/base/z;)Ljava/util/concurrent/Executor;
 
     move-result-object v0
 
-    .line 4
     new-instance v1, Lcom/google/common/util/concurrent/b$a$b;
 
     invoke-direct {v1, p0}, Lcom/google/common/util/concurrent/b$a$b;-><init>(Lcom/google/common/util/concurrent/b$a;)V
@@ -65,7 +60,6 @@
 .method protected o()V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/util/concurrent/b$a;->p:Lcom/google/common/util/concurrent/b;
 
     invoke-virtual {v0}, Lcom/google/common/util/concurrent/b;->p()V
@@ -76,7 +70,6 @@
 .method public toString()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/util/concurrent/b$a;->p:Lcom/google/common/util/concurrent/b;
 
     invoke-virtual {v0}, Lcom/google/common/util/concurrent/b;->toString()Ljava/lang/String;

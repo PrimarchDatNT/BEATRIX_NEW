@@ -14,7 +14,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcotlin/jvm/internal/MutablePropertyReference0;-><init>()V
 
     return-void
@@ -27,7 +26,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     invoke-static {}, Lcotlin/jvm/internal/h0;->a()Ljava/lang/Void;
 
     new-instance v0, Lcotlin/KotlinNothingValueException;
@@ -42,7 +40,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     invoke-static {}, Lcotlin/jvm/internal/h0;->a()Ljava/lang/Void;
 
     new-instance v0, Lcotlin/KotlinNothingValueException;
@@ -59,7 +56,6 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-static {}, Lcotlin/jvm/internal/h0;->a()Ljava/lang/Void;
 
     new-instance p1, Lcotlin/KotlinNothingValueException;

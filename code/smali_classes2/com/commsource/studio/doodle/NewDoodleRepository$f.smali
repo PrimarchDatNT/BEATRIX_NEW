@@ -38,7 +38,6 @@
 
     iput-object p1, p0, Lcom/commsource/studio/doodle/NewDoodleRepository$f;->a:Ljava/util/HashMap;
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -69,7 +68,6 @@
 
     goto/16 :goto_3
 
-    .line 1
     :cond_0
     invoke-virtual {p1}, Lcom/commsource/studio/doodle/DoodleMaterial;->getLocalInsertTime()J
 
@@ -87,7 +85,6 @@
 
     if-nez v8, :cond_c
 
-    .line 2
     iget-object v2, p0, Lcom/commsource/studio/doodle/NewDoodleRepository$f;->a:Ljava/util/HashMap;
 
     invoke-virtual {p1}, Lcom/commsource/studio/doodle/DoodleMaterial;->getCategoryId()Ljava/lang/String;
@@ -100,7 +97,6 @@
 
     check-cast v2, Lcom/commsource/studio/doodle/j;
 
-    .line 3
     iget-object v3, p0, Lcom/commsource/studio/doodle/NewDoodleRepository$f;->a:Ljava/util/HashMap;
 
     invoke-virtual {p2}, Lcom/commsource/studio/doodle/DoodleMaterial;->getCategoryId()Ljava/lang/String;
@@ -119,7 +115,6 @@
 
     goto/16 :goto_2
 
-    .line 4
     :cond_1
     invoke-virtual {v2}, Lcom/commsource/studio/doodle/j;->a()Ljava/lang/String;
 
@@ -135,7 +130,6 @@
 
     if-eqz v4, :cond_6
 
-    .line 5
     invoke-virtual {p1}, Lcom/commsource/studio/doodle/DoodleMaterial;->getSort()I
 
     move-result v2
@@ -146,7 +140,6 @@
 
     if-ne v2, v3, :cond_5
 
-    .line 6
     invoke-virtual {p1}, Lcom/commsource/studio/doodle/DoodleMaterial;->isInternal()Z
 
     move-result v2
@@ -161,7 +154,6 @@
 
     goto :goto_0
 
-    .line 7
     :cond_2
     invoke-virtual {p1}, Lcom/commsource/studio/doodle/DoodleMaterial;->isInternal()Z
 
@@ -173,7 +165,6 @@
 
     goto :goto_0
 
-    .line 8
     :cond_3
     invoke-virtual {p2}, Lcom/commsource/studio/doodle/DoodleMaterial;->isInternal()Z
 
@@ -183,14 +174,12 @@
 
     const/4 v1, 0x1
 
-    .line 9
     :cond_4
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
 
-    .line 10
     :cond_5
     invoke-virtual {p1}, Lcom/commsource/studio/doodle/DoodleMaterial;->getSort()I
 
@@ -208,7 +197,6 @@
 
     return p1
 
-    .line 11
     :cond_6
     invoke-virtual {v2}, Lcom/commsource/studio/doodle/j;->c()I
 
@@ -220,7 +208,6 @@
 
     if-ne p1, p2, :cond_a
 
-    .line 12
     invoke-virtual {v2}, Lcom/commsource/studio/doodle/j;->g()Z
 
     move-result p1
@@ -235,7 +222,6 @@
 
     goto :goto_1
 
-    .line 13
     :cond_7
     invoke-virtual {v2}, Lcom/commsource/studio/doodle/j;->g()Z
 
@@ -247,7 +233,6 @@
 
     goto :goto_1
 
-    .line 14
     :cond_8
     invoke-virtual {v3}, Lcom/commsource/studio/doodle/j;->g()Z
 
@@ -257,14 +242,12 @@
 
     const/4 v1, 0x1
 
-    .line 15
     :cond_9
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
 
-    .line 16
     :cond_a
     invoke-virtual {v2}, Lcom/commsource/studio/doodle/j;->c()I
 
@@ -282,14 +265,12 @@
 
     return p1
 
-    .line 17
     :cond_b
     :goto_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
 
-    .line 18
     :cond_c
     invoke-virtual {p1}, Lcom/commsource/studio/doodle/DoodleMaterial;->getLocalInsertTime()J
 
@@ -303,18 +284,15 @@
 
     if-lez v3, :cond_d
 
-    .line 19
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v6
 
-    .line 20
     :cond_d
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v7
 
-    .line 21
     :cond_e
     :goto_3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -329,7 +307,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Lcom/commsource/studio/doodle/DoodleMaterial;
 
     check-cast p2, Lcom/commsource/studio/doodle/DoodleMaterial;

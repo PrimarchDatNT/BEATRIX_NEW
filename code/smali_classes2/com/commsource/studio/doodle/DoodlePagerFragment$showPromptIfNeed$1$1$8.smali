@@ -54,7 +54,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Lcom/meitu/common/animutil/ObjAnim;
 
     invoke-virtual {p0, p1}, Lcom/commsource/studio/doodle/DoodlePagerFragment$showPromptIfNeed$1$1$8;->invoke(Lcom/meitu/common/animutil/ObjAnim;)V
@@ -81,7 +80,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/doodle/DoodlePagerFragment$showPromptIfNeed$1$1$8;->this$0:Lcom/commsource/studio/doodle/DoodlePagerFragment$showPromptIfNeed$1$1;
 
     iget-object v1, v1, Lcom/commsource/studio/doodle/DoodlePagerFragment$showPromptIfNeed$1$1;->this$0:Lcom/commsource/studio/doodle/DoodlePagerFragment$showPromptIfNeed$1;
@@ -104,7 +102,6 @@
 
     const/16 v3, 0xa
 
-    .line 3
     invoke-static {v3}, Lcom/commsource/util/l0;->p(I)F
 
     move-result v4
@@ -127,7 +124,6 @@
 
     new-array v1, v1, [F
 
-    .line 4
     invoke-static {v3}, Lcom/commsource/util/l0;->p(I)F
 
     move-result v2
@@ -148,10 +144,8 @@
 
     const-wide/16 v1, 0x258
 
-    .line 5
     invoke-virtual {p1, v1, v2}, Lcom/meitu/common/animutil/a;->q(J)V
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

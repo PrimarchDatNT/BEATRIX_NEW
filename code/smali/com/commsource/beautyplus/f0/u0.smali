@@ -291,287 +291,230 @@
 
     move-object v0, p0
 
-    .line 1
     invoke-direct {p0, p1, p2, p3}, Landroidx/databinding/ViewDataBinding;-><init>(Ljava/lang/Object;Landroid/view/View;I)V
 
     move-object v1, p4
 
-    .line 2
     iput-object v1, v0, Lcom/commsource/beautyplus/f0/u0;->a:Landroid/widget/RelativeLayout;
 
     move-object v1, p5
 
-    .line 3
     iput-object v1, v0, Lcom/commsource/beautyplus/f0/u0;->b:Landroid/widget/RelativeLayout;
 
     move-object v1, p6
 
-    .line 4
     iput-object v1, v0, Lcom/commsource/beautyplus/f0/u0;->c:Landroidx/constraintlayout/widget/ConstraintLayout;
 
     move-object v1, p7
 
-    .line 5
     iput-object v1, v0, Lcom/commsource/beautyplus/f0/u0;->d:Landroid/widget/FrameLayout;
 
     move-object v1, p8
 
-    .line 6
     iput-object v1, v0, Lcom/commsource/beautyplus/f0/u0;->f:Landroid/widget/FrameLayout;
 
     move-object v1, p9
 
-    .line 7
     iput-object v1, v0, Lcom/commsource/beautyplus/f0/u0;->g:Landroid/widget/FrameLayout;
 
     move-object v1, p10
 
-    .line 8
     iput-object v1, v0, Lcom/commsource/beautyplus/f0/u0;->p:Landroid/widget/FrameLayout;
 
     move-object v1, p11
 
-    .line 9
     iput-object v1, v0, Lcom/commsource/beautyplus/f0/u0;->J:Landroid/widget/ImageView;
 
     move-object v1, p12
 
-    .line 10
     iput-object v1, v0, Lcom/commsource/beautyplus/f0/u0;->K:Lcom/commsource/widget/PressImageView;
 
     move-object v1, p13
 
-    .line 11
     iput-object v1, v0, Lcom/commsource/beautyplus/f0/u0;->L:Landroid/widget/ImageView;
 
     move-object/from16 v1, p14
 
-    .line 12
     iput-object v1, v0, Lcom/commsource/beautyplus/f0/u0;->M:Landroid/widget/ImageView;
 
     move-object/from16 v1, p15
 
-    .line 13
     iput-object v1, v0, Lcom/commsource/beautyplus/f0/u0;->N:Landroid/widget/ImageView;
 
     move-object/from16 v1, p16
 
-    .line 14
     iput-object v1, v0, Lcom/commsource/beautyplus/f0/u0;->O:Landroid/widget/ImageView;
 
     move-object/from16 v1, p17
 
-    .line 15
     iput-object v1, v0, Lcom/commsource/beautyplus/f0/u0;->P:Landroid/widget/LinearLayout;
 
     move-object/from16 v1, p18
 
-    .line 16
     iput-object v1, v0, Lcom/commsource/beautyplus/f0/u0;->Q:Landroid/widget/LinearLayout;
 
     move-object/from16 v1, p19
 
-    .line 17
     iput-object v1, v0, Lcom/commsource/beautyplus/f0/u0;->R:Landroid/widget/LinearLayout;
 
     move-object/from16 v1, p20
 
-    .line 18
     iput-object v1, v0, Lcom/commsource/beautyplus/f0/u0;->S:Landroid/widget/LinearLayout;
 
     move-object/from16 v1, p21
 
-    .line 19
     iput-object v1, v0, Lcom/commsource/beautyplus/f0/u0;->T:Landroid/widget/RelativeLayout;
 
     move-object/from16 v1, p22
 
-    .line 20
     iput-object v1, v0, Lcom/commsource/beautyplus/f0/u0;->U:Landroid/widget/RelativeLayout;
 
     move-object/from16 v1, p23
 
-    .line 21
     iput-object v1, v0, Lcom/commsource/beautyplus/f0/u0;->V:Landroid/widget/RelativeLayout;
 
     move-object/from16 v1, p24
 
-    .line 22
     iput-object v1, v0, Lcom/commsource/beautyplus/f0/u0;->W:Landroid/widget/RelativeLayout;
 
     move-object/from16 v1, p25
 
-    .line 23
     iput-object v1, v0, Lcom/commsource/beautyplus/f0/u0;->X:Landroid/widget/RelativeLayout;
 
     move-object/from16 v1, p26
 
-    .line 24
     iput-object v1, v0, Lcom/commsource/beautyplus/f0/u0;->Y:Landroid/widget/RelativeLayout;
 
     move-object/from16 v1, p27
 
-    .line 25
     iput-object v1, v0, Lcom/commsource/beautyplus/f0/u0;->Z:Landroidx/recyclerview/widget/RecyclerView;
 
     move-object/from16 v1, p28
 
-    .line 26
     iput-object v1, v0, Lcom/commsource/beautyplus/f0/u0;->a0:Landroidx/legacy/widget/Space;
 
     move-object/from16 v1, p29
 
-    .line 27
     iput-object v1, v0, Lcom/commsource/beautyplus/f0/u0;->b0:Lcom/commsource/widget/BoldTextView;
 
     move-object/from16 v1, p30
 
-    .line 28
     iput-object v1, v0, Lcom/commsource/beautyplus/f0/u0;->c0:Lcom/commsource/widget/BoldTextView;
 
     move-object/from16 v1, p31
 
-    .line 29
     iput-object v1, v0, Lcom/commsource/beautyplus/f0/u0;->d0:Lcom/commsource/widget/AutoFitTextView;
 
     move-object/from16 v1, p32
 
-    .line 30
     iput-object v1, v0, Lcom/commsource/beautyplus/f0/u0;->e0:Landroid/widget/TextView;
 
     move-object/from16 v1, p33
 
-    .line 31
     iput-object v1, v0, Lcom/commsource/beautyplus/f0/u0;->f0:Lcom/commsource/widget/AutoFitTextView;
 
     move-object/from16 v1, p34
 
-    .line 32
     iput-object v1, v0, Lcom/commsource/beautyplus/f0/u0;->g0:Lcom/commsource/widget/AutoFitTextView;
 
     move-object/from16 v1, p35
 
-    .line 33
     iput-object v1, v0, Lcom/commsource/beautyplus/f0/u0;->h0:Lcom/commsource/widget/BoldTextView;
 
     move-object/from16 v1, p36
 
-    .line 34
     iput-object v1, v0, Lcom/commsource/beautyplus/f0/u0;->i0:Landroid/widget/TextView;
 
     move-object/from16 v1, p37
 
-    .line 35
     iput-object v1, v0, Lcom/commsource/beautyplus/f0/u0;->j0:Lcom/commsource/widget/BoldTextView;
 
     move-object/from16 v1, p38
 
-    .line 36
     iput-object v1, v0, Lcom/commsource/beautyplus/f0/u0;->k0:Lcom/commsource/widget/AutoFitTextView;
 
     move-object/from16 v1, p39
 
-    .line 37
     iput-object v1, v0, Lcom/commsource/beautyplus/f0/u0;->l0:Lcom/commsource/widget/AutoFitTextView;
 
     move-object/from16 v1, p40
 
-    .line 38
     iput-object v1, v0, Lcom/commsource/beautyplus/f0/u0;->m0:Lcom/commsource/widget/GradientTextView;
 
     move-object/from16 v1, p41
 
-    .line 39
     iput-object v1, v0, Lcom/commsource/beautyplus/f0/u0;->n0:Landroid/widget/TextView;
 
     move-object/from16 v1, p42
 
-    .line 40
     iput-object v1, v0, Lcom/commsource/beautyplus/f0/u0;->o0:Landroid/widget/TextView;
 
     move-object/from16 v1, p43
 
-    .line 41
     iput-object v1, v0, Lcom/commsource/beautyplus/f0/u0;->p0:Landroid/widget/TextView;
 
     move-object/from16 v1, p44
 
-    .line 42
     iput-object v1, v0, Lcom/commsource/beautyplus/f0/u0;->q0:Lcom/commsource/widget/BoldTextView;
 
     move-object/from16 v1, p45
 
-    .line 43
     iput-object v1, v0, Lcom/commsource/beautyplus/f0/u0;->r0:Lcom/commsource/widget/PressTextView;
 
     move-object/from16 v1, p46
 
-    .line 44
     iput-object v1, v0, Lcom/commsource/beautyplus/f0/u0;->s0:Lcom/commsource/widget/BoldTextView;
 
     move-object/from16 v1, p47
 
-    .line 45
     iput-object v1, v0, Lcom/commsource/beautyplus/f0/u0;->t0:Landroid/widget/TextView;
 
     move-object/from16 v1, p48
 
-    .line 46
     iput-object v1, v0, Lcom/commsource/beautyplus/f0/u0;->u0:Landroid/widget/TextView;
 
     move-object/from16 v1, p49
 
-    .line 47
     iput-object v1, v0, Lcom/commsource/beautyplus/f0/u0;->v0:Lcom/commsource/widget/AutoFitTextView;
 
     move-object/from16 v1, p50
 
-    .line 48
     iput-object v1, v0, Lcom/commsource/beautyplus/f0/u0;->w0:Lcom/commsource/widget/AutoFitTextView;
 
     move-object/from16 v1, p51
 
-    .line 49
     iput-object v1, v0, Lcom/commsource/beautyplus/f0/u0;->x0:Landroid/widget/TextView;
 
     move-object/from16 v1, p52
 
-    .line 50
     iput-object v1, v0, Lcom/commsource/beautyplus/f0/u0;->y0:Lcom/commsource/widget/BoldTextView;
 
     move-object/from16 v1, p53
 
-    .line 51
     iput-object v1, v0, Lcom/commsource/beautyplus/f0/u0;->z0:Lcom/commsource/widget/BoldTextView;
 
     move-object/from16 v1, p54
 
-    .line 52
     iput-object v1, v0, Lcom/commsource/beautyplus/f0/u0;->A0:Landroid/widget/ImageView;
 
     move-object/from16 v1, p55
 
-    .line 53
     iput-object v1, v0, Lcom/commsource/beautyplus/f0/u0;->B0:Lcom/commsource/widget/round/RoundFrameLayout;
 
     move-object/from16 v1, p56
 
-    .line 54
     iput-object v1, v0, Lcom/commsource/beautyplus/f0/u0;->C0:Landroid/widget/RelativeLayout;
 
     move-object/from16 v1, p57
 
-    .line 55
     iput-object v1, v0, Lcom/commsource/beautyplus/f0/u0;->D0:Landroid/view/View;
 
     move-object/from16 v1, p58
 
-    .line 56
     iput-object v1, v0, Lcom/commsource/beautyplus/f0/u0;->E0:Lcom/commsource/widget/round/RoundFrameLayout;
 
     move-object/from16 v1, p59
 
-    .line 57
     iput-object v1, v0, Lcom/commsource/beautyplus/f0/u0;->F0:Landroidx/databinding/ViewStubProxy;
 
     return-void
@@ -584,7 +527,6 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-static {}, Landroidx/databinding/DataBindingUtil;->getDefaultComponent()Landroidx/databinding/DataBindingComponent;
 
     move-result-object v0
@@ -611,7 +553,6 @@
 
     sget v0, Lcom/res/provider/ResLAYOUT;->activity_pro:I
 
-    .line 1
     invoke-static {p1, p0, v0}, Landroidx/databinding/ViewDataBinding;->bind(Ljava/lang/Object;Landroid/view/View;I)Landroidx/databinding/ViewDataBinding;
 
     move-result-object p0
@@ -630,7 +571,6 @@
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
-    .line 1
     invoke-static {}, Landroidx/databinding/DataBindingUtil;->getDefaultComponent()Landroidx/databinding/DataBindingComponent;
 
     move-result-object v0
@@ -655,7 +595,6 @@
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
-    .line 1
     invoke-static {}, Landroidx/databinding/DataBindingUtil;->getDefaultComponent()Landroidx/databinding/DataBindingComponent;
 
     move-result-object v0
@@ -689,7 +628,6 @@
 
     sget v0, Lcom/res/provider/ResLAYOUT;->activity_pro:I
 
-    .line 1
     invoke-static {p0, v0, p1, p2, p3}, Landroidx/databinding/ViewDataBinding;->inflateInternal(Landroid/view/LayoutInflater;ILandroid/view/ViewGroup;ZLjava/lang/Object;)Landroidx/databinding/ViewDataBinding;
 
     move-result-object p0
@@ -721,7 +659,6 @@
 
     const/4 v2, 0x0
 
-    .line 1
     invoke-static {p0, v0, v1, v2, p1}, Landroidx/databinding/ViewDataBinding;->inflateInternal(Landroid/view/LayoutInflater;ILandroid/view/ViewGroup;ZLjava/lang/Object;)Landroidx/databinding/ViewDataBinding;
 
     move-result-object p0

@@ -38,7 +38,6 @@
 
     const/4 v1, 0x1
 
-    .line 1
     invoke-direct {p0, v0, v1, v0}, Lcom/commsource/repository/OnlineLocalMaterialCompator;-><init>(Ljava/lang/String;ILcotlin/jvm/internal/u;)V
 
     return-void
@@ -75,7 +74,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p1
@@ -99,7 +97,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/studio/formula/FormulaRepo;->x:Lcom/commsource/studio/formula/FormulaRepo;
 
     invoke-static {v1}, Lcom/commsource/studio/formula/FormulaRepo;->q(Lcom/commsource/studio/formula/FormulaRepo;)Lf/k/i0/a/v;
@@ -154,7 +151,6 @@
 
     if-eqz p1, :cond_1
 
-    .line 1
     sget-object v3, Lcom/commsource/studio/formula/FormulaRepo;->x:Lcom/commsource/studio/formula/FormulaRepo;
 
     invoke-static {v3}, Lcom/commsource/studio/formula/FormulaRepo;->q(Lcom/commsource/studio/formula/FormulaRepo;)Lf/k/i0/a/v;
@@ -163,7 +159,6 @@
 
     new-array v4, v2, [Lcom/commsource/studio/formula/FormulaCategory;
 
-    .line 2
     invoke-interface {p1, v4}, Ljava/util/Collection;->toArray([Ljava/lang/Object;)[Ljava/lang/Object;
 
     move-result-object p1
@@ -172,12 +167,10 @@
 
     check-cast p1, [Lcom/commsource/studio/formula/FormulaCategory;
 
-    .line 3
     invoke-interface {v3, p1}, Lf/k/i0/a/v;->Z([Lcom/commsource/studio/formula/FormulaCategory;)V
 
     goto :goto_0
 
-    .line 4
     :cond_0
     new-instance p1, Ljava/lang/NullPointerException;
 
@@ -191,7 +184,6 @@
     :goto_0
     if-eqz p2, :cond_3
 
-    .line 5
     sget-object p1, Lcom/commsource/studio/formula/FormulaRepo;->x:Lcom/commsource/studio/formula/FormulaRepo;
 
     invoke-static {p1}, Lcom/commsource/studio/formula/FormulaRepo;->q(Lcom/commsource/studio/formula/FormulaRepo;)Lf/k/i0/a/v;
@@ -200,7 +192,6 @@
 
     new-array v3, v2, [Lcom/commsource/studio/formula/FormulaCategory;
 
-    .line 6
     invoke-interface {p2, v3}, Ljava/util/Collection;->toArray([Ljava/lang/Object;)[Ljava/lang/Object;
 
     move-result-object p2
@@ -209,12 +200,10 @@
 
     check-cast p2, [Lcom/commsource/studio/formula/FormulaCategory;
 
-    .line 7
     invoke-interface {p1, p2}, Lf/k/i0/a/v;->O2([Lcom/commsource/studio/formula/FormulaCategory;)V
 
     goto :goto_1
 
-    .line 8
     :cond_2
     new-instance p1, Ljava/lang/NullPointerException;
 
@@ -228,7 +217,6 @@
     :goto_1
     if-eqz p3, :cond_5
 
-    .line 9
     sget-object p1, Lcom/commsource/studio/formula/FormulaRepo;->x:Lcom/commsource/studio/formula/FormulaRepo;
 
     invoke-static {p1}, Lcom/commsource/studio/formula/FormulaRepo;->q(Lcom/commsource/studio/formula/FormulaRepo;)Lf/k/i0/a/v;
@@ -237,7 +225,6 @@
 
     new-array p2, v2, [Lcom/commsource/studio/formula/FormulaCategory;
 
-    .line 10
     invoke-interface {p3, p2}, Ljava/util/Collection;->toArray([Ljava/lang/Object;)[Ljava/lang/Object;
 
     move-result-object p2
@@ -246,12 +233,10 @@
 
     check-cast p2, [Lcom/commsource/studio/formula/FormulaCategory;
 
-    .line 11
     invoke-interface {p1, p2}, Lf/k/i0/a/v;->O([Lcom/commsource/studio/formula/FormulaCategory;)V
 
     goto :goto_2
 
-    .line 12
     :cond_4
     new-instance p1, Ljava/lang/NullPointerException;
 
@@ -261,7 +246,6 @@
 
     throw p1
 
-    .line 13
     :cond_5
     :goto_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

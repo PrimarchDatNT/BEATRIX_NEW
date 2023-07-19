@@ -25,7 +25,6 @@
 
     return-void
 
-    .line 1
     :cond_0
     new-instance p0, Ljava/lang/IllegalStateException;
 
@@ -59,13 +58,11 @@
 
     return-void
 
-    .line 1
     :cond_0
     invoke-interface {p1}, Lcotlin/jvm/u/a;->invoke()Ljava/lang/Object;
 
     move-result-object p0
 
-    .line 2
     new-instance p1, Ljava/lang/IllegalStateException;
 
     invoke-virtual {p0}, Ljava/lang/Object;->toString()Ljava/lang/String;
@@ -94,7 +91,6 @@
 
     return-object p0
 
-    .line 1
     :cond_0
     new-instance p0, Ljava/lang/IllegalStateException;
 
@@ -130,13 +126,11 @@
 
     return-object p0
 
-    .line 1
     :cond_0
     invoke-interface {p1}, Lcotlin/jvm/u/a;->invoke()Ljava/lang/Object;
 
     move-result-object p0
 
-    .line 2
     new-instance p1, Ljava/lang/IllegalStateException;
 
     invoke-virtual {p0}, Ljava/lang/Object;->toString()Ljava/lang/String;
@@ -153,7 +147,6 @@
     .annotation build Lcotlin/internal/f;
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/lang/IllegalStateException;
 
     invoke-virtual {p0}, Ljava/lang/Object;->toString()Ljava/lang/String;
@@ -174,7 +167,6 @@
 
     return-void
 
-    .line 1
     :cond_0
     new-instance p0, Ljava/lang/IllegalArgumentException;
 
@@ -208,13 +200,11 @@
 
     return-void
 
-    .line 1
     :cond_0
     invoke-interface {p1}, Lcotlin/jvm/u/a;->invoke()Ljava/lang/Object;
 
     move-result-object p0
 
-    .line 2
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
     invoke-virtual {p0}, Ljava/lang/Object;->toString()Ljava/lang/String;
@@ -243,7 +233,6 @@
 
     return-object p0
 
-    .line 1
     :cond_0
     new-instance p0, Ljava/lang/IllegalArgumentException;
 
@@ -279,13 +268,11 @@
 
     return-object p0
 
-    .line 1
     :cond_0
     invoke-interface {p1}, Lcotlin/jvm/u/a;->invoke()Ljava/lang/Object;
 
     move-result-object p0
 
-    .line 2
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
     invoke-virtual {p0}, Ljava/lang/Object;->toString()Ljava/lang/String;

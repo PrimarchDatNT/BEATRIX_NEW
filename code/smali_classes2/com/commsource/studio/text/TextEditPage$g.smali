@@ -47,7 +47,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/text/TextEditPage$g;->a:Lcom/commsource/beautyplus/f0/mm;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/mm;->f:Landroid/widget/EditText;
@@ -60,7 +59,6 @@
 
     invoke-direct {v2, v1}, Lcom/commsource/studio/text/c;-><init>(Landroid/widget/EditText;)V
 
-    .line 2
     iget-object v3, p0, Lcom/commsource/studio/text/TextEditPage$g;->a:Lcom/commsource/beautyplus/f0/mm;
 
     iget-object v3, v3, Lcom/commsource/beautyplus/f0/mm;->f:Landroid/widget/EditText;
@@ -103,10 +101,8 @@
 
     invoke-virtual {v3, v5, v4}, Landroid/widget/EditText;->setTextSize(IF)V
 
-    .line 3
     invoke-virtual {v1, v2}, Landroid/widget/EditText;->addTextChangedListener(Landroid/text/TextWatcher;)V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

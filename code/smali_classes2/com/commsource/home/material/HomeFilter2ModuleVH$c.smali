@@ -19,7 +19,6 @@
 .method constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Landroidx/recyclerview/widget/RecyclerView$ItemDecoration;-><init>()V
 
     return-void
@@ -68,21 +67,18 @@
 
     const/high16 p2, 0x3fc00000    # 1.5f
 
-    .line 1
     invoke-static {p2}, Lcom/meitu/library/p/f/i;->d(F)I
 
     move-result p3
 
     iput p3, p1, Landroid/graphics/Rect;->right:I
 
-    .line 2
     invoke-static {p2}, Lcom/meitu/library/p/f/i;->d(F)I
 
     move-result p2
 
     iput p2, p1, Landroid/graphics/Rect;->left:I
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

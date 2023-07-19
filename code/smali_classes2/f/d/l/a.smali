@@ -52,7 +52,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -65,7 +64,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lf/d/l/a;->e:Lf/d/l/a$e;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -80,7 +78,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lf/d/l/a;->c:Landroid/location/Geocoder;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -95,7 +92,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lf/d/l/a;->c:Landroid/location/Geocoder;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -110,24 +106,20 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
     move-result-object v1
 
-    .line 2
     invoke-static {}, Lcom/commsource/util/x;->C()Z
 
     move-result v10
 
-    .line 3
     new-instance v12, Lcom/meitu/countrylocation/h;
 
     invoke-static {v1}, Lf/d/i/e;->U0(Landroid/content/Context;)Ljava/lang/String;
 
     move-result-object v4
 
-    .line 4
     invoke-static {v1}, Lcom/commsource/util/x;->n(Landroid/content/Context;)Ljava/lang/String;
 
     move-result-object v7
@@ -148,7 +140,6 @@
     :goto_0
     const/4 v9, 0x0
 
-    .line 5
     invoke-static {v1}, Lcom/commsource/widget/q0;->e(Landroid/content/Context;)Z
 
     move-result v11
@@ -163,7 +154,6 @@
 
     invoke-direct/range {v2 .. v11}, Lcom/meitu/countrylocation/h;-><init>(Ljava/lang/String;Ljava/lang/String;ILjava/lang/String;Ljava/lang/String;IZIZ)V
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v12
@@ -180,7 +170,6 @@
 
     new-array v1, v1, [Lcom/meitu/countrylocation/Localizer$Type;
 
-    .line 1
     sget-object v2, Lcom/meitu/countrylocation/Localizer$Type;->SIM:Lcom/meitu/countrylocation/Localizer$Type;
 
     const/4 v3, 0x0
@@ -199,22 +188,18 @@
 
     aput-object v2, v1, v3
 
-    .line 2
     invoke-static {}, Lcom/commsource/util/x;->C()Z
 
     move-result v12
 
-    .line 3
     new-instance v2, Lcom/meitu/countrylocation/f;
 
     new-instance v3, Lcom/meitu/countrylocation/h;
 
-    .line 4
     invoke-static {p1}, Lf/d/i/e;->U0(Landroid/content/Context;)Ljava/lang/String;
 
     move-result-object v6
 
-    .line 5
     invoke-static {p1}, Lcom/commsource/util/x;->n(Landroid/content/Context;)Ljava/lang/String;
 
     move-result-object v9
@@ -235,7 +220,6 @@
     :goto_0
     const/4 v11, 0x0
 
-    .line 6
     invoke-static {p1}, Lcom/commsource/widget/q0;->e(Landroid/content/Context;)Z
 
     move-result v13
@@ -252,17 +236,14 @@
 
     invoke-direct {v2, p1, v3, v1}, Lcom/meitu/countrylocation/f;-><init>(Landroid/content/Context;Lcom/meitu/countrylocation/h;[Lcom/meitu/countrylocation/Localizer$Type;)V
 
-    .line 7
     new-instance v1, Lf/d/l/a$a;
 
     invoke-direct {v1, p0, p1}, Lf/d/l/a$a;-><init>(Lf/d/l/a;Landroid/content/Context;)V
 
     invoke-virtual {v2, v1}, Lcom/meitu/countrylocation/Localizer;->h(Lcom/meitu/countrylocation/g;)V
 
-    .line 8
     invoke-virtual {v2}, Lcom/meitu/countrylocation/f;->i()V
 
-    .line 9
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -277,10 +258,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lf/d/l/a;->e:Lf/d/l/a$e;
 
-    .line 2
     iget-object p1, p0, Lf/d/l/a;->d:Ljava/util/List;
 
     if-eqz p1, :cond_0
@@ -291,7 +270,6 @@
 
     if-eqz p1, :cond_1
 
-    .line 3
     :cond_0
     new-instance p1, Ljava/util/ArrayList;
 
@@ -301,17 +279,14 @@
 
     const-string v1, "android.permission.ACCESS_FINE_LOCATION"
 
-    .line 4
     invoke-interface {p1, v1}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
-    .line 5
     iget-object p1, p0, Lf/d/l/a;->d:Ljava/util/List;
 
     const-string v1, "android.permission.ACCESS_COARSE_LOCATION"
 
     invoke-interface {p1, v1}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
-    .line 6
     :cond_1
     iget-object p1, p0, Lf/d/l/a;->d:Ljava/util/List;
 
@@ -332,7 +307,6 @@
 
     check-cast v1, Ljava/lang/String;
 
-    .line 7
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
     move-result-object v2
@@ -343,38 +317,32 @@
 
     if-eqz v1, :cond_2
 
-    .line 8
     iget-object p1, p0, Lf/d/l/a;->e:Lf/d/l/a$e;
 
     const/4 v1, 0x4
 
     invoke-interface {p1, v1}, Lf/d/l/a$e;->a(I)V
 
-    .line 9
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 10
     :cond_3
     iget-object p1, p0, Lf/d/l/a;->a:Lcom/meitu/countrylocation/h;
 
     if-nez p1, :cond_4
 
-    .line 11
     invoke-direct {p0}, Lf/d/l/a;->d()Lcom/meitu/countrylocation/h;
 
     move-result-object p1
 
     iput-object p1, p0, Lf/d/l/a;->a:Lcom/meitu/countrylocation/h;
 
-    .line 12
     :cond_4
     iget-object p1, p0, Lf/d/l/a;->b:Lcom/meitu/countrylocation/GpsLocalizer;
 
     if-nez p1, :cond_5
 
-    .line 13
     new-instance p1, Lcom/meitu/countrylocation/GpsLocalizer;
 
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
@@ -387,20 +355,17 @@
 
     iput-object p1, p0, Lf/d/l/a;->b:Lcom/meitu/countrylocation/GpsLocalizer;
 
-    .line 14
     new-instance v1, Lf/d/l/a$c;
 
     invoke-direct {v1, p0}, Lf/d/l/a$c;-><init>(Lf/d/l/a;)V
 
     invoke-virtual {p1, v1}, Lcom/meitu/countrylocation/Localizer;->h(Lcom/meitu/countrylocation/g;)V
 
-    .line 15
     :cond_5
     iget-object p1, p0, Lf/d/l/a;->b:Lcom/meitu/countrylocation/GpsLocalizer;
 
     invoke-virtual {p1}, Lcom/meitu/countrylocation/GpsLocalizer;->i()V
 
-    .line 16
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -417,29 +382,24 @@
 
     new-array v1, v1, [Lcom/meitu/countrylocation/Localizer$Type;
 
-    .line 1
     sget-object v2, Lcom/meitu/countrylocation/Localizer$Type;->IP:Lcom/meitu/countrylocation/Localizer$Type;
 
     const/4 v3, 0x0
 
     aput-object v2, v1, v3
 
-    .line 2
     invoke-static {}, Lcom/commsource/util/x;->C()Z
 
     move-result v12
 
-    .line 3
     new-instance v2, Lcom/meitu/countrylocation/f;
 
     new-instance v3, Lcom/meitu/countrylocation/h;
 
-    .line 4
     invoke-static {p1}, Lf/d/i/e;->U0(Landroid/content/Context;)Ljava/lang/String;
 
     move-result-object v6
 
-    .line 5
     invoke-static {p1}, Lcom/commsource/util/x;->n(Landroid/content/Context;)Ljava/lang/String;
 
     move-result-object v9
@@ -460,7 +420,6 @@
     :goto_0
     const/4 v11, 0x0
 
-    .line 6
     invoke-static {p1}, Lcom/commsource/widget/q0;->e(Landroid/content/Context;)Z
 
     move-result v13
@@ -481,13 +440,10 @@
 
     move-object/from16 v1, p2
 
-    .line 7
     invoke-virtual {v2, v1}, Lcom/meitu/countrylocation/Localizer;->h(Lcom/meitu/countrylocation/g;)V
 
-    .line 8
     invoke-virtual {v2}, Lcom/meitu/countrylocation/f;->i()V
 
-    .line 9
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -504,19 +460,16 @@
 
     new-array v1, v1, [Lcom/meitu/countrylocation/Localizer$Type;
 
-    .line 1
     sget-object v2, Lcom/meitu/countrylocation/Localizer$Type;->IP:Lcom/meitu/countrylocation/Localizer$Type;
 
     const/4 v3, 0x0
 
     aput-object v2, v1, v3
 
-    .line 2
     invoke-static {}, Lcom/commsource/util/x;->C()Z
 
     move-result v12
 
-    .line 3
     new-instance v2, Lcom/meitu/countrylocation/f;
 
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
@@ -525,7 +478,6 @@
 
     new-instance v14, Lcom/meitu/countrylocation/h;
 
-    .line 4
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
     move-result-object v4
@@ -534,7 +486,6 @@
 
     move-result-object v6
 
-    .line 5
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
     move-result-object v4
@@ -559,7 +510,6 @@
     :goto_0
     const/4 v11, 0x0
 
-    .line 6
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
     move-result-object v4
@@ -580,17 +530,14 @@
 
     invoke-direct {v2, v3, v14, v1}, Lcom/meitu/countrylocation/f;-><init>(Landroid/content/Context;Lcom/meitu/countrylocation/h;[Lcom/meitu/countrylocation/Localizer$Type;)V
 
-    .line 7
     new-instance v1, Lf/d/l/a$b;
 
     invoke-direct {v1, p0}, Lf/d/l/a$b;-><init>(Lf/d/l/a;)V
 
     invoke-virtual {v2, v1}, Lcom/meitu/countrylocation/Localizer;->h(Lcom/meitu/countrylocation/g;)V
 
-    .line 8
     invoke-virtual {v2}, Lcom/meitu/countrylocation/f;->i()V
 
-    .line 9
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -603,12 +550,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/countrylocation/l/c;->j(Landroid/content/Context;)Ljava/lang/String;
 
     move-result-object v1
 
-    .line 2
     invoke-static {p1}, Lf/d/i/e;->o0(Landroid/content/Context;)Z
 
     move-result v2
@@ -617,15 +562,12 @@
 
     if-eqz v2, :cond_0
 
-    .line 3
     invoke-direct {p0, p1}, Lf/d/l/a;->e(Landroid/content/Context;)V
 
     const/4 v1, 0x0
 
-    .line 4
     invoke-static {p1, v1}, Lf/d/i/e;->V3(Landroid/content/Context;Z)V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -633,7 +575,6 @@
     :cond_0
     if-eqz v2, :cond_1
 
-    .line 6
     invoke-static {p1}, Lcom/commsource/util/c0;->d(Landroid/content/Context;)Lcom/meitu/countrylocation/LocationBean;
 
     move-result-object v2
@@ -648,21 +589,17 @@
 
     if-nez v1, :cond_2
 
-    .line 7
     invoke-direct {p0, p1}, Lf/d/l/a;->e(Landroid/content/Context;)V
 
     goto :goto_0
 
-    .line 8
     :cond_1
     invoke-direct {p0, p1}, Lf/d/l/a;->e(Landroid/content/Context;)V
 
     const/4 v1, 0x1
 
-    .line 9
     invoke-static {p1, v1}, Lf/d/i/e;->V3(Landroid/content/Context;Z)V
 
-    .line 10
     :cond_2
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -679,30 +616,22 @@
 
     const/4 v1, 0x0
 
-    .line 1
     iput-object v1, p0, Lf/d/l/a;->e:Lf/d/l/a$e;
 
-    .line 2
     iput-object v1, p0, Lf/d/l/a;->a:Lcom/meitu/countrylocation/h;
 
-    .line 3
     iput-object v1, p0, Lf/d/l/a;->b:Lcom/meitu/countrylocation/GpsLocalizer;
 
-    .line 4
     iput-object v1, p0, Lf/d/l/a;->c:Landroid/location/Geocoder;
 
-    .line 5
     iget-object v2, p0, Lf/d/l/a;->d:Ljava/util/List;
 
     if-eqz v2, :cond_0
 
-    .line 6
     invoke-interface {v2}, Ljava/util/List;->clear()V
 
-    .line 7
     iput-object v1, p0, Lf/d/l/a;->d:Ljava/util/List;
 
-    .line 8
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

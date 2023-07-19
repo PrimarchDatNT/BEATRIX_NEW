@@ -42,7 +42,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/widget/LineSelectView$b;->a:Lcom/commsource/widget/LineSelectView;
 
     invoke-static {v1}, Lcom/commsource/widget/LineSelectView;->e(Lcom/commsource/widget/LineSelectView;)I
@@ -53,7 +52,6 @@
 
     invoke-virtual {v1, v2, v3}, Lcom/commsource/widget/LineSelectView;->i(IZ)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

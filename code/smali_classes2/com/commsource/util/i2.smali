@@ -25,7 +25,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/commsource/util/i2;
 
     invoke-direct {v1}, Lcom/commsource/util/i2;-><init>()V
@@ -40,7 +39,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -55,7 +53,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/meitu/library/p/d/a;->e()I
 
     move-result v1
@@ -74,7 +71,6 @@
 
     goto :goto_1
 
-    .line 2
     :cond_0
     invoke-static {p2}, Ljava/lang/Math;->abs(I)I
 
@@ -84,7 +80,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_1
     invoke-static {p2}, Ljava/lang/Math;->abs(I)I
 
@@ -96,7 +91,6 @@
     :goto_0
     const/4 v2, 0x1
 
-    .line 4
     :cond_3
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -111,7 +105,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/commsource/util/i2$a;
 
     const-string v2, "fetchNewestVersion"
@@ -120,7 +113,6 @@
 
     invoke-static {v1}, Lcom/commsource/util/c2;->g(Lcom/commsource/util/u2/a;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -133,7 +125,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lf/d/i/e;->w0()Ljava/lang/String;
 
     move-result-object v1
@@ -144,7 +135,6 @@
 
     if-eqz v1, :cond_1
 
-    .line 2
     invoke-interface {v1}, Ljava/lang/CharSequence;->length()I
 
     move-result v4
@@ -165,7 +155,6 @@
     :goto_1
     if-eqz v4, :cond_2
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v3
@@ -173,7 +162,6 @@
     :cond_2
     const-string v4, "7.5.020"
 
-    .line 4
     invoke-static {v4, v1}, Lcom/commsource/util/x;->f(Ljava/lang/String;Ljava/lang/String;)I
 
     move-result v1

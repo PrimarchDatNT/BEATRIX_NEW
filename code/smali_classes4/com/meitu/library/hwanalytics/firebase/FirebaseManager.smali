@@ -23,7 +23,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/meitu/library/hwanalytics/firebase/FirebaseManager;
 
     invoke-direct {v1}, Lcom/meitu/library/hwanalytics/firebase/FirebaseManager;-><init>()V
@@ -38,7 +37,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -51,7 +49,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/meitu/library/hwanalytics/firebase/FirebaseManager;->b(Ljava/lang/String;)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -66,19 +63,16 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/meitu/library/k/d/a/k;->b:Lcom/meitu/library/k/d/a/k;
 
     const-string v2, "deleteAllPropertyCache"
 
     invoke-virtual {v1, v2}, Lcom/meitu/library/k/d/a/k;->e(Ljava/lang/String;)V
 
-    .line 2
     sget-object v1, Lcom/meitu/library/hwanalytics/firebase/b;->e:Lcom/meitu/library/hwanalytics/firebase/b;
 
     invoke-virtual {v1}, Lcom/meitu/library/hwanalytics/firebase/b;->a()V
 
-    .line 3
     new-instance v1, Lorg/json/JSONObject;
 
     invoke-direct {v1}, Lorg/json/JSONObject;-><init>()V
@@ -86,7 +80,6 @@
     :try_start_0
     const-string v3, "gid"
 
-    .line 4
     invoke-virtual {v1, v3, p1}, Lorg/json/JSONObject;->put(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;
     :try_end_0
     .catch Lorg/json/JSONException; {:try_start_0 .. :try_end_0} :catch_0
@@ -96,10 +89,8 @@
     :catch_0
     move-exception p1
 
-    .line 5
     invoke-virtual {p1}, Lorg/json/JSONException;->printStackTrace()V
 
-    .line 6
     sget-object v3, Lcom/meitu/library/k/d/a/k;->b:Lcom/meitu/library/k/d/a/k;
 
     new-instance v4, Ljava/lang/StringBuilder;
@@ -116,7 +107,6 @@
 
     invoke-virtual {v3, p1}, Lcom/meitu/library/k/d/a/k;->c(Ljava/lang/String;)V
 
-    .line 7
     :goto_0
     sget-object p1, Lcom/meitu/library/hwanalytics/firebase/b;->e:Lcom/meitu/library/hwanalytics/firebase/b;
 
@@ -130,7 +120,6 @@
 
     invoke-virtual {p1, v1}, Lcom/meitu/library/hwanalytics/firebase/b;->c(Ljava/lang/String;)V
 
-    .line 8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -147,7 +136,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/meitu/library/hwanalytics/firebase/FirebaseManager;->a:Lcom/google/firebase/analytics/FirebaseAnalytics;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -176,24 +164,20 @@
 
     invoke-static {p2, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     sget-object v1, Lcom/meitu/library/hwanalytics/firebase/FirebaseManager;->a:Lcom/google/firebase/analytics/FirebaseAnalytics;
 
     if-nez v1, :cond_0
 
-    .line 2
     invoke-static {p2}, Lcom/google/firebase/analytics/FirebaseAnalytics;->getInstance(Landroid/content/Context;)Lcom/google/firebase/analytics/FirebaseAnalytics;
 
     move-result-object v1
 
     sput-object v1, Lcom/meitu/library/hwanalytics/firebase/FirebaseManager;->a:Lcom/google/firebase/analytics/FirebaseAnalytics;
 
-    .line 3
     sget-object v1, Lcom/meitu/library/hwanalytics/firebase/b;->e:Lcom/meitu/library/hwanalytics/firebase/b;
 
     invoke-virtual {v1, p2}, Lcom/meitu/library/hwanalytics/firebase/b;->b(Landroid/content/Context;)V
 
-    .line 4
     :cond_0
     sget-object p2, Lcom/meitu/library/k/e/a;->m:Lcom/meitu/library/k/e/a;
 
@@ -203,12 +187,10 @@
 
     if-nez p2, :cond_1
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 6
     :cond_1
     invoke-static {p1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
@@ -216,12 +198,10 @@
 
     if-eqz p2, :cond_2
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 8
     :cond_2
     invoke-static {}, Lcom/google/firebase/firestore/q;->o()Lcom/google/firebase/firestore/q;
 
@@ -231,7 +211,6 @@
 
     invoke-static {p2, v1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 9
     new-instance v1, Lcom/google/firebase/firestore/r$b;
 
     invoke-direct {v1}, Lcom/google/firebase/firestore/r$b;-><init>()V
@@ -250,19 +229,16 @@
 
     const-string v1, "overlimit_user"
 
-    .line 10
     invoke-virtual {p2, v1}, Lcom/google/firebase/firestore/q;->c(Ljava/lang/String;)Lcom/google/firebase/firestore/d;
 
     move-result-object p2
 
     const-string v1, "id"
 
-    .line 11
     invoke-virtual {p2, v1, p1}, Lcom/google/firebase/firestore/Query;->L(Ljava/lang/String;Ljava/lang/Object;)Lcom/google/firebase/firestore/Query;
 
     move-result-object p2
 
-    .line 12
     invoke-static {}, Ljava/util/concurrent/Executors;->newSingleThreadExecutor()Ljava/util/concurrent/ExecutorService;
 
     move-result-object v1
@@ -273,7 +249,6 @@
 
     invoke-virtual {p2, v1, v2}, Lcom/google/firebase/firestore/Query;->e(Ljava/util/concurrent/Executor;Lcom/google/firebase/firestore/i;)Lcom/google/firebase/firestore/w;
 
-    .line 13
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -302,14 +277,12 @@
 
     invoke-static {p2, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     sget-object v1, Lcom/meitu/library/hwanalytics/firebase/FirebaseManager;->a:Lcom/google/firebase/analytics/FirebaseAnalytics;
 
     if-eqz v1, :cond_0
 
     invoke-virtual {v1, p1, p2}, Lcom/google/firebase/analytics/FirebaseAnalytics;->b(Ljava/lang/String;Landroid/os/Bundle;)V
 
-    .line 2
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -323,21 +296,18 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/meitu/library/k/d/a/k;->b:Lcom/meitu/library/k/d/a/k;
 
     const-string v2, "recoveryProperties"
 
     invoke-virtual {v1, v2}, Lcom/meitu/library/k/d/a/k;->e(Ljava/lang/String;)V
 
-    .line 2
     sget-object v1, Lcom/meitu/library/hwanalytics/firebase/b;->e:Lcom/meitu/library/hwanalytics/firebase/b;
 
     sget-object v2, Lcom/meitu/library/hwanalytics/firebase/FirebaseManager$recoveryProperties$1;->INSTANCE:Lcom/meitu/library/hwanalytics/firebase/FirebaseManager$recoveryProperties$1;
 
     invoke-virtual {v1, v2}, Lcom/meitu/library/hwanalytics/firebase/b;->d(Lcotlin/jvm/u/l;)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -354,7 +324,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sput-object p1, Lcom/meitu/library/hwanalytics/firebase/FirebaseManager;->a:Lcom/google/firebase/analytics/FirebaseAnalytics;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -387,7 +356,6 @@
 
     invoke-static {p2, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     :try_start_0
     sget-object v1, Lcom/meitu/library/hwanalytics/firebase/FirebaseManager;->a:Lcom/google/firebase/analytics/FirebaseAnalytics;
 
@@ -395,16 +363,13 @@
 
     invoke-virtual {v1, p1, p2}, Lcom/google/firebase/analytics/FirebaseAnalytics;->h(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 2
     :cond_0
     new-instance v1, Lorg/json/JSONObject;
 
     invoke-direct {v1}, Lorg/json/JSONObject;-><init>()V
 
-    .line 3
     invoke-virtual {v1, p1, p2}, Lorg/json/JSONObject;->put(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;
 
-    .line 4
     sget-object p1, Lcom/meitu/library/hwanalytics/firebase/b;->e:Lcom/meitu/library/hwanalytics/firebase/b;
 
     invoke-virtual {v1}, Lorg/json/JSONObject;->toString()Ljava/lang/String;
@@ -424,7 +389,6 @@
     :catch_0
     move-exception p1
 
-    .line 5
     sget-object p2, Lcom/meitu/library/k/d/a/k;->b:Lcom/meitu/library/k/d/a/k;
 
     new-instance v1, Ljava/lang/StringBuilder;
@@ -443,7 +407,6 @@
 
     invoke-virtual {p2, p1}, Lcom/meitu/library/k/d/a/k;->c(Ljava/lang/String;)V
 
-    .line 6
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

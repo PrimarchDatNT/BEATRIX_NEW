@@ -58,10 +58,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lio/grpc/stub/g$j;->a:Lio/grpc/stub/g$i;
 
     return-void
@@ -70,7 +68,6 @@
 .method static synthetic b(Lio/grpc/stub/g$j;)Lio/grpc/stub/g$i;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lio/grpc/stub/g$j;->a:Lio/grpc/stub/g$i;
 
     return-object p0
@@ -92,7 +89,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p1}, Lio/grpc/k1;->d()Lio/grpc/MethodDescriptor;
 
     move-result-object p2
@@ -107,20 +103,16 @@
 
     const-string v0, "asyncUnaryRequestCall is only for clientSendsOneMessage methods"
 
-    .line 2
     invoke-static {p2, v0}, Lcom/google/common/base/t;->e(ZLjava/lang/Object;)V
 
-    .line 3
     new-instance p2, Lio/grpc/stub/g$d;
 
     invoke-direct {p2, p1}, Lio/grpc/stub/g$d;-><init>(Lio/grpc/k1;)V
 
     const/4 v0, 0x2
 
-    .line 4
     invoke-virtual {p1, v0}, Lio/grpc/k1;->g(I)V
 
-    .line 5
     new-instance v0, Lio/grpc/stub/g$j$a;
 
     invoke-direct {v0, p0, p2, p1}, Lio/grpc/stub/g$j$a;-><init>(Lio/grpc/stub/g$j;Lio/grpc/stub/g$d;Lio/grpc/k1;)V

@@ -11,7 +11,6 @@
 .method constructor <init>(Lcom/google/android/gms/internal/measurement/x0;Landroid/os/Handler;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/android/gms/internal/measurement/z0;->a:Lcom/google/android/gms/internal/measurement/x0;
 
     const/4 p1, 0x0
@@ -26,7 +25,6 @@
 .method public final onChange(Z)V
     .locals 0
 
-    .line 1
     iget-object p1, p0, Lcom/google/android/gms/internal/measurement/z0;->a:Lcom/google/android/gms/internal/measurement/x0;
 
     invoke-virtual {p1}, Lcom/google/android/gms/internal/measurement/x0;->d()V

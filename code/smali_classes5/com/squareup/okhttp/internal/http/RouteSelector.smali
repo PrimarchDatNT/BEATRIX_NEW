@@ -51,37 +51,30 @@
 .method public constructor <init>(Lcom/squareup/okhttp/Address;Lcom/squareup/okhttp/internal/RouteDatabase;)V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     invoke-static {}, Ljava/util/Collections;->emptyList()Ljava/util/List;
 
     move-result-object v0
 
     iput-object v0, p0, Lcom/squareup/okhttp/internal/http/RouteSelector;->proxies:Ljava/util/List;
 
-    .line 3
     invoke-static {}, Ljava/util/Collections;->emptyList()Ljava/util/List;
 
     move-result-object v0
 
     iput-object v0, p0, Lcom/squareup/okhttp/internal/http/RouteSelector;->inetSocketAddresses:Ljava/util/List;
 
-    .line 4
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
 
     iput-object v0, p0, Lcom/squareup/okhttp/internal/http/RouteSelector;->postponedRoutes:Ljava/util/List;
 
-    .line 5
     iput-object p1, p0, Lcom/squareup/okhttp/internal/http/RouteSelector;->address:Lcom/squareup/okhttp/Address;
 
-    .line 6
     iput-object p2, p0, Lcom/squareup/okhttp/internal/http/RouteSelector;->routeDatabase:Lcom/squareup/okhttp/internal/RouteDatabase;
 
-    .line 7
     invoke-virtual {p1}, Lcom/squareup/okhttp/Address;->url()Lcom/squareup/okhttp/HttpUrl;
 
     move-result-object p2
@@ -98,21 +91,18 @@
 .method static getHostString(Ljava/net/InetSocketAddress;)Ljava/lang/String;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Ljava/net/InetSocketAddress;->getAddress()Ljava/net/InetAddress;
 
     move-result-object v0
 
     if-nez v0, :cond_0
 
-    .line 2
     invoke-virtual {p0}, Ljava/net/InetSocketAddress;->getHostName()Ljava/lang/String;
 
     move-result-object p0
 
     return-object p0
 
-    .line 3
     :cond_0
     invoke-virtual {v0}, Ljava/net/InetAddress;->getHostAddress()Ljava/lang/String;
 
@@ -124,7 +114,6 @@
 .method private hasNextInetSocketAddress()Z
     .locals 2
 
-    .line 1
     iget v0, p0, Lcom/squareup/okhttp/internal/http/RouteSelector;->nextInetSocketAddressIndex:I
 
     iget-object v1, p0, Lcom/squareup/okhttp/internal/http/RouteSelector;->inetSocketAddresses:Ljava/util/List;
@@ -149,7 +138,6 @@
 .method private hasNextPostponed()Z
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/squareup/okhttp/internal/http/RouteSelector;->postponedRoutes:Ljava/util/List;
 
     invoke-interface {v0}, Ljava/util/List;->isEmpty()Z
@@ -164,7 +152,6 @@
 .method private hasNextProxy()Z
     .locals 2
 
-    .line 1
     iget v0, p0, Lcom/squareup/okhttp/internal/http/RouteSelector;->nextProxyIndex:I
 
     iget-object v1, p0, Lcom/squareup/okhttp/internal/http/RouteSelector;->proxies:Ljava/util/List;
@@ -194,14 +181,12 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Lcom/squareup/okhttp/internal/http/RouteSelector;->hasNextInetSocketAddress()Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
-    .line 2
     iget-object v0, p0, Lcom/squareup/okhttp/internal/http/RouteSelector;->inetSocketAddresses:Ljava/util/List;
 
     iget v1, p0, Lcom/squareup/okhttp/internal/http/RouteSelector;->nextInetSocketAddressIndex:I
@@ -218,7 +203,6 @@
 
     return-object v0
 
-    .line 3
     :cond_0
     new-instance v0, Ljava/net/SocketException;
 
@@ -258,7 +242,6 @@
 .method private nextPostponed()Lcom/squareup/okhttp/Route;
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/squareup/okhttp/internal/http/RouteSelector;->postponedRoutes:Ljava/util/List;
 
     const/4 v1, 0x0
@@ -280,14 +263,12 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Lcom/squareup/okhttp/internal/http/RouteSelector;->hasNextProxy()Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
-    .line 2
     iget-object v0, p0, Lcom/squareup/okhttp/internal/http/RouteSelector;->proxies:Ljava/util/List;
 
     iget v1, p0, Lcom/squareup/okhttp/internal/http/RouteSelector;->nextProxyIndex:I
@@ -302,12 +283,10 @@
 
     check-cast v0, Ljava/net/Proxy;
 
-    .line 3
     invoke-direct {p0, v0}, Lcom/squareup/okhttp/internal/http/RouteSelector;->resetNextInetSocketAddress(Ljava/net/Proxy;)V
 
     return-object v0
 
-    .line 4
     :cond_0
     new-instance v0, Ljava/net/SocketException;
 
@@ -352,14 +331,12 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
 
     iput-object v0, p0, Lcom/squareup/okhttp/internal/http/RouteSelector;->inetSocketAddresses:Ljava/util/List;
 
-    .line 2
     invoke-virtual {p1}, Ljava/net/Proxy;->type()Ljava/net/Proxy$Type;
 
     move-result-object v0
@@ -378,33 +355,27 @@
 
     goto :goto_0
 
-    .line 3
     :cond_0
     invoke-virtual {p1}, Ljava/net/Proxy;->address()Ljava/net/SocketAddress;
 
     move-result-object v0
 
-    .line 4
     instance-of v1, v0, Ljava/net/InetSocketAddress;
 
     if-eqz v1, :cond_1
 
-    .line 5
     check-cast v0, Ljava/net/InetSocketAddress;
 
-    .line 6
     invoke-static {v0}, Lcom/squareup/okhttp/internal/http/RouteSelector;->getHostString(Ljava/net/InetSocketAddress;)Ljava/lang/String;
 
     move-result-object v1
 
-    .line 7
     invoke-virtual {v0}, Ljava/net/InetSocketAddress;->getPort()I
 
     move-result v0
 
     goto :goto_1
 
-    .line 8
     :cond_1
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -416,7 +387,6 @@
 
     invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 9
     invoke-virtual {v0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
     move-result-object v0
@@ -431,7 +401,6 @@
 
     throw p1
 
-    .line 10
     :cond_2
     :goto_0
     iget-object v0, p0, Lcom/squareup/okhttp/internal/http/RouteSelector;->address:Lcom/squareup/okhttp/Address;
@@ -440,7 +409,6 @@
 
     move-result-object v1
 
-    .line 11
     iget-object v0, p0, Lcom/squareup/okhttp/internal/http/RouteSelector;->address:Lcom/squareup/okhttp/Address;
 
     invoke-virtual {v0}, Lcom/squareup/okhttp/Address;->getUriPort()I
@@ -456,7 +424,6 @@
 
     if-gt v0, v2, :cond_5
 
-    .line 12
     invoke-virtual {p1}, Ljava/net/Proxy;->type()Ljava/net/Proxy$Type;
 
     move-result-object p1
@@ -467,7 +434,6 @@
 
     if-ne p1, v2, :cond_3
 
-    .line 13
     iget-object p1, p0, Lcom/squareup/okhttp/internal/http/RouteSelector;->inetSocketAddresses:Ljava/util/List;
 
     invoke-static {v1, v0}, Ljava/net/InetSocketAddress;->createUnresolved(Ljava/lang/String;I)Ljava/net/InetSocketAddress;
@@ -478,7 +444,6 @@
 
     goto :goto_3
 
-    .line 14
     :cond_3
     iget-object p1, p0, Lcom/squareup/okhttp/internal/http/RouteSelector;->address:Lcom/squareup/okhttp/Address;
 
@@ -490,7 +455,6 @@
 
     move-result-object p1
 
-    .line 15
     invoke-interface {p1}, Ljava/util/List;->size()I
 
     move-result v1
@@ -500,14 +464,12 @@
     :goto_2
     if-ge v2, v1, :cond_4
 
-    .line 16
     invoke-interface {p1, v2}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object v4
 
     check-cast v4, Ljava/net/InetAddress;
 
-    .line 17
     iget-object v5, p0, Lcom/squareup/okhttp/internal/http/RouteSelector;->inetSocketAddresses:Ljava/util/List;
 
     new-instance v6, Ljava/net/InetSocketAddress;
@@ -520,14 +482,12 @@
 
     goto :goto_2
 
-    .line 18
     :cond_4
     :goto_3
     iput v3, p0, Lcom/squareup/okhttp/internal/http/RouteSelector;->nextInetSocketAddressIndex:I
 
     return-void
 
-    .line 19
     :cond_5
     new-instance p1, Ljava/net/SocketException;
 
@@ -565,7 +525,6 @@
 
     if-eqz p2, :cond_0
 
-    .line 1
     invoke-static {p2}, Ljava/util/Collections;->singletonList(Ljava/lang/Object;)Ljava/util/List;
 
     move-result-object p1
@@ -574,7 +533,6 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     new-instance p2, Ljava/util/ArrayList;
 
@@ -582,7 +540,6 @@
 
     iput-object p2, p0, Lcom/squareup/okhttp/internal/http/RouteSelector;->proxies:Ljava/util/List;
 
-    .line 3
     iget-object p2, p0, Lcom/squareup/okhttp/internal/http/RouteSelector;->address:Lcom/squareup/okhttp/Address;
 
     invoke-virtual {p2}, Lcom/squareup/okhttp/Address;->getProxySelector()Ljava/net/ProxySelector;
@@ -599,12 +556,10 @@
 
     if-eqz p1, :cond_1
 
-    .line 4
     iget-object p2, p0, Lcom/squareup/okhttp/internal/http/RouteSelector;->proxies:Ljava/util/List;
 
     invoke-interface {p2, p1}, Ljava/util/List;->addAll(Ljava/util/Collection;)Z
 
-    .line 5
     :cond_1
     iget-object p1, p0, Lcom/squareup/okhttp/internal/http/RouteSelector;->proxies:Ljava/util/List;
 
@@ -616,7 +571,6 @@
 
     invoke-interface {p1, p2}, Ljava/util/List;->removeAll(Ljava/util/Collection;)Z
 
-    .line 6
     iget-object p1, p0, Lcom/squareup/okhttp/internal/http/RouteSelector;->proxies:Ljava/util/List;
 
     sget-object p2, Ljava/net/Proxy;->NO_PROXY:Ljava/net/Proxy;
@@ -626,7 +580,6 @@
     :goto_0
     const/4 p1, 0x0
 
-    .line 7
     iput p1, p0, Lcom/squareup/okhttp/internal/http/RouteSelector;->nextProxyIndex:I
 
     return-void
@@ -637,7 +590,6 @@
 .method public connectFailed(Lcom/squareup/okhttp/Route;Ljava/io/IOException;)V
     .locals 3
 
-    .line 1
     invoke-virtual {p1}, Lcom/squareup/okhttp/Route;->getProxy()Ljava/net/Proxy;
 
     move-result-object v0
@@ -658,7 +610,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 2
     iget-object v0, p0, Lcom/squareup/okhttp/internal/http/RouteSelector;->address:Lcom/squareup/okhttp/Address;
 
     invoke-virtual {v0}, Lcom/squareup/okhttp/Address;->getProxySelector()Ljava/net/ProxySelector;
@@ -667,7 +618,6 @@
 
     iget-object v1, p0, Lcom/squareup/okhttp/internal/http/RouteSelector;->address:Lcom/squareup/okhttp/Address;
 
-    .line 3
     invoke-virtual {v1}, Lcom/squareup/okhttp/Address;->url()Lcom/squareup/okhttp/HttpUrl;
 
     move-result-object v1
@@ -684,10 +634,8 @@
 
     move-result-object v2
 
-    .line 4
     invoke-virtual {v0, v1, v2, p2}, Ljava/net/ProxySelector;->connectFailed(Ljava/net/URI;Ljava/net/SocketAddress;Ljava/io/IOException;)V
 
-    .line 5
     :cond_0
     iget-object p2, p0, Lcom/squareup/okhttp/internal/http/RouteSelector;->routeDatabase:Lcom/squareup/okhttp/internal/RouteDatabase;
 
@@ -699,21 +647,18 @@
 .method public hasNext()Z
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Lcom/squareup/okhttp/internal/http/RouteSelector;->hasNextInetSocketAddress()Z
 
     move-result v0
 
     if-nez v0, :cond_1
 
-    .line 2
     invoke-direct {p0}, Lcom/squareup/okhttp/internal/http/RouteSelector;->hasNextProxy()Z
 
     move-result v0
 
     if-nez v0, :cond_1
 
-    .line 3
     invoke-direct {p0}, Lcom/squareup/okhttp/internal/http/RouteSelector;->hasNextPostponed()Z
 
     move-result v0
@@ -743,35 +688,30 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Lcom/squareup/okhttp/internal/http/RouteSelector;->hasNextInetSocketAddress()Z
 
     move-result v0
 
     if-nez v0, :cond_2
 
-    .line 2
     invoke-direct {p0}, Lcom/squareup/okhttp/internal/http/RouteSelector;->hasNextProxy()Z
 
     move-result v0
 
     if-nez v0, :cond_1
 
-    .line 3
     invoke-direct {p0}, Lcom/squareup/okhttp/internal/http/RouteSelector;->hasNextPostponed()Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
-    .line 4
     invoke-direct {p0}, Lcom/squareup/okhttp/internal/http/RouteSelector;->nextPostponed()Lcom/squareup/okhttp/Route;
 
     move-result-object v0
 
     return-object v0
 
-    .line 5
     :cond_0
     new-instance v0, Ljava/util/NoSuchElementException;
 
@@ -779,7 +719,6 @@
 
     throw v0
 
-    .line 6
     :cond_1
     invoke-direct {p0}, Lcom/squareup/okhttp/internal/http/RouteSelector;->nextProxy()Ljava/net/Proxy;
 
@@ -787,7 +726,6 @@
 
     iput-object v0, p0, Lcom/squareup/okhttp/internal/http/RouteSelector;->lastProxy:Ljava/net/Proxy;
 
-    .line 7
     :cond_2
     invoke-direct {p0}, Lcom/squareup/okhttp/internal/http/RouteSelector;->nextInetSocketAddress()Ljava/net/InetSocketAddress;
 
@@ -795,7 +733,6 @@
 
     iput-object v0, p0, Lcom/squareup/okhttp/internal/http/RouteSelector;->lastInetSocketAddress:Ljava/net/InetSocketAddress;
 
-    .line 8
     new-instance v1, Lcom/squareup/okhttp/Route;
 
     iget-object v2, p0, Lcom/squareup/okhttp/internal/http/RouteSelector;->address:Lcom/squareup/okhttp/Address;
@@ -804,7 +741,6 @@
 
     invoke-direct {v1, v2, v3, v0}, Lcom/squareup/okhttp/Route;-><init>(Lcom/squareup/okhttp/Address;Ljava/net/Proxy;Ljava/net/InetSocketAddress;)V
 
-    .line 9
     iget-object v0, p0, Lcom/squareup/okhttp/internal/http/RouteSelector;->routeDatabase:Lcom/squareup/okhttp/internal/RouteDatabase;
 
     invoke-virtual {v0, v1}, Lcom/squareup/okhttp/internal/RouteDatabase;->shouldPostpone(Lcom/squareup/okhttp/Route;)Z
@@ -813,12 +749,10 @@
 
     if-eqz v0, :cond_3
 
-    .line 10
     iget-object v0, p0, Lcom/squareup/okhttp/internal/http/RouteSelector;->postponedRoutes:Ljava/util/List;
 
     invoke-interface {v0, v1}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
-    .line 11
     invoke-virtual {p0}, Lcom/squareup/okhttp/internal/http/RouteSelector;->next()Lcom/squareup/okhttp/Route;
 
     move-result-object v0

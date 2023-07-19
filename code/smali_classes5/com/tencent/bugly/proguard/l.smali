@@ -11,7 +11,6 @@
 
     new-array v0, v0, [B
 
-    .line 1
     fill-array-data v0, :array_0
 
     const/16 v1, 0x100
@@ -27,14 +26,12 @@
 
     ushr-int/lit8 v5, v4, 0x4
 
-    .line 2
     aget-byte v5, v0, v5
 
     aput-byte v5, v2, v4
 
     and-int/lit8 v5, v4, 0xf
 
-    .line 3
     aget-byte v5, v0, v5
 
     aput-byte v5, v3, v4
@@ -102,7 +99,6 @@
 .method public static a(Ljava/lang/Object;Ljava/lang/Object;)Z
     .locals 0
 
-    .line 1
     invoke-virtual {p0, p1}, Ljava/lang/Object;->equals(Ljava/lang/Object;)Z
 
     move-result p0
@@ -128,14 +124,12 @@
 .method public static a(Ljava/nio/ByteBuffer;)[B
     .locals 3
 
-    .line 2
     invoke-virtual {p0}, Ljava/nio/ByteBuffer;->position()I
 
     move-result v0
 
     new-array v1, v0, [B
 
-    .line 3
     invoke-virtual {p0}, Ljava/nio/ByteBuffer;->array()[B
 
     move-result-object p0

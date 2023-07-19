@@ -11,10 +11,8 @@
 .method public constructor <init>(Lcom/google/android/gms/ads/u$a;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/google/android/gms/internal/ads/hp2;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/google/android/gms/internal/ads/c;->b:Lcom/google/android/gms/ads/u$a;
 
     return-void
@@ -25,7 +23,6 @@
 .method public final i6(Z)V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/c;->b:Lcom/google/android/gms/ads/u$a;
 
     invoke-virtual {v0, p1}, Lcom/google/android/gms/ads/u$a;->onVideoMute(Z)V
@@ -36,7 +33,6 @@
 .method public final onVideoEnd()V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/c;->b:Lcom/google/android/gms/ads/u$a;
 
     invoke-virtual {v0}, Lcom/google/android/gms/ads/u$a;->onVideoEnd()V
@@ -47,7 +43,6 @@
 .method public final onVideoPause()V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/c;->b:Lcom/google/android/gms/ads/u$a;
 
     invoke-virtual {v0}, Lcom/google/android/gms/ads/u$a;->onVideoPause()V
@@ -58,7 +53,6 @@
 .method public final onVideoPlay()V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/c;->b:Lcom/google/android/gms/ads/u$a;
 
     invoke-virtual {v0}, Lcom/google/android/gms/ads/u$a;->onVideoPlay()V
@@ -69,7 +63,6 @@
 .method public final onVideoStart()V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/c;->b:Lcom/google/android/gms/ads/u$a;
 
     invoke-virtual {v0}, Lcom/google/android/gms/ads/u$a;->onVideoStart()V

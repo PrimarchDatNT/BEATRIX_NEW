@@ -27,14 +27,12 @@
 
     const-string v0, "dummySurface"
 
-    .line 1
     invoke-direct {p0, v0}, Landroid/os/HandlerThread;-><init>(Ljava/lang/String;)V
 
     const/4 v0, 0x1
 
     new-array v0, v0, [I
 
-    .line 2
     iput-object v0, p0, Lcom/google/android/gms/internal/ads/wg2;->a:[I
 
     return-void
@@ -45,7 +43,6 @@
 .method public final a()V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/wg2;->b:Landroid/os/Handler;
 
     const/4 v1, 0x3
@@ -58,10 +55,8 @@
 .method public final b(Z)Lcom/google/android/gms/internal/ads/zzpv;
     .locals 3
 
-    .line 1
     invoke-virtual {p0}, Landroid/os/HandlerThread;->start()V
 
-    .line 2
     new-instance v0, Landroid/os/Handler;
 
     invoke-virtual {p0}, Landroid/os/HandlerThread;->getLooper()Landroid/os/Looper;
@@ -72,10 +67,8 @@
 
     iput-object v0, p0, Lcom/google/android/gms/internal/ads/wg2;->b:Landroid/os/Handler;
 
-    .line 3
     monitor-enter p0
 
-    .line 4
     :try_start_0
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/wg2;->b:Landroid/os/Handler;
 
@@ -99,7 +92,6 @@
 
     invoke-virtual {p1}, Landroid/os/Message;->sendToTarget()V
 
-    .line 5
     :goto_1
     iget-object p1, p0, Lcom/google/android/gms/internal/ads/wg2;->g:Lcom/google/android/gms/internal/ads/zzpv;
 
@@ -115,7 +107,6 @@
 
     if-nez p1, :cond_1
 
-    .line 6
     :try_start_1
     invoke-virtual {p0}, Ljava/lang/Object;->wait()V
     :try_end_1
@@ -129,7 +120,6 @@
 
     goto :goto_1
 
-    .line 7
     :cond_1
     :try_start_2
     monitor-exit p0
@@ -138,41 +128,34 @@
 
     if-eqz v2, :cond_2
 
-    .line 8
     invoke-static {}, Ljava/lang/Thread;->currentThread()Ljava/lang/Thread;
 
     move-result-object p1
 
     invoke-virtual {p1}, Ljava/lang/Thread;->interrupt()V
 
-    .line 9
     :cond_2
     iget-object p1, p0, Lcom/google/android/gms/internal/ads/wg2;->f:Ljava/lang/RuntimeException;
 
     if-nez p1, :cond_4
 
-    .line 10
     iget-object p1, p0, Lcom/google/android/gms/internal/ads/wg2;->d:Ljava/lang/Error;
 
     if-nez p1, :cond_3
 
-    .line 11
     iget-object p1, p0, Lcom/google/android/gms/internal/ads/wg2;->g:Lcom/google/android/gms/internal/ads/zzpv;
 
     return-object p1
 
-    .line 12
     :cond_3
     throw p1
 
-    .line 13
     :cond_4
     throw p1
 
     :catchall_0
     move-exception p1
 
-    .line 14
     :try_start_3
     monitor-exit p0
     :try_end_3
@@ -188,7 +171,6 @@
 
     move-object/from16 v0, p1
 
-    .line 1
     iget v2, v0, Landroid/os/Message;->what:I
 
     const/4 v3, 0x0
@@ -209,7 +191,6 @@
 
     return v7
 
-    .line 2
     :cond_0
     :try_start_0
     iget-object v0, v1, Lcom/google/android/gms/internal/ads/wg2;->c:Landroid/graphics/SurfaceTexture;
@@ -218,21 +199,17 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 3
     :try_start_1
     iput-object v3, v1, Lcom/google/android/gms/internal/ads/wg2;->g:Lcom/google/android/gms/internal/ads/zzpv;
 
-    .line 4
     iput-object v3, v1, Lcom/google/android/gms/internal/ads/wg2;->c:Landroid/graphics/SurfaceTexture;
 
-    .line 5
     iget-object v0, v1, Lcom/google/android/gms/internal/ads/wg2;->a:[I
 
     invoke-static {v7, v0, v6}, Landroid/opengl/GLES20;->glDeleteTextures(I[II)V
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_1
 
-    .line 6
     invoke-virtual/range {p0 .. p0}, Landroid/os/HandlerThread;->quit()Z
 
     goto :goto_0
@@ -240,19 +217,15 @@
     :catchall_0
     move-exception v0
 
-    .line 7
     :try_start_2
     iput-object v3, v1, Lcom/google/android/gms/internal/ads/wg2;->g:Lcom/google/android/gms/internal/ads/zzpv;
 
-    .line 8
     iput-object v3, v1, Lcom/google/android/gms/internal/ads/wg2;->c:Landroid/graphics/SurfaceTexture;
 
-    .line 9
     iget-object v2, v1, Lcom/google/android/gms/internal/ads/wg2;->a:[I
 
     invoke-static {v7, v2, v6}, Landroid/opengl/GLES20;->glDeleteTextures(I[II)V
 
-    .line 10
     throw v0
     :try_end_2
     .catchall {:try_start_2 .. :try_end_2} :catchall_1
@@ -265,12 +238,10 @@
 
     const-string v3, "Failed to release dummy surface"
 
-    .line 11
     invoke-static {v2, v3, v0}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
     :try_end_3
     .catchall {:try_start_3 .. :try_end_3} :catchall_2
 
-    .line 12
     invoke-virtual/range {p0 .. p0}, Landroid/os/HandlerThread;->quit()Z
 
     :goto_0
@@ -279,13 +250,10 @@
     :catchall_2
     move-exception v0
 
-    .line 13
     invoke-virtual/range {p0 .. p0}, Landroid/os/HandlerThread;->quit()Z
 
-    .line 14
     throw v0
 
-    .line 15
     :cond_1
     iget-object v0, v1, Lcom/google/android/gms/internal/ads/wg2;->c:Landroid/graphics/SurfaceTexture;
 
@@ -293,7 +261,6 @@
 
     return v7
 
-    .line 16
     :cond_2
     :try_start_4
     iget v0, v0, Landroid/os/Message;->arg1:I
@@ -307,7 +274,6 @@
     :cond_3
     const/4 v0, 0x0
 
-    .line 17
     :goto_1
     invoke-static {v6}, Landroid/opengl/EGL14;->eglGetDisplay(I)Landroid/opengl/EGLDisplay;
 
@@ -325,19 +291,16 @@
     :goto_2
     const-string v9, "eglGetDisplay failed"
 
-    .line 18
     invoke-static {v8, v9}, Lcom/google/android/gms/internal/ads/cg2;->f(ZLjava/lang/Object;)V
 
     new-array v8, v5, [I
 
-    .line 19
     invoke-static {v2, v8, v6, v8, v7}, Landroid/opengl/EGL14;->eglInitialize(Landroid/opengl/EGLDisplay;[II[II)Z
 
     move-result v8
 
     const-string v9, "eglInitialize failed"
 
-    .line 20
     invoke-static {v8, v9}, Lcom/google/android/gms/internal/ads/cg2;->f(ZLjava/lang/Object;)V
 
     const/16 v8, 0x11
@@ -454,14 +417,12 @@
 
     move/from16 v15, v21
 
-    .line 21
     invoke-static/range {v8 .. v15}, Landroid/opengl/EGL14;->eglChooseConfig(Landroid/opengl/EGLDisplay;[II[Landroid/opengl/EGLConfig;II[II)Z
 
     move-result v8
 
     if-eqz v8, :cond_5
 
-    .line 22
     aget v8, v22, v6
 
     if-lez v8, :cond_5
@@ -482,7 +443,6 @@
 
     invoke-static {v8, v9}, Lcom/google/android/gms/internal/ads/cg2;->f(ZLjava/lang/Object;)V
 
-    .line 23
     aget-object v8, v19, v6
 
     const/16 v9, 0x32c0
@@ -514,7 +474,6 @@
 
     aput v18, v11, v5
 
-    .line 24
     :goto_4
     sget-object v10, Landroid/opengl/EGL14;->EGL_NO_CONTEXT:Landroid/opengl/EGLContext;
 
@@ -534,7 +493,6 @@
     :goto_5
     const-string v12, "eglCreateContext failed"
 
-    .line 25
     invoke-static {v11, v12}, Lcom/google/android/gms/internal/ads/cg2;->f(ZLjava/lang/Object;)V
 
     const/16 v11, 0x3056
@@ -576,7 +534,6 @@
 
     aput v18, v13, v16
 
-    .line 26
     :goto_6
     invoke-static {v2, v8, v13, v6}, Landroid/opengl/EGL14;->eglCreatePbufferSurface(Landroid/opengl/EGLDisplay;Landroid/opengl/EGLConfig;[II)Landroid/opengl/EGLSurface;
 
@@ -594,25 +551,20 @@
     :goto_7
     const-string v5, "eglCreatePbufferSurface failed"
 
-    .line 27
     invoke-static {v4, v5}, Lcom/google/android/gms/internal/ads/cg2;->f(ZLjava/lang/Object;)V
 
-    .line 28
     invoke-static {v2, v3, v3, v10}, Landroid/opengl/EGL14;->eglMakeCurrent(Landroid/opengl/EGLDisplay;Landroid/opengl/EGLSurface;Landroid/opengl/EGLSurface;Landroid/opengl/EGLContext;)Z
 
     move-result v2
 
     const-string v3, "eglMakeCurrent failed"
 
-    .line 29
     invoke-static {v2, v3}, Lcom/google/android/gms/internal/ads/cg2;->f(ZLjava/lang/Object;)V
 
-    .line 30
     iget-object v2, v1, Lcom/google/android/gms/internal/ads/wg2;->a:[I
 
     invoke-static {v7, v2, v6}, Landroid/opengl/GLES20;->glGenTextures(I[II)V
 
-    .line 31
     new-instance v2, Landroid/graphics/SurfaceTexture;
 
     iget-object v3, v1, Lcom/google/android/gms/internal/ads/wg2;->a:[I
@@ -623,10 +575,8 @@
 
     iput-object v2, v1, Lcom/google/android/gms/internal/ads/wg2;->c:Landroid/graphics/SurfaceTexture;
 
-    .line 32
     invoke-virtual {v2, v1}, Landroid/graphics/SurfaceTexture;->setOnFrameAvailableListener(Landroid/graphics/SurfaceTexture$OnFrameAvailableListener;)V
 
-    .line 33
     new-instance v2, Lcom/google/android/gms/internal/ads/zzpv;
 
     iget-object v3, v1, Lcom/google/android/gms/internal/ads/wg2;->c:Landroid/graphics/SurfaceTexture;
@@ -641,14 +591,11 @@
     .catch Ljava/lang/Error; {:try_start_4 .. :try_end_4} :catch_0
     .catchall {:try_start_4 .. :try_end_4} :catchall_4
 
-    .line 34
     monitor-enter p0
 
-    .line 35
     :try_start_5
     invoke-virtual/range {p0 .. p0}, Ljava/lang/Object;->notify()V
 
-    .line 36
     monitor-exit p0
 
     goto :goto_8
@@ -675,22 +622,17 @@
 
     const-string v3, "Failed to initialize dummy surface"
 
-    .line 37
     invoke-static {v2, v3, v0}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
 
-    .line 38
     iput-object v0, v1, Lcom/google/android/gms/internal/ads/wg2;->d:Ljava/lang/Error;
     :try_end_6
     .catchall {:try_start_6 .. :try_end_6} :catchall_4
 
-    .line 39
     monitor-enter p0
 
-    .line 40
     :try_start_7
     invoke-virtual/range {p0 .. p0}, Ljava/lang/Object;->notify()V
 
-    .line 41
     monitor-exit p0
 
     goto :goto_8
@@ -712,22 +654,17 @@
 
     const-string v3, "Failed to initialize dummy surface"
 
-    .line 42
     invoke-static {v2, v3, v0}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
 
-    .line 43
     iput-object v0, v1, Lcom/google/android/gms/internal/ads/wg2;->f:Ljava/lang/RuntimeException;
     :try_end_8
     .catchall {:try_start_8 .. :try_end_8} :catchall_4
 
-    .line 44
     monitor-enter p0
 
-    .line 45
     :try_start_9
     invoke-virtual/range {p0 .. p0}, Ljava/lang/Object;->notify()V
 
-    .line 46
     monitor-exit p0
 
     :goto_8
@@ -742,26 +679,21 @@
 
     throw v0
 
-    .line 47
     :goto_9
     monitor-enter p0
 
-    .line 48
     :try_start_a
     invoke-virtual/range {p0 .. p0}, Ljava/lang/Object;->notify()V
 
-    .line 49
     monitor-exit p0
     :try_end_a
     .catchall {:try_start_a .. :try_end_a} :catchall_7
 
-    .line 50
     throw v0
 
     :catchall_7
     move-exception v0
 
-    .line 51
     :try_start_b
     monitor-exit p0
     :try_end_b
@@ -773,7 +705,6 @@
 .method public final onFrameAvailable(Landroid/graphics/SurfaceTexture;)V
     .locals 1
 
-    .line 1
     iget-object p1, p0, Lcom/google/android/gms/internal/ads/wg2;->b:Landroid/os/Handler;
 
     const/4 v0, 0x2

@@ -41,7 +41,6 @@
 .method public constructor <init>(FFF)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     iput p1, p0, Lcom/commsource/studio/c;->b:F
@@ -78,7 +77,6 @@
 
     const/4 p3, 0x0
 
-    .line 2
     :cond_2
     invoke-direct {p0, p1, p2, p3}, Lcom/commsource/studio/c;-><init>(FFF)V
 
@@ -111,19 +109,16 @@
 
     invoke-static {v2}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/studio/c;->d()F
 
     move-result v3
 
     sub-float/2addr v3, p1
 
-    .line 2
     iget-boolean p1, p0, Lcom/commsource/studio/c;->a:Z
 
     if-eqz p1, :cond_2
 
-    .line 3
     invoke-static {v3}, Ljava/lang/Math;->abs(F)F
 
     move-result p1
@@ -151,11 +146,9 @@
     :cond_0
     const v4, -0x40733333    # -1.1f
 
-    .line 4
     :goto_0
     iput-boolean p1, p0, Lcom/commsource/studio/c;->a:Z
 
-    .line 5
     new-instance p1, Lcotlin/Triple;
 
     invoke-virtual {p0}, Lcom/commsource/studio/c;->c()F
@@ -174,7 +167,6 @@
 
     goto :goto_1
 
-    .line 6
     :cond_1
     new-instance p1, Lcotlin/Triple;
 
@@ -184,7 +176,6 @@
 
     invoke-direct {p1, v0, v1, v1}, Lcotlin/Triple;-><init>(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)V
 
-    .line 7
     :goto_1
     invoke-static {v2}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -193,7 +184,6 @@
     :cond_2
     if-nez p1, :cond_3
 
-    .line 8
     invoke-static {v3}, Ljava/lang/Math;->abs(F)F
 
     move-result p1
@@ -208,10 +198,8 @@
 
     const/4 p1, 0x1
 
-    .line 9
     iput-boolean p1, p0, Lcom/commsource/studio/c;->a:Z
 
-    .line 10
     new-instance p1, Lcotlin/Triple;
 
     invoke-static {v3}, Ljava/lang/Float;->valueOf(F)Ljava/lang/Float;
@@ -227,7 +215,6 @@
     :cond_3
     const/4 p1, 0x0
 
-    .line 11
     invoke-static {v2}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p1
@@ -240,7 +227,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/studio/c;->d()F
 
     move-result v1
@@ -267,7 +253,6 @@
     :goto_0
     iput-boolean p1, p0, Lcom/commsource/studio/c;->a:Z
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -280,7 +265,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/c;->d:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -295,7 +279,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/c;->b:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -310,7 +293,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/c;->c:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -325,7 +307,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/studio/c;->a:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -340,7 +321,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/studio/c;->d:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -355,7 +335,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/studio/c;->a:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -370,7 +349,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/studio/c;->b:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -385,7 +363,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/studio/c;->c:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

@@ -18,7 +18,6 @@
 .method constructor <init>(Lcom/google/common/base/b;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/google/common/base/b$w;-><init>(Lcom/google/common/base/b;)V
 
     return-void

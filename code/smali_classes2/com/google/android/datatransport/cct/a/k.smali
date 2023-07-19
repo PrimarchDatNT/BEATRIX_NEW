@@ -18,7 +18,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -33,12 +32,10 @@
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/google/android/datatransport/cct/a/f$b;
 
     invoke-direct {v0}, Lcom/google/android/datatransport/cct/a/f$b;-><init>()V
 
-    .line 2
     invoke-virtual {v0, p0}, Lcom/google/android/datatransport/cct/a/k$a;->d(Ljava/lang/String;)Lcom/google/android/datatransport/cct/a/k$a;
 
     move-result-object p0
@@ -55,12 +52,10 @@
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/google/android/datatransport/cct/a/f$b;
 
     invoke-direct {v0}, Lcom/google/android/datatransport/cct/a/f$b;-><init>()V
 
-    .line 2
     invoke-virtual {v0, p0}, Lcom/google/android/datatransport/cct/a/k$a;->e([B)Lcom/google/android/datatransport/cct/a/k$a;
 
     move-result-object p0

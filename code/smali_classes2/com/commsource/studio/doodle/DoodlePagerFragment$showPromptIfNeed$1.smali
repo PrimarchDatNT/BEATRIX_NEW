@@ -42,12 +42,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Landroid/graphics/Rect;
 
     invoke-direct {v1}, Landroid/graphics/Rect;-><init>()V
 
-    .line 2
     iget-object v2, p0, Lcom/commsource/studio/doodle/DoodlePagerFragment$showPromptIfNeed$1;->a:Lcom/commsource/studio/doodle/DoodlePagerFragment;
 
     invoke-static {v2}, Lcom/commsource/studio/doodle/DoodlePagerFragment;->A(Lcom/commsource/studio/doodle/DoodlePagerFragment;)Lcom/commsource/beautyplus/f0/s7;
@@ -68,7 +66,6 @@
 
     check-cast v2, Landroid/view/ViewGroup;
 
-    .line 3
     iget-object v3, p0, Lcom/commsource/studio/doodle/DoodlePagerFragment$showPromptIfNeed$1;->a:Lcom/commsource/studio/doodle/DoodlePagerFragment;
 
     invoke-static {v3}, Lcom/commsource/studio/doodle/DoodlePagerFragment;->A(Lcom/commsource/studio/doodle/DoodlePagerFragment;)Lcom/commsource/beautyplus/f0/s7;
@@ -79,10 +76,8 @@
 
     iget-object v3, v3, Lcom/commsource/beautyplus/f0/s1;->c:Landroid/widget/FrameLayout;
 
-    .line 4
     invoke-static {v2, v3, v1}, Landroidx/coordinatorlayout/widget/ViewGroupUtils;->getDescendantRect(Landroid/view/ViewGroup;Landroid/view/View;Landroid/graphics/Rect;)V
 
-    .line 5
     new-instance v2, Lcom/commsource/studio/doodle/DoodlePagerFragment$showPromptIfNeed$1$1;
 
     invoke-direct {v2, p0, v1}, Lcom/commsource/studio/doodle/DoodlePagerFragment$showPromptIfNeed$1$1;-><init>(Lcom/commsource/studio/doodle/DoodlePagerFragment$showPromptIfNeed$1;Landroid/graphics/Rect;)V
@@ -91,15 +86,12 @@
 
     move-result-object v1
 
-    .line 6
     invoke-virtual {v1}, Lcom/meitu/common/animutil/a;->y()V
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 8
     :cond_0
     new-instance v1, Lcotlin/TypeCastException;
 

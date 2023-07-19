@@ -41,7 +41,6 @@
 
     invoke-static {p2, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iput-object p1, p0, Lcotlin/io/h$b$b;->c:Lcotlin/io/h$b;
 
     invoke-direct {p0, p2}, Lcotlin/io/h$c;-><init>(Ljava/io/File;)V
@@ -56,7 +55,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     iget-boolean v0, p0, Lcotlin/io/h$b$b;->b:Z
 
     if-eqz v0, :cond_0
@@ -68,10 +66,8 @@
     :cond_0
     const/4 v0, 0x1
 
-    .line 2
     iput-boolean v0, p0, Lcotlin/io/h$b$b;->b:Z
 
-    .line 3
     invoke-virtual {p0}, Lcotlin/io/h$c;->a()Ljava/io/File;
 
     move-result-object v0

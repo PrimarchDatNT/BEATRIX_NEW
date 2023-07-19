@@ -29,12 +29,10 @@
 .method public constructor <init>(Ljava/lang/String;Ljava/lang/String;Lorg/apache/http/ProtocolVersion;)V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const-string v0, "Method"
 
-    .line 2
     invoke-static {p1, v0}, Lorg/apache/http/util/Args;->notNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
 
     move-result-object p1
@@ -45,7 +43,6 @@
 
     const-string p1, "URI"
 
-    .line 3
     invoke-static {p2, p1}, Lorg/apache/http/util/Args;->notNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
 
     move-result-object p1
@@ -56,7 +53,6 @@
 
     const-string p1, "Version"
 
-    .line 4
     invoke-static {p3, p1}, Lorg/apache/http/util/Args;->notNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
 
     move-result-object p1
@@ -78,7 +74,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-super {p0}, Ljava/lang/Object;->clone()Ljava/lang/Object;
 
     move-result-object v0
@@ -89,7 +84,6 @@
 .method public getMethod()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lorg/apache/http/message/BasicRequestLine;->method:Ljava/lang/String;
 
     return-object v0
@@ -98,7 +92,6 @@
 .method public getProtocolVersion()Lorg/apache/http/ProtocolVersion;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lorg/apache/http/message/BasicRequestLine;->protoversion:Lorg/apache/http/ProtocolVersion;
 
     return-object v0
@@ -107,7 +100,6 @@
 .method public getUri()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lorg/apache/http/message/BasicRequestLine;->uri:Ljava/lang/String;
 
     return-object v0
@@ -116,7 +108,6 @@
 .method public toString()Ljava/lang/String;
     .locals 2
 
-    .line 1
     sget-object v0, Lorg/apache/http/message/BasicLineFormatter;->INSTANCE:Lorg/apache/http/message/BasicLineFormatter;
 
     const/4 v1, 0x0

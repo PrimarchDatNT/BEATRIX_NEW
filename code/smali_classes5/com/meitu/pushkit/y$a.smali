@@ -29,7 +29,6 @@
 .method constructor <init>(Landroid/content/BroadcastReceiver;Landroid/content/Context;Landroid/content/Intent;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/pushkit/y$a;->a:Landroid/content/BroadcastReceiver;
 
     iput-object p2, p0, Lcom/meitu/pushkit/y$a;->b:Landroid/content/Context;
@@ -50,7 +49,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/pushkit/y$a;->a:Landroid/content/BroadcastReceiver;
 
     iget-object v2, p0, Lcom/meitu/pushkit/y$a;->b:Landroid/content/Context;
@@ -59,7 +57,6 @@
 
     invoke-virtual {v1, v2, v3}, Landroid/content/BroadcastReceiver;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

@@ -16,17 +16,14 @@
 .method public constructor <init>(Lcom/google/android/gms/internal/ads/p2;)V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     new-instance v0, Lcom/google/android/gms/ads/u;
 
     invoke-direct {v0}, Lcom/google/android/gms/ads/u;-><init>()V
 
     iput-object v0, p0, Lcom/google/android/gms/internal/ads/vp2;->b:Lcom/google/android/gms/ads/u;
 
-    .line 3
     iput-object p1, p0, Lcom/google/android/gms/internal/ads/vp2;->a:Lcom/google/android/gms/internal/ads/p2;
 
     return-void
@@ -37,7 +34,6 @@
 .method public final P()F
     .locals 2
 
-    .line 1
     :try_start_0
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/vp2;->a:Lcom/google/android/gms/internal/ads/p2;
 
@@ -54,7 +50,6 @@
 
     const-string v1, ""
 
-    .line 2
     invoke-static {v1, v0}, Lcom/google/android/gms/internal/ads/aq;->c(Ljava/lang/String;Ljava/lang/Throwable;)V
 
     const/4 v0, 0x0
@@ -65,7 +60,6 @@
 .method public final W()F
     .locals 2
 
-    .line 1
     :try_start_0
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/vp2;->a:Lcom/google/android/gms/internal/ads/p2;
 
@@ -82,7 +76,6 @@
 
     const-string v1, ""
 
-    .line 2
     invoke-static {v1, v0}, Lcom/google/android/gms/internal/ads/aq;->c(Ljava/lang/String;Ljava/lang/Throwable;)V
 
     const/4 v0, 0x0
@@ -93,7 +86,6 @@
 .method public final a()Lcom/google/android/gms/internal/ads/p2;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/vp2;->a:Lcom/google/android/gms/internal/ads/p2;
 
     return-object v0
@@ -102,7 +94,6 @@
 .method public final getDuration()F
     .locals 2
 
-    .line 1
     :try_start_0
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/vp2;->a:Lcom/google/android/gms/internal/ads/p2;
 
@@ -119,7 +110,6 @@
 
     const-string v1, ""
 
-    .line 2
     invoke-static {v1, v0}, Lcom/google/android/gms/internal/ads/aq;->c(Ljava/lang/String;Ljava/lang/Throwable;)V
 
     const/4 v0, 0x0
@@ -130,7 +120,6 @@
 .method public final getVideoController()Lcom/google/android/gms/ads/u;
     .locals 2
 
-    .line 1
     :try_start_0
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/vp2;->a:Lcom/google/android/gms/internal/ads/p2;
 
@@ -140,7 +129,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 2
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/vp2;->b:Lcom/google/android/gms/ads/u;
 
     iget-object v1, p0, Lcom/google/android/gms/internal/ads/vp2;->a:Lcom/google/android/gms/internal/ads/p2;
@@ -160,10 +148,8 @@
 
     const-string v1, "Exception occurred while getting video controller"
 
-    .line 3
     invoke-static {v1, v0}, Lcom/google/android/gms/internal/ads/aq;->c(Ljava/lang/String;Ljava/lang/Throwable;)V
 
-    .line 4
     :cond_0
     :goto_0
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/vp2;->b:Lcom/google/android/gms/ads/u;
@@ -174,7 +160,6 @@
 .method public final i0()Z
     .locals 2
 
-    .line 1
     :try_start_0
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/vp2;->a:Lcom/google/android/gms/internal/ads/p2;
 
@@ -191,7 +176,6 @@
 
     const-string v1, ""
 
-    .line 2
     invoke-static {v1, v0}, Lcom/google/android/gms/internal/ads/aq;->c(Ljava/lang/String;Ljava/lang/Throwable;)V
 
     const/4 v0, 0x0
@@ -202,7 +186,6 @@
 .method public final j0()Landroid/graphics/drawable/Drawable;
     .locals 2
 
-    .line 1
     :try_start_0
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/vp2;->a:Lcom/google/android/gms/internal/ads/p2;
 
@@ -212,7 +195,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/google/android/gms/dynamic/f;->B0(Lcom/google/android/gms/dynamic/d;)Ljava/lang/Object;
 
     move-result-object v0
@@ -228,7 +210,6 @@
 
     const-string v1, ""
 
-    .line 3
     invoke-static {v1, v0}, Lcom/google/android/gms/internal/ads/aq;->c(Ljava/lang/String;Ljava/lang/Throwable;)V
 
     :cond_0
@@ -240,7 +221,6 @@
 .method public final k0(Landroid/graphics/drawable/Drawable;)V
     .locals 1
 
-    .line 1
     :try_start_0
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/vp2;->a:Lcom/google/android/gms/internal/ads/p2;
 
@@ -259,7 +239,6 @@
 
     const-string v0, ""
 
-    .line 2
     invoke-static {v0, p1}, Lcom/google/android/gms/internal/ads/aq;->c(Ljava/lang/String;Ljava/lang/Throwable;)V
 
     return-void

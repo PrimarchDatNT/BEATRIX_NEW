@@ -22,7 +22,6 @@
 .method constructor <init>(Lcom/commsource/beautyplus/miniapp/MiniAppActivity;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/beautyplus/miniapp/MiniAppActivity$d;->a:Lcom/commsource/beautyplus/miniapp/MiniAppActivity;
 
     invoke-direct {p0}, Landroidx/recyclerview/widget/RecyclerView$OnScrollListener;-><init>()V
@@ -43,12 +42,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0, p1, p2}, Landroidx/recyclerview/widget/RecyclerView$OnScrollListener;->onScrollStateChanged(Landroidx/recyclerview/widget/RecyclerView;I)V
 
     if-nez p2, :cond_2
 
-    .line 2
     iget-object p1, p0, Lcom/commsource/beautyplus/miniapp/MiniAppActivity$d;->a:Lcom/commsource/beautyplus/miniapp/MiniAppActivity;
 
     invoke-static {p1}, Lcom/commsource/beautyplus/miniapp/MiniAppActivity;->O0(Lcom/commsource/beautyplus/miniapp/MiniAppActivity;)Z
@@ -57,7 +54,6 @@
 
     if-eqz p1, :cond_1
 
-    .line 3
     iget-object p1, p0, Lcom/commsource/beautyplus/miniapp/MiniAppActivity$d;->a:Lcom/commsource/beautyplus/miniapp/MiniAppActivity;
 
     invoke-static {p1}, Lcom/commsource/beautyplus/miniapp/MiniAppActivity;->M0(Lcom/commsource/beautyplus/miniapp/MiniAppActivity;)Lcom/commsource/beautyplus/miniapp/MiniAppViewModel;
@@ -82,10 +78,8 @@
 
     const-string/jumbo v1, "view"
 
-    .line 4
     invoke-static {p2, v1, p1}, Lcom/commsource/statistics/i;->r(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 5
     :cond_1
     iget-object p1, p0, Lcom/commsource/beautyplus/miniapp/MiniAppActivity$d;->a:Lcom/commsource/beautyplus/miniapp/MiniAppActivity;
 
@@ -93,7 +87,6 @@
 
     invoke-static {p1, p2}, Lcom/commsource/beautyplus/miniapp/MiniAppActivity;->P0(Lcom/commsource/beautyplus/miniapp/MiniAppActivity;Z)Z
 
-    .line 6
     :cond_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -111,7 +104,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/beautyplus/miniapp/MiniAppActivity$d;->a:Lcom/commsource/beautyplus/miniapp/MiniAppActivity;
 
     invoke-static {v0}, Lcom/commsource/beautyplus/miniapp/MiniAppActivity;->O0(Lcom/commsource/beautyplus/miniapp/MiniAppActivity;)Z
@@ -138,7 +130,6 @@
     :goto_1
     invoke-static {v0, p2}, Lcom/commsource/beautyplus/miniapp/MiniAppActivity;->P0(Lcom/commsource/beautyplus/miniapp/MiniAppActivity;Z)Z
 
-    .line 2
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

@@ -68,7 +68,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/meitu/mtoilpainting/MeituOilPainting$OilPaintType;
 
     const-string v2, "REALISM"
@@ -79,7 +78,6 @@
 
     sput-object v1, Lcom/meitu/mtoilpainting/MeituOilPainting$OilPaintType;->REALISM:Lcom/meitu/mtoilpainting/MeituOilPainting$OilPaintType;
 
-    .line 2
     new-instance v2, Lcom/meitu/mtoilpainting/MeituOilPainting$OilPaintType;
 
     const-string v4, "REALISM_SOFT_GLOW_0"
@@ -90,7 +88,6 @@
 
     sput-object v2, Lcom/meitu/mtoilpainting/MeituOilPainting$OilPaintType;->REALISM_SOFT_GLOW_0:Lcom/meitu/mtoilpainting/MeituOilPainting$OilPaintType;
 
-    .line 3
     new-instance v4, Lcom/meitu/mtoilpainting/MeituOilPainting$OilPaintType;
 
     const-string v6, "REALISM_SOFT_GLOW_1"
@@ -101,7 +98,6 @@
 
     sput-object v4, Lcom/meitu/mtoilpainting/MeituOilPainting$OilPaintType;->REALISM_SOFT_GLOW_1:Lcom/meitu/mtoilpainting/MeituOilPainting$OilPaintType;
 
-    .line 4
     new-instance v6, Lcom/meitu/mtoilpainting/MeituOilPainting$OilPaintType;
 
     const-string v8, "REALISM_SHADED_ROCOCO"
@@ -112,7 +108,6 @@
 
     sput-object v6, Lcom/meitu/mtoilpainting/MeituOilPainting$OilPaintType;->REALISM_SHADED_ROCOCO:Lcom/meitu/mtoilpainting/MeituOilPainting$OilPaintType;
 
-    .line 5
     new-instance v8, Lcom/meitu/mtoilpainting/MeituOilPainting$OilPaintType;
 
     const-string v10, "POINTILLISM"
@@ -123,7 +118,6 @@
 
     sput-object v8, Lcom/meitu/mtoilpainting/MeituOilPainting$OilPaintType;->POINTILLISM:Lcom/meitu/mtoilpainting/MeituOilPainting$OilPaintType;
 
-    .line 6
     new-instance v10, Lcom/meitu/mtoilpainting/MeituOilPainting$OilPaintType;
 
     const-string v12, "POP_ART"
@@ -134,7 +128,6 @@
 
     sput-object v10, Lcom/meitu/mtoilpainting/MeituOilPainting$OilPaintType;->POP_ART:Lcom/meitu/mtoilpainting/MeituOilPainting$OilPaintType;
 
-    .line 7
     new-instance v12, Lcom/meitu/mtoilpainting/MeituOilPainting$OilPaintType;
 
     const-string v14, "COMIC"
@@ -145,7 +138,6 @@
 
     sput-object v12, Lcom/meitu/mtoilpainting/MeituOilPainting$OilPaintType;->COMIC:Lcom/meitu/mtoilpainting/MeituOilPainting$OilPaintType;
 
-    .line 8
     new-instance v14, Lcom/meitu/mtoilpainting/MeituOilPainting$OilPaintType;
 
     const-string v0, "VAN"
@@ -156,7 +148,6 @@
 
     sput-object v14, Lcom/meitu/mtoilpainting/MeituOilPainting$OilPaintType;->VAN:Lcom/meitu/mtoilpainting/MeituOilPainting$OilPaintType;
 
-    .line 9
     new-instance v0, Lcom/meitu/mtoilpainting/MeituOilPainting$OilPaintType;
 
     const-string v15, "FECHIN"
@@ -167,7 +158,6 @@
 
     sput-object v0, Lcom/meitu/mtoilpainting/MeituOilPainting$OilPaintType;->FECHIN:Lcom/meitu/mtoilpainting/MeituOilPainting$OilPaintType;
 
-    .line 10
     new-instance v15, Lcom/meitu/mtoilpainting/MeituOilPainting$OilPaintType;
 
     const-string v13, "FECHIN_PORTRAIT"
@@ -178,7 +168,6 @@
 
     sput-object v15, Lcom/meitu/mtoilpainting/MeituOilPainting$OilPaintType;->FECHIN_PORTRAIT:Lcom/meitu/mtoilpainting/MeituOilPainting$OilPaintType;
 
-    .line 11
     new-instance v13, Lcom/meitu/mtoilpainting/MeituOilPainting$OilPaintType;
 
     const-string v11, "CRAYON"
@@ -189,7 +178,6 @@
 
     sput-object v13, Lcom/meitu/mtoilpainting/MeituOilPainting$OilPaintType;->CRAYON:Lcom/meitu/mtoilpainting/MeituOilPainting$OilPaintType;
 
-    .line 12
     new-instance v11, Lcom/meitu/mtoilpainting/MeituOilPainting$OilPaintType;
 
     const-string v9, "WATER_COLOR"
@@ -200,7 +188,6 @@
 
     sput-object v11, Lcom/meitu/mtoilpainting/MeituOilPainting$OilPaintType;->WATER_COLOR:Lcom/meitu/mtoilpainting/MeituOilPainting$OilPaintType;
 
-    .line 13
     new-instance v9, Lcom/meitu/mtoilpainting/MeituOilPainting$OilPaintType;
 
     const-string v7, "PEN_DRAWING"
@@ -211,7 +198,6 @@
 
     sput-object v9, Lcom/meitu/mtoilpainting/MeituOilPainting$OilPaintType;->PEN_DRAWING:Lcom/meitu/mtoilpainting/MeituOilPainting$OilPaintType;
 
-    .line 14
     new-instance v7, Lcom/meitu/mtoilpainting/MeituOilPainting$OilPaintType;
 
     const-string v5, "HOPE_POSTER"
@@ -280,7 +266,6 @@
 
     aput-object v7, v5, v3
 
-    .line 15
     sput-object v5, Lcom/meitu/mtoilpainting/MeituOilPainting$OilPaintType;->$VALUES:[Lcom/meitu/mtoilpainting/MeituOilPainting$OilPaintType;
 
     const v0, 0xe964
@@ -298,7 +283,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
     return-void
@@ -311,19 +295,16 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/meitu/mtoilpainting/MeituOilPainting$OilPaintType;->values()[Lcom/meitu/mtoilpainting/MeituOilPainting$OilPaintType;
 
     move-result-object v1
 
-    .line 2
     array-length v2, v1
 
     if-ge p0, v2, :cond_0
 
     if-ltz p0, :cond_0
 
-    .line 3
     aget-object p0, v1, p0
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -333,7 +314,6 @@
     :cond_0
     const/4 p0, 0x0
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
@@ -346,7 +326,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     const-class v1, Lcom/meitu/mtoilpainting/MeituOilPainting$OilPaintType;
 
     invoke-static {v1, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -367,7 +346,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/meitu/mtoilpainting/MeituOilPainting$OilPaintType;->$VALUES:[Lcom/meitu/mtoilpainting/MeituOilPainting$OilPaintType;
 
     invoke-virtual {v1}, [Lcom/meitu/mtoilpainting/MeituOilPainting$OilPaintType;->clone()Ljava/lang/Object;

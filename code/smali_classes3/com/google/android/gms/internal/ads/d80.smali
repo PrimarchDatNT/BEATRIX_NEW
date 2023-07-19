@@ -11,7 +11,6 @@
 .method public constructor <init>(Ljava/lang/String;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/google/android/gms/internal/ads/z42;-><init>(Ljava/lang/String;)V
 
     return-void
@@ -22,10 +21,8 @@
 .method public final e(Ljava/nio/ByteBuffer;)V
     .locals 2
 
-    .line 1
     iput-object p1, p0, Lcom/google/android/gms/internal/ads/d80;->N:Ljava/nio/ByteBuffer;
 
-    .line 2
     invoke-virtual {p1}, Ljava/nio/ByteBuffer;->position()I
 
     move-result v0

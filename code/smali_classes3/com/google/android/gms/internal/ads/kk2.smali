@@ -16,7 +16,6 @@
 .method constructor <init>(Lcom/google/android/gms/internal/ads/ek2;Lcom/google/android/gms/internal/ads/lq;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/android/gms/internal/ads/kk2;->b:Lcom/google/android/gms/internal/ads/ek2;
 
     iput-object p2, p0, Lcom/google/android/gms/internal/ads/kk2;->a:Lcom/google/android/gms/internal/ads/lq;
@@ -35,7 +34,6 @@
         .end annotation
     .end param
 
-    .line 1
     iget-object p1, p0, Lcom/google/android/gms/internal/ads/kk2;->b:Lcom/google/android/gms/internal/ads/ek2;
 
     invoke-static {p1}, Lcom/google/android/gms/internal/ads/ek2;->d(Lcom/google/android/gms/internal/ads/ek2;)Ljava/lang/Object;
@@ -44,7 +42,6 @@
 
     monitor-enter p1
 
-    .line 2
     :try_start_0
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/kk2;->a:Lcom/google/android/gms/internal/ads/lq;
 
@@ -56,7 +53,6 @@
 
     invoke-virtual {v0, v1}, Lcom/google/android/gms/internal/ads/lq;->c(Ljava/lang/Throwable;)Z
 
-    .line 3
     monitor-exit p1
 
     return-void

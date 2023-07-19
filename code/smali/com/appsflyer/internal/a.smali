@@ -20,10 +20,8 @@
 .method constructor <init>()V
     .locals 2
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     new-instance v0, Landroid/content/IntentFilter;
 
     const-string v1, "android.intent.action.BATTERY_CHANGED"
@@ -46,7 +44,6 @@
 
     const/4 v1, 0x0
 
-    .line 1
     :try_start_0
     iget-object v2, p0, Lcom/appsflyer/internal/a;->valueOf:Landroid/content/IntentFilter;
 
@@ -60,7 +57,6 @@
 
     const/4 v3, -0x1
 
-    .line 2
     invoke-virtual {p1, v2, v3}, Landroid/content/Intent;->getIntExtra(Ljava/lang/String;I)I
 
     move-result v2
@@ -83,7 +79,6 @@
 
     const-string v2, "plugged"
 
-    .line 3
     invoke-virtual {p1, v2, v3}, Landroid/content/Intent;->getIntExtra(Ljava/lang/String;I)I
 
     move-result v2
@@ -121,14 +116,12 @@
     :goto_1
     const-string v2, "level"
 
-    .line 4
     invoke-virtual {p1, v2, v3}, Landroid/content/Intent;->getIntExtra(Ljava/lang/String;I)I
 
     move-result v2
 
     const-string v4, "scale"
 
-    .line 5
     invoke-virtual {p1, v4, v3}, Landroid/content/Intent;->getIntExtra(Ljava/lang/String;I)I
 
     move-result p1
@@ -151,7 +144,6 @@
 
     move v1, v2
 
-    .line 6
     :catchall_0
     :cond_5
     new-instance p1, Lcom/appsflyer/internal/a$a;

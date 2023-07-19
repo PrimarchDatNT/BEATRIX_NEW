@@ -33,7 +33,6 @@
 .method constructor <init>(Lcom/appsflyer/internal/ContentFetcher;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/appsflyer/internal/ContentFetcher$1;->$$a:Lcom/appsflyer/internal/ContentFetcher;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -51,7 +50,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/appsflyer/internal/ContentFetcher$1;->$$a:Lcom/appsflyer/internal/ContentFetcher;
 
     invoke-virtual {v0}, Lcom/appsflyer/internal/ContentFetcher;->valid()Z

@@ -56,7 +56,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Lcotlinx/coroutines/channels/r;-><init>()V
 
     iput-object p1, p0, Lcotlinx/coroutines/channels/q$d;->p:Lcotlinx/coroutines/channels/q;
@@ -71,7 +70,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     iget-object p1, p0, Lcotlinx/coroutines/channels/q$d;->p:Lcotlinx/coroutines/channels/q;
 
     invoke-static {p1, p0}, Lcotlinx/coroutines/channels/q;->c(Lcotlinx/coroutines/channels/q;Lcotlinx/coroutines/channels/q$d;)V
@@ -92,7 +90,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     invoke-super {p0, p1}, Lcotlinx/coroutines/channels/r;->z(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1

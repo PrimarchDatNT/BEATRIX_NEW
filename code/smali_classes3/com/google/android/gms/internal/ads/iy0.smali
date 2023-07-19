@@ -26,10 +26,8 @@
 .method public final a(ZLandroid/content/Context;)V
     .locals 1
 
-    .line 1
     iget-object p2, p0, Lcom/google/android/gms/internal/ads/iy0;->a:Lcom/google/android/gms/internal/ads/ow0;
 
-    .line 2
     :try_start_0
     iget-object v0, p2, Lcom/google/android/gms/internal/ads/ow0;->b:Ljava/lang/Object;
 
@@ -37,7 +35,6 @@
 
     invoke-virtual {v0, p1}, Lcom/google/android/gms/internal/ads/vh1;->h(Z)V
 
-    .line 3
     iget-object p1, p2, Lcom/google/android/gms/internal/ads/ow0;->b:Ljava/lang/Object;
 
     check-cast p1, Lcom/google/android/gms/internal/ads/vh1;
@@ -53,10 +50,8 @@
 
     const-string p2, "Cannot show interstitial."
 
-    .line 4
     invoke-static {p2}, Lcom/google/android/gms/internal/ads/aq;->h(Ljava/lang/String;)V
 
-    .line 5
     new-instance p2, Lcom/google/android/gms/internal/ads/zzcap;
 
     invoke-virtual {p1}, Ljava/lang/Exception;->getCause()Ljava/lang/Throwable;

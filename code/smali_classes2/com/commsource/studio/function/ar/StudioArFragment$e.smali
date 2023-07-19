@@ -57,7 +57,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/function/ar/StudioArFragment$e;->a:Lcom/commsource/studio/function/ar/StudioArFragment;
 
     invoke-virtual {v1}, Lcom/commsource/studio/function/ar/StudioArFragment;->B1()Lcom/commsource/studio/function/ar/ArProcessor;
@@ -76,7 +75,6 @@
 
     invoke-static/range {v2 .. v7}, Lcom/commsource/studio/function/ar/ArProcessor;->M(Lcom/commsource/studio/function/ar/ArProcessor;Lcom/meitu/template/bean/ArMaterial;ZLcotlin/jvm/u/a;ILjava/lang/Object;)V
 
-    .line 2
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -90,7 +88,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Lcom/meitu/template/bean/ArMaterial;
 
     invoke-virtual {p0, p1}, Lcom/commsource/studio/function/ar/StudioArFragment$e;->a(Lcom/meitu/template/bean/ArMaterial;)V

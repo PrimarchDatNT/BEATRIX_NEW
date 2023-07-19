@@ -22,13 +22,10 @@
 .method constructor <init>(Ljava/lang/String;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     invoke-static {p1}, Lorg/jsoup/helper/c;->j(Ljava/lang/Object;)V
 
-    .line 3
     iput-object p1, p0, Lorg/jsoup/c/b$e;->a:Ljava/lang/String;
 
     return-void
@@ -52,7 +49,6 @@
 
     return v1
 
-    .line 1
     :cond_1
     invoke-virtual {p0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
@@ -66,16 +62,13 @@
 
     return v1
 
-    .line 2
     :cond_2
     check-cast p1, Lorg/jsoup/c/b$e;
 
-    .line 3
     iget-object v2, p0, Lorg/jsoup/c/b$e;->a:Ljava/lang/String;
 
     if-nez v2, :cond_4
 
-    .line 4
     iget-object p1, p1, Lorg/jsoup/c/b$e;->a:Ljava/lang/String;
 
     if-nez p1, :cond_3
@@ -88,7 +81,6 @@
     :goto_0
     return v0
 
-    .line 5
     :cond_4
     iget-object p1, p1, Lorg/jsoup/c/b$e;->a:Ljava/lang/String;
 
@@ -102,7 +94,6 @@
 .method public hashCode()I
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lorg/jsoup/c/b$e;->a:Ljava/lang/String;
 
     if-nez v0, :cond_0
@@ -127,7 +118,6 @@
 .method public toString()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lorg/jsoup/c/b$e;->a:Ljava/lang/String;
 
     return-object v0

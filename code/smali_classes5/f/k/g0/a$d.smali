@@ -42,7 +42,6 @@
 .method constructor <init>(Lf/k/g0/a;Landroid/content/Context;Lf/k/g0/i/a;Lf/k/g0/i/a;Lf/k/g0/i/a;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lf/k/g0/a$d;->e:Lf/k/g0/a;
 
     iput-object p2, p0, Lf/k/g0/a$d;->a:Landroid/content/Context;
@@ -67,7 +66,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v8, Lcom/meitu/remote/config/d;
 
     iget-object v2, p0, Lf/k/g0/a$d;->a:Landroid/content/Context;
@@ -140,7 +138,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lf/k/g0/a$d;->a()Lcom/meitu/remote/config/d;
 
     move-result-object v1

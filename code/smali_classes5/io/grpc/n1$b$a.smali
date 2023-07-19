@@ -31,7 +31,6 @@
 .method constructor <init>(Lio/grpc/n1$b;Lio/grpc/k1;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lio/grpc/n1$b$a;->b:Lio/grpc/n1$b;
 
     iput-object p2, p0, Lio/grpc/n1$b$a;->a:Lio/grpc/k1;
@@ -53,7 +52,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lio/grpc/n1$b$a;->b:Lio/grpc/n1$b;
 
     iget-object v0, v0, Lio/grpc/n1$b;->a:Lio/grpc/MethodDescriptor;
@@ -69,7 +67,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lio/grpc/n1$b$a;->b:Lio/grpc/n1$b;
 
     iget-object v0, v0, Lio/grpc/n1$b;->a:Lio/grpc/MethodDescriptor;
@@ -78,7 +75,6 @@
 
     move-result-object p1
 
-    .line 2
     iget-object v0, p0, Lio/grpc/n1$b$a;->b:Lio/grpc/n1$b;
 
     iget-object v0, v0, Lio/grpc/n1$b;->b:Lio/grpc/MethodDescriptor;
@@ -87,7 +83,6 @@
 
     move-result-object p1
 
-    .line 3
     invoke-virtual {p0}, Lio/grpc/n1$b$a;->l()Lio/grpc/k1;
 
     move-result-object v0
@@ -107,7 +102,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lio/grpc/n1$b$a;->a:Lio/grpc/k1;
 
     return-object v0

@@ -30,16 +30,12 @@
 .method public constructor <init>(Landroid/content/Context;JLjava/lang/String;Lcom/tencent/matrix/h/c$a;)V
     .locals 9
 
-    .line 1
     invoke-direct {p0, p5}, Lcom/tencent/matrix/h/c;-><init>(Lcom/tencent/matrix/h/c$a;)V
 
-    .line 2
     iput-object p1, p0, Lcom/tencent/matrix/h/a;->f:Landroid/content/Context;
 
-    .line 3
     iput-wide p2, p0, Lcom/tencent/matrix/h/a;->c:J
 
-    .line 4
     new-instance p2, Ljava/lang/StringBuilder;
 
     invoke-direct {p2}, Ljava/lang/StringBuilder;-><init>()V
@@ -62,38 +58,32 @@
 
     const/4 p3, 0x0
 
-    .line 5
     invoke-virtual {p1, p2, p3}, Landroid/content/Context;->getSharedPreferences(Ljava/lang/String;I)Landroid/content/SharedPreferences;
 
     move-result-object p1
 
-    .line 6
     new-instance p4, Ljava/util/HashMap;
 
     invoke-direct {p4}, Ljava/util/HashMap;-><init>()V
 
     iput-object p4, p0, Lcom/tencent/matrix/h/a;->e:Ljava/util/HashMap;
 
-    .line 7
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide p4
 
-    .line 8
     invoke-interface {p1}, Landroid/content/SharedPreferences;->edit()Landroid/content/SharedPreferences$Editor;
 
     move-result-object v0
 
     iput-object v0, p0, Lcom/tencent/matrix/h/a;->d:Landroid/content/SharedPreferences$Editor;
 
-    .line 9
     invoke-interface {p1}, Landroid/content/SharedPreferences;->getAll()Ljava/util/Map;
 
     move-result-object v0
 
     if-eqz v0, :cond_0
 
-    .line 10
     new-instance v0, Ljava/util/HashSet;
 
     invoke-interface {p1}, Landroid/content/SharedPreferences;->getAll()Ljava/util/Map;
@@ -114,7 +104,6 @@
     :goto_0
     if-eqz v0, :cond_3
 
-    .line 11
     invoke-virtual {v0}, Ljava/util/HashSet;->iterator()Ljava/util/Iterator;
 
     move-result-object v0
@@ -134,7 +123,6 @@
 
     const-wide/16 v2, 0x0
 
-    .line 12
     :try_start_0
     invoke-interface {p1, v1, v2, v3}, Landroid/content/SharedPreferences;->getLong(Ljava/lang/String;J)J
 
@@ -146,7 +134,6 @@
 
     if-lez v8, :cond_2
 
-    .line 13
     iget-wide v2, p0, Lcom/tencent/matrix/h/a;->c:J
 
     cmp-long v8, v6, v2
@@ -155,7 +142,6 @@
 
     goto :goto_2
 
-    .line 14
     :cond_1
     iget-object v2, p0, Lcom/tencent/matrix/h/a;->e:Ljava/util/HashMap;
 
@@ -167,7 +153,6 @@
 
     goto :goto_1
 
-    .line 15
     :cond_2
     :goto_2
     iget-object v2, p0, Lcom/tencent/matrix/h/a;->d:Landroid/content/SharedPreferences$Editor;
@@ -193,7 +178,6 @@
 
     const/4 v4, 0x2
 
-    .line 16
     invoke-interface {p1}, Landroid/content/SharedPreferences;->getAll()Ljava/util/Map;
 
     move-result-object v5
@@ -212,13 +196,11 @@
 
     goto :goto_1
 
-    .line 17
     :cond_3
     iget-object p1, p0, Lcom/tencent/matrix/h/a;->d:Landroid/content/SharedPreferences$Editor;
 
     if-eqz p1, :cond_4
 
-    .line 18
     invoke-interface {p1}, Landroid/content/SharedPreferences$Editor;->apply()V
 
     :cond_4
@@ -230,7 +212,6 @@
 .method public a(Ljava/lang/String;)Z
     .locals 6
 
-    .line 1
     iget-object v0, p0, Lcom/tencent/matrix/h/a;->e:Ljava/util/HashMap;
 
     invoke-virtual {v0, p1}, Ljava/util/HashMap;->containsKey(Ljava/lang/Object;)Z
@@ -243,7 +224,6 @@
 
     return v1
 
-    .line 2
     :cond_0
     iget-object v0, p0, Lcom/tencent/matrix/h/a;->e:Ljava/util/HashMap;
 
@@ -263,7 +243,6 @@
 
     if-lez v0, :cond_2
 
-    .line 3
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v4
@@ -283,7 +262,6 @@
 
     return p1
 
-    .line 4
     :cond_2
     :goto_0
     iget-object v0, p0, Lcom/tencent/matrix/h/a;->d:Landroid/content/SharedPreferences$Editor;
@@ -294,10 +272,8 @@
 
     if-eqz v0, :cond_3
 
-    .line 5
     invoke-interface {v0}, Landroid/content/SharedPreferences$Editor;->apply()V
 
-    .line 6
     :cond_3
     iget-object v0, p0, Lcom/tencent/matrix/h/a;->e:Ljava/util/HashMap;
 
@@ -311,7 +287,6 @@
 
     const/4 v0, 0x1
 
-    .line 1
     invoke-virtual {p0, p1, v0}, Lcom/tencent/matrix/h/a;->f(Ljava/lang/String;Z)V
 
     return-void
@@ -324,7 +299,6 @@
 
     return-void
 
-    .line 1
     :cond_0
     iget-object v0, p0, Lcom/tencent/matrix/h/a;->e:Ljava/util/HashMap;
 
@@ -336,13 +310,11 @@
 
     return-void
 
-    .line 2
     :cond_1
     iget-object v0, p0, Lcom/tencent/matrix/h/a;->e:Ljava/util/HashMap;
 
     invoke-virtual {v0, p1}, Ljava/util/HashMap;->remove(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 3
     iget-object v0, p0, Lcom/tencent/matrix/h/a;->d:Landroid/content/SharedPreferences$Editor;
 
     invoke-interface {v0, p1}, Landroid/content/SharedPreferences$Editor;->remove(Ljava/lang/String;)Landroid/content/SharedPreferences$Editor;
@@ -351,7 +323,6 @@
 
     if-eqz p1, :cond_2
 
-    .line 4
     invoke-interface {p1}, Landroid/content/SharedPreferences$Editor;->apply()V
 
     :cond_2
@@ -361,7 +332,6 @@
 .method public e()Landroid/content/Context;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/tencent/matrix/h/a;->f:Landroid/content/Context;
 
     return-object v0
@@ -374,7 +344,6 @@
 
     return-void
 
-    .line 1
     :cond_0
     iget-object v0, p0, Lcom/tencent/matrix/h/a;->e:Ljava/util/HashMap;
 
@@ -386,13 +355,11 @@
 
     return-void
 
-    .line 2
     :cond_1
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v0
 
-    .line 3
     iget-object v2, p0, Lcom/tencent/matrix/h/a;->e:Ljava/util/HashMap;
 
     invoke-static {v0, v1}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
@@ -403,7 +370,6 @@
 
     if-eqz p2, :cond_2
 
-    .line 4
     iget-object p2, p0, Lcom/tencent/matrix/h/a;->d:Landroid/content/SharedPreferences$Editor;
 
     invoke-interface {p2, p1, v0, v1}, Landroid/content/SharedPreferences$Editor;->putLong(Ljava/lang/String;J)Landroid/content/SharedPreferences$Editor;
@@ -412,7 +378,6 @@
 
     if-eqz p1, :cond_2
 
-    .line 5
     invoke-interface {p1}, Landroid/content/SharedPreferences$Editor;->apply()V
 
     :cond_2

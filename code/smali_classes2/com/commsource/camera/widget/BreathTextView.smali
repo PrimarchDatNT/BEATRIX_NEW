@@ -13,7 +13,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-direct {p0, p1, v0}, Lcom/commsource/camera/widget/BreathTextView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
     return-void
@@ -24,7 +23,6 @@
 
     const/4 v0, 0x0
 
-    .line 2
     invoke-direct {p0, p1, p2, v0}, Lcom/commsource/camera/widget/BreathTextView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
     return-void
@@ -33,7 +31,6 @@
 .method public constructor <init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
     .locals 0
 
-    .line 3
     invoke-direct {p0, p1, p2, p3}, Landroidx/appcompat/widget/AppCompatTextView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
     return-void
@@ -46,7 +43,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/commsource/camera/widget/BreathTextView;->d(I)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -61,7 +57,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/widget/BreathTextView;->a:Landroid/animation/ObjectAnimator;
 
     if-nez v1, :cond_0
@@ -70,7 +65,6 @@
 
     new-array v1, v1, [F
 
-    .line 2
     fill-array-data v1, :array_0
 
     const-string v2, "alpha"
@@ -83,23 +77,19 @@
 
     const-wide/16 v2, 0x12c
 
-    .line 3
     invoke-virtual {v1, v2, v3}, Landroid/animation/ObjectAnimator;->setDuration(J)Landroid/animation/ObjectAnimator;
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/camera/widget/BreathTextView;->a:Landroid/animation/ObjectAnimator;
 
     int-to-long v2, p1
 
     invoke-virtual {v1, v2, v3}, Landroid/animation/ObjectAnimator;->setStartDelay(J)V
 
-    .line 5
     :cond_0
     iget-object p1, p0, Lcom/commsource/camera/widget/BreathTextView;->a:Landroid/animation/ObjectAnimator;
 
     invoke-virtual {p1}, Landroid/animation/ObjectAnimator;->start()V
 
-    .line 6
     iget-object p1, p0, Lcom/commsource/camera/widget/BreathTextView;->a:Landroid/animation/ObjectAnimator;
 
     new-instance v1, Lcom/commsource/camera/widget/BreathTextView$b;
@@ -108,7 +98,6 @@
 
     invoke-virtual {p1, v1}, Landroid/animation/ObjectAnimator;->addListener(Landroid/animation/Animator$AnimatorListener;)V
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -131,7 +120,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/widget/BreathTextView;->a:Landroid/animation/ObjectAnimator;
 
     if-eqz v1, :cond_0
@@ -142,7 +130,6 @@
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -150,10 +137,8 @@
     :cond_0
     const/16 v1, 0x8
 
-    .line 3
     invoke-virtual {p0, v1}, Landroid/widget/TextView;->setVisibility(I)V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -166,7 +151,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/widget/BreathTextView;->a:Landroid/animation/ObjectAnimator;
 
     if-eqz v1, :cond_0
@@ -177,16 +161,13 @@
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 3
     :cond_0
     invoke-direct {p0, p1}, Lcom/commsource/camera/widget/BreathTextView;->d(I)V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -201,10 +182,8 @@
 
     const/4 v1, 0x0
 
-    .line 1
     invoke-virtual {p0, v1}, Landroid/widget/TextView;->setVisibility(I)V
 
-    .line 2
     new-instance v1, Lcom/commsource/camera/widget/BreathTextView$a;
 
     invoke-direct {v1, p0}, Lcom/commsource/camera/widget/BreathTextView$a;-><init>(Lcom/commsource/camera/widget/BreathTextView;)V
@@ -213,7 +192,6 @@
 
     invoke-virtual {p0, v1, v2, v3}, Landroid/widget/TextView;->postDelayed(Ljava/lang/Runnable;J)Z
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

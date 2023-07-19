@@ -22,10 +22,8 @@
 .method private constructor <init>(Ljava/net/URL;)V
     .locals 0
 
-    .line 2
     invoke-direct {p0}, Lcom/google/common/io/f;-><init>()V
 
-    .line 3
     invoke-static {p1}, Lcom/google/common/base/t;->E(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -40,7 +38,6 @@
 .method synthetic constructor <init>(Ljava/net/URL;Lcom/google/common/io/b0$a;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/google/common/io/b0$b;-><init>(Ljava/net/URL;)V
 
     return-void
@@ -56,7 +53,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/io/b0$b;->a:Ljava/net/URL;
 
     invoke-virtual {v0}, Ljava/net/URL;->openStream()Ljava/io/InputStream;
@@ -69,7 +65,6 @@
 .method public toString()Ljava/lang/String;
     .locals 2
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V

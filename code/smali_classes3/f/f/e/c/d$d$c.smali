@@ -41,13 +41,10 @@
         }
     .end annotation
 
-    .line 2
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 3
     iput-object p1, p0, Lf/f/e/c/d$d$c;->a:Ljava/lang/Object;
 
-    .line 4
     iput-object p2, p0, Lf/f/e/c/d$d$c;->b:Ljava/util/Iterator;
 
     return-void
@@ -56,7 +53,6 @@
 .method synthetic constructor <init>(Ljava/lang/Object;Ljava/util/Iterator;Lf/f/e/c/d$a;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1, p2}, Lf/f/e/c/d$d$c;-><init>(Ljava/lang/Object;Ljava/util/Iterator;)V
 
     return-void
@@ -65,7 +61,6 @@
 .method static synthetic a(Lf/f/e/c/d$d$c;)Ljava/util/Iterator;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lf/f/e/c/d$d$c;->b:Ljava/util/Iterator;
 
     return-object p0
@@ -74,7 +69,6 @@
 .method static synthetic b(Lf/f/e/c/d$d$c;)Ljava/lang/Object;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lf/f/e/c/d$d$c;->a:Ljava/lang/Object;
 
     return-object p0

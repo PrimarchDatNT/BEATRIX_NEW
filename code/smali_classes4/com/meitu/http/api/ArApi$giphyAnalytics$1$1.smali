@@ -57,7 +57,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Ljava/util/HashMap;
 
     invoke-virtual {p0, p1}, Lcom/meitu/http/api/ArApi$giphyAnalytics$1$1;->invoke(Ljava/util/HashMap;)V
@@ -93,7 +92,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 2
     iget-object v1, p0, Lcom/meitu/http/api/ArApi$giphyAnalytics$1$1;->this$0:Lcom/meitu/http/api/ArApi$giphyAnalytics$1;
 
     iget-object v1, v1, Lcom/meitu/http/api/ArApi$giphyAnalytics$1;->$responseId:Ljava/lang/String;
@@ -112,7 +110,6 @@
 
     invoke-interface {p1, v3, v1}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 3
     iget-object v1, p0, Lcom/meitu/http/api/ArApi$giphyAnalytics$1$1;->this$0:Lcom/meitu/http/api/ArApi$giphyAnalytics$1;
 
     iget-boolean v1, v1, Lcom/meitu/http/api/ArApi$giphyAnalytics$1;->$isTrending:Z
@@ -131,7 +128,6 @@
 
     invoke-interface {p1, v3, v1}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 4
     iget-object v1, p0, Lcom/meitu/http/api/ArApi$giphyAnalytics$1$1;->this$0:Lcom/meitu/http/api/ArApi$giphyAnalytics$1;
 
     iget-object v1, v1, Lcom/meitu/http/api/ArApi$giphyAnalytics$1;->$gifId:Ljava/lang/String;
@@ -145,7 +141,6 @@
 
     invoke-interface {p1, v1, v2}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 5
     iget-object v1, p0, Lcom/meitu/http/api/ArApi$giphyAnalytics$1$1;->this$0:Lcom/meitu/http/api/ArApi$giphyAnalytics$1;
 
     iget-boolean v1, v1, Lcom/meitu/http/api/ArApi$giphyAnalytics$1;->$isClick:Z
@@ -164,7 +159,6 @@
 
     invoke-interface {p1, v2, v1}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 6
     sget-object v1, Lcom/meitu/http/api/ArApi;->d:Lcom/meitu/http/api/ArApi$a;
 
     invoke-static {v1}, Lcom/meitu/http/api/ArApi$a;->a(Lcom/meitu/http/api/ArApi$a;)Ljava/lang/String;
@@ -175,7 +169,6 @@
 
     invoke-interface {p1, v2, v1}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 7
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v1
@@ -188,7 +181,6 @@
 
     invoke-interface {p1, v2, v1}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

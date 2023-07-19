@@ -57,7 +57,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/studio/layer/DeFocusLayer$onStopSingleFinger$$inlined$let$lambda$1;->invoke()V
 
     sget-object v1, Lcotlin/t1;->a:Lcotlin/t1;
@@ -74,7 +73,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 2
     :try_start_0
     iget-object v1, p0, Lcom/commsource/studio/layer/DeFocusLayer$onStopSingleFinger$$inlined$let$lambda$1;->this$0:Lcom/commsource/studio/layer/DeFocusLayer;
 
@@ -82,7 +80,6 @@
 
     move-result-object v2
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/studio/layer/DeFocusLayer$onStopSingleFinger$$inlined$let$lambda$1;->this$0:Lcom/commsource/studio/layer/DeFocusLayer;
 
     invoke-virtual {v1}, Lcom/commsource/studio/layer/DeFocusLayer;->T0()Ljava/util/ArrayList;
@@ -93,10 +90,8 @@
 
     const/4 v5, 0x0
 
-    .line 4
     iget-object v6, p0, Lcom/commsource/studio/layer/DeFocusLayer$onStopSingleFinger$$inlined$let$lambda$1;->$it:Landroid/graphics/Bitmap;
 
-    .line 5
     iget-object v1, p0, Lcom/commsource/studio/layer/DeFocusLayer$onStopSingleFinger$$inlined$let$lambda$1;->this$0:Lcom/commsource/studio/layer/DeFocusLayer;
 
     invoke-static {v1}, Lcom/commsource/studio/layer/DeFocusLayer;->A0(Lcom/commsource/studio/layer/DeFocusLayer;)Lcom/commsource/beautymain/widget/gesturewidget/g;
@@ -107,7 +102,6 @@
 
     move-result-object v7
 
-    .line 6
     invoke-virtual/range {v2 .. v7}, Lcom/meitu/core/processor/ImageSegment;->addPoints(Ljava/util/ArrayList;ZZLandroid/graphics/Bitmap;Landroid/graphics/Bitmap;)Z
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
@@ -117,16 +111,13 @@
     :catch_0
     move-exception v1
 
-    .line 7
     invoke-virtual {v1}, Ljava/lang/Exception;->printStackTrace()V
 
-    .line 8
     :goto_0
     iget-object v1, p0, Lcom/commsource/studio/layer/DeFocusLayer$onStopSingleFinger$$inlined$let$lambda$1;->this$0:Lcom/commsource/studio/layer/DeFocusLayer;
 
     invoke-virtual {v1}, Lcom/commsource/studio/layer/DeFocusLayer;->Y0()V
 
-    .line 9
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

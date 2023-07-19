@@ -44,7 +44,6 @@
 .method static constructor <clinit>()V
     .locals 13
 
-    .line 1
     new-instance v0, Lcom/google/ar/core/Session$Feature;
 
     const-string v1, "FRONT_CAMERA"
@@ -57,7 +56,6 @@
 
     sput-object v0, Lcom/google/ar/core/Session$Feature;->FRONT_CAMERA:Lcom/google/ar/core/Session$Feature;
 
-    .line 2
     new-instance v1, Lcom/google/ar/core/Session$Feature;
 
     const-string v4, "SHARED_CAMERA"
@@ -68,7 +66,6 @@
 
     sput-object v1, Lcom/google/ar/core/Session$Feature;->SHARED_CAMERA:Lcom/google/ar/core/Session$Feature;
 
-    .line 3
     new-instance v4, Lcom/google/ar/core/Session$Feature;
 
     const-string v5, "PREFER_WIDE_FOV_PARTNER"
@@ -81,7 +78,6 @@
 
     sput-object v4, Lcom/google/ar/core/Session$Feature;->PREFER_WIDE_FOV_PARTNER:Lcom/google/ar/core/Session$Feature;
 
-    .line 4
     new-instance v5, Lcom/google/ar/core/Session$Feature;
 
     const-string v8, "DO_NOT_USE_ACTIVE_DEPTH_SENSOR"
@@ -94,7 +90,6 @@
 
     sput-object v5, Lcom/google/ar/core/Session$Feature;->DO_NOT_USE_ACTIVE_DEPTH_SENSOR:Lcom/google/ar/core/Session$Feature;
 
-    .line 5
     new-instance v8, Lcom/google/ar/core/Session$Feature;
 
     const-string v11, "MOTION_TRACKING_ODOMETRY"
@@ -117,7 +112,6 @@
 
     aput-object v8, v10, v7
 
-    .line 6
     sput-object v10, Lcom/google/ar/core/Session$Feature;->$VALUES:[Lcom/google/ar/core/Session$Feature;
 
     return-void
@@ -131,10 +125,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 2
     iput p3, p0, Lcom/google/ar/core/Session$Feature;->nativeCode:I
 
     return-void
@@ -143,7 +135,6 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/google/ar/core/Session$Feature;
     .locals 1
 
-    .line 1
     const-class v0, Lcom/google/ar/core/Session$Feature;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -158,7 +149,6 @@
 .method public static values()[Lcom/google/ar/core/Session$Feature;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/google/ar/core/Session$Feature;->$VALUES:[Lcom/google/ar/core/Session$Feature;
 
     invoke-virtual {v0}, [Lcom/google/ar/core/Session$Feature;->clone()Ljava/lang/Object;

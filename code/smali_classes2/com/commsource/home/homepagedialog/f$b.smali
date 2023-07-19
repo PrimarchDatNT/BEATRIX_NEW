@@ -54,7 +54,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/home/homepagedialog/f$b;->b:Lcom/commsource/push/bean/a;
 
     iget v2, v1, Lcom/commsource/push/bean/a;->n:I
@@ -65,12 +64,10 @@
 
     if-ne v2, v4, :cond_0
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/home/homepagedialog/f$b;->a:Lcom/commsource/home/homepagedialog/f;
 
     invoke-static {v1}, Lcom/commsource/home/homepagedialog/f;->k(Lcom/commsource/home/homepagedialog/f;)V
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/home/homepagedialog/f$b;->b:Lcom/commsource/push/bean/a;
 
     iget v1, v1, Lcom/commsource/push/bean/a;->g:I
@@ -81,12 +78,10 @@
 
     const-string v2, "\u542f\u52a8\u4e0b\u8f7d"
 
-    .line 4
     invoke-static {v3, v2, v1}, Lcom/commsource/statistics/i;->r(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_0
 
-    .line 5
     :cond_0
     iget v2, v1, Lcom/commsource/push/bean/a;->s:I
 
@@ -98,7 +93,6 @@
 
     if-eq v2, v4, :cond_1
 
-    .line 6
     iget v1, v1, Lcom/commsource/push/bean/a;->g:I
 
     invoke-static {v1}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
@@ -107,12 +101,10 @@
 
     const-string v2, "\u6d88\u606f\u901a\u77e5"
 
-    .line 7
     invoke-static {v3, v2, v1}, Lcom/commsource/statistics/i;->r(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_0
 
-    .line 8
     :cond_1
     iget-object v1, p0, Lcom/commsource/home/homepagedialog/f$b;->a:Lcom/commsource/home/homepagedialog/f;
 
@@ -120,13 +112,11 @@
 
     goto :goto_0
 
-    .line 9
     :cond_2
     iget-object v1, p0, Lcom/commsource/home/homepagedialog/f$b;->a:Lcom/commsource/home/homepagedialog/f;
 
     invoke-static {v1}, Lcom/commsource/home/homepagedialog/f;->l(Lcom/commsource/home/homepagedialog/f;)V
 
-    .line 10
     iget-object v1, p0, Lcom/commsource/home/homepagedialog/f$b;->b:Lcom/commsource/push/bean/a;
 
     iget v1, v1, Lcom/commsource/push/bean/a;->g:I
@@ -137,14 +127,11 @@
 
     const-string v2, "WebView"
 
-    .line 11
     invoke-static {v3, v2, v1}, Lcom/commsource/statistics/i;->r(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 12
     :goto_0
     invoke-virtual {p1}, Lcom/commsource/widget/dialog/i0;->dismiss()V
 
-    .line 13
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

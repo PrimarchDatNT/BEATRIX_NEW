@@ -7,7 +7,6 @@
 .method constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -16,7 +15,6 @@
 .method static a(Lorg/jsoup/nodes/j;)Lorg/jsoup/nodes/Document$OutputSettings;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lorg/jsoup/nodes/j;->M()Lorg/jsoup/nodes/Document;
 
     move-result-object p0
@@ -25,7 +23,6 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     new-instance p0, Lorg/jsoup/nodes/Document;
 
@@ -44,14 +41,12 @@
 .method static b(Lorg/jsoup/nodes/j;)Lorg/jsoup/parser/e;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lorg/jsoup/nodes/j;->M()Lorg/jsoup/nodes/Document;
 
     move-result-object p0
 
     if-eqz p0, :cond_0
 
-    .line 2
     invoke-virtual {p0}, Lorg/jsoup/nodes/Document;->I2()Lorg/jsoup/parser/e;
 
     move-result-object v0

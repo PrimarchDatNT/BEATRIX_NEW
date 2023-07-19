@@ -93,19 +93,16 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Landroid/widget/ImageView$ScaleType;->CENTER_CROP:Landroid/widget/ImageView$ScaleType;
 
     sput-object v1, Lcom/commsource/widget/CircleImageView;->i0:Landroid/widget/ImageView$ScaleType;
 
-    .line 2
     sget-object v1, Landroid/graphics/Bitmap$Config;->ARGB_8888:Landroid/graphics/Bitmap$Config;
 
     sput-object v1, Lcom/commsource/widget/CircleImageView;->j0:Landroid/graphics/Bitmap$Config;
 
     sget v1, Lcom/res/provider/ResCOLOR;->black10:I
 
-    .line 3
     invoke-static {v1}, Lcom/meitu/library/p/d/b;->d(I)I
 
     move-result v1
@@ -122,7 +119,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-direct {p0, p1, v0}, Lcom/commsource/widget/CircleImageView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
     return-void
@@ -133,7 +129,6 @@
 
     const/4 v0, 0x0
 
-    .line 2
     invoke-direct {p0, p1, p2, v0}, Lcom/commsource/widget/CircleImageView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
     return-void
@@ -142,81 +137,66 @@
 .method public constructor <init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
     .locals 4
 
-    .line 3
     invoke-direct {p0, p1, p2, p3}, Landroidx/appcompat/widget/AppCompatImageView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
-    .line 4
     new-instance v0, Landroid/graphics/RectF;
 
     invoke-direct {v0}, Landroid/graphics/RectF;-><init>()V
 
     iput-object v0, p0, Lcom/commsource/widget/CircleImageView;->a:Landroid/graphics/RectF;
 
-    .line 5
     new-instance v0, Landroid/graphics/RectF;
 
     invoke-direct {v0}, Landroid/graphics/RectF;-><init>()V
 
     iput-object v0, p0, Lcom/commsource/widget/CircleImageView;->b:Landroid/graphics/RectF;
 
-    .line 6
     new-instance v0, Landroid/graphics/Matrix;
 
     invoke-direct {v0}, Landroid/graphics/Matrix;-><init>()V
 
     iput-object v0, p0, Lcom/commsource/widget/CircleImageView;->c:Landroid/graphics/Matrix;
 
-    .line 7
     new-instance v0, Landroid/graphics/Paint;
 
     invoke-direct {v0}, Landroid/graphics/Paint;-><init>()V
 
     iput-object v0, p0, Lcom/commsource/widget/CircleImageView;->d:Landroid/graphics/Paint;
 
-    .line 8
     new-instance v0, Landroid/graphics/Paint;
 
     invoke-direct {v0}, Landroid/graphics/Paint;-><init>()V
 
     iput-object v0, p0, Lcom/commsource/widget/CircleImageView;->f:Landroid/graphics/Paint;
 
-    .line 9
     sget v0, Lcom/commsource/widget/CircleImageView;->m0:I
 
     iput v0, p0, Lcom/commsource/widget/CircleImageView;->g:I
 
     const/4 v1, 0x0
 
-    .line 10
     iput v1, p0, Lcom/commsource/widget/CircleImageView;->p:I
 
-    .line 11
     iput-boolean v1, p0, Lcom/commsource/widget/CircleImageView;->Q:Z
 
-    .line 12
     new-instance v2, Landroid/graphics/RectF;
 
     invoke-direct {v2}, Landroid/graphics/RectF;-><init>()V
 
     iput-object v2, p0, Lcom/commsource/widget/CircleImageView;->S:Landroid/graphics/RectF;
 
-    .line 13
     iput v1, p0, Lcom/commsource/widget/CircleImageView;->T:I
 
-    .line 14
     iput v1, p0, Lcom/commsource/widget/CircleImageView;->f0:I
 
     const/high16 v2, 0x3f800000    # 1.0f
 
-    .line 15
     iput v2, p0, Lcom/commsource/widget/CircleImageView;->g0:F
 
     const/4 v3, 0x0
 
-    .line 16
     iput v3, p0, Lcom/commsource/widget/CircleImageView;->h0:F
 
-    .line 17
     sget-object v3, Lcom/res/provider/ResSTYLEABLE;->P:[I
 
     invoke-virtual {p1, p2, v3, p3, v1}, Landroid/content/Context;->obtainStyledAttributes(Landroid/util/AttributeSet;[III)Landroid/content/res/TypedArray;
@@ -225,14 +205,12 @@
 
     const/4 p2, 0x1
 
-    .line 18
     invoke-virtual {p1, p2, v1}, Landroid/content/res/TypedArray;->getDimensionPixelSize(II)I
 
     move-result p3
 
     iput p3, p0, Lcom/commsource/widget/CircleImageView;->p:I
 
-    .line 19
     invoke-virtual {p1, v1, v0}, Landroid/content/res/TypedArray;->getColor(II)I
 
     move-result p3
@@ -241,7 +219,6 @@
 
     const/16 p3, 0xc
 
-    .line 20
     invoke-virtual {p1, p3, v1}, Landroid/content/res/TypedArray;->getDimensionPixelSize(II)I
 
     move-result p3
@@ -250,7 +227,6 @@
 
     const/4 p3, 0x6
 
-    .line 21
     invoke-virtual {p1, p3, v1}, Landroid/content/res/TypedArray;->getBoolean(IZ)Z
 
     move-result p3
@@ -259,7 +235,6 @@
 
     const/16 p3, 0x8
 
-    .line 22
     invoke-virtual {p1, p3, p2}, Landroid/content/res/TypedArray;->getBoolean(IZ)Z
 
     move-result p3
@@ -268,7 +243,6 @@
 
     const/4 p3, 0x7
 
-    .line 23
     invoke-virtual {p1, p3, p2}, Landroid/content/res/TypedArray;->getBoolean(IZ)Z
 
     move-result p3
@@ -277,7 +251,6 @@
 
     const/16 p3, 0xb
 
-    .line 24
     invoke-virtual {p1, p3, p2}, Landroid/content/res/TypedArray;->getBoolean(IZ)Z
 
     move-result p3
@@ -286,7 +259,6 @@
 
     const/16 p3, 0xa
 
-    .line 25
     invoke-virtual {p1, p3, p2}, Landroid/content/res/TypedArray;->getBoolean(IZ)Z
 
     move-result p2
@@ -295,7 +267,6 @@
 
     const/4 p2, 0x4
 
-    .line 26
     invoke-virtual {p1, p2, v1}, Landroid/content/res/TypedArray;->getInt(II)I
 
     move-result p2
@@ -304,14 +275,12 @@
 
     const/4 p2, 0x5
 
-    .line 27
     invoke-virtual {p1, p2, v2}, Landroid/content/res/TypedArray;->getFloat(IF)F
 
     move-result p2
 
     iput p2, p0, Lcom/commsource/widget/CircleImageView;->g0:F
 
-    .line 28
     invoke-virtual {p1}, Landroid/content/res/TypedArray;->recycle()V
 
     return-void
@@ -328,19 +297,16 @@
 
     if-nez p1, :cond_0
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
 
-    .line 2
     :cond_0
     :try_start_0
     instance-of v2, p1, Landroid/graphics/drawable/BitmapDrawable;
 
     if-eqz v2, :cond_1
 
-    .line 3
     check-cast p1, Landroid/graphics/drawable/BitmapDrawable;
 
     invoke-virtual {p1}, Landroid/graphics/drawable/BitmapDrawable;->getBitmap()Landroid/graphics/Bitmap;
@@ -349,13 +315,11 @@
 
     goto :goto_1
 
-    .line 4
     :cond_1
     instance-of v2, p1, Landroid/graphics/drawable/ColorDrawable;
 
     if-eqz v2, :cond_2
 
-    .line 5
     sget-object v2, Lcom/commsource/widget/CircleImageView;->j0:Landroid/graphics/Bitmap$Config;
 
     const/4 v3, 0x2
@@ -366,7 +330,6 @@
 
     goto :goto_0
 
-    .line 6
     :cond_2
     invoke-virtual {p1}, Landroid/graphics/drawable/Drawable;->getIntrinsicWidth()I
 
@@ -382,13 +345,11 @@
 
     move-result-object v2
 
-    .line 7
     :goto_0
     new-instance v3, Landroid/graphics/Canvas;
 
     invoke-direct {v3, v2}, Landroid/graphics/Canvas;-><init>(Landroid/graphics/Bitmap;)V
 
-    .line 8
     invoke-virtual {v3}, Landroid/graphics/Canvas;->getWidth()I
 
     move-result v4
@@ -401,7 +362,6 @@
 
     invoke-virtual {p1, v6, v6, v4, v5}, Landroid/graphics/drawable/Drawable;->setBounds(IIII)V
 
-    .line 9
     invoke-virtual {p1, v3}, Landroid/graphics/drawable/Drawable;->draw(Landroid/graphics/Canvas;)V
     :try_end_0
     .catch Ljava/lang/OutOfMemoryError; {:try_start_0 .. :try_end_0} :catch_1
@@ -409,19 +369,16 @@
 
     move-object p1, v2
 
-    .line 10
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p1
 
-    .line 11
     :catch_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
 
-    .line 12
     :catch_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -435,7 +392,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/widget/CircleImageView;->J:Landroid/graphics/Bitmap;
 
     if-eqz v1, :cond_1
@@ -454,7 +410,6 @@
 
     goto/16 :goto_0
 
-    .line 2
     :cond_0
     new-instance v1, Landroid/graphics/BitmapShader;
 
@@ -466,40 +421,34 @@
 
     iput-object v1, p0, Lcom/commsource/widget/CircleImageView;->K:Landroid/graphics/BitmapShader;
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/widget/CircleImageView;->d:Landroid/graphics/Paint;
 
     const/4 v2, 0x1
 
     invoke-virtual {v1, v2}, Landroid/graphics/Paint;->setAntiAlias(Z)V
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/widget/CircleImageView;->d:Landroid/graphics/Paint;
 
     iget-object v3, p0, Lcom/commsource/widget/CircleImageView;->K:Landroid/graphics/BitmapShader;
 
     invoke-virtual {v1, v3}, Landroid/graphics/Paint;->setShader(Landroid/graphics/Shader;)Landroid/graphics/Shader;
 
-    .line 5
     iget-object v1, p0, Lcom/commsource/widget/CircleImageView;->f:Landroid/graphics/Paint;
 
     sget-object v3, Landroid/graphics/Paint$Style;->STROKE:Landroid/graphics/Paint$Style;
 
     invoke-virtual {v1, v3}, Landroid/graphics/Paint;->setStyle(Landroid/graphics/Paint$Style;)V
 
-    .line 6
     iget-object v1, p0, Lcom/commsource/widget/CircleImageView;->f:Landroid/graphics/Paint;
 
     invoke-virtual {v1, v2}, Landroid/graphics/Paint;->setAntiAlias(Z)V
 
-    .line 7
     iget-object v1, p0, Lcom/commsource/widget/CircleImageView;->f:Landroid/graphics/Paint;
 
     iget v2, p0, Lcom/commsource/widget/CircleImageView;->g:I
 
     invoke-virtual {v1, v2}, Landroid/graphics/Paint;->setColor(I)V
 
-    .line 8
     iget-object v1, p0, Lcom/commsource/widget/CircleImageView;->f:Landroid/graphics/Paint;
 
     iget v2, p0, Lcom/commsource/widget/CircleImageView;->p:I
@@ -508,7 +457,6 @@
 
     invoke-virtual {v1, v2}, Landroid/graphics/Paint;->setStrokeWidth(F)V
 
-    .line 9
     iget-object v1, p0, Lcom/commsource/widget/CircleImageView;->J:Landroid/graphics/Bitmap;
 
     invoke-virtual {v1}, Landroid/graphics/Bitmap;->getHeight()I
@@ -517,7 +465,6 @@
 
     iput v1, p0, Lcom/commsource/widget/CircleImageView;->M:I
 
-    .line 10
     iget-object v1, p0, Lcom/commsource/widget/CircleImageView;->J:Landroid/graphics/Bitmap;
 
     invoke-virtual {v1}, Landroid/graphics/Bitmap;->getWidth()I
@@ -526,7 +473,6 @@
 
     iput v1, p0, Lcom/commsource/widget/CircleImageView;->L:I
 
-    .line 11
     iget-object v1, p0, Lcom/commsource/widget/CircleImageView;->b:Landroid/graphics/RectF;
 
     invoke-virtual {p0}, Landroid/widget/ImageView;->getWidth()I
@@ -545,7 +491,6 @@
 
     invoke-virtual {v1, v4, v4, v2, v3}, Landroid/graphics/RectF;->set(FFFF)V
 
-    .line 12
     iget-object v1, p0, Lcom/commsource/widget/CircleImageView;->b:Landroid/graphics/RectF;
 
     invoke-virtual {v1}, Landroid/graphics/RectF;->height()F
@@ -582,7 +527,6 @@
 
     iput v1, p0, Lcom/commsource/widget/CircleImageView;->O:F
 
-    .line 13
     iget-object v1, p0, Lcom/commsource/widget/CircleImageView;->a:Landroid/graphics/RectF;
 
     iget v3, p0, Lcom/commsource/widget/CircleImageView;->p:I
@@ -605,7 +549,6 @@
 
     iget-object v6, p0, Lcom/commsource/widget/CircleImageView;->b:Landroid/graphics/RectF;
 
-    .line 14
     invoke-virtual {v6}, Landroid/graphics/RectF;->height()F
 
     move-result v6
@@ -616,10 +559,8 @@
 
     sub-float/2addr v6, v7
 
-    .line 15
     invoke-virtual {v1, v4, v3, v5, v6}, Landroid/graphics/RectF;->set(FFFF)V
 
-    .line 16
     iget-object v1, p0, Lcom/commsource/widget/CircleImageView;->a:Landroid/graphics/RectF;
 
     invoke-virtual {v1}, Landroid/graphics/RectF;->height()F
@@ -642,18 +583,14 @@
 
     iput v1, p0, Lcom/commsource/widget/CircleImageView;->N:F
 
-    .line 17
     invoke-direct {p0}, Lcom/commsource/widget/CircleImageView;->c()V
 
-    .line 18
     invoke-virtual {p0}, Landroid/widget/ImageView;->invalidate()V
 
-    .line 19
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 20
     :cond_1
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -668,46 +605,39 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/widget/CircleImageView;->a:Landroid/graphics/RectF;
 
     invoke-virtual {v1}, Landroid/graphics/RectF;->height()F
 
     move-result v1
 
-    .line 2
     iget-object v2, p0, Lcom/commsource/widget/CircleImageView;->a:Landroid/graphics/RectF;
 
     invoke-virtual {v2}, Landroid/graphics/RectF;->width()F
 
     move-result v2
 
-    .line 3
     iget v3, p0, Lcom/commsource/widget/CircleImageView;->f0:I
 
     const/4 v4, 0x0
 
     if-nez v3, :cond_4
 
-    .line 4
     iget-boolean v3, p0, Lcom/commsource/widget/CircleImageView;->Q:Z
 
     if-eqz v3, :cond_0
 
-    .line 5
     invoke-static {v2, v1}, Ljava/lang/Math;->min(FF)F
 
     move-result v1
 
     move v2, v1
 
-    .line 6
     :cond_0
     invoke-virtual {p0}, Landroid/widget/ImageView;->getScaleType()Landroid/widget/ImageView$ScaleType;
 
     move-result-object v3
 
-    .line 7
     iget v5, p0, Lcom/commsource/widget/CircleImageView;->L:I
 
     int-to-float v6, v5
@@ -763,7 +693,6 @@
 
     const/4 v5, 0x0
 
-    .line 8
     :goto_0
     sget-object v8, Landroid/widget/ImageView$ScaleType;->FIT_START:Landroid/widget/ImageView$ScaleType;
 
@@ -775,7 +704,6 @@
 
     goto :goto_1
 
-    .line 9
     :cond_2
     sget-object v4, Landroid/widget/ImageView$ScaleType;->FIT_END:Landroid/widget/ImageView$ScaleType;
 
@@ -792,7 +720,6 @@
 
     move v3, v6
 
-    .line 10
     :goto_1
     iget-object v5, p0, Lcom/commsource/widget/CircleImageView;->a:Landroid/graphics/RectF;
 
@@ -806,7 +733,6 @@
 
     add-float/2addr v4, v5
 
-    .line 11
     iget-object v2, p0, Lcom/commsource/widget/CircleImageView;->a:Landroid/graphics/RectF;
 
     invoke-virtual {v2}, Landroid/graphics/RectF;->height()F
@@ -819,19 +745,16 @@
 
     add-float/2addr v3, v2
 
-    .line 12
     iget-object v1, p0, Lcom/commsource/widget/CircleImageView;->c:Landroid/graphics/Matrix;
 
     const/4 v2, 0x0
 
     invoke-virtual {v1, v2}, Landroid/graphics/Matrix;->set(Landroid/graphics/Matrix;)V
 
-    .line 13
     iget-object v1, p0, Lcom/commsource/widget/CircleImageView;->c:Landroid/graphics/Matrix;
 
     invoke-virtual {v1, v7, v7}, Landroid/graphics/Matrix;->setScale(FF)V
 
-    .line 14
     iget-object v1, p0, Lcom/commsource/widget/CircleImageView;->c:Landroid/graphics/Matrix;
 
     add-float/2addr v4, v9
@@ -856,20 +779,17 @@
 
     goto :goto_2
 
-    .line 15
     :cond_4
     iget-object v1, p0, Lcom/commsource/widget/CircleImageView;->c:Landroid/graphics/Matrix;
 
     invoke-virtual {v1}, Landroid/graphics/Matrix;->reset()V
 
-    .line 16
     iget-object v1, p0, Lcom/commsource/widget/CircleImageView;->c:Landroid/graphics/Matrix;
 
     iget v2, p0, Lcom/commsource/widget/CircleImageView;->g0:F
 
     invoke-virtual {v1, v2, v2}, Landroid/graphics/Matrix;->postScale(FF)Z
 
-    .line 17
     iget v1, p0, Lcom/commsource/widget/CircleImageView;->f0:I
 
     const/4 v2, 0x2
@@ -888,7 +808,6 @@
 
     goto :goto_2
 
-    .line 18
     :cond_5
     iget-object v1, p0, Lcom/commsource/widget/CircleImageView;->c:Landroid/graphics/Matrix;
 
@@ -912,7 +831,6 @@
 
     iget-object v4, p0, Lcom/commsource/widget/CircleImageView;->a:Landroid/graphics/RectF;
 
-    .line 19
     invoke-virtual {v4}, Landroid/graphics/RectF;->height()F
 
     move-result v4
@@ -929,12 +847,10 @@
 
     add-float/2addr v4, v3
 
-    .line 20
     invoke-virtual {v1, v2, v4}, Landroid/graphics/Matrix;->postTranslate(FF)Z
 
     goto :goto_2
 
-    .line 21
     :cond_6
     iget-object v1, p0, Lcom/commsource/widget/CircleImageView;->c:Landroid/graphics/Matrix;
 
@@ -960,7 +876,6 @@
 
     goto :goto_2
 
-    .line 22
     :cond_7
     iget-object v1, p0, Lcom/commsource/widget/CircleImageView;->c:Landroid/graphics/Matrix;
 
@@ -984,7 +899,6 @@
 
     invoke-virtual {v1, v2, v4}, Landroid/graphics/Matrix;->postTranslate(FF)Z
 
-    .line 23
     :goto_2
     iget-object v1, p0, Lcom/commsource/widget/CircleImageView;->K:Landroid/graphics/BitmapShader;
 
@@ -992,7 +906,6 @@
 
     invoke-virtual {v1, v2}, Landroid/graphics/BitmapShader;->setLocalMatrix(Landroid/graphics/Matrix;)V
 
-    .line 24
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1007,7 +920,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/widget/CircleImageView;->g:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1022,7 +934,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/widget/CircleImageView;->p:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1037,23 +948,19 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/widget/CircleImageView;->J:Landroid/graphics/Bitmap;
 
     if-nez v1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 3
     :cond_0
     iget-boolean v1, p0, Lcom/commsource/widget/CircleImageView;->Q:Z
 
     if-eqz v1, :cond_1
 
-    .line 4
     invoke-virtual {p0}, Landroid/widget/ImageView;->getWidth()I
 
     move-result v1
@@ -1078,12 +985,10 @@
 
     invoke-virtual {p1, v1, v3, v2, v4}, Landroid/graphics/Canvas;->drawCircle(FFFLandroid/graphics/Paint;)V
 
-    .line 5
     iget v1, p0, Lcom/commsource/widget/CircleImageView;->p:I
 
     if-eqz v1, :cond_7
 
-    .line 6
     invoke-virtual {p0}, Landroid/widget/ImageView;->getWidth()I
 
     move-result v1
@@ -1108,13 +1013,11 @@
 
     goto :goto_0
 
-    .line 7
     :cond_1
     iget-object v1, p0, Lcom/commsource/widget/CircleImageView;->R:Landroid/graphics/RectF;
 
     if-eqz v1, :cond_2
 
-    .line 8
     iget v2, p0, Lcom/commsource/widget/CircleImageView;->T:I
 
     int-to-float v3, v2
@@ -1125,7 +1028,6 @@
 
     invoke-virtual {p1, v1, v3, v2, v4}, Landroid/graphics/Canvas;->drawRoundRect(Landroid/graphics/RectF;FFLandroid/graphics/Paint;)V
 
-    .line 9
     :cond_2
     iget-boolean v1, p0, Lcom/commsource/widget/CircleImageView;->U:Z
 
@@ -1135,12 +1037,10 @@
 
     if-eqz v1, :cond_3
 
-    .line 10
     iget-object v2, p0, Lcom/commsource/widget/CircleImageView;->d:Landroid/graphics/Paint;
 
     invoke-virtual {p1, v1, v2}, Landroid/graphics/Canvas;->drawRect(Landroid/graphics/RectF;Landroid/graphics/Paint;)V
 
-    .line 11
     :cond_3
     iget-boolean v1, p0, Lcom/commsource/widget/CircleImageView;->W:Z
 
@@ -1150,12 +1050,10 @@
 
     if-eqz v1, :cond_4
 
-    .line 12
     iget-object v2, p0, Lcom/commsource/widget/CircleImageView;->d:Landroid/graphics/Paint;
 
     invoke-virtual {p1, v1, v2}, Landroid/graphics/Canvas;->drawRect(Landroid/graphics/RectF;Landroid/graphics/Paint;)V
 
-    .line 13
     :cond_4
     iget-boolean v1, p0, Lcom/commsource/widget/CircleImageView;->V:Z
 
@@ -1165,12 +1063,10 @@
 
     if-eqz v1, :cond_5
 
-    .line 14
     iget-object v2, p0, Lcom/commsource/widget/CircleImageView;->d:Landroid/graphics/Paint;
 
     invoke-virtual {p1, v1, v2}, Landroid/graphics/Canvas;->drawRect(Landroid/graphics/RectF;Landroid/graphics/Paint;)V
 
-    .line 15
     :cond_5
     iget-boolean v1, p0, Lcom/commsource/widget/CircleImageView;->a0:Z
 
@@ -1180,23 +1076,19 @@
 
     if-eqz v1, :cond_6
 
-    .line 16
     iget-object v2, p0, Lcom/commsource/widget/CircleImageView;->d:Landroid/graphics/Paint;
 
     invoke-virtual {p1, v1, v2}, Landroid/graphics/Canvas;->drawRect(Landroid/graphics/RectF;Landroid/graphics/Paint;)V
 
-    .line 17
     :cond_6
     iget v1, p0, Lcom/commsource/widget/CircleImageView;->p:I
 
     if-eqz v1, :cond_7
 
-    .line 18
     iget-object v1, p0, Lcom/commsource/widget/CircleImageView;->R:Landroid/graphics/RectF;
 
     if-eqz v1, :cond_7
 
-    .line 19
     iget-object v1, p0, Lcom/commsource/widget/CircleImageView;->S:Landroid/graphics/RectF;
 
     iget v2, p0, Lcom/commsource/widget/CircleImageView;->T:I
@@ -1209,7 +1101,6 @@
 
     invoke-virtual {p1, v1, v3, v2, v4}, Landroid/graphics/Canvas;->drawRoundRect(Landroid/graphics/RectF;FFLandroid/graphics/Paint;)V
 
-    .line 20
     :cond_7
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1224,7 +1115,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/widget/CircleImageView;->h0:F
 
     const/4 v2, 0x0
@@ -1233,14 +1123,12 @@
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-static {p1}, Landroid/view/View$MeasureSpec;->getSize(I)I
 
     move-result p1
 
     int-to-float p2, p1
 
-    .line 3
     iget v1, p0, Lcom/commsource/widget/CircleImageView;->h0:F
 
     div-float/2addr p2, v1
@@ -1249,16 +1137,13 @@
 
     move-result p2
 
-    .line 4
     invoke-virtual {p0, p1, p2}, Landroid/widget/ImageView;->setMeasuredDimension(II)V
 
     goto :goto_0
 
-    .line 5
     :cond_0
     invoke-super {p0, p1, p2}, Landroid/widget/ImageView;->onMeasure(II)V
 
-    .line 6
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1272,10 +1157,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0, p1, p2, p3, p4}, Landroid/widget/ImageView;->onSizeChanged(IIII)V
 
-    .line 2
     new-instance p3, Landroid/graphics/RectF;
 
     int-to-float p1, p1
@@ -1288,12 +1171,10 @@
 
     iput-object p3, p0, Lcom/commsource/widget/CircleImageView;->R:Landroid/graphics/RectF;
 
-    .line 3
     iget-object p1, p0, Lcom/commsource/widget/CircleImageView;->S:Landroid/graphics/RectF;
 
     invoke-virtual {p1, p3}, Landroid/graphics/RectF;->set(Landroid/graphics/RectF;)V
 
-    .line 4
     iget-object p1, p0, Lcom/commsource/widget/CircleImageView;->S:Landroid/graphics/RectF;
 
     iget p2, p0, Lcom/commsource/widget/CircleImageView;->p:I
@@ -1310,7 +1191,6 @@
 
     invoke-virtual {p1, p3, p2}, Landroid/graphics/RectF;->inset(FF)V
 
-    .line 5
     new-instance p1, Landroid/graphics/RectF;
 
     iget p2, p0, Lcom/commsource/widget/CircleImageView;->T:I
@@ -1323,7 +1203,6 @@
 
     iput-object p1, p0, Lcom/commsource/widget/CircleImageView;->b0:Landroid/graphics/RectF;
 
-    .line 6
     new-instance p1, Landroid/graphics/RectF;
 
     iget-object p2, p0, Lcom/commsource/widget/CircleImageView;->R:Landroid/graphics/RectF;
@@ -1342,7 +1221,6 @@
 
     iput-object p1, p0, Lcom/commsource/widget/CircleImageView;->c0:Landroid/graphics/RectF;
 
-    .line 7
     new-instance p1, Landroid/graphics/RectF;
 
     iget-object p2, p0, Lcom/commsource/widget/CircleImageView;->R:Landroid/graphics/RectF;
@@ -1361,7 +1239,6 @@
 
     iput-object p1, p0, Lcom/commsource/widget/CircleImageView;->d0:Landroid/graphics/RectF;
 
-    .line 8
     new-instance p1, Landroid/graphics/RectF;
 
     iget-object p2, p0, Lcom/commsource/widget/CircleImageView;->R:Landroid/graphics/RectF;
@@ -1384,10 +1261,8 @@
 
     iput-object p1, p0, Lcom/commsource/widget/CircleImageView;->e0:Landroid/graphics/RectF;
 
-    .line 9
     invoke-direct {p0}, Lcom/commsource/widget/CircleImageView;->b()V
 
-    .line 10
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1402,12 +1277,10 @@
 
     if-nez p1, :cond_0
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 2
     :cond_0
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -1427,10 +1300,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/widget/CircleImageView;->h0:F
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1443,29 +1314,23 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/widget/CircleImageView;->g:I
 
     if-ne p1, v1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 3
     :cond_0
     iput p1, p0, Lcom/commsource/widget/CircleImageView;->g:I
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/widget/CircleImageView;->f:Landroid/graphics/Paint;
 
     invoke-virtual {v1, p1}, Landroid/graphics/Paint;->setColor(I)V
 
-    .line 5
     invoke-virtual {p0}, Landroid/widget/ImageView;->invalidate()V
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1478,33 +1343,27 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/widget/CircleImageView;->p:I
 
     if-ne p1, v1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 3
     :cond_0
     iput p1, p0, Lcom/commsource/widget/CircleImageView;->p:I
 
-    .line 4
     iget-object p1, p0, Lcom/commsource/widget/CircleImageView;->R:Landroid/graphics/RectF;
 
     if-nez p1, :cond_1
 
-    .line 5
     new-instance p1, Landroid/graphics/RectF;
 
     invoke-direct {p1}, Landroid/graphics/RectF;-><init>()V
 
     iput-object p1, p0, Lcom/commsource/widget/CircleImageView;->R:Landroid/graphics/RectF;
 
-    .line 6
     :cond_1
     iget-object p1, p0, Lcom/commsource/widget/CircleImageView;->S:Landroid/graphics/RectF;
 
@@ -1512,7 +1371,6 @@
 
     invoke-virtual {p1, v1}, Landroid/graphics/RectF;->set(Landroid/graphics/RectF;)V
 
-    .line 7
     iget-object p1, p0, Lcom/commsource/widget/CircleImageView;->S:Landroid/graphics/RectF;
 
     iget v1, p0, Lcom/commsource/widget/CircleImageView;->p:I
@@ -1529,10 +1387,8 @@
 
     invoke-virtual {p1, v2, v1}, Landroid/graphics/RectF;->inset(FF)V
 
-    .line 8
     invoke-direct {p0}, Lcom/commsource/widget/CircleImageView;->b()V
 
-    .line 9
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1545,29 +1401,23 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/widget/CircleImageView;->P:Landroid/graphics/ColorFilter;
 
     if-ne p1, v1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 3
     :cond_0
     iput-object p1, p0, Lcom/commsource/widget/CircleImageView;->P:Landroid/graphics/ColorFilter;
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/widget/CircleImageView;->d:Landroid/graphics/Paint;
 
     invoke-virtual {v1, p1}, Landroid/graphics/Paint;->setColorFilter(Landroid/graphics/ColorFilter;)Landroid/graphics/ColorFilter;
 
-    .line 5
     invoke-virtual {p0}, Landroid/widget/ImageView;->invalidate()V
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1580,10 +1430,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/widget/CircleImageView;->f0:I
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1596,10 +1444,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/widget/CircleImageView;->Q:Z
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1612,16 +1458,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0, p1}, Landroidx/appcompat/widget/AppCompatImageView;->setImageBitmap(Landroid/graphics/Bitmap;)V
 
-    .line 2
     iput-object p1, p0, Lcom/commsource/widget/CircleImageView;->J:Landroid/graphics/Bitmap;
 
-    .line 3
     invoke-direct {p0}, Lcom/commsource/widget/CircleImageView;->b()V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1634,20 +1476,16 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0, p1}, Landroidx/appcompat/widget/AppCompatImageView;->setImageDrawable(Landroid/graphics/drawable/Drawable;)V
 
-    .line 2
     invoke-direct {p0, p1}, Lcom/commsource/widget/CircleImageView;->a(Landroid/graphics/drawable/Drawable;)Landroid/graphics/Bitmap;
 
     move-result-object p1
 
     iput-object p1, p0, Lcom/commsource/widget/CircleImageView;->J:Landroid/graphics/Bitmap;
 
-    .line 3
     invoke-direct {p0}, Lcom/commsource/widget/CircleImageView;->b()V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1660,10 +1498,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0, p1}, Landroidx/appcompat/widget/AppCompatImageView;->setImageResource(I)V
 
-    .line 2
     invoke-virtual {p0}, Landroid/widget/ImageView;->getDrawable()Landroid/graphics/drawable/Drawable;
 
     move-result-object p1
@@ -1674,10 +1510,8 @@
 
     iput-object p1, p0, Lcom/commsource/widget/CircleImageView;->J:Landroid/graphics/Bitmap;
 
-    .line 3
     invoke-direct {p0}, Lcom/commsource/widget/CircleImageView;->b()V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1690,10 +1524,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/widget/CircleImageView;->T:I
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

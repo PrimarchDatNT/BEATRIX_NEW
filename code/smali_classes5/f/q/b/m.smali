@@ -35,7 +35,6 @@
 
     const/16 v0, 0x400
 
-    .line 1
     sput v0, Lf/q/b/m;->g:I
 
     return-void
@@ -44,7 +43,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -53,7 +51,6 @@
 .method private static synthetic a()V
     .locals 10
 
-    .line 1
     new-instance v8, Ln/a/b/c/e;
 
     const-class v0, Lf/q/b/m;
@@ -182,7 +179,6 @@
 .method static final synthetic b(Landroid/net/ConnectivityManager;Lorg/aspectj/lang/c;)Landroid/net/NetworkInfo;
     .locals 0
 
-    .line 1
     invoke-virtual {p0}, Landroid/net/ConnectivityManager;->getActiveNetworkInfo()Landroid/net/NetworkInfo;
 
     move-result-object p0
@@ -193,7 +189,6 @@
 .method static final synthetic c(Landroid/net/ConnectivityManager;Lorg/aspectj/lang/c;)Landroid/net/NetworkInfo;
     .locals 0
 
-    .line 1
     invoke-virtual {p0}, Landroid/net/ConnectivityManager;->getActiveNetworkInfo()Landroid/net/NetworkInfo;
 
     move-result-object p0
@@ -204,7 +199,6 @@
 .method static final synthetic d(Landroid/net/ConnectivityManager;Lorg/aspectj/lang/c;)Landroid/net/NetworkInfo;
     .locals 0
 
-    .line 1
     invoke-virtual {p0}, Landroid/net/ConnectivityManager;->getActiveNetworkInfo()Landroid/net/NetworkInfo;
 
     move-result-object p0
@@ -215,7 +209,6 @@
 .method static final synthetic e(Landroid/net/ConnectivityManager;Lorg/aspectj/lang/c;)Landroid/net/NetworkInfo;
     .locals 0
 
-    .line 1
     invoke-virtual {p0}, Landroid/net/ConnectivityManager;->getActiveNetworkInfo()Landroid/net/NetworkInfo;
 
     move-result-object p0
@@ -229,14 +222,12 @@
     :try_start_0
     const-string v0, "connectivity"
 
-    .line 1
     invoke-virtual {p0, v0}, Landroid/content/Context;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
 
     move-result-object p0
 
     check-cast p0, Landroid/net/ConnectivityManager;
 
-    .line 2
     sget-object v0, Lf/q/b/m;->k:Lorg/aspectj/lang/c$b;
 
     const/4 v1, 0x0
@@ -279,7 +270,6 @@
 
     if-eqz v0, :cond_2
 
-    .line 3
     invoke-virtual {v0}, Landroid/net/NetworkInfo;->getType()I
 
     move-result v1
@@ -288,18 +278,15 @@
 
     const p0, 0x19000
 
-    .line 4
     sput p0, Lf/q/b/m;->g:I
 
     goto :goto_0
 
-    .line 5
     :cond_0
     invoke-virtual {v0}, Landroid/net/NetworkInfo;->getSubtype()I
 
     move-result p0
 
-    .line 6
     invoke-static {p0}, Lf/q/b/m;->i(I)Z
 
     move-result p0
@@ -308,7 +295,6 @@
 
     const/16 p0, 0x800
 
-    .line 7
     sput p0, Lf/q/b/m;->g:I
 
     goto :goto_0
@@ -316,12 +302,10 @@
     :cond_1
     const/16 p0, 0x1400
 
-    .line 8
     sput p0, Lf/q/b/m;->g:I
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
-    .line 9
     :catch_0
     :cond_2
     :goto_0
@@ -336,14 +320,12 @@
     :try_start_0
     const-string v0, "connectivity"
 
-    .line 1
     invoke-virtual {p0, v0}, Landroid/content/Context;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
 
     move-result-object p0
 
     check-cast p0, Landroid/net/ConnectivityManager;
 
-    .line 2
     sget-object v0, Lf/q/b/m;->j:Lorg/aspectj/lang/c$b;
 
     const/4 v1, 0x0
@@ -386,7 +368,6 @@
 
     if-eqz v0, :cond_2
 
-    .line 3
     invoke-virtual {v0}, Landroid/net/NetworkInfo;->getType()I
 
     move-result v1
@@ -395,18 +376,15 @@
 
     const p0, 0x19000
 
-    .line 4
     sput p0, Lf/q/b/m;->g:I
 
     goto :goto_0
 
-    .line 5
     :cond_0
     invoke-virtual {v0}, Landroid/net/NetworkInfo;->getSubtype()I
 
     move-result p0
 
-    .line 6
     invoke-static {p0}, Lf/q/b/m;->i(I)Z
 
     move-result p0
@@ -415,7 +393,6 @@
 
     const/16 p0, 0x1400
 
-    .line 7
     sput p0, Lf/q/b/m;->g:I
 
     goto :goto_0
@@ -423,12 +400,10 @@
     :cond_1
     const/16 p0, 0x7800
 
-    .line 8
     sput p0, Lf/q/b/m;->g:I
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
-    .line 9
     :catch_0
     :cond_2
     :goto_0
@@ -450,14 +425,12 @@
     :try_start_0
     const-string v1, "connectivity"
 
-    .line 1
     invoke-virtual {p0, v1}, Landroid/content/Context;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
 
     move-result-object v1
 
     check-cast v1, Landroid/net/ConnectivityManager;
 
-    .line 2
     sget-object v2, Lf/q/b/m;->h:Lorg/aspectj/lang/c$b;
 
     const/4 v3, 0x0
@@ -500,21 +473,18 @@
 
     if-eqz v2, :cond_5
 
-    .line 3
     invoke-virtual {v2}, Landroid/net/NetworkInfo;->isConnected()Z
 
     move-result v5
 
     if-eqz v5, :cond_5
 
-    .line 4
     invoke-virtual {v2}, Landroid/net/NetworkInfo;->getType()I
 
     move-result v5
 
     if-ne v5, v1, :cond_2
 
-    .line 5
     invoke-static {p0}, Lf/q/b/m;->n(Landroid/content/Context;)Z
 
     move-result p0
@@ -530,13 +500,11 @@
 
     goto :goto_0
 
-    .line 6
     :cond_2
     invoke-virtual {v2}, Landroid/net/NetworkInfo;->getSubtype()I
 
     move-result p0
 
-    .line 7
     invoke-static {p0}, Lf/q/b/m;->i(I)Z
 
     move-result v2
@@ -547,7 +515,6 @@
 
     goto :goto_0
 
-    .line 8
     :cond_3
     invoke-static {p0}, Lf/q/b/m;->j(I)Z
 
@@ -557,7 +524,6 @@
 
     goto :goto_0
 
-    .line 9
     :cond_4
     invoke-static {p0}, Lf/q/b/m;->k(I)Z
 
@@ -650,7 +616,6 @@
 .method private static k(I)Z
     .locals 3
 
-    .line 1
     sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
 
     const/4 v1, 0x0
@@ -672,7 +637,6 @@
 .method public static l(Landroid/content/Context;)Z
     .locals 2
 
-    .line 1
     invoke-static {p0}, Lf/q/b/m;->h(Landroid/content/Context;)I
 
     move-result p0
@@ -707,7 +671,6 @@
     :try_start_0
     const-string v1, "connectivity"
 
-    .line 1
     invoke-virtual {p0, v1}, Landroid/content/Context;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
 
     move-result-object p0
@@ -716,7 +679,6 @@
 
     if-eqz p0, :cond_0
 
-    .line 2
     sget-object v1, Lf/q/b/m;->i:Lorg/aspectj/lang/c$b;
 
     const/4 v2, 0x0
@@ -757,14 +719,12 @@
 
     if-eqz v1, :cond_0
 
-    .line 3
     invoke-virtual {v1}, Landroid/net/NetworkInfo;->isAvailable()Z
 
     move-result v2
 
     if-eqz v2, :cond_0
 
-    .line 4
     invoke-virtual {v1}, Landroid/net/NetworkInfo;->isConnected()Z
 
     move-result v1
@@ -778,7 +738,6 @@
     :catch_0
     move-exception p0
 
-    .line 5
     invoke-virtual {p0}, Ljava/lang/Exception;->printStackTrace()V
 
     :cond_0
@@ -793,14 +752,12 @@
     :try_start_0
     const-string v1, "wifi"
 
-    .line 1
     invoke-virtual {p0, v1}, Landroid/content/Context;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
 
     move-result-object p0
 
     check-cast p0, Landroid/net/wifi/WifiManager;
 
-    .line 2
     invoke-virtual {p0}, Landroid/net/wifi/WifiManager;->getConnectionInfo()Landroid/net/wifi/WifiInfo;
 
     move-result-object v1
@@ -811,13 +768,11 @@
 
     goto :goto_0
 
-    .line 3
     :cond_0
     invoke-virtual {v1}, Landroid/net/wifi/WifiInfo;->getIpAddress()I
 
     move-result v1
 
-    .line 4
     :goto_0
     invoke-virtual {p0}, Landroid/net/wifi/WifiManager;->isWifiEnabled()Z
 

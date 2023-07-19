@@ -17,7 +17,6 @@
 
     const-string v0, "application/x-www-form-urlencoded"
 
-    .line 1
     invoke-static {v0}, Lcom/squareup/okhttp/MediaType;->parse(Ljava/lang/String;)Lcom/squareup/okhttp/MediaType;
 
     move-result-object v0
@@ -30,10 +29,8 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     new-instance v0, Lokio/Buffer;
 
     invoke-direct {v0}, Lokio/Buffer;-><init>()V
@@ -48,7 +45,6 @@
 .method public add(Ljava/lang/String;Ljava/lang/String;)Lcom/squareup/okhttp/FormEncodingBuilder;
     .locals 10
 
-    .line 1
     iget-object v0, p0, Lcom/squareup/okhttp/FormEncodingBuilder;->content:Lokio/Buffer;
 
     invoke-virtual {v0}, Lokio/Buffer;->size()J
@@ -61,14 +57,12 @@
 
     if-lez v4, :cond_0
 
-    .line 2
     iget-object v0, p0, Lcom/squareup/okhttp/FormEncodingBuilder;->content:Lokio/Buffer;
 
     const/16 v1, 0x26
 
     invoke-virtual {v0, v1}, Lokio/Buffer;->writeByte(I)Lokio/Buffer;
 
-    .line 3
     :cond_0
     iget-object v2, p0, Lcom/squareup/okhttp/FormEncodingBuilder;->content:Lokio/Buffer;
 
@@ -90,14 +84,12 @@
 
     invoke-static/range {v2 .. v9}, Lcom/squareup/okhttp/HttpUrl;->canonicalize(Lokio/Buffer;Ljava/lang/String;IILjava/lang/String;ZZZ)V
 
-    .line 4
     iget-object p1, p0, Lcom/squareup/okhttp/FormEncodingBuilder;->content:Lokio/Buffer;
 
     const/16 v0, 0x3d
 
     invoke-virtual {p1, v0}, Lokio/Buffer;->writeByte(I)Lokio/Buffer;
 
-    .line 5
     iget-object v1, p0, Lcom/squareup/okhttp/FormEncodingBuilder;->content:Lokio/Buffer;
 
     const/4 v3, 0x0
@@ -122,7 +114,6 @@
 .method public addEncoded(Ljava/lang/String;Ljava/lang/String;)Lcom/squareup/okhttp/FormEncodingBuilder;
     .locals 10
 
-    .line 1
     iget-object v0, p0, Lcom/squareup/okhttp/FormEncodingBuilder;->content:Lokio/Buffer;
 
     invoke-virtual {v0}, Lokio/Buffer;->size()J
@@ -135,14 +126,12 @@
 
     if-lez v4, :cond_0
 
-    .line 2
     iget-object v0, p0, Lcom/squareup/okhttp/FormEncodingBuilder;->content:Lokio/Buffer;
 
     const/16 v1, 0x26
 
     invoke-virtual {v0, v1}, Lokio/Buffer;->writeByte(I)Lokio/Buffer;
 
-    .line 3
     :cond_0
     iget-object v2, p0, Lcom/squareup/okhttp/FormEncodingBuilder;->content:Lokio/Buffer;
 
@@ -164,14 +153,12 @@
 
     invoke-static/range {v2 .. v9}, Lcom/squareup/okhttp/HttpUrl;->canonicalize(Lokio/Buffer;Ljava/lang/String;IILjava/lang/String;ZZZ)V
 
-    .line 4
     iget-object p1, p0, Lcom/squareup/okhttp/FormEncodingBuilder;->content:Lokio/Buffer;
 
     const/16 v0, 0x3d
 
     invoke-virtual {p1, v0}, Lokio/Buffer;->writeByte(I)Lokio/Buffer;
 
-    .line 5
     iget-object v1, p0, Lcom/squareup/okhttp/FormEncodingBuilder;->content:Lokio/Buffer;
 
     const/4 v3, 0x0
@@ -194,7 +181,6 @@
 .method public build()Lcom/squareup/okhttp/RequestBody;
     .locals 2
 
-    .line 1
     sget-object v0, Lcom/squareup/okhttp/FormEncodingBuilder;->CONTENT_TYPE:Lcom/squareup/okhttp/MediaType;
 
     iget-object v1, p0, Lcom/squareup/okhttp/FormEncodingBuilder;->content:Lokio/Buffer;

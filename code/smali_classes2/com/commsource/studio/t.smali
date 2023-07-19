@@ -34,10 +34,8 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     new-instance v0, Ljava/util/LinkedList;
 
     invoke-direct {v0}, Ljava/util/LinkedList;-><init>()V
@@ -46,7 +44,6 @@
 
     const/high16 v0, 0x41200000    # 10.0f
 
-    .line 3
     iput v0, p0, Lcom/commsource/studio/t;->c:F
 
     return-void
@@ -66,7 +63,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/t;->b:[F
 
     const/4 v2, 0x0
@@ -75,7 +71,6 @@
 
     if-nez v1, :cond_0
 
-    .line 2
     invoke-virtual {p1}, Ljava/lang/Object;->clone()Ljava/lang/Object;
 
     move-result-object v1
@@ -88,7 +83,6 @@
 
     aput-object p1, v1, v2
 
-    .line 3
     invoke-static {v1}, Lcotlin/collections/s;->r([Ljava/lang/Object;)Ljava/util/ArrayList;
 
     move-result-object p1
@@ -97,13 +91,11 @@
 
     return-object p1
 
-    .line 4
     :cond_0
     new-instance v1, Ljava/util/ArrayList;
 
     invoke-direct {v1}, Ljava/util/ArrayList;-><init>()V
 
-    .line 5
     iget-object v4, p0, Lcom/commsource/studio/t;->b:[F
 
     if-nez v4, :cond_1
@@ -130,7 +122,6 @@
 
     move-result v4
 
-    .line 6
     :goto_0
     iget v5, p0, Lcom/commsource/studio/t;->c:F
 
@@ -142,7 +133,6 @@
 
     new-array v5, v5, [F
 
-    .line 7
     iget-object v6, p0, Lcom/commsource/studio/t;->b:[F
 
     if-nez v6, :cond_3
@@ -175,7 +165,6 @@
 
     aput v6, v5, v2
 
-    .line 8
     iget-object v6, p0, Lcom/commsource/studio/t;->b:[F
 
     if-nez v6, :cond_5
@@ -208,10 +197,8 @@
 
     aput v6, v5, v3
 
-    .line 9
     invoke-virtual {v1, v5}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    .line 10
     invoke-virtual {v5}, Ljava/lang/Object;->clone()Ljava/lang/Object;
 
     move-result-object v5
@@ -220,14 +207,12 @@
 
     iput-object v5, p0, Lcom/commsource/studio/t;->b:[F
 
-    .line 11
     iget v5, p0, Lcom/commsource/studio/t;->c:F
 
     sub-float/2addr v4, v5
 
     goto :goto_0
 
-    .line 12
     :cond_7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -247,7 +232,6 @@
 
     const/4 v3, 0x0
 
-    .line 1
     aget v4, p1, v3
 
     aget v5, p2, v3
@@ -308,7 +292,6 @@
 
     invoke-static {v1, v3}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object v3, v0, Lcom/commsource/studio/t;->a:Ljava/util/LinkedList;
 
     invoke-virtual {v3}, Ljava/util/LinkedList;->size()I
@@ -333,7 +316,6 @@
 
     goto/16 :goto_1
 
-    .line 2
     :cond_0
     iget-object v3, v0, Lcom/commsource/studio/t;->a:Ljava/util/LinkedList;
 
@@ -361,7 +343,6 @@
 
     move-result-object v3
 
-    .line 3
     iget-object v7, v0, Lcom/commsource/studio/t;->a:Ljava/util/LinkedList;
 
     invoke-virtual {v7, v6}, Ljava/util/LinkedList;->get(I)Ljava/lang/Object;
@@ -382,7 +363,6 @@
 
     move-result-object v7
 
-    .line 4
     iget-object v9, v0, Lcom/commsource/studio/t;->a:Ljava/util/LinkedList;
 
     invoke-virtual {v9, v6}, Ljava/util/LinkedList;->get(I)Ljava/lang/Object;
@@ -393,7 +373,6 @@
 
     check-cast v9, [F
 
-    .line 5
     aget v8, v3, v5
 
     aget v10, v3, v6
@@ -406,7 +385,6 @@
 
     move-result v8
 
-    .line 6
     iget-object v10, v0, Lcom/commsource/studio/t;->a:Ljava/util/LinkedList;
 
     invoke-virtual {v10, v6}, Ljava/util/LinkedList;->get(I)Ljava/lang/Object;
@@ -433,14 +411,12 @@
 
     invoke-static {v10, v11, v12, v13}, Lcom/commsource/util/common/i;->j(FFFF)F
 
-    .line 7
     iget v10, v0, Lcom/commsource/studio/t;->c:F
 
     div-float/2addr v8, v10
 
     float-to-int v8, v8
 
-    .line 8
     new-instance v10, Ljava/util/ArrayList;
 
     invoke-direct {v10}, Ljava/util/ArrayList;-><init>()V
@@ -468,7 +444,6 @@
 
     mul-float v15, v14, v14
 
-    .line 9
     aget v16, v3, v5
 
     mul-float v16, v16, v15
@@ -495,7 +470,6 @@
 
     aput v16, v13, v5
 
-    .line 10
     aget v14, v3, v6
 
     mul-float v15, v15, v14
@@ -514,7 +488,6 @@
 
     aput v15, v13, v6
 
-    .line 11
     invoke-direct {v0, v13}, Lcom/commsource/studio/t;->b([F)Ljava/util/List;
 
     move-result-object v2
@@ -530,7 +503,6 @@
 
     goto :goto_1
 
-    .line 12
     :cond_2
     invoke-virtual/range {p1 .. p1}, Ljava/lang/Object;->clone()Ljava/lang/Object;
 
@@ -558,7 +530,6 @@
 
     goto :goto_1
 
-    .line 13
     :cond_3
     invoke-virtual/range {p1 .. p1}, Ljava/lang/Object;->clone()Ljava/lang/Object;
 
@@ -573,7 +544,6 @@
     :goto_1
     if-eqz v3, :cond_5
 
-    .line 14
     invoke-interface {v3}, Ljava/util/Collection;->isEmpty()Z
 
     move-result v2
@@ -582,12 +552,10 @@
 
     if-ne v2, v6, :cond_5
 
-    .line 15
     iget-object v2, v0, Lcom/commsource/studio/t;->a:Ljava/util/LinkedList;
 
     invoke-virtual {v2, v1}, Ljava/util/LinkedList;->add(Ljava/lang/Object;)Z
 
-    .line 16
     iget-object v1, v0, Lcom/commsource/studio/t;->a:Ljava/util/LinkedList;
 
     invoke-virtual {v1}, Ljava/util/LinkedList;->size()I
@@ -596,12 +564,10 @@
 
     if-le v1, v4, :cond_4
 
-    .line 17
     iget-object v1, v0, Lcom/commsource/studio/t;->a:Ljava/util/LinkedList;
 
     invoke-virtual {v1, v5}, Ljava/util/LinkedList;->remove(I)Ljava/lang/Object;
 
-    .line 18
     :cond_4
     iget v1, v0, Lcom/commsource/studio/t;->d:I
 
@@ -616,7 +582,6 @@
     :cond_5
     const/16 v1, 0x916
 
-    .line 19
     invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v3
@@ -629,22 +594,18 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/t;->a:Ljava/util/LinkedList;
 
     invoke-virtual {v1}, Ljava/util/LinkedList;->clear()V
 
     const/4 v1, 0x0
 
-    .line 2
     iput-object v1, p0, Lcom/commsource/studio/t;->b:[F
 
     const/4 v1, 0x0
 
-    .line 3
     iput v1, p0, Lcom/commsource/studio/t;->d:I
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -657,7 +618,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/t;->d:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -674,7 +634,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/t;->b:[F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -689,7 +648,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/t;->c:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -714,7 +672,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/t;->a:Ljava/util/LinkedList;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -729,7 +686,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/studio/t;->d:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -748,7 +704,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/t;->b:[F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -763,7 +718,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/studio/t;->c:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

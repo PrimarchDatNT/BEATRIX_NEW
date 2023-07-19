@@ -16,7 +16,6 @@
 .method constructor <init>(Lcom/google/android/gms/internal/ads/ua;Lcom/google/android/gms/internal/ads/lq;Lcom/google/android/gms/internal/ads/w9;)V
     .locals 0
 
-    .line 1
     iput-object p2, p0, Lcom/google/android/gms/internal/ads/wa;->a:Lcom/google/android/gms/internal/ads/lq;
 
     iput-object p3, p0, Lcom/google/android/gms/internal/ads/wa;->b:Lcom/google/android/gms/internal/ads/w9;
@@ -31,7 +30,6 @@
 .method public final run()V
     .locals 3
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/wa;->a:Lcom/google/android/gms/internal/ads/lq;
 
     new-instance v1, Lcom/google/android/gms/internal/ads/zzalg;
@@ -42,7 +40,6 @@
 
     invoke-virtual {v0, v1}, Lcom/google/android/gms/internal/ads/lq;->c(Ljava/lang/Throwable;)Z
 
-    .line 2
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/wa;->b:Lcom/google/android/gms/internal/ads/w9;
 
     invoke-virtual {v0}, Lcom/google/android/gms/internal/ads/w9;->f()V

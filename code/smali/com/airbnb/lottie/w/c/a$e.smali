@@ -77,25 +77,20 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/4 v0, 0x0
 
-    .line 2
     iput-object v0, p0, Lcom/airbnb/lottie/w/c/a$e;->c:Lcom/airbnb/lottie/a0/a;
 
     const/high16 v0, -0x40800000    # -1.0f
 
-    .line 3
     iput v0, p0, Lcom/airbnb/lottie/w/c/a$e;->d:F
 
-    .line 4
     iput-object p1, p0, Lcom/airbnb/lottie/w/c/a$e;->a:Ljava/util/List;
 
     const/4 p1, 0x0
 
-    .line 5
     invoke-direct {p0, p1}, Lcom/airbnb/lottie/w/c/a$e;->f(F)Lcom/airbnb/lottie/a0/a;
 
     move-result-object p1
@@ -115,7 +110,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/airbnb/lottie/w/c/a$e;->a:Ljava/util/List;
 
     invoke-interface {v0}, Ljava/util/List;->size()I
@@ -132,7 +126,6 @@
 
     check-cast v0, Lcom/airbnb/lottie/a0/a;
 
-    .line 2
     invoke-virtual {v0}, Lcom/airbnb/lottie/a0/a;->e()F
 
     move-result v1
@@ -143,7 +136,6 @@
 
     return-object v0
 
-    .line 3
     :cond_0
     iget-object v0, p0, Lcom/airbnb/lottie/w/c/a$e;->a:Ljava/util/List;
 
@@ -156,7 +148,6 @@
     :goto_0
     if-lt v0, v2, :cond_3
 
-    .line 4
     iget-object v1, p0, Lcom/airbnb/lottie/w/c/a$e;->a:Ljava/util/List;
 
     invoke-interface {v1, v0}, Ljava/util/List;->get(I)Ljava/lang/Object;
@@ -165,14 +156,12 @@
 
     check-cast v1, Lcom/airbnb/lottie/a0/a;
 
-    .line 5
     iget-object v3, p0, Lcom/airbnb/lottie/w/c/a$e;->b:Lcom/airbnb/lottie/a0/a;
 
     if-ne v3, v1, :cond_1
 
     goto :goto_1
 
-    .line 6
     :cond_1
     invoke-virtual {v1, p1}, Lcom/airbnb/lottie/a0/a;->a(F)Z
 
@@ -188,7 +177,6 @@
 
     goto :goto_0
 
-    .line 7
     :cond_3
     iget-object p1, p0, Lcom/airbnb/lottie/w/c/a$e;->a:Ljava/util/List;
 
@@ -208,7 +196,6 @@
 .method public a(F)Z
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/airbnb/lottie/w/c/a$e;->c:Lcom/airbnb/lottie/a0/a;
 
     iget-object v1, p0, Lcom/airbnb/lottie/w/c/a$e;->b:Lcom/airbnb/lottie/a0/a;
@@ -225,11 +212,9 @@
 
     return p1
 
-    .line 2
     :cond_0
     iput-object v1, p0, Lcom/airbnb/lottie/w/c/a$e;->c:Lcom/airbnb/lottie/a0/a;
 
-    .line 3
     iput p1, p0, Lcom/airbnb/lottie/w/c/a$e;->d:F
 
     const/4 p1, 0x0
@@ -250,7 +235,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/airbnb/lottie/w/c/a$e;->b:Lcom/airbnb/lottie/a0/a;
 
     return-object v0
@@ -259,7 +243,6 @@
 .method public c(F)Z
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/airbnb/lottie/w/c/a$e;->b:Lcom/airbnb/lottie/a0/a;
 
     invoke-virtual {v0, p1}, Lcom/airbnb/lottie/a0/a;->a(F)Z
@@ -270,7 +253,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 2
     iget-object p1, p0, Lcom/airbnb/lottie/w/c/a$e;->b:Lcom/airbnb/lottie/a0/a;
 
     invoke-virtual {p1}, Lcom/airbnb/lottie/a0/a;->h()Z
@@ -281,7 +263,6 @@
 
     return p1
 
-    .line 3
     :cond_0
     invoke-direct {p0, p1}, Lcom/airbnb/lottie/w/c/a$e;->f(F)Lcom/airbnb/lottie/a0/a;
 
@@ -295,7 +276,6 @@
 .method public d()F
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/airbnb/lottie/w/c/a$e;->a:Ljava/util/List;
 
     const/4 v1, 0x0
@@ -316,7 +296,6 @@
 .method public e()F
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/airbnb/lottie/w/c/a$e;->a:Ljava/util/List;
 
     invoke-interface {v0}, Ljava/util/List;->size()I

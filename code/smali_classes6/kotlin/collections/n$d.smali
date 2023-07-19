@@ -35,7 +35,6 @@
 .method constructor <init>([J)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcotlin/collections/n$d;->b:[J
 
     invoke-direct {p0}, Lcotlin/collections/c;-><init>()V
@@ -48,7 +47,6 @@
 .method public b()I
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcotlin/collections/n$d;->b:[J
 
     array-length v0, v0
@@ -59,7 +57,6 @@
 .method public c(J)Z
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcotlin/collections/n$d;->b:[J
 
     invoke-static {v0, p1, p2}, Lcotlin/collections/k;->O7([JJ)Z
@@ -72,7 +69,6 @@
 .method public final bridge contains(Ljava/lang/Object;)Z
     .locals 2
 
-    .line 1
     instance-of v0, p1, Ljava/lang/Long;
 
     if-eqz v0, :cond_0
@@ -100,7 +96,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcotlin/collections/n$d;->b:[J
 
     aget-wide v1, v0, p1
@@ -115,7 +110,6 @@
 .method public bridge synthetic get(I)Ljava/lang/Object;
     .locals 0
 
-    .line 1
     invoke-virtual {p0, p1}, Lcotlin/collections/n$d;->e(I)Ljava/lang/Long;
 
     move-result-object p1
@@ -126,7 +120,6 @@
 .method public h(J)I
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcotlin/collections/n$d;->b:[J
 
     invoke-static {v0, p1, p2}, Lcotlin/collections/k;->cf([JJ)I
@@ -139,7 +132,6 @@
 .method public i(J)I
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcotlin/collections/n$d;->b:[J
 
     invoke-static {v0, p1, p2}, Lcotlin/collections/k;->gh([JJ)I
@@ -152,7 +144,6 @@
 .method public final bridge indexOf(Ljava/lang/Object;)I
     .locals 2
 
-    .line 1
     instance-of v0, p1, Ljava/lang/Long;
 
     if-eqz v0, :cond_0
@@ -178,7 +169,6 @@
 .method public isEmpty()Z
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcotlin/collections/n$d;->b:[J
 
     array-length v0, v0
@@ -199,7 +189,6 @@
 .method public final bridge lastIndexOf(Ljava/lang/Object;)I
     .locals 2
 
-    .line 1
     instance-of v0, p1, Ljava/lang/Long;
 
     if-eqz v0, :cond_0

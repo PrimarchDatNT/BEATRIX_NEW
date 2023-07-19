@@ -30,7 +30,6 @@
 .method constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -41,7 +40,6 @@
 .method public bridge synthetic a(Landroid/media/MediaMetadataRetriever;Ljava/lang/Object;)V
     .locals 0
 
-    .line 1
     check-cast p2, Landroid/os/ParcelFileDescriptor;
 
     invoke-virtual {p0, p1, p2}, Lcom/bumptech/glide/load/resource/bitmap/f0$f;->b(Landroid/media/MediaMetadataRetriever;Landroid/os/ParcelFileDescriptor;)V
@@ -52,7 +50,6 @@
 .method public b(Landroid/media/MediaMetadataRetriever;Landroid/os/ParcelFileDescriptor;)V
     .locals 0
 
-    .line 1
     invoke-virtual {p2}, Landroid/os/ParcelFileDescriptor;->getFileDescriptor()Ljava/io/FileDescriptor;
 
     move-result-object p2

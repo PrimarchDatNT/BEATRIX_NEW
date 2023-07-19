@@ -42,10 +42,8 @@
 .method public constructor <init>(Landroid/content/Context;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/meitu/media/tools/editor/q$a;->a:Landroid/content/Context;
 
     return-void
@@ -60,12 +58,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/meitu/media/tools/editor/q$a;->e:Z
 
     if-eqz v1, :cond_0
 
-    .line 2
     iget-object v1, p0, Lcom/meitu/media/tools/editor/q$a;->a:Landroid/content/Context;
 
     invoke-static {v1}, Lcom/meitu/media/tools/editor/o;->b(Landroid/content/Context;)Lcom/meitu/media/tools/editor/f;
@@ -76,7 +72,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_0
     iget-object v1, p0, Lcom/meitu/media/tools/editor/q$a;->a:Landroid/content/Context;
 
@@ -86,7 +81,6 @@
 
     iput-object v1, p0, Lcom/meitu/media/tools/editor/q$a;->k:Lcom/meitu/media/tools/editor/f;
 
-    .line 4
     :goto_0
     new-instance v1, Ljava/lang/StringBuilder;
 
@@ -106,7 +100,6 @@
 
     invoke-static {v1}, Lcom/meitu/media/tools/utils/debug/Logger;->a(Ljava/lang/String;)V
 
-    .line 5
     iget-object v1, p0, Lcom/meitu/media/tools/editor/q$a;->k:Lcom/meitu/media/tools/editor/f;
 
     iget-object v2, p0, Lcom/meitu/media/tools/editor/q$a;->b:Ljava/lang/String;
@@ -119,18 +112,15 @@
 
     const/4 v1, 0x0
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
 
-    .line 7
     :cond_1
     new-instance v1, Lcom/meitu/media/tools/editor/e;
 
     invoke-direct {v1}, Lcom/meitu/media/tools/editor/e;-><init>()V
 
-    .line 8
     new-instance v2, Ljava/lang/StringBuilder;
 
     invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
@@ -149,7 +139,6 @@
 
     invoke-static {v2}, Lcom/meitu/media/tools/utils/debug/Logger;->a(Ljava/lang/String;)V
 
-    .line 9
     new-instance v2, Ljava/lang/StringBuilder;
 
     invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
@@ -168,7 +157,6 @@
 
     invoke-static {v2}, Lcom/meitu/media/tools/utils/debug/Logger;->a(Ljava/lang/String;)V
 
-    .line 10
     new-instance v2, Ljava/lang/StringBuilder;
 
     invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
@@ -187,7 +175,6 @@
 
     invoke-static {v2}, Lcom/meitu/media/tools/utils/debug/Logger;->a(Ljava/lang/String;)V
 
-    .line 11
     new-instance v2, Ljava/lang/StringBuilder;
 
     invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
@@ -206,7 +193,6 @@
 
     invoke-static {v2}, Lcom/meitu/media/tools/utils/debug/Logger;->a(Ljava/lang/String;)V
 
-    .line 12
     iget-wide v2, p0, Lcom/meitu/media/tools/editor/q$a;->c:J
 
     long-to-float v2, v2
@@ -217,7 +203,6 @@
 
     float-to-double v4, v2
 
-    .line 13
     iget-wide v6, p0, Lcom/meitu/media/tools/editor/q$a;->d:J
 
     long-to-float v2, v6
@@ -234,7 +219,6 @@
 
     const-string v4, "[VideoEditorProcessor]mInputStartTimeMs  is less than zero, set to zero"
 
-    .line 14
     invoke-static {v4}, Lcom/meitu/media/tools/utils/debug/Logger;->a(Ljava/lang/String;)V
 
     move-wide v8, v6
@@ -249,14 +233,12 @@
 
     if-gtz v4, :cond_3
 
-    .line 15
     iget-object v2, p0, Lcom/meitu/media/tools/editor/q$a;->k:Lcom/meitu/media/tools/editor/f;
 
     invoke-virtual {v2}, Lcom/meitu/media/tools/editor/f;->getVideoDuration()D
 
     move-result-wide v2
 
-    .line 16
     new-instance v4, Ljava/lang/StringBuilder;
 
     invoke-direct {v4}, Ljava/lang/StringBuilder;-><init>()V
@@ -280,7 +262,6 @@
 
     const/4 v4, 0x0
 
-    .line 17
     iget v5, p0, Lcom/meitu/media/tools/editor/q$a;->h:I
 
     iget v6, p0, Lcom/meitu/media/tools/editor/q$a;->i:I
@@ -293,14 +274,12 @@
 
     invoke-virtual/range {v2 .. v10}, Lcom/meitu/media/tools/editor/e;->i(IIIIDD)V
 
-    .line 18
     iget-object v2, p0, Lcom/meitu/media/tools/editor/q$a;->k:Lcom/meitu/media/tools/editor/f;
 
     iget-object v3, p0, Lcom/meitu/media/tools/editor/q$a;->j:Lcom/meitu/media/tools/editor/f$a;
 
     invoke-virtual {v2, v3}, Lcom/meitu/media/tools/editor/f;->setListener(Lcom/meitu/media/tools/editor/f$a;)V
 
-    .line 19
     new-instance v2, Ljava/lang/StringBuilder;
 
     invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
@@ -319,7 +298,6 @@
 
     invoke-static {v2}, Lcom/meitu/media/tools/utils/debug/Logger;->a(Ljava/lang/String;)V
 
-    .line 20
     new-instance v2, Ljava/lang/StringBuilder;
 
     invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
@@ -338,7 +316,6 @@
 
     invoke-static {v2}, Lcom/meitu/media/tools/utils/debug/Logger;->a(Ljava/lang/String;)V
 
-    .line 21
     new-instance v2, Ljava/lang/StringBuilder;
 
     invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
@@ -357,7 +334,6 @@
 
     invoke-static {v2}, Lcom/meitu/media/tools/utils/debug/Logger;->a(Ljava/lang/String;)V
 
-    .line 22
     new-instance v2, Ljava/lang/StringBuilder;
 
     invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
@@ -376,12 +352,10 @@
 
     invoke-static {v2}, Lcom/meitu/media/tools/utils/debug/Logger;->a(Ljava/lang/String;)V
 
-    .line 23
     iget v2, p0, Lcom/meitu/media/tools/editor/q$a;->h:I
 
     if-gtz v2, :cond_4
 
-    .line 24
     iget-object v2, p0, Lcom/meitu/media/tools/editor/q$a;->k:Lcom/meitu/media/tools/editor/f;
 
     invoke-virtual {v2}, Lcom/meitu/media/tools/editor/f;->getShowWidth()I
@@ -390,7 +364,6 @@
 
     iput v2, p0, Lcom/meitu/media/tools/editor/q$a;->h:I
 
-    .line 25
     new-instance v2, Ljava/lang/StringBuilder;
 
     invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
@@ -409,13 +382,11 @@
 
     invoke-static {v2}, Lcom/meitu/media/tools/utils/debug/Logger;->a(Ljava/lang/String;)V
 
-    .line 26
     :cond_4
     iget v2, p0, Lcom/meitu/media/tools/editor/q$a;->i:I
 
     if-gtz v2, :cond_5
 
-    .line 27
     iget-object v2, p0, Lcom/meitu/media/tools/editor/q$a;->k:Lcom/meitu/media/tools/editor/f;
 
     invoke-virtual {v2}, Lcom/meitu/media/tools/editor/f;->getShowHeight()I
@@ -424,7 +395,6 @@
 
     iput v2, p0, Lcom/meitu/media/tools/editor/q$a;->i:I
 
-    .line 28
     new-instance v2, Ljava/lang/StringBuilder;
 
     invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
@@ -443,7 +413,6 @@
 
     invoke-static {v2}, Lcom/meitu/media/tools/utils/debug/Logger;->a(Ljava/lang/String;)V
 
-    .line 29
     :cond_5
     iget-wide v2, p0, Lcom/meitu/media/tools/editor/q$a;->g:J
 
@@ -453,7 +422,6 @@
 
     if-gtz v6, :cond_6
 
-    .line 30
     iget-object v2, p0, Lcom/meitu/media/tools/editor/q$a;->k:Lcom/meitu/media/tools/editor/f;
 
     invoke-virtual {v2}, Lcom/meitu/media/tools/editor/f;->getVideoOutputBitrate()J
@@ -462,7 +430,6 @@
 
     iput-wide v2, p0, Lcom/meitu/media/tools/editor/q$a;->g:J
 
-    .line 31
     new-instance v2, Ljava/lang/StringBuilder;
 
     invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
@@ -481,7 +448,6 @@
 
     invoke-static {v2}, Lcom/meitu/media/tools/utils/debug/Logger;->a(Ljava/lang/String;)V
 
-    .line 32
     :cond_6
     iget-object v2, p0, Lcom/meitu/media/tools/editor/q$a;->f:Ljava/lang/String;
 
@@ -491,12 +457,10 @@
 
     invoke-virtual {v1, v2, v3, v4}, Lcom/meitu/media/tools/editor/e;->p(Ljava/lang/String;II)V
 
-    .line 33
     iget-wide v2, p0, Lcom/meitu/media/tools/editor/q$a;->g:J
 
     invoke-virtual {v1, v2, v3}, Lcom/meitu/media/tools/editor/e;->s(J)V
 
-    .line 34
     new-instance v2, Lcom/meitu/media/tools/editor/q;
 
     iget-object v3, p0, Lcom/meitu/media/tools/editor/q$a;->k:Lcom/meitu/media/tools/editor/f;
@@ -515,10 +479,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-wide p1, p0, Lcom/meitu/media/tools/editor/q$a;->d:J
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
@@ -531,10 +493,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/media/tools/editor/q$a;->b:Ljava/lang/String;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
@@ -547,10 +507,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/meitu/media/tools/editor/q$a;->e:Z
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
@@ -563,10 +521,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/media/tools/editor/q$a;->j:Lcom/meitu/media/tools/editor/f$a;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
@@ -579,10 +535,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-wide p1, p0, Lcom/meitu/media/tools/editor/q$a;->g:J
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
@@ -595,10 +549,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/media/tools/editor/q$a;->f:Ljava/lang/String;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
@@ -611,10 +563,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/meitu/media/tools/editor/q$a;->i:I
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
@@ -627,10 +577,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/meitu/media/tools/editor/q$a;->h:I
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
@@ -643,10 +591,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-wide p1, p0, Lcom/meitu/media/tools/editor/q$a;->c:J
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0

@@ -14,7 +14,6 @@
 .method constructor <init>(Lcom/google/ads/mediation/AbstractAdViewAdapter;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/ads/mediation/h;->a:Lcom/google/ads/mediation/AbstractAdViewAdapter;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -27,7 +26,6 @@
 .method public final onRewarded(Lcom/google/android/gms/ads/y/b;)V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/google/ads/mediation/h;->a:Lcom/google/ads/mediation/AbstractAdViewAdapter;
 
     invoke-static {v0}, Lcom/google/ads/mediation/AbstractAdViewAdapter;->zza(Lcom/google/ads/mediation/AbstractAdViewAdapter;)Lcom/google/android/gms/ads/reward/mediation/a;
@@ -44,7 +42,6 @@
 .method public final onRewardedVideoAdClosed()V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/google/ads/mediation/h;->a:Lcom/google/ads/mediation/AbstractAdViewAdapter;
 
     invoke-static {v0}, Lcom/google/ads/mediation/AbstractAdViewAdapter;->zza(Lcom/google/ads/mediation/AbstractAdViewAdapter;)Lcom/google/android/gms/ads/reward/mediation/a;
@@ -55,7 +52,6 @@
 
     invoke-interface {v0, v1}, Lcom/google/android/gms/ads/reward/mediation/a;->e0(Lcom/google/android/gms/ads/reward/mediation/MediationRewardedVideoAdAdapter;)V
 
-    .line 2
     iget-object v0, p0, Lcom/google/ads/mediation/h;->a:Lcom/google/ads/mediation/AbstractAdViewAdapter;
 
     const/4 v1, 0x0
@@ -68,7 +64,6 @@
 .method public final onRewardedVideoAdFailedToLoad(I)V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/google/ads/mediation/h;->a:Lcom/google/ads/mediation/AbstractAdViewAdapter;
 
     invoke-static {v0}, Lcom/google/ads/mediation/AbstractAdViewAdapter;->zza(Lcom/google/ads/mediation/AbstractAdViewAdapter;)Lcom/google/android/gms/ads/reward/mediation/a;
@@ -85,7 +80,6 @@
 .method public final onRewardedVideoAdLeftApplication()V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/google/ads/mediation/h;->a:Lcom/google/ads/mediation/AbstractAdViewAdapter;
 
     invoke-static {v0}, Lcom/google/ads/mediation/AbstractAdViewAdapter;->zza(Lcom/google/ads/mediation/AbstractAdViewAdapter;)Lcom/google/android/gms/ads/reward/mediation/a;
@@ -102,7 +96,6 @@
 .method public final onRewardedVideoAdLoaded()V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/google/ads/mediation/h;->a:Lcom/google/ads/mediation/AbstractAdViewAdapter;
 
     invoke-static {v0}, Lcom/google/ads/mediation/AbstractAdViewAdapter;->zza(Lcom/google/ads/mediation/AbstractAdViewAdapter;)Lcom/google/android/gms/ads/reward/mediation/a;
@@ -119,7 +112,6 @@
 .method public final onRewardedVideoAdOpened()V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/google/ads/mediation/h;->a:Lcom/google/ads/mediation/AbstractAdViewAdapter;
 
     invoke-static {v0}, Lcom/google/ads/mediation/AbstractAdViewAdapter;->zza(Lcom/google/ads/mediation/AbstractAdViewAdapter;)Lcom/google/android/gms/ads/reward/mediation/a;
@@ -136,7 +128,6 @@
 .method public final onRewardedVideoCompleted()V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/google/ads/mediation/h;->a:Lcom/google/ads/mediation/AbstractAdViewAdapter;
 
     invoke-static {v0}, Lcom/google/ads/mediation/AbstractAdViewAdapter;->zza(Lcom/google/ads/mediation/AbstractAdViewAdapter;)Lcom/google/android/gms/ads/reward/mediation/a;
@@ -153,7 +144,6 @@
 .method public final onRewardedVideoStarted()V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/google/ads/mediation/h;->a:Lcom/google/ads/mediation/AbstractAdViewAdapter;
 
     invoke-static {v0}, Lcom/google/ads/mediation/AbstractAdViewAdapter;->zza(Lcom/google/ads/mediation/AbstractAdViewAdapter;)Lcom/google/android/gms/ads/reward/mediation/a;

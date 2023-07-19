@@ -51,7 +51,6 @@
 .method static constructor <clinit>()V
     .locals 2
 
-    .line 1
     new-instance v0, Li/a/j/e;
 
     const-string v1, "http.url"
@@ -60,7 +59,6 @@
 
     sput-object v0, Li/a/j/f;->e:Li/a/j/e;
 
-    .line 2
     new-instance v0, Li/a/j/d;
 
     const-string v1, "http.status_code"
@@ -69,7 +67,6 @@
 
     sput-object v0, Li/a/j/f;->f:Li/a/j/d;
 
-    .line 3
     new-instance v0, Li/a/j/e;
 
     const-string v1, "http.method"
@@ -78,7 +75,6 @@
 
     sput-object v0, Li/a/j/f;->g:Li/a/j/e;
 
-    .line 4
     new-instance v0, Li/a/j/c;
 
     const-string v1, "peer.ipv4"
@@ -87,7 +83,6 @@
 
     sput-object v0, Li/a/j/f;->h:Li/a/j/c;
 
-    .line 5
     new-instance v0, Li/a/j/e;
 
     const-string v1, "peer.ipv6"
@@ -96,7 +91,6 @@
 
     sput-object v0, Li/a/j/f;->i:Li/a/j/e;
 
-    .line 6
     new-instance v0, Li/a/j/e;
 
     const-string v1, "peer.service"
@@ -105,7 +99,6 @@
 
     sput-object v0, Li/a/j/f;->j:Li/a/j/e;
 
-    .line 7
     new-instance v0, Li/a/j/e;
 
     const-string v1, "peer.hostname"
@@ -114,7 +107,6 @@
 
     sput-object v0, Li/a/j/f;->k:Li/a/j/e;
 
-    .line 8
     new-instance v0, Li/a/j/d;
 
     const-string v1, "peer.port"
@@ -123,7 +115,6 @@
 
     sput-object v0, Li/a/j/f;->l:Li/a/j/d;
 
-    .line 9
     new-instance v0, Li/a/j/d;
 
     const-string v1, "sampling.priority"
@@ -132,7 +123,6 @@
 
     sput-object v0, Li/a/j/f;->m:Li/a/j/d;
 
-    .line 10
     new-instance v0, Li/a/j/e;
 
     const-string v1, "span.kind"
@@ -141,7 +131,6 @@
 
     sput-object v0, Li/a/j/f;->n:Li/a/j/e;
 
-    .line 11
     new-instance v0, Li/a/j/e;
 
     const-string v1, "component"
@@ -150,7 +139,6 @@
 
     sput-object v0, Li/a/j/f;->o:Li/a/j/e;
 
-    .line 12
     new-instance v0, Li/a/j/b;
 
     const-string v1, "error"
@@ -159,7 +147,6 @@
 
     sput-object v0, Li/a/j/f;->p:Li/a/j/b;
 
-    .line 13
     new-instance v0, Li/a/j/e;
 
     const-string v1, "db.type"
@@ -168,7 +155,6 @@
 
     sput-object v0, Li/a/j/f;->q:Li/a/j/e;
 
-    .line 14
     new-instance v0, Li/a/j/e;
 
     const-string v1, "db.instance"
@@ -177,7 +163,6 @@
 
     sput-object v0, Li/a/j/f;->r:Li/a/j/e;
 
-    .line 15
     new-instance v0, Li/a/j/e;
 
     const-string v1, "db.user"
@@ -186,7 +171,6 @@
 
     sput-object v0, Li/a/j/f;->s:Li/a/j/e;
 
-    .line 16
     new-instance v0, Li/a/j/e;
 
     const-string v1, "db.statement"
@@ -195,7 +179,6 @@
 
     sput-object v0, Li/a/j/f;->t:Li/a/j/e;
 
-    .line 17
     new-instance v0, Li/a/j/e;
 
     const-string v1, "message_bus.destination"
@@ -210,7 +193,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void

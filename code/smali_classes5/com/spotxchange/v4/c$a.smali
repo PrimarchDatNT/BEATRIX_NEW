@@ -25,7 +25,6 @@
 .method constructor <init>(Lcom/spotxchange/v4/c;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/spotxchange/v4/c$a;->a:Lcom/spotxchange/v4/c;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -38,14 +37,12 @@
 .method public run()V
     .locals 4
 
-    .line 1
     iget-object v0, p0, Lcom/spotxchange/v4/c$a;->a:Lcom/spotxchange/v4/c;
 
     iget-object v1, v0, Lcom/spotxchange/v4/c;->q:Lcom/spotxchange/internal/view/SpotXContainerView;
 
     if-nez v1, :cond_0
 
-    .line 2
     new-instance v1, Lcom/spotxchange/internal/view/SpotXContainerView;
 
     iget-object v2, p0, Lcom/spotxchange/v4/c$a;->a:Lcom/spotxchange/v4/c;
@@ -62,7 +59,6 @@
 
     iput-object v1, v0, Lcom/spotxchange/v4/c;->q:Lcom/spotxchange/internal/view/SpotXContainerView;
 
-    .line 3
     iget-object v0, p0, Lcom/spotxchange/v4/c$a;->a:Lcom/spotxchange/v4/c;
 
     iget-object v1, v0, Lcom/spotxchange/v4/c;->o:Landroid/widget/FrameLayout;
@@ -71,7 +67,6 @@
 
     invoke-virtual {v1, v0}, Landroid/widget/FrameLayout;->addView(Landroid/view/View;)V
 
-    .line 4
     iget-object v0, p0, Lcom/spotxchange/v4/c$a;->a:Lcom/spotxchange/v4/c;
 
     invoke-virtual {v0}, Lcom/spotxchange/v4/c;->H0()V

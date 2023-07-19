@@ -36,7 +36,6 @@
 .method constructor <init>([D)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcotlin/collections/n$f;->b:[D
 
     invoke-direct {p0}, Lcotlin/collections/c;-><init>()V
@@ -49,7 +48,6 @@
 .method public b()I
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcotlin/collections/n$f;->b:[D
 
     array-length v0, v0
@@ -60,10 +58,8 @@
 .method public c(D)Z
     .locals 10
 
-    .line 1
     iget-object v0, p0, Lcotlin/collections/n$f;->b:[D
 
-    .line 2
     array-length v1, v0
 
     const/4 v2, 0x0
@@ -77,7 +73,6 @@
 
     aget-wide v5, v0, v3
 
-    .line 3
     invoke-static {v5, v6}, Ljava/lang/Double;->doubleToLongBits(D)J
 
     move-result-wide v5
@@ -117,7 +112,6 @@
 .method public final bridge contains(Ljava/lang/Object;)Z
     .locals 2
 
-    .line 1
     instance-of v0, p1, Ljava/lang/Double;
 
     if-eqz v0, :cond_0
@@ -145,7 +139,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcotlin/collections/n$f;->b:[D
 
     aget-wide v1, v0, p1
@@ -160,7 +153,6 @@
 .method public bridge synthetic get(I)Ljava/lang/Object;
     .locals 0
 
-    .line 1
     invoke-virtual {p0, p1}, Lcotlin/collections/n$f;->e(I)Ljava/lang/Double;
 
     move-result-object p1
@@ -171,10 +163,8 @@
 .method public h(D)I
     .locals 9
 
-    .line 1
     iget-object v0, p0, Lcotlin/collections/n$f;->b:[D
 
-    .line 2
     array-length v1, v0
 
     const/4 v2, 0x0
@@ -184,10 +174,8 @@
     :goto_0
     if-ge v3, v1, :cond_2
 
-    .line 3
     aget-wide v4, v0, v3
 
-    .line 4
     invoke-static {v4, v5}, Ljava/lang/Double;->doubleToLongBits(D)J
 
     move-result-wide v4
@@ -227,10 +215,8 @@
 .method public i(D)I
     .locals 8
 
-    .line 1
     iget-object v0, p0, Lcotlin/collections/n$f;->b:[D
 
-    .line 2
     array-length v1, v0
 
     const/4 v2, -0x1
@@ -240,10 +226,8 @@
     :goto_0
     if-ltz v1, :cond_2
 
-    .line 3
     aget-wide v3, v0, v1
 
-    .line 4
     invoke-static {v3, v4}, Ljava/lang/Double;->doubleToLongBits(D)J
 
     move-result-wide v3
@@ -283,7 +267,6 @@
 .method public final bridge indexOf(Ljava/lang/Object;)I
     .locals 2
 
-    .line 1
     instance-of v0, p1, Ljava/lang/Double;
 
     if-eqz v0, :cond_0
@@ -309,7 +292,6 @@
 .method public isEmpty()Z
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcotlin/collections/n$f;->b:[D
 
     array-length v0, v0
@@ -330,7 +312,6 @@
 .method public final bridge lastIndexOf(Ljava/lang/Object;)I
     .locals 2
 
-    .line 1
     instance-of v0, p1, Ljava/lang/Double;
 
     if-eqz v0, :cond_0

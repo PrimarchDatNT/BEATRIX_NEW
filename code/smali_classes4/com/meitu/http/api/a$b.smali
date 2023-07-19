@@ -54,7 +54,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Lcom/commsource/beautyfilter/NewFilterConfig$FilterOnlineInfo;
 
     invoke-virtual {p0, p1}, Lcom/meitu/http/api/a$b;->c(Lcom/commsource/beautyfilter/NewFilterConfig$FilterOnlineInfo;)V
@@ -79,12 +78,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/http/api/a$b;->a:Lcotlin/jvm/internal/Ref$ObjectRef;
 
     iput-object p1, v1, Lcotlin/jvm/internal/Ref$ObjectRef;->element:Ljava/lang/Object;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

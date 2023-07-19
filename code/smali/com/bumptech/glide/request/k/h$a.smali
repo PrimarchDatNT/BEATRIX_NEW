@@ -25,10 +25,8 @@
 .method constructor <init>(Landroid/view/animation/Animation;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/bumptech/glide/request/k/h$a;->a:Landroid/view/animation/Animation;
 
     return-void
@@ -39,7 +37,6 @@
 .method public a(Landroid/content/Context;)Landroid/view/animation/Animation;
     .locals 0
 
-    .line 1
     iget-object p1, p0, Lcom/bumptech/glide/request/k/h$a;->a:Landroid/view/animation/Animation;
 
     return-object p1

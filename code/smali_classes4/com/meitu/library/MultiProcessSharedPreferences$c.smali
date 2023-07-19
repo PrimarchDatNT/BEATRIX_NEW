@@ -30,7 +30,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/meitu/library/MultiProcessSharedPreferences$c;->a()V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -41,7 +40,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -54,7 +52,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v9, Ln/a/b/c/e;
 
     const-class v1, Lcom/meitu/library/MultiProcessSharedPreferences$c;
@@ -161,7 +158,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     :try_start_0
     invoke-virtual {p0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
@@ -179,7 +175,6 @@
 
     new-array v2, v3, [Ljava/lang/Object;
 
-    .line 2
     sget-object v4, Lcom/meitu/library/MultiProcessSharedPreferences$c;->c:Lorg/aspectj/lang/c$b;
 
     const/4 v5, 0x0
@@ -224,7 +219,6 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -232,7 +226,6 @@
     :catchall_0
     move-exception p0
 
-    .line 4
     new-instance v1, Ljava/lang/RuntimeException;
 
     invoke-direct {v1, p0}, Ljava/lang/RuntimeException;-><init>(Ljava/lang/Throwable;)V
@@ -260,7 +253,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     :try_start_0
     invoke-virtual {p0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
@@ -294,7 +286,6 @@
 
     aput-object p2, v2, v7
 
-    .line 2
     sget-object p1, Lcom/meitu/library/MultiProcessSharedPreferences$c;->a:Lorg/aspectj/lang/c$b;
 
     const/4 p2, 0x0
@@ -346,7 +337,6 @@
     :catchall_0
     move-exception p0
 
-    .line 3
     new-instance p1, Ljava/lang/RuntimeException;
 
     invoke-direct {p1, p0}, Ljava/lang/RuntimeException;-><init>(Ljava/lang/Throwable;)V
@@ -376,7 +366,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     :try_start_0
     invoke-virtual {p0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
@@ -410,7 +399,6 @@
 
     aput-object p2, v2, v7
 
-    .line 2
     sget-object p1, Lcom/meitu/library/MultiProcessSharedPreferences$c;->b:Lorg/aspectj/lang/c$b;
 
     const/4 p2, 0x0
@@ -462,7 +450,6 @@
     :catchall_0
     move-exception p0
 
-    .line 3
     new-instance p1, Ljava/lang/RuntimeException;
 
     invoke-direct {p1, p0}, Ljava/lang/RuntimeException;-><init>(Ljava/lang/Throwable;)V
@@ -479,7 +466,6 @@
 
     invoke-static {p3}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0, p1, p2}, Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p0
@@ -496,7 +482,6 @@
 
     invoke-static {p3}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0, p1, p2}, Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p0
@@ -513,7 +498,6 @@
 
     invoke-static {p3}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0, p1, p2}, Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p0
@@ -540,7 +524,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     :try_start_0
     const-class v1, Landroid/content/ContentValues;
 
@@ -554,19 +537,16 @@
 
     aput-object v4, v3, v5
 
-    .line 2
     invoke-virtual {v1, v3}, Ljava/lang/Class;->getDeclaredConstructor([Ljava/lang/Class;)Ljava/lang/reflect/Constructor;
 
     move-result-object v1
 
-    .line 3
     invoke-virtual {v1, v2}, Ljava/lang/reflect/Constructor;->setAccessible(Z)V
 
     new-array v2, v2, [Ljava/lang/Object;
 
     aput-object p0, v2, v5
 
-    .line 4
     invoke-virtual {v1, v2}, Ljava/lang/reflect/Constructor;->newInstance([Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p0
@@ -582,7 +562,6 @@
     :catchall_0
     move-exception p0
 
-    .line 5
     new-instance v1, Ljava/lang/RuntimeException;
 
     invoke-direct {v1, p0}, Ljava/lang/RuntimeException;-><init>(Ljava/lang/Throwable;)V

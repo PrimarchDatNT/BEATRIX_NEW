@@ -15,16 +15,12 @@
 .method public constructor <init>(Lio/jaegertracing/a/n/i/c;Lio/jaegertracing/a/n/i/d;Lio/jaegertracing/a/n/i/a;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lio/jaegertracing/a/n/i/e;->a:Lio/jaegertracing/a/n/i/c;
 
-    .line 3
     iput-object p2, p0, Lio/jaegertracing/a/n/i/e;->b:Lio/jaegertracing/a/n/i/d;
 
-    .line 4
     iput-object p3, p0, Lio/jaegertracing/a/n/i/e;->c:Lio/jaegertracing/a/n/i/a;
 
     return-void
@@ -35,7 +31,6 @@
 .method public a()Lio/jaegertracing/a/n/i/a;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lio/jaegertracing/a/n/i/e;->c:Lio/jaegertracing/a/n/i/a;
 
     return-object v0
@@ -44,7 +39,6 @@
 .method public b()Lio/jaegertracing/a/n/i/c;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lio/jaegertracing/a/n/i/e;->a:Lio/jaegertracing/a/n/i/c;
 
     return-object v0
@@ -53,7 +47,6 @@
 .method public c()Lio/jaegertracing/a/n/i/d;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lio/jaegertracing/a/n/i/e;->b:Lio/jaegertracing/a/n/i/d;
 
     return-object v0
@@ -62,7 +55,6 @@
 .method public d(Lio/jaegertracing/a/n/i/a;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lio/jaegertracing/a/n/i/e;->c:Lio/jaegertracing/a/n/i/a;
 
     return-void
@@ -71,7 +63,6 @@
 .method public e(Lio/jaegertracing/a/n/i/c;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lio/jaegertracing/a/n/i/e;->a:Lio/jaegertracing/a/n/i/c;
 
     return-void
@@ -80,7 +71,6 @@
 .method public f(Lio/jaegertracing/a/n/i/d;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lio/jaegertracing/a/n/i/e;->b:Lio/jaegertracing/a/n/i/d;
 
     return-void
@@ -89,7 +79,6 @@
 .method public toString()Ljava/lang/String;
     .locals 2
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V

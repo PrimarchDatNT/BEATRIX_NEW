@@ -38,14 +38,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/MakeupConfig;
 
     invoke-direct {v1}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/MakeupConfig;-><init>()V
 
     sput-object v1, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/MakeupConfig;->i:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/MakeupConfig;
 
-    .line 2
     sget-object v1, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/MakeupConfig$spConfig$2;->INSTANCE:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/MakeupConfig$spConfig$2;
 
     invoke-static {v1}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
@@ -58,7 +56,6 @@
 
     new-array v1, v1, [I
 
-    .line 3
     fill-array-data v1, :array_0
 
     sput-object v1, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/MakeupConfig;->b:[I
@@ -86,7 +83,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -141,7 +137,6 @@
     :pswitch_2
     const/16 v2, 0x14
 
-    .line 1
     :cond_1
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -163,7 +158,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/MakeupConfig;->l()Lcom/commsource/util/common/l;
 
     move-result-object v1
@@ -202,7 +196,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/MakeupConfig;->l()Lcom/commsource/util/common/l;
 
     move-result-object v1
@@ -245,7 +238,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/MakeupConfig;->l()Lcom/commsource/util/common/l;
 
     move-result-object v1
@@ -308,7 +300,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/MakeupConfig;->l()Lcom/commsource/util/common/l;
 
     move-result-object v1
@@ -329,7 +320,6 @@
 
     invoke-virtual {v1, p1, p2}, Lcom/commsource/util/common/l;->H(Ljava/lang/String;Ljava/lang/String;)Z
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -364,7 +354,6 @@
     :cond_1
     const/16 p1, 0x28
 
-    .line 1
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -420,7 +409,6 @@
     :cond_1
     const-string v2, "BP_LIC_00000002"
 
-    .line 1
     :cond_2
     :goto_0
     :pswitch_2
@@ -477,7 +465,6 @@
     :cond_0
     const-string v2, "BP_LIP_00000002"
 
-    .line 1
     :cond_1
     :goto_0
     :pswitch_1
@@ -504,7 +491,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/MakeupConfig;->l()Lcom/commsource/util/common/l;
 
     move-result-object v1
@@ -533,7 +519,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/MakeupConfig;->l()Lcom/commsource/util/common/l;
 
     move-result-object v1
@@ -583,12 +568,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Landroid/util/SparseArray;
 
     invoke-direct {v1}, Landroid/util/SparseArray;-><init>()V
 
-    .line 2
     sget-object v2, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/MakeupConfig;->b:[I
 
     array-length v3, v2
@@ -600,14 +583,12 @@
 
     aget v5, v2, v4
 
-    .line 3
     invoke-direct {p0, v5}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/MakeupConfig;->g(I)Ljava/lang/String;
 
     move-result-object v6
 
     const-string v7, "-1"
 
-    .line 4
     invoke-static {v6, v7}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v7
@@ -616,7 +597,6 @@
 
     if-eqz v7, :cond_0
 
-    .line 5
     new-instance v7, Lcom/commsource/camera/xcamera/bean/d;
 
     invoke-direct {p0, v5}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/MakeupConfig;->f(I)I
@@ -632,7 +612,6 @@
 
     goto :goto_0
 
-    .line 6
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -657,12 +636,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/util/ArrayList;
 
     invoke-direct {v1}, Ljava/util/ArrayList;-><init>()V
 
-    .line 2
     sget-object v2, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/MakeupConfig;->b:[I
 
     array-length v3, v2
@@ -674,14 +651,12 @@
 
     aget v5, v2, v4
 
-    .line 3
     invoke-direct {p0, v5}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/MakeupConfig;->h(I)Ljava/lang/String;
 
     move-result-object v6
 
     const-string v7, "-1"
 
-    .line 4
     invoke-static {v6, v7}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v7
@@ -690,7 +665,6 @@
 
     if-eqz v7, :cond_0
 
-    .line 5
     new-instance v7, Lcom/commsource/camera/xcamera/bean/e;
 
     invoke-virtual {p0, v5}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/MakeupConfig;->i(I)I
@@ -706,7 +680,6 @@
 
     goto :goto_0
 
-    .line 6
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -720,7 +693,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/MakeupConfig;->l()Lcom/commsource/util/common/l;
 
     move-result-object v1
@@ -745,7 +717,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/MakeupConfig;->l()Lcom/commsource/util/common/l;
 
     move-result-object v1
@@ -766,7 +737,6 @@
 
     invoke-virtual {v1, p1, p2}, Lcom/commsource/util/common/l;->F(Ljava/lang/String;I)Z
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -783,7 +753,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/MakeupConfig;->l()Lcom/commsource/util/common/l;
 
     move-result-object v1
@@ -804,7 +773,6 @@
 
     invoke-virtual {v1, p1, p2}, Lcom/commsource/util/common/l;->H(Ljava/lang/String;Ljava/lang/String;)Z
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -831,7 +799,6 @@
 
     if-eqz p1, :cond_1
 
-    .line 1
     sget-object v1, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/MakeupConfig;->b:[I
 
     array-length v2, v1
@@ -845,7 +812,6 @@
 
     aget v5, v1, v4
 
-    .line 2
     invoke-virtual {p1, v5}, Landroid/util/SparseArray;->get(I)Ljava/lang/Object;
 
     move-result-object v6
@@ -854,19 +820,16 @@
 
     if-nez v6, :cond_0
 
-    .line 3
     sget-object v6, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/MakeupConfig;->i:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/MakeupConfig;
 
     const-string v7, ""
 
     invoke-virtual {v6, v5, v7}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/MakeupConfig;->o(ILjava/lang/String;)V
 
-    .line 4
     invoke-virtual {v6, v5, v3}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/MakeupConfig;->n(II)V
 
     goto :goto_1
 
-    .line 5
     :cond_0
     sget-object v7, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/MakeupConfig;->i:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/MakeupConfig;
 
@@ -876,7 +839,6 @@
 
     invoke-virtual {v7, v5, v8}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/MakeupConfig;->o(ILjava/lang/String;)V
 
-    .line 6
     invoke-virtual {v6}, Lcom/commsource/repository/child/makeup/h;->h()I
 
     move-result v6
@@ -888,7 +850,6 @@
 
     goto :goto_0
 
-    .line 7
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -916,7 +877,6 @@
 
     if-eqz p1, :cond_1
 
-    .line 1
     sget-object v1, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/MakeupConfig;->b:[I
 
     array-length v2, v1
@@ -928,7 +888,6 @@
 
     aget v4, v1, v3
 
-    .line 2
     invoke-virtual {p1, v4}, Landroid/util/SparseArray;->get(I)Ljava/lang/Object;
 
     move-result-object v5
@@ -937,7 +896,6 @@
 
     if-nez v5, :cond_0
 
-    .line 3
     sget-object v5, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/MakeupConfig;->i:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/MakeupConfig;
 
     const/16 v6, -0x1f4
@@ -946,12 +904,10 @@
 
     const-string v6, "-1"
 
-    .line 4
     invoke-direct {v5, v4, v6}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/MakeupConfig;->q(ILjava/lang/String;)V
 
     goto :goto_1
 
-    .line 5
     :cond_0
     sget-object v6, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/MakeupConfig;->i:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/MakeupConfig;
 
@@ -961,7 +917,6 @@
 
     invoke-virtual {v6, v4, v7}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/MakeupConfig;->s(II)V
 
-    .line 6
     invoke-virtual {v5}, Lcom/commsource/repository/child/makeup/h;->w()Ljava/lang/String;
 
     move-result-object v5
@@ -973,7 +928,6 @@
 
     goto :goto_0
 
-    .line 7
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -987,7 +941,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/MakeupConfig;->l()Lcom/commsource/util/common/l;
 
     move-result-object v1
@@ -1008,7 +961,6 @@
 
     invoke-virtual {v1, p1, p2}, Lcom/commsource/util/common/l;->F(Ljava/lang/String;I)Z
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1029,7 +981,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/MakeupConfig;->l()Lcom/commsource/util/common/l;
 
     move-result-object v1
@@ -1038,7 +989,6 @@
 
     invoke-virtual {v1, v2, p1}, Lcom/commsource/util/common/l;->H(Ljava/lang/String;Ljava/lang/String;)Z
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1051,7 +1001,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/MakeupConfig;->l()Lcom/commsource/util/common/l;
 
     move-result-object v1
@@ -1060,7 +1009,6 @@
 
     invoke-virtual {v1, v2, p1}, Lcom/commsource/util/common/l;->I(Ljava/lang/String;Z)Z
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

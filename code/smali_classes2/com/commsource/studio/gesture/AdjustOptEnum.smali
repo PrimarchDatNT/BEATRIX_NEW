@@ -115,7 +115,6 @@
 
     move-object v2, v8
 
-    .line 1
     invoke-direct/range {v2 .. v7}, Lcom/commsource/studio/gesture/AdjustOptEnum;-><init>(Ljava/lang/String;IIILjava/lang/String;)V
 
     sput-object v8, Lcom/commsource/studio/gesture/AdjustOptEnum;->Cutout:Lcom/commsource/studio/gesture/AdjustOptEnum;
@@ -138,7 +137,6 @@
 
     move-object v9, v3
 
-    .line 2
     invoke-direct/range {v9 .. v14}, Lcom/commsource/studio/gesture/AdjustOptEnum;-><init>(Ljava/lang/String;IIILjava/lang/String;)V
 
     sput-object v3, Lcom/commsource/studio/gesture/AdjustOptEnum;->Flip:Lcom/commsource/studio/gesture/AdjustOptEnum;
@@ -161,7 +159,6 @@
 
     move-object v5, v11
 
-    .line 3
     invoke-direct/range {v5 .. v10}, Lcom/commsource/studio/gesture/AdjustOptEnum;-><init>(Ljava/lang/String;IIILjava/lang/String;)V
 
     sput-object v11, Lcom/commsource/studio/gesture/AdjustOptEnum;->Edit:Lcom/commsource/studio/gesture/AdjustOptEnum;
@@ -184,7 +181,6 @@
 
     move-object v12, v6
 
-    .line 4
     invoke-direct/range {v12 .. v17}, Lcom/commsource/studio/gesture/AdjustOptEnum;-><init>(Ljava/lang/String;IIILjava/lang/String;)V
 
     sput-object v6, Lcom/commsource/studio/gesture/AdjustOptEnum;->Eraser:Lcom/commsource/studio/gesture/AdjustOptEnum;
@@ -207,7 +203,6 @@
 
     move-object v8, v6
 
-    .line 5
     invoke-direct/range {v8 .. v13}, Lcom/commsource/studio/gesture/AdjustOptEnum;-><init>(Ljava/lang/String;IIILjava/lang/String;)V
 
     sput-object v6, Lcom/commsource/studio/gesture/AdjustOptEnum;->ImageLayerStyle:Lcom/commsource/studio/gesture/AdjustOptEnum;
@@ -230,7 +225,6 @@
 
     move-object v9, v15
 
-    .line 6
     invoke-direct/range {v9 .. v14}, Lcom/commsource/studio/gesture/AdjustOptEnum;-><init>(Ljava/lang/String;IIILjava/lang/String;)V
 
     sput-object v15, Lcom/commsource/studio/gesture/AdjustOptEnum;->Duplicate:Lcom/commsource/studio/gesture/AdjustOptEnum;
@@ -253,7 +247,6 @@
 
     move-object/from16 v16, v10
 
-    .line 7
     invoke-direct/range {v16 .. v21}, Lcom/commsource/studio/gesture/AdjustOptEnum;-><init>(Ljava/lang/String;IIILjava/lang/String;)V
 
     sput-object v10, Lcom/commsource/studio/gesture/AdjustOptEnum;->ToFront:Lcom/commsource/studio/gesture/AdjustOptEnum;
@@ -276,7 +269,6 @@
 
     move-object/from16 v16, v12
 
-    .line 8
     invoke-direct/range {v16 .. v21}, Lcom/commsource/studio/gesture/AdjustOptEnum;-><init>(Ljava/lang/String;IIILjava/lang/String;)V
 
     sput-object v12, Lcom/commsource/studio/gesture/AdjustOptEnum;->ToBack:Lcom/commsource/studio/gesture/AdjustOptEnum;
@@ -299,7 +291,6 @@
 
     move-object/from16 v16, v14
 
-    .line 9
     invoke-direct/range {v16 .. v21}, Lcom/commsource/studio/gesture/AdjustOptEnum;-><init>(Ljava/lang/String;IIILjava/lang/String;)V
 
     sput-object v14, Lcom/commsource/studio/gesture/AdjustOptEnum;->Forward:Lcom/commsource/studio/gesture/AdjustOptEnum;
@@ -322,7 +313,6 @@
 
     move-object/from16 v17, v16
 
-    .line 10
     invoke-direct/range {v17 .. v22}, Lcom/commsource/studio/gesture/AdjustOptEnum;-><init>(Ljava/lang/String;IIILjava/lang/String;)V
 
     sput-object v16, Lcom/commsource/studio/gesture/AdjustOptEnum;->Backward:Lcom/commsource/studio/gesture/AdjustOptEnum;
@@ -345,7 +335,6 @@
 
     move-object/from16 v18, v17
 
-    .line 11
     invoke-direct/range {v18 .. v23}, Lcom/commsource/studio/gesture/AdjustOptEnum;-><init>(Ljava/lang/String;IIILjava/lang/String;)V
 
     sput-object v17, Lcom/commsource/studio/gesture/AdjustOptEnum;->Layers:Lcom/commsource/studio/gesture/AdjustOptEnum;
@@ -368,7 +357,6 @@
 
     move-object/from16 v19, v17
 
-    .line 12
     invoke-direct/range {v19 .. v24}, Lcom/commsource/studio/gesture/AdjustOptEnum;-><init>(Ljava/lang/String;IIILjava/lang/String;)V
 
     sput-object v17, Lcom/commsource/studio/gesture/AdjustOptEnum;->MakeupGroup:Lcom/commsource/studio/gesture/AdjustOptEnum;
@@ -391,7 +379,6 @@
 
     move-object/from16 v19, v17
 
-    .line 13
     invoke-direct/range {v19 .. v24}, Lcom/commsource/studio/gesture/AdjustOptEnum;-><init>(Ljava/lang/String;IIILjava/lang/String;)V
 
     sput-object v17, Lcom/commsource/studio/gesture/AdjustOptEnum;->CancelGroup:Lcom/commsource/studio/gesture/AdjustOptEnum;
@@ -426,7 +413,6 @@
 
     aput-object v16, v0, v11
 
-    .line 14
     invoke-static {v0}, Lcotlin/collections/s;->r([Ljava/lang/Object;)Ljava/util/ArrayList;
 
     move-result-object v0
@@ -439,7 +425,6 @@
 
     aput-object v15, v0, v4
 
-    .line 15
     invoke-static {v0}, Lcotlin/collections/s;->r([Ljava/lang/Object;)Ljava/util/ArrayList;
 
     move-result-object v0
@@ -463,7 +448,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
     iput p3, p0, Lcom/commsource/studio/gesture/AdjustOptEnum;->nameRes:I
@@ -482,7 +466,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/studio/gesture/AdjustOptEnum;->defaultData:Ljava/util/ArrayList;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -497,7 +480,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/studio/gesture/AdjustOptEnum;->groupDataData:Ljava/util/ArrayList;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -554,7 +536,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/gesture/AdjustOptEnum;->iconRes:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -569,7 +550,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/gesture/AdjustOptEnum;->nameRes:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -586,7 +566,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/gesture/AdjustOptEnum;->statisticName:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

@@ -24,7 +24,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lio/grpc/v1;-><init>()V
 
     return-void
@@ -64,7 +63,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p1}, Lio/grpc/r1$b;->m(Lio/grpc/r1$c;)Lio/grpc/r1$b;
 
     move-result-object p1

@@ -30,12 +30,10 @@
 .method private constructor <init>(Lcom/sdk/imp/player/b;)V
     .locals 3
 
-    .line 2
     iput-object p1, p0, Lcom/sdk/imp/player/b$n;->c:Lcom/sdk/imp/player/b;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 3
     new-instance p1, Landroid/os/HandlerThread;
 
     new-instance v0, Ljava/lang/StringBuilder;
@@ -60,10 +58,8 @@
 
     iput-object p1, p0, Lcom/sdk/imp/player/b$n;->a:Landroid/os/HandlerThread;
 
-    .line 4
     invoke-virtual {p1}, Landroid/os/HandlerThread;->start()V
 
-    .line 5
     new-instance p1, Landroid/os/Handler;
 
     iget-object v0, p0, Lcom/sdk/imp/player/b$n;->a:Landroid/os/HandlerThread;
@@ -82,7 +78,6 @@
 .method synthetic constructor <init>(Lcom/sdk/imp/player/b;Lcom/sdk/imp/player/b$a;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/sdk/imp/player/b$n;-><init>(Lcom/sdk/imp/player/b;)V
 
     return-void
@@ -91,7 +86,6 @@
 .method static synthetic a(Lcom/sdk/imp/player/b$n;Ljava/lang/Runnable;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/sdk/imp/player/b$n;->f(Ljava/lang/Runnable;)V
 
     return-void
@@ -100,7 +94,6 @@
 .method static synthetic b(Lcom/sdk/imp/player/b$n;Ljava/lang/Runnable;I)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1, p2}, Lcom/sdk/imp/player/b$n;->e(Ljava/lang/Runnable;I)V
 
     return-void
@@ -109,7 +102,6 @@
 .method static synthetic c(Lcom/sdk/imp/player/b$n;Ljava/lang/Runnable;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/sdk/imp/player/b$n;->g(Ljava/lang/Runnable;)V
 
     return-void
@@ -118,7 +110,6 @@
 .method private d()Z
     .locals 5
 
-    .line 1
     iget-object v0, p0, Lcom/sdk/imp/player/b$n;->a:Landroid/os/HandlerThread;
 
     invoke-virtual {v0}, Landroid/os/HandlerThread;->getId()J
@@ -151,7 +142,6 @@
 .method private e(Ljava/lang/Runnable;I)V
     .locals 3
 
-    .line 1
     iget-object v0, p0, Lcom/sdk/imp/player/b$n;->b:Landroid/os/Handler;
 
     int-to-long v1, p2
@@ -164,19 +154,16 @@
 .method private f(Ljava/lang/Runnable;)V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Lcom/sdk/imp/player/b$n;->d()Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-interface {p1}, Ljava/lang/Runnable;->run()V
 
     goto :goto_0
 
-    .line 3
     :cond_0
     iget-object v0, p0, Lcom/sdk/imp/player/b$n;->b:Landroid/os/Handler;
 
@@ -189,7 +176,6 @@
 .method private g(Ljava/lang/Runnable;)V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/sdk/imp/player/b$n;->b:Landroid/os/Handler;
 
     invoke-virtual {v0, p1}, Landroid/os/Handler;->removeCallbacks(Ljava/lang/Runnable;)V

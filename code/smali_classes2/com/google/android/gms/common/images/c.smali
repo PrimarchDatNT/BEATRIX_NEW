@@ -10,10 +10,8 @@
 .method public constructor <init>(Landroid/net/Uri;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/google/android/gms/common/images/c;->a:Landroid/net/Uri;
 
     return-void
@@ -24,7 +22,6 @@
 .method public final equals(Ljava/lang/Object;)Z
     .locals 1
 
-    .line 1
     instance-of v0, p1, Lcom/google/android/gms/common/images/c;
 
     if-nez v0, :cond_0
@@ -40,11 +37,9 @@
 
     return p1
 
-    .line 2
     :cond_1
     check-cast p1, Lcom/google/android/gms/common/images/c;
 
-    .line 3
     iget-object p1, p1, Lcom/google/android/gms/common/images/c;->a:Landroid/net/Uri;
 
     iget-object v0, p0, Lcom/google/android/gms/common/images/c;->a:Landroid/net/Uri;
@@ -63,7 +58,6 @@
 
     new-array v0, v0, [Ljava/lang/Object;
 
-    .line 1
     iget-object v1, p0, Lcom/google/android/gms/common/images/c;->a:Landroid/net/Uri;
 
     const/4 v2, 0x0

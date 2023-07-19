@@ -52,37 +52,28 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/4 v0, 0x0
 
-    .line 2
     iput-object v0, p0, Lorg/apache/http/impl/AbstractHttpServerConnection;->inbuffer:Lorg/apache/http/io/SessionInputBuffer;
 
-    .line 3
     iput-object v0, p0, Lorg/apache/http/impl/AbstractHttpServerConnection;->outbuffer:Lorg/apache/http/io/SessionOutputBuffer;
 
-    .line 4
     iput-object v0, p0, Lorg/apache/http/impl/AbstractHttpServerConnection;->eofSensor:Lorg/apache/http/io/EofSensor;
 
-    .line 5
     iput-object v0, p0, Lorg/apache/http/impl/AbstractHttpServerConnection;->requestParser:Lorg/apache/http/io/HttpMessageParser;
 
-    .line 6
     iput-object v0, p0, Lorg/apache/http/impl/AbstractHttpServerConnection;->responseWriter:Lorg/apache/http/io/HttpMessageWriter;
 
-    .line 7
     iput-object v0, p0, Lorg/apache/http/impl/AbstractHttpServerConnection;->metrics:Lorg/apache/http/impl/HttpConnectionMetricsImpl;
 
-    .line 8
     invoke-virtual {p0}, Lorg/apache/http/impl/AbstractHttpServerConnection;->createEntitySerializer()Lorg/apache/http/impl/entity/EntitySerializer;
 
     move-result-object v0
 
     iput-object v0, p0, Lorg/apache/http/impl/AbstractHttpServerConnection;->entityserializer:Lorg/apache/http/impl/entity/EntitySerializer;
 
-    .line 9
     invoke-virtual {p0}, Lorg/apache/http/impl/AbstractHttpServerConnection;->createEntityDeserializer()Lorg/apache/http/impl/entity/EntityDeserializer;
 
     move-result-object v0
@@ -105,7 +96,6 @@
 .method protected createConnectionMetrics(Lorg/apache/http/io/HttpTransportMetrics;Lorg/apache/http/io/HttpTransportMetrics;)Lorg/apache/http/impl/HttpConnectionMetricsImpl;
     .locals 1
 
-    .line 1
     new-instance v0, Lorg/apache/http/impl/HttpConnectionMetricsImpl;
 
     invoke-direct {v0, p1, p2}, Lorg/apache/http/impl/HttpConnectionMetricsImpl;-><init>(Lorg/apache/http/io/HttpTransportMetrics;Lorg/apache/http/io/HttpTransportMetrics;)V
@@ -116,7 +106,6 @@
 .method protected createEntityDeserializer()Lorg/apache/http/impl/entity/EntityDeserializer;
     .locals 4
 
-    .line 1
     new-instance v0, Lorg/apache/http/impl/entity/EntityDeserializer;
 
     new-instance v1, Lorg/apache/http/impl/entity/DisallowIdentityContentLengthStrategy;
@@ -137,7 +126,6 @@
 .method protected createEntitySerializer()Lorg/apache/http/impl/entity/EntitySerializer;
     .locals 2
 
-    .line 1
     new-instance v0, Lorg/apache/http/impl/entity/EntitySerializer;
 
     new-instance v1, Lorg/apache/http/impl/entity/StrictContentLengthStrategy;
@@ -152,7 +140,6 @@
 .method protected createHttpRequestFactory()Lorg/apache/http/HttpRequestFactory;
     .locals 1
 
-    .line 1
     sget-object v0, Lorg/apache/http/impl/DefaultHttpRequestFactory;->INSTANCE:Lorg/apache/http/impl/DefaultHttpRequestFactory;
 
     return-object v0
@@ -173,7 +160,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lorg/apache/http/impl/io/DefaultHttpRequestParser;
 
     const/4 v1, 0x0
@@ -197,7 +183,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lorg/apache/http/impl/io/HttpResponseWriter;
 
     const/4 v1, 0x0
@@ -215,7 +200,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lorg/apache/http/impl/AbstractHttpServerConnection;->outbuffer:Lorg/apache/http/io/SessionOutputBuffer;
 
     invoke-interface {v0}, Lorg/apache/http/io/SessionOutputBuffer;->flush()V
@@ -231,10 +215,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lorg/apache/http/impl/AbstractHttpServerConnection;->assertOpen()V
 
-    .line 2
     invoke-virtual {p0}, Lorg/apache/http/impl/AbstractHttpServerConnection;->doFlush()V
 
     return-void
@@ -243,7 +225,6 @@
 .method public getMetrics()Lorg/apache/http/HttpConnectionMetrics;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lorg/apache/http/impl/AbstractHttpServerConnection;->metrics:Lorg/apache/http/impl/HttpConnectionMetricsImpl;
 
     return-object v0
@@ -254,7 +235,6 @@
 
     const-string v0, "Input session buffer"
 
-    .line 1
     invoke-static {p1, v0}, Lorg/apache/http/util/Args;->notNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
 
     move-result-object v0
@@ -265,7 +245,6 @@
 
     const-string v0, "Output session buffer"
 
-    .line 2
     invoke-static {p2, v0}, Lorg/apache/http/util/Args;->notNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
 
     move-result-object v0
@@ -274,19 +253,16 @@
 
     iput-object v0, p0, Lorg/apache/http/impl/AbstractHttpServerConnection;->outbuffer:Lorg/apache/http/io/SessionOutputBuffer;
 
-    .line 3
     instance-of v0, p1, Lorg/apache/http/io/EofSensor;
 
     if-eqz v0, :cond_0
 
-    .line 4
     move-object v0, p1
 
     check-cast v0, Lorg/apache/http/io/EofSensor;
 
     iput-object v0, p0, Lorg/apache/http/impl/AbstractHttpServerConnection;->eofSensor:Lorg/apache/http/io/EofSensor;
 
-    .line 5
     :cond_0
     invoke-virtual {p0}, Lorg/apache/http/impl/AbstractHttpServerConnection;->createHttpRequestFactory()Lorg/apache/http/HttpRequestFactory;
 
@@ -298,14 +274,12 @@
 
     iput-object v0, p0, Lorg/apache/http/impl/AbstractHttpServerConnection;->requestParser:Lorg/apache/http/io/HttpMessageParser;
 
-    .line 6
     invoke-virtual {p0, p2, p3}, Lorg/apache/http/impl/AbstractHttpServerConnection;->createResponseWriter(Lorg/apache/http/io/SessionOutputBuffer;Lorg/apache/http/params/HttpParams;)Lorg/apache/http/io/HttpMessageWriter;
 
     move-result-object p3
 
     iput-object p3, p0, Lorg/apache/http/impl/AbstractHttpServerConnection;->responseWriter:Lorg/apache/http/io/HttpMessageWriter;
 
-    .line 7
     invoke-interface {p1}, Lorg/apache/http/io/SessionInputBuffer;->getMetrics()Lorg/apache/http/io/HttpTransportMetrics;
 
     move-result-object p1
@@ -326,7 +300,6 @@
 .method protected isEof()Z
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lorg/apache/http/impl/AbstractHttpServerConnection;->eofSensor:Lorg/apache/http/io/EofSensor;
 
     if-eqz v0, :cond_0
@@ -351,7 +324,6 @@
 .method public isStale()Z
     .locals 2
 
-    .line 1
     invoke-interface {p0}, Lorg/apache/http/HttpConnection;->isOpen()Z
 
     move-result v0
@@ -362,7 +334,6 @@
 
     return v1
 
-    .line 2
     :cond_0
     invoke-virtual {p0}, Lorg/apache/http/impl/AbstractHttpServerConnection;->isEof()Z
 
@@ -372,14 +343,12 @@
 
     return v1
 
-    .line 3
     :cond_1
     :try_start_0
     iget-object v0, p0, Lorg/apache/http/impl/AbstractHttpServerConnection;->inbuffer:Lorg/apache/http/io/SessionInputBuffer;
 
     invoke-interface {v0, v1}, Lorg/apache/http/io/SessionInputBuffer;->isDataAvailable(I)Z
 
-    .line 4
     invoke-virtual {p0}, Lorg/apache/http/impl/AbstractHttpServerConnection;->isEof()Z
 
     move-result v0
@@ -403,13 +372,10 @@
 
     const-string v0, "HTTP request"
 
-    .line 1
     invoke-static {p1, v0}, Lorg/apache/http/util/Args;->notNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
 
-    .line 2
     invoke-virtual {p0}, Lorg/apache/http/impl/AbstractHttpServerConnection;->assertOpen()V
 
-    .line 3
     iget-object v0, p0, Lorg/apache/http/impl/AbstractHttpServerConnection;->entitydeserializer:Lorg/apache/http/impl/entity/EntityDeserializer;
 
     iget-object v1, p0, Lorg/apache/http/impl/AbstractHttpServerConnection;->inbuffer:Lorg/apache/http/io/SessionInputBuffer;
@@ -418,7 +384,6 @@
 
     move-result-object v0
 
-    .line 4
     invoke-interface {p1, v0}, Lorg/apache/http/HttpEntityEnclosingRequest;->setEntity(Lorg/apache/http/HttpEntity;)V
 
     return-void
@@ -433,10 +398,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lorg/apache/http/impl/AbstractHttpServerConnection;->assertOpen()V
 
-    .line 2
     iget-object v0, p0, Lorg/apache/http/impl/AbstractHttpServerConnection;->requestParser:Lorg/apache/http/io/HttpMessageParser;
 
     invoke-interface {v0}, Lorg/apache/http/io/HttpMessageParser;->parse()Lorg/apache/http/HttpMessage;
@@ -445,7 +408,6 @@
 
     check-cast v0, Lorg/apache/http/HttpRequest;
 
-    .line 3
     iget-object v1, p0, Lorg/apache/http/impl/AbstractHttpServerConnection;->metrics:Lorg/apache/http/impl/HttpConnectionMetricsImpl;
 
     invoke-virtual {v1}, Lorg/apache/http/impl/HttpConnectionMetricsImpl;->incrementRequestCount()V
@@ -462,7 +424,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-interface {p1}, Lorg/apache/http/HttpResponse;->getEntity()Lorg/apache/http/HttpEntity;
 
     move-result-object v0
@@ -471,7 +432,6 @@
 
     return-void
 
-    .line 2
     :cond_0
     iget-object v0, p0, Lorg/apache/http/impl/AbstractHttpServerConnection;->entityserializer:Lorg/apache/http/impl/entity/EntitySerializer;
 
@@ -497,18 +457,14 @@
 
     const-string v0, "HTTP response"
 
-    .line 1
     invoke-static {p1, v0}, Lorg/apache/http/util/Args;->notNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
 
-    .line 2
     invoke-virtual {p0}, Lorg/apache/http/impl/AbstractHttpServerConnection;->assertOpen()V
 
-    .line 3
     iget-object v0, p0, Lorg/apache/http/impl/AbstractHttpServerConnection;->responseWriter:Lorg/apache/http/io/HttpMessageWriter;
 
     invoke-interface {v0, p1}, Lorg/apache/http/io/HttpMessageWriter;->write(Lorg/apache/http/HttpMessage;)V
 
-    .line 4
     invoke-interface {p1}, Lorg/apache/http/HttpResponse;->getStatusLine()Lorg/apache/http/StatusLine;
 
     move-result-object p1
@@ -521,7 +477,6 @@
 
     if-lt p1, v0, :cond_0
 
-    .line 5
     iget-object p1, p0, Lorg/apache/http/impl/AbstractHttpServerConnection;->metrics:Lorg/apache/http/impl/HttpConnectionMetricsImpl;
 
     invoke-virtual {p1}, Lorg/apache/http/impl/HttpConnectionMetricsImpl;->incrementResponseCount()V

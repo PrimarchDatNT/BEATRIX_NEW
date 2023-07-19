@@ -22,10 +22,8 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
@@ -40,7 +38,6 @@
 .method public getAdRendererCount()I
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/nativeads/AdRendererRegistry;->mMoPubAdRenderers:Ljava/util/ArrayList;
 
     invoke-virtual {v0}, Ljava/util/ArrayList;->size()I
@@ -59,10 +56,8 @@
     .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
-    .line 1
     invoke-static {p1}, Lcom/mopub/common/Preconditions;->checkNotNull(Ljava/lang/Object;)V
 
-    .line 2
     iget-object v0, p0, Lcom/mopub/nativeads/AdRendererRegistry;->mMoPubAdRenderers:Ljava/util/ArrayList;
 
     invoke-virtual {v0}, Ljava/util/ArrayList;->iterator()Ljava/util/Iterator;
@@ -82,7 +77,6 @@
 
     check-cast v1, Lcom/mopub/nativeads/MoPubAdRenderer;
 
-    .line 3
     invoke-interface {v1, p1}, Lcom/mopub/nativeads/MoPubAdRenderer;->supports(Lcom/mopub/nativeads/BaseNativeAd;)Z
 
     move-result v2
@@ -102,7 +96,6 @@
     .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
-    .line 1
     :try_start_0
     iget-object v0, p0, Lcom/mopub/nativeads/AdRendererRegistry;->mMoPubAdRenderers:Ljava/util/ArrayList;
 
@@ -138,7 +131,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/nativeads/AdRendererRegistry;->mMoPubAdRenderers:Ljava/util/ArrayList;
 
     return-object v0
@@ -151,14 +143,12 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-static {p1}, Lcom/mopub/common/Preconditions;->checkNotNull(Ljava/lang/Object;)V
 
     const/4 v0, 0x0
 
     const/4 v1, 0x0
 
-    .line 2
     :goto_0
     iget-object v2, p0, Lcom/mopub/nativeads/AdRendererRegistry;->mMoPubAdRenderers:Ljava/util/ArrayList;
 
@@ -168,7 +158,6 @@
 
     if-ge v1, v2, :cond_1
 
-    .line 3
     invoke-virtual {p1}, Lcom/mopub/nativeads/NativeAd;->getMoPubAdRenderer()Lcom/mopub/nativeads/MoPubAdRenderer;
 
     move-result-object v2
@@ -201,7 +190,6 @@
         .end annotation
     .end param
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/nativeads/AdRendererRegistry;->mMoPubAdRenderers:Ljava/util/ArrayList;
 
     invoke-virtual {v0, p1}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z

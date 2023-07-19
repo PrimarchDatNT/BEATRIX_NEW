@@ -31,7 +31,6 @@
 .method constructor <init>(Lcom/google/common/collect/MutableClassToInstanceMap;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/common/collect/MutableClassToInstanceMap$b;->a:Lcom/google/common/collect/MutableClassToInstanceMap;
 
     invoke-direct {p0}, Lcom/google/common/collect/w0;-><init>()V
@@ -44,7 +43,6 @@
 .method protected bridge synthetic delegate()Ljava/lang/Object;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/collect/MutableClassToInstanceMap$b;->delegate()Ljava/util/Set;
 
     move-result-object v0
@@ -55,7 +53,6 @@
 .method protected bridge synthetic delegate()Ljava/util/Collection;
     .locals 1
 
-    .line 2
     invoke-virtual {p0}, Lcom/google/common/collect/MutableClassToInstanceMap$b;->delegate()Ljava/util/Set;
 
     move-result-object v0
@@ -75,7 +72,6 @@
         }
     .end annotation
 
-    .line 3
     iget-object v0, p0, Lcom/google/common/collect/MutableClassToInstanceMap$b;->a:Lcom/google/common/collect/MutableClassToInstanceMap;
 
     invoke-virtual {v0}, Lcom/google/common/collect/MutableClassToInstanceMap;->delegate()Ljava/util/Map;
@@ -101,10 +97,8 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/google/common/collect/MutableClassToInstanceMap$b$a;
 
-    .line 2
     invoke-virtual {p0}, Lcom/google/common/collect/MutableClassToInstanceMap$b;->delegate()Ljava/util/Set;
 
     move-result-object v1
@@ -121,7 +115,6 @@
 .method public toArray()[Ljava/lang/Object;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/collect/d0;->standardToArray()[Ljava/lang/Object;
 
     move-result-object v0
@@ -139,7 +132,6 @@
         }
     .end annotation
 
-    .line 2
     invoke-virtual {p0, p1}, Lcom/google/common/collect/d0;->standardToArray([Ljava/lang/Object;)[Ljava/lang/Object;
 
     move-result-object p1

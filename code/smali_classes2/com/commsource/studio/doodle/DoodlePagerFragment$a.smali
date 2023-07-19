@@ -54,7 +54,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p2, Lcom/commsource/studio/doodle/DoodleMaterial;
 
     invoke-virtual {p0, p1, p2}, Lcom/commsource/studio/doodle/DoodlePagerFragment$a;->b(ILcom/commsource/studio/doodle/DoodleMaterial;)Z
@@ -73,7 +72,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/studio/doodle/DoodlePagerFragment$a;->a:Lcom/commsource/studio/doodle/DoodlePagerFragment;
 
     invoke-static {v0}, Lcom/commsource/studio/doodle/DoodlePagerFragment;->E(Lcom/commsource/studio/doodle/DoodlePagerFragment;)Lcom/commsource/studio/ImageStudioViewModel;
@@ -92,12 +90,10 @@
 
     sget p2, Lcom/res/provider/ResSTRING;->t_layers_limited:I
 
-    .line 2
     invoke-static {p2}, Lf/k/c/c/f;->r(I)V
 
     goto :goto_1
 
-    .line 3
     :cond_0
     iget-object v0, p0, Lcom/commsource/studio/doodle/DoodlePagerFragment$a;->a:Lcom/commsource/studio/doodle/DoodlePagerFragment;
 
@@ -118,7 +114,6 @@
     :cond_1
     const-string v0, "-2"
 
-    .line 4
     :goto_0
     iget-object v1, p0, Lcom/commsource/studio/doodle/DoodlePagerFragment$a;->a:Lcom/commsource/studio/doodle/DoodlePagerFragment;
 
@@ -143,7 +138,6 @@
     :goto_1
     const/4 p2, 0x1
 
-    .line 5
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p2

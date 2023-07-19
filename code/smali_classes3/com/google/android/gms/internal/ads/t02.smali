@@ -40,7 +40,6 @@
 .method static constructor <clinit>()V
     .locals 2
 
-    .line 1
     new-instance v0, Lcom/google/android/gms/internal/ads/t02;
 
     const/4 v1, 0x1
@@ -55,10 +54,8 @@
 .method constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     new-instance v0, Ljava/util/HashMap;
 
     invoke-direct {v0}, Ljava/util/HashMap;-><init>()V
@@ -71,10 +68,8 @@
 .method private constructor <init>(Z)V
     .locals 0
 
-    .line 3
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 4
     invoke-static {}, Ljava/util/Collections;->emptyMap()Ljava/util/Map;
 
     move-result-object p1
@@ -87,28 +82,23 @@
 .method public static b()Lcom/google/android/gms/internal/ads/t02;
     .locals 2
 
-    .line 1
     sget-object v0, Lcom/google/android/gms/internal/ads/t02;->d:Lcom/google/android/gms/internal/ads/t02;
 
     if-nez v0, :cond_1
 
-    .line 2
     const-class v1, Lcom/google/android/gms/internal/ads/t02;
 
     monitor-enter v1
 
-    .line 3
     :try_start_0
     sget-object v0, Lcom/google/android/gms/internal/ads/t02;->d:Lcom/google/android/gms/internal/ads/t02;
 
     if-nez v0, :cond_0
 
-    .line 4
     sget-object v0, Lcom/google/android/gms/internal/ads/t02;->f:Lcom/google/android/gms/internal/ads/t02;
 
     sput-object v0, Lcom/google/android/gms/internal/ads/t02;->d:Lcom/google/android/gms/internal/ads/t02;
 
-    .line 5
     :cond_0
     monitor-exit v1
 
@@ -131,7 +121,6 @@
 .method public static c()Lcom/google/android/gms/internal/ads/t02;
     .locals 2
 
-    .line 1
     const-class v0, Lcom/google/android/gms/internal/ads/t02;
 
     sget-object v1, Lcom/google/android/gms/internal/ads/t02;->e:Lcom/google/android/gms/internal/ads/t02;
@@ -140,31 +129,25 @@
 
     return-object v1
 
-    .line 2
     :cond_0
     monitor-enter v0
 
-    .line 3
     :try_start_0
     sget-object v1, Lcom/google/android/gms/internal/ads/t02;->e:Lcom/google/android/gms/internal/ads/t02;
 
     if-eqz v1, :cond_1
 
-    .line 4
     monitor-exit v0
 
     return-object v1
 
-    .line 5
     :cond_1
     invoke-static {v0}, Lcom/google/android/gms/internal/ads/c12;->b(Ljava/lang/Class;)Lcom/google/android/gms/internal/ads/t02;
 
     move-result-object v1
 
-    .line 6
     sput-object v1, Lcom/google/android/gms/internal/ads/t02;->e:Lcom/google/android/gms/internal/ads/t02;
 
-    .line 7
     monitor-exit v0
 
     return-object v1
@@ -172,7 +155,6 @@
     :catchall_0
     move-exception v1
 
-    .line 8
     monitor-exit v0
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
@@ -194,14 +176,12 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/t02;->a:Ljava/util/Map;
 
     new-instance v1, Lcom/google/android/gms/internal/ads/t02$a;
 
     invoke-direct {v1, p1, p2}, Lcom/google/android/gms/internal/ads/t02$a;-><init>(Ljava/lang/Object;I)V
 
-    .line 2
     invoke-interface {v0, v1}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1

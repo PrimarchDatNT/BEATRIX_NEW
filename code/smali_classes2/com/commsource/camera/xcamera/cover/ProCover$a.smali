@@ -32,7 +32,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/camera/xcamera/cover/ProCover$a;->a:Lcom/commsource/camera/xcamera/cover/ProCover;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -51,19 +50,16 @@
 
     invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v2, Ljava/util/HashSet;
 
     const/4 v3, 0x4
 
     invoke-direct {v2, v3}, Ljava/util/HashSet;-><init>(I)V
 
-    .line 2
     new-instance v3, Ljava/util/LinkedList;
 
     invoke-direct {v3}, Ljava/util/LinkedList;-><init>()V
 
-    .line 3
     iget-object v4, v0, Lcom/commsource/camera/xcamera/cover/ProCover$a;->a:Lcom/commsource/camera/xcamera/cover/ProCover;
 
     invoke-virtual {v4}, Lcom/commsource/camera/xcamera/cover/ProCover;->S()Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/c1;
@@ -84,7 +80,6 @@
 
     if-eqz v4, :cond_a
 
-    .line 4
     iget-object v4, v0, Lcom/commsource/camera/xcamera/cover/ProCover$a;->a:Lcom/commsource/camera/xcamera/cover/ProCover;
 
     invoke-virtual {v4}, Lcom/commsource/camera/xcamera/cover/ProCover;->U()Lcom/commsource/camera/xcamera/BpCameraViewModel;
@@ -101,7 +96,6 @@
 
     if-eqz v4, :cond_4
 
-    .line 5
     invoke-virtual {v4}, Lcom/meitu/template/bean/ArMaterial;->isNeedSubscribe()Z
 
     move-result v11
@@ -116,7 +110,6 @@
     :goto_0
     if-eqz v4, :cond_4
 
-    .line 6
     new-instance v11, Ljava/lang/StringBuilder;
 
     invoke-direct {v11}, Ljava/lang/StringBuilder;-><init>()V
@@ -137,7 +130,6 @@
 
     invoke-virtual {v2, v11}, Ljava/util/HashSet;->add(Ljava/lang/Object;)Z
 
-    .line 7
     new-instance v11, Ljava/lang/StringBuilder;
 
     invoke-direct {v11}, Ljava/lang/StringBuilder;-><init>()V
@@ -156,7 +148,6 @@
 
     move-result-object v11
 
-    .line 8
     sget-object v12, Lcom/commsource/home/HomeDeepLinkAnalyze;->g:Lcom/commsource/home/HomeDeepLinkAnalyze$a;
 
     invoke-virtual {v12}, Lcom/commsource/home/HomeDeepLinkAnalyze$a;->b()Lcom/commsource/home/HomeDeepLinkAnalyze;
@@ -169,7 +160,6 @@
 
     if-eqz v12, :cond_3
 
-    .line 9
     invoke-virtual {v12}, Lcotlin/Pair;->getFirst()Ljava/lang/Object;
 
     move-result-object v13
@@ -204,7 +194,6 @@
     :goto_2
     if-eqz v12, :cond_3
 
-    .line 10
     invoke-virtual {v12}, Lcotlin/Pair;->getSecond()Ljava/lang/Object;
 
     move-result-object v4
@@ -213,11 +202,9 @@
 
     check-cast v11, Ljava/lang/String;
 
-    .line 11
     :cond_3
     invoke-virtual {v3, v11}, Ljava/util/LinkedList;->add(Ljava/lang/Object;)Z
 
-    .line 12
     :cond_4
     iget-object v4, v0, Lcom/commsource/camera/xcamera/cover/ProCover$a;->a:Lcom/commsource/camera/xcamera/cover/ProCover;
 
@@ -237,7 +224,6 @@
 
     if-eqz v4, :cond_9
 
-    .line 13
     invoke-static {v4}, Lcom/commsource/camera/f1/f;->u(Lcom/meitu/template/bean/Filter;)Z
 
     move-result v11
@@ -252,7 +238,6 @@
     :goto_3
     if-eqz v4, :cond_9
 
-    .line 14
     new-instance v11, Ljava/lang/StringBuilder;
 
     invoke-direct {v11}, Ljava/lang/StringBuilder;-><init>()V
@@ -271,7 +256,6 @@
 
     invoke-virtual {v2, v6}, Ljava/util/HashSet;->add(Ljava/lang/Object;)Z
 
-    .line 15
     new-instance v6, Ljava/lang/StringBuilder;
 
     invoke-direct {v6}, Ljava/lang/StringBuilder;-><init>()V
@@ -288,7 +272,6 @@
 
     move-result-object v5
 
-    .line 16
     sget-object v6, Lcom/commsource/home/HomeDeepLinkAnalyze;->g:Lcom/commsource/home/HomeDeepLinkAnalyze$a;
 
     invoke-virtual {v6}, Lcom/commsource/home/HomeDeepLinkAnalyze$a;->b()Lcom/commsource/home/HomeDeepLinkAnalyze;
@@ -301,7 +284,6 @@
 
     if-eqz v6, :cond_8
 
-    .line 17
     invoke-virtual {v6}, Lcotlin/Pair;->getFirst()Ljava/lang/Object;
 
     move-result-object v11
@@ -338,7 +320,6 @@
     :goto_5
     if-eqz v8, :cond_8
 
-    .line 18
     invoke-virtual {v8}, Lcotlin/Pair;->getSecond()Ljava/lang/Object;
 
     move-result-object v4
@@ -347,7 +328,6 @@
 
     check-cast v5, Ljava/lang/String;
 
-    .line 19
     :cond_8
     invoke-virtual {v3, v5}, Ljava/util/LinkedList;->add(Ljava/lang/Object;)Z
 
@@ -356,7 +336,6 @@
 
     goto/16 :goto_b
 
-    .line 20
     :cond_a
     iget-object v4, v0, Lcom/commsource/camera/xcamera/cover/ProCover$a;->a:Lcom/commsource/camera/xcamera/cover/ProCover;
 
@@ -376,14 +355,12 @@
 
     if-eqz v4, :cond_b
 
-    .line 21
     invoke-virtual {v4}, Lcom/meitu/template/bean/LookMaterial;->isPayLook()Z
 
     move-result v11
 
     if-ne v11, v10, :cond_b
 
-    .line 22
     new-instance v11, Ljava/lang/StringBuilder;
 
     invoke-direct {v11}, Ljava/lang/StringBuilder;-><init>()V
@@ -404,7 +381,6 @@
 
     invoke-virtual {v2, v4}, Ljava/util/HashSet;->add(Ljava/lang/Object;)Z
 
-    .line 23
     :cond_b
     iget-object v4, v0, Lcom/commsource/camera/xcamera/cover/ProCover$a;->a:Lcom/commsource/camera/xcamera/cover/ProCover;
 
@@ -430,7 +406,6 @@
 
     if-eqz v4, :cond_d
 
-    .line 24
     invoke-virtual {v4}, Landroid/util/SparseArray;->size()I
 
     move-result v14
@@ -442,7 +417,6 @@
     :goto_6
     if-ge v8, v14, :cond_e
 
-    .line 25
     invoke-virtual {v4, v8}, Landroid/util/SparseArray;->valueAt(I)Ljava/lang/Object;
 
     move-result-object v16
@@ -451,7 +425,6 @@
 
     if-eqz v16, :cond_c
 
-    .line 26
     invoke-virtual/range {v16 .. v16}, Lcom/commsource/repository/child/makeup/h;->W()Z
 
     move-result v17
@@ -464,7 +437,6 @@
 
     if-eqz v17, :cond_c
 
-    .line 27
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -483,14 +455,12 @@
 
     invoke-virtual {v3, v1}, Ljava/util/LinkedList;->add(Ljava/lang/Object;)Z
 
-    .line 28
     invoke-virtual/range {v16 .. v16}, Lcom/commsource/repository/child/makeup/h;->w()Ljava/lang/String;
 
     move-result-object v1
 
     invoke-virtual {v2, v1}, Ljava/util/HashSet;->add(Ljava/lang/Object;)Z
 
-    .line 29
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -509,7 +479,6 @@
 
     move-result-object v1
 
-    .line 30
     new-instance v7, Ljava/lang/StringBuilder;
 
     invoke-direct {v7}, Ljava/lang/StringBuilder;-><init>()V
@@ -536,7 +505,6 @@
     :cond_d
     move-object v15, v7
 
-    .line 31
     :cond_e
     iget-object v1, v0, Lcom/commsource/camera/xcamera/cover/ProCover$a;->a:Lcom/commsource/camera/xcamera/cover/ProCover;
 
@@ -556,7 +524,6 @@
 
     if-eqz v1, :cond_10
 
-    .line 32
     invoke-virtual {v1}, Landroid/util/SparseArray;->size()I
 
     move-result v4
@@ -566,7 +533,6 @@
     :goto_7
     if-ge v8, v4, :cond_10
 
-    .line 33
     invoke-virtual {v1, v8}, Landroid/util/SparseArray;->valueAt(I)Ljava/lang/Object;
 
     move-result-object v9
@@ -575,7 +541,6 @@
 
     if-eqz v9, :cond_f
 
-    .line 34
     invoke-virtual {v9}, Lcom/commsource/repository/child/makeup/h;->W()Z
 
     move-result v14
@@ -588,7 +553,6 @@
 
     if-eqz v14, :cond_f
 
-    .line 35
     new-instance v14, Ljava/lang/StringBuilder;
 
     invoke-direct {v14}, Ljava/lang/StringBuilder;-><init>()V
@@ -607,14 +571,12 @@
 
     invoke-virtual {v3, v10}, Ljava/util/LinkedList;->add(Ljava/lang/Object;)Z
 
-    .line 36
     invoke-virtual {v9}, Lcom/commsource/repository/child/makeup/h;->w()Ljava/lang/String;
 
     move-result-object v10
 
     invoke-virtual {v2, v10}, Ljava/util/HashSet;->add(Ljava/lang/Object;)Z
 
-    .line 37
     new-instance v10, Ljava/lang/StringBuilder;
 
     invoke-direct {v10}, Ljava/lang/StringBuilder;-><init>()V
@@ -633,7 +595,6 @@
 
     move-result-object v7
 
-    .line 38
     new-instance v9, Ljava/lang/StringBuilder;
 
     invoke-direct {v9}, Ljava/lang/StringBuilder;-><init>()V
@@ -655,7 +616,6 @@
 
     goto :goto_7
 
-    .line 39
     :cond_10
     iget-object v1, v0, Lcom/commsource/camera/xcamera/cover/ProCover$a;->a:Lcom/commsource/camera/xcamera/cover/ProCover;
 
@@ -675,7 +635,6 @@
 
     if-eqz v1, :cond_15
 
-    .line 40
     invoke-static {v1}, Lcom/commsource/camera/f1/f;->u(Lcom/meitu/template/bean/Filter;)Z
 
     move-result v4
@@ -690,7 +649,6 @@
     :goto_8
     if-eqz v1, :cond_15
 
-    .line 41
     new-instance v4, Ljava/lang/StringBuilder;
 
     invoke-direct {v4}, Ljava/lang/StringBuilder;-><init>()V
@@ -709,7 +667,6 @@
 
     invoke-virtual {v2, v4}, Ljava/util/HashSet;->add(Ljava/lang/Object;)Z
 
-    .line 42
     new-instance v4, Ljava/lang/StringBuilder;
 
     invoke-direct {v4}, Ljava/lang/StringBuilder;-><init>()V
@@ -726,7 +683,6 @@
 
     move-result-object v4
 
-    .line 43
     sget-object v5, Lcom/commsource/home/HomeDeepLinkAnalyze;->g:Lcom/commsource/home/HomeDeepLinkAnalyze$a;
 
     invoke-virtual {v5}, Lcom/commsource/home/HomeDeepLinkAnalyze$a;->b()Lcom/commsource/home/HomeDeepLinkAnalyze;
@@ -739,7 +695,6 @@
 
     if-eqz v5, :cond_14
 
-    .line 44
     invoke-virtual {v5}, Lcotlin/Pair;->getFirst()Ljava/lang/Object;
 
     move-result-object v6
@@ -776,7 +731,6 @@
     :goto_a
     if-eqz v8, :cond_14
 
-    .line 45
     invoke-virtual {v8}, Lcotlin/Pair;->getSecond()Ljava/lang/Object;
 
     move-result-object v1
@@ -785,11 +739,9 @@
 
     check-cast v4, Ljava/lang/String;
 
-    .line 46
     :cond_14
     invoke-virtual {v3, v4}, Ljava/util/LinkedList;->add(Ljava/lang/Object;)Z
 
-    .line 47
     :cond_15
     :goto_b
     iget-object v1, v0, Lcom/commsource/camera/xcamera/cover/ProCover$a;->a:Lcom/commsource/camera/xcamera/cover/ProCover;
@@ -804,7 +756,6 @@
 
     if-eqz v1, :cond_16
 
-    .line 48
     invoke-virtual {v1}, Lcom/commsource/camera/fastcapture/SelfiePhotoData;->isMovieMode()Z
 
     move-result v4
@@ -819,14 +770,11 @@
 
     const-string v1, "1FLA7"
 
-    .line 49
     invoke-virtual {v2, v1}, Ljava/util/HashSet;->add(Ljava/lang/Object;)Z
 
-    .line 50
     :cond_16
     invoke-static {v2}, Lcom/commsource/statistics/q;->d(Ljava/util/HashSet;)V
 
-    .line 51
     invoke-static {v7}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v1
@@ -837,10 +785,8 @@
 
     if-nez v1, :cond_18
 
-    .line 52
     sget-object v1, Lcom/meitu/library/hwanalytics/spm/d;->b:Lcom/meitu/library/hwanalytics/spm/d;
 
-    .line 53
     invoke-virtual {v7}, Ljava/lang/String;->length()I
 
     move-result v5
@@ -861,12 +807,10 @@
 
     const-string v6, "mids_material"
 
-    .line 54
     invoke-virtual {v1, v6, v5}, Lcom/meitu/library/hwanalytics/spm/d;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_c
 
-    .line 55
     :cond_17
     new-instance v1, Ljava/lang/NullPointerException;
 
@@ -878,7 +822,6 @@
 
     throw v1
 
-    .line 56
     :cond_18
     :goto_c
     invoke-static {v15}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
@@ -887,10 +830,8 @@
 
     if-nez v1, :cond_1a
 
-    .line 57
     sget-object v1, Lcom/meitu/library/hwanalytics/spm/d;->b:Lcom/meitu/library/hwanalytics/spm/d;
 
-    .line 58
     invoke-virtual {v15}, Ljava/lang/String;->length()I
 
     move-result v5
@@ -911,12 +852,10 @@
 
     const-string v4, "mids_material_tag"
 
-    .line 59
     invoke-virtual {v1, v4, v2}, Lcom/meitu/library/hwanalytics/spm/d;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_d
 
-    .line 60
     :cond_19
     new-instance v1, Ljava/lang/NullPointerException;
 
@@ -928,7 +867,6 @@
 
     throw v1
 
-    .line 61
     :cond_1a
     :goto_d
     sget-object v1, Lcom/meitu/library/hwanalytics/spm/d;->b:Lcom/meitu/library/hwanalytics/spm/d;
@@ -939,7 +877,6 @@
 
     invoke-virtual {v1, v2, v4}, Lcom/meitu/library/hwanalytics/spm/d;->d(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 62
     new-instance v1, Lcom/commsource/util/p2/c;
 
     iget-object v2, v0, Lcom/commsource/camera/xcamera/cover/ProCover$a;->a:Lcom/commsource/camera/xcamera/cover/ProCover;
@@ -954,7 +891,6 @@
 
     invoke-direct {v1, v2}, Lcom/commsource/util/p2/c;-><init>(Landroidx/fragment/app/FragmentActivity;)V
 
-    .line 63
     new-instance v2, Lcom/commsource/camera/xcamera/cover/ProCover$a$a;
 
     const-string v4, "\u81ea\u62cd"
@@ -965,7 +901,6 @@
 
     new-array v4, v4, [Ljava/lang/String;
 
-    .line 64
     invoke-interface {v3, v4}, Ljava/util/Collection;->toArray([Ljava/lang/Object;)[Ljava/lang/Object;
 
     move-result-object v3
@@ -976,12 +911,10 @@
 
     invoke-virtual {v2, v3}, Lcom/commsource/util/delegate/process/m;->j([Ljava/lang/String;)V
 
-    .line 65
     invoke-virtual {v1, v2}, Lcom/commsource/util/p2/c;->c(Lcom/commsource/util/p2/b;)V
 
     const/16 v1, 0x805
 
-    .line 66
     invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -989,7 +922,6 @@
     :cond_1b
     const/16 v1, 0x805
 
-    .line 67
     new-instance v2, Ljava/lang/NullPointerException;
 
     const-string v3, "null cannot be cast to non-null type kotlin.Array<T>"

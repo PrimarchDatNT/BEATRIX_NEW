@@ -7,7 +7,6 @@
 .method public constructor <init>(Landroid/content/Context;Lcom/sdk/api/g;Ljava/lang/String;Ljava/lang/String;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1, p2, p3, p4}, Lcom/sdk/imp/DetailPageView;-><init>(Landroid/content/Context;Lcom/sdk/api/g;Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
@@ -32,7 +31,6 @@
 .method public c()V
     .locals 0
 
-    .line 1
     invoke-super {p0}, Lcom/sdk/imp/DetailPageView;->c()V
 
     return-void

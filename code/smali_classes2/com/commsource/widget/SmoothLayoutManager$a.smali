@@ -22,10 +22,8 @@
 .method public constructor <init>(Lcom/commsource/widget/SmoothLayoutManager;Landroid/content/Context;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/widget/SmoothLayoutManager$a;->a:Lcom/commsource/widget/SmoothLayoutManager;
 
-    .line 2
     invoke-direct {p0, p2}, Landroidx/recyclerview/widget/LinearSmoothScroller;-><init>(Landroid/content/Context;)V
 
     return-void
@@ -40,14 +38,12 @@
 
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Landroidx/recyclerview/widget/RecyclerView$SmoothScroller;->getLayoutManager()Landroidx/recyclerview/widget/RecyclerView$LayoutManager;
 
     move-result-object v0
 
     if-eqz v0, :cond_1
 
-    .line 2
     invoke-virtual {v0}, Landroidx/recyclerview/widget/RecyclerView$LayoutManager;->canScrollHorizontally()Z
 
     move-result v1
@@ -56,23 +52,19 @@
 
     goto :goto_0
 
-    .line 3
     :cond_0
     invoke-virtual {v0, p1}, Landroidx/recyclerview/widget/RecyclerView$LayoutManager;->getDecoratedLeft(Landroid/view/View;)I
 
     move-result v1
 
-    .line 4
     invoke-virtual {v0, p1}, Landroidx/recyclerview/widget/RecyclerView$LayoutManager;->getDecoratedRight(Landroid/view/View;)I
 
     move-result p1
 
-    .line 5
     invoke-virtual {v0}, Landroidx/recyclerview/widget/RecyclerView$LayoutManager;->getPaddingLeft()I
 
     move-result v2
 
-    .line 6
     invoke-virtual {v0}, Landroidx/recyclerview/widget/RecyclerView$LayoutManager;->getWidth()I
 
     move-result v3
@@ -89,7 +81,6 @@
 
     sub-int/2addr v2, v1
 
-    .line 7
     div-int/lit8 v2, v2, 0x2
 
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -100,7 +91,6 @@
     :goto_0
     const/4 p1, 0x0
 
-    .line 8
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
@@ -113,7 +103,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Ljava/lang/Math;->abs(I)I
 
     move-result p1
@@ -146,7 +135,6 @@
 
     const/16 v1, 0x15e
 
-    .line 2
     invoke-static {p1, v1}, Ljava/lang/Math;->min(II)I
 
     move-result p1
@@ -163,7 +151,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/widget/SmoothLayoutManager$a;->a:Lcom/commsource/widget/SmoothLayoutManager;
 
     invoke-virtual {v1, p1}, Landroidx/recyclerview/widget/LinearLayoutManager;->computeScrollVectorForPosition(I)Landroid/graphics/PointF;
@@ -182,7 +169,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const/4 v0, -0x1

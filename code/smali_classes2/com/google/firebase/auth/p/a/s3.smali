@@ -13,7 +13,6 @@
 .method constructor <init>(Lcom/google/firebase/auth/p/a/o3;Lcom/google/android/gms/common/api/Status;)V
     .locals 0
 
-    .line 1
     iput-object p2, p0, Lcom/google/firebase/auth/p/a/s3;->a:Lcom/google/android/gms/common/api/Status;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -26,15 +25,12 @@
 .method public final varargs a(Lcom/google/firebase/auth/PhoneAuthProvider$a;[Ljava/lang/Object;)V
     .locals 0
 
-    .line 1
     iget-object p2, p0, Lcom/google/firebase/auth/p/a/s3;->a:Lcom/google/android/gms/common/api/Status;
 
-    .line 2
     invoke-static {p2}, Lcom/google/firebase/auth/p/a/u2;->d(Lcom/google/android/gms/common/api/Status;)Lcom/google/firebase/FirebaseException;
 
     move-result-object p2
 
-    .line 3
     invoke-virtual {p1, p2}, Lcom/google/firebase/auth/PhoneAuthProvider$a;->d(Lcom/google/firebase/FirebaseException;)V
 
     return-void

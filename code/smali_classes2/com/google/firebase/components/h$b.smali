@@ -52,10 +52,8 @@
         }
     .end annotation
 
-    .line 2
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 3
     iput-object p1, p0, Lcom/google/firebase/components/h$b;->a:Ljava/lang/Class;
 
     return-void
@@ -64,7 +62,6 @@
 .method synthetic constructor <init>(Ljava/lang/Class;Lcom/google/firebase/components/h$a;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/google/firebase/components/h$b;-><init>(Ljava/lang/Class;)V
 
     return-void
@@ -77,7 +74,6 @@
 
     const/4 v1, 0x0
 
-    .line 1
     :try_start_0
     invoke-virtual {p1}, Landroid/content/Context;->getPackageManager()Landroid/content/pm/PackageManager;
 
@@ -87,12 +83,10 @@
 
     const-string p1, "Context has no PackageManager."
 
-    .line 2
     invoke-static {v0, p1}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;)I
 
     return-object v1
 
-    .line 3
     :cond_0
     new-instance v3, Landroid/content/ComponentName;
 
@@ -102,14 +96,12 @@
 
     const/16 p1, 0x80
 
-    .line 4
     invoke-virtual {v2, v3, p1}, Landroid/content/pm/PackageManager;->getServiceInfo(Landroid/content/ComponentName;I)Landroid/content/pm/ServiceInfo;
 
     move-result-object p1
 
     if-nez p1, :cond_1
 
-    .line 5
     new-instance p1, Ljava/lang/StringBuilder;
 
     invoke-direct {p1}, Ljava/lang/StringBuilder;-><init>()V
@@ -130,7 +122,6 @@
 
     return-object v1
 
-    .line 6
     :cond_1
     iget-object p1, p1, Landroid/content/pm/ServiceInfo;->metaData:Landroid/os/Bundle;
     :try_end_0
@@ -141,7 +132,6 @@
     :catch_0
     const-string p1, "Application info not found."
 
-    .line 7
     invoke-static {v0, p1}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;)I
 
     return-object v1
@@ -152,7 +142,6 @@
 .method public bridge synthetic a(Ljava/lang/Object;)Ljava/util/List;
     .locals 0
 
-    .line 1
     check-cast p1, Landroid/content/Context;
 
     invoke-virtual {p0, p1}, Lcom/google/firebase/components/h$b;->c(Landroid/content/Context;)Ljava/util/List;
@@ -175,7 +164,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/google/firebase/components/h$b;->b(Landroid/content/Context;)Landroid/os/Bundle;
 
     move-result-object p1
@@ -186,23 +174,19 @@
 
     const-string v0, "Could not retrieve metadata, returning empty list of registrars."
 
-    .line 2
     invoke-static {p1, v0}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 3
     invoke-static {}, Ljava/util/Collections;->emptyList()Ljava/util/List;
 
     move-result-object p1
 
     return-object p1
 
-    .line 4
     :cond_0
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
 
-    .line 5
     invoke-virtual {p1}, Landroid/os/Bundle;->keySet()Ljava/util/Set;
 
     move-result-object v1
@@ -225,14 +209,12 @@
 
     check-cast v2, Ljava/lang/String;
 
-    .line 6
     invoke-virtual {p1, v2}, Landroid/os/Bundle;->get(Ljava/lang/String;)Ljava/lang/Object;
 
     move-result-object v3
 
     const-string v4, "com.google.firebase.components.ComponentRegistrar"
 
-    .line 7
     invoke-virtual {v4, v3}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v3
@@ -249,7 +231,6 @@
 
     const/16 v3, 0x1f
 
-    .line 8
     invoke-virtual {v2, v3}, Ljava/lang/String;->substring(I)Ljava/lang/String;
 
     move-result-object v2

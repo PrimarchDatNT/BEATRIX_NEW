@@ -53,7 +53,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/studio/function/ar/ArProcessor$stopArRender$1;->invoke()V
 
     sget-object v1, Lcotlin/t1;->a:Lcotlin/t1;
@@ -70,7 +69,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/function/ar/ArProcessor$stopArRender$1;->this$0:Lcom/commsource/studio/function/ar/ArProcessor;
 
     invoke-virtual {v1}, Lcom/commsource/studio/function/ar/ArProcessor;->O()Lcom/commsource/camera/newrender/renderproxy/m;
@@ -79,7 +77,6 @@
 
     invoke-virtual {v1}, Lcom/commsource/camera/newrender/renderproxy/m;->F0()V
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/studio/function/ar/ArProcessor$stopArRender$1;->this$0:Lcom/commsource/studio/function/ar/ArProcessor;
 
     const/4 v2, 0x0
@@ -90,7 +87,6 @@
 
     invoke-static {v1, v2, v3, v4, v3}, Lcom/commsource/studio/processor/BaseEffectProcessor;->z(Lcom/commsource/studio/processor/BaseEffectProcessor;ZLcotlin/jvm/u/a;ILjava/lang/Object;)V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

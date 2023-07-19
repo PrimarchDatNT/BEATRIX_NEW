@@ -26,7 +26,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/meitu/library/abtest/l/g$a;->a()V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -37,7 +36,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -50,7 +48,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v9, Ln/a/b/c/e;
 
     const-class v1, Lcom/meitu/library/abtest/l/g$a;
@@ -101,7 +98,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/meitu/library/abtest/a;->r()Lcom/meitu/library/abtest/a;
 
     move-result-object v1
@@ -110,7 +106,6 @@
 
     if-eqz v1, :cond_3
 
-    .line 2
     sget-object v2, Lcom/meitu/library/abtest/control/PrivacyControl;->C_ANDROID_ID:Lcom/meitu/library/abtest/control/PrivacyControl;
 
     invoke-virtual {v1, v2}, Lcom/meitu/library/abtest/a;->v(Lcom/meitu/library/abtest/control/PrivacyControl;)Z
@@ -124,7 +119,6 @@
     :cond_0
     const/4 v1, 0x0
 
-    .line 3
     :try_start_0
     invoke-virtual {p0}, Landroid/content/Context;->getContentResolver()Landroid/content/ContentResolver;
 
@@ -181,13 +175,11 @@
     :catch_0
     move-exception p0
 
-    .line 4
     invoke-virtual {p0}, Ljava/lang/Exception;->printStackTrace()V
 
     :goto_0
     if-eqz v1, :cond_2
 
-    .line 5
     invoke-virtual {v1}, Ljava/lang/String;->length()I
 
     move-result p0
@@ -196,20 +188,17 @@
 
     goto :goto_1
 
-    .line 6
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
 
-    .line 7
     :cond_2
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p1
 
-    .line 8
     :cond_3
     :goto_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -229,14 +218,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/meitu/library/abtest/a;->r()Lcom/meitu/library/abtest/a;
 
     move-result-object v1
 
     if-eqz v1, :cond_8
 
-    .line 2
     sget-object v2, Lcom/meitu/library/abtest/control/PrivacyControl;->C_IMEI:Lcom/meitu/library/abtest/control/PrivacyControl;
 
     invoke-virtual {v1, v2}, Lcom/meitu/library/abtest/a;->v(Lcom/meitu/library/abtest/control/PrivacyControl;)Z
@@ -247,7 +234,6 @@
 
     goto :goto_2
 
-    .line 3
     :cond_0
     sget v1, Landroid/os/Build$VERSION;->SDK_INT:I
 
@@ -255,7 +241,6 @@
 
     if-lt v1, v2, :cond_1
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p1
@@ -264,7 +249,6 @@
     :try_start_0
     const-string v2, "android.permission.READ_PHONE_STATE"
 
-    .line 5
     invoke-static {p0, v2}, Lcom/meitu/library/abtest/i/a;->b(Landroid/content/Context;Ljava/lang/String;)Z
 
     move-result v2
@@ -273,7 +257,6 @@
 
     if-nez v2, :cond_2
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p1
@@ -282,7 +265,6 @@
     :try_start_1
     const-string v2, "phone"
 
-    .line 7
     invoke-virtual {p0, v2}, Landroid/content/Context;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
 
     move-result-object p0
@@ -293,21 +275,18 @@
 
     if-lt v1, v2, :cond_4
 
-    .line 8
     invoke-virtual {p0}, Landroid/telephony/TelephonyManager;->getImei()Ljava/lang/String;
 
     move-result-object v1
 
     if-eqz v1, :cond_3
 
-    .line 9
     invoke-virtual {v1}, Ljava/lang/String;->length()I
 
     move-result v2
 
     if-nez v2, :cond_5
 
-    .line 10
     :cond_3
     invoke-virtual {p0}, Landroid/telephony/TelephonyManager;->getMeid()Ljava/lang/String;
 
@@ -315,7 +294,6 @@
 
     goto :goto_0
 
-    .line 11
     :cond_4
     invoke-virtual {p0}, Landroid/telephony/TelephonyManager;->getDeviceId()Ljava/lang/String;
 
@@ -325,7 +303,6 @@
     :goto_0
     if-eqz v1, :cond_7
 
-    .line 12
     invoke-virtual {v1}, Ljava/lang/String;->length()I
 
     move-result p0
@@ -336,26 +313,22 @@
 
     goto :goto_1
 
-    .line 13
     :cond_6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
 
-    .line 14
     :cond_7
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p1
 
-    .line 15
     :catch_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p1
 
-    .line 16
     :cond_8
     :goto_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -370,7 +343,6 @@
 
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p0, p1}, Landroid/provider/Settings$Secure;->getString(Landroid/content/ContentResolver;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p0

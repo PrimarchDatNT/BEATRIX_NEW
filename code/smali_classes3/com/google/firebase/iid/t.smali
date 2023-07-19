@@ -19,7 +19,6 @@
 
     const/4 p2, 0x1
 
-    .line 1
     invoke-direct {p0, p1, p2, p3}, Lcom/google/firebase/iid/r;-><init>(IILandroid/os/Bundle;)V
 
     return-void
@@ -32,17 +31,14 @@
 
     const-string v0, "data"
 
-    .line 1
     invoke-virtual {p1, v0}, Landroid/os/Bundle;->getBundle(Ljava/lang/String;)Landroid/os/Bundle;
 
     move-result-object p1
 
     if-nez p1, :cond_0
 
-    .line 2
     sget-object p1, Landroid/os/Bundle;->EMPTY:Landroid/os/Bundle;
 
-    .line 3
     :cond_0
     invoke-virtual {p0, p1}, Lcom/google/firebase/iid/r;->c(Ljava/lang/Object;)V
 

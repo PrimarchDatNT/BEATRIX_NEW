@@ -49,10 +49,8 @@
 
     const-string v2, "\u9996\u987502"
 
-    .line 1
     invoke-static {v0, v1, v2}, Lcom/commsource/statistics/i;->r(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 2
     iget-object v0, p0, Lcom/commsource/home/NewHomeActivity$f;->a:Lcom/commsource/home/NewHomeActivity;
 
     new-instance v1, Landroid/content/Intent;
@@ -65,7 +63,6 @@
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->startActivity(Landroid/content/Intent;)V
 
-    .line 3
     iget-object v0, p0, Lcom/commsource/home/NewHomeActivity$f;->a:Lcom/commsource/home/NewHomeActivity;
 
     invoke-static {v0}, Lcom/commsource/home/NewHomeActivity;->U0(Lcom/commsource/home/NewHomeActivity;)Lcom/commsource/beautyplus/f0/q0;
@@ -78,7 +75,6 @@
 
     invoke-static {v0, v1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 4
     invoke-virtual {v0}, Landroid/view/View;->getVisibility()I
 
     move-result v0
@@ -97,10 +93,8 @@
 
     const/4 v0, 0x2
 
-    .line 5
     invoke-static {v0}, Lf/d/i/o;->C0(I)V
 
-    .line 6
     iget-object v0, p0, Lcom/commsource/home/NewHomeActivity$f;->a:Lcom/commsource/home/NewHomeActivity;
 
     invoke-static {v0}, Lcom/commsource/home/NewHomeActivity;->U0(Lcom/commsource/home/NewHomeActivity;)Lcom/commsource/beautyplus/f0/q0;
@@ -113,7 +107,6 @@
 
     invoke-static {v0}, Lcom/commsource/util/l0;->w(Landroid/view/View;)V
 
-    .line 7
     :cond_1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

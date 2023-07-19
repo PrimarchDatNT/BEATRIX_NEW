@@ -22,7 +22,6 @@
 .method static constructor <clinit>()V
     .locals 3
 
-    .line 1
     invoke-static {}, Lorg/aspectj/lang/reflect/DeclareAnnotation$Kind;->values()[Lorg/aspectj/lang/reflect/DeclareAnnotation$Kind;
 
     move-result-object v0

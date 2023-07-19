@@ -58,7 +58,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     instance-of v1, p2, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/b;
 
     if-eqz v1, :cond_1
@@ -76,7 +75,6 @@
 
     if-ne p1, v1, :cond_1
 
-    .line 2
     check-cast p2, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/b;
 
     invoke-virtual {p2}, Lcom/commsource/widget/h1/f;->c()Lcom/commsource/widget/h1/d;
@@ -93,7 +91,6 @@
 
     if-eqz p1, :cond_1
 
-    .line 3
     iget-object p2, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/LookFragment$n;->a:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/LookFragment;
 
     invoke-virtual {p2}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/LookFragment;->P()Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/c;
@@ -110,7 +107,6 @@
 
     if-eqz p2, :cond_1
 
-    .line 4
     new-instance p2, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/LookFragment$n$a;
 
     invoke-direct {p2, p1}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/LookFragment$n$a;-><init>(Lcom/meitu/template/bean/LookMaterial;)V
@@ -119,7 +115,6 @@
 
     invoke-static {p1, p2}, Lcom/commsource/util/c2;->f(Ljava/lang/String;Ljava/lang/Runnable;)V
 
-    .line 5
     :cond_1
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -134,7 +129,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Ljava/lang/Integer;
 
     check-cast p2, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;

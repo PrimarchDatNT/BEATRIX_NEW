@@ -43,7 +43,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/doodle/DoodleFragment$exit$1$a;->a:Lcom/commsource/studio/doodle/DoodleFragment$exit$1;
 
     iget-object v1, v1, Lcom/commsource/studio/doodle/DoodleFragment$exit$1;->this$0:Lcom/commsource/studio/doodle/DoodleFragment;
@@ -56,7 +55,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/studio/layer/BaseLayer;->j0(Z)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/doodle/DoodleFragment$exit$1$a;->a:Lcom/commsource/studio/doodle/DoodleFragment$exit$1;
 
     iget-object v1, v1, Lcom/commsource/studio/doodle/DoodleFragment$exit$1;->this$0:Lcom/commsource/studio/doodle/DoodleFragment;
@@ -73,7 +71,6 @@
 
     invoke-virtual {v1, v3}, Lcom/commsource/studio/bean/a;->l0(Ljava/util/List;)V
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/studio/doodle/DoodleFragment$exit$1$a;->a:Lcom/commsource/studio/doodle/DoodleFragment$exit$1;
 
     iget-object v1, v1, Lcom/commsource/studio/doodle/DoodleFragment$exit$1;->this$0:Lcom/commsource/studio/doodle/DoodleFragment;
@@ -90,7 +87,6 @@
 
     invoke-static {v1, v3, v4, v3}, Lcom/commsource/studio/bean/a;->r0(Lcom/commsource/studio/bean/a;Ljava/lang/Boolean;ILjava/lang/Object;)V
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/studio/doodle/DoodleFragment$exit$1$a;->a:Lcom/commsource/studio/doodle/DoodleFragment$exit$1;
 
     iget-object v1, v1, Lcom/commsource/studio/doodle/DoodleFragment$exit$1;->this$0:Lcom/commsource/studio/doodle/DoodleFragment;
@@ -105,7 +101,6 @@
 
     invoke-virtual {v1, v3}, Landroidx/lifecycle/MutableLiveData;->setValue(Ljava/lang/Object;)V
 
-    .line 5
     iget-object v1, p0, Lcom/commsource/studio/doodle/DoodleFragment$exit$1$a;->a:Lcom/commsource/studio/doodle/DoodleFragment$exit$1;
 
     iget-object v1, v1, Lcom/commsource/studio/doodle/DoodleFragment$exit$1;->this$0:Lcom/commsource/studio/doodle/DoodleFragment;
@@ -118,7 +113,6 @@
 
     invoke-static {v1, v3, v4, v3}, Lcom/commsource/studio/doodle/shop/ColorPickerComponent;->w(Lcom/commsource/studio/doodle/shop/ColorPickerComponent;Lcotlin/jvm/u/a;ILjava/lang/Object;)V
 
-    .line 6
     iget-object v1, p0, Lcom/commsource/studio/doodle/DoodleFragment$exit$1$a;->a:Lcom/commsource/studio/doodle/DoodleFragment$exit$1;
 
     iget-object v1, v1, Lcom/commsource/studio/doodle/DoodleFragment$exit$1;->this$0:Lcom/commsource/studio/doodle/DoodleFragment;
@@ -135,7 +129,6 @@
 
     const/16 v4, 0x46
 
-    .line 7
     invoke-static {v4}, Lcom/commsource/util/l0;->p(I)F
 
     move-result v4
@@ -146,19 +139,16 @@
 
     const/4 v4, 0x0
 
-    .line 8
     invoke-virtual {v1, v4}, Landroid/view/ViewPropertyAnimator;->alpha(F)Landroid/view/ViewPropertyAnimator;
 
     move-result-object v1
 
     const-wide/16 v4, 0xfa
 
-    .line 9
     invoke-virtual {v1, v4, v5}, Landroid/view/ViewPropertyAnimator;->setDuration(J)Landroid/view/ViewPropertyAnimator;
 
     move-result-object v1
 
-    .line 10
     new-instance v4, Lcom/commsource/studio/doodle/DoodleFragment$exit$1$a$a;
 
     invoke-direct {v4, p0}, Lcom/commsource/studio/doodle/DoodleFragment$exit$1$a$a;-><init>(Lcom/commsource/studio/doodle/DoodleFragment$exit$1$a;)V
@@ -167,10 +157,8 @@
 
     move-result-object v1
 
-    .line 11
     invoke-virtual {v1}, Landroid/view/ViewPropertyAnimator;->start()V
 
-    .line 12
     iget-object v1, p0, Lcom/commsource/studio/doodle/DoodleFragment$exit$1$a;->a:Lcom/commsource/studio/doodle/DoodleFragment$exit$1;
 
     iget-object v1, v1, Lcom/commsource/studio/doodle/DoodleFragment$exit$1;->this$0:Lcom/commsource/studio/doodle/DoodleFragment;
@@ -181,7 +169,6 @@
 
     if-eqz v1, :cond_0
 
-    .line 13
     iget-object v1, p0, Lcom/commsource/studio/doodle/DoodleFragment$exit$1$a;->a:Lcom/commsource/studio/doodle/DoodleFragment$exit$1;
 
     iget-object v1, v1, Lcom/commsource/studio/doodle/DoodleFragment$exit$1;->this$0:Lcom/commsource/studio/doodle/DoodleFragment;
@@ -208,7 +195,6 @@
 
     invoke-virtual {v1, v4}, Landroidx/lifecycle/MutableLiveData;->setValue(Ljava/lang/Object;)V
 
-    .line 14
     :cond_0
     iget-object v1, p0, Lcom/commsource/studio/doodle/DoodleFragment$exit$1$a;->a:Lcom/commsource/studio/doodle/DoodleFragment$exit$1;
 
@@ -216,7 +202,6 @@
 
     if-nez v4, :cond_1
 
-    .line 15
     iget-object v1, v1, Lcom/commsource/studio/doodle/DoodleFragment$exit$1;->this$0:Lcom/commsource/studio/doodle/DoodleFragment;
 
     invoke-virtual {v1}, Lcom/commsource/studio/doodle/DoodleFragment;->w0()Lcom/commsource/studio/bean/BaseLayerInfo;
@@ -225,7 +210,6 @@
 
     if-eqz v1, :cond_1
 
-    .line 16
     iget-object v4, p0, Lcom/commsource/studio/doodle/DoodleFragment$exit$1$a;->a:Lcom/commsource/studio/doodle/DoodleFragment$exit$1;
 
     iget-object v4, v4, Lcom/commsource/studio/doodle/DoodleFragment$exit$1;->this$0:Lcom/commsource/studio/doodle/DoodleFragment;
@@ -240,14 +224,12 @@
 
     invoke-virtual {v4, v1}, Lcom/commsource/studio/bean/a;->W(Lcom/commsource/studio/bean/BaseLayerInfo;)V
 
-    .line 17
     iget-object v1, p0, Lcom/commsource/studio/doodle/DoodleFragment$exit$1$a;->a:Lcom/commsource/studio/doodle/DoodleFragment$exit$1;
 
     iget-object v1, v1, Lcom/commsource/studio/doodle/DoodleFragment$exit$1;->this$0:Lcom/commsource/studio/doodle/DoodleFragment;
 
     invoke-virtual {v1, v3}, Lcom/commsource/studio/doodle/DoodleFragment;->I0(Lcom/commsource/studio/bean/BaseLayerInfo;)V
 
-    .line 18
     :cond_1
     iget-object v1, p0, Lcom/commsource/studio/doodle/DoodleFragment$exit$1$a;->a:Lcom/commsource/studio/doodle/DoodleFragment$exit$1;
 
@@ -259,7 +241,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/studio/ImageStudioViewModel;->U(Z)V
 
-    .line 19
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

@@ -33,7 +33,6 @@
 .method constructor <init>(Lcom/commsource/puzzle/patchedworld/x/b;Ljava/lang/String;Lcom/commsource/puzzle/patchedworld/x/b$c;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/puzzle/patchedworld/x/b$a;->d:Lcom/commsource/puzzle/patchedworld/x/b;
 
     iput-object p3, p0, Lcom/commsource/puzzle/patchedworld/x/b$a;->c:Lcom/commsource/puzzle/patchedworld/x/b$c;
@@ -56,7 +55,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Ljava/lang/String;
 
     invoke-virtual {p0, p1}, Lcom/commsource/puzzle/patchedworld/x/b$a;->d(Ljava/lang/String;)Lcom/commsource/puzzle/patchedworld/imageware/image_process/e;
@@ -79,7 +77,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/puzzle/patchedworld/x/b$a;->d:Lcom/commsource/puzzle/patchedworld/x/b;
 
     iget-object v2, p0, Lcom/commsource/puzzle/patchedworld/x/b$a;->c:Lcom/commsource/puzzle/patchedworld/x/b$c;

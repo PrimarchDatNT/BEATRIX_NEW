@@ -27,7 +27,6 @@
 .method constructor <init>(Lcom/meitu/mtlab/beautyplus/magicpen/MtPenGLSurfaceView;Lcom/meitu/mtlab/beautyplus/magicpen/MtPenGLSurfaceView$s;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/mtlab/beautyplus/magicpen/MtPenGLSurfaceView$f;->b:Lcom/meitu/mtlab/beautyplus/magicpen/MtPenGLSurfaceView;
 
     iput-object p2, p0, Lcom/meitu/mtlab/beautyplus/magicpen/MtPenGLSurfaceView$f;->a:Lcom/meitu/mtlab/beautyplus/magicpen/MtPenGLSurfaceView$s;
@@ -46,7 +45,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/mtlab/beautyplus/magicpen/MtPenGLSurfaceView$f;->b:Lcom/meitu/mtlab/beautyplus/magicpen/MtPenGLSurfaceView;
 
     invoke-static {v1}, Lcom/meitu/mtlab/beautyplus/magicpen/MtPenGLSurfaceView;->k(Lcom/meitu/mtlab/beautyplus/magicpen/MtPenGLSurfaceView;)Lcom/meitu/mtlab/beautyplus/magicpen/NativeGLMagicPen;
@@ -57,15 +55,12 @@
 
     move-result-object v1
 
-    .line 2
     iget-object v2, p0, Lcom/meitu/mtlab/beautyplus/magicpen/MtPenGLSurfaceView$f;->a:Lcom/meitu/mtlab/beautyplus/magicpen/MtPenGLSurfaceView$s;
 
     if-eqz v2, :cond_0
 
-    .line 3
     invoke-interface {v2, v1}, Lcom/meitu/mtlab/beautyplus/magicpen/MtPenGLSurfaceView$s;->successfulSave2NativeBitmap(Lcom/meitu/core/types/NativeBitmap;)V
 
-    .line 4
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

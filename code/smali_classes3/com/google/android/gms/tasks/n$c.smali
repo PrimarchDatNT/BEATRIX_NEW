@@ -74,20 +74,16 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     new-instance v0, Ljava/lang/Object;
 
     invoke-direct {v0}, Ljava/lang/Object;-><init>()V
 
     iput-object v0, p0, Lcom/google/android/gms/tasks/n$c;->a:Ljava/lang/Object;
 
-    .line 3
     iput p1, p0, Lcom/google/android/gms/tasks/n$c;->b:I
 
-    .line 4
     iput-object p2, p0, Lcom/google/android/gms/tasks/n$c;->c:Lcom/google/android/gms/tasks/i0;
 
     return-void
@@ -99,7 +95,6 @@
         value = "mLock"
     .end annotation
 
-    .line 1
     iget v0, p0, Lcom/google/android/gms/tasks/n$c;->d:I
 
     iget v1, p0, Lcom/google/android/gms/tasks/n$c;->e:I
@@ -114,12 +109,10 @@
 
     if-ne v0, v1, :cond_2
 
-    .line 2
     iget-object v0, p0, Lcom/google/android/gms/tasks/n$c;->g:Ljava/lang/Exception;
 
     if-eqz v0, :cond_0
 
-    .line 3
     iget-object v0, p0, Lcom/google/android/gms/tasks/n$c;->c:Lcom/google/android/gms/tasks/i0;
 
     new-instance v1, Ljava/util/concurrent/ExecutionException;
@@ -158,20 +151,17 @@
 
     return-void
 
-    .line 4
     :cond_0
     iget-boolean v0, p0, Lcom/google/android/gms/tasks/n$c;->h:Z
 
     if-eqz v0, :cond_1
 
-    .line 5
     iget-object v0, p0, Lcom/google/android/gms/tasks/n$c;->c:Lcom/google/android/gms/tasks/i0;
 
     invoke-virtual {v0}, Lcom/google/android/gms/tasks/i0;->C()Z
 
     return-void
 
-    .line 6
     :cond_1
     iget-object v0, p0, Lcom/google/android/gms/tasks/n$c;->c:Lcom/google/android/gms/tasks/i0;
 
@@ -192,12 +182,10 @@
         .end annotation
     .end param
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/tasks/n$c;->a:Ljava/lang/Object;
 
     monitor-enter v0
 
-    .line 2
     :try_start_0
     iget v1, p0, Lcom/google/android/gms/tasks/n$c;->e:I
 
@@ -205,13 +193,10 @@
 
     iput v1, p0, Lcom/google/android/gms/tasks/n$c;->e:I
 
-    .line 3
     iput-object p1, p0, Lcom/google/android/gms/tasks/n$c;->g:Ljava/lang/Exception;
 
-    .line 4
     invoke-direct {p0}, Lcom/google/android/gms/tasks/n$c;->b()V
 
-    .line 5
     monitor-exit v0
 
     return-void
@@ -229,12 +214,10 @@
 .method public final c()V
     .locals 3
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/tasks/n$c;->a:Ljava/lang/Object;
 
     monitor-enter v0
 
-    .line 2
     :try_start_0
     iget v1, p0, Lcom/google/android/gms/tasks/n$c;->f:I
 
@@ -244,13 +227,10 @@
 
     iput v1, p0, Lcom/google/android/gms/tasks/n$c;->f:I
 
-    .line 3
     iput-boolean v2, p0, Lcom/google/android/gms/tasks/n$c;->h:Z
 
-    .line 4
     invoke-direct {p0}, Lcom/google/android/gms/tasks/n$c;->b()V
 
-    .line 5
     monitor-exit v0
 
     return-void
@@ -268,12 +248,10 @@
 .method public final onSuccess(Ljava/lang/Object;)V
     .locals 1
 
-    .line 1
     iget-object p1, p0, Lcom/google/android/gms/tasks/n$c;->a:Ljava/lang/Object;
 
     monitor-enter p1
 
-    .line 2
     :try_start_0
     iget v0, p0, Lcom/google/android/gms/tasks/n$c;->d:I
 
@@ -281,10 +259,8 @@
 
     iput v0, p0, Lcom/google/android/gms/tasks/n$c;->d:I
 
-    .line 3
     invoke-direct {p0}, Lcom/google/android/gms/tasks/n$c;->b()V
 
-    .line 4
     monitor-exit p1
 
     return-void

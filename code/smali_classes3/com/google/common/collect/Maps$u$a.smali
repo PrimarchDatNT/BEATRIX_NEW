@@ -29,7 +29,6 @@
 .method constructor <init>(Lcom/google/common/collect/Maps$u;Ljava/util/NavigableMap;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/common/collect/Maps$u$a;->b:Lcom/google/common/collect/Maps$u;
 
     invoke-direct {p0, p2}, Lcom/google/common/collect/Maps$c0;-><init>(Ljava/util/NavigableMap;)V
@@ -49,7 +48,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/Maps$u$a;->b:Lcom/google/common/collect/Maps$u;
 
     invoke-static {v0}, Lcom/google/common/collect/Maps$u;->d(Lcom/google/common/collect/Maps$u;)Ljava/util/NavigableMap;
@@ -79,7 +77,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/Maps$u$a;->b:Lcom/google/common/collect/Maps$u;
 
     invoke-static {v0}, Lcom/google/common/collect/Maps$u;->d(Lcom/google/common/collect/Maps$u;)Ljava/util/NavigableMap;

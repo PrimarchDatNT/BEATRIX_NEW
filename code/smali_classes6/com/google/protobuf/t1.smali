@@ -42,14 +42,12 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
     new-instance v0, Lcom/google/protobuf/t1;
 
     invoke-direct {v0}, Lcom/google/protobuf/t1;-><init>()V
 
     sput-object v0, Lcom/google/protobuf/t1;->d:Lcom/google/protobuf/t1;
 
-    .line 2
     invoke-virtual {v0}, Lcom/google/protobuf/c;->G()V
 
     return-void
@@ -58,7 +56,6 @@
 .method constructor <init>()V
     .locals 2
 
-    .line 1
     new-instance v0, Ljava/util/ArrayList;
 
     const/16 v1, 0xa
@@ -80,10 +77,8 @@
         }
     .end annotation
 
-    .line 2
     invoke-direct {p0}, Lcom/google/protobuf/c;-><init>()V
 
-    .line 3
     iput-object p1, p0, Lcom/google/protobuf/t1;->c:Ljava/util/List;
 
     return-void
@@ -101,7 +96,6 @@
         }
     .end annotation
 
-    .line 1
     sget-object v0, Lcom/google/protobuf/t1;->d:Lcom/google/protobuf/t1;
 
     return-object v0
@@ -117,15 +111,12 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/protobuf/c;->b()V
 
-    .line 2
     iget-object v0, p0, Lcom/google/protobuf/t1;->c:Ljava/util/List;
 
     invoke-interface {v0, p1, p2}, Ljava/util/List;->add(ILjava/lang/Object;)V
 
-    .line 3
     iget p1, p0, Ljava/util/AbstractList;->modCount:I
 
     add-int/lit8 p1, p1, 0x1
@@ -145,31 +136,26 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/protobuf/t1;->size()I
 
     move-result v0
 
     if-lt p1, v0, :cond_0
 
-    .line 2
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0, p1}, Ljava/util/ArrayList;-><init>(I)V
 
-    .line 3
     iget-object p1, p0, Lcom/google/protobuf/t1;->c:Ljava/util/List;
 
     invoke-interface {v0, p1}, Ljava/util/List;->addAll(Ljava/util/Collection;)Z
 
-    .line 4
     new-instance p1, Lcom/google/protobuf/t1;
 
     invoke-direct {p1, v0}, Lcom/google/protobuf/t1;-><init>(Ljava/util/List;)V
 
     return-object p1
 
-    .line 5
     :cond_0
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -181,7 +167,6 @@
 .method public bridge synthetic g(I)Lcom/google/protobuf/z0$j;
     .locals 0
 
-    .line 1
     invoke-virtual {p0, p1}, Lcom/google/protobuf/t1;->e(I)Lcom/google/protobuf/t1;
 
     move-result-object p1
@@ -197,7 +182,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/protobuf/t1;->c:Ljava/util/List;
 
     invoke-interface {v0, p1}, Ljava/util/List;->get(I)Ljava/lang/Object;
@@ -215,17 +199,14 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/protobuf/c;->b()V
 
-    .line 2
     iget-object v0, p0, Lcom/google/protobuf/t1;->c:Ljava/util/List;
 
     invoke-interface {v0, p1}, Ljava/util/List;->remove(I)Ljava/lang/Object;
 
     move-result-object p1
 
-    .line 3
     iget v0, p0, Ljava/util/AbstractList;->modCount:I
 
     add-int/lit8 v0, v0, 0x1
@@ -243,17 +224,14 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/protobuf/c;->b()V
 
-    .line 2
     iget-object v0, p0, Lcom/google/protobuf/t1;->c:Ljava/util/List;
 
     invoke-interface {v0, p1, p2}, Ljava/util/List;->set(ILjava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
 
-    .line 3
     iget p2, p0, Ljava/util/AbstractList;->modCount:I
 
     add-int/lit8 p2, p2, 0x1
@@ -266,7 +244,6 @@
 .method public size()I
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/protobuf/t1;->c:Ljava/util/List;
 
     invoke-interface {v0}, Ljava/util/List;->size()I

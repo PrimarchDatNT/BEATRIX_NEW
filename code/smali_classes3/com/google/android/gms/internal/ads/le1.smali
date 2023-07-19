@@ -42,7 +42,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -58,7 +57,6 @@
 
     monitor-enter p0
 
-    .line 1
     :try_start_0
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/le1;->a:Lcom/google/android/gms/internal/ads/x60;
     :try_end_0
@@ -93,11 +91,9 @@
 
     monitor-enter p0
 
-    .line 1
     :try_start_0
     iget-object p1, p1, Lcom/google/android/gms/internal/ads/ye1;->b:Lcom/google/android/gms/internal/ads/we1;
 
-    .line 2
     invoke-interface {p2, p1}, Lcom/google/android/gms/internal/ads/ve1;->a(Lcom/google/android/gms/internal/ads/we1;)Lcom/google/android/gms/internal/ads/w60;
 
     move-result-object p1
@@ -110,7 +106,6 @@
 
     iput-object p1, p0, Lcom/google/android/gms/internal/ads/le1;->a:Lcom/google/android/gms/internal/ads/x60;
 
-    .line 3
     invoke-interface {p1}, Lcom/google/android/gms/internal/ads/x60;->a()Lcom/google/android/gms/internal/ads/z40;
 
     move-result-object p1
@@ -136,7 +131,6 @@
 .method public final synthetic b()Ljava/lang/Object;
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Lcom/google/android/gms/internal/ads/le1;->c()Lcom/google/android/gms/internal/ads/x60;
 
     move-result-object v0

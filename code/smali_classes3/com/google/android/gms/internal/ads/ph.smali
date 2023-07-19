@@ -45,12 +45,10 @@
 .method public constructor <init>(Lorg/json/JSONObject;)V
     .locals 4
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const-string v0, "url"
 
-    .line 2
     invoke-virtual {p1, v0}, Lorg/json/JSONObject;->optString(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
@@ -59,7 +57,6 @@
 
     const-string v0, "base_uri"
 
-    .line 3
     invoke-virtual {p1, v0}, Lorg/json/JSONObject;->optString(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
@@ -68,7 +65,6 @@
 
     const-string v0, "post_parameters"
 
-    .line 4
     invoke-virtual {p1, v0}, Lorg/json/JSONObject;->optString(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
@@ -77,7 +73,6 @@
 
     const-string v0, "drt_include"
 
-    .line 5
     invoke-virtual {p1, v0}, Lorg/json/JSONObject;->optString(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
@@ -90,7 +85,6 @@
 
     const-string v3, "1"
 
-    .line 6
     invoke-virtual {v0, v3}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v3
@@ -113,13 +107,11 @@
     :cond_1
     const/4 v0, 0x0
 
-    .line 7
     :goto_0
     iput-boolean v0, p0, Lcom/google/android/gms/internal/ads/ph;->e:Z
 
     const-string v0, "request_id"
 
-    .line 8
     invoke-virtual {p1, v0}, Lorg/json/JSONObject;->optString(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
@@ -128,7 +120,6 @@
 
     const-string v0, "type"
 
-    .line 9
     invoke-virtual {p1, v0}, Lorg/json/JSONObject;->optString(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
@@ -137,7 +128,6 @@
 
     const-string v0, "errors"
 
-    .line 10
     invoke-virtual {p1, v0}, Lorg/json/JSONObject;->optString(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
@@ -151,7 +141,6 @@
     :cond_2
     const-string v3, ","
 
-    .line 11
     invoke-virtual {v0, v3}, Ljava/lang/String;->split(Ljava/lang/String;)[Ljava/lang/String;
 
     move-result-object v0
@@ -160,13 +149,11 @@
 
     move-result-object v0
 
-    .line 12
     :goto_1
     iput-object v0, p0, Lcom/google/android/gms/internal/ads/ph;->a:Ljava/util/List;
 
     const-string v0, "valid"
 
-    .line 13
     invoke-virtual {p1, v0, v1}, Lorg/json/JSONObject;->optInt(Ljava/lang/String;I)I
 
     move-result v0
@@ -175,13 +162,11 @@
 
     const/4 v2, -0x2
 
-    .line 14
     :cond_3
     iput v2, p0, Lcom/google/android/gms/internal/ads/ph;->i:I
 
     const-string v0, "fetched_ad"
 
-    .line 15
     invoke-virtual {p1, v0}, Lorg/json/JSONObject;->optString(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
@@ -190,7 +175,6 @@
 
     const-string v0, "render_test_ad_label"
 
-    .line 16
     invoke-virtual {p1, v0}, Lorg/json/JSONObject;->optBoolean(Ljava/lang/String;)Z
 
     move-result v0
@@ -199,7 +183,6 @@
 
     const-string v0, "preprocessor_flags"
 
-    .line 17
     invoke-virtual {p1, v0}, Lorg/json/JSONObject;->optJSONObject(Ljava/lang/String;)Lorg/json/JSONObject;
 
     move-result-object v0
@@ -208,19 +191,16 @@
 
     goto :goto_2
 
-    .line 18
     :cond_4
     new-instance v0, Lorg/json/JSONObject;
 
     invoke-direct {v0}, Lorg/json/JSONObject;-><init>()V
 
-    .line 19
     :goto_2
     iput-object v0, p0, Lcom/google/android/gms/internal/ads/ph;->k:Lorg/json/JSONObject;
 
     const-string v0, "analytics_query_ad_event_id"
 
-    .line 20
     invoke-virtual {p1, v0}, Lorg/json/JSONObject;->optString(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
@@ -229,7 +209,6 @@
 
     const-string v0, "is_analytics_logging_enabled"
 
-    .line 21
     invoke-virtual {p1, v0}, Lorg/json/JSONObject;->optBoolean(Ljava/lang/String;)Z
 
     move-result v0
@@ -238,7 +217,6 @@
 
     const-string v0, "pool_key"
 
-    .line 22
     invoke-virtual {p1, v0}, Lorg/json/JSONObject;->optString(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p1
@@ -253,7 +231,6 @@
 .method public final a()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lcom/google/android/gms/internal/ads/ph;->i:I
 
     return v0
@@ -262,7 +239,6 @@
 .method public final b()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/ph;->h:Ljava/lang/String;
 
     return-object v0
@@ -279,7 +255,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/ph;->a:Ljava/util/List;
 
     return-object v0
@@ -288,7 +263,6 @@
 .method public final d()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/ph;->b:Ljava/lang/String;
 
     return-object v0
@@ -297,7 +271,6 @@
 .method public final e()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/ph;->c:Ljava/lang/String;
 
     return-object v0
@@ -306,7 +279,6 @@
 .method public final f()Z
     .locals 1
 
-    .line 1
     iget-boolean v0, p0, Lcom/google/android/gms/internal/ads/ph;->e:Z
 
     return v0
@@ -315,7 +287,6 @@
 .method public final g()Lorg/json/JSONObject;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/ph;->k:Lorg/json/JSONObject;
 
     return-object v0
@@ -324,7 +295,6 @@
 .method public final h()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/ph;->n:Ljava/lang/String;
 
     return-object v0

@@ -19,7 +19,6 @@
 .method static constructor <clinit>()V
     .locals 2
 
-    .line 1
     new-instance v0, Lcom/google/android/gms/internal/ads/k92;
 
     const/high16 v1, 0x3f800000    # 1.0f
@@ -34,20 +33,16 @@
 .method public constructor <init>(FF)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput p1, p0, Lcom/google/android/gms/internal/ads/k92;->a:F
 
-    .line 3
     iput p2, p0, Lcom/google/android/gms/internal/ads/k92;->b:F
 
     const/high16 p2, 0x447a0000    # 1000.0f
 
     mul-float p1, p1, p2
 
-    .line 4
     invoke-static {p1}, Ljava/lang/Math;->round(F)I
 
     move-result p1
@@ -62,7 +57,6 @@
 .method public final a(J)J
     .locals 2
 
-    .line 1
     iget v0, p0, Lcom/google/android/gms/internal/ads/k92;->c:I
 
     int-to-long v0, v0
@@ -86,7 +80,6 @@
 
     if-eqz p1, :cond_2
 
-    .line 1
     const-class v2, Lcom/google/android/gms/internal/ads/k92;
 
     invoke-virtual {p1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
@@ -97,11 +90,9 @@
 
     goto :goto_0
 
-    .line 2
     :cond_1
     check-cast p1, Lcom/google/android/gms/internal/ads/k92;
 
-    .line 3
     iget v2, p0, Lcom/google/android/gms/internal/ads/k92;->a:F
 
     iget v3, p1, Lcom/google/android/gms/internal/ads/k92;->a:F
@@ -128,7 +119,6 @@
 .method public final hashCode()I
     .locals 2
 
-    .line 1
     iget v0, p0, Lcom/google/android/gms/internal/ads/k92;->a:F
 
     invoke-static {v0}, Ljava/lang/Float;->floatToRawIntBits(F)I
@@ -139,7 +129,6 @@
 
     mul-int/lit8 v0, v0, 0x1f
 
-    .line 2
     iget v1, p0, Lcom/google/android/gms/internal/ads/k92;->b:F
 
     invoke-static {v1}, Ljava/lang/Float;->floatToRawIntBits(F)I

@@ -33,19 +33,16 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     instance-of v0, p0, Lcotlinx/coroutines/z;
 
     if-eqz v0, :cond_2
 
-    .line 2
     sget-object v0, Lcotlin/Result;->Companion:Lcotlin/Result$a;
 
     check-cast p0, Lcotlinx/coroutines/z;
 
     iget-object p0, p0, Lcotlinx/coroutines/z;->a:Ljava/lang/Throwable;
 
-    .line 3
     invoke-static {}, Lcotlinx/coroutines/p0;->e()Z
 
     move-result v0
@@ -58,7 +55,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_0
     check-cast p1, Lcotlin/coroutines/jvm/internal/c;
 
@@ -66,7 +62,6 @@
 
     move-result-object p0
 
-    .line 5
     :cond_1
     :goto_0
     invoke-static {p0}, Lcotlin/r0;->a(Ljava/lang/Throwable;)Ljava/lang/Object;
@@ -79,7 +74,6 @@
 
     goto :goto_1
 
-    .line 6
     :cond_2
     sget-object p1, Lcotlin/Result;->Companion:Lcotlin/Result$a;
 
@@ -111,7 +105,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     invoke-static {p0}, Lcotlin/Result;->exceptionOrNull-impl(Ljava/lang/Object;)Ljava/lang/Throwable;
 
     move-result-object v0
@@ -160,7 +153,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     invoke-static {p0}, Lcotlin/Result;->exceptionOrNull-impl(Ljava/lang/Object;)Ljava/lang/Throwable;
 
     move-result-object v0
@@ -169,7 +161,6 @@
 
     goto :goto_1
 
-    .line 2
     :cond_0
     invoke-static {}, Lcotlinx/coroutines/p0;->e()Z
 
@@ -183,7 +174,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_1
     check-cast p1, Lcotlin/coroutines/jvm/internal/c;
 
@@ -199,7 +189,6 @@
 
     const/4 v1, 0x0
 
-    .line 4
     new-instance v2, Lcotlinx/coroutines/z;
 
     invoke-direct {v2, v0, p0, p1, v1}, Lcotlinx/coroutines/z;-><init>(Ljava/lang/Throwable;ZILcotlin/jvm/internal/u;)V

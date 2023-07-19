@@ -35,7 +35,6 @@
 .method constructor <init>(Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/x0;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/x0$b;->a:Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/x0;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -52,7 +51,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/x0$b;->a:Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/x0;
 
     invoke-static {v1}, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/x0;->A(Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/x0;)Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/c1;
@@ -65,7 +63,6 @@
 
     invoke-virtual {v1, p1}, Landroidx/lifecycle/MutableLiveData;->setValue(Ljava/lang/Object;)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/x0$b;->a:Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/x0;
 
     invoke-static {v1}, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/x0;->A(Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/x0;)Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/c1;
@@ -84,14 +81,12 @@
 
     if-eqz v1, :cond_1
 
-    .line 3
     new-instance v2, Ljava/util/HashMap;
 
     const/16 v3, 0x8
 
     invoke-direct {v2, v3}, Ljava/util/HashMap;-><init>(I)V
 
-    .line 4
     invoke-virtual {p1}, Ljava/lang/Boolean;->booleanValue()Z
 
     move-result p1
@@ -102,7 +97,6 @@
 
     const-string p1, "\u70b9\u51fb\u6253\u5f00"
 
-    .line 5
     invoke-interface {v2, v3, p1}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     goto :goto_0
@@ -110,10 +104,8 @@
     :cond_0
     const-string p1, "\u70b9\u51fb\u5173\u95ed"
 
-    .line 6
     invoke-interface {v2, v3, p1}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 7
     :goto_0
     new-instance p1, Ljava/lang/StringBuilder;
 
@@ -139,13 +131,11 @@
 
     const-string p1, "ar_mutebutton"
 
-    .line 8
     invoke-static {p1, v2}, Lcom/commsource/statistics/i;->s(Ljava/lang/String;Ljava/util/Map;)V
 
     :cond_1
     const/4 p1, 0x0
 
-    .line 9
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p1
@@ -158,7 +148,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Ljava/lang/Boolean;
 
     invoke-virtual {p0, p1}, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/x0$b;->a(Ljava/lang/Boolean;)Lcotlin/t1;

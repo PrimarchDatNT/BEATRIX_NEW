@@ -43,7 +43,6 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
     new-instance v0, Lcom/bumptech/glide/load/k/v$a;
 
     invoke-direct {v0}, Lcom/bumptech/glide/load/k/v$a;-><init>()V
@@ -58,7 +57,6 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -76,7 +74,6 @@
         }
     .end annotation
 
-    .line 1
     sget-object v0, Lcom/bumptech/glide/load/k/v$a;->a:Lcom/bumptech/glide/load/k/v$a;
 
     return-object v0
@@ -105,7 +102,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {}, Lcom/bumptech/glide/load/k/v;->c()Lcom/bumptech/glide/load/k/v;
 
     move-result-object p1

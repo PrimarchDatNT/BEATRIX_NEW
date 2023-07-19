@@ -54,7 +54,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/studio/function/composition/CropRotateFragment$onClickConfirm$1;->invoke()V
 
     sget-object v1, Lcotlin/t1;->a:Lcotlin/t1;
@@ -71,7 +70,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/function/composition/CropRotateFragment$onClickConfirm$1;->this$0:Lcom/commsource/studio/function/composition/CropRotateFragment;
 
     invoke-virtual {v1}, Lcom/commsource/studio/function/BaseSubFragment;->r0()Lcom/commsource/studio/ImageStudioViewModel;
@@ -84,7 +82,6 @@
 
     if-eqz v1, :cond_0
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/studio/function/composition/CropRotateFragment$onClickConfirm$1;->this$0:Lcom/commsource/studio/function/composition/CropRotateFragment;
 
     invoke-static {v1}, Lcom/commsource/studio/function/composition/CropRotateFragment;->z1(Lcom/commsource/studio/function/composition/CropRotateFragment;)Lcom/commsource/beautyplus/f0/kb;
@@ -97,14 +94,12 @@
 
     move-result-object v1
 
-    .line 4
     new-instance v2, Lcom/commsource/studio/function/composition/CropRotateFragment$onClickConfirm$1$a;
 
     invoke-direct {v2, v1, p0}, Lcom/commsource/studio/function/composition/CropRotateFragment$onClickConfirm$1$a;-><init>(Landroid/graphics/Bitmap;Lcom/commsource/studio/function/composition/CropRotateFragment$onClickConfirm$1;)V
 
     invoke-static {v2}, Lcom/commsource/util/g2;->k(Ljava/lang/Runnable;)V
 
-    .line 5
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

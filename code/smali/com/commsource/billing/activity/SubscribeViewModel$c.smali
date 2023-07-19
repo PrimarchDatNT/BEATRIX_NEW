@@ -30,7 +30,6 @@
 .method constructor <init>(Lcom/commsource/billing/activity/SubscribeViewModel;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;II)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/billing/activity/SubscribeViewModel$c;->L:Lcom/commsource/billing/activity/SubscribeViewModel;
 
     iput-object p3, p0, Lcom/commsource/billing/activity/SubscribeViewModel$c;->g:Ljava/lang/String;
@@ -55,7 +54,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/billing/activity/SubscribeViewModel$c;->g:Ljava/lang/String;
 
     invoke-static {v1}, Lcom/meitu/library/p/g/b;->y(Ljava/lang/String;)Z
@@ -74,7 +72,6 @@
 
     goto/16 :goto_2
 
-    .line 2
     :cond_0
     iget-object v1, p0, Lcom/commsource/billing/activity/SubscribeViewModel$c;->g:Ljava/lang/String;
 
@@ -82,14 +79,12 @@
 
     move-result-object v1
 
-    .line 3
     iget-object v2, p0, Lcom/commsource/billing/activity/SubscribeViewModel$c;->p:Ljava/lang/String;
 
     invoke-static {v2}, Lcom/meitu/core/util/CacheUtil;->cache2AndroidBitmap(Ljava/lang/String;)Landroid/graphics/Bitmap;
 
     move-result-object v8
 
-    .line 4
     invoke-static {}, Lcom/commsource/beautyplus/g0/b;->g()Lcom/commsource/beautyplus/g0/b;
 
     move-result-object v2
@@ -100,7 +95,6 @@
 
     if-eqz v2, :cond_2
 
-    .line 5
     iget-object v3, v2, Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/MTFaceResult;->faces:[Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/MTFace;
 
     if-eqz v3, :cond_2
@@ -115,7 +109,6 @@
 
     const/4 v5, 0x0
 
-    .line 6
     :goto_0
     iget-object v6, v2, Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/MTFaceResult;->faces:[Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/MTFace;
 
@@ -123,10 +116,8 @@
 
     if-ge v3, v7, :cond_1
 
-    .line 7
     aget-object v6, v6, v3
 
-    .line 8
     iget-object v7, v6, Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/MTFace;->faceBounds:Landroid/graphics/RectF;
 
     invoke-virtual {v7}, Landroid/graphics/RectF;->centerX()F
@@ -135,7 +126,6 @@
 
     add-float/2addr v4, v7
 
-    .line 9
     iget-object v6, v6, Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/MTFace;->faceBounds:Landroid/graphics/RectF;
 
     invoke-virtual {v6}, Landroid/graphics/RectF;->centerY()F
@@ -148,7 +138,6 @@
 
     goto :goto_0
 
-    .line 10
     :cond_1
     array-length v2, v6
 
@@ -156,14 +145,12 @@
 
     div-float/2addr v4, v2
 
-    .line 11
     array-length v2, v6
 
     int-to-float v2, v2
 
     div-float/2addr v5, v2
 
-    .line 12
     invoke-virtual {v1}, Landroid/graphics/Bitmap;->getWidth()I
 
     move-result v2
@@ -180,7 +167,6 @@
 
     double-to-int v9, v2
 
-    .line 13
     invoke-virtual {v1}, Landroid/graphics/Bitmap;->getHeight()I
 
     move-result v2
@@ -195,7 +181,6 @@
 
     double-to-int v10, v2
 
-    .line 14
     iget-object v11, p0, Lcom/commsource/billing/activity/SubscribeViewModel$c;->L:Lcom/commsource/billing/activity/SubscribeViewModel;
 
     iget v6, p0, Lcom/commsource/billing/activity/SubscribeViewModel$c;->J:I
@@ -216,7 +201,6 @@
 
     invoke-static {v11, v2}, Lcom/commsource/billing/activity/SubscribeViewModel;->I(Lcom/commsource/billing/activity/SubscribeViewModel;Landroid/graphics/Bitmap;)Landroid/graphics/Bitmap;
 
-    .line 15
     invoke-virtual {v1}, Landroid/graphics/Bitmap;->getWidth()I
 
     move-result v2
@@ -237,7 +221,6 @@
 
     if-ne v1, v2, :cond_3
 
-    .line 16
     iget-object v1, p0, Lcom/commsource/billing/activity/SubscribeViewModel$c;->L:Lcom/commsource/billing/activity/SubscribeViewModel;
 
     iget v7, p0, Lcom/commsource/billing/activity/SubscribeViewModel$c;->J:I
@@ -262,7 +245,6 @@
 
     goto :goto_1
 
-    .line 17
     :cond_2
     iget-object v9, p0, Lcom/commsource/billing/activity/SubscribeViewModel$c;->L:Lcom/commsource/billing/activity/SubscribeViewModel;
 
@@ -292,7 +274,6 @@
 
     invoke-static {v9, v2}, Lcom/commsource/billing/activity/SubscribeViewModel;->I(Lcom/commsource/billing/activity/SubscribeViewModel;Landroid/graphics/Bitmap;)Landroid/graphics/Bitmap;
 
-    .line 18
     invoke-virtual {v1}, Landroid/graphics/Bitmap;->getWidth()I
 
     move-result v2
@@ -313,10 +294,8 @@
 
     if-ne v1, v2, :cond_3
 
-    .line 19
     iget-object v1, p0, Lcom/commsource/billing/activity/SubscribeViewModel$c;->L:Lcom/commsource/billing/activity/SubscribeViewModel;
 
-    .line 20
     invoke-virtual {v8}, Landroid/graphics/Bitmap;->getWidth()I
 
     move-result v2
@@ -343,10 +322,8 @@
 
     move-result-object v2
 
-    .line 21
     invoke-static {v1, v2}, Lcom/commsource/billing/activity/SubscribeViewModel;->L(Lcom/commsource/billing/activity/SubscribeViewModel;Landroid/graphics/Bitmap;)Landroid/graphics/Bitmap;
 
-    .line 22
     :cond_3
     :goto_1
     iget-object v1, p0, Lcom/commsource/billing/activity/SubscribeViewModel$c;->L:Lcom/commsource/billing/activity/SubscribeViewModel;
@@ -359,12 +336,10 @@
 
     invoke-virtual {v1, v2}, Landroidx/lifecycle/MutableLiveData;->postValue(Ljava/lang/Object;)V
 
-    .line 23
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 24
     :cond_4
     :goto_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

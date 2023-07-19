@@ -37,10 +37,8 @@
 .method private constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     new-instance v0, Ljava/lang/ThreadLocal;
 
     invoke-direct {v0}, Ljava/lang/ThreadLocal;-><init>()V
@@ -53,7 +51,6 @@
 .method synthetic constructor <init>(Lbolts/f$a;)V
     .locals 0
 
-    .line 3
     invoke-direct {p0}, Lbolts/f$b;-><init>()V
 
     return-void
@@ -62,7 +59,6 @@
 .method private a()I
     .locals 3
 
-    .line 1
     iget-object v0, p0, Lbolts/f$b;->a:Ljava/lang/ThreadLocal;
 
     invoke-virtual {v0}, Ljava/lang/ThreadLocal;->get()Ljava/lang/Object;
@@ -75,12 +71,10 @@
 
     const/4 v0, 0x0
 
-    .line 2
     invoke-static {v0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v0
 
-    .line 3
     :cond_0
     invoke-virtual {v0}, Ljava/lang/Integer;->intValue()I
 
@@ -90,14 +84,12 @@
 
     if-nez v0, :cond_1
 
-    .line 4
     iget-object v1, p0, Lbolts/f$b;->a:Ljava/lang/ThreadLocal;
 
     invoke-virtual {v1}, Ljava/lang/ThreadLocal;->remove()V
 
     goto :goto_0
 
-    .line 5
     :cond_1
     iget-object v1, p0, Lbolts/f$b;->a:Ljava/lang/ThreadLocal;
 
@@ -114,7 +106,6 @@
 .method private b()I
     .locals 3
 
-    .line 1
     iget-object v0, p0, Lbolts/f$b;->a:Ljava/lang/ThreadLocal;
 
     invoke-virtual {v0}, Ljava/lang/ThreadLocal;->get()Ljava/lang/Object;
@@ -127,12 +118,10 @@
 
     const/4 v0, 0x0
 
-    .line 2
     invoke-static {v0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v0
 
-    .line 3
     :cond_0
     invoke-virtual {v0}, Ljava/lang/Integer;->intValue()I
 
@@ -140,7 +129,6 @@
 
     add-int/lit8 v0, v0, 0x1
 
-    .line 4
     iget-object v1, p0, Lbolts/f$b;->a:Ljava/lang/ThreadLocal;
 
     invoke-static {v0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -157,7 +145,6 @@
 .method public execute(Ljava/lang/Runnable;)V
     .locals 2
 
-    .line 1
     invoke-direct {p0}, Lbolts/f$b;->b()I
 
     move-result v0
@@ -166,13 +153,11 @@
 
     if-gt v0, v1, :cond_0
 
-    .line 2
     :try_start_0
     invoke-interface {p1}, Ljava/lang/Runnable;->run()V
 
     goto :goto_0
 
-    .line 3
     :cond_0
     invoke-static {}, Lbolts/f;->a()Ljava/util/concurrent/ExecutorService;
 
@@ -182,7 +167,6 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 4
     :goto_0
     invoke-direct {p0}, Lbolts/f$b;->a()I
 

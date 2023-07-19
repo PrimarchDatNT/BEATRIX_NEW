@@ -66,26 +66,22 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    .line 9
     const-class v0, Lcom/meitu/widget/layeredimageview/layer/b;
 
     invoke-direct {p0, p1}, Lcom/meitu/widget/layeredimageview/layer/a;-><init>(Lcom/meitu/widget/layeredimageview/AbsLayerContainer;)V
 
-    .line 10
     new-instance p1, Landroid/graphics/Path;
 
     invoke-direct {p1}, Landroid/graphics/Path;-><init>()V
 
     iput-object p1, p0, Lcom/meitu/widget/layeredimageview/layer/b;->O:Landroid/graphics/Path;
 
-    .line 11
     new-instance p1, Landroid/graphics/Path;
 
     invoke-direct {p1}, Landroid/graphics/Path;-><init>()V
 
     iput-object p1, p0, Lcom/meitu/widget/layeredimageview/layer/b;->P:Landroid/graphics/Path;
 
-    .line 12
     new-instance p1, Landroid/graphics/Paint;
 
     const/4 v1, 0x1
@@ -100,7 +96,6 @@
 
     if-eqz p3, :cond_0
 
-    .line 13
     invoke-virtual {p0}, Lcom/meitu/widget/layeredimageview/layer/a;->e()Lcom/meitu/widget/layeredimageview/AbsLayerContainer;
 
     move-result-object p1
@@ -115,10 +110,8 @@
 
     invoke-virtual {p0, p1}, Lcom/meitu/widget/layeredimageview/layer/b;->k(F)V
 
-    .line 14
     iput-object p3, p0, Lcom/meitu/widget/layeredimageview/layer/b;->c:Lcom/meitu/widget/layeredimageview/layer/b$a;
 
-    .line 15
     iget-object p1, p0, Lcom/meitu/widget/layeredimageview/layer/b;->Q:Landroid/graphics/Paint;
 
     new-instance p2, Landroid/graphics/PorterDuffXfermode;
@@ -131,7 +124,6 @@
 
     return-void
 
-    .line 16
     :cond_0
     new-instance p2, Ljava/lang/IllegalArgumentException;
 
@@ -159,7 +151,6 @@
 
     throw p2
 
-    .line 17
     :cond_1
     new-instance p2, Ljava/lang/IllegalArgumentException;
 
@@ -191,24 +182,20 @@
 .method public constructor <init>(Lcom/meitu/widget/layeredimageview/AbsLayerContainer;Lcom/meitu/widget/layeredimageview/layer/b$a;)V
     .locals 1
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/meitu/widget/layeredimageview/layer/a;-><init>(Lcom/meitu/widget/layeredimageview/AbsLayerContainer;)V
 
-    .line 2
     new-instance p1, Landroid/graphics/Path;
 
     invoke-direct {p1}, Landroid/graphics/Path;-><init>()V
 
     iput-object p1, p0, Lcom/meitu/widget/layeredimageview/layer/b;->O:Landroid/graphics/Path;
 
-    .line 3
     new-instance p1, Landroid/graphics/Path;
 
     invoke-direct {p1}, Landroid/graphics/Path;-><init>()V
 
     iput-object p1, p0, Lcom/meitu/widget/layeredimageview/layer/b;->P:Landroid/graphics/Path;
 
-    .line 4
     new-instance p1, Landroid/graphics/Paint;
 
     const/4 v0, 0x1
@@ -219,7 +206,6 @@
 
     if-eqz p2, :cond_0
 
-    .line 5
     invoke-virtual {p0}, Lcom/meitu/widget/layeredimageview/layer/a;->e()Lcom/meitu/widget/layeredimageview/AbsLayerContainer;
 
     move-result-object p1
@@ -234,10 +220,8 @@
 
     invoke-virtual {p0, p1}, Lcom/meitu/widget/layeredimageview/layer/b;->k(F)V
 
-    .line 6
     iput-object p2, p0, Lcom/meitu/widget/layeredimageview/layer/b;->c:Lcom/meitu/widget/layeredimageview/layer/b$a;
 
-    .line 7
     iget-object p1, p0, Lcom/meitu/widget/layeredimageview/layer/b;->Q:Landroid/graphics/Paint;
 
     new-instance p2, Landroid/graphics/PorterDuffXfermode;
@@ -250,7 +234,6 @@
 
     return-void
 
-    .line 8
     :cond_0
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -292,7 +275,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/widget/layeredimageview/layer/b;->Q:Landroid/graphics/Paint;
 
     iget v2, p0, Lcom/meitu/widget/layeredimageview/layer/b;->J:F
@@ -313,28 +295,24 @@
 
     invoke-virtual {v1, v2}, Landroid/graphics/Paint;->setStrokeWidth(F)V
 
-    .line 2
     iget-object v1, p0, Lcom/meitu/widget/layeredimageview/layer/b;->Q:Landroid/graphics/Paint;
 
     sget-object v2, Landroid/graphics/Paint$Style;->STROKE:Landroid/graphics/Paint$Style;
 
     invoke-virtual {v1, v2}, Landroid/graphics/Paint;->setStyle(Landroid/graphics/Paint$Style;)V
 
-    .line 3
     iget-object v1, p0, Lcom/meitu/widget/layeredimageview/layer/b;->Q:Landroid/graphics/Paint;
 
     sget-object v2, Landroid/graphics/Paint$Cap;->ROUND:Landroid/graphics/Paint$Cap;
 
     invoke-virtual {v1, v2}, Landroid/graphics/Paint;->setStrokeCap(Landroid/graphics/Paint$Cap;)V
 
-    .line 4
     iget-object v1, p0, Lcom/meitu/widget/layeredimageview/layer/b;->P:Landroid/graphics/Path;
 
     iget-object v2, p0, Lcom/meitu/widget/layeredimageview/layer/b;->Q:Landroid/graphics/Paint;
 
     invoke-virtual {p1, v1, v2}, Landroid/graphics/Canvas;->drawPath(Landroid/graphics/Path;Landroid/graphics/Paint;)V
 
-    .line 5
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -350,29 +328,23 @@
 
     const/4 v1, 0x0
 
-    .line 1
     iput-boolean v1, p0, Lcom/meitu/widget/layeredimageview/layer/b;->M:Z
 
-    .line 2
     iget-object v1, p0, Lcom/meitu/widget/layeredimageview/layer/b;->g:Landroid/graphics/Bitmap;
 
     if-eqz v1, :cond_0
 
-    .line 3
     invoke-virtual {v1}, Landroid/graphics/Bitmap;->recycle()V
 
     const/4 v1, 0x0
 
-    .line 4
     iput-object v1, p0, Lcom/meitu/widget/layeredimageview/layer/b;->g:Landroid/graphics/Bitmap;
 
-    .line 5
     :cond_0
     iget-object v1, p0, Lcom/meitu/widget/layeredimageview/layer/b;->d:Landroid/graphics/Bitmap;
 
     if-eqz v1, :cond_1
 
-    .line 6
     invoke-virtual {v1}, Landroid/graphics/Bitmap;->getConfig()Landroid/graphics/Bitmap$Config;
 
     move-result-object v2
@@ -385,7 +357,6 @@
 
     iput-object v1, p0, Lcom/meitu/widget/layeredimageview/layer/b;->g:Landroid/graphics/Bitmap;
 
-    .line 7
     new-instance v1, Landroid/graphics/Canvas;
 
     iget-object v2, p0, Lcom/meitu/widget/layeredimageview/layer/b;->g:Landroid/graphics/Bitmap;
@@ -394,13 +365,11 @@
 
     iput-object v1, p0, Lcom/meitu/widget/layeredimageview/layer/b;->p:Landroid/graphics/Canvas;
 
-    .line 8
     :cond_1
     iget-object v1, p0, Lcom/meitu/widget/layeredimageview/layer/b;->c:Lcom/meitu/widget/layeredimageview/layer/b$a;
 
     invoke-interface {v1}, Lcom/meitu/widget/layeredimageview/layer/b$a;->c()V
 
-    .line 9
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -413,22 +382,18 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/widget/layeredimageview/layer/b;->O:Landroid/graphics/Path;
 
     invoke-virtual {v1}, Landroid/graphics/Path;->reset()V
 
-    .line 2
     iget-object v1, p0, Lcom/meitu/widget/layeredimageview/layer/b;->P:Landroid/graphics/Path;
 
     invoke-virtual {v1}, Landroid/graphics/Path;->reset()V
 
-    .line 3
     iget-object v1, p0, Lcom/meitu/widget/layeredimageview/layer/b;->O:Landroid/graphics/Path;
 
     invoke-virtual {v1, p1, p2}, Landroid/graphics/Path;->moveTo(FF)V
 
-    .line 4
     iget-object v1, p0, Lcom/meitu/widget/layeredimageview/layer/b;->O:Landroid/graphics/Path;
 
     invoke-virtual {p0}, Lcom/meitu/widget/layeredimageview/layer/a;->e()Lcom/meitu/widget/layeredimageview/AbsLayerContainer;
@@ -443,13 +408,10 @@
 
     invoke-virtual {v1, v2, v3}, Landroid/graphics/Path;->transform(Landroid/graphics/Matrix;Landroid/graphics/Path;)V
 
-    .line 5
     iput p1, p0, Lcom/meitu/widget/layeredimageview/layer/b;->K:F
 
-    .line 6
     iput p2, p0, Lcom/meitu/widget/layeredimageview/layer/b;->L:F
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -462,7 +424,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/widget/layeredimageview/layer/b;->O:Landroid/graphics/Path;
 
     iget v2, p0, Lcom/meitu/widget/layeredimageview/layer/b;->K:F
@@ -481,7 +442,6 @@
 
     invoke-virtual {v1, v2, v3, v4, v6}, Landroid/graphics/Path;->quadTo(FFFF)V
 
-    .line 2
     iget-object v1, p0, Lcom/meitu/widget/layeredimageview/layer/b;->O:Landroid/graphics/Path;
 
     invoke-virtual {p0}, Lcom/meitu/widget/layeredimageview/layer/a;->e()Lcom/meitu/widget/layeredimageview/AbsLayerContainer;
@@ -496,13 +456,10 @@
 
     invoke-virtual {v1, v2, v3}, Landroid/graphics/Path;->transform(Landroid/graphics/Matrix;Landroid/graphics/Path;)V
 
-    .line 3
     iput p1, p0, Lcom/meitu/widget/layeredimageview/layer/b;->K:F
 
-    .line 4
     iput p2, p0, Lcom/meitu/widget/layeredimageview/layer/b;->L:F
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -517,14 +474,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/meitu/widget/layeredimageview/layer/a;->f()Z
 
     move-result v1
 
     if-eqz v1, :cond_0
 
-    .line 2
     iget-object v1, p0, Lcom/meitu/widget/layeredimageview/layer/b;->g:Landroid/graphics/Bitmap;
 
     invoke-virtual {p0}, Lcom/meitu/widget/layeredimageview/layer/a;->e()Lcom/meitu/widget/layeredimageview/AbsLayerContainer;
@@ -539,7 +494,6 @@
 
     invoke-virtual {p1, v1, v2, v3}, Landroid/graphics/Canvas;->drawBitmap(Landroid/graphics/Bitmap;Landroid/graphics/Matrix;Landroid/graphics/Paint;)V
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -553,17 +507,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0, p1}, Lcom/meitu/widget/layeredimageview/layer/a;->g(Z)V
 
-    .line 2
     invoke-virtual {p0}, Lcom/meitu/widget/layeredimageview/layer/a;->e()Lcom/meitu/widget/layeredimageview/AbsLayerContainer;
 
     move-result-object p1
 
     invoke-virtual {p1}, Landroid/widget/ImageView;->invalidate()V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -596,7 +547,6 @@
 
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p3, p0, Lcom/meitu/widget/layeredimageview/layer/b;->d:Landroid/graphics/Bitmap;
 
     if-eqz p3, :cond_0
@@ -607,14 +557,12 @@
 
     if-eqz p3, :cond_0
 
-    .line 2
     iget-object p3, p0, Lcom/meitu/widget/layeredimageview/layer/b;->g:Landroid/graphics/Bitmap;
 
     const/4 v0, 0x0
 
     invoke-virtual {p1, p3, p4, p5, v0}, Landroid/graphics/Canvas;->drawBitmap(Landroid/graphics/Bitmap;Landroid/graphics/Rect;Landroid/graphics/RectF;Landroid/graphics/Paint;)V
 
-    .line 3
     :cond_0
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -639,11 +587,9 @@
     :cond_0
     const/4 p1, 0x0
 
-    .line 1
     :goto_0
     iput p1, p0, Lcom/meitu/widget/layeredimageview/layer/b;->J:F
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -658,7 +604,6 @@
 
     if-eqz p1, :cond_2
 
-    .line 1
     invoke-virtual {p1}, Landroid/graphics/Bitmap;->isRecycled()Z
 
     move-result v1
@@ -673,29 +618,22 @@
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-virtual {v1}, Landroid/graphics/Bitmap;->recycle()V
 
-    .line 3
     iput-object v2, p0, Lcom/meitu/widget/layeredimageview/layer/b;->d:Landroid/graphics/Bitmap;
 
-    .line 4
     :cond_0
     iget-object v1, p0, Lcom/meitu/widget/layeredimageview/layer/b;->g:Landroid/graphics/Bitmap;
 
     if-eqz v1, :cond_1
 
-    .line 5
     invoke-virtual {v1}, Landroid/graphics/Bitmap;->recycle()V
 
-    .line 6
     iput-object v2, p0, Lcom/meitu/widget/layeredimageview/layer/b;->g:Landroid/graphics/Bitmap;
 
-    .line 7
     :cond_1
     iput-object p1, p0, Lcom/meitu/widget/layeredimageview/layer/b;->d:Landroid/graphics/Bitmap;
 
-    .line 8
     new-instance v1, Landroid/graphics/Canvas;
 
     iget-object v2, p0, Lcom/meitu/widget/layeredimageview/layer/b;->d:Landroid/graphics/Bitmap;
@@ -704,7 +642,6 @@
 
     iput-object v1, p0, Lcom/meitu/widget/layeredimageview/layer/b;->f:Landroid/graphics/Canvas;
 
-    .line 9
     invoke-virtual {p1}, Landroid/graphics/Bitmap;->getConfig()Landroid/graphics/Bitmap$Config;
 
     move-result-object v1
@@ -717,7 +654,6 @@
 
     iput-object p1, p0, Lcom/meitu/widget/layeredimageview/layer/b;->g:Landroid/graphics/Bitmap;
 
-    .line 10
     new-instance p1, Landroid/graphics/Canvas;
 
     iget-object v1, p0, Lcom/meitu/widget/layeredimageview/layer/b;->g:Landroid/graphics/Bitmap;
@@ -726,14 +662,12 @@
 
     iput-object p1, p0, Lcom/meitu/widget/layeredimageview/layer/b;->p:Landroid/graphics/Canvas;
 
-    .line 11
     invoke-virtual {p0}, Lcom/meitu/widget/layeredimageview/layer/a;->e()Lcom/meitu/widget/layeredimageview/AbsLayerContainer;
 
     move-result-object p1
 
     invoke-virtual {p1}, Landroid/widget/ImageView;->invalidate()V
 
-    .line 12
     :cond_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -747,7 +681,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/meitu/widget/layeredimageview/layer/a;->f()Z
 
     move-result v1
@@ -768,13 +701,10 @@
 
     const/4 v1, 0x1
 
-    .line 2
     iput-boolean v1, p0, Lcom/meitu/widget/layeredimageview/layer/b;->M:Z
 
-    .line 3
     iput-boolean v2, p0, Lcom/meitu/widget/layeredimageview/layer/b;->N:Z
 
-    .line 4
     invoke-virtual {p0}, Lcom/meitu/widget/layeredimageview/layer/a;->e()Lcom/meitu/widget/layeredimageview/AbsLayerContainer;
 
     move-result-object v2
@@ -791,24 +721,20 @@
 
     move-result-object p1
 
-    .line 5
     iget v2, p1, Landroid/graphics/PointF;->x:F
 
     iget p1, p1, Landroid/graphics/PointF;->y:F
 
     invoke-direct {p0, v2, p1}, Lcom/meitu/widget/layeredimageview/layer/b;->m(FF)V
 
-    .line 6
     iget-object p1, p0, Lcom/meitu/widget/layeredimageview/layer/b;->c:Lcom/meitu/widget/layeredimageview/layer/b$a;
 
     invoke-interface {p1}, Lcom/meitu/widget/layeredimageview/layer/b$a;->a()V
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
 
-    .line 8
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -822,7 +748,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/meitu/widget/layeredimageview/layer/a;->f()Z
 
     move-result v1
@@ -831,7 +756,6 @@
 
     if-eqz v1, :cond_2
 
-    .line 2
     invoke-virtual {p0}, Lcom/meitu/widget/layeredimageview/layer/a;->e()Lcom/meitu/widget/layeredimageview/AbsLayerContainer;
 
     move-result-object v1
@@ -848,37 +772,30 @@
 
     move-result-object p1
 
-    .line 3
     iget v1, p1, Landroid/graphics/PointF;->x:F
 
     iget p1, p1, Landroid/graphics/PointF;->y:F
 
     invoke-direct {p0, v1, p1}, Lcom/meitu/widget/layeredimageview/layer/b;->n(FF)V
 
-    .line 4
     iget-boolean p1, p0, Lcom/meitu/widget/layeredimageview/layer/b;->M:Z
 
     if-eqz p1, :cond_1
 
-    .line 5
     iput-boolean v2, p0, Lcom/meitu/widget/layeredimageview/layer/b;->M:Z
 
-    .line 6
     iget-boolean p1, p0, Lcom/meitu/widget/layeredimageview/layer/b;->N:Z
 
     if-eqz p1, :cond_0
 
-    .line 7
     iget-object p1, p0, Lcom/meitu/widget/layeredimageview/layer/b;->f:Landroid/graphics/Canvas;
 
     invoke-direct {p0, p1}, Lcom/meitu/widget/layeredimageview/layer/b;->i(Landroid/graphics/Canvas;)V
 
-    .line 8
     iget-object p1, p0, Lcom/meitu/widget/layeredimageview/layer/b;->p:Landroid/graphics/Canvas;
 
     invoke-direct {p0, p1}, Lcom/meitu/widget/layeredimageview/layer/b;->i(Landroid/graphics/Canvas;)V
 
-    .line 9
     iget-object p1, p0, Lcom/meitu/widget/layeredimageview/layer/b;->c:Lcom/meitu/widget/layeredimageview/layer/b$a;
 
     iget-object v1, p0, Lcom/meitu/widget/layeredimageview/layer/b;->d:Landroid/graphics/Bitmap;
@@ -891,7 +808,6 @@
 
     goto :goto_0
 
-    .line 10
     :cond_0
     iget-object p1, p0, Lcom/meitu/widget/layeredimageview/layer/b;->c:Lcom/meitu/widget/layeredimageview/layer/b$a;
 
@@ -901,12 +817,10 @@
     :goto_0
     const/4 p1, 0x1
 
-    .line 11
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
 
-    .line 12
     :cond_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -920,7 +834,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/meitu/widget/layeredimageview/layer/a;->f()Z
 
     move-result p3
@@ -933,10 +846,8 @@
 
     const/4 p3, 0x1
 
-    .line 2
     iput-boolean p3, p0, Lcom/meitu/widget/layeredimageview/layer/b;->N:Z
 
-    .line 3
     invoke-virtual {p0}, Lcom/meitu/widget/layeredimageview/layer/a;->e()Lcom/meitu/widget/layeredimageview/AbsLayerContainer;
 
     move-result-object p4
@@ -953,19 +864,16 @@
 
     move-result-object p2
 
-    .line 4
     iget p4, p2, Landroid/graphics/PointF;->x:F
 
     iget p2, p2, Landroid/graphics/PointF;->y:F
 
     invoke-direct {p0, p4, p2}, Lcom/meitu/widget/layeredimageview/layer/b;->n(FF)V
 
-    .line 5
     iget-object p2, p0, Lcom/meitu/widget/layeredimageview/layer/b;->p:Landroid/graphics/Canvas;
 
     invoke-direct {p0, p2}, Lcom/meitu/widget/layeredimageview/layer/b;->i(Landroid/graphics/Canvas;)V
 
-    .line 6
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p3
@@ -973,7 +881,6 @@
     :cond_0
     const/4 p2, 0x0
 
-    .line 7
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p2
@@ -986,10 +893,8 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/meitu/widget/layeredimageview/layer/b;->j()V
 
-    .line 2
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const/4 p1, 0x0

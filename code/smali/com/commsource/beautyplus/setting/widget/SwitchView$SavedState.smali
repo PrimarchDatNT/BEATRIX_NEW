@@ -38,7 +38,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/commsource/beautyplus/setting/widget/SwitchView$SavedState$a;
 
     invoke-direct {v1}, Lcom/commsource/beautyplus/setting/widget/SwitchView$SavedState$a;-><init>()V
@@ -53,10 +52,8 @@
 .method private constructor <init>(Landroid/os/Parcel;)V
     .locals 1
 
-    .line 3
     invoke-direct {p0, p1}, Landroid/view/View$BaseSavedState;-><init>(Landroid/os/Parcel;)V
 
-    .line 4
     invoke-virtual {p1}, Landroid/os/Parcel;->readInt()I
 
     move-result p1
@@ -79,7 +76,6 @@
 .method synthetic constructor <init>(Landroid/os/Parcel;Lcom/commsource/beautyplus/setting/widget/SwitchView$a;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/commsource/beautyplus/setting/widget/SwitchView$SavedState;-><init>(Landroid/os/Parcel;)V
 
     return-void
@@ -88,7 +84,6 @@
 .method constructor <init>(Landroid/os/Parcelable;)V
     .locals 0
 
-    .line 2
     invoke-direct {p0, p1}, Landroid/view/View$BaseSavedState;-><init>(Landroid/os/Parcelable;)V
 
     return-void
@@ -101,7 +96,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean p0, p0, Lcom/commsource/beautyplus/setting/widget/SwitchView$SavedState;->a:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -116,7 +110,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/beautyplus/setting/widget/SwitchView$SavedState;->a:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -133,7 +126,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const/4 v0, 0x0
@@ -148,15 +140,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0, p1, p2}, Landroid/view/View$BaseSavedState;->writeToParcel(Landroid/os/Parcel;I)V
 
-    .line 2
     iget-boolean p2, p0, Lcom/commsource/beautyplus/setting/widget/SwitchView$SavedState;->a:Z
 
     invoke-virtual {p1, p2}, Landroid/os/Parcel;->writeInt(I)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

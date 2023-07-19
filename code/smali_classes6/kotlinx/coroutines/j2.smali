@@ -38,7 +38,6 @@
 .method static constructor <clinit>()V
     .locals 2
 
-    .line 1
     new-instance v0, Lcotlinx/coroutines/internal/c0;
 
     const-string v1, "COMPLETING_ALREADY"
@@ -47,7 +46,6 @@
 
     sput-object v0, Lcotlinx/coroutines/j2;->a:Lcotlinx/coroutines/internal/c0;
 
-    .line 2
     new-instance v0, Lcotlinx/coroutines/internal/c0;
 
     const-string v1, "COMPLETING_WAITING_CHILDREN"
@@ -56,7 +54,6 @@
 
     sput-object v0, Lcotlinx/coroutines/j2;->b:Lcotlinx/coroutines/internal/c0;
 
-    .line 3
     new-instance v0, Lcotlinx/coroutines/internal/c0;
 
     const-string v1, "COMPLETING_RETRY"
@@ -65,7 +62,6 @@
 
     sput-object v0, Lcotlinx/coroutines/j2;->c:Lcotlinx/coroutines/internal/c0;
 
-    .line 4
     new-instance v0, Lcotlinx/coroutines/internal/c0;
 
     const-string v1, "TOO_LATE_TO_CANCEL"
@@ -74,7 +70,6 @@
 
     sput-object v0, Lcotlinx/coroutines/j2;->d:Lcotlinx/coroutines/internal/c0;
 
-    .line 5
     new-instance v0, Lcotlinx/coroutines/internal/c0;
 
     const-string v1, "SEALED"
@@ -83,7 +78,6 @@
 
     sput-object v0, Lcotlinx/coroutines/j2;->h:Lcotlinx/coroutines/internal/c0;
 
-    .line 6
     new-instance v0, Lcotlinx/coroutines/i1;
 
     const/4 v1, 0x0
@@ -92,7 +86,6 @@
 
     sput-object v0, Lcotlinx/coroutines/j2;->i:Lcotlinx/coroutines/i1;
 
-    .line 7
     new-instance v0, Lcotlinx/coroutines/i1;
 
     const/4 v1, 0x1
@@ -149,7 +142,6 @@
 .method public static final synthetic h()Lcotlinx/coroutines/internal/c0;
     .locals 1
 
-    .line 1
     sget-object v0, Lcotlinx/coroutines/j2;->a:Lcotlinx/coroutines/internal/c0;
 
     return-object v0
@@ -158,7 +150,6 @@
 .method public static final synthetic i()Lcotlinx/coroutines/internal/c0;
     .locals 1
 
-    .line 1
     sget-object v0, Lcotlinx/coroutines/j2;->c:Lcotlinx/coroutines/internal/c0;
 
     return-object v0
@@ -167,7 +158,6 @@
 .method public static final synthetic j()Lcotlinx/coroutines/i1;
     .locals 1
 
-    .line 1
     sget-object v0, Lcotlinx/coroutines/j2;->j:Lcotlinx/coroutines/i1;
 
     return-object v0
@@ -176,7 +166,6 @@
 .method public static final synthetic k()Lcotlinx/coroutines/i1;
     .locals 1
 
-    .line 1
     sget-object v0, Lcotlinx/coroutines/j2;->i:Lcotlinx/coroutines/i1;
 
     return-object v0
@@ -185,7 +174,6 @@
 .method public static final synthetic l()Lcotlinx/coroutines/internal/c0;
     .locals 1
 
-    .line 1
     sget-object v0, Lcotlinx/coroutines/j2;->h:Lcotlinx/coroutines/internal/c0;
 
     return-object v0
@@ -194,7 +182,6 @@
 .method public static final synthetic m()Lcotlinx/coroutines/internal/c0;
     .locals 1
 
-    .line 1
     sget-object v0, Lcotlinx/coroutines/j2;->d:Lcotlinx/coroutines/internal/c0;
 
     return-object v0
@@ -209,7 +196,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     instance-of v0, p0, Lcotlinx/coroutines/w1;
 
     if-eqz v0, :cond_0
@@ -235,7 +221,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     instance-of v0, p0, Lcotlinx/coroutines/x1;
 
     if-nez v0, :cond_0

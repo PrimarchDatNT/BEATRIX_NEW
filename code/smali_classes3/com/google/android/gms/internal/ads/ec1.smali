@@ -25,10 +25,8 @@
 .method public constructor <init>(Landroid/os/Bundle;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/google/android/gms/internal/ads/ec1;->a:Landroid/os/Bundle;
 
     return-void
@@ -39,10 +37,8 @@
 .method public final synthetic b(Ljava/lang/Object;)V
     .locals 3
 
-    .line 1
     check-cast p1, Lorg/json/JSONObject;
 
-    .line 2
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/ec1;->a:Landroid/os/Bundle;
 
     if-eqz v0, :cond_0
@@ -50,21 +46,18 @@
     :try_start_0
     const-string v0, "device"
 
-    .line 3
     invoke-static {p1, v0}, Lcom/google/android/gms/internal/ads/vo;->k(Lorg/json/JSONObject;Ljava/lang/String;)Lorg/json/JSONObject;
 
     move-result-object p1
 
     const-string v0, "play_store"
 
-    .line 4
     invoke-static {p1, v0}, Lcom/google/android/gms/internal/ads/vo;->k(Lorg/json/JSONObject;Ljava/lang/String;)Lorg/json/JSONObject;
 
     move-result-object p1
 
     const-string v0, "parental_controls"
 
-    .line 5
     invoke-static {}, Lcom/google/android/gms/ads/internal/p;->c()Lcom/google/android/gms/internal/ads/cn;
 
     move-result-object v1
@@ -84,7 +77,6 @@
     :catch_0
     const-string p1, "Failed putting parental controls bundle."
 
-    .line 6
     invoke-static {p1}, Lcom/google/android/gms/internal/ads/sm;->m(Ljava/lang/String;)V
 
     :cond_0

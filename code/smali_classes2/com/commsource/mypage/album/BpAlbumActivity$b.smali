@@ -58,7 +58,6 @@
 
     invoke-static {p4, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/mypage/album/BpAlbumActivity$b;->a:Lcom/commsource/mypage/album/BpAlbumActivity;
 
     invoke-virtual {v1}, Lcom/commsource/mypage/album/BpAlbumActivity;->S0()Lcom/commsource/mypage/album/BpAlbumViewModel;
@@ -77,7 +76,6 @@
 
     if-ne v1, v2, :cond_0
 
-    .line 2
     iget-object p1, p0, Lcom/commsource/mypage/album/BpAlbumActivity$b;->a:Lcom/commsource/mypage/album/BpAlbumActivity;
 
     invoke-virtual {p1}, Lcom/commsource/mypage/album/BpAlbumActivity;->S0()Lcom/commsource/mypage/album/BpAlbumViewModel;
@@ -88,7 +86,6 @@
 
     invoke-virtual {p1, p2, p3}, Lcom/commsource/mypage/album/BpAlbumViewModel;->X(Landroid/app/Activity;Lcom/commsource/cloudalbum/bean/CAImageInfo;)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -96,7 +93,6 @@
     :cond_0
     if-eqz p1, :cond_2
 
-    .line 4
     invoke-virtual {p3}, Lcom/commsource/cloudalbum/bean/CAImageInfo;->s()Z
 
     move-result v1
@@ -121,7 +117,6 @@
 
     goto :goto_0
 
-    .line 5
     :cond_1
     iget-object p1, p0, Lcom/commsource/mypage/album/BpAlbumActivity$b;->a:Lcom/commsource/mypage/album/BpAlbumActivity;
 
@@ -141,27 +136,22 @@
 
     invoke-static/range {v1 .. v6}, Lcom/commsource/mypage/album/BpAlbumViewModel;->Z(Lcom/commsource/mypage/album/BpAlbumViewModel;Landroid/app/Activity;Lcom/commsource/cloudalbum/bean/CAImageInfo;ZILjava/lang/Object;)V
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 7
     :cond_2
     :goto_0
     iget-object v1, p0, Lcom/commsource/mypage/album/BpAlbumActivity$b;->a:Lcom/commsource/mypage/album/BpAlbumActivity;
 
     invoke-virtual {v1}, Lcom/commsource/beautyplus/BaseActivity;->J0()V
 
-    .line 8
     iget-object v1, p0, Lcom/commsource/mypage/album/BpAlbumActivity$b;->a:Lcom/commsource/mypage/album/BpAlbumActivity;
 
-    .line 9
     invoke-virtual {p3}, Lcom/commsource/cloudalbum/bean/CAImageInfo;->j()Ljava/lang/String;
 
     move-result-object v2
 
-    .line 10
     new-instance v9, Lcom/commsource/mypage/album/BpAlbumActivity$b$a;
 
     move-object v3, v9
@@ -178,10 +168,8 @@
 
     invoke-direct/range {v3 .. v8}, Lcom/commsource/mypage/album/BpAlbumActivity$b$a;-><init>(Lcom/commsource/mypage/album/BpAlbumActivity$b;ILcom/commsource/cloudalbum/bean/CAImageInfo;ILandroid/view/View;)V
 
-    .line 11
     invoke-static {v1, v2, v9}, Lcom/commsource/mypage/album/y;->a(Landroid/app/Activity;Ljava/lang/String;Lcom/commsource/mypage/album/y$f;)V
 
-    .line 12
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

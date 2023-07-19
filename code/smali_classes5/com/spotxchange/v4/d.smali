@@ -11,7 +11,6 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
     const-class v0, Lcom/spotxchange/v4/d;
 
     invoke-virtual {v0}, Ljava/lang/Class;->getName()Ljava/lang/String;
@@ -26,7 +25,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lf/r/c/c/b;-><init>()V
 
     return-void
@@ -35,7 +33,6 @@
 .method static synthetic E0(Lcom/spotxchange/v4/d;)V
     .locals 0
 
-    .line 1
     invoke-virtual {p0}, Lf/r/c/c/b;->s0()V
 
     return-void
@@ -54,12 +51,10 @@
 .method public t()V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lf/r/c/c/b;->g:Lcom/spotxchange/v4/h/c;
 
     if-nez v0, :cond_0
 
-    .line 2
     sget-object v0, Lcom/spotxchange/v4/d;->o:Ljava/lang/String;
 
     const-string v1, "Ignoring attempt to start AdPlayer with no ads available."
@@ -68,13 +63,11 @@
 
     return-void
 
-    .line 3
     :cond_0
     iget-boolean v0, p0, Lf/r/c/c/b;->k:Z
 
     if-eqz v0, :cond_1
 
-    .line 4
     sget-object v0, Lcom/spotxchange/v4/d;->o:Ljava/lang/String;
 
     const-string v1, "Ignoring secondary call to start(). Player objects must not be re-used."
@@ -86,10 +79,8 @@
     :cond_1
     const/4 v0, 0x1
 
-    .line 5
     iput-boolean v0, p0, Lf/r/c/c/b;->k:Z
 
-    .line 6
     new-instance v0, Landroid/os/Handler;
 
     invoke-static {}, Landroid/os/Looper;->getMainLooper()Landroid/os/Looper;
@@ -118,7 +109,6 @@
 .method protected y0()Lf/r/c/c/b$m0;
     .locals 2
 
-    .line 1
     new-instance v0, Lf/r/c/c/b$m0;
 
     const/4 v1, 0x0
@@ -131,7 +121,6 @@
 .method protected z0()Landroid/view/View;
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/spotxchange/v4/SpotXAdPlayer;->a:Lf/r/c/b;
 
     invoke-interface {v0}, Lf/r/c/b;->g()Landroid/app/Activity;

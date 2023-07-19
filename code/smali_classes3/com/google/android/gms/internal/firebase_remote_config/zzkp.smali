@@ -18,7 +18,6 @@
 
     move-object v3, p3
 
-    .line 1
     invoke-direct/range {v0 .. v5}, Lcom/google/android/gms/internal/firebase_remote_config/zzkk;-><init>(Ljava/lang/String;ILcom/google/android/gms/internal/firebase_remote_config/zzkr;ILcom/google/android/gms/internal/firebase_remote_config/z8;)V
 
     return-void

@@ -19,10 +19,8 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     sget-object v0, Lcom/commsource/beautyfilter/NewFilterRepository$newFilterDao$2;->INSTANCE:Lcom/commsource/beautyfilter/NewFilterRepository$newFilterDao$2;
 
     invoke-static {v0}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
@@ -31,7 +29,6 @@
 
     iput-object v0, p0, Lcom/commsource/beautyfilter/NewFilterRepository;->a:Lcotlin/w;
 
-    .line 3
     sget-object v0, Lcom/commsource/beautyfilter/NewFilterRepository$filterCategoryInfoDao$2;->INSTANCE:Lcom/commsource/beautyfilter/NewFilterRepository$filterCategoryInfoDao$2;
 
     invoke-static {v0}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
@@ -40,7 +37,6 @@
 
     iput-object v0, p0, Lcom/commsource/beautyfilter/NewFilterRepository;->b:Lcotlin/w;
 
-    .line 4
     sget-object v0, Lcom/commsource/beautyfilter/NewFilterRepository$filterGroupInfoDao$2;->INSTANCE:Lcom/commsource/beautyfilter/NewFilterRepository$filterGroupInfoDao$2;
 
     invoke-static {v0}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
@@ -137,7 +133,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/beautyfilter/NewFilterRepository;->g()Lf/k/i0/a/p;
 
     move-result-object v1
@@ -146,7 +141,6 @@
 
     new-array v2, v2, [Lcom/commsource/beautyfilter/a;
 
-    .line 2
     invoke-interface {p1, v2}, Ljava/util/Collection;->toArray([Ljava/lang/Object;)[Ljava/lang/Object;
 
     move-result-object p1
@@ -155,14 +149,12 @@
 
     check-cast p1, [Lcom/commsource/beautyfilter/a;
 
-    .line 3
     invoke-interface {v1, p1}, Lf/k/i0/a/p;->d0([Lcom/commsource/beautyfilter/a;)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 4
     :cond_0
     new-instance p1, Ljava/lang/NullPointerException;
 
@@ -198,7 +190,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/beautyfilter/NewFilterRepository;->h()Lf/k/i0/a/t;
 
     move-result-object v1
@@ -207,7 +198,6 @@
 
     new-array v2, v2, [Lcom/meitu/template/bean/j;
 
-    .line 2
     invoke-interface {p1, v2}, Ljava/util/Collection;->toArray([Ljava/lang/Object;)[Ljava/lang/Object;
 
     move-result-object p1
@@ -216,14 +206,12 @@
 
     check-cast p1, [Lcom/meitu/template/bean/j;
 
-    .line 3
     invoke-interface {v1, p1}, Lf/k/i0/a/t;->a2([Lcom/meitu/template/bean/j;)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 4
     :cond_0
     new-instance p1, Ljava/lang/NullPointerException;
 
@@ -259,7 +247,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/beautyfilter/NewFilterRepository;->i()Lf/k/i0/a/r;
 
     move-result-object v1
@@ -268,7 +255,6 @@
 
     new-array v2, v2, [Lcom/meitu/template/bean/Filter;
 
-    .line 2
     invoke-interface {p1, v2}, Ljava/util/Collection;->toArray([Ljava/lang/Object;)[Ljava/lang/Object;
 
     move-result-object p1
@@ -277,14 +263,12 @@
 
     check-cast p1, [Lcom/meitu/template/bean/Filter;
 
-    .line 3
     invoke-interface {v1, p1}, Lf/k/i0/a/r;->Y0([Lcom/meitu/template/bean/Filter;)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 4
     :cond_0
     new-instance p1, Ljava/lang/NullPointerException;
 
@@ -315,7 +299,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/beautyfilter/NewFilterRepository;->g()Lf/k/i0/a/p;
 
     move-result-object v1
@@ -347,7 +330,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/beautyfilter/NewFilterRepository;->h()Lf/k/i0/a/t;
 
     move-result-object v1
@@ -379,7 +361,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/beautyfilter/NewFilterRepository;->i()Lf/k/i0/a/r;
 
     move-result-object v1
@@ -402,7 +383,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/beautyfilter/NewFilterRepository;->g()Lf/k/i0/a/p;
 
     move-result-object v1
@@ -429,7 +409,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/beautyfilter/NewFilterRepository;->h()Lf/k/i0/a/t;
 
     move-result-object v1
@@ -456,7 +435,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/beautyfilter/NewFilterRepository;->i()Lf/k/i0/a/r;
 
     move-result-object v1
@@ -497,7 +475,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/beautyfilter/NewFilterRepository;->g()Lf/k/i0/a/p;
 
     move-result-object v1
@@ -506,7 +483,6 @@
 
     new-array v2, v2, [Lcom/commsource/beautyfilter/a;
 
-    .line 2
     invoke-interface {p1, v2}, Ljava/util/Collection;->toArray([Ljava/lang/Object;)[Ljava/lang/Object;
 
     move-result-object p1
@@ -515,14 +491,12 @@
 
     check-cast p1, [Lcom/commsource/beautyfilter/a;
 
-    .line 3
     invoke-interface {v1, p1}, Lf/k/i0/a/p;->H([Lcom/commsource/beautyfilter/a;)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 4
     :cond_0
     new-instance p1, Ljava/lang/NullPointerException;
 
@@ -558,7 +532,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/beautyfilter/NewFilterRepository;->h()Lf/k/i0/a/t;
 
     move-result-object v1
@@ -567,7 +540,6 @@
 
     new-array v2, v2, [Lcom/meitu/template/bean/j;
 
-    .line 2
     invoke-interface {p1, v2}, Ljava/util/Collection;->toArray([Ljava/lang/Object;)[Ljava/lang/Object;
 
     move-result-object p1
@@ -576,14 +548,12 @@
 
     check-cast p1, [Lcom/meitu/template/bean/j;
 
-    .line 3
     invoke-interface {v1, p1}, Lf/k/i0/a/t;->J1([Lcom/meitu/template/bean/j;)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 4
     :cond_0
     new-instance p1, Ljava/lang/NullPointerException;
 
@@ -619,7 +589,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/beautyfilter/NewFilterRepository;->i()Lf/k/i0/a/r;
 
     move-result-object v1
@@ -628,7 +597,6 @@
 
     new-array v2, v2, [Lcom/meitu/template/bean/Filter;
 
-    .line 2
     invoke-interface {p1, v2}, Ljava/util/Collection;->toArray([Ljava/lang/Object;)[Ljava/lang/Object;
 
     move-result-object p1
@@ -637,14 +605,12 @@
 
     check-cast p1, [Lcom/meitu/template/bean/Filter;
 
-    .line 3
     invoke-interface {v1, p1}, Lf/k/i0/a/r;->G0([Lcom/meitu/template/bean/Filter;)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 4
     :cond_0
     new-instance p1, Ljava/lang/NullPointerException;
 
@@ -672,7 +638,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/beautyfilter/NewFilterRepository;->g()Lf/k/i0/a/p;
 
     move-result-object v1
@@ -699,7 +664,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/beautyfilter/NewFilterRepository;->h()Lf/k/i0/a/t;
 
     move-result-object v1
@@ -726,7 +690,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/beautyfilter/NewFilterRepository;->i()Lf/k/i0/a/r;
 
     move-result-object v1
@@ -761,7 +724,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/beautyfilter/NewFilterRepository;->g()Lf/k/i0/a/p;
 
     move-result-object v1
@@ -770,7 +732,6 @@
 
     new-array v2, v2, [Lcom/commsource/beautyfilter/a;
 
-    .line 2
     invoke-interface {p1, v2}, Ljava/util/Collection;->toArray([Ljava/lang/Object;)[Ljava/lang/Object;
 
     move-result-object p1
@@ -779,14 +740,12 @@
 
     check-cast p1, [Lcom/commsource/beautyfilter/a;
 
-    .line 3
     invoke-interface {v1, p1}, Lf/k/i0/a/p;->E0([Lcom/commsource/beautyfilter/a;)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 4
     :cond_0
     new-instance p1, Ljava/lang/NullPointerException;
 
@@ -822,7 +781,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/beautyfilter/NewFilterRepository;->h()Lf/k/i0/a/t;
 
     move-result-object v1
@@ -831,7 +789,6 @@
 
     new-array v2, v2, [Lcom/meitu/template/bean/j;
 
-    .line 2
     invoke-interface {p1, v2}, Ljava/util/Collection;->toArray([Ljava/lang/Object;)[Ljava/lang/Object;
 
     move-result-object p1
@@ -840,14 +797,12 @@
 
     check-cast p1, [Lcom/meitu/template/bean/j;
 
-    .line 3
     invoke-interface {v1, p1}, Lf/k/i0/a/t;->l3([Lcom/meitu/template/bean/j;)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 4
     :cond_0
     new-instance p1, Ljava/lang/NullPointerException;
 
@@ -883,7 +838,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/beautyfilter/NewFilterRepository;->i()Lf/k/i0/a/r;
 
     move-result-object v1
@@ -892,7 +846,6 @@
 
     new-array v2, v2, [Lcom/meitu/template/bean/Filter;
 
-    .line 2
     invoke-interface {p1, v2}, Ljava/util/Collection;->toArray([Ljava/lang/Object;)[Ljava/lang/Object;
 
     move-result-object p1
@@ -901,14 +854,12 @@
 
     check-cast p1, [Lcom/meitu/template/bean/Filter;
 
-    .line 3
     invoke-interface {v1, p1}, Lf/k/i0/a/r;->J([Lcom/meitu/template/bean/Filter;)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 4
     :cond_0
     new-instance p1, Ljava/lang/NullPointerException;
 
@@ -936,7 +887,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/beautyfilter/NewFilterRepository;->g()Lf/k/i0/a/p;
 
     move-result-object v1
@@ -963,7 +913,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/beautyfilter/NewFilterRepository;->h()Lf/k/i0/a/t;
 
     move-result-object v1
@@ -990,7 +939,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/beautyfilter/NewFilterRepository;->i()Lf/k/i0/a/r;
 
     move-result-object v1

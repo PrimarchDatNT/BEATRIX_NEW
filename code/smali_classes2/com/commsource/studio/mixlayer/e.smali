@@ -40,10 +40,8 @@
 
     sget v0, Lcom/res/provider/ResLAYOUT;->item_line_style:I
 
-    .line 1
     invoke-direct {p0, p1, p2, v0}, Lcom/commsource/widget/h1/f;-><init>(Landroid/content/Context;Landroid/view/ViewGroup;I)V
 
-    .line 2
     iget-object p1, p0, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->itemView:Landroid/view/View;
 
     invoke-static {p1}, Lcom/commsource/beautyplus/f0/qg;->a(Landroid/view/View;)Lcom/commsource/beautyplus/f0/qg;
@@ -91,10 +89,8 @@
 
     invoke-static {p2, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-super {p0, p1, p2, p3}, Lcom/commsource/widget/h1/f;->k(ILcom/commsource/widget/h1/d;Ljava/util/List;)V
 
-    .line 2
     iget-object p1, p0, Lcom/commsource/studio/mixlayer/e;->p:Lcom/commsource/beautyplus/f0/qg;
 
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/qg;->a:Lcom/commsource/widget/IconFrontView;
@@ -119,7 +115,6 @@
 
     invoke-virtual {p1, v1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 3
     invoke-virtual {p2}, Lcom/commsource/widget/h1/d;->g()Z
 
     move-result p1
@@ -128,31 +123,26 @@
 
     if-eqz p1, :cond_0
 
-    .line 4
     iget-object p1, p0, Lcom/commsource/studio/mixlayer/e;->p:Lcom/commsource/beautyplus/f0/qg;
 
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/qg;->a:Lcom/commsource/widget/IconFrontView;
 
     invoke-static {p1, p3}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 5
     invoke-static {p2}, Lcom/commsource/util/l0;->n(I)I
 
     move-result p2
 
     sget p3, Lcom/res/provider/ResCOLOR;->color_333333:I
 
-    .line 6
     invoke-static {p3}, Lcom/commsource/util/u1;->b(I)I
 
     move-result p3
 
-    .line 7
     invoke-static {p1, p2, p3}, Lcom/commsource/util/l0;->Y(Landroid/view/View;II)V
 
     goto :goto_0
 
-    .line 8
     :cond_0
     iget-object p1, p0, Lcom/commsource/studio/mixlayer/e;->p:Lcom/commsource/beautyplus/f0/qg;
 
@@ -168,7 +158,6 @@
 
     invoke-static {p1, p2, p3}, Lcom/commsource/util/l0;->Y(Landroid/view/View;II)V
 
-    .line 9
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

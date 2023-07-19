@@ -64,7 +64,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -77,14 +76,12 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lkshark/LeakTraceElement;->labels:Ljava/util/Set;
 
     if-nez v0, :cond_0
 
     invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
-    .line 2
     :cond_0
     invoke-interface {v0}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
@@ -111,7 +108,6 @@
 
     const-string v5, "GC Root: "
 
-    .line 3
     invoke-static {v1, v5, v2, v3, v4}, Lcotlin/text/m;->s2(Ljava/lang/String;Ljava/lang/String;ZILjava/lang/Object;)Z
 
     move-result v2
@@ -122,7 +118,6 @@
 
     if-eqz v1, :cond_b
 
-    .line 4
     invoke-virtual {v1, v0}, Ljava/lang/String;->substring(I)Ljava/lang/String;
 
     move-result-object v0
@@ -133,7 +128,6 @@
 
     const-string v1, "Thread object"
 
-    .line 5
     invoke-static {v0, v1}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v1
@@ -147,7 +141,6 @@
     :cond_2
     const-string v1, "Global variable in native code"
 
-    .line 6
     invoke-static {v0, v1}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v1
@@ -161,7 +154,6 @@
     :cond_3
     const-string v1, "Local variable in native code"
 
-    .line 7
     invoke-static {v0, v1}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v1
@@ -175,7 +167,6 @@
     :cond_4
     const-string v1, "Java local variable"
 
-    .line 8
     invoke-static {v0, v1}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v1
@@ -189,7 +180,6 @@
     :cond_5
     const-string v1, "Input or output parameters in native code"
 
-    .line 9
     invoke-static {v0, v1}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v1
@@ -203,7 +193,6 @@
     :cond_6
     const-string v1, "System class"
 
-    .line 10
     invoke-static {v0, v1}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v1
@@ -217,7 +206,6 @@
     :cond_7
     const-string v1, "Thread block"
 
-    .line 11
     invoke-static {v0, v1}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v1
@@ -231,7 +219,6 @@
     :cond_8
     const-string v1, "Monitor (anything that called the wait() or notify() methods, or that is synchronized.)"
 
-    .line 12
     invoke-static {v0, v1}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v1
@@ -245,7 +232,6 @@
     :cond_9
     const-string v1, "Root JNI monitor"
 
-    .line 13
     invoke-static {v0, v1}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v1
@@ -257,7 +243,6 @@
     :goto_0
     return-object v0
 
-    .line 14
     :cond_a
     new-instance v1, Ljava/lang/IllegalStateException;
 
@@ -279,7 +264,6 @@
 
     throw v1
 
-    .line 15
     :cond_b
     new-instance v0, Lcotlin/TypeCastException;
 
@@ -289,7 +273,6 @@
 
     throw v0
 
-    .line 16
     :cond_c
     new-instance v0, Ljava/util/NoSuchElementException;
 
@@ -305,7 +288,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lkshark/LeakTraceElement;->holder:Lkshark/LeakTraceElement$Holder;
 
     if-nez v0, :cond_0
@@ -337,7 +319,6 @@
 
     if-ne v0, v4, :cond_1
 
-    .line 2
     sget-object v0, Lkshark/LeakTraceObject$ObjectType;->ARRAY:Lkshark/LeakTraceObject$ObjectType;
 
     goto :goto_0
@@ -349,33 +330,28 @@
 
     throw v0
 
-    .line 3
     :cond_2
     sget-object v0, Lkshark/LeakTraceObject$ObjectType;->INSTANCE:Lkshark/LeakTraceObject$ObjectType;
 
     goto :goto_0
 
-    .line 4
     :cond_3
     sget-object v0, Lkshark/LeakTraceObject$ObjectType;->CLASS:Lkshark/LeakTraceObject$ObjectType;
 
     goto :goto_0
 
-    .line 5
     :cond_4
     sget-object v0, Lkshark/LeakTraceObject$ObjectType;->INSTANCE:Lkshark/LeakTraceObject$ObjectType;
 
     :goto_0
     move-object v7, v0
 
-    .line 6
     iget-object v8, p0, Lkshark/LeakTraceElement;->className:Ljava/lang/String;
 
     if-nez v8, :cond_5
 
     invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
-    .line 7
     :cond_5
     iget-object v0, p0, Lkshark/LeakTraceElement;->labels:Ljava/util/Set;
 
@@ -383,13 +359,11 @@
 
     invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
-    .line 8
     :cond_6
     new-instance v4, Ljava/util/ArrayList;
 
     invoke-direct {v4}, Ljava/util/ArrayList;-><init>()V
 
-    .line 9
     invoke-interface {v0}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v0
@@ -416,7 +390,6 @@
 
     const-string v11, "GC Root: "
 
-    .line 10
     invoke-static {v6, v11, v9, v2, v10}, Lcotlin/text/m;->s2(Ljava/lang/String;Ljava/lang/String;ZILjava/lang/Object;)Z
 
     move-result v6
@@ -434,7 +407,6 @@
 
     move-result-object v9
 
-    .line 11
     iget-object v0, p0, Lkshark/LeakTraceElement;->leakStatus:Lkshark/LeakNodeStatus;
 
     if-nez v0, :cond_9
@@ -456,7 +428,6 @@
 
     if-ne v0, v1, :cond_a
 
-    .line 12
     sget-object v0, Lkshark/LeakTraceObject$LeakingStatus;->UNKNOWN:Lkshark/LeakTraceObject$LeakingStatus;
 
     goto :goto_2
@@ -468,27 +439,23 @@
 
     throw v0
 
-    .line 13
     :cond_b
     sget-object v0, Lkshark/LeakTraceObject$LeakingStatus;->LEAKING:Lkshark/LeakTraceObject$LeakingStatus;
 
     goto :goto_2
 
-    .line 14
     :cond_c
     sget-object v0, Lkshark/LeakTraceObject$LeakingStatus;->NOT_LEAKING:Lkshark/LeakTraceObject$LeakingStatus;
 
     :goto_2
     move-object v10, v0
 
-    .line 15
     iget-object v11, p0, Lkshark/LeakTraceElement;->leakStatusReason:Ljava/lang/String;
 
     if-nez v11, :cond_d
 
     invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
-    .line 16
     :cond_d
     new-instance v0, Lkshark/LeakTraceObject;
 
@@ -506,7 +473,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lkshark/LeakTraceElement;->reference:Lkshark/LeakReference;
 
     if-nez v0, :cond_0

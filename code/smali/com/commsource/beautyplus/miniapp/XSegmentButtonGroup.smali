@@ -98,7 +98,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-direct {p0, p1, v0}, Lcom/commsource/beautyplus/miniapp/XSegmentButtonGroup;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
     return-void
@@ -109,7 +108,6 @@
 
     const/4 v0, 0x0
 
-    .line 2
     invoke-direct {p0, p1, p2, v0}, Lcom/commsource/beautyplus/miniapp/XSegmentButtonGroup;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
     return-void
@@ -118,19 +116,16 @@
 .method public constructor <init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
     .locals 1
 
-    .line 3
     invoke-direct {p0, p1, p2, p3}, Landroid/widget/LinearLayout;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
     const/high16 p3, 0x42700000    # 60.0f
 
-    .line 4
     invoke-static {p3}, Lcom/meitu/library/p/f/i;->d(F)I
 
     move-result v0
 
     iput v0, p0, Lcom/commsource/beautyplus/miniapp/XSegmentButtonGroup;->backgroundCorner:I
 
-    .line 5
     invoke-static {p3}, Lcom/meitu/library/p/f/i;->d(F)I
 
     move-result p3
@@ -139,42 +134,36 @@
 
     const/high16 p3, 0x40400000    # 3.0f
 
-    .line 6
     invoke-static {p3}, Lcom/meitu/library/p/f/i;->d(F)I
 
     move-result p3
 
     iput p3, p0, Lcom/commsource/beautyplus/miniapp/XSegmentButtonGroup;->paddingChild:I
 
-    .line 7
     new-instance p3, Landroid/graphics/RectF;
 
     invoke-direct {p3}, Landroid/graphics/RectF;-><init>()V
 
     iput-object p3, p0, Lcom/commsource/beautyplus/miniapp/XSegmentButtonGroup;->backgroundRectf:Landroid/graphics/RectF;
 
-    .line 8
     new-instance p3, Landroid/graphics/RectF;
 
     invoke-direct {p3}, Landroid/graphics/RectF;-><init>()V
 
     iput-object p3, p0, Lcom/commsource/beautyplus/miniapp/XSegmentButtonGroup;->indicatorRectf:Landroid/graphics/RectF;
 
-    .line 9
     new-instance p3, Landroid/graphics/RectF;
 
     invoke-direct {p3}, Landroid/graphics/RectF;-><init>()V
 
     iput-object p3, p0, Lcom/commsource/beautyplus/miniapp/XSegmentButtonGroup;->strokeRectf:Landroid/graphics/RectF;
 
-    .line 10
     new-instance p3, Landroid/util/SparseArray;
 
     invoke-direct {p3}, Landroid/util/SparseArray;-><init>()V
 
     iput-object p3, p0, Lcom/commsource/beautyplus/miniapp/XSegmentButtonGroup;->enableArray:Landroid/util/SparseArray;
 
-    .line 11
     new-instance p3, Ljava/util/concurrent/CopyOnWriteArrayList;
 
     invoke-direct {p3}, Ljava/util/concurrent/CopyOnWriteArrayList;-><init>()V
@@ -183,13 +172,10 @@
 
     const/4 p3, 0x0
 
-    .line 12
     iput-boolean p3, p0, Lcom/commsource/beautyplus/miniapp/XSegmentButtonGroup;->isSupportInvertSelect:Z
 
-    .line 13
     invoke-direct {p0, p1, p2}, Lcom/commsource/beautyplus/miniapp/XSegmentButtonGroup;->obtainAttributes(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
-    .line 14
     invoke-direct {p0}, Lcom/commsource/beautyplus/miniapp/XSegmentButtonGroup;->init()V
 
     return-void
@@ -202,7 +188,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/beautyplus/miniapp/XSegmentButtonGroup;->checkPosition()V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -217,24 +202,20 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/beautyplus/miniapp/XSegmentButtonGroup;->position:F
 
     float-to-int v1, v1
 
     int-to-float v2, v1
 
-    .line 2
     iput v2, p0, Lcom/commsource/beautyplus/miniapp/XSegmentButtonGroup;->position:F
 
-    .line 3
     invoke-virtual {p0}, Landroid/widget/LinearLayout;->invalidate()V
 
     const/4 v2, 0x0
 
     const/4 v3, 0x0
 
-    .line 4
     :goto_0
     invoke-virtual {p0}, Landroid/widget/LinearLayout;->getChildCount()I
 
@@ -244,14 +225,12 @@
 
     int-to-float v4, v3
 
-    .line 5
     iget v5, p0, Lcom/commsource/beautyplus/miniapp/XSegmentButtonGroup;->position:F
 
     cmpl-float v4, v4, v5
 
     if-nez v4, :cond_0
 
-    .line 6
     invoke-virtual {p0, v3}, Landroid/widget/LinearLayout;->getChildAt(I)Landroid/view/View;
 
     move-result-object v4
@@ -262,7 +241,6 @@
 
     goto :goto_1
 
-    .line 7
     :cond_0
     invoke-virtual {p0, v3}, Landroid/widget/LinearLayout;->getChildAt(I)Landroid/view/View;
 
@@ -275,18 +253,15 @@
 
     goto :goto_0
 
-    .line 8
     :cond_1
     iget-object v2, p0, Lcom/commsource/beautyplus/miniapp/XSegmentButtonGroup;->onSelectListener:Lcom/commsource/beautyplus/miniapp/XSegmentButtonGroup$b;
 
     if-eqz v2, :cond_2
 
-    .line 9
     iget-boolean v3, p0, Lcom/commsource/beautyplus/miniapp/XSegmentButtonGroup;->fromUser:Z
 
     invoke-interface {v2, v1, v3}, Lcom/commsource/beautyplus/miniapp/XSegmentButtonGroup$b;->a(IZ)V
 
-    .line 10
     :cond_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -300,7 +275,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/beautyplus/miniapp/XSegmentButtonGroup;->enableArray:Landroid/util/SparseArray;
 
     sget-object v2, Ljava/lang/Boolean;->TRUE:Ljava/lang/Boolean;
@@ -329,57 +303,46 @@
 
     const/4 v1, 0x1
 
-    .line 1
     invoke-virtual {p0, v1}, Landroid/widget/LinearLayout;->setClickable(Z)V
 
     const/4 v2, 0x0
 
-    .line 2
     invoke-virtual {p0, v2}, Landroid/widget/LinearLayout;->setWillNotDraw(Z)V
 
-    .line 3
     invoke-virtual {p0, v2}, Landroid/widget/LinearLayout;->setOrientation(I)V
 
-    .line 4
     new-instance v3, Landroid/graphics/Paint;
 
     invoke-direct {v3}, Landroid/graphics/Paint;-><init>()V
 
     iput-object v3, p0, Lcom/commsource/beautyplus/miniapp/XSegmentButtonGroup;->mBackgroundPaint:Landroid/graphics/Paint;
 
-    .line 5
     invoke-virtual {v3, v1}, Landroid/graphics/Paint;->setAntiAlias(Z)V
 
-    .line 6
     iget-object v3, p0, Lcom/commsource/beautyplus/miniapp/XSegmentButtonGroup;->mBackgroundPaint:Landroid/graphics/Paint;
 
     iget v4, p0, Lcom/commsource/beautyplus/miniapp/XSegmentButtonGroup;->backgroundColor:I
 
     invoke-virtual {v3, v4}, Landroid/graphics/Paint;->setColor(I)V
 
-    .line 7
     new-instance v3, Landroid/graphics/Paint;
 
     invoke-direct {v3}, Landroid/graphics/Paint;-><init>()V
 
     iput-object v3, p0, Lcom/commsource/beautyplus/miniapp/XSegmentButtonGroup;->mIndicatorPaint:Landroid/graphics/Paint;
 
-    .line 8
     invoke-virtual {v3, v1}, Landroid/graphics/Paint;->setAntiAlias(Z)V
 
-    .line 9
     iget-object v3, p0, Lcom/commsource/beautyplus/miniapp/XSegmentButtonGroup;->mIndicatorPaint:Landroid/graphics/Paint;
 
     iget v4, p0, Lcom/commsource/beautyplus/miniapp/XSegmentButtonGroup;->indicatorColor:I
 
     invoke-virtual {v3, v4}, Landroid/graphics/Paint;->setColor(I)V
 
-    .line 10
     iget-boolean v3, p0, Lcom/commsource/beautyplus/miniapp/XSegmentButtonGroup;->isIndicatorShadowEnable:Z
 
     if-eqz v3, :cond_0
 
-    .line 11
     iget-object v3, p0, Lcom/commsource/beautyplus/miniapp/XSegmentButtonGroup;->mIndicatorPaint:Landroid/graphics/Paint;
 
     const/high16 v4, 0x40a00000    # 5.0f
@@ -390,7 +353,6 @@
 
     invoke-virtual {v3, v4, v6, v6, v5}, Landroid/graphics/Paint;->setShadowLayer(FFFI)V
 
-    .line 12
     :cond_0
     new-instance v3, Landroid/graphics/Paint;
 
@@ -398,24 +360,20 @@
 
     iput-object v3, p0, Lcom/commsource/beautyplus/miniapp/XSegmentButtonGroup;->strokePaint:Landroid/graphics/Paint;
 
-    .line 13
     invoke-virtual {v3, v1}, Landroid/graphics/Paint;->setAntiAlias(Z)V
 
-    .line 14
     iget-object v3, p0, Lcom/commsource/beautyplus/miniapp/XSegmentButtonGroup;->strokePaint:Landroid/graphics/Paint;
 
     iget v4, p0, Lcom/commsource/beautyplus/miniapp/XSegmentButtonGroup;->strokeColor:I
 
     invoke-virtual {v3, v4}, Landroid/graphics/Paint;->setColor(I)V
 
-    .line 15
     iget-object v3, p0, Lcom/commsource/beautyplus/miniapp/XSegmentButtonGroup;->strokePaint:Landroid/graphics/Paint;
 
     sget-object v4, Landroid/graphics/Paint$Style;->STROKE:Landroid/graphics/Paint$Style;
 
     invoke-virtual {v3, v4}, Landroid/graphics/Paint;->setStyle(Landroid/graphics/Paint$Style;)V
 
-    .line 16
     iget-object v3, p0, Lcom/commsource/beautyplus/miniapp/XSegmentButtonGroup;->strokePaint:Landroid/graphics/Paint;
 
     iget v4, p0, Lcom/commsource/beautyplus/miniapp/XSegmentButtonGroup;->strokeWidth:I
@@ -424,7 +382,6 @@
 
     invoke-virtual {v3, v4}, Landroid/graphics/Paint;->setStrokeWidth(F)V
 
-    .line 17
     iget-object v3, p0, Lcom/commsource/beautyplus/miniapp/XSegmentButtonGroup;->strokePaint:Landroid/graphics/Paint;
 
     iget v4, p0, Lcom/commsource/beautyplus/miniapp/XSegmentButtonGroup;->strokeColor:I
@@ -439,7 +396,6 @@
 
     const-string v2, "position"
 
-    .line 18
     invoke-static {p0, v2, v1}, Landroid/animation/ObjectAnimator;->ofFloat(Ljava/lang/Object;Ljava/lang/String;[F)Landroid/animation/ObjectAnimator;
 
     move-result-object v1
@@ -448,10 +404,8 @@
 
     const-wide/16 v2, 0xc8
 
-    .line 19
     invoke-virtual {v1, v2, v3}, Landroid/animation/ObjectAnimator;->setDuration(J)Landroid/animation/ObjectAnimator;
 
-    .line 20
     iget-object v1, p0, Lcom/commsource/beautyplus/miniapp/XSegmentButtonGroup;->indicatorAnimation:Landroid/animation/ObjectAnimator;
 
     new-instance v2, Lcom/commsource/beautyplus/miniapp/XSegmentButtonGroup$a;
@@ -460,7 +414,6 @@
 
     invoke-virtual {v1, v2}, Landroid/animation/ObjectAnimator;->addListener(Landroid/animation/Animator$AnimatorListener;)V
 
-    .line 21
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -473,12 +426,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/beautyplus/miniapp/XSegmentButtonGroup;->maxCount:I
 
     if-nez v1, :cond_0
 
-    .line 2
     invoke-virtual {p0}, Landroid/widget/LinearLayout;->getChildCount()I
 
     move-result v1
@@ -487,13 +438,11 @@
 
     const/4 v1, 0x0
 
-    .line 3
     :goto_0
     iget v2, p0, Lcom/commsource/beautyplus/miniapp/XSegmentButtonGroup;->maxCount:I
 
     if-ge v1, v2, :cond_0
 
-    .line 4
     invoke-virtual {p0, v1}, Landroid/widget/LinearLayout;->getChildAt(I)Landroid/view/View;
 
     move-result-object v2
@@ -504,21 +453,17 @@
 
     goto :goto_0
 
-    .line 5
     :cond_0
     iput p1, p0, Lcom/commsource/beautyplus/miniapp/XSegmentButtonGroup;->width:I
 
-    .line 6
     iput p2, p0, Lcom/commsource/beautyplus/miniapp/XSegmentButtonGroup;->height:I
 
-    .line 7
     iget p2, p0, Lcom/commsource/beautyplus/miniapp/XSegmentButtonGroup;->maxCount:I
 
     div-int/2addr p1, p2
 
     iput p1, p0, Lcom/commsource/beautyplus/miniapp/XSegmentButtonGroup;->blockWidth:I
 
-    .line 8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -531,7 +476,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/res/provider/ResSTYLEABLE;->D2:[I
 
     invoke-virtual {p1, p2, v1}, Landroid/content/Context;->obtainStyledAttributes(Landroid/util/AttributeSet;[I)Landroid/content/res/TypedArray;
@@ -542,7 +486,6 @@
 
     const v1, -0x26171718
 
-    .line 2
     invoke-virtual {p1, p2, v1}, Landroid/content/res/TypedArray;->getColor(II)I
 
     move-result v1
@@ -553,7 +496,6 @@
 
     const/4 v2, -0x1
 
-    .line 3
     invoke-virtual {p1, v1, v2}, Landroid/content/res/TypedArray;->getColor(II)I
 
     move-result v1
@@ -564,7 +506,6 @@
 
     const v2, -0x212122
 
-    .line 4
     invoke-virtual {p1, v1, v2}, Landroid/content/res/TypedArray;->getColor(II)I
 
     move-result v1
@@ -573,7 +514,6 @@
 
     const/high16 v1, 0x40400000    # 3.0f
 
-    .line 5
     invoke-static {v1}, Lcom/meitu/library/p/f/i;->d(F)I
 
     move-result v1
@@ -588,7 +528,6 @@
 
     const/high16 v1, 0x42700000    # 60.0f
 
-    .line 6
     invoke-static {v1}, Lcom/meitu/library/p/f/i;->d(F)I
 
     move-result v3
@@ -601,7 +540,6 @@
 
     iput v3, p0, Lcom/commsource/beautyplus/miniapp/XSegmentButtonGroup;->indicatorCorner:I
 
-    .line 7
     invoke-static {v1}, Lcom/meitu/library/p/f/i;->d(F)I
 
     move-result v1
@@ -616,7 +554,6 @@
 
     const/4 v1, 0x7
 
-    .line 8
     invoke-virtual {p1, v1, v3}, Landroid/content/res/TypedArray;->getBoolean(IZ)Z
 
     move-result v1
@@ -625,7 +562,6 @@
 
     const/4 v1, 0x2
 
-    .line 9
     invoke-virtual {p1, v1, p2}, Landroid/content/res/TypedArray;->getDimensionPixelSize(II)I
 
     move-result p2
@@ -634,17 +570,14 @@
 
     const/4 p2, 0x3
 
-    .line 10
     invoke-virtual {p1, p2, v2}, Landroid/content/res/TypedArray;->getColor(II)I
 
     move-result p2
 
     iput p2, p0, Lcom/commsource/beautyplus/miniapp/XSegmentButtonGroup;->strokeColor:I
 
-    .line 11
     invoke-virtual {p1}, Landroid/content/res/TypedArray;->recycle()V
 
-    .line 12
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -659,7 +592,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/beautyplus/miniapp/XSegmentButtonGroup;->XSegmentIndicators:Ljava/util/concurrent/CopyOnWriteArrayList;
 
     invoke-virtual {v1, p1}, Ljava/util/concurrent/CopyOnWriteArrayList;->contains(Ljava/lang/Object;)Z
@@ -668,12 +600,10 @@
 
     if-nez v1, :cond_0
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/beautyplus/miniapp/XSegmentButtonGroup;->XSegmentIndicators:Ljava/util/concurrent/CopyOnWriteArrayList;
 
     invoke-virtual {v1, p1}, Ljava/util/concurrent/CopyOnWriteArrayList;->add(Ljava/lang/Object;)Z
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -687,12 +617,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/beautyplus/miniapp/XSegmentButtonGroup;->XSegmentIndicators:Ljava/util/concurrent/CopyOnWriteArrayList;
 
     invoke-virtual {v1}, Ljava/util/concurrent/CopyOnWriteArrayList;->clear()V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -705,7 +633,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/beautyplus/miniapp/XSegmentButtonGroup;->blockWidth:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -720,7 +647,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/beautyplus/miniapp/XSegmentButtonGroup;->forwardPosition:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -735,7 +661,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/beautyplus/miniapp/XSegmentButtonGroup;->maxCount:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -750,7 +675,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/beautyplus/miniapp/XSegmentButtonGroup;->position:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -765,7 +689,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/beautyplus/miniapp/XSegmentButtonGroup;->isSupportInvertSelect:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -780,21 +703,18 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/beautyplus/miniapp/XSegmentButtonGroup;->isSupportInvertSelect:Z
 
     const/4 v2, 0x1
 
     if-eqz v1, :cond_0
 
-    .line 2
     iget p1, p0, Lcom/commsource/beautyplus/miniapp/XSegmentButtonGroup;->forwardPosition:I
 
     rsub-int/lit8 p1, p1, 0x1
 
     invoke-virtual {p0, p1, v2}, Lcom/commsource/beautyplus/miniapp/XSegmentButtonGroup;->selectPosition(IZ)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -804,27 +724,23 @@
 
     const/4 v3, 0x0
 
-    .line 4
     :goto_0
     iget v4, p0, Lcom/commsource/beautyplus/miniapp/XSegmentButtonGroup;->maxCount:I
 
     if-ge v3, v4, :cond_3
 
-    .line 5
     invoke-virtual {p0, v3}, Landroid/widget/LinearLayout;->getChildAt(I)Landroid/view/View;
 
     move-result-object v4
 
     if-ne v4, p1, :cond_2
 
-    .line 6
     invoke-direct {p0, v3}, Lcom/commsource/beautyplus/miniapp/XSegmentButtonGroup;->getIsEnable(I)Z
 
     move-result v4
 
     if-nez v4, :cond_1
 
-    .line 7
     iget-object v5, p0, Lcom/commsource/beautyplus/miniapp/XSegmentButtonGroup;->onPreSelectListener:Lcom/commsource/beautyplus/miniapp/XSegmentButtonGroup$c;
 
     if-eqz v5, :cond_1
@@ -835,12 +751,10 @@
 
     if-eqz v4, :cond_1
 
-    .line 8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 9
     :cond_1
     invoke-virtual {p0, v3, v2}, Lcom/commsource/beautyplus/miniapp/XSegmentButtonGroup;->selectPosition(IZ)V
 
@@ -852,25 +766,21 @@
     :cond_3
     const/4 v3, 0x0
 
-    .line 10
     :goto_1
     iget v4, p0, Lcom/commsource/beautyplus/miniapp/XSegmentButtonGroup;->maxCount:I
 
     if-ge v3, v4, :cond_5
 
-    .line 11
     invoke-virtual {p0, v3}, Landroid/widget/LinearLayout;->getChildAt(I)Landroid/view/View;
 
     move-result-object v4
 
     if-ne v4, p1, :cond_4
 
-    .line 12
     invoke-virtual {v4, v2}, Landroid/view/View;->setSelected(Z)V
 
     goto :goto_2
 
-    .line 13
     :cond_4
     invoke-virtual {v4, v1}, Landroid/view/View;->setSelected(Z)V
 
@@ -879,7 +789,6 @@
 
     goto :goto_1
 
-    .line 14
     :cond_5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -893,10 +802,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0, p1}, Landroid/widget/LinearLayout;->onDraw(Landroid/graphics/Canvas;)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/beautyplus/miniapp/XSegmentButtonGroup;->backgroundRectf:Landroid/graphics/RectF;
 
     iget v2, p0, Lcom/commsource/beautyplus/miniapp/XSegmentButtonGroup;->width:I
@@ -911,12 +818,10 @@
 
     invoke-virtual {v1, v4, v4, v2, v3}, Landroid/graphics/RectF;->set(FFFF)V
 
-    .line 3
     iget v1, p0, Lcom/commsource/beautyplus/miniapp/XSegmentButtonGroup;->strokeWidth:I
 
     if-lez v1, :cond_0
 
-    .line 4
     iget-object v2, p0, Lcom/commsource/beautyplus/miniapp/XSegmentButtonGroup;->strokeRectf:Landroid/graphics/RectF;
 
     iget-object v3, p0, Lcom/commsource/beautyplus/miniapp/XSegmentButtonGroup;->backgroundRectf:Landroid/graphics/RectF;
@@ -957,7 +862,6 @@
 
     invoke-virtual {v2, v4, v5, v7, v3}, Landroid/graphics/RectF;->set(FFFF)V
 
-    .line 5
     :cond_0
     iget-object v1, p0, Lcom/commsource/beautyplus/miniapp/XSegmentButtonGroup;->indicatorRectf:Landroid/graphics/RectF;
 
@@ -997,7 +901,6 @@
 
     invoke-virtual {v1, v3, v6, v2, v4}, Landroid/graphics/RectF;->set(FFFF)V
 
-    .line 6
     iget-object v1, p0, Lcom/commsource/beautyplus/miniapp/XSegmentButtonGroup;->backgroundRectf:Landroid/graphics/RectF;
 
     iget v2, p0, Lcom/commsource/beautyplus/miniapp/XSegmentButtonGroup;->backgroundCorner:I
@@ -1010,12 +913,10 @@
 
     invoke-virtual {p1, v1, v3, v2, v4}, Landroid/graphics/Canvas;->drawRoundRect(Landroid/graphics/RectF;FFLandroid/graphics/Paint;)V
 
-    .line 7
     iget v1, p0, Lcom/commsource/beautyplus/miniapp/XSegmentButtonGroup;->strokeWidth:I
 
     if-lez v1, :cond_1
 
-    .line 8
     iget-object v1, p0, Lcom/commsource/beautyplus/miniapp/XSegmentButtonGroup;->strokeRectf:Landroid/graphics/RectF;
 
     iget v2, p0, Lcom/commsource/beautyplus/miniapp/XSegmentButtonGroup;->backgroundCorner:I
@@ -1028,7 +929,6 @@
 
     invoke-virtual {p1, v1, v3, v2, v4}, Landroid/graphics/Canvas;->drawRoundRect(Landroid/graphics/RectF;FFLandroid/graphics/Paint;)V
 
-    .line 9
     :cond_1
     iget-object v1, p0, Lcom/commsource/beautyplus/miniapp/XSegmentButtonGroup;->indicatorRectf:Landroid/graphics/RectF;
 
@@ -1042,7 +942,6 @@
 
     invoke-virtual {p1, v1, v3, v2, v4}, Landroid/graphics/Canvas;->drawRoundRect(Landroid/graphics/RectF;FFLandroid/graphics/Paint;)V
 
-    .line 10
     iget-object v1, p0, Lcom/commsource/beautyplus/miniapp/XSegmentButtonGroup;->XSegmentIndicators:Ljava/util/concurrent/CopyOnWriteArrayList;
 
     invoke-virtual {v1}, Ljava/util/concurrent/CopyOnWriteArrayList;->iterator()Ljava/util/Iterator;
@@ -1062,12 +961,10 @@
 
     check-cast v2, Lcom/commsource/beautyplus/miniapp/m;
 
-    .line 11
     invoke-virtual {v2, p0, p1}, Lcom/commsource/beautyplus/miniapp/m;->a(Lcom/commsource/beautyplus/miniapp/XSegmentButtonGroup;Landroid/graphics/Canvas;)V
 
     goto :goto_0
 
-    .line 12
     :cond_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1081,17 +978,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super/range {p0 .. p5}, Landroid/widget/LinearLayout;->onLayout(ZIIII)V
 
     sub-int/2addr p4, p2
 
     sub-int/2addr p5, p3
 
-    .line 2
     invoke-direct {p0, p4, p5}, Lcom/commsource/beautyplus/miniapp/XSegmentButtonGroup;->initSize(II)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1104,13 +998,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0, p1, p2, p3, p4}, Landroid/widget/LinearLayout;->onSizeChanged(IIII)V
 
-    .line 2
     invoke-direct {p0, p1, p2}, Lcom/commsource/beautyplus/miniapp/XSegmentButtonGroup;->initSize(II)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1123,7 +1014,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/beautyplus/miniapp/XSegmentButtonGroup;->XSegmentIndicators:Ljava/util/concurrent/CopyOnWriteArrayList;
 
     invoke-virtual {v1, p1}, Ljava/util/concurrent/CopyOnWriteArrayList;->contains(Ljava/lang/Object;)Z
@@ -1132,12 +1022,10 @@
 
     if-nez v1, :cond_0
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/beautyplus/miniapp/XSegmentButtonGroup;->XSegmentIndicators:Ljava/util/concurrent/CopyOnWriteArrayList;
 
     invoke-virtual {v1, p1}, Ljava/util/concurrent/CopyOnWriteArrayList;->remove(Ljava/lang/Object;)Z
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1153,10 +1041,8 @@
 
     const/4 v1, 0x0
 
-    .line 1
     invoke-virtual {p0, p1, v1}, Lcom/commsource/beautyplus/miniapp/XSegmentButtonGroup;->selectPosition(IZ)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1169,17 +1055,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 3
     iget v1, p0, Lcom/commsource/beautyplus/miniapp/XSegmentButtonGroup;->forwardPosition:I
 
     if-ne v1, p1, :cond_0
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 5
     :cond_0
     iput-boolean p2, p0, Lcom/commsource/beautyplus/miniapp/XSegmentButtonGroup;->fromUser:Z
 
@@ -1189,7 +1072,6 @@
 
     const/4 p1, 0x0
 
-    .line 6
     :cond_1
     iget v1, p0, Lcom/commsource/beautyplus/miniapp/XSegmentButtonGroup;->maxCount:I
 
@@ -1199,11 +1081,9 @@
 
     add-int/lit8 p1, v1, -0x1
 
-    .line 7
     :cond_2
     iput p1, p0, Lcom/commsource/beautyplus/miniapp/XSegmentButtonGroup;->forwardPosition:I
 
-    .line 8
     iget-object p1, p0, Lcom/commsource/beautyplus/miniapp/XSegmentButtonGroup;->indicatorAnimation:Landroid/animation/ObjectAnimator;
 
     invoke-virtual {p1}, Landroid/animation/ObjectAnimator;->isRunning()Z
@@ -1212,12 +1092,10 @@
 
     if-eqz p1, :cond_3
 
-    .line 9
     iget-object p1, p0, Lcom/commsource/beautyplus/miniapp/XSegmentButtonGroup;->indicatorAnimation:Landroid/animation/ObjectAnimator;
 
     invoke-virtual {p1}, Landroid/animation/ObjectAnimator;->cancel()V
 
-    .line 10
     :cond_3
     iget-object p1, p0, Lcom/commsource/beautyplus/miniapp/XSegmentButtonGroup;->indicatorAnimation:Landroid/animation/ObjectAnimator;
 
@@ -1237,12 +1115,10 @@
 
     invoke-virtual {p1, v1}, Landroid/animation/ObjectAnimator;->setFloatValues([F)V
 
-    .line 11
     iget-object p1, p0, Lcom/commsource/beautyplus/miniapp/XSegmentButtonGroup;->indicatorAnimation:Landroid/animation/ObjectAnimator;
 
     invoke-virtual {p1}, Landroid/animation/ObjectAnimator;->start()V
 
-    .line 12
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1255,10 +1131,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/beautyplus/miniapp/XSegmentButtonGroup;->onPreSelectListener:Lcom/commsource/beautyplus/miniapp/XSegmentButtonGroup$c;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1271,10 +1145,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/beautyplus/miniapp/XSegmentButtonGroup;->onSelectListener:Lcom/commsource/beautyplus/miniapp/XSegmentButtonGroup$b;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1287,13 +1159,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/beautyplus/miniapp/XSegmentButtonGroup;->position:F
 
-    .line 2
     invoke-virtual {p0}, Landroid/widget/LinearLayout;->invalidate()V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1306,7 +1175,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/beautyplus/miniapp/XSegmentButtonGroup;->enableArray:Landroid/util/SparseArray;
 
     invoke-static {p2}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
@@ -1315,7 +1183,6 @@
 
     invoke-virtual {v1, p1, p2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1330,20 +1197,16 @@
 
     int-to-float v1, p1
 
-    .line 1
     iput v1, p0, Lcom/commsource/beautyplus/miniapp/XSegmentButtonGroup;->position:F
 
-    .line 2
     iput p1, p0, Lcom/commsource/beautyplus/miniapp/XSegmentButtonGroup;->forwardPosition:I
 
-    .line 3
     invoke-virtual {p0}, Landroid/widget/LinearLayout;->invalidate()V
 
     const/4 p1, 0x0
 
     const/4 v1, 0x0
 
-    .line 4
     :goto_0
     invoke-virtual {p0}, Landroid/widget/LinearLayout;->getChildCount()I
 
@@ -1353,14 +1216,12 @@
 
     int-to-float v2, v1
 
-    .line 5
     iget v3, p0, Lcom/commsource/beautyplus/miniapp/XSegmentButtonGroup;->position:F
 
     cmpl-float v2, v2, v3
 
     if-nez v2, :cond_0
 
-    .line 6
     invoke-virtual {p0, v1}, Landroid/widget/LinearLayout;->getChildAt(I)Landroid/view/View;
 
     move-result-object v2
@@ -1371,7 +1232,6 @@
 
     goto :goto_1
 
-    .line 7
     :cond_0
     invoke-virtual {p0, v1}, Landroid/widget/LinearLayout;->getChildAt(I)Landroid/view/View;
 
@@ -1384,7 +1244,6 @@
 
     goto :goto_0
 
-    .line 8
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1398,10 +1257,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/beautyplus/miniapp/XSegmentButtonGroup;->isSupportInvertSelect:Z
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

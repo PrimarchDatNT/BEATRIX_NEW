@@ -28,7 +28,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/camera/xcamera/BpCameraViewModel$b;->a:Lcom/commsource/camera/xcamera/BpCameraViewModel;
 
     invoke-direct {p0}, Lcom/commsource/camera/xcamera/p/b;-><init>()V
@@ -45,7 +44,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/BpCameraViewModel$b;->a:Lcom/commsource/camera/xcamera/BpCameraViewModel;
 
     invoke-virtual {v1}, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;->A0()Z
@@ -54,7 +52,6 @@
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
     move-result-object v1
@@ -65,7 +62,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_0
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
@@ -75,7 +71,6 @@
 
     move-result v1
 
-    .line 4
     :goto_0
     iget-object v2, p0, Lcom/commsource/camera/xcamera/BpCameraViewModel$b;->a:Lcom/commsource/camera/xcamera/BpCameraViewModel;
 
@@ -89,7 +84,6 @@
 
     invoke-virtual {v2, v1}, Lcom/commsource/camera/newrender/renderproxy/o;->M(I)V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

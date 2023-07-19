@@ -29,10 +29,8 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Lcom/bumptech/glide/load/l/a;-><init>()V
 
-    .line 2
     new-instance v0, Lcom/bumptech/glide/load/engine/bitmap_recycle/f;
 
     invoke-direct {v0}, Lcom/bumptech/glide/load/engine/bitmap_recycle/f;-><init>()V
@@ -65,7 +63,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p1, p4}, Landroid/graphics/ImageDecoder;->decodeBitmap(Landroid/graphics/ImageDecoder$Source;Landroid/graphics/ImageDecoder$OnHeaderDecodedListener;)Landroid/graphics/Bitmap;
 
     move-result-object p1
@@ -74,14 +71,12 @@
 
     const/4 v0, 0x2
 
-    .line 2
     invoke-static {p4, v0}, Landroid/util/Log;->isLoggable(Ljava/lang/String;I)Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
-    .line 3
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -90,7 +85,6 @@
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 4
     invoke-virtual {p1}, Landroid/graphics/Bitmap;->getWidth()I
 
     move-result v1
@@ -101,7 +95,6 @@
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 5
     invoke-virtual {p1}, Landroid/graphics/Bitmap;->getHeight()I
 
     move-result v2
@@ -126,10 +119,8 @@
 
     move-result-object p2
 
-    .line 6
     invoke-static {p4, p2}, Landroid/util/Log;->v(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 7
     :cond_0
     new-instance p2, Lcom/bumptech/glide/load/resource/bitmap/g;
 

@@ -25,12 +25,10 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const-string v0, "inapp"
 
-    .line 2
     iput-object v0, p0, Lcom/meitu/ipstore/web/scripts/RestoreScript$Model;->payMode:Ljava/lang/String;
 
     return-void

@@ -84,7 +84,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     const-class v1, Lcom/commsource/puzzle/patchedworld/imageware/image_process/types/CacheIndex;
 
     invoke-virtual {v1}, Ljava/lang/Class;->getSimpleName()Ljava/lang/String;
@@ -93,7 +92,6 @@
 
     sput-object v1, Lcom/commsource/puzzle/patchedworld/imageware/image_process/types/CacheIndex;->U:Ljava/lang/String;
 
-    .line 2
     new-instance v1, Ljava/text/SimpleDateFormat;
 
     sget-object v2, Ljava/util/Locale;->US:Ljava/util/Locale;
@@ -104,7 +102,6 @@
 
     sput-object v1, Lcom/commsource/puzzle/patchedworld/imageware/image_process/types/CacheIndex;->c0:Ljava/text/SimpleDateFormat;
 
-    .line 3
     new-instance v1, Ljava/text/SimpleDateFormat;
 
     const-string v3, "yyyyMMddHH"
@@ -113,7 +110,6 @@
 
     sput-object v1, Lcom/commsource/puzzle/patchedworld/imageware/image_process/types/CacheIndex;->d0:Ljava/text/SimpleDateFormat;
 
-    .line 4
     new-instance v1, Lcom/commsource/puzzle/patchedworld/imageware/image_process/types/CacheIndex$a;
 
     invoke-direct {v1}, Lcom/commsource/puzzle/patchedworld/imageware/image_process/types/CacheIndex$a;-><init>()V
@@ -128,62 +124,48 @@
 .method private constructor <init>()V
     .locals 3
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/4 v0, 0x0
 
-    .line 2
     iput-boolean v0, p0, Lcom/commsource/puzzle/patchedworld/imageware/image_process/types/CacheIndex;->d:Z
 
-    .line 3
     iput-boolean v0, p0, Lcom/commsource/puzzle/patchedworld/imageware/image_process/types/CacheIndex;->f:Z
 
-    .line 4
     iput-boolean v0, p0, Lcom/commsource/puzzle/patchedworld/imageware/image_process/types/CacheIndex;->g:Z
 
-    .line 5
     iput v0, p0, Lcom/commsource/puzzle/patchedworld/imageware/image_process/types/CacheIndex;->p:I
 
-    .line 6
     iput v0, p0, Lcom/commsource/puzzle/patchedworld/imageware/image_process/types/CacheIndex;->J:I
 
     const/4 v1, 0x0
 
-    .line 7
     iput-object v1, p0, Lcom/commsource/puzzle/patchedworld/imageware/image_process/types/CacheIndex;->K:Landroid/os/Bundle;
 
-    .line 8
     iput-boolean v0, p0, Lcom/commsource/puzzle/patchedworld/imageware/image_process/types/CacheIndex;->N:Z
 
-    .line 9
     new-instance v2, Ljava/util/concurrent/locks/ReentrantLock;
 
     invoke-direct {v2}, Ljava/util/concurrent/locks/ReentrantLock;-><init>()V
 
     iput-object v2, p0, Lcom/commsource/puzzle/patchedworld/imageware/image_process/types/CacheIndex;->O:Ljava/util/concurrent/locks/Lock;
 
-    .line 10
     invoke-interface {v2}, Ljava/util/concurrent/locks/Lock;->newCondition()Ljava/util/concurrent/locks/Condition;
 
     move-result-object v2
 
     iput-object v2, p0, Lcom/commsource/puzzle/patchedworld/imageware/image_process/types/CacheIndex;->P:Ljava/util/concurrent/locks/Condition;
 
-    .line 11
     iput-object v1, p0, Lcom/commsource/puzzle/patchedworld/imageware/image_process/types/CacheIndex;->Q:Lcom/meitu/core/face/InterPoint;
 
-    .line 12
     iput-boolean v0, p0, Lcom/commsource/puzzle/patchedworld/imageware/image_process/types/CacheIndex;->R:Z
 
-    .line 13
     new-instance v0, Ljava/util/concurrent/locks/ReentrantLock;
 
     invoke-direct {v0}, Ljava/util/concurrent/locks/ReentrantLock;-><init>()V
 
     iput-object v0, p0, Lcom/commsource/puzzle/patchedworld/imageware/image_process/types/CacheIndex;->S:Ljava/util/concurrent/locks/Lock;
 
-    .line 14
     invoke-interface {v0}, Ljava/util/concurrent/locks/Lock;->newCondition()Ljava/util/concurrent/locks/Condition;
 
     move-result-object v0
@@ -196,90 +178,72 @@
 .method protected constructor <init>(Landroid/os/Parcel;)V
     .locals 3
 
-    .line 15
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/4 v0, 0x0
 
-    .line 16
     iput-boolean v0, p0, Lcom/commsource/puzzle/patchedworld/imageware/image_process/types/CacheIndex;->d:Z
 
-    .line 17
     iput-boolean v0, p0, Lcom/commsource/puzzle/patchedworld/imageware/image_process/types/CacheIndex;->f:Z
 
-    .line 18
     iput-boolean v0, p0, Lcom/commsource/puzzle/patchedworld/imageware/image_process/types/CacheIndex;->g:Z
 
-    .line 19
     iput v0, p0, Lcom/commsource/puzzle/patchedworld/imageware/image_process/types/CacheIndex;->p:I
 
-    .line 20
     iput v0, p0, Lcom/commsource/puzzle/patchedworld/imageware/image_process/types/CacheIndex;->J:I
 
     const/4 v1, 0x0
 
-    .line 21
     iput-object v1, p0, Lcom/commsource/puzzle/patchedworld/imageware/image_process/types/CacheIndex;->K:Landroid/os/Bundle;
 
-    .line 22
     iput-boolean v0, p0, Lcom/commsource/puzzle/patchedworld/imageware/image_process/types/CacheIndex;->N:Z
 
-    .line 23
     new-instance v2, Ljava/util/concurrent/locks/ReentrantLock;
 
     invoke-direct {v2}, Ljava/util/concurrent/locks/ReentrantLock;-><init>()V
 
     iput-object v2, p0, Lcom/commsource/puzzle/patchedworld/imageware/image_process/types/CacheIndex;->O:Ljava/util/concurrent/locks/Lock;
 
-    .line 24
     invoke-interface {v2}, Ljava/util/concurrent/locks/Lock;->newCondition()Ljava/util/concurrent/locks/Condition;
 
     move-result-object v2
 
     iput-object v2, p0, Lcom/commsource/puzzle/patchedworld/imageware/image_process/types/CacheIndex;->P:Ljava/util/concurrent/locks/Condition;
 
-    .line 25
     iput-object v1, p0, Lcom/commsource/puzzle/patchedworld/imageware/image_process/types/CacheIndex;->Q:Lcom/meitu/core/face/InterPoint;
 
-    .line 26
     iput-boolean v0, p0, Lcom/commsource/puzzle/patchedworld/imageware/image_process/types/CacheIndex;->R:Z
 
-    .line 27
     new-instance v1, Ljava/util/concurrent/locks/ReentrantLock;
 
     invoke-direct {v1}, Ljava/util/concurrent/locks/ReentrantLock;-><init>()V
 
     iput-object v1, p0, Lcom/commsource/puzzle/patchedworld/imageware/image_process/types/CacheIndex;->S:Ljava/util/concurrent/locks/Lock;
 
-    .line 28
     invoke-interface {v1}, Ljava/util/concurrent/locks/Lock;->newCondition()Ljava/util/concurrent/locks/Condition;
 
     move-result-object v1
 
     iput-object v1, p0, Lcom/commsource/puzzle/patchedworld/imageware/image_process/types/CacheIndex;->T:Ljava/util/concurrent/locks/Condition;
 
-    .line 29
     invoke-virtual {p1}, Landroid/os/Parcel;->readString()Ljava/lang/String;
 
     move-result-object v1
 
     iput-object v1, p0, Lcom/commsource/puzzle/patchedworld/imageware/image_process/types/CacheIndex;->a:Ljava/lang/String;
 
-    .line 30
     invoke-virtual {p1}, Landroid/os/Parcel;->readString()Ljava/lang/String;
 
     move-result-object v1
 
     iput-object v1, p0, Lcom/commsource/puzzle/patchedworld/imageware/image_process/types/CacheIndex;->b:Ljava/lang/String;
 
-    .line 31
     invoke-virtual {p1}, Landroid/os/Parcel;->readString()Ljava/lang/String;
 
     move-result-object v1
 
     iput-object v1, p0, Lcom/commsource/puzzle/patchedworld/imageware/image_process/types/CacheIndex;->c:Ljava/lang/String;
 
-    .line 32
     invoke-virtual {p1}, Landroid/os/Parcel;->readByte()B
 
     move-result v1
@@ -298,7 +262,6 @@
     :goto_0
     iput-boolean v1, p0, Lcom/commsource/puzzle/patchedworld/imageware/image_process/types/CacheIndex;->d:Z
 
-    .line 33
     invoke-virtual {p1}, Landroid/os/Parcel;->readByte()B
 
     move-result v1
@@ -315,7 +278,6 @@
     :goto_1
     iput-boolean v1, p0, Lcom/commsource/puzzle/patchedworld/imageware/image_process/types/CacheIndex;->f:Z
 
-    .line 34
     invoke-virtual {p1}, Landroid/os/Parcel;->readByte()B
 
     move-result v1
@@ -327,21 +289,18 @@
     :cond_2
     iput-boolean v0, p0, Lcom/commsource/puzzle/patchedworld/imageware/image_process/types/CacheIndex;->g:Z
 
-    .line 35
     invoke-virtual {p1}, Landroid/os/Parcel;->readInt()I
 
     move-result v0
 
     iput v0, p0, Lcom/commsource/puzzle/patchedworld/imageware/image_process/types/CacheIndex;->p:I
 
-    .line 36
     invoke-virtual {p1}, Landroid/os/Parcel;->readInt()I
 
     move-result v0
 
     iput v0, p0, Lcom/commsource/puzzle/patchedworld/imageware/image_process/types/CacheIndex;->J:I
 
-    .line 37
     const-class v0, Landroid/os/Bundle;
 
     invoke-virtual {v0}, Ljava/lang/Class;->getClassLoader()Ljava/lang/ClassLoader;
@@ -364,16 +323,13 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/puzzle/patchedworld/imageware/image_process/types/CacheIndex;->d:Z
 
     if-eqz v1, :cond_1
 
-    .line 2
     :try_start_0
     iget-object v1, p0, Lcom/commsource/puzzle/patchedworld/imageware/image_process/types/CacheIndex;->b:Ljava/lang/String;
 
-    .line 3
     invoke-static {v1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v1
@@ -387,7 +343,6 @@
     :cond_0
     iget-object v1, p0, Lcom/commsource/puzzle/patchedworld/imageware/image_process/types/CacheIndex;->a:Ljava/lang/String;
 
-    .line 4
     :goto_0
     invoke-static {v1}, Lcom/meitu/core/util/CacheUtil;->cache2image(Ljava/lang/String;)Lcom/meitu/core/types/NativeBitmap;
 
@@ -400,10 +355,8 @@
     :catch_0
     move-exception v1
 
-    .line 5
     invoke-virtual {v1}, Ljava/lang/Exception;->printStackTrace()V
 
-    .line 6
     sget-object v2, Lcom/commsource/puzzle/patchedworld/imageware/image_process/types/CacheIndex;->U:Ljava/lang/String;
 
     invoke-static {v2, v1}, Lcom/meitu/library/util/Debug/Debug;->p(Ljava/lang/String;Ljava/lang/Throwable;)V
@@ -411,7 +364,6 @@
     :cond_1
     const/4 v1, 0x0
 
-    .line 7
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -425,69 +377,56 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/commsource/puzzle/patchedworld/imageware/image_process/types/CacheIndex;
 
     invoke-direct {v1}, Lcom/commsource/puzzle/patchedworld/imageware/image_process/types/CacheIndex;-><init>()V
 
-    .line 2
     iget-object v2, p0, Lcom/commsource/puzzle/patchedworld/imageware/image_process/types/CacheIndex;->a:Ljava/lang/String;
 
     iput-object v2, v1, Lcom/commsource/puzzle/patchedworld/imageware/image_process/types/CacheIndex;->a:Ljava/lang/String;
 
-    .line 3
     iget-object v2, p0, Lcom/commsource/puzzle/patchedworld/imageware/image_process/types/CacheIndex;->b:Ljava/lang/String;
 
     iput-object v2, v1, Lcom/commsource/puzzle/patchedworld/imageware/image_process/types/CacheIndex;->b:Ljava/lang/String;
 
-    .line 4
     iget-object v2, p0, Lcom/commsource/puzzle/patchedworld/imageware/image_process/types/CacheIndex;->c:Ljava/lang/String;
 
     iput-object v2, v1, Lcom/commsource/puzzle/patchedworld/imageware/image_process/types/CacheIndex;->c:Ljava/lang/String;
 
-    .line 5
     iget-boolean v2, p0, Lcom/commsource/puzzle/patchedworld/imageware/image_process/types/CacheIndex;->d:Z
 
     iput-boolean v2, v1, Lcom/commsource/puzzle/patchedworld/imageware/image_process/types/CacheIndex;->d:Z
 
-    .line 6
     iget-boolean v2, p0, Lcom/commsource/puzzle/patchedworld/imageware/image_process/types/CacheIndex;->f:Z
 
     iput-boolean v2, v1, Lcom/commsource/puzzle/patchedworld/imageware/image_process/types/CacheIndex;->f:Z
 
-    .line 7
     iget-boolean v2, p0, Lcom/commsource/puzzle/patchedworld/imageware/image_process/types/CacheIndex;->g:Z
 
     iput-boolean v2, v1, Lcom/commsource/puzzle/patchedworld/imageware/image_process/types/CacheIndex;->g:Z
 
-    .line 8
     iget v2, p0, Lcom/commsource/puzzle/patchedworld/imageware/image_process/types/CacheIndex;->p:I
 
     iput v2, v1, Lcom/commsource/puzzle/patchedworld/imageware/image_process/types/CacheIndex;->p:I
 
-    .line 9
     iget v2, p0, Lcom/commsource/puzzle/patchedworld/imageware/image_process/types/CacheIndex;->J:I
 
     iput v2, v1, Lcom/commsource/puzzle/patchedworld/imageware/image_process/types/CacheIndex;->J:I
 
-    .line 10
     iget-object v2, p0, Lcom/commsource/puzzle/patchedworld/imageware/image_process/types/CacheIndex;->K:Landroid/os/Bundle;
 
     iput-object v2, v1, Lcom/commsource/puzzle/patchedworld/imageware/image_process/types/CacheIndex;->K:Landroid/os/Bundle;
 
-    .line 11
     iget-object v2, p0, Lcom/commsource/puzzle/patchedworld/imageware/image_process/types/CacheIndex;->K:Landroid/os/Bundle;
 
     if-eqz v2, :cond_0
 
-    .line 12
     new-instance v2, Landroid/os/Bundle;
 
     invoke-direct {v2}, Landroid/os/Bundle;-><init>()V
 
     iput-object v2, v1, Lcom/commsource/puzzle/patchedworld/imageware/image_process/types/CacheIndex;->K:Landroid/os/Bundle;
 
-    .line 13
     const-class v3, Lcom/commsource/puzzle/patchedworld/imageware/image_process/types/CacheIndex;
 
     invoke-virtual {v3}, Ljava/lang/Class;->getClassLoader()Ljava/lang/ClassLoader;
@@ -496,7 +435,6 @@
 
     invoke-virtual {v2, v3}, Landroid/os/Bundle;->setClassLoader(Ljava/lang/ClassLoader;)V
 
-    .line 14
     iget-object v2, p0, Lcom/commsource/puzzle/patchedworld/imageware/image_process/types/CacheIndex;->K:Landroid/os/Bundle;
 
     const-class v3, Lcom/commsource/puzzle/patchedworld/imageware/image_process/types/CacheIndex;
@@ -507,30 +445,25 @@
 
     invoke-virtual {v2, v3}, Landroid/os/Bundle;->setClassLoader(Ljava/lang/ClassLoader;)V
 
-    .line 15
     iget-object v2, v1, Lcom/commsource/puzzle/patchedworld/imageware/image_process/types/CacheIndex;->K:Landroid/os/Bundle;
 
     iget-object v3, p0, Lcom/commsource/puzzle/patchedworld/imageware/image_process/types/CacheIndex;->K:Landroid/os/Bundle;
 
     invoke-virtual {v2, v3}, Landroid/os/Bundle;->putAll(Landroid/os/Bundle;)V
 
-    .line 16
     :cond_0
     iget-boolean v2, p0, Lcom/commsource/puzzle/patchedworld/imageware/image_process/types/CacheIndex;->N:Z
 
     iput-boolean v2, v1, Lcom/commsource/puzzle/patchedworld/imageware/image_process/types/CacheIndex;->N:Z
 
-    .line 17
     iget-object v2, p0, Lcom/commsource/puzzle/patchedworld/imageware/image_process/types/CacheIndex;->L:Lcom/meitu/core/types/NativeBitmap;
 
     iput-object v2, v1, Lcom/commsource/puzzle/patchedworld/imageware/image_process/types/CacheIndex;->L:Lcom/meitu/core/types/NativeBitmap;
 
-    .line 18
     iget-object p0, p0, Lcom/commsource/puzzle/patchedworld/imageware/image_process/types/CacheIndex;->Q:Lcom/meitu/core/face/InterPoint;
 
     iput-object p0, v1, Lcom/commsource/puzzle/patchedworld/imageware/image_process/types/CacheIndex;->Q:Lcom/meitu/core/face/InterPoint;
 
-    .line 19
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
@@ -543,22 +476,18 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/commsource/puzzle/patchedworld/imageware/image_process/types/CacheIndex;
 
     invoke-direct {v1}, Lcom/commsource/puzzle/patchedworld/imageware/image_process/types/CacheIndex;-><init>()V
 
-    .line 2
     iput-object p0, v1, Lcom/commsource/puzzle/patchedworld/imageware/image_process/types/CacheIndex;->a:Ljava/lang/String;
 
-    .line 3
     invoke-static {p0}, Lcom/commsource/puzzle/patchedworld/imageware/image_process/types/CacheIndex;->x(Ljava/lang/String;)Z
 
     move-result v2
 
     iput-boolean v2, v1, Lcom/commsource/puzzle/patchedworld/imageware/image_process/types/CacheIndex;->g:Z
 
-    .line 4
     :try_start_0
     new-instance v2, Ljava/io/File;
 
@@ -577,12 +506,10 @@
     :catchall_0
     move-exception p0
 
-    .line 5
     sget-object v2, Lcom/commsource/puzzle/patchedworld/imageware/image_process/types/CacheIndex;->U:Ljava/lang/String;
 
     invoke-static {v2, p0}, Lcom/meitu/library/util/Debug/Debug;->p(Ljava/lang/String;Ljava/lang/Throwable;)V
 
-    .line 6
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -596,12 +523,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/commsource/puzzle/patchedworld/imageware/image_process/types/CacheIndex;
 
     invoke-direct {v1}, Lcom/commsource/puzzle/patchedworld/imageware/image_process/types/CacheIndex;-><init>()V
 
-    .line 2
     new-instance v2, Ljava/lang/StringBuilder;
 
     invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
@@ -620,10 +545,8 @@
 
     const/4 p0, 0x1
 
-    .line 3
     iput-boolean p0, v1, Lcom/commsource/puzzle/patchedworld/imageware/image_process/types/CacheIndex;->g:Z
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
@@ -640,13 +563,11 @@
 
     const/4 v1, 0x0
 
-    .line 1
     :try_start_0
     new-instance v2, Ljava/io/File;
 
     invoke-direct {v2, p0}, Ljava/io/File;-><init>(Ljava/lang/String;)V
 
-    .line 2
     invoke-virtual {v2}, Ljava/io/File;->exists()Z
 
     move-result p0
@@ -659,14 +580,12 @@
 
     if-eqz p0, :cond_8
 
-    .line 3
     invoke-virtual {v2}, Ljava/io/File;->listFiles()[Ljava/io/File;
 
     move-result-object p0
 
     const/4 v2, 0x0
 
-    .line 4
     array-length v3, p0
 
     const/4 v4, 0x0
@@ -688,12 +607,10 @@
 
     if-eqz v10, :cond_4
 
-    .line 5
     invoke-virtual {v10}, Ljava/io/File;->getName()Ljava/lang/String;
 
     move-result-object v11
 
-    .line 6
     sget-object v12, Lcom/commsource/puzzle/patchedworld/imageware/image_process/types/CacheIndex;->U:Ljava/lang/String;
 
     new-instance v13, Ljava/lang/StringBuilder;
@@ -714,7 +631,6 @@
 
     const-string v12, ".ppm"
 
-    .line 7
     invoke-virtual {v11, v12}, Ljava/lang/String;->endsWith(Ljava/lang/String;)Z
 
     move-result v12
@@ -723,14 +639,12 @@
 
     const-string v12, "_"
 
-    .line 8
     invoke-virtual {v11, v12}, Ljava/lang/String;->split(Ljava/lang/String;)[Ljava/lang/String;
 
     move-result-object v11
 
     const/4 v12, 0x1
 
-    .line 9
     aget-object v13, v11, v12
 
     invoke-static {v13}, Ljava/lang/Integer;->valueOf(Ljava/lang/String;)Ljava/lang/Integer;
@@ -741,7 +655,6 @@
 
     move-result v13
 
-    .line 10
     aget-object v9, v11, v9
 
     invoke-static {v9}, Ljava/lang/Integer;->valueOf(Ljava/lang/String;)Ljava/lang/Integer;
@@ -754,7 +667,6 @@
 
     const/4 v14, 0x3
 
-    .line 11
     aget-object v11, v11, v14
 
     invoke-static {v11}, Ljava/lang/Float;->valueOf(Ljava/lang/String;)Ljava/lang/Float;
@@ -809,7 +721,6 @@
 
     goto :goto_0
 
-    .line 12
     :cond_5
     sget-object p0, Lcom/commsource/puzzle/patchedworld/imageware/image_process/types/CacheIndex;->d0:Ljava/text/SimpleDateFormat;
 
@@ -831,7 +742,6 @@
 
     sub-int/2addr p0, v6
 
-    .line 13
     invoke-static {p0}, Ljava/lang/Math;->abs(I)I
 
     move-result p0
@@ -843,7 +753,6 @@
     :cond_6
     if-eqz v7, :cond_7
 
-    .line 14
     sget-object p0, Lcom/commsource/puzzle/patchedworld/imageware/image_process/types/CacheIndex;->U:Ljava/lang/String;
 
     new-instance v2, Ljava/lang/StringBuilder;
@@ -868,7 +777,6 @@
 
     goto :goto_2
 
-    .line 15
     :cond_7
     sget-object p0, Lcom/commsource/puzzle/patchedworld/imageware/image_process/types/CacheIndex;->U:Ljava/lang/String;
 
@@ -878,7 +786,6 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 16
     :goto_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -887,12 +794,10 @@
     :catchall_0
     move-exception p0
 
-    .line 17
     sget-object v2, Lcom/commsource/puzzle/patchedworld/imageware/image_process/types/CacheIndex;->U:Ljava/lang/String;
 
     invoke-static {v2, p0}, Lcom/meitu/library/util/Debug/Debug;->p(Ljava/lang/String;Ljava/lang/Throwable;)V
 
-    .line 18
     :cond_8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -906,7 +811,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/puzzle/patchedworld/imageware/image_process/types/CacheIndex;->a:Ljava/lang/String;
 
     invoke-static {v1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
@@ -925,12 +829,10 @@
 
     const/4 p1, 0x0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p1
 
-    .line 3
     :cond_0
     iget-object v1, p0, Lcom/commsource/puzzle/patchedworld/imageware/image_process/types/CacheIndex;->b:Ljava/lang/String;
 
@@ -980,7 +882,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/puzzle/patchedworld/imageware/image_process/types/CacheIndex;->c0:Ljava/text/SimpleDateFormat;
 
     new-instance v2, Ljava/util/Date;
@@ -991,7 +892,6 @@
 
     move-result-object v1
 
-    .line 2
     new-instance v2, Ljava/lang/StringBuilder;
 
     invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
@@ -1034,7 +934,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v1
@@ -1071,7 +970,6 @@
 
     const/4 v1, 0x0
 
-    .line 1
     :try_start_0
     invoke-direct {p0}, Lcom/commsource/puzzle/patchedworld/imageware/image_process/types/CacheIndex;->D()Lcom/meitu/core/types/NativeBitmap;
 
@@ -1079,7 +977,6 @@
 
     iput-object v2, p0, Lcom/commsource/puzzle/patchedworld/imageware/image_process/types/CacheIndex;->L:Lcom/meitu/core/types/NativeBitmap;
 
-    .line 2
     invoke-static {}, Lcom/commsource/puzzle/patchedworld/x/d/c;->b()I
 
     move-result v2
@@ -1088,7 +985,6 @@
 
     if-lt v2, v3, :cond_0
 
-    .line 3
     iget-object v2, p0, Lcom/commsource/puzzle/patchedworld/imageware/image_process/types/CacheIndex;->L:Lcom/meitu/core/types/NativeBitmap;
 
     invoke-virtual {v2}, Lcom/meitu/core/types/NativeBitmap;->getImage()Landroid/graphics/Bitmap;
@@ -1097,7 +993,6 @@
 
     iput-object v2, p0, Lcom/commsource/puzzle/patchedworld/imageware/image_process/types/CacheIndex;->M:Landroid/graphics/Bitmap;
 
-    .line 4
     invoke-static {}, Lcom/commsource/puzzle/patchedworld/imageware/image_process/b;->b()Lcom/commsource/puzzle/patchedworld/imageware/image_process/b;
 
     move-result-object v2
@@ -1115,7 +1010,6 @@
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_1
 
-    .line 5
     :cond_0
     iget-object v2, p0, Lcom/commsource/puzzle/patchedworld/imageware/image_process/types/CacheIndex;->O:Ljava/util/concurrent/locks/Lock;
 
@@ -1125,10 +1019,8 @@
 
     if-eqz v3, :cond_1
 
-    .line 6
     invoke-interface {v2}, Ljava/util/concurrent/locks/Lock;->lock()V
 
-    .line 7
     :try_start_1
     iget-object v2, p0, Lcom/commsource/puzzle/patchedworld/imageware/image_process/types/CacheIndex;->P:Ljava/util/concurrent/locks/Condition;
 
@@ -1141,12 +1033,10 @@
     :catchall_0
     move-exception v1
 
-    .line 8
     iget-object v2, p0, Lcom/commsource/puzzle/patchedworld/imageware/image_process/types/CacheIndex;->O:Ljava/util/concurrent/locks/Lock;
 
     invoke-interface {v2}, Ljava/util/concurrent/locks/Lock;->unlock()V
 
-    .line 9
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     throw v1
@@ -1159,7 +1049,6 @@
     :catch_0
     move-exception v2
 
-    .line 10
     :try_start_2
     sget-object v3, Lcom/commsource/puzzle/patchedworld/imageware/image_process/types/CacheIndex;->U:Ljava/lang/String;
 
@@ -1167,7 +1056,6 @@
     :try_end_2
     .catchall {:try_start_2 .. :try_end_2} :catchall_1
 
-    .line 11
     iget-object v2, p0, Lcom/commsource/puzzle/patchedworld/imageware/image_process/types/CacheIndex;->O:Ljava/util/concurrent/locks/Lock;
 
     if-eqz v2, :cond_1
@@ -1176,10 +1064,8 @@
 
     if-eqz v3, :cond_1
 
-    .line 12
     invoke-interface {v2}, Ljava/util/concurrent/locks/Lock;->lock()V
 
-    .line 13
     :try_start_3
     iget-object v2, p0, Lcom/commsource/puzzle/patchedworld/imageware/image_process/types/CacheIndex;->P:Ljava/util/concurrent/locks/Condition;
 
@@ -1187,7 +1073,6 @@
     :try_end_3
     .catchall {:try_start_3 .. :try_end_3} :catchall_2
 
-    .line 14
     :goto_0
     iget-object v2, p0, Lcom/commsource/puzzle/patchedworld/imageware/image_process/types/CacheIndex;->O:Ljava/util/concurrent/locks/Lock;
 
@@ -1202,22 +1087,18 @@
 
     invoke-interface {v2}, Ljava/util/concurrent/locks/Lock;->unlock()V
 
-    .line 15
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     throw v1
 
-    .line 16
     :cond_1
     :goto_1
     iput-boolean v1, p0, Lcom/commsource/puzzle/patchedworld/imageware/image_process/types/CacheIndex;->N:Z
 
-    .line 17
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 18
     :goto_2
     iget-object v3, p0, Lcom/commsource/puzzle/patchedworld/imageware/image_process/types/CacheIndex;->O:Ljava/util/concurrent/locks/Lock;
 
@@ -1227,10 +1108,8 @@
 
     if-eqz v4, :cond_2
 
-    .line 19
     invoke-interface {v3}, Ljava/util/concurrent/locks/Lock;->lock()V
 
-    .line 20
     :try_start_4
     iget-object v3, p0, Lcom/commsource/puzzle/patchedworld/imageware/image_process/types/CacheIndex;->P:Ljava/util/concurrent/locks/Condition;
 
@@ -1238,7 +1117,6 @@
     :try_end_4
     .catchall {:try_start_4 .. :try_end_4} :catchall_3
 
-    .line 21
     iget-object v3, p0, Lcom/commsource/puzzle/patchedworld/imageware/image_process/types/CacheIndex;->O:Ljava/util/concurrent/locks/Lock;
 
     invoke-interface {v3}, Ljava/util/concurrent/locks/Lock;->unlock()V
@@ -1252,17 +1130,14 @@
 
     invoke-interface {v2}, Ljava/util/concurrent/locks/Lock;->unlock()V
 
-    .line 22
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     throw v1
 
-    .line 23
     :cond_2
     :goto_3
     iput-boolean v1, p0, Lcom/commsource/puzzle/patchedworld/imageware/image_process/types/CacheIndex;->N:Z
 
-    .line 24
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     throw v2
@@ -1285,34 +1160,28 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p1}, Lcom/commsource/puzzle/patchedworld/imageware/image_process/types/CacheIndex;->v()Z
 
     move-result v1
 
     if-eqz v1, :cond_0
 
-    .line 2
     iget-object v1, p1, Lcom/commsource/puzzle/patchedworld/imageware/image_process/types/CacheIndex;->a:Ljava/lang/String;
 
     iput-object v1, p0, Lcom/commsource/puzzle/patchedworld/imageware/image_process/types/CacheIndex;->b:Ljava/lang/String;
 
     const/4 v1, 0x1
 
-    .line 3
     iput-boolean v1, p0, Lcom/commsource/puzzle/patchedworld/imageware/image_process/types/CacheIndex;->d:Z
 
-    .line 4
     iget v1, p1, Lcom/commsource/puzzle/patchedworld/imageware/image_process/types/CacheIndex;->p:I
 
     iput v1, p0, Lcom/commsource/puzzle/patchedworld/imageware/image_process/types/CacheIndex;->p:I
 
-    .line 5
     iget p1, p1, Lcom/commsource/puzzle/patchedworld/imageware/image_process/types/CacheIndex;->J:I
 
     iput p1, p0, Lcom/commsource/puzzle/patchedworld/imageware/image_process/types/CacheIndex;->J:I
 
-    .line 6
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1326,18 +1195,15 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/puzzle/patchedworld/imageware/image_process/types/CacheIndex;->N:Z
 
     if-eqz v1, :cond_1
 
-    .line 2
     :try_start_0
     iget-object v1, p0, Lcom/commsource/puzzle/patchedworld/imageware/image_process/types/CacheIndex;->O:Ljava/util/concurrent/locks/Lock;
 
     invoke-interface {v1}, Ljava/util/concurrent/locks/Lock;->lock()V
 
-    .line 3
     :goto_0
     iget-object v1, p0, Lcom/commsource/puzzle/patchedworld/imageware/image_process/types/CacheIndex;->L:Lcom/meitu/core/types/NativeBitmap;
 
@@ -1347,7 +1213,6 @@
 
     if-nez v1, :cond_0
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/puzzle/patchedworld/imageware/image_process/types/CacheIndex;->P:Ljava/util/concurrent/locks/Condition;
 
     const-wide/16 v2, 0x1388
@@ -1369,7 +1234,6 @@
     :catch_0
     move-exception v1
 
-    .line 5
     :try_start_1
     sget-object v2, Lcom/commsource/puzzle/patchedworld/imageware/image_process/types/CacheIndex;->U:Ljava/lang/String;
 
@@ -1377,7 +1241,6 @@
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
-    .line 6
     :cond_0
     iget-object v1, p0, Lcom/commsource/puzzle/patchedworld/imageware/image_process/types/CacheIndex;->O:Ljava/util/concurrent/locks/Lock;
 
@@ -1390,12 +1253,10 @@
 
     invoke-interface {v2}, Ljava/util/concurrent/locks/Lock;->unlock()V
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     throw v1
 
-    .line 8
     :cond_1
     :goto_2
     iget-object v1, p0, Lcom/commsource/puzzle/patchedworld/imageware/image_process/types/CacheIndex;->L:Lcom/meitu/core/types/NativeBitmap;
@@ -1406,14 +1267,12 @@
 
     if-eqz v1, :cond_3
 
-    .line 9
     iget-object v1, p0, Lcom/commsource/puzzle/patchedworld/imageware/image_process/types/CacheIndex;->L:Lcom/meitu/core/types/NativeBitmap;
 
     invoke-virtual {v1}, Lcom/meitu/core/types/NativeBitmap;->copy()Lcom/meitu/core/types/NativeBitmap;
 
     move-result-object v1
 
-    .line 10
     invoke-static {}, Lcom/commsource/puzzle/patchedworld/x/d/c;->b()I
 
     move-result v2
@@ -1422,7 +1281,6 @@
 
     if-lt v2, v3, :cond_2
 
-    .line 11
     invoke-static {}, Lcom/commsource/puzzle/patchedworld/imageware/image_process/b;->b()Lcom/commsource/puzzle/patchedworld/imageware/image_process/b;
 
     move-result-object v2
@@ -1437,7 +1295,6 @@
 
     move-result-object v2
 
-    .line 12
     invoke-static {}, Lcom/commsource/puzzle/patchedworld/imageware/image_process/b;->b()Lcom/commsource/puzzle/patchedworld/imageware/image_process/b;
 
     move-result-object v3
@@ -1448,18 +1305,15 @@
 
     invoke-virtual {v3, v2, v4}, Lcom/commsource/puzzle/patchedworld/imageware/image_process/b;->e(Landroid/graphics/Bitmap;I)V
 
-    .line 13
     :cond_2
     iget-object v2, p0, Lcom/commsource/puzzle/patchedworld/imageware/image_process/types/CacheIndex;->L:Lcom/meitu/core/types/NativeBitmap;
 
     invoke-virtual {v2}, Lcom/meitu/core/types/NativeBitmap;->recycle()V
 
-    .line 14
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
 
-    .line 15
     :cond_3
     invoke-direct {p0}, Lcom/commsource/puzzle/patchedworld/imageware/image_process/types/CacheIndex;->D()Lcom/meitu/core/types/NativeBitmap;
 
@@ -1477,7 +1331,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/puzzle/patchedworld/imageware/image_process/types/CacheIndex;->N:Z
 
     if-nez v1, :cond_1
@@ -1495,10 +1348,8 @@
     :cond_0
     const/4 v1, 0x1
 
-    .line 2
     iput-boolean v1, p0, Lcom/commsource/puzzle/patchedworld/imageware/image_process/types/CacheIndex;->N:Z
 
-    .line 3
     invoke-static {}, Lcom/commsource/puzzle/patchedworld/x/a;->a()Lcom/commsource/puzzle/patchedworld/x/a;
 
     move-result-object v1
@@ -1509,12 +1360,10 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/puzzle/patchedworld/x/a;->execute(Ljava/lang/Runnable;)V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 5
     :cond_1
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1531,10 +1380,8 @@
 
     const/4 v1, 0x1
 
-    .line 1
     iput-boolean v1, p0, Lcom/commsource/puzzle/patchedworld/imageware/image_process/types/CacheIndex;->f:Z
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1547,14 +1394,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p1}, Lcom/commsource/puzzle/patchedworld/imageware/image_process/types/CacheIndex;->v()Z
 
     move-result v1
 
     if-eqz v1, :cond_0
 
-    .line 2
     new-instance v1, Ljava/io/File;
 
     invoke-virtual {p1}, Lcom/commsource/puzzle/patchedworld/imageware/image_process/types/CacheIndex;->k()Ljava/lang/String;
@@ -1563,14 +1408,12 @@
 
     invoke-direct {v1, v2}, Ljava/io/File;-><init>(Ljava/lang/String;)V
 
-    .line 3
     new-instance v2, Ljava/io/File;
 
     iget-object v3, p0, Lcom/commsource/puzzle/patchedworld/imageware/image_process/types/CacheIndex;->a:Ljava/lang/String;
 
     invoke-direct {v2, v3}, Ljava/io/File;-><init>(Ljava/lang/String;)V
 
-    .line 4
     :try_start_0
     invoke-virtual {v1, v2}, Ljava/io/File;->renameTo(Ljava/io/File;)Z
 
@@ -1580,12 +1423,10 @@
 
     if-eqz v1, :cond_0
 
-    .line 5
     iget v1, p1, Lcom/commsource/puzzle/patchedworld/imageware/image_process/types/CacheIndex;->p:I
 
     iput v1, p0, Lcom/commsource/puzzle/patchedworld/imageware/image_process/types/CacheIndex;->p:I
 
-    .line 6
     iget p1, p1, Lcom/commsource/puzzle/patchedworld/imageware/image_process/types/CacheIndex;->J:I
 
     iput p1, p0, Lcom/commsource/puzzle/patchedworld/imageware/image_process/types/CacheIndex;->J:I
@@ -1597,12 +1438,10 @@
     :catch_0
     move-exception p1
 
-    .line 7
     sget-object v1, Lcom/commsource/puzzle/patchedworld/imageware/image_process/types/CacheIndex;->U:Ljava/lang/String;
 
     invoke-static {v1, p1}, Lcom/meitu/library/util/Debug/Debug;->p(Ljava/lang/String;Ljava/lang/Throwable;)V
 
-    .line 8
     :cond_0
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1617,18 +1456,15 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/puzzle/patchedworld/imageware/image_process/types/CacheIndex;->N:Z
 
     if-eqz v1, :cond_1
 
-    .line 2
     :try_start_0
     iget-object v1, p0, Lcom/commsource/puzzle/patchedworld/imageware/image_process/types/CacheIndex;->O:Ljava/util/concurrent/locks/Lock;
 
     invoke-interface {v1}, Ljava/util/concurrent/locks/Lock;->lock()V
 
-    .line 3
     :goto_0
     iget-object v1, p0, Lcom/commsource/puzzle/patchedworld/imageware/image_process/types/CacheIndex;->L:Lcom/meitu/core/types/NativeBitmap;
 
@@ -1638,7 +1474,6 @@
 
     if-nez v1, :cond_0
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/puzzle/patchedworld/imageware/image_process/types/CacheIndex;->P:Ljava/util/concurrent/locks/Condition;
 
     const-wide/16 v2, 0x1388
@@ -1660,7 +1495,6 @@
     :catch_0
     move-exception v1
 
-    .line 5
     :try_start_1
     sget-object v2, Lcom/commsource/puzzle/patchedworld/imageware/image_process/types/CacheIndex;->U:Ljava/lang/String;
 
@@ -1668,7 +1502,6 @@
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
-    .line 6
     :cond_0
     iget-object v1, p0, Lcom/commsource/puzzle/patchedworld/imageware/image_process/types/CacheIndex;->O:Ljava/util/concurrent/locks/Lock;
 
@@ -1681,19 +1514,16 @@
 
     invoke-interface {v2}, Ljava/util/concurrent/locks/Lock;->unlock()V
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     throw v1
 
-    .line 8
     :cond_1
     :goto_2
     iget-object v1, p0, Lcom/commsource/puzzle/patchedworld/imageware/image_process/types/CacheIndex;->L:Lcom/meitu/core/types/NativeBitmap;
 
     if-eqz v1, :cond_2
 
-    .line 9
     invoke-static {}, Lcom/commsource/puzzle/patchedworld/imageware/image_process/b;->b()Lcom/commsource/puzzle/patchedworld/imageware/image_process/b;
 
     move-result-object v1
@@ -1706,7 +1536,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/puzzle/patchedworld/imageware/image_process/b;->d(I)V
 
-    .line 10
     :cond_2
     iget-object v1, p0, Lcom/commsource/puzzle/patchedworld/imageware/image_process/types/CacheIndex;->L:Lcom/meitu/core/types/NativeBitmap;
 
@@ -1714,13 +1543,10 @@
 
     const/4 v1, 0x0
 
-    .line 11
     iput-object v1, p0, Lcom/commsource/puzzle/patchedworld/imageware/image_process/types/CacheIndex;->L:Lcom/meitu/core/types/NativeBitmap;
 
-    .line 12
     iput-object v1, p0, Lcom/commsource/puzzle/patchedworld/imageware/image_process/types/CacheIndex;->M:Landroid/graphics/Bitmap;
 
-    .line 13
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1733,10 +1559,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/puzzle/patchedworld/imageware/image_process/types/CacheIndex;->c:Ljava/lang/String;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
@@ -1749,10 +1573,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/puzzle/patchedworld/imageware/image_process/types/CacheIndex;->K:Landroid/os/Bundle;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1765,10 +1587,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/puzzle/patchedworld/imageware/image_process/types/CacheIndex;->J:I
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1781,7 +1601,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/puzzle/patchedworld/imageware/image_process/types/CacheIndex;->N:Z
 
     if-nez v1, :cond_0
@@ -1792,10 +1611,8 @@
 
     if-eqz v1, :cond_0
 
-    .line 2
     iput-object p1, p0, Lcom/commsource/puzzle/patchedworld/imageware/image_process/types/CacheIndex;->L:Lcom/meitu/core/types/NativeBitmap;
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1809,10 +1626,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/puzzle/patchedworld/imageware/image_process/types/CacheIndex;->p:I
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1825,17 +1640,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/puzzle/patchedworld/imageware/image_process/types/CacheIndex;->g:Z
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 3
     :cond_0
     iget-object v1, p0, Lcom/commsource/puzzle/patchedworld/imageware/image_process/types/CacheIndex;->a:Ljava/lang/String;
 
@@ -1845,7 +1657,6 @@
 
     if-nez v1, :cond_2
 
-    .line 4
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -1862,14 +1673,12 @@
 
     move-result-object v1
 
-    .line 5
     new-instance v2, Ljava/io/File;
 
     iget-object v3, p0, Lcom/commsource/puzzle/patchedworld/imageware/image_process/types/CacheIndex;->a:Ljava/lang/String;
 
     invoke-direct {v2, v3}, Ljava/io/File;-><init>(Ljava/lang/String;)V
 
-    .line 6
     invoke-virtual {v2}, Ljava/io/File;->exists()Z
 
     move-result v3
@@ -1878,7 +1687,6 @@
 
     if-eqz v3, :cond_1
 
-    .line 7
     new-instance v3, Ljava/io/File;
 
     invoke-direct {v3, v1}, Ljava/io/File;-><init>(Ljava/lang/String;)V
@@ -1889,22 +1697,17 @@
 
     if-eqz v2, :cond_2
 
-    .line 8
     iput-object v1, p0, Lcom/commsource/puzzle/patchedworld/imageware/image_process/types/CacheIndex;->a:Ljava/lang/String;
 
-    .line 9
     iput-boolean v4, p0, Lcom/commsource/puzzle/patchedworld/imageware/image_process/types/CacheIndex;->g:Z
 
     goto :goto_0
 
-    .line 10
     :cond_1
     iput-object v1, p0, Lcom/commsource/puzzle/patchedworld/imageware/image_process/types/CacheIndex;->a:Ljava/lang/String;
 
-    .line 11
     iput-boolean v4, p0, Lcom/commsource/puzzle/patchedworld/imageware/image_process/types/CacheIndex;->g:Z
 
-    .line 12
     :cond_2
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1919,17 +1722,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/puzzle/patchedworld/imageware/image_process/types/CacheIndex;->p:I
 
     or-int/2addr v1, p1
 
     iput v1, p0, Lcom/commsource/puzzle/patchedworld/imageware/image_process/types/CacheIndex;->p:I
 
-    .line 2
     iput p1, p0, Lcom/commsource/puzzle/patchedworld/imageware/image_process/types/CacheIndex;->J:I
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1942,7 +1742,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/puzzle/patchedworld/imageware/image_process/types/CacheIndex;->a:Ljava/lang/String;
 
     invoke-static {v1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
@@ -1953,12 +1752,10 @@
 
     const/4 p1, 0x0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
 
-    .line 3
     :cond_0
     iget-boolean v1, p0, Lcom/commsource/puzzle/patchedworld/imageware/image_process/types/CacheIndex;->d:Z
 
@@ -1972,10 +1769,8 @@
 
     const/4 v1, 0x0
 
-    .line 4
     iput-object v1, p0, Lcom/commsource/puzzle/patchedworld/imageware/image_process/types/CacheIndex;->b:Ljava/lang/String;
 
-    .line 5
     iget-object v1, p0, Lcom/commsource/puzzle/patchedworld/imageware/image_process/types/CacheIndex;->a:Ljava/lang/String;
 
     invoke-static {v1}, Lcom/meitu/library/p/g/b;->w(Ljava/lang/String;)Ljava/lang/String;
@@ -1984,7 +1779,6 @@
 
     invoke-static {v1}, Lcom/commsource/puzzle/patchedworld/x/d/c;->a(Ljava/lang/String;)V
 
-    .line 6
     :try_start_0
     iget-object v1, p0, Lcom/commsource/puzzle/patchedworld/imageware/image_process/types/CacheIndex;->a:Ljava/lang/String;
 
@@ -1996,12 +1790,10 @@
 
     const/4 v1, 0x1
 
-    .line 7
     iput-boolean v1, p0, Lcom/commsource/puzzle/patchedworld/imageware/image_process/types/CacheIndex;->d:Z
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
-    .line 8
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -2010,15 +1802,12 @@
     :catch_0
     move-exception p1
 
-    .line 9
     invoke-virtual {p1}, Ljava/lang/Exception;->printStackTrace()V
 
-    .line 10
     sget-object v1, Lcom/commsource/puzzle/patchedworld/imageware/image_process/types/CacheIndex;->U:Ljava/lang/String;
 
     invoke-static {v1, p1}, Lcom/meitu/library/util/Debug/Debug;->p(Ljava/lang/String;Ljava/lang/Throwable;)V
 
-    .line 11
     :cond_2
     iget-boolean p1, p0, Lcom/commsource/puzzle/patchedworld/imageware/image_process/types/CacheIndex;->d:Z
 
@@ -2034,14 +1823,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p1}, Lcom/commsource/puzzle/patchedworld/imageware/image_process/types/CacheIndex;->v()Z
 
     move-result v1
 
     if-eqz v1, :cond_0
 
-    .line 2
     new-instance v1, Ljava/io/File;
 
     invoke-virtual {p1}, Lcom/commsource/puzzle/patchedworld/imageware/image_process/types/CacheIndex;->k()Ljava/lang/String;
@@ -2050,14 +1837,12 @@
 
     invoke-direct {v1, v2}, Ljava/io/File;-><init>(Ljava/lang/String;)V
 
-    .line 3
     new-instance v2, Ljava/io/File;
 
     iget-object v3, p0, Lcom/commsource/puzzle/patchedworld/imageware/image_process/types/CacheIndex;->a:Ljava/lang/String;
 
     invoke-direct {v2, v3}, Ljava/io/File;-><init>(Ljava/lang/String;)V
 
-    .line 4
     :try_start_0
     invoke-static {v1, v2}, Lcom/meitu/library/p/g/b;->b(Ljava/io/File;Ljava/io/File;)V
     :try_end_0
@@ -2065,15 +1850,12 @@
 
     const/4 v1, 0x1
 
-    .line 5
     iput-boolean v1, p0, Lcom/commsource/puzzle/patchedworld/imageware/image_process/types/CacheIndex;->d:Z
 
-    .line 6
     iget v1, p1, Lcom/commsource/puzzle/patchedworld/imageware/image_process/types/CacheIndex;->p:I
 
     iput v1, p0, Lcom/commsource/puzzle/patchedworld/imageware/image_process/types/CacheIndex;->p:I
 
-    .line 7
     iget p1, p1, Lcom/commsource/puzzle/patchedworld/imageware/image_process/types/CacheIndex;->J:I
 
     iput p1, p0, Lcom/commsource/puzzle/patchedworld/imageware/image_process/types/CacheIndex;->J:I
@@ -2083,17 +1865,14 @@
     :catch_0
     move-exception p1
 
-    .line 8
     sget-object v1, Lcom/commsource/puzzle/patchedworld/imageware/image_process/types/CacheIndex;->U:Ljava/lang/String;
 
     invoke-static {v1, p1}, Lcom/meitu/library/util/Debug/Debug;->p(Ljava/lang/String;Ljava/lang/Throwable;)V
 
-    .line 9
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 10
     :cond_0
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2108,7 +1887,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const/4 v0, 0x0
@@ -2125,14 +1903,12 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     new-instance v1, Landroid/os/Bundle;
 
     invoke-direct {v1, p1}, Landroid/os/Bundle;-><init>(Landroid/os/Bundle;)V
 
     iput-object v1, p0, Lcom/commsource/puzzle/patchedworld/imageware/image_process/types/CacheIndex;->K:Landroid/os/Bundle;
 
-    .line 2
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -2146,7 +1922,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     instance-of v1, p1, Lcom/commsource/puzzle/patchedworld/imageware/image_process/types/CacheIndex;
 
     if-eqz v1, :cond_0
@@ -2165,7 +1940,6 @@
 
     iget-object p1, p1, Lcom/commsource/puzzle/patchedworld/imageware/image_process/types/CacheIndex;->a:Ljava/lang/String;
 
-    .line 2
     invoke-virtual {v1, p1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p1
@@ -2179,7 +1953,6 @@
     :cond_0
     const/4 p1, 0x0
 
-    .line 3
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -2193,7 +1966,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0}, Ljava/lang/Object;->hashCode()I
 
     move-result v1
@@ -2212,18 +1984,15 @@
 
     const/4 v1, 0x0
 
-    .line 1
     :try_start_0
     invoke-virtual {p0}, Lcom/commsource/puzzle/patchedworld/imageware/image_process/types/CacheIndex;->H()V
 
-    .line 2
     new-instance v2, Ljava/io/File;
 
     iget-object v3, p0, Lcom/commsource/puzzle/patchedworld/imageware/image_process/types/CacheIndex;->a:Ljava/lang/String;
 
     invoke-direct {v2, v3}, Ljava/io/File;-><init>(Ljava/lang/String;)V
 
-    .line 3
     invoke-virtual {v2}, Ljava/io/File;->exists()Z
 
     move-result v3
@@ -2236,28 +2005,23 @@
 
     if-eqz v3, :cond_0
 
-    .line 4
     invoke-virtual {v2}, Ljava/io/File;->delete()Z
 
-    .line 5
     :cond_0
     invoke-direct {p0, v1}, Lcom/commsource/puzzle/patchedworld/imageware/image_process/types/CacheIndex;->n(Z)Ljava/lang/String;
 
     move-result-object v2
 
-    .line 6
     invoke-static {v2}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v3
 
     if-nez v3, :cond_1
 
-    .line 7
     new-instance v3, Ljava/io/File;
 
     invoke-direct {v3, v2}, Ljava/io/File;-><init>(Ljava/lang/String;)V
 
-    .line 8
     invoke-virtual {v3}, Ljava/io/File;->exists()Z
 
     move-result v2
@@ -2270,7 +2034,6 @@
 
     if-eqz v2, :cond_1
 
-    .line 9
     invoke-virtual {v3}, Ljava/io/File;->delete()Z
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
@@ -2280,20 +2043,16 @@
     :catch_0
     move-exception v2
 
-    .line 10
     invoke-virtual {v2}, Ljava/lang/Exception;->printStackTrace()V
 
-    .line 11
     sget-object v3, Lcom/commsource/puzzle/patchedworld/imageware/image_process/types/CacheIndex;->U:Ljava/lang/String;
 
     invoke-static {v3, v2}, Lcom/meitu/library/util/Debug/Debug;->p(Ljava/lang/String;Ljava/lang/Throwable;)V
 
-    .line 12
     :cond_1
     :goto_0
     iput-boolean v1, p0, Lcom/commsource/puzzle/patchedworld/imageware/image_process/types/CacheIndex;->d:Z
 
-    .line 13
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2306,7 +2065,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/puzzle/patchedworld/imageware/image_process/types/CacheIndex;->a:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2321,7 +2079,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/puzzle/patchedworld/imageware/image_process/types/CacheIndex;->c:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2336,7 +2093,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/puzzle/patchedworld/imageware/image_process/types/CacheIndex;->K:Landroid/os/Bundle;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2351,7 +2107,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/puzzle/patchedworld/imageware/image_process/types/CacheIndex;->J:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2366,7 +2121,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/puzzle/patchedworld/imageware/image_process/types/CacheIndex;->p:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2381,7 +2135,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/puzzle/patchedworld/imageware/image_process/types/CacheIndex;->L:Lcom/meitu/core/types/NativeBitmap;
 
     invoke-static {v1}, Lcom/commsource/puzzle/patchedworld/imageware/image_process/f;->d(Lcom/meitu/core/types/NativeBitmap;)Z
@@ -2400,7 +2153,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/puzzle/patchedworld/imageware/image_process/types/CacheIndex;->p:I
 
     and-int/2addr v1, p1
@@ -2427,7 +2179,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/puzzle/patchedworld/imageware/image_process/types/CacheIndex;->f:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2442,7 +2193,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/puzzle/patchedworld/imageware/image_process/types/CacheIndex;->d:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2457,7 +2207,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/puzzle/patchedworld/imageware/image_process/types/CacheIndex;->g:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2472,52 +2221,42 @@
 
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/puzzle/patchedworld/imageware/image_process/types/CacheIndex;->a:Ljava/lang/String;
 
     invoke-virtual {p1, v0}, Landroid/os/Parcel;->writeString(Ljava/lang/String;)V
 
-    .line 2
     iget-object v0, p0, Lcom/commsource/puzzle/patchedworld/imageware/image_process/types/CacheIndex;->b:Ljava/lang/String;
 
     invoke-virtual {p1, v0}, Landroid/os/Parcel;->writeString(Ljava/lang/String;)V
 
-    .line 3
     iget-object v0, p0, Lcom/commsource/puzzle/patchedworld/imageware/image_process/types/CacheIndex;->c:Ljava/lang/String;
 
     invoke-virtual {p1, v0}, Landroid/os/Parcel;->writeString(Ljava/lang/String;)V
 
-    .line 4
     iget-boolean v0, p0, Lcom/commsource/puzzle/patchedworld/imageware/image_process/types/CacheIndex;->d:Z
 
     invoke-virtual {p1, v0}, Landroid/os/Parcel;->writeByte(B)V
 
-    .line 5
     iget-boolean v0, p0, Lcom/commsource/puzzle/patchedworld/imageware/image_process/types/CacheIndex;->f:Z
 
     invoke-virtual {p1, v0}, Landroid/os/Parcel;->writeByte(B)V
 
-    .line 6
     iget-boolean v0, p0, Lcom/commsource/puzzle/patchedworld/imageware/image_process/types/CacheIndex;->g:Z
 
     invoke-virtual {p1, v0}, Landroid/os/Parcel;->writeByte(B)V
 
-    .line 7
     iget v0, p0, Lcom/commsource/puzzle/patchedworld/imageware/image_process/types/CacheIndex;->p:I
 
     invoke-virtual {p1, v0}, Landroid/os/Parcel;->writeInt(I)V
 
-    .line 8
     iget v0, p0, Lcom/commsource/puzzle/patchedworld/imageware/image_process/types/CacheIndex;->J:I
 
     invoke-virtual {p1, v0}, Landroid/os/Parcel;->writeInt(I)V
 
-    .line 9
     iget-object v0, p0, Lcom/commsource/puzzle/patchedworld/imageware/image_process/types/CacheIndex;->K:Landroid/os/Bundle;
 
     invoke-virtual {p1, v0}, Landroid/os/Parcel;->writeBundle(Landroid/os/Bundle;)V
 
-    .line 10
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2530,7 +2269,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/puzzle/patchedworld/imageware/image_process/types/CacheIndex;->b:Ljava/lang/String;
 
     invoke-static {v1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z

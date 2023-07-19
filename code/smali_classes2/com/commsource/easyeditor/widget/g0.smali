@@ -27,14 +27,12 @@
 
     sget v0, Lcom/res/provider/ResLAYOUT;->item_easy_function:I
 
-    .line 1
     invoke-direct {p0, p1, p2, v0}, Lcom/commsource/widget/h1/f;-><init>(Landroid/content/Context;Landroid/view/ViewGroup;I)V
 
     const/4 p1, 0x2
 
     new-array p1, p1, [F
 
-    .line 2
     fill-array-data p1, :array_0
 
     invoke-static {p1}, Landroid/animation/ValueAnimator;->ofFloat([F)Landroid/animation/ValueAnimator;
@@ -49,7 +47,6 @@
 
     iput-object p1, p0, Lcom/commsource/easyeditor/widget/g0;->J:Landroid/animation/ValueAnimator;
 
-    .line 3
     iget-object p1, p0, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->itemView:Landroid/view/View;
 
     invoke-static {p1}, Landroidx/databinding/DataBindingUtil;->bind(Landroid/view/View;)Landroidx/databinding/ViewDataBinding;
@@ -78,24 +75,20 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/easyeditor/widget/g0;->J:Landroid/animation/ValueAnimator;
 
     invoke-virtual {v1}, Landroid/animation/ValueAnimator;->removeAllUpdateListeners()V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/easyeditor/widget/g0;->J:Landroid/animation/ValueAnimator;
 
     invoke-virtual {v1}, Landroid/animation/ValueAnimator;->cancel()V
 
-    .line 3
     invoke-virtual {p0}, Lcom/commsource/widget/h1/f;->b()Lcom/commsource/widget/h1/e;
 
     move-result-object v1
 
     check-cast v1, Lcom/commsource/easyeditor/widget/FaceEffectsRecyclerView$a;
 
-    .line 4
     invoke-virtual {v1}, Lcom/commsource/easyeditor/widget/FaceEffectsRecyclerView$a;->S()I
 
     move-result v1
@@ -114,7 +107,6 @@
 
     if-eqz p1, :cond_1
 
-    .line 5
     iget-object p1, p0, Lcom/commsource/easyeditor/widget/g0;->p:Lcom/commsource/beautyplus/f0/qe;
 
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/qe;->a:Lcom/commsource/widget/IconFrontView;
@@ -123,7 +115,6 @@
 
     invoke-virtual {p1, v1}, Landroid/widget/TextView;->setTextColor(I)V
 
-    .line 6
     iget-object p1, p0, Lcom/commsource/easyeditor/widget/g0;->p:Lcom/commsource/beautyplus/f0/qe;
 
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/qe;->b:Lcom/commsource/widget/SingleLineTextView;
@@ -132,7 +123,6 @@
 
     goto :goto_1
 
-    .line 7
     :cond_1
     iget-object p1, p0, Lcom/commsource/easyeditor/widget/g0;->p:Lcom/commsource/beautyplus/f0/qe;
 
@@ -142,14 +132,12 @@
 
     invoke-virtual {p1, v1}, Landroid/widget/TextView;->setTextColor(I)V
 
-    .line 8
     iget-object p1, p0, Lcom/commsource/easyeditor/widget/g0;->p:Lcom/commsource/beautyplus/f0/qe;
 
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/qe;->b:Lcom/commsource/widget/SingleLineTextView;
 
     invoke-virtual {p1, v1}, Landroid/widget/TextView;->setTextColor(I)V
 
-    .line 9
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -163,7 +151,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/widget/h1/f;->b()Lcom/commsource/widget/h1/e;
 
     move-result-object v1
@@ -172,7 +159,6 @@
 
     if-eqz p2, :cond_0
 
-    .line 2
     invoke-virtual {v1}, Lcom/commsource/easyeditor/widget/FaceEffectsRecyclerView$a;->S()I
 
     move-result p2
@@ -186,26 +172,21 @@
     :cond_0
     const/4 p1, 0x0
 
-    .line 3
     :goto_0
     iget-boolean p2, p0, Lcom/commsource/easyeditor/widget/g0;->K:Z
 
     if-eq p1, p2, :cond_1
 
-    .line 4
     iput-boolean p1, p0, Lcom/commsource/easyeditor/widget/g0;->K:Z
 
-    .line 5
     iget-object p1, p0, Lcom/commsource/easyeditor/widget/g0;->J:Landroid/animation/ValueAnimator;
 
     invoke-virtual {p1}, Landroid/animation/ValueAnimator;->removeAllUpdateListeners()V
 
-    .line 6
     iget-object p1, p0, Lcom/commsource/easyeditor/widget/g0;->J:Landroid/animation/ValueAnimator;
 
     invoke-virtual {p1}, Landroid/animation/ValueAnimator;->cancel()V
 
-    .line 7
     iget-object p1, p0, Lcom/commsource/easyeditor/widget/g0;->J:Landroid/animation/ValueAnimator;
 
     new-instance p2, Lcom/commsource/easyeditor/widget/l;
@@ -214,12 +195,10 @@
 
     invoke-virtual {p1, p2}, Landroid/animation/ValueAnimator;->addUpdateListener(Landroid/animation/ValueAnimator$AnimatorUpdateListener;)V
 
-    .line 8
     iget-object p1, p0, Lcom/commsource/easyeditor/widget/g0;->J:Landroid/animation/ValueAnimator;
 
     invoke-virtual {p1}, Landroid/animation/ValueAnimator;->start()V
 
-    .line 9
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -233,7 +212,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p1}, Landroid/animation/ValueAnimator;->getAnimatedValue()Ljava/lang/Object;
 
     move-result-object p1
@@ -244,7 +222,6 @@
 
     move-result p1
 
-    .line 2
     iget-boolean v1, p0, Lcom/commsource/easyeditor/widget/g0;->K:Z
 
     if-eqz v1, :cond_0
@@ -261,26 +238,22 @@
 
     const/high16 v2, -0x1000000
 
-    .line 3
     invoke-static {v1, v2, p1}, Lcom/commsource/util/common/i;->l(IIF)I
 
     move-result p1
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/easyeditor/widget/g0;->p:Lcom/commsource/beautyplus/f0/qe;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/qe;->b:Lcom/commsource/widget/SingleLineTextView;
 
     invoke-virtual {v1, p1}, Landroid/widget/TextView;->setTextColor(I)V
 
-    .line 5
     iget-object v1, p0, Lcom/commsource/easyeditor/widget/g0;->p:Lcom/commsource/beautyplus/f0/qe;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/qe;->a:Lcom/commsource/widget/IconFrontView;
 
     invoke-virtual {v1, p1}, Landroid/widget/TextView;->setTextColor(I)V
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -298,7 +271,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p1}, Lcom/commsource/easyeditor/entity/f;->a()F
 
     move-result p1
@@ -309,7 +281,6 @@
 
     if-nez p1, :cond_0
 
-    .line 2
     iget-object p1, p0, Lcom/commsource/easyeditor/widget/g0;->p:Lcom/commsource/beautyplus/f0/qe;
 
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/qe;->c:Landroid/view/View;
@@ -320,7 +291,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_0
     iget-object p1, p0, Lcom/commsource/easyeditor/widget/g0;->p:Lcom/commsource/beautyplus/f0/qe;
 
@@ -330,7 +300,6 @@
 
     invoke-virtual {p1, v1}, Landroid/view/View;->setVisibility(I)V
 
-    .line 4
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -357,12 +326,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0, p1, p2, p3}, Lcom/commsource/widget/h1/f;->k(ILcom/commsource/widget/h1/d;Ljava/util/List;)V
 
     if-eqz p3, :cond_2
 
-    .line 2
     invoke-interface {p3}, Ljava/util/List;->isEmpty()Z
 
     move-result v1
@@ -374,7 +341,6 @@
     :cond_0
     const-string v1, "start"
 
-    .line 3
     invoke-interface {p3, v1}, Ljava/util/List;->contains(Ljava/lang/Object;)Z
 
     move-result v1
@@ -383,13 +349,11 @@
 
     const/4 v1, 0x0
 
-    .line 4
     invoke-direct {p0, p1, v1}, Lcom/commsource/easyeditor/widget/g0;->v(IZ)V
 
     :cond_1
     const-string v1, "stop"
 
-    .line 5
     invoke-interface {p3, v1}, Ljava/util/List;->contains(Ljava/lang/Object;)Z
 
     move-result p3
@@ -398,12 +362,10 @@
 
     const/4 p3, 0x1
 
-    .line 6
     invoke-direct {p0, p1, p3}, Lcom/commsource/easyeditor/widget/g0;->v(IZ)V
 
     goto :goto_1
 
-    .line 7
     :cond_2
     :goto_0
     iget-object p3, p0, Lcom/commsource/easyeditor/widget/g0;->p:Lcom/commsource/beautyplus/f0/qe;
@@ -426,10 +388,8 @@
 
     invoke-virtual {p3, v1}, Landroid/widget/TextView;->setText(I)V
 
-    .line 8
     invoke-direct {p0, p1}, Lcom/commsource/easyeditor/widget/g0;->A(I)V
 
-    .line 9
     :cond_3
     :goto_1
     iget-object p1, p0, Lcom/commsource/easyeditor/widget/g0;->p:Lcom/commsource/beautyplus/f0/qe;
@@ -452,7 +412,6 @@
 
     invoke-virtual {p1, p3}, Landroid/widget/TextView;->setText(I)V
 
-    .line 10
     invoke-virtual {p2}, Lcom/commsource/widget/h1/d;->b()Ljava/lang/Object;
 
     move-result-object p1
@@ -461,7 +420,6 @@
 
     invoke-direct {p0, p1}, Lcom/commsource/easyeditor/widget/g0;->z(Lcom/commsource/easyeditor/entity/f;)V
 
-    .line 11
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

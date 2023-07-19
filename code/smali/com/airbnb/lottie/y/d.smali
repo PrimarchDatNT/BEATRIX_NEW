@@ -7,7 +7,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -39,7 +38,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-static {p0, p2, p1, p3, v0}, Lcom/airbnb/lottie/y/r;->a(Lcom/airbnb/lottie/parser/moshi/JsonReader;Lcom/airbnb/lottie/g;FLcom/airbnb/lottie/y/k0;Z)Ljava/util/List;
 
     move-result-object p0
@@ -74,7 +72,6 @@
 
     const/4 v1, 0x0
 
-    .line 1
     invoke-static {p0, p1, v0, p2, v1}, Lcom/airbnb/lottie/y/r;->a(Lcom/airbnb/lottie/parser/moshi/JsonReader;Lcom/airbnb/lottie/g;FLcom/airbnb/lottie/y/k0;Z)Ljava/util/List;
 
     move-result-object p0
@@ -90,7 +87,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/airbnb/lottie/model/i/a;
 
     sget-object v1, Lcom/airbnb/lottie/y/f;->a:Lcom/airbnb/lottie/y/f;
@@ -112,7 +108,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/airbnb/lottie/model/i/j;
 
     sget-object v1, Lcom/airbnb/lottie/y/h;->a:Lcom/airbnb/lottie/y/h;
@@ -136,7 +131,6 @@
 
     const/4 v0, 0x1
 
-    .line 1
     invoke-static {p0, p1, v0}, Lcom/airbnb/lottie/y/d;->f(Lcom/airbnb/lottie/parser/moshi/JsonReader;Lcom/airbnb/lottie/g;Z)Lcom/airbnb/lottie/model/i/b;
 
     move-result-object p0
@@ -152,12 +146,10 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/airbnb/lottie/model/i/b;
 
     if-eqz p2, :cond_0
 
-    .line 2
     invoke-static {}, Lcom/airbnb/lottie/z/h;->e()F
 
     move-result p2
@@ -187,14 +179,12 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/airbnb/lottie/model/i/c;
 
     new-instance v1, Lcom/airbnb/lottie/y/l;
 
     invoke-direct {v1, p2}, Lcom/airbnb/lottie/y/l;-><init>(I)V
 
-    .line 2
     invoke-static {p0, p1, v1}, Lcom/airbnb/lottie/y/d;->b(Lcom/airbnb/lottie/parser/moshi/JsonReader;Lcom/airbnb/lottie/g;Lcom/airbnb/lottie/y/k0;)Ljava/util/List;
 
     move-result-object p0
@@ -212,7 +202,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/airbnb/lottie/model/i/d;
 
     sget-object v1, Lcom/airbnb/lottie/y/o;->a:Lcom/airbnb/lottie/y/o;
@@ -234,7 +223,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/airbnb/lottie/model/i/f;
 
     invoke-static {}, Lcom/airbnb/lottie/z/h;->e()F
@@ -262,7 +250,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/airbnb/lottie/model/i/g;
 
     sget-object v1, Lcom/airbnb/lottie/y/d0;->a:Lcom/airbnb/lottie/y/d0;
@@ -284,10 +271,8 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/airbnb/lottie/model/i/h;
 
-    .line 2
     invoke-static {}, Lcom/airbnb/lottie/z/h;->e()F
 
     move-result v1

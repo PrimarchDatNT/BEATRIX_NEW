@@ -22,7 +22,6 @@
 .method private constructor <init>(Lcotlin/i2/o;D)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcotlin/i2/o;-><init>()V
 
     iput-object p1, p0, Lcotlin/i2/c;->a:Lcotlin/i2/o;
@@ -35,7 +34,6 @@
 .method public synthetic constructor <init>(Lcotlin/i2/o;DLcotlin/jvm/internal/u;)V
     .locals 0
 
-    .line 2
     invoke-direct {p0, p1, p2, p3}, Lcotlin/i2/c;-><init>(Lcotlin/i2/o;D)V
 
     return-void
@@ -46,7 +44,6 @@
 .method public a()D
     .locals 4
 
-    .line 1
     iget-object v0, p0, Lcotlin/i2/c;->a:Lcotlin/i2/o;
 
     invoke-virtual {v0}, Lcotlin/i2/o;->a()D
@@ -67,7 +64,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     new-instance v0, Lcotlin/i2/c;
 
     iget-object v1, p0, Lcotlin/i2/c;->a:Lcotlin/i2/o;
@@ -88,7 +84,6 @@
 .method public final f()D
     .locals 2
 
-    .line 1
     iget-wide v0, p0, Lcotlin/i2/c;->b:D
 
     return-wide v0
@@ -99,7 +94,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcotlin/i2/c;->a:Lcotlin/i2/o;
 
     return-object v0

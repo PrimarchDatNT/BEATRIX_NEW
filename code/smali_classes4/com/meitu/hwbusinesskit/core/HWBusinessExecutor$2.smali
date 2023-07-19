@@ -31,7 +31,6 @@
 .method constructor <init>(Lcom/meitu/hwbusinesskit/core/HWBusinessExecutor;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/hwbusinesskit/core/HWBusinessExecutor$2;->this$0:Lcom/meitu/hwbusinesskit/core/HWBusinessExecutor;
 
     invoke-direct {p0}, Lcom/google/gson/reflect/TypeToken;-><init>()V

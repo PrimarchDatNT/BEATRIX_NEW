@@ -21,7 +21,6 @@
 .method constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -32,7 +31,6 @@
 .method public final synthetic createFromParcel(Landroid/os/Parcel;)Ljava/lang/Object;
     .locals 1
 
-    .line 1
     new-instance v0, Lcom/google/android/gms/internal/ads/zzpt;
 
     invoke-direct {v0, p1}, Lcom/google/android/gms/internal/ads/zzpt;-><init>(Landroid/os/Parcel;)V

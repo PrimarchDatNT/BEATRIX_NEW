@@ -41,7 +41,6 @@
 
     const/high16 v1, 0x3f800000    # 1.0f
 
-    .line 1
     invoke-static {v1}, Lcom/meitu/library/p/f/i;->d(F)I
 
     move-result v1
@@ -50,7 +49,6 @@
 
     const/high16 v1, 0x3f000000    # 0.5f
 
-    .line 2
     invoke-static {v1}, Lcom/meitu/library/p/f/i;->d(F)I
 
     move-result v1
@@ -67,7 +65,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-direct {p0, p1, v0}, Lcom/commsource/easyeditor/widget/EasyEditorGuideView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
     return-void
@@ -82,7 +79,6 @@
 
     const/4 v0, 0x0
 
-    .line 2
     invoke-direct {p0, p1, p2, v0}, Lcom/commsource/easyeditor/widget/EasyEditorGuideView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
     return-void
@@ -95,24 +91,20 @@
         .end annotation
     .end param
 
-    .line 3
     invoke-direct {p0, p1, p2, p3}, Landroid/widget/ImageView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
-    .line 4
     new-instance p1, Landroid/graphics/RectF;
 
     invoke-direct {p1}, Landroid/graphics/RectF;-><init>()V
 
     iput-object p1, p0, Lcom/commsource/easyeditor/widget/EasyEditorGuideView;->c:Landroid/graphics/RectF;
 
-    .line 5
     new-instance p1, Landroid/graphics/RectF;
 
     invoke-direct {p1}, Landroid/graphics/RectF;-><init>()V
 
     iput-object p1, p0, Lcom/commsource/easyeditor/widget/EasyEditorGuideView;->d:Landroid/graphics/RectF;
 
-    .line 6
     new-instance p1, Landroid/graphics/Paint;
 
     const/4 p2, 0x1
@@ -121,48 +113,40 @@
 
     iput-object p1, p0, Lcom/commsource/easyeditor/widget/EasyEditorGuideView;->f:Landroid/graphics/Paint;
 
-    .line 7
     new-instance p1, Landroid/graphics/Paint;
 
     invoke-direct {p1, p2}, Landroid/graphics/Paint;-><init>(I)V
 
     iput-object p1, p0, Lcom/commsource/easyeditor/widget/EasyEditorGuideView;->g:Landroid/graphics/Paint;
 
-    .line 8
     iput-boolean p2, p0, Lcom/commsource/easyeditor/widget/EasyEditorGuideView;->p:Z
 
-    .line 9
     iput-boolean p2, p0, Lcom/commsource/easyeditor/widget/EasyEditorGuideView;->J:Z
 
-    .line 10
     new-instance p1, Landroid/os/Handler;
 
     invoke-direct {p1}, Landroid/os/Handler;-><init>()V
 
     iput-object p1, p0, Lcom/commsource/easyeditor/widget/EasyEditorGuideView;->K:Landroid/os/Handler;
 
-    .line 11
     new-instance p1, Lcom/commsource/easyeditor/widget/i;
 
     invoke-direct {p1, p0}, Lcom/commsource/easyeditor/widget/i;-><init>(Lcom/commsource/easyeditor/widget/EasyEditorGuideView;)V
 
     iput-object p1, p0, Lcom/commsource/easyeditor/widget/EasyEditorGuideView;->L:Ljava/lang/Runnable;
 
-    .line 12
     iget-object p1, p0, Lcom/commsource/easyeditor/widget/EasyEditorGuideView;->f:Landroid/graphics/Paint;
 
     const/4 p2, -0x1
 
     invoke-virtual {p1, p2}, Landroid/graphics/Paint;->setColor(I)V
 
-    .line 13
     iget-object p1, p0, Lcom/commsource/easyeditor/widget/EasyEditorGuideView;->f:Landroid/graphics/Paint;
 
     sget-object p2, Landroid/graphics/Paint$Style;->STROKE:Landroid/graphics/Paint$Style;
 
     invoke-virtual {p1, p2}, Landroid/graphics/Paint;->setStyle(Landroid/graphics/Paint$Style;)V
 
-    .line 14
     iget-object p1, p0, Lcom/commsource/easyeditor/widget/EasyEditorGuideView;->f:Landroid/graphics/Paint;
 
     sget p2, Lcom/commsource/easyeditor/widget/EasyEditorGuideView;->M:I
@@ -171,21 +155,18 @@
 
     invoke-virtual {p1, p2}, Landroid/graphics/Paint;->setStrokeWidth(F)V
 
-    .line 15
     iget-object p1, p0, Lcom/commsource/easyeditor/widget/EasyEditorGuideView;->g:Landroid/graphics/Paint;
 
     const/high16 p2, -0x80000000
 
     invoke-virtual {p1, p2}, Landroid/graphics/Paint;->setColor(I)V
 
-    .line 16
     iget-object p1, p0, Lcom/commsource/easyeditor/widget/EasyEditorGuideView;->g:Landroid/graphics/Paint;
 
     sget-object p2, Landroid/graphics/Paint$Style;->STROKE:Landroid/graphics/Paint$Style;
 
     invoke-virtual {p1, p2}, Landroid/graphics/Paint;->setStyle(Landroid/graphics/Paint$Style;)V
 
-    .line 17
     iget-object p1, p0, Lcom/commsource/easyeditor/widget/EasyEditorGuideView;->g:Landroid/graphics/Paint;
 
     sget p2, Lcom/commsource/easyeditor/widget/EasyEditorGuideView;->N:I
@@ -196,12 +177,10 @@
 
     const/high16 p1, 0x3f000000    # 0.5f
 
-    .line 18
     invoke-static {p1}, Lcom/meitu/library/p/f/i;->d(F)I
 
     move-result p1
 
-    .line 19
     invoke-virtual {p0, p1, p1, p1, p1}, Landroid/widget/ImageView;->setPadding(IIII)V
 
     return-void
@@ -216,13 +195,10 @@
 
     const/4 v1, 0x0
 
-    .line 1
     iput-boolean v1, p0, Lcom/commsource/easyeditor/widget/EasyEditorGuideView;->J:Z
 
-    .line 2
     invoke-virtual {p0}, Landroid/widget/ImageView;->invalidate()V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -239,24 +215,20 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/easyeditor/widget/EasyEditorGuideView;->J:Z
 
     if-eqz v1, :cond_0
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/easyeditor/widget/EasyEditorGuideView;->K:Landroid/os/Handler;
 
     const/4 v2, 0x0
 
     invoke-virtual {v1, v2}, Landroid/os/Handler;->removeCallbacksAndMessages(Ljava/lang/Object;)V
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/easyeditor/widget/EasyEditorGuideView;->L:Ljava/lang/Runnable;
 
     invoke-interface {v1}, Ljava/lang/Runnable;->run()V
 
-    .line 4
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -280,10 +252,8 @@
 
     const/4 v1, 0x0
 
-    .line 1
     invoke-virtual {p0, p1, v1}, Lcom/commsource/easyeditor/widget/EasyEditorGuideView;->e([FZ)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -300,7 +270,6 @@
 
     invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v2, v0, Lcom/commsource/easyeditor/widget/EasyEditorGuideView;->b:[F
 
     if-eqz v2, :cond_2
@@ -328,7 +297,6 @@
 
     new-array v7, v2, [F
 
-    .line 2
     iget-object v3, v0, Lcom/commsource/easyeditor/widget/EasyEditorGuideView;->b:[F
 
     const/4 v9, 0x0
@@ -359,7 +327,6 @@
 
     const/4 v6, 0x6
 
-    .line 3
     aget v6, v3, v6
 
     aput v6, v15, v9
@@ -388,7 +355,6 @@
 
     move-object/from16 v5, p1
 
-    .line 4
     invoke-static/range {v3 .. v8}, Landroid/opengl/Matrix;->multiplyMV([FI[FI[FI)V
 
     const/4 v3, 0x0
@@ -409,10 +375,8 @@
 
     move-object/from16 v17, v3
 
-    .line 5
     invoke-static/range {v13 .. v18}, Landroid/opengl/Matrix;->multiplyMV([FI[FI[FI)V
 
-    .line 6
     aget v3, p1, v9
 
     cmpg-float v3, v3, v12
@@ -421,30 +385,25 @@
 
     if-nez p2, :cond_1
 
-    .line 7
     iput-boolean v10, v0, Lcom/commsource/easyeditor/widget/EasyEditorGuideView;->p:Z
 
     goto/16 :goto_0
 
-    .line 8
     :cond_1
     iput-boolean v9, v0, Lcom/commsource/easyeditor/widget/EasyEditorGuideView;->p:Z
 
-    .line 9
     aget v3, v2, v9
 
     aget v5, v4, v9
 
     sub-float/2addr v3, v5
 
-    .line 10
     aget v5, v2, v10
 
     aget v6, v4, v10
 
     sub-float/2addr v5, v6
 
-    .line 11
     iget-object v6, v0, Lcom/commsource/easyeditor/widget/EasyEditorGuideView;->c:Landroid/graphics/RectF;
 
     aget v7, v4, v9
@@ -475,7 +434,6 @@
 
     iput v7, v6, Landroid/graphics/RectF;->left:F
 
-    .line 12
     iget-object v6, v0, Lcom/commsource/easyeditor/widget/EasyEditorGuideView;->c:Landroid/graphics/RectF;
 
     aget v7, v2, v10
@@ -504,7 +462,6 @@
 
     iput v7, v6, Landroid/graphics/RectF;->top:F
 
-    .line 13
     iget-object v6, v0, Lcom/commsource/easyeditor/widget/EasyEditorGuideView;->c:Landroid/graphics/RectF;
 
     aget v4, v4, v9
@@ -537,7 +494,6 @@
 
     iput v3, v6, Landroid/graphics/RectF;->right:F
 
-    .line 14
     iget-object v3, v0, Lcom/commsource/easyeditor/widget/EasyEditorGuideView;->c:Landroid/graphics/RectF;
 
     aget v2, v2, v10
@@ -548,7 +504,6 @@
 
     div-float/2addr v2, v5
 
-    .line 15
     invoke-static {v12, v2}, Ljava/lang/Math;->min(FF)F
 
     move-result v2
@@ -569,7 +524,6 @@
 
     iput v2, v3, Landroid/graphics/RectF;->bottom:F
 
-    .line 16
     iget-object v2, v0, Lcom/commsource/easyeditor/widget/EasyEditorGuideView;->c:Landroid/graphics/RectF;
 
     sget v3, Lcom/commsource/easyeditor/widget/EasyEditorGuideView;->M:I
@@ -594,14 +548,12 @@
 
     invoke-virtual {v2, v5, v3}, Landroid/graphics/RectF;->inset(FF)V
 
-    .line 17
     iget-object v2, v0, Lcom/commsource/easyeditor/widget/EasyEditorGuideView;->K:Landroid/os/Handler;
 
     const/4 v3, 0x0
 
     invoke-virtual {v2, v3}, Landroid/os/Handler;->removeCallbacksAndMessages(Ljava/lang/Object;)V
 
-    .line 18
     iget-object v2, v0, Lcom/commsource/easyeditor/widget/EasyEditorGuideView;->K:Landroid/os/Handler;
 
     iget-object v3, v0, Lcom/commsource/easyeditor/widget/EasyEditorGuideView;->L:Ljava/lang/Runnable;
@@ -610,16 +562,13 @@
 
     invoke-virtual {v2, v3, v4, v5}, Landroid/os/Handler;->postDelayed(Ljava/lang/Runnable;J)Z
 
-    .line 19
     :goto_0
     invoke-virtual/range {p0 .. p0}, Landroid/widget/ImageView;->invalidate()V
 
-    .line 20
     invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 21
     :cond_2
     :goto_1
     invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -636,20 +585,16 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/easyeditor/widget/EasyEditorGuideView;->J:Z
 
     if-nez v1, :cond_0
 
     const/4 v1, 0x1
 
-    .line 2
     iput-boolean v1, p0, Lcom/commsource/easyeditor/widget/EasyEditorGuideView;->J:Z
 
-    .line 3
     invoke-virtual {p0}, Landroid/widget/ImageView;->invalidate()V
 
-    .line 4
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -663,7 +608,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/easyeditor/widget/EasyEditorGuideView;->a:Landroid/graphics/Bitmap;
 
     invoke-static {v1}, Lcom/meitu/library/p/e/a;->z(Landroid/graphics/Bitmap;)Z
@@ -682,18 +626,15 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     invoke-super {p0, p1}, Landroid/widget/ImageView;->onDraw(Landroid/graphics/Canvas;)V
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/easyeditor/widget/EasyEditorGuideView;->c:Landroid/graphics/RectF;
 
     iget-object v2, p0, Lcom/commsource/easyeditor/widget/EasyEditorGuideView;->f:Landroid/graphics/Paint;
 
     invoke-virtual {p1, v1, v2}, Landroid/graphics/Canvas;->drawRect(Landroid/graphics/RectF;Landroid/graphics/Paint;)V
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/easyeditor/widget/EasyEditorGuideView;->d:Landroid/graphics/RectF;
 
     iget v2, v1, Landroid/graphics/RectF;->left:F
@@ -738,12 +679,10 @@
 
     invoke-virtual/range {v6 .. v11}, Landroid/graphics/Canvas;->drawRect(FFFFLandroid/graphics/Paint;)V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 6
     :cond_1
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -758,10 +697,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/easyeditor/widget/EasyEditorGuideView;->b:[F
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -776,7 +713,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Landroid/widget/ImageView;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
 
     move-result-object v1
@@ -795,7 +731,6 @@
 
     iput-object p1, p0, Lcom/commsource/easyeditor/widget/EasyEditorGuideView;->a:Landroid/graphics/Bitmap;
 
-    .line 2
     invoke-virtual {p0}, Landroid/widget/ImageView;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
 
     move-result-object p1
@@ -814,7 +749,6 @@
 
     div-float/2addr p1, v1
 
-    .line 3
     invoke-virtual {p0}, Landroid/widget/ImageView;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
 
     move-result-object v1
@@ -833,12 +767,10 @@
 
     div-float/2addr v1, v2
 
-    .line 4
     invoke-static {p1, v1}, Ljava/lang/Math;->min(FF)F
 
     move-result p1
 
-    .line 5
     iget-object v1, p0, Lcom/commsource/easyeditor/widget/EasyEditorGuideView;->d:Landroid/graphics/RectF;
 
     invoke-virtual {p0}, Landroid/widget/ImageView;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
@@ -867,7 +799,6 @@
 
     iput v2, v1, Landroid/graphics/RectF;->left:F
 
-    .line 6
     iget-object v1, p0, Lcom/commsource/easyeditor/widget/EasyEditorGuideView;->d:Landroid/graphics/RectF;
 
     iget-object v2, p0, Lcom/commsource/easyeditor/widget/EasyEditorGuideView;->a:Landroid/graphics/Bitmap;
@@ -888,7 +819,6 @@
 
     iput v2, v1, Landroid/graphics/RectF;->right:F
 
-    .line 7
     invoke-virtual {p0}, Landroid/widget/ImageView;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
 
     move-result-object v1
@@ -913,7 +843,6 @@
 
     iput v1, v4, Landroid/graphics/RectF;->top:F
 
-    .line 8
     iget-object v1, p0, Lcom/commsource/easyeditor/widget/EasyEditorGuideView;->d:Landroid/graphics/RectF;
 
     iget-object v2, p0, Lcom/commsource/easyeditor/widget/EasyEditorGuideView;->a:Landroid/graphics/Bitmap;
@@ -934,15 +863,12 @@
 
     iput v2, v1, Landroid/graphics/RectF;->bottom:F
 
-    .line 9
     iget-object p1, p0, Lcom/commsource/easyeditor/widget/EasyEditorGuideView;->a:Landroid/graphics/Bitmap;
 
     invoke-virtual {p0, p1}, Landroid/widget/ImageView;->setImageBitmap(Landroid/graphics/Bitmap;)V
 
-    .line 10
     invoke-virtual {p0}, Landroid/widget/ImageView;->requestLayout()V
 
-    .line 11
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

@@ -20,7 +20,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-direct {p0, v0}, Lcom/meitu/library/analytics/y/e/b/f$c;-><init>(Lcom/meitu/library/analytics/y/e/b/f$a;)V
 
     return-void
@@ -35,7 +34,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/lang/String;
 
     invoke-static {}, Lcom/meitu/library/analytics/y/e/b/f;->a()Ljava/nio/charset/Charset;
@@ -58,7 +56,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/meitu/library/analytics/y/e/b/f;->a()Ljava/nio/charset/Charset;
 
     move-result-object v1

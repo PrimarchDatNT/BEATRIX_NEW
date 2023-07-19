@@ -27,7 +27,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -50,7 +49,6 @@
 .method public d(Lio/grpc/z0$f;)V
     .locals 0
 
-    .line 1
     invoke-virtual {p0, p1}, Lio/grpc/z0;->e(Lio/grpc/z0$g;)V
 
     return-void
@@ -59,19 +57,16 @@
 .method public e(Lio/grpc/z0$g;)V
     .locals 1
 
-    .line 1
     instance-of v0, p1, Lio/grpc/z0$f;
 
     if-eqz v0, :cond_0
 
-    .line 2
     check-cast p1, Lio/grpc/z0$f;
 
     invoke-virtual {p0, p1}, Lio/grpc/z0;->d(Lio/grpc/z0$f;)V
 
     goto :goto_0
 
-    .line 3
     :cond_0
     new-instance v0, Lio/grpc/z0$a;
 

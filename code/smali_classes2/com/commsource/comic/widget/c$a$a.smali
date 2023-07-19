@@ -27,7 +27,6 @@
 .method constructor <init>(Lcom/commsource/comic/widget/c$a;I)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/comic/widget/c$a$a;->b:Lcom/commsource/comic/widget/c$a;
 
     iput p2, p0, Lcom/commsource/comic/widget/c$a$a;->a:I
@@ -46,7 +45,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/comic/widget/c$a$a;->b:Lcom/commsource/comic/widget/c$a;
 
     iget-object v1, v1, Lcom/commsource/comic/widget/c$a;->g:Lcom/commsource/comic/widget/c;
@@ -55,7 +53,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/comic/widget/c;->n(I)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

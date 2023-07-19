@@ -15,18 +15,14 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/camera/newrender/renderproxy/v/v;-><init>()V
 
     const/4 v0, 0x0
 
-    .line 2
     iput-boolean v0, p0, Lcom/commsource/camera/newrender/renderproxy/v/g0;->b:Z
 
-    .line 3
     iput-boolean v0, p0, Lcom/commsource/camera/newrender/renderproxy/v/g0;->c:Z
 
-    .line 4
     iput-boolean v0, p0, Lcom/commsource/camera/newrender/renderproxy/v/g0;->d:Z
 
     return-void
@@ -39,7 +35,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/camera/newrender/renderproxy/v/v;->g()Lcom/commsource/camera/newrender/renderproxy/m;
 
     move-result-object v1
@@ -50,7 +45,6 @@
 
     if-nez v1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -58,12 +52,10 @@
     :cond_0
     if-eqz p1, :cond_1
 
-    .line 3
     iget-boolean p1, p0, Lcom/commsource/camera/newrender/renderproxy/v/g0;->b:Z
 
     if-eqz p1, :cond_1
 
-    .line 4
     invoke-virtual {p0}, Lcom/commsource/camera/newrender/renderproxy/v/v;->g()Lcom/commsource/camera/newrender/renderproxy/m;
 
     move-result-object p1
@@ -78,7 +70,6 @@
 
     goto :goto_0
 
-    .line 5
     :cond_1
     invoke-virtual {p0}, Lcom/commsource/camera/newrender/renderproxy/v/v;->g()Lcom/commsource/camera/newrender/renderproxy/m;
 
@@ -92,7 +83,6 @@
 
     invoke-virtual {p1, v1}, Lcom/meitu/mtlab/arkernelinterface/core/ARKernelInterfaceJNI;->setMusicVolume(F)V
 
-    .line 6
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -127,12 +117,10 @@
 
     const/4 v1, 0x0
 
-    .line 1
     iput-boolean v1, p0, Lcom/commsource/camera/newrender/renderproxy/v/g0;->d:Z
 
     if-eqz p1, :cond_4
 
-    .line 2
     invoke-virtual {p1}, Ljava/util/HashMap;->values()Ljava/util/Collection;
 
     move-result-object p1
@@ -155,7 +143,6 @@
 
     check-cast v1, Lcom/commsource/camera/param/MakeupParam;
 
-    .line 3
     invoke-virtual {v1}, Lcom/commsource/camera/param/MakeupParam;->getSoundEffect()Z
 
     move-result v1
@@ -164,22 +151,18 @@
 
     const/4 v1, 0x1
 
-    .line 4
     iput-boolean v1, p0, Lcom/commsource/camera/newrender/renderproxy/v/g0;->d:Z
 
-    .line 5
     iget-boolean v1, p0, Lcom/commsource/camera/newrender/renderproxy/v/g0;->b:Z
 
     if-nez v1, :cond_1
 
-    .line 6
     invoke-static {}, Lcom/meitu/mtlab/arkernelinterface/core/ARKernelGlobalInterfaceJNI;->startSoundService()Z
 
     move-result v1
 
     iput-boolean v1, p0, Lcom/commsource/camera/newrender/renderproxy/v/g0;->b:Z
 
-    .line 7
     :cond_1
     invoke-static {}, Landroid/os/Looper;->getMainLooper()Landroid/os/Looper;
 
@@ -195,7 +178,6 @@
 
     if-ne v1, v2, :cond_2
 
-    .line 8
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -222,7 +204,6 @@
 
     goto :goto_1
 
-    .line 9
     :cond_2
     new-instance v1, Ljava/lang/StringBuilder;
 
@@ -248,7 +229,6 @@
 
     invoke-static {v4, v1}, Lcom/meitu/library/util/Debug/Debug;->z(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 10
     :goto_1
     invoke-virtual {p0}, Lcom/commsource/camera/newrender/renderproxy/v/v;->g()Lcom/commsource/camera/newrender/renderproxy/m;
 
@@ -262,10 +242,8 @@
 
     iget-boolean v3, p0, Lcom/commsource/camera/newrender/renderproxy/v/g0;->b:Z
 
-    .line 11
     invoke-virtual {v1, v2, v3}, Lcom/meitu/mtlab/arkernelinterface/core/ARKernelInterfaceJNI;->setOption(IZ)V
 
-    .line 12
     invoke-virtual {p0}, Lcom/commsource/camera/newrender/renderproxy/v/v;->g()Lcom/commsource/camera/newrender/renderproxy/m;
 
     move-result-object v1
@@ -289,13 +267,11 @@
     :cond_3
     const/4 v2, 0x0
 
-    .line 13
     :goto_2
     invoke-virtual {v1, v2}, Lcom/meitu/mtlab/arkernelinterface/core/ARKernelInterfaceJNI;->setMusicVolume(F)V
 
     goto/16 :goto_0
 
-    .line 14
     :cond_4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -309,7 +285,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/camera/newrender/renderproxy/v/v;->g()Lcom/commsource/camera/newrender/renderproxy/m;
 
     move-result-object v1
@@ -320,10 +295,8 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/camera/newrender/renderproxy/n;->m(Ljava/lang/Runnable;)V
 
-    .line 2
     iput-boolean p1, p0, Lcom/commsource/camera/newrender/renderproxy/v/g0;->c:Z
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -336,7 +309,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/camera/newrender/renderproxy/v/v;->g()Lcom/commsource/camera/newrender/renderproxy/m;
 
     move-result-object v1
@@ -347,23 +319,19 @@
 
     if-nez v1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 3
     :cond_0
     iget-boolean v1, p0, Lcom/commsource/camera/newrender/renderproxy/v/g0;->b:Z
 
     and-int/2addr p1, v1
 
-    .line 4
     iget-boolean v1, p0, Lcom/commsource/camera/newrender/renderproxy/v/g0;->c:Z
 
     and-int/2addr p1, v1
 
-    .line 5
     invoke-static {}, Landroid/os/Looper;->getMainLooper()Landroid/os/Looper;
 
     move-result-object v1
@@ -376,7 +344,6 @@
 
     if-ne v1, v2, :cond_1
 
-    .line 6
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -395,7 +362,6 @@
 
     goto :goto_0
 
-    .line 7
     :cond_1
     new-instance v1, Ljava/lang/StringBuilder;
 
@@ -413,7 +379,6 @@
 
     invoke-static {v3, v1}, Lcom/meitu/library/util/Debug/Debug;->z(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 8
     :goto_0
     invoke-virtual {p0}, Lcom/commsource/camera/newrender/renderproxy/v/v;->g()Lcom/commsource/camera/newrender/renderproxy/m;
 
@@ -425,10 +390,8 @@
 
     const/4 v2, 0x3
 
-    .line 9
     invoke-virtual {v1, v2, p1}, Lcom/meitu/mtlab/arkernelinterface/core/ARKernelInterfaceJNI;->setOption(IZ)V
 
-    .line 10
     invoke-virtual {p0}, Lcom/commsource/camera/newrender/renderproxy/v/v;->g()Lcom/commsource/camera/newrender/renderproxy/m;
 
     move-result-object v1
@@ -449,7 +412,6 @@
     :goto_1
     invoke-virtual {v1, p1}, Lcom/meitu/mtlab/arkernelinterface/core/ARKernelInterfaceJNI;->setMusicVolume(F)V
 
-    .line 11
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -477,7 +439,6 @@
 
     if-eqz p1, :cond_3
 
-    .line 1
     invoke-interface {p1}, Ljava/util/Map;->isEmpty()Z
 
     move-result v1
@@ -486,7 +447,6 @@
 
     goto :goto_1
 
-    .line 2
     :cond_0
     invoke-interface {p1}, Ljava/util/Map;->values()Ljava/util/Collection;
 
@@ -510,7 +470,6 @@
 
     check-cast v1, Lcom/meitu/mtlab/arkernelinterface/core/ARKernelPlistDataInterfaceJNI;
 
-    .line 3
     invoke-virtual {v1}, Lcom/meitu/mtlab/arkernelinterface/core/ARKernelPlistDataInterfaceJNI;->hasBGM()Z
 
     move-result v2
@@ -525,18 +484,15 @@
 
     if-eqz v2, :cond_1
 
-    .line 4
     invoke-virtual {v1}, Lcom/meitu/mtlab/arkernelinterface/core/ARKernelPlistDataInterfaceJNI;->playBGM()V
 
     goto :goto_0
 
-    .line 5
     :cond_2
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v0
 
-    .line 6
     :cond_3
     :goto_1
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -551,23 +507,18 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0}, Lcom/commsource/camera/newrender/renderproxy/v/v;->z0()V
 
-    .line 2
     iget-boolean v1, p0, Lcom/commsource/camera/newrender/renderproxy/v/g0;->b:Z
 
     if-eqz v1, :cond_0
 
-    .line 3
     invoke-static {}, Lcom/meitu/mtlab/arkernelinterface/core/ARKernelGlobalInterfaceJNI;->stopSoundService()V
 
     const/4 v1, 0x0
 
-    .line 4
     iput-boolean v1, p0, Lcom/commsource/camera/newrender/renderproxy/v/g0;->b:Z
 
-    .line 5
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

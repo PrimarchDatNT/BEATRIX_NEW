@@ -56,17 +56,14 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-direct {p0, p1}, Landroidx/lifecycle/AndroidViewModel;-><init>(Landroid/app/Application;)V
 
-    .line 2
     new-instance p1, Landroidx/lifecycle/MutableLiveData;
 
     invoke-direct {p1}, Landroidx/lifecycle/MutableLiveData;-><init>()V
 
     iput-object p1, p0, Lcom/commsource/studio/function/MaskFragment$b;->a:Landroidx/lifecycle/MutableLiveData;
 
-    .line 3
     new-instance v0, Lcom/commsource/camera/xcamera/cover/e;
 
     invoke-direct {v0}, Lcom/commsource/camera/xcamera/cover/e;-><init>()V
@@ -77,7 +74,6 @@
 
     new-array v0, v0, [Lcom/commsource/studio/i0;
 
-    .line 4
     new-instance v1, Lcom/commsource/studio/i0;
 
     sget v2, Lcom/res/provider/ResDRAWABLE;->edit_img_trim_shape_rectangle:I
@@ -92,7 +88,6 @@
 
     aput-object v1, v0, v2
 
-    .line 5
     new-instance v1, Lcom/commsource/studio/i0;
 
     sget v2, Lcom/res/provider/ResDRAWABLE;->edit_img_trim_shape_triangle:I
@@ -107,7 +102,6 @@
 
     aput-object v1, v0, v2
 
-    .line 6
     new-instance v1, Lcom/commsource/studio/i0;
 
     sget v2, Lcom/res/provider/ResDRAWABLE;->edit_img_trim_shape_heart:I
@@ -122,7 +116,6 @@
 
     aput-object v1, v0, v2
 
-    .line 7
     new-instance v1, Lcom/commsource/studio/i0;
 
     sget v2, Lcom/res/provider/ResDRAWABLE;->edit_img_trim_shape_oval:I
@@ -137,12 +130,10 @@
 
     aput-object v1, v0, v2
 
-    .line 8
     invoke-static {v0}, Lcotlin/collections/s;->r([Ljava/lang/Object;)Ljava/util/ArrayList;
 
     move-result-object v0
 
-    .line 9
     invoke-virtual {p1, v0}, Landroidx/lifecycle/MutableLiveData;->postValue(Ljava/lang/Object;)V
 
     return-void
@@ -168,7 +159,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/function/MaskFragment$b;->b:Lcom/commsource/camera/xcamera/cover/e;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -195,7 +185,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/function/MaskFragment$b;->a:Landroidx/lifecycle/MutableLiveData;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

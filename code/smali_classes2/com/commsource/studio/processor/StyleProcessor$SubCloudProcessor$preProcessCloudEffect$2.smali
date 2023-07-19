@@ -51,7 +51,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     const-class v1, Lcom/meitu/http/api/OpenLabApi;
 
     invoke-static {v1}, Lf/k/k/s;->n(Ljava/lang/Class;)Ljava/lang/Object;
@@ -60,50 +59,40 @@
 
     check-cast v1, Lcom/meitu/http/api/OpenLabApi;
 
-    .line 2
     new-instance v2, Lcom/meitu/http/api/OpenLabApi$b;
 
     invoke-direct {v2}, Lcom/meitu/http/api/OpenLabApi$b;-><init>()V
 
-    .line 3
     iget-object v3, p0, Lcom/commsource/studio/processor/StyleProcessor$SubCloudProcessor$preProcessCloudEffect$2;->b:Landroid/graphics/Bitmap;
 
     invoke-virtual {v2, v3}, Lcom/meitu/http/api/OpenLabApi$b;->i(Landroid/graphics/Bitmap;)V
 
     const-string v3, "https://openapi.mtlab.meitu.com/v1/mtanime"
 
-    .line 4
     invoke-virtual {v2, v3}, Lcom/meitu/http/api/OpenLabApi$b;->j(Ljava/lang/String;)V
 
     const-string v3, "e87c7aad84b94189ad3f71c78ef8b76f"
 
-    .line 5
     invoke-virtual {v2, v3}, Lcom/meitu/http/api/OpenLabApi$b;->h(Ljava/lang/String;)V
 
     const-string v3, "ceb894f6ed594dd5be3ee75d6c7a6d5b"
 
-    .line 6
     invoke-virtual {v2, v3}, Lcom/meitu/http/api/OpenLabApi$b;->k(Ljava/lang/String;)V
 
     const-string v3, "137533"
 
-    .line 7
     invoke-virtual {v2, v3}, Lcom/meitu/http/api/OpenLabApi$b;->g(Ljava/lang/String;)V
 
     const/4 v3, 0x1
 
-    .line 8
     invoke-virtual {v2, v3}, Lcom/meitu/http/api/OpenLabApi$b;->l(Z)V
 
-    .line 9
     new-instance v3, Lcom/commsource/studio/processor/StyleProcessor$SubCloudProcessor$preProcessCloudEffect$2$2;
 
     invoke-direct {v3, p0}, Lcom/commsource/studio/processor/StyleProcessor$SubCloudProcessor$preProcessCloudEffect$2$2;-><init>(Lcom/commsource/studio/processor/StyleProcessor$SubCloudProcessor$preProcessCloudEffect$2;)V
 
-    .line 10
     invoke-virtual {v1, v2, v3}, Lcom/meitu/http/api/OpenLabApi;->a(Lcom/meitu/http/api/OpenLabApi$b;Lf/k/k/p;)Lf/k/k/d;
 
-    .line 11
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

@@ -37,7 +37,6 @@
 .method public constructor <init>(Lcotlin/jvm/u/a;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcotlin/collections/u$a;->a:Lcotlin/jvm/u/a;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -60,7 +59,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcotlin/collections/u$a;->a:Lcotlin/jvm/u/a;
 
     invoke-interface {v0}, Lcotlin/jvm/u/a;->invoke()Ljava/lang/Object;

@@ -54,7 +54,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/studio/function/ar/ArProcessor$cancelArMaterial$1;->invoke()V
 
     sget-object v1, Lcotlin/t1;->a:Lcotlin/t1;
@@ -71,14 +70,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 2
     invoke-static {}, Lcom/commsource/beautyplus/g0/b;->g()Lcom/commsource/beautyplus/g0/b;
 
     move-result-object v1
 
     invoke-virtual {v1}, Lcom/commsource/beautyplus/g0/b;->k()V
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/studio/function/ar/ArProcessor$cancelArMaterial$1;->this$0:Lcom/commsource/studio/function/ar/ArProcessor;
 
     invoke-virtual {v1}, Lcom/commsource/studio/function/ar/ArProcessor;->O()Lcom/commsource/camera/newrender/renderproxy/m;
@@ -89,7 +86,6 @@
 
     move-result-object v1
 
-    .line 4
     new-instance v2, Ljava/util/HashMap;
 
     invoke-direct {v2}, Ljava/util/HashMap;-><init>()V
@@ -98,10 +94,8 @@
 
     move-result-object v1
 
-    .line 5
     invoke-virtual {v1}, Lcom/commsource/camera/newrender/renderproxy/m$a;->b()V
 
-    .line 6
     iget-object v1, p0, Lcom/commsource/studio/function/ar/ArProcessor$cancelArMaterial$1;->this$0:Lcom/commsource/studio/function/ar/ArProcessor;
 
     invoke-virtual {v1}, Lcom/commsource/studio/function/ar/ArProcessor;->R()Lcom/commsource/camera/newrender/renderproxy/r;
@@ -114,14 +108,12 @@
 
     invoke-virtual {v1, v2, v3}, Lcom/commsource/camera/newrender/renderproxy/r;->M(Lcom/meitu/template/bean/Filter;I)V
 
-    .line 7
     iget-object v1, p0, Lcom/commsource/studio/function/ar/ArProcessor$cancelArMaterial$1;->this$0:Lcom/commsource/studio/function/ar/ArProcessor;
 
     const/4 v4, 0x3
 
     invoke-static {v1, v3, v2, v4, v2}, Lcom/commsource/studio/processor/BaseEffectProcessor;->z(Lcom/commsource/studio/processor/BaseEffectProcessor;ZLcotlin/jvm/u/a;ILjava/lang/Object;)V
 
-    .line 8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

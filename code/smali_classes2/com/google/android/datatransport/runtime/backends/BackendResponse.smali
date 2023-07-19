@@ -18,7 +18,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -27,7 +26,6 @@
 .method public static a()Lcom/google/android/datatransport/runtime/backends/BackendResponse;
     .locals 4
 
-    .line 1
     new-instance v0, Lcom/google/android/datatransport/runtime/backends/b;
 
     sget-object v1, Lcom/google/android/datatransport/runtime/backends/BackendResponse$Status;->FATAL_ERROR:Lcom/google/android/datatransport/runtime/backends/BackendResponse$Status;
@@ -42,7 +40,6 @@
 .method public static d(J)Lcom/google/android/datatransport/runtime/backends/BackendResponse;
     .locals 2
 
-    .line 1
     new-instance v0, Lcom/google/android/datatransport/runtime/backends/b;
 
     sget-object v1, Lcom/google/android/datatransport/runtime/backends/BackendResponse$Status;->OK:Lcom/google/android/datatransport/runtime/backends/BackendResponse$Status;
@@ -55,7 +52,6 @@
 .method public static e()Lcom/google/android/datatransport/runtime/backends/BackendResponse;
     .locals 4
 
-    .line 1
     new-instance v0, Lcom/google/android/datatransport/runtime/backends/b;
 
     sget-object v1, Lcom/google/android/datatransport/runtime/backends/BackendResponse$Status;->TRANSIENT_ERROR:Lcom/google/android/datatransport/runtime/backends/BackendResponse$Status;

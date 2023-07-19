@@ -27,7 +27,6 @@
 .method constructor <init>(Lcom/appsflyer/AppsFlyerLibCore;J)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/appsflyer/AppsFlyerLibCore$3;->values:Lcom/appsflyer/AppsFlyerLibCore;
 
     iput-wide p2, p0, Lcom/appsflyer/AppsFlyerLibCore$3;->valueOf:J
@@ -42,7 +41,6 @@
 .method public final $$a(Ljava/lang/String;Ljava/lang/Exception;)V
     .locals 3
 
-    .line 1
     invoke-virtual {p2}, Ljava/lang/Throwable;->getMessage()Ljava/lang/String;
 
     move-result-object v0
@@ -51,7 +49,6 @@
 
     const-string/jumbo v0, "unknown"
 
-    .line 2
     :cond_0
     iget-object v1, p0, Lcom/appsflyer/AppsFlyerLibCore$3;->values:Lcom/appsflyer/AppsFlyerLibCore;
 
@@ -65,7 +62,6 @@
 
     const/4 v0, 0x1
 
-    .line 3
     invoke-static {p1, p2, v0}, Lcom/appsflyer/AFLogger;->afErrorLog(Ljava/lang/String;Ljava/lang/Throwable;Z)V
 
     return-void
@@ -82,7 +78,6 @@
         .end annotation
     .end param
 
-    .line 1
     iget-object v0, p0, Lcom/appsflyer/AppsFlyerLibCore$3;->values:Lcom/appsflyer/AppsFlyerLibCore;
 
     invoke-static {v0}, Lcom/appsflyer/AppsFlyerLibCore;->$$a(Lcom/appsflyer/AppsFlyerLibCore;)Ljava/util/Map;
@@ -93,7 +88,6 @@
 
     invoke-interface {v0, v1, p1}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 2
     iget-object p1, p0, Lcom/appsflyer/AppsFlyerLibCore$3;->values:Lcom/appsflyer/AppsFlyerLibCore;
 
     invoke-static {p1}, Lcom/appsflyer/AppsFlyerLibCore;->$$a(Lcom/appsflyer/AppsFlyerLibCore;)Ljava/util/Map;
@@ -104,7 +98,6 @@
 
     invoke-interface {p1, v0, p2}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 3
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide p1
@@ -113,7 +106,6 @@
 
     sub-long/2addr p1, v0
 
-    .line 4
     iget-object v0, p0, Lcom/appsflyer/AppsFlyerLibCore$3;->values:Lcom/appsflyer/AppsFlyerLibCore;
 
     invoke-static {v0}, Lcom/appsflyer/AppsFlyerLibCore;->$$a(Lcom/appsflyer/AppsFlyerLibCore;)Ljava/util/Map;
@@ -130,7 +122,6 @@
 
     const-string p1, "Successfully retrieved Google LVL data."
 
-    .line 5
     invoke-static {p1}, Lcom/appsflyer/AFLogger;->afInfoLog(Ljava/lang/String;)V
 
     return-void

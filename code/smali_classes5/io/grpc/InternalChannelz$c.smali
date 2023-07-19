@@ -31,10 +31,8 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     invoke-static {p1}, Lcom/google/common/base/t;->E(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -45,7 +43,6 @@
 
     if-eqz p2, :cond_1
 
-    .line 3
     invoke-virtual {p2}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
     move-result-object p1
@@ -76,10 +73,8 @@
     :goto_1
     const-string v0, "the \'any\' object must be of type com.google.protobuf.Any"
 
-    .line 4
     invoke-static {p1, v0}, Lcom/google/common/base/t;->h0(ZLjava/lang/Object;)V
 
-    .line 5
     iput-object p2, p0, Lio/grpc/InternalChannelz$c;->b:Ljava/lang/Object;
 
     return-void

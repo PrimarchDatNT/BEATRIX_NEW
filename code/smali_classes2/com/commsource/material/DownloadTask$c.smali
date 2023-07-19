@@ -31,7 +31,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/material/DownloadTask$c;->a:Lcom/commsource/material/DownloadTask;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -48,7 +47,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Ljava/lang/String;
 
     invoke-virtual {p0, p1}, Lcom/commsource/material/DownloadTask$c;->c(Ljava/lang/String;)V
@@ -73,7 +71,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/material/DownloadTask$c;->a:Lcom/commsource/material/DownloadTask;
 
     invoke-static {v1}, Lcom/commsource/material/DownloadTask;->f(Lcom/commsource/material/DownloadTask;)I
@@ -86,12 +83,10 @@
 
     if-eq v1, v3, :cond_0
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/material/DownloadTask$c;->a:Lcom/commsource/material/DownloadTask;
 
     invoke-static {v1, v2}, Lcom/commsource/material/DownloadTask;->g(Lcom/commsource/material/DownloadTask;I)V
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/material/DownloadTask$c;->a:Lcom/commsource/material/DownloadTask;
 
     invoke-virtual {v1}, Lcom/commsource/material/DownloadTask;->h()Lcom/commsource/material/b;
@@ -110,13 +105,11 @@
 
     goto :goto_0
 
-    .line 4
     :cond_0
     iget-object p1, p0, Lcom/commsource/material/DownloadTask$c;->a:Lcom/commsource/material/DownloadTask;
 
     invoke-static {p1, v2}, Lcom/commsource/material/DownloadTask;->g(Lcom/commsource/material/DownloadTask;I)V
 
-    .line 5
     :cond_1
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -139,14 +132,12 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/material/DownloadTask$c;->a:Lcom/commsource/material/DownloadTask;
 
     const/4 v2, 0x0
 
     invoke-static {v1, v2}, Lcom/commsource/material/DownloadTask;->g(Lcom/commsource/material/DownloadTask;I)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/material/DownloadTask$c;->a:Lcom/commsource/material/DownloadTask;
 
     invoke-virtual {v1}, Lcom/commsource/material/DownloadTask;->h()Lcom/commsource/material/b;
@@ -159,7 +150,6 @@
 
     invoke-interface {v1, v2, p1}, Lcom/commsource/material/b;->b(Lcom/commsource/material/DownloadTask;Ljava/lang/String;)V
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -201,7 +191,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/material/DownloadTask$c;->a:Lcom/commsource/material/DownloadTask;
 
     invoke-virtual {v1}, Lcom/commsource/material/DownloadTask;->h()Lcom/commsource/material/b;
@@ -218,7 +207,6 @@
 
     invoke-interface/range {v2 .. v7}, Lcom/commsource/material/b;->e(Lcom/commsource/material/DownloadTask;JJ)V
 
-    .line 2
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -232,7 +220,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/material/DownloadTask$c;->a:Lcom/commsource/material/DownloadTask;
 
     invoke-virtual {v1}, Lcom/commsource/material/DownloadTask;->h()Lcom/commsource/material/b;
@@ -245,7 +232,6 @@
 
     invoke-interface {v1, v2}, Lcom/commsource/material/b;->c(Lcom/commsource/material/DownloadTask;)V
 
-    .line 2
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

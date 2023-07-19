@@ -35,10 +35,8 @@
     .annotation build Landroidx/annotation/VisibleForTesting;
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     new-instance v0, Lcom/google/firebase/iid/h;
 
     const/4 v1, 0x0
@@ -49,13 +47,10 @@
 
     const/4 v0, 0x1
 
-    .line 3
     iput v0, p0, Lcom/google/firebase/iid/g;->d:I
 
-    .line 4
     iput-object p2, p0, Lcom/google/firebase/iid/g;->b:Ljava/util/concurrent/ScheduledExecutorService;
 
-    .line 5
     invoke-virtual {p1}, Landroid/content/Context;->getApplicationContext()Landroid/content/Context;
 
     move-result-object p1
@@ -70,7 +65,6 @@
 
     monitor-enter p0
 
-    .line 1
     :try_start_0
     iget v0, p0, Lcom/google/firebase/iid/g;->d:I
 
@@ -95,7 +89,6 @@
 .method static synthetic b(Lcom/google/firebase/iid/g;)Landroid/content/Context;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lcom/google/firebase/iid/g;->a:Landroid/content/Context;
 
     return-object p0
@@ -122,7 +115,6 @@
 
     const/4 v1, 0x3
 
-    .line 1
     invoke-static {v0, v1}, Landroid/util/Log;->isLoggable(Ljava/lang/String;I)Z
 
     move-result v0
@@ -131,7 +123,6 @@
 
     const-string v0, "MessengerIpcClient"
 
-    .line 2
     invoke-static {p1}, Ljava/lang/String;->valueOf(Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object v1
@@ -162,7 +153,6 @@
 
     invoke-static {v0, v1}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 3
     :cond_0
     iget-object v0, p0, Lcom/google/firebase/iid/g;->c:Lcom/google/firebase/iid/h;
 
@@ -172,7 +162,6 @@
 
     if-nez v0, :cond_1
 
-    .line 4
     new-instance v0, Lcom/google/firebase/iid/h;
 
     const/4 v1, 0x0
@@ -181,10 +170,8 @@
 
     iput-object v0, p0, Lcom/google/firebase/iid/g;->c:Lcom/google/firebase/iid/h;
 
-    .line 5
     invoke-virtual {v0, p1}, Lcom/google/firebase/iid/h;->e(Lcom/google/firebase/iid/r;)Z
 
-    .line 6
     :cond_1
     iget-object p1, p1, Lcom/google/firebase/iid/r;->b:Lcom/google/android/gms/tasks/l;
 
@@ -194,7 +181,6 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 7
     monitor-exit p0
 
     return-object p1
@@ -214,16 +200,13 @@
 
     monitor-enter v0
 
-    .line 1
     :try_start_0
     sget-object v1, Lcom/google/firebase/iid/g;->e:Lcom/google/firebase/iid/g;
 
     if-nez v1, :cond_0
 
-    .line 2
     new-instance v1, Lcom/google/firebase/iid/g;
 
-    .line 3
     invoke-static {}, Lf/f/b/b/h/c/a;->a()Lf/f/b/b/h/c/b;
 
     move-result-object v2
@@ -238,7 +221,6 @@
 
     sget v5, Lf/f/b/b/h/c/f;->b:I
 
-    .line 4
     invoke-interface {v2, v3, v4, v5}, Lf/f/b/b/h/c/b;->b(ILjava/util/concurrent/ThreadFactory;I)Ljava/util/concurrent/ScheduledExecutorService;
 
     move-result-object v2
@@ -247,7 +229,6 @@
 
     sput-object v1, Lcom/google/firebase/iid/g;->e:Lcom/google/firebase/iid/g;
 
-    .line 5
     :cond_0
     sget-object p0, Lcom/google/firebase/iid/g;->e:Lcom/google/firebase/iid/g;
     :try_end_0
@@ -268,7 +249,6 @@
 .method static synthetic g(Lcom/google/firebase/iid/g;)Ljava/util/concurrent/ScheduledExecutorService;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lcom/google/firebase/iid/g;->b:Ljava/util/concurrent/ScheduledExecutorService;
 
     return-object p0
@@ -289,7 +269,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance p1, Lcom/google/firebase/iid/p;
 
     invoke-direct {p0}, Lcom/google/firebase/iid/g;->a()I
@@ -320,7 +299,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance p1, Lcom/google/firebase/iid/t;
 
     invoke-direct {p0}, Lcom/google/firebase/iid/g;->a()I

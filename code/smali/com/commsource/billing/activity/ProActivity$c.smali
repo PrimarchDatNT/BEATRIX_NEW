@@ -31,7 +31,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/billing/activity/ProActivity$c;->a:Lcom/commsource/billing/activity/ProActivity;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -64,7 +63,6 @@
 
     invoke-static {p2, p1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-virtual {p2}, Landroid/view/MotionEvent;->getAction()I
 
     move-result p1
@@ -83,13 +81,11 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     iget-object p1, p0, Lcom/commsource/billing/activity/ProActivity$c;->a:Lcom/commsource/billing/activity/ProActivity;
 
     invoke-static {p1, v1}, Lcom/commsource/billing/activity/ProActivity;->Z0(Lcom/commsource/billing/activity/ProActivity;Z)V
 
-    .line 3
     iget-object p1, p0, Lcom/commsource/billing/activity/ProActivity$c;->a:Lcom/commsource/billing/activity/ProActivity;
 
     invoke-static {p1}, Lcom/commsource/billing/activity/ProActivity;->O0(Lcom/commsource/billing/activity/ProActivity;)Lcom/commsource/beautyplus/f0/u0;
@@ -102,7 +98,6 @@
 
     goto :goto_1
 
-    .line 4
     :cond_1
     :goto_0
     iget-object p1, p0, Lcom/commsource/billing/activity/ProActivity$c;->a:Lcom/commsource/billing/activity/ProActivity;
@@ -111,7 +106,6 @@
 
     invoke-static {p1, p2}, Lcom/commsource/billing/activity/ProActivity;->Z0(Lcom/commsource/billing/activity/ProActivity;Z)V
 
-    .line 5
     iget-object p1, p0, Lcom/commsource/billing/activity/ProActivity$c;->a:Lcom/commsource/billing/activity/ProActivity;
 
     invoke-static {p1}, Lcom/commsource/billing/activity/ProActivity;->O0(Lcom/commsource/billing/activity/ProActivity;)Lcom/commsource/beautyplus/f0/u0;
@@ -122,7 +116,6 @@
 
     invoke-virtual {p1, p2}, Landroidx/recyclerview/widget/RecyclerView;->requestDisallowInterceptTouchEvent(Z)V
 
-    .line 6
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

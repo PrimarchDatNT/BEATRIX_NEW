@@ -77,7 +77,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -90,23 +89,19 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/meitu/library/analytics/core/provider/i;->a:Ljava/lang/String;
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
 
-    .line 3
     :cond_0
     invoke-virtual {p0}, Landroid/content/Context;->getPackageName()Ljava/lang/String;
 
     move-result-object p0
 
-    .line 4
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -123,7 +118,6 @@
 
     sput-object p0, Lcom/meitu/library/analytics/core/provider/i;->a:Ljava/lang/String;
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
@@ -140,7 +134,6 @@
 
     new-array v1, v1, [Ljava/lang/Object;
 
-    .line 1
     invoke-static {p0}, Lcom/meitu/library/analytics/core/provider/i;->a(Landroid/content/Context;)Ljava/lang/String;
 
     move-result-object p0

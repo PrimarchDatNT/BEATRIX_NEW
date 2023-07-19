@@ -38,7 +38,6 @@
 .method public final run()V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/pixocial/uichecker/ScreenShotHelper$c;->a:Lcom/pixocial/uichecker/ScreenShotHelper;
 
     invoke-virtual {v0}, Lcom/pixocial/uichecker/ScreenShotHelper;->k()Lcotlin/jvm/u/l;
@@ -47,7 +46,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 2
     iget-object v0, p0, Lcom/pixocial/uichecker/ScreenShotHelper$c;->a:Lcom/pixocial/uichecker/ScreenShotHelper;
 
     invoke-static {v0}, Lcom/pixocial/uichecker/ScreenShotHelper;->c(Lcom/pixocial/uichecker/ScreenShotHelper;)Ljava/lang/String;
@@ -56,14 +54,12 @@
 
     if-eqz v0, :cond_0
 
-    .line 3
     invoke-virtual {v0}, Ljava/lang/String;->length()I
 
     move-result v1
 
     if-lez v1, :cond_0
 
-    .line 4
     iget-object v1, p0, Lcom/pixocial/uichecker/ScreenShotHelper$c;->a:Lcom/pixocial/uichecker/ScreenShotHelper;
 
     invoke-virtual {v1}, Lcom/pixocial/uichecker/ScreenShotHelper;->k()Lcotlin/jvm/u/l;

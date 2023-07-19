@@ -40,7 +40,6 @@
 .method static constructor <clinit>()V
     .locals 11
 
-    .line 1
     new-instance v0, Lcom/tencent/matrix/hook/AbsHook$Status;
 
     const-string v1, "UNCOMMIT"
@@ -51,7 +50,6 @@
 
     sput-object v0, Lcom/tencent/matrix/hook/AbsHook$Status;->UNCOMMIT:Lcom/tencent/matrix/hook/AbsHook$Status;
 
-    .line 2
     new-instance v1, Lcom/tencent/matrix/hook/AbsHook$Status;
 
     const-string v3, "COMMIT_SUCCESS"
@@ -62,7 +60,6 @@
 
     sput-object v1, Lcom/tencent/matrix/hook/AbsHook$Status;->COMMIT_SUCCESS:Lcom/tencent/matrix/hook/AbsHook$Status;
 
-    .line 3
     new-instance v3, Lcom/tencent/matrix/hook/AbsHook$Status;
 
     const-string v5, "COMMIT_FAIL_ON_LOAD_LIB"
@@ -73,7 +70,6 @@
 
     sput-object v3, Lcom/tencent/matrix/hook/AbsHook$Status;->COMMIT_FAIL_ON_LOAD_LIB:Lcom/tencent/matrix/hook/AbsHook$Status;
 
-    .line 4
     new-instance v5, Lcom/tencent/matrix/hook/AbsHook$Status;
 
     const-string v7, "COMMIT_FAIL_ON_CONFIGURE"
@@ -84,7 +80,6 @@
 
     sput-object v5, Lcom/tencent/matrix/hook/AbsHook$Status;->COMMIT_FAIL_ON_CONFIGURE:Lcom/tencent/matrix/hook/AbsHook$Status;
 
-    .line 5
     new-instance v7, Lcom/tencent/matrix/hook/AbsHook$Status;
 
     const-string v9, "COMMIT_FAIL_ON_HOOK"
@@ -109,7 +104,6 @@
 
     aput-object v7, v9, v10
 
-    .line 6
     sput-object v9, Lcom/tencent/matrix/hook/AbsHook$Status;->$VALUES:[Lcom/tencent/matrix/hook/AbsHook$Status;
 
     return-void
@@ -123,7 +117,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
     return-void
@@ -132,7 +125,6 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/tencent/matrix/hook/AbsHook$Status;
     .locals 1
 
-    .line 1
     const-class v0, Lcom/tencent/matrix/hook/AbsHook$Status;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -147,7 +139,6 @@
 .method public static values()[Lcom/tencent/matrix/hook/AbsHook$Status;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/tencent/matrix/hook/AbsHook$Status;->$VALUES:[Lcom/tencent/matrix/hook/AbsHook$Status;
 
     invoke-virtual {v0}, [Lcom/tencent/matrix/hook/AbsHook$Status;->clone()Ljava/lang/Object;

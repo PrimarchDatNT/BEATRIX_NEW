@@ -58,7 +58,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/studio/ImageStudioActivity$b0;->b:Lcom/commsource/studio/ImageStudioActivity;
 
     invoke-virtual {v0}, Lcom/commsource/studio/ImageStudioActivity;->l1()Lcom/commsource/beautyplus/f0/k0;
@@ -79,7 +78,6 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/ImageView;->setImageBitmap(Landroid/graphics/Bitmap;)V
 
-    .line 2
     new-instance v0, Lcom/commsource/studio/text/TextEditPage;
 
     iget-object v1, p0, Lcom/commsource/studio/ImageStudioActivity$b0;->a:Lcom/commsource/studio/ImageStudioActivity;
@@ -100,7 +98,6 @@
 
     invoke-virtual {v0, v1}, Lcom/commsource/studio/text/TextEditPage;->i(Landroid/widget/ImageView;)V
 
-    .line 3
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -113,7 +110,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Ljava/lang/Boolean;
 
     invoke-virtual {p0, p1}, Lcom/commsource/studio/ImageStudioActivity$b0;->a(Ljava/lang/Boolean;)V

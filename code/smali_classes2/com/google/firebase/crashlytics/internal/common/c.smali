@@ -13,23 +13,18 @@
 .method constructor <init>(Lcom/google/firebase/crashlytics/internal/model/CrashlyticsReport;Ljava/lang/String;)V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Lcom/google/firebase/crashlytics/internal/common/n;-><init>()V
 
     const-string v0, "Null report"
 
-    .line 2
     invoke-static {p1, v0}, Ljava/util/Objects;->requireNonNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
 
-    .line 3
     iput-object p1, p0, Lcom/google/firebase/crashlytics/internal/common/c;->a:Lcom/google/firebase/crashlytics/internal/model/CrashlyticsReport;
 
     const-string p1, "Null sessionId"
 
-    .line 4
     invoke-static {p2, p1}, Ljava/util/Objects;->requireNonNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
 
-    .line 5
     iput-object p2, p0, Lcom/google/firebase/crashlytics/internal/common/c;->b:Ljava/lang/String;
 
     return-void
@@ -40,7 +35,6 @@
 .method public b()Lcom/google/firebase/crashlytics/internal/model/CrashlyticsReport;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/crashlytics/internal/common/c;->a:Lcom/google/firebase/crashlytics/internal/model/CrashlyticsReport;
 
     return-object v0
@@ -49,7 +43,6 @@
 .method public c()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/crashlytics/internal/common/c;->b:Ljava/lang/String;
 
     return-object v0
@@ -64,7 +57,6 @@
 
     return v0
 
-    .line 1
     :cond_0
     instance-of v1, p1, Lcom/google/firebase/crashlytics/internal/common/n;
 
@@ -72,10 +64,8 @@
 
     if-eqz v1, :cond_2
 
-    .line 2
     check-cast p1, Lcom/google/firebase/crashlytics/internal/common/n;
 
-    .line 3
     iget-object v1, p0, Lcom/google/firebase/crashlytics/internal/common/c;->a:Lcom/google/firebase/crashlytics/internal/model/CrashlyticsReport;
 
     invoke-virtual {p1}, Lcom/google/firebase/crashlytics/internal/common/n;->b()Lcom/google/firebase/crashlytics/internal/model/CrashlyticsReport;
@@ -90,7 +80,6 @@
 
     iget-object v1, p0, Lcom/google/firebase/crashlytics/internal/common/c;->b:Ljava/lang/String;
 
-    .line 4
     invoke-virtual {p1}, Lcom/google/firebase/crashlytics/internal/common/n;->c()Ljava/lang/String;
 
     move-result-object p1
@@ -116,7 +105,6 @@
 .method public hashCode()I
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/crashlytics/internal/common/c;->a:Lcom/google/firebase/crashlytics/internal/model/CrashlyticsReport;
 
     invoke-virtual {v0}, Ljava/lang/Object;->hashCode()I
@@ -129,7 +117,6 @@
 
     mul-int v0, v0, v1
 
-    .line 2
     iget-object v1, p0, Lcom/google/firebase/crashlytics/internal/common/c;->b:Ljava/lang/String;
 
     invoke-virtual {v1}, Ljava/lang/String;->hashCode()I
@@ -144,7 +131,6 @@
 .method public toString()Ljava/lang/String;
     .locals 2
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V

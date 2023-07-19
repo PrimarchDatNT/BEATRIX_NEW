@@ -15,16 +15,12 @@
 .method public constructor <init>(Lcom/google/android/gms/internal/ads/a40;Lcom/google/android/gms/internal/ads/p4;Ljava/lang/Runnable;Ljava/util/concurrent/Executor;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/google/android/gms/internal/ads/a20;-><init>(Lcom/google/android/gms/internal/ads/a40;)V
 
-    .line 2
     iput-object p2, p0, Lcom/google/android/gms/internal/ads/h30;->h:Lcom/google/android/gms/internal/ads/p4;
 
-    .line 3
     iput-object p3, p0, Lcom/google/android/gms/internal/ads/h30;->i:Ljava/lang/Runnable;
 
-    .line 4
     iput-object p4, p0, Lcom/google/android/gms/internal/ads/h30;->j:Ljava/util/concurrent/Executor;
 
     return-void
@@ -37,19 +33,16 @@
     .annotation build Landroidx/annotation/WorkerThread;
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/util/concurrent/atomic/AtomicReference;
 
     iget-object v1, p0, Lcom/google/android/gms/internal/ads/h30;->i:Ljava/lang/Runnable;
 
     invoke-direct {v0, v1}, Ljava/util/concurrent/atomic/AtomicReference;-><init>(Ljava/lang/Object;)V
 
-    .line 2
     new-instance v1, Lcom/google/android/gms/internal/ads/k30;
 
     invoke-direct {v1, v0}, Lcom/google/android/gms/internal/ads/k30;-><init>(Ljava/util/concurrent/atomic/AtomicReference;)V
 
-    .line 3
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/h30;->j:Ljava/util/concurrent/Executor;
 
     new-instance v2, Lcom/google/android/gms/internal/ads/j30;
@@ -116,7 +109,6 @@
 .method final synthetic n(Ljava/lang/Runnable;)V
     .locals 2
 
-    .line 1
     :try_start_0
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/h30;->h:Lcom/google/android/gms/internal/ads/p4;
 
@@ -130,7 +122,6 @@
 
     if-nez v0, :cond_0
 
-    .line 2
     invoke-interface {p1}, Ljava/lang/Runnable;->run()V
     :try_end_0
     .catch Landroid/os/RemoteException; {:try_start_0 .. :try_end_0} :catch_0
@@ -138,7 +129,6 @@
     :cond_0
     return-void
 
-    .line 3
     :catch_0
     invoke-interface {p1}, Ljava/lang/Runnable;->run()V
 

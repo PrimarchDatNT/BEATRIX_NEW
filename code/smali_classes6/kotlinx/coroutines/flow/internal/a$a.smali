@@ -57,7 +57,6 @@
 
     iput-object p6, p0, Lcotlinx/coroutines/flow/internal/a$a;->g:Ljava/lang/Object;
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -70,7 +69,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcotlinx/coroutines/flow/internal/a$a;->a:Lcotlin/coroutines/CoroutineContext;
 
     return-object v0
@@ -83,7 +81,6 @@
         .end annotation
     .end param
 
-    .line 1
     iget-object v0, p0, Lcotlinx/coroutines/flow/internal/a$a;->b:Lcotlin/coroutines/c;
 
     invoke-interface {v0, p1}, Lcotlin/coroutines/c;->resumeWith(Ljava/lang/Object;)V

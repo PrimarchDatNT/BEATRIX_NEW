@@ -17,7 +17,6 @@
 .method constructor <init>(Lcom/google/android/gms/internal/ads/uq1;Ljava/util/concurrent/ScheduledExecutorService;Lcom/google/android/gms/internal/ads/cl1;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1, p2, p3}, Lcom/google/android/gms/internal/ads/qk1;-><init>(Lcom/google/android/gms/internal/ads/uq1;Ljava/util/concurrent/ScheduledExecutorService;Lcom/google/android/gms/internal/ads/bl1;)V
 
     return-void
@@ -28,10 +27,8 @@
 .method protected final synthetic h(Ljava/lang/Object;)Ljava/lang/String;
     .locals 0
 
-    .line 1
     check-cast p1, Lcom/google/android/gms/internal/ads/zzdor;
 
-    .line 2
     invoke-virtual {p1}, Lcom/google/android/gms/internal/ads/zzdor;->zzauq()Ljava/lang/String;
 
     move-result-object p1

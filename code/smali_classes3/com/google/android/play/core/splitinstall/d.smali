@@ -14,7 +14,6 @@
 .method static constructor <clinit>()V
     .locals 2
 
-    .line 1
     invoke-static {}, Lcom/google/android/play/core/splitinstall/d;->a()V
 
     new-instance v0, Lcom/google/android/play/core/internal/k;
@@ -31,7 +30,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -40,7 +38,6 @@
 .method private static synthetic a()V
     .locals 11
 
-    .line 1
     new-instance v8, Ln/a/b/c/e;
 
     const-class v0, Lcom/google/android/play/core/splitinstall/d;
@@ -111,7 +108,6 @@
 .method static final synthetic b(Ljava/lang/reflect/Method;Ljava/lang/Object;[Ljava/lang/Object;Lorg/aspectj/lang/c;)Ljava/lang/Object;
     .locals 0
 
-    .line 1
     invoke-virtual {p0, p1, p2}, Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p0
@@ -122,7 +118,6 @@
 .method static final synthetic c(Ljava/lang/reflect/Method;Ljava/lang/Object;[Ljava/lang/Object;Lorg/aspectj/lang/c;)Ljava/lang/Object;
     .locals 0
 
-    .line 1
     invoke-virtual {p0, p1, p2}, Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p0
@@ -146,7 +141,6 @@
         }
     .end annotation
 
-    .line 1
     const-class v0, Lcom/google/android/play/core/splitinstall/r0;
 
     monitor-enter v0
@@ -249,7 +243,6 @@
         .end annotation
     .end param
 
-    .line 1
     sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
 
     const/16 v1, 0x19

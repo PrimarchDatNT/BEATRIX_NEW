@@ -27,7 +27,6 @@
 .method constructor <init>(Lcom/commsource/widget/dialog/r0;Ljava/lang/String;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/widget/dialog/r0$a;->b:Lcom/commsource/widget/dialog/r0;
 
     iput-object p2, p0, Lcom/commsource/widget/dialog/r0$a;->a:Ljava/lang/String;
@@ -65,18 +64,15 @@
     :cond_0
     sget p1, Lcom/res/provider/ResSTRING;->web_net_error:I
 
-    .line 1
     invoke-static {p1}, Lf/k/c/c/f;->w(I)V
 
     goto :goto_1
 
-    .line 2
     :cond_1
     iget-object v2, p0, Lcom/commsource/widget/dialog/r0$a;->b:Lcom/commsource/widget/dialog/r0;
 
     invoke-static {v2}, Lcom/commsource/widget/dialog/r0;->A(Lcom/commsource/widget/dialog/r0;)V
 
-    .line 3
     iget-object v2, p0, Lcom/commsource/widget/dialog/r0$a;->b:Lcom/commsource/widget/dialog/r0;
 
     if-ne p1, v0, :cond_2
@@ -94,10 +90,8 @@
     :cond_3
     sget p1, Lcom/res/provider/ResSTRING;->purchasing_failure:I
 
-    .line 4
     invoke-static {p1}, Lf/k/c/c/f;->w(I)V
 
-    .line 5
     :goto_1
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -128,7 +122,6 @@
 
     goto :goto_1
 
-    .line 1
     :cond_0
     invoke-interface {p2}, Ljava/util/Map;->entrySet()Ljava/util/Set;
 
@@ -152,7 +145,6 @@
 
     check-cast p2, Ljava/util/Map$Entry;
 
-    .line 2
     invoke-interface {p2}, Ljava/util/Map$Entry;->getKey()Ljava/lang/Object;
 
     move-result-object v1
@@ -179,7 +171,6 @@
 
     if-eqz v1, :cond_1
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/widget/dialog/r0$a;->b:Lcom/commsource/widget/dialog/r0;
 
     invoke-static {v1}, Lcom/commsource/widget/dialog/r0;->z(Lcom/commsource/widget/dialog/r0;)Landroidx/lifecycle/MutableLiveData;
@@ -200,7 +191,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_2
     iget-object p1, p0, Lcom/commsource/widget/dialog/r0$a;->b:Lcom/commsource/widget/dialog/r0;
 
@@ -212,7 +202,6 @@
 
     invoke-virtual {p1, p2}, Landroidx/lifecycle/MutableLiveData;->postValue(Ljava/lang/Object;)V
 
-    .line 5
     :cond_3
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -227,7 +216,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/widget/dialog/r0$a;->b:Lcom/commsource/widget/dialog/r0;
 
     const/4 v2, 0x0
@@ -236,10 +224,8 @@
 
     sget v1, Lcom/res/provider/ResSTRING;->google_play_setup_failure:I
 
-    .line 2
     invoke-static {v1}, Lf/k/c/c/f;->w(I)V
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/widget/dialog/r0$a;->b:Lcom/commsource/widget/dialog/r0;
 
     invoke-static {v1}, Lcom/commsource/widget/dialog/r0;->z(Lcom/commsource/widget/dialog/r0;)Landroidx/lifecycle/MutableLiveData;
@@ -250,7 +236,6 @@
 
     invoke-virtual {v1, v2}, Landroidx/lifecycle/MutableLiveData;->postValue(Ljava/lang/Object;)V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -271,7 +256,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -288,7 +272,6 @@
 
     if-ne p1, v1, :cond_0
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/widget/dialog/r0$a;->a:Ljava/lang/String;
 
     invoke-static {v1}, Lf/d/i/n;->c0(Ljava/lang/String;)Z
@@ -297,12 +280,10 @@
 
     if-eqz v1, :cond_0
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/widget/dialog/r0$a;->b:Lcom/commsource/widget/dialog/r0;
 
     invoke-static {v1}, Lcom/commsource/widget/dialog/r0;->A(Lcom/commsource/widget/dialog/r0;)V
 
-    .line 3
     :cond_0
     new-instance v1, Landroid/util/Pair;
 
@@ -322,14 +303,12 @@
 
     invoke-direct {v1, v2, p1}, Landroid/util/Pair;-><init>(Ljava/lang/Object;Ljava/lang/Object;)V
 
-    .line 4
     invoke-static {}, Lcom/commsource/util/g2;->b()Z
 
     move-result p1
 
     if-eqz p1, :cond_1
 
-    .line 5
     iget-object p1, p0, Lcom/commsource/widget/dialog/r0$a;->b:Lcom/commsource/widget/dialog/r0;
 
     invoke-static {p1}, Lcom/commsource/widget/dialog/r0;->C(Lcom/commsource/widget/dialog/r0;)Landroidx/lifecycle/MutableLiveData;
@@ -340,7 +319,6 @@
 
     goto :goto_0
 
-    .line 6
     :cond_1
     iget-object p1, p0, Lcom/commsource/widget/dialog/r0$a;->b:Lcom/commsource/widget/dialog/r0;
 
@@ -350,7 +328,6 @@
 
     invoke-virtual {p1, v1}, Landroidx/lifecycle/MutableLiveData;->postValue(Ljava/lang/Object;)V
 
-    .line 7
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

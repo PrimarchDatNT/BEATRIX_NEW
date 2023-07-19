@@ -27,7 +27,6 @@
 .method constructor <init>(Lcom/meitu/ipstore/core/b;Lf/k/m/c$a;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/ipstore/core/b$b;->b:Lcom/meitu/ipstore/core/b;
 
     iput-object p2, p0, Lcom/meitu/ipstore/core/b$b;->a:Lf/k/m/c$a;
@@ -46,12 +45,10 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcom/meitu/ipstore/core/b$b;->a:Lf/k/m/c$a;
 
     invoke-interface {v0, p2}, Lf/k/m/c$a;->b(Ljava/lang/String;)V
 
-    .line 2
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -74,7 +71,6 @@
 
     if-eqz p1, :cond_1
 
-    .line 1
     invoke-interface {p1}, Ljava/util/List;->size()I
 
     move-result v1
@@ -83,7 +79,6 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     new-instance v1, Lcom/meitu/ipstore/core/b$b$a;
 
@@ -93,7 +88,6 @@
 
     goto :goto_1
 
-    .line 3
     :cond_1
     :goto_0
     iget-object p1, p0, Lcom/meitu/ipstore/core/b$b;->b:Lcom/meitu/ipstore/core/b;
@@ -104,7 +98,6 @@
 
     invoke-interface {p1}, Ljava/util/Set;->clear()V
 
-    .line 4
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

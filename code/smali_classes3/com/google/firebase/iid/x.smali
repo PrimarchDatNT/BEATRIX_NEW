@@ -30,17 +30,14 @@
 .method constructor <init>(Ljava/util/concurrent/Executor;)V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     new-instance v0, Landroidx/collection/ArrayMap;
 
     invoke-direct {v0}, Landroidx/collection/ArrayMap;-><init>()V
 
     iput-object v0, p0, Lcom/google/firebase/iid/x;->b:Ljava/util/Map;
 
-    .line 3
     iput-object p1, p0, Lcom/google/firebase/iid/x;->a:Ljava/util/concurrent/Executor;
 
     return-void
@@ -56,16 +53,13 @@
         }
     .end annotation
 
-    .line 1
     monitor-enter p0
 
-    .line 2
     :try_start_0
     iget-object v0, p0, Lcom/google/firebase/iid/x;->b:Ljava/util/Map;
 
     invoke-interface {v0, p1}, Ljava/util/Map;->remove(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 3
     monitor-exit p0
 
     return-object p2
@@ -97,13 +91,11 @@
 
     monitor-enter p0
 
-    .line 1
     :try_start_0
     new-instance v0, Landroid/util/Pair;
 
     invoke-direct {v0, p1, p2}, Landroid/util/Pair;-><init>(Ljava/lang/Object;Ljava/lang/Object;)V
 
-    .line 2
     iget-object p1, p0, Lcom/google/firebase/iid/x;->b:Ljava/util/Map;
 
     invoke-interface {p1, v0}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
@@ -118,7 +110,6 @@
 
     const-string p3, "FirebaseInstanceId"
 
-    .line 3
     invoke-static {p3, p2}, Landroid/util/Log;->isLoggable(Ljava/lang/String;I)Z
 
     move-result p2
@@ -127,7 +118,6 @@
 
     const-string p2, "FirebaseInstanceId"
 
-    .line 4
     invoke-static {v0}, Ljava/lang/String;->valueOf(Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object p3
@@ -160,7 +150,6 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 5
     :cond_0
     monitor-exit p0
 
@@ -170,7 +159,6 @@
     :try_start_1
     const-string p1, "FirebaseInstanceId"
 
-    .line 6
     invoke-static {p1, p2}, Landroid/util/Log;->isLoggable(Ljava/lang/String;I)Z
 
     move-result p1
@@ -179,7 +167,6 @@
 
     const-string p1, "FirebaseInstanceId"
 
-    .line 7
     invoke-static {v0}, Ljava/lang/String;->valueOf(Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object p2
@@ -210,7 +197,6 @@
 
     invoke-static {p1, p2}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 8
     :cond_2
     invoke-interface {p3}, Lcom/google/firebase/iid/z;->zza()Lcom/google/android/gms/tasks/k;
 
@@ -222,19 +208,16 @@
 
     invoke-direct {p3, p0, v0}, Lcom/google/firebase/iid/w;-><init>(Lcom/google/firebase/iid/x;Landroid/util/Pair;)V
 
-    .line 9
     invoke-virtual {p1, p2, p3}, Lcom/google/android/gms/tasks/k;->p(Ljava/util/concurrent/Executor;Lcom/google/android/gms/tasks/c;)Lcom/google/android/gms/tasks/k;
 
     move-result-object p1
 
-    .line 10
     iget-object p2, p0, Lcom/google/firebase/iid/x;->b:Ljava/util/Map;
 
     invoke-interface {p2, v0, p1}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
-    .line 11
     monitor-exit p0
 
     return-object p1

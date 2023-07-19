@@ -48,17 +48,14 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/studio/function/BaseSubFragment;-><init>()V
 
-    .line 2
     new-instance v0, Lcom/commsource/studio/effect/p;
 
     invoke-direct {v0}, Lcom/commsource/studio/effect/p;-><init>()V
 
     iput-object v0, p0, Lcom/commsource/studio/function/MosaicFragment;->c0:Lcom/commsource/studio/effect/p;
 
-    .line 3
     new-instance v0, Lcom/commsource/studio/function/MosaicFragment$mViewModel$2;
 
     invoke-direct {v0, p0}, Lcom/commsource/studio/function/MosaicFragment$mViewModel$2;-><init>(Lcom/commsource/studio/function/MosaicFragment;)V
@@ -69,7 +66,6 @@
 
     iput-object v0, p0, Lcom/commsource/studio/function/MosaicFragment;->g0:Lcotlin/w;
 
-    .line 4
     sget-object v0, Lcom/commsource/studio/n0;->z:Lcom/commsource/studio/n0;
 
     invoke-virtual {v0}, Lcom/commsource/studio/n0;->h()I
@@ -82,10 +78,8 @@
 
     const/4 v0, 0x1
 
-    .line 5
     iput-boolean v0, p0, Lcom/commsource/studio/function/MosaicFragment;->l0:Z
 
-    .line 6
     new-instance v0, Lcom/commsource/studio/function/MosaicFragment$undoRedoViewModel$2;
 
     invoke-direct {v0, p0}, Lcom/commsource/studio/function/MosaicFragment$undoRedoViewModel$2;-><init>(Lcom/commsource/studio/function/MosaicFragment;)V
@@ -106,7 +100,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/studio/function/MosaicFragment;->R1()Lcom/commsource/beautymain/viewmodel/MosaicViewModel;
 
     move-result-object v1
@@ -119,7 +112,6 @@
 
     invoke-virtual {v1, v2, v3}, Lcom/commsource/beautymain/viewmodel/MosaicViewModel;->a0(Landroid/content/Context;I)V
 
-    .line 2
     invoke-direct {p0}, Lcom/commsource/studio/function/MosaicFragment;->R1()Lcom/commsource/beautymain/viewmodel/MosaicViewModel;
 
     move-result-object v1
@@ -142,7 +134,6 @@
 
     invoke-virtual {v1, v3, v4}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 3
     invoke-direct {p0}, Lcom/commsource/studio/function/MosaicFragment;->R1()Lcom/commsource/beautymain/viewmodel/MosaicViewModel;
 
     move-result-object v1
@@ -163,7 +154,6 @@
 
     invoke-virtual {v1, v3, v4}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 4
     invoke-direct {p0}, Lcom/commsource/studio/function/MosaicFragment;->R1()Lcom/commsource/beautymain/viewmodel/MosaicViewModel;
 
     move-result-object v1
@@ -184,7 +174,6 @@
 
     invoke-virtual {v1, v3, v4}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 5
     invoke-direct {p0}, Lcom/commsource/studio/function/MosaicFragment;->R1()Lcom/commsource/beautymain/viewmodel/MosaicViewModel;
 
     move-result-object v1
@@ -203,7 +192,6 @@
 
     invoke-virtual {v1, v3, v4}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 6
     invoke-direct {p0}, Lcom/commsource/studio/function/MosaicFragment;->R1()Lcom/commsource/beautymain/viewmodel/MosaicViewModel;
 
     move-result-object v1
@@ -224,7 +212,6 @@
 
     invoke-virtual {v1, v3, v4}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 7
     invoke-direct {p0}, Lcom/commsource/studio/function/MosaicFragment;->R1()Lcom/commsource/beautymain/viewmodel/MosaicViewModel;
 
     move-result-object v1
@@ -245,7 +232,6 @@
 
     invoke-virtual {v1, v2, v3}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 8
     invoke-static {p0}, Landroidx/lifecycle/ViewModelProviders;->of(Landroidx/fragment/app/Fragment;)Landroidx/lifecycle/ViewModelProvider;
 
     move-result-object v1
@@ -258,7 +244,6 @@
 
     check-cast v1, Lcom/commsource/studio/component/e;
 
-    .line 9
     invoke-virtual {v1}, Lcom/commsource/studio/component/e;->y()Landroidx/lifecycle/MutableLiveData;
 
     move-result-object v1
@@ -273,7 +258,6 @@
 
     invoke-virtual {v1, v2, v3}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 10
     invoke-static {p0}, Landroidx/lifecycle/ViewModelProviders;->of(Landroidx/fragment/app/Fragment;)Landroidx/lifecycle/ViewModelProvider;
 
     move-result-object v1
@@ -286,7 +270,6 @@
 
     check-cast v1, Lcom/commsource/studio/component/PaintSelectComponent$b;
 
-    .line 11
     invoke-virtual {v1}, Lcom/commsource/studio/component/PaintSelectComponent$b;->z()Landroidx/lifecycle/MutableLiveData;
 
     move-result-object v1
@@ -301,7 +284,6 @@
 
     invoke-virtual {v1, v2, v3}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 12
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -314,7 +296,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/studio/function/MosaicFragment;->h0:Lcom/commsource/widget/h1/e;
 
     if-nez p0, :cond_0
@@ -336,7 +317,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/studio/function/MosaicFragment;->d0:Lcom/commsource/beautyplus/f0/m9;
 
     if-nez p0, :cond_0
@@ -358,7 +338,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/studio/function/MosaicFragment;->R1()Lcom/commsource/beautymain/viewmodel/MosaicViewModel;
 
     move-result-object p0
@@ -375,7 +354,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/studio/function/MosaicFragment;->e0:Lcom/commsource/studio/processor/MosaicProcessor;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -390,7 +368,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/studio/function/MosaicFragment;->j0:Lcom/commsource/comic/widget/c;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -405,7 +382,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/studio/function/MosaicFragment;->i0:Lcom/commsource/widget/dialog/q0;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -420,7 +396,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/commsource/studio/function/MosaicFragment;->T1(Lcom/commsource/beautymain/data/c;)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -435,7 +410,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/studio/function/MosaicFragment;->V1()V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -450,7 +424,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/studio/function/MosaicFragment;->X1()V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -465,7 +438,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/function/MosaicFragment;->h0:Lcom/commsource/widget/h1/e;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -480,7 +452,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/function/MosaicFragment;->d0:Lcom/commsource/beautyplus/f0/m9;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -495,7 +466,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/function/MosaicFragment;->e0:Lcom/commsource/studio/processor/MosaicProcessor;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -510,7 +480,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/function/MosaicFragment;->j0:Lcom/commsource/comic/widget/c;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -525,7 +494,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/function/MosaicFragment;->i0:Lcom/commsource/widget/dialog/q0;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -540,7 +508,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/commsource/studio/function/MosaicFragment;->b2(Lcom/commsource/beautymain/data/c;)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -555,7 +522,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/function/MosaicFragment;->h0:Lcom/commsource/widget/h1/e;
 
     const-string v2, "mAdapter"
@@ -575,12 +541,10 @@
 
     if-eqz v1, :cond_1
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 3
     :cond_1
     iget-object v1, p0, Lcom/commsource/studio/function/MosaicFragment;->h0:Lcom/commsource/widget/h1/e;
 
@@ -591,14 +555,12 @@
     :cond_2
     invoke-virtual {v1, p1}, Lcom/commsource/widget/h1/e;->E(Ljava/lang/Object;)V
 
-    .line 4
     new-instance v1, Lcom/commsource/studio/function/MosaicFragment$applyMosaic$1;
 
     invoke-direct {v1, p0, p1}, Lcom/commsource/studio/function/MosaicFragment$applyMosaic$1;-><init>(Lcom/commsource/studio/function/MosaicFragment;Lcom/commsource/beautymain/data/c;)V
 
     invoke-virtual {p0, v1}, Lcom/commsource/studio/function/BaseSubFragment;->Y0(Lcotlin/jvm/u/a;)V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -651,7 +613,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/meitu/library/hwanalytics/spm/d;->b:Lcom/meitu/library/hwanalytics/spm/d;
 
     new-instance v2, Ljava/lang/StringBuilder;
@@ -680,10 +641,8 @@
 
     const-string v3, "\u5f39\u7a97"
 
-    .line 2
     invoke-virtual {v1, v2, v3}, Lcom/meitu/library/hwanalytics/spm/d;->d(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 3
     new-instance v1, Lcom/commsource/util/p2/c;
 
     invoke-virtual {p0}, Lcom/commsource/beautyplus/i0/a;->q()Landroidx/fragment/app/FragmentActivity;
@@ -696,7 +655,6 @@
 
     invoke-direct {v1, v2}, Lcom/commsource/util/p2/c;-><init>(Landroidx/fragment/app/FragmentActivity;)V
 
-    .line 4
     new-instance v2, Lcom/commsource/studio/function/MosaicFragment$a;
 
     const-string v3, "\u9a6c\u8d5b\u514b"
@@ -705,7 +663,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/util/p2/c;->c(Lcom/commsource/util/p2/b;)V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -718,7 +675,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/studio/function/MosaicFragment;->R1()Lcom/commsource/beautymain/viewmodel/MosaicViewModel;
 
     move-result-object v1
@@ -729,7 +685,6 @@
 
     if-eqz v1, :cond_2
 
-    .line 2
     invoke-virtual {p2}, Lcom/commsource/beautymain/data/c;->k()I
 
     move-result v1
@@ -738,7 +693,6 @@
 
     if-ne v1, v2, :cond_1
 
-    .line 3
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
     move-result-object v1
@@ -749,19 +703,16 @@
 
     if-nez v1, :cond_0
 
-    .line 4
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
     move-result-object p1
 
     invoke-static {p1}, Lcom/commsource/widget/dialog/s0/t;->Y(Landroid/content/Context;)V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 6
     :cond_0
     invoke-direct {p0}, Lcom/commsource/studio/function/MosaicFragment;->R1()Lcom/commsource/beautymain/viewmodel/MosaicViewModel;
 
@@ -769,19 +720,16 @@
 
     invoke-virtual {v1, p1}, Lcom/commsource/beautymain/viewmodel/MosaicViewModel;->h0(I)V
 
-    .line 7
     invoke-direct {p0}, Lcom/commsource/studio/function/MosaicFragment;->R1()Lcom/commsource/beautymain/viewmodel/MosaicViewModel;
 
     move-result-object p1
 
     invoke-virtual {p1, p2}, Lcom/commsource/beautymain/viewmodel/MosaicViewModel;->K(Lcom/commsource/beautymain/data/c;)V
 
-    .line 8
     invoke-direct {p0}, Lcom/commsource/studio/function/MosaicFragment;->a2()V
 
     goto :goto_0
 
-    .line 9
     :cond_1
     invoke-direct {p0}, Lcom/commsource/studio/function/MosaicFragment;->R1()Lcom/commsource/beautymain/viewmodel/MosaicViewModel;
 
@@ -791,7 +739,6 @@
 
     goto :goto_0
 
-    .line 10
     :cond_2
     invoke-direct {p0}, Lcom/commsource/studio/function/MosaicFragment;->R1()Lcom/commsource/beautymain/viewmodel/MosaicViewModel;
 
@@ -799,7 +746,6 @@
 
     invoke-virtual {v1, p1, p2}, Lcom/commsource/beautymain/viewmodel/MosaicViewModel;->g0(ILcom/commsource/beautymain/data/c;)V
 
-    .line 11
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -813,7 +759,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/function/MosaicFragment;->j0:Lcom/commsource/comic/widget/c;
 
     if-eqz v1, :cond_0
@@ -823,10 +768,8 @@
     :cond_0
     const/4 v1, 0x0
 
-    .line 2
     iput-object v1, p0, Lcom/commsource/studio/function/MosaicFragment;->j0:Lcom/commsource/comic/widget/c;
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -839,7 +782,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/studio/function/BaseSubFragment;->r0()Lcom/commsource/studio/ImageStudioViewModel;
 
     move-result-object v1
@@ -856,7 +798,6 @@
 
     invoke-virtual {v1, v2}, Landroidx/lifecycle/MutableLiveData;->setValue(Ljava/lang/Object;)V
 
-    .line 2
     new-instance v1, Lcom/commsource/widget/h1/e;
 
     iget-object v2, p0, Lcom/commsource/beautyplus/i0/a;->b:Landroid/app/Activity;
@@ -865,7 +806,6 @@
 
     iput-object v1, p0, Lcom/commsource/studio/function/MosaicFragment;->h0:Lcom/commsource/widget/h1/e;
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/studio/function/MosaicFragment;->d0:Lcom/commsource/beautyplus/f0/m9;
 
     const-string v2, "mViewBinding"
@@ -891,7 +831,6 @@
 
     invoke-virtual {v1, v4}, Landroidx/recyclerview/widget/RecyclerView;->setLayoutManager(Landroidx/recyclerview/widget/RecyclerView$LayoutManager;)V
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/studio/function/MosaicFragment;->d0:Lcom/commsource/beautyplus/f0/m9;
 
     if-nez v1, :cond_1
@@ -914,7 +853,6 @@
     :cond_2
     invoke-virtual {v1, v4}, Landroidx/recyclerview/widget/RecyclerView;->setAdapter(Landroidx/recyclerview/widget/RecyclerView$Adapter;)V
 
-    .line 5
     iget-object v1, p0, Lcom/commsource/studio/function/MosaicFragment;->d0:Lcom/commsource/beautyplus/f0/m9;
 
     if-nez v1, :cond_3
@@ -930,7 +868,6 @@
 
     invoke-virtual {v1, v2}, Landroidx/recyclerview/widget/RecyclerView;->setItemAnimator(Landroidx/recyclerview/widget/RecyclerView$ItemAnimator;)V
 
-    .line 6
     iget-object v1, p0, Lcom/commsource/studio/function/MosaicFragment;->h0:Lcom/commsource/widget/h1/e;
 
     if-nez v1, :cond_4
@@ -946,7 +883,6 @@
 
     invoke-virtual {v1, v2, v3}, Lcom/commsource/widget/h1/e;->J(Ljava/lang/Class;Lcom/commsource/widget/h1/e$b;)V
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -959,12 +895,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/studio/function/MosaicFragment;->l0:Z
 
     if-nez v1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -972,10 +906,8 @@
     :cond_0
     const/4 v1, 0x0
 
-    .line 3
     iput-boolean v1, p0, Lcom/commsource/studio/function/MosaicFragment;->l0:Z
 
-    .line 4
     invoke-virtual {p0}, Lcom/commsource/studio/function/BaseSubFragment;->n0()Lcom/commsource/beautyplus/router/RouterEntity;
 
     move-result-object v2
@@ -988,7 +920,6 @@
 
     const/4 v5, 0x0
 
-    .line 5
     invoke-static {v2, v4, v1, v3, v5}, Lcom/commsource/beautyplus/router/RouterEntity;->getParameterInt$default(Lcom/commsource/beautyplus/router/RouterEntity;Ljava/lang/String;IILjava/lang/Object;)I
 
     move-result v3
@@ -997,7 +928,6 @@
 
     move-result-object v3
 
-    .line 6
     invoke-direct {p0}, Lcom/commsource/studio/function/MosaicFragment;->R1()Lcom/commsource/beautymain/viewmodel/MosaicViewModel;
 
     move-result-object v4
@@ -1022,7 +952,6 @@
 
     if-eqz v4, :cond_2
 
-    .line 7
     invoke-interface {v4}, Ljava/util/List;->size()I
 
     move-result v6
@@ -1032,7 +961,6 @@
     :goto_0
     if-ge v7, v6, :cond_2
 
-    .line 8
     invoke-interface {v4, v7}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object v8
@@ -1041,7 +969,6 @@
 
     const-string v9, "temp"
 
-    .line 9
     invoke-static {v8, v9}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v8}, Lcom/commsource/beautymain/data/c;->l()Ljava/lang/String;
@@ -1069,20 +996,17 @@
     :goto_1
     if-eqz v5, :cond_3
 
-    .line 10
     invoke-direct {p0, v1, v5}, Lcom/commsource/studio/function/MosaicFragment;->U1(ILcom/commsource/beautymain/data/c;)V
 
     :cond_3
     const-string v1, "size"
 
-    .line 11
     invoke-virtual {v2, v1}, Lcom/commsource/beautyplus/router/RouterEntity;->getParameter(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v1
 
     if-eqz v1, :cond_5
 
-    .line 12
     iget-object v2, p0, Lcom/commsource/studio/function/MosaicFragment;->d0:Lcom/commsource/beautyplus/f0/m9;
 
     if-nez v2, :cond_4
@@ -1100,7 +1024,6 @@
 
     invoke-virtual {v2, v1}, Lcom/commsource/studio/component/PaintEraserComponent;->setPaintProgress(I)V
 
-    .line 13
     :cond_5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1114,7 +1037,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/commsource/comic/widget/c;
 
     iget-object v2, p0, Lcom/commsource/beautyplus/i0/a;->b:Landroid/app/Activity;
@@ -1123,13 +1045,10 @@
 
     invoke-direct {v1, v2, v3}, Lcom/commsource/comic/widget/c;-><init>(Landroid/content/Context;I)V
 
-    .line 2
     invoke-virtual {v1}, Landroid/app/Dialog;->show()V
 
-    .line 3
     iput-object v1, p0, Lcom/commsource/studio/function/MosaicFragment;->j0:Lcom/commsource/comic/widget/c;
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1142,7 +1061,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/function/MosaicFragment;->i0:Lcom/commsource/widget/dialog/q0;
 
     const-string v2, "MOSAIC-PURCHASE-DIALOG"
@@ -1151,7 +1069,6 @@
 
     if-nez v1, :cond_2
 
-    .line 2
     invoke-virtual {p0}, Lcom/commsource/beautyplus/i0/a;->q()Landroidx/fragment/app/FragmentActivity;
 
     move-result-object v1
@@ -1174,7 +1091,6 @@
 
     if-nez v1, :cond_1
 
-    .line 3
     new-instance v1, Lcom/commsource/widget/dialog/q0$b;
 
     invoke-direct {v1}, Lcom/commsource/widget/dialog/q0$b;-><init>()V
@@ -1187,19 +1103,16 @@
 
     move-result-object v1
 
-    .line 4
     invoke-virtual {v1, v4}, Lcom/commsource/widget/dialog/q0$b;->b(I)Lcom/commsource/widget/dialog/q0$b;
 
     move-result-object v1
 
     const/4 v4, 0x1
 
-    .line 5
     invoke-virtual {v1, v4}, Lcom/commsource/widget/dialog/q0$b;->i(Z)Lcom/commsource/widget/dialog/q0$b;
 
     move-result-object v1
 
-    .line 6
     invoke-virtual {p1}, Lcom/commsource/beautymain/data/c;->l()Ljava/lang/String;
 
     move-result-object v4
@@ -1208,7 +1121,6 @@
 
     move-result-object v1
 
-    .line 7
     invoke-virtual {p1}, Lcom/commsource/beautymain/data/c;->p()Ljava/lang/String;
 
     move-result-object v4
@@ -1217,7 +1129,6 @@
 
     move-result-object v1
 
-    .line 8
     invoke-static {}, Lf/d/i/o;->m0()Z
 
     move-result v4
@@ -1240,7 +1151,6 @@
 
     move-result-object v1
 
-    .line 9
     new-instance v4, Lcom/commsource/studio/function/MosaicFragment$i;
 
     invoke-direct {v4, p0, p1}, Lcom/commsource/studio/function/MosaicFragment$i;-><init>(Lcom/commsource/studio/function/MosaicFragment;Lcom/commsource/beautymain/data/c;)V
@@ -1249,7 +1159,6 @@
 
     move-result-object v1
 
-    .line 10
     new-instance v4, Lcom/commsource/studio/function/MosaicFragment$j;
 
     invoke-direct {v4, p0, p1}, Lcom/commsource/studio/function/MosaicFragment$j;-><init>(Lcom/commsource/studio/function/MosaicFragment;Lcom/commsource/beautymain/data/c;)V
@@ -1258,7 +1167,6 @@
 
     move-result-object p1
 
-    .line 11
     invoke-virtual {p1}, Lcom/commsource/widget/dialog/q0$b;->a()Lcom/commsource/widget/dialog/q0;
 
     move-result-object p1
@@ -1267,7 +1175,6 @@
 
     if-eqz p1, :cond_2
 
-    .line 12
     new-instance v1, Lcom/commsource/studio/function/MosaicFragment$k;
 
     invoke-direct {v1, p0}, Lcom/commsource/studio/function/MosaicFragment$k;-><init>(Lcom/commsource/studio/function/MosaicFragment;)V
@@ -1279,7 +1186,6 @@
     :cond_1
     if-eqz v1, :cond_2
 
-    .line 13
     invoke-virtual {p1}, Lcom/commsource/beautymain/data/c;->p()Ljava/lang/String;
 
     move-result-object v5
@@ -1294,14 +1200,12 @@
 
     invoke-virtual {v1, v5, v6, v4, p1}, Lcom/commsource/widget/dialog/q0;->U(Ljava/lang/String;Ljava/lang/String;ILjava/lang/String;)V
 
-    .line 14
     :cond_2
     :goto_1
     iget-object p1, p0, Lcom/commsource/studio/function/MosaicFragment;->i0:Lcom/commsource/widget/dialog/q0;
 
     if-eqz p1, :cond_3
 
-    .line 15
     invoke-virtual {p1}, Landroidx/fragment/app/Fragment;->isAdded()Z
 
     move-result v1
@@ -1320,7 +1224,6 @@
 
     if-nez v1, :cond_3
 
-    .line 16
     invoke-virtual {p0}, Lcom/commsource/beautyplus/i0/a;->q()Landroidx/fragment/app/FragmentActivity;
 
     move-result-object v1
@@ -1333,7 +1236,6 @@
 
     invoke-virtual {p1, v1, v2}, Lcom/commsource/widget/dialog/q0;->show(Landroidx/fragment/app/FragmentManager;Ljava/lang/String;)V
 
-    .line 17
     :cond_3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1347,7 +1249,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/commsource/studio/function/MosaicFragment;->P1(Lcom/commsource/beautymain/data/c;)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1364,12 +1265,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/function/MosaicFragment;->e0:Lcom/commsource/studio/processor/MosaicProcessor;
 
     if-eqz v1, :cond_3
 
-    .line 2
     invoke-virtual {p0}, Lcom/commsource/studio/function/MosaicFragment;->Q1()Lcom/commsource/studio/effect/p;
 
     move-result-object v2
@@ -1384,7 +1283,6 @@
 
     invoke-virtual {v2, v3}, Lcom/commsource/studio/effect/p;->u(Z)V
 
-    .line 3
     invoke-virtual {p0}, Lcom/commsource/studio/function/MosaicFragment;->Q1()Lcom/commsource/studio/effect/p;
 
     move-result-object v2
@@ -1395,7 +1293,6 @@
 
     invoke-virtual {v2}, Ljava/util/ArrayList;->clear()V
 
-    .line 4
     invoke-virtual {p0}, Lcom/commsource/studio/function/MosaicFragment;->Q1()Lcom/commsource/studio/effect/p;
 
     move-result-object v2
@@ -1414,14 +1311,12 @@
 
     invoke-virtual {v2, v1}, Ljava/util/ArrayList;->addAll(Ljava/util/Collection;)Z
 
-    .line 5
     new-instance v1, Ljava/util/HashMap;
 
     const/4 v2, 0x4
 
     invoke-direct {v1, v2}, Ljava/util/HashMap;-><init>(I)V
 
-    .line 6
     invoke-virtual {p0}, Lcom/commsource/studio/function/MosaicFragment;->Q1()Lcom/commsource/studio/effect/p;
 
     move-result-object v2
@@ -1436,7 +1331,6 @@
 
     if-lez v2, :cond_2
 
-    .line 7
     invoke-virtual {p0}, Lcom/commsource/studio/function/MosaicFragment;->Q1()Lcom/commsource/studio/effect/p;
 
     move-result-object v2
@@ -1469,7 +1363,6 @@
 
     invoke-interface {v1, v3, v2}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 8
     invoke-virtual {p0}, Lcom/commsource/studio/function/MosaicFragment;->Q1()Lcom/commsource/studio/effect/p;
 
     move-result-object v2
@@ -1478,7 +1371,6 @@
 
     move-result-object v2
 
-    .line 9
     invoke-interface {v2}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v2
@@ -1497,7 +1389,6 @@
 
     check-cast v3, Lcom/commsource/beautymain/data/c;
 
-    .line 10
     invoke-virtual {v3}, Lcom/commsource/beautymain/data/c;->g()I
 
     move-result v3
@@ -1506,7 +1397,6 @@
 
     if-ne v3, v4, :cond_0
 
-    .line 11
     invoke-static {}, Lf/d/i/o;->o0()Z
 
     move-result v3
@@ -1530,10 +1420,8 @@
     :cond_2
     const-string v2, "mosaicyes"
 
-    .line 12
     invoke-static {v2, v1}, Lcom/commsource/statistics/i;->s(Ljava/lang/String;Ljava/util/Map;)V
 
-    .line 13
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
     move-result-object v1
@@ -1542,7 +1430,6 @@
 
     invoke-static {v1, v2}, Lcom/commsource/statistics/c;->f(Landroid/content/Context;Ljava/lang/String;)V
 
-    .line 14
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
     move-result-object v1
@@ -1551,18 +1438,15 @@
 
     invoke-static {v1, v2}, Lcom/commsource/statistics/c;->f(Landroid/content/Context;Ljava/lang/String;)V
 
-    .line 15
     :cond_3
     invoke-super {p0}, Lcom/commsource/studio/function/BaseSubFragment;->G0()V
 
-    .line 16
     invoke-direct {p0}, Lcom/commsource/studio/function/MosaicFragment;->R1()Lcom/commsource/beautymain/viewmodel/MosaicViewModel;
 
     move-result-object v1
 
     invoke-virtual {v1}, Lcom/commsource/beautymain/viewmodel/MosaicViewModel;->I()V
 
-    .line 17
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1575,18 +1459,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/commsource/studio/processor/MosaicProcessor;
 
     invoke-direct {v1}, Lcom/commsource/studio/processor/MosaicProcessor;-><init>()V
 
-    .line 2
     invoke-virtual {p0, v1}, Lcom/commsource/studio/function/BaseSubFragment;->D(Lcom/commsource/studio/processor/BaseEffectProcessor;)V
 
-    .line 3
     iput-object v1, p0, Lcom/commsource/studio/function/MosaicFragment;->e0:Lcom/commsource/studio/processor/MosaicProcessor;
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/studio/function/MosaicFragment;->d0:Lcom/commsource/beautyplus/f0/m9;
 
     if-nez v1, :cond_0
@@ -1635,12 +1515,10 @@
     :cond_1
     invoke-virtual {v1, v2, v3}, Lcom/commsource/studio/MagnifyComponent;->i(Landroid/opengl/EGLContext;Lcom/commsource/easyeditor/utils/opengl/f;)V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 6
     :cond_2
     new-instance v1, Lcotlin/TypeCastException;
 
@@ -1660,17 +1538,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0}, Lcom/commsource/studio/function/BaseSubFragment;->L0()V
 
-    .line 2
     invoke-direct {p0}, Lcom/commsource/studio/function/MosaicFragment;->S1()Lcom/commsource/studio/component/UndoRedoComponent$c;
 
     move-result-object v1
 
     invoke-virtual {v1}, Lcom/commsource/studio/component/UndoRedoComponent$c;->B()V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1683,17 +1558,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/studio/function/MosaicFragment;->A0()V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/function/MosaicFragment;->e0:Lcom/commsource/studio/processor/MosaicProcessor;
 
     if-eqz v1, :cond_0
 
     invoke-virtual {v1, p0}, Lcom/commsource/studio/processor/MosaicProcessor;->Q(Landroidx/fragment/app/Fragment;)V
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1709,7 +1581,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/function/MosaicFragment;->c0:Lcom/commsource/studio/effect/p;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1732,7 +1603,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/function/MosaicFragment;->c0:Lcom/commsource/studio/effect/p;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1747,7 +1617,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/studio/function/MosaicFragment;->Q1()Lcom/commsource/studio/effect/p;
 
     move-result-object v1
@@ -1772,7 +1641,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/studio/function/MosaicFragment;->R1()Lcom/commsource/beautymain/viewmodel/MosaicViewModel;
 
     move-result-object v1
@@ -1811,7 +1679,6 @@
 
     invoke-virtual {p1, v2, v1}, Lcom/commsource/beautyplus/router/RouterEntity;->addParameter(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/function/MosaicFragment;->d0:Lcom/commsource/beautyplus/f0/m9;
 
     if-nez v1, :cond_1
@@ -1835,7 +1702,6 @@
 
     invoke-virtual {p1, v2, v1}, Lcom/commsource/beautyplus/router/RouterEntity;->addParameter(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1848,7 +1714,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Lcom/commsource/studio/effect/p;
 
     invoke-virtual {p0, p1}, Lcom/commsource/studio/function/MosaicFragment;->Y1(Lcom/commsource/studio/effect/p;)V
@@ -1865,7 +1730,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/function/MosaicFragment;->k0:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1880,7 +1744,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/studio/function/MosaicFragment;->k0:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1899,10 +1762,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0, p1}, Lcom/commsource/studio/function/BaseSubFragment;->onCreate(Landroid/os/Bundle;)V
 
-    .line 2
     invoke-static {}, Lf/d/i/o;->o0()Z
 
     move-result p1
@@ -1911,14 +1772,12 @@
 
     sget p1, Lcom/res/provider/ResSTRING;->ad_slot_mosaic_rewardedvideo_ad:I
 
-    .line 3
     invoke-static {p1}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
 
     move-result-object p1
 
     invoke-static {p1}, Lcom/meitu/hwbusinesskit/core/HWBusinessSDK;->preloadRewardedVideoAdvert(Ljava/lang/String;)V
 
-    .line 4
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1950,7 +1809,6 @@
 
     invoke-static {p1, p3}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     new-instance p3, Lcom/commsource/studio/layer/PaintMaskLayer;
 
     iget-object v0, p0, Lcom/commsource/beautyplus/i0/a;->b:Landroid/app/Activity;
@@ -1963,7 +1821,6 @@
 
     const/4 v0, 0x1
 
-    .line 2
     invoke-virtual {p3, v0}, Lcom/commsource/studio/layer/PaintMaskLayer;->P0(Z)V
 
     const/4 v0, 0x0
@@ -1972,16 +1829,12 @@
 
     const/4 v2, 0x0
 
-    .line 3
     invoke-static {p0, p3, v0, v1, v2}, Lcom/commsource/studio/function/BaseSubFragment;->F(Lcom/commsource/studio/function/BaseSubFragment;Lcom/commsource/studio/layer/d;IILjava/lang/Object;)V
 
-    .line 4
     invoke-virtual {p3, v0}, Lcom/commsource/studio/layer/PaintMaskLayer;->R0(Z)V
 
-    .line 5
     iput-object p3, p0, Lcom/commsource/studio/function/MosaicFragment;->f0:Lcom/commsource/studio/layer/PaintMaskLayer;
 
-    .line 6
     invoke-static {p1}, Lcom/commsource/beautyplus/f0/m9;->d(Landroid/view/LayoutInflater;)Lcom/commsource/beautyplus/f0/m9;
 
     move-result-object p1
@@ -1996,13 +1849,11 @@
 
     if-nez p1, :cond_0
 
-    .line 7
     invoke-static {p3}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
     invoke-virtual {p1, p0}, Lcom/commsource/beautyplus/f0/m9;->i(Landroidx/fragment/app/Fragment;)V
 
-    .line 8
     iget-object p1, p0, Lcom/commsource/studio/function/MosaicFragment;->d0:Lcom/commsource/beautyplus/f0/m9;
 
     if-nez p1, :cond_1
@@ -2054,13 +1905,10 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-super {p0, p1, p2}, Lcom/commsource/studio/function/BaseSubFragment;->onViewCreated(Landroid/view/View;Landroid/os/Bundle;)V
 
-    .line 2
     invoke-direct {p0}, Lcom/commsource/studio/function/MosaicFragment;->S1()Lcom/commsource/studio/component/UndoRedoComponent$c;
 
-    .line 3
     iget-object p1, p0, Lcom/commsource/studio/function/MosaicFragment;->d0:Lcom/commsource/beautyplus/f0/m9;
 
     const-string p2, "mViewBinding"
@@ -2078,7 +1926,6 @@
 
     invoke-virtual {p0, p1}, Lcom/commsource/studio/function/BaseSubFragment;->C(Landroid/view/View;)V
 
-    .line 4
     iget-object p1, p0, Lcom/commsource/studio/function/MosaicFragment;->d0:Lcom/commsource/beautyplus/f0/m9;
 
     if-nez p1, :cond_1
@@ -2094,7 +1941,6 @@
 
     invoke-virtual {p0, p1}, Lcom/commsource/studio/function/BaseSubFragment;->C(Landroid/view/View;)V
 
-    .line 5
     iget-object p1, p0, Lcom/commsource/studio/function/MosaicFragment;->d0:Lcom/commsource/beautyplus/f0/m9;
 
     if-nez p1, :cond_2
@@ -2110,10 +1956,8 @@
 
     invoke-virtual {p0, p1}, Lcom/commsource/studio/function/BaseSubFragment;->C(Landroid/view/View;)V
 
-    .line 6
     invoke-direct {p0}, Lcom/commsource/studio/function/MosaicFragment;->W1()V
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2208,12 +2052,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/function/MosaicFragment;->e0:Lcom/commsource/studio/processor/MosaicProcessor;
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-virtual {p0}, Lcom/commsource/studio/function/MosaicFragment;->Q1()Lcom/commsource/studio/effect/p;
 
     move-result-object v2
@@ -2224,7 +2066,6 @@
 
     invoke-virtual {v2}, Ljava/util/ArrayList;->clear()V
 
-    .line 3
     invoke-virtual {p0}, Lcom/commsource/studio/function/MosaicFragment;->Q1()Lcom/commsource/studio/effect/p;
 
     move-result-object v2
@@ -2243,11 +2084,9 @@
 
     invoke-virtual {v2, v1}, Ljava/util/ArrayList;->addAll(Ljava/util/Collection;)Z
 
-    .line 4
     :cond_0
     invoke-super {p0}, Lcom/commsource/studio/function/BaseSubFragment;->y0()V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

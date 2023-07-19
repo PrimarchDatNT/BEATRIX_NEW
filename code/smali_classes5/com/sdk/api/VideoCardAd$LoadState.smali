@@ -48,7 +48,6 @@
 .method static constructor <clinit>()V
     .locals 15
 
-    .line 1
     new-instance v0, Lcom/sdk/api/VideoCardAd$LoadState;
 
     const-string v1, "IDLE"
@@ -137,7 +136,6 @@
 
     aput-object v11, v13, v14
 
-    .line 2
     sput-object v13, Lcom/sdk/api/VideoCardAd$LoadState;->$VALUES:[Lcom/sdk/api/VideoCardAd$LoadState;
 
     return-void
@@ -151,10 +149,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 2
     iput p3, p0, Lcom/sdk/api/VideoCardAd$LoadState;->mValue:I
 
     return-void
@@ -163,7 +159,6 @@
 .method static synthetic access$100(Lcom/sdk/api/VideoCardAd$LoadState;Lcom/sdk/api/VideoCardAd$LoadState;)Z
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/sdk/api/VideoCardAd$LoadState;->bigThan(Lcom/sdk/api/VideoCardAd$LoadState;)Z
 
     move-result p0
@@ -178,7 +173,6 @@
 
     if-eqz p1, :cond_1
 
-    .line 1
     iget v1, p0, Lcom/sdk/api/VideoCardAd$LoadState;->mValue:I
 
     iget p1, p1, Lcom/sdk/api/VideoCardAd$LoadState;->mValue:I
@@ -198,7 +192,6 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/sdk/api/VideoCardAd$LoadState;
     .locals 1
 
-    .line 1
     const-class v0, Lcom/sdk/api/VideoCardAd$LoadState;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -213,7 +206,6 @@
 .method public static values()[Lcom/sdk/api/VideoCardAd$LoadState;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/sdk/api/VideoCardAd$LoadState;->$VALUES:[Lcom/sdk/api/VideoCardAd$LoadState;
 
     invoke-virtual {v0}, [Lcom/sdk/api/VideoCardAd$LoadState;->clone()Ljava/lang/Object;

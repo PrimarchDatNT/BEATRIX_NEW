@@ -159,7 +159,6 @@
 
     move-result-object v0
 
-    .line 1
     iget v1, p0, Lcotlinx/coroutines/flow/FlowKt__EmittersKt$transform$1;->label:I
 
     const/4 v2, 0x1
@@ -180,7 +179,6 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     new-instance p1, Ljava/lang/IllegalStateException;
 
@@ -190,16 +188,13 @@
 
     throw p1
 
-    .line 3
     :cond_1
     invoke-static {p1}, Lcotlin/r0;->n(Ljava/lang/Object;)V
 
     iget-object p1, p0, Lcotlinx/coroutines/flow/FlowKt__EmittersKt$transform$1;->p$:Lcotlinx/coroutines/flow/e;
 
-    .line 4
     iget-object v1, p0, Lcotlinx/coroutines/flow/FlowKt__EmittersKt$transform$1;->$this_transform:Lcotlinx/coroutines/flow/d;
 
-    .line 5
     new-instance v3, Lcotlinx/coroutines/flow/FlowKt__EmittersKt$transform$1$invokeSuspend$$inlined$collect$1;
 
     invoke-direct {v3, p0, p1}, Lcotlinx/coroutines/flow/FlowKt__EmittersKt$transform$1$invokeSuspend$$inlined$collect$1;-><init>(Lcotlinx/coroutines/flow/FlowKt__EmittersKt$transform$1;Lcotlinx/coroutines/flow/e;)V
@@ -218,7 +213,6 @@
 
     return-object v0
 
-    .line 6
     :cond_2
     :goto_0
     sget-object p1, Lcotlin/t1;->a:Lcotlin/t1;
@@ -237,10 +231,8 @@
 
     iget-object p1, p0, Lcotlinx/coroutines/flow/FlowKt__EmittersKt$transform$1;->p$:Lcotlinx/coroutines/flow/e;
 
-    .line 1
     iget-object v0, p0, Lcotlinx/coroutines/flow/FlowKt__EmittersKt$transform$1;->$this_transform:Lcotlinx/coroutines/flow/d;
 
-    .line 2
     new-instance v1, Lcotlinx/coroutines/flow/FlowKt__EmittersKt$transform$1$invokeSuspend$$inlined$collect$1;
 
     invoke-direct {v1, p0, p1}, Lcotlinx/coroutines/flow/FlowKt__EmittersKt$transform$1$invokeSuspend$$inlined$collect$1;-><init>(Lcotlinx/coroutines/flow/FlowKt__EmittersKt$transform$1;Lcotlinx/coroutines/flow/e;)V
@@ -259,7 +251,6 @@
 
     invoke-static {p1}, Lcotlin/jvm/internal/c0;->e(I)V
 
-    .line 3
     sget-object p1, Lcotlin/t1;->a:Lcotlin/t1;
 
     return-object p1

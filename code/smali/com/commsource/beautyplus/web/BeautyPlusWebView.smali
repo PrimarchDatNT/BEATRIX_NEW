@@ -23,7 +23,6 @@
 .method public constructor <init>(Landroid/content/Context;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/meitu/webview/core/CommonWebView;-><init>(Landroid/content/Context;)V
 
     return-void
@@ -32,15 +31,12 @@
 .method public constructor <init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
     .locals 4
 
-    .line 2
     invoke-direct {p0, p1, p2}, Lcom/meitu/webview/core/CommonWebView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
     const/4 p2, 0x0
 
-    .line 3
     invoke-virtual {p0, p2}, Landroid/webkit/WebView;->setScrollBarStyle(I)V
 
-    .line 4
     new-instance p2, Landroid/widget/ProgressBar;
 
     const/4 v0, 0x0
@@ -51,14 +47,12 @@
 
     iput-object p2, p0, Lcom/commsource/beautyplus/web/BeautyPlusWebView;->e0:Landroid/widget/ProgressBar;
 
-    .line 5
     new-instance p1, Landroid/widget/AbsoluteLayout$LayoutParams;
 
     new-instance v1, Landroid/view/ViewGroup$LayoutParams;
 
     const/high16 v2, 0x40000000    # 2.0f
 
-    .line 6
     invoke-static {v2}, Lcom/meitu/library/p/f/i;->d(F)I
 
     move-result v2
@@ -69,22 +63,18 @@
 
     invoke-direct {p1, v1}, Landroid/widget/AbsoluteLayout$LayoutParams;-><init>(Landroid/view/ViewGroup$LayoutParams;)V
 
-    .line 7
     invoke-virtual {p2, p1}, Landroid/widget/ProgressBar;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
 
-    .line 8
     iget-object p1, p0, Lcom/commsource/beautyplus/web/BeautyPlusWebView;->e0:Landroid/widget/ProgressBar;
 
     invoke-virtual {p0, p1}, Landroid/webkit/WebView;->addView(Landroid/view/View;)V
 
-    .line 9
     new-instance p1, Lcom/commsource/beautyplus/web/BeautyPlusWebView$b;
 
     invoke-direct {p1, p0}, Lcom/commsource/beautyplus/web/BeautyPlusWebView$b;-><init>(Lcom/commsource/beautyplus/web/BeautyPlusWebView;)V
 
     invoke-virtual {p0, p1}, Lcom/meitu/webview/core/CommonWebView;->setWebChromeClient(Landroid/webkit/WebChromeClient;)V
 
-    .line 10
     new-instance p1, Lcom/commsource/beautyplus/web/BeautyPlusWebView$c;
 
     invoke-direct {p1, p0, v0}, Lcom/commsource/beautyplus/web/BeautyPlusWebView$c;-><init>(Lcom/commsource/beautyplus/web/BeautyPlusWebView;Lcom/commsource/beautyplus/web/BeautyPlusWebView$a;)V
@@ -101,7 +91,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/beautyplus/web/BeautyPlusWebView;->e0:Landroid/widget/ProgressBar;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -116,7 +105,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/beautyplus/web/BeautyPlusWebView;->f0:Lcom/commsource/beautyplus/web/BeautyPlusWebView$d;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -133,10 +121,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/beautyplus/web/BeautyPlusWebView;->f0:Lcom/commsource/beautyplus/web/BeautyPlusWebView$d;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

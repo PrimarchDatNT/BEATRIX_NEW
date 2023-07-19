@@ -25,7 +25,6 @@
 .method constructor <init>(Lcom/commsource/beautyplus/setting/abtest/ABTestSettingActivity;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/beautyplus/setting/abtest/ABTestSettingActivity$a;->a:Lcom/commsource/beautyplus/setting/abtest/ABTestSettingActivity;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -42,7 +41,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -55,7 +53,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -68,7 +65,6 @@
 
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-interface {p1}, Ljava/lang/CharSequence;->length()I
 
     move-result p3
@@ -87,7 +83,6 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     iget-object p1, p0, Lcom/commsource/beautyplus/setting/abtest/ABTestSettingActivity$a;->a:Lcom/commsource/beautyplus/setting/abtest/ABTestSettingActivity;
 
@@ -103,7 +98,6 @@
 
     goto :goto_1
 
-    .line 3
     :cond_1
     :goto_0
     iget-object p3, p0, Lcom/commsource/beautyplus/setting/abtest/ABTestSettingActivity$a;->a:Lcom/commsource/beautyplus/setting/abtest/ABTestSettingActivity;
@@ -118,7 +112,6 @@
 
     invoke-virtual {p3, p4}, Landroid/widget/TextView;->setVisibility(I)V
 
-    .line 4
     iget-object p3, p0, Lcom/commsource/beautyplus/setting/abtest/ABTestSettingActivity$a;->a:Lcom/commsource/beautyplus/setting/abtest/ABTestSettingActivity;
 
     const/4 p4, 0x1
@@ -137,7 +130,6 @@
 
     if-eqz p1, :cond_2
 
-    .line 5
     iget-object p1, p0, Lcom/commsource/beautyplus/setting/abtest/ABTestSettingActivity$a;->a:Lcom/commsource/beautyplus/setting/abtest/ABTestSettingActivity;
 
     invoke-static {p1}, Lcom/commsource/beautyplus/setting/abtest/ABTestSettingActivity;->m0(Lcom/commsource/beautyplus/setting/abtest/ABTestSettingActivity;)Lcom/commsource/beautyplus/f0/a;
@@ -150,7 +142,6 @@
 
     invoke-virtual {p1, p3}, Landroid/widget/TextView;->setTextColor(I)V
 
-    .line 6
     iget-object p1, p0, Lcom/commsource/beautyplus/setting/abtest/ABTestSettingActivity$a;->a:Lcom/commsource/beautyplus/setting/abtest/ABTestSettingActivity;
 
     invoke-static {p1}, Lcom/commsource/beautyplus/setting/abtest/ABTestSettingActivity;->m0(Lcom/commsource/beautyplus/setting/abtest/ABTestSettingActivity;)Lcom/commsource/beautyplus/f0/a;
@@ -165,7 +156,6 @@
 
     goto :goto_1
 
-    .line 7
     :cond_2
     iget-object p1, p0, Lcom/commsource/beautyplus/setting/abtest/ABTestSettingActivity$a;->a:Lcom/commsource/beautyplus/setting/abtest/ABTestSettingActivity;
 
@@ -179,7 +169,6 @@
 
     invoke-virtual {p1, p3}, Landroid/widget/TextView;->setTextColor(I)V
 
-    .line 8
     iget-object p1, p0, Lcom/commsource/beautyplus/setting/abtest/ABTestSettingActivity$a;->a:Lcom/commsource/beautyplus/setting/abtest/ABTestSettingActivity;
 
     invoke-static {p1}, Lcom/commsource/beautyplus/setting/abtest/ABTestSettingActivity;->m0(Lcom/commsource/beautyplus/setting/abtest/ABTestSettingActivity;)Lcom/commsource/beautyplus/f0/a;
@@ -192,7 +181,6 @@
 
     invoke-virtual {p1, p3}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 9
     :goto_1
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

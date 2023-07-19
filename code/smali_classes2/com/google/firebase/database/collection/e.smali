@@ -49,20 +49,16 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     new-instance v0, Ljava/util/ArrayDeque;
 
     invoke-direct {v0}, Ljava/util/ArrayDeque;-><init>()V
 
     iput-object v0, p0, Lcom/google/firebase/database/collection/e;->a:Ljava/util/ArrayDeque;
 
-    .line 3
     iput-boolean p4, p0, Lcom/google/firebase/database/collection/e;->b:Z
 
-    .line 4
     :goto_0
     invoke-interface {p1}, Lcom/google/firebase/database/collection/LLRBNode;->isEmpty()Z
 
@@ -74,7 +70,6 @@
 
     if-eqz p4, :cond_0
 
-    .line 5
     invoke-interface {p1}, Lcom/google/firebase/database/collection/LLRBNode;->getKey()Ljava/lang/Object;
 
     move-result-object v0
@@ -85,7 +80,6 @@
 
     goto :goto_1
 
-    .line 6
     :cond_0
     invoke-interface {p1}, Lcom/google/firebase/database/collection/LLRBNode;->getKey()Ljava/lang/Object;
 
@@ -105,14 +99,12 @@
 
     if-eqz p4, :cond_2
 
-    .line 7
     invoke-interface {p1}, Lcom/google/firebase/database/collection/LLRBNode;->a()Lcom/google/firebase/database/collection/LLRBNode;
 
     move-result-object p1
 
     goto :goto_0
 
-    .line 8
     :cond_2
     invoke-interface {p1}, Lcom/google/firebase/database/collection/LLRBNode;->h()Lcom/google/firebase/database/collection/LLRBNode;
 
@@ -123,7 +115,6 @@
     :cond_3
     if-nez v0, :cond_4
 
-    .line 9
     iget-object p2, p0, Lcom/google/firebase/database/collection/e;->a:Ljava/util/ArrayDeque;
 
     check-cast p1, Lcom/google/firebase/database/collection/j;
@@ -132,7 +123,6 @@
 
     goto :goto_2
 
-    .line 10
     :cond_4
     iget-object v0, p0, Lcom/google/firebase/database/collection/e;->a:Ljava/util/ArrayDeque;
 
@@ -144,14 +134,12 @@
 
     if-eqz p4, :cond_5
 
-    .line 11
     invoke-interface {p1}, Lcom/google/firebase/database/collection/LLRBNode;->h()Lcom/google/firebase/database/collection/LLRBNode;
 
     move-result-object p1
 
     goto :goto_0
 
-    .line 12
     :cond_5
     invoke-interface {p1}, Lcom/google/firebase/database/collection/LLRBNode;->a()Lcom/google/firebase/database/collection/LLRBNode;
 
@@ -176,7 +164,6 @@
         }
     .end annotation
 
-    .line 1
     :try_start_0
     iget-object v0, p0, Lcom/google/firebase/database/collection/e;->a:Ljava/util/ArrayDeque;
 
@@ -186,7 +173,6 @@
 
     check-cast v0, Lcom/google/firebase/database/collection/j;
 
-    .line 2
     new-instance v1, Ljava/util/AbstractMap$SimpleEntry;
 
     invoke-virtual {v0}, Lcom/google/firebase/database/collection/j;->getKey()Ljava/lang/Object;
@@ -199,17 +185,14 @@
 
     invoke-direct {v1, v2, v3}, Ljava/util/AbstractMap$SimpleEntry;-><init>(Ljava/lang/Object;Ljava/lang/Object;)V
 
-    .line 3
     iget-boolean v2, p0, Lcom/google/firebase/database/collection/e;->b:Z
 
     if-eqz v2, :cond_0
 
-    .line 4
     invoke-virtual {v0}, Lcom/google/firebase/database/collection/j;->a()Lcom/google/firebase/database/collection/LLRBNode;
 
     move-result-object v0
 
-    .line 5
     :goto_0
     invoke-interface {v0}, Lcom/google/firebase/database/collection/LLRBNode;->isEmpty()Z
 
@@ -217,7 +200,6 @@
 
     if-nez v2, :cond_1
 
-    .line 6
     iget-object v2, p0, Lcom/google/firebase/database/collection/e;->a:Ljava/util/ArrayDeque;
 
     move-object v3, v0
@@ -226,20 +208,17 @@
 
     invoke-virtual {v2, v3}, Ljava/util/ArrayDeque;->push(Ljava/lang/Object;)V
 
-    .line 7
     invoke-interface {v0}, Lcom/google/firebase/database/collection/LLRBNode;->h()Lcom/google/firebase/database/collection/LLRBNode;
 
     move-result-object v0
 
     goto :goto_0
 
-    .line 8
     :cond_0
     invoke-virtual {v0}, Lcom/google/firebase/database/collection/j;->h()Lcom/google/firebase/database/collection/LLRBNode;
 
     move-result-object v0
 
-    .line 9
     :goto_1
     invoke-interface {v0}, Lcom/google/firebase/database/collection/LLRBNode;->isEmpty()Z
 
@@ -247,7 +226,6 @@
 
     if-nez v2, :cond_1
 
-    .line 10
     iget-object v2, p0, Lcom/google/firebase/database/collection/e;->a:Ljava/util/ArrayDeque;
 
     move-object v3, v0
@@ -256,7 +234,6 @@
 
     invoke-virtual {v2, v3}, Ljava/util/ArrayDeque;->push(Ljava/lang/Object;)V
 
-    .line 11
     invoke-interface {v0}, Lcom/google/firebase/database/collection/LLRBNode;->a()Lcom/google/firebase/database/collection/LLRBNode;
 
     move-result-object v0
@@ -268,7 +245,6 @@
     :cond_1
     return-object v1
 
-    .line 12
     :catch_0
     new-instance v0, Ljava/util/NoSuchElementException;
 
@@ -280,7 +256,6 @@
 .method public hasNext()Z
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/database/collection/e;->a:Ljava/util/ArrayDeque;
 
     invoke-virtual {v0}, Ljava/util/ArrayDeque;->size()I
@@ -303,7 +278,6 @@
 .method public bridge synthetic next()Ljava/lang/Object;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/firebase/database/collection/e;->a()Ljava/util/Map$Entry;
 
     move-result-object v0
@@ -314,7 +288,6 @@
 .method public remove()V
     .locals 2
 
-    .line 1
     new-instance v0, Ljava/lang/UnsupportedOperationException;
 
     const-string v1, "remove called on immutable collection"

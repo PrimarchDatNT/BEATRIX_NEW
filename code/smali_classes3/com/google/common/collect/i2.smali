@@ -36,7 +36,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/google/common/collect/h2;-><init>(Ljava/util/Iterator;)V
 
     return-void
@@ -52,7 +51,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/h2;->a:Ljava/util/Iterator;
 
     invoke-static {v0}, Lcom/google/common/collect/Iterators;->f(Ljava/util/Iterator;)Ljava/util/ListIterator;
@@ -72,7 +70,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance p1, Ljava/lang/UnsupportedOperationException;
 
     invoke-direct {p1}, Ljava/lang/UnsupportedOperationException;-><init>()V
@@ -83,7 +80,6 @@
 .method public final hasPrevious()Z
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Lcom/google/common/collect/i2;->b()Ljava/util/ListIterator;
 
     move-result-object v0
@@ -98,7 +94,6 @@
 .method public final nextIndex()I
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Lcom/google/common/collect/i2;->b()Ljava/util/ListIterator;
 
     move-result-object v0
@@ -118,7 +113,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Lcom/google/common/collect/i2;->b()Ljava/util/ListIterator;
 
     move-result-object v0
@@ -137,7 +131,6 @@
 .method public final previousIndex()I
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Lcom/google/common/collect/i2;->b()Ljava/util/ListIterator;
 
     move-result-object v0
@@ -157,7 +150,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance p1, Ljava/lang/UnsupportedOperationException;
 
     invoke-direct {p1}, Ljava/lang/UnsupportedOperationException;-><init>()V

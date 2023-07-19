@@ -19,7 +19,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/google/android/gms/internal/ads/zzdtu$j;-><init>()V
 
     return-void
@@ -37,7 +36,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/google/android/gms/internal/ads/cr1;
 
     invoke-direct {v0}, Lcom/google/android/gms/internal/ads/cr1;-><init>()V
@@ -59,7 +57,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-super {p0, p1}, Lcom/google/android/gms/internal/ads/zzdtu;->i(Ljava/lang/Object;)Z
 
     move-result p1
@@ -70,7 +67,6 @@
 .method public final j(Ljava/lang/Throwable;)Z
     .locals 0
 
-    .line 1
     invoke-super {p0, p1}, Lcom/google/android/gms/internal/ads/zzdtu;->j(Ljava/lang/Throwable;)Z
 
     move-result p1

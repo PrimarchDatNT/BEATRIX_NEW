@@ -38,7 +38,6 @@
 
     iput-object p1, p0, Lcotlinx/coroutines/flow/internal/CombineKt$asChannel$1$a;->a:Lcotlinx/coroutines/channels/w;
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -55,7 +54,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcotlinx/coroutines/flow/internal/CombineKt$asChannel$1$a;->a:Lcotlinx/coroutines/channels/w;
 
     invoke-interface {v0}, Lcotlinx/coroutines/channels/w;->b()Lcotlinx/coroutines/channels/c0;

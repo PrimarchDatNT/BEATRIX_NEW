@@ -28,7 +28,6 @@
 
     const/high16 v1, 0xfa0000
 
-    .line 1
     invoke-direct {p0, v0, v1}, Lorg/apache/thrift/transport/TFastFramedTransport$Factory;-><init>(II)V
 
     return-void
@@ -39,7 +38,6 @@
 
     const/high16 v0, 0xfa0000
 
-    .line 2
     invoke-direct {p0, p1, v0}, Lorg/apache/thrift/transport/TFastFramedTransport$Factory;-><init>(II)V
 
     return-void
@@ -48,13 +46,10 @@
 .method public constructor <init>(II)V
     .locals 0
 
-    .line 3
     invoke-direct {p0}, Lorg/apache/thrift/transport/TTransportFactory;-><init>()V
 
-    .line 4
     iput p1, p0, Lorg/apache/thrift/transport/TFastFramedTransport$Factory;->initialCapacity:I
 
-    .line 5
     iput p2, p0, Lorg/apache/thrift/transport/TFastFramedTransport$Factory;->maxLength:I
 
     return-void
@@ -65,7 +60,6 @@
 .method public getTransport(Lorg/apache/thrift/transport/TTransport;)Lorg/apache/thrift/transport/TTransport;
     .locals 3
 
-    .line 1
     new-instance v0, Lorg/apache/thrift/transport/TFastFramedTransport;
 
     iget v1, p0, Lorg/apache/thrift/transport/TFastFramedTransport$Factory;->initialCapacity:I

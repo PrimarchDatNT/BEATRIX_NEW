@@ -27,7 +27,6 @@
 .method static constructor <clinit>()V
     .locals 3
 
-    .line 1
     new-instance v0, Lcom/google/firebase/firestore/f0;
 
     const/4 v1, 0x0
@@ -38,7 +37,6 @@
 
     sput-object v0, Lcom/google/firebase/firestore/f0;->c:Lcom/google/firebase/firestore/f0;
 
-    .line 2
     new-instance v0, Lcom/google/firebase/firestore/f0;
 
     const/4 v1, 0x1
@@ -57,7 +55,6 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     if-eqz p2, :cond_1
@@ -78,13 +75,10 @@
     :goto_1
     const-string v1, "Cannot specify a fieldMask for non-merge sets()"
 
-    .line 2
     invoke-static {v0, v1}, Lcom/google/common/base/t;->e(ZLjava/lang/Object;)V
 
-    .line 3
     iput-boolean p1, p0, Lcom/google/firebase/firestore/f0;->a:Z
 
-    .line 4
     iput-object p2, p0, Lcom/google/firebase/firestore/f0;->b:Lcom/google/firebase/firestore/model/n/c;
 
     return-void
@@ -98,7 +92,6 @@
     .annotation build Lcom/google/firebase/n/a;
     .end annotation
 
-    .line 1
     sget-object v0, Lcom/google/firebase/firestore/f0;->d:Lcom/google/firebase/firestore/f0;
 
     return-object v0
@@ -126,12 +119,10 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/util/HashSet;
 
     invoke-direct {v0}, Ljava/util/HashSet;-><init>()V
 
-    .line 2
     invoke-interface {p0}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
     move-result-object p0
@@ -149,7 +140,6 @@
 
     check-cast v1, Lcom/google/firebase/firestore/k;
 
-    .line 3
     invoke-virtual {v1}, Lcom/google/firebase/firestore/k;->c()Lcom/google/firebase/firestore/model/h;
 
     move-result-object v1
@@ -158,7 +148,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_0
     new-instance p0, Lcom/google/firebase/firestore/f0;
 
@@ -195,12 +184,10 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/util/HashSet;
 
     invoke-direct {v0}, Ljava/util/HashSet;-><init>()V
 
-    .line 2
     invoke-interface {p0}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
     move-result-object p0
@@ -218,7 +205,6 @@
 
     check-cast v1, Ljava/lang/String;
 
-    .line 3
     invoke-static {v1}, Lcom/google/firebase/firestore/k;->b(Ljava/lang/String;)Lcom/google/firebase/firestore/k;
 
     move-result-object v1
@@ -231,7 +217,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_0
     new-instance p0, Lcom/google/firebase/firestore/f0;
 
@@ -254,12 +239,10 @@
     .annotation build Lcom/google/firebase/n/a;
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/util/HashSet;
 
     invoke-direct {v0}, Ljava/util/HashSet;-><init>()V
 
-    .line 2
     array-length v1, p0
 
     const/4 v2, 0x0
@@ -269,7 +252,6 @@
 
     aget-object v3, p0, v2
 
-    .line 3
     invoke-static {v3}, Lcom/google/firebase/firestore/k;->b(Ljava/lang/String;)Lcom/google/firebase/firestore/k;
 
     move-result-object v3
@@ -284,7 +266,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_0
     new-instance p0, Lcom/google/firebase/firestore/f0;
 
@@ -312,7 +293,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/firestore/f0;->b:Lcom/google/firebase/firestore/model/n/c;
 
     return-object v0
@@ -321,7 +301,6 @@
 .method b()Z
     .locals 1
 
-    .line 1
     iget-boolean v0, p0, Lcom/google/firebase/firestore/f0;->a:Z
 
     return v0
@@ -341,7 +320,6 @@
 
     if-eqz p1, :cond_5
 
-    .line 1
     const-class v2, Lcom/google/firebase/firestore/f0;
 
     invoke-virtual {p1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
@@ -352,11 +330,9 @@
 
     goto :goto_1
 
-    .line 2
     :cond_1
     check-cast p1, Lcom/google/firebase/firestore/f0;
 
-    .line 3
     iget-boolean v2, p0, Lcom/google/firebase/firestore/f0;->a:Z
 
     iget-boolean v3, p1, Lcom/google/firebase/firestore/f0;->a:Z
@@ -365,7 +341,6 @@
 
     return v1
 
-    .line 4
     :cond_2
     iget-object v2, p0, Lcom/google/firebase/firestore/f0;->b:Lcom/google/firebase/firestore/model/n/c;
 
@@ -398,12 +373,10 @@
 .method public hashCode()I
     .locals 2
 
-    .line 1
     iget-boolean v0, p0, Lcom/google/firebase/firestore/f0;->a:Z
 
     mul-int/lit8 v0, v0, 0x1f
 
-    .line 2
     iget-object v1, p0, Lcom/google/firebase/firestore/f0;->b:Lcom/google/firebase/firestore/model/n/c;
 
     if-eqz v1, :cond_0

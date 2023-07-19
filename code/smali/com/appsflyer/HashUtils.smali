@@ -7,7 +7,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -16,12 +15,10 @@
 .method public static bytesToHex([B)Ljava/lang/String;
     .locals 5
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
 
-    .line 2
     array-length v1, p0
 
     const/4 v2, 0x0
@@ -37,7 +34,6 @@
 
     const/16 v4, 0x10
 
-    .line 3
     invoke-static {v3, v4}, Ljava/lang/Integer;->toString(II)Ljava/lang/String;
 
     move-result-object v3
@@ -54,7 +50,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_0
     invoke-virtual {v0}, Ljava/lang/Object;->toString()Ljava/lang/String;
 
@@ -66,7 +61,6 @@
 .method public static getOneLinkAuthorization(J)Ljava/lang/String;
     .locals 3
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -89,7 +83,6 @@
 
     move-result-object p0
 
-    .line 2
     invoke-static {p0}, Lcom/appsflyer/HashUtils;->toSHA1(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p0
@@ -103,24 +96,20 @@
     :try_start_0
     const-string v0, "MD5"
 
-    .line 1
     invoke-static {v0}, Ljava/security/MessageDigest;->getInstance(Ljava/lang/String;)Ljava/security/MessageDigest;
 
     move-result-object v0
 
-    .line 2
     invoke-virtual {v0}, Ljava/security/MessageDigest;->reset()V
 
     const-string v1, "UTF-8"
 
-    .line 3
     invoke-virtual {p0, v1}, Ljava/lang/String;->getBytes(Ljava/lang/String;)[B
 
     move-result-object v1
 
     invoke-virtual {v0, v1}, Ljava/security/MessageDigest;->update([B)V
 
-    .line 4
     invoke-virtual {v0}, Ljava/security/MessageDigest;->digest()[B
 
     move-result-object v0
@@ -136,7 +125,6 @@
     :catch_0
     move-exception v0
 
-    .line 5
     new-instance v1, Ljava/lang/StringBuilder;
 
     const-string v2, "Error turning "
@@ -175,24 +163,20 @@
     :try_start_0
     const-string v0, "SHA-1"
 
-    .line 1
     invoke-static {v0}, Ljava/security/MessageDigest;->getInstance(Ljava/lang/String;)Ljava/security/MessageDigest;
 
     move-result-object v0
 
-    .line 2
     invoke-virtual {v0}, Ljava/security/MessageDigest;->reset()V
 
     const-string v1, "UTF-8"
 
-    .line 3
     invoke-virtual {p0, v1}, Ljava/lang/String;->getBytes(Ljava/lang/String;)[B
 
     move-result-object v1
 
     invoke-virtual {v0, v1}, Ljava/security/MessageDigest;->update([B)V
 
-    .line 4
     invoke-virtual {v0}, Ljava/security/MessageDigest;->digest()[B
 
     move-result-object v0
@@ -208,7 +192,6 @@
     :catch_0
     move-exception v0
 
-    .line 5
     new-instance v1, Ljava/lang/StringBuilder;
 
     const-string v2, "Error turning "
@@ -247,19 +230,16 @@
     :try_start_0
     const-string v0, "SHA-256"
 
-    .line 1
     invoke-static {v0}, Ljava/security/MessageDigest;->getInstance(Ljava/lang/String;)Ljava/security/MessageDigest;
 
     move-result-object v0
 
-    .line 2
     invoke-virtual {p0}, Ljava/lang/String;->getBytes()[B
 
     move-result-object v1
 
     invoke-virtual {v0, v1}, Ljava/security/MessageDigest;->update([B)V
 
-    .line 3
     invoke-virtual {v0}, Ljava/security/MessageDigest;->digest()[B
 
     move-result-object v0
@@ -275,7 +255,6 @@
     :catch_0
     move-exception v0
 
-    .line 4
     new-instance v1, Ljava/lang/StringBuilder;
 
     const-string v2, "Error turning "
@@ -311,12 +290,10 @@
 .method private static valueOf([B)Ljava/lang/String;
     .locals 6
 
-    .line 1
     new-instance v0, Ljava/util/Formatter;
 
     invoke-direct {v0}, Ljava/util/Formatter;-><init>()V
 
-    .line 2
     array-length v1, p0
 
     const/4 v2, 0x0
@@ -332,7 +309,6 @@
 
     new-array v5, v5, [Ljava/lang/Object;
 
-    .line 3
     invoke-static {v4}, Ljava/lang/Byte;->valueOf(B)Ljava/lang/Byte;
 
     move-result-object v4
@@ -347,13 +323,11 @@
 
     goto :goto_0
 
-    .line 4
     :cond_0
     invoke-virtual {v0}, Ljava/lang/Object;->toString()Ljava/lang/String;
 
     move-result-object p0
 
-    .line 5
     invoke-virtual {v0}, Ljava/util/Formatter;->close()V
 
     return-object p0
@@ -376,7 +350,6 @@
 
     const-string v0, "appsflyerKey"
 
-    .line 1
     invoke-interface {p1, v0}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v0
@@ -385,7 +358,6 @@
 
     const-string v1, "af_timestamp"
 
-    .line 2
     invoke-interface {p1, v1}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v1
@@ -394,14 +366,12 @@
 
     const-string/jumbo v2, "uid"
 
-    .line 3
     invoke-interface {p1, v2}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
 
     check-cast p1, Ljava/lang/String;
 
-    .line 4
     new-instance v2, Ljava/lang/StringBuilder;
 
     invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
@@ -416,14 +386,12 @@
 
     invoke-virtual {v2, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 5
     invoke-virtual {p1, v3, v4}, Ljava/lang/String;->substring(II)Ljava/lang/String;
 
     move-result-object p1
 
     invoke-virtual {v2, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 6
     invoke-virtual {v1}, Ljava/lang/String;->length()I
 
     move-result p1
@@ -440,7 +408,6 @@
 
     move-result-object p1
 
-    .line 7
     invoke-static {p1}, Lcom/appsflyer/HashUtils;->toSHA1(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p1
@@ -463,14 +430,12 @@
 
     const-string v0, "appsflyerKey"
 
-    .line 1
     invoke-interface {p1, v0}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v0
 
     check-cast v0, Ljava/lang/String;
 
-    .line 2
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -489,7 +454,6 @@
 
     move-result-object v0
 
-    .line 3
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -508,7 +472,6 @@
 
     move-result-object v0
 
-    .line 4
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -527,7 +490,6 @@
 
     move-result-object v0
 
-    .line 5
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -546,7 +508,6 @@
 
     move-result-object v0
 
-    .line 6
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -565,7 +526,6 @@
 
     move-result-object p1
 
-    .line 7
     invoke-static {p1}, Lcom/appsflyer/HashUtils;->toMD5(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p1

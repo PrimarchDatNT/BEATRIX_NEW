@@ -17,7 +17,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -37,7 +36,6 @@
 
     const-wide/16 v2, 0x1f4
 
-    .line 1
     invoke-static {v2, v3}, Lcom/commsource/util/common/k;->b(J)Z
 
     move-result v2
@@ -70,17 +68,14 @@
     :try_start_0
     invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v2
 
-    .line 2
     sget-wide v4, Lcom/commsource/util/common/k;->a:J
 
     sub-long v4, v2, v4
 
-    .line 3
     sput-wide v2, Lcom/commsource/util/common/k;->a:J
 
     cmp-long v2, v4, p0
@@ -100,7 +95,6 @@
     :cond_0
     const/4 p0, 0x0
 
-    .line 4
     :goto_0
     invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
     :try_end_0

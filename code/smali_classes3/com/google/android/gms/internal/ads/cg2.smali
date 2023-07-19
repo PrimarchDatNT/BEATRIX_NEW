@@ -11,7 +11,6 @@
 
     return-void
 
-    .line 1
     :cond_0
     new-instance p0, Ljava/lang/IllegalArgumentException;
 
@@ -27,7 +26,6 @@
 
     return-void
 
-    .line 1
     :cond_0
     new-instance p0, Ljava/lang/IllegalArgumentException;
 
@@ -43,7 +41,6 @@
 .method public static c(Ljava/lang/String;)Ljava/lang/String;
     .locals 1
 
-    .line 1
     invoke-static {p0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v0
@@ -52,7 +49,6 @@
 
     return-object p0
 
-    .line 2
     :cond_0
     new-instance p0, Ljava/lang/IllegalArgumentException;
 
@@ -71,7 +67,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p0}, Ljava/util/Objects;->requireNonNull(Ljava/lang/Object;)Ljava/lang/Object;
 
     return-object p0
@@ -84,7 +79,6 @@
 
     return-void
 
-    .line 1
     :cond_0
     new-instance p0, Ljava/lang/IllegalStateException;
 
@@ -100,7 +94,6 @@
 
     return-void
 
-    .line 1
     :cond_0
     new-instance p0, Ljava/lang/IllegalStateException;
 
@@ -122,7 +115,6 @@
 
     return p0
 
-    .line 1
     :cond_0
     new-instance p0, Ljava/lang/IndexOutOfBoundsException;
 

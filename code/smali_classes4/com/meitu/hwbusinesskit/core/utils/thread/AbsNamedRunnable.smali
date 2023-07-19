@@ -30,7 +30,6 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
     const-class v0, Lcom/meitu/hwbusinesskit/core/utils/thread/AbsNamedRunnable;
 
     invoke-virtual {v0}, Ljava/lang/Class;->getSimpleName()Ljava/lang/String;
@@ -47,7 +46,6 @@
 
     const/4 v0, 0x1
 
-    .line 1
     invoke-direct {p0, p1, v0}, Lcom/meitu/hwbusinesskit/core/utils/thread/AbsNamedRunnable;-><init>(Ljava/lang/String;I)V
 
     return-void
@@ -56,18 +54,14 @@
 .method public constructor <init>(Ljava/lang/String;I)V
     .locals 1
 
-    .line 2
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/4 v0, 0x0
 
-    .line 3
     iput-object v0, p0, Lcom/meitu/hwbusinesskit/core/utils/thread/AbsNamedRunnable;->mRunnableName:Ljava/lang/String;
 
-    .line 4
     iput-object p1, p0, Lcom/meitu/hwbusinesskit/core/utils/thread/AbsNamedRunnable;->mRunnableName:Ljava/lang/String;
 
-    .line 5
     iput p2, p0, Lcom/meitu/hwbusinesskit/core/utils/thread/AbsNamedRunnable;->mPriority:I
 
     return-void
@@ -81,7 +75,6 @@
 .method public getIdentify()J
     .locals 2
 
-    .line 1
     iget-wide v0, p0, Lcom/meitu/hwbusinesskit/core/utils/thread/AbsNamedRunnable;->mIdentify:J
 
     return-wide v0
@@ -90,7 +83,6 @@
 .method public getPriority()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lcom/meitu/hwbusinesskit/core/utils/thread/AbsNamedRunnable;->mPriority:I
 
     return v0
@@ -107,12 +99,10 @@
 
     const-string v3, "["
 
-    .line 1
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v4
 
-    .line 2
     invoke-static {}, Ljava/lang/Thread;->currentThread()Ljava/lang/Thread;
 
     move-result-object v6
@@ -121,7 +111,6 @@
 
     move-result-object v6
 
-    .line 3
     invoke-static {}, Ljava/lang/Thread;->currentThread()Ljava/lang/Thread;
 
     move-result-object v7
@@ -148,7 +137,6 @@
 
     invoke-virtual {v7, v8}, Ljava/lang/Thread;->setName(Ljava/lang/String;)V
 
-    .line 4
     :try_start_0
     sget-object v7, Lcom/meitu/hwbusinesskit/core/utils/thread/AbsNamedRunnable;->TAG:Ljava/lang/String;
 
@@ -176,20 +164,17 @@
 
     invoke-static {v7, v8}, Lcom/meitu/hwbusinesskit/core/utils/TestLog;->log(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 5
     invoke-virtual {p0}, Lcom/meitu/hwbusinesskit/core/utils/thread/AbsNamedRunnable;->execute()V
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 6
     invoke-static {}, Ljava/lang/Thread;->currentThread()Ljava/lang/Thread;
 
     move-result-object v8
 
     invoke-virtual {v8, v6}, Ljava/lang/Thread;->setName(Ljava/lang/String;)V
 
-    .line 7
     new-instance v8, Ljava/lang/StringBuilder;
 
     invoke-direct {v8}, Ljava/lang/StringBuilder;-><init>()V
@@ -204,11 +189,9 @@
     :catch_0
     move-exception v7
 
-    .line 8
     :try_start_1
     invoke-virtual {v7}, Ljava/lang/Exception;->printStackTrace()V
 
-    .line 9
     new-instance v8, Ljava/lang/StringBuilder;
 
     invoke-direct {v8}, Ljava/lang/StringBuilder;-><init>()V
@@ -231,14 +214,12 @@
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
-    .line 10
     invoke-static {}, Ljava/lang/Thread;->currentThread()Ljava/lang/Thread;
 
     move-result-object v7
 
     invoke-virtual {v7, v6}, Ljava/lang/Thread;->setName(Ljava/lang/String;)V
 
-    .line 11
     sget-object v7, Lcom/meitu/hwbusinesskit/core/utils/thread/AbsNamedRunnable;->TAG:Ljava/lang/String;
 
     new-instance v8, Ljava/lang/StringBuilder;
@@ -258,7 +239,6 @@
 
     invoke-virtual {v8, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 12
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v1
@@ -273,12 +253,10 @@
 
     move-result-object v0
 
-    .line 13
     invoke-static {v7, v0}, Lcom/meitu/hwbusinesskit/core/utils/TestLog;->log(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 
-    .line 14
     :goto_1
     invoke-static {}, Ljava/lang/Thread;->currentThread()Ljava/lang/Thread;
 
@@ -286,7 +264,6 @@
 
     invoke-virtual {v8, v6}, Ljava/lang/Thread;->setName(Ljava/lang/String;)V
 
-    .line 15
     sget-object v8, Lcom/meitu/hwbusinesskit/core/utils/thread/AbsNamedRunnable;->TAG:Ljava/lang/String;
 
     new-instance v9, Ljava/lang/StringBuilder;
@@ -305,7 +282,6 @@
 
     invoke-virtual {v9, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 16
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v1
@@ -320,17 +296,14 @@
 
     move-result-object v0
 
-    .line 17
     invoke-static {v8, v0}, Lcom/meitu/hwbusinesskit/core/utils/TestLog;->log(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 18
     throw v7
 .end method
 
 .method public setIdentify(J)V
     .locals 0
 
-    .line 1
     iput-wide p1, p0, Lcom/meitu/hwbusinesskit/core/utils/thread/AbsNamedRunnable;->mIdentify:J
 
     return-void

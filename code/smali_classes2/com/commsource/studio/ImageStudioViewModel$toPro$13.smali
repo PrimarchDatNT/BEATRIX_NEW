@@ -66,7 +66,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Ljava/lang/String;
 
     invoke-virtual {p0, p1}, Lcom/commsource/studio/ImageStudioViewModel$toPro$13;->invoke(Ljava/lang/String;)V
@@ -93,28 +92,22 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/ImageStudioViewModel$toPro$13;->this$0:Lcom/commsource/studio/ImageStudioViewModel;
 
     invoke-virtual {v1}, Lcom/commsource/studio/ImageStudioViewModel;->c1()Lcom/commsource/studio/component/StudioProViewModel;
 
     move-result-object v1
 
-    .line 3
     iget-object v2, p0, Lcom/commsource/studio/ImageStudioViewModel$toPro$13;->$activity:Landroidx/fragment/app/FragmentActivity;
 
-    .line 4
     iget-object v3, p0, Lcom/commsource/studio/ImageStudioViewModel$toPro$13;->$subscribeMultiSource:[Ljava/lang/String;
 
-    .line 5
     new-instance v4, Lcom/commsource/studio/ImageStudioViewModel$toPro$13$1;
 
     invoke-direct {v4, p0}, Lcom/commsource/studio/ImageStudioViewModel$toPro$13$1;-><init>(Lcom/commsource/studio/ImageStudioViewModel$toPro$13;)V
 
-    .line 6
     invoke-virtual {v1, v2, v3, p1, v4}, Lcom/commsource/studio/component/StudioProViewModel;->I(Landroidx/fragment/app/FragmentActivity;[Ljava/lang/String;Ljava/lang/String;Lcotlin/jvm/u/l;)V
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

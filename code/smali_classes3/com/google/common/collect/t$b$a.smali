@@ -29,7 +29,6 @@
 .method constructor <init>(Lcom/google/common/collect/t$b;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/common/collect/t$b$a;->a:Lcom/google/common/collect/t$b;
 
     invoke-direct {p0}, Lcom/google/common/collect/Multisets$i;-><init>()V
@@ -49,7 +48,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/t$b$a;->a:Lcom/google/common/collect/t$b;
 
     iget-object v0, v0, Lcom/google/common/collect/t$b;->b:Lcom/google/common/collect/t;
@@ -77,7 +75,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/t$b$a;->a:Lcom/google/common/collect/t$b;
 
     return-object v0
@@ -94,7 +91,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/t$b$a;->a:Lcom/google/common/collect/t$b;
 
     invoke-virtual {v0}, Lcom/google/common/collect/Multimaps$c;->entryIterator()Ljava/util/Iterator;
@@ -114,7 +110,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p1}, Lcom/google/common/base/Predicates;->n(Ljava/util/Collection;)Lcom/google/common/base/u;
 
     move-result-object p1
@@ -136,7 +131,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p1}, Lcom/google/common/base/Predicates;->n(Ljava/util/Collection;)Lcom/google/common/base/u;
 
     move-result-object p1
@@ -155,7 +149,6 @@
 .method public size()I
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/t$b$a;->a:Lcom/google/common/collect/t$b;
 
     iget-object v0, v0, Lcom/google/common/collect/t$b;->b:Lcom/google/common/collect/t;

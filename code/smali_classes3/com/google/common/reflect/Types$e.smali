@@ -51,12 +51,10 @@
 
     invoke-static {}, Lcom/google/common/reflect/Types$e;->b()V
 
-    .line 1
     invoke-static {}, Lcom/google/common/collect/ImmutableMap;->builder()Lcom/google/common/collect/ImmutableMap$b;
 
     move-result-object v1
 
-    .line 2
     invoke-virtual {v0}, Ljava/lang/Class;->getMethods()[Ljava/lang/reflect/Method;
 
     move-result-object v2
@@ -70,7 +68,6 @@
 
     aget-object v5, v2, v4
 
-    .line 3
     invoke-virtual {v5}, Ljava/lang/reflect/Method;->getDeclaringClass()Ljava/lang/Class;
 
     move-result-object v6
@@ -83,13 +80,11 @@
 
     const/4 v6, 0x1
 
-    .line 4
     :try_start_0
     invoke-virtual {v5, v6}, Ljava/lang/reflect/Method;->setAccessible(Z)V
     :try_end_0
     .catch Ljava/security/AccessControlException; {:try_start_0 .. :try_end_0} :catch_0
 
-    .line 5
     :catch_0
     invoke-virtual {v5}, Ljava/lang/reflect/Method;->getName()Ljava/lang/String;
 
@@ -102,7 +97,6 @@
 
     goto :goto_0
 
-    .line 6
     :cond_1
     invoke-virtual {v1}, Lcom/google/common/collect/ImmutableMap$b;->a()Lcom/google/common/collect/ImmutableMap;
 
@@ -123,10 +117,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/google/common/reflect/Types$e;->a:Lcom/google/common/reflect/Types$d;
 
     return-void
@@ -135,7 +127,6 @@
 .method static synthetic a(Lcom/google/common/reflect/Types$e;)Lcom/google/common/reflect/Types$d;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lcom/google/common/reflect/Types$e;->a:Lcom/google/common/reflect/Types$d;
 
     return-object p0
@@ -144,7 +135,6 @@
 .method private static synthetic b()V
     .locals 9
 
-    .line 1
     new-instance v8, Ln/a/b/c/e;
 
     const-class v0, Lcom/google/common/reflect/Types$e;
@@ -189,7 +179,6 @@
 .method static final synthetic c(Lcom/google/common/reflect/Types$e;Ljava/lang/reflect/Method;Ljava/lang/Object;[Ljava/lang/Object;Lorg/aspectj/lang/c;)Ljava/lang/Object;
     .locals 0
 
-    .line 1
     invoke-virtual {p1, p2, p3}, Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p0
@@ -207,12 +196,10 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p2}, Ljava/lang/reflect/Method;->getName()Ljava/lang/String;
 
     move-result-object p1
 
-    .line 2
     sget-object p2, Lcom/google/common/reflect/Types$e;->b:Lcom/google/common/collect/ImmutableMap;
 
     invoke-virtual {p2, p1}, Lcom/google/common/collect/ImmutableMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
@@ -223,7 +210,6 @@
 
     if-eqz p2, :cond_0
 
-    .line 3
     :try_start_0
     iget-object p1, p0, Lcom/google/common/reflect/Types$e;->a:Lcom/google/common/reflect/Types$d;
 
@@ -282,14 +268,12 @@
     :catch_0
     move-exception p1
 
-    .line 4
     invoke-virtual {p1}, Ljava/lang/reflect/InvocationTargetException;->getCause()Ljava/lang/Throwable;
 
     move-result-object p1
 
     throw p1
 
-    .line 5
     :cond_0
     new-instance p2, Ljava/lang/UnsupportedOperationException;
 

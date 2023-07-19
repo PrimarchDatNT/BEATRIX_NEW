@@ -54,7 +54,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p2, Lcom/commsource/studio/effect/d;
 
     invoke-virtual {p0, p1, p2}, Lcom/commsource/studio/function/AdjustFragment$a;->b(ILcom/commsource/studio/effect/d;)Z
@@ -73,7 +72,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p2}, Lcom/commsource/studio/effect/d;->n()Lcom/commsource/studio/sub/AdjustEffectEnum;
 
     move-result-object v1
@@ -92,7 +90,6 @@
 
     invoke-static {v2, v3, v1}, Lcom/commsource/statistics/i;->r(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/function/AdjustFragment$a;->a:Lcom/commsource/studio/function/AdjustFragment;
 
     const-string v2, "entity"
@@ -101,7 +98,6 @@
 
     invoke-static {v1, p1, p2}, Lcom/commsource/studio/function/AdjustFragment;->D1(Lcom/commsource/studio/function/AdjustFragment;ILcom/commsource/studio/effect/d;)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const/4 p1, 0x0

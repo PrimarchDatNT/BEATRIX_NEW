@@ -25,7 +25,6 @@
 .method constructor <init>(Lcom/mopub/common/privacy/ConsentDialogLayout;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/mopub/common/privacy/ConsentDialogLayout$1;->this$0:Lcom/mopub/common/privacy/ConsentDialogLayout;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -38,7 +37,6 @@
 .method public onClose()V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/common/privacy/ConsentDialogLayout$1;->this$0:Lcom/mopub/common/privacy/ConsentDialogLayout;
 
     invoke-static {v0}, Lcom/mopub/common/privacy/ConsentDialogLayout;->access$000(Lcom/mopub/common/privacy/ConsentDialogLayout;)Lcom/mopub/common/privacy/ConsentDialogLayout$ConsentListener;
@@ -47,7 +45,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 2
     iget-object v0, p0, Lcom/mopub/common/privacy/ConsentDialogLayout$1;->this$0:Lcom/mopub/common/privacy/ConsentDialogLayout;
 
     invoke-static {v0}, Lcom/mopub/common/privacy/ConsentDialogLayout;->access$000(Lcom/mopub/common/privacy/ConsentDialogLayout;)Lcom/mopub/common/privacy/ConsentDialogLayout$ConsentListener;

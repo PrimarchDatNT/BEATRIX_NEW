@@ -21,7 +21,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -30,7 +29,6 @@
 .method public static a(Ljava/net/URL;)Lcom/google/common/io/f;
     .locals 2
 
-    .line 1
     new-instance v0, Lcom/google/common/io/b0$b;
 
     const/4 v1, 0x0
@@ -43,7 +41,6 @@
 .method public static b(Ljava/net/URL;Ljava/nio/charset/Charset;)Lcom/google/common/io/j;
     .locals 0
 
-    .line 1
     invoke-static {p0}, Lcom/google/common/io/b0;->a(Ljava/net/URL;)Lcom/google/common/io/f;
 
     move-result-object p0
@@ -63,7 +60,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p0}, Lcom/google/common/io/b0;->a(Ljava/net/URL;)Lcom/google/common/io/f;
 
     move-result-object p0
@@ -89,7 +85,6 @@
     .annotation build Lf/f/f/a/a;
     .end annotation
 
-    .line 1
     invoke-virtual {p0, p1}, Ljava/lang/Class;->getResource(Ljava/lang/String;)Ljava/net/URL;
 
     move-result-object v0
@@ -103,7 +98,6 @@
     :cond_0
     const/4 v1, 0x0
 
-    .line 2
     :goto_0
     invoke-virtual {p0}, Ljava/lang/Class;->getName()Ljava/lang/String;
 
@@ -111,7 +105,6 @@
 
     const-string v2, "resource %s relative to %s not found."
 
-    .line 3
     invoke-static {v1, v2, p1, p0}, Lcom/google/common/base/t;->y(ZLjava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
 
     return-object v0
@@ -122,7 +115,6 @@
     .annotation build Lf/f/f/a/a;
     .end annotation
 
-    .line 1
     invoke-static {}, Ljava/lang/Thread;->currentThread()Ljava/lang/Thread;
 
     move-result-object v0
@@ -137,14 +129,12 @@
 
     move-result-object v1
 
-    .line 2
     invoke-static {v0, v1}, Lcom/google/common/base/p;->a(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v0
 
     check-cast v0, Ljava/lang/ClassLoader;
 
-    .line 3
     invoke-virtual {v0, p0}, Ljava/lang/ClassLoader;->getResource(Ljava/lang/String;)Ljava/net/URL;
 
     move-result-object v0
@@ -161,7 +151,6 @@
     :goto_0
     const-string v2, "resource %s not found."
 
-    .line 4
     invoke-static {v1, v2, p0}, Lcom/google/common/base/t;->u(ZLjava/lang/String;Ljava/lang/Object;)V
 
     return-object v0
@@ -190,7 +179,6 @@
     .annotation build Lf/f/f/a/a;
     .end annotation
 
-    .line 1
     invoke-static {p0, p1}, Lcom/google/common/io/b0;->b(Ljava/net/URL;Ljava/nio/charset/Charset;)Lcom/google/common/io/j;
 
     move-result-object p0
@@ -222,7 +210,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/google/common/io/b0$a;
 
     invoke-direct {v0}, Lcom/google/common/io/b0$a;-><init>()V
@@ -244,7 +231,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p0}, Lcom/google/common/io/b0;->a(Ljava/net/URL;)Lcom/google/common/io/f;
 
     move-result-object p0
@@ -264,7 +250,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p0, p1}, Lcom/google/common/io/b0;->b(Ljava/net/URL;Ljava/nio/charset/Charset;)Lcom/google/common/io/j;
 
     move-result-object p0

@@ -39,7 +39,6 @@
 .method public final run()V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcotlinx/coroutines/android/b$a;->a:Lcotlinx/coroutines/m;
 
     invoke-static {v0}, Lcotlinx/coroutines/android/b;->c(Lcotlinx/coroutines/m;)V

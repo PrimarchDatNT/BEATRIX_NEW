@@ -25,7 +25,6 @@
 .method constructor <init>(Lcom/spotxchange/v4/adapters/gma/SpotXRewarded;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/spotxchange/v4/adapters/gma/SpotXRewarded$b;->a:Lcom/spotxchange/v4/adapters/gma/SpotXRewarded;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -38,7 +37,6 @@
 .method public run()V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/spotxchange/v4/adapters/gma/SpotXRewarded$b;->a:Lcom/spotxchange/v4/adapters/gma/SpotXRewarded;
 
     invoke-static {v0}, Lcom/spotxchange/v4/adapters/gma/SpotXRewarded;->a(Lcom/spotxchange/v4/adapters/gma/SpotXRewarded;)Lcom/google/android/gms/ads/reward/mediation/a;
@@ -49,7 +47,6 @@
 
     invoke-interface {v0, v1}, Lcom/google/android/gms/ads/reward/mediation/a;->h0(Lcom/google/android/gms/ads/reward/mediation/MediationRewardedVideoAdAdapter;)V
 
-    .line 2
     iget-object v0, p0, Lcom/spotxchange/v4/adapters/gma/SpotXRewarded$b;->a:Lcom/spotxchange/v4/adapters/gma/SpotXRewarded;
 
     invoke-static {v0}, Lcom/spotxchange/v4/adapters/gma/SpotXRewarded;->a(Lcom/spotxchange/v4/adapters/gma/SpotXRewarded;)Lcom/google/android/gms/ads/reward/mediation/a;

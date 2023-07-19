@@ -58,7 +58,6 @@
 
     goto/16 :goto_0
 
-    .line 1
     :cond_0
     invoke-virtual {p1}, Ljava/lang/String;->hashCode()I
 
@@ -73,14 +72,12 @@
     :cond_1
     const-string v1, "torch"
 
-    .line 2
     invoke-virtual {p1, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p1
 
     if-eqz p1, :cond_5
 
-    .line 3
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/CameraVideoRecordTopBarCover$b;->a:Lcom/commsource/camera/xcamera/cover/CameraVideoRecordTopBarCover;
 
     invoke-virtual {p1}, Lcom/commsource/camera/xcamera/cover/AbsLazyCover;->A()Landroidx/databinding/ViewDataBinding;
@@ -103,7 +100,6 @@
 
     invoke-virtual {p1, v2}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 4
     :cond_2
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/CameraVideoRecordTopBarCover$b;->a:Lcom/commsource/camera/xcamera/cover/CameraVideoRecordTopBarCover;
 
@@ -127,7 +123,6 @@
 
     invoke-virtual {p1, v2}, Landroid/widget/TextView;->setTextColor(I)V
 
-    .line 5
     :cond_3
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/CameraVideoRecordTopBarCover$b;->a:Lcom/commsource/camera/xcamera/cover/CameraVideoRecordTopBarCover;
 
@@ -147,7 +142,6 @@
 
     iput-boolean v2, p1, Lcom/commsource/widget/IconFrontView;->d:Z
 
-    .line 6
     :cond_4
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/CameraVideoRecordTopBarCover$b;->a:Lcom/commsource/camera/xcamera/cover/CameraVideoRecordTopBarCover;
 
@@ -165,7 +159,6 @@
 
     if-eqz p1, :cond_a
 
-    .line 7
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/CameraVideoRecordTopBarCover$b;->a:Lcom/commsource/camera/xcamera/cover/CameraVideoRecordTopBarCover;
 
     invoke-virtual {p1}, Lcom/commsource/camera/xcamera/cover/CameraVideoRecordTopBarCover;->K()Lcom/commsource/camera/xcamera/cover/tips/a;
@@ -190,7 +183,6 @@
 
     invoke-static/range {v2 .. v7}, Lcom/commsource/camera/xcamera/cover/tips/a;->R(Lcom/commsource/camera/xcamera/cover/tips/a;Ljava/lang/String;JILjava/lang/Object;)V
 
-    .line 8
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/CameraVideoRecordTopBarCover$b;->a:Lcom/commsource/camera/xcamera/cover/CameraVideoRecordTopBarCover;
 
     invoke-virtual {p1}, Lcom/commsource/camera/xcamera/cover/CameraVideoRecordTopBarCover;->H()Lcom/commsource/camera/xcamera/BpCameraViewModel;
@@ -201,7 +193,6 @@
 
     goto/16 :goto_2
 
-    .line 9
     :cond_5
     :goto_0
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/CameraVideoRecordTopBarCover$b;->a:Lcom/commsource/camera/xcamera/cover/CameraVideoRecordTopBarCover;
@@ -226,7 +217,6 @@
 
     invoke-virtual {p1, v1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 10
     :cond_6
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/CameraVideoRecordTopBarCover$b;->a:Lcom/commsource/camera/xcamera/cover/CameraVideoRecordTopBarCover;
 
@@ -264,7 +254,6 @@
 
     invoke-virtual {p1, v1}, Landroid/widget/TextView;->setTextColor(I)V
 
-    .line 11
     :cond_8
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/CameraVideoRecordTopBarCover$b;->a:Lcom/commsource/camera/xcamera/cover/CameraVideoRecordTopBarCover;
 
@@ -288,7 +277,6 @@
 
     iput-boolean v1, p1, Lcom/commsource/widget/IconFrontView;->d:Z
 
-    .line 12
     :cond_9
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/CameraVideoRecordTopBarCover$b;->a:Lcom/commsource/camera/xcamera/cover/CameraVideoRecordTopBarCover;
 
@@ -306,7 +294,6 @@
 
     if-eqz p1, :cond_a
 
-    .line 13
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/CameraVideoRecordTopBarCover$b;->a:Lcom/commsource/camera/xcamera/cover/CameraVideoRecordTopBarCover;
 
     invoke-virtual {p1}, Lcom/commsource/camera/xcamera/cover/CameraVideoRecordTopBarCover;->K()Lcom/commsource/camera/xcamera/cover/tips/a;
@@ -331,7 +318,6 @@
 
     invoke-static/range {v1 .. v6}, Lcom/commsource/camera/xcamera/cover/tips/a;->R(Lcom/commsource/camera/xcamera/cover/tips/a;Ljava/lang/String;JILjava/lang/Object;)V
 
-    .line 14
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/CameraVideoRecordTopBarCover$b;->a:Lcom/commsource/camera/xcamera/cover/CameraVideoRecordTopBarCover;
 
     invoke-virtual {p1}, Lcom/commsource/camera/xcamera/cover/CameraVideoRecordTopBarCover;->H()Lcom/commsource/camera/xcamera/BpCameraViewModel;
@@ -342,7 +328,6 @@
 
     invoke-virtual {p1, v1}, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;->b1(Ljava/lang/String;)Ljava/lang/String;
 
-    .line 15
     :cond_a
     :goto_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -357,7 +342,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Ljava/lang/String;
 
     invoke-virtual {p0, p1}, Lcom/commsource/camera/xcamera/cover/CameraVideoRecordTopBarCover$b;->a(Ljava/lang/String;)V

@@ -19,7 +19,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -28,7 +27,6 @@
 .method public synthetic constructor <init>(Lcotlin/jvm/internal/u;)V
     .locals 0
 
-    .line 2
     invoke-direct {p0}, Lkshark/LeakTrace$GcRootType$a;-><init>()V
 
     return-void
@@ -49,7 +47,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     instance-of v0, p1, Lkshark/d$e;
 
     if-eqz v0, :cond_0
@@ -58,7 +55,6 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     instance-of v0, p1, Lkshark/d$f;
 
@@ -68,7 +64,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_1
     instance-of v0, p1, Lkshark/d$d;
 
@@ -78,7 +73,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_2
     instance-of v0, p1, Lkshark/d$i;
 
@@ -88,7 +82,6 @@
 
     goto :goto_0
 
-    .line 5
     :cond_3
     instance-of v0, p1, Lkshark/d$k;
 
@@ -98,7 +91,6 @@
 
     goto :goto_0
 
-    .line 6
     :cond_4
     instance-of v0, p1, Lkshark/d$l;
 
@@ -108,7 +100,6 @@
 
     goto :goto_0
 
-    .line 7
     :cond_5
     instance-of v0, p1, Lkshark/d$h;
 
@@ -118,7 +109,6 @@
 
     goto :goto_0
 
-    .line 8
     :cond_6
     instance-of v0, p1, Lkshark/d$m;
 
@@ -128,7 +118,6 @@
 
     goto :goto_0
 
-    .line 9
     :cond_7
     instance-of v0, p1, Lkshark/d$g;
 
@@ -139,7 +128,6 @@
     :goto_0
     return-object p1
 
-    .line 10
     :cond_8
     new-instance v0, Ljava/lang/IllegalStateException;
 

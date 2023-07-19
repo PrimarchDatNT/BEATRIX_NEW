@@ -30,7 +30,6 @@
 .method constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -41,7 +40,6 @@
 .method public bridge synthetic a(I)Lcom/google/protobuf/z0$c;
     .locals 0
 
-    .line 1
     invoke-virtual {p0, p1}, Lcom/google/api/Property$PropertyType$a;->b(I)Lcom/google/api/Property$PropertyType;
 
     move-result-object p1
@@ -52,7 +50,6 @@
 .method public b(I)Lcom/google/api/Property$PropertyType;
     .locals 0
 
-    .line 1
     invoke-static {p1}, Lcom/google/api/Property$PropertyType;->forNumber(I)Lcom/google/api/Property$PropertyType;
 
     move-result-object p1

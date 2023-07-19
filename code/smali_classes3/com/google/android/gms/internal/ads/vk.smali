@@ -30,14 +30,12 @@
 .method public final a(Lcom/google/android/gms/internal/ads/sw;)V
     .locals 3
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/vk;->a:Ljava/lang/String;
 
     iget-object v1, p0, Lcom/google/android/gms/internal/ads/vk;->b:Landroid/os/Bundle;
 
     const-string v2, "am"
 
-    .line 2
     invoke-interface {p1, v2, v0, v1}, Lcom/google/android/gms/internal/ads/sw;->q0(Ljava/lang/String;Ljava/lang/String;Landroid/os/Bundle;)V
 
     return-void

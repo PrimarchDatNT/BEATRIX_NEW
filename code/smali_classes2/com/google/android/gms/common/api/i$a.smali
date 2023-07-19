@@ -130,24 +130,20 @@
     .annotation build Lcom/google/android/gms/common/annotation/a;
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     new-instance v0, Ljava/util/HashSet;
 
     invoke-direct {v0}, Ljava/util/HashSet;-><init>()V
 
     iput-object v0, p0, Lcom/google/android/gms/common/api/i$a;->b:Ljava/util/Set;
 
-    .line 3
     new-instance v0, Ljava/util/HashSet;
 
     invoke-direct {v0}, Ljava/util/HashSet;-><init>()V
 
     iput-object v0, p0, Lcom/google/android/gms/common/api/i$a;->c:Ljava/util/Set;
 
-    .line 4
     new-instance v0, Landroidx/collection/ArrayMap;
 
     invoke-direct {v0}, Landroidx/collection/ArrayMap;-><init>()V
@@ -156,10 +152,8 @@
 
     const/4 v0, 0x0
 
-    .line 5
     iput-boolean v0, p0, Lcom/google/android/gms/common/api/i$a;->i:Z
 
-    .line 6
     new-instance v1, Landroidx/collection/ArrayMap;
 
     invoke-direct {v1}, Landroidx/collection/ArrayMap;-><init>()V
@@ -168,56 +162,46 @@
 
     const/4 v1, -0x1
 
-    .line 7
     iput v1, p0, Lcom/google/android/gms/common/api/i$a;->m:I
 
-    .line 8
     invoke-static {}, Lcom/google/android/gms/common/d;->v()Lcom/google/android/gms/common/d;
 
     move-result-object v1
 
     iput-object v1, p0, Lcom/google/android/gms/common/api/i$a;->p:Lcom/google/android/gms/common/d;
 
-    .line 9
     sget-object v1, Lf/f/b/b/l/b;->c:Lcom/google/android/gms/common/api/a$a;
 
     iput-object v1, p0, Lcom/google/android/gms/common/api/i$a;->q:Lcom/google/android/gms/common/api/a$a;
 
-    .line 10
     new-instance v1, Ljava/util/ArrayList;
 
     invoke-direct {v1}, Ljava/util/ArrayList;-><init>()V
 
     iput-object v1, p0, Lcom/google/android/gms/common/api/i$a;->r:Ljava/util/ArrayList;
 
-    .line 11
     new-instance v1, Ljava/util/ArrayList;
 
     invoke-direct {v1}, Ljava/util/ArrayList;-><init>()V
 
     iput-object v1, p0, Lcom/google/android/gms/common/api/i$a;->s:Ljava/util/ArrayList;
 
-    .line 12
     iput-boolean v0, p0, Lcom/google/android/gms/common/api/i$a;->t:Z
 
-    .line 13
     iput-object p1, p0, Lcom/google/android/gms/common/api/i$a;->j:Landroid/content/Context;
 
-    .line 14
     invoke-virtual {p1}, Landroid/content/Context;->getMainLooper()Landroid/os/Looper;
 
     move-result-object v0
 
     iput-object v0, p0, Lcom/google/android/gms/common/api/i$a;->o:Landroid/os/Looper;
 
-    .line 15
     invoke-virtual {p1}, Landroid/content/Context;->getPackageName()Ljava/lang/String;
 
     move-result-object v0
 
     iput-object v0, p0, Lcom/google/android/gms/common/api/i$a;->f:Ljava/lang/String;
 
-    .line 16
     invoke-virtual {p1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
     move-result-object p1
@@ -248,25 +232,20 @@
     .annotation build Lcom/google/android/gms/common/annotation/a;
     .end annotation
 
-    .line 17
     invoke-direct {p0, p1}, Lcom/google/android/gms/common/api/i$a;-><init>(Landroid/content/Context;)V
 
     const-string p1, "Must provide a connected listener"
 
-    .line 18
     invoke-static {p2, p1}, Lcom/google/android/gms/common/internal/b0;->l(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 19
     iget-object p1, p0, Lcom/google/android/gms/common/api/i$a;->r:Ljava/util/ArrayList;
 
     invoke-virtual {p1, p2}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
     const-string p1, "Must provide a connection failed listener"
 
-    .line 20
     invoke-static {p3, p1}, Lcom/google/android/gms/common/internal/b0;->l(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 21
     iget-object p1, p0, Lcom/google/android/gms/common/api/i$a;->s:Ljava/util/ArrayList;
 
     invoke-virtual {p1, p3}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
@@ -288,7 +267,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/util/HashSet;
 
     invoke-virtual {p1}, Lcom/google/android/gms/common/api/a;->c()Lcom/google/android/gms/common/api/a$e;
@@ -301,7 +279,6 @@
 
     invoke-direct {v0, p2}, Ljava/util/HashSet;-><init>(Ljava/util/Collection;)V
 
-    .line 2
     array-length p2, p3
 
     const/4 v1, 0x0
@@ -311,14 +288,12 @@
 
     aget-object v2, p3, v1
 
-    .line 3
     invoke-interface {v0, v2}, Ljava/util/Set;->add(Ljava/lang/Object;)Z
 
     add-int/lit8 v1, v1, 0x1
 
     goto :goto_0
 
-    .line 4
     :cond_0
     iget-object p2, p0, Lcom/google/android/gms/common/api/i$a;->h:Ljava/util/Map;
 
@@ -352,17 +327,14 @@
 
     const-string v0, "Api must not be null"
 
-    .line 1
     invoke-static {p1, v0}, Lcom/google/android/gms/common/internal/b0;->l(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 2
     iget-object v0, p0, Lcom/google/android/gms/common/api/i$a;->k:Ljava/util/Map;
 
     const/4 v1, 0x0
 
     invoke-interface {v0, p1, v1}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 3
     invoke-virtual {p1}, Lcom/google/android/gms/common/api/a;->c()Lcom/google/android/gms/common/api/a$e;
 
     move-result-object p1
@@ -371,12 +343,10 @@
 
     move-result-object p1
 
-    .line 4
     iget-object v0, p0, Lcom/google/android/gms/common/api/i$a;->c:Ljava/util/Set;
 
     invoke-interface {v0, p1}, Ljava/util/Set;->addAll(Ljava/util/Collection;)Z
 
-    .line 5
     iget-object v0, p0, Lcom/google/android/gms/common/api/i$a;->b:Ljava/util/Set;
 
     invoke-interface {v0, p1}, Ljava/util/Set;->addAll(Ljava/util/Collection;)Z
@@ -407,20 +377,16 @@
 
     const-string v0, "Api must not be null"
 
-    .line 1
     invoke-static {p1, v0}, Lcom/google/android/gms/common/internal/b0;->l(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "Null options are not permitted for this Api"
 
-    .line 2
     invoke-static {p2, v0}, Lcom/google/android/gms/common/internal/b0;->l(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 3
     iget-object v0, p0, Lcom/google/android/gms/common/api/i$a;->k:Ljava/util/Map;
 
     invoke-interface {v0, p1, p2}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 4
     invoke-virtual {p1}, Lcom/google/android/gms/common/api/a;->c()Lcom/google/android/gms/common/api/a$e;
 
     move-result-object p1
@@ -429,12 +395,10 @@
 
     move-result-object p1
 
-    .line 5
     iget-object p2, p0, Lcom/google/android/gms/common/api/i$a;->c:Ljava/util/Set;
 
     invoke-interface {p2, p1}, Ljava/util/Set;->addAll(Ljava/util/Collection;)Z
 
-    .line 6
     iget-object p2, p0, Lcom/google/android/gms/common/api/i$a;->b:Ljava/util/Set;
 
     invoke-interface {p2, p1}, Ljava/util/Set;->addAll(Ljava/util/Collection;)Z
@@ -467,20 +431,16 @@
 
     const-string v0, "Api must not be null"
 
-    .line 1
     invoke-static {p1, v0}, Lcom/google/android/gms/common/internal/b0;->l(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "Null options are not permitted for this Api"
 
-    .line 2
     invoke-static {p2, v0}, Lcom/google/android/gms/common/internal/b0;->l(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 3
     iget-object v0, p0, Lcom/google/android/gms/common/api/i$a;->k:Ljava/util/Map;
 
     invoke-interface {v0, p1, p2}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 4
     invoke-direct {p0, p1, p2, p3}, Lcom/google/android/gms/common/api/i$a;->r(Lcom/google/android/gms/common/api/a;Lcom/google/android/gms/common/api/a$d;[Lcom/google/android/gms/common/api/Scope;)V
 
     return-object p0
@@ -507,17 +467,14 @@
 
     const-string v0, "Api must not be null"
 
-    .line 1
     invoke-static {p1, v0}, Lcom/google/android/gms/common/internal/b0;->l(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 2
     iget-object v0, p0, Lcom/google/android/gms/common/api/i$a;->k:Ljava/util/Map;
 
     const/4 v1, 0x0
 
     invoke-interface {v0, p1, v1}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 3
     invoke-direct {p0, p1, v1, p2}, Lcom/google/android/gms/common/api/i$a;->r(Lcom/google/android/gms/common/api/a;Lcom/google/android/gms/common/api/a$d;[Lcom/google/android/gms/common/api/Scope;)V
 
     return-object p0
@@ -532,10 +489,8 @@
 
     const-string v0, "Listener must not be null"
 
-    .line 1
     invoke-static {p1, v0}, Lcom/google/android/gms/common/internal/b0;->l(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 2
     iget-object v0, p0, Lcom/google/android/gms/common/api/i$a;->r:Ljava/util/ArrayList;
 
     invoke-virtual {v0, p1}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
@@ -552,10 +507,8 @@
 
     const-string v0, "Listener must not be null"
 
-    .line 1
     invoke-static {p1, v0}, Lcom/google/android/gms/common/internal/b0;->l(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 2
     iget-object v0, p0, Lcom/google/android/gms/common/api/i$a;->s:Ljava/util/ArrayList;
 
     invoke-virtual {v0, p1}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
@@ -572,10 +525,8 @@
 
     const-string v0, "Scope must not be null"
 
-    .line 1
     invoke-static {p1, v0}, Lcom/google/android/gms/common/internal/b0;->l(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 2
     iget-object v0, p0, Lcom/google/android/gms/common/api/i$a;->b:Ljava/util/Set;
 
     invoke-interface {v0, p1}, Ljava/util/Set;->add(Ljava/lang/Object;)Z
@@ -590,13 +541,11 @@
 
     const/4 v0, 0x0
 
-    .line 1
     :goto_0
     array-length v1, p1
 
     if-ge v0, v1, :cond_0
 
-    .line 2
     iget-object v1, p0, Lcom/google/android/gms/common/api/i$a;->b:Ljava/util/Set;
 
     new-instance v2, Lcom/google/android/gms/common/api/Scope;
@@ -620,7 +569,6 @@
 
     move-object/from16 v1, p0
 
-    .line 1
     iget-object v0, v1, Lcom/google/android/gms/common/api/i$a;->k:Ljava/util/Map;
 
     invoke-interface {v0}, Ljava/util/Map;->isEmpty()Z
@@ -635,34 +583,28 @@
 
     invoke-static {v0, v3}, Lcom/google/android/gms/common/internal/b0;->b(ZLjava/lang/Object;)V
 
-    .line 2
     invoke-virtual/range {p0 .. p0}, Lcom/google/android/gms/common/api/i$a;->j()Lcom/google/android/gms/common/internal/f;
 
     move-result-object v0
 
     const/4 v3, 0x0
 
-    .line 3
     invoke-virtual {v0}, Lcom/google/android/gms/common/internal/f;->i()Ljava/util/Map;
 
     move-result-object v11
 
-    .line 4
     new-instance v12, Landroidx/collection/ArrayMap;
 
     invoke-direct {v12}, Landroidx/collection/ArrayMap;-><init>()V
 
-    .line 5
     new-instance v14, Landroidx/collection/ArrayMap;
 
     invoke-direct {v14}, Landroidx/collection/ArrayMap;-><init>()V
 
-    .line 6
     new-instance v15, Ljava/util/ArrayList;
 
     invoke-direct {v15}, Ljava/util/ArrayList;-><init>()V
 
-    .line 7
     iget-object v4, v1, Lcom/google/android/gms/common/api/i$a;->k:Ljava/util/Map;
 
     invoke-interface {v4}, Ljava/util/Map;->keySet()Ljava/util/Set;
@@ -693,14 +635,12 @@
 
     check-cast v10, Lcom/google/android/gms/common/api/a;
 
-    .line 8
     iget-object v4, v1, Lcom/google/android/gms/common/api/i$a;->k:Ljava/util/Map;
 
     invoke-interface {v4, v10}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v18
 
-    .line 9
     invoke-interface {v11, v10}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v4
@@ -714,7 +654,6 @@
     :cond_1
     const/4 v4, 0x0
 
-    .line 10
     :goto_1
     invoke-static {v4}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
 
@@ -722,20 +661,16 @@
 
     invoke-interface {v12, v10, v5}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 11
     new-instance v9, Lcom/google/android/gms/common/api/internal/h3;
 
     invoke-direct {v9, v10, v4}, Lcom/google/android/gms/common/api/internal/h3;-><init>(Lcom/google/android/gms/common/api/a;Z)V
 
-    .line 12
     invoke-virtual {v15, v9}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    .line 13
     invoke-virtual {v10}, Lcom/google/android/gms/common/api/a;->d()Lcom/google/android/gms/common/api/a$a;
 
     move-result-object v19
 
-    .line 14
     iget-object v5, v1, Lcom/google/android/gms/common/api/i$a;->j:Landroid/content/Context;
 
     iget-object v6, v1, Lcom/google/android/gms/common/api/i$a;->o:Landroid/os/Looper;
@@ -752,19 +687,16 @@
 
     move-object/from16 v10, v20
 
-    .line 15
     invoke-virtual/range {v4 .. v10}, Lcom/google/android/gms/common/api/a$a;->c(Landroid/content/Context;Landroid/os/Looper;Lcom/google/android/gms/common/internal/f;Ljava/lang/Object;Lcom/google/android/gms/common/api/i$b;Lcom/google/android/gms/common/api/i$c;)Lcom/google/android/gms/common/api/a$f;
 
     move-result-object v4
 
-    .line 16
     invoke-virtual/range {v21 .. v21}, Lcom/google/android/gms/common/api/a;->a()Lcom/google/android/gms/common/api/a$c;
 
     move-result-object v5
 
     invoke-interface {v14, v5, v4}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 17
     invoke-virtual/range {v19 .. v19}, Lcom/google/android/gms/common/api/a$e;->b()I
 
     move-result v5
@@ -780,7 +712,6 @@
     :cond_2
     const/16 v17, 0x0
 
-    .line 18
     :cond_3
     :goto_2
     invoke-interface {v4}, Lcom/google/android/gms/common/api/a$f;->e()Z
@@ -795,11 +726,9 @@
 
     goto :goto_0
 
-    .line 19
     :cond_4
     new-instance v0, Ljava/lang/IllegalStateException;
 
-    .line 20
     invoke-virtual/range {v21 .. v21}, Lcom/google/android/gms/common/api/a;->b()Ljava/lang/String;
 
     move-result-object v2
@@ -853,7 +782,6 @@
 
     if-nez v17, :cond_7
 
-    .line 21
     iget-object v4, v1, Lcom/google/android/gms/common/api/i$a;->a:Landroid/accounts/Account;
 
     if-nez v4, :cond_6
@@ -870,22 +798,18 @@
 
     new-array v6, v2, [Ljava/lang/Object;
 
-    .line 22
     invoke-virtual {v3}, Lcom/google/android/gms/common/api/a;->b()Ljava/lang/String;
 
     move-result-object v7
 
     aput-object v7, v6, v16
 
-    .line 23
     invoke-static {v4, v5, v6}, Lcom/google/android/gms/common/internal/b0;->s(ZLjava/lang/String;[Ljava/lang/Object;)V
 
-    .line 24
     iget-object v4, v1, Lcom/google/android/gms/common/api/i$a;->b:Ljava/util/Set;
 
     iget-object v5, v1, Lcom/google/android/gms/common/api/i$a;->c:Ljava/util/Set;
 
-    .line 25
     invoke-interface {v4, v5}, Ljava/util/Set;->equals(Ljava/lang/Object;)Z
 
     move-result v4
@@ -894,23 +818,19 @@
 
     new-array v6, v2, [Ljava/lang/Object;
 
-    .line 26
     invoke-virtual {v3}, Lcom/google/android/gms/common/api/a;->b()Ljava/lang/String;
 
     move-result-object v3
 
     aput-object v3, v6, v16
 
-    .line 27
     invoke-static {v4, v5, v6}, Lcom/google/android/gms/common/internal/b0;->s(ZLjava/lang/String;[Ljava/lang/Object;)V
 
     goto :goto_4
 
-    .line 28
     :cond_7
     new-instance v0, Ljava/lang/IllegalStateException;
 
-    .line 29
     invoke-virtual {v3}, Lcom/google/android/gms/common/api/a;->b()Ljava/lang/String;
 
     move-result-object v2
@@ -947,19 +867,16 @@
 
     throw v0
 
-    .line 30
     :cond_8
     :goto_4
     invoke-interface {v14}, Ljava/util/Map;->values()Ljava/util/Collection;
 
     move-result-object v3
 
-    .line 31
     invoke-static {v3, v2}, Lcom/google/android/gms/common/api/internal/w0;->L(Ljava/lang/Iterable;Z)I
 
     move-result v16
 
-    .line 32
     new-instance v2, Lcom/google/android/gms/common/api/internal/w0;
 
     iget-object v5, v1, Lcom/google/android/gms/common/api/i$a;->j:Landroid/content/Context;
@@ -1000,14 +917,12 @@
 
     invoke-direct/range {v4 .. v18}, Lcom/google/android/gms/common/api/internal/w0;-><init>(Landroid/content/Context;Ljava/util/concurrent/locks/Lock;Landroid/os/Looper;Lcom/google/android/gms/common/internal/f;Lcom/google/android/gms/common/d;Lcom/google/android/gms/common/api/a$a;Ljava/util/Map;Ljava/util/List;Ljava/util/List;Ljava/util/Map;IILjava/util/ArrayList;Z)V
 
-    .line 33
     invoke-static {}, Lcom/google/android/gms/common/api/i;->J()Ljava/util/Set;
 
     move-result-object v3
 
     monitor-enter v3
 
-    .line 34
     :try_start_0
     invoke-static {}, Lcom/google/android/gms/common/api/i;->J()Ljava/util/Set;
 
@@ -1015,17 +930,14 @@
 
     invoke-interface {v0, v2}, Ljava/util/Set;->add(Ljava/lang/Object;)Z
 
-    .line 35
     monitor-exit v3
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 36
     iget v0, v1, Lcom/google/android/gms/common/api/i$a;->m:I
 
     if-ltz v0, :cond_9
 
-    .line 37
     iget-object v0, v1, Lcom/google/android/gms/common/api/i$a;->l:Lcom/google/android/gms/common/api/internal/j;
 
     invoke-static {v0}, Lcom/google/android/gms/common/api/internal/a3;->r(Lcom/google/android/gms/common/api/internal/j;)Lcom/google/android/gms/common/api/internal/a3;
@@ -1036,7 +948,6 @@
 
     iget-object v4, v1, Lcom/google/android/gms/common/api/i$a;->n:Lcom/google/android/gms/common/api/i$c;
 
-    .line 38
     invoke-virtual {v0, v3, v2, v4}, Lcom/google/android/gms/common/api/internal/a3;->t(ILcom/google/android/gms/common/api/i;Lcom/google/android/gms/common/api/i$c;)V
 
     :cond_9
@@ -1045,7 +956,6 @@
     :catchall_0
     move-exception v0
 
-    .line 39
     :try_start_1
     monitor-exit v3
     :try_end_1
@@ -1062,10 +972,8 @@
     .annotation build Lcom/google/android/gms/common/util/d0;
     .end annotation
 
-    .line 1
     sget-object v0, Lf/f/b/b/l/a;->K:Lf/f/b/b/l/a;
 
-    .line 2
     iget-object v1, p0, Lcom/google/android/gms/common/api/i$a;->k:Ljava/util/Map;
 
     sget-object v2, Lf/f/b/b/l/b;->g:Lcom/google/android/gms/common/api/a;
@@ -1076,7 +984,6 @@
 
     if-eqz v1, :cond_0
 
-    .line 3
     iget-object v0, p0, Lcom/google/android/gms/common/api/i$a;->k:Ljava/util/Map;
 
     invoke-interface {v0, v2}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
@@ -1088,7 +995,6 @@
     :cond_0
     move-object v9, v0
 
-    .line 4
     new-instance v0, Lcom/google/android/gms/common/internal/f;
 
     iget-object v2, p0, Lcom/google/android/gms/common/api/i$a;->a:Landroid/accounts/Account;
@@ -1125,7 +1031,6 @@
         .end annotation
     .end param
 
-    .line 1
     new-instance v0, Lcom/google/android/gms/common/api/internal/j;
 
     invoke-direct {v0, p1}, Lcom/google/android/gms/common/api/internal/j;-><init>(Landroid/app/Activity;)V
@@ -1142,16 +1047,12 @@
     :goto_0
     const-string v1, "clientId must be non-negative"
 
-    .line 2
     invoke-static {p1, v1}, Lcom/google/android/gms/common/internal/b0;->b(ZLjava/lang/Object;)V
 
-    .line 3
     iput p2, p0, Lcom/google/android/gms/common/api/i$a;->m:I
 
-    .line 4
     iput-object p3, p0, Lcom/google/android/gms/common/api/i$a;->n:Lcom/google/android/gms/common/api/i$c;
 
-    .line 5
     iput-object v0, p0, Lcom/google/android/gms/common/api/i$a;->l:Lcom/google/android/gms/common/api/internal/j;
 
     return-object p0
@@ -1170,7 +1071,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-virtual {p0, p1, v0, p2}, Lcom/google/android/gms/common/api/i$a;->k(Landroidx/fragment/app/FragmentActivity;ILcom/google/android/gms/common/api/i$c;)Lcom/google/android/gms/common/api/i$a;
 
     move-result-object p1
@@ -1187,7 +1087,6 @@
 
     goto :goto_0
 
-    .line 1
     :cond_0
     new-instance v0, Landroid/accounts/Account;
 
@@ -1206,7 +1105,6 @@
 .method public final n(I)Lcom/google/android/gms/common/api/i$a;
     .locals 0
 
-    .line 1
     iput p1, p0, Lcom/google/android/gms/common/api/i$a;->d:I
 
     return-object p0
@@ -1221,10 +1119,8 @@
 
     const-string v0, "Handler must not be null"
 
-    .line 1
     invoke-static {p1, v0}, Lcom/google/android/gms/common/internal/b0;->l(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 2
     invoke-virtual {p1}, Landroid/os/Handler;->getLooper()Landroid/os/Looper;
 
     move-result-object p1
@@ -1243,10 +1139,8 @@
 
     const-string v0, "View must not be null"
 
-    .line 1
     invoke-static {p1, v0}, Lcom/google/android/gms/common/internal/b0;->l(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 2
     iput-object p1, p0, Lcom/google/android/gms/common/api/i$a;->e:Landroid/view/View;
 
     return-object p0
@@ -1257,7 +1151,6 @@
 
     const-string v0, "<<default account>>"
 
-    .line 1
     invoke-virtual {p0, v0}, Lcom/google/android/gms/common/api/i$a;->m(Ljava/lang/String;)Lcom/google/android/gms/common/api/i$a;
 
     move-result-object v0

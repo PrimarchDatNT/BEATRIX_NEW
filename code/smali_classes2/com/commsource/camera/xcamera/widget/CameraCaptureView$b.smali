@@ -28,7 +28,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/camera/xcamera/widget/CameraCaptureView$b;->a:Lcom/commsource/camera/xcamera/widget/CameraCaptureView;
 
     invoke-direct {p0}, Lcom/commsource/beautymain/widget/gesturewidget/e$c;-><init>()V
@@ -53,7 +52,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/widget/CameraCaptureView$b;->a:Lcom/commsource/camera/xcamera/widget/CameraCaptureView;
 
     invoke-static {v1}, Lcom/commsource/camera/xcamera/widget/CameraCaptureView;->j(Lcom/commsource/camera/xcamera/widget/CameraCaptureView;)Lcom/commsource/camera/f1/l;
@@ -66,14 +64,12 @@
 
     if-nez v1, :cond_0
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/camera/xcamera/widget/CameraCaptureView$b;->a:Lcom/commsource/camera/xcamera/widget/CameraCaptureView;
 
     const/4 v2, 0x0
 
     invoke-static {v1, v2}, Lcom/commsource/camera/xcamera/widget/CameraCaptureView;->s(Lcom/commsource/camera/xcamera/widget/CameraCaptureView;I)V
 
-    .line 3
     :cond_0
     invoke-super {p0, p1}, Lcom/commsource/beautymain/widget/gesturewidget/e$c;->onMajorFingerDown(Landroid/view/MotionEvent;)Z
 
@@ -99,7 +95,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/widget/CameraCaptureView$b;->a:Lcom/commsource/camera/xcamera/widget/CameraCaptureView;
 
     invoke-static {v1}, Lcom/commsource/camera/xcamera/widget/CameraCaptureView;->j(Lcom/commsource/camera/xcamera/widget/CameraCaptureView;)Lcom/commsource/camera/f1/l;
@@ -112,14 +107,12 @@
 
     if-nez v1, :cond_0
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/camera/xcamera/widget/CameraCaptureView$b;->a:Lcom/commsource/camera/xcamera/widget/CameraCaptureView;
 
     const/4 v2, 0x0
 
     invoke-static {v1, v2}, Lcom/commsource/camera/xcamera/widget/CameraCaptureView;->t(Lcom/commsource/camera/xcamera/widget/CameraCaptureView;I)V
 
-    .line 3
     :cond_0
     invoke-super {p0, p1}, Lcom/commsource/beautymain/widget/gesturewidget/e$c;->onMajorFingerUp(Landroid/view/MotionEvent;)Z
 

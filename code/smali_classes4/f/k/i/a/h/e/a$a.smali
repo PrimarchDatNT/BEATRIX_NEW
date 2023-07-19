@@ -26,17 +26,14 @@
 .method constructor <init>(Lf/k/i/a/h/e/a;Lokio/Sink;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lf/k/i/a/h/e/a$a;->c:Lf/k/i/a/h/e/a;
 
     invoke-direct {p0, p2}, Lokio/ForwardingSink;-><init>(Lokio/Sink;)V
 
     const-wide/16 p1, 0x0
 
-    .line 2
     iput-wide p1, p0, Lf/k/i/a/h/e/a$a;->a:J
 
-    .line 3
     iput-wide p1, p0, Lf/k/i/a/h/e/a$a;->b:J
 
     return-void
@@ -56,11 +53,9 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     :try_start_0
     invoke-super {p0, p1, p2, p3}, Lokio/ForwardingSink;->write(Lokio/Buffer;J)V
 
-    .line 2
     iget-wide v1, p0, Lf/k/i/a/h/e/a$a;->b:J
 
     const-wide/16 v3, 0x0
@@ -69,7 +64,6 @@
 
     if-nez p1, :cond_0
 
-    .line 3
     iget-object p1, p0, Lf/k/i/a/h/e/a$a;->c:Lf/k/i/a/h/e/a;
 
     invoke-virtual {p1}, Lf/k/i/a/h/e/a;->contentLength()J
@@ -78,7 +72,6 @@
 
     iput-wide v1, p0, Lf/k/i/a/h/e/a$a;->b:J
 
-    .line 4
     :cond_0
     iget-wide v1, p0, Lf/k/i/a/h/e/a$a;->a:J
 
@@ -86,7 +79,6 @@
 
     iput-wide v1, p0, Lf/k/i/a/h/e/a$a;->a:J
 
-    .line 5
     sget-object p1, Lf/k/i/a/i/c;->a:Lcom/meitu/library/m/a/b;
 
     invoke-static {}, Lf/k/i/a/h/e/a;->a()Ljava/lang/String;
@@ -119,7 +111,6 @@
 
     invoke-virtual {p1, p2, p3}, Lcom/meitu/library/m/a/b;->b(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 6
     iget-object p1, p0, Lf/k/i/a/h/e/a$a;->c:Lf/k/i/a/h/e/a;
 
     invoke-static {p1}, Lf/k/i/a/h/e/a;->b(Lf/k/i/a/h/e/a;)Lf/k/i/a/h/e/a$b;
@@ -128,7 +119,6 @@
 
     if-eqz p1, :cond_1
 
-    .line 7
     iget-object p1, p0, Lf/k/i/a/h/e/a$a;->c:Lf/k/i/a/h/e/a;
 
     invoke-static {p1}, Lf/k/i/a/h/e/a;->b(Lf/k/i/a/h/e/a;)Lf/k/i/a/h/e/a$b;
@@ -144,7 +134,6 @@
     .catch Ljava/lang/IllegalStateException; {:try_start_0 .. :try_end_0} :catch_1
     .catch Ljava/lang/IllegalArgumentException; {:try_start_0 .. :try_end_0} :catch_0
 
-    .line 8
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -153,7 +142,6 @@
     :catch_0
     move-exception p1
 
-    .line 9
     new-instance p2, Ljava/io/IOException;
 
     invoke-virtual {p1}, Ljava/lang/IllegalArgumentException;->getMessage()Ljava/lang/String;
@@ -169,7 +157,6 @@
     :catch_1
     move-exception p1
 
-    .line 10
     new-instance p2, Ljava/io/IOException;
 
     invoke-virtual {p1}, Ljava/lang/IllegalStateException;->getMessage()Ljava/lang/String;

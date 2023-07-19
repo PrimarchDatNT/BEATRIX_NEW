@@ -108,24 +108,20 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 2
     invoke-direct {p0, p1, p2, p3}, Landroid/view/View;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
-    .line 3
     new-instance p1, Landroid/graphics/RectF;
 
     invoke-direct {p1}, Landroid/graphics/RectF;-><init>()V
 
     iput-object p1, p0, Lcom/commsource/comic/StrokeView;->a:Landroid/graphics/RectF;
 
-    .line 4
     new-instance p1, Landroid/graphics/RectF;
 
     invoke-direct {p1}, Landroid/graphics/RectF;-><init>()V
 
     iput-object p1, p0, Lcom/commsource/comic/StrokeView;->b:Landroid/graphics/RectF;
 
-    .line 5
     sget-object p1, Lcom/commsource/comic/StrokeView$paint$2;->INSTANCE:Lcom/commsource/comic/StrokeView$paint$2;
 
     invoke-static {p1}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
@@ -136,7 +132,6 @@
 
     const/high16 p1, 0x40800000    # 4.0f
 
-    .line 6
     invoke-static {p1}, Lcom/meitu/library/p/f/i;->b(F)F
 
     move-result p1
@@ -145,7 +140,6 @@
 
     const/4 p1, 0x1
 
-    .line 7
     iput-boolean p1, p0, Lcom/commsource/comic/StrokeView;->f:Z
 
     const/4 p1, 0x2
@@ -154,7 +148,6 @@
 
     const/high16 p2, 0x3f000000    # 0.5f
 
-    .line 8
     invoke-static {p2}, Lcom/meitu/library/p/f/i;->b(F)F
 
     move-result p2
@@ -165,7 +158,6 @@
 
     sget p1, Lcom/res/provider/ResCOLOR;->black5:I
 
-    .line 9
     invoke-static {p1}, Lcom/commsource/util/u1;->b(I)I
 
     move-result p1
@@ -191,7 +183,6 @@
 
     const/4 p3, 0x0
 
-    .line 1
     :cond_1
     invoke-direct {p0, p1, p2, p3}, Lcom/commsource/comic/StrokeView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
@@ -276,7 +267,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/comic/StrokeView;->f:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -291,7 +281,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/comic/StrokeView;->d:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -308,7 +297,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/comic/StrokeView;->b:Landroid/graphics/RectF;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -325,7 +313,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/comic/StrokeView;->a:Landroid/graphics/RectF;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -362,7 +349,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/comic/StrokeView;->p:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -377,7 +363,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/comic/StrokeView;->g:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -396,17 +381,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0, p1}, Landroid/view/View;->onDraw(Landroid/graphics/Canvas;)V
 
-    .line 2
     iget-boolean v1, p0, Lcom/commsource/comic/StrokeView;->f:Z
 
     if-eqz v1, :cond_0
 
     if-eqz p1, :cond_0
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/comic/StrokeView;->b:Landroid/graphics/RectF;
 
     iget v2, p0, Lcom/commsource/comic/StrokeView;->d:F
@@ -417,7 +399,6 @@
 
     invoke-virtual {p1, v1, v2, v2, v3}, Landroid/graphics/Canvas;->drawRoundRect(Landroid/graphics/RectF;FFLandroid/graphics/Paint;)V
 
-    .line 4
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -431,10 +412,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0, p1, p2, p3, p4}, Landroid/view/View;->onSizeChanged(IIII)V
 
-    .line 2
     iget-object p3, p0, Lcom/commsource/comic/StrokeView;->a:Landroid/graphics/RectF;
 
     int-to-float p1, p1
@@ -445,14 +424,12 @@
 
     invoke-virtual {p3, p4, p4, p1, p2}, Landroid/graphics/RectF;->set(FFFF)V
 
-    .line 3
     iget-object p1, p0, Lcom/commsource/comic/StrokeView;->b:Landroid/graphics/RectF;
 
     iget-object p2, p0, Lcom/commsource/comic/StrokeView;->a:Landroid/graphics/RectF;
 
     invoke-virtual {p1, p2}, Landroid/graphics/RectF;->set(Landroid/graphics/RectF;)V
 
-    .line 4
     iget-object p1, p0, Lcom/commsource/comic/StrokeView;->b:Landroid/graphics/RectF;
 
     iget p2, p0, Lcom/commsource/comic/StrokeView;->g:F
@@ -469,7 +446,6 @@
 
     invoke-virtual {p1, p3, p2}, Landroid/graphics/RectF;->inset(FF)V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -482,13 +458,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/comic/StrokeView;->d:F
 
-    .line 2
     invoke-virtual {p0}, Landroid/view/View;->invalidate()V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -501,13 +474,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/comic/StrokeView;->f:Z
 
-    .line 2
     invoke-virtual {p0}, Landroid/view/View;->invalidate()V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -520,20 +490,16 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/comic/StrokeView;->p:I
 
-    .line 2
     invoke-virtual {p0}, Lcom/commsource/comic/StrokeView;->getPaint()Landroid/graphics/Paint;
 
     move-result-object v1
 
     invoke-virtual {v1, p1}, Landroid/graphics/Paint;->setColor(I)V
 
-    .line 3
     invoke-virtual {p0}, Landroid/view/View;->invalidate()V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -546,24 +512,20 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/comic/StrokeView;->g:F
 
-    .line 2
     invoke-virtual {p0}, Lcom/commsource/comic/StrokeView;->getPaint()Landroid/graphics/Paint;
 
     move-result-object v1
 
     invoke-virtual {v1, p1}, Landroid/graphics/Paint;->setStrokeWidth(F)V
 
-    .line 3
     iget-object p1, p0, Lcom/commsource/comic/StrokeView;->b:Landroid/graphics/RectF;
 
     iget-object v1, p0, Lcom/commsource/comic/StrokeView;->a:Landroid/graphics/RectF;
 
     invoke-virtual {p1, v1}, Landroid/graphics/RectF;->set(Landroid/graphics/RectF;)V
 
-    .line 4
     iget-object p1, p0, Lcom/commsource/comic/StrokeView;->b:Landroid/graphics/RectF;
 
     iget v1, p0, Lcom/commsource/comic/StrokeView;->g:F
@@ -578,10 +540,8 @@
 
     invoke-virtual {p1, v3, v1}, Landroid/graphics/RectF;->inset(FF)V
 
-    .line 5
     invoke-virtual {p0}, Landroid/view/View;->invalidate()V
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

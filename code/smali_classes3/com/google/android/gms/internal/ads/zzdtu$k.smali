@@ -34,7 +34,6 @@
 .method static constructor <clinit>()V
     .locals 2
 
-    .line 1
     new-instance v0, Lcom/google/android/gms/internal/ads/zzdtu$k;
 
     const/4 v1, 0x0
@@ -49,10 +48,8 @@
 .method constructor <init>()V
     .locals 2
 
-    .line 2
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 3
     invoke-static {}, Lcom/google/android/gms/internal/ads/zzdtu;->v()Lcom/google/android/gms/internal/ads/zzdtu$b;
 
     move-result-object v0
@@ -69,7 +66,6 @@
 .method private constructor <init>(Z)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -80,7 +76,6 @@
 .method final a(Lcom/google/android/gms/internal/ads/zzdtu$k;)V
     .locals 1
 
-    .line 1
     invoke-static {}, Lcom/google/android/gms/internal/ads/zzdtu;->v()Lcom/google/android/gms/internal/ads/zzdtu$b;
 
     move-result-object v0

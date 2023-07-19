@@ -31,7 +31,6 @@
 .method private constructor <init>()V
     .locals 1
 
-    .line 2
     invoke-static {}, Lf/f/d/a/d;->ah()Lf/f/d/a/d;
 
     move-result-object v0
@@ -44,7 +43,6 @@
 .method synthetic constructor <init>(Lf/f/d/a/d$a;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lf/f/d/a/d$b;-><init>()V
 
     return-void
@@ -55,10 +53,8 @@
 .method public Qg()Lf/f/d/a/d$b;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/protobuf/GeneratedMessageLite$b;->Lg()V
 
-    .line 2
     iget-object v0, p0, Lcom/google/protobuf/GeneratedMessageLite$b;->b:Lcom/google/protobuf/GeneratedMessageLite;
 
     check-cast v0, Lf/f/d/a/d;
@@ -71,10 +67,8 @@
 .method public Rg(Ljava/lang/String;)Lf/f/d/a/d$b;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/protobuf/GeneratedMessageLite$b;->Lg()V
 
-    .line 2
     iget-object v0, p0, Lcom/google/protobuf/GeneratedMessageLite$b;->b:Lcom/google/protobuf/GeneratedMessageLite;
 
     check-cast v0, Lf/f/d/a/d;
@@ -87,10 +81,8 @@
 .method public Sg(Lcom/google/protobuf/ByteString;)Lf/f/d/a/d$b;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/protobuf/GeneratedMessageLite$b;->Lg()V
 
-    .line 2
     iget-object v0, p0, Lcom/google/protobuf/GeneratedMessageLite$b;->b:Lcom/google/protobuf/GeneratedMessageLite;
 
     check-cast v0, Lf/f/d/a/d;
@@ -103,7 +95,6 @@
 .method public ca()Lcom/google/protobuf/ByteString;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/protobuf/GeneratedMessageLite$b;->b:Lcom/google/protobuf/GeneratedMessageLite;
 
     check-cast v0, Lf/f/d/a/d;
@@ -118,7 +109,6 @@
 .method public e5()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/protobuf/GeneratedMessageLite$b;->b:Lcom/google/protobuf/GeneratedMessageLite;
 
     check-cast v0, Lf/f/d/a/d;

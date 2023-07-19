@@ -20,7 +20,6 @@
 .method constructor <init>(Lcom/google/android/gms/internal/firebase_remote_config/q0;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -31,7 +30,6 @@
 .method public final synthetic compare(Ljava/lang/Object;Ljava/lang/Object;)I
     .locals 3
 
-    .line 1
     check-cast p1, Ljava/lang/String;
 
     check-cast p2, Ljava/lang/String;
@@ -44,7 +42,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 2
     invoke-virtual {p1, p2}, Ljava/lang/Object;->equals(Ljava/lang/Object;)Z
 
     move-result v2
@@ -79,7 +76,6 @@
 
     return v1
 
-    .line 3
     :cond_4
     invoke-virtual {p1, p2}, Ljava/lang/String;->compareTo(Ljava/lang/String;)I
 

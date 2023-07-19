@@ -30,21 +30,16 @@
 .method private constructor <init>(Lcom/bumptech/glide/m/a;Ljava/lang/String;J[Ljava/io/File;[J)V
     .locals 0
 
-    .line 2
     iput-object p1, p0, Lcom/bumptech/glide/m/a$e;->e:Lcom/bumptech/glide/m/a;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 3
     iput-object p2, p0, Lcom/bumptech/glide/m/a$e;->a:Ljava/lang/String;
 
-    .line 4
     iput-wide p3, p0, Lcom/bumptech/glide/m/a$e;->b:J
 
-    .line 5
     iput-object p5, p0, Lcom/bumptech/glide/m/a$e;->d:[Ljava/io/File;
 
-    .line 6
     iput-object p6, p0, Lcom/bumptech/glide/m/a$e;->c:[J
 
     return-void
@@ -53,7 +48,6 @@
 .method synthetic constructor <init>(Lcom/bumptech/glide/m/a;Ljava/lang/String;J[Ljava/io/File;[JLcom/bumptech/glide/m/a$a;)V
     .locals 0
 
-    .line 1
     invoke-direct/range {p0 .. p6}, Lcom/bumptech/glide/m/a$e;-><init>(Lcom/bumptech/glide/m/a;Ljava/lang/String;J[Ljava/io/File;[J)V
 
     return-void
@@ -69,7 +63,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/bumptech/glide/m/a$e;->e:Lcom/bumptech/glide/m/a;
 
     iget-object v1, p0, Lcom/bumptech/glide/m/a$e;->a:Ljava/lang/String;
@@ -86,7 +79,6 @@
 .method public b(I)Ljava/io/File;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/bumptech/glide/m/a$e;->d:[Ljava/io/File;
 
     aget-object p1, v0, p1
@@ -97,7 +89,6 @@
 .method public c(I)J
     .locals 3
 
-    .line 1
     iget-object v0, p0, Lcom/bumptech/glide/m/a$e;->c:[J
 
     aget-wide v1, v0, p1
@@ -113,7 +104,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/io/FileInputStream;
 
     iget-object v1, p0, Lcom/bumptech/glide/m/a$e;->d:[Ljava/io/File;
@@ -122,7 +112,6 @@
 
     invoke-direct {v0, p1}, Ljava/io/FileInputStream;-><init>(Ljava/io/File;)V
 
-    .line 2
     invoke-static {v0}, Lcom/bumptech/glide/m/a;->c(Ljava/io/InputStream;)Ljava/lang/String;
 
     move-result-object p1

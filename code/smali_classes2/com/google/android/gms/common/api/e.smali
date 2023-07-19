@@ -25,12 +25,10 @@
     .annotation build Lcom/google/android/gms/common/internal/e0;
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const-string v0, "Status must not be null"
 
-    .line 2
     invoke-static {p1, v0}, Lcom/google/android/gms/common/internal/b0;->l(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -39,7 +37,6 @@
 
     iput-object p1, p0, Lcom/google/android/gms/common/api/e;->a:Lcom/google/android/gms/common/api/Status;
 
-    .line 3
     iput-boolean p2, p0, Lcom/google/android/gms/common/api/e;->b:Z
 
     return-void
@@ -52,7 +49,6 @@
     .annotation build Lcom/google/android/gms/common/annotation/a;
     .end annotation
 
-    .line 1
     iget-boolean v0, p0, Lcom/google/android/gms/common/api/e;->b:Z
 
     return v0
@@ -69,7 +65,6 @@
 
     return v0
 
-    .line 1
     :cond_0
     instance-of v1, p1, Lcom/google/android/gms/common/api/e;
 
@@ -79,11 +74,9 @@
 
     return v2
 
-    .line 2
     :cond_1
     check-cast p1, Lcom/google/android/gms/common/api/e;
 
-    .line 3
     iget-object v1, p0, Lcom/google/android/gms/common/api/e;->a:Lcom/google/android/gms/common/api/Status;
 
     iget-object v3, p1, Lcom/google/android/gms/common/api/e;->a:Lcom/google/android/gms/common/api/Status;
@@ -111,7 +104,6 @@
     .annotation build Lcom/google/android/gms/common/annotation/a;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/common/api/e;->a:Lcom/google/android/gms/common/api/Status;
 
     return-object v0
@@ -122,7 +114,6 @@
     .annotation build Lcom/google/android/gms/common/annotation/a;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/common/api/e;->a:Lcom/google/android/gms/common/api/Status;
 
     invoke-virtual {v0}, Lcom/google/android/gms/common/api/Status;->hashCode()I
@@ -133,7 +124,6 @@
 
     mul-int/lit8 v0, v0, 0x1f
 
-    .line 2
     iget-boolean v1, p0, Lcom/google/android/gms/common/api/e;->b:Z
 
     add-int/2addr v0, v1

@@ -69,7 +69,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel$takeScreenShot$action$1;->invoke()V
 
     sget-object v1, Lcotlin/t1;->a:Lcotlin/t1;
@@ -86,7 +85,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel$takeScreenShot$action$1;->this$0:Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;
 
     invoke-static {v1}, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;->z(Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;)Lcom/meitu/library/d/f/a;
@@ -99,31 +97,24 @@
 
     if-eqz v1, :cond_0
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel$takeScreenShot$action$1;->this$0:Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;
 
     invoke-static {v1}, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;->A(Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;)Lcom/meitu/library/d/d/a/b/a;
 
     move-result-object v1
 
-    .line 4
     iget-boolean v2, p0, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel$takeScreenShot$action$1;->$needOri:Z
 
-    .line 5
     iget-boolean v3, p0, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel$takeScreenShot$action$1;->$needEffect:Z
 
-    .line 6
     iget-boolean v4, p0, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel$takeScreenShot$action$1;->$isPlaySound:Z
 
-    .line 7
     iget-boolean v5, p0, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel$takeScreenShot$action$1;->$needMirror:Z
 
-    .line 8
     invoke-virtual {v1, v2, v3, v4, v5}, Lcom/meitu/library/renderarch/arch/input/camerainput/a;->s2(ZZZZ)V
 
     goto :goto_0
 
-    .line 9
     :cond_0
     iget-object v1, p0, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel$takeScreenShot$action$1;->this$0:Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;
 
@@ -131,22 +122,16 @@
 
     move-result-object v1
 
-    .line 10
     iget-boolean v2, p0, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel$takeScreenShot$action$1;->$needOri:Z
 
-    .line 11
     iget-boolean v3, p0, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel$takeScreenShot$action$1;->$needEffect:Z
 
-    .line 12
     iget-boolean v4, p0, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel$takeScreenShot$action$1;->$isPlaySound:Z
 
-    .line 13
     iget-boolean v5, p0, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel$takeScreenShot$action$1;->$needMirror:Z
 
-    .line 14
     invoke-virtual {v1, v2, v3, v4, v5}, Lcom/meitu/library/renderarch/arch/input/camerainput/a;->s2(ZZZZ)V
 
-    .line 15
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

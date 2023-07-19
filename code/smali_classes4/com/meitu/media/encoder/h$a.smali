@@ -25,7 +25,6 @@
 .method constructor <init>(Lcom/meitu/media/encoder/h;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/media/encoder/h$a;->a:Lcom/meitu/media/encoder/h;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -42,7 +41,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -55,7 +53,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -68,7 +65,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -83,7 +79,6 @@
 
     if-nez p1, :cond_1
 
-    .line 1
     iget-object p1, p0, Lcom/meitu/media/encoder/h$a;->a:Lcom/meitu/media/encoder/h;
 
     iget-object v1, p1, Lcom/meitu/media/encoder/h;->a:Lcom/meitu/media/encoder/a;
@@ -94,7 +89,6 @@
 
     iput-object v1, p1, Lcom/meitu/media/encoder/h;->c:Landroid/view/Surface;
 
-    .line 2
     new-instance p1, Ljava/lang/StringBuilder;
 
     invoke-direct {p1}, Ljava/lang/StringBuilder;-><init>()V
@@ -127,7 +121,6 @@
 
     invoke-static {v1, p1}, Lcom/meitu/debug/Logger;->b(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 3
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -141,7 +134,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

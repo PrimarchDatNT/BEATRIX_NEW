@@ -29,7 +29,6 @@
 
     new-array v1, v1, [B
 
-    .line 1
     sput-object v1, Lcom/meitu/flymedia/glx/utils/k;->b:[B
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -40,7 +39,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -55,13 +53,11 @@
 
     if-eqz p0, :cond_0
 
-    .line 1
     :try_start_0
     invoke-interface {p0}, Ljava/io/Closeable;->close()V
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
-    .line 2
     :catch_0
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -81,14 +77,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p1}, Ljava/nio/ByteBuffer;->position()I
 
     move-result v1
 
     const/4 v2, 0x0
 
-    .line 2
     :goto_0
     invoke-virtual {p0, p2}, Ljava/io/InputStream;->read([B)I
 
@@ -102,16 +96,13 @@
 
     add-int v3, v1, v2
 
-    .line 3
     invoke-virtual {p1, v3}, Ljava/nio/ByteBuffer;->position(I)Ljava/nio/Buffer;
 
     goto :goto_0
 
-    .line 4
     :cond_0
     invoke-virtual {p1, v1}, Ljava/nio/ByteBuffer;->position(I)Ljava/nio/Buffer;
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v2
@@ -133,10 +124,8 @@
 
     new-array v1, v1, [B
 
-    .line 1
     invoke-static {p0, p1, v1}, Lcom/meitu/flymedia/glx/utils/k;->e(Ljava/io/InputStream;Ljava/io/OutputStream;[B)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -154,12 +143,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-array p2, p2, [B
 
     invoke-static {p0, p1, p2}, Lcom/meitu/flymedia/glx/utils/k;->e(Ljava/io/InputStream;Ljava/io/OutputStream;[B)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -177,7 +164,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     :goto_0
     invoke-virtual {p0, p2}, Ljava/io/InputStream;->read([B)I
 
@@ -189,12 +175,10 @@
 
     const/4 v2, 0x0
 
-    .line 2
     invoke-virtual {p1, p2, v2, v1}, Ljava/io/OutputStream;->write([BII)V
 
     goto :goto_0
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -217,10 +201,8 @@
 
     new-array v1, v1, [B
 
-    .line 1
     invoke-static {p0, p1, v1}, Lcom/meitu/flymedia/glx/utils/k;->b(Ljava/io/InputStream;Ljava/nio/ByteBuffer;[B)I
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -238,12 +220,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-array p2, p2, [B
 
     invoke-static {p0, p1, p2}, Lcom/meitu/flymedia/glx/utils/k;->b(Ljava/io/InputStream;Ljava/nio/ByteBuffer;[B)I
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -261,7 +241,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Ljava/io/InputStream;->available()I
 
     move-result v1
@@ -287,7 +266,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/meitu/flymedia/glx/utils/k$a;
 
     const/4 v2, 0x0
@@ -298,10 +276,8 @@
 
     invoke-direct {v1, p1}, Lcom/meitu/flymedia/glx/utils/k$a;-><init>(I)V
 
-    .line 2
     invoke-static {p0, v1}, Lcom/meitu/flymedia/glx/utils/k;->c(Ljava/io/InputStream;Ljava/io/OutputStream;)V
 
-    .line 3
     invoke-virtual {v1}, Ljava/io/ByteArrayOutputStream;->toByteArray()[B
 
     move-result-object p0
@@ -323,7 +299,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Ljava/io/InputStream;->available()I
 
     move-result v1
@@ -353,7 +328,6 @@
 
     const/4 v1, 0x0
 
-    .line 1
     invoke-static {p0, p1, v1}, Lcom/meitu/flymedia/glx/utils/k;->l(Ljava/io/InputStream;ILjava/lang/String;)Ljava/lang/String;
 
     move-result-object p0
@@ -377,7 +351,6 @@
 
     if-nez p2, :cond_0
 
-    .line 1
     new-instance p2, Ljava/io/InputStreamReader;
 
     invoke-direct {p2, p0}, Ljava/io/InputStreamReader;-><init>(Ljava/io/InputStream;)V
@@ -391,7 +364,6 @@
 
     move-object p2, v1
 
-    .line 2
     :goto_0
     new-instance p0, Ljava/io/StringWriter;
 
@@ -407,7 +379,6 @@
 
     new-array p1, p1, [C
 
-    .line 3
     :goto_1
     invoke-virtual {p2, p1}, Ljava/io/InputStreamReader;->read([C)I
 
@@ -417,12 +388,10 @@
 
     if-eq v2, v3, :cond_1
 
-    .line 4
     invoke-virtual {p0, p1, v1, v2}, Ljava/io/StringWriter;->write([CII)V
 
     goto :goto_1
 
-    .line 5
     :cond_1
     invoke-virtual {p0}, Ljava/io/StringWriter;->toString()Ljava/lang/String;
 

@@ -53,7 +53,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/video/DemoDialog$bindView$1$1;->invoke()V
 
     sget-object v1, Lcotlin/t1;->a:Lcotlin/t1;
@@ -70,14 +69,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/video/DemoDialog$bindView$1$1;->this$0:Lcom/commsource/video/DemoDialog$bindView$1;
 
     iget-object v1, v1, Lcom/commsource/video/DemoDialog$bindView$1;->b:Lcom/commsource/video/view/XVideoContainer;
 
     invoke-virtual {v1}, Landroid/widget/FrameLayout;->bringToFront()V
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/video/DemoDialog$bindView$1$1;->this$0:Lcom/commsource/video/DemoDialog$bindView$1;
 
     iget-object v1, v1, Lcom/commsource/video/DemoDialog$bindView$1;->a:Lcom/commsource/video/DemoDialog;
@@ -86,7 +83,6 @@
 
     new-array v2, v2, [F
 
-    .line 4
     fill-array-data v2, :array_0
 
     invoke-static {v2}, Lcom/commsource/camera/f1/l;->e([F)Lcom/commsource/camera/f1/l;
@@ -95,12 +91,10 @@
 
     const-wide/16 v3, 0x190
 
-    .line 5
     invoke-virtual {v2, v3, v4}, Lcom/commsource/camera/f1/l;->b(J)Lcom/commsource/camera/f1/l;
 
     move-result-object v2
 
-    .line 6
     new-instance v3, Landroid/view/animation/AccelerateDecelerateInterpolator;
 
     invoke-direct {v3}, Landroid/view/animation/AccelerateDecelerateInterpolator;-><init>()V
@@ -109,7 +103,6 @@
 
     move-result-object v2
 
-    .line 7
     new-instance v3, Lcom/commsource/video/DemoDialog$bindView$1$1$a;
 
     invoke-direct {v3, p0}, Lcom/commsource/video/DemoDialog$bindView$1$1$a;-><init>(Lcom/commsource/video/DemoDialog$bindView$1$1;)V
@@ -120,7 +113,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/video/DemoDialog;->U(Lcom/commsource/camera/f1/l;)V
 
-    .line 8
     iget-object v1, p0, Lcom/commsource/video/DemoDialog$bindView$1$1;->this$0:Lcom/commsource/video/DemoDialog$bindView$1;
 
     iget-object v1, v1, Lcom/commsource/video/DemoDialog$bindView$1;->a:Lcom/commsource/video/DemoDialog;
@@ -135,7 +127,6 @@
 
     invoke-virtual {v1, v2, v3}, Lcom/commsource/camera/f1/l;->k(J)V
 
-    .line 9
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

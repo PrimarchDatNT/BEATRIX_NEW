@@ -149,7 +149,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     const-class v1, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer;
 
     invoke-virtual {v1}, Ljava/lang/Class;->getName()Ljava/lang/String;
@@ -168,7 +167,6 @@
 
     const/4 v0, 0x0
 
-    .line 30
     invoke-direct {p0, p1, v0}, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer;-><init>(Lcom/meitu/widget/layeredimageview/AbsLayerContainer;Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer$b;)V
 
     return-void
@@ -181,7 +179,6 @@
 
     const/4 p2, 0x0
 
-    .line 31
     invoke-direct {p0, p1, p3, p2, p2}, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer;-><init>(Lcom/meitu/widget/layeredimageview/AbsLayerContainer;Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer$b;Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer$d;Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer$c;)V
 
     return-void
@@ -192,7 +189,6 @@
 
     const/4 v0, 0x0
 
-    .line 29
     invoke-direct {p0, p1, p2, v0, v0}, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer;-><init>(Lcom/meitu/widget/layeredimageview/AbsLayerContainer;Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer$b;Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer$d;Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer$c;)V
 
     return-void
@@ -201,125 +197,102 @@
 .method public constructor <init>(Lcom/meitu/widget/layeredimageview/AbsLayerContainer;Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer$b;Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer$d;Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer$c;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/meitu/widget/layeredimageview/layer/a;-><init>(Lcom/meitu/widget/layeredimageview/AbsLayerContainer;)V
 
-    .line 2
     sget-object p1, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer$SingleTapAction;->NONE:Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer$SingleTapAction;
 
     iput-object p1, p0, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer;->g:Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer$SingleTapAction;
 
-    .line 3
     sget-object p1, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer$DoubleTapAction;->NONE:Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer$DoubleTapAction;
 
     iput-object p1, p0, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer;->p:Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer$DoubleTapAction;
 
-    .line 4
     sget-object p1, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer$LongPressAction;->NONE:Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer$LongPressAction;
 
     iput-object p1, p0, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer;->J:Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer$LongPressAction;
 
-    .line 5
     sget-object p1, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer$ScrollAction;->NONE:Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer$ScrollAction;
 
     iput-object p1, p0, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer;->K:Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer$ScrollAction;
 
-    .line 6
     sget-object p1, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer$PinchAction;->NONE:Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer$PinchAction;
 
     iput-object p1, p0, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer;->L:Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer$PinchAction;
 
     const/high16 p1, 0x40400000    # 3.0f
 
-    .line 7
     iput p1, p0, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer;->M:F
 
     const/high16 p1, 0x3f000000    # 0.5f
 
-    .line 8
     iput p1, p0, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer;->N:F
 
     const p1, 0x3f8ccccd    # 1.1f
 
-    .line 9
     iput p1, p0, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer;->O:F
 
     const p1, 0x3f666666    # 0.9f
 
-    .line 10
     iput p1, p0, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer;->P:F
 
     const/4 p1, 0x3
 
-    .line 11
     iput p1, p0, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer;->Q:I
 
     const/4 p1, 0x2
 
     new-array p1, p1, [F
 
-    .line 12
     fill-array-data p1, :array_0
 
-    .line 13
     invoke-static {p1}, Landroid/animation/ValueAnimator;->ofFloat([F)Landroid/animation/ValueAnimator;
 
     move-result-object p1
 
     iput-object p1, p0, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer;->g0:Landroid/animation/ValueAnimator;
 
-    .line 14
     new-instance p1, Landroid/graphics/RectF;
 
     invoke-direct {p1}, Landroid/graphics/RectF;-><init>()V
 
     iput-object p1, p0, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer;->h0:Landroid/graphics/RectF;
 
-    .line 15
     new-instance p1, Landroid/graphics/Matrix;
 
     invoke-direct {p1}, Landroid/graphics/Matrix;-><init>()V
 
     iput-object p1, p0, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer;->i0:Landroid/graphics/Matrix;
 
-    .line 16
     new-instance p1, Landroid/graphics/Matrix;
 
     invoke-direct {p1}, Landroid/graphics/Matrix;-><init>()V
 
     iput-object p1, p0, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer;->j0:Landroid/graphics/Matrix;
 
-    .line 17
     new-instance p1, Landroid/graphics/Matrix;
 
     invoke-direct {p1}, Landroid/graphics/Matrix;-><init>()V
 
     iput-object p1, p0, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer;->k0:Landroid/graphics/Matrix;
 
-    .line 18
     new-instance p1, Landroid/graphics/RectF;
 
     invoke-direct {p1}, Landroid/graphics/RectF;-><init>()V
 
     iput-object p1, p0, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer;->l0:Landroid/graphics/RectF;
 
-    .line 19
     new-instance p1, Landroid/graphics/RectF;
 
     invoke-direct {p1}, Landroid/graphics/RectF;-><init>()V
 
     iput-object p1, p0, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer;->m0:Landroid/graphics/RectF;
 
-    .line 20
     iput-object p2, p0, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer;->c:Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer$b;
 
-    .line 21
     iput-object p3, p0, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer;->d:Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer$d;
 
-    .line 22
     iput-object p4, p0, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer;->f:Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer$c;
 
-    .line 23
     invoke-virtual {p0}, Lcom/meitu/widget/layeredimageview/layer/a;->e()Lcom/meitu/widget/layeredimageview/AbsLayerContainer;
 
     move-result-object p1
@@ -328,17 +301,14 @@
 
     invoke-virtual {p1, p2}, Landroid/widget/ImageView;->setScaleType(Landroid/widget/ImageView$ScaleType;)V
 
-    .line 24
     iget-object p1, p0, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer;->g0:Landroid/animation/ValueAnimator;
 
     invoke-virtual {p1, p0}, Landroid/animation/ValueAnimator;->addListener(Landroid/animation/Animator$AnimatorListener;)V
 
-    .line 25
     iget-object p1, p0, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer;->g0:Landroid/animation/ValueAnimator;
 
     invoke-virtual {p1, p0}, Landroid/animation/ValueAnimator;->addUpdateListener(Landroid/animation/ValueAnimator$AnimatorUpdateListener;)V
 
-    .line 26
     iget-object p1, p0, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer;->g0:Landroid/animation/ValueAnimator;
 
     const/4 p2, 0x1
@@ -347,10 +317,8 @@
 
     const/16 p1, 0xfa
 
-    .line 27
     invoke-virtual {p0, p1}, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer;->y(I)V
 
-    .line 28
     iput-boolean p2, p0, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer;->c0:Z
 
     return-void
@@ -375,7 +343,6 @@
 
     if-lez p2, :cond_1
 
-    .line 1
     iget v1, p0, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer;->Y:I
 
     if-ne p1, v1, :cond_0
@@ -384,19 +351,15 @@
 
     if-eq p2, v1, :cond_1
 
-    .line 2
     :cond_0
     iput p1, p0, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer;->Y:I
 
-    .line 3
     iput p2, p0, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer;->Z:I
 
     const/4 p1, 0x1
 
-    .line 4
     iput-boolean p1, p0, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer;->d0:Z
 
-    .line 5
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -416,19 +379,16 @@
 
     const/4 v3, 0x0
 
-    .line 1
     invoke-direct {p0, v1, v1, v2, v3}, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer;->h(FFFZ)Z
 
     move-result v1
 
     if-eqz v1, :cond_0
 
-    .line 2
     iget-object v1, p0, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer;->g0:Landroid/animation/ValueAnimator;
 
     invoke-virtual {v1}, Landroid/animation/ValueAnimator;->start()V
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -442,7 +402,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer;->g0:Landroid/animation/ValueAnimator;
 
     invoke-virtual {v1}, Landroid/animation/ValueAnimator;->isRunning()Z
@@ -451,12 +410,10 @@
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 3
     :cond_0
     iget-object v1, p0, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer;->m0:Landroid/graphics/RectF;
 
@@ -483,7 +440,6 @@
 
     goto :goto_1
 
-    .line 4
     :cond_1
     iget-object v1, p0, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer;->m0:Landroid/graphics/RectF;
 
@@ -499,7 +455,6 @@
 
     goto :goto_0
 
-    .line 5
     :cond_2
     iget v1, v1, Landroid/graphics/RectF;->right:F
 
@@ -514,7 +469,6 @@
     :cond_3
     const/4 v1, 0x0
 
-    .line 6
     :goto_1
     iget-object v2, p0, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer;->m0:Landroid/graphics/RectF;
 
@@ -537,7 +491,6 @@
 
     goto :goto_3
 
-    .line 7
     :cond_4
     iget-object v2, p0, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer;->m0:Landroid/graphics/RectF;
 
@@ -553,7 +506,6 @@
 
     goto :goto_2
 
-    .line 8
     :cond_5
     iget v2, v2, Landroid/graphics/RectF;->bottom:F
 
@@ -571,7 +523,6 @@
     :goto_3
     if-eqz v1, :cond_7
 
-    .line 9
     iget v1, p0, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer;->Q:I
 
     int-to-float v1, v1
@@ -581,20 +532,17 @@
     :cond_7
     if-eqz v2, :cond_8
 
-    .line 10
     iget v1, p0, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer;->Q:I
 
     int-to-float v1, v1
 
     div-float/2addr p2, v1
 
-    .line 11
     :cond_8
     iget-object v1, p0, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer;->i0:Landroid/graphics/Matrix;
 
     invoke-virtual {v1, p1, p2}, Landroid/graphics/Matrix;->postTranslate(FF)Z
 
-    .line 12
     invoke-virtual {p0}, Lcom/meitu/widget/layeredimageview/layer/a;->e()Lcom/meitu/widget/layeredimageview/AbsLayerContainer;
 
     move-result-object v1
@@ -603,26 +551,21 @@
 
     invoke-virtual {v1, v2}, Lcom/meitu/widget/layeredimageview/AbsLayerContainer;->setImageMatrix(Landroid/graphics/Matrix;)V
 
-    .line 13
     iget-object v1, p0, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer;->c:Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer$b;
 
     if-eqz v1, :cond_9
 
-    .line 14
     iget-object v2, p0, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer;->i0:Landroid/graphics/Matrix;
 
     invoke-interface {v1, p0, v2}, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer$b;->c(Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer;Landroid/graphics/Matrix;)V
 
-    .line 15
     iget-object v1, p0, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer;->c:Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer$b;
 
     invoke-interface {v1, p0, p1, p2, v3}, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer$b;->e(Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer;FFZ)V
 
-    .line 16
     :cond_9
     iput-boolean v4, p0, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer;->b0:Z
 
-    .line 17
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -635,14 +578,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer;->s()Z
 
     move-result v1
 
     if-eqz v1, :cond_0
 
-    .line 2
     iget-object v1, p0, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer;->m0:Landroid/graphics/RectF;
 
     iget v2, p0, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer;->Y:I
@@ -657,22 +598,18 @@
 
     invoke-virtual {v1, v4, v4, v2, v3}, Landroid/graphics/RectF;->set(FFFF)V
 
-    .line 3
     iget-object v1, p0, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer;->m0:Landroid/graphics/RectF;
 
     invoke-virtual {p1, v1}, Landroid/graphics/Matrix;->mapRect(Landroid/graphics/RectF;)Z
 
-    .line 4
     iget-object p1, p0, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer;->c:Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer$b;
 
     if-eqz p1, :cond_0
 
-    .line 5
     iget-object v1, p0, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer;->m0:Landroid/graphics/RectF;
 
     invoke-interface {p1, p0, v1}, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer$b;->b(Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer;Landroid/graphics/RectF;)V
 
-    .line 6
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -690,22 +627,18 @@
 
     new-array v1, v1, [F
 
-    .line 1
     invoke-virtual {p1, v1}, Landroid/graphics/Matrix;->getValues([F)V
 
     const/4 p1, 0x0
 
-    .line 2
     aget p1, v1, p1
 
-    .line 3
     iget v1, p0, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer;->X:F
 
     div-float/2addr p1, v1
 
     iput p1, p0, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer;->R:F
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -718,7 +651,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer;->s()Z
 
     move-result v1
@@ -729,12 +661,10 @@
 
     if-eqz v1, :cond_f
 
-    .line 2
     iget v1, p0, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer;->R:F
 
     mul-float v4, p3, v1
 
-    .line 3
     iget v5, p0, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer;->N:F
 
     cmpg-float v6, v4, v5
@@ -748,7 +678,6 @@
 
     goto :goto_1
 
-    .line 4
     :cond_0
     iget v5, p0, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer;->M:F
 
@@ -764,21 +693,16 @@
 
     sub-float v1, p3, v1
 
-    .line 5
     iput v1, p0, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer;->U:F
 
-    .line 6
     iput p1, p0, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer;->S:F
 
-    .line 7
     iput p2, p0, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer;->T:F
 
-    .line 8
     new-instance v1, Landroid/graphics/RectF;
 
     invoke-direct {v1}, Landroid/graphics/RectF;-><init>()V
 
-    .line 9
     iget v4, p0, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer;->Y:I
 
     int-to-float v4, v4
@@ -791,14 +715,12 @@
 
     invoke-virtual {v1, v6, v6, v4, v5}, Landroid/graphics/RectF;->set(FFFF)V
 
-    .line 10
     iget-object v4, p0, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer;->k0:Landroid/graphics/Matrix;
 
     iget-object v5, p0, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer;->i0:Landroid/graphics/Matrix;
 
     invoke-virtual {v4, v5}, Landroid/graphics/Matrix;->set(Landroid/graphics/Matrix;)V
 
-    .line 11
     iget-object v4, p0, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer;->k0:Landroid/graphics/Matrix;
 
     iget v5, p0, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer;->V:F
@@ -807,19 +729,16 @@
 
     invoke-virtual {v4, p3, p3, v5, v6}, Landroid/graphics/Matrix;->postScale(FFFF)Z
 
-    .line 12
     iget-object p3, p0, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer;->k0:Landroid/graphics/Matrix;
 
     invoke-virtual {p3, p1, p2}, Landroid/graphics/Matrix;->postTranslate(FF)Z
 
-    .line 13
     iget-object p3, p0, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer;->k0:Landroid/graphics/Matrix;
 
     invoke-virtual {p3, v1}, Landroid/graphics/Matrix;->mapRect(Landroid/graphics/RectF;)Z
 
     if-eqz p4, :cond_2
 
-    .line 14
     iget-object p3, p0, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer;->h0:Landroid/graphics/RectF;
 
     invoke-virtual {p3}, Landroid/graphics/RectF;->centerX()F
@@ -836,7 +755,6 @@
 
     iput p3, p0, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer;->S:F
 
-    .line 15
     iget-object p1, p0, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer;->h0:Landroid/graphics/RectF;
 
     invoke-virtual {p1}, Landroid/graphics/RectF;->centerY()F
@@ -855,7 +773,6 @@
 
     goto/16 :goto_4
 
-    .line 16
     :cond_2
     invoke-virtual {v1}, Landroid/graphics/RectF;->width()F
 
@@ -885,7 +802,6 @@
 
     if-gtz p3, :cond_4
 
-    .line 17
     invoke-virtual {v1}, Landroid/graphics/RectF;->centerX()F
 
     move-result p3
@@ -914,7 +830,6 @@
 
     if-eqz p3, :cond_e
 
-    .line 18
     :cond_3
     iget-object p3, p0, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer;->h0:Landroid/graphics/RectF;
 
@@ -932,7 +847,6 @@
 
     iput p3, p0, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer;->S:F
 
-    .line 19
     iget-object p1, p0, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer;->h0:Landroid/graphics/RectF;
 
     invoke-virtual {p1}, Landroid/graphics/RectF;->centerY()F
@@ -951,7 +865,6 @@
 
     goto/16 :goto_5
 
-    .line 20
     :cond_4
     invoke-virtual {v1}, Landroid/graphics/RectF;->width()F
 
@@ -981,7 +894,6 @@
 
     if-lez p3, :cond_7
 
-    .line 21
     invoke-virtual {v1}, Landroid/graphics/RectF;->centerX()F
 
     move-result p3
@@ -996,7 +908,6 @@
 
     if-eqz p3, :cond_5
 
-    .line 22
     iget-object p3, p0, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer;->h0:Landroid/graphics/RectF;
 
     invoke-virtual {p3}, Landroid/graphics/RectF;->centerX()F
@@ -1015,7 +926,6 @@
 
     const/4 v3, 0x1
 
-    .line 23
     :cond_5
     iget p1, v1, Landroid/graphics/RectF;->top:F
 
@@ -1031,12 +941,10 @@
 
     add-float/2addr p4, p2
 
-    .line 24
     iput p4, p0, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer;->T:F
 
     goto/16 :goto_5
 
-    .line 25
     :cond_6
     iget p1, v1, Landroid/graphics/RectF;->bottom:F
 
@@ -1050,12 +958,10 @@
 
     add-float/2addr p3, p2
 
-    .line 26
     iput p3, p0, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer;->T:F
 
     goto/16 :goto_5
 
-    .line 27
     :cond_7
     invoke-virtual {v1}, Landroid/graphics/RectF;->width()F
 
@@ -1085,7 +991,6 @@
 
     if-gtz p3, :cond_a
 
-    .line 28
     invoke-virtual {v1}, Landroid/graphics/RectF;->centerY()F
 
     move-result p3
@@ -1100,7 +1005,6 @@
 
     if-eqz p3, :cond_8
 
-    .line 29
     iget-object p3, p0, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer;->h0:Landroid/graphics/RectF;
 
     invoke-virtual {p3}, Landroid/graphics/RectF;->centerY()F
@@ -1119,7 +1023,6 @@
 
     const/4 v3, 0x1
 
-    .line 30
     :cond_8
     iget p2, v1, Landroid/graphics/RectF;->left:F
 
@@ -1135,12 +1038,10 @@
 
     add-float/2addr p4, p1
 
-    .line 31
     iput p4, p0, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer;->S:F
 
     goto :goto_5
 
-    .line 32
     :cond_9
     iget p2, v1, Landroid/graphics/RectF;->right:F
 
@@ -1154,12 +1055,10 @@
 
     add-float/2addr p3, p1
 
-    .line 33
     iput p3, p0, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer;->S:F
 
     goto :goto_5
 
-    .line 34
     :cond_a
     invoke-virtual {v1}, Landroid/graphics/RectF;->width()F
 
@@ -1189,7 +1088,6 @@
 
     if-lez p3, :cond_e
 
-    .line 35
     iget p3, v1, Landroid/graphics/RectF;->left:F
 
     iget-object p4, p0, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer;->h0:Landroid/graphics/RectF;
@@ -1204,7 +1102,6 @@
 
     add-float/2addr v4, p1
 
-    .line 36
     iput v4, p0, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer;->S:F
 
     :goto_2
@@ -1212,7 +1109,6 @@
 
     goto :goto_3
 
-    .line 37
     :cond_b
     iget p3, v1, Landroid/graphics/RectF;->right:F
 
@@ -1226,12 +1122,10 @@
 
     add-float/2addr v4, p1
 
-    .line 38
     iput v4, p0, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer;->S:F
 
     goto :goto_2
 
-    .line 39
     :cond_c
     :goto_3
     iget p1, v1, Landroid/graphics/RectF;->top:F
@@ -1246,12 +1140,10 @@
 
     add-float/2addr p3, p2
 
-    .line 40
     iput p3, p0, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer;->T:F
 
     goto :goto_5
 
-    .line 41
     :cond_d
     iget p1, v1, Landroid/graphics/RectF;->bottom:F
 
@@ -1265,7 +1157,6 @@
 
     add-float/2addr p3, p2
 
-    .line 42
     iput p3, p0, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer;->T:F
 
     goto :goto_5
@@ -1279,7 +1170,6 @@
     :cond_f
     const/4 v2, 0x0
 
-    .line 43
     :goto_5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1316,7 +1206,6 @@
     :cond_0
     div-float p1, p2, p4
 
-    .line 1
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1330,7 +1219,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer;->c0:Z
 
     if-eqz v1, :cond_2
@@ -1344,16 +1232,12 @@
     :cond_0
     const/4 p1, 0x0
 
-    .line 2
     iput-boolean p1, p0, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer;->d0:Z
 
-    .line 3
     iget p1, p0, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer;->Y:I
 
-    .line 4
     iget v1, p0, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer;->Z:I
 
-    .line 5
     invoke-direct {p0, p2, p3, p1, v1}, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer;->p(IIII)F
 
     move-result v2
@@ -1382,17 +1266,14 @@
 
     div-float/2addr p3, v3
 
-    .line 6
     iget-object v3, p0, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer;->i0:Landroid/graphics/Matrix;
 
     invoke-virtual {v3, v2, v2}, Landroid/graphics/Matrix;->setScale(FF)V
 
-    .line 7
     iget-object v2, p0, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer;->i0:Landroid/graphics/Matrix;
 
     invoke-virtual {v2, p2, p3}, Landroid/graphics/Matrix;->postTranslate(FF)Z
 
-    .line 8
     invoke-virtual {p0}, Lcom/meitu/widget/layeredimageview/layer/a;->e()Lcom/meitu/widget/layeredimageview/AbsLayerContainer;
 
     move-result-object p2
@@ -1401,17 +1282,14 @@
 
     invoke-virtual {p2, p3}, Lcom/meitu/widget/layeredimageview/AbsLayerContainer;->setImageMatrix(Landroid/graphics/Matrix;)V
 
-    .line 9
     iget-object p2, p0, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer;->c:Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer$b;
 
     if-eqz p2, :cond_1
 
-    .line 10
     iget-object p3, p0, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer;->i0:Landroid/graphics/Matrix;
 
     invoke-interface {p2, p0, p3}, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer$b;->c(Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer;Landroid/graphics/Matrix;)V
 
-    .line 11
     :cond_1
     iget-object p2, p0, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer;->l0:Landroid/graphics/RectF;
 
@@ -1419,19 +1297,16 @@
 
     invoke-virtual {p2, p3, p3, p1, v1}, Landroid/graphics/RectF;->set(FFFF)V
 
-    .line 12
     iget-object p2, p0, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer;->m0:Landroid/graphics/RectF;
 
     invoke-virtual {p2, p3, p3, p1, v1}, Landroid/graphics/RectF;->set(FFFF)V
 
-    .line 13
     iget-object p1, p0, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer;->i0:Landroid/graphics/Matrix;
 
     iget-object p2, p0, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer;->l0:Landroid/graphics/RectF;
 
     invoke-virtual {p1, p2}, Landroid/graphics/Matrix;->mapRect(Landroid/graphics/RectF;)Z
 
-    .line 14
     iget-object p1, p0, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer;->i0:Landroid/graphics/Matrix;
 
     iget-object p2, p0, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer;->m0:Landroid/graphics/RectF;
@@ -1440,22 +1315,18 @@
 
     const/high16 p1, 0x3f800000    # 1.0f
 
-    .line 15
     iput p1, p0, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer;->R:F
 
-    .line 16
     iget-object p1, p0, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer;->c:Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer$b;
 
     if-eqz p1, :cond_2
 
-    .line 17
     iget-object p2, p0, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer;->i0:Landroid/graphics/Matrix;
 
     iget p3, p0, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer;->X:F
 
     invoke-interface {p1, p0, p2, p3}, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer$b;->d(Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer;Landroid/graphics/Matrix;F)V
 
-    .line 18
     :cond_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1469,7 +1340,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer;->g0:Landroid/animation/ValueAnimator;
 
     invoke-virtual {v1}, Landroid/animation/ValueAnimator;->isRunning()Z
@@ -1478,12 +1348,10 @@
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 3
     :cond_0
     iget v1, p0, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer;->R:F
 
@@ -1502,7 +1370,6 @@
 
     goto :goto_1
 
-    .line 4
     :cond_1
     iget v2, p0, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer;->M:F
 
@@ -1515,7 +1382,6 @@
     :cond_2
     const/4 v1, 0x0
 
-    .line 5
     :goto_1
     invoke-virtual {p0}, Lcom/meitu/widget/layeredimageview/layer/a;->e()Lcom/meitu/widget/layeredimageview/AbsLayerContainer;
 
@@ -1531,7 +1397,6 @@
 
     iput v2, p0, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer;->V:F
 
-    .line 6
     invoke-virtual {p0}, Lcom/meitu/widget/layeredimageview/layer/a;->e()Lcom/meitu/widget/layeredimageview/AbsLayerContainer;
 
     move-result-object v2
@@ -1552,7 +1417,6 @@
 
     sub-float/2addr p1, v1
 
-    .line 7
     iget v5, p0, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer;->Q:I
 
     int-to-float v5, v5
@@ -1561,7 +1425,6 @@
 
     add-float/2addr p1, v1
 
-    .line 8
     :cond_3
     iget-object v1, p0, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer;->i0:Landroid/graphics/Matrix;
 
@@ -1569,7 +1432,6 @@
 
     invoke-virtual {v1, p1, p1, v5, v2}, Landroid/graphics/Matrix;->postScale(FFFF)Z
 
-    .line 9
     invoke-virtual {p0}, Lcom/meitu/widget/layeredimageview/layer/a;->e()Lcom/meitu/widget/layeredimageview/AbsLayerContainer;
 
     move-result-object v1
@@ -1578,26 +1440,21 @@
 
     invoke-virtual {v1, v2}, Lcom/meitu/widget/layeredimageview/AbsLayerContainer;->setImageMatrix(Landroid/graphics/Matrix;)V
 
-    .line 10
     iget-object v1, p0, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer;->c:Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer$b;
 
     if-eqz v1, :cond_4
 
-    .line 11
     iget-object v2, p0, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer;->i0:Landroid/graphics/Matrix;
 
     invoke-interface {v1, p0, v2}, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer$b;->c(Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer;Landroid/graphics/Matrix;)V
 
-    .line 12
     iget-object v1, p0, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer;->c:Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer$b;
 
     invoke-interface {v1, p0, p1, v3}, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer$b;->a(Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer;FZ)V
 
-    .line 13
     :cond_4
     iput-boolean v4, p0, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer;->b0:Z
 
-    .line 14
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1612,12 +1469,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer;->g0:Landroid/animation/ValueAnimator;
 
     invoke-virtual {v1, p1}, Landroid/animation/ValueAnimator;->setInterpolator(Landroid/animation/TimeInterpolator;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1645,12 +1500,10 @@
 
     const/4 p1, 0x5
 
-    .line 1
     :cond_1
     :goto_0
     iput p1, p0, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer;->Q:I
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1663,10 +1516,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer;->p:Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer$DoubleTapAction;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1679,10 +1530,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer;->J:Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer$LongPressAction;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1703,11 +1552,9 @@
 
     const/high16 p1, 0x3f800000    # 1.0f
 
-    .line 1
     :cond_0
     iput p1, p0, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer;->M:F
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1735,11 +1582,9 @@
     :cond_0
     const/high16 p1, 0x3f800000    # 1.0f
 
-    .line 1
     :cond_1
     iput p1, p0, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer;->N:F
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1752,10 +1597,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer;->c:Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer$b;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1768,10 +1611,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer;->f:Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer$c;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1784,10 +1625,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer;->d:Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer$d;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1800,10 +1639,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer;->L:Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer$PinchAction;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1816,10 +1653,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer;->K:Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer$ScrollAction;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1832,10 +1667,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer;->g:Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer$SingleTapAction;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1848,15 +1681,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer;->h0:Landroid/graphics/RectF;
 
     invoke-virtual {v1, p1, p2, p3, p4}, Landroid/graphics/RectF;->set(FFFF)V
 
-    .line 2
     invoke-direct {p0}, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer;->Q()V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1877,11 +1707,9 @@
 
     const/high16 p1, 0x3f800000    # 1.0f
 
-    .line 1
     :cond_0
     iput p1, p0, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer;->O:F
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1909,11 +1737,9 @@
     :cond_0
     const/high16 p1, 0x3f800000    # 1.0f
 
-    .line 1
     :cond_1
     iput p1, p0, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer;->P:F
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1926,7 +1752,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer;->g0:Landroid/animation/ValueAnimator;
 
     invoke-virtual {v1}, Landroid/animation/ValueAnimator;->isRunning()Z
@@ -1941,7 +1766,6 @@
 
     if-lez v1, :cond_0
 
-    .line 2
     invoke-virtual {p0}, Lcom/meitu/widget/layeredimageview/layer/a;->e()Lcom/meitu/widget/layeredimageview/AbsLayerContainer;
 
     move-result-object v1
@@ -1956,7 +1780,6 @@
 
     iput v1, p0, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer;->V:F
 
-    .line 3
     invoke-virtual {p0}, Lcom/meitu/widget/layeredimageview/layer/a;->e()Lcom/meitu/widget/layeredimageview/AbsLayerContainer;
 
     move-result-object v1
@@ -1975,15 +1798,12 @@
 
     const/4 v2, 0x0
 
-    .line 4
     invoke-direct {p0, v2, v2, p1, v1}, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer;->h(FFFZ)Z
 
-    .line 5
     iget-object p1, p0, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer;->g0:Landroid/animation/ValueAnimator;
 
     invoke-virtual {p1}, Landroid/animation/ValueAnimator;->start()V
 
-    .line 6
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1997,7 +1817,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer;->g0:Landroid/animation/ValueAnimator;
 
     invoke-virtual {v1}, Landroid/animation/ValueAnimator;->isRunning()Z
@@ -2006,14 +1825,12 @@
 
     if-nez v1, :cond_0
 
-    .line 2
     iget v1, p0, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer;->M:F
 
     iget v2, p0, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer;->R:F
 
     div-float/2addr v1, v2
 
-    .line 3
     invoke-virtual {p0}, Lcom/meitu/widget/layeredimageview/layer/a;->e()Lcom/meitu/widget/layeredimageview/AbsLayerContainer;
 
     move-result-object v2
@@ -2028,7 +1845,6 @@
 
     iput v2, p0, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer;->V:F
 
-    .line 4
     invoke-virtual {p0}, Lcom/meitu/widget/layeredimageview/layer/a;->e()Lcom/meitu/widget/layeredimageview/AbsLayerContainer;
 
     move-result-object v2
@@ -2047,15 +1863,12 @@
 
     const/4 v3, 0x0
 
-    .line 5
     invoke-direct {p0, v3, v3, v1, v2}, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer;->h(FFFZ)Z
 
-    .line 6
     iget-object v1, p0, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer;->g0:Landroid/animation/ValueAnimator;
 
     invoke-virtual {v1}, Landroid/animation/ValueAnimator;->start()V
 
-    .line 7
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -2069,7 +1882,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer;->g0:Landroid/animation/ValueAnimator;
 
     invoke-virtual {v1}, Landroid/animation/ValueAnimator;->isRunning()Z
@@ -2084,7 +1896,6 @@
 
     if-gez v1, :cond_0
 
-    .line 2
     invoke-virtual {p0}, Lcom/meitu/widget/layeredimageview/layer/a;->e()Lcom/meitu/widget/layeredimageview/AbsLayerContainer;
 
     move-result-object v1
@@ -2099,7 +1910,6 @@
 
     iput v1, p0, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer;->V:F
 
-    .line 3
     invoke-virtual {p0}, Lcom/meitu/widget/layeredimageview/layer/a;->e()Lcom/meitu/widget/layeredimageview/AbsLayerContainer;
 
     move-result-object v1
@@ -2118,15 +1928,12 @@
 
     const/4 v2, 0x0
 
-    .line 4
     invoke-direct {p0, v2, v2, p1, v1}, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer;->h(FFFZ)Z
 
-    .line 5
     iget-object p1, p0, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer;->g0:Landroid/animation/ValueAnimator;
 
     invoke-virtual {p1}, Landroid/animation/ValueAnimator;->start()V
 
-    .line 6
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -2140,7 +1947,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer;->g0:Landroid/animation/ValueAnimator;
 
     invoke-virtual {v1}, Landroid/animation/ValueAnimator;->isRunning()Z
@@ -2149,14 +1955,12 @@
 
     if-nez v1, :cond_0
 
-    .line 2
     iget v1, p0, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer;->N:F
 
     iget v2, p0, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer;->R:F
 
     div-float/2addr v1, v2
 
-    .line 3
     invoke-virtual {p0}, Lcom/meitu/widget/layeredimageview/layer/a;->e()Lcom/meitu/widget/layeredimageview/AbsLayerContainer;
 
     move-result-object v2
@@ -2171,7 +1975,6 @@
 
     iput v2, p0, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer;->V:F
 
-    .line 4
     invoke-virtual {p0}, Lcom/meitu/widget/layeredimageview/layer/a;->e()Lcom/meitu/widget/layeredimageview/AbsLayerContainer;
 
     move-result-object v2
@@ -2190,15 +1993,12 @@
 
     const/4 v3, 0x0
 
-    .line 5
     invoke-direct {p0, v3, v3, v1, v2}, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer;->h(FFFZ)Z
 
-    .line 6
     iget-object v1, p0, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer;->g0:Landroid/animation/ValueAnimator;
 
     invoke-virtual {v1}, Landroid/animation/ValueAnimator;->start()V
 
-    .line 7
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -2212,7 +2012,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/meitu/widget/layeredimageview/layer/a;->f()Z
 
     move-result v0
@@ -2233,7 +2032,6 @@
 
     if-lez p1, :cond_0
 
-    .line 1
     iget-object v2, p0, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer;->m0:Landroid/graphics/RectF;
 
     iget v2, v2, Landroid/graphics/RectF;->right:F
@@ -2252,7 +2050,6 @@
 
     if-gtz v2, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
@@ -2260,7 +2057,6 @@
     :cond_0
     if-gez p1, :cond_1
 
-    .line 3
     iget-object p1, p0, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer;->m0:Landroid/graphics/RectF;
 
     iget p1, p1, Landroid/graphics/RectF;->left:F
@@ -2271,7 +2067,6 @@
 
     if-ltz p1, :cond_1
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
@@ -2279,7 +2074,6 @@
     :cond_1
     const/4 p1, 0x1
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
@@ -2292,14 +2086,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/meitu/widget/layeredimageview/layer/a;->f()Z
 
     move-result v1
 
     if-eqz v1, :cond_1
 
-    .line 2
     sget-object v1, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer$a;->e:[I
 
     iget-object v2, p0, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer;->L:Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer$PinchAction;
@@ -2316,7 +2108,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_0
     invoke-virtual {p1}, Lcom/meitu/widget/layeredimageview/a;->w()F
 
@@ -2324,7 +2115,6 @@
 
     invoke-direct {p0, p1}, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer;->v(F)V
 
-    .line 4
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -2333,7 +2123,6 @@
     :cond_1
     const/4 p1, 0x0
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
@@ -2346,7 +2135,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer;->g0:Landroid/animation/ValueAnimator;
 
     invoke-virtual {v1}, Landroid/animation/ValueAnimator;->isRunning()Z
@@ -2355,21 +2143,18 @@
 
     if-nez v1, :cond_0
 
-    .line 2
     iget-object v1, p0, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer;->m0:Landroid/graphics/RectF;
 
     invoke-virtual {v1}, Landroid/graphics/RectF;->width()F
 
     move-result v1
 
-    .line 3
     iget-object v2, p0, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer;->m0:Landroid/graphics/RectF;
 
     invoke-virtual {v2}, Landroid/graphics/RectF;->height()F
 
     move-result v2
 
-    .line 4
     invoke-virtual {p0}, Lcom/meitu/widget/layeredimageview/layer/a;->e()Lcom/meitu/widget/layeredimageview/AbsLayerContainer;
 
     move-result-object v3
@@ -2378,7 +2163,6 @@
 
     move-result v3
 
-    .line 5
     invoke-virtual {p0}, Lcom/meitu/widget/layeredimageview/layer/a;->e()Lcom/meitu/widget/layeredimageview/AbsLayerContainer;
 
     move-result-object v4
@@ -2395,12 +2179,10 @@
 
     div-float/2addr v1, v2
 
-    .line 6
     invoke-static {v3, v1}, Ljava/lang/Math;->max(FF)F
 
     move-result v1
 
-    .line 7
     invoke-virtual {p0}, Lcom/meitu/widget/layeredimageview/layer/a;->e()Lcom/meitu/widget/layeredimageview/AbsLayerContainer;
 
     move-result-object v2
@@ -2413,7 +2195,6 @@
 
     iput v2, p0, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer;->V:F
 
-    .line 8
     invoke-virtual {p0}, Lcom/meitu/widget/layeredimageview/layer/a;->e()Lcom/meitu/widget/layeredimageview/AbsLayerContainer;
 
     move-result-object v2
@@ -2428,20 +2209,16 @@
 
     const/4 v2, 0x0
 
-    .line 9
     invoke-direct {p0, v2, v2, v1, p1}, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer;->h(FFFZ)Z
 
     const/4 p1, 0x1
 
-    .line 10
     iput-boolean p1, p0, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer;->f0:Z
 
-    .line 11
     iget-object p1, p0, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer;->g0:Landroid/animation/ValueAnimator;
 
     invoke-virtual {p1}, Landroid/animation/ValueAnimator;->start()V
 
-    .line 12
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -2455,7 +2232,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer;->g0:Landroid/animation/ValueAnimator;
 
     invoke-virtual {v1}, Landroid/animation/ValueAnimator;->isRunning()Z
@@ -2464,19 +2240,15 @@
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 3
     :cond_0
     iput p1, p0, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer;->V:F
 
-    .line 4
     iput p2, p0, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer;->W:F
 
-    .line 5
     invoke-virtual {p0}, Lcom/meitu/widget/layeredimageview/layer/a;->e()Lcom/meitu/widget/layeredimageview/AbsLayerContainer;
 
     move-result-object v1
@@ -2487,7 +2259,6 @@
 
     int-to-float v1, v1
 
-    .line 6
     invoke-virtual {p0}, Lcom/meitu/widget/layeredimageview/layer/a;->e()Lcom/meitu/widget/layeredimageview/AbsLayerContainer;
 
     move-result-object v2
@@ -2504,15 +2275,12 @@
 
     const/4 p1, 0x0
 
-    .line 7
     invoke-direct {p0, v1, v2, p3, p1}, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer;->h(FFFZ)Z
 
-    .line 8
     iget-object p1, p0, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer;->g0:Landroid/animation/ValueAnimator;
 
     invoke-virtual {p1}, Landroid/animation/ValueAnimator;->start()V
 
-    .line 9
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2527,7 +2295,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer;->m0:Landroid/graphics/RectF;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2542,14 +2309,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer;->i0:Landroid/graphics/Matrix;
 
     iget-object v2, p0, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer;->j0:Landroid/graphics/Matrix;
 
     invoke-virtual {v1, v2}, Landroid/graphics/Matrix;->invert(Landroid/graphics/Matrix;)Z
 
-    .line 2
     iget-object v1, p0, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer;->j0:Landroid/graphics/Matrix;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2564,7 +2329,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer;->i0:Landroid/graphics/Matrix;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2581,7 +2345,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer;->l0:Landroid/graphics/RectF;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2596,7 +2359,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer;->X:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2611,7 +2373,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2626,21 +2387,16 @@
 
     const/4 v0, 0x0
 
-    .line 1
     iput v0, p0, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer;->S:F
 
-    .line 2
     iput v0, p0, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer;->T:F
 
-    .line 3
     iput v0, p0, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer;->U:F
 
     const/4 v0, 0x0
 
-    .line 4
     iput-boolean v0, p0, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer;->a0:Z
 
-    .line 5
     iget-boolean v1, p0, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer;->e0:Z
 
     if-eqz v1, :cond_0
@@ -2649,14 +2405,11 @@
 
     if-eqz v1, :cond_0
 
-    .line 6
     invoke-interface {v1, p0}, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer$d;->a(Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer;)V
 
-    .line 7
     :cond_0
     iput-boolean v0, p0, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer;->e0:Z
 
-    .line 8
     iget-boolean v1, p0, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer;->f0:Z
 
     if-eqz v1, :cond_1
@@ -2665,14 +2418,11 @@
 
     if-eqz v1, :cond_1
 
-    .line 9
     invoke-interface {v1, p0}, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer$c;->a(Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer;)V
 
-    .line 10
     :cond_1
     iput-boolean v0, p0, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer;->f0:Z
 
-    .line 11
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2685,7 +2435,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2698,7 +2447,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer;->k0:Landroid/graphics/Matrix;
 
     iget-object v1, p0, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer;->i0:Landroid/graphics/Matrix;
@@ -2707,10 +2455,8 @@
 
     const/4 v0, 0x1
 
-    .line 2
     iput-boolean v0, p0, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer;->a0:Z
 
-    .line 3
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2723,17 +2469,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer;->a0:Z
 
     if-eqz v1, :cond_2
 
-    .line 2
     invoke-virtual {p1}, Landroid/animation/ValueAnimator;->getAnimatedFraction()F
 
     move-result p1
 
-    .line 3
     iget v1, p0, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer;->U:F
 
     mul-float v1, v1, p1
@@ -2742,29 +2485,24 @@
 
     add-float/2addr v1, v2
 
-    .line 4
     iget v3, p0, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer;->S:F
 
     mul-float v3, v3, p1
 
-    .line 5
     iget v4, p0, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer;->T:F
 
     mul-float v4, v4, p1
 
-    .line 6
     iget-object p1, p0, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer;->i0:Landroid/graphics/Matrix;
 
     iget-object v5, p0, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer;->k0:Landroid/graphics/Matrix;
 
     invoke-virtual {p1, v5}, Landroid/graphics/Matrix;->set(Landroid/graphics/Matrix;)V
 
-    .line 7
     iget-object p1, p0, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer;->i0:Landroid/graphics/Matrix;
 
     invoke-virtual {p1, v3, v4}, Landroid/graphics/Matrix;->postTranslate(FF)Z
 
-    .line 8
     iget-object p1, p0, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer;->i0:Landroid/graphics/Matrix;
 
     iget v5, p0, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer;->V:F
@@ -2777,7 +2515,6 @@
 
     invoke-virtual {p1, v1, v1, v5, v6}, Landroid/graphics/Matrix;->postScale(FFFF)Z
 
-    .line 9
     invoke-virtual {p0}, Lcom/meitu/widget/layeredimageview/layer/a;->e()Lcom/meitu/widget/layeredimageview/AbsLayerContainer;
 
     move-result-object p1
@@ -2786,12 +2523,10 @@
 
     invoke-virtual {p1, v5}, Lcom/meitu/widget/layeredimageview/AbsLayerContainer;->setImageMatrix(Landroid/graphics/Matrix;)V
 
-    .line 10
     iget-object p1, p0, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer;->c:Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer$b;
 
     if-eqz p1, :cond_2
 
-    .line 11
     iget-object v5, p0, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer;->i0:Landroid/graphics/Matrix;
 
     invoke-interface {p1, p0, v5}, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer$b;->c(Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer;Landroid/graphics/Matrix;)V
@@ -2808,7 +2543,6 @@
 
     if-eqz v5, :cond_1
 
-    .line 12
     :cond_0
     iget-object v5, p0, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer;->c:Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer$b;
 
@@ -2819,12 +2553,10 @@
 
     if-eqz v2, :cond_2
 
-    .line 13
     iget-object v2, p0, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer;->c:Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer$b;
 
     invoke-interface {v2, p0, v1, p1}, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer$b;->a(Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer;FZ)V
 
-    .line 14
     :cond_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -2838,14 +2570,12 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/meitu/widget/layeredimageview/layer/a;->f()Z
 
     move-result p2
 
     if-eqz p2, :cond_0
 
-    .line 2
     iget-boolean p2, p0, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer;->b0:Z
 
     if-eqz p2, :cond_0
@@ -2860,13 +2590,10 @@
 
     const/4 p2, 0x0
 
-    .line 3
     iput-boolean p2, p0, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer;->b0:Z
 
-    .line 4
     invoke-direct {p0}, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer;->Q()V
 
-    .line 5
     :cond_0
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -2880,14 +2607,12 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/meitu/widget/layeredimageview/layer/a;->f()Z
 
     move-result p2
 
     if-eqz p2, :cond_0
 
-    .line 2
     sget-object p2, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer$a;->b:[I
 
     iget-object p3, p0, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer;->p:Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer$DoubleTapAction;
@@ -2902,25 +2627,21 @@
 
     goto :goto_0
 
-    .line 3
     :pswitch_0
     invoke-virtual {p0}, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer;->x()V
 
     goto :goto_0
 
-    .line 4
     :pswitch_1
     invoke-virtual {p0}, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer;->w()V
 
     goto :goto_0
 
-    .line 5
     :pswitch_2
     invoke-virtual {p0}, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer;->u()V
 
     goto :goto_0
 
-    .line 6
     :pswitch_3
     iget p2, p0, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer;->P:F
 
@@ -2928,7 +2649,6 @@
 
     goto :goto_0
 
-    .line 7
     :pswitch_4
     iget p2, p0, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer;->O:F
 
@@ -2936,20 +2656,17 @@
 
     goto :goto_0
 
-    .line 8
     :pswitch_5
     invoke-virtual {p0}, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer;->X()V
 
     goto :goto_0
 
-    .line 9
     :pswitch_6
     invoke-virtual {p0}, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer;->V()V
 
     :goto_0
     const/4 p2, 0x1
 
-    .line 10
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p2
@@ -2957,7 +2674,6 @@
     :cond_0
     const/4 p2, 0x0
 
-    .line 11
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p2
@@ -2983,7 +2699,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v0, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer$a;->c:[I
 
     iget-object v1, p0, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer;->J:Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer$LongPressAction;
@@ -2998,25 +2713,21 @@
 
     goto :goto_0
 
-    .line 2
     :pswitch_0
     invoke-virtual {p0}, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer;->x()V
 
     goto :goto_0
 
-    .line 3
     :pswitch_1
     invoke-virtual {p0}, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer;->w()V
 
     goto :goto_0
 
-    .line 4
     :pswitch_2
     invoke-virtual {p0}, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer;->u()V
 
     goto :goto_0
 
-    .line 5
     :pswitch_3
     iget v0, p0, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer;->P:F
 
@@ -3024,7 +2735,6 @@
 
     goto :goto_0
 
-    .line 6
     :pswitch_4
     iget v0, p0, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer;->O:F
 
@@ -3032,17 +2742,14 @@
 
     goto :goto_0
 
-    .line 7
     :pswitch_5
     invoke-virtual {p0}, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer;->X()V
 
     goto :goto_0
 
-    .line 8
     :pswitch_6
     invoke-virtual {p0}, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer;->V()V
 
-    .line 9
     :goto_0
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -3069,7 +2776,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/meitu/widget/layeredimageview/layer/a;->f()Z
 
     move-result v0
@@ -3078,7 +2784,6 @@
 
     if-eqz v0, :cond_1
 
-    .line 2
     iget-boolean v0, p0, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer;->b0:Z
 
     if-eqz v0, :cond_0
@@ -3091,21 +2796,17 @@
 
     if-nez v0, :cond_0
 
-    .line 3
     iput-boolean v1, p0, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer;->b0:Z
 
-    .line 4
     invoke-direct {p0}, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer;->Q()V
 
     :cond_0
     const/4 v0, 0x1
 
-    .line 5
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v0
 
-    .line 6
     :cond_1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -3119,7 +2820,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/meitu/widget/layeredimageview/layer/a;->f()Z
 
     move-result v0
@@ -3128,7 +2828,6 @@
 
     if-eqz v0, :cond_1
 
-    .line 2
     iget-boolean v0, p0, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer;->b0:Z
 
     if-eqz v0, :cond_0
@@ -3141,21 +2840,17 @@
 
     if-nez v0, :cond_0
 
-    .line 3
     iput-boolean v1, p0, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer;->b0:Z
 
-    .line 4
     invoke-direct {p0}, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer;->Q()V
 
     :cond_0
     const/4 v0, 0x1
 
-    .line 5
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v0
 
-    .line 6
     :cond_1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -3169,14 +2864,12 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/meitu/widget/layeredimageview/layer/a;->f()Z
 
     move-result v0
 
     if-eqz v0, :cond_4
 
-    .line 2
     sget-object v0, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer$a;->d:[I
 
     iget-object v1, p0, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer;->K:Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer$ScrollAction;
@@ -3206,12 +2899,10 @@
 
     neg-float p3, p4
 
-    .line 3
     invoke-direct {p0, p2, p3}, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer;->R(FF)V
 
     goto :goto_0
 
-    .line 4
     :cond_1
     invoke-virtual {p2}, Landroid/view/MotionEvent;->getPointerCount()I
 
@@ -3223,12 +2914,10 @@
 
     neg-float p3, p4
 
-    .line 5
     invoke-direct {p0, p2, p3}, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer;->R(FF)V
 
     goto :goto_0
 
-    .line 6
     :cond_2
     invoke-virtual {p2}, Landroid/view/MotionEvent;->getPointerCount()I
 
@@ -3240,10 +2929,8 @@
 
     neg-float p3, p4
 
-    .line 7
     invoke-direct {p0, p2, p3}, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer;->R(FF)V
 
-    .line 8
     :cond_3
     :goto_0
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -3253,7 +2940,6 @@
     :cond_4
     const/4 p2, 0x0
 
-    .line 9
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p2
@@ -3266,7 +2952,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object p2, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer$a;->a:[I
 
     iget-object v0, p0, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer;->g:Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer$SingleTapAction;
@@ -3281,25 +2966,21 @@
 
     goto :goto_0
 
-    .line 2
     :pswitch_0
     invoke-virtual {p0}, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer;->x()V
 
     goto :goto_0
 
-    .line 3
     :pswitch_1
     invoke-virtual {p0}, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer;->w()V
 
     goto :goto_0
 
-    .line 4
     :pswitch_2
     invoke-virtual {p0}, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer;->u()V
 
     goto :goto_0
 
-    .line 5
     :pswitch_3
     iget p2, p0, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer;->P:F
 
@@ -3307,7 +2988,6 @@
 
     goto :goto_0
 
-    .line 6
     :pswitch_4
     iget p2, p0, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer;->O:F
 
@@ -3315,17 +2995,14 @@
 
     goto :goto_0
 
-    .line 7
     :pswitch_5
     invoke-virtual {p0}, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer;->X()V
 
     goto :goto_0
 
-    .line 8
     :pswitch_6
     invoke-virtual {p0}, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer;->V()V
 
-    .line 9
     :goto_0
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -3352,7 +3029,6 @@
 
     invoke-static {p3}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p4, p0, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer;->h0:Landroid/graphics/RectF;
 
     int-to-float v0, p1
@@ -3363,7 +3039,6 @@
 
     invoke-virtual {p4, v2, v2, v0, v1}, Landroid/graphics/RectF;->set(FFFF)V
 
-    .line 2
     invoke-virtual {p0}, Lcom/meitu/widget/layeredimageview/layer/a;->e()Lcom/meitu/widget/layeredimageview/AbsLayerContainer;
 
     move-result-object p4
@@ -3374,25 +3049,20 @@
 
     if-eqz p4, :cond_0
 
-    .line 3
     invoke-virtual {p4}, Landroid/graphics/drawable/Drawable;->getIntrinsicWidth()I
 
     move-result v0
 
-    .line 4
     invoke-virtual {p4}, Landroid/graphics/drawable/Drawable;->getIntrinsicHeight()I
 
     move-result p4
 
-    .line 5
     invoke-direct {p0, v0, p4}, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer;->D(II)V
 
     const/4 p4, 0x1
 
-    .line 6
     invoke-direct {p0, p4, p1, p2}, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer;->q(ZII)V
 
-    .line 7
     :cond_0
     invoke-static {p3}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -3406,7 +3076,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer;->g0:Landroid/animation/ValueAnimator;
 
     invoke-virtual {v1}, Landroid/animation/ValueAnimator;->isRunning()Z
@@ -3425,7 +3094,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer;->Z:I
 
     if-lez v1, :cond_0
@@ -3456,22 +3124,18 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     invoke-virtual {p1}, Landroid/graphics/Bitmap;->getWidth()I
 
     move-result v1
 
-    .line 2
     invoke-virtual {p1}, Landroid/graphics/Bitmap;->getHeight()I
 
     move-result p1
 
-    .line 3
     invoke-direct {p0, v1, p1}, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer;->D(II)V
 
     const/4 p1, 0x0
 
-    .line 4
     invoke-virtual {p0}, Lcom/meitu/widget/layeredimageview/layer/a;->e()Lcom/meitu/widget/layeredimageview/AbsLayerContainer;
 
     move-result-object v1
@@ -3490,7 +3154,6 @@
 
     invoke-direct {p0, p1, v1, v2}, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer;->q(ZII)V
 
-    .line 5
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -3506,22 +3169,18 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     invoke-virtual {p1}, Landroid/graphics/drawable/Drawable;->getIntrinsicWidth()I
 
     move-result v1
 
-    .line 2
     invoke-virtual {p1}, Landroid/graphics/drawable/Drawable;->getIntrinsicHeight()I
 
     move-result p1
 
-    .line 3
     invoke-direct {p0, v1, p1}, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer;->D(II)V
 
     const/4 p1, 0x0
 
-    .line 4
     invoke-virtual {p0}, Lcom/meitu/widget/layeredimageview/layer/a;->e()Lcom/meitu/widget/layeredimageview/AbsLayerContainer;
 
     move-result-object v1
@@ -3540,7 +3199,6 @@
 
     invoke-direct {p0, p1, v1, v2}, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer;->q(ZII)V
 
-    .line 5
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -3554,13 +3212,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer;->S(Landroid/graphics/Matrix;)V
 
-    .line 2
     invoke-direct {p0, p1}, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer;->T(Landroid/graphics/Matrix;)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -3573,7 +3228,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer;->R:F
 
     const/high16 v2, 0x3f800000    # 1.0f
@@ -3610,7 +3264,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer;->g0:Landroid/animation/ValueAnimator;
 
     invoke-virtual {v1}, Landroid/animation/ValueAnimator;->isRunning()Z
@@ -3621,12 +3274,10 @@
 
     const/high16 v1, 0x3f800000    # 1.0f
 
-    .line 2
     iget v2, p0, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer;->R:F
 
     div-float/2addr v1, v2
 
-    .line 3
     invoke-virtual {p0}, Lcom/meitu/widget/layeredimageview/layer/a;->e()Lcom/meitu/widget/layeredimageview/AbsLayerContainer;
 
     move-result-object v2
@@ -3641,7 +3292,6 @@
 
     iput v2, p0, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer;->V:F
 
-    .line 4
     invoke-virtual {p0}, Lcom/meitu/widget/layeredimageview/layer/a;->e()Lcom/meitu/widget/layeredimageview/AbsLayerContainer;
 
     move-result-object v2
@@ -3660,18 +3310,14 @@
 
     const/4 v3, 0x1
 
-    .line 5
     invoke-direct {p0, v2, v2, v1, v3}, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer;->h(FFFZ)Z
 
-    .line 6
     iput-boolean v3, p0, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer;->e0:Z
 
-    .line 7
     iget-object v1, p0, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer;->g0:Landroid/animation/ValueAnimator;
 
     invoke-virtual {v1}, Landroid/animation/ValueAnimator;->start()V
 
-    .line 8
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -3685,23 +3331,19 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer;->t()Z
 
     move-result v1
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-virtual {p0}, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer;->V()V
 
     goto :goto_0
 
-    .line 3
     :cond_0
     invoke-virtual {p0}, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer;->u()V
 
-    .line 4
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -3715,23 +3357,19 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer;->t()Z
 
     move-result v1
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-virtual {p0}, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer;->X()V
 
     goto :goto_0
 
-    .line 3
     :cond_0
     invoke-virtual {p0}, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer;->u()V
 
-    .line 4
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -3749,7 +3387,6 @@
 
     const/4 p1, 0x0
 
-    .line 1
     :cond_0
     iget-object v1, p0, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer;->g0:Landroid/animation/ValueAnimator;
 
@@ -3757,7 +3394,6 @@
 
     invoke-virtual {v1, v2, v3}, Landroid/animation/ValueAnimator;->setDuration(J)Landroid/animation/ValueAnimator;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -3770,14 +3406,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1, p2}, Landroid/view/animation/AnimationUtils;->loadInterpolator(Landroid/content/Context;I)Landroid/view/animation/Interpolator;
 
     move-result-object p1
 
     invoke-virtual {p0, p1}, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer;->A(Landroid/view/animation/Interpolator;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

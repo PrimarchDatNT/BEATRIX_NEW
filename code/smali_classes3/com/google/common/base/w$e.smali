@@ -36,7 +36,6 @@
 .method constructor <init>(Lcom/google/common/base/w;Ljava/lang/CharSequence;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/common/base/w$e;->b:Lcom/google/common/base/w;
 
     iput-object p2, p0, Lcom/google/common/base/w$e;->a:Ljava/lang/CharSequence;
@@ -59,7 +58,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/base/w$e;->b:Lcom/google/common/base/w;
 
     iget-object v1, p0, Lcom/google/common/base/w$e;->a:Ljava/lang/CharSequence;
@@ -76,7 +74,6 @@
 
     const-string v0, ", "
 
-    .line 1
     invoke-static {v0}, Lcom/google/common/base/o;->p(Ljava/lang/String;)Lcom/google/common/base/o;
 
     move-result-object v0
@@ -87,7 +84,6 @@
 
     const/16 v2, 0x5b
 
-    .line 2
     invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(C)Ljava/lang/StringBuilder;
 
     invoke-virtual {v0, v1, p0}, Lcom/google/common/base/o;->f(Ljava/lang/StringBuilder;Ljava/lang/Iterable;)Ljava/lang/StringBuilder;
@@ -96,10 +92,8 @@
 
     const/16 v1, 0x5d
 
-    .line 3
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(C)Ljava/lang/StringBuilder;
 
-    .line 4
     invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     move-result-object v0

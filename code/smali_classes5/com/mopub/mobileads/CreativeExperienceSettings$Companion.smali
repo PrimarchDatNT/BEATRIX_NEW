@@ -19,7 +19,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -28,7 +27,6 @@
 .method public synthetic constructor <init>(Lcotlin/jvm/internal/u;)V
     .locals 0
 
-    .line 2
     invoke-direct {p0}, Lcom/mopub/mobileads/CreativeExperienceSettings$Companion;-><init>()V
 
     return-void
@@ -61,18 +59,15 @@
 
     const/4 v3, 0x2
 
-    .line 1
     :try_start_0
     new-instance v4, Ljava/io/ByteArrayInputStream;
 
     invoke-direct {v4, p1}, Ljava/io/ByteArrayInputStream;-><init>([B)V
 
-    .line 2
     new-instance p1, Ljava/io/ObjectInputStream;
 
     invoke-direct {p1, v4}, Ljava/io/ObjectInputStream;-><init>(Ljava/io/InputStream;)V
 
-    .line 3
     invoke-virtual {p1}, Ljava/io/ObjectInputStream;->readObject()Ljava/lang/Object;
 
     move-result-object v5
@@ -81,15 +76,12 @@
 
     check-cast v5, Lcom/mopub/mobileads/CreativeExperienceSettings;
 
-    .line 4
     invoke-virtual {p1}, Ljava/io/ObjectInputStream;->close()V
 
-    .line 5
     invoke-virtual {v4}, Ljava/io/ByteArrayInputStream;->close()V
 
     return-object v5
 
-    .line 6
     :cond_1
     new-instance p1, Ljava/lang/NullPointerException;
 
@@ -105,7 +97,6 @@
     :catch_0
     move-exception p1
 
-    .line 7
     sget-object v4, Lcom/mopub/common/logging/MoPubLog$SdkLogEvent;->CUSTOM:Lcom/mopub/common/logging/MoPubLog$SdkLogEvent;
 
     new-array v3, v3, [Ljava/lang/Object;
@@ -116,7 +107,6 @@
 
     aput-object p1, v3, v1
 
-    .line 8
     invoke-static {v4, v3}, Lcom/mopub/common/logging/MoPubLog;->log(Lcom/mopub/common/logging/MoPubLog$MPLogEventType;[Ljava/lang/Object;)V
 
     goto :goto_0
@@ -124,7 +114,6 @@
     :catch_1
     move-exception p1
 
-    .line 9
     sget-object v4, Lcom/mopub/common/logging/MoPubLog$SdkLogEvent;->CUSTOM:Lcom/mopub/common/logging/MoPubLog$SdkLogEvent;
 
     new-array v3, v3, [Ljava/lang/Object;
@@ -135,7 +124,6 @@
 
     aput-object p1, v3, v1
 
-    .line 10
     invoke-static {v4, v3}, Lcom/mopub/common/logging/MoPubLog;->log(Lcom/mopub/common/logging/MoPubLog$MPLogEventType;[Ljava/lang/Object;)V
 
     :goto_0
@@ -168,7 +156,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     new-instance v9, Lcom/mopub/mobileads/CreativeExperienceSettings;
 
     const/4 v0, 0x0
@@ -184,7 +171,6 @@
     :cond_0
     const/4 v2, 0x0
 
-    .line 2
     :goto_0
     sget-object v1, Lcom/mopub/mobileads/VastSkipThreshold;->Companion:Lcom/mopub/mobileads/VastSkipThreshold$Companion;
 
@@ -192,19 +178,16 @@
 
     move-result-object v1
 
-    .line 3
     invoke-static {v1}, Lcotlin/collections/s;->k(Ljava/lang/Object;)Ljava/util/List;
 
     move-result-object v3
 
-    .line 4
     sget-object v1, Lcom/mopub/mobileads/EndCardDurations;->Companion:Lcom/mopub/mobileads/EndCardDurations$Companion;
 
     invoke-virtual {v1, p1}, Lcom/mopub/mobileads/EndCardDurations$Companion;->getDefaultEndCardDurations(Z)Lcom/mopub/mobileads/EndCardDurations;
 
     move-result-object v4
 
-    .line 5
     sget-object v1, Lcom/mopub/mobileads/CreativeExperienceAdConfig;->Companion:Lcom/mopub/mobileads/CreativeExperienceAdConfig$Companion;
 
     const/4 v5, 0x1
@@ -213,7 +196,6 @@
 
     move-result-object v5
 
-    .line 6
     invoke-virtual {v1, p1, v0}, Lcom/mopub/mobileads/CreativeExperienceAdConfig$Companion;->getDefaultCEAdConfig(ZZ)Lcom/mopub/mobileads/CreativeExperienceAdConfig;
 
     move-result-object v6
@@ -226,7 +208,6 @@
 
     move-object v0, v9
 
-    .line 7
     invoke-direct/range {v0 .. v8}, Lcom/mopub/mobileads/CreativeExperienceSettings;-><init>(Ljava/lang/String;ILjava/util/List;Lcom/mopub/mobileads/EndCardDurations;Lcom/mopub/mobileads/CreativeExperienceAdConfig;Lcom/mopub/mobileads/CreativeExperienceAdConfig;ILcotlin/jvm/internal/u;)V
 
     return-object v9

@@ -25,7 +25,6 @@
 .method constructor <init>(Lcom/commsource/camera/ArVideoConfirmActivity$a;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/camera/ArVideoConfirmActivity$a$b;->a:Lcom/commsource/camera/ArVideoConfirmActivity$a;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -42,7 +41,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -55,7 +53,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/ArVideoConfirmActivity$a$b;->a:Lcom/commsource/camera/ArVideoConfirmActivity$a;
 
     iget-object v1, v1, Lcom/commsource/camera/ArVideoConfirmActivity$a;->a:Lcom/commsource/camera/ArVideoConfirmActivity;
@@ -64,7 +61,6 @@
 
     invoke-static {v1, v2}, Lcom/commsource/camera/ArVideoConfirmActivity;->S0(Lcom/commsource/camera/ArVideoConfirmActivity;Z)Z
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -77,14 +73,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/ArVideoConfirmActivity$a$b;->a:Lcom/commsource/camera/ArVideoConfirmActivity$a;
 
     iget-object v1, v1, Lcom/commsource/camera/ArVideoConfirmActivity$a;->a:Lcom/commsource/camera/ArVideoConfirmActivity;
 
     invoke-virtual {v1}, Lcom/commsource/camera/ArVideoConfirmActivity;->finish()V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

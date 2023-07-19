@@ -26,7 +26,6 @@
 .method private constructor <init>(Lcom/google/firebase/firestore/remote/i;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/firebase/firestore/remote/i$c;->a:Lcom/google/firebase/firestore/remote/i;
 
     invoke-direct {p0}, Landroid/net/ConnectivityManager$NetworkCallback;-><init>()V
@@ -37,7 +36,6 @@
 .method synthetic constructor <init>(Lcom/google/firebase/firestore/remote/i;Lcom/google/firebase/firestore/remote/i$a;)V
     .locals 0
 
-    .line 2
     invoke-direct {p0, p1}, Lcom/google/firebase/firestore/remote/i$c;-><init>(Lcom/google/firebase/firestore/remote/i;)V
 
     return-void
@@ -48,7 +46,6 @@
 .method public onAvailable(Landroid/net/Network;)V
     .locals 3
 
-    .line 1
     iget-object p1, p0, Lcom/google/firebase/firestore/remote/i$c;->a:Lcom/google/firebase/firestore/remote/i;
 
     invoke-static {p1}, Lcom/google/firebase/firestore/remote/i;->d(Lcom/google/firebase/firestore/remote/i;)Ljava/util/List;
@@ -57,7 +54,6 @@
 
     monitor-enter p1
 
-    .line 2
     :try_start_0
     iget-object v0, p0, Lcom/google/firebase/firestore/remote/i$c;->a:Lcom/google/firebase/firestore/remote/i;
 
@@ -82,14 +78,12 @@
 
     check-cast v1, Lcom/google/firebase/firestore/util/m;
 
-    .line 3
     sget-object v2, Lcom/google/firebase/firestore/remote/ConnectivityMonitor$NetworkStatus;->REACHABLE:Lcom/google/firebase/firestore/remote/ConnectivityMonitor$NetworkStatus;
 
     invoke-interface {v1, v2}, Lcom/google/firebase/firestore/util/m;->accept(Ljava/lang/Object;)V
 
     goto :goto_0
 
-    .line 4
     :cond_0
     monitor-exit p1
 
@@ -108,7 +102,6 @@
 .method public onLost(Landroid/net/Network;)V
     .locals 3
 
-    .line 1
     iget-object p1, p0, Lcom/google/firebase/firestore/remote/i$c;->a:Lcom/google/firebase/firestore/remote/i;
 
     invoke-static {p1}, Lcom/google/firebase/firestore/remote/i;->d(Lcom/google/firebase/firestore/remote/i;)Ljava/util/List;
@@ -117,7 +110,6 @@
 
     monitor-enter p1
 
-    .line 2
     :try_start_0
     iget-object v0, p0, Lcom/google/firebase/firestore/remote/i$c;->a:Lcom/google/firebase/firestore/remote/i;
 
@@ -142,14 +134,12 @@
 
     check-cast v1, Lcom/google/firebase/firestore/util/m;
 
-    .line 3
     sget-object v2, Lcom/google/firebase/firestore/remote/ConnectivityMonitor$NetworkStatus;->UNREACHABLE:Lcom/google/firebase/firestore/remote/ConnectivityMonitor$NetworkStatus;
 
     invoke-interface {v1, v2}, Lcom/google/firebase/firestore/util/m;->accept(Ljava/lang/Object;)V
 
     goto :goto_0
 
-    .line 4
     :cond_0
     monitor-exit p1
 

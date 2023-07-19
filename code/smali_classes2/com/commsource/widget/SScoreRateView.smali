@@ -31,10 +31,8 @@
 .method public constructor <init>(Landroid/content/Context;)V
     .locals 1
 
-    .line 1
     invoke-direct {p0, p1}, Landroid/widget/LinearLayout;-><init>(Landroid/content/Context;)V
 
-    .line 2
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
@@ -43,10 +41,8 @@
 
     const/4 v0, -0x1
 
-    .line 3
     iput v0, p0, Lcom/commsource/widget/SScoreRateView;->b:I
 
-    .line 4
     invoke-direct {p0, p1}, Lcom/commsource/widget/SScoreRateView;->a(Landroid/content/Context;)V
 
     return-void
@@ -59,10 +55,8 @@
         .end annotation
     .end param
 
-    .line 5
     invoke-direct {p0, p1, p2}, Landroid/widget/LinearLayout;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
-    .line 6
     new-instance p2, Ljava/util/ArrayList;
 
     invoke-direct {p2}, Ljava/util/ArrayList;-><init>()V
@@ -71,10 +65,8 @@
 
     const/4 p2, -0x1
 
-    .line 7
     iput p2, p0, Lcom/commsource/widget/SScoreRateView;->b:I
 
-    .line 8
     invoke-direct {p0, p1}, Lcom/commsource/widget/SScoreRateView;->a(Landroid/content/Context;)V
 
     return-void
@@ -87,10 +79,8 @@
         .end annotation
     .end param
 
-    .line 9
     invoke-direct {p0, p1, p2, p3}, Landroid/widget/LinearLayout;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
-    .line 10
     new-instance p2, Ljava/util/ArrayList;
 
     invoke-direct {p2}, Ljava/util/ArrayList;-><init>()V
@@ -99,10 +89,8 @@
 
     const/4 p2, -0x1
 
-    .line 11
     iput p2, p0, Lcom/commsource/widget/SScoreRateView;->b:I
 
-    .line 12
     invoke-direct {p0, p1}, Lcom/commsource/widget/SScoreRateView;->a(Landroid/content/Context;)V
 
     return-void
@@ -117,12 +105,10 @@
 
     const/4 v1, 0x0
 
-    .line 1
     invoke-virtual {p0, v1}, Landroid/widget/LinearLayout;->setOrientation(I)V
 
     const/high16 v2, 0x41f00000    # 30.0f
 
-    .line 2
     invoke-static {v2}, Lcom/meitu/library/p/f/i;->d(F)I
 
     move-result v2
@@ -132,12 +118,10 @@
 
     if-ge v1, v3, :cond_1
 
-    .line 3
     new-instance v3, Landroid/widget/ImageView;
 
     invoke-direct {v3, p1}, Landroid/widget/ImageView;-><init>(Landroid/content/Context;)V
 
-    .line 4
     new-instance v4, Landroid/widget/LinearLayout$LayoutParams;
 
     const/4 v5, -0x2
@@ -148,15 +132,12 @@
 
     int-to-float v5, v2
 
-    .line 5
     iput v5, v4, Landroid/widget/LinearLayout$LayoutParams;->weight:F
 
-    .line 6
     iput v2, v4, Landroid/widget/LinearLayout$LayoutParams;->height:I
 
     const/high16 v5, 0x41700000    # 15.0f
 
-    .line 7
     invoke-static {p1, v5}, Lcom/meitu/library/p/f/i;->e(Landroid/content/Context;F)I
 
     move-result v5
@@ -166,13 +147,10 @@
     :cond_0
     sget v5, Lcom/res/provider/ResDRAWABLE;->common_score_rate_icon:I
 
-    .line 8
     invoke-virtual {v3, v5}, Landroid/widget/ImageView;->setImageResource(I)V
 
-    .line 9
     invoke-virtual {p0, v3, v4}, Landroid/widget/LinearLayout;->addView(Landroid/view/View;Landroid/view/ViewGroup$LayoutParams;)V
 
-    .line 10
     iget-object v4, p0, Lcom/commsource/widget/SScoreRateView;->a:Ljava/util/List;
 
     invoke-interface {v4, v3}, Ljava/util/List;->add(Ljava/lang/Object;)Z
@@ -181,7 +159,6 @@
 
     goto :goto_0
 
-    .line 11
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -195,19 +172,16 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p1}, Landroid/view/MotionEvent;->getX()F
 
     move-result v1
 
-    .line 2
     invoke-virtual {p1}, Landroid/view/MotionEvent;->getY()F
 
     const/4 p1, 0x0
 
     const/4 v2, 0x0
 
-    .line 3
     :goto_0
     iget-object v3, p0, Lcom/commsource/widget/SScoreRateView;->a:Ljava/util/List;
 
@@ -217,7 +191,6 @@
 
     if-ge v2, v3, :cond_1
 
-    .line 4
     iget-object v3, p0, Lcom/commsource/widget/SScoreRateView;->a:Ljava/util/List;
 
     invoke-interface {v3, v2}, Ljava/util/List;->get(I)Ljava/lang/Object;
@@ -226,7 +199,6 @@
 
     check-cast v3, Landroid/widget/ImageView;
 
-    .line 5
     invoke-virtual {v3}, Landroid/widget/ImageView;->getLeft()I
 
     move-result v4
@@ -253,15 +225,12 @@
 
     if-gtz v3, :cond_0
 
-    .line 6
     iget v3, p0, Lcom/commsource/widget/SScoreRateView;->b:I
 
     if-eq v3, v2, :cond_0
 
-    .line 7
     iput v2, p0, Lcom/commsource/widget/SScoreRateView;->b:I
 
-    .line 8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const/4 p1, 0x1
@@ -273,7 +242,6 @@
 
     goto :goto_0
 
-    .line 9
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -287,7 +255,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/widget/SScoreRateView;->b:I
 
     if-ltz v1, :cond_1
@@ -302,7 +269,6 @@
 
     const/4 v1, 0x0
 
-    .line 2
     :goto_0
     iget-object v2, p0, Lcom/commsource/widget/SScoreRateView;->a:Ljava/util/List;
 
@@ -312,7 +278,6 @@
 
     if-ge v1, v2, :cond_1
 
-    .line 3
     iget-object v2, p0, Lcom/commsource/widget/SScoreRateView;->a:Ljava/util/List;
 
     invoke-interface {v2, v1}, Ljava/util/List;->get(I)Ljava/lang/Object;
@@ -321,7 +286,6 @@
 
     check-cast v2, Landroid/widget/ImageView;
 
-    .line 4
     iget v3, p0, Lcom/commsource/widget/SScoreRateView;->b:I
 
     if-gt v1, v3, :cond_0
@@ -340,7 +304,6 @@
 
     goto :goto_0
 
-    .line 5
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -356,7 +319,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/widget/SScoreRateView;->b:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -371,17 +333,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/commsource/widget/SScoreRateView;->b(Landroid/view/MotionEvent;)Z
 
     move-result v1
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-direct {p0}, Lcom/commsource/widget/SScoreRateView;->c()V
 
-    .line 3
     :cond_0
     invoke-virtual {p1}, Landroid/view/MotionEvent;->getAction()I
 
@@ -391,17 +350,14 @@
 
     if-ne p1, v1, :cond_1
 
-    .line 4
     iget-object p1, p0, Lcom/commsource/widget/SScoreRateView;->c:Lcom/commsource/widget/SScoreRateView$a;
 
     if-eqz p1, :cond_1
 
-    .line 5
     iget v2, p0, Lcom/commsource/widget/SScoreRateView;->b:I
 
     invoke-interface {p1, v2}, Lcom/commsource/widget/SScoreRateView$a;->a(I)V
 
-    .line 6
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -415,10 +371,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/widget/SScoreRateView;->c:Lcom/commsource/widget/SScoreRateView$a;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

@@ -50,7 +50,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/library/h/f$a;->b:J
 
     const-wide/16 v3, 0x0
@@ -59,10 +58,8 @@
 
     if-lez v5, :cond_0
 
-    .line 2
     invoke-static {v1, v2}, Ljava/lang/Thread;->sleep(J)V
 
-    .line 3
     :cond_0
     iget-object v1, p0, Lcom/meitu/library/h/f$a;->a:Lcom/meitu/library/h/f;
 
@@ -74,7 +71,6 @@
 
     invoke-static {v1, v2}, Lcom/meitu/library/h/f;->a(Lcom/meitu/library/h/f;Landroid/content/Context;)V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

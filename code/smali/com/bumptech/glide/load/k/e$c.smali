@@ -46,10 +46,8 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     new-instance v0, Lcom/bumptech/glide/load/k/e$c$a;
 
     invoke-direct {v0, p0}, Lcom/bumptech/glide/load/k/e$c$a;-><init>(Lcom/bumptech/glide/load/k/e$c;)V
@@ -88,7 +86,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance p1, Lcom/bumptech/glide/load/k/e;
 
     iget-object v0, p0, Lcom/bumptech/glide/load/k/e$c;->a:Lcom/bumptech/glide/load/k/e$a;

@@ -31,7 +31,6 @@
 .method static constructor <clinit>()V
     .locals 11
 
-    .line 1
     new-instance v0, Lcom/mopub/mraid/ViewState;
 
     const-string v1, "LOADING"
@@ -42,7 +41,6 @@
 
     sput-object v0, Lcom/mopub/mraid/ViewState;->LOADING:Lcom/mopub/mraid/ViewState;
 
-    .line 2
     new-instance v1, Lcom/mopub/mraid/ViewState;
 
     const-string v3, "DEFAULT"
@@ -53,7 +51,6 @@
 
     sput-object v1, Lcom/mopub/mraid/ViewState;->DEFAULT:Lcom/mopub/mraid/ViewState;
 
-    .line 3
     new-instance v3, Lcom/mopub/mraid/ViewState;
 
     const-string v5, "RESIZED"
@@ -64,7 +61,6 @@
 
     sput-object v3, Lcom/mopub/mraid/ViewState;->RESIZED:Lcom/mopub/mraid/ViewState;
 
-    .line 4
     new-instance v5, Lcom/mopub/mraid/ViewState;
 
     const-string v7, "EXPANDED"
@@ -75,7 +71,6 @@
 
     sput-object v5, Lcom/mopub/mraid/ViewState;->EXPANDED:Lcom/mopub/mraid/ViewState;
 
-    .line 5
     new-instance v7, Lcom/mopub/mraid/ViewState;
 
     const-string v9, "HIDDEN"
@@ -100,7 +95,6 @@
 
     aput-object v7, v9, v10
 
-    .line 6
     sput-object v9, Lcom/mopub/mraid/ViewState;->$VALUES:[Lcom/mopub/mraid/ViewState;
 
     return-void
@@ -114,7 +108,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
     return-void
@@ -123,7 +116,6 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/mopub/mraid/ViewState;
     .locals 1
 
-    .line 1
     const-class v0, Lcom/mopub/mraid/ViewState;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -138,7 +130,6 @@
 .method public static values()[Lcom/mopub/mraid/ViewState;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/mopub/mraid/ViewState;->$VALUES:[Lcom/mopub/mraid/ViewState;
 
     invoke-virtual {v0}, [Lcom/mopub/mraid/ViewState;->clone()Ljava/lang/Object;
@@ -155,7 +146,6 @@
 .method public toJavascriptString()Ljava/lang/String;
     .locals 2
 
-    .line 1
     invoke-virtual {p0}, Ljava/lang/Enum;->toString()Ljava/lang/String;
 
     move-result-object v0

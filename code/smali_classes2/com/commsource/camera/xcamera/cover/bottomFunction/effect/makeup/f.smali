@@ -87,7 +87,6 @@
 
     const/4 v1, 0x3
 
-    .line 1
     invoke-static {v1}, Lcom/commsource/util/l0;->n(I)I
 
     move-result v1
@@ -126,7 +125,6 @@
 
     invoke-static {p3, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-direct {p0}, Landroidx/recyclerview/widget/RecyclerView$ItemDecoration;-><init>()V
 
     iput-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/f;->j:Lcom/commsource/beautyplus/f0/s9;
@@ -135,7 +133,6 @@
 
     iput-object p3, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/f;->l:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/b;
 
-    .line 2
     sget p1, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/f;->m:I
 
     iput p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/f;->a:I
@@ -144,7 +141,6 @@
 
     new-array p2, p1, [F
 
-    .line 3
     fill-array-data p2, :array_0
 
     invoke-static {p2}, Lcom/commsource/camera/f1/l;->e([F)Lcom/commsource/camera/f1/l;
@@ -153,12 +149,10 @@
 
     const-wide/16 v0, 0x190
 
-    .line 4
     invoke-virtual {p2, v0, v1}, Lcom/commsource/camera/f1/l;->b(J)Lcom/commsource/camera/f1/l;
 
     move-result-object p2
 
-    .line 5
     new-instance p3, Lcom/commsource/widget/r0;
 
     invoke-direct {p3}, Lcom/commsource/widget/r0;-><init>()V
@@ -167,7 +161,6 @@
 
     move-result-object p2
 
-    .line 6
     new-instance p3, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/f$c;
 
     invoke-direct {p3, p0}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/f$c;-><init>(Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/f;)V
@@ -180,7 +173,6 @@
 
     new-array p1, p1, [F
 
-    .line 7
     fill-array-data p1, :array_1
 
     invoke-static {p1}, Lcom/commsource/camera/f1/l;->e([F)Lcom/commsource/camera/f1/l;
@@ -189,12 +181,10 @@
 
     const-wide/16 p2, 0x12c
 
-    .line 8
     invoke-virtual {p1, p2, p3}, Lcom/commsource/camera/f1/l;->b(J)Lcom/commsource/camera/f1/l;
 
     move-result-object p1
 
-    .line 9
     new-instance p2, Landroid/view/animation/DecelerateInterpolator;
 
     invoke-direct {p2}, Landroid/view/animation/DecelerateInterpolator;-><init>()V
@@ -203,7 +193,6 @@
 
     move-result-object p1
 
-    .line 10
     new-instance p2, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/f$b;
 
     invoke-direct {p2, p0}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/f$b;-><init>(Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/f;)V
@@ -214,28 +203,24 @@
 
     iput-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/f;->d:Lcom/commsource/camera/f1/l;
 
-    .line 11
     new-instance p1, Lcom/commsource/camera/f1/n;
 
     invoke-direct {p1}, Lcom/commsource/camera/f1/n;-><init>()V
 
     iput-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/f;->e:Lcom/commsource/camera/f1/n;
 
-    .line 12
     new-instance p1, Lcom/commsource/camera/f1/n;
 
     invoke-direct {p1}, Lcom/commsource/camera/f1/n;-><init>()V
 
     iput-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/f;->f:Lcom/commsource/camera/f1/n;
 
-    .line 13
     new-instance p1, Lcom/commsource/camera/f1/n;
 
     invoke-direct {p1}, Lcom/commsource/camera/f1/n;-><init>()V
 
     iput-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/f;->g:Lcom/commsource/camera/f1/n;
 
-    .line 14
     new-instance p1, Lcom/commsource/camera/f1/n;
 
     invoke-direct {p1}, Lcom/commsource/camera/f1/n;-><init>()V
@@ -264,7 +249,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget v1, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/f;->m:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -281,7 +265,6 @@
 
     if-eqz p1, :cond_6
 
-    .line 1
     sget-object v1, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/h;->b:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/h$a;
 
     invoke-virtual {p1}, Lcom/commsource/repository/child/makeup/e;->e()I
@@ -296,7 +279,6 @@
 
     if-eqz v2, :cond_2
 
-    .line 2
     iget-object v2, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/f;->k:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/i;
 
     invoke-virtual {p1}, Lcom/commsource/repository/child/makeup/e;->e()I
@@ -309,7 +291,6 @@
 
     if-eqz v2, :cond_1
 
-    .line 3
     invoke-virtual {v2}, Lcom/commsource/repository/child/makeup/h;->W()Z
 
     move-result v4
@@ -318,7 +299,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_0
     iget-object v2, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/f;->k:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/i;
 
@@ -337,7 +317,6 @@
 
     goto :goto_0
 
-    .line 5
     :cond_2
     iget-object v2, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/f;->k:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/i;
 
@@ -356,14 +335,12 @@
 
     if-nez v2, :cond_3
 
-    .line 6
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/f;->k:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/i;
 
     invoke-static {p1, v3, v5, v4, v3}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/i;->N0(Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/i;Lcom/commsource/repository/child/makeup/h;ZILjava/lang/Object;)V
 
     goto :goto_1
 
-    .line 7
     :cond_3
     invoke-virtual {v2}, Lcom/commsource/repository/child/makeup/h;->W()Z
 
@@ -371,7 +348,6 @@
 
     if-eqz v2, :cond_4
 
-    .line 8
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/f;->k:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/i;
 
     invoke-virtual {p1}, Lcom/commsource/repository/child/makeup/e;->e()I
@@ -386,7 +362,6 @@
 
     goto :goto_1
 
-    .line 9
     :cond_4
     invoke-virtual {p1}, Lcom/commsource/repository/child/makeup/e;->e()I
 
@@ -398,7 +373,6 @@
 
     if-eqz v1, :cond_5
 
-    .line 10
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/f;->k:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/i;
 
     invoke-virtual {p1}, Lcom/commsource/repository/child/makeup/e;->e()I
@@ -413,7 +387,6 @@
 
     goto :goto_1
 
-    .line 11
     :cond_5
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/f;->k:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/i;
 
@@ -427,7 +400,6 @@
 
     invoke-static {v1, p1, v5, v4, v3}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/i;->N0(Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/i;Lcom/commsource/repository/child/makeup/h;ZILjava/lang/Object;)V
 
-    .line 12
     :cond_6
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -459,11 +431,9 @@
     :cond_0
     const/4 v2, 0x0
 
-    .line 1
     :goto_0
     iput-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/f;->i:Lcom/commsource/repository/child/makeup/e;
 
-    .line 2
     iget-boolean v3, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/f;->b:Z
 
     if-ne v3, v2, :cond_3
@@ -472,28 +442,23 @@
 
     if-nez p1, :cond_1
 
-    .line 3
     invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_1
     invoke-direct {p0, p1}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/f;->o(Lcom/commsource/repository/child/makeup/e;)V
 
-    .line 4
     :cond_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 5
     :cond_3
     iput-boolean v2, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/f;->b:Z
 
-    .line 6
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/f;->l:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/b;
 
     invoke-virtual {p1, v2}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/b;->k0(Z)V
 
-    .line 7
     iget-boolean p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/f;->b:Z
 
     const-string v3, "mViewBinding.flMakeupShrink"
@@ -514,7 +479,6 @@
 
     if-eqz p1, :cond_5
 
-    .line 8
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/f;->f:Lcom/commsource/camera/f1/n;
 
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/f;->j:Lcom/commsource/beautyplus/f0/s9;
@@ -535,7 +499,6 @@
 
     invoke-virtual {p1, v1, v5}, Lcom/commsource/camera/f1/n;->f(FF)V
 
-    .line 9
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/f;->e:Lcom/commsource/camera/f1/n;
 
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/f;->j:Lcom/commsource/beautyplus/f0/s9;
@@ -550,7 +513,6 @@
 
     invoke-virtual {p1, v1, v10}, Lcom/commsource/camera/f1/n;->f(FF)V
 
-    .line 10
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/f;->g:Lcom/commsource/camera/f1/n;
 
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/f;->j:Lcom/commsource/beautyplus/f0/s9;
@@ -565,7 +527,6 @@
 
     invoke-virtual {p1, v1, v10}, Lcom/commsource/camera/f1/n;->f(FF)V
 
-    .line 11
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/f;->h:Lcom/commsource/camera/f1/n;
 
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/f;->j:Lcom/commsource/beautyplus/f0/s9;
@@ -580,7 +541,6 @@
 
     invoke-virtual {p1, v1, v6}, Lcom/commsource/camera/f1/n;->f(FF)V
 
-    .line 12
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/f;->i:Lcom/commsource/repository/child/makeup/e;
 
     if-nez p1, :cond_4
@@ -590,7 +550,6 @@
     :cond_4
     invoke-direct {p0, p1}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/f;->o(Lcom/commsource/repository/child/makeup/e;)V
 
-    .line 13
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/f;->j:Lcom/commsource/beautyplus/f0/s9;
 
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/s9;->a:Landroid/widget/LinearLayout;
@@ -599,7 +558,6 @@
 
     invoke-static {p1}, Lcom/commsource/util/l0;->w(Landroid/view/View;)V
 
-    .line 14
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/f;->j:Lcom/commsource/beautyplus/f0/s9;
 
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/s9;->b:Landroid/widget/FrameLayout;
@@ -610,7 +568,6 @@
 
     goto :goto_1
 
-    .line 15
     :cond_5
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/f;->f:Lcom/commsource/camera/f1/n;
 
@@ -626,7 +583,6 @@
 
     invoke-virtual {p1, v8, v10}, Lcom/commsource/camera/f1/n;->f(FF)V
 
-    .line 16
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/f;->e:Lcom/commsource/camera/f1/n;
 
     iget-object v8, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/f;->j:Lcom/commsource/beautyplus/f0/s9;
@@ -641,7 +597,6 @@
 
     invoke-virtual {p1, v7, v6}, Lcom/commsource/camera/f1/n;->f(FF)V
 
-    .line 17
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/f;->g:Lcom/commsource/camera/f1/n;
 
     iget-object v6, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/f;->j:Lcom/commsource/beautyplus/f0/s9;
@@ -660,7 +615,6 @@
 
     invoke-virtual {p1, v6, v5}, Lcom/commsource/camera/f1/n;->f(FF)V
 
-    .line 18
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/f;->h:Lcom/commsource/camera/f1/n;
 
     iget-object v5, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/f;->j:Lcom/commsource/beautyplus/f0/s9;
@@ -675,7 +629,6 @@
 
     invoke-virtual {p1, v5, v10}, Lcom/commsource/camera/f1/n;->f(FF)V
 
-    .line 19
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/f;->j:Lcom/commsource/beautyplus/f0/s9;
 
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/s9;->a:Landroid/widget/LinearLayout;
@@ -684,7 +637,6 @@
 
     invoke-static {p1}, Lcom/commsource/util/l0;->v0(Landroid/view/View;)V
 
-    .line 20
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/f;->j:Lcom/commsource/beautyplus/f0/s9;
 
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/s9;->b:Landroid/widget/FrameLayout;
@@ -693,7 +645,6 @@
 
     invoke-static {p1}, Lcom/commsource/util/l0;->w(Landroid/view/View;)V
 
-    .line 21
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/f;->k:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/i;
 
     const/4 v3, 0x2
@@ -702,18 +653,15 @@
 
     invoke-static {p1, v4, v1, v3, v4}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/i;->N0(Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/i;Lcom/commsource/repository/child/makeup/h;ZILjava/lang/Object;)V
 
-    .line 22
     :goto_1
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/f;->l:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/b;
 
     invoke-virtual {p1, v2}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/b;->k0(Z)V
 
-    .line 23
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/f;->c:Lcom/commsource/camera/f1/l;
 
     invoke-virtual {p1}, Lcom/commsource/camera/f1/l;->a()V
 
-    .line 24
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/f;->d:Lcom/commsource/camera/f1/l;
 
     invoke-virtual {p1}, Lcom/commsource/camera/f1/l;->a()V
@@ -722,7 +670,6 @@
 
     if-eqz v2, :cond_6
 
-    .line 25
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/f;->d:Lcom/commsource/camera/f1/l;
 
     new-instance v1, Lcom/commsource/widget/r0;
@@ -731,12 +678,10 @@
 
     invoke-virtual {p1, v1}, Lcom/commsource/camera/f1/l;->c(Landroid/animation/TimeInterpolator;)Lcom/commsource/camera/f1/l;
 
-    .line 26
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/f;->d:Lcom/commsource/camera/f1/l;
 
     invoke-virtual {p1}, Lcom/commsource/camera/f1/l;->j()V
 
-    .line 27
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/f;->c:Lcom/commsource/camera/f1/l;
 
     new-instance v1, Lcom/commsource/widget/r0;
@@ -745,14 +690,12 @@
 
     invoke-virtual {p1, v1}, Lcom/commsource/camera/f1/l;->c(Landroid/animation/TimeInterpolator;)Lcom/commsource/camera/f1/l;
 
-    .line 28
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/f;->c:Lcom/commsource/camera/f1/l;
 
     invoke-virtual {p1, v3, v4}, Lcom/commsource/camera/f1/l;->k(J)V
 
     goto :goto_2
 
-    .line 29
     :cond_6
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/f;->c:Lcom/commsource/camera/f1/l;
 
@@ -762,12 +705,10 @@
 
     invoke-virtual {p1, v1}, Lcom/commsource/camera/f1/l;->c(Landroid/animation/TimeInterpolator;)Lcom/commsource/camera/f1/l;
 
-    .line 30
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/f;->c:Lcom/commsource/camera/f1/l;
 
     invoke-virtual {p1}, Lcom/commsource/camera/f1/l;->j()V
 
-    .line 31
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/f;->d:Lcom/commsource/camera/f1/l;
 
     new-instance v1, Lcom/commsource/widget/r0;
@@ -776,18 +717,15 @@
 
     invoke-virtual {p1, v1}, Lcom/commsource/camera/f1/l;->c(Landroid/animation/TimeInterpolator;)Lcom/commsource/camera/f1/l;
 
-    .line 32
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/f;->d:Lcom/commsource/camera/f1/l;
 
     invoke-virtual {p1, v3, v4}, Lcom/commsource/camera/f1/l;->k(J)V
 
-    .line 33
     :goto_2
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/f;->l:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/b;
 
     invoke-virtual {p1}, Lcom/commsource/widget/h1/e;->p()V
 
-    .line 34
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -800,7 +738,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/f;->d:Lcom/commsource/camera/f1/l;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -815,7 +752,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/f;->c:Lcom/commsource/camera/f1/l;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -832,7 +768,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/f;->i:Lcom/commsource/repository/child/makeup/e;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -849,7 +784,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/f;->l:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/b;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -866,7 +800,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/f;->j:Lcom/commsource/beautyplus/f0/s9;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -913,17 +846,14 @@
 
     invoke-static {p4, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-super {p0, p1, p2, p3, p4}, Landroidx/recyclerview/widget/RecyclerView$ItemDecoration;->getItemOffsets(Landroid/graphics/Rect;Landroid/view/View;Landroidx/recyclerview/widget/RecyclerView;Landroidx/recyclerview/widget/RecyclerView$State;)V
 
-    .line 2
     iget p2, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/f;->a:I
 
     const/4 p3, 0x0
 
     invoke-virtual {p1, p3, p3, p2, p3}, Landroid/graphics/Rect;->set(IIII)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -938,7 +868,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/f;->k:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/i;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -953,7 +882,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/f;->a:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -970,7 +898,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/f;->h:Lcom/commsource/camera/f1/n;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -987,7 +914,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/f;->g:Lcom/commsource/camera/f1/n;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1004,7 +930,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/f;->e:Lcom/commsource/camera/f1/n;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1021,7 +946,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/f;->f:Lcom/commsource/camera/f1/n;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1036,7 +960,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/f;->b:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1055,7 +978,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/f;->i:Lcom/commsource/repository/child/makeup/e;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1070,7 +992,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/f;->b:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1085,7 +1006,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/f;->a:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

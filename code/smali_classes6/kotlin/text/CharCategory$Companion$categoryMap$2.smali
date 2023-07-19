@@ -63,7 +63,6 @@
 .method public bridge synthetic invoke()Ljava/lang/Object;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcotlin/text/CharCategory$Companion$categoryMap$2;->invoke()Ljava/util/Map;
 
     move-result-object v0
@@ -86,12 +85,10 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 2
     invoke-static {}, Lcotlin/text/CharCategory;->values()[Lcotlin/text/CharCategory;
 
     move-result-object v0
 
-    .line 3
     array-length v1, v0
 
     invoke-static {v1}, Lcotlin/collections/q0;->j(I)I
@@ -104,12 +101,10 @@
 
     move-result v1
 
-    .line 4
     new-instance v2, Ljava/util/LinkedHashMap;
 
     invoke-direct {v2, v1}, Ljava/util/LinkedHashMap;-><init>(I)V
 
-    .line 5
     array-length v1, v0
 
     const/4 v3, 0x0
@@ -119,7 +114,6 @@
 
     aget-object v4, v0, v3
 
-    .line 6
     invoke-virtual {v4}, Lcotlin/text/CharCategory;->getValue()I
 
     move-result v5

@@ -24,13 +24,10 @@
 .method public constructor <init>(Lorg/apache/thrift/transport/TSaslTransport$NegotiationStatus;[B)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lorg/apache/thrift/transport/TSaslTransport$SaslResponse;->status:Lorg/apache/thrift/transport/TSaslTransport$NegotiationStatus;
 
-    .line 3
     iput-object p2, p0, Lorg/apache/thrift/transport/TSaslTransport$SaslResponse;->payload:[B
 
     return-void

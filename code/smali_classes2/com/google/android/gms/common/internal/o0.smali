@@ -14,7 +14,6 @@
 .method constructor <init>(Landroid/content/Intent;Landroidx/fragment/app/Fragment;I)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/android/gms/common/internal/o0;->a:Landroid/content/Intent;
 
     iput-object p2, p0, Lcom/google/android/gms/common/internal/o0;->b:Landroidx/fragment/app/Fragment;
@@ -31,12 +30,10 @@
 .method public final d()V
     .locals 3
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/common/internal/o0;->a:Landroid/content/Intent;
 
     if-eqz v0, :cond_0
 
-    .line 2
     iget-object v1, p0, Lcom/google/android/gms/common/internal/o0;->b:Landroidx/fragment/app/Fragment;
 
     iget v2, p0, Lcom/google/android/gms/common/internal/o0;->c:I

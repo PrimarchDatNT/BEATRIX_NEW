@@ -24,7 +24,6 @@
 .method constructor <init>(Lcom/google/common/reflect/TypeToken;Lcom/google/common/collect/ImmutableSet$a;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/common/reflect/TypeToken$d;->c:Lcom/google/common/reflect/TypeToken;
 
     iput-object p2, p0, Lcom/google/common/reflect/TypeToken$d;->b:Lcom/google/common/collect/ImmutableSet$a;
@@ -46,7 +45,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/reflect/TypeToken$d;->b:Lcom/google/common/collect/ImmutableSet$a;
 
     invoke-virtual {v0, p1}, Lcom/google/common/collect/ImmutableSet$a;->i(Ljava/lang/Object;)Lcom/google/common/collect/ImmutableSet$a;
@@ -57,7 +55,6 @@
 .method c(Ljava/lang/reflect/GenericArrayType;)V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/reflect/TypeToken$d;->b:Lcom/google/common/collect/ImmutableSet$a;
 
     invoke-interface {p1}, Ljava/lang/reflect/GenericArrayType;->getGenericComponentType()Ljava/lang/reflect/Type;
@@ -84,7 +81,6 @@
 .method d(Ljava/lang/reflect/ParameterizedType;)V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/reflect/TypeToken$d;->b:Lcom/google/common/collect/ImmutableSet$a;
 
     invoke-interface {p1}, Ljava/lang/reflect/ParameterizedType;->getRawType()Ljava/lang/reflect/Type;
@@ -108,7 +104,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-interface {p1}, Ljava/lang/reflect/TypeVariable;->getBounds()[Ljava/lang/reflect/Type;
 
     move-result-object p1
@@ -121,7 +116,6 @@
 .method f(Ljava/lang/reflect/WildcardType;)V
     .locals 0
 
-    .line 1
     invoke-interface {p1}, Ljava/lang/reflect/WildcardType;->getUpperBounds()[Ljava/lang/reflect/Type;
 
     move-result-object p1

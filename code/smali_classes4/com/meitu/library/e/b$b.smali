@@ -21,7 +21,6 @@
 .method constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -36,14 +35,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p2}, Ljava/util/concurrent/ThreadPoolExecutor;->isShutdown()Z
 
     move-result v1
 
     if-nez v1, :cond_0
 
-    .line 2
     invoke-virtual {p2}, Ljava/util/concurrent/ThreadPoolExecutor;->getQueue()Ljava/util/concurrent/BlockingQueue;
 
     move-result-object v1
@@ -54,15 +51,12 @@
 
     check-cast v1, Lcom/meitu/library/e/b;
 
-    .line 3
     invoke-virtual {p2, p1}, Ljava/util/concurrent/ThreadPoolExecutor;->execute(Ljava/lang/Runnable;)V
 
     if-eqz v1, :cond_0
 
-    .line 4
     invoke-static {v1}, Lcom/meitu/library/e/b;->a(Lcom/meitu/library/e/b;)V
 
-    .line 5
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

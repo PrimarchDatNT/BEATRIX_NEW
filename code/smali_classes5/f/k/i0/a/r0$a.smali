@@ -30,7 +30,6 @@
 .method constructor <init>(Lf/k/i0/a/r0;Landroidx/room/RoomDatabase;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lf/k/i0/a/r0$a;->a:Lf/k/i0/a/r0;
 
     invoke-direct {p0, p2}, Landroidx/room/EntityInsertionAdapter;-><init>(Landroidx/room/RoomDatabase;)V
@@ -47,7 +46,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p2}, Lcom/commsource/studio/doodle/DoodleMaterial;->getId()Ljava/lang/String;
 
     move-result-object v1
@@ -56,12 +54,10 @@
 
     if-nez v1, :cond_0
 
-    .line 2
     invoke-interface {p1, v2}, Landroidx/sqlite/db/SupportSQLiteProgram;->bindNull(I)V
 
     goto :goto_0
 
-    .line 3
     :cond_0
     invoke-virtual {p2}, Lcom/commsource/studio/doodle/DoodleMaterial;->getId()Ljava/lang/String;
 
@@ -69,7 +65,6 @@
 
     invoke-interface {p1, v2, v1}, Landroidx/sqlite/db/SupportSQLiteProgram;->bindString(ILjava/lang/String;)V
 
-    .line 4
     :goto_0
     invoke-virtual {p2}, Lcom/commsource/studio/doodle/DoodleMaterial;->getIcon()Ljava/lang/String;
 
@@ -79,12 +74,10 @@
 
     if-nez v1, :cond_1
 
-    .line 5
     invoke-interface {p1, v2}, Landroidx/sqlite/db/SupportSQLiteProgram;->bindNull(I)V
 
     goto :goto_1
 
-    .line 6
     :cond_1
     invoke-virtual {p2}, Lcom/commsource/studio/doodle/DoodleMaterial;->getIcon()Ljava/lang/String;
 
@@ -92,7 +85,6 @@
 
     invoke-interface {p1, v2, v1}, Landroidx/sqlite/db/SupportSQLiteProgram;->bindString(ILjava/lang/String;)V
 
-    .line 7
     :goto_1
     invoke-virtual {p2}, Lcom/commsource/studio/doodle/DoodleMaterial;->getName()Ljava/lang/String;
 
@@ -102,12 +94,10 @@
 
     if-nez v1, :cond_2
 
-    .line 8
     invoke-interface {p1, v2}, Landroidx/sqlite/db/SupportSQLiteProgram;->bindNull(I)V
 
     goto :goto_2
 
-    .line 9
     :cond_2
     invoke-virtual {p2}, Lcom/commsource/studio/doodle/DoodleMaterial;->getName()Ljava/lang/String;
 
@@ -115,7 +105,6 @@
 
     invoke-interface {p1, v2, v1}, Landroidx/sqlite/db/SupportSQLiteProgram;->bindString(ILjava/lang/String;)V
 
-    .line 10
     :goto_2
     iget-object v1, p0, Lf/k/i0/a/r0$a;->a:Lf/k/i0/a/r0;
 
@@ -135,19 +124,16 @@
 
     if-nez v1, :cond_3
 
-    .line 11
     invoke-interface {p1, v2}, Landroidx/sqlite/db/SupportSQLiteProgram;->bindNull(I)V
 
     goto :goto_3
 
-    .line 12
     :cond_3
     invoke-interface {p1, v2, v1}, Landroidx/sqlite/db/SupportSQLiteProgram;->bindString(ILjava/lang/String;)V
 
     :goto_3
     const/4 v1, 0x5
 
-    .line 13
     invoke-virtual {p2}, Lcom/commsource/studio/doodle/DoodleMaterial;->getNewState()I
 
     move-result v2
@@ -158,7 +144,6 @@
 
     const/4 v1, 0x6
 
-    .line 14
     invoke-virtual {p2}, Lcom/commsource/studio/doodle/DoodleMaterial;->getNewTime()J
 
     move-result-wide v2
@@ -167,7 +152,6 @@
 
     const/4 v1, 0x7
 
-    .line 15
     invoke-virtual {p2}, Lcom/commsource/studio/doodle/DoodleMaterial;->getEndedAt()J
 
     move-result-wide v2
@@ -176,7 +160,6 @@
 
     const/16 v1, 0x8
 
-    .line 16
     invoke-virtual {p2}, Lcom/commsource/studio/doodle/DoodleMaterial;->getDownloadType()I
 
     move-result v2
@@ -187,7 +170,6 @@
 
     const/16 v1, 0x9
 
-    .line 17
     invoke-virtual {p2}, Lcom/commsource/studio/doodle/DoodleMaterial;->getPaidType()I
 
     move-result v2
@@ -198,7 +180,6 @@
 
     const/16 v1, 0xa
 
-    .line 18
     invoke-virtual {p2}, Lcom/commsource/studio/doodle/DoodleMaterial;->getPaidSort()I
 
     move-result v2
@@ -209,7 +190,6 @@
 
     const/16 v1, 0xb
 
-    .line 19
     invoke-virtual {p2}, Lcom/commsource/studio/doodle/DoodleMaterial;->getSort()I
 
     move-result v2
@@ -220,7 +200,6 @@
 
     const/16 v1, 0xc
 
-    .line 20
     invoke-virtual {p2}, Lcom/commsource/studio/doodle/DoodleMaterial;->getDownloadState()I
 
     move-result v2
@@ -231,7 +210,6 @@
 
     const/16 v1, 0xd
 
-    .line 21
     invoke-virtual {p2}, Lcom/commsource/studio/doodle/DoodleMaterial;->getCanEditColor()I
 
     move-result v2
@@ -242,7 +220,6 @@
 
     const/16 v1, 0xe
 
-    .line 22
     invoke-virtual {p2}, Lcom/commsource/studio/doodle/DoodleMaterial;->getListDisplay()I
 
     move-result v2
@@ -253,7 +230,6 @@
 
     const/16 v1, 0xf
 
-    .line 23
     invoke-virtual {p2}, Lcom/commsource/studio/doodle/DoodleMaterial;->getHot()I
 
     move-result v2
@@ -264,7 +240,6 @@
 
     const/16 v1, 0x10
 
-    .line 24
     invoke-virtual {p2}, Lcom/commsource/studio/doodle/DoodleMaterial;->getHotSort()I
 
     move-result v2
@@ -275,7 +250,6 @@
 
     const/16 v1, 0x11
 
-    .line 25
     invoke-virtual {p2}, Lcom/commsource/studio/doodle/DoodleMaterial;->getInternalState()I
 
     move-result v2
@@ -284,7 +258,6 @@
 
     invoke-interface {p1, v1, v2, v3}, Landroidx/sqlite/db/SupportSQLiteProgram;->bindLong(IJ)V
 
-    .line 26
     invoke-virtual {p2}, Lcom/commsource/studio/doodle/DoodleMaterial;->getCategoryId()Ljava/lang/String;
 
     move-result-object v1
@@ -293,12 +266,10 @@
 
     if-nez v1, :cond_4
 
-    .line 27
     invoke-interface {p1, v2}, Landroidx/sqlite/db/SupportSQLiteProgram;->bindNull(I)V
 
     goto :goto_4
 
-    .line 28
     :cond_4
     invoke-virtual {p2}, Lcom/commsource/studio/doodle/DoodleMaterial;->getCategoryId()Ljava/lang/String;
 
@@ -309,7 +280,6 @@
     :goto_4
     const/16 v1, 0x13
 
-    .line 29
     invoke-virtual {p2}, Lcom/commsource/studio/doodle/DoodleMaterial;->getCollectState()I
 
     move-result v2
@@ -320,7 +290,6 @@
 
     const/16 v1, 0x14
 
-    .line 30
     invoke-virtual {p2}, Lcom/commsource/studio/doodle/DoodleMaterial;->getCollectTime()J
 
     move-result-wide v2
@@ -329,7 +298,6 @@
 
     const/16 v1, 0x15
 
-    .line 31
     invoke-virtual {p2}, Lcom/commsource/studio/doodle/DoodleMaterial;->getNeedShow()I
 
     move-result v2
@@ -340,14 +308,12 @@
 
     const/16 v1, 0x16
 
-    .line 32
     invoke-virtual {p2}, Lcom/commsource/studio/doodle/DoodleMaterial;->getLocalInsertTime()J
 
     move-result-wide v2
 
     invoke-interface {p1, v1, v2, v3}, Landroidx/sqlite/db/SupportSQLiteProgram;->bindLong(IJ)V
 
-    .line 33
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -360,7 +326,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p2, Lcom/commsource/studio/doodle/DoodleMaterial;
 
     invoke-virtual {p0, p1, p2}, Lf/k/i0/a/r0$a;->a(Landroidx/sqlite/db/SupportSQLiteStatement;Lcom/commsource/studio/doodle/DoodleMaterial;)V
@@ -377,7 +342,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const-string v0, "INSERT OR REPLACE INTO `DOODLE_MATERIAL_DUFFLE` (`m_id`,`icon`,`name`,`file`,`is_new`,`is_new_time`,`ended_at`,`download_type`,`paid_type`,`PaidSort`,`sort`,`downloadState`,`CanEditColor`,`ListDisplay`,`Hot`,`HotSort`,`internalState`,`CategoryId`,`DoodleCollectState`,`DoodleCollectTime`,`NeedShow`,`localInsertTime`) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)"

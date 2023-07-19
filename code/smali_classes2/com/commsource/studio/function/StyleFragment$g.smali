@@ -63,7 +63,6 @@
 
     if-nez p1, :cond_0
 
-    .line 1
     iget-object p1, p0, Lcom/commsource/studio/function/StyleFragment$g;->a:Lcom/commsource/studio/function/StyleFragment;
 
     invoke-static {p1}, Lcom/commsource/studio/function/StyleFragment;->I1(Lcom/commsource/studio/function/StyleFragment;)Lcom/commsource/widget/h1/e;
@@ -72,12 +71,10 @@
 
     invoke-virtual {p1, v1}, Lcom/commsource/widget/h1/e;->E(Ljava/lang/Object;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 3
     :cond_0
     iget-object v2, p0, Lcom/commsource/studio/function/StyleFragment$g;->a:Lcom/commsource/studio/function/StyleFragment;
 
@@ -87,7 +84,6 @@
 
     invoke-virtual {v2, p1}, Lcom/commsource/widget/h1/e;->E(Ljava/lang/Object;)V
 
-    .line 4
     iget-object v2, p0, Lcom/commsource/studio/function/StyleFragment$g;->a:Lcom/commsource/studio/function/StyleFragment;
 
     invoke-static {v2}, Lcom/commsource/studio/function/StyleFragment;->F1(Lcom/commsource/studio/function/StyleFragment;)Lcom/commsource/studio/function/StyleViewModel;
@@ -116,7 +112,6 @@
 
     if-eqz v2, :cond_3
 
-    .line 5
     invoke-interface {v2, p1}, Ljava/util/List;->indexOf(Ljava/lang/Object;)I
 
     move-result v2
@@ -151,12 +146,10 @@
     :goto_1
     if-eqz v2, :cond_3
 
-    .line 6
     invoke-virtual {v2}, Ljava/lang/Number;->intValue()I
 
     move-result v2
 
-    .line 7
     iget-object v5, p0, Lcom/commsource/studio/function/StyleFragment$g;->a:Lcom/commsource/studio/function/StyleFragment;
 
     invoke-static {v5}, Lcom/commsource/studio/function/StyleFragment;->E1(Lcom/commsource/studio/function/StyleFragment;)Lcom/commsource/beautyplus/f0/ec;
@@ -167,7 +160,6 @@
 
     invoke-virtual {v5, v2}, Landroidx/recyclerview/widget/RecyclerView;->smoothScrollToPosition(I)V
 
-    .line 8
     iget-object v5, p0, Lcom/commsource/studio/function/StyleFragment$g;->a:Lcom/commsource/studio/function/StyleFragment;
 
     invoke-static {v5}, Lcom/commsource/studio/function/StyleFragment;->E1(Lcom/commsource/studio/function/StyleFragment;)Lcom/commsource/beautyplus/f0/ec;
@@ -180,7 +172,6 @@
 
     invoke-static {v5, v2, v4, v6, v1}, Lcom/commsource/widget/LineSelectView;->j(Lcom/commsource/widget/LineSelectView;IZILjava/lang/Object;)V
 
-    .line 9
     :cond_3
     iget-object v1, p0, Lcom/commsource/studio/function/StyleFragment$g;->a:Lcom/commsource/studio/function/StyleFragment;
 
@@ -198,12 +189,10 @@
 
     if-nez v1, :cond_4
 
-    .line 10
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 11
     :cond_4
     iget-object v1, p0, Lcom/commsource/studio/function/StyleFragment$g;->a:Lcom/commsource/studio/function/StyleFragment;
 
@@ -225,7 +214,6 @@
 
     if-eqz v1, :cond_5
 
-    .line 12
     iget-object p1, p0, Lcom/commsource/studio/function/StyleFragment$g;->a:Lcom/commsource/studio/function/StyleFragment;
 
     invoke-static {p1}, Lcom/commsource/studio/function/StyleFragment;->B1(Lcom/commsource/studio/function/StyleFragment;)Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/FastCenterScrollLayoutManager;
@@ -234,7 +222,6 @@
 
     invoke-virtual {p1, v4}, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/FastCenterScrollLayoutManager;->f(I)V
 
-    .line 13
     iget-object p1, p0, Lcom/commsource/studio/function/StyleFragment$g;->a:Lcom/commsource/studio/function/StyleFragment;
 
     invoke-static {p1}, Lcom/commsource/studio/function/StyleFragment;->E1(Lcom/commsource/studio/function/StyleFragment;)Lcom/commsource/beautyplus/f0/ec;
@@ -247,7 +234,6 @@
 
     goto :goto_3
 
-    .line 14
     :cond_5
     iget-object v1, p0, Lcom/commsource/studio/function/StyleFragment$g;->a:Lcom/commsource/studio/function/StyleFragment;
 
@@ -265,7 +251,6 @@
 
     if-eqz v1, :cond_8
 
-    .line 15
     invoke-virtual {p1}, Lcom/commsource/studio/bean/g;->a()Ljava/lang/String;
 
     move-result-object v2
@@ -278,7 +263,6 @@
 
     if-eqz v1, :cond_8
 
-    .line 16
     iget-object v1, p0, Lcom/commsource/studio/function/StyleFragment$g;->a:Lcom/commsource/studio/function/StyleFragment;
 
     invoke-static {v1}, Lcom/commsource/studio/function/StyleFragment;->B1(Lcom/commsource/studio/function/StyleFragment;)Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/FastCenterScrollLayoutManager;
@@ -287,7 +271,6 @@
 
     invoke-virtual {v1, v4}, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/FastCenterScrollLayoutManager;->f(I)V
 
-    .line 17
     iget-object v1, p0, Lcom/commsource/studio/function/StyleFragment$g;->a:Lcom/commsource/studio/function/StyleFragment;
 
     invoke-static {v1}, Lcom/commsource/studio/function/StyleFragment;->F1(Lcom/commsource/studio/function/StyleFragment;)Lcom/commsource/studio/function/StyleViewModel;
@@ -298,7 +281,6 @@
 
     move-result-object v1
 
-    .line 18
     invoke-virtual {p1}, Lcom/commsource/studio/bean/g;->a()Ljava/lang/String;
 
     move-result-object p1
@@ -307,7 +289,6 @@
 
     invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
-    .line 19
     :cond_6
     invoke-virtual {v1, p1}, Lcom/commsource/studio/function/style/e;->s(Ljava/lang/String;)I
 
@@ -320,7 +301,6 @@
     :cond_7
     move v4, p1
 
-    .line 20
     :goto_2
     iget-object p1, p0, Lcom/commsource/studio/function/StyleFragment$g;->a:Lcom/commsource/studio/function/StyleFragment;
 
@@ -332,7 +312,6 @@
 
     invoke-virtual {p1, v4}, Landroidx/recyclerview/widget/RecyclerView;->smoothScrollToPosition(I)V
 
-    .line 21
     :cond_8
     :goto_3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -347,7 +326,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Lcom/commsource/studio/bean/g;
 
     invoke-virtual {p0, p1}, Lcom/commsource/studio/function/StyleFragment$g;->a(Lcom/commsource/studio/bean/g;)V

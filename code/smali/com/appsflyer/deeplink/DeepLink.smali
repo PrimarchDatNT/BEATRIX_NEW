@@ -11,10 +11,8 @@
 .method private constructor <init>(Lorg/json/JSONObject;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/appsflyer/deeplink/DeepLink;->$$b:Lorg/json/JSONObject;
 
     return-void
@@ -30,22 +28,18 @@
 
     const-string v0, "custom_params"
 
-    .line 1
     invoke-virtual {p0, v0}, Lorg/json/JSONObject;->optJSONObject(Ljava/lang/String;)Lorg/json/JSONObject;
 
     move-result-object v1
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-virtual {p0, v0}, Lorg/json/JSONObject;->remove(Ljava/lang/String;)Ljava/lang/Object;
 
-    .line 3
     invoke-virtual {v1}, Lorg/json/JSONObject;->keys()Ljava/util/Iterator;
 
     move-result-object v0
 
-    .line 4
     :goto_0
     invoke-interface {v0}, Ljava/util/Iterator;->hasNext()Z
 
@@ -53,14 +47,12 @@
 
     if-eqz v2, :cond_0
 
-    .line 5
     invoke-interface {v0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
     move-result-object v2
 
     check-cast v2, Ljava/lang/String;
 
-    .line 6
     invoke-virtual {v1, v2}, Lorg/json/JSONObject;->opt(Ljava/lang/String;)Ljava/lang/Object;
 
     move-result-object v3
@@ -69,7 +61,6 @@
 
     goto :goto_0
 
-    .line 7
     :cond_0
     new-instance v0, Lcom/appsflyer/deeplink/DeepLink;
 
@@ -97,7 +88,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-interface/range {p0 .. p0}, Ljava/util/Map;->keySet()Ljava/util/Set;
 
     move-result-object v0
@@ -324,7 +314,6 @@
 
     const-string v111, "af_deeplink"
 
-    .line 2
     filled-new-array/range {v1 .. v111}, [Ljava/lang/String;
 
     move-result-object v1
@@ -335,12 +324,10 @@
 
     invoke-interface {v0, v1}, Ljava/util/Set;->removeAll(Ljava/util/Collection;)Z
 
-    .line 3
     new-instance v1, Ljava/util/HashMap;
 
     invoke-direct {v1}, Ljava/util/HashMap;-><init>()V
 
-    .line 4
     invoke-interface {v0}, Ljava/util/Set;->iterator()Ljava/util/Iterator;
 
     move-result-object v0
@@ -368,7 +355,6 @@
 
     goto :goto_0
 
-    .line 5
     :cond_0
     new-instance v0, Lorg/json/JSONObject;
 
@@ -388,7 +374,6 @@
     .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/appsflyer/deeplink/DeepLink;->$$b:Lorg/json/JSONObject;
 
     const-string v1, "af_sub1"
@@ -397,14 +382,12 @@
 
     move-result-object v0
 
-    .line 2
     sget-object v1, Lorg/json/JSONObject;->NULL:Ljava/lang/Object;
 
     if-ne v0, v1, :cond_0
 
     const/4 v0, 0x0
 
-    .line 3
     :cond_0
     check-cast v0, Ljava/lang/String;
 
@@ -416,7 +399,6 @@
     .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/appsflyer/deeplink/DeepLink;->$$b:Lorg/json/JSONObject;
 
     const-string v1, "af_sub2"
@@ -425,14 +407,12 @@
 
     move-result-object v0
 
-    .line 2
     sget-object v1, Lorg/json/JSONObject;->NULL:Ljava/lang/Object;
 
     if-ne v0, v1, :cond_0
 
     const/4 v0, 0x0
 
-    .line 3
     :cond_0
     check-cast v0, Ljava/lang/String;
 
@@ -444,7 +424,6 @@
     .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/appsflyer/deeplink/DeepLink;->$$b:Lorg/json/JSONObject;
 
     const-string v1, "af_sub3"
@@ -453,14 +432,12 @@
 
     move-result-object v0
 
-    .line 2
     sget-object v1, Lorg/json/JSONObject;->NULL:Ljava/lang/Object;
 
     if-ne v0, v1, :cond_0
 
     const/4 v0, 0x0
 
-    .line 3
     :cond_0
     check-cast v0, Ljava/lang/String;
 
@@ -472,7 +449,6 @@
     .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/appsflyer/deeplink/DeepLink;->$$b:Lorg/json/JSONObject;
 
     const-string v1, "af_sub4"
@@ -481,14 +457,12 @@
 
     move-result-object v0
 
-    .line 2
     sget-object v1, Lorg/json/JSONObject;->NULL:Ljava/lang/Object;
 
     if-ne v0, v1, :cond_0
 
     const/4 v0, 0x0
 
-    .line 3
     :cond_0
     check-cast v0, Ljava/lang/String;
 
@@ -500,7 +474,6 @@
     .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/appsflyer/deeplink/DeepLink;->$$b:Lorg/json/JSONObject;
 
     const-string v1, "af_sub5"
@@ -509,14 +482,12 @@
 
     move-result-object v0
 
-    .line 2
     sget-object v1, Lorg/json/JSONObject;->NULL:Ljava/lang/Object;
 
     if-ne v0, v1, :cond_0
 
     const/4 v0, 0x0
 
-    .line 3
     :cond_0
     check-cast v0, Ljava/lang/String;
 
@@ -528,7 +499,6 @@
     .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/appsflyer/deeplink/DeepLink;->$$b:Lorg/json/JSONObject;
 
     const-string v1, "campaign"
@@ -537,14 +507,12 @@
 
     move-result-object v0
 
-    .line 2
     sget-object v1, Lorg/json/JSONObject;->NULL:Ljava/lang/Object;
 
     if-ne v0, v1, :cond_0
 
     const/4 v0, 0x0
 
-    .line 3
     :cond_0
     check-cast v0, Ljava/lang/String;
 
@@ -556,7 +524,6 @@
     .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/appsflyer/deeplink/DeepLink;->$$b:Lorg/json/JSONObject;
 
     const-string v1, "campaign_id"
@@ -565,14 +532,12 @@
 
     move-result-object v0
 
-    .line 2
     sget-object v1, Lorg/json/JSONObject;->NULL:Ljava/lang/Object;
 
     if-ne v0, v1, :cond_0
 
     const/4 v0, 0x0
 
-    .line 3
     :cond_0
     check-cast v0, Ljava/lang/String;
 
@@ -582,7 +547,6 @@
 .method public getClickEvent()Lorg/json/JSONObject;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/appsflyer/deeplink/DeepLink;->$$b:Lorg/json/JSONObject;
 
     return-object v0
@@ -593,7 +557,6 @@
     .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/appsflyer/deeplink/DeepLink;->$$b:Lorg/json/JSONObject;
 
     const-string v1, "click_http_referrer"
@@ -602,14 +565,12 @@
 
     move-result-object v0
 
-    .line 2
     sget-object v1, Lorg/json/JSONObject;->NULL:Ljava/lang/Object;
 
     if-ne v0, v1, :cond_0
 
     const/4 v0, 0x0
 
-    .line 3
     :cond_0
     check-cast v0, Ljava/lang/String;
 
@@ -621,7 +582,6 @@
     .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/appsflyer/deeplink/DeepLink;->$$b:Lorg/json/JSONObject;
 
     const-string v1, "deep_link_value"
@@ -630,14 +590,12 @@
 
     move-result-object v0
 
-    .line 2
     sget-object v1, Lorg/json/JSONObject;->NULL:Ljava/lang/Object;
 
     if-ne v0, v1, :cond_0
 
     const/4 v0, 0x0
 
-    .line 3
     :cond_0
     check-cast v0, Ljava/lang/String;
 
@@ -649,7 +607,6 @@
     .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/appsflyer/deeplink/DeepLink;->$$b:Lorg/json/JSONObject;
 
     const-string v1, "match_type"
@@ -658,14 +615,12 @@
 
     move-result-object v0
 
-    .line 2
     sget-object v1, Lorg/json/JSONObject;->NULL:Ljava/lang/Object;
 
     if-ne v0, v1, :cond_0
 
     const/4 v0, 0x0
 
-    .line 3
     :cond_0
     check-cast v0, Ljava/lang/String;
 
@@ -677,7 +632,6 @@
     .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/appsflyer/deeplink/DeepLink;->$$b:Lorg/json/JSONObject;
 
     const-string v1, "media_source"
@@ -686,14 +640,12 @@
 
     move-result-object v0
 
-    .line 2
     sget-object v1, Lorg/json/JSONObject;->NULL:Ljava/lang/Object;
 
     if-ne v0, v1, :cond_0
 
     const/4 v0, 0x0
 
-    .line 3
     :cond_0
     check-cast v0, Ljava/lang/String;
 
@@ -705,14 +657,12 @@
     .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/appsflyer/deeplink/DeepLink;->$$b:Lorg/json/JSONObject;
 
     invoke-virtual {v0, p1}, Lorg/json/JSONObject;->opt(Ljava/lang/String;)Ljava/lang/Object;
 
     move-result-object p1
 
-    .line 2
     sget-object v0, Lorg/json/JSONObject;->NULL:Ljava/lang/Object;
 
     const/4 v1, 0x0
@@ -726,7 +676,6 @@
 
     return-object v1
 
-    .line 3
     :cond_1
     invoke-static {p1}, Ljava/lang/String;->valueOf(Ljava/lang/Object;)Ljava/lang/String;
 
@@ -740,7 +689,6 @@
     .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/appsflyer/deeplink/DeepLink;->$$b:Lorg/json/JSONObject;
 
     const-string v1, "is_deferred"
@@ -749,14 +697,12 @@
 
     move-result-object v0
 
-    .line 2
     sget-object v1, Lorg/json/JSONObject;->NULL:Ljava/lang/Object;
 
     if-ne v0, v1, :cond_0
 
     const/4 v0, 0x0
 
-    .line 3
     :cond_0
     check-cast v0, Ljava/lang/Boolean;
 
@@ -766,7 +712,6 @@
 .method public toString()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/appsflyer/deeplink/DeepLink;->$$b:Lorg/json/JSONObject;
 
     invoke-virtual {v0}, Lorg/json/JSONObject;->toString()Ljava/lang/String;

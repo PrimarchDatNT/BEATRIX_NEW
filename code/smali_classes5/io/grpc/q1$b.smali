@@ -35,10 +35,8 @@
 .method private constructor <init>(Lio/grpc/t1;)V
     .locals 1
 
-    .line 7
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 8
     new-instance v0, Ljava/util/HashMap;
 
     invoke-direct {v0}, Ljava/util/HashMap;-><init>()V
@@ -47,7 +45,6 @@
 
     const-string v0, "serviceDescriptor"
 
-    .line 9
     invoke-static {p1, v0}, Lcom/google/common/base/t;->F(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v0
@@ -56,7 +53,6 @@
 
     iput-object v0, p0, Lio/grpc/q1$b;->b:Lio/grpc/t1;
 
-    .line 10
     invoke-virtual {p1}, Lio/grpc/t1;->b()Ljava/lang/String;
 
     move-result-object p1
@@ -69,7 +65,6 @@
 .method synthetic constructor <init>(Lio/grpc/t1;Lio/grpc/q1$a;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1}, Lio/grpc/q1$b;-><init>(Lio/grpc/t1;)V
 
     return-void
@@ -78,10 +73,8 @@
 .method private constructor <init>(Ljava/lang/String;)V
     .locals 1
 
-    .line 3
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 4
     new-instance v0, Ljava/util/HashMap;
 
     invoke-direct {v0}, Ljava/util/HashMap;-><init>()V
@@ -90,7 +83,6 @@
 
     const-string v0, "serviceName"
 
-    .line 5
     invoke-static {p1, v0}, Lcom/google/common/base/t;->F(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -101,7 +93,6 @@
 
     const/4 p1, 0x0
 
-    .line 6
     iput-object p1, p0, Lio/grpc/q1$b;->b:Lio/grpc/t1;
 
     return-void
@@ -110,7 +101,6 @@
 .method synthetic constructor <init>(Ljava/lang/String;Lio/grpc/q1$a;)V
     .locals 0
 
-    .line 2
     invoke-direct {p0, p1}, Lio/grpc/q1$b;-><init>(Ljava/lang/String;)V
 
     return-void
@@ -137,7 +127,6 @@
 
     const-string v0, "method must not be null"
 
-    .line 1
     invoke-static {p1, v0}, Lcom/google/common/base/t;->F(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -146,14 +135,12 @@
 
     const-string v0, "handler must not be null"
 
-    .line 2
     invoke-static {p2, v0}, Lcom/google/common/base/t;->F(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p2
 
     check-cast p2, Lio/grpc/l1;
 
-    .line 3
     invoke-static {p1, p2}, Lio/grpc/o1;->a(Lio/grpc/MethodDescriptor;Lio/grpc/l1;)Lio/grpc/o1;
 
     move-result-object p1
@@ -180,15 +167,12 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p1}, Lio/grpc/o1;->b()Lio/grpc/MethodDescriptor;
 
     move-result-object v0
 
-    .line 2
     iget-object v1, p0, Lio/grpc/q1$b;->a:Ljava/lang/String;
 
-    .line 3
     invoke-virtual {v0}, Lio/grpc/MethodDescriptor;->i()Ljava/lang/String;
 
     move-result-object v2
@@ -199,22 +183,18 @@
 
     iget-object v2, p0, Lio/grpc/q1$b;->a:Ljava/lang/String;
 
-    .line 4
     invoke-virtual {v0}, Lio/grpc/MethodDescriptor;->d()Ljava/lang/String;
 
     move-result-object v3
 
     const-string v4, "Method name should be prefixed with service name and separated with \'/\'. Expected service name: \'%s\'. Actual fully qualifed method name: \'%s\'."
 
-    .line 5
     invoke-static {v1, v4, v2, v3}, Lcom/google/common/base/t;->y(ZLjava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
 
-    .line 6
     invoke-virtual {v0}, Lio/grpc/MethodDescriptor;->d()Ljava/lang/String;
 
     move-result-object v0
 
-    .line 7
     iget-object v1, p0, Lio/grpc/q1$b;->c:Ljava/util/Map;
 
     invoke-interface {v1, v0}, Ljava/util/Map;->containsKey(Ljava/lang/Object;)Z
@@ -227,7 +207,6 @@
 
     invoke-static {v1, v2, v0}, Lcom/google/common/base/t;->x0(ZLjava/lang/String;Ljava/lang/Object;)V
 
-    .line 8
     iget-object v1, p0, Lio/grpc/q1$b;->c:Ljava/util/Map;
 
     invoke-interface {v1, v0, p1}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
@@ -238,24 +217,20 @@
 .method public c()Lio/grpc/q1;
     .locals 5
 
-    .line 1
     iget-object v0, p0, Lio/grpc/q1$b;->b:Lio/grpc/t1;
 
     if-nez v0, :cond_1
 
-    .line 2
     new-instance v0, Ljava/util/ArrayList;
 
     iget-object v1, p0, Lio/grpc/q1$b;->c:Ljava/util/Map;
 
-    .line 3
     invoke-interface {v1}, Ljava/util/Map;->size()I
 
     move-result v1
 
     invoke-direct {v0, v1}, Ljava/util/ArrayList;-><init>(I)V
 
-    .line 4
     iget-object v1, p0, Lio/grpc/q1$b;->c:Ljava/util/Map;
 
     invoke-interface {v1}, Ljava/util/Map;->values()Ljava/util/Collection;
@@ -279,7 +254,6 @@
 
     check-cast v2, Lio/grpc/o1;
 
-    .line 5
     invoke-virtual {v2}, Lio/grpc/o1;->b()Lio/grpc/MethodDescriptor;
 
     move-result-object v2
@@ -288,7 +262,6 @@
 
     goto :goto_0
 
-    .line 6
     :cond_0
     new-instance v1, Lio/grpc/t1;
 
@@ -298,7 +271,6 @@
 
     move-object v0, v1
 
-    .line 7
     :cond_1
     new-instance v1, Ljava/util/HashMap;
 
@@ -306,7 +278,6 @@
 
     invoke-direct {v1, v2}, Ljava/util/HashMap;-><init>(Ljava/util/Map;)V
 
-    .line 8
     invoke-virtual {v0}, Lio/grpc/t1;->a()Ljava/util/Collection;
 
     move-result-object v2
@@ -328,12 +299,10 @@
 
     check-cast v3, Lio/grpc/MethodDescriptor;
 
-    .line 9
     invoke-virtual {v3}, Lio/grpc/MethodDescriptor;->d()Ljava/lang/String;
 
     move-result-object v4
 
-    .line 10
     invoke-interface {v1, v4}, Ljava/util/Map;->remove(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v4
@@ -342,7 +311,6 @@
 
     if-eqz v4, :cond_3
 
-    .line 11
     invoke-virtual {v4}, Lio/grpc/o1;->b()Lio/grpc/MethodDescriptor;
 
     move-result-object v4
@@ -351,7 +319,6 @@
 
     goto :goto_1
 
-    .line 12
     :cond_2
     new-instance v0, Ljava/lang/IllegalStateException;
 
@@ -363,7 +330,6 @@
 
     invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 13
     invoke-virtual {v3}, Lio/grpc/MethodDescriptor;->d()Ljava/lang/String;
 
     move-result-object v2
@@ -382,7 +348,6 @@
 
     throw v0
 
-    .line 14
     :cond_3
     new-instance v0, Ljava/lang/IllegalStateException;
 
@@ -394,7 +359,6 @@
 
     invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 15
     invoke-virtual {v3}, Lio/grpc/MethodDescriptor;->d()Ljava/lang/String;
 
     move-result-object v2
@@ -409,7 +373,6 @@
 
     throw v0
 
-    .line 16
     :cond_4
     invoke-interface {v1}, Ljava/util/Map;->size()I
 
@@ -417,7 +380,6 @@
 
     if-gtz v2, :cond_5
 
-    .line 17
     new-instance v1, Lio/grpc/q1;
 
     iget-object v2, p0, Lio/grpc/q1$b;->c:Ljava/util/Map;
@@ -428,7 +390,6 @@
 
     return-object v1
 
-    .line 18
     :cond_5
     new-instance v0, Ljava/lang/IllegalStateException;
 
@@ -440,7 +401,6 @@
 
     invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 19
     invoke-interface {v1}, Ljava/util/Map;->values()Ljava/util/Collection;
 
     move-result-object v1

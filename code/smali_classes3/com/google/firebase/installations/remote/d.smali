@@ -29,24 +29,20 @@
 .method static constructor <clinit>()V
     .locals 3
 
-    .line 1
     sget-object v0, Ljava/util/concurrent/TimeUnit;->HOURS:Ljava/util/concurrent/TimeUnit;
 
     const-wide/16 v1, 0x18
 
-    .line 2
     invoke-virtual {v0, v1, v2}, Ljava/util/concurrent/TimeUnit;->toMillis(J)J
 
     move-result-wide v0
 
     sput-wide v0, Lcom/google/firebase/installations/remote/d;->d:J
 
-    .line 3
     sget-object v0, Ljava/util/concurrent/TimeUnit;->MINUTES:Ljava/util/concurrent/TimeUnit;
 
     const-wide/16 v1, 0x1e
 
-    .line 4
     invoke-virtual {v0, v1, v2}, Ljava/util/concurrent/TimeUnit;->toMillis(J)J
 
     move-result-wide v0
@@ -59,10 +55,8 @@
 .method constructor <init>()V
     .locals 1
 
-    .line 3
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 4
     invoke-static {}, Lcom/google/firebase/installations/r;->c()Lcom/google/firebase/installations/r;
 
     move-result-object v0
@@ -75,10 +69,8 @@
 .method constructor <init>(Lcom/google/firebase/installations/r;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/google/firebase/installations/remote/d;->a:Lcom/google/firebase/installations/r;
 
     return-void
@@ -89,7 +81,6 @@
 
     monitor-enter p0
 
-    .line 1
     :try_start_0
     invoke-static {p1}, Lcom/google/firebase/installations/remote/d;->c(I)Z
 
@@ -97,7 +88,6 @@
 
     if-nez p1, :cond_0
 
-    .line 2
     sget-wide v0, Lcom/google/firebase/installations/remote/d;->d:J
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
@@ -109,13 +99,11 @@
     :cond_0
     const-wide/high16 v0, 0x4000000000000000L    # 2.0
 
-    .line 3
     :try_start_1
     iget p1, p0, Lcom/google/firebase/installations/remote/d;->c:I
 
     int-to-double v2, p1
 
-    .line 4
     invoke-static {v0, v1, v2, v3}, Ljava/lang/Math;->pow(DD)D
 
     move-result-wide v0
@@ -134,7 +122,6 @@
 
     long-to-double v2, v2
 
-    .line 5
     invoke-static {v0, v1, v2, v3}, Ljava/lang/Math;->min(DD)D
 
     move-result-wide v0
@@ -143,7 +130,6 @@
 
     double-to-long v0, v0
 
-    .line 6
     monitor-exit p0
 
     return-wide v0
@@ -228,13 +214,11 @@
 
     const/4 v0, 0x0
 
-    .line 1
     :try_start_0
     iput v0, p0, Lcom/google/firebase/installations/remote/d;->c:I
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 2
     monitor-exit p0
 
     return-void
@@ -254,7 +238,6 @@
 
     monitor-enter p0
 
-    .line 1
     :try_start_0
     iget v0, p0, Lcom/google/firebase/installations/remote/d;->c:I
 
@@ -303,7 +286,6 @@
 
     monitor-enter p0
 
-    .line 1
     :try_start_0
     invoke-static {p1}, Lcom/google/firebase/installations/remote/d;->d(I)Z
 
@@ -311,17 +293,14 @@
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-direct {p0}, Lcom/google/firebase/installations/remote/d;->e()V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 3
     monitor-exit p0
 
     return-void
 
-    .line 4
     :cond_0
     :try_start_1
     iget v0, p0, Lcom/google/firebase/installations/remote/d;->c:I
@@ -330,12 +309,10 @@
 
     iput v0, p0, Lcom/google/firebase/installations/remote/d;->c:I
 
-    .line 5
     invoke-direct {p0, p1}, Lcom/google/firebase/installations/remote/d;->a(I)J
 
     move-result-wide v0
 
-    .line 6
     iget-object p1, p0, Lcom/google/firebase/installations/remote/d;->a:Lcom/google/firebase/installations/r;
 
     invoke-virtual {p1}, Lcom/google/firebase/installations/r;->a()J
@@ -348,7 +325,6 @@
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
-    .line 7
     monitor-exit p0
 
     return-void

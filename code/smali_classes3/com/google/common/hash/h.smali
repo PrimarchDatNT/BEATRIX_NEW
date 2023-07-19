@@ -17,7 +17,6 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
     new-instance v0, Lcom/google/common/hash/h;
 
     invoke-direct {v0}, Lcom/google/common/hash/h;-><init>()V
@@ -30,7 +29,6 @@
 .method constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/google/common/hash/e;-><init>()V
 
     return-void
@@ -49,14 +47,12 @@
 
     if-gt p2, v0, :cond_0
 
-    .line 1
     invoke-static {p0, p1, p2}, Lcom/google/common/hash/h;->b([BII)J
 
     move-result-wide p0
 
     return-wide p0
 
-    .line 2
     :cond_0
     invoke-static {p0, p1, p2}, Lcom/google/common/hash/h;->d([BII)J
 
@@ -69,14 +65,12 @@
 
     if-gt p2, v0, :cond_2
 
-    .line 3
     invoke-static {p0, p1, p2}, Lcom/google/common/hash/h;->e([BII)J
 
     move-result-wide p0
 
     return-wide p0
 
-    .line 4
     :cond_2
     invoke-static {p0, p1, p2}, Lcom/google/common/hash/h;->f([BII)J
 
@@ -100,7 +94,6 @@
 
     add-long v9, v3, v1
 
-    .line 1
     invoke-static {p0, p1}, Lcom/google/common/hash/LittleEndianByteArray;->b([BI)J
 
     move-result-wide v3
@@ -111,14 +104,12 @@
 
     sub-int/2addr p1, v0
 
-    .line 2
     invoke-static {p0, p1}, Lcom/google/common/hash/LittleEndianByteArray;->b([BI)J
 
     move-result-wide p0
 
     const/16 p2, 0x25
 
-    .line 3
     invoke-static {p0, p1, p2}, Ljava/lang/Long;->rotateRight(JI)J
 
     move-result-wide v0
@@ -129,7 +120,6 @@
 
     const/16 p2, 0x19
 
-    .line 4
     invoke-static {v3, v4, p2}, Ljava/lang/Long;->rotateRight(JI)J
 
     move-result-wide v0
@@ -138,7 +128,6 @@
 
     mul-long v7, v0, v9
 
-    .line 5
     invoke-static/range {v5 .. v10}, Lcom/google/common/hash/h;->c(JJJ)J
 
     move-result-wide p0
@@ -156,7 +145,6 @@
 
     add-long v10, v4, v1
 
-    .line 6
     invoke-static {p0, p1}, Lcom/google/common/hash/LittleEndianByteArray;->a([BI)I
 
     move-result v0
@@ -179,7 +167,6 @@
 
     sub-int/2addr p1, v3
 
-    .line 7
     invoke-static {p0, p1}, Lcom/google/common/hash/LittleEndianByteArray;->a([BI)I
 
     move-result p0
@@ -197,21 +184,18 @@
     :cond_1
     if-lez p2, :cond_2
 
-    .line 8
     aget-byte v3, p0, p1
 
     shr-int/lit8 v4, p2, 0x1
 
     add-int/2addr v4, p1
 
-    .line 9
     aget-byte v4, p0, v4
 
     add-int/lit8 v5, p2, -0x1
 
     add-int/2addr p1, v5
 
-    .line 10
     aget-byte p0, p0, p1
 
     and-int/lit16 p1, v3, 0xff
@@ -240,7 +224,6 @@
 
     xor-long/2addr p0, v3
 
-    .line 11
     invoke-static {p0, p1}, Lcom/google/common/hash/h;->g(J)J
 
     move-result-wide p0
@@ -292,7 +275,6 @@
 
     add-long v9, v1, v3
 
-    .line 1
     invoke-static/range {p0 .. p1}, Lcom/google/common/hash/LittleEndianByteArray;->b([BI)J
 
     move-result-wide v1
@@ -303,7 +285,6 @@
 
     add-int/lit8 v5, p1, 0x8
 
-    .line 2
     invoke-static {v0, v5}, Lcom/google/common/hash/LittleEndianByteArray;->b([BI)J
 
     move-result-wide v5
@@ -312,7 +293,6 @@
 
     add-int/lit8 v8, v7, -0x8
 
-    .line 3
     invoke-static {v0, v8}, Lcom/google/common/hash/LittleEndianByteArray;->b([BI)J
 
     move-result-wide v11
@@ -321,7 +301,6 @@
 
     add-int/lit8 v7, v7, -0x10
 
-    .line 4
     invoke-static {v0, v7}, Lcom/google/common/hash/LittleEndianByteArray;->b([BI)J
 
     move-result-wide v7
@@ -332,7 +311,6 @@
 
     const/16 v0, 0x2b
 
-    .line 5
     invoke-static {v13, v14, v0}, Ljava/lang/Long;->rotateRight(JI)J
 
     move-result-wide v13
@@ -363,7 +341,6 @@
 
     move-wide v7, v0
 
-    .line 6
     invoke-static/range {v5 .. v10}, Lcom/google/common/hash/h;->c(JJJ)J
 
     move-result-wide v0
@@ -384,7 +361,6 @@
 
     add-long/2addr v1, v3
 
-    .line 1
     invoke-static/range {p0 .. p1}, Lcom/google/common/hash/LittleEndianByteArray;->b([BI)J
 
     move-result-wide v5
@@ -393,7 +369,6 @@
 
     add-int/lit8 v5, p1, 0x8
 
-    .line 2
     invoke-static {v0, v5}, Lcom/google/common/hash/LittleEndianByteArray;->b([BI)J
 
     move-result-wide v5
@@ -402,7 +377,6 @@
 
     add-int/lit8 v7, v13, -0x8
 
-    .line 3
     invoke-static {v0, v7}, Lcom/google/common/hash/LittleEndianByteArray;->b([BI)J
 
     move-result-wide v7
@@ -411,7 +385,6 @@
 
     add-int/lit8 v9, v13, -0x10
 
-    .line 4
     invoke-static {v0, v9}, Lcom/google/common/hash/LittleEndianByteArray;->b([BI)J
 
     move-result-wide v9
@@ -422,7 +395,6 @@
 
     const/16 v3, 0x2b
 
-    .line 5
     invoke-static {v14, v15, v3}, Ljava/lang/Long;->rotateRight(JI)J
 
     move-result-wide v14
@@ -443,7 +415,6 @@
 
     const/16 v9, 0x12
 
-    .line 6
     invoke-static {v5, v6, v9}, Ljava/lang/Long;->rotateRight(JI)J
 
     move-result-wide v5
@@ -462,7 +433,6 @@
 
     add-int/lit8 v7, p1, 0x10
 
-    .line 7
     invoke-static {v0, v7}, Lcom/google/common/hash/LittleEndianByteArray;->b([BI)J
 
     move-result-wide v7
@@ -471,14 +441,12 @@
 
     add-int/lit8 v9, p1, 0x18
 
-    .line 8
     invoke-static {v0, v9}, Lcom/google/common/hash/LittleEndianByteArray;->b([BI)J
 
     move-result-wide v9
 
     add-int/lit8 v4, v13, -0x20
 
-    .line 9
     invoke-static {v0, v4}, Lcom/google/common/hash/LittleEndianByteArray;->b([BI)J
 
     move-result-wide v16
@@ -489,7 +457,6 @@
 
     add-int/lit8 v13, v13, -0x18
 
-    .line 10
     invoke-static {v0, v13}, Lcom/google/common/hash/LittleEndianByteArray;->b([BI)J
 
     move-result-wide v16
@@ -502,7 +469,6 @@
 
     add-long v0, v7, v9
 
-    .line 11
     invoke-static {v0, v1, v3}, Ljava/lang/Long;->rotateRight(JI)J
 
     move-result-wide v0
@@ -531,7 +497,6 @@
 
     move-wide/from16 v9, v16
 
-    .line 12
     invoke-static/range {v5 .. v10}, Lcom/google/common/hash/h;->c(JJJ)J
 
     move-result-wide v0
@@ -546,7 +511,6 @@
 
     const-wide v0, -0x6e6c7825ddf69423L    # -5.27643297140616E-224
 
-    .line 1
     invoke-static {v0, v1}, Lcom/google/common/hash/h;->g(J)J
 
     move-result-wide v0
@@ -561,7 +525,6 @@
 
     new-array v9, v2, [J
 
-    .line 2
     invoke-static/range {p0 .. p1}, Lcom/google/common/hash/LittleEndianByteArray;->b([BI)J
 
     move-result-wide v2
@@ -574,7 +537,6 @@
 
     add-int/lit8 v2, p2, -0x1
 
-    .line 3
     div-int/lit8 v3, v2, 0x40
 
     mul-int/lit8 v3, v3, 0x40
@@ -596,7 +558,6 @@
 
     const/4 v15, 0x0
 
-    .line 4
     aget-wide v16, v8, v15
 
     add-long v4, v4, v16
@@ -619,7 +580,6 @@
 
     mul-long v4, v4, v16
 
-    .line 5
     aget-wide v18, v8, v10
 
     add-long v2, v2, v18
@@ -640,12 +600,10 @@
 
     mul-long v2, v2, v16
 
-    .line 6
     aget-wide v18, v9, v10
 
     xor-long v18, v4, v18
 
-    .line 7
     aget-wide v4, v8, v15
 
     add-int/lit8 v6, v14, 0x28
@@ -658,7 +616,6 @@
 
     add-long v20, v2, v4
 
-    .line 8
     aget-wide v2, v9, v15
 
     add-long/2addr v0, v2
@@ -671,7 +628,6 @@
 
     mul-long v22, v0, v16
 
-    .line 9
     aget-wide v0, v8, v10
 
     mul-long v2, v0, v16
@@ -690,7 +646,6 @@
 
     add-int/lit8 v1, v14, 0x20
 
-    .line 10
     aget-wide v2, v9, v10
 
     add-long v2, v22, v2
@@ -721,7 +676,6 @@
 
     add-long v16, v0, v16
 
-    .line 11
     aget-wide v0, v9, v15
 
     int-to-long v2, v12
@@ -730,7 +684,6 @@
 
     aput-wide v0, v9, v15
 
-    .line 12
     aget-wide v0, v8, v15
 
     aget-wide v2, v9, v15
@@ -739,7 +692,6 @@
 
     aput-wide v0, v8, v15
 
-    .line 13
     aget-wide v0, v9, v15
 
     aget-wide v2, v8, v15
@@ -750,7 +702,6 @@
 
     add-long v22, v22, v20
 
-    .line 14
     aget-wide v0, v8, v15
 
     add-long v22, v22, v0
@@ -771,7 +722,6 @@
 
     mul-long v0, v0, v16
 
-    .line 15
     aget-wide v2, v8, v10
 
     add-long v20, v20, v2
@@ -792,7 +742,6 @@
 
     mul-long v2, v2, v16
 
-    .line 16
     aget-wide v4, v9, v10
 
     const-wide/16 v11, 0x9
@@ -801,7 +750,6 @@
 
     xor-long v20, v0, v4
 
-    .line 17
     aget-wide v0, v8, v15
 
     mul-long v0, v0, v11
@@ -816,7 +764,6 @@
 
     add-long v11, v2, v0
 
-    .line 18
     aget-wide v0, v9, v15
 
     add-long v0, v18, v0
@@ -829,7 +776,6 @@
 
     mul-long v18, v0, v16
 
-    .line 19
     aget-wide v0, v8, v10
 
     mul-long v2, v0, v16
@@ -848,7 +794,6 @@
 
     add-int/lit8 v1, v13, 0x20
 
-    .line 20
     aget-wide v2, v9, v10
 
     add-long v2, v18, v2
@@ -865,14 +810,12 @@
 
     invoke-static/range {v0 .. v6}, Lcom/google/common/hash/h;->h([BIJJ[J)V
 
-    .line 21
     aget-wide v2, v8, v15
 
     aget-wide v4, v9, v15
 
     move-wide/from16 v6, v16
 
-    .line 22
     invoke-static/range {v2 .. v7}, Lcom/google/common/hash/h;->c(JJJ)J
 
     move-result-wide v0
@@ -893,7 +836,6 @@
 
     aget-wide v4, v9, v10
 
-    .line 23
     invoke-static/range {v2 .. v7}, Lcom/google/common/hash/h;->c(JJJ)J
 
     move-result-wide v2
@@ -902,7 +844,6 @@
 
     move-wide v2, v0
 
-    .line 24
     invoke-static/range {v2 .. v7}, Lcom/google/common/hash/h;->c(JJJ)J
 
     move-result-wide v0
@@ -934,28 +875,24 @@
 .method private static h([BIJJ[J)V
     .locals 6
 
-    .line 1
     invoke-static {p0, p1}, Lcom/google/common/hash/LittleEndianByteArray;->b([BI)J
 
     move-result-wide v0
 
     add-int/lit8 v2, p1, 0x8
 
-    .line 2
     invoke-static {p0, v2}, Lcom/google/common/hash/LittleEndianByteArray;->b([BI)J
 
     move-result-wide v2
 
     add-int/lit8 v4, p1, 0x10
 
-    .line 3
     invoke-static {p0, v4}, Lcom/google/common/hash/LittleEndianByteArray;->b([BI)J
 
     move-result-wide v4
 
     add-int/lit8 p1, p1, 0x18
 
-    .line 4
     invoke-static {p0, p1}, Lcom/google/common/hash/LittleEndianByteArray;->b([BI)J
 
     move-result-wide p0
@@ -968,7 +905,6 @@
 
     const/16 v0, 0x15
 
-    .line 5
     invoke-static {p4, p5, v0}, Ljava/lang/Long;->rotateRight(JI)J
 
     move-result-wide p4
@@ -979,7 +915,6 @@
 
     const/16 v0, 0x2c
 
-    .line 6
     invoke-static {v2, v3, v0}, Ljava/lang/Long;->rotateRight(JI)J
 
     move-result-wide v0
@@ -990,14 +925,12 @@
 
     const/4 p0, 0x0
 
-    .line 7
     aput-wide v2, p6, p0
 
     add-long/2addr p4, p2
 
     const/4 p0, 0x1
 
-    .line 8
     aput-wide p4, p6, p0
 
     return-void
@@ -1018,12 +951,10 @@
 
     add-int v0, p2, p3
 
-    .line 1
     array-length v1, p1
 
     invoke-static {p2, v0, v1}, Lcom/google/common/base/t;->f0(III)V
 
-    .line 2
     invoke-static {p1, p2, p3}, Lcom/google/common/hash/h;->a([BII)J
 
     move-result-wide p1

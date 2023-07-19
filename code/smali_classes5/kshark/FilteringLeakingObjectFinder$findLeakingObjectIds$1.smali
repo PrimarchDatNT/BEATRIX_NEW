@@ -51,7 +51,6 @@
 .method public bridge synthetic invoke(Ljava/lang/Object;)Ljava/lang/Object;
     .locals 0
 
-    .line 1
     check-cast p1, Lkshark/HeapObject;
 
     invoke-virtual {p0, p1}, Lkshark/FilteringLeakingObjectFinder$findLeakingObjectIds$1;->invoke(Lkshark/HeapObject;)Z
@@ -76,14 +75,12 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 2
     iget-object v0, p0, Lkshark/FilteringLeakingObjectFinder$findLeakingObjectIds$1;->this$0:Lkshark/FilteringLeakingObjectFinder;
 
     invoke-static {v0}, Lkshark/FilteringLeakingObjectFinder;->b(Lkshark/FilteringLeakingObjectFinder;)Ljava/util/List;
 
     move-result-object v0
 
-    .line 3
     instance-of v1, v0, Ljava/util/Collection;
 
     const/4 v2, 0x0
@@ -98,7 +95,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_0
     invoke-interface {v0}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
@@ -117,7 +113,6 @@
 
     check-cast v1, Lkshark/FilteringLeakingObjectFinder$a;
 
-    .line 5
     invoke-interface {v1, p1}, Lkshark/FilteringLeakingObjectFinder$a;->a(Lkshark/HeapObject;)Z
 
     move-result v1

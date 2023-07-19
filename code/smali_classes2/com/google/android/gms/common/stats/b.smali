@@ -36,7 +36,6 @@
 .method static constructor <clinit>()V
     .locals 3
 
-    .line 1
     new-instance v0, Landroid/content/ComponentName;
 
     const-string v1, "com.google.android.gms"
@@ -49,40 +48,32 @@
 
     const/4 v0, 0x0
 
-    .line 2
     sput v0, Lcom/google/android/gms/common/stats/b;->b:I
 
     const/4 v0, 0x1
 
-    .line 3
     sput v0, Lcom/google/android/gms/common/stats/b;->c:I
 
     const/4 v1, 0x2
 
-    .line 4
     sput v1, Lcom/google/android/gms/common/stats/b;->d:I
 
     const/4 v1, 0x4
 
-    .line 5
     sput v1, Lcom/google/android/gms/common/stats/b;->e:I
 
     const/16 v1, 0x8
 
-    .line 6
     sput v1, Lcom/google/android/gms/common/stats/b;->f:I
 
     const/16 v1, 0x10
 
-    .line 7
     sput v1, Lcom/google/android/gms/common/stats/b;->g:I
 
     const/16 v1, 0x20
 
-    .line 8
     sput v1, Lcom/google/android/gms/common/stats/b;->h:I
 
-    .line 9
     sput v0, Lcom/google/android/gms/common/stats/b;->j:I
 
     return-void
@@ -91,7 +82,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void

@@ -28,7 +28,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/camera/xcamera/cover/CameraGestureCover$gestureDetector$2$a;->a:Lcom/commsource/camera/xcamera/cover/CameraGestureCover$gestureDetector$2;
 
     invoke-direct {p0}, Lcom/commsource/beautymain/widget/gesturewidget/e$c;-><init>()V
@@ -53,7 +52,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p2, p0, Lcom/commsource/camera/xcamera/cover/CameraGestureCover$gestureDetector$2$a;->a:Lcom/commsource/camera/xcamera/cover/CameraGestureCover$gestureDetector$2;
 
     iget-object p2, p2, Lcom/commsource/camera/xcamera/cover/CameraGestureCover$gestureDetector$2;->this$0:Lcom/commsource/camera/xcamera/cover/CameraGestureCover;
@@ -70,12 +68,10 @@
 
     if-eqz p2, :cond_0
 
-    .line 2
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p3
 
-    .line 3
     :cond_0
     iget-object p2, p0, Lcom/commsource/camera/xcamera/cover/CameraGestureCover$gestureDetector$2$a;->a:Lcom/commsource/camera/xcamera/cover/CameraGestureCover$gestureDetector$2;
 
@@ -91,12 +87,10 @@
 
     if-eqz p2, :cond_1
 
-    .line 4
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p3
 
-    .line 5
     :cond_1
     iget-object p2, p0, Lcom/commsource/camera/xcamera/cover/CameraGestureCover$gestureDetector$2$a;->a:Lcom/commsource/camera/xcamera/cover/CameraGestureCover$gestureDetector$2;
 
@@ -112,12 +106,10 @@
 
     if-eqz p2, :cond_2
 
-    .line 6
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p3
 
-    .line 7
     :cond_2
     iget-object p2, p0, Lcom/commsource/camera/xcamera/cover/CameraGestureCover$gestureDetector$2$a;->a:Lcom/commsource/camera/xcamera/cover/CameraGestureCover$gestureDetector$2;
 
@@ -133,12 +125,10 @@
 
     if-eqz p2, :cond_3
 
-    .line 8
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p3
 
-    .line 9
     :cond_3
     iget-object p2, p0, Lcom/commsource/camera/xcamera/cover/CameraGestureCover$gestureDetector$2$a;->a:Lcom/commsource/camera/xcamera/cover/CameraGestureCover$gestureDetector$2;
 
@@ -166,12 +156,10 @@
 
     if-eqz p2, :cond_4
 
-    .line 10
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p3
 
-    .line 11
     :cond_4
     iget-object p2, p0, Lcom/commsource/camera/xcamera/cover/CameraGestureCover$gestureDetector$2$a;->a:Lcom/commsource/camera/xcamera/cover/CameraGestureCover$gestureDetector$2;
 
@@ -183,7 +171,6 @@
 
     invoke-virtual {p2}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->Z0()V
 
-    .line 12
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p3
@@ -204,7 +191,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p2, p0, Lcom/commsource/camera/xcamera/cover/CameraGestureCover$gestureDetector$2$a;->a:Lcom/commsource/camera/xcamera/cover/CameraGestureCover$gestureDetector$2;
 
     iget-object p2, p2, Lcom/commsource/camera/xcamera/cover/CameraGestureCover$gestureDetector$2;->this$0:Lcom/commsource/camera/xcamera/cover/CameraGestureCover;
@@ -221,12 +207,10 @@
 
     if-eqz p2, :cond_0
 
-    .line 2
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p3
 
-    .line 3
     :cond_0
     iget-object p2, p0, Lcom/commsource/camera/xcamera/cover/CameraGestureCover$gestureDetector$2$a;->a:Lcom/commsource/camera/xcamera/cover/CameraGestureCover$gestureDetector$2;
 
@@ -242,12 +226,10 @@
 
     if-eqz p2, :cond_1
 
-    .line 4
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p3
 
-    .line 5
     :cond_1
     iget-object p2, p0, Lcom/commsource/camera/xcamera/cover/CameraGestureCover$gestureDetector$2$a;->a:Lcom/commsource/camera/xcamera/cover/CameraGestureCover$gestureDetector$2;
 
@@ -263,12 +245,10 @@
 
     if-eqz p2, :cond_2
 
-    .line 6
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p3
 
-    .line 7
     :cond_2
     iget-object p2, p0, Lcom/commsource/camera/xcamera/cover/CameraGestureCover$gestureDetector$2$a;->a:Lcom/commsource/camera/xcamera/cover/CameraGestureCover$gestureDetector$2;
 
@@ -284,12 +264,10 @@
 
     if-eqz p2, :cond_3
 
-    .line 8
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p3
 
-    .line 9
     :cond_3
     iget-object p2, p0, Lcom/commsource/camera/xcamera/cover/CameraGestureCover$gestureDetector$2$a;->a:Lcom/commsource/camera/xcamera/cover/CameraGestureCover$gestureDetector$2;
 
@@ -317,12 +295,10 @@
 
     if-eqz p2, :cond_4
 
-    .line 10
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p3
 
-    .line 11
     :cond_4
     iget-object p2, p0, Lcom/commsource/camera/xcamera/cover/CameraGestureCover$gestureDetector$2$a;->a:Lcom/commsource/camera/xcamera/cover/CameraGestureCover$gestureDetector$2;
 
@@ -334,7 +310,6 @@
 
     invoke-virtual {p2}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->S0()V
 
-    .line 12
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p3
@@ -351,7 +326,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const/4 p1, 0x0
@@ -370,7 +344,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const/4 p1, 0x0
@@ -393,7 +366,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p2, p0, Lcom/commsource/camera/xcamera/cover/CameraGestureCover$gestureDetector$2$a;->a:Lcom/commsource/camera/xcamera/cover/CameraGestureCover$gestureDetector$2;
 
     iget-object p2, p2, Lcom/commsource/camera/xcamera/cover/CameraGestureCover$gestureDetector$2;->this$0:Lcom/commsource/camera/xcamera/cover/CameraGestureCover;
@@ -404,7 +376,6 @@
 
     invoke-virtual {p2}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/i;->H()V
 
-    .line 2
     iget-object p2, p0, Lcom/commsource/camera/xcamera/cover/CameraGestureCover$gestureDetector$2$a;->a:Lcom/commsource/camera/xcamera/cover/CameraGestureCover$gestureDetector$2;
 
     iget-object p2, p2, Lcom/commsource/camera/xcamera/cover/CameraGestureCover$gestureDetector$2;->this$0:Lcom/commsource/camera/xcamera/cover/CameraGestureCover;
@@ -419,7 +390,6 @@
 
     if-eqz p2, :cond_0
 
-    .line 3
     iget-object p2, p0, Lcom/commsource/camera/xcamera/cover/CameraGestureCover$gestureDetector$2$a;->a:Lcom/commsource/camera/xcamera/cover/CameraGestureCover$gestureDetector$2;
 
     iget-object p2, p2, Lcom/commsource/camera/xcamera/cover/CameraGestureCover$gestureDetector$2;->this$0:Lcom/commsource/camera/xcamera/cover/CameraGestureCover;
@@ -432,12 +402,10 @@
 
     invoke-virtual {p2, v0}, Lcom/commsource/camera/xcamera/cover/CameraConfigViewModel;->d0(Z)V
 
-    .line 4
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 5
     :cond_0
     iget-object p2, p0, Lcom/commsource/camera/xcamera/cover/CameraGestureCover$gestureDetector$2$a;->a:Lcom/commsource/camera/xcamera/cover/CameraGestureCover$gestureDetector$2;
 
@@ -455,7 +423,6 @@
 
     if-eqz p2, :cond_1
 
-    .line 6
     iget-object p2, p0, Lcom/commsource/camera/xcamera/cover/CameraGestureCover$gestureDetector$2$a;->a:Lcom/commsource/camera/xcamera/cover/CameraGestureCover$gestureDetector$2;
 
     iget-object p2, p2, Lcom/commsource/camera/xcamera/cover/CameraGestureCover$gestureDetector$2;->this$0:Lcom/commsource/camera/xcamera/cover/CameraGestureCover;
@@ -466,7 +433,6 @@
 
     invoke-virtual {p2}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/i;->J0()V
 
-    .line 7
     iget-object p2, p0, Lcom/commsource/camera/xcamera/cover/CameraGestureCover$gestureDetector$2$a;->a:Lcom/commsource/camera/xcamera/cover/CameraGestureCover$gestureDetector$2;
 
     iget-object p2, p2, Lcom/commsource/camera/xcamera/cover/CameraGestureCover$gestureDetector$2;->this$0:Lcom/commsource/camera/xcamera/cover/CameraGestureCover;
@@ -477,12 +443,10 @@
 
     invoke-virtual {p2, v0}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/i;->J(Lcom/commsource/repository/child/makeup/e;)V
 
-    .line 8
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 9
     :cond_1
     iget-object p2, p0, Lcom/commsource/camera/xcamera/cover/CameraGestureCover$gestureDetector$2$a;->a:Lcom/commsource/camera/xcamera/cover/CameraGestureCover$gestureDetector$2;
 
@@ -498,12 +462,10 @@
 
     if-eqz p2, :cond_2
 
-    .line 10
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 11
     :cond_2
     iget-object p2, p0, Lcom/commsource/camera/xcamera/cover/CameraGestureCover$gestureDetector$2$a;->a:Lcom/commsource/camera/xcamera/cover/CameraGestureCover$gestureDetector$2;
 
@@ -533,7 +495,6 @@
 
     if-nez p2, :cond_3
 
-    .line 12
     iget-object p2, p0, Lcom/commsource/camera/xcamera/cover/CameraGestureCover$gestureDetector$2$a;->a:Lcom/commsource/camera/xcamera/cover/CameraGestureCover$gestureDetector$2;
 
     iget-object p2, p2, Lcom/commsource/camera/xcamera/cover/CameraGestureCover$gestureDetector$2;->this$0:Lcom/commsource/camera/xcamera/cover/CameraGestureCover;
@@ -554,12 +515,10 @@
 
     invoke-virtual {p2, v0}, Landroidx/lifecycle/MutableLiveData;->setValue(Ljava/lang/Object;)V
 
-    .line 13
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 14
     :cond_3
     iget-object p2, p0, Lcom/commsource/camera/xcamera/cover/CameraGestureCover$gestureDetector$2$a;->a:Lcom/commsource/camera/xcamera/cover/CameraGestureCover$gestureDetector$2;
 
@@ -575,12 +534,10 @@
 
     if-eqz p2, :cond_4
 
-    .line 15
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 16
     :cond_4
     iget-object p2, p0, Lcom/commsource/camera/xcamera/cover/CameraGestureCover$gestureDetector$2$a;->a:Lcom/commsource/camera/xcamera/cover/CameraGestureCover$gestureDetector$2;
 
@@ -596,7 +553,6 @@
 
     if-eqz p2, :cond_5
 
-    .line 17
     iget-object p2, p0, Lcom/commsource/camera/xcamera/cover/CameraGestureCover$gestureDetector$2$a;->a:Lcom/commsource/camera/xcamera/cover/CameraGestureCover$gestureDetector$2;
 
     iget-object p2, p2, Lcom/commsource/camera/xcamera/cover/CameraGestureCover$gestureDetector$2;->this$0:Lcom/commsource/camera/xcamera/cover/CameraGestureCover;
@@ -607,12 +563,10 @@
 
     invoke-virtual {p2, v0}, Lcom/commsource/camera/xcamera/cover/bottomFunction/b;->S(Lcom/commsource/camera/xcamera/cover/bottomFunction/BottomFunction;)V
 
-    .line 18
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 19
     :cond_5
     iget-object p2, p0, Lcom/commsource/camera/xcamera/cover/CameraGestureCover$gestureDetector$2$a;->a:Lcom/commsource/camera/xcamera/cover/CameraGestureCover$gestureDetector$2;
 
@@ -628,12 +582,10 @@
 
     if-eqz p2, :cond_6
 
-    .line 20
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 21
     :cond_6
     iget-object p2, p0, Lcom/commsource/camera/xcamera/cover/CameraGestureCover$gestureDetector$2$a;->a:Lcom/commsource/camera/xcamera/cover/CameraGestureCover$gestureDetector$2;
 
@@ -649,7 +601,6 @@
 
     if-nez p2, :cond_7
 
-    .line 22
     iget-object p2, p0, Lcom/commsource/camera/xcamera/cover/CameraGestureCover$gestureDetector$2$a;->a:Lcom/commsource/camera/xcamera/cover/CameraGestureCover$gestureDetector$2;
 
     iget-object p2, p2, Lcom/commsource/camera/xcamera/cover/CameraGestureCover$gestureDetector$2;->this$0:Lcom/commsource/camera/xcamera/cover/CameraGestureCover;
@@ -664,7 +615,6 @@
 
     invoke-virtual {p2}, Lcom/commsource/camera/mvp/SimpleFocusView;->p()V
 
-    .line 23
     :cond_7
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

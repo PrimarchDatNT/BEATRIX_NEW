@@ -86,15 +86,12 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     sget-object v0, Lcom/mopub/common/logging/MoPubLog$LogLevel;->NONE:Lcom/mopub/common/logging/MoPubLog$LogLevel;
 
     iput-object v0, p0, Lcom/mopub/common/SdkConfiguration$Builder;->logLevel:Lcom/mopub/common/logging/MoPubLog$LogLevel;
 
-    .line 3
     invoke-static {p1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v0
@@ -103,21 +100,18 @@
 
     if-eqz v0, :cond_0
 
-    .line 4
     new-instance v0, Ljava/lang/IllegalArgumentException;
 
     const-string v2, "Ad unit cannot be empty at initialization"
 
     invoke-direct {v0, v2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    .line 5
     invoke-static {}, Lcom/mopub/common/logging/MoPubLog;->getLogLevel()Lcom/mopub/common/logging/MoPubLog$LogLevel;
 
     move-result-object v2
 
     invoke-static {v2}, Lcom/mopub/common/logging/MoPubLog;->setLogLevel(Lcom/mopub/common/logging/MoPubLog$LogLevel;)V
 
-    .line 6
     sget-object v2, Lcom/mopub/common/logging/MoPubLog$SdkLogEvent;->INIT_FAILED:Lcom/mopub/common/logging/MoPubLog$SdkLogEvent;
 
     const/4 v3, 0x2
@@ -134,11 +128,9 @@
 
     invoke-static {v2, v3}, Lcom/mopub/common/logging/MoPubLog;->log(Lcom/mopub/common/logging/MoPubLog$MPLogEventType;[Ljava/lang/Object;)V
 
-    .line 7
     :cond_0
     iput-object p1, p0, Lcom/mopub/common/SdkConfiguration$Builder;->adUnitId:Ljava/lang/String;
 
-    .line 8
     invoke-static {}, Lcom/mopub/common/DefaultAdapterClasses;->getClassNamesSet()Ljava/util/Set;
 
     move-result-object p1
@@ -147,24 +139,20 @@
 
     new-array p1, v1, [Lcom/mopub/common/MediationSettings;
 
-    .line 9
     iput-object p1, p0, Lcom/mopub/common/SdkConfiguration$Builder;->mediationSettings:[Lcom/mopub/common/MediationSettings;
 
-    .line 10
     new-instance p1, Ljava/util/HashMap;
 
     invoke-direct {p1}, Ljava/util/HashMap;-><init>()V
 
     iput-object p1, p0, Lcom/mopub/common/SdkConfiguration$Builder;->mediatedNetworkConfigurations:Ljava/util/Map;
 
-    .line 11
     new-instance p1, Ljava/util/HashMap;
 
     invoke-direct {p1}, Ljava/util/HashMap;-><init>()V
 
     iput-object p1, p0, Lcom/mopub/common/SdkConfiguration$Builder;->moPubRequestOptions:Ljava/util/Map;
 
-    .line 12
     iput-boolean v1, p0, Lcom/mopub/common/SdkConfiguration$Builder;->legitimateInterestAllowed:Z
 
     return-void
@@ -175,7 +163,6 @@
 .method public build()Lcom/mopub/common/SdkConfiguration;
     .locals 10
 
-    .line 1
     new-instance v9, Lcom/mopub/common/SdkConfiguration;
 
     iget-object v1, p0, Lcom/mopub/common/SdkConfiguration$Builder;->adUnitId:Ljava/lang/String;
@@ -208,10 +195,8 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-static {p1}, Lcom/mopub/common/Preconditions;->checkNotNull(Ljava/lang/Object;)V
 
-    .line 2
     iget-object v0, p0, Lcom/mopub/common/SdkConfiguration$Builder;->adapterConfigurations:Ljava/util/Set;
 
     invoke-interface {v0, p1}, Ljava/util/Set;->add(Ljava/lang/Object;)Z
@@ -222,7 +207,6 @@
 .method public withLegitimateInterestAllowed(Z)Lcom/mopub/common/SdkConfiguration$Builder;
     .locals 0
 
-    .line 1
     iput-boolean p1, p0, Lcom/mopub/common/SdkConfiguration$Builder;->legitimateInterestAllowed:Z
 
     return-object p0
@@ -235,10 +219,8 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-static {p1}, Lcom/mopub/common/Preconditions;->checkNotNull(Ljava/lang/Object;)V
 
-    .line 2
     iput-object p1, p0, Lcom/mopub/common/SdkConfiguration$Builder;->logLevel:Lcom/mopub/common/logging/MoPubLog$LogLevel;
 
     return-object p0
@@ -266,13 +248,10 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p1}, Lcom/mopub/common/Preconditions;->checkNotNull(Ljava/lang/Object;)V
 
-    .line 2
     invoke-static {p2}, Lcom/mopub/common/Preconditions;->checkNotNull(Ljava/lang/Object;)V
 
-    .line 3
     iget-object v0, p0, Lcom/mopub/common/SdkConfiguration$Builder;->mediatedNetworkConfigurations:Ljava/util/Map;
 
     invoke-interface {v0, p1, p2}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
@@ -287,10 +266,8 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-static {p1}, Lcom/mopub/common/Preconditions;->checkNotNull(Ljava/lang/Object;)V
 
-    .line 2
     iput-object p1, p0, Lcom/mopub/common/SdkConfiguration$Builder;->mediationSettings:[Lcom/mopub/common/MediationSettings;
 
     return-object p0
@@ -318,13 +295,10 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p1}, Lcom/mopub/common/Preconditions;->checkNotNull(Ljava/lang/Object;)V
 
-    .line 2
     invoke-static {p2}, Lcom/mopub/common/Preconditions;->checkNotNull(Ljava/lang/Object;)V
 
-    .line 3
     iget-object v0, p0, Lcom/mopub/common/SdkConfiguration$Builder;->moPubRequestOptions:Ljava/util/Map;
 
     invoke-interface {v0, p1, p2}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;

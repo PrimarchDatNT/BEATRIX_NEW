@@ -70,7 +70,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p2, Lcom/commsource/studio/q0/a;
 
     invoke-virtual {p0, p1, p2}, Lcom/commsource/studio/q0/c$a;->b(ILcom/commsource/studio/q0/a;)Z
@@ -89,7 +88,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p2}, Lcom/commsource/studio/q0/a;->a()Ljava/lang/String;
 
     move-result-object p2
@@ -98,7 +96,6 @@
 
     invoke-static {p2, v0}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
-    .line 2
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const/4 p1, 0x0

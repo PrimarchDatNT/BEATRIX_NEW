@@ -36,7 +36,6 @@
 .method constructor <init>(Lcom/meitu/library/camera/s/m/a;J)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/library/camera/s/m/a$a;->b:Lcom/meitu/library/camera/s/m/a;
 
     iput-wide p2, p0, Lcom/meitu/library/camera/s/m/a$a;->a:J
@@ -63,7 +62,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/meitu/library/camera/s/n/d;->h()Z
 
     move-result v1
@@ -72,7 +70,6 @@
 
     if-eqz v1, :cond_0
 
-    .line 2
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -111,7 +108,6 @@
 
     invoke-static {v2, v1}, Lcom/meitu/library/camera/s/n/d;->d(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 3
     :cond_0
     invoke-virtual {p1}, Lcom/google/android/gms/tasks/k;->r()Ljava/lang/Object;
 
@@ -121,7 +117,6 @@
 
     if-nez p1, :cond_2
 
-    .line 4
     invoke-static {}, Lcom/meitu/library/camera/s/n/d;->h()Z
 
     move-result p1
@@ -130,16 +125,13 @@
 
     const-string p1, "ensureInitialized configInfo == null"
 
-    .line 5
     invoke-static {v2, p1}, Lcom/meitu/library/camera/s/n/d;->a(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 6
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 7
     :cond_2
     invoke-static {}, Lcom/meitu/library/camera/s/n/d;->h()Z
 
@@ -147,7 +139,6 @@
 
     if-eqz v1, :cond_3
 
-    .line 8
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -156,7 +147,6 @@
 
     invoke-virtual {v1, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 9
     invoke-interface {p1}, Lcom/meitu/remote/config/f;->c()I
 
     move-result v3
@@ -167,7 +157,6 @@
 
     invoke-virtual {v1, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 10
     invoke-interface {p1}, Lcom/meitu/remote/config/f;->a()J
 
     move-result-wide v3
@@ -178,7 +167,6 @@
 
     invoke-virtual {v1, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 11
     invoke-interface {p1}, Lcom/meitu/remote/config/f;->b()Lcom/meitu/remote/config/g;
 
     move-result-object p1
@@ -189,10 +177,8 @@
 
     move-result-object p1
 
-    .line 12
     invoke-static {v2, p1}, Lcom/meitu/library/camera/s/n/d;->a(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 13
     :cond_3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

@@ -26,10 +26,8 @@
 .method public final b(Lcom/google/android/gms/tasks/k;)V
     .locals 0
 
-    .line 1
     iget-object p1, p0, Lcom/google/firebase/iid/k0;->a:Lcom/google/firebase/iid/l0;
 
-    .line 2
     invoke-virtual {p1}, Lcom/google/firebase/iid/l0;->b()V
 
     return-void

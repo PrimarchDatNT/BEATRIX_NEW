@@ -55,7 +55,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Lcom/commsource/cloudalbum/bean/CAImageInfo;
 
     check-cast p2, Ljava/lang/Number;
@@ -88,7 +87,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 2
     new-instance v1, Lcom/commsource/camera/xcamera/cover/CameraCaptureCover$onClick$1$a;
 
     invoke-direct {v1, p0, p1, p2}, Lcom/commsource/camera/xcamera/cover/CameraCaptureCover$onClick$1$a;-><init>(Lcom/commsource/camera/xcamera/cover/CameraCaptureCover$onClick$1;Lcom/commsource/cloudalbum/bean/CAImageInfo;I)V
@@ -97,7 +95,6 @@
 
     invoke-static {p1, v1}, Lcom/commsource/util/c2;->f(Ljava/lang/String;Ljava/lang/Runnable;)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

@@ -26,14 +26,12 @@
 .method constructor <init>(Lcom/commsource/camera/montage/CustomSeekbar;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/camera/montage/CustomSeekbar$b;->c:Lcom/commsource/camera/montage/CustomSeekbar;
 
     invoke-direct {p0}, Lcom/commsource/beautymain/widget/gesturewidget/e$c;-><init>()V
 
     const/4 p1, 0x0
 
-    .line 2
     iput p1, p0, Lcom/commsource/camera/montage/CustomSeekbar$b;->a:I
 
     return-void
@@ -48,12 +46,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v1
 
-    .line 2
     iget-wide v3, p0, Lcom/commsource/camera/montage/CustomSeekbar$b;->b:J
 
     sub-long v3, v1, v3
@@ -66,10 +62,8 @@
 
     if-lez v8, :cond_0
 
-    .line 3
     iput v5, p0, Lcom/commsource/camera/montage/CustomSeekbar$b;->a:I
 
-    .line 4
     :cond_0
     iget-object v3, p0, Lcom/commsource/camera/montage/CustomSeekbar$b;->c:Lcom/commsource/camera/montage/CustomSeekbar;
 
@@ -89,14 +83,12 @@
 
     if-eqz v3, :cond_1
 
-    .line 5
     iget v3, p0, Lcom/commsource/camera/montage/CustomSeekbar$b;->a:I
 
     add-int/2addr v3, v4
 
     iput v3, p0, Lcom/commsource/camera/montage/CustomSeekbar$b;->a:I
 
-    .line 6
     :cond_1
     iget v3, p0, Lcom/commsource/camera/montage/CustomSeekbar$b;->a:I
 
@@ -104,19 +96,15 @@
 
     if-lt v3, v6, :cond_2
 
-    .line 7
     iget-object v3, p0, Lcom/commsource/camera/montage/CustomSeekbar$b;->c:Lcom/commsource/camera/montage/CustomSeekbar;
 
     invoke-static {v3, v4}, Lcom/commsource/camera/montage/CustomSeekbar;->c(Lcom/commsource/camera/montage/CustomSeekbar;Z)Z
 
-    .line 8
     iput v5, p0, Lcom/commsource/camera/montage/CustomSeekbar$b;->a:I
 
-    .line 9
     :cond_2
     iput-wide v1, p0, Lcom/commsource/camera/montage/CustomSeekbar$b;->b:J
 
-    .line 10
     invoke-super {p0, p1, p2}, Lcom/commsource/beautymain/widget/gesturewidget/e$c;->onTap(Landroid/view/MotionEvent;Landroid/view/MotionEvent;)Z
 
     move-result p1

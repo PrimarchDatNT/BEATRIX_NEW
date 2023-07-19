@@ -30,7 +30,6 @@
 .method constructor <init>(Lf/k/i0/a/i;Landroidx/room/RoomDatabase;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lf/k/i0/a/i$c;->a:Lf/k/i0/a/i;
 
     invoke-direct {p0, p2}, Landroidx/room/EntityDeletionOrUpdateAdapter;-><init>(Landroidx/room/RoomDatabase;)V
@@ -47,19 +46,16 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p2, Lcom/meitu/template/bean/Chat;->id:Ljava/lang/Float;
 
     const/4 v2, 0x1
 
     if-nez v1, :cond_0
 
-    .line 2
     invoke-interface {p1, v2}, Landroidx/sqlite/db/SupportSQLiteProgram;->bindNull(I)V
 
     goto :goto_0
 
-    .line 3
     :cond_0
     invoke-virtual {v1}, Ljava/lang/Float;->floatValue()F
 
@@ -69,7 +65,6 @@
 
     invoke-interface {p1, v2, v3, v4}, Landroidx/sqlite/db/SupportSQLiteProgram;->bindDouble(ID)V
 
-    .line 4
     :goto_0
     iget-object v1, p2, Lcom/meitu/template/bean/Chat;->uid:Ljava/lang/String;
 
@@ -77,16 +72,13 @@
 
     if-nez v1, :cond_1
 
-    .line 5
     invoke-interface {p1, v2}, Landroidx/sqlite/db/SupportSQLiteProgram;->bindNull(I)V
 
     goto :goto_1
 
-    .line 6
     :cond_1
     invoke-interface {p1, v2, v1}, Landroidx/sqlite/db/SupportSQLiteProgram;->bindString(ILjava/lang/String;)V
 
-    .line 7
     :goto_1
     iget-object v1, p2, Lcom/meitu/template/bean/Chat;->content:Ljava/lang/String;
 
@@ -94,16 +86,13 @@
 
     if-nez v1, :cond_2
 
-    .line 8
     invoke-interface {p1, v2}, Landroidx/sqlite/db/SupportSQLiteProgram;->bindNull(I)V
 
     goto :goto_2
 
-    .line 9
     :cond_2
     invoke-interface {p1, v2, v1}, Landroidx/sqlite/db/SupportSQLiteProgram;->bindString(ILjava/lang/String;)V
 
-    .line 10
     :goto_2
     iget-object v1, p2, Lcom/meitu/template/bean/Chat;->role:Ljava/lang/Integer;
 
@@ -111,12 +100,10 @@
 
     if-nez v1, :cond_3
 
-    .line 11
     invoke-interface {p1, v2}, Landroidx/sqlite/db/SupportSQLiteProgram;->bindNull(I)V
 
     goto :goto_3
 
-    .line 12
     :cond_3
     invoke-virtual {v1}, Ljava/lang/Integer;->intValue()I
 
@@ -126,7 +113,6 @@
 
     invoke-interface {p1, v2, v3, v4}, Landroidx/sqlite/db/SupportSQLiteProgram;->bindLong(IJ)V
 
-    .line 13
     :goto_3
     iget-object v1, p2, Lcom/meitu/template/bean/Chat;->time:Ljava/lang/String;
 
@@ -134,16 +120,13 @@
 
     if-nez v1, :cond_4
 
-    .line 14
     invoke-interface {p1, v2}, Landroidx/sqlite/db/SupportSQLiteProgram;->bindNull(I)V
 
     goto :goto_4
 
-    .line 15
     :cond_4
     invoke-interface {p1, v2, v1}, Landroidx/sqlite/db/SupportSQLiteProgram;->bindString(ILjava/lang/String;)V
 
-    .line 16
     :goto_4
     iget-object v1, p2, Lcom/meitu/template/bean/Chat;->chatFail:Ljava/lang/Boolean;
 
@@ -167,12 +150,10 @@
 
     if-nez v1, :cond_6
 
-    .line 17
     invoke-interface {p1, v2}, Landroidx/sqlite/db/SupportSQLiteProgram;->bindNull(I)V
 
     goto :goto_6
 
-    .line 18
     :cond_6
     invoke-virtual {v1}, Ljava/lang/Integer;->intValue()I
 
@@ -182,7 +163,6 @@
 
     invoke-interface {p1, v2, v3, v4}, Landroidx/sqlite/db/SupportSQLiteProgram;->bindLong(IJ)V
 
-    .line 19
     :goto_6
     iget-object v1, p2, Lcom/meitu/template/bean/Chat;->image:Ljava/lang/String;
 
@@ -190,16 +170,13 @@
 
     if-nez v1, :cond_7
 
-    .line 20
     invoke-interface {p1, v2}, Landroidx/sqlite/db/SupportSQLiteProgram;->bindNull(I)V
 
     goto :goto_7
 
-    .line 21
     :cond_7
     invoke-interface {p1, v2, v1}, Landroidx/sqlite/db/SupportSQLiteProgram;->bindString(ILjava/lang/String;)V
 
-    .line 22
     :goto_7
     iget-object v1, p2, Lcom/meitu/template/bean/Chat;->hasimg:Ljava/lang/Integer;
 
@@ -207,12 +184,10 @@
 
     if-nez v1, :cond_8
 
-    .line 23
     invoke-interface {p1, v2}, Landroidx/sqlite/db/SupportSQLiteProgram;->bindNull(I)V
 
     goto :goto_8
 
-    .line 24
     :cond_8
     invoke-virtual {v1}, Ljava/lang/Integer;->intValue()I
 
@@ -222,7 +197,6 @@
 
     invoke-interface {p1, v2, v3, v4}, Landroidx/sqlite/db/SupportSQLiteProgram;->bindLong(IJ)V
 
-    .line 25
     :goto_8
     iget-object v1, p2, Lcom/meitu/template/bean/Chat;->uploadState:Ljava/lang/Integer;
 
@@ -230,12 +204,10 @@
 
     if-nez v1, :cond_9
 
-    .line 26
     invoke-interface {p1, v2}, Landroidx/sqlite/db/SupportSQLiteProgram;->bindNull(I)V
 
     goto :goto_9
 
-    .line 27
     :cond_9
     invoke-virtual {v1}, Ljava/lang/Integer;->intValue()I
 
@@ -245,7 +217,6 @@
 
     invoke-interface {p1, v2, v3, v4}, Landroidx/sqlite/db/SupportSQLiteProgram;->bindLong(IJ)V
 
-    .line 28
     :goto_9
     iget-object p2, p2, Lcom/meitu/template/bean/Chat;->id:Ljava/lang/Float;
 
@@ -253,12 +224,10 @@
 
     if-nez p2, :cond_a
 
-    .line 29
     invoke-interface {p1, v1}, Landroidx/sqlite/db/SupportSQLiteProgram;->bindNull(I)V
 
     goto :goto_a
 
-    .line 30
     :cond_a
     invoke-virtual {p2}, Ljava/lang/Float;->floatValue()F
 
@@ -268,7 +237,6 @@
 
     invoke-interface {p1, v1, v2, v3}, Landroidx/sqlite/db/SupportSQLiteProgram;->bindDouble(ID)V
 
-    .line 31
     :goto_a
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -282,7 +250,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p2, Lcom/meitu/template/bean/Chat;
 
     invoke-virtual {p0, p1, p2}, Lf/k/i0/a/i$c;->a(Landroidx/sqlite/db/SupportSQLiteStatement;Lcom/meitu/template/bean/Chat;)V
@@ -299,7 +266,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const-string v0, "UPDATE OR ABORT `CHAT` SET `ID` = ?,`UID` = ?,`CONTENT` = ?,`ROLE` = ?,`TIME` = ?,`CHAT_FAIL` = ?,`IMAGE` = ?,`HASIMG` = ?,`UPLOAD_STATE` = ? WHERE `ID` = ?"

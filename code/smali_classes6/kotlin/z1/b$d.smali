@@ -55,7 +55,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcotlin/z1/b$d;->a:Lcotlin/jvm/u/l;
 
     invoke-interface {v0, p2}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;

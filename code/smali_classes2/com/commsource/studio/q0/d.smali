@@ -44,22 +44,18 @@
 
     sget v0, Lcom/res/provider/ResLAYOUT;->item_studio_recipe:I
 
-    .line 1
     invoke-direct {p0, p1, p2, v0}, Lcom/commsource/widget/h1/f;-><init>(Landroid/content/Context;Landroid/view/ViewGroup;I)V
 
-    .line 2
     iget-object p1, p0, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->itemView:Landroid/view/View;
 
     invoke-static {p1}, Lcom/commsource/beautyplus/f0/sj;->a(Landroid/view/View;)Lcom/commsource/beautyplus/f0/sj;
 
     move-result-object p1
 
-    .line 3
     invoke-virtual {p1}, Landroidx/databinding/ViewDataBinding;->executePendingBindings()V
 
     const-string p2, "ItemStudioRecipeBinding.\u2026tePendingBindings()\n    }"
 
-    .line 4
     invoke-static {p1, p2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     iput-object p1, p0, Lcom/commsource/studio/q0/d;->p:Lcom/commsource/beautyplus/f0/sj;
@@ -99,10 +95,8 @@
 
     invoke-static {p2, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-super {p0, p1, p2, p3}, Lcom/commsource/widget/h1/f;->k(ILcom/commsource/widget/h1/d;Ljava/util/List;)V
 
-    .line 2
     invoke-virtual {p2}, Lcom/commsource/widget/h1/d;->b()Ljava/lang/Object;
 
     move-result-object p3
@@ -125,7 +119,6 @@
 
     if-eqz p3, :cond_0
 
-    .line 3
     iget-object p1, p0, Lcom/commsource/studio/q0/d;->p:Lcom/commsource/beautyplus/f0/sj;
 
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/sj;->b:Lcom/commsource/widget/AutoFitTextView;
@@ -136,7 +129,6 @@
 
     invoke-virtual {p1, p2}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 4
     iget-object p1, p0, Lcom/commsource/studio/q0/d;->p:Lcom/commsource/beautyplus/f0/sj;
 
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/sj;->a:Landroid/widget/ImageView;
@@ -147,7 +139,6 @@
 
     invoke-static {p1, p2}, Lcom/commsource/util/l0;->X(Landroid/view/View;I)V
 
-    .line 5
     iget-object p1, p0, Lcom/commsource/studio/q0/d;->p:Lcom/commsource/beautyplus/f0/sj;
 
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/sj;->a:Landroid/widget/ImageView;
@@ -158,7 +149,6 @@
 
     goto :goto_0
 
-    .line 6
     :cond_0
     iget-object p3, p0, Lcom/commsource/studio/q0/d;->p:Lcom/commsource/beautyplus/f0/sj;
 
@@ -182,7 +172,6 @@
 
     invoke-virtual {p3, p2}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 7
     iget-object p2, p0, Lcom/commsource/studio/q0/d;->p:Lcom/commsource/beautyplus/f0/sj;
 
     iget-object p2, p2, Lcom/commsource/beautyplus/f0/sj;->a:Landroid/widget/ImageView;
@@ -197,7 +186,6 @@
 
     invoke-static {p2, p1}, Lcom/commsource/util/l0;->X(Landroid/view/View;I)V
 
-    .line 8
     iget-object p1, p0, Lcom/commsource/studio/q0/d;->p:Lcom/commsource/beautyplus/f0/sj;
 
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/sj;->a:Landroid/widget/ImageView;
@@ -206,7 +194,6 @@
 
     invoke-virtual {p1, p2}, Landroid/widget/ImageView;->setImageDrawable(Landroid/graphics/drawable/Drawable;)V
 
-    .line 9
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -222,7 +209,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/q0/d;->p:Lcom/commsource/beautyplus/f0/sj;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

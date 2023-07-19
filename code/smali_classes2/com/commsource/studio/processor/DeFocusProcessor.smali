@@ -20,12 +20,10 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/studio/processor/BaseEffectProcessor;-><init>()V
 
     const/4 v0, 0x1
 
-    .line 2
     iput-boolean v0, p0, Lcom/commsource/studio/processor/DeFocusProcessor;->N:Z
 
     return-void
@@ -38,7 +36,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/processor/DeFocusProcessor;->M:Landroid/graphics/Bitmap;
 
     const-string v2, "oriBitmap"
@@ -67,7 +64,6 @@
 
     move-result-object v1
 
-    .line 2
     new-instance v2, Lcom/meitu/core/types/NativeCanvas;
 
     invoke-direct {v2, v1}, Lcom/meitu/core/types/NativeCanvas;-><init>(Lcom/meitu/core/types/NativeBitmap;)V
@@ -76,17 +72,14 @@
 
     invoke-virtual {v2, p1, v3, v3}, Lcom/meitu/core/types/NativeCanvas;->drawBitmap(Landroid/graphics/Bitmap;Landroid/graphics/RectF;Landroid/graphics/RectF;)Z
 
-    .line 3
     invoke-virtual {v1}, Lcom/meitu/core/types/NativeBitmap;->getImage()Landroid/graphics/Bitmap;
 
     move-result-object p1
 
-    .line 4
     invoke-virtual {v1}, Lcom/meitu/core/types/NativeBitmap;->recycle()V
 
     const-string v1, "result"
 
-    .line 5
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -101,7 +94,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/processor/DeFocusProcessor;->M:Landroid/graphics/Bitmap;
 
     const-string v2, "oriBitmap"
@@ -130,7 +122,6 @@
 
     move-result-object v1
 
-    .line 2
     new-instance v2, Lcom/meitu/core/types/NativeCanvas;
 
     invoke-direct {v2, v1}, Lcom/meitu/core/types/NativeCanvas;-><init>(Lcom/meitu/core/types/NativeBitmap;)V
@@ -141,7 +132,6 @@
 
     const-string p1, "NativeBitmap.createBitma\u2026ap, null, null)\n        }"
 
-    .line 3
     invoke-static {v1, p1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -156,7 +146,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0, p4, p5, p6}, Lcom/commsource/studio/processor/DeFocusProcessor;->S(III)I
 
     move-result p4
@@ -169,14 +158,12 @@
 
     const/4 p5, 0x0
 
-    .line 2
     invoke-static {p1, p5, p4}, Lcom/meitu/core/processor/BlurProcessor;->motionBlur(Lcom/meitu/core/types/NativeBitmap;FI)Z
 
     move-result p4
 
     if-eqz p4, :cond_0
 
-    .line 3
     invoke-direct {p0, p3}, Lcom/commsource/studio/processor/DeFocusProcessor;->Q(Landroid/graphics/Bitmap;)V
 
     const/high16 v4, 0x3f800000    # 1.0f
@@ -191,7 +178,6 @@
 
     move-object v3, p3
 
-    .line 4
     :try_start_0
     invoke-static/range {v1 .. v6}, Lcom/meitu/core/util/MixingUtil;->mixingWidthMaskNew(Lcom/meitu/core/types/NativeBitmap;Lcom/meitu/core/types/NativeBitmap;Landroid/graphics/Bitmap;FIZ)Z
 
@@ -204,10 +190,8 @@
     :catch_0
     move-exception p1
 
-    .line 5
     invoke-virtual {p1}, Ljava/lang/Exception;->printStackTrace()V
 
-    .line 6
     :cond_0
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -222,7 +206,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0, p4, p5, p6}, Lcom/commsource/studio/processor/DeFocusProcessor;->S(III)I
 
     move-result p4
@@ -233,7 +216,6 @@
 
     div-float/2addr p4, p5
 
-    .line 2
     invoke-virtual {p1}, Lcom/meitu/core/types/NativeBitmap;->getWidth()I
 
     move-result p5
@@ -252,14 +234,12 @@
 
     float-to-int p4, p4
 
-    .line 3
     invoke-static {p1, p4}, Lcom/meitu/core/processor/BlurProcessor;->mosaicBlock(Lcom/meitu/core/types/NativeBitmap;I)Z
 
     move-result p4
 
     if-eqz p4, :cond_1
 
-    .line 4
     invoke-virtual {p0}, Lcom/commsource/studio/processor/BaseEffectProcessor;->d()Lcom/commsource/studio/o;
 
     move-result-object p5
@@ -280,10 +260,8 @@
 
     const/16 p5, 0x96
 
-    .line 5
     invoke-static {p3, p5}, Lcom/meitu/core/processor/ImageSegment;->processMaskToAlphaByColor(Landroid/graphics/Bitmap;I)V
 
-    .line 6
     :cond_0
     invoke-direct {p0, p3}, Lcom/commsource/studio/processor/DeFocusProcessor;->Q(Landroid/graphics/Bitmap;)V
 
@@ -299,7 +277,6 @@
 
     move-object v3, p3
 
-    .line 7
     :try_start_0
     invoke-static/range {v1 .. v6}, Lcom/meitu/core/util/MixingUtil;->mixingWidthMaskNew(Lcom/meitu/core/types/NativeBitmap;Lcom/meitu/core/types/NativeBitmap;Landroid/graphics/Bitmap;FIZ)Z
 
@@ -312,10 +289,8 @@
     :catch_0
     move-exception p1
 
-    .line 8
     invoke-virtual {p1}, Ljava/lang/Exception;->printStackTrace()V
 
-    .line 9
     :cond_1
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -330,7 +305,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p2}, Lcom/meitu/core/types/FaceData;->getFaceCount()I
 
     move-result v1
@@ -363,7 +337,6 @@
 
     move/from16 v9, p8
 
-    .line 2
     invoke-static/range {v2 .. v9}, Lcom/meitu/core/processor/BlurProcessor;->defocus(Lcom/meitu/core/types/NativeBitmap;Lcom/meitu/core/types/FaceData;Lcom/meitu/core/types/NativeBitmap;Ljava/lang/String;Ljava/lang/String;IFI)Z
 
     move-result v1
@@ -380,7 +353,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0, p4, p5, p6}, Lcom/commsource/studio/processor/DeFocusProcessor;->S(III)I
 
     move-result p4
@@ -393,14 +365,12 @@
 
     double-to-int p4, p4
 
-    .line 2
     invoke-static {p1, p4}, Lcom/meitu/core/processor/BlurProcessor;->radiusZoomBlur(Lcom/meitu/core/types/NativeBitmap;I)Z
 
     move-result p4
 
     if-eqz p4, :cond_0
 
-    .line 3
     invoke-direct {p0, p3}, Lcom/commsource/studio/processor/DeFocusProcessor;->Q(Landroid/graphics/Bitmap;)V
 
     const/high16 v4, 0x3f800000    # 1.0f
@@ -415,7 +385,6 @@
 
     move-object v3, p3
 
-    .line 4
     :try_start_0
     invoke-static/range {v1 .. v6}, Lcom/meitu/core/util/MixingUtil;->mixingWidthMaskNew(Lcom/meitu/core/types/NativeBitmap;Lcom/meitu/core/types/NativeBitmap;Landroid/graphics/Bitmap;FIZ)Z
 
@@ -428,10 +397,8 @@
     :catch_0
     move-exception p1
 
-    .line 5
     invoke-virtual {p1}, Ljava/lang/Exception;->printStackTrace()V
 
-    .line 6
     :cond_0
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -446,7 +413,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0, p4, p5, p6}, Lcom/commsource/studio/processor/DeFocusProcessor;->R(III)F
 
     move-result p4
@@ -461,7 +427,6 @@
 
     const/16 v1, 0xff
 
-    .line 2
     invoke-static {p3, p5, p6, v1}, Lcom/meitu/core/processor/MteBaseEffectUtil;->CASDA(Landroid/graphics/Bitmap;III)Z
 
     move-result p5
@@ -470,7 +435,6 @@
 
     const/16 p5, 0xa
 
-    .line 3
     invoke-static {p3, p5}, Lcom/meitu/core/processor/BlurProcessor;->stackBlur_bitmap(Landroid/graphics/Bitmap;I)Z
 
     move-result p5
@@ -480,7 +444,6 @@
 
     float-to-int p4, p4
 
-    .line 4
     invoke-static {p2, p4}, Lcom/meitu/core/processor/BlurProcessor;->stackBlur(Lcom/meitu/core/types/NativeBitmap;I)Z
 
     move-result p5
@@ -500,12 +463,10 @@
 
     move-object v3, p3
 
-    .line 5
     invoke-static/range {v1 .. v6}, Lcom/meitu/core/util/MixingUtil;->mixingWidthMaskNew(Lcom/meitu/core/types/NativeBitmap;Lcom/meitu/core/types/NativeBitmap;Landroid/graphics/Bitmap;FIZ)Z
 
     move-result p5
 
-    .line 6
     :cond_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -519,7 +480,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p1}, Landroid/graphics/Bitmap;->getWidth()I
 
     move-result v1
@@ -546,7 +506,6 @@
 
     float-to-int v1, v1
 
-    .line 2
     invoke-virtual {p1}, Landroid/graphics/Bitmap;->getWidth()I
 
     move-result v3
@@ -571,10 +530,8 @@
 
     float-to-int v1, v3
 
-    .line 3
     invoke-static {p1, v1}, Lcom/meitu/core/processor/MteBaseEffectUtil;->minFilter(Landroid/graphics/Bitmap;I)Z
 
-    .line 4
     invoke-virtual {p1}, Landroid/graphics/Bitmap;->getWidth()I
 
     move-result v1
@@ -599,7 +556,6 @@
 
     float-to-int v1, v1
 
-    .line 5
     invoke-virtual {p1}, Landroid/graphics/Bitmap;->getWidth()I
 
     move-result v2
@@ -624,10 +580,8 @@
 
     const/4 v2, 0x1
 
-    .line 6
     invoke-static {p1, v1, v2}, Lcom/meitu/core/processor/BlurProcessor;->stackBlur_bitmap(Landroid/graphics/Bitmap;IZ)Z
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -660,7 +614,6 @@
 
     add-float/2addr p1, p2
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
@@ -695,7 +648,6 @@
 
     float-to-int p1, p1
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
@@ -712,7 +664,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/processor/DeFocusProcessor;->M:Landroid/graphics/Bitmap;
 
     if-nez v1, :cond_0
@@ -734,7 +685,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/studio/processor/DeFocusProcessor;->N:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -757,7 +707,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/processor/DeFocusProcessor;->M:Landroid/graphics/Bitmap;
 
     if-nez v1, :cond_0
@@ -771,12 +720,10 @@
 
     move-result-object v1
 
-    .line 2
     invoke-virtual {v1}, Lcom/meitu/core/types/NativeBitmap;->copy()Lcom/meitu/core/types/NativeBitmap;
 
     move-result-object v2
 
-    .line 3
     invoke-direct {p0, p1}, Lcom/commsource/studio/processor/DeFocusProcessor;->J(Landroid/graphics/Bitmap;)Landroid/graphics/Bitmap;
 
     move-result-object v6
@@ -793,12 +740,10 @@
 
     move v9, p4
 
-    .line 4
     invoke-direct/range {v3 .. v9}, Lcom/commsource/studio/processor/DeFocusProcessor;->L(Lcom/meitu/core/types/NativeBitmap;Lcom/meitu/core/types/NativeBitmap;Landroid/graphics/Bitmap;III)Z
 
     const-string p1, "resultBitmap"
 
-    .line 5
     invoke-static {v2, p1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v2}, Lcom/meitu/core/types/NativeBitmap;->getImage()Landroid/graphics/Bitmap;
@@ -811,13 +756,10 @@
 
     invoke-static {p1, p2}, Lcom/commsource/easyeditor/utils/opengl/n;->e(Landroid/graphics/Bitmap;Lcom/commsource/easyeditor/utils/opengl/f;)V
 
-    .line 6
     invoke-virtual {v1}, Lcom/meitu/core/types/NativeBitmap;->recycle()V
 
-    .line 7
     invoke-virtual {v2}, Lcom/meitu/core/types/NativeBitmap;->recycle()V
 
-    .line 8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -838,7 +780,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/processor/DeFocusProcessor;->M:Landroid/graphics/Bitmap;
 
     if-nez v1, :cond_0
@@ -852,19 +793,16 @@
 
     move-result-object v1
 
-    .line 2
     invoke-virtual {v1}, Lcom/meitu/core/types/NativeBitmap;->copy()Lcom/meitu/core/types/NativeBitmap;
 
     move-result-object v2
 
-    .line 3
     invoke-direct {p0, p1}, Lcom/commsource/studio/processor/DeFocusProcessor;->J(Landroid/graphics/Bitmap;)Landroid/graphics/Bitmap;
 
     move-result-object v6
 
     const-string p1, "resultBitmap"
 
-    .line 4
     invoke-static {v2, p1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     move-object v3, p0
@@ -881,7 +819,6 @@
 
     invoke-direct/range {v3 .. v9}, Lcom/commsource/studio/processor/DeFocusProcessor;->M(Lcom/meitu/core/types/NativeBitmap;Lcom/meitu/core/types/NativeBitmap;Landroid/graphics/Bitmap;III)Z
 
-    .line 5
     invoke-virtual {v2}, Lcom/meitu/core/types/NativeBitmap;->getImage()Landroid/graphics/Bitmap;
 
     move-result-object p1
@@ -892,13 +829,10 @@
 
     invoke-static {p1, p2}, Lcom/commsource/easyeditor/utils/opengl/n;->e(Landroid/graphics/Bitmap;Lcom/commsource/easyeditor/utils/opengl/f;)V
 
-    .line 6
     invoke-virtual {v1}, Lcom/meitu/core/types/NativeBitmap;->recycle()V
 
-    .line 7
     invoke-virtual {v2}, Lcom/meitu/core/types/NativeBitmap;->recycle()V
 
-    .line 8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -943,7 +877,6 @@
 
     move-object v1, p0
 
-    .line 1
     iget-object v3, v1, Lcom/commsource/studio/processor/DeFocusProcessor;->M:Landroid/graphics/Bitmap;
 
     if-nez v3, :cond_0
@@ -957,14 +890,12 @@
 
     move-result-object v11
 
-    .line 2
     invoke-direct {p0, p1}, Lcom/commsource/studio/processor/DeFocusProcessor;->K(Landroid/graphics/Bitmap;)Lcom/meitu/core/types/NativeBitmap;
 
     move-result-object v12
 
     const-string v2, "resultBitmap"
 
-    .line 3
     invoke-static {v11, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {p0}, Lcom/commsource/studio/processor/BaseEffectProcessor;->d()Lcom/commsource/studio/o;
@@ -1001,7 +932,6 @@
 
     invoke-direct/range {v2 .. v10}, Lcom/commsource/studio/processor/DeFocusProcessor;->N(Lcom/meitu/core/types/NativeBitmap;Lcom/meitu/core/types/FaceData;Lcom/meitu/core/types/NativeBitmap;Ljava/lang/String;Ljava/lang/String;IFI)Z
 
-    .line 4
     invoke-virtual {v11}, Lcom/meitu/core/types/NativeBitmap;->getImage()Landroid/graphics/Bitmap;
 
     move-result-object v2
@@ -1012,13 +942,10 @@
 
     invoke-static {v2, v3}, Lcom/commsource/easyeditor/utils/opengl/n;->e(Landroid/graphics/Bitmap;Lcom/commsource/easyeditor/utils/opengl/f;)V
 
-    .line 5
     invoke-virtual {v11}, Lcom/meitu/core/types/NativeBitmap;->recycle()V
 
-    .line 6
     invoke-virtual {v12}, Lcom/meitu/core/types/NativeBitmap;->recycle()V
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1039,7 +966,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/processor/DeFocusProcessor;->M:Landroid/graphics/Bitmap;
 
     if-nez v1, :cond_0
@@ -1053,12 +979,10 @@
 
     move-result-object v1
 
-    .line 2
     invoke-virtual {v1}, Lcom/meitu/core/types/NativeBitmap;->copy()Lcom/meitu/core/types/NativeBitmap;
 
     move-result-object v2
 
-    .line 3
     invoke-direct {p0, p1}, Lcom/commsource/studio/processor/DeFocusProcessor;->J(Landroid/graphics/Bitmap;)Landroid/graphics/Bitmap;
 
     move-result-object v6
@@ -1075,12 +999,10 @@
 
     move v9, p4
 
-    .line 4
     invoke-direct/range {v3 .. v9}, Lcom/commsource/studio/processor/DeFocusProcessor;->O(Lcom/meitu/core/types/NativeBitmap;Lcom/meitu/core/types/NativeBitmap;Landroid/graphics/Bitmap;III)Z
 
     const-string p1, "resultBitmap"
 
-    .line 5
     invoke-static {v2, p1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v2}, Lcom/meitu/core/types/NativeBitmap;->getImage()Landroid/graphics/Bitmap;
@@ -1093,13 +1015,10 @@
 
     invoke-static {p1, p2}, Lcom/commsource/easyeditor/utils/opengl/n;->e(Landroid/graphics/Bitmap;Lcom/commsource/easyeditor/utils/opengl/f;)V
 
-    .line 6
     invoke-virtual {v1}, Lcom/meitu/core/types/NativeBitmap;->recycle()V
 
-    .line 7
     invoke-virtual {v2}, Lcom/meitu/core/types/NativeBitmap;->recycle()V
 
-    .line 8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1120,7 +1039,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/processor/DeFocusProcessor;->M:Landroid/graphics/Bitmap;
 
     if-nez v1, :cond_0
@@ -1134,12 +1052,10 @@
 
     move-result-object v1
 
-    .line 2
     invoke-virtual {v1}, Lcom/meitu/core/types/NativeBitmap;->copy()Lcom/meitu/core/types/NativeBitmap;
 
     move-result-object v2
 
-    .line 3
     invoke-direct {p0, p1}, Lcom/commsource/studio/processor/DeFocusProcessor;->J(Landroid/graphics/Bitmap;)Landroid/graphics/Bitmap;
 
     move-result-object v6
@@ -1156,15 +1072,12 @@
 
     move v9, p4
 
-    .line 4
     invoke-direct/range {v3 .. v9}, Lcom/commsource/studio/processor/DeFocusProcessor;->P(Lcom/meitu/core/types/NativeBitmap;Lcom/meitu/core/types/NativeBitmap;Landroid/graphics/Bitmap;III)Z
 
-    .line 5
     invoke-virtual {v1}, Lcom/meitu/core/types/NativeBitmap;->recycle()V
 
     const-string p1, "resultBitmap"
 
-    .line 6
     invoke-static {v2, p1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v2}, Lcom/meitu/core/types/NativeBitmap;->getImage()Landroid/graphics/Bitmap;
@@ -1177,10 +1090,8 @@
 
     invoke-static {p1, p2}, Lcom/commsource/easyeditor/utils/opengl/n;->e(Landroid/graphics/Bitmap;Lcom/commsource/easyeditor/utils/opengl/f;)V
 
-    .line 7
     invoke-virtual {v2}, Lcom/meitu/core/types/NativeBitmap;->recycle()V
 
-    .line 8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1193,10 +1104,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0}, Lcom/commsource/studio/processor/BaseEffectProcessor;->a()V
 
-    .line 2
     invoke-virtual {p0}, Lcom/commsource/studio/processor/BaseEffectProcessor;->n()Lcom/commsource/easyeditor/utils/opengl/f;
 
     move-result-object v1
@@ -1211,7 +1120,6 @@
 
     iput-object v1, p0, Lcom/commsource/studio/processor/DeFocusProcessor;->M:Landroid/graphics/Bitmap;
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1224,7 +1132,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/studio/processor/DeFocusProcessor;->N:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1247,7 +1154,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/processor/DeFocusProcessor;->M:Landroid/graphics/Bitmap;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1262,14 +1168,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/commsource/studio/processor/DeFocusProcessor$showOri$1;
 
     invoke-direct {v1, p0}, Lcom/commsource/studio/processor/DeFocusProcessor$showOri$1;-><init>(Lcom/commsource/studio/processor/DeFocusProcessor;)V
 
     invoke-virtual {p0, v1}, Lcom/commsource/studio/processor/BaseEffectProcessor;->q(Lcotlin/jvm/u/a;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

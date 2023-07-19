@@ -54,7 +54,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/camera/xcamera/cover/window/H5Cover$b;->a:Lcom/commsource/camera/xcamera/cover/window/H5Cover;
 
     invoke-virtual {v0}, Lcom/commsource/camera/xcamera/cover/window/H5Cover;->R()Lcom/commsource/camera/xcamera/cover/CameraConfigViewModel;
@@ -75,7 +74,6 @@
 
     move-result v0
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/window/H5Cover$b;->a:Lcom/commsource/camera/xcamera/cover/window/H5Cover;
 
     invoke-virtual {v1}, Lcom/commsource/camera/xcamera/cover/window/H5Cover;->L()Lcom/commsource/camera/f1/n;
@@ -84,7 +82,6 @@
 
     invoke-virtual {v1, v0}, Lcom/commsource/camera/f1/n;->i(F)V
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/window/H5Cover$b;->a:Lcom/commsource/camera/xcamera/cover/window/H5Cover;
 
     invoke-virtual {v1}, Lcom/commsource/camera/xcamera/cover/AbsLazyCover;->A()Landroidx/databinding/ViewDataBinding;
@@ -101,7 +98,6 @@
 
     invoke-virtual {v1, v0}, Landroid/widget/ImageView;->setTranslationY(F)V
 
-    .line 4
     :cond_0
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -115,7 +111,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Lcom/commsource/camera/xcamera/cover/bottomFunction/b$b;
 
     invoke-virtual {p0, p1}, Lcom/commsource/camera/xcamera/cover/window/H5Cover$b;->a(Lcom/commsource/camera/xcamera/cover/bottomFunction/b$b;)V

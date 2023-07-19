@@ -11,7 +11,6 @@
 .method public constructor <init>(II)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1, p2}, Lcom/commsource/studio/r0/v;-><init>(II)V
 
     return-void
@@ -42,7 +41,6 @@
 
     invoke-static {p2, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     const-class p2, Lcom/commsource/camera/d1/g/j;
 
     invoke-virtual {p0, p2}, Lcom/commsource/camera/newrender/renderproxy/n;->c(Ljava/lang/Class;)Ljava/lang/Object;
@@ -53,7 +51,6 @@
 
     if-eqz p2, :cond_0
 
-    .line 2
     invoke-static {p1}, Lcom/commsource/easyeditor/utils/opengl/n;->r(Lcom/commsource/easyeditor/utils/opengl/f;)Landroid/graphics/Bitmap;
 
     move-result-object p1
@@ -62,7 +59,6 @@
 
     move-result-object p1
 
-    .line 3
     invoke-virtual {p2}, Lcom/commsource/camera/d1/g/j;->i()Lcom/meitu/core/types/FaceData;
 
     move-result-object v1
@@ -75,7 +71,6 @@
 
     invoke-static {p1, v1, p2, v2}, Lcom/meitu/core/processor/EyeBrightProcessor;->autoBrightEyeOstu(Lcom/meitu/core/types/NativeBitmap;Lcom/meitu/core/types/FaceData;Lcom/meitu/core/face/InterPoint;F)Z
 
-    .line 4
     invoke-virtual {p1}, Lcom/meitu/core/types/NativeBitmap;->getImage()Landroid/graphics/Bitmap;
 
     move-result-object p2
@@ -86,10 +81,8 @@
 
     invoke-static {p2, v1}, Lcom/commsource/easyeditor/utils/opengl/n;->e(Landroid/graphics/Bitmap;Lcom/commsource/easyeditor/utils/opengl/f;)V
 
-    .line 5
     invoke-virtual {p1}, Lcom/meitu/core/types/NativeBitmap;->recycle()V
 
-    .line 6
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

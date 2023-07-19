@@ -56,55 +56,44 @@
 .method public constructor <init>()V
     .locals 4
 
-    .line 1
     invoke-direct {p0}, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineOption;-><init>()V
 
     const-wide/16 v0, 0x0
 
-    .line 2
     iput-wide v0, p0, Lcom/meitu/mtlab/MTAiInterface/MT3DFaceModule/MT3DFaceOption;->mNativeInstance:J
 
     const/4 v2, 0x0
 
-    .line 3
     iput v2, p0, Lcom/meitu/mtlab/MTAiInterface/MT3DFaceModule/MT3DFaceOption;->MaxFaceCountFor2D:I
 
     const/4 v3, 0x2
 
-    .line 4
     iput v3, p0, Lcom/meitu/mtlab/MTAiInterface/MT3DFaceModule/MT3DFaceOption;->Reconstruct2DMode:I
 
-    .line 5
     iput v2, p0, Lcom/meitu/mtlab/MTAiInterface/MT3DFaceModule/MT3DFaceOption;->MaxFaceCountFor3D:I
 
     const/4 v3, 0x3
 
-    .line 6
     iput v3, p0, Lcom/meitu/mtlab/MTAiInterface/MT3DFaceModule/MT3DFaceOption;->SmoothModel:I
 
     const/4 v3, 0x0
 
-    .line 7
     iput-object v3, p0, Lcom/meitu/mtlab/MTAiInterface/MT3DFaceModule/MT3DFaceOption;->vecIdentityParam:[F
 
-    .line 8
     iput-boolean v2, p0, Lcom/meitu/mtlab/MTAiInterface/MT3DFaceModule/MT3DFaceOption;->FullHead:Z
 
     const/high16 v2, 0x41400000    # 12.0f
 
-    .line 9
     iput v2, p0, Lcom/meitu/mtlab/MTAiInterface/MT3DFaceModule/MT3DFaceOption;->fovAngle:F
 
     const/4 v2, 0x1
 
-    .line 10
     iput v2, p0, Lcom/meitu/mtlab/MTAiInterface/MT3DFaceModule/MT3DFaceOption;->SmoothFrame:I
 
     cmp-long v2, v0, v0
 
     if-nez v2, :cond_0
 
-    .line 11
     invoke-static {}, Lcom/meitu/mtlab/MTAiInterface/MT3DFaceModule/MT3DFaceOption;->nativeCreateInstance()J
 
     move-result-wide v0
@@ -165,51 +154,40 @@
 
     const-wide/16 v1, 0x0
 
-    .line 1
     iput-wide v1, p0, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineOption;->option:J
 
-    .line 2
     iget-wide v1, p0, Lcom/meitu/mtlab/MTAiInterface/MT3DFaceModule/MT3DFaceOption;->mNativeInstance:J
 
     invoke-static {v1, v2}, Lcom/meitu/mtlab/MTAiInterface/MT3DFaceModule/MT3DFaceOption;->nativeClearOption(J)V
 
     const/4 v1, 0x0
 
-    .line 3
     iput v1, p0, Lcom/meitu/mtlab/MTAiInterface/MT3DFaceModule/MT3DFaceOption;->MaxFaceCountFor2D:I
 
     const/4 v2, 0x2
 
-    .line 4
     iput v2, p0, Lcom/meitu/mtlab/MTAiInterface/MT3DFaceModule/MT3DFaceOption;->Reconstruct2DMode:I
 
-    .line 5
     iput v1, p0, Lcom/meitu/mtlab/MTAiInterface/MT3DFaceModule/MT3DFaceOption;->MaxFaceCountFor3D:I
 
     const/4 v2, 0x3
 
-    .line 6
     iput v2, p0, Lcom/meitu/mtlab/MTAiInterface/MT3DFaceModule/MT3DFaceOption;->SmoothModel:I
 
     const/4 v2, 0x0
 
-    .line 7
     iput-object v2, p0, Lcom/meitu/mtlab/MTAiInterface/MT3DFaceModule/MT3DFaceOption;->vecIdentityParam:[F
 
-    .line 8
     iput-boolean v1, p0, Lcom/meitu/mtlab/MTAiInterface/MT3DFaceModule/MT3DFaceOption;->FullHead:Z
 
     const/high16 v1, 0x41400000    # 12.0f
 
-    .line 9
     iput v1, p0, Lcom/meitu/mtlab/MTAiInterface/MT3DFaceModule/MT3DFaceOption;->fovAngle:F
 
     const/4 v1, 0x1
 
-    .line 10
     iput v1, p0, Lcom/meitu/mtlab/MTAiInterface/MT3DFaceModule/MT3DFaceOption;->SmoothFrame:I
 
-    .line 11
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -222,7 +200,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const/16 v0, 0x1c
@@ -242,7 +219,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     :try_start_0
     iget-wide v1, p0, Lcom/meitu/mtlab/MTAiInterface/MT3DFaceModule/MT3DFaceOption;->mNativeInstance:J
 
@@ -250,10 +226,8 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 2
     invoke-super {p0}, Ljava/lang/Object;->finalize()V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -261,10 +235,8 @@
     :catchall_0
     move-exception v1
 
-    .line 4
     invoke-super {p0}, Ljava/lang/Object;->finalize()V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     throw v1
@@ -277,7 +249,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/mtlab/MTAiInterface/MT3DFaceModule/MT3DFaceOption;->mNativeInstance:J
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -292,14 +263,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/mtlab/MTAiInterface/MT3DFaceModule/MT3DFaceOption;->mNativeInstance:J
 
     iget-wide v3, p0, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineOption;->option:J
 
     invoke-static {v1, v2, v3, v4}, Lcom/meitu/mtlab/MTAiInterface/MT3DFaceModule/MT3DFaceOption;->nativeSetOption(JJ)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -312,52 +281,42 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 3
     iget-wide v1, p0, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineOption;->option:J
 
     invoke-static {p1, p2, v1, v2}, Lcom/meitu/mtlab/MTAiInterface/MT3DFaceModule/MT3DFaceOption;->nativeEnable3DFace(JJ)V
 
-    .line 4
     iget v1, p0, Lcom/meitu/mtlab/MTAiInterface/MT3DFaceModule/MT3DFaceOption;->MaxFaceCountFor2D:I
 
     invoke-static {p1, p2, v1}, Lcom/meitu/mtlab/MTAiInterface/MT3DFaceModule/MT3DFaceOption;->nativeSetMaxFaceCountFor2D(JI)V
 
-    .line 5
     iget v1, p0, Lcom/meitu/mtlab/MTAiInterface/MT3DFaceModule/MT3DFaceOption;->Reconstruct2DMode:I
 
     invoke-static {p1, p2, v1}, Lcom/meitu/mtlab/MTAiInterface/MT3DFaceModule/MT3DFaceOption;->nativeSetReconstruct2DMode(JI)V
 
-    .line 6
     iget v1, p0, Lcom/meitu/mtlab/MTAiInterface/MT3DFaceModule/MT3DFaceOption;->MaxFaceCountFor3D:I
 
     invoke-static {p1, p2, v1}, Lcom/meitu/mtlab/MTAiInterface/MT3DFaceModule/MT3DFaceOption;->nativeSetMaxFaceCountFor3D(JI)V
 
-    .line 7
     iget v1, p0, Lcom/meitu/mtlab/MTAiInterface/MT3DFaceModule/MT3DFaceOption;->SmoothModel:I
 
     invoke-static {p1, p2, v1}, Lcom/meitu/mtlab/MTAiInterface/MT3DFaceModule/MT3DFaceOption;->nativeSetSmoothModel(JI)V
 
-    .line 8
     iget-object v1, p0, Lcom/meitu/mtlab/MTAiInterface/MT3DFaceModule/MT3DFaceOption;->vecIdentityParam:[F
 
     invoke-static {p1, p2, v1}, Lcom/meitu/mtlab/MTAiInterface/MT3DFaceModule/MT3DFaceOption;->nativeSetVecIdentityParam(J[F)V
 
-    .line 9
     iget-boolean v1, p0, Lcom/meitu/mtlab/MTAiInterface/MT3DFaceModule/MT3DFaceOption;->FullHead:Z
 
     invoke-static {p1, p2, v1}, Lcom/meitu/mtlab/MTAiInterface/MT3DFaceModule/MT3DFaceOption;->nativeSetFullHead(JZ)V
 
-    .line 10
     iget v1, p0, Lcom/meitu/mtlab/MTAiInterface/MT3DFaceModule/MT3DFaceOption;->fovAngle:F
 
     invoke-static {p1, p2, v1}, Lcom/meitu/mtlab/MTAiInterface/MT3DFaceModule/MT3DFaceOption;->nativeSetFovAngle(JF)V
 
-    .line 11
     iget v1, p0, Lcom/meitu/mtlab/MTAiInterface/MT3DFaceModule/MT3DFaceOption;->SmoothFrame:I
 
     invoke-static {p1, p2, v1}, Lcom/meitu/mtlab/MTAiInterface/MT3DFaceModule/MT3DFaceOption;->nativeSetSmoothFrame(JI)V
 
-    .line 12
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

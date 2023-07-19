@@ -23,7 +23,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Landroid/content/BroadcastReceiver;-><init>()V
 
     return-void
@@ -38,10 +37,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/shortcut/core/ShortcutAutoCreateBroadcastReceiver;->a:Lcom/meitu/shortcut/core/ShortcutAutoCreateBroadcastReceiver$a;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -54,12 +51,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p2}, Landroid/content/Intent;->getAction()Ljava/lang/String;
 
     move-result-object v1
 
-    .line 2
     new-instance v2, Ljava/lang/StringBuilder;
 
     invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
@@ -80,14 +75,12 @@
 
     const-string v2, "com.shortcut.core.auto_create"
 
-    .line 3
     invoke-virtual {v2, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v1
 
     if-eqz v1, :cond_1
 
-    .line 4
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -116,15 +109,12 @@
 
     invoke-static {v3, v1}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 5
     iget-object v1, p0, Lcom/meitu/shortcut/core/ShortcutAutoCreateBroadcastReceiver;->a:Lcom/meitu/shortcut/core/ShortcutAutoCreateBroadcastReceiver$a;
 
     if-eqz v1, :cond_1
 
-    .line 6
     invoke-interface {v1, p1, p2}, Lcom/meitu/shortcut/core/ShortcutAutoCreateBroadcastReceiver$a;->a(Landroid/content/Context;Landroid/content/Intent;)V
 
-    .line 7
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

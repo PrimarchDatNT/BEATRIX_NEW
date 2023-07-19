@@ -34,7 +34,6 @@
 .method constructor <init>(Lcom/google/common/graph/i;Ljava/util/Iterator;Ljava/util/concurrent/atomic/AtomicBoolean;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/common/graph/i$g;->f:Lcom/google/common/graph/i;
 
     iput-object p2, p0, Lcom/google/common/graph/i$g;->c:Ljava/util/Iterator;
@@ -51,7 +50,6 @@
 .method protected bridge synthetic a()Ljava/lang/Object;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/graph/i$g;->d()Lcom/google/common/graph/m;
 
     move-result-object v0
@@ -69,7 +67,6 @@
         }
     .end annotation
 
-    .line 1
     :cond_0
     iget-object v0, p0, Lcom/google/common/graph/i$g;->c:Ljava/util/Iterator;
 
@@ -79,7 +76,6 @@
 
     if-eqz v0, :cond_2
 
-    .line 2
     iget-object v0, p0, Lcom/google/common/graph/i$g;->c:Ljava/util/Iterator;
 
     invoke-interface {v0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
@@ -88,7 +84,6 @@
 
     check-cast v0, Lcom/google/common/graph/m;
 
-    .line 3
     invoke-virtual {v0}, Lcom/google/common/graph/m;->h()Ljava/lang/Object;
 
     move-result-object v1
@@ -103,7 +98,6 @@
 
     if-eqz v1, :cond_1
 
-    .line 4
     iget-object v1, p0, Lcom/google/common/graph/i$g;->d:Ljava/util/concurrent/atomic/AtomicBoolean;
 
     const/4 v2, 0x1
@@ -117,7 +111,6 @@
     :cond_1
     return-object v0
 
-    .line 5
     :cond_2
     invoke-virtual {p0}, Lcom/google/common/collect/AbstractIterator;->b()Ljava/lang/Object;
 

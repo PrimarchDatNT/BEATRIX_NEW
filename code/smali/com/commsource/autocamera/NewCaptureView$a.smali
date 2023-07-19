@@ -22,7 +22,6 @@
 .method constructor <init>(Lcom/commsource/autocamera/NewCaptureView;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/autocamera/NewCaptureView$a;->a:Lcom/commsource/autocamera/NewCaptureView;
 
     invoke-direct {p0}, Landroid/animation/AnimatorListenerAdapter;-><init>()V
@@ -39,17 +38,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0, p1}, Landroid/animation/AnimatorListenerAdapter;->onAnimationCancel(Landroid/animation/Animator;)V
 
-    .line 2
     iget-object p1, p0, Lcom/commsource/autocamera/NewCaptureView$a;->a:Lcom/commsource/autocamera/NewCaptureView;
 
     const/4 v1, 0x0
 
     invoke-static {p1, v1}, Lcom/commsource/autocamera/NewCaptureView;->a(Lcom/commsource/autocamera/NewCaptureView;Z)Z
 
-    .line 3
     iget-object p1, p0, Lcom/commsource/autocamera/NewCaptureView$a;->a:Lcom/commsource/autocamera/NewCaptureView;
 
     invoke-static {p1}, Lcom/commsource/autocamera/NewCaptureView;->o(Lcom/commsource/autocamera/NewCaptureView;)F
@@ -58,7 +54,6 @@
 
     invoke-static {p1, v1}, Lcom/commsource/autocamera/NewCaptureView;->d(Lcom/commsource/autocamera/NewCaptureView;F)F
 
-    .line 4
     iget-object p1, p0, Lcom/commsource/autocamera/NewCaptureView$a;->a:Lcom/commsource/autocamera/NewCaptureView;
 
     invoke-static {p1}, Lcom/commsource/autocamera/NewCaptureView;->A(Lcom/commsource/autocamera/NewCaptureView;)I
@@ -67,7 +62,6 @@
 
     invoke-static {p1, v1}, Lcom/commsource/autocamera/NewCaptureView;->z(Lcom/commsource/autocamera/NewCaptureView;I)I
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -80,17 +74,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0, p1}, Landroid/animation/AnimatorListenerAdapter;->onAnimationEnd(Landroid/animation/Animator;)V
 
-    .line 2
     iget-object p1, p0, Lcom/commsource/autocamera/NewCaptureView$a;->a:Lcom/commsource/autocamera/NewCaptureView;
 
     const/4 v1, 0x0
 
     invoke-static {p1, v1}, Lcom/commsource/autocamera/NewCaptureView;->a(Lcom/commsource/autocamera/NewCaptureView;Z)Z
 
-    .line 3
     iget-object p1, p0, Lcom/commsource/autocamera/NewCaptureView$a;->a:Lcom/commsource/autocamera/NewCaptureView;
 
     invoke-static {p1}, Lcom/commsource/autocamera/NewCaptureView;->o(Lcom/commsource/autocamera/NewCaptureView;)F
@@ -99,7 +90,6 @@
 
     invoke-static {p1, v1}, Lcom/commsource/autocamera/NewCaptureView;->d(Lcom/commsource/autocamera/NewCaptureView;F)F
 
-    .line 4
     iget-object p1, p0, Lcom/commsource/autocamera/NewCaptureView$a;->a:Lcom/commsource/autocamera/NewCaptureView;
 
     invoke-static {p1}, Lcom/commsource/autocamera/NewCaptureView;->A(Lcom/commsource/autocamera/NewCaptureView;)I
@@ -108,7 +98,6 @@
 
     invoke-static {p1, v1}, Lcom/commsource/autocamera/NewCaptureView;->z(Lcom/commsource/autocamera/NewCaptureView;I)I
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -121,17 +110,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0, p1}, Landroid/animation/AnimatorListenerAdapter;->onAnimationStart(Landroid/animation/Animator;)V
 
-    .line 2
     iget-object p1, p0, Lcom/commsource/autocamera/NewCaptureView$a;->a:Lcom/commsource/autocamera/NewCaptureView;
 
     const/4 v1, 0x1
 
     invoke-static {p1, v1}, Lcom/commsource/autocamera/NewCaptureView;->a(Lcom/commsource/autocamera/NewCaptureView;Z)Z
 
-    .line 3
     iget-object p1, p0, Lcom/commsource/autocamera/NewCaptureView$a;->a:Lcom/commsource/autocamera/NewCaptureView;
 
     invoke-static {p1}, Lcom/commsource/autocamera/NewCaptureView;->b(Lcom/commsource/autocamera/NewCaptureView;)F
@@ -140,7 +126,6 @@
 
     invoke-static {p1, v1}, Lcom/commsource/autocamera/NewCaptureView;->B(Lcom/commsource/autocamera/NewCaptureView;F)F
 
-    .line 4
     iget-object p1, p0, Lcom/commsource/autocamera/NewCaptureView$a;->a:Lcom/commsource/autocamera/NewCaptureView;
 
     invoke-static {p1}, Lcom/commsource/autocamera/NewCaptureView;->D(Lcom/commsource/autocamera/NewCaptureView;)F
@@ -157,7 +142,6 @@
 
     invoke-static {p1, v1}, Lcom/commsource/autocamera/NewCaptureView;->C(Lcom/commsource/autocamera/NewCaptureView;F)F
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

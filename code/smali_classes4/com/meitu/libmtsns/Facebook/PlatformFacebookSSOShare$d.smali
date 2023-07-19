@@ -67,10 +67,8 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Lcom/meitu/libmtsns/Facebook/PlatformFacebookSSOShare$c;-><init>()V
 
-    .line 2
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
@@ -89,7 +87,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const/16 v0, 0x177a
@@ -104,7 +101,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/libmtsns/Facebook/PlatformFacebookSSOShare$d;->m:Ljava/util/List;
 
     invoke-static {v1}, Lcom/meitu/libmtsns/framwork/util/g;->t(Ljava/util/List;)Z
@@ -123,10 +119,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0}, Lcom/meitu/libmtsns/Facebook/PlatformFacebookSSOShare$c;->c()V
 
-    .line 2
     iget-object v1, p0, Lcom/meitu/libmtsns/Facebook/PlatformFacebookSSOShare$d;->k:Landroid/graphics/Bitmap;
 
     if-eqz v1, :cond_0
@@ -137,7 +131,6 @@
 
     if-nez v1, :cond_0
 
-    .line 3
     iget-object v1, p0, Lcom/meitu/libmtsns/Facebook/PlatformFacebookSSOShare$d;->m:Ljava/util/List;
 
     new-instance v2, Lcom/meitu/libmtsns/framwork/i/c;
@@ -148,7 +141,6 @@
 
     invoke-interface {v1, v2}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
-    .line 4
     :cond_0
     iget-object v1, p0, Lcom/meitu/libmtsns/Facebook/PlatformFacebookSSOShare$d;->j:Ljava/util/ArrayList;
 
@@ -160,7 +152,6 @@
 
     if-nez v1, :cond_2
 
-    .line 5
     iget-object v1, p0, Lcom/meitu/libmtsns/Facebook/PlatformFacebookSSOShare$d;->j:Ljava/util/ArrayList;
 
     invoke-virtual {v1}, Ljava/util/ArrayList;->iterator()Ljava/util/Iterator;
@@ -183,14 +174,12 @@
 
     if-eqz v2, :cond_1
 
-    .line 6
     invoke-virtual {v2}, Landroid/graphics/Bitmap;->isRecycled()Z
 
     move-result v3
 
     if-nez v3, :cond_1
 
-    .line 7
     iget-object v3, p0, Lcom/meitu/libmtsns/Facebook/PlatformFacebookSSOShare$d;->m:Ljava/util/List;
 
     new-instance v4, Lcom/meitu/libmtsns/framwork/i/c;
@@ -204,13 +193,10 @@
     :cond_2
     const/4 v1, 0x0
 
-    .line 8
     iput-object v1, p0, Lcom/meitu/libmtsns/Facebook/PlatformFacebookSSOShare$d;->k:Landroid/graphics/Bitmap;
 
-    .line 9
     iput-object v1, p0, Lcom/meitu/libmtsns/Facebook/PlatformFacebookSSOShare$d;->j:Ljava/util/ArrayList;
 
-    .line 10
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -223,7 +209,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0}, Lcom/meitu/libmtsns/Facebook/PlatformFacebookSSOShare$c;->d()Lcom/meitu/libmtsns/framwork/i/a$a$a;
 
     move-result-object v1
@@ -242,18 +227,15 @@
 
     if-nez p1, :cond_0
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 2
     :cond_0
     iget-object v1, p0, Lcom/meitu/libmtsns/Facebook/PlatformFacebookSSOShare$d;->m:Ljava/util/List;
 
     invoke-interface {v1, p1}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -276,7 +258,6 @@
 
     if-eqz p1, :cond_2
 
-    .line 1
     invoke-interface {p1}, Ljava/util/List;->isEmpty()Z
 
     move-result v1
@@ -285,7 +266,6 @@
 
     goto :goto_1
 
-    .line 2
     :cond_0
     invoke-interface {p1}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
@@ -304,18 +284,15 @@
 
     check-cast v1, Lcom/meitu/libmtsns/framwork/i/c;
 
-    .line 3
     invoke-virtual {p0, v1}, Lcom/meitu/libmtsns/Facebook/PlatformFacebookSSOShare$d;->e(Lcom/meitu/libmtsns/framwork/i/c;)V
 
     goto :goto_0
 
-    .line 4
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 5
     :cond_2
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

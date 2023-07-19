@@ -35,7 +35,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     const-class v1, Lf/k/h/a/k/d;
 
     invoke-virtual {v1}, Ljava/lang/Class;->getSimpleName()Ljava/lang/String;
@@ -52,20 +51,16 @@
 .method public constructor <init>(Lf/k/h/a/k/b;)V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     new-instance v0, Ljava/util/HashMap;
 
     invoke-direct {v0}, Ljava/util/HashMap;-><init>()V
 
     iput-object v0, p0, Lf/k/h/a/k/d;->b:Ljava/util/Map;
 
-    .line 3
     iput-object p1, p0, Lf/k/h/a/k/d;->a:Lf/k/h/a/k/b;
 
-    .line 4
     new-instance v0, Lf/k/h/a/k/d$a;
 
     invoke-direct {v0, p0}, Lf/k/h/a/k/d$a;-><init>(Lf/k/h/a/k/d;)V
@@ -82,7 +77,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lf/k/h/a/k/d;->a:Lf/k/h/a/k/b;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -97,7 +91,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lf/k/h/a/k/d;->f()V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -112,7 +105,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lf/k/h/a/k/d;->c:Lf/k/h/a/k/e/a;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -127,14 +119,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lf/k/h/a/k/d;->d:Ljava/lang/String;
 
     const-string v2, "queryProductAsync"
 
     invoke-static {v1, v2}, Lf/k/h/a/c;->d(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 2
     invoke-static {}, Lcom/meitu/global/billing/net/http/d;->m()Lcom/meitu/global/billing/net/http/d;
 
     move-result-object v1
@@ -143,7 +133,6 @@
 
     move-result-object v1
 
-    .line 3
     invoke-static {}, Lcom/meitu/global/billing/net/http/d;->m()Lcom/meitu/global/billing/net/http/d;
 
     move-result-object v2
@@ -156,7 +145,6 @@
 
     if-eqz v1, :cond_0
 
-    .line 4
     invoke-interface {v1}, Ljava/util/List;->size()I
 
     move-result v4
@@ -165,13 +153,11 @@
 
     const-string v4, "subs"
 
-    .line 5
     invoke-virtual {p0, v4, v1, v3}, Lf/k/h/a/k/d;->a(Ljava/lang/String;Ljava/util/List;Lf/k/h/a/k/e/a;)V
 
     :cond_0
     if-eqz v2, :cond_1
 
-    .line 6
     invoke-interface {v2}, Ljava/util/List;->size()I
 
     move-result v1
@@ -180,10 +166,8 @@
 
     const-string v1, "inapp"
 
-    .line 7
     invoke-virtual {p0, v1, v2, v3}, Lf/k/h/a/k/d;->a(Ljava/lang/String;Ljava/util/List;Lf/k/h/a/k/e/a;)V
 
-    .line 8
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -199,7 +183,6 @@
 
     if-eqz p4, :cond_0
 
-    .line 1
     sget-object p2, Lf/k/h/a/k/d;->d:Ljava/lang/String;
 
     new-instance p3, Ljava/lang/StringBuilder;
@@ -226,12 +209,10 @@
 
     if-eqz p1, :cond_2
 
-    .line 2
     invoke-interface {p1, p4}, Lf/k/h/a/k/e/a;->a(I)V
 
     goto :goto_1
 
-    .line 3
     :cond_0
     sget-object p4, Lf/k/h/a/k/d;->d:Ljava/lang/String;
 
@@ -253,7 +234,6 @@
 
     if-eqz p6, :cond_1
 
-    .line 4
     new-instance p2, Ljava/lang/StringBuilder;
 
     invoke-direct {p2}, Ljava/lang/StringBuilder;-><init>()V
@@ -274,7 +254,6 @@
 
     invoke-static {p4, p2}, Lf/k/h/a/c;->a(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 5
     invoke-interface {p6}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
     move-result-object p2
@@ -292,7 +271,6 @@
 
     check-cast p3, Lcom/meitu/global/billing/product/data/Product;
 
-    .line 6
     iget-object p4, p0, Lf/k/h/a/k/d;->b:Ljava/util/Map;
 
     invoke-virtual {p3}, Lcom/meitu/global/billing/product/data/Product;->g()Ljava/lang/String;
@@ -306,10 +284,8 @@
     :cond_1
     if-eqz p1, :cond_2
 
-    .line 7
     invoke-interface {p1, p6}, Lf/k/h/a/k/e/a;->F(Ljava/util/List;)V
 
-    .line 8
     :cond_2
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -337,10 +313,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p3, p0, Lf/k/h/a/k/d;->c:Lf/k/h/a/k/e/a;
 
-    .line 2
     sget-object v1, Lf/k/h/a/k/d;->d:Ljava/lang/String;
 
     new-instance v2, Ljava/lang/StringBuilder;
@@ -363,7 +337,6 @@
 
     invoke-static {v1, v2}, Lf/k/h/a/c;->a(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 3
     iget-object v1, p0, Lf/k/h/a/k/d;->a:Lf/k/h/a/k/b;
 
     new-instance v2, Lf/k/h/a/k/a;
@@ -372,7 +345,6 @@
 
     invoke-interface {v1, p1, p2, v2}, Lf/k/h/a/k/b;->g(Ljava/lang/String;Ljava/util/List;Lf/k/h/a/k/e/b;)V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -385,7 +357,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v1
@@ -394,12 +365,10 @@
 
     const/4 p1, 0x0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p1
 
-    .line 3
     :cond_0
     iget-object v1, p0, Lf/k/h/a/k/d;->b:Ljava/util/Map;
 

@@ -10,7 +10,6 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/google/android/gms/common/api/ApiException;-><init>(Lcom/google/android/gms/common/api/Status;)V
 
     return-void
@@ -21,7 +20,6 @@
 .method public getResolution()Landroid/app/PendingIntent;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/common/api/ApiException;->mStatus:Lcom/google/android/gms/common/api/Status;
 
     invoke-virtual {v0}, Lcom/google/android/gms/common/api/Status;->y()Landroid/app/PendingIntent;
@@ -39,7 +37,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/common/api/ApiException;->mStatus:Lcom/google/android/gms/common/api/Status;
 
     invoke-virtual {v0, p1, p2}, Lcom/google/android/gms/common/api/Status;->l0(Landroid/app/Activity;I)V

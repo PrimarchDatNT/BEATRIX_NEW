@@ -59,10 +59,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     invoke-static {p1}, Lcom/google/common/hash/BloomFilter;->access$000(Lcom/google/common/hash/BloomFilter;)Lcom/google/common/hash/BloomFilterStrategies$a;
 
     move-result-object v0
@@ -75,21 +73,18 @@
 
     iput-object v0, p0, Lcom/google/common/hash/BloomFilter$SerialForm;->data:[J
 
-    .line 3
     invoke-static {p1}, Lcom/google/common/hash/BloomFilter;->access$100(Lcom/google/common/hash/BloomFilter;)I
 
     move-result v0
 
     iput v0, p0, Lcom/google/common/hash/BloomFilter$SerialForm;->numHashFunctions:I
 
-    .line 4
     invoke-static {p1}, Lcom/google/common/hash/BloomFilter;->access$200(Lcom/google/common/hash/BloomFilter;)Lcom/google/common/hash/Funnel;
 
     move-result-object v0
 
     iput-object v0, p0, Lcom/google/common/hash/BloomFilter$SerialForm;->funnel:Lcom/google/common/hash/Funnel;
 
-    .line 5
     invoke-static {p1}, Lcom/google/common/hash/BloomFilter;->access$300(Lcom/google/common/hash/BloomFilter;)Lcom/google/common/hash/BloomFilter$Strategy;
 
     move-result-object p1
@@ -104,7 +99,6 @@
 .method readResolve()Ljava/lang/Object;
     .locals 7
 
-    .line 1
     new-instance v6, Lcom/google/common/hash/BloomFilter;
 
     new-instance v1, Lcom/google/common/hash/BloomFilterStrategies$a;

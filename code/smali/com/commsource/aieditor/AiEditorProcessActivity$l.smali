@@ -34,7 +34,6 @@
 .method constructor <init>(Lcom/commsource/aieditor/AiEditorProcessActivity;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/aieditor/AiEditorProcessActivity$l;->a:Lcom/commsource/aieditor/AiEditorProcessActivity;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -55,7 +54,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/aieditor/AiEditorProcessActivity$l;->a:Lcom/commsource/aieditor/AiEditorProcessActivity;
 
     new-instance v1, Landroid/content/Intent;
@@ -68,20 +66,16 @@
 
     const/high16 v2, 0x24000000
 
-    .line 2
     invoke-virtual {v1, v2}, Landroid/content/Intent;->addFlags(I)Landroid/content/Intent;
 
     move-result-object v1
 
-    .line 3
     invoke-virtual {v0, v1}, Landroid/app/Activity;->startActivity(Landroid/content/Intent;)V
 
-    .line 4
     iget-object v0, p0, Lcom/commsource/aieditor/AiEditorProcessActivity$l;->a:Lcom/commsource/aieditor/AiEditorProcessActivity;
 
     invoke-static {v0}, Lcom/commsource/util/h2;->e(Landroid/app/Activity;)V
 
-    .line 5
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -98,7 +92,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Ljava/lang/Boolean;
 
     invoke-virtual {p0, p1}, Lcom/commsource/aieditor/AiEditorProcessActivity$l;->a(Ljava/lang/Boolean;)V

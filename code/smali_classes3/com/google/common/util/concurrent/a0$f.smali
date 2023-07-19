@@ -46,10 +46,8 @@
         }
     .end annotation
 
-    .line 2
     invoke-direct {p0}, Lcom/google/common/util/concurrent/AbstractFuture;-><init>()V
 
-    .line 3
     iput-object p1, p0, Lcom/google/common/util/concurrent/a0$f;->K:Lcom/google/common/util/concurrent/a0$g;
 
     return-void
@@ -58,7 +56,6 @@
 .method synthetic constructor <init>(Lcom/google/common/util/concurrent/a0$g;Lcom/google/common/util/concurrent/a0$a;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/google/common/util/concurrent/a0$f;-><init>(Lcom/google/common/util/concurrent/a0$g;)V
 
     return-void
@@ -69,17 +66,14 @@
 .method public cancel(Z)Z
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/util/concurrent/a0$f;->K:Lcom/google/common/util/concurrent/a0$g;
 
-    .line 2
     invoke-super {p0, p1}, Lcom/google/common/util/concurrent/AbstractFuture;->cancel(Z)Z
 
     move-result v1
 
     if-eqz v1, :cond_0
 
-    .line 3
     invoke-static {v0, p1}, Lcom/google/common/util/concurrent/a0$g;->b(Lcom/google/common/util/concurrent/a0$g;Z)V
 
     const/4 p1, 0x1
@@ -97,7 +91,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     iput-object v0, p0, Lcom/google/common/util/concurrent/a0$f;->K:Lcom/google/common/util/concurrent/a0$g;
 
     return-void
@@ -106,12 +99,10 @@
 .method protected z()Ljava/lang/String;
     .locals 3
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/util/concurrent/a0$f;->K:Lcom/google/common/util/concurrent/a0$g;
 
     if-eqz v0, :cond_0
 
-    .line 2
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -120,7 +111,6 @@
 
     invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 3
     invoke-static {v0}, Lcom/google/common/util/concurrent/a0$g;->c(Lcom/google/common/util/concurrent/a0$g;)[Lcom/google/common/util/concurrent/g0;
 
     move-result-object v2
@@ -133,7 +123,6 @@
 
     invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 4
     invoke-static {v0}, Lcom/google/common/util/concurrent/a0$g;->d(Lcom/google/common/util/concurrent/a0$g;)Ljava/util/concurrent/atomic/AtomicInteger;
 
     move-result-object v0

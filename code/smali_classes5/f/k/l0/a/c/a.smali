@@ -35,7 +35,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
     move-result-object v1
@@ -52,7 +51,6 @@
 
     sput-object v1, Lf/k/l0/a/c/a;->e:Ljava/lang/String;
 
-    .line 2
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
     move-result-object v2
@@ -69,10 +67,8 @@
 
     sput-object v2, Lf/k/l0/a/c/a;->c:Ljava/lang/String;
 
-    .line 3
     sput-object v2, Lf/k/l0/a/c/a;->d:Ljava/lang/String;
 
-    .line 4
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
     move-result-object v3
@@ -89,10 +85,8 @@
 
     sput-object v3, Lf/k/l0/a/c/a;->f:Ljava/lang/String;
 
-    .line 5
     sput-object v1, Lf/k/l0/a/c/a;->g:Ljava/lang/String;
 
-    .line 6
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
     move-result-object v1
@@ -109,10 +103,8 @@
 
     sput-object v1, Lf/k/l0/a/c/a;->h:Ljava/lang/String;
 
-    .line 7
     sput-object v2, Lf/k/l0/a/c/a;->i:Ljava/lang/String;
 
-    .line 8
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
     move-result-object v1
@@ -129,7 +121,6 @@
 
     sput-object v1, Lf/k/l0/a/c/a;->j:Ljava/lang/String;
 
-    .line 9
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -138,7 +129,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -153,7 +143,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lf/k/l0/a/c/a;->a:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -168,10 +157,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lf/k/l0/a/c/a;->a:I
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

@@ -32,7 +32,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lio/grpc/internal/g2$o;->b:Lio/grpc/internal/g2;
 
     iput-object p2, p0, Lio/grpc/internal/g2$o;->a:Ljava/lang/Object;
@@ -47,7 +46,6 @@
 .method public a(Lio/grpc/internal/g2$z;)V
     .locals 2
 
-    .line 1
     iget-object p1, p1, Lio/grpc/internal/g2$z;->a:Lio/grpc/internal/u;
 
     iget-object v0, p0, Lio/grpc/internal/g2$o;->b:Lio/grpc/internal/g2;

@@ -59,14 +59,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/meitu/library/analytics/core/provider/a;
 
     invoke-direct {v1}, Lcom/meitu/library/analytics/core/provider/a;-><init>()V
 
     sput-object v1, Lcom/meitu/library/analytics/core/provider/ActivityTaskProvider;->R:Lcom/meitu/library/analytics/core/provider/a;
 
-    .line 2
     new-instance v1, Lcom/meitu/library/analytics/core/provider/d;
 
     invoke-direct {v1}, Lcom/meitu/library/analytics/core/provider/d;-><init>()V
@@ -75,7 +73,6 @@
 
     const/4 v1, 0x0
 
-    .line 3
     sput v1, Lcom/meitu/library/analytics/core/provider/ActivityTaskProvider;->T:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -86,10 +83,8 @@
 .method public constructor <init>()V
     .locals 2
 
-    .line 1
     invoke-direct {p0}, Landroid/content/ContentProvider;-><init>()V
 
-    .line 2
     new-instance v0, Landroid/content/UriMatcher;
 
     const/4 v1, -0x1
@@ -108,7 +103,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/meitu/library/analytics/core/provider/ActivityTaskProvider;->S:Lcom/meitu/library/analytics/core/provider/d;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -123,7 +117,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/meitu/library/analytics/core/provider/ActivityTaskProvider;->b:Ljava/lang/Runnable;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -138,7 +131,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/library/analytics/core/provider/ActivityTaskProvider;->b:Ljava/lang/Runnable;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -153,7 +145,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/meitu/library/analytics/core/provider/ActivityTaskProvider;->p(I)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -168,7 +159,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Landroid/content/ContentProvider;->getContext()Landroid/content/Context;
 
     move-result-object v1
@@ -187,7 +177,6 @@
 
     move-result-object v1
 
-    .line 2
     invoke-static {p1}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
 
     move-result-object p1
@@ -198,7 +187,6 @@
 
     move-result-object p1
 
-    .line 3
     invoke-static {p2}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
 
     move-result-object p2
@@ -209,7 +197,6 @@
 
     move-result-object p1
 
-    .line 4
     invoke-static {p3}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
 
     move-result-object p2
@@ -220,7 +207,6 @@
 
     move-result-object p1
 
-    .line 5
     invoke-static {p4}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
 
     move-result-object p2
@@ -231,12 +217,10 @@
 
     move-result-object p1
 
-    .line 6
     invoke-virtual {p1}, Landroid/net/Uri$Builder;->build()Landroid/net/Uri;
 
     move-result-object p1
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p1
@@ -253,7 +237,6 @@
 
     const-string v2, "time"
 
-    .line 1
     invoke-virtual {v0, v2}, Landroid/content/ContentValues;->getAsLong(Ljava/lang/String;)Ljava/lang/Long;
 
     move-result-object v2
@@ -264,19 +247,16 @@
 
     const-string v2, "name"
 
-    .line 2
     invoke-virtual {v0, v2}, Landroid/content/ContentValues;->getAsString(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v9
 
     const-string v2, "intent"
 
-    .line 3
     invoke-virtual {v0, v2}, Landroid/content/ContentValues;->getAsString(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v10
 
-    .line 4
     new-instance v0, Lcom/meitu/library/analytics/core/provider/b;
 
     move-object v3, v0
@@ -305,21 +285,17 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/library/analytics/core/provider/ActivityTaskProvider;->b:Ljava/lang/Runnable;
 
     if-eqz v1, :cond_1
 
-    .line 2
     monitor-enter p0
 
-    .line 3
     :try_start_0
     iget-object v1, p0, Lcom/meitu/library/analytics/core/provider/ActivityTaskProvider;->b:Ljava/lang/Runnable;
 
     if-eqz v1, :cond_0
 
-    .line 4
     invoke-static {}, Lcom/meitu/library/analytics/y/h/f;->g()Lcom/meitu/library/analytics/y/h/h;
 
     move-result-object v1
@@ -340,15 +316,12 @@
 
     aput-object p1, v3, v4
 
-    .line 5
     invoke-static {v1, v2, v3}, Lcom/meitu/library/analytics/y/j/d;->h(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
-    .line 6
     iget-object p1, p0, Lcom/meitu/library/analytics/core/provider/ActivityTaskProvider;->b:Ljava/lang/Runnable;
 
     invoke-interface {p1}, Ljava/lang/Runnable;->run()V
 
-    .line 7
     :cond_0
     monitor-exit p0
 
@@ -365,7 +338,6 @@
 
     throw p1
 
-    .line 8
     :cond_1
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -380,10 +352,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/meitu/library/analytics/core/provider/ActivityTaskProvider;->R:Lcom/meitu/library/analytics/core/provider/a;
 
-    .line 2
     invoke-virtual {v1}, Lcom/meitu/library/analytics/core/provider/a;->a()I
 
     move-result v9
@@ -392,12 +362,10 @@
 
     const/4 v2, 0x0
 
-    .line 3
     invoke-virtual {v1, p1, p2, v10, v2}, Lcom/meitu/library/analytics/core/provider/a;->d(IIII)I
 
     move-result p1
 
-    .line 4
     invoke-virtual {v1}, Lcom/meitu/library/analytics/core/provider/a;->a()I
 
     move-result v1
@@ -416,22 +384,18 @@
 
     move-object v8, p3
 
-    .line 5
     invoke-direct/range {v2 .. v8}, Lcom/meitu/library/analytics/core/provider/ActivityTaskProvider;->f(IIIIILandroid/content/ContentValues;)Lcom/meitu/library/analytics/core/provider/b;
 
     move-result-object p2
 
-    .line 6
     sget-object p3, Lcom/meitu/library/analytics/core/provider/ActivityTaskProvider;->S:Lcom/meitu/library/analytics/core/provider/d;
 
     invoke-virtual {p3, p2}, Lcom/meitu/library/analytics/core/provider/d;->d(Lcom/meitu/library/analytics/core/provider/b;)I
 
     move-result p2
 
-    .line 7
     invoke-direct {p0, p2}, Lcom/meitu/library/analytics/core/provider/ActivityTaskProvider;->p(I)V
 
-    .line 8
     invoke-direct {p0, v9, v1, p1, v10}, Lcom/meitu/library/analytics/core/provider/ActivityTaskProvider;->e(IIII)Landroid/net/Uri;
 
     move-result-object p1
@@ -448,29 +412,24 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/meitu/library/analytics/core/provider/ActivityTaskProvider;->R:Lcom/meitu/library/analytics/core/provider/a;
 
-    .line 2
     invoke-virtual {v1}, Lcom/meitu/library/analytics/core/provider/a;->a()I
 
     move-result v9
 
     const/4 v10, 0x0
 
-    .line 3
     invoke-virtual {v1, p1, p2, v10}, Lcom/meitu/library/analytics/core/provider/a;->b(III)I
 
     move-result p1
 
-    .line 4
     invoke-virtual {v1}, Lcom/meitu/library/analytics/core/provider/a;->a()I
 
     move-result v1
 
     const-string v2, "onDestroy"
 
-    .line 5
     invoke-direct {p0, v2}, Lcom/meitu/library/analytics/core/provider/ActivityTaskProvider;->g(Ljava/lang/String;)V
 
     const/4 v7, 0x0
@@ -487,22 +446,18 @@
 
     move-object v8, p3
 
-    .line 6
     invoke-direct/range {v2 .. v8}, Lcom/meitu/library/analytics/core/provider/ActivityTaskProvider;->f(IIIIILandroid/content/ContentValues;)Lcom/meitu/library/analytics/core/provider/b;
 
     move-result-object p2
 
-    .line 7
     sget-object p3, Lcom/meitu/library/analytics/core/provider/ActivityTaskProvider;->S:Lcom/meitu/library/analytics/core/provider/d;
 
     invoke-virtual {p3, p2}, Lcom/meitu/library/analytics/core/provider/d;->c(Lcom/meitu/library/analytics/core/provider/b;)I
 
     move-result p2
 
-    .line 8
     invoke-direct {p0, p2}, Lcom/meitu/library/analytics/core/provider/ActivityTaskProvider;->p(I)V
 
-    .line 9
     invoke-direct {p0, v9, v1, p1, v10}, Lcom/meitu/library/analytics/core/provider/ActivityTaskProvider;->e(IIII)Landroid/net/Uri;
 
     move-result-object p1
@@ -519,7 +474,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/meitu/library/analytics/y/h/f;->g()Lcom/meitu/library/analytics/y/h/h;
 
     move-result-object v1
@@ -530,7 +484,6 @@
 
     invoke-interface {v1, v2}, Lcom/meitu/library/analytics/y/h/h;->post(Ljava/lang/Runnable;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -543,19 +496,16 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Landroid/content/ContentProvider;->getContext()Landroid/content/Context;
 
     move-result-object v1
 
     if-nez v1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 3
     :cond_0
     invoke-virtual {p0}, Landroid/content/ContentProvider;->getContext()Landroid/content/Context;
 
@@ -571,12 +521,10 @@
 
     move-result-object v2
 
-    .line 4
     invoke-virtual {v2}, Landroid/net/Uri;->buildUpon()Landroid/net/Uri$Builder;
 
     move-result-object v2
 
-    .line 5
     invoke-static {p1}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
 
     move-result-object p1
@@ -587,12 +535,10 @@
 
     move-result-object p1
 
-    .line 6
     invoke-virtual {p1}, Landroid/net/Uri$Builder;->build()Landroid/net/Uri;
 
     move-result-object p1
 
-    .line 7
     :try_start_0
     invoke-virtual {v1}, Landroid/content/Context;->getContentResolver()Landroid/content/ContentResolver;
 
@@ -609,10 +555,8 @@
     :catch_0
     move-exception p1
 
-    .line 8
     invoke-virtual {p1}, Ljava/lang/Exception;->printStackTrace()V
 
-    .line 9
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -626,24 +570,20 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/meitu/library/analytics/core/provider/ActivityTaskProvider;->R:Lcom/meitu/library/analytics/core/provider/a;
 
-    .line 2
     invoke-virtual {v1}, Lcom/meitu/library/analytics/core/provider/a;->a()I
 
     move-result v1
 
     const-string v2, "app_start"
 
-    .line 3
     invoke-virtual {v2, p1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v2
 
     if-eqz v2, :cond_0
 
-    .line 4
     sget-object p1, Lcom/meitu/library/analytics/core/provider/ActivityTaskProvider;->S:Lcom/meitu/library/analytics/core/provider/d;
 
     invoke-virtual {p1, p2}, Lcom/meitu/library/analytics/core/provider/d;->m(Landroid/content/ContentValues;)V
@@ -653,14 +593,12 @@
     :cond_0
     const-string v2, "app_end"
 
-    .line 5
     invoke-virtual {v2, p1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p1
 
     if-eqz p1, :cond_1
 
-    .line 6
     sget-object p1, Lcom/meitu/library/analytics/core/provider/ActivityTaskProvider;->S:Lcom/meitu/library/analytics/core/provider/d;
 
     invoke-virtual {p1, p2}, Lcom/meitu/library/analytics/core/provider/d;->l(Landroid/content/ContentValues;)V
@@ -669,7 +607,6 @@
     :goto_0
     const/4 p1, 0x0
 
-    .line 7
     invoke-direct {p0, v1, v1, p1, p1}, Lcom/meitu/library/analytics/core/provider/ActivityTaskProvider;->e(IIII)Landroid/net/Uri;
 
     move-result-object p1
@@ -686,15 +623,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/meitu/library/analytics/core/provider/ActivityTaskProvider;->R:Lcom/meitu/library/analytics/core/provider/a;
 
-    .line 2
     invoke-virtual {v1}, Lcom/meitu/library/analytics/core/provider/a;->a()I
 
     move-result v1
 
-    .line 3
     sget-object v2, Lcom/meitu/library/analytics/core/provider/ActivityTaskProvider;->S:Lcom/meitu/library/analytics/core/provider/d;
 
     const-string v3, "startSource"
@@ -707,7 +641,6 @@
 
     const/4 p1, 0x0
 
-    .line 4
     invoke-direct {p0, v1, v1, p1, p1}, Lcom/meitu/library/analytics/core/provider/ActivityTaskProvider;->e(IIII)Landroid/net/Uri;
 
     move-result-object p1
@@ -724,10 +657,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/meitu/library/analytics/core/provider/ActivityTaskProvider;->R:Lcom/meitu/library/analytics/core/provider/a;
 
-    .line 2
     invoke-virtual {v1}, Lcom/meitu/library/analytics/core/provider/a;->a()I
 
     move-result v9
@@ -736,12 +667,10 @@
 
     const/4 v2, 0x0
 
-    .line 3
     invoke-virtual {v1, p1, p2, v10, v2}, Lcom/meitu/library/analytics/core/provider/a;->d(IIII)I
 
     move-result p1
 
-    .line 4
     invoke-virtual {v1}, Lcom/meitu/library/analytics/core/provider/a;->a()I
 
     move-result v1
@@ -760,27 +689,22 @@
 
     move-object v8, p3
 
-    .line 5
     invoke-direct/range {v2 .. v8}, Lcom/meitu/library/analytics/core/provider/ActivityTaskProvider;->f(IIIIILandroid/content/ContentValues;)Lcom/meitu/library/analytics/core/provider/b;
 
     move-result-object p2
 
-    .line 6
     sget-object p3, Lcom/meitu/library/analytics/core/provider/ActivityTaskProvider;->S:Lcom/meitu/library/analytics/core/provider/d;
 
     invoke-virtual {p3, p2}, Lcom/meitu/library/analytics/core/provider/d;->e(Lcom/meitu/library/analytics/core/provider/b;)I
 
     move-result p2
 
-    .line 7
     invoke-direct {p0, p2}, Lcom/meitu/library/analytics/core/provider/ActivityTaskProvider;->p(I)V
 
     const-string p2, "onStart"
 
-    .line 8
     invoke-direct {p0, p2}, Lcom/meitu/library/analytics/core/provider/ActivityTaskProvider;->g(Ljava/lang/String;)V
 
-    .line 9
     invoke-direct {p0, v9, v1, p1, v10}, Lcom/meitu/library/analytics/core/provider/ActivityTaskProvider;->e(IIII)Landroid/net/Uri;
 
     move-result-object p1
@@ -797,10 +721,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/meitu/library/analytics/core/provider/ActivityTaskProvider;->R:Lcom/meitu/library/analytics/core/provider/a;
 
-    .line 2
     invoke-virtual {v1}, Lcom/meitu/library/analytics/core/provider/a;->a()I
 
     move-result v9
@@ -809,12 +731,10 @@
 
     const/4 v11, 0x0
 
-    .line 3
     invoke-virtual {v1, p1, p2, v10, v11}, Lcom/meitu/library/analytics/core/provider/a;->d(IIII)I
 
     move-result p1
 
-    .line 4
     invoke-virtual {v1}, Lcom/meitu/library/analytics/core/provider/a;->a()I
 
     move-result v1
@@ -833,12 +753,10 @@
 
     move-object v8, p3
 
-    .line 5
     invoke-direct/range {v2 .. v8}, Lcom/meitu/library/analytics/core/provider/ActivityTaskProvider;->f(IIIIILandroid/content/ContentValues;)Lcom/meitu/library/analytics/core/provider/b;
 
     move-result-object p2
 
-    .line 6
     sget-object p3, Lcom/meitu/library/analytics/core/provider/ActivityTaskProvider;->S:Lcom/meitu/library/analytics/core/provider/d;
 
     invoke-virtual {p3}, Lcom/meitu/library/analytics/core/provider/d;->a()I
@@ -855,10 +773,8 @@
 
     const-string v3, "PageInvisibleDelayRunnable submit with:[%s]"
 
-    .line 7
     invoke-static {v2, v3, p3}, Lcom/meitu/library/analytics/y/j/d;->h(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
-    .line 8
     invoke-static {}, Lcom/meitu/library/analytics/y/h/f;->g()Lcom/meitu/library/analytics/y/h/h;
 
     move-result-object p3
@@ -871,16 +787,13 @@
 
     goto :goto_0
 
-    .line 9
     :cond_0
     invoke-virtual {p3, p2}, Lcom/meitu/library/analytics/core/provider/d;->b(Lcom/meitu/library/analytics/core/provider/b;)I
 
     move-result p2
 
-    .line 10
     invoke-direct {p0, p2}, Lcom/meitu/library/analytics/core/provider/ActivityTaskProvider;->p(I)V
 
-    .line 11
     :goto_0
     invoke-direct {p0, v9, v1, p1, v10}, Lcom/meitu/library/analytics/core/provider/ActivityTaskProvider;->e(IIII)Landroid/net/Uri;
 
@@ -898,10 +811,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget v1, Lcom/meitu/library/analytics/core/provider/ActivityTaskProvider;->T:I
 
-    .line 2
     sput p1, Lcom/meitu/library/analytics/core/provider/ActivityTaskProvider;->T:I
 
     const/4 v2, -0x1
@@ -964,7 +875,6 @@
 
     new-array v2, v4, [Ljava/lang/Object;
 
-    .line 3
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v1
@@ -981,7 +891,6 @@
 
     invoke-static {v7, p1, v2}, Lcom/meitu/library/analytics/y/j/d;->e(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -991,7 +900,6 @@
 
     new-array v2, v2, [Ljava/lang/Object;
 
-    .line 5
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v1
@@ -1016,10 +924,8 @@
 
     if-eqz v6, :cond_6
 
-    .line 6
     invoke-direct {p0, v6}, Lcom/meitu/library/analytics/core/provider/ActivityTaskProvider;->k(I)V
 
-    .line 7
     :cond_6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1039,7 +945,6 @@
 
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p3, p0, Lcom/meitu/library/analytics/core/provider/ActivityTaskProvider;->a:Landroid/content/UriMatcher;
 
     invoke-virtual {p3, p1}, Landroid/content/UriMatcher;->match(Landroid/net/Uri;)I
@@ -1050,7 +955,6 @@
 
     new-array v1, v0, [Ljava/lang/Object;
 
-    .line 2
     invoke-static {p3}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v2
@@ -1071,12 +975,10 @@
 
     const-string v1, "key"
 
-    .line 3
     invoke-virtual {p1, v1}, Landroid/net/Uri;->getQueryParameter(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v1
 
-    .line 4
     :try_start_0
     invoke-static {v1}, Ljava/lang/Integer;->parseInt(Ljava/lang/String;)I
 
@@ -1092,14 +994,12 @@
 
     const-string p3, "summary"
 
-    .line 5
     invoke-virtual {p1, p3}, Landroid/net/Uri;->getQueryParameter(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v6
 
     const-string v7, "detail"
 
-    .line 6
     invoke-virtual {p1, v7}, Landroid/net/Uri;->getQueryParameter(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p1
@@ -1108,19 +1008,16 @@
 
     if-eqz p1, :cond_0
 
-    .line 7
     new-instance v8, Lcom/meitu/library/analytics/y/f/a$b;
 
     invoke-direct {v8}, Lcom/meitu/library/analytics/y/f/a$b;-><init>()V
 
     const-string v9, "crash_info"
 
-    .line 8
     invoke-virtual {v8, v9}, Lcom/meitu/library/analytics/y/f/a$b;->g(Ljava/lang/String;)Lcom/meitu/library/analytics/y/f/a$b;
 
     move-result-object v8
 
-    .line 9
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v9
@@ -1129,39 +1026,32 @@
 
     move-result-object v8
 
-    .line 10
     invoke-virtual {v8, v5}, Lcom/meitu/library/analytics/y/f/a$b;->i(I)Lcom/meitu/library/analytics/y/f/a$b;
 
     move-result-object v5
 
-    .line 11
     invoke-virtual {v5, v2}, Lcom/meitu/library/analytics/y/f/a$b;->h(I)Lcom/meitu/library/analytics/y/f/a$b;
 
     move-result-object v5
 
-    .line 12
     invoke-virtual {v5, p3, v6}, Lcom/meitu/library/analytics/y/f/a$b;->b(Ljava/lang/String;Ljava/lang/String;)Lcom/meitu/library/analytics/y/f/a$b;
 
     move-result-object p3
 
-    .line 13
     invoke-virtual {p3, v7, p1}, Lcom/meitu/library/analytics/y/f/a$b;->b(Ljava/lang/String;Ljava/lang/String;)Lcom/meitu/library/analytics/y/f/a$b;
 
     move-result-object p1
 
-    .line 14
     invoke-virtual {p1}, Lcom/meitu/library/analytics/y/f/a$b;->d()Lcom/meitu/library/analytics/y/f/a;
 
     move-result-object p1
 
-    .line 15
     invoke-virtual {p0}, Landroid/content/ContentProvider;->getContext()Landroid/content/Context;
 
     move-result-object p3
 
     invoke-static {p3, p1}, Lcom/meitu/library/analytics/sdk/db/h;->s(Landroid/content/Context;Lcom/meitu/library/analytics/y/f/a;)J
 
-    .line 16
     :cond_0
     sget-object p1, Lcom/meitu/library/analytics/core/provider/ActivityTaskProvider;->R:Lcom/meitu/library/analytics/core/provider/a;
 
@@ -1171,18 +1061,15 @@
 
     if-nez p1, :cond_1
 
-    .line 17
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v3
 
-    .line 18
     :cond_1
     new-instance p3, Landroid/content/ContentValues;
 
     invoke-direct {p3}, Landroid/content/ContentValues;-><init>()V
 
-    .line 19
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v5
@@ -1199,15 +1086,12 @@
 
     const-string v6, ""
 
-    .line 20
     invoke-virtual {p3, v5, v6}, Landroid/content/ContentValues;->put(Ljava/lang/String;Ljava/lang/String;)V
 
     const-string v5, "intent"
 
-    .line 21
     invoke-virtual {p3, v5, v6}, Landroid/content/ContentValues;->put(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 22
     invoke-virtual {p1}, Landroid/util/SparseIntArray;->size()I
 
     move-result v5
@@ -1217,19 +1101,16 @@
     :goto_0
     if-ge v6, v5, :cond_4
 
-    .line 23
     invoke-virtual {p1, v6}, Landroid/util/SparseIntArray;->keyAt(I)I
 
     move-result v7
 
-    .line 24
     invoke-virtual {p1, v6}, Landroid/util/SparseIntArray;->valueAt(I)I
 
     move-result v8
 
     if-nez v8, :cond_2
 
-    .line 25
     sget-object v8, Lcom/meitu/library/analytics/core/provider/ActivityTaskProvider;->R:Lcom/meitu/library/analytics/core/provider/a;
 
     invoke-virtual {v8, v1, v7, v3}, Lcom/meitu/library/analytics/core/provider/a;->b(III)I
@@ -1239,10 +1120,8 @@
     :cond_2
     if-ne v8, v0, :cond_3
 
-    .line 26
     invoke-direct {p0, v1, v7, p3}, Lcom/meitu/library/analytics/core/provider/ActivityTaskProvider;->o(IILandroid/content/ContentValues;)Landroid/net/Uri;
 
-    .line 27
     :cond_3
     invoke-direct {p0, v1, v7, p3}, Lcom/meitu/library/analytics/core/provider/ActivityTaskProvider;->i(IILandroid/content/ContentValues;)Landroid/net/Uri;
 
@@ -1254,7 +1133,6 @@
     :cond_4
     new-array p1, v2, [Ljava/lang/Object;
 
-    .line 28
     invoke-static {v5}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object p3
@@ -1265,7 +1143,6 @@
 
     invoke-static {v4, p3, p1}, Lcom/meitu/library/analytics/y/j/d;->h(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
-    .line 29
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v5
@@ -1273,7 +1150,6 @@
     :cond_5
     const/4 p1, -0x2
 
-    .line 30
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
@@ -1281,12 +1157,10 @@
     :catch_0
     move-exception p1
 
-    .line 31
     invoke-virtual {p1}, Ljava/lang/NumberFormatException;->printStackTrace()V
 
     const/4 p1, -0x1
 
-    .line 32
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
@@ -1303,7 +1177,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v0, Ljava/lang/UnsupportedOperationException;
 
     const-string v1, "Not yet implemented"
@@ -1326,7 +1199,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/library/analytics/core/provider/ActivityTaskProvider;->a:Landroid/content/UriMatcher;
 
     invoke-virtual {v1, p1}, Landroid/content/UriMatcher;->match(Landroid/net/Uri;)I
@@ -1337,7 +1209,6 @@
 
     new-array v3, v2, [Ljava/lang/Object;
 
-    .line 2
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v4
@@ -1358,7 +1229,6 @@
 
     const-string v3, "key"
 
-    .line 3
     invoke-virtual {p1, v3}, Landroid/net/Uri;->getQueryParameter(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v3
@@ -1369,14 +1239,12 @@
 
     move-result-object v3
 
-    .line 4
     aget-object v5, v3, v5
 
     invoke-static {v5}, Ljava/lang/Integer;->parseInt(Ljava/lang/String;)I
 
     move-result v5
 
-    .line 5
     aget-object v3, v3, v4
 
     invoke-static {v3}, Ljava/lang/Integer;->parseInt(Ljava/lang/String;)I
@@ -1405,7 +1273,6 @@
 
     const-string v1, "event"
 
-    .line 6
     invoke-virtual {p1, v1}, Landroid/net/Uri;->getQueryParameter(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p1
@@ -1418,7 +1285,6 @@
 
     return-object p1
 
-    .line 7
     :cond_0
     new-instance p2, Ljava/lang/UnsupportedOperationException;
 
@@ -1442,7 +1308,6 @@
 
     throw p2
 
-    .line 8
     :cond_1
     invoke-direct {p0, p2}, Lcom/meitu/library/analytics/core/provider/ActivityTaskProvider;->m(Landroid/content/ContentValues;)Landroid/net/Uri;
 
@@ -1452,7 +1317,6 @@
 
     return-object p1
 
-    .line 9
     :cond_2
     invoke-direct {p0, v5, v3, p2}, Lcom/meitu/library/analytics/core/provider/ActivityTaskProvider;->o(IILandroid/content/ContentValues;)Landroid/net/Uri;
 
@@ -1462,7 +1326,6 @@
 
     return-object p1
 
-    .line 10
     :cond_3
     invoke-direct {p0, v5, v3, p2}, Lcom/meitu/library/analytics/core/provider/ActivityTaskProvider;->n(IILandroid/content/ContentValues;)Landroid/net/Uri;
 
@@ -1472,7 +1335,6 @@
 
     return-object p1
 
-    .line 11
     :cond_4
     invoke-direct {p0, v5, v3, p2}, Lcom/meitu/library/analytics/core/provider/ActivityTaskProvider;->i(IILandroid/content/ContentValues;)Landroid/net/Uri;
 
@@ -1482,7 +1344,6 @@
 
     return-object p1
 
-    .line 12
     :cond_5
     invoke-direct {p0, v5, v3, p2}, Lcom/meitu/library/analytics/core/provider/ActivityTaskProvider;->h(IILandroid/content/ContentValues;)Landroid/net/Uri;
 
@@ -1500,7 +1361,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -1523,7 +1383,6 @@
 
     invoke-static {v2, v1}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 2
     invoke-virtual {p0}, Landroid/content/ContentProvider;->getContext()Landroid/content/Context;
 
     move-result-object v1
@@ -1532,7 +1391,6 @@
 
     move-result-object v1
 
-    .line 3
     iget-object v2, p0, Lcom/meitu/library/analytics/core/provider/ActivityTaskProvider;->a:Landroid/content/UriMatcher;
 
     const-string v3, "create"
@@ -1541,7 +1399,6 @@
 
     invoke-virtual {v2, v1, v3, v4}, Landroid/content/UriMatcher;->addURI(Ljava/lang/String;Ljava/lang/String;I)V
 
-    .line 4
     iget-object v2, p0, Lcom/meitu/library/analytics/core/provider/ActivityTaskProvider;->a:Landroid/content/UriMatcher;
 
     const-string v3, "destroy"
@@ -1550,7 +1407,6 @@
 
     invoke-virtual {v2, v1, v3, v5}, Landroid/content/UriMatcher;->addURI(Ljava/lang/String;Ljava/lang/String;I)V
 
-    .line 5
     iget-object v2, p0, Lcom/meitu/library/analytics/core/provider/ActivityTaskProvider;->a:Landroid/content/UriMatcher;
 
     const-string v3, "start"
@@ -1559,7 +1415,6 @@
 
     invoke-virtual {v2, v1, v3, v5}, Landroid/content/UriMatcher;->addURI(Ljava/lang/String;Ljava/lang/String;I)V
 
-    .line 6
     iget-object v2, p0, Lcom/meitu/library/analytics/core/provider/ActivityTaskProvider;->a:Landroid/content/UriMatcher;
 
     const-string v3, "stop"
@@ -1568,7 +1423,6 @@
 
     invoke-virtual {v2, v1, v3, v5}, Landroid/content/UriMatcher;->addURI(Ljava/lang/String;Ljava/lang/String;I)V
 
-    .line 7
     iget-object v2, p0, Lcom/meitu/library/analytics/core/provider/ActivityTaskProvider;->a:Landroid/content/UriMatcher;
 
     const-string v3, "crash"
@@ -1577,7 +1431,6 @@
 
     invoke-virtual {v2, v1, v3, v5}, Landroid/content/UriMatcher;->addURI(Ljava/lang/String;Ljava/lang/String;I)V
 
-    .line 8
     iget-object v2, p0, Lcom/meitu/library/analytics/core/provider/ActivityTaskProvider;->a:Landroid/content/UriMatcher;
 
     const-string v3, "setStartSource"
@@ -1586,7 +1439,6 @@
 
     invoke-virtual {v2, v1, v3, v5}, Landroid/content/UriMatcher;->addURI(Ljava/lang/String;Ljava/lang/String;I)V
 
-    .line 9
     iget-object v2, p0, Lcom/meitu/library/analytics/core/provider/ActivityTaskProvider;->a:Landroid/content/UriMatcher;
 
     const-string v3, "setAutoEventParams"
@@ -1595,10 +1447,8 @@
 
     invoke-virtual {v2, v1, v3, v5}, Landroid/content/UriMatcher;->addURI(Ljava/lang/String;Ljava/lang/String;I)V
 
-    .line 10
     invoke-direct {p0}, Lcom/meitu/library/analytics/core/provider/ActivityTaskProvider;->j()V
 
-    .line 11
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v4
@@ -1615,7 +1465,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance p2, Ljava/lang/UnsupportedOperationException;
 
     const-string p3, "Not yet implemented"
@@ -1638,7 +1487,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance p2, Ljava/lang/UnsupportedOperationException;
 
     const-string p3, "Not yet implemented"

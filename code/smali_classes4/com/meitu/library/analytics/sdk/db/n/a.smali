@@ -7,7 +7,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -31,7 +30,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Ljava/util/HashMap;->keySet()Ljava/util/Set;
 
     move-result-object p0
@@ -40,7 +38,6 @@
 
     invoke-static {p0, p1, v1}, Lcom/meitu/library/analytics/sdk/db/n/a;->b(Ljava/util/Set;Landroid/content/ContentValues;Ljava/lang/String;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -64,7 +61,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p1}, Landroid/content/ContentValues;->keySet()Ljava/util/Set;
 
     move-result-object p1
@@ -86,7 +82,6 @@
 
     check-cast v1, Ljava/lang/String;
 
-    .line 2
     invoke-interface {p0, v1}, Ljava/util/Set;->contains(Ljava/lang/Object;)Z
 
     move-result v2
@@ -95,7 +90,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_0
     new-instance p0, Ljava/lang/IllegalArgumentException;
 
@@ -125,7 +119,6 @@
 
     throw p0
 
-    .line 4
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

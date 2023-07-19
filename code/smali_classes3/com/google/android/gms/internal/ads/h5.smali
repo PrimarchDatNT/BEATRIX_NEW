@@ -18,7 +18,6 @@
 .method constructor <init>(Lcom/google/android/gms/internal/ads/i5;Lcom/google/android/gms/ads/doubleclick/PublisherAdView;Lcom/google/android/gms/internal/ads/pn2;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/android/gms/internal/ads/h5;->c:Lcom/google/android/gms/internal/ads/i5;
 
     iput-object p2, p0, Lcom/google/android/gms/internal/ads/h5;->a:Lcom/google/android/gms/ads/doubleclick/PublisherAdView;
@@ -35,7 +34,6 @@
 .method public final run()V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/h5;->a:Lcom/google/android/gms/ads/doubleclick/PublisherAdView;
 
     iget-object v1, p0, Lcom/google/android/gms/internal/ads/h5;->b:Lcom/google/android/gms/internal/ads/pn2;
@@ -46,7 +44,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 2
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/h5;->c:Lcom/google/android/gms/internal/ads/i5;
 
     invoke-static {v0}, Lcom/google/android/gms/internal/ads/i5;->J5(Lcom/google/android/gms/internal/ads/i5;)Lcom/google/android/gms/ads/formats/g;
@@ -62,7 +59,6 @@
     :cond_0
     const-string v0, "Could not bind."
 
-    .line 3
     invoke-static {v0}, Lcom/google/android/gms/internal/ads/aq;->i(Ljava/lang/String;)V
 
     return-void

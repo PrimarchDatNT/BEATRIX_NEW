@@ -26,17 +26,14 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Lcom/meitu/media/util/plist/PListObject;-><init>()V
 
-    .line 2
     new-instance v0, Ljava/util/TreeMap;
 
     invoke-direct {v0}, Ljava/util/TreeMap;-><init>()V
 
     iput-object v0, p0, Lcom/meitu/media/util/plist/Dict;->configMap:Ljava/util/Map;
 
-    .line 3
     sget-object v0, Lcom/meitu/media/util/plist/PListObjectType;->DICT:Lcom/meitu/media/util/plist/PListObjectType;
 
     invoke-virtual {p0, v0}, Lcom/meitu/media/util/plist/PListObject;->setType(Lcom/meitu/media/util/plist/PListObjectType;)V
@@ -62,7 +59,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/media/util/plist/Dict;->configMap:Ljava/util/Map;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -77,7 +73,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0, p1}, Lcom/meitu/media/util/plist/Dict;->getConfigurationObject(Ljava/lang/String;)Lcom/meitu/media/util/plist/PListObject;
 
     move-result-object p1
@@ -96,7 +91,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0, p1}, Lcom/meitu/media/util/plist/Dict;->getConfigurationObject(Ljava/lang/String;)Lcom/meitu/media/util/plist/PListObject;
 
     move-result-object p1
@@ -115,7 +109,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0, p1}, Lcom/meitu/media/util/plist/Dict;->getConfigurationObject(Ljava/lang/String;)Lcom/meitu/media/util/plist/PListObject;
 
     move-result-object p1
@@ -134,7 +127,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0, p1}, Lcom/meitu/media/util/plist/Dict;->getConfigurationObject(Ljava/lang/String;)Lcom/meitu/media/util/plist/PListObject;
 
     move-result-object p1
@@ -153,7 +145,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0, p1}, Lcom/meitu/media/util/plist/Dict;->getConfigurationObject(Ljava/lang/String;)Lcom/meitu/media/util/plist/PListObject;
 
     move-result-object p1
@@ -172,19 +163,16 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0, p1}, Lcom/meitu/media/util/plist/Dict;->getConfigurationInteger(Ljava/lang/String;)Lcom/meitu/media/util/plist/Integer;
 
     move-result-object p1
 
     if-nez p1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p2
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -207,24 +195,20 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/util/StringTokenizer;
 
     const-string v2, "."
 
     invoke-direct {v1, p1, v2}, Ljava/util/StringTokenizer;-><init>(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 2
     invoke-virtual {v1}, Ljava/util/StringTokenizer;->hasMoreTokens()Z
 
     move-result v2
 
     if-eqz v2, :cond_1
 
-    .line 3
     iget-object v2, p0, Lcom/meitu/media/util/plist/Dict;->configMap:Ljava/util/Map;
 
-    .line 4
     :goto_0
     invoke-virtual {v1}, Ljava/util/StringTokenizer;->hasMoreTokens()Z
 
@@ -232,22 +216,18 @@
 
     if-eqz v3, :cond_1
 
-    .line 5
     invoke-virtual {v1}, Ljava/util/StringTokenizer;->nextToken()Ljava/lang/String;
 
     move-result-object v3
 
-    .line 6
     invoke-interface {v2, v3}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v2
 
-    .line 7
     instance-of v3, v2, Lcom/meitu/media/util/plist/Dict;
 
     if-eqz v3, :cond_0
 
-    .line 8
     check-cast v2, Lcom/meitu/media/util/plist/Dict;
 
     invoke-virtual {v2}, Lcom/meitu/media/util/plist/Dict;->getConfigMap()Ljava/util/Map;
@@ -256,7 +236,6 @@
 
     goto :goto_0
 
-    .line 9
     :cond_0
     check-cast v2, Lcom/meitu/media/util/plist/PListObject;
 
@@ -264,7 +243,6 @@
 
     return-object v2
 
-    .line 10
     :cond_1
     iget-object v1, p0, Lcom/meitu/media/util/plist/Dict;->configMap:Ljava/util/Map;
 
@@ -286,19 +264,16 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0, p1}, Lcom/meitu/media/util/plist/Dict;->getConfiguration(Ljava/lang/String;)Lcom/meitu/media/util/plist/String;
 
     move-result-object p1
 
     if-nez p1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p2
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -312,12 +287,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/media/util/plist/Dict;->configMap:Ljava/util/Map;
 
     invoke-interface {v1, p1, p2}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -339,10 +312,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/media/util/plist/Dict;->configMap:Ljava/util/Map;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -355,24 +326,20 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
 
-    .line 2
     iget-object v2, p0, Lcom/meitu/media/util/plist/Dict;->configMap:Ljava/util/Map;
 
     invoke-interface {v2}, Ljava/util/Map;->keySet()Ljava/util/Set;
 
     move-result-object v2
 
-    .line 3
     invoke-interface {v2}, Ljava/util/Set;->iterator()Ljava/util/Iterator;
 
     move-result-object v2
 
-    .line 4
     :goto_0
     invoke-interface {v2}, Ljava/util/Iterator;->hasNext()Z
 
@@ -380,7 +347,6 @@
 
     if-eqz v3, :cond_0
 
-    .line 5
     invoke-interface {v2}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
     move-result-object v3
@@ -389,14 +355,12 @@
 
     const-string v4, "key="
 
-    .line 6
     invoke-virtual {v1, v4}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     invoke-virtual {v1, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     iget-object v4, p0, Lcom/meitu/media/util/plist/Dict;->configMap:Ljava/util/Map;
 
-    .line 7
     invoke-interface {v4, v3}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v3
@@ -411,7 +375,6 @@
 
     goto :goto_0
 
-    .line 8
     :cond_0
     invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 

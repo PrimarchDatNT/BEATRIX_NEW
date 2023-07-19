@@ -17,7 +17,6 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
     new-instance v0, Lcotlinx/coroutines/internal/h;
 
     invoke-direct {v0}, Lcotlinx/coroutines/internal/h;-><init>()V
@@ -30,7 +29,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -52,7 +50,6 @@
 
     const/4 v0, 0x1
 
-    .line 1
     :try_start_0
     invoke-virtual {p1}, Ljava/lang/Class;->getClassLoader()Ljava/lang/ClassLoader;
 
@@ -66,7 +63,6 @@
 
     new-array v1, v0, [Ljava/lang/Class;
 
-    .line 2
     invoke-virtual {p2, v1}, Ljava/lang/Class;->getDeclaredConstructor([Ljava/lang/Class;)Ljava/lang/reflect/Constructor;
 
     move-result-object p2
@@ -110,12 +106,10 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-static {p1, v0, p2}, Ljava/lang/Class;->forName(Ljava/lang/String;ZLjava/lang/ClassLoader;)Ljava/lang/Class;
 
     move-result-object p1
 
-    .line 2
     invoke-virtual {p3, p1}, Ljava/lang/Class;->isAssignableFrom(Ljava/lang/Class;)Z
 
     move-result p2
@@ -124,7 +118,6 @@
 
     new-array p2, v0, [Ljava/lang/Class;
 
-    .line 3
     invoke-virtual {p1, p2}, Ljava/lang/Class;->getDeclaredConstructor([Ljava/lang/Class;)Ljava/lang/reflect/Constructor;
 
     move-result-object p1
@@ -141,7 +134,6 @@
 
     return-object p1
 
-    .line 4
     :cond_0
     new-instance p2, Ljava/lang/StringBuilder;
 
@@ -190,7 +182,6 @@
         }
     .end annotation
 
-    .line 1
     :try_start_0
     invoke-virtual {p0, p1, p2}, Lcotlinx/coroutines/internal/h;->e(Ljava/lang/Class;Ljava/lang/ClassLoader;)Ljava/util/List;
 
@@ -200,7 +191,6 @@
 
     goto :goto_0
 
-    .line 2
     :catchall_0
     invoke-static {p1, p2}, Ljava/util/ServiceLoader;->load(Ljava/lang/Class;Ljava/lang/ClassLoader;)Ljava/util/ServiceLoader;
 
@@ -227,7 +217,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p1}, Ljava/net/URL;->toString()Ljava/lang/String;
 
     move-result-object v0
@@ -240,7 +229,6 @@
 
     const/4 v4, 0x0
 
-    .line 2
     invoke-static {v0, v1, v2, v3, v4}, Lcotlin/text/m;->s2(Ljava/lang/String;Ljava/lang/String;ZILjava/lang/Object;)Z
 
     move-result v1
@@ -249,7 +237,6 @@
 
     const-string p1, "jar:file:"
 
-    .line 3
     invoke-static {v0, p1, v4, v3, v4}, Lcotlin/text/m;->i5(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ILjava/lang/Object;)Ljava/lang/String;
 
     move-result-object p1
@@ -262,17 +249,14 @@
 
     const-string v1, "!/"
 
-    .line 4
     invoke-static {v0, v1, v4, v3, v4}, Lcotlin/text/m;->i5(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ILjava/lang/Object;)Ljava/lang/String;
 
     move-result-object v0
 
-    .line 5
     new-instance v1, Ljava/util/jar/JarFile;
 
     invoke-direct {v1, p1, v2}, Ljava/util/jar/JarFile;-><init>(Ljava/lang/String;Z)V
 
-    .line 6
     :try_start_0
     new-instance p1, Ljava/io/BufferedReader;
 
@@ -294,7 +278,6 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_3
 
-    .line 7
     :try_start_1
     sget-object v0, Lcotlinx/coroutines/internal/h;->b:Lcotlinx/coroutines/internal/h;
 
@@ -309,7 +292,6 @@
     :try_end_2
     .catchall {:try_start_2 .. :try_end_2} :catchall_3
 
-    .line 8
     :try_start_3
     invoke-virtual {v1}, Ljava/util/jar/JarFile;->close()V
     :try_end_3
@@ -320,13 +302,11 @@
     :catchall_0
     move-exception p1
 
-    .line 9
     throw p1
 
     :catchall_1
     move-exception v0
 
-    .line 10
     :try_start_4
     throw v0
     :try_end_4
@@ -345,7 +325,6 @@
     :catchall_3
     move-exception p1
 
-    .line 11
     :try_start_6
     throw p1
     :try_end_6
@@ -354,25 +333,20 @@
     :catchall_4
     move-exception v0
 
-    .line 12
     :try_start_7
     invoke-virtual {v1}, Ljava/util/jar/JarFile;->close()V
     :try_end_7
     .catchall {:try_start_7 .. :try_end_7} :catchall_5
 
-    .line 13
     throw v0
 
     :catchall_5
     move-exception v0
 
-    .line 14
     invoke-static {p1, v0}, Lcotlin/l;->a(Ljava/lang/Throwable;Ljava/lang/Throwable;)V
 
-    .line 15
     throw p1
 
-    .line 16
     :cond_0
     new-instance v0, Ljava/io/BufferedReader;
 
@@ -386,7 +360,6 @@
 
     invoke-direct {v0, v1}, Ljava/io/BufferedReader;-><init>(Ljava/io/Reader;)V
 
-    .line 17
     :try_start_8
     sget-object p1, Lcotlinx/coroutines/internal/h;->b:Lcotlinx/coroutines/internal/h;
 
@@ -396,7 +369,6 @@
     :try_end_8
     .catchall {:try_start_8 .. :try_end_8} :catchall_6
 
-    .line 18
     invoke-static {v0, v4}, Lcotlin/io/b;->a(Ljava/io/Closeable;Ljava/lang/Throwable;)V
 
     return-object p1
@@ -430,12 +402,10 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/util/LinkedHashSet;
 
     invoke-direct {v0}, Ljava/util/LinkedHashSet;-><init>()V
 
-    .line 2
     :cond_0
     :goto_0
     invoke-virtual {p1}, Ljava/io/BufferedReader;->readLine()Ljava/lang/String;
@@ -450,7 +420,6 @@
 
     const/4 v4, 0x0
 
-    .line 3
     invoke-static {v1, v3, v4, v2, v4}, Lcotlin/text/m;->q5(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ILjava/lang/Object;)Ljava/lang/String;
 
     move-result-object v1
@@ -469,7 +438,6 @@
 
     const/4 v3, 0x0
 
-    .line 4
     :goto_1
     invoke-interface {v1}, Ljava/lang/CharSequence;->length()I
 
@@ -487,7 +455,6 @@
 
     if-eq v4, v6, :cond_2
 
-    .line 5
     invoke-static {v4}, Ljava/lang/Character;->isJavaIdentifierPart(C)Z
 
     move-result v4
@@ -523,7 +490,6 @@
     :goto_4
     if-eqz v3, :cond_6
 
-    .line 6
     invoke-interface {v1}, Ljava/lang/CharSequence;->length()I
 
     move-result v3
@@ -535,12 +501,10 @@
     :cond_5
     if-eqz v2, :cond_0
 
-    .line 7
     invoke-interface {v0, v1}, Ljava/util/Set;->add(Ljava/lang/Object;)Z
 
     goto :goto_0
 
-    .line 8
     :cond_6
     new-instance p1, Ljava/lang/StringBuilder;
 
@@ -566,7 +530,6 @@
 
     throw v0
 
-    .line 9
     :cond_7
     new-instance p1, Lcotlin/TypeCastException;
 
@@ -576,7 +539,6 @@
 
     throw p1
 
-    .line 10
     :cond_8
     invoke-static {v0}, Lcotlin/collections/s;->I5(Ljava/lang/Iterable;)Ljava/util/List;
 
@@ -606,7 +568,6 @@
 
     const/4 v0, 0x1
 
-    .line 1
     :try_start_0
     invoke-interface {p2, p1}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
@@ -616,13 +577,11 @@
 
     invoke-static {v0}, Lcotlin/jvm/internal/c0;->d(I)V
 
-    .line 2
     :try_start_1
     invoke-virtual {p1}, Ljava/util/jar/JarFile;->close()V
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
-    .line 3
     invoke-static {v0}, Lcotlin/jvm/internal/c0;->c(I)V
 
     return-object p2
@@ -630,13 +589,11 @@
     :catchall_0
     move-exception p1
 
-    .line 4
     throw p1
 
     :catchall_1
     move-exception p2
 
-    .line 5
     :try_start_2
     throw p2
     :try_end_2
@@ -645,16 +602,13 @@
     :catchall_2
     move-exception v1
 
-    .line 6
     invoke-static {v0}, Lcotlin/jvm/internal/c0;->d(I)V
 
-    .line 7
     :try_start_3
     invoke-virtual {p1}, Ljava/util/jar/JarFile;->close()V
     :try_end_3
     .catchall {:try_start_3 .. :try_end_3} :catchall_3
 
-    .line 8
     invoke-static {v0}, Lcotlin/jvm/internal/c0;->c(I)V
 
     throw v1
@@ -662,10 +616,8 @@
     :catchall_3
     move-exception p1
 
-    .line 9
     invoke-static {p2, p1}, Lcotlin/l;->a(Ljava/lang/Throwable;Ljava/lang/Throwable;)V
 
-    .line 10
     throw p2
 .end method
 
@@ -685,17 +637,14 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     const-class v0, Lcotlinx/coroutines/internal/MainDispatcherFactory;
 
-    .line 2
     invoke-static {}, Lcotlinx/coroutines/internal/i;->a()Z
 
     move-result v1
 
     if-nez v1, :cond_0
 
-    .line 3
     invoke-virtual {v0}, Ljava/lang/Class;->getClassLoader()Ljava/lang/ClassLoader;
 
     move-result-object v1
@@ -706,7 +655,6 @@
 
     return-object v0
 
-    .line 4
     :cond_0
     :try_start_0
     new-instance v1, Ljava/util/ArrayList;
@@ -725,7 +673,6 @@
 
     const/4 v5, 0x0
 
-    .line 5
     :try_start_1
     invoke-virtual {v0}, Ljava/lang/Class;->getClassLoader()Ljava/lang/ClassLoader;
 
@@ -737,7 +684,6 @@
 
     new-array v6, v5, [Ljava/lang/Class;
 
-    .line 6
     invoke-virtual {v2, v6}, Ljava/lang/Class;->getDeclaredConstructor([Ljava/lang/Class;)Ljava/lang/reflect/Constructor;
 
     move-result-object v2
@@ -765,7 +711,6 @@
     :goto_0
     if-eqz v2, :cond_1
 
-    .line 7
     :try_start_2
     invoke-virtual {v1, v2}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
@@ -774,7 +719,6 @@
     :try_end_2
     .catchall {:try_start_2 .. :try_end_2} :catchall_0
 
-    .line 8
     :try_start_3
     invoke-virtual {v0}, Ljava/lang/Class;->getClassLoader()Ljava/lang/ClassLoader;
 
@@ -786,7 +730,6 @@
 
     new-array v4, v5, [Ljava/lang/Class;
 
-    .line 9
     invoke-virtual {v2, v4}, Ljava/lang/Class;->getDeclaredConstructor([Ljava/lang/Class;)Ljava/lang/reflect/Constructor;
 
     move-result-object v2
@@ -816,7 +759,6 @@
     :goto_1
     if-eqz v3, :cond_2
 
-    .line 10
     :try_start_4
     invoke-virtual {v1, v3}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
     :try_end_4
@@ -824,7 +766,6 @@
 
     goto :goto_2
 
-    .line 11
     :catchall_0
     invoke-virtual {v0}, Ljava/lang/Class;->getClassLoader()Ljava/lang/ClassLoader;
 
@@ -866,7 +807,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -885,12 +825,10 @@
 
     move-result-object v0
 
-    .line 2
     invoke-virtual {p2, v0}, Ljava/lang/ClassLoader;->getResources(Ljava/lang/String;)Ljava/util/Enumeration;
 
     move-result-object v0
 
-    .line 3
     invoke-static {v0}, Ljava/util/Collections;->list(Ljava/util/Enumeration;)Ljava/util/ArrayList;
 
     move-result-object v0
@@ -899,12 +837,10 @@
 
     invoke-static {v0, v1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 4
     new-instance v1, Ljava/util/ArrayList;
 
     invoke-direct {v1}, Ljava/util/ArrayList;-><init>()V
 
-    .line 5
     invoke-interface {v0}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v0
@@ -920,28 +856,23 @@
 
     move-result-object v2
 
-    .line 6
     check-cast v2, Ljava/net/URL;
 
-    .line 7
     sget-object v3, Lcotlinx/coroutines/internal/h;->b:Lcotlinx/coroutines/internal/h;
 
     invoke-direct {v3, v2}, Lcotlinx/coroutines/internal/h;->f(Ljava/net/URL;)Ljava/util/List;
 
     move-result-object v2
 
-    .line 8
     invoke-static {v1, v2}, Lcotlin/collections/s;->q0(Ljava/util/Collection;Ljava/lang/Iterable;)Z
 
     goto :goto_0
 
-    .line 9
     :cond_0
     invoke-static {v1}, Lcotlin/collections/s;->N5(Ljava/lang/Iterable;)Ljava/util/Set;
 
     move-result-object v0
 
-    .line 10
     invoke-interface {v0}, Ljava/util/Collection;->isEmpty()Z
 
     move-result v1
@@ -950,7 +881,6 @@
 
     if-eqz v1, :cond_2
 
-    .line 11
     new-instance v1, Ljava/util/ArrayList;
 
     const/16 v2, 0xa
@@ -961,7 +891,6 @@
 
     invoke-direct {v1, v2}, Ljava/util/ArrayList;-><init>(I)V
 
-    .line 12
     invoke-interface {v0}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v0
@@ -977,10 +906,8 @@
 
     move-result-object v2
 
-    .line 13
     check-cast v2, Ljava/lang/String;
 
-    .line 14
     sget-object v3, Lcotlinx/coroutines/internal/h;->b:Lcotlinx/coroutines/internal/h;
 
     invoke-direct {v3, v2, p2, p1}, Lcotlinx/coroutines/internal/h;->b(Ljava/lang/String;Ljava/lang/ClassLoader;Ljava/lang/Class;)Ljava/lang/Object;
@@ -994,7 +921,6 @@
     :cond_1
     return-object v1
 
-    .line 15
     :cond_2
     new-instance p1, Ljava/lang/IllegalArgumentException;
 

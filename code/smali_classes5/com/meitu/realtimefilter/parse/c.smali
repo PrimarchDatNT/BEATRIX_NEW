@@ -27,26 +27,20 @@
 .method public constructor <init>()V
     .locals 2
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/4 v0, 0x0
 
-    .line 2
     iput v0, p0, Lcom/meitu/realtimefilter/parse/c;->a:I
 
-    .line 3
     iput-boolean v0, p0, Lcom/meitu/realtimefilter/parse/c;->b:Z
 
     const/4 v1, 0x0
 
-    .line 4
     iput-object v1, p0, Lcom/meitu/realtimefilter/parse/c;->c:Ljava/util/ArrayList;
 
-    .line 5
     iput-object v1, p0, Lcom/meitu/realtimefilter/parse/c;->d:Lcom/meitu/realtimefilter/parse/a;
 
-    .line 6
     iput-boolean v0, p0, Lcom/meitu/realtimefilter/parse/c;->e:Z
 
     return-void
@@ -61,7 +55,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/realtimefilter/parse/c;->a:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -76,7 +69,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/realtimefilter/parse/c;->d:Lcom/meitu/realtimefilter/parse/a;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -99,7 +91,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/realtimefilter/parse/c;->c:Ljava/util/ArrayList;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -114,7 +105,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/meitu/realtimefilter/parse/c;->e:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -129,7 +119,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/meitu/realtimefilter/parse/c;->b:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -153,11 +142,9 @@
     :cond_0
     const/4 p1, 0x0
 
-    .line 1
     :goto_0
     iput-boolean p1, p0, Lcom/meitu/realtimefilter/parse/c;->e:Z
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -170,10 +157,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/meitu/realtimefilter/parse/c;->a:I
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -186,10 +171,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/realtimefilter/parse/c;->d:Lcom/meitu/realtimefilter/parse/a;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -210,7 +193,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p1}, Ljava/util/ArrayList;->iterator()Ljava/util/Iterator;
 
     move-result-object v1
@@ -229,7 +211,6 @@
 
     check-cast v2, Lcom/meitu/realtimefilter/parse/b;
 
-    .line 2
     invoke-virtual {v2}, Lcom/meitu/realtimefilter/parse/b;->e()I
 
     move-result v3
@@ -240,10 +221,8 @@
 
     if-le v3, v4, :cond_1
 
-    .line 3
     iput-boolean v5, p0, Lcom/meitu/realtimefilter/parse/c;->b:Z
 
-    .line 4
     :cond_1
     invoke-virtual {v2}, Lcom/meitu/realtimefilter/parse/b;->i()Ljava/lang/String;
 
@@ -265,16 +244,13 @@
 
     if-eq v2, v3, :cond_0
 
-    .line 5
     iput-boolean v5, p0, Lcom/meitu/realtimefilter/parse/c;->b:Z
 
     goto :goto_0
 
-    .line 6
     :cond_2
     iput-object p1, p0, Lcom/meitu/realtimefilter/parse/c;->c:Ljava/util/ArrayList;
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -287,10 +263,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/meitu/realtimefilter/parse/c;->b:Z
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

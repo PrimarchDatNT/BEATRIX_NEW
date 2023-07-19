@@ -70,7 +70,6 @@
     .annotation build Lcotlin/p0;
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     iput p1, p0, Lcotlin/f1;->a:I
@@ -83,7 +82,6 @@
     .annotation build Lcotlin/internal/f;
     .end annotation
 
-    .line 1
     invoke-static {p0, p1}, Lcotlin/v1;->d(II)I
 
     move-result p0
@@ -100,7 +98,6 @@
 
     and-int/2addr p1, v0
 
-    .line 1
     invoke-static {p1}, Lcotlin/f1;->s(I)I
 
     move-result p1
@@ -174,7 +171,6 @@
 
     add-int/lit8 p0, p0, 0x1
 
-    .line 1
     invoke-static {p0}, Lcotlin/f1;->s(I)I
 
     move-result p0
@@ -189,7 +185,6 @@
 
     not-int p0, p0
 
-    .line 1
     invoke-static {p0}, Lcotlin/f1;->s(I)I
 
     move-result p0
@@ -204,7 +199,6 @@
 
     and-int/lit16 p1, p1, 0xff
 
-    .line 1
     invoke-static {p1}, Lcotlin/f1;->s(I)I
 
     move-result p1
@@ -229,7 +223,6 @@
 
     and-long/2addr v0, v2
 
-    .line 1
     invoke-static {v0, v1}, Lcotlin/j1;->s(J)J
 
     move-result-wide v0
@@ -250,7 +243,6 @@
 
     sub-int/2addr p0, p1
 
-    .line 1
     invoke-static {p0}, Lcotlin/f1;->s(I)I
 
     move-result p0
@@ -267,7 +259,6 @@
 
     and-int/2addr p1, v0
 
-    .line 1
     invoke-static {p1}, Lcotlin/f1;->s(I)I
 
     move-result p1
@@ -288,7 +279,6 @@
 
     or-int/2addr p0, p1
 
-    .line 1
     invoke-static {p0}, Lcotlin/f1;->s(I)I
 
     move-result p0
@@ -303,7 +293,6 @@
 
     and-int/lit16 p1, p1, 0xff
 
-    .line 1
     invoke-static {p1}, Lcotlin/f1;->s(I)I
 
     move-result p1
@@ -328,7 +317,6 @@
 
     and-long/2addr v0, v2
 
-    .line 1
     invoke-static {v0, v1}, Lcotlin/j1;->s(J)J
 
     move-result-wide v0
@@ -349,7 +337,6 @@
 
     add-int/2addr p0, p1
 
-    .line 1
     invoke-static {p0}, Lcotlin/f1;->s(I)I
 
     move-result p0
@@ -366,7 +353,6 @@
 
     and-int/2addr p1, v0
 
-    .line 1
     invoke-static {p1}, Lcotlin/f1;->s(I)I
 
     move-result p1
@@ -385,7 +371,6 @@
     .annotation build Lcotlin/internal/f;
     .end annotation
 
-    .line 1
     new-instance v0, Lcotlin/g2/t;
 
     const/4 v1, 0x0
@@ -402,7 +387,6 @@
 
     and-int/lit16 p1, p1, 0xff
 
-    .line 1
     invoke-static {p1}, Lcotlin/f1;->s(I)I
 
     move-result p1
@@ -425,7 +409,6 @@
 
     and-long/2addr v0, v2
 
-    .line 1
     invoke-static {v0, v1}, Lcotlin/j1;->s(J)J
 
     move-result-wide v0
@@ -444,7 +427,6 @@
 
     and-int/2addr p0, p1
 
-    .line 1
     invoke-static {p0}, Lcotlin/f1;->s(I)I
 
     move-result p0
@@ -457,7 +439,6 @@
     .annotation build Lcotlin/internal/f;
     .end annotation
 
-    .line 1
     invoke-static {p0, p1}, Lcotlin/v1;->e(II)I
 
     move-result p0
@@ -474,7 +455,6 @@
 
     and-int/2addr p1, v0
 
-    .line 1
     invoke-static {p1}, Lcotlin/f1;->s(I)I
 
     move-result p1
@@ -493,7 +473,6 @@
 
     shl-int/2addr p0, p1
 
-    .line 1
     invoke-static {p0}, Lcotlin/f1;->s(I)I
 
     move-result p0
@@ -508,7 +487,6 @@
 
     ushr-int/2addr p0, p1
 
-    .line 1
     invoke-static {p0}, Lcotlin/f1;->s(I)I
 
     move-result p0
@@ -523,7 +501,6 @@
 
     and-int/lit16 p1, p1, 0xff
 
-    .line 1
     invoke-static {p1}, Lcotlin/f1;->s(I)I
 
     move-result p1
@@ -558,7 +535,6 @@
 
     and-long/2addr v0, v2
 
-    .line 1
     invoke-static {v0, v1}, Lcotlin/j1;->s(J)J
 
     move-result-wide v0
@@ -579,7 +555,6 @@
 
     and-int/lit16 p1, p1, 0xff
 
-    .line 1
     invoke-static {p1}, Lcotlin/f1;->s(I)I
 
     move-result p1
@@ -598,7 +573,6 @@
 
     mul-int p0, p0, p1
 
-    .line 1
     invoke-static {p0}, Lcotlin/f1;->s(I)I
 
     move-result p0
@@ -617,7 +591,6 @@
 
     and-long/2addr v0, v2
 
-    .line 1
     invoke-static {v0, v1}, Lcotlin/j1;->s(J)J
 
     move-result-wide v0
@@ -638,7 +611,6 @@
 
     and-int/2addr p1, v0
 
-    .line 1
     invoke-static {p1}, Lcotlin/f1;->s(I)I
 
     move-result p1
@@ -667,7 +639,6 @@
     .annotation build Lcotlin/internal/f;
     .end annotation
 
-    .line 1
     invoke-static {p0}, Lcotlin/v1;->f(I)D
 
     move-result-wide v0
@@ -680,7 +651,6 @@
     .annotation build Lcotlin/internal/f;
     .end annotation
 
-    .line 1
     invoke-static {p0}, Lcotlin/v1;->f(I)D
 
     move-result-wide v0
@@ -695,7 +665,6 @@
     .annotation build Lcotlin/internal/f;
     .end annotation
 
-    .line 1
     iget v0, p0, Lcotlin/f1;->a:I
 
     invoke-static {v0, p1}, Lcotlin/f1;->o(II)I
@@ -718,7 +687,6 @@
     .annotation build Lcotlin/internal/f;
     .end annotation
 
-    .line 1
     invoke-static {p0, p1}, Lcotlin/v1;->c(II)I
 
     move-result p0
@@ -749,7 +717,6 @@
 
     and-int/2addr p1, v0
 
-    .line 1
     invoke-static {p1}, Lcotlin/f1;->s(I)I
 
     move-result p1
@@ -782,7 +749,6 @@
 
     and-long/2addr v0, v2
 
-    .line 1
     invoke-static {v0, v1}, Ljava/lang/String;->valueOf(J)Ljava/lang/String;
 
     move-result-object p0
@@ -797,7 +763,6 @@
 
     int-to-byte p0, p0
 
-    .line 1
     invoke-static {p0}, Lcotlin/b1;->s(B)B
 
     move-result p0
@@ -828,7 +793,6 @@
 
     add-int/lit8 p0, p0, -0x1
 
-    .line 1
     invoke-static {p0}, Lcotlin/f1;->s(I)I
 
     move-result p0
@@ -847,7 +811,6 @@
 
     and-long/2addr v0, v2
 
-    .line 1
     invoke-static {v0, v1}, Lcotlin/j1;->s(J)J
 
     move-result-wide v0
@@ -862,7 +825,6 @@
 
     int-to-short p0, p0
 
-    .line 1
     invoke-static {p0}, Lcotlin/p1;->s(S)S
 
     move-result p0
@@ -877,7 +839,6 @@
 
     and-int/lit16 p1, p1, 0xff
 
-    .line 1
     invoke-static {p1}, Lcotlin/f1;->s(I)I
 
     move-result p1
@@ -900,7 +861,6 @@
 
     and-long/2addr v0, v2
 
-    .line 1
     invoke-static {v0, v1}, Lcotlin/j1;->s(J)J
 
     move-result-wide v0
@@ -919,7 +879,6 @@
 
     xor-int/2addr p0, p1
 
-    .line 1
     invoke-static {p0}, Lcotlin/f1;->s(I)I
 
     move-result p0
@@ -932,7 +891,6 @@
 .method public bridge synthetic compareTo(Ljava/lang/Object;)I
     .locals 0
 
-    .line 1
     check-cast p1, Lcotlin/f1;
 
     invoke-virtual {p1}, Lcotlin/f1;->v0()I
@@ -949,7 +907,6 @@
 .method public equals(Ljava/lang/Object;)Z
     .locals 1
 
-    .line 1
     iget v0, p0, Lcotlin/f1;->a:I
 
     invoke-static {v0, p1}, Lcotlin/f1;->E(ILjava/lang/Object;)Z
@@ -962,7 +919,6 @@
 .method public hashCode()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lcotlin/f1;->a:I
 
     invoke-static {v0}, Lcotlin/f1;->H(I)I
@@ -977,7 +933,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget v0, p0, Lcotlin/f1;->a:I
 
     invoke-static {v0}, Lcotlin/f1;->q0(I)Ljava/lang/String;

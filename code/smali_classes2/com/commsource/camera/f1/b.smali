@@ -19,7 +19,6 @@
 
     const/4 v1, 0x0
 
-    .line 1
     sput-object v1, Lcom/commsource/camera/f1/b;->b:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -30,7 +29,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -45,10 +43,8 @@
 
     const/4 v1, 0x0
 
-    .line 1
     sput-object v1, Lcom/commsource/camera/f1/b;->a:Lcom/commsource/camera/datas/BeautyDefaultConfigVaule;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -61,7 +57,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
     move-result-object v1
@@ -72,7 +67,6 @@
 
     sput-object v1, Lcom/commsource/camera/f1/b;->b:Ljava/lang/String;
 
-    .line 2
     invoke-static {v1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v1
@@ -81,54 +75,45 @@
 
     if-eqz v1, :cond_0
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v2
 
-    .line 4
     :cond_0
     sget-object v1, Lcom/commsource/camera/f1/b;->a:Lcom/commsource/camera/datas/BeautyDefaultConfigVaule;
 
     if-nez v1, :cond_2
 
-    .line 5
     sget-object v1, Lcom/commsource/camera/f1/b;->b:Ljava/lang/String;
 
     invoke-static {p0, v1}, Lf/d/i/i;->P(Landroid/content/Context;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v1
 
-    .line 6
     invoke-static {v1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v3
 
     if-eqz v3, :cond_1
 
-    .line 7
     invoke-static {p0}, Lf/d/i/i;->O(Landroid/content/Context;)Ljava/lang/String;
 
     move-result-object v1
 
-    .line 8
     invoke-static {p0, v1}, Lf/d/i/i;->P(Landroid/content/Context;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v1
 
-    .line 9
     invoke-static {v1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result p0
 
     if-eqz p0, :cond_1
 
-    .line 10
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v2
 
-    .line 11
     :cond_1
     invoke-static {}, Lcom/meitu/webview/utils/c;->b()Lcom/google/gson/Gson;
 
@@ -144,7 +129,6 @@
 
     sput-object p0, Lcom/commsource/camera/f1/b;->a:Lcom/commsource/camera/datas/BeautyDefaultConfigVaule;
 
-    .line 12
     new-instance p0, Ljava/lang/StringBuilder;
 
     invoke-direct {p0}, Ljava/lang/StringBuilder;-><init>()V
@@ -171,7 +155,6 @@
 
     invoke-static {v1, p0}, Lcom/meitu/library/util/Debug/Debug;->e(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 13
     :cond_2
     sget-object p0, Lcom/commsource/camera/f1/b;->a:Lcom/commsource/camera/datas/BeautyDefaultConfigVaule;
 
@@ -187,7 +170,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/meitu/library/application/BaseApplication;->getApplication()Landroid/app/Application;
 
     move-result-object v1
@@ -204,7 +186,6 @@
 
     xor-int/lit8 v1, v1, 0x1
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1

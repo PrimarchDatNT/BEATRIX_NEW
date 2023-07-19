@@ -19,12 +19,10 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Landroidx/fragment/app/Fragment;-><init>()V
 
     const/4 v0, 0x1
 
-    .line 2
     iput-boolean v0, p0, Lcom/meitu/common/base/c/b;->d:Z
 
     return-void
@@ -33,7 +31,6 @@
 .method private w()V
     .locals 1
 
-    .line 1
     iget-boolean v0, p0, Lcom/meitu/common/base/c/b;->a:Z
 
     if-eqz v0, :cond_0
@@ -48,13 +45,10 @@
 
     const/4 v0, 0x0
 
-    .line 2
     iput-boolean v0, p0, Lcom/meitu/common/base/c/b;->d:Z
 
-    .line 3
     invoke-virtual {p0}, Lcom/meitu/common/base/c/b;->x()V
 
-    .line 4
     invoke-virtual {p0}, Lcom/meitu/common/base/c/b;->u()V
 
     :cond_0
@@ -66,10 +60,8 @@
 .method public onAttach(Landroid/app/Activity;)V
     .locals 0
 
-    .line 3
     invoke-super {p0, p1}, Landroidx/fragment/app/Fragment;->onAttach(Landroid/app/Activity;)V
 
-    .line 4
     invoke-virtual {p0, p1}, Lcom/meitu/common/base/c/b;->z(Landroid/content/Context;)V
 
     return-void
@@ -78,10 +70,8 @@
 .method public onAttach(Landroid/content/Context;)V
     .locals 0
 
-    .line 1
     invoke-super {p0, p1}, Landroidx/fragment/app/Fragment;->onAttach(Landroid/content/Context;)V
 
-    .line 2
     invoke-virtual {p0, p1}, Lcom/meitu/common/base/c/b;->z(Landroid/content/Context;)V
 
     return-void
@@ -104,12 +94,10 @@
     .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
-    .line 1
     iget-object p2, p0, Lcom/meitu/common/base/c/b;->f:Landroid/view/View;
 
     if-nez p2, :cond_0
 
-    .line 2
     invoke-virtual {p0}, Lcom/meitu/common/base/c/b;->q()I
 
     move-result p2
@@ -122,7 +110,6 @@
 
     iput-object p1, p0, Lcom/meitu/common/base/c/b;->f:Landroid/view/View;
 
-    .line 3
     :cond_0
     iget-object p1, p0, Lcom/meitu/common/base/c/b;->f:Landroid/view/View;
 
@@ -132,7 +119,6 @@
 .method public onDestroy()V
     .locals 0
 
-    .line 1
     invoke-super {p0}, Landroidx/fragment/app/Fragment;->onDestroy()V
 
     return-void
@@ -149,15 +135,12 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-super {p0, p1, p2}, Landroidx/fragment/app/Fragment;->onViewCreated(Landroid/view/View;Landroid/os/Bundle;)V
 
     const/4 p1, 0x1
 
-    .line 2
     iput-boolean p1, p0, Lcom/meitu/common/base/c/b;->a:Z
 
-    .line 3
     invoke-direct {p0}, Lcom/meitu/common/base/c/b;->w()V
 
     return-void
@@ -169,7 +152,6 @@
 .method protected r()Landroid/view/View;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/meitu/common/base/c/b;->f:Landroid/view/View;
 
     return-object v0
@@ -178,17 +160,14 @@
 .method public setUserVisibleHint(Z)V
     .locals 0
 
-    .line 1
     invoke-super {p0, p1}, Landroidx/fragment/app/Fragment;->setUserVisibleHint(Z)V
 
     if-eqz p1, :cond_0
 
     const/4 p1, 0x1
 
-    .line 2
     iput-boolean p1, p0, Lcom/meitu/common/base/c/b;->c:Z
 
-    .line 3
     invoke-direct {p0}, Lcom/meitu/common/base/c/b;->w()V
 
     goto :goto_0
@@ -196,7 +175,6 @@
     :cond_0
     const/4 p1, 0x0
 
-    .line 4
     iput-boolean p1, p0, Lcom/meitu/common/base/c/b;->c:Z
 
     :goto_0
@@ -212,7 +190,6 @@
 .method public z(Landroid/content/Context;)V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/meitu/common/base/c/b;->b:Landroid/app/Activity;
 
     if-nez v0, :cond_0
@@ -223,7 +200,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 2
     check-cast p1, Landroid/app/Activity;
 
     iput-object p1, p0, Lcom/meitu/common/base/c/b;->b:Landroid/app/Activity;

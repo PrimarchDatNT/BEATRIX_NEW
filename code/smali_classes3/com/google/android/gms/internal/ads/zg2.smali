@@ -26,7 +26,6 @@
 
     const/high16 v2, 0x3f800000    # 1.0f
 
-    .line 1
     invoke-direct {p0, v0, v1, v2}, Lcom/google/android/gms/internal/ads/zg2;-><init>(IIF)V
 
     return-void
@@ -35,22 +34,18 @@
 .method private constructor <init>(IIF)V
     .locals 0
 
-    .line 2
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/16 p1, 0x9c4
 
-    .line 3
     iput p1, p0, Lcom/google/android/gms/internal/ads/zg2;->a:I
 
     const/4 p1, 0x1
 
-    .line 4
     iput p1, p0, Lcom/google/android/gms/internal/ads/zg2;->c:I
 
     const/high16 p1, 0x3f800000    # 1.0f
 
-    .line 5
     iput p1, p0, Lcom/google/android/gms/internal/ads/zg2;->d:F
 
     return-void
@@ -66,7 +61,6 @@
         }
     .end annotation
 
-    .line 1
     iget v0, p0, Lcom/google/android/gms/internal/ads/zg2;->b:I
 
     const/4 v1, 0x1
@@ -75,7 +69,6 @@
 
     iput v0, p0, Lcom/google/android/gms/internal/ads/zg2;->b:I
 
-    .line 2
     iget v2, p0, Lcom/google/android/gms/internal/ads/zg2;->a:I
 
     int-to-float v3, v2
@@ -90,7 +83,6 @@
 
     iput v2, p0, Lcom/google/android/gms/internal/ads/zg2;->a:I
 
-    .line 3
     iget v2, p0, Lcom/google/android/gms/internal/ads/zg2;->c:I
 
     if-gt v0, v2, :cond_0
@@ -105,7 +97,6 @@
 
     return-void
 
-    .line 4
     :cond_1
     throw p1
 .end method
@@ -113,7 +104,6 @@
 .method public final d()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lcom/google/android/gms/internal/ads/zg2;->a:I
 
     return v0
@@ -122,7 +112,6 @@
 .method public final e()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lcom/google/android/gms/internal/ads/zg2;->b:I
 
     return v0

@@ -21,7 +21,6 @@
 
     const-string v1, "GREENDAO"
 
-    .line 1
     sput-object v1, Lf/k/m/i/d;->a:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -32,7 +31,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -45,7 +43,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v9, Ln/a/b/c/e;
 
     const-class v1, Lf/k/m/i/d;
@@ -117,24 +114,19 @@
 
     const/4 v7, 0x0
 
-    .line 1
     :goto_0
     array-length v0, v2
 
     if-ge v7, v0, :cond_7
 
-    .line 2
     aget-object v8, v2, v7
 
-    .line 3
     new-instance v9, Lorg/greenrobot/greendao/k/a;
 
     invoke-direct {v9, v1, v8}, Lorg/greenrobot/greendao/k/a;-><init>(Lorg/greenrobot/greendao/database/a;Ljava/lang/Class;)V
 
-    .line 4
     iget-object v10, v9, Lorg/greenrobot/greendao/k/a;->c:[Lorg/greenrobot/greendao/h;
 
-    .line 5
     :try_start_0
     new-instance v0, Ljava/lang/StringBuilder;
 
@@ -158,17 +150,14 @@
 
     const/4 v12, 0x0
 
-    .line 6
     invoke-virtual {v1, v0, v12}, Lorg/greenrobot/greendao/database/f;->b(Ljava/lang/String;[Ljava/lang/String;)Landroid/database/Cursor;
 
     move-result-object v0
 
-    .line 7
     invoke-interface {v0}, Landroid/database/Cursor;->getColumnNames()[Ljava/lang/String;
 
     move-result-object v13
 
-    .line 8
     new-instance v14, Ljava/util/HashSet;
 
     invoke-static {v13}, Ljava/util/Arrays;->asList([Ljava/lang/Object;)Ljava/util/List;
@@ -177,7 +166,6 @@
 
     invoke-direct {v14, v13}, Ljava/util/HashSet;-><init>(Ljava/util/Collection;)V
 
-    .line 9
     array-length v13, v10
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_3
@@ -195,10 +183,8 @@
     :try_start_1
     aget-object v0, v10, v12
 
-    .line 10
     iget-object v11, v0, Lorg/greenrobot/greendao/h;->e:Ljava/lang/String;
 
-    .line 11
     invoke-virtual {v14, v11}, Ljava/util/HashSet;->contains(Ljava/lang/Object;)Z
 
     move-result v16
@@ -207,7 +193,6 @@
 
     goto :goto_3
 
-    .line 12
     :cond_0
     invoke-static {v0}, Lf/k/m/i/d;->f(Lorg/greenrobot/greendao/h;)Ljava/lang/String;
 
@@ -216,7 +201,6 @@
     .catch Ljava/lang/Exception; {:try_start_1 .. :try_end_1} :catch_2
     .catchall {:try_start_1 .. :try_end_1} :catchall_3
 
-    .line 13
     :try_start_2
     new-instance v5, Ljava/lang/StringBuilder;
 
@@ -246,12 +230,10 @@
 
     move-result-object v0
 
-    .line 14
     sget-object v2, Lf/k/m/i/d;->a:Ljava/lang/String;
 
     invoke-static {v2, v0}, Lf/k/m/j/e;->h(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 15
     invoke-virtual {v1, v0}, Lorg/greenrobot/greendao/database/f;->execSQL(Ljava/lang/String;)V
     :try_end_2
     .catch Ljava/lang/Exception; {:try_start_2 .. :try_end_2} :catch_0
@@ -259,7 +241,6 @@
 
     if-eqz v15, :cond_2
 
-    .line 16
     :try_start_3
     invoke-interface {v15}, Landroid/database/Cursor;->close()V
     :try_end_3
@@ -276,11 +257,9 @@
     :catch_0
     move-exception v0
 
-    .line 17
     :try_start_4
     invoke-virtual {v0}, Ljava/lang/Exception;->printStackTrace()V
 
-    .line 18
     sget-object v2, Lf/k/m/i/d;->a:Ljava/lang/String;
 
     new-instance v5, Ljava/lang/StringBuilder;
@@ -305,7 +284,6 @@
 
     if-eqz v15, :cond_1
 
-    .line 19
     :try_start_5
     invoke-interface {v15}, Landroid/database/Cursor;->close()V
     :try_end_5
@@ -355,7 +333,6 @@
     :cond_3
     const v2, 0xc8b4
 
-    .line 20
     invoke-static {v2}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     throw v0
@@ -368,7 +345,6 @@
 
     goto :goto_5
 
-    .line 21
     :cond_4
     sget-object v0, Lf/k/m/i/d;->a:Ljava/lang/String;
 
@@ -396,14 +372,12 @@
 
     aput-object v8, v0, v5
 
-    .line 22
     invoke-static {v1, v2, v0}, Lf/k/m/i/d;->d(Lorg/greenrobot/greendao/database/f;Z[Ljava/lang/Class;)V
 
     new-array v0, v2, [Ljava/lang/Class;
 
     aput-object v8, v0, v5
 
-    .line 23
     invoke-static {v1, v2, v0}, Lf/k/m/i/d;->c(Lorg/greenrobot/greendao/database/f;Z[Ljava/lang/Class;)V
 
     goto :goto_6
@@ -420,12 +394,10 @@
 
     const/4 v6, 0x0
 
-    .line 24
     :goto_5
     :try_start_7
     invoke-virtual {v0}, Ljava/lang/Exception;->printStackTrace()V
 
-    .line 25
     sget-object v2, Lf/k/m/i/d;->a:Ljava/lang/String;
 
     new-instance v5, Ljava/lang/StringBuilder;
@@ -448,7 +420,6 @@
     :try_end_7
     .catchall {:try_start_7 .. :try_end_7} :catchall_3
 
-    .line 26
     sget-object v0, Lf/k/m/i/d;->a:Ljava/lang/String;
 
     new-instance v2, Ljava/lang/StringBuilder;
@@ -475,14 +446,12 @@
 
     aput-object v8, v0, v5
 
-    .line 27
     invoke-static {v1, v2, v0}, Lf/k/m/i/d;->d(Lorg/greenrobot/greendao/database/f;Z[Ljava/lang/Class;)V
 
     new-array v0, v2, [Ljava/lang/Class;
 
     aput-object v8, v0, v5
 
-    .line 28
     invoke-static {v1, v2, v0}, Lf/k/m/i/d;->c(Lorg/greenrobot/greendao/database/f;Z[Ljava/lang/Class;)V
 
     :cond_5
@@ -498,7 +467,6 @@
     :catchall_3
     move-exception v0
 
-    .line 29
     :goto_7
     sget-object v2, Lf/k/m/i/d;->a:Ljava/lang/String;
 
@@ -526,20 +494,17 @@
 
     aput-object v8, v3, v4
 
-    .line 30
     invoke-static {v1, v2, v3}, Lf/k/m/i/d;->d(Lorg/greenrobot/greendao/database/f;Z[Ljava/lang/Class;)V
 
     new-array v3, v2, [Ljava/lang/Class;
 
     aput-object v8, v3, v4
 
-    .line 31
     invoke-static {v1, v2, v3}, Lf/k/m/i/d;->c(Lorg/greenrobot/greendao/database/f;Z[Ljava/lang/Class;)V
 
     :cond_6
     const v1, 0xc8b4
 
-    .line 32
     invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     throw v0
@@ -547,7 +512,6 @@
     :cond_7
     const v1, 0xc8b4
 
-    .line 33
     invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -577,10 +541,8 @@
 
     const-string v1, "createTable"
 
-    .line 1
     invoke-static {p0, v1, p1, p2}, Lf/k/m/i/d;->h(Lorg/greenrobot/greendao/database/f;Ljava/lang/String;Z[Ljava/lang/Class;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -610,10 +572,8 @@
 
     const-string v1, "dropTable"
 
-    .line 1
     invoke-static {p0, v1, p1, p2}, Lf/k/m/i/d;->h(Lorg/greenrobot/greendao/database/f;Ljava/lang/String;Z[Ljava/lang/Class;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -641,10 +601,8 @@
 
     const/4 v2, 0x1
 
-    .line 1
     invoke-static {p0, v1, v2, p1}, Lf/k/m/i/d;->h(Lorg/greenrobot/greendao/database/f;Ljava/lang/String;Z[Ljava/lang/Class;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -657,10 +615,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lorg/greenrobot/greendao/h;->b:Ljava/lang/Class;
 
-    .line 2
     sget-object v1, Ljava/lang/Long;->TYPE:Ljava/lang/Class;
 
     invoke-virtual {p0, v1}, Ljava/lang/Object;->equals(Ljava/lang/Object;)Z
@@ -695,7 +651,6 @@
 
     sget-object v1, Ljava/lang/Short;->TYPE:Ljava/lang/Class;
 
-    .line 3
     invoke-virtual {p0, v1}, Ljava/lang/Object;->equals(Ljava/lang/Object;)Z
 
     move-result v1
@@ -720,7 +675,6 @@
 
     const-class v1, Ljava/lang/Byte;
 
-    .line 4
     invoke-virtual {p0, v1}, Ljava/lang/Object;->equals(Ljava/lang/Object;)Z
 
     move-result v1
@@ -745,7 +699,6 @@
 
     goto :goto_0
 
-    .line 5
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -753,7 +706,6 @@
 
     return-object p0
 
-    .line 6
     :cond_1
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -770,7 +722,6 @@
 
     invoke-static {p3}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0, p1, p2}, Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p0
@@ -803,19 +754,16 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     array-length v1, p3
 
     const/4 v2, 0x1
 
     if-ge v1, v2, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 3
     :cond_0
     :try_start_0
     array-length v1, p3
@@ -833,7 +781,6 @@
 
     new-array v7, v6, [Ljava/lang/Class;
 
-    .line 4
     const-class v8, Lorg/greenrobot/greendao/database/a;
 
     aput-object v8, v7, v3
@@ -850,7 +797,6 @@
 
     aput-object p0, v7, v3
 
-    .line 5
     invoke-static {p2}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
 
     move-result-object v8
@@ -906,7 +852,6 @@
     :catch_0
     move-exception p0
 
-    .line 6
     invoke-virtual {p0}, Ljava/lang/IllegalAccessException;->printStackTrace()V
 
     goto :goto_1
@@ -914,7 +859,6 @@
     :catch_1
     move-exception p0
 
-    .line 7
     invoke-virtual {p0}, Ljava/lang/reflect/InvocationTargetException;->printStackTrace()V
 
     goto :goto_1
@@ -922,10 +866,8 @@
     :catch_2
     move-exception p0
 
-    .line 8
     invoke-virtual {p0}, Ljava/lang/NoSuchMethodException;->printStackTrace()V
 
-    .line 9
     :cond_1
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -951,18 +893,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lorg/greenrobot/greendao/database/f;
 
     invoke-direct {v1, p0}, Lorg/greenrobot/greendao/database/f;-><init>(Landroid/database/sqlite/SQLiteDatabase;)V
 
-    .line 2
     invoke-static {v1, p1}, Lf/k/m/i/d;->e(Lorg/greenrobot/greendao/database/f;[Ljava/lang/Class;)V
 
-    .line 3
     invoke-static {v1, p1}, Lf/k/m/i/d;->b(Lorg/greenrobot/greendao/database/f;[Ljava/lang/Class;)V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

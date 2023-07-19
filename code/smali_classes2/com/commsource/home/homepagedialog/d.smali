@@ -22,12 +22,10 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/4 v0, 0x1
 
-    .line 2
     iput-boolean v0, p0, Lcom/commsource/home/homepagedialog/d;->a:Z
 
     return-void
@@ -40,7 +38,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/home/homepagedialog/d;->b:Lcom/commsource/home/homepagedialog/b;
 
     if-nez v0, :cond_0
@@ -62,7 +59,6 @@
 .method public d()Z
     .locals 1
 
-    .line 1
     iget-boolean v0, p0, Lcom/commsource/home/homepagedialog/d;->a:Z
 
     return v0
@@ -71,7 +67,6 @@
 .method public final e()Z
     .locals 2
 
-    .line 1
     invoke-static {}, Lcom/commsource/beautyplus/k;->d()Lcom/commsource/beautyplus/k;
 
     move-result-object v0
@@ -84,7 +79,6 @@
 
     move-result-object v0
 
-    .line 2
     instance-of v0, v0, Lcom/commsource/home/NewHomeActivity;
 
     return v0
@@ -104,7 +98,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/home/homepagedialog/d;->b:Lcom/commsource/home/homepagedialog/b;
 
     return-void
@@ -113,7 +106,6 @@
 .method public h(Z)V
     .locals 0
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/home/homepagedialog/d;->a:Z
 
     return-void

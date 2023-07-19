@@ -46,7 +46,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/r0/b0$a;->a:Lcom/commsource/studio/r0/b0;
 
     invoke-virtual {v1}, Lcom/commsource/studio/r0/x;->w()Lcom/meitu/core/MTRtEffectRender;
@@ -57,7 +56,6 @@
 
     invoke-virtual {v1, v2}, Lcom/meitu/core/MTRtEffectRender;->loadBeautyConfig(Ljava/lang/String;)Z
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/r0/b0$a;->a:Lcom/commsource/studio/r0/b0;
 
     invoke-virtual {v1}, Lcom/commsource/studio/r0/x;->w()Lcom/meitu/core/MTRtEffectRender;
@@ -66,7 +64,6 @@
 
     invoke-virtual {v1}, Lcom/meitu/core/MTRtEffectRender;->activeEffect()V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

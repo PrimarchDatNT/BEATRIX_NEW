@@ -31,7 +31,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/function/SegmentFragment$createFaceLabel$1;->R:Lcom/commsource/studio/function/SegmentFragment;
 
     invoke-direct {p0, p2}, Lcom/commsource/studio/layer/FaceLabelLayer;-><init>(Landroid/content/Context;)V
@@ -56,12 +55,10 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/function/SegmentFragment$createFaceLabel$1;->R:Lcom/commsource/studio/function/SegmentFragment;
 
     invoke-static {v1, p1}, Lcom/commsource/studio/function/SegmentFragment;->J1(Lcom/commsource/studio/function/SegmentFragment;Lcom/commsource/studio/layer/FaceOval;)V
 
-    .line 2
     iget-object p1, p0, Lcom/commsource/studio/function/SegmentFragment$createFaceLabel$1;->R:Lcom/commsource/studio/function/SegmentFragment;
 
     invoke-virtual {p1}, Lcom/commsource/studio/function/SegmentFragment;->Y1()Z
@@ -70,7 +67,6 @@
 
     if-eqz p1, :cond_2
 
-    .line 3
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
     move-result-object p1
@@ -81,7 +77,6 @@
 
     if-nez p1, :cond_0
 
-    .line 4
     iget-object p1, p0, Lcom/commsource/studio/function/SegmentFragment$createFaceLabel$1;->R:Lcom/commsource/studio/function/SegmentFragment;
 
     invoke-virtual {p1}, Lcom/commsource/beautyplus/i0/a;->q()Landroidx/fragment/app/FragmentActivity;
@@ -90,12 +85,10 @@
 
     invoke-static {p1}, Lcom/commsource/widget/dialog/s0/t;->Y(Landroid/content/Context;)V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 6
     :cond_0
     invoke-static {}, Lcom/commsource/studio/m0;->S()Z
 
@@ -103,7 +96,6 @@
 
     if-eqz p1, :cond_1
 
-    .line 7
     iget-object p1, p0, Lcom/commsource/studio/function/SegmentFragment$createFaceLabel$1;->R:Lcom/commsource/studio/function/SegmentFragment;
 
     invoke-virtual {p1}, Lcom/commsource/studio/function/SegmentFragment;->g2()V
@@ -117,22 +109,18 @@
 
     const-string v2, "show"
 
-    .line 8
     invoke-static {p1, v1, v2}, Lcom/commsource/statistics/i;->r(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 9
     new-instance p1, Lcom/commsource/widget/dialog/delegate/b;
 
     invoke-direct {p1}, Lcom/commsource/widget/dialog/delegate/b;-><init>()V
 
-    .line 10
     new-instance v1, Lcom/commsource/studio/function/SegmentFragment$createFaceLabel$1$onFaceLabelClick$$inlined$apply$lambda$1;
 
     invoke-direct {v1, p0}, Lcom/commsource/studio/function/SegmentFragment$createFaceLabel$1$onFaceLabelClick$$inlined$apply$lambda$1;-><init>(Lcom/commsource/studio/function/SegmentFragment$createFaceLabel$1;)V
 
     invoke-static {p1, v1}, Lcom/commsource/widget/dialog/delegate/XDialogKt;->i(Lcom/commsource/widget/dialog/delegate/b;Lcotlin/jvm/u/l;)V
 
-    .line 11
     iget-object v1, p0, Lcom/commsource/studio/function/SegmentFragment$createFaceLabel$1;->R:Lcom/commsource/studio/function/SegmentFragment;
 
     invoke-virtual {v1}, Landroidx/fragment/app/Fragment;->getChildFragmentManager()Landroidx/fragment/app/FragmentManager;
@@ -143,7 +131,6 @@
 
     invoke-virtual {p1, v1, v2}, Lf/d/a;->show(Landroidx/fragment/app/FragmentManager;Ljava/lang/String;)V
 
-    .line 12
     :cond_2
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

@@ -35,7 +35,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-direct {p0, p1}, Landroidx/lifecycle/AndroidViewModel;-><init>(Landroid/app/Application;)V
 
     return-void
@@ -58,18 +57,14 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-virtual {p0, p1}, Lcom/commsource/studio/f;->setStoreOwner(Landroidx/lifecycle/ViewModelStoreOwner;)V
 
-    .line 2
     invoke-virtual {p0, p1}, Lcom/commsource/studio/f;->setLifeOwner(Landroidx/lifecycle/LifecycleOwner;)V
 
     const/4 p1, 0x1
 
-    .line 3
     iput-boolean p1, p0, Lcom/commsource/studio/f;->c:Z
 
-    .line 4
     invoke-virtual {p0}, Lcom/commsource/studio/f;->getStoreOwner()Landroidx/lifecycle/ViewModelStoreOwner;
 
     move-result-object p1
@@ -80,7 +75,6 @@
 
     invoke-virtual {p0, p1, v1}, Lcom/commsource/studio/f;->p(Landroidx/lifecycle/ViewModelStoreOwner;Landroidx/lifecycle/LifecycleOwner;)V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -101,18 +95,14 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-virtual {p0, p1}, Lcom/commsource/studio/f;->setStoreOwner(Landroidx/lifecycle/ViewModelStoreOwner;)V
 
-    .line 2
     invoke-virtual {p0, p1}, Lcom/commsource/studio/f;->setLifeOwner(Landroidx/lifecycle/LifecycleOwner;)V
 
     const/4 p1, 0x1
 
-    .line 3
     iput-boolean p1, p0, Lcom/commsource/studio/f;->c:Z
 
-    .line 4
     invoke-virtual {p0}, Lcom/commsource/studio/f;->getStoreOwner()Landroidx/lifecycle/ViewModelStoreOwner;
 
     move-result-object p1
@@ -123,7 +113,6 @@
 
     invoke-virtual {p0, p1, v1}, Lcom/commsource/studio/f;->p(Landroidx/lifecycle/ViewModelStoreOwner;Landroidx/lifecycle/LifecycleOwner;)V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -156,7 +145,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-static {p0, p1}, Lcom/commsource/studio/component/c$a;->a(Lcom/commsource/studio/component/c;Ljava/lang/Class;)Landroidx/lifecycle/AndroidViewModel;
 
     move-result-object p1
@@ -175,7 +163,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/f;->b:Landroidx/lifecycle/LifecycleOwner;
 
     if-nez v1, :cond_0
@@ -199,7 +186,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/f;->a:Landroidx/lifecycle/ViewModelStoreOwner;
 
     if-nez v1, :cond_0
@@ -237,7 +223,6 @@
 
     invoke-static {p2, p1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -258,7 +243,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/f;->b:Landroidx/lifecycle/LifecycleOwner;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -281,7 +265,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/f;->a:Landroidx/lifecycle/ViewModelStoreOwner;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -296,7 +279,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/studio/f;->c:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -311,7 +293,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/studio/f;->c:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

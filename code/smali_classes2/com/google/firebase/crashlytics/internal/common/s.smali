@@ -39,16 +39,12 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/google/firebase/crashlytics/internal/common/s;->b:Ljava/lang/String;
 
-    .line 3
     iput-object p2, p0, Lcom/google/firebase/crashlytics/internal/common/s;->c:Ljava/lang/String;
 
-    .line 4
     iput-object p3, p0, Lcom/google/firebase/crashlytics/internal/common/s;->a:Ljava/io/File;
 
     return-void
@@ -59,7 +55,6 @@
 
     if-eqz p0, :cond_0
 
-    .line 1
     :try_start_0
     invoke-interface {p1}, Ljava/lang/AutoCloseable;->close()V
     :try_end_0
@@ -86,7 +81,6 @@
 
     const/4 v1, 0x0
 
-    .line 1
     :try_start_0
     invoke-virtual {p0}, Lcom/google/firebase/crashlytics/internal/common/s;->getStream()Ljava/io/InputStream;
 
@@ -94,7 +88,6 @@
     :try_end_0
     .catch Ljava/io/IOException; {:try_start_0 .. :try_end_0} :catch_0
 
-    .line 2
     :try_start_1
     new-instance v3, Ljava/io/ByteArrayOutputStream;
 
@@ -102,7 +95,6 @@
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_4
 
-    .line 3
     :try_start_2
     new-instance v4, Ljava/util/zip/GZIPOutputStream;
 
@@ -110,7 +102,6 @@
 
     if-nez v2, :cond_1
 
-    .line 4
     invoke-static {v1, v4}, Lcom/google/firebase/crashlytics/internal/common/s;->c(Ljava/lang/Throwable;Ljava/lang/AutoCloseable;)V
     :try_end_2
     .catchall {:try_start_2 .. :try_end_2} :catchall_2
@@ -130,7 +121,6 @@
     :cond_0
     return-object v1
 
-    .line 5
     :cond_1
     :goto_0
     :try_start_5
@@ -142,23 +132,19 @@
 
     const/4 v6, 0x0
 
-    .line 6
     invoke-virtual {v4, v0, v6, v5}, Ljava/util/zip/GZIPOutputStream;->write([BII)V
 
     goto :goto_0
 
-    .line 7
     :cond_2
     invoke-virtual {v4}, Ljava/util/zip/GZIPOutputStream;->finish()V
 
-    .line 8
     invoke-virtual {v3}, Ljava/io/ByteArrayOutputStream;->toByteArray()[B
 
     move-result-object v0
     :try_end_5
     .catchall {:try_start_5 .. :try_end_5} :catchall_0
 
-    .line 9
     :try_start_6
     invoke-static {v1, v4}, Lcom/google/firebase/crashlytics/internal/common/s;->c(Ljava/lang/Throwable;Ljava/lang/AutoCloseable;)V
     :try_end_6
@@ -182,7 +168,6 @@
     :catchall_0
     move-exception v0
 
-    .line 10
     :try_start_9
     throw v0
     :try_end_9
@@ -191,7 +176,6 @@
     :catchall_1
     move-exception v5
 
-    .line 11
     :try_start_a
     invoke-static {v0, v4}, Lcom/google/firebase/crashlytics/internal/common/s;->c(Ljava/lang/Throwable;Ljava/lang/AutoCloseable;)V
 
@@ -202,7 +186,6 @@
     :catchall_2
     move-exception v0
 
-    .line 12
     :try_start_b
     throw v0
     :try_end_b
@@ -211,7 +194,6 @@
     :catchall_3
     move-exception v4
 
-    .line 13
     :try_start_c
     invoke-static {v0, v3}, Lcom/google/firebase/crashlytics/internal/common/s;->c(Ljava/lang/Throwable;Ljava/lang/AutoCloseable;)V
 
@@ -222,7 +204,6 @@
     :catchall_4
     move-exception v0
 
-    .line 14
     :try_start_d
     throw v0
     :try_end_d
@@ -233,7 +214,6 @@
 
     if-eqz v2, :cond_4
 
-    .line 15
     :try_start_e
     invoke-static {v0, v2}, Lcom/google/firebase/crashlytics/internal/common/s;->c(Ljava/lang/Throwable;Ljava/lang/AutoCloseable;)V
 
@@ -253,31 +233,26 @@
     .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Lcom/google/firebase/crashlytics/internal/common/s;->d()[B
 
     move-result-object v0
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-static {}, Lcom/google/firebase/crashlytics/internal/model/CrashlyticsReport$d$b;->a()Lcom/google/firebase/crashlytics/internal/model/CrashlyticsReport$d$b$a;
 
     move-result-object v1
 
-    .line 3
     invoke-virtual {v1, v0}, Lcom/google/firebase/crashlytics/internal/model/CrashlyticsReport$d$b$a;->b([B)Lcom/google/firebase/crashlytics/internal/model/CrashlyticsReport$d$b$a;
 
     move-result-object v0
 
     iget-object v1, p0, Lcom/google/firebase/crashlytics/internal/common/s;->b:Ljava/lang/String;
 
-    .line 4
     invoke-virtual {v0, v1}, Lcom/google/firebase/crashlytics/internal/model/CrashlyticsReport$d$b$a;->c(Ljava/lang/String;)Lcom/google/firebase/crashlytics/internal/model/CrashlyticsReport$d$b$a;
 
     move-result-object v0
 
-    .line 5
     invoke-virtual {v0}, Lcom/google/firebase/crashlytics/internal/model/CrashlyticsReport$d$b$a;->a()Lcom/google/firebase/crashlytics/internal/model/CrashlyticsReport$d$b;
 
     move-result-object v0
@@ -296,7 +271,6 @@
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/crashlytics/internal/common/s;->c:Ljava/lang/String;
 
     return-object v0
@@ -307,7 +281,6 @@
     .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/crashlytics/internal/common/s;->a:Ljava/io/File;
 
     invoke-virtual {v0}, Ljava/io/File;->exists()Z
@@ -328,7 +301,6 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     :try_start_0
     new-instance v0, Ljava/io/FileInputStream;

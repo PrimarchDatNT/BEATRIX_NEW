@@ -18,7 +18,6 @@
 
     const-string v0, "DigitalDocument"
 
-    .line 1
     invoke-direct {p0, v0}, Lcom/google/firebase/appindexing/g/i;-><init>(Ljava/lang/String;)V
 
     return-void
@@ -27,7 +26,6 @@
 .method constructor <init>(Ljava/lang/String;)V
     .locals 0
 
-    .line 2
     invoke-direct {p0, p1}, Lcom/google/firebase/appindexing/g/i;-><init>(Ljava/lang/String;)V
 
     return-void
@@ -44,7 +42,6 @@
 
     const-string v0, "author"
 
-    .line 1
     invoke-virtual {p0, v0, p1}, Lcom/google/firebase/appindexing/g/i;->d(Ljava/lang/String;[Lcom/google/firebase/appindexing/g/i;)Lcom/google/firebase/appindexing/g/i;
 
     move-result-object p1
@@ -65,7 +62,6 @@
 
     new-array v0, v0, [J
 
-    .line 1
     invoke-virtual {p1}, Ljava/util/Date;->getTime()J
 
     move-result-wide v1
@@ -96,7 +92,6 @@
 
     new-array v0, v0, [J
 
-    .line 1
     invoke-virtual {p1}, Ljava/util/Date;->getTime()J
 
     move-result-wide v1
@@ -125,7 +120,6 @@
 
     const-string v0, "hasDigitalDocumentPermission"
 
-    .line 1
     invoke-virtual {p0, v0, p1}, Lcom/google/firebase/appindexing/g/i;->d(Ljava/lang/String;[Lcom/google/firebase/appindexing/g/i;)Lcom/google/firebase/appindexing/g/i;
 
     move-result-object p1
@@ -152,7 +146,6 @@
 
     const-string p1, "text"
 
-    .line 1
     invoke-virtual {p0, p1, v0}, Lcom/google/firebase/appindexing/g/i;->e(Ljava/lang/String;[Ljava/lang/String;)Lcom/google/firebase/appindexing/g/i;
 
     move-result-object p1

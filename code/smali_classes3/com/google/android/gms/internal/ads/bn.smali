@@ -30,15 +30,12 @@
 .method public final d(Ljava/lang/Object;)Lcom/google/android/gms/internal/ads/rq1;
     .locals 0
 
-    .line 1
     iget-object p1, p0, Lcom/google/android/gms/internal/ads/bn;->b:Landroid/net/Uri;
 
-    .line 2
     invoke-static {p1}, Lcom/google/android/gms/internal/ads/cn;->d0(Landroid/net/Uri;)Ljava/util/Map;
 
     move-result-object p1
 
-    .line 3
     invoke-static {p1}, Lcom/google/android/gms/internal/ads/jq1;->g(Ljava/lang/Object;)Lcom/google/android/gms/internal/ads/rq1;
 
     move-result-object p1

@@ -13,7 +13,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -46,14 +45,12 @@
 
     const-string v1, "photo_type"
 
-    .line 1
     invoke-virtual {p2, v1}, Lcom/commsource/beautyplus/router/RouterEntity;->getParameter(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v1
 
     const-string v2, "photo_url"
 
-    .line 2
     invoke-virtual {p2, v2}, Lcom/commsource/beautyplus/router/RouterEntity;->getParameter(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v3
@@ -64,7 +61,6 @@
 
     const-string v5, "photo_user"
 
-    .line 3
     invoke-static {v5, v1}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v5
@@ -73,7 +69,6 @@
 
     if-eqz v5, :cond_1
 
-    .line 4
     invoke-static {v2, v1, v4}, Lcotlin/text/m;->I1(Ljava/lang/String;Ljava/lang/String;Z)Z
 
     move-result v1
@@ -82,14 +77,12 @@
 
     if-eqz v1, :cond_2
 
-    .line 5
     invoke-static {v3}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v1
 
     if-nez v1, :cond_2
 
-    .line 6
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -121,7 +114,6 @@
 
     move-result-object v1
 
-    .line 7
     invoke-static {v1}, Lcom/meitu/library/p/g/b;->y(Ljava/lang/String;)Z
 
     move-result v3
@@ -141,7 +133,6 @@
 
     if-eqz v7, :cond_3
 
-    .line 8
     sget-object v5, Lcom/commsource/studio/ImageStudioActivity;->b0:Lcom/commsource/studio/ImageStudioActivity$a;
 
     const/4 v9, 0x0
@@ -158,17 +149,14 @@
 
     goto :goto_1
 
-    .line 9
     :cond_3
     sget-object v1, Lcom/commsource/mypage/album/BpAlbumJumpRouter;->a:Lcom/commsource/mypage/album/BpAlbumJumpRouter;
 
     invoke-virtual {v1, p1, p2, v4}, Lcom/commsource/mypage/album/BpAlbumJumpRouter;->n(Landroid/app/Activity;Lcom/commsource/beautyplus/router/RouterEntity;Z)V
 
-    .line 10
     :goto_1
     invoke-static {p1}, Lcom/commsource/util/h2;->c(Landroid/app/Activity;)V
 
-    .line 11
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v4

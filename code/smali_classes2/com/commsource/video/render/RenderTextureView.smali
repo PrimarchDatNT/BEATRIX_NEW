@@ -76,22 +76,18 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 2
     invoke-direct {p0, p1, p2}, Landroid/view/TextureView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
     const-string p1, "RenderTextureView"
 
-    .line 3
     iput-object p1, p0, Lcom/commsource/video/render/RenderTextureView;->a:Ljava/lang/String;
 
-    .line 4
     new-instance p1, Lcom/commsource/video/render/d;
 
     invoke-direct {p1}, Lcom/commsource/video/render/d;-><init>()V
 
     iput-object p1, p0, Lcom/commsource/video/render/RenderTextureView;->c:Lcom/commsource/video/render/d;
 
-    .line 5
     new-instance p1, Lcom/commsource/video/render/RenderTextureView$b;
 
     invoke-direct {p1, p0}, Lcom/commsource/video/render/RenderTextureView$b;-><init>(Lcom/commsource/video/render/RenderTextureView;)V
@@ -110,7 +106,6 @@
 
     const/4 p2, 0x0
 
-    .line 1
     :cond_0
     invoke-direct {p0, p1, p2}, Lcom/commsource/video/render/RenderTextureView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
@@ -124,7 +119,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/video/render/RenderTextureView;->b:Lcom/commsource/video/render/b;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -139,7 +133,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/video/render/RenderTextureView;->d:Landroid/graphics/SurfaceTexture;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -154,7 +147,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/video/render/RenderTextureView;->p:Landroid/view/Surface;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -169,7 +161,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/video/render/RenderTextureView;->b:Lcom/commsource/video/render/b;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -184,7 +175,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/video/render/RenderTextureView;->d:Landroid/graphics/SurfaceTexture;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -199,7 +189,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/video/render/RenderTextureView;->p:Landroid/view/Surface;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -220,15 +209,12 @@
 
     if-lez p2, :cond_0
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/video/render/RenderTextureView;->c:Lcom/commsource/video/render/d;
 
     invoke-virtual {v1, p1, p2}, Lcom/commsource/video/render/d;->g(II)V
 
-    .line 2
     invoke-virtual {p0}, Landroid/view/TextureView;->requestLayout()V
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -242,15 +228,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/video/render/RenderTextureView;->c:Lcom/commsource/video/render/d;
 
     invoke-virtual {v1, p1, p2}, Lcom/commsource/video/render/d;->h(II)V
 
-    .line 2
     invoke-virtual {p0}, Landroid/view/TextureView;->requestLayout()V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -263,7 +246,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/video/render/RenderTextureView;->g:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -282,15 +264,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/video/render/RenderTextureView;->c:Lcom/commsource/video/render/d;
 
     invoke-virtual {v1, p1}, Lcom/commsource/video/render/d;->e(I)V
 
-    .line 2
     invoke-virtual {p0}, Landroid/view/TextureView;->requestLayout()V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -374,7 +353,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/video/render/RenderTextureView;->d:Landroid/graphics/SurfaceTexture;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -391,7 +369,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
@@ -406,7 +383,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/video/render/RenderTextureView;->a:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -421,7 +397,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/video/render/RenderTextureView;->f:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -436,10 +411,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0}, Landroid/view/TextureView;->onAttachedToWindow()V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -452,20 +425,16 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0}, Landroid/view/TextureView;->onDetachedFromWindow()V
 
-    .line 2
     sget v1, Landroid/os/Build$VERSION;->SDK_INT:I
 
     const/16 v2, 0x13
 
     if-gt v1, v2, :cond_0
 
-    .line 3
     invoke-virtual {p0}, Lcom/commsource/video/render/RenderTextureView;->release()V
 
-    .line 4
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -479,12 +448,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/video/render/RenderTextureView;->c:Lcom/commsource/video/render/d;
 
     invoke-virtual {v1, p1, p2}, Lcom/commsource/video/render/d;->a(II)V
 
-    .line 2
     iget-object p1, p0, Lcom/commsource/video/render/RenderTextureView;->c:Lcom/commsource/video/render/d;
 
     invoke-virtual {p1}, Lcom/commsource/video/render/d;->c()I
@@ -499,7 +466,6 @@
 
     invoke-virtual {p0, p1, p2}, Landroid/view/TextureView;->setMeasuredDimension(II)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -512,14 +478,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/commsource/video/render/RenderTextureView$b;
 
     invoke-direct {v1, p0}, Lcom/commsource/video/render/RenderTextureView$b;-><init>(Lcom/commsource/video/render/RenderTextureView;)V
 
     invoke-virtual {p0, v1}, Landroid/view/TextureView;->setSurfaceTextureListener(Landroid/view/TextureView$SurfaceTextureListener;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -532,7 +496,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/video/render/RenderTextureView;->d:Landroid/graphics/SurfaceTexture;
 
     if-eqz v1, :cond_0
@@ -542,29 +505,23 @@
     :cond_0
     const/4 v1, 0x0
 
-    .line 2
     iput-object v1, p0, Lcom/commsource/video/render/RenderTextureView;->d:Landroid/graphics/SurfaceTexture;
 
-    .line 3
     iget-object v2, p0, Lcom/commsource/video/render/RenderTextureView;->p:Landroid/view/Surface;
 
     if-eqz v2, :cond_1
 
     invoke-virtual {v2}, Landroid/view/Surface;->release()V
 
-    .line 4
     :cond_1
     iput-object v1, p0, Lcom/commsource/video/render/RenderTextureView;->p:Landroid/view/Surface;
 
-    .line 5
     invoke-virtual {p0, v1}, Landroid/view/TextureView;->setSurfaceTextureListener(Landroid/view/TextureView$SurfaceTextureListener;)V
 
     const/4 v1, 0x1
 
-    .line 6
     iput-boolean v1, p0, Lcom/commsource/video/render/RenderTextureView;->g:Z
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -581,10 +538,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/video/render/RenderTextureView;->b:Lcom/commsource/video/render/b;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -597,7 +552,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/video/render/RenderTextureView;->f:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -612,17 +566,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/video/render/RenderTextureView;->c:Lcom/commsource/video/render/d;
 
     invoke-virtual {v1, p1}, Lcom/commsource/video/render/d;->f(I)V
 
     int-to-float p1, p1
 
-    .line 2
     invoke-virtual {p0, p1}, Landroid/view/TextureView;->setRotation(F)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

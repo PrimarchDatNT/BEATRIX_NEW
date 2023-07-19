@@ -21,7 +21,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/util/concurrent/CancellationException;
 
     invoke-direct {v0, p0}, Ljava/util/concurrent/CancellationException;-><init>(Ljava/lang/String;)V
@@ -42,7 +41,6 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-static {p0, p1}, Lcotlin/l;->a(Ljava/lang/Throwable;Ljava/lang/Throwable;)V
 
     return-void

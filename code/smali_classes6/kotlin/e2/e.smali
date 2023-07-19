@@ -19,7 +19,6 @@
         version = "1.3"
     .end annotation
 
-    .line 1
     invoke-static {p0, p1}, Lcotlin/z1/h;->b(II)I
 
     move-result p0
@@ -39,7 +38,6 @@
         version = "1.3"
     .end annotation
 
-    .line 1
     invoke-static {p0, p1, p2, p3}, Lcotlin/z1/h;->j(JJ)J
 
     move-result-wide p0
@@ -59,7 +57,6 @@
         version = "1.3"
     .end annotation
 
-    .line 1
     invoke-static {p0, p1}, Lcotlin/z1/h;->n(II)I
 
     move-result p0
@@ -79,7 +76,6 @@
         version = "1.3"
     .end annotation
 
-    .line 1
     invoke-static {p0, p1, p2, p3}, Lcotlin/z1/h;->v(JJ)J
 
     move-result-wide p0

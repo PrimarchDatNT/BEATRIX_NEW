@@ -26,7 +26,6 @@
 .method public constructor <init>(Lorg/greenrobot/eventbus/util/b;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1}, Lorg/greenrobot/eventbus/util/c;-><init>(Lorg/greenrobot/eventbus/util/b;)V
 
     return-void
@@ -37,7 +36,6 @@
 .method protected bridge synthetic a(Lorg/greenrobot/eventbus/util/f;Landroid/os/Bundle;)Ljava/lang/Object;
     .locals 0
 
-    .line 1
     invoke-virtual {p0, p1, p2}, Lorg/greenrobot/eventbus/util/c$b;->e(Lorg/greenrobot/eventbus/util/f;Landroid/os/Bundle;)Landroidx/fragment/app/Fragment;
 
     move-result-object p1
@@ -48,12 +46,10 @@
 .method protected e(Lorg/greenrobot/eventbus/util/f;Landroid/os/Bundle;)Landroidx/fragment/app/Fragment;
     .locals 0
 
-    .line 1
     new-instance p1, Lorg/greenrobot/eventbus/util/ErrorDialogFragments$a;
 
     invoke-direct {p1}, Lorg/greenrobot/eventbus/util/ErrorDialogFragments$a;-><init>()V
 
-    .line 2
     invoke-virtual {p1, p2}, Landroidx/fragment/app/Fragment;->setArguments(Landroid/os/Bundle;)V
 
     return-object p1

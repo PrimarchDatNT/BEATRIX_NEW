@@ -54,7 +54,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Ljava/lang/Number;
 
     invoke-virtual {p1}, Ljava/lang/Number;->intValue()I
@@ -77,7 +76,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/LayerManageListLayout$$special$$inlined$apply$lambda$1;->this$0:Lcom/commsource/studio/LayerManageListLayout;
 
     invoke-virtual {v1}, Lcom/commsource/studio/LayerManageListLayout;->getScrollLength()I
@@ -86,7 +84,6 @@
 
     sub-int v1, p1, v1
 
-    .line 3
     iget-object v2, p0, Lcom/commsource/studio/LayerManageListLayout$$special$$inlined$apply$lambda$1;->this$0:Lcom/commsource/studio/LayerManageListLayout;
 
     invoke-virtual {v2}, Lcom/commsource/studio/LayerManageListLayout;->getCurrentDragLayerInfoItem()Lcom/commsource/studio/LayerManageListLayout$DragLayerInfoItem;
@@ -99,18 +96,15 @@
 
     invoke-virtual {v2, v3, v1}, Lcom/commsource/studio/LayerManageListLayout$DragLayerInfoItem;->o(II)V
 
-    .line 4
     :cond_0
     iget-object v1, p0, Lcom/commsource/studio/LayerManageListLayout$$special$$inlined$apply$lambda$1;->this$0:Lcom/commsource/studio/LayerManageListLayout;
 
     invoke-virtual {v1, p1}, Lcom/commsource/studio/LayerManageListLayout;->setScrollLength(I)V
 
-    .line 5
     iget-object p1, p0, Lcom/commsource/studio/LayerManageListLayout$$special$$inlined$apply$lambda$1;->this$0:Lcom/commsource/studio/LayerManageListLayout;
 
     invoke-static {p1}, Lcom/commsource/studio/LayerManageListLayout;->l(Lcom/commsource/studio/LayerManageListLayout;)V
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

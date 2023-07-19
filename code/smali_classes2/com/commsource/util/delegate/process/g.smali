@@ -52,7 +52,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/util/p2/b;-><init>()V
 
     iput-object p1, p0, Lcom/commsource/util/delegate/process/g;->a:Lcom/commsource/camera/fastcapture/SelfiePhotoData;
@@ -73,7 +72,6 @@
 
     if-ne p1, p2, :cond_0
 
-    .line 1
     invoke-static {}, Lf/d/i/o;->o0()Z
 
     move-result p1
@@ -97,7 +95,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     new-instance v0, Landroid/content/Intent;
 
     invoke-virtual {p1}, Landroidx/fragment/app/Fragment;->getContext()Landroid/content/Context;
@@ -108,12 +105,10 @@
 
     invoke-direct {v0, v1, v2}, Landroid/content/Intent;-><init>(Landroid/content/Context;Ljava/lang/Class;)V
 
-    .line 2
     new-instance v1, Ljava/util/LinkedList;
 
     invoke-direct {v1}, Ljava/util/LinkedList;-><init>()V
 
-    .line 3
     new-instance v2, Ljava/lang/StringBuilder;
 
     invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
@@ -134,7 +129,6 @@
 
     move-result-object v2
 
-    .line 4
     sget-object v3, Lcom/commsource/util/delegate/process/g;->c:Lcom/commsource/util/delegate/process/g$a;
 
     iget-object v4, p0, Lcom/commsource/util/delegate/process/g;->a:Lcom/commsource/camera/fastcapture/SelfiePhotoData;
@@ -151,7 +145,6 @@
 
     if-eqz v4, :cond_3
 
-    .line 5
     sget-object v4, Lcom/commsource/home/HomeDeepLinkAnalyze;->g:Lcom/commsource/home/HomeDeepLinkAnalyze$a;
 
     invoke-virtual {v4}, Lcom/commsource/home/HomeDeepLinkAnalyze$a;->b()Lcom/commsource/home/HomeDeepLinkAnalyze;
@@ -164,7 +157,6 @@
 
     if-eqz v4, :cond_2
 
-    .line 6
     invoke-virtual {v4}, Lcotlin/Pair;->getFirst()Ljava/lang/Object;
 
     move-result-object v8
@@ -201,18 +193,15 @@
     :goto_1
     if-eqz v4, :cond_2
 
-    .line 7
     invoke-virtual {v4}, Lcotlin/Pair;->getSecond()Ljava/lang/Object;
 
     move-result-object v2
 
     check-cast v2, Ljava/lang/String;
 
-    .line 8
     :cond_2
     invoke-virtual {v1, v2}, Ljava/util/LinkedList;->add(Ljava/lang/Object;)Z
 
-    .line 9
     :cond_3
     iget-object v4, p0, Lcom/commsource/util/delegate/process/g;->a:Lcom/commsource/camera/fastcapture/SelfiePhotoData;
 
@@ -222,7 +211,6 @@
 
     if-eqz v4, :cond_7
 
-    .line 10
     new-instance v4, Ljava/lang/StringBuilder;
 
     invoke-direct {v4}, Ljava/lang/StringBuilder;-><init>()V
@@ -243,7 +231,6 @@
 
     move-result-object v4
 
-    .line 11
     sget-object v8, Lcom/commsource/home/HomeDeepLinkAnalyze;->g:Lcom/commsource/home/HomeDeepLinkAnalyze$a;
 
     invoke-virtual {v8}, Lcom/commsource/home/HomeDeepLinkAnalyze$a;->b()Lcom/commsource/home/HomeDeepLinkAnalyze;
@@ -256,7 +243,6 @@
 
     if-eqz v8, :cond_6
 
-    .line 12
     invoke-virtual {v8}, Lcotlin/Pair;->getFirst()Ljava/lang/Object;
 
     move-result-object v9
@@ -293,18 +279,15 @@
     :goto_3
     if-eqz v8, :cond_6
 
-    .line 13
     invoke-virtual {v8}, Lcotlin/Pair;->getSecond()Ljava/lang/Object;
 
     move-result-object v4
 
     check-cast v4, Ljava/lang/String;
 
-    .line 14
     :cond_6
     invoke-virtual {v1, v4}, Ljava/util/LinkedList;->add(Ljava/lang/Object;)Z
 
-    .line 15
     :cond_7
     iget-object v4, p0, Lcom/commsource/util/delegate/process/g;->a:Lcom/commsource/camera/fastcapture/SelfiePhotoData;
 
@@ -314,7 +297,6 @@
 
     if-eqz v3, :cond_b
 
-    .line 16
     iget-object v3, p0, Lcom/commsource/util/delegate/process/g;->a:Lcom/commsource/camera/fastcapture/SelfiePhotoData;
 
     invoke-virtual {v3}, Lcom/commsource/camera/fastcapture/SelfiePhotoData;->getMakeupWrappers()Landroid/util/SparseArray;
@@ -327,7 +309,6 @@
 
     if-eqz v3, :cond_9
 
-    .line 17
     invoke-virtual {v3}, Landroid/util/SparseArray;->size()I
 
     move-result v9
@@ -337,7 +318,6 @@
     :goto_4
     if-ge v10, v9, :cond_9
 
-    .line 18
     invoke-virtual {v3, v10}, Landroid/util/SparseArray;->valueAt(I)Ljava/lang/Object;
 
     move-result-object v11
@@ -346,7 +326,6 @@
 
     if-eqz v11, :cond_8
 
-    .line 19
     invoke-virtual {v11}, Lcom/commsource/repository/child/makeup/h;->W()Z
 
     move-result v12
@@ -359,7 +338,6 @@
 
     if-eqz v12, :cond_8
 
-    .line 20
     new-instance v12, Ljava/lang/StringBuilder;
 
     invoke-direct {v12}, Ljava/lang/StringBuilder;-><init>()V
@@ -385,7 +363,6 @@
 
     goto :goto_4
 
-    .line 21
     :cond_9
     iget-object v3, p0, Lcom/commsource/util/delegate/process/g;->a:Lcom/commsource/camera/fastcapture/SelfiePhotoData;
 
@@ -395,7 +372,6 @@
 
     if-eqz v3, :cond_b
 
-    .line 22
     invoke-virtual {v3}, Landroid/util/SparseArray;->size()I
 
     move-result v9
@@ -405,7 +381,6 @@
     :goto_5
     if-ge v10, v9, :cond_b
 
-    .line 23
     invoke-virtual {v3, v10}, Landroid/util/SparseArray;->valueAt(I)Ljava/lang/Object;
 
     move-result-object v11
@@ -414,7 +389,6 @@
 
     if-eqz v11, :cond_a
 
-    .line 24
     invoke-virtual {v11}, Lcom/commsource/repository/child/makeup/h;->W()Z
 
     move-result v12
@@ -427,7 +401,6 @@
 
     if-eqz v12, :cond_a
 
-    .line 25
     new-instance v12, Ljava/lang/StringBuilder;
 
     invoke-direct {v12}, Ljava/lang/StringBuilder;-><init>()V
@@ -453,7 +426,6 @@
 
     goto :goto_5
 
-    .line 26
     :cond_b
     sget-object v3, Lcom/commsource/util/delegate/process/g;->c:Lcom/commsource/util/delegate/process/g$a;
 
@@ -465,7 +437,6 @@
 
     if-eqz v3, :cond_d
 
-    .line 27
     new-instance v3, Ljava/lang/StringBuilder;
 
     invoke-direct {v3}, Ljava/lang/StringBuilder;-><init>()V
@@ -497,10 +468,8 @@
 
     move-result-object v3
 
-    .line 28
     invoke-virtual {v1, v3}, Ljava/util/LinkedList;->add(Ljava/lang/Object;)Z
 
-    .line 29
     :cond_d
     invoke-virtual {v1}, Ljava/util/LinkedList;->isEmpty()Z
 
@@ -508,10 +477,8 @@
 
     if-eqz v3, :cond_e
 
-    .line 30
     invoke-virtual {v1, v2}, Ljava/util/LinkedList;->add(Ljava/lang/Object;)Z
 
-    .line 31
     :cond_e
     invoke-static {v1}, Lcom/commsource/camera/f1/q;->f(Ljava/util/Collection;)Z
 
@@ -519,7 +486,6 @@
 
     if-nez v2, :cond_f
 
-    .line 32
     invoke-virtual {v1, v7}, Ljava/util/LinkedList;->get(I)Ljava/lang/Object;
 
     move-result-object v2
@@ -530,7 +496,6 @@
 
     invoke-virtual {v0, v3, v2}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
 
-    .line 33
     :cond_f
     invoke-virtual {v1}, Ljava/util/LinkedList;->size()I
 
@@ -540,7 +505,6 @@
 
     new-array v2, v7, [Ljava/lang/String;
 
-    .line 34
     invoke-interface {v1, v2}, Ljava/util/Collection;->toArray([Ljava/lang/Object;)[Ljava/lang/Object;
 
     move-result-object v1
@@ -553,16 +517,13 @@
 
     const-string v2, "MultipleSources"
 
-    .line 35
     invoke-virtual {v0, v2, v1}, Landroid/content/Intent;->putExtra(Ljava/lang/String;[Ljava/lang/String;)Landroid/content/Intent;
 
     :cond_10
     const/16 v1, 0x25
 
-    .line 36
     invoke-virtual {p1, v0, v1}, Landroidx/fragment/app/Fragment;->startActivityForResult(Landroid/content/Intent;I)V
 
-    .line 37
     invoke-virtual {p1}, Landroidx/fragment/app/Fragment;->getContext()Landroid/content/Context;
 
     move-result-object p1
@@ -590,7 +551,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/util/delegate/process/g;->a:Lcom/commsource/camera/fastcapture/SelfiePhotoData;
 
     return-object v0

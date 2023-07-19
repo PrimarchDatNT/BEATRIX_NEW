@@ -40,7 +40,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcotlin/text/MatcherMatchResult$groups$1;->a:Lcotlin/text/MatcherMatchResult;
 
     invoke-direct {p0}, Lcotlin/collections/AbstractCollection;-><init>()V
@@ -53,7 +52,6 @@
 .method public b()I
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcotlin/text/MatcherMatchResult$groups$1;->a:Lcotlin/text/MatcherMatchResult;
 
     invoke-static {v0}, Lcotlin/text/MatcherMatchResult;->d(Lcotlin/text/MatcherMatchResult;)Ljava/util/regex/MatchResult;
@@ -72,7 +70,6 @@
 .method public bridge c(Lcotlin/text/h;)Z
     .locals 0
 
-    .line 1
     invoke-super {p0, p1}, Lcotlin/collections/AbstractCollection;->contains(Ljava/lang/Object;)Z
 
     move-result p1
@@ -85,7 +82,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     instance-of v0, p1, Lcotlin/text/h;
 
     goto :goto_0
@@ -115,7 +111,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcotlin/text/MatcherMatchResult$groups$1;->a:Lcotlin/text/MatcherMatchResult;
 
     invoke-static {v0}, Lcotlin/text/MatcherMatchResult;->d(Lcotlin/text/MatcherMatchResult;)Ljava/util/regex/MatchResult;
@@ -126,7 +121,6 @@
 
     move-result-object v0
 
-    .line 2
     invoke-virtual {v0}, Lcotlin/g2/k;->m()Ljava/lang/Integer;
 
     move-result-object v1
@@ -137,7 +131,6 @@
 
     if-ltz v1, :cond_0
 
-    .line 3
     new-instance v1, Lcotlin/text/h;
 
     iget-object v2, p0, Lcotlin/text/MatcherMatchResult$groups$1;->a:Lcotlin/text/MatcherMatchResult;
@@ -178,7 +171,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 4
     sget-object v0, Lcotlin/internal/l;->a:Lcotlin/internal/k;
 
     iget-object v1, p0, Lcotlin/text/MatcherMatchResult$groups$1;->a:Lcotlin/text/MatcherMatchResult;
@@ -216,7 +208,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     invoke-static {p0}, Lcotlin/collections/s;->F(Ljava/util/Collection;)Lcotlin/g2/k;
 
     move-result-object v0

@@ -25,47 +25,38 @@
 .method public constructor <init>()V
     .locals 2
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/4 v0, 0x0
 
-    .line 2
     iput v0, p0, Lcom/google/android/gms/internal/ads/yv0;->a:I
 
     const-wide/16 v0, 0x0
 
-    .line 3
     iput-wide v0, p0, Lcom/google/android/gms/internal/ads/yv0;->b:J
 
-    .line 4
     iput-wide v0, p0, Lcom/google/android/gms/internal/ads/yv0;->c:J
 
-    .line 5
     iput-wide v0, p0, Lcom/google/android/gms/internal/ads/yv0;->d:J
 
-    .line 6
     new-instance v0, Ljava/lang/Object;
 
     invoke-direct {v0}, Ljava/lang/Object;-><init>()V
 
     iput-object v0, p0, Lcom/google/android/gms/internal/ads/yv0;->e:Ljava/lang/Object;
 
-    .line 7
     new-instance v0, Ljava/lang/Object;
 
     invoke-direct {v0}, Ljava/lang/Object;-><init>()V
 
     iput-object v0, p0, Lcom/google/android/gms/internal/ads/yv0;->f:Ljava/lang/Object;
 
-    .line 8
     new-instance v0, Ljava/lang/Object;
 
     invoke-direct {v0}, Ljava/lang/Object;-><init>()V
 
     iput-object v0, p0, Lcom/google/android/gms/internal/ads/yv0;->g:Ljava/lang/Object;
 
-    .line 9
     new-instance v0, Ljava/lang/Object;
 
     invoke-direct {v0}, Ljava/lang/Object;-><init>()V
@@ -80,12 +71,10 @@
 .method public final a()I
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/yv0;->e:Ljava/lang/Object;
 
     monitor-enter v0
 
-    .line 2
     :try_start_0
     iget v1, p0, Lcom/google/android/gms/internal/ads/yv0;->a:I
 
@@ -96,7 +85,6 @@
     :catchall_0
     move-exception v1
 
-    .line 3
     monitor-exit v0
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
@@ -107,12 +95,10 @@
 .method public final b()J
     .locals 3
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/yv0;->f:Ljava/lang/Object;
 
     monitor-enter v0
 
-    .line 2
     :try_start_0
     iget-wide v1, p0, Lcom/google/android/gms/internal/ads/yv0;->b:J
 
@@ -123,7 +109,6 @@
     :catchall_0
     move-exception v1
 
-    .line 3
     monitor-exit v0
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
@@ -136,7 +121,6 @@
 
     monitor-enter p0
 
-    .line 1
     :try_start_0
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/yv0;->g:Ljava/lang/Object;
 
@@ -144,7 +128,6 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_1
 
-    .line 2
     :try_start_1
     iget-wide v1, p0, Lcom/google/android/gms/internal/ads/yv0;->c:J
 
@@ -159,7 +142,6 @@
     :catchall_0
     move-exception v1
 
-    .line 3
     :try_start_2
     monitor-exit v0
     :try_end_2
@@ -183,7 +165,6 @@
 
     monitor-enter p0
 
-    .line 1
     :try_start_0
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/yv0;->h:Ljava/lang/Object;
 
@@ -191,7 +172,6 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_1
 
-    .line 2
     :try_start_1
     iget-wide v1, p0, Lcom/google/android/gms/internal/ads/yv0;->d:J
 
@@ -206,7 +186,6 @@
     :catchall_0
     move-exception v1
 
-    .line 3
     :try_start_2
     monitor-exit v0
     :try_end_2
@@ -228,16 +207,13 @@
 .method public final e(I)V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/yv0;->e:Ljava/lang/Object;
 
     monitor-enter v0
 
-    .line 2
     :try_start_0
     iput p1, p0, Lcom/google/android/gms/internal/ads/yv0;->a:I
 
-    .line 3
     monitor-exit v0
 
     return-void
@@ -255,16 +231,13 @@
 .method public final f(J)V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/yv0;->f:Ljava/lang/Object;
 
     monitor-enter v0
 
-    .line 2
     :try_start_0
     iput-wide p1, p0, Lcom/google/android/gms/internal/ads/yv0;->b:J
 
-    .line 3
     monitor-exit v0
 
     return-void
@@ -284,7 +257,6 @@
 
     monitor-enter p0
 
-    .line 1
     :try_start_0
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/yv0;->h:Ljava/lang/Object;
 
@@ -292,11 +264,9 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_1
 
-    .line 2
     :try_start_1
     iput-wide p1, p0, Lcom/google/android/gms/internal/ads/yv0;->d:J
 
-    .line 3
     monitor-exit v0
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
@@ -331,7 +301,6 @@
 
     monitor-enter p0
 
-    .line 1
     :try_start_0
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/yv0;->g:Ljava/lang/Object;
 
@@ -339,11 +308,9 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_1
 
-    .line 2
     :try_start_1
     iput-wide p1, p0, Lcom/google/android/gms/internal/ads/yv0;->c:J
 
-    .line 3
     monitor-exit v0
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0

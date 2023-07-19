@@ -22,10 +22,8 @@
 .method public constructor <init>(I)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lorg/jsoup/select/c;-><init>()V
 
-    .line 2
     iput p1, p0, Lorg/jsoup/select/c$r;->a:I
 
     return-void

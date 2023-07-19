@@ -31,7 +31,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/function/NewSkinColorFragment$applySkinEffect$1$a$a;->a:Lcom/commsource/studio/function/NewSkinColorFragment$applySkinEffect$1$a;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -52,7 +51,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -69,7 +67,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -94,7 +91,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -107,7 +103,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/studio/function/NewSkinColorFragment$applySkinEffect$1$a$a;->a:Lcom/commsource/studio/function/NewSkinColorFragment$applySkinEffect$1$a;
 
     iget-object v0, v0, Lcom/commsource/studio/function/NewSkinColorFragment$applySkinEffect$1$a;->a:Lcom/commsource/studio/function/NewSkinColorFragment$applySkinEffect$1;
@@ -126,7 +121,6 @@
 
     invoke-virtual {v0, p2}, Landroid/widget/FrameLayout;->setTranslationY(F)V
 
-    .line 2
     iget-object v0, p0, Lcom/commsource/studio/function/NewSkinColorFragment$applySkinEffect$1$a$a;->a:Lcom/commsource/studio/function/NewSkinColorFragment$applySkinEffect$1$a;
 
     iget-object v0, v0, Lcom/commsource/studio/function/NewSkinColorFragment$applySkinEffect$1$a;->a:Lcom/commsource/studio/function/NewSkinColorFragment$applySkinEffect$1;
@@ -145,7 +139,6 @@
 
     invoke-virtual {v0, p2}, Landroid/widget/FrameLayout;->setTranslationY(F)V
 
-    .line 3
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

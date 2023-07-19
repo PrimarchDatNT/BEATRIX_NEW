@@ -21,10 +21,8 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     new-instance v0, Lcom/meitu/media/util/plist/g;
 
     invoke-direct {v0}, Lcom/meitu/media/util/plist/g;-><init>()V
@@ -39,7 +37,6 @@
 .method public a()Lorg/xml/sax/helpers/DefaultHandler;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/meitu/media/util/plist/b;->b:Lorg/xml/sax/helpers/DefaultHandler;
 
     return-object v0
@@ -52,19 +49,16 @@
 
     const-string v1, "BaseXMLParser"
 
-    .line 1
     iget-object v2, p0, Lcom/meitu/media/util/plist/b;->c:Ljavax/xml/parsers/SAXParserFactory;
 
     if-nez v2, :cond_0
 
-    .line 2
     invoke-static {}, Ljavax/xml/parsers/SAXParserFactory;->newInstance()Ljavax/xml/parsers/SAXParserFactory;
 
     move-result-object v2
 
     iput-object v2, p0, Lcom/meitu/media/util/plist/b;->c:Ljavax/xml/parsers/SAXParserFactory;
 
-    .line 3
     :cond_0
     :try_start_0
     iget-object v2, p0, Lcom/meitu/media/util/plist/b;->c:Ljavax/xml/parsers/SAXParserFactory;
@@ -83,10 +77,8 @@
     :catch_0
     move-exception v2
 
-    .line 4
     iget-object v3, p0, Lcom/meitu/media/util/plist/b;->a:Lcom/meitu/media/util/plist/g;
 
-    .line 5
     invoke-virtual {v3}, Lcom/meitu/media/util/plist/g;->c()Ljava/lang/StringBuilder;
 
     move-result-object v3
@@ -95,17 +87,14 @@
 
     invoke-virtual {v3, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 6
     invoke-virtual {v3}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     move-result-object v0
 
     const-string v1, "SAXException"
 
-    .line 7
     invoke-static {v0, v1}, Lcom/meitu/library/util/Debug/Debug;->n(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 8
     invoke-static {v2}, Lcom/meitu/library/util/Debug/Debug;->a0(Ljava/lang/Throwable;)V
 
     goto :goto_0
@@ -113,10 +102,8 @@
     :catch_1
     move-exception v2
 
-    .line 9
     iget-object v3, p0, Lcom/meitu/media/util/plist/b;->a:Lcom/meitu/media/util/plist/g;
 
-    .line 10
     invoke-virtual {v3}, Lcom/meitu/media/util/plist/g;->c()Ljava/lang/StringBuilder;
 
     move-result-object v3
@@ -125,17 +112,14 @@
 
     invoke-virtual {v3, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 11
     invoke-virtual {v3}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     move-result-object v0
 
     const-string v1, "ParserConfigurationException"
 
-    .line 12
     invoke-static {v0, v1}, Lcom/meitu/library/util/Debug/Debug;->n(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 13
     invoke-static {v2}, Lcom/meitu/library/util/Debug/Debug;->a0(Ljava/lang/Throwable;)V
 
     :goto_0
@@ -154,7 +138,6 @@
 
     const-string v1, "BaseXMLParser"
 
-    .line 1
     :try_start_0
     new-instance v2, Lorg/xml/sax/InputSource;
 
@@ -164,7 +147,6 @@
 
     invoke-direct {v2, v3}, Lorg/xml/sax/InputSource;-><init>(Ljava/io/Reader;)V
 
-    .line 2
     iget-object p1, p0, Lcom/meitu/media/util/plist/b;->d:Ljavax/xml/parsers/SAXParser;
 
     invoke-virtual {p0}, Lcom/meitu/media/util/plist/b;->a()Lorg/xml/sax/helpers/DefaultHandler;
@@ -181,10 +163,8 @@
     :catch_0
     move-exception p1
 
-    .line 3
     iget-object v2, p0, Lcom/meitu/media/util/plist/b;->a:Lcom/meitu/media/util/plist/g;
 
-    .line 4
     invoke-virtual {v2}, Lcom/meitu/media/util/plist/g;->c()Ljava/lang/StringBuilder;
 
     move-result-object v2
@@ -193,17 +173,14 @@
 
     invoke-virtual {v2, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 5
     invoke-virtual {v2}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     move-result-object v2
 
     const-string v3, "IOException"
 
-    .line 6
     invoke-static {v2, v3}, Lcom/meitu/library/util/Debug/Debug;->n(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 7
     invoke-static {p1}, Lcom/meitu/library/util/Debug/Debug;->a0(Ljava/lang/Throwable;)V
 
     goto :goto_0
@@ -211,10 +188,8 @@
     :catch_1
     move-exception p1
 
-    .line 8
     iget-object v2, p0, Lcom/meitu/media/util/plist/b;->a:Lcom/meitu/media/util/plist/g;
 
-    .line 9
     invoke-virtual {v2}, Lcom/meitu/media/util/plist/g;->c()Ljava/lang/StringBuilder;
 
     move-result-object v2
@@ -223,20 +198,16 @@
 
     invoke-virtual {v2, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 10
     invoke-virtual {v2}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     move-result-object v2
 
     const-string v3, "SAXException"
 
-    .line 11
     invoke-static {v2, v3}, Lcom/meitu/library/util/Debug/Debug;->n(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 12
     invoke-static {p1}, Lcom/meitu/library/util/Debug/Debug;->a0(Ljava/lang/Throwable;)V
 
-    .line 13
     :goto_0
     iget-object p1, p0, Lcom/meitu/media/util/plist/b;->a:Lcom/meitu/media/util/plist/g;
 
@@ -262,7 +233,6 @@
 .method public d(Lorg/xml/sax/helpers/DefaultHandler;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/media/util/plist/b;->b:Lorg/xml/sax/helpers/DefaultHandler;
 
     return-void

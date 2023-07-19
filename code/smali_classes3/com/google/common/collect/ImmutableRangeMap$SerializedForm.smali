@@ -57,10 +57,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/google/common/collect/ImmutableRangeMap$SerializedForm;->mapOfRanges:Lcom/google/common/collect/ImmutableMap;
 
     return-void
@@ -71,12 +69,10 @@
 .method createRangeMap()Ljava/lang/Object;
     .locals 4
 
-    .line 1
     new-instance v0, Lcom/google/common/collect/ImmutableRangeMap$a;
 
     invoke-direct {v0}, Lcom/google/common/collect/ImmutableRangeMap$a;-><init>()V
 
-    .line 2
     iget-object v1, p0, Lcom/google/common/collect/ImmutableRangeMap$SerializedForm;->mapOfRanges:Lcom/google/common/collect/ImmutableMap;
 
     invoke-virtual {v1}, Lcom/google/common/collect/ImmutableMap;->entrySet()Lcom/google/common/collect/ImmutableSet;
@@ -100,7 +96,6 @@
 
     check-cast v2, Ljava/util/Map$Entry;
 
-    .line 3
     invoke-interface {v2}, Ljava/util/Map$Entry;->getKey()Ljava/lang/Object;
 
     move-result-object v3
@@ -115,7 +110,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_0
     invoke-virtual {v0}, Lcom/google/common/collect/ImmutableRangeMap$a;->a()Lcom/google/common/collect/ImmutableRangeMap;
 
@@ -127,7 +121,6 @@
 .method readResolve()Ljava/lang/Object;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/ImmutableRangeMap$SerializedForm;->mapOfRanges:Lcom/google/common/collect/ImmutableMap;
 
     invoke-virtual {v0}, Lcom/google/common/collect/ImmutableMap;->isEmpty()Z
@@ -136,14 +129,12 @@
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-static {}, Lcom/google/common/collect/ImmutableRangeMap;->of()Lcom/google/common/collect/ImmutableRangeMap;
 
     move-result-object v0
 
     return-object v0
 
-    .line 3
     :cond_0
     invoke-virtual {p0}, Lcom/google/common/collect/ImmutableRangeMap$SerializedForm;->createRangeMap()Ljava/lang/Object;
 

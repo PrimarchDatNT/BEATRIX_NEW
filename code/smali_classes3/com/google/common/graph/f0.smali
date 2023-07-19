@@ -47,22 +47,18 @@
 .method private constructor <init>(Z)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/google/common/graph/d;-><init>(Z)V
 
     const/4 p1, 0x0
 
-    .line 2
     iput-boolean p1, p0, Lcom/google/common/graph/f0;->f:Z
 
-    .line 3
     invoke-static {}, Lcom/google/common/graph/ElementOrder;->d()Lcom/google/common/graph/ElementOrder;
 
     move-result-object p1
 
     iput-object p1, p0, Lcom/google/common/graph/f0;->g:Lcom/google/common/graph/ElementOrder;
 
-    .line 4
     invoke-static {}, Lcom/google/common/base/Optional;->absent()Lcom/google/common/base/Optional;
 
     move-result-object p1
@@ -97,7 +93,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/google/common/graph/f0;
 
     const/4 v1, 0x1
@@ -123,7 +118,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/google/common/graph/f0;
 
     invoke-interface {p0}, Lcom/google/common/graph/e0;->e()Z
@@ -132,7 +126,6 @@
 
     invoke-direct {v0, v1}, Lcom/google/common/graph/f0;-><init>(Z)V
 
-    .line 2
     invoke-interface {p0}, Lcom/google/common/graph/e0;->y()Z
 
     move-result v1
@@ -141,7 +134,6 @@
 
     move-result-object v0
 
-    .line 3
     invoke-interface {p0}, Lcom/google/common/graph/e0;->j()Z
 
     move-result v1
@@ -150,7 +142,6 @@
 
     move-result-object v0
 
-    .line 4
     invoke-interface {p0}, Lcom/google/common/graph/e0;->h()Lcom/google/common/graph/ElementOrder;
 
     move-result-object v1
@@ -159,7 +150,6 @@
 
     move-result-object v0
 
-    .line 5
     invoke-interface {p0}, Lcom/google/common/graph/e0;->H()Lcom/google/common/graph/ElementOrder;
 
     move-result-object p0
@@ -183,7 +173,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/google/common/graph/f0;
 
     const/4 v1, 0x0
@@ -205,7 +194,6 @@
         }
     .end annotation
 
-    .line 1
     iput-boolean p1, p0, Lcom/google/common/graph/f0;->f:Z
 
     return-object p0
@@ -221,7 +209,6 @@
         }
     .end annotation
 
-    .line 1
     iput-boolean p1, p0, Lcom/google/common/graph/d;->b:Z
 
     return-object p0
@@ -237,7 +224,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/google/common/graph/j0;
 
     invoke-direct {v0, p0}, Lcom/google/common/graph/j0;-><init>(Lcom/google/common/graph/f0;)V
@@ -257,12 +243,10 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Lcom/google/common/graph/f0;->d()Lcom/google/common/graph/f0;
 
     move-result-object v0
 
-    .line 2
     invoke-static {p1}, Lcom/google/common/base/t;->E(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -284,7 +268,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p1}, Lcom/google/common/graph/Graphs;->b(I)I
 
     move-result p1
@@ -312,7 +295,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p1}, Lcom/google/common/graph/Graphs;->b(I)I
 
     move-result p1
@@ -340,12 +322,10 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Lcom/google/common/graph/f0;->d()Lcom/google/common/graph/f0;
 
     move-result-object v0
 
-    .line 2
     new-instance v1, Lcom/google/common/graph/v$d;
 
     invoke-direct {v1, v0}, Lcom/google/common/graph/v$d;-><init>(Lcom/google/common/graph/f0;)V
@@ -365,12 +345,10 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Lcom/google/common/graph/f0;->d()Lcom/google/common/graph/f0;
 
     move-result-object v0
 
-    .line 2
     invoke-static {p1}, Lcom/google/common/base/t;->E(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1

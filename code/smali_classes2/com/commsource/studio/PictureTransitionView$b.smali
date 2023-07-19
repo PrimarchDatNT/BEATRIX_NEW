@@ -28,7 +28,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/PictureTransitionView$b;->a:Lcom/commsource/studio/PictureTransitionView;
 
     invoke-direct {p0}, Lcom/commsource/camera/f1/l$a;-><init>()V
@@ -49,10 +48,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0, p1}, Lcom/commsource/camera/f1/l$a;->d(Lcom/commsource/camera/f1/l;)V
 
-    .line 2
     iget-object p1, p0, Lcom/commsource/studio/PictureTransitionView$b;->a:Lcom/commsource/studio/PictureTransitionView;
 
     invoke-virtual {p1}, Lcom/commsource/studio/PictureTransitionView;->getEndAction()Lcotlin/jvm/u/a;
@@ -67,7 +64,6 @@
 
     check-cast p1, Lcotlin/t1;
 
-    .line 3
     :cond_0
     iget-object p1, p0, Lcom/commsource/studio/PictureTransitionView$b;->a:Lcom/commsource/studio/PictureTransitionView;
 
@@ -75,7 +71,6 @@
 
     invoke-virtual {p1, v1}, Lcom/commsource/studio/PictureTransitionView;->setEndAction(Lcotlin/jvm/u/a;)V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -88,15 +83,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0, p1, p2}, Lcom/commsource/camera/f1/l$a;->e(FF)V
 
-    .line 2
     iget-object p1, p0, Lcom/commsource/studio/PictureTransitionView$b;->a:Lcom/commsource/studio/PictureTransitionView;
 
     invoke-virtual {p1}, Landroid/view/View;->invalidate()V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

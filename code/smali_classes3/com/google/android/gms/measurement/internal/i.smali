@@ -21,7 +21,6 @@
 .method constructor <init>(Lcom/google/android/gms/measurement/internal/s5;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/google/android/gms/measurement/internal/n6;-><init>(Lcom/google/android/gms/measurement/internal/s5;)V
 
     return-void
@@ -32,7 +31,6 @@
 .method public final bridge synthetic J0()Lcom/google/android/gms/measurement/internal/ua;
     .locals 1
 
-    .line 1
     invoke-super {p0}, Lcom/google/android/gms/measurement/internal/k6;->J0()Lcom/google/android/gms/measurement/internal/ua;
 
     move-result-object v0
@@ -43,7 +41,6 @@
 .method public final bridge synthetic a()V
     .locals 0
 
-    .line 1
     invoke-super {p0}, Lcom/google/android/gms/measurement/internal/k6;->a()V
 
     return-void
@@ -52,7 +49,6 @@
 .method public final bridge synthetic b()V
     .locals 0
 
-    .line 1
     invoke-super {p0}, Lcom/google/android/gms/measurement/internal/k6;->b()V
 
     return-void
@@ -61,7 +57,6 @@
 .method public final bridge synthetic c()V
     .locals 0
 
-    .line 1
     invoke-super {p0}, Lcom/google/android/gms/measurement/internal/k6;->c()V
 
     return-void
@@ -70,7 +65,6 @@
 .method public final bridge synthetic d()V
     .locals 0
 
-    .line 1
     invoke-super {p0}, Lcom/google/android/gms/measurement/internal/k6;->d()V
 
     return-void
@@ -79,7 +73,6 @@
 .method public final bridge synthetic e()Lcom/google/android/gms/measurement/internal/i;
     .locals 1
 
-    .line 1
     invoke-super {p0}, Lcom/google/android/gms/measurement/internal/k6;->e()Lcom/google/android/gms/measurement/internal/i;
 
     move-result-object v0
@@ -90,7 +83,6 @@
 .method public final bridge synthetic f()Landroid/content/Context;
     .locals 1
 
-    .line 1
     invoke-super {p0}, Lcom/google/android/gms/measurement/internal/k6;->f()Landroid/content/Context;
 
     move-result-object v0
@@ -101,7 +93,6 @@
 .method public final bridge synthetic g()Lcom/google/android/gms/measurement/internal/m4;
     .locals 1
 
-    .line 1
     invoke-super {p0}, Lcom/google/android/gms/measurement/internal/k6;->g()Lcom/google/android/gms/measurement/internal/m4;
 
     move-result-object v0
@@ -112,7 +103,6 @@
 .method public final bridge synthetic h()Lcom/google/android/gms/measurement/internal/ia;
     .locals 1
 
-    .line 1
     invoke-super {p0}, Lcom/google/android/gms/measurement/internal/k6;->h()Lcom/google/android/gms/measurement/internal/ia;
 
     move-result-object v0
@@ -123,7 +113,6 @@
 .method public final bridge synthetic j()Lcom/google/android/gms/measurement/internal/x4;
     .locals 1
 
-    .line 1
     invoke-super {p0}, Lcom/google/android/gms/measurement/internal/k6;->j()Lcom/google/android/gms/measurement/internal/x4;
 
     move-result-object v0
@@ -134,7 +123,6 @@
 .method public final bridge synthetic k()Lcom/google/android/gms/measurement/internal/va;
     .locals 1
 
-    .line 1
     invoke-super {p0}, Lcom/google/android/gms/measurement/internal/k6;->k()Lcom/google/android/gms/measurement/internal/va;
 
     move-result-object v0
@@ -145,17 +133,14 @@
 .method protected final p()Z
     .locals 4
 
-    .line 1
     invoke-static {}, Ljava/util/Calendar;->getInstance()Ljava/util/Calendar;
 
     move-result-object v0
 
-    .line 2
     sget-object v1, Ljava/util/concurrent/TimeUnit;->MINUTES:Ljava/util/concurrent/TimeUnit;
 
     const/16 v2, 0xf
 
-    .line 3
     invoke-virtual {v0, v2}, Ljava/util/Calendar;->get(I)I
 
     move-result v2
@@ -172,19 +157,16 @@
 
     sget-object v0, Ljava/util/concurrent/TimeUnit;->MILLISECONDS:Ljava/util/concurrent/TimeUnit;
 
-    .line 4
     invoke-virtual {v1, v2, v3, v0}, Ljava/util/concurrent/TimeUnit;->convert(JLjava/util/concurrent/TimeUnit;)J
 
     move-result-wide v0
 
     iput-wide v0, p0, Lcom/google/android/gms/measurement/internal/i;->c:J
 
-    .line 5
     invoke-static {}, Ljava/util/Locale;->getDefault()Ljava/util/Locale;
 
     move-result-object v0
 
-    .line 6
     invoke-virtual {v0}, Ljava/util/Locale;->getLanguage()Ljava/lang/String;
 
     move-result-object v1
@@ -195,7 +177,6 @@
 
     move-result-object v1
 
-    .line 7
     invoke-virtual {v0}, Ljava/util/Locale;->getCountry()Ljava/lang/String;
 
     move-result-object v0
@@ -250,20 +231,16 @@
 .method public final r(Landroid/content/Context;)Z
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/measurement/internal/i;->e:Ljava/lang/Boolean;
 
     if-nez v0, :cond_0
 
-    .line 2
     invoke-virtual {p0}, Lcom/google/android/gms/measurement/internal/k6;->J0()Lcom/google/android/gms/measurement/internal/ua;
 
-    .line 3
     sget-object v0, Ljava/lang/Boolean;->FALSE:Ljava/lang/Boolean;
 
     iput-object v0, p0, Lcom/google/android/gms/measurement/internal/i;->e:Ljava/lang/Boolean;
 
-    .line 4
     :try_start_0
     invoke-virtual {p1}, Landroid/content/Context;->getPackageManager()Landroid/content/pm/PackageManager;
 
@@ -275,17 +252,14 @@
 
     const/16 v1, 0x80
 
-    .line 5
     invoke-virtual {p1, v0, v1}, Landroid/content/pm/PackageManager;->getPackageInfo(Ljava/lang/String;I)Landroid/content/pm/PackageInfo;
 
-    .line 6
     sget-object p1, Ljava/lang/Boolean;->TRUE:Ljava/lang/Boolean;
 
     iput-object p1, p0, Lcom/google/android/gms/measurement/internal/i;->e:Ljava/lang/Boolean;
     :try_end_0
     .catch Landroid/content/pm/PackageManager$NameNotFoundException; {:try_start_0 .. :try_end_0} :catch_0
 
-    .line 7
     :catch_0
     :cond_0
     iget-object p1, p0, Lcom/google/android/gms/measurement/internal/i;->e:Ljava/lang/Boolean;
@@ -300,10 +274,8 @@
 .method public final s()J
     .locals 2
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/android/gms/measurement/internal/n6;->m()V
 
-    .line 2
     iget-wide v0, p0, Lcom/google/android/gms/measurement/internal/i;->c:J
 
     return-wide v0
@@ -312,10 +284,8 @@
 .method public final t()Ljava/lang/String;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/android/gms/measurement/internal/n6;->m()V
 
-    .line 2
     iget-object v0, p0, Lcom/google/android/gms/measurement/internal/i;->d:Ljava/lang/String;
 
     return-object v0
@@ -324,7 +294,6 @@
 .method public final bridge synthetic u()Lcom/google/android/gms/common/util/g;
     .locals 1
 
-    .line 1
     invoke-super {p0}, Lcom/google/android/gms/measurement/internal/k6;->u()Lcom/google/android/gms/common/util/g;
 
     move-result-object v0
@@ -335,7 +304,6 @@
 .method public final bridge synthetic v()Lcom/google/android/gms/measurement/internal/m5;
     .locals 1
 
-    .line 1
     invoke-super {p0}, Lcom/google/android/gms/measurement/internal/k6;->v()Lcom/google/android/gms/measurement/internal/m5;
 
     move-result-object v0
@@ -346,7 +314,6 @@
 .method public final bridge synthetic w()Lcom/google/android/gms/measurement/internal/o4;
     .locals 1
 
-    .line 1
     invoke-super {p0}, Lcom/google/android/gms/measurement/internal/k6;->w()Lcom/google/android/gms/measurement/internal/o4;
 
     move-result-object v0
@@ -359,10 +326,8 @@
     .annotation build Landroidx/annotation/WorkerThread;
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/android/gms/measurement/internal/k6;->d()V
 
-    .line 2
     iget-wide v0, p0, Lcom/google/android/gms/measurement/internal/i;->h:J
 
     return-wide v0
@@ -373,17 +338,14 @@
     .annotation build Landroidx/annotation/WorkerThread;
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/android/gms/measurement/internal/k6;->d()V
 
     const/4 v0, 0x0
 
-    .line 2
     iput-object v0, p0, Lcom/google/android/gms/measurement/internal/i;->g:Ljava/lang/Boolean;
 
     const-wide/16 v0, 0x0
 
-    .line 3
     iput-wide v0, p0, Lcom/google/android/gms/measurement/internal/i;->h:J
 
     return-void
@@ -394,7 +356,6 @@
     .annotation build Landroidx/annotation/WorkerThread;
     .end annotation
 
-    .line 1
     sget-object v0, Ljava/lang/Boolean;->TRUE:Ljava/lang/Boolean;
 
     const-string v1, "com.google"
@@ -403,7 +364,6 @@
 
     invoke-virtual {p0}, Lcom/google/android/gms/measurement/internal/k6;->d()V
 
-    .line 2
     invoke-virtual {p0}, Lcom/google/android/gms/measurement/internal/k6;->u()Lcom/google/android/gms/common/util/g;
 
     move-result-object v3
@@ -412,7 +372,6 @@
 
     move-result-wide v3
 
-    .line 3
     iget-wide v5, p0, Lcom/google/android/gms/measurement/internal/i;->h:J
 
     sub-long v5, v3, v5
@@ -425,23 +384,19 @@
 
     if-lez v10, :cond_0
 
-    .line 4
     iput-object v7, p0, Lcom/google/android/gms/measurement/internal/i;->g:Ljava/lang/Boolean;
 
-    .line 5
     :cond_0
     iget-object v5, p0, Lcom/google/android/gms/measurement/internal/i;->g:Ljava/lang/Boolean;
 
     if-eqz v5, :cond_1
 
-    .line 6
     invoke-virtual {v5}, Ljava/lang/Boolean;->booleanValue()Z
 
     move-result v0
 
     return v0
 
-    .line 7
     :cond_1
     invoke-virtual {p0}, Lcom/google/android/gms/measurement/internal/k6;->f()Landroid/content/Context;
 
@@ -457,7 +412,6 @@
 
     if-eqz v5, :cond_2
 
-    .line 8
     invoke-virtual {p0}, Lcom/google/android/gms/measurement/internal/k6;->w()Lcom/google/android/gms/measurement/internal/o4;
 
     move-result-object v0
@@ -470,21 +424,17 @@
 
     invoke-virtual {v0, v1}, Lcom/google/android/gms/measurement/internal/q4;->a(Ljava/lang/String;)V
 
-    .line 9
     iput-wide v3, p0, Lcom/google/android/gms/measurement/internal/i;->h:J
 
-    .line 10
     iput-object v2, p0, Lcom/google/android/gms/measurement/internal/i;->g:Ljava/lang/Boolean;
 
     return v6
 
-    .line 11
     :cond_2
     iget-object v5, p0, Lcom/google/android/gms/measurement/internal/i;->f:Landroid/accounts/AccountManager;
 
     if-nez v5, :cond_3
 
-    .line 12
     invoke-virtual {p0}, Lcom/google/android/gms/measurement/internal/k6;->f()Landroid/content/Context;
 
     move-result-object v5
@@ -495,7 +445,6 @@
 
     iput-object v5, p0, Lcom/google/android/gms/measurement/internal/i;->f:Landroid/accounts/AccountManager;
 
-    .line 13
     :cond_3
     :try_start_0
     iget-object v5, p0, Lcom/google/android/gms/measurement/internal/i;->f:Landroid/accounts/AccountManager;
@@ -506,12 +455,10 @@
 
     move-result-object v8
 
-    .line 14
     invoke-virtual {v5, v1, v8, v7, v7}, Landroid/accounts/AccountManager;->getAccountsByTypeAndFeatures(Ljava/lang/String;[Ljava/lang/String;Landroid/accounts/AccountManagerCallback;Landroid/os/Handler;)Landroid/accounts/AccountManagerFuture;
 
     move-result-object v5
 
-    .line 15
     invoke-interface {v5}, Landroid/accounts/AccountManagerFuture;->getResult()Ljava/lang/Object;
 
     move-result-object v5
@@ -522,20 +469,16 @@
 
     if-eqz v5, :cond_4
 
-    .line 16
     array-length v5, v5
 
     if-lez v5, :cond_4
 
-    .line 17
     iput-object v0, p0, Lcom/google/android/gms/measurement/internal/i;->g:Ljava/lang/Boolean;
 
-    .line 18
     iput-wide v3, p0, Lcom/google/android/gms/measurement/internal/i;->h:J
 
     return v8
 
-    .line 19
     :cond_4
     iget-object v5, p0, Lcom/google/android/gms/measurement/internal/i;->f:Landroid/accounts/AccountManager;
 
@@ -545,12 +488,10 @@
 
     move-result-object v9
 
-    .line 20
     invoke-virtual {v5, v1, v9, v7, v7}, Landroid/accounts/AccountManager;->getAccountsByTypeAndFeatures(Ljava/lang/String;[Ljava/lang/String;Landroid/accounts/AccountManagerCallback;Landroid/os/Handler;)Landroid/accounts/AccountManagerFuture;
 
     move-result-object v1
 
-    .line 21
     invoke-interface {v1}, Landroid/accounts/AccountManagerFuture;->getResult()Ljava/lang/Object;
 
     move-result-object v1
@@ -559,15 +500,12 @@
 
     if-eqz v1, :cond_5
 
-    .line 22
     array-length v1, v1
 
     if-lez v1, :cond_5
 
-    .line 23
     iput-object v0, p0, Lcom/google/android/gms/measurement/internal/i;->g:Ljava/lang/Boolean;
 
-    .line 24
     iput-wide v3, p0, Lcom/google/android/gms/measurement/internal/i;->h:J
     :try_end_0
     .catch Landroid/accounts/AuthenticatorException; {:try_start_0 .. :try_end_0} :catch_2
@@ -589,7 +527,6 @@
     :catch_2
     move-exception v0
 
-    .line 25
     :goto_0
     invoke-virtual {p0}, Lcom/google/android/gms/measurement/internal/k6;->w()Lcom/google/android/gms/measurement/internal/o4;
 
@@ -603,11 +540,9 @@
 
     invoke-virtual {v1, v5, v0}, Lcom/google/android/gms/measurement/internal/q4;->b(Ljava/lang/String;Ljava/lang/Object;)V
 
-    .line 26
     :cond_5
     iput-wide v3, p0, Lcom/google/android/gms/measurement/internal/i;->h:J
 
-    .line 27
     iput-object v2, p0, Lcom/google/android/gms/measurement/internal/i;->g:Ljava/lang/Boolean;
 
     return v6

@@ -11,10 +11,8 @@
 .method public constructor <init>(Lcom/google/android/gms/ads/y/a;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/google/android/gms/internal/ads/wn2;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/google/android/gms/internal/ads/yl2;->b:Lcom/google/android/gms/ads/y/a;
 
     return-void
@@ -25,12 +23,10 @@
 .method public final X()V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/yl2;->b:Lcom/google/android/gms/ads/y/a;
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-virtual {v0}, Lcom/google/android/gms/ads/y/a;->h()V
 
     :cond_0

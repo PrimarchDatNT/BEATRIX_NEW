@@ -217,7 +217,6 @@
 .method static constructor <clinit>()V
     .locals 17
 
-    .line 1
     new-instance v8, Lcom/squareup/okhttp/CipherSuite;
 
     const-string v1, "TLS_RSA_WITH_NULL_MD5"
@@ -240,7 +239,6 @@
 
     sput-object v8, Lcom/squareup/okhttp/CipherSuite;->TLS_RSA_WITH_NULL_MD5:Lcom/squareup/okhttp/CipherSuite;
 
-    .line 2
     new-instance v0, Lcom/squareup/okhttp/CipherSuite;
 
     const-string v10, "TLS_RSA_WITH_NULL_SHA"
@@ -263,7 +261,6 @@
 
     sput-object v0, Lcom/squareup/okhttp/CipherSuite;->TLS_RSA_WITH_NULL_SHA:Lcom/squareup/okhttp/CipherSuite;
 
-    .line 3
     new-instance v0, Lcom/squareup/okhttp/CipherSuite;
 
     const-string v2, "TLS_RSA_EXPORT_WITH_RC4_40_MD5"
@@ -286,7 +283,6 @@
 
     sput-object v0, Lcom/squareup/okhttp/CipherSuite;->TLS_RSA_EXPORT_WITH_RC4_40_MD5:Lcom/squareup/okhttp/CipherSuite;
 
-    .line 4
     new-instance v0, Lcom/squareup/okhttp/CipherSuite;
 
     const-string v10, "TLS_RSA_WITH_RC4_128_MD5"
@@ -303,7 +299,6 @@
 
     sput-object v0, Lcom/squareup/okhttp/CipherSuite;->TLS_RSA_WITH_RC4_128_MD5:Lcom/squareup/okhttp/CipherSuite;
 
-    .line 5
     new-instance v0, Lcom/squareup/okhttp/CipherSuite;
 
     const-string v2, "TLS_RSA_WITH_RC4_128_SHA"
@@ -322,7 +317,6 @@
 
     sput-object v0, Lcom/squareup/okhttp/CipherSuite;->TLS_RSA_WITH_RC4_128_SHA:Lcom/squareup/okhttp/CipherSuite;
 
-    .line 6
     new-instance v0, Lcom/squareup/okhttp/CipherSuite;
 
     const-string v10, "TLS_RSA_EXPORT_WITH_DES40_CBC_SHA"
@@ -341,7 +335,6 @@
 
     sput-object v0, Lcom/squareup/okhttp/CipherSuite;->TLS_RSA_EXPORT_WITH_DES40_CBC_SHA:Lcom/squareup/okhttp/CipherSuite;
 
-    .line 7
     new-instance v0, Lcom/squareup/okhttp/CipherSuite;
 
     const-string v2, "TLS_RSA_WITH_DES_CBC_SHA"
@@ -360,7 +353,6 @@
 
     sput-object v0, Lcom/squareup/okhttp/CipherSuite;->TLS_RSA_WITH_DES_CBC_SHA:Lcom/squareup/okhttp/CipherSuite;
 
-    .line 8
     new-instance v0, Lcom/squareup/okhttp/CipherSuite;
 
     const-string v10, "TLS_RSA_WITH_3DES_EDE_CBC_SHA"
@@ -379,7 +371,6 @@
 
     sput-object v0, Lcom/squareup/okhttp/CipherSuite;->TLS_RSA_WITH_3DES_EDE_CBC_SHA:Lcom/squareup/okhttp/CipherSuite;
 
-    .line 9
     new-instance v0, Lcom/squareup/okhttp/CipherSuite;
 
     const-string v2, "TLS_DHE_DSS_EXPORT_WITH_DES40_CBC_SHA"
@@ -398,7 +389,6 @@
 
     sput-object v0, Lcom/squareup/okhttp/CipherSuite;->TLS_DHE_DSS_EXPORT_WITH_DES40_CBC_SHA:Lcom/squareup/okhttp/CipherSuite;
 
-    .line 10
     new-instance v0, Lcom/squareup/okhttp/CipherSuite;
 
     const-string v10, "TLS_DHE_DSS_WITH_DES_CBC_SHA"
@@ -417,7 +407,6 @@
 
     sput-object v0, Lcom/squareup/okhttp/CipherSuite;->TLS_DHE_DSS_WITH_DES_CBC_SHA:Lcom/squareup/okhttp/CipherSuite;
 
-    .line 11
     new-instance v0, Lcom/squareup/okhttp/CipherSuite;
 
     const-string v2, "TLS_DHE_DSS_WITH_3DES_EDE_CBC_SHA"
@@ -436,7 +425,6 @@
 
     sput-object v0, Lcom/squareup/okhttp/CipherSuite;->TLS_DHE_DSS_WITH_3DES_EDE_CBC_SHA:Lcom/squareup/okhttp/CipherSuite;
 
-    .line 12
     new-instance v0, Lcom/squareup/okhttp/CipherSuite;
 
     const-string v10, "TLS_DHE_RSA_EXPORT_WITH_DES40_CBC_SHA"
@@ -455,7 +443,6 @@
 
     sput-object v0, Lcom/squareup/okhttp/CipherSuite;->TLS_DHE_RSA_EXPORT_WITH_DES40_CBC_SHA:Lcom/squareup/okhttp/CipherSuite;
 
-    .line 13
     new-instance v0, Lcom/squareup/okhttp/CipherSuite;
 
     const-string v2, "TLS_DHE_RSA_WITH_DES_CBC_SHA"
@@ -474,7 +461,6 @@
 
     sput-object v0, Lcom/squareup/okhttp/CipherSuite;->TLS_DHE_RSA_WITH_DES_CBC_SHA:Lcom/squareup/okhttp/CipherSuite;
 
-    .line 14
     new-instance v0, Lcom/squareup/okhttp/CipherSuite;
 
     const-string v10, "TLS_DHE_RSA_WITH_3DES_EDE_CBC_SHA"
@@ -493,7 +479,6 @@
 
     sput-object v0, Lcom/squareup/okhttp/CipherSuite;->TLS_DHE_RSA_WITH_3DES_EDE_CBC_SHA:Lcom/squareup/okhttp/CipherSuite;
 
-    .line 15
     new-instance v0, Lcom/squareup/okhttp/CipherSuite;
 
     const-string v2, "TLS_DH_anon_EXPORT_WITH_RC4_40_MD5"
@@ -512,7 +497,6 @@
 
     sput-object v0, Lcom/squareup/okhttp/CipherSuite;->TLS_DH_anon_EXPORT_WITH_RC4_40_MD5:Lcom/squareup/okhttp/CipherSuite;
 
-    .line 16
     new-instance v0, Lcom/squareup/okhttp/CipherSuite;
 
     const-string v10, "TLS_DH_anon_WITH_RC4_128_MD5"
@@ -529,7 +513,6 @@
 
     sput-object v0, Lcom/squareup/okhttp/CipherSuite;->TLS_DH_anon_WITH_RC4_128_MD5:Lcom/squareup/okhttp/CipherSuite;
 
-    .line 17
     new-instance v0, Lcom/squareup/okhttp/CipherSuite;
 
     const-string v2, "TLS_DH_anon_EXPORT_WITH_DES40_CBC_SHA"
@@ -546,7 +529,6 @@
 
     sput-object v0, Lcom/squareup/okhttp/CipherSuite;->TLS_DH_anon_EXPORT_WITH_DES40_CBC_SHA:Lcom/squareup/okhttp/CipherSuite;
 
-    .line 18
     new-instance v0, Lcom/squareup/okhttp/CipherSuite;
 
     const-string v10, "TLS_DH_anon_WITH_DES_CBC_SHA"
@@ -565,7 +547,6 @@
 
     sput-object v0, Lcom/squareup/okhttp/CipherSuite;->TLS_DH_anon_WITH_DES_CBC_SHA:Lcom/squareup/okhttp/CipherSuite;
 
-    .line 19
     new-instance v0, Lcom/squareup/okhttp/CipherSuite;
 
     const-string v2, "TLS_DH_anon_WITH_3DES_EDE_CBC_SHA"
@@ -584,7 +565,6 @@
 
     sput-object v0, Lcom/squareup/okhttp/CipherSuite;->TLS_DH_anon_WITH_3DES_EDE_CBC_SHA:Lcom/squareup/okhttp/CipherSuite;
 
-    .line 20
     new-instance v0, Lcom/squareup/okhttp/CipherSuite;
 
     const-string v10, "TLS_KRB5_WITH_DES_CBC_SHA"
@@ -605,7 +585,6 @@
 
     sput-object v0, Lcom/squareup/okhttp/CipherSuite;->TLS_KRB5_WITH_DES_CBC_SHA:Lcom/squareup/okhttp/CipherSuite;
 
-    .line 21
     new-instance v0, Lcom/squareup/okhttp/CipherSuite;
 
     const-string v2, "TLS_KRB5_WITH_3DES_EDE_CBC_SHA"
@@ -626,7 +605,6 @@
 
     sput-object v0, Lcom/squareup/okhttp/CipherSuite;->TLS_KRB5_WITH_3DES_EDE_CBC_SHA:Lcom/squareup/okhttp/CipherSuite;
 
-    .line 22
     new-instance v0, Lcom/squareup/okhttp/CipherSuite;
 
     const-string v10, "TLS_KRB5_WITH_RC4_128_SHA"
@@ -643,7 +621,6 @@
 
     sput-object v0, Lcom/squareup/okhttp/CipherSuite;->TLS_KRB5_WITH_RC4_128_SHA:Lcom/squareup/okhttp/CipherSuite;
 
-    .line 23
     new-instance v0, Lcom/squareup/okhttp/CipherSuite;
 
     const-string v2, "TLS_KRB5_WITH_DES_CBC_MD5"
@@ -660,7 +637,6 @@
 
     sput-object v0, Lcom/squareup/okhttp/CipherSuite;->TLS_KRB5_WITH_DES_CBC_MD5:Lcom/squareup/okhttp/CipherSuite;
 
-    .line 24
     new-instance v0, Lcom/squareup/okhttp/CipherSuite;
 
     const-string v10, "TLS_KRB5_WITH_3DES_EDE_CBC_MD5"
@@ -677,7 +653,6 @@
 
     sput-object v0, Lcom/squareup/okhttp/CipherSuite;->TLS_KRB5_WITH_3DES_EDE_CBC_MD5:Lcom/squareup/okhttp/CipherSuite;
 
-    .line 25
     new-instance v0, Lcom/squareup/okhttp/CipherSuite;
 
     const-string v2, "TLS_KRB5_WITH_RC4_128_MD5"
@@ -694,7 +669,6 @@
 
     sput-object v0, Lcom/squareup/okhttp/CipherSuite;->TLS_KRB5_WITH_RC4_128_MD5:Lcom/squareup/okhttp/CipherSuite;
 
-    .line 26
     new-instance v0, Lcom/squareup/okhttp/CipherSuite;
 
     const-string v10, "TLS_KRB5_EXPORT_WITH_DES_CBC_40_SHA"
@@ -711,7 +685,6 @@
 
     sput-object v0, Lcom/squareup/okhttp/CipherSuite;->TLS_KRB5_EXPORT_WITH_DES_CBC_40_SHA:Lcom/squareup/okhttp/CipherSuite;
 
-    .line 27
     new-instance v0, Lcom/squareup/okhttp/CipherSuite;
 
     const-string v2, "TLS_KRB5_EXPORT_WITH_RC4_40_SHA"
@@ -728,7 +701,6 @@
 
     sput-object v0, Lcom/squareup/okhttp/CipherSuite;->TLS_KRB5_EXPORT_WITH_RC4_40_SHA:Lcom/squareup/okhttp/CipherSuite;
 
-    .line 28
     new-instance v0, Lcom/squareup/okhttp/CipherSuite;
 
     const-string v10, "TLS_KRB5_EXPORT_WITH_DES_CBC_40_MD5"
@@ -745,7 +717,6 @@
 
     sput-object v0, Lcom/squareup/okhttp/CipherSuite;->TLS_KRB5_EXPORT_WITH_DES_CBC_40_MD5:Lcom/squareup/okhttp/CipherSuite;
 
-    .line 29
     new-instance v0, Lcom/squareup/okhttp/CipherSuite;
 
     const-string v2, "TLS_KRB5_EXPORT_WITH_RC4_40_MD5"
@@ -762,7 +733,6 @@
 
     sput-object v0, Lcom/squareup/okhttp/CipherSuite;->TLS_KRB5_EXPORT_WITH_RC4_40_MD5:Lcom/squareup/okhttp/CipherSuite;
 
-    .line 30
     new-instance v0, Lcom/squareup/okhttp/CipherSuite;
 
     const-string v10, "TLS_RSA_WITH_AES_128_CBC_SHA"
@@ -783,7 +753,6 @@
 
     sput-object v0, Lcom/squareup/okhttp/CipherSuite;->TLS_RSA_WITH_AES_128_CBC_SHA:Lcom/squareup/okhttp/CipherSuite;
 
-    .line 31
     new-instance v0, Lcom/squareup/okhttp/CipherSuite;
 
     const-string v2, "TLS_DHE_DSS_WITH_AES_128_CBC_SHA"
@@ -804,7 +773,6 @@
 
     sput-object v0, Lcom/squareup/okhttp/CipherSuite;->TLS_DHE_DSS_WITH_AES_128_CBC_SHA:Lcom/squareup/okhttp/CipherSuite;
 
-    .line 32
     new-instance v0, Lcom/squareup/okhttp/CipherSuite;
 
     const-string v10, "TLS_DHE_RSA_WITH_AES_128_CBC_SHA"
@@ -821,7 +789,6 @@
 
     sput-object v0, Lcom/squareup/okhttp/CipherSuite;->TLS_DHE_RSA_WITH_AES_128_CBC_SHA:Lcom/squareup/okhttp/CipherSuite;
 
-    .line 33
     new-instance v0, Lcom/squareup/okhttp/CipherSuite;
 
     const-string v2, "TLS_DH_anon_WITH_AES_128_CBC_SHA"
@@ -838,7 +805,6 @@
 
     sput-object v0, Lcom/squareup/okhttp/CipherSuite;->TLS_DH_anon_WITH_AES_128_CBC_SHA:Lcom/squareup/okhttp/CipherSuite;
 
-    .line 34
     new-instance v0, Lcom/squareup/okhttp/CipherSuite;
 
     const-string v10, "TLS_RSA_WITH_AES_256_CBC_SHA"
@@ -855,7 +821,6 @@
 
     sput-object v0, Lcom/squareup/okhttp/CipherSuite;->TLS_RSA_WITH_AES_256_CBC_SHA:Lcom/squareup/okhttp/CipherSuite;
 
-    .line 35
     new-instance v0, Lcom/squareup/okhttp/CipherSuite;
 
     const-string v2, "TLS_DHE_DSS_WITH_AES_256_CBC_SHA"
@@ -872,7 +837,6 @@
 
     sput-object v0, Lcom/squareup/okhttp/CipherSuite;->TLS_DHE_DSS_WITH_AES_256_CBC_SHA:Lcom/squareup/okhttp/CipherSuite;
 
-    .line 36
     new-instance v0, Lcom/squareup/okhttp/CipherSuite;
 
     const-string v10, "TLS_DHE_RSA_WITH_AES_256_CBC_SHA"
@@ -889,7 +853,6 @@
 
     sput-object v0, Lcom/squareup/okhttp/CipherSuite;->TLS_DHE_RSA_WITH_AES_256_CBC_SHA:Lcom/squareup/okhttp/CipherSuite;
 
-    .line 37
     new-instance v0, Lcom/squareup/okhttp/CipherSuite;
 
     const-string v2, "TLS_DH_anon_WITH_AES_256_CBC_SHA"
@@ -906,7 +869,6 @@
 
     sput-object v0, Lcom/squareup/okhttp/CipherSuite;->TLS_DH_anon_WITH_AES_256_CBC_SHA:Lcom/squareup/okhttp/CipherSuite;
 
-    .line 38
     new-instance v0, Lcom/squareup/okhttp/CipherSuite;
 
     const-string v10, "TLS_RSA_WITH_NULL_SHA256"
@@ -927,7 +889,6 @@
 
     sput-object v0, Lcom/squareup/okhttp/CipherSuite;->TLS_RSA_WITH_NULL_SHA256:Lcom/squareup/okhttp/CipherSuite;
 
-    .line 39
     new-instance v0, Lcom/squareup/okhttp/CipherSuite;
 
     const-string v2, "TLS_RSA_WITH_AES_128_CBC_SHA256"
@@ -948,7 +909,6 @@
 
     sput-object v0, Lcom/squareup/okhttp/CipherSuite;->TLS_RSA_WITH_AES_128_CBC_SHA256:Lcom/squareup/okhttp/CipherSuite;
 
-    .line 40
     new-instance v0, Lcom/squareup/okhttp/CipherSuite;
 
     const-string v10, "TLS_RSA_WITH_AES_256_CBC_SHA256"
@@ -965,7 +925,6 @@
 
     sput-object v0, Lcom/squareup/okhttp/CipherSuite;->TLS_RSA_WITH_AES_256_CBC_SHA256:Lcom/squareup/okhttp/CipherSuite;
 
-    .line 41
     new-instance v0, Lcom/squareup/okhttp/CipherSuite;
 
     const-string v2, "TLS_DHE_DSS_WITH_AES_128_CBC_SHA256"
@@ -982,7 +941,6 @@
 
     sput-object v0, Lcom/squareup/okhttp/CipherSuite;->TLS_DHE_DSS_WITH_AES_128_CBC_SHA256:Lcom/squareup/okhttp/CipherSuite;
 
-    .line 42
     new-instance v0, Lcom/squareup/okhttp/CipherSuite;
 
     const-string v10, "TLS_DHE_RSA_WITH_AES_128_CBC_SHA256"
@@ -999,7 +957,6 @@
 
     sput-object v0, Lcom/squareup/okhttp/CipherSuite;->TLS_DHE_RSA_WITH_AES_128_CBC_SHA256:Lcom/squareup/okhttp/CipherSuite;
 
-    .line 43
     new-instance v0, Lcom/squareup/okhttp/CipherSuite;
 
     const-string v2, "TLS_DHE_DSS_WITH_AES_256_CBC_SHA256"
@@ -1016,7 +973,6 @@
 
     sput-object v0, Lcom/squareup/okhttp/CipherSuite;->TLS_DHE_DSS_WITH_AES_256_CBC_SHA256:Lcom/squareup/okhttp/CipherSuite;
 
-    .line 44
     new-instance v0, Lcom/squareup/okhttp/CipherSuite;
 
     const-string v10, "TLS_DHE_RSA_WITH_AES_256_CBC_SHA256"
@@ -1033,7 +989,6 @@
 
     sput-object v0, Lcom/squareup/okhttp/CipherSuite;->TLS_DHE_RSA_WITH_AES_256_CBC_SHA256:Lcom/squareup/okhttp/CipherSuite;
 
-    .line 45
     new-instance v0, Lcom/squareup/okhttp/CipherSuite;
 
     const-string v2, "TLS_DH_anon_WITH_AES_128_CBC_SHA256"
@@ -1050,7 +1005,6 @@
 
     sput-object v0, Lcom/squareup/okhttp/CipherSuite;->TLS_DH_anon_WITH_AES_128_CBC_SHA256:Lcom/squareup/okhttp/CipherSuite;
 
-    .line 46
     new-instance v0, Lcom/squareup/okhttp/CipherSuite;
 
     const-string v10, "TLS_DH_anon_WITH_AES_256_CBC_SHA256"
@@ -1067,7 +1021,6 @@
 
     sput-object v0, Lcom/squareup/okhttp/CipherSuite;->TLS_DH_anon_WITH_AES_256_CBC_SHA256:Lcom/squareup/okhttp/CipherSuite;
 
-    .line 47
     new-instance v0, Lcom/squareup/okhttp/CipherSuite;
 
     const-string v2, "TLS_RSA_WITH_AES_128_GCM_SHA256"
@@ -1088,7 +1041,6 @@
 
     sput-object v0, Lcom/squareup/okhttp/CipherSuite;->TLS_RSA_WITH_AES_128_GCM_SHA256:Lcom/squareup/okhttp/CipherSuite;
 
-    .line 48
     new-instance v0, Lcom/squareup/okhttp/CipherSuite;
 
     const-string v10, "TLS_RSA_WITH_AES_256_GCM_SHA384"
@@ -1109,7 +1061,6 @@
 
     sput-object v0, Lcom/squareup/okhttp/CipherSuite;->TLS_RSA_WITH_AES_256_GCM_SHA384:Lcom/squareup/okhttp/CipherSuite;
 
-    .line 49
     new-instance v0, Lcom/squareup/okhttp/CipherSuite;
 
     const-string v2, "TLS_DHE_RSA_WITH_AES_128_GCM_SHA256"
@@ -1126,7 +1077,6 @@
 
     sput-object v0, Lcom/squareup/okhttp/CipherSuite;->TLS_DHE_RSA_WITH_AES_128_GCM_SHA256:Lcom/squareup/okhttp/CipherSuite;
 
-    .line 50
     new-instance v0, Lcom/squareup/okhttp/CipherSuite;
 
     const-string v10, "TLS_DHE_RSA_WITH_AES_256_GCM_SHA384"
@@ -1143,7 +1093,6 @@
 
     sput-object v0, Lcom/squareup/okhttp/CipherSuite;->TLS_DHE_RSA_WITH_AES_256_GCM_SHA384:Lcom/squareup/okhttp/CipherSuite;
 
-    .line 51
     new-instance v0, Lcom/squareup/okhttp/CipherSuite;
 
     const-string v2, "TLS_DHE_DSS_WITH_AES_128_GCM_SHA256"
@@ -1160,7 +1109,6 @@
 
     sput-object v0, Lcom/squareup/okhttp/CipherSuite;->TLS_DHE_DSS_WITH_AES_128_GCM_SHA256:Lcom/squareup/okhttp/CipherSuite;
 
-    .line 52
     new-instance v0, Lcom/squareup/okhttp/CipherSuite;
 
     const-string v10, "TLS_DHE_DSS_WITH_AES_256_GCM_SHA384"
@@ -1177,7 +1125,6 @@
 
     sput-object v0, Lcom/squareup/okhttp/CipherSuite;->TLS_DHE_DSS_WITH_AES_256_GCM_SHA384:Lcom/squareup/okhttp/CipherSuite;
 
-    .line 53
     new-instance v0, Lcom/squareup/okhttp/CipherSuite;
 
     const-string v2, "TLS_DH_anon_WITH_AES_128_GCM_SHA256"
@@ -1194,7 +1141,6 @@
 
     sput-object v0, Lcom/squareup/okhttp/CipherSuite;->TLS_DH_anon_WITH_AES_128_GCM_SHA256:Lcom/squareup/okhttp/CipherSuite;
 
-    .line 54
     new-instance v0, Lcom/squareup/okhttp/CipherSuite;
 
     const-string v10, "TLS_DH_anon_WITH_AES_256_GCM_SHA384"
@@ -1211,7 +1157,6 @@
 
     sput-object v0, Lcom/squareup/okhttp/CipherSuite;->TLS_DH_anon_WITH_AES_256_GCM_SHA384:Lcom/squareup/okhttp/CipherSuite;
 
-    .line 55
     new-instance v0, Lcom/squareup/okhttp/CipherSuite;
 
     const-string v2, "TLS_EMPTY_RENEGOTIATION_INFO_SCSV"
@@ -1234,7 +1179,6 @@
 
     sput-object v0, Lcom/squareup/okhttp/CipherSuite;->TLS_EMPTY_RENEGOTIATION_INFO_SCSV:Lcom/squareup/okhttp/CipherSuite;
 
-    .line 56
     new-instance v0, Lcom/squareup/okhttp/CipherSuite;
 
     const-string v10, "TLS_ECDH_ECDSA_WITH_NULL_SHA"
@@ -1257,7 +1201,6 @@
 
     sput-object v0, Lcom/squareup/okhttp/CipherSuite;->TLS_ECDH_ECDSA_WITH_NULL_SHA:Lcom/squareup/okhttp/CipherSuite;
 
-    .line 57
     new-instance v0, Lcom/squareup/okhttp/CipherSuite;
 
     const-string v2, "TLS_ECDH_ECDSA_WITH_RC4_128_SHA"
@@ -1278,7 +1221,6 @@
 
     sput-object v0, Lcom/squareup/okhttp/CipherSuite;->TLS_ECDH_ECDSA_WITH_RC4_128_SHA:Lcom/squareup/okhttp/CipherSuite;
 
-    .line 58
     new-instance v0, Lcom/squareup/okhttp/CipherSuite;
 
     const-string v10, "TLS_ECDH_ECDSA_WITH_3DES_EDE_CBC_SHA"
@@ -1295,7 +1237,6 @@
 
     sput-object v0, Lcom/squareup/okhttp/CipherSuite;->TLS_ECDH_ECDSA_WITH_3DES_EDE_CBC_SHA:Lcom/squareup/okhttp/CipherSuite;
 
-    .line 59
     new-instance v0, Lcom/squareup/okhttp/CipherSuite;
 
     const-string v2, "TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA"
@@ -1312,7 +1253,6 @@
 
     sput-object v0, Lcom/squareup/okhttp/CipherSuite;->TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA:Lcom/squareup/okhttp/CipherSuite;
 
-    .line 60
     new-instance v0, Lcom/squareup/okhttp/CipherSuite;
 
     const-string v10, "TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA"
@@ -1329,7 +1269,6 @@
 
     sput-object v0, Lcom/squareup/okhttp/CipherSuite;->TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA:Lcom/squareup/okhttp/CipherSuite;
 
-    .line 61
     new-instance v0, Lcom/squareup/okhttp/CipherSuite;
 
     const-string v2, "TLS_ECDHE_ECDSA_WITH_NULL_SHA"
@@ -1346,7 +1285,6 @@
 
     sput-object v0, Lcom/squareup/okhttp/CipherSuite;->TLS_ECDHE_ECDSA_WITH_NULL_SHA:Lcom/squareup/okhttp/CipherSuite;
 
-    .line 62
     new-instance v0, Lcom/squareup/okhttp/CipherSuite;
 
     const-string v10, "TLS_ECDHE_ECDSA_WITH_RC4_128_SHA"
@@ -1363,7 +1301,6 @@
 
     sput-object v0, Lcom/squareup/okhttp/CipherSuite;->TLS_ECDHE_ECDSA_WITH_RC4_128_SHA:Lcom/squareup/okhttp/CipherSuite;
 
-    .line 63
     new-instance v0, Lcom/squareup/okhttp/CipherSuite;
 
     const-string v2, "TLS_ECDHE_ECDSA_WITH_3DES_EDE_CBC_SHA"
@@ -1380,7 +1317,6 @@
 
     sput-object v0, Lcom/squareup/okhttp/CipherSuite;->TLS_ECDHE_ECDSA_WITH_3DES_EDE_CBC_SHA:Lcom/squareup/okhttp/CipherSuite;
 
-    .line 64
     new-instance v0, Lcom/squareup/okhttp/CipherSuite;
 
     const-string v10, "TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA"
@@ -1397,7 +1333,6 @@
 
     sput-object v0, Lcom/squareup/okhttp/CipherSuite;->TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA:Lcom/squareup/okhttp/CipherSuite;
 
-    .line 65
     new-instance v0, Lcom/squareup/okhttp/CipherSuite;
 
     const-string v2, "TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA"
@@ -1414,7 +1349,6 @@
 
     sput-object v0, Lcom/squareup/okhttp/CipherSuite;->TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA:Lcom/squareup/okhttp/CipherSuite;
 
-    .line 66
     new-instance v0, Lcom/squareup/okhttp/CipherSuite;
 
     const-string v10, "TLS_ECDH_RSA_WITH_NULL_SHA"
@@ -1431,7 +1365,6 @@
 
     sput-object v0, Lcom/squareup/okhttp/CipherSuite;->TLS_ECDH_RSA_WITH_NULL_SHA:Lcom/squareup/okhttp/CipherSuite;
 
-    .line 67
     new-instance v0, Lcom/squareup/okhttp/CipherSuite;
 
     const-string v2, "TLS_ECDH_RSA_WITH_RC4_128_SHA"
@@ -1448,7 +1381,6 @@
 
     sput-object v0, Lcom/squareup/okhttp/CipherSuite;->TLS_ECDH_RSA_WITH_RC4_128_SHA:Lcom/squareup/okhttp/CipherSuite;
 
-    .line 68
     new-instance v0, Lcom/squareup/okhttp/CipherSuite;
 
     const-string v10, "TLS_ECDH_RSA_WITH_3DES_EDE_CBC_SHA"
@@ -1465,7 +1397,6 @@
 
     sput-object v0, Lcom/squareup/okhttp/CipherSuite;->TLS_ECDH_RSA_WITH_3DES_EDE_CBC_SHA:Lcom/squareup/okhttp/CipherSuite;
 
-    .line 69
     new-instance v0, Lcom/squareup/okhttp/CipherSuite;
 
     const-string v2, "TLS_ECDH_RSA_WITH_AES_128_CBC_SHA"
@@ -1482,7 +1413,6 @@
 
     sput-object v0, Lcom/squareup/okhttp/CipherSuite;->TLS_ECDH_RSA_WITH_AES_128_CBC_SHA:Lcom/squareup/okhttp/CipherSuite;
 
-    .line 70
     new-instance v0, Lcom/squareup/okhttp/CipherSuite;
 
     const-string v10, "TLS_ECDH_RSA_WITH_AES_256_CBC_SHA"
@@ -1499,7 +1429,6 @@
 
     sput-object v0, Lcom/squareup/okhttp/CipherSuite;->TLS_ECDH_RSA_WITH_AES_256_CBC_SHA:Lcom/squareup/okhttp/CipherSuite;
 
-    .line 71
     new-instance v0, Lcom/squareup/okhttp/CipherSuite;
 
     const-string v2, "TLS_ECDHE_RSA_WITH_NULL_SHA"
@@ -1516,7 +1445,6 @@
 
     sput-object v0, Lcom/squareup/okhttp/CipherSuite;->TLS_ECDHE_RSA_WITH_NULL_SHA:Lcom/squareup/okhttp/CipherSuite;
 
-    .line 72
     new-instance v0, Lcom/squareup/okhttp/CipherSuite;
 
     const-string v10, "TLS_ECDHE_RSA_WITH_RC4_128_SHA"
@@ -1533,7 +1461,6 @@
 
     sput-object v0, Lcom/squareup/okhttp/CipherSuite;->TLS_ECDHE_RSA_WITH_RC4_128_SHA:Lcom/squareup/okhttp/CipherSuite;
 
-    .line 73
     new-instance v0, Lcom/squareup/okhttp/CipherSuite;
 
     const-string v2, "TLS_ECDHE_RSA_WITH_3DES_EDE_CBC_SHA"
@@ -1550,7 +1477,6 @@
 
     sput-object v0, Lcom/squareup/okhttp/CipherSuite;->TLS_ECDHE_RSA_WITH_3DES_EDE_CBC_SHA:Lcom/squareup/okhttp/CipherSuite;
 
-    .line 74
     new-instance v0, Lcom/squareup/okhttp/CipherSuite;
 
     const-string v10, "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA"
@@ -1567,7 +1493,6 @@
 
     sput-object v0, Lcom/squareup/okhttp/CipherSuite;->TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA:Lcom/squareup/okhttp/CipherSuite;
 
-    .line 75
     new-instance v0, Lcom/squareup/okhttp/CipherSuite;
 
     const-string v2, "TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA"
@@ -1584,7 +1509,6 @@
 
     sput-object v0, Lcom/squareup/okhttp/CipherSuite;->TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA:Lcom/squareup/okhttp/CipherSuite;
 
-    .line 76
     new-instance v0, Lcom/squareup/okhttp/CipherSuite;
 
     const-string v10, "TLS_ECDH_anon_WITH_NULL_SHA"
@@ -1601,7 +1525,6 @@
 
     sput-object v0, Lcom/squareup/okhttp/CipherSuite;->TLS_ECDH_anon_WITH_NULL_SHA:Lcom/squareup/okhttp/CipherSuite;
 
-    .line 77
     new-instance v0, Lcom/squareup/okhttp/CipherSuite;
 
     const-string v2, "TLS_ECDH_anon_WITH_RC4_128_SHA"
@@ -1618,7 +1541,6 @@
 
     sput-object v0, Lcom/squareup/okhttp/CipherSuite;->TLS_ECDH_anon_WITH_RC4_128_SHA:Lcom/squareup/okhttp/CipherSuite;
 
-    .line 78
     new-instance v0, Lcom/squareup/okhttp/CipherSuite;
 
     const-string v10, "TLS_ECDH_anon_WITH_3DES_EDE_CBC_SHA"
@@ -1635,7 +1557,6 @@
 
     sput-object v0, Lcom/squareup/okhttp/CipherSuite;->TLS_ECDH_anon_WITH_3DES_EDE_CBC_SHA:Lcom/squareup/okhttp/CipherSuite;
 
-    .line 79
     new-instance v0, Lcom/squareup/okhttp/CipherSuite;
 
     const-string v2, "TLS_ECDH_anon_WITH_AES_128_CBC_SHA"
@@ -1652,7 +1573,6 @@
 
     sput-object v0, Lcom/squareup/okhttp/CipherSuite;->TLS_ECDH_anon_WITH_AES_128_CBC_SHA:Lcom/squareup/okhttp/CipherSuite;
 
-    .line 80
     new-instance v0, Lcom/squareup/okhttp/CipherSuite;
 
     const-string v10, "TLS_ECDH_anon_WITH_AES_256_CBC_SHA"
@@ -1669,7 +1589,6 @@
 
     sput-object v0, Lcom/squareup/okhttp/CipherSuite;->TLS_ECDH_anon_WITH_AES_256_CBC_SHA:Lcom/squareup/okhttp/CipherSuite;
 
-    .line 81
     new-instance v0, Lcom/squareup/okhttp/CipherSuite;
 
     const-string v2, "TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256"
@@ -1690,7 +1609,6 @@
 
     sput-object v0, Lcom/squareup/okhttp/CipherSuite;->TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256:Lcom/squareup/okhttp/CipherSuite;
 
-    .line 82
     new-instance v0, Lcom/squareup/okhttp/CipherSuite;
 
     const-string v10, "TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384"
@@ -1711,7 +1629,6 @@
 
     sput-object v0, Lcom/squareup/okhttp/CipherSuite;->TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384:Lcom/squareup/okhttp/CipherSuite;
 
-    .line 83
     new-instance v0, Lcom/squareup/okhttp/CipherSuite;
 
     const-string v2, "TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA256"
@@ -1728,7 +1645,6 @@
 
     sput-object v0, Lcom/squareup/okhttp/CipherSuite;->TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA256:Lcom/squareup/okhttp/CipherSuite;
 
-    .line 84
     new-instance v0, Lcom/squareup/okhttp/CipherSuite;
 
     const-string v10, "TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA384"
@@ -1745,7 +1661,6 @@
 
     sput-object v0, Lcom/squareup/okhttp/CipherSuite;->TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA384:Lcom/squareup/okhttp/CipherSuite;
 
-    .line 85
     new-instance v0, Lcom/squareup/okhttp/CipherSuite;
 
     const-string v2, "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256"
@@ -1762,7 +1677,6 @@
 
     sput-object v0, Lcom/squareup/okhttp/CipherSuite;->TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256:Lcom/squareup/okhttp/CipherSuite;
 
-    .line 86
     new-instance v0, Lcom/squareup/okhttp/CipherSuite;
 
     const-string v10, "TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384"
@@ -1779,7 +1693,6 @@
 
     sput-object v0, Lcom/squareup/okhttp/CipherSuite;->TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384:Lcom/squareup/okhttp/CipherSuite;
 
-    .line 87
     new-instance v0, Lcom/squareup/okhttp/CipherSuite;
 
     const-string v2, "TLS_ECDH_RSA_WITH_AES_128_CBC_SHA256"
@@ -1796,7 +1709,6 @@
 
     sput-object v0, Lcom/squareup/okhttp/CipherSuite;->TLS_ECDH_RSA_WITH_AES_128_CBC_SHA256:Lcom/squareup/okhttp/CipherSuite;
 
-    .line 88
     new-instance v0, Lcom/squareup/okhttp/CipherSuite;
 
     const-string v10, "TLS_ECDH_RSA_WITH_AES_256_CBC_SHA384"
@@ -1813,7 +1725,6 @@
 
     sput-object v0, Lcom/squareup/okhttp/CipherSuite;->TLS_ECDH_RSA_WITH_AES_256_CBC_SHA384:Lcom/squareup/okhttp/CipherSuite;
 
-    .line 89
     new-instance v0, Lcom/squareup/okhttp/CipherSuite;
 
     const-string v2, "TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256"
@@ -1832,7 +1743,6 @@
 
     sput-object v0, Lcom/squareup/okhttp/CipherSuite;->TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256:Lcom/squareup/okhttp/CipherSuite;
 
-    .line 90
     new-instance v0, Lcom/squareup/okhttp/CipherSuite;
 
     const-string v10, "TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384"
@@ -1851,7 +1761,6 @@
 
     sput-object v0, Lcom/squareup/okhttp/CipherSuite;->TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384:Lcom/squareup/okhttp/CipherSuite;
 
-    .line 91
     new-instance v0, Lcom/squareup/okhttp/CipherSuite;
 
     const-string v2, "TLS_ECDH_ECDSA_WITH_AES_128_GCM_SHA256"
@@ -1868,7 +1777,6 @@
 
     sput-object v0, Lcom/squareup/okhttp/CipherSuite;->TLS_ECDH_ECDSA_WITH_AES_128_GCM_SHA256:Lcom/squareup/okhttp/CipherSuite;
 
-    .line 92
     new-instance v0, Lcom/squareup/okhttp/CipherSuite;
 
     const-string v10, "TLS_ECDH_ECDSA_WITH_AES_256_GCM_SHA384"
@@ -1885,7 +1793,6 @@
 
     sput-object v0, Lcom/squareup/okhttp/CipherSuite;->TLS_ECDH_ECDSA_WITH_AES_256_GCM_SHA384:Lcom/squareup/okhttp/CipherSuite;
 
-    .line 93
     new-instance v0, Lcom/squareup/okhttp/CipherSuite;
 
     const-string v2, "TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256"
@@ -1902,7 +1809,6 @@
 
     sput-object v0, Lcom/squareup/okhttp/CipherSuite;->TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256:Lcom/squareup/okhttp/CipherSuite;
 
-    .line 94
     new-instance v0, Lcom/squareup/okhttp/CipherSuite;
 
     const-string v10, "TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384"
@@ -1919,7 +1825,6 @@
 
     sput-object v0, Lcom/squareup/okhttp/CipherSuite;->TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384:Lcom/squareup/okhttp/CipherSuite;
 
-    .line 95
     new-instance v0, Lcom/squareup/okhttp/CipherSuite;
 
     const-string v2, "TLS_ECDH_RSA_WITH_AES_128_GCM_SHA256"
@@ -1936,7 +1841,6 @@
 
     sput-object v0, Lcom/squareup/okhttp/CipherSuite;->TLS_ECDH_RSA_WITH_AES_128_GCM_SHA256:Lcom/squareup/okhttp/CipherSuite;
 
-    .line 96
     new-instance v0, Lcom/squareup/okhttp/CipherSuite;
 
     const-string v10, "TLS_ECDH_RSA_WITH_AES_256_GCM_SHA384"
@@ -1957,7 +1861,6 @@
 
     new-array v0, v0, [Lcom/squareup/okhttp/CipherSuite;
 
-    .line 97
     sget-object v1, Lcom/squareup/okhttp/CipherSuite;->TLS_RSA_WITH_NULL_MD5:Lcom/squareup/okhttp/CipherSuite;
 
     const/4 v2, 0x0
@@ -2549,10 +2452,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 2
     iput-object p3, p0, Lcom/squareup/okhttp/CipherSuite;->javaName:Ljava/lang/String;
 
     return-void
@@ -2563,7 +2464,6 @@
 
     const-string v0, "SSL_"
 
-    .line 1
     invoke-virtual {p0, v0}, Ljava/lang/String;->startsWith(Ljava/lang/String;)Z
 
     move-result v0
@@ -2580,7 +2480,6 @@
 
     const/4 v1, 0x4
 
-    .line 2
     invoke-virtual {p0, v1}, Ljava/lang/String;->substring(I)Ljava/lang/String;
 
     move-result-object p0
@@ -2597,7 +2496,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_0
     invoke-static {p0}, Lcom/squareup/okhttp/CipherSuite;->valueOf(Ljava/lang/String;)Lcom/squareup/okhttp/CipherSuite;
 
@@ -2610,7 +2508,6 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/squareup/okhttp/CipherSuite;
     .locals 1
 
-    .line 1
     const-class v0, Lcom/squareup/okhttp/CipherSuite;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -2625,7 +2522,6 @@
 .method public static values()[Lcom/squareup/okhttp/CipherSuite;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/squareup/okhttp/CipherSuite;->$VALUES:[Lcom/squareup/okhttp/CipherSuite;
 
     invoke-virtual {v0}, [Lcom/squareup/okhttp/CipherSuite;->clone()Ljava/lang/Object;

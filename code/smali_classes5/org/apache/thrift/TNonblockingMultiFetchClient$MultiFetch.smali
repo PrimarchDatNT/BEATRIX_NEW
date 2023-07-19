@@ -27,7 +27,6 @@
 .method private constructor <init>(Lorg/apache/thrift/TNonblockingMultiFetchClient;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lorg/apache/thrift/TNonblockingMultiFetchClient$MultiFetch;->this$0:Lorg/apache/thrift/TNonblockingMultiFetchClient;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -38,7 +37,6 @@
 .method synthetic constructor <init>(Lorg/apache/thrift/TNonblockingMultiFetchClient;Lorg/apache/thrift/TNonblockingMultiFetchClient$1;)V
     .locals 0
 
-    .line 2
     invoke-direct {p0, p1}, Lorg/apache/thrift/TNonblockingMultiFetchClient$MultiFetch;-><init>(Lorg/apache/thrift/TNonblockingMultiFetchClient;)V
 
     return-void
@@ -49,7 +47,6 @@
 .method public close()V
     .locals 4
 
-    .line 1
     :try_start_0
     iget-object v0, p0, Lorg/apache/thrift/TNonblockingMultiFetchClient$MultiFetch;->selector:Ljava/nio/channels/Selector;
 
@@ -59,7 +56,6 @@
 
     if-eqz v0, :cond_1
 
-    .line 2
     iget-object v0, p0, Lorg/apache/thrift/TNonblockingMultiFetchClient$MultiFetch;->selector:Ljava/nio/channels/Selector;
 
     invoke-virtual {v0}, Ljava/nio/channels/Selector;->keys()Ljava/util/Set;
@@ -70,7 +66,6 @@
 
     move-result-object v0
 
-    .line 3
     :goto_0
     invoke-interface {v0}, Ljava/util/Iterator;->hasNext()Z
 
@@ -78,26 +73,22 @@
 
     if-eqz v1, :cond_0
 
-    .line 4
     invoke-interface {v0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
     move-result-object v1
 
     check-cast v1, Ljava/nio/channels/SelectionKey;
 
-    .line 5
     invoke-virtual {v1}, Ljava/nio/channels/SelectionKey;->channel()Ljava/nio/channels/SelectableChannel;
 
     move-result-object v1
 
     check-cast v1, Ljava/nio/channels/SocketChannel;
 
-    .line 6
     invoke-virtual {v1}, Ljava/nio/channels/SocketChannel;->close()V
 
     goto :goto_0
 
-    .line 7
     :cond_0
     iget-object v0, p0, Lorg/apache/thrift/TNonblockingMultiFetchClient$MultiFetch;->selector:Ljava/nio/channels/Selector;
 
@@ -110,7 +101,6 @@
     :catch_0
     move-exception v0
 
-    .line 8
     invoke-static {}, Lorg/apache/thrift/TNonblockingMultiFetchClient;->access$400()Lorg/slf4j/c;
 
     move-result-object v1
@@ -145,12 +135,10 @@
 
     move-object/from16 v1, p0
 
-    .line 1
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v2
 
-    .line 2
     iget-object v0, v1, Lorg/apache/thrift/TNonblockingMultiFetchClient$MultiFetch;->this$0:Lorg/apache/thrift/TNonblockingMultiFetchClient;
 
     invoke-static {v0}, Lorg/apache/thrift/TNonblockingMultiFetchClient;->access$100(Lorg/apache/thrift/TNonblockingMultiFetchClient;)Ljava/util/List;
@@ -161,7 +149,6 @@
 
     move-result v4
 
-    .line 3
     iget-object v0, v1, Lorg/apache/thrift/TNonblockingMultiFetchClient$MultiFetch;->this$0:Lorg/apache/thrift/TNonblockingMultiFetchClient;
 
     invoke-static {v0}, Lorg/apache/thrift/TNonblockingMultiFetchClient;->access$200(Lorg/apache/thrift/TNonblockingMultiFetchClient;)Lorg/apache/thrift/TNonblockingMultiFetchStats;
@@ -170,26 +157,20 @@
 
     invoke-virtual {v0, v4}, Lorg/apache/thrift/TNonblockingMultiFetchStats;->setNumTotalServers(I)V
 
-    .line 4
     iget-object v0, v1, Lorg/apache/thrift/TNonblockingMultiFetchClient$MultiFetch;->this$0:Lorg/apache/thrift/TNonblockingMultiFetchClient;
 
     new-array v5, v4, [Ljava/nio/ByteBuffer;
 
     invoke-static {v0, v5}, Lorg/apache/thrift/TNonblockingMultiFetchClient;->access$302(Lorg/apache/thrift/TNonblockingMultiFetchClient;[Ljava/nio/ByteBuffer;)[Ljava/nio/ByteBuffer;
 
-    .line 5
     new-array v5, v4, [Ljava/nio/ByteBuffer;
 
-    .line 6
     new-array v6, v4, [J
 
-    .line 7
     new-array v7, v4, [I
 
-    .line 8
     new-array v8, v4, [Z
 
-    .line 9
     :try_start_0
     invoke-static {}, Ljava/nio/channels/Selector;->open()Ljava/nio/channels/Selector;
 
@@ -212,7 +193,6 @@
 
     if-ge v10, v4, :cond_2
 
-    .line 10
     iget-object v0, v1, Lorg/apache/thrift/TNonblockingMultiFetchClient$MultiFetch;->this$0:Lorg/apache/thrift/TNonblockingMultiFetchClient;
 
     invoke-static {v0}, Lorg/apache/thrift/TNonblockingMultiFetchClient;->access$500(Lorg/apache/thrift/TNonblockingMultiFetchClient;)Ljava/nio/ByteBuffer;
@@ -225,7 +205,6 @@
 
     aput-object v0, v5, v10
 
-    .line 11
     iget-object v0, v1, Lorg/apache/thrift/TNonblockingMultiFetchClient$MultiFetch;->this$0:Lorg/apache/thrift/TNonblockingMultiFetchClient;
 
     invoke-static {v0}, Lorg/apache/thrift/TNonblockingMultiFetchClient;->access$300(Lorg/apache/thrift/TNonblockingMultiFetchClient;)[Ljava/nio/ByteBuffer;
@@ -238,7 +217,6 @@
 
     aput-object v14, v0, v10
 
-    .line 12
     iget-object v0, v1, Lorg/apache/thrift/TNonblockingMultiFetchClient$MultiFetch;->this$0:Lorg/apache/thrift/TNonblockingMultiFetchClient;
 
     invoke-static {v0}, Lorg/apache/thrift/TNonblockingMultiFetchClient;->access$200(Lorg/apache/thrift/TNonblockingMultiFetchClient;)Lorg/apache/thrift/TNonblockingMultiFetchStats;
@@ -247,7 +225,6 @@
 
     invoke-virtual {v0, v12}, Lorg/apache/thrift/TNonblockingMultiFetchStats;->incTotalRecvBufBytes(I)V
 
-    .line 13
     iget-object v0, v1, Lorg/apache/thrift/TNonblockingMultiFetchClient$MultiFetch;->this$0:Lorg/apache/thrift/TNonblockingMultiFetchClient;
 
     invoke-static {v0}, Lorg/apache/thrift/TNonblockingMultiFetchClient;->access$100(Lorg/apache/thrift/TNonblockingMultiFetchClient;)Ljava/util/List;
@@ -262,7 +239,6 @@
 
     check-cast v12, Ljava/net/InetSocketAddress;
 
-    .line 14
     :try_start_1
     invoke-static {}, Ljava/nio/channels/SocketChannel;->open()Ljava/nio/channels/SocketChannel;
 
@@ -270,14 +246,11 @@
     :try_end_1
     .catch Ljava/lang/Exception; {:try_start_1 .. :try_end_1} :catch_2
 
-    .line 15
     :try_start_2
     invoke-virtual {v15, v9}, Ljava/nio/channels/SocketChannel;->configureBlocking(Z)Ljava/nio/channels/SelectableChannel;
 
-    .line 16
     invoke-virtual {v15, v12}, Ljava/nio/channels/SocketChannel;->connect(Ljava/net/SocketAddress;)Z
 
-    .line 17
     iget-object v0, v1, Lorg/apache/thrift/TNonblockingMultiFetchClient$MultiFetch;->selector:Ljava/nio/channels/Selector;
 
     invoke-virtual {v15}, Ljava/nio/channels/SocketChannel;->validOps()I
@@ -290,7 +263,6 @@
     :try_end_2
     .catch Ljava/lang/Exception; {:try_start_2 .. :try_end_2} :catch_1
 
-    .line 18
     :try_start_3
     invoke-static {v10}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -326,7 +298,6 @@
     :goto_1
     const/16 v16, 0x0
 
-    .line 19
     :goto_2
     iget-object v15, v1, Lorg/apache/thrift/TNonblockingMultiFetchClient$MultiFetch;->this$0:Lorg/apache/thrift/TNonblockingMultiFetchClient;
 
@@ -338,7 +309,6 @@
 
     new-array v11, v11, [Ljava/lang/Object;
 
-    .line 20
     invoke-virtual {v12}, Ljava/net/InetSocketAddress;->toString()Ljava/lang/String;
 
     move-result-object v12
@@ -353,12 +323,10 @@
 
     const-string v0, "set up socket to server %s error: %s"
 
-    .line 21
     invoke-static {v0, v11}, Ljava/lang/String;->format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object v0
 
-    .line 22
     invoke-static {}, Lorg/apache/thrift/TNonblockingMultiFetchClient;->access$400()Lorg/slf4j/c;
 
     move-result-object v11
@@ -367,7 +335,6 @@
 
     if-eqz v14, :cond_0
 
-    .line 23
     :try_start_4
     invoke-virtual {v14}, Ljava/nio/channels/SocketChannel;->close()V
     :try_end_4
@@ -382,7 +349,6 @@
     :goto_3
     if-eqz v16, :cond_1
 
-    .line 24
     invoke-virtual/range {v16 .. v16}, Ljava/nio/channels/SelectionKey;->cancel()V
 
     :cond_1
@@ -391,7 +357,6 @@
 
     goto/16 :goto_0
 
-    .line 25
     :cond_2
     :goto_5
     iget-object v0, v1, Lorg/apache/thrift/TNonblockingMultiFetchClient$MultiFetch;->this$0:Lorg/apache/thrift/TNonblockingMultiFetchClient;
@@ -406,7 +371,6 @@
 
     iget-object v4, v1, Lorg/apache/thrift/TNonblockingMultiFetchClient$MultiFetch;->this$0:Lorg/apache/thrift/TNonblockingMultiFetchClient;
 
-    .line 26
     invoke-static {v4}, Lorg/apache/thrift/TNonblockingMultiFetchClient;->access$200(Lorg/apache/thrift/TNonblockingMultiFetchClient;)Lorg/apache/thrift/TNonblockingMultiFetchStats;
 
     move-result-object v4
@@ -429,7 +393,6 @@
 
     if-ge v0, v4, :cond_e
 
-    .line 27
     invoke-static {}, Ljava/lang/Thread;->currentThread()Ljava/lang/Thread;
 
     move-result-object v0
@@ -442,7 +405,6 @@
 
     return-void
 
-    .line 28
     :cond_3
     :try_start_5
     iget-object v0, v1, Lorg/apache/thrift/TNonblockingMultiFetchClient$MultiFetch;->selector:Ljava/nio/channels/Selector;
@@ -451,7 +413,6 @@
     :try_end_5
     .catch Ljava/lang/Exception; {:try_start_5 .. :try_end_5} :catch_8
 
-    .line 29
     iget-object v0, v1, Lorg/apache/thrift/TNonblockingMultiFetchClient$MultiFetch;->selector:Ljava/nio/channels/Selector;
 
     invoke-virtual {v0}, Ljava/nio/channels/Selector;->selectedKeys()Ljava/util/Set;
@@ -462,7 +423,6 @@
 
     move-result-object v4
 
-    .line 30
     :goto_6
     invoke-interface {v4}, Ljava/util/Iterator;->hasNext()Z
 
@@ -470,7 +430,6 @@
 
     if-eqz v0, :cond_d
 
-    .line 31
     invoke-interface {v4}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
     move-result-object v0
@@ -479,10 +438,8 @@
 
     check-cast v10, Ljava/nio/channels/SelectionKey;
 
-    .line 32
     invoke-interface {v4}, Ljava/util/Iterator;->remove()V
 
-    .line 33
     invoke-virtual {v10}, Ljava/nio/channels/SelectionKey;->attachment()Ljava/lang/Object;
 
     move-result-object v0
@@ -493,7 +450,6 @@
 
     move-result v14
 
-    .line 34
     invoke-virtual {v10}, Ljava/nio/channels/SelectionKey;->isValid()Z
 
     move-result v0
@@ -508,7 +464,6 @@
 
     if-eqz v0, :cond_4
 
-    .line 35
     :try_start_6
     invoke-virtual {v10}, Ljava/nio/channels/SelectionKey;->channel()Ljava/nio/channels/SelectableChannel;
 
@@ -516,7 +471,6 @@
 
     check-cast v0, Ljava/nio/channels/SocketChannel;
 
-    .line 36
     invoke-virtual {v0}, Ljava/nio/channels/SocketChannel;->finishConnect()Z
     :try_end_6
     .catch Ljava/lang/Exception; {:try_start_6 .. :try_end_6} :catch_4
@@ -526,7 +480,6 @@
     :catch_4
     move-exception v0
 
-    .line 37
     iget-object v12, v1, Lorg/apache/thrift/TNonblockingMultiFetchClient$MultiFetch;->this$0:Lorg/apache/thrift/TNonblockingMultiFetchClient;
 
     invoke-static {v12}, Lorg/apache/thrift/TNonblockingMultiFetchClient;->access$200(Lorg/apache/thrift/TNonblockingMultiFetchClient;)Lorg/apache/thrift/TNonblockingMultiFetchStats;
@@ -537,7 +490,6 @@
 
     new-array v12, v15, [Ljava/lang/Object;
 
-    .line 38
     invoke-static {v14}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v17
@@ -570,19 +522,16 @@
 
     const-string v0, "socket %d connects to server %s error: %s"
 
-    .line 39
     invoke-static {v0, v12}, Ljava/lang/String;->format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object v0
 
-    .line 40
     invoke-static {}, Lorg/apache/thrift/TNonblockingMultiFetchClient;->access$400()Lorg/slf4j/c;
 
     move-result-object v9
 
     invoke-interface {v9, v0}, Lorg/slf4j/c;->error(Ljava/lang/String;)V
 
-    .line 41
     :cond_4
     :goto_7
     invoke-virtual {v10}, Ljava/nio/channels/SelectionKey;->isValid()Z
@@ -597,7 +546,6 @@
 
     if-eqz v0, :cond_5
 
-    .line 42
     aget-object v0, v5, v14
 
     invoke-virtual {v0}, Ljava/nio/ByteBuffer;->hasRemaining()Z
@@ -606,7 +554,6 @@
 
     if-eqz v0, :cond_5
 
-    .line 43
     :try_start_7
     invoke-virtual {v10}, Ljava/nio/channels/SelectionKey;->channel()Ljava/nio/channels/SelectableChannel;
 
@@ -614,7 +561,6 @@
 
     check-cast v0, Ljava/nio/channels/SocketChannel;
 
-    .line 44
     aget-object v9, v5, v14
 
     invoke-virtual {v0, v9}, Ljava/nio/channels/SocketChannel;->write(Ljava/nio/ByteBuffer;)I
@@ -628,7 +574,6 @@
 
     new-array v9, v15, [Ljava/lang/Object;
 
-    .line 45
     invoke-static {v14}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v12
@@ -663,19 +608,16 @@
 
     const-string v0, "socket %d writes to server %s error: %s"
 
-    .line 46
     invoke-static {v0, v9}, Ljava/lang/String;->format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object v0
 
-    .line 47
     invoke-static {}, Lorg/apache/thrift/TNonblockingMultiFetchClient;->access$400()Lorg/slf4j/c;
 
     move-result-object v9
 
     invoke-interface {v9, v0}, Lorg/slf4j/c;->error(Ljava/lang/String;)V
 
-    .line 48
     :cond_5
     :goto_8
     invoke-virtual {v10}, Ljava/nio/channels/SelectionKey;->isValid()Z
@@ -690,7 +632,6 @@
 
     if-eqz v0, :cond_c
 
-    .line 49
     :try_start_8
     invoke-virtual {v10}, Ljava/nio/channels/SelectionKey;->channel()Ljava/nio/channels/SelectableChannel;
 
@@ -698,7 +639,6 @@
 
     check-cast v0, Ljava/nio/channels/SocketChannel;
 
-    .line 50
     iget-object v9, v1, Lorg/apache/thrift/TNonblockingMultiFetchClient$MultiFetch;->this$0:Lorg/apache/thrift/TNonblockingMultiFetchClient;
 
     invoke-static {v9}, Lorg/apache/thrift/TNonblockingMultiFetchClient;->access$300(Lorg/apache/thrift/TNonblockingMultiFetchClient;)[Ljava/nio/ByteBuffer;
@@ -713,7 +653,6 @@
 
     if-lez v9, :cond_a
 
-    .line 51
     aget-wide v18, v6, v14
 
     int-to-long v9, v9
@@ -722,14 +661,12 @@
 
     aput-wide v18, v6, v14
 
-    .line 52
     aget-boolean v9, v8, v14
 
     if-nez v9, :cond_9
 
     iget-object v9, v1, Lorg/apache/thrift/TNonblockingMultiFetchClient$MultiFetch;->this$0:Lorg/apache/thrift/TNonblockingMultiFetchClient;
 
-    .line 53
     invoke-static {v9}, Lorg/apache/thrift/TNonblockingMultiFetchClient;->access$300(Lorg/apache/thrift/TNonblockingMultiFetchClient;)[Ljava/nio/ByteBuffer;
 
     move-result-object v9
@@ -742,7 +679,6 @@
 
     if-nez v9, :cond_9
 
-    .line 54
     iget-object v9, v1, Lorg/apache/thrift/TNonblockingMultiFetchClient$MultiFetch;->this$0:Lorg/apache/thrift/TNonblockingMultiFetchClient;
 
     invoke-static {v9}, Lorg/apache/thrift/TNonblockingMultiFetchClient;->access$300(Lorg/apache/thrift/TNonblockingMultiFetchClient;)[Ljava/nio/ByteBuffer;
@@ -759,12 +695,10 @@
 
     aput v9, v7, v14
 
-    .line 55
     aget v9, v7, v14
 
     if-gtz v9, :cond_6
 
-    .line 56
     iget-object v9, v1, Lorg/apache/thrift/TNonblockingMultiFetchClient$MultiFetch;->this$0:Lorg/apache/thrift/TNonblockingMultiFetchClient;
 
     invoke-static {v9}, Lorg/apache/thrift/TNonblockingMultiFetchClient;->access$200(Lorg/apache/thrift/TNonblockingMultiFetchClient;)Lorg/apache/thrift/TNonblockingMultiFetchStats;
@@ -777,10 +711,8 @@
 
     new-array v10, v11, [Ljava/lang/Object;
 
-    .line 57
     aget v12, v7, v14
 
-    .line 58
     invoke-static {v12}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v12
@@ -807,19 +739,16 @@
 
     aput-object v12, v10, v13
 
-    .line 59
     invoke-static {v9, v10}, Ljava/lang/String;->format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object v9
 
-    .line 60
     invoke-static {}, Lorg/apache/thrift/TNonblockingMultiFetchClient;->access$400()Lorg/slf4j/c;
 
     move-result-object v10
 
     invoke-interface {v10, v9}, Lorg/slf4j/c;->error(Ljava/lang/String;)V
 
-    .line 61
     invoke-virtual {v0}, Ljava/nio/channels/SocketChannel;->close()V
 
     :goto_9
@@ -827,7 +756,6 @@
 
     goto/16 :goto_d
 
-    .line 62
     :cond_6
     aget v9, v7, v14
 
@@ -847,7 +775,6 @@
 
     if-le v9, v10, :cond_7
 
-    .line 63
     iget-object v9, v1, Lorg/apache/thrift/TNonblockingMultiFetchClient$MultiFetch;->this$0:Lorg/apache/thrift/TNonblockingMultiFetchClient;
 
     invoke-static {v9}, Lorg/apache/thrift/TNonblockingMultiFetchClient;->access$200(Lorg/apache/thrift/TNonblockingMultiFetchClient;)Lorg/apache/thrift/TNonblockingMultiFetchStats;
@@ -862,7 +789,6 @@
 
     invoke-virtual {v9, v10}, Lorg/apache/thrift/TNonblockingMultiFetchStats;->setMaxResponseBytes(I)V
 
-    .line 64
     :cond_7
     aget v9, v7, v14
 
@@ -878,7 +804,6 @@
 
     if-le v9, v10, :cond_8
 
-    .line 65
     iget-object v9, v1, Lorg/apache/thrift/TNonblockingMultiFetchClient$MultiFetch;->this$0:Lorg/apache/thrift/TNonblockingMultiFetchClient;
 
     invoke-static {v9}, Lorg/apache/thrift/TNonblockingMultiFetchClient;->access$200(Lorg/apache/thrift/TNonblockingMultiFetchClient;)Lorg/apache/thrift/TNonblockingMultiFetchStats;
@@ -891,10 +816,8 @@
 
     new-array v10, v15, [Ljava/lang/Object;
 
-    .line 66
     aget v12, v7, v14
 
-    .line 67
     invoke-static {v12}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v12
@@ -923,7 +846,6 @@
 
     iget-object v12, v1, Lorg/apache/thrift/TNonblockingMultiFetchClient$MultiFetch;->this$0:Lorg/apache/thrift/TNonblockingMultiFetchClient;
 
-    .line 68
     invoke-static {v12}, Lorg/apache/thrift/TNonblockingMultiFetchClient;->access$600(Lorg/apache/thrift/TNonblockingMultiFetchClient;)I
 
     move-result v12
@@ -934,24 +856,20 @@
 
     aput-object v12, v10, v11
 
-    .line 69
     invoke-static {v9, v10}, Ljava/lang/String;->format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object v9
 
-    .line 70
     invoke-static {}, Lorg/apache/thrift/TNonblockingMultiFetchClient;->access$400()Lorg/slf4j/c;
 
     move-result-object v10
 
     invoke-interface {v10, v9}, Lorg/slf4j/c;->error(Ljava/lang/String;)V
 
-    .line 71
     invoke-virtual {v0}, Ljava/nio/channels/SocketChannel;->close()V
 
     goto :goto_9
 
-    .line 72
     :cond_8
     iget-object v9, v1, Lorg/apache/thrift/TNonblockingMultiFetchClient$MultiFetch;->this$0:Lorg/apache/thrift/TNonblockingMultiFetchClient;
 
@@ -971,7 +889,6 @@
 
     aput-object v10, v9, v14
 
-    .line 73
     iget-object v9, v1, Lorg/apache/thrift/TNonblockingMultiFetchClient$MultiFetch;->this$0:Lorg/apache/thrift/TNonblockingMultiFetchClient;
 
     invoke-static {v9}, Lorg/apache/thrift/TNonblockingMultiFetchClient;->access$300(Lorg/apache/thrift/TNonblockingMultiFetchClient;)[Ljava/nio/ByteBuffer;
@@ -984,7 +901,6 @@
 
     invoke-virtual {v9, v10}, Ljava/nio/ByteBuffer;->putInt(I)Ljava/nio/ByteBuffer;
 
-    .line 74
     iget-object v9, v1, Lorg/apache/thrift/TNonblockingMultiFetchClient$MultiFetch;->this$0:Lorg/apache/thrift/TNonblockingMultiFetchClient;
 
     invoke-static {v9}, Lorg/apache/thrift/TNonblockingMultiFetchClient;->access$200(Lorg/apache/thrift/TNonblockingMultiFetchClient;)Lorg/apache/thrift/TNonblockingMultiFetchStats;
@@ -995,10 +911,8 @@
 
     invoke-virtual {v9, v10}, Lorg/apache/thrift/TNonblockingMultiFetchStats;->incTotalRecvBufBytes(I)V
 
-    .line 75
     aput-boolean v13, v8, v14
 
-    .line 76
     :cond_9
     aget-boolean v9, v8, v14
 
@@ -1020,11 +934,9 @@
 
     if-ltz v19, :cond_b
 
-    .line 77
     :try_start_9
     invoke-virtual {v0}, Ljava/nio/channels/SocketChannel;->close()V
 
-    .line 78
     iget-object v0, v1, Lorg/apache/thrift/TNonblockingMultiFetchClient$MultiFetch;->this$0:Lorg/apache/thrift/TNonblockingMultiFetchClient;
 
     invoke-static {v0}, Lorg/apache/thrift/TNonblockingMultiFetchClient;->access$200(Lorg/apache/thrift/TNonblockingMultiFetchClient;)Lorg/apache/thrift/TNonblockingMultiFetchStats;
@@ -1033,12 +945,10 @@
 
     invoke-virtual {v0}, Lorg/apache/thrift/TNonblockingMultiFetchStats;->incNumReadCompletedServers()V
 
-    .line 79
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v9
 
-    .line 80
     iget-object v0, v1, Lorg/apache/thrift/TNonblockingMultiFetchClient$MultiFetch;->this$0:Lorg/apache/thrift/TNonblockingMultiFetchClient;
 
     invoke-static {v0}, Lorg/apache/thrift/TNonblockingMultiFetchClient;->access$200(Lorg/apache/thrift/TNonblockingMultiFetchClient;)Lorg/apache/thrift/TNonblockingMultiFetchStats;
@@ -1077,7 +987,6 @@
     :goto_b
     new-array v9, v15, [Ljava/lang/Object;
 
-    .line 81
     invoke-static {v14}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v10
@@ -1114,12 +1023,10 @@
 
     const-string v0, "socket %d reads from server %s error: %s"
 
-    .line 82
     invoke-static {v0, v9}, Ljava/lang/String;->format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object v0
 
-    .line 83
     invoke-static {}, Lorg/apache/thrift/TNonblockingMultiFetchClient;->access$400()Lorg/slf4j/c;
 
     move-result-object v9
@@ -1161,7 +1068,6 @@
 
     const/16 v16, 0x4
 
-    .line 84
     invoke-static {}, Lorg/apache/thrift/TNonblockingMultiFetchClient;->access$400()Lorg/slf4j/c;
 
     move-result-object v4
@@ -1200,7 +1106,6 @@
     :catch_9
     move-exception v0
 
-    .line 85
     invoke-static {}, Lorg/apache/thrift/TNonblockingMultiFetchClient;->access$400()Lorg/slf4j/c;
 
     move-result-object v2

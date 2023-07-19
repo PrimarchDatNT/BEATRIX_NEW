@@ -54,7 +54,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p2, Lcom/commsource/studio/bean/f;
 
     invoke-virtual {p0, p1, p2}, Lcom/commsource/studio/function/StyleFragment$b;->b(ILcom/commsource/studio/bean/f;)Z
@@ -73,7 +72,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p2}, Lcom/commsource/studio/bean/f;->j()I
 
     move-result v1
@@ -96,15 +94,12 @@
 
     sget p1, Lcom/res/provider/ResSTRING;->t_style_face_detection:I
 
-    .line 2
     invoke-static {p1}, Lf/k/c/c/f;->r(I)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v2
 
-    .line 4
     :cond_0
     iget-object v1, p0, Lcom/commsource/studio/function/StyleFragment$b;->a:Lcom/commsource/studio/function/StyleFragment;
 
@@ -114,7 +109,6 @@
 
     invoke-virtual {v1, p1, p2, v2}, Lcom/commsource/studio/function/StyleViewModel;->L(ILcom/commsource/studio/bean/f;Z)V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v2

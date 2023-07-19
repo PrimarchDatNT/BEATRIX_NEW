@@ -96,10 +96,8 @@
 
     invoke-static {p3, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-direct {p0, p1, p2, p3}, Lf/d/e/a/a;-><init>(Lcom/meitu/mtlab/MTAiInterface/MeituAiEngine;ILcom/meitu/mtlab/MTAiInterface/common/MTAiEngineEnableOption;)V
 
-    .line 2
     new-instance p1, Ljava/lang/StringBuilder;
 
     invoke-direct {p1}, Ljava/lang/StringBuilder;-><init>()V
@@ -122,12 +120,10 @@
 
     iput-object p1, p0, Lf/d/e/a/j;->w:Ljava/lang/String;
 
-    .line 3
     new-instance p1, Lcom/meitu/mtlab/MTAiInterface/MTSegmentModule/MTSegmentOption;
 
     invoke-direct {p1}, Lcom/meitu/mtlab/MTAiInterface/MTSegmentModule/MTSegmentOption;-><init>()V
 
-    .line 4
     sget-object p2, Lcom/meitu/mtlab/MTAiInterface/MTSegmentModule/MTSegmentOption$MTSegmentModuleMode;->MTSegmentModuleMode_HALFBODY:Lcom/meitu/mtlab/MTAiInterface/MTSegmentModule/MTSegmentOption$MTSegmentModuleMode;
 
     new-instance p3, Ljava/lang/StringBuilder;
@@ -156,7 +152,6 @@
 
     invoke-virtual {p1, p2, p3}, Lcom/meitu/mtlab/MTAiInterface/MTSegmentModule/MTSegmentOption;->SetShaderFilePath(Lcom/meitu/mtlab/MTAiInterface/MTSegmentModule/MTSegmentOption$MTSegmentModuleMode;Ljava/lang/String;)V
 
-    .line 5
     sget-object p2, Lcom/meitu/mtlab/MTAiInterface/MTSegmentModule/MTSegmentOption$MTSegmentModuleMode;->MTSegmentModuleMode_HAIR:Lcom/meitu/mtlab/MTAiInterface/MTSegmentModule/MTSegmentOption$MTSegmentModuleMode;
 
     new-instance p3, Ljava/lang/StringBuilder;
@@ -183,7 +178,6 @@
 
     invoke-virtual {p1, p2, p3}, Lcom/meitu/mtlab/MTAiInterface/MTSegmentModule/MTSegmentOption;->SetShaderFilePath(Lcom/meitu/mtlab/MTAiInterface/MTSegmentModule/MTSegmentOption$MTSegmentModuleMode;Ljava/lang/String;)V
 
-    .line 6
     sget-object p2, Lcom/meitu/mtlab/MTAiInterface/MTSegmentModule/MTSegmentOption$MTSegmentModuleMode;->MTSegmentModuleMode_SKIN:Lcom/meitu/mtlab/MTAiInterface/MTSegmentModule/MTSegmentOption$MTSegmentModuleMode;
 
     new-instance p3, Ljava/lang/StringBuilder;
@@ -210,7 +204,6 @@
 
     invoke-virtual {p1, p2, p3}, Lcom/meitu/mtlab/MTAiInterface/MTSegmentModule/MTSegmentOption;->SetShaderFilePath(Lcom/meitu/mtlab/MTAiInterface/MTSegmentModule/MTSegmentOption$MTSegmentModuleMode;Ljava/lang/String;)V
 
-    .line 7
     sget-object p2, Lcom/meitu/mtlab/MTAiInterface/MTSegmentModule/MTSegmentOption$MTSegmentModuleMode;->MTSegmentModuleMode_FACECONTOUR:Lcom/meitu/mtlab/MTAiInterface/MTSegmentModule/MTSegmentOption$MTSegmentModuleMode;
 
     new-instance p3, Ljava/lang/StringBuilder;
@@ -237,7 +230,6 @@
 
     invoke-virtual {p1, p2, p3}, Lcom/meitu/mtlab/MTAiInterface/MTSegmentModule/MTSegmentOption;->SetShaderFilePath(Lcom/meitu/mtlab/MTAiInterface/MTSegmentModule/MTSegmentOption$MTSegmentModuleMode;Ljava/lang/String;)V
 
-    .line 8
     sget-object p2, Lcom/meitu/mtlab/MTAiInterface/MTSegmentModule/MTSegmentOption$MTSegmentModuleMode;->MTSegmentModuleMode_SKY:Lcom/meitu/mtlab/MTAiInterface/MTSegmentModule/MTSegmentOption$MTSegmentModuleMode;
 
     new-instance p3, Ljava/lang/StringBuilder;
@@ -264,12 +256,10 @@
 
     invoke-virtual {p1, p2, p3}, Lcom/meitu/mtlab/MTAiInterface/MTSegmentModule/MTSegmentOption;->SetShaderFilePath(Lcom/meitu/mtlab/MTAiInterface/MTSegmentModule/MTSegmentOption$MTSegmentModuleMode;Ljava/lang/String;)V
 
-    .line 9
     iput-object p1, p0, Lf/d/e/a/a;->b:Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineOption;
 
     const/4 p1, 0x1
 
-    .line 10
     iput-boolean p1, p0, Lf/d/e/a/a;->e:Z
 
     return-void
@@ -282,7 +272,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lf/d/e/a/a;->b:Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineOption;
 
     if-eqz v1, :cond_2
@@ -297,7 +286,6 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     invoke-static {}, Lcom/meitu/mtlab/MTAiInterface/MeituAiEngine;->isSupport()Z
 
@@ -307,17 +295,14 @@
 
     const/4 v3, 0x1
 
-    .line 3
     :cond_1
     :goto_0
     iput v3, v1, Lcom/meitu/mtlab/MTAiInterface/MTSegmentModule/MTSegmentOption;->mode:I
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 5
     :cond_2
     new-instance v1, Lcotlin/TypeCastException;
 
@@ -347,7 +332,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -364,7 +348,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -377,44 +360,36 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lf/d/e/a/a;->f:Z
 
     if-nez v1, :cond_0
 
-    .line 2
     iget-boolean v1, p0, Lf/d/e/a/a;->g:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
 
-    .line 3
     :cond_0
     iget-object v1, p0, Lf/d/e/a/a;->a:Lcom/meitu/mtlab/MTAiInterface/MeituAiEngine;
 
     if-eqz v1, :cond_6
 
-    .line 4
     iget-boolean v1, p0, Lf/d/e/a/j;->x:Z
 
     const/4 v2, 0x1
 
     if-nez v1, :cond_1
 
-    .line 5
     invoke-direct {p0}, Lf/d/e/a/j;->m()V
 
-    .line 6
     iput-boolean v2, p0, Lf/d/e/a/j;->x:Z
 
-    .line 7
     :cond_1
     invoke-static {}, Lcom/commsource/util/d2;->b()Lcom/commsource/util/d2;
 
     move-result-object v1
 
-    .line 8
     iget-object v3, p0, Lf/d/e/a/a;->a:Lcom/meitu/mtlab/MTAiInterface/MeituAiEngine;
 
     const/4 v4, 0x4
@@ -451,7 +426,6 @@
 
     if-nez v2, :cond_3
 
-    .line 9
     iget-object v2, p0, Lf/d/e/a/j;->w:Ljava/lang/String;
 
     new-instance v3, Ljava/lang/StringBuilder;
@@ -472,20 +446,17 @@
 
     invoke-static {v2, v3}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 10
     :cond_3
     iget-boolean v2, p0, Lf/d/e/a/a;->i:Z
 
     if-eqz v2, :cond_5
 
-    .line 11
     iget-object v2, p0, Lf/d/e/a/a;->b:Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineOption;
 
     if-eqz v2, :cond_4
 
     check-cast v2, Lcom/meitu/mtlab/MTAiInterface/MTSegmentModule/MTSegmentOption;
 
-    .line 12
     iget-object v3, p0, Lf/d/e/a/j;->w:Ljava/lang/String;
 
     new-instance v5, Ljava/lang/StringBuilder;
@@ -534,7 +505,6 @@
 
     goto :goto_1
 
-    .line 13
     :cond_4
     new-instance v1, Lcotlin/TypeCastException;
 
@@ -546,12 +516,10 @@
 
     throw v1
 
-    .line 14
     :cond_5
     :goto_1
     iput-boolean v4, p0, Lf/d/e/a/a;->f:Z
 
-    .line 15
     :cond_6
     iget-boolean v1, p0, Lf/d/e/a/a;->g:Z
 
@@ -587,7 +555,6 @@
 
     const-string v4, "SEGMENT_BODY"
 
-    .line 1
     invoke-static {v4, v1}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v4
@@ -602,12 +569,10 @@
 
     if-eqz v4, :cond_5
 
-    .line 2
     instance-of v4, v2, Ljava/lang/Boolean;
 
     if-eqz v4, :cond_5
 
-    .line 3
     move-object v4, v2
 
     check-cast v4, Ljava/lang/Boolean;
@@ -629,7 +594,6 @@
     :cond_0
     const/4 v4, 0x0
 
-    .line 4
     :goto_0
     iget-object v11, v0, Lf/d/e/a/a;->b:Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineOption;
 
@@ -639,13 +603,10 @@
 
     if-eqz v11, :cond_4
 
-    .line 5
     check-cast v11, Lcom/meitu/mtlab/MTAiInterface/MTSegmentModule/MTSegmentOption;
 
-    .line 6
     iget v12, v11, Lcom/meitu/mtlab/MTAiInterface/MTSegmentModule/MTSegmentOption;->maskWidth:I
 
-    .line 7
     iget-wide v12, v11, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineOption;->option:J
 
     const-wide/16 v14, 0x1
@@ -670,7 +631,6 @@
 
     or-long/2addr v12, v14
 
-    .line 8
     iput-wide v12, v11, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineOption;->option:J
 
     goto :goto_2
@@ -680,16 +640,13 @@
 
     and-long/2addr v12, v14
 
-    .line 9
     iput-wide v12, v11, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineOption;->option:J
 
-    .line 10
     :goto_2
     iget-boolean v11, v0, Lf/d/e/a/a;->i:Z
 
     if-eqz v11, :cond_3
 
-    .line 11
     iget-object v11, v0, Lf/d/e/a/j;->w:Ljava/lang/String;
 
     new-instance v12, Ljava/lang/StringBuilder;
@@ -712,13 +669,11 @@
 
     invoke-static {v11, v4}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 12
     :cond_3
     iput-boolean v10, v0, Lf/d/e/a/a;->f:Z
 
     goto :goto_3
 
-    .line 13
     :cond_4
     new-instance v1, Lcotlin/TypeCastException;
 
@@ -732,19 +687,16 @@
     :goto_3
     const-string v4, "SEGMENT_HAIR"
 
-    .line 14
     invoke-static {v4, v1}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v4
 
     if-eqz v4, :cond_b
 
-    .line 15
     instance-of v4, v2, Ljava/lang/Boolean;
 
     if-eqz v4, :cond_b
 
-    .line 16
     move-object v4, v2
 
     check-cast v4, Ljava/lang/Boolean;
@@ -766,7 +718,6 @@
     :cond_6
     const/4 v4, 0x0
 
-    .line 17
     :goto_4
     iget-object v9, v0, Lf/d/e/a/a;->b:Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineOption;
 
@@ -776,10 +727,8 @@
 
     if-eqz v9, :cond_a
 
-    .line 18
     check-cast v9, Lcom/meitu/mtlab/MTAiInterface/MTSegmentModule/MTSegmentOption;
 
-    .line 19
     iget-wide v11, v9, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineOption;->option:J
 
     const-wide/16 v13, 0x4
@@ -804,7 +753,6 @@
 
     or-long/2addr v11, v13
 
-    .line 20
     iput-wide v11, v9, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineOption;->option:J
 
     goto :goto_6
@@ -814,16 +762,13 @@
 
     and-long/2addr v11, v13
 
-    .line 21
     iput-wide v11, v9, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineOption;->option:J
 
-    .line 22
     :goto_6
     iget-boolean v9, v0, Lf/d/e/a/a;->i:Z
 
     if-eqz v9, :cond_9
 
-    .line 23
     iget-object v9, v0, Lf/d/e/a/j;->w:Ljava/lang/String;
 
     new-instance v11, Ljava/lang/StringBuilder;
@@ -846,13 +791,11 @@
 
     invoke-static {v9, v4}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 24
     :cond_9
     iput-boolean v10, v0, Lf/d/e/a/a;->f:Z
 
     goto :goto_7
 
-    .line 25
     :cond_a
     new-instance v1, Lcotlin/TypeCastException;
 
@@ -866,19 +809,16 @@
     :goto_7
     const-string v4, "SEGMENT_SKIN"
 
-    .line 26
     invoke-static {v4, v1}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v4
 
     if-eqz v4, :cond_11
 
-    .line 27
     instance-of v4, v2, Ljava/lang/Boolean;
 
     if-eqz v4, :cond_11
 
-    .line 28
     move-object v4, v2
 
     check-cast v4, Ljava/lang/Boolean;
@@ -900,7 +840,6 @@
     :cond_c
     const/4 v4, 0x0
 
-    .line 29
     :goto_8
     iget-object v9, v0, Lf/d/e/a/a;->b:Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineOption;
 
@@ -910,10 +849,8 @@
 
     if-eqz v9, :cond_10
 
-    .line 30
     check-cast v9, Lcom/meitu/mtlab/MTAiInterface/MTSegmentModule/MTSegmentOption;
 
-    .line 31
     iget-wide v11, v9, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineOption;->option:J
 
     const-wide/16 v13, 0x8
@@ -938,7 +875,6 @@
 
     or-long/2addr v11, v13
 
-    .line 32
     iput-wide v11, v9, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineOption;->option:J
 
     goto :goto_a
@@ -948,16 +884,13 @@
 
     and-long/2addr v11, v13
 
-    .line 33
     iput-wide v11, v9, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineOption;->option:J
 
-    .line 34
     :goto_a
     iget-boolean v9, v0, Lf/d/e/a/a;->i:Z
 
     if-eqz v9, :cond_f
 
-    .line 35
     iget-object v9, v0, Lf/d/e/a/j;->w:Ljava/lang/String;
 
     new-instance v11, Ljava/lang/StringBuilder;
@@ -980,13 +913,11 @@
 
     invoke-static {v9, v4}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 36
     :cond_f
     iput-boolean v10, v0, Lf/d/e/a/a;->f:Z
 
     goto :goto_b
 
-    .line 37
     :cond_10
     new-instance v1, Lcotlin/TypeCastException;
 
@@ -1000,19 +931,16 @@
     :goto_b
     const-string v4, "SEGMENT_FACECONTOURSKIN"
 
-    .line 38
     invoke-static {v4, v1}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v4
 
     if-eqz v4, :cond_17
 
-    .line 39
     instance-of v4, v2, Ljava/lang/Boolean;
 
     if-eqz v4, :cond_17
 
-    .line 40
     move-object v4, v2
 
     check-cast v4, Ljava/lang/Boolean;
@@ -1034,7 +962,6 @@
     :cond_12
     const/4 v4, 0x0
 
-    .line 41
     :goto_c
     iget-object v9, v0, Lf/d/e/a/a;->b:Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineOption;
 
@@ -1044,10 +971,8 @@
 
     if-eqz v9, :cond_16
 
-    .line 42
     check-cast v9, Lcom/meitu/mtlab/MTAiInterface/MTSegmentModule/MTSegmentOption;
 
-    .line 43
     iget-wide v11, v9, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineOption;->option:J
 
     const-wide/16 v13, 0x40
@@ -1072,7 +997,6 @@
 
     or-long/2addr v11, v13
 
-    .line 44
     iput-wide v11, v9, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineOption;->option:J
 
     goto :goto_e
@@ -1082,16 +1006,13 @@
 
     and-long/2addr v11, v13
 
-    .line 45
     iput-wide v11, v9, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineOption;->option:J
 
-    .line 46
     :goto_e
     iget-boolean v9, v0, Lf/d/e/a/a;->i:Z
 
     if-eqz v9, :cond_15
 
-    .line 47
     iget-object v9, v0, Lf/d/e/a/j;->w:Ljava/lang/String;
 
     new-instance v11, Ljava/lang/StringBuilder;
@@ -1114,13 +1035,11 @@
 
     invoke-static {v9, v4}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 48
     :cond_15
     iput-boolean v10, v0, Lf/d/e/a/a;->f:Z
 
     goto :goto_f
 
-    .line 49
     :cond_16
     new-instance v1, Lcotlin/TypeCastException;
 
@@ -1134,19 +1053,16 @@
     :goto_f
     const-string v4, "SEGMENT_SKY"
 
-    .line 50
     invoke-static {v4, v1}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v4
 
     if-eqz v4, :cond_1d
 
-    .line 51
     instance-of v4, v2, Ljava/lang/Boolean;
 
     if-eqz v4, :cond_1d
 
-    .line 52
     move-object v4, v2
 
     check-cast v4, Ljava/lang/Boolean;
@@ -1168,7 +1084,6 @@
     :cond_18
     const/4 v4, 0x0
 
-    .line 53
     :goto_10
     iget-object v9, v0, Lf/d/e/a/a;->b:Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineOption;
 
@@ -1178,10 +1093,8 @@
 
     if-eqz v9, :cond_1c
 
-    .line 54
     check-cast v9, Lcom/meitu/mtlab/MTAiInterface/MTSegmentModule/MTSegmentOption;
 
-    .line 55
     iget-wide v11, v9, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineOption;->option:J
 
     const-wide/16 v13, 0x10
@@ -1206,7 +1119,6 @@
 
     or-long/2addr v11, v13
 
-    .line 56
     iput-wide v11, v9, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineOption;->option:J
 
     goto :goto_12
@@ -1216,16 +1128,13 @@
 
     and-long/2addr v11, v13
 
-    .line 57
     iput-wide v11, v9, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineOption;->option:J
 
-    .line 58
     :goto_12
     iget-boolean v9, v0, Lf/d/e/a/a;->i:Z
 
     if-eqz v9, :cond_1b
 
-    .line 59
     iget-object v9, v0, Lf/d/e/a/j;->w:Ljava/lang/String;
 
     new-instance v11, Ljava/lang/StringBuilder;
@@ -1248,13 +1157,11 @@
 
     invoke-static {v9, v4}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 60
     :cond_1b
     iput-boolean v10, v0, Lf/d/e/a/a;->f:Z
 
     goto :goto_13
 
-    .line 61
     :cond_1c
     new-instance v1, Lcotlin/TypeCastException;
 
@@ -1268,19 +1175,16 @@
     :goto_13
     const-string v4, "SEGMENT_DEPEND_OUTSIDE"
 
-    .line 62
     invoke-static {v4, v1}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v1
 
     if-eqz v1, :cond_23
 
-    .line 63
     instance-of v1, v2, Ljava/lang/Boolean;
 
     if-eqz v1, :cond_23
 
-    .line 64
     move-object v1, v2
 
     check-cast v1, Ljava/lang/Boolean;
@@ -1302,7 +1206,6 @@
     :cond_1e
     const/4 v1, 0x0
 
-    .line 65
     :goto_14
     iget-object v2, v0, Lf/d/e/a/a;->b:Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineOption;
 
@@ -1312,10 +1215,8 @@
 
     if-eqz v2, :cond_22
 
-    .line 66
     check-cast v2, Lcom/meitu/mtlab/MTAiInterface/MTSegmentModule/MTSegmentOption;
 
-    .line 67
     iget-wide v11, v2, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineOption;->option:J
 
     const-wide/32 v13, 0x100000
@@ -1340,7 +1241,6 @@
 
     or-long v6, v11, v13
 
-    .line 68
     iput-wide v6, v2, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineOption;->option:J
 
     goto :goto_16
@@ -1350,16 +1250,13 @@
 
     and-long/2addr v6, v11
 
-    .line 69
     iput-wide v6, v2, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineOption;->option:J
 
-    .line 70
     :goto_16
     iget-boolean v2, v0, Lf/d/e/a/a;->i:Z
 
     if-eqz v2, :cond_21
 
-    .line 71
     iget-object v2, v0, Lf/d/e/a/j;->w:Ljava/lang/String;
 
     new-instance v4, Ljava/lang/StringBuilder;
@@ -1382,13 +1279,11 @@
 
     invoke-static {v2, v1}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 72
     :cond_21
     iput-boolean v10, v0, Lf/d/e/a/a;->f:Z
 
     goto :goto_17
 
-    .line 73
     :cond_22
     new-instance v1, Lcotlin/TypeCastException;
 
@@ -1398,7 +1293,6 @@
 
     throw v1
 
-    .line 74
     :cond_23
     :goto_17
     invoke-static {v3}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1417,7 +1311,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1430,7 +1323,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lf/d/e/a/a;->b:Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineOption;
 
     instance-of v2, v1, Lcom/meitu/mtlab/MTAiInterface/MTSegmentModule/MTSegmentOption;
@@ -1439,10 +1331,8 @@
 
     if-eqz v1, :cond_0
 
-    .line 2
     check-cast v1, Lcom/meitu/mtlab/MTAiInterface/MTSegmentModule/MTSegmentOption;
 
-    .line 3
     iget-object v2, p0, Lf/d/e/a/a;->c:Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineEnableOption;
 
     iget-object v2, v2, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineEnableOption;->segmentOption:Lcom/meitu/mtlab/MTAiInterface/MTSegmentModule/MTSegmentOption;
@@ -1451,12 +1341,10 @@
 
     iput-wide v3, v2, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineOption;->option:J
 
-    .line 4
     iget-boolean v2, p0, Lf/d/e/a/a;->i:Z
 
     if-eqz v2, :cond_1
 
-    .line 5
     iget-object v2, p0, Lf/d/e/a/j;->w:Ljava/lang/String;
 
     new-instance v3, Ljava/lang/StringBuilder;
@@ -1499,7 +1387,6 @@
 
     goto :goto_0
 
-    .line 6
     :cond_0
     new-instance v1, Lcotlin/TypeCastException;
 
@@ -1511,7 +1398,6 @@
 
     throw v1
 
-    .line 7
     :cond_1
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1526,19 +1412,16 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lf/d/e/a/a;->g:Z
 
     const/4 v2, 0x0
 
     if-nez v1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v2
 
-    .line 3
     :cond_0
     iget-object v1, p0, Lf/d/e/a/a;->a:Lcom/meitu/mtlab/MTAiInterface/MeituAiEngine;
 
@@ -1546,7 +1429,6 @@
 
     const/4 v3, 0x4
 
-    .line 4
     invoke-virtual {v1, v3}, Lcom/meitu/mtlab/MTAiInterface/MeituAiEngine;->unregisterModule(I)I
 
     move-result v1
@@ -1560,7 +1442,6 @@
     :cond_1
     if-nez v2, :cond_2
 
-    .line 5
     iget-object v1, p0, Lf/d/e/a/j;->w:Ljava/lang/String;
 
     new-instance v4, Ljava/lang/StringBuilder;
@@ -1581,20 +1462,17 @@
 
     invoke-static {v1, v4}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 6
     :cond_2
     iget-boolean v1, p0, Lf/d/e/a/a;->i:Z
 
     if-eqz v1, :cond_4
 
-    .line 7
     iget-object v1, p0, Lf/d/e/a/a;->b:Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineOption;
 
     if-eqz v1, :cond_3
 
     check-cast v1, Lcom/meitu/mtlab/MTAiInterface/MTSegmentModule/MTSegmentOption;
 
-    .line 8
     iget-object v4, p0, Lf/d/e/a/j;->w:Ljava/lang/String;
 
     new-instance v5, Ljava/lang/StringBuilder;
@@ -1635,7 +1513,6 @@
 
     goto :goto_0
 
-    .line 9
     :cond_3
     new-instance v1, Lcotlin/TypeCastException;
 
@@ -1647,12 +1524,10 @@
 
     throw v1
 
-    .line 10
     :cond_4
     :goto_0
     iput-boolean v3, p0, Lf/d/e/a/a;->f:Z
 
-    .line 11
     :cond_5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1666,7 +1541,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lf/d/e/a/j;->x:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1683,7 +1557,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lf/d/e/a/j;->w:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1702,7 +1575,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lf/d/e/a/a;->c:Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineEnableOption;
 
     if-eqz v1, :cond_5
@@ -1749,19 +1621,16 @@
 
     if-gez p2, :cond_4
 
-    .line 2
     iget-object p2, p1, Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/MTFaceResult;->faces:[Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/MTFace;
 
     array-length p2, p2
 
     new-array p2, p2, [Landroid/graphics/RectF;
 
-    .line 3
     new-instance v2, Ljava/util/ArrayList;
 
     invoke-direct {v2}, Ljava/util/ArrayList;-><init>()V
 
-    .line 4
     iget-object v3, p1, Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/MTFaceResult;->faces:[Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/MTFace;
 
     array-length v3, v3
@@ -1769,7 +1638,6 @@
     :goto_1
     if-ge v1, v3, :cond_3
 
-    .line 5
     iget-object v4, p1, Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/MTFaceResult;->faces:[Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/MTFace;
 
     aget-object v5, v4, v1
@@ -1778,7 +1646,6 @@
 
     aput-object v5, p2, v1
 
-    .line 6
     aget-object v4, v4, v1
 
     iget-object v4, v4, Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/MTFace;->facePoints:[Landroid/graphics/PointF;
@@ -1789,13 +1656,11 @@
 
     goto :goto_1
 
-    .line 7
     :cond_3
     iget-object p1, p0, Lf/d/e/a/a;->c:Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineEnableOption;
 
     iput-object p2, p1, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineEnableOption;->faceRects:[Landroid/graphics/RectF;
 
-    .line 8
     iput-object v2, p1, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineEnableOption;->facePointsList:Ljava/util/ArrayList;
 
     goto :goto_2
@@ -1805,12 +1670,10 @@
 
     new-array v2, v2, [Landroid/graphics/RectF;
 
-    .line 9
     new-instance v3, Ljava/util/ArrayList;
 
     invoke-direct {v3}, Ljava/util/ArrayList;-><init>()V
 
-    .line 10
     iget-object p1, p1, Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/MTFaceResult;->faces:[Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/MTFace;
 
     aget-object v4, p1, p2
@@ -1819,22 +1682,18 @@
 
     aput-object v4, v2, v1
 
-    .line 11
     aget-object p1, p1, p2
 
     iget-object p1, p1, Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/MTFace;->facePoints:[Landroid/graphics/PointF;
 
     invoke-virtual {v3, p1}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    .line 12
     iget-object p1, p0, Lf/d/e/a/a;->c:Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineEnableOption;
 
     iput-object v2, p1, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineEnableOption;->faceRects:[Landroid/graphics/RectF;
 
-    .line 13
     iput-object v3, p1, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineEnableOption;->facePointsList:Ljava/util/ArrayList;
 
-    .line 14
     :cond_5
     :goto_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1867,18 +1726,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lf/d/e/a/a;->c:Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineEnableOption;
 
     if-eqz v1, :cond_0
 
-    .line 2
     iput-object p1, v1, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineEnableOption;->faceRects:[Landroid/graphics/RectF;
 
-    .line 3
     iput-object p2, v1, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineEnableOption;->facePointsList:Ljava/util/ArrayList;
 
-    .line 4
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1892,7 +1747,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lf/d/e/a/j;->x:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

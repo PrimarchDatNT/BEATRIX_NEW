@@ -24,7 +24,6 @@
 .method constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/google/firebase/crashlytics/internal/model/CrashlyticsReport$c$a;-><init>()V
 
     return-void
@@ -35,14 +34,12 @@
 .method public a()Lcom/google/firebase/crashlytics/internal/model/CrashlyticsReport$c;
     .locals 4
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/crashlytics/internal/model/c$b;->a:Ljava/lang/String;
 
     const-string v1, ""
 
     if-nez v0, :cond_0
 
-    .line 2
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -57,13 +54,11 @@
 
     move-result-object v1
 
-    .line 3
     :cond_0
     iget-object v0, p0, Lcom/google/firebase/crashlytics/internal/model/c$b;->b:Ljava/lang/String;
 
     if-nez v0, :cond_1
 
-    .line 4
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -78,7 +73,6 @@
 
     move-result-object v1
 
-    .line 5
     :cond_1
     invoke-virtual {v1}, Ljava/lang/String;->isEmpty()Z
 
@@ -86,7 +80,6 @@
 
     if-eqz v0, :cond_2
 
-    .line 6
     new-instance v0, Lcom/google/firebase/crashlytics/internal/model/c;
 
     iget-object v1, p0, Lcom/google/firebase/crashlytics/internal/model/c$b;->a:Ljava/lang/String;
@@ -99,7 +92,6 @@
 
     return-object v0
 
-    .line 7
     :cond_2
     new-instance v0, Ljava/lang/IllegalStateException;
 
@@ -127,10 +119,8 @@
 
     const-string v0, "Null key"
 
-    .line 1
     invoke-static {p1, v0}, Ljava/util/Objects;->requireNonNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
 
-    .line 2
     iput-object p1, p0, Lcom/google/firebase/crashlytics/internal/model/c$b;->a:Ljava/lang/String;
 
     return-object p0
@@ -141,10 +131,8 @@
 
     const-string v0, "Null value"
 
-    .line 1
     invoke-static {p1, v0}, Ljava/util/Objects;->requireNonNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
 
-    .line 2
     iput-object p1, p0, Lcom/google/firebase/crashlytics/internal/model/c$b;->b:Ljava/lang/String;
 
     return-object p0

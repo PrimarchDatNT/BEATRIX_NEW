@@ -149,7 +149,6 @@
 
     move-result-object v0
 
-    .line 1
     iget v1, p0, Lcotlinx/coroutines/flow/FlowKt__DelayKt$debounce$2$invokeSuspend$$inlined$select$lambda$2;->label:I
 
     const/4 v2, 0x1
@@ -162,7 +161,6 @@
 
     goto :goto_1
 
-    .line 2
     :cond_0
     new-instance p1, Ljava/lang/IllegalStateException;
 
@@ -172,18 +170,15 @@
 
     throw p1
 
-    .line 3
     :cond_1
     invoke-static {p1}, Lcotlin/r0;->n(Ljava/lang/Object;)V
 
-    .line 4
     iget-object p1, p0, Lcotlinx/coroutines/flow/FlowKt__DelayKt$debounce$2$invokeSuspend$$inlined$select$lambda$2;->$lastValue$inlined:Lcotlin/jvm/internal/Ref$ObjectRef;
 
     const/4 v1, 0x0
 
     iput-object v1, p1, Lcotlin/jvm/internal/Ref$ObjectRef;->element:Ljava/lang/Object;
 
-    .line 5
     iget-object p1, p0, Lcotlinx/coroutines/flow/FlowKt__DelayKt$debounce$2$invokeSuspend$$inlined$select$lambda$2;->$downstream$inlined:Lcotlinx/coroutines/flow/e;
 
     sget-object v3, Lcotlinx/coroutines/flow/internal/i;->a:Lcotlinx/coroutines/internal/c0;
@@ -197,11 +192,9 @@
     :cond_2
     move-object v1, v4
 
-    .line 6
     :goto_0
     iput v2, p0, Lcotlinx/coroutines/flow/FlowKt__DelayKt$debounce$2$invokeSuspend$$inlined$select$lambda$2;->label:I
 
-    .line 7
     invoke-interface {p1, v1, p0}, Lcotlinx/coroutines/flow/e;->emit(Ljava/lang/Object;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p1
@@ -210,7 +203,6 @@
 
     return-object v0
 
-    .line 8
     :cond_3
     :goto_1
     sget-object p1, Lcotlin/t1;->a:Lcotlin/t1;

@@ -16,14 +16,12 @@
 .method constructor <init>(Landroid/content/Context;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/android/gms/internal/ads/tx;->b:Landroid/content/Context;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/4 p1, 0x0
 
-    .line 2
     iput-object p1, p0, Lcom/google/android/gms/internal/ads/tx;->a:Ljava/io/File;
 
     return-void
@@ -34,12 +32,10 @@
 .method public final x()Ljava/io/File;
     .locals 3
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/tx;->a:Ljava/io/File;
 
     if-nez v0, :cond_0
 
-    .line 2
     new-instance v0, Ljava/io/File;
 
     iget-object v1, p0, Lcom/google/android/gms/internal/ads/tx;->b:Landroid/content/Context;
@@ -54,7 +50,6 @@
 
     iput-object v0, p0, Lcom/google/android/gms/internal/ads/tx;->a:Ljava/io/File;
 
-    .line 3
     :cond_0
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/tx;->a:Ljava/io/File;
 

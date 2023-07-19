@@ -24,7 +24,6 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     iput-object p1, p0, Lcotlinx/coroutines/v1;->a:Lcotlinx/coroutines/n2;
@@ -39,7 +38,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcotlinx/coroutines/v1;->a:Lcotlinx/coroutines/n2;
 
     return-object v0
@@ -58,7 +56,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     invoke-static {}, Lcotlinx/coroutines/p0;->d()Z
 
     move-result v0

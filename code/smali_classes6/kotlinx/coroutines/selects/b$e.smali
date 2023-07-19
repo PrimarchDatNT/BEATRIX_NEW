@@ -43,7 +43,6 @@
 .method public final run()V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcotlinx/coroutines/selects/b$e;->a:Lcotlinx/coroutines/selects/b;
 
     invoke-virtual {v0}, Lcotlinx/coroutines/selects/b;->o()Z
@@ -52,7 +51,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 2
     iget-object v0, p0, Lcotlinx/coroutines/selects/b$e;->b:Lcotlin/jvm/u/l;
 
     iget-object v1, p0, Lcotlinx/coroutines/selects/b$e;->a:Lcotlinx/coroutines/selects/b;

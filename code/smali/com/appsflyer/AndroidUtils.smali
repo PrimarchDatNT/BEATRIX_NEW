@@ -7,7 +7,6 @@
 .method static $$a()Z
     .locals 2
 
-    .line 1
     sget-object v0, Landroid/os/Build;->BRAND:Ljava/lang/String;
 
     const-string v1, "OPPO"
@@ -22,7 +21,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -31,7 +29,6 @@
 .method public static getVersionCode(Landroid/content/Context;Ljava/lang/String;)J
     .locals 1
 
-    .line 1
     :try_start_0
     invoke-virtual {p0}, Landroid/content/Context;->getPackageManager()Landroid/content/pm/PackageManager;
 
@@ -43,14 +40,12 @@
 
     move-result-object p0
 
-    .line 2
     sget p1, Landroid/os/Build$VERSION;->SDK_INT:I
 
     const/16 v0, 0x1c
 
     if-lt p1, v0, :cond_0
 
-    .line 3
     invoke-virtual {p0}, Landroid/content/pm/PackageInfo;->getLongVersionCode()J
 
     move-result-wide p0
@@ -69,7 +64,6 @@
     :catch_0
     move-exception p0
 
-    .line 4
     invoke-virtual {p0}, Ljava/lang/Throwable;->getMessage()Ljava/lang/String;
 
     move-result-object p1
@@ -84,7 +78,6 @@
 .method public static getVersionName(Landroid/content/Context;Ljava/lang/String;)Ljava/lang/String;
     .locals 1
 
-    .line 1
     :try_start_0
     invoke-virtual {p0}, Landroid/content/Context;->getPackageManager()Landroid/content/pm/PackageManager;
 
@@ -105,7 +98,6 @@
     :catch_0
     move-exception p0
 
-    .line 2
     invoke-virtual {p0}, Ljava/lang/Throwable;->getMessage()Ljava/lang/String;
 
     move-result-object p1
@@ -122,7 +114,6 @@
 
     if-eqz p1, :cond_1
 
-    .line 1
     invoke-static {}, Landroid/os/Process;->myPid()I
 
     move-result v0
@@ -135,7 +126,6 @@
 
     move-result p0
 
-    .line 2
     new-instance v0, Ljava/lang/StringBuilder;
 
     const-string v1, "is Permission Available: "
@@ -167,7 +157,6 @@
 
     return p0
 
-    .line 3
     :cond_1
     new-instance p0, Ljava/lang/IllegalArgumentException;
 
@@ -181,7 +170,6 @@
 .method public static isServiceAvailable(Landroid/content/Context;Landroid/content/Intent;)Z
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Landroid/content/Context;->getPackageManager()Landroid/content/pm/PackageManager;
 
     move-result-object p0
@@ -218,7 +206,6 @@
 
     const/16 v0, 0x40
 
-    .line 1
     invoke-virtual {p0, p1, v0}, Landroid/content/pm/PackageManager;->getPackageInfo(Ljava/lang/String;I)Landroid/content/pm/PackageInfo;
 
     move-result-object p0
@@ -234,7 +221,6 @@
     :cond_0
     const-string p1, "X.509"
 
-    .line 2
     invoke-static {p1}, Ljava/security/cert/CertificateFactory;->getInstance(Ljava/lang/String;)Ljava/security/cert/CertificateFactory;
 
     move-result-object p1
@@ -245,7 +231,6 @@
 
     aget-object p0, p0, v1
 
-    .line 3
     invoke-virtual {p0}, Landroid/content/pm/Signature;->toByteArray()[B
 
     move-result-object p0
@@ -260,12 +245,10 @@
 
     const-string p1, "SHA256"
 
-    .line 4
     invoke-static {p1}, Ljava/security/MessageDigest;->getInstance(Ljava/lang/String;)Ljava/security/MessageDigest;
 
     move-result-object p1
 
-    .line 5
     invoke-virtual {p0}, Ljava/security/cert/Certificate;->getEncoded()[B
 
     move-result-object p0
@@ -276,7 +259,6 @@
 
     new-array v0, p0, [Ljava/lang/Object;
 
-    .line 6
     new-instance v2, Ljava/math/BigInteger;
 
     invoke-virtual {p1}, Ljava/security/MessageDigest;->digest()[B
@@ -317,7 +299,6 @@
 
     const-string v0, "install_time"
 
-    .line 1
     invoke-virtual {p2}, Landroid/net/Uri;->getQueryParameterNames()Ljava/util/Set;
 
     move-result-object v1
@@ -345,12 +326,10 @@
 
     check-cast v2, Ljava/lang/String;
 
-    .line 2
     invoke-virtual {p2, v2}, Landroid/net/Uri;->getQueryParameter(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v6
 
-    .line 3
     invoke-interface {p1, v2}, Ljava/util/Map;->containsKey(Ljava/lang/Object;)Z
 
     move-result v7
@@ -445,14 +424,12 @@
     :goto_3
     move-object v4, v2
 
-    .line 4
     :cond_7
     :goto_4
     invoke-interface {p1, v4, v6}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     goto :goto_0
 
-    .line 5
     :cond_8
     :try_start_0
     invoke-interface {p1, v0}, Ljava/util/Map;->containsKey(Ljava/lang/Object;)Z
@@ -463,12 +440,10 @@
 
     const-string/jumbo v1, "yyyy-MM-dd HH:mm:ss"
 
-    .line 6
     invoke-static {v1}, Lcom/appsflyer/AFDateFormat;->getDataFormatter(Ljava/lang/String;)Ljava/text/SimpleDateFormat;
 
     move-result-object v1
 
-    .line 7
     invoke-virtual {p0}, Landroid/content/Context;->getPackageManager()Landroid/content/pm/PackageManager;
 
     move-result-object v2
@@ -483,7 +458,6 @@
 
     iget-wide v2, p0, Landroid/content/pm/PackageInfo;->firstInstallTime:J
 
-    .line 8
     invoke-static {v1, v2, v3}, Lcom/appsflyer/AFDateFormat;->dateFormatUTC(Ljava/text/SimpleDateFormat;J)Ljava/lang/String;
 
     move-result-object p0
@@ -499,14 +473,12 @@
 
     const-string v0, "Could not fetch install time. "
 
-    .line 9
     invoke-static {v0, p0}, Lcom/appsflyer/AFLogger;->afErrorLog(Ljava/lang/String;Ljava/lang/Throwable;)V
 
     :cond_9
     :goto_5
     const-string p0, "af_deeplink"
 
-    .line 10
     invoke-interface {p1, p0}, Ljava/util/Map;->containsKey(Ljava/lang/Object;)Z
 
     move-result p0
@@ -523,10 +495,8 @@
 
     const-string v0, "Non-organic"
 
-    .line 11
     invoke-interface {p1, p0, v0}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 12
     :cond_a
     invoke-interface {p1, v5}, Ljava/util/Map;->containsKey(Ljava/lang/Object;)Z
 
@@ -536,7 +506,6 @@
 
     invoke-interface {p1, v4}, Ljava/util/Map;->remove(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 13
     :cond_b
     invoke-virtual {p2}, Landroid/net/Uri;->getPath()Ljava/lang/String;
 
@@ -546,10 +515,8 @@
 
     const-string v0, "path"
 
-    .line 14
     invoke-interface {p1, v0, p0}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 15
     :cond_c
     invoke-virtual {p2}, Landroid/net/Uri;->getScheme()Ljava/lang/String;
 
@@ -559,10 +526,8 @@
 
     const-string v0, "scheme"
 
-    .line 16
     invoke-interface {p1, v0, p0}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 17
     :cond_d
     invoke-virtual {p2}, Landroid/net/Uri;->getHost()Ljava/lang/String;
 
@@ -572,7 +537,6 @@
 
     const-string p2, "host"
 
-    .line 18
     invoke-interface {p1, p2, p0}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     :cond_e

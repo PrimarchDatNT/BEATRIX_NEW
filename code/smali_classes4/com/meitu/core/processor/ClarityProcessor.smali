@@ -17,10 +17,8 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Lcom/meitu/core/NativeBaseClass;-><init>()V
 
-    .line 2
     new-instance v0, Lcom/meitu/core/processor/ClarityProcessor$1;
 
     invoke-direct {v0, p0}, Lcom/meitu/core/processor/ClarityProcessor$1;-><init>(Lcom/meitu/core/processor/ClarityProcessor;)V
@@ -37,7 +35,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-wide p1, p0, Lcom/meitu/core/processor/ClarityProcessor;->nativeInstance:J
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -52,7 +49,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/meitu/core/processor/ClarityProcessor;->nativeCreate()J
 
     move-result-wide v1
@@ -74,7 +70,6 @@
 
     if-eqz p0, :cond_0
 
-    .line 1
     invoke-virtual {p0}, Lcom/meitu/core/types/NativeBitmap;->getWidth()I
 
     move-result v1
@@ -91,7 +86,6 @@
 
     new-array v2, v1, [I
 
-    .line 2
     invoke-virtual {p0}, Lcom/meitu/core/types/NativeBitmap;->nativeInstance()J
 
     move-result-wide v3
@@ -102,21 +96,18 @@
 
     if-eqz p1, :cond_1
 
-    .line 3
     array-length p2, p1
 
     if-lt p2, v1, :cond_1
 
     const/4 p2, 0x0
 
-    .line 4
     aget v1, v2, p2
 
     aput v1, p1, p2
 
     const/4 p2, 0x1
 
-    .line 5
     aget v1, v2, p2
 
     aput v1, p1, p2
@@ -126,7 +117,6 @@
     :cond_0
     const/4 p0, 0x0
 
-    .line 6
     :cond_1
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -143,7 +133,6 @@
 
     if-eqz p0, :cond_0
 
-    .line 1
     invoke-virtual {p0}, Lcom/meitu/core/types/NativeBitmap;->getWidth()I
 
     move-result v1
@@ -160,7 +149,6 @@
 
     new-array v2, v1, [I
 
-    .line 2
     invoke-virtual {p0}, Lcom/meitu/core/types/NativeBitmap;->nativeInstance()J
 
     move-result-wide v3
@@ -171,21 +159,18 @@
 
     if-eqz p1, :cond_1
 
-    .line 3
     array-length p2, p1
 
     if-lt p2, v1, :cond_1
 
     const/4 p2, 0x0
 
-    .line 4
     aget v1, v2, p2
 
     aput v1, p1, p2
 
     const/4 p2, 0x1
 
-    .line 5
     aget v1, v2, p2
 
     aput v1, p1, p2
@@ -195,7 +180,6 @@
     :cond_0
     const/4 p0, 0x0
 
-    .line 6
     :cond_1
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -229,7 +213,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     invoke-virtual {p1}, Lcom/meitu/core/types/NativeBitmap;->getWidth()I
 
     move-result v1
@@ -242,10 +225,8 @@
 
     if-lez v1, :cond_0
 
-    .line 2
     iget-wide v2, p0, Lcom/meitu/core/processor/ClarityProcessor;->nativeInstance:J
 
-    .line 3
     invoke-virtual {p1}, Lcom/meitu/core/types/NativeBitmap;->nativeInstance()J
 
     move-result-wide v4
@@ -267,7 +248,6 @@
     :cond_0
     const/4 p1, 0x0
 
-    .line 4
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -281,12 +261,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/core/processor/ClarityProcessor;->nativeInstance:J
 
     invoke-static {v1, v2}, Lcom/meitu/core/processor/ClarityProcessor;->nativeClear(J)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -304,7 +282,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     :try_start_0
     iget-wide v1, p0, Lcom/meitu/core/processor/ClarityProcessor;->nativeInstance:J
 
@@ -312,13 +289,10 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 2
     invoke-super {p0}, Ljava/lang/Object;->finalize()V
 
-    .line 3
     invoke-super {p0}, Ljava/lang/Object;->finalize()V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -326,10 +300,8 @@
     :catchall_0
     move-exception v1
 
-    .line 5
     invoke-super {p0}, Ljava/lang/Object;->finalize()V
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     throw v1

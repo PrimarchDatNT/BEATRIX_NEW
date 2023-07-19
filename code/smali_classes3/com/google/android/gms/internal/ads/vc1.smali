@@ -36,15 +36,12 @@
 .method public final call()Ljava/lang/Object;
     .locals 6
 
-    .line 1
     new-instance v0, Ljava/util/HashMap;
 
     invoke-direct {v0}, Ljava/util/HashMap;-><init>()V
 
-    .line 2
     sget-object v1, Lcom/google/android/gms/internal/ads/w;->D:Lcom/google/android/gms/internal/ads/h;
 
-    .line 3
     invoke-static {}, Lcom/google/android/gms/internal/ads/zm2;->e()Lcom/google/android/gms/internal/ads/s;
 
     move-result-object v2
@@ -53,24 +50,20 @@
 
     move-result-object v1
 
-    .line 4
     check-cast v1, Ljava/lang/String;
 
     if-eqz v1, :cond_0
 
-    .line 5
     invoke-virtual {v1}, Ljava/lang/String;->isEmpty()Z
 
     move-result v2
 
     if-nez v2, :cond_0
 
-    .line 6
     sget v2, Landroid/os/Build$VERSION;->SDK_INT:I
 
     sget-object v3, Lcom/google/android/gms/internal/ads/w;->E:Lcom/google/android/gms/internal/ads/h;
 
-    .line 7
     invoke-static {}, Lcom/google/android/gms/internal/ads/zm2;->e()Lcom/google/android/gms/internal/ads/s;
 
     move-result-object v4
@@ -79,7 +72,6 @@
 
     move-result-object v3
 
-    .line 8
     check-cast v3, Ljava/lang/Integer;
 
     invoke-virtual {v3}, Ljava/lang/Integer;->intValue()I
@@ -92,7 +84,6 @@
 
     const-string v3, ","
 
-    .line 9
     invoke-virtual {v1, v3, v2}, Ljava/lang/String;->split(Ljava/lang/String;I)[Ljava/lang/String;
 
     move-result-object v1
@@ -106,19 +97,16 @@
 
     aget-object v4, v1, v3
 
-    .line 10
     invoke-static {v4}, Lcom/google/android/gms/internal/ads/np;->b(Ljava/lang/String;)Ljava/util/List;
 
     move-result-object v5
 
-    .line 11
     invoke-interface {v0, v4, v5}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     add-int/lit8 v3, v3, 0x1
 
     goto :goto_0
 
-    .line 12
     :cond_0
     new-instance v1, Lcom/google/android/gms/internal/ads/tc1;
 

@@ -56,7 +56,6 @@
 
     if-eqz p1, :cond_1
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/function/makeup/StudioMakeupFragment$f;->a:Lcom/commsource/studio/function/makeup/StudioMakeupFragment;
 
     invoke-virtual {v1}, Lcom/commsource/studio/function/makeup/StudioMakeupFragment;->V1()Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/i;
@@ -87,13 +86,11 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     iget-object v1, p0, Lcom/commsource/studio/function/makeup/StudioMakeupFragment$f;->a:Lcom/commsource/studio/function/makeup/StudioMakeupFragment;
 
     invoke-static {v1, p1}, Lcom/commsource/studio/function/makeup/StudioMakeupFragment;->E1(Lcom/commsource/studio/function/makeup/StudioMakeupFragment;Lcom/commsource/repository/child/makeup/e;)V
 
-    .line 3
     iget-object p1, p0, Lcom/commsource/studio/function/makeup/StudioMakeupFragment$f;->a:Lcom/commsource/studio/function/makeup/StudioMakeupFragment;
 
     const/4 v1, 0x1
@@ -102,7 +99,6 @@
 
     goto :goto_1
 
-    .line 4
     :cond_1
     :goto_0
     iget-object p1, p0, Lcom/commsource/studio/function/makeup/StudioMakeupFragment$f;->a:Lcom/commsource/studio/function/makeup/StudioMakeupFragment;
@@ -111,14 +107,12 @@
 
     invoke-static {p1, v1}, Lcom/commsource/studio/function/makeup/StudioMakeupFragment;->E1(Lcom/commsource/studio/function/makeup/StudioMakeupFragment;Lcom/commsource/repository/child/makeup/e;)V
 
-    .line 5
     iget-object p1, p0, Lcom/commsource/studio/function/makeup/StudioMakeupFragment$f;->a:Lcom/commsource/studio/function/makeup/StudioMakeupFragment;
 
     const/4 v1, 0x0
 
     invoke-virtual {p1, v1}, Lcom/commsource/studio/function/makeup/StudioMakeupFragment;->p2(Z)V
 
-    .line 6
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -132,7 +126,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Lcom/commsource/repository/child/makeup/e;
 
     invoke-virtual {p0, p1}, Lcom/commsource/studio/function/makeup/StudioMakeupFragment$f;->a(Lcom/commsource/repository/child/makeup/e;)V

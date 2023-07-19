@@ -65,7 +65,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/meitu/room/database/MTBeautyplusDatabase;-><init>()V
 
     return-void
@@ -78,7 +77,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Landroidx/room/RoomDatabase;->mCallbacks:Ljava/util/List;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -93,7 +91,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Landroidx/room/RoomDatabase;->mCallbacks:Ljava/util/List;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -108,7 +105,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Landroidx/room/RoomDatabase;->mCallbacks:Ljava/util/List;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -123,7 +119,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Landroidx/room/RoomDatabase;->mCallbacks:Ljava/util/List;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -138,7 +133,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Landroidx/room/RoomDatabase;->mCallbacks:Ljava/util/List;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -153,7 +147,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Landroidx/room/RoomDatabase;->mCallbacks:Ljava/util/List;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -168,7 +161,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Landroidx/room/RoomDatabase;->mCallbacks:Ljava/util/List;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -183,7 +175,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Landroidx/room/RoomDatabase;->mDatabase:Landroidx/sqlite/db/SupportSQLiteDatabase;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -198,7 +189,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0, p1}, Landroidx/room/RoomDatabase;->internalInitInvalidationTracker(Landroidx/sqlite/db/SupportSQLiteDatabase;)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -213,7 +203,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Landroidx/room/RoomDatabase;->mCallbacks:Ljava/util/List;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -228,7 +217,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Landroidx/room/RoomDatabase;->mCallbacks:Ljava/util/List;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -245,36 +233,30 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/room/database/MTBeautyplusDatabase_Impl;->w:Lf/k/i0/a/c1;
 
     if-eqz v1, :cond_0
 
-    .line 2
     iget-object v1, p0, Lcom/meitu/room/database/MTBeautyplusDatabase_Impl;->w:Lf/k/i0/a/c1;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
 
-    .line 3
     :cond_0
     monitor-enter p0
 
-    .line 4
     :try_start_0
     iget-object v1, p0, Lcom/meitu/room/database/MTBeautyplusDatabase_Impl;->w:Lf/k/i0/a/c1;
 
     if-nez v1, :cond_1
 
-    .line 5
     new-instance v1, Lf/k/i0/a/d1;
 
     invoke-direct {v1, p0}, Lf/k/i0/a/d1;-><init>(Landroidx/room/RoomDatabase;)V
 
     iput-object v1, p0, Lcom/meitu/room/database/MTBeautyplusDatabase_Impl;->w:Lf/k/i0/a/c1;
 
-    .line 6
     :cond_1
     iget-object v1, p0, Lcom/meitu/room/database/MTBeautyplusDatabase_Impl;->w:Lf/k/i0/a/c1;
 
@@ -289,7 +271,6 @@
     :catchall_0
     move-exception v1
 
-    .line 7
     :try_start_1
     monitor-exit p0
     :try_end_1
@@ -307,36 +288,30 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/room/database/MTBeautyplusDatabase_Impl;->u:Lf/k/i0/a/e1;
 
     if-eqz v1, :cond_0
 
-    .line 2
     iget-object v1, p0, Lcom/meitu/room/database/MTBeautyplusDatabase_Impl;->u:Lf/k/i0/a/e1;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
 
-    .line 3
     :cond_0
     monitor-enter p0
 
-    .line 4
     :try_start_0
     iget-object v1, p0, Lcom/meitu/room/database/MTBeautyplusDatabase_Impl;->u:Lf/k/i0/a/e1;
 
     if-nez v1, :cond_1
 
-    .line 5
     new-instance v1, Lf/k/i0/a/f1;
 
     invoke-direct {v1, p0}, Lf/k/i0/a/f1;-><init>(Landroidx/room/RoomDatabase;)V
 
     iput-object v1, p0, Lcom/meitu/room/database/MTBeautyplusDatabase_Impl;->u:Lf/k/i0/a/e1;
 
-    .line 6
     :cond_1
     iget-object v1, p0, Lcom/meitu/room/database/MTBeautyplusDatabase_Impl;->u:Lf/k/i0/a/e1;
 
@@ -351,7 +326,6 @@
     :catchall_0
     move-exception v1
 
-    .line 7
     :try_start_1
     monitor-exit p0
     :try_end_1
@@ -369,36 +343,30 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/room/database/MTBeautyplusDatabase_Impl;->a:Lf/k/i0/a/b;
 
     if-eqz v1, :cond_0
 
-    .line 2
     iget-object v1, p0, Lcom/meitu/room/database/MTBeautyplusDatabase_Impl;->a:Lf/k/i0/a/b;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
 
-    .line 3
     :cond_0
     monitor-enter p0
 
-    .line 4
     :try_start_0
     iget-object v1, p0, Lcom/meitu/room/database/MTBeautyplusDatabase_Impl;->a:Lf/k/i0/a/b;
 
     if-nez v1, :cond_1
 
-    .line 5
     new-instance v1, Lf/k/i0/a/c;
 
     invoke-direct {v1, p0}, Lf/k/i0/a/c;-><init>(Landroidx/room/RoomDatabase;)V
 
     iput-object v1, p0, Lcom/meitu/room/database/MTBeautyplusDatabase_Impl;->a:Lf/k/i0/a/b;
 
-    .line 6
     :cond_1
     iget-object v1, p0, Lcom/meitu/room/database/MTBeautyplusDatabase_Impl;->a:Lf/k/i0/a/b;
 
@@ -413,7 +381,6 @@
     :catchall_0
     move-exception v1
 
-    .line 7
     :try_start_1
     monitor-exit p0
     :try_end_1
@@ -431,36 +398,30 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/room/database/MTBeautyplusDatabase_Impl;->b:Lf/k/i0/a/d;
 
     if-eqz v1, :cond_0
 
-    .line 2
     iget-object v1, p0, Lcom/meitu/room/database/MTBeautyplusDatabase_Impl;->b:Lf/k/i0/a/d;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
 
-    .line 3
     :cond_0
     monitor-enter p0
 
-    .line 4
     :try_start_0
     iget-object v1, p0, Lcom/meitu/room/database/MTBeautyplusDatabase_Impl;->b:Lf/k/i0/a/d;
 
     if-nez v1, :cond_1
 
-    .line 5
     new-instance v1, Lf/k/i0/a/e;
 
     invoke-direct {v1, p0}, Lf/k/i0/a/e;-><init>(Landroidx/room/RoomDatabase;)V
 
     iput-object v1, p0, Lcom/meitu/room/database/MTBeautyplusDatabase_Impl;->b:Lf/k/i0/a/d;
 
-    .line 6
     :cond_1
     iget-object v1, p0, Lcom/meitu/room/database/MTBeautyplusDatabase_Impl;->b:Lf/k/i0/a/d;
 
@@ -475,7 +436,6 @@
     :catchall_0
     move-exception v1
 
-    .line 7
     :try_start_1
     monitor-exit p0
     :try_end_1
@@ -493,36 +453,30 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/room/database/MTBeautyplusDatabase_Impl;->c:Lf/k/i0/a/f;
 
     if-eqz v1, :cond_0
 
-    .line 2
     iget-object v1, p0, Lcom/meitu/room/database/MTBeautyplusDatabase_Impl;->c:Lf/k/i0/a/f;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
 
-    .line 3
     :cond_0
     monitor-enter p0
 
-    .line 4
     :try_start_0
     iget-object v1, p0, Lcom/meitu/room/database/MTBeautyplusDatabase_Impl;->c:Lf/k/i0/a/f;
 
     if-nez v1, :cond_1
 
-    .line 5
     new-instance v1, Lf/k/i0/a/g;
 
     invoke-direct {v1, p0}, Lf/k/i0/a/g;-><init>(Landroidx/room/RoomDatabase;)V
 
     iput-object v1, p0, Lcom/meitu/room/database/MTBeautyplusDatabase_Impl;->c:Lf/k/i0/a/f;
 
-    .line 6
     :cond_1
     iget-object v1, p0, Lcom/meitu/room/database/MTBeautyplusDatabase_Impl;->c:Lf/k/i0/a/f;
 
@@ -537,7 +491,6 @@
     :catchall_0
     move-exception v1
 
-    .line 7
     :try_start_1
     monitor-exit p0
     :try_end_1
@@ -559,10 +512,8 @@
 
     invoke-static {v2}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0}, Landroidx/room/RoomDatabase;->assertNotMainThread()V
 
-    .line 2
     invoke-super {p0}, Landroidx/room/RoomDatabase;->getOpenHelper()Landroidx/sqlite/db/SupportSQLiteOpenHelper;
 
     move-result-object v3
@@ -571,176 +522,141 @@
 
     move-result-object v3
 
-    .line 3
     :try_start_0
     invoke-super {p0}, Landroidx/room/RoomDatabase;->beginTransaction()V
 
     const-string v4, "DELETE FROM `AR_MATERIAL`"
 
-    .line 4
     invoke-interface {v3, v4}, Landroidx/sqlite/db/SupportSQLiteDatabase;->execSQL(Ljava/lang/String;)V
 
     const-string v4, "DELETE FROM `AR_MATERIAL_GROUP`"
 
-    .line 5
     invoke-interface {v3, v4}, Landroidx/sqlite/db/SupportSQLiteDatabase;->execSQL(Ljava/lang/String;)V
 
     const-string v4, "DELETE FROM `AR_MATERIAL_PAID_INFO`"
 
-    .line 6
     invoke-interface {v3, v4}, Landroidx/sqlite/db/SupportSQLiteDatabase;->execSQL(Ljava/lang/String;)V
 
     const-string v4, "DELETE FROM `CHAT_FILED`"
 
-    .line 7
     invoke-interface {v3, v4}, Landroidx/sqlite/db/SupportSQLiteDatabase;->execSQL(Ljava/lang/String;)V
 
     const-string v4, "DELETE FROM `CHAT`"
 
-    .line 8
     invoke-interface {v3, v4}, Landroidx/sqlite/db/SupportSQLiteDatabase;->execSQL(Ljava/lang/String;)V
 
     const-string v4, "DELETE FROM `MAKEUP_ENTITY`"
 
-    .line 9
     invoke-interface {v3, v4}, Landroidx/sqlite/db/SupportSQLiteDatabase;->execSQL(Ljava/lang/String;)V
 
     const-string v4, "DELETE FROM `MONTAGE_GROUP_ENTITY`"
 
-    .line 10
     invoke-interface {v3, v4}, Landroidx/sqlite/db/SupportSQLiteDatabase;->execSQL(Ljava/lang/String;)V
 
     const-string v4, "DELETE FROM `MONTAGE_MATERIAL_ENTITY`"
 
-    .line 11
     invoke-interface {v3, v4}, Landroidx/sqlite/db/SupportSQLiteDatabase;->execSQL(Ljava/lang/String;)V
 
     const-string v4, "DELETE FROM `MOSAIC_LOCAL_ENTITY`"
 
-    .line 12
     invoke-interface {v3, v4}, Landroidx/sqlite/db/SupportSQLiteDatabase;->execSQL(Ljava/lang/String;)V
 
     const-string v4, "DELETE FROM `NEW_FILTER`"
 
-    .line 13
     invoke-interface {v3, v4}, Landroidx/sqlite/db/SupportSQLiteDatabase;->execSQL(Ljava/lang/String;)V
 
     const-string v4, "DELETE FROM `FILTER_CATEGORY_INFO`"
 
-    .line 14
     invoke-interface {v3, v4}, Landroidx/sqlite/db/SupportSQLiteDatabase;->execSQL(Ljava/lang/String;)V
 
     const-string v4, "DELETE FROM `FILTER_GROUP_INFO`"
 
-    .line 15
     invoke-interface {v3, v4}, Landroidx/sqlite/db/SupportSQLiteDatabase;->execSQL(Ljava/lang/String;)V
 
     const-string v4, "DELETE FROM `STICKER_MATERIAL`"
 
-    .line 16
     invoke-interface {v3, v4}, Landroidx/sqlite/db/SupportSQLiteDatabase;->execSQL(Ljava/lang/String;)V
 
     const-string v4, "DELETE FROM `STICKER_MATERIAL_GROUP`"
 
-    .line 17
     invoke-interface {v3, v4}, Landroidx/sqlite/db/SupportSQLiteDatabase;->execSQL(Ljava/lang/String;)V
 
     const-string v4, "DELETE FROM `STICKER_CATEGORY`"
 
-    .line 18
     invoke-interface {v3, v4}, Landroidx/sqlite/db/SupportSQLiteDatabase;->execSQL(Ljava/lang/String;)V
 
     const-string v4, "DELETE FROM `LOOK_MATERIAL`"
 
-    .line 19
     invoke-interface {v3, v4}, Landroidx/sqlite/db/SupportSQLiteDatabase;->execSQL(Ljava/lang/String;)V
 
     const-string v4, "DELETE FROM `MAKEUP_MATERIAL`"
 
-    .line 20
     invoke-interface {v3, v4}, Landroidx/sqlite/db/SupportSQLiteDatabase;->execSQL(Ljava/lang/String;)V
 
     const-string v4, "DELETE FROM `DOODLE_MATERIAL`"
 
-    .line 21
     invoke-interface {v3, v4}, Landroidx/sqlite/db/SupportSQLiteDatabase;->execSQL(Ljava/lang/String;)V
 
     const-string v4, "DELETE FROM `DOODLE_CATEGORY`"
 
-    .line 22
     invoke-interface {v3, v4}, Landroidx/sqlite/db/SupportSQLiteDatabase;->execSQL(Ljava/lang/String;)V
 
     const-string v4, "DELETE FROM `TEXTURE_MATERIAL`"
 
-    .line 23
     invoke-interface {v3, v4}, Landroidx/sqlite/db/SupportSQLiteDatabase;->execSQL(Ljava/lang/String;)V
 
     const-string v4, "DELETE FROM `TEXT_TEMPLATE_MATERIAL`"
 
-    .line 24
     invoke-interface {v3, v4}, Landroidx/sqlite/db/SupportSQLiteDatabase;->execSQL(Ljava/lang/String;)V
 
     const-string v4, "DELETE FROM `GRADIENT_MATERIAL`"
 
-    .line 25
     invoke-interface {v3, v4}, Landroidx/sqlite/db/SupportSQLiteDatabase;->execSQL(Ljava/lang/String;)V
 
     const-string v4, "DELETE FROM `TEXT_FRONT_MATERIAL`"
 
-    .line 26
     invoke-interface {v3, v4}, Landroidx/sqlite/db/SupportSQLiteDatabase;->execSQL(Ljava/lang/String;)V
 
     const-string v4, "DELETE FROM `DOODLE_MATERIAL_DUFFLE`"
 
-    .line 27
     invoke-interface {v3, v4}, Landroidx/sqlite/db/SupportSQLiteDatabase;->execSQL(Ljava/lang/String;)V
 
     const-string v4, "DELETE FROM `FORMULA_MATERIAL_DUFFLE`"
 
-    .line 28
     invoke-interface {v3, v4}, Landroidx/sqlite/db/SupportSQLiteDatabase;->execSQL(Ljava/lang/String;)V
 
     const-string v4, "DELETE FROM `ONLINE_DIALOG_ENTITY`"
 
-    .line 29
     invoke-interface {v3, v4}, Landroidx/sqlite/db/SupportSQLiteDatabase;->execSQL(Ljava/lang/String;)V
 
     const-string v4, "DELETE FROM `FORMULA_CATEGORY`"
 
-    .line 30
     invoke-interface {v3, v4}, Landroidx/sqlite/db/SupportSQLiteDatabase;->execSQL(Ljava/lang/String;)V
 
     const-string v4, "DELETE FROM `NEW_DOODLE_CATEGORY`"
 
-    .line 31
     invoke-interface {v3, v4}, Landroidx/sqlite/db/SupportSQLiteDatabase;->execSQL(Ljava/lang/String;)V
 
-    .line 32
     invoke-super {p0}, Landroidx/room/RoomDatabase;->setTransactionSuccessful()V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 33
     invoke-super {p0}, Landroidx/room/RoomDatabase;->endTransaction()V
 
-    .line 34
     invoke-interface {v3, v1}, Landroidx/sqlite/db/SupportSQLiteDatabase;->query(Ljava/lang/String;)Landroid/database/Cursor;
 
     move-result-object v1
 
     invoke-interface {v1}, Landroid/database/Cursor;->close()V
 
-    .line 35
     invoke-interface {v3}, Landroidx/sqlite/db/SupportSQLiteDatabase;->inTransaction()Z
 
     move-result v1
 
     if-nez v1, :cond_0
 
-    .line 36
     invoke-interface {v3, v0}, Landroidx/sqlite/db/SupportSQLiteDatabase;->execSQL(Ljava/lang/String;)V
 
-    .line 37
     :cond_0
     invoke-static {v2}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -749,27 +665,22 @@
     :catchall_0
     move-exception v4
 
-    .line 38
     invoke-super {p0}, Landroidx/room/RoomDatabase;->endTransaction()V
 
-    .line 39
     invoke-interface {v3, v1}, Landroidx/sqlite/db/SupportSQLiteDatabase;->query(Ljava/lang/String;)Landroid/database/Cursor;
 
     move-result-object v1
 
     invoke-interface {v1}, Landroid/database/Cursor;->close()V
 
-    .line 40
     invoke-interface {v3}, Landroidx/sqlite/db/SupportSQLiteDatabase;->inTransaction()Z
 
     move-result v1
 
     if-nez v1, :cond_1
 
-    .line 41
     invoke-interface {v3, v0}, Landroidx/sqlite/db/SupportSQLiteDatabase;->execSQL(Ljava/lang/String;)V
 
-    .line 42
     :cond_1
     invoke-static {v2}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -783,19 +694,16 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/util/HashMap;
 
     const/4 v2, 0x0
 
     invoke-direct {v1, v2}, Ljava/util/HashMap;-><init>(I)V
 
-    .line 2
     new-instance v3, Ljava/util/HashMap;
 
     invoke-direct {v3, v2}, Ljava/util/HashMap;-><init>(I)V
 
-    .line 3
     new-instance v2, Landroidx/room/InvalidationTracker;
 
     const-string v4, "AR_MATERIAL"
@@ -874,7 +782,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Landroidx/room/RoomOpenHelper;
 
     new-instance v2, Lcom/meitu/room/database/MTBeautyplusDatabase_Impl$a;
@@ -889,7 +796,6 @@
 
     invoke-direct {v1, p1, v2, v3, v4}, Landroidx/room/RoomOpenHelper;-><init>(Landroidx/room/DatabaseConfiguration;Landroidx/room/RoomOpenHelper$Delegate;Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 2
     iget-object v2, p1, Landroidx/room/DatabaseConfiguration;->context:Landroid/content/Context;
 
     invoke-static {v2}, Landroidx/sqlite/db/SupportSQLiteOpenHelper$Configuration;->builder(Landroid/content/Context;)Landroidx/sqlite/db/SupportSQLiteOpenHelper$Configuration$Builder;
@@ -898,29 +804,24 @@
 
     iget-object v3, p1, Landroidx/room/DatabaseConfiguration;->name:Ljava/lang/String;
 
-    .line 3
     invoke-virtual {v2, v3}, Landroidx/sqlite/db/SupportSQLiteOpenHelper$Configuration$Builder;->name(Ljava/lang/String;)Landroidx/sqlite/db/SupportSQLiteOpenHelper$Configuration$Builder;
 
     move-result-object v2
 
-    .line 4
     invoke-virtual {v2, v1}, Landroidx/sqlite/db/SupportSQLiteOpenHelper$Configuration$Builder;->callback(Landroidx/sqlite/db/SupportSQLiteOpenHelper$Callback;)Landroidx/sqlite/db/SupportSQLiteOpenHelper$Configuration$Builder;
 
     move-result-object v1
 
-    .line 5
     invoke-virtual {v1}, Landroidx/sqlite/db/SupportSQLiteOpenHelper$Configuration$Builder;->build()Landroidx/sqlite/db/SupportSQLiteOpenHelper$Configuration;
 
     move-result-object v1
 
-    .line 6
     iget-object p1, p1, Landroidx/room/DatabaseConfiguration;->sqliteOpenHelperFactory:Landroidx/sqlite/db/SupportSQLiteOpenHelper$Factory;
 
     invoke-interface {p1, v1}, Landroidx/sqlite/db/SupportSQLiteOpenHelper$Factory;->create(Landroidx/sqlite/db/SupportSQLiteOpenHelper$Configuration;)Landroidx/sqlite/db/SupportSQLiteOpenHelper;
 
     move-result-object p1
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p1
@@ -933,36 +834,30 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/room/database/MTBeautyplusDatabase_Impl;->d:Lf/k/i0/a/h;
 
     if-eqz v1, :cond_0
 
-    .line 2
     iget-object v1, p0, Lcom/meitu/room/database/MTBeautyplusDatabase_Impl;->d:Lf/k/i0/a/h;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
 
-    .line 3
     :cond_0
     monitor-enter p0
 
-    .line 4
     :try_start_0
     iget-object v1, p0, Lcom/meitu/room/database/MTBeautyplusDatabase_Impl;->d:Lf/k/i0/a/h;
 
     if-nez v1, :cond_1
 
-    .line 5
     new-instance v1, Lf/k/i0/a/i;
 
     invoke-direct {v1, p0}, Lf/k/i0/a/i;-><init>(Landroidx/room/RoomDatabase;)V
 
     iput-object v1, p0, Lcom/meitu/room/database/MTBeautyplusDatabase_Impl;->d:Lf/k/i0/a/h;
 
-    .line 6
     :cond_1
     iget-object v1, p0, Lcom/meitu/room/database/MTBeautyplusDatabase_Impl;->d:Lf/k/i0/a/h;
 
@@ -977,7 +872,6 @@
     :catchall_0
     move-exception v1
 
-    .line 7
     :try_start_1
     monitor-exit p0
     :try_end_1
@@ -995,36 +889,30 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/room/database/MTBeautyplusDatabase_Impl;->e:Lf/k/i0/a/j;
 
     if-eqz v1, :cond_0
 
-    .line 2
     iget-object v1, p0, Lcom/meitu/room/database/MTBeautyplusDatabase_Impl;->e:Lf/k/i0/a/j;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
 
-    .line 3
     :cond_0
     monitor-enter p0
 
-    .line 4
     :try_start_0
     iget-object v1, p0, Lcom/meitu/room/database/MTBeautyplusDatabase_Impl;->e:Lf/k/i0/a/j;
 
     if-nez v1, :cond_1
 
-    .line 5
     new-instance v1, Lf/k/i0/a/k;
 
     invoke-direct {v1, p0}, Lf/k/i0/a/k;-><init>(Landroidx/room/RoomDatabase;)V
 
     iput-object v1, p0, Lcom/meitu/room/database/MTBeautyplusDatabase_Impl;->e:Lf/k/i0/a/j;
 
-    .line 6
     :cond_1
     iget-object v1, p0, Lcom/meitu/room/database/MTBeautyplusDatabase_Impl;->e:Lf/k/i0/a/j;
 
@@ -1039,7 +927,6 @@
     :catchall_0
     move-exception v1
 
-    .line 7
     :try_start_1
     monitor-exit p0
     :try_end_1
@@ -1057,36 +944,30 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/room/database/MTBeautyplusDatabase_Impl;->s:Lf/k/i0/a/l;
 
     if-eqz v1, :cond_0
 
-    .line 2
     iget-object v1, p0, Lcom/meitu/room/database/MTBeautyplusDatabase_Impl;->s:Lf/k/i0/a/l;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
 
-    .line 3
     :cond_0
     monitor-enter p0
 
-    .line 4
     :try_start_0
     iget-object v1, p0, Lcom/meitu/room/database/MTBeautyplusDatabase_Impl;->s:Lf/k/i0/a/l;
 
     if-nez v1, :cond_1
 
-    .line 5
     new-instance v1, Lf/k/i0/a/m;
 
     invoke-direct {v1, p0}, Lf/k/i0/a/m;-><init>(Landroidx/room/RoomDatabase;)V
 
     iput-object v1, p0, Lcom/meitu/room/database/MTBeautyplusDatabase_Impl;->s:Lf/k/i0/a/l;
 
-    .line 6
     :cond_1
     iget-object v1, p0, Lcom/meitu/room/database/MTBeautyplusDatabase_Impl;->s:Lf/k/i0/a/l;
 
@@ -1101,7 +982,6 @@
     :catchall_0
     move-exception v1
 
-    .line 7
     :try_start_1
     monitor-exit p0
     :try_end_1
@@ -1119,36 +999,30 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/room/database/MTBeautyplusDatabase_Impl;->r:Lf/k/i0/a/n;
 
     if-eqz v1, :cond_0
 
-    .line 2
     iget-object v1, p0, Lcom/meitu/room/database/MTBeautyplusDatabase_Impl;->r:Lf/k/i0/a/n;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
 
-    .line 3
     :cond_0
     monitor-enter p0
 
-    .line 4
     :try_start_0
     iget-object v1, p0, Lcom/meitu/room/database/MTBeautyplusDatabase_Impl;->r:Lf/k/i0/a/n;
 
     if-nez v1, :cond_1
 
-    .line 5
     new-instance v1, Lf/k/i0/a/o;
 
     invoke-direct {v1, p0}, Lf/k/i0/a/o;-><init>(Landroidx/room/RoomDatabase;)V
 
     iput-object v1, p0, Lcom/meitu/room/database/MTBeautyplusDatabase_Impl;->r:Lf/k/i0/a/n;
 
-    .line 6
     :cond_1
     iget-object v1, p0, Lcom/meitu/room/database/MTBeautyplusDatabase_Impl;->r:Lf/k/i0/a/n;
 
@@ -1163,7 +1037,6 @@
     :catchall_0
     move-exception v1
 
-    .line 7
     :try_start_1
     monitor-exit p0
     :try_end_1
@@ -1181,36 +1054,30 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/room/database/MTBeautyplusDatabase_Impl;->k:Lf/k/i0/a/p;
 
     if-eqz v1, :cond_0
 
-    .line 2
     iget-object v1, p0, Lcom/meitu/room/database/MTBeautyplusDatabase_Impl;->k:Lf/k/i0/a/p;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
 
-    .line 3
     :cond_0
     monitor-enter p0
 
-    .line 4
     :try_start_0
     iget-object v1, p0, Lcom/meitu/room/database/MTBeautyplusDatabase_Impl;->k:Lf/k/i0/a/p;
 
     if-nez v1, :cond_1
 
-    .line 5
     new-instance v1, Lf/k/i0/a/q;
 
     invoke-direct {v1, p0}, Lf/k/i0/a/q;-><init>(Landroidx/room/RoomDatabase;)V
 
     iput-object v1, p0, Lcom/meitu/room/database/MTBeautyplusDatabase_Impl;->k:Lf/k/i0/a/p;
 
-    .line 6
     :cond_1
     iget-object v1, p0, Lcom/meitu/room/database/MTBeautyplusDatabase_Impl;->k:Lf/k/i0/a/p;
 
@@ -1225,7 +1092,6 @@
     :catchall_0
     move-exception v1
 
-    .line 7
     :try_start_1
     monitor-exit p0
     :try_end_1
@@ -1243,36 +1109,30 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/room/database/MTBeautyplusDatabase_Impl;->l:Lf/k/i0/a/t;
 
     if-eqz v1, :cond_0
 
-    .line 2
     iget-object v1, p0, Lcom/meitu/room/database/MTBeautyplusDatabase_Impl;->l:Lf/k/i0/a/t;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
 
-    .line 3
     :cond_0
     monitor-enter p0
 
-    .line 4
     :try_start_0
     iget-object v1, p0, Lcom/meitu/room/database/MTBeautyplusDatabase_Impl;->l:Lf/k/i0/a/t;
 
     if-nez v1, :cond_1
 
-    .line 5
     new-instance v1, Lf/k/i0/a/u;
 
     invoke-direct {v1, p0}, Lf/k/i0/a/u;-><init>(Landroidx/room/RoomDatabase;)V
 
     iput-object v1, p0, Lcom/meitu/room/database/MTBeautyplusDatabase_Impl;->l:Lf/k/i0/a/t;
 
-    .line 6
     :cond_1
     iget-object v1, p0, Lcom/meitu/room/database/MTBeautyplusDatabase_Impl;->l:Lf/k/i0/a/t;
 
@@ -1287,7 +1147,6 @@
     :catchall_0
     move-exception v1
 
-    .line 7
     :try_start_1
     monitor-exit p0
     :try_end_1
@@ -1305,36 +1164,30 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/room/database/MTBeautyplusDatabase_Impl;->z:Lf/k/i0/a/v;
 
     if-eqz v1, :cond_0
 
-    .line 2
     iget-object v1, p0, Lcom/meitu/room/database/MTBeautyplusDatabase_Impl;->z:Lf/k/i0/a/v;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
 
-    .line 3
     :cond_0
     monitor-enter p0
 
-    .line 4
     :try_start_0
     iget-object v1, p0, Lcom/meitu/room/database/MTBeautyplusDatabase_Impl;->z:Lf/k/i0/a/v;
 
     if-nez v1, :cond_1
 
-    .line 5
     new-instance v1, Lf/k/i0/a/w;
 
     invoke-direct {v1, p0}, Lf/k/i0/a/w;-><init>(Landroidx/room/RoomDatabase;)V
 
     iput-object v1, p0, Lcom/meitu/room/database/MTBeautyplusDatabase_Impl;->z:Lf/k/i0/a/v;
 
-    .line 6
     :cond_1
     iget-object v1, p0, Lcom/meitu/room/database/MTBeautyplusDatabase_Impl;->z:Lf/k/i0/a/v;
 
@@ -1349,7 +1202,6 @@
     :catchall_0
     move-exception v1
 
-    .line 7
     :try_start_1
     monitor-exit p0
     :try_end_1
@@ -1367,36 +1219,30 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/room/database/MTBeautyplusDatabase_Impl;->A:Lf/k/i0/a/x;
 
     if-eqz v1, :cond_0
 
-    .line 2
     iget-object v1, p0, Lcom/meitu/room/database/MTBeautyplusDatabase_Impl;->A:Lf/k/i0/a/x;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
 
-    .line 3
     :cond_0
     monitor-enter p0
 
-    .line 4
     :try_start_0
     iget-object v1, p0, Lcom/meitu/room/database/MTBeautyplusDatabase_Impl;->A:Lf/k/i0/a/x;
 
     if-nez v1, :cond_1
 
-    .line 5
     new-instance v1, Lf/k/i0/a/y;
 
     invoke-direct {v1, p0}, Lf/k/i0/a/y;-><init>(Landroidx/room/RoomDatabase;)V
 
     iput-object v1, p0, Lcom/meitu/room/database/MTBeautyplusDatabase_Impl;->A:Lf/k/i0/a/x;
 
-    .line 6
     :cond_1
     iget-object v1, p0, Lcom/meitu/room/database/MTBeautyplusDatabase_Impl;->A:Lf/k/i0/a/x;
 
@@ -1411,7 +1257,6 @@
     :catchall_0
     move-exception v1
 
-    .line 7
     :try_start_1
     monitor-exit p0
     :try_end_1
@@ -1429,36 +1274,30 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/room/database/MTBeautyplusDatabase_Impl;->v:Lf/k/i0/a/z;
 
     if-eqz v1, :cond_0
 
-    .line 2
     iget-object v1, p0, Lcom/meitu/room/database/MTBeautyplusDatabase_Impl;->v:Lf/k/i0/a/z;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
 
-    .line 3
     :cond_0
     monitor-enter p0
 
-    .line 4
     :try_start_0
     iget-object v1, p0, Lcom/meitu/room/database/MTBeautyplusDatabase_Impl;->v:Lf/k/i0/a/z;
 
     if-nez v1, :cond_1
 
-    .line 5
     new-instance v1, Lf/k/i0/a/a0;
 
     invoke-direct {v1, p0}, Lf/k/i0/a/a0;-><init>(Landroidx/room/RoomDatabase;)V
 
     iput-object v1, p0, Lcom/meitu/room/database/MTBeautyplusDatabase_Impl;->v:Lf/k/i0/a/z;
 
-    .line 6
     :cond_1
     iget-object v1, p0, Lcom/meitu/room/database/MTBeautyplusDatabase_Impl;->v:Lf/k/i0/a/z;
 
@@ -1473,7 +1312,6 @@
     :catchall_0
     move-exception v1
 
-    .line 7
     :try_start_1
     monitor-exit p0
     :try_end_1
@@ -1491,36 +1329,30 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/room/database/MTBeautyplusDatabase_Impl;->m:Lf/k/i0/a/b0;
 
     if-eqz v1, :cond_0
 
-    .line 2
     iget-object v1, p0, Lcom/meitu/room/database/MTBeautyplusDatabase_Impl;->m:Lf/k/i0/a/b0;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
 
-    .line 3
     :cond_0
     monitor-enter p0
 
-    .line 4
     :try_start_0
     iget-object v1, p0, Lcom/meitu/room/database/MTBeautyplusDatabase_Impl;->m:Lf/k/i0/a/b0;
 
     if-nez v1, :cond_1
 
-    .line 5
     new-instance v1, Lf/k/i0/a/c0;
 
     invoke-direct {v1, p0}, Lf/k/i0/a/c0;-><init>(Landroidx/room/RoomDatabase;)V
 
     iput-object v1, p0, Lcom/meitu/room/database/MTBeautyplusDatabase_Impl;->m:Lf/k/i0/a/b0;
 
-    .line 6
     :cond_1
     iget-object v1, p0, Lcom/meitu/room/database/MTBeautyplusDatabase_Impl;->m:Lf/k/i0/a/b0;
 
@@ -1535,7 +1367,6 @@
     :catchall_0
     move-exception v1
 
-    .line 7
     :try_start_1
     monitor-exit p0
     :try_end_1
@@ -1553,36 +1384,30 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/room/database/MTBeautyplusDatabase_Impl;->n:Lf/k/i0/a/g0;
 
     if-eqz v1, :cond_0
 
-    .line 2
     iget-object v1, p0, Lcom/meitu/room/database/MTBeautyplusDatabase_Impl;->n:Lf/k/i0/a/g0;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
 
-    .line 3
     :cond_0
     monitor-enter p0
 
-    .line 4
     :try_start_0
     iget-object v1, p0, Lcom/meitu/room/database/MTBeautyplusDatabase_Impl;->n:Lf/k/i0/a/g0;
 
     if-nez v1, :cond_1
 
-    .line 5
     new-instance v1, Lf/k/i0/a/h0;
 
     invoke-direct {v1, p0}, Lf/k/i0/a/h0;-><init>(Landroidx/room/RoomDatabase;)V
 
     iput-object v1, p0, Lcom/meitu/room/database/MTBeautyplusDatabase_Impl;->n:Lf/k/i0/a/g0;
 
-    .line 6
     :cond_1
     iget-object v1, p0, Lcom/meitu/room/database/MTBeautyplusDatabase_Impl;->n:Lf/k/i0/a/g0;
 
@@ -1597,7 +1422,6 @@
     :catchall_0
     move-exception v1
 
-    .line 7
     :try_start_1
     monitor-exit p0
     :try_end_1
@@ -1615,36 +1439,30 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/room/database/MTBeautyplusDatabase_Impl;->g:Lf/k/i0/a/i0;
 
     if-eqz v1, :cond_0
 
-    .line 2
     iget-object v1, p0, Lcom/meitu/room/database/MTBeautyplusDatabase_Impl;->g:Lf/k/i0/a/i0;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
 
-    .line 3
     :cond_0
     monitor-enter p0
 
-    .line 4
     :try_start_0
     iget-object v1, p0, Lcom/meitu/room/database/MTBeautyplusDatabase_Impl;->g:Lf/k/i0/a/i0;
 
     if-nez v1, :cond_1
 
-    .line 5
     new-instance v1, Lf/k/i0/a/j0;
 
     invoke-direct {v1, p0}, Lf/k/i0/a/j0;-><init>(Landroidx/room/RoomDatabase;)V
 
     iput-object v1, p0, Lcom/meitu/room/database/MTBeautyplusDatabase_Impl;->g:Lf/k/i0/a/i0;
 
-    .line 6
     :cond_1
     iget-object v1, p0, Lcom/meitu/room/database/MTBeautyplusDatabase_Impl;->g:Lf/k/i0/a/i0;
 
@@ -1659,7 +1477,6 @@
     :catchall_0
     move-exception v1
 
-    .line 7
     :try_start_1
     monitor-exit p0
     :try_end_1
@@ -1677,36 +1494,30 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/room/database/MTBeautyplusDatabase_Impl;->h:Lf/k/i0/a/k0;
 
     if-eqz v1, :cond_0
 
-    .line 2
     iget-object v1, p0, Lcom/meitu/room/database/MTBeautyplusDatabase_Impl;->h:Lf/k/i0/a/k0;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
 
-    .line 3
     :cond_0
     monitor-enter p0
 
-    .line 4
     :try_start_0
     iget-object v1, p0, Lcom/meitu/room/database/MTBeautyplusDatabase_Impl;->h:Lf/k/i0/a/k0;
 
     if-nez v1, :cond_1
 
-    .line 5
     new-instance v1, Lf/k/i0/a/l0;
 
     invoke-direct {v1, p0}, Lf/k/i0/a/l0;-><init>(Landroidx/room/RoomDatabase;)V
 
     iput-object v1, p0, Lcom/meitu/room/database/MTBeautyplusDatabase_Impl;->h:Lf/k/i0/a/k0;
 
-    .line 6
     :cond_1
     iget-object v1, p0, Lcom/meitu/room/database/MTBeautyplusDatabase_Impl;->h:Lf/k/i0/a/k0;
 
@@ -1721,7 +1532,6 @@
     :catchall_0
     move-exception v1
 
-    .line 7
     :try_start_1
     monitor-exit p0
     :try_end_1
@@ -1739,36 +1549,30 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/room/database/MTBeautyplusDatabase_Impl;->i:Lf/k/i0/a/m0;
 
     if-eqz v1, :cond_0
 
-    .line 2
     iget-object v1, p0, Lcom/meitu/room/database/MTBeautyplusDatabase_Impl;->i:Lf/k/i0/a/m0;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
 
-    .line 3
     :cond_0
     monitor-enter p0
 
-    .line 4
     :try_start_0
     iget-object v1, p0, Lcom/meitu/room/database/MTBeautyplusDatabase_Impl;->i:Lf/k/i0/a/m0;
 
     if-nez v1, :cond_1
 
-    .line 5
     new-instance v1, Lf/k/i0/a/n0;
 
     invoke-direct {v1, p0}, Lf/k/i0/a/n0;-><init>(Landroidx/room/RoomDatabase;)V
 
     iput-object v1, p0, Lcom/meitu/room/database/MTBeautyplusDatabase_Impl;->i:Lf/k/i0/a/m0;
 
-    .line 6
     :cond_1
     iget-object v1, p0, Lcom/meitu/room/database/MTBeautyplusDatabase_Impl;->i:Lf/k/i0/a/m0;
 
@@ -1783,7 +1587,6 @@
     :catchall_0
     move-exception v1
 
-    .line 7
     :try_start_1
     monitor-exit p0
     :try_end_1
@@ -1801,36 +1604,30 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/room/database/MTBeautyplusDatabase_Impl;->f:Lf/k/i0/a/d0;
 
     if-eqz v1, :cond_0
 
-    .line 2
     iget-object v1, p0, Lcom/meitu/room/database/MTBeautyplusDatabase_Impl;->f:Lf/k/i0/a/d0;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
 
-    .line 3
     :cond_0
     monitor-enter p0
 
-    .line 4
     :try_start_0
     iget-object v1, p0, Lcom/meitu/room/database/MTBeautyplusDatabase_Impl;->f:Lf/k/i0/a/d0;
 
     if-nez v1, :cond_1
 
-    .line 5
     new-instance v1, Lf/k/i0/a/e0;
 
     invoke-direct {v1, p0}, Lf/k/i0/a/e0;-><init>(Landroidx/room/RoomDatabase;)V
 
     iput-object v1, p0, Lcom/meitu/room/database/MTBeautyplusDatabase_Impl;->f:Lf/k/i0/a/d0;
 
-    .line 6
     :cond_1
     iget-object v1, p0, Lcom/meitu/room/database/MTBeautyplusDatabase_Impl;->f:Lf/k/i0/a/d0;
 
@@ -1845,7 +1642,6 @@
     :catchall_0
     move-exception v1
 
-    .line 7
     :try_start_1
     monitor-exit p0
     :try_end_1
@@ -1863,36 +1659,30 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/room/database/MTBeautyplusDatabase_Impl;->y:Lf/k/i0/a/o0;
 
     if-eqz v1, :cond_0
 
-    .line 2
     iget-object v1, p0, Lcom/meitu/room/database/MTBeautyplusDatabase_Impl;->y:Lf/k/i0/a/o0;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
 
-    .line 3
     :cond_0
     monitor-enter p0
 
-    .line 4
     :try_start_0
     iget-object v1, p0, Lcom/meitu/room/database/MTBeautyplusDatabase_Impl;->y:Lf/k/i0/a/o0;
 
     if-nez v1, :cond_1
 
-    .line 5
     new-instance v1, Lf/k/i0/a/p0;
 
     invoke-direct {v1, p0}, Lf/k/i0/a/p0;-><init>(Landroidx/room/RoomDatabase;)V
 
     iput-object v1, p0, Lcom/meitu/room/database/MTBeautyplusDatabase_Impl;->y:Lf/k/i0/a/o0;
 
-    .line 6
     :cond_1
     iget-object v1, p0, Lcom/meitu/room/database/MTBeautyplusDatabase_Impl;->y:Lf/k/i0/a/o0;
 
@@ -1907,7 +1697,6 @@
     :catchall_0
     move-exception v1
 
-    .line 7
     :try_start_1
     monitor-exit p0
     :try_end_1
@@ -1925,36 +1714,30 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/room/database/MTBeautyplusDatabase_Impl;->x:Lf/k/i0/a/q0;
 
     if-eqz v1, :cond_0
 
-    .line 2
     iget-object v1, p0, Lcom/meitu/room/database/MTBeautyplusDatabase_Impl;->x:Lf/k/i0/a/q0;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
 
-    .line 3
     :cond_0
     monitor-enter p0
 
-    .line 4
     :try_start_0
     iget-object v1, p0, Lcom/meitu/room/database/MTBeautyplusDatabase_Impl;->x:Lf/k/i0/a/q0;
 
     if-nez v1, :cond_1
 
-    .line 5
     new-instance v1, Lf/k/i0/a/r0;
 
     invoke-direct {v1, p0}, Lf/k/i0/a/r0;-><init>(Landroidx/room/RoomDatabase;)V
 
     iput-object v1, p0, Lcom/meitu/room/database/MTBeautyplusDatabase_Impl;->x:Lf/k/i0/a/q0;
 
-    .line 6
     :cond_1
     iget-object v1, p0, Lcom/meitu/room/database/MTBeautyplusDatabase_Impl;->x:Lf/k/i0/a/q0;
 
@@ -1969,7 +1752,6 @@
     :catchall_0
     move-exception v1
 
-    .line 7
     :try_start_1
     monitor-exit p0
     :try_end_1
@@ -1987,36 +1769,30 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/room/database/MTBeautyplusDatabase_Impl;->j:Lf/k/i0/a/r;
 
     if-eqz v1, :cond_0
 
-    .line 2
     iget-object v1, p0, Lcom/meitu/room/database/MTBeautyplusDatabase_Impl;->j:Lf/k/i0/a/r;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
 
-    .line 3
     :cond_0
     monitor-enter p0
 
-    .line 4
     :try_start_0
     iget-object v1, p0, Lcom/meitu/room/database/MTBeautyplusDatabase_Impl;->j:Lf/k/i0/a/r;
 
     if-nez v1, :cond_1
 
-    .line 5
     new-instance v1, Lf/k/i0/a/s;
 
     invoke-direct {v1, p0}, Lf/k/i0/a/s;-><init>(Landroidx/room/RoomDatabase;)V
 
     iput-object v1, p0, Lcom/meitu/room/database/MTBeautyplusDatabase_Impl;->j:Lf/k/i0/a/r;
 
-    .line 6
     :cond_1
     iget-object v1, p0, Lcom/meitu/room/database/MTBeautyplusDatabase_Impl;->j:Lf/k/i0/a/r;
 
@@ -2031,7 +1807,6 @@
     :catchall_0
     move-exception v1
 
-    .line 7
     :try_start_1
     monitor-exit p0
     :try_end_1
@@ -2049,36 +1824,30 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/room/database/MTBeautyplusDatabase_Impl;->B:Lf/k/i0/a/s0;
 
     if-eqz v1, :cond_0
 
-    .line 2
     iget-object v1, p0, Lcom/meitu/room/database/MTBeautyplusDatabase_Impl;->B:Lf/k/i0/a/s0;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
 
-    .line 3
     :cond_0
     monitor-enter p0
 
-    .line 4
     :try_start_0
     iget-object v1, p0, Lcom/meitu/room/database/MTBeautyplusDatabase_Impl;->B:Lf/k/i0/a/s0;
 
     if-nez v1, :cond_1
 
-    .line 5
     new-instance v1, Lf/k/i0/a/t0;
 
     invoke-direct {v1, p0}, Lf/k/i0/a/t0;-><init>(Landroidx/room/RoomDatabase;)V
 
     iput-object v1, p0, Lcom/meitu/room/database/MTBeautyplusDatabase_Impl;->B:Lf/k/i0/a/s0;
 
-    .line 6
     :cond_1
     iget-object v1, p0, Lcom/meitu/room/database/MTBeautyplusDatabase_Impl;->B:Lf/k/i0/a/s0;
 
@@ -2093,7 +1862,6 @@
     :catchall_0
     move-exception v1
 
-    .line 7
     :try_start_1
     monitor-exit p0
     :try_end_1
@@ -2111,36 +1879,30 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/room/database/MTBeautyplusDatabase_Impl;->q:Lf/k/i0/a/u0;
 
     if-eqz v1, :cond_0
 
-    .line 2
     iget-object v1, p0, Lcom/meitu/room/database/MTBeautyplusDatabase_Impl;->q:Lf/k/i0/a/u0;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
 
-    .line 3
     :cond_0
     monitor-enter p0
 
-    .line 4
     :try_start_0
     iget-object v1, p0, Lcom/meitu/room/database/MTBeautyplusDatabase_Impl;->q:Lf/k/i0/a/u0;
 
     if-nez v1, :cond_1
 
-    .line 5
     new-instance v1, Lf/k/i0/a/v0;
 
     invoke-direct {v1, p0}, Lf/k/i0/a/v0;-><init>(Landroidx/room/RoomDatabase;)V
 
     iput-object v1, p0, Lcom/meitu/room/database/MTBeautyplusDatabase_Impl;->q:Lf/k/i0/a/u0;
 
-    .line 6
     :cond_1
     iget-object v1, p0, Lcom/meitu/room/database/MTBeautyplusDatabase_Impl;->q:Lf/k/i0/a/u0;
 
@@ -2155,7 +1917,6 @@
     :catchall_0
     move-exception v1
 
-    .line 7
     :try_start_1
     monitor-exit p0
     :try_end_1
@@ -2173,36 +1934,30 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/room/database/MTBeautyplusDatabase_Impl;->p:Lf/k/i0/a/w0;
 
     if-eqz v1, :cond_0
 
-    .line 2
     iget-object v1, p0, Lcom/meitu/room/database/MTBeautyplusDatabase_Impl;->p:Lf/k/i0/a/w0;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
 
-    .line 3
     :cond_0
     monitor-enter p0
 
-    .line 4
     :try_start_0
     iget-object v1, p0, Lcom/meitu/room/database/MTBeautyplusDatabase_Impl;->p:Lf/k/i0/a/w0;
 
     if-nez v1, :cond_1
 
-    .line 5
     new-instance v1, Lf/k/i0/a/x0;
 
     invoke-direct {v1, p0}, Lf/k/i0/a/x0;-><init>(Landroidx/room/RoomDatabase;)V
 
     iput-object v1, p0, Lcom/meitu/room/database/MTBeautyplusDatabase_Impl;->p:Lf/k/i0/a/w0;
 
-    .line 6
     :cond_1
     iget-object v1, p0, Lcom/meitu/room/database/MTBeautyplusDatabase_Impl;->p:Lf/k/i0/a/w0;
 
@@ -2217,7 +1972,6 @@
     :catchall_0
     move-exception v1
 
-    .line 7
     :try_start_1
     monitor-exit p0
     :try_end_1
@@ -2235,36 +1989,30 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/room/database/MTBeautyplusDatabase_Impl;->o:Lf/k/i0/a/y0;
 
     if-eqz v1, :cond_0
 
-    .line 2
     iget-object v1, p0, Lcom/meitu/room/database/MTBeautyplusDatabase_Impl;->o:Lf/k/i0/a/y0;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
 
-    .line 3
     :cond_0
     monitor-enter p0
 
-    .line 4
     :try_start_0
     iget-object v1, p0, Lcom/meitu/room/database/MTBeautyplusDatabase_Impl;->o:Lf/k/i0/a/y0;
 
     if-nez v1, :cond_1
 
-    .line 5
     new-instance v1, Lf/k/i0/a/z0;
 
     invoke-direct {v1, p0}, Lf/k/i0/a/z0;-><init>(Landroidx/room/RoomDatabase;)V
 
     iput-object v1, p0, Lcom/meitu/room/database/MTBeautyplusDatabase_Impl;->o:Lf/k/i0/a/y0;
 
-    .line 6
     :cond_1
     iget-object v1, p0, Lcom/meitu/room/database/MTBeautyplusDatabase_Impl;->o:Lf/k/i0/a/y0;
 
@@ -2279,7 +2027,6 @@
     :catchall_0
     move-exception v1
 
-    .line 7
     :try_start_1
     monitor-exit p0
     :try_end_1
@@ -2297,36 +2044,30 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/room/database/MTBeautyplusDatabase_Impl;->t:Lf/k/i0/a/a1;
 
     if-eqz v1, :cond_0
 
-    .line 2
     iget-object v1, p0, Lcom/meitu/room/database/MTBeautyplusDatabase_Impl;->t:Lf/k/i0/a/a1;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
 
-    .line 3
     :cond_0
     monitor-enter p0
 
-    .line 4
     :try_start_0
     iget-object v1, p0, Lcom/meitu/room/database/MTBeautyplusDatabase_Impl;->t:Lf/k/i0/a/a1;
 
     if-nez v1, :cond_1
 
-    .line 5
     new-instance v1, Lf/k/i0/a/b1;
 
     invoke-direct {v1, p0}, Lf/k/i0/a/b1;-><init>(Landroidx/room/RoomDatabase;)V
 
     iput-object v1, p0, Lcom/meitu/room/database/MTBeautyplusDatabase_Impl;->t:Lf/k/i0/a/a1;
 
-    .line 6
     :cond_1
     iget-object v1, p0, Lcom/meitu/room/database/MTBeautyplusDatabase_Impl;->t:Lf/k/i0/a/a1;
 
@@ -2341,7 +2082,6 @@
     :catchall_0
     move-exception v1
 
-    .line 7
     :try_start_1
     monitor-exit p0
     :try_end_1

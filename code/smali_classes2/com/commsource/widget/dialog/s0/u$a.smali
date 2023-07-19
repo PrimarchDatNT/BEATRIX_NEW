@@ -25,7 +25,6 @@
 .method constructor <init>(Lcom/commsource/widget/dialog/s0/u;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/widget/dialog/s0/u$a;->a:Lcom/commsource/widget/dialog/s0/u;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -46,7 +45,6 @@
 
     if-ne p1, v1, :cond_0
 
-    .line 1
     iget-object p1, p0, Lcom/commsource/widget/dialog/s0/u$a;->a:Lcom/commsource/widget/dialog/s0/u;
 
     invoke-static {p1}, Lcom/commsource/widget/dialog/s0/u;->H(Lcom/commsource/widget/dialog/s0/u;)Landroidx/databinding/ViewDataBinding;
@@ -59,7 +57,6 @@
 
     invoke-virtual {p1}, Lcom/commsource/widget/MTVideoView;->N()V
 
-    .line 2
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -73,7 +70,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

@@ -37,20 +37,16 @@
 .method public constructor <init>(Landroid/content/Context;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1}, Landroid/view/SurfaceView;-><init>(Landroid/content/Context;)V
 
     const/4 p1, 0x2
 
-    .line 2
     iput p1, p0, Lcom/sdk/imp/player/Under21Mp4Viewer;->d:I
 
     const/4 p1, 0x0
 
-    .line 3
     iput-boolean p1, p0, Lcom/sdk/imp/player/Under21Mp4Viewer;->p:Z
 
-    .line 4
     invoke-direct {p0}, Lcom/sdk/imp/player/Under21Mp4Viewer;->e()V
 
     return-void
@@ -59,20 +55,16 @@
 .method public constructor <init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
     .locals 0
 
-    .line 5
     invoke-direct {p0, p1, p2}, Landroid/view/SurfaceView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
     const/4 p1, 0x2
 
-    .line 6
     iput p1, p0, Lcom/sdk/imp/player/Under21Mp4Viewer;->d:I
 
     const/4 p1, 0x0
 
-    .line 7
     iput-boolean p1, p0, Lcom/sdk/imp/player/Under21Mp4Viewer;->p:Z
 
-    .line 8
     invoke-direct {p0}, Lcom/sdk/imp/player/Under21Mp4Viewer;->e()V
 
     return-void
@@ -81,20 +73,16 @@
 .method public constructor <init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
     .locals 0
 
-    .line 9
     invoke-direct {p0, p1, p2, p3}, Landroid/view/SurfaceView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
     const/4 p1, 0x2
 
-    .line 10
     iput p1, p0, Lcom/sdk/imp/player/Under21Mp4Viewer;->d:I
 
     const/4 p1, 0x0
 
-    .line 11
     iput-boolean p1, p0, Lcom/sdk/imp/player/Under21Mp4Viewer;->p:Z
 
-    .line 12
     invoke-direct {p0}, Lcom/sdk/imp/player/Under21Mp4Viewer;->e()V
 
     return-void
@@ -103,7 +91,6 @@
 .method private e()V
     .locals 2
 
-    .line 1
     new-instance v0, Lcom/sdk/imp/player/b;
 
     invoke-virtual {p0}, Landroid/view/SurfaceView;->getContext()Landroid/content/Context;
@@ -114,14 +101,12 @@
 
     iput-object v0, p0, Lcom/sdk/imp/player/Under21Mp4Viewer;->a:Lcom/sdk/imp/player/b;
 
-    .line 2
     invoke-virtual {p0}, Landroid/view/SurfaceView;->getHolder()Landroid/view/SurfaceHolder;
 
     move-result-object v0
 
     invoke-interface {v0, p0}, Landroid/view/SurfaceHolder;->addCallback(Landroid/view/SurfaceHolder$Callback;)V
 
-    .line 3
     invoke-virtual {p0}, Landroid/view/SurfaceView;->getResources()Landroid/content/res/Resources;
 
     move-result-object v0
@@ -136,7 +121,6 @@
 
     const/4 v0, 0x0
 
-    .line 4
     invoke-virtual {p0, v0}, Landroid/view/SurfaceView;->setFocusable(Z)V
 
     return-void
@@ -147,7 +131,6 @@
 .method public a(Landroid/content/Intent;)V
     .locals 1
 
-    .line 1
     iget-object p1, p0, Lcom/sdk/imp/player/Under21Mp4Viewer;->a:Lcom/sdk/imp/player/b;
 
     if-eqz p1, :cond_0
@@ -166,10 +149,8 @@
 
     const/4 p1, 0x0
 
-    .line 2
     iput-boolean p1, p0, Lcom/sdk/imp/player/Under21Mp4Viewer;->p:Z
 
-    .line 3
     invoke-virtual {p0}, Lcom/sdk/imp/player/Under21Mp4Viewer;->l()V
 
     :cond_0
@@ -185,7 +166,6 @@
 .method public c(Landroid/content/Intent;)V
     .locals 2
 
-    .line 1
     invoke-static {}, Lcom/sdk/api/a;->g()Landroid/content/Context;
 
     move-result-object p1
@@ -194,7 +174,6 @@
 
     move-result p1
 
-    .line 2
     iget-object v0, p0, Lcom/sdk/imp/player/Under21Mp4Viewer;->a:Lcom/sdk/imp/player/b;
 
     if-eqz v0, :cond_0
@@ -211,10 +190,8 @@
 
     const/4 p1, 0x1
 
-    .line 3
     iput-boolean p1, p0, Lcom/sdk/imp/player/Under21Mp4Viewer;->p:Z
 
-    .line 4
     invoke-virtual {p0}, Lcom/sdk/imp/player/Under21Mp4Viewer;->f()V
 
     :cond_0
@@ -224,12 +201,10 @@
 .method public d(Landroid/content/Intent;)V
     .locals 0
 
-    .line 1
     iget-object p1, p0, Lcom/sdk/imp/player/Under21Mp4Viewer;->g:Lcom/sdk/imp/player/Mp4Viewer$b;
 
     if-eqz p1, :cond_0
 
-    .line 2
     invoke-interface {p1}, Lcom/sdk/imp/player/Mp4Viewer$b;->a()V
 
     :cond_0
@@ -239,7 +214,6 @@
 .method public f()V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/sdk/imp/player/Under21Mp4Viewer;->a:Lcom/sdk/imp/player/b;
 
     const/4 v1, 0x4
@@ -252,7 +226,6 @@
 .method public g()V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/sdk/imp/player/Under21Mp4Viewer;->a:Lcom/sdk/imp/player/b;
 
     const/4 v1, 0x7
@@ -265,7 +238,6 @@
 .method public getCurrentPosition()I
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/sdk/imp/player/Under21Mp4Viewer;->a:Lcom/sdk/imp/player/b;
 
     invoke-virtual {v0}, Lcom/sdk/imp/player/b;->p()I
@@ -278,7 +250,6 @@
 .method public getTargetState()I
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/sdk/imp/player/Under21Mp4Viewer;->a:Lcom/sdk/imp/player/b;
 
     invoke-virtual {v0}, Lcom/sdk/imp/player/b;->q()I
@@ -291,7 +262,6 @@
 .method public h()V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/sdk/imp/player/Under21Mp4Viewer;->a:Lcom/sdk/imp/player/b;
 
     const/4 v1, 0x0
@@ -304,7 +274,6 @@
 .method public i(I)V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/sdk/imp/player/Under21Mp4Viewer;->a:Lcom/sdk/imp/player/b;
 
     invoke-virtual {v0, p1}, Lcom/sdk/imp/player/b;->t(I)V
@@ -315,7 +284,6 @@
 .method public j(Ljava/lang/String;)Z
     .locals 2
 
-    .line 1
     invoke-static {p1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v0
@@ -326,13 +294,11 @@
 
     return v1
 
-    .line 2
     :cond_0
     new-instance v0, Ljava/io/File;
 
     invoke-direct {v0, p1}, Ljava/io/File;-><init>(Ljava/lang/String;)V
 
-    .line 3
     invoke-virtual {v0}, Ljava/io/File;->exists()Z
 
     move-result v0
@@ -341,7 +307,6 @@
 
     return v1
 
-    .line 4
     :cond_1
     :try_start_0
     invoke-static {p1}, Lcom/sdk/imp/v;->t(Ljava/lang/String;)I
@@ -350,14 +315,12 @@
 
     iput v0, p0, Lcom/sdk/imp/player/Under21Mp4Viewer;->b:I
 
-    .line 5
     invoke-static {p1}, Lcom/sdk/imp/v;->q(Ljava/lang/String;)I
 
     move-result v0
 
     iput v0, p0, Lcom/sdk/imp/player/Under21Mp4Viewer;->c:I
 
-    .line 6
     iget-object v0, p0, Lcom/sdk/imp/player/Under21Mp4Viewer;->a:Lcom/sdk/imp/player/b;
 
     invoke-virtual {v0, p1}, Lcom/sdk/imp/player/b;->C(Ljava/lang/String;)V
@@ -375,7 +338,6 @@
 .method public k(FF)V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/sdk/imp/player/Under21Mp4Viewer;->a:Lcom/sdk/imp/player/b;
 
     invoke-virtual {v0, p1, p2}, Lcom/sdk/imp/player/b;->D(FF)V
@@ -386,7 +348,6 @@
 .method public l()V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/sdk/imp/player/Under21Mp4Viewer;->a:Lcom/sdk/imp/player/b;
 
     const/4 v1, 0x3
@@ -399,7 +360,6 @@
 .method public m()V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/sdk/imp/player/Under21Mp4Viewer;->a:Lcom/sdk/imp/player/b;
 
     const/4 v1, 0x6
@@ -412,17 +372,14 @@
 .method protected onAttachedToWindow()V
     .locals 1
 
-    .line 1
     invoke-super {p0}, Landroid/view/SurfaceView;->onAttachedToWindow()V
 
-    .line 2
     invoke-virtual {p0}, Landroid/view/SurfaceView;->getContext()Landroid/content/Context;
 
     move-result-object v0
 
     invoke-static {v0}, Lcom/sdk/imp/VastReceiver;->c(Landroid/content/Context;)V
 
-    .line 3
     invoke-static {p0}, Lcom/sdk/imp/VastReceiver;->a(Lcom/sdk/imp/VastReceiver$a;)V
 
     return-void
@@ -431,14 +388,11 @@
 .method protected onDetachedFromWindow()V
     .locals 1
 
-    .line 1
     :try_start_0
     invoke-super {p0}, Landroid/view/SurfaceView;->onDetachedFromWindow()V
 
-    .line 2
     invoke-static {p0}, Lcom/sdk/imp/VastReceiver;->d(Lcom/sdk/imp/VastReceiver$a;)V
 
-    .line 3
     invoke-virtual {p0}, Landroid/view/SurfaceView;->getContext()Landroid/content/Context;
 
     move-result-object v0
@@ -454,28 +408,24 @@
 .method protected onMeasure(II)V
     .locals 5
 
-    .line 1
     iget v0, p0, Lcom/sdk/imp/player/Under21Mp4Viewer;->b:I
 
     invoke-static {v0, p1}, Landroid/view/SurfaceView;->getDefaultSize(II)I
 
     move-result p1
 
-    .line 2
     iget v0, p0, Lcom/sdk/imp/player/Under21Mp4Viewer;->c:I
 
     invoke-static {v0, p2}, Landroid/view/SurfaceView;->getDefaultSize(II)I
 
     move-result p2
 
-    .line 3
     iget v0, p0, Lcom/sdk/imp/player/Under21Mp4Viewer;->d:I
 
     const/4 v1, 0x1
 
     if-ne v0, v1, :cond_1
 
-    .line 4
     iget v0, p0, Lcom/sdk/imp/player/Under21Mp4Viewer;->b:I
 
     if-lez v0, :cond_3
@@ -492,7 +442,6 @@
 
     mul-int v2, v2, p1
 
-    .line 5
     div-int/2addr v2, v0
 
     :goto_0
@@ -509,7 +458,6 @@
 
     mul-int v0, v0, p2
 
-    .line 6
     div-int/2addr v0, v2
 
     goto :goto_1
@@ -519,7 +467,6 @@
 
     if-ne v0, v2, :cond_3
 
-    .line 7
     iget v0, p0, Lcom/sdk/imp/player/Under21Mp4Viewer;->b:I
 
     if-lez v0, :cond_3
@@ -536,7 +483,6 @@
 
     mul-int v0, v0, p2
 
-    .line 8
     div-int/2addr v0, v2
 
     :goto_1
@@ -553,12 +499,10 @@
 
     mul-int v2, v2, p1
 
-    .line 9
     div-int/2addr v2, v0
 
     goto :goto_0
 
-    .line 10
     :cond_3
     :goto_2
     invoke-virtual {p0, p1, p2}, Landroid/view/SurfaceView;->setMeasuredDimension(II)V
@@ -569,12 +513,10 @@
 .method public setAutoPlay(Z)V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/sdk/imp/player/Under21Mp4Viewer;->a:Lcom/sdk/imp/player/b;
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-virtual {v0, p1}, Lcom/sdk/imp/player/b;->u(Z)V
 
     :cond_0
@@ -584,7 +526,6 @@
 .method public setBackgroundColor(I)V
     .locals 2
 
-    .line 1
     invoke-virtual {p0}, Landroid/view/SurfaceView;->getContext()Landroid/content/Context;
 
     move-result-object v0
@@ -599,7 +540,6 @@
 
     if-gt v0, v1, :cond_0
 
-    .line 2
     invoke-super {p0, p1}, Landroid/view/SurfaceView;->setBackgroundColor(I)V
 
     :cond_0
@@ -609,12 +549,10 @@
 .method public setDuration(I)V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/sdk/imp/player/Under21Mp4Viewer;->a:Lcom/sdk/imp/player/b;
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-virtual {v0, p1}, Lcom/sdk/imp/player/b;->v(I)V
 
     :cond_0
@@ -624,7 +562,6 @@
 .method public setMp4ErrorListener(Landroid/media/MediaPlayer$OnErrorListener;)V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/sdk/imp/player/Under21Mp4Viewer;->a:Lcom/sdk/imp/player/b;
 
     invoke-virtual {v0, p1}, Lcom/sdk/imp/player/b;->w(Landroid/media/MediaPlayer$OnErrorListener;)V
@@ -635,7 +572,6 @@
 .method public setMp4ProgressListener(Lcom/sdk/imp/player/a$i;)V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/sdk/imp/player/Under21Mp4Viewer;->a:Lcom/sdk/imp/player/b;
 
     invoke-virtual {v0, p1}, Lcom/sdk/imp/player/b;->x(Lcom/sdk/imp/player/a$i;)V
@@ -646,7 +582,6 @@
 .method public setMp4StateListener(Lcom/sdk/imp/player/a$m;)V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/sdk/imp/player/Under21Mp4Viewer;->a:Lcom/sdk/imp/player/b;
 
     invoke-virtual {v0, p1}, Lcom/sdk/imp/player/b;->y(Lcom/sdk/imp/player/a$m;)V
@@ -657,7 +592,6 @@
 .method public setOnSystemVolumeChangedListener(Lcom/sdk/imp/player/Mp4Viewer$b;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/sdk/imp/player/Under21Mp4Viewer;->g:Lcom/sdk/imp/player/Mp4Viewer$b;
 
     return-void
@@ -666,7 +600,6 @@
 .method public setScaleType(I)V
     .locals 0
 
-    .line 1
     iput p1, p0, Lcom/sdk/imp/player/Under21Mp4Viewer;->d:I
 
     return-void
@@ -675,7 +608,6 @@
 .method public setSupportAudio(Z)V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/sdk/imp/player/Under21Mp4Viewer;->a:Lcom/sdk/imp/player/b;
 
     invoke-virtual {v0, p1}, Lcom/sdk/imp/player/b;->z(Z)V
@@ -692,12 +624,10 @@
 .method public surfaceCreated(Landroid/view/SurfaceHolder;)V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/sdk/imp/player/Under21Mp4Viewer;->a:Lcom/sdk/imp/player/b;
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-virtual {v0, p1}, Lcom/sdk/imp/player/b;->A(Landroid/view/SurfaceHolder;)V
 
     :cond_0
@@ -707,14 +637,12 @@
 .method public surfaceDestroyed(Landroid/view/SurfaceHolder;)V
     .locals 1
 
-    .line 1
     iget-object p1, p0, Lcom/sdk/imp/player/Under21Mp4Viewer;->a:Lcom/sdk/imp/player/b;
 
     if-eqz p1, :cond_0
 
     const/4 v0, 0x0
 
-    .line 2
     invoke-virtual {p1, v0}, Lcom/sdk/imp/player/b;->A(Landroid/view/SurfaceHolder;)V
 
     :cond_0

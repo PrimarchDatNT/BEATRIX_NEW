@@ -20,10 +20,8 @@
 .method varargs constructor <init>([Lcom/google/common/hash/i;)V
     .locals 3
 
-    .line 1
     invoke-direct {p0}, Lcom/google/common/hash/c;-><init>()V
 
-    .line 2
     array-length v0, p1
 
     const/4 v1, 0x0
@@ -33,14 +31,12 @@
 
     aget-object v2, p1, v1
 
-    .line 3
     invoke-static {v2}, Lcom/google/common/base/t;->E(Ljava/lang/Object;)Ljava/lang/Object;
 
     add-int/lit8 v1, v1, 0x1
 
     goto :goto_0
 
-    .line 4
     :cond_0
     iput-object p1, p0, Lcom/google/common/hash/b;->a:[Lcom/google/common/hash/i;
 
@@ -50,7 +46,6 @@
 .method private a([Lcom/google/common/hash/j;)Lcom/google/common/hash/j;
     .locals 1
 
-    .line 1
     new-instance v0, Lcom/google/common/hash/b$a;
 
     invoke-direct {v0, p0, p1}, Lcom/google/common/hash/b$a;-><init>(Lcom/google/common/hash/b;[Lcom/google/common/hash/j;)V
@@ -66,7 +61,6 @@
 .method public newHasher()Lcom/google/common/hash/j;
     .locals 4
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/hash/b;->a:[Lcom/google/common/hash/i;
 
     array-length v0, v0
@@ -78,7 +72,6 @@
     :goto_0
     if-ge v2, v0, :cond_0
 
-    .line 2
     iget-object v3, p0, Lcom/google/common/hash/b;->a:[Lcom/google/common/hash/i;
 
     aget-object v3, v3, v2
@@ -93,7 +86,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_0
     invoke-direct {p0, v1}, Lcom/google/common/hash/b;->a([Lcom/google/common/hash/j;)Lcom/google/common/hash/j;
 
@@ -116,11 +108,9 @@
     :cond_0
     const/4 v1, 0x0
 
-    .line 4
     :goto_0
     invoke-static {v1}, Lcom/google/common/base/t;->d(Z)V
 
-    .line 5
     iget-object v1, p0, Lcom/google/common/hash/b;->a:[Lcom/google/common/hash/i;
 
     array-length v1, v1
@@ -130,7 +120,6 @@
     :goto_1
     if-ge v0, v1, :cond_1
 
-    .line 6
     iget-object v3, p0, Lcom/google/common/hash/b;->a:[Lcom/google/common/hash/i;
 
     aget-object v3, v3, v0
@@ -145,7 +134,6 @@
 
     goto :goto_1
 
-    .line 7
     :cond_1
     invoke-direct {p0, v2}, Lcom/google/common/hash/b;->a([Lcom/google/common/hash/j;)Lcom/google/common/hash/j;
 

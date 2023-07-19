@@ -22,10 +22,8 @@
 .method protected constructor <init>(Ljava/util/concurrent/ScheduledExecutorService;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/google/common/util/concurrent/d1;-><init>(Ljava/util/concurrent/ExecutorService;)V
 
-    .line 2
     iput-object p1, p0, Lcom/google/common/util/concurrent/e1;->b:Ljava/util/concurrent/ScheduledExecutorService;
 
     return-void
@@ -47,7 +45,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/util/concurrent/e1;->b:Ljava/util/concurrent/ScheduledExecutorService;
 
     invoke-virtual {p0, p1}, Lcom/google/common/util/concurrent/d1;->a(Ljava/lang/Runnable;)Ljava/lang/Runnable;
@@ -77,7 +74,6 @@
         }
     .end annotation
 
-    .line 2
     iget-object v0, p0, Lcom/google/common/util/concurrent/e1;->b:Ljava/util/concurrent/ScheduledExecutorService;
 
     invoke-virtual {p0, p1}, Lcom/google/common/util/concurrent/d1;->b(Ljava/util/concurrent/Callable;)Ljava/util/concurrent/Callable;
@@ -105,7 +101,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/util/concurrent/e1;->b:Ljava/util/concurrent/ScheduledExecutorService;
 
     invoke-virtual {p0, p1}, Lcom/google/common/util/concurrent/d1;->a(Ljava/lang/Runnable;)Ljava/lang/Runnable;
@@ -139,7 +134,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/util/concurrent/e1;->b:Ljava/util/concurrent/ScheduledExecutorService;
 
     invoke-virtual {p0, p1}, Lcom/google/common/util/concurrent/d1;->a(Ljava/lang/Runnable;)Ljava/lang/Runnable;

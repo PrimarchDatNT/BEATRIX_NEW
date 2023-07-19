@@ -60,7 +60,6 @@
 .method public bridge synthetic invoke(Ljava/lang/Object;)Ljava/lang/Object;
     .locals 0
 
-    .line 1
     check-cast p1, Lkshark/HeapObject;
 
     invoke-virtual {p0, p1}, Lkshark/AndroidObjectInspectors$VIEW$leakingObjectFilter$1;->invoke(Lkshark/HeapObject;)Z
@@ -85,7 +84,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 2
     instance-of v0, p1, Lkshark/HeapObject$HeapInstance;
 
     const/4 v1, 0x0
@@ -104,7 +102,6 @@
 
     const-string v2, "mContext"
 
-    .line 3
     invoke-virtual {p1, v0, v2}, Lkshark/HeapObject$HeapInstance;->j(Ljava/lang/String;Ljava/lang/String;)Lkshark/h;
 
     move-result-object p1
@@ -135,7 +132,6 @@
 
     invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
-    .line 4
     :cond_2
     invoke-static {p1}, Lkshark/b;->e(Lkshark/HeapObject$HeapInstance;)Lkshark/HeapObject$HeapInstance;
 
@@ -147,7 +143,6 @@
 
     const-string v2, "mDestroyed"
 
-    .line 5
     invoke-virtual {p1, v0, v2}, Lkshark/HeapObject$HeapInstance;->j(Ljava/lang/String;Ljava/lang/String;)Lkshark/h;
 
     move-result-object p1

@@ -37,10 +37,8 @@
 
     iput-object p2, p0, Lcom/commsource/studio/text/HorizontalColorPicker$a;->c:Lcom/commsource/studio/sticker/TextFragment;
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     new-instance p1, Landroid/graphics/drawable/ColorDrawable;
 
     invoke-direct {p1}, Landroid/graphics/drawable/ColorDrawable;-><init>()V
@@ -59,12 +57,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/text/HorizontalColorPicker$a;->a:Landroid/graphics/drawable/ColorDrawable;
 
     invoke-virtual {v1, p1}, Landroid/graphics/drawable/ColorDrawable;->setColor(I)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/text/HorizontalColorPicker$a;->b:Lcom/commsource/studio/text/HorizontalColorPicker;
 
     invoke-static {v1}, Lcom/commsource/studio/text/HorizontalColorPicker;->j(Lcom/commsource/studio/text/HorizontalColorPicker;)Lcom/commsource/beautyplus/f0/il;
@@ -75,7 +71,6 @@
 
     invoke-virtual {v1, p1}, Lcom/commsource/studio/doodle/ColorItemView;->setFillColor(I)V
 
-    .line 3
     invoke-static {p1}, Landroid/graphics/Color;->red(I)I
 
     move-result v1
@@ -96,7 +91,6 @@
 
     if-le p1, v2, :cond_0
 
-    .line 4
     iget-object p1, p0, Lcom/commsource/studio/text/HorizontalColorPicker$a;->b:Lcom/commsource/studio/text/HorizontalColorPicker;
 
     invoke-static {p1}, Lcom/commsource/studio/text/HorizontalColorPicker;->j(Lcom/commsource/studio/text/HorizontalColorPicker;)Lcom/commsource/beautyplus/f0/il;
@@ -111,7 +105,6 @@
 
     goto :goto_0
 
-    .line 5
     :cond_0
     iget-object p1, p0, Lcom/commsource/studio/text/HorizontalColorPicker$a;->b:Lcom/commsource/studio/text/HorizontalColorPicker;
 
@@ -125,7 +118,6 @@
 
     invoke-virtual {p1, v1}, Landroid/widget/TextView;->setTextColor(I)V
 
-    .line 6
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -139,7 +131,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/text/HorizontalColorPicker$a;->b:Lcom/commsource/studio/text/HorizontalColorPicker;
 
     invoke-static {v1}, Lcom/commsource/studio/text/HorizontalColorPicker;->k(Lcom/commsource/studio/text/HorizontalColorPicker;)Lcotlin/jvm/u/l;
@@ -156,7 +147,6 @@
 
     check-cast v1, Lcotlin/t1;
 
-    .line 2
     :cond_0
     iget-object v1, p0, Lcom/commsource/studio/text/HorizontalColorPicker$a;->b:Lcom/commsource/studio/text/HorizontalColorPicker;
 
@@ -176,7 +166,6 @@
 
     check-cast v1, Lcotlin/t1;
 
-    .line 3
     :cond_1
     iget-object v1, p0, Lcom/commsource/studio/text/HorizontalColorPicker$a;->b:Lcom/commsource/studio/text/HorizontalColorPicker;
 
@@ -190,7 +179,6 @@
 
     invoke-virtual {v1, v2}, Landroid/widget/TextView;->setTextColor(I)V
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/studio/text/HorizontalColorPicker$a;->b:Lcom/commsource/studio/text/HorizontalColorPicker;
 
     invoke-static {v1}, Lcom/commsource/studio/text/HorizontalColorPicker;->j(Lcom/commsource/studio/text/HorizontalColorPicker;)Lcom/commsource/beautyplus/f0/il;
@@ -203,19 +191,16 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/studio/doodle/ColorItemView;->setFillColor(I)V
 
-    .line 5
     iget-object v1, p0, Lcom/commsource/studio/text/HorizontalColorPicker$a;->b:Lcom/commsource/studio/text/HorizontalColorPicker;
 
     invoke-static {v1, p1}, Lcom/commsource/studio/text/HorizontalColorPicker;->y(Lcom/commsource/studio/text/HorizontalColorPicker;I)V
 
-    .line 6
     iget-object v1, p0, Lcom/commsource/studio/text/HorizontalColorPicker$a;->b:Lcom/commsource/studio/text/HorizontalColorPicker;
 
     const/4 v2, 0x1
 
     invoke-virtual {v1, p1, v2, v2}, Lcom/commsource/studio/text/HorizontalColorPicker;->M(IZZ)V
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -230,7 +215,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/text/HorizontalColorPicker$a;->a:Landroid/graphics/drawable/ColorDrawable;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

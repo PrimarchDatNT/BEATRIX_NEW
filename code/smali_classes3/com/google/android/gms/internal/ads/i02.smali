@@ -19,22 +19,18 @@
 .method private constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/16 v0, 0x64
 
-    .line 2
     iput v0, p0, Lcom/google/android/gms/internal/ads/i02;->b:I
 
     const v0, 0x7fffffff
 
-    .line 3
     iput v0, p0, Lcom/google/android/gms/internal/ads/i02;->c:I
 
     const/4 v0, 0x0
 
-    .line 4
     iput-boolean v0, p0, Lcom/google/android/gms/internal/ads/i02;->e:Z
 
     return-void
@@ -43,7 +39,6 @@
 .method synthetic constructor <init>(Lcom/google/android/gms/internal/ads/l02;)V
     .locals 0
 
-    .line 5
     invoke-direct {p0}, Lcom/google/android/gms/internal/ads/i02;-><init>()V
 
     return-void
@@ -66,7 +61,6 @@
 .method static d([BIIZ)Lcom/google/android/gms/internal/ads/i02;
     .locals 7
 
-    .line 1
     new-instance v6, Lcom/google/android/gms/internal/ads/k02;
 
     const/4 v5, 0x0
@@ -83,7 +77,6 @@
 
     invoke-direct/range {v0 .. v5}, Lcom/google/android/gms/internal/ads/k02;-><init>([BIIZLcom/google/android/gms/internal/ads/l02;)V
 
-    .line 2
     :try_start_0
     invoke-virtual {v6, p2}, Lcom/google/android/gms/internal/ads/i02;->z(I)I
     :try_end_0
@@ -94,7 +87,6 @@
     :catch_0
     move-exception p0
 
-    .line 3
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
     invoke-direct {p1, p0}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/Throwable;)V

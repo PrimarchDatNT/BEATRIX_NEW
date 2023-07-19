@@ -19,7 +19,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-direct {p0, p1, v0}, Lcom/google/android/gms/internal/firebase_remote_config/w7;-><init>(ILcom/google/android/gms/internal/firebase_remote_config/z7;)V
 
     return-void
@@ -30,7 +29,6 @@
 .method public final l()V
     .locals 3
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/android/gms/internal/firebase_remote_config/w7;->a()Z
 
     move-result v0
@@ -39,7 +37,6 @@
 
     const/4 v0, 0x0
 
-    .line 2
     :goto_0
     invoke-virtual {p0}, Lcom/google/android/gms/internal/firebase_remote_config/w7;->m()I
 
@@ -47,12 +44,10 @@
 
     if-ge v0, v1, :cond_1
 
-    .line 3
     invoke-virtual {p0, v0}, Lcom/google/android/gms/internal/firebase_remote_config/w7;->h(I)Ljava/util/Map$Entry;
 
     move-result-object v1
 
-    .line 4
     invoke-interface {v1}, Ljava/util/Map$Entry;->getKey()Ljava/lang/Object;
 
     move-result-object v2
@@ -65,14 +60,12 @@
 
     if-eqz v2, :cond_0
 
-    .line 5
     invoke-interface {v1}, Ljava/util/Map$Entry;->getValue()Ljava/lang/Object;
 
     move-result-object v2
 
     check-cast v2, Ljava/util/List;
 
-    .line 6
     invoke-static {v2}, Ljava/util/Collections;->unmodifiableList(Ljava/util/List;)Ljava/util/List;
 
     move-result-object v2
@@ -84,7 +77,6 @@
 
     goto :goto_0
 
-    .line 7
     :cond_1
     invoke-virtual {p0}, Lcom/google/android/gms/internal/firebase_remote_config/w7;->n()Ljava/lang/Iterable;
 
@@ -108,7 +100,6 @@
 
     check-cast v1, Ljava/util/Map$Entry;
 
-    .line 8
     invoke-interface {v1}, Ljava/util/Map$Entry;->getKey()Ljava/lang/Object;
 
     move-result-object v2
@@ -121,14 +112,12 @@
 
     if-eqz v2, :cond_2
 
-    .line 9
     invoke-interface {v1}, Ljava/util/Map$Entry;->getValue()Ljava/lang/Object;
 
     move-result-object v2
 
     check-cast v2, Ljava/util/List;
 
-    .line 10
     invoke-static {v2}, Ljava/util/Collections;->unmodifiableList(Ljava/util/List;)Ljava/util/List;
 
     move-result-object v2
@@ -137,7 +126,6 @@
 
     goto :goto_1
 
-    .line 11
     :cond_3
     invoke-super {p0}, Lcom/google/android/gms/internal/firebase_remote_config/w7;->l()V
 

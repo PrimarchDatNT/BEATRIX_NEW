@@ -35,7 +35,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel$m;->a:Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;
 
     iput-object p2, p0, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel$m;->b:Lcom/meitu/library/camera/o/d;
@@ -54,7 +53,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const/4 v0, 0x1
@@ -73,7 +71,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -88,7 +85,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const/4 v0, 0x0
@@ -113,7 +109,6 @@
 
     if-eqz p1, :cond_1
 
-    .line 1
     iget-object v3, p1, Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/MTFaceResult;->faces:[Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/MTFace;
 
     if-eqz v3, :cond_1
@@ -122,7 +117,6 @@
 
     if-lez v3, :cond_1
 
-    .line 2
     iget-object v3, p0, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel$m;->a:Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;
 
     invoke-virtual {v3}, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;->Z()Lcom/commsource/camera/xcamera/i;
@@ -135,7 +129,6 @@
 
     invoke-virtual {v3, v4}, Lcom/commsource/camera/xcamera/i;->t(I)V
 
-    .line 3
     iget-object v3, p1, Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/MTFaceResult;->faces:[Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/MTFace;
 
     array-length v3, v3
@@ -144,7 +137,6 @@
 
     if-le v3, v4, :cond_0
 
-    .line 4
     iget-object v3, p0, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel$m;->a:Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;
 
     invoke-virtual {v3}, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;->Z()Lcom/commsource/camera/xcamera/i;
@@ -155,7 +147,6 @@
 
     goto :goto_0
 
-    .line 5
     :cond_0
     iget-object v1, p0, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel$m;->a:Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;
 
@@ -173,7 +164,6 @@
 
     invoke-virtual {v1, v3}, Lcom/commsource/camera/xcamera/i;->v(I)V
 
-    .line 6
     :goto_0
     iget-object v1, p1, Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/MTFaceResult;->faces:[Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/MTFace;
 
@@ -181,22 +171,18 @@
 
     iget-object v1, v1, Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/MTFace;->faceBounds:Landroid/graphics/RectF;
 
-    .line 7
     iget-object v2, p1, Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/MTFaceResult;->size:Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineSize;
 
     iget v3, v2, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineSize;->width:I
 
-    .line 8
     iget v2, v2, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineSize;->height:I
 
-    .line 9
     iget-object v4, p0, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel$m;->a:Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;
 
     invoke-virtual {v4}, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;->h0()Landroid/graphics/RectF;
 
     move-result-object v4
 
-    .line 10
     iget v5, v1, Landroid/graphics/RectF;->left:F
 
     int-to-float v3, v3
@@ -209,37 +195,30 @@
 
     mul-float v6, v6, v2
 
-    .line 11
     iget v7, v1, Landroid/graphics/RectF;->right:F
 
     mul-float v3, v3, v7
 
     mul-float v7, v7, v2
 
-    .line 12
     invoke-virtual {v4, v5, v6, v3, v7}, Landroid/graphics/RectF;->set(FFFF)V
 
-    .line 13
     iget-object v2, p0, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel$m;->b:Lcom/meitu/library/camera/o/d;
 
-    .line 14
     iget-object p1, p1, Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/MTFaceResult;->faces:[Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/MTFace;
 
     array-length p1, p1
 
-    .line 15
     iget-object v3, p0, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel$m;->a:Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;
 
     invoke-virtual {v3}, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;->h0()Landroid/graphics/RectF;
 
     move-result-object v3
 
-    .line 16
     invoke-virtual {v2, p1, v1, v3}, Lcom/meitu/library/camera/o/d;->X(ILandroid/graphics/RectF;Landroid/graphics/RectF;)V
 
     goto :goto_1
 
-    .line 17
     :cond_1
     iget-object p1, p0, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel$m;->a:Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;
 
@@ -249,7 +228,6 @@
 
     invoke-virtual {p1, v2}, Lcom/commsource/camera/xcamera/i;->t(I)V
 
-    .line 18
     iget-object p1, p0, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel$m;->a:Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;
 
     invoke-virtual {p1}, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;->Z()Lcom/commsource/camera/xcamera/i;
@@ -258,14 +236,12 @@
 
     invoke-virtual {p1, v1}, Lcom/commsource/camera/xcamera/i;->v(I)V
 
-    .line 19
     iget-object p1, p0, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel$m;->b:Lcom/meitu/library/camera/o/d;
 
     const/4 v1, 0x0
 
     invoke-virtual {p1, v2, v1, v1}, Lcom/meitu/library/camera/o/d;->X(ILandroid/graphics/RectF;Landroid/graphics/RectF;)V
 
-    .line 20
     :goto_1
     iget-object p1, p0, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel$m;->a:Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;
 
@@ -289,7 +265,6 @@
 
     invoke-virtual {p1, v1}, Landroidx/lifecycle/MutableLiveData;->postValue(Ljava/lang/Object;)V
 
-    .line 21
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

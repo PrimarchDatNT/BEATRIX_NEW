@@ -78,7 +78,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-direct {p0, v0}, Lf/f/b/c/j/e;-><init>(Lf/f/b/c/j/h;)V
 
     return-void
@@ -91,10 +90,8 @@
         .end annotation
     .end param
 
-    .line 2
     invoke-direct {p0}, Landroid/graphics/drawable/Drawable;-><init>()V
 
-    .line 3
     new-instance v0, Landroid/graphics/Paint;
 
     invoke-direct {v0}, Landroid/graphics/Paint;-><init>()V
@@ -105,55 +102,46 @@
 
     new-array v1, v0, [Landroid/graphics/Matrix;
 
-    .line 4
     iput-object v1, p0, Lf/f/b/c/j/e;->b:[Landroid/graphics/Matrix;
 
     new-array v1, v0, [Landroid/graphics/Matrix;
 
-    .line 5
     iput-object v1, p0, Lf/f/b/c/j/e;->c:[Landroid/graphics/Matrix;
 
     new-array v1, v0, [Lf/f/b/c/j/g;
 
-    .line 6
     iput-object v1, p0, Lf/f/b/c/j/e;->d:[Lf/f/b/c/j/g;
 
-    .line 7
     new-instance v1, Landroid/graphics/Matrix;
 
     invoke-direct {v1}, Landroid/graphics/Matrix;-><init>()V
 
     iput-object v1, p0, Lf/f/b/c/j/e;->f:Landroid/graphics/Matrix;
 
-    .line 8
     new-instance v1, Landroid/graphics/Path;
 
     invoke-direct {v1}, Landroid/graphics/Path;-><init>()V
 
     iput-object v1, p0, Lf/f/b/c/j/e;->g:Landroid/graphics/Path;
 
-    .line 9
     new-instance v1, Landroid/graphics/PointF;
 
     invoke-direct {v1}, Landroid/graphics/PointF;-><init>()V
 
     iput-object v1, p0, Lf/f/b/c/j/e;->p:Landroid/graphics/PointF;
 
-    .line 10
     new-instance v1, Lf/f/b/c/j/g;
 
     invoke-direct {v1}, Lf/f/b/c/j/g;-><init>()V
 
     iput-object v1, p0, Lf/f/b/c/j/e;->J:Lf/f/b/c/j/g;
 
-    .line 11
     new-instance v1, Landroid/graphics/Region;
 
     invoke-direct {v1}, Landroid/graphics/Region;-><init>()V
 
     iput-object v1, p0, Lf/f/b/c/j/e;->K:Landroid/graphics/Region;
 
-    .line 12
     new-instance v1, Landroid/graphics/Region;
 
     invoke-direct {v1}, Landroid/graphics/Region;-><init>()V
@@ -164,80 +152,63 @@
 
     new-array v2, v1, [F
 
-    .line 13
     iput-object v2, p0, Lf/f/b/c/j/e;->M:[F
 
     new-array v1, v1, [F
 
-    .line 14
     iput-object v1, p0, Lf/f/b/c/j/e;->N:[F
 
     const/4 v1, 0x0
 
-    .line 15
     iput-object v1, p0, Lf/f/b/c/j/e;->O:Lf/f/b/c/j/h;
 
     const/4 v2, 0x0
 
-    .line 16
     iput-boolean v2, p0, Lf/f/b/c/j/e;->P:Z
 
-    .line 17
     iput-boolean v2, p0, Lf/f/b/c/j/e;->Q:Z
 
     const/high16 v3, 0x3f800000    # 1.0f
 
-    .line 18
     iput v3, p0, Lf/f/b/c/j/e;->R:F
 
     const/high16 v4, -0x1000000
 
-    .line 19
     iput v4, p0, Lf/f/b/c/j/e;->S:I
 
     const/4 v4, 0x5
 
-    .line 20
     iput v4, p0, Lf/f/b/c/j/e;->T:I
 
     const/16 v4, 0xa
 
-    .line 21
     iput v4, p0, Lf/f/b/c/j/e;->U:I
 
     const/16 v4, 0xff
 
-    .line 22
     iput v4, p0, Lf/f/b/c/j/e;->V:I
 
-    .line 23
     iput v3, p0, Lf/f/b/c/j/e;->W:F
 
     const/4 v3, 0x0
 
-    .line 24
     iput v3, p0, Lf/f/b/c/j/e;->X:F
 
-    .line 25
     sget-object v3, Landroid/graphics/Paint$Style;->FILL_AND_STROKE:Landroid/graphics/Paint$Style;
 
     iput-object v3, p0, Lf/f/b/c/j/e;->Y:Landroid/graphics/Paint$Style;
 
-    .line 26
     sget-object v3, Landroid/graphics/PorterDuff$Mode;->SRC_IN:Landroid/graphics/PorterDuff$Mode;
 
     iput-object v3, p0, Lf/f/b/c/j/e;->a0:Landroid/graphics/PorterDuff$Mode;
 
-    .line 27
     iput-object v1, p0, Lf/f/b/c/j/e;->b0:Landroid/content/res/ColorStateList;
 
-    .line 28
     iput-object p1, p0, Lf/f/b/c/j/e;->O:Lf/f/b/c/j/h;
 
     :goto_0
     if-ge v2, v0, :cond_0
 
-    .line 29
     iget-object p1, p0, Lf/f/b/c/j/e;->b:[Landroid/graphics/Matrix;
 
     new-instance v1, Landroid/graphics/Matrix;
@@ -246,7 +217,6 @@
 
     aput-object v1, p1, v2
 
-    .line 30
     iget-object p1, p0, Lf/f/b/c/j/e;->c:[Landroid/graphics/Matrix;
 
     new-instance v1, Landroid/graphics/Matrix;
@@ -255,7 +225,6 @@
 
     aput-object v1, p1, v2
 
-    .line 31
     iget-object p1, p0, Lf/f/b/c/j/e;->d:[Lf/f/b/c/j/g;
 
     new-instance v1, Lf/f/b/c/j/g;
@@ -275,7 +244,6 @@
 .method private G()V
     .locals 3
 
-    .line 1
     iget-object v0, p0, Lf/f/b/c/j/e;->b0:Landroid/content/res/ColorStateList;
 
     if-eqz v0, :cond_2
@@ -286,7 +254,6 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     invoke-virtual {p0}, Landroid/graphics/drawable/Drawable;->getState()[I
 
@@ -298,7 +265,6 @@
 
     move-result v0
 
-    .line 3
     new-instance v1, Landroid/graphics/PorterDuffColorFilter;
 
     iget-object v2, p0, Lf/f/b/c/j/e;->a0:Landroid/graphics/PorterDuff$Mode;
@@ -307,12 +273,10 @@
 
     iput-object v1, p0, Lf/f/b/c/j/e;->Z:Landroid/graphics/PorterDuffColorFilter;
 
-    .line 4
     iget-boolean v1, p0, Lf/f/b/c/j/e;->Q:Z
 
     if-eqz v1, :cond_1
 
-    .line 5
     iput v0, p0, Lf/f/b/c/j/e;->S:I
 
     :cond_1
@@ -322,7 +286,6 @@
     :goto_0
     const/4 v0, 0x0
 
-    .line 6
     iput-object v0, p0, Lf/f/b/c/j/e;->Z:Landroid/graphics/PorterDuffColorFilter;
 
     return-void
@@ -335,45 +298,36 @@
 
     add-int/lit8 v0, v0, 0x4
 
-    .line 1
     rem-int/lit8 v0, v0, 0x4
 
     iget-object v1, p0, Lf/f/b/c/j/e;->p:Landroid/graphics/PointF;
 
     invoke-direct {p0, v0, p2, p3, v1}, Lf/f/b/c/j/e;->e(IIILandroid/graphics/PointF;)V
 
-    .line 2
     iget-object v0, p0, Lf/f/b/c/j/e;->p:Landroid/graphics/PointF;
 
     iget v1, v0, Landroid/graphics/PointF;->x:F
 
-    .line 3
     iget v2, v0, Landroid/graphics/PointF;->y:F
 
     add-int/lit8 v3, p1, 0x1
 
-    .line 4
     rem-int/lit8 v3, v3, 0x4
 
     invoke-direct {p0, v3, p2, p3, v0}, Lf/f/b/c/j/e;->e(IIILandroid/graphics/PointF;)V
 
-    .line 5
     iget-object v0, p0, Lf/f/b/c/j/e;->p:Landroid/graphics/PointF;
 
     iget v3, v0, Landroid/graphics/PointF;->x:F
 
-    .line 6
     iget v4, v0, Landroid/graphics/PointF;->y:F
 
-    .line 7
     invoke-direct {p0, p1, p2, p3, v0}, Lf/f/b/c/j/e;->e(IIILandroid/graphics/PointF;)V
 
-    .line 8
     iget-object p1, p0, Lf/f/b/c/j/e;->p:Landroid/graphics/PointF;
 
     iget p2, p1, Landroid/graphics/PointF;->x:F
 
-    .line 9
     iget p1, p1, Landroid/graphics/PointF;->y:F
 
     sub-float/2addr v1, p2
@@ -388,7 +342,6 @@
 
     float-to-double v0, v1
 
-    .line 10
     invoke-static {p1, p2, v0, v1}, Ljava/lang/Math;->atan2(DD)D
 
     move-result-wide p1
@@ -399,7 +352,6 @@
 
     float-to-double v0, v3
 
-    .line 11
     invoke-static {p2, p3, v0, v1}, Ljava/lang/Math;->atan2(DD)D
 
     move-result-wide p2
@@ -431,31 +383,24 @@
 
     add-int/lit8 v0, p1, 0x1
 
-    .line 1
     rem-int/lit8 v0, v0, 0x4
 
-    .line 2
     iget-object v1, p0, Lf/f/b/c/j/e;->p:Landroid/graphics/PointF;
 
     invoke-direct {p0, p1, p2, p3, v1}, Lf/f/b/c/j/e;->e(IIILandroid/graphics/PointF;)V
 
-    .line 3
     iget-object p1, p0, Lf/f/b/c/j/e;->p:Landroid/graphics/PointF;
 
     iget v1, p1, Landroid/graphics/PointF;->x:F
 
-    .line 4
     iget v2, p1, Landroid/graphics/PointF;->y:F
 
-    .line 5
     invoke-direct {p0, v0, p2, p3, p1}, Lf/f/b/c/j/e;->e(IIILandroid/graphics/PointF;)V
 
-    .line 6
     iget-object p1, p0, Lf/f/b/c/j/e;->p:Landroid/graphics/PointF;
 
     iget p2, p1, Landroid/graphics/PointF;->x:F
 
-    .line 7
     iget p1, p1, Landroid/graphics/PointF;->y:F
 
     sub-float/2addr p2, v1
@@ -466,7 +411,6 @@
 
     float-to-double p1, p2
 
-    .line 8
     invoke-static {v0, v1, p1, p2}, Ljava/lang/Math;->atan2(DD)D
 
     move-result-wide p1
@@ -479,7 +423,6 @@
 .method private c(ILandroid/graphics/Path;)V
     .locals 4
 
-    .line 1
     iget-object v0, p0, Lf/f/b/c/j/e;->M:[F
 
     iget-object v1, p0, Lf/f/b/c/j/e;->d:[Lf/f/b/c/j/g;
@@ -492,7 +435,6 @@
 
     aput v2, v0, v3
 
-    .line 2
     aget-object v1, v1, p1
 
     iget v1, v1, Lf/f/b/c/j/g;->b:F
@@ -501,7 +443,6 @@
 
     aput v1, v0, v2
 
-    .line 3
     iget-object v1, p0, Lf/f/b/c/j/e;->b:[Landroid/graphics/Matrix;
 
     aget-object v1, v1, p1
@@ -510,7 +451,6 @@
 
     if-nez p1, :cond_0
 
-    .line 4
     iget-object v0, p0, Lf/f/b/c/j/e;->M:[F
 
     aget v1, v0, v3
@@ -521,7 +461,6 @@
 
     goto :goto_0
 
-    .line 5
     :cond_0
     iget-object v0, p0, Lf/f/b/c/j/e;->M:[F
 
@@ -531,7 +470,6 @@
 
     invoke-virtual {p2, v1, v0}, Landroid/graphics/Path;->lineTo(FF)V
 
-    .line 6
     :goto_0
     iget-object v0, p0, Lf/f/b/c/j/e;->d:[Lf/f/b/c/j/g;
 
@@ -551,10 +489,8 @@
 
     add-int/lit8 v0, p1, 0x1
 
-    .line 1
     rem-int/lit8 v0, v0, 0x4
 
-    .line 2
     iget-object v1, p0, Lf/f/b/c/j/e;->M:[F
 
     iget-object v2, p0, Lf/f/b/c/j/e;->d:[Lf/f/b/c/j/g;
@@ -567,7 +503,6 @@
 
     aput v3, v1, v4
 
-    .line 3
     aget-object v2, v2, p1
 
     iget v2, v2, Lf/f/b/c/j/g;->d:F
@@ -576,14 +511,12 @@
 
     aput v2, v1, v3
 
-    .line 4
     iget-object v2, p0, Lf/f/b/c/j/e;->b:[Landroid/graphics/Matrix;
 
     aget-object v2, v2, p1
 
     invoke-virtual {v2, v1}, Landroid/graphics/Matrix;->mapPoints([F)V
 
-    .line 5
     iget-object v1, p0, Lf/f/b/c/j/e;->N:[F
 
     iget-object v2, p0, Lf/f/b/c/j/e;->d:[Lf/f/b/c/j/g;
@@ -594,21 +527,18 @@
 
     aput v5, v1, v4
 
-    .line 6
     aget-object v2, v2, v0
 
     iget v2, v2, Lf/f/b/c/j/g;->b:F
 
     aput v2, v1, v3
 
-    .line 7
     iget-object v2, p0, Lf/f/b/c/j/e;->b:[Landroid/graphics/Matrix;
 
     aget-object v0, v2, v0
 
     invoke-virtual {v0, v1}, Landroid/graphics/Matrix;->mapPoints([F)V
 
-    .line 8
     iget-object v0, p0, Lf/f/b/c/j/e;->M:[F
 
     aget v1, v0, v4
@@ -635,14 +565,12 @@
 
     double-to-float v0, v0
 
-    .line 9
     iget-object v1, p0, Lf/f/b/c/j/e;->J:Lf/f/b/c/j/g;
 
     const/4 v2, 0x0
 
     invoke-virtual {v1, v2, v2}, Lf/f/b/c/j/g;->e(FF)V
 
-    .line 10
     invoke-direct {p0, p1}, Lf/f/b/c/j/e;->g(I)Lf/f/b/c/j/c;
 
     move-result-object v1
@@ -653,7 +581,6 @@
 
     invoke-virtual {v1, v0, v2, v3}, Lf/f/b/c/j/c;->a(FFLf/f/b/c/j/g;)V
 
-    .line 11
     iget-object v0, p0, Lf/f/b/c/j/e;->J:Lf/f/b/c/j/g;
 
     iget-object v1, p0, Lf/f/b/c/j/e;->c:[Landroid/graphics/Matrix;
@@ -682,7 +609,6 @@
 
     if-eq p1, p2, :cond_0
 
-    .line 1
     invoke-virtual {p4, v1, v1}, Landroid/graphics/PointF;->set(FF)V
 
     goto :goto_0
@@ -690,7 +616,6 @@
     :cond_0
     int-to-float p1, p3
 
-    .line 2
     invoke-virtual {p4, v1, p1}, Landroid/graphics/PointF;->set(FF)V
 
     goto :goto_0
@@ -700,7 +625,6 @@
 
     int-to-float p2, p3
 
-    .line 3
     invoke-virtual {p4, p1, p2}, Landroid/graphics/PointF;->set(FF)V
 
     goto :goto_0
@@ -708,7 +632,6 @@
     :cond_2
     int-to-float p1, p2
 
-    .line 4
     invoke-virtual {p4, p1, v1}, Landroid/graphics/PointF;->set(FF)V
 
     :goto_0
@@ -730,7 +653,6 @@
 
     if-eq p1, v0, :cond_0
 
-    .line 1
     iget-object p1, p0, Lf/f/b/c/j/e;->O:Lf/f/b/c/j/h;
 
     invoke-virtual {p1}, Lf/f/b/c/j/h;->g()Lf/f/b/c/j/a;
@@ -739,7 +661,6 @@
 
     return-object p1
 
-    .line 2
     :cond_0
     iget-object p1, p0, Lf/f/b/c/j/e;->O:Lf/f/b/c/j/h;
 
@@ -749,7 +670,6 @@
 
     return-object p1
 
-    .line 3
     :cond_1
     iget-object p1, p0, Lf/f/b/c/j/e;->O:Lf/f/b/c/j/h;
 
@@ -759,7 +679,6 @@
 
     return-object p1
 
-    .line 4
     :cond_2
     iget-object p1, p0, Lf/f/b/c/j/e;->O:Lf/f/b/c/j/h;
 
@@ -785,7 +704,6 @@
 
     if-eq p1, v0, :cond_0
 
-    .line 1
     iget-object p1, p0, Lf/f/b/c/j/e;->O:Lf/f/b/c/j/h;
 
     invoke-virtual {p1}, Lf/f/b/c/j/h;->f()Lf/f/b/c/j/c;
@@ -794,7 +712,6 @@
 
     return-object p1
 
-    .line 2
     :cond_0
     iget-object p1, p0, Lf/f/b/c/j/e;->O:Lf/f/b/c/j/h;
 
@@ -804,7 +721,6 @@
 
     return-object p1
 
-    .line 3
     :cond_1
     iget-object p1, p0, Lf/f/b/c/j/e;->O:Lf/f/b/c/j/h;
 
@@ -814,7 +730,6 @@
 
     return-object p1
 
-    .line 4
     :cond_2
     iget-object p1, p0, Lf/f/b/c/j/e;->O:Lf/f/b/c/j/h;
 
@@ -828,10 +743,8 @@
 .method private j(IILandroid/graphics/Path;)V
     .locals 2
 
-    .line 1
     invoke-virtual {p0, p1, p2, p3}, Lf/f/b/c/j/e;->k(IILandroid/graphics/Path;)V
 
-    .line 2
     iget v0, p0, Lf/f/b/c/j/e;->W:F
 
     const/high16 v1, 0x3f800000    # 1.0f
@@ -842,13 +755,11 @@
 
     return-void
 
-    .line 3
     :cond_0
     iget-object v0, p0, Lf/f/b/c/j/e;->f:Landroid/graphics/Matrix;
 
     invoke-virtual {v0}, Landroid/graphics/Matrix;->reset()V
 
-    .line 4
     iget-object v0, p0, Lf/f/b/c/j/e;->f:Landroid/graphics/Matrix;
 
     iget v1, p0, Lf/f/b/c/j/e;->W:F
@@ -863,7 +774,6 @@
 
     invoke-virtual {v0, v1, v1, p1, p2}, Landroid/graphics/Matrix;->setScale(FFFF)V
 
-    .line 5
     iget-object p1, p0, Lf/f/b/c/j/e;->f:Landroid/graphics/Matrix;
 
     invoke-virtual {p3, p1}, Landroid/graphics/Path;->transform(Landroid/graphics/Matrix;)V
@@ -888,17 +798,14 @@
 .method private u(III)V
     .locals 4
 
-    .line 1
     iget-object v0, p0, Lf/f/b/c/j/e;->p:Landroid/graphics/PointF;
 
     invoke-direct {p0, p1, p2, p3, v0}, Lf/f/b/c/j/e;->e(IIILandroid/graphics/PointF;)V
 
-    .line 2
     invoke-direct {p0, p1, p2, p3}, Lf/f/b/c/j/e;->a(III)F
 
     move-result v0
 
-    .line 3
     invoke-direct {p0, p1}, Lf/f/b/c/j/e;->f(I)Lf/f/b/c/j/a;
 
     move-result-object v1
@@ -915,7 +822,6 @@
 
     add-int/lit8 v0, v0, 0x4
 
-    .line 4
     rem-int/lit8 v0, v0, 0x4
 
     invoke-direct {p0, v0, p2, p3}, Lf/f/b/c/j/e;->b(III)F
@@ -926,14 +832,12 @@
 
     add-float/2addr p2, p3
 
-    .line 5
     iget-object p3, p0, Lf/f/b/c/j/e;->b:[Landroid/graphics/Matrix;
 
     aget-object p3, p3, p1
 
     invoke-virtual {p3}, Landroid/graphics/Matrix;->reset()V
 
-    .line 6
     iget-object p3, p0, Lf/f/b/c/j/e;->b:[Landroid/graphics/Matrix;
 
     aget-object p3, p3, p1
@@ -946,7 +850,6 @@
 
     invoke-virtual {p3, v1, v0}, Landroid/graphics/Matrix;->setTranslate(FF)V
 
-    .line 7
     iget-object p3, p0, Lf/f/b/c/j/e;->b:[Landroid/graphics/Matrix;
 
     aget-object p1, p3, p1
@@ -967,7 +870,6 @@
 .method private v(III)V
     .locals 4
 
-    .line 1
     iget-object v0, p0, Lf/f/b/c/j/e;->M:[F
 
     iget-object v1, p0, Lf/f/b/c/j/e;->d:[Lf/f/b/c/j/g;
@@ -980,7 +882,6 @@
 
     aput v2, v0, v3
 
-    .line 2
     aget-object v1, v1, p1
 
     iget v1, v1, Lf/f/b/c/j/g;->d:F
@@ -989,26 +890,22 @@
 
     aput v1, v0, v2
 
-    .line 3
     iget-object v1, p0, Lf/f/b/c/j/e;->b:[Landroid/graphics/Matrix;
 
     aget-object v1, v1, p1
 
     invoke-virtual {v1, v0}, Landroid/graphics/Matrix;->mapPoints([F)V
 
-    .line 4
     invoke-direct {p0, p1, p2, p3}, Lf/f/b/c/j/e;->b(III)F
 
     move-result p2
 
-    .line 5
     iget-object p3, p0, Lf/f/b/c/j/e;->c:[Landroid/graphics/Matrix;
 
     aget-object p3, p3, p1
 
     invoke-virtual {p3}, Landroid/graphics/Matrix;->reset()V
 
-    .line 6
     iget-object p3, p0, Lf/f/b/c/j/e;->c:[Landroid/graphics/Matrix;
 
     aget-object p3, p3, p1
@@ -1021,7 +918,6 @@
 
     invoke-virtual {p3, v1, v0}, Landroid/graphics/Matrix;->setTranslate(FF)V
 
-    .line 7
     iget-object p3, p0, Lf/f/b/c/j/e;->c:[Landroid/graphics/Matrix;
 
     aget-object p1, p3, p1
@@ -1044,10 +940,8 @@
 .method public A(I)V
     .locals 0
 
-    .line 1
     iput p1, p0, Lf/f/b/c/j/e;->T:I
 
-    .line 2
     invoke-virtual {p0}, Landroid/graphics/drawable/Drawable;->invalidateSelf()V
 
     return-void
@@ -1056,10 +950,8 @@
 .method public B(Z)V
     .locals 0
 
-    .line 1
     iput-boolean p1, p0, Lf/f/b/c/j/e;->P:Z
 
-    .line 2
     invoke-virtual {p0}, Landroid/graphics/drawable/Drawable;->invalidateSelf()V
 
     return-void
@@ -1068,10 +960,8 @@
 .method public C(I)V
     .locals 0
 
-    .line 1
     iput p1, p0, Lf/f/b/c/j/e;->U:I
 
-    .line 2
     invoke-virtual {p0}, Landroid/graphics/drawable/Drawable;->invalidateSelf()V
 
     return-void
@@ -1080,10 +970,8 @@
 .method public D(Lf/f/b/c/j/h;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lf/f/b/c/j/e;->O:Lf/f/b/c/j/h;
 
-    .line 2
     invoke-virtual {p0}, Landroid/graphics/drawable/Drawable;->invalidateSelf()V
 
     return-void
@@ -1092,10 +980,8 @@
 .method public E(F)V
     .locals 0
 
-    .line 1
     iput p1, p0, Lf/f/b/c/j/e;->X:F
 
-    .line 2
     invoke-virtual {p0}, Landroid/graphics/drawable/Drawable;->invalidateSelf()V
 
     return-void
@@ -1104,10 +990,8 @@
 .method public F(Z)V
     .locals 0
 
-    .line 1
     iput-boolean p1, p0, Lf/f/b/c/j/e;->Q:Z
 
-    .line 2
     invoke-virtual {p0}, Landroid/graphics/drawable/Drawable;->invalidateSelf()V
 
     return-void
@@ -1116,21 +1000,18 @@
 .method public draw(Landroid/graphics/Canvas;)V
     .locals 9
 
-    .line 1
     iget-object v0, p0, Lf/f/b/c/j/e;->a:Landroid/graphics/Paint;
 
     iget-object v1, p0, Lf/f/b/c/j/e;->Z:Landroid/graphics/PorterDuffColorFilter;
 
     invoke-virtual {v0, v1}, Landroid/graphics/Paint;->setColorFilter(Landroid/graphics/ColorFilter;)Landroid/graphics/ColorFilter;
 
-    .line 2
     iget-object v0, p0, Lf/f/b/c/j/e;->a:Landroid/graphics/Paint;
 
     invoke-virtual {v0}, Landroid/graphics/Paint;->getAlpha()I
 
     move-result v0
 
-    .line 3
     iget-object v1, p0, Lf/f/b/c/j/e;->a:Landroid/graphics/Paint;
 
     iget v2, p0, Lf/f/b/c/j/e;->V:I
@@ -1141,21 +1022,18 @@
 
     invoke-virtual {v1, v2}, Landroid/graphics/Paint;->setAlpha(I)V
 
-    .line 4
     iget-object v1, p0, Lf/f/b/c/j/e;->a:Landroid/graphics/Paint;
 
     iget v2, p0, Lf/f/b/c/j/e;->X:F
 
     invoke-virtual {v1, v2}, Landroid/graphics/Paint;->setStrokeWidth(F)V
 
-    .line 5
     iget-object v1, p0, Lf/f/b/c/j/e;->a:Landroid/graphics/Paint;
 
     iget-object v2, p0, Lf/f/b/c/j/e;->Y:Landroid/graphics/Paint$Style;
 
     invoke-virtual {v1, v2}, Landroid/graphics/Paint;->setStyle(Landroid/graphics/Paint$Style;)V
 
-    .line 6
     iget v1, p0, Lf/f/b/c/j/e;->T:I
 
     if-lez v1, :cond_0
@@ -1164,7 +1042,6 @@
 
     if-eqz v2, :cond_0
 
-    .line 7
     iget-object v2, p0, Lf/f/b/c/j/e;->a:Landroid/graphics/Paint;
 
     iget v3, p0, Lf/f/b/c/j/e;->U:I
@@ -1179,13 +1056,11 @@
 
     invoke-virtual {v2, v3, v4, v1, v5}, Landroid/graphics/Paint;->setShadowLayer(FFFI)V
 
-    .line 8
     :cond_0
     iget-object v1, p0, Lf/f/b/c/j/e;->O:Lf/f/b/c/j/h;
 
     if-eqz v1, :cond_1
 
-    .line 9
     invoke-virtual {p1}, Landroid/graphics/Canvas;->getWidth()I
 
     move-result v1
@@ -1198,7 +1073,6 @@
 
     invoke-direct {p0, v1, v2, v3}, Lf/f/b/c/j/e;->j(IILandroid/graphics/Path;)V
 
-    .line 10
     iget-object v1, p0, Lf/f/b/c/j/e;->g:Landroid/graphics/Path;
 
     iget-object v2, p0, Lf/f/b/c/j/e;->a:Landroid/graphics/Paint;
@@ -1212,7 +1086,6 @@
 
     const/4 v5, 0x0
 
-    .line 11
     invoke-virtual {p1}, Landroid/graphics/Canvas;->getWidth()I
 
     move-result v1
@@ -1231,7 +1104,6 @@
 
     invoke-virtual/range {v3 .. v8}, Landroid/graphics/Canvas;->drawRect(FFFFLandroid/graphics/Paint;)V
 
-    .line 12
     :goto_0
     iget-object p1, p0, Lf/f/b/c/j/e;->a:Landroid/graphics/Paint;
 
@@ -1251,17 +1123,14 @@
 .method public getTransparentRegion()Landroid/graphics/Region;
     .locals 3
 
-    .line 1
     invoke-virtual {p0}, Landroid/graphics/drawable/Drawable;->getBounds()Landroid/graphics/Rect;
 
     move-result-object v0
 
-    .line 2
     iget-object v1, p0, Lf/f/b/c/j/e;->K:Landroid/graphics/Region;
 
     invoke-virtual {v1, v0}, Landroid/graphics/Region;->set(Landroid/graphics/Rect;)Z
 
-    .line 3
     invoke-virtual {v0}, Landroid/graphics/Rect;->width()I
 
     move-result v1
@@ -1274,7 +1143,6 @@
 
     invoke-direct {p0, v1, v0, v2}, Lf/f/b/c/j/e;->j(IILandroid/graphics/Path;)V
 
-    .line 4
     iget-object v0, p0, Lf/f/b/c/j/e;->L:Landroid/graphics/Region;
 
     iget-object v1, p0, Lf/f/b/c/j/e;->g:Landroid/graphics/Path;
@@ -1283,7 +1151,6 @@
 
     invoke-virtual {v0, v1, v2}, Landroid/graphics/Region;->setPath(Landroid/graphics/Path;Landroid/graphics/Region;)Z
 
-    .line 5
     iget-object v0, p0, Lf/f/b/c/j/e;->K:Landroid/graphics/Region;
 
     iget-object v1, p0, Lf/f/b/c/j/e;->L:Landroid/graphics/Region;
@@ -1292,7 +1159,6 @@
 
     invoke-virtual {v0, v1, v2}, Landroid/graphics/Region;->op(Landroid/graphics/Region;Landroid/graphics/Region$Op;)Z
 
-    .line 6
     iget-object v0, p0, Lf/f/b/c/j/e;->K:Landroid/graphics/Region;
 
     return-object v0
@@ -1301,7 +1167,6 @@
 .method public h()F
     .locals 1
 
-    .line 1
     iget v0, p0, Lf/f/b/c/j/e;->R:F
 
     return v0
@@ -1310,7 +1175,6 @@
 .method public i()Landroid/graphics/Paint$Style;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lf/f/b/c/j/e;->Y:Landroid/graphics/Paint$Style;
 
     return-object v0
@@ -1319,10 +1183,8 @@
 .method public k(IILandroid/graphics/Path;)V
     .locals 3
 
-    .line 1
     invoke-virtual {p3}, Landroid/graphics/Path;->rewind()V
 
-    .line 2
     iget-object v0, p0, Lf/f/b/c/j/e;->O:Lf/f/b/c/j/h;
 
     if-nez v0, :cond_0
@@ -1339,10 +1201,8 @@
 
     if-ge v1, v2, :cond_1
 
-    .line 3
     invoke-direct {p0, v1, p1, p2}, Lf/f/b/c/j/e;->u(III)V
 
-    .line 4
     invoke-direct {p0, v1, p1, p2}, Lf/f/b/c/j/e;->v(III)V
 
     add-int/lit8 v1, v1, 0x1
@@ -1353,17 +1213,14 @@
     :goto_1
     if-ge v0, v2, :cond_2
 
-    .line 5
     invoke-direct {p0, v0, p3}, Lf/f/b/c/j/e;->c(ILandroid/graphics/Path;)V
 
-    .line 6
     invoke-direct {p0, v0, p3}, Lf/f/b/c/j/e;->d(ILandroid/graphics/Path;)V
 
     add-int/lit8 v0, v0, 0x1
 
     goto :goto_1
 
-    .line 7
     :cond_2
     invoke-virtual {p3}, Landroid/graphics/Path;->close()V
 
@@ -1373,7 +1230,6 @@
 .method public l()F
     .locals 1
 
-    .line 1
     iget v0, p0, Lf/f/b/c/j/e;->W:F
 
     return v0
@@ -1382,7 +1238,6 @@
 .method public m()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lf/f/b/c/j/e;->T:I
 
     return v0
@@ -1391,7 +1246,6 @@
 .method public n()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lf/f/b/c/j/e;->U:I
 
     return v0
@@ -1402,7 +1256,6 @@
     .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lf/f/b/c/j/e;->O:Lf/f/b/c/j/h;
 
     return-object v0
@@ -1411,7 +1264,6 @@
 .method public p()F
     .locals 1
 
-    .line 1
     iget v0, p0, Lf/f/b/c/j/e;->X:F
 
     return v0
@@ -1420,7 +1272,6 @@
 .method public q()Landroid/content/res/ColorStateList;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lf/f/b/c/j/e;->b0:Landroid/content/res/ColorStateList;
 
     return-object v0
@@ -1429,7 +1280,6 @@
 .method public r(II)Z
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lf/f/b/c/j/e;->getTransparentRegion()Landroid/graphics/Region;
 
     move-result-object v0
@@ -1444,7 +1294,6 @@
 .method public s()Z
     .locals 1
 
-    .line 1
     iget-boolean v0, p0, Lf/f/b/c/j/e;->P:Z
 
     return v0
@@ -1459,10 +1308,8 @@
         .end annotation
     .end param
 
-    .line 1
     iput p1, p0, Lf/f/b/c/j/e;->V:I
 
-    .line 2
     invoke-virtual {p0}, Landroid/graphics/drawable/Drawable;->invalidateSelf()V
 
     return-void
@@ -1475,12 +1322,10 @@
         .end annotation
     .end param
 
-    .line 1
     iget-object v0, p0, Lf/f/b/c/j/e;->a:Landroid/graphics/Paint;
 
     invoke-virtual {v0, p1}, Landroid/graphics/Paint;->setColorFilter(Landroid/graphics/ColorFilter;)Landroid/graphics/ColorFilter;
 
-    .line 2
     invoke-virtual {p0}, Landroid/graphics/drawable/Drawable;->invalidateSelf()V
 
     return-void
@@ -1493,7 +1338,6 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-static {p1}, Landroid/content/res/ColorStateList;->valueOf(I)Landroid/content/res/ColorStateList;
 
     move-result-object p1
@@ -1506,13 +1350,10 @@
 .method public setTintList(Landroid/content/res/ColorStateList;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lf/f/b/c/j/e;->b0:Landroid/content/res/ColorStateList;
 
-    .line 2
     invoke-direct {p0}, Lf/f/b/c/j/e;->G()V
 
-    .line 3
     invoke-virtual {p0}, Landroid/graphics/drawable/Drawable;->invalidateSelf()V
 
     return-void
@@ -1521,13 +1362,10 @@
 .method public setTintMode(Landroid/graphics/PorterDuff$Mode;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lf/f/b/c/j/e;->a0:Landroid/graphics/PorterDuff$Mode;
 
-    .line 2
     invoke-direct {p0}, Lf/f/b/c/j/e;->G()V
 
-    .line 3
     invoke-virtual {p0}, Landroid/graphics/drawable/Drawable;->invalidateSelf()V
 
     return-void
@@ -1536,10 +1374,8 @@
 .method public w(F)V
     .locals 0
 
-    .line 1
     iput p1, p0, Lf/f/b/c/j/e;->R:F
 
-    .line 2
     invoke-virtual {p0}, Landroid/graphics/drawable/Drawable;->invalidateSelf()V
 
     return-void
@@ -1548,10 +1384,8 @@
 .method public x(Landroid/graphics/Paint$Style;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lf/f/b/c/j/e;->Y:Landroid/graphics/Paint$Style;
 
-    .line 2
     invoke-virtual {p0}, Landroid/graphics/drawable/Drawable;->invalidateSelf()V
 
     return-void
@@ -1560,10 +1394,8 @@
 .method public y(F)V
     .locals 0
 
-    .line 1
     iput p1, p0, Lf/f/b/c/j/e;->W:F
 
-    .line 2
     invoke-virtual {p0}, Landroid/graphics/drawable/Drawable;->invalidateSelf()V
 
     return-void
@@ -1572,15 +1404,12 @@
 .method public z(I)V
     .locals 0
 
-    .line 1
     iput p1, p0, Lf/f/b/c/j/e;->S:I
 
     const/4 p1, 0x0
 
-    .line 2
     iput-boolean p1, p0, Lf/f/b/c/j/e;->Q:Z
 
-    .line 3
     invoke-virtual {p0}, Landroid/graphics/drawable/Drawable;->invalidateSelf()V
 
     return-void

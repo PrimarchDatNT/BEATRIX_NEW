@@ -30,7 +30,6 @@
 
     if-eqz p5, :cond_1
 
-    .line 1
     invoke-interface {p0}, Ljava/util/List;->size()I
 
     move-result p3
@@ -44,7 +43,6 @@
 
     invoke-static {p4, p5}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 2
     new-instance p5, Lcotlin/collections/CollectionsKt__CollectionsKt$binarySearchBy$1;
 
     invoke-direct {p5, p4, p1}, Lcotlin/collections/CollectionsKt__CollectionsKt$binarySearchBy$1;-><init>(Lcotlin/jvm/u/l;Ljava/lang/Comparable;)V
@@ -88,7 +86,6 @@
         version = "1.3"
     .end annotation
 
-    .line 1
     invoke-static {p0}, Lcotlin/collections/t;->j(I)Ljava/util/List;
 
     move-result-object p0
@@ -134,7 +131,6 @@
         version = "1.3"
     .end annotation
 
-    .line 1
     invoke-static {}, Lcotlin/collections/t;->i()Ljava/util/List;
 
     move-result-object v0
@@ -165,7 +161,6 @@
     .annotation build Lcotlin/internal/f;
     .end annotation
 
-    .line 1
     invoke-interface {p0, p1}, Ljava/util/Collection;->containsAll(Ljava/util/Collection;)Z
 
     move-result p0
@@ -188,7 +183,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     sget-object v0, Lcotlin/collections/EmptyList;->INSTANCE:Lcotlin/collections/EmptyList;
 
     return-object v0
@@ -216,7 +210,6 @@
 
     invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     new-instance v0, Lcotlin/g2/k;
 
     invoke-interface {p0}, Ljava/util/Collection;->size()I
@@ -252,7 +245,6 @@
 
     invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-interface {p0}, Ljava/util/List;->size()I
 
     move-result p0
@@ -283,7 +275,6 @@
         version = "1.3"
     .end annotation
 
-    .line 1
     invoke-interface {p0}, Ljava/util/Collection;->isEmpty()Z
 
     move-result v0
@@ -313,7 +304,6 @@
     .annotation build Lcotlin/internal/f;
     .end annotation
 
-    .line 1
     invoke-interface {p0}, Ljava/util/Collection;->isEmpty()Z
 
     move-result p0
@@ -344,7 +334,6 @@
 
     if-eqz p0, :cond_1
 
-    .line 1
     invoke-interface {p0}, Ljava/util/Collection;->isEmpty()Z
 
     move-result p0
@@ -381,7 +370,6 @@
     .annotation build Lcotlin/internal/f;
     .end annotation
 
-    .line 1
     invoke-static {}, Lcotlin/collections/s;->E()Ljava/util/List;
 
     move-result-object v0
@@ -412,7 +400,6 @@
 
     invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     array-length v0, p0
 
     if-lez v0, :cond_0
@@ -453,7 +440,6 @@
 
     if-eqz p0, :cond_0
 
-    .line 1
     invoke-static {p0}, Lcotlin/collections/s;->k(Ljava/lang/Object;)Ljava/util/List;
 
     move-result-object p0
@@ -492,7 +478,6 @@
 
     invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-static {p0}, Lcotlin/collections/ArraysKt___ArraysKt;->qa([Ljava/lang/Object;)Ljava/util/List;
 
     move-result-object p0
@@ -519,7 +504,6 @@
         version = "1.1"
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
@@ -550,7 +534,6 @@
 
     invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     array-length v0, p0
 
     if-nez v0, :cond_0
@@ -603,7 +586,6 @@
 
     invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-interface {p0}, Ljava/util/List;->size()I
 
     move-result v0
@@ -619,7 +601,6 @@
     :cond_0
     const/4 v0, 0x0
 
-    .line 2
     invoke-interface {p0, v0}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object p0
@@ -630,7 +611,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_1
     invoke-static {}, Lcotlin/collections/s;->E()Ljava/util/List;
 
@@ -661,7 +641,6 @@
 
     goto :goto_0
 
-    .line 1
     :cond_0
     invoke-static {}, Lcotlin/collections/s;->E()Ljava/util/List;
 
@@ -692,7 +671,6 @@
 
     goto :goto_0
 
-    .line 1
     :cond_0
     invoke-static {}, Lcotlin/collections/s;->E()Ljava/util/List;
 
@@ -717,7 +695,6 @@
 
     return-void
 
-    .line 1
     :cond_0
     new-instance p1, Ljava/lang/IndexOutOfBoundsException;
 
@@ -747,7 +724,6 @@
 
     throw p1
 
-    .line 2
     :cond_1
     new-instance p0, Ljava/lang/IndexOutOfBoundsException;
 
@@ -771,7 +747,6 @@
 
     throw p0
 
-    .line 3
     :cond_2
     new-instance p0, Ljava/lang/IllegalArgumentException;
 
@@ -839,7 +814,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-static {p0}, Lcotlin/collections/CollectionsKt___CollectionsKt;->K5(Ljava/lang/Iterable;)Ljava/util/List;
 
     move-result-object p0
@@ -858,7 +832,6 @@
         version = "1.3"
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/lang/ArithmeticException;
 
     const-string v1, "Count overflow has happened."
@@ -877,7 +850,6 @@
         version = "1.3"
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/lang/ArithmeticException;
 
     const-string v1, "Index overflow has happened."
@@ -910,7 +882,6 @@
         version = "1.1"
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0, p0}, Ljava/util/ArrayList;-><init>(I)V
@@ -961,7 +932,6 @@
         version = "1.1"
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0, p0}, Ljava/util/ArrayList;-><init>(I)V
@@ -971,7 +941,6 @@
     :goto_0
     if-ge v1, p0, :cond_0
 
-    .line 2
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v2
@@ -1009,7 +978,6 @@
         version = "1.1"
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
@@ -1040,7 +1008,6 @@
 
     invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     array-length v0, p0
 
     if-nez v0, :cond_0
@@ -1091,7 +1058,6 @@
 
     invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     new-instance v0, Lcotlin/collections/i;
 
     const/4 v1, 0x0
@@ -1133,7 +1099,6 @@
 
     invoke-static {p3, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-interface {p0}, Ljava/util/List;->size()I
 
     move-result v0
@@ -1149,12 +1114,10 @@
 
     ushr-int/lit8 v0, v0, 0x1
 
-    .line 2
     invoke-interface {p0, v0}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object v1
 
-    .line 3
     invoke-interface {p3, v1}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v1
@@ -1217,7 +1180,6 @@
 
     invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-interface {p0}, Ljava/util/List;->size()I
 
     move-result v0
@@ -1233,14 +1195,12 @@
 
     ushr-int/lit8 v0, v0, 0x1
 
-    .line 2
     invoke-interface {p0, v0}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object v1
 
     check-cast v1, Ljava/lang/Comparable;
 
-    .line 3
     invoke-static {v1, p1}, Lcotlin/z1/a;->g(Ljava/lang/Comparable;Ljava/lang/Comparable;)I
 
     move-result v1
@@ -1303,7 +1263,6 @@
 
     invoke-static {p2, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-interface {p0}, Ljava/util/List;->size()I
 
     move-result v0
@@ -1319,12 +1278,10 @@
 
     ushr-int/lit8 v0, v0, 0x1
 
-    .line 2
     invoke-interface {p0, v0}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object v1
 
-    .line 3
     invoke-interface {p2, v1, p1}, Ljava/util/Comparator;->compare(Ljava/lang/Object;Ljava/lang/Object;)I
 
     move-result v1
@@ -1371,7 +1328,6 @@
 
     if-eqz p4, :cond_1
 
-    .line 1
     invoke-interface {p0}, Ljava/util/List;->size()I
 
     move-result p2
@@ -1398,7 +1354,6 @@
 
     if-eqz p4, :cond_1
 
-    .line 1
     invoke-interface {p0}, Ljava/util/List;->size()I
 
     move-result p3
@@ -1425,7 +1380,6 @@
 
     if-eqz p5, :cond_1
 
-    .line 1
     invoke-interface {p0}, Ljava/util/List;->size()I
 
     move-result p4
@@ -1474,7 +1428,6 @@
 
     invoke-static {p4, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     new-instance v0, Lcotlin/collections/CollectionsKt__CollectionsKt$binarySearchBy$1;
 
     invoke-direct {v0, p4, p1}, Lcotlin/collections/CollectionsKt__CollectionsKt$binarySearchBy$1;-><init>(Lcotlin/jvm/u/l;Ljava/lang/Comparable;)V

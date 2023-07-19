@@ -33,7 +33,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/billing/pro/GmsManager$j$a;->g:Lcom/commsource/billing/pro/GmsManager$j;
 
     iput-object p2, p0, Lcom/commsource/billing/pro/GmsManager$j$a;->p:Ljava/util/List;
@@ -60,10 +59,8 @@
 
     const/4 v4, 0x2
 
-    .line 1
     invoke-static {v1, v2, v3, v4, v3}, Lcom/commsource/util/l0;->L(Ljava/lang/String;Ljava/lang/String;Lcom/meitu/library/util/Debug/Debug$DebugLevel;ILjava/lang/Object;)V
 
-    .line 2
     sget-object v1, Lcom/commsource/billing/pro/i/c;->a:Lcom/commsource/billing/pro/i/c;
 
     iget-object v2, p0, Lcom/commsource/billing/pro/GmsManager$j$a;->g:Lcom/commsource/billing/pro/GmsManager$j;
@@ -80,7 +77,6 @@
 
     move-result v2
 
-    .line 3
     iget-object v3, p0, Lcom/commsource/billing/pro/GmsManager$j$a;->g:Lcom/commsource/billing/pro/GmsManager$j;
 
     iget-object v3, v3, Lcom/commsource/billing/pro/GmsManager$j;->b:Landroid/content/Context;
@@ -89,14 +85,12 @@
 
     invoke-virtual {v1, v3, v4}, Lcom/commsource/billing/pro/i/c;->b(Landroid/content/Context;Ljava/util/List;)V
 
-    .line 4
     new-instance v1, Lcom/commsource/billing/pro/GmsManager$j$a$a;
 
     invoke-direct {v1, p0, v2}, Lcom/commsource/billing/pro/GmsManager$j$a$a;-><init>(Lcom/commsource/billing/pro/GmsManager$j$a;Z)V
 
     invoke-static {v1}, Lcom/commsource/util/g2;->g(Ljava/lang/Runnable;)V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

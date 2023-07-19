@@ -27,7 +27,6 @@
 .method constructor <init>(Lf/k/k/f;Lf/k/k/n;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lf/k/k/f$a;->b:Lf/k/k/f;
 
     iput-object p2, p0, Lf/k/k/f$a;->a:Lf/k/k/n;
@@ -46,7 +45,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -59,15 +57,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lf/k/k/f$a;->a:Lf/k/k/n;
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-interface {v1, p1}, Lf/k/k/p;->b(Ljava/lang/Throwable;)V
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -87,7 +82,6 @@
 
     if-eqz p1, :cond_d
 
-    .line 1
     invoke-virtual {p1}, Lokhttp3/Response;->body()Lokhttp3/ResponseBody;
 
     move-result-object v3
@@ -96,7 +90,6 @@
 
     goto/16 :goto_9
 
-    .line 2
     :cond_0
     invoke-virtual {p1}, Lokhttp3/Response;->code()I
 
@@ -106,12 +99,10 @@
 
     if-eq v3, v4, :cond_1
 
-    .line 3
     invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v2
 
-    .line 4
     :cond_1
     iget-object v3, p0, Lf/k/k/f$a;->b:Lf/k/k/f;
 
@@ -119,7 +110,6 @@
 
     invoke-virtual {v3, v4}, Lf/k/k/f;->I(Lf/k/k/n;)V
 
-    .line 5
     iget-object v3, p0, Lf/k/k/f$a;->b:Lf/k/k/f;
 
     invoke-static {v3}, Lf/k/k/f;->C(Lf/k/k/f;)I
@@ -132,7 +122,6 @@
 
     const/4 v6, 0x0
 
-    .line 6
     iget-object v7, p0, Lf/k/k/f$a;->b:Lf/k/k/f;
 
     invoke-static {v7, p1}, Lf/k/k/f;->F(Lf/k/k/f;Lokhttp3/Response;)J
@@ -141,7 +130,6 @@
 
     invoke-static {v7, v8, v9}, Lf/k/k/f;->E(Lf/k/k/f;J)J
 
-    .line 7
     :try_start_0
     iget-object v7, p0, Lf/k/k/f$a;->b:Lf/k/k/f;
 
@@ -149,7 +137,6 @@
 
     invoke-virtual {v7, v8}, Lf/k/k/f;->I(Lf/k/k/n;)V
 
-    .line 8
     iget-object v7, p0, Lf/k/k/f$a;->b:Lf/k/k/f;
 
     invoke-static {v7}, Lf/k/k/f;->G(Lf/k/k/f;)Ljava/lang/String;
@@ -162,7 +149,6 @@
 
     if-nez v7, :cond_2
 
-    .line 9
     iget-object v7, p0, Lf/k/k/f$a;->b:Lf/k/k/f;
 
     invoke-static {v7}, Lf/k/k/f;->G(Lf/k/k/f;)Ljava/lang/String;
@@ -171,7 +157,6 @@
 
     invoke-static {v7}, Lf/k/i/a/i/a;->b(Ljava/lang/String;)Ljava/io/File;
 
-    .line 10
     :cond_2
     new-instance v7, Ljava/io/RandomAccessFile;
 
@@ -192,16 +177,13 @@
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_2
     .catchall {:try_start_0 .. :try_end_0} :catchall_1
 
-    .line 11
     :try_start_1
     iget-object v6, p0, Lf/k/k/f$a;->a:Lf/k/k/n;
 
     if-eqz v6, :cond_3
 
-    .line 12
     invoke-interface {v6}, Lf/k/k/j;->onStart()V
 
-    .line 13
     :cond_3
     :goto_0
     invoke-virtual {p1}, Lokhttp3/Response;->body()Lokhttp3/ResponseBody;
@@ -218,10 +200,8 @@
 
     if-lez v6, :cond_4
 
-    .line 14
     invoke-virtual {v7, v3, v2, v6}, Ljava/io/RandomAccessFile;->write([BII)V
 
-    .line 15
     iget-object v8, p0, Lf/k/k/f$a;->b:Lf/k/k/f;
 
     iget-object v9, p0, Lf/k/k/f$a;->a:Lf/k/k/n;
@@ -232,12 +212,10 @@
 
     add-long/2addr v4, v8
 
-    .line 16
     iget-object v6, p0, Lf/k/k/f$a;->a:Lf/k/k/n;
 
     if-eqz v6, :cond_3
 
-    .line 17
     iget-object v8, p0, Lf/k/k/f$a;->b:Lf/k/k/f;
 
     invoke-static {v8}, Lf/k/k/f;->D(Lf/k/k/f;)J
@@ -251,12 +229,10 @@
 
     goto :goto_0
 
-    .line 18
     :cond_4
     :try_start_2
     invoke-virtual {p1}, Lokhttp3/Response;->close()V
 
-    .line 19
     invoke-virtual {v7}, Ljava/io/RandomAccessFile;->close()V
     :try_end_2
     .catch Ljava/lang/Exception; {:try_start_2 .. :try_end_2} :catch_0
@@ -266,22 +242,18 @@
     :catch_0
     move-exception p1
 
-    .line 20
     iget-object v2, p0, Lf/k/k/f$a;->a:Lf/k/k/n;
 
     if-eqz v2, :cond_5
 
-    .line 21
     invoke-interface {v2, p1}, Lf/k/k/p;->b(Ljava/lang/Throwable;)V
 
-    .line 22
     :cond_5
     :goto_1
     iget-object p1, p0, Lf/k/k/f$a;->a:Lf/k/k/n;
 
     if-eqz p1, :cond_9
 
-    .line 23
     iget-object p1, p0, Lf/k/k/f$a;->b:Lf/k/k/f;
 
     invoke-virtual {p1}, Lf/k/k/d;->o()Z
@@ -290,7 +262,6 @@
 
     if-eqz p1, :cond_8
 
-    .line 24
     iget-object p1, p0, Lf/k/k/f$a;->a:Lf/k/k/n;
 
     new-instance v2, Lcom/commsource/material/DownloadException;
@@ -321,24 +292,20 @@
     :catch_2
     move-exception v2
 
-    .line 25
     :goto_2
     :try_start_3
     iget-object v3, p0, Lf/k/k/f$a;->a:Lf/k/k/n;
 
     if-eqz v3, :cond_6
 
-    .line 26
     invoke-interface {v3, v2}, Lf/k/k/p;->b(Ljava/lang/Throwable;)V
     :try_end_3
     .catchall {:try_start_3 .. :try_end_3} :catchall_1
 
-    .line 27
     :cond_6
     :try_start_4
     invoke-virtual {p1}, Lokhttp3/Response;->close()V
 
-    .line 28
     invoke-virtual {v6}, Ljava/io/RandomAccessFile;->close()V
     :try_end_4
     .catch Ljava/lang/Exception; {:try_start_4 .. :try_end_4} :catch_3
@@ -348,22 +315,18 @@
     :catch_3
     move-exception p1
 
-    .line 29
     iget-object v2, p0, Lf/k/k/f$a;->a:Lf/k/k/n;
 
     if-eqz v2, :cond_7
 
-    .line 30
     invoke-interface {v2, p1}, Lf/k/k/p;->b(Ljava/lang/Throwable;)V
 
-    .line 31
     :cond_7
     :goto_3
     iget-object p1, p0, Lf/k/k/f$a;->a:Lf/k/k/n;
 
     if-eqz p1, :cond_9
 
-    .line 32
     iget-object p1, p0, Lf/k/k/f$a;->b:Lf/k/k/f;
 
     invoke-virtual {p1}, Lf/k/k/d;->o()Z
@@ -372,7 +335,6 @@
 
     if-eqz p1, :cond_8
 
-    .line 33
     iget-object p1, p0, Lf/k/k/f$a;->a:Lf/k/k/n;
 
     new-instance v2, Lcom/commsource/material/DownloadException;
@@ -384,7 +346,6 @@
 
     goto :goto_5
 
-    .line 34
     :cond_8
     iget-object p1, p0, Lf/k/k/f$a;->a:Lf/k/k/n;
 
@@ -396,7 +357,6 @@
 
     invoke-interface {p1, v0}, Lf/k/k/p;->a(Ljava/lang/Object;)V
 
-    .line 35
     iget-object p1, p0, Lf/k/k/f$a;->a:Lf/k/k/n;
 
     invoke-interface {p1}, Lf/k/k/p;->onComplete()V
@@ -405,17 +365,14 @@
     :goto_5
     const/4 p1, 0x1
 
-    .line 36
     invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
 
-    .line 37
     :goto_6
     :try_start_5
     invoke-virtual {p1}, Lokhttp3/Response;->close()V
 
-    .line 38
     invoke-virtual {v6}, Ljava/io/RandomAccessFile;->close()V
     :try_end_5
     .catch Ljava/lang/Exception; {:try_start_5 .. :try_end_5} :catch_4
@@ -425,22 +382,18 @@
     :catch_4
     move-exception p1
 
-    .line 39
     iget-object v3, p0, Lf/k/k/f$a;->a:Lf/k/k/n;
 
     if-eqz v3, :cond_a
 
-    .line 40
     invoke-interface {v3, p1}, Lf/k/k/p;->b(Ljava/lang/Throwable;)V
 
-    .line 41
     :cond_a
     :goto_7
     iget-object p1, p0, Lf/k/k/f$a;->a:Lf/k/k/n;
 
     if-eqz p1, :cond_c
 
-    .line 42
     iget-object p1, p0, Lf/k/k/f$a;->b:Lf/k/k/f;
 
     invoke-virtual {p1}, Lf/k/k/d;->o()Z
@@ -449,7 +402,6 @@
 
     if-eqz p1, :cond_b
 
-    .line 43
     iget-object p1, p0, Lf/k/k/f$a;->a:Lf/k/k/n;
 
     new-instance v3, Lcom/commsource/material/DownloadException;
@@ -460,7 +412,6 @@
 
     goto :goto_8
 
-    .line 44
     :cond_b
     iget-object p1, p0, Lf/k/k/f$a;->a:Lf/k/k/n;
 
@@ -472,19 +423,16 @@
 
     invoke-interface {p1, v0}, Lf/k/k/p;->a(Ljava/lang/Object;)V
 
-    .line 45
     iget-object p1, p0, Lf/k/k/f$a;->a:Lf/k/k/n;
 
     invoke-interface {p1}, Lf/k/k/p;->onComplete()V
 
-    .line 46
     :cond_c
     :goto_8
     invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     throw v2
 
-    .line 47
     :cond_d
     :goto_9
     invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V

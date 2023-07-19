@@ -45,7 +45,6 @@
 
     iput-object p3, p0, Lcotlinx/coroutines/flow/FlowKt__DistinctKt$distinctUntilChangedBy$$inlined$unsafeFlow$2;->c:Lcotlin/jvm/u/p;
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -66,7 +65,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     new-instance v0, Lcotlin/jvm/internal/Ref$ObjectRef;
 
     invoke-direct {v0}, Lcotlin/jvm/internal/Ref$ObjectRef;-><init>()V
@@ -75,10 +73,8 @@
 
     iput-object v1, v0, Lcotlin/jvm/internal/Ref$ObjectRef;->element:Ljava/lang/Object;
 
-    .line 2
     iget-object v1, p0, Lcotlinx/coroutines/flow/FlowKt__DistinctKt$distinctUntilChangedBy$$inlined$unsafeFlow$2;->a:Lcotlinx/coroutines/flow/d;
 
-    .line 3
     new-instance v2, Lcotlinx/coroutines/flow/FlowKt__DistinctKt$distinctUntilChangedBy$$inlined$unsafeFlow$2$lambda$1;
 
     invoke-direct {v2, p1, v0, p0}, Lcotlinx/coroutines/flow/FlowKt__DistinctKt$distinctUntilChangedBy$$inlined$unsafeFlow$2$lambda$1;-><init>(Lcotlinx/coroutines/flow/e;Lcotlin/jvm/internal/Ref$ObjectRef;Lcotlinx/coroutines/flow/FlowKt__DistinctKt$distinctUntilChangedBy$$inlined$unsafeFlow$2;)V
@@ -95,7 +91,6 @@
 
     return-object p1
 
-    .line 4
     :cond_0
     sget-object p1, Lcotlin/t1;->a:Lcotlin/t1;
 
@@ -127,7 +122,6 @@
 
     invoke-static {v0}, Lcotlin/jvm/internal/c0;->e(I)V
 
-    .line 1
     new-instance v0, Lcotlin/jvm/internal/Ref$ObjectRef;
 
     invoke-direct {v0}, Lcotlin/jvm/internal/Ref$ObjectRef;-><init>()V
@@ -136,10 +130,8 @@
 
     iput-object v1, v0, Lcotlin/jvm/internal/Ref$ObjectRef;->element:Ljava/lang/Object;
 
-    .line 2
     iget-object v1, p0, Lcotlinx/coroutines/flow/FlowKt__DistinctKt$distinctUntilChangedBy$$inlined$unsafeFlow$2;->a:Lcotlinx/coroutines/flow/d;
 
-    .line 3
     new-instance v2, Lcotlinx/coroutines/flow/FlowKt__DistinctKt$distinctUntilChangedBy$$inlined$unsafeFlow$2$lambda$1;
 
     invoke-direct {v2, p1, v0, p0}, Lcotlinx/coroutines/flow/FlowKt__DistinctKt$distinctUntilChangedBy$$inlined$unsafeFlow$2$lambda$1;-><init>(Lcotlinx/coroutines/flow/e;Lcotlin/jvm/internal/Ref$ObjectRef;Lcotlinx/coroutines/flow/FlowKt__DistinctKt$distinctUntilChangedBy$$inlined$unsafeFlow$2;)V
@@ -158,7 +150,6 @@
 
     invoke-static {p1}, Lcotlin/jvm/internal/c0;->e(I)V
 
-    .line 4
     sget-object p1, Lcotlin/t1;->a:Lcotlin/t1;
 
     return-object p1

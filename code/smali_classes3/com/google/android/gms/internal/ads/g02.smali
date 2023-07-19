@@ -13,15 +13,12 @@
 .method private constructor <init>(I)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     new-array p1, p1, [B
 
     iput-object p1, p0, Lcom/google/android/gms/internal/ads/g02;->b:[B
 
-    .line 3
     invoke-static {p1}, Lcom/google/android/gms/internal/ads/zzefl;->E0([B)Lcom/google/android/gms/internal/ads/zzefl;
 
     move-result-object p1
@@ -34,7 +31,6 @@
 .method synthetic constructor <init>(ILcom/google/android/gms/internal/ads/a02;)V
     .locals 0
 
-    .line 4
     invoke-direct {p0, p1}, Lcom/google/android/gms/internal/ads/g02;-><init>(I)V
 
     return-void
@@ -45,12 +41,10 @@
 .method public final a()Lcom/google/android/gms/internal/ads/zzeer;
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/g02;->a:Lcom/google/android/gms/internal/ads/zzefl;
 
     invoke-virtual {v0}, Lcom/google/android/gms/internal/ads/zzefl;->E()V
 
-    .line 2
     new-instance v0, Lcom/google/android/gms/internal/ads/zzefb;
 
     iget-object v1, p0, Lcom/google/android/gms/internal/ads/g02;->b:[B
@@ -63,7 +57,6 @@
 .method public final b()Lcom/google/android/gms/internal/ads/zzefl;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/g02;->a:Lcom/google/android/gms/internal/ads/zzefl;
 
     return-object v0

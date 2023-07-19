@@ -61,7 +61,6 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
     new-instance v0, Lcom/google/firebase/auth/a0;
 
     invoke-direct {v0}, Lcom/google/firebase/auth/a0;-><init>()V
@@ -86,7 +85,6 @@
 
     move-object v2, p2
 
-    .line 9
     invoke-direct/range {v0 .. v5}, Lcom/google/firebase/auth/EmailAuthCredential;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Z)V
 
     return-void
@@ -137,17 +135,14 @@
     .annotation build Lcom/google/android/gms/common/internal/safeparcel/SafeParcelable$b;
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Lcom/google/firebase/auth/AuthCredential;-><init>()V
 
-    .line 2
     invoke-static {p1}, Lcom/google/android/gms/common/internal/b0;->g(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p1
 
     iput-object p1, p0, Lcom/google/firebase/auth/EmailAuthCredential;->a:Ljava/lang/String;
 
-    .line 3
     invoke-static {p2}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result p1
@@ -162,7 +157,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_0
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -172,18 +166,14 @@
 
     throw p1
 
-    .line 5
     :cond_1
     :goto_0
     iput-object p2, p0, Lcom/google/firebase/auth/EmailAuthCredential;->b:Ljava/lang/String;
 
-    .line 6
     iput-object p3, p0, Lcom/google/firebase/auth/EmailAuthCredential;->c:Ljava/lang/String;
 
-    .line 7
     iput-object p4, p0, Lcom/google/firebase/auth/EmailAuthCredential;->d:Ljava/lang/String;
 
-    .line 8
     iput-boolean p5, p0, Lcom/google/firebase/auth/EmailAuthCredential;->f:Z
 
     return-void
@@ -196,7 +186,6 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-static {p0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v0
@@ -207,7 +196,6 @@
 
     return v1
 
-    .line 2
     :cond_0
     invoke-static {p0}, Lcom/google/firebase/auth/w;->d(Ljava/lang/String;)Lcom/google/firebase/auth/w;
 
@@ -215,7 +203,6 @@
 
     if-eqz p0, :cond_1
 
-    .line 3
     invoke-virtual {p0}, Lcom/google/firebase/auth/w;->a()I
 
     move-result p0
@@ -239,7 +226,6 @@
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/auth/EmailAuthCredential;->b:Ljava/lang/String;
 
     return-object v0
@@ -252,7 +238,6 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-virtual {p1}, Lcom/google/firebase/auth/FirebaseUser;->y1()Ljava/lang/String;
 
     move-result-object p1
@@ -261,7 +246,6 @@
 
     const/4 p1, 0x1
 
-    .line 2
     iput-boolean p1, p0, Lcom/google/firebase/auth/EmailAuthCredential;->f:Z
 
     return-object p0
@@ -272,7 +256,6 @@
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/auth/EmailAuthCredential;->c:Ljava/lang/String;
 
     return-object v0
@@ -283,7 +266,6 @@
     .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/auth/EmailAuthCredential;->d:Ljava/lang/String;
 
     return-object v0
@@ -294,7 +276,6 @@
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/auth/EmailAuthCredential;->a:Ljava/lang/String;
 
     return-object v0
@@ -303,7 +284,6 @@
 .method public final w0()Z
     .locals 1
 
-    .line 1
     iget-boolean v0, p0, Lcom/google/firebase/auth/EmailAuthCredential;->f:Z
 
     return v0
@@ -312,54 +292,42 @@
 .method public writeToParcel(Landroid/os/Parcel;I)V
     .locals 3
 
-    .line 1
     invoke-static {p1}, Lcom/google/android/gms/common/internal/safeparcel/a;->a(Landroid/os/Parcel;)I
 
     move-result p2
 
-    .line 2
     iget-object v0, p0, Lcom/google/firebase/auth/EmailAuthCredential;->a:Ljava/lang/String;
 
     const/4 v1, 0x1
 
     const/4 v2, 0x0
 
-    .line 3
     invoke-static {p1, v1, v0, v2}, Lcom/google/android/gms/common/internal/safeparcel/a;->X(Landroid/os/Parcel;ILjava/lang/String;Z)V
 
-    .line 4
     iget-object v0, p0, Lcom/google/firebase/auth/EmailAuthCredential;->b:Ljava/lang/String;
 
     const/4 v1, 0x2
 
-    .line 5
     invoke-static {p1, v1, v0, v2}, Lcom/google/android/gms/common/internal/safeparcel/a;->X(Landroid/os/Parcel;ILjava/lang/String;Z)V
 
-    .line 6
     iget-object v0, p0, Lcom/google/firebase/auth/EmailAuthCredential;->c:Ljava/lang/String;
 
     const/4 v1, 0x3
 
-    .line 7
     invoke-static {p1, v1, v0, v2}, Lcom/google/android/gms/common/internal/safeparcel/a;->X(Landroid/os/Parcel;ILjava/lang/String;Z)V
 
-    .line 8
     iget-object v0, p0, Lcom/google/firebase/auth/EmailAuthCredential;->d:Ljava/lang/String;
 
     const/4 v1, 0x4
 
-    .line 9
     invoke-static {p1, v1, v0, v2}, Lcom/google/android/gms/common/internal/safeparcel/a;->X(Landroid/os/Parcel;ILjava/lang/String;Z)V
 
-    .line 10
     iget-boolean v0, p0, Lcom/google/firebase/auth/EmailAuthCredential;->f:Z
 
     const/4 v1, 0x5
 
-    .line 11
     invoke-static {p1, v1, v0}, Lcom/google/android/gms/common/internal/safeparcel/a;->g(Landroid/os/Parcel;IZ)V
 
-    .line 12
     invoke-static {p1, p2}, Lcom/google/android/gms/common/internal/safeparcel/a;->b(Landroid/os/Parcel;I)V
 
     return-void
@@ -378,7 +346,6 @@
 .method public final y0()Z
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/auth/EmailAuthCredential;->c:Ljava/lang/String;
 
     invoke-static {v0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
@@ -400,7 +367,6 @@
 .method public z()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/auth/EmailAuthCredential;->b:Ljava/lang/String;
 
     invoke-static {v0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z

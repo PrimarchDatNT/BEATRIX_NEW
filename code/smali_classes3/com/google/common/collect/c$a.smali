@@ -29,7 +29,6 @@
 .method constructor <init>(Lcom/google/common/collect/c;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/common/collect/c$a;->a:Lcom/google/common/collect/c;
 
     invoke-direct {p0}, Lcom/google/common/collect/Multimaps$b;-><init>()V
@@ -49,7 +48,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/c$a;->a:Lcom/google/common/collect/c;
 
     return-object v0
@@ -66,7 +64,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/c$a;->a:Lcom/google/common/collect/c;
 
     invoke-virtual {v0}, Lcom/google/common/collect/c;->entryIterator()Ljava/util/Iterator;

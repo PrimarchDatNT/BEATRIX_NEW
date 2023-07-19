@@ -31,7 +31,6 @@
 .method constructor <init>(Lcom/google/common/collect/CompactHashMap;)V
     .locals 1
 
-    .line 1
     iput-object p1, p0, Lcom/google/common/collect/CompactHashMap$b;->f:Lcom/google/common/collect/CompactHashMap;
 
     const/4 v0, 0x0
@@ -46,7 +45,6 @@
 .method bridge synthetic b(I)Ljava/lang/Object;
     .locals 0
 
-    .line 1
     invoke-virtual {p0, p1}, Lcom/google/common/collect/CompactHashMap$b;->d(I)Ljava/util/Map$Entry;
 
     move-result-object p1
@@ -64,7 +62,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/google/common/collect/CompactHashMap$g;
 
     iget-object v1, p0, Lcom/google/common/collect/CompactHashMap$b;->f:Lcom/google/common/collect/CompactHashMap;

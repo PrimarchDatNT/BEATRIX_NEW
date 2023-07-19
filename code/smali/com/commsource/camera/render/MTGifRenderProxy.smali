@@ -48,7 +48,6 @@
         .end annotation
     .end param
 
-    .line 2
     invoke-static {p1}, Lcom/commsource/camera/render/MTGifRenderProxy$f;->a(Lcom/commsource/camera/render/MTGifRenderProxy$f;)Landroid/content/Context;
 
     move-result-object v0
@@ -63,7 +62,6 @@
 
     invoke-direct {p0, v0, v1, p1}, Lcom/commsource/camera/render/c;-><init>(Landroid/content/Context;Lcom/meitu/library/n/a/o/e;Z)V
 
-    .line 3
     new-instance p1, Lcom/commsource/camera/render/MTGifRenderProxy$g;
 
     invoke-direct {p1, p0}, Lcom/commsource/camera/render/MTGifRenderProxy$g;-><init>(Lcom/commsource/camera/render/MTGifRenderProxy;)V
@@ -72,10 +70,8 @@
 
     const-wide/16 v0, 0x0
 
-    .line 4
     iput-wide v0, p0, Lcom/commsource/camera/render/MTGifRenderProxy;->O:J
 
-    .line 5
     new-instance p1, Landroid/graphics/Rect;
 
     const/4 v0, 0x0
@@ -84,18 +80,14 @@
 
     iput-object p1, p0, Lcom/commsource/camera/render/MTGifRenderProxy;->W:Landroid/graphics/Rect;
 
-    .line 6
     iput-boolean v0, p0, Lcom/commsource/camera/render/MTGifRenderProxy;->T:Z
 
-    .line 7
     iput-boolean v0, p0, Lcom/commsource/camera/render/MTGifRenderProxy;->U:Z
 
-    .line 8
     iput v0, p0, Lcom/commsource/camera/render/MTGifRenderProxy;->V:I
 
     iput v0, p0, Lcom/commsource/camera/render/c;->p:I
 
-    .line 9
     iput-boolean v0, p0, Lcom/commsource/camera/render/MTGifRenderProxy;->X:Z
 
     return-void
@@ -104,7 +96,6 @@
 .method synthetic constructor <init>(Lcom/commsource/camera/render/MTGifRenderProxy$f;Lcom/commsource/camera/render/MTGifRenderProxy$a;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/commsource/camera/render/MTGifRenderProxy;-><init>(Lcom/commsource/camera/render/MTGifRenderProxy$f;)V
 
     return-void
@@ -117,7 +108,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/camera/render/MTGifRenderProxy;->R:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -132,7 +122,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p0, p1}, Lcom/commsource/camera/render/MTGifRenderProxy;->nClearAllGif(J)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -147,7 +136,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p0, p1}, Lcom/commsource/camera/render/MTGifRenderProxy;->nOnTouchEnd(J)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -162,7 +150,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget p0, p0, Lcom/commsource/camera/render/MTGifRenderProxy;->V:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -177,7 +164,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static/range {p0 .. p7}, Lcom/commsource/camera/render/MTGifRenderProxy;->nRenderToOutTexture(JIIIIII)I
 
     move-result p0
@@ -194,7 +180,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/camera/render/MTGifRenderProxy;->V:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -209,7 +194,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p0, p1}, Lcom/commsource/camera/render/MTGifRenderProxy;->nRelease(J)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -224,7 +208,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/camera/render/MTGifRenderProxy;->o2()V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -239,7 +222,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/commsource/camera/render/MTGifRenderProxy;->O:J
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -254,7 +236,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-wide p1, p0, Lcom/commsource/camera/render/MTGifRenderProxy;->O:J
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -269,7 +250,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p0, p1, p2}, Lcom/commsource/camera/render/MTGifRenderProxy;->nSetOrientation(JI)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -284,7 +264,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/camera/render/MTGifRenderProxy;->p2()Z
 
     move-result p0
@@ -303,17 +282,14 @@
 
     invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v2, p0, Lcom/commsource/camera/render/MTGifRenderProxy;->X:Z
 
     if-eqz v2, :cond_0
 
-    .line 2
     invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 3
     :cond_0
     :try_start_0
     invoke-static {}, Lcom/commsource/camera/render/MTGifRenderProxy;->nCheckNativeFunction()V
@@ -325,13 +301,10 @@
     :catch_0
     const-string v2, " nCheckNativeFunction catch error, try again 1"
 
-    .line 4
     invoke-static {v0, v2}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 5
     invoke-static {}, Lcom/meitu/mtlab/beautyplus/system/MTlabLibraryConfig;->c()Z
 
-    .line 6
     :try_start_1
     invoke-static {}, Lcom/commsource/camera/render/MTGifRenderProxy;->nCheckNativeFunction()V
     :try_end_1
@@ -342,27 +315,21 @@
     :catch_1
     const-string v2, " nCheckNativeFunction catch error, try again 2"
 
-    .line 7
     invoke-static {v0, v2}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 8
     invoke-static {}, Lcom/meitu/mtlab/beautyplus/system/MTlabLibraryConfig;->c()Z
 
-    .line 9
     invoke-static {}, Lcom/commsource/camera/render/MTGifRenderProxy;->nCheckNativeFunction()V
 
     :goto_0
     const-string v2, " checkLoadNativeLibrary successful"
 
-    .line 10
     invoke-static {v0, v2}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;)I
 
     const/4 v0, 0x1
 
-    .line 11
     iput-boolean v0, p0, Lcom/commsource/camera/render/MTGifRenderProxy;->X:Z
 
-    .line 12
     invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -375,7 +342,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget p0, p0, Lcom/commsource/camera/render/MTGifRenderProxy;->S:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -453,7 +419,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/commsource/camera/render/MTGifRenderProxy;->O:J
 
     const-wide/16 v3, 0x0
@@ -462,11 +427,9 @@
 
     if-nez v5, :cond_0
 
-    .line 2
     :try_start_0
     invoke-static {}, Lcom/meitu/mtlab/beautyplus/system/MTlabLibraryConfig;->c()Z
 
-    .line 3
     invoke-static {}, Lcom/commsource/camera/render/MTGifRenderProxy;->nCreate()J
 
     move-result-wide v1
@@ -477,7 +440,6 @@
 
     if-eqz v5, :cond_0
 
-    .line 4
     invoke-static {v1, v2}, Lcom/commsource/camera/render/MTGifRenderProxy;->nReInitGLResource(J)V
     :try_end_0
     .catch Ljava/lang/UnsatisfiedLinkError; {:try_start_0 .. :try_end_0} :catch_0
@@ -489,13 +451,10 @@
 
     const-string v2, "nCreate catch fail, loadLibrary and try again"
 
-    .line 5
     invoke-static {v1, v2}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 6
     iput-wide v3, p0, Lcom/commsource/camera/render/MTGifRenderProxy;->O:J
 
-    .line 7
     :cond_0
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -510,7 +469,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/commsource/camera/render/MTGifRenderProxy;->O:J
 
     const-wide/16 v3, 0x0
@@ -539,7 +497,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p0, p1, p2}, Lcom/commsource/camera/render/MTGifRenderProxy;->nSetGifFile(JLjava/lang/String;)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -554,7 +511,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/camera/render/MTGifRenderProxy;->S:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -569,7 +525,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget p0, p0, Lcom/commsource/camera/render/MTGifRenderProxy;->R:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -584,7 +539,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p0, p1}, Lcom/commsource/camera/render/MTGifRenderProxy;->nDeleteSelectGif(J)Z
 
     move-result p0
@@ -603,10 +557,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0}, Lcom/commsource/camera/render/c;->O()V
 
-    .line 2
     iget-wide v1, p0, Lcom/commsource/camera/render/MTGifRenderProxy;->O:J
 
     const-wide/16 v3, 0x0
@@ -615,10 +567,8 @@
 
     if-eqz v5, :cond_0
 
-    .line 3
     invoke-static {v1, v2}, Lcom/commsource/camera/render/MTGifRenderProxy;->nOnlyReleaseGL(J)V
 
-    .line 4
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -632,10 +582,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0, p1}, Lcom/commsource/camera/render/c;->a(I)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -648,10 +596,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0}, Lcom/commsource/camera/render/c;->f0()V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -664,14 +610,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/commsource/camera/render/MTGifRenderProxy$a;
 
     invoke-direct {v1, p0, p1}, Lcom/commsource/camera/render/MTGifRenderProxy$a;-><init>(Lcom/commsource/camera/render/MTGifRenderProxy;Ljava/lang/String;)V
 
     invoke-virtual {p0, v1}, Lcom/commsource/camera/render/c;->g(Ljava/lang/Runnable;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -684,14 +628,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/commsource/camera/render/MTGifRenderProxy$c;
 
     invoke-direct {v1, p0}, Lcom/commsource/camera/render/MTGifRenderProxy$c;-><init>(Lcom/commsource/camera/render/MTGifRenderProxy;)V
 
     invoke-virtual {p0, v1}, Lcom/commsource/camera/render/c;->g(Ljava/lang/Runnable;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -704,14 +646,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/commsource/camera/render/MTGifRenderProxy$b;
 
     invoke-direct {v1, p0}, Lcom/commsource/camera/render/MTGifRenderProxy$b;-><init>(Lcom/commsource/camera/render/MTGifRenderProxy;)V
 
     invoke-virtual {p0, v1}, Lcom/commsource/camera/render/c;->g(Ljava/lang/Runnable;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const/4 v0, 0x1
@@ -726,7 +666,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/camera/render/MTGifRenderProxy;->p2()Z
 
     move-result v1
@@ -735,12 +674,10 @@
 
     const/4 v1, 0x0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
 
-    .line 3
     :cond_0
     iget-wide v1, p0, Lcom/commsource/camera/render/MTGifRenderProxy;->O:J
 
@@ -760,7 +697,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/camera/render/MTGifRenderProxy;->p2()Z
 
     move-result v1
@@ -769,7 +705,6 @@
 
     if-nez v1, :cond_0
 
-    .line 2
     new-instance v1, Landroid/graphics/Rect;
 
     invoke-direct {v1, v2, v2, v2, v2}, Landroid/graphics/Rect;-><init>(IIII)V
@@ -783,12 +718,10 @@
 
     new-array v1, v1, [F
 
-    .line 3
     iget-wide v3, p0, Lcom/commsource/camera/render/MTGifRenderProxy;->O:J
 
     invoke-static {v3, v4, v1}, Lcom/commsource/camera/render/MTGifRenderProxy;->nGetCurrentPostionsRect(J[F)V
 
-    .line 4
     iget v3, p0, Lcom/commsource/camera/render/MTGifRenderProxy;->R:I
 
     iget v4, p0, Lcom/commsource/camera/render/MTGifRenderProxy;->S:I
@@ -805,7 +738,6 @@
 
     div-float/2addr v3, v4
 
-    .line 5
     iget v4, p0, Lcom/commsource/camera/render/MTGifRenderProxy;->R:I
 
     iget v5, p0, Lcom/commsource/camera/render/MTGifRenderProxy;->S:I
@@ -822,7 +754,6 @@
 
     div-float/2addr v4, v5
 
-    .line 6
     aget v2, v1, v2
 
     iget-object v5, p0, Lcom/commsource/camera/render/MTGifRenderProxy;->W:Landroid/graphics/Rect;
@@ -837,7 +768,6 @@
 
     const/4 v6, 0x1
 
-    .line 7
     aget v6, v1, v6
 
     iget v5, v5, Landroid/graphics/Rect;->top:I
@@ -850,19 +780,16 @@
 
     const/4 v5, 0x2
 
-    .line 8
     aget v5, v1, v5
 
     div-float/2addr v5, v3
 
     const/4 v3, 0x3
 
-    .line 9
     aget v1, v1, v3
 
     div-float/2addr v1, v4
 
-    .line 10
     new-instance v3, Landroid/graphics/Rect;
 
     float-to-int v4, v2
@@ -891,7 +818,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/commsource/camera/render/MTGifRenderProxy;->O:J
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -906,7 +832,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/commsource/camera/render/MTGifRenderProxy;->O:J
 
     const-wide/16 v3, 0x0
@@ -915,10 +840,8 @@
 
     if-nez v5, :cond_0
 
-    .line 2
     iput-wide p1, p0, Lcom/commsource/camera/render/MTGifRenderProxy;->O:J
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -932,7 +855,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/camera/render/MTGifRenderProxy;->p2()Z
 
     move-result v1
@@ -941,23 +863,19 @@
 
     if-nez v1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v2
 
-    .line 3
     :cond_0
     invoke-virtual {p1}, Landroid/view/MotionEvent;->getX()F
 
     move-result v1
 
-    .line 4
     invoke-virtual {p1}, Landroid/view/MotionEvent;->getY()F
 
     move-result v3
 
-    .line 5
     iget-object v4, p0, Lcom/commsource/camera/render/MTGifRenderProxy;->W:Landroid/graphics/Rect;
 
     iget v5, v4, Landroid/graphics/Rect;->left:I
@@ -1002,7 +920,6 @@
 
     goto/16 :goto_1
 
-    .line 6
     :cond_1
     iget v4, p0, Lcom/commsource/camera/render/MTGifRenderProxy;->R:I
 
@@ -1020,7 +937,6 @@
 
     div-float/2addr v4, v5
 
-    .line 7
     iget v5, p0, Lcom/commsource/camera/render/MTGifRenderProxy;->R:I
 
     iget v6, p0, Lcom/commsource/camera/render/MTGifRenderProxy;->S:I
@@ -1037,7 +953,6 @@
 
     div-float/2addr v5, v6
 
-    .line 8
     iget-object v6, p0, Lcom/commsource/camera/render/MTGifRenderProxy;->W:Landroid/graphics/Rect;
 
     iget v7, v6, Landroid/graphics/Rect;->left:I
@@ -1048,7 +963,6 @@
 
     mul-float v1, v1, v4
 
-    .line 9
     iget v6, v6, Landroid/graphics/Rect;->top:I
 
     int-to-float v6, v6
@@ -1057,12 +971,10 @@
 
     mul-float v3, v3, v5
 
-    .line 10
     invoke-virtual {p1}, Landroid/view/MotionEvent;->getPointerCount()I
 
     move-result v6
 
-    .line 11
     invoke-virtual {p1}, Landroid/view/MotionEvent;->getAction()I
 
     move-result v7
@@ -1089,22 +1001,18 @@
 
     goto/16 :goto_0
 
-    .line 12
     :cond_2
     iput-boolean v2, p0, Lcom/commsource/camera/render/MTGifRenderProxy;->T:Z
 
-    .line 13
     iput-boolean v13, p0, Lcom/commsource/camera/render/MTGifRenderProxy;->U:Z
 
     goto/16 :goto_0
 
-    .line 14
     :cond_3
     invoke-virtual {p0, v2}, Lcom/commsource/camera/render/MTGifRenderProxy;->s2(Z)V
 
     if-ne v6, v8, :cond_b
 
-    .line 15
     invoke-virtual {p1, v13}, Landroid/view/MotionEvent;->getX(I)F
 
     move-result v6
@@ -1119,7 +1027,6 @@
 
     mul-float v11, v6, v4
 
-    .line 16
     invoke-virtual {p1, v13}, Landroid/view/MotionEvent;->getY(I)F
 
     move-result p1
@@ -1134,7 +1041,6 @@
 
     mul-float v12, p1, v5
 
-    .line 17
     iget-wide v7, p0, Lcom/commsource/camera/render/MTGifRenderProxy;->O:J
 
     move v9, v1
@@ -1143,31 +1049,25 @@
 
     invoke-static/range {v7 .. v12}, Lcom/commsource/camera/render/MTGifRenderProxy;->nOnTouchBeginTwoFinger(JFFFF)V
 
-    .line 18
     iput-boolean v2, p0, Lcom/commsource/camera/render/MTGifRenderProxy;->T:Z
 
     goto/16 :goto_0
 
-    .line 19
     :cond_4
     iput-boolean v2, p0, Lcom/commsource/camera/render/MTGifRenderProxy;->T:Z
 
     if-ne v6, v13, :cond_6
 
-    .line 20
     iget-boolean p1, p0, Lcom/commsource/camera/render/MTGifRenderProxy;->U:Z
 
     if-eqz p1, :cond_5
 
-    .line 21
     iget-wide v4, p0, Lcom/commsource/camera/render/MTGifRenderProxy;->O:J
 
     invoke-static {v4, v5, v1, v3}, Lcom/commsource/camera/render/MTGifRenderProxy;->nOnTouchBegin(JFF)V
 
-    .line 22
     iput-boolean v2, p0, Lcom/commsource/camera/render/MTGifRenderProxy;->U:Z
 
-    .line 23
     :cond_5
     iget-wide v4, p0, Lcom/commsource/camera/render/MTGifRenderProxy;->O:J
 
@@ -1178,7 +1078,6 @@
     :cond_6
     if-ne v6, v8, :cond_b
 
-    .line 24
     invoke-virtual {p1, v13}, Landroid/view/MotionEvent;->getX(I)F
 
     move-result v6
@@ -1193,7 +1092,6 @@
 
     mul-float v4, v4, v6
 
-    .line 25
     invoke-virtual {p1, v13}, Landroid/view/MotionEvent;->getY(I)F
 
     move-result p1
@@ -1208,12 +1106,10 @@
 
     mul-float p1, p1, v5
 
-    .line 26
     iget-boolean v5, p0, Lcom/commsource/camera/render/MTGifRenderProxy;->U:Z
 
     if-eqz v5, :cond_7
 
-    .line 27
     iget-wide v7, p0, Lcom/commsource/camera/render/MTGifRenderProxy;->O:J
 
     move v9, v1
@@ -1226,10 +1122,8 @@
 
     invoke-static/range {v7 .. v12}, Lcom/commsource/camera/render/MTGifRenderProxy;->nOnTouchBeginTwoFinger(JFFFF)V
 
-    .line 28
     iput-boolean v2, p0, Lcom/commsource/camera/render/MTGifRenderProxy;->U:Z
 
-    .line 29
     :cond_7
     iget-wide v7, p0, Lcom/commsource/camera/render/MTGifRenderProxy;->O:J
 
@@ -1245,18 +1139,15 @@
 
     goto :goto_0
 
-    .line 30
     :cond_8
     iget-boolean p1, p0, Lcom/commsource/camera/render/MTGifRenderProxy;->T:Z
 
     if-eqz p1, :cond_9
 
-    .line 31
     iget-wide v1, p0, Lcom/commsource/camera/render/MTGifRenderProxy;->O:J
 
     invoke-static {v1, v2}, Lcom/commsource/camera/render/MTGifRenderProxy;->nSetGIfImage(J)V
 
-    .line 32
     :cond_9
     new-instance p1, Lcom/commsource/camera/render/MTGifRenderProxy$d;
 
@@ -1269,22 +1160,18 @@
     :cond_a
     if-ne v6, v13, :cond_b
 
-    .line 33
     iget-wide v4, p0, Lcom/commsource/camera/render/MTGifRenderProxy;->O:J
 
     invoke-static {v4, v5, v1, v3}, Lcom/commsource/camera/render/MTGifRenderProxy;->nOnTouchBegin(JFF)V
 
-    .line 34
     iput-boolean v13, p0, Lcom/commsource/camera/render/MTGifRenderProxy;->T:Z
 
-    .line 35
     :cond_b
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v13
 
-    .line 36
     :cond_c
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1299,7 +1186,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/camera/render/MTGifRenderProxy;->p2()Z
 
     move-result v1
@@ -1308,12 +1194,10 @@
 
     const/4 v1, 0x0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
 
-    .line 3
     :cond_0
     iget-wide v1, p0, Lcom/commsource/camera/render/MTGifRenderProxy;->O:J
 
@@ -1333,14 +1217,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/commsource/camera/render/MTGifRenderProxy$e;
 
     invoke-direct {v1, p0}, Lcom/commsource/camera/render/MTGifRenderProxy$e;-><init>(Lcom/commsource/camera/render/MTGifRenderProxy;)V
 
     invoke-virtual {p0, v1}, Lcom/commsource/camera/render/c;->g(Ljava/lang/Runnable;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1353,25 +1235,21 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/camera/render/MTGifRenderProxy;->p2()Z
 
     move-result v1
 
     if-nez v1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 3
     :cond_0
     iget-wide v1, p0, Lcom/commsource/camera/render/MTGifRenderProxy;->O:J
 
     invoke-static {v1, v2, p1}, Lcom/commsource/camera/render/MTGifRenderProxy;->nSetAnimationStatus(JZ)V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1384,23 +1262,19 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/camera/render/MTGifRenderProxy;->p2()Z
 
     move-result v1
 
     if-nez v1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 3
     :cond_0
     invoke-direct {p0}, Lcom/commsource/camera/render/MTGifRenderProxy;->h2()V
 
-    .line 4
     iget v1, p0, Lcom/commsource/camera/render/MTGifRenderProxy;->R:I
 
     iget v2, p0, Lcom/commsource/camera/render/MTGifRenderProxy;->S:I
@@ -1417,7 +1291,6 @@
 
     div-float/2addr v1, v2
 
-    .line 5
     iget v2, p0, Lcom/commsource/camera/render/MTGifRenderProxy;->R:I
 
     iget v3, p0, Lcom/commsource/camera/render/MTGifRenderProxy;->S:I
@@ -1434,7 +1307,6 @@
 
     div-float/2addr v2, v3
 
-    .line 6
     iget-wide v3, p0, Lcom/commsource/camera/render/MTGifRenderProxy;->O:J
 
     iget v5, p1, Landroid/graphics/Rect;->left:I
@@ -1481,7 +1353,6 @@
 
     invoke-static/range {v3 .. v8}, Lcom/commsource/camera/render/MTGifRenderProxy;->nSetGifRect(JFFFF)V
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1494,21 +1365,16 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/render/MTGifRenderProxy;->W:Landroid/graphics/Rect;
 
     iput p1, v1, Landroid/graphics/Rect;->left:I
 
-    .line 2
     iput p2, v1, Landroid/graphics/Rect;->right:I
 
-    .line 3
     iput p3, v1, Landroid/graphics/Rect;->top:I
 
-    .line 4
     iput p4, v1, Landroid/graphics/Rect;->bottom:I
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1521,7 +1387,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/render/MTGifRenderProxy;->N:Lcom/commsource/camera/render/MTGifRenderProxy$g;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1536,13 +1401,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/camera/render/MTGifRenderProxy;->P:I
 
-    .line 2
     iput p2, p0, Lcom/commsource/camera/render/MTGifRenderProxy;->Q:I
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

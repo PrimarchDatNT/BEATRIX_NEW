@@ -20,7 +20,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-direct {p0, p1, p2, v0}, Lcom/google/common/hash/LittleEndianByteArray$UnsafeByteArray;-><init>(Ljava/lang/String;ILcom/google/common/hash/LittleEndianByteArray$a;)V
 
     return-void
@@ -31,7 +30,6 @@
 .method public getLongLittleEndian([BI)J
     .locals 5
 
-    .line 1
     invoke-static {}, Lcom/google/common/hash/LittleEndianByteArray$UnsafeByteArray;->access$200()Lsun/misc/Unsafe;
 
     move-result-object v0
@@ -56,7 +54,6 @@
 .method public putLongLittleEndian([BIJ)V
     .locals 6
 
-    .line 1
     invoke-static {}, Lcom/google/common/hash/LittleEndianByteArray$UnsafeByteArray;->access$200()Lsun/misc/Unsafe;
 
     move-result-object v0

@@ -19,7 +19,6 @@
 
     if-eqz p0, :cond_4
 
-    .line 1
     invoke-interface {p0}, Ljava/util/List;->isEmpty()Z
 
     move-result v0
@@ -28,13 +27,11 @@
 
     goto :goto_2
 
-    .line 2
     :cond_0
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
 
-    .line 3
     invoke-interface {p0}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
     move-result-object p0
@@ -55,7 +52,6 @@
 
     if-eqz v1, :cond_2
 
-    .line 4
     invoke-virtual {v1}, Lcom/google/android/gms/internal/firebase_auth/zzeu;->z()Ljava/lang/String;
 
     move-result-object v2
@@ -66,25 +62,20 @@
 
     if-nez v2, :cond_2
 
-    .line 5
     new-instance v2, Lcom/google/firebase/auth/zzac;
 
-    .line 6
     invoke-virtual {v1}, Lcom/google/android/gms/internal/firebase_auth/zzeu;->A()Ljava/lang/String;
 
     move-result-object v4
 
-    .line 7
     invoke-virtual {v1}, Lcom/google/android/gms/internal/firebase_auth/zzeu;->C()Ljava/lang/String;
 
     move-result-object v5
 
-    .line 8
     invoke-virtual {v1}, Lcom/google/android/gms/internal/firebase_auth/zzeu;->Q()J
 
     move-result-wide v6
 
-    .line 9
     invoke-virtual {v1}, Lcom/google/android/gms/internal/firebase_auth/zzeu;->z()Ljava/lang/String;
 
     move-result-object v8
@@ -101,7 +92,6 @@
     :goto_1
     if-eqz v2, :cond_1
 
-    .line 10
     invoke-interface {v0, v2}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
     goto :goto_0
@@ -109,7 +99,6 @@
     :cond_3
     return-object v0
 
-    .line 11
     :cond_4
     :goto_2
     invoke-static {}, Lcom/google/android/gms/internal/firebase_auth/zzay;->zzce()Lcom/google/android/gms/internal/firebase_auth/zzay;

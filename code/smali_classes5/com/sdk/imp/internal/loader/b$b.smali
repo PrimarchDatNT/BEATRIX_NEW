@@ -27,7 +27,6 @@
 .method constructor <init>(Lcom/sdk/imp/internal/loader/b;Ljava/lang/String;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/sdk/imp/internal/loader/b$b;->b:Lcom/sdk/imp/internal/loader/b;
 
     iput-object p2, p0, Lcom/sdk/imp/internal/loader/b$b;->a:Ljava/lang/String;
@@ -42,7 +41,6 @@
 .method public run()V
     .locals 2
 
-    .line 1
     :try_start_0
     invoke-static {}, Lcom/sdk/imp/internal/loader/i;->f()Lcom/sdk/imp/internal/loader/i;
 

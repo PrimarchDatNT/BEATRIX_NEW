@@ -36,10 +36,8 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     new-instance v0, Lokhttp3/OkHttpClient$Builder;
 
     invoke-direct {v0}, Lokhttp3/OkHttpClient$Builder;-><init>()V
@@ -56,7 +54,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lf/k/k/s$a;->b:Lokhttp3/OkHttpClient;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -75,25 +72,21 @@
 
     if-eqz p1, :cond_1
 
-    .line 1
     iget-object v1, p0, Lf/k/k/s$a;->d:Ljava/util/ArrayList;
 
     if-nez v1, :cond_0
 
-    .line 2
     new-instance v1, Ljava/util/ArrayList;
 
     invoke-direct {v1}, Ljava/util/ArrayList;-><init>()V
 
     iput-object v1, p0, Lf/k/k/s$a;->d:Ljava/util/ArrayList;
 
-    .line 3
     :cond_0
     iget-object v1, p0, Lf/k/k/s$a;->d:Ljava/util/ArrayList;
 
     invoke-virtual {v1, p1}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    .line 4
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -107,12 +100,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lf/k/k/s$a;->d:Ljava/util/ArrayList;
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-virtual {v1}, Ljava/util/ArrayList;->iterator()Ljava/util/Iterator;
 
     move-result-object v1
@@ -130,7 +121,6 @@
 
     check-cast v2, Lokhttp3/Interceptor;
 
-    .line 3
     new-instance v3, Ljava/lang/StringBuilder;
 
     invoke-direct {v3}, Ljava/lang/StringBuilder;-><init>()V
@@ -155,14 +145,12 @@
 
     invoke-static {v3}, Lf/k/k/m;->c(Ljava/lang/String;)V
 
-    .line 4
     iget-object v3, p0, Lf/k/k/s$a;->a:Lokhttp3/OkHttpClient$Builder;
 
     invoke-virtual {v3, v2}, Lokhttp3/OkHttpClient$Builder;->addNetworkInterceptor(Lokhttp3/Interceptor;)Lokhttp3/OkHttpClient$Builder;
 
     goto :goto_0
 
-    .line 5
     :cond_0
     iget-object v1, p0, Lf/k/k/s$a;->a:Lokhttp3/OkHttpClient$Builder;
 
@@ -176,7 +164,6 @@
 
     invoke-virtual {v1, v2}, Lokhttp3/OkHttpClient$Builder;->dispatcher(Lokhttp3/Dispatcher;)Lokhttp3/OkHttpClient$Builder;
 
-    .line 6
     iget-object v1, p0, Lf/k/k/s$a;->a:Lokhttp3/OkHttpClient$Builder;
 
     invoke-static {}, Lf/k/k/s;->l()Lf/k/k/s;
@@ -189,19 +176,16 @@
 
     invoke-virtual {v1, v2}, Lokhttp3/OkHttpClient$Builder;->connectionPool(Lokhttp3/ConnectionPool;)Lokhttp3/OkHttpClient$Builder;
 
-    .line 7
     iget-object v1, p0, Lf/k/k/s$a;->a:Lokhttp3/OkHttpClient$Builder;
 
     const/4 v2, 0x1
 
     invoke-virtual {v1, v2}, Lokhttp3/OkHttpClient$Builder;->followRedirects(Z)Lokhttp3/OkHttpClient$Builder;
 
-    .line 8
     iget-object v1, p0, Lf/k/k/s$a;->a:Lokhttp3/OkHttpClient$Builder;
 
     invoke-virtual {v1, v2}, Lokhttp3/OkHttpClient$Builder;->followSslRedirects(Z)Lokhttp3/OkHttpClient$Builder;
 
-    .line 9
     iget-object v1, p0, Lf/k/k/s$a;->a:Lokhttp3/OkHttpClient$Builder;
 
     invoke-virtual {v1}, Lokhttp3/OkHttpClient$Builder;->build()Lokhttp3/OkHttpClient;
@@ -210,7 +194,6 @@
 
     iput-object v1, p0, Lf/k/k/s$a;->b:Lokhttp3/OkHttpClient;
 
-    .line 10
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
@@ -223,14 +206,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lf/k/k/s$a;->a:Lokhttp3/OkHttpClient$Builder;
 
     sget-object v2, Ljava/util/concurrent/TimeUnit;->SECONDS:Ljava/util/concurrent/TimeUnit;
 
     invoke-virtual {v1, p1, p2, v2}, Lokhttp3/OkHttpClient$Builder;->connectTimeout(JLjava/util/concurrent/TimeUnit;)Lokhttp3/OkHttpClient$Builder;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
@@ -243,7 +224,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lf/k/k/s$a;->c:Lf/k/k/d$b;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -258,7 +238,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lf/k/k/s;->g()Ljava/lang/String;
 
     move-result-object v1
@@ -275,10 +254,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lf/k/k/s$a;->c:Lf/k/k/d$b;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0

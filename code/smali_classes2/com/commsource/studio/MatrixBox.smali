@@ -39,10 +39,8 @@
 .method public constructor <init>()V
     .locals 3
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     new-instance v0, Landroid/graphics/Matrix;
 
     invoke-direct {v0}, Landroid/graphics/Matrix;-><init>()V
@@ -53,27 +51,22 @@
 
     new-array v1, v1, [F
 
-    .line 3
     iput-object v1, p0, Lcom/commsource/studio/MatrixBox;->matrixFloat:[F
 
     const/16 v2, 0x10
 
     new-array v2, v2, [F
 
-    .line 4
     iput-object v2, p0, Lcom/commsource/studio/MatrixBox;->matrixInOpenGL:[F
 
-    .line 5
     new-instance v2, Landroid/graphics/Matrix;
 
     invoke-direct {v2}, Landroid/graphics/Matrix;-><init>()V
 
     iput-object v2, p0, Lcom/commsource/studio/MatrixBox;->invertMatrix:Landroid/graphics/Matrix;
 
-    .line 6
     invoke-virtual {v0}, Landroid/graphics/Matrix;->reset()V
 
-    .line 7
     invoke-virtual {v0, v1}, Landroid/graphics/Matrix;->getValues([F)V
 
     return-void
@@ -90,10 +83,8 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 14
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 15
     new-instance v0, Landroid/graphics/Matrix;
 
     invoke-direct {v0}, Landroid/graphics/Matrix;-><init>()V
@@ -104,24 +95,20 @@
 
     new-array v0, v0, [F
 
-    .line 16
     iput-object v0, p0, Lcom/commsource/studio/MatrixBox;->matrixFloat:[F
 
     const/16 v0, 0x10
 
     new-array v0, v0, [F
 
-    .line 17
     iput-object v0, p0, Lcom/commsource/studio/MatrixBox;->matrixInOpenGL:[F
 
-    .line 18
     new-instance v0, Landroid/graphics/Matrix;
 
     invoke-direct {v0}, Landroid/graphics/Matrix;-><init>()V
 
     iput-object v0, p0, Lcom/commsource/studio/MatrixBox;->invertMatrix:Landroid/graphics/Matrix;
 
-    .line 19
     invoke-virtual {p0, p1}, Lcom/commsource/studio/MatrixBox;->set(Landroid/graphics/Matrix;)V
 
     return-void
@@ -138,10 +125,8 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 8
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 9
     new-instance v0, Landroid/graphics/Matrix;
 
     invoke-direct {v0}, Landroid/graphics/Matrix;-><init>()V
@@ -152,24 +137,20 @@
 
     new-array v0, v0, [F
 
-    .line 10
     iput-object v0, p0, Lcom/commsource/studio/MatrixBox;->matrixFloat:[F
 
     const/16 v0, 0x10
 
     new-array v0, v0, [F
 
-    .line 11
     iput-object v0, p0, Lcom/commsource/studio/MatrixBox;->matrixInOpenGL:[F
 
-    .line 12
     new-instance v0, Landroid/graphics/Matrix;
 
     invoke-direct {v0}, Landroid/graphics/Matrix;-><init>()V
 
     iput-object v0, p0, Lcom/commsource/studio/MatrixBox;->invertMatrix:Landroid/graphics/Matrix;
 
-    .line 13
     invoke-virtual {p0, p1}, Lcom/commsource/studio/MatrixBox;->set(Lcom/commsource/studio/MatrixBox;)V
 
     return-void
@@ -221,7 +202,6 @@
 
     move-object v1, p1
 
-    .line 1
     invoke-virtual/range {v0 .. v5}, Lcom/commsource/studio/MatrixBox;->animateByMatrix(Lcom/commsource/studio/MatrixBox;JLcotlin/jvm/u/a;Lcotlin/jvm/u/a;)V
 
     invoke-static {p7}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -296,7 +276,6 @@
 
     move-object p8, v2
 
-    .line 1
     invoke-virtual/range {p2 .. p8}, Lcom/commsource/studio/MatrixBox;->animateToMatrix(Lcom/commsource/studio/MatrixBox;Landroid/graphics/PointF;JLcotlin/jvm/u/a;Lcotlin/jvm/u/a;)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -326,7 +305,6 @@
 
     const/4 p3, 0x0
 
-    .line 1
     :cond_1
     invoke-virtual {p0, p1, p2, p3}, Lcom/commsource/studio/MatrixBox;->postRotate(FFF)V
 
@@ -357,7 +335,6 @@
 
     const/4 p4, 0x0
 
-    .line 2
     :cond_1
     invoke-virtual {p0, p1, p2, p3, p4}, Lcom/commsource/studio/MatrixBox;->postScale(FFFF)V
 
@@ -388,7 +365,6 @@
 
     const/4 p3, 0x0
 
-    .line 1
     :cond_1
     invoke-virtual {p0, p1, p2, p3}, Lcom/commsource/studio/MatrixBox;->postScale(FFF)V
 
@@ -439,7 +415,6 @@
 
     invoke-static {v0, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object v1, v0, Lcom/commsource/studio/MatrixBox;->matrix:Landroid/graphics/Matrix;
 
     invoke-virtual {v1}, Landroid/graphics/Matrix;->isIdentity()Z
@@ -448,38 +423,31 @@
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-static {v10}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 3
     :cond_0
     invoke-virtual/range {p1 .. p1}, Lcom/commsource/studio/MatrixBox;->getTransX()F
 
     move-result v11
 
-    .line 4
     invoke-virtual/range {p1 .. p1}, Lcom/commsource/studio/MatrixBox;->getTransY()F
 
     move-result v12
 
-    .line 5
     invoke-virtual/range {p1 .. p1}, Lcom/commsource/studio/MatrixBox;->getScale()F
 
     move-result v13
 
-    .line 6
     invoke-virtual/range {p1 .. p1}, Lcom/commsource/studio/MatrixBox;->getRotate()F
 
     move-result v14
 
-    .line 7
     new-instance v15, Lcom/commsource/studio/MatrixBox;
 
     invoke-direct {v15}, Lcom/commsource/studio/MatrixBox;-><init>()V
 
-    .line 8
     iget-object v0, v9, Lcom/commsource/studio/MatrixBox;->matrixAnimator:Landroid/animation/ValueAnimator;
 
     if-nez v0, :cond_1
@@ -488,7 +456,6 @@
 
     new-array v0, v0, [F
 
-    .line 9
     fill-array-data v0, :array_0
 
     invoke-static {v0}, Landroid/animation/ValueAnimator;->ofFloat([F)Landroid/animation/ValueAnimator;
@@ -497,28 +464,21 @@
 
     move-wide/from16 v1, p2
 
-    .line 10
     invoke-virtual {v0, v1, v2}, Landroid/animation/ValueAnimator;->setDuration(J)Landroid/animation/ValueAnimator;
 
-    .line 11
     iput-object v0, v9, Lcom/commsource/studio/MatrixBox;->matrixAnimator:Landroid/animation/ValueAnimator;
 
-    .line 12
     :cond_1
     iget-object v8, v9, Lcom/commsource/studio/MatrixBox;->matrixAnimator:Landroid/animation/ValueAnimator;
 
     if-eqz v8, :cond_2
 
-    .line 13
     invoke-virtual {v8}, Landroid/animation/ValueAnimator;->removeAllUpdateListeners()V
 
-    .line 14
     invoke-virtual {v8}, Landroid/animation/ValueAnimator;->removeAllListeners()V
 
-    .line 15
     invoke-virtual {v8}, Landroid/animation/ValueAnimator;->cancel()V
 
-    .line 16
     new-instance v7, Lcom/commsource/studio/MatrixBox$a;
 
     move-object v0, v7
@@ -547,7 +507,6 @@
 
     invoke-virtual {v9, v10}, Landroid/animation/ValueAnimator;->addUpdateListener(Landroid/animation/ValueAnimator$AnimatorUpdateListener;)V
 
-    .line 17
     new-instance v10, Lcom/commsource/studio/MatrixBox$b;
 
     move-object v0, v10
@@ -556,13 +515,11 @@
 
     invoke-virtual {v9, v10}, Landroid/animation/ValueAnimator;->addListener(Landroid/animation/Animator$AnimatorListener;)V
 
-    .line 18
     invoke-virtual {v9}, Landroid/animation/ValueAnimator;->start()V
 
     :cond_2
     const/16 v0, 0x6e9a
 
-    .line 19
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -623,17 +580,14 @@
 
     invoke-static {v0, v2}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     new-instance v2, Lcom/commsource/studio/MatrixBox;
 
     invoke-direct {v2, v15}, Lcom/commsource/studio/MatrixBox;-><init>(Lcom/commsource/studio/MatrixBox;)V
 
-    .line 2
     new-instance v3, Lcom/commsource/studio/MatrixBox;
 
     invoke-direct {v3, v0}, Lcom/commsource/studio/MatrixBox;-><init>(Lcom/commsource/studio/MatrixBox;)V
 
-    .line 3
     new-instance v14, Lcom/commsource/studio/MatrixBox;
 
     invoke-direct {v14}, Lcom/commsource/studio/MatrixBox;-><init>()V
@@ -642,7 +596,6 @@
 
     if-eqz v1, :cond_0
 
-    .line 4
     iget v4, v1, Landroid/graphics/PointF;->x:F
 
     neg-float v4, v4
@@ -659,72 +612,59 @@
 
     invoke-virtual {v14, v4, v1}, Lcom/commsource/studio/MatrixBox;->postTranslate(FF)V
 
-    .line 5
     invoke-virtual {v14}, Lcom/commsource/studio/MatrixBox;->calculateInvertMatrixBox()Lcom/commsource/studio/MatrixBox;
 
     move-result-object v1
 
     invoke-virtual {v2, v1}, Lcom/commsource/studio/MatrixBox;->preConcat(Lcom/commsource/studio/MatrixBox;)V
 
-    .line 6
     invoke-virtual {v14}, Lcom/commsource/studio/MatrixBox;->calculateInvertMatrixBox()Lcom/commsource/studio/MatrixBox;
 
     move-result-object v1
 
     invoke-virtual {v3, v1}, Lcom/commsource/studio/MatrixBox;->preConcat(Lcom/commsource/studio/MatrixBox;)V
 
-    .line 7
     :cond_0
     invoke-virtual {v2}, Lcom/commsource/studio/MatrixBox;->getTransX()F
 
     move-result v18
 
-    .line 8
     invoke-virtual {v2}, Lcom/commsource/studio/MatrixBox;->getTransY()F
 
     move-result v19
 
-    .line 9
     invoke-virtual {v2}, Lcom/commsource/studio/MatrixBox;->getScaleX()F
 
     move-result v20
 
-    .line 10
     invoke-virtual {v2}, Lcom/commsource/studio/MatrixBox;->getScaleY()F
 
     move-result v21
 
-    .line 11
     invoke-virtual {v2}, Lcom/commsource/studio/MatrixBox;->getRotate()F
 
     move-result v22
 
-    .line 12
     invoke-virtual {v3}, Lcom/commsource/studio/MatrixBox;->getTransX()F
 
     move-result v23
 
-    .line 13
     invoke-virtual {v3}, Lcom/commsource/studio/MatrixBox;->getTransY()F
 
     move-result v24
 
-    .line 14
     invoke-virtual {v3}, Lcom/commsource/studio/MatrixBox;->getScaleX()F
 
     move-result v25
 
-    .line 15
     invoke-virtual {v3}, Lcom/commsource/studio/MatrixBox;->getScaleY()F
 
     move-result v26
 
-    .line 16
     invoke-virtual {v3}, Lcom/commsource/studio/MatrixBox;->getRotate()F
 
     move-result v27
 
-    .line 17
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -747,14 +687,12 @@
 
     invoke-static {v1, v2, v3, v0, v3}, Lcom/commsource/util/l0;->L(Ljava/lang/String;Ljava/lang/String;Lcom/meitu/library/util/Debug/Debug$DebugLevel;ILjava/lang/Object;)V
 
-    .line 18
     iget-object v1, v15, Lcom/commsource/studio/MatrixBox;->matrixAnimator:Landroid/animation/ValueAnimator;
 
     if-nez v1, :cond_1
 
     new-array v0, v0, [F
 
-    .line 19
     fill-array-data v0, :array_0
 
     invoke-static {v0}, Landroid/animation/ValueAnimator;->ofFloat([F)Landroid/animation/ValueAnimator;
@@ -763,7 +701,6 @@
 
     iput-object v0, v15, Lcom/commsource/studio/MatrixBox;->matrixAnimator:Landroid/animation/ValueAnimator;
 
-    .line 20
     :cond_1
     iget-object v13, v15, Lcom/commsource/studio/MatrixBox;->matrixAnimator:Landroid/animation/ValueAnimator;
 
@@ -771,26 +708,20 @@
 
     move-wide/from16 v11, p3
 
-    .line 21
     invoke-virtual {v13, v11, v12}, Landroid/animation/ValueAnimator;->setDuration(J)Landroid/animation/ValueAnimator;
 
-    .line 22
     invoke-virtual {v13}, Landroid/animation/ValueAnimator;->removeAllUpdateListeners()V
 
-    .line 23
     invoke-virtual {v13}, Landroid/animation/ValueAnimator;->removeAllListeners()V
 
-    .line 24
     invoke-virtual {v13}, Landroid/animation/ValueAnimator;->cancel()V
 
-    .line 25
     new-instance v0, Landroid/view/animation/AccelerateDecelerateInterpolator;
 
     invoke-direct {v0}, Landroid/view/animation/AccelerateDecelerateInterpolator;-><init>()V
 
     invoke-virtual {v13, v0}, Landroid/animation/ValueAnimator;->setInterpolator(Landroid/animation/TimeInterpolator;)V
 
-    .line 26
     new-instance v10, Lcom/commsource/studio/MatrixBox$c;
 
     move-object v0, v10
@@ -837,7 +768,6 @@
 
     invoke-virtual {v15, v0}, Landroid/animation/ValueAnimator;->addUpdateListener(Landroid/animation/ValueAnimator$AnimatorUpdateListener;)V
 
-    .line 27
     new-instance v14, Lcom/commsource/studio/MatrixBox$d;
 
     move-object v0, v14
@@ -858,10 +788,8 @@
 
     invoke-virtual {v0, v1}, Landroid/animation/ValueAnimator;->addListener(Landroid/animation/Animator$AnimatorListener;)V
 
-    .line 28
     invoke-virtual {v0}, Landroid/animation/ValueAnimator;->start()V
 
-    .line 29
     :cond_2
     invoke-static/range {v17 .. v17}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -885,14 +813,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/MatrixBox;->matrix:Landroid/graphics/Matrix;
 
     iget-object v2, p0, Lcom/commsource/studio/MatrixBox;->invertMatrix:Landroid/graphics/Matrix;
 
     invoke-virtual {v1, v2}, Landroid/graphics/Matrix;->invert(Landroid/graphics/Matrix;)Z
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/MatrixBox;->invertMatrix:Landroid/graphics/Matrix;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -909,14 +835,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/MatrixBox;->matrix:Landroid/graphics/Matrix;
 
     iget-object v2, p0, Lcom/commsource/studio/MatrixBox;->invertMatrix:Landroid/graphics/Matrix;
 
     invoke-virtual {v1, v2}, Landroid/graphics/Matrix;->invert(Landroid/graphics/Matrix;)Z
 
-    .line 2
     new-instance v1, Lcom/commsource/studio/MatrixBox;
 
     iget-object v2, p0, Lcom/commsource/studio/MatrixBox;->invertMatrix:Landroid/graphics/Matrix;
@@ -935,14 +859,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/MatrixBox;->matrixAnimator:Landroid/animation/ValueAnimator;
 
     if-eqz v1, :cond_0
 
     invoke-virtual {v1}, Landroid/animation/ValueAnimator;->cancel()V
 
-    .line 2
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -958,26 +880,22 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/commsource/studio/MatrixBox;
 
     invoke-direct {v1}, Lcom/commsource/studio/MatrixBox;-><init>()V
 
-    .line 2
     iget-object v2, v1, Lcom/commsource/studio/MatrixBox;->matrix:Landroid/graphics/Matrix;
 
     iget-object v3, p0, Lcom/commsource/studio/MatrixBox;->matrix:Landroid/graphics/Matrix;
 
     invoke-virtual {v2, v3}, Landroid/graphics/Matrix;->set(Landroid/graphics/Matrix;)V
 
-    .line 3
     iget-object v2, v1, Lcom/commsource/studio/MatrixBox;->invertMatrix:Landroid/graphics/Matrix;
 
     iget-object v3, p0, Lcom/commsource/studio/MatrixBox;->invertMatrix:Landroid/graphics/Matrix;
 
     invoke-virtual {v2, v3}, Landroid/graphics/Matrix;->set(Landroid/graphics/Matrix;)V
 
-    .line 4
     iget-object v2, p0, Lcom/commsource/studio/MatrixBox;->matrixInOpenGL:[F
 
     iget-object v3, v1, Lcom/commsource/studio/MatrixBox;->matrixInOpenGL:[F
@@ -988,7 +906,6 @@
 
     invoke-static {v2, v5, v3, v5, v4}, Ljava/lang/System;->arraycopy(Ljava/lang/Object;ILjava/lang/Object;II)V
 
-    .line 5
     iget-object v2, p0, Lcom/commsource/studio/MatrixBox;->matrixFloat:[F
 
     iget-object v3, v1, Lcom/commsource/studio/MatrixBox;->matrixFloat:[F
@@ -997,7 +914,6 @@
 
     invoke-static {v2, v5, v3, v5, v4}, Ljava/lang/System;->arraycopy(Ljava/lang/Object;ILjava/lang/Object;II)V
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
@@ -1018,12 +934,10 @@
 
     if-ne p0, p1, :cond_0
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
 
-    .line 2
     :cond_0
     instance-of v2, p1, Lcom/commsource/studio/MatrixBox;
 
@@ -1031,12 +945,10 @@
 
     if-nez v2, :cond_1
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v3
 
-    .line 4
     :cond_1
     iget-object v2, p0, Lcom/commsource/studio/MatrixBox;->matrix:Landroid/graphics/Matrix;
 
@@ -1052,12 +964,10 @@
 
     if-eqz v2, :cond_2
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v3
 
-    .line 6
     :cond_2
     iget-object v2, p0, Lcom/commsource/studio/MatrixBox;->matrixFloat:[F
 
@@ -1069,12 +979,10 @@
 
     if-nez p1, :cond_3
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v3
 
-    .line 8
     :cond_3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1088,7 +996,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/studio/MatrixBox;->flipX:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1103,7 +1010,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/studio/MatrixBox;->flipY:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1120,7 +1026,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/MatrixBox;->matrix:Landroid/graphics/Matrix;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1137,7 +1042,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/MatrixBox;->matrixAnimator:Landroid/animation/ValueAnimator;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1154,7 +1058,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/MatrixBox;->matrixFloat:[F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1171,14 +1074,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/MatrixBox;->matrixInOpenGL:[F
 
     const/4 v2, 0x0
 
     invoke-static {v1, v2}, Landroid/opengl/Matrix;->setIdentityM([FI)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/MatrixBox;->matrixInOpenGL:[F
 
     invoke-virtual {p0}, Lcom/commsource/studio/MatrixBox;->getScale()F
@@ -1187,7 +1088,6 @@
 
     aput v3, v1, v2
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/studio/MatrixBox;->matrixInOpenGL:[F
 
     invoke-virtual {p0}, Lcom/commsource/studio/MatrixBox;->getScale()F
@@ -1198,7 +1098,6 @@
 
     aput v2, v1, v3
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/studio/MatrixBox;->matrixInOpenGL:[F
 
     iget-object v2, p0, Lcom/commsource/studio/MatrixBox;->matrixFloat:[F
@@ -1219,7 +1118,6 @@
 
     aput v5, v1, v4
 
-    .line 5
     aget v2, v2, v3
 
     neg-float v2, v2
@@ -1234,7 +1132,6 @@
 
     aput v2, v1, p1
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
@@ -1255,17 +1152,14 @@
 
     const/4 v2, 0x0
 
-    .line 1
     invoke-static {v1, v2}, Landroid/opengl/Matrix;->setIdentityM([FI)V
 
-    .line 2
     new-instance v3, Lcom/commsource/studio/MatrixBox;
 
     iget-object v4, p0, Lcom/commsource/studio/MatrixBox;->matrix:Landroid/graphics/Matrix;
 
     invoke-direct {v3, v4}, Lcom/commsource/studio/MatrixBox;-><init>(Landroid/graphics/Matrix;)V
 
-    .line 3
     new-instance v4, Lcom/commsource/studio/MatrixBox;
 
     invoke-direct {v4}, Lcom/commsource/studio/MatrixBox;-><init>()V
@@ -1280,29 +1174,22 @@
 
     div-float v5, p4, v5
 
-    .line 4
     invoke-virtual {v4, v6, v5}, Lcom/commsource/studio/MatrixBox;->postTranslate(FF)V
 
-    .line 5
     invoke-virtual {v4}, Lcom/commsource/studio/MatrixBox;->calculateInvertMatrixBox()Lcom/commsource/studio/MatrixBox;
 
     move-result-object v4
 
-    .line 6
     invoke-virtual {v3, v4}, Lcom/commsource/studio/MatrixBox;->postConcat(Lcom/commsource/studio/MatrixBox;)V
 
-    .line 7
     new-instance v4, Lcom/commsource/studio/MatrixBox;
 
     invoke-direct {v4}, Lcom/commsource/studio/MatrixBox;-><init>()V
 
-    .line 8
     invoke-virtual {v4, v6, v5}, Lcom/commsource/studio/MatrixBox;->postTranslate(FF)V
 
-    .line 9
     invoke-virtual {v3, v4}, Lcom/commsource/studio/MatrixBox;->preConcat(Lcom/commsource/studio/MatrixBox;)V
 
-    .line 10
     iget-object v3, v3, Lcom/commsource/studio/MatrixBox;->matrixFloat:[F
 
     int-to-float p1, p1
@@ -1313,24 +1200,20 @@
 
     div-float/2addr p2, p4
 
-    .line 11
     invoke-static {p1, p2}, Ljava/lang/Math;->max(FF)F
 
     move-result p1
 
-    .line 12
     aget p2, v3, v2
 
     mul-float p2, p2, p1
 
     const/4 p1, 0x2
 
-    .line 13
     aget v4, v3, p1
 
     const/4 v5, 0x5
 
-    .line 14
     aget v3, v3, v5
 
     div-float/2addr v4, p3
@@ -1347,13 +1230,10 @@
 
     const/high16 p1, 0x3f800000    # 1.0f
 
-    .line 15
     invoke-static {v1, v2, v4, p3, p1}, Landroid/opengl/Matrix;->translateM([FIFFF)V
 
-    .line 16
     invoke-static {v1, v2, p2, p2, p1}, Landroid/opengl/Matrix;->scaleM([FIFFF)V
 
-    .line 17
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
@@ -1366,12 +1246,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/MatrixBox;->matrixFloat:[F
 
     const/4 v2, 0x1
 
-    .line 2
     aget v2, v1, v2
 
     const/4 v3, 0x0
@@ -1410,7 +1288,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/MatrixBox;->matrixFloat:[F
 
     const/4 v2, 0x0
@@ -1451,12 +1328,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/studio/MatrixBox;->flipX:Z
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-virtual {p0}, Lcom/commsource/studio/MatrixBox;->getScale()F
 
     move-result v1
@@ -1465,13 +1340,11 @@
 
     goto :goto_0
 
-    .line 3
     :cond_0
     invoke-virtual {p0}, Lcom/commsource/studio/MatrixBox;->getScale()F
 
     move-result v1
 
-    .line 4
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1485,12 +1358,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/studio/MatrixBox;->flipY:Z
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-virtual {p0}, Lcom/commsource/studio/MatrixBox;->getScale()F
 
     move-result v1
@@ -1499,13 +1370,11 @@
 
     goto :goto_0
 
-    .line 3
     :cond_0
     invoke-virtual {p0}, Lcom/commsource/studio/MatrixBox;->getScale()F
 
     move-result v1
 
-    .line 4
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1519,7 +1388,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/MatrixBox;->matrixFloat:[F
 
     const/4 v2, 0x2
@@ -1538,7 +1406,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/MatrixBox;->matrixFloat:[F
 
     const/4 v2, 0x5
@@ -1557,7 +1424,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/MatrixBox;->matrix:Landroid/graphics/Matrix;
 
     invoke-virtual {v1}, Landroid/graphics/Matrix;->hashCode()I
@@ -1566,7 +1432,6 @@
 
     mul-int/lit8 v1, v1, 0x1f
 
-    .line 2
     iget-object v2, p0, Lcom/commsource/studio/MatrixBox;->matrixFloat:[F
 
     invoke-static {v2}, Ljava/util/Arrays;->hashCode([F)I
@@ -1575,7 +1440,6 @@
 
     add-int/2addr v1, v2
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
@@ -1596,7 +1460,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     array-length v1, p1
 
     const/4 v2, 0x0
@@ -1606,7 +1469,6 @@
 
     aget-object v3, p1, v2
 
-    .line 2
     iget-object v4, p0, Lcom/commsource/studio/MatrixBox;->matrix:Landroid/graphics/Matrix;
 
     invoke-virtual {v4, v3}, Landroid/graphics/Matrix;->mapPoints([F)V
@@ -1615,7 +1477,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1637,21 +1498,18 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/MatrixBox;->matrix:Landroid/graphics/Matrix;
 
     iget-object p1, p1, Lcom/commsource/studio/MatrixBox;->matrix:Landroid/graphics/Matrix;
 
     invoke-virtual {v1, p1}, Landroid/graphics/Matrix;->postConcat(Landroid/graphics/Matrix;)Z
 
-    .line 2
     iget-object p1, p0, Lcom/commsource/studio/MatrixBox;->matrix:Landroid/graphics/Matrix;
 
     iget-object v1, p0, Lcom/commsource/studio/MatrixBox;->matrixFloat:[F
 
     invoke-virtual {p1, v1}, Landroid/graphics/Matrix;->getValues([F)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1664,19 +1522,16 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/MatrixBox;->matrix:Landroid/graphics/Matrix;
 
     invoke-virtual {v1, p1, p2, p3}, Landroid/graphics/Matrix;->postRotate(FFF)Z
 
-    .line 2
     iget-object p1, p0, Lcom/commsource/studio/MatrixBox;->matrix:Landroid/graphics/Matrix;
 
     iget-object p2, p0, Lcom/commsource/studio/MatrixBox;->matrixFloat:[F
 
     invoke-virtual {p1, p2}, Landroid/graphics/Matrix;->getValues([F)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1689,19 +1544,16 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/MatrixBox;->matrix:Landroid/graphics/Matrix;
 
     invoke-virtual {v1, p1, p1, p2, p3}, Landroid/graphics/Matrix;->postScale(FFFF)Z
 
-    .line 2
     iget-object p1, p0, Lcom/commsource/studio/MatrixBox;->matrix:Landroid/graphics/Matrix;
 
     iget-object p2, p0, Lcom/commsource/studio/MatrixBox;->matrixFloat:[F
 
     invoke-virtual {p1, p2}, Landroid/graphics/Matrix;->getValues([F)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1714,19 +1566,16 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/studio/MatrixBox;->matrix:Landroid/graphics/Matrix;
 
     invoke-virtual {v1, p1, p2, p3, p4}, Landroid/graphics/Matrix;->postScale(FFFF)Z
 
-    .line 5
     iget-object p1, p0, Lcom/commsource/studio/MatrixBox;->matrix:Landroid/graphics/Matrix;
 
     iget-object p2, p0, Lcom/commsource/studio/MatrixBox;->matrixFloat:[F
 
     invoke-virtual {p1, p2}, Landroid/graphics/Matrix;->getValues([F)V
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1739,19 +1588,16 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/MatrixBox;->matrix:Landroid/graphics/Matrix;
 
     invoke-virtual {v1, p1, p2}, Landroid/graphics/Matrix;->postTranslate(FF)Z
 
-    .line 2
     iget-object p1, p0, Lcom/commsource/studio/MatrixBox;->matrix:Landroid/graphics/Matrix;
 
     iget-object p2, p0, Lcom/commsource/studio/MatrixBox;->matrixFloat:[F
 
     invoke-virtual {p1, p2}, Landroid/graphics/Matrix;->getValues([F)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1772,21 +1618,18 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/MatrixBox;->matrix:Landroid/graphics/Matrix;
 
     iget-object p1, p1, Lcom/commsource/studio/MatrixBox;->matrix:Landroid/graphics/Matrix;
 
     invoke-virtual {v1, p1}, Landroid/graphics/Matrix;->preConcat(Landroid/graphics/Matrix;)Z
 
-    .line 2
     iget-object p1, p0, Lcom/commsource/studio/MatrixBox;->matrix:Landroid/graphics/Matrix;
 
     iget-object v1, p0, Lcom/commsource/studio/MatrixBox;->matrixFloat:[F
 
     invoke-virtual {p1, v1}, Landroid/graphics/Matrix;->getValues([F)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1799,19 +1642,16 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/MatrixBox;->matrix:Landroid/graphics/Matrix;
 
     invoke-virtual {v1, p1, p2}, Landroid/graphics/Matrix;->preTranslate(FF)Z
 
-    .line 2
     iget-object p1, p0, Lcom/commsource/studio/MatrixBox;->matrix:Landroid/graphics/Matrix;
 
     iget-object p2, p0, Lcom/commsource/studio/MatrixBox;->matrixFloat:[F
 
     invoke-virtual {p1, p2}, Landroid/graphics/Matrix;->getValues([F)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1824,19 +1664,16 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/MatrixBox;->matrix:Landroid/graphics/Matrix;
 
     invoke-virtual {v1}, Landroid/graphics/Matrix;->reset()V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/MatrixBox;->matrix:Landroid/graphics/Matrix;
 
     iget-object v2, p0, Lcom/commsource/studio/MatrixBox;->matrixFloat:[F
 
     invoke-virtual {v1, v2}, Landroid/graphics/Matrix;->getValues([F)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1849,7 +1686,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 11
     iget-object v1, p0, Lcom/commsource/studio/MatrixBox;->matrix:Landroid/graphics/Matrix;
 
     invoke-virtual {v1}, Landroid/graphics/Matrix;->reset()V
@@ -1866,7 +1702,6 @@
 
     move v3, p5
 
-    .line 12
     invoke-static/range {v2 .. v7}, Lcom/commsource/studio/MatrixBox;->postScale$default(Lcom/commsource/studio/MatrixBox;FFFILjava/lang/Object;)V
 
     int-to-float p1, p1
@@ -1889,16 +1724,12 @@
 
     sub-float p2, p4, p2
 
-    .line 13
     invoke-virtual {p0, p1, p2}, Lcom/commsource/studio/MatrixBox;->postTranslate(FF)V
 
-    .line 14
     invoke-virtual {p0, p6, p3, p4}, Lcom/commsource/studio/MatrixBox;->postRotate(FFF)V
 
-    .line 15
     invoke-virtual {p0}, Lcom/commsource/studio/MatrixBox;->updateMatrixFloat()V
 
-    .line 16
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1919,7 +1750,6 @@
 
     invoke-static {p5, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 17
     invoke-virtual {p5}, Lcom/commsource/studio/layer/Position;->getCenterOffset()Landroid/graphics/PointF;
 
     move-result-object v1
@@ -1930,7 +1760,6 @@
 
     mul-float v6, v1, v2
 
-    .line 18
     invoke-virtual {p5}, Lcom/commsource/studio/layer/Position;->getCenterOffset()Landroid/graphics/PointF;
 
     move-result-object v1
@@ -1947,7 +1776,6 @@
 
     if-le p1, p2, :cond_0
 
-    .line 19
     invoke-virtual {p5}, Lcom/commsource/studio/layer/Position;->getRatio()F
 
     move-result p1
@@ -1962,7 +1790,6 @@
 
     goto :goto_0
 
-    .line 20
     :cond_0
     invoke-virtual {p5}, Lcom/commsource/studio/layer/Position;->getRatio()F
 
@@ -1976,7 +1803,6 @@
 
     move v8, v2
 
-    .line 21
     :goto_0
     invoke-virtual {p5}, Lcom/commsource/studio/layer/Position;->getRotate()F
 
@@ -1990,7 +1816,6 @@
 
     invoke-virtual/range {v3 .. v9}, Lcom/commsource/studio/MatrixBox;->set(IIFFFF)V
 
-    .line 22
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2011,12 +1836,10 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 6
     iget-object v1, p0, Lcom/commsource/studio/MatrixBox;->matrix:Landroid/graphics/Matrix;
 
     invoke-virtual {v1, p1}, Landroid/graphics/Matrix;->set(Landroid/graphics/Matrix;)V
 
-    .line 7
     iget-object p1, p0, Lcom/commsource/studio/MatrixBox;->matrix:Landroid/graphics/Matrix;
 
     iget-object v1, p0, Lcom/commsource/studio/MatrixBox;->matrixFloat:[F
@@ -2025,13 +1848,10 @@
 
     const/4 p1, 0x0
 
-    .line 8
     iput-boolean p1, p0, Lcom/commsource/studio/MatrixBox;->flipX:Z
 
-    .line 9
     iput-boolean p1, p0, Lcom/commsource/studio/MatrixBox;->flipY:Z
 
-    .line 10
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2052,31 +1872,26 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/MatrixBox;->matrix:Landroid/graphics/Matrix;
 
     iget-object v2, p1, Lcom/commsource/studio/MatrixBox;->matrix:Landroid/graphics/Matrix;
 
     invoke-virtual {v1, v2}, Landroid/graphics/Matrix;->set(Landroid/graphics/Matrix;)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/MatrixBox;->matrix:Landroid/graphics/Matrix;
 
     iget-object v2, p0, Lcom/commsource/studio/MatrixBox;->matrixFloat:[F
 
     invoke-virtual {v1, v2}, Landroid/graphics/Matrix;->getValues([F)V
 
-    .line 3
     iget-boolean v1, p1, Lcom/commsource/studio/MatrixBox;->flipX:Z
 
     iput-boolean v1, p0, Lcom/commsource/studio/MatrixBox;->flipX:Z
 
-    .line 4
     iget-boolean p1, p1, Lcom/commsource/studio/MatrixBox;->flipY:Z
 
     iput-boolean p1, p0, Lcom/commsource/studio/MatrixBox;->flipY:Z
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2089,7 +1904,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/studio/MatrixBox;->flipX:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2104,7 +1918,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/studio/MatrixBox;->flipY:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2123,7 +1936,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/MatrixBox;->matrixAnimator:Landroid/animation/ValueAnimator;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2138,7 +1950,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/MatrixBox;->matrixFloat:[F
 
     const/4 v2, 0x0
@@ -2147,15 +1958,12 @@
 
     const/4 v2, 0x4
 
-    .line 2
     aput p1, v1, v2
 
-    .line 3
     iget-object p1, p0, Lcom/commsource/studio/MatrixBox;->matrix:Landroid/graphics/Matrix;
 
     invoke-virtual {p1, v1}, Landroid/graphics/Matrix;->setValues([F)V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2168,19 +1976,16 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/MatrixBox;->matrixFloat:[F
 
     const/4 v2, 0x2
 
     aput p1, v1, v2
 
-    .line 2
     iget-object p1, p0, Lcom/commsource/studio/MatrixBox;->matrix:Landroid/graphics/Matrix;
 
     invoke-virtual {p1, v1}, Landroid/graphics/Matrix;->setValues([F)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2193,19 +1998,16 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/MatrixBox;->matrixFloat:[F
 
     const/4 v2, 0x5
 
     aput p1, v1, v2
 
-    .line 2
     iget-object p1, p0, Lcom/commsource/studio/MatrixBox;->matrix:Landroid/graphics/Matrix;
 
     invoke-virtual {p1, v1}, Landroid/graphics/Matrix;->setValues([F)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2218,14 +2020,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/MatrixBox;->matrix:Landroid/graphics/Matrix;
 
     iget-object v2, p0, Lcom/commsource/studio/MatrixBox;->matrixFloat:[F
 
     invoke-virtual {v1, v2}, Landroid/graphics/Matrix;->getValues([F)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

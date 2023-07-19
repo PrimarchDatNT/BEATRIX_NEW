@@ -19,7 +19,6 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
     new-instance v0, Lcom/mopub/network/InetAddressUtils;
 
     invoke-direct {v0}, Lcom/mopub/network/InetAddressUtils;-><init>()V
@@ -32,7 +31,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -56,7 +54,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     sget-object v0, Lcom/mopub/network/InetAddressUtils;->mockInetAddress:Ljava/net/InetAddress;
 
     if-eqz v0, :cond_0
@@ -92,7 +89,6 @@
     .annotation runtime Lcotlin/jvm/k;
     .end annotation
 
-    .line 1
     sput-object p0, Lcom/mopub/network/InetAddressUtils;->mockInetAddress:Ljava/net/InetAddress;
 
     return-void

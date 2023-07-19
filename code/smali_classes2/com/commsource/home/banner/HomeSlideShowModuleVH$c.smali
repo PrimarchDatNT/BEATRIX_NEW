@@ -29,7 +29,6 @@
 
     iput-object p2, p0, Lcom/commsource/home/banner/HomeSlideShowModuleVH$c;->b:Lcom/commsource/widget/infiniteview/InfinitePagerLayoutManager;
 
-    .line 1
     invoke-direct {p0}, Landroidx/recyclerview/widget/RecyclerView$OnScrollListener;-><init>()V
 
     return-void
@@ -56,7 +55,6 @@
 
     if-ne p2, p1, :cond_0
 
-    .line 1
     iget-object p1, p0, Lcom/commsource/home/banner/HomeSlideShowModuleVH$c;->a:Lcom/commsource/home/banner/HomeSlideShowModuleVH;
 
     invoke-static {p1}, Lcom/commsource/home/banner/HomeSlideShowModuleVH;->J(Lcom/commsource/home/banner/HomeSlideShowModuleVH;)V
@@ -66,12 +64,10 @@
     :cond_0
     if-nez p2, :cond_1
 
-    .line 2
     iget-object p1, p0, Lcom/commsource/home/banner/HomeSlideShowModuleVH$c;->a:Lcom/commsource/home/banner/HomeSlideShowModuleVH;
 
     invoke-static {p1}, Lcom/commsource/home/banner/HomeSlideShowModuleVH;->I(Lcom/commsource/home/banner/HomeSlideShowModuleVH;)V
 
-    .line 3
     :cond_1
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

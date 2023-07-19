@@ -28,7 +28,6 @@
 .method private constructor <init>(Lcom/commsource/beautyplus/setting/country/ChooseCountryActivity;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/beautyplus/setting/country/ChooseCountryActivity$f;->a:Lcom/commsource/beautyplus/setting/country/ChooseCountryActivity;
 
     invoke-direct {p0}, Landroidx/recyclerview/widget/RecyclerView$Adapter;-><init>()V
@@ -39,7 +38,6 @@
 .method synthetic constructor <init>(Lcom/commsource/beautyplus/setting/country/ChooseCountryActivity;Lcom/commsource/beautyplus/setting/country/ChooseCountryActivity$a;)V
     .locals 0
 
-    .line 2
     invoke-direct {p0, p1}, Lcom/commsource/beautyplus/setting/country/ChooseCountryActivity$f;-><init>(Lcom/commsource/beautyplus/setting/country/ChooseCountryActivity;)V
 
     return-void
@@ -54,7 +52,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/beautyplus/setting/country/ChooseCountryActivity$f;->a:Lcom/commsource/beautyplus/setting/country/ChooseCountryActivity;
 
     invoke-static {v1}, Lcom/commsource/beautyplus/setting/country/ChooseCountryActivity;->N0(Lcom/commsource/beautyplus/setting/country/ChooseCountryActivity;)Ljava/util/List;
@@ -77,7 +74,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/beautyplus/setting/country/ChooseCountryActivity$f;->a:Lcom/commsource/beautyplus/setting/country/ChooseCountryActivity;
 
     invoke-static {v1}, Lcom/commsource/beautyplus/setting/country/ChooseCountryActivity;->N0(Lcom/commsource/beautyplus/setting/country/ChooseCountryActivity;)Ljava/util/List;
@@ -90,7 +86,6 @@
 
     check-cast v1, Lcom/commsource/beautyplus/setting/country/github/a;
 
-    .line 2
     check-cast p1, Lcom/commsource/beautyplus/setting/country/ChooseCountryActivity$f$a;
 
     const/16 v2, 0x8
@@ -99,7 +94,6 @@
 
     if-eqz p2, :cond_1
 
-    .line 3
     iget-object v4, p0, Lcom/commsource/beautyplus/setting/country/ChooseCountryActivity$f;->a:Lcom/commsource/beautyplus/setting/country/ChooseCountryActivity;
 
     invoke-static {v4}, Lcom/commsource/beautyplus/setting/country/ChooseCountryActivity;->N0(Lcom/commsource/beautyplus/setting/country/ChooseCountryActivity;)Ljava/util/List;
@@ -130,7 +124,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_0
     iget-object p2, p1, Lcom/commsource/beautyplus/setting/country/ChooseCountryActivity$f$a;->a:Landroid/widget/TextView;
 
@@ -138,14 +131,12 @@
 
     goto :goto_1
 
-    .line 5
     :cond_1
     :goto_0
     iget-object p2, p1, Lcom/commsource/beautyplus/setting/country/ChooseCountryActivity$f$a;->a:Landroid/widget/TextView;
 
     invoke-virtual {p2, v3}, Landroid/widget/TextView;->setVisibility(I)V
 
-    .line 6
     iget-object p2, p1, Lcom/commsource/beautyplus/setting/country/ChooseCountryActivity$f$a;->a:Landroid/widget/TextView;
 
     invoke-virtual {v1}, Lcom/commsource/beautyplus/setting/country/github/a;->b()Ljava/lang/String;
@@ -154,7 +145,6 @@
 
     invoke-virtual {p2, v4}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 7
     :goto_1
     iget-object p2, p0, Lcom/commsource/beautyplus/setting/country/ChooseCountryActivity$f;->a:Lcom/commsource/beautyplus/setting/country/ChooseCountryActivity;
 
@@ -188,20 +178,17 @@
 
     if-eqz p2, :cond_2
 
-    .line 8
     iget-object p2, p1, Lcom/commsource/beautyplus/setting/country/ChooseCountryActivity$f$a;->c:Landroid/widget/ImageView;
 
     invoke-virtual {p2, v3}, Landroid/widget/ImageView;->setVisibility(I)V
 
     goto :goto_2
 
-    .line 9
     :cond_2
     iget-object p2, p1, Lcom/commsource/beautyplus/setting/country/ChooseCountryActivity$f$a;->c:Landroid/widget/ImageView;
 
     invoke-virtual {p2, v2}, Landroid/widget/ImageView;->setVisibility(I)V
 
-    .line 10
     :goto_2
     iget-object p1, p1, Lcom/commsource/beautyplus/setting/country/ChooseCountryActivity$f$a;->b:Landroid/widget/TextView;
 
@@ -211,7 +198,6 @@
 
     invoke-virtual {p1, p2}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 11
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -224,7 +210,6 @@
 
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p1}, Landroid/view/ViewGroup;->getContext()Landroid/content/Context;
 
     move-result-object p1
@@ -241,7 +226,6 @@
 
     move-result-object p1
 
-    .line 2
     new-instance v0, Lcom/commsource/beautyplus/setting/country/ChooseCountryActivity$f$a;
 
     invoke-direct {v0, p0, p1}, Lcom/commsource/beautyplus/setting/country/ChooseCountryActivity$f$a;-><init>(Lcom/commsource/beautyplus/setting/country/ChooseCountryActivity$f;Landroid/view/View;)V

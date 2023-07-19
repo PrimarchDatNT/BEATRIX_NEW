@@ -11,10 +11,8 @@
 .method private constructor <init>(Lcom/google/android/gms/internal/ads/yo2;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/google/android/gms/ads/t;->a:Lcom/google/android/gms/internal/ads/yo2;
 
     return-void
@@ -31,7 +29,6 @@
 
     if-eqz p0, :cond_0
 
-    .line 1
     new-instance v0, Lcom/google/android/gms/ads/t;
 
     invoke-direct {v0, p0}, Lcom/google/android/gms/ads/t;-><init>(Lcom/google/android/gms/internal/ads/yo2;)V
@@ -51,7 +48,6 @@
     .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
-    .line 1
     :try_start_0
     iget-object v0, p0, Lcom/google/android/gms/ads/t;->a:Lcom/google/android/gms/internal/ads/yo2;
 
@@ -68,7 +64,6 @@
 
     const-string v1, "Could not forward getMediationAdapterClassName to ResponseInfo."
 
-    .line 2
     invoke-static {v1, v0}, Lcom/google/android/gms/internal/ads/aq;->c(Ljava/lang/String;Ljava/lang/Throwable;)V
 
     const/4 v0, 0x0
@@ -81,7 +76,6 @@
     .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
-    .line 1
     :try_start_0
     iget-object v0, p0, Lcom/google/android/gms/ads/t;->a:Lcom/google/android/gms/internal/ads/yo2;
 
@@ -98,7 +92,6 @@
 
     const-string v1, "Could not forward getResponseId to ResponseInfo."
 
-    .line 2
     invoke-static {v1, v0}, Lcom/google/android/gms/internal/ads/aq;->c(Ljava/lang/String;Ljava/lang/Throwable;)V
 
     const/4 v0, 0x0

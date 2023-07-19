@@ -35,19 +35,16 @@
 
     const/4 v1, 0x0
 
-    .line 1
     sput-object v1, Lcom/meitu/webview/mtscript/MTCommandOpenCameraScript;->i:Ljava/lang/String;
 
     const/4 v1, 0x0
 
-    .line 2
     sput v1, Lcom/meitu/webview/mtscript/MTCommandOpenCameraScript;->j:I
 
     sput v1, Lcom/meitu/webview/mtscript/MTCommandOpenCameraScript;->k:I
 
     const-string v1, "0"
 
-    .line 3
     sput-object v1, Lcom/meitu/webview/mtscript/MTCommandOpenCameraScript;->l:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -58,7 +55,6 @@
 .method public constructor <init>(Landroid/app/Activity;Lcom/meitu/webview/core/CommonWebView;Landroid/net/Uri;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1, p2, p3}, Lcom/meitu/webview/mtscript/i;-><init>(Landroid/app/Activity;Lcom/meitu/webview/core/CommonWebView;Landroid/net/Uri;)V
 
     return-void
@@ -71,7 +67,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/meitu/webview/mtscript/MTCommandOpenCameraScript;->i:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -86,7 +81,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sput-object p0, Lcom/meitu/webview/mtscript/MTCommandOpenCameraScript;->i:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -101,7 +95,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/meitu/webview/mtscript/MTCommandOpenCameraScript;->l:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -116,7 +109,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sput-object p0, Lcom/meitu/webview/mtscript/MTCommandOpenCameraScript;->l:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -131,7 +123,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget v1, Lcom/meitu/webview/mtscript/MTCommandOpenCameraScript;->j:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -146,7 +137,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sput p0, Lcom/meitu/webview/mtscript/MTCommandOpenCameraScript;->j:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -161,7 +151,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget v1, Lcom/meitu/webview/mtscript/MTCommandOpenCameraScript;->k:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -176,7 +165,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sput p0, Lcom/meitu/webview/mtscript/MTCommandOpenCameraScript;->k:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -191,7 +179,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/meitu/webview/mtscript/MTCommandOpenCameraScript;->R(Lcom/meitu/webview/mtscript/MTCommandOpenCameraScript$Model;)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -206,42 +193,35 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p1, Lcom/meitu/webview/mtscript/MTCommandOpenCameraScript$Model;->height:I
 
     sput v1, Lcom/meitu/webview/mtscript/MTCommandOpenCameraScript;->k:I
 
-    .line 2
     iget v1, p1, Lcom/meitu/webview/mtscript/MTCommandOpenCameraScript$Model;->width:I
 
     sput v1, Lcom/meitu/webview/mtscript/MTCommandOpenCameraScript;->j:I
 
-    .line 3
     invoke-virtual {p0}, Lcom/meitu/webview/mtscript/i;->p()Ljava/lang/String;
 
     move-result-object v1
 
     sput-object v1, Lcom/meitu/webview/mtscript/MTCommandOpenCameraScript;->l:Ljava/lang/String;
 
-    .line 4
     invoke-virtual {p0}, Lcom/meitu/webview/mtscript/i;->n()Landroid/app/Activity;
 
     move-result-object v1
 
     if-nez v1, :cond_0
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 6
     :cond_0
     iget-object v2, p0, Lcom/meitu/webview/mtscript/i;->d:Lf/k/o0/c/c;
 
     if-eqz v2, :cond_1
 
-    .line 7
     iget-object p1, p1, Lcom/meitu/webview/mtscript/MTCommandOpenCameraScript$Model;->data:Ljava/util/HashMap;
 
     invoke-virtual {p0, p1}, Lcom/meitu/webview/mtscript/i;->H(Ljava/lang/Object;)Ljava/lang/String;
@@ -254,12 +234,10 @@
 
     if-eqz p1, :cond_1
 
-    .line 8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 9
     :cond_1
     invoke-static {}, Lcom/meitu/library/p/g/d;->r()Z
 
@@ -273,7 +251,6 @@
 
     if-eqz p1, :cond_2
 
-    .line 10
     :try_start_0
     invoke-static {}, Lcom/meitu/webview/utils/b;->d()Ljava/lang/String;
 
@@ -281,14 +258,12 @@
 
     sput-object p1, Lcom/meitu/webview/mtscript/MTCommandOpenCameraScript;->i:Ljava/lang/String;
 
-    .line 11
     new-instance p1, Landroid/content/Intent;
 
     const-string v2, "android.media.action.IMAGE_CAPTURE"
 
     invoke-direct {p1, v2}, Landroid/content/Intent;-><init>(Ljava/lang/String;)V
 
-    .line 12
     invoke-virtual {p0}, Lcom/meitu/webview/mtscript/i;->A()Lcom/meitu/webview/core/CommonWebView;
 
     move-result-object v2
@@ -305,17 +280,14 @@
 
     const-string v3, "output"
 
-    .line 13
     invoke-virtual {p1, v3, v2}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Landroid/os/Parcelable;)Landroid/content/Intent;
 
     const/4 v2, 0x3
 
-    .line 14
     invoke-virtual {p1, v2}, Landroid/content/Intent;->setFlags(I)Landroid/content/Intent;
 
     const/16 v2, 0x2a8
 
-    .line 15
     invoke-virtual {v1, p1, v2}, Landroid/app/Activity;->startActivityForResult(Landroid/content/Intent;I)V
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
@@ -325,7 +297,6 @@
     :catch_0
     move-exception p1
 
-    .line 16
     invoke-virtual {p1}, Ljava/lang/Exception;->printStackTrace()V
 
     goto :goto_0
@@ -335,10 +306,8 @@
 
     const-string v1, "\u65e0\u6cd5\u8bfb\u5199\u5b58\u50a8\u5361, \u4e0d\u80fd\u542f\u52a8\u76f8\u673a"
 
-    .line 17
     invoke-static {p1, v1}, Lcom/meitu/webview/utils/g;->y(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 18
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -352,7 +321,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/meitu/webview/mtscript/MTCommandOpenCameraScript;->l:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -367,7 +335,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/meitu/webview/mtscript/MTCommandOpenCameraScript$a;
 
     invoke-direct {v1, p1, p0}, Lcom/meitu/webview/mtscript/MTCommandOpenCameraScript$a;-><init>(Ljava/lang/String;Landroid/webkit/WebView;)V
@@ -378,10 +345,8 @@
 
     new-array p1, p1, [Ljava/lang/Void;
 
-    .line 2
     invoke-virtual {v1, p0, p1}, Landroid/os/AsyncTask;->executeOnExecutor(Ljava/util/concurrent/Executor;[Ljava/lang/Object;)Landroid/os/AsyncTask;
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -396,7 +361,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const/4 v0, 0x1
@@ -411,7 +375,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/meitu/webview/mtscript/MTCommandOpenCameraScript$b;
 
     const-class v2, Lcom/meitu/webview/mtscript/MTCommandOpenCameraScript$Model;
@@ -420,7 +383,6 @@
 
     invoke-virtual {p0, v1}, Lcom/meitu/webview/mtscript/i;->E(Lcom/meitu/webview/mtscript/i$c;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const/4 v0, 0x1

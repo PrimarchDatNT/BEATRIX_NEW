@@ -34,7 +34,6 @@
 .method constructor <init>(Lcom/commsource/beautyplus/miniapp/MiniAppViewModel$a;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/beautyplus/miniapp/MiniAppViewModel$a$b;->a:Lcom/commsource/beautyplus/miniapp/MiniAppViewModel$a;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -51,7 +50,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p1}, Lcom/commsource/beautyplus/miniapp/k;->j()I
 
     move-result v1
@@ -64,12 +62,10 @@
 
     const/4 p1, 0x0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
 
-    .line 3
     :cond_0
     invoke-virtual {p1}, Lcom/commsource/beautyplus/miniapp/k;->j()I
 
@@ -83,7 +79,6 @@
 
     const/4 p1, 0x1
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
@@ -91,7 +86,6 @@
     :cond_1
     const/4 p1, -0x1
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
@@ -104,7 +98,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Lcom/commsource/beautyplus/miniapp/k;
 
     check-cast p2, Lcom/commsource/beautyplus/miniapp/k;

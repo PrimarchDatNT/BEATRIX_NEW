@@ -57,7 +57,6 @@
 
     if-eqz p1, :cond_4
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/sub/StudioBeautyFilterFragment$z;->a:Lcom/commsource/studio/sub/StudioBeautyFilterFragment;
 
     invoke-static {v1}, Lcom/commsource/studio/sub/StudioBeautyFilterFragment;->Z(Lcom/commsource/studio/sub/StudioBeautyFilterFragment;)Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;
@@ -74,7 +73,6 @@
 
     if-eqz v1, :cond_4
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/sub/StudioBeautyFilterFragment$z;->a:Lcom/commsource/studio/sub/StudioBeautyFilterFragment;
 
     invoke-static {v1}, Lcom/commsource/studio/sub/StudioBeautyFilterFragment;->Z(Lcom/commsource/studio/sub/StudioBeautyFilterFragment;)Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;
@@ -100,7 +98,6 @@
     :cond_0
     const/4 v1, 0x0
 
-    .line 3
     :goto_0
     invoke-virtual {p1}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/FilterIndex;->getFilter()Lcom/meitu/template/bean/Filter;
 
@@ -114,7 +111,6 @@
 
     if-eqz v2, :cond_4
 
-    .line 4
     :cond_1
     iget-object v2, p0, Lcom/commsource/studio/sub/StudioBeautyFilterFragment$z;->a:Lcom/commsource/studio/sub/StudioBeautyFilterFragment;
 
@@ -122,7 +118,6 @@
 
     move-result-object v2
 
-    .line 5
     invoke-virtual {p1}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/FilterIndex;->getFilter()Lcom/meitu/template/bean/Filter;
 
     move-result-object v4
@@ -140,7 +135,6 @@
     :cond_2
     move-object v3, v5
 
-    .line 6
     :goto_1
     invoke-virtual {p1}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/FilterIndex;->getCategoryInfo()Lcom/commsource/beautyfilter/a;
 
@@ -152,11 +146,9 @@
 
     move-result-object v5
 
-    .line 7
     :cond_3
     invoke-virtual {v2, v3, v5, v1}, Lcom/commsource/studio/sub/b;->i(Ljava/lang/String;Ljava/lang/String;Z)V
 
-    .line 8
     :cond_4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -170,7 +162,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/FilterIndex;
 
     invoke-virtual {p0, p1}, Lcom/commsource/studio/sub/StudioBeautyFilterFragment$z;->a(Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/FilterIndex;)V

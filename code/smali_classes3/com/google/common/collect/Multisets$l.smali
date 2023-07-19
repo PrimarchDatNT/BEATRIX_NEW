@@ -28,7 +28,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/google/common/collect/d;-><init>()V
 
     return-void
@@ -37,7 +36,6 @@
 .method synthetic constructor <init>(Lcom/google/common/collect/Multisets$a;)V
     .locals 0
 
-    .line 2
     invoke-direct {p0}, Lcom/google/common/collect/Multisets$l;-><init>()V
 
     return-void
@@ -48,7 +46,6 @@
 .method public clear()V
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/collect/d;->elementSet()Ljava/util/Set;
 
     move-result-object v0
@@ -61,7 +58,6 @@
 .method distinctElements()I
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/collect/d;->elementSet()Ljava/util/Set;
 
     move-result-object v0
@@ -83,7 +79,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p0}, Lcom/google/common/collect/Multisets;->n(Lcom/google/common/collect/m1;)Ljava/util/Iterator;
 
     move-result-object v0
@@ -94,7 +89,6 @@
 .method public size()I
     .locals 1
 
-    .line 1
     invoke-static {p0}, Lcom/google/common/collect/Multisets;->o(Lcom/google/common/collect/m1;)I
 
     move-result v0

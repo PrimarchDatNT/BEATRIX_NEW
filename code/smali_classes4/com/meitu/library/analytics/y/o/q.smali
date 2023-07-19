@@ -15,7 +15,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -30,7 +29,6 @@
 
     if-eqz p0, :cond_2
 
-    .line 1
     invoke-virtual {p0}, Ljava/lang/String;->length()I
 
     move-result v1
@@ -39,7 +37,6 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     invoke-virtual {p0}, Ljava/lang/String;->getBytes()[B
 
@@ -51,7 +48,6 @@
 
     if-eqz p0, :cond_1
 
-    .line 3
     invoke-static {p0}, Lcom/meitu/library/analytics/y/o/m;->c([B)Ljava/lang/String;
 
     move-result-object p0
@@ -60,7 +56,6 @@
 
     return-object p0
 
-    .line 4
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -72,7 +67,6 @@
     :goto_0
     const/4 p0, 0x0
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
@@ -85,14 +79,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p0}, Lcom/meitu/library/analytics/y/o/q;->c([B)[B
 
     move-result-object p0
 
     if-eqz p0, :cond_0
 
-    .line 2
     invoke-static {p0}, Lcom/meitu/library/analytics/y/o/m;->c([B)Ljava/lang/String;
 
     move-result-object p0
@@ -101,7 +93,6 @@
 
     return-object p0
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -120,15 +111,12 @@
     :try_start_0
     const-string v1, "MD5"
 
-    .line 1
     invoke-static {v1}, Ljava/security/MessageDigest;->getInstance(Ljava/lang/String;)Ljava/security/MessageDigest;
 
     move-result-object v1
 
-    .line 2
     invoke-virtual {v1, p0}, Ljava/security/MessageDigest;->update([B)V
 
-    .line 3
     invoke-virtual {v1}, Ljava/security/MessageDigest;->digest()[B
 
     move-result-object p0
@@ -142,12 +130,10 @@
     :catch_0
     move-exception p0
 
-    .line 4
     invoke-virtual {p0}, Ljava/security/NoSuchAlgorithmException;->printStackTrace()V
 
     const/4 p0, 0x0
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0

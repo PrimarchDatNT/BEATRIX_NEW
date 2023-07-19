@@ -19,7 +19,6 @@
 .method public constructor <init>(Landroid/app/Activity;Lcom/meitu/webview/core/CommonWebView;Landroid/net/Uri;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1, p2, p3}, Lcom/meitu/webview/mtscript/i;-><init>(Landroid/app/Activity;Lcom/meitu/webview/core/CommonWebView;Landroid/net/Uri;)V
 
     return-void
@@ -34,7 +33,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const/4 v0, 0x0
@@ -49,13 +47,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v3, p1, Lcom/meitu/webview/mtscript/MTCommandDownloadModularScript$Model;->url:Ljava/lang/String;
 
-    .line 2
     iget-object v2, p1, Lcom/meitu/webview/mtscript/MTCommandDownloadModularScript$Model;->module:Ljava/lang/String;
 
-    .line 3
     invoke-static {v3}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v1
@@ -68,7 +63,6 @@
 
     if-nez v1, :cond_0
 
-    .line 4
     invoke-virtual {p0}, Lcom/meitu/webview/mtscript/i;->n()Landroid/app/Activity;
 
     move-result-object v1
@@ -83,7 +77,6 @@
 
     invoke-static/range {v1 .. v6}, Lcom/meitu/webview/utils/d;->f(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Lcom/meitu/webview/utils/d$c;Lf/k/o0/c/c;Z)V
 
-    .line 5
     :cond_0
     invoke-virtual {p0}, Lcom/meitu/webview/mtscript/i;->o()Ljava/lang/String;
 
@@ -91,7 +84,6 @@
 
     invoke-virtual {p0, p1}, Lcom/meitu/webview/mtscript/i;->k(Ljava/lang/String;)V
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -104,7 +96,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/meitu/webview/mtscript/MTCommandDownloadModularScript$a;
 
     const-class v2, Lcom/meitu/webview/mtscript/MTCommandDownloadModularScript$Model;
@@ -113,7 +104,6 @@
 
     invoke-virtual {p0, v1}, Lcom/meitu/webview/mtscript/i;->E(Lcom/meitu/webview/mtscript/i$c;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const/4 v0, 0x1

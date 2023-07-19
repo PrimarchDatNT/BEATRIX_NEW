@@ -21,7 +21,6 @@
 .method public constructor <init>(Landroid/content/Context;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1}, Landroid/widget/ImageView;-><init>(Landroid/content/Context;)V
 
     return-void
@@ -32,18 +31,14 @@
 
     const/4 v0, 0x0
 
-    .line 2
     invoke-direct {p0, p1, p2, v0}, Landroid/widget/ImageView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
-    .line 3
     sget-object v1, Landroid/graphics/drawable/GradientDrawable$Orientation;->TOP_BOTTOM:Landroid/graphics/drawable/GradientDrawable$Orientation;
 
-    .line 4
     invoke-direct {p0, p1, p2, v1}, Lcom/mopub/mobileads/VastVideoGradientStripWidget;->getGradientOrientationFromAttributeSet(Landroid/content/Context;Landroid/util/AttributeSet;Landroid/graphics/drawable/GradientDrawable$Orientation;)Landroid/graphics/drawable/GradientDrawable$Orientation;
 
     move-result-object p2
 
-    .line 5
     invoke-virtual {p1}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
 
     move-result-object v1
@@ -56,7 +51,6 @@
 
     iput v1, p0, Lcom/mopub/mobileads/VastVideoGradientStripWidget;->gradientStartColor:I
 
-    .line 6
     invoke-virtual {p1}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
 
     move-result-object p1
@@ -69,7 +63,6 @@
 
     iput p1, p0, Lcom/mopub/mobileads/VastVideoGradientStripWidget;->gradientEndColor:I
 
-    .line 7
     new-instance p1, Landroid/graphics/drawable/GradientDrawable;
 
     const/4 v1, 0x2
@@ -88,7 +81,6 @@
 
     invoke-direct {p1, p2, v1}, Landroid/graphics/drawable/GradientDrawable;-><init>(Landroid/graphics/drawable/GradientDrawable$Orientation;[I)V
 
-    .line 8
     invoke-virtual {p0, p1}, Landroid/widget/ImageView;->setImageDrawable(Landroid/graphics/drawable/Drawable;)V
 
     return-void
@@ -97,7 +89,6 @@
 .method private getGradientOrientationFromAttributeSet(Landroid/content/Context;Landroid/util/AttributeSet;Landroid/graphics/drawable/GradientDrawable$Orientation;)Landroid/graphics/drawable/GradientDrawable$Orientation;
     .locals 4
 
-    .line 1
     invoke-virtual {p1}, Landroid/content/Context;->getTheme()Landroid/content/res/Resources$Theme;
 
     move-result-object p1
@@ -110,21 +101,17 @@
 
     move-result-object p1
 
-    .line 2
     :try_start_0
     sget p2, Lcom/mopub/mobileads/base/R$styleable;->VastVideoGradientStripWidget_gradientOrientation:I
 
-    .line 3
     invoke-virtual {p3}, Landroid/graphics/drawable/GradientDrawable$Orientation;->ordinal()I
 
     move-result v0
 
-    .line 4
     invoke-virtual {p1, p2, v0}, Landroid/content/res/TypedArray;->getInteger(II)I
 
     move-result p2
 
-    .line 5
     invoke-static {}, Landroid/graphics/drawable/GradientDrawable$Orientation;->values()[Landroid/graphics/drawable/GradientDrawable$Orientation;
 
     move-result-object v0
@@ -134,7 +121,6 @@
     .catch Landroid/content/res/Resources$NotFoundException; {:try_start_0 .. :try_end_0} :catch_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 6
     :goto_0
     invoke-virtual {p1}, Landroid/content/res/TypedArray;->recycle()V
 
@@ -148,7 +134,6 @@
     :catch_0
     move-exception p2
 
-    .line 7
     :try_start_1
     sget-object v0, Lcom/mopub/common/logging/MoPubLog$SdkLogEvent;->CUSTOM_WITH_THROWABLE:Lcom/mopub/common/logging/MoPubLog$SdkLogEvent;
 
@@ -173,7 +158,6 @@
     :goto_1
     return-object p3
 
-    .line 8
     :goto_2
     invoke-virtual {p1}, Landroid/content/res/TypedArray;->recycle()V
 
@@ -187,7 +171,6 @@
     .annotation build Lcom/mopub/common/VisibleForTesting;
     .end annotation
 
-    .line 1
     iget-boolean v0, p0, Lcom/mopub/mobileads/VastVideoGradientStripWidget;->mAlwaysVisibleDuringVideo:Z
 
     return v0
@@ -198,7 +181,6 @@
     .annotation build Lcom/mopub/common/VisibleForTesting;
     .end annotation
 
-    .line 1
     iget-boolean v0, p0, Lcom/mopub/mobileads/VastVideoGradientStripWidget;->mHasCompanionAd:Z
 
     return v0
@@ -209,10 +191,8 @@
 
     const/4 v0, 0x1
 
-    .line 1
     iput-boolean v0, p0, Lcom/mopub/mobileads/VastVideoGradientStripWidget;->mIsVideoComplete:Z
 
-    .line 2
     invoke-virtual {p0}, Lcom/mopub/mobileads/VastVideoGradientStripWidget;->updateVisibility()V
 
     return-void
@@ -221,10 +201,8 @@
 .method protected onConfigurationChanged(Landroid/content/res/Configuration;)V
     .locals 0
 
-    .line 1
     invoke-super {p0, p1}, Landroid/widget/ImageView;->onConfigurationChanged(Landroid/content/res/Configuration;)V
 
-    .line 2
     invoke-virtual {p0}, Lcom/mopub/mobileads/VastVideoGradientStripWidget;->updateVisibility()V
 
     return-void
@@ -233,7 +211,6 @@
 .method setAlwaysVisibleDuringVideo(Z)V
     .locals 0
 
-    .line 1
     iput-boolean p1, p0, Lcom/mopub/mobileads/VastVideoGradientStripWidget;->mAlwaysVisibleDuringVideo:Z
 
     return-void
@@ -242,7 +219,6 @@
 .method setGradientOrientation(Landroid/graphics/drawable/GradientDrawable$Orientation;)V
     .locals 4
 
-    .line 1
     new-instance v0, Landroid/graphics/drawable/GradientDrawable;
 
     const/4 v1, 0x2
@@ -263,7 +239,6 @@
 
     invoke-direct {v0, p1, v1}, Landroid/graphics/drawable/GradientDrawable;-><init>(Landroid/graphics/drawable/GradientDrawable$Orientation;[I)V
 
-    .line 2
     invoke-virtual {p0, v0}, Landroid/widget/ImageView;->setImageDrawable(Landroid/graphics/drawable/Drawable;)V
 
     return-void
@@ -272,7 +247,6 @@
 .method setHasCompanionAd(Z)V
     .locals 0
 
-    .line 1
     iput-boolean p1, p0, Lcom/mopub/mobileads/VastVideoGradientStripWidget;->mHasCompanionAd:Z
 
     return-void
@@ -281,7 +255,6 @@
 .method setVisibilityForCompanionAd(I)V
     .locals 0
 
-    .line 1
     iput p1, p0, Lcom/mopub/mobileads/VastVideoGradientStripWidget;->mVisibilityForCompanionAd:I
 
     return-void
@@ -290,17 +263,14 @@
 .method updateVisibility()V
     .locals 5
 
-    .line 1
     iget-boolean v0, p0, Lcom/mopub/mobileads/VastVideoGradientStripWidget;->mIsVideoComplete:Z
 
     if-eqz v0, :cond_1
 
-    .line 2
     iget-boolean v0, p0, Lcom/mopub/mobileads/VastVideoGradientStripWidget;->mHasCompanionAd:Z
 
     if-eqz v0, :cond_0
 
-    .line 3
     iget v0, p0, Lcom/mopub/mobileads/VastVideoGradientStripWidget;->mVisibilityForCompanionAd:I
 
     invoke-virtual {p0, v0}, Landroid/widget/ImageView;->setVisibility(I)V
@@ -310,13 +280,11 @@
     :cond_0
     const/16 v0, 0x8
 
-    .line 4
     invoke-virtual {p0, v0}, Landroid/widget/ImageView;->setVisibility(I)V
 
     :goto_0
     return-void
 
-    .line 5
     :cond_1
     iget-boolean v0, p0, Lcom/mopub/mobileads/VastVideoGradientStripWidget;->mAlwaysVisibleDuringVideo:Z
 
@@ -324,12 +292,10 @@
 
     if-eqz v0, :cond_2
 
-    .line 6
     invoke-virtual {p0, v1}, Landroid/widget/ImageView;->setVisibility(I)V
 
     return-void
 
-    .line 7
     :cond_2
     invoke-virtual {p0}, Landroid/widget/ImageView;->getResources()Landroid/content/res/Resources;
 
@@ -357,7 +323,6 @@
 
     if-eq v0, v4, :cond_3
 
-    .line 8
     sget-object v0, Lcom/mopub/common/logging/MoPubLog$SdkLogEvent;->CUSTOM:Lcom/mopub/common/logging/MoPubLog$SdkLogEvent;
 
     new-array v3, v3, [Ljava/lang/Object;
@@ -368,12 +333,10 @@
 
     invoke-static {v0, v3}, Lcom/mopub/common/logging/MoPubLog;->log(Lcom/mopub/common/logging/MoPubLog$MPLogEventType;[Ljava/lang/Object;)V
 
-    .line 9
     invoke-virtual {p0, v2}, Landroid/widget/ImageView;->setVisibility(I)V
 
     goto :goto_1
 
-    .line 10
     :cond_3
     sget-object v0, Lcom/mopub/common/logging/MoPubLog$SdkLogEvent;->CUSTOM:Lcom/mopub/common/logging/MoPubLog$SdkLogEvent;
 
@@ -385,24 +348,20 @@
 
     invoke-static {v0, v3}, Lcom/mopub/common/logging/MoPubLog;->log(Lcom/mopub/common/logging/MoPubLog$MPLogEventType;[Ljava/lang/Object;)V
 
-    .line 11
     invoke-virtual {p0, v2}, Landroid/widget/ImageView;->setVisibility(I)V
 
     goto :goto_1
 
-    .line 12
     :cond_4
     invoke-virtual {p0, v1}, Landroid/widget/ImageView;->setVisibility(I)V
 
     goto :goto_1
 
-    .line 13
     :cond_5
     invoke-virtual {p0, v2}, Landroid/widget/ImageView;->setVisibility(I)V
 
     goto :goto_1
 
-    .line 14
     :cond_6
     sget-object v0, Lcom/mopub/common/logging/MoPubLog$SdkLogEvent;->CUSTOM:Lcom/mopub/common/logging/MoPubLog$SdkLogEvent;
 
@@ -414,7 +373,6 @@
 
     invoke-static {v0, v3}, Lcom/mopub/common/logging/MoPubLog;->log(Lcom/mopub/common/logging/MoPubLog$MPLogEventType;[Ljava/lang/Object;)V
 
-    .line 15
     invoke-virtual {p0, v2}, Landroid/widget/ImageView;->setVisibility(I)V
 
     :goto_1

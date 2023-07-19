@@ -46,10 +46,8 @@
 .method public constructor <init>()V
     .locals 2
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     sget-object v0, Lcom/commsource/studio/function/background/BackgroundDrawer$backgroundPaint$2;->INSTANCE:Lcom/commsource/studio/function/background/BackgroundDrawer$backgroundPaint$2;
 
     invoke-static {v0}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
@@ -58,14 +56,12 @@
 
     iput-object v0, p0, Lcom/commsource/studio/function/background/BackgroundDrawer;->a:Lcotlin/w;
 
-    .line 3
     new-instance v0, Lcom/commsource/studio/function/background/c;
 
     invoke-direct {v0}, Lcom/commsource/studio/function/background/c;-><init>()V
 
     iput-object v0, p0, Lcom/commsource/studio/function/background/BackgroundDrawer;->c:Lcom/commsource/studio/function/background/c;
 
-    .line 4
     new-instance v0, Landroid/graphics/RectF;
 
     invoke-direct {v0}, Landroid/graphics/RectF;-><init>()V
@@ -74,17 +70,14 @@
 
     const/16 v0, 0xbb8
 
-    .line 5
     iput v0, p0, Lcom/commsource/studio/function/background/BackgroundDrawer;->e:I
 
     const/high16 v0, 0x42990000    # 76.5f
 
     float-to-int v0, v0
 
-    .line 6
     iput v0, p0, Lcom/commsource/studio/function/background/BackgroundDrawer;->i:I
 
-    .line 7
     new-instance v0, Landroid/graphics/PorterDuffXfermode;
 
     sget-object v1, Landroid/graphics/PorterDuff$Mode;->OVERLAY:Landroid/graphics/PorterDuff$Mode;
@@ -129,7 +122,6 @@
 
     const/4 p2, 0x0
 
-    .line 1
     :cond_0
     invoke-virtual {p0, p1, p2}, Lcom/commsource/studio/function/background/BackgroundDrawer;->v(Landroid/graphics/Bitmap;Lcom/commsource/studio/function/background/BackgroundTexture;)V
 
@@ -147,7 +139,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/function/background/BackgroundDrawer;->i:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -162,7 +153,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/function/background/BackgroundDrawer;->f:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -179,7 +169,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/function/background/BackgroundDrawer;->k:Lcom/commsource/studio/function/background/BackgroundTexture;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -196,7 +185,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/function/background/BackgroundDrawer;->l:Lcom/commsource/studio/function/background/BackgroundType;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -211,7 +199,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/function/background/BackgroundDrawer;->h:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -226,7 +213,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/function/background/BackgroundDrawer;->g:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -241,7 +227,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/function/background/BackgroundDrawer;->e:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -258,7 +243,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/function/background/BackgroundDrawer;->j:Landroid/graphics/PorterDuffXfermode;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -281,7 +265,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/function/background/BackgroundDrawer;->c:Lcom/commsource/studio/function/background/c;
 
     invoke-virtual {v1}, Lcom/commsource/studio/function/background/c;->d()Landroid/graphics/Shader;
@@ -292,14 +275,12 @@
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-direct {p0}, Lcom/commsource/studio/function/background/BackgroundDrawer;->a()Landroid/graphics/Paint;
 
     move-result-object v1
 
     invoke-virtual {v1, v2}, Landroid/graphics/Paint;->setAlpha(I)V
 
-    .line 3
     invoke-direct {p0}, Lcom/commsource/studio/function/background/BackgroundDrawer;->a()Landroid/graphics/Paint;
 
     move-result-object v1
@@ -312,7 +293,6 @@
 
     invoke-virtual {v1, v3}, Landroid/graphics/Paint;->setShader(Landroid/graphics/Shader;)Landroid/graphics/Shader;
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/studio/function/background/BackgroundDrawer;->d:Landroid/graphics/RectF;
 
     iget v3, p0, Lcom/commsource/studio/function/background/BackgroundDrawer;->f:F
@@ -328,12 +308,10 @@
 
     const/4 v7, 0x0
 
-    .line 5
     iget v1, p0, Lcom/commsource/studio/function/background/BackgroundDrawer;->g:I
 
     int-to-float v8, v1
 
-    .line 6
     iget v1, p0, Lcom/commsource/studio/function/background/BackgroundDrawer;->h:I
 
     int-to-float v9, v1
@@ -344,14 +322,12 @@
 
     move-object v5, p1
 
-    .line 7
     invoke-virtual/range {v5 .. v11}, Landroid/graphics/Canvas;->saveLayer(FFFFLandroid/graphics/Paint;I)I
 
     move-result v1
 
     const/4 v3, 0x0
 
-    .line 8
     iget-object v4, p0, Lcom/commsource/studio/function/background/BackgroundDrawer;->c:Lcom/commsource/studio/function/background/c;
 
     invoke-virtual {v4}, Lcom/commsource/studio/function/background/c;->d()Landroid/graphics/Shader;
@@ -362,14 +338,12 @@
 
     const/4 v3, 0x1
 
-    .line 9
     invoke-direct {p0}, Lcom/commsource/studio/function/background/BackgroundDrawer;->a()Landroid/graphics/Paint;
 
     move-result-object v4
 
     invoke-virtual {v4, v2}, Landroid/graphics/Paint;->setAlpha(I)V
 
-    .line 10
     invoke-direct {p0}, Lcom/commsource/studio/function/background/BackgroundDrawer;->a()Landroid/graphics/Paint;
 
     move-result-object v2
@@ -382,7 +356,6 @@
 
     invoke-virtual {v2, v4}, Landroid/graphics/Paint;->setShader(Landroid/graphics/Shader;)Landroid/graphics/Shader;
 
-    .line 11
     iget-object v2, p0, Lcom/commsource/studio/function/background/BackgroundDrawer;->d:Landroid/graphics/RectF;
 
     iget v4, p0, Lcom/commsource/studio/function/background/BackgroundDrawer;->f:F
@@ -393,13 +366,11 @@
 
     invoke-virtual {p1, v2, v4, v4, v5}, Landroid/graphics/Canvas;->drawRoundRect(Landroid/graphics/RectF;FFLandroid/graphics/Paint;)V
 
-    .line 12
     :cond_1
     iget-object v2, p0, Lcom/commsource/studio/function/background/BackgroundDrawer;->b:Landroid/graphics/BitmapShader;
 
     if-eqz v2, :cond_3
 
-    .line 13
     invoke-direct {p0}, Lcom/commsource/studio/function/background/BackgroundDrawer;->a()Landroid/graphics/Paint;
 
     move-result-object v2
@@ -408,7 +379,6 @@
 
     invoke-virtual {v2, v4}, Landroid/graphics/Paint;->setShader(Landroid/graphics/Shader;)Landroid/graphics/Shader;
 
-    .line 14
     invoke-direct {p0}, Lcom/commsource/studio/function/background/BackgroundDrawer;->a()Landroid/graphics/Paint;
 
     move-result-object v2
@@ -419,7 +389,6 @@
 
     if-eqz v3, :cond_2
 
-    .line 15
     invoke-direct {p0}, Lcom/commsource/studio/function/background/BackgroundDrawer;->a()Landroid/graphics/Paint;
 
     move-result-object v2
@@ -428,7 +397,6 @@
 
     invoke-virtual {v2, v3}, Landroid/graphics/Paint;->setXfermode(Landroid/graphics/Xfermode;)Landroid/graphics/Xfermode;
 
-    .line 16
     :cond_2
     iget-object v2, p0, Lcom/commsource/studio/function/background/BackgroundDrawer;->d:Landroid/graphics/RectF;
 
@@ -440,7 +408,6 @@
 
     invoke-virtual {p1, v2, v3, v3, v4}, Landroid/graphics/Canvas;->drawRoundRect(Landroid/graphics/RectF;FFLandroid/graphics/Paint;)V
 
-    .line 17
     invoke-direct {p0}, Lcom/commsource/studio/function/background/BackgroundDrawer;->a()Landroid/graphics/Paint;
 
     move-result-object v2
@@ -449,11 +416,9 @@
 
     invoke-virtual {v2, v3}, Landroid/graphics/Paint;->setXfermode(Landroid/graphics/Xfermode;)Landroid/graphics/Xfermode;
 
-    .line 18
     :cond_3
     invoke-virtual {p1, v1}, Landroid/graphics/Canvas;->restoreToCount(I)V
 
-    .line 19
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -466,13 +431,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/studio/function/background/BackgroundDrawer;->g:I
 
-    .line 2
     iput p2, p0, Lcom/commsource/studio/function/background/BackgroundDrawer;->h:I
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/studio/function/background/BackgroundDrawer;->d:Landroid/graphics/RectF;
 
     int-to-float v2, p1
@@ -483,17 +445,14 @@
 
     invoke-virtual {v1, v4, v4, v2, v3}, Landroid/graphics/RectF;->set(FFFF)V
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/studio/function/background/BackgroundDrawer;->c:Lcom/commsource/studio/function/background/c;
 
     invoke-virtual {v1, p1, p2}, Lcom/commsource/studio/function/background/c;->b(II)V
 
-    .line 5
     iget-object p1, p0, Lcom/commsource/studio/function/background/BackgroundDrawer;->b:Landroid/graphics/BitmapShader;
 
     if-eqz p1, :cond_0
 
-    .line 6
     iget p2, p0, Lcom/commsource/studio/function/background/BackgroundDrawer;->g:I
 
     iget v1, p0, Lcom/commsource/studio/function/background/BackgroundDrawer;->h:I
@@ -510,18 +469,14 @@
 
     div-float/2addr p2, v1
 
-    .line 7
     new-instance v1, Landroid/graphics/Matrix;
 
     invoke-direct {v1}, Landroid/graphics/Matrix;-><init>()V
 
-    .line 8
     invoke-virtual {v1, p2, p2}, Landroid/graphics/Matrix;->postScale(FF)Z
 
-    .line 9
     invoke-virtual {p1, v1}, Landroid/graphics/BitmapShader;->setLocalMatrix(Landroid/graphics/Matrix;)V
 
-    .line 10
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -535,7 +490,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/function/background/BackgroundDrawer;->k:Lcom/commsource/studio/function/background/BackgroundTexture;
 
     const/4 v2, 0x0
@@ -574,17 +528,14 @@
 
     goto :goto_2
 
-    .line 2
     :cond_2
     new-instance v2, Landroid/graphics/PorterDuffXfermode;
 
     invoke-direct {v2, v1}, Landroid/graphics/PorterDuffXfermode;-><init>(Landroid/graphics/PorterDuff$Mode;)V
 
-    .line 3
     :goto_2
     iput-object v2, p0, Lcom/commsource/studio/function/background/BackgroundDrawer;->j:Landroid/graphics/PorterDuffXfermode;
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -603,10 +554,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/studio/function/background/BackgroundDrawer;->i:I
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -623,18 +572,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/function/background/BackgroundDrawer;->c:Lcom/commsource/studio/function/background/c;
 
     invoke-virtual {v1, p1}, Lcom/commsource/studio/function/background/c;->a(Lcom/commsource/studio/function/background/BackgroundType;)V
 
-    .line 2
     iput-object p1, p0, Lcom/commsource/studio/function/background/BackgroundDrawer;->l:Lcom/commsource/studio/function/background/BackgroundType;
 
-    .line 3
     invoke-virtual {p0}, Lcom/commsource/studio/function/background/BackgroundDrawer;->l()V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -647,7 +592,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/studio/function/background/BackgroundDrawer;->i:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -662,7 +606,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/studio/function/background/BackgroundDrawer;->f:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -681,7 +624,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/function/background/BackgroundDrawer;->k:Lcom/commsource/studio/function/background/BackgroundTexture;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -700,7 +642,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/function/background/BackgroundDrawer;->l:Lcom/commsource/studio/function/background/BackgroundType;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -715,7 +656,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/studio/function/background/BackgroundDrawer;->h:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -730,7 +670,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/studio/function/background/BackgroundDrawer;->g:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -745,7 +684,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/studio/function/background/BackgroundDrawer;->e:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -768,22 +706,18 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p2, p0, Lcom/commsource/studio/function/background/BackgroundDrawer;->k:Lcom/commsource/studio/function/background/BackgroundTexture;
 
-    .line 2
     invoke-virtual {p0}, Lcom/commsource/studio/function/background/BackgroundDrawer;->l()V
 
     if-eqz p1, :cond_0
 
-    .line 3
     new-instance p2, Landroid/graphics/BitmapShader;
 
     sget-object v1, Landroid/graphics/Shader$TileMode;->REPEAT:Landroid/graphics/Shader$TileMode;
 
     invoke-direct {p2, p1, v1, v1}, Landroid/graphics/BitmapShader;-><init>(Landroid/graphics/Bitmap;Landroid/graphics/Shader$TileMode;Landroid/graphics/Shader$TileMode;)V
 
-    .line 4
     iget p1, p0, Lcom/commsource/studio/function/background/BackgroundDrawer;->g:I
 
     iget v1, p0, Lcom/commsource/studio/function/background/BackgroundDrawer;->h:I
@@ -800,15 +734,12 @@
 
     div-float/2addr p1, v1
 
-    .line 5
     new-instance v1, Landroid/graphics/Matrix;
 
     invoke-direct {v1}, Landroid/graphics/Matrix;-><init>()V
 
-    .line 6
     invoke-virtual {v1, p1, p1}, Landroid/graphics/Matrix;->postScale(FF)Z
 
-    .line 7
     invoke-virtual {p2, v1}, Landroid/graphics/BitmapShader;->setLocalMatrix(Landroid/graphics/Matrix;)V
 
     goto :goto_0
@@ -816,11 +747,9 @@
     :cond_0
     const/4 p2, 0x0
 
-    .line 8
     :goto_0
     iput-object p2, p0, Lcom/commsource/studio/function/background/BackgroundDrawer;->b:Landroid/graphics/BitmapShader;
 
-    .line 9
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -837,7 +766,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/function/background/BackgroundDrawer;->j:Landroid/graphics/PorterDuffXfermode;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

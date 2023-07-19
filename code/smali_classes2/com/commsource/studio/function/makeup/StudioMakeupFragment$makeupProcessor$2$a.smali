@@ -39,7 +39,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/function/makeup/StudioMakeupFragment$makeupProcessor$2$a;->P:Lcom/commsource/studio/function/makeup/StudioMakeupFragment$makeupProcessor$2;
 
     invoke-direct {p0, p2}, Lcom/commsource/studio/processor/MultiFaceEffectProcessor;-><init>(Lcom/commsource/camera/newrender/renderproxy/n;)V
@@ -56,7 +55,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Lcom/commsource/camera/newrender/renderproxy/m;
 
     invoke-virtual {p0, p1, p2, p3}, Lcom/commsource/studio/function/makeup/StudioMakeupFragment$makeupProcessor$2$a;->S(Lcom/commsource/camera/newrender/renderproxy/m;ILcom/commsource/easyeditor/utils/opengl/f;)V
@@ -89,7 +87,6 @@
 
     invoke-static {p3, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object p3, p0, Lcom/commsource/studio/function/makeup/StudioMakeupFragment$makeupProcessor$2$a;->P:Lcom/commsource/studio/function/makeup/StudioMakeupFragment$makeupProcessor$2;
 
     iget-object p3, p3, Lcom/commsource/studio/function/makeup/StudioMakeupFragment$makeupProcessor$2;->this$0:Lcom/commsource/studio/function/makeup/StudioMakeupFragment;
@@ -106,7 +103,6 @@
 
     move-result-object p3
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/function/makeup/StudioMakeupFragment$makeupProcessor$2$a;->P:Lcom/commsource/studio/function/makeup/StudioMakeupFragment$makeupProcessor$2;
 
     iget-object v1, v1, Lcom/commsource/studio/function/makeup/StudioMakeupFragment$makeupProcessor$2;->this$0:Lcom/commsource/studio/function/makeup/StudioMakeupFragment;
@@ -125,7 +121,6 @@
 
     if-nez p3, :cond_0
 
-    .line 3
     invoke-virtual {p1}, Lcom/commsource/camera/newrender/renderproxy/m;->O()Lcom/commsource/camera/newrender/renderproxy/m$a;
 
     move-result-object p1
@@ -134,7 +129,6 @@
 
     goto :goto_1
 
-    .line 4
     :cond_0
     invoke-virtual {p1}, Lcom/commsource/camera/newrender/renderproxy/m;->P()V
 
@@ -142,7 +136,6 @@
 
     const/4 v2, 0x0
 
-    .line 5
     invoke-virtual {v1}, Landroid/util/SparseArray;->size()I
 
     move-result v3
@@ -150,19 +143,16 @@
     :goto_0
     if-ge v2, v3, :cond_1
 
-    .line 6
     invoke-virtual {v1, v2}, Landroid/util/SparseArray;->keyAt(I)I
 
     move-result v4
 
-    .line 7
     invoke-virtual {v1, v2}, Landroid/util/SparseArray;->valueAt(I)Ljava/lang/Object;
 
     move-result-object v5
 
     check-cast v5, Lcom/commsource/repository/child/makeup/h;
 
-    .line 8
     sget-object v6, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/h;->b:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/h$a;
 
     invoke-virtual {v5}, Lcom/commsource/repository/child/makeup/h;->f()Ljava/lang/String;
@@ -179,13 +169,11 @@
 
     goto :goto_0
 
-    .line 9
     :cond_1
     invoke-virtual {p1}, Lcom/commsource/camera/newrender/renderproxy/m;->O()Lcom/commsource/camera/newrender/renderproxy/m$a;
 
     move-result-object p1
 
-    .line 10
     invoke-static {p2, p3, v1}, Lcom/commsource/camera/a1/g;->y(ILandroid/util/SparseArray;Landroid/util/SparseArray;)Ljava/util/HashMap;
 
     move-result-object p2
@@ -194,12 +182,10 @@
 
     move-result-object p1
 
-    .line 11
     sget-object p2, Ljava/lang/Boolean;->TRUE:Ljava/lang/Boolean;
 
     invoke-virtual {p1, p2}, Lcom/commsource/camera/newrender/renderproxy/m$a;->c(Ljava/lang/Boolean;)V
 
-    .line 12
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

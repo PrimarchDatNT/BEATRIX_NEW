@@ -12,7 +12,6 @@
 
     const-string v0, "line.separator"
 
-    .line 1
     invoke-static {v0}, Ljava/lang/System;->getProperty(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0

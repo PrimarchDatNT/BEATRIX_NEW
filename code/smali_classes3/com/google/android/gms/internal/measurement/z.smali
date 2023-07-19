@@ -13,7 +13,6 @@
 .method constructor <init>(Lcom/google/android/gms/internal/measurement/qc;Z)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/android/gms/internal/measurement/z;->g:Lcom/google/android/gms/internal/measurement/qc;
 
     iput-boolean p2, p0, Lcom/google/android/gms/internal/measurement/z;->f:Z
@@ -33,7 +32,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/measurement/z;->g:Lcom/google/android/gms/internal/measurement/qc;
 
     invoke-static {v0}, Lcom/google/android/gms/internal/measurement/qc;->O(Lcom/google/android/gms/internal/measurement/qc;)Lcom/google/android/gms/internal/measurement/ma;

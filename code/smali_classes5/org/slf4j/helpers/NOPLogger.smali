@@ -13,7 +13,6 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
     new-instance v0, Lorg/slf4j/helpers/NOPLogger;
 
     invoke-direct {v0}, Lorg/slf4j/helpers/NOPLogger;-><init>()V
@@ -26,7 +25,6 @@
 .method protected constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lorg/slf4j/helpers/MarkerIgnoringBase;-><init>()V
 
     return-void

@@ -27,7 +27,6 @@
 .method constructor <init>(Lcom/mopub/volley/toolbox/NetworkImageView$1;Lcom/mopub/volley/toolbox/ImageLoader$ImageContainer;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/mopub/volley/toolbox/NetworkImageView$1$1;->this$1:Lcom/mopub/volley/toolbox/NetworkImageView$1;
 
     iput-object p2, p0, Lcom/mopub/volley/toolbox/NetworkImageView$1$1;->val$response:Lcom/mopub/volley/toolbox/ImageLoader$ImageContainer;
@@ -42,7 +41,6 @@
 .method public run()V
     .locals 3
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/volley/toolbox/NetworkImageView$1$1;->this$1:Lcom/mopub/volley/toolbox/NetworkImageView$1;
 
     iget-object v1, p0, Lcom/mopub/volley/toolbox/NetworkImageView$1$1;->val$response:Lcom/mopub/volley/toolbox/ImageLoader$ImageContainer;

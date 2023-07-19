@@ -34,7 +34,6 @@
         }
     .end annotation
 
-    .line 7
     sget-object v3, Lorg/greenrobot/eventbus/ThreadMode;->POSTING:Lorg/greenrobot/eventbus/ThreadMode;
 
     const/4 v4, 0x0
@@ -77,7 +76,6 @@
 
     move-object v3, p3
 
-    .line 8
     invoke-direct/range {v0 .. v5}, Lorg/greenrobot/eventbus/o/e;-><init>(Ljava/lang/String;Ljava/lang/Class;Lorg/greenrobot/eventbus/ThreadMode;IZ)V
 
     return-void
@@ -96,22 +94,16 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lorg/greenrobot/eventbus/o/e;->a:Ljava/lang/String;
 
-    .line 3
     iput-object p3, p0, Lorg/greenrobot/eventbus/o/e;->b:Lorg/greenrobot/eventbus/ThreadMode;
 
-    .line 4
     iput-object p2, p0, Lorg/greenrobot/eventbus/o/e;->c:Ljava/lang/Class;
 
-    .line 5
     iput p4, p0, Lorg/greenrobot/eventbus/o/e;->d:I
 
-    .line 6
     iput-boolean p5, p0, Lorg/greenrobot/eventbus/o/e;->e:Z
 
     return-void

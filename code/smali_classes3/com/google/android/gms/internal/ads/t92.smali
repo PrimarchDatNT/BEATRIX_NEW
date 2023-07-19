@@ -25,7 +25,6 @@
 
     new-array v0, v0, [I
 
-    .line 1
     fill-array-data v0, :array_0
 
     sput-object v0, Lcom/google/android/gms/internal/ads/t92;->a:[I
@@ -34,14 +33,12 @@
 
     new-array v1, v0, [I
 
-    .line 2
     fill-array-data v1, :array_1
 
     sput-object v1, Lcom/google/android/gms/internal/ads/t92;->b:[I
 
     new-array v0, v0, [I
 
-    .line 3
     fill-array-data v0, :array_2
 
     sput-object v0, Lcom/google/android/gms/internal/ads/t92;->c:[I
@@ -50,7 +47,6 @@
 
     new-array v0, v0, [I
 
-    .line 4
     fill-array-data v0, :array_3
 
     sput-object v0, Lcom/google/android/gms/internal/ads/t92;->d:[I
@@ -59,14 +55,12 @@
 
     new-array v1, v0, [I
 
-    .line 5
     fill-array-data v1, :array_4
 
     sput-object v1, Lcom/google/android/gms/internal/ads/t92;->e:[I
 
     new-array v0, v0, [I
 
-    .line 6
     fill-array-data v0, :array_5
 
     sput-object v0, Lcom/google/android/gms/internal/ads/t92;->f:[I
@@ -159,7 +153,6 @@
 .method public static a(Lcom/google/android/gms/internal/ads/jg2;Ljava/lang/String;Ljava/lang/String;Lcom/google/android/gms/internal/ads/zzjl;)Lcom/google/android/gms/internal/ads/zzhq;
     .locals 13
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/android/gms/internal/ads/jg2;->g()I
 
     move-result v0
@@ -168,17 +161,14 @@
 
     shr-int/lit8 v0, v0, 0x6
 
-    .line 2
     sget-object v1, Lcom/google/android/gms/internal/ads/t92;->b:[I
 
     aget v8, v1, v0
 
-    .line 3
     invoke-virtual {p0}, Lcom/google/android/gms/internal/ads/jg2;->g()I
 
     move-result v0
 
-    .line 4
     sget-object v1, Lcom/google/android/gms/internal/ads/t92;->d:[I
 
     and-int/lit8 v2, v0, 0x38
@@ -214,7 +204,6 @@
 
     move-object v12, p2
 
-    .line 5
     invoke-static/range {v2 .. v12}, Lcom/google/android/gms/internal/ads/zzhq;->f(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;IIIILjava/util/List;Lcom/google/android/gms/internal/ads/zzjl;ILjava/lang/String;)Lcom/google/android/gms/internal/ads/zzhq;
 
     move-result-object v0
@@ -229,10 +218,8 @@
 
     move-object v1, p0
 
-    .line 1
     invoke-virtual {p0, v0}, Lcom/google/android/gms/internal/ads/jg2;->m(I)V
 
-    .line 2
     invoke-virtual {p0}, Lcom/google/android/gms/internal/ads/jg2;->g()I
 
     move-result v0
@@ -241,17 +228,14 @@
 
     shr-int/lit8 v0, v0, 0x6
 
-    .line 3
     sget-object v2, Lcom/google/android/gms/internal/ads/t92;->b:[I
 
     aget v9, v2, v0
 
-    .line 4
     invoke-virtual {p0}, Lcom/google/android/gms/internal/ads/jg2;->g()I
 
     move-result v0
 
-    .line 5
     sget-object v1, Lcom/google/android/gms/internal/ads/t92;->d:[I
 
     and-int/lit8 v2, v0, 0xe
@@ -287,7 +271,6 @@
 
     move-object/from16 v13, p2
 
-    .line 6
     invoke-static/range {v3 .. v13}, Lcom/google/android/gms/internal/ads/zzhq;->f(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;IIIILjava/util/List;Lcom/google/android/gms/internal/ads/zzjl;ILjava/lang/String;)Lcom/google/android/gms/internal/ads/zzhq;
 
     move-result-object v0
@@ -306,7 +289,6 @@
 .method public static d(Ljava/nio/ByteBuffer;)I
     .locals 3
 
-    .line 1
     invoke-virtual {p0}, Ljava/nio/ByteBuffer;->position()I
 
     move-result v0
@@ -329,7 +311,6 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     sget-object v0, Lcom/google/android/gms/internal/ads/t92;->a:[I
 

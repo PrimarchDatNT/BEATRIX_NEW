@@ -27,7 +27,6 @@
 .method constructor <init>(Lcom/meitu/ipstore/web/scripts/UseMaterialScript$a;Ljava/lang/String;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/ipstore/web/scripts/UseMaterialScript$a$a;->b:Lcom/meitu/ipstore/web/scripts/UseMaterialScript$a;
 
     iput-object p2, p0, Lcom/meitu/ipstore/web/scripts/UseMaterialScript$a$a;->a:Ljava/lang/String;
@@ -46,7 +45,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lf/k/m/b;->i()Lf/k/m/b;
 
     move-result-object v1
@@ -57,7 +55,6 @@
 
     if-eqz v1, :cond_0
 
-    .line 2
     iget-object v2, p0, Lcom/meitu/ipstore/web/scripts/UseMaterialScript$a$a;->b:Lcom/meitu/ipstore/web/scripts/UseMaterialScript$a;
 
     iget-object v2, v2, Lcom/meitu/ipstore/web/scripts/UseMaterialScript$a;->c:Lcom/meitu/ipstore/web/scripts/UseMaterialScript;
@@ -90,7 +87,6 @@
 
     invoke-interface {v1, v2, v3, v4}, Lf/k/m/d;->k(Landroid/app/Activity;Ljava/lang/String;Lf/k/m/d$b;)V
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

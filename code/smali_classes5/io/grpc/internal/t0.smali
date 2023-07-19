@@ -14,12 +14,10 @@
 .method protected constructor <init>(Lio/grpc/internal/a2;)V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const-string v0, "buf"
 
-    .line 2
     invoke-static {p1, v0}, Lcom/google/common/base/t;->F(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -36,7 +34,6 @@
 .method public J5(Ljava/nio/ByteBuffer;)V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lio/grpc/internal/t0;->a:Lio/grpc/internal/a2;
 
     invoke-interface {v0, p1}, Lio/grpc/internal/a2;->J5(Ljava/nio/ByteBuffer;)V
@@ -52,7 +49,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lio/grpc/internal/t0;->a:Lio/grpc/internal/a2;
 
     invoke-interface {v0, p1, p2}, Lio/grpc/internal/a2;->L9(Ljava/io/OutputStream;I)V
@@ -63,7 +59,6 @@
 .method public M1(I)Lio/grpc/internal/a2;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lio/grpc/internal/t0;->a:Lio/grpc/internal/a2;
 
     invoke-interface {v0, p1}, Lio/grpc/internal/a2;->M1(I)Lio/grpc/internal/a2;
@@ -76,7 +71,6 @@
 .method public X9()I
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lio/grpc/internal/t0;->a:Lio/grpc/internal/a2;
 
     invoke-interface {v0}, Lio/grpc/internal/a2;->X9()I
@@ -89,7 +83,6 @@
 .method public Z()I
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lio/grpc/internal/t0;->a:Lio/grpc/internal/a2;
 
     invoke-interface {v0}, Lio/grpc/internal/a2;->Z()I
@@ -102,7 +95,6 @@
 .method public c6()Z
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lio/grpc/internal/t0;->a:Lio/grpc/internal/a2;
 
     invoke-interface {v0}, Lio/grpc/internal/a2;->c6()Z
@@ -115,7 +107,6 @@
 .method public close()V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lio/grpc/internal/t0;->a:Lio/grpc/internal/a2;
 
     invoke-interface {v0}, Lio/grpc/internal/a2;->close()V
@@ -126,7 +117,6 @@
 .method public g3()[B
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lio/grpc/internal/t0;->a:Lio/grpc/internal/a2;
 
     invoke-interface {v0}, Lio/grpc/internal/a2;->g3()[B
@@ -139,7 +129,6 @@
 .method public h8([BII)V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lio/grpc/internal/t0;->a:Lio/grpc/internal/a2;
 
     invoke-interface {v0, p1, p2, p3}, Lio/grpc/internal/a2;->h8([BII)V
@@ -150,7 +139,6 @@
 .method public readInt()I
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lio/grpc/internal/t0;->a:Lio/grpc/internal/a2;
 
     invoke-interface {v0}, Lio/grpc/internal/a2;->readInt()I
@@ -163,7 +151,6 @@
 .method public readUnsignedByte()I
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lio/grpc/internal/t0;->a:Lio/grpc/internal/a2;
 
     invoke-interface {v0}, Lio/grpc/internal/a2;->readUnsignedByte()I
@@ -176,7 +163,6 @@
 .method public skipBytes(I)V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lio/grpc/internal/t0;->a:Lio/grpc/internal/a2;
 
     invoke-interface {v0, p1}, Lio/grpc/internal/a2;->skipBytes(I)V
@@ -187,7 +173,6 @@
 .method public toString()Ljava/lang/String;
     .locals 3
 
-    .line 1
     invoke-static {p0}, Lcom/google/common/base/p;->c(Ljava/lang/Object;)Lcom/google/common/base/p$b;
 
     move-result-object v0

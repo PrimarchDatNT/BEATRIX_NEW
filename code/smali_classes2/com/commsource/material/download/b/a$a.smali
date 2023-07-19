@@ -55,7 +55,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/material/download/b/a$a;->a:Lcom/commsource/material/download/b/a;
 
     invoke-virtual {v1}, Lcom/commsource/material/download/b/a;->b()Lcom/commsource/beautyfilter/NoStickLiveData;
@@ -66,12 +65,10 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/beautyfilter/NoStickLiveData;->setValue(Ljava/lang/Object;)V
 
-    .line 2
     iget-boolean v1, p0, Lcom/commsource/material/download/b/a$a;->c:Z
 
     if-eqz v1, :cond_3
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/material/download/b/a$a;->d:Ljava/lang/Throwable;
 
     if-eqz v1, :cond_3
@@ -114,7 +111,6 @@
     :goto_2
     if-eqz v1, :cond_3
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/material/download/b/a$a;->a:Lcom/commsource/material/download/b/a;
 
     invoke-static {v1}, Lcom/commsource/material/download/b/a;->a(Lcom/commsource/material/download/b/a;)Lcom/commsource/beautyfilter/NoStickLiveData;
@@ -125,7 +121,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/beautyfilter/NoStickLiveData;->postValue(Ljava/lang/Object;)V
 
-    .line 5
     :cond_3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

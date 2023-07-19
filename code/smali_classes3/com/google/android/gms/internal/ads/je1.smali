@@ -18,7 +18,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Ljava/util/concurrent/atomic/AtomicReference;->get()Ljava/lang/Object;
 
     move-result-object p0
@@ -27,7 +26,6 @@
 
     return-void
 
-    .line 2
     :cond_0
     :try_start_0
     invoke-interface {p1, p0}, Lcom/google/android/gms/internal/ads/me1;->a(Ljava/lang/Object;)V
@@ -41,7 +39,6 @@
 
     const-string p1, "#007 Could not call remote method."
 
-    .line 3
     invoke-static {p1, p0}, Lcom/google/android/gms/internal/ads/aq;->e(Ljava/lang/String;Ljava/lang/Throwable;)V
 
     return-void

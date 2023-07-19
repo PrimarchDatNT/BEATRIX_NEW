@@ -26,7 +26,6 @@
 .method constructor <init>(Lcom/google/firebase/auth/p/a/s4;Lcom/google/firebase/auth/p/a/y3;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/firebase/auth/p/a/v4;->b:Lcom/google/firebase/auth/p/a/s4;
 
     iput-object p2, p0, Lcom/google/firebase/auth/p/a/v4;->a:Lcom/google/firebase/auth/p/a/y3;
@@ -45,7 +44,6 @@
         .end annotation
     .end param
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/auth/p/a/v4;->a:Lcom/google/firebase/auth/p/a/y3;
 
     invoke-interface {v0, p1}, Lcom/google/firebase/auth/p/a/v3;->a(Ljava/lang/String;)V
@@ -56,7 +54,6 @@
 .method public final synthetic onSuccess(Ljava/lang/Object;)V
     .locals 0
 
-    .line 1
     iget-object p1, p0, Lcom/google/firebase/auth/p/a/v4;->b:Lcom/google/firebase/auth/p/a/s4;
 
     iget-object p1, p1, Lcom/google/firebase/auth/p/a/s4;->a:Lcom/google/firebase/auth/p/a/q2;

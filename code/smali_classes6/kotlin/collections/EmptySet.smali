@@ -24,7 +24,6 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
     new-instance v0, Lcotlin/collections/EmptySet;
 
     invoke-direct {v0}, Lcotlin/collections/EmptySet;-><init>()V
@@ -37,7 +36,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -46,7 +44,6 @@
 .method private final readResolve()Ljava/lang/Object;
     .locals 1
 
-    .line 1
     sget-object v0, Lcotlin/collections/EmptySet;->INSTANCE:Lcotlin/collections/EmptySet;
 
     return-object v0
@@ -105,7 +102,6 @@
 .method public final bridge contains(Ljava/lang/Object;)Z
     .locals 1
 
-    .line 1
     instance-of v0, p1, Ljava/lang/Void;
 
     if-eqz v0, :cond_0
@@ -151,7 +147,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-interface {p1}, Ljava/util/Collection;->isEmpty()Z
 
     move-result p1
@@ -166,7 +161,6 @@
         .end annotation
     .end param
 
-    .line 1
     instance-of v0, p1, Ljava/util/Set;
 
     if-eqz v0, :cond_0
@@ -219,7 +213,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     sget-object v0, Lcotlin/collections/c0;->a:Lcotlin/collections/c0;
 
     return-object v0
@@ -264,7 +257,6 @@
 .method public final bridge size()I
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcotlin/collections/EmptySet;->getSize()I
 
     move-result v0

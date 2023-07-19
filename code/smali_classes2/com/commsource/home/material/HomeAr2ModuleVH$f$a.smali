@@ -42,7 +42,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/home/material/HomeAr2ModuleVH$f$a;->a:Lcom/commsource/home/material/HomeAr2ModuleVH$f;
 
     const-string v2, "it"

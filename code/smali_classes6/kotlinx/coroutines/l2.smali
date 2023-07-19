@@ -48,10 +48,8 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-direct {p0, p1, v0}, Lcotlinx/coroutines/c3;-><init>(Lcotlin/coroutines/CoroutineContext;Z)V
 
-    .line 2
     invoke-static {p2, p0, p0}, Lcotlin/coroutines/intrinsics/a;->c(Lcotlin/jvm/u/p;Ljava/lang/Object;Lcotlin/coroutines/c;)Lcotlin/coroutines/c;
 
     move-result-object p1
@@ -66,7 +64,6 @@
 .method protected u1()V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcotlinx/coroutines/l2;->d:Lcotlin/coroutines/c;
 
     invoke-static {v0, p0}, Lcotlinx/coroutines/s3/a;->b(Lcotlin/coroutines/c;Lcotlin/coroutines/c;)V

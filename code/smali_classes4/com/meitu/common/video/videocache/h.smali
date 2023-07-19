@@ -56,7 +56,6 @@
 
     const-string v1, "HttpProxyCacheServer"
 
-    .line 1
     invoke-static {v1}, Lorg/slf4j/d;->g(Ljava/lang/String;)Lorg/slf4j/c;
 
     move-result-object v1
@@ -71,7 +70,6 @@
 .method public constructor <init>(Landroid/content/Context;)V
     .locals 1
 
-    .line 2
     new-instance v0, Lcom/meitu/common/video/videocache/h$b;
 
     invoke-direct {v0, p1}, Lcom/meitu/common/video/videocache/h$b;-><init>(Landroid/content/Context;)V
@@ -90,17 +88,14 @@
 
     const-string v0, "127.0.0.1"
 
-    .line 3
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 4
     new-instance v1, Ljava/lang/Object;
 
     invoke-direct {v1}, Ljava/lang/Object;-><init>()V
 
     iput-object v1, p0, Lcom/meitu/common/video/videocache/h;->a:Ljava/lang/Object;
 
-    .line 5
     sget-object v1, Lcom/meitu/common/video/videocache/s;->a:Lcom/meitu/common/video/videocache/s$a;
 
     const/16 v2, 0x8
@@ -111,21 +106,18 @@
 
     iput-object v3, p0, Lcom/meitu/common/video/videocache/h;->b:Ljava/util/concurrent/ThreadPoolExecutor;
 
-    .line 6
     new-instance v3, Ljava/util/concurrent/ConcurrentHashMap;
 
     invoke-direct {v3}, Ljava/util/concurrent/ConcurrentHashMap;-><init>()V
 
     iput-object v3, p0, Lcom/meitu/common/video/videocache/h;->c:Ljava/util/Map;
 
-    .line 7
     invoke-virtual {v1}, Lcom/meitu/common/video/videocache/s$a;->a()Ljava/util/concurrent/ThreadPoolExecutor;
 
     move-result-object v1
 
     iput-object v1, p0, Lcom/meitu/common/video/videocache/h;->f:Ljava/util/concurrent/ThreadPoolExecutor;
 
-    .line 8
     invoke-static {p1}, Lcom/meitu/common/video/videocache/m;->d(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -134,13 +126,11 @@
 
     iput-object p1, p0, Lcom/meitu/common/video/videocache/h;->g:Lcom/meitu/common/video/videocache/e;
 
-    .line 9
     :try_start_0
     invoke-static {v0}, Ljava/net/InetAddress;->getByName(Ljava/lang/String;)Ljava/net/InetAddress;
 
     move-result-object p1
 
-    .line 10
     new-instance v3, Ljava/net/ServerSocket;
 
     const/4 v4, 0x0
@@ -149,41 +139,34 @@
 
     iput-object v3, p0, Lcom/meitu/common/video/videocache/h;->d:Ljava/net/ServerSocket;
 
-    .line 11
     invoke-virtual {v3}, Ljava/net/ServerSocket;->getLocalPort()I
 
     move-result p1
 
     iput p1, p0, Lcom/meitu/common/video/videocache/h;->e:I
 
-    .line 12
     invoke-static {v0, p1}, Lcom/meitu/common/video/videocache/k;->a(Ljava/lang/String;I)V
 
-    .line 13
     new-instance v2, Ljava/util/concurrent/CountDownLatch;
 
     const/4 v3, 0x1
 
     invoke-direct {v2, v3}, Ljava/util/concurrent/CountDownLatch;-><init>(I)V
 
-    .line 14
     new-instance v3, Lcom/meitu/common/video/videocache/h$d;
 
     invoke-direct {v3, p0, v2}, Lcom/meitu/common/video/videocache/h$d;-><init>(Lcom/meitu/common/video/videocache/h;Ljava/util/concurrent/CountDownLatch;)V
 
     invoke-virtual {v1, v3}, Ljava/util/concurrent/ThreadPoolExecutor;->execute(Ljava/lang/Runnable;)V
 
-    .line 15
     invoke-virtual {v2}, Ljava/util/concurrent/CountDownLatch;->await()V
 
-    .line 16
     new-instance v1, Lcom/meitu/common/video/videocache/l;
 
     invoke-direct {v1, v0, p1}, Lcom/meitu/common/video/videocache/l;-><init>(Ljava/lang/String;I)V
 
     iput-object v1, p0, Lcom/meitu/common/video/videocache/h;->h:Lcom/meitu/common/video/videocache/l;
 
-    .line 17
     sget-object p1, Lcom/meitu/common/video/videocache/h;->i:Lorg/slf4j/c;
 
     new-instance v0, Ljava/lang/StringBuilder;
@@ -219,13 +202,11 @@
     :catch_1
     move-exception p1
 
-    .line 18
     :goto_0
     iget-object v0, p0, Lcom/meitu/common/video/videocache/h;->b:Ljava/util/concurrent/ThreadPoolExecutor;
 
     invoke-virtual {v0}, Ljava/util/concurrent/ThreadPoolExecutor;->shutdown()V
 
-    .line 19
     new-instance v0, Ljava/lang/IllegalStateException;
 
     const-string v1, "Error starting local proxy server"
@@ -238,7 +219,6 @@
 .method synthetic constructor <init>(Lcom/meitu/common/video/videocache/e;Lcom/meitu/common/video/videocache/h$a;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/meitu/common/video/videocache/h;-><init>(Lcom/meitu/common/video/videocache/e;)V
 
     return-void
@@ -251,7 +231,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/meitu/common/video/videocache/h;->w()V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -266,7 +245,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/meitu/common/video/videocache/h;->o(Ljava/net/Socket;)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -281,7 +259,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Ljava/util/Locale;->US:Ljava/util/Locale;
 
     const/4 v2, 0x3
@@ -330,7 +307,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     :try_start_0
     invoke-virtual {p1}, Ljava/net/Socket;->isClosed()Z
 
@@ -338,7 +314,6 @@
 
     if-nez v1, :cond_0
 
-    .line 2
     invoke-virtual {p1}, Ljava/net/Socket;->close()V
     :try_end_0
     .catch Ljava/io/IOException; {:try_start_0 .. :try_end_0} :catch_0
@@ -348,7 +323,6 @@
     :catch_0
     move-exception p1
 
-    .line 3
     new-instance v1, Lcom/meitu/common/video/videocache/ProxyCacheException;
 
     const-string v2, "Error closing socket"
@@ -357,7 +331,6 @@
 
     invoke-direct {p0, v1}, Lcom/meitu/common/video/videocache/h;->n(Ljava/lang/Throwable;)V
 
-    .line 4
     :cond_0
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -372,7 +345,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     :try_start_0
     invoke-virtual {p1}, Ljava/net/Socket;->isInputShutdown()Z
 
@@ -380,7 +352,6 @@
 
     if-nez v1, :cond_0
 
-    .line 2
     invoke-virtual {p1}, Ljava/net/Socket;->shutdownInput()V
     :try_end_0
     .catch Ljava/net/SocketException; {:try_start_0 .. :try_end_0} :catch_1
@@ -391,7 +362,6 @@
     :catch_0
     move-exception p1
 
-    .line 3
     new-instance v1, Lcom/meitu/common/video/videocache/ProxyCacheException;
 
     const-string v2, "Error closing socket input stream"
@@ -402,7 +372,6 @@
 
     goto :goto_0
 
-    .line 4
     :catch_1
     sget-object p1, Lcom/meitu/common/video/videocache/h;->i:Lorg/slf4j/c;
 
@@ -410,7 +379,6 @@
 
     invoke-interface {p1, v1}, Lorg/slf4j/c;->debug(Ljava/lang/String;)V
 
-    .line 5
     :cond_0
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -425,7 +393,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     :try_start_0
     invoke-virtual {p1}, Ljava/net/Socket;->isOutputShutdown()Z
 
@@ -433,7 +400,6 @@
 
     if-nez v1, :cond_0
 
-    .line 2
     invoke-virtual {p1}, Ljava/net/Socket;->shutdownOutput()V
     :try_end_0
     .catch Ljava/io/IOException; {:try_start_0 .. :try_end_0} :catch_0
@@ -443,7 +409,6 @@
     :catch_0
     move-exception p1
 
-    .line 3
     sget-object v1, Lcom/meitu/common/video/videocache/h;->i:Lorg/slf4j/c;
 
     invoke-virtual {p1}, Ljava/io/IOException;->getMessage()Ljava/lang/String;
@@ -454,7 +419,6 @@
 
     invoke-interface {v1, v2, p1}, Lorg/slf4j/c;->warn(Ljava/lang/String;Ljava/lang/Object;)V
 
-    .line 4
     :cond_0
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -469,19 +433,16 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/common/video/videocache/h;->g:Lcom/meitu/common/video/videocache/e;
 
     iget-object v2, v1, Lcom/meitu/common/video/videocache/e;->a:Ljava/io/File;
 
-    .line 2
     iget-object v1, v1, Lcom/meitu/common/video/videocache/e;->b:Lcom/meitu/common/video/videocache/t/c;
 
     invoke-interface {v1, p1}, Lcom/meitu/common/video/videocache/t/c;->a(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p1
 
-    .line 3
     new-instance v1, Ljava/io/File;
 
     invoke-direct {v1, v2, p1}, Ljava/io/File;-><init>(Ljava/io/File;Ljava/lang/String;)V
@@ -503,12 +464,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/common/video/videocache/h;->a:Ljava/lang/Object;
 
     monitor-enter v1
 
-    .line 2
     :try_start_0
     iget-object v2, p0, Lcom/meitu/common/video/videocache/h;->c:Ljava/util/Map;
 
@@ -520,19 +479,16 @@
 
     if-nez v2, :cond_0
 
-    .line 3
     new-instance v2, Lcom/meitu/common/video/videocache/i;
 
     iget-object v3, p0, Lcom/meitu/common/video/videocache/h;->g:Lcom/meitu/common/video/videocache/e;
 
     invoke-direct {v2, p1, v3}, Lcom/meitu/common/video/videocache/i;-><init>(Ljava/lang/String;Lcom/meitu/common/video/videocache/e;)V
 
-    .line 4
     iget-object v3, p0, Lcom/meitu/common/video/videocache/h;->c:Ljava/util/Map;
 
     invoke-interface {v3, p1, v2}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 5
     :cond_0
     monitor-exit v1
     :try_end_0
@@ -545,7 +501,6 @@
     :catchall_0
     move-exception p1
 
-    .line 6
     :try_start_1
     monitor-exit v1
     :try_end_1
@@ -563,14 +518,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/common/video/videocache/h;->a:Ljava/lang/Object;
 
     monitor-enter v1
 
     const/4 v2, 0x0
 
-    .line 2
     :try_start_0
     iget-object v3, p0, Lcom/meitu/common/video/videocache/h;->c:Ljava/util/Map;
 
@@ -595,7 +548,6 @@
 
     check-cast v4, Lcom/meitu/common/video/videocache/i;
 
-    .line 3
     invoke-virtual {v4}, Lcom/meitu/common/video/videocache/i;->b()I
 
     move-result v4
@@ -604,7 +556,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_0
     monitor-exit v1
     :try_end_0
@@ -617,7 +568,6 @@
     :catchall_0
     move-exception v2
 
-    .line 5
     :try_start_1
     monitor-exit v1
     :try_end_1
@@ -635,7 +585,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/common/video/videocache/h;->h:Lcom/meitu/common/video/videocache/l;
 
     const/4 v2, 0x3
@@ -658,14 +607,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/meitu/common/video/videocache/h;->i:Lorg/slf4j/c;
 
     const-string v2, "HttpProxyCacheServer error"
 
     invoke-interface {v1, v2, p1}, Lorg/slf4j/c;->error(Ljava/lang/String;Ljava/lang/Throwable;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -680,7 +627,6 @@
 
     invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     :try_start_0
     invoke-virtual {p1}, Ljava/net/Socket;->getInputStream()Ljava/io/InputStream;
 
@@ -690,7 +636,6 @@
 
     move-result-object v2
 
-    .line 2
     sget-object v3, Lcom/meitu/common/video/videocache/h;->i:Lorg/slf4j/c;
 
     new-instance v4, Ljava/lang/StringBuilder;
@@ -709,14 +654,12 @@
 
     invoke-interface {v3, v4}, Lorg/slf4j/c;->debug(Ljava/lang/String;)V
 
-    .line 3
     iget-object v4, v2, Lcom/meitu/common/video/videocache/f;->a:Ljava/lang/String;
 
     invoke-static {v4}, Lcom/meitu/common/video/videocache/o;->e(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v4
 
-    .line 4
     iget-object v5, p0, Lcom/meitu/common/video/videocache/h;->h:Lcom/meitu/common/video/videocache/l;
 
     invoke-virtual {v5, v4}, Lcom/meitu/common/video/videocache/l;->d(Ljava/lang/String;)Z
@@ -725,20 +668,17 @@
 
     if-eqz v5, :cond_0
 
-    .line 5
     iget-object v2, p0, Lcom/meitu/common/video/videocache/h;->h:Lcom/meitu/common/video/videocache/l;
 
     invoke-virtual {v2, p1}, Lcom/meitu/common/video/videocache/l;->g(Ljava/net/Socket;)V
 
     goto :goto_0
 
-    .line 6
     :cond_0
     invoke-direct {p0, v4}, Lcom/meitu/common/video/videocache/h;->h(Ljava/lang/String;)Lcom/meitu/common/video/videocache/i;
 
     move-result-object v4
 
-    .line 7
     invoke-virtual {v4, v2, p1}, Lcom/meitu/common/video/videocache/i;->d(Lcom/meitu/common/video/videocache/f;Ljava/net/Socket;)V
     :try_end_0
     .catch Ljava/net/SocketException; {:try_start_0 .. :try_end_0} :catch_2
@@ -746,11 +686,9 @@
     .catch Ljava/io/IOException; {:try_start_0 .. :try_end_0} :catch_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 8
     :goto_0
     invoke-direct {p0, p1}, Lcom/meitu/common/video/videocache/h;->q(Ljava/net/Socket;)V
 
-    .line 9
     new-instance p1, Ljava/lang/StringBuilder;
 
     invoke-direct {p1}, Ljava/lang/StringBuilder;-><init>()V
@@ -784,7 +722,6 @@
     :catch_1
     move-exception v2
 
-    .line 10
     :goto_1
     :try_start_1
     new-instance v3, Lcom/meitu/common/video/videocache/ProxyCacheException;
@@ -797,10 +734,8 @@
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
-    .line 11
     invoke-direct {p0, p1}, Lcom/meitu/common/video/videocache/h;->q(Ljava/net/Socket;)V
 
-    .line 12
     sget-object p1, Lcom/meitu/common/video/videocache/h;->i:Lorg/slf4j/c;
 
     new-instance v2, Ljava/lang/StringBuilder;
@@ -823,7 +758,6 @@
 
     goto :goto_2
 
-    .line 13
     :catch_2
     :try_start_2
     sget-object v2, Lcom/meitu/common/video/videocache/h;->i:Lorg/slf4j/c;
@@ -834,10 +768,8 @@
     :try_end_2
     .catchall {:try_start_2 .. :try_end_2} :catchall_0
 
-    .line 14
     invoke-direct {p0, p1}, Lcom/meitu/common/video/videocache/h;->q(Ljava/net/Socket;)V
 
-    .line 15
     new-instance p1, Ljava/lang/StringBuilder;
 
     invoke-direct {p1}, Ljava/lang/StringBuilder;-><init>()V
@@ -856,17 +788,14 @@
 
     invoke-interface {v2, p1}, Lorg/slf4j/c;->debug(Ljava/lang/String;)V
 
-    .line 16
     :goto_2
     invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 17
     :goto_3
     invoke-direct {p0, p1}, Lcom/meitu/common/video/videocache/h;->q(Ljava/net/Socket;)V
 
-    .line 18
     sget-object p1, Lcom/meitu/common/video/videocache/h;->i:Lorg/slf4j/c;
 
     new-instance v3, Ljava/lang/StringBuilder;
@@ -887,7 +816,6 @@
 
     invoke-interface {p1, v0}, Lorg/slf4j/c;->debug(Ljava/lang/String;)V
 
-    .line 19
     invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     throw v2
@@ -900,16 +828,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/meitu/common/video/videocache/h;->e(Ljava/net/Socket;)V
 
-    .line 2
     invoke-direct {p0, p1}, Lcom/meitu/common/video/videocache/h;->f(Ljava/net/Socket;)V
 
-    .line 3
     invoke-direct {p0, p1}, Lcom/meitu/common/video/videocache/h;->d(Ljava/net/Socket;)V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -922,12 +846,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/common/video/videocache/h;->a:Ljava/lang/Object;
 
     monitor-enter v1
 
-    .line 2
     :try_start_0
     iget-object v2, p0, Lcom/meitu/common/video/videocache/h;->c:Ljava/util/Map;
 
@@ -952,23 +874,19 @@
 
     check-cast v3, Lcom/meitu/common/video/videocache/i;
 
-    .line 3
     invoke-virtual {v3}, Lcom/meitu/common/video/videocache/i;->f()V
 
     goto :goto_0
 
-    .line 4
     :cond_0
     iget-object v2, p0, Lcom/meitu/common/video/videocache/h;->c:Ljava/util/Map;
 
     invoke-interface {v2}, Ljava/util/Map;->clear()V
 
-    .line 5
     monitor-exit v1
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -976,7 +894,6 @@
     :catchall_0
     move-exception v2
 
-    .line 7
     :try_start_1
     monitor-exit v1
     :try_end_1
@@ -994,7 +911,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     :try_start_0
     iget-object v1, p0, Lcom/meitu/common/video/videocache/h;->g:Lcom/meitu/common/video/videocache/e;
 
@@ -1009,7 +925,6 @@
     :catch_0
     move-exception v1
 
-    .line 2
     sget-object v2, Lcom/meitu/common/video/videocache/h;->i:Lorg/slf4j/c;
 
     new-instance v3, Ljava/lang/StringBuilder;
@@ -1028,7 +943,6 @@
 
     invoke-interface {v2, p1, v1}, Lorg/slf4j/c;->error(Ljava/lang/String;Ljava/lang/Throwable;)V
 
-    .line 3
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1042,7 +956,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     :goto_0
     :try_start_0
     invoke-static {}, Ljava/lang/Thread;->currentThread()Ljava/lang/Thread;
@@ -1055,14 +968,12 @@
 
     if-nez v1, :cond_0
 
-    .line 2
     iget-object v1, p0, Lcom/meitu/common/video/videocache/h;->d:Ljava/net/ServerSocket;
 
     invoke-virtual {v1}, Ljava/net/ServerSocket;->accept()Ljava/net/Socket;
 
     move-result-object v1
 
-    .line 3
     sget-object v2, Lcom/meitu/common/video/videocache/h;->i:Lorg/slf4j/c;
 
     new-instance v3, Ljava/lang/StringBuilder;
@@ -1081,7 +992,6 @@
 
     invoke-interface {v2, v3}, Lorg/slf4j/c;->debug(Ljava/lang/String;)V
 
-    .line 4
     iget-object v2, p0, Lcom/meitu/common/video/videocache/h;->b:Ljava/util/concurrent/ThreadPoolExecutor;
 
     new-instance v3, Lcom/meitu/common/video/videocache/h$c;
@@ -1097,7 +1007,6 @@
     :catch_0
     move-exception v1
 
-    .line 5
     new-instance v2, Lcom/meitu/common/video/videocache/ProxyCacheException;
 
     const-string v3, "Error during waiting connection"
@@ -1106,7 +1015,6 @@
 
     invoke-direct {p0, v2}, Lcom/meitu/common/video/videocache/h;->n(Ljava/lang/Throwable;)V
 
-    .line 6
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1124,7 +1032,6 @@
 
     const/4 v1, 0x1
 
-    .line 1
     invoke-virtual {p0, p1, v1}, Lcom/meitu/common/video/videocache/h;->k(Ljava/lang/String;Z)Ljava/lang/String;
 
     move-result-object p1
@@ -1143,22 +1050,18 @@
 
     if-eqz p2, :cond_0
 
-    .line 1
     invoke-virtual {p0, p1}, Lcom/meitu/common/video/videocache/h;->m(Ljava/lang/String;)Z
 
     move-result p2
 
     if-eqz p2, :cond_0
 
-    .line 2
     invoke-direct {p0, p1}, Lcom/meitu/common/video/videocache/h;->g(Ljava/lang/String;)Ljava/io/File;
 
     move-result-object p1
 
-    .line 3
     invoke-direct {p0, p1}, Lcom/meitu/common/video/videocache/h;->t(Ljava/io/File;)V
 
-    .line 4
     invoke-static {p1}, Landroid/net/Uri;->fromFile(Ljava/io/File;)Landroid/net/Uri;
 
     move-result-object p1
@@ -1171,7 +1074,6 @@
 
     return-object p1
 
-    .line 5
     :cond_0
     invoke-direct {p0}, Lcom/meitu/common/video/videocache/h;->l()Z
 
@@ -1198,10 +1100,8 @@
 
     const-string v1, "Url can\'t be null!"
 
-    .line 1
     invoke-static {p1, v1}, Lcom/meitu/common/video/videocache/m;->e(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
 
-    .line 2
     invoke-direct {p0, p1}, Lcom/meitu/common/video/videocache/h;->g(Ljava/lang/String;)Ljava/io/File;
 
     move-result-object p1
@@ -1234,15 +1134,12 @@
 
     aput-object p2, v1, v2
 
-    .line 1
     invoke-static {v1}, Lcom/meitu/common/video/videocache/m;->a([Ljava/lang/Object;)V
 
-    .line 2
     iget-object v1, p0, Lcom/meitu/common/video/videocache/h;->a:Ljava/lang/Object;
 
     monitor-enter v1
 
-    .line 3
     :try_start_0
     invoke-direct {p0, p2}, Lcom/meitu/common/video/videocache/h;->h(Ljava/lang/String;)Lcom/meitu/common/video/videocache/i;
 
@@ -1263,7 +1160,6 @@
     :catch_0
     move-exception p1
 
-    .line 4
     :try_start_1
     sget-object p2, Lcom/meitu/common/video/videocache/h;->i:Lorg/slf4j/c;
 
@@ -1271,18 +1167,15 @@
 
     invoke-interface {p2, v2, p1}, Lorg/slf4j/c;->warn(Ljava/lang/String;Ljava/lang/Throwable;)V
 
-    .line 5
     :goto_0
     monitor-exit v1
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 7
     :goto_1
     :try_start_2
     monitor-exit v1
@@ -1301,24 +1194,20 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/meitu/common/video/videocache/h;->i:Lorg/slf4j/c;
 
     const-string v2, "Shutdown proxy server"
 
     invoke-interface {v1, v2}, Lorg/slf4j/c;->info(Ljava/lang/String;)V
 
-    .line 2
     invoke-direct {p0}, Lcom/meitu/common/video/videocache/h;->s()V
 
-    .line 3
     iget-object v1, p0, Lcom/meitu/common/video/videocache/h;->g:Lcom/meitu/common/video/videocache/e;
 
     iget-object v1, v1, Lcom/meitu/common/video/videocache/e;->d:Lcom/meitu/common/video/videocache/v/c;
 
     invoke-interface {v1}, Lcom/meitu/common/video/videocache/v/c;->release()V
 
-    .line 4
     iget-object v1, p0, Lcom/meitu/common/video/videocache/h;->f:Ljava/util/concurrent/ThreadPoolExecutor;
 
     invoke-virtual {v1}, Ljava/util/concurrent/ThreadPoolExecutor;->isShutdown()Z
@@ -1327,12 +1216,10 @@
 
     if-nez v1, :cond_0
 
-    .line 5
     iget-object v1, p0, Lcom/meitu/common/video/videocache/h;->f:Ljava/util/concurrent/ThreadPoolExecutor;
 
     invoke-virtual {v1}, Ljava/util/concurrent/ThreadPoolExecutor;->shutdownNow()Ljava/util/List;
 
-    .line 6
     :cond_0
     :try_start_0
     iget-object v1, p0, Lcom/meitu/common/video/videocache/h;->d:Ljava/net/ServerSocket;
@@ -1343,7 +1230,6 @@
 
     if-nez v1, :cond_1
 
-    .line 7
     iget-object v1, p0, Lcom/meitu/common/video/videocache/h;->d:Ljava/net/ServerSocket;
 
     invoke-virtual {v1}, Ljava/net/ServerSocket;->close()V
@@ -1355,7 +1241,6 @@
     :catch_0
     move-exception v1
 
-    .line 8
     new-instance v2, Lcom/meitu/common/video/videocache/ProxyCacheException;
 
     const-string v3, "Error shutting down proxy server"
@@ -1364,7 +1249,6 @@
 
     invoke-direct {p0, v2}, Lcom/meitu/common/video/videocache/h;->n(Ljava/lang/Throwable;)V
 
-    .line 9
     :cond_1
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1379,15 +1263,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/common/video/videocache/m;->d(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 2
     iget-object v1, p0, Lcom/meitu/common/video/videocache/h;->a:Ljava/lang/Object;
 
     monitor-enter v1
 
-    .line 3
     :try_start_0
     iget-object v2, p0, Lcom/meitu/common/video/videocache/h;->c:Ljava/util/Map;
 
@@ -1412,18 +1293,15 @@
 
     check-cast v3, Lcom/meitu/common/video/videocache/i;
 
-    .line 4
     invoke-virtual {v3, p1}, Lcom/meitu/common/video/videocache/i;->h(Lcom/meitu/common/video/videocache/d;)V
 
     goto :goto_0
 
-    .line 5
     :cond_0
     monitor-exit v1
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1431,7 +1309,6 @@
     :catchall_0
     move-exception p1
 
-    .line 7
     :try_start_1
     monitor-exit v1
     :try_end_1
@@ -1461,15 +1338,12 @@
 
     aput-object p2, v1, v2
 
-    .line 1
     invoke-static {v1}, Lcom/meitu/common/video/videocache/m;->a([Ljava/lang/Object;)V
 
-    .line 2
     iget-object v1, p0, Lcom/meitu/common/video/videocache/h;->a:Ljava/lang/Object;
 
     monitor-enter v1
 
-    .line 3
     :try_start_0
     invoke-direct {p0, p2}, Lcom/meitu/common/video/videocache/h;->h(Ljava/lang/String;)Lcom/meitu/common/video/videocache/i;
 
@@ -1490,7 +1364,6 @@
     :catch_0
     move-exception p1
 
-    .line 4
     :try_start_1
     sget-object p2, Lcom/meitu/common/video/videocache/h;->i:Lorg/slf4j/c;
 
@@ -1498,18 +1371,15 @@
 
     invoke-interface {p2, v2, p1}, Lorg/slf4j/c;->warn(Ljava/lang/String;Ljava/lang/Throwable;)V
 
-    .line 5
     :goto_0
     monitor-exit v1
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 7
     :goto_1
     :try_start_2
     monitor-exit v1

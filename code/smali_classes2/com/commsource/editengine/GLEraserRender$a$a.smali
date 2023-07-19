@@ -42,7 +42,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/editengine/GLEraserRender$a$a;->a:Lcom/commsource/editengine/GLEraserRender$a;
 
     iget-object v1, v1, Lcom/commsource/editengine/GLEraserRender$a;->a:Lcom/commsource/editengine/GLEraserRender;
@@ -67,7 +66,6 @@
 
     invoke-static {v1, v2}, Lcom/commsource/easyeditor/utils/opengl/n;->e(Landroid/graphics/Bitmap;Lcom/commsource/easyeditor/utils/opengl/f;)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/editengine/GLEraserRender$a$a;->a:Lcom/commsource/editengine/GLEraserRender$a;
 
     iget-object v1, v1, Lcom/commsource/editengine/GLEraserRender$a;->a:Lcom/commsource/editengine/GLEraserRender;
@@ -98,7 +96,6 @@
 
     invoke-virtual {v1, v2, v3}, Lcom/commsource/studio/shader/n;->k(Lcom/commsource/easyeditor/utils/opengl/f;Lcom/commsource/easyeditor/utils/opengl/f;)V
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/editengine/GLEraserRender$a$a;->a:Lcom/commsource/editengine/GLEraserRender$a;
 
     iget-object v1, v1, Lcom/commsource/editengine/GLEraserRender$a;->a:Lcom/commsource/editengine/GLEraserRender;
@@ -117,7 +114,6 @@
 
     invoke-static {v1, v4, v4, v3, v2}, Lcom/commsource/studio/component/UndoRedoComponent$c;->I(Lcom/commsource/studio/component/UndoRedoComponent$c;ZZILjava/lang/Object;)V
 
-    .line 4
     :cond_0
     iget-object v1, p0, Lcom/commsource/editengine/GLEraserRender$a$a;->a:Lcom/commsource/editengine/GLEraserRender$a;
 
@@ -154,7 +150,6 @@
 
     invoke-virtual {v1, v3, v4}, Lcom/commsource/editengine/node/b;->D(ZLcom/commsource/easyeditor/utils/opengl/f;)V
 
-    .line 5
     :cond_2
     iget-object v1, p0, Lcom/commsource/editengine/GLEraserRender$a$a;->a:Lcom/commsource/editengine/GLEraserRender$a;
 
@@ -192,7 +187,6 @@
 
     invoke-virtual {v2, v3, v1}, Lcom/commsource/editengine/node/b;->B(ZLcom/commsource/easyeditor/utils/opengl/f;)V
 
-    .line 6
     :cond_4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

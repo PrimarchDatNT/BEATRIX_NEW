@@ -57,7 +57,6 @@
 
     const-string v1, "result"
 
-    .line 1
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-interface {p1}, Ljava/util/Collection;->isEmpty()Z
@@ -86,12 +85,10 @@
 
     if-eqz p1, :cond_0
 
-    .line 2
     iget-object p1, p0, Lcom/commsource/studio/sticker/CustomStickerActivity$initViewModel$$inlined$apply$lambda$1;->b:Lcom/commsource/studio/sticker/CustomStickerActivity;
 
     invoke-virtual {p1}, Lcom/commsource/beautyplus/BaseActivity;->J0()V
 
-    .line 3
     new-instance p1, Lcom/commsource/studio/sticker/CustomStickerActivity$initViewModel$$inlined$apply$lambda$1$1;
 
     const-string v1, "StudioInit"
@@ -102,7 +99,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_0
     new-instance p1, Lcom/commsource/studio/sticker/CustomStickerActivity$initViewModel$$inlined$apply$lambda$1$a;
 
@@ -110,7 +106,6 @@
 
     invoke-static {p1}, Lcom/commsource/util/g2;->k(Ljava/lang/Runnable;)V
 
-    .line 5
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

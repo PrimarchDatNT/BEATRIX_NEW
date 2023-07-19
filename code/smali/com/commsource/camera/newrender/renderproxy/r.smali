@@ -31,31 +31,24 @@
 .method public constructor <init>(Lcom/commsource/camera/newrender/renderproxy/q;)V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/camera/newrender/renderproxy/n;-><init>()V
 
     const/16 v0, 0x64
 
-    .line 2
     iput v0, p0, Lcom/commsource/camera/newrender/renderproxy/r;->i:I
 
     const/4 v0, 0x0
 
-    .line 3
     iput-boolean v0, p0, Lcom/commsource/camera/newrender/renderproxy/r;->l:Z
 
     const/4 v0, 0x0
 
-    .line 4
     iput-object v0, p0, Lcom/commsource/camera/newrender/renderproxy/r;->m:Lcom/meitu/render/b;
 
-    .line 5
     iput-object v0, p0, Lcom/commsource/camera/newrender/renderproxy/r;->n:Lcom/commsource/easyeditor/utils/opengl/f;
 
-    .line 6
     iput-object p1, p0, Lcom/commsource/camera/newrender/renderproxy/r;->j:Lcom/commsource/camera/newrender/renderproxy/q;
 
-    .line 7
     new-instance p1, Lcom/meitu/core/filtergl/facedata/MTFilterFaceDataJNI;
 
     invoke-direct {p1}, Lcom/meitu/core/filtergl/facedata/MTFilterFaceDataJNI;-><init>()V
@@ -72,7 +65,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/newrender/renderproxy/r;->g:Lcom/meitu/render/b;
 
     int-to-float p1, p1
@@ -95,7 +87,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/newrender/renderproxy/r;->g:Lcom/meitu/render/b;
 
     int-to-float p1, p1
@@ -122,7 +113,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     iget-object p1, p0, Lcom/commsource/camera/newrender/renderproxy/r;->g:Lcom/meitu/render/b;
 
     int-to-float p2, p2
@@ -133,7 +123,6 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     iget-object p1, p0, Lcom/commsource/camera/newrender/renderproxy/r;->g:Lcom/meitu/render/b;
 
@@ -143,7 +132,6 @@
 
     invoke-virtual {p1, p2}, Lcom/meitu/render/b;->g(F)V
 
-    .line 3
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -157,7 +145,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/newrender/renderproxy/r;->g:Lcom/meitu/render/b;
 
     if-eqz v1, :cond_1
@@ -166,7 +153,6 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     invoke-virtual {p1}, Lcom/commsource/camera/d1/g/g;->c()I
 
@@ -174,12 +160,10 @@
 
     invoke-virtual {v1, p1}, Lcom/meitu/core/MTFilterGLRender;->setBodyTexture(I)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 4
     :cond_1
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -194,26 +178,22 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/newrender/renderproxy/r;->g:Lcom/meitu/render/b;
 
     if-eqz v1, :cond_0
 
     if-eqz p1, :cond_0
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/camera/newrender/renderproxy/r;->k:Lcom/meitu/core/filtergl/facedata/MTFilterFaceDataJNI;
 
     invoke-virtual {p1, v1}, Lcom/commsource/camera/d1/g/j;->t(Lcom/meitu/core/filtergl/facedata/MTFilterFaceDataJNI;)V
 
-    .line 3
     iget-object p1, p0, Lcom/commsource/camera/newrender/renderproxy/r;->g:Lcom/meitu/render/b;
 
     iget-object v1, p0, Lcom/commsource/camera/newrender/renderproxy/r;->k:Lcom/meitu/core/filtergl/facedata/MTFilterFaceDataJNI;
 
     invoke-virtual {p1, v1}, Lcom/meitu/core/MTFilterGLRender;->setFaceData(Lcom/meitu/core/filtergl/facedata/MTFilterFaceDataJNI;)V
 
-    .line 4
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -227,7 +207,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/commsource/camera/d1/g/p;->h(Lcom/commsource/camera/d1/g/p;)Z
 
     move-result v1
@@ -240,7 +219,6 @@
 
     goto :goto_1
 
-    .line 2
     :cond_0
     invoke-virtual {p1}, Lcom/commsource/camera/d1/g/p;->c()I
 
@@ -248,7 +226,6 @@
 
     invoke-virtual {v1, v2}, Lcom/meitu/core/MTFilterGLRender;->setOrientation(I)V
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/camera/newrender/renderproxy/r;->g:Lcom/meitu/render/b;
 
     invoke-virtual {p1}, Lcom/commsource/camera/d1/g/p;->f()Landroid/graphics/RectF;
@@ -257,17 +234,14 @@
 
     invoke-virtual {v1, v2}, Lcom/meitu/core/MTFilterGLRender;->setDisPlayView(Landroid/graphics/RectF;)V
 
-    .line 4
     sget-object v1, Lcom/meitu/core/MTFilterType$MTFilterScaleType;->Filter_Scale_16_9:Lcom/meitu/core/MTFilterType$MTFilterScaleType;
 
-    .line 5
     invoke-virtual {p1}, Lcom/commsource/camera/d1/g/p;->a()Landroid/graphics/Point;
 
     move-result-object v2
 
     if-eqz v2, :cond_2
 
-    .line 6
     invoke-virtual {p1}, Lcom/commsource/camera/d1/g/p;->a()Landroid/graphics/Point;
 
     move-result-object v2
@@ -286,12 +260,10 @@
 
     if-ne v2, v3, :cond_1
 
-    .line 7
     sget-object v1, Lcom/meitu/core/MTFilterType$MTFilterScaleType;->Filter_Scale_1_1:Lcom/meitu/core/MTFilterType$MTFilterScaleType;
 
     goto :goto_0
 
-    .line 8
     :cond_1
     invoke-virtual {p1}, Lcom/commsource/camera/d1/g/p;->a()Landroid/graphics/Point;
 
@@ -313,22 +285,18 @@
 
     if-ne p1, v2, :cond_2
 
-    .line 9
     sget-object v1, Lcom/meitu/core/MTFilterType$MTFilterScaleType;->Filter_Scale_4_3:Lcom/meitu/core/MTFilterType$MTFilterScaleType;
 
-    .line 10
     :cond_2
     :goto_0
     iget-object p1, p0, Lcom/commsource/camera/newrender/renderproxy/r;->g:Lcom/meitu/render/b;
 
     invoke-virtual {p1, v1}, Lcom/meitu/core/MTFilterGLRender;->setFilterScaleType(Lcom/meitu/core/MTFilterType$MTFilterScaleType;)V
 
-    .line 11
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 12
     :cond_3
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -343,7 +311,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/newrender/renderproxy/r;->g:Lcom/meitu/render/b;
 
     if-eqz v1, :cond_1
@@ -352,7 +319,6 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     invoke-virtual {p1}, Lcom/commsource/camera/d1/g/l;->d()I
 
@@ -360,12 +326,10 @@
 
     invoke-virtual {v1, p1}, Lcom/meitu/core/MTFilterGLRender;->setHairTexture(I)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 4
     :cond_1
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -384,7 +348,6 @@
 
     if-eqz p1, :cond_3
 
-    .line 1
     invoke-virtual {p1}, Lcom/meitu/template/bean/Filter;->getFilterId()I
 
     move-result v2
@@ -401,7 +364,6 @@
 
     if-nez v2, :cond_3
 
-    .line 2
     invoke-static {}, Lcom/meitu/library/application/BaseApplication;->getApplication()Landroid/app/Application;
 
     move-result-object v2
@@ -412,13 +374,11 @@
 
     const/4 v4, 0x0
 
-    .line 3
     :try_start_0
     invoke-virtual {v2}, Landroid/content/Context;->getAssets()Landroid/content/res/AssetManager;
 
     move-result-object v2
 
-    .line 4
     invoke-virtual {p1}, Lcom/meitu/template/bean/Filter;->getConfigPath()Ljava/lang/String;
 
     move-result-object v5
@@ -439,7 +399,6 @@
     :cond_0
     const/4 v3, 0x0
 
-    .line 5
     :goto_0
     invoke-static {v2}, Lcom/commsource/util/z;->a(Ljava/io/Closeable;)V
 
@@ -450,12 +409,10 @@
 
     invoke-static {v3}, Lcom/commsource/util/z;->a(Ljava/io/Closeable;)V
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     throw p1
 
-    .line 7
     :catch_0
     invoke-static {v3}, Lcom/commsource/util/z;->a(Ljava/io/Closeable;)V
 
@@ -464,12 +421,10 @@
     :goto_1
     if-eqz v3, :cond_1
 
-    .line 8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
 
-    .line 9
     :cond_1
     new-instance v2, Ljava/io/File;
 
@@ -479,7 +434,6 @@
 
     invoke-direct {v2, p1}, Ljava/io/File;-><init>(Ljava/lang/String;)V
 
-    .line 10
     invoke-virtual {v2}, Ljava/io/File;->exists()Z
 
     move-result p1
@@ -506,15 +460,12 @@
 
     const-string v1, "Failed to apply filter due to config file missing."
 
-    .line 11
     invoke-static {p1, v1}, Lcom/meitu/library/camera/util/h;->d(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 12
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v4
 
-    .line 13
     :cond_3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -528,12 +479,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/newrender/renderproxy/r;->m:Lcom/meitu/render/b;
 
     if-nez v1, :cond_0
 
-    .line 2
     new-instance v1, Lcom/meitu/render/b;
 
     invoke-direct {v1}, Lcom/meitu/render/b;-><init>()V
@@ -543,17 +492,14 @@
     :cond_0
     const-string v1, "armaterial/AlphaProcessFilter/drawArray.plist"
 
-    .line 3
     invoke-static {v1}, Lcom/meitu/parse/FilterDataHelper;->parserFilterData(Ljava/lang/String;)Lcom/meitu/parse/FilterData;
 
     move-result-object v1
 
-    .line 4
     iget-object v2, p0, Lcom/commsource/camera/newrender/renderproxy/r;->m:Lcom/meitu/render/b;
 
     invoke-virtual {v2, v1}, Lcom/meitu/render/b;->setFilterData(Lcom/meitu/parse/FilterData;)Z
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -566,7 +512,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/camera/newrender/renderproxy/r;->i:I
 
     invoke-virtual {p0, p1, v1}, Lcom/commsource/camera/newrender/renderproxy/r;->V(Lcom/meitu/template/bean/Filter;I)V
@@ -615,7 +560,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/newrender/renderproxy/r;->g:Lcom/meitu/render/b;
 
     if-eqz v1, :cond_0
@@ -628,14 +572,12 @@
 
     const/16 v2, 0x459
 
-    .line 2
     sget v3, Lcom/meitu/core/MTFilterType;->uvt_FLOAT:I
 
     const-string v4, "aberration"
 
     invoke-virtual {v1, v2, v4, p1, v3}, Lcom/meitu/core/MTFilterGLRender;->changeUniformValue(ILjava/lang/String;FI)V
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -655,7 +597,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/newrender/renderproxy/r;->g:Lcom/meitu/render/b;
 
     if-eqz v1, :cond_0
@@ -672,14 +613,12 @@
 
     const/16 v2, 0x459
 
-    .line 2
     sget v3, Lcom/meitu/core/MTFilterType;->uvt_FLOAT:I
 
     const-string v4, "BlurValue"
 
     invoke-virtual {v1, v2, v4, p1, v3}, Lcom/meitu/core/MTFilterGLRender;->changeUniformValue(ILjava/lang/String;FI)V
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -693,12 +632,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/newrender/renderproxy/r;->g:Lcom/meitu/render/b;
 
     if-eqz v1, :cond_0
 
-    .line 2
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -731,7 +668,6 @@
 
     invoke-static {v2, v1}, Lcom/meitu/library/util/Debug/Debug;->e(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/camera/newrender/renderproxy/r;->g:Lcom/meitu/render/b;
 
     const/16 v2, 0x459
@@ -742,7 +678,6 @@
 
     invoke-virtual {v1, v2, v4, p1, v3}, Lcom/meitu/core/MTFilterGLRender;->changeUniformValue_floatArray(ILjava/lang/String;[FI)V
 
-    .line 4
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -762,7 +697,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/newrender/renderproxy/r;->g:Lcom/meitu/render/b;
 
     if-eqz v1, :cond_0
@@ -779,14 +713,12 @@
 
     const/16 v2, 0x459
 
-    .line 2
     sget v3, Lcom/meitu/core/MTFilterType;->uvt_FLOAT:I
 
     const-string v4, "Displace"
 
     invoke-virtual {v1, v2, v4, p1, v3}, Lcom/meitu/core/MTFilterGLRender;->changeUniformValue(ILjava/lang/String;FI)V
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -806,7 +738,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/newrender/renderproxy/r;->g:Lcom/meitu/render/b;
 
     if-eqz v1, :cond_0
@@ -817,7 +748,6 @@
 
     div-float/2addr p1, v2
 
-    .line 2
     sget v2, Lcom/meitu/core/MTFilterType;->Filter_MeiYan_Normal:I
 
     sget v3, Lcom/meitu/core/MTFilterType;->uvt_FLOAT:I
@@ -826,7 +756,6 @@
 
     invoke-virtual {v1, v2, v4, p1, v3}, Lcom/meitu/core/MTFilterGLRender;->changeUniformValue(ILjava/lang/String;FI)V
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -844,10 +773,8 @@
 
     const/4 v1, -0x1
 
-    .line 1
     invoke-virtual {p0, p1, v1}, Lcom/commsource/camera/newrender/renderproxy/r;->M(Lcom/meitu/template/bean/Filter;I)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -862,23 +789,18 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p2, p0, Lcom/commsource/camera/newrender/renderproxy/r;->i:I
 
-    .line 2
     iput-object p1, p0, Lcom/commsource/camera/newrender/renderproxy/r;->h:Lcom/meitu/template/bean/Filter;
 
-    .line 3
     iget-object p2, p0, Lcom/commsource/camera/newrender/renderproxy/r;->g:Lcom/meitu/render/b;
 
     if-nez p2, :cond_0
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 5
     :cond_0
     new-instance p2, Lcom/commsource/camera/newrender/renderproxy/h;
 
@@ -886,7 +808,6 @@
 
     invoke-virtual {p0, p2}, Lcom/commsource/camera/newrender/renderproxy/n;->m(Ljava/lang/Runnable;)V
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -909,23 +830,19 @@
 
     goto :goto_0
 
-    .line 1
     :cond_0
     iput p1, p0, Lcom/commsource/camera/newrender/renderproxy/r;->i:I
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/camera/newrender/renderproxy/r;->g:Lcom/meitu/render/b;
 
     if-eqz v1, :cond_1
 
-    .line 3
     new-instance v1, Lcom/commsource/camera/newrender/renderproxy/j;
 
     invoke-direct {v1, p0, p1}, Lcom/commsource/camera/newrender/renderproxy/j;-><init>(Lcom/commsource/camera/newrender/renderproxy/r;I)V
 
     invoke-virtual {p0, v1}, Lcom/commsource/camera/newrender/renderproxy/n;->m(Ljava/lang/Runnable;)V
 
-    .line 4
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -937,10 +854,8 @@
 
     const-string v1, "set filter alpha out of range !"
 
-    .line 5
     invoke-static {p1, v1}, Lcom/meitu/library/util/Debug/Debug;->z(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -961,22 +876,18 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/camera/newrender/renderproxy/r;->i:I
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/camera/newrender/renderproxy/r;->g:Lcom/meitu/render/b;
 
     if-eqz v1, :cond_0
 
-    .line 3
     new-instance v1, Lcom/commsource/camera/newrender/renderproxy/i;
 
     invoke-direct {v1, p0, p1}, Lcom/commsource/camera/newrender/renderproxy/i;-><init>(Lcom/commsource/camera/newrender/renderproxy/r;I)V
 
     invoke-virtual {p0, v1}, Lcom/commsource/camera/newrender/renderproxy/n;->m(Ljava/lang/Runnable;)V
 
-    .line 4
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -990,10 +901,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/camera/newrender/renderproxy/r;->l:Z
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
@@ -1012,12 +921,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/newrender/renderproxy/r;->g:Lcom/meitu/render/b;
 
     if-eqz v1, :cond_0
 
-    .line 2
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -1036,7 +943,6 @@
 
     invoke-static {v2, v1}, Lcom/meitu/library/util/Debug/Debug;->e(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/camera/newrender/renderproxy/r;->g:Lcom/meitu/render/b;
 
     const/16 v2, 0x459
@@ -1047,7 +953,6 @@
 
     invoke-virtual {v1, v2, v4, p1, v3}, Lcom/meitu/core/MTFilterGLRender;->changeUniformValue(ILjava/lang/String;FI)V
 
-    .line 4
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1067,12 +972,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/newrender/renderproxy/r;->g:Lcom/meitu/render/b;
 
     if-eqz v1, :cond_0
 
-    .line 2
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -1091,7 +994,6 @@
 
     invoke-static {v2, v1}, Lcom/meitu/library/util/Debug/Debug;->e(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/camera/newrender/renderproxy/r;->g:Lcom/meitu/render/b;
 
     const/16 v2, 0x459
@@ -1102,7 +1004,6 @@
 
     invoke-virtual {v1, v2, v4, p1, v3}, Lcom/meitu/core/MTFilterGLRender;->changeUniformValue(ILjava/lang/String;FI)V
 
-    .line 4
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1122,7 +1023,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Landroid/os/Looper;->myLooper()Landroid/os/Looper;
 
     move-result-object v1
@@ -1133,7 +1033,6 @@
 
     if-ne v1, v2, :cond_0
 
-    .line 2
     new-instance v1, Lcom/commsource/camera/newrender/renderproxy/k;
 
     invoke-direct {v1, p0, p2, p1}, Lcom/commsource/camera/newrender/renderproxy/k;-><init>(Lcom/commsource/camera/newrender/renderproxy/r;ZI)V
@@ -1147,7 +1046,6 @@
 
     if-eqz p2, :cond_1
 
-    .line 3
     iget-object p2, p0, Lcom/commsource/camera/newrender/renderproxy/r;->g:Lcom/meitu/render/b;
 
     int-to-float p1, p1
@@ -1158,7 +1056,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_1
     iget-object p2, p0, Lcom/commsource/camera/newrender/renderproxy/r;->g:Lcom/meitu/render/b;
 
@@ -1168,7 +1065,6 @@
 
     invoke-virtual {p2, p1}, Lcom/meitu/render/b;->g(F)V
 
-    .line 5
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1190,12 +1086,10 @@
 
     invoke-static {v3}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v4, p0, Lcom/commsource/camera/newrender/renderproxy/r;->g:Lcom/meitu/render/b;
 
     if-nez v4, :cond_0
 
-    .line 2
     invoke-static {v3}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1205,14 +1099,12 @@
 
     if-eqz p1, :cond_4
 
-    .line 3
     invoke-virtual {p1}, Lcom/meitu/template/bean/Filter;->getFilterId()I
 
     move-result v5
 
     if-eqz v5, :cond_4
 
-    .line 4
     invoke-virtual {p1}, Lcom/meitu/template/bean/Filter;->getGroupId()I
 
     move-result v5
@@ -1221,19 +1113,16 @@
 
     if-eq v5, v6, :cond_4
 
-    .line 5
     invoke-direct {p0, p1}, Lcom/commsource/camera/newrender/renderproxy/r;->u(Lcom/meitu/template/bean/Filter;)Z
 
     move-result v5
 
     if-nez v5, :cond_1
 
-    .line 6
     invoke-static {v3}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 7
     :cond_1
     invoke-virtual {p1}, Lcom/meitu/template/bean/Filter;->getMaterialPath()Ljava/lang/String;
 
@@ -1243,48 +1132,40 @@
 
     move-result-object v6
 
-    .line 8
     invoke-virtual {p1}, Lcom/meitu/template/bean/Filter;->getFilterId()I
 
     move-result v7
 
-    .line 9
     invoke-static {v5, v6, v7, v4}, Lcom/meitu/parse/FilterDataHelper;->parserFilterData(Ljava/lang/String;Ljava/lang/String;II)Lcom/meitu/parse/FilterData;
 
     move-result-object v4
 
-    .line 10
     iget-object v5, p0, Lcom/commsource/camera/newrender/renderproxy/r;->g:Lcom/meitu/render/b;
 
     invoke-virtual {v5, v4}, Lcom/meitu/render/b;->setFilterData(Lcom/meitu/parse/FilterData;)Z
 
-    .line 11
     invoke-virtual {v4}, Lcom/meitu/parse/FilterData;->isNeedFaceData()Z
 
     move-result v5
 
     invoke-virtual {p0, v5, v2}, Lcom/commsource/camera/newrender/renderproxy/n;->q(ZLjava/lang/Class;)V
 
-    .line 12
     invoke-virtual {v4}, Lcom/meitu/parse/FilterData;->isNeedBodyMask()Z
 
     move-result v2
 
     invoke-virtual {p0, v2, v1}, Lcom/commsource/camera/newrender/renderproxy/n;->q(ZLjava/lang/Class;)V
 
-    .line 13
     invoke-virtual {v4}, Lcom/meitu/parse/FilterData;->isNeedHairMask()Z
 
     move-result v1
 
     invoke-virtual {p0, v1, v0}, Lcom/commsource/camera/newrender/renderproxy/n;->q(ZLjava/lang/Class;)V
 
-    .line 14
     iget-object v0, p0, Lcom/commsource/camera/newrender/renderproxy/r;->j:Lcom/commsource/camera/newrender/renderproxy/q;
 
     if-eqz v0, :cond_2
 
-    .line 15
     invoke-virtual {v4}, Lcom/meitu/parse/FilterData;->getDarkStyle()Ljava/lang/String;
 
     move-result-object v1
@@ -1294,7 +1175,6 @@
     :cond_2
     if-ltz p2, :cond_5
 
-    .line 16
     invoke-virtual {p1}, Lcom/meitu/template/bean/Filter;->getNeedNewMode()I
 
     move-result p1
@@ -1305,7 +1185,6 @@
 
     if-ne p1, v0, :cond_3
 
-    .line 17
     iget-object p1, p0, Lcom/commsource/camera/newrender/renderproxy/r;->g:Lcom/meitu/render/b;
 
     int-to-float p2, p2
@@ -1316,7 +1195,6 @@
 
     goto :goto_0
 
-    .line 18
     :cond_3
     iget-object p1, p0, Lcom/commsource/camera/newrender/renderproxy/r;->g:Lcom/meitu/render/b;
 
@@ -1328,7 +1206,6 @@
 
     goto :goto_0
 
-    .line 19
     :cond_4
     iget-object p1, p0, Lcom/commsource/camera/newrender/renderproxy/r;->g:Lcom/meitu/render/b;
 
@@ -1336,24 +1213,18 @@
 
     invoke-virtual {p1, p2}, Lcom/meitu/render/b;->setFilterData(Lcom/meitu/parse/FilterData;)Z
 
-    .line 20
     invoke-virtual {p0, v4, v2}, Lcom/commsource/camera/newrender/renderproxy/n;->q(ZLjava/lang/Class;)V
 
-    .line 21
     invoke-virtual {p0, v4, v1}, Lcom/commsource/camera/newrender/renderproxy/n;->q(ZLjava/lang/Class;)V
 
-    .line 22
     invoke-virtual {p0, v4, v0}, Lcom/commsource/camera/newrender/renderproxy/n;->q(ZLjava/lang/Class;)V
 
-    .line 23
     iget-object p1, p0, Lcom/commsource/camera/newrender/renderproxy/r;->j:Lcom/commsource/camera/newrender/renderproxy/q;
 
     if-eqz p1, :cond_5
 
-    .line 24
     invoke-virtual {p1, p2}, Lcom/commsource/camera/newrender/renderproxy/q;->w(Ljava/lang/String;)V
 
-    .line 25
     :cond_5
     :goto_0
     invoke-static {v3}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1368,7 +1239,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     :try_start_0
     new-instance v1, Lcom/meitu/render/b;
 
@@ -1383,19 +1253,15 @@
     :catchall_0
     move-exception v1
 
-    .line 2
     invoke-static {v1}, Lcom/meitu/library/util/Debug/Debug;->a0(Ljava/lang/Throwable;)V
 
-    .line 3
     :goto_0
     iget-boolean v1, p0, Lcom/commsource/camera/newrender/renderproxy/r;->l:Z
 
     if-eqz v1, :cond_0
 
-    .line 4
     invoke-direct {p0}, Lcom/commsource/camera/newrender/renderproxy/r;->x()V
 
-    .line 5
     :cond_0
     iget-object v1, p0, Lcom/commsource/camera/newrender/renderproxy/r;->h:Lcom/meitu/template/bean/Filter;
 
@@ -1403,7 +1269,6 @@
 
     invoke-virtual {p0, v1, v2}, Lcom/commsource/camera/newrender/renderproxy/r;->V(Lcom/meitu/template/bean/Filter;I)V
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1416,15 +1281,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/newrender/renderproxy/r;->g:Lcom/meitu/render/b;
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-virtual {v1}, Lcom/meitu/core/MTFilterGLRender;->releaseGL()V
 
-    .line 3
     :cond_0
     iget-object v1, p0, Lcom/commsource/camera/newrender/renderproxy/r;->m:Lcom/meitu/render/b;
 
@@ -1432,25 +1294,19 @@
 
     if-eqz v1, :cond_1
 
-    .line 4
     invoke-virtual {v1}, Lcom/meitu/core/MTFilterGLRender;->releaseGL()V
 
-    .line 5
     iput-object v2, p0, Lcom/commsource/camera/newrender/renderproxy/r;->m:Lcom/meitu/render/b;
 
-    .line 6
     :cond_1
     iget-object v1, p0, Lcom/commsource/camera/newrender/renderproxy/r;->n:Lcom/commsource/easyeditor/utils/opengl/f;
 
     if-eqz v1, :cond_2
 
-    .line 7
     invoke-virtual {v1}, Lcom/commsource/easyeditor/utils/opengl/f;->k()V
 
-    .line 8
     iput-object v2, p0, Lcom/commsource/camera/newrender/renderproxy/r;->n:Lcom/commsource/easyeditor/utils/opengl/f;
 
-    .line 9
     :cond_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1472,17 +1328,14 @@
 
     invoke-static {v11}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, v0, Lcom/commsource/camera/newrender/renderproxy/r;->g:Lcom/meitu/render/b;
 
     if-nez v1, :cond_0
 
-    .line 2
     invoke-static {v11}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v8
 
-    .line 3
     :cond_0
     iget-boolean v1, v0, Lcom/commsource/camera/newrender/renderproxy/r;->l:Z
 
@@ -1496,12 +1349,10 @@
 
     if-eqz v1, :cond_4
 
-    .line 4
     iget-object v1, v0, Lcom/commsource/camera/newrender/renderproxy/r;->n:Lcom/commsource/easyeditor/utils/opengl/f;
 
     if-nez v1, :cond_1
 
-    .line 5
     invoke-static/range {p5 .. p6}, Lcom/commsource/easyeditor/utils/opengl/n;->g(II)Lcom/commsource/easyeditor/utils/opengl/f;
 
     move-result-object v1
@@ -1510,7 +1361,6 @@
 
     goto :goto_0
 
-    .line 6
     :cond_1
     iget v2, v1, Lcom/commsource/easyeditor/utils/opengl/f;->c:I
 
@@ -1520,18 +1370,15 @@
 
     if-eq v2, v10, :cond_3
 
-    .line 7
     :cond_2
     invoke-virtual {v1}, Lcom/commsource/easyeditor/utils/opengl/f;->k()V
 
-    .line 8
     invoke-static/range {p5 .. p6}, Lcom/commsource/easyeditor/utils/opengl/n;->g(II)Lcom/commsource/easyeditor/utils/opengl/f;
 
     move-result-object v1
 
     iput-object v1, v0, Lcom/commsource/camera/newrender/renderproxy/r;->n:Lcom/commsource/easyeditor/utils/opengl/f;
 
-    .line 9
     :cond_3
     :goto_0
     iget-object v1, v0, Lcom/commsource/camera/newrender/renderproxy/r;->n:Lcom/commsource/easyeditor/utils/opengl/f;
@@ -1542,14 +1389,12 @@
 
     invoke-static {v8, v1, v9, v10, v14}, Lcom/commsource/easyeditor/utils/opengl/n;->f(IIIII)V
 
-    .line 10
     iget-object v1, v0, Lcom/commsource/camera/newrender/renderproxy/r;->m:Lcom/meitu/render/b;
 
     const/high16 v2, 0x40000000    # 2.0f
 
     invoke-virtual {v1, v13, v2}, Lcom/meitu/core/MTFilterGLRender;->changeUniformValue(Ljava/lang/String;F)V
 
-    .line 11
     iget-object v1, v0, Lcom/commsource/camera/newrender/renderproxy/r;->m:Lcom/meitu/render/b;
 
     iget-object v2, v0, Lcom/commsource/camera/newrender/renderproxy/r;->n:Lcom/commsource/easyeditor/utils/opengl/f;
@@ -1558,7 +1403,6 @@
 
     invoke-virtual {v1, v12, v2}, Lcom/meitu/core/MTFilterGLRender;->setInputCustomMask(Ljava/lang/String;I)V
 
-    .line 12
     iget-object v1, v0, Lcom/commsource/camera/newrender/renderproxy/r;->m:Lcom/meitu/render/b;
 
     move/from16 v2, p1
@@ -1584,7 +1428,6 @@
 
     move v1, v8
 
-    .line 13
     :goto_1
     const-class v2, Lcom/commsource/camera/d1/g/p;
 
@@ -1596,7 +1439,6 @@
 
     invoke-direct {p0, v2}, Lcom/commsource/camera/newrender/renderproxy/r;->W(Lcom/commsource/camera/d1/g/p;)V
 
-    .line 14
     const-class v2, Lcom/commsource/camera/d1/g/j;
 
     invoke-virtual {p0, v2}, Lcom/commsource/camera/newrender/renderproxy/n;->c(Ljava/lang/Class;)Ljava/lang/Object;
@@ -1607,7 +1449,6 @@
 
     invoke-direct {p0, v2}, Lcom/commsource/camera/newrender/renderproxy/r;->U(Lcom/commsource/camera/d1/g/j;)V
 
-    .line 15
     const-class v2, Lcom/commsource/camera/d1/g/g;
 
     invoke-virtual {p0, v2}, Lcom/commsource/camera/newrender/renderproxy/n;->c(Ljava/lang/Class;)Ljava/lang/Object;
@@ -1618,7 +1459,6 @@
 
     invoke-direct {p0, v2}, Lcom/commsource/camera/newrender/renderproxy/r;->S(Lcom/commsource/camera/d1/g/g;)V
 
-    .line 16
     const-class v2, Lcom/commsource/camera/d1/g/l;
 
     invoke-virtual {p0, v2}, Lcom/commsource/camera/newrender/renderproxy/n;->c(Ljava/lang/Class;)Ljava/lang/Object;
@@ -1631,7 +1471,6 @@
 
     if-ne v1, v8, :cond_5
 
-    .line 17
     iget-object v1, v0, Lcom/commsource/camera/newrender/renderproxy/r;->g:Lcom/meitu/render/b;
 
     move/from16 v2, p1
@@ -1652,7 +1491,6 @@
 
     goto :goto_2
 
-    .line 18
     :cond_5
     iget-object v1, v0, Lcom/commsource/camera/newrender/renderproxy/r;->g:Lcom/meitu/render/b;
 
@@ -1672,7 +1510,6 @@
 
     move-result v1
 
-    .line 19
     :goto_2
     iget-boolean v2, v0, Lcom/commsource/camera/newrender/renderproxy/r;->l:Z
 
@@ -1684,10 +1521,8 @@
 
     const/high16 v3, 0x41200000    # 10.0f
 
-    .line 20
     invoke-virtual {v2, v13, v3}, Lcom/meitu/core/MTFilterGLRender;->changeUniformValue(Ljava/lang/String;F)V
 
-    .line 21
     iget-object v2, v0, Lcom/commsource/camera/newrender/renderproxy/r;->m:Lcom/meitu/render/b;
 
     iget-object v3, v0, Lcom/commsource/camera/newrender/renderproxy/r;->n:Lcom/commsource/easyeditor/utils/opengl/f;
@@ -1698,7 +1533,6 @@
 
     if-ne v1, v8, :cond_6
 
-    .line 22
     iget-object v1, v0, Lcom/commsource/camera/newrender/renderproxy/r;->m:Lcom/meitu/render/b;
 
     move/from16 v2, p1
@@ -1719,7 +1553,6 @@
 
     goto :goto_3
 
-    .line 23
     :cond_6
     iget-object v1, v0, Lcom/commsource/camera/newrender/renderproxy/r;->m:Lcom/meitu/render/b;
 
@@ -1739,7 +1572,6 @@
 
     move-result v1
 
-    .line 24
     :cond_7
     :goto_3
     invoke-static {v11}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1754,7 +1586,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/newrender/renderproxy/r;->j:Lcom/commsource/camera/newrender/renderproxy/q;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1769,7 +1600,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/newrender/renderproxy/r;->h:Lcom/meitu/template/bean/Filter;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

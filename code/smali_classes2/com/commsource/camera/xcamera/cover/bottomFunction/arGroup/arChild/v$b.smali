@@ -41,12 +41,10 @@
 .method private constructor <init>(Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/arChild/v;Landroid/content/Context;Landroidx/lifecycle/LifecycleOwner;)V
     .locals 1
 
-    .line 2
     iput-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/arChild/v$b;->d:Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/arChild/v;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 3
     new-instance p1, Ljava/util/HashMap;
 
     const/16 v0, 0x8
@@ -55,10 +53,8 @@
 
     iput-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/arChild/v$b;->c:Ljava/util/Map;
 
-    .line 4
     iput-object p2, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/arChild/v$b;->a:Landroid/content/Context;
 
-    .line 5
     iput-object p3, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/arChild/v$b;->b:Landroidx/lifecycle/LifecycleOwner;
 
     return-void
@@ -67,7 +63,6 @@
 .method synthetic constructor <init>(Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/arChild/v;Landroid/content/Context;Landroidx/lifecycle/LifecycleOwner;Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/arChild/v$a;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1, p2, p3}, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/arChild/v$b;-><init>(Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/arChild/v;Landroid/content/Context;Landroidx/lifecycle/LifecycleOwner;)V
 
     return-void
@@ -95,7 +90,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/arChild/v$b;->c:Ljava/util/Map;
 
     invoke-interface {v1, p1}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
@@ -108,7 +102,6 @@
 
     if-eqz v1, :cond_1
 
-    .line 2
     invoke-interface {v1}, Ljava/util/List;->size()I
 
     move-result v3
@@ -117,7 +110,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_0
     invoke-interface {v1, v2}, Ljava/util/List;->remove(I)Ljava/lang/Object;
 
@@ -134,7 +126,6 @@
     :try_start_0
     const-string v1, "lhy"
 
-    .line 4
     new-instance v3, Ljava/lang/StringBuilder;
 
     invoke-direct {v3}, Ljava/lang/StringBuilder;-><init>()V
@@ -155,7 +146,6 @@
 
     new-array v3, v1, [Ljava/lang/Class;
 
-    .line 5
     const-class v4, Landroid/content/Context;
 
     aput-object v4, v3, v2
@@ -190,7 +180,6 @@
 
     aput-object v2, v1, v6
 
-    .line 6
     invoke-virtual {v3, v1}, Ljava/lang/reflect/Constructor;->newInstance([Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v1
@@ -199,7 +188,6 @@
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
@@ -207,10 +195,8 @@
     :catch_0
     move-exception v1
 
-    .line 8
     invoke-static {v1}, Lcom/meitu/library/util/Debug/Debug;->a0(Ljava/lang/Throwable;)V
 
-    .line 9
     new-instance v1, Ljava/lang/IllegalArgumentException;
 
     new-instance v2, Ljava/lang/StringBuilder;
@@ -247,7 +233,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/arChild/v$b;->c:Ljava/util/Map;
 
     invoke-virtual {p1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
@@ -262,12 +247,10 @@
 
     if-nez v1, :cond_0
 
-    .line 2
     new-instance v1, Ljava/util/LinkedList;
 
     invoke-direct {v1}, Ljava/util/LinkedList;-><init>()V
 
-    .line 3
     iget-object v2, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/arChild/v$b;->c:Ljava/util/Map;
 
     invoke-virtual {p1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
@@ -276,11 +259,9 @@
 
     invoke-interface {v2, v3, v1}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 4
     :cond_0
     invoke-interface {v1, p1}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

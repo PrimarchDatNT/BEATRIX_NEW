@@ -30,7 +30,6 @@
 .method constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -46,19 +45,16 @@
         }
     .end annotation
 
-    .line 1
     check-cast p1, Lcom/google/firebase/messaging/a$a;
 
     check-cast p2, Lcom/google/firebase/encoders/e;
 
-    .line 2
     invoke-virtual {p1}, Lcom/google/firebase/messaging/a$a;->a()Lcom/google/firebase/messaging/a;
 
     move-result-object p1
 
     const-string v0, "messaging_client_event"
 
-    .line 3
     invoke-interface {p2, v0, p1}, Lcom/google/firebase/encoders/e;->f(Ljava/lang/String;Ljava/lang/Object;)Lcom/google/firebase/encoders/e;
 
     return-void

@@ -50,14 +50,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/newrender/renderproxy/u$b;->a:Lcom/meitu/render/b;
 
     iget v2, p0, Lcom/commsource/camera/newrender/renderproxy/u$b;->c:F
 
     invoke-virtual {v1, v2}, Lcom/meitu/render/b;->e(F)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

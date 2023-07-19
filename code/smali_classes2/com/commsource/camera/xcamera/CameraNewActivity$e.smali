@@ -42,7 +42,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/CameraNewActivity$e;->a:Lcom/commsource/camera/xcamera/CameraNewActivity;
 
     sget v2, Lcom/res/provider/ResSTRING;->ad_slot_selfiesave:I
@@ -53,7 +52,6 @@
 
     invoke-static {v1}, Lcom/meitu/hwbusinesskit/core/HWBusinessSDK;->preloadAdvert(Ljava/lang/String;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

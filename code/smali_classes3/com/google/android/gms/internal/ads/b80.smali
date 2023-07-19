@@ -36,10 +36,8 @@
 .method public final f(Ljava/lang/Object;)V
     .locals 4
 
-    .line 1
     check-cast p1, Lcom/google/android/gms/internal/ads/c80;
 
-    .line 2
     new-instance v0, Lcom/google/android/gms/internal/ads/zzuy;
 
     const/4 v1, 0x3

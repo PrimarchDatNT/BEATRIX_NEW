@@ -34,7 +34,6 @@
 
     const/4 v0, 0x0
 
-    .line 2
     invoke-direct {p0, p1, v0}, Lcotlin/coroutines/jvm/internal/RestrictedSuspendLambda;-><init>(ILcotlin/coroutines/c;)V
 
     return-void
@@ -55,7 +54,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p2}, Lcotlin/coroutines/jvm/internal/RestrictedContinuationImpl;-><init>(Lcotlin/coroutines/c;)V
 
     iput p1, p0, Lcotlin/coroutines/jvm/internal/RestrictedSuspendLambda;->arity:I
@@ -68,7 +66,6 @@
 .method public getArity()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lcotlin/coroutines/jvm/internal/RestrictedSuspendLambda;->arity:I
 
     return v0
@@ -79,14 +76,12 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcotlin/coroutines/jvm/internal/BaseContinuationImpl;->getCompletion()Lcotlin/coroutines/c;
 
     move-result-object v0
 
     if-nez v0, :cond_0
 
-    .line 2
     invoke-static {p0}, Lcotlin/jvm/internal/n0;->t(Lcotlin/jvm/internal/b0;)Ljava/lang/String;
 
     move-result-object v0
@@ -97,7 +92,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_0
     invoke-super {p0}, Lcotlin/coroutines/jvm/internal/BaseContinuationImpl;->toString()Ljava/lang/String;
 

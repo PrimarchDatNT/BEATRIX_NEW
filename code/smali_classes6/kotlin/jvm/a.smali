@@ -34,7 +34,6 @@
 
     invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-interface {p0}, Ljava/lang/annotation/Annotation;->annotationType()Ljava/lang/Class;
 
     move-result-object p0
@@ -77,7 +76,6 @@
 
     invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-virtual {p0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
     move-result-object p0
@@ -118,7 +116,6 @@
 
     invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     check-cast p0, Lcotlin/jvm/internal/r;
 
     invoke-interface {p0}, Lcotlin/jvm/internal/r;->q()Ljava/lang/Class;
@@ -163,14 +160,12 @@
 
     invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     check-cast p0, Lcotlin/jvm/internal/r;
 
     invoke-interface {p0}, Lcotlin/jvm/internal/r;->q()Ljava/lang/Class;
 
     move-result-object p0
 
-    .line 2
     invoke-virtual {p0}, Ljava/lang/Class;->isPrimitive()Z
 
     move-result v0
@@ -183,7 +178,6 @@
 
     return-object p0
 
-    .line 3
     :cond_0
     invoke-virtual {p0}, Ljava/lang/Class;->getName()Ljava/lang/String;
 
@@ -205,7 +199,6 @@
     :sswitch_0
     const-string v2, "short"
 
-    .line 4
     invoke-virtual {v0, v2}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v0
@@ -219,7 +212,6 @@
     :sswitch_1
     const-string v2, "float"
 
-    .line 5
     invoke-virtual {v0, v2}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v0
@@ -233,7 +225,6 @@
     :sswitch_2
     const-string v2, "boolean"
 
-    .line 6
     invoke-virtual {v0, v2}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v0
@@ -247,7 +238,6 @@
     :sswitch_3
     const-string v2, "void"
 
-    .line 7
     invoke-virtual {v0, v2}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v0
@@ -261,7 +251,6 @@
     :sswitch_4
     const-string v2, "long"
 
-    .line 8
     invoke-virtual {v0, v2}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v0
@@ -275,7 +264,6 @@
     :sswitch_5
     const-string v2, "char"
 
-    .line 9
     invoke-virtual {v0, v2}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v0
@@ -289,7 +277,6 @@
     :sswitch_6
     const-string v2, "byte"
 
-    .line 10
     invoke-virtual {v0, v2}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v0
@@ -303,7 +290,6 @@
     :sswitch_7
     const-string v2, "int"
 
-    .line 11
     invoke-virtual {v0, v2}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v0
@@ -317,7 +303,6 @@
     :sswitch_8
     const-string v2, "double"
 
-    .line 12
     invoke-virtual {v0, v2}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v0
@@ -326,7 +311,6 @@
 
     const-class p0, Ljava/lang/Double;
 
-    .line 13
     :cond_2
     :goto_0
     invoke-static {p0, v1}, Ljava/util/Objects;->requireNonNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
@@ -374,14 +358,12 @@
 
     invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     check-cast p0, Lcotlin/jvm/internal/r;
 
     invoke-interface {p0}, Lcotlin/jvm/internal/r;->q()Ljava/lang/Class;
 
     move-result-object p0
 
-    .line 2
     invoke-virtual {p0}, Ljava/lang/Class;->isPrimitive()Z
 
     move-result v0
@@ -394,7 +376,6 @@
 
     return-object p0
 
-    .line 3
     :cond_0
     invoke-virtual {p0}, Ljava/lang/Class;->getName()Ljava/lang/String;
 
@@ -416,7 +397,6 @@
     :sswitch_0
     const-string v0, "java.lang.Double"
 
-    .line 4
     invoke-virtual {p0, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p0
@@ -430,7 +410,6 @@
     :sswitch_1
     const-string v0, "java.lang.Void"
 
-    .line 5
     invoke-virtual {p0, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p0
@@ -444,7 +423,6 @@
     :sswitch_2
     const-string v0, "java.lang.Long"
 
-    .line 6
     invoke-virtual {p0, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p0
@@ -458,7 +436,6 @@
     :sswitch_3
     const-string v0, "java.lang.Byte"
 
-    .line 7
     invoke-virtual {p0, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p0
@@ -472,7 +449,6 @@
     :sswitch_4
     const-string v0, "java.lang.Boolean"
 
-    .line 8
     invoke-virtual {p0, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p0
@@ -486,7 +462,6 @@
     :sswitch_5
     const-string v0, "java.lang.Character"
 
-    .line 9
     invoke-virtual {p0, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p0
@@ -500,7 +475,6 @@
     :sswitch_6
     const-string v0, "java.lang.Short"
 
-    .line 10
     invoke-virtual {p0, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p0
@@ -514,7 +488,6 @@
     :sswitch_7
     const-string v0, "java.lang.Float"
 
-    .line 11
     invoke-virtual {p0, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p0
@@ -528,7 +501,6 @@
     :sswitch_8
     const-string v0, "java.lang.Integer"
 
-    .line 12
     invoke-virtual {p0, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p0
@@ -591,7 +563,6 @@
 
     invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-static {p0}, Lcotlin/jvm/internal/n0;->d(Ljava/lang/Class;)Lcotlin/reflect/d;
 
     move-result-object p0
@@ -629,7 +600,6 @@
 
     invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-virtual {p0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
     move-result-object p0
@@ -675,7 +645,6 @@
 
     const-string v1, "T"
 
-    .line 1
     invoke-static {v0, v1}, Lcotlin/jvm/internal/f0;->y(ILjava/lang/String;)V
 
     const-class v0, Ljava/lang/Object;

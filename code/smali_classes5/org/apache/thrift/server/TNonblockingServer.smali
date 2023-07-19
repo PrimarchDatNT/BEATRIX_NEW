@@ -20,7 +20,6 @@
 .method public constructor <init>(Lorg/apache/thrift/server/AbstractNonblockingServer$AbstractNonblockingServerArgs;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1}, Lorg/apache/thrift/server/AbstractNonblockingServer;-><init>(Lorg/apache/thrift/server/AbstractNonblockingServer$AbstractNonblockingServerArgs;)V
 
     return-void
@@ -31,7 +30,6 @@
 .method public isStopped()Z
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lorg/apache/thrift/server/TNonblockingServer;->selectAcceptThread_:Lorg/apache/thrift/server/TNonblockingServer$SelectAcceptThread;
 
     invoke-virtual {v0}, Lorg/apache/thrift/server/TNonblockingServer$SelectAcceptThread;->isStopped()Z
@@ -44,7 +42,6 @@
 .method protected joinSelector()V
     .locals 1
 
-    .line 1
     :try_start_0
     iget-object v0, p0, Lorg/apache/thrift/server/TNonblockingServer;->selectAcceptThread_:Lorg/apache/thrift/server/TNonblockingServer$SelectAcceptThread;
 
@@ -59,7 +56,6 @@
 .method protected requestInvoke(Lorg/apache/thrift/server/AbstractNonblockingServer$FrameBuffer;)Z
     .locals 0
 
-    .line 1
     invoke-virtual {p1}, Lorg/apache/thrift/server/AbstractNonblockingServer$FrameBuffer;->invoke()V
 
     const/4 p1, 0x1
@@ -70,7 +66,6 @@
 .method protected startThreads()Z
     .locals 3
 
-    .line 1
     :try_start_0
     new-instance v0, Lorg/apache/thrift/server/TNonblockingServer$SelectAcceptThread;
 
@@ -82,7 +77,6 @@
 
     iput-object v0, p0, Lorg/apache/thrift/server/TNonblockingServer;->selectAcceptThread_:Lorg/apache/thrift/server/TNonblockingServer$SelectAcceptThread;
 
-    .line 2
     invoke-virtual {v0}, Ljava/lang/Thread;->start()V
     :try_end_0
     .catch Ljava/io/IOException; {:try_start_0 .. :try_end_0} :catch_0
@@ -94,7 +88,6 @@
     :catch_0
     move-exception v0
 
-    .line 3
     iget-object v1, p0, Lorg/apache/thrift/server/AbstractNonblockingServer;->LOGGER:Lorg/slf4j/c;
 
     const-string v2, "Failed to start selector thread!"
@@ -111,15 +104,12 @@
 
     const/4 v0, 0x1
 
-    .line 1
     iput-boolean v0, p0, Lorg/apache/thrift/server/TServer;->stopped_:Z
 
-    .line 2
     iget-object v0, p0, Lorg/apache/thrift/server/TNonblockingServer;->selectAcceptThread_:Lorg/apache/thrift/server/TNonblockingServer$SelectAcceptThread;
 
     if-eqz v0, :cond_0
 
-    .line 3
     invoke-virtual {v0}, Lorg/apache/thrift/server/AbstractNonblockingServer$AbstractSelectThread;->wakeupSelector()V
 
     :cond_0
@@ -129,7 +119,6 @@
 .method protected waitForShutdown()V
     .locals 0
 
-    .line 1
     invoke-virtual {p0}, Lorg/apache/thrift/server/TNonblockingServer;->joinSelector()V
 
     return-void

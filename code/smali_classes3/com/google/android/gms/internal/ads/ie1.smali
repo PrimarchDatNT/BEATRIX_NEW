@@ -22,7 +22,6 @@
 .method constructor <init>(Lcom/google/android/gms/internal/ads/fe1;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -39,7 +38,6 @@
     .annotation runtime Ln/b/a/a/a/g;
     .end annotation
 
-    .line 1
     check-cast p1, Ljava/lang/Exception;
 
     const/4 p1, 0x0

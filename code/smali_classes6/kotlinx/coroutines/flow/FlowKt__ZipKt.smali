@@ -46,7 +46,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     invoke-static {p0}, Lcotlin/collections/s;->I5(Ljava/lang/Iterable;)Ljava/util/List;
 
     move-result-object p0
@@ -55,17 +54,14 @@
 
     new-array v0, v0, [Lcotlinx/coroutines/flow/d;
 
-    .line 2
     invoke-interface {p0, v0}, Ljava/util/Collection;->toArray([Ljava/lang/Object;)[Ljava/lang/Object;
 
     move-result-object p0
 
     if-eqz p0, :cond_0
 
-    .line 3
     check-cast p0, [Lcotlinx/coroutines/flow/d;
 
-    .line 4
     invoke-static {}, Lcotlin/jvm/internal/f0;->w()V
 
     new-instance v0, Lcotlinx/coroutines/flow/FlowKt__ZipKt$combine$$inlined$unsafeFlow$6;
@@ -74,7 +70,6 @@
 
     return-object v0
 
-    .line 5
     :cond_0
     new-instance p0, Lcotlin/TypeCastException;
 
@@ -129,7 +124,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     invoke-static {p0, p1, p2}, Lcotlinx/coroutines/flow/f;->F0(Lcotlinx/coroutines/flow/d;Lcotlinx/coroutines/flow/d;Lcotlin/jvm/u/q;)Lcotlinx/coroutines/flow/d;
 
     move-result-object p0
@@ -208,7 +202,6 @@
 
     aput-object p2, v0, p0
 
-    .line 1
     new-instance p0, Lcotlinx/coroutines/flow/FlowKt__ZipKt$combine$$inlined$combine$1;
 
     invoke-direct {p0, v0, p3}, Lcotlinx/coroutines/flow/FlowKt__ZipKt$combine$$inlined$combine$1;-><init>([Lcotlinx/coroutines/flow/d;Lcotlin/jvm/u/r;)V
@@ -296,7 +289,6 @@
 
     aput-object p3, v0, p0
 
-    .line 1
     new-instance p0, Lcotlinx/coroutines/flow/FlowKt__ZipKt$combine$$inlined$combine$2;
 
     invoke-direct {p0, v0, p4}, Lcotlinx/coroutines/flow/FlowKt__ZipKt$combine$$inlined$combine$2;-><init>([Lcotlinx/coroutines/flow/d;Lcotlin/jvm/u/s;)V
@@ -396,7 +388,6 @@
 
     aput-object p4, v0, p0
 
-    .line 1
     new-instance p0, Lcotlinx/coroutines/flow/FlowKt__ZipKt$combine$$inlined$combine$3;
 
     invoke-direct {p0, v0, p5}, Lcotlinx/coroutines/flow/FlowKt__ZipKt$combine$$inlined$combine$3;-><init>([Lcotlinx/coroutines/flow/d;Lcotlin/jvm/u/t;)V
@@ -440,7 +431,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     invoke-static {}, Lcotlin/jvm/internal/f0;->w()V
 
     new-instance v0, Lcotlinx/coroutines/flow/FlowKt__ZipKt$combine$$inlined$unsafeFlow$5;
@@ -495,7 +485,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     invoke-static {p0}, Lcotlin/collections/s;->I5(Ljava/lang/Iterable;)Ljava/util/List;
 
     move-result-object p0
@@ -504,17 +493,14 @@
 
     new-array v0, v0, [Lcotlinx/coroutines/flow/d;
 
-    .line 2
     invoke-interface {p0, v0}, Ljava/util/Collection;->toArray([Ljava/lang/Object;)[Ljava/lang/Object;
 
     move-result-object p0
 
     if-eqz p0, :cond_0
 
-    .line 3
     check-cast p0, [Lcotlinx/coroutines/flow/d;
 
-    .line 4
     invoke-static {}, Lcotlin/jvm/internal/f0;->w()V
 
     new-instance v0, Lcotlinx/coroutines/flow/FlowKt__ZipKt$combineTransform$7;
@@ -529,7 +515,6 @@
 
     return-object p0
 
-    .line 5
     :cond_0
     new-instance p0, Lcotlin/TypeCastException;
 
@@ -603,7 +588,6 @@
 
     aput-object p1, v0, p0
 
-    .line 1
     new-instance p0, Lcotlinx/coroutines/flow/FlowKt__ZipKt$combineTransform$$inlined$combineTransform$1;
 
     const/4 p1, 0x0
@@ -692,7 +676,6 @@
 
     aput-object p2, v0, p0
 
-    .line 1
     new-instance p0, Lcotlinx/coroutines/flow/FlowKt__ZipKt$combineTransform$$inlined$combineTransform$2;
 
     const/4 p1, 0x0
@@ -793,7 +776,6 @@
 
     aput-object p3, v0, p0
 
-    .line 1
     new-instance p0, Lcotlinx/coroutines/flow/FlowKt__ZipKt$combineTransform$$inlined$combineTransform$3;
 
     const/4 p1, 0x0
@@ -906,7 +888,6 @@
 
     aput-object p4, v0, p0
 
-    .line 1
     new-instance p0, Lcotlinx/coroutines/flow/FlowKt__ZipKt$combineTransform$$inlined$combineTransform$4;
 
     const/4 p1, 0x0
@@ -963,7 +944,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     invoke-static {}, Lcotlin/jvm/internal/f0;->w()V
 
     new-instance v0, Lcotlinx/coroutines/flow/FlowKt__ZipKt$combineTransform$6;
@@ -1027,7 +1007,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     new-instance v0, Lcotlinx/coroutines/flow/FlowKt__ZipKt$combine$$inlined$unsafeFlow$1;
 
     invoke-direct {v0, p0, p1, p2}, Lcotlinx/coroutines/flow/FlowKt__ZipKt$combine$$inlined$unsafeFlow$1;-><init>(Lcotlinx/coroutines/flow/d;Lcotlinx/coroutines/flow/d;Lcotlin/jvm/u/q;)V
@@ -1090,7 +1069,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     new-instance v0, Lcotlinx/coroutines/flow/FlowKt__ZipKt$combineTransform$1;
 
     const/4 v1, 0x0
@@ -1148,7 +1126,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     invoke-static {p0, p1, p2}, Lcotlinx/coroutines/flow/internal/CombineKt;->j(Lcotlinx/coroutines/flow/d;Lcotlinx/coroutines/flow/d;Lcotlin/jvm/u/q;)Lcotlinx/coroutines/flow/d;
 
     move-result-object p0

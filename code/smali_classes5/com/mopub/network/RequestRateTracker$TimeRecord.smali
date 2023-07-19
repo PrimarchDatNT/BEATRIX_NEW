@@ -33,24 +33,20 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     invoke-static {}, Lcom/mopub/network/RequestRateTracker;->access$000()J
 
     move-result-wide v0
 
     iput-wide v0, p0, Lcom/mopub/network/RequestRateTracker$TimeRecord;->mBlockStartTime:J
 
-    .line 3
     iput p1, p0, Lcom/mopub/network/RequestRateTracker$TimeRecord;->mBlockIntervalMs:I
 
     if-nez p2, :cond_0
 
     const-string p2, "unknown"
 
-    .line 4
     :cond_0
     iput-object p2, p0, Lcom/mopub/network/RequestRateTracker$TimeRecord;->mReason:Ljava/lang/String;
 
@@ -62,7 +58,6 @@
 .method getTargetTime()J
     .locals 4
 
-    .line 1
     iget-wide v0, p0, Lcom/mopub/network/RequestRateTracker$TimeRecord;->mBlockStartTime:J
 
     iget v2, p0, Lcom/mopub/network/RequestRateTracker$TimeRecord;->mBlockIntervalMs:I

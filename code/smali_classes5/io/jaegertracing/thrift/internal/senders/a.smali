@@ -31,7 +31,6 @@
 
     const-string v0, "application/x-thrift"
 
-    .line 1
     invoke-static {v0}, Lokhttp3/MediaType;->parse(Ljava/lang/String;)Lokhttp3/MediaType;
 
     move-result-object v0
@@ -44,7 +43,6 @@
 .method protected constructor <init>(Lio/jaegertracing/thrift/internal/senders/a$a;)V
     .locals 3
 
-    .line 1
     sget-object v0, Lio/jaegertracing/thrift/internal/senders/ThriftSenderBase$ProtocolType;->Binary:Lio/jaegertracing/thrift/internal/senders/ThriftSenderBase$ProtocolType;
 
     invoke-static {p1}, Lio/jaegertracing/thrift/internal/senders/a$a;->a(Lio/jaegertracing/thrift/internal/senders/a$a;)I
@@ -57,7 +55,6 @@
 
     new-array v0, v0, [Ljava/lang/Object;
 
-    .line 2
     invoke-static {p1}, Lio/jaegertracing/thrift/internal/senders/a$a;->b(Lio/jaegertracing/thrift/internal/senders/a$a;)Ljava/lang/String;
 
     move-result-object v1
@@ -84,7 +81,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 3
     invoke-static {p1}, Lio/jaegertracing/thrift/internal/senders/a$a;->c(Lio/jaegertracing/thrift/internal/senders/a$a;)Lokhttp3/OkHttpClient$Builder;
 
     move-result-object p1
@@ -95,7 +91,6 @@
 
     iput-object p1, p0, Lio/jaegertracing/thrift/internal/senders/a;->j:Lokhttp3/OkHttpClient;
 
-    .line 4
     new-instance p1, Lokhttp3/Request$Builder;
 
     invoke-direct {p1}, Lokhttp3/Request$Builder;-><init>()V
@@ -108,7 +103,6 @@
 
     return-void
 
-    .line 5
     :cond_0
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -139,7 +133,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lio/jaegertracing/thriftjava/Batch;
 
     invoke-direct {v0, p1, p2}, Lio/jaegertracing/thriftjava/Batch;-><init>(Lio/jaegertracing/thriftjava/Process;Ljava/util/List;)V
@@ -148,7 +141,6 @@
 
     const/4 v1, 0x1
 
-    .line 2
     :try_start_0
     invoke-virtual {p0, v0}, Lio/jaegertracing/thrift/internal/senders/ThriftSenderBase;->d(Lorg/apache/thrift/TBase;)[B
 
@@ -156,14 +148,12 @@
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_2
 
-    .line 3
     sget-object v2, Lio/jaegertracing/thrift/internal/senders/a;->n:Lokhttp3/MediaType;
 
     invoke-static {v2, v0}, Lokhttp3/RequestBody;->create(Lokhttp3/MediaType;[B)Lokhttp3/RequestBody;
 
     move-result-object v0
 
-    .line 4
     iget-object v2, p0, Lio/jaegertracing/thrift/internal/senders/a;->k:Lokhttp3/Request$Builder;
 
     invoke-virtual {v2, v0}, Lokhttp3/Request$Builder;->post(Lokhttp3/RequestBody;)Lokhttp3/Request$Builder;
@@ -174,7 +164,6 @@
 
     move-result-object v0
 
-    .line 5
     :try_start_1
     iget-object v2, p0, Lio/jaegertracing/thrift/internal/senders/a;->j:Lokhttp3/OkHttpClient;
 
@@ -188,14 +177,12 @@
     :try_end_1
     .catch Ljava/io/IOException; {:try_start_1 .. :try_end_1} :catch_1
 
-    .line 6
     invoke-virtual {v0}, Lokhttp3/Response;->isSuccessful()Z
 
     move-result v2
 
     if-nez v2, :cond_1
 
-    .line 7
     :try_start_2
     invoke-virtual {v0}, Lokhttp3/Response;->body()Lokhttp3/ResponseBody;
 
@@ -228,7 +215,6 @@
 
     new-array v3, v3, [Ljava/lang/Object;
 
-    .line 8
     invoke-interface {p2}, Ljava/util/List;->size()I
 
     move-result v4
@@ -255,12 +241,10 @@
 
     const-string p1, "Could not send %d spans, response %d: %s"
 
-    .line 9
     invoke-static {p1, v3}, Ljava/lang/String;->format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object p1
 
-    .line 10
     new-instance v0, Lio/jaegertracing/internal/exceptions/SenderException;
 
     const/4 v1, 0x0
@@ -279,7 +263,6 @@
     :catch_1
     move-exception v0
 
-    .line 11
     new-instance v2, Lio/jaegertracing/internal/exceptions/SenderException;
 
     new-array v1, v1, [Ljava/lang/Object;
@@ -311,7 +294,6 @@
     :catch_2
     move-exception v0
 
-    .line 12
     new-instance v2, Lio/jaegertracing/internal/exceptions/SenderException;
 
     new-array v1, v1, [Ljava/lang/Object;

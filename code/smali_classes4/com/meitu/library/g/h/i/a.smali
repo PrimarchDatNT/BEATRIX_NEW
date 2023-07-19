@@ -11,10 +11,8 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Lcom/meitu/library/g/h/a;-><init>()V
 
-    .line 2
     sget-object v0, Ljavax/microedition/khronos/egl/EGL10;->EGL_NO_CONTEXT:Ljavax/microedition/khronos/egl/EGLContext;
 
     iput-object v0, p0, Lcom/meitu/library/g/h/i/a;->a:Ljavax/microedition/khronos/egl/EGLContext;
@@ -25,15 +23,12 @@
 .method public constructor <init>(Ljavax/microedition/khronos/egl/EGLContext;)V
     .locals 1
 
-    .line 3
     invoke-direct {p0}, Lcom/meitu/library/g/h/a;-><init>()V
 
-    .line 4
     sget-object v0, Ljavax/microedition/khronos/egl/EGL10;->EGL_NO_CONTEXT:Ljavax/microedition/khronos/egl/EGLContext;
 
     iput-object v0, p0, Lcom/meitu/library/g/h/i/a;->a:Ljavax/microedition/khronos/egl/EGLContext;
 
-    .line 5
     iput-object p1, p0, Lcom/meitu/library/g/h/i/a;->a:Ljavax/microedition/khronos/egl/EGLContext;
 
     return-void
@@ -48,7 +43,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/library/g/h/i/a;->a:Ljavax/microedition/khronos/egl/EGLContext;
 
     sget-object v2, Ljavax/microedition/khronos/egl/EGL10;->EGL_NO_CONTEXT:Ljavax/microedition/khronos/egl/EGLContext;
@@ -75,12 +69,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Ljavax/microedition/khronos/egl/EGL10;->EGL_NO_CONTEXT:Ljavax/microedition/khronos/egl/EGLContext;
 
     iput-object v1, p0, Lcom/meitu/library/g/h/i/a;->a:Ljavax/microedition/khronos/egl/EGLContext;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -93,7 +85,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/library/g/h/i/a;->a:Ljavax/microedition/khronos/egl/EGLContext;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -112,10 +103,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/library/g/h/i/a;->a:Ljavax/microedition/khronos/egl/EGLContext;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

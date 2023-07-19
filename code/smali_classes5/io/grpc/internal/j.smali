@@ -18,7 +18,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -29,7 +28,6 @@
 .method protected final A(I)V
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lio/grpc/internal/j;->B()Lio/grpc/internal/j$a;
 
     move-result-object v0
@@ -45,7 +43,6 @@
 .method public final b(I)V
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lio/grpc/internal/j;->B()Lio/grpc/internal/j$a;
 
     move-result-object v0
@@ -58,7 +55,6 @@
 .method public final e(Lio/grpc/m;)V
     .locals 2
 
-    .line 1
     invoke-virtual {p0}, Lio/grpc/internal/j;->z()Lio/grpc/internal/u0;
 
     move-result-object v0
@@ -79,7 +75,6 @@
 .method public final flush()V
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lio/grpc/internal/j;->z()Lio/grpc/internal/u0;
 
     move-result-object v0
@@ -90,7 +85,6 @@
 
     if-nez v0, :cond_0
 
-    .line 2
     invoke-virtual {p0}, Lio/grpc/internal/j;->z()Lio/grpc/internal/u0;
 
     move-result-object v0
@@ -104,7 +98,6 @@
 .method public final i(Z)V
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lio/grpc/internal/j;->z()Lio/grpc/internal/u0;
 
     move-result-object v0
@@ -117,7 +110,6 @@
 .method public isReady()Z
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lio/grpc/internal/j;->z()Lio/grpc/internal/u0;
 
     move-result-object v0
@@ -132,7 +124,6 @@
 
     return v0
 
-    .line 2
     :cond_0
     invoke-virtual {p0}, Lio/grpc/internal/j;->B()Lio/grpc/internal/j$a;
 
@@ -150,10 +141,8 @@
 
     const-string v0, "message"
 
-    .line 1
     invoke-static {p1, v0}, Lcom/google/common/base/t;->F(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 2
     :try_start_0
     invoke-virtual {p0}, Lio/grpc/internal/j;->z()Lio/grpc/internal/u0;
 
@@ -165,7 +154,6 @@
 
     if-nez v0, :cond_0
 
-    .line 3
     invoke-virtual {p0}, Lio/grpc/internal/j;->z()Lio/grpc/internal/u0;
 
     move-result-object v0
@@ -174,7 +162,6 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 4
     :cond_0
     invoke-static {p1}, Lio/grpc/internal/GrpcUtil;->f(Ljava/io/Closeable;)V
 
@@ -191,7 +178,6 @@
 .method public n()V
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lio/grpc/internal/j;->B()Lio/grpc/internal/j$a;
 
     move-result-object v0
@@ -204,7 +190,6 @@
 .method protected final y()V
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lio/grpc/internal/j;->z()Lio/grpc/internal/u0;
 
     move-result-object v0

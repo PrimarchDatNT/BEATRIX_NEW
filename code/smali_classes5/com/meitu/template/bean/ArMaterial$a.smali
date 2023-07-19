@@ -31,7 +31,6 @@
 .method constructor <init>(Lcom/meitu/template/bean/ArMaterial;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/template/bean/ArMaterial$a;->a:Lcom/meitu/template/bean/ArMaterial;
 
     invoke-direct {p0}, Lcom/google/gson/reflect/TypeToken;-><init>()V

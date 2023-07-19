@@ -54,34 +54,24 @@
 .method protected constructor <init>(Ljava/lang/Object;Landroid/view/View;ILandroid/widget/ImageView;Landroid/widget/ImageView;Lcom/commsource/widget/VideoPlayView;Landroidx/cardview/widget/CardView;Landroid/widget/RelativeLayout;Lcom/commsource/widget/PressTextView;Lcom/commsource/widget/PressTextView;Landroid/widget/TextView;Lcom/commsource/widget/AutoFitTextView;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1, p2, p3}, Landroidx/databinding/ViewDataBinding;-><init>(Ljava/lang/Object;Landroid/view/View;I)V
 
-    .line 2
     iput-object p4, p0, Lcom/commsource/beautyplus/f0/km;->a:Landroid/widget/ImageView;
 
-    .line 3
     iput-object p5, p0, Lcom/commsource/beautyplus/f0/km;->b:Landroid/widget/ImageView;
 
-    .line 4
     iput-object p6, p0, Lcom/commsource/beautyplus/f0/km;->c:Lcom/commsource/widget/VideoPlayView;
 
-    .line 5
     iput-object p7, p0, Lcom/commsource/beautyplus/f0/km;->d:Landroidx/cardview/widget/CardView;
 
-    .line 6
     iput-object p8, p0, Lcom/commsource/beautyplus/f0/km;->f:Landroid/widget/RelativeLayout;
 
-    .line 7
     iput-object p9, p0, Lcom/commsource/beautyplus/f0/km;->g:Lcom/commsource/widget/PressTextView;
 
-    .line 8
     iput-object p10, p0, Lcom/commsource/beautyplus/f0/km;->p:Lcom/commsource/widget/PressTextView;
 
-    .line 9
     iput-object p11, p0, Lcom/commsource/beautyplus/f0/km;->J:Landroid/widget/TextView;
 
-    .line 10
     iput-object p12, p0, Lcom/commsource/beautyplus/f0/km;->K:Lcom/commsource/widget/AutoFitTextView;
 
     return-void
@@ -94,7 +84,6 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-static {}, Landroidx/databinding/DataBindingUtil;->getDefaultComponent()Landroidx/databinding/DataBindingComponent;
 
     move-result-object v0
@@ -121,7 +110,6 @@
 
     sget v0, Lcom/res/provider/ResLAYOUT;->sticker_guider_layout:I
 
-    .line 1
     invoke-static {p1, p0, v0}, Landroidx/databinding/ViewDataBinding;->bind(Ljava/lang/Object;Landroid/view/View;I)Landroidx/databinding/ViewDataBinding;
 
     move-result-object p0
@@ -140,7 +128,6 @@
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
-    .line 1
     invoke-static {}, Landroidx/databinding/DataBindingUtil;->getDefaultComponent()Landroidx/databinding/DataBindingComponent;
 
     move-result-object v0
@@ -165,7 +152,6 @@
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
-    .line 1
     invoke-static {}, Landroidx/databinding/DataBindingUtil;->getDefaultComponent()Landroidx/databinding/DataBindingComponent;
 
     move-result-object v0
@@ -199,7 +185,6 @@
 
     sget v0, Lcom/res/provider/ResLAYOUT;->sticker_guider_layout:I
 
-    .line 1
     invoke-static {p0, v0, p1, p2, p3}, Landroidx/databinding/ViewDataBinding;->inflateInternal(Landroid/view/LayoutInflater;ILandroid/view/ViewGroup;ZLjava/lang/Object;)Landroidx/databinding/ViewDataBinding;
 
     move-result-object p0
@@ -231,7 +216,6 @@
 
     const/4 v2, 0x0
 
-    .line 1
     invoke-static {p0, v0, v1, v2, p1}, Landroidx/databinding/ViewDataBinding;->inflateInternal(Landroid/view/LayoutInflater;ILandroid/view/ViewGroup;ZLjava/lang/Object;)Landroidx/databinding/ViewDataBinding;
 
     move-result-object p0

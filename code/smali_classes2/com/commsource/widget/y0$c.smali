@@ -25,7 +25,6 @@
 .method constructor <init>(Lcom/commsource/widget/y0;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/widget/y0$c;->a:Lcom/commsource/widget/y0;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -42,7 +41,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/widget/y0$c;->a:Lcom/commsource/widget/y0;
 
     invoke-static {v0}, Lcom/commsource/widget/y0;->i(Lcom/commsource/widget/y0;)Lcom/commsource/widget/y0$e;
@@ -51,7 +49,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 2
     iget-object v0, p0, Lcom/commsource/widget/y0$c;->a:Lcom/commsource/widget/y0;
 
     invoke-static {v0}, Lcom/commsource/widget/y0;->i(Lcom/commsource/widget/y0;)Lcom/commsource/widget/y0$e;
@@ -60,7 +57,6 @@
 
     invoke-interface {v0}, Lcom/commsource/widget/y0$e;->onDismiss()V
 
-    .line 3
     :cond_0
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

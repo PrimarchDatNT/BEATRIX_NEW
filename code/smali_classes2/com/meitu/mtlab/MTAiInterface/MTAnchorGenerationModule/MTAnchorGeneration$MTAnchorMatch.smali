@@ -29,7 +29,6 @@
 .method public constructor <init>(Lcom/meitu/mtlab/MTAiInterface/MTAnchorGenerationModule/MTAnchorGeneration;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/mtlab/MTAiInterface/MTAnchorGenerationModule/MTAnchorGeneration$MTAnchorMatch;->this$0:Lcom/meitu/mtlab/MTAiInterface/MTAnchorGenerationModule/MTAnchorGeneration;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -51,7 +50,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0}, Ljava/lang/Object;->clone()Ljava/lang/Object;
 
     move-result-object v1
@@ -60,17 +58,14 @@
 
     if-eqz v1, :cond_0
 
-    .line 2
     iget-boolean v2, p0, Lcom/meitu/mtlab/MTAiInterface/MTAnchorGenerationModule/MTAnchorGeneration$MTAnchorMatch;->match:Z
 
     iput-boolean v2, v1, Lcom/meitu/mtlab/MTAiInterface/MTAnchorGenerationModule/MTAnchorGeneration$MTAnchorMatch;->match:Z
 
-    .line 3
     iget v2, p0, Lcom/meitu/mtlab/MTAiInterface/MTAnchorGenerationModule/MTAnchorGeneration$MTAnchorMatch;->score:F
 
     iput v2, v1, Lcom/meitu/mtlab/MTAiInterface/MTAnchorGenerationModule/MTAnchorGeneration$MTAnchorMatch;->score:F
 
-    .line 4
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

@@ -22,7 +22,6 @@
 .method static constructor <clinit>()V
     .locals 2
 
-    .line 1
     new-instance v0, Lcotlinx/coroutines/internal/c0;
 
     const-string v1, "NO_DECISION"
@@ -31,7 +30,6 @@
 
     sput-object v0, Lcotlinx/coroutines/internal/c;->a:Ljava/lang/Object;
 
-    .line 2
     new-instance v0, Lcotlinx/coroutines/internal/c0;
 
     const-string v1, "RETRY_ATOMIC"
@@ -58,7 +56,6 @@
 .method public static final synthetic c()Ljava/lang/Object;
     .locals 1
 
-    .line 1
     sget-object v0, Lcotlinx/coroutines/internal/c;->a:Ljava/lang/Object;
 
     return-object v0

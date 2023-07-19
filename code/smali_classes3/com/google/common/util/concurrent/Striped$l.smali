@@ -24,13 +24,10 @@
 .method constructor <init>(Ljava/util/concurrent/locks/Lock;Lcom/google/common/util/concurrent/Striped$m;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/google/common/util/concurrent/y;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/google/common/util/concurrent/Striped$l;->a:Ljava/util/concurrent/locks/Lock;
 
-    .line 3
     iput-object p2, p0, Lcom/google/common/util/concurrent/Striped$l;->b:Lcom/google/common/util/concurrent/Striped$m;
 
     return-void
@@ -41,7 +38,6 @@
 .method a()Ljava/util/concurrent/locks/Lock;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/util/concurrent/Striped$l;->a:Ljava/util/concurrent/locks/Lock;
 
     return-object v0
@@ -50,7 +46,6 @@
 .method public newCondition()Ljava/util/concurrent/locks/Condition;
     .locals 3
 
-    .line 1
     new-instance v0, Lcom/google/common/util/concurrent/Striped$k;
 
     iget-object v1, p0, Lcom/google/common/util/concurrent/Striped$l;->a:Ljava/util/concurrent/locks/Lock;

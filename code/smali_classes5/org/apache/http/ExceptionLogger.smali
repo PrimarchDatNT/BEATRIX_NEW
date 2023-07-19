@@ -13,14 +13,12 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
     new-instance v0, Lorg/apache/http/ExceptionLogger$1;
 
     invoke-direct {v0}, Lorg/apache/http/ExceptionLogger$1;-><init>()V
 
     sput-object v0, Lorg/apache/http/ExceptionLogger;->NO_OP:Lorg/apache/http/ExceptionLogger;
 
-    .line 2
     new-instance v0, Lorg/apache/http/ExceptionLogger$2;
 
     invoke-direct {v0}, Lorg/apache/http/ExceptionLogger$2;-><init>()V

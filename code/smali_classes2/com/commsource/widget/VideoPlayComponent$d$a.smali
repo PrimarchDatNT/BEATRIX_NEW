@@ -42,7 +42,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/widget/VideoPlayComponent$d$a;->a:Lcom/commsource/widget/VideoPlayComponent$d;
 
     iget-object v1, v1, Lcom/commsource/widget/VideoPlayComponent$d;->a:Lcom/commsource/widget/VideoPlayComponent;
@@ -53,7 +52,6 @@
 
     invoke-static {v1}, Lcom/commsource/util/l0;->w(Landroid/view/View;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

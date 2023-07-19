@@ -38,12 +38,10 @@
 .method constructor <init>(Lcom/google/common/collect/Sets$c;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/common/collect/Sets$c$a;->d:Lcom/google/common/collect/Sets$c;
 
     invoke-direct {p0}, Lcom/google/common/collect/AbstractIterator;-><init>()V
 
-    .line 2
     iget-object p1, p1, Lcom/google/common/collect/Sets$c;->a:Ljava/util/Set;
 
     invoke-interface {p1}, Ljava/util/Set;->iterator()Ljava/util/Iterator;
@@ -65,7 +63,6 @@
         }
     .end annotation
 
-    .line 1
     :cond_0
     iget-object v0, p0, Lcom/google/common/collect/Sets$c$a;->c:Ljava/util/Iterator;
 
@@ -75,14 +72,12 @@
 
     if-eqz v0, :cond_1
 
-    .line 2
     iget-object v0, p0, Lcom/google/common/collect/Sets$c$a;->c:Ljava/util/Iterator;
 
     invoke-interface {v0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
     move-result-object v0
 
-    .line 3
     iget-object v1, p0, Lcom/google/common/collect/Sets$c$a;->d:Lcom/google/common/collect/Sets$c;
 
     iget-object v1, v1, Lcom/google/common/collect/Sets$c;->b:Ljava/util/Set;
@@ -95,7 +90,6 @@
 
     return-object v0
 
-    .line 4
     :cond_1
     invoke-virtual {p0}, Lcom/google/common/collect/AbstractIterator;->b()Ljava/lang/Object;
 

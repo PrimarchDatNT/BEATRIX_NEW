@@ -23,7 +23,6 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
     invoke-static {}, Ljava/util/Collections;->emptyList()Ljava/util/List;
 
     move-result-object v0
@@ -36,7 +35,6 @@
 .method constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lorg/jsoup/nodes/j;-><init>()V
 
     return-void
@@ -45,27 +43,22 @@
 .method private k0()V
     .locals 3
 
-    .line 1
     invoke-virtual {p0}, Lorg/jsoup/nodes/i;->A()Z
 
     move-result v0
 
     if-nez v0, :cond_0
 
-    .line 2
     iget-object v0, p0, Lorg/jsoup/nodes/i;->d:Ljava/lang/Object;
 
-    .line 3
     new-instance v1, Lorg/jsoup/nodes/b;
 
     invoke-direct {v1}, Lorg/jsoup/nodes/b;-><init>()V
 
-    .line 4
     iput-object v1, p0, Lorg/jsoup/nodes/i;->d:Ljava/lang/Object;
 
     if-eqz v0, :cond_0
 
-    .line 5
     invoke-virtual {p0}, Lorg/jsoup/nodes/j;->G()Ljava/lang/String;
 
     move-result-object v2
@@ -83,7 +76,6 @@
 .method protected final A()Z
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lorg/jsoup/nodes/i;->d:Ljava/lang/Object;
 
     instance-of v0, v0, Lorg/jsoup/nodes/b;
@@ -94,10 +86,8 @@
 .method public S(Ljava/lang/String;)Lorg/jsoup/nodes/j;
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lorg/jsoup/nodes/i;->k0()V
 
-    .line 2
     invoke-super {p0, p1}, Lorg/jsoup/nodes/j;->S(Ljava/lang/String;)Lorg/jsoup/nodes/j;
 
     move-result-object p1
@@ -108,10 +98,8 @@
 .method public a(Ljava/lang/String;)Ljava/lang/String;
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lorg/jsoup/nodes/i;->k0()V
 
-    .line 2
     invoke-super {p0, p1}, Lorg/jsoup/nodes/j;->a(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p1
@@ -122,17 +110,14 @@
 .method public g(Ljava/lang/String;)Ljava/lang/String;
     .locals 1
 
-    .line 1
     invoke-static {p1}, Lorg/jsoup/helper/c;->j(Ljava/lang/Object;)V
 
-    .line 2
     invoke-virtual {p0}, Lorg/jsoup/nodes/i;->A()Z
 
     move-result v0
 
     if-nez v0, :cond_1
 
-    .line 3
     invoke-virtual {p0}, Lorg/jsoup/nodes/j;->G()Ljava/lang/String;
 
     move-result-object v0
@@ -155,7 +140,6 @@
     :goto_0
     return-object p1
 
-    .line 4
     :cond_1
     invoke-super {p0, p1}, Lorg/jsoup/nodes/j;->g(Ljava/lang/String;)Ljava/lang/String;
 
@@ -167,7 +151,6 @@
 .method public h(Ljava/lang/String;Ljava/lang/String;)Lorg/jsoup/nodes/j;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lorg/jsoup/nodes/i;->A()Z
 
     move-result v0
@@ -184,16 +167,13 @@
 
     if-eqz v0, :cond_0
 
-    .line 2
     iput-object p2, p0, Lorg/jsoup/nodes/i;->d:Ljava/lang/Object;
 
     goto :goto_0
 
-    .line 3
     :cond_0
     invoke-direct {p0}, Lorg/jsoup/nodes/i;->k0()V
 
-    .line 4
     invoke-super {p0, p1, p2}, Lorg/jsoup/nodes/j;->h(Ljava/lang/String;Ljava/lang/String;)Lorg/jsoup/nodes/j;
 
     :goto_0
@@ -203,7 +183,6 @@
 .method h0()Ljava/lang/String;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lorg/jsoup/nodes/j;->G()Ljava/lang/String;
 
     move-result-object v0
@@ -218,10 +197,8 @@
 .method public final i()Lorg/jsoup/nodes/b;
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Lorg/jsoup/nodes/i;->k0()V
 
-    .line 2
     iget-object v0, p0, Lorg/jsoup/nodes/i;->d:Ljava/lang/Object;
 
     check-cast v0, Lorg/jsoup/nodes/b;
@@ -232,7 +209,6 @@
 .method i0(Ljava/lang/String;)V
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lorg/jsoup/nodes/j;->G()Ljava/lang/String;
 
     move-result-object v0
@@ -245,7 +221,6 @@
 .method public j()Ljava/lang/String;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lorg/jsoup/nodes/j;->B()Z
 
     move-result v0
@@ -272,21 +247,18 @@
 .method protected j0(Lorg/jsoup/nodes/j;)Lorg/jsoup/nodes/i;
     .locals 1
 
-    .line 1
     invoke-super {p0, p1}, Lorg/jsoup/nodes/j;->t(Lorg/jsoup/nodes/j;)Lorg/jsoup/nodes/j;
 
     move-result-object p1
 
     check-cast p1, Lorg/jsoup/nodes/i;
 
-    .line 2
     invoke-virtual {p0}, Lorg/jsoup/nodes/i;->A()Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
-    .line 3
     iget-object v0, p0, Lorg/jsoup/nodes/i;->d:Ljava/lang/Object;
 
     check-cast v0, Lorg/jsoup/nodes/b;
@@ -312,7 +284,6 @@
 .method protected bridge synthetic t(Lorg/jsoup/nodes/j;)Lorg/jsoup/nodes/j;
     .locals 0
 
-    .line 1
     invoke-virtual {p0, p1}, Lorg/jsoup/nodes/i;->j0(Lorg/jsoup/nodes/j;)Lorg/jsoup/nodes/i;
 
     move-result-object p1
@@ -343,7 +314,6 @@
         }
     .end annotation
 
-    .line 1
     sget-object v0, Lorg/jsoup/nodes/i;->f:Ljava/util/List;
 
     return-object v0
@@ -352,10 +322,8 @@
 .method public z(Ljava/lang/String;)Z
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lorg/jsoup/nodes/i;->k0()V
 
-    .line 2
     invoke-super {p0, p1}, Lorg/jsoup/nodes/j;->z(Ljava/lang/String;)Z
 
     move-result p1

@@ -38,7 +38,6 @@
 .method constructor <init>(Lcom/google/common/util/concurrent/f;Lcom/google/common/util/concurrent/Service$State;Ljava/lang/Throwable;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/common/util/concurrent/f$e;->c:Lcom/google/common/util/concurrent/f;
 
     iput-object p2, p0, Lcom/google/common/util/concurrent/f$e;->a:Lcom/google/common/util/concurrent/Service$State;
@@ -55,7 +54,6 @@
 .method public bridge synthetic a(Ljava/lang/Object;)V
     .locals 0
 
-    .line 1
     check-cast p1, Lcom/google/common/util/concurrent/Service$b;
 
     invoke-virtual {p0, p1}, Lcom/google/common/util/concurrent/f$e;->b(Lcom/google/common/util/concurrent/Service$b;)V
@@ -66,7 +64,6 @@
 .method public b(Lcom/google/common/util/concurrent/Service$b;)V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/util/concurrent/f$e;->a:Lcom/google/common/util/concurrent/Service$State;
 
     iget-object v1, p0, Lcom/google/common/util/concurrent/f$e;->b:Ljava/lang/Throwable;
@@ -79,7 +76,6 @@
 .method public toString()Ljava/lang/String;
     .locals 2
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V

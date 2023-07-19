@@ -187,7 +187,6 @@
 
     move-result-object v0
 
-    .line 1
     iget v1, p0, Lcotlinx/coroutines/flow/FlowKt__MigrationKt$combineLatest$$inlined$combine$2$3;->label:I
 
     const/4 v2, 0x2
@@ -212,7 +211,6 @@
 
     goto :goto_1
 
-    .line 2
     :cond_0
     new-instance p1, Ljava/lang/IllegalStateException;
 
@@ -222,7 +220,6 @@
 
     throw p1
 
-    .line 3
     :cond_1
     iget-object v1, p0, Lcotlinx/coroutines/flow/FlowKt__MigrationKt$combineLatest$$inlined$combine$2$3;->L$4:Ljava/lang/Object;
 
@@ -255,25 +252,20 @@
 
     iget-object p1, p0, Lcotlinx/coroutines/flow/FlowKt__MigrationKt$combineLatest$$inlined$combine$2$3;->p$0:[Ljava/lang/Object;
 
-    .line 4
     iget-object v4, p0, Lcotlinx/coroutines/flow/FlowKt__MigrationKt$combineLatest$$inlined$combine$2$3;->this$0:Lcotlinx/coroutines/flow/FlowKt__MigrationKt$combineLatest$$inlined$combine$2;
 
     iget-object v5, v4, Lcotlinx/coroutines/flow/FlowKt__MigrationKt$combineLatest$$inlined$combine$2;->b:Lcotlin/jvm/u/s;
 
     const/4 v4, 0x0
 
-    .line 5
     aget-object v6, p1, v4
 
-    .line 6
     aget-object v7, p1, v3
 
-    .line 7
     aget-object v8, p1, v2
 
     const/4 v4, 0x3
 
-    .line 8
     aget-object v9, p1, v4
 
     iput-object v1, p0, Lcotlinx/coroutines/flow/FlowKt__MigrationKt$combineLatest$$inlined$combine$2$3;->L$0:Ljava/lang/Object;
@@ -307,7 +299,6 @@
 
     move-object p1, v11
 
-    .line 9
     :goto_0
     iput-object v4, p0, Lcotlinx/coroutines/flow/FlowKt__MigrationKt$combineLatest$$inlined$combine$2$3;->L$0:Ljava/lang/Object;
 
@@ -343,29 +334,24 @@
 
     iget-object v0, p0, Lcotlinx/coroutines/flow/FlowKt__MigrationKt$combineLatest$$inlined$combine$2$3;->p$0:[Ljava/lang/Object;
 
-    .line 1
     iget-object v1, p0, Lcotlinx/coroutines/flow/FlowKt__MigrationKt$combineLatest$$inlined$combine$2$3;->this$0:Lcotlinx/coroutines/flow/FlowKt__MigrationKt$combineLatest$$inlined$combine$2;
 
     iget-object v2, v1, Lcotlinx/coroutines/flow/FlowKt__MigrationKt$combineLatest$$inlined$combine$2;->b:Lcotlin/jvm/u/s;
 
     const/4 v1, 0x0
 
-    .line 2
     aget-object v3, v0, v1
 
     const/4 v8, 0x1
 
-    .line 3
     aget-object v4, v0, v8
 
     const/4 v9, 0x2
 
-    .line 4
     aget-object v5, v0, v9
 
     const/4 v6, 0x3
 
-    .line 5
     aget-object v6, v0, v6
 
     invoke-static {v1}, Lcotlin/jvm/internal/c0;->e(I)V
@@ -378,7 +364,6 @@
 
     invoke-static {v8}, Lcotlin/jvm/internal/c0;->e(I)V
 
-    .line 6
     invoke-static {v1}, Lcotlin/jvm/internal/c0;->e(I)V
 
     invoke-interface {p1, v0, p0}, Lcotlinx/coroutines/flow/e;->emit(Ljava/lang/Object;Lcotlin/coroutines/c;)Ljava/lang/Object;

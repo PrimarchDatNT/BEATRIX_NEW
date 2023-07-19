@@ -23,20 +23,16 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/4 v0, -0x1
 
-    .line 2
     iput v0, p0, Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/attribute/MTGender;->top:I
 
     const/4 v0, 0x0
 
-    .line 3
     iput v0, p0, Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/attribute/MTGender;->maleScore:F
 
-    .line 4
     iput v0, p0, Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/attribute/MTGender;->femaleScore:F
 
     return-void

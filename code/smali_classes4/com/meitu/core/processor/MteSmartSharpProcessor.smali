@@ -11,10 +11,8 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Lcom/meitu/core/NativeBaseClass;-><init>()V
 
-    .line 2
     new-instance v0, Lcom/meitu/core/processor/MteSmartSharpProcessor$1;
 
     invoke-direct {v0, p0}, Lcom/meitu/core/processor/MteSmartSharpProcessor$1;-><init>(Lcom/meitu/core/processor/MteSmartSharpProcessor;)V
@@ -31,7 +29,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-wide p1, p0, Lcom/meitu/core/processor/MteSmartSharpProcessor;->nativeInstance:J
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -46,7 +43,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/meitu/core/processor/MteSmartSharpProcessor;->nativeCreate()J
 
     move-result-wide v1
@@ -85,15 +81,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/core/processor/MteSmartSharpProcessor;->nativeInstance:J
 
     invoke-static {v1, v2}, Lcom/meitu/core/processor/MteSmartSharpProcessor;->nativeFinalizer(J)V
 
-    .line 2
     invoke-super {p0}, Ljava/lang/Object;->finalize()V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -106,12 +99,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/core/processor/MteSmartSharpProcessor;->nativeInstance:J
 
     invoke-static {v1, v2}, Lcom/meitu/core/processor/MteSmartSharpProcessor;->nativeRecycle(J)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -128,19 +119,16 @@
 
     if-nez p1, :cond_0
 
-    .line 1
     sget-object p1, Lcom/meitu/core/types/NDebug;->TAG:Ljava/lang/String;
 
     const-string p2, "ERROR:MteSmartSharpProcessor stretchVerticle,bitmap is null"
 
     invoke-static {p1, p2}, Lcom/meitu/core/types/NDebug;->e(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
 
-    .line 3
     :cond_0
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
@@ -148,20 +136,17 @@
 
     if-eqz p1, :cond_1
 
-    .line 4
     iget-wide v4, p0, Lcom/meitu/core/processor/MteSmartSharpProcessor;->nativeInstance:J
 
     invoke-static {v4, v5, p1, p2, p3}, Lcom/meitu/core/processor/MteSmartSharpProcessor;->nativeSmartSharpen_bitmap(JLandroid/graphics/Bitmap;FZ)Z
 
     move-result v1
 
-    .line 5
     :cond_1
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide p2
 
-    .line 6
     sget-object v4, Lcom/meitu/core/types/NDebug;->TAG:Ljava/lang/String;
 
     new-instance v5, Ljava/lang/StringBuilder;
@@ -206,7 +191,6 @@
 
     invoke-static {v4, p1}, Lcom/meitu/core/types/NDebug;->i(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
@@ -223,19 +207,16 @@
 
     if-nez p1, :cond_0
 
-    .line 8
     sget-object p1, Lcom/meitu/core/types/NDebug;->TAG:Ljava/lang/String;
 
     const-string p2, "ERROR:ImageEditProcessor stretchVerticle,bitmap is null"
 
     invoke-static {p1, p2}, Lcom/meitu/core/types/NDebug;->e(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 9
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
 
-    .line 10
     :cond_0
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
@@ -243,7 +224,6 @@
 
     if-eqz p1, :cond_1
 
-    .line 11
     iget-wide v4, p0, Lcom/meitu/core/processor/MteSmartSharpProcessor;->nativeInstance:J
 
     invoke-virtual {p1}, Lcom/meitu/core/types/NativeBitmap;->nativeInstance()J
@@ -258,13 +238,11 @@
 
     move-result v1
 
-    .line 12
     :cond_1
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide p2
 
-    .line 13
     sget-object v4, Lcom/meitu/core/types/NDebug;->TAG:Ljava/lang/String;
 
     new-instance v5, Ljava/lang/StringBuilder;
@@ -309,7 +287,6 @@
 
     invoke-static {v4, p1}, Lcom/meitu/core/types/NDebug;->i(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 14
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1

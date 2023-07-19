@@ -38,7 +38,6 @@
 .method static constructor <clinit>()V
     .locals 6
 
-    .line 1
     new-instance v0, Lcom/airbnb/lottie/model/content/PolystarShape$Type;
 
     const-string v1, "STAR"
@@ -51,7 +50,6 @@
 
     sput-object v0, Lcom/airbnb/lottie/model/content/PolystarShape$Type;->STAR:Lcom/airbnb/lottie/model/content/PolystarShape$Type;
 
-    .line 2
     new-instance v1, Lcom/airbnb/lottie/model/content/PolystarShape$Type;
 
     const-string v4, "POLYGON"
@@ -68,7 +66,6 @@
 
     aput-object v1, v4, v3
 
-    .line 3
     sput-object v4, Lcom/airbnb/lottie/model/content/PolystarShape$Type;->$VALUES:[Lcom/airbnb/lottie/model/content/PolystarShape$Type;
 
     return-void
@@ -82,10 +79,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 2
     iput p3, p0, Lcom/airbnb/lottie/model/content/PolystarShape$Type;->value:I
 
     return-void
@@ -94,7 +89,6 @@
 .method public static forValue(I)Lcom/airbnb/lottie/model/content/PolystarShape$Type;
     .locals 5
 
-    .line 1
     invoke-static {}, Lcom/airbnb/lottie/model/content/PolystarShape$Type;->values()[Lcom/airbnb/lottie/model/content/PolystarShape$Type;
 
     move-result-object v0
@@ -108,7 +102,6 @@
 
     aget-object v3, v0, v2
 
-    .line 2
     iget v4, v3, Lcom/airbnb/lottie/model/content/PolystarShape$Type;->value:I
 
     if-ne v4, p0, :cond_0
@@ -129,7 +122,6 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/airbnb/lottie/model/content/PolystarShape$Type;
     .locals 1
 
-    .line 1
     const-class v0, Lcom/airbnb/lottie/model/content/PolystarShape$Type;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -144,7 +136,6 @@
 .method public static values()[Lcom/airbnb/lottie/model/content/PolystarShape$Type;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/airbnb/lottie/model/content/PolystarShape$Type;->$VALUES:[Lcom/airbnb/lottie/model/content/PolystarShape$Type;
 
     invoke-virtual {v0}, [Lcom/airbnb/lottie/model/content/PolystarShape$Type;->clone()Ljava/lang/Object;

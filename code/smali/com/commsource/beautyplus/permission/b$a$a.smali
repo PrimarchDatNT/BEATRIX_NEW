@@ -27,7 +27,6 @@
 .method constructor <init>(Lcom/commsource/beautyplus/permission/b$a;Lcom/commsource/beautyplus/permission/b;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/beautyplus/permission/b$a$a;->b:Lcom/commsource/beautyplus/permission/b$a;
 
     iput-object p2, p0, Lcom/commsource/beautyplus/permission/b$a$a;->a:Lcom/commsource/beautyplus/permission/b;
@@ -46,7 +45,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/beautyplus/permission/b$a$a;->b:Lcom/commsource/beautyplus/permission/b$a;
 
     invoke-static {v0}, Lcom/commsource/beautyplus/permission/b$a;->a(Lcom/commsource/beautyplus/permission/b$a;)Landroid/content/DialogInterface$OnClickListener;
@@ -55,7 +53,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 2
     iget-object v0, p0, Lcom/commsource/beautyplus/permission/b$a$a;->b:Lcom/commsource/beautyplus/permission/b$a;
 
     invoke-static {v0}, Lcom/commsource/beautyplus/permission/b$a;->a(Lcom/commsource/beautyplus/permission/b$a;)Landroid/content/DialogInterface$OnClickListener;
@@ -68,13 +65,11 @@
 
     invoke-interface {v0, v1, v2}, Landroid/content/DialogInterface$OnClickListener;->onClick(Landroid/content/DialogInterface;I)V
 
-    .line 3
     :cond_0
     iget-object v0, p0, Lcom/commsource/beautyplus/permission/b$a$a;->a:Lcom/commsource/beautyplus/permission/b;
 
     invoke-virtual {v0}, Landroid/app/Dialog;->dismiss()V
 
-    .line 4
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

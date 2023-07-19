@@ -42,7 +42,6 @@
 .method static constructor <clinit>()V
     .locals 9
 
-    .line 1
     new-instance v0, Lcom/google/firebase/heartbeatinfo/HeartBeatInfo$HeartBeat;
 
     const-string v1, "NONE"
@@ -53,7 +52,6 @@
 
     sput-object v0, Lcom/google/firebase/heartbeatinfo/HeartBeatInfo$HeartBeat;->NONE:Lcom/google/firebase/heartbeatinfo/HeartBeatInfo$HeartBeat;
 
-    .line 2
     new-instance v1, Lcom/google/firebase/heartbeatinfo/HeartBeatInfo$HeartBeat;
 
     const-string v3, "SDK"
@@ -64,7 +62,6 @@
 
     sput-object v1, Lcom/google/firebase/heartbeatinfo/HeartBeatInfo$HeartBeat;->SDK:Lcom/google/firebase/heartbeatinfo/HeartBeatInfo$HeartBeat;
 
-    .line 3
     new-instance v3, Lcom/google/firebase/heartbeatinfo/HeartBeatInfo$HeartBeat;
 
     const-string v5, "GLOBAL"
@@ -75,7 +72,6 @@
 
     sput-object v3, Lcom/google/firebase/heartbeatinfo/HeartBeatInfo$HeartBeat;->GLOBAL:Lcom/google/firebase/heartbeatinfo/HeartBeatInfo$HeartBeat;
 
-    .line 4
     new-instance v5, Lcom/google/firebase/heartbeatinfo/HeartBeatInfo$HeartBeat;
 
     const-string v7, "COMBINED"
@@ -98,7 +94,6 @@
 
     aput-object v5, v7, v8
 
-    .line 5
     sput-object v7, Lcom/google/firebase/heartbeatinfo/HeartBeatInfo$HeartBeat;->$VALUES:[Lcom/google/firebase/heartbeatinfo/HeartBeatInfo$HeartBeat;
 
     return-void
@@ -112,10 +107,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 2
     iput p3, p0, Lcom/google/firebase/heartbeatinfo/HeartBeatInfo$HeartBeat;->code:I
 
     return-void
@@ -124,7 +117,6 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/google/firebase/heartbeatinfo/HeartBeatInfo$HeartBeat;
     .locals 1
 
-    .line 1
     const-class v0, Lcom/google/firebase/heartbeatinfo/HeartBeatInfo$HeartBeat;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -139,7 +131,6 @@
 .method public static values()[Lcom/google/firebase/heartbeatinfo/HeartBeatInfo$HeartBeat;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/google/firebase/heartbeatinfo/HeartBeatInfo$HeartBeat;->$VALUES:[Lcom/google/firebase/heartbeatinfo/HeartBeatInfo$HeartBeat;
 
     invoke-virtual {v0}, [Lcom/google/firebase/heartbeatinfo/HeartBeatInfo$HeartBeat;->clone()Ljava/lang/Object;
@@ -156,7 +147,6 @@
 .method public getCode()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lcom/google/firebase/heartbeatinfo/HeartBeatInfo$HeartBeat;->code:I
 
     return v0

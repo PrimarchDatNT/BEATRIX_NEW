@@ -28,7 +28,6 @@
 
     invoke-static {p1, p2}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-virtual {p1}, Lcom/commsource/widget/s0$a;->d()Landroid/content/Context;
 
     move-result-object p2
@@ -53,10 +52,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0, p1}, Landroid/app/Dialog;->onCreate(Landroid/os/Bundle;)V
 
-    .line 2
     new-instance p1, Lcom/commsource/widget/dialog/delegate/d/c;
 
     const/4 v1, 0x0
@@ -67,7 +64,6 @@
 
     invoke-direct {p1, v1, v2, v3, v2}, Lcom/commsource/widget/dialog/delegate/d/c;-><init>(ZLcotlin/jvm/u/l;ILcotlin/jvm/internal/u;)V
 
-    .line 3
     invoke-virtual {p0}, Landroid/app/Dialog;->getWindow()Landroid/view/Window;
 
     move-result-object v1
@@ -78,7 +74,6 @@
 
     invoke-virtual {v1, v2}, Landroid/view/Window;->setWindowAnimations(I)V
 
-    .line 4
     :cond_0
     invoke-virtual {p0}, Landroid/app/Dialog;->getWindow()Landroid/view/Window;
 
@@ -90,7 +85,6 @@
 
     invoke-virtual {v1, v2}, Landroid/view/Window;->setBackgroundDrawableResource(I)V
 
-    .line 5
     :cond_1
     iget-object v1, p0, Lcom/commsource/widget/s0;->d:Lcom/commsource/widget/s0$a;
 
@@ -100,7 +94,6 @@
 
     invoke-virtual {p0, v1}, Landroid/app/Dialog;->setCancelable(Z)V
 
-    .line 6
     iget-object v1, p0, Lcom/commsource/widget/s0;->d:Lcom/commsource/widget/s0$a;
 
     invoke-virtual {v1}, Lcom/commsource/widget/s0$a;->c()Z
@@ -109,14 +102,12 @@
 
     invoke-virtual {p0, v1}, Landroid/app/Dialog;->setCanceledOnTouchOutside(Z)V
 
-    .line 7
     invoke-virtual {p1}, Lcom/commsource/widget/dialog/delegate/d/a;->i()I
 
     move-result p1
 
     invoke-virtual {p0, p1}, Landroid/app/Dialog;->setContentView(I)V
 
-    .line 8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

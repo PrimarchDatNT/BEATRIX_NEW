@@ -55,7 +55,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 2
     new-instance v1, Lcom/commsource/widget/h1/e;
 
     iget-object v2, p0, Lcom/commsource/studio/text/TextStylePanel$attrAdapter$2;->this$0:Lcom/commsource/studio/text/TextStylePanel;
@@ -82,7 +81,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/studio/text/TextStylePanel$attrAdapter$2;->invoke()Lcom/commsource/widget/h1/e;
 
     move-result-object v1

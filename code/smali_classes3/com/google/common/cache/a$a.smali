@@ -35,45 +35,38 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     invoke-static {}, Lcom/google/common/cache/LongAddables;->a()Lcom/google/common/cache/i;
 
     move-result-object v0
 
     iput-object v0, p0, Lcom/google/common/cache/a$a;->a:Lcom/google/common/cache/i;
 
-    .line 3
     invoke-static {}, Lcom/google/common/cache/LongAddables;->a()Lcom/google/common/cache/i;
 
     move-result-object v0
 
     iput-object v0, p0, Lcom/google/common/cache/a$a;->b:Lcom/google/common/cache/i;
 
-    .line 4
     invoke-static {}, Lcom/google/common/cache/LongAddables;->a()Lcom/google/common/cache/i;
 
     move-result-object v0
 
     iput-object v0, p0, Lcom/google/common/cache/a$a;->c:Lcom/google/common/cache/i;
 
-    .line 5
     invoke-static {}, Lcom/google/common/cache/LongAddables;->a()Lcom/google/common/cache/i;
 
     move-result-object v0
 
     iput-object v0, p0, Lcom/google/common/cache/a$a;->d:Lcom/google/common/cache/i;
 
-    .line 6
     invoke-static {}, Lcom/google/common/cache/LongAddables;->a()Lcom/google/common/cache/i;
 
     move-result-object v0
 
     iput-object v0, p0, Lcom/google/common/cache/a$a;->e:Lcom/google/common/cache/i;
 
-    .line 7
     invoke-static {}, Lcom/google/common/cache/LongAddables;->a()Lcom/google/common/cache/i;
 
     move-result-object v0
@@ -106,7 +99,6 @@
 .method public a(I)V
     .locals 3
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/cache/a$a;->a:Lcom/google/common/cache/i;
 
     int-to-long v1, p1
@@ -119,7 +111,6 @@
 .method public b(I)V
     .locals 3
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/cache/a$a;->b:Lcom/google/common/cache/i;
 
     int-to-long v1, p1
@@ -132,7 +123,6 @@
 .method public c()V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/cache/a$a;->f:Lcom/google/common/cache/i;
 
     invoke-interface {v0}, Lcom/google/common/cache/i;->increment()V
@@ -143,12 +133,10 @@
 .method public d(J)V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/cache/a$a;->d:Lcom/google/common/cache/i;
 
     invoke-interface {v0}, Lcom/google/common/cache/i;->increment()V
 
-    .line 2
     iget-object v0, p0, Lcom/google/common/cache/a$a;->e:Lcom/google/common/cache/i;
 
     invoke-interface {v0, p1, p2}, Lcom/google/common/cache/i;->add(J)V
@@ -159,12 +147,10 @@
 .method public e(J)V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/cache/a$a;->c:Lcom/google/common/cache/i;
 
     invoke-interface {v0}, Lcom/google/common/cache/i;->increment()V
 
-    .line 2
     iget-object v0, p0, Lcom/google/common/cache/a$a;->e:Lcom/google/common/cache/i;
 
     invoke-interface {v0, p1, p2}, Lcom/google/common/cache/i;->add(J)V
@@ -175,12 +161,10 @@
 .method public f()Lcom/google/common/cache/e;
     .locals 14
 
-    .line 1
     new-instance v13, Lcom/google/common/cache/e;
 
     iget-object v0, p0, Lcom/google/common/cache/a$a;->a:Lcom/google/common/cache/i;
 
-    .line 2
     invoke-interface {v0}, Lcom/google/common/cache/i;->sum()J
 
     move-result-wide v0
@@ -191,7 +175,6 @@
 
     iget-object v0, p0, Lcom/google/common/cache/a$a;->b:Lcom/google/common/cache/i;
 
-    .line 3
     invoke-interface {v0}, Lcom/google/common/cache/i;->sum()J
 
     move-result-wide v3
@@ -202,7 +185,6 @@
 
     iget-object v0, p0, Lcom/google/common/cache/a$a;->c:Lcom/google/common/cache/i;
 
-    .line 4
     invoke-interface {v0}, Lcom/google/common/cache/i;->sum()J
 
     move-result-wide v5
@@ -213,7 +195,6 @@
 
     iget-object v0, p0, Lcom/google/common/cache/a$a;->d:Lcom/google/common/cache/i;
 
-    .line 5
     invoke-interface {v0}, Lcom/google/common/cache/i;->sum()J
 
     move-result-wide v7
@@ -224,7 +205,6 @@
 
     iget-object v0, p0, Lcom/google/common/cache/a$a;->e:Lcom/google/common/cache/i;
 
-    .line 6
     invoke-interface {v0}, Lcom/google/common/cache/i;->sum()J
 
     move-result-wide v9
@@ -235,7 +215,6 @@
 
     iget-object v0, p0, Lcom/google/common/cache/a$a;->f:Lcom/google/common/cache/i;
 
-    .line 7
     invoke-interface {v0}, Lcom/google/common/cache/i;->sum()J
 
     move-result-wide v11
@@ -254,12 +233,10 @@
 .method public g(Lcom/google/common/cache/a$b;)V
     .locals 3
 
-    .line 1
     invoke-interface {p1}, Lcom/google/common/cache/a$b;->f()Lcom/google/common/cache/e;
 
     move-result-object p1
 
-    .line 2
     iget-object v0, p0, Lcom/google/common/cache/a$a;->a:Lcom/google/common/cache/i;
 
     invoke-virtual {p1}, Lcom/google/common/cache/e;->c()J
@@ -268,7 +245,6 @@
 
     invoke-interface {v0, v1, v2}, Lcom/google/common/cache/i;->add(J)V
 
-    .line 3
     iget-object v0, p0, Lcom/google/common/cache/a$a;->b:Lcom/google/common/cache/i;
 
     invoke-virtual {p1}, Lcom/google/common/cache/e;->j()J
@@ -277,7 +253,6 @@
 
     invoke-interface {v0, v1, v2}, Lcom/google/common/cache/i;->add(J)V
 
-    .line 4
     iget-object v0, p0, Lcom/google/common/cache/a$a;->c:Lcom/google/common/cache/i;
 
     invoke-virtual {p1}, Lcom/google/common/cache/e;->h()J
@@ -286,7 +261,6 @@
 
     invoke-interface {v0, v1, v2}, Lcom/google/common/cache/i;->add(J)V
 
-    .line 5
     iget-object v0, p0, Lcom/google/common/cache/a$a;->d:Lcom/google/common/cache/i;
 
     invoke-virtual {p1}, Lcom/google/common/cache/e;->f()J
@@ -295,7 +269,6 @@
 
     invoke-interface {v0, v1, v2}, Lcom/google/common/cache/i;->add(J)V
 
-    .line 6
     iget-object v0, p0, Lcom/google/common/cache/a$a;->e:Lcom/google/common/cache/i;
 
     invoke-virtual {p1}, Lcom/google/common/cache/e;->n()J
@@ -304,7 +277,6 @@
 
     invoke-interface {v0, v1, v2}, Lcom/google/common/cache/i;->add(J)V
 
-    .line 7
     iget-object v0, p0, Lcom/google/common/cache/a$a;->f:Lcom/google/common/cache/i;
 
     invoke-virtual {p1}, Lcom/google/common/cache/e;->b()J

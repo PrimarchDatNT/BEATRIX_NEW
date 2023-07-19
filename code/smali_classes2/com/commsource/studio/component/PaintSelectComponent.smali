@@ -49,7 +49,6 @@
 
     const/4 v0, 0x0
 
-    .line 12
     invoke-direct {p0, p1, v0}, Lcom/commsource/studio/component/PaintSelectComponent;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
     return-void
@@ -72,7 +71,6 @@
 
     const/4 v0, 0x0
 
-    .line 10
     invoke-direct {p0, p1, p2, v0}, Lcom/commsource/studio/component/PaintSelectComponent;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
     return-void
@@ -93,10 +91,8 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-direct {p0, p1, p2, p3}, Lcom/commsource/studio/component/ComponentView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
-    .line 2
     new-instance p1, Lcom/commsource/studio/component/PaintSelectComponent$c;
 
     invoke-static {}, Lcom/meitu/library/p/f/i;->z()I
@@ -127,10 +123,8 @@
 
     const/4 p1, 0x1
 
-    .line 3
     iput-boolean p1, p0, Lcom/commsource/studio/component/PaintSelectComponent;->g:Z
 
-    .line 4
     invoke-virtual {p0}, Landroid/widget/FrameLayout;->getContext()Landroid/content/Context;
 
     move-result-object p2
@@ -145,7 +139,6 @@
 
     const-string p3, "this"
 
-    .line 5
     invoke-static {p2, p3}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {p2}, Landroidx/databinding/ViewDataBinding;->getRoot()Landroid/view/View;
@@ -154,12 +147,10 @@
 
     invoke-virtual {p0, p3}, Landroid/widget/FrameLayout;->addView(Landroid/view/View;)V
 
-    .line 6
     iget-object p3, p2, Lcom/commsource/beautyplus/f0/g2;->a:Lcom/commsource/widget/XSeekBar;
 
     invoke-virtual {p3, p1}, Lcom/commsource/widget/XSeekBar;->setEnableExpandMode(Z)V
 
-    .line 7
     iget-object p1, p2, Lcom/commsource/beautyplus/f0/g2;->a:Lcom/commsource/widget/XSeekBar;
 
     new-instance p3, Lcom/commsource/studio/component/PaintSelectComponent$a;
@@ -170,7 +161,6 @@
 
     const-string p1, "ComponentPaintSelectBind\u2026       }\n        })\n    }"
 
-    .line 8
     invoke-static {p2, p1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     iput-object p2, p0, Lcom/commsource/studio/component/PaintSelectComponent;->p:Lcom/commsource/beautyplus/f0/g2;
@@ -194,7 +184,6 @@
 
     const/4 p3, 0x0
 
-    .line 9
     :cond_1
     invoke-direct {p0, p1, p2, p3}, Lcom/commsource/studio/component/PaintSelectComponent;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
@@ -210,7 +199,6 @@
 
     const/4 p2, 0x0
 
-    .line 11
     :cond_0
     invoke-direct {p0, p1, p2}, Lcom/commsource/studio/component/PaintSelectComponent;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
@@ -299,7 +287,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     iget-object p1, p0, Lcom/commsource/studio/component/PaintSelectComponent;->p:Lcom/commsource/beautyplus/f0/g2;
 
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/g2;->a:Lcom/commsource/widget/XSeekBar;
@@ -308,7 +295,6 @@
 
     invoke-virtual {p1, v2}, Lcom/commsource/widget/XSeekBar;->setEnableThumbIndicator(Z)V
 
-    .line 2
     iget-object p1, p0, Lcom/commsource/studio/component/PaintSelectComponent;->p:Lcom/commsource/beautyplus/f0/g2;
 
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/g2;->a:Lcom/commsource/widget/XSeekBar;
@@ -317,7 +303,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_0
     iget-object p1, p0, Lcom/commsource/studio/component/PaintSelectComponent;->p:Lcom/commsource/beautyplus/f0/g2;
 
@@ -327,14 +312,12 @@
 
     invoke-virtual {p1, v2}, Lcom/commsource/widget/XSeekBar;->setEnableThumbIndicator(Z)V
 
-    .line 4
     iget-object p1, p0, Lcom/commsource/studio/component/PaintSelectComponent;->p:Lcom/commsource/beautyplus/f0/g2;
 
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/g2;->a:Lcom/commsource/widget/XSeekBar;
 
     invoke-virtual {p1, v1}, Lcom/commsource/widget/XSeekBar;->setMThumbIndicatorColor(I)V
 
-    .line 5
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -356,10 +339,8 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/component/PaintSelectComponent;->d:Lcom/commsource/studio/component/PaintSelectComponent$c;
 
-    .line 2
     iget-object p1, p0, Lcom/commsource/studio/component/PaintSelectComponent;->f:Lcom/commsource/studio/component/PaintSelectComponent$b;
 
     if-nez p1, :cond_0
@@ -377,7 +358,6 @@
 
     invoke-virtual {p1, v1}, Lcom/commsource/studio/component/PaintSelectComponent$b;->B(F)V
 
-    .line 3
     iget-object p1, p0, Lcom/commsource/studio/component/PaintSelectComponent;->p:Lcom/commsource/beautyplus/f0/g2;
 
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/g2;->a:Lcom/commsource/widget/XSeekBar;
@@ -396,10 +376,8 @@
 
     const/4 p1, 0x0
 
-    .line 4
     iput-boolean p1, p0, Lcom/commsource/studio/component/PaintSelectComponent;->g:Z
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -414,7 +392,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/component/PaintSelectComponent;->d:Lcom/commsource/studio/component/PaintSelectComponent$c;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -431,7 +408,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/component/PaintSelectComponent;->f:Lcom/commsource/studio/component/PaintSelectComponent$b;
 
     if-nez v1, :cond_0
@@ -455,7 +431,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/component/PaintSelectComponent;->p:Lcom/commsource/beautyplus/f0/g2;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -486,7 +461,6 @@
 
     invoke-static {p2, p1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     const-class p1, Lcom/commsource/studio/component/PaintSelectComponent$b;
 
     invoke-virtual {p0, p1}, Lcom/commsource/studio/component/ComponentView;->e(Ljava/lang/Class;)Landroidx/lifecycle/AndroidViewModel;
@@ -497,7 +471,6 @@
 
     iput-object p1, p0, Lcom/commsource/studio/component/PaintSelectComponent;->f:Lcom/commsource/studio/component/PaintSelectComponent$b;
 
-    .line 2
     iget-object p1, p0, Lcom/commsource/studio/component/PaintSelectComponent;->p:Lcom/commsource/beautyplus/f0/g2;
 
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/g2;->a:Lcom/commsource/widget/XSeekBar;
@@ -512,7 +485,6 @@
 
     invoke-virtual {p1, p2, v1}, Lcom/commsource/widget/XSeekBar;->t(IZ)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -533,7 +505,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/component/PaintSelectComponent;->d:Lcom/commsource/studio/component/PaintSelectComponent$c;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -556,7 +527,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/component/PaintSelectComponent;->f:Lcom/commsource/studio/component/PaintSelectComponent$b;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

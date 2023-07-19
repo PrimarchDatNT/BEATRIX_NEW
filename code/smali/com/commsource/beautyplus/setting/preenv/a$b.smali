@@ -42,7 +42,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/beautyplus/setting/preenv/a$b;->a:Lcom/commsource/beautyplus/setting/preenv/a;
 
     invoke-virtual {v0}, Lcom/commsource/beautyplus/setting/preenv/a;->L()Lcotlin/jvm/u/l;
@@ -77,13 +76,11 @@
 
     check-cast v0, Lcotlin/t1;
 
-    .line 2
     :cond_0
     iget-object v0, p0, Lcom/commsource/beautyplus/setting/preenv/a$b;->a:Lcom/commsource/beautyplus/setting/preenv/a;
 
     invoke-virtual {v0}, Lcom/commsource/widget/dialog/i0;->dismiss()V
 
-    .line 3
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

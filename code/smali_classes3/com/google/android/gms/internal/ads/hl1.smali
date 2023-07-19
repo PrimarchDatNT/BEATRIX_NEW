@@ -30,14 +30,12 @@
 .method public final f(Ljava/lang/Object;)V
     .locals 3
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/hl1;->a:Lcom/google/android/gms/internal/ads/nk1;
 
     iget-object v1, p0, Lcom/google/android/gms/internal/ads/hl1;->b:Ljava/lang/Throwable;
 
     check-cast p1, Lcom/google/android/gms/internal/ads/kl1;
 
-    .line 2
     invoke-virtual {v0}, Lcom/google/android/gms/internal/ads/nk1;->a()Ljava/lang/Object;
 
     move-result-object v2

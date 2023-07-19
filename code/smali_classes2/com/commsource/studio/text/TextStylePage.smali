@@ -43,14 +43,12 @@
 
     invoke-static {p2, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     iput-object p1, p0, Lcom/commsource/studio/text/TextStylePage;->c:Lcom/commsource/studio/sticker/TextFragment;
 
     iput-object p2, p0, Lcom/commsource/studio/text/TextStylePage;->d:Lcom/commsource/studio/text/TextConfig$TemplateAttrEnum;
 
-    .line 2
     new-instance p2, Lcom/commsource/studio/text/TextStylePage$mViewModel$2;
 
     invoke-direct {p2, p0}, Lcom/commsource/studio/text/TextStylePage$mViewModel$2;-><init>(Lcom/commsource/studio/text/TextStylePage;)V
@@ -61,7 +59,6 @@
 
     iput-object p2, p0, Lcom/commsource/studio/text/TextStylePage;->a:Lcotlin/w;
 
-    .line 3
     invoke-virtual {p1}, Lcom/commsource/beautyplus/i0/a;->q()Landroidx/fragment/app/FragmentActivity;
 
     move-result-object p1
@@ -88,7 +85,6 @@
 
     iput-object p1, p0, Lcom/commsource/studio/text/TextStylePage;->b:Lcom/commsource/beautyplus/f0/ck;
 
-    .line 4
     invoke-direct {p0}, Lcom/commsource/studio/text/TextStylePage;->l()V
 
     return-void
@@ -101,7 +97,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/studio/text/TextStylePage;->j()Lcom/commsource/studio/text/TextViewModel;
 
     move-result-object p0
@@ -118,7 +113,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/studio/text/TextStylePage;->b:Lcom/commsource/beautyplus/f0/ck;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -133,7 +127,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0, p1, p2}, Lcom/commsource/studio/text/TextStylePage;->n(IZ)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -148,7 +141,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/text/TextStylePage;->b:Lcom/commsource/beautyplus/f0/ck;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -163,7 +155,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/studio/text/TextStylePage;->t()V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -178,7 +169,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/commsource/studio/text/TextStylePage;->u(Landroid/view/View;)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -193,7 +183,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/studio/text/TextStylePage;->v()V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -228,12 +217,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/text/TextStylePage;->b:Lcom/commsource/beautyplus/f0/ck;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/ck;->d:Lcom/commsource/studio/text/HorizontalColorPicker;
 
-    .line 2
     iget-object v2, p0, Lcom/commsource/studio/text/TextStylePage;->c:Lcom/commsource/studio/sticker/TextFragment;
 
     sget-object v3, Lcom/commsource/studio/text/TextConfig;->B:Lcom/commsource/studio/text/TextConfig;
@@ -244,47 +231,40 @@
 
     invoke-virtual {v1, v2, v3}, Lcom/commsource/studio/text/HorizontalColorPicker;->F(Lcom/commsource/studio/sticker/TextFragment;Ljava/util/List;)Lcom/commsource/studio/text/HorizontalColorPicker;
 
-    .line 3
     new-instance v2, Lcom/commsource/studio/text/TextStylePage$initView$$inlined$apply$lambda$1;
 
     invoke-direct {v2, p0}, Lcom/commsource/studio/text/TextStylePage$initView$$inlined$apply$lambda$1;-><init>(Lcom/commsource/studio/text/TextStylePage;)V
 
     invoke-virtual {v1, v2}, Lcom/commsource/studio/text/HorizontalColorPicker;->A(Lcotlin/jvm/u/l;)V
 
-    .line 4
     new-instance v2, Lcom/commsource/studio/text/TextStylePage$initView$$inlined$apply$lambda$2;
 
     invoke-direct {v2, p0}, Lcom/commsource/studio/text/TextStylePage$initView$$inlined$apply$lambda$2;-><init>(Lcom/commsource/studio/text/TextStylePage;)V
 
     invoke-virtual {v1, v2}, Lcom/commsource/studio/text/HorizontalColorPicker;->C(Lcotlin/jvm/u/l;)V
 
-    .line 5
     new-instance v2, Lcom/commsource/studio/text/TextStylePage$initView$$inlined$apply$lambda$3;
 
     invoke-direct {v2, p0}, Lcom/commsource/studio/text/TextStylePage$initView$$inlined$apply$lambda$3;-><init>(Lcom/commsource/studio/text/TextStylePage;)V
 
     invoke-virtual {v1, v2}, Lcom/commsource/studio/text/HorizontalColorPicker;->I(Lcotlin/jvm/u/l;)V
 
-    .line 6
     new-instance v2, Lcom/commsource/studio/text/TextStylePage$initView$$inlined$apply$lambda$4;
 
     invoke-direct {v2, p0}, Lcom/commsource/studio/text/TextStylePage$initView$$inlined$apply$lambda$4;-><init>(Lcom/commsource/studio/text/TextStylePage;)V
 
     invoke-virtual {v1, v2}, Lcom/commsource/studio/text/HorizontalColorPicker;->z(Lcotlin/jvm/u/a;)V
 
-    .line 7
     new-instance v2, Lcom/commsource/studio/text/TextStylePage$initView$$inlined$apply$lambda$5;
 
     invoke-direct {v2, p0}, Lcom/commsource/studio/text/TextStylePage$initView$$inlined$apply$lambda$5;-><init>(Lcom/commsource/studio/text/TextStylePage;)V
 
     invoke-virtual {v1, v2}, Lcom/commsource/studio/text/HorizontalColorPicker;->D(Lcotlin/jvm/u/a;)V
 
-    .line 8
     sget-object v2, Lcom/commsource/studio/text/TextStylePage$initView$1$6;->INSTANCE:Lcom/commsource/studio/text/TextStylePage$initView$1$6;
 
     invoke-virtual {v1, v2}, Lcom/commsource/studio/text/HorizontalColorPicker;->B(Lcotlin/jvm/u/a;)V
 
-    .line 9
     iget-object v1, p0, Lcom/commsource/studio/text/TextStylePage;->b:Lcom/commsource/beautyplus/f0/ck;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/ck;->K:Lcom/commsource/widget/XSeekBar;
@@ -295,7 +275,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/widget/XSeekBar;->f(Lcom/commsource/widget/XSeekBar$b;)V
 
-    .line 10
     iget-object v1, p0, Lcom/commsource/studio/text/TextStylePage;->b:Lcom/commsource/beautyplus/f0/ck;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/ck;->M:Lcom/commsource/widget/XSeekBar;
@@ -306,7 +285,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/widget/XSeekBar;->f(Lcom/commsource/widget/XSeekBar$b;)V
 
-    .line 11
     iget-object v1, p0, Lcom/commsource/studio/text/TextStylePage;->b:Lcom/commsource/beautyplus/f0/ck;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/ck;->O:Lcom/commsource/widget/XSeekBar;
@@ -317,7 +295,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/widget/XSeekBar;->f(Lcom/commsource/widget/XSeekBar$b;)V
 
-    .line 12
     iget-object v1, p0, Lcom/commsource/studio/text/TextStylePage;->b:Lcom/commsource/beautyplus/f0/ck;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/ck;->a:Lcom/commsource/widget/IconFrontView;
@@ -328,7 +305,6 @@
 
     invoke-virtual {v1, v2}, Landroid/widget/TextView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 13
     iget-object v1, p0, Lcom/commsource/studio/text/TextStylePage;->b:Lcom/commsource/beautyplus/f0/ck;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/ck;->Q:Lcom/commsource/widget/IconFrontView;
@@ -339,7 +315,6 @@
 
     invoke-virtual {v1, v2}, Landroid/widget/TextView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 14
     iget-object v1, p0, Lcom/commsource/studio/text/TextStylePage;->b:Lcom/commsource/beautyplus/f0/ck;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/ck;->p:Lcom/commsource/widget/IconFrontView;
@@ -350,7 +325,6 @@
 
     invoke-virtual {v1, v2}, Landroid/widget/TextView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 15
     iget-object v1, p0, Lcom/commsource/studio/text/TextStylePage;->b:Lcom/commsource/beautyplus/f0/ck;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/ck;->T:Lcom/commsource/widget/IconFrontView;
@@ -361,7 +335,6 @@
 
     invoke-virtual {v1, v2}, Landroid/widget/TextView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 16
     iget-object v1, p0, Lcom/commsource/studio/text/TextStylePage;->b:Lcom/commsource/beautyplus/f0/ck;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/ck;->c:Landroid/widget/TextView;
@@ -372,7 +345,6 @@
 
     invoke-virtual {v1, v2}, Landroid/widget/TextView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 17
     invoke-direct {p0}, Lcom/commsource/studio/text/TextStylePage;->j()Lcom/commsource/studio/text/TextViewModel;
 
     move-result-object v1
@@ -393,7 +365,6 @@
 
     invoke-virtual {v1, v2, v3}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 18
     invoke-direct {p0}, Lcom/commsource/studio/text/TextStylePage;->j()Lcom/commsource/studio/text/TextViewModel;
 
     move-result-object v1
@@ -414,10 +385,8 @@
 
     invoke-virtual {v1, v2, v3}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 19
     invoke-direct {p0}, Lcom/commsource/studio/text/TextStylePage;->v()V
 
-    .line 20
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -432,7 +401,6 @@
 
     if-nez p1, :cond_0
 
-    .line 1
     iget-object p1, p0, Lcom/commsource/studio/text/TextStylePage;->b:Lcom/commsource/beautyplus/f0/ck;
 
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/ck;->d:Lcom/commsource/studio/text/HorizontalColorPicker;
@@ -443,18 +411,15 @@
 
     invoke-virtual {p1, p2, p2, v1, v1}, Lcom/commsource/studio/text/HorizontalColorPicker;->J(IIZZ)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 3
     :cond_0
     invoke-virtual {p2}, Lcom/commsource/studio/text/TextConfig$TemplateAttrEnum;->getId()I
 
     move-result p2
 
-    .line 4
     sget-object v1, Lcom/commsource/studio/text/TextConfig$TemplateAttrEnum;->Text:Lcom/commsource/studio/text/TextConfig$TemplateAttrEnum;
 
     invoke-virtual {v1}, Lcom/commsource/studio/text/TextConfig$TemplateAttrEnum;->getId()I
@@ -463,7 +428,6 @@
 
     if-ne p2, v1, :cond_1
 
-    .line 5
     iget-object p2, p0, Lcom/commsource/studio/text/TextStylePage;->b:Lcom/commsource/beautyplus/f0/ck;
 
     iget-object p2, p2, Lcom/commsource/beautyplus/f0/ck;->d:Lcom/commsource/studio/text/HorizontalColorPicker;
@@ -488,7 +452,6 @@
 
     goto :goto_0
 
-    .line 6
     :cond_1
     sget-object v1, Lcom/commsource/studio/text/TextConfig$TemplateAttrEnum;->Stroke:Lcom/commsource/studio/text/TextConfig$TemplateAttrEnum;
 
@@ -498,7 +461,6 @@
 
     if-ne p2, v1, :cond_2
 
-    .line 7
     iget-object p2, p0, Lcom/commsource/studio/text/TextStylePage;->b:Lcom/commsource/beautyplus/f0/ck;
 
     iget-object p2, p2, Lcom/commsource/beautyplus/f0/ck;->d:Lcom/commsource/studio/text/HorizontalColorPicker;
@@ -523,7 +485,6 @@
 
     goto :goto_0
 
-    .line 8
     :cond_2
     sget-object v1, Lcom/commsource/studio/text/TextConfig$TemplateAttrEnum;->Background:Lcom/commsource/studio/text/TextConfig$TemplateAttrEnum;
 
@@ -533,7 +494,6 @@
 
     if-ne p2, v1, :cond_3
 
-    .line 9
     iget-object p2, p0, Lcom/commsource/studio/text/TextStylePage;->b:Lcom/commsource/beautyplus/f0/ck;
 
     iget-object p2, p2, Lcom/commsource/beautyplus/f0/ck;->d:Lcom/commsource/studio/text/HorizontalColorPicker;
@@ -558,7 +518,6 @@
 
     goto :goto_0
 
-    .line 10
     :cond_3
     sget-object v1, Lcom/commsource/studio/text/TextConfig$TemplateAttrEnum;->Shadow:Lcom/commsource/studio/text/TextConfig$TemplateAttrEnum;
 
@@ -568,7 +527,6 @@
 
     if-ne p2, v1, :cond_4
 
-    .line 11
     iget-object p2, p0, Lcom/commsource/studio/text/TextStylePage;->b:Lcom/commsource/beautyplus/f0/ck;
 
     iget-object p2, p2, Lcom/commsource/beautyplus/f0/ck;->d:Lcom/commsource/studio/text/HorizontalColorPicker;
@@ -591,7 +549,6 @@
 
     invoke-virtual {p2, v1, v2, v3, p1}, Lcom/commsource/studio/text/HorizontalColorPicker;->J(IIZZ)V
 
-    .line 12
     :cond_4
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -606,7 +563,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/studio/text/TextStylePage;->j()Lcom/commsource/studio/text/TextViewModel;
 
     move-result-object v1
@@ -615,10 +571,8 @@
 
     invoke-virtual {v1, v2, p2, p1}, Lcom/commsource/studio/text/TextViewModel;->b0(Lcom/commsource/studio/text/TextConfig$TemplateAttrEnum;ZI)V
 
-    .line 2
     invoke-direct {p0}, Lcom/commsource/studio/text/TextStylePage;->v()V
 
-    .line 3
     invoke-direct {p0}, Lcom/commsource/studio/text/TextStylePage;->j()Lcom/commsource/studio/text/TextViewModel;
 
     move-result-object p1
@@ -631,7 +585,6 @@
 
     invoke-virtual {p1, p2}, Lcom/commsource/beautyfilter/NoStickLiveData;->setValue(Ljava/lang/Object;)V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -644,12 +597,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p1}, Lcom/commsource/studio/text/TextConfig$TemplateAttrEnum;->getId()I
 
     move-result v1
 
-    .line 2
     sget-object v2, Lcom/commsource/studio/text/TextConfig$TemplateAttrEnum;->Font:Lcom/commsource/studio/text/TextConfig$TemplateAttrEnum;
 
     invoke-virtual {v2}, Lcom/commsource/studio/text/TextConfig$TemplateAttrEnum;->getId()I
@@ -672,7 +623,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_0
     sget-object v2, Lcom/commsource/studio/text/TextConfig$TemplateAttrEnum;->Text:Lcom/commsource/studio/text/TextConfig$TemplateAttrEnum;
 
@@ -694,7 +644,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_1
     sget-object v2, Lcom/commsource/studio/text/TextConfig$TemplateAttrEnum;->Stroke:Lcom/commsource/studio/text/TextConfig$TemplateAttrEnum;
 
@@ -716,7 +665,6 @@
 
     goto :goto_0
 
-    .line 5
     :cond_2
     sget-object v2, Lcom/commsource/studio/text/TextConfig$TemplateAttrEnum;->Background:Lcom/commsource/studio/text/TextConfig$TemplateAttrEnum;
 
@@ -738,7 +686,6 @@
 
     goto :goto_0
 
-    .line 6
     :cond_3
     sget-object v2, Lcom/commsource/studio/text/TextConfig$TemplateAttrEnum;->Shadow:Lcom/commsource/studio/text/TextConfig$TemplateAttrEnum;
 
@@ -763,7 +710,6 @@
     :cond_4
     if-eqz p2, :cond_5
 
-    .line 7
     invoke-virtual {p2}, Lcom/commsource/studio/text/TextGroupParam;->getSpaceEditable()Z
 
     move-result p2
@@ -772,7 +718,6 @@
 
     move-result-object v3
 
-    .line 8
     :cond_5
     :goto_0
     iget-object p2, p0, Lcom/commsource/studio/text/TextStylePage;->b:Lcom/commsource/beautyplus/f0/ck;
@@ -809,7 +754,6 @@
     :goto_2
     invoke-virtual {p2, v2}, Landroid/view/ViewGroup;->setVisibility(I)V
 
-    .line 9
     iget-object p2, p0, Lcom/commsource/studio/text/TextStylePage;->b:Lcom/commsource/beautyplus/f0/ck;
 
     iget-object p2, p2, Lcom/commsource/beautyplus/f0/ck;->g:Landroid/widget/TextView;
@@ -856,7 +800,6 @@
 
     invoke-virtual {p2, p1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 10
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -873,7 +816,6 @@
 
     invoke-static {v2}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v3, v0, Lcom/commsource/studio/text/TextStylePage;->b:Lcom/commsource/beautyplus/f0/ck;
 
     iget-object v3, v3, Lcom/commsource/beautyplus/f0/ck;->L:Landroid/widget/TextView;
@@ -884,7 +826,6 @@
 
     invoke-static {v3}, Lcom/commsource/util/l0;->w(Landroid/view/View;)V
 
-    .line 2
     iget-object v3, v0, Lcom/commsource/studio/text/TextStylePage;->b:Lcom/commsource/beautyplus/f0/ck;
 
     iget-object v3, v3, Lcom/commsource/beautyplus/f0/ck;->K:Lcom/commsource/widget/XSeekBar;
@@ -895,7 +836,6 @@
 
     invoke-static {v3}, Lcom/commsource/util/l0;->w(Landroid/view/View;)V
 
-    .line 3
     iget-object v3, v0, Lcom/commsource/studio/text/TextStylePage;->b:Lcom/commsource/beautyplus/f0/ck;
 
     iget-object v3, v3, Lcom/commsource/beautyplus/f0/ck;->N:Landroid/widget/TextView;
@@ -906,7 +846,6 @@
 
     invoke-static {v3}, Lcom/commsource/util/l0;->w(Landroid/view/View;)V
 
-    .line 4
     iget-object v3, v0, Lcom/commsource/studio/text/TextStylePage;->b:Lcom/commsource/beautyplus/f0/ck;
 
     iget-object v3, v3, Lcom/commsource/beautyplus/f0/ck;->M:Lcom/commsource/widget/XSeekBar;
@@ -917,7 +856,6 @@
 
     invoke-static {v3}, Lcom/commsource/util/l0;->w(Landroid/view/View;)V
 
-    .line 5
     iget-object v3, v0, Lcom/commsource/studio/text/TextStylePage;->b:Lcom/commsource/beautyplus/f0/ck;
 
     iget-object v3, v3, Lcom/commsource/beautyplus/f0/ck;->P:Landroid/widget/TextView;
@@ -928,7 +866,6 @@
 
     invoke-static {v3}, Lcom/commsource/util/l0;->w(Landroid/view/View;)V
 
-    .line 6
     iget-object v3, v0, Lcom/commsource/studio/text/TextStylePage;->b:Lcom/commsource/beautyplus/f0/ck;
 
     iget-object v3, v3, Lcom/commsource/beautyplus/f0/ck;->O:Lcom/commsource/widget/XSeekBar;
@@ -939,7 +876,6 @@
 
     invoke-static {v3}, Lcom/commsource/util/l0;->w(Landroid/view/View;)V
 
-    .line 7
     iget-object v3, v0, Lcom/commsource/studio/text/TextStylePage;->b:Lcom/commsource/beautyplus/f0/ck;
 
     iget-object v3, v3, Lcom/commsource/beautyplus/f0/ck;->S:Landroidx/constraintlayout/widget/ConstraintLayout;
@@ -950,7 +886,6 @@
 
     invoke-static {v3}, Lcom/commsource/util/l0;->w(Landroid/view/View;)V
 
-    .line 8
     iget-object v3, v0, Lcom/commsource/studio/text/TextStylePage;->b:Lcom/commsource/beautyplus/f0/ck;
 
     iget-object v3, v3, Lcom/commsource/beautyplus/f0/ck;->d:Lcom/commsource/studio/text/HorizontalColorPicker;
@@ -961,7 +896,6 @@
 
     invoke-static {v3}, Lcom/commsource/util/l0;->w(Landroid/view/View;)V
 
-    .line 9
     iget-object v3, v0, Lcom/commsource/studio/text/TextStylePage;->b:Lcom/commsource/beautyplus/f0/ck;
 
     iget-object v3, v3, Lcom/commsource/beautyplus/f0/ck;->b:Landroid/view/View;
@@ -972,7 +906,6 @@
 
     invoke-static {v3}, Lcom/commsource/util/l0;->w(Landroid/view/View;)V
 
-    .line 10
     iget-object v3, v0, Lcom/commsource/studio/text/TextStylePage;->b:Lcom/commsource/beautyplus/f0/ck;
 
     iget-object v3, v3, Lcom/commsource/beautyplus/f0/ck;->K:Lcom/commsource/widget/XSeekBar;
@@ -981,7 +914,6 @@
 
     invoke-virtual {v3, v13}, Lcom/commsource/widget/XSeekBar;->setCenterPointPercent(F)V
 
-    .line 11
     iget-object v3, v0, Lcom/commsource/studio/text/TextStylePage;->b:Lcom/commsource/beautyplus/f0/ck;
 
     iget-object v3, v3, Lcom/commsource/beautyplus/f0/ck;->K:Lcom/commsource/widget/XSeekBar;
@@ -990,35 +922,30 @@
 
     invoke-virtual {v3, v14}, Lcom/commsource/widget/XSeekBar;->setEnableCenterPoint(Z)V
 
-    .line 12
     iget-object v3, v0, Lcom/commsource/studio/text/TextStylePage;->b:Lcom/commsource/beautyplus/f0/ck;
 
     iget-object v3, v3, Lcom/commsource/beautyplus/f0/ck;->M:Lcom/commsource/widget/XSeekBar;
 
     invoke-virtual {v3, v13}, Lcom/commsource/widget/XSeekBar;->setCenterPointPercent(F)V
 
-    .line 13
     iget-object v3, v0, Lcom/commsource/studio/text/TextStylePage;->b:Lcom/commsource/beautyplus/f0/ck;
 
     iget-object v3, v3, Lcom/commsource/beautyplus/f0/ck;->M:Lcom/commsource/widget/XSeekBar;
 
     invoke-virtual {v3, v14}, Lcom/commsource/widget/XSeekBar;->setEnableCenterPoint(Z)V
 
-    .line 14
     iget-object v3, v0, Lcom/commsource/studio/text/TextStylePage;->b:Lcom/commsource/beautyplus/f0/ck;
 
     iget-object v3, v3, Lcom/commsource/beautyplus/f0/ck;->O:Lcom/commsource/widget/XSeekBar;
 
     invoke-virtual {v3, v13}, Lcom/commsource/widget/XSeekBar;->setCenterPointPercent(F)V
 
-    .line 15
     iget-object v3, v0, Lcom/commsource/studio/text/TextStylePage;->b:Lcom/commsource/beautyplus/f0/ck;
 
     iget-object v3, v3, Lcom/commsource/beautyplus/f0/ck;->O:Lcom/commsource/widget/XSeekBar;
 
     invoke-virtual {v3, v14}, Lcom/commsource/widget/XSeekBar;->setEnableCenterPoint(Z)V
 
-    .line 16
     invoke-virtual/range {p1 .. p1}, Lcom/commsource/studio/text/TextConfig$TemplateAttrEnum;->getId()I
 
     move-result v3
@@ -1035,7 +962,6 @@
 
     return-void
 
-    .line 17
     :cond_0
     invoke-virtual/range {p1 .. p1}, Lcom/commsource/studio/text/TextConfig$TemplateAttrEnum;->getId()I
 
@@ -1057,28 +983,24 @@
 
     if-ne v3, v14, :cond_1
 
-    .line 18
     iget-object v3, v0, Lcom/commsource/studio/text/TextStylePage;->b:Lcom/commsource/beautyplus/f0/ck;
 
     iget-object v3, v3, Lcom/commsource/beautyplus/f0/ck;->K:Lcom/commsource/widget/XSeekBar;
 
     invoke-virtual {v3, v15}, Lcom/commsource/widget/XSeekBar;->setCenterPointPercent(F)V
 
-    .line 19
     iget-object v3, v0, Lcom/commsource/studio/text/TextStylePage;->b:Lcom/commsource/beautyplus/f0/ck;
 
     iget-object v3, v3, Lcom/commsource/beautyplus/f0/ck;->K:Lcom/commsource/widget/XSeekBar;
 
     invoke-virtual {v3, v2}, Lcom/commsource/widget/XSeekBar;->setEnableCenterPoint(Z)V
 
-    .line 20
     iget-object v3, v0, Lcom/commsource/studio/text/TextStylePage;->b:Lcom/commsource/beautyplus/f0/ck;
 
     iget-object v3, v3, Lcom/commsource/beautyplus/f0/ck;->M:Lcom/commsource/widget/XSeekBar;
 
     invoke-virtual {v3, v15}, Lcom/commsource/widget/XSeekBar;->setCenterPointPercent(F)V
 
-    .line 21
     iget-object v3, v0, Lcom/commsource/studio/text/TextStylePage;->b:Lcom/commsource/beautyplus/f0/ck;
 
     iget-object v3, v3, Lcom/commsource/beautyplus/f0/ck;->M:Lcom/commsource/widget/XSeekBar;
@@ -1087,7 +1009,6 @@
 
     goto :goto_1
 
-    .line 22
     :cond_1
     invoke-virtual/range {p1 .. p1}, Lcom/commsource/studio/text/TextConfig$TemplateAttrEnum;->getId()I
 
@@ -1101,21 +1022,18 @@
 
     if-ne v3, v14, :cond_2
 
-    .line 23
     iget-object v3, v0, Lcom/commsource/studio/text/TextStylePage;->b:Lcom/commsource/beautyplus/f0/ck;
 
     iget-object v3, v3, Lcom/commsource/beautyplus/f0/ck;->O:Lcom/commsource/widget/XSeekBar;
 
     invoke-virtual {v3, v15}, Lcom/commsource/widget/XSeekBar;->setCenterPointPercent(F)V
 
-    .line 24
     iget-object v3, v0, Lcom/commsource/studio/text/TextStylePage;->b:Lcom/commsource/beautyplus/f0/ck;
 
     iget-object v3, v3, Lcom/commsource/beautyplus/f0/ck;->O:Lcom/commsource/widget/XSeekBar;
 
     invoke-virtual {v3, v2}, Lcom/commsource/widget/XSeekBar;->setEnableCenterPoint(Z)V
 
-    .line 25
     :cond_2
     iget-object v3, v0, Lcom/commsource/studio/text/TextStylePage;->b:Lcom/commsource/beautyplus/f0/ck;
 
@@ -1125,7 +1043,6 @@
 
     invoke-static {v3}, Lcom/commsource/util/l0;->v0(Landroid/view/View;)V
 
-    .line 26
     iget-object v3, v0, Lcom/commsource/studio/text/TextStylePage;->b:Lcom/commsource/beautyplus/f0/ck;
 
     iget-object v3, v3, Lcom/commsource/beautyplus/f0/ck;->d:Lcom/commsource/studio/text/HorizontalColorPicker;
@@ -1134,7 +1051,6 @@
 
     invoke-virtual {v3, v11}, Lcom/commsource/studio/text/HorizontalColorPicker;->setClickState(Z)V
 
-    .line 27
     invoke-virtual/range {p1 .. p1}, Lcom/commsource/studio/text/TextConfig$TemplateAttrEnum;->getId()I
 
     move-result v3
@@ -1147,7 +1063,6 @@
 
     if-ne v3, v11, :cond_4
 
-    .line 28
     iget-object v3, v0, Lcom/commsource/studio/text/TextStylePage;->b:Lcom/commsource/beautyplus/f0/ck;
 
     iget-object v3, v3, Lcom/commsource/beautyplus/f0/ck;->S:Landroidx/constraintlayout/widget/ConstraintLayout;
@@ -1156,7 +1071,6 @@
 
     invoke-static {v3}, Lcom/commsource/util/l0;->v0(Landroid/view/View;)V
 
-    .line 29
     iget-object v3, v0, Lcom/commsource/studio/text/TextStylePage;->b:Lcom/commsource/beautyplus/f0/ck;
 
     iget-object v3, v3, Lcom/commsource/beautyplus/f0/ck;->S:Landroidx/constraintlayout/widget/ConstraintLayout;
@@ -1175,7 +1089,6 @@
     :goto_0
     invoke-virtual {v3, v10}, Landroid/view/ViewGroup;->setAlpha(F)V
 
-    .line 30
     :cond_4
     :goto_1
     iget-object v3, v0, Lcom/commsource/studio/text/TextStylePage;->b:Lcom/commsource/beautyplus/f0/ck;
@@ -1186,7 +1099,6 @@
 
     invoke-static {v3}, Lcom/commsource/util/l0;->v0(Landroid/view/View;)V
 
-    .line 31
     iget-object v3, v0, Lcom/commsource/studio/text/TextStylePage;->b:Lcom/commsource/beautyplus/f0/ck;
 
     iget-object v3, v3, Lcom/commsource/beautyplus/f0/ck;->K:Lcom/commsource/widget/XSeekBar;
@@ -1195,14 +1107,12 @@
 
     invoke-static {v3}, Lcom/commsource/util/l0;->v0(Landroid/view/View;)V
 
-    .line 32
     iget-object v3, v0, Lcom/commsource/studio/text/TextStylePage;->b:Lcom/commsource/beautyplus/f0/ck;
 
     iget-object v3, v3, Lcom/commsource/beautyplus/f0/ck;->K:Lcom/commsource/widget/XSeekBar;
 
     invoke-virtual {v3, v1, v2}, Lcom/commsource/widget/XSeekBar;->v(ZZ)V
 
-    .line 33
     iget-object v3, v0, Lcom/commsource/studio/text/TextStylePage;->b:Lcom/commsource/beautyplus/f0/ck;
 
     iget-object v3, v3, Lcom/commsource/beautyplus/f0/ck;->L:Landroid/widget/TextView;
@@ -1221,7 +1131,6 @@
     :goto_2
     invoke-virtual {v3, v4}, Landroid/widget/TextView;->setAlpha(F)V
 
-    .line 34
     invoke-virtual/range {p1 .. p1}, Lcom/commsource/studio/text/TextConfig$TemplateAttrEnum;->getId()I
 
     move-result v3
@@ -1256,7 +1165,6 @@
 
     if-ne v3, v4, :cond_8
 
-    .line 35
     :cond_6
     iget-object v3, v0, Lcom/commsource/studio/text/TextStylePage;->b:Lcom/commsource/beautyplus/f0/ck;
 
@@ -1266,7 +1174,6 @@
 
     invoke-static {v3}, Lcom/commsource/util/l0;->v0(Landroid/view/View;)V
 
-    .line 36
     iget-object v3, v0, Lcom/commsource/studio/text/TextStylePage;->b:Lcom/commsource/beautyplus/f0/ck;
 
     iget-object v3, v3, Lcom/commsource/beautyplus/f0/ck;->M:Lcom/commsource/widget/XSeekBar;
@@ -1275,14 +1182,12 @@
 
     invoke-static {v3}, Lcom/commsource/util/l0;->v0(Landroid/view/View;)V
 
-    .line 37
     iget-object v3, v0, Lcom/commsource/studio/text/TextStylePage;->b:Lcom/commsource/beautyplus/f0/ck;
 
     iget-object v3, v3, Lcom/commsource/beautyplus/f0/ck;->M:Lcom/commsource/widget/XSeekBar;
 
     invoke-virtual {v3, v1, v2}, Lcom/commsource/widget/XSeekBar;->v(ZZ)V
 
-    .line 38
     iget-object v3, v0, Lcom/commsource/studio/text/TextStylePage;->b:Lcom/commsource/beautyplus/f0/ck;
 
     iget-object v3, v3, Lcom/commsource/beautyplus/f0/ck;->N:Landroid/widget/TextView;
@@ -1301,7 +1206,6 @@
     :goto_3
     invoke-virtual {v3, v4}, Landroid/widget/TextView;->setAlpha(F)V
 
-    .line 39
     :cond_8
     invoke-virtual/range {p1 .. p1}, Lcom/commsource/studio/text/TextConfig$TemplateAttrEnum;->getId()I
 
@@ -1335,7 +1239,6 @@
 
     goto :goto_7
 
-    .line 40
     :cond_a
     :goto_5
     iget-object v3, v0, Lcom/commsource/studio/text/TextStylePage;->b:Lcom/commsource/beautyplus/f0/ck;
@@ -1346,7 +1249,6 @@
 
     invoke-static {v3}, Lcom/commsource/util/l0;->v0(Landroid/view/View;)V
 
-    .line 41
     iget-object v3, v0, Lcom/commsource/studio/text/TextStylePage;->b:Lcom/commsource/beautyplus/f0/ck;
 
     iget-object v3, v3, Lcom/commsource/beautyplus/f0/ck;->O:Lcom/commsource/widget/XSeekBar;
@@ -1355,7 +1257,6 @@
 
     invoke-static {v3}, Lcom/commsource/util/l0;->v0(Landroid/view/View;)V
 
-    .line 42
     iget-object v3, v0, Lcom/commsource/studio/text/TextStylePage;->b:Lcom/commsource/beautyplus/f0/ck;
 
     iget-object v3, v3, Lcom/commsource/beautyplus/f0/ck;->b:Landroid/view/View;
@@ -1364,14 +1265,12 @@
 
     invoke-static {v3}, Lcom/commsource/util/l0;->v0(Landroid/view/View;)V
 
-    .line 43
     iget-object v3, v0, Lcom/commsource/studio/text/TextStylePage;->b:Lcom/commsource/beautyplus/f0/ck;
 
     iget-object v3, v3, Lcom/commsource/beautyplus/f0/ck;->O:Lcom/commsource/widget/XSeekBar;
 
     invoke-virtual {v3, v1, v2}, Lcom/commsource/widget/XSeekBar;->v(ZZ)V
 
-    .line 44
     iget-object v2, v0, Lcom/commsource/studio/text/TextStylePage;->b:Lcom/commsource/beautyplus/f0/ck;
 
     iget-object v2, v2, Lcom/commsource/beautyplus/f0/ck;->P:Landroid/widget/TextView;
@@ -1392,7 +1291,6 @@
 
     goto :goto_4
 
-    .line 45
     :goto_7
     invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1406,35 +1304,28 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/commsource/util/l0;->v0(Landroid/view/View;)V
 
-    .line 2
     invoke-static {p2}, Lcom/commsource/util/l0;->v0(Landroid/view/View;)V
 
-    .line 3
     invoke-virtual {p2, p3}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
     const/4 p2, 0x0
 
-    .line 4
     aget p2, p5, p2
 
     invoke-virtual {p1, p2}, Lcom/commsource/widget/XSeekBar;->setMinProgress(I)V
 
     const/4 p2, 0x1
 
-    .line 5
     aget p2, p5, p2
 
     invoke-virtual {p1, p2}, Lcom/commsource/widget/XSeekBar;->setMaxProgress(I)V
 
     float-to-int p2, p4
 
-    .line 6
     invoke-virtual {p1, p2}, Lcom/commsource/widget/XSeekBar;->setProgress(I)V
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1447,7 +1338,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/text/TextStylePage;->b:Lcom/commsource/beautyplus/f0/ck;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/ck;->T:Lcom/commsource/widget/IconFrontView;
@@ -1482,7 +1372,6 @@
 
     invoke-virtual {v1, v4}, Landroid/widget/TextView;->setSelected(Z)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/text/TextStylePage;->b:Lcom/commsource/beautyplus/f0/ck;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/ck;->T:Lcom/commsource/widget/IconFrontView;
@@ -1523,7 +1412,6 @@
     :goto_1
     invoke-static {v1, v6, v2}, Lcom/commsource/util/l0;->Y(Landroid/view/View;II)V
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/studio/text/TextStylePage;->b:Lcom/commsource/beautyplus/f0/ck;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/ck;->a:Lcom/commsource/widget/IconFrontView;
@@ -1554,7 +1442,6 @@
 
     invoke-virtual {v1, v6}, Landroid/widget/TextView;->setSelected(Z)V
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/studio/text/TextStylePage;->b:Lcom/commsource/beautyplus/f0/ck;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/ck;->a:Lcom/commsource/widget/IconFrontView;
@@ -1589,7 +1476,6 @@
     :goto_3
     invoke-static {v1, v6, v2}, Lcom/commsource/util/l0;->Y(Landroid/view/View;II)V
 
-    .line 5
     iget-object v1, p0, Lcom/commsource/studio/text/TextStylePage;->b:Lcom/commsource/beautyplus/f0/ck;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/ck;->p:Lcom/commsource/widget/IconFrontView;
@@ -1620,7 +1506,6 @@
 
     invoke-virtual {v1, v6}, Landroid/widget/TextView;->setSelected(Z)V
 
-    .line 6
     iget-object v1, p0, Lcom/commsource/studio/text/TextStylePage;->b:Lcom/commsource/beautyplus/f0/ck;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/ck;->p:Lcom/commsource/widget/IconFrontView;
@@ -1655,7 +1540,6 @@
     :goto_5
     invoke-static {v1, v6, v2}, Lcom/commsource/util/l0;->Y(Landroid/view/View;II)V
 
-    .line 7
     iget-object v1, p0, Lcom/commsource/studio/text/TextStylePage;->b:Lcom/commsource/beautyplus/f0/ck;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/ck;->Q:Lcom/commsource/widget/IconFrontView;
@@ -1686,7 +1570,6 @@
 
     invoke-virtual {v1, p1}, Landroid/widget/TextView;->setSelected(Z)V
 
-    .line 8
     iget-object p1, p0, Lcom/commsource/studio/text/TextStylePage;->b:Lcom/commsource/beautyplus/f0/ck;
 
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/ck;->Q:Lcom/commsource/widget/IconFrontView;
@@ -1716,7 +1599,6 @@
     :cond_7
     invoke-static {p1, v1, v5}, Lcom/commsource/util/l0;->Y(Landroid/view/View;II)V
 
-    .line 9
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1729,7 +1611,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/studio/text/TextStylePage;->j()Lcom/commsource/studio/text/TextViewModel;
 
     move-result-object v1
@@ -1749,16 +1630,13 @@
     :cond_0
     const/4 v1, 0x0
 
-    .line 2
     :goto_0
     iget-object v2, p0, Lcom/commsource/studio/text/TextStylePage;->d:Lcom/commsource/studio/text/TextConfig$TemplateAttrEnum;
 
-    .line 3
     new-instance v3, Ljava/util/ArrayList;
 
     invoke-direct {v3}, Ljava/util/ArrayList;-><init>()V
 
-    .line 4
     sget-object v4, Lcom/commsource/studio/text/TextConfig;->B:Lcom/commsource/studio/text/TextConfig;
 
     invoke-virtual {v4}, Lcom/commsource/studio/text/TextConfig;->M()Ljava/util/ArrayList;
@@ -1773,7 +1651,6 @@
 
     if-nez v1, :cond_2
 
-    .line 5
     invoke-virtual {v2}, Lcom/commsource/studio/text/TextConfig$TemplateAttrEnum;->getId()I
 
     move-result v6
@@ -1786,10 +1663,8 @@
 
     if-eq v6, v7, :cond_1
 
-    .line 6
     invoke-virtual {v3, v5, v4}, Ljava/util/ArrayList;->add(ILjava/lang/Object;)V
 
-    .line 7
     :cond_1
     iget-object v4, p0, Lcom/commsource/studio/text/TextStylePage;->b:Lcom/commsource/beautyplus/f0/ck;
 
@@ -1797,12 +1672,10 @@
 
     invoke-virtual {v4, v3, v5}, Lcom/commsource/studio/text/HorizontalColorPicker;->N(Ljava/util/List;Z)V
 
-    .line 8
     invoke-direct {p0, v1, v2}, Lcom/commsource/studio/text/TextStylePage;->m(Lcom/commsource/studio/text/TextGroupParam;Lcom/commsource/studio/text/TextConfig$TemplateAttrEnum;)V
 
     goto :goto_1
 
-    .line 9
     :cond_2
     invoke-virtual {v1}, Lcom/commsource/studio/text/TextGroupParam;->getTemplate()Lcom/commsource/studio/text/TextTemplate;
 
@@ -1814,7 +1687,6 @@
 
     if-eqz v6, :cond_4
 
-    .line 10
     invoke-virtual {v2}, Lcom/commsource/studio/text/TextConfig$TemplateAttrEnum;->getId()I
 
     move-result v6
@@ -1827,10 +1699,8 @@
 
     if-eq v6, v7, :cond_3
 
-    .line 11
     invoke-virtual {v3, v5, v4}, Ljava/util/ArrayList;->add(ILjava/lang/Object;)V
 
-    .line 12
     :cond_3
     iget-object v4, p0, Lcom/commsource/studio/text/TextStylePage;->b:Lcom/commsource/beautyplus/f0/ck;
 
@@ -1838,12 +1708,10 @@
 
     invoke-virtual {v4, v3, v5}, Lcom/commsource/studio/text/HorizontalColorPicker;->N(Ljava/util/List;Z)V
 
-    .line 13
     invoke-direct {p0, v1, v2}, Lcom/commsource/studio/text/TextStylePage;->m(Lcom/commsource/studio/text/TextGroupParam;Lcom/commsource/studio/text/TextConfig$TemplateAttrEnum;)V
 
     goto :goto_1
 
-    .line 14
     :cond_4
     invoke-virtual {v1}, Lcom/commsource/studio/text/TextGroupParam;->getTemplate()Lcom/commsource/studio/text/TextTemplate;
 
@@ -1855,7 +1723,6 @@
 
     if-nez v6, :cond_6
 
-    .line 15
     invoke-virtual {v2}, Lcom/commsource/studio/text/TextConfig$TemplateAttrEnum;->getId()I
 
     move-result v6
@@ -1868,10 +1735,8 @@
 
     if-eq v6, v7, :cond_5
 
-    .line 16
     invoke-virtual {v3, v5, v4}, Ljava/util/ArrayList;->add(ILjava/lang/Object;)V
 
-    .line 17
     :cond_5
     iget-object v4, p0, Lcom/commsource/studio/text/TextStylePage;->b:Lcom/commsource/beautyplus/f0/ck;
 
@@ -1881,10 +1746,8 @@
 
     invoke-virtual {v4, v3, v5}, Lcom/commsource/studio/text/HorizontalColorPicker;->N(Ljava/util/List;Z)V
 
-    .line 18
     invoke-direct {p0, v1, v2}, Lcom/commsource/studio/text/TextStylePage;->m(Lcom/commsource/studio/text/TextGroupParam;Lcom/commsource/studio/text/TextConfig$TemplateAttrEnum;)V
 
-    .line 19
     :cond_6
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1899,7 +1762,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/studio/text/TextStylePage;->j()Lcom/commsource/studio/text/TextViewModel;
 
     move-result-object v1
@@ -1926,15 +1788,12 @@
 
     sget p1, Lcom/res/provider/ResSTRING;->t_edit_text_select_text_tips:I
 
-    .line 2
     invoke-static {p1}, Lf/k/c/c/f;->r(I)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 4
     :cond_1
     invoke-virtual {p1}, Landroid/view/View;->isSelected()Z
 
@@ -1946,7 +1805,6 @@
 
     invoke-virtual {p1, v1}, Landroid/view/View;->setSelected(Z)V
 
-    .line 5
     invoke-static {v3}, Lcom/commsource/util/l0;->n(I)I
 
     move-result v1
@@ -1973,7 +1831,6 @@
     :goto_1
     invoke-static {p1, v1, v2}, Lcom/commsource/util/l0;->Y(Landroid/view/View;II)V
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1988,7 +1845,6 @@
 
     invoke-static {v7}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct/range {p0 .. p0}, Lcom/commsource/studio/text/TextStylePage;->j()Lcom/commsource/studio/text/TextViewModel;
 
     move-result-object v0
@@ -2010,20 +1866,17 @@
     :cond_0
     const/4 v9, 0x0
 
-    .line 2
     :goto_0
     iget-object v0, v6, Lcom/commsource/studio/text/TextStylePage;->d:Lcom/commsource/studio/text/TextConfig$TemplateAttrEnum;
 
     invoke-direct {v6, v0, v9}, Lcom/commsource/studio/text/TextStylePage;->p(Lcom/commsource/studio/text/TextConfig$TemplateAttrEnum;Lcom/commsource/studio/text/TextGroupParam;)V
 
-    .line 3
     iget-object v0, v6, Lcom/commsource/studio/text/TextStylePage;->d:Lcom/commsource/studio/text/TextConfig$TemplateAttrEnum;
 
     invoke-virtual {v0}, Lcom/commsource/studio/text/TextConfig$TemplateAttrEnum;->getId()I
 
     move-result v0
 
-    .line 4
     sget-object v1, Lcom/commsource/studio/text/TextConfig$TemplateAttrEnum;->Text:Lcom/commsource/studio/text/TextConfig$TemplateAttrEnum;
 
     invoke-virtual {v1}, Lcom/commsource/studio/text/TextConfig$TemplateAttrEnum;->getId()I
@@ -2046,10 +1899,8 @@
 
     if-ne v0, v1, :cond_4
 
-    .line 5
     invoke-direct/range {p0 .. p0}, Lcom/commsource/studio/text/TextStylePage;->t()V
 
-    .line 6
     iget-object v0, v6, Lcom/commsource/studio/text/TextStylePage;->d:Lcom/commsource/studio/text/TextConfig$TemplateAttrEnum;
 
     if-eqz v9, :cond_1
@@ -2072,7 +1923,6 @@
     :goto_2
     invoke-direct {v6, v0, v1, v11}, Lcom/commsource/studio/text/TextStylePage;->q(Lcom/commsource/studio/text/TextConfig$TemplateAttrEnum;ZZ)V
 
-    .line 7
     iget-object v0, v6, Lcom/commsource/studio/text/TextStylePage;->b:Lcom/commsource/beautyplus/f0/ck;
 
     iget-object v1, v0, Lcom/commsource/beautyplus/f0/ck;->K:Lcom/commsource/widget/XSeekBar;
@@ -2091,7 +1941,6 @@
 
     invoke-static {v3, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 8
     sget-object v0, Lcom/commsource/studio/text/TextConfig;->B:Lcom/commsource/studio/text/TextConfig;
 
     invoke-virtual {v0}, Lcom/commsource/studio/text/TextConfig;->R()[I
@@ -2126,7 +1975,6 @@
 
     move-result v4
 
-    .line 9
     invoke-virtual {v0}, Lcom/commsource/studio/text/TextConfig;->R()[I
 
     move-result-object v8
@@ -2137,15 +1985,12 @@
 
     move-object v5, v8
 
-    .line 10
     invoke-direct/range {v0 .. v5}, Lcom/commsource/studio/text/TextStylePage;->r(Lcom/commsource/widget/XSeekBar;Landroid/widget/TextView;Ljava/lang/String;F[I)V
 
-    .line 11
     invoke-direct {v6, v9}, Lcom/commsource/studio/text/TextStylePage;->s(Lcom/commsource/studio/text/TextGroupParam;)V
 
     goto/16 :goto_14
 
-    .line 12
     :cond_4
     sget-object v1, Lcom/commsource/studio/text/TextConfig$TemplateAttrEnum;->Stroke:Lcom/commsource/studio/text/TextConfig$TemplateAttrEnum;
 
@@ -2155,10 +2000,8 @@
 
     if-ne v0, v1, :cond_8
 
-    .line 13
     invoke-direct/range {p0 .. p0}, Lcom/commsource/studio/text/TextStylePage;->t()V
 
-    .line 14
     iget-object v0, v6, Lcom/commsource/studio/text/TextStylePage;->d:Lcom/commsource/studio/text/TextConfig$TemplateAttrEnum;
 
     if-eqz v9, :cond_5
@@ -2187,7 +2030,6 @@
     :goto_5
     invoke-direct {v6, v0, v1, v11}, Lcom/commsource/studio/text/TextStylePage;->q(Lcom/commsource/studio/text/TextConfig$TemplateAttrEnum;ZZ)V
 
-    .line 15
     iget-object v0, v6, Lcom/commsource/studio/text/TextStylePage;->b:Lcom/commsource/beautyplus/f0/ck;
 
     iget-object v1, v0, Lcom/commsource/beautyplus/f0/ck;->K:Lcom/commsource/widget/XSeekBar;
@@ -2210,7 +2052,6 @@
 
     invoke-static {v3, v0}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 16
     sget-object v0, Lcom/commsource/studio/text/TextConfig;->B:Lcom/commsource/studio/text/TextConfig;
 
     invoke-virtual {v0}, Lcom/commsource/studio/text/TextConfig;->R()[I
@@ -2245,19 +2086,16 @@
 
     move-result v4
 
-    .line 17
     invoke-virtual {v0}, Lcom/commsource/studio/text/TextConfig;->R()[I
 
     move-result-object v5
 
     move-object/from16 v0, p0
 
-    .line 18
     invoke-direct/range {v0 .. v5}, Lcom/commsource/studio/text/TextStylePage;->r(Lcom/commsource/widget/XSeekBar;Landroid/widget/TextView;Ljava/lang/String;F[I)V
 
     goto/16 :goto_14
 
-    .line 19
     :cond_8
     sget-object v1, Lcom/commsource/studio/text/TextConfig$TemplateAttrEnum;->Background:Lcom/commsource/studio/text/TextConfig$TemplateAttrEnum;
 
@@ -2275,10 +2113,8 @@
 
     if-ne v0, v1, :cond_e
 
-    .line 20
     invoke-direct/range {p0 .. p0}, Lcom/commsource/studio/text/TextStylePage;->t()V
 
-    .line 21
     iget-object v0, v6, Lcom/commsource/studio/text/TextStylePage;->d:Lcom/commsource/studio/text/TextConfig$TemplateAttrEnum;
 
     if-eqz v9, :cond_9
@@ -2307,7 +2143,6 @@
     :goto_8
     invoke-direct {v6, v0, v1, v11}, Lcom/commsource/studio/text/TextStylePage;->q(Lcom/commsource/studio/text/TextConfig$TemplateAttrEnum;ZZ)V
 
-    .line 22
     iget-object v0, v6, Lcom/commsource/studio/text/TextStylePage;->b:Lcom/commsource/beautyplus/f0/ck;
 
     iget-object v1, v0, Lcom/commsource/beautyplus/f0/ck;->K:Lcom/commsource/widget/XSeekBar;
@@ -2326,7 +2161,6 @@
 
     invoke-static {v3, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 23
     sget-object v11, Lcom/commsource/studio/text/TextConfig;->B:Lcom/commsource/studio/text/TextConfig;
 
     invoke-virtual {v11}, Lcom/commsource/studio/text/TextConfig;->R()[I
@@ -2371,10 +2205,8 @@
 
     move-object/from16 v5, v16
 
-    .line 24
     invoke-direct/range {v0 .. v5}, Lcom/commsource/studio/text/TextStylePage;->r(Lcom/commsource/widget/XSeekBar;Landroid/widget/TextView;Ljava/lang/String;F[I)V
 
-    .line 25
     iget-object v0, v6, Lcom/commsource/studio/text/TextStylePage;->b:Lcom/commsource/beautyplus/f0/ck;
 
     iget-object v1, v0, Lcom/commsource/beautyplus/f0/ck;->M:Lcom/commsource/widget/XSeekBar;
@@ -2397,7 +2229,6 @@
 
     invoke-static {v3, v0}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 26
     invoke-virtual {v11}, Lcom/commsource/studio/text/TextConfig;->R()[I
 
     move-result-object v0
@@ -2430,17 +2261,14 @@
 
     move-result v4
 
-    .line 27
     invoke-virtual {v11}, Lcom/commsource/studio/text/TextConfig;->R()[I
 
     move-result-object v5
 
     move-object/from16 v0, p0
 
-    .line 28
     invoke-direct/range {v0 .. v5}, Lcom/commsource/studio/text/TextStylePage;->r(Lcom/commsource/widget/XSeekBar;Landroid/widget/TextView;Ljava/lang/String;F[I)V
 
-    .line 29
     iget-object v0, v6, Lcom/commsource/studio/text/TextStylePage;->b:Lcom/commsource/beautyplus/f0/ck;
 
     iget-object v1, v0, Lcom/commsource/beautyplus/f0/ck;->O:Lcom/commsource/widget/XSeekBar;
@@ -2465,7 +2293,6 @@
 
     if-eqz v9, :cond_d
 
-    .line 30
     invoke-virtual {v9}, Lcom/commsource/studio/text/TextGroupParam;->getBackgroundMargin()I
 
     move-result v12
@@ -2473,19 +2300,16 @@
     :cond_d
     int-to-float v4, v12
 
-    .line 31
     invoke-virtual {v11}, Lcom/commsource/studio/text/TextConfig;->R()[I
 
     move-result-object v5
 
     move-object/from16 v0, p0
 
-    .line 32
     invoke-direct/range {v0 .. v5}, Lcom/commsource/studio/text/TextStylePage;->r(Lcom/commsource/widget/XSeekBar;Landroid/widget/TextView;Ljava/lang/String;F[I)V
 
     goto/16 :goto_14
 
-    .line 33
     :cond_e
     sget-object v1, Lcom/commsource/studio/text/TextConfig$TemplateAttrEnum;->Shadow:Lcom/commsource/studio/text/TextConfig$TemplateAttrEnum;
 
@@ -2495,10 +2319,8 @@
 
     if-ne v0, v1, :cond_14
 
-    .line 34
     invoke-direct/range {p0 .. p0}, Lcom/commsource/studio/text/TextStylePage;->t()V
 
-    .line 35
     iget-object v0, v6, Lcom/commsource/studio/text/TextStylePage;->d:Lcom/commsource/studio/text/TextConfig$TemplateAttrEnum;
 
     if-eqz v9, :cond_f
@@ -2527,7 +2349,6 @@
     :goto_c
     invoke-direct {v6, v0, v1, v11}, Lcom/commsource/studio/text/TextStylePage;->q(Lcom/commsource/studio/text/TextConfig$TemplateAttrEnum;ZZ)V
 
-    .line 36
     iget-object v0, v6, Lcom/commsource/studio/text/TextStylePage;->b:Lcom/commsource/beautyplus/f0/ck;
 
     iget-object v1, v0, Lcom/commsource/beautyplus/f0/ck;->K:Lcom/commsource/widget/XSeekBar;
@@ -2546,7 +2367,6 @@
 
     invoke-static {v3, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 37
     sget-object v11, Lcom/commsource/studio/text/TextConfig;->B:Lcom/commsource/studio/text/TextConfig;
 
     invoke-virtual {v11}, Lcom/commsource/studio/text/TextConfig;->R()[I
@@ -2591,10 +2411,8 @@
 
     move-object v5, v12
 
-    .line 38
     invoke-direct/range {v0 .. v5}, Lcom/commsource/studio/text/TextStylePage;->r(Lcom/commsource/widget/XSeekBar;Landroid/widget/TextView;Ljava/lang/String;F[I)V
 
-    .line 39
     iget-object v0, v6, Lcom/commsource/studio/text/TextStylePage;->b:Lcom/commsource/beautyplus/f0/ck;
 
     iget-object v1, v0, Lcom/commsource/beautyplus/f0/ck;->M:Lcom/commsource/widget/XSeekBar;
@@ -2617,7 +2435,6 @@
 
     invoke-static {v3, v0}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 40
     invoke-virtual {v11}, Lcom/commsource/studio/text/TextConfig;->R()[I
 
     move-result-object v0
@@ -2650,17 +2467,14 @@
 
     move-result v4
 
-    .line 41
     invoke-virtual {v11}, Lcom/commsource/studio/text/TextConfig;->R()[I
 
     move-result-object v5
 
     move-object/from16 v0, p0
 
-    .line 42
     invoke-direct/range {v0 .. v5}, Lcom/commsource/studio/text/TextStylePage;->r(Lcom/commsource/widget/XSeekBar;Landroid/widget/TextView;Ljava/lang/String;F[I)V
 
-    .line 43
     iget-object v0, v6, Lcom/commsource/studio/text/TextStylePage;->b:Lcom/commsource/beautyplus/f0/ck;
 
     iget-object v1, v0, Lcom/commsource/beautyplus/f0/ck;->O:Lcom/commsource/widget/XSeekBar;
@@ -2683,7 +2497,6 @@
 
     invoke-static {v3, v0}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 44
     invoke-virtual {v11}, Lcom/commsource/studio/text/TextConfig;->S()[I
 
     move-result-object v0
@@ -2716,19 +2529,16 @@
 
     move-result v4
 
-    .line 45
     invoke-virtual {v11}, Lcom/commsource/studio/text/TextConfig;->S()[I
 
     move-result-object v5
 
     move-object/from16 v0, p0
 
-    .line 46
     invoke-direct/range {v0 .. v5}, Lcom/commsource/studio/text/TextStylePage;->r(Lcom/commsource/widget/XSeekBar;Landroid/widget/TextView;Ljava/lang/String;F[I)V
 
     goto/16 :goto_14
 
-    .line 47
     :cond_14
     sget-object v1, Lcom/commsource/studio/text/TextConfig$TemplateAttrEnum;->Space:Lcom/commsource/studio/text/TextConfig$TemplateAttrEnum;
 
@@ -2738,7 +2548,6 @@
 
     if-ne v0, v1, :cond_19
 
-    .line 48
     iget-object v0, v6, Lcom/commsource/studio/text/TextStylePage;->d:Lcom/commsource/studio/text/TextConfig$TemplateAttrEnum;
 
     if-eqz v9, :cond_15
@@ -2761,7 +2570,6 @@
     :goto_11
     invoke-direct {v6, v0, v1, v11}, Lcom/commsource/studio/text/TextStylePage;->q(Lcom/commsource/studio/text/TextConfig$TemplateAttrEnum;ZZ)V
 
-    .line 49
     iget-object v0, v6, Lcom/commsource/studio/text/TextStylePage;->b:Lcom/commsource/beautyplus/f0/ck;
 
     iget-object v1, v0, Lcom/commsource/beautyplus/f0/ck;->K:Lcom/commsource/widget/XSeekBar;
@@ -2784,7 +2592,6 @@
 
     invoke-static {v3, v0}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 50
     sget-object v11, Lcom/commsource/studio/text/TextConfig;->B:Lcom/commsource/studio/text/TextConfig;
 
     invoke-virtual {v11}, Lcom/commsource/studio/text/TextConfig;->S()[I
@@ -2819,17 +2626,14 @@
 
     move-result v4
 
-    .line 51
     invoke-virtual {v11}, Lcom/commsource/studio/text/TextConfig;->S()[I
 
     move-result-object v5
 
     move-object/from16 v0, p0
 
-    .line 52
     invoke-direct/range {v0 .. v5}, Lcom/commsource/studio/text/TextStylePage;->r(Lcom/commsource/widget/XSeekBar;Landroid/widget/TextView;Ljava/lang/String;F[I)V
 
-    .line 53
     iget-object v0, v6, Lcom/commsource/studio/text/TextStylePage;->b:Lcom/commsource/beautyplus/f0/ck;
 
     iget-object v1, v0, Lcom/commsource/beautyplus/f0/ck;->M:Lcom/commsource/widget/XSeekBar;
@@ -2852,7 +2656,6 @@
 
     invoke-static {v3, v0}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 54
     invoke-virtual {v11}, Lcom/commsource/studio/text/TextConfig;->S()[I
 
     move-result-object v0
@@ -2885,17 +2688,14 @@
 
     move-result v4
 
-    .line 55
     invoke-virtual {v11}, Lcom/commsource/studio/text/TextConfig;->S()[I
 
     move-result-object v5
 
     move-object/from16 v0, p0
 
-    .line 56
     invoke-direct/range {v0 .. v5}, Lcom/commsource/studio/text/TextStylePage;->r(Lcom/commsource/widget/XSeekBar;Landroid/widget/TextView;Ljava/lang/String;F[I)V
 
-    .line 57
     :cond_19
     :goto_14
     invoke-static {v7}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2914,7 +2714,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/text/TextStylePage;->d:Lcom/commsource/studio/text/TextConfig$TemplateAttrEnum;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2931,7 +2730,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/text/TextStylePage;->c:Lcom/commsource/studio/sticker/TextFragment;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2948,7 +2746,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/text/TextStylePage;->b:Lcom/commsource/beautyplus/f0/ck;
 
     invoke-virtual {v1}, Landroidx/databinding/ViewDataBinding;->getRoot()Landroid/view/View;
@@ -2979,7 +2776,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/text/TextStylePage;->d:Lcom/commsource/studio/text/TextConfig$TemplateAttrEnum;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

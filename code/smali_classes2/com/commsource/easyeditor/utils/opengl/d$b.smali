@@ -26,7 +26,6 @@
 .method private constructor <init>(Lcom/commsource/easyeditor/utils/opengl/d;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/easyeditor/utils/opengl/d$b;->a:Lcom/commsource/easyeditor/utils/opengl/d;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -37,7 +36,6 @@
 .method synthetic constructor <init>(Lcom/commsource/easyeditor/utils/opengl/d;Lcom/commsource/easyeditor/utils/opengl/d$a;)V
     .locals 0
 
-    .line 2
     invoke-direct {p0, p1}, Lcom/commsource/easyeditor/utils/opengl/d$b;-><init>(Lcom/commsource/easyeditor/utils/opengl/d;)V
 
     return-void
@@ -56,12 +54,10 @@
 
     new-array v1, v1, [I
 
-    .line 1
     fill-array-data v1, :array_0
 
     const/4 v2, 0x0
 
-    .line 2
     invoke-static {p1, p2, v1, v2}, Landroid/opengl/EGL14;->eglCreatePbufferSurface(Landroid/opengl/EGLDisplay;Landroid/opengl/EGLConfig;[II)Landroid/opengl/EGLSurface;
 
     move-result-object p1

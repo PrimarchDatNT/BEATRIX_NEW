@@ -42,7 +42,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/studio/function/RelightFragment$f$a;->a:Lcom/commsource/studio/function/RelightFragment$f;
 
     iget-object v0, v0, Lcom/commsource/studio/function/RelightFragment$f;->a:Lcom/commsource/studio/function/RelightFragment;
@@ -53,7 +52,6 @@
 
     invoke-virtual {v0}, Landroid/app/Dialog;->dismiss()V
 
-    .line 2
     sget-object v0, Lcom/commsource/beautymain/utils/RelightModelHelper;->b:Lcom/commsource/beautymain/utils/RelightModelHelper;
 
     iget-object v1, p0, Lcom/commsource/studio/function/RelightFragment$f$a;->a:Lcom/commsource/studio/function/RelightFragment$f;
@@ -70,14 +68,12 @@
 
     invoke-virtual {v0, v1}, Lcom/commsource/beautymain/utils/RelightModelHelper;->e(Landroid/content/Context;)V
 
-    .line 3
     iget-object v0, p0, Lcom/commsource/studio/function/RelightFragment$f$a;->a:Lcom/commsource/studio/function/RelightFragment$f;
 
     iget-object v0, v0, Lcom/commsource/studio/function/RelightFragment$f;->a:Lcom/commsource/studio/function/RelightFragment;
 
     invoke-virtual {v0}, Lcom/commsource/studio/function/BaseSubFragment;->I0()V
 
-    .line 4
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

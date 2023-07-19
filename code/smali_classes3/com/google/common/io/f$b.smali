@@ -26,7 +26,6 @@
 .method constructor <init>([B)V
     .locals 2
 
-    .line 1
     array-length v0, p1
 
     const/4 v1, 0x0
@@ -39,16 +38,12 @@
 .method constructor <init>([BII)V
     .locals 0
 
-    .line 2
     invoke-direct {p0}, Lcom/google/common/io/f;-><init>()V
 
-    .line 3
     iput-object p1, p0, Lcom/google/common/io/f$b;->a:[B
 
-    .line 4
     iput p2, p0, Lcom/google/common/io/f$b;->b:I
 
-    .line 5
     iput p3, p0, Lcom/google/common/io/f$b;->c:I
 
     return-void
@@ -64,7 +59,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/io/f$b;->a:[B
 
     iget v1, p0, Lcom/google/common/io/f$b;->b:I
@@ -73,7 +67,6 @@
 
     invoke-virtual {p1, v0, v1, v2}, Ljava/io/OutputStream;->write([BII)V
 
-    .line 2
     iget p1, p0, Lcom/google/common/io/f$b;->c:I
 
     int-to-long v0, p1
@@ -89,7 +82,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/io/f$b;->a:[B
 
     iget v1, p0, Lcom/google/common/io/f$b;->b:I
@@ -106,7 +98,6 @@
 .method public k()Z
     .locals 1
 
-    .line 1
     iget v0, p0, Lcom/google/common/io/f$b;->c:I
 
     if-nez v0, :cond_0
@@ -130,7 +121,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/io/f$b;->m()Ljava/io/InputStream;
 
     move-result-object v0
@@ -141,7 +131,6 @@
 .method public m()Ljava/io/InputStream;
     .locals 4
 
-    .line 1
     new-instance v0, Ljava/io/ByteArrayInputStream;
 
     iget-object v1, p0, Lcom/google/common/io/f$b;->a:[B
@@ -173,7 +162,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/io/f$b;->a:[B
 
     iget v1, p0, Lcom/google/common/io/f$b;->b:I
@@ -182,7 +170,6 @@
 
     invoke-interface {p1, v0, v1, v2}, Lcom/google/common/io/d;->b([BII)Z
 
-    .line 2
     invoke-interface {p1}, Lcom/google/common/io/d;->a()Ljava/lang/Object;
 
     move-result-object p1
@@ -193,7 +180,6 @@
 .method public o()[B
     .locals 3
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/io/f$b;->a:[B
 
     iget v1, p0, Lcom/google/common/io/f$b;->b:I
@@ -212,7 +198,6 @@
 .method public p()J
     .locals 2
 
-    .line 1
     iget v0, p0, Lcom/google/common/io/f$b;->c:I
 
     int-to-long v0, v0
@@ -231,7 +216,6 @@
         }
     .end annotation
 
-    .line 1
     iget v0, p0, Lcom/google/common/io/f$b;->c:I
 
     int-to-long v0, v0
@@ -270,7 +254,6 @@
     :goto_0
     const-string v5, "offset (%s) may not be negative"
 
-    .line 1
     invoke-static {v4, v5, p1, p2}, Lcom/google/common/base/t;->p(ZLjava/lang/String;J)V
 
     cmp-long v4, p3, v2
@@ -285,10 +268,8 @@
     :goto_1
     const-string v1, "length (%s) may not be negative"
 
-    .line 2
     invoke-static {v0, v1, p3, p4}, Lcom/google/common/base/t;->p(ZLjava/lang/String;J)V
 
-    .line 3
     iget v0, p0, Lcom/google/common/io/f$b;->c:I
 
     int-to-long v0, v0
@@ -297,7 +278,6 @@
 
     move-result-wide p1
 
-    .line 4
     iget v0, p0, Lcom/google/common/io/f$b;->c:I
 
     int-to-long v0, v0
@@ -308,14 +288,12 @@
 
     move-result-wide p3
 
-    .line 5
     iget v0, p0, Lcom/google/common/io/f$b;->b:I
 
     long-to-int p2, p1
 
     add-int/2addr v0, p2
 
-    .line 6
     new-instance p1, Lcom/google/common/io/f$b;
 
     iget-object p2, p0, Lcom/google/common/io/f$b;->a:[B
@@ -330,7 +308,6 @@
 .method public toString()Ljava/lang/String;
     .locals 5
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -339,7 +316,6 @@
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 2
     invoke-static {}, Lcom/google/common/io/BaseEncoding;->a()Lcom/google/common/io/BaseEncoding;
 
     move-result-object v1

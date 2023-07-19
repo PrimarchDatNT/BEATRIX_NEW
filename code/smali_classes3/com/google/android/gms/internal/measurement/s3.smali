@@ -13,7 +13,6 @@
 .method static constructor <clinit>()V
     .locals 5
 
-    .line 1
     invoke-static {}, Lcom/google/android/gms/internal/measurement/zzfq;->values()[Lcom/google/android/gms/internal/measurement/zzfq;
 
     move-result-object v0
@@ -69,7 +68,6 @@
     :try_end_2
     .catch Ljava/lang/NoSuchFieldError; {:try_start_2 .. :try_end_2} :catch_2
 
-    .line 2
     :catch_2
     invoke-static {}, Lcom/google/android/gms/internal/measurement/zzez;->values()[Lcom/google/android/gms/internal/measurement/zzez;
 

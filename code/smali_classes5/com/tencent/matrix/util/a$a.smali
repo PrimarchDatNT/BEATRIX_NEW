@@ -43,22 +43,18 @@
 .method constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     new-instance v0, Ljava/util/concurrent/ConcurrentHashMap;
 
     invoke-direct {v0}, Ljava/util/concurrent/ConcurrentHashMap;-><init>()V
 
     iput-object v0, p0, Lcom/tencent/matrix/util/a$a;->a:Ljava/util/concurrent/ConcurrentHashMap;
 
-    .line 3
     sget-object v0, Lcom/tencent/matrix/AppActiveMatrixDelegate;->INSTANCE:Lcom/tencent/matrix/AppActiveMatrixDelegate;
 
     invoke-virtual {v0, p0}, Lcom/tencent/matrix/AppActiveMatrixDelegate;->addListener(Lcom/tencent/matrix/f/a;)V
 
-    .line 4
     invoke-virtual {v0}, Lcom/tencent/matrix/AppActiveMatrixDelegate;->isAppForeground()Z
 
     move-result v0
@@ -73,22 +69,18 @@
 .method public a(Z)V
     .locals 7
 
-    .line 1
     iput-boolean p1, p0, Lcom/tencent/matrix/util/a$a;->b:Z
 
     if-eqz p1, :cond_2
 
-    .line 2
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v0
 
-    .line 3
     new-instance p1, Ljava/util/LinkedList;
 
     invoke-direct {p1}, Ljava/util/LinkedList;-><init>()V
 
-    .line 4
     iget-object v2, p0, Lcom/tencent/matrix/util/a$a;->a:Ljava/util/concurrent/ConcurrentHashMap;
 
     invoke-virtual {v2}, Ljava/util/concurrent/ConcurrentHashMap;->values()Ljava/util/Collection;
@@ -115,17 +107,14 @@
 
     check-cast v3, Lcom/tencent/matrix/util/a$a$b;
 
-    .line 5
     iget v5, v3, Lcom/tencent/matrix/util/a$a$b;->b:I
 
     if-le v5, v4, :cond_0
 
-    .line 6
     invoke-virtual {p1, v3}, Ljava/util/LinkedList;->add(Ljava/lang/Object;)Z
 
     goto :goto_0
 
-    .line 7
     :cond_1
     new-instance v2, Lcom/tencent/matrix/util/a$a$a;
 
@@ -133,12 +122,10 @@
 
     invoke-static {p1, v2}, Ljava/util/Collections;->sort(Ljava/util/List;Ljava/util/Comparator;)V
 
-    .line 8
     iget-object v2, p0, Lcom/tencent/matrix/util/a$a;->a:Ljava/util/concurrent/ConcurrentHashMap;
 
     invoke-virtual {v2}, Ljava/util/concurrent/ConcurrentHashMap;->clear()V
 
-    .line 9
     invoke-virtual {p1}, Ljava/util/LinkedList;->isEmpty()Z
 
     move-result v2
@@ -153,7 +140,6 @@
 
     aput-object p1, v2, v3
 
-    .line 10
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v5
@@ -170,12 +156,10 @@
 
     const-string v0, "matrix default thread has exec in background! %s cost:%s"
 
-    .line 11
     invoke-static {p1, v0, v2}, Lcom/tencent/matrix/util/b;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     goto :goto_1
 
-    .line 12
     :cond_2
     iget-object p1, p0, Lcom/tencent/matrix/util/a$a;->a:Ljava/util/concurrent/ConcurrentHashMap;
 
@@ -189,7 +173,6 @@
 .method public println(Ljava/lang/String;)V
     .locals 2
 
-    .line 1
     iget-boolean v0, p0, Lcom/tencent/matrix/util/a$a;->b:Z
 
     if-eqz v0, :cond_0
@@ -199,7 +182,6 @@
     :cond_0
     const/4 v0, 0x0
 
-    .line 2
     invoke-virtual {p1, v0}, Ljava/lang/String;->charAt(I)C
 
     move-result v0
@@ -210,14 +192,12 @@
 
     const-string v0, "} "
 
-    .line 3
     invoke-virtual {p1, v0}, Ljava/lang/String;->indexOf(Ljava/lang/String;)I
 
     move-result v0
 
     const-string v1, "@"
 
-    .line 4
     invoke-virtual {p1, v1, v0}, Ljava/lang/String;->indexOf(Ljava/lang/String;I)I
 
     move-result v1
@@ -228,13 +208,11 @@
 
     goto :goto_0
 
-    .line 5
     :cond_1
     invoke-virtual {p1, v0, v1}, Ljava/lang/String;->substring(II)Ljava/lang/String;
 
     move-result-object p1
 
-    .line 6
     iget-object v0, p0, Lcom/tencent/matrix/util/a$a;->a:Ljava/util/concurrent/ConcurrentHashMap;
 
     invoke-virtual {v0, p1}, Ljava/util/concurrent/ConcurrentHashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
@@ -245,20 +223,16 @@
 
     if-nez v0, :cond_2
 
-    .line 7
     new-instance v0, Lcom/tencent/matrix/util/a$a$b;
 
     invoke-direct {v0, p0}, Lcom/tencent/matrix/util/a$a$b;-><init>(Lcom/tencent/matrix/util/a$a;)V
 
-    .line 8
     iput-object p1, v0, Lcom/tencent/matrix/util/a$a$b;->a:Ljava/lang/String;
 
-    .line 9
     iget-object v1, p0, Lcom/tencent/matrix/util/a$a;->a:Ljava/util/concurrent/ConcurrentHashMap;
 
     invoke-virtual {v1, p1, v0}, Ljava/util/concurrent/ConcurrentHashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 10
     :cond_2
     iget p1, v0, Lcom/tencent/matrix/util/a$a$b;->b:I
 

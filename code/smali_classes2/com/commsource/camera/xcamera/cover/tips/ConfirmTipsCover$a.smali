@@ -54,14 +54,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v1
 
     if-nez v1, :cond_0
 
-    .line 2
     iget-object v2, p0, Lcom/commsource/camera/xcamera/cover/tips/ConfirmTipsCover$a;->a:Lcom/commsource/camera/xcamera/cover/tips/ConfirmTipsCover;
 
     const/4 v4, 0x0
@@ -88,7 +86,6 @@
 
     invoke-static/range {v2 .. v8}, Lcom/commsource/camera/xcamera/cover/tips/ConfirmTipsCover;->K(Lcom/commsource/camera/xcamera/cover/tips/ConfirmTipsCover;Ljava/lang/String;Ljava/lang/String;ZLjava/lang/String;ILjava/lang/Object;)V
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -102,7 +99,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Ljava/lang/String;
 
     invoke-virtual {p0, p1}, Lcom/commsource/camera/xcamera/cover/tips/ConfirmTipsCover$a;->a(Ljava/lang/String;)V

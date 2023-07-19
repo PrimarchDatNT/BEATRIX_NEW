@@ -94,7 +94,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v11, Lcom/commsource/easyeditor/entity/FaceEffectEnum;
 
     const-string v2, "Smooth"
@@ -121,7 +120,6 @@
 
     sput-object v11, Lcom/commsource/easyeditor/entity/FaceEffectEnum;->Smooth:Lcom/commsource/easyeditor/entity/FaceEffectEnum;
 
-    .line 2
     new-instance v1, Lcom/commsource/easyeditor/entity/FaceEffectEnum;
 
     const-string v13, "Tone"
@@ -148,7 +146,6 @@
 
     sput-object v1, Lcom/commsource/easyeditor/entity/FaceEffectEnum;->Tone:Lcom/commsource/easyeditor/entity/FaceEffectEnum;
 
-    .line 3
     new-instance v2, Lcom/commsource/easyeditor/entity/FaceEffectEnum;
 
     const-string v23, "Acne"
@@ -175,7 +172,6 @@
 
     sput-object v2, Lcom/commsource/easyeditor/entity/FaceEffectEnum;->Acne:Lcom/commsource/easyeditor/entity/FaceEffectEnum;
 
-    .line 4
     new-instance v3, Lcom/commsource/easyeditor/entity/FaceEffectEnum;
 
     const-string v13, "FaceFeatures"
@@ -198,7 +194,6 @@
 
     sput-object v3, Lcom/commsource/easyeditor/entity/FaceEffectEnum;->FaceFeatures:Lcom/commsource/easyeditor/entity/FaceEffectEnum;
 
-    .line 5
     new-instance v4, Lcom/commsource/easyeditor/entity/FaceEffectEnum;
 
     const-string v23, "NoseWing"
@@ -223,7 +218,6 @@
 
     sput-object v4, Lcom/commsource/easyeditor/entity/FaceEffectEnum;->NoseWing:Lcom/commsource/easyeditor/entity/FaceEffectEnum;
 
-    .line 6
     new-instance v5, Lcom/commsource/easyeditor/entity/FaceEffectEnum;
 
     const-string v13, "EyeEnlarge"
@@ -244,7 +238,6 @@
 
     sput-object v5, Lcom/commsource/easyeditor/entity/FaceEffectEnum;->EyeEnlarge:Lcom/commsource/easyeditor/entity/FaceEffectEnum;
 
-    .line 7
     new-instance v6, Lcom/commsource/easyeditor/entity/FaceEffectEnum;
 
     const-string v23, "EyeBright"
@@ -269,7 +262,6 @@
 
     sput-object v6, Lcom/commsource/easyeditor/entity/FaceEffectEnum;->EyeBright:Lcom/commsource/easyeditor/entity/FaceEffectEnum;
 
-    .line 8
     new-instance v7, Lcom/commsource/easyeditor/entity/FaceEffectEnum;
 
     const-string v13, "RemoveEyeDarkCircle"
@@ -288,7 +280,6 @@
 
     sput-object v7, Lcom/commsource/easyeditor/entity/FaceEffectEnum;->RemoveEyeDarkCircle:Lcom/commsource/easyeditor/entity/FaceEffectEnum;
 
-    .line 9
     new-instance v8, Lcom/commsource/easyeditor/entity/FaceEffectEnum;
 
     const-string v23, "Slim"
@@ -311,7 +302,6 @@
 
     sput-object v8, Lcom/commsource/easyeditor/entity/FaceEffectEnum;->Slim:Lcom/commsource/easyeditor/entity/FaceEffectEnum;
 
-    .line 10
     new-instance v9, Lcom/commsource/easyeditor/entity/FaceEffectEnum;
 
     const-string v13, "HeadScale"
@@ -334,7 +324,6 @@
 
     sput-object v9, Lcom/commsource/easyeditor/entity/FaceEffectEnum;->HeadScale:Lcom/commsource/easyeditor/entity/FaceEffectEnum;
 
-    .line 11
     new-instance v10, Lcom/commsource/easyeditor/entity/FaceEffectEnum;
 
     const-string v23, "MouthEnlarge"
@@ -357,7 +346,6 @@
 
     sput-object v10, Lcom/commsource/easyeditor/entity/FaceEffectEnum;->MouthEnlarge:Lcom/commsource/easyeditor/entity/FaceEffectEnum;
 
-    .line 12
     new-instance v22, Lcom/commsource/easyeditor/entity/FaceEffectEnum;
 
     const-string v13, "TeethWhiten"
@@ -378,7 +366,6 @@
 
     sput-object v22, Lcom/commsource/easyeditor/entity/FaceEffectEnum;->TeethWhiten:Lcom/commsource/easyeditor/entity/FaceEffectEnum;
 
-    .line 13
     new-instance v12, Lcom/commsource/easyeditor/entity/FaceEffectEnum;
 
     const-string v24, "LipStick"
@@ -405,7 +392,6 @@
 
     sput-object v12, Lcom/commsource/easyeditor/entity/FaceEffectEnum;->LipStick:Lcom/commsource/easyeditor/entity/FaceEffectEnum;
 
-    .line 14
     new-instance v13, Lcom/commsource/easyeditor/entity/FaceEffectEnum;
 
     const-string v34, "EyeBrow"
@@ -432,7 +418,6 @@
 
     sput-object v13, Lcom/commsource/easyeditor/entity/FaceEffectEnum;->EyeBrow:Lcom/commsource/easyeditor/entity/FaceEffectEnum;
 
-    .line 15
     new-instance v14, Lcom/commsource/easyeditor/entity/FaceEffectEnum;
 
     const-string v24, "EyeMakeup"
@@ -451,7 +436,6 @@
 
     sput-object v14, Lcom/commsource/easyeditor/entity/FaceEffectEnum;->EyeMakeup:Lcom/commsource/easyeditor/entity/FaceEffectEnum;
 
-    .line 16
     new-instance v15, Lcom/commsource/easyeditor/entity/FaceEffectEnum;
 
     const-string v34, "Blush"
@@ -470,7 +454,6 @@
 
     sput-object v15, Lcom/commsource/easyeditor/entity/FaceEffectEnum;->Blush:Lcom/commsource/easyeditor/entity/FaceEffectEnum;
 
-    .line 17
     new-instance v16, Lcom/commsource/easyeditor/entity/FaceEffectEnum;
 
     const-string v24, "Beard"
@@ -489,7 +472,6 @@
 
     sput-object v16, Lcom/commsource/easyeditor/entity/FaceEffectEnum;->Beard:Lcom/commsource/easyeditor/entity/FaceEffectEnum;
 
-    .line 18
     new-instance v17, Lcom/commsource/easyeditor/entity/FaceEffectEnum;
 
     const-string v34, "NoseHeight"
@@ -514,7 +496,6 @@
 
     sput-object v17, Lcom/commsource/easyeditor/entity/FaceEffectEnum;->NoseHeight:Lcom/commsource/easyeditor/entity/FaceEffectEnum;
 
-    .line 19
     new-instance v18, Lcom/commsource/easyeditor/entity/FaceEffectEnum;
 
     const-string v24, "HairLine"
@@ -539,7 +520,6 @@
 
     sput-object v18, Lcom/commsource/easyeditor/entity/FaceEffectEnum;->HairLine:Lcom/commsource/easyeditor/entity/FaceEffectEnum;
 
-    .line 20
     new-instance v19, Lcom/commsource/easyeditor/entity/FaceEffectEnum;
 
     const-string v34, "Smile"
@@ -564,7 +544,6 @@
 
     sput-object v19, Lcom/commsource/easyeditor/entity/FaceEffectEnum;->Smile:Lcom/commsource/easyeditor/entity/FaceEffectEnum;
 
-    .line 21
     new-instance v20, Lcom/commsource/easyeditor/entity/FaceEffectEnum;
 
     const-string v24, "MouseLip"
@@ -587,7 +566,6 @@
 
     sput-object v20, Lcom/commsource/easyeditor/entity/FaceEffectEnum;->MouseLip:Lcom/commsource/easyeditor/entity/FaceEffectEnum;
 
-    .line 22
     new-instance v21, Lcom/commsource/easyeditor/entity/FaceEffectEnum;
 
     const-string v34, "EyeBrowHeight"
@@ -610,7 +588,6 @@
 
     sput-object v21, Lcom/commsource/easyeditor/entity/FaceEffectEnum;->EyeBrowHeight:Lcom/commsource/easyeditor/entity/FaceEffectEnum;
 
-    .line 23
     new-instance v33, Lcom/commsource/easyeditor/entity/FaceEffectEnum;
 
     const-string v24, "EyeBrowRotate"
@@ -631,7 +608,6 @@
 
     sput-object v33, Lcom/commsource/easyeditor/entity/FaceEffectEnum;->EyeBrowRotate:Lcom/commsource/easyeditor/entity/FaceEffectEnum;
 
-    .line 24
     new-instance v23, Lcom/commsource/easyeditor/entity/FaceEffectEnum;
 
     const-string v35, "EyeBrowSize"
@@ -658,7 +634,6 @@
 
     sput-object v23, Lcom/commsource/easyeditor/entity/FaceEffectEnum;->EyeBrowSize:Lcom/commsource/easyeditor/entity/FaceEffectEnum;
 
-    .line 25
     new-instance v24, Lcom/commsource/easyeditor/entity/FaceEffectEnum;
 
     const-string v45, "AiBeauty"
@@ -789,7 +764,6 @@
 
     aput-object v24, v0, v1
 
-    .line 26
     sput-object v0, Lcom/commsource/easyeditor/entity/FaceEffectEnum;->$VALUES:[Lcom/commsource/easyeditor/entity/FaceEffectEnum;
 
     const/16 v0, 0x7477
@@ -807,25 +781,18 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 2
     iput p3, p0, Lcom/commsource/easyeditor/entity/FaceEffectEnum;->id:I
 
-    .line 3
     iput p4, p0, Lcom/commsource/easyeditor/entity/FaceEffectEnum;->icon:I
 
-    .line 4
     iput p5, p0, Lcom/commsource/easyeditor/entity/FaceEffectEnum;->floor:F
 
-    .line 5
     iput p6, p0, Lcom/commsource/easyeditor/entity/FaceEffectEnum;->upper:F
 
-    .line 6
     iput p7, p0, Lcom/commsource/easyeditor/entity/FaceEffectEnum;->faceArea:I
 
-    .line 7
     iput p8, p0, Lcom/commsource/easyeditor/entity/FaceEffectEnum;->defaultAlpha:F
 
     return-void
@@ -839,28 +806,20 @@
         }
     .end annotation
 
-    .line 8
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 9
     iput p3, p0, Lcom/commsource/easyeditor/entity/FaceEffectEnum;->id:I
 
-    .line 10
     iput p4, p0, Lcom/commsource/easyeditor/entity/FaceEffectEnum;->icon:I
 
-    .line 11
     iput p5, p0, Lcom/commsource/easyeditor/entity/FaceEffectEnum;->floor:F
 
-    .line 12
     iput p6, p0, Lcom/commsource/easyeditor/entity/FaceEffectEnum;->upper:F
 
-    .line 13
     iput p7, p0, Lcom/commsource/easyeditor/entity/FaceEffectEnum;->faceArea:I
 
-    .line 14
     iput p8, p0, Lcom/commsource/easyeditor/entity/FaceEffectEnum;->defaultAlpha:F
 
-    .line 15
     iput p9, p0, Lcom/commsource/easyeditor/entity/FaceEffectEnum;->nameRes:I
 
     return-void
@@ -873,7 +832,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     const-class v1, Lcom/commsource/easyeditor/entity/FaceEffectEnum;
 
     invoke-static {v1, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -894,7 +852,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/easyeditor/entity/FaceEffectEnum;->$VALUES:[Lcom/commsource/easyeditor/entity/FaceEffectEnum;
 
     invoke-virtual {v1}, [Lcom/commsource/easyeditor/entity/FaceEffectEnum;->clone()Ljava/lang/Object;
@@ -917,7 +874,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/easyeditor/entity/FaceEffectEnum;->defaultAlpha:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -932,7 +888,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/easyeditor/entity/FaceEffectEnum;->faceArea:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -947,7 +902,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/easyeditor/entity/FaceEffectEnum;->floor:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -962,7 +916,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/easyeditor/entity/FaceEffectEnum;->icon:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -977,7 +930,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/easyeditor/entity/FaceEffectEnum;->id:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -992,7 +944,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/easyeditor/entity/FaceEffectEnum;->nameRes:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1007,7 +958,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/easyeditor/entity/FaceEffectEnum;->upper:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1022,10 +972,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/easyeditor/entity/FaceEffectEnum;->defaultAlpha:F
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1038,10 +986,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/easyeditor/entity/FaceEffectEnum;->faceArea:I
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1054,10 +1000,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/easyeditor/entity/FaceEffectEnum;->floor:F
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1070,10 +1014,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/easyeditor/entity/FaceEffectEnum;->icon:I
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1086,10 +1028,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/easyeditor/entity/FaceEffectEnum;->id:I
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1102,10 +1042,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/easyeditor/entity/FaceEffectEnum;->nameRes:I
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1118,10 +1056,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/easyeditor/entity/FaceEffectEnum;->upper:F
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

@@ -24,7 +24,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-direct {p0, p1, v0}, Lcom/commsource/easyeditor/widget/EasyEditorSurfaceView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
     return-void
@@ -35,7 +34,6 @@
 
     const/4 v0, 0x0
 
-    .line 2
     invoke-direct {p0, p1, p2, v0}, Lcom/commsource/easyeditor/widget/EasyEditorSurfaceView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
     return-void
@@ -44,10 +42,8 @@
 .method public constructor <init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
     .locals 0
 
-    .line 3
     invoke-direct {p0, p1, p2, p3}, Landroid/view/SurfaceView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
-    .line 4
     invoke-virtual {p0}, Landroid/view/SurfaceView;->getHolder()Landroid/view/SurfaceHolder;
 
     move-result-object p1
@@ -58,7 +54,6 @@
 
     invoke-interface {p1, p2}, Landroid/view/SurfaceHolder;->addCallback(Landroid/view/SurfaceHolder$Callback;)V
 
-    .line 5
     new-instance p1, Lcom/commsource/easyeditor/utils/opengl/e;
 
     invoke-direct {p1}, Lcom/commsource/easyeditor/utils/opengl/e;-><init>()V
@@ -75,7 +70,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/easyeditor/widget/EasyEditorSurfaceView;->f:Landroid/view/Surface;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -90,7 +84,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/easyeditor/widget/EasyEditorSurfaceView;->c:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -105,7 +98,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/easyeditor/widget/EasyEditorSurfaceView;->d:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -120,7 +112,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/easyeditor/widget/EasyEditorSurfaceView;->h()V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -135,7 +126,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/easyeditor/widget/EasyEditorSurfaceView;->f()V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -150,21 +140,17 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/easyeditor/widget/EasyEditorSurfaceView;->a:Lcom/commsource/easyeditor/utils/opengl/e;
 
     if-nez v1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 3
     :cond_0
     invoke-virtual {v1}, Lcom/commsource/easyeditor/utils/opengl/e;->a()V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -177,17 +163,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/easyeditor/widget/EasyEditorSurfaceView;->f:Landroid/view/Surface;
 
     if-eqz v1, :cond_1
 
-    .line 2
     iget-object v2, p0, Lcom/commsource/easyeditor/widget/EasyEditorSurfaceView;->b:Lcom/commsource/easyeditor/utils/opengl/a;
 
     if-eqz v2, :cond_1
 
-    .line 3
     iget-object v2, p0, Lcom/commsource/easyeditor/widget/EasyEditorSurfaceView;->a:Lcom/commsource/easyeditor/utils/opengl/e;
 
     invoke-virtual {v2}, Lcom/commsource/easyeditor/utils/opengl/e;->e()Z
@@ -196,19 +179,16 @@
 
     if-nez v2, :cond_0
 
-    .line 4
     iget-object v2, p0, Lcom/commsource/easyeditor/widget/EasyEditorSurfaceView;->a:Lcom/commsource/easyeditor/utils/opengl/e;
 
     invoke-virtual {v2}, Lcom/commsource/easyeditor/utils/opengl/e;->c()V
 
-    .line 5
     iget-object v2, p0, Lcom/commsource/easyeditor/widget/EasyEditorSurfaceView;->a:Lcom/commsource/easyeditor/utils/opengl/e;
 
     iget-object v3, p0, Lcom/commsource/easyeditor/widget/EasyEditorSurfaceView;->b:Lcom/commsource/easyeditor/utils/opengl/a;
 
     invoke-virtual {v2, v3}, Lcom/commsource/easyeditor/utils/opengl/e;->j(Lcom/commsource/easyeditor/utils/opengl/a;)V
 
-    .line 6
     iget-object v2, p0, Lcom/commsource/easyeditor/widget/EasyEditorSurfaceView;->a:Lcom/commsource/easyeditor/utils/opengl/e;
 
     iget v3, p0, Lcom/commsource/easyeditor/widget/EasyEditorSurfaceView;->c:I
@@ -217,14 +197,12 @@
 
     invoke-virtual {v2, v1, v3, v4}, Lcom/commsource/easyeditor/utils/opengl/e;->l(Ljava/lang/Object;II)V
 
-    .line 7
     iget-object v1, p0, Lcom/commsource/easyeditor/widget/EasyEditorSurfaceView;->a:Lcom/commsource/easyeditor/utils/opengl/e;
 
     invoke-virtual {v1}, Ljava/lang/Thread;->start()V
 
     goto :goto_0
 
-    .line 8
     :cond_0
     iget-object v2, p0, Lcom/commsource/easyeditor/widget/EasyEditorSurfaceView;->a:Lcom/commsource/easyeditor/utils/opengl/e;
 
@@ -234,7 +212,6 @@
 
     invoke-virtual {v2, v1, v3, v4}, Lcom/commsource/easyeditor/utils/opengl/e;->l(Ljava/lang/Object;II)V
 
-    .line 9
     :cond_1
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -251,15 +228,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/easyeditor/widget/EasyEditorSurfaceView;->a:Lcom/commsource/easyeditor/utils/opengl/e;
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-virtual {v1, p1}, Lcom/commsource/easyeditor/utils/opengl/e;->F(Ljava/lang/Runnable;)V
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -273,15 +247,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/easyeditor/widget/EasyEditorSurfaceView;->a:Lcom/commsource/easyeditor/utils/opengl/e;
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-virtual {v1, p1}, Lcom/commsource/easyeditor/utils/opengl/e;->g(Ljava/lang/Runnable;)V
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -295,7 +266,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
@@ -308,15 +278,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/easyeditor/widget/EasyEditorSurfaceView;->a:Lcom/commsource/easyeditor/utils/opengl/e;
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-virtual {v1, p1}, Lcom/commsource/easyeditor/utils/opengl/e;->g(Ljava/lang/Runnable;)V
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -330,13 +297,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0}, Landroid/view/SurfaceView;->onDetachedFromWindow()V
 
-    .line 2
     invoke-virtual {p0}, Lcom/commsource/easyeditor/widget/EasyEditorSurfaceView;->release()V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -349,15 +313,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/easyeditor/widget/EasyEditorSurfaceView;->a:Lcom/commsource/easyeditor/utils/opengl/e;
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-virtual {v1}, Lcom/commsource/easyeditor/utils/opengl/e;->h()V
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -371,13 +332,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/easyeditor/widget/EasyEditorSurfaceView;->b:Lcom/commsource/easyeditor/utils/opengl/a;
 
-    .line 2
     invoke-direct {p0}, Lcom/commsource/easyeditor/widget/EasyEditorSurfaceView;->h()V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -390,15 +348,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/easyeditor/widget/EasyEditorSurfaceView;->a:Lcom/commsource/easyeditor/utils/opengl/e;
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-virtual {v1}, Lcom/commsource/easyeditor/utils/opengl/e;->x()V
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

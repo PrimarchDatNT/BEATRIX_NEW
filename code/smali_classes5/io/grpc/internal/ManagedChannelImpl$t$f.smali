@@ -34,7 +34,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lio/grpc/internal/ManagedChannelImpl$t$f;->c:Lio/grpc/internal/ManagedChannelImpl$t;
 
     iput-object p2, p0, Lio/grpc/internal/ManagedChannelImpl$t$f;->a:Lio/grpc/t0$i;
@@ -51,7 +50,6 @@
 .method public run()V
     .locals 5
 
-    .line 1
     iget-object v0, p0, Lio/grpc/internal/ManagedChannelImpl$t$f;->c:Lio/grpc/internal/ManagedChannelImpl$t;
 
     iget-object v1, v0, Lio/grpc/internal/ManagedChannelImpl$t;->b:Lio/grpc/internal/ManagedChannelImpl;
@@ -64,7 +62,6 @@
 
     return-void
 
-    .line 2
     :cond_0
     iget-object v0, p0, Lio/grpc/internal/ManagedChannelImpl$t$f;->c:Lio/grpc/internal/ManagedChannelImpl$t;
 
@@ -74,14 +71,12 @@
 
     invoke-static {v0, v1}, Lio/grpc/internal/ManagedChannelImpl;->h0(Lio/grpc/internal/ManagedChannelImpl;Lio/grpc/t0$i;)V
 
-    .line 3
     iget-object v0, p0, Lio/grpc/internal/ManagedChannelImpl$t$f;->b:Lio/grpc/ConnectivityState;
 
     sget-object v1, Lio/grpc/ConnectivityState;->SHUTDOWN:Lio/grpc/ConnectivityState;
 
     if-eq v0, v1, :cond_1
 
-    .line 4
     iget-object v0, p0, Lio/grpc/internal/ManagedChannelImpl$t$f;->c:Lio/grpc/internal/ManagedChannelImpl$t;
 
     iget-object v0, v0, Lio/grpc/internal/ManagedChannelImpl$t;->b:Lio/grpc/internal/ManagedChannelImpl;
@@ -112,7 +107,6 @@
 
     invoke-virtual {v0, v1, v3, v2}, Lio/grpc/ChannelLogger;->b(Lio/grpc/ChannelLogger$ChannelLogLevel;Ljava/lang/String;[Ljava/lang/Object;)V
 
-    .line 5
     iget-object v0, p0, Lio/grpc/internal/ManagedChannelImpl$t$f;->c:Lio/grpc/internal/ManagedChannelImpl$t;
 
     iget-object v0, v0, Lio/grpc/internal/ManagedChannelImpl$t;->b:Lio/grpc/internal/ManagedChannelImpl;

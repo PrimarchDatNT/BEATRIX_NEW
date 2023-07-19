@@ -22,7 +22,6 @@
 .method constructor <init>(Lcom/mopub/common/privacy/ConsentDialogLayout;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/mopub/common/privacy/ConsentDialogLayout$2;->this$0:Lcom/mopub/common/privacy/ConsentDialogLayout;
 
     invoke-direct {p0}, Landroid/webkit/WebViewClient;-><init>()V
@@ -35,7 +34,6 @@
 .method public onPageFinished(Landroid/webkit/WebView;Ljava/lang/String;)V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/common/privacy/ConsentDialogLayout$2;->this$0:Lcom/mopub/common/privacy/ConsentDialogLayout;
 
     invoke-static {v0}, Lcom/mopub/common/privacy/ConsentDialogLayout;->access$100(Lcom/mopub/common/privacy/ConsentDialogLayout;)Lcom/mopub/common/privacy/ConsentDialogLayout$PageLoadListener;
@@ -44,7 +42,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 2
     iget-object v0, p0, Lcom/mopub/common/privacy/ConsentDialogLayout$2;->this$0:Lcom/mopub/common/privacy/ConsentDialogLayout;
 
     invoke-static {v0}, Lcom/mopub/common/privacy/ConsentDialogLayout;->access$100(Lcom/mopub/common/privacy/ConsentDialogLayout;)Lcom/mopub/common/privacy/ConsentDialogLayout$PageLoadListener;
@@ -55,7 +52,6 @@
 
     invoke-interface {v0, v1}, Lcom/mopub/common/privacy/ConsentDialogLayout$PageLoadListener;->onLoadProgress(I)V
 
-    .line 3
     :cond_0
     invoke-super {p0, p1, p2}, Landroid/webkit/WebViewClient;->onPageFinished(Landroid/webkit/WebView;Ljava/lang/String;)V
 
@@ -65,10 +61,8 @@
 .method public onPageStarted(Landroid/webkit/WebView;Ljava/lang/String;Landroid/graphics/Bitmap;)V
     .locals 0
 
-    .line 1
     invoke-super {p0, p1, p2, p3}, Landroid/webkit/WebViewClient;->onPageStarted(Landroid/webkit/WebView;Ljava/lang/String;Landroid/graphics/Bitmap;)V
 
-    .line 2
     iget-object p1, p0, Lcom/mopub/common/privacy/ConsentDialogLayout$2;->this$0:Lcom/mopub/common/privacy/ConsentDialogLayout;
 
     invoke-static {p1}, Lcom/mopub/common/privacy/ConsentDialogLayout;->access$100(Lcom/mopub/common/privacy/ConsentDialogLayout;)Lcom/mopub/common/privacy/ConsentDialogLayout$PageLoadListener;
@@ -77,7 +71,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 3
     iget-object p1, p0, Lcom/mopub/common/privacy/ConsentDialogLayout$2;->this$0:Lcom/mopub/common/privacy/ConsentDialogLayout;
 
     invoke-static {p1}, Lcom/mopub/common/privacy/ConsentDialogLayout;->access$100(Lcom/mopub/common/privacy/ConsentDialogLayout;)Lcom/mopub/common/privacy/ConsentDialogLayout$PageLoadListener;
@@ -106,7 +99,6 @@
         value = 0x1a
     .end annotation
 
-    .line 1
     sget-object p1, Lcom/mopub/common/logging/MoPubLog$SdkLogEvent;->CUSTOM:Lcom/mopub/common/logging/MoPubLog$SdkLogEvent;
 
     const/4 v0, 0x1
@@ -143,7 +135,6 @@
 
     const-string v0, "mopub://consent?yes"
 
-    .line 1
     invoke-virtual {v0, p2}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v0
@@ -152,7 +143,6 @@
 
     if-eqz v0, :cond_1
 
-    .line 2
     iget-object p1, p0, Lcom/mopub/common/privacy/ConsentDialogLayout$2;->this$0:Lcom/mopub/common/privacy/ConsentDialogLayout;
 
     invoke-static {p1}, Lcom/mopub/common/privacy/ConsentDialogLayout;->access$000(Lcom/mopub/common/privacy/ConsentDialogLayout;)Lcom/mopub/common/privacy/ConsentDialogLayout$ConsentListener;
@@ -161,7 +151,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 3
     iget-object p1, p0, Lcom/mopub/common/privacy/ConsentDialogLayout$2;->this$0:Lcom/mopub/common/privacy/ConsentDialogLayout;
 
     invoke-static {p1}, Lcom/mopub/common/privacy/ConsentDialogLayout;->access$000(Lcom/mopub/common/privacy/ConsentDialogLayout;)Lcom/mopub/common/privacy/ConsentDialogLayout$ConsentListener;
@@ -178,14 +167,12 @@
     :cond_1
     const-string v0, "mopub://consent?no"
 
-    .line 4
     invoke-virtual {v0, p2}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v0
 
     if-eqz v0, :cond_3
 
-    .line 5
     iget-object p1, p0, Lcom/mopub/common/privacy/ConsentDialogLayout$2;->this$0:Lcom/mopub/common/privacy/ConsentDialogLayout;
 
     invoke-static {p1}, Lcom/mopub/common/privacy/ConsentDialogLayout;->access$000(Lcom/mopub/common/privacy/ConsentDialogLayout;)Lcom/mopub/common/privacy/ConsentDialogLayout$ConsentListener;
@@ -194,7 +181,6 @@
 
     if-eqz p1, :cond_2
 
-    .line 6
     iget-object p1, p0, Lcom/mopub/common/privacy/ConsentDialogLayout$2;->this$0:Lcom/mopub/common/privacy/ConsentDialogLayout;
 
     invoke-static {p1}, Lcom/mopub/common/privacy/ConsentDialogLayout;->access$000(Lcom/mopub/common/privacy/ConsentDialogLayout;)Lcom/mopub/common/privacy/ConsentDialogLayout$ConsentListener;
@@ -211,14 +197,12 @@
     :cond_3
     const-string v0, "mopub://close"
 
-    .line 7
     invoke-virtual {v0, p2}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v0
 
     if-eqz v0, :cond_5
 
-    .line 8
     iget-object p1, p0, Lcom/mopub/common/privacy/ConsentDialogLayout$2;->this$0:Lcom/mopub/common/privacy/ConsentDialogLayout;
 
     invoke-static {p1}, Lcom/mopub/common/privacy/ConsentDialogLayout;->access$000(Lcom/mopub/common/privacy/ConsentDialogLayout;)Lcom/mopub/common/privacy/ConsentDialogLayout$ConsentListener;
@@ -227,7 +211,6 @@
 
     if-eqz p1, :cond_4
 
-    .line 9
     iget-object p1, p0, Lcom/mopub/common/privacy/ConsentDialogLayout$2;->this$0:Lcom/mopub/common/privacy/ConsentDialogLayout;
 
     invoke-static {p1}, Lcom/mopub/common/privacy/ConsentDialogLayout;->access$000(Lcom/mopub/common/privacy/ConsentDialogLayout;)Lcom/mopub/common/privacy/ConsentDialogLayout$ConsentListener;
@@ -239,7 +222,6 @@
     :cond_4
     return v1
 
-    .line 10
     :cond_5
     invoke-static {p2}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
@@ -247,7 +229,6 @@
 
     if-nez v0, :cond_6
 
-    .line 11
     :try_start_0
     iget-object v0, p0, Lcom/mopub/common/privacy/ConsentDialogLayout$2;->this$0:Lcom/mopub/common/privacy/ConsentDialogLayout;
 
@@ -282,7 +263,6 @@
     :catch_0
     move-exception v0
 
-    .line 12
     sget-object v2, Lcom/mopub/common/logging/MoPubLog$SdkLogEvent;->CUSTOM:Lcom/mopub/common/logging/MoPubLog$SdkLogEvent;
 
     new-array v1, v1, [Ljava/lang/Object;
@@ -297,7 +277,6 @@
 
     invoke-static {v2, v1}, Lcom/mopub/common/logging/MoPubLog;->log(Lcom/mopub/common/logging/MoPubLog$MPLogEventType;[Ljava/lang/Object;)V
 
-    .line 13
     :cond_6
     invoke-super {p0, p1, p2}, Landroid/webkit/WebViewClient;->shouldOverrideUrlLoading(Landroid/webkit/WebView;Ljava/lang/String;)Z
 

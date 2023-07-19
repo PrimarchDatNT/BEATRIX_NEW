@@ -72,30 +72,24 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 2
     new-instance v1, Lcom/meitu/template/bean/Filter;
 
     invoke-direct {v1}, Lcom/meitu/template/bean/Filter;-><init>()V
 
     const/4 v2, 0x1
 
-    .line 3
     invoke-virtual {v1, v2}, Lcom/meitu/template/bean/Filter;->setDownloadState(I)V
 
     const/4 v2, 0x0
 
-    .line 4
     invoke-virtual {v1, v2}, Lcom/meitu/template/bean/Filter;->setFilterId(I)V
 
-    .line 5
     invoke-virtual {v1, v2}, Lcom/meitu/template/bean/Filter;->setCloneType(I)V
 
     const-string v2, "None"
 
-    .line 6
     invoke-virtual {v1, v2}, Lcom/meitu/template/bean/Filter;->setFilterNewName(Ljava/lang/String;)V
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
@@ -108,7 +102,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/beautyfilter/NewBeautyFilterManager$mOriFilter$2;->invoke()Lcom/meitu/template/bean/Filter;
 
     move-result-object v1

@@ -28,13 +28,10 @@
 .method constructor <init>(Lcom/google/android/gms/internal/ads/uq1;Landroid/content/Context;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/google/android/gms/internal/ads/w91;->a:Lcom/google/android/gms/internal/ads/uq1;
 
-    .line 3
     iput-object p2, p0, Lcom/google/android/gms/internal/ads/w91;->b:Landroid/content/Context;
 
     return-void
@@ -43,7 +40,6 @@
 .method public static b(Landroid/content/Context;Lorg/json/JSONArray;)Landroid/os/Bundle;
     .locals 9
 
-    .line 1
     new-instance v0, Landroid/os/Bundle;
 
     invoke-direct {v0}, Landroid/os/Bundle;-><init>()V
@@ -52,7 +48,6 @@
 
     const/4 v2, 0x0
 
-    .line 2
     :goto_0
     invoke-virtual {p1}, Lorg/json/JSONArray;->length()I
 
@@ -60,21 +55,18 @@
 
     if-ge v2, v3, :cond_c
 
-    .line 3
     invoke-virtual {p1, v2}, Lorg/json/JSONArray;->optJSONObject(I)Lorg/json/JSONObject;
 
     move-result-object v3
 
     const-string v4, "bk"
 
-    .line 4
     invoke-virtual {v3, v4}, Lorg/json/JSONObject;->optString(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v4
 
     const-string v5, "sk"
 
-    .line 5
     invoke-virtual {v3, v5}, Lorg/json/JSONObject;->optString(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v5
@@ -83,7 +75,6 @@
 
     const-string v7, "type"
 
-    .line 6
     invoke-virtual {v3, v7, v6}, Lorg/json/JSONObject;->optInt(Ljava/lang/String;I)I
 
     move-result v3
@@ -102,23 +93,19 @@
 
     goto :goto_1
 
-    .line 7
     :cond_0
     sget v3, Lcom/google/android/gms/internal/ads/aa1;->c:I
 
     goto :goto_1
 
-    .line 8
     :cond_1
     sget v3, Lcom/google/android/gms/internal/ads/aa1;->b:I
 
     goto :goto_1
 
-    .line 9
     :cond_2
     sget v3, Lcom/google/android/gms/internal/ads/aa1;->a:I
 
-    .line 10
     :goto_1
     invoke-static {v4}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
@@ -136,12 +123,10 @@
 
     const-string v8, "/"
 
-    .line 11
     invoke-virtual {v5, v8}, Ljava/lang/String;->split(Ljava/lang/String;)[Ljava/lang/String;
 
     move-result-object v5
 
-    .line 12
     array-length v8, v5
 
     if-gt v8, v6, :cond_5
@@ -152,23 +137,19 @@
 
     goto :goto_3
 
-    .line 13
     :cond_3
     array-length v8, v5
 
     if-ne v8, v7, :cond_4
 
-    .line 14
     invoke-static {p0}, Landroid/preference/PreferenceManager;->getDefaultSharedPreferences(Landroid/content/Context;)Landroid/content/SharedPreferences;
 
     move-result-object v8
 
-    .line 15
     aget-object v5, v5, v1
 
     goto :goto_2
 
-    .line 16
     :cond_4
     aget-object v8, v5, v1
 
@@ -176,10 +157,8 @@
 
     move-result-object v8
 
-    .line 17
     aget-object v5, v5, v7
 
-    .line 18
     :goto_2
     invoke-interface {v8}, Landroid/content/SharedPreferences;->getAll()Ljava/util/Map;
 
@@ -198,7 +177,6 @@
     :goto_4
     if-eqz v5, :cond_b
 
-    .line 19
     sget-object v8, Lcom/google/android/gms/internal/ads/ba1;->a:[I
 
     add-int/lit8 v3, v3, -0x1
@@ -215,13 +193,11 @@
 
     goto :goto_5
 
-    .line 20
     :cond_6
     instance-of v3, v5, Ljava/lang/Boolean;
 
     if-eqz v3, :cond_b
 
-    .line 21
     check-cast v5, Ljava/lang/Boolean;
 
     invoke-virtual {v5}, Ljava/lang/Boolean;->booleanValue()Z
@@ -232,13 +208,11 @@
 
     goto :goto_5
 
-    .line 22
     :cond_7
     instance-of v3, v5, Ljava/lang/Integer;
 
     if-eqz v3, :cond_8
 
-    .line 23
     check-cast v5, Ljava/lang/Integer;
 
     invoke-virtual {v5}, Ljava/lang/Integer;->intValue()I
@@ -249,13 +223,11 @@
 
     goto :goto_5
 
-    .line 24
     :cond_8
     instance-of v3, v5, Ljava/lang/Long;
 
     if-eqz v3, :cond_9
 
-    .line 25
     check-cast v5, Ljava/lang/Long;
 
     invoke-virtual {v5}, Ljava/lang/Long;->longValue()J
@@ -266,13 +238,11 @@
 
     goto :goto_5
 
-    .line 26
     :cond_9
     instance-of v3, v5, Ljava/lang/Float;
 
     if-eqz v3, :cond_b
 
-    .line 27
     check-cast v5, Ljava/lang/Float;
 
     invoke-virtual {v5}, Ljava/lang/Float;->floatValue()F
@@ -283,13 +253,11 @@
 
     goto :goto_5
 
-    .line 28
     :cond_a
     instance-of v3, v5, Ljava/lang/String;
 
     if-eqz v3, :cond_b
 
-    .line 29
     check-cast v5, Ljava/lang/String;
 
     invoke-virtual {v0, v4, v5}, Landroid/os/Bundle;->putString(Ljava/lang/String;Ljava/lang/String;)V
@@ -318,7 +286,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/w91;->a:Lcom/google/android/gms/internal/ads/uq1;
 
     new-instance v1, Lcom/google/android/gms/internal/ads/z91;
@@ -340,10 +307,8 @@
         }
     .end annotation
 
-    .line 1
     sget-object v0, Lcom/google/android/gms/internal/ads/w;->f4:Lcom/google/android/gms/internal/ads/h;
 
-    .line 2
     invoke-static {}, Lcom/google/android/gms/internal/ads/zm2;->e()Lcom/google/android/gms/internal/ads/s;
 
     move-result-object v1
@@ -352,10 +317,8 @@
 
     move-result-object v0
 
-    .line 3
     check-cast v0, Ljava/lang/String;
 
-    .line 4
     invoke-static {v0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v1
@@ -366,7 +329,6 @@
 
     return-object v2
 
-    .line 5
     :cond_0
     :try_start_0
     new-instance v1, Lorg/json/JSONArray;
@@ -375,14 +337,12 @@
     :try_end_0
     .catch Lorg/json/JSONException; {:try_start_0 .. :try_end_0} :catch_0
 
-    .line 6
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/w91;->b:Landroid/content/Context;
 
     invoke-static {v0, v1}, Lcom/google/android/gms/internal/ads/w91;->b(Landroid/content/Context;Lorg/json/JSONArray;)Landroid/os/Bundle;
 
     move-result-object v0
 
-    .line 7
     new-instance v1, Lcom/google/android/gms/internal/ads/y91;
 
     invoke-direct {v1, v0}, Lcom/google/android/gms/internal/ads/y91;-><init>(Landroid/os/Bundle;)V
@@ -394,7 +354,6 @@
 
     const-string v1, "JSON parsing error"
 
-    .line 8
     invoke-static {v1, v0}, Lcom/google/android/gms/internal/ads/aq;->b(Ljava/lang/String;Ljava/lang/Throwable;)V
 
     return-object v2

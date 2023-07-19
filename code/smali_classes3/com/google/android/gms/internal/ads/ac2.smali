@@ -23,7 +23,6 @@
 
     new-array v0, v0, [J
 
-    .line 1
     fill-array-data v0, :array_0
 
     sput-object v0, Lcom/google/android/gms/internal/ads/ac2;->d:[J
@@ -46,14 +45,12 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/16 v0, 0x8
 
     new-array v0, v0, [B
 
-    .line 2
     iput-object v0, p0, Lcom/google/android/gms/internal/ads/ac2;->a:[B
 
     return-void
@@ -64,7 +61,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     aget-byte v0, p0, v0
 
     int-to-long v0, v0
@@ -75,7 +71,6 @@
 
     if-eqz p2, :cond_0
 
-    .line 2
     sget-object p2, Lcom/google/android/gms/internal/ads/ac2;->d:[J
 
     add-int/lit8 v4, p1, -0x1
@@ -96,7 +91,6 @@
 
     shl-long/2addr v0, v4
 
-    .line 3
     aget-byte v4, p0, p2
 
     int-to-long v4, v4
@@ -118,7 +112,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     :goto_0
     sget-object v1, Lcom/google/android/gms/internal/ads/ac2;->d:[J
 
@@ -126,7 +119,6 @@
 
     if-ge v0, v2, :cond_1
 
-    .line 2
     aget-wide v2, v1, v0
 
     int-to-long v4, p0
@@ -162,10 +154,8 @@
 
     const/4 v0, 0x0
 
-    .line 1
     iput v0, p0, Lcom/google/android/gms/internal/ads/ac2;->b:I
 
-    .line 2
     iput v0, p0, Lcom/google/android/gms/internal/ads/ac2;->c:I
 
     return-void
@@ -180,7 +170,6 @@
         }
     .end annotation
 
-    .line 1
     iget v0, p0, Lcom/google/android/gms/internal/ads/ac2;->b:I
 
     const/4 v1, 0x0
@@ -189,7 +178,6 @@
 
     if-nez v0, :cond_2
 
-    .line 2
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/ac2;->a:[B
 
     invoke-interface {p1, v0, v1, v2, p2}, Lcom/google/android/gms/internal/ads/fb2;->A([BIIZ)Z
@@ -202,7 +190,6 @@
 
     return-wide p1
 
-    .line 3
     :cond_0
     iget-object p2, p0, Lcom/google/android/gms/internal/ads/ac2;->a:[B
 
@@ -210,7 +197,6 @@
 
     and-int/lit16 p2, p2, 0xff
 
-    .line 4
     invoke-static {p2}, Lcom/google/android/gms/internal/ads/ac2;->d(I)I
 
     move-result p2
@@ -221,12 +207,10 @@
 
     if-eq p2, v0, :cond_1
 
-    .line 5
     iput v2, p0, Lcom/google/android/gms/internal/ads/ac2;->b:I
 
     goto :goto_0
 
-    .line 6
     :cond_1
     new-instance p1, Ljava/lang/IllegalStateException;
 
@@ -236,14 +220,12 @@
 
     throw p1
 
-    .line 7
     :cond_2
     :goto_0
     iget p2, p0, Lcom/google/android/gms/internal/ads/ac2;->c:I
 
     if-le p2, p4, :cond_3
 
-    .line 8
     iput v1, p0, Lcom/google/android/gms/internal/ads/ac2;->b:I
 
     const-wide/16 p1, -0x2
@@ -253,18 +235,15 @@
     :cond_3
     if-eq p2, v2, :cond_4
 
-    .line 9
     iget-object p4, p0, Lcom/google/android/gms/internal/ads/ac2;->a:[B
 
     sub-int/2addr p2, v2
 
     invoke-interface {p1, p4, v2, p2}, Lcom/google/android/gms/internal/ads/fb2;->readFully([BII)V
 
-    .line 10
     :cond_4
     iput v1, p0, Lcom/google/android/gms/internal/ads/ac2;->b:I
 
-    .line 11
     iget-object p1, p0, Lcom/google/android/gms/internal/ads/ac2;->a:[B
 
     iget p2, p0, Lcom/google/android/gms/internal/ads/ac2;->c:I
@@ -279,7 +258,6 @@
 .method public final e()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lcom/google/android/gms/internal/ads/ac2;->c:I
 
     return v0

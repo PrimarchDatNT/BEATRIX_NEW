@@ -22,7 +22,6 @@
 .method constructor <init>(Lcom/commsource/beautyplus/armaterial/i;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/beautyplus/armaterial/i$e;->a:Lcom/commsource/beautyplus/armaterial/i;
 
     invoke-direct {p0}, Landroid/animation/AnimatorListenerAdapter;-><init>()V
@@ -39,10 +38,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0, p1}, Landroid/animation/AnimatorListenerAdapter;->onAnimationEnd(Landroid/animation/Animator;)V
 
-    .line 2
     iget-object p1, p0, Lcom/commsource/beautyplus/armaterial/i$e;->a:Lcom/commsource/beautyplus/armaterial/i;
 
     invoke-static {p1}, Lcom/commsource/beautyplus/armaterial/i;->C(Lcom/commsource/beautyplus/armaterial/i;)Lcom/commsource/beautyplus/f0/y6;
@@ -51,7 +48,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 3
     iget-object p1, p0, Lcom/commsource/beautyplus/armaterial/i$e;->a:Lcom/commsource/beautyplus/armaterial/i;
 
     invoke-static {p1}, Lcom/commsource/beautyplus/armaterial/i;->C(Lcom/commsource/beautyplus/armaterial/i;)Lcom/commsource/beautyplus/f0/y6;
@@ -62,7 +58,6 @@
 
     invoke-virtual {p1}, Landroid/widget/EditText;->requestFocus()Z
 
-    .line 4
     iget-object p1, p0, Lcom/commsource/beautyplus/armaterial/i$e;->a:Lcom/commsource/beautyplus/armaterial/i;
 
     invoke-static {p1}, Lcom/commsource/beautyplus/armaterial/i;->C(Lcom/commsource/beautyplus/armaterial/i;)Lcom/commsource/beautyplus/f0/y6;
@@ -73,7 +68,6 @@
 
     invoke-static {p1}, Lcom/commsource/camera/f1/r;->e(Landroid/widget/EditText;)V
 
-    .line 5
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

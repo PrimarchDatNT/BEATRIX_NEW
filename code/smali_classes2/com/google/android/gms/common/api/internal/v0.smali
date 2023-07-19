@@ -13,10 +13,8 @@
 .method public constructor <init>(Lcom/google/android/gms/common/api/internal/f1;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/google/android/gms/common/api/internal/v0;->a:Lcom/google/android/gms/common/api/internal/f1;
 
     return-void
@@ -52,7 +50,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance p1, Ljava/lang/IllegalStateException;
 
     const-string v0, "GoogleApiClient is not connected yet."
@@ -76,7 +73,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/common/api/internal/v0;->a:Lcom/google/android/gms/common/api/internal/f1;
 
     iget-object v0, v0, Lcom/google/android/gms/common/api/internal/f1;->P:Lcom/google/android/gms/common/api/internal/w0;
@@ -97,10 +93,8 @@
 .method public final c()V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/common/api/internal/v0;->a:Lcom/google/android/gms/common/api/internal/f1;
 
-    .line 2
     iget-object v0, v0, Lcom/google/android/gms/common/api/internal/f1;->g:Ljava/util/Map;
 
     invoke-interface {v0}, Ljava/util/Map;->values()Ljava/util/Collection;
@@ -124,12 +118,10 @@
 
     check-cast v1, Lcom/google/android/gms/common/api/a$f;
 
-    .line 3
     invoke-interface {v1}, Lcom/google/android/gms/common/api/a$f;->disconnect()V
 
     goto :goto_0
 
-    .line 4
     :cond_0
     iget-object v0, p0, Lcom/google/android/gms/common/api/internal/v0;->a:Lcom/google/android/gms/common/api/internal/f1;
 
@@ -147,7 +139,6 @@
 .method public final connect()V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/common/api/internal/v0;->a:Lcom/google/android/gms/common/api/internal/f1;
 
     invoke-virtual {v0}, Lcom/google/android/gms/common/api/internal/f1;->k()V

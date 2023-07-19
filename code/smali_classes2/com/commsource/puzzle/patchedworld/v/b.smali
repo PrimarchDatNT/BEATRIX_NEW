@@ -38,7 +38,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -79,13 +78,10 @@
         }
     .end annotation
 
-    .line 2
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 3
     iput-object p1, p0, Lcom/commsource/puzzle/patchedworld/v/b;->b:Ljava/util/List;
 
-    .line 4
     iput-object p2, p0, Lcom/commsource/puzzle/patchedworld/v/b;->a:Lcom/commsource/puzzle/patchedworld/v/b$b;
 
     return-void
@@ -94,7 +90,6 @@
 .method synthetic constructor <init>(Ljava/util/List;Lcom/commsource/puzzle/patchedworld/v/b$b;Lcom/commsource/puzzle/patchedworld/v/b$a;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1, p2}, Lcom/commsource/puzzle/patchedworld/v/b;-><init>(Ljava/util/List;Lcom/commsource/puzzle/patchedworld/v/b$b;)V
 
     return-void
@@ -107,7 +102,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/commsource/puzzle/patchedworld/v/b$c;
 
     invoke-direct {v1}, Lcom/commsource/puzzle/patchedworld/v/b$c;-><init>()V
@@ -124,7 +118,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/puzzle/patchedworld/v/b;->a:Lcom/commsource/puzzle/patchedworld/v/b$b;
 
     iget v2, v1, Lcom/commsource/puzzle/patchedworld/v/b$b;->a:F
@@ -137,7 +130,6 @@
 
     div-float/2addr v2, v1
 
-    .line 2
     new-instance v1, Landroid/graphics/PointF;
 
     iget-object v3, p0, Lcom/commsource/puzzle/patchedworld/v/b;->a:Lcom/commsource/puzzle/patchedworld/v/b$b;
@@ -150,7 +142,6 @@
 
     invoke-direct {v1, v4, v2}, Landroid/graphics/PointF;-><init>(FF)V
 
-    .line 3
     new-instance v2, Lcom/commsource/puzzle/patchedworld/v/a;
 
     invoke-direct {v2, v1, p1}, Lcom/commsource/puzzle/patchedworld/v/a;-><init>(Landroid/graphics/PointF;Landroid/graphics/PointF;)V
@@ -167,7 +158,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p1, Landroid/graphics/PointF;->x:F
 
     iget-object v2, p0, Lcom/commsource/puzzle/patchedworld/v/b;->a:Lcom/commsource/puzzle/patchedworld/v/b$b;
@@ -218,7 +208,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p1}, Lcom/commsource/puzzle/patchedworld/v/a;->f()Z
 
     move-result v1
@@ -233,7 +222,6 @@
 
     if-nez v1, :cond_1
 
-    .line 2
     invoke-virtual {p1}, Lcom/commsource/puzzle/patchedworld/v/a;->b()F
 
     move-result v1
@@ -250,12 +238,10 @@
 
     if-nez v1, :cond_0
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v2
 
-    .line 4
     :cond_0
     invoke-virtual {p2}, Lcom/commsource/puzzle/patchedworld/v/a;->d()F
 
@@ -279,7 +265,6 @@
 
     div-float/2addr v1, v3
 
-    .line 5
     invoke-virtual {p2}, Lcom/commsource/puzzle/patchedworld/v/a;->b()F
 
     move-result v3
@@ -292,14 +277,12 @@
 
     add-float/2addr v3, v4
 
-    .line 6
     new-instance v4, Landroid/graphics/PointF;
 
     invoke-direct {v4, v1, v3}, Landroid/graphics/PointF;-><init>(FF)V
 
     goto :goto_0
 
-    .line 7
     :cond_1
     invoke-virtual {p1}, Lcom/commsource/puzzle/patchedworld/v/a;->f()Z
 
@@ -313,14 +296,12 @@
 
     if-nez v1, :cond_2
 
-    .line 8
     invoke-virtual {p1}, Lcom/commsource/puzzle/patchedworld/v/a;->c()Landroid/graphics/PointF;
 
     move-result-object v1
 
     iget v1, v1, Landroid/graphics/PointF;->x:F
 
-    .line 9
     invoke-virtual {p2}, Lcom/commsource/puzzle/patchedworld/v/a;->b()F
 
     move-result v3
@@ -333,14 +314,12 @@
 
     add-float/2addr v3, v4
 
-    .line 10
     new-instance v4, Landroid/graphics/PointF;
 
     invoke-direct {v4, v1, v3}, Landroid/graphics/PointF;-><init>(FF)V
 
     goto :goto_0
 
-    .line 11
     :cond_2
     invoke-virtual {p1}, Lcom/commsource/puzzle/patchedworld/v/a;->f()Z
 
@@ -354,14 +333,12 @@
 
     if-eqz v1, :cond_4
 
-    .line 12
     invoke-virtual {p2}, Lcom/commsource/puzzle/patchedworld/v/a;->c()Landroid/graphics/PointF;
 
     move-result-object v1
 
     iget v1, v1, Landroid/graphics/PointF;->x:F
 
-    .line 13
     invoke-virtual {p1}, Lcom/commsource/puzzle/patchedworld/v/a;->b()F
 
     move-result v3
@@ -374,12 +351,10 @@
 
     add-float/2addr v3, v4
 
-    .line 14
     new-instance v4, Landroid/graphics/PointF;
 
     invoke-direct {v4, v1, v3}, Landroid/graphics/PointF;-><init>(FF)V
 
-    .line 15
     :goto_0
     invoke-virtual {p2, v4}, Lcom/commsource/puzzle/patchedworld/v/a;->e(Landroid/graphics/PointF;)Z
 
@@ -400,7 +375,6 @@
 
     return v2
 
-    .line 16
     :cond_4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -416,7 +390,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -439,7 +412,6 @@
 
     invoke-static {v2, v1}, Lcom/meitu/library/util/Debug/Debug;->e(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 2
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -460,7 +432,6 @@
 
     invoke-static {v2, v1}, Lcom/meitu/library/util/Debug/Debug;->e(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 3
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -481,7 +452,6 @@
 
     invoke-static {v2, v1}, Lcom/meitu/library/util/Debug/Debug;->e(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 4
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -502,7 +472,6 @@
 
     invoke-static {v2, v1}, Lcom/meitu/library/util/Debug/Debug;->e(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 5
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -523,7 +492,6 @@
 
     invoke-static {v2, v1}, Lcom/meitu/library/util/Debug/Debug;->e(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 6
     invoke-direct {p0, p1}, Lcom/commsource/puzzle/patchedworld/v/b;->e(Landroid/graphics/PointF;)Z
 
     move-result v1
@@ -532,12 +500,10 @@
 
     if-eqz v1, :cond_2
 
-    .line 7
     invoke-direct {p0, p1}, Lcom/commsource/puzzle/patchedworld/v/b;->c(Landroid/graphics/PointF;)Lcom/commsource/puzzle/patchedworld/v/a;
 
     move-result-object p1
 
-    .line 8
     iget-object v1, p0, Lcom/commsource/puzzle/patchedworld/v/b;->b:Ljava/util/List;
 
     invoke-interface {v1}, Ljava/util/List;->iterator()Ljava/util/Iterator;
@@ -560,7 +526,6 @@
 
     check-cast v5, Lcom/commsource/puzzle/patchedworld/v/a;
 
-    .line 9
     invoke-direct {p0, p1, v5}, Lcom/commsource/puzzle/patchedworld/v/b;->f(Lcom/commsource/puzzle/patchedworld/v/a;Lcom/commsource/puzzle/patchedworld/v/a;)Z
 
     move-result v5
@@ -571,7 +536,6 @@
 
     goto :goto_0
 
-    .line 10
     :cond_1
     rem-int/lit8 v4, v4, 0x2
 
@@ -581,10 +545,8 @@
 
     const-string v1, "insize= true"
 
-    .line 11
     invoke-static {v2, v1}, Lcom/meitu/library/util/Debug/Debug;->e(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 12
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
@@ -592,10 +554,8 @@
     :cond_2
     const-string p1, "insize= false"
 
-    .line 13
     invoke-static {v2, p1}, Lcom/meitu/library/util/Debug/Debug;->e(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 14
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v3
@@ -616,7 +576,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/puzzle/patchedworld/v/b;->b:Ljava/util/List;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -631,110 +590,90 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
 
     const-string v2, "BoundingBox: ["
 
-    .line 2
     invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     iget-object v2, p0, Lcom/commsource/puzzle/patchedworld/v/b;->a:Lcom/commsource/puzzle/patchedworld/v/b$b;
 
     iget v2, v2, Lcom/commsource/puzzle/patchedworld/v/b$b;->b:F
 
-    .line 3
     invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(F)Ljava/lang/StringBuilder;
 
     const-string v2, ","
 
-    .line 4
     invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     iget-object v2, p0, Lcom/commsource/puzzle/patchedworld/v/b;->a:Lcom/commsource/puzzle/patchedworld/v/b$b;
 
     iget v2, v2, Lcom/commsource/puzzle/patchedworld/v/b$b;->d:F
 
-    .line 5
     invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(F)Ljava/lang/StringBuilder;
 
     const-string v2, "], ["
 
-    .line 6
     invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     iget-object v3, p0, Lcom/commsource/puzzle/patchedworld/v/b;->a:Lcom/commsource/puzzle/patchedworld/v/b$b;
 
     iget v3, v3, Lcom/commsource/puzzle/patchedworld/v/b$b;->a:F
 
-    .line 7
     invoke-virtual {v1, v3}, Ljava/lang/StringBuilder;->append(F)Ljava/lang/StringBuilder;
 
     const-string v3, ", "
 
-    .line 8
     invoke-virtual {v1, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     iget-object v4, p0, Lcom/commsource/puzzle/patchedworld/v/b;->a:Lcom/commsource/puzzle/patchedworld/v/b$b;
 
     iget v4, v4, Lcom/commsource/puzzle/patchedworld/v/b$b;->d:F
 
-    .line 9
     invoke-virtual {v1, v4}, Ljava/lang/StringBuilder;->append(F)Ljava/lang/StringBuilder;
 
-    .line 10
     invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     iget-object v4, p0, Lcom/commsource/puzzle/patchedworld/v/b;->a:Lcom/commsource/puzzle/patchedworld/v/b$b;
 
     iget v4, v4, Lcom/commsource/puzzle/patchedworld/v/b$b;->b:F
 
-    .line 11
     invoke-virtual {v1, v4}, Ljava/lang/StringBuilder;->append(F)Ljava/lang/StringBuilder;
 
-    .line 12
     invoke-virtual {v1, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     iget-object v4, p0, Lcom/commsource/puzzle/patchedworld/v/b;->a:Lcom/commsource/puzzle/patchedworld/v/b$b;
 
     iget v4, v4, Lcom/commsource/puzzle/patchedworld/v/b$b;->c:F
 
-    .line 13
     invoke-virtual {v1, v4}, Ljava/lang/StringBuilder;->append(F)Ljava/lang/StringBuilder;
 
-    .line 14
     invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     iget-object v2, p0, Lcom/commsource/puzzle/patchedworld/v/b;->a:Lcom/commsource/puzzle/patchedworld/v/b$b;
 
     iget v2, v2, Lcom/commsource/puzzle/patchedworld/v/b$b;->a:F
 
-    .line 15
     invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(F)Ljava/lang/StringBuilder;
 
-    .line 16
     invoke-virtual {v1, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     iget-object v2, p0, Lcom/commsource/puzzle/patchedworld/v/b;->a:Lcom/commsource/puzzle/patchedworld/v/b$b;
 
     iget v2, v2, Lcom/commsource/puzzle/patchedworld/v/b$b;->c:F
 
-    .line 17
     invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(F)Ljava/lang/StringBuilder;
 
     const-string v2, "]"
 
-    .line 18
     invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     const-string v4, "\nPolygon edges"
 
-    .line 19
     invoke-virtual {v1, v4}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 20
     iget-object v4, p0, Lcom/commsource/puzzle/patchedworld/v/b;->b:Ljava/util/List;
 
     invoke-interface {v4}, Ljava/util/List;->iterator()Ljava/util/Iterator;
@@ -756,10 +695,8 @@
 
     const-string v6, "\n["
 
-    .line 21
     invoke-virtual {v1, v6}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 22
     invoke-virtual {v5}, Lcom/commsource/puzzle/patchedworld/v/a;->c()Landroid/graphics/PointF;
 
     move-result-object v6
@@ -768,10 +705,8 @@
 
     invoke-virtual {v1, v6}, Ljava/lang/StringBuilder;->append(F)Ljava/lang/StringBuilder;
 
-    .line 23
     invoke-virtual {v1, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 24
     invoke-virtual {v5}, Lcom/commsource/puzzle/patchedworld/v/a;->c()Landroid/graphics/PointF;
 
     move-result-object v6
@@ -782,10 +717,8 @@
 
     const-string v6, "] --> ["
 
-    .line 25
     invoke-virtual {v1, v6}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 26
     invoke-virtual {v5}, Lcom/commsource/puzzle/patchedworld/v/a;->a()Landroid/graphics/PointF;
 
     move-result-object v6
@@ -794,10 +727,8 @@
 
     invoke-virtual {v1, v6}, Ljava/lang/StringBuilder;->append(F)Ljava/lang/StringBuilder;
 
-    .line 27
     invoke-virtual {v1, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 28
     invoke-virtual {v5}, Lcom/commsource/puzzle/patchedworld/v/a;->a()Landroid/graphics/PointF;
 
     move-result-object v5
@@ -806,12 +737,10 @@
 
     invoke-virtual {v1, v5}, Ljava/lang/StringBuilder;->append(F)Ljava/lang/StringBuilder;
 
-    .line 29
     invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     goto :goto_0
 
-    .line 30
     :cond_0
     invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 

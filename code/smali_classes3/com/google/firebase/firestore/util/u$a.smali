@@ -33,7 +33,6 @@
 .method constructor <init>(Lcom/google/firebase/firestore/util/u;Lcom/google/firebase/firestore/util/v;Lio/grpc/h;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/firebase/firestore/util/u$a;->c:Lcom/google/firebase/firestore/util/u;
 
     iput-object p2, p0, Lcom/google/firebase/firestore/util/u$a;->a:Lcom/google/firebase/firestore/util/v;
@@ -50,7 +49,6 @@
 .method public a(Lio/grpc/Status;Lio/grpc/y0;)V
     .locals 0
 
-    .line 1
     :try_start_0
     iget-object p2, p0, Lcom/google/firebase/firestore/util/u$a;->a:Lcom/google/firebase/firestore/util/v;
 
@@ -63,7 +61,6 @@
     :catchall_0
     move-exception p1
 
-    .line 2
     iget-object p2, p0, Lcom/google/firebase/firestore/util/u$a;->c:Lcom/google/firebase/firestore/util/u;
 
     invoke-static {p2}, Lcom/google/firebase/firestore/util/u;->a(Lcom/google/firebase/firestore/util/u;)Lcom/google/firebase/firestore/util/AsyncQueue;
@@ -79,7 +76,6 @@
 .method public b(Lio/grpc/y0;)V
     .locals 1
 
-    .line 1
     :try_start_0
     iget-object v0, p0, Lcom/google/firebase/firestore/util/u$a;->a:Lcom/google/firebase/firestore/util/v;
 
@@ -92,7 +88,6 @@
     :catchall_0
     move-exception p1
 
-    .line 2
     iget-object v0, p0, Lcom/google/firebase/firestore/util/u$a;->c:Lcom/google/firebase/firestore/util/u;
 
     invoke-static {v0}, Lcom/google/firebase/firestore/util/u;->a(Lcom/google/firebase/firestore/util/u;)Lcom/google/firebase/firestore/util/AsyncQueue;
@@ -113,13 +108,11 @@
         }
     .end annotation
 
-    .line 1
     :try_start_0
     iget-object v0, p0, Lcom/google/firebase/firestore/util/u$a;->a:Lcom/google/firebase/firestore/util/v;
 
     invoke-interface {v0, p1}, Lcom/google/firebase/firestore/util/v;->a(Ljava/lang/Object;)V
 
-    .line 2
     iget-object p1, p0, Lcom/google/firebase/firestore/util/u$a;->b:Lio/grpc/h;
 
     const/4 v0, 0x1
@@ -133,7 +126,6 @@
     :catchall_0
     move-exception p1
 
-    .line 3
     iget-object v0, p0, Lcom/google/firebase/firestore/util/u$a;->c:Lcom/google/firebase/firestore/util/u;
 
     invoke-static {v0}, Lcom/google/firebase/firestore/util/u;->a(Lcom/google/firebase/firestore/util/u;)Lcom/google/firebase/firestore/util/AsyncQueue;
@@ -149,7 +141,6 @@
 .method public d()V
     .locals 2
 
-    .line 1
     :try_start_0
     iget-object v0, p0, Lcom/google/firebase/firestore/util/u$a;->a:Lcom/google/firebase/firestore/util/v;
 
@@ -162,7 +153,6 @@
     :catchall_0
     move-exception v0
 
-    .line 2
     iget-object v1, p0, Lcom/google/firebase/firestore/util/u$a;->c:Lcom/google/firebase/firestore/util/u;
 
     invoke-static {v1}, Lcom/google/firebase/firestore/util/u;->a(Lcom/google/firebase/firestore/util/u;)Lcom/google/firebase/firestore/util/AsyncQueue;

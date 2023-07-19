@@ -26,15 +26,12 @@
 .method public final d(Ljava/lang/Object;)Lcom/google/android/gms/internal/ads/rq1;
     .locals 0
 
-    .line 1
     check-cast p1, Ljava/io/InputStream;
 
-    .line 2
     invoke-static {p1}, Lcom/google/android/gms/internal/ads/xh1;->a(Ljava/io/InputStream;)Landroid/os/ParcelFileDescriptor;
 
     move-result-object p1
 
-    .line 3
     invoke-static {p1}, Lcom/google/android/gms/internal/ads/jq1;->g(Ljava/lang/Object;)Lcom/google/android/gms/internal/ads/rq1;
 
     move-result-object p1

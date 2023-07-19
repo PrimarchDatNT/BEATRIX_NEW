@@ -7,7 +7,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -22,7 +21,6 @@
     .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
-    .line 1
     instance-of v0, p0, Landroid/app/Activity;
 
     if-nez v0, :cond_0
@@ -31,7 +29,6 @@
 
     return-object p0
 
-    .line 2
     :cond_0
     check-cast p0, Landroid/app/Activity;
 
@@ -67,7 +64,6 @@
 
     return-object v0
 
-    .line 1
     :cond_0
     invoke-static {p0}, Landroidx/core/view/ViewCompat;->isAttachedToWindow(Landroid/view/View;)Z
 
@@ -75,7 +71,6 @@
 
     if-nez v1, :cond_1
 
-    .line 2
     sget-object v1, Lcom/mopub/common/logging/MoPubLog$SdkLogEvent;->CUSTOM:Lcom/mopub/common/logging/MoPubLog$SdkLogEvent;
 
     const/4 v2, 0x1
@@ -90,7 +85,6 @@
 
     invoke-static {v1, v2}, Lcom/mopub/common/logging/MoPubLog;->log(Lcom/mopub/common/logging/MoPubLog$MPLogEventType;[Ljava/lang/Object;)V
 
-    .line 3
     :cond_1
     invoke-virtual {p0}, Landroid/view/View;->getRootView()Landroid/view/View;
 
@@ -103,7 +97,6 @@
     :cond_2
     const v0, 0x1020002
 
-    .line 4
     invoke-virtual {p0, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v0
@@ -129,12 +122,10 @@
     .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
-    .line 1
     invoke-static {p0}, Lcom/mopub/common/util/Views;->getRootViewFromActivity(Landroid/content/Context;)Landroid/view/View;
 
     move-result-object p0
 
-    .line 2
     invoke-static {p1}, Lcom/mopub/common/util/Views;->getRootViewFromView(Landroid/view/View;)Landroid/view/View;
 
     move-result-object p1
@@ -159,7 +150,6 @@
 
     if-eqz p0, :cond_1
 
-    .line 1
     invoke-virtual {p0}, Landroid/view/View;->getParent()Landroid/view/ViewParent;
 
     move-result-object v0
@@ -168,7 +158,6 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     invoke-virtual {p0}, Landroid/view/View;->getParent()Landroid/view/ViewParent;
 
@@ -178,7 +167,6 @@
 
     if-eqz v0, :cond_1
 
-    .line 3
     invoke-virtual {p0}, Landroid/view/View;->getParent()Landroid/view/ViewParent;
 
     move-result-object v0

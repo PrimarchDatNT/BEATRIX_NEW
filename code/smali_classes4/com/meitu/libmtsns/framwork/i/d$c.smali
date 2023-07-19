@@ -29,7 +29,6 @@
 .method constructor <init>(Lcom/meitu/libmtsns/framwork/i/d;Lcom/meitu/libmtsns/framwork/i/e;Landroid/app/Activity;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/libmtsns/framwork/i/d$c;->c:Lcom/meitu/libmtsns/framwork/i/d;
 
     iput-object p2, p0, Lcom/meitu/libmtsns/framwork/i/d$c;->a:Lcom/meitu/libmtsns/framwork/i/e;
@@ -50,7 +49,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/libmtsns/framwork/i/d$c;->a:Lcom/meitu/libmtsns/framwork/i/e;
 
     iget-object v2, p0, Lcom/meitu/libmtsns/framwork/i/d$c;->c:Lcom/meitu/libmtsns/framwork/i/d;
@@ -59,7 +57,6 @@
 
     const/16 v4, -0x3eb
 
-    .line 2
     invoke-static {v3, v4}, Lcom/meitu/libmtsns/c/c/b;->a(Landroid/content/Context;I)Lcom/meitu/libmtsns/c/c/b;
 
     move-result-object v3
@@ -70,10 +67,8 @@
 
     const v5, 0x10001
 
-    .line 3
     invoke-virtual {v1, v2, v5, v3, v4}, Lcom/meitu/libmtsns/framwork/i/e;->c(Lcom/meitu/libmtsns/framwork/i/d;ILcom/meitu/libmtsns/c/c/b;[Ljava/lang/Object;)V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

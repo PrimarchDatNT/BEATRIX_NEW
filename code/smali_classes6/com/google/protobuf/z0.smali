@@ -44,7 +44,6 @@
 
     const-string v0, "UTF-8"
 
-    .line 1
     invoke-static {v0}, Ljava/nio/charset/Charset;->forName(Ljava/lang/String;)Ljava/nio/charset/Charset;
 
     move-result-object v0
@@ -53,7 +52,6 @@
 
     const-string v0, "ISO-8859-1"
 
-    .line 2
     invoke-static {v0}, Ljava/nio/charset/Charset;->forName(Ljava/lang/String;)Ljava/nio/charset/Charset;
 
     move-result-object v0
@@ -64,17 +62,14 @@
 
     new-array v0, v0, [B
 
-    .line 3
     sput-object v0, Lcom/google/protobuf/z0;->d:[B
 
-    .line 4
     invoke-static {v0}, Ljava/nio/ByteBuffer;->wrap([B)Ljava/nio/ByteBuffer;
 
     move-result-object v1
 
     sput-object v1, Lcom/google/protobuf/z0;->e:Ljava/nio/ByteBuffer;
 
-    .line 5
     invoke-static {v0}, Lcom/google/protobuf/q;->n([B)Lcom/google/protobuf/q;
 
     move-result-object v0
@@ -87,7 +82,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -96,7 +90,6 @@
 .method private static synthetic a()V
     .locals 9
 
-    .line 1
     new-instance v8, Ln/a/b/c/e;
 
     const-class v0, Lcom/google/protobuf/z0;
@@ -141,7 +134,6 @@
 .method public static b(Ljava/lang/String;)[B
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/google/protobuf/z0;->b:Ljava/nio/charset/Charset;
 
     invoke-virtual {p0, v0}, Ljava/lang/String;->getBytes(Ljava/nio/charset/Charset;)[B
@@ -154,7 +146,6 @@
 .method public static c(Ljava/lang/String;)Ljava/nio/ByteBuffer;
     .locals 0
 
-    .line 1
     invoke-static {p0}, Lcom/google/protobuf/z0;->b(Ljava/lang/String;)[B
 
     move-result-object p0
@@ -169,7 +160,6 @@
 .method public static d(Ljava/lang/String;)Lcom/google/protobuf/ByteString;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/google/protobuf/z0;->b:Ljava/nio/charset/Charset;
 
     invoke-virtual {p0, v0}, Ljava/lang/String;->getBytes(Ljava/nio/charset/Charset;)[B
@@ -186,15 +176,12 @@
 .method public static e(Ljava/nio/ByteBuffer;)Ljava/nio/ByteBuffer;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Ljava/nio/ByteBuffer;->duplicate()Ljava/nio/ByteBuffer;
 
     move-result-object p0
 
-    .line 2
     invoke-virtual {p0}, Ljava/nio/ByteBuffer;->clear()Ljava/nio/Buffer;
 
-    .line 3
     invoke-virtual {p0}, Ljava/nio/ByteBuffer;->capacity()I
 
     move-result v0
@@ -203,10 +190,8 @@
 
     move-result-object v0
 
-    .line 4
     invoke-virtual {v0, p0}, Ljava/nio/ByteBuffer;->put(Ljava/nio/ByteBuffer;)Ljava/nio/ByteBuffer;
 
-    .line 5
     invoke-virtual {v0}, Ljava/nio/ByteBuffer;->clear()Ljava/nio/Buffer;
 
     return-object v0
@@ -224,7 +209,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-interface {p0}, Ljava/util/List;->size()I
 
     move-result v0
@@ -242,7 +226,6 @@
     :cond_0
     const/4 v0, 0x0
 
-    .line 2
     :goto_0
     invoke-interface {p0}, Ljava/util/List;->size()I
 
@@ -250,7 +233,6 @@
 
     if-ge v0, v1, :cond_2
 
-    .line 3
     invoke-interface {p0, v0}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object v1
@@ -285,7 +267,6 @@
 .method public static g(Ljava/nio/ByteBuffer;Ljava/nio/ByteBuffer;)Z
     .locals 2
 
-    .line 1
     invoke-virtual {p0}, Ljava/nio/ByteBuffer;->capacity()I
 
     move-result v0
@@ -300,7 +281,6 @@
 
     return p0
 
-    .line 2
     :cond_0
     invoke-virtual {p0}, Ljava/nio/ByteBuffer;->duplicate()Ljava/nio/ByteBuffer;
 
@@ -339,7 +319,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-interface {p0}, Ljava/util/List;->size()I
 
     move-result v0
@@ -357,7 +336,6 @@
     :cond_0
     const/4 v0, 0x0
 
-    .line 2
     :goto_0
     invoke-interface {p0}, Ljava/util/List;->size()I
 
@@ -365,7 +343,6 @@
 
     if-ge v0, v1, :cond_2
 
-    .line 3
     invoke-interface {p0, v0}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object v1
@@ -416,14 +393,12 @@
 
     new-array v2, v1, [Ljava/lang/Class;
 
-    .line 1
     invoke-virtual {p0, v0, v2}, Ljava/lang/Class;->getMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
 
     move-result-object v0
 
     new-array v2, v1, [Ljava/lang/Object;
 
-    .line 2
     sget-object v3, Lcom/google/protobuf/z0;->g:Lorg/aspectj/lang/c$b;
 
     const/4 v4, 0x0
@@ -477,7 +452,6 @@
     :catch_0
     move-exception v0
 
-    .line 3
     new-instance v1, Ljava/lang/RuntimeException;
 
     new-instance v2, Ljava/lang/StringBuilder;
@@ -525,7 +499,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-interface {p0}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
     move-result-object p0
@@ -547,7 +520,6 @@
 
     mul-int/lit8 v0, v0, 0x1f
 
-    .line 2
     invoke-static {v1}, Lcom/google/protobuf/z0;->l([B)I
 
     move-result v1
@@ -563,7 +535,6 @@
 .method public static l([B)I
     .locals 2
 
-    .line 1
     array-length v0, p0
 
     const/4 v1, 0x0
@@ -578,7 +549,6 @@
 .method static m([BII)I
     .locals 0
 
-    .line 1
     invoke-static {p2, p0, p1, p2}, Lcom/google/protobuf/z0;->v(I[BII)I
 
     move-result p0
@@ -594,7 +564,6 @@
 .method public static n(Ljava/nio/ByteBuffer;)I
     .locals 6
 
-    .line 1
     invoke-virtual {p0}, Ljava/nio/ByteBuffer;->hasArray()Z
 
     move-result v0
@@ -603,7 +572,6 @@
 
     if-eqz v0, :cond_1
 
-    .line 2
     invoke-virtual {p0}, Ljava/nio/ByteBuffer;->capacity()I
 
     move-result v0
@@ -634,7 +602,6 @@
     :goto_0
     return v1
 
-    .line 3
     :cond_1
     invoke-virtual {p0}, Ljava/nio/ByteBuffer;->capacity()I
 
@@ -646,30 +613,24 @@
 
     goto :goto_1
 
-    .line 4
     :cond_2
     invoke-virtual {p0}, Ljava/nio/ByteBuffer;->capacity()I
 
     move-result v2
 
-    .line 5
     :goto_1
     new-array v0, v2, [B
 
-    .line 6
     invoke-virtual {p0}, Ljava/nio/ByteBuffer;->duplicate()Ljava/nio/ByteBuffer;
 
     move-result-object v3
 
-    .line 7
     invoke-virtual {v3}, Ljava/nio/ByteBuffer;->clear()Ljava/nio/Buffer;
 
-    .line 8
     invoke-virtual {p0}, Ljava/nio/ByteBuffer;->capacity()I
 
     move-result p0
 
-    .line 9
     :goto_2
     invoke-virtual {v3}, Ljava/nio/ByteBuffer;->remaining()I
 
@@ -677,14 +638,12 @@
 
     if-lez v4, :cond_4
 
-    .line 10
     invoke-virtual {v3}, Ljava/nio/ByteBuffer;->remaining()I
 
     move-result v4
 
     if-gt v4, v2, :cond_3
 
-    .line 11
     invoke-virtual {v3}, Ljava/nio/ByteBuffer;->remaining()I
 
     move-result v4
@@ -697,10 +656,8 @@
     :goto_3
     const/4 v5, 0x0
 
-    .line 12
     invoke-virtual {v3, v0, v5, v4}, Ljava/nio/ByteBuffer;->get([BII)Ljava/nio/ByteBuffer;
 
-    .line 13
     invoke-static {p0, v0, v5, v4}, Lcom/google/protobuf/z0;->v(I[BII)I
 
     move-result p0
@@ -730,7 +687,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-interface {p0}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
     move-result-object p0
@@ -752,7 +708,6 @@
 
     mul-int/lit8 v0, v0, 0x1f
 
-    .line 2
     invoke-static {v1}, Lcom/google/protobuf/z0;->n(Ljava/nio/ByteBuffer;)I
 
     move-result v1
@@ -768,7 +723,6 @@
 .method public static p(Lcom/google/protobuf/z0$c;)I
     .locals 0
 
-    .line 1
     invoke-interface {p0}, Lcom/google/protobuf/z0$c;->getNumber()I
 
     move-result p0
@@ -788,7 +742,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-interface {p0}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
     move-result-object p0
@@ -810,7 +763,6 @@
 
     mul-int/lit8 v0, v0, 0x1f
 
-    .line 2
     invoke-static {v1}, Lcom/google/protobuf/z0;->p(Lcom/google/protobuf/z0$c;)I
 
     move-result v1
@@ -840,7 +792,6 @@
 .method static final synthetic s(Ljava/lang/reflect/Method;Ljava/lang/Object;[Ljava/lang/Object;Lorg/aspectj/lang/c;)Ljava/lang/Object;
     .locals 0
 
-    .line 1
     invoke-virtual {p0, p1, p2}, Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p0
@@ -851,7 +802,6 @@
 .method public static t(Lcom/google/protobuf/ByteString;)Z
     .locals 0
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/protobuf/ByteString;->isValidUtf8()Z
 
     move-result p0
@@ -862,7 +812,6 @@
 .method public static u([B)Z
     .locals 0
 
-    .line 1
     invoke-static {p0}, Lcom/google/protobuf/Utf8;->r([B)Z
 
     move-result p0
@@ -882,7 +831,6 @@
 
     mul-int/lit8 p0, p0, 0x1f
 
-    .line 1
     aget-byte v1, p1, v0
 
     add-int/2addr p0, v1
@@ -898,7 +846,6 @@
 .method public static w(Ljava/lang/String;)Ljava/lang/String;
     .locals 2
 
-    .line 1
     new-instance v0, Ljava/lang/String;
 
     sget-object v1, Lcom/google/protobuf/z0;->b:Ljava/nio/charset/Charset;
@@ -917,7 +864,6 @@
 .method public static x(Ljava/lang/String;)[B
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/google/protobuf/z0;->a:Ljava/nio/charset/Charset;
 
     invoke-virtual {p0, v0}, Ljava/lang/String;->getBytes(Ljava/nio/charset/Charset;)[B
@@ -930,7 +876,6 @@
 .method public static y([B)Ljava/lang/String;
     .locals 2
 
-    .line 1
     new-instance v0, Ljava/lang/String;
 
     sget-object v1, Lcom/google/protobuf/z0;->a:Ljava/nio/charset/Charset;

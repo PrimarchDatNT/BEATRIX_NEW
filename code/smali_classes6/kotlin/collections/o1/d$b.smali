@@ -54,7 +54,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-direct {p0, p1}, Lcotlin/collections/o1/d$d;-><init>(Lcotlin/collections/o1/d;)V
 
     return-void
@@ -75,7 +74,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcotlin/collections/o1/d$d;->a()I
 
     move-result v0
@@ -90,7 +88,6 @@
 
     if-ge v0, v1, :cond_0
 
-    .line 2
     invoke-virtual {p0}, Lcotlin/collections/o1/d$d;->a()I
 
     move-result v0
@@ -101,7 +98,6 @@
 
     invoke-virtual {p0, v0}, Lcotlin/collections/o1/d$d;->f(I)V
 
-    .line 3
     new-instance v0, Lcotlin/collections/o1/d$c;
 
     invoke-virtual {p0}, Lcotlin/collections/o1/d$d;->c()Lcotlin/collections/o1/d;
@@ -114,12 +110,10 @@
 
     invoke-direct {v0, v1, v2}, Lcotlin/collections/o1/d$c;-><init>(Lcotlin/collections/o1/d;I)V
 
-    .line 4
     invoke-virtual {p0}, Lcotlin/collections/o1/d$d;->d()V
 
     return-object v0
 
-    .line 5
     :cond_0
     new-instance v0, Ljava/util/NoSuchElementException;
 
@@ -139,7 +133,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-virtual {p0}, Lcotlin/collections/o1/d$d;->a()I
 
     move-result v0
@@ -154,7 +147,6 @@
 
     if-ge v0, v1, :cond_2
 
-    .line 2
     invoke-virtual {p0}, Lcotlin/collections/o1/d$d;->a()I
 
     move-result v0
@@ -165,7 +157,6 @@
 
     invoke-virtual {p0, v0}, Lcotlin/collections/o1/d$d;->f(I)V
 
-    .line 3
     invoke-virtual {p0}, Lcotlin/collections/o1/d$d;->c()Lcotlin/collections/o1/d;
 
     move-result-object v0
@@ -180,7 +171,6 @@
 
     aget-object v0, v0, v1
 
-    .line 4
     invoke-virtual {p0}, Lcotlin/collections/o1/d$d;->c()Lcotlin/collections/o1/d;
 
     move-result-object v1
@@ -203,10 +193,8 @@
     :goto_0
     const/16 v0, 0x3d
 
-    .line 5
     invoke-virtual {p1, v0}, Ljava/lang/StringBuilder;->append(C)Ljava/lang/StringBuilder;
 
-    .line 6
     invoke-virtual {p0}, Lcotlin/collections/o1/d$d;->c()Lcotlin/collections/o1/d;
 
     move-result-object v0
@@ -223,7 +211,6 @@
 
     aget-object v0, v0, v1
 
-    .line 7
     invoke-virtual {p0}, Lcotlin/collections/o1/d$d;->c()Lcotlin/collections/o1/d;
 
     move-result-object v1
@@ -241,13 +228,11 @@
     :cond_1
     invoke-virtual {p1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
 
-    .line 8
     :goto_1
     invoke-virtual {p0}, Lcotlin/collections/o1/d$d;->d()V
 
     return-void
 
-    .line 9
     :cond_2
     new-instance p1, Ljava/util/NoSuchElementException;
 
@@ -259,7 +244,6 @@
 .method public final j()I
     .locals 4
 
-    .line 1
     invoke-virtual {p0}, Lcotlin/collections/o1/d$d;->a()I
 
     move-result v0
@@ -274,7 +258,6 @@
 
     if-ge v0, v1, :cond_2
 
-    .line 2
     invoke-virtual {p0}, Lcotlin/collections/o1/d$d;->a()I
 
     move-result v0
@@ -285,7 +268,6 @@
 
     invoke-virtual {p0, v0}, Lcotlin/collections/o1/d$d;->f(I)V
 
-    .line 3
     invoke-virtual {p0}, Lcotlin/collections/o1/d$d;->c()Lcotlin/collections/o1/d;
 
     move-result-object v0
@@ -339,12 +321,10 @@
     :cond_1
     xor-int/2addr v0, v1
 
-    .line 4
     invoke-virtual {p0}, Lcotlin/collections/o1/d$d;->d()V
 
     return v0
 
-    .line 5
     :cond_2
     new-instance v0, Ljava/util/NoSuchElementException;
 
@@ -356,7 +336,6 @@
 .method public bridge synthetic next()Ljava/lang/Object;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcotlin/collections/o1/d$b;->g()Lcotlin/collections/o1/d$c;
 
     move-result-object v0

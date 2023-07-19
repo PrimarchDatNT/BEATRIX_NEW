@@ -27,7 +27,6 @@
 .method constructor <init>(Lcom/appsflyer/AppsFlyerLibCore;Lcom/appsflyer/internal/referrer/GoogleReferrer;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/appsflyer/AppsFlyerLibCore$1;->valueOf:Lcom/appsflyer/AppsFlyerLibCore;
 
     iput-object p2, p0, Lcom/appsflyer/AppsFlyerLibCore$1;->AFDateFormat:Lcom/appsflyer/internal/referrer/GoogleReferrer;
@@ -42,7 +41,6 @@
 .method public final run()V
     .locals 6
 
-    .line 1
     iget-object v0, p0, Lcom/appsflyer/AppsFlyerLibCore$1;->valueOf:Lcom/appsflyer/AppsFlyerLibCore;
 
     invoke-static {v0}, Lcom/appsflyer/AppsFlyerLibCore;->valueOf(Lcom/appsflyer/AppsFlyerLibCore;)Landroid/app/Application;
@@ -53,7 +51,6 @@
 
     move-result-object v0
 
-    .line 2
     iget-object v1, p0, Lcom/appsflyer/AppsFlyerLibCore$1;->valueOf:Lcom/appsflyer/AppsFlyerLibCore;
 
     const/4 v2, 0x0
@@ -64,12 +61,10 @@
 
     const-string v3, "newGPReferrerSent"
 
-    .line 3
     invoke-interface {v0, v3, v2}, Landroid/content/SharedPreferences;->getBoolean(Ljava/lang/String;Z)Z
 
     move-result v0
 
-    .line 4
     iget-object v3, p0, Lcom/appsflyer/AppsFlyerLibCore$1;->AFDateFormat:Lcom/appsflyer/internal/referrer/GoogleReferrer;
 
     invoke-virtual {v3}, Lcom/appsflyer/internal/referrer/Referrer;->getState()Lcom/appsflyer/internal/referrer/Referrer$State;
@@ -91,7 +86,6 @@
 
     if-eqz v0, :cond_2
 
-    .line 5
     :cond_1
     iget-object v0, p0, Lcom/appsflyer/AppsFlyerLibCore$1;->valueOf:Lcom/appsflyer/AppsFlyerLibCore;
 

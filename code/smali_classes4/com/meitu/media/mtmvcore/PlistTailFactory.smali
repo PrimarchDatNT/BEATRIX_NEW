@@ -7,7 +7,6 @@
 .method public constructor <init>()V
     .locals 2
 
-    .line 1
     invoke-static {}, Lcom/meitu/media/mtmvcore/PlistTailFactory;->createPlistTailFactory()J
 
     move-result-wide v0
@@ -37,7 +36,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     invoke-virtual {p1}, Ljava/lang/String;->isEmpty()Z
 
     move-result v1
@@ -52,7 +50,6 @@
 
     if-nez v1, :cond_0
 
-    .line 2
     iget-wide v2, p0, Lcom/meitu/media/mtmvcore/BaseTailFactory;->mNativeContext:J
 
     move-object v4, p1
@@ -65,12 +62,10 @@
 
     invoke-static/range {v2 .. v7}, Lcom/meitu/media/mtmvcore/PlistTailFactory;->addTailMaterial(JLjava/lang/String;III)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 4
     :cond_0
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -92,7 +87,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     invoke-virtual {p1}, Ljava/lang/String;->isEmpty()Z
 
     move-result v1
@@ -107,17 +101,14 @@
 
     if-nez v1, :cond_0
 
-    .line 2
     iget-wide v1, p0, Lcom/meitu/media/mtmvcore/BaseTailFactory;->mNativeContext:J
 
     invoke-static {v1, v2, p1}, Lcom/meitu/media/mtmvcore/PlistTailFactory;->setTailEffect(JLjava/lang/String;)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 4
     :cond_0
     new-instance p1, Ljava/lang/IllegalArgumentException;
 

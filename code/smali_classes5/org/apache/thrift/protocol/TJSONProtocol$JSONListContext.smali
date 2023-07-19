@@ -24,14 +24,12 @@
 .method protected constructor <init>(Lorg/apache/thrift/protocol/TJSONProtocol;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lorg/apache/thrift/protocol/TJSONProtocol$JSONListContext;->this$0:Lorg/apache/thrift/protocol/TJSONProtocol;
 
     invoke-direct {p0, p1}, Lorg/apache/thrift/protocol/TJSONProtocol$JSONBaseContext;-><init>(Lorg/apache/thrift/protocol/TJSONProtocol;)V
 
     const/4 p1, 0x1
 
-    .line 2
     iput-boolean p1, p0, Lorg/apache/thrift/protocol/TJSONProtocol$JSONListContext;->first_:Z
 
     return-void
@@ -47,19 +45,16 @@
         }
     .end annotation
 
-    .line 1
     iget-boolean v0, p0, Lorg/apache/thrift/protocol/TJSONProtocol$JSONListContext;->first_:Z
 
     if-eqz v0, :cond_0
 
     const/4 v0, 0x0
 
-    .line 2
     iput-boolean v0, p0, Lorg/apache/thrift/protocol/TJSONProtocol$JSONListContext;->first_:Z
 
     goto :goto_0
 
-    .line 3
     :cond_0
     iget-object v0, p0, Lorg/apache/thrift/protocol/TJSONProtocol$JSONListContext;->this$0:Lorg/apache/thrift/protocol/TJSONProtocol;
 
@@ -81,19 +76,16 @@
         }
     .end annotation
 
-    .line 1
     iget-boolean v0, p0, Lorg/apache/thrift/protocol/TJSONProtocol$JSONListContext;->first_:Z
 
     if-eqz v0, :cond_0
 
     const/4 v0, 0x0
 
-    .line 2
     iput-boolean v0, p0, Lorg/apache/thrift/protocol/TJSONProtocol$JSONListContext;->first_:Z
 
     goto :goto_0
 
-    .line 3
     :cond_0
     iget-object v0, p0, Lorg/apache/thrift/protocol/TJSONProtocol$JSONListContext;->this$0:Lorg/apache/thrift/protocol/TJSONProtocol;
 

@@ -7,7 +7,6 @@
 .method public static a(Ljava/lang/Object;)Lcom/google/android/gms/internal/ads/go1;
     .locals 2
 
-    .line 1
     new-instance v0, Lcom/google/android/gms/internal/ads/go1;
 
     invoke-virtual {p0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;

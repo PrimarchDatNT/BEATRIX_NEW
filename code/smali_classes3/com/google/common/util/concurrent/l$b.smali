@@ -35,7 +35,6 @@
 .method constructor <init>(Lcom/google/common/util/concurrent/k0;Ljava/util/concurrent/Callable;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/common/util/concurrent/l$b;->a:Lcom/google/common/util/concurrent/k0;
 
     iput-object p2, p0, Lcom/google/common/util/concurrent/l$b;->b:Ljava/util/concurrent/Callable;
@@ -63,7 +62,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/util/concurrent/l$b;->a:Lcom/google/common/util/concurrent/k0;
 
     iget-object v1, p0, Lcom/google/common/util/concurrent/l$b;->b:Ljava/util/concurrent/Callable;

@@ -54,7 +54,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Ljava/lang/Exception;
 
     invoke-virtual {p0, p1}, Lcom/commsource/video/decoder/SysMediaPlayer$setPlaySource$2;->invoke(Ljava/lang/Exception;)V
@@ -81,19 +80,16 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 2
     iget-object p1, p0, Lcom/commsource/video/decoder/SysMediaPlayer$setPlaySource$2;->this$0:Lcom/commsource/video/decoder/SysMediaPlayer;
 
     const/4 v1, -0x1
 
     invoke-virtual {p1, v1}, Lcom/commsource/video/decoder/a;->I(I)V
 
-    .line 3
     iget-object p1, p0, Lcom/commsource/video/decoder/SysMediaPlayer$setPlaySource$2;->this$0:Lcom/commsource/video/decoder/SysMediaPlayer;
 
     invoke-virtual {p1, v1}, Lcom/commsource/video/decoder/SysMediaPlayer;->e0(I)V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

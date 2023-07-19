@@ -29,7 +29,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -51,7 +50,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -78,7 +76,6 @@
 
     invoke-static {v1}, Lcom/meitu/libmtsns/framwork/util/SNSLog;->a(Ljava/lang/String;)V
 
-    .line 2
     :try_start_0
     sget-object v1, Ljava/lang/Integer;->TYPE:Ljava/lang/Class;
 
@@ -88,7 +85,6 @@
 
     if-eqz v1, :cond_0
 
-    .line 3
     invoke-static {p0}, Ljava/lang/Integer;->valueOf(Ljava/lang/String;)Ljava/lang/Integer;
 
     move-result-object p0
@@ -99,7 +95,6 @@
 
     return-object p0
 
-    .line 4
     :cond_0
     :try_start_1
     sget-object v1, Ljava/lang/Float;->TYPE:Ljava/lang/Class;
@@ -110,7 +105,6 @@
 
     if-eqz v1, :cond_1
 
-    .line 5
     invoke-static {p0}, Ljava/lang/Float;->valueOf(Ljava/lang/String;)Ljava/lang/Float;
 
     move-result-object p0
@@ -121,7 +115,6 @@
 
     return-object p0
 
-    .line 6
     :cond_1
     :try_start_2
     sget-object v1, Ljava/lang/Long;->TYPE:Ljava/lang/Class;
@@ -132,7 +125,6 @@
 
     if-eqz v1, :cond_2
 
-    .line 7
     invoke-static {p0}, Ljava/lang/Long;->valueOf(Ljava/lang/String;)Ljava/lang/Long;
 
     move-result-object p0
@@ -143,7 +135,6 @@
 
     return-object p0
 
-    .line 8
     :cond_2
     :try_start_3
     sget-object v1, Ljava/lang/Double;->TYPE:Ljava/lang/Class;
@@ -154,7 +145,6 @@
 
     if-eqz v1, :cond_3
 
-    .line 9
     invoke-static {p0}, Ljava/lang/Double;->valueOf(Ljava/lang/String;)Ljava/lang/Double;
 
     move-result-object p0
@@ -165,7 +155,6 @@
 
     return-object p0
 
-    .line 10
     :cond_3
     :try_start_4
     sget-object v1, Ljava/lang/Byte;->TYPE:Ljava/lang/Class;
@@ -176,7 +165,6 @@
 
     if-eqz v1, :cond_4
 
-    .line 11
     invoke-static {p0}, Ljava/lang/Byte;->valueOf(Ljava/lang/String;)Ljava/lang/Byte;
 
     move-result-object p0
@@ -187,7 +175,6 @@
 
     return-object p0
 
-    .line 12
     :cond_4
     :try_start_5
     sget-object v1, Ljava/lang/Short;->TYPE:Ljava/lang/Class;
@@ -198,7 +185,6 @@
 
     if-eqz p1, :cond_5
 
-    .line 13
     invoke-static {p0}, Ljava/lang/Short;->valueOf(Ljava/lang/String;)Ljava/lang/Short;
 
     move-result-object p0
@@ -212,13 +198,11 @@
     :catch_0
     move-exception p0
 
-    .line 14
     invoke-virtual {p0}, Ljava/lang/NumberFormatException;->printStackTrace()V
 
     :cond_5
     const/4 p0, 0x0
 
-    .line 15
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
@@ -233,12 +217,10 @@
 
     invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-interface {p1}, Lorg/xmlpull/v1/XmlPullParser;->getName()Ljava/lang/String;
 
     move-result-object v2
 
-    .line 2
     new-instance v3, Ljava/lang/StringBuilder;
 
     invoke-direct {v3}, Ljava/lang/StringBuilder;-><init>()V
@@ -257,7 +239,6 @@
 
     const-string v3, "ShareInfo"
 
-    .line 3
     invoke-virtual {v2, v3}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v3
@@ -266,12 +247,10 @@
 
     if-eqz v3, :cond_0
 
-    .line 4
     invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v4
 
-    .line 5
     :cond_0
     invoke-interface {p1}, Lorg/xmlpull/v1/XmlPullParser;->getAttributeCount()I
 
@@ -281,7 +260,6 @@
 
     if-lt v5, v3, :cond_1
 
-    .line 6
     invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v4
@@ -289,12 +267,10 @@
     :cond_1
     const-string v6, "Name"
 
-    .line 7
     invoke-interface {p1, v4, v6}, Lorg/xmlpull/v1/XmlPullParser;->getAttributeValue(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v6
 
-    .line 8
     new-instance v7, Ljava/lang/StringBuilder;
 
     invoke-direct {v7}, Ljava/lang/StringBuilder;-><init>()V
@@ -315,7 +291,6 @@
 
     move-result-object p0
 
-    .line 9
     new-instance v2, Ljava/lang/StringBuilder;
 
     invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
@@ -332,7 +307,6 @@
 
     invoke-static {v2}, Lcom/meitu/libmtsns/framwork/util/SNSLog;->a(Ljava/lang/String;)V
 
-    .line 10
     :try_start_0
     invoke-static {p0}, Ljava/lang/Class;->forName(Ljava/lang/String;)Ljava/lang/Class;
 
@@ -340,7 +314,6 @@
     :try_end_0
     .catch Ljava/lang/ClassNotFoundException; {:try_start_0 .. :try_end_0} :catch_2
 
-    .line 11
     :try_start_1
     invoke-virtual {v2}, Ljava/lang/Class;->newInstance()Ljava/lang/Object;
 
@@ -355,17 +328,14 @@
     :goto_0
     if-ge v7, v3, :cond_5
 
-    .line 12
     invoke-interface {p1, v7}, Lorg/xmlpull/v1/XmlPullParser;->getAttributeValue(I)Ljava/lang/String;
 
     move-result-object v8
 
-    .line 13
     invoke-interface {p1, v7}, Lorg/xmlpull/v1/XmlPullParser;->getAttributeName(I)Ljava/lang/String;
 
     move-result-object v9
 
-    .line 14
     new-instance v10, Ljava/lang/StringBuilder;
 
     invoke-direct {v10}, Ljava/lang/StringBuilder;-><init>()V
@@ -380,7 +350,6 @@
 
     move-result-object v10
 
-    .line 15
     invoke-static {v2, v9}, Lcom/meitu/libmtsns/framwork/util/e;->b(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/reflect/Field;
 
     move-result-object v11
@@ -393,20 +362,17 @@
 
     if-eqz v11, :cond_4
 
-    .line 16
     :try_start_2
     invoke-virtual {v11}, Ljava/lang/reflect/Field;->getType()Ljava/lang/Class;
 
     move-result-object v9
 
-    .line 17
     invoke-virtual {v9}, Ljava/lang/Class;->isPrimitive()Z
 
     move-result v11
 
     if-eqz v11, :cond_2
 
-    .line 18
     invoke-static {v8, v9}, Lcom/meitu/libmtsns/framwork/util/SnsXmlParser;->a(Ljava/lang/String;Ljava/lang/Class;)Ljava/lang/Object;
 
     move-result-object v8
@@ -420,12 +386,10 @@
 
     aput-object v8, v9, v6
 
-    .line 19
     invoke-static {v2, v10, v11, v9}, Lcom/meitu/libmtsns/framwork/util/e;->e(Ljava/lang/Object;Ljava/lang/String;[Ljava/lang/Class;[Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v8
 
-    .line 20
     invoke-static {v8}, Lcom/meitu/libmtsns/framwork/util/e;->g(Ljava/lang/Object;)Z
 
     move-result v8
@@ -436,7 +400,6 @@
 
     goto :goto_0
 
-    .line 21
     :cond_3
     new-instance p1, Lcom/meitu/libmtsns/framwork/util/SnsXmlParser$ParseXmlException;
 
@@ -464,7 +427,6 @@
 
     throw p1
 
-    .line 22
     :cond_4
     new-instance p1, Lcom/meitu/libmtsns/framwork/util/SnsXmlParser$ParseXmlException;
 
@@ -496,7 +458,6 @@
     .catch Ljava/lang/IllegalAccessException; {:try_start_2 .. :try_end_2} :catch_0
     .catch Ljava/lang/ClassNotFoundException; {:try_start_2 .. :try_end_2} :catch_2
 
-    .line 23
     :cond_5
     invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -505,11 +466,9 @@
     :catch_0
     move-exception p0
 
-    .line 24
     :try_start_3
     invoke-virtual {p0}, Ljava/lang/IllegalAccessException;->printStackTrace()V
 
-    .line 25
     invoke-virtual {p0}, Ljava/lang/IllegalAccessException;->getMessage()Ljava/lang/String;
 
     move-result-object p0
@@ -521,10 +480,8 @@
     :catch_1
     move-exception p0
 
-    .line 26
     invoke-virtual {p0}, Ljava/lang/InstantiationException;->printStackTrace()V
 
-    .line 27
     invoke-virtual {p0}, Ljava/lang/InstantiationException;->getMessage()Ljava/lang/String;
 
     move-result-object p0
@@ -533,7 +490,6 @@
     :try_end_3
     .catch Ljava/lang/ClassNotFoundException; {:try_start_3 .. :try_end_3} :catch_2
 
-    .line 28
     :goto_1
     invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -542,10 +498,8 @@
     :catch_2
     move-exception p0
 
-    .line 29
     invoke-virtual {p0}, Ljava/lang/ClassNotFoundException;->printStackTrace()V
 
-    .line 30
     new-instance p1, Lcom/meitu/libmtsns/framwork/util/SnsXmlParser$ParseXmlException;
 
     new-instance v0, Ljava/lang/StringBuilder;
@@ -590,32 +544,27 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/util/ArrayList;
 
     invoke-direct {v1}, Ljava/util/ArrayList;-><init>()V
 
     if-nez p0, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
 
-    .line 3
     :cond_0
     invoke-static {}, Lcom/meitu/libmtsns/framwork/util/g;->l()Ljava/lang/String;
 
     move-result-object v2
 
-    .line 4
     invoke-static {v2}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v3
 
     if-nez v3, :cond_6
 
-    .line 5
     new-instance v3, Ljava/lang/StringBuilder;
 
     invoke-direct {v3}, Ljava/lang/StringBuilder;-><init>()V
@@ -632,20 +581,17 @@
 
     invoke-static {v3}, Lcom/meitu/libmtsns/framwork/util/SNSLog;->a(Ljava/lang/String;)V
 
-    .line 6
     :try_start_0
     invoke-static {}, Lorg/xmlpull/v1/XmlPullParserFactory;->newInstance()Lorg/xmlpull/v1/XmlPullParserFactory;
 
     move-result-object v3
 
-    .line 7
     invoke-virtual {v3}, Lorg/xmlpull/v1/XmlPullParserFactory;->newPullParser()Lorg/xmlpull/v1/XmlPullParser;
 
     move-result-object v3
     :try_end_0
     .catch Lorg/xmlpull/v1/XmlPullParserException; {:try_start_0 .. :try_end_0} :catch_1
 
-    .line 8
     :try_start_1
     sget-object v4, Lcom/meitu/libmtsns/framwork/util/SnsXmlParser;->b:Ljava/lang/String;
 
@@ -655,7 +601,6 @@
 
     if-eqz v4, :cond_1
 
-    .line 9
     invoke-virtual {p0}, Landroid/content/Context;->getAssets()Landroid/content/res/AssetManager;
 
     move-result-object p0
@@ -668,7 +613,6 @@
 
     goto :goto_0
 
-    .line 10
     :cond_1
     sget-object v4, Lcom/meitu/libmtsns/framwork/util/SnsXmlParser;->b:Ljava/lang/String;
 
@@ -680,7 +624,6 @@
 
     if-eqz v4, :cond_2
 
-    .line 11
     sget-object p0, Lcom/meitu/libmtsns/framwork/util/SnsXmlParser;->b:Ljava/lang/String;
 
     invoke-static {p0}, Landroid/net/Uri;->parse(Ljava/lang/String;)Landroid/net/Uri;
@@ -691,7 +634,6 @@
 
     move-result-object p0
 
-    .line 12
     new-instance v4, Ljava/io/FileInputStream;
 
     invoke-direct {v4, p0}, Ljava/io/FileInputStream;-><init>(Ljava/lang/String;)V
@@ -700,7 +642,6 @@
 
     goto :goto_0
 
-    .line 13
     :cond_2
     invoke-virtual {p0}, Landroid/content/Context;->getAssets()Landroid/content/res/AssetManager;
 
@@ -715,10 +656,8 @@
     :goto_0
     const-string v4, "UTF-8"
 
-    .line 14
     invoke-interface {v3, p0, v4}, Lorg/xmlpull/v1/XmlPullParser;->setInput(Ljava/io/InputStream;Ljava/lang/String;)V
 
-    .line 15
     invoke-interface {v3}, Lorg/xmlpull/v1/XmlPullParser;->getEventType()I
 
     move-result p0
@@ -728,7 +667,6 @@
 
     if-eq p0, v4, :cond_5
 
-    .line 16
     new-instance v4, Ljava/lang/StringBuilder;
 
     invoke-direct {v4}, Ljava/lang/StringBuilder;-><init>()V
@@ -751,7 +689,6 @@
 
     goto :goto_2
 
-    .line 17
     :cond_3
     invoke-static {v2, v3}, Lcom/meitu/libmtsns/framwork/util/SnsXmlParser;->b(Ljava/lang/String;Lorg/xmlpull/v1/XmlPullParser;)Lcom/meitu/libmtsns/framwork/i/PlatformConfig;
 
@@ -759,10 +696,8 @@
 
     if-eqz p0, :cond_4
 
-    .line 18
     invoke-interface {v1, p0}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
-    .line 19
     :cond_4
     :goto_2
     invoke-interface {v3}, Lorg/xmlpull/v1/XmlPullParser;->next()I
@@ -777,7 +712,6 @@
     :catch_0
     move-exception p0
 
-    .line 20
     :try_start_2
     invoke-virtual {p0}, Ljava/io/IOException;->printStackTrace()V
     :try_end_2
@@ -788,17 +722,14 @@
     :catch_1
     move-exception p0
 
-    .line 21
     invoke-virtual {p0}, Lorg/xmlpull/v1/XmlPullParserException;->printStackTrace()V
 
-    .line 22
     :cond_5
     :goto_3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
 
-    .line 23
     :cond_6
     new-instance p0, Lcom/meitu/libmtsns/framwork/util/SnsXmlParser$ParseXmlException;
 
@@ -818,10 +749,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sput-object p0, Lcom/meitu/libmtsns/framwork/util/SnsXmlParser;->b:Ljava/lang/String;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

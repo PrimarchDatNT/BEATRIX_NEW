@@ -25,7 +25,6 @@
 .method constructor <init>(Lcom/commsource/widget/wheelview/c;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/widget/wheelview/c$a;->a:Lcom/commsource/widget/wheelview/c;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -42,7 +41,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/widget/wheelview/c$a;->a:Lcom/commsource/widget/wheelview/c;
 
     invoke-static {v0}, Lcom/commsource/widget/wheelview/c;->a(Lcom/commsource/widget/wheelview/c;)Lcom/commsource/widget/wheelview/WheelView;
@@ -69,7 +67,6 @@
 
     invoke-static {v0, v1, v2, v3, v4}, Lcom/commsource/widget/wheelview/c;->e(Lcom/commsource/widget/wheelview/c;Lcom/commsource/widget/wheelview/WheelView;Lcom/commsource/widget/wheelview/WheelView;Lcom/commsource/widget/wheelview/WheelView;Landroid/widget/TextView;)V
 
-    .line 2
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -82,7 +79,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

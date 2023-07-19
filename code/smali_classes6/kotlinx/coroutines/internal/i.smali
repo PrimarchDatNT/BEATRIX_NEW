@@ -15,7 +15,6 @@
 .method static constructor <clinit>()V
     .locals 2
 
-    .line 1
     :try_start_0
     sget-object v0, Lcotlin/Result;->Companion:Lcotlin/Result$a;
 
@@ -59,7 +58,6 @@
 .method public static final a()Z
     .locals 1
 
-    .line 1
     sget-boolean v0, Lcotlinx/coroutines/internal/i;->a:Z
 
     return v0

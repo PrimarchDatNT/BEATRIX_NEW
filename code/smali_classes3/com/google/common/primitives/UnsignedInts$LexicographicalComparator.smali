@@ -37,7 +37,6 @@
 .method static constructor <clinit>()V
     .locals 3
 
-    .line 1
     new-instance v0, Lcom/google/common/primitives/UnsignedInts$LexicographicalComparator;
 
     const-string v1, "INSTANCE"
@@ -54,7 +53,6 @@
 
     aput-object v0, v1, v2
 
-    .line 2
     sput-object v1, Lcom/google/common/primitives/UnsignedInts$LexicographicalComparator;->$VALUES:[Lcom/google/common/primitives/UnsignedInts$LexicographicalComparator;
 
     return-void
@@ -68,7 +66,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
     return-void
@@ -77,7 +74,6 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/google/common/primitives/UnsignedInts$LexicographicalComparator;
     .locals 1
 
-    .line 1
     const-class v0, Lcom/google/common/primitives/UnsignedInts$LexicographicalComparator;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -92,7 +88,6 @@
 .method public static values()[Lcom/google/common/primitives/UnsignedInts$LexicographicalComparator;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/google/common/primitives/UnsignedInts$LexicographicalComparator;->$VALUES:[Lcom/google/common/primitives/UnsignedInts$LexicographicalComparator;
 
     invoke-virtual {v0}, [Lcom/google/common/primitives/UnsignedInts$LexicographicalComparator;->clone()Ljava/lang/Object;
@@ -109,7 +104,6 @@
 .method public bridge synthetic compare(Ljava/lang/Object;Ljava/lang/Object;)I
     .locals 0
 
-    .line 1
     check-cast p1, [I
 
     check-cast p2, [I
@@ -124,7 +118,6 @@
 .method public compare([I[I)I
     .locals 4
 
-    .line 2
     array-length v0, p1
 
     array-length v1, p2
@@ -138,14 +131,12 @@
     :goto_0
     if-ge v1, v0, :cond_1
 
-    .line 3
     aget v2, p1, v1
 
     aget v3, p2, v1
 
     if-eq v2, v3, :cond_0
 
-    .line 4
     aget p1, p1, v1
 
     aget p2, p2, v1
@@ -161,7 +152,6 @@
 
     goto :goto_0
 
-    .line 5
     :cond_1
     array-length p1, p1
 

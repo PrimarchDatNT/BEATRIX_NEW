@@ -44,19 +44,16 @@
 
     const-string v1, "it"
 
-    .line 1
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {p1}, Landroid/animation/ValueAnimator;->getAnimatedValue()Ljava/lang/Object;
 
     move-result-object p1
 
-    .line 2
     instance-of v1, p1, Ljava/lang/Integer;
 
     if-eqz v1, :cond_0
 
-    .line 3
     iget-object v1, p0, Lcom/meitu/common/animutil/d$a;->a:Lcom/meitu/common/animutil/d;
 
     invoke-virtual {v1}, Lcom/meitu/common/animutil/d;->B()Lcotlin/jvm/u/l;
@@ -73,13 +70,11 @@
 
     goto :goto_0
 
-    .line 4
     :cond_0
     instance-of v1, p1, Ljava/lang/Float;
 
     if-eqz v1, :cond_1
 
-    .line 5
     iget-object v1, p0, Lcom/meitu/common/animutil/d$a;->a:Lcom/meitu/common/animutil/d;
 
     invoke-virtual {v1}, Lcom/meitu/common/animutil/d;->A()Lcotlin/jvm/u/l;
@@ -94,7 +89,6 @@
 
     check-cast p1, Lcotlin/t1;
 
-    .line 6
     :cond_1
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

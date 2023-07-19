@@ -42,7 +42,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/CameraEffectManager$a;->a:Lcom/commsource/camera/xcamera/CameraEffectManager;
 
     invoke-static {v1}, Lcom/commsource/camera/xcamera/CameraEffectManager;->a(Lcom/commsource/camera/xcamera/CameraEffectManager;)Lcom/commsource/camera/d1/f;
@@ -51,7 +50,6 @@
 
     invoke-virtual {v1}, Lcom/commsource/camera/d1/f;->O()V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/camera/xcamera/CameraEffectManager$a;->a:Lcom/commsource/camera/xcamera/CameraEffectManager;
 
     invoke-virtual {v1}, Lcom/commsource/camera/xcamera/CameraEffectManager;->l()Lcom/commsource/camera/montage/l0;
@@ -62,7 +60,6 @@
 
     invoke-virtual {v1}, Lcom/commsource/camera/montage/l0;->O()V
 
-    .line 3
     :cond_0
     iget-object v1, p0, Lcom/commsource/camera/xcamera/CameraEffectManager$a;->a:Lcom/commsource/camera/xcamera/CameraEffectManager;
 
@@ -74,7 +71,6 @@
 
     invoke-virtual {v1}, Lcom/meitu/library/f/a/e;->O()V
 
-    .line 4
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

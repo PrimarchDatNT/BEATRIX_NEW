@@ -32,13 +32,10 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/google/android/gms/common/api/c;->a:Lcom/google/android/gms/common/api/Status;
 
-    .line 3
     iput-object p2, p0, Lcom/google/android/gms/common/api/c;->b:[Lcom/google/android/gms/common/api/k;
 
     return-void
@@ -58,7 +55,6 @@
         }
     .end annotation
 
-    .line 1
     iget v0, p1, Lcom/google/android/gms/common/api/d;->a:I
 
     iget-object v1, p0, Lcom/google/android/gms/common/api/c;->b:[Lcom/google/android/gms/common/api/k;
@@ -79,7 +75,6 @@
 
     invoke-static {v0, v1}, Lcom/google/android/gms/common/internal/b0;->b(ZLjava/lang/Object;)V
 
-    .line 2
     iget-object v0, p0, Lcom/google/android/gms/common/api/c;->b:[Lcom/google/android/gms/common/api/k;
 
     iget p1, p1, Lcom/google/android/gms/common/api/d;->a:I
@@ -88,7 +83,6 @@
 
     const-wide/16 v0, 0x0
 
-    .line 3
     sget-object v2, Ljava/util/concurrent/TimeUnit;->MILLISECONDS:Ljava/util/concurrent/TimeUnit;
 
     invoke-virtual {p1, v0, v1, v2}, Lcom/google/android/gms/common/api/k;->e(JLjava/util/concurrent/TimeUnit;)Lcom/google/android/gms/common/api/p;
@@ -101,7 +95,6 @@
 .method public final getStatus()Lcom/google/android/gms/common/api/Status;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/common/api/c;->a:Lcom/google/android/gms/common/api/Status;
 
     return-object v0

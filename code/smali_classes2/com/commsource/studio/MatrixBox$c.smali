@@ -116,7 +116,6 @@
 
     iput-object v1, v0, Lcom/commsource/studio/MatrixBox$c;->Q:Lcotlin/jvm/u/a;
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -139,12 +138,10 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/MatrixBox$c;->a:Lcom/commsource/studio/MatrixBox;
 
     invoke-virtual {v1}, Lcom/commsource/studio/MatrixBox;->reset()V
 
-    .line 2
     invoke-virtual {p1}, Landroid/animation/ValueAnimator;->getAnimatedValue()Ljava/lang/Object;
 
     move-result-object p1
@@ -157,7 +154,6 @@
 
     move-result p1
 
-    .line 3
     iget v1, p0, Lcom/commsource/studio/MatrixBox$c;->c:F
 
     iget v2, p0, Lcom/commsource/studio/MatrixBox$c;->d:F
@@ -168,7 +164,6 @@
 
     add-float/2addr v1, v2
 
-    .line 4
     iget v2, p0, Lcom/commsource/studio/MatrixBox$c;->f:F
 
     iget v3, p0, Lcom/commsource/studio/MatrixBox$c;->g:F
@@ -179,7 +174,6 @@
 
     add-float/2addr v2, v3
 
-    .line 5
     iget v3, p0, Lcom/commsource/studio/MatrixBox$c;->p:F
 
     iget v4, p0, Lcom/commsource/studio/MatrixBox$c;->J:F
@@ -190,7 +184,6 @@
 
     add-float/2addr v3, v4
 
-    .line 6
     iget v4, p0, Lcom/commsource/studio/MatrixBox$c;->K:F
 
     iget v5, p0, Lcom/commsource/studio/MatrixBox$c;->L:F
@@ -201,7 +194,6 @@
 
     add-float/2addr v4, v5
 
-    .line 7
     iget v5, p0, Lcom/commsource/studio/MatrixBox$c;->M:F
 
     iget v6, p0, Lcom/commsource/studio/MatrixBox$c;->N:F
@@ -212,7 +204,6 @@
 
     add-float/2addr v5, v6
 
-    .line 8
     iget-object p1, p0, Lcom/commsource/studio/MatrixBox$c;->a:Lcom/commsource/studio/MatrixBox;
 
     invoke-virtual {p1}, Lcom/commsource/studio/MatrixBox;->getMatrix()Landroid/graphics/Matrix;
@@ -227,7 +218,6 @@
 
     invoke-virtual {p1, v6}, Landroid/graphics/Matrix;->set(Landroid/graphics/Matrix;)V
 
-    .line 9
     iget-object p1, p0, Lcom/commsource/studio/MatrixBox$c;->a:Lcom/commsource/studio/MatrixBox;
 
     invoke-virtual {p1}, Lcom/commsource/studio/MatrixBox;->getMatrix()Landroid/graphics/Matrix;
@@ -236,7 +226,6 @@
 
     invoke-virtual {p1, v2, v3}, Landroid/graphics/Matrix;->postScale(FF)Z
 
-    .line 10
     iget-object p1, p0, Lcom/commsource/studio/MatrixBox$c;->a:Lcom/commsource/studio/MatrixBox;
 
     invoke-virtual {p1}, Lcom/commsource/studio/MatrixBox;->getMatrix()Landroid/graphics/Matrix;
@@ -245,7 +234,6 @@
 
     invoke-virtual {p1, v1}, Landroid/graphics/Matrix;->postRotate(F)Z
 
-    .line 11
     iget-object p1, p0, Lcom/commsource/studio/MatrixBox$c;->a:Lcom/commsource/studio/MatrixBox;
 
     invoke-virtual {p1}, Lcom/commsource/studio/MatrixBox;->getMatrix()Landroid/graphics/Matrix;
@@ -254,12 +242,10 @@
 
     invoke-virtual {p1, v4, v5}, Landroid/graphics/Matrix;->postTranslate(FF)Z
 
-    .line 12
     iget-object p1, p0, Lcom/commsource/studio/MatrixBox$c;->a:Lcom/commsource/studio/MatrixBox;
 
     invoke-virtual {p1}, Lcom/commsource/studio/MatrixBox;->updateMatrixFloat()V
 
-    .line 13
     iget-object p1, p0, Lcom/commsource/studio/MatrixBox$c;->P:Lcotlin/jvm/u/a;
 
     if-eqz p1, :cond_0
@@ -270,7 +256,6 @@
 
     check-cast p1, Lcotlin/t1;
 
-    .line 14
     :cond_0
     new-instance p1, Ljava/lang/StringBuilder;
 
@@ -300,12 +285,10 @@
 
     invoke-static {p1, v2, v3, v1, v3}, Lcom/commsource/util/l0;->L(Ljava/lang/String;Ljava/lang/String;Lcom/meitu/library/util/Debug/Debug$DebugLevel;ILjava/lang/Object;)V
 
-    .line 15
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 16
     :cond_1
     new-instance p1, Lcotlin/TypeCastException;
 

@@ -56,10 +56,8 @@
 .method private constructor <init>()V
     .locals 2
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     new-instance v0, Lcom/commsource/billing/b$b;
 
     const/4 v1, 0x0
@@ -68,7 +66,6 @@
 
     iput-object v0, p0, Lcom/commsource/billing/b;->a:Lcom/commsource/billing/b$b;
 
-    .line 3
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
@@ -85,30 +82,25 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/billing/b;->n:Lcom/commsource/billing/b;
 
     if-nez v1, :cond_1
 
-    .line 2
     const-class v1, Lcom/commsource/billing/b;
 
     monitor-enter v1
 
-    .line 3
     :try_start_0
     sget-object v2, Lcom/commsource/billing/b;->n:Lcom/commsource/billing/b;
 
     if-nez v2, :cond_0
 
-    .line 4
     new-instance v2, Lcom/commsource/billing/b;
 
     invoke-direct {v2}, Lcom/commsource/billing/b;-><init>()V
 
     sput-object v2, Lcom/commsource/billing/b;->n:Lcom/commsource/billing/b;
 
-    .line 5
     :cond_0
     monitor-exit v1
 
@@ -125,7 +117,6 @@
 
     throw v2
 
-    .line 6
     :cond_1
     :goto_0
     sget-object v1, Lcom/commsource/billing/b;->n:Lcom/commsource/billing/b;
@@ -146,12 +137,10 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/billing/b;->a:Lcom/commsource/billing/b$b;
 
     invoke-static {v1, p1}, Lcom/commsource/billing/b$b;->a(Lcom/commsource/billing/b$b;Lcom/commsource/billing/b$c;)V
 
-    .line 2
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -167,12 +156,10 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/billing/b;->a:Lcom/commsource/billing/b$b;
 
     invoke-static {v1, p1}, Lcom/commsource/billing/b$b;->b(Lcom/commsource/billing/b$b;Lcom/commsource/billing/b$c;)V
 
-    .line 2
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

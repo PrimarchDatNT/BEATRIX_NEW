@@ -50,16 +50,12 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/google/android/gms/internal/icing/j$a;->a:Lcom/google/android/gms/internal/icing/j;
 
-    .line 3
     iput-object p2, p0, Lcom/google/android/gms/internal/icing/j$a;->b:Lcom/google/android/gms/common/api/k;
 
-    .line 4
     iput-object p3, p0, Lcom/google/android/gms/internal/icing/j$a;->c:Lf/f/b/b/d/a;
 
     return-void
@@ -78,7 +74,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/icing/j$a;->b:Lcom/google/android/gms/common/api/k;
 
     return-object v0
@@ -97,7 +92,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p1}, Lcom/google/android/gms/common/api/i;->q()Landroid/content/Context;
 
     move-result-object v0
@@ -106,22 +100,18 @@
 
     move-result-object v0
 
-    .line 2
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v1
 
-    .line 3
     iget-object v3, p0, Lcom/google/android/gms/internal/icing/j$a;->c:Lf/f/b/b/d/a;
 
     const/4 v4, 0x2
 
-    .line 4
     invoke-static {v3, v1, v2, v0, v4}, Lcom/google/android/gms/internal/icing/i;->b(Lf/f/b/b/d/a;JLjava/lang/String;I)Lcom/google/android/gms/internal/icing/zzx;
 
     move-result-object v0
 
-    .line 5
     iget-object v1, p0, Lcom/google/android/gms/internal/icing/j$a;->a:Lcom/google/android/gms/internal/icing/j;
 
     const/4 v2, 0x1

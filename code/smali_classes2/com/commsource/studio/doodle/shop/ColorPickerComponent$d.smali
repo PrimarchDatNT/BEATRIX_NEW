@@ -42,7 +42,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/studio/doodle/shop/ColorPickerComponent$d;->a:Lcom/commsource/studio/doodle/shop/ColorPickerComponent;
 
     invoke-static {v0}, Lcom/commsource/studio/doodle/shop/ColorPickerComponent;->j(Lcom/commsource/studio/doodle/shop/ColorPickerComponent;)Lcotlin/jvm/u/l;
@@ -59,7 +58,6 @@
 
     check-cast v0, Lcotlin/t1;
 
-    .line 2
     :cond_0
     iget-object v0, p0, Lcom/commsource/studio/doodle/shop/ColorPickerComponent$d;->a:Lcom/commsource/studio/doodle/shop/ColorPickerComponent;
 
@@ -71,7 +69,6 @@
 
     invoke-virtual {v0}, Lcom/commsource/studio/layer/BaseLayer;->X()V
 
-    .line 3
     :cond_1
     iget-object v0, p0, Lcom/commsource/studio/doodle/shop/ColorPickerComponent$d;->a:Lcom/commsource/studio/doodle/shop/ColorPickerComponent;
 
@@ -85,13 +82,11 @@
 
     invoke-virtual {v0, v1}, Lcom/commsource/studio/doodle/ColorPickerLayer;->j0(Z)V
 
-    .line 4
     :cond_2
     iget-object v0, p0, Lcom/commsource/studio/doodle/shop/ColorPickerComponent$d;->a:Lcom/commsource/studio/doodle/shop/ColorPickerComponent;
 
     invoke-static {v0}, Lcom/commsource/studio/doodle/shop/ColorPickerComponent;->c(Lcom/commsource/studio/doodle/shop/ColorPickerComponent;)V
 
-    .line 5
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

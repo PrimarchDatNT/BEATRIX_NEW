@@ -18,7 +18,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Landroid/content/BroadcastReceiver;-><init>()V
 
     return-void
@@ -27,7 +26,6 @@
 .method synthetic constructor <init>(Lf/q/b/b$a;)V
     .locals 0
 
-    .line 2
     invoke-direct {p0}, Lf/q/b/b$b;-><init>()V
 
     return-void
@@ -38,28 +36,24 @@
 .method public onReceive(Landroid/content/Context;Landroid/content/Intent;)V
     .locals 2
 
-    .line 1
     invoke-virtual {p2}, Landroid/content/Intent;->getAction()Ljava/lang/String;
 
     move-result-object p2
 
     const-string v0, "android.intent.action.USER_PRESENT"
 
-    .line 2
     invoke-virtual {v0, p2}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p2
 
     if-eqz p2, :cond_2
 
-    .line 3
     invoke-static {}, Lf/q/b/b;->b()Ljava/util/ArrayList;
 
     move-result-object p2
 
     monitor-enter p2
 
-    .line 4
     :try_start_0
     invoke-static {}, Lf/q/b/b;->b()Ljava/util/ArrayList;
 
@@ -85,12 +79,10 @@
 
     if-eqz v1, :cond_0
 
-    .line 5
     invoke-virtual {v1}, Landroid/app/PendingIntent;->send()V
 
     goto :goto_0
 
-    .line 6
     :cond_1
     invoke-static {}, Lf/q/b/b;->b()Ljava/util/ArrayList;
 
@@ -98,7 +90,6 @@
 
     invoke-virtual {v0}, Ljava/util/ArrayList;->clear()V
 
-    .line 7
     invoke-static {p1}, Lf/q/b/b;->c(Landroid/content/Context;)V
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
@@ -111,7 +102,6 @@
 
     goto :goto_2
 
-    .line 8
     :catch_0
     :goto_1
     :try_start_1

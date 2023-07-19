@@ -21,7 +21,6 @@
 
     int-to-short p0, p0
 
-    .line 1
     invoke-static {p0}, Lcotlin/p1;->s(S)S
 
     move-result p0
@@ -43,7 +42,6 @@
 
     int-to-short p0, p0
 
-    .line 1
     invoke-static {p0}, Lcotlin/p1;->s(S)S
 
     move-result p0
@@ -67,7 +65,6 @@
 
     int-to-short p0, p1
 
-    .line 1
     invoke-static {p0}, Lcotlin/p1;->s(S)S
 
     move-result p0
@@ -87,7 +84,6 @@
         version = "1.3"
     .end annotation
 
-    .line 1
     invoke-static {p0}, Lcotlin/p1;->s(S)S
 
     move-result p0

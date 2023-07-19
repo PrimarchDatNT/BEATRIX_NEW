@@ -52,10 +52,8 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/commsource/puzzle/patchedworld/codingUtil/c;->c:Lcom/commsource/puzzle/patchedworld/codingUtil/c$b;
 
     return-void
@@ -72,13 +70,10 @@
         .end annotation
     .end param
 
-    .line 3
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 4
     iput-object p1, p0, Lcom/commsource/puzzle/patchedworld/codingUtil/c;->c:Lcom/commsource/puzzle/patchedworld/codingUtil/c$b;
 
-    .line 5
     iput-object p2, p0, Lcom/commsource/puzzle/patchedworld/codingUtil/c;->b:Lcom/commsource/puzzle/patchedworld/codingUtil/c$a;
 
     return-void
@@ -102,7 +97,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/puzzle/patchedworld/codingUtil/c;->b:Lcom/commsource/puzzle/patchedworld/codingUtil/c$a;
 
     if-eqz v1, :cond_0
@@ -133,17 +127,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/puzzle/patchedworld/codingUtil/c;->c:Lcom/commsource/puzzle/patchedworld/codingUtil/c$b;
 
     if-eqz v1, :cond_0
 
-    .line 2
     iget-object v2, p0, Lcom/commsource/puzzle/patchedworld/codingUtil/c;->a:Ljava/lang/Object;
 
     invoke-interface {v1, v2}, Lcom/commsource/puzzle/patchedworld/codingUtil/c$b;->a(Ljava/lang/Object;)V
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -168,7 +159,6 @@
 
     const/4 v1, 0x1
 
-    .line 1
     invoke-virtual {p0, p1, v1, v1, v1}, Lcom/commsource/puzzle/patchedworld/codingUtil/c;->d(Ljava/lang/Object;ZZZ)Z
 
     move-result p1
@@ -194,14 +184,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/puzzle/patchedworld/codingUtil/c;->b:Lcom/commsource/puzzle/patchedworld/codingUtil/c$a;
 
     if-eqz v1, :cond_1
 
     if-eqz p2, :cond_0
 
-    .line 2
     invoke-interface {v1, p1}, Lcom/commsource/puzzle/patchedworld/codingUtil/c$a;->b(Ljava/lang/Object;)Z
 
     move-result p2
@@ -210,7 +198,6 @@
 
     const/4 p1, 0x0
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
@@ -218,18 +205,15 @@
     :cond_0
     if-eqz p3, :cond_1
 
-    .line 4
     iget-object p2, p0, Lcom/commsource/puzzle/patchedworld/codingUtil/c;->b:Lcom/commsource/puzzle/patchedworld/codingUtil/c$a;
 
     invoke-interface {p2, p1}, Lcom/commsource/puzzle/patchedworld/codingUtil/c$a;->a(Ljava/lang/Object;)V
 
-    .line 5
     :cond_1
     iput-object p1, p0, Lcom/commsource/puzzle/patchedworld/codingUtil/c;->a:Ljava/lang/Object;
 
     if-eqz p4, :cond_2
 
-    .line 6
     iget-object p2, p0, Lcom/commsource/puzzle/patchedworld/codingUtil/c;->c:Lcom/commsource/puzzle/patchedworld/codingUtil/c$b;
 
     invoke-interface {p2, p1}, Lcom/commsource/puzzle/patchedworld/codingUtil/c$b;->a(Ljava/lang/Object;)V
@@ -237,7 +221,6 @@
     :cond_2
     const/4 p1, 0x1
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
@@ -258,7 +241,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/puzzle/patchedworld/codingUtil/c;->a:Ljava/lang/Object;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

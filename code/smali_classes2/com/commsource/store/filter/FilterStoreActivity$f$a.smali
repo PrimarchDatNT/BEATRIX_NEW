@@ -30,7 +30,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/store/filter/FilterStoreActivity$f$a;->f:Lcom/commsource/store/filter/FilterStoreActivity$f;
 
     invoke-direct {p0, p2, p3}, Lcom/commsource/util/delegate/process/PaidFilterProcess;-><init>(ILcom/commsource/util/delegate/process/PaidFilterProcess$ModuleEnum;)V
@@ -49,7 +48,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     iget-object p1, p0, Lcom/commsource/store/filter/FilterStoreActivity$f$a;->f:Lcom/commsource/store/filter/FilterStoreActivity$f;
 
     iget-object p1, p1, Lcom/commsource/store/filter/FilterStoreActivity$f;->a:Lcom/commsource/store/filter/FilterStoreActivity;
@@ -66,7 +64,6 @@
 
     invoke-virtual {p1, v1}, Landroidx/lifecycle/MutableLiveData;->setValue(Ljava/lang/Object;)V
 
-    .line 2
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

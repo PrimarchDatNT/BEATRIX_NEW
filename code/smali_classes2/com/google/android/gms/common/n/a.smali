@@ -21,7 +21,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -36,21 +35,17 @@
 
     monitor-enter v0
 
-    .line 1
     :try_start_0
     sget-object v1, Lcom/google/android/gms/common/n/a;->a:Lcom/google/android/gms/common/n/a$a;
 
     if-nez v1, :cond_0
 
-    .line 2
     new-instance v1, Lcom/google/android/gms/common/n/b;
 
     invoke-direct {v1}, Lcom/google/android/gms/common/n/b;-><init>()V
 
-    .line 3
     sput-object v1, Lcom/google/android/gms/common/n/a;->a:Lcom/google/android/gms/common/n/a$a;
 
-    .line 4
     :cond_0
     sget-object v1, Lcom/google/android/gms/common/n/a;->a:Lcom/google/android/gms/common/n/a$a;
     :try_end_0

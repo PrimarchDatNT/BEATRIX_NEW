@@ -42,24 +42,20 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Ljava/util/Calendar;->getInstance()Ljava/util/Calendar;
 
     move-result-object v1
 
     add-int/lit8 p2, p2, -0x1
 
-    .line 2
     invoke-virtual {v1, p1, p2, p3}, Ljava/util/Calendar;->set(III)V
 
-    .line 3
     invoke-static {}, Ljava/util/Calendar;->getInstance()Ljava/util/Calendar;
 
     move-result-object p1
 
     const-string p2, "today"
 
-    .line 4
     invoke-static {p1, p2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {p1}, Ljava/util/Calendar;->getTimeInMillis()J
@@ -92,7 +88,6 @@
 
     add-long/2addr p1, v2
 
-    .line 5
     :cond_0
     iget-object p3, p0, Lcom/commsource/camera/xcamera/cover/window/ArTextEditCover$b;->a:Lcom/commsource/camera/xcamera/cover/window/ArTextEditCover;
 
@@ -120,7 +115,6 @@
 
     invoke-virtual {p3, p1}, Lcom/commsource/camera/xcamera/BpCameraViewModel;->Z2(Ljava/lang/String;)V
 
-    .line 6
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/window/ArTextEditCover$b;->a:Lcom/commsource/camera/xcamera/cover/window/ArTextEditCover;
 
     invoke-virtual {p1}, Lcom/commsource/camera/xcamera/cover/window/ArTextEditCover;->H()Lcom/commsource/camera/xcamera/BpCameraViewModel;
@@ -129,7 +123,6 @@
 
     invoke-virtual {p1, v1}, Lcom/commsource/camera/xcamera/BpCameraViewModel;->N2(Ljava/util/Calendar;)V
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

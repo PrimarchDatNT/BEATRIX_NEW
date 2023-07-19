@@ -42,12 +42,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Landroid/graphics/Rect;
 
     invoke-direct {v1}, Landroid/graphics/Rect;-><init>()V
 
-    .line 2
     iget-object v2, p0, Lcom/commsource/beautyplus/web/CrashFeedBackActivity$f;->a:Lcom/commsource/beautyplus/web/CrashFeedBackActivity;
 
     invoke-static {v2}, Lcom/commsource/beautyplus/web/CrashFeedBackActivity;->O0(Lcom/commsource/beautyplus/web/CrashFeedBackActivity;)Landroid/view/View;
@@ -56,14 +54,12 @@
 
     invoke-virtual {v2, v1}, Landroid/view/View;->getWindowVisibleDisplayFrame(Landroid/graphics/Rect;)V
 
-    .line 3
     iget v2, v1, Landroid/graphics/Rect;->bottom:I
 
     iget v1, v1, Landroid/graphics/Rect;->top:I
 
     sub-int/2addr v2, v1
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/beautyplus/web/CrashFeedBackActivity$f;->a:Lcom/commsource/beautyplus/web/CrashFeedBackActivity;
 
     invoke-static {v1}, Lcom/commsource/beautyplus/web/CrashFeedBackActivity;->O0(Lcom/commsource/beautyplus/web/CrashFeedBackActivity;)Landroid/view/View;
@@ -84,7 +80,6 @@
 
     sub-int v2, v1, v2
 
-    .line 5
     div-int/lit8 v1, v1, 0x4
 
     const/4 v3, 0x0
@@ -98,7 +93,6 @@
     :cond_0
     const/4 v1, 0x0
 
-    .line 6
     :goto_0
     iget-object v4, p0, Lcom/commsource/beautyplus/web/CrashFeedBackActivity$f;->a:Lcom/commsource/beautyplus/web/CrashFeedBackActivity;
 
@@ -154,7 +148,6 @@
 
     sub-float/2addr v1, v4
 
-    .line 7
     iget-object v2, p0, Lcom/commsource/beautyplus/web/CrashFeedBackActivity$f;->a:Lcom/commsource/beautyplus/web/CrashFeedBackActivity;
 
     invoke-static {v2}, Lcom/commsource/beautyplus/web/CrashFeedBackActivity;->P0(Lcom/commsource/beautyplus/web/CrashFeedBackActivity;)Lcom/commsource/beautyplus/f0/m;
@@ -178,7 +171,6 @@
 
     goto :goto_1
 
-    .line 8
     :cond_2
     iget-object v1, p0, Lcom/commsource/beautyplus/web/CrashFeedBackActivity$f;->a:Lcom/commsource/beautyplus/web/CrashFeedBackActivity;
 
@@ -192,7 +184,6 @@
 
     invoke-virtual {v1, v5}, Landroid/view/ViewGroup;->setTranslationY(F)V
 
-    .line 9
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

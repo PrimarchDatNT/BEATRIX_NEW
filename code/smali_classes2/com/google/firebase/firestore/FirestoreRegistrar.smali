@@ -21,7 +21,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -30,12 +29,10 @@
 .method static synthetic lambda$getComponents$0(Lcom/google/firebase/components/g;)Lcom/google/firebase/firestore/s;
     .locals 4
 
-    .line 1
     new-instance v0, Lcom/google/firebase/firestore/s;
 
     const-class v1, Landroid/content/Context;
 
-    .line 2
     invoke-interface {p0, v1}, Lcom/google/firebase/components/g;->a(Ljava/lang/Class;)Ljava/lang/Object;
 
     move-result-object v1
@@ -44,7 +41,6 @@
 
     const-class v2, Lcom/google/firebase/d;
 
-    .line 3
     invoke-interface {p0, v2}, Lcom/google/firebase/components/g;->a(Ljava/lang/Class;)Ljava/lang/Object;
 
     move-result-object v2
@@ -53,7 +49,6 @@
 
     const-class v3, Lcom/google/firebase/auth/internal/b;
 
-    .line 4
     invoke-interface {p0, v3}, Lcom/google/firebase/components/g;->a(Ljava/lang/Class;)Ljava/lang/Object;
 
     move-result-object p0
@@ -85,17 +80,14 @@
 
     new-array v0, v0, [Lcom/google/firebase/components/f;
 
-    .line 1
     const-class v1, Lcom/google/firebase/firestore/s;
 
-    .line 2
     invoke-static {v1}, Lcom/google/firebase/components/f;->a(Ljava/lang/Class;)Lcom/google/firebase/components/f$b;
 
     move-result-object v1
 
     const-class v2, Lcom/google/firebase/d;
 
-    .line 3
     invoke-static {v2}, Lcom/google/firebase/components/p;->g(Ljava/lang/Class;)Lcom/google/firebase/components/p;
 
     move-result-object v2
@@ -106,7 +98,6 @@
 
     const-class v2, Landroid/content/Context;
 
-    .line 4
     invoke-static {v2}, Lcom/google/firebase/components/p;->g(Ljava/lang/Class;)Lcom/google/firebase/components/p;
 
     move-result-object v2
@@ -117,7 +108,6 @@
 
     const-class v2, Lcom/google/firebase/auth/internal/b;
 
-    .line 5
     invoke-static {v2}, Lcom/google/firebase/components/p;->e(Ljava/lang/Class;)Lcom/google/firebase/components/p;
 
     move-result-object v2
@@ -130,12 +120,10 @@
 
     move-result-object v2
 
-    .line 6
     invoke-virtual {v1, v2}, Lcom/google/firebase/components/f$b;->f(Lcom/google/firebase/components/i;)Lcom/google/firebase/components/f$b;
 
     move-result-object v1
 
-    .line 7
     invoke-virtual {v1}, Lcom/google/firebase/components/f$b;->d()Lcom/google/firebase/components/f;
 
     move-result-object v1
@@ -148,7 +136,6 @@
 
     const-string v2, "19.0.2"
 
-    .line 8
     invoke-static {v1, v2}, Lcom/google/firebase/y/h;->a(Ljava/lang/String;Ljava/lang/String;)Lcom/google/firebase/components/f;
 
     move-result-object v1
@@ -157,7 +144,6 @@
 
     aput-object v1, v0, v2
 
-    .line 9
     invoke-static {v0}, Ljava/util/Arrays;->asList([Ljava/lang/Object;)Ljava/util/List;
 
     move-result-object v0

@@ -30,7 +30,6 @@
 .method private constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-static {}, Lcom/google/android/gms/internal/icing/l$b;->x()Lcom/google/android/gms/internal/icing/l$b;
 
     move-result-object v0
@@ -43,7 +42,6 @@
 .method synthetic constructor <init>(Lcom/google/android/gms/internal/icing/m;)V
     .locals 0
 
-    .line 2
     invoke-direct {p0}, Lcom/google/android/gms/internal/icing/l$b$a;-><init>()V
 
     return-void
@@ -54,10 +52,8 @@
 .method public final l(Lcom/google/android/gms/internal/icing/l$d;)Lcom/google/android/gms/internal/icing/l$b$a;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/android/gms/internal/icing/e2$a;->i()V
 
-    .line 2
     iget-object v0, p0, Lcom/google/android/gms/internal/icing/e2$a;->b:Lcom/google/android/gms/internal/icing/e2;
 
     check-cast v0, Lcom/google/android/gms/internal/icing/l$b;
@@ -70,10 +66,8 @@
 .method public final m(Ljava/lang/String;)Lcom/google/android/gms/internal/icing/l$b$a;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/android/gms/internal/icing/e2$a;->i()V
 
-    .line 2
     iget-object v0, p0, Lcom/google/android/gms/internal/icing/e2$a;->b:Lcom/google/android/gms/internal/icing/e2;
 
     check-cast v0, Lcom/google/android/gms/internal/icing/l$b;

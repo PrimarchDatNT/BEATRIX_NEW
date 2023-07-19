@@ -39,7 +39,6 @@
 .method constructor <init>(Lf/n/a/c/l;Lf/n/a/c/h;Ljava/lang/String;Lf/n/a/c/j;Lf/n/a/c/a;Lcom/qiniu/android/http/a;Lcom/qiniu/android/http/d;Lcom/qiniu/android/http/e;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lf/n/a/c/b$b;->a:Lf/n/a/c/l;
 
     iput-object p2, p0, Lf/n/a/c/b$b;->b:Lf/n/a/c/h;
@@ -66,7 +65,6 @@
 .method public a(Lcom/qiniu/android/http/g;Lorg/json/JSONObject;)V
     .locals 9
 
-    .line 1
     invoke-virtual {p1}, Lcom/qiniu/android/http/g;->h()Z
 
     move-result v0
@@ -79,21 +77,18 @@
 
     if-nez v0, :cond_0
 
-    .line 2
     iget-object v0, p0, Lf/n/a/c/b$b;->a:Lf/n/a/c/l;
 
     iget-object v0, v0, Lf/n/a/c/l;->f:Lf/n/a/c/d;
 
     invoke-interface {v0}, Lf/n/a/c/d;->a()V
 
-    .line 3
     invoke-static {}, Lf/n/a/d/b;->c()Z
 
     move-result v0
 
     if-nez v0, :cond_0
 
-    .line 4
     iget-object v0, p0, Lf/n/a/c/b$b;->b:Lf/n/a/c/h;
 
     iget-object v1, p0, Lf/n/a/c/b$b;->c:Ljava/lang/String;
@@ -102,7 +97,6 @@
 
     return-void
 
-    .line 5
     :cond_0
     invoke-virtual {p1}, Lcom/qiniu/android/http/g;->j()Z
 
@@ -110,7 +104,6 @@
 
     if-eqz v0, :cond_1
 
-    .line 6
     iget-object v0, p0, Lf/n/a/c/b$b;->a:Lf/n/a/c/l;
 
     iget-object v0, v0, Lf/n/a/c/l;->d:Lf/n/a/c/i;
@@ -121,7 +114,6 @@
 
     invoke-interface {v0, v1, v2, v3}, Lf/n/a/c/i;->a(Ljava/lang/String;D)V
 
-    .line 7
     iget-object v0, p0, Lf/n/a/c/b$b;->b:Lf/n/a/c/h;
 
     iget-object v1, p0, Lf/n/a/c/b$b;->c:Ljava/lang/String;
@@ -130,7 +122,6 @@
 
     goto/16 :goto_1
 
-    .line 8
     :cond_1
     iget-object v0, p0, Lf/n/a/c/b$b;->a:Lf/n/a/c/l;
 
@@ -142,14 +133,12 @@
 
     if-eqz v0, :cond_2
 
-    .line 9
     iget-object p1, p0, Lf/n/a/c/b$b;->d:Lf/n/a/c/j;
 
     invoke-static {p1}, Lcom/qiniu/android/http/g;->a(Lf/n/a/c/j;)Lcom/qiniu/android/http/g;
 
     move-result-object p1
 
-    .line 10
     iget-object p2, p0, Lf/n/a/c/b$b;->b:Lf/n/a/c/h;
 
     iget-object v0, p0, Lf/n/a/c/b$b;->c:Ljava/lang/String;
@@ -160,7 +149,6 @@
 
     goto :goto_1
 
-    .line 11
     :cond_2
     invoke-virtual {p1}, Lcom/qiniu/android/http/g;->l()Z
 
@@ -184,7 +172,6 @@
 
     goto :goto_0
 
-    .line 12
     :cond_3
     iget-object v0, p0, Lf/n/a/c/b$b;->b:Lf/n/a/c/h;
 
@@ -194,14 +181,12 @@
 
     goto :goto_1
 
-    .line 13
     :cond_4
     :goto_0
     new-instance v7, Lf/n/a/c/b$b$a;
 
     invoke-direct {v7, p0}, Lf/n/a/c/b$b$a;-><init>(Lf/n/a/c/b$b;)V
 
-    .line 14
     iget-object p2, p0, Lf/n/a/c/b$b;->e:Lf/n/a/c/a;
 
     iget-object p2, p2, Lf/n/a/c/a;->k:Lf/n/a/b/e;
@@ -216,7 +201,6 @@
 
     iget-object p2, p2, Lf/n/a/b/d;->a:Ljava/net/URI;
 
-    .line 15
     iget-object v0, p0, Lf/n/a/c/b$b;->e:Lf/n/a/c/a;
 
     iget-object v0, v0, Lf/n/a/c/a;->k:Lf/n/a/b/e;
@@ -231,7 +215,6 @@
 
     if-eqz v0, :cond_6
 
-    .line 16
     invoke-virtual {p1}, Lcom/qiniu/android/http/g;->m()Z
 
     move-result v0
@@ -244,7 +227,6 @@
 
     if-eqz p1, :cond_6
 
-    .line 17
     :cond_5
     iget-object p1, p0, Lf/n/a/c/b$b;->e:Lf/n/a/c/a;
 
@@ -260,7 +242,6 @@
 
     iget-object p2, p1, Lf/n/a/b/d;->a:Ljava/net/URI;
 
-    .line 18
     :cond_6
     iget-object v2, p0, Lf/n/a/c/b$b;->f:Lcom/qiniu/android/http/a;
 

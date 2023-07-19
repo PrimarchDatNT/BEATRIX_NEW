@@ -38,28 +38,22 @@
 .method public constructor <init>()V
     .locals 2
 
-    .line 1
     invoke-direct {p0}, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineNativeBase;-><init>()V
 
     const/4 v0, 0x0
 
-    .line 2
     iput v0, p0, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineImage;->mWidth:I
 
-    .line 3
     iput v0, p0, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineImage;->mHeight:I
 
     const/4 v1, 0x1
 
-    .line 4
     iput v1, p0, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineImage;->mOrientation:I
 
-    .line 5
     iput v0, p0, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineImage;->mStride:I
 
     const-wide/16 v0, 0x0
 
-    .line 6
     iput-wide v0, p0, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineImage;->mNativeInstance:J
 
     return-void
@@ -68,49 +62,36 @@
 .method private constructor <init>(JLjava/nio/ByteBuffer;IIIII)V
     .locals 2
 
-    .line 7
     invoke-direct {p0}, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineNativeBase;-><init>()V
 
     const/4 v0, 0x0
 
-    .line 8
     iput v0, p0, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineImage;->mWidth:I
 
-    .line 9
     iput v0, p0, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineImage;->mHeight:I
 
     const/4 v1, 0x1
 
-    .line 10
     iput v1, p0, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineImage;->mOrientation:I
 
-    .line 11
     iput v0, p0, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineImage;->mStride:I
 
     const-wide/16 v0, 0x0
 
-    .line 12
     iput-wide v0, p0, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineImage;->mNativeInstance:J
 
-    .line 13
     iput-wide p1, p0, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineImage;->mNativeInstance:J
 
-    .line 14
     iput-object p3, p0, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineImage;->mImageByteBuffer:Ljava/nio/ByteBuffer;
 
-    .line 15
     iput p4, p0, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineImage;->mWidth:I
 
-    .line 16
     iput p5, p0, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineImage;->mHeight:I
 
-    .line 17
     iput p6, p0, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineImage;->mPixelFormat:I
 
-    .line 18
     iput p7, p0, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineImage;->mOrientation:I
 
-    .line 19
     iput p8, p0, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineImage;->mStride:I
 
     return-void
@@ -123,7 +104,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-wide p1, p0, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineImage;->mNativeInstance:J
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -138,7 +118,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static/range {p0 .. p5}, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineImage;->nativeCreateImageFromFormatByteDirectBuffer(IILjava/nio/ByteBuffer;III)J
 
     move-result-wide p0
@@ -155,7 +134,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static/range {p0 .. p5}, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineImage;->nativeCreateImageFromFormatByteArray(II[BIII)J
 
     move-result-wide p0
@@ -172,7 +150,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static/range {p0 .. p6}, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineImage;->nativeCreateImageFromFormatBytePointer(IIJIII)J
 
     move-result-wide p0
@@ -189,47 +166,40 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineImage;
 
     invoke-direct {v1}, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineImage;-><init>()V
 
-    .line 2
     invoke-virtual {p0}, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineImage;->getWidth()I
 
     move-result v2
 
     invoke-virtual {v1, v2}, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineImage;->setWidth(I)V
 
-    .line 3
     invoke-virtual {p0}, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineImage;->getHeight()I
 
     move-result v2
 
     invoke-virtual {v1, v2}, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineImage;->setHeight(I)V
 
-    .line 4
     invoke-virtual {p0}, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineImage;->getOrientation()I
 
     move-result v2
 
     invoke-virtual {v1, v2}, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineImage;->setOrientation(I)V
 
-    .line 5
     invoke-virtual {p0}, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineImage;->getStride()I
 
     move-result v2
 
     invoke-virtual {v1, v2}, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineImage;->setStride(I)V
 
-    .line 6
     invoke-virtual {p0}, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineImage;->getPixelFormat()I
 
     move-result v2
 
     invoke-virtual {v1, v2}, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineImage;->setPixelFormat(I)V
 
-    .line 7
     iget-wide v2, p0, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineImage;->mNativeInstance:J
 
     invoke-static {v2, v3}, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineImage;->nativeCloneImage(J)J
@@ -238,7 +208,6 @@
 
     iput-wide v2, v1, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineImage;->mNativeInstance:J
 
-    .line 8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
@@ -253,7 +222,6 @@
 
     const/4 v1, 0x1
 
-    .line 13
     invoke-static {p0, v1}, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineImage;->createImageFromBitmap(Landroid/graphics/Bitmap;I)Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineImage;
 
     move-result-object p0
@@ -272,7 +240,6 @@
 
     if-eqz p0, :cond_2
 
-    .line 1
     invoke-virtual {p0}, Landroid/graphics/Bitmap;->isRecycled()Z
 
     move-result v1
@@ -281,7 +248,6 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     invoke-virtual {p0}, Landroid/graphics/Bitmap;->getConfig()Landroid/graphics/Bitmap$Config;
 
@@ -297,7 +263,6 @@
 
     if-eq v1, v2, :cond_1
 
-    .line 3
     sget-object v1, Landroid/graphics/Bitmap$Config;->ARGB_8888:Landroid/graphics/Bitmap$Config;
 
     const/4 v2, 0x1
@@ -306,31 +271,25 @@
 
     move-result-object p0
 
-    .line 4
     :cond_1
     invoke-virtual {p0}, Landroid/graphics/Bitmap;->getByteCount()I
 
     move-result v1
 
-    .line 5
     invoke-static {v1}, Ljava/nio/ByteBuffer;->allocateDirect(I)Ljava/nio/ByteBuffer;
 
     move-result-object v4
 
-    .line 6
     invoke-virtual {p0, v4}, Landroid/graphics/Bitmap;->copyPixelsToBuffer(Ljava/nio/Buffer;)V
 
-    .line 7
     invoke-virtual {p0}, Landroid/graphics/Bitmap;->getWidth()I
 
     move-result v2
 
-    .line 8
     invoke-virtual {p0}, Landroid/graphics/Bitmap;->getHeight()I
 
     move-result v3
 
-    .line 9
     invoke-virtual {p0}, Landroid/graphics/Bitmap;->getRowBytes()I
 
     move-result v7
@@ -339,12 +298,10 @@
 
     move v6, p1
 
-    .line 10
     invoke-static/range {v2 .. v7}, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineImage;->createImageFromFormatByteBuffer(IILjava/nio/ByteBuffer;III)Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineImage;
 
     move-result-object p0
 
-    .line 11
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
@@ -353,7 +310,6 @@
     :goto_0
     const/4 p0, 0x0
 
-    .line 12
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
@@ -366,42 +322,34 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v9, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineImage;
 
     invoke-direct {v9}, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineImage;-><init>()V
 
     move-object v5, p2
 
-    .line 2
     iput-object v5, v9, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineImage;->mImageBytes:[B
 
     move v3, p0
 
-    .line 3
     invoke-virtual {v9, p0}, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineImage;->setWidth(I)V
 
     move v4, p1
 
-    .line 4
     invoke-virtual {v9, p1}, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineImage;->setHeight(I)V
 
     move v7, p4
 
-    .line 5
     invoke-virtual {v9, p4}, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineImage;->setOrientation(I)V
 
     move/from16 v8, p5
 
-    .line 6
     invoke-virtual {v9, v8}, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineImage;->setStride(I)V
 
     move v6, p3
 
-    .line 7
     invoke-virtual {v9, p3}, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineImage;->setPixelFormat(I)V
 
-    .line 8
     new-instance v10, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineImage$2;
 
     move-object v1, v10
@@ -412,7 +360,6 @@
 
     invoke-static {v10}, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineNativeBase;->handleUnsatisfiedLinkError(Ljava/lang/Runnable;)V
 
-    .line 9
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v9
@@ -431,46 +378,37 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-static {v8}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v0
 
-    .line 2
     :cond_0
     new-instance v9, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineImage;
 
     invoke-direct {v9}, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineImage;-><init>()V
 
-    .line 3
     iput-object v1, v9, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineImage;->mImageByteBuffer:Ljava/nio/ByteBuffer;
 
     move v3, p0
 
-    .line 4
     invoke-virtual {v9, p0}, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineImage;->setWidth(I)V
 
     move v4, p1
 
-    .line 5
     invoke-virtual {v9, p1}, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineImage;->setHeight(I)V
 
     move v6, p4
 
-    .line 6
     invoke-virtual {v9, p4}, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineImage;->setOrientation(I)V
 
     move/from16 v7, p5
 
-    .line 7
     invoke-virtual {v9, v7}, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineImage;->setStride(I)V
 
     move v5, p3
 
-    .line 8
     invoke-virtual {v9, p3}, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineImage;->setPixelFormat(I)V
 
-    .line 9
     new-instance v10, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineImage$1;
 
     move-object v0, v10
@@ -483,7 +421,6 @@
 
     invoke-static {v10}, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineNativeBase;->handleUnsatisfiedLinkError(Ljava/lang/Runnable;)V
 
-    .line 10
     invoke-static {v8}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v9
@@ -517,40 +454,31 @@
 
     const-string v1, "invalid image parameter"
 
-    .line 1
     invoke-static {v0, v1}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 2
     :cond_1
     new-instance v10, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineImage;
 
     invoke-direct {v10}, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineImage;-><init>()V
 
-    .line 3
     iput-wide v4, v10, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineImage;->mImageBytePointer:J
 
-    .line 4
     invoke-virtual {v10, p0}, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineImage;->setWidth(I)V
 
-    .line 5
     invoke-virtual {v10, p1}, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineImage;->setHeight(I)V
 
     move/from16 v7, p5
 
-    .line 6
     invoke-virtual {v10, v7}, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineImage;->setOrientation(I)V
 
     move/from16 v8, p6
 
-    .line 7
     invoke-virtual {v10, v8}, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineImage;->setStride(I)V
 
     move/from16 v6, p4
 
-    .line 8
     invoke-virtual {v10, v6}, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineImage;->setPixelFormat(I)V
 
-    .line 9
     new-instance v11, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineImage$3;
 
     move-object v0, v11
@@ -567,7 +495,6 @@
 
     invoke-static {v11}, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineNativeBase;->handleUnsatisfiedLinkError(Ljava/lang/Runnable;)V
 
-    .line 10
     invoke-static {v9}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v10
@@ -620,7 +547,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0}, Ljava/lang/Object;->clone()Ljava/lang/Object;
 
     move-result-object v1
@@ -629,32 +555,26 @@
 
     if-eqz v1, :cond_0
 
-    .line 2
     iget v2, p0, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineImage;->mWidth:I
 
     iput v2, v1, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineImage;->mWidth:I
 
-    .line 3
     iget v2, p0, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineImage;->mHeight:I
 
     iput v2, v1, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineImage;->mHeight:I
 
-    .line 4
     iget v2, p0, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineImage;->mOrientation:I
 
     iput v2, v1, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineImage;->mOrientation:I
 
-    .line 5
     iget v2, p0, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineImage;->mStride:I
 
     iput v2, v1, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineImage;->mStride:I
 
-    .line 6
     iget v2, p0, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineImage;->mPixelFormat:I
 
     iput v2, v1, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineImage;->mPixelFormat:I
 
-    .line 7
     iget-wide v2, p0, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineImage;->mNativeInstance:J
 
     invoke-static {v2, v3}, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineImage;->nativeCloneImage(J)J
@@ -663,7 +583,6 @@
 
     iput-wide v2, v1, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineImage;->mNativeInstance:J
 
-    .line 8
     iget-wide v2, p0, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineImage;->mNativeInstance:J
 
     invoke-static {v2, v3}, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineImage;->nativeCreateImageByteBuffer(J)Ljava/nio/ByteBuffer;
@@ -672,7 +591,6 @@
 
     iput-object v2, v1, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineImage;->mImageByteBuffer:Ljava/nio/ByteBuffer;
 
-    .line 9
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -686,7 +604,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineImage;->mNativeInstance:J
 
     invoke-static {v1, v2, p1, p2}, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineImage;->nativeCopyPixelsToBytePointer(JJ)Z
@@ -710,16 +627,13 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     :try_start_0
     invoke-virtual {p0}, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineImage;->release()V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 2
     invoke-super {p0}, Ljava/lang/Object;->finalize()V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -727,10 +641,8 @@
     :catchall_0
     move-exception v1
 
-    .line 4
     invoke-super {p0}, Ljava/lang/Object;->finalize()V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     throw v1
@@ -743,7 +655,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineImage;->mHeight:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -758,7 +669,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineImage;->mImageBytes:[B
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -773,7 +683,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineImage;->mImageByteBuffer:Ljava/nio/ByteBuffer;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -788,7 +697,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineImage;->mNativeInstance:J
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -803,7 +711,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineImage;->mOrientation:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -818,7 +725,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineImage;->mPixelFormat:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -833,7 +739,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineImage;->mStride:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -848,7 +753,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineImage;->mWidth:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -863,30 +767,24 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineImage;->mNativeInstance:J
 
     invoke-static {v1, v2}, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineImage;->nativeDestroyInstance(J)V
 
     const-wide/16 v1, 0x0
 
-    .line 2
     iput-wide v1, p0, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineImage;->mNativeInstance:J
 
-    .line 3
     iget-object v1, p0, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineImage;->mImageByteBuffer:Ljava/nio/ByteBuffer;
 
     if-eqz v1, :cond_0
 
-    .line 4
     invoke-virtual {v1}, Ljava/nio/ByteBuffer;->clear()Ljava/nio/Buffer;
 
     const/4 v1, 0x0
 
-    .line 5
     iput-object v1, p0, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineImage;->mImageByteBuffer:Ljava/nio/ByteBuffer;
 
-    .line 6
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -900,22 +798,18 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineImage;
 
     invoke-direct {v1}, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineImage;-><init>()V
 
-    .line 2
     invoke-virtual {v1, p1}, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineImage;->setOrientation(I)V
 
-    .line 3
     invoke-virtual {p0}, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineImage;->getPixelFormat()I
 
     move-result v2
 
     invoke-virtual {v1, v2}, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineImage;->setPixelFormat(I)V
 
-    .line 4
     iget-wide v2, p0, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineImage;->mNativeInstance:J
 
     invoke-static {v2, v3, p1}, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineImage;->nativeRotateImageTo(JI)J
@@ -924,14 +818,12 @@
 
     iput-wide v2, v1, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineImage;->mNativeInstance:J
 
-    .line 5
     invoke-static {v2, v3}, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineImage;->nativeGetWidth(J)I
 
     move-result p1
 
     invoke-virtual {v1, p1}, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineImage;->setWidth(I)V
 
-    .line 6
     iget-wide v2, v1, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineImage;->mNativeInstance:J
 
     invoke-static {v2, v3}, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineImage;->nativeGetHeight(J)I
@@ -940,7 +832,6 @@
 
     invoke-virtual {v1, p1}, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineImage;->setHeight(I)V
 
-    .line 7
     iget-wide v2, v1, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineImage;->mNativeInstance:J
 
     invoke-static {v2, v3}, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineImage;->nativeGetStride(J)I
@@ -949,7 +840,6 @@
 
     invoke-virtual {v1, p1}, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineImage;->setStride(I)V
 
-    .line 8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
@@ -962,10 +852,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineImage;->mHeight:I
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -978,10 +866,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineImage;->mOrientation:I
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -994,10 +880,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineImage;->mPixelFormat:I
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1010,10 +894,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineImage;->mStride:I
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1026,10 +908,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineImage;->mWidth:I
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

@@ -23,13 +23,10 @@
 .method constructor <init>(Ljava/lang/Object;Z)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/util/AbstractMap;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/google/android/gms/internal/firebase_remote_config/r0;->a:Ljava/lang/Object;
 
-    .line 3
     invoke-virtual {p1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
     move-result-object p1
@@ -40,7 +37,6 @@
 
     iput-object p1, p0, Lcom/google/android/gms/internal/firebase_remote_config/r0;->b:Lcom/google/android/gms/internal/firebase_remote_config/q0;
 
-    .line 4
     invoke-virtual {p1}, Lcom/google/android/gms/internal/firebase_remote_config/q0;->a()Z
 
     move-result p1
@@ -51,7 +47,6 @@
 
     return-void
 
-    .line 5
     :cond_0
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -65,7 +60,6 @@
 .method public final containsKey(Ljava/lang/Object;)Z
     .locals 0
 
-    .line 1
     invoke-virtual {p0, p1}, Lcom/google/android/gms/internal/firebase_remote_config/r0;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -85,7 +79,6 @@
 .method public final synthetic entrySet()Ljava/util/Set;
     .locals 1
 
-    .line 1
     new-instance v0, Lcom/google/android/gms/internal/firebase_remote_config/v0;
 
     invoke-direct {v0, p0}, Lcom/google/android/gms/internal/firebase_remote_config/v0;-><init>(Lcom/google/android/gms/internal/firebase_remote_config/r0;)V
@@ -96,7 +89,6 @@
 .method public final get(Ljava/lang/Object;)Ljava/lang/Object;
     .locals 2
 
-    .line 1
     instance-of v0, p1, Ljava/lang/String;
 
     const/4 v1, 0x0
@@ -105,7 +97,6 @@
 
     return-object v1
 
-    .line 2
     :cond_0
     iget-object v0, p0, Lcom/google/android/gms/internal/firebase_remote_config/r0;->b:Lcom/google/android/gms/internal/firebase_remote_config/q0;
 
@@ -119,7 +110,6 @@
 
     return-object v1
 
-    .line 3
     :cond_1
     iget-object v0, p0, Lcom/google/android/gms/internal/firebase_remote_config/r0;->a:Ljava/lang/Object;
 
@@ -133,17 +123,14 @@
 .method public final synthetic put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
     .locals 3
 
-    .line 1
     check-cast p1, Ljava/lang/String;
 
-    .line 2
     iget-object v0, p0, Lcom/google/android/gms/internal/firebase_remote_config/r0;->b:Lcom/google/android/gms/internal/firebase_remote_config/q0;
 
     invoke-virtual {v0, p1}, Lcom/google/android/gms/internal/firebase_remote_config/q0;->c(Ljava/lang/String;)Lcom/google/android/gms/internal/firebase_remote_config/w0;
 
     move-result-object v0
 
-    .line 3
     invoke-static {p1}, Ljava/lang/String;->valueOf(Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object p1
@@ -170,27 +157,22 @@
     :goto_0
     if-eqz v0, :cond_1
 
-    .line 4
     iget-object p1, p0, Lcom/google/android/gms/internal/firebase_remote_config/r0;->a:Ljava/lang/Object;
 
     invoke-virtual {v0, p1}, Lcom/google/android/gms/internal/firebase_remote_config/w0;->l(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
 
-    .line 5
     iget-object v1, p0, Lcom/google/android/gms/internal/firebase_remote_config/r0;->a:Ljava/lang/Object;
 
-    .line 6
     invoke-static {p2}, Lcom/google/android/gms/internal/firebase_remote_config/s2;->a(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p2
 
-    .line 7
     invoke-virtual {v0, v1, p2}, Lcom/google/android/gms/internal/firebase_remote_config/w0;->h(Ljava/lang/Object;Ljava/lang/Object;)V
 
     return-object p1
 
-    .line 8
     :cond_1
     new-instance p2, Ljava/lang/NullPointerException;
 

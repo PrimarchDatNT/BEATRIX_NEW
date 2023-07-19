@@ -63,10 +63,8 @@
 
     move-object v4, p2
 
-    .line 1
     invoke-direct/range {v0 .. v5}, Lorg/apache/thrift/async/TAsyncMethodCall;-><init>(Lorg/apache/thrift/async/TAsyncClient;Lorg/apache/thrift/protocol/TProtocolFactory;Lorg/apache/thrift/transport/TNonblockingTransport;Lorg/apache/thrift/async/AsyncMethodCallback;Z)V
 
-    .line 2
     iput-object p1, p0, Lio/jaegertracing/thriftjava/BaggageRestrictionManager$b$b;->a:Ljava/lang/String;
 
     return-void
@@ -91,7 +89,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lorg/apache/thrift/async/TAsyncMethodCall;->getState()Lorg/apache/thrift/async/TAsyncMethodCall$State;
 
     move-result-object v0
@@ -100,7 +97,6 @@
 
     if-ne v0, v1, :cond_0
 
-    .line 2
     new-instance v0, Lorg/apache/thrift/transport/TMemoryInputTransport;
 
     invoke-virtual {p0}, Lorg/apache/thrift/async/TAsyncMethodCall;->getFrameBuffer()Ljava/nio/ByteBuffer;
@@ -113,7 +109,6 @@
 
     invoke-direct {v0, v1}, Lorg/apache/thrift/transport/TMemoryInputTransport;-><init>([B)V
 
-    .line 3
     iget-object v1, p0, Lorg/apache/thrift/async/TAsyncMethodCall;->client:Lorg/apache/thrift/async/TAsyncClient;
 
     invoke-virtual {v1}, Lorg/apache/thrift/async/TAsyncClient;->getProtocolFactory()Lorg/apache/thrift/protocol/TProtocolFactory;
@@ -124,7 +119,6 @@
 
     move-result-object v0
 
-    .line 4
     new-instance v1, Lio/jaegertracing/thriftjava/BaggageRestrictionManager$e;
 
     invoke-direct {v1, v0}, Lio/jaegertracing/thriftjava/BaggageRestrictionManager$e;-><init>(Lorg/apache/thrift/protocol/TProtocol;)V
@@ -135,7 +129,6 @@
 
     return-object v0
 
-    .line 5
     :cond_0
     new-instance v0, Ljava/lang/IllegalStateException;
 
@@ -154,7 +147,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lio/jaegertracing/thriftjava/BaggageRestrictionManager$b$b;->a()Ljava/util/List;
 
     move-result-object v0
@@ -170,7 +162,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lorg/apache/thrift/protocol/TMessage;
 
     const-string v1, "getBaggageRestrictions"
@@ -183,20 +174,16 @@
 
     invoke-virtual {p1, v0}, Lorg/apache/thrift/protocol/TProtocol;->writeMessageBegin(Lorg/apache/thrift/protocol/TMessage;)V
 
-    .line 2
     new-instance v0, Lio/jaegertracing/thriftjava/BaggageRestrictionManager$getBaggageRestrictions_args;
 
     invoke-direct {v0}, Lio/jaegertracing/thriftjava/BaggageRestrictionManager$getBaggageRestrictions_args;-><init>()V
 
-    .line 3
     iget-object v1, p0, Lio/jaegertracing/thriftjava/BaggageRestrictionManager$b$b;->a:Ljava/lang/String;
 
     invoke-virtual {v0, v1}, Lio/jaegertracing/thriftjava/BaggageRestrictionManager$getBaggageRestrictions_args;->setServiceName(Ljava/lang/String;)Lio/jaegertracing/thriftjava/BaggageRestrictionManager$getBaggageRestrictions_args;
 
-    .line 4
     invoke-virtual {v0, p1}, Lio/jaegertracing/thriftjava/BaggageRestrictionManager$getBaggageRestrictions_args;->write(Lorg/apache/thrift/protocol/TProtocol;)V
 
-    .line 5
     invoke-virtual {p1}, Lorg/apache/thrift/protocol/TProtocol;->writeMessageEnd()V
 
     return-void

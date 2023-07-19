@@ -8,7 +8,6 @@
 
     const-string v0, "FirebaseAppIndex"
 
-    .line 1
     invoke-static {v0, p0}, Landroid/util/Log;->isLoggable(Ljava/lang/String;I)Z
 
     move-result v1
@@ -19,7 +18,6 @@
 
     return p0
 
-    .line 2
     :cond_0
     invoke-static {v0, p0}, Landroid/util/Log;->isLoggable(Ljava/lang/String;I)Z
 
@@ -33,7 +31,6 @@
 
     const/4 v0, 0x3
 
-    .line 1
     invoke-static {v0}, Lcom/google/firebase/appindexing/internal/w;->a(I)Z
 
     move-result v0
@@ -42,7 +39,6 @@
 
     const-string v0, "FirebaseAppIndex"
 
-    .line 2
     invoke-static {v0, p0}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
 
     move-result p0

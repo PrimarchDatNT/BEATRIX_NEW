@@ -16,7 +16,6 @@
 .method constructor <init>(Lcom/google/android/gms/internal/ads/cn;Landroid/content/Context;Ljava/lang/String;)V
     .locals 0
 
-    .line 1
     iput-object p2, p0, Lcom/google/android/gms/internal/ads/gn;->a:Landroid/content/Context;
 
     iput-object p3, p0, Lcom/google/android/gms/internal/ads/gn;->b:Ljava/lang/String;
@@ -31,7 +30,6 @@
 .method public final a(Ljava/lang/String;)V
     .locals 2
 
-    .line 1
     invoke-static {}, Lcom/google/android/gms/ads/internal/p;->c()Lcom/google/android/gms/internal/ads/cn;
 
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/gn;->a:Landroid/content/Context;

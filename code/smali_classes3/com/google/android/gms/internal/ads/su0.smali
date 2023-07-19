@@ -34,17 +34,14 @@
 .method public final call()Ljava/lang/Object;
     .locals 4
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/su0;->a:Lcom/google/android/gms/internal/ads/rq1;
 
     iget-object v1, p0, Lcom/google/android/gms/internal/ads/su0;->b:Lcom/google/android/gms/internal/ads/rq1;
 
     iget-object v2, p0, Lcom/google/android/gms/internal/ads/su0;->c:Lcom/google/android/gms/internal/ads/rq1;
 
-    .line 2
     new-instance v3, Lcom/google/android/gms/internal/ads/ev0;
 
-    .line 3
     invoke-interface {v0}, Ljava/util/concurrent/Future;->get()Ljava/lang/Object;
 
     move-result-object v0

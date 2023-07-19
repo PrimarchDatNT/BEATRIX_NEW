@@ -82,14 +82,12 @@
 
     sput-object v0, Lcotlin/coroutines/h;->c:Lcotlin/coroutines/h$a;
 
-    .line 1
     const-class v0, Lcotlin/coroutines/h;
 
     const-class v1, Ljava/lang/Object;
 
     const-string v2, "result"
 
-    .line 2
     invoke-static {v0, v1, v2}, Ljava/util/concurrent/atomic/AtomicReferenceFieldUpdater;->newUpdater(Ljava/lang/Class;Ljava/lang/Class;Ljava/lang/String;)Ljava/util/concurrent/atomic/AtomicReferenceFieldUpdater;
 
     move-result-object v0
@@ -120,7 +118,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 3
     sget-object v0, Lcotlin/coroutines/intrinsics/CoroutineSingletons;->UNDECIDED:Lcotlin/coroutines/intrinsics/CoroutineSingletons;
 
     invoke-direct {p0, p1, v0}, Lcotlin/coroutines/h;-><init>(Lcotlin/coroutines/c;Ljava/lang/Object;)V
@@ -152,12 +149,10 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     iput-object p1, p0, Lcotlin/coroutines/h;->a:Lcotlin/coroutines/c;
 
-    .line 2
     iput-object p2, p0, Lcotlin/coroutines/h;->result:Ljava/lang/Object;
 
     return-void
@@ -173,15 +168,12 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcotlin/coroutines/h;->result:Ljava/lang/Object;
 
-    .line 2
     sget-object v1, Lcotlin/coroutines/intrinsics/CoroutineSingletons;->UNDECIDED:Lcotlin/coroutines/intrinsics/CoroutineSingletons;
 
     if-ne v0, v1, :cond_1
 
-    .line 3
     sget-object v0, Lcotlin/coroutines/h;->b:Ljava/util/concurrent/atomic/AtomicReferenceFieldUpdater;
 
     invoke-static {}, Lcotlin/coroutines/intrinsics/a;->h()Ljava/lang/Object;
@@ -200,11 +192,9 @@
 
     return-object v0
 
-    .line 4
     :cond_0
     iget-object v0, p0, Lcotlin/coroutines/h;->result:Ljava/lang/Object;
 
-    .line 5
     :cond_1
     sget-object v1, Lcotlin/coroutines/intrinsics/CoroutineSingletons;->RESUMED:Lcotlin/coroutines/intrinsics/CoroutineSingletons;
 
@@ -216,7 +206,6 @@
 
     goto :goto_0
 
-    .line 6
     :cond_2
     instance-of v1, v0, Lcotlin/Result$Failure;
 
@@ -238,7 +227,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcotlin/coroutines/h;->a:Lcotlin/coroutines/c;
 
     instance-of v1, v0, Lcotlin/coroutines/jvm/internal/c;
@@ -258,7 +246,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcotlin/coroutines/h;->a:Lcotlin/coroutines/c;
 
     invoke-interface {v0}, Lcotlin/coroutines/c;->getContext()Lcotlin/coroutines/CoroutineContext;
@@ -285,11 +272,9 @@
         .end annotation
     .end param
 
-    .line 1
     :cond_0
     iget-object v0, p0, Lcotlin/coroutines/h;->result:Ljava/lang/Object;
 
-    .line 2
     sget-object v1, Lcotlin/coroutines/intrinsics/CoroutineSingletons;->UNDECIDED:Lcotlin/coroutines/intrinsics/CoroutineSingletons;
 
     if-ne v0, v1, :cond_1
@@ -304,7 +289,6 @@
 
     return-void
 
-    .line 3
     :cond_1
     invoke-static {}, Lcotlin/coroutines/intrinsics/a;->h()Ljava/lang/Object;
 
@@ -326,14 +310,12 @@
 
     if-eqz v0, :cond_0
 
-    .line 4
     iget-object v0, p0, Lcotlin/coroutines/h;->a:Lcotlin/coroutines/c;
 
     invoke-interface {v0, p1}, Lcotlin/coroutines/c;->resumeWith(Ljava/lang/Object;)V
 
     return-void
 
-    .line 5
     :cond_2
     new-instance p1, Ljava/lang/IllegalStateException;
 
@@ -349,7 +331,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V

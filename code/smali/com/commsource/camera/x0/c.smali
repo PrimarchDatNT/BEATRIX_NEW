@@ -69,31 +69,26 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Lcom/meitu/library/camera/q/a;-><init>()V
 
-    .line 2
     new-instance v0, Lcom/meitu/mtlab/MTAiInterface/MTAiEngineResult;
 
     invoke-direct {v0}, Lcom/meitu/mtlab/MTAiInterface/MTAiEngineResult;-><init>()V
 
     iput-object v0, p0, Lcom/commsource/camera/x0/c;->p:Lcom/meitu/mtlab/MTAiInterface/MTAiEngineResult;
 
-    .line 3
     new-instance v0, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineFrame;
 
     invoke-direct {v0}, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineFrame;-><init>()V
 
     iput-object v0, p0, Lcom/commsource/camera/x0/c;->J:Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineFrame;
 
-    .line 4
     new-instance v0, Lcom/meitu/mtlab/MTAiInterface/MTAiEngineResult;
 
     invoke-direct {v0}, Lcom/meitu/mtlab/MTAiInterface/MTAiEngineResult;-><init>()V
 
     iput-object v0, p0, Lcom/commsource/camera/x0/c;->L:Lcom/meitu/mtlab/MTAiInterface/MTAiEngineResult;
 
-    .line 5
     new-instance v0, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineFrame;
 
     invoke-direct {v0}, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineFrame;-><init>()V
@@ -110,7 +105,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/x0/c;->J:Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineFrame;
 
     iget-object v1, v1, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineFrame;->colorImage:Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineImage;
@@ -119,7 +113,6 @@
 
     invoke-virtual {v1}, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineImage;->release()V
 
-    .line 2
     :cond_0
     iget-object v1, p0, Lcom/commsource/camera/x0/c;->J:Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineFrame;
 
@@ -129,7 +122,6 @@
 
     invoke-virtual {v1}, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineImage;->release()V
 
-    .line 3
     :cond_1
     iget-object v1, p0, Lcom/commsource/camera/x0/c;->J:Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineFrame;
 
@@ -139,7 +131,6 @@
 
     invoke-virtual {v1}, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineImage;->release()V
 
-    .line 4
     :cond_2
     iget-object v1, p0, Lcom/commsource/camera/x0/c;->J:Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineFrame;
 
@@ -149,7 +140,6 @@
 
     invoke-virtual {v1}, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineImage;->release()V
 
-    .line 5
     :cond_3
     iget-object v1, p0, Lcom/commsource/camera/x0/c;->J:Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineFrame;
 
@@ -159,7 +149,6 @@
 
     invoke-virtual {v1}, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineImage;->release()V
 
-    .line 6
     :cond_4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -173,7 +162,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p1, Lcom/meitu/mtlab/MTAiInterface/MTAiEngineResult;->segmentResult:Lcom/meitu/mtlab/MTAiInterface/MTSegmentModule/MTSegmentResult;
 
     if-eqz v1, :cond_0
@@ -188,7 +176,6 @@
 
     invoke-virtual {v1}, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineImage;->release()V
 
-    .line 2
     :cond_0
     iget-object v1, p1, Lcom/meitu/mtlab/MTAiInterface/MTAiEngineResult;->segmentResult:Lcom/meitu/mtlab/MTAiInterface/MTSegmentModule/MTSegmentResult;
 
@@ -204,7 +191,6 @@
 
     invoke-virtual {v1}, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineImage;->release()V
 
-    .line 3
     :cond_1
     iget-object v1, p1, Lcom/meitu/mtlab/MTAiInterface/MTAiEngineResult;->segmentResult:Lcom/meitu/mtlab/MTAiInterface/MTSegmentModule/MTSegmentResult;
 
@@ -220,7 +206,6 @@
 
     invoke-virtual {v1}, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineImage;->release()V
 
-    .line 4
     :cond_2
     iget-object v1, p1, Lcom/meitu/mtlab/MTAiInterface/MTAiEngineResult;->segmentResult:Lcom/meitu/mtlab/MTAiInterface/MTSegmentModule/MTSegmentResult;
 
@@ -236,7 +221,6 @@
 
     invoke-virtual {v1}, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineImage;->release()V
 
-    .line 5
     :cond_3
     iget-object v1, p1, Lcom/meitu/mtlab/MTAiInterface/MTAiEngineResult;->segmentResult:Lcom/meitu/mtlab/MTAiInterface/MTSegmentModule/MTSegmentResult;
 
@@ -252,7 +236,6 @@
 
     invoke-virtual {v1}, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineImage;->release()V
 
-    .line 6
     :cond_4
     iget-object v1, p1, Lcom/meitu/mtlab/MTAiInterface/MTAiEngineResult;->segmentResult:Lcom/meitu/mtlab/MTAiInterface/MTSegmentModule/MTSegmentResult;
 
@@ -268,7 +251,6 @@
 
     invoke-virtual {v1}, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineImage;->release()V
 
-    .line 7
     :cond_5
     iget-object v1, p1, Lcom/meitu/mtlab/MTAiInterface/MTAiEngineResult;->segmentResult:Lcom/meitu/mtlab/MTAiInterface/MTSegmentModule/MTSegmentResult;
 
@@ -284,7 +266,6 @@
 
     invoke-virtual {v1}, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineImage;->release()V
 
-    .line 8
     :cond_6
     iget-object v1, p1, Lcom/meitu/mtlab/MTAiInterface/MTAiEngineResult;->segmentResult:Lcom/meitu/mtlab/MTAiInterface/MTSegmentModule/MTSegmentResult;
 
@@ -300,7 +281,6 @@
 
     invoke-virtual {v1}, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineImage;->release()V
 
-    .line 9
     :cond_7
     iget-object v1, p1, Lcom/meitu/mtlab/MTAiInterface/MTAiEngineResult;->segmentResult:Lcom/meitu/mtlab/MTAiInterface/MTSegmentModule/MTSegmentResult;
 
@@ -316,7 +296,6 @@
 
     invoke-virtual {v1}, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineImage;->release()V
 
-    .line 10
     :cond_8
     iget-object v1, p1, Lcom/meitu/mtlab/MTAiInterface/MTAiEngineResult;->segmentResult:Lcom/meitu/mtlab/MTAiInterface/MTSegmentModule/MTSegmentResult;
 
@@ -332,7 +311,6 @@
 
     invoke-virtual {v1}, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineImage;->release()V
 
-    .line 11
     :cond_9
     iget-object v1, p1, Lcom/meitu/mtlab/MTAiInterface/MTAiEngineResult;->segmentResult:Lcom/meitu/mtlab/MTAiInterface/MTSegmentModule/MTSegmentResult;
 
@@ -348,7 +326,6 @@
 
     invoke-virtual {v1}, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineImage;->release()V
 
-    .line 12
     :cond_a
     iget-object v1, p1, Lcom/meitu/mtlab/MTAiInterface/MTAiEngineResult;->segmentResult:Lcom/meitu/mtlab/MTAiInterface/MTSegmentModule/MTSegmentResult;
 
@@ -364,7 +341,6 @@
 
     invoke-virtual {v1}, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineImage;->release()V
 
-    .line 13
     :cond_b
     iget-object v1, p1, Lcom/meitu/mtlab/MTAiInterface/MTAiEngineResult;->segmentResult:Lcom/meitu/mtlab/MTAiInterface/MTSegmentModule/MTSegmentResult;
 
@@ -380,7 +356,6 @@
 
     invoke-virtual {v1}, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineImage;->release()V
 
-    .line 14
     :cond_c
     iget-object v1, p1, Lcom/meitu/mtlab/MTAiInterface/MTAiEngineResult;->segmentResult:Lcom/meitu/mtlab/MTAiInterface/MTSegmentModule/MTSegmentResult;
 
@@ -396,7 +371,6 @@
 
     invoke-virtual {v1}, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineImage;->release()V
 
-    .line 15
     :cond_d
     iget-object v1, p1, Lcom/meitu/mtlab/MTAiInterface/MTAiEngineResult;->segmentResult:Lcom/meitu/mtlab/MTAiInterface/MTSegmentModule/MTSegmentResult;
 
@@ -412,7 +386,6 @@
 
     invoke-virtual {v1}, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineImage;->release()V
 
-    .line 16
     :cond_e
     iget-object v1, p1, Lcom/meitu/mtlab/MTAiInterface/MTAiEngineResult;->segmentResult:Lcom/meitu/mtlab/MTAiInterface/MTSegmentModule/MTSegmentResult;
 
@@ -428,7 +401,6 @@
 
     invoke-virtual {v1}, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineImage;->release()V
 
-    .line 17
     :cond_f
     iget-object v1, p1, Lcom/meitu/mtlab/MTAiInterface/MTAiEngineResult;->segmentResult:Lcom/meitu/mtlab/MTAiInterface/MTSegmentModule/MTSegmentResult;
 
@@ -444,7 +416,6 @@
 
     invoke-virtual {v1}, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineImage;->release()V
 
-    .line 18
     :cond_10
     iget-object v1, p1, Lcom/meitu/mtlab/MTAiInterface/MTAiEngineResult;->segmentResult:Lcom/meitu/mtlab/MTAiInterface/MTSegmentModule/MTSegmentResult;
 
@@ -460,7 +431,6 @@
 
     invoke-virtual {v1}, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineImage;->release()V
 
-    .line 19
     :cond_11
     iget-object v1, p1, Lcom/meitu/mtlab/MTAiInterface/MTAiEngineResult;->segmentResult:Lcom/meitu/mtlab/MTAiInterface/MTSegmentModule/MTSegmentResult;
 
@@ -476,7 +446,6 @@
 
     invoke-virtual {v1}, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineImage;->release()V
 
-    .line 20
     :cond_12
     iget-object v1, p1, Lcom/meitu/mtlab/MTAiInterface/MTAiEngineResult;->segmentResult:Lcom/meitu/mtlab/MTAiInterface/MTSegmentModule/MTSegmentResult;
 
@@ -488,7 +457,6 @@
 
     if-eqz v1, :cond_15
 
-    .line 21
     array-length v3, v1
 
     const/4 v4, 0x0
@@ -498,14 +466,12 @@
 
     aget-object v5, v1, v4
 
-    .line 22
     iget-object v6, v5, Lcom/meitu/mtlab/MTAiInterface/MTSegmentModule/MTBrowSegment;->leftMask:Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineImage;
 
     if-eqz v6, :cond_13
 
     invoke-virtual {v6}, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineImage;->release()V
 
-    .line 23
     :cond_13
     iget-object v5, v5, Lcom/meitu/mtlab/MTAiInterface/MTSegmentModule/MTBrowSegment;->rightMask:Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineImage;
 
@@ -518,7 +484,6 @@
 
     goto :goto_0
 
-    .line 24
     :cond_15
     iget-object p1, p1, Lcom/meitu/mtlab/MTAiInterface/MTAiEngineResult;->faceResult:Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/MTFaceResult;
 
@@ -528,7 +493,6 @@
 
     if-eqz p1, :cond_17
 
-    .line 25
     array-length v1, p1
 
     :goto_1
@@ -536,7 +500,6 @@
 
     aget-object v3, p1, v2
 
-    .line 26
     iget-object v3, v3, Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/MTFace;->lipMask:Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineImage;
 
     if-eqz v3, :cond_16
@@ -548,7 +511,6 @@
 
     goto :goto_1
 
-    .line 27
     :cond_17
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -580,7 +542,6 @@
 
     invoke-static {p2, p1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -601,19 +562,16 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object p1, p0, Lcom/commsource/camera/x0/c;->J:Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineFrame;
 
     const/4 v1, 0x1
 
     iput-boolean v1, p1, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineFrame;->firstFrame:Z
 
-    .line 2
     iget-object p1, p0, Lcom/commsource/camera/x0/c;->M:Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineFrame;
 
     iput-boolean v1, p1, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineFrame;->firstFrame:Z
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -626,7 +584,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -641,7 +598,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const-string v0, "MTAiEngineDetectorManager_mtai"
@@ -664,7 +620,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -687,19 +642,16 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/x0/c;->K:Lf/d/e/a/m;
 
     const/4 v2, 0x0
 
     if-eqz v1, :cond_9
 
-    .line 2
     iget-object v3, p0, Lcom/commsource/camera/x0/c;->M:Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineFrame;
 
     invoke-static {p1, v3}, Lcom/commsource/camera/x0/e;->b(Lcom/meitu/library/renderarch/arch/data/b/h;Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineFrame;)V
 
-    .line 3
     iget-object p1, p0, Lcom/commsource/camera/x0/c;->M:Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineFrame;
 
     iget-object v3, p0, Lcom/commsource/camera/x0/c;->L:Lcom/meitu/mtlab/MTAiInterface/MTAiEngineResult;
@@ -712,26 +664,22 @@
 
     goto :goto_0
 
-    .line 4
     :cond_0
     iget-object p1, p0, Lcom/commsource/camera/x0/c;->L:Lcom/meitu/mtlab/MTAiInterface/MTAiEngineResult;
 
     :goto_0
     iput-object p1, p0, Lcom/commsource/camera/x0/c;->L:Lcom/meitu/mtlab/MTAiInterface/MTAiEngineResult;
 
-    .line 5
     iget-object v1, p0, Lcom/commsource/camera/x0/c;->M:Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineFrame;
 
     const/4 v3, 0x0
 
     iput-boolean v3, v1, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineFrame;->firstFrame:Z
 
-    .line 6
     iget-object p1, p1, Lcom/meitu/mtlab/MTAiInterface/MTAiEngineResult;->segmentResult:Lcom/meitu/mtlab/MTAiInterface/MTSegmentModule/MTSegmentResult;
 
     if-eqz p1, :cond_8
 
-    .line 7
     invoke-virtual {p0}, Lcom/commsource/camera/x0/c;->getNodesServer()Lcom/meitu/library/camera/q/g;
 
     move-result-object p1
@@ -745,7 +693,6 @@
     :cond_1
     if-eqz v2, :cond_8
 
-    .line 8
     invoke-interface {v2}, Ljava/util/Collection;->size()I
 
     move-result p1
@@ -753,7 +700,6 @@
     :goto_1
     if-ge v3, p1, :cond_8
 
-    .line 9
     invoke-virtual {v2, v3}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
 
     move-result-object v1
@@ -762,7 +708,6 @@
 
     if-eqz v1, :cond_3
 
-    .line 10
     invoke-virtual {v2, v3}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
 
     move-result-object v1
@@ -771,14 +716,12 @@
 
     check-cast v1, Lcom/commsource/camera/x0/a;
 
-    .line 11
     invoke-interface {v1}, Lcom/commsource/camera/x0/a;->a1()Z
 
     move-result v4
 
     if-eqz v4, :cond_3
 
-    .line 12
     iget-object v4, p0, Lcom/commsource/camera/x0/c;->L:Lcom/meitu/mtlab/MTAiInterface/MTAiEngineResult;
 
     iget-object v4, v4, Lcom/meitu/mtlab/MTAiInterface/MTAiEngineResult;->segmentResult:Lcom/meitu/mtlab/MTAiInterface/MTSegmentModule/MTSegmentResult;
@@ -789,7 +732,6 @@
 
     goto :goto_2
 
-    .line 13
     :cond_2
     new-instance p1, Lcotlin/TypeCastException;
 
@@ -801,7 +743,6 @@
 
     throw p1
 
-    .line 14
     :cond_3
     :goto_2
     invoke-virtual {v2, v3}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
@@ -812,7 +753,6 @@
 
     if-eqz v1, :cond_5
 
-    .line 15
     invoke-virtual {v2, v3}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
 
     move-result-object v1
@@ -821,14 +761,12 @@
 
     check-cast v1, Lcom/commsource/camera/x0/f;
 
-    .line 16
     invoke-interface {v1}, Lcom/commsource/camera/x0/f;->N()Z
 
     move-result v4
 
     if-eqz v4, :cond_5
 
-    .line 17
     iget-object v4, p0, Lcom/commsource/camera/x0/c;->L:Lcom/meitu/mtlab/MTAiInterface/MTAiEngineResult;
 
     iget-object v4, v4, Lcom/meitu/mtlab/MTAiInterface/MTAiEngineResult;->segmentResult:Lcom/meitu/mtlab/MTAiInterface/MTSegmentModule/MTSegmentResult;
@@ -839,7 +777,6 @@
 
     goto :goto_3
 
-    .line 18
     :cond_4
     new-instance p1, Lcotlin/TypeCastException;
 
@@ -851,7 +788,6 @@
 
     throw p1
 
-    .line 19
     :cond_5
     :goto_3
     invoke-virtual {v2, v3}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
@@ -862,7 +798,6 @@
 
     if-eqz v1, :cond_7
 
-    .line 20
     invoke-virtual {v2, v3}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
 
     move-result-object v1
@@ -871,14 +806,12 @@
 
     check-cast v1, Lcom/commsource/camera/x0/j;
 
-    .line 21
     invoke-interface {v1}, Lcom/commsource/camera/x0/j;->i0()Z
 
     move-result v4
 
     if-eqz v4, :cond_7
 
-    .line 22
     iget-object v4, p0, Lcom/commsource/camera/x0/c;->L:Lcom/meitu/mtlab/MTAiInterface/MTAiEngineResult;
 
     iget-object v4, v4, Lcom/meitu/mtlab/MTAiInterface/MTAiEngineResult;->segmentResult:Lcom/meitu/mtlab/MTAiInterface/MTSegmentModule/MTSegmentResult;
@@ -889,7 +822,6 @@
 
     goto :goto_4
 
-    .line 23
     :cond_6
     new-instance p1, Lcotlin/TypeCastException;
 
@@ -907,7 +839,6 @@
 
     goto/16 :goto_1
 
-    .line 24
     :cond_8
     iget-object p1, p0, Lcom/commsource/camera/x0/c;->L:Lcom/meitu/mtlab/MTAiInterface/MTAiEngineResult;
 
@@ -915,7 +846,6 @@
 
     return-object p1
 
-    .line 25
     :cond_9
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -937,13 +867,10 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-super {p0, p1}, Lcom/meitu/library/camera/q/a;->Q0(Lcom/meitu/library/camera/q/g;)V
 
-    .line 2
     iput-object p1, p0, Lcom/commsource/camera/x0/c;->N:Lcom/meitu/library/camera/q/g;
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -960,17 +887,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     instance-of v1, p1, Lcom/meitu/mtlab/MTAiInterface/MTAiEngineResult;
 
     if-eqz v1, :cond_0
 
-    .line 2
     check-cast p1, Lcom/meitu/mtlab/MTAiInterface/MTAiEngineResult;
 
     invoke-direct {p0, p1}, Lcom/commsource/camera/x0/c;->z0(Lcom/meitu/mtlab/MTAiInterface/MTAiEngineResult;)V
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -988,7 +912,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/camera/x0/c;->g:Lf/d/e/a/m;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1003,14 +926,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/x0/c;->K:Lf/d/e/a/m;
 
     const/4 v2, 0x1
 
     if-nez v1, :cond_0
 
-    .line 2
     new-instance v1, Lf/d/e/a/m;
 
     invoke-direct {v1, v2}, Lf/d/e/a/m;-><init>(I)V
@@ -1019,14 +940,12 @@
 
     if-eqz v1, :cond_0
 
-    .line 3
     invoke-static {}, Lcom/commsource/util/x;->C()Z
 
     move-result v3
 
     invoke-virtual {v1, v3}, Lf/d/e/a/m;->m(Z)V
 
-    .line 4
     :cond_0
     invoke-virtual {p0}, Lcom/commsource/camera/x0/c;->getNodesServer()Lcom/meitu/library/camera/q/g;
 
@@ -1048,7 +967,6 @@
 
     if-eqz v1, :cond_12
 
-    .line 5
     invoke-interface {v1}, Ljava/util/Collection;->size()I
 
     move-result v4
@@ -1064,7 +982,6 @@
     :goto_1
     if-ge v5, v4, :cond_13
 
-    .line 6
     invoke-virtual {v1, v5}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
 
     move-result-object v9
@@ -1075,7 +992,6 @@
 
     goto/16 :goto_a
 
-    .line 7
     :cond_2
     invoke-virtual {v1, v5}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
 
@@ -1085,7 +1001,6 @@
 
     if-eqz v9, :cond_7
 
-    .line 8
     invoke-virtual {v1, v5}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
 
     move-result-object v9
@@ -1096,7 +1011,6 @@
 
     if-nez v6, :cond_4
 
-    .line 9
     invoke-interface {v9}, Lcom/commsource/camera/x0/a;->a1()Z
 
     move-result v6
@@ -1114,7 +1028,6 @@
     :goto_2
     const/4 v6, 0x1
 
-    .line 10
     :goto_3
     iget-object v9, p0, Lcom/commsource/camera/x0/c;->K:Lf/d/e/a/m;
 
@@ -1133,7 +1046,6 @@
 
     goto :goto_4
 
-    .line 11
     :cond_6
     new-instance v1, Lcotlin/TypeCastException;
 
@@ -1145,7 +1057,6 @@
 
     throw v1
 
-    .line 12
     :cond_7
     :goto_4
     invoke-virtual {v1, v5}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
@@ -1156,7 +1067,6 @@
 
     if-eqz v9, :cond_c
 
-    .line 13
     invoke-virtual {v1, v5}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
 
     move-result-object v9
@@ -1167,7 +1077,6 @@
 
     if-nez v7, :cond_9
 
-    .line 14
     invoke-interface {v9}, Lcom/commsource/camera/x0/f;->N()Z
 
     move-result v7
@@ -1185,7 +1094,6 @@
     :goto_5
     const/4 v7, 0x1
 
-    .line 15
     :goto_6
     iget-object v9, p0, Lcom/commsource/camera/x0/c;->K:Lf/d/e/a/m;
 
@@ -1204,7 +1112,6 @@
 
     goto :goto_7
 
-    .line 16
     :cond_b
     new-instance v1, Lcotlin/TypeCastException;
 
@@ -1216,7 +1123,6 @@
 
     throw v1
 
-    .line 17
     :cond_c
     :goto_7
     invoke-virtual {v1, v5}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
@@ -1227,7 +1133,6 @@
 
     if-eqz v9, :cond_11
 
-    .line 18
     invoke-virtual {v1, v5}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
 
     move-result-object v9
@@ -1238,7 +1143,6 @@
 
     if-nez v8, :cond_e
 
-    .line 19
     invoke-interface {v9}, Lcom/commsource/camera/x0/j;->i0()Z
 
     move-result v8
@@ -1256,7 +1160,6 @@
     :goto_8
     const/4 v8, 0x1
 
-    .line 20
     :goto_9
     iget-object v9, p0, Lcom/commsource/camera/x0/c;->K:Lf/d/e/a/m;
 
@@ -1275,7 +1178,6 @@
 
     goto :goto_a
 
-    .line 21
     :cond_10
     new-instance v1, Lcotlin/TypeCastException;
 
@@ -1312,7 +1214,6 @@
     :cond_14
     const/4 v2, 0x0
 
-    .line 22
     :cond_15
     :goto_b
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1358,30 +1259,25 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     iget-object v1, p1, Lcom/meitu/library/renderarch/arch/data/b/c;->a:Lcom/meitu/library/renderarch/arch/data/b/g;
 
     iget-object v1, v1, Lcom/meitu/library/renderarch/arch/data/b/g;->a:[B
 
     if-nez v1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p2
 
-    .line 3
     :cond_0
     iget-object v1, p0, Lcom/commsource/camera/x0/c;->g:Lf/d/e/a/m;
 
     if-eqz v1, :cond_2
 
-    .line 4
     iget-object p2, p0, Lcom/commsource/camera/x0/c;->J:Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineFrame;
 
     invoke-static {p1, p2}, Lcom/commsource/camera/x0/e;->a(Lcom/meitu/library/renderarch/arch/data/b/c;Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineFrame;)V
 
-    .line 5
     iget-object p1, p0, Lcom/commsource/camera/x0/c;->J:Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineFrame;
 
     iget-object p2, p0, Lcom/commsource/camera/x0/c;->p:Lcom/meitu/mtlab/MTAiInterface/MTAiEngineResult;
@@ -1400,24 +1296,20 @@
     :goto_0
     iput-object p1, p0, Lcom/commsource/camera/x0/c;->p:Lcom/meitu/mtlab/MTAiInterface/MTAiEngineResult;
 
-    .line 6
     iget-object p1, p0, Lcom/commsource/camera/x0/c;->J:Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineFrame;
 
     const/4 p2, 0x0
 
     iput-boolean p2, p1, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineFrame;->firstFrame:Z
 
-    .line 7
     invoke-direct {p0}, Lcom/commsource/camera/x0/c;->L0()V
 
-    .line 8
     iget-object p1, p0, Lcom/commsource/camera/x0/c;->p:Lcom/meitu/mtlab/MTAiInterface/MTAiEngineResult;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p1
 
-    .line 9
     :cond_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1443,12 +1335,10 @@
 
     invoke-static {p2, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     instance-of p2, p1, Lcom/meitu/mtlab/MTAiInterface/MTAiEngineResult;
 
     if-eqz p2, :cond_9
 
-    .line 2
     invoke-virtual {p0}, Lcom/commsource/camera/x0/c;->getNodesServer()Lcom/meitu/library/camera/q/g;
 
     move-result-object p2
@@ -1469,7 +1359,6 @@
 
     const/4 v1, 0x0
 
-    .line 3
     invoke-interface {p2}, Ljava/util/Collection;->size()I
 
     move-result v2
@@ -1477,7 +1366,6 @@
     :goto_1
     if-ge v1, v2, :cond_9
 
-    .line 4
     invoke-virtual {p2, v1}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
 
     move-result-object v3
@@ -1486,7 +1374,6 @@
 
     if-eqz v3, :cond_2
 
-    .line 5
     invoke-virtual {p2, v1}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
 
     move-result-object v3
@@ -1495,7 +1382,6 @@
 
     check-cast v3, Lcom/commsource/camera/x0/d;
 
-    .line 6
     invoke-interface {v3}, Lcom/commsource/camera/x0/d;->N1()Z
 
     move-result v4
@@ -1510,12 +1396,10 @@
 
     if-eqz v4, :cond_2
 
-    .line 7
     invoke-interface {v3, v4}, Lcom/commsource/camera/x0/d;->q1(Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/MTFaceResult;)V
 
     goto :goto_2
 
-    .line 8
     :cond_1
     new-instance p1, Lcotlin/TypeCastException;
 
@@ -1527,7 +1411,6 @@
 
     throw p1
 
-    .line 9
     :cond_2
     :goto_2
     invoke-virtual {p2, v1}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
@@ -1538,7 +1421,6 @@
 
     if-eqz v3, :cond_5
 
-    .line 10
     invoke-virtual {p2, v1}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
 
     move-result-object v3
@@ -1547,7 +1429,6 @@
 
     check-cast v3, Lcom/commsource/camera/x0/g;
 
-    .line 11
     invoke-interface {v3}, Lcom/commsource/camera/x0/g;->n1()Z
 
     move-result v4
@@ -1560,7 +1441,6 @@
 
     if-eqz v4, :cond_5
 
-    .line 12
     :cond_3
     move-object v4, p1
 
@@ -1572,7 +1452,6 @@
 
     goto :goto_3
 
-    .line 13
     :cond_4
     new-instance p1, Lcotlin/TypeCastException;
 
@@ -1584,7 +1463,6 @@
 
     throw p1
 
-    .line 14
     :cond_5
     :goto_3
     invoke-virtual {p2, v1}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
@@ -1595,7 +1473,6 @@
 
     if-eqz v3, :cond_8
 
-    .line 15
     invoke-virtual {p2, v1}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
 
     move-result-object v3
@@ -1604,7 +1481,6 @@
 
     check-cast v3, Lcom/commsource/camera/x0/b;
 
-    .line 16
     invoke-interface {v3}, Lcom/commsource/camera/x0/b;->c2()Z
 
     move-result v4
@@ -1617,7 +1493,6 @@
 
     if-eqz v4, :cond_8
 
-    .line 17
     :cond_6
     move-object v4, p1
 
@@ -1629,7 +1504,6 @@
 
     goto :goto_4
 
-    .line 18
     :cond_7
     new-instance p1, Lcotlin/TypeCastException;
 
@@ -1647,7 +1521,6 @@
 
     goto/16 :goto_1
 
-    .line 19
     :cond_9
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1661,19 +1534,16 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/x0/c;->g:Lf/d/e/a/m;
 
     const/4 v2, 0x0
 
     if-nez v1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v2
 
-    .line 3
     :cond_0
     invoke-virtual {p0}, Lcom/commsource/camera/x0/c;->getNodesServer()Lcom/meitu/library/camera/q/g;
 
@@ -1695,7 +1565,6 @@
 
     if-eqz v1, :cond_17
 
-    .line 4
     invoke-interface {v1}, Ljava/util/Collection;->size()I
 
     move-result v4
@@ -1717,7 +1586,6 @@
     :goto_1
     if-ge v5, v4, :cond_18
 
-    .line 5
     invoke-virtual {v1, v5}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
 
     move-result-object v12
@@ -1728,7 +1596,6 @@
 
     goto/16 :goto_d
 
-    .line 6
     :cond_2
     invoke-virtual {v1, v5}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
 
@@ -1738,7 +1605,6 @@
 
     if-eqz v12, :cond_6
 
-    .line 7
     invoke-virtual {v1, v5}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
 
     move-result-object v12
@@ -1749,7 +1615,6 @@
 
     if-nez v8, :cond_4
 
-    .line 8
     invoke-interface {v12}, Lcom/commsource/camera/x0/d;->N1()Z
 
     move-result v8
@@ -1769,7 +1634,6 @@
 
     goto :goto_3
 
-    .line 9
     :cond_5
     new-instance v1, Lcotlin/TypeCastException;
 
@@ -1781,7 +1645,6 @@
 
     throw v1
 
-    .line 10
     :cond_6
     :goto_3
     invoke-virtual {v1, v5}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
@@ -1792,7 +1655,6 @@
 
     if-eqz v12, :cond_a
 
-    .line 11
     invoke-virtual {v1, v5}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
 
     move-result-object v12
@@ -1803,7 +1665,6 @@
 
     if-nez v6, :cond_8
 
-    .line 12
     invoke-interface {v12}, Lcom/commsource/camera/x0/h;->Y0()Z
 
     move-result v6
@@ -1823,7 +1684,6 @@
 
     goto :goto_5
 
-    .line 13
     :cond_9
     new-instance v1, Lcotlin/TypeCastException;
 
@@ -1835,7 +1695,6 @@
 
     throw v1
 
-    .line 14
     :cond_a
     :goto_5
     invoke-virtual {v1, v5}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
@@ -1846,7 +1705,6 @@
 
     if-eqz v12, :cond_10
 
-    .line 15
     invoke-virtual {v1, v5}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
 
     move-result-object v12
@@ -1857,7 +1715,6 @@
 
     if-nez v7, :cond_c
 
-    .line 16
     invoke-interface {v12}, Lcom/commsource/camera/x0/g;->n1()Z
 
     move-result v7
@@ -1878,7 +1735,6 @@
     :goto_7
     if-nez v9, :cond_e
 
-    .line 17
     invoke-interface {v12}, Lcom/commsource/camera/x0/g;->I()Z
 
     move-result v9
@@ -1898,7 +1754,6 @@
 
     goto :goto_9
 
-    .line 18
     :cond_f
     new-instance v1, Lcotlin/TypeCastException;
 
@@ -1910,7 +1765,6 @@
 
     throw v1
 
-    .line 19
     :cond_10
     :goto_9
     invoke-virtual {v1, v5}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
@@ -1921,7 +1775,6 @@
 
     if-eqz v12, :cond_16
 
-    .line 20
     invoke-virtual {v1, v5}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
 
     move-result-object v12
@@ -1932,7 +1785,6 @@
 
     if-nez v10, :cond_12
 
-    .line 21
     invoke-interface {v12}, Lcom/commsource/camera/x0/b;->c2()Z
 
     move-result v10
@@ -1953,7 +1805,6 @@
     :goto_b
     if-nez v11, :cond_14
 
-    .line 22
     invoke-interface {v12}, Lcom/commsource/camera/x0/b;->W1()Z
 
     move-result v11
@@ -1973,7 +1824,6 @@
 
     goto :goto_d
 
-    .line 23
     :cond_15
     new-instance v1, Lcotlin/TypeCastException;
 
@@ -2004,7 +1854,6 @@
 
     const/4 v11, 0x0
 
-    .line 24
     :cond_18
     iget-object v1, p0, Lcom/commsource/camera/x0/c;->g:Lf/d/e/a/m;
 
@@ -2018,7 +1867,6 @@
 
     invoke-virtual {v1, v5, v4}, Lf/d/e/a/m;->k(Ljava/lang/String;Ljava/lang/Object;)V
 
-    .line 25
     :cond_19
     iget-object v1, p0, Lcom/commsource/camera/x0/c;->g:Lf/d/e/a/m;
 
@@ -2032,7 +1880,6 @@
 
     invoke-virtual {v1, v5, v4}, Lf/d/e/a/m;->k(Ljava/lang/String;Ljava/lang/Object;)V
 
-    .line 26
     :cond_1a
     iget-object v1, p0, Lcom/commsource/camera/x0/c;->g:Lf/d/e/a/m;
 
@@ -2046,7 +1893,6 @@
 
     invoke-virtual {v1, v5, v4}, Lf/d/e/a/m;->k(Ljava/lang/String;Ljava/lang/Object;)V
 
-    .line 27
     :cond_1b
     iget-object v1, p0, Lcom/commsource/camera/x0/c;->g:Lf/d/e/a/m;
 
@@ -2060,7 +1906,6 @@
 
     invoke-virtual {v1, v5, v4}, Lf/d/e/a/m;->k(Ljava/lang/String;Ljava/lang/Object;)V
 
-    .line 28
     :cond_1c
     iget-object v1, p0, Lcom/commsource/camera/x0/c;->g:Lf/d/e/a/m;
 
@@ -2090,7 +1935,6 @@
     :cond_1e
     const/4 v2, 0x1
 
-    .line 29
     :cond_1f
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -2108,7 +1952,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/x0/c;->g:Lf/d/e/a/m;
 
     if-eqz v1, :cond_0
@@ -2117,7 +1960,6 @@
 
     invoke-virtual {v1, p1, p2, v2}, Lf/d/e/a/m;->l(Ljava/lang/String;ZI)V
 
-    .line 2
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -2131,7 +1973,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2144,7 +1985,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const/4 v0, 0x1
@@ -2167,7 +2007,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2188,7 +2027,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2201,7 +2039,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2216,7 +2053,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const-string v0, "MTAiEngineDetectorManager_mtai"
@@ -2233,7 +2069,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/x0/c;->N:Lcom/meitu/library/camera/q/g;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2248,19 +2083,16 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/x0/c;->J:Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineFrame;
 
     const/4 v2, 0x1
 
     iput-boolean v2, v1, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineFrame;->firstFrame:Z
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/camera/x0/c;->M:Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineFrame;
 
     iput-boolean v2, v1, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineFrame;->firstFrame:Z
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2277,7 +2109,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/x0/c;->g:Lf/d/e/a/m;
 
     if-eqz v1, :cond_0
@@ -2286,7 +2117,6 @@
 
     invoke-virtual {v1, p1, p2, v2}, Lf/d/e/a/m;->l(Ljava/lang/String;ZI)V
 
-    .line 2
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -2300,7 +2130,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2317,7 +2146,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/x0/c;->g:Lf/d/e/a/m;
 
     if-eqz v1, :cond_0
@@ -2326,7 +2154,6 @@
 
     invoke-virtual {v1, p1, p2, v2}, Lf/d/e/a/m;->l(Ljava/lang/String;ZI)V
 
-    .line 2
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -2356,19 +2183,16 @@
 
     invoke-static {p2, p1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object p1, p0, Lcom/commsource/camera/x0/c;->J:Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineFrame;
 
     const/4 p2, 0x1
 
     iput-boolean p2, p1, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineFrame;->firstFrame:Z
 
-    .line 2
     iget-object p1, p0, Lcom/commsource/camera/x0/c;->M:Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineFrame;
 
     iput-boolean p2, p1, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineFrame;->firstFrame:Z
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2381,7 +2205,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2394,7 +2217,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2409,7 +2231,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/x0/c;->g:Lf/d/e/a/m;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2424,7 +2245,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2441,7 +2261,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/x0/c;->g:Lf/d/e/a/m;
 
     if-eqz v1, :cond_0
@@ -2450,7 +2269,6 @@
 
     invoke-virtual {v1, p1, p2, v2}, Lf/d/e/a/m;->l(Ljava/lang/String;ZI)V
 
-    .line 2
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -2464,14 +2282,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/x0/c;->g:Lf/d/e/a/m;
 
     if-eqz v1, :cond_0
 
     invoke-virtual {v1}, Lf/d/e/a/m;->j()V
 
-    .line 2
     :cond_0
     iget-object v1, p0, Lcom/commsource/camera/x0/c;->K:Lf/d/e/a/m;
 
@@ -2479,7 +2295,6 @@
 
     invoke-virtual {v1}, Lf/d/e/a/m;->j()V
 
-    .line 3
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -2497,7 +2312,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/x0/c;->g:Lf/d/e/a/m;
 
     if-eqz v1, :cond_0
@@ -2506,7 +2320,6 @@
 
     invoke-virtual {v1, p1, p2, v2}, Lf/d/e/a/m;->l(Ljava/lang/String;ZI)V
 
-    .line 2
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

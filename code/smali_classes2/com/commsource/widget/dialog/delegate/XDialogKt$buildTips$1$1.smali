@@ -80,21 +80,18 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/widget/dialog/delegate/XDialogKt$buildTips$1$1;->this$0:Lcom/commsource/widget/dialog/delegate/XDialogKt$buildTips$1;
 
     iget-object v1, v1, Lcom/commsource/widget/dialog/delegate/XDialogKt$buildTips$1;->$title:Ljava/lang/String;
 
     invoke-static {p1, v1}, Lcom/commsource/widget/dialog/delegate/XDialogKt;->h(Lcom/commsource/widget/dialog/delegate/d/a;Ljava/lang/String;)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/widget/dialog/delegate/XDialogKt$buildTips$1$1;->this$0:Lcom/commsource/widget/dialog/delegate/XDialogKt$buildTips$1;
 
     iget-object v1, v1, Lcom/commsource/widget/dialog/delegate/XDialogKt$buildTips$1;->$content:Ljava/lang/String;
 
     invoke-static {p1, v1}, Lcom/commsource/widget/dialog/delegate/XDialogKt;->b(Lcom/commsource/widget/dialog/delegate/d/a;Ljava/lang/String;)V
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/widget/dialog/delegate/XDialogKt$buildTips$1$1;->this$0:Lcom/commsource/widget/dialog/delegate/XDialogKt$buildTips$1;
 
     iget-object v1, v1, Lcom/commsource/widget/dialog/delegate/XDialogKt$buildTips$1;->$positive:Ljava/lang/String;
@@ -117,7 +114,6 @@
 
     invoke-static {p1, v1, v2}, Lcom/commsource/widget/dialog/delegate/XDialogKt;->e(Lcom/commsource/widget/dialog/delegate/d/a;Ljava/lang/String;Lcotlin/jvm/u/l;)V
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/widget/dialog/delegate/XDialogKt$buildTips$1$1;->this$0:Lcom/commsource/widget/dialog/delegate/XDialogKt$buildTips$1;
 
     iget-object v1, v1, Lcom/commsource/widget/dialog/delegate/XDialogKt$buildTips$1;->$negative:Ljava/lang/String;
@@ -140,24 +136,20 @@
 
     invoke-static {p1, v1, v2}, Lcom/commsource/widget/dialog/delegate/XDialogKt;->c(Lcom/commsource/widget/dialog/delegate/d/a;Ljava/lang/String;Lcotlin/jvm/u/l;)V
 
-    .line 5
     iget-object v1, p0, Lcom/commsource/widget/dialog/delegate/XDialogKt$buildTips$1$1;->this$0:Lcom/commsource/widget/dialog/delegate/XDialogKt$buildTips$1;
 
     iget v1, v1, Lcom/commsource/widget/dialog/delegate/XDialogKt$buildTips$1;->$mode:I
 
     invoke-virtual {p1, v1}, Lcom/commsource/widget/dialog/delegate/d/a;->A(I)V
 
-    .line 6
     iget-object v1, p0, Lcom/commsource/widget/dialog/delegate/XDialogKt$buildTips$1$1;->this$0:Lcom/commsource/widget/dialog/delegate/XDialogKt$buildTips$1;
 
     iget-boolean v1, v1, Lcom/commsource/widget/dialog/delegate/XDialogKt$buildTips$1;->$closeEnable:Z
 
     invoke-virtual {p1, v1}, Lcom/commsource/widget/dialog/delegate/d/a;->v(Z)V
 
-    .line 7
     invoke-static {p1}, Lcom/commsource/widget/dialog/delegate/XDialogKt;->p(Lcom/commsource/widget/dialog/delegate/d/a;)Lcom/commsource/widget/dialog/delegate/d/a;
 
-    .line 8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

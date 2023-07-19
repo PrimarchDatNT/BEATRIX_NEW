@@ -43,7 +43,6 @@
 .method private constructor <init>(Lcom/commsource/easyeditor/entity/b;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/easyeditor/entity/b$b;->c:Lcom/commsource/easyeditor/entity/b;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -54,7 +53,6 @@
 .method synthetic constructor <init>(Lcom/commsource/easyeditor/entity/b;Lcom/commsource/easyeditor/entity/b$a;)V
     .locals 0
 
-    .line 2
     invoke-direct {p0, p1}, Lcom/commsource/easyeditor/entity/b$b;-><init>(Lcom/commsource/easyeditor/entity/b;)V
 
     return-void

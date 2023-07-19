@@ -7,7 +7,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/google/ar/core/exceptions/UnavailableException;-><init>()V
 
     return-void
@@ -16,7 +15,6 @@
 .method public constructor <init>(Ljava/lang/String;)V
     .locals 0
 
-    .line 2
     invoke-direct {p0, p1}, Lcom/google/ar/core/exceptions/UnavailableException;-><init>(Ljava/lang/String;)V
 
     return-void

@@ -40,10 +40,8 @@
 
     sget v0, Lcom/res/provider/ResLAYOUT;->item_filter_manager_title:I
 
-    .line 1
     invoke-direct {p0, p1, p2, v0}, Lcom/commsource/widget/h1/f;-><init>(Landroid/content/Context;Landroid/view/ViewGroup;I)V
 
-    .line 2
     iget-object p1, p0, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->itemView:Landroid/view/View;
 
     invoke-static {p1}, Lcom/commsource/beautyplus/f0/af;->a(Landroid/view/View;)Lcom/commsource/beautyplus/f0/af;
@@ -52,7 +50,6 @@
 
     iput-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/b;->p:Lcom/commsource/beautyplus/f0/af;
 
-    .line 3
     invoke-virtual {p1}, Landroidx/databinding/ViewDataBinding;->executePendingBindings()V
 
     return-void
@@ -90,10 +87,8 @@
 
     invoke-static {p2, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-super {p0, p1, p2, p3}, Lcom/commsource/widget/h1/f;->k(ILcom/commsource/widget/h1/d;Ljava/util/List;)V
 
-    .line 2
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/b;->p:Lcom/commsource/beautyplus/f0/af;
 
     const-string p3, "viewBinding"
@@ -108,7 +103,6 @@
 
     invoke-virtual {p1, p2}, Lcom/commsource/beautyplus/f0/af;->i(Lcom/meitu/template/bean/Filter;)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -121,7 +115,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/b;->p:Lcom/commsource/beautyplus/f0/af;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

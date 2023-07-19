@@ -38,7 +38,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/camera/xcamera/cover/montage/a$c;->g:Lcom/commsource/camera/xcamera/cover/montage/a;
 
     iput-object p2, p0, Lcom/commsource/camera/xcamera/cover/montage/a$c;->p:Landroid/graphics/Bitmap;
@@ -65,10 +64,8 @@
 
     const-string v2, "montage_create_photoreq"
 
-    .line 1
     invoke-static {v2}, Lcom/commsource/statistics/i;->p(Ljava/lang/String;)V
 
-    .line 2
     invoke-static {}, Lcom/meitu/library/application/BaseApplication;->getApplication()Landroid/app/Application;
 
     move-result-object v2
@@ -79,7 +76,6 @@
 
     if-nez v2, :cond_0
 
-    .line 3
     iget-object v2, v0, Lcom/commsource/camera/xcamera/cover/montage/a$c;->g:Lcom/commsource/camera/xcamera/cover/montage/a;
 
     invoke-virtual {v2}, Lcom/commsource/camera/xcamera/cover/montage/a;->I()Landroidx/lifecycle/MutableLiveData;
@@ -98,12 +94,10 @@
 
     invoke-virtual {v2, v3}, Landroidx/lifecycle/MutableLiveData;->postValue(Ljava/lang/Object;)V
 
-    .line 4
     invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 5
     :cond_0
     iget-object v2, v0, Lcom/commsource/camera/xcamera/cover/montage/a$c;->p:Landroid/graphics/Bitmap;
 
@@ -113,7 +107,6 @@
 
     if-nez v2, :cond_1
 
-    .line 6
     iget-object v2, v0, Lcom/commsource/camera/xcamera/cover/montage/a$c;->g:Lcom/commsource/camera/xcamera/cover/montage/a;
 
     invoke-virtual {v2}, Lcom/commsource/camera/xcamera/cover/montage/a;->I()Landroidx/lifecycle/MutableLiveData;
@@ -132,12 +125,10 @@
 
     invoke-virtual {v2, v3}, Landroidx/lifecycle/MutableLiveData;->postValue(Ljava/lang/Object;)V
 
-    .line 7
     invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 8
     :cond_1
     iget-object v2, v0, Lcom/commsource/camera/xcamera/cover/montage/a$c;->p:Landroid/graphics/Bitmap;
 
@@ -145,7 +136,6 @@
 
     move-result-object v2
 
-    .line 9
     invoke-static {}, Lcom/commsource/beautyplus/g0/b;->g()Lcom/commsource/beautyplus/g0/b;
 
     move-result-object v3
@@ -156,7 +146,6 @@
 
     const-string v4, "nativeBitmap"
 
-    .line 10
     invoke-static {v2, v4}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v2}, Lcom/meitu/core/types/NativeBitmap;->getImage()Landroid/graphics/Bitmap;
@@ -165,14 +154,12 @@
 
     if-eqz v3, :cond_10
 
-    .line 11
     iget-object v5, v3, Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/MTFaceResult;->faces:[Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/MTFace;
 
     if-nez v5, :cond_2
 
     goto/16 :goto_8
 
-    .line 12
     :cond_2
     iget v5, v0, Lcom/commsource/camera/xcamera/cover/montage/a$c;->J:I
 
@@ -180,7 +167,6 @@
 
     move-result v5
 
-    .line 13
     iget-object v6, v3, Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/MTFaceResult;->faces:[Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/MTFace;
 
     array-length v6, v6
@@ -191,17 +177,14 @@
 
     if-le v6, v8, :cond_5
 
-    .line 14
     new-instance v6, Landroid/graphics/Canvas;
 
     invoke-direct {v6, v2}, Landroid/graphics/Canvas;-><init>(Landroid/graphics/Bitmap;)V
 
-    .line 15
     new-instance v9, Ljava/util/ArrayList;
 
     invoke-direct {v9}, Ljava/util/ArrayList;-><init>()V
 
-    .line 16
     iget-object v3, v3, Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/MTFaceResult;->faces:[Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/MTFace;
 
     array-length v10, v3
@@ -213,7 +196,6 @@
 
     aget-object v12, v3, v11
 
-    .line 17
     iget-object v12, v12, Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/MTFace;->faceBounds:Landroid/graphics/RectF;
 
     const-string v13, "iMtFace.faceBounds"
@@ -226,7 +208,6 @@
 
     goto :goto_0
 
-    .line 18
     :cond_3
     invoke-interface {v9}, Ljava/util/Collection;->size()I
 
@@ -237,19 +218,16 @@
     :goto_1
     if-ge v10, v3, :cond_5
 
-    .line 19
     iget v11, v0, Lcom/commsource/camera/xcamera/cover/montage/a$c;->J:I
 
     if-eq v10, v11, :cond_4
 
-    .line 20
     invoke-interface {v9, v10}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object v11
 
     check-cast v11, Landroid/graphics/RectF;
 
-    .line 21
     new-instance v12, Landroid/graphics/RectF;
 
     iget v13, v11, Landroid/graphics/RectF;->left:F
@@ -298,22 +276,18 @@
 
     invoke-direct {v12, v13, v14, v15, v1}, Landroid/graphics/RectF;-><init>(FFFF)V
 
-    .line 22
     new-instance v1, Landroid/graphics/Paint;
 
     invoke-direct {v1}, Landroid/graphics/Paint;-><init>()V
 
     const/4 v11, -0x1
 
-    .line 23
     invoke-virtual {v1, v11}, Landroid/graphics/Paint;->setColor(I)V
 
-    .line 24
     sget-object v11, Landroid/graphics/Paint$Style;->FILL:Landroid/graphics/Paint$Style;
 
     invoke-virtual {v1, v11}, Landroid/graphics/Paint;->setStyle(Landroid/graphics/Paint$Style;)V
 
-    .line 25
     invoke-virtual {v6, v12, v1}, Landroid/graphics/Canvas;->drawRect(Landroid/graphics/RectF;Landroid/graphics/Paint;)V
 
     :cond_4
@@ -323,13 +297,11 @@
 
     goto :goto_1
 
-    .line 26
     :cond_5
     invoke-static {v2}, Lcom/meitu/core/types/NativeBitmap;->createBitmap(Landroid/graphics/Bitmap;)Lcom/meitu/core/types/NativeBitmap;
 
     move-result-object v1
 
-    .line 27
     invoke-static {}, Lcom/commsource/beautyplus/g0/b;->g()Lcom/commsource/beautyplus/g0/b;
 
     move-result-object v2
@@ -340,33 +312,28 @@
 
     if-eqz v2, :cond_f
 
-    .line 28
     iget-object v3, v2, Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/MTFaceResult;->faces:[Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/MTFace;
 
     if-nez v3, :cond_6
 
     goto/16 :goto_7
 
-    .line 29
     :cond_6
     array-length v3, v3
 
     if-le v3, v8, :cond_7
 
-    .line 30
     invoke-static {v1, v2}, Lcom/commsource/camera/montage/s;->c(Lcom/meitu/core/types/NativeBitmap;Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/MTFaceResult;)Lcom/meitu/core/types/NativeBitmap;
 
     move-result-object v1
 
     goto :goto_2
 
-    .line 31
     :cond_7
     invoke-static {v1, v2}, Lcom/commsource/camera/montage/s;->a(Lcom/meitu/core/types/NativeBitmap;Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/MTFaceResult;)Lcom/meitu/core/types/NativeBitmap;
 
     move-result-object v1
 
-    .line 32
     :goto_2
     invoke-static {v1, v4}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
@@ -380,14 +347,12 @@
 
     move-result-object v1
 
-    .line 33
     invoke-static {v1}, Lcom/meitu/library/p/e/a;->z(Landroid/graphics/Bitmap;)Z
 
     move-result v2
 
     if-nez v2, :cond_8
 
-    .line 34
     iget-object v1, v0, Lcom/commsource/camera/xcamera/cover/montage/a$c;->g:Lcom/commsource/camera/xcamera/cover/montage/a;
 
     invoke-virtual {v1}, Lcom/commsource/camera/xcamera/cover/montage/a;->I()Landroidx/lifecycle/MutableLiveData;
@@ -408,12 +373,10 @@
 
     const/16 v1, 0x4690
 
-    .line 35
     invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 36
     :cond_8
     invoke-static {}, Lcom/commsource/util/x;->C()Z
 
@@ -428,7 +391,6 @@
     :cond_9
     const-string v2, "331"
 
-    .line 37
     :goto_3
     new-instance v3, Lcom/meitu/mtlab/g/c/d$a;
 
@@ -440,41 +402,34 @@
 
     const-string v4, "7iTOKTkCQaiXX_apjmOyDCx2sHil3dNC"
 
-    .line 38
     invoke-virtual {v3, v4}, Lcom/meitu/mtlab/g/c/d$a;->a(Ljava/lang/String;)Lcom/meitu/mtlab/g/c/d$a;
 
     move-result-object v3
 
     const-string v4, "YSzuNjqFCKDe2_xbGEJJhBnAbFahj1OG"
 
-    .line 39
     invoke-virtual {v3, v4}, Lcom/meitu/mtlab/g/c/d$a;->b(Ljava/lang/String;)Lcom/meitu/mtlab/g/c/d$a;
 
     move-result-object v3
 
-    .line 40
     sget-wide v9, Lcom/meitu/mtlab/hmacsha/NetTimeIntentService;->a:J
 
     invoke-virtual {v3, v9, v10}, Lcom/meitu/mtlab/g/c/d$a;->c(J)Lcom/meitu/mtlab/g/c/d$a;
 
     move-result-object v3
 
-    .line 41
     invoke-virtual {v3}, Lcom/meitu/mtlab/g/c/d$a;->f()Ljava/lang/String;
 
     move-result-object v3
 
-    .line 42
     new-instance v4, Lcom/meitu/mtlab/g/g/a$a;
 
     invoke-direct {v4}, Lcom/meitu/mtlab/g/g/a$a;-><init>()V
 
     const-string v6, "Gid"
 
-    .line 43
     invoke-virtual {v4, v6, v2}, Lcom/meitu/mtlab/g/g/a$a;->a(Ljava/lang/String;Ljava/lang/String;)Lcom/meitu/mtlab/g/g/a$a;
 
-    .line 44
     invoke-static {}, Lcom/commsource/camera/montage/i0;->b()Ljava/lang/String;
 
     move-result-object v2
@@ -483,7 +438,6 @@
 
     invoke-virtual {v4, v6, v2}, Lcom/meitu/mtlab/g/g/a$a;->a(Ljava/lang/String;Ljava/lang/String;)Lcom/meitu/mtlab/g/g/a$a;
 
-    .line 45
     invoke-static {}, Lcom/commsource/camera/montage/i0;->d()Ljava/lang/String;
 
     move-result-object v2
@@ -494,17 +448,14 @@
 
     const-string v2, "Authorization"
 
-    .line 46
     invoke-virtual {v4, v2, v3}, Lcom/meitu/mtlab/g/g/a$a;->a(Ljava/lang/String;Ljava/lang/String;)Lcom/meitu/mtlab/g/g/a$a;
 
     const-string v2, "AuthorizationType"
 
     const-string v3, "1"
 
-    .line 47
     invoke-virtual {v4, v2, v3}, Lcom/meitu/mtlab/g/g/a$a;->a(Ljava/lang/String;Ljava/lang/String;)Lcom/meitu/mtlab/g/g/a$a;
 
-    .line 48
     new-instance v2, Lcom/meitu/mtlab/g/c/e$a;
 
     invoke-direct {v2}, Lcom/meitu/mtlab/g/c/e$a;-><init>()V
@@ -519,7 +470,6 @@
 
     move-result-object v2
 
-    .line 49
     invoke-static {}, Lcom/meitu/library/application/BaseApplication;->getApplication()Landroid/app/Application;
 
     move-result-object v3
@@ -530,27 +480,22 @@
 
     const-string v6, "RULEA_DATA"
 
-    .line 50
     invoke-static {v6, v7}, Lcom/meitu/mtlab/g/i/d;->c(Ljava/lang/String;I)I
 
     move-result v6
 
     const/4 v9, 0x0
 
-    .line 51
     invoke-static {v3, v6, v1, v9, v7}, Lcom/meitu/mtlab/g/i/a;->a(ZILandroid/graphics/Bitmap;[Landroid/graphics/Bitmap;Z)[Ljava/lang/String;
 
     move-result-object v1
 
-    .line 52
     invoke-virtual {v2}, Lcom/meitu/mtlab/g/c/e;->a()V
 
-    .line 53
     invoke-static {}, Lf/d/i/e;->B0()Ljava/lang/String;
 
     move-result-object v2
 
-    .line 54
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
     move-result-object v3
@@ -559,7 +504,6 @@
 
     move-result-object v3
 
-    .line 55
     invoke-static {v2}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v6
@@ -579,19 +523,16 @@
 
     goto :goto_5
 
-    .line 56
     :cond_b
     :goto_4
     new-instance v6, Lorg/json/JSONObject;
 
     invoke-direct {v6}, Lorg/json/JSONObject;-><init>()V
 
-    .line 57
     new-instance v10, Lorg/json/JSONObject;
 
     invoke-direct {v10}, Lorg/json/JSONObject;-><init>()V
 
-    .line 58
     invoke-static {v2}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v11
@@ -600,10 +541,8 @@
 
     const-string v11, "hwgid"
 
-    .line 59
     invoke-virtual {v10, v11, v2}, Lorg/json/JSONObject;->put(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;
 
-    .line 60
     :cond_c
     invoke-static {v3}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
@@ -613,10 +552,8 @@
 
     const-string v2, "firebaseid"
 
-    .line 61
     invoke-virtual {v10, v2, v3}, Lorg/json/JSONObject;->put(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;
 
-    .line 62
     :cond_d
     invoke-virtual {v10}, Lorg/json/JSONObject;->toString()Ljava/lang/String;
 
@@ -626,12 +563,10 @@
 
     invoke-virtual {v6, v3, v2}, Lorg/json/JSONObject;->put(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;
 
-    .line 63
     invoke-virtual {v6}, Lorg/json/JSONObject;->toString()Ljava/lang/String;
 
     move-result-object v2
 
-    .line 64
     :goto_5
     aget-object v1, v1, v7
 
@@ -639,7 +574,6 @@
 
     move-result-object v1
 
-    .line 65
     invoke-static {}, Lcom/commsource/util/x;->C()Z
 
     move-result v2
@@ -653,7 +587,6 @@
     :cond_e
     const-string v2, "https://openapi.mtlab.meitu.com/v1/EmojMaterialB+"
 
-    .line 66
     :goto_6
     new-instance v3, Lcom/meitu/mtlab/g/g/b$d;
 
@@ -679,7 +612,6 @@
 
     move-result-object v1
 
-    .line 67
     new-instance v2, Lcom/meitu/mtlab/g/c/e$a;
 
     invoke-direct {v2}, Lcom/meitu/mtlab/g/c/e$a;-><init>()V
@@ -702,17 +634,14 @@
 
     move-result-object v2
 
-    .line 68
     new-instance v3, Lcom/commsource/camera/xcamera/cover/montage/a$c$a;
 
     invoke-direct {v3, v0, v5}, Lcom/commsource/camera/xcamera/cover/montage/a$c$a;-><init>(Lcom/commsource/camera/xcamera/cover/montage/a$c;Z)V
 
-    .line 69
     invoke-virtual {v1, v2, v3}, Lcom/meitu/mtlab/g/g/b;->j(Lcom/meitu/mtlab/g/c/e;Lcom/meitu/mtlab/g/d/a;)V
 
     const/16 v1, 0x4690
 
-    .line 70
     invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -721,7 +650,6 @@
     :goto_7
     const/16 v1, 0x4690
 
-    .line 71
     iget-object v2, v0, Lcom/commsource/camera/xcamera/cover/montage/a$c;->g:Lcom/commsource/camera/xcamera/cover/montage/a;
 
     invoke-virtual {v2}, Lcom/commsource/camera/xcamera/cover/montage/a;->I()Landroidx/lifecycle/MutableLiveData;
@@ -740,12 +668,10 @@
 
     invoke-virtual {v2, v3}, Landroidx/lifecycle/MutableLiveData;->postValue(Ljava/lang/Object;)V
 
-    .line 72
     invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 73
     :cond_10
     :goto_8
     iget-object v2, v0, Lcom/commsource/camera/xcamera/cover/montage/a$c;->g:Lcom/commsource/camera/xcamera/cover/montage/a;
@@ -766,7 +692,6 @@
 
     invoke-virtual {v2, v3}, Landroidx/lifecycle/MutableLiveData;->postValue(Ljava/lang/Object;)V
 
-    .line 74
     invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

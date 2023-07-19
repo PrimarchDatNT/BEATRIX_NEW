@@ -32,10 +32,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Li/a/i/d;->a:Ljava/util/Map;
 
     return-void
@@ -46,7 +44,6 @@
 .method public a(Ljava/lang/String;Ljava/lang/String;)V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Li/a/i/d;->a:Ljava/util/Map;
 
     invoke-interface {v0, p1, p2}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
@@ -67,7 +64,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/lang/UnsupportedOperationException;
 
     const-string v1, "TextMapInjectAdapter should only be used with Tracer.inject()"

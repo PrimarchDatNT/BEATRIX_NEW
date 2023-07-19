@@ -42,7 +42,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/function/relight/g$a;->a:Lcom/commsource/studio/function/relight/g;
 
     invoke-virtual {v1}, Lcom/commsource/studio/function/relight/g;->H()Landroidx/lifecycle/MutableLiveData;
@@ -67,7 +66,6 @@
 
     aput-object v3, v2, v4
 
-    .line 2
     new-instance v3, Lcom/commsource/studio/function/relight/b;
 
     const-string v4, "light1002"
@@ -80,7 +78,6 @@
 
     aput-object v3, v2, v4
 
-    .line 3
     new-instance v3, Lcom/commsource/studio/function/relight/b;
 
     const-string v4, "light1003"
@@ -93,7 +90,6 @@
 
     aput-object v3, v2, v4
 
-    .line 4
     new-instance v3, Lcom/commsource/studio/function/relight/b;
 
     const-string v4, "light1004"
@@ -106,7 +102,6 @@
 
     aput-object v3, v2, v4
 
-    .line 5
     new-instance v3, Lcom/commsource/studio/function/relight/b;
 
     const-string v4, "light1005"
@@ -121,7 +116,6 @@
 
     aput-object v3, v2, v4
 
-    .line 6
     new-instance v3, Lcom/commsource/studio/function/relight/b;
 
     const-string v4, "light1006"
@@ -134,7 +128,6 @@
 
     aput-object v3, v2, v4
 
-    .line 7
     new-instance v3, Lcom/commsource/studio/function/relight/b;
 
     const-string v4, "light1007"
@@ -147,7 +140,6 @@
 
     aput-object v3, v2, v4
 
-    .line 8
     new-instance v3, Lcom/commsource/studio/function/relight/b;
 
     const-string v4, "light1008"
@@ -160,14 +152,12 @@
 
     aput-object v3, v2, v4
 
-    .line 9
     invoke-static {v2}, Lcotlin/collections/s;->r([Ljava/lang/Object;)Ljava/util/ArrayList;
 
     move-result-object v2
 
     invoke-virtual {v1, v2}, Landroidx/lifecycle/MutableLiveData;->postValue(Ljava/lang/Object;)V
 
-    .line 10
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

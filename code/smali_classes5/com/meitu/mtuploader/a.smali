@@ -7,7 +7,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -18,7 +17,6 @@
 .method public a()Lcom/meitu/mtuploader/GlobalConfig;
     .locals 1
 
-    .line 1
     new-instance v0, Lcom/meitu/mtuploader/GlobalConfig$b;
 
     invoke-direct {v0}, Lcom/meitu/mtuploader/GlobalConfig$b;-><init>()V
@@ -33,7 +31,6 @@
 .method public b()Lcom/meitu/mtuploader/p;
     .locals 2
 
-    .line 1
     new-instance v0, Lcom/meitu/mtuploader/p$b;
 
     const-string v1, "main"

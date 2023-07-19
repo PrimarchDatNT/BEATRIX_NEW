@@ -22,10 +22,8 @@
 .method constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     invoke-static {}, Lcom/google/common/base/e0;->b()Lcom/google/common/base/e0;
 
     move-result-object v0
@@ -38,12 +36,10 @@
 .method constructor <init>(Lcom/google/common/base/e0;)V
     .locals 1
 
-    .line 3
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const-string v0, "ticker"
 
-    .line 4
     invoke-static {p1, v0}, Lcom/google/common/base/t;->F(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -58,7 +54,6 @@
 .method private static a(Ljava/util/concurrent/TimeUnit;)Ljava/lang/String;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/google/common/base/x$a;->a:[I
 
     invoke-virtual {p0}, Ljava/util/concurrent/TimeUnit;->ordinal()I
@@ -69,7 +64,6 @@
 
     packed-switch p0, :pswitch_data_0
 
-    .line 2
     new-instance p0, Ljava/lang/AssertionError;
 
     invoke-direct {p0}, Ljava/lang/AssertionError;-><init>()V
@@ -126,7 +120,6 @@
 .method private static b(J)Ljava/util/concurrent/TimeUnit;
     .locals 7
 
-    .line 1
     sget-object v0, Ljava/util/concurrent/TimeUnit;->DAYS:Ljava/util/concurrent/TimeUnit;
 
     sget-object v1, Ljava/util/concurrent/TimeUnit;->NANOSECONDS:Ljava/util/concurrent/TimeUnit;
@@ -143,7 +136,6 @@
 
     return-object v0
 
-    .line 2
     :cond_0
     sget-object v0, Ljava/util/concurrent/TimeUnit;->HOURS:Ljava/util/concurrent/TimeUnit;
 
@@ -157,7 +149,6 @@
 
     return-object v0
 
-    .line 3
     :cond_1
     sget-object v0, Ljava/util/concurrent/TimeUnit;->MINUTES:Ljava/util/concurrent/TimeUnit;
 
@@ -171,7 +162,6 @@
 
     return-object v0
 
-    .line 4
     :cond_2
     sget-object v0, Ljava/util/concurrent/TimeUnit;->SECONDS:Ljava/util/concurrent/TimeUnit;
 
@@ -185,7 +175,6 @@
 
     return-object v0
 
-    .line 5
     :cond_3
     sget-object v0, Ljava/util/concurrent/TimeUnit;->MILLISECONDS:Ljava/util/concurrent/TimeUnit;
 
@@ -199,7 +188,6 @@
 
     return-object v0
 
-    .line 6
     :cond_4
     sget-object v0, Ljava/util/concurrent/TimeUnit;->MICROSECONDS:Ljava/util/concurrent/TimeUnit;
 
@@ -220,7 +208,6 @@
 .method public static c()Lcom/google/common/base/x;
     .locals 1
 
-    .line 1
     new-instance v0, Lcom/google/common/base/x;
 
     invoke-direct {v0}, Lcom/google/common/base/x;-><init>()V
@@ -235,7 +222,6 @@
 .method public static d(Lcom/google/common/base/e0;)Lcom/google/common/base/x;
     .locals 1
 
-    .line 1
     new-instance v0, Lcom/google/common/base/x;
 
     invoke-direct {v0, p0}, Lcom/google/common/base/x;-><init>(Lcom/google/common/base/e0;)V
@@ -250,7 +236,6 @@
 .method public static e()Lcom/google/common/base/x;
     .locals 1
 
-    .line 1
     new-instance v0, Lcom/google/common/base/x;
 
     invoke-direct {v0}, Lcom/google/common/base/x;-><init>()V
@@ -261,7 +246,6 @@
 .method public static f(Lcom/google/common/base/e0;)Lcom/google/common/base/x;
     .locals 1
 
-    .line 1
     new-instance v0, Lcom/google/common/base/x;
 
     invoke-direct {v0, p0}, Lcom/google/common/base/x;-><init>(Lcom/google/common/base/e0;)V
@@ -272,7 +256,6 @@
 .method private h()J
     .locals 4
 
-    .line 1
     iget-boolean v0, p0, Lcom/google/common/base/x;->b:Z
 
     if-eqz v0, :cond_0
@@ -305,7 +288,6 @@
 .method public g(Ljava/util/concurrent/TimeUnit;)J
     .locals 3
 
-    .line 1
     invoke-direct {p0}, Lcom/google/common/base/x;->h()J
 
     move-result-wide v0
@@ -322,7 +304,6 @@
 .method public i()Z
     .locals 1
 
-    .line 1
     iget-boolean v0, p0, Lcom/google/common/base/x;->b:Z
 
     return v0
@@ -335,12 +316,10 @@
 
     const-wide/16 v0, 0x0
 
-    .line 1
     iput-wide v0, p0, Lcom/google/common/base/x;->c:J
 
     const/4 v0, 0x0
 
-    .line 2
     iput-boolean v0, p0, Lcom/google/common/base/x;->b:Z
 
     return-object p0
@@ -351,7 +330,6 @@
     .annotation build Lf/f/f/a/a;
     .end annotation
 
-    .line 1
     iget-boolean v0, p0, Lcom/google/common/base/x;->b:Z
 
     const/4 v1, 0x1
@@ -362,10 +340,8 @@
 
     invoke-static {v0, v2}, Lcom/google/common/base/t;->h0(ZLjava/lang/Object;)V
 
-    .line 2
     iput-boolean v1, p0, Lcom/google/common/base/x;->b:Z
 
-    .line 3
     iget-object v0, p0, Lcom/google/common/base/x;->a:Lcom/google/common/base/e0;
 
     invoke-virtual {v0}, Lcom/google/common/base/e0;->a()J
@@ -382,14 +358,12 @@
     .annotation build Lf/f/f/a/a;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/base/x;->a:Lcom/google/common/base/e0;
 
     invoke-virtual {v0}, Lcom/google/common/base/e0;->a()J
 
     move-result-wide v0
 
-    .line 2
     iget-boolean v2, p0, Lcom/google/common/base/x;->b:Z
 
     const-string v3, "This stopwatch is already stopped."
@@ -398,10 +372,8 @@
 
     const/4 v2, 0x0
 
-    .line 3
     iput-boolean v2, p0, Lcom/google/common/base/x;->b:Z
 
-    .line 4
     iget-wide v2, p0, Lcom/google/common/base/x;->c:J
 
     iget-wide v4, p0, Lcom/google/common/base/x;->d:J
@@ -418,19 +390,16 @@
 .method public toString()Ljava/lang/String;
     .locals 6
 
-    .line 1
     invoke-direct {p0}, Lcom/google/common/base/x;->h()J
 
     move-result-wide v0
 
-    .line 2
     invoke-static {v0, v1}, Lcom/google/common/base/x;->b(J)Ljava/util/concurrent/TimeUnit;
 
     move-result-object v2
 
     long-to-double v0, v0
 
-    .line 3
     sget-object v3, Ljava/util/concurrent/TimeUnit;->NANOSECONDS:Ljava/util/concurrent/TimeUnit;
 
     const-wide/16 v4, 0x1
@@ -443,7 +412,6 @@
 
     div-double/2addr v0, v3
 
-    .line 4
     new-instance v3, Ljava/lang/StringBuilder;
 
     invoke-direct {v3}, Ljava/lang/StringBuilder;-><init>()V

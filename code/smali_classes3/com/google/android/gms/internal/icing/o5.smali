@@ -52,14 +52,12 @@
 
     const-string v9, "thing_proto"
 
-    .line 1
     filled-new-array/range {v0 .. v9}, [Ljava/lang/String;
 
     move-result-object v0
 
     sput-object v0, Lcom/google/android/gms/internal/icing/o5;->a:[Ljava/lang/String;
 
-    .line 2
     new-instance v1, Ljava/util/HashMap;
 
     array-length v0, v0
@@ -70,7 +68,6 @@
 
     const/4 v0, 0x0
 
-    .line 3
     :goto_0
     sget-object v1, Lcom/google/android/gms/internal/icing/o5;->a:[Ljava/lang/String;
 
@@ -78,7 +75,6 @@
 
     if-ge v0, v2, :cond_0
 
-    .line 4
     sget-object v2, Lcom/google/android/gms/internal/icing/o5;->b:Ljava/util/Map;
 
     aget-object v1, v1, v0
@@ -102,7 +98,6 @@
 
     if-ltz p0, :cond_1
 
-    .line 1
     sget-object v0, Lcom/google/android/gms/internal/icing/o5;->a:[Ljava/lang/String;
 
     array-length v1, v0
@@ -111,7 +106,6 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     aget-object p0, v0, p0
 
@@ -127,7 +121,6 @@
 .method public static b(Ljava/lang/String;)I
     .locals 3
 
-    .line 1
     sget-object v0, Lcom/google/android/gms/internal/icing/o5;->b:Ljava/util/Map;
 
     invoke-interface {v0, p0}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
@@ -138,14 +131,12 @@
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-virtual {v0}, Ljava/lang/Integer;->intValue()I
 
     move-result p0
 
     return p0
 
-    .line 3
     :cond_0
     new-instance v0, Ljava/lang/IllegalArgumentException;
 

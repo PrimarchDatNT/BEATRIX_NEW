@@ -21,7 +21,6 @@
 .method static constructor <clinit>()V
     .locals 2
 
-    .line 1
     new-instance v0, Lcom/google/firebase/firestore/model/k;
 
     invoke-static {}, Ljava/util/Collections;->emptyList()Ljava/util/List;
@@ -46,7 +45,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/google/firebase/firestore/model/a;-><init>(Ljava/util/List;)V
 
     return-void
@@ -64,7 +62,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-interface {p0}, Ljava/util/List;->isEmpty()Z
 
     move-result v0
@@ -91,7 +88,6 @@
 
     const-string v0, "//"
 
-    .line 1
     invoke-virtual {p0, v0}, Ljava/lang/String;->contains(Ljava/lang/CharSequence;)Z
 
     move-result v0
@@ -100,19 +96,16 @@
 
     const-string v0, "/"
 
-    .line 2
     invoke-virtual {p0, v0}, Ljava/lang/String;->split(Ljava/lang/String;)[Ljava/lang/String;
 
     move-result-object p0
 
-    .line 3
     new-instance v0, Ljava/util/ArrayList;
 
     array-length v1, p0
 
     invoke-direct {v0, v1}, Ljava/util/ArrayList;-><init>(I)V
 
-    .line 4
     array-length v1, p0
 
     const/4 v2, 0x0
@@ -122,14 +115,12 @@
 
     aget-object v3, p0, v2
 
-    .line 5
     invoke-virtual {v3}, Ljava/lang/String;->isEmpty()Z
 
     move-result v4
 
     if-nez v4, :cond_0
 
-    .line 6
     invoke-virtual {v0, v3}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
     :cond_0
@@ -137,7 +128,6 @@
 
     goto :goto_0
 
-    .line 7
     :cond_1
     new-instance p0, Lcom/google/firebase/firestore/model/k;
 
@@ -145,7 +135,6 @@
 
     return-object p0
 
-    .line 8
     :cond_2
     new-instance v0, Ljava/lang/IllegalArgumentException;
 
@@ -186,7 +175,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/google/firebase/firestore/model/k;
 
     invoke-direct {v0, p1}, Lcom/google/firebase/firestore/model/k;-><init>(Ljava/util/List;)V
@@ -197,14 +185,12 @@
 .method public g()Ljava/lang/String;
     .locals 3
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
 
     const/4 v1, 0x0
 
-    .line 2
     :goto_0
     iget-object v2, p0, Lcom/google/firebase/firestore/model/a;->a:Ljava/util/List;
 
@@ -218,10 +204,8 @@
 
     const-string v2, "/"
 
-    .line 3
     invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 4
     :cond_0
     iget-object v2, p0, Lcom/google/firebase/firestore/model/a;->a:Ljava/util/List;
 
@@ -237,7 +221,6 @@
 
     goto :goto_0
 
-    .line 5
     :cond_1
     invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
@@ -249,7 +232,6 @@
 .method bridge synthetic n(Ljava/util/List;)Lcom/google/firebase/firestore/model/a;
     .locals 0
 
-    .line 1
     invoke-virtual {p0, p1}, Lcom/google/firebase/firestore/model/k;->H(Ljava/util/List;)Lcom/google/firebase/firestore/model/k;
 
     move-result-object p1

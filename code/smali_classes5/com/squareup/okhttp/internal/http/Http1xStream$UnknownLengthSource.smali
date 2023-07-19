@@ -24,7 +24,6 @@
 .method private constructor <init>(Lcom/squareup/okhttp/internal/http/Http1xStream;)V
     .locals 1
 
-    .line 1
     iput-object p1, p0, Lcom/squareup/okhttp/internal/http/Http1xStream$UnknownLengthSource;->this$0:Lcom/squareup/okhttp/internal/http/Http1xStream;
 
     const/4 v0, 0x0
@@ -37,7 +36,6 @@
 .method synthetic constructor <init>(Lcom/squareup/okhttp/internal/http/Http1xStream;Lcom/squareup/okhttp/internal/http/Http1xStream$1;)V
     .locals 0
 
-    .line 2
     invoke-direct {p0, p1}, Lcom/squareup/okhttp/internal/http/Http1xStream$UnknownLengthSource;-><init>(Lcom/squareup/okhttp/internal/http/Http1xStream;)V
 
     return-void
@@ -53,26 +51,22 @@
         }
     .end annotation
 
-    .line 1
     iget-boolean v0, p0, Lcom/squareup/okhttp/internal/http/Http1xStream$AbstractSource;->closed:Z
 
     if-eqz v0, :cond_0
 
     return-void
 
-    .line 2
     :cond_0
     iget-boolean v0, p0, Lcom/squareup/okhttp/internal/http/Http1xStream$UnknownLengthSource;->inputExhausted:Z
 
     if-nez v0, :cond_1
 
-    .line 3
     invoke-virtual {p0}, Lcom/squareup/okhttp/internal/http/Http1xStream$AbstractSource;->unexpectedEndOfInput()V
 
     :cond_1
     const/4 v0, 0x1
 
-    .line 4
     iput-boolean v0, p0, Lcom/squareup/okhttp/internal/http/Http1xStream$AbstractSource;->closed:Z
 
     return-void
@@ -92,12 +86,10 @@
 
     if-ltz v2, :cond_3
 
-    .line 1
     iget-boolean v0, p0, Lcom/squareup/okhttp/internal/http/Http1xStream$AbstractSource;->closed:Z
 
     if-nez v0, :cond_2
 
-    .line 2
     iget-boolean v0, p0, Lcom/squareup/okhttp/internal/http/Http1xStream$UnknownLengthSource;->inputExhausted:Z
 
     const-wide/16 v1, -0x1
@@ -106,7 +98,6 @@
 
     return-wide v1
 
-    .line 3
     :cond_0
     iget-object v0, p0, Lcom/squareup/okhttp/internal/http/Http1xStream$UnknownLengthSource;->this$0:Lcom/squareup/okhttp/internal/http/Http1xStream;
 
@@ -124,10 +115,8 @@
 
     const/4 p1, 0x1
 
-    .line 4
     iput-boolean p1, p0, Lcom/squareup/okhttp/internal/http/Http1xStream$UnknownLengthSource;->inputExhausted:Z
 
-    .line 5
     invoke-virtual {p0}, Lcom/squareup/okhttp/internal/http/Http1xStream$AbstractSource;->endOfInput()V
 
     return-wide v1
@@ -135,7 +124,6 @@
     :cond_1
     return-wide p1
 
-    .line 6
     :cond_2
     new-instance p1, Ljava/lang/IllegalStateException;
 
@@ -145,7 +133,6 @@
 
     throw p1
 
-    .line 7
     :cond_3
     new-instance p1, Ljava/lang/IllegalArgumentException;
 

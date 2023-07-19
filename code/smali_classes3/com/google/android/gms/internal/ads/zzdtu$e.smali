@@ -60,13 +60,10 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/google/android/gms/internal/ads/zzdtu$e;->a:Lcom/google/android/gms/internal/ads/zzdtu;
 
-    .line 3
     iput-object p2, p0, Lcom/google/android/gms/internal/ads/zzdtu$e;->b:Lcom/google/android/gms/internal/ads/rq1;
 
     return-void
@@ -77,7 +74,6 @@
 .method public final run()V
     .locals 3
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/zzdtu$e;->a:Lcom/google/android/gms/internal/ads/zzdtu;
 
     invoke-static {v0}, Lcom/google/android/gms/internal/ads/zzdtu;->x(Lcom/google/android/gms/internal/ads/zzdtu;)Ljava/lang/Object;
@@ -88,7 +84,6 @@
 
     return-void
 
-    .line 2
     :cond_0
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/zzdtu$e;->b:Lcom/google/android/gms/internal/ads/rq1;
 
@@ -96,7 +91,6 @@
 
     move-result-object v0
 
-    .line 3
     invoke-static {}, Lcom/google/android/gms/internal/ads/zzdtu;->v()Lcom/google/android/gms/internal/ads/zzdtu$b;
 
     move-result-object v1
@@ -109,7 +103,6 @@
 
     if-eqz v0, :cond_1
 
-    .line 4
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/zzdtu$e;->a:Lcom/google/android/gms/internal/ads/zzdtu;
 
     invoke-static {v0}, Lcom/google/android/gms/internal/ads/zzdtu;->y(Lcom/google/android/gms/internal/ads/zzdtu;)V

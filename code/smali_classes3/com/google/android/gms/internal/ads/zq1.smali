@@ -25,10 +25,8 @@
 .method public constructor <init>(Ljava/lang/Runnable;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/google/android/gms/internal/ads/zzdtu$j;-><init>()V
 
-    .line 2
     invoke-static {p1}, Lcom/google/android/gms/internal/ads/lo1;->b(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -45,7 +43,6 @@
 .method public final run()V
     .locals 1
 
-    .line 1
     :try_start_0
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/zq1;->J:Ljava/lang/Runnable;
 
@@ -58,10 +55,8 @@
     :catchall_0
     move-exception v0
 
-    .line 2
     invoke-virtual {p0, v0}, Lcom/google/android/gms/internal/ads/zzdtu;->j(Ljava/lang/Throwable;)Z
 
-    .line 3
     invoke-static {v0}, Lcom/google/android/gms/internal/ads/no1;->f(Ljava/lang/Throwable;)Ljava/lang/RuntimeException;
 
     move-result-object v0

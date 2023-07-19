@@ -43,7 +43,6 @@
 .method public constructor <init>(I)V
     .locals 3
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     iput p1, p0, Lkshark/internal/LruCache;->f:I
@@ -62,7 +61,6 @@
     :goto_0
     if-eqz v1, :cond_1
 
-    .line 2
     new-instance v1, Lkshark/internal/LruCache$2;
 
     const/high16 v2, 0x3f400000    # 0.75f
@@ -73,7 +71,6 @@
 
     return-void
 
-    .line 3
     :cond_1
     new-instance v0, Ljava/lang/StringBuilder;
 
@@ -93,7 +90,6 @@
 
     move-result-object p1
 
-    .line 4
     new-instance v0, Ljava/lang/IllegalArgumentException;
 
     invoke-virtual {p1}, Ljava/lang/Object;->toString()Ljava/lang/String;
@@ -108,7 +104,6 @@
 .method public static final synthetic a(Lkshark/internal/LruCache;)I
     .locals 0
 
-    .line 1
     iget p0, p0, Lkshark/internal/LruCache;->c:I
 
     return p0
@@ -117,7 +112,6 @@
 .method public static final synthetic b(Lkshark/internal/LruCache;I)V
     .locals 0
 
-    .line 1
     iput p1, p0, Lkshark/internal/LruCache;->c:I
 
     return-void
@@ -128,7 +122,6 @@
 .method public final c()V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lkshark/internal/LruCache;->a:Ljava/util/LinkedHashMap;
 
     invoke-virtual {v0}, Ljava/util/LinkedHashMap;->clear()V
@@ -151,7 +144,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lkshark/internal/LruCache;->a:Ljava/util/LinkedHashMap;
 
     invoke-interface {v0, p1}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
@@ -160,7 +152,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 2
     iget v0, p0, Lkshark/internal/LruCache;->d:I
 
     add-int/lit8 v0, v0, 0x1
@@ -169,7 +160,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_0
     iget p1, p0, Lkshark/internal/LruCache;->e:I
 
@@ -186,7 +176,6 @@
 .method public final e()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lkshark/internal/LruCache;->c:I
 
     return v0
@@ -195,7 +184,6 @@
 .method public final f()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lkshark/internal/LruCache;->d:I
 
     return v0
@@ -204,7 +192,6 @@
 .method public final g()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lkshark/internal/LruCache;->f:I
 
     return v0
@@ -213,7 +200,6 @@
 .method public final h()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lkshark/internal/LruCache;->e:I
 
     return v0
@@ -222,7 +208,6 @@
 .method public final i()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lkshark/internal/LruCache;->b:I
 
     return v0
@@ -231,7 +216,6 @@
 .method public final j()I
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lkshark/internal/LruCache;->a:Ljava/util/LinkedHashMap;
 
     invoke-virtual {v0}, Ljava/util/LinkedHashMap;->size()I
@@ -252,14 +236,12 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     iget v0, p0, Lkshark/internal/LruCache;->b:I
 
     add-int/lit8 v0, v0, 0x1
 
     iput v0, p0, Lkshark/internal/LruCache;->b:I
 
-    .line 2
     iget-object v0, p0, Lkshark/internal/LruCache;->a:Ljava/util/LinkedHashMap;
 
     invoke-virtual {v0, p1, p2}, Ljava/util/LinkedHashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
@@ -280,7 +262,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lkshark/internal/LruCache;->a:Ljava/util/LinkedHashMap;
 
     invoke-virtual {v0, p1}, Ljava/util/LinkedHashMap;->remove(Ljava/lang/Object;)Ljava/lang/Object;
@@ -295,7 +276,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget v0, p0, Lkshark/internal/LruCache;->d:I
 
     iget v1, p0, Lkshark/internal/LruCache;->e:I
@@ -308,7 +288,6 @@
 
     mul-int/lit8 v0, v0, 0x64
 
-    .line 2
     div-int/2addr v0, v1
 
     goto :goto_0
@@ -316,7 +295,6 @@
     :cond_0
     const/4 v0, 0x0
 
-    .line 3
     :goto_0
     sget-object v1, Lcotlin/jvm/internal/s0;->a:Lcotlin/jvm/internal/s0;
 
@@ -324,7 +302,6 @@
 
     new-array v3, v1, [Ljava/lang/Object;
 
-    .line 4
     iget v4, p0, Lkshark/internal/LruCache;->f:I
 
     invoke-static {v4}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -361,7 +338,6 @@
 
     aput-object v0, v3, v2
 
-    .line 5
     invoke-static {v3, v1}, Ljava/util/Arrays;->copyOf([Ljava/lang/Object;I)[Ljava/lang/Object;
 
     move-result-object v0

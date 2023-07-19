@@ -19,17 +19,14 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/camera/newrender/renderproxy/n;-><init>()V
 
-    .line 2
     new-instance v0, Lcom/meitu/core/facelift/MTHeadScale;
 
     invoke-direct {v0}, Lcom/meitu/core/facelift/MTHeadScale;-><init>()V
 
     iput-object v0, p0, Lcom/commsource/studio/r0/q;->g:Lcom/meitu/core/facelift/MTHeadScale;
 
-    .line 3
     new-instance v0, Lcom/meitu/core/MTRtEffectFaceData;
 
     invoke-direct {v0}, Lcom/meitu/core/MTRtEffectFaceData;-><init>()V
@@ -48,12 +45,10 @@
 
     if-nez p1, :cond_0
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 2
     :cond_0
     iget-object v1, p0, Lcom/commsource/studio/r0/q;->h:Lcom/meitu/core/MTRtEffectFaceData;
 
@@ -61,7 +56,6 @@
 
     invoke-virtual {p1, v1, v2}, Lcom/commsource/camera/d1/g/j;->u(Lcom/meitu/core/MTRtEffectFaceData;Z)V
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/studio/r0/q;->h:Lcom/meitu/core/MTRtEffectFaceData;
 
     invoke-virtual {v1}, Lcom/meitu/core/MTRtEffectFaceData;->getFaceCount()I
@@ -74,7 +68,6 @@
 
     if-le v1, v2, :cond_1
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/studio/r0/q;->g:Lcom/meitu/core/facelift/MTHeadScale;
 
     invoke-virtual {p1}, Lcom/commsource/camera/d1/g/j;->h()I
@@ -83,7 +76,6 @@
 
     invoke-virtual {v1, p1}, Lcom/meitu/core/facelift/MTHeadScale;->setAssignFaceIndex(I)V
 
-    .line 5
     :cond_1
     iget-object p1, p0, Lcom/commsource/studio/r0/q;->g:Lcom/meitu/core/facelift/MTHeadScale;
 
@@ -91,7 +83,6 @@
 
     invoke-virtual {p1, v1}, Lcom/meitu/core/facelift/MTHeadScale;->setFaceData(Lcom/meitu/core/MTRtEffectFaceData;)V
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -106,21 +97,16 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/r0/q;->g:Lcom/meitu/core/facelift/MTHeadScale;
 
-    .line 2
     invoke-virtual {v1}, Lcom/meitu/core/facelift/MTHeadScale;->init()V
 
     const/4 v2, 0x1
 
-    .line 3
     invoke-virtual {v1, v2}, Lcom/meitu/core/facelift/MTHeadScale;->setHeadScale(I)V
 
-    .line 4
     invoke-virtual {v1, v2}, Lcom/meitu/core/facelift/MTHeadScale;->setGroupfieMode(I)V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -133,12 +119,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/r0/q;->g:Lcom/meitu/core/facelift/MTHeadScale;
 
     invoke-virtual {v1}, Lcom/meitu/core/facelift/MTHeadScale;->release()V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -153,7 +137,6 @@
 
     invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     const-class v2, Lcom/commsource/camera/d1/g/j;
 
     invoke-virtual {p0, v2}, Lcom/commsource/camera/newrender/renderproxy/n;->c(Ljava/lang/Class;)Ljava/lang/Object;
@@ -164,7 +147,6 @@
 
     invoke-direct {p0, v2}, Lcom/commsource/studio/r0/q;->w(Lcom/commsource/camera/d1/g/j;)V
 
-    .line 2
     iget-object v3, v0, Lcom/commsource/studio/r0/q;->g:Lcom/meitu/core/facelift/MTHeadScale;
 
     iget v10, v0, Lcom/commsource/studio/r0/q;->i:F
@@ -197,7 +179,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/r0/q;->i:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -212,7 +193,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/studio/r0/q;->i:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

@@ -46,10 +46,8 @@
     .annotation runtime Ljava/lang/SafeVarargs;
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1, p3}, Lcom/google/android/gms/internal/ads/sr1;-><init>(Ljava/lang/Class;[Lcom/google/android/gms/internal/ads/ur1;)V
 
-    .line 2
     iput-object p2, p0, Lcom/google/android/gms/internal/ads/es1;->d:Ljava/lang/Class;
 
     return-void

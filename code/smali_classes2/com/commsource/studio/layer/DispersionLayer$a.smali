@@ -42,7 +42,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/layer/DispersionLayer$a;->a:Lcom/commsource/studio/layer/DispersionLayer;
 
     const-string v2, "it"
@@ -63,7 +62,6 @@
 
     invoke-static {v1, p1}, Lcom/commsource/studio/layer/DispersionLayer;->H0(Lcom/commsource/studio/layer/DispersionLayer;F)V
 
-    .line 2
     iget-object p1, p0, Lcom/commsource/studio/layer/DispersionLayer$a;->a:Lcom/commsource/studio/layer/DispersionLayer;
 
     invoke-virtual {p1}, Lcom/commsource/studio/layer/BaseLayer;->F()Landroid/view/View;
@@ -72,12 +70,10 @@
 
     invoke-virtual {p1}, Landroid/view/View;->invalidate()V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 4
     :cond_0
     new-instance p1, Lcotlin/TypeCastException;
 

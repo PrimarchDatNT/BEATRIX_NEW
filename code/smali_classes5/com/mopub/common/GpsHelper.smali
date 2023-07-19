@@ -31,7 +31,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -40,7 +39,6 @@
 .method static synthetic access$000()Ljava/lang/String;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/mopub/common/GpsHelper;->sAdvertisingIdClientClassName:Ljava/lang/String;
 
     return-object v0
@@ -49,7 +47,6 @@
 .method public static fetchAdvertisingInfoAsync(Landroid/content/Context;Lcom/mopub/common/GpsHelper$GpsHelperListener;)V
     .locals 0
 
-    .line 1
     invoke-static {p0, p1}, Lcom/mopub/common/GpsHelper;->internalFetchAdvertisingInfoAsync(Landroid/content/Context;Lcom/mopub/common/GpsHelper$GpsHelperListener;)V
 
     return-void
@@ -72,14 +69,12 @@
     :try_start_0
     const-string v2, "getAdvertisingIdInfo"
 
-    .line 1
     invoke-static {v0, v2}, Lcom/mopub/common/factories/MethodBuilderFactory;->create(Ljava/lang/Object;Ljava/lang/String;)Lcom/mopub/common/util/Reflection$MethodBuilder;
 
     move-result-object v2
 
     sget-object v3, Lcom/mopub/common/GpsHelper;->sAdvertisingIdClientClassName:Ljava/lang/String;
 
-    .line 2
     invoke-static {v3}, Ljava/lang/Class;->forName(Ljava/lang/String;)Ljava/lang/Class;
 
     move-result-object v3
@@ -90,36 +85,30 @@
 
     const-class v3, Landroid/content/Context;
 
-    .line 3
     invoke-virtual {v2, v3, p0}, Lcom/mopub/common/util/Reflection$MethodBuilder;->addParam(Ljava/lang/Class;Ljava/lang/Object;)Lcom/mopub/common/util/Reflection$MethodBuilder;
 
     move-result-object p0
 
-    .line 4
     invoke-virtual {p0}, Lcom/mopub/common/util/Reflection$MethodBuilder;->execute()Ljava/lang/Object;
 
     move-result-object p0
 
-    .line 5
     invoke-static {p0, v0}, Lcom/mopub/common/GpsHelper;->reflectedGetAdvertisingId(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v2
 
-    .line 6
     invoke-static {p0, v1}, Lcom/mopub/common/GpsHelper;->reflectedIsLimitAdTrackingEnabled(Ljava/lang/Object;Z)Z
 
     move-result p0
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
-    .line 7
     new-instance v0, Lcom/mopub/common/GpsHelper$AdvertisingInfo;
 
     invoke-direct {v0, v2, p0}, Lcom/mopub/common/GpsHelper$AdvertisingInfo;-><init>(Ljava/lang/String;Z)V
 
     return-object v0
 
-    .line 8
     :catch_0
     sget-object p0, Lcom/mopub/common/logging/MoPubLog$SdkLogEvent;->CUSTOM:Lcom/mopub/common/logging/MoPubLog$SdkLogEvent;
 
@@ -139,7 +128,6 @@
 .method private static internalFetchAdvertisingInfoAsync(Landroid/content/Context;Lcom/mopub/common/GpsHelper$GpsHelperListener;)V
     .locals 4
 
-    .line 1
     sget-object v0, Lcom/mopub/common/GpsHelper;->sAdvertisingIdClientClassName:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/mopub/common/util/Reflection;->classFound(Ljava/lang/String;)Z
@@ -150,7 +138,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 2
     invoke-interface {p1}, Lcom/mopub/common/GpsHelper$GpsHelperListener;->onFetchAdInfoCompleted()V
 
     :cond_0
@@ -159,7 +146,6 @@
     :cond_1
     const/4 v0, 0x0
 
-    .line 3
     :try_start_0
     new-instance v1, Lcom/mopub/common/GpsHelper$FetchAdvertisingInfoTask;
 
@@ -176,7 +162,6 @@
     :catch_0
     move-exception p0
 
-    .line 4
     sget-object v1, Lcom/mopub/common/logging/MoPubLog$SdkLogEvent;->ERROR_WITH_THROWABLE:Lcom/mopub/common/logging/MoPubLog$SdkLogEvent;
 
     const/4 v2, 0x2
@@ -195,7 +180,6 @@
 
     if-eqz p1, :cond_2
 
-    .line 5
     invoke-interface {p1}, Lcom/mopub/common/GpsHelper$GpsHelperListener;->onFetchAdInfoCompleted()V
 
     :cond_2
@@ -206,7 +190,6 @@
 .method public static isLimitAdTrackingEnabled(Landroid/content/Context;)Z
     .locals 2
 
-    .line 1
     invoke-static {p0}, Lcom/mopub/common/SharedPreferencesHelper;->getSharedPreferences(Landroid/content/Context;)Landroid/content/SharedPreferences;
 
     move-result-object p0
@@ -215,7 +198,6 @@
 
     const/4 v1, 0x0
 
-    .line 2
     invoke-interface {p0, v0, v1}, Landroid/content/SharedPreferences;->getBoolean(Ljava/lang/String;Z)Z
 
     move-result p0
@@ -229,7 +211,6 @@
     :try_start_0
     const-string v0, "getId"
 
-    .line 1
     invoke-static {p0, v0}, Lcom/mopub/common/factories/MethodBuilderFactory;->create(Ljava/lang/Object;Ljava/lang/String;)Lcom/mopub/common/util/Reflection$MethodBuilder;
 
     move-result-object p0
@@ -254,7 +235,6 @@
     :try_start_0
     const-string v0, "isLimitAdTrackingEnabled"
 
-    .line 1
     invoke-static {p0, v0}, Lcom/mopub/common/factories/MethodBuilderFactory;->create(Ljava/lang/Object;Ljava/lang/String;)Lcom/mopub/common/util/Reflection$MethodBuilder;
 
     move-result-object p0
@@ -267,7 +247,6 @@
 
     if-eqz p0, :cond_0
 
-    .line 2
     invoke-virtual {p0}, Ljava/lang/Boolean;->booleanValue()Z
 
     move-result p1

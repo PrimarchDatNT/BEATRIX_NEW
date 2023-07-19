@@ -25,7 +25,6 @@
 .method constructor <init>(Ljava/lang/String;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/pushkit/u$a;->a:Ljava/lang/String;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -42,7 +41,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/meitu/pushkit/y;->y()Lcom/meitu/library/m/a/b;
 
     move-result-object v0
@@ -51,7 +49,6 @@
 
     invoke-virtual {v0, v1, p2}, Lcom/meitu/library/m/a/b;->i(Ljava/lang/String;Ljava/lang/Throwable;)V
 
-    .line 2
     invoke-static {}, Lcom/meitu/pushkit/f;->d()Lcom/meitu/pushkit/f;
 
     move-result-object p2
@@ -60,7 +57,6 @@
 
     invoke-virtual {p2, v0}, Lcom/meitu/pushkit/f;->c0(Ljava/lang/String;)V
 
-    .line 3
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -78,7 +74,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     :try_start_0
     invoke-virtual {p2}, Lokhttp3/Response;->body()Lokhttp3/ResponseBody;
 
@@ -88,7 +83,6 @@
 
     move-result-object p2
 
-    .line 2
     invoke-static {}, Lcom/meitu/pushkit/y;->y()Lcom/meitu/library/m/a/b;
 
     move-result-object v0
@@ -109,14 +103,12 @@
 
     invoke-virtual {v0, v1}, Lcom/meitu/library/m/a/b;->a(Ljava/lang/String;)V
 
-    .line 3
     new-instance v0, Lorg/json/JSONObject;
 
     invoke-direct {v0, p2}, Lorg/json/JSONObject;-><init>(Ljava/lang/String;)V
 
     const-string p2, "code"
 
-    .line 4
     invoke-virtual {v0, p2}, Lorg/json/JSONObject;->optInt(Ljava/lang/String;)I
 
     move-result p2
@@ -128,7 +120,6 @@
     :catch_0
     move-exception p2
 
-    .line 5
     invoke-static {}, Lcom/meitu/pushkit/y;->y()Lcom/meitu/library/m/a/b;
 
     move-result-object v0
@@ -139,7 +130,6 @@
 
     const/4 p2, 0x0
 
-    .line 6
     :goto_0
     iget-object v0, p0, Lcom/meitu/pushkit/u$a;->a:Ljava/lang/String;
 
@@ -147,14 +137,12 @@
 
     if-ne p2, v1, :cond_1
 
-    .line 7
     sget-object p2, Lcom/meitu/pushkit/x;->a:Landroid/content/Context;
 
     invoke-virtual {p2}, Landroid/content/Context;->getPackageName()Ljava/lang/String;
 
     move-result-object p2
 
-    .line 8
     iget-object v0, p0, Lcom/meitu/pushkit/u$a;->a:Ljava/lang/String;
 
     invoke-virtual {v0, p2}, Ljava/lang/String;->contains(Ljava/lang/CharSequence;)Z
@@ -163,7 +151,6 @@
 
     if-eqz p2, :cond_0
 
-    .line 9
     invoke-static {}, Lcom/meitu/pushkit/f;->d()Lcom/meitu/pushkit/f;
 
     move-result-object p2
@@ -177,7 +164,6 @@
     :cond_0
     const-string v0, ""
 
-    .line 10
     :cond_1
     invoke-static {}, Lcom/meitu/pushkit/f;->d()Lcom/meitu/pushkit/f;
 
@@ -185,7 +171,6 @@
 
     invoke-virtual {p2, v0}, Lcom/meitu/pushkit/f;->c0(Ljava/lang/String;)V
 
-    .line 11
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

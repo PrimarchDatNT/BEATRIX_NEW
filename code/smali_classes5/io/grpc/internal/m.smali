@@ -34,10 +34,8 @@
 .method public constructor <init>(Lio/grpc/internal/MessageDeframer$b;Lio/grpc/internal/m$d;)V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     new-instance v0, Ljava/util/ArrayDeque;
 
     invoke-direct {v0}, Ljava/util/ArrayDeque;-><init>()V
@@ -46,7 +44,6 @@
 
     const-string v0, "listener"
 
-    .line 3
     invoke-static {p1, v0}, Lcom/google/common/base/t;->F(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -57,7 +54,6 @@
 
     const-string p1, "transportExecutor"
 
-    .line 4
     invoke-static {p2, p1}, Lcom/google/common/base/t;->F(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -72,7 +68,6 @@
 .method static synthetic e(Lio/grpc/internal/m;)Lio/grpc/internal/MessageDeframer$b;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lio/grpc/internal/m;->b:Lio/grpc/internal/MessageDeframer$b;
 
     return-object p0
@@ -83,7 +78,6 @@
 .method public a(Lio/grpc/internal/a3$a;)V
     .locals 2
 
-    .line 1
     :goto_0
     invoke-interface {p1}, Lio/grpc/internal/a3$a;->next()Ljava/io/InputStream;
 
@@ -91,7 +85,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 2
     iget-object v1, p0, Lio/grpc/internal/m;->c:Ljava/util/Queue;
 
     invoke-interface {v1, v0}, Ljava/util/Queue;->add(Ljava/lang/Object;)Z
@@ -105,7 +98,6 @@
 .method public b(I)V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lio/grpc/internal/m;->a:Lio/grpc/internal/m$d;
 
     new-instance v1, Lio/grpc/internal/m$a;
@@ -120,7 +112,6 @@
 .method public c(Ljava/lang/Throwable;)V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lio/grpc/internal/m;->a:Lio/grpc/internal/m$d;
 
     new-instance v1, Lio/grpc/internal/m$c;
@@ -135,7 +126,6 @@
 .method public d(Z)V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lio/grpc/internal/m;->a:Lio/grpc/internal/m$d;
 
     new-instance v1, Lio/grpc/internal/m$b;
@@ -150,7 +140,6 @@
 .method public f()Ljava/io/InputStream;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lio/grpc/internal/m;->c:Ljava/util/Queue;
 
     invoke-interface {v0}, Ljava/util/Queue;->poll()Ljava/lang/Object;

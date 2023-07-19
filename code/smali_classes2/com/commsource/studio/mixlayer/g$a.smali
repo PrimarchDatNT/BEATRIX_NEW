@@ -19,7 +19,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -28,7 +27,6 @@
 .method public synthetic constructor <init>(Lcotlin/jvm/internal/u;)V
     .locals 0
 
-    .line 2
     invoke-direct {p0}, Lcom/commsource/studio/mixlayer/g$a;-><init>()V
 
     return-void
@@ -53,7 +51,6 @@
 
     goto/16 :goto_0
 
-    .line 1
     :cond_0
     sget-object v1, Lcom/commsource/studio/mixlayer/f;->a:[I
 
@@ -70,7 +67,6 @@
     :pswitch_0
     sget p1, Lcom/res/provider/ResSTRING;->t_divide:I
 
-    .line 2
     invoke-static {p1}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
 
     move-result-object p1
@@ -84,7 +80,6 @@
     :pswitch_1
     sget p1, Lcom/res/provider/ResSTRING;->t_different:I
 
-    .line 3
     invoke-static {p1}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
 
     move-result-object p1
@@ -98,7 +93,6 @@
     :pswitch_2
     sget p1, Lcom/res/provider/ResSTRING;->t_hardLight:I
 
-    .line 4
     invoke-static {p1}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
 
     move-result-object p1
@@ -112,7 +106,6 @@
     :pswitch_3
     sget p1, Lcom/res/provider/ResSTRING;->t_soft:I
 
-    .line 5
     invoke-static {p1}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
 
     move-result-object p1
@@ -126,7 +119,6 @@
     :pswitch_4
     sget p1, Lcom/res/provider/ResSTRING;->t_multiply:I
 
-    .line 6
     invoke-static {p1}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
 
     move-result-object p1
@@ -140,7 +132,6 @@
     :pswitch_5
     sget p1, Lcom/res/provider/ResSTRING;->t_overlay:I
 
-    .line 7
     invoke-static {p1}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
 
     move-result-object p1
@@ -154,7 +145,6 @@
     :pswitch_6
     sget p1, Lcom/res/provider/ResSTRING;->t_burn:I
 
-    .line 8
     invoke-static {p1}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
 
     move-result-object p1
@@ -168,7 +158,6 @@
     :pswitch_7
     sget p1, Lcom/res/provider/ResSTRING;->t_normal:I
 
-    .line 9
     invoke-static {p1}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
 
     move-result-object p1
@@ -182,7 +171,6 @@
     :goto_0
     sget p1, Lcom/res/provider/ResSTRING;->t_screen:I
 
-    .line 10
     invoke-static {p1}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
 
     move-result-object p1
@@ -191,7 +179,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 11
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

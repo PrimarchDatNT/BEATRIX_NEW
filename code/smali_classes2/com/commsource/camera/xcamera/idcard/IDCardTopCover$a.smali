@@ -31,7 +31,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/camera/xcamera/idcard/IDCardTopCover$a;->a:Lcom/commsource/camera/xcamera/idcard/IDCardTopCover;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -48,7 +47,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/camera/xcamera/idcard/IDCardTopCover$a;->a:Lcom/commsource/camera/xcamera/idcard/IDCardTopCover;
 
     invoke-virtual {v0}, Lcom/commsource/camera/xcamera/cover/AbsCover;->A()Landroidx/databinding/ViewDataBinding;
@@ -67,24 +65,20 @@
 
     invoke-virtual {v0, v1}, Landroid/view/View;->setEnabled(Z)V
 
-    .line 2
     iget-object v0, p0, Lcom/commsource/camera/xcamera/idcard/IDCardTopCover$a;->a:Lcom/commsource/camera/xcamera/idcard/IDCardTopCover;
 
     invoke-virtual {v0}, Lcom/commsource/camera/xcamera/idcard/IDCardTopCover;->E()Lcom/commsource/camera/xcamera/BpCameraViewModel;
 
     move-result-object v0
 
-    .line 3
     new-instance v2, Lcom/commsource/camera/xcamera/n;
 
     invoke-direct {v2}, Lcom/commsource/camera/xcamera/n;-><init>()V
 
-    .line 4
     new-instance v3, Lcom/commsource/camera/xcamera/idcard/IDCardTopCover$a$a;
 
     invoke-direct {v3, p0}, Lcom/commsource/camera/xcamera/idcard/IDCardTopCover$a$a;-><init>(Lcom/commsource/camera/xcamera/idcard/IDCardTopCover$a;)V
 
-    .line 5
     iget-object v4, p0, Lcom/commsource/camera/xcamera/idcard/IDCardTopCover$a;->a:Lcom/commsource/camera/xcamera/idcard/IDCardTopCover;
 
     invoke-virtual {v4}, Lcom/commsource/camera/xcamera/idcard/IDCardTopCover;->G()Lcom/commsource/camera/xcamera/cover/CameraConfigViewModel;
@@ -111,11 +105,9 @@
 
     const/4 v1, 0x1
 
-    .line 6
     :cond_0
     invoke-virtual {v0, v2, v3, v1}, Lcom/commsource/camera/xcamera/BpCameraViewModel;->U2(Lcom/commsource/camera/xcamera/n;Ljava/lang/Runnable;Z)V
 
-    .line 7
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

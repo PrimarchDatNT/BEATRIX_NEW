@@ -34,7 +34,6 @@
 .method constructor <init>(Lcom/commsource/beautyplus/miniapp/MiniAppActivity;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/beautyplus/miniapp/MiniAppActivity$a;->a:Lcom/commsource/beautyplus/miniapp/MiniAppActivity;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -51,7 +50,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p2, Lcom/commsource/beautyplus/miniapp/k;
 
     invoke-virtual {p0, p1, p2}, Lcom/commsource/beautyplus/miniapp/MiniAppActivity$a;->b(ILcom/commsource/beautyplus/miniapp/k;)Z
@@ -70,7 +68,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/beautyplus/miniapp/MiniAppActivity$a;->a:Lcom/commsource/beautyplus/miniapp/MiniAppActivity;
 
     invoke-static {v1}, Lcom/commsource/beautyplus/miniapp/MiniAppActivity;->L0(Lcom/commsource/beautyplus/miniapp/MiniAppActivity;)Z
@@ -81,12 +78,10 @@
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v2
 
-    .line 3
     :cond_0
     sget-object v1, Lcom/meitu/library/hwanalytics/spm/SPMManager;->h:Lcom/meitu/library/hwanalytics/spm/SPMManager$a;
 
@@ -98,7 +93,6 @@
 
     invoke-virtual {v1, v3}, Lcom/meitu/library/hwanalytics/spm/SPMManager;->s(Z)V
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/beautyplus/miniapp/MiniAppActivity$a;->a:Lcom/commsource/beautyplus/miniapp/MiniAppActivity;
 
     invoke-static {v1}, Lcom/commsource/beautyplus/miniapp/MiniAppActivity;->M0(Lcom/commsource/beautyplus/miniapp/MiniAppActivity;)Lcom/commsource/beautyplus/miniapp/MiniAppViewModel;
@@ -107,7 +101,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/beautyplus/miniapp/MiniAppViewModel;->T(Z)V
 
-    .line 5
     iget-object v1, p0, Lcom/commsource/beautyplus/miniapp/MiniAppActivity$a;->a:Lcom/commsource/beautyplus/miniapp/MiniAppActivity;
 
     invoke-static {v1}, Lcom/commsource/beautyplus/miniapp/MiniAppActivity;->M0(Lcom/commsource/beautyplus/miniapp/MiniAppActivity;)Lcom/commsource/beautyplus/miniapp/MiniAppViewModel;
@@ -120,7 +113,6 @@
 
     invoke-virtual {v1, p1, p2, v3, v4}, Lcom/commsource/beautyplus/miniapp/MiniAppViewModel;->P(ILcom/commsource/beautyplus/miniapp/k;Landroidx/fragment/app/FragmentActivity;I)V
 
-    .line 6
     iget-object p2, p0, Lcom/commsource/beautyplus/miniapp/MiniAppActivity$a;->a:Lcom/commsource/beautyplus/miniapp/MiniAppActivity;
 
     invoke-static {p2}, Lcom/commsource/beautyplus/miniapp/MiniAppActivity;->N0(Lcom/commsource/beautyplus/miniapp/MiniAppActivity;)Lcom/commsource/widget/h1/e;
@@ -129,7 +121,6 @@
 
     invoke-virtual {p2, p1}, Landroidx/recyclerview/widget/RecyclerView$Adapter;->notifyItemChanged(I)V
 
-    .line 7
     invoke-static {}, Lorg/greenrobot/eventbus/c;->g()Lorg/greenrobot/eventbus/c;
 
     move-result-object p1
@@ -138,7 +129,6 @@
 
     invoke-virtual {p1, p2}, Lorg/greenrobot/eventbus/c;->q(Ljava/lang/Object;)V
 
-    .line 8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v2

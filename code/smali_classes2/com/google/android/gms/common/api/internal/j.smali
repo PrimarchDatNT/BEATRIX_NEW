@@ -15,15 +15,12 @@
 .method public constructor <init>(Landroid/app/Activity;)V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const-string v0, "Activity must not be null"
 
-    .line 2
     invoke-static {p1, v0}, Lcom/google/android/gms/common/internal/b0;->l(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 3
     iput-object p1, p0, Lcom/google/android/gms/common/api/internal/j;->a:Ljava/lang/Object;
 
     return-void
@@ -34,10 +31,8 @@
     .annotation build Lcom/google/android/gms/common/annotation/a;
     .end annotation
 
-    .line 4
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 5
     new-instance p1, Ljava/lang/UnsupportedOperationException;
 
     invoke-direct {p1}, Ljava/lang/UnsupportedOperationException;-><init>()V
@@ -52,7 +47,6 @@
     .annotation build Lcom/google/android/gms/common/annotation/a;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/common/api/internal/j;->a:Ljava/lang/Object;
 
     check-cast v0, Landroid/app/Activity;
@@ -65,7 +59,6 @@
     .annotation build Lcom/google/android/gms/common/annotation/a;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/common/api/internal/j;->a:Ljava/lang/Object;
 
     check-cast v0, Landroidx/fragment/app/FragmentActivity;
@@ -78,7 +71,6 @@
     .annotation build Lcom/google/android/gms/common/annotation/a;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/common/api/internal/j;->a:Ljava/lang/Object;
 
     return-object v0
@@ -99,7 +91,6 @@
     .annotation build Lcom/google/android/gms/common/annotation/a;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/common/api/internal/j;->a:Ljava/lang/Object;
 
     instance-of v0, v0, Landroidx/fragment/app/FragmentActivity;
@@ -110,7 +101,6 @@
 .method public final f()Z
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/common/api/internal/j;->a:Ljava/lang/Object;
 
     instance-of v0, v0, Landroid/app/Activity;

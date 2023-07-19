@@ -31,7 +31,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-direct {p0, p1, v0}, Lcom/commsource/beautyplus/miniapp/ScrollBar;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
     return-void
@@ -42,7 +41,6 @@
 
     const/4 v0, 0x0
 
-    .line 2
     invoke-direct {p0, p1, p2, v0}, Lcom/commsource/beautyplus/miniapp/ScrollBar;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
     return-void
@@ -51,10 +49,8 @@
 .method public constructor <init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
     .locals 0
 
-    .line 3
     invoke-direct {p0, p1, p2, p3}, Landroid/view/View;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
-    .line 4
     invoke-direct {p0, p1}, Lcom/commsource/beautyplus/miniapp/ScrollBar;->a(Landroid/content/Context;)V
 
     return-void
@@ -69,7 +65,6 @@
 
     const/high16 v1, 0x41300000    # 11.0f
 
-    .line 1
     invoke-static {p1, v1}, Lcom/meitu/library/p/f/i;->e(Landroid/content/Context;F)I
 
     move-result v1
@@ -78,7 +73,6 @@
 
     const/high16 v1, 0x40800000    # 4.0f
 
-    .line 2
     invoke-static {p1, v1}, Lcom/meitu/library/p/f/i;->e(Landroid/content/Context;F)I
 
     move-result v1
@@ -87,21 +81,18 @@
 
     const/high16 v1, 0x40000000    # 2.0f
 
-    .line 3
     invoke-static {p1, v1}, Lcom/meitu/library/p/f/i;->e(Landroid/content/Context;F)I
 
     move-result p1
 
     iput p1, p0, Lcom/commsource/beautyplus/miniapp/ScrollBar;->f:I
 
-    .line 4
     new-instance p1, Landroid/graphics/RectF;
 
     invoke-direct {p1}, Landroid/graphics/RectF;-><init>()V
 
     iput-object p1, p0, Lcom/commsource/beautyplus/miniapp/ScrollBar;->g:Landroid/graphics/RectF;
 
-    .line 5
     new-instance p1, Landroid/graphics/Paint;
 
     const/4 v1, 0x1
@@ -112,15 +103,12 @@
 
     const/16 p1, 0x1f4
 
-    .line 6
     iput p1, p0, Lcom/commsource/beautyplus/miniapp/ScrollBar;->b:I
 
     const/4 p1, 0x0
 
-    .line 7
     iput p1, p0, Lcom/commsource/beautyplus/miniapp/ScrollBar;->c:I
 
-    .line 8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -135,16 +123,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p2, p0, Lcom/commsource/beautyplus/miniapp/ScrollBar;->b:I
 
-    .line 2
     iput p1, p0, Lcom/commsource/beautyplus/miniapp/ScrollBar;->c:I
 
-    .line 3
     invoke-virtual {p0}, Landroid/view/View;->invalidate()V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -157,17 +141,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0, p1}, Landroid/view/View;->onDraw(Landroid/graphics/Canvas;)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/beautyplus/miniapp/ScrollBar;->d:Landroid/graphics/Paint;
 
     const v2, -0x1a1410
 
     invoke-virtual {v1, v2}, Landroid/graphics/Paint;->setColor(I)V
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/beautyplus/miniapp/ScrollBar;->g:Landroid/graphics/RectF;
 
     invoke-virtual {p0}, Landroid/view/View;->getWidth()I
@@ -186,7 +167,6 @@
 
     invoke-virtual {v1, v4, v4, v2, v3}, Landroid/graphics/RectF;->set(FFFF)V
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/beautyplus/miniapp/ScrollBar;->g:Landroid/graphics/RectF;
 
     iget v2, p0, Lcom/commsource/beautyplus/miniapp/ScrollBar;->f:I
@@ -199,7 +179,6 @@
 
     invoke-virtual {p1, v1, v3, v2, v5}, Landroid/graphics/Canvas;->drawRoundRect(Landroid/graphics/RectF;FFLandroid/graphics/Paint;)V
 
-    .line 5
     iget v1, p0, Lcom/commsource/beautyplus/miniapp/ScrollBar;->c:I
 
     int-to-float v1, v1
@@ -226,7 +205,6 @@
 
     mul-float v1, v1, v2
 
-    .line 6
     iget-object v2, p0, Lcom/commsource/beautyplus/miniapp/ScrollBar;->g:Landroid/graphics/RectF;
 
     int-to-float v3, v3
@@ -239,14 +217,12 @@
 
     invoke-virtual {v2, v1, v4, v3, v5}, Landroid/graphics/RectF;->set(FFFF)V
 
-    .line 7
     iget-object v1, p0, Lcom/commsource/beautyplus/miniapp/ScrollBar;->d:Landroid/graphics/Paint;
 
     const v2, -0x6ab7b
 
     invoke-virtual {v1, v2}, Landroid/graphics/Paint;->setColor(I)V
 
-    .line 8
     iget-object v1, p0, Lcom/commsource/beautyplus/miniapp/ScrollBar;->g:Landroid/graphics/RectF;
 
     iget v2, p0, Lcom/commsource/beautyplus/miniapp/ScrollBar;->f:I
@@ -259,7 +235,6 @@
 
     invoke-virtual {p1, v1, v3, v2, v4}, Landroid/graphics/Canvas;->drawRoundRect(Landroid/graphics/RectF;FFLandroid/graphics/Paint;)V
 
-    .line 9
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -272,10 +247,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/beautyplus/miniapp/ScrollBar;->a:I
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -288,10 +261,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/beautyplus/miniapp/ScrollBar;->c:I
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

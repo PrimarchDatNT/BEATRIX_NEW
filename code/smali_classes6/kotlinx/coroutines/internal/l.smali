@@ -28,7 +28,6 @@
 .method static constructor <clinit>()V
     .locals 2
 
-    .line 1
     new-instance v0, Lcotlinx/coroutines/internal/c0;
 
     const-string v1, "CONDITION_FALSE"
@@ -37,7 +36,6 @@
 
     sput-object v0, Lcotlinx/coroutines/internal/l;->d:Ljava/lang/Object;
 
-    .line 2
     new-instance v0, Lcotlinx/coroutines/internal/c0;
 
     const-string v1, "LIST_EMPTY"
@@ -94,7 +92,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     sget-object v0, Lcotlinx/coroutines/internal/l;->d:Ljava/lang/Object;
 
     return-object v0
@@ -105,7 +102,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     sget-object v0, Lcotlinx/coroutines/internal/l;->e:Ljava/lang/Object;
 
     return-object v0
@@ -123,7 +119,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     instance-of v0, p0, Lcotlinx/coroutines/internal/x;
 
     if-nez v0, :cond_0

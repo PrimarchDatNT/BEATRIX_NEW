@@ -55,7 +55,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Lcom/meitu/template/bean/ArMaterialGroup;
 
     invoke-virtual {p0, p1}, Lcom/commsource/camera/xcamera/widget/CameraArIconFrontView$a$a$a;->b(Lcom/meitu/template/bean/ArMaterialGroup;)V
@@ -74,14 +73,12 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     sget-object p1, Lcom/commsource/camera/xcamera/widget/CameraArIconFrontView;->T:Lcom/commsource/camera/xcamera/widget/CameraArIconFrontView$a;
 
     iget v1, p0, Lcom/commsource/camera/xcamera/widget/CameraArIconFrontView$a$a$a;->a:I
 
     invoke-virtual {p1, v1}, Lcom/commsource/camera/xcamera/widget/CameraArIconFrontView$a;->d(I)V
 
-    .line 2
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

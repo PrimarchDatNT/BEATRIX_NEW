@@ -27,7 +27,6 @@
 .method constructor <init>(Lio/jaegertracing/a/k/c;Ljava/util/concurrent/atomic/AtomicLong;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lio/jaegertracing/a/k/c$c;->b:Lio/jaegertracing/a/k/c;
 
     iput-object p2, p0, Lio/jaegertracing/a/k/c$c;->a:Ljava/util/concurrent/atomic/AtomicLong;
@@ -42,7 +41,6 @@
 .method public a(J)V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lio/jaegertracing/a/k/c$c;->a:Ljava/util/concurrent/atomic/AtomicLong;
 
     invoke-virtual {v0, p1, p2}, Ljava/util/concurrent/atomic/AtomicLong;->getAndSet(J)J

@@ -30,10 +30,8 @@
 .method public constructor <init>(Lcom/meitu/media/encoder/TextureMovieEncoder;)V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Landroid/os/Handler;-><init>()V
 
-    .line 2
     new-instance v0, Ljava/lang/ref/WeakReference;
 
     invoke-direct {v0, p1}, Ljava/lang/ref/WeakReference;-><init>(Ljava/lang/Object;)V
@@ -52,13 +50,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p1, Landroid/os/Message;->what:I
 
-    .line 2
     iget-object p1, p1, Landroid/os/Message;->obj:Ljava/lang/Object;
 
-    .line 3
     iget-object v2, p0, Lcom/meitu/media/encoder/TextureMovieEncoder$a;->a:Ljava/lang/ref/WeakReference;
 
     invoke-virtual {v2}, Ljava/lang/ref/WeakReference;->get()Ljava/lang/Object;
@@ -73,10 +68,8 @@
 
     const-string p1, "EncoderHandler.handleMessage: encoder is null"
 
-    .line 4
     invoke-static {v3, p1}, Lcom/meitu/debug/Logger;->Y(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -102,7 +95,6 @@
 
     if-ne v1, v4, :cond_1
 
-    .line 6
     :try_start_0
     check-cast p1, Lcom/meitu/media/encoder/b;
 
@@ -110,7 +102,6 @@
 
     goto :goto_0
 
-    .line 7
     :cond_1
     new-instance p1, Ljava/lang/RuntimeException;
 
@@ -134,13 +125,11 @@
 
     throw p1
 
-    .line 8
     :cond_2
     invoke-static {v2}, Lcom/meitu/media/encoder/TextureMovieEncoder;->d(Lcom/meitu/media/encoder/TextureMovieEncoder;)V
 
     goto :goto_0
 
-    .line 9
     :cond_3
     check-cast p1, Ljava/lang/Integer;
 
@@ -152,7 +141,6 @@
 
     goto :goto_0
 
-    .line 10
     :cond_4
     check-cast p1, Ljava/lang/Long;
 
@@ -164,7 +152,6 @@
 
     goto :goto_0
 
-    .line 11
     :cond_5
     invoke-static {v2}, Lcom/meitu/media/encoder/TextureMovieEncoder;->a(Lcom/meitu/media/encoder/TextureMovieEncoder;)V
     :try_end_0
@@ -177,13 +164,10 @@
 
     const-string v1, "Unable to reset! Could be trouble creating MediaCodec encoder"
 
-    .line 12
     invoke-static {v3, v1}, Lcom/meitu/debug/Logger;->j(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 13
     invoke-virtual {p1}, Ljava/io/IOException;->printStackTrace()V
 
-    .line 14
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

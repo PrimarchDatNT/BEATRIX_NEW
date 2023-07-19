@@ -74,43 +74,30 @@
 .method protected constructor <init>(Ljava/lang/Object;Landroid/view/View;ILcom/commsource/studio/component/AutoManualComponent;Lcom/commsource/studio/component/ConfirmCancelComponent;Lcom/commsource/studio/component/ContrastComponent;Landroid/widget/FrameLayout;Lcom/commsource/studio/MagnifyComponent;Lcom/commsource/studio/component/PaintEraserComponent;Lcom/commsource/studio/component/PreviewComponent;Lcom/meitu/ratiorelativelayout/RatioRelativeLayout;Lcom/meitu/ratiorelativelayout/RatioRelativeLayout;Lcom/commsource/studio/component/UndoRedoComponent;Lcom/commsource/widget/part/XSeekBubbleView;Lcom/commsource/widget/XSeekBar;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1, p2, p3}, Landroidx/databinding/ViewDataBinding;-><init>(Ljava/lang/Object;Landroid/view/View;I)V
 
-    .line 2
     iput-object p4, p0, Lcom/commsource/beautyplus/f0/cb;->a:Lcom/commsource/studio/component/AutoManualComponent;
 
-    .line 3
     iput-object p5, p0, Lcom/commsource/beautyplus/f0/cb;->b:Lcom/commsource/studio/component/ConfirmCancelComponent;
 
-    .line 4
     iput-object p6, p0, Lcom/commsource/beautyplus/f0/cb;->c:Lcom/commsource/studio/component/ContrastComponent;
 
-    .line 5
     iput-object p7, p0, Lcom/commsource/beautyplus/f0/cb;->d:Landroid/widget/FrameLayout;
 
-    .line 6
     iput-object p8, p0, Lcom/commsource/beautyplus/f0/cb;->f:Lcom/commsource/studio/MagnifyComponent;
 
-    .line 7
     iput-object p9, p0, Lcom/commsource/beautyplus/f0/cb;->g:Lcom/commsource/studio/component/PaintEraserComponent;
 
-    .line 8
     iput-object p10, p0, Lcom/commsource/beautyplus/f0/cb;->p:Lcom/commsource/studio/component/PreviewComponent;
 
-    .line 9
     iput-object p11, p0, Lcom/commsource/beautyplus/f0/cb;->J:Lcom/meitu/ratiorelativelayout/RatioRelativeLayout;
 
-    .line 10
     iput-object p12, p0, Lcom/commsource/beautyplus/f0/cb;->K:Lcom/meitu/ratiorelativelayout/RatioRelativeLayout;
 
-    .line 11
     iput-object p13, p0, Lcom/commsource/beautyplus/f0/cb;->L:Lcom/commsource/studio/component/UndoRedoComponent;
 
-    .line 12
     iput-object p14, p0, Lcom/commsource/beautyplus/f0/cb;->M:Lcom/commsource/widget/part/XSeekBubbleView;
 
-    .line 13
     iput-object p15, p0, Lcom/commsource/beautyplus/f0/cb;->N:Lcom/commsource/widget/XSeekBar;
 
     return-void
@@ -123,7 +110,6 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-static {}, Landroidx/databinding/DataBindingUtil;->getDefaultComponent()Landroidx/databinding/DataBindingComponent;
 
     move-result-object v0
@@ -150,7 +136,6 @@
 
     sget v0, Lcom/res/provider/ResLAYOUT;->fragment_studio_auto_manual:I
 
-    .line 1
     invoke-static {p1, p0, v0}, Landroidx/databinding/ViewDataBinding;->bind(Ljava/lang/Object;Landroid/view/View;I)Landroidx/databinding/ViewDataBinding;
 
     move-result-object p0
@@ -169,7 +154,6 @@
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
-    .line 1
     invoke-static {}, Landroidx/databinding/DataBindingUtil;->getDefaultComponent()Landroidx/databinding/DataBindingComponent;
 
     move-result-object v0
@@ -194,7 +178,6 @@
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
-    .line 1
     invoke-static {}, Landroidx/databinding/DataBindingUtil;->getDefaultComponent()Landroidx/databinding/DataBindingComponent;
 
     move-result-object v0
@@ -228,7 +211,6 @@
 
     sget v0, Lcom/res/provider/ResLAYOUT;->fragment_studio_auto_manual:I
 
-    .line 1
     invoke-static {p0, v0, p1, p2, p3}, Landroidx/databinding/ViewDataBinding;->inflateInternal(Landroid/view/LayoutInflater;ILandroid/view/ViewGroup;ZLjava/lang/Object;)Landroidx/databinding/ViewDataBinding;
 
     move-result-object p0
@@ -260,7 +242,6 @@
 
     const/4 v2, 0x0
 
-    .line 1
     invoke-static {p0, v0, v1, v2, p1}, Landroidx/databinding/ViewDataBinding;->inflateInternal(Landroid/view/LayoutInflater;ILandroid/view/ViewGroup;ZLjava/lang/Object;)Landroidx/databinding/ViewDataBinding;
 
     move-result-object p0
@@ -277,7 +258,6 @@
     .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/beautyplus/f0/cb;->O:Landroidx/fragment/app/Fragment;
 
     return-object v0

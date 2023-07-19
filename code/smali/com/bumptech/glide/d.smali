@@ -74,10 +74,8 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     new-instance v0, Landroidx/collection/ArrayMap;
 
     invoke-direct {v0}, Landroidx/collection/ArrayMap;-><init>()V
@@ -86,10 +84,8 @@
 
     const/4 v0, 0x4
 
-    .line 3
     iput v0, p0, Lcom/bumptech/glide/d;->k:I
 
-    .line 4
     new-instance v0, Lcom/bumptech/glide/d$a;
 
     invoke-direct {v0, p0}, Lcom/bumptech/glide/d$a;-><init>(Lcom/bumptech/glide/d;)V
@@ -98,12 +94,10 @@
 
     const/16 v0, 0x2bc
 
-    .line 5
     iput v0, p0, Lcom/bumptech/glide/d;->s:I
 
     const/16 v0, 0x80
 
-    .line 6
     iput v0, p0, Lcom/bumptech/glide/d;->t:I
 
     return-void
@@ -130,19 +124,16 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/bumptech/glide/d;->p:Ljava/util/List;
 
     if-nez v0, :cond_0
 
-    .line 2
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
 
     iput-object v0, p0, Lcom/bumptech/glide/d;->p:Ljava/util/List;
 
-    .line 3
     :cond_0
     iget-object v0, p0, Lcom/bumptech/glide/d;->p:Ljava/util/List;
 
@@ -164,51 +155,43 @@
 
     move-object/from16 v2, p1
 
-    .line 1
     iget-object v1, v0, Lcom/bumptech/glide/d;->f:Lcom/bumptech/glide/load/engine/y/a;
 
     if-nez v1, :cond_0
 
-    .line 2
     invoke-static {}, Lcom/bumptech/glide/load/engine/y/a;->g()Lcom/bumptech/glide/load/engine/y/a;
 
     move-result-object v1
 
     iput-object v1, v0, Lcom/bumptech/glide/d;->f:Lcom/bumptech/glide/load/engine/y/a;
 
-    .line 3
     :cond_0
     iget-object v1, v0, Lcom/bumptech/glide/d;->g:Lcom/bumptech/glide/load/engine/y/a;
 
     if-nez v1, :cond_1
 
-    .line 4
     invoke-static {}, Lcom/bumptech/glide/load/engine/y/a;->d()Lcom/bumptech/glide/load/engine/y/a;
 
     move-result-object v1
 
     iput-object v1, v0, Lcom/bumptech/glide/d;->g:Lcom/bumptech/glide/load/engine/y/a;
 
-    .line 5
     :cond_1
     iget-object v1, v0, Lcom/bumptech/glide/d;->n:Lcom/bumptech/glide/load/engine/y/a;
 
     if-nez v1, :cond_2
 
-    .line 6
     invoke-static {}, Lcom/bumptech/glide/load/engine/y/a;->b()Lcom/bumptech/glide/load/engine/y/a;
 
     move-result-object v1
 
     iput-object v1, v0, Lcom/bumptech/glide/d;->n:Lcom/bumptech/glide/load/engine/y/a;
 
-    .line 7
     :cond_2
     iget-object v1, v0, Lcom/bumptech/glide/d;->i:Lcom/bumptech/glide/load/engine/x/l;
 
     if-nez v1, :cond_3
 
-    .line 8
     new-instance v1, Lcom/bumptech/glide/load/engine/x/l$a;
 
     invoke-direct {v1, v2}, Lcom/bumptech/glide/load/engine/x/l$a;-><init>(Landroid/content/Context;)V
@@ -219,26 +202,22 @@
 
     iput-object v1, v0, Lcom/bumptech/glide/d;->i:Lcom/bumptech/glide/load/engine/x/l;
 
-    .line 9
     :cond_3
     iget-object v1, v0, Lcom/bumptech/glide/d;->j:Lcom/bumptech/glide/manager/d;
 
     if-nez v1, :cond_4
 
-    .line 10
     new-instance v1, Lcom/bumptech/glide/manager/f;
 
     invoke-direct {v1}, Lcom/bumptech/glide/manager/f;-><init>()V
 
     iput-object v1, v0, Lcom/bumptech/glide/d;->j:Lcom/bumptech/glide/manager/d;
 
-    .line 11
     :cond_4
     iget-object v1, v0, Lcom/bumptech/glide/d;->c:Lcom/bumptech/glide/load/engine/bitmap_recycle/e;
 
     if-nez v1, :cond_6
 
-    .line 12
     iget-object v1, v0, Lcom/bumptech/glide/d;->i:Lcom/bumptech/glide/load/engine/x/l;
 
     invoke-virtual {v1}, Lcom/bumptech/glide/load/engine/x/l;->b()I
@@ -247,7 +226,6 @@
 
     if-lez v1, :cond_5
 
-    .line 13
     new-instance v3, Lcom/bumptech/glide/load/engine/bitmap_recycle/k;
 
     int-to-long v4, v1
@@ -258,7 +236,6 @@
 
     goto :goto_0
 
-    .line 14
     :cond_5
     new-instance v1, Lcom/bumptech/glide/load/engine/bitmap_recycle/f;
 
@@ -266,14 +243,12 @@
 
     iput-object v1, v0, Lcom/bumptech/glide/d;->c:Lcom/bumptech/glide/load/engine/bitmap_recycle/e;
 
-    .line 15
     :cond_6
     :goto_0
     iget-object v1, v0, Lcom/bumptech/glide/d;->d:Lcom/bumptech/glide/load/engine/bitmap_recycle/b;
 
     if-nez v1, :cond_7
 
-    .line 16
     new-instance v1, Lcom/bumptech/glide/load/engine/bitmap_recycle/j;
 
     iget-object v3, v0, Lcom/bumptech/glide/d;->i:Lcom/bumptech/glide/load/engine/x/l;
@@ -286,13 +261,11 @@
 
     iput-object v1, v0, Lcom/bumptech/glide/d;->d:Lcom/bumptech/glide/load/engine/bitmap_recycle/b;
 
-    .line 17
     :cond_7
     iget-object v1, v0, Lcom/bumptech/glide/d;->e:Lcom/bumptech/glide/load/engine/x/j;
 
     if-nez v1, :cond_8
 
-    .line 18
     new-instance v1, Lcom/bumptech/glide/load/engine/x/i;
 
     iget-object v3, v0, Lcom/bumptech/glide/d;->i:Lcom/bumptech/glide/load/engine/x/l;
@@ -307,26 +280,22 @@
 
     iput-object v1, v0, Lcom/bumptech/glide/d;->e:Lcom/bumptech/glide/load/engine/x/j;
 
-    .line 19
     :cond_8
     iget-object v1, v0, Lcom/bumptech/glide/d;->h:Lcom/bumptech/glide/load/engine/x/a$a;
 
     if-nez v1, :cond_9
 
-    .line 20
     new-instance v1, Lcom/bumptech/glide/load/engine/x/h;
 
     invoke-direct {v1, v2}, Lcom/bumptech/glide/load/engine/x/h;-><init>(Landroid/content/Context;)V
 
     iput-object v1, v0, Lcom/bumptech/glide/d;->h:Lcom/bumptech/glide/load/engine/x/a$a;
 
-    .line 21
     :cond_9
     iget-object v1, v0, Lcom/bumptech/glide/d;->b:Lcom/bumptech/glide/load/engine/i;
 
     if-nez v1, :cond_a
 
-    .line 22
     new-instance v1, Lcom/bumptech/glide/load/engine/i;
 
     iget-object v4, v0, Lcom/bumptech/glide/d;->e:Lcom/bumptech/glide/load/engine/x/j;
@@ -337,7 +306,6 @@
 
     iget-object v7, v0, Lcom/bumptech/glide/d;->f:Lcom/bumptech/glide/load/engine/y/a;
 
-    .line 23
     invoke-static {}, Lcom/bumptech/glide/load/engine/y/a;->j()Lcom/bumptech/glide/load/engine/y/a;
 
     move-result-object v8
@@ -352,13 +320,11 @@
 
     iput-object v1, v0, Lcom/bumptech/glide/d;->b:Lcom/bumptech/glide/load/engine/i;
 
-    .line 24
     :cond_a
     iget-object v1, v0, Lcom/bumptech/glide/d;->p:Ljava/util/List;
 
     if-nez v1, :cond_b
 
-    .line 25
     invoke-static {}, Ljava/util/Collections;->emptyList()Ljava/util/List;
 
     move-result-object v1
@@ -367,7 +333,6 @@
 
     goto :goto_1
 
-    .line 26
     :cond_b
     invoke-static {v1}, Ljava/util/Collections;->unmodifiableList(Ljava/util/List;)Ljava/util/List;
 
@@ -375,7 +340,6 @@
 
     iput-object v1, v0, Lcom/bumptech/glide/d;->p:Ljava/util/List;
 
-    .line 27
     :goto_1
     new-instance v7, Lcom/bumptech/glide/manager/k;
 
@@ -383,7 +347,6 @@
 
     invoke-direct {v7, v1}, Lcom/bumptech/glide/manager/k;-><init>(Lcom/bumptech/glide/manager/k$b;)V
 
-    .line 28
     new-instance v17, Lcom/bumptech/glide/c;
 
     iget-object v3, v0, Lcom/bumptech/glide/d;->b:Lcom/bumptech/glide/load/engine/i;
@@ -432,7 +395,6 @@
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/bumptech/glide/d;->n:Lcom/bumptech/glide/load/engine/y/a;
 
     return-object p0
@@ -447,7 +409,6 @@
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/bumptech/glide/d;->d:Lcom/bumptech/glide/load/engine/bitmap_recycle/b;
 
     return-object p0
@@ -462,7 +423,6 @@
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/bumptech/glide/d;->c:Lcom/bumptech/glide/load/engine/bitmap_recycle/e;
 
     return-object p0
@@ -477,7 +437,6 @@
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/bumptech/glide/d;->j:Lcom/bumptech/glide/manager/d;
 
     return-object p0
@@ -492,7 +451,6 @@
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
-    .line 1
     invoke-static {p1}, Lcom/bumptech/glide/s/k;->d(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -513,7 +471,6 @@
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/bumptech/glide/d$b;
 
     invoke-direct {v0, p0, p1}, Lcom/bumptech/glide/d$b;-><init>(Lcom/bumptech/glide/d;Lcom/bumptech/glide/request/g;)V
@@ -551,7 +508,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/bumptech/glide/d;->a:Ljava/util/Map;
 
     invoke-interface {v0, p1, p2}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
@@ -568,7 +524,6 @@
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/bumptech/glide/d;->h:Lcom/bumptech/glide/load/engine/x/a$a;
 
     return-object p0
@@ -583,7 +538,6 @@
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/bumptech/glide/d;->g:Lcom/bumptech/glide/load/engine/y/a;
 
     return-object p0
@@ -592,7 +546,6 @@
 .method l(Lcom/bumptech/glide/load/engine/i;)Lcom/bumptech/glide/d;
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/bumptech/glide/d;->b:Lcom/bumptech/glide/load/engine/i;
 
     return-object p0
@@ -601,7 +554,6 @@
 .method public m(Z)Lcom/bumptech/glide/d;
     .locals 1
 
-    .line 1
     invoke-static {}, Landroidx/core/os/BuildCompat;->isAtLeastQ()Z
 
     move-result v0
@@ -610,7 +562,6 @@
 
     return-object p0
 
-    .line 2
     :cond_0
     iput-boolean p1, p0, Lcom/bumptech/glide/d;->r:Z
 
@@ -622,7 +573,6 @@
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
-    .line 1
     iput-boolean p1, p0, Lcom/bumptech/glide/d;->o:Z
 
     return-object p0
@@ -641,12 +591,10 @@
 
     if-gt p1, v0, :cond_0
 
-    .line 1
     iput p1, p0, Lcom/bumptech/glide/d;->k:I
 
     return-object p0
 
-    .line 2
     :cond_0
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -660,7 +608,6 @@
 .method public p(Z)Lcom/bumptech/glide/d;
     .locals 0
 
-    .line 1
     iput-boolean p1, p0, Lcom/bumptech/glide/d;->q:Z
 
     return-object p0
@@ -675,7 +622,6 @@
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/bumptech/glide/d;->e:Lcom/bumptech/glide/load/engine/x/j;
 
     return-object p0
@@ -690,7 +636,6 @@
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
-    .line 1
     invoke-virtual {p1}, Lcom/bumptech/glide/load/engine/x/l$a;->a()Lcom/bumptech/glide/load/engine/x/l;
 
     move-result-object p1
@@ -711,7 +656,6 @@
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/bumptech/glide/d;->i:Lcom/bumptech/glide/load/engine/x/l;
 
     return-object p0
@@ -724,7 +668,6 @@
         .end annotation
     .end param
 
-    .line 1
     iput-object p1, p0, Lcom/bumptech/glide/d;->m:Lcom/bumptech/glide/manager/k$b;
 
     return-void
@@ -739,7 +682,6 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    .line 1
     invoke-virtual {p0, p1}, Lcom/bumptech/glide/d;->v(Lcom/bumptech/glide/load/engine/y/a;)Lcom/bumptech/glide/d;
 
     move-result-object p1
@@ -756,7 +698,6 @@
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/bumptech/glide/d;->f:Lcom/bumptech/glide/load/engine/y/a;
 
     return-object p0

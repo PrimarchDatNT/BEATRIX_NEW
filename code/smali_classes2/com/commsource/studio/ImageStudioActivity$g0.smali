@@ -54,7 +54,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/ImageStudioActivity$g0;->a:Lcom/commsource/studio/ImageStudioActivity;
 
     const-string v2, "it"
@@ -75,7 +74,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Lcom/commsource/studio/sub/SubTabEnum;
 
     invoke-virtual {p0, p1}, Lcom/commsource/studio/ImageStudioActivity$g0;->a(Lcom/commsource/studio/sub/SubTabEnum;)V

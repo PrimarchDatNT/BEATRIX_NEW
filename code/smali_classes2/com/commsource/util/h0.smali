@@ -17,7 +17,6 @@
 
     const/4 v1, 0x0
 
-    .line 1
     sput-object v1, Lcom/commsource/util/h0;->a:Ljava/text/SimpleDateFormat;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -28,7 +27,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -43,7 +41,6 @@
 
     const-wide/16 v1, 0x3e8
 
-    .line 1
     div-long v1, p0, v1
 
     const-wide/16 v3, 0x3c
@@ -54,7 +51,6 @@
 
     long-to-int v2, v1
 
-    .line 2
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -101,14 +97,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/text/SimpleDateFormat;
 
     const-string v2, "yyyy\u5e74MM\u6708dd\u65e5 HH:mm:ss"
 
     invoke-direct {v1, v2}, Ljava/text/SimpleDateFormat;-><init>(Ljava/lang/String;)V
 
-    .line 2
     invoke-static {p0, p1}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
 
     move-result-object p0
@@ -129,14 +123,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/text/SimpleDateFormat;
 
     const-string v2, "yyyy/MM/dd"
 
     invoke-direct {v1, v2}, Ljava/text/SimpleDateFormat;-><init>(Ljava/lang/String;)V
 
-    .line 2
     invoke-static {p0, p1}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
 
     move-result-object p0
@@ -157,12 +149,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/util/h0;->a:Ljava/text/SimpleDateFormat;
 
     if-nez v1, :cond_0
 
-    .line 2
     new-instance v1, Ljava/text/SimpleDateFormat;
 
     new-instance v2, Ljava/util/Locale;
@@ -177,7 +167,6 @@
 
     sput-object v1, Lcom/commsource/util/h0;->a:Ljava/text/SimpleDateFormat;
 
-    .line 3
     :cond_0
     sget-object v1, Lcom/commsource/util/h0;->a:Ljava/text/SimpleDateFormat;
 
@@ -201,14 +190,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/text/SimpleDateFormat;
 
     const-string v2, "yyyy\u5e74MM\u6708dd\u65e5"
 
     invoke-direct {v1, v2}, Ljava/text/SimpleDateFormat;-><init>(Ljava/lang/String;)V
 
-    .line 2
     new-instance v2, Ljava/util/Date;
 
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
@@ -217,7 +204,6 @@
 
     invoke-direct {v2, v3, v4}, Ljava/util/Date;-><init>(J)V
 
-    .line 3
     invoke-virtual {v1, v2}, Ljava/text/SimpleDateFormat;->format(Ljava/util/Date;)Ljava/lang/String;
 
     move-result-object v1

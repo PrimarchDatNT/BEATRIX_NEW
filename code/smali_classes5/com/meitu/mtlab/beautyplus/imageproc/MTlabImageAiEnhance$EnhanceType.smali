@@ -42,7 +42,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/meitu/mtlab/beautyplus/imageproc/MTlabImageAiEnhance$EnhanceType;
 
     const-string v2, "TYPE_GENERATE"
@@ -55,7 +54,6 @@
 
     sput-object v1, Lcom/meitu/mtlab/beautyplus/imageproc/MTlabImageAiEnhance$EnhanceType;->TYPE_GENERATE:Lcom/meitu/mtlab/beautyplus/imageproc/MTlabImageAiEnhance$EnhanceType;
 
-    .line 2
     new-instance v2, Lcom/meitu/mtlab/beautyplus/imageproc/MTlabImageAiEnhance$EnhanceType;
 
     const-string v4, "TYPE_HDR"
@@ -76,7 +74,6 @@
 
     aput-object v2, v4, v5
 
-    .line 3
     sput-object v4, Lcom/meitu/mtlab/beautyplus/imageproc/MTlabImageAiEnhance$EnhanceType;->$VALUES:[Lcom/meitu/mtlab/beautyplus/imageproc/MTlabImageAiEnhance$EnhanceType;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -94,10 +91,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 2
     iput-object p3, p0, Lcom/meitu/mtlab/beautyplus/imageproc/MTlabImageAiEnhance$EnhanceType;->name:Ljava/lang/String;
 
     return-void
@@ -110,7 +105,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     const-class v1, Lcom/meitu/mtlab/beautyplus/imageproc/MTlabImageAiEnhance$EnhanceType;
 
     invoke-static {v1, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -131,7 +125,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/meitu/mtlab/beautyplus/imageproc/MTlabImageAiEnhance$EnhanceType;->$VALUES:[Lcom/meitu/mtlab/beautyplus/imageproc/MTlabImageAiEnhance$EnhanceType;
 
     invoke-virtual {v1}, [Lcom/meitu/mtlab/beautyplus/imageproc/MTlabImageAiEnhance$EnhanceType;->clone()Ljava/lang/Object;
@@ -154,7 +147,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/mtlab/beautyplus/imageproc/MTlabImageAiEnhance$EnhanceType;->name:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

@@ -53,22 +53,16 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lorg/apache/thrift/transport/TSaslServerTransport$TSaslServerDefinition;->mechanism:Ljava/lang/String;
 
-    .line 3
     iput-object p2, p0, Lorg/apache/thrift/transport/TSaslServerTransport$TSaslServerDefinition;->protocol:Ljava/lang/String;
 
-    .line 4
     iput-object p3, p0, Lorg/apache/thrift/transport/TSaslServerTransport$TSaslServerDefinition;->serverName:Ljava/lang/String;
 
-    .line 5
     iput-object p4, p0, Lorg/apache/thrift/transport/TSaslServerTransport$TSaslServerDefinition;->props:Ljava/util/Map;
 
-    .line 6
     iput-object p5, p0, Lorg/apache/thrift/transport/TSaslServerTransport$TSaslServerDefinition;->cbh:Ljavax/security/auth/callback/CallbackHandler;
 
     return-void

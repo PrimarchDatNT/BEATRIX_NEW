@@ -29,7 +29,6 @@
 .method constructor <init>(Lcom/airbnb/lottie/parser/moshi/LinkedHashTreeMap$e;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/airbnb/lottie/parser/moshi/LinkedHashTreeMap$e$a;->f:Lcom/airbnb/lottie/parser/moshi/LinkedHashTreeMap$e;
 
     iget-object p1, p1, Lcom/airbnb/lottie/parser/moshi/LinkedHashTreeMap$e;->a:Lcom/airbnb/lottie/parser/moshi/LinkedHashTreeMap;
@@ -49,7 +48,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/airbnb/lottie/parser/moshi/LinkedHashTreeMap$f;->a()Lcom/airbnb/lottie/parser/moshi/LinkedHashTreeMap$g;
 
     move-result-object v0

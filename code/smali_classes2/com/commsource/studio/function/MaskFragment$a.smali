@@ -36,12 +36,10 @@
 .method public constructor <init>()V
     .locals 4
 
-    .line 1
     invoke-direct {p0}, Landroidx/recyclerview/widget/RecyclerView$ItemDecoration;-><init>()V
 
     const/high16 v0, 0x41400000    # 12.0f
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/p/f/i;->d(F)I
 
     move-result v0
@@ -50,21 +48,18 @@
 
     const/high16 v0, 0x41900000    # 18.0f
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/p/f/i;->d(F)I
 
     move-result v0
 
     iput v0, p0, Lcom/commsource/studio/function/MaskFragment$a;->b:I
 
-    .line 4
     new-instance v0, Landroid/graphics/RectF;
 
     invoke-direct {v0}, Landroid/graphics/RectF;-><init>()V
 
     const/high16 v1, 0x40000000    # 2.0f
 
-    .line 5
     invoke-static {v1}, Lcom/meitu/library/p/f/i;->b(F)F
 
     move-result v1
@@ -79,10 +74,8 @@
 
     invoke-virtual {v0, v3, v3, v1, v2}, Landroid/graphics/RectF;->set(FFFF)V
 
-    .line 6
     iput-object v0, p0, Lcom/commsource/studio/function/MaskFragment$a;->c:Landroid/graphics/RectF;
 
-    .line 7
     new-instance v0, Landroid/graphics/Paint;
 
     const/4 v1, 0x1
@@ -91,10 +84,8 @@
 
     const/high16 v1, 0x33000000
 
-    .line 8
     invoke-virtual {v0, v1}, Landroid/graphics/Paint;->setColor(I)V
 
-    .line 9
     iput-object v0, p0, Lcom/commsource/studio/function/MaskFragment$a;->d:Landroid/graphics/Paint;
 
     return-void
@@ -111,7 +102,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/function/MaskFragment$a;->d:Landroid/graphics/Paint;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -128,7 +118,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/function/MaskFragment$a;->c:Landroid/graphics/RectF;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -175,7 +164,6 @@
 
     invoke-static {p4, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-virtual {p3, p2}, Landroidx/recyclerview/widget/RecyclerView;->getChildAdapterPosition(Landroid/view/View;)I
 
     move-result p2
@@ -184,7 +172,6 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     iget p2, p0, Lcom/commsource/studio/function/MaskFragment$a;->a:I
 
@@ -194,7 +181,6 @@
 
     invoke-virtual {p1, p2, p4, p3, p4}, Landroid/graphics/Rect;->set(IIII)V
 
-    .line 3
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -232,26 +218,22 @@
 
     invoke-static {p3, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-super {p0, p1, p2, p3}, Landroidx/recyclerview/widget/RecyclerView$ItemDecoration;->onDraw(Landroid/graphics/Canvas;Landroidx/recyclerview/widget/RecyclerView;Landroidx/recyclerview/widget/RecyclerView$State;)V
 
     const/4 p3, 0x0
 
-    .line 2
     invoke-virtual {p2, p3}, Landroid/view/ViewGroup;->getChildAt(I)Landroid/view/View;
 
     move-result-object p3
 
     if-eqz p3, :cond_0
 
-    .line 3
     invoke-virtual {p2, p3}, Landroidx/recyclerview/widget/RecyclerView;->getChildAdapterPosition(Landroid/view/View;)I
 
     move-result p2
 
     if-nez p2, :cond_0
 
-    .line 4
     invoke-virtual {p3}, Landroid/view/View;->getRight()I
 
     move-result p2
@@ -264,7 +246,6 @@
 
     add-int/2addr p2, v1
 
-    .line 5
     invoke-virtual {p3}, Landroid/view/View;->getBottom()I
 
     move-result v1
@@ -291,7 +272,6 @@
 
     sub-int/2addr v1, p3
 
-    .line 6
     iget-object p3, p0, Lcom/commsource/studio/function/MaskFragment$a;->c:Landroid/graphics/RectF;
 
     int-to-float p2, p2
@@ -328,7 +308,6 @@
 
     invoke-virtual {p3, v3, v5, p2, v1}, Landroid/graphics/RectF;->set(FFFF)V
 
-    .line 7
     iget-object p2, p0, Lcom/commsource/studio/function/MaskFragment$a;->c:Landroid/graphics/RectF;
 
     const/high16 p3, 0x40000000    # 2.0f
@@ -345,7 +324,6 @@
 
     invoke-virtual {p1, p2, v1, p3, v2}, Landroid/graphics/Canvas;->drawRoundRect(Landroid/graphics/RectF;FFLandroid/graphics/Paint;)V
 
-    .line 8
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

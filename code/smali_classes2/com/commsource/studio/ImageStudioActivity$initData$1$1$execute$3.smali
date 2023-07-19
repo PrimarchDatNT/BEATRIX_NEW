@@ -53,7 +53,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/studio/ImageStudioActivity$initData$1$1$execute$3;->invoke()V
 
     sget-object v1, Lcotlin/t1;->a:Lcotlin/t1;
@@ -70,7 +69,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/ImageStudioActivity$initData$1$1$execute$3;->this$0:Lcom/commsource/studio/ImageStudioActivity$initData$1$1;
 
     iget-object v1, v1, Lcom/commsource/studio/ImageStudioActivity$initData$1$1;->g:Lcom/commsource/studio/ImageStudioActivity$initData$1;
@@ -79,7 +77,6 @@
 
     invoke-virtual {v1}, Lcom/commsource/beautyplus/BaseActivity;->r0()V
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/studio/ImageStudioActivity$initData$1$1$execute$3;->this$0:Lcom/commsource/studio/ImageStudioActivity$initData$1$1;
 
     iget-object v1, v1, Lcom/commsource/studio/ImageStudioActivity$initData$1$1;->g:Lcom/commsource/studio/ImageStudioActivity$initData$1;
@@ -96,7 +93,6 @@
 
     if-nez v1, :cond_0
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/studio/ImageStudioActivity$initData$1$1$execute$3;->this$0:Lcom/commsource/studio/ImageStudioActivity$initData$1$1;
 
     iget-object v1, v1, Lcom/commsource/studio/ImageStudioActivity$initData$1$1;->g:Lcom/commsource/studio/ImageStudioActivity$initData$1;
@@ -109,7 +105,6 @@
 
     invoke-static {v1, v2}, Lcom/commsource/util/g2;->i(Landroid/content/Context;Ljava/lang/Runnable;)V
 
-    .line 5
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

@@ -46,7 +46,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/widget/CameraAlbumPreviewView$d$a;->b:Landroid/graphics/Bitmap;
 
     if-eqz v1, :cond_1
@@ -57,7 +56,6 @@
 
     if-nez v1, :cond_1
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/camera/xcamera/widget/CameraAlbumPreviewView$d$a;->a:Lcom/commsource/camera/xcamera/widget/CameraAlbumPreviewView$d;
 
     iget-object v1, v1, Lcom/commsource/camera/xcamera/widget/CameraAlbumPreviewView$d;->a:Lcom/commsource/camera/xcamera/widget/CameraAlbumPreviewView;
@@ -68,7 +66,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/camera/xcamera/widget/CameraAlbumPreviewView;->setPreDrawable(Lcom/commsource/camera/f1/o;)V
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/camera/xcamera/widget/CameraAlbumPreviewView$d$a;->a:Lcom/commsource/camera/xcamera/widget/CameraAlbumPreviewView$d;
 
     iget-object v1, v1, Lcom/commsource/camera/xcamera/widget/CameraAlbumPreviewView$d;->a:Lcom/commsource/camera/xcamera/widget/CameraAlbumPreviewView;
@@ -83,30 +80,25 @@
 
     const/high16 v3, 0x3f800000    # 1.0f
 
-    .line 4
     invoke-virtual {v1, v3}, Lcom/commsource/camera/f1/o;->v(F)Lcom/commsource/camera/f1/o;
 
     move-result-object v1
 
     if-eqz v1, :cond_0
 
-    .line 5
     invoke-virtual {v1, v2}, Lcom/commsource/camera/f1/o;->t(F)Lcom/commsource/camera/f1/o;
 
     move-result-object v1
 
     if-eqz v1, :cond_0
 
-    .line 6
     invoke-virtual {v1}, Lcom/commsource/camera/f1/o;->l()Lcom/commsource/camera/f1/o;
 
-    .line 7
     :cond_0
     iget-object v1, p0, Lcom/commsource/camera/xcamera/widget/CameraAlbumPreviewView$d$a;->a:Lcom/commsource/camera/xcamera/widget/CameraAlbumPreviewView$d;
 
     iget-object v1, v1, Lcom/commsource/camera/xcamera/widget/CameraAlbumPreviewView$d;->a:Lcom/commsource/camera/xcamera/widget/CameraAlbumPreviewView;
 
-    .line 8
     new-instance v3, Lcom/commsource/camera/f1/o;
 
     new-instance v4, Landroid/graphics/drawable/BitmapDrawable;
@@ -117,7 +109,6 @@
 
     invoke-direct {v3, v4}, Lcom/commsource/camera/f1/o;-><init>(Landroid/graphics/drawable/Drawable;)V
 
-    .line 9
     sget-object v4, Lcom/commsource/camera/xcamera/widget/CameraAlbumPreviewView;->W:Lcom/commsource/camera/xcamera/widget/CameraAlbumPreviewView$a;
 
     invoke-virtual {v4}, Lcom/commsource/camera/xcamera/widget/CameraAlbumPreviewView$a;->b()F
@@ -128,7 +119,6 @@
 
     move-result-object v3
 
-    .line 10
     invoke-virtual {v4}, Lcom/commsource/camera/xcamera/widget/CameraAlbumPreviewView$a;->b()F
 
     move-result v5
@@ -137,12 +127,10 @@
 
     move-result-object v3
 
-    .line 11
     invoke-virtual {v3, v2}, Lcom/commsource/camera/f1/o;->v(F)Lcom/commsource/camera/f1/o;
 
     move-result-object v2
 
-    .line 12
     invoke-virtual {v4}, Lcom/commsource/camera/xcamera/widget/CameraAlbumPreviewView$a;->b()F
 
     move-result v3
@@ -155,14 +143,12 @@
 
     move-result-object v2
 
-    .line 13
     invoke-virtual {v2}, Lcom/commsource/camera/f1/o;->l()Lcom/commsource/camera/f1/o;
 
     move-result-object v2
 
     invoke-virtual {v1, v2}, Lcom/commsource/camera/xcamera/widget/CameraAlbumPreviewView;->setNextDrawable(Lcom/commsource/camera/f1/o;)V
 
-    .line 14
     iget-object v1, p0, Lcom/commsource/camera/xcamera/widget/CameraAlbumPreviewView$d$a;->a:Lcom/commsource/camera/xcamera/widget/CameraAlbumPreviewView$d;
 
     iget-object v1, v1, Lcom/commsource/camera/xcamera/widget/CameraAlbumPreviewView$d;->a:Lcom/commsource/camera/xcamera/widget/CameraAlbumPreviewView;
@@ -173,7 +159,6 @@
 
     invoke-virtual {v1}, Lcom/commsource/camera/f1/l;->a()V
 
-    .line 15
     iget-object v1, p0, Lcom/commsource/camera/xcamera/widget/CameraAlbumPreviewView$d$a;->a:Lcom/commsource/camera/xcamera/widget/CameraAlbumPreviewView$d;
 
     iget-object v1, v1, Lcom/commsource/camera/xcamera/widget/CameraAlbumPreviewView$d;->a:Lcom/commsource/camera/xcamera/widget/CameraAlbumPreviewView;
@@ -184,7 +169,6 @@
 
     invoke-virtual {v1}, Lcom/commsource/camera/f1/l;->j()V
 
-    .line 16
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

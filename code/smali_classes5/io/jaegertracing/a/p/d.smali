@@ -7,7 +7,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -20,7 +19,6 @@
 
     if-eqz p0, :cond_0
 
-    .line 1
     invoke-virtual {p0, p1}, Ljava/lang/Object;->equals(Ljava/lang/Object;)Z
 
     move-result p0
@@ -53,7 +51,6 @@
 
     const-string v0, ""
 
-    .line 1
     invoke-virtual {p0, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v0
@@ -62,7 +59,6 @@
 
     const-string v0, "localhost"
 
-    .line 2
     invoke-virtual {p0, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v0
@@ -73,7 +69,6 @@
 
     return p0
 
-    .line 3
     :cond_0
     :try_start_0
     invoke-static {p0}, Ljava/net/InetAddress;->getByName(Ljava/lang/String;)Ljava/net/InetAddress;
@@ -82,7 +77,6 @@
     :try_end_0
     .catch Ljava/net/UnknownHostException; {:try_start_0 .. :try_end_0} :catch_0
 
-    .line 4
     invoke-virtual {p0}, Ljava/net/InetAddress;->getAddress()[B
 
     move-result-object p0
@@ -111,7 +105,6 @@
     :cond_1
     return v2
 
-    .line 5
     :catch_0
     new-instance p0, Lio/jaegertracing/internal/exceptions/NotFourOctetsException;
 
@@ -119,7 +112,6 @@
 
     throw p0
 
-    .line 6
     :cond_2
     new-instance p0, Lio/jaegertracing/internal/exceptions/EmptyIpException;
 
@@ -135,7 +127,6 @@
 
     const-string v1, "-"
 
-    .line 1
     invoke-virtual {p0, v0, v1}, Ljava/lang/String;->replaceAll(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p0
@@ -161,7 +152,6 @@
 
     if-nez v4, :cond_0
 
-    .line 1
     new-instance v2, Ljava/util/Random;
 
     invoke-direct {v2}, Ljava/util/Random;-><init>()V
@@ -170,7 +160,6 @@
 
     move-result-wide v2
 
-    .line 2
     new-instance v4, Ljava/lang/StringBuilder;
 
     invoke-direct {v4}, Ljava/lang/StringBuilder;-><init>()V

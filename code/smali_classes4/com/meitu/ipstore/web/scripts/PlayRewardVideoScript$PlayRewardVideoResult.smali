@@ -29,16 +29,12 @@
 .method public constructor <init>(ILjava/lang/String;[Ljava/lang/String;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput p1, p0, Lcom/meitu/ipstore/web/scripts/PlayRewardVideoScript$PlayRewardVideoResult;->code:I
 
-    .line 3
     iput-object p2, p0, Lcom/meitu/ipstore/web/scripts/PlayRewardVideoScript$PlayRewardVideoResult;->message:Ljava/lang/String;
 
-    .line 4
     iput-object p3, p0, Lcom/meitu/ipstore/web/scripts/PlayRewardVideoScript$PlayRewardVideoResult;->materials:[Ljava/lang/String;
 
     return-void

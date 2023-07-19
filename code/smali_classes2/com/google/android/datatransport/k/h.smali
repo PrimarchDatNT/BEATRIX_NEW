@@ -21,23 +21,18 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const-string v0, "encoding is null"
 
-    .line 2
     invoke-static {p1, v0}, Ljava/util/Objects;->requireNonNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
 
     const-string v0, "bytes is null"
 
-    .line 3
     invoke-static {p2, v0}, Ljava/util/Objects;->requireNonNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
 
-    .line 4
     iput-object p1, p0, Lcom/google/android/datatransport/k/h;->a:Lcom/google/android/datatransport/c;
 
-    .line 5
     iput-object p2, p0, Lcom/google/android/datatransport/k/h;->b:[B
 
     return-void
@@ -48,7 +43,6 @@
 .method public a()[B
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/datatransport/k/h;->b:[B
 
     return-object v0
@@ -57,7 +51,6 @@
 .method public b()Lcom/google/android/datatransport/c;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/datatransport/k/h;->a:Lcom/google/android/datatransport/c;
 
     return-object v0
@@ -72,7 +65,6 @@
 
     return p1
 
-    .line 1
     :cond_0
     instance-of v0, p1, Lcom/google/android/datatransport/k/h;
 
@@ -82,11 +74,9 @@
 
     return v1
 
-    .line 2
     :cond_1
     check-cast p1, Lcom/google/android/datatransport/k/h;
 
-    .line 3
     iget-object v0, p0, Lcom/google/android/datatransport/k/h;->a:Lcom/google/android/datatransport/c;
 
     iget-object v2, p1, Lcom/google/android/datatransport/k/h;->a:Lcom/google/android/datatransport/c;
@@ -99,7 +89,6 @@
 
     return v1
 
-    .line 4
     :cond_2
     iget-object v0, p0, Lcom/google/android/datatransport/k/h;->b:[B
 
@@ -115,7 +104,6 @@
 .method public hashCode()I
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/datatransport/k/h;->a:Lcom/google/android/datatransport/c;
 
     invoke-virtual {v0}, Lcom/google/android/datatransport/c;->hashCode()I
@@ -128,7 +116,6 @@
 
     mul-int v0, v0, v1
 
-    .line 2
     iget-object v1, p0, Lcom/google/android/datatransport/k/h;->b:[B
 
     invoke-static {v1}, Ljava/util/Arrays;->hashCode([B)I
@@ -143,7 +130,6 @@
 .method public toString()Ljava/lang/String;
     .locals 2
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V

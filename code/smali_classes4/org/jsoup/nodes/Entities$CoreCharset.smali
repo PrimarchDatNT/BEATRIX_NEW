@@ -36,7 +36,6 @@
 .method static constructor <clinit>()V
     .locals 7
 
-    .line 1
     new-instance v0, Lorg/jsoup/nodes/Entities$CoreCharset;
 
     const-string v1, "ascii"
@@ -77,7 +76,6 @@
 
     aput-object v3, v5, v6
 
-    .line 2
     sput-object v5, Lorg/jsoup/nodes/Entities$CoreCharset;->$VALUES:[Lorg/jsoup/nodes/Entities$CoreCharset;
 
     return-void
@@ -91,7 +89,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
     return-void
@@ -102,14 +99,12 @@
 
     const-string v0, "US-ASCII"
 
-    .line 1
     invoke-virtual {p0, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
-    .line 2
     sget-object p0, Lorg/jsoup/nodes/Entities$CoreCharset;->ascii:Lorg/jsoup/nodes/Entities$CoreCharset;
 
     return-object p0
@@ -117,19 +112,16 @@
     :cond_0
     const-string v0, "UTF-"
 
-    .line 3
     invoke-virtual {p0, v0}, Ljava/lang/String;->startsWith(Ljava/lang/String;)Z
 
     move-result p0
 
     if-eqz p0, :cond_1
 
-    .line 4
     sget-object p0, Lorg/jsoup/nodes/Entities$CoreCharset;->utf:Lorg/jsoup/nodes/Entities$CoreCharset;
 
     return-object p0
 
-    .line 5
     :cond_1
     sget-object p0, Lorg/jsoup/nodes/Entities$CoreCharset;->fallback:Lorg/jsoup/nodes/Entities$CoreCharset;
 
@@ -139,7 +131,6 @@
 .method public static valueOf(Ljava/lang/String;)Lorg/jsoup/nodes/Entities$CoreCharset;
     .locals 1
 
-    .line 1
     const-class v0, Lorg/jsoup/nodes/Entities$CoreCharset;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -154,7 +145,6 @@
 .method public static values()[Lorg/jsoup/nodes/Entities$CoreCharset;
     .locals 1
 
-    .line 1
     sget-object v0, Lorg/jsoup/nodes/Entities$CoreCharset;->$VALUES:[Lorg/jsoup/nodes/Entities$CoreCharset;
 
     invoke-virtual {v0}, [Lorg/jsoup/nodes/Entities$CoreCharset;->clone()Ljava/lang/Object;

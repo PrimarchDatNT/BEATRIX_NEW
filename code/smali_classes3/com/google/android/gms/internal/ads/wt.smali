@@ -27,7 +27,6 @@
 .method static constructor <clinit>()V
     .locals 2
 
-    .line 1
     new-instance v0, Ljava/util/HashSet;
 
     invoke-direct {v0}, Ljava/util/HashSet;-><init>()V
@@ -38,7 +37,6 @@
 
     sput-object v0, Lcom/google/android/gms/internal/ads/wt;->g:Ljava/util/Set;
 
-    .line 2
     new-instance v0, Ljava/text/DecimalFormat;
 
     const-string v1, "#,###"
@@ -53,10 +51,8 @@
 .method public constructor <init>(Lcom/google/android/gms/internal/ads/yr;)V
     .locals 3
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/google/android/gms/internal/ads/pt;-><init>(Lcom/google/android/gms/internal/ads/yr;)V
 
-    .line 2
     iget-object p1, p0, Lcom/google/android/gms/internal/ads/pt;->a:Landroid/content/Context;
 
     invoke-virtual {p1}, Landroid/content/Context;->getCacheDir()Ljava/io/File;
@@ -67,12 +63,10 @@
 
     const-string p1, "Context.getCacheDir() returned null"
 
-    .line 3
     invoke-static {p1}, Lcom/google/android/gms/internal/ads/aq;->i(Ljava/lang/String;)V
 
     return-void
 
-    .line 4
     :cond_0
     new-instance v0, Ljava/io/File;
 
@@ -82,7 +76,6 @@
 
     iput-object v0, p0, Lcom/google/android/gms/internal/ads/wt;->d:Ljava/io/File;
 
-    .line 5
     invoke-virtual {v0}, Ljava/io/File;->isDirectory()Z
 
     move-result p1
@@ -101,7 +94,6 @@
 
     const-string p1, "Could not create preload cache directory at "
 
-    .line 6
     iget-object v1, p0, Lcom/google/android/gms/internal/ads/wt;->d:Ljava/io/File;
 
     invoke-virtual {v1}, Ljava/io/File;->getAbsolutePath()Ljava/lang/String;
@@ -134,12 +126,10 @@
     :goto_0
     invoke-static {p1}, Lcom/google/android/gms/internal/ads/aq;->i(Ljava/lang/String;)V
 
-    .line 7
     iput-object v0, p0, Lcom/google/android/gms/internal/ads/wt;->d:Ljava/io/File;
 
     return-void
 
-    .line 8
     :cond_2
     iget-object p1, p0, Lcom/google/android/gms/internal/ads/wt;->d:Ljava/io/File;
 
@@ -155,7 +145,6 @@
 
     iget-object p1, p0, Lcom/google/android/gms/internal/ads/wt;->d:Ljava/io/File;
 
-    .line 9
     invoke-virtual {p1, v1, v2}, Ljava/io/File;->setExecutable(ZZ)Z
 
     move-result p1
@@ -171,7 +160,6 @@
     :goto_1
     const-string p1, "Could not set cache file permissions at "
 
-    .line 10
     iget-object v1, p0, Lcom/google/android/gms/internal/ads/wt;->d:Ljava/io/File;
 
     invoke-virtual {v1}, Ljava/io/File;->getAbsolutePath()Ljava/lang/String;
@@ -204,7 +192,6 @@
     :goto_2
     invoke-static {p1}, Lcom/google/android/gms/internal/ads/aq;->i(Ljava/lang/String;)V
 
-    .line 11
     iput-object v0, p0, Lcom/google/android/gms/internal/ads/wt;->d:Ljava/io/File;
 
     return-void
@@ -213,7 +200,6 @@
 .method private final y(Ljava/io/File;)Ljava/io/File;
     .locals 3
 
-    .line 1
     new-instance v0, Ljava/io/File;
 
     iget-object v1, p0, Lcom/google/android/gms/internal/ads/wt;->d:Ljava/io/File;
@@ -244,7 +230,6 @@
 
     const/4 v0, 0x1
 
-    .line 1
     iput-boolean v0, p0, Lcom/google/android/gms/internal/ads/wt;->f:Z
 
     return-void
@@ -257,7 +242,6 @@
 
     move-object/from16 v9, p1
 
-    .line 1
     iget-object v0, v8, Lcom/google/android/gms/internal/ads/wt;->d:Ljava/io/File;
 
     const/4 v10, 0x0
@@ -268,12 +252,10 @@
 
     const-string v0, "noCacheDir"
 
-    .line 2
     invoke-virtual {v8, v9, v10, v0, v10}, Lcom/google/android/gms/internal/ads/pt;->m(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     return v11
 
-    .line 3
     :cond_0
     iget-object v0, v8, Lcom/google/android/gms/internal/ads/wt;->d:Ljava/io/File;
 
@@ -283,7 +265,6 @@
 
     goto :goto_1
 
-    .line 4
     :cond_1
     invoke-virtual {v0}, Ljava/io/File;->listFiles()[Ljava/io/File;
 
@@ -300,7 +281,6 @@
 
     aget-object v4, v0, v2
 
-    .line 5
     invoke-virtual {v4}, Ljava/io/File;->getName()Ljava/lang/String;
 
     move-result-object v4
@@ -320,12 +300,10 @@
 
     goto :goto_0
 
-    .line 6
     :cond_3
     :goto_1
     sget-object v0, Lcom/google/android/gms/internal/ads/w;->o:Lcom/google/android/gms/internal/ads/h;
 
-    .line 7
     invoke-static {}, Lcom/google/android/gms/internal/ads/zm2;->e()Lcom/google/android/gms/internal/ads/s;
 
     move-result-object v1
@@ -334,7 +312,6 @@
 
     move-result-object v0
 
-    .line 8
     check-cast v0, Ljava/lang/Integer;
 
     invoke-virtual {v0}, Ljava/lang/Integer;->intValue()I
@@ -343,7 +320,6 @@
 
     if-le v3, v0, :cond_9
 
-    .line 9
     iget-object v0, v8, Lcom/google/android/gms/internal/ads/wt;->d:Ljava/io/File;
 
     if-nez v0, :cond_5
@@ -356,7 +332,6 @@
     :cond_5
     const-wide v1, 0x7fffffffffffffffL
 
-    .line 10
     invoke-virtual {v0}, Ljava/io/File;->listFiles()[Ljava/io/File;
 
     move-result-object v0
@@ -372,7 +347,6 @@
 
     aget-object v6, v0, v4
 
-    .line 11
     invoke-virtual {v6}, Ljava/io/File;->getName()Ljava/lang/String;
 
     move-result-object v7
@@ -385,7 +359,6 @@
 
     if-nez v7, :cond_6
 
-    .line 12
     invoke-virtual {v6}, Ljava/io/File;->lastModified()J
 
     move-result-wide v12
@@ -406,24 +379,20 @@
     :cond_7
     if-eqz v5, :cond_4
 
-    .line 13
     invoke-virtual {v5}, Ljava/io/File;->delete()Z
 
     move-result v0
 
-    .line 14
     invoke-direct {v8, v5}, Lcom/google/android/gms/internal/ads/wt;->y(Ljava/io/File;)Ljava/io/File;
 
     move-result-object v1
 
-    .line 15
     invoke-virtual {v1}, Ljava/io/File;->isFile()Z
 
     move-result v2
 
     if-eqz v2, :cond_8
 
-    .line 16
     invoke-virtual {v1}, Ljava/io/File;->delete()Z
 
     move-result v1
@@ -436,35 +405,29 @@
 
     const-string v0, "Unable to expire stream cache"
 
-    .line 17
     invoke-static {v0}, Lcom/google/android/gms/internal/ads/aq;->i(Ljava/lang/String;)V
 
     const-string v0, "expireFailed"
 
-    .line 18
     invoke-virtual {v8, v9, v10, v0, v10}, Lcom/google/android/gms/internal/ads/pt;->m(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     return v11
 
-    .line 19
     :cond_9
     invoke-virtual/range {p0 .. p1}, Lcom/google/android/gms/internal/ads/pt;->w(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
 
-    .line 20
     new-instance v12, Ljava/io/File;
 
     iget-object v1, v8, Lcom/google/android/gms/internal/ads/wt;->d:Ljava/io/File;
 
     invoke-direct {v12, v1, v0}, Ljava/io/File;-><init>(Ljava/io/File;Ljava/lang/String;)V
 
-    .line 21
     invoke-direct {v8, v12}, Lcom/google/android/gms/internal/ads/wt;->y(Ljava/io/File;)Ljava/io/File;
 
     move-result-object v0
 
-    .line 22
     invoke-virtual {v12}, Ljava/io/File;->isFile()Z
 
     move-result v1
@@ -479,7 +442,6 @@
 
     if-eqz v1, :cond_b
 
-    .line 23
     invoke-virtual {v12}, Ljava/io/File;->length()J
 
     move-result-wide v0
@@ -488,7 +450,6 @@
 
     const-string v0, "Stream cache hit at "
 
-    .line 24
     invoke-static/range {p1 .. p1}, Ljava/lang/String;->valueOf(Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object v2
@@ -515,7 +476,6 @@
     :goto_4
     invoke-static {v0}, Lcom/google/android/gms/internal/ads/aq;->f(Ljava/lang/String;)V
 
-    .line 25
     invoke-virtual {v12}, Ljava/io/File;->getAbsolutePath()Ljava/lang/String;
 
     move-result-object v0
@@ -524,7 +484,6 @@
 
     return v13
 
-    .line 26
     :cond_b
     iget-object v1, v8, Lcom/google/android/gms/internal/ads/wt;->d:Ljava/io/File;
 
@@ -561,13 +520,11 @@
 
     move-object v14, v2
 
-    .line 27
     :goto_5
     sget-object v1, Lcom/google/android/gms/internal/ads/wt;->g:Ljava/util/Set;
 
     monitor-enter v1
 
-    .line 28
     :try_start_0
     invoke-interface {v1, v14}, Ljava/util/Set;->contains(Ljava/lang/Object;)Z
 
@@ -577,7 +534,6 @@
 
     const-string v0, "Stream cache already in progress at "
 
-    .line 29
     invoke-static/range {p1 .. p1}, Ljava/lang/String;->valueOf(Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object v2
@@ -604,7 +560,6 @@
     :goto_6
     invoke-static {v0}, Lcom/google/android/gms/internal/ads/aq;->i(Ljava/lang/String;)V
 
-    .line 30
     invoke-virtual {v12}, Ljava/io/File;->getAbsolutePath()Ljava/lang/String;
 
     move-result-object v0
@@ -613,29 +568,24 @@
 
     invoke-virtual {v8, v9, v0, v2, v10}, Lcom/google/android/gms/internal/ads/pt;->m(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 31
     monitor-exit v1
 
     return v11
 
-    .line 32
     :cond_e
     invoke-interface {v1, v14}, Ljava/util/Set;->add(Ljava/lang/Object;)Z
 
-    .line 33
     monitor-exit v1
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
     const-string v15, "error"
 
-    .line 34
     :try_start_1
     invoke-static {}, Lcom/google/android/gms/ads/internal/p;->o()Lcom/google/android/gms/internal/ads/oq;
 
     sget-object v1, Lcom/google/android/gms/internal/ads/w;->t:Lcom/google/android/gms/internal/ads/h;
 
-    .line 35
     invoke-static {}, Lcom/google/android/gms/internal/ads/zm2;->e()Lcom/google/android/gms/internal/ads/s;
 
     move-result-object v2
@@ -644,14 +594,12 @@
 
     move-result-object v1
 
-    .line 36
     check-cast v1, Ljava/lang/Integer;
 
     invoke-virtual {v1}, Ljava/lang/Integer;->intValue()I
 
     move-result v1
 
-    .line 37
     new-instance v2, Ljava/net/URL;
 
     invoke-direct {v2, v9}, Ljava/net/URL;-><init>(Ljava/lang/String;)V
@@ -665,45 +613,34 @@
 
     if-gt v3, v4, :cond_25
 
-    .line 38
     invoke-virtual {v2}, Ljava/net/URL;->openConnection()Ljava/net/URLConnection;
 
     move-result-object v5
 
-    .line 39
     invoke-virtual {v5, v1}, Ljava/net/URLConnection;->setConnectTimeout(I)V
 
-    .line 40
     invoke-virtual {v5, v1}, Ljava/net/URLConnection;->setReadTimeout(I)V
 
-    .line 41
     instance-of v6, v5, Ljava/net/HttpURLConnection;
 
     if-eqz v6, :cond_24
 
-    .line 42
     check-cast v5, Ljava/net/HttpURLConnection;
 
-    .line 43
     new-instance v6, Lcom/google/android/gms/internal/ads/tp;
 
     invoke-direct {v6}, Lcom/google/android/gms/internal/ads/tp;-><init>()V
 
-    .line 44
     invoke-virtual {v6, v5, v10}, Lcom/google/android/gms/internal/ads/tp;->i(Ljava/net/HttpURLConnection;[B)V
 
-    .line 45
     invoke-virtual {v5, v11}, Ljava/net/HttpURLConnection;->setInstanceFollowRedirects(Z)V
 
-    .line 46
     invoke-virtual {v5}, Ljava/net/HttpURLConnection;->getResponseCode()I
 
     move-result v7
 
-    .line 47
     invoke-virtual {v6, v5, v7}, Lcom/google/android/gms/internal/ads/tp;->h(Ljava/net/HttpURLConnection;I)V
 
-    .line 48
     div-int/lit8 v7, v7, 0x64
     :try_end_1
     .catch Ljava/io/IOException; {:try_start_1 .. :try_end_1} :catch_1e
@@ -716,19 +653,16 @@
     :try_start_2
     const-string v4, "Location"
 
-    .line 49
     invoke-virtual {v5, v4}, Ljava/net/HttpURLConnection;->getHeaderField(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v4
 
     if-eqz v4, :cond_13
 
-    .line 50
     new-instance v6, Ljava/net/URL;
 
     invoke-direct {v6, v2, v4}, Ljava/net/URL;-><init>(Ljava/net/URL;Ljava/lang/String;)V
 
-    .line 51
     invoke-virtual {v6}, Ljava/net/URL;->getProtocol()Ljava/lang/String;
 
     move-result-object v2
@@ -737,7 +671,6 @@
 
     const-string v7, "http"
 
-    .line 52
     invoke-virtual {v2, v7}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v7
@@ -752,7 +685,6 @@
 
     if-nez v7, :cond_10
 
-    .line 53
     new-instance v0, Ljava/io/IOException;
 
     const-string v1, "Unsupported scheme: "
@@ -788,7 +720,6 @@
     :cond_10
     const-string v2, "Redirecting to "
 
-    .line 54
     invoke-static {v4}, Ljava/lang/String;->valueOf(Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object v4
@@ -815,14 +746,12 @@
     :goto_9
     invoke-static {v2}, Lcom/google/android/gms/internal/ads/aq;->f(Ljava/lang/String;)V
 
-    .line 55
     invoke-virtual {v5}, Ljava/net/HttpURLConnection;->disconnect()V
 
     move-object v2, v6
 
     goto/16 :goto_7
 
-    .line 56
     :cond_12
     new-instance v0, Ljava/io/IOException;
 
@@ -832,7 +761,6 @@
 
     throw v0
 
-    .line 57
     :cond_13
     new-instance v0, Ljava/io/IOException;
 
@@ -861,7 +789,6 @@
 
     goto/16 :goto_25
 
-    .line 58
     :cond_14
     :try_start_3
     instance-of v1, v5, Ljava/net/HttpURLConnection;
@@ -871,7 +798,6 @@
 
     if-eqz v1, :cond_16
 
-    .line 59
     :try_start_4
     invoke-virtual {v5}, Ljava/net/HttpURLConnection;->getResponseCode()I
 
@@ -885,7 +811,6 @@
 
     const-string v0, "HTTP request failed. Code: "
 
-    .line 60
     invoke-static {v1}, Ljava/lang/Integer;->toString(I)Ljava/lang/String;
 
     move-result-object v2
@@ -916,7 +841,6 @@
     .catch Ljava/io/IOException; {:try_start_4 .. :try_end_4} :catch_1
     .catch Ljava/lang/RuntimeException; {:try_start_4 .. :try_end_4} :catch_0
 
-    .line 61
     :goto_c
     :try_start_5
     new-instance v0, Ljava/io/IOException;
@@ -968,7 +892,6 @@
 
     goto :goto_b
 
-    .line 62
     :cond_16
     :try_start_6
     invoke-virtual {v5}, Ljava/net/URLConnection;->getContentLength()I
@@ -983,7 +906,6 @@
     :try_start_7
     const-string v0, "Stream cache aborted, missing content-length header at "
 
-    .line 63
     invoke-static/range {p1 .. p1}, Ljava/lang/String;->valueOf(Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object v1
@@ -1010,7 +932,6 @@
     :goto_d
     invoke-static {v0}, Lcom/google/android/gms/internal/ads/aq;->i(Ljava/lang/String;)V
 
-    .line 64
     invoke-virtual {v12}, Ljava/io/File;->getAbsolutePath()Ljava/lang/String;
 
     move-result-object v0
@@ -1019,7 +940,6 @@
 
     invoke-virtual {v8, v9, v0, v1, v10}, Lcom/google/android/gms/internal/ads/pt;->m(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 65
     sget-object v0, Lcom/google/android/gms/internal/ads/wt;->g:Ljava/util/Set;
 
     invoke-interface {v0, v14}, Ljava/util/Set;->remove(Ljava/lang/Object;)Z
@@ -1029,7 +949,6 @@
 
     return v11
 
-    .line 66
     :cond_18
     :try_start_8
     sget-object v1, Lcom/google/android/gms/internal/ads/wt;->p:Ljava/text/DecimalFormat;
@@ -1040,10 +959,8 @@
 
     move-result-object v1
 
-    .line 67
     sget-object v2, Lcom/google/android/gms/internal/ads/w;->p:Lcom/google/android/gms/internal/ads/h;
 
-    .line 68
     invoke-static {}, Lcom/google/android/gms/internal/ads/zm2;->e()Lcom/google/android/gms/internal/ads/s;
 
     move-result-object v3
@@ -1052,7 +969,6 @@
 
     move-result-object v2
 
-    .line 69
     check-cast v2, Ljava/lang/Integer;
 
     invoke-virtual {v2}, Ljava/lang/Integer;->intValue()I
@@ -1064,7 +980,6 @@
 
     if-le v7, v3, :cond_1a
 
-    .line 70
     :try_start_9
     invoke-static {v1}, Ljava/lang/String;->valueOf(Ljava/lang/Object;)Ljava/lang/String;
 
@@ -1110,7 +1025,6 @@
 
     const-string v0, "File too big for full file cache. Size: "
 
-    .line 71
     invoke-static {v1}, Ljava/lang/String;->valueOf(Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object v1
@@ -1134,7 +1048,6 @@
 
     move-object v0, v1
 
-    .line 72
     :goto_e
     invoke-virtual {v12}, Ljava/io/File;->getAbsolutePath()Ljava/lang/String;
 
@@ -1144,7 +1057,6 @@
 
     invoke-virtual {v8, v9, v1, v2, v0}, Lcom/google/android/gms/internal/ads/pt;->m(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 73
     sget-object v0, Lcom/google/android/gms/internal/ads/wt;->g:Ljava/util/Set;
 
     invoke-interface {v0, v14}, Ljava/util/Set;->remove(Ljava/lang/Object;)Z
@@ -1154,7 +1066,6 @@
 
     return v11
 
-    .line 74
     :cond_1a
     :try_start_a
     invoke-static {v1}, Ljava/lang/String;->valueOf(Ljava/lang/Object;)Ljava/lang/String;
@@ -1199,17 +1110,14 @@
 
     invoke-static {v1}, Lcom/google/android/gms/internal/ads/aq;->f(Ljava/lang/String;)V
 
-    .line 75
     invoke-virtual {v5}, Ljava/net/URLConnection;->getInputStream()Ljava/io/InputStream;
 
     move-result-object v1
 
-    .line 76
     invoke-static {v1}, Ljava/nio/channels/Channels;->newChannel(Ljava/io/InputStream;)Ljava/nio/channels/ReadableByteChannel;
 
     move-result-object v5
 
-    .line 77
     new-instance v4, Ljava/io/FileOutputStream;
 
     invoke-direct {v4, v12}, Ljava/io/FileOutputStream;-><init>(Ljava/io/File;)V
@@ -1217,7 +1125,6 @@
     .catch Ljava/io/IOException; {:try_start_a .. :try_end_a} :catch_1e
     .catch Ljava/lang/RuntimeException; {:try_start_a .. :try_end_a} :catch_1d
 
-    .line 78
     :try_start_b
     invoke-virtual {v4}, Ljava/io/FileOutputStream;->getChannel()Ljava/nio/channels/FileChannel;
 
@@ -1225,25 +1132,20 @@
 
     const/high16 v1, 0x100000
 
-    .line 79
     invoke-static {v1}, Ljava/nio/ByteBuffer;->allocate(I)Ljava/nio/ByteBuffer;
 
     move-result-object v1
 
-    .line 80
     invoke-static {}, Lcom/google/android/gms/ads/internal/p;->j()Lcom/google/android/gms/common/util/g;
 
     move-result-object v16
 
-    .line 81
     invoke-interface/range {v16 .. v16}, Lcom/google/android/gms/common/util/g;->a()J
 
     move-result-wide v17
 
-    .line 82
     sget-object v6, Lcom/google/android/gms/internal/ads/w;->s:Lcom/google/android/gms/internal/ads/h;
 
-    .line 83
     invoke-static {}, Lcom/google/android/gms/internal/ads/zm2;->e()Lcom/google/android/gms/internal/ads/s;
 
     move-result-object v10
@@ -1252,7 +1154,6 @@
 
     move-result-object v6
 
-    .line 84
     check-cast v6, Ljava/lang/Long;
     :try_end_b
     .catch Ljava/io/IOException; {:try_start_b .. :try_end_b} :catch_1a
@@ -1265,15 +1166,12 @@
 
     move-result-wide v13
 
-    .line 85
     new-instance v6, Lcom/google/android/gms/internal/ads/fp;
 
     invoke-direct {v6, v13, v14}, Lcom/google/android/gms/internal/ads/fp;-><init>(J)V
 
-    .line 86
     sget-object v13, Lcom/google/android/gms/internal/ads/w;->r:Lcom/google/android/gms/internal/ads/h;
 
-    .line 87
     invoke-static {}, Lcom/google/android/gms/internal/ads/zm2;->e()Lcom/google/android/gms/internal/ads/s;
 
     move-result-object v14
@@ -1282,14 +1180,12 @@
 
     move-result-object v13
 
-    .line 88
     check-cast v13, Ljava/lang/Long;
 
     invoke-virtual {v13}, Ljava/lang/Long;->longValue()J
 
     move-result-wide v13
 
-    .line 89
     :goto_f
     invoke-interface {v5, v1}, Ljava/nio/channels/ReadableByteChannel;->read(Ljava/nio/ByteBuffer;)I
 
@@ -1309,7 +1205,6 @@
 
     const-string v0, "File too big for full file cache. Size: "
 
-    .line 90
     invoke-static {v11}, Ljava/lang/Integer;->toString(I)Ljava/lang/String;
 
     move-result-object v1
@@ -1340,7 +1235,6 @@
     .catch Ljava/io/IOException; {:try_start_d .. :try_end_d} :catch_7
     .catch Ljava/lang/RuntimeException; {:try_start_d .. :try_end_d} :catch_6
 
-    .line 91
     :goto_10
     :try_start_e
     new-instance v0, Ljava/io/IOException;
@@ -1387,12 +1281,10 @@
 
     goto/16 :goto_25
 
-    .line 92
     :cond_1c
     :try_start_f
     invoke-virtual {v1}, Ljava/nio/ByteBuffer;->flip()Ljava/nio/Buffer;
 
-    .line 93
     :cond_1d
     invoke-virtual {v2, v1}, Ljava/nio/channels/FileChannel;->write(Ljava/nio/ByteBuffer;)I
 
@@ -1400,10 +1292,8 @@
 
     if-gtz v20, :cond_1d
 
-    .line 94
     invoke-virtual {v1}, Ljava/nio/ByteBuffer;->clear()Ljava/nio/Buffer;
 
-    .line 95
     invoke-interface/range {v16 .. v16}, Lcom/google/android/gms/common/util/g;->a()J
 
     move-result-wide v20
@@ -1420,24 +1310,20 @@
 
     move-object/from16 v20, v1
 
-    .line 96
     iget-boolean v1, v8, Lcom/google/android/gms/internal/ads/wt;->f:Z
 
     if-nez v1, :cond_1f
 
-    .line 97
     invoke-virtual {v6}, Lcom/google/android/gms/internal/ads/fp;->a()Z
 
     move-result v1
 
     if-eqz v1, :cond_1e
 
-    .line 98
     invoke-virtual {v12}, Ljava/io/File;->getAbsolutePath()Ljava/lang/String;
 
     move-result-object v21
 
-    .line 99
     sget-object v1, Lcom/google/android/gms/internal/ads/pp;->b:Landroid/os/Handler;
     :try_end_f
     .catch Ljava/io/IOException; {:try_start_f .. :try_end_f} :catch_f
@@ -1559,7 +1445,6 @@
     .catch Ljava/io/IOException; {:try_start_11 .. :try_end_11} :catch_11
     .catch Ljava/lang/RuntimeException; {:try_start_11 .. :try_end_11} :catch_10
 
-    .line 100
     :try_start_12
     new-instance v0, Ljava/io/IOException;
 
@@ -1585,7 +1470,6 @@
     .catch Ljava/io/IOException; {:try_start_13 .. :try_end_13} :catch_11
     .catch Ljava/lang/RuntimeException; {:try_start_13 .. :try_end_13} :catch_10
 
-    .line 101
     :try_start_14
     invoke-static {v13, v14}, Ljava/lang/Long;->toString(J)Ljava/lang/String;
 
@@ -1622,7 +1506,6 @@
     .catch Ljava/io/IOException; {:try_start_14 .. :try_end_14} :catch_d
     .catch Ljava/lang/RuntimeException; {:try_start_14 .. :try_end_14} :catch_c
 
-    .line 102
     :try_start_15
     new-instance v0, Ljava/io/IOException;
 
@@ -1688,11 +1571,9 @@
 
     const/16 v28, 0x3
 
-    .line 103
     :try_start_16
     invoke-virtual/range {v27 .. v27}, Ljava/io/FileOutputStream;->close()V
 
-    .line 104
     invoke-static/range {v28 .. v28}, Lcom/google/android/gms/internal/ads/aq;->a(I)Z
 
     move-result v1
@@ -1702,7 +1583,6 @@
 
     if-eqz v1, :cond_22
 
-    .line 105
     :try_start_17
     sget-object v1, Lcom/google/android/gms/internal/ads/wt;->p:Ljava/text/DecimalFormat;
 
@@ -1712,7 +1592,6 @@
 
     move-result-object v1
 
-    .line 106
     invoke-static {v1}, Ljava/lang/String;->valueOf(Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object v2
@@ -1782,11 +1661,9 @@
 
     const/4 v2, 0x0
 
-    .line 107
     :try_start_18
     invoke-virtual {v12, v1, v2}, Ljava/io/File;->setReadable(ZZ)Z
 
-    .line 108
     invoke-virtual {v0}, Ljava/io/File;->isFile()Z
 
     move-result v1
@@ -1796,7 +1673,6 @@
 
     if-eqz v1, :cond_23
 
-    .line 109
     :try_start_19
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
@@ -1809,7 +1685,6 @@
 
     goto :goto_1b
 
-    .line 110
     :cond_23
     :try_start_1a
     invoke-virtual {v0}, Ljava/io/File;->createNewFile()Z
@@ -1817,7 +1692,6 @@
     .catch Ljava/io/IOException; {:try_start_1a .. :try_end_1a} :catch_12
     .catch Ljava/lang/RuntimeException; {:try_start_1a .. :try_end_1a} :catch_10
 
-    .line 111
     :catch_12
     :goto_1b
     :try_start_1b
@@ -1827,7 +1701,6 @@
 
     invoke-virtual {v8, v9, v0, v11}, Lcom/google/android/gms/internal/ads/pt;->i(Ljava/lang/String;Ljava/lang/String;I)V
 
-    .line 112
     sget-object v0, Lcom/google/android/gms/internal/ads/wt;->g:Ljava/util/Set;
     :try_end_1b
     .catch Ljava/io/IOException; {:try_start_1b .. :try_end_1b} :catch_16
@@ -1914,7 +1787,6 @@
 
     move-object/from16 v22, v15
 
-    .line 113
     :try_start_1d
     new-instance v0, Ljava/io/IOException;
 
@@ -1929,7 +1801,6 @@
 
     move-object/from16 v22, v15
 
-    .line 114
     new-instance v0, Ljava/io/IOException;
 
     const-string v2, "Too many redirects (20)"
@@ -1972,13 +1843,11 @@
 
     const/4 v10, 0x0
 
-    .line 115
     :goto_25
     instance-of v3, v0, Ljava/lang/RuntimeException;
 
     if-eqz v3, :cond_26
 
-    .line 116
     invoke-static {}, Lcom/google/android/gms/ads/internal/p;->g()Lcom/google/android/gms/internal/ads/em;
 
     move-result-object v3
@@ -1987,7 +1856,6 @@
 
     invoke-virtual {v3, v0, v4}, Lcom/google/android/gms/internal/ads/em;->e(Ljava/lang/Throwable;Ljava/lang/String;)V
 
-    .line 117
     :cond_26
     :try_start_1e
     invoke-virtual {v10}, Ljava/io/FileOutputStream;->close()V
@@ -2000,13 +1868,11 @@
     :catch_1f
     nop
 
-    .line 118
     :goto_26
     iget-boolean v3, v8, Lcom/google/android/gms/internal/ads/wt;->f:Z
 
     if-eqz v3, :cond_27
 
-    .line 119
     invoke-static/range {p1 .. p1}, Ljava/lang/String;->valueOf(Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object v0
@@ -2039,7 +1905,6 @@
 
     goto :goto_27
 
-    .line 120
     :cond_27
     invoke-static/range {p1 .. p1}, Ljava/lang/String;->valueOf(Ljava/lang/Object;)Ljava/lang/String;
 
@@ -2071,7 +1936,6 @@
 
     invoke-static {v3, v0}, Lcom/google/android/gms/internal/ads/aq;->d(Ljava/lang/String;Ljava/lang/Throwable;)V
 
-    .line 121
     :goto_27
     invoke-virtual {v12}, Ljava/io/File;->exists()Z
 
@@ -2087,7 +1951,6 @@
 
     const-string v0, "Could not delete partial cache file at "
 
-    .line 122
     invoke-virtual {v12}, Ljava/io/File;->getAbsolutePath()Ljava/lang/String;
 
     move-result-object v3
@@ -2118,7 +1981,6 @@
     :goto_28
     invoke-static {v0}, Lcom/google/android/gms/internal/ads/aq;->i(Ljava/lang/String;)V
 
-    .line 123
     :cond_29
     invoke-virtual {v12}, Ljava/io/File;->getAbsolutePath()Ljava/lang/String;
 
@@ -2126,7 +1988,6 @@
 
     invoke-virtual {v8, v9, v0, v15, v2}, Lcom/google/android/gms/internal/ads/pt;->m(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 124
     sget-object v0, Lcom/google/android/gms/internal/ads/wt;->g:Ljava/util/Set;
 
     invoke-interface {v0, v1}, Ljava/util/Set;->remove(Ljava/lang/Object;)Z
@@ -2138,7 +1999,6 @@
     :catchall_0
     move-exception v0
 
-    .line 125
     :try_start_1f
     monitor-exit v1
     :try_end_1f

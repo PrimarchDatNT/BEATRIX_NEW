@@ -10,7 +10,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcotlin/jvm/internal/PropertyReference;-><init>()V
 
     return-void
@@ -22,7 +21,6 @@
         version = "1.1"
     .end annotation
 
-    .line 2
     invoke-direct {p0, p1}, Lcotlin/jvm/internal/PropertyReference;-><init>(Ljava/lang/Object;)V
 
     return-void
@@ -34,7 +32,6 @@
         version = "1.4"
     .end annotation
 
-    .line 3
     invoke-direct/range {p0 .. p5}, Lcotlin/jvm/internal/PropertyReference;-><init>(Ljava/lang/Object;Ljava/lang/Class;Ljava/lang/String;Ljava/lang/String;I)V
 
     return-void

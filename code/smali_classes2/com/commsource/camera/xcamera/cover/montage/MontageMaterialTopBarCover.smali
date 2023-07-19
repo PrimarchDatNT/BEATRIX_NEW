@@ -50,10 +50,8 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/camera/xcamera/cover/AbsLazyCover;-><init>()V
 
-    .line 2
     new-instance v0, Lcom/commsource/camera/xcamera/cover/montage/MontageMaterialTopBarCover$bottomFunctionViewModel$2;
 
     invoke-direct {v0, p0}, Lcom/commsource/camera/xcamera/cover/montage/MontageMaterialTopBarCover$bottomFunctionViewModel$2;-><init>(Lcom/commsource/camera/xcamera/cover/montage/MontageMaterialTopBarCover;)V
@@ -64,7 +62,6 @@
 
     iput-object v0, p0, Lcom/commsource/camera/xcamera/cover/montage/MontageMaterialTopBarCover;->d:Lcotlin/w;
 
-    .line 3
     new-instance v0, Lcom/commsource/camera/xcamera/cover/montage/MontageMaterialTopBarCover$bpCameraViewModel$2;
 
     invoke-direct {v0, p0}, Lcom/commsource/camera/xcamera/cover/montage/MontageMaterialTopBarCover$bpCameraViewModel$2;-><init>(Lcom/commsource/camera/xcamera/cover/montage/MontageMaterialTopBarCover;)V
@@ -75,7 +72,6 @@
 
     iput-object v0, p0, Lcom/commsource/camera/xcamera/cover/montage/MontageMaterialTopBarCover;->f:Lcotlin/w;
 
-    .line 4
     new-instance v0, Lcom/commsource/camera/xcamera/cover/montage/MontageMaterialTopBarCover$montageDressUpViewModel$2;
 
     invoke-direct {v0, p0}, Lcom/commsource/camera/xcamera/cover/montage/MontageMaterialTopBarCover$montageDressUpViewModel$2;-><init>(Lcom/commsource/camera/xcamera/cover/montage/MontageMaterialTopBarCover;)V
@@ -86,7 +82,6 @@
 
     iput-object v0, p0, Lcom/commsource/camera/xcamera/cover/montage/MontageMaterialTopBarCover;->g:Lcotlin/w;
 
-    .line 5
     new-instance v0, Lcom/commsource/camera/xcamera/cover/montage/MontageMaterialTopBarCover$montageMaterialViewModel$2;
 
     invoke-direct {v0, p0}, Lcom/commsource/camera/xcamera/cover/montage/MontageMaterialTopBarCover$montageMaterialViewModel$2;-><init>(Lcom/commsource/camera/xcamera/cover/montage/MontageMaterialTopBarCover;)V
@@ -97,7 +92,6 @@
 
     iput-object v0, p0, Lcom/commsource/camera/xcamera/cover/montage/MontageMaterialTopBarCover;->p:Lcotlin/w;
 
-    .line 6
     new-instance v0, Lcom/commsource/camera/xcamera/cover/montage/MontageMaterialTopBarCover$arViewModel$2;
 
     invoke-direct {v0, p0}, Lcom/commsource/camera/xcamera/cover/montage/MontageMaterialTopBarCover$arViewModel$2;-><init>(Lcom/commsource/camera/xcamera/cover/montage/MontageMaterialTopBarCover;)V
@@ -230,7 +224,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/commsource/camera/montage/bean/c;->v()Lcom/commsource/camera/montage/bean/c;
 
     move-result-object v1
@@ -245,7 +238,6 @@
 
     if-nez v1, :cond_0
 
-    .line 2
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/montage/MontageMaterialTopBarCover;->F()Lcom/commsource/camera/xcamera/cover/bottomFunction/b;
 
     move-result-object v1
@@ -260,12 +252,10 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/camera/xcamera/cover/bottomFunction/b;->S(Lcom/commsource/camera/xcamera/cover/bottomFunction/BottomFunction;)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 4
     :cond_0
     new-instance v1, Lcom/commsource/widget/dialog/s0/t$a;
 
@@ -283,7 +273,6 @@
 
     sget v2, Lcom/res/provider/ResSTRING;->ok:I
 
-    .line 5
     invoke-static {v2}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
 
     move-result-object v2
@@ -292,7 +281,6 @@
 
     move-result-object v1
 
-    .line 6
     new-instance v2, Lcom/commsource/camera/xcamera/cover/montage/MontageMaterialTopBarCover$d;
 
     invoke-direct {v2, p0}, Lcom/commsource/camera/xcamera/cover/montage/MontageMaterialTopBarCover$d;-><init>(Lcom/commsource/camera/xcamera/cover/montage/MontageMaterialTopBarCover;)V
@@ -303,7 +291,6 @@
 
     sget v2, Lcom/res/provider/ResSTRING;->cancel:I
 
-    .line 7
     invoke-static {v2}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
 
     move-result-object v2
@@ -312,15 +299,12 @@
 
     move-result-object v1
 
-    .line 8
     invoke-virtual {v1}, Lcom/commsource/widget/dialog/s0/t$a;->a()Lcom/commsource/widget/dialog/s0/t;
 
     move-result-object v1
 
-    .line 9
     invoke-virtual {v1}, Lf/d/a;->F()V
 
-    .line 10
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -333,7 +317,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/montage/MontageMaterialTopBarCover;->F()Lcom/commsource/camera/xcamera/cover/bottomFunction/b;
 
     move-result-object v1
@@ -356,7 +339,6 @@
 
     invoke-virtual {v1, v2, v3}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -373,7 +355,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/AbsLazyCover;->A()Landroidx/databinding/ViewDataBinding;
 
     move-result-object v1
@@ -402,7 +383,6 @@
 
     goto/16 :goto_3
 
-    .line 2
     :cond_1
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/AbsLazyCover;->A()Landroidx/databinding/ViewDataBinding;
 
@@ -421,12 +401,10 @@
 
     if-eqz p1, :cond_8
 
-    .line 3
     invoke-static {}, Lcom/commsource/camera/montage/bean/c;->v()Lcom/commsource/camera/montage/bean/c;
 
     move-result-object p1
 
-    .line 4
     invoke-static {}, Lf/d/i/o;->m0()Z
 
     move-result v1
@@ -451,7 +429,6 @@
 
     if-eqz v1, :cond_7
 
-    .line 5
     sget-object p1, Lcom/meitu/library/hwanalytics/spm/d;->b:Lcom/meitu/library/hwanalytics/spm/d;
 
     const-string v1, "source_click_position"
@@ -460,7 +437,6 @@
 
     invoke-virtual {p1, v1, v3}, Lcom/meitu/library/hwanalytics/spm/d;->d(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 6
     invoke-static {}, Lcom/commsource/camera/montage/bean/c;->v()Lcom/commsource/camera/montage/bean/c;
 
     move-result-object p1
@@ -475,10 +451,8 @@
 
     const-string v1, "needPaidMaterials"
 
-    .line 7
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 8
     invoke-virtual {p1}, Landroid/util/SparseArray;->size()I
 
     move-result v1
@@ -495,14 +469,12 @@
     :goto_1
     if-eqz v1, :cond_6
 
-    .line 9
     new-instance v1, Ljava/util/HashSet;
 
     const/4 v3, 0x4
 
     invoke-direct {v1, v3}, Ljava/util/HashSet;-><init>(I)V
 
-    .line 10
     invoke-virtual {p1}, Landroid/util/SparseArray;->size()I
 
     move-result v3
@@ -510,26 +482,22 @@
     :goto_2
     if-ge v2, v3, :cond_5
 
-    .line 11
     invoke-virtual {p1, v2}, Landroid/util/SparseArray;->keyAt(I)I
 
     move-result v4
 
-    .line 12
     invoke-virtual {p1, v4}, Landroid/util/SparseArray;->get(I)Ljava/lang/Object;
 
     move-result-object v4
 
     check-cast v4, Ljava/lang/String;
 
-    .line 13
     invoke-static {v4}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v5
 
     if-nez v5, :cond_4
 
-    .line 14
     new-instance v5, Ljava/lang/StringBuilder;
 
     invoke-direct {v5}, Ljava/lang/StringBuilder;-><init>()V
@@ -551,11 +519,9 @@
 
     goto :goto_2
 
-    .line 15
     :cond_5
     invoke-static {v1}, Lcom/commsource/statistics/q;->d(Ljava/util/HashSet;)V
 
-    .line 16
     :cond_6
     new-instance p1, Lcom/commsource/util/p2/c;
 
@@ -569,7 +535,6 @@
 
     invoke-direct {p1, v1}, Lcom/commsource/util/p2/c;-><init>(Landroidx/fragment/app/FragmentActivity;)V
 
-    .line 17
     new-instance v1, Lcom/commsource/camera/xcamera/cover/montage/MontageMaterialTopBarCover$e;
 
     const-string v2, "Montage"
@@ -578,12 +543,10 @@
 
     invoke-virtual {p1, v1}, Lcom/commsource/util/p2/c;->c(Lcom/commsource/util/p2/b;)V
 
-    .line 18
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 19
     :cond_7
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/montage/MontageMaterialTopBarCover;->G()Lcom/commsource/camera/xcamera/BpCameraViewModel;
 
@@ -595,7 +558,6 @@
 
     invoke-virtual {v1, v2, v3}, Lcom/commsource/camera/xcamera/BpCameraViewModel;->V2(ZLcom/commsource/camera/xcamera/m;)V
 
-    .line 20
     :cond_8
     :goto_3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -610,7 +572,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     sget v0, Lcom/res/provider/ResLAYOUT;->cover_montage_material_top_bar:I
@@ -625,7 +586,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/AbsLazyCover;->A()Landroidx/databinding/ViewDataBinding;
 
     move-result-object v1
@@ -640,7 +600,6 @@
 
     invoke-virtual {v1, p0}, Landroid/widget/TextView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 2
     :cond_0
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/AbsLazyCover;->A()Landroidx/databinding/ViewDataBinding;
 
@@ -656,7 +615,6 @@
 
     invoke-virtual {v1, p0}, Landroid/widget/FrameLayout;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 3
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -670,7 +628,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/AbsLazyCover;->A()Landroidx/databinding/ViewDataBinding;
 
     move-result-object v1
@@ -695,7 +652,6 @@
 
     invoke-static {v1, v2}, Lcom/commsource/util/l2;->D(Landroid/view/View;I)V
 
-    .line 2
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/montage/MontageMaterialTopBarCover;->I()Lcom/commsource/camera/montage/e0;
 
     move-result-object v1
@@ -718,7 +674,6 @@
 
     invoke-virtual {v1, v2, v3}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 3
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/montage/MontageMaterialTopBarCover;->H()Lcom/commsource/camera/montage/w;
 
     move-result-object v1
@@ -741,7 +696,6 @@
 
     invoke-virtual {v1, v2, v3}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 4
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/montage/MontageMaterialTopBarCover;->H()Lcom/commsource/camera/montage/w;
 
     move-result-object v1
@@ -764,7 +718,6 @@
 
     invoke-virtual {v1, v2, v3}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 5
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/montage/MontageMaterialTopBarCover;->H()Lcom/commsource/camera/montage/w;
 
     move-result-object v1
@@ -787,7 +740,6 @@
 
     invoke-virtual {v1, v2, v3}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

@@ -30,7 +30,6 @@
 .method static constructor <clinit>()V
     .locals 3
 
-    .line 1
     new-instance v0, Lcom/google/android/gms/common/m/a;
 
     const-string v1, "FirebaseAuth:"
@@ -65,10 +64,8 @@
 
     move-object v6, p6
 
-    .line 1
     invoke-direct/range {v0 .. v6}, Lcom/google/android/gms/common/internal/k;-><init>(Landroid/content/Context;Landroid/os/Looper;ILcom/google/android/gms/common/internal/f;Lcom/google/android/gms/common/api/i$b;Lcom/google/android/gms/common/api/i$c;)V
 
-    .line 2
     invoke-static {p1}, Lcom/google/android/gms/common/internal/b0;->k(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -77,7 +74,6 @@
 
     iput-object p1, p0, Lcom/google/firebase/auth/p/a/s2;->L:Landroid/content/Context;
 
-    .line 3
     iput-object p4, p0, Lcom/google/firebase/auth/p/a/s2;->M:Lcom/google/firebase/auth/p/a/i3;
 
     return-void
@@ -88,7 +84,6 @@
 .method public final B()[Lcom/google/android/gms/common/Feature;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/google/android/gms/internal/firebase_auth/l1;->d:[Lcom/google/android/gms/common/Feature;
 
     return-object v0
@@ -97,25 +92,21 @@
 .method protected final C()Landroid/os/Bundle;
     .locals 3
 
-    .line 1
     invoke-super {p0}, Lcom/google/android/gms/common/internal/e;->C()Landroid/os/Bundle;
 
     move-result-object v0
 
     if-nez v0, :cond_0
 
-    .line 2
     new-instance v0, Landroid/os/Bundle;
 
     invoke-direct {v0}, Landroid/os/Bundle;-><init>()V
 
-    .line 3
     :cond_0
     iget-object v1, p0, Lcom/google/firebase/auth/p/a/s2;->M:Lcom/google/firebase/auth/p/a/i3;
 
     if-eqz v1, :cond_1
 
-    .line 4
     invoke-virtual {v1}, Lcom/google/firebase/auth/p/a/i3;->b()Ljava/lang/String;
 
     move-result-object v1
@@ -124,7 +115,6 @@
 
     invoke-virtual {v0, v2, v1}, Landroid/os/Bundle;->putString(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 5
     :cond_1
     invoke-static {}, Lcom/google/firebase/auth/p/a/j3;->d()Ljava/lang/String;
 
@@ -132,7 +122,6 @@
 
     const-string v2, "com.google.firebase.auth.LIBRARY_VERSION"
 
-    .line 6
     invoke-virtual {v0, v2, v1}, Landroid/os/Bundle;->putString(Ljava/lang/String;Ljava/lang/String;)V
 
     return-object v0
@@ -143,12 +132,10 @@
 
     const-string v0, "firebear.preference"
 
-    .line 1
     invoke-static {v0}, Lcom/google/firebase/auth/p/a/b4;->a(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
 
-    .line 2
     invoke-static {v0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v1
@@ -159,7 +146,6 @@
 
     move-object v0, v2
 
-    .line 3
     :cond_0
     invoke-virtual {v0}, Ljava/lang/String;->hashCode()I
 
@@ -182,7 +168,6 @@
     :cond_1
     move-object v2, v0
 
-    .line 4
     :goto_0
     invoke-virtual {v2}, Ljava/lang/String;->hashCode()I
 
@@ -194,7 +179,6 @@
 
     if-nez v0, :cond_3
 
-    .line 5
     sget-object v0, Lcom/google/firebase/auth/p/a/s2;->N:Lcom/google/android/gms/common/m/a;
 
     new-array v2, v1, [Ljava/lang/Object;
@@ -203,15 +187,12 @@
 
     invoke-virtual {v0, v3, v2}, Lcom/google/android/gms/common/m/a;->e(Ljava/lang/String;[Ljava/lang/Object;)V
 
-    .line 6
     iget-object v0, p0, Lcom/google/firebase/auth/p/a/s2;->M:Lcom/google/firebase/auth/p/a/i3;
 
-    .line 7
     iget-boolean v0, v0, Lcom/google/firebase/auth/p/a/j;->a:Z
 
     if-eqz v0, :cond_2
 
-    .line 8
     sget-object v0, Lcom/google/firebase/auth/p/a/s2;->N:Lcom/google/android/gms/common/m/a;
 
     new-array v1, v1, [Ljava/lang/Object;
@@ -220,7 +201,6 @@
 
     invoke-virtual {v0, v2, v1}, Lcom/google/android/gms/common/m/a;->e(Ljava/lang/String;[Ljava/lang/Object;)V
 
-    .line 9
     iget-object v0, p0, Lcom/google/firebase/auth/p/a/s2;->L:Landroid/content/Context;
 
     invoke-virtual {v0}, Landroid/content/Context;->getPackageName()Ljava/lang/String;
@@ -229,7 +209,6 @@
 
     return-object v0
 
-    .line 10
     :cond_2
     sget-object v0, Lcom/google/firebase/auth/p/a/s2;->N:Lcom/google/android/gms/common/m/a;
 
@@ -243,7 +222,6 @@
 
     return-object v0
 
-    .line 11
     :cond_3
     sget-object v0, Lcom/google/firebase/auth/p/a/s2;->N:Lcom/google/android/gms/common/m/a;
 
@@ -253,7 +231,6 @@
 
     invoke-virtual {v0, v2, v1}, Lcom/google/android/gms/common/m/a;->e(Ljava/lang/String;[Ljava/lang/Object;)V
 
-    .line 12
     iget-object v0, p0, Lcom/google/firebase/auth/p/a/s2;->L:Landroid/content/Context;
 
     invoke-virtual {v0}, Landroid/content/Context;->getPackageName()Ljava/lang/String;
@@ -266,7 +243,6 @@
 .method public final i()Z
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/auth/p/a/s2;->L:Landroid/content/Context;
 
     const-string v1, "com.google.firebase.auth"
@@ -306,7 +282,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-super {p0}, Lcom/google/android/gms/common/internal/e;->G()Landroid/os/IInterface;
 
     move-result-object v0
@@ -336,22 +311,18 @@
     :cond_0
     const-string v0, "com.google.firebase.auth.api.internal.IFirebaseAuthService"
 
-    .line 1
     invoke-interface {p1, v0}, Landroid/os/IBinder;->queryLocalInterface(Ljava/lang/String;)Landroid/os/IInterface;
 
     move-result-object v0
 
-    .line 2
     instance-of v1, v0, Lcom/google/firebase/auth/p/a/c3;
 
     if-eqz v1, :cond_1
 
-    .line 3
     check-cast v0, Lcom/google/firebase/auth/p/a/c3;
 
     return-object v0
 
-    .line 4
     :cond_1
     new-instance v0, Lcom/google/firebase/auth/p/a/e3;
 

@@ -46,7 +46,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1, p2}, Lcom/google/common/collect/Maps$g0;-><init>(Ljava/util/Map;Lcom/google/common/collect/Maps$r;)V
 
     return-void
@@ -64,7 +63,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/Maps$g0;->a:Ljava/util/Map;
 
     check-cast v0, Ljava/util/SortedMap;
@@ -82,7 +80,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/collect/Maps$i0;->b()Ljava/util/SortedMap;
 
     move-result-object v0
@@ -102,7 +99,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/collect/Maps$i0;->b()Ljava/util/SortedMap;
 
     move-result-object v0
@@ -124,7 +120,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/collect/Maps$i0;->b()Ljava/util/SortedMap;
 
     move-result-object v0
@@ -150,7 +145,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/collect/Maps$i0;->b()Ljava/util/SortedMap;
 
     move-result-object v0
@@ -172,7 +166,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/collect/Maps$i0;->b()Ljava/util/SortedMap;
 
     move-result-object v0
@@ -200,7 +193,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/collect/Maps$i0;->b()Ljava/util/SortedMap;
 
     move-result-object v0

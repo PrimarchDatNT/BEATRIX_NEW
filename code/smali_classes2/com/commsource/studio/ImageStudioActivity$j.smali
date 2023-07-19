@@ -28,7 +28,6 @@
 
     iput-object p1, p0, Lcom/commsource/studio/ImageStudioActivity$j;->a:Lcom/commsource/studio/ImageStudioActivity;
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -43,7 +42,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/ImageStudioActivity$j;->a:Lcom/commsource/studio/ImageStudioActivity;
 
     invoke-virtual {v1}, Lcom/commsource/studio/ImageStudioActivity;->m1()Lcom/commsource/studio/ImageStudioViewModel;
@@ -52,7 +50,6 @@
 
     invoke-virtual {v1}, Lcom/commsource/studio/ImageStudioViewModel;->V()V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

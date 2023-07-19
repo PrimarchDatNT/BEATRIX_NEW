@@ -47,7 +47,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/camera/xcamera/util/f$a;->a:Lcom/commsource/camera/xcamera/util/f;
 
     iput-object p2, p0, Lcom/commsource/camera/xcamera/util/f$a;->b:Lcom/commsource/camera/ardata/m;
@@ -78,14 +77,12 @@
 
     if-eqz p1, :cond_7
 
-    .line 1
     invoke-virtual/range {p1 .. p1}, Lcom/commsource/camera/ardata/n;->a()Ljava/util/List;
 
     move-result-object v3
 
     if-eqz v3, :cond_6
 
-    .line 2
     invoke-interface {v3}, Ljava/util/Collection;->isEmpty()Z
 
     move-result v4
@@ -98,40 +95,34 @@
 
     const/4 v4, 0x0
 
-    .line 3
     invoke-interface {v3, v4}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object v3
 
     check-cast v3, Lcom/commsource/camera/ardata/n$a;
 
-    .line 4
     invoke-static {}, Ljava/util/Calendar;->getInstance()Ljava/util/Calendar;
 
     move-result-object v4
 
     const/16 v6, 0xb
 
-    .line 5
     invoke-virtual {v4, v6}, Ljava/util/Calendar;->get(I)I
 
     move-result v6
 
-    .line 6
     invoke-virtual {v4, v5}, Ljava/util/Calendar;->get(I)I
 
     move-result v7
 
     const/4 v8, 0x2
 
-    .line 7
     invoke-virtual {v4, v8}, Ljava/util/Calendar;->get(I)I
 
     move-result v9
 
     const/4 v10, 0x5
 
-    .line 8
     invoke-virtual {v4, v10}, Ljava/util/Calendar;->get(I)I
 
     move-result v4
@@ -139,7 +130,6 @@
     :try_start_0
     const-string v11, "heWeather6Bean"
 
-    .line 9
     invoke-static {v3, v11}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v3}, Lcom/commsource/camera/ardata/n$a;->b()Ljava/util/List;
@@ -165,38 +155,32 @@
 
     const-string v12, "forecastBean"
 
-    .line 10
     invoke-static {v11, v12}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v11}, Lcom/commsource/camera/ardata/n$a$b;->e()Ljava/lang/String;
 
     move-result-object v12
 
-    .line 11
     new-instance v13, Ljava/text/SimpleDateFormat;
 
     const-string v14, "yyyy-MM-dd"
 
     invoke-direct {v13, v14}, Ljava/text/SimpleDateFormat;-><init>(Ljava/lang/String;)V
 
-    .line 12
     invoke-virtual {v13, v12}, Ljava/text/SimpleDateFormat;->parse(Ljava/lang/String;)Ljava/util/Date;
 
     move-result-object v12
 
-    .line 13
     invoke-static {}, Ljava/util/Calendar;->getInstance()Ljava/util/Calendar;
 
     move-result-object v13
 
     const-string v14, "forecastData"
 
-    .line 14
     invoke-static {v13, v14}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v13, v12}, Ljava/util/Calendar;->setTime(Ljava/util/Date;)V
 
-    .line 15
     invoke-virtual {v13, v5}, Ljava/util/Calendar;->get(I)I
 
     move-result v12
@@ -225,7 +209,6 @@
 
     goto :goto_1
 
-    .line 16
     :cond_0
     invoke-virtual {v11}, Lcom/commsource/camera/ardata/n$a$b;->a()Ljava/lang/String;
 
@@ -237,7 +220,6 @@
 
     goto :goto_2
 
-    .line 17
     :cond_1
     :goto_1
     invoke-virtual {v11}, Lcom/commsource/camera/ardata/n$a$b;->b()Ljava/lang/String;
@@ -251,19 +233,16 @@
     :goto_2
     move-object v14, v3
 
-    .line 18
     invoke-virtual {v11}, Lcom/commsource/camera/ardata/n$a$b;->o()D
 
     move-result-wide v12
 
-    .line 19
     invoke-virtual {v11}, Lcom/commsource/camera/ardata/n$a$b;->n()D
 
     move-result-wide v10
 
     const-string v3, "\u4e9a\u6d32"
 
-    .line 20
     iget-object v6, v1, Lcom/commsource/camera/xcamera/util/f$a;->b:Lcom/commsource/camera/ardata/m;
 
     invoke-virtual {v6}, Lcom/commsource/camera/ardata/m;->d()Ljava/lang/String;
@@ -297,7 +276,6 @@
     :cond_2
     move/from16 p1, v3
 
-    .line 21
     :goto_3
     iget-object v2, v1, Lcom/commsource/camera/xcamera/util/f$a;->a:Lcom/commsource/camera/xcamera/util/f;
 
@@ -388,7 +366,6 @@
     :cond_4
     const/16 v2, 0x706b
 
-    .line 22
     invoke-static {v2}, Lcom/meitu/library/appcia/h/a;->a(I)V
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
@@ -403,10 +380,8 @@
     :catch_0
     move-exception v0
 
-    .line 23
     invoke-static {v0}, Lcom/meitu/library/util/Debug/Debug;->a0(Ljava/lang/Throwable;)V
 
-    .line 24
     iget-object v0, v1, Lcom/commsource/camera/xcamera/util/f$a;->a:Lcom/commsource/camera/xcamera/util/f;
 
     iget v2, v1, Lcom/commsource/camera/xcamera/util/f$a;->c:I
@@ -416,7 +391,6 @@
     :cond_6
     const/16 v2, 0x706b
 
-    .line 25
     :cond_7
     invoke-static {v2}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -434,14 +408,12 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/camera/xcamera/util/f$a;->a:Lcom/commsource/camera/xcamera/util/f;
 
     iget v1, p0, Lcom/commsource/camera/xcamera/util/f$a;->c:I
 
     invoke-static {v0, v1}, Lcom/commsource/camera/xcamera/util/f;->b(Lcom/commsource/camera/xcamera/util/f;I)V
 
-    .line 2
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -454,7 +426,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Lcom/commsource/camera/ardata/n;
 
     invoke-virtual {p0, p1}, Lcom/commsource/camera/xcamera/util/f$a;->a(Lcom/commsource/camera/ardata/n;)V

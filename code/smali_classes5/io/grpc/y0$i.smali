@@ -44,7 +44,6 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
     invoke-static {}, Lio/grpc/y0$i;->b()Ljava/util/BitSet;
 
     move-result-object v0
@@ -57,12 +56,10 @@
 .method private constructor <init>(Ljava/lang/String;ZLjava/lang/Object;)V
     .locals 1
 
-    .line 2
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const-string v0, "name"
 
-    .line 3
     invoke-static {p1, v0}, Lcom/google/common/base/t;->F(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -71,7 +68,6 @@
 
     iput-object p1, p0, Lio/grpc/y0$i;->a:Ljava/lang/String;
 
-    .line 4
     sget-object v0, Ljava/util/Locale;->ROOT:Ljava/util/Locale;
 
     invoke-virtual {p1, v0}, Ljava/lang/String;->toLowerCase(Ljava/util/Locale;)Ljava/lang/String;
@@ -84,7 +80,6 @@
 
     iput-object p1, p0, Lio/grpc/y0$i;->b:Ljava/lang/String;
 
-    .line 5
     sget-object p2, Lcom/google/common/base/c;->a:Ljava/nio/charset/Charset;
 
     invoke-virtual {p1, p2}, Ljava/lang/String;->getBytes(Ljava/nio/charset/Charset;)[B
@@ -93,7 +88,6 @@
 
     iput-object p1, p0, Lio/grpc/y0$i;->c:[B
 
-    .line 6
     iput-object p3, p0, Lio/grpc/y0$i;->d:Ljava/lang/Object;
 
     return-void
@@ -102,7 +96,6 @@
 .method synthetic constructor <init>(Ljava/lang/String;ZLjava/lang/Object;Lio/grpc/y0$a;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1, p2, p3}, Lio/grpc/y0$i;-><init>(Ljava/lang/String;ZLjava/lang/Object;)V
 
     return-void
@@ -111,7 +104,6 @@
 .method private static b()Ljava/util/BitSet;
     .locals 3
 
-    .line 1
     new-instance v0, Ljava/util/BitSet;
 
     const/16 v1, 0x7f
@@ -120,17 +112,14 @@
 
     const/16 v1, 0x2d
 
-    .line 2
     invoke-virtual {v0, v1}, Ljava/util/BitSet;->set(I)V
 
     const/16 v1, 0x5f
 
-    .line 3
     invoke-virtual {v0, v1}, Ljava/util/BitSet;->set(I)V
 
     const/16 v1, 0x2e
 
-    .line 4
     invoke-virtual {v0, v1}, Ljava/util/BitSet;->set(I)V
 
     const/16 v1, 0x30
@@ -140,7 +129,6 @@
 
     if-gt v1, v2, :cond_0
 
-    .line 5
     invoke-virtual {v0, v1}, Ljava/util/BitSet;->set(I)V
 
     add-int/lit8 v1, v1, 0x1
@@ -157,7 +145,6 @@
 
     if-gt v1, v2, :cond_1
 
-    .line 6
     invoke-virtual {v0, v1}, Ljava/util/BitSet;->set(I)V
 
     add-int/lit8 v1, v1, 0x1
@@ -187,7 +174,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-static {p0, v0, p1}, Lio/grpc/y0$i;->h(Ljava/lang/String;ZLio/grpc/y0$d;)Lio/grpc/y0$i;
 
     move-result-object p0
@@ -210,7 +196,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lio/grpc/y0$e;
 
     const/4 v1, 0x0
@@ -239,7 +224,6 @@
         value = "https://github.com/grpc/grpc-java/issues/6575"
     .end annotation
 
-    .line 1
     new-instance v0, Lio/grpc/y0$j;
 
     const/4 v1, 0x0
@@ -265,7 +249,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lio/grpc/y0$c;
 
     const/4 v1, 0x0
@@ -291,7 +274,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lio/grpc/y0$l;
 
     const/4 v1, 0x0
@@ -306,10 +288,8 @@
 
     const-string v0, "name"
 
-    .line 1
     invoke-static {p0, v0}, Lcom/google/common/base/t;->F(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 2
     invoke-virtual {p0}, Ljava/lang/String;->isEmpty()Z
 
     move-result v0
@@ -322,7 +302,6 @@
 
     const/4 v0, 0x0
 
-    .line 3
     :goto_0
     invoke-virtual {p0}, Ljava/lang/String;->length()I
 
@@ -330,7 +309,6 @@
 
     if-ge v0, v1, :cond_1
 
-    .line 4
     invoke-virtual {p0, v0}, Ljava/lang/String;->charAt(I)C
 
     move-result v1
@@ -345,18 +323,15 @@
 
     goto :goto_1
 
-    .line 5
     :cond_0
     sget-object v2, Lio/grpc/y0$i;->e:Ljava/util/BitSet;
 
-    .line 6
     invoke-virtual {v2, v1}, Ljava/util/BitSet;->get(I)Z
 
     move-result v2
 
     const-string v3, "Invalid character \'%s\' in key name \'%s\'"
 
-    .line 7
     invoke-static {v2, v3, v1, p0}, Lcom/google/common/base/t;->j(ZLjava/lang/String;CLjava/lang/Object;)V
 
     :goto_1
@@ -375,7 +350,6 @@
     .annotation build Lf/f/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lio/grpc/y0$i;->c:[B
 
     return-object v0
@@ -396,7 +370,6 @@
     .annotation runtime Ljavax/annotation/j;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lio/grpc/y0$i;->d:Ljava/lang/Object;
 
     invoke-virtual {p1, v0}, Ljava/lang/Class;->isInstance(Ljava/lang/Object;)Z
@@ -405,7 +378,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 2
     iget-object v0, p0, Lio/grpc/y0$i;->d:Ljava/lang/Object;
 
     invoke-virtual {p1, v0}, Ljava/lang/Class;->cast(Ljava/lang/Object;)Ljava/lang/Object;
@@ -423,7 +395,6 @@
 .method public final d()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lio/grpc/y0$i;->b:Ljava/lang/String;
 
     return-object v0
@@ -441,7 +412,6 @@
     :cond_0
     if-eqz p1, :cond_2
 
-    .line 1
     invoke-virtual {p0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
     move-result-object v0
@@ -454,11 +424,9 @@
 
     goto :goto_0
 
-    .line 2
     :cond_1
     check-cast p1, Lio/grpc/y0$i;
 
-    .line 3
     iget-object v0, p0, Lio/grpc/y0$i;->b:Ljava/lang/String;
 
     iget-object p1, p1, Lio/grpc/y0$i;->b:Ljava/lang/String;
@@ -479,7 +447,6 @@
 .method public final hashCode()I
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lio/grpc/y0$i;->b:Ljava/lang/String;
 
     invoke-virtual {v0}, Ljava/lang/String;->hashCode()I
@@ -492,7 +459,6 @@
 .method public final j()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lio/grpc/y0$i;->a:Ljava/lang/String;
 
     return-object v0
@@ -525,7 +491,6 @@
 .method public toString()Ljava/lang/String;
     .locals 2
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V

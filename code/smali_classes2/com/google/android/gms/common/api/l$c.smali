@@ -27,7 +27,6 @@
 .method public constructor <init>(Lcom/google/android/gms/common/api/i;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/google/android/gms/common/api/internal/BasePendingResult;-><init>(Lcom/google/android/gms/common/api/i;)V
 
     return-void
@@ -45,7 +44,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance p1, Ljava/lang/UnsupportedOperationException;
 
     const-string v0, "Creating failed results is not supported"

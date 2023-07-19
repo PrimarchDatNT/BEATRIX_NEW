@@ -66,7 +66,6 @@
 .method public constructor <init>(IIII)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     iput p1, p0, Lcom/mopub/mobileads/EndCardDurations;->staticEndCardExperienceDurSecs:I
@@ -293,7 +292,6 @@
 .method public final getInteractiveEndCardExperienceDurSecs()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lcom/mopub/mobileads/EndCardDurations;->interactiveEndCardExperienceDurSecs:I
 
     return v0
@@ -302,7 +300,6 @@
 .method public final getMinInteractiveEndCardDurSecs()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lcom/mopub/mobileads/EndCardDurations;->minInteractiveEndCardDurSecs:I
 
     return v0
@@ -311,7 +308,6 @@
 .method public final getMinStaticEndCardDurSecs()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lcom/mopub/mobileads/EndCardDurations;->minStaticEndCardDurSecs:I
 
     return v0
@@ -320,7 +316,6 @@
 .method public final getStaticEndCardExperienceDurSecs()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lcom/mopub/mobileads/EndCardDurations;->staticEndCardExperienceDurSecs:I
 
     return v0
@@ -357,7 +352,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -370,7 +364,6 @@
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 2
     iget v1, p0, Lcom/mopub/mobileads/EndCardDurations;->staticEndCardExperienceDurSecs:I
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
@@ -383,7 +376,6 @@
 
     invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 3
     iget v2, p0, Lcom/mopub/mobileads/EndCardDurations;->interactiveEndCardExperienceDurSecs:I
 
     invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
@@ -394,7 +386,6 @@
 
     invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 4
     iget v2, p0, Lcom/mopub/mobileads/EndCardDurations;->minStaticEndCardDurSecs:I
 
     invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
@@ -405,7 +396,6 @@
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 5
     iget v1, p0, Lcom/mopub/mobileads/EndCardDurations;->minInteractiveEndCardDurSecs:I
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;

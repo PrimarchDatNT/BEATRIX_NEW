@@ -22,7 +22,6 @@
 .method private constructor <init>(Lf/d/k/m;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lf/d/k/m$h;->a:Lf/d/k/m;
 
     invoke-direct {p0}, Ljava/util/TimerTask;-><init>()V
@@ -33,7 +32,6 @@
 .method synthetic constructor <init>(Lf/d/k/m;Lf/d/k/m$a;)V
     .locals 0
 
-    .line 2
     invoke-direct {p0, p1}, Lf/d/k/m$h;-><init>(Lf/d/k/m;)V
 
     return-void
@@ -48,7 +46,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lf/d/k/m$h;->a:Lf/d/k/m;
 
     invoke-static {v1}, Lf/d/k/m;->h(Lf/d/k/m;)Ljava/lang/Object;
@@ -57,7 +54,6 @@
 
     monitor-enter v1
 
-    .line 2
     :try_start_0
     iget-object v2, p0, Lf/d/k/m$h;->a:Lf/d/k/m;
 
@@ -75,7 +71,6 @@
 
     if-eqz v2, :cond_0
 
-    .line 3
     iget-object v2, p0, Lf/d/k/m$h;->a:Lf/d/k/m;
 
     invoke-static {v2}, Lf/d/k/m;->k(Lf/d/k/m;)Lf/d/k/m$f;
@@ -104,13 +99,11 @@
 
     invoke-interface {v2, v3, v4, v5, v6}, Lf/d/k/m$f;->c0(JJ)V
 
-    .line 4
     :cond_0
     monitor-exit v1
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -118,7 +111,6 @@
     :catchall_0
     move-exception v2
 
-    .line 6
     :try_start_1
     monitor-exit v1
     :try_end_1

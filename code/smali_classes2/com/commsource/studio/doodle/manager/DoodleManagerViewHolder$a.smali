@@ -42,7 +42,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/studio/doodle/manager/DoodleManagerViewHolder$a;->a:Lcom/commsource/studio/doodle/manager/DoodleManagerViewHolder;
 
     invoke-static {v0}, Lcom/commsource/studio/doodle/manager/DoodleManagerViewHolder;->v(Lcom/commsource/studio/doodle/manager/DoodleManagerViewHolder;)Lcom/commsource/studio/doodle/h;
@@ -87,12 +86,10 @@
     :goto_0
     invoke-virtual {v0, v1}, Lcom/commsource/beautyfilter/NoStickLiveData;->setValue(Ljava/lang/Object;)V
 
-    .line 2
     iget-object v0, p0, Lcom/commsource/studio/doodle/manager/DoodleManagerViewHolder$a;->a:Lcom/commsource/studio/doodle/manager/DoodleManagerViewHolder;
 
     invoke-static {v0}, Lcom/commsource/studio/doodle/manager/DoodleManagerViewHolder;->y(Lcom/commsource/studio/doodle/manager/DoodleManagerViewHolder;)V
 
-    .line 3
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

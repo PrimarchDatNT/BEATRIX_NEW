@@ -7,7 +7,6 @@
 .method protected constructor <init>(J)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1, p2}, Lcom/meitu/media/mtmvcore/MTSpriteTrack;-><init>(J)V
 
     return-void
@@ -22,7 +21,6 @@
 
     if-eqz p0, :cond_1
 
-    .line 1
     invoke-virtual {p0}, Ljava/lang/String;->isEmpty()Z
 
     move-result v1
@@ -37,7 +35,6 @@
 
     if-nez v1, :cond_1
 
-    .line 2
     invoke-static {p0}, Lcom/meitu/media/mtmvcore/MTWatermark;->createWatermarkTrack(Ljava/lang/String;)J
 
     move-result-wide v1
@@ -52,7 +49,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_0
     new-instance p0, Lcom/meitu/media/mtmvcore/MTWatermark;
 
@@ -63,7 +59,6 @@
 
     return-object p0
 
-    .line 4
     :cond_1
     new-instance p0, Ljava/lang/IllegalArgumentException;
 
@@ -85,7 +80,6 @@
 
     if-eqz p0, :cond_1
 
-    .line 1
     invoke-virtual {p0}, Ljava/lang/String;->isEmpty()Z
 
     move-result v1
@@ -100,7 +94,6 @@
 
     if-nez v1, :cond_1
 
-    .line 2
     invoke-static {p0, p1, p2, p3}, Lcom/meitu/media/mtmvcore/MTWatermark;->createWatermarkTrackWithPlist(Ljava/lang/String;IILjava/lang/String;)J
 
     move-result-wide p0
@@ -115,7 +108,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_0
     new-instance p2, Lcom/meitu/media/mtmvcore/MTWatermark;
 
@@ -128,7 +120,6 @@
 
     return-object p0
 
-    .line 4
     :cond_1
     new-instance p0, Ljava/lang/IllegalArgumentException;
 

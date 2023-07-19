@@ -43,7 +43,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 2
     invoke-interface {p1}, Lcotlin/coroutines/c;->getContext()Lcotlin/coroutines/CoroutineContext;
 
     move-result-object v0
@@ -80,7 +79,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1}, Lcotlin/coroutines/jvm/internal/BaseContinuationImpl;-><init>(Lcotlin/coroutines/c;)V
 
     iput-object p2, p0, Lcotlin/coroutines/jvm/internal/ContinuationImpl;->_context:Lcotlin/coroutines/CoroutineContext;
@@ -95,7 +93,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcotlin/coroutines/jvm/internal/ContinuationImpl;->_context:Lcotlin/coroutines/CoroutineContext;
 
     invoke-static {v0}, Lcotlin/jvm/internal/f0;->m(Ljava/lang/Object;)V
@@ -117,14 +114,12 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcotlin/coroutines/jvm/internal/ContinuationImpl;->intercepted:Lcotlin/coroutines/c;
 
     if-eqz v0, :cond_0
 
     goto :goto_1
 
-    .line 2
     :cond_0
     invoke-virtual {p0}, Lcotlin/coroutines/jvm/internal/ContinuationImpl;->getContext()Lcotlin/coroutines/CoroutineContext;
 
@@ -151,7 +146,6 @@
     :cond_1
     move-object v0, p0
 
-    .line 3
     :goto_0
     iput-object v0, p0, Lcotlin/coroutines/jvm/internal/ContinuationImpl;->intercepted:Lcotlin/coroutines/c;
 
@@ -162,14 +156,12 @@
 .method protected releaseIntercepted()V
     .locals 3
 
-    .line 1
     iget-object v0, p0, Lcotlin/coroutines/jvm/internal/ContinuationImpl;->intercepted:Lcotlin/coroutines/c;
 
     if-eqz v0, :cond_0
 
     if-eq v0, p0, :cond_0
 
-    .line 2
     invoke-virtual {p0}, Lcotlin/coroutines/jvm/internal/ContinuationImpl;->getContext()Lcotlin/coroutines/CoroutineContext;
 
     move-result-object v1
@@ -186,7 +178,6 @@
 
     invoke-interface {v1, v0}, Lcotlin/coroutines/d;->g(Lcotlin/coroutines/c;)V
 
-    .line 3
     :cond_0
     sget-object v0, Lcotlin/coroutines/jvm/internal/b;->a:Lcotlin/coroutines/jvm/internal/b;
 

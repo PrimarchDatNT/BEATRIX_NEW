@@ -7,7 +7,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -20,7 +19,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     :try_start_0
     invoke-static {p0, p2, p1}, Lcom/commsource/util/common/m;->h(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;)V
     :try_end_0
@@ -31,7 +29,6 @@
     :catch_0
     sget p1, Lcom/res/provider/ResSTRING;->share_app_not_installed:I
 
-    .line 2
     invoke-virtual {p0, p1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
     move-result-object p0
@@ -48,10 +45,8 @@
 
     move-result-object p0
 
-    .line 3
     invoke-static {p0}, Lf/k/c/c/f;->y(Ljava/lang/CharSequence;)V
 
-    .line 4
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -65,7 +60,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p2}, Ljava/lang/String;->hashCode()I
 
     invoke-virtual {p2}, Ljava/lang/String;->hashCode()I
@@ -246,7 +240,6 @@
     :pswitch_0
     const-string p2, "com.instagram.android"
 
-    .line 2
     invoke-static {p0, p1, p2, v2}, Lcom/commsource/util/x1;->a(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_1
@@ -254,12 +247,10 @@
     :pswitch_1
     const-string p2, "com.whatsapp"
 
-    .line 3
     invoke-static {p0, p1, p2, v3}, Lcom/commsource/util/x1;->a(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_1
 
-    .line 4
     :pswitch_2
     invoke-static {p0, p1, p2, v4}, Lcom/commsource/util/x1;->a(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
@@ -268,7 +259,6 @@
     :pswitch_3
     const-string p2, "com.twitter.android"
 
-    .line 5
     invoke-static {p0, p1, p2, v5}, Lcom/commsource/util/x1;->a(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_1
@@ -276,7 +266,6 @@
     :pswitch_4
     const-string p2, "com.facebook.katana"
 
-    .line 6
     invoke-static {p0, p1, p2, v6}, Lcom/commsource/util/x1;->a(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_1
@@ -284,14 +273,12 @@
     :pswitch_5
     sget p2, Lcom/res/provider/ResSTRING;->save_and_share_weibo:I
 
-    .line 7
     invoke-virtual {p0, p2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
     move-result-object p2
 
     const-string v1, "com.sina.weibo"
 
-    .line 8
     invoke-static {p0, p1, v1, p2}, Lcom/commsource/util/x1;->a(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_1
@@ -299,20 +286,16 @@
     :pswitch_6
     const-string p2, "com.projectgoth"
 
-    .line 9
     invoke-static {p0, p1, p2, v7}, Lcom/commsource/util/x1;->a(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_1
 
     :pswitch_7
-    const-string p2, "jp.naver.line.android"
 
-    .line 10
     invoke-static {p0, p1, p2, v8}, Lcom/commsource/util/x1;->a(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_1
 
-    .line 11
     :pswitch_8
     invoke-static {p0, p1, p2, v9}, Lcom/commsource/util/x1;->a(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
@@ -321,10 +304,8 @@
     :pswitch_9
     const-string p2, "com.kakao.talk"
 
-    .line 12
     invoke-static {p0, p1, p2, v10}, Lcom/commsource/util/x1;->a(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 13
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

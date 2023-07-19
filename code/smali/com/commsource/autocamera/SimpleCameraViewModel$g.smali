@@ -22,7 +22,6 @@
 .method private constructor <init>(Lcom/commsource/autocamera/SimpleCameraViewModel;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/autocamera/SimpleCameraViewModel$g;->d:Lcom/commsource/autocamera/SimpleCameraViewModel;
 
     invoke-direct {p0}, Lcom/commsource/camera/k0;-><init>()V
@@ -33,7 +32,6 @@
 .method synthetic constructor <init>(Lcom/commsource/autocamera/SimpleCameraViewModel;Lcom/commsource/autocamera/SimpleCameraViewModel$a;)V
     .locals 0
 
-    .line 2
     invoke-direct {p0, p1}, Lcom/commsource/autocamera/SimpleCameraViewModel$g;-><init>(Lcom/commsource/autocamera/SimpleCameraViewModel;)V
 
     return-void
@@ -48,15 +46,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0, p1, p2}, Lcom/commsource/camera/k0;->D(Lcom/meitu/library/camera/MTCamera;Lcom/meitu/library/camera/MTCamera$h;)V
 
-    .line 2
     iget-object p1, p0, Lcom/commsource/autocamera/SimpleCameraViewModel$g;->d:Lcom/commsource/autocamera/SimpleCameraViewModel;
 
     invoke-static {p1, p2}, Lcom/commsource/autocamera/SimpleCameraViewModel;->A(Lcom/commsource/autocamera/SimpleCameraViewModel;Lcom/meitu/library/camera/MTCamera$h;)Lcom/meitu/library/camera/MTCamera$h;
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -69,10 +64,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0, p1}, Lcom/commsource/camera/k0;->E(Lcom/meitu/library/camera/MTCamera$h;)V
 
-    .line 2
     new-instance p1, Lcom/commsource/autocamera/SimpleCameraViewModel$g$a;
 
     const-string v1, "SetExportValueTask"
@@ -81,7 +74,6 @@
 
     invoke-static {p1}, Lcom/commsource/util/c2;->e(Lcom/commsource/util/u2/a;)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -94,7 +86,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/autocamera/SimpleCameraViewModel$g;->d:Lcom/commsource/autocamera/SimpleCameraViewModel;
 
     invoke-static {v1}, Lcom/commsource/autocamera/SimpleCameraViewModel;->F(Lcom/commsource/autocamera/SimpleCameraViewModel;)Landroidx/lifecycle/MutableLiveData;
@@ -107,7 +98,6 @@
 
     invoke-virtual {v1, p1}, Landroidx/lifecycle/MutableLiveData;->postValue(Ljava/lang/Object;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -120,7 +110,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/autocamera/SimpleCameraViewModel$g;->d:Lcom/commsource/autocamera/SimpleCameraViewModel;
 
     invoke-static {v1}, Lcom/commsource/autocamera/SimpleCameraViewModel;->y(Lcom/commsource/autocamera/SimpleCameraViewModel;)Ljava/lang/String;
@@ -129,7 +118,6 @@
 
     invoke-static {v1, v2}, Lcom/commsource/autocamera/SimpleCameraViewModel;->D(Lcom/commsource/autocamera/SimpleCameraViewModel;Ljava/lang/String;)Z
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/autocamera/SimpleCameraViewModel$g;->d:Lcom/commsource/autocamera/SimpleCameraViewModel;
 
     iget-object v1, v1, Lcom/commsource/autocamera/SimpleCameraViewModel;->c:Lcom/commsource/camera/newrender/renderproxy/m;
@@ -140,7 +128,6 @@
 
     if-eqz v1, :cond_0
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/autocamera/SimpleCameraViewModel$g;->d:Lcom/commsource/autocamera/SimpleCameraViewModel;
 
     iget-object v1, v1, Lcom/commsource/autocamera/SimpleCameraViewModel;->c:Lcom/commsource/camera/newrender/renderproxy/m;
@@ -153,7 +140,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/camera/newrender/renderproxy/v/b0;->d2(Z)V
 
-    .line 4
     :cond_0
     iget-object v1, p0, Lcom/commsource/autocamera/SimpleCameraViewModel$g;->d:Lcom/commsource/autocamera/SimpleCameraViewModel;
 
@@ -165,7 +151,6 @@
 
     invoke-virtual {v1, v2}, Landroidx/lifecycle/MutableLiveData;->postValue(Ljava/lang/Object;)V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

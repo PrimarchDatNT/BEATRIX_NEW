@@ -25,7 +25,6 @@
 .method protected constructor <init>(Lcom/google/android/gms/common/api/i;Ljava/lang/String;)V
     .locals 2
 
-    .line 1
     sget-object v0, Lcom/google/android/gms/search/a;->c:Lcom/google/android/gms/common/api/a;
 
     invoke-direct {p0, v0, p1}, Lcom/google/android/gms/common/api/internal/d$a;-><init>(Lcom/google/android/gms/common/api/a;Lcom/google/android/gms/common/api/i;)V
@@ -34,17 +33,14 @@
 
     const/4 v1, 0x3
 
-    .line 2
     invoke-static {v0, v1}, Landroid/util/Log;->isLoggable(Ljava/lang/String;I)Z
 
     move-result v0
 
     iput-boolean v0, p0, Lcom/google/android/gms/internal/icing/u;->u:Z
 
-    .line 3
     iput-object p2, p0, Lcom/google/android/gms/internal/icing/u;->t:Ljava/lang/String;
 
-    .line 4
     invoke-virtual {p1}, Lcom/google/android/gms/common/api/i;->q()Landroid/content/Context;
 
     move-result-object p1
@@ -61,7 +57,6 @@
 .method static synthetic D(Lcom/google/android/gms/internal/icing/u;)Z
     .locals 0
 
-    .line 1
     iget-boolean p0, p0, Lcom/google/android/gms/internal/icing/u;->u:Z
 
     return p0
@@ -72,14 +67,12 @@
 .method protected final synthetic l(Lcom/google/android/gms/common/api/Status;)Lcom/google/android/gms/common/api/p;
     .locals 3
 
-    .line 1
     iget-boolean v0, p0, Lcom/google/android/gms/internal/icing/u;->u:Z
 
     if-eqz v0, :cond_1
 
     const-string v0, "ClearTokenImpl received failure: "
 
-    .line 2
     invoke-virtual {p1}, Lcom/google/android/gms/common/api/Status;->A()Ljava/lang/String;
 
     move-result-object v1
@@ -124,10 +117,8 @@
         }
     .end annotation
 
-    .line 1
     check-cast p1, Lcom/google/android/gms/internal/icing/r;
 
-    .line 2
     iget-boolean v0, p0, Lcom/google/android/gms/internal/icing/u;->u:Z
 
     if-eqz v0, :cond_0
@@ -136,16 +127,13 @@
 
     const-string v1, "ClearTokenImpl started"
 
-    .line 3
     invoke-static {v0, v1}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 4
     :cond_0
     new-instance v0, Lcom/google/android/gms/internal/icing/v;
 
     invoke-direct {v0, p0}, Lcom/google/android/gms/internal/icing/v;-><init>(Lcom/google/android/gms/internal/icing/u;)V
 
-    .line 5
     invoke-virtual {p1}, Lcom/google/android/gms/common/internal/e;->G()Landroid/os/IInterface;
 
     move-result-object p1

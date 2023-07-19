@@ -31,7 +31,6 @@
 .method constructor <init>(Lcom/sdk/imp/w;Lcom/sdk/imp/VastModel;Ljava/lang/String;Lcom/sdk/imp/w$e;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/sdk/imp/w$d;->d:Lcom/sdk/imp/w;
 
     iput-object p2, p0, Lcom/sdk/imp/w$d;->a:Lcom/sdk/imp/VastModel;
@@ -50,7 +49,6 @@
 .method public run()V
     .locals 4
 
-    .line 1
     iget-object v0, p0, Lcom/sdk/imp/w$d;->d:Lcom/sdk/imp/w;
 
     iget-object v1, p0, Lcom/sdk/imp/w$d;->a:Lcom/sdk/imp/VastModel;

@@ -16,13 +16,10 @@
 .method public constructor <init>(Ljavax/net/ssl/X509TrustManager;Ljava/lang/reflect/Method;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p2, p0, Lcom/squareup/okhttp/internal/tls/AndroidTrustRootIndex;->findByIssuerAndSignatureMethod:Ljava/lang/reflect/Method;
 
-    .line 3
     iput-object p1, p0, Lcom/squareup/okhttp/internal/tls/AndroidTrustRootIndex;->trustManager:Ljavax/net/ssl/X509TrustManager;
 
     return-void
@@ -31,7 +28,6 @@
 .method public static get(Ljavax/net/ssl/X509TrustManager;)Lcom/squareup/okhttp/internal/tls/TrustRootIndex;
     .locals 6
 
-    .line 1
     :try_start_0
     invoke-virtual {p0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
@@ -53,10 +49,8 @@
 
     move-result-object v0
 
-    .line 2
     invoke-virtual {v0, v2}, Ljava/lang/reflect/Method;->setAccessible(Z)V
 
-    .line 3
     new-instance v1, Lcom/squareup/okhttp/internal/tls/AndroidTrustRootIndex;
 
     invoke-direct {v1, p0, v0}, Lcom/squareup/okhttp/internal/tls/AndroidTrustRootIndex;-><init>(Ljavax/net/ssl/X509TrustManager;Ljava/lang/reflect/Method;)V
@@ -78,7 +72,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     :try_start_0
     iget-object v1, p0, Lcom/squareup/okhttp/internal/tls/AndroidTrustRootIndex;->findByIssuerAndSignatureMethod:Ljava/lang/reflect/Method;
 
@@ -100,7 +93,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 2
     invoke-virtual {p1}, Ljava/security/cert/TrustAnchor;->getTrustedCert()Ljava/security/cert/X509Certificate;
 
     move-result-object v0
@@ -112,7 +104,6 @@
     :cond_0
     return-object v0
 
-    .line 3
     :catch_1
     new-instance p1, Ljava/lang/AssertionError;
 

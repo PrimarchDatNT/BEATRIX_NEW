@@ -33,7 +33,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/google/common/graph/l0;-><init>(Lcom/google/common/graph/f0;)V
 
     return-void
@@ -52,12 +51,10 @@
     .annotation build Lf/f/f/a/a;
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Lcom/google/common/graph/j0;->W()Lcom/google/common/graph/g0;
 
     move-result-object v0
 
-    .line 2
     iget-object v1, p0, Lcom/google/common/graph/l0;->f:Lcom/google/common/graph/y;
 
     invoke-virtual {v1, p1, v0}, Lcom/google/common/graph/y;->i(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
@@ -89,28 +86,24 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/graph/l0;->e()Z
 
     move-result v0
 
     if-eqz v0, :cond_1
 
-    .line 2
     invoke-virtual {p0}, Lcom/google/common/graph/l0;->y()Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
-    .line 3
     invoke-static {}, Lcom/google/common/graph/j;->p()Lcom/google/common/graph/j;
 
     move-result-object v0
 
     goto :goto_0
 
-    .line 4
     :cond_0
     invoke-static {}, Lcom/google/common/graph/k;->n()Lcom/google/common/graph/k;
 
@@ -118,7 +111,6 @@
 
     goto :goto_0
 
-    .line 5
     :cond_1
     invoke-virtual {p0}, Lcom/google/common/graph/l0;->y()Z
 
@@ -126,14 +118,12 @@
 
     if-eqz v0, :cond_2
 
-    .line 6
     invoke-static {}, Lcom/google/common/graph/p0;->p()Lcom/google/common/graph/p0;
 
     move-result-object v0
 
     goto :goto_0
 
-    .line 7
     :cond_2
     invoke-static {}, Lcom/google/common/graph/q0;->m()Lcom/google/common/graph/q0;
 
@@ -158,10 +148,8 @@
     .annotation build Lf/f/f/a/a;
     .end annotation
 
-    .line 1
     invoke-virtual {p0, p1}, Lcom/google/common/graph/e;->Q(Lcom/google/common/graph/m;)V
 
-    .line 2
     invoke-virtual {p1}, Lcom/google/common/graph/m;->h()Ljava/lang/Object;
 
     move-result-object v0
@@ -190,10 +178,8 @@
 
     const-string v0, "edge"
 
-    .line 1
     invoke-static {p1, v0}, Lcom/google/common/base/t;->F(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 2
     iget-object v0, p0, Lcom/google/common/graph/l0;->g:Lcom/google/common/graph/y;
 
     invoke-virtual {v0, p1}, Lcom/google/common/graph/y;->f(Ljava/lang/Object;)Ljava/lang/Object;
@@ -206,7 +192,6 @@
 
     return v1
 
-    .line 3
     :cond_0
     iget-object v2, p0, Lcom/google/common/graph/l0;->f:Lcom/google/common/graph/y;
 
@@ -216,12 +201,10 @@
 
     check-cast v2, Lcom/google/common/graph/g0;
 
-    .line 4
     invoke-interface {v2, p1}, Lcom/google/common/graph/g0;->h(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v3
 
-    .line 5
     iget-object v4, p0, Lcom/google/common/graph/l0;->f:Lcom/google/common/graph/y;
 
     invoke-virtual {v4, v3}, Lcom/google/common/graph/y;->f(Ljava/lang/Object;)Ljava/lang/Object;
@@ -230,10 +213,8 @@
 
     check-cast v4, Lcom/google/common/graph/g0;
 
-    .line 6
     invoke-interface {v2, p1}, Lcom/google/common/graph/g0;->j(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 7
     invoke-virtual {p0}, Lcom/google/common/graph/l0;->j()Z
 
     move-result v2
@@ -253,7 +234,6 @@
     :cond_1
     invoke-interface {v4, p1, v1}, Lcom/google/common/graph/g0;->d(Ljava/lang/Object;Z)Ljava/lang/Object;
 
-    .line 8
     iget-object v0, p0, Lcom/google/common/graph/l0;->g:Lcom/google/common/graph/y;
 
     invoke-virtual {v0, p1}, Lcom/google/common/graph/y;->j(Ljava/lang/Object;)Ljava/lang/Object;
@@ -274,20 +254,16 @@
 
     const-string v0, "nodeU"
 
-    .line 1
     invoke-static {p1, v0}, Lcom/google/common/base/t;->F(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "nodeV"
 
-    .line 2
     invoke-static {p2, v0}, Lcom/google/common/base/t;->F(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "edge"
 
-    .line 3
     invoke-static {p3, v0}, Lcom/google/common/base/t;->F(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 4
     invoke-virtual {p0, p3}, Lcom/google/common/graph/l0;->T(Ljava/lang/Object;)Z
 
     move-result v0
@@ -296,29 +272,24 @@
 
     if-eqz v0, :cond_0
 
-    .line 5
     invoke-virtual {p0, p3}, Lcom/google/common/graph/l0;->F(Ljava/lang/Object;)Lcom/google/common/graph/m;
 
     move-result-object v0
 
-    .line 6
     invoke-static {p0, p1, p2}, Lcom/google/common/graph/m;->k(Lcom/google/common/graph/e0;Ljava/lang/Object;Ljava/lang/Object;)Lcom/google/common/graph/m;
 
     move-result-object p1
 
-    .line 7
     invoke-virtual {v0, p1}, Lcom/google/common/graph/m;->equals(Ljava/lang/Object;)Z
 
     move-result p2
 
     const-string v2, "Edge %s already exists between the following nodes: %s, so it cannot be reused to connect the following nodes: %s."
 
-    .line 8
     invoke-static {p2, v2, p3, v0, p1}, Lcom/google/common/base/t;->z(ZLjava/lang/String;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)V
 
     return v1
 
-    .line 9
     :cond_0
     iget-object v0, p0, Lcom/google/common/graph/l0;->f:Lcom/google/common/graph/y;
 
@@ -328,7 +299,6 @@
 
     check-cast v0, Lcom/google/common/graph/g0;
 
-    .line 10
     invoke-virtual {p0}, Lcom/google/common/graph/l0;->y()Z
 
     move-result v2
@@ -339,7 +309,6 @@
 
     if-eqz v0, :cond_1
 
-    .line 11
     invoke-interface {v0}, Lcom/google/common/graph/g0;->a()Ljava/util/Set;
 
     move-result-object v2
@@ -356,16 +325,13 @@
     :cond_2
     const-string v2, "Nodes %s and %s are already connected by a different edge. To construct a graph that allows parallel edges, call allowsParallelEdges(true) on the Builder."
 
-    .line 12
     invoke-static {v1, v2, p1, p2}, Lcom/google/common/base/t;->y(ZLjava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
 
-    .line 13
     :cond_3
     invoke-virtual {p1, p2}, Ljava/lang/Object;->equals(Ljava/lang/Object;)Z
 
     move-result v1
 
-    .line 14
     invoke-virtual {p0}, Lcom/google/common/graph/l0;->j()Z
 
     move-result v2
@@ -376,22 +342,18 @@
 
     const-string v4, "Cannot add self-loop edge on node %s, as self-loops are not allowed. To construct a graph that allows self-loops, call allowsSelfLoops(true) on the Builder."
 
-    .line 15
     invoke-static {v2, v4, p1}, Lcom/google/common/base/t;->u(ZLjava/lang/String;Ljava/lang/Object;)V
 
     :cond_4
     if-nez v0, :cond_5
 
-    .line 16
     invoke-direct {p0, p1}, Lcom/google/common/graph/j0;->V(Ljava/lang/Object;)Lcom/google/common/graph/g0;
 
     move-result-object v0
 
-    .line 17
     :cond_5
     invoke-interface {v0, p3, p2}, Lcom/google/common/graph/g0;->e(Ljava/lang/Object;Ljava/lang/Object;)V
 
-    .line 18
     iget-object v0, p0, Lcom/google/common/graph/l0;->f:Lcom/google/common/graph/y;
 
     invoke-virtual {v0, p2}, Lcom/google/common/graph/y;->f(Ljava/lang/Object;)Ljava/lang/Object;
@@ -402,16 +364,13 @@
 
     if-nez v0, :cond_6
 
-    .line 19
     invoke-direct {p0, p2}, Lcom/google/common/graph/j0;->V(Ljava/lang/Object;)Lcom/google/common/graph/g0;
 
     move-result-object v0
 
-    .line 20
     :cond_6
     invoke-interface {v0, p3, p1, v1}, Lcom/google/common/graph/g0;->f(Ljava/lang/Object;Ljava/lang/Object;Z)V
 
-    .line 21
     iget-object p2, p0, Lcom/google/common/graph/l0;->g:Lcom/google/common/graph/y;
 
     invoke-virtual {p2, p3, p1}, Lcom/google/common/graph/y;->i(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
@@ -432,10 +391,8 @@
 
     const-string v0, "node"
 
-    .line 1
     invoke-static {p1, v0}, Lcom/google/common/base/t;->F(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 2
     iget-object v0, p0, Lcom/google/common/graph/l0;->f:Lcom/google/common/graph/y;
 
     invoke-virtual {v0, p1}, Lcom/google/common/graph/y;->f(Ljava/lang/Object;)Ljava/lang/Object;
@@ -450,7 +407,6 @@
 
     return p1
 
-    .line 3
     :cond_0
     invoke-interface {v0}, Lcom/google/common/graph/g0;->g()Ljava/util/Set;
 
@@ -475,12 +431,10 @@
 
     move-result-object v1
 
-    .line 4
     invoke-virtual {p0, v1}, Lcom/google/common/graph/j0;->J(Ljava/lang/Object;)Z
 
     goto :goto_0
 
-    .line 5
     :cond_1
     iget-object v0, p0, Lcom/google/common/graph/l0;->f:Lcom/google/common/graph/y;
 
@@ -504,10 +458,8 @@
 
     const-string v0, "node"
 
-    .line 1
     invoke-static {p1, v0}, Lcom/google/common/base/t;->F(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 2
     invoke-virtual {p0, p1}, Lcom/google/common/graph/l0;->U(Ljava/lang/Object;)Z
 
     move-result v0
@@ -518,7 +470,6 @@
 
     return p1
 
-    .line 3
     :cond_0
     invoke-direct {p0, p1}, Lcom/google/common/graph/j0;->V(Ljava/lang/Object;)Lcom/google/common/graph/g0;
 

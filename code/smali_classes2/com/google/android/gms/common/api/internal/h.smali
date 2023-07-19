@@ -34,7 +34,6 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
     new-instance v0, Ljava/lang/Object;
 
     invoke-direct {v0}, Ljava/lang/Object;-><init>()V
@@ -52,18 +51,14 @@
     .annotation build Lcom/google/android/gms/common/util/d0;
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     invoke-virtual {p1}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
 
     move-result-object v0
 
-    .line 3
     sget v1, Lcom/google/android/gms/common/i$b;->a:I
 
-    .line 4
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getResourcePackageName(I)Ljava/lang/String;
 
     move-result-object v1
@@ -72,7 +67,6 @@
 
     const-string v3, "integer"
 
-    .line 5
     invoke-virtual {v0, v2, v3, v1}, Landroid/content/res/Resources;->getIdentifier(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)I
 
     move-result v1
@@ -83,7 +77,6 @@
 
     if-eqz v1, :cond_1
 
-    .line 6
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getInteger(I)I
 
     move-result v0
@@ -95,41 +88,34 @@
     :cond_0
     xor-int/lit8 v0, v2, 0x1
 
-    .line 7
     iput-boolean v0, p0, Lcom/google/android/gms/common/api/internal/h;->d:Z
 
     move v3, v2
 
     goto :goto_0
 
-    .line 8
     :cond_1
     iput-boolean v2, p0, Lcom/google/android/gms/common/api/internal/h;->d:Z
 
-    .line 9
     :goto_0
     iput-boolean v3, p0, Lcom/google/android/gms/common/api/internal/h;->c:Z
 
-    .line 10
     invoke-static {p1}, Lcom/google/android/gms/common/internal/o1;->a(Landroid/content/Context;)Ljava/lang/String;
 
     move-result-object v0
 
     if-nez v0, :cond_2
 
-    .line 11
     new-instance v0, Lcom/google/android/gms/common/internal/h0;
 
     invoke-direct {v0, p1}, Lcom/google/android/gms/common/internal/h0;-><init>(Landroid/content/Context;)V
 
     const-string p1, "google_app_id"
 
-    .line 12
     invoke-virtual {v0, p1}, Lcom/google/android/gms/common/internal/h0;->a(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
 
-    .line 13
     :cond_2
     invoke-static {v0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
@@ -137,7 +123,6 @@
 
     if-eqz p1, :cond_3
 
-    .line 14
     new-instance p1, Lcom/google/android/gms/common/api/Status;
 
     const/16 v0, 0xa
@@ -150,16 +135,13 @@
 
     const/4 p1, 0x0
 
-    .line 15
     iput-object p1, p0, Lcom/google/android/gms/common/api/internal/h;->a:Ljava/lang/String;
 
     return-void
 
-    .line 16
     :cond_3
     iput-object v0, p0, Lcom/google/android/gms/common/api/internal/h;->a:Ljava/lang/String;
 
-    .line 17
     sget-object p1, Lcom/google/android/gms/common/api/Status;->f:Lcom/google/android/gms/common/api/Status;
 
     iput-object p1, p0, Lcom/google/android/gms/common/api/internal/h;->b:Lcom/google/android/gms/common/api/Status;
@@ -175,23 +157,18 @@
     .annotation build Lcom/google/android/gms/common/util/d0;
     .end annotation
 
-    .line 18
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 19
     iput-object p1, p0, Lcom/google/android/gms/common/api/internal/h;->a:Ljava/lang/String;
 
-    .line 20
     sget-object p1, Lcom/google/android/gms/common/api/Status;->f:Lcom/google/android/gms/common/api/Status;
 
     iput-object p1, p0, Lcom/google/android/gms/common/api/internal/h;->b:Lcom/google/android/gms/common/api/Status;
 
-    .line 21
     iput-boolean p2, p0, Lcom/google/android/gms/common/api/internal/h;->c:Z
 
     xor-int/lit8 p1, p2, 0x1
 
-    .line 22
     iput-boolean p1, p0, Lcom/google/android/gms/common/api/internal/h;->d:Z
 
     return-void
@@ -202,23 +179,19 @@
     .annotation build Lcom/google/android/gms/common/annotation/a;
     .end annotation
 
-    .line 1
     sget-object v0, Lcom/google/android/gms/common/api/internal/h;->e:Ljava/lang/Object;
 
     monitor-enter v0
 
-    .line 2
     :try_start_0
     sget-object v1, Lcom/google/android/gms/common/api/internal/h;->f:Lcom/google/android/gms/common/api/internal/h;
 
     if-eqz v1, :cond_0
 
-    .line 3
     monitor-exit v0
 
     return-object v1
 
-    .line 4
     :cond_0
     new-instance v1, Ljava/lang/IllegalStateException;
 
@@ -257,7 +230,6 @@
     :catchall_0
     move-exception p0
 
-    .line 5
     monitor-exit v0
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
@@ -273,18 +245,15 @@
     .annotation build Lcom/google/android/gms/common/util/d0;
     .end annotation
 
-    .line 1
     sget-object v0, Lcom/google/android/gms/common/api/internal/h;->e:Ljava/lang/Object;
 
     monitor-enter v0
 
     const/4 v1, 0x0
 
-    .line 2
     :try_start_0
     sput-object v1, Lcom/google/android/gms/common/api/internal/h;->f:Lcom/google/android/gms/common/api/internal/h;
 
-    .line 3
     monitor-exit v0
 
     return-void
@@ -306,12 +275,10 @@
 
     const-string v0, "getGoogleAppId"
 
-    .line 1
     invoke-static {v0}, Lcom/google/android/gms/common/api/internal/h;->b(Ljava/lang/String;)Lcom/google/android/gms/common/api/internal/h;
 
     move-result-object v0
 
-    .line 2
     iget-object v0, v0, Lcom/google/android/gms/common/api/internal/h;->a:Ljava/lang/String;
 
     return-object v0
@@ -324,28 +291,23 @@
 
     const-string v0, "Context must not be null."
 
-    .line 1
     invoke-static {p0, v0}, Lcom/google/android/gms/common/internal/b0;->l(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 2
     sget-object v0, Lcom/google/android/gms/common/api/internal/h;->e:Ljava/lang/Object;
 
     monitor-enter v0
 
-    .line 3
     :try_start_0
     sget-object v1, Lcom/google/android/gms/common/api/internal/h;->f:Lcom/google/android/gms/common/api/internal/h;
 
     if-nez v1, :cond_0
 
-    .line 4
     new-instance v1, Lcom/google/android/gms/common/api/internal/h;
 
     invoke-direct {v1, p0}, Lcom/google/android/gms/common/api/internal/h;-><init>(Landroid/content/Context;)V
 
     sput-object v1, Lcom/google/android/gms/common/api/internal/h;->f:Lcom/google/android/gms/common/api/internal/h;
 
-    .line 5
     :cond_0
     sget-object p0, Lcom/google/android/gms/common/api/internal/h;->f:Lcom/google/android/gms/common/api/internal/h;
 
@@ -358,7 +320,6 @@
     :catchall_0
     move-exception p0
 
-    .line 6
     monitor-exit v0
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
@@ -373,26 +334,21 @@
 
     const-string v0, "Context must not be null."
 
-    .line 1
     invoke-static {p0, v0}, Lcom/google/android/gms/common/internal/b0;->l(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string p0, "App ID must be nonempty."
 
-    .line 2
     invoke-static {p1, p0}, Lcom/google/android/gms/common/internal/b0;->h(Ljava/lang/String;Ljava/lang/Object;)Ljava/lang/String;
 
-    .line 3
     sget-object p0, Lcom/google/android/gms/common/api/internal/h;->e:Ljava/lang/Object;
 
     monitor-enter p0
 
-    .line 4
     :try_start_0
     sget-object v0, Lcom/google/android/gms/common/api/internal/h;->f:Lcom/google/android/gms/common/api/internal/h;
 
     if-eqz v0, :cond_0
 
-    .line 5
     invoke-virtual {v0, p1}, Lcom/google/android/gms/common/api/internal/h;->a(Ljava/lang/String;)Lcom/google/android/gms/common/api/Status;
 
     move-result-object p1
@@ -401,13 +357,11 @@
 
     return-object p1
 
-    .line 6
     :cond_0
     new-instance v0, Lcom/google/android/gms/common/api/internal/h;
 
     invoke-direct {v0, p1, p2}, Lcom/google/android/gms/common/api/internal/h;-><init>(Ljava/lang/String;Z)V
 
-    .line 7
     sput-object v0, Lcom/google/android/gms/common/api/internal/h;->f:Lcom/google/android/gms/common/api/internal/h;
 
     iget-object p1, v0, Lcom/google/android/gms/common/api/internal/h;->b:Lcom/google/android/gms/common/api/Status;
@@ -419,7 +373,6 @@
     :catchall_0
     move-exception p1
 
-    .line 8
     monitor-exit p0
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
@@ -434,12 +387,10 @@
 
     const-string v0, "isMeasurementEnabled"
 
-    .line 1
     invoke-static {v0}, Lcom/google/android/gms/common/api/internal/h;->b(Ljava/lang/String;)Lcom/google/android/gms/common/api/internal/h;
 
     move-result-object v0
 
-    .line 2
     iget-object v1, v0, Lcom/google/android/gms/common/api/internal/h;->b:Lcom/google/android/gms/common/api/Status;
 
     invoke-virtual {v1}, Lcom/google/android/gms/common/api/Status;->V()Z
@@ -469,12 +420,10 @@
 
     const-string v0, "isMeasurementExplicitlyDisabled"
 
-    .line 1
     invoke-static {v0}, Lcom/google/android/gms/common/api/internal/h;->b(Ljava/lang/String;)Lcom/google/android/gms/common/api/internal/h;
 
     move-result-object v0
 
-    .line 2
     iget-boolean v0, v0, Lcom/google/android/gms/common/api/internal/h;->d:Z
 
     return v0
@@ -490,7 +439,6 @@
     .annotation build Lcom/google/android/gms/common/util/d0;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/common/api/internal/h;->a:Ljava/lang/String;
 
     if-eqz v0, :cond_0
@@ -501,7 +449,6 @@
 
     if-nez p1, :cond_0
 
-    .line 2
     new-instance p1, Lcom/google/android/gms/common/api/Status;
 
     const/16 v0, 0xa
@@ -540,7 +487,6 @@
 
     return-object p1
 
-    .line 3
     :cond_0
     sget-object p1, Lcom/google/android/gms/common/api/Status;->f:Lcom/google/android/gms/common/api/Status;
 

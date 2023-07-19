@@ -38,7 +38,6 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
     const-class v0, Lio/grpc/stub/ClientCalls$ThreadlessExecutor;
 
     invoke-virtual {v0}, Ljava/lang/Class;->getName()Ljava/lang/String;
@@ -57,7 +56,6 @@
 .method constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/util/concurrent/ConcurrentLinkedQueue;-><init>()V
 
     return-void
@@ -71,7 +69,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Ljava/lang/Thread;->isInterrupted()Z
 
     move-result p0
@@ -80,7 +77,6 @@
 
     return-void
 
-    .line 2
     :cond_0
     new-instance p0, Ljava/lang/InterruptedException;
 
@@ -94,10 +90,8 @@
 .method public execute(Ljava/lang/Runnable;)V
     .locals 0
 
-    .line 1
     invoke-virtual {p0, p1}, Ljava/util/concurrent/ConcurrentLinkedQueue;->add(Ljava/lang/Object;)Z
 
-    .line 2
     iget-object p1, p0, Lio/grpc/stub/ClientCalls$ThreadlessExecutor;->waiter:Ljava/lang/Thread;
 
     invoke-static {p1}, Ljava/util/concurrent/locks/LockSupport;->unpark(Ljava/lang/Thread;)V
@@ -113,15 +107,12 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {}, Ljava/lang/Thread;->currentThread()Ljava/lang/Thread;
 
     move-result-object v0
 
-    .line 2
     invoke-static {v0}, Lio/grpc/stub/ClientCalls$ThreadlessExecutor;->throwIfInterrupted(Ljava/lang/Thread;)V
 
-    .line 3
     invoke-virtual {p0}, Ljava/util/concurrent/ConcurrentLinkedQueue;->poll()Ljava/lang/Object;
 
     move-result-object v1
@@ -130,13 +121,11 @@
 
     if-nez v1, :cond_1
 
-    .line 4
     iput-object v0, p0, Lio/grpc/stub/ClientCalls$ThreadlessExecutor;->waiter:Ljava/lang/Thread;
 
     :goto_0
     const/4 v1, 0x0
 
-    .line 5
     :try_start_0
     invoke-virtual {p0}, Ljava/util/concurrent/ConcurrentLinkedQueue;->poll()Ljava/lang/Object;
 
@@ -146,17 +135,14 @@
 
     if-nez v2, :cond_0
 
-    .line 6
     invoke-static {p0}, Ljava/util/concurrent/locks/LockSupport;->park(Ljava/lang/Object;)V
 
-    .line 7
     invoke-static {v0}, Lio/grpc/stub/ClientCalls$ThreadlessExecutor;->throwIfInterrupted(Ljava/lang/Thread;)V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
     goto :goto_0
 
-    .line 8
     :cond_0
     iput-object v1, p0, Lio/grpc/stub/ClientCalls$ThreadlessExecutor;->waiter:Ljava/lang/Thread;
 
@@ -171,7 +157,6 @@
 
     throw v0
 
-    .line 9
     :cond_1
     :goto_1
     :try_start_1
@@ -184,7 +169,6 @@
     :catchall_1
     move-exception v0
 
-    .line 10
     sget-object v1, Lio/grpc/stub/ClientCalls$ThreadlessExecutor;->log:Ljava/util/logging/Logger;
 
     sget-object v2, Ljava/util/logging/Level;->WARNING:Ljava/util/logging/Level;
@@ -193,7 +177,6 @@
 
     invoke-virtual {v1, v2, v3, v0}, Ljava/util/logging/Logger;->log(Ljava/util/logging/Level;Ljava/lang/String;Ljava/lang/Throwable;)V
 
-    .line 11
     :goto_2
     invoke-virtual {p0}, Ljava/util/concurrent/ConcurrentLinkedQueue;->poll()Ljava/lang/Object;
 

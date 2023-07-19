@@ -70,7 +70,6 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
     new-instance v0, Lcom/google/common/collect/MapMaker;
 
     invoke-direct {v0}, Lcom/google/common/collect/MapMaker;-><init>()V
@@ -85,7 +84,6 @@
 
     sput-object v0, Lcom/google/common/util/concurrent/CycleDetectingLockFactory;->b:Ljava/util/concurrent/ConcurrentMap;
 
-    .line 2
     const-class v0, Lcom/google/common/util/concurrent/CycleDetectingLockFactory;
 
     invoke-virtual {v0}, Ljava/lang/Class;->getName()Ljava/lang/String;
@@ -98,7 +96,6 @@
 
     sput-object v0, Lcom/google/common/util/concurrent/CycleDetectingLockFactory;->c:Ljava/util/logging/Logger;
 
-    .line 3
     new-instance v0, Lcom/google/common/util/concurrent/CycleDetectingLockFactory$a;
 
     invoke-direct {v0}, Lcom/google/common/util/concurrent/CycleDetectingLockFactory$a;-><init>()V
@@ -111,10 +108,8 @@
 .method private constructor <init>(Lcom/google/common/util/concurrent/CycleDetectingLockFactory$d;)V
     .locals 0
 
-    .line 2
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 3
     invoke-static {p1}, Lcom/google/common/base/t;->E(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -129,7 +124,6 @@
 .method synthetic constructor <init>(Lcom/google/common/util/concurrent/CycleDetectingLockFactory$d;Lcom/google/common/util/concurrent/CycleDetectingLockFactory$a;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/google/common/util/concurrent/CycleDetectingLockFactory;-><init>(Lcom/google/common/util/concurrent/CycleDetectingLockFactory$d;)V
 
     return-void
@@ -138,14 +132,12 @@
 .method private a(Lcom/google/common/util/concurrent/CycleDetectingLockFactory$b;)V
     .locals 2
 
-    .line 1
     invoke-interface {p1}, Lcom/google/common/util/concurrent/CycleDetectingLockFactory$b;->isAcquiredByCurrentThread()Z
 
     move-result v0
 
     if-nez v0, :cond_0
 
-    .line 2
     sget-object v0, Lcom/google/common/util/concurrent/CycleDetectingLockFactory;->d:Ljava/lang/ThreadLocal;
 
     invoke-virtual {v0}, Ljava/lang/ThreadLocal;->get()Ljava/lang/Object;
@@ -154,17 +146,14 @@
 
     check-cast v0, Ljava/util/ArrayList;
 
-    .line 3
     invoke-interface {p1}, Lcom/google/common/util/concurrent/CycleDetectingLockFactory$b;->getLockGraphNode()Lcom/google/common/util/concurrent/CycleDetectingLockFactory$c;
 
     move-result-object p1
 
-    .line 4
     iget-object v1, p0, Lcom/google/common/util/concurrent/CycleDetectingLockFactory;->a:Lcom/google/common/util/concurrent/CycleDetectingLockFactory$d;
 
     invoke-virtual {p1, v1, v0}, Lcom/google/common/util/concurrent/CycleDetectingLockFactory$c;->b(Lcom/google/common/util/concurrent/CycleDetectingLockFactory$d;Ljava/util/List;)V
 
-    .line 5
     invoke-virtual {v0, p1}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
     :cond_0
@@ -174,7 +163,6 @@
 .method static synthetic b()Ljava/util/logging/Logger;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/google/common/util/concurrent/CycleDetectingLockFactory;->c:Ljava/util/logging/Logger;
 
     return-object v0
@@ -183,7 +171,6 @@
 .method static synthetic c(Lcom/google/common/util/concurrent/CycleDetectingLockFactory;Lcom/google/common/util/concurrent/CycleDetectingLockFactory$b;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/google/common/util/concurrent/CycleDetectingLockFactory;->a(Lcom/google/common/util/concurrent/CycleDetectingLockFactory$b;)V
 
     return-void
@@ -192,7 +179,6 @@
 .method static synthetic d(Lcom/google/common/util/concurrent/CycleDetectingLockFactory$b;)V
     .locals 0
 
-    .line 1
     invoke-static {p0}, Lcom/google/common/util/concurrent/CycleDetectingLockFactory;->h(Lcom/google/common/util/concurrent/CycleDetectingLockFactory$b;)V
 
     return-void
@@ -217,27 +203,22 @@
     .annotation build Lf/f/e/a/d;
     .end annotation
 
-    .line 1
     invoke-static {p0}, Lcom/google/common/collect/Maps;->W(Ljava/lang/Class;)Ljava/util/EnumMap;
 
     move-result-object v0
 
-    .line 2
     invoke-virtual {p0}, Ljava/lang/Class;->getEnumConstants()[Ljava/lang/Object;
 
     move-result-object p0
 
     check-cast p0, [Ljava/lang/Enum;
 
-    .line 3
     array-length v1, p0
 
-    .line 4
     invoke-static {v1}, Lcom/google/common/collect/Lists;->u(I)Ljava/util/ArrayList;
 
     move-result-object v2
 
-    .line 5
     array-length v3, p0
 
     const/4 v4, 0x0
@@ -249,7 +230,6 @@
 
     aget-object v6, p0, v5
 
-    .line 6
     new-instance v7, Lcom/google/common/util/concurrent/CycleDetectingLockFactory$c;
 
     invoke-static {v6}, Lcom/google/common/util/concurrent/CycleDetectingLockFactory;->f(Ljava/lang/Enum;)Ljava/lang/String;
@@ -258,10 +238,8 @@
 
     invoke-direct {v7, v8}, Lcom/google/common/util/concurrent/CycleDetectingLockFactory$c;-><init>(Ljava/lang/String;)V
 
-    .line 7
     invoke-virtual {v2, v7}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    .line 8
     invoke-virtual {v0, v6, v7}, Ljava/util/EnumMap;->put(Ljava/lang/Enum;Ljava/lang/Object;)Ljava/lang/Object;
 
     add-int/lit8 v5, v5, 0x1
@@ -274,7 +252,6 @@
     :goto_1
     if-ge p0, v1, :cond_1
 
-    .line 9
     invoke-virtual {v2, p0}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
 
     move-result-object v3
@@ -299,7 +276,6 @@
 
     if-ge v4, p0, :cond_2
 
-    .line 10
     invoke-virtual {v2, v4}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
 
     move-result-object p0
@@ -318,7 +294,6 @@
 
     goto :goto_2
 
-    .line 11
     :cond_2
     invoke-static {v0}, Ljava/util/Collections;->unmodifiableMap(Ljava/util/Map;)Ljava/util/Map;
 
@@ -338,7 +313,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -387,7 +361,6 @@
         }
     .end annotation
 
-    .line 1
     sget-object v0, Lcom/google/common/util/concurrent/CycleDetectingLockFactory;->b:Ljava/util/concurrent/ConcurrentMap;
 
     invoke-interface {v0, p0}, Ljava/util/concurrent/ConcurrentMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
@@ -400,20 +373,17 @@
 
     return-object v1
 
-    .line 2
     :cond_0
     invoke-static {p0}, Lcom/google/common/util/concurrent/CycleDetectingLockFactory;->e(Ljava/lang/Class;)Ljava/util/Map;
 
     move-result-object v1
 
-    .line 3
     invoke-interface {v0, p0, v1}, Ljava/util/concurrent/ConcurrentMap;->putIfAbsent(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p0
 
     check-cast p0, Ljava/util/Map;
 
-    .line 4
     invoke-static {p0, v1}, Lcom/google/common/base/p;->a(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p0
@@ -426,14 +396,12 @@
 .method private static h(Lcom/google/common/util/concurrent/CycleDetectingLockFactory$b;)V
     .locals 3
 
-    .line 1
     invoke-interface {p0}, Lcom/google/common/util/concurrent/CycleDetectingLockFactory$b;->isAcquiredByCurrentThread()Z
 
     move-result v0
 
     if-nez v0, :cond_1
 
-    .line 2
     sget-object v0, Lcom/google/common/util/concurrent/CycleDetectingLockFactory;->d:Ljava/lang/ThreadLocal;
 
     invoke-virtual {v0}, Ljava/lang/ThreadLocal;->get()Ljava/lang/Object;
@@ -442,12 +410,10 @@
 
     check-cast v0, Ljava/util/ArrayList;
 
-    .line 3
     invoke-interface {p0}, Lcom/google/common/util/concurrent/CycleDetectingLockFactory$b;->getLockGraphNode()Lcom/google/common/util/concurrent/CycleDetectingLockFactory$c;
 
     move-result-object p0
 
-    .line 4
     invoke-virtual {v0}, Ljava/util/ArrayList;->size()I
 
     move-result v1
@@ -457,14 +423,12 @@
     :goto_0
     if-ltz v1, :cond_1
 
-    .line 5
     invoke-virtual {v0, v1}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
 
     move-result-object v2
 
     if-ne v2, p0, :cond_0
 
-    .line 6
     invoke-virtual {v0, v1}, Ljava/util/ArrayList;->remove(I)Ljava/lang/Object;
 
     goto :goto_1
@@ -482,7 +446,6 @@
 .method public static i(Lcom/google/common/util/concurrent/CycleDetectingLockFactory$d;)Lcom/google/common/util/concurrent/CycleDetectingLockFactory;
     .locals 1
 
-    .line 1
     new-instance v0, Lcom/google/common/util/concurrent/CycleDetectingLockFactory;
 
     invoke-direct {v0, p0}, Lcom/google/common/util/concurrent/CycleDetectingLockFactory;-><init>(Lcom/google/common/util/concurrent/CycleDetectingLockFactory$d;)V
@@ -506,18 +469,14 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p0}, Lcom/google/common/base/t;->E(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 2
     invoke-static {p1}, Lcom/google/common/base/t;->E(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 3
     invoke-static {p0}, Lcom/google/common/util/concurrent/CycleDetectingLockFactory;->g(Ljava/lang/Class;)Ljava/util/Map;
 
     move-result-object p0
 
-    .line 4
     new-instance v0, Lcom/google/common/util/concurrent/CycleDetectingLockFactory$e;
 
     invoke-direct {v0, p1, p0}, Lcom/google/common/util/concurrent/CycleDetectingLockFactory$e;-><init>(Lcom/google/common/util/concurrent/CycleDetectingLockFactory$d;Ljava/util/Map;)V
@@ -532,7 +491,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-virtual {p0, p1, v0}, Lcom/google/common/util/concurrent/CycleDetectingLockFactory;->l(Ljava/lang/String;Z)Ljava/util/concurrent/locks/ReentrantLock;
 
     move-result-object p1
@@ -543,7 +501,6 @@
 .method public l(Ljava/lang/String;Z)Ljava/util/concurrent/locks/ReentrantLock;
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/util/concurrent/CycleDetectingLockFactory;->a:Lcom/google/common/util/concurrent/CycleDetectingLockFactory$d;
 
     sget-object v1, Lcom/google/common/util/concurrent/CycleDetectingLockFactory$Policies;->DISABLED:Lcom/google/common/util/concurrent/CycleDetectingLockFactory$Policies;
@@ -578,7 +535,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-virtual {p0, p1, v0}, Lcom/google/common/util/concurrent/CycleDetectingLockFactory;->n(Ljava/lang/String;Z)Ljava/util/concurrent/locks/ReentrantReadWriteLock;
 
     move-result-object p1
@@ -589,7 +545,6 @@
 .method public n(Ljava/lang/String;Z)Ljava/util/concurrent/locks/ReentrantReadWriteLock;
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/util/concurrent/CycleDetectingLockFactory;->a:Lcom/google/common/util/concurrent/CycleDetectingLockFactory$d;
 
     sget-object v1, Lcom/google/common/util/concurrent/CycleDetectingLockFactory$Policies;->DISABLED:Lcom/google/common/util/concurrent/CycleDetectingLockFactory$Policies;

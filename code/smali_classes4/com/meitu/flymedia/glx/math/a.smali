@@ -80,7 +80,6 @@
 
     const-wide/high16 v1, 0x40d0000000000000L    # 16384.0
 
-    .line 1
     invoke-static {v1, v2}, Ljava/lang/Math;->sqrt(D)D
 
     move-result-wide v1
@@ -97,10 +96,8 @@
 
     div-float/2addr v2, v1
 
-    .line 2
     sput v2, Lcom/meitu/flymedia/glx/math/a;->v:F
 
-    .line 3
     new-instance v1, Lcom/meitu/flymedia/glx/math/RandomXS128;
 
     invoke-direct {v1}, Lcom/meitu/flymedia/glx/math/RandomXS128;-><init>()V
@@ -115,7 +112,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -128,7 +124,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/meitu/flymedia/glx/math/a;->w:Ljava/util/Random;
 
     invoke-virtual {v1}, Ljava/util/Random;->nextDouble()D
@@ -153,7 +148,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/meitu/flymedia/glx/math/a;->w:Ljava/util/Random;
 
     invoke-virtual {v1}, Ljava/util/Random;->nextDouble()D
@@ -182,7 +176,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/meitu/flymedia/glx/math/a;->w:Ljava/util/Random;
 
     invoke-virtual {v1}, Ljava/util/Random;->nextBoolean()Z
@@ -201,7 +194,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/meitu/flymedia/glx/math/a;->v()F
 
     move-result v1
@@ -230,7 +222,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/meitu/flymedia/glx/math/a;->w:Ljava/util/Random;
 
     invoke-virtual {v1}, Ljava/util/Random;->nextInt()I
@@ -253,7 +244,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/meitu/flymedia/glx/math/a;->w:Ljava/util/Random;
 
     invoke-virtual {v1}, Ljava/util/Random;->nextFloat()F
@@ -280,7 +270,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/meitu/flymedia/glx/math/a;->w:Ljava/util/Random;
 
     invoke-virtual {v1}, Ljava/util/Random;->nextFloat()F
@@ -317,7 +306,6 @@
 
     add-float/2addr v1, p0
 
-    .line 1
     invoke-static {p0, p1, v1}, Lcom/meitu/flymedia/glx/math/a;->I(FFF)F
 
     move-result p0
@@ -334,7 +322,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/meitu/flymedia/glx/math/a;->w:Ljava/util/Random;
 
     invoke-virtual {v1}, Ljava/util/Random;->nextFloat()F
@@ -357,7 +344,6 @@
 
     float-to-double p1, v1
 
-    .line 2
     invoke-static {p1, p2}, Ljava/lang/Math;->sqrt(D)D
 
     move-result-wide p1
@@ -383,7 +369,6 @@
 
     float-to-double v1, p0
 
-    .line 3
     invoke-static {v1, v2}, Ljava/lang/Math;->sqrt(D)D
 
     move-result-wide v1
@@ -414,7 +399,6 @@
 
     add-int/lit16 p0, p0, -0x4000
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p0
@@ -433,7 +417,6 @@
 
     float-to-int p0, p0
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p0
@@ -446,7 +429,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/meitu/flymedia/glx/math/a$b;->a:[F
 
     const v2, 0x4522f983
@@ -471,7 +453,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/meitu/flymedia/glx/math/a$b;->a:[F
 
     const v2, 0x42360b61
@@ -545,7 +526,6 @@
     :cond_3
     move v4, p1
 
-    .line 1
     :goto_1
     sget v5, Lcom/meitu/flymedia/glx/math/a;->v:F
 
@@ -563,7 +543,6 @@
 
     float-to-double p0, p1
 
-    .line 2
     invoke-static {v4, v5, p0, p1}, Ljava/lang/Math;->atan2(DD)D
 
     move-result-wide p0
@@ -587,7 +566,6 @@
 
     float-to-int p0, p0
 
-    .line 3
     sget-object v2, Lcom/meitu/flymedia/glx/math/a$a;->a:[F
 
     sget v4, Lcom/meitu/flymedia/glx/math/a;->u:I
@@ -624,7 +602,6 @@
 
     add-int/lit16 p0, p0, -0x4000
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p0
@@ -645,7 +622,6 @@
 
     double-to-int p0, v1
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p0
@@ -662,7 +638,6 @@
 
     if-gez v1, :cond_0
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-wide p2
@@ -672,12 +647,10 @@
 
     if-lez p2, :cond_1
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-wide p4
 
-    .line 3
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -695,7 +668,6 @@
 
     if-gez v1, :cond_0
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
@@ -705,12 +677,10 @@
 
     if-lez p1, :cond_1
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p2
 
-    .line 3
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -726,7 +696,6 @@
 
     if-ge p0, p1, :cond_0
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
@@ -734,12 +703,10 @@
     :cond_0
     if-le p0, p2, :cond_1
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p2
 
-    .line 3
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -757,7 +724,6 @@
 
     if-gez v1, :cond_0
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-wide p2
@@ -767,12 +733,10 @@
 
     if-lez p2, :cond_1
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-wide p4
 
-    .line 3
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -788,7 +752,6 @@
 
     if-ge p0, p1, :cond_0
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
@@ -796,12 +759,10 @@
     :cond_0
     if-le p0, p2, :cond_1
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p2
 
-    .line 3
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -815,7 +776,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/meitu/flymedia/glx/math/a$b;->a:[F
 
     const v2, 0x3fc90fdb
@@ -844,7 +804,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/meitu/flymedia/glx/math/a$b;->a:[F
 
     const/high16 v2, 0x42b40000    # 90.0f
@@ -883,7 +842,6 @@
 
     add-int/lit16 p0, p0, -0x4000
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p0
@@ -898,7 +856,6 @@
 
     float-to-int p0, p0
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p0
@@ -913,7 +870,6 @@
 
     sub-float/2addr p0, p1
 
-    .line 1
     invoke-static {p0}, Ljava/lang/Math;->abs(F)F
 
     move-result p0
@@ -946,7 +902,6 @@
 
     sub-float/2addr p0, p1
 
-    .line 1
     invoke-static {p0}, Ljava/lang/Math;->abs(F)F
 
     move-result p0
@@ -990,7 +945,6 @@
     :cond_0
     const/4 p0, 0x0
 
-    .line 1
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1004,7 +958,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p0}, Ljava/lang/Math;->abs(F)F
 
     move-result p0
@@ -1035,7 +988,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p0}, Ljava/lang/Math;->abs(F)F
 
     move-result p0
@@ -1070,7 +1022,6 @@
 
     add-float/2addr p0, p1
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p0
@@ -1085,7 +1036,6 @@
 
     float-to-double v1, p1
 
-    .line 1
     invoke-static {v1, v2}, Ljava/lang/Math;->log(D)D
 
     move-result-wide v1
@@ -1114,7 +1064,6 @@
 
     const/high16 v1, 0x40000000    # 2.0f
 
-    .line 1
     invoke-static {v1, p0}, Lcom/meitu/flymedia/glx/math/a;->s(FF)F
 
     move-result p0
@@ -1135,7 +1084,6 @@
 
     if-nez p0, :cond_0
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
@@ -1165,7 +1113,6 @@
 
     add-int/2addr p0, v1
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p0
@@ -1178,7 +1125,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/meitu/flymedia/glx/math/a;->w:Ljava/util/Random;
 
     invoke-virtual {v1}, Ljava/util/Random;->nextFloat()F
@@ -1197,7 +1143,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/meitu/flymedia/glx/math/a;->w:Ljava/util/Random;
 
     invoke-virtual {v1}, Ljava/util/Random;->nextFloat()F
@@ -1218,7 +1163,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/meitu/flymedia/glx/math/a;->w:Ljava/util/Random;
 
     invoke-virtual {v1}, Ljava/util/Random;->nextFloat()F
@@ -1243,7 +1187,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/meitu/flymedia/glx/math/a;->w:Ljava/util/Random;
 
     add-int/lit8 p0, p0, 0x1
@@ -1264,7 +1207,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/meitu/flymedia/glx/math/a;->w:Ljava/util/Random;
 
     sub-int/2addr p1, p0

@@ -62,7 +62,6 @@
 .method public bridge synthetic invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
     .locals 0
 
-    .line 1
     check-cast p1, Lkshark/v;
 
     check-cast p2, Lkshark/HeapObject$HeapInstance;
@@ -95,14 +94,12 @@
 
     const-string v0, "android.app.Activity"
 
-    .line 2
     invoke-virtual {p2, v0}, Lkshark/HeapObject$HeapInstance;->r(Ljava/lang/String;)Z
 
     move-result v1
 
     if-nez v1, :cond_3
 
-    .line 3
     invoke-static {p2}, Lkshark/b;->e(Lkshark/HeapObject$HeapInstance;)Lkshark/HeapObject$HeapInstance;
 
     move-result-object v1
@@ -111,14 +108,12 @@
 
     const-string v2, "mDestroyed"
 
-    .line 4
     invoke-virtual {v1, v0, v2}, Lkshark/HeapObject$HeapInstance;->j(Ljava/lang/String;Ljava/lang/String;)Lkshark/h;
 
     move-result-object v0
 
     if-eqz v0, :cond_3
 
-    .line 5
     invoke-virtual {v0}, Lkshark/h;->c()Lkshark/j;
 
     move-result-object v0
@@ -138,7 +133,6 @@
 
     if-eqz v0, :cond_1
 
-    .line 6
     invoke-virtual {p1}, Lkshark/v;->c()Ljava/util/Set;
 
     move-result-object p1
@@ -165,7 +159,6 @@
 
     goto :goto_0
 
-    .line 7
     :cond_1
     invoke-virtual {p1}, Lkshark/v;->b()Ljava/util/LinkedHashSet;
 
@@ -193,7 +186,6 @@
 
     goto :goto_0
 
-    .line 8
     :cond_2
     invoke-virtual {p1}, Lkshark/v;->b()Ljava/util/LinkedHashSet;
 

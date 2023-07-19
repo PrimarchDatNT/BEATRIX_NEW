@@ -36,7 +36,6 @@
 .method constructor <init>(Lcom/google/firebase/crashlytics/internal/common/h;Ljava/util/concurrent/Callable;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/firebase/crashlytics/internal/common/h$c;->b:Lcom/google/firebase/crashlytics/internal/common/h;
 
     iput-object p2, p0, Lcom/google/firebase/crashlytics/internal/common/h$c;->a:Ljava/util/concurrent/Callable;
@@ -69,7 +68,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object p1, p0, Lcom/google/firebase/crashlytics/internal/common/h$c;->a:Ljava/util/concurrent/Callable;
 
     invoke-interface {p1}, Ljava/util/concurrent/Callable;->call()Ljava/lang/Object;

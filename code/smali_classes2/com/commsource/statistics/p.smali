@@ -18,7 +18,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/commsource/statistics/p;
 
     invoke-direct {v1}, Lcom/commsource/statistics/p;-><init>()V
@@ -33,7 +32,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -63,84 +61,70 @@
 
     new-array v1, v1, [Lcom/meitu/library/abtest/f/b;
 
-    .line 1
     new-instance v2, Lcom/meitu/library/abtest/f/b;
 
     const/16 v3, 0xa
 
     new-array v4, v3, [I
 
-    .line 2
     fill-array-data v4, :array_0
 
     const/16 v5, 0x2572
 
     const/16 v6, 0x4f6
 
-    .line 3
     invoke-direct {v2, v5, v6, v4}, Lcom/meitu/library/abtest/f/b;-><init>(II[I)V
 
     const/4 v4, 0x0
 
     aput-object v2, v1, v4
 
-    .line 4
     new-instance v2, Lcom/meitu/library/abtest/f/b;
 
     new-array v4, v3, [I
 
-    .line 5
     fill-array-data v4, :array_1
 
     const/16 v5, 0x2573
 
-    .line 6
     invoke-direct {v2, v5, v6, v4}, Lcom/meitu/library/abtest/f/b;-><init>(II[I)V
 
     const/4 v4, 0x1
 
     aput-object v2, v1, v4
 
-    .line 7
     new-instance v2, Lcom/meitu/library/abtest/f/b;
 
     new-array v4, v3, [I
 
-    .line 8
     fill-array-data v4, :array_2
 
     const/16 v5, 0x2570
 
-    .line 9
     invoke-direct {v2, v5, v6, v4}, Lcom/meitu/library/abtest/f/b;-><init>(II[I)V
 
     const/4 v4, 0x2
 
     aput-object v2, v1, v4
 
-    .line 10
     new-instance v2, Lcom/meitu/library/abtest/f/b;
 
     new-array v3, v3, [I
 
-    .line 11
     fill-array-data v3, :array_3
 
     const/16 v4, 0x2571
 
-    .line 12
     invoke-direct {v2, v4, v6, v3}, Lcom/meitu/library/abtest/f/b;-><init>(II[I)V
 
     const/4 v3, 0x3
 
     aput-object v2, v1, v3
 
-    .line 13
     invoke-static {v1}, Lcotlin/collections/s;->P([Ljava/lang/Object;)Ljava/util/List;
 
     move-result-object v1
 
-    .line 14
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1

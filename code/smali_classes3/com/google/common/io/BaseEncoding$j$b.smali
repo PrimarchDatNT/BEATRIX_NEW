@@ -32,7 +32,6 @@
 .method constructor <init>(Lcom/google/common/io/BaseEncoding$j;Ljava/io/Reader;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/common/io/BaseEncoding$j$b;->g:Lcom/google/common/io/BaseEncoding$j;
 
     iput-object p2, p0, Lcom/google/common/io/BaseEncoding$j$b;->f:Ljava/io/Reader;
@@ -41,16 +40,12 @@
 
     const/4 p1, 0x0
 
-    .line 2
     iput p1, p0, Lcom/google/common/io/BaseEncoding$j$b;->a:I
 
-    .line 3
     iput p1, p0, Lcom/google/common/io/BaseEncoding$j$b;->b:I
 
-    .line 4
     iput p1, p0, Lcom/google/common/io/BaseEncoding$j$b;->c:I
 
-    .line 5
     iput-boolean p1, p0, Lcom/google/common/io/BaseEncoding$j$b;->d:Z
 
     return-void
@@ -66,7 +61,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/io/BaseEncoding$j$b;->f:Ljava/io/Reader;
 
     invoke-virtual {v0}, Ljava/io/Reader;->close()V
@@ -82,7 +76,6 @@
         }
     .end annotation
 
-    .line 1
     :cond_0
     :goto_0
     iget-object v0, p0, Lcom/google/common/io/BaseEncoding$j$b;->f:Ljava/io/Reader;
@@ -95,7 +88,6 @@
 
     if-ne v0, v1, :cond_3
 
-    .line 2
     iget-boolean v0, p0, Lcom/google/common/io/BaseEncoding$j$b;->d:Z
 
     if-nez v0, :cond_2
@@ -114,7 +106,6 @@
 
     goto :goto_1
 
-    .line 3
     :cond_1
     new-instance v0, Lcom/google/common/io/BaseEncoding$DecodingException;
 
@@ -142,7 +133,6 @@
     :goto_1
     return v1
 
-    .line 4
     :cond_3
     iget v1, p0, Lcom/google/common/io/BaseEncoding$j$b;->c:I
 
@@ -154,7 +144,6 @@
 
     int-to-char v0, v0
 
-    .line 5
     iget-object v1, p0, Lcom/google/common/io/BaseEncoding$j$b;->g:Lcom/google/common/io/BaseEncoding$j;
 
     iget-object v1, v1, Lcom/google/common/io/BaseEncoding$j;->g:Ljava/lang/Character;
@@ -167,7 +156,6 @@
 
     if-ne v1, v0, :cond_6
 
-    .line 6
     iget-boolean v0, p0, Lcom/google/common/io/BaseEncoding$j$b;->d:Z
 
     if-nez v0, :cond_5
@@ -182,7 +170,6 @@
 
     add-int/lit8 v0, v0, -0x1
 
-    .line 7
     invoke-virtual {v1, v0}, Lcom/google/common/io/BaseEncoding$f;->g(I)Z
 
     move-result v0
@@ -191,7 +178,6 @@
 
     goto :goto_2
 
-    .line 8
     :cond_4
     new-instance v0, Lcom/google/common/io/BaseEncoding$DecodingException;
 
@@ -215,20 +201,17 @@
 
     throw v0
 
-    .line 9
     :cond_5
     :goto_2
     iput-boolean v2, p0, Lcom/google/common/io/BaseEncoding$j$b;->d:Z
 
     goto :goto_0
 
-    .line 10
     :cond_6
     iget-boolean v1, p0, Lcom/google/common/io/BaseEncoding$j$b;->d:Z
 
     if-nez v1, :cond_7
 
-    .line 11
     iget v1, p0, Lcom/google/common/io/BaseEncoding$j$b;->a:I
 
     iget-object v2, p0, Lcom/google/common/io/BaseEncoding$j$b;->g:Lcom/google/common/io/BaseEncoding$j;
@@ -241,7 +224,6 @@
 
     iput v1, p0, Lcom/google/common/io/BaseEncoding$j$b;->a:I
 
-    .line 12
     invoke-virtual {v2, v0}, Lcom/google/common/io/BaseEncoding$f;->c(C)I
 
     move-result v0
@@ -250,7 +232,6 @@
 
     iput v0, p0, Lcom/google/common/io/BaseEncoding$j$b;->a:I
 
-    .line 13
     iget v1, p0, Lcom/google/common/io/BaseEncoding$j$b;->b:I
 
     iget-object v2, p0, Lcom/google/common/io/BaseEncoding$j$b;->g:Lcom/google/common/io/BaseEncoding$j;
@@ -269,7 +250,6 @@
 
     sub-int/2addr v1, v2
 
-    .line 14
     iput v1, p0, Lcom/google/common/io/BaseEncoding$j$b;->b:I
 
     shr-int/2addr v0, v1
@@ -278,7 +258,6 @@
 
     return v0
 
-    .line 15
     :cond_7
     new-instance v1, Lcom/google/common/io/BaseEncoding$DecodingException;
 
@@ -319,7 +298,6 @@
 
     add-int/2addr p3, p2
 
-    .line 16
     array-length v0, p1
 
     invoke-static {p2, p3, v0}, Lcom/google/common/base/t;->f0(III)V
@@ -329,7 +307,6 @@
     :goto_0
     if-ge v0, p3, :cond_2
 
-    .line 17
     invoke-virtual {p0}, Lcom/google/common/io/BaseEncoding$j$b;->read()I
 
     move-result v1
@@ -353,7 +330,6 @@
     :cond_1
     int-to-byte v1, v1
 
-    .line 18
     aput-byte v1, p1, v0
 
     add-int/lit8 v0, v0, 0x1

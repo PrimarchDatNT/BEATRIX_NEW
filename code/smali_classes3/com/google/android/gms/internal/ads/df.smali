@@ -19,7 +19,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -28,7 +27,6 @@
 .method static synthetic a(Lcom/google/android/gms/internal/ads/df;)Z
     .locals 0
 
-    .line 1
     iget-boolean p0, p0, Lcom/google/android/gms/internal/ads/df;->a:Z
 
     return p0
@@ -37,7 +35,6 @@
 .method static synthetic g(Lcom/google/android/gms/internal/ads/df;)Z
     .locals 0
 
-    .line 1
     iget-boolean p0, p0, Lcom/google/android/gms/internal/ads/df;->b:Z
 
     return p0
@@ -46,7 +43,6 @@
 .method static synthetic h(Lcom/google/android/gms/internal/ads/df;)Z
     .locals 0
 
-    .line 1
     iget-boolean p0, p0, Lcom/google/android/gms/internal/ads/df;->c:Z
 
     return p0
@@ -55,7 +51,6 @@
 .method static synthetic i(Lcom/google/android/gms/internal/ads/df;)Z
     .locals 0
 
-    .line 1
     iget-boolean p0, p0, Lcom/google/android/gms/internal/ads/df;->d:Z
 
     return p0
@@ -64,7 +59,6 @@
 .method static synthetic j(Lcom/google/android/gms/internal/ads/df;)Z
     .locals 0
 
-    .line 1
     iget-boolean p0, p0, Lcom/google/android/gms/internal/ads/df;->e:Z
 
     return p0
@@ -75,7 +69,6 @@
 .method public final b(Z)Lcom/google/android/gms/internal/ads/df;
     .locals 0
 
-    .line 1
     iput-boolean p1, p0, Lcom/google/android/gms/internal/ads/df;->a:Z
 
     return-object p0
@@ -84,7 +77,6 @@
 .method public final c(Z)Lcom/google/android/gms/internal/ads/df;
     .locals 0
 
-    .line 1
     iput-boolean p1, p0, Lcom/google/android/gms/internal/ads/df;->b:Z
 
     return-object p0
@@ -93,7 +85,6 @@
 .method public final d(Z)Lcom/google/android/gms/internal/ads/df;
     .locals 0
 
-    .line 1
     iput-boolean p1, p0, Lcom/google/android/gms/internal/ads/df;->c:Z
 
     return-object p0
@@ -102,7 +93,6 @@
 .method public final e(Z)Lcom/google/android/gms/internal/ads/df;
     .locals 0
 
-    .line 1
     iput-boolean p1, p0, Lcom/google/android/gms/internal/ads/df;->d:Z
 
     return-object p0
@@ -113,7 +103,6 @@
 
     const/4 p1, 0x1
 
-    .line 1
     iput-boolean p1, p0, Lcom/google/android/gms/internal/ads/df;->e:Z
 
     return-object p0

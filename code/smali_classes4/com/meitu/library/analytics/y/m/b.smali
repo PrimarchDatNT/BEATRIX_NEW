@@ -40,24 +40,20 @@
 .method public constructor <init>(Landroid/content/Context;)V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
 
     iput-object v0, p0, Lcom/meitu/library/analytics/y/m/b;->e:Ljava/util/List;
 
-    .line 3
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
 
     iput-object v0, p0, Lcom/meitu/library/analytics/y/m/b;->f:Ljava/util/List;
 
-    .line 4
     iput-object p1, p0, Lcom/meitu/library/analytics/y/m/b;->c:Landroid/content/Context;
 
     return-void
@@ -82,7 +78,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/library/analytics/y/m/b;->d:Lcom/meitu/library/analytics/y/m/c;
 
     if-eqz v1, :cond_0
@@ -93,7 +88,6 @@
 
     if-lez p1, :cond_0
 
-    .line 2
     iget-object p1, p0, Lcom/meitu/library/analytics/y/m/b;->d:Lcom/meitu/library/analytics/y/m/c;
 
     iget v1, p0, Lcom/meitu/library/analytics/y/m/b;->a:I
@@ -106,7 +100,6 @@
 
     invoke-interface {p1, v1, v2}, Lcom/meitu/library/analytics/y/m/c;->b(ILjava/util/List;)V
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -132,7 +125,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/library/analytics/y/m/b;->d:Lcom/meitu/library/analytics/y/m/c;
 
     if-eqz v1, :cond_0
@@ -143,7 +135,6 @@
 
     if-lez p1, :cond_0
 
-    .line 2
     iget-object p1, p0, Lcom/meitu/library/analytics/y/m/b;->d:Lcom/meitu/library/analytics/y/m/c;
 
     iget v1, p0, Lcom/meitu/library/analytics/y/m/b;->a:I
@@ -156,7 +147,6 @@
 
     invoke-interface {p1, v1, v2}, Lcom/meitu/library/analytics/y/m/c;->b(ILjava/util/List;)V
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -177,7 +167,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     array-length v1, p2
 
     const/4 v2, 0x0
@@ -187,21 +176,18 @@
 
     aget-object v3, p2, v2
 
-    .line 2
     invoke-static {p1, v3}, Lcom/meitu/library/analytics/y/m/b;->h(Landroid/content/Context;Ljava/lang/String;)I
 
     move-result v4
 
     if-nez v4, :cond_0
 
-    .line 3
     iget-object v4, p0, Lcom/meitu/library/analytics/y/m/b;->f:Ljava/util/List;
 
     invoke-interface {v4, v3}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
     goto :goto_1
 
-    .line 4
     :cond_0
     iget-object v4, p0, Lcom/meitu/library/analytics/y/m/b;->e:Ljava/util/List;
 
@@ -212,7 +198,6 @@
 
     goto :goto_0
 
-    .line 5
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -226,14 +211,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v1
 
     if-nez v1, :cond_1
 
-    .line 2
     sget v1, Landroid/os/Build$VERSION;->SDK_INT:I
 
     const/16 v2, 0x17
@@ -242,12 +225,10 @@
 
     const/4 p0, 0x0
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p0
 
-    .line 4
     :cond_0
     invoke-static {}, Landroid/os/Process;->myPid()I
 
@@ -265,7 +246,6 @@
 
     return p0
 
-    .line 5
     :cond_1
     new-instance p0, Ljava/lang/IllegalArgumentException;
 
@@ -289,10 +269,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/library/analytics/y/m/b;->b:[Ljava/lang/String;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
@@ -305,10 +283,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/meitu/library/analytics/y/m/b;->a:I
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
@@ -323,7 +299,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0, p1}, Lcom/meitu/library/analytics/y/m/b;->d(Lcom/meitu/library/analytics/y/m/c;)Lcom/meitu/library/analytics/y/m/b;
 
     move-result-object p1
@@ -342,10 +317,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/library/analytics/y/m/b;->d:Lcom/meitu/library/analytics/y/m/c;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
@@ -358,21 +331,18 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget v1, Landroid/os/Build$VERSION;->SDK_INT:I
 
     const/16 v2, 0x17
 
     if-ge v1, v2, :cond_0
 
-    .line 2
     iget-object v1, p0, Lcom/meitu/library/analytics/y/m/b;->f:Ljava/util/List;
 
     invoke-direct {p0, v1}, Lcom/meitu/library/analytics/y/m/b;->e(Ljava/util/List;)V
 
     goto :goto_0
 
-    .line 3
     :cond_0
     iget-object v1, p0, Lcom/meitu/library/analytics/y/m/b;->c:Landroid/content/Context;
 
@@ -380,17 +350,14 @@
 
     invoke-direct {p0, v1, v2}, Lcom/meitu/library/analytics/y/m/b;->g(Landroid/content/Context;[Ljava/lang/String;)V
 
-    .line 4
     iget-object v1, p0, Lcom/meitu/library/analytics/y/m/b;->e:Ljava/util/List;
 
     invoke-direct {p0, v1}, Lcom/meitu/library/analytics/y/m/b;->f(Ljava/util/List;)V
 
-    .line 5
     iget-object v1, p0, Lcom/meitu/library/analytics/y/m/b;->f:Ljava/util/List;
 
     invoke-direct {p0, v1}, Lcom/meitu/library/analytics/y/m/b;->e(Ljava/util/List;)V
 
-    .line 6
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

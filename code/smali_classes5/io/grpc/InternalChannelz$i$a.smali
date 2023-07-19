@@ -37,10 +37,8 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     new-instance v0, Ljava/util/HashMap;
 
     invoke-direct {v0}, Ljava/util/HashMap;-><init>()V
@@ -55,7 +53,6 @@
 .method public a(Ljava/lang/String;I)Lio/grpc/InternalChannelz$i$a;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lio/grpc/InternalChannelz$i$a;->a:Ljava/util/Map;
 
     invoke-static {p2}, Ljava/lang/Integer;->toString(I)Ljava/lang/String;
@@ -70,7 +67,6 @@
 .method public b(Ljava/lang/String;Ljava/lang/String;)Lio/grpc/InternalChannelz$i$a;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lio/grpc/InternalChannelz$i$a;->a:Ljava/util/Map;
 
     invoke-static {p2}, Lcom/google/common/base/t;->E(Ljava/lang/Object;)Ljava/lang/Object;
@@ -85,7 +81,6 @@
 .method public c(Ljava/lang/String;Z)Lio/grpc/InternalChannelz$i$a;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lio/grpc/InternalChannelz$i$a;->a:Ljava/util/Map;
 
     invoke-static {p2}, Ljava/lang/Boolean;->toString(Z)Ljava/lang/String;
@@ -100,7 +95,6 @@
 .method public d()Lio/grpc/InternalChannelz$i;
     .locals 5
 
-    .line 1
     new-instance v0, Lio/grpc/InternalChannelz$i;
 
     iget-object v1, p0, Lio/grpc/InternalChannelz$i$a;->c:Ljava/lang/Integer;
@@ -119,7 +113,6 @@
 .method public e(Ljava/lang/Integer;)Lio/grpc/InternalChannelz$i$a;
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lio/grpc/InternalChannelz$i$a;->d:Ljava/lang/Integer;
 
     return-object p0
@@ -128,7 +121,6 @@
 .method public f(Ljava/lang/Integer;)Lio/grpc/InternalChannelz$i$a;
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lio/grpc/InternalChannelz$i$a;->c:Ljava/lang/Integer;
 
     return-object p0
@@ -137,7 +129,6 @@
 .method public g(Lio/grpc/InternalChannelz$k;)Lio/grpc/InternalChannelz$i$a;
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lio/grpc/InternalChannelz$i$a;->b:Lio/grpc/InternalChannelz$k;
 
     return-object p0

@@ -20,7 +20,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-direct {p0, p1, p2, v0}, Lcom/google/common/hash/LittleEndianByteArray$JavaLittleEndianBytes;-><init>(Ljava/lang/String;ILcom/google/common/hash/LittleEndianByteArray$a;)V
 
     return-void
@@ -33,7 +32,6 @@
 
     add-int/lit8 v0, p2, 0x7
 
-    .line 1
     aget-byte v1, p1, v0
 
     add-int/lit8 v0, p2, 0x6
@@ -93,7 +91,6 @@
 
     int-to-byte v5, v6
 
-    .line 1
     aput-byte v5, p1, v4
 
     shl-long/2addr v0, v3

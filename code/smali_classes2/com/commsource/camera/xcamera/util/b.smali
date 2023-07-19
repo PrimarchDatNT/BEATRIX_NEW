@@ -23,7 +23,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/commsource/camera/xcamera/util/b;
 
     invoke-direct {v1}, Lcom/commsource/camera/xcamera/util/b;-><init>()V
@@ -38,7 +37,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -55,7 +53,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/camera/xcamera/util/b;->a:Lcom/commsource/camera/xcamera/bean/b;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -88,7 +85,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-static {}, Lf/d/i/e;->B0()Ljava/lang/String;
 
     move-result-object v1
@@ -105,20 +101,16 @@
 
     const-string v2, "\u6d77\u5916gid\u4e3a\u7a7a\uff0c\u8bf7\u91cd\u542f\u91cd\u8bd5\u6216\u8005\u5730\u533a\u8bbe\u7f6e\u4e3a\u975e\u6b27\u76df\u5730\u533a"
 
-    .line 2
     invoke-static {v2, v1}, Lf/k/c/c/f;->u(Ljava/lang/String;[Ljava/lang/Object;)V
 
-    .line 3
     sget-object v1, Ljava/lang/Boolean;->FALSE:Ljava/lang/Boolean;
 
     invoke-interface {p1, v1}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 5
     :cond_0
     const-class v1, Lcom/meitu/http/api/b;
 
@@ -134,7 +126,6 @@
 
     invoke-virtual {v1, v2}, Lcom/meitu/http/api/b;->a(Lf/k/k/p;)V
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -151,7 +142,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sput-object p1, Lcom/commsource/camera/xcamera/util/b;->a:Lcom/commsource/camera/xcamera/bean/b;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -166,7 +156,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/camera/xcamera/util/b;->a:Lcom/commsource/camera/xcamera/bean/b;
 
     if-eqz v1, :cond_6
@@ -208,7 +197,6 @@
 
     goto :goto_0
 
-    .line 2
     :cond_3
     const-class v1, Lcom/meitu/http/api/b;
 
@@ -218,7 +206,6 @@
 
     check-cast v1, Lcom/meitu/http/api/b;
 
-    .line 3
     sget-object v2, Lcom/commsource/camera/xcamera/util/b;->a:Lcom/commsource/camera/xcamera/bean/b;
 
     if-nez v2, :cond_4
@@ -234,21 +221,17 @@
 
     invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
-    .line 4
     :cond_5
     new-instance v3, Lcom/commsource/camera/xcamera/util/b$b;
 
     invoke-direct {v3}, Lcom/commsource/camera/xcamera/util/b$b;-><init>()V
 
-    .line 5
     invoke-virtual {v1, v2, v3}, Lcom/meitu/http/api/b;->c(Ljava/util/List;Lf/k/k/p;)V
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 7
     :cond_6
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

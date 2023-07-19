@@ -31,14 +31,12 @@
 .method public constructor <init>(II)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/studio/processor/BaseEffectProcessor;-><init>()V
 
     iput p1, p0, Lcom/commsource/studio/processor/f;->Q:I
 
     iput p2, p0, Lcom/commsource/studio/processor/f;->R:I
 
-    .line 2
     new-instance p1, Lcom/commsource/studio/shader/i;
 
     invoke-direct {p1}, Lcom/commsource/studio/shader/i;-><init>()V
@@ -55,7 +53,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget p0, p0, Lcom/commsource/studio/processor/f;->P:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -70,7 +67,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/studio/processor/f;->P:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -95,7 +91,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     new-instance v1, Landroidx/lifecycle/ViewModelProvider;
 
     invoke-direct {v1, p1}, Landroidx/lifecycle/ViewModelProvider;-><init>(Landroidx/lifecycle/ViewModelStoreOwner;)V
@@ -108,14 +103,12 @@
 
     check-cast v1, Lcom/commsource/studio/component/d;
 
-    .line 2
     new-instance v2, Lcom/commsource/studio/processor/f$a;
 
     invoke-direct {v2, v1, p0}, Lcom/commsource/studio/processor/f$a;-><init>(Lcom/commsource/studio/component/d;Lcom/commsource/studio/processor/f;)V
 
     invoke-virtual {v1, v2}, Lcom/commsource/studio/component/d;->y(Lcom/commsource/studio/layer/c$a;)V
 
-    .line 3
     new-instance v1, Landroidx/lifecycle/ViewModelProvider;
 
     invoke-direct {v1, p1}, Landroidx/lifecycle/ViewModelProvider;-><init>(Landroidx/lifecycle/ViewModelStoreOwner;)V
@@ -128,7 +121,6 @@
 
     check-cast v1, Lcom/commsource/studio/component/PaintSelectComponent$b;
 
-    .line 4
     invoke-virtual {v1}, Lcom/commsource/studio/component/PaintSelectComponent$b;->z()Landroidx/lifecycle/MutableLiveData;
 
     move-result-object v1
@@ -143,7 +135,6 @@
 
     invoke-virtual {v1, v2, v3}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 5
     new-instance v1, Landroidx/lifecycle/ViewModelProvider;
 
     invoke-direct {v1, p1}, Landroidx/lifecycle/ViewModelProvider;-><init>(Landroidx/lifecycle/ViewModelStoreOwner;)V
@@ -156,7 +147,6 @@
 
     check-cast v1, Lcom/commsource/studio/component/e;
 
-    .line 6
     invoke-virtual {v1}, Lcom/commsource/studio/component/e;->y()Landroidx/lifecycle/MutableLiveData;
 
     move-result-object v1
@@ -171,7 +161,6 @@
 
     invoke-virtual {v1, v2, v3}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -184,7 +173,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/processor/f;->R:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -201,7 +189,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/processor/f;->O:Lcom/commsource/easyeditor/utils/opengl/f;
 
     if-nez v1, :cond_0
@@ -225,7 +212,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/processor/f;->M:Lcom/commsource/studio/shader/m;
 
     if-nez v1, :cond_0
@@ -247,7 +233,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/processor/f;->Q:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -262,7 +247,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/studio/processor/f;->R:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -285,7 +269,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/processor/f;->O:Lcom/commsource/easyeditor/utils/opengl/f;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -308,7 +291,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/processor/f;->M:Lcom/commsource/studio/shader/m;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -323,7 +305,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/studio/processor/f;->Q:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -338,10 +319,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0}, Lcom/commsource/studio/processor/BaseEffectProcessor;->a()V
 
-    .line 2
     new-instance v7, Lcom/commsource/studio/shader/m;
 
     iget v2, p0, Lcom/commsource/studio/processor/f;->Q:I
@@ -364,13 +343,11 @@
 
     if-nez v7, :cond_0
 
-    .line 3
     invoke-static {v1}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
     invoke-virtual {v7}, Lcom/commsource/studio/shader/m;->e()V
 
-    .line 4
     iget-object v2, p0, Lcom/commsource/studio/processor/f;->M:Lcom/commsource/studio/shader/m;
 
     if-nez v2, :cond_1
@@ -389,12 +366,10 @@
     :cond_2
     invoke-virtual {v2, v1}, Lcom/commsource/studio/shader/a;->h(Lcom/commsource/easyeditor/utils/opengl/c;)V
 
-    .line 5
     iget-object v1, p0, Lcom/commsource/studio/processor/f;->N:Lcom/commsource/studio/shader/i;
 
     invoke-virtual {v1}, Lcom/commsource/studio/shader/a;->e()V
 
-    .line 6
     invoke-virtual {p0}, Lcom/commsource/studio/processor/BaseEffectProcessor;->g()Lcom/commsource/studio/s;
 
     move-result-object v1
@@ -419,7 +394,6 @@
 
     iput-object v1, p0, Lcom/commsource/studio/processor/f;->O:Lcom/commsource/easyeditor/utils/opengl/f;
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -432,15 +406,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0}, Lcom/commsource/studio/processor/BaseEffectProcessor;->c()V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/processor/f;->N:Lcom/commsource/studio/shader/i;
 
     invoke-virtual {v1}, Lcom/commsource/studio/shader/a;->f()V
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/studio/processor/f;->M:Lcom/commsource/studio/shader/m;
 
     if-nez v1, :cond_0
@@ -452,7 +423,6 @@
     :cond_0
     invoke-virtual {v1}, Lcom/commsource/studio/shader/m;->f()V
 
-    .line 4
     invoke-virtual {p0}, Lcom/commsource/studio/processor/BaseEffectProcessor;->g()Lcom/commsource/studio/s;
 
     move-result-object v1
@@ -468,7 +438,6 @@
     :cond_1
     invoke-virtual {v1, v2}, Lcom/commsource/studio/s;->j(Lcom/commsource/easyeditor/utils/opengl/f;)V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -489,14 +458,12 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget v1, p1, Lcom/commsource/easyeditor/utils/opengl/f;->b:I
 
     const v2, 0x8d40
 
     invoke-static {v2, v1}, Landroid/opengl/GLES20;->glBindFramebuffer(II)V
 
-    .line 2
     iget v1, p1, Lcom/commsource/easyeditor/utils/opengl/f;->c:I
 
     iget p1, p1, Lcom/commsource/easyeditor/utils/opengl/f;->d:I
@@ -505,7 +472,6 @@
 
     invoke-static {v3, v3, v1, p1}, Landroid/opengl/GLES20;->glViewport(IIII)V
 
-    .line 3
     iget-object p1, p0, Lcom/commsource/studio/processor/f;->N:Lcom/commsource/studio/shader/i;
 
     invoke-virtual {p0}, Lcom/commsource/studio/processor/BaseEffectProcessor;->n()Lcom/commsource/easyeditor/utils/opengl/f;
@@ -542,10 +508,8 @@
 
     invoke-virtual {p1, v1, v4, v5}, Lcom/commsource/studio/shader/i;->k(III)V
 
-    .line 4
     invoke-static {v2, v3}, Landroid/opengl/GLES20;->glBindFramebuffer(II)V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

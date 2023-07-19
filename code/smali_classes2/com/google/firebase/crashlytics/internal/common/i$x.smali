@@ -21,7 +21,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -30,7 +29,6 @@
 .method synthetic constructor <init>(Lcom/google/firebase/crashlytics/internal/common/i$k;)V
     .locals 0
 
-    .line 2
     invoke-direct {p0}, Lcom/google/firebase/crashlytics/internal/common/i$x;-><init>()V
 
     return-void
@@ -41,7 +39,6 @@
 .method public accept(Ljava/io/File;Ljava/lang/String;)Z
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/google/firebase/crashlytics/internal/common/i;->N:Ljava/io/FilenameFilter;
 
     invoke-interface {v0, p1, p2}, Ljava/io/FilenameFilter;->accept(Ljava/io/File;Ljava/lang/String;)Z
@@ -50,7 +47,6 @@
 
     if-nez p1, :cond_0
 
-    .line 2
     invoke-static {}, Lcom/google/firebase/crashlytics/internal/common/i;->a()Ljava/util/regex/Pattern;
 
     move-result-object p1

@@ -25,7 +25,6 @@
 .method constructor <init>(Lcom/sdk/imp/d;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/sdk/imp/d$c;->a:Lcom/sdk/imp/d;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -38,7 +37,6 @@
 .method public run()V
     .locals 7
 
-    .line 1
     new-instance v6, Lcom/sdk/imp/i;
 
     iget-object v0, p0, Lcom/sdk/imp/d$c;->a:Lcom/sdk/imp/d;
@@ -75,7 +73,6 @@
 
     invoke-direct/range {v0 .. v5}, Lcom/sdk/imp/i;-><init>(Landroid/content/Context;Lcom/sdk/imp/i$a;Ljava/lang/String;ZLjava/lang/String;)V
 
-    .line 2
     invoke-virtual {v6}, Lcom/sdk/imp/i;->j()V
 
     return-void

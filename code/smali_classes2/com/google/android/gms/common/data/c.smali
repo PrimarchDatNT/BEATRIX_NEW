@@ -45,10 +45,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     invoke-static {p1}, Lcom/google/android/gms/common/internal/b0;->k(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -59,7 +57,6 @@
 
     const/4 p1, -0x1
 
-    .line 3
     iput p1, p0, Lcom/google/android/gms/common/data/c;->b:I
 
     return-void
@@ -70,7 +67,6 @@
 .method public hasNext()Z
     .locals 3
 
-    .line 1
     iget v0, p0, Lcom/google/android/gms/common/data/c;->b:I
 
     iget-object v1, p0, Lcom/google/android/gms/common/data/c;->a:Lcom/google/android/gms/common/data/b;
@@ -101,14 +97,12 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/android/gms/common/data/c;->hasNext()Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
-    .line 2
     iget-object v0, p0, Lcom/google/android/gms/common/data/c;->a:Lcom/google/android/gms/common/data/b;
 
     iget v1, p0, Lcom/google/android/gms/common/data/c;->b:I
@@ -123,7 +117,6 @@
 
     return-object v0
 
-    .line 3
     :cond_0
     new-instance v0, Ljava/util/NoSuchElementException;
 
@@ -153,7 +146,6 @@
 .method public remove()V
     .locals 2
 
-    .line 1
     new-instance v0, Ljava/lang/UnsupportedOperationException;
 
     const-string v1, "Cannot remove elements from a DataBufferIterator"

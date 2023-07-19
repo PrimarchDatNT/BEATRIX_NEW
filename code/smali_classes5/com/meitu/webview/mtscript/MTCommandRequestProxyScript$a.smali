@@ -30,7 +30,6 @@
 .method constructor <init>(Lcom/meitu/webview/mtscript/MTCommandRequestProxyScript;Ljava/lang/Class;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/webview/mtscript/MTCommandRequestProxyScript$a;->c:Lcom/meitu/webview/mtscript/MTCommandRequestProxyScript;
 
     invoke-direct {p0, p1, p2}, Lcom/meitu/webview/mtscript/i$c;-><init>(Lcom/meitu/webview/mtscript/i;Ljava/lang/Class;)V
@@ -49,18 +48,15 @@
 
     if-nez p1, :cond_0
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 2
     :cond_0
     new-instance v1, Lcom/meitu/webview/mtscript/MTCommandRequestProxyScript$Model;
 
     invoke-direct {v1}, Lcom/meitu/webview/mtscript/MTCommandRequestProxyScript$Model;-><init>()V
 
-    .line 3
     :try_start_0
     new-instance v2, Lorg/json/JSONObject;
 
@@ -68,7 +64,6 @@
 
     const-string p1, "data"
 
-    .line 4
     invoke-virtual {v2, p1}, Lorg/json/JSONObject;->optString(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p1
@@ -77,7 +72,6 @@
 
     const-string p1, "url"
 
-    .line 5
     invoke-virtual {v2, p1}, Lorg/json/JSONObject;->optString(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p1
@@ -86,7 +80,6 @@
 
     const-string p1, "cache_key"
 
-    .line 6
     invoke-virtual {v2, p1}, Lorg/json/JSONObject;->optString(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p1
@@ -95,7 +88,6 @@
 
     const-string p1, "show_loading"
 
-    .line 7
     invoke-virtual {v2, p1}, Lorg/json/JSONObject;->optBoolean(Ljava/lang/String;)Z
 
     move-result p1
@@ -104,7 +96,6 @@
 
     const-string p1, "show_error"
 
-    .line 8
     invoke-virtual {v2, p1}, Lorg/json/JSONObject;->optBoolean(Ljava/lang/String;)Z
 
     move-result p1
@@ -113,7 +104,6 @@
 
     const-string p1, "headers"
 
-    .line 9
     invoke-virtual {v2, p1}, Lorg/json/JSONObject;->optString(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p1
@@ -122,7 +112,6 @@
 
     const-string p1, "timeoutInterval"
 
-    .line 10
     invoke-virtual {v2, p1}, Lorg/json/JSONObject;->optInt(Ljava/lang/String;)I
 
     move-result p1
@@ -131,11 +120,9 @@
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
-    .line 11
     :catch_0
     invoke-virtual {p0, v1}, Lcom/meitu/webview/mtscript/MTCommandRequestProxyScript$a;->d(Lcom/meitu/webview/mtscript/MTCommandRequestProxyScript$Model;)V
 
-    .line 12
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -148,7 +135,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Lcom/meitu/webview/mtscript/MTCommandRequestProxyScript$Model;
 
     invoke-virtual {p0, p1}, Lcom/meitu/webview/mtscript/MTCommandRequestProxyScript$a;->d(Lcom/meitu/webview/mtscript/MTCommandRequestProxyScript$Model;)V
@@ -165,7 +151,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -184,12 +169,10 @@
 
     invoke-static {v2, v1}, Lcom/meitu/webview/utils/g;->b(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 2
     iget-object v1, p0, Lcom/meitu/webview/mtscript/MTCommandRequestProxyScript$a;->c:Lcom/meitu/webview/mtscript/MTCommandRequestProxyScript;
 
     invoke-static {v1, p1}, Lcom/meitu/webview/mtscript/MTCommandRequestProxyScript;->I(Lcom/meitu/webview/mtscript/MTCommandRequestProxyScript;Lcom/meitu/webview/mtscript/MTCommandRequestProxyScript$Model;)Z
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

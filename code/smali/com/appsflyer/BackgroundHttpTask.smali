@@ -11,10 +11,8 @@
 .method public constructor <init>(Lcom/appsflyer/internal/model/event/BackgroundEvent;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/appsflyer/BackgroundHttpTask;->values:Lcom/appsflyer/internal/model/event/BackgroundEvent;
 
     return-void
@@ -29,49 +27,42 @@
 
     const-string v2, ""
 
-    .line 1
     iget-object v0, v1, Lcom/appsflyer/BackgroundHttpTask;->values:Lcom/appsflyer/internal/model/event/BackgroundEvent;
 
     invoke-virtual {v0}, Lcom/appsflyer/AFEvent;->urlString()Ljava/lang/String;
 
     move-result-object v3
 
-    .line 2
     iget-object v0, v1, Lcom/appsflyer/BackgroundHttpTask;->values:Lcom/appsflyer/internal/model/event/BackgroundEvent;
 
     invoke-virtual {v0}, Lcom/appsflyer/internal/model/event/BackgroundEvent;->body()Ljava/lang/String;
 
     move-result-object v0
 
-    .line 3
     iget-object v4, v1, Lcom/appsflyer/BackgroundHttpTask;->values:Lcom/appsflyer/internal/model/event/BackgroundEvent;
 
     invoke-virtual {v4}, Lcom/appsflyer/internal/model/event/BackgroundEvent;->trackingStopped()Z
 
     move-result v4
 
-    .line 4
     iget-object v5, v1, Lcom/appsflyer/BackgroundHttpTask;->values:Lcom/appsflyer/internal/model/event/BackgroundEvent;
 
     invoke-virtual {v5}, Lcom/appsflyer/internal/model/event/BackgroundEvent;->readResponse()Z
 
     move-result v5
 
-    .line 5
     iget-object v6, v1, Lcom/appsflyer/BackgroundHttpTask;->values:Lcom/appsflyer/internal/model/event/BackgroundEvent;
 
     invoke-virtual {v6}, Lcom/appsflyer/internal/model/event/BackgroundEvent;->proxyMode()Z
 
     move-result v6
 
-    .line 6
     iget-object v7, v1, Lcom/appsflyer/BackgroundHttpTask;->values:Lcom/appsflyer/internal/model/event/BackgroundEvent;
 
     invoke-virtual {v7}, Lcom/appsflyer/AFEvent;->isEncrypt()Z
 
     move-result v7
 
-    .line 7
     invoke-virtual {v0}, Ljava/lang/String;->getBytes()[B
 
     move-result-object v8
@@ -87,7 +78,6 @@
 
     const/4 v10, 0x0
 
-    .line 8
     :try_start_0
     new-instance v11, Ljava/net/URL;
 
@@ -95,7 +85,6 @@
 
     if-eqz v6, :cond_2
 
-    .line 9
     invoke-static {}, Lcom/appsflyer/internal/ad;->$$a()Lcom/appsflyer/internal/ad;
 
     move-result-object v12
@@ -110,19 +99,16 @@
 
     aput-object v0, v15, v10
 
-    .line 10
     invoke-virtual {v12, v14, v13, v15}, Lcom/appsflyer/internal/ad;->AFDateFormat(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;)V
 
     const-string v12, "UTF-8"
 
-    .line 11
     invoke-virtual {v0, v12}, Ljava/lang/String;->getBytes(Ljava/lang/String;)[B
 
     move-result-object v12
 
     array-length v12, v12
 
-    .line 12
     new-instance v13, Ljava/lang/StringBuilder;
 
     const-string v14, "call = "
@@ -168,14 +154,12 @@
     :cond_2
     const-string v0, "AppsFlyer"
 
-    .line 13
     invoke-virtual {v0}, Ljava/lang/Object;->hashCode()I
 
     move-result v0
 
     invoke-static {v0}, Landroid/net/TrafficStats;->setThreadStatsTag(I)V
 
-    .line 14
     invoke-virtual {v11}, Ljava/net/URL;->openConnection()Ljava/net/URLConnection;
 
     move-result-object v0
@@ -188,22 +172,17 @@
 
     const/16 v0, 0x7530
 
-    .line 15
     :try_start_1
     invoke-virtual {v12, v0}, Ljava/net/URLConnection;->setReadTimeout(I)V
 
-    .line 16
     invoke-virtual {v12, v0}, Ljava/net/URLConnection;->setConnectTimeout(I)V
 
     const-string v0, "POST"
 
-    .line 17
     invoke-virtual {v12, v0}, Ljava/net/HttpURLConnection;->setRequestMethod(Ljava/lang/String;)V
 
-    .line 18
     invoke-virtual {v12, v4}, Ljava/net/URLConnection;->setDoInput(Z)V
 
-    .line 19
     invoke-virtual {v12, v4}, Ljava/net/URLConnection;->setDoOutput(Z)V
 
     const-string v0, "Content-Type"
@@ -217,18 +196,15 @@
     :cond_3
     const-string v13, "application/json"
 
-    .line 20
     :goto_1
     invoke-virtual {v12, v0, v13}, Ljava/net/URLConnection;->setRequestProperty(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 21
     invoke-virtual {v12}, Ljava/net/URLConnection;->getOutputStream()Ljava/io/OutputStream;
 
     move-result-object v0
 
     if-eqz v7, :cond_6
 
-    .line 22
     iget-object v7, v1, Lcom/appsflyer/BackgroundHttpTask;->values:Lcom/appsflyer/internal/model/event/BackgroundEvent;
 
     invoke-virtual {v7}, Lcom/appsflyer/AFEvent;->key()Ljava/lang/String;
@@ -378,20 +354,16 @@
     :goto_2
     invoke-virtual {v0, v8}, Ljava/io/OutputStream;->write([B)V
 
-    .line 23
     invoke-virtual {v0}, Ljava/io/OutputStream;->close()V
 
-    .line 24
     invoke-virtual {v12}, Ljava/net/URLConnection;->connect()V
 
-    .line 25
     invoke-virtual {v12}, Ljava/net/HttpURLConnection;->getResponseCode()I
 
     move-result v0
 
     if-eqz v5, :cond_7
 
-    .line 26
     invoke-static {}, Lcom/appsflyer/AppsFlyerLibCore;->getInstance()Lcom/appsflyer/AppsFlyerLibCore;
 
     move-result-object v5
@@ -403,7 +375,6 @@
     :cond_7
     if-eqz v6, :cond_8
 
-    .line 27
     invoke-static {}, Lcom/appsflyer/internal/ad;->$$a()Lcom/appsflyer/internal/ad;
 
     move-result-object v5
@@ -418,7 +389,6 @@
 
     new-array v8, v8, [Ljava/lang/String;
 
-    .line 28
     invoke-static {v0}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
 
     move-result-object v9
@@ -436,7 +406,6 @@
 
     const-string v0, "Status 200 ok"
 
-    .line 29
     invoke-static {v0}, Lcom/appsflyer/AFLogger;->afInfoLog(Ljava/lang/String;)V
     :try_end_4
     .catchall {:try_start_4 .. :try_end_4} :catchall_2
@@ -455,7 +424,6 @@
     :catchall_3
     move-exception v0
 
-    .line 30
     :goto_3
     invoke-static {v3}, Ljava/lang/String;->valueOf(Ljava/lang/Object;)Ljava/lang/String;
 
@@ -471,7 +439,6 @@
 
     move-object v12, v9
 
-    .line 31
     :cond_9
     :goto_4
     new-instance v0, Ljava/lang/StringBuilder;
@@ -510,7 +477,6 @@
 .method public execute()V
     .locals 2
 
-    .line 1
     new-instance v0, Ljava/lang/Thread;
 
     new-instance v1, Lcom/appsflyer/BackgroundHttpTask$2;
@@ -519,7 +485,6 @@
 
     invoke-direct {v0, v1}, Ljava/lang/Thread;-><init>(Ljava/lang/Runnable;)V
 
-    .line 2
     invoke-virtual {v0}, Ljava/lang/Thread;->start()V
 
     return-void

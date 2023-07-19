@@ -57,13 +57,11 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     :try_start_0
     const-string v0, "id"
 
-    .line 2
     invoke-virtual {p1, v0}, Lorg/json/JSONObject;->getString(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
@@ -78,14 +76,12 @@
     :goto_0
     if-eqz v0, :cond_0
 
-    .line 3
     invoke-virtual {v0}, Ljava/lang/String;->length()I
 
     move-result v1
 
     if-nez v1, :cond_1
 
-    .line 4
     :cond_0
     sget-wide v0, Lcom/spotxchange/v4/h/b;->K:J
 
@@ -99,13 +95,11 @@
 
     move-result-object v0
 
-    .line 5
     :cond_1
     iput-object v0, p0, Lcom/spotxchange/v4/h/b;->b:Ljava/lang/String;
 
     const-string v0, "index"
 
-    .line 6
     invoke-virtual {p1, v0}, Lorg/json/JSONObject;->getLong(Ljava/lang/String;)J
 
     move-result-wide v0
@@ -114,7 +108,6 @@
 
     const-string v0, "vpi"
 
-    .line 7
     invoke-virtual {p1, v0}, Lorg/json/JSONObject;->getString(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
@@ -123,7 +116,6 @@
 
     const-string v0, "title"
 
-    .line 8
     invoke-virtual {p1, v0}, Lorg/json/JSONObject;->getString(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
@@ -132,7 +124,6 @@
 
     const-string v0, "duration"
 
-    .line 9
     invoke-virtual {p1, v0}, Lorg/json/JSONObject;->getDouble(Ljava/lang/String;)D
 
     move-result-wide v0
@@ -141,7 +132,6 @@
 
     const-string v0, "price"
 
-    .line 10
     invoke-virtual {p1, v0}, Lorg/json/JSONObject;->getDouble(Ljava/lang/String;)D
 
     move-result-wide v0
@@ -150,7 +140,6 @@
 
     const-string v0, "url"
 
-    .line 11
     invoke-virtual {p1, v0}, Lorg/json/JSONObject;->getString(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
@@ -159,7 +148,6 @@
 
     const-string v0, "clickthru"
 
-    .line 12
     invoke-virtual {p1, v0}, Lorg/json/JSONObject;->optString(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p1
@@ -178,7 +166,6 @@
         .end annotation
     .end param
 
-    .line 1
     iget-wide v0, p0, Lcom/spotxchange/v4/h/b;->a:J
 
     iget-wide v2, p1, Lcom/spotxchange/v4/h/b;->a:J
@@ -197,7 +184,6 @@
         .end annotation
     .end param
 
-    .line 1
     check-cast p1, Lcom/spotxchange/v4/h/b;
 
     invoke-virtual {p0, p1}, Lcom/spotxchange/v4/h/b;->a(Lcom/spotxchange/v4/h/b;)I

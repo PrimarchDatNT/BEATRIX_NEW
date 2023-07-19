@@ -25,7 +25,6 @@
 .method constructor <init>(Lcom/mopub/nativeads/ServerPositioningSource;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/mopub/nativeads/ServerPositioningSource$1;->this$0:Lcom/mopub/nativeads/ServerPositioningSource;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -38,7 +37,6 @@
 .method public run()V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/nativeads/ServerPositioningSource$1;->this$0:Lcom/mopub/nativeads/ServerPositioningSource;
 
     invoke-static {v0}, Lcom/mopub/nativeads/ServerPositioningSource;->access$000(Lcom/mopub/nativeads/ServerPositioningSource;)V

@@ -30,7 +30,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/camera/xcamera/cover/tips/TipsCover$h;->a:Lcom/commsource/camera/xcamera/cover/tips/TipsCover;
 
     iput-wide p2, p0, Lcom/commsource/camera/xcamera/cover/tips/TipsCover$h;->b:J
@@ -53,10 +52,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0, p1}, Landroid/animation/AnimatorListenerAdapter;->onAnimationEnd(Landroid/animation/Animator;)V
 
-    .line 2
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/tips/TipsCover$h;->a:Lcom/commsource/camera/xcamera/cover/tips/TipsCover;
 
     invoke-virtual {p1}, Lcom/commsource/camera/xcamera/cover/AbsLazyCover;->A()Landroidx/databinding/ViewDataBinding;
@@ -84,12 +81,10 @@
 
     const/4 v1, 0x0
 
-    .line 3
     invoke-virtual {p1, v1}, Landroid/view/ViewPropertyAnimator;->alpha(F)Landroid/view/ViewPropertyAnimator;
 
     move-result-object p1
 
-    .line 4
     iget-wide v1, p0, Lcom/commsource/camera/xcamera/cover/tips/TipsCover$h;->b:J
 
     invoke-virtual {p1, v1, v2}, Landroid/view/ViewPropertyAnimator;->setStartDelay(J)Landroid/view/ViewPropertyAnimator;
@@ -98,15 +93,12 @@
 
     const-wide/16 v1, 0xc8
 
-    .line 5
     invoke-virtual {p1, v1, v2}, Landroid/view/ViewPropertyAnimator;->setDuration(J)Landroid/view/ViewPropertyAnimator;
 
     move-result-object p1
 
-    .line 6
     invoke-virtual {p1}, Landroid/view/ViewPropertyAnimator;->start()V
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

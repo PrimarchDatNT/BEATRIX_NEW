@@ -7,7 +7,6 @@
 .method static a([B)[B
     .locals 6
 
-    .line 1
     array-length v0, p0
 
     const/16 v1, 0x10
@@ -25,7 +24,6 @@
 
     if-ge v3, v1, :cond_1
 
-    .line 2
     aget-byte v5, p0, v3
 
     shl-int/lit8 v5, v5, 0x1
@@ -38,7 +36,6 @@
 
     if-ge v3, v4, :cond_0
 
-    .line 3
     aget-byte v4, v0, v3
 
     add-int/lit8 v5, v3, 0x1
@@ -62,7 +59,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_1
     aget-byte v1, v0, v4
 
@@ -82,7 +78,6 @@
 
     return-object v0
 
-    .line 5
     :cond_2
     new-instance p0, Ljava/lang/IllegalArgumentException;
 

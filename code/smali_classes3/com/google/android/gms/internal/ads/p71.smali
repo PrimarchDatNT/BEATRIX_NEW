@@ -25,10 +25,8 @@
 .method public constructor <init>(Landroid/os/Bundle;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/google/android/gms/internal/ads/p71;->a:Landroid/os/Bundle;
 
     return-void
@@ -39,10 +37,8 @@
 .method public final synthetic b(Ljava/lang/Object;)V
     .locals 2
 
-    .line 1
     check-cast p1, Landroid/os/Bundle;
 
-    .line 2
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/p71;->a:Landroid/os/Bundle;
 
     const-string v1, "content_info"

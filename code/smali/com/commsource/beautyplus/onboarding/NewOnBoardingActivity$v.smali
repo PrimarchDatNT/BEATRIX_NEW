@@ -42,12 +42,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity$v;->a:Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity;
 
     invoke-static {v1}, Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity;->h1(Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

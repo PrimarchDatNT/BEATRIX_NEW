@@ -56,24 +56,20 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 2
     new-instance v1, Landroid/text/TextPaint;
 
     const/4 v2, 0x1
 
     invoke-direct {v1, v2}, Landroid/text/TextPaint;-><init>(I)V
 
-    .line 3
     sget-object v2, Landroid/graphics/Typeface;->DEFAULT:Landroid/graphics/Typeface;
 
     invoke-virtual {v1, v2}, Landroid/text/TextPaint;->setTypeface(Landroid/graphics/Typeface;)Landroid/graphics/Typeface;
 
-    .line 4
     sget-object v2, Landroid/graphics/Paint$Style;->STROKE:Landroid/graphics/Paint$Style;
 
     invoke-virtual {v1, v2}, Landroid/text/TextPaint;->setStyle(Landroid/graphics/Paint$Style;)V
 
-    .line 5
     iget-object v2, p0, Lcom/commsource/camera/xcamera/widget/VideoBreathePointView$mStrokePaint$2;->this$0:Lcom/commsource/camera/xcamera/widget/VideoBreathePointView;
 
     invoke-static {v2}, Lcom/commsource/camera/xcamera/widget/VideoBreathePointView;->d(Lcom/commsource/camera/xcamera/widget/VideoBreathePointView;)I
@@ -82,7 +78,6 @@
 
     invoke-virtual {v1, v2}, Landroid/text/TextPaint;->setColor(I)V
 
-    .line 6
     iget-object v2, p0, Lcom/commsource/camera/xcamera/widget/VideoBreathePointView$mStrokePaint$2;->this$0:Lcom/commsource/camera/xcamera/widget/VideoBreathePointView;
 
     invoke-static {v2}, Lcom/commsource/camera/xcamera/widget/VideoBreathePointView;->e(Lcom/commsource/camera/xcamera/widget/VideoBreathePointView;)F
@@ -93,7 +88,6 @@
 
     const/high16 v2, 0x41400000    # 12.0f
 
-    .line 7
     invoke-static {v2}, Lcom/meitu/library/p/f/i;->d(F)I
 
     move-result v2
@@ -102,7 +96,6 @@
 
     invoke-virtual {v1, v2}, Landroid/text/TextPaint;->setTextSize(F)V
 
-    .line 8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
@@ -115,7 +108,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/widget/VideoBreathePointView$mStrokePaint$2;->invoke()Landroid/text/TextPaint;
 
     move-result-object v1

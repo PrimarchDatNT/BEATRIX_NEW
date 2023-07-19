@@ -32,7 +32,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/spotxchange/v4/adapters/brightcove/SpotXBrightcoveAdapter$a;->b:Lcom/spotxchange/v4/adapters/brightcove/SpotXBrightcoveAdapter;
 
     iput-object p2, p0, Lcom/spotxchange/v4/adapters/brightcove/SpotXBrightcoveAdapter$a;->a:Lcom/spotxchange/v4/h/c;
@@ -47,7 +46,6 @@
 .method public run()V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/spotxchange/v4/adapters/brightcove/SpotXBrightcoveAdapter$a;->a:Lcom/spotxchange/v4/h/c;
 
     if-eqz v0, :cond_1
@@ -62,7 +60,6 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     iget-object v0, p0, Lcom/spotxchange/v4/adapters/brightcove/SpotXBrightcoveAdapter$a;->b:Lcom/spotxchange/v4/adapters/brightcove/SpotXBrightcoveAdapter;
 
@@ -70,7 +67,6 @@
 
     invoke-static {v0, v1}, Lcom/spotxchange/v4/adapters/brightcove/SpotXBrightcoveAdapter;->k(Lcom/spotxchange/v4/adapters/brightcove/SpotXBrightcoveAdapter;Lcom/spotxchange/v4/adapters/brightcove/SpotXBrightcoveAdapter$AdState;)Lcom/spotxchange/v4/adapters/brightcove/SpotXBrightcoveAdapter$AdState;
 
-    .line 3
     iget-object v0, p0, Lcom/spotxchange/v4/adapters/brightcove/SpotXBrightcoveAdapter$a;->b:Lcom/spotxchange/v4/adapters/brightcove/SpotXBrightcoveAdapter;
 
     invoke-static {v0}, Lcom/spotxchange/v4/adapters/brightcove/SpotXBrightcoveAdapter;->q(Lcom/spotxchange/v4/adapters/brightcove/SpotXBrightcoveAdapter;)Z
@@ -79,21 +75,18 @@
 
     if-eqz v0, :cond_2
 
-    .line 4
     iget-object v0, p0, Lcom/spotxchange/v4/adapters/brightcove/SpotXBrightcoveAdapter$a;->b:Lcom/spotxchange/v4/adapters/brightcove/SpotXBrightcoveAdapter;
 
     const/4 v1, 0x0
 
     invoke-static {v0, v1}, Lcom/spotxchange/v4/adapters/brightcove/SpotXBrightcoveAdapter;->r(Lcom/spotxchange/v4/adapters/brightcove/SpotXBrightcoveAdapter;Z)Z
 
-    .line 5
     iget-object v0, p0, Lcom/spotxchange/v4/adapters/brightcove/SpotXBrightcoveAdapter$a;->b:Lcom/spotxchange/v4/adapters/brightcove/SpotXBrightcoveAdapter;
 
     sget-object v1, Lcom/spotxchange/v4/adapters/brightcove/SpotXBrightcoveAdapter$AdState;->PLAYING:Lcom/spotxchange/v4/adapters/brightcove/SpotXBrightcoveAdapter$AdState;
 
     invoke-static {v0, v1}, Lcom/spotxchange/v4/adapters/brightcove/SpotXBrightcoveAdapter;->k(Lcom/spotxchange/v4/adapters/brightcove/SpotXBrightcoveAdapter;Lcom/spotxchange/v4/adapters/brightcove/SpotXBrightcoveAdapter$AdState;)Lcom/spotxchange/v4/adapters/brightcove/SpotXBrightcoveAdapter$AdState;
 
-    .line 6
     iget-object v0, p0, Lcom/spotxchange/v4/adapters/brightcove/SpotXBrightcoveAdapter$a;->b:Lcom/spotxchange/v4/adapters/brightcove/SpotXBrightcoveAdapter;
 
     invoke-static {v0}, Lcom/spotxchange/v4/adapters/brightcove/SpotXBrightcoveAdapter;->c(Lcom/spotxchange/v4/adapters/brightcove/SpotXBrightcoveAdapter;)Lcom/spotxchange/v4/c;
@@ -104,7 +97,6 @@
 
     goto :goto_1
 
-    .line 7
     :cond_1
     :goto_0
     iget-object v0, p0, Lcom/spotxchange/v4/adapters/brightcove/SpotXBrightcoveAdapter$a;->b:Lcom/spotxchange/v4/adapters/brightcove/SpotXBrightcoveAdapter;
@@ -113,7 +105,6 @@
 
     invoke-static {v0, v1}, Lcom/spotxchange/v4/adapters/brightcove/SpotXBrightcoveAdapter;->k(Lcom/spotxchange/v4/adapters/brightcove/SpotXBrightcoveAdapter;Lcom/spotxchange/v4/adapters/brightcove/SpotXBrightcoveAdapter$AdState;)Lcom/spotxchange/v4/adapters/brightcove/SpotXBrightcoveAdapter$AdState;
 
-    .line 8
     iget-object v0, p0, Lcom/spotxchange/v4/adapters/brightcove/SpotXBrightcoveAdapter$a;->b:Lcom/spotxchange/v4/adapters/brightcove/SpotXBrightcoveAdapter;
 
     invoke-static {v0}, Lcom/spotxchange/v4/adapters/brightcove/SpotXBrightcoveAdapter;->d(Lcom/spotxchange/v4/adapters/brightcove/SpotXBrightcoveAdapter;)V

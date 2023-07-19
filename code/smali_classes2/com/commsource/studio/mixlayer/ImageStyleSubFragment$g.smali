@@ -55,7 +55,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/mixlayer/ImageStyleSubFragment$g;->a:Lcom/commsource/studio/mixlayer/ImageStyleSubFragment;
 
     invoke-virtual {v1}, Landroidx/fragment/app/Fragment;->isResumed()Z
@@ -66,12 +65,10 @@
 
     if-eqz p1, :cond_1
 
-    .line 2
     invoke-virtual {p1}, Ljava/lang/Number;->intValue()I
 
     move-result p1
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/studio/mixlayer/ImageStyleSubFragment$g;->a:Lcom/commsource/studio/mixlayer/ImageStyleSubFragment;
 
     invoke-static {v1}, Lcom/commsource/studio/mixlayer/ImageStyleSubFragment;->D(Lcom/commsource/studio/mixlayer/ImageStyleSubFragment;)Lcom/commsource/beautyplus/f0/u8;
@@ -82,7 +79,6 @@
 
     invoke-virtual {v1, p1}, Lcom/commsource/studio/doodle/ColorItemView;->setFillColor(I)V
 
-    .line 4
     invoke-static {p1}, Landroid/graphics/Color;->red(I)I
 
     move-result v1
@@ -103,7 +99,6 @@
 
     if-le p1, v2, :cond_0
 
-    .line 5
     iget-object p1, p0, Lcom/commsource/studio/mixlayer/ImageStyleSubFragment$g;->a:Lcom/commsource/studio/mixlayer/ImageStyleSubFragment;
 
     invoke-static {p1}, Lcom/commsource/studio/mixlayer/ImageStyleSubFragment;->D(Lcom/commsource/studio/mixlayer/ImageStyleSubFragment;)Lcom/commsource/beautyplus/f0/u8;
@@ -118,7 +113,6 @@
 
     goto :goto_0
 
-    .line 6
     :cond_0
     iget-object p1, p0, Lcom/commsource/studio/mixlayer/ImageStyleSubFragment$g;->a:Lcom/commsource/studio/mixlayer/ImageStyleSubFragment;
 
@@ -132,7 +126,6 @@
 
     invoke-virtual {p1, v1}, Landroid/widget/TextView;->setTextColor(I)V
 
-    .line 7
     :cond_1
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -147,7 +140,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Ljava/lang/Integer;
 
     invoke-virtual {p0, p1}, Lcom/commsource/studio/mixlayer/ImageStyleSubFragment$g;->a(Ljava/lang/Integer;)V

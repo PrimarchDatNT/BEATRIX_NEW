@@ -101,7 +101,6 @@
 .method constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -121,12 +120,10 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/c;->asMap:Ljava/util/Map;
 
     if-nez v0, :cond_0
 
-    .line 2
     invoke-virtual {p0}, Lcom/google/common/collect/c;->createAsMap()Ljava/util/Map;
 
     move-result-object v0
@@ -148,7 +145,6 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/collect/c;->asMap()Ljava/util/Map;
 
     move-result-object v0
@@ -161,7 +157,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 2
     invoke-interface {p1, p2}, Ljava/util/Collection;->contains(Ljava/lang/Object;)Z
 
     move-result p1
@@ -186,7 +181,6 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/collect/c;->asMap()Ljava/util/Map;
 
     move-result-object v0
@@ -212,7 +206,6 @@
 
     check-cast v1, Ljava/util/Collection;
 
-    .line 2
     invoke-interface {v1, p1}, Ljava/util/Collection;->contains(Ljava/lang/Object;)Z
 
     move-result v1
@@ -293,12 +286,10 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/c;->entries:Ljava/util/Collection;
 
     if-nez v0, :cond_0
 
-    .line 2
     invoke-virtual {p0}, Lcom/google/common/collect/c;->createEntries()Ljava/util/Collection;
 
     move-result-object v0
@@ -327,7 +318,6 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-static {p0, p1}, Lcom/google/common/collect/Multimaps;->g(Lcom/google/common/collect/l1;Ljava/lang/Object;)Z
 
     move-result p1
@@ -338,7 +328,6 @@
 .method public hashCode()I
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/collect/c;->asMap()Ljava/util/Map;
 
     move-result-object v0
@@ -353,7 +342,6 @@
 .method public isEmpty()Z
     .locals 1
 
-    .line 1
     invoke-interface {p0}, Lcom/google/common/collect/l1;->size()I
 
     move-result v0
@@ -381,12 +369,10 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/c;->keySet:Ljava/util/Set;
 
     if-nez v0, :cond_0
 
-    .line 2
     invoke-virtual {p0}, Lcom/google/common/collect/c;->createKeySet()Ljava/util/Set;
 
     move-result-object v0
@@ -407,12 +393,10 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/c;->keys:Lcom/google/common/collect/m1;
 
     if-nez v0, :cond_0
 
-    .line 2
     invoke-virtual {p0}, Lcom/google/common/collect/c;->createKeys()Lcom/google/common/collect/m1;
 
     move-result-object v0
@@ -442,7 +426,6 @@
     .annotation build Lf/f/f/a/a;
     .end annotation
 
-    .line 1
     invoke-interface {p0, p1}, Lcom/google/common/collect/l1;->get(Ljava/lang/Object;)Ljava/util/Collection;
 
     move-result-object p1
@@ -467,7 +450,6 @@
     .annotation build Lf/f/f/a/a;
     .end annotation
 
-    .line 7
     invoke-interface {p1}, Lcom/google/common/collect/l1;->entries()Ljava/util/Collection;
 
     move-result-object p1
@@ -491,7 +473,6 @@
 
     check-cast v1, Ljava/util/Map$Entry;
 
-    .line 8
     invoke-interface {v1}, Ljava/util/Map$Entry;->getKey()Ljava/lang/Object;
 
     move-result-object v2
@@ -529,10 +510,8 @@
     .annotation build Lf/f/f/a/a;
     .end annotation
 
-    .line 1
     invoke-static {p2}, Lcom/google/common/base/t;->E(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 2
     instance-of v0, p2, Ljava/util/Collection;
 
     const/4 v1, 0x1
@@ -541,10 +520,8 @@
 
     if-eqz v0, :cond_1
 
-    .line 3
     check-cast p2, Ljava/util/Collection;
 
-    .line 4
     invoke-interface {p2}, Ljava/util/Collection;->isEmpty()Z
 
     move-result v0
@@ -569,13 +546,11 @@
     :goto_0
     return v1
 
-    .line 5
     :cond_1
     invoke-interface {p2}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object p2
 
-    .line 6
     invoke-interface {p2}, Ljava/util/Iterator;->hasNext()Z
 
     move-result v0
@@ -614,7 +589,6 @@
     .annotation build Lf/f/f/a/a;
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/collect/c;->asMap()Ljava/util/Map;
 
     move-result-object v0
@@ -627,7 +601,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 2
     invoke-interface {p1, p2}, Ljava/util/Collection;->remove(Ljava/lang/Object;)Z
 
     move-result p1
@@ -664,15 +637,12 @@
     .annotation build Lf/f/f/a/a;
     .end annotation
 
-    .line 1
     invoke-static {p2}, Lcom/google/common/base/t;->E(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 2
     invoke-interface {p0, p1}, Lcom/google/common/collect/l1;->removeAll(Ljava/lang/Object;)Ljava/util/Collection;
 
     move-result-object v0
 
-    .line 3
     invoke-virtual {p0, p1, p2}, Lcom/google/common/collect/c;->putAll(Ljava/lang/Object;Ljava/lang/Iterable;)Z
 
     return-object v0
@@ -681,7 +651,6 @@
 .method public toString()Ljava/lang/String;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/collect/c;->asMap()Ljava/util/Map;
 
     move-result-object v0
@@ -703,7 +672,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/collect/c;->entries()Ljava/util/Collection;
 
     move-result-object v0
@@ -729,12 +697,10 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/c;->values:Ljava/util/Collection;
 
     if-nez v0, :cond_0
 
-    .line 2
     invoke-virtual {p0}, Lcom/google/common/collect/c;->createValues()Ljava/util/Collection;
 
     move-result-object v0

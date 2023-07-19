@@ -25,10 +25,8 @@
 .method private constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     new-instance v0, Ljava/util/concurrent/atomic/AtomicInteger;
 
     invoke-direct {v0}, Ljava/util/concurrent/atomic/AtomicInteger;-><init>()V
@@ -41,7 +39,6 @@
 .method synthetic constructor <init>(Lcom/qiniu/android/dns/a$a;)V
     .locals 0
 
-    .line 3
     invoke-direct {p0}, Lcom/qiniu/android/dns/a$b;-><init>()V
 
     return-void
@@ -54,7 +51,6 @@
 
     if-eqz p1, :cond_2
 
-    .line 1
     array-length v0, p1
 
     const/4 v1, 0x1
@@ -63,7 +59,6 @@
 
     goto :goto_1
 
-    .line 2
     :cond_0
     iget-object v0, p0, Lcom/qiniu/android/dns/a$b;->a:Ljava/util/concurrent/atomic/AtomicInteger;
 
@@ -73,14 +68,12 @@
 
     and-int/lit16 v0, v0, 0xff
 
-    .line 3
     array-length v1, p1
 
     new-array v1, v1, [Ljava/lang/String;
 
     const/4 v2, 0x0
 
-    .line 4
     :goto_0
     array-length v3, p1
 
@@ -88,7 +81,6 @@
 
     add-int v3, v2, v0
 
-    .line 5
     array-length v4, p1
 
     rem-int/2addr v3, v4

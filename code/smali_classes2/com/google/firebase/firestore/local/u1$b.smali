@@ -30,10 +30,8 @@
 .method private constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     invoke-static {}, Lcom/google/firebase/firestore/model/e;->h()Lcom/google/firebase/database/collection/f;
 
     move-result-object v0
@@ -46,7 +44,6 @@
 .method synthetic constructor <init>(Lcom/google/firebase/firestore/local/u1$a;)V
     .locals 0
 
-    .line 3
     invoke-direct {p0}, Lcom/google/firebase/firestore/local/u1$b;-><init>()V
 
     return-void

@@ -34,10 +34,8 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     invoke-static {}, Ljava/util/Collections;->emptyList()Ljava/util/List;
 
     move-result-object v0
@@ -52,21 +50,18 @@
 .method public a()Lio/grpc/InternalChannelz$ChannelTrace;
     .locals 9
 
-    .line 1
     iget-object v0, p0, Lio/grpc/InternalChannelz$ChannelTrace$a;->a:Ljava/lang/Long;
 
     const-string v1, "numEventsLogged"
 
     invoke-static {v0, v1}, Lcom/google/common/base/t;->F(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 2
     iget-object v0, p0, Lio/grpc/InternalChannelz$ChannelTrace$a;->b:Ljava/lang/Long;
 
     const-string v1, "creationTimeNanos"
 
     invoke-static {v0, v1}, Lcom/google/common/base/t;->F(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 3
     new-instance v0, Lio/grpc/InternalChannelz$ChannelTrace;
 
     iget-object v1, p0, Lio/grpc/InternalChannelz$ChannelTrace$a;->a:Ljava/lang/Long;
@@ -95,7 +90,6 @@
 .method public b(J)Lio/grpc/InternalChannelz$ChannelTrace$a;
     .locals 0
 
-    .line 1
     invoke-static {p1, p2}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
 
     move-result-object p1
@@ -117,7 +111,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0, p1}, Ljava/util/ArrayList;-><init>(Ljava/util/Collection;)V
@@ -134,7 +127,6 @@
 .method public d(J)Lio/grpc/InternalChannelz$ChannelTrace$a;
     .locals 0
 
-    .line 1
     invoke-static {p1, p2}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
 
     move-result-object p1

@@ -31,7 +31,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/camera/xcamera/cover/CameraCaptureCover$d;->a:Lcom/commsource/camera/xcamera/cover/CameraCaptureCover;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -50,7 +49,6 @@
 
     if-eqz p3, :cond_1
 
-    .line 1
     iget-object p3, p0, Lcom/commsource/camera/xcamera/cover/CameraCaptureCover$d;->a:Lcom/commsource/camera/xcamera/cover/CameraCaptureCover;
 
     invoke-virtual {p3}, Lcom/commsource/camera/xcamera/cover/AbsCover;->A()Landroidx/databinding/ViewDataBinding;
@@ -67,7 +65,6 @@
 
     invoke-static {p3}, Lcom/commsource/util/l0;->x(Landroid/view/View;)V
 
-    .line 2
     iget-object p3, p0, Lcom/commsource/camera/xcamera/cover/CameraCaptureCover$d;->a:Lcom/commsource/camera/xcamera/cover/CameraCaptureCover;
 
     invoke-virtual {p3}, Lcom/commsource/camera/xcamera/cover/CameraCaptureCover;->W()Lcom/commsource/camera/xcamera/cover/CameraConfigViewModel;
@@ -90,7 +87,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_0
     iget-object p3, p0, Lcom/commsource/camera/xcamera/cover/CameraCaptureCover$d;->a:Lcom/commsource/camera/xcamera/cover/CameraCaptureCover;
 
@@ -100,7 +96,6 @@
 
     invoke-virtual {p3, p2}, Lcom/commsource/camera/xcamera/cover/CameraCaptureViewModel;->X(I)V
 
-    .line 4
     :cond_1
     :goto_0
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -115,7 +110,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/CameraCaptureCover$d;->a:Lcom/commsource/camera/xcamera/cover/CameraCaptureCover;
 
     invoke-virtual {v1}, Lcom/commsource/camera/xcamera/cover/CameraCaptureCover;->S()Lcom/commsource/camera/xcamera/BpCameraViewModel;
@@ -128,7 +122,6 @@
 
     invoke-virtual {v1}, Lcom/commsource/camera/r0;->b()V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/CameraCaptureCover$d;->a:Lcom/commsource/camera/xcamera/cover/CameraCaptureCover;
 
     invoke-virtual {v1}, Lcom/commsource/camera/xcamera/cover/CameraCaptureCover;->S()Lcom/commsource/camera/xcamera/BpCameraViewModel;

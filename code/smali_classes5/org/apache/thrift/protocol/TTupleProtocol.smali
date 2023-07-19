@@ -15,7 +15,6 @@
 .method public constructor <init>(Lorg/apache/thrift/transport/TTransport;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1}, Lorg/apache/thrift/protocol/TCompactProtocol;-><init>(Lorg/apache/thrift/transport/TTransport;)V
 
     return-void
@@ -24,14 +23,12 @@
 .method public static fromByteArray([B)Ljava/util/BitSet;
     .locals 5
 
-    .line 1
     new-instance v0, Ljava/util/BitSet;
 
     invoke-direct {v0}, Ljava/util/BitSet;-><init>()V
 
     const/4 v1, 0x0
 
-    .line 2
     :goto_0
     array-length v2, p0
 
@@ -39,7 +36,6 @@
 
     if-ge v1, v2, :cond_1
 
-    .line 3
     array-length v2, p0
 
     div-int/lit8 v3, v1, 0x8
@@ -60,7 +56,6 @@
 
     if-lez v2, :cond_0
 
-    .line 4
     invoke-virtual {v0, v1}, Ljava/util/BitSet;->set(I)V
 
     :cond_0
@@ -81,7 +76,6 @@
 
     div-double/2addr v0, v2
 
-    .line 1
     invoke-static {v0, v1}, Ljava/lang/Math;->ceil(D)D
 
     move-result-wide v0
@@ -92,7 +86,6 @@
 
     const/4 v1, 0x0
 
-    .line 2
     :goto_0
     invoke-virtual {p0}, Ljava/util/BitSet;->length()I
 
@@ -100,14 +93,12 @@
 
     if-ge v1, v2, :cond_1
 
-    .line 3
     invoke-virtual {p0, v1}, Ljava/util/BitSet;->get(I)Z
 
     move-result v2
 
     if-eqz v2, :cond_0
 
-    .line 4
     div-int/lit8 v2, v1, 0x8
 
     sub-int v2, p1, v2
@@ -151,7 +142,6 @@
         }
     .end annotation
 
-    .line 1
     const-class v0, Lorg/apache/thrift/scheme/TupleScheme;
 
     return-object v0
@@ -171,14 +161,12 @@
 
     div-double/2addr v0, v2
 
-    .line 1
     invoke-static {v0, v1}, Ljava/lang/Math;->ceil(D)D
 
     move-result-wide v0
 
     double-to-int p1, v0
 
-    .line 2
     new-array v0, p1, [B
 
     const/4 v1, 0x0
@@ -186,7 +174,6 @@
     :goto_0
     if-ge v1, p1, :cond_0
 
-    .line 3
     invoke-virtual {p0}, Lorg/apache/thrift/protocol/TCompactProtocol;->readByte()B
 
     move-result v2
@@ -197,7 +184,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_0
     invoke-static {v0}, Lorg/apache/thrift/protocol/TTupleProtocol;->fromByteArray([B)Ljava/util/BitSet;
 
@@ -214,12 +200,10 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p1, p2}, Lorg/apache/thrift/protocol/TTupleProtocol;->toByteArray(Ljava/util/BitSet;I)[B
 
     move-result-object p1
 
-    .line 2
     array-length p2, p1
 
     const/4 v0, 0x0
@@ -229,7 +213,6 @@
 
     aget-byte v1, p1, v0
 
-    .line 3
     invoke-virtual {p0, v1}, Lorg/apache/thrift/protocol/TCompactProtocol;->writeByte(B)V
 
     add-int/lit8 v0, v0, 0x1

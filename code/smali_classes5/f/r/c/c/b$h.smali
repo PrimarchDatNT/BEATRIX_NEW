@@ -32,7 +32,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lf/r/c/c/b$h;->b:Lf/r/c/c/b;
 
     iput-object p2, p0, Lf/r/c/c/b$h;->a:Ljava/lang/Exception;
@@ -47,7 +46,6 @@
 .method public run()V
     .locals 5
 
-    .line 1
     iget-object v0, p0, Lf/r/c/c/b$h;->b:Lf/r/c/c/b;
 
     invoke-static {v0}, Lf/r/c/c/b;->N(Lf/r/c/c/b;)Ljava/util/ArrayList;
@@ -71,7 +69,6 @@
 
     check-cast v1, Lcom/spotxchange/v4/SpotXAdPlayer$e;
 
-    .line 2
     iget-object v2, p0, Lf/r/c/c/b$h;->b:Lf/r/c/c/b;
 
     iget-object v3, v2, Lf/r/c/c/b;->g:Lcom/spotxchange/v4/h/c;

@@ -31,7 +31,6 @@
 .method protected constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/util/AbstractCollection;-><init>()V
 
     return-void
@@ -53,7 +52,6 @@
 .method public final bridge size()I
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcotlin/collections/d;->b()I
 
     move-result v0

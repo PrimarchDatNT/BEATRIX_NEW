@@ -29,7 +29,6 @@
 
     const/4 v0, 0x1
 
-    .line 1
     invoke-direct {p0, v0, p1}, Lcom/commsource/studio/formula/convert/b;-><init>(ILcom/commsource/studio/formula/convert/d;)V
 
     return-void
@@ -44,7 +43,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Lcom/commsource/studio/bean/PictureLayerInfo;
 
     invoke-virtual {p0, p1}, Lcom/commsource/studio/formula/convert/i;->i(Lcom/commsource/studio/bean/PictureLayerInfo;)Lcom/commsource/studio/formula/convert/FormulaLayer;
@@ -63,7 +61,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0, p1, p2}, Lcom/commsource/studio/formula/convert/i;->j(Lcom/commsource/studio/formula/convert/g;Lcom/commsource/studio/formula/convert/FormulaLayer;)Lcom/commsource/studio/bean/PictureLayerInfo;
 
     move-result-object p1
@@ -90,7 +87,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const/4 p1, 0x0
@@ -129,7 +125,6 @@
 
     invoke-static {v4, v3}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-virtual/range {p2 .. p2}, Lcom/commsource/studio/formula/convert/FormulaLayer;->getEffectParams()Lcom/commsource/studio/formula/convert/EffectParams;
 
     move-result-object v3
@@ -158,12 +153,10 @@
 
     if-ne v3, v9, :cond_6
 
-    .line 2
     invoke-virtual/range {p1 .. p1}, Lcom/commsource/studio/formula/convert/g;->l()Lcom/commsource/studio/bean/PictureLayerInfo;
 
     move-result-object v3
 
-    .line 3
     invoke-virtual {v3}, Lcom/commsource/studio/bean/FocusLayerInfo;->hasMaskEffect()Z
 
     move-result v10
@@ -185,7 +178,6 @@
 
     move-result v10
 
-    .line 4
     :goto_0
     invoke-virtual {v3}, Lcom/commsource/studio/bean/FocusLayerInfo;->hasMaskEffect()Z
 
@@ -208,7 +200,6 @@
 
     move-result v11
 
-    .line 5
     :goto_1
     invoke-virtual/range {p2 .. p2}, Lcom/commsource/studio/formula/convert/FormulaLayer;->getPosition()Lcom/commsource/studio/formula/convert/Position;
 
@@ -216,14 +207,12 @@
 
     invoke-virtual {v0, v1, v3, v12}, Lcom/commsource/studio/formula/convert/b;->a(Lcom/commsource/studio/formula/convert/g;Lcom/commsource/studio/bean/FocusLayerInfo;Lcom/commsource/studio/formula/convert/Position;)V
 
-    .line 6
     invoke-virtual/range {p2 .. p2}, Lcom/commsource/studio/formula/convert/FormulaLayer;->getLayerStyle()Lcom/commsource/studio/formula/convert/LayerStyle;
 
     move-result-object v12
 
     invoke-virtual {v0, v1, v3, v12}, Lcom/commsource/studio/formula/convert/b;->d(Lcom/commsource/studio/formula/convert/g;Lcom/commsource/studio/bean/ImageLayerInfo;Lcom/commsource/studio/formula/convert/LayerStyle;)V
 
-    .line 7
     invoke-virtual/range {p2 .. p2}, Lcom/commsource/studio/formula/convert/FormulaLayer;->getPosition()Lcom/commsource/studio/formula/convert/Position;
 
     move-result-object v12
@@ -236,7 +225,6 @@
 
     if-eqz v12, :cond_5
 
-    .line 8
     invoke-virtual {v12}, Lcom/commsource/studio/formula/convert/CropInfo;->getType()I
 
     move-result v13
@@ -265,7 +253,6 @@
     :goto_2
     invoke-virtual {v3, v5}, Lcom/commsource/studio/bean/FocusLayerInfo;->setShapeId(I)V
 
-    .line 9
     invoke-virtual {v3}, Lcom/commsource/studio/bean/FocusLayerInfo;->getMaskCropRectF()Landroid/graphics/RectF;
 
     move-result-object v5
@@ -294,7 +281,6 @@
 
     invoke-virtual {v5, v13, v13, v6, v7}, Landroid/graphics/RectF;->set(FFFF)V
 
-    .line 10
     invoke-virtual {v3}, Lcom/commsource/studio/bean/FocusLayerInfo;->getOriginBitmapRect()Landroid/graphics/Rect;
 
     move-result-object v5
@@ -317,24 +303,20 @@
 
     invoke-virtual {v5, v8, v8, v6, v7}, Landroid/graphics/Rect;->set(IIII)V
 
-    .line 11
     invoke-virtual {v3}, Lcom/commsource/studio/bean/FocusLayerInfo;->getBitmapMatrixBox()Lcom/commsource/studio/MatrixBox;
 
     move-result-object v5
 
     invoke-virtual {v5}, Lcom/commsource/studio/MatrixBox;->reset()V
 
-    .line 12
     invoke-virtual {v3}, Lcom/commsource/studio/bean/FocusLayerInfo;->getBitmapPosition()Lcom/commsource/studio/layer/Position;
 
     move-result-object v14
 
-    .line 13
     invoke-virtual {v3}, Lcom/commsource/studio/bean/FocusLayerInfo;->getBitmapMatrixBox()Lcom/commsource/studio/MatrixBox;
 
     move-result-object v15
 
-    .line 14
     invoke-virtual {v3}, Lcom/commsource/studio/bean/FocusLayerInfo;->getMaskCropRectF()Landroid/graphics/RectF;
 
     move-result-object v5
@@ -343,7 +325,6 @@
 
     move-result v16
 
-    .line 15
     invoke-virtual {v3}, Lcom/commsource/studio/bean/FocusLayerInfo;->getMaskCropRectF()Landroid/graphics/RectF;
 
     move-result-object v5
@@ -352,7 +333,6 @@
 
     move-result v17
 
-    .line 16
     invoke-virtual/range {p2 .. p2}, Lcom/commsource/studio/formula/convert/FormulaLayer;->getPosition()Lcom/commsource/studio/formula/convert/Position;
 
     move-result-object v5
@@ -363,7 +343,6 @@
 
     int-to-float v5, v5
 
-    .line 17
     invoke-virtual/range {p2 .. p2}, Lcom/commsource/studio/formula/convert/FormulaLayer;->getPosition()Lcom/commsource/studio/formula/convert/Position;
 
     move-result-object v4
@@ -378,24 +357,20 @@
 
     move/from16 v19, v4
 
-    .line 18
     invoke-virtual/range {v14 .. v19}, Lcom/commsource/studio/layer/Position;->set(Lcom/commsource/studio/MatrixBox;FFFF)V
 
-    .line 19
     invoke-virtual {v12}, Lcom/commsource/studio/formula/convert/CropInfo;->getFlipX()Z
 
     move-result v4
 
     invoke-virtual {v3, v4}, Lcom/commsource/studio/bean/FocusLayerInfo;->setRealFlipX(Z)V
 
-    .line 20
     invoke-virtual {v12}, Lcom/commsource/studio/formula/convert/CropInfo;->getFlipY()Z
 
     move-result v4
 
     invoke-virtual {v3, v4}, Lcom/commsource/studio/bean/FocusLayerInfo;->setRealFlipY(Z)V
 
-    .line 21
     new-instance v4, Landroid/graphics/RectF;
 
     int-to-float v5, v10
@@ -406,7 +381,6 @@
 
     invoke-virtual {v3, v4, v9, v9}, Lcom/commsource/studio/bean/FocusLayerInfo;->updateBitmapRectChange(Landroid/graphics/RectF;ZZ)V
 
-    .line 22
     new-instance v4, Landroid/graphics/Rect;
 
     invoke-direct {v4, v8, v8, v10, v11}, Landroid/graphics/Rect;-><init>(IIII)V
@@ -435,13 +409,11 @@
 
     invoke-static/range {v10 .. v18}, Lcom/commsource/studio/bean/FocusLayerInfo;->updateMaskCropInfo$default(Lcom/commsource/studio/bean/FocusLayerInfo;Landroid/graphics/Rect;Landroid/graphics/RectF;Lcom/commsource/studio/MatrixBox;IIIILjava/lang/Object;)V
 
-    .line 23
     :cond_5
     invoke-static {v2}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v3
 
-    .line 24
     :cond_6
     invoke-virtual/range {p2 .. p2}, Lcom/commsource/studio/formula/convert/FormulaLayer;->getProducts()Ljava/util/List;
 
@@ -451,7 +423,6 @@
 
     if-eqz v3, :cond_d
 
-    .line 25
     invoke-interface {v3}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v3
@@ -469,31 +440,26 @@
 
     check-cast v11, Lcom/commsource/studio/formula/convert/FormulaProduct;
 
-    .line 26
     sget-object v12, Lcom/commsource/studio/formula/c;->v:Lcom/commsource/studio/formula/c;
 
     invoke-virtual {v12, v1, v11}, Lcom/commsource/studio/formula/c;->M(Lcom/commsource/studio/formula/convert/g;Lcom/commsource/studio/formula/convert/FormulaProduct;)Ljava/lang/String;
 
     move-result-object v11
 
-    .line 27
     invoke-static {v11}, Lcom/meitu/library/p/g/b;->y(Ljava/lang/String;)Z
 
     move-result v12
 
     if-eqz v12, :cond_7
 
-    .line 28
     invoke-static {v11}, Lcom/meitu/library/p/e/a;->G(Ljava/lang/String;)Landroid/graphics/Bitmap;
 
     move-result-object v3
 
-    .line 29
     invoke-static {}, Lcom/commsource/beautyplus/util/v;->M()Ljava/lang/String;
 
     move-result-object v12
 
-    .line 30
     sget-object v13, Lcom/commsource/util/m0;->a:Lcom/commsource/util/m0;
 
     invoke-virtual {v13, v3, v12, v9}, Lcom/commsource/util/m0;->b(Landroid/graphics/Bitmap;Ljava/lang/String;Z)Z
@@ -502,52 +468,43 @@
 
     if-nez v13, :cond_8
 
-    .line 31
     invoke-static {v2}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v10
 
-    .line 32
     :cond_8
     new-instance v10, Lcom/commsource/studio/bean/PictureLayerInfo;
 
     invoke-direct {v10}, Lcom/commsource/studio/bean/PictureLayerInfo;-><init>()V
 
-    .line 33
     invoke-virtual/range {p2 .. p2}, Lcom/commsource/studio/formula/convert/FormulaLayer;->getPosition()Lcom/commsource/studio/formula/convert/Position;
 
     move-result-object v13
 
     invoke-virtual {v0, v1, v10, v13}, Lcom/commsource/studio/formula/convert/b;->a(Lcom/commsource/studio/formula/convert/g;Lcom/commsource/studio/bean/FocusLayerInfo;Lcom/commsource/studio/formula/convert/Position;)V
 
-    .line 34
     invoke-virtual/range {p2 .. p2}, Lcom/commsource/studio/formula/convert/FormulaLayer;->getLayerStyle()Lcom/commsource/studio/formula/convert/LayerStyle;
 
     move-result-object v13
 
     invoke-virtual {v0, v1, v10, v13}, Lcom/commsource/studio/formula/convert/b;->d(Lcom/commsource/studio/formula/convert/g;Lcom/commsource/studio/bean/ImageLayerInfo;Lcom/commsource/studio/formula/convert/LayerStyle;)V
 
-    .line 35
     invoke-virtual {v10, v8}, Lcom/commsource/studio/bean/PictureLayerInfo;->setFromUser(Z)V
 
-    .line 36
     invoke-virtual {v10, v11}, Lcom/commsource/studio/bean/PictureLayerInfo;->setOriPath(Ljava/lang/String;)V
 
     const-string v8, "texturePath"
 
-    .line 37
     invoke-static {v12, v8}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v10, v12}, Lcom/commsource/studio/bean/ImageLayerInfo;->setTexturePath(Ljava/lang/String;)V
 
-    .line 38
     invoke-virtual/range {p1 .. p1}, Lcom/commsource/studio/formula/convert/g;->k()Lcom/commsource/studio/bean/a;
 
     move-result-object v1
 
     invoke-virtual {v1, v10, v3, v9}, Lcom/commsource/studio/bean/a;->o0(Lcom/commsource/studio/bean/PictureLayerInfo;Landroid/graphics/Bitmap;Z)Lcom/commsource/studio/bean/d;
 
-    .line 39
     invoke-virtual/range {p2 .. p2}, Lcom/commsource/studio/formula/convert/FormulaLayer;->getPosition()Lcom/commsource/studio/formula/convert/Position;
 
     move-result-object v1
@@ -560,7 +517,6 @@
 
     if-eqz v1, :cond_c
 
-    .line 40
     invoke-virtual {v1}, Lcom/commsource/studio/formula/convert/CropInfo;->getType()I
 
     move-result v1
@@ -589,13 +545,11 @@
     :goto_3
     invoke-virtual {v10, v5}, Lcom/commsource/studio/bean/FocusLayerInfo;->setShapeId(I)V
 
-    .line 41
     :cond_c
     invoke-static {v2}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v10
 
-    .line 42
     :cond_d
     invoke-static {v2}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

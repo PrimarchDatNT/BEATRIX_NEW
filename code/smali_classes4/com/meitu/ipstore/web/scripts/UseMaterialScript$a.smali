@@ -30,7 +30,6 @@
 .method constructor <init>(Lcom/meitu/ipstore/web/scripts/UseMaterialScript;Ljava/lang/Class;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/ipstore/web/scripts/UseMaterialScript$a;->c:Lcom/meitu/ipstore/web/scripts/UseMaterialScript;
 
     invoke-direct {p0, p1, p2}, Lcom/meitu/webview/mtscript/i$c;-><init>(Lcom/meitu/webview/mtscript/i;Ljava/lang/Class;)V
@@ -47,7 +46,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Lcom/meitu/ipstore/web/scripts/UseMaterialScript$Model;
 
     invoke-virtual {p0, p1}, Lcom/meitu/ipstore/web/scripts/UseMaterialScript$a;->d(Lcom/meitu/ipstore/web/scripts/UseMaterialScript$Model;)V
@@ -66,7 +64,6 @@
 
     invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lf/k/m/b;->i()Lf/k/m/b;
 
     move-result-object v2
@@ -81,7 +78,6 @@
 
     iget-object v2, p1, Lcom/meitu/ipstore/web/scripts/UseMaterialScript$Model;->materialId:Ljava/lang/String;
 
-    .line 2
     invoke-static {v2}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v2
@@ -90,7 +86,6 @@
 
     goto :goto_1
 
-    .line 3
     :cond_0
     :try_start_0
     iget-object v2, p1, Lcom/meitu/ipstore/web/scripts/UseMaterialScript$Model;->materialId:Ljava/lang/String;
@@ -114,13 +109,10 @@
     :catch_0
     move-exception v2
 
-    .line 4
     invoke-static {v0, v2}, Lf/k/m/j/e;->f(Ljava/lang/String;Ljava/lang/Throwable;)V
 
-    .line 5
     iget-object p1, p1, Lcom/meitu/ipstore/web/scripts/UseMaterialScript$Model;->materialId:Ljava/lang/String;
 
-    .line 6
     :goto_0
     new-instance v0, Lcom/meitu/ipstore/web/scripts/UseMaterialScript$a$a;
 
@@ -128,7 +120,6 @@
 
     invoke-static {v0}, Lf/k/m/j/j;->i(Ljava/lang/Runnable;)V
 
-    .line 7
     invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -137,10 +128,8 @@
     :goto_1
     const-string p1, "Use Material Fail!"
 
-    .line 8
     invoke-static {p1}, Lf/k/m/j/e;->c(Ljava/lang/String;)V
 
-    .line 9
     iget-object p1, p0, Lcom/meitu/ipstore/web/scripts/UseMaterialScript$a;->c:Lcom/meitu/ipstore/web/scripts/UseMaterialScript;
 
     invoke-virtual {p1}, Lcom/meitu/webview/mtscript/i;->A()Lcom/meitu/webview/core/CommonWebView;
@@ -149,12 +138,10 @@
 
     if-nez p1, :cond_2
 
-    .line 10
     invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 11
     :cond_2
     iget-object v0, p0, Lcom/meitu/ipstore/web/scripts/UseMaterialScript$a;->c:Lcom/meitu/ipstore/web/scripts/UseMaterialScript;
 
@@ -166,19 +153,16 @@
 
     const-string v3, "Internal error!"
 
-    .line 12
     invoke-static {v2, v3}, Lcom/meitu/ipstore/web/scripts/b;->c(ILjava/lang/String;)Ljava/lang/String;
 
     move-result-object v2
 
-    .line 13
     invoke-static {v0, v2}, Lcom/meitu/webview/mtscript/h;->i(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
 
     invoke-virtual {p1, v0}, Lcom/meitu/webview/core/CommonWebView;->loadUrl(Ljava/lang/String;)V
 
-    .line 14
     invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

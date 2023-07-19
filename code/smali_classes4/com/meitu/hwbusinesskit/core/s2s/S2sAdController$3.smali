@@ -36,7 +36,6 @@
 .method constructor <init>(Lcom/meitu/hwbusinesskit/core/s2s/S2sAdListener;Lcom/meitu/hwbusinesskit/core/s2s/bean/S2sAd;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/hwbusinesskit/core/s2s/S2sAdController$3;->val$adListener:Lcom/meitu/hwbusinesskit/core/s2s/S2sAdListener;
 
     iput-object p2, p0, Lcom/meitu/hwbusinesskit/core/s2s/S2sAdController$3;->val$ad:Lcom/meitu/hwbusinesskit/core/s2s/bean/S2sAd;
@@ -73,23 +72,19 @@
 
     const-string p3, "downloadAdImg()->onLoadFailed()"
 
-    .line 1
     invoke-static {p2, p3}, Lcom/meitu/hwbusinesskit/core/utils/TestLog;->logGlide(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 2
     iget-object p2, p0, Lcom/meitu/hwbusinesskit/core/s2s/S2sAdController$3;->val$adListener:Lcom/meitu/hwbusinesskit/core/s2s/S2sAdListener;
 
     if-eqz p2, :cond_0
 
     const-string p3, "s2s\u5e7f\u544a\u56fe\u7247\u4e0b\u8f7d\u5931\u8d25"
 
-    .line 3
     invoke-interface {p2, p3}, Lcom/meitu/hwbusinesskit/core/s2s/S2sAdListener;->onFailed(Ljava/lang/String;)V
 
     :cond_0
     const/4 p2, 0x1
 
-    .line 4
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p2
@@ -114,7 +109,6 @@
 
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 2
     new-instance p3, Ljava/lang/StringBuilder;
 
     invoke-direct {p3}, Ljava/lang/StringBuilder;-><init>()V
@@ -133,12 +127,10 @@
 
     invoke-static {p3, p1}, Lcom/meitu/hwbusinesskit/core/utils/TestLog;->logGlide(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 3
     iget-object p1, p0, Lcom/meitu/hwbusinesskit/core/s2s/S2sAdController$3;->val$adListener:Lcom/meitu/hwbusinesskit/core/s2s/S2sAdListener;
 
     if-eqz p1, :cond_0
 
-    .line 4
     iget-object p3, p0, Lcom/meitu/hwbusinesskit/core/s2s/S2sAdController$3;->val$ad:Lcom/meitu/hwbusinesskit/core/s2s/bean/S2sAd;
 
     invoke-interface {p1, p3}, Lcom/meitu/hwbusinesskit/core/s2s/S2sAdListener;->onLoaded(Lcom/meitu/hwbusinesskit/core/s2s/bean/S2sAd;)V
@@ -146,7 +138,6 @@
     :cond_0
     const/4 p1, 0x1
 
-    .line 5
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
@@ -159,7 +150,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     move-object v2, p1
 
     check-cast v2, Ljava/io/File;

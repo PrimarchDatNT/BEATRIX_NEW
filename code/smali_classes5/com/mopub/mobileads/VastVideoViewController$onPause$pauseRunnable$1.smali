@@ -30,7 +30,6 @@
 .method static constructor <clinit>()V
     .locals 0
 
-    .line 1
     invoke-static {}, Lcom/mopub/mobileads/VastVideoViewController$onPause$pauseRunnable$1;->ajc$preClinit()V
 
     return-void
@@ -39,7 +38,6 @@
 .method constructor <init>(Lcom/mopub/mobileads/VastVideoViewController;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/mopub/mobileads/VastVideoViewController$onPause$pauseRunnable$1;->this$0:Lcom/mopub/mobileads/VastVideoViewController;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -50,7 +48,6 @@
 .method private static synthetic ajc$preClinit()V
     .locals 9
 
-    .line 1
     new-instance v8, Ln/a/b/c/e;
 
     const-class v0, Lcom/mopub/mobileads/VastVideoViewController$onPause$pauseRunnable$1;
@@ -95,7 +92,6 @@
 .method static final synthetic invoke_aroundBody0(Lcom/mopub/mobileads/VastVideoViewController$onPause$pauseRunnable$1;Ljava/lang/reflect/Method;Ljava/lang/Object;[Ljava/lang/Object;Lorg/aspectj/lang/c;)Ljava/lang/Object;
     .locals 0
 
-    .line 1
     invoke-virtual {p1, p2, p3}, Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p0
@@ -114,7 +110,6 @@
 
     const/4 v2, 0x0
 
-    .line 1
     :try_start_0
     const-class v3, Landroidx/media2/player/MediaPlayer;
 
@@ -126,12 +121,10 @@
 
     const-string v4, "audioFocusHandlerField"
 
-    .line 2
     invoke-static {v3, v4}, Lcotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v3, v1}, Ljava/lang/reflect/Field;->setAccessible(Z)V
 
-    .line 3
     iget-object v4, p0, Lcom/mopub/mobileads/VastVideoViewController$onPause$pauseRunnable$1;->this$0:Lcom/mopub/mobileads/VastVideoViewController;
 
     invoke-virtual {v4}, Lcom/mopub/mobileads/VastVideoViewController;->getMediaPlayer()Landroidx/media2/player/MediaPlayer;
@@ -142,7 +135,6 @@
 
     move-result-object v3
 
-    .line 4
     invoke-virtual {v3}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
     move-result-object v4
@@ -157,7 +149,6 @@
 
     new-array v5, v2, [Ljava/lang/Object;
 
-    .line 5
     sget-object v6, Lcom/mopub/mobileads/VastVideoViewController$onPause$pauseRunnable$1;->ajc$tjp_0:Lorg/aspectj/lang/c$b;
 
     invoke-static {v6, p0, v4, v3, v5}, Ln/a/b/c/e;->G(Lorg/aspectj/lang/c$b;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Lorg/aspectj/lang/c;
@@ -205,7 +196,6 @@
     :catch_0
     move-exception v3
 
-    .line 6
     sget-object v4, Lcom/mopub/common/logging/MoPubLog$SdkLogEvent;->CUSTOM_WITH_THROWABLE:Lcom/mopub/common/logging/MoPubLog$SdkLogEvent;
 
     new-array v0, v0, [Ljava/lang/Object;
@@ -216,7 +206,6 @@
 
     aput-object v3, v0, v1
 
-    .line 7
     invoke-static {v4, v0}, Lcom/mopub/common/logging/MoPubLog;->log(Lcom/mopub/common/logging/MoPubLog$MPLogEventType;[Ljava/lang/Object;)V
 
     :goto_0

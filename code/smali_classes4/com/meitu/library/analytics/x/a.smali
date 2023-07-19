@@ -33,7 +33,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -48,7 +47,6 @@
 
     const/4 v1, 0x1
 
-    .line 1
     invoke-static {p1, v1, p0}, Lcom/bun/miitmdid/core/MdidSdkHelper;->InitSdk(Landroid/content/Context;ZLcom/bun/supplier/IIdentifierListener;)I
 
     move-result p1
@@ -65,7 +63,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/library/analytics/x/a;->a:Lcom/meitu/library/analytics/x/a$a;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -80,7 +77,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/meitu/library/analytics/x/a;->a(Landroid/content/Context;)I
 
     move-result p0
@@ -97,7 +93,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/meitu/library/analytics/x/a;->c:Lcom/meitu/library/analytics/x/b;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -112,12 +107,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v1
 
-    .line 2
     new-instance v3, Lcom/meitu/library/analytics/x/a$a;
 
     invoke-direct {v3, p0, p1, v1, v2}, Lcom/meitu/library/analytics/x/a$a;-><init>(Lcom/meitu/library/analytics/x/a;Landroid/content/Context;J)V
@@ -128,10 +121,8 @@
 
     const-string v1, "startGetDeviceThread -> start "
 
-    .line 3
     invoke-static {p1, v1}, Lcom/meitu/library/analytics/y/j/d;->d(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 4
     :try_start_0
     iget-object p1, p0, Lcom/meitu/library/analytics/x/a;->a:Lcom/meitu/library/analytics/x/a$a;
 
@@ -144,15 +135,12 @@
     :catch_0
     move-exception p1
 
-    .line 5
     invoke-virtual {p1}, Ljava/lang/Exception;->printStackTrace()V
 
     const/4 p1, 0x0
 
-    .line 6
     iput-object p1, p0, Lcom/meitu/library/analytics/x/a;->a:Lcom/meitu/library/analytics/x/a$a;
 
-    .line 7
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -172,31 +160,26 @@
 
     if-nez p2, :cond_0
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 2
     :cond_0
     :try_start_0
     iget-object p1, p0, Lcom/meitu/library/analytics/x/a;->c:Lcom/meitu/library/analytics/x/b;
 
     invoke-virtual {p1, p2}, Lcom/meitu/library/analytics/x/b;->b(Lcom/bun/supplier/IdSupplier;)V
 
-    .line 3
     iget-object p1, p0, Lcom/meitu/library/analytics/x/a;->b:Lcom/meitu/library/analytics/sdk/content/f;
 
     if-eqz p1, :cond_2
 
-    .line 4
     invoke-virtual {p1}, Lcom/meitu/library/analytics/sdk/content/f;->G()Lcom/meitu/library/analytics/y/d/g$a;
 
     move-result-object p1
 
     if-eqz p1, :cond_2
 
-    .line 5
     iget-object p2, p0, Lcom/meitu/library/analytics/x/a;->c:Lcom/meitu/library/analytics/x/b;
 
     invoke-interface {p1, p2}, Lcom/meitu/library/analytics/y/d/g$a;->a(Lcom/meitu/library/analytics/y/d/g$b;)V
@@ -208,7 +191,6 @@
     :catch_0
     move-exception p1
 
-    .line 6
     invoke-virtual {p1}, Ljava/lang/Exception;->printStackTrace()V
 
     goto :goto_0
@@ -218,10 +200,8 @@
 
     const-string p2, "OnSupport ->MdidSdk \u4e0d\u652f\u6301\u8bbe\u5907"
 
-    .line 7
     invoke-static {p1, p2}, Lcom/meitu/library/analytics/y/j/d;->d(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 8
     :cond_2
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -248,19 +228,16 @@
 
     const-string v1, "onProcessStart"
 
-    .line 1
     invoke-static {v0, v1}, Lcom/meitu/library/analytics/y/o/a0;->a(Ljava/lang/String;Ljava/lang/String;)Z
 
     move-result v0
 
     if-nez v0, :cond_0
 
-    .line 2
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 3
     :cond_0
     invoke-static {}, Lcom/meitu/library/analytics/sdk/content/f;->S()Lcom/meitu/library/analytics/sdk/content/f;
 
@@ -270,7 +247,6 @@
 
     if-eqz v0, :cond_3
 
-    .line 4
     sget-object v1, Lcom/meitu/library/analytics/sdk/content/PrivacyControl;->C_MSA_IDS:Lcom/meitu/library/analytics/sdk/content/PrivacyControl;
 
     invoke-virtual {v0, v1}, Lcom/meitu/library/analytics/sdk/content/f;->b0(Lcom/meitu/library/analytics/sdk/content/PrivacyControl;)Z
@@ -281,7 +257,6 @@
 
     goto :goto_0
 
-    .line 5
     :cond_1
     sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
 
@@ -289,7 +264,6 @@
 
     if-lt v0, v1, :cond_2
 
-    .line 6
     iget-object v0, p0, Lcom/meitu/library/analytics/x/a;->b:Lcom/meitu/library/analytics/sdk/content/f;
 
     if-eqz v0, :cond_2
@@ -300,7 +274,6 @@
 
     if-eqz v0, :cond_2
 
-    .line 7
     new-instance v0, Lcom/meitu/library/analytics/x/b;
 
     iget-object v1, p0, Lcom/meitu/library/analytics/x/a;->b:Lcom/meitu/library/analytics/sdk/content/f;
@@ -309,7 +282,6 @@
 
     iput-object v0, p0, Lcom/meitu/library/analytics/x/a;->c:Lcom/meitu/library/analytics/x/b;
 
-    .line 8
     iget-object v0, p0, Lcom/meitu/library/analytics/x/a;->b:Lcom/meitu/library/analytics/sdk/content/f;
 
     invoke-virtual {v0}, Lcom/meitu/library/analytics/sdk/content/f;->x()Landroid/content/Context;
@@ -318,13 +290,11 @@
 
     invoke-direct {p0, v0}, Lcom/meitu/library/analytics/x/a;->f(Landroid/content/Context;)V
 
-    .line 9
     :cond_2
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 10
     :cond_3
     :goto_0
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V

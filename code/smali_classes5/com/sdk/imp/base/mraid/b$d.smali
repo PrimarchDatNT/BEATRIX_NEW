@@ -25,7 +25,6 @@
 .method constructor <init>(Lcom/sdk/imp/base/mraid/b;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/sdk/imp/base/mraid/b$d;->a:Lcom/sdk/imp/base/mraid/b;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -53,7 +52,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/sdk/imp/base/mraid/b$d;->a:Lcom/sdk/imp/base/mraid/b;
 
     invoke-virtual {v0, p1, p2}, Lcom/sdk/imp/base/mraid/b;->D(ZLcom/sdk/imp/base/mraid/MraidOrientation;)V
@@ -73,7 +71,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance p1, Ljava/lang/Exception;
 
     const-string p2, "Not allowed to resize from an expanded state"
@@ -96,7 +93,6 @@
 .method public e(Z)V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/sdk/imp/base/mraid/b$d;->a:Lcom/sdk/imp/base/mraid/b;
 
     invoke-virtual {v0, p1}, Lcom/sdk/imp/base/mraid/b;->w(Z)V
@@ -107,7 +103,6 @@
 .method public onClose()V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/sdk/imp/base/mraid/b$d;->a:Lcom/sdk/imp/base/mraid/b;
 
     invoke-virtual {v0}, Lcom/sdk/imp/base/mraid/b;->u()V
@@ -122,7 +117,6 @@
         .end annotation
     .end param
 
-    .line 1
     iget-object v0, p0, Lcom/sdk/imp/base/mraid/b$d;->a:Lcom/sdk/imp/base/mraid/b;
 
     invoke-virtual {v0, p1}, Lcom/sdk/imp/base/mraid/b;->v(Landroid/webkit/ConsoleMessage;)Z
@@ -143,7 +137,6 @@
         .end annotation
     .end param
 
-    .line 1
     iget-object v0, p0, Lcom/sdk/imp/base/mraid/b$d;->a:Lcom/sdk/imp/base/mraid/b;
 
     invoke-virtual {v0, p1, p2}, Lcom/sdk/imp/base/mraid/b;->y(Ljava/lang/String;Landroid/webkit/JsResult;)Z
@@ -156,7 +149,6 @@
 .method public onOpen(Ljava/net/URI;)V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/sdk/imp/base/mraid/b$d;->a:Lcom/sdk/imp/base/mraid/b;
 
     invoke-virtual {p1}, Ljava/net/URI;->toString()Ljava/lang/String;
@@ -177,7 +169,6 @@
 .method public onPageLoaded()V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/sdk/imp/base/mraid/b$d;->a:Lcom/sdk/imp/base/mraid/b;
 
     invoke-virtual {v0}, Lcom/sdk/imp/base/mraid/b;->E()V
@@ -188,7 +179,6 @@
 .method public onVisibilityChanged(Z)V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/sdk/imp/base/mraid/b$d;->a:Lcom/sdk/imp/base/mraid/b;
 
     invoke-static {v0}, Lcom/sdk/imp/base/mraid/b;->h(Lcom/sdk/imp/base/mraid/b;)Lcom/sdk/imp/base/mraid/MraidBridge;
@@ -197,7 +187,6 @@
 
     invoke-virtual {v0, p1}, Lcom/sdk/imp/base/mraid/MraidBridge;->w(Z)V
 
-    .line 2
     iget-object v0, p0, Lcom/sdk/imp/base/mraid/b$d;->a:Lcom/sdk/imp/base/mraid/b;
 
     invoke-static {v0}, Lcom/sdk/imp/base/mraid/b;->b(Lcom/sdk/imp/base/mraid/b;)Lcom/sdk/imp/base/mraid/MraidBridge;

@@ -47,7 +47,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/util/HashMap;
 
     invoke-direct {v1}, Ljava/util/HashMap;-><init>()V
@@ -62,13 +61,10 @@
 .method private constructor <init>(Landroid/content/Context;Ljava/lang/String;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/meitu/remote/config/i/h;->a:Landroid/content/Context;
 
-    .line 3
     iput-object p2, p0, Lcom/meitu/remote/config/i/h;->b:Ljava/lang/String;
 
     return-void
@@ -88,12 +84,10 @@
     :try_start_0
     invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v2, Lcom/meitu/remote/config/i/h;->c:Ljava/util/Map;
 
     invoke-interface {v2}, Ljava/util/Map;->clear()V
 
-    .line 2
     invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
@@ -122,7 +116,6 @@
     :try_start_0
     invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v2, Lcom/meitu/remote/config/i/h;->c:Ljava/util/Map;
 
     invoke-interface {v2, p1}, Ljava/util/Map;->containsKey(Ljava/lang/Object;)Z
@@ -131,14 +124,12 @@
 
     if-nez v3, :cond_0
 
-    .line 2
     new-instance v3, Lcom/meitu/remote/config/i/h;
 
     invoke-direct {v3, p0, p1}, Lcom/meitu/remote/config/i/h;-><init>(Landroid/content/Context;Ljava/lang/String;)V
 
     invoke-interface {v2, p1, v3}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 3
     :cond_0
     invoke-interface {v2, p1}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
@@ -174,7 +165,6 @@
     :try_start_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/remote/config/i/h;->a:Landroid/content/Context;
 
     iget-object v2, p0, Lcom/meitu/remote/config/i/h;->b:Ljava/lang/String;
@@ -183,7 +173,6 @@
 
     const/4 v1, 0x0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
@@ -207,7 +196,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/remote/config/i/h;->b:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -237,7 +225,6 @@
 
     const/4 v1, 0x0
 
-    .line 1
     :try_start_1
     iget-object v2, p0, Lcom/meitu/remote/config/i/h;->a:Landroid/content/Context;
 
@@ -251,7 +238,6 @@
     .catch Ljava/io/FileNotFoundException; {:try_start_1 .. :try_end_1} :catch_0
     .catchall {:try_start_1 .. :try_end_1} :catchall_1
 
-    .line 2
     :try_start_2
     invoke-virtual {v2}, Ljava/io/FileInputStream;->available()I
 
@@ -261,22 +247,18 @@
 
     const/4 v5, 0x0
 
-    .line 3
     invoke-virtual {v2, v4, v5, v3}, Ljava/io/FileInputStream;->read([BII)I
 
-    .line 4
     new-instance v3, Ljava/lang/String;
 
     const-string v5, "UTF-8"
 
     invoke-direct {v3, v4, v5}, Ljava/lang/String;-><init>([BLjava/lang/String;)V
 
-    .line 5
     new-instance v4, Lorg/json/JSONObject;
 
     invoke-direct {v4, v3}, Lorg/json/JSONObject;-><init>(Ljava/lang/String;)V
 
-    .line 6
     invoke-static {v4}, Lcom/meitu/remote/config/i/c;->b(Lorg/json/JSONObject;)Lcom/meitu/remote/config/i/c;
 
     move-result-object v1
@@ -287,11 +269,9 @@
 
     if-eqz v2, :cond_0
 
-    .line 7
     :try_start_3
     invoke-virtual {v2}, Ljava/io/FileInputStream;->close()V
 
-    .line 8
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
     :try_end_3
@@ -318,11 +298,9 @@
     :goto_0
     if-eqz v2, :cond_1
 
-    .line 9
     :try_start_4
     invoke-virtual {v2}, Ljava/io/FileInputStream;->close()V
 
-    .line 10
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -334,10 +312,8 @@
     :catch_1
     if-eqz v2, :cond_2
 
-    .line 11
     invoke-virtual {v2}, Ljava/io/FileInputStream;->close()V
 
-    .line 12
     :cond_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
     :try_end_4
@@ -370,7 +346,6 @@
     :try_start_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/remote/config/i/h;->a:Landroid/content/Context;
 
     iget-object v2, p0, Lcom/meitu/remote/config/i/h;->b:Ljava/lang/String;
@@ -383,7 +358,6 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_1
 
-    .line 2
     :try_start_1
     invoke-virtual {p1}, Lcom/meitu/remote/config/i/c;->toString()Ljava/lang/String;
 
@@ -399,13 +373,11 @@
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
-    .line 3
     :try_start_2
     invoke-virtual {v1}, Ljava/io/FileOutputStream;->close()V
 
     const/4 p1, 0x0
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
     :try_end_2
     .catchall {:try_start_2 .. :try_end_2} :catchall_1
@@ -417,11 +389,9 @@
     :catchall_0
     move-exception p1
 
-    .line 5
     :try_start_3
     invoke-virtual {v1}, Ljava/io/FileOutputStream;->close()V
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     throw p1

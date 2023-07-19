@@ -35,7 +35,6 @@
 .method public final a(Lcom/google/firebase/components/g;)Ljava/lang/Object;
     .locals 1
 
-    .line 1
     const-class v0, Lcom/google/firebase/d;
 
     invoke-interface {p1, v0}, Lcom/google/firebase/components/g;->a(Ljava/lang/Class;)Ljava/lang/Object;
@@ -44,7 +43,6 @@
 
     check-cast p1, Lcom/google/firebase/d;
 
-    .line 2
     new-instance v0, Lcom/google/firebase/auth/internal/h0;
 
     invoke-direct {v0, p1}, Lcom/google/firebase/auth/internal/h0;-><init>(Lcom/google/firebase/d;)V

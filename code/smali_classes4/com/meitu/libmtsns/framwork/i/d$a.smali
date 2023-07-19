@@ -31,7 +31,6 @@
 .method constructor <init>(Lcom/meitu/libmtsns/framwork/i/d;ILandroid/app/Activity;Landroid/content/Intent;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/libmtsns/framwork/i/d$a;->d:Lcom/meitu/libmtsns/framwork/i/d;
 
     iput p2, p0, Lcom/meitu/libmtsns/framwork/i/d$a;->a:I
@@ -54,7 +53,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/libmtsns/framwork/i/d$a;->d:Lcom/meitu/libmtsns/framwork/i/d;
 
     invoke-virtual {v1}, Lcom/meitu/libmtsns/framwork/i/d;->w()Z
@@ -63,12 +61,10 @@
 
     if-nez v1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 3
     :cond_0
     iget v1, p0, Lcom/meitu/libmtsns/framwork/i/d$a;->a:I
 
@@ -76,7 +72,6 @@
 
     if-eq v1, v2, :cond_1
 
-    .line 4
     iget-object v2, p0, Lcom/meitu/libmtsns/framwork/i/d$a;->b:Landroid/app/Activity;
 
     iget-object v3, p0, Lcom/meitu/libmtsns/framwork/i/d$a;->c:Landroid/content/Intent;
@@ -85,7 +80,6 @@
 
     goto :goto_0
 
-    .line 5
     :cond_1
     iget-object v1, p0, Lcom/meitu/libmtsns/framwork/i/d$a;->b:Landroid/app/Activity;
 
@@ -93,7 +87,6 @@
 
     invoke-virtual {v1, v2}, Landroid/app/Activity;->startActivity(Landroid/content/Intent;)V
 
-    .line 6
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

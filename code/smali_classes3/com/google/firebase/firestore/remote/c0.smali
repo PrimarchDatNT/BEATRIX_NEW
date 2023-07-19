@@ -37,7 +37,6 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/google/protobuf/ByteString;->EMPTY:Lcom/google/protobuf/ByteString;
 
     sput-object v0, Lcom/google/firebase/firestore/remote/c0;->s:Lcom/google/protobuf/ByteString;
@@ -48,7 +47,6 @@
 .method constructor <init>(Lcom/google/firebase/firestore/util/u;Lcom/google/firebase/firestore/util/AsyncQueue;Lcom/google/firebase/firestore/remote/t;Lcom/google/firebase/firestore/remote/c0$a;)V
     .locals 7
 
-    .line 1
     invoke-static {}, Lcom/google/firestore/v1/h0;->n()Lio/grpc/MethodDescriptor;
 
     move-result-object v2
@@ -65,20 +63,16 @@
 
     move-object v6, p4
 
-    .line 2
     invoke-direct/range {v0 .. v6}, Lcom/google/firebase/firestore/remote/d;-><init>(Lcom/google/firebase/firestore/util/u;Lio/grpc/MethodDescriptor;Lcom/google/firebase/firestore/util/AsyncQueue;Lcom/google/firebase/firestore/util/AsyncQueue$TimerId;Lcom/google/firebase/firestore/util/AsyncQueue$TimerId;Lcom/google/firebase/firestore/remote/Stream$a;)V
 
     const/4 p1, 0x0
 
-    .line 3
     iput-boolean p1, p0, Lcom/google/firebase/firestore/remote/c0;->q:Z
 
-    .line 4
     sget-object p1, Lcom/google/firebase/firestore/remote/c0;->s:Lcom/google/protobuf/ByteString;
 
     iput-object p1, p0, Lcom/google/firebase/firestore/remote/c0;->r:Lcom/google/protobuf/ByteString;
 
-    .line 5
     iput-object p3, p0, Lcom/google/firebase/firestore/remote/c0;->p:Lcom/google/firebase/firestore/remote/t;
 
     return-void
@@ -89,7 +83,6 @@
 .method public bridge synthetic a()Z
     .locals 1
 
-    .line 1
     invoke-super {p0}, Lcom/google/firebase/firestore/remote/d;->a()Z
 
     move-result v0
@@ -100,7 +93,6 @@
 .method public bridge synthetic b()V
     .locals 0
 
-    .line 1
     invoke-super {p0}, Lcom/google/firebase/firestore/remote/d;->b()V
 
     return-void
@@ -109,7 +101,6 @@
 .method public bridge synthetic isOpen()Z
     .locals 1
 
-    .line 1
     invoke-super {p0}, Lcom/google/firebase/firestore/remote/d;->isOpen()Z
 
     move-result v0
@@ -120,7 +111,6 @@
 .method public bridge synthetic n(Ljava/lang/Object;)V
     .locals 0
 
-    .line 1
     check-cast p1, Lcom/google/firestore/v1/n1;
 
     invoke-virtual {p0, p1}, Lcom/google/firebase/firestore/remote/c0;->t(Lcom/google/firestore/v1/n1;)V
@@ -131,12 +121,10 @@
 .method protected p()V
     .locals 1
 
-    .line 1
     iget-boolean v0, p0, Lcom/google/firebase/firestore/remote/c0;->q:Z
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-static {}, Ljava/util/Collections;->emptyList()Ljava/util/List;
 
     move-result-object v0
@@ -150,7 +138,6 @@
 .method r()Lcom/google/protobuf/ByteString;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/firestore/remote/c0;->r:Lcom/google/protobuf/ByteString;
 
     return-object v0
@@ -159,7 +146,6 @@
 .method s()Z
     .locals 1
 
-    .line 1
     iget-boolean v0, p0, Lcom/google/firebase/firestore/remote/c0;->q:Z
 
     return v0
@@ -170,10 +156,8 @@
 
     const/4 v0, 0x0
 
-    .line 1
     iput-boolean v0, p0, Lcom/google/firebase/firestore/remote/c0;->q:Z
 
-    .line 2
     invoke-super {p0}, Lcom/google/firebase/firestore/remote/d;->start()V
 
     return-void
@@ -182,7 +166,6 @@
 .method public bridge synthetic stop()V
     .locals 0
 
-    .line 1
     invoke-super {p0}, Lcom/google/firebase/firestore/remote/d;->stop()V
 
     return-void
@@ -191,24 +174,20 @@
 .method public t(Lcom/google/firestore/v1/n1;)V
     .locals 6
 
-    .line 1
     invoke-virtual {p1}, Lcom/google/firestore/v1/n1;->Q2()Lcom/google/protobuf/ByteString;
 
     move-result-object v0
 
     iput-object v0, p0, Lcom/google/firebase/firestore/remote/c0;->r:Lcom/google/protobuf/ByteString;
 
-    .line 2
     iget-boolean v0, p0, Lcom/google/firebase/firestore/remote/c0;->q:Z
 
     if-nez v0, :cond_0
 
     const/4 p1, 0x1
 
-    .line 3
     iput-boolean p1, p0, Lcom/google/firebase/firestore/remote/c0;->q:Z
 
-    .line 4
     iget-object p1, p0, Lcom/google/firebase/firestore/remote/d;->k:Lcom/google/firebase/firestore/remote/Stream$a;
 
     check-cast p1, Lcom/google/firebase/firestore/remote/c0$a;
@@ -217,13 +196,11 @@
 
     goto :goto_1
 
-    .line 5
     :cond_0
     iget-object v0, p0, Lcom/google/firebase/firestore/remote/d;->j:Lcom/google/firebase/firestore/util/s;
 
     invoke-virtual {v0}, Lcom/google/firebase/firestore/util/s;->e()V
 
-    .line 6
     iget-object v0, p0, Lcom/google/firebase/firestore/remote/c0;->p:Lcom/google/firebase/firestore/remote/t;
 
     invoke-virtual {p1}, Lcom/google/firestore/v1/n1;->d1()Lcom/google/protobuf/f2;
@@ -234,12 +211,10 @@
 
     move-result-object v0
 
-    .line 7
     invoke-virtual {p1}, Lcom/google/firestore/v1/n1;->b2()I
 
     move-result v1
 
-    .line 8
     new-instance v2, Ljava/util/ArrayList;
 
     invoke-direct {v2, v1}, Ljava/util/ArrayList;-><init>(I)V
@@ -249,12 +224,10 @@
     :goto_0
     if-ge v3, v1, :cond_1
 
-    .line 9
     invoke-virtual {p1, v3}, Lcom/google/firestore/v1/n1;->h2(I)Lcom/google/firestore/v1/p1;
 
     move-result-object v4
 
-    .line 10
     iget-object v5, p0, Lcom/google/firebase/firestore/remote/c0;->p:Lcom/google/firebase/firestore/remote/t;
 
     invoke-virtual {v5, v4, v0}, Lcom/google/firebase/firestore/remote/t;->q(Lcom/google/firestore/v1/p1;Lcom/google/firebase/firestore/model/l;)Lcom/google/firebase/firestore/model/n/h;
@@ -267,7 +240,6 @@
 
     goto :goto_0
 
-    .line 11
     :cond_1
     iget-object p1, p0, Lcom/google/firebase/firestore/remote/d;->k:Lcom/google/firebase/firestore/remote/Stream$a;
 
@@ -282,7 +254,6 @@
 .method u(Lcom/google/protobuf/ByteString;)V
     .locals 0
 
-    .line 1
     invoke-static {p1}, Lcom/google/common/base/t;->E(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -297,7 +268,6 @@
 .method v()V
     .locals 4
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/firebase/firestore/remote/c0;->isOpen()Z
 
     move-result v0
@@ -310,7 +280,6 @@
 
     invoke-static {v0, v3, v2}, Lcom/google/firebase/firestore/util/b;->d(ZLjava/lang/String;[Ljava/lang/Object;)V
 
-    .line 2
     iget-boolean v0, p0, Lcom/google/firebase/firestore/remote/c0;->q:Z
 
     xor-int/lit8 v0, v0, 0x1
@@ -321,7 +290,6 @@
 
     invoke-static {v0, v2, v1}, Lcom/google/firebase/firestore/util/b;->d(ZLjava/lang/String;[Ljava/lang/Object;)V
 
-    .line 3
     invoke-static {}, Lcom/google/firestore/v1/l1;->Jh()Lcom/google/firestore/v1/l1$b;
 
     move-result-object v0
@@ -336,7 +304,6 @@
 
     move-result-object v0
 
-    .line 4
     invoke-virtual {v0}, Lcom/google/protobuf/GeneratedMessageLite$b;->Hg()Lcom/google/protobuf/GeneratedMessageLite;
 
     move-result-object v0
@@ -359,7 +326,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/firebase/firestore/remote/c0;->isOpen()Z
 
     move-result v0
@@ -372,7 +338,6 @@
 
     invoke-static {v0, v3, v2}, Lcom/google/firebase/firestore/util/b;->d(ZLjava/lang/String;[Ljava/lang/Object;)V
 
-    .line 2
     iget-boolean v0, p0, Lcom/google/firebase/firestore/remote/c0;->q:Z
 
     new-array v1, v1, [Ljava/lang/Object;
@@ -381,12 +346,10 @@
 
     invoke-static {v0, v2, v1}, Lcom/google/firebase/firestore/util/b;->d(ZLjava/lang/String;[Ljava/lang/Object;)V
 
-    .line 3
     invoke-static {}, Lcom/google/firestore/v1/l1;->Jh()Lcom/google/firestore/v1/l1$b;
 
     move-result-object v0
 
-    .line 4
     invoke-interface {p1}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
     move-result-object p1
@@ -404,7 +367,6 @@
 
     check-cast v1, Lcom/google/firebase/firestore/model/n/e;
 
-    .line 5
     iget-object v2, p0, Lcom/google/firebase/firestore/remote/c0;->p:Lcom/google/firebase/firestore/remote/t;
 
     invoke-virtual {v2, v1}, Lcom/google/firebase/firestore/remote/t;->S(Lcom/google/firebase/firestore/model/n/e;)Lcom/google/firestore/v1/Write;
@@ -415,13 +377,11 @@
 
     goto :goto_0
 
-    .line 6
     :cond_0
     iget-object p1, p0, Lcom/google/firebase/firestore/remote/c0;->r:Lcom/google/protobuf/ByteString;
 
     invoke-virtual {v0, p1}, Lcom/google/firestore/v1/l1$b;->ih(Lcom/google/protobuf/ByteString;)Lcom/google/firestore/v1/l1$b;
 
-    .line 7
     invoke-virtual {v0}, Lcom/google/protobuf/GeneratedMessageLite$b;->Hg()Lcom/google/protobuf/GeneratedMessageLite;
 
     move-result-object p1

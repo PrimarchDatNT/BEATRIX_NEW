@@ -26,7 +26,6 @@
 .method constructor <init>(Lcom/commsource/studio/text/TextFontMaterial;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/repository/child/TextFontRepository$b;->a:Lcom/commsource/studio/text/TextFontMaterial;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -43,12 +42,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/repository/child/TextFontRepository$b;->a:Lcom/commsource/studio/text/TextFontMaterial;
 
     invoke-virtual {v1, p1}, Lcom/commsource/studio/text/TextFontMaterial;->setDownloadProgress(I)V
 
-    .line 2
     sget-object p1, Lcom/commsource/repository/child/TextFontRepository;->v:Lcom/commsource/repository/child/TextFontRepository;
 
     invoke-virtual {p1}, Lcom/commsource/repository/child/TextFontRepository;->C()Lcom/commsource/material/download/b/a;
@@ -59,7 +56,6 @@
 
     invoke-virtual {p1, v1}, Lcom/commsource/material/download/b/a;->h(Ljava/lang/Object;)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -80,19 +76,16 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/repository/child/TextFontRepository$b;->a:Lcom/commsource/studio/text/TextFontMaterial;
 
     const/4 v2, 0x0
 
     invoke-virtual {v1, v2}, Lcom/commsource/studio/text/TextFontMaterial;->setDownloadState(I)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/repository/child/TextFontRepository$b;->a:Lcom/commsource/studio/text/TextFontMaterial;
 
     invoke-virtual {v1, v2}, Lcom/commsource/studio/text/TextFontMaterial;->setDownloadProgress(I)V
 
-    .line 3
     sget-object v1, Lcom/commsource/repository/child/TextFontRepository;->v:Lcom/commsource/repository/child/TextFontRepository;
 
     invoke-virtual {v1}, Lcom/commsource/repository/child/TextFontRepository;->C()Lcom/commsource/material/download/b/a;
@@ -111,7 +104,6 @@
 
     invoke-static/range {v2 .. v7}, Lcom/commsource/material/download/b/a;->g(Lcom/commsource/material/download/b/a;Ljava/lang/Object;Ljava/lang/Throwable;ZILjava/lang/Object;)V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -124,14 +116,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/repository/child/TextFontRepository$b;->a:Lcom/commsource/studio/text/TextFontMaterial;
 
     const/4 v2, 0x1
 
     invoke-virtual {v1, v2}, Lcom/commsource/studio/text/TextFontMaterial;->setDownloadProgress(I)V
 
-    .line 2
     sget-object v1, Lcom/commsource/repository/child/TextFontRepository;->v:Lcom/commsource/repository/child/TextFontRepository;
 
     invoke-virtual {v1}, Lcom/commsource/repository/child/TextFontRepository;->C()Lcom/commsource/material/download/b/a;
@@ -142,7 +132,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/material/download/b/a;->i(Ljava/lang/Object;)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -155,21 +144,18 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/repository/child/TextFontRepository$b;->a:Lcom/commsource/studio/text/TextFontMaterial;
 
     const/4 v2, 0x1
 
     invoke-virtual {v1, v2}, Lcom/commsource/studio/text/TextFontMaterial;->setDownloadState(I)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/repository/child/TextFontRepository$b;->a:Lcom/commsource/studio/text/TextFontMaterial;
 
     const/4 v2, 0x0
 
     invoke-virtual {v1, v2}, Lcom/commsource/studio/text/TextFontMaterial;->setDownloadProgress(I)V
 
-    .line 3
     sget-object v1, Lcom/commsource/repository/child/TextFontRepository;->v:Lcom/commsource/repository/child/TextFontRepository;
 
     invoke-static {v1}, Lcom/commsource/repository/child/TextFontRepository;->r(Lcom/commsource/repository/child/TextFontRepository;)Lf/k/i0/a/a1;
@@ -180,7 +166,6 @@
 
     invoke-interface {v2, v3}, Lf/k/i0/a/a1;->m(Lcom/commsource/studio/text/TextFontMaterial;)V
 
-    .line 4
     invoke-virtual {v1}, Lcom/commsource/repository/child/TextFontRepository;->C()Lcom/commsource/material/download/b/a;
 
     move-result-object v1
@@ -189,7 +174,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/material/download/b/a;->j(Ljava/lang/Object;)V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

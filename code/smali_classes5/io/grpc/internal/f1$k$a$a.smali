@@ -24,7 +24,6 @@
 .method constructor <init>(Lio/grpc/internal/f1$k$a;Lio/grpc/internal/ClientStreamListener;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lio/grpc/internal/f1$k$a$a;->b:Lio/grpc/internal/f1$k$a;
 
     iput-object p2, p0, Lio/grpc/internal/f1$k$a$a;->a:Lio/grpc/internal/ClientStreamListener;
@@ -39,7 +38,6 @@
 .method public b(Lio/grpc/Status;Lio/grpc/y0;)V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lio/grpc/internal/f1$k$a$a;->b:Lio/grpc/internal/f1$k$a;
 
     iget-object v0, v0, Lio/grpc/internal/f1$k$a;->b:Lio/grpc/internal/f1$k;
@@ -54,7 +52,6 @@
 
     invoke-virtual {v0, v1}, Lio/grpc/internal/r;->b(Z)V
 
-    .line 2
     invoke-super {p0, p1, p2}, Lio/grpc/internal/o0;->b(Lio/grpc/Status;Lio/grpc/y0;)V
 
     return-void
@@ -63,7 +60,6 @@
 .method public g(Lio/grpc/Status;Lio/grpc/internal/ClientStreamListener$RpcProgress;Lio/grpc/y0;)V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lio/grpc/internal/f1$k$a$a;->b:Lio/grpc/internal/f1$k$a;
 
     iget-object v0, v0, Lio/grpc/internal/f1$k$a;->b:Lio/grpc/internal/f1$k;
@@ -78,7 +74,6 @@
 
     invoke-virtual {v0, v1}, Lio/grpc/internal/r;->b(Z)V
 
-    .line 2
     invoke-super {p0, p1, p2, p3}, Lio/grpc/internal/o0;->g(Lio/grpc/Status;Lio/grpc/internal/ClientStreamListener$RpcProgress;Lio/grpc/y0;)V
 
     return-void
@@ -87,7 +82,6 @@
 .method protected h()Lio/grpc/internal/ClientStreamListener;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lio/grpc/internal/f1$k$a$a;->a:Lio/grpc/internal/ClientStreamListener;
 
     return-object v0

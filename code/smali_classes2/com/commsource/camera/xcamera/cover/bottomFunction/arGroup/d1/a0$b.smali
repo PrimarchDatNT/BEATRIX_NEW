@@ -37,7 +37,6 @@
 .method constructor <init>(Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/d1/a0;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/d1/a0$b;->a:Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/d1/a0;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -56,14 +55,12 @@
 
     invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p1}, Ljava/lang/Boolean;->booleanValue()Z
 
     move-result v2
 
     if-eqz v2, :cond_0
 
-    .line 2
     iget-object v2, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/d1/a0$b;->a:Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/d1/a0;
 
     invoke-static {v2}, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/d1/a0;->E(Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/d1/a0;)Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/c1;
@@ -78,7 +75,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_0
     iget-object v2, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/d1/a0$b;->a:Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/d1/a0;
 
@@ -92,7 +88,6 @@
 
     invoke-virtual {v2, p2}, Landroidx/lifecycle/MutableLiveData;->setValue(Ljava/lang/Object;)V
 
-    .line 4
     :goto_0
     invoke-virtual {p3}, Ljava/lang/Boolean;->booleanValue()Z
 
@@ -100,7 +95,6 @@
 
     if-eqz p3, :cond_6
 
-    .line 5
     iget-object p3, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/d1/a0$b;->a:Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/d1/a0;
 
     invoke-static {p3}, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/d1/a0;->E(Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/d1/a0;)Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/c1;
@@ -119,14 +113,12 @@
 
     if-eqz p3, :cond_6
 
-    .line 6
     invoke-virtual {p1}, Ljava/lang/Boolean;->booleanValue()Z
 
     move-result v2
 
     if-eqz v2, :cond_1
 
-    .line 7
     invoke-static {}, Lcom/commsource/material/a;->h()Lcom/commsource/material/a;
 
     move-result-object v2
@@ -139,7 +131,6 @@
 
     goto :goto_1
 
-    .line 8
     :cond_1
     invoke-static {}, Lcom/commsource/material/a;->h()Lcom/commsource/material/a;
 
@@ -151,7 +142,6 @@
 
     invoke-virtual {v2, p3, v3}, Lcom/commsource/material/a;->c(Lcom/meitu/template/bean/ArMaterial;I)V
 
-    .line 9
     :goto_1
     :try_start_0
     iget-object v2, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/d1/a0$b;->a:Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/d1/a0;
@@ -178,7 +168,6 @@
 
     if-eqz v2, :cond_6
 
-    .line 10
     :cond_2
     new-instance v2, Ljava/util/HashMap;
 
@@ -188,7 +177,6 @@
 
     const-string v3, "AR\u7d20\u6750ID"
 
-    .line 11
     new-instance v4, Ljava/lang/StringBuilder;
 
     invoke-direct {v4}, Ljava/lang/StringBuilder;-><init>()V
@@ -209,7 +197,6 @@
 
     const-string p3, "AR\u6ed1\u7aff\u503c"
 
-    .line 12
     new-instance v3, Ljava/lang/StringBuilder;
 
     invoke-direct {v3}, Ljava/lang/StringBuilder;-><init>()V
@@ -226,7 +213,6 @@
 
     const-string p3, "\u7c7b\u578b"
 
-    .line 13
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -257,7 +243,6 @@
 
     const-string p1, "\u6a21\u5f0f"
 
-    .line 14
     iget-object p2, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/d1/a0$b;->a:Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/d1/a0;
 
     invoke-static {p2}, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/d1/a0;->E(Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/d1/a0;)Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/c1;
@@ -277,7 +262,6 @@
     :cond_4
     iget-object p2, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/d1/a0$b;->a:Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/d1/a0;
 
-    .line 15
     invoke-static {p2}, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/d1/a0;->E(Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/d1/a0;)Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/c1;
 
     move-result-object p2
@@ -295,13 +279,11 @@
     :cond_5
     const-string p2, "\u89c6\u9891\u6a21\u5f0f"
 
-    .line 16
     :goto_3
     invoke-virtual {v2, p1, p2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string p1, "ar_slipper_move"
 
-    .line 17
     invoke-static {p1, v2}, Lcom/commsource/statistics/i;->s(Ljava/lang/String;Ljava/util/Map;)V
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
@@ -311,17 +293,14 @@
     :catch_0
     move-exception p1
 
-    .line 18
     invoke-virtual {p1}, Ljava/lang/Exception;->printStackTrace()V
 
-    .line 19
     invoke-static {p1}, Lcom/meitu/library/util/Debug/Debug;->h(Ljava/lang/Throwable;)V
 
     :cond_6
     :goto_4
     const/4 p1, 0x0
 
-    .line 20
     invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p1
@@ -334,7 +313,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Ljava/lang/Boolean;
 
     check-cast p2, Ljava/lang/Integer;

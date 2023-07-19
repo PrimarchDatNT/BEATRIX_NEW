@@ -27,7 +27,6 @@
 .method public constructor <init>(Ljava/io/File;)V
     .locals 1
 
-    .line 1
     invoke-static {}, Ljava/util/Collections;->emptyMap()Ljava/util/Map;
 
     move-result-object v0
@@ -50,10 +49,8 @@
         }
     .end annotation
 
-    .line 2
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 3
     iput-object p1, p0, Lcom/google/firebase/crashlytics/internal/report/model/c;->a:Ljava/io/File;
 
     const/4 v0, 0x1
@@ -64,10 +61,8 @@
 
     aput-object p1, v0, v1
 
-    .line 4
     iput-object v0, p0, Lcom/google/firebase/crashlytics/internal/report/model/c;->b:[Ljava/io/File;
 
-    .line 5
     new-instance p1, Ljava/util/HashMap;
 
     invoke-direct {p1, p2}, Ljava/util/HashMap;-><init>(Ljava/util/Map;)V
@@ -82,7 +77,6 @@
 .method public f0()Ljava/lang/String;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/firebase/crashlytics/internal/report/model/c;->i0()Ljava/io/File;
 
     move-result-object v0
@@ -106,7 +100,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/crashlytics/internal/report/model/c;->c:Ljava/util/Map;
 
     invoke-static {v0}, Ljava/util/Collections;->unmodifiableMap(Ljava/util/Map;)Ljava/util/Map;
@@ -119,7 +112,6 @@
 .method public getType()Lcom/google/firebase/crashlytics/internal/report/model/Report$Type;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/google/firebase/crashlytics/internal/report/model/Report$Type;->JAVA:Lcom/google/firebase/crashlytics/internal/report/model/Report$Type;
 
     return-object v0
@@ -128,14 +120,12 @@
 .method public h0()Ljava/lang/String;
     .locals 3
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/firebase/crashlytics/internal/report/model/c;->f0()Ljava/lang/String;
 
     move-result-object v0
 
     const/16 v1, 0x2e
 
-    .line 2
     invoke-virtual {v0, v1}, Ljava/lang/String;->lastIndexOf(I)I
 
     move-result v1
@@ -152,7 +142,6 @@
 .method public i0()Ljava/io/File;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/crashlytics/internal/report/model/c;->a:Ljava/io/File;
 
     return-object v0
@@ -161,7 +150,6 @@
 .method public j0()[Ljava/io/File;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/crashlytics/internal/report/model/c;->b:[Ljava/io/File;
 
     return-object v0
@@ -170,7 +158,6 @@
 .method public remove()V
     .locals 3
 
-    .line 1
     invoke-static {}, Lcom/google/firebase/crashlytics/e/b;->f()Lcom/google/firebase/crashlytics/e/b;
 
     move-result-object v0
@@ -197,7 +184,6 @@
 
     invoke-virtual {v0, v1}, Lcom/google/firebase/crashlytics/e/b;->b(Ljava/lang/String;)V
 
-    .line 2
     iget-object v0, p0, Lcom/google/firebase/crashlytics/internal/report/model/c;->a:Ljava/io/File;
 
     invoke-virtual {v0}, Ljava/io/File;->delete()Z

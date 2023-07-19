@@ -24,7 +24,6 @@
 .method constructor <init>(Lio/grpc/internal/f1$k;Lio/grpc/internal/u;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lio/grpc/internal/f1$k$a;->b:Lio/grpc/internal/f1$k;
 
     iput-object p2, p0, Lio/grpc/internal/f1$k$a;->a:Lio/grpc/internal/u;
@@ -39,7 +38,6 @@
 .method public w(Lio/grpc/internal/ClientStreamListener;)V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lio/grpc/internal/f1$k$a;->b:Lio/grpc/internal/f1$k;
 
     invoke-static {v0}, Lio/grpc/internal/f1$k;->j(Lio/grpc/internal/f1$k;)Lio/grpc/internal/r;
@@ -48,7 +46,6 @@
 
     invoke-virtual {v0}, Lio/grpc/internal/r;->c()V
 
-    .line 2
     new-instance v0, Lio/grpc/internal/f1$k$a$a;
 
     invoke-direct {v0, p0, p1}, Lio/grpc/internal/f1$k$a$a;-><init>(Lio/grpc/internal/f1$k$a;Lio/grpc/internal/ClientStreamListener;)V
@@ -61,7 +58,6 @@
 .method protected x()Lio/grpc/internal/u;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lio/grpc/internal/f1$k$a;->a:Lio/grpc/internal/u;
 
     return-object v0

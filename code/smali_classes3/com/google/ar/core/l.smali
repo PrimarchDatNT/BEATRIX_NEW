@@ -15,7 +15,6 @@
 .method constructor <init>(Lcom/google/ar/core/SharedCamera;Landroid/os/Handler;Landroid/hardware/camera2/CameraDevice$StateCallback;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/ar/core/l;->c:Lcom/google/ar/core/SharedCamera;
 
     iput-object p2, p0, Lcom/google/ar/core/l;->a:Landroid/os/Handler;
@@ -32,7 +31,6 @@
 .method public final onClosed(Landroid/hardware/camera2/CameraDevice;)V
     .locals 3
 
-    .line 1
     iget-object v0, p0, Lcom/google/ar/core/l;->a:Landroid/os/Handler;
 
     new-instance v1, Lcom/google/ar/core/o;
@@ -43,7 +41,6 @@
 
     invoke-virtual {v0, v1}, Landroid/os/Handler;->post(Ljava/lang/Runnable;)Z
 
-    .line 2
     iget-object v0, p0, Lcom/google/ar/core/l;->c:Lcom/google/ar/core/SharedCamera;
 
     invoke-static {v0, p1}, Lcom/google/ar/core/SharedCamera;->access$100(Lcom/google/ar/core/SharedCamera;Landroid/hardware/camera2/CameraDevice;)V
@@ -54,7 +51,6 @@
 .method public final onDisconnected(Landroid/hardware/camera2/CameraDevice;)V
     .locals 3
 
-    .line 1
     iget-object v0, p0, Lcom/google/ar/core/l;->a:Landroid/os/Handler;
 
     new-instance v1, Lcom/google/ar/core/s;
@@ -65,7 +61,6 @@
 
     invoke-virtual {v0, v1}, Landroid/os/Handler;->post(Ljava/lang/Runnable;)Z
 
-    .line 2
     iget-object v0, p0, Lcom/google/ar/core/l;->c:Lcom/google/ar/core/SharedCamera;
 
     invoke-static {v0, p1}, Lcom/google/ar/core/SharedCamera;->access$600(Lcom/google/ar/core/SharedCamera;Landroid/hardware/camera2/CameraDevice;)V
@@ -76,7 +71,6 @@
 .method public final onError(Landroid/hardware/camera2/CameraDevice;I)V
     .locals 3
 
-    .line 1
     iget-object v0, p0, Lcom/google/ar/core/l;->a:Landroid/os/Handler;
 
     new-instance v1, Lcom/google/ar/core/p;
@@ -87,7 +81,6 @@
 
     invoke-virtual {v0, v1}, Landroid/os/Handler;->post(Ljava/lang/Runnable;)Z
 
-    .line 2
     iget-object p1, p0, Lcom/google/ar/core/l;->c:Lcom/google/ar/core/SharedCamera;
 
     invoke-static {p1}, Lcom/google/ar/core/SharedCamera;->access$700(Lcom/google/ar/core/SharedCamera;)V
@@ -98,7 +91,6 @@
 .method public final onOpened(Landroid/hardware/camera2/CameraDevice;)V
     .locals 3
 
-    .line 1
     iget-object v0, p0, Lcom/google/ar/core/l;->c:Lcom/google/ar/core/SharedCamera;
 
     invoke-static {v0}, Lcom/google/ar/core/SharedCamera;->access$200(Lcom/google/ar/core/SharedCamera;)Lcom/google/ar/core/SharedCamera$a;
@@ -107,7 +99,6 @@
 
     invoke-virtual {v0, p1}, Lcom/google/ar/core/SharedCamera$a;->c(Landroid/hardware/camera2/CameraDevice;)V
 
-    .line 2
     iget-object v0, p0, Lcom/google/ar/core/l;->a:Landroid/os/Handler;
 
     new-instance v1, Lcom/google/ar/core/n;
@@ -118,12 +109,10 @@
 
     invoke-virtual {v0, v1}, Landroid/os/Handler;->post(Ljava/lang/Runnable;)Z
 
-    .line 3
     iget-object v0, p0, Lcom/google/ar/core/l;->c:Lcom/google/ar/core/SharedCamera;
 
     invoke-static {v0, p1}, Lcom/google/ar/core/SharedCamera;->access$300(Lcom/google/ar/core/SharedCamera;Landroid/hardware/camera2/CameraDevice;)V
 
-    .line 4
     iget-object p1, p0, Lcom/google/ar/core/l;->c:Lcom/google/ar/core/SharedCamera;
 
     invoke-static {p1}, Lcom/google/ar/core/SharedCamera;->access$200(Lcom/google/ar/core/SharedCamera;)Lcom/google/ar/core/SharedCamera$a;
@@ -138,7 +127,6 @@
 
     invoke-virtual {p1, v0}, Lcom/google/ar/core/SharedCamera$a;->b(Landroid/graphics/SurfaceTexture;)V
 
-    .line 5
     iget-object p1, p0, Lcom/google/ar/core/l;->c:Lcom/google/ar/core/SharedCamera;
 
     invoke-static {p1}, Lcom/google/ar/core/SharedCamera;->access$200(Lcom/google/ar/core/SharedCamera;)Lcom/google/ar/core/SharedCamera$a;

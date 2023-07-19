@@ -30,10 +30,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/google/firebase/installations/m;->a:Lcom/google/android/gms/tasks/l;
 
     return-void
@@ -52,21 +50,18 @@
 .method public b(Lcom/google/firebase/installations/local/c;)Z
     .locals 1
 
-    .line 1
     invoke-virtual {p1}, Lcom/google/firebase/installations/local/c;->l()Z
 
     move-result v0
 
     if-nez v0, :cond_1
 
-    .line 2
     invoke-virtual {p1}, Lcom/google/firebase/installations/local/c;->k()Z
 
     move-result v0
 
     if-nez v0, :cond_1
 
-    .line 3
     invoke-virtual {p1}, Lcom/google/firebase/installations/local/c;->i()Z
 
     move-result v0
@@ -80,7 +75,6 @@
 
     return p1
 
-    .line 4
     :cond_1
     :goto_0
     iget-object v0, p0, Lcom/google/firebase/installations/m;->a:Lcom/google/android/gms/tasks/l;

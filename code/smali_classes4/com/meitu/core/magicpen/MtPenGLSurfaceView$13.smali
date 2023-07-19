@@ -27,7 +27,6 @@
 .method constructor <init>(Lcom/meitu/core/magicpen/MtPenGLSurfaceView;Lcom/meitu/core/magicpen/MtPenGLSurfaceView$FinishSetMtPen;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/core/magicpen/MtPenGLSurfaceView$13;->this$0:Lcom/meitu/core/magicpen/MtPenGLSurfaceView;
 
     iput-object p2, p0, Lcom/meitu/core/magicpen/MtPenGLSurfaceView$13;->val$callback:Lcom/meitu/core/magicpen/MtPenGLSurfaceView$FinishSetMtPen;
@@ -46,7 +45,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/core/magicpen/MtPenGLSurfaceView$13;->this$0:Lcom/meitu/core/magicpen/MtPenGLSurfaceView;
 
     invoke-static {v1}, Lcom/meitu/core/magicpen/MtPenGLSurfaceView;->access$000(Lcom/meitu/core/magicpen/MtPenGLSurfaceView;)Lcom/meitu/core/magicpen/NativeGLMagicPen;
@@ -59,15 +57,12 @@
 
     invoke-virtual {v1, v2, v2, v3}, Lcom/meitu/core/magicpen/NativeGLMagicPen;->MagicColorPenInit([FLjava/lang/String;I)Z
 
-    .line 2
     iget-object v1, p0, Lcom/meitu/core/magicpen/MtPenGLSurfaceView$13;->val$callback:Lcom/meitu/core/magicpen/MtPenGLSurfaceView$FinishSetMtPen;
 
     if-eqz v1, :cond_0
 
-    .line 3
     invoke-interface {v1}, Lcom/meitu/core/magicpen/MtPenGLSurfaceView$FinishSetMtPen;->successfulSetMtPen()V
 
-    .line 4
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

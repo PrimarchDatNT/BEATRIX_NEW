@@ -21,17 +21,14 @@
 .method constructor <init>(Landroid/content/Intent;)V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     new-instance v0, Lcom/google/android/gms/tasks/l;
 
     invoke-direct {v0}, Lcom/google/android/gms/tasks/l;-><init>()V
 
     iput-object v0, p0, Lcom/google/firebase/iid/l0;->b:Lcom/google/android/gms/tasks/l;
 
-    .line 3
     iput-object p1, p0, Lcom/google/firebase/iid/l0;->a:Landroid/content/Intent;
 
     return-void
@@ -50,7 +47,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/iid/l0;->b:Lcom/google/android/gms/tasks/l;
 
     invoke-virtual {v0}, Lcom/google/android/gms/tasks/l;->a()Lcom/google/android/gms/tasks/k;
@@ -63,7 +59,6 @@
 .method final b()V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/iid/l0;->b:Lcom/google/android/gms/tasks/l;
 
     const/4 v1, 0x0
@@ -76,10 +71,8 @@
 .method final synthetic c()V
     .locals 3
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/iid/l0;->a:Landroid/content/Intent;
 
-    .line 2
     invoke-virtual {v0}, Landroid/content/Intent;->getAction()Ljava/lang/String;
 
     move-result-object v0
@@ -114,10 +107,8 @@
 
     const-string v1, "FirebaseInstanceId"
 
-    .line 3
     invoke-static {v1, v0}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 4
     invoke-virtual {p0}, Lcom/google/firebase/iid/l0;->b()V
 
     return-void

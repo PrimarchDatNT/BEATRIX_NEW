@@ -29,7 +29,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Landroid/app/Activity;-><init>()V
 
     return-void
@@ -38,7 +37,6 @@
 .method static synthetic a(Lcom/spotxchange/internal/view/InAppBrowserActivity;)Landroid/webkit/WebView;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lcom/spotxchange/internal/view/InAppBrowserActivity;->a:Landroid/webkit/WebView;
 
     return-object p0
@@ -47,7 +45,6 @@
 .method static synthetic b(Lcom/spotxchange/internal/view/InAppBrowserActivity;Landroid/webkit/WebView;)Landroid/webkit/WebView;
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/spotxchange/internal/view/InAppBrowserActivity;->a:Landroid/webkit/WebView;
 
     return-object p1
@@ -56,7 +53,6 @@
 .method static synthetic c(Lcom/spotxchange/internal/view/InAppBrowserActivity;)Landroid/widget/ProgressBar;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lcom/spotxchange/internal/view/InAppBrowserActivity;->b:Landroid/widget/ProgressBar;
 
     return-object p0
@@ -67,17 +63,14 @@
 .method public onBackPressed()V
     .locals 3
 
-    .line 1
     iget-object v0, p0, Lcom/spotxchange/internal/view/InAppBrowserActivity;->a:Landroid/webkit/WebView;
 
     if-nez v0, :cond_0
 
-    .line 2
     invoke-super {p0}, Landroid/app/Activity;->onBackPressed()V
 
     return-void
 
-    .line 3
     :cond_0
     invoke-virtual {v0}, Landroid/webkit/WebView;->canGoBack()Z
 
@@ -85,18 +78,15 @@
 
     if-eqz v0, :cond_1
 
-    .line 4
     iget-object v0, p0, Lcom/spotxchange/internal/view/InAppBrowserActivity;->a:Landroid/webkit/WebView;
 
     invoke-virtual {v0}, Landroid/webkit/WebView;->goBack()V
 
     goto :goto_0
 
-    .line 5
     :cond_1
     invoke-super {p0}, Landroid/app/Activity;->onBackPressed()V
 
-    .line 6
     iget-object v0, p0, Lcom/spotxchange/internal/view/InAppBrowserActivity;->a:Landroid/webkit/WebView;
 
     new-instance v1, Lcom/spotxchange/internal/view/InAppBrowserActivity$c;
@@ -107,14 +97,12 @@
 
     invoke-virtual {v0, v1}, Landroid/webkit/WebView;->setWebViewClient(Landroid/webkit/WebViewClient;)V
 
-    .line 7
     iget-object v0, p0, Lcom/spotxchange/internal/view/InAppBrowserActivity;->a:Landroid/webkit/WebView;
 
     const-string v1, "about:blank"
 
     invoke-virtual {v0, v1}, Landroid/webkit/WebView;->loadUrl(Ljava/lang/String;)V
 
-    .line 8
     iget-object v0, p0, Lcom/spotxchange/internal/view/InAppBrowserActivity;->c:Landroid/widget/RelativeLayout;
 
     invoke-virtual {v0}, Landroid/widget/RelativeLayout;->removeAllViews()V
@@ -126,15 +114,12 @@
 .method public onCreate(Landroid/os/Bundle;)V
     .locals 2
 
-    .line 1
     invoke-super {p0, p1}, Landroid/app/Activity;->onCreate(Landroid/os/Bundle;)V
 
-    .line 2
     sget p1, Lf/r/b$h;->a:I
 
     invoke-virtual {p0, p1}, Landroid/app/Activity;->setContentView(I)V
 
-    .line 3
     sget p1, Lf/r/b$f;->v:I
 
     invoke-virtual {p0, p1}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
@@ -145,7 +130,6 @@
 
     iput-object p1, p0, Lcom/spotxchange/internal/view/InAppBrowserActivity;->c:Landroid/widget/RelativeLayout;
 
-    .line 4
     sget p1, Lf/r/b$f;->W:I
 
     invoke-virtual {p0, p1}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
@@ -156,7 +140,6 @@
 
     iput-object p1, p0, Lcom/spotxchange/internal/view/InAppBrowserActivity;->a:Landroid/webkit/WebView;
 
-    .line 5
     new-instance v0, Lcom/spotxchange/internal/view/InAppBrowserActivity$d;
 
     const/4 v1, 0x0
@@ -165,7 +148,6 @@
 
     invoke-virtual {p1, v0}, Landroid/webkit/WebView;->setWebViewClient(Landroid/webkit/WebViewClient;)V
 
-    .line 6
     iget-object p1, p0, Lcom/spotxchange/internal/view/InAppBrowserActivity;->a:Landroid/webkit/WebView;
 
     new-instance v0, Lcom/spotxchange/internal/view/InAppBrowserActivity$b;
@@ -174,7 +156,6 @@
 
     invoke-virtual {p1, v0}, Landroid/webkit/WebView;->setWebChromeClient(Landroid/webkit/WebChromeClient;)V
 
-    .line 7
     iget-object p1, p0, Lcom/spotxchange/internal/view/InAppBrowserActivity;->a:Landroid/webkit/WebView;
 
     invoke-virtual {p1}, Landroid/webkit/WebView;->getSettings()Landroid/webkit/WebSettings;
@@ -185,7 +166,6 @@
 
     invoke-virtual {p1, v0}, Landroid/webkit/WebSettings;->setJavaScriptEnabled(Z)V
 
-    .line 8
     iget-object p1, p0, Lcom/spotxchange/internal/view/InAppBrowserActivity;->a:Landroid/webkit/WebView;
 
     invoke-virtual {p1}, Landroid/webkit/WebView;->getSettings()Landroid/webkit/WebSettings;
@@ -196,7 +176,6 @@
 
     invoke-virtual {p1, v0}, Landroid/webkit/WebSettings;->setDatabaseEnabled(Z)V
 
-    .line 9
     iget-object p1, p0, Lcom/spotxchange/internal/view/InAppBrowserActivity;->a:Landroid/webkit/WebView;
 
     invoke-virtual {p1}, Landroid/webkit/WebView;->getSettings()Landroid/webkit/WebSettings;
@@ -205,7 +184,6 @@
 
     invoke-virtual {p1, v0}, Landroid/webkit/WebSettings;->setDomStorageEnabled(Z)V
 
-    .line 10
     iget-object p1, p0, Lcom/spotxchange/internal/view/InAppBrowserActivity;->a:Landroid/webkit/WebView;
 
     invoke-virtual {p0}, Landroid/app/Activity;->getIntent()Landroid/content/Intent;
@@ -220,7 +198,6 @@
 
     invoke-virtual {p1, v0}, Landroid/webkit/WebView;->loadUrl(Ljava/lang/String;)V
 
-    .line 11
     sget p1, Lf/r/b$f;->H:I
 
     invoke-virtual {p0, p1}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;

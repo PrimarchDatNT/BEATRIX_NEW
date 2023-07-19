@@ -33,7 +33,6 @@
 .method constructor <init>(Lcom/google/common/collect/ImmutableRangeMap;Lcom/google/common/collect/ImmutableList;Lcom/google/common/collect/ImmutableList;Lcom/google/common/collect/Range;Lcom/google/common/collect/ImmutableRangeMap;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/common/collect/ImmutableRangeMap$2;->this$0:Lcom/google/common/collect/ImmutableRangeMap;
 
     iput-object p4, p0, Lcom/google/common/collect/ImmutableRangeMap$2;->val$range:Lcom/google/common/collect/Range;
@@ -50,7 +49,6 @@
 .method public bridge synthetic asDescendingMapOfRanges()Ljava/util/Map;
     .locals 1
 
-    .line 1
     invoke-super {p0}, Lcom/google/common/collect/ImmutableRangeMap;->asDescendingMapOfRanges()Lcom/google/common/collect/ImmutableMap;
 
     move-result-object v0
@@ -61,7 +59,6 @@
 .method public bridge synthetic asMapOfRanges()Ljava/util/Map;
     .locals 1
 
-    .line 1
     invoke-super {p0}, Lcom/google/common/collect/ImmutableRangeMap;->asMapOfRanges()Lcom/google/common/collect/ImmutableMap;
 
     move-result-object v0
@@ -81,7 +78,6 @@
         }
     .end annotation
 
-    .line 2
     iget-object v0, p0, Lcom/google/common/collect/ImmutableRangeMap$2;->val$range:Lcom/google/common/collect/Range;
 
     invoke-virtual {v0, p1}, Lcom/google/common/collect/Range;->isConnected(Lcom/google/common/collect/Range;)Z
@@ -90,7 +86,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 3
     iget-object v0, p0, Lcom/google/common/collect/ImmutableRangeMap$2;->val$outer:Lcom/google/common/collect/ImmutableRangeMap;
 
     iget-object v1, p0, Lcom/google/common/collect/ImmutableRangeMap$2;->val$range:Lcom/google/common/collect/Range;
@@ -105,7 +100,6 @@
 
     return-object p1
 
-    .line 4
     :cond_0
     invoke-static {}, Lcom/google/common/collect/ImmutableRangeMap;->of()Lcom/google/common/collect/ImmutableRangeMap;
 
@@ -117,7 +111,6 @@
 .method public bridge synthetic subRangeMap(Lcom/google/common/collect/Range;)Lcom/google/common/collect/t1;
     .locals 0
 
-    .line 1
     invoke-virtual {p0, p1}, Lcom/google/common/collect/ImmutableRangeMap$2;->subRangeMap(Lcom/google/common/collect/Range;)Lcom/google/common/collect/ImmutableRangeMap;
 
     move-result-object p1

@@ -26,10 +26,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Lcom/google/android/gms/common/internal/k0/b;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/google/android/gms/common/internal/k0/g;->b:Lcom/google/android/gms/common/api/internal/d$b;
 
     return-void
@@ -45,7 +43,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/common/internal/k0/g;->b:Lcom/google/android/gms/common/api/internal/d$b;
 
     new-instance v1, Lcom/google/android/gms/common/api/Status;

@@ -37,20 +37,16 @@
 .method public constructor <init>(Ljava/lang/String;Lcom/meitu/webview/core/CommonWebView;Ljava/lang/String;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/meitu/ipstore/web/scripts/UseMaterialScript$b;->a:Ljava/lang/String;
 
-    .line 3
     new-instance p1, Ljava/lang/ref/WeakReference;
 
     invoke-direct {p1, p2}, Ljava/lang/ref/WeakReference;-><init>(Ljava/lang/Object;)V
 
     iput-object p1, p0, Lcom/meitu/ipstore/web/scripts/UseMaterialScript$b;->b:Ljava/lang/ref/WeakReference;
 
-    .line 4
     iput-object p3, p0, Lcom/meitu/ipstore/web/scripts/UseMaterialScript$b;->c:Ljava/lang/String;
 
     return-void
@@ -65,7 +61,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcom/meitu/ipstore/web/scripts/UseMaterialScript$b;->b:Ljava/lang/ref/WeakReference;
 
     invoke-virtual {v0}, Ljava/lang/ref/WeakReference;->get()Ljava/lang/Object;
@@ -76,7 +71,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 2
     iget-object v1, p0, Lcom/meitu/ipstore/web/scripts/UseMaterialScript$b;->c:Ljava/lang/String;
 
     invoke-static {}, Lcom/meitu/ipstore/web/scripts/b;->b()Ljava/lang/String;
@@ -94,10 +88,8 @@
     :cond_0
     const-string v0, "webview already release!"
 
-    .line 3
     invoke-static {v0}, Lf/k/m/j/e;->o(Ljava/lang/String;)V
 
-    .line 4
     :goto_0
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -111,7 +103,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcom/meitu/ipstore/web/scripts/UseMaterialScript$b;->b:Ljava/lang/ref/WeakReference;
 
     invoke-virtual {v0}, Ljava/lang/ref/WeakReference;->get()Ljava/lang/Object;
@@ -122,17 +113,14 @@
 
     if-eqz v0, :cond_0
 
-    .line 2
     iget-object v1, p0, Lcom/meitu/ipstore/web/scripts/UseMaterialScript$b;->c:Ljava/lang/String;
 
     sget v2, Lcom/meitu/ipstore/web/scripts/b;->a:I
 
-    .line 3
     invoke-static {v2, p2}, Lcom/meitu/ipstore/web/scripts/b;->c(ILjava/lang/String;)Ljava/lang/String;
 
     move-result-object p2
 
-    .line 4
     invoke-static {v1, p2}, Lcom/meitu/webview/mtscript/h;->i(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p2
@@ -144,10 +132,8 @@
     :cond_0
     const-string p2, "webview already release!"
 
-    .line 5
     invoke-static {p2}, Lf/k/m/j/e;->o(Ljava/lang/String;)V
 
-    .line 6
     :goto_0
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

@@ -37,10 +37,8 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     invoke-static {}, Lcom/google/android/gms/internal/ads/cr1;->C()Lcom/google/android/gms/internal/ads/cr1;
 
     move-result-object v0
@@ -55,7 +53,6 @@
 
     if-nez p0, :cond_0
 
-    .line 1
     invoke-static {}, Lcom/google/android/gms/ads/internal/p;->g()Lcom/google/android/gms/internal/ads/em;
 
     move-result-object v0
@@ -68,7 +65,6 @@
 
     const-string v2, "SettableFuture"
 
-    .line 2
     invoke-virtual {v0, v1, v2}, Lcom/google/android/gms/internal/ads/em;->h(Ljava/lang/Throwable;Ljava/lang/String;)V
 
     :cond_0
@@ -89,7 +85,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/lq;->a:Lcom/google/android/gms/internal/ads/cr1;
 
     invoke-virtual {v0, p1}, Lcom/google/android/gms/internal/ads/cr1;->i(Ljava/lang/Object;)Z
@@ -106,7 +101,6 @@
 .method public addListener(Ljava/lang/Runnable;Ljava/util/concurrent/Executor;)V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/lq;->a:Lcom/google/android/gms/internal/ads/cr1;
 
     invoke-virtual {v0, p1, p2}, Lcom/google/android/gms/internal/ads/zzdtu;->addListener(Ljava/lang/Runnable;Ljava/util/concurrent/Executor;)V
@@ -117,7 +111,6 @@
 .method public final c(Ljava/lang/Throwable;)Z
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/lq;->a:Lcom/google/android/gms/internal/ads/cr1;
 
     invoke-virtual {v0, p1}, Lcom/google/android/gms/internal/ads/cr1;->j(Ljava/lang/Throwable;)Z
@@ -134,7 +127,6 @@
 .method public cancel(Z)Z
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/lq;->a:Lcom/google/android/gms/internal/ads/cr1;
 
     invoke-virtual {v0, p1}, Lcom/google/android/gms/internal/ads/zzdtu;->cancel(Z)Z
@@ -159,7 +151,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/lq;->a:Lcom/google/android/gms/internal/ads/cr1;
 
     invoke-virtual {v0}, Lcom/google/android/gms/internal/ads/zzdtu;->get()Ljava/lang/Object;
@@ -187,7 +178,6 @@
         }
     .end annotation
 
-    .line 2
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/lq;->a:Lcom/google/android/gms/internal/ads/cr1;
 
     invoke-virtual {v0, p1, p2, p3}, Lcom/google/android/gms/internal/ads/zzdtu;->get(JLjava/util/concurrent/TimeUnit;)Ljava/lang/Object;
@@ -200,7 +190,6 @@
 .method public isCancelled()Z
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/lq;->a:Lcom/google/android/gms/internal/ads/cr1;
 
     invoke-virtual {v0}, Lcom/google/android/gms/internal/ads/zzdtu;->isCancelled()Z
@@ -213,7 +202,6 @@
 .method public isDone()Z
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/lq;->a:Lcom/google/android/gms/internal/ads/cr1;
 
     invoke-virtual {v0}, Lcom/google/android/gms/internal/ads/zzdtu;->isDone()Z

@@ -35,7 +35,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/function/style/MultiSeekBarView$d;->a:Lcom/commsource/studio/function/style/MultiSeekBarView;
 
     iput-object p2, p0, Lcom/commsource/studio/function/style/MultiSeekBarView$d;->b:Landroid/view/View;
@@ -54,10 +53,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p0, p1, p2}, Lcom/commsource/studio/function/style/MultiSeekBarView$c$a;->c(Lcom/commsource/studio/function/style/MultiSeekBarView$c;IF)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/function/style/MultiSeekBarView$d;->a:Lcom/commsource/studio/function/style/MultiSeekBarView;
 
     invoke-virtual {v1}, Lcom/commsource/studio/function/style/MultiSeekBarView;->getMultiProgressChangeListener()Lcom/commsource/studio/function/style/MultiSeekBarView$b;
@@ -66,15 +63,12 @@
 
     if-eqz v1, :cond_0
 
-    .line 3
     invoke-virtual {p0}, Lcom/commsource/studio/function/style/MultiSeekBarView$d;->P()Landroid/view/View;
 
     move-result-object v2
 
-    .line 4
     invoke-interface {v1, v2, p1, p2}, Lcom/commsource/studio/function/style/MultiSeekBarView$b;->b(Landroid/view/View;IF)V
 
-    .line 5
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -88,10 +82,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p0, p1, p2, p3}, Lcom/commsource/studio/function/style/MultiSeekBarView$c$a;->a(Lcom/commsource/studio/function/style/MultiSeekBarView$c;IFZ)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/function/style/MultiSeekBarView$d;->a:Lcom/commsource/studio/function/style/MultiSeekBarView;
 
     invoke-virtual {v1}, Lcom/commsource/studio/function/style/MultiSeekBarView;->getMultiProgressChangeListener()Lcom/commsource/studio/function/style/MultiSeekBarView$b;
@@ -100,15 +92,12 @@
 
     if-eqz v1, :cond_0
 
-    .line 3
     invoke-virtual {p0}, Lcom/commsource/studio/function/style/MultiSeekBarView$d;->P()Landroid/view/View;
 
     move-result-object v2
 
-    .line 4
     invoke-interface {v1, v2, p1, p2, p3}, Lcom/commsource/studio/function/style/MultiSeekBarView$b;->a(Landroid/view/View;IFZ)V
 
-    .line 5
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -122,10 +111,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p0, p1, p2, p3}, Lcom/commsource/studio/function/style/MultiSeekBarView$c$a;->b(Lcom/commsource/studio/function/style/MultiSeekBarView$c;IFZ)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/function/style/MultiSeekBarView$d;->a:Lcom/commsource/studio/function/style/MultiSeekBarView;
 
     invoke-virtual {v1}, Lcom/commsource/studio/function/style/MultiSeekBarView;->getMultiProgressChangeListener()Lcom/commsource/studio/function/style/MultiSeekBarView$b;
@@ -134,15 +121,12 @@
 
     if-eqz v1, :cond_0
 
-    .line 3
     invoke-virtual {p0}, Lcom/commsource/studio/function/style/MultiSeekBarView$d;->P()Landroid/view/View;
 
     move-result-object v2
 
-    .line 4
     invoke-interface {v1, v2, p1, p2, p3}, Lcom/commsource/studio/function/style/MultiSeekBarView$b;->a(Landroid/view/View;IFZ)V
 
-    .line 5
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -158,7 +142,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/function/style/MultiSeekBarView$d;->b:Landroid/view/View;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -173,10 +156,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p0, p1, p2, p3}, Lcom/commsource/studio/function/style/MultiSeekBarView$c$a;->d(Lcom/commsource/studio/function/style/MultiSeekBarView$c;IFZ)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/function/style/MultiSeekBarView$d;->a:Lcom/commsource/studio/function/style/MultiSeekBarView;
 
     invoke-virtual {v1}, Lcom/commsource/studio/function/style/MultiSeekBarView;->getMultiProgressChangeListener()Lcom/commsource/studio/function/style/MultiSeekBarView$b;
@@ -185,15 +166,12 @@
 
     if-eqz v1, :cond_0
 
-    .line 3
     invoke-virtual {p0}, Lcom/commsource/studio/function/style/MultiSeekBarView$d;->P()Landroid/view/View;
 
     move-result-object v2
 
-    .line 4
     invoke-interface {v1, v2, p1, p2, p3}, Lcom/commsource/studio/function/style/MultiSeekBarView$b;->c(Landroid/view/View;IFZ)V
 
-    .line 5
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

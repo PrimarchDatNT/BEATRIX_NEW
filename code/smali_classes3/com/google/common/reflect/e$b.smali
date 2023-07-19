@@ -38,7 +38,6 @@
 .method static constructor <clinit>()V
     .locals 0
 
-    .line 1
     invoke-static {}, Lcom/google/common/reflect/e$b;->I0()V
 
     return-void
@@ -47,10 +46,8 @@
 .method constructor <init>(Ljava/lang/reflect/Method;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/google/common/reflect/e;-><init>(Ljava/lang/reflect/AccessibleObject;)V
 
-    .line 2
     iput-object p1, p0, Lcom/google/common/reflect/e$b;->c:Ljava/lang/reflect/Method;
 
     return-void
@@ -59,7 +56,6 @@
 .method private static synthetic I0()V
     .locals 9
 
-    .line 1
     new-instance v8, Ln/a/b/c/e;
 
     const-class v0, Lcom/google/common/reflect/e$b;
@@ -104,7 +100,6 @@
 .method static final synthetic J0(Lcom/google/common/reflect/e$b;Ljava/lang/reflect/Method;Ljava/lang/Object;[Ljava/lang/Object;Lorg/aspectj/lang/c;)Ljava/lang/Object;
     .locals 0
 
-    .line 1
     invoke-virtual {p1, p2, p3}, Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p0
@@ -127,7 +122,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/reflect/e$b;->c:Ljava/lang/reflect/Method;
 
     sget-object v1, Lcom/google/common/reflect/e$b;->d:Lorg/aspectj/lang/c$b;
@@ -184,28 +178,24 @@
 .method public final E0()Z
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/reflect/c;->j0()Z
 
     move-result v0
 
     if-nez v0, :cond_0
 
-    .line 2
     invoke-virtual {p0}, Lcom/google/common/reflect/c;->m0()Z
 
     move-result v0
 
     if-nez v0, :cond_0
 
-    .line 3
     invoke-virtual {p0}, Lcom/google/common/reflect/c;->p0()Z
 
     move-result v0
 
     if-nez v0, :cond_0
 
-    .line 4
     invoke-virtual {p0}, Lcom/google/common/reflect/e;->getDeclaringClass()Ljava/lang/Class;
 
     move-result-object v0
@@ -234,7 +224,6 @@
 .method public final F0()Z
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/reflect/e$b;->c:Ljava/lang/reflect/Method;
 
     invoke-virtual {v0}, Ljava/lang/reflect/Method;->isVarArgs()Z
@@ -254,7 +243,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/reflect/e$b;->c:Ljava/lang/reflect/Method;
 
     invoke-virtual {v0}, Ljava/lang/reflect/Method;->getTypeParameters()[Ljava/lang/reflect/TypeVariable;
@@ -267,7 +255,6 @@
 .method w0()[Ljava/lang/reflect/Type;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/reflect/e$b;->c:Ljava/lang/reflect/Method;
 
     invoke-virtual {v0}, Ljava/lang/reflect/Method;->getGenericExceptionTypes()[Ljava/lang/reflect/Type;
@@ -280,7 +267,6 @@
 .method x0()[Ljava/lang/reflect/Type;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/reflect/e$b;->c:Ljava/lang/reflect/Method;
 
     invoke-virtual {v0}, Ljava/lang/reflect/Method;->getGenericParameterTypes()[Ljava/lang/reflect/Type;
@@ -293,7 +279,6 @@
 .method y0()Ljava/lang/reflect/Type;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/reflect/e$b;->c:Ljava/lang/reflect/Method;
 
     invoke-virtual {v0}, Ljava/lang/reflect/Method;->getGenericReturnType()Ljava/lang/reflect/Type;
@@ -306,7 +291,6 @@
 .method final z0()[[Ljava/lang/annotation/Annotation;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/reflect/e$b;->c:Ljava/lang/reflect/Method;
 
     invoke-virtual {v0}, Ljava/lang/reflect/Method;->getParameterAnnotations()[[Ljava/lang/annotation/Annotation;

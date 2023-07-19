@@ -40,10 +40,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Lcom/google/common/io/f;-><init>()V
 
-    .line 2
     invoke-static {p1}, Lcom/google/common/base/t;->E(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -65,7 +63,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/io/f$c;->a:Ljava/lang/Iterable;
 
     invoke-interface {v0}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
@@ -85,7 +82,6 @@
 
     check-cast v1, Lcom/google/common/io/f;
 
-    .line 2
     invoke-virtual {v1}, Lcom/google/common/io/f;->k()Z
 
     move-result v1
@@ -110,7 +106,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/google/common/io/x;
 
     iget-object v1, p0, Lcom/google/common/io/f$c;->a:Ljava/lang/Iterable;
@@ -132,7 +127,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/io/f$c;->a:Ljava/lang/Iterable;
 
     invoke-interface {v0}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
@@ -156,7 +150,6 @@
 
     check-cast v5, Lcom/google/common/io/f;
 
-    .line 2
     invoke-virtual {v5}, Lcom/google/common/io/f;->p()J
 
     move-result-wide v5
@@ -186,21 +179,18 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/io/f$c;->a:Ljava/lang/Iterable;
 
     instance-of v1, v0, Ljava/util/Collection;
 
     if-nez v1, :cond_0
 
-    .line 2
     invoke-static {}, Lcom/google/common/base/Optional;->absent()Lcom/google/common/base/Optional;
 
     move-result-object v0
 
     return-object v0
 
-    .line 3
     :cond_0
     invoke-interface {v0}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
@@ -223,26 +213,22 @@
 
     check-cast v5, Lcom/google/common/io/f;
 
-    .line 4
     invoke-virtual {v5}, Lcom/google/common/io/f;->q()Lcom/google/common/base/Optional;
 
     move-result-object v5
 
-    .line 5
     invoke-virtual {v5}, Lcom/google/common/base/Optional;->isPresent()Z
 
     move-result v6
 
     if-nez v6, :cond_2
 
-    .line 6
     invoke-static {}, Lcom/google/common/base/Optional;->absent()Lcom/google/common/base/Optional;
 
     move-result-object v0
 
     return-object v0
 
-    .line 7
     :cond_2
     invoke-virtual {v5}, Lcom/google/common/base/Optional;->get()Ljava/lang/Object;
 
@@ -262,7 +248,6 @@
 
     const-wide v0, 0x7fffffffffffffffL
 
-    .line 8
     invoke-static {v0, v1}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
 
     move-result-object v0
@@ -273,7 +258,6 @@
 
     return-object v0
 
-    .line 9
     :cond_3
     invoke-static {v3, v4}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
 
@@ -289,7 +273,6 @@
 .method public toString()Ljava/lang/String;
     .locals 2
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V

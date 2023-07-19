@@ -30,7 +30,6 @@
 .method constructor <init>(Lcom/google/common/collect/j2$d$b;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/common/collect/j2$d$b$b;->a:Lcom/google/common/collect/j2$d$b;
 
     invoke-direct {p0}, Lcom/google/common/collect/Maps$q;-><init>()V
@@ -51,7 +50,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/j2$d$b$b;->a:Lcom/google/common/collect/j2$d$b;
 
     return-object v0
@@ -60,7 +58,6 @@
 .method public isEmpty()Z
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/collect/j2$d$b$b;->iterator()Ljava/util/Iterator;
 
     move-result-object v0
@@ -86,7 +83,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/j2$d$b$b;->a:Lcom/google/common/collect/j2$d$b;
 
     invoke-virtual {v0}, Lcom/google/common/collect/j2$d$b;->b()Ljava/util/Iterator;
@@ -106,7 +102,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/j2$d$b$b;->a:Lcom/google/common/collect/j2$d$b;
 
     invoke-static {p1}, Lcom/google/common/base/Predicates;->n(Ljava/util/Collection;)Lcom/google/common/base/u;
@@ -127,7 +122,6 @@
 .method public size()I
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/collect/j2$d$b$b;->iterator()Ljava/util/Iterator;
 
     move-result-object v0

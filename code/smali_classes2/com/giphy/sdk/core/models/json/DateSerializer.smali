@@ -25,10 +25,8 @@
 .method public constructor <init>()V
     .locals 3
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     new-instance v0, Ljava/text/SimpleDateFormat;
 
     sget-object v1, Ljava/util/Locale;->US:Ljava/util/Locale;
@@ -47,7 +45,6 @@
 .method public bridge synthetic serialize(Ljava/lang/Object;Ljava/lang/reflect/Type;Lcom/google/gson/JsonSerializationContext;)Lcom/google/gson/JsonElement;
     .locals 0
 
-    .line 1
     check-cast p1, Ljava/util/Date;
 
     invoke-virtual {p0, p1, p2, p3}, Lcom/giphy/sdk/core/models/json/DateSerializer;->serialize(Ljava/util/Date;Ljava/lang/reflect/Type;Lcom/google/gson/JsonSerializationContext;)Lcom/google/gson/JsonElement;
@@ -60,7 +57,6 @@
 .method public serialize(Ljava/util/Date;Ljava/lang/reflect/Type;Lcom/google/gson/JsonSerializationContext;)Lcom/google/gson/JsonElement;
     .locals 0
 
-    .line 2
     new-instance p2, Lcom/google/gson/JsonPrimitive;
 
     iget-object p3, p0, Lcom/giphy/sdk/core/models/json/DateSerializer;->dateFormat:Ljava/text/DateFormat;

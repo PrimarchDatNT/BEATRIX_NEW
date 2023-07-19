@@ -58,17 +58,14 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/commsource/studio/layer/c;-><init>(Landroid/content/Context;)V
 
-    .line 2
     new-instance p1, Landroid/graphics/RectF;
 
     invoke-direct {p1}, Landroid/graphics/RectF;-><init>()V
 
     iput-object p1, p0, Lcom/commsource/studio/function/relight/NewRelightLayer;->T:Landroid/graphics/RectF;
 
-    .line 3
     new-instance p1, Landroid/graphics/Paint;
 
     const/4 v0, 0x1
@@ -77,20 +74,16 @@
 
     const/4 v1, 0x0
 
-    .line 4
     invoke-virtual {p1, v1}, Landroid/graphics/Paint;->setAlpha(I)V
 
-    .line 5
     iput-object p1, p0, Lcom/commsource/studio/function/relight/NewRelightLayer;->U:Landroid/graphics/Paint;
 
-    .line 6
     invoke-virtual {p0, p0, v1}, Lcom/commsource/studio/layer/c;->q0(Lcom/commsource/studio/layer/c$a;I)V
 
     const/4 p1, 0x3
 
     new-array p1, p1, [F
 
-    .line 7
     fill-array-data p1, :array_0
 
     invoke-static {p1}, Landroid/animation/ValueAnimator;->ofFloat([F)Landroid/animation/ValueAnimator;
@@ -99,20 +92,16 @@
 
     const-wide/16 v1, 0x320
 
-    .line 8
     invoke-virtual {p1, v1, v2}, Landroid/animation/ValueAnimator;->setDuration(J)Landroid/animation/ValueAnimator;
 
-    .line 9
     invoke-virtual {p1, v0}, Landroid/animation/ValueAnimator;->setRepeatCount(I)V
 
-    .line 10
     new-instance v0, Lcom/commsource/studio/function/relight/NewRelightLayer$a;
 
     invoke-direct {v0, p0}, Lcom/commsource/studio/function/relight/NewRelightLayer$a;-><init>(Lcom/commsource/studio/function/relight/NewRelightLayer;)V
 
     invoke-virtual {p1, v0}, Landroid/animation/ValueAnimator;->addUpdateListener(Landroid/animation/ValueAnimator$AnimatorUpdateListener;)V
 
-    .line 11
     iput-object p1, p0, Lcom/commsource/studio/function/relight/NewRelightLayer;->V:Landroid/animation/ValueAnimator;
 
     return-void
@@ -134,7 +123,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/studio/function/relight/NewRelightLayer;->W:Lcom/commsource/studio/function/relight/e;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -149,7 +137,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/function/relight/NewRelightLayer;->W:Lcom/commsource/studio/function/relight/e;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -164,7 +151,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/studio/function/relight/NewRelightLayer;->T:Landroid/graphics/RectF;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -179,7 +165,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/studio/function/relight/NewRelightLayer;->U:Landroid/graphics/Paint;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -198,7 +183,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/function/relight/NewRelightLayer;->S:Landroid/graphics/Bitmap;
 
     if-nez v1, :cond_0
@@ -232,7 +216,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/function/relight/NewRelightLayer;->X:Lcotlin/jvm/u/l;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -255,7 +238,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/function/relight/NewRelightLayer;->S:Landroid/graphics/Bitmap;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -284,7 +266,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/function/relight/NewRelightLayer;->X:Lcotlin/jvm/u/l;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -303,10 +284,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/function/relight/NewRelightLayer;->W:Lcom/commsource/studio/function/relight/e;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -321,14 +300,12 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     iget-object p1, p0, Lcom/commsource/studio/function/relight/NewRelightLayer;->V:Landroid/animation/ValueAnimator;
 
     invoke-virtual {p1}, Landroid/animation/ValueAnimator;->start()V
 
     goto :goto_0
 
-    .line 2
     :cond_0
     iget-object p1, p0, Lcom/commsource/studio/function/relight/NewRelightLayer;->U:Landroid/graphics/Paint;
 
@@ -336,14 +313,12 @@
 
     invoke-virtual {p1, v1}, Landroid/graphics/Paint;->setAlpha(I)V
 
-    .line 3
     invoke-virtual {p0}, Lcom/commsource/studio/layer/BaseLayer;->F()Landroid/view/View;
 
     move-result-object p1
 
     invoke-virtual {p1}, Landroid/view/View;->invalidate()V
 
-    .line 4
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -361,7 +336,6 @@
 
     sget v1, Lcom/res/provider/ResDRAWABLE;->edit_icon_lightsource:I
 
-    .line 1
     invoke-static {v1}, Lcom/commsource/util/u1;->a(I)Landroid/graphics/Bitmap;
 
     move-result-object v1
@@ -372,7 +346,6 @@
 
     iput-object v1, p0, Lcom/commsource/studio/function/relight/NewRelightLayer;->S:Landroid/graphics/Bitmap;
 
-    .line 2
     new-instance v1, Lcom/commsource/studio/function/relight/NewRelightLayer$DrawPathView;
 
     invoke-virtual {p0}, Lcom/commsource/studio/layer/BaseLayer;->A()Landroid/content/Context;
@@ -401,7 +374,6 @@
 
     invoke-static {p3, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-static {p0, p1, p2, p3}, Lcom/commsource/studio/layer/c$a$a;->a(Lcom/commsource/studio/layer/c$a;FFLandroid/view/MotionEvent;)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -424,22 +396,18 @@
 
     invoke-static {p3, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object p3, p0, Lcom/commsource/studio/function/relight/NewRelightLayer;->W:Lcom/commsource/studio/function/relight/e;
 
     if-eqz p3, :cond_0
 
-    .line 2
     invoke-virtual {p3, p1, p2}, Lcom/commsource/studio/function/relight/e;->o(FF)V
 
-    .line 3
     invoke-virtual {p3}, Lcom/commsource/studio/function/relight/e;->f()Landroid/graphics/PointF;
 
     move-result-object p3
 
     invoke-virtual {p3, p1, p2}, Landroid/graphics/PointF;->set(FF)V
 
-    .line 4
     iget-object p1, p0, Lcom/commsource/studio/function/relight/NewRelightLayer;->X:Lcotlin/jvm/u/l;
 
     if-eqz p1, :cond_0
@@ -452,7 +420,6 @@
 
     check-cast p1, Lcotlin/t1;
 
-    .line 5
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -474,7 +441,6 @@
 
     invoke-static {p3, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object p3, p0, Lcom/commsource/studio/function/relight/NewRelightLayer;->W:Lcom/commsource/studio/function/relight/e;
 
     if-eqz p3, :cond_0
@@ -487,20 +453,17 @@
 
     invoke-virtual {p3, p1, p2}, Landroid/graphics/PointF;->set(FF)V
 
-    .line 2
     :cond_0
     iget-object p1, p0, Lcom/commsource/studio/function/relight/NewRelightLayer;->V:Landroid/animation/ValueAnimator;
 
     invoke-virtual {p1}, Landroid/animation/ValueAnimator;->cancel()V
 
-    .line 3
     iget-object p1, p0, Lcom/commsource/studio/function/relight/NewRelightLayer;->U:Landroid/graphics/Paint;
 
     const/16 p2, 0xff
 
     invoke-virtual {p1, p2}, Landroid/graphics/Paint;->setAlpha(I)V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -521,7 +484,6 @@
 
     invoke-static {p3, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-static {p0, p1, p2, p3}, Lcom/commsource/studio/layer/c$a$a;->e(Lcom/commsource/studio/layer/c$a;FFLandroid/view/MotionEvent;)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -540,14 +502,12 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p2, p0, Lcom/commsource/studio/function/relight/NewRelightLayer;->U:Landroid/graphics/Paint;
 
     const/4 p3, 0x0
 
     invoke-virtual {p2, p3}, Landroid/graphics/Paint;->setAlpha(I)V
 
-    .line 2
     iget-object p2, p0, Lcom/commsource/studio/function/relight/NewRelightLayer;->X:Lcotlin/jvm/u/l;
 
     if-eqz p2, :cond_0
@@ -560,7 +520,6 @@
 
     check-cast p2, Lcotlin/t1;
 
-    .line 3
     :cond_0
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

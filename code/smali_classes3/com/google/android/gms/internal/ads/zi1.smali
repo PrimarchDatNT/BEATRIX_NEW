@@ -16,7 +16,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -25,7 +24,6 @@
 .method private final a()Lcom/google/android/gms/internal/ads/zi1;
     .locals 1
 
-    .line 1
     :try_start_0
     invoke-super {p0}, Ljava/lang/Object;->clone()Ljava/lang/Object;
 
@@ -37,7 +35,6 @@
 
     return-object v0
 
-    .line 2
     :catch_0
     new-instance v0, Ljava/lang/AssertionError;
 
@@ -56,7 +53,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Lcom/google/android/gms/internal/ads/zi1;->a()Lcom/google/android/gms/internal/ads/zi1;
 
     move-result-object v0

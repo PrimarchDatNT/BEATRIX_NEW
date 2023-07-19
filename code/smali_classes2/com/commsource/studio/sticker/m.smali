@@ -114,12 +114,10 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     iput-object p1, p0, Lcom/commsource/studio/sticker/m;->q:Landroidx/databinding/ViewStubProxy;
 
-    .line 2
     invoke-static {}, Lcom/meitu/library/p/f/i;->z()I
 
     move-result p1
@@ -136,49 +134,42 @@
 
     iput p1, p0, Lcom/commsource/studio/sticker/m;->b:I
 
-    .line 3
     invoke-static {}, Lcom/meitu/library/p/f/i;->z()I
 
     move-result p1
 
     iput p1, p0, Lcom/commsource/studio/sticker/m;->c:I
 
-    .line 4
     invoke-static {}, Lcom/meitu/library/p/f/i;->x()I
 
     move-result p1
 
     iput p1, p0, Lcom/commsource/studio/sticker/m;->d:I
 
-    .line 5
     new-instance p1, Lcom/commsource/camera/f1/n;
 
     invoke-direct {p1}, Lcom/commsource/camera/f1/n;-><init>()V
 
     iput-object p1, p0, Lcom/commsource/studio/sticker/m;->e:Lcom/commsource/camera/f1/n;
 
-    .line 6
     new-instance p1, Lcom/commsource/camera/f1/n;
 
     invoke-direct {p1}, Lcom/commsource/camera/f1/n;-><init>()V
 
     iput-object p1, p0, Lcom/commsource/studio/sticker/m;->f:Lcom/commsource/camera/f1/n;
 
-    .line 7
     new-instance p1, Lcom/commsource/camera/f1/n;
 
     invoke-direct {p1}, Lcom/commsource/camera/f1/n;-><init>()V
 
     iput-object p1, p0, Lcom/commsource/studio/sticker/m;->g:Lcom/commsource/camera/f1/n;
 
-    .line 8
     new-instance p1, Lcom/commsource/camera/f1/n;
 
     invoke-direct {p1}, Lcom/commsource/camera/f1/n;-><init>()V
 
     iput-object p1, p0, Lcom/commsource/studio/sticker/m;->h:Lcom/commsource/camera/f1/n;
 
-    .line 9
     new-instance p1, Lcom/commsource/camera/f1/n;
 
     invoke-direct {p1}, Lcom/commsource/camera/f1/n;-><init>()V
@@ -195,7 +186,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/studio/sticker/m;->q:Landroidx/databinding/ViewStubProxy;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -210,7 +200,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean p0, p0, Lcom/commsource/studio/sticker/m;->k:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -225,7 +214,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/studio/sticker/m;->k:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -240,7 +228,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/sticker/m;->a:Lcom/commsource/beautyplus/f0/km;
 
     if-nez v1, :cond_0
@@ -252,7 +239,6 @@
     :cond_0
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/km;->d:Landroidx/cardview/widget/CardView;
 
-    .line 2
     invoke-virtual {v1}, Landroid/widget/FrameLayout;->getWidth()I
 
     move-result v2
@@ -265,7 +251,6 @@
 
     invoke-virtual {v1, v2}, Landroid/widget/FrameLayout;->setPivotX(F)V
 
-    .line 3
     invoke-virtual {v1}, Landroid/widget/FrameLayout;->getHeight()I
 
     move-result v2
@@ -280,7 +265,6 @@
 
     new-array v1, v1, [F
 
-    .line 4
     fill-array-data v1, :array_0
 
     invoke-static {v1}, Landroid/animation/ValueAnimator;->ofFloat([F)Landroid/animation/ValueAnimator;
@@ -289,42 +273,34 @@
 
     const-wide/16 v2, 0x12c
 
-    .line 5
     invoke-virtual {v1, v2, v3}, Landroid/animation/ValueAnimator;->setDuration(J)Landroid/animation/ValueAnimator;
 
     move-result-object v2
 
-    .line 6
     new-instance v3, Lcom/commsource/studio/sticker/m$b;
 
     invoke-direct {v3, p0}, Lcom/commsource/studio/sticker/m$b;-><init>(Lcom/commsource/studio/sticker/m;)V
 
     invoke-virtual {v2, v3}, Landroid/animation/ValueAnimator;->addUpdateListener(Landroid/animation/ValueAnimator$AnimatorUpdateListener;)V
 
-    .line 7
     new-instance v2, Landroid/animation/AnimatorSet;
 
     invoke-direct {v2}, Landroid/animation/AnimatorSet;-><init>()V
 
-    .line 8
     invoke-virtual {v2, v1}, Landroid/animation/AnimatorSet;->play(Landroid/animation/Animator;)Landroid/animation/AnimatorSet$Builder;
 
     const-wide/16 v3, 0x258
 
-    .line 9
     invoke-virtual {v2, v3, v4}, Landroid/animation/AnimatorSet;->setDuration(J)Landroid/animation/AnimatorSet;
 
-    .line 10
     new-instance v1, Lcom/commsource/studio/sticker/m$c;
 
     invoke-direct {v1, p0}, Lcom/commsource/studio/sticker/m$c;-><init>(Lcom/commsource/studio/sticker/m;)V
 
     invoke-virtual {v2, v1}, Landroid/animation/AnimatorSet;->addListener(Landroid/animation/Animator$AnimatorListener;)V
 
-    .line 11
     invoke-virtual {v2}, Landroid/animation/AnimatorSet;->start()V
 
-    .line 12
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -343,7 +319,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/meitu/library/p/f/i;->x()I
 
     move-result v1
@@ -360,15 +335,12 @@
 
     div-int/lit8 v1, v1, 0x4
 
-    .line 2
     iget v2, p0, Lcom/commsource/studio/sticker/m;->b:I
 
     if-le v2, v1, :cond_0
 
-    .line 3
     iput v1, p0, Lcom/commsource/studio/sticker/m;->b:I
 
-    .line 4
     :cond_0
     iget-object v1, p0, Lcom/commsource/studio/sticker/m;->a:Lcom/commsource/beautyplus/f0/km;
 
@@ -385,7 +357,6 @@
 
     invoke-static {v1, v3}, Lcom/commsource/util/l2;->N(Landroid/view/View;I)V
 
-    .line 5
     iget-object v1, p0, Lcom/commsource/studio/sticker/m;->j:Landroid/graphics/Point;
 
     const-string v3, "position"
@@ -399,7 +370,6 @@
 
     int-to-float v1, v1
 
-    .line 6
     iget-object v4, p0, Lcom/commsource/studio/sticker/m;->f:Lcom/commsource/camera/f1/n;
 
     iget v5, p0, Lcom/commsource/studio/sticker/m;->c:I
@@ -418,19 +388,16 @@
 
     const/high16 v1, 0x42340000    # 45.0f
 
-    .line 7
     invoke-static {v1}, Lcom/meitu/library/p/f/i;->b(F)F
 
     move-result v1
 
-    .line 8
     iget-object v4, p0, Lcom/commsource/studio/sticker/m;->e:Lcom/commsource/camera/f1/n;
 
     const/high16 v7, 0x3f800000    # 1.0f
 
     invoke-virtual {v4, v7, v5}, Lcom/commsource/camera/f1/n;->f(FF)V
 
-    .line 9
     iget-object v4, p0, Lcom/commsource/studio/sticker/m;->j:Landroid/graphics/Point;
 
     if-nez v4, :cond_3
@@ -450,7 +417,6 @@
 
     sub-float/2addr v4, v7
 
-    .line 10
     iget-object v7, p0, Lcom/commsource/studio/sticker/m;->g:Lcom/commsource/camera/f1/n;
 
     iget v8, p0, Lcom/commsource/studio/sticker/m;->d:I
@@ -463,7 +429,6 @@
 
     invoke-virtual {v7, v5, v8}, Lcom/commsource/camera/f1/n;->f(FF)V
 
-    .line 11
     iget-object v7, p0, Lcom/commsource/studio/sticker/m;->h:Lcom/commsource/camera/f1/n;
 
     iget v8, p0, Lcom/commsource/studio/sticker/m;->b:I
@@ -474,7 +439,6 @@
 
     invoke-virtual {v7, v1, v5}, Lcom/commsource/camera/f1/n;->f(FF)V
 
-    .line 12
     iget-object v1, p0, Lcom/commsource/studio/sticker/m;->i:Lcom/commsource/camera/f1/n;
 
     iget v5, p0, Lcom/commsource/studio/sticker/m;->d:I
@@ -514,7 +478,6 @@
 
     invoke-virtual {v1, v4, v3}, Lcom/commsource/camera/f1/n;->f(FF)V
 
-    .line 13
     iget-object v1, p0, Lcom/commsource/studio/sticker/m;->a:Lcom/commsource/beautyplus/f0/km;
 
     if-nez v1, :cond_5
@@ -530,7 +493,6 @@
 
     invoke-virtual {v1, v3}, Landroid/widget/ImageView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 14
     iget-object v1, p0, Lcom/commsource/studio/sticker/m;->a:Lcom/commsource/beautyplus/f0/km;
 
     if-nez v1, :cond_6
@@ -546,12 +508,10 @@
 
     invoke-virtual {v1, v3}, Landroid/widget/TextView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 15
     iget-object v1, p0, Lcom/commsource/studio/sticker/m;->m:Ljava/lang/String;
 
     if-eqz v1, :cond_9
 
-    .line 16
     iget-object v1, p0, Lcom/commsource/studio/sticker/m;->a:Lcom/commsource/beautyplus/f0/km;
 
     if-nez v1, :cond_7
@@ -567,7 +527,6 @@
 
     invoke-virtual {v1, v3, v4}, Lcom/commsource/widget/VideoPlayView;->l(Ljava/lang/String;Lcom/commsource/widget/VideoPlayView$b;)V
 
-    .line 17
     iget-object v1, p0, Lcom/commsource/studio/sticker/m;->a:Lcom/commsource/beautyplus/f0/km;
 
     if-nez v1, :cond_8
@@ -583,13 +542,11 @@
 
     goto :goto_0
 
-    .line 18
     :cond_9
     iget-object v1, p0, Lcom/commsource/studio/sticker/m;->l:Ljava/lang/String;
 
     if-eqz v1, :cond_c
 
-    .line 19
     iget-object v1, p0, Lcom/commsource/studio/sticker/m;->a:Lcom/commsource/beautyplus/f0/km;
 
     if-nez v1, :cond_a
@@ -613,14 +570,12 @@
 
     move-result-object v1
 
-    .line 20
     iget-object v3, p0, Lcom/commsource/studio/sticker/m;->l:Ljava/lang/String;
 
     invoke-virtual {v1, v3}, Lcom/commsource/util/u0$d;->n(Ljava/lang/String;)Lcom/commsource/util/u0$d;
 
     move-result-object v1
 
-    .line 21
     iget-object v3, p0, Lcom/commsource/studio/sticker/m;->a:Lcom/commsource/beautyplus/f0/km;
 
     if-nez v3, :cond_b
@@ -632,7 +587,6 @@
 
     invoke-virtual {v1, v3}, Lcom/commsource/util/u0$d;->e(Landroid/widget/ImageView;)V
 
-    .line 22
     :cond_c
     :goto_0
     iget-object v1, p0, Lcom/commsource/studio/sticker/m;->a:Lcom/commsource/beautyplus/f0/km;
@@ -652,7 +606,6 @@
 
     invoke-virtual {v1, v3}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 23
     iget-object v1, p0, Lcom/commsource/studio/sticker/m;->a:Lcom/commsource/beautyplus/f0/km;
 
     if-nez v1, :cond_e
@@ -670,7 +623,6 @@
 
     invoke-virtual {v1, v2}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 24
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -683,7 +635,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/sticker/m;->a:Lcom/commsource/beautyplus/f0/km;
 
     const-string v2, "mViewBinding"
@@ -697,18 +648,14 @@
 
     const/4 v3, 0x0
 
-    .line 2
     invoke-virtual {v1, v3}, Landroid/widget/FrameLayout;->setAlpha(F)V
 
     const v4, 0x3f333333    # 0.7f
 
-    .line 3
     invoke-virtual {v1, v4}, Landroid/widget/FrameLayout;->setScaleX(F)V
 
-    .line 4
     invoke-virtual {v1, v4}, Landroid/widget/FrameLayout;->setScaleY(F)V
 
-    .line 5
     invoke-virtual {v1}, Landroid/widget/FrameLayout;->animate()Landroid/view/ViewPropertyAnimator;
 
     move-result-object v1
@@ -729,7 +676,6 @@
 
     invoke-virtual {v1}, Landroid/view/ViewPropertyAnimator;->start()V
 
-    .line 6
     iget-object v1, p0, Lcom/commsource/studio/sticker/m;->a:Lcom/commsource/beautyplus/f0/km;
 
     if-nez v1, :cond_1
@@ -741,10 +687,8 @@
 
     move-result-object v1
 
-    .line 7
     invoke-virtual {v1, v3}, Landroid/view/View;->setAlpha(F)V
 
-    .line 8
     invoke-virtual {v1}, Landroid/view/View;->animate()Landroid/view/ViewPropertyAnimator;
 
     move-result-object v1
@@ -755,7 +699,6 @@
 
     invoke-virtual {v1}, Landroid/view/ViewPropertyAnimator;->start()V
 
-    .line 9
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -772,7 +715,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/sticker/m;->o:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -789,7 +731,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/sticker/m;->l:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -806,7 +747,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/sticker/m;->a:Lcom/commsource/beautyplus/f0/km;
 
     if-nez v1, :cond_0
@@ -839,7 +779,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/sticker/m;->p:Lcotlin/jvm/u/a;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -856,7 +795,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/sticker/m;->j:Landroid/graphics/Point;
 
     if-nez v1, :cond_0
@@ -880,7 +818,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/sticker/m;->n:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -897,7 +834,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/sticker/m;->m:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -912,17 +848,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/studio/sticker/m;->k:Z
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 3
     :cond_0
     iget-object v1, p0, Lcom/commsource/studio/sticker/m;->a:Lcom/commsource/beautyplus/f0/km;
 
@@ -943,13 +876,10 @@
 
     const/4 v1, 0x1
 
-    .line 4
     iput-boolean v1, p0, Lcom/commsource/studio/sticker/m;->k:Z
 
-    .line 5
     invoke-direct {p0}, Lcom/commsource/studio/sticker/m;->l()V
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -962,7 +892,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/sticker/m;->q:Landroidx/databinding/ViewStubProxy;
 
     invoke-static {v1}, Lcom/commsource/camera/mvp/helper/e;->d(Landroidx/databinding/ViewStubProxy;)Z
@@ -985,7 +914,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/sticker/m;->o:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1004,7 +932,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/sticker/m;->l:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1027,7 +954,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/sticker/m;->a:Lcom/commsource/beautyplus/f0/km;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1054,7 +980,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/sticker/m;->p:Lcotlin/jvm/u/a;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1077,7 +1002,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/sticker/m;->j:Landroid/graphics/Point;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1096,7 +1020,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/sticker/m;->n:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1115,7 +1038,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/sticker/m;->m:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1130,12 +1052,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/sticker/m;->q:Landroidx/databinding/ViewStubProxy;
 
     invoke-static {v1}, Lcom/commsource/camera/mvp/helper/e;->c(Landroidx/databinding/ViewStubProxy;)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/sticker/m;->q:Landroidx/databinding/ViewStubProxy;
 
     invoke-virtual {v1}, Landroidx/databinding/ViewStubProxy;->getBinding()Landroidx/databinding/ViewDataBinding;
@@ -1146,7 +1066,6 @@
 
     if-eqz v1, :cond_0
 
-    .line 3
     check-cast v1, Lcom/commsource/beautyplus/f0/km;
 
     iput-object v1, p0, Lcom/commsource/studio/sticker/m;->a:Lcom/commsource/beautyplus/f0/km;
@@ -1168,16 +1087,12 @@
     :goto_0
     const/4 v1, 0x0
 
-    .line 4
     iput-boolean v1, p0, Lcom/commsource/studio/sticker/m;->k:Z
 
-    .line 5
     invoke-direct {p0}, Lcom/commsource/studio/sticker/m;->m()V
 
-    .line 6
     invoke-direct {p0}, Lcom/commsource/studio/sticker/m;->w()V
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

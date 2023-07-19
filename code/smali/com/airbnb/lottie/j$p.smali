@@ -27,7 +27,6 @@
 .method constructor <init>(Lcom/airbnb/lottie/j;Ljava/lang/String;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/airbnb/lottie/j$p;->b:Lcom/airbnb/lottie/j;
 
     iput-object p2, p0, Lcom/airbnb/lottie/j$p;->a:Ljava/lang/String;
@@ -42,7 +41,6 @@
 .method public a(Lcom/airbnb/lottie/g;)V
     .locals 1
 
-    .line 1
     iget-object p1, p0, Lcom/airbnb/lottie/j$p;->b:Lcom/airbnb/lottie/j;
 
     iget-object v0, p0, Lcom/airbnb/lottie/j$p;->a:Ljava/lang/String;

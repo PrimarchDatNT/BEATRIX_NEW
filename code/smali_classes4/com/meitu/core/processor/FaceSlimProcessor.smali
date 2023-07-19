@@ -23,7 +23,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/meitu/core/NativeBaseClass;-><init>()V
 
     return-void
@@ -56,7 +55,6 @@
 
     move v3, p2
 
-    .line 20
     invoke-static/range {v1 .. v10}, Lcom/meitu/core/processor/FaceSlimProcessor;->autoSlimFace(Landroid/graphics/Bitmap;Lcom/meitu/core/face/InterPoint;FFFFFFFF)Z
 
     move-result p0
@@ -77,19 +75,16 @@
 
     if-nez p0, :cond_0
 
-    .line 28
     sget-object v1, Lcom/meitu/core/types/NDebug;->TAG:Ljava/lang/String;
 
     const-string v2, "effectcore autoSlimFace bitmap is null."
 
     invoke-static {v1, v2}, Lcom/meitu/core/types/NDebug;->i(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 29
     invoke-static {v11}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v0
 
-    .line 30
     :cond_0
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
@@ -99,7 +94,6 @@
 
     if-eqz p1, :cond_1
 
-    .line 31
     invoke-virtual {p1}, Lcom/meitu/core/face/InterPoint;->nativeInstance()J
 
     move-result-wide v1
@@ -126,13 +120,11 @@
 
     move-result v0
 
-    .line 32
     :cond_1
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v1
 
-    .line 33
     sget-object v3, Lcom/meitu/core/types/NDebug;->TAG:Ljava/lang/String;
 
     new-instance v4, Ljava/lang/StringBuilder;
@@ -177,7 +169,6 @@
 
     invoke-static {v3, v1}, Lcom/meitu/core/types/NDebug;->i(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 34
     invoke-static {v11}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v0
@@ -194,7 +185,6 @@
 
     const/4 p0, 0x0
 
-    .line 10
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p0
@@ -202,49 +192,42 @@
     :cond_0
     const-string v1, "powerOut"
 
-    .line 11
     invoke-virtual {p2, v1}, Lcom/meitu/core/parse/MteDict;->floatValueForKey(Ljava/lang/String;)F
 
     move-result v5
 
     const-string v1, "powerMiddle"
 
-    .line 12
     invoke-virtual {p2, v1}, Lcom/meitu/core/parse/MteDict;->floatValueForKey(Ljava/lang/String;)F
 
     move-result v6
 
     const-string v1, "powerInner"
 
-    .line 13
     invoke-virtual {p2, v1}, Lcom/meitu/core/parse/MteDict;->floatValueForKey(Ljava/lang/String;)F
 
     move-result v7
 
     const-string v1, "f6886"
 
-    .line 14
     invoke-virtual {p2, v1}, Lcom/meitu/core/parse/MteDict;->floatValueForKey(Ljava/lang/String;)F
 
     move-result v8
 
     const-string v1, "f7084"
 
-    .line 15
     invoke-virtual {p2, v1}, Lcom/meitu/core/parse/MteDict;->floatValueForKey(Ljava/lang/String;)F
 
     move-result v9
 
     const-string v1, "f7381"
 
-    .line 16
     invoke-virtual {p2, v1}, Lcom/meitu/core/parse/MteDict;->floatValueForKey(Ljava/lang/String;)F
 
     move-result v10
 
     const-string v1, "f77"
 
-    .line 17
     invoke-virtual {p2, v1}, Lcom/meitu/core/parse/MteDict;->floatValueForKey(Ljava/lang/String;)F
 
     move-result v11
@@ -255,7 +238,6 @@
 
     move v4, p3
 
-    .line 18
     invoke-static/range {v2 .. v11}, Lcom/meitu/core/processor/FaceSlimProcessor;->autoSlimFace(Landroid/graphics/Bitmap;Lcom/meitu/core/face/InterPoint;FFFFFFFF)Z
 
     move-result p0
@@ -292,7 +274,6 @@
 
     move v3, p2
 
-    .line 19
     invoke-static/range {v1 .. v10}, Lcom/meitu/core/processor/FaceSlimProcessor;->autoSlimFace(Lcom/meitu/core/types/NativeBitmap;Lcom/meitu/core/face/InterPoint;FFFFFFFF)Z
 
     move-result p0
@@ -313,19 +294,16 @@
 
     if-nez p0, :cond_0
 
-    .line 21
     sget-object v2, Lcom/meitu/core/types/NDebug;->TAG:Ljava/lang/String;
 
     const-string v3, "effectcore autoSlimFace bitmap is null."
 
     invoke-static {v2, v3}, Lcom/meitu/core/types/NDebug;->i(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 22
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
 
-    .line 23
     :cond_0
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
@@ -335,7 +313,6 @@
 
     if-eqz p1, :cond_1
 
-    .line 24
     invoke-virtual/range {p0 .. p0}, Lcom/meitu/core/types/NativeBitmap;->nativeInstance()J
 
     move-result-wide v4
@@ -364,13 +341,11 @@
 
     move-result v1
 
-    .line 25
     :cond_1
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v4
 
-    .line 26
     sget-object v6, Lcom/meitu/core/types/NDebug;->TAG:Ljava/lang/String;
 
     new-instance v7, Ljava/lang/StringBuilder;
@@ -415,7 +390,6 @@
 
     invoke-static {v6, v2}, Lcom/meitu/core/types/NDebug;->i(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 27
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
@@ -432,7 +406,6 @@
 
     const/4 p0, 0x0
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p0
@@ -440,49 +413,42 @@
     :cond_0
     const-string v1, "powerOut"
 
-    .line 2
     invoke-virtual {p2, v1}, Lcom/meitu/core/parse/MteDict;->floatValueForKey(Ljava/lang/String;)F
 
     move-result v5
 
     const-string v1, "powerMiddle"
 
-    .line 3
     invoke-virtual {p2, v1}, Lcom/meitu/core/parse/MteDict;->floatValueForKey(Ljava/lang/String;)F
 
     move-result v6
 
     const-string v1, "powerInner"
 
-    .line 4
     invoke-virtual {p2, v1}, Lcom/meitu/core/parse/MteDict;->floatValueForKey(Ljava/lang/String;)F
 
     move-result v7
 
     const-string v1, "f6886"
 
-    .line 5
     invoke-virtual {p2, v1}, Lcom/meitu/core/parse/MteDict;->floatValueForKey(Ljava/lang/String;)F
 
     move-result v8
 
     const-string v1, "f7084"
 
-    .line 6
     invoke-virtual {p2, v1}, Lcom/meitu/core/parse/MteDict;->floatValueForKey(Ljava/lang/String;)F
 
     move-result v9
 
     const-string v1, "f7381"
 
-    .line 7
     invoke-virtual {p2, v1}, Lcom/meitu/core/parse/MteDict;->floatValueForKey(Ljava/lang/String;)F
 
     move-result v10
 
     const-string v1, "f77"
 
-    .line 8
     invoke-virtual {p2, v1}, Lcom/meitu/core/parse/MteDict;->floatValueForKey(Ljava/lang/String;)F
 
     move-result v11
@@ -493,7 +459,6 @@
 
     move v4, p3
 
-    .line 9
     invoke-static/range {v2 .. v11}, Lcom/meitu/core/processor/FaceSlimProcessor;->autoSlimFace(Lcom/meitu/core/types/NativeBitmap;Lcom/meitu/core/face/InterPoint;FFFFFFFF)Z
 
     move-result p0
@@ -529,19 +494,16 @@
 
     if-nez p0, :cond_0
 
-    .line 11
     sget-object v0, Lcom/meitu/core/types/NDebug;->TAG:Ljava/lang/String;
 
     const-string v1, "effectcore renderProc bitmap is null."
 
     invoke-static {v0, v1}, Lcom/meitu/core/types/NDebug;->i(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 12
     invoke-static {v7}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v2
 
-    .line 13
     :cond_0
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
@@ -558,14 +520,12 @@
     :cond_1
     const/high16 v2, 0x3f800000    # 1.0f
 
-    .line 14
     iget v3, p2, Landroid/graphics/PointF;->x:F
 
     iget v4, p1, Landroid/graphics/PointF;->x:F
 
     sub-float/2addr v3, v4
 
-    .line 15
     iget v1, p2, Landroid/graphics/PointF;->y:F
 
     iget v5, p1, Landroid/graphics/PointF;->y:F
@@ -637,17 +597,14 @@
 
     move v6, p4
 
-    .line 16
     invoke-static/range {v0 .. v6}, Lcom/meitu/core/processor/FaceSlimProcessor;->nativeSlimFace_bitmap(Landroid/graphics/Bitmap;FFFFFF)Z
 
     move-result v0
 
-    .line 17
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v1
 
-    .line 18
     sget-object v3, Lcom/meitu/core/types/NDebug;->TAG:Ljava/lang/String;
 
     new-instance v4, Ljava/lang/StringBuilder;
@@ -692,12 +649,10 @@
 
     invoke-static {v3, v1}, Lcom/meitu/core/types/NDebug;->i(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 19
     invoke-static {v7}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v0
 
-    .line 20
     :cond_6
     :goto_3
     invoke-static {v7}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -720,19 +675,16 @@
 
     if-nez p0, :cond_0
 
-    .line 1
     sget-object v0, Lcom/meitu/core/types/NDebug;->TAG:Ljava/lang/String;
 
     const-string v1, "effectcore renderProc bitmap is null."
 
     invoke-static {v0, v1}, Lcom/meitu/core/types/NDebug;->i(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 2
     invoke-static {v2}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v3
 
-    .line 3
     :cond_0
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
@@ -749,14 +701,12 @@
     :cond_1
     const/high16 v3, 0x3f800000    # 1.0f
 
-    .line 4
     iget v6, v1, Landroid/graphics/PointF;->x:F
 
     iget v7, v0, Landroid/graphics/PointF;->x:F
 
     sub-float/2addr v6, v7
 
-    .line 5
     iget v1, v1, Landroid/graphics/PointF;->y:F
 
     iget v8, v0, Landroid/graphics/PointF;->y:F
@@ -816,7 +766,6 @@
 
     add-float v14, v8, v1
 
-    .line 6
     invoke-virtual/range {p0 .. p0}, Lcom/meitu/core/types/NativeBitmap;->nativeInstance()J
 
     move-result-wide v9
@@ -833,12 +782,10 @@
 
     move-result v0
 
-    .line 7
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v6
 
-    .line 8
     sget-object v1, Lcom/meitu/core/types/NDebug;->TAG:Ljava/lang/String;
 
     new-instance v3, Ljava/lang/StringBuilder;
@@ -883,12 +830,10 @@
 
     invoke-static {v1, v3}, Lcom/meitu/core/types/NDebug;->i(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 9
     invoke-static {v2}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v0
 
-    .line 10
     :cond_6
     :goto_3
     invoke-static {v2}, Lcom/meitu/library/appcia/h/a;->a(I)V

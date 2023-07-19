@@ -25,10 +25,8 @@
 .method private constructor <init>(Lcom/google/firebase/auth/FirebaseAuth;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/google/firebase/auth/PhoneAuthProvider;->a:Lcom/google/firebase/auth/FirebaseAuth;
 
     return-void
@@ -45,7 +43,6 @@
         .end annotation
     .end param
 
-    .line 1
     new-instance v7, Lcom/google/firebase/auth/PhoneAuthCredential;
 
     const/4 v3, 0x0
@@ -70,7 +67,6 @@
 .method public static b()Lcom/google/firebase/auth/PhoneAuthProvider;
     .locals 2
 
-    .line 1
     new-instance v0, Lcom/google/firebase/auth/PhoneAuthProvider;
 
     invoke-static {}, Lcom/google/firebase/d;->n()Lcom/google/firebase/d;
@@ -89,7 +85,6 @@
 .method public static c(Lcom/google/firebase/auth/FirebaseAuth;)Lcom/google/firebase/auth/PhoneAuthProvider;
     .locals 1
 
-    .line 1
     new-instance v0, Lcom/google/firebase/auth/PhoneAuthProvider;
 
     invoke-direct {v0, p0}, Lcom/google/firebase/auth/PhoneAuthProvider;-><init>(Lcom/google/firebase/auth/FirebaseAuth;)V
@@ -102,7 +97,6 @@
 
     move-object v0, p0
 
-    .line 1
     iget-object v1, v0, Lcom/google/firebase/auth/PhoneAuthProvider;->a:Lcom/google/firebase/auth/FirebaseAuth;
 
     if-eqz p8, :cond_0
@@ -153,12 +147,10 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-static {p1}, Lcom/google/android/gms/common/internal/b0;->g(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v1
 
-    .line 2
     invoke-static {p5}, Lcom/google/android/gms/common/internal/b0;->k(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -169,7 +161,6 @@
 
     sget-object v6, Lcom/google/android/gms/tasks/m;->a:Ljava/util/concurrent/Executor;
 
-    .line 3
     invoke-static {p6}, Lcom/google/android/gms/common/internal/b0;->k(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -186,7 +177,6 @@
 
     move-object v4, p4
 
-    .line 4
     invoke-direct/range {v0 .. v8}, Lcom/google/firebase/auth/PhoneAuthProvider;->h(Ljava/lang/String;JLjava/util/concurrent/TimeUnit;Landroid/app/Activity;Ljava/util/concurrent/Executor;Lcom/google/firebase/auth/PhoneAuthProvider$a;Lcom/google/firebase/auth/PhoneAuthProvider$ForceResendingToken;)V
 
     return-void
@@ -211,12 +201,10 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-static {p1}, Lcom/google/android/gms/common/internal/b0;->g(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v1
 
-    .line 2
     invoke-static {p5}, Lcom/google/android/gms/common/internal/b0;->k(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v0
@@ -227,7 +215,6 @@
 
     sget-object v6, Lcom/google/android/gms/tasks/m;->a:Ljava/util/concurrent/Executor;
 
-    .line 3
     invoke-static {p6}, Lcom/google/android/gms/common/internal/b0;->k(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v0
@@ -244,7 +231,6 @@
 
     move-object/from16 v8, p7
 
-    .line 4
     invoke-direct/range {v0 .. v8}, Lcom/google/firebase/auth/PhoneAuthProvider;->h(Ljava/lang/String;JLjava/util/concurrent/TimeUnit;Landroid/app/Activity;Ljava/util/concurrent/Executor;Lcom/google/firebase/auth/PhoneAuthProvider$a;Lcom/google/firebase/auth/PhoneAuthProvider$ForceResendingToken;)V
 
     return-void
@@ -265,12 +251,10 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-static {p1}, Lcom/google/android/gms/common/internal/b0;->g(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v1
 
-    .line 2
     invoke-static {p5}, Lcom/google/android/gms/common/internal/b0;->k(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -279,7 +263,6 @@
 
     check-cast v6, Ljava/util/concurrent/Executor;
 
-    .line 3
     invoke-static {p6}, Lcom/google/android/gms/common/internal/b0;->k(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -298,7 +281,6 @@
 
     move-object v4, p4
 
-    .line 4
     invoke-direct/range {v0 .. v8}, Lcom/google/firebase/auth/PhoneAuthProvider;->h(Ljava/lang/String;JLjava/util/concurrent/TimeUnit;Landroid/app/Activity;Ljava/util/concurrent/Executor;Lcom/google/firebase/auth/PhoneAuthProvider$a;Lcom/google/firebase/auth/PhoneAuthProvider$ForceResendingToken;)V
 
     return-void
@@ -323,12 +305,10 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-static {p1}, Lcom/google/android/gms/common/internal/b0;->g(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v1
 
-    .line 2
     invoke-static {p5}, Lcom/google/android/gms/common/internal/b0;->k(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v0
@@ -337,7 +317,6 @@
 
     check-cast v6, Ljava/util/concurrent/Executor;
 
-    .line 3
     invoke-static {p6}, Lcom/google/android/gms/common/internal/b0;->k(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v0
@@ -356,7 +335,6 @@
 
     move-object/from16 v8, p7
 
-    .line 4
     invoke-direct/range {v0 .. v8}, Lcom/google/firebase/auth/PhoneAuthProvider;->h(Ljava/lang/String;JLjava/util/concurrent/TimeUnit;Landroid/app/Activity;Ljava/util/concurrent/Executor;Lcom/google/firebase/auth/PhoneAuthProvider$a;Lcom/google/firebase/auth/PhoneAuthProvider$ForceResendingToken;)V
 
     return-void

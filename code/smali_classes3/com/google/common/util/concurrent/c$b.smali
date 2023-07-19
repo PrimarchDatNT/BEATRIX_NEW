@@ -22,7 +22,6 @@
 .method private constructor <init>(Lcom/google/common/util/concurrent/c;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/common/util/concurrent/c$b;->p:Lcom/google/common/util/concurrent/c;
 
     invoke-direct {p0}, Lcom/google/common/util/concurrent/f;-><init>()V
@@ -33,7 +32,6 @@
 .method synthetic constructor <init>(Lcom/google/common/util/concurrent/c;Lcom/google/common/util/concurrent/c$a;)V
     .locals 0
 
-    .line 2
     invoke-direct {p0, p1}, Lcom/google/common/util/concurrent/c$b;-><init>(Lcom/google/common/util/concurrent/c;)V
 
     return-void
@@ -44,7 +42,6 @@
 .method protected final n()V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/util/concurrent/c$b;->p:Lcom/google/common/util/concurrent/c;
 
     invoke-virtual {v0}, Lcom/google/common/util/concurrent/c;->k()Ljava/util/concurrent/Executor;
@@ -65,7 +62,6 @@
 
     invoke-direct {v1, p0}, Lcom/google/common/util/concurrent/c$b$a;-><init>(Lcom/google/common/util/concurrent/c$b;)V
 
-    .line 2
     invoke-interface {v0, v1}, Ljava/util/concurrent/Executor;->execute(Ljava/lang/Runnable;)V
 
     return-void
@@ -74,7 +70,6 @@
 .method protected final o()V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/util/concurrent/c$b;->p:Lcom/google/common/util/concurrent/c;
 
     invoke-virtual {v0}, Lcom/google/common/util/concurrent/c;->k()Ljava/util/concurrent/Executor;
@@ -95,7 +90,6 @@
 
     invoke-direct {v1, p0}, Lcom/google/common/util/concurrent/c$b$b;-><init>(Lcom/google/common/util/concurrent/c$b;)V
 
-    .line 2
     invoke-interface {v0, v1}, Ljava/util/concurrent/Executor;->execute(Ljava/lang/Runnable;)V
 
     return-void
@@ -104,7 +98,6 @@
 .method public toString()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/util/concurrent/c$b;->p:Lcom/google/common/util/concurrent/c;
 
     invoke-virtual {v0}, Lcom/google/common/util/concurrent/c;->toString()Ljava/lang/String;

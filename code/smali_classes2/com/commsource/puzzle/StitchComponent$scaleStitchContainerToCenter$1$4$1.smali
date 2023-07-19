@@ -54,7 +54,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Lcom/meitu/common/animutil/c;
 
     invoke-virtual {p0, p1}, Lcom/commsource/puzzle/StitchComponent$scaleStitchContainerToCenter$1$4$1;->invoke(Lcom/meitu/common/animutil/c;)V
@@ -81,7 +80,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 2
     new-instance v1, Lcom/commsource/puzzle/StitchComponent$scaleStitchContainerToCenter$1$4$1$1;
 
     invoke-direct {v1, p0}, Lcom/commsource/puzzle/StitchComponent$scaleStitchContainerToCenter$1$4$1$1;-><init>(Lcom/commsource/puzzle/StitchComponent$scaleStitchContainerToCenter$1$4$1;)V
@@ -90,7 +88,6 @@
 
     move-result-object v1
 
-    .line 3
     new-instance v2, Lcom/commsource/puzzle/StitchComponent$scaleStitchContainerToCenter$1$4$1$2;
 
     invoke-direct {v2, p0}, Lcom/commsource/puzzle/StitchComponent$scaleStitchContainerToCenter$1$4$1$2;-><init>(Lcom/commsource/puzzle/StitchComponent$scaleStitchContainerToCenter$1$4$1;)V
@@ -103,17 +100,14 @@
 
     const-wide/16 v1, 0x64
 
-    .line 4
     invoke-virtual {p1, v1, v2}, Lcom/meitu/common/animutil/a;->q(J)V
 
-    .line 5
     new-instance v1, Lcom/commsource/puzzle/StitchComponent$scaleStitchContainerToCenter$1$4$1$3;
 
     invoke-direct {v1, p0}, Lcom/commsource/puzzle/StitchComponent$scaleStitchContainerToCenter$1$4$1$3;-><init>(Lcom/commsource/puzzle/StitchComponent$scaleStitchContainerToCenter$1$4$1;)V
 
     invoke-virtual {p1, v1}, Lcom/meitu/common/animutil/a;->t(Lcotlin/jvm/u/l;)V
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

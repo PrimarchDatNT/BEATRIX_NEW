@@ -55,7 +55,6 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     iput-object p1, p0, Lcotlinx/coroutines/t3/c;->c:Ljava/lang/Runnable;
@@ -100,7 +99,6 @@
 
     move-object v3, p1
 
-    .line 2
     invoke-direct/range {v2 .. v7}, Lcotlinx/coroutines/t3/c;-><init>(Ljava/lang/Runnable;JJ)V
 
     return-void
@@ -111,7 +109,6 @@
 .method public a()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lcotlinx/coroutines/t3/c;->b:I
 
     return v0
@@ -120,7 +117,6 @@
 .method public bridge synthetic compareTo(Ljava/lang/Object;)I
     .locals 0
 
-    .line 1
     check-cast p1, Lcotlinx/coroutines/t3/c;
 
     invoke-virtual {p0, p1}, Lcotlinx/coroutines/t3/c;->h(Lcotlinx/coroutines/t3/c;)I
@@ -144,7 +140,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcotlinx/coroutines/t3/c;->a:Lcotlinx/coroutines/internal/k0;
 
     return-void
@@ -157,7 +152,6 @@
         .end annotation
     .end param
 
-    .line 1
     iget-wide v0, p0, Lcotlinx/coroutines/t3/c;->f:J
 
     iget-wide v2, p1, Lcotlinx/coroutines/t3/c;->f:J
@@ -166,7 +160,6 @@
 
     if-nez v4, :cond_0
 
-    .line 2
     iget-wide v0, p0, Lcotlinx/coroutines/t3/c;->d:J
 
     iget-wide v2, p1, Lcotlinx/coroutines/t3/c;->d:J
@@ -190,7 +183,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcotlinx/coroutines/t3/c;->a:Lcotlinx/coroutines/internal/k0;
 
     return-object v0
@@ -199,7 +191,6 @@
 .method public run()V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcotlinx/coroutines/t3/c;->c:Ljava/lang/Runnable;
 
     invoke-interface {v0}, Ljava/lang/Runnable;->run()V
@@ -210,7 +201,6 @@
 .method public setIndex(I)V
     .locals 0
 
-    .line 1
     iput p1, p0, Lcotlinx/coroutines/t3/c;->b:I
 
     return-void
@@ -221,7 +211,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V

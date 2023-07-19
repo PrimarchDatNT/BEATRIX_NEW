@@ -22,7 +22,6 @@
 .method constructor <init>(Lcom/scwang/smartrefresh/layout/SmartRefreshLayout$m;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/scwang/smartrefresh/layout/SmartRefreshLayout$m$a;->a:Lcom/scwang/smartrefresh/layout/SmartRefreshLayout$m;
 
     invoke-direct {p0}, Landroid/animation/AnimatorListenerAdapter;-><init>()V
@@ -35,7 +34,6 @@
 .method public onAnimationEnd(Landroid/animation/Animator;)V
     .locals 1
 
-    .line 1
     iget-object p1, p0, Lcom/scwang/smartrefresh/layout/SmartRefreshLayout$m$a;->a:Lcom/scwang/smartrefresh/layout/SmartRefreshLayout$m;
 
     iget-object p1, p1, Lcom/scwang/smartrefresh/layout/SmartRefreshLayout$m;->a:Lcom/scwang/smartrefresh/layout/SmartRefreshLayout;

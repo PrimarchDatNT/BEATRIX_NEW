@@ -42,7 +42,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/layer/DeFocusLayer$onStopSingleFinger$$inlined$let$lambda$2$a;->a:Lcom/commsource/studio/layer/DeFocusLayer$onStopSingleFinger$$inlined$let$lambda$2;
 
     iget-object v1, v1, Lcom/commsource/studio/layer/DeFocusLayer$onStopSingleFinger$$inlined$let$lambda$2;->this$0:Lcom/commsource/studio/layer/DeFocusLayer;
@@ -57,12 +56,10 @@
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 3
     :cond_0
     iget-object v1, p0, Lcom/commsource/studio/layer/DeFocusLayer$onStopSingleFinger$$inlined$let$lambda$2$a;->a:Lcom/commsource/studio/layer/DeFocusLayer$onStopSingleFinger$$inlined$let$lambda$2;
 
@@ -72,7 +69,6 @@
 
     invoke-static {v2, v1}, Lcom/commsource/studio/layer/DeFocusLayer;->I0(Lcom/commsource/studio/layer/DeFocusLayer;Landroid/graphics/Bitmap;)V
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/studio/layer/DeFocusLayer$onStopSingleFinger$$inlined$let$lambda$2$a;->a:Lcom/commsource/studio/layer/DeFocusLayer$onStopSingleFinger$$inlined$let$lambda$2;
 
     iget-object v1, v1, Lcom/commsource/studio/layer/DeFocusLayer$onStopSingleFinger$$inlined$let$lambda$2;->this$0:Lcom/commsource/studio/layer/DeFocusLayer;
@@ -83,14 +79,12 @@
 
     invoke-virtual {v1}, Landroid/view/View;->postInvalidate()V
 
-    .line 5
     iget-object v1, p0, Lcom/commsource/studio/layer/DeFocusLayer$onStopSingleFinger$$inlined$let$lambda$2$a;->a:Lcom/commsource/studio/layer/DeFocusLayer$onStopSingleFinger$$inlined$let$lambda$2;
 
     iget-object v1, v1, Lcom/commsource/studio/layer/DeFocusLayer$onStopSingleFinger$$inlined$let$lambda$2;->this$0:Lcom/commsource/studio/layer/DeFocusLayer;
 
     invoke-virtual {v1}, Lcom/commsource/studio/layer/DeFocusLayer;->Y0()V
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

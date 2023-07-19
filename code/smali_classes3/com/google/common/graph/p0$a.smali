@@ -31,7 +31,6 @@
 .method constructor <init>(Lcom/google/common/graph/p0;Ljava/util/Map;Ljava/lang/Object;Ljava/lang/Object;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/common/graph/p0$a;->d:Lcom/google/common/graph/p0;
 
     iput-object p4, p0, Lcom/google/common/graph/p0$a;->c:Ljava/lang/Object;
@@ -46,7 +45,6 @@
 .method public size()I
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/graph/p0$a;->d:Lcom/google/common/graph/p0;
 
     invoke-static {v0}, Lcom/google/common/graph/p0;->m(Lcom/google/common/graph/p0;)Lcom/google/common/collect/m1;

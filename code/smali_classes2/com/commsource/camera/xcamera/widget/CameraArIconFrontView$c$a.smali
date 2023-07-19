@@ -28,7 +28,6 @@
 
     iput-object p1, p0, Lcom/commsource/camera/xcamera/widget/CameraArIconFrontView$c$a;->a:Lcom/commsource/camera/xcamera/widget/CameraArIconFrontView$c;
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -51,7 +50,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -80,7 +78,6 @@
 
     invoke-static {p2, p1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object p1, p0, Lcom/commsource/camera/xcamera/widget/CameraArIconFrontView$c$a;->a:Lcom/commsource/camera/xcamera/widget/CameraArIconFrontView$c;
 
     iget-object p1, p1, Lcom/commsource/camera/xcamera/widget/CameraArIconFrontView$c;->p:Lcom/commsource/camera/xcamera/widget/CameraArIconFrontView;
@@ -93,17 +90,14 @@
 
     invoke-direct {v1, p0, p2}, Lcom/commsource/camera/xcamera/widget/CameraArIconFrontView$c$a$a;-><init>(Lcom/commsource/camera/xcamera/widget/CameraArIconFrontView$c$a;Ljava/lang/Runnable;)V
 
-    .line 2
     invoke-static {}, Landroid/os/SystemClock;->uptimeMillis()J
 
     move-result-wide v2
 
     sub-long/2addr p3, v2
 
-    .line 3
     invoke-virtual {p1, v1, p3, p4}, Landroid/os/Handler;->postDelayed(Ljava/lang/Runnable;J)Z
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -132,7 +126,6 @@
 
     invoke-static {p2, p1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

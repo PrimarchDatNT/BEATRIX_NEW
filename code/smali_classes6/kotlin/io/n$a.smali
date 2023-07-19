@@ -46,7 +46,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcotlin/io/n$a;->c:Lcotlin/io/n;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -61,27 +60,22 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcotlin/io/n$a;->hasNext()Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
-    .line 2
     iget-object v0, p0, Lcotlin/io/n$a;->a:Ljava/lang/String;
 
     const/4 v1, 0x0
 
-    .line 3
     iput-object v1, p0, Lcotlin/io/n$a;->a:Ljava/lang/String;
 
-    .line 4
     invoke-static {v0}, Lcotlin/jvm/internal/f0;->m(Ljava/lang/Object;)V
 
     return-object v0
 
-    .line 5
     :cond_0
     new-instance v0, Ljava/util/NoSuchElementException;
 
@@ -93,7 +87,6 @@
 .method public hasNext()Z
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcotlin/io/n$a;->a:Ljava/lang/String;
 
     const/4 v1, 0x1
@@ -104,7 +97,6 @@
 
     if-nez v0, :cond_0
 
-    .line 2
     iget-object v0, p0, Lcotlin/io/n$a;->c:Lcotlin/io/n;
 
     invoke-static {v0}, Lcotlin/io/n;->c(Lcotlin/io/n;)Ljava/io/BufferedReader;
@@ -119,10 +111,8 @@
 
     if-nez v0, :cond_0
 
-    .line 3
     iput-boolean v1, p0, Lcotlin/io/n$a;->b:Z
 
-    .line 4
     :cond_0
     iget-object v0, p0, Lcotlin/io/n$a;->a:Ljava/lang/String;
 
@@ -140,7 +130,6 @@
 .method public bridge synthetic next()Ljava/lang/Object;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcotlin/io/n$a;->a()Ljava/lang/String;
 
     move-result-object v0

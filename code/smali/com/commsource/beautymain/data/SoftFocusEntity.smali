@@ -52,12 +52,10 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/4 v0, 0x0
 
-    .line 2
     iput v0, p0, Lcom/commsource/beautymain/data/SoftFocusEntity;->downloadState:I
 
     return-void
@@ -74,7 +72,6 @@
 
     packed-switch p0, :pswitch_data_0
 
-    .line 1
     :pswitch_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -83,7 +80,6 @@
     :pswitch_1
     const/16 p0, 0xc
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p0
@@ -91,7 +87,6 @@
     :pswitch_2
     const/4 p0, 0x7
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p0
@@ -99,7 +94,6 @@
     :pswitch_3
     const/4 p0, 0x4
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p0
@@ -107,12 +101,10 @@
     :pswitch_4
     const/4 p0, 0x6
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p0
 
-    .line 6
     :pswitch_5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -138,52 +130,42 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/commsource/beautymain/data/SoftFocusEntity;
 
     invoke-direct {v1}, Lcom/commsource/beautymain/data/SoftFocusEntity;-><init>()V
 
-    .line 2
     iget v2, p0, Lcom/commsource/beautymain/data/SoftFocusEntity;->mEffectId:I
 
     iput v2, v1, Lcom/commsource/beautymain/data/SoftFocusEntity;->mEffectId:I
 
-    .line 3
     iget v2, p0, Lcom/commsource/beautymain/data/SoftFocusEntity;->mEffectIntensity:I
 
     iput v2, v1, Lcom/commsource/beautymain/data/SoftFocusEntity;->mEffectIntensity:I
 
-    .line 4
     iget-object v2, p0, Lcom/commsource/beautymain/data/SoftFocusEntity;->mPreviewRes:Ljava/lang/String;
 
     iput-object v2, v1, Lcom/commsource/beautymain/data/SoftFocusEntity;->mPreviewRes:Ljava/lang/String;
 
-    .line 5
     iget-object v2, p0, Lcom/commsource/beautymain/data/SoftFocusEntity;->mStaticsId:Ljava/lang/String;
 
     iput-object v2, v1, Lcom/commsource/beautymain/data/SoftFocusEntity;->mStaticsId:Ljava/lang/String;
 
-    .line 6
     iget v2, p0, Lcom/commsource/beautymain/data/SoftFocusEntity;->mMaxIntensity:I
 
     iput v2, v1, Lcom/commsource/beautymain/data/SoftFocusEntity;->mMaxIntensity:I
 
-    .line 7
     iget v2, p0, Lcom/commsource/beautymain/data/SoftFocusEntity;->mMinIntensity:I
 
     iput v2, v1, Lcom/commsource/beautymain/data/SoftFocusEntity;->mMinIntensity:I
 
-    .line 8
     iget-object v2, p0, Lcom/commsource/beautymain/data/SoftFocusEntity;->Kernel:Ljava/lang/String;
 
     iput-object v2, v1, Lcom/commsource/beautymain/data/SoftFocusEntity;->Kernel:Ljava/lang/String;
 
-    .line 9
     iget v2, p0, Lcom/commsource/beautymain/data/SoftFocusEntity;->gamma:I
 
     iput v2, v1, Lcom/commsource/beautymain/data/SoftFocusEntity;->gamma:I
 
-    .line 10
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
@@ -196,7 +178,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/beautymain/data/SoftFocusEntity;->downloadProgress:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -211,7 +192,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/beautymain/data/SoftFocusEntity;->downloadState:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -226,7 +206,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
     move-result-object v1
@@ -235,18 +214,15 @@
 
     if-nez v1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v2
 
-    .line 3
     :cond_0
     iget v3, p0, Lcom/commsource/beautymain/data/SoftFocusEntity;->mEffectId:I
 
     packed-switch v3, :pswitch_data_0
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v2
@@ -254,7 +230,6 @@
     :pswitch_0
     sget v2, Lcom/res/provider/ResSTRING;->beauty_defocus_mosaic:I
 
-    .line 5
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
     move-result-object v1
@@ -266,7 +241,6 @@
     :pswitch_1
     sget v2, Lcom/res/provider/ResSTRING;->beauty_defocus_radial:I
 
-    .line 6
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
     move-result-object v1
@@ -278,7 +252,6 @@
     :pswitch_2
     sget v2, Lcom/res/provider/ResSTRING;->beauty_defocus_soft_focus:I
 
-    .line 7
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
     move-result-object v1
@@ -290,7 +263,6 @@
     :pswitch_3
     sget v2, Lcom/res/provider/ResSTRING;->beauty_defocus_drop:I
 
-    .line 8
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
     move-result-object v1
@@ -302,7 +274,6 @@
     :pswitch_4
     sget v2, Lcom/res/provider/ResSTRING;->beauty_defocus_heart:I
 
-    .line 9
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
     move-result-object v1
@@ -314,7 +285,6 @@
     :pswitch_5
     sget v2, Lcom/res/provider/ResSTRING;->beauty_defocus_hexagon:I
 
-    .line 10
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
     move-result-object v1
@@ -326,7 +296,6 @@
     :pswitch_6
     sget v2, Lcom/res/provider/ResSTRING;->beauty_defocus_swirl:I
 
-    .line 11
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
     move-result-object v1
@@ -338,7 +307,6 @@
     :pswitch_7
     sget v2, Lcom/res/provider/ResSTRING;->beauty_defocus_dynamic:I
 
-    .line 12
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
     move-result-object v1
@@ -350,7 +318,6 @@
     :pswitch_8
     sget v2, Lcom/res/provider/ResSTRING;->beauty_defocus_flare:I
 
-    .line 13
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
     move-result-object v1
@@ -382,14 +349,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/beautymain/data/SoftFocusEntity;->mEffectId:I
 
     const/16 v2, 0x67
 
     if-ne v1, v2, :cond_0
 
-    .line 2
     invoke-static {}, Lcom/commsource/material/ImageSegmentExecutor;->z()Ljava/lang/String;
 
     move-result-object v1
@@ -398,7 +363,6 @@
 
     return-object v1
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -414,7 +378,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const-string/jumbo v0, "style/defocus"
@@ -429,7 +392,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
     move-result-object v1
@@ -438,23 +400,19 @@
 
     if-nez v1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v2
 
-    .line 3
     :cond_0
     iget v1, p0, Lcom/commsource/beautymain/data/SoftFocusEntity;->mEffectId:I
 
     packed-switch v1, :pswitch_data_0
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v2
 
-    .line 5
     :pswitch_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -462,7 +420,6 @@
 
     return-object v0
 
-    .line 6
     :pswitch_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -470,7 +427,6 @@
 
     return-object v0
 
-    .line 7
     :pswitch_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -478,7 +434,6 @@
 
     return-object v0
 
-    .line 8
     :pswitch_3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -486,7 +441,6 @@
 
     return-object v0
 
-    .line 9
     :pswitch_4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -494,7 +448,6 @@
 
     return-object v0
 
-    .line 10
     :pswitch_5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -502,7 +455,6 @@
 
     return-object v0
 
-    .line 11
     :pswitch_6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -510,7 +462,6 @@
 
     return-object v0
 
-    .line 12
     :pswitch_7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -518,7 +469,6 @@
 
     return-object v0
 
-    .line 13
     :pswitch_8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -549,10 +499,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/beautymain/data/SoftFocusEntity;->downloadProgress:I
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -565,10 +513,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/beautymain/data/SoftFocusEntity;->downloadState:I
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

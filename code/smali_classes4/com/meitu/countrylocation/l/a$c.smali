@@ -35,15 +35,12 @@
 .method private constructor <init>()V
     .locals 2
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/4 v0, 0x0
 
-    .line 2
     iput-boolean v0, p0, Lcom/meitu/countrylocation/l/a$c;->a:Z
 
-    .line 3
     new-instance v0, Ljava/util/concurrent/LinkedBlockingQueue;
 
     const/4 v1, 0x1
@@ -58,7 +55,6 @@
 .method synthetic constructor <init>(Lcom/meitu/countrylocation/l/a$a;)V
     .locals 0
 
-    .line 4
     invoke-direct {p0}, Lcom/meitu/countrylocation/l/a$c;-><init>()V
 
     return-void
@@ -78,17 +74,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/meitu/countrylocation/l/a$c;->a:Z
 
     if-nez v1, :cond_0
 
     const/4 v1, 0x1
 
-    .line 2
     iput-boolean v1, p0, Lcom/meitu/countrylocation/l/a$c;->a:Z
 
-    .line 3
     iget-object v1, p0, Lcom/meitu/countrylocation/l/a$c;->b:Ljava/util/concurrent/LinkedBlockingQueue;
 
     invoke-virtual {v1}, Ljava/util/concurrent/LinkedBlockingQueue;->take()Ljava/lang/Object;
@@ -101,7 +94,6 @@
 
     return-object v1
 
-    .line 4
     :cond_0
     new-instance v1, Ljava/lang/IllegalStateException;
 
@@ -119,7 +111,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     :try_start_0
     iget-object v0, p0, Lcom/meitu/countrylocation/l/a$c;->b:Ljava/util/concurrent/LinkedBlockingQueue;
 
@@ -127,7 +118,6 @@
     :try_end_0
     .catch Ljava/lang/InterruptedException; {:try_start_0 .. :try_end_0} :catch_0
 
-    .line 2
     :catch_0
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -141,7 +131,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

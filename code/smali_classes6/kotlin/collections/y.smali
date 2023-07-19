@@ -34,7 +34,6 @@
 
     invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-interface {p0, p1}, Ljava/util/Collection;->add(Ljava/lang/Object;)Z
 
     return-void
@@ -61,7 +60,6 @@
 
     invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-static {p0, p1}, Lcotlin/collections/s;->r0(Ljava/util/Collection;Lcotlin/sequences/m;)Z
 
     return-void
@@ -86,7 +84,6 @@
 
     invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-static {p0, p1}, Lcotlin/collections/y;->s0(Ljava/util/Collection;[Ljava/lang/Object;)Z
 
     return-void
@@ -116,7 +113,6 @@
     .annotation build Lcotlin/internal/f;
     .end annotation
 
-    .line 1
     invoke-interface {p0, p1}, Ljava/util/List;->remove(I)Ljava/lang/Object;
 
     move-result-object p0
@@ -141,7 +137,6 @@
 
     const-string v0, "null cannot be cast to non-null type kotlin.collections.MutableCollection<T>"
 
-    .line 1
     invoke-static {p0, v0}, Ljava/util/Objects;->requireNonNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
 
     invoke-static {p0}, Lcotlin/jvm/internal/t0;->a(Ljava/lang/Object;)Ljava/util/Collection;
@@ -189,7 +184,6 @@
 
     const/4 v0, 0x1
 
-    .line 1
     invoke-static {p0, p1, v0}, Lcotlin/collections/y;->t0(Ljava/lang/Iterable;Lcotlin/jvm/u/l;Z)Z
 
     move-result p0
@@ -227,7 +221,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-static {p1, p0}, Lcotlin/collections/u;->b0(Ljava/lang/Iterable;Ljava/lang/Iterable;)Ljava/util/Collection;
 
     move-result-object p1
@@ -262,7 +255,6 @@
 
     const-string v0, "null cannot be cast to non-null type kotlin.collections.MutableCollection<T>"
 
-    .line 1
     invoke-static {p0, v0}, Ljava/util/Objects;->requireNonNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
 
     invoke-static {p0}, Lcotlin/jvm/internal/t0;->a(Ljava/lang/Object;)Ljava/util/Collection;
@@ -306,12 +298,10 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-static {p1}, Lcotlin/sequences/p;->U2(Lcotlin/sequences/m;)Ljava/util/HashSet;
 
     move-result-object p1
 
-    .line 2
     invoke-interface {p1}, Ljava/util/Collection;->isEmpty()Z
 
     move-result v0
@@ -365,7 +355,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     array-length v0, p1
 
     const/4 v1, 0x0
@@ -436,7 +425,6 @@
 
     const/4 v0, 0x1
 
-    .line 1
     invoke-static {p0, p1, v0}, Lcotlin/collections/y;->u0(Ljava/util/List;Lcotlin/jvm/u/l;Z)Z
 
     move-result p0
@@ -474,7 +462,6 @@
 
     invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-interface {p0}, Ljava/util/List;->isEmpty()Z
 
     move-result v0
@@ -532,7 +519,6 @@
 
     invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-interface {p0}, Ljava/util/List;->isEmpty()Z
 
     move-result v0
@@ -584,7 +570,6 @@
 
     invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-interface {p0}, Ljava/util/List;->isEmpty()Z
 
     move-result v0
@@ -644,7 +629,6 @@
 
     invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-interface {p0}, Ljava/util/List;->isEmpty()Z
 
     move-result v0
@@ -702,7 +686,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-static {p0, p1, v0}, Lcotlin/collections/y;->t0(Ljava/lang/Iterable;Lcotlin/jvm/u/l;Z)Z
 
     move-result p0
@@ -740,7 +723,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-static {p1, p0}, Lcotlin/collections/u;->b0(Ljava/lang/Iterable;Ljava/lang/Iterable;)Ljava/util/Collection;
 
     move-result-object p1
@@ -775,7 +757,6 @@
 
     const-string v0, "null cannot be cast to non-null type kotlin.collections.MutableCollection<T>"
 
-    .line 1
     invoke-static {p0, v0}, Ljava/util/Objects;->requireNonNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
 
     invoke-static {p0}, Lcotlin/jvm/internal/t0;->a(Ljava/lang/Object;)Ljava/util/Collection;
@@ -819,12 +800,10 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-static {p1}, Lcotlin/sequences/p;->U2(Lcotlin/sequences/m;)Ljava/util/HashSet;
 
     move-result-object p1
 
-    .line 2
     invoke-interface {p1}, Ljava/util/Collection;->isEmpty()Z
 
     move-result v0
@@ -833,14 +812,12 @@
 
     if-eqz v0, :cond_0
 
-    .line 3
     invoke-interface {p0, p1}, Ljava/util/Collection;->retainAll(Ljava/util/Collection;)Z
 
     move-result p0
 
     return p0
 
-    .line 4
     :cond_0
     invoke-static {p0}, Lcotlin/collections/y;->V0(Ljava/util/Collection;)Z
 
@@ -877,7 +854,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     array-length v0, p1
 
     const/4 v1, 0x1
@@ -896,7 +872,6 @@
 
     if-eqz v0, :cond_1
 
-    .line 2
     invoke-static {p1}, Lcotlin/collections/k;->ky([Ljava/lang/Object;)Ljava/util/HashSet;
 
     move-result-object p1
@@ -907,7 +882,6 @@
 
     return p0
 
-    .line 3
     :cond_1
     invoke-static {p0}, Lcotlin/collections/y;->V0(Ljava/util/Collection;)Z
 
@@ -950,7 +924,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-static {p0, p1, v0}, Lcotlin/collections/y;->u0(Ljava/util/List;Lcotlin/jvm/u/l;Z)Z
 
     move-result p0
@@ -968,14 +941,12 @@
         }
     .end annotation
 
-    .line 1
     invoke-interface {p0}, Ljava/util/Collection;->isEmpty()Z
 
     move-result v0
 
     xor-int/lit8 v0, v0, 0x1
 
-    .line 2
     invoke-interface {p0}, Ljava/util/Collection;->clear()V
 
     return v0
@@ -1011,7 +982,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     instance-of v0, p1, Ljava/util/Collection;
 
     if-eqz v0, :cond_0
@@ -1027,7 +997,6 @@
     :cond_0
     const/4 v0, 0x0
 
-    .line 2
     invoke-interface {p1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object p1
@@ -1044,7 +1013,6 @@
 
     move-result-object v1
 
-    .line 3
     invoke-interface {p0, v1}, Ljava/util/Collection;->add(Ljava/lang/Object;)Z
 
     move-result v1
@@ -1089,7 +1057,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-interface {p1}, Lcotlin/sequences/m;->iterator()Ljava/util/Iterator;
 
     move-result-object p1
@@ -1108,7 +1075,6 @@
 
     move-result-object v1
 
-    .line 2
     invoke-interface {p0, v1}, Ljava/util/Collection;->add(Ljava/lang/Object;)Z
 
     move-result v1
@@ -1151,7 +1117,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-static {p1}, Lcotlin/collections/k;->t([Ljava/lang/Object;)Ljava/util/List;
 
     move-result-object p1
@@ -1179,14 +1144,12 @@
         }
     .end annotation
 
-    .line 1
     invoke-interface {p0}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object p0
 
     const/4 v0, 0x0
 
-    .line 2
     :cond_0
     :goto_0
     invoke-interface {p0}, Ljava/util/Iterator;->hasNext()Z
@@ -1195,7 +1158,6 @@
 
     if-eqz v1, :cond_1
 
-    .line 3
     invoke-interface {p0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
     move-result-object v1
@@ -1212,7 +1174,6 @@
 
     if-ne v1, p2, :cond_0
 
-    .line 4
     invoke-interface {p0}, Ljava/util/Iterator;->remove()V
 
     const/4 v0, 0x1
@@ -1239,14 +1200,12 @@
         }
     .end annotation
 
-    .line 1
     instance-of v0, p0, Ljava/util/RandomAccess;
 
     if-nez v0, :cond_0
 
     const-string v0, "null cannot be cast to non-null type kotlin.collections.MutableIterable<T>"
 
-    .line 2
     invoke-static {p0, v0}, Ljava/util/Objects;->requireNonNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
 
     invoke-static {p0}, Lcotlin/jvm/internal/t0;->c(Ljava/lang/Object;)Ljava/lang/Iterable;
@@ -1259,7 +1218,6 @@
 
     return p0
 
-    .line 3
     :cond_0
     invoke-static {p0}, Lcotlin/collections/s;->G(Ljava/util/List;)I
 
@@ -1273,13 +1231,11 @@
 
     const/4 v3, 0x0
 
-    .line 4
     :goto_0
     invoke-interface {p0, v2}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object v4
 
-    .line 5
     invoke-interface {p1, v4}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v5
@@ -1297,7 +1253,6 @@
     :cond_1
     if-eq v3, v2, :cond_2
 
-    .line 6
     invoke-interface {p0, v3, v4}, Ljava/util/List;->set(ILjava/lang/Object;)Ljava/lang/Object;
 
     :cond_2
@@ -1313,7 +1268,6 @@
     :cond_3
     const/4 v3, 0x0
 
-    .line 7
     :cond_4
     invoke-interface {p0}, Ljava/util/List;->size()I
 
@@ -1321,14 +1275,12 @@
 
     if-ge v3, p1, :cond_6
 
-    .line 8
     invoke-static {p0}, Lcotlin/collections/s;->G(Ljava/util/List;)I
 
     move-result p1
 
     if-lt p1, v3, :cond_5
 
-    .line 9
     :goto_2
     invoke-interface {p0, p1}, Ljava/util/List;->remove(I)Ljava/lang/Object;
 
@@ -1368,7 +1320,6 @@
 
     invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-static {p0, p1}, Lcotlin/collections/y;->G0(Ljava/util/Collection;Ljava/lang/Iterable;)Z
 
     return-void
@@ -1393,7 +1344,6 @@
 
     invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-interface {p0, p1}, Ljava/util/Collection;->remove(Ljava/lang/Object;)Z
 
     return-void
@@ -1420,7 +1370,6 @@
 
     invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-static {p0, p1}, Lcotlin/collections/y;->I0(Ljava/util/Collection;Lcotlin/sequences/m;)Z
 
     return-void
@@ -1445,7 +1394,6 @@
 
     invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-static {p0, p1}, Lcotlin/collections/y;->J0(Ljava/util/Collection;[Ljava/lang/Object;)Z
 
     return-void
@@ -1472,7 +1420,6 @@
 
     invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-static {p0, p1}, Lcotlin/collections/s;->q0(Ljava/util/Collection;Ljava/lang/Iterable;)Z
 
     return-void

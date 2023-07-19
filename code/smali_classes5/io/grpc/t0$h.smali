@@ -22,7 +22,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -35,7 +34,6 @@
     .annotation build Lio/grpc/d0;
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/lang/UnsupportedOperationException;
 
     invoke-direct {v0}, Ljava/lang/UnsupportedOperationException;-><init>()V
@@ -46,12 +44,10 @@
 .method public final b()Lio/grpc/u;
     .locals 4
 
-    .line 1
     invoke-virtual {p0}, Lio/grpc/t0$h;->c()Ljava/util/List;
 
     move-result-object v0
 
-    .line 2
     invoke-interface {v0}, Ljava/util/List;->size()I
 
     move-result v1
@@ -72,7 +68,6 @@
 
     invoke-static {v3, v1, v0}, Lcom/google/common/base/t;->x0(ZLjava/lang/String;Ljava/lang/Object;)V
 
-    .line 3
     invoke-interface {v0, v2}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object v0
@@ -93,7 +88,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/lang/UnsupportedOperationException;
 
     invoke-direct {v0}, Ljava/lang/UnsupportedOperationException;-><init>()V
@@ -107,7 +101,6 @@
 .method public e()Lio/grpc/ChannelLogger;
     .locals 1
 
-    .line 1
     new-instance v0, Ljava/lang/UnsupportedOperationException;
 
     invoke-direct {v0}, Ljava/lang/UnsupportedOperationException;-><init>()V
@@ -120,7 +113,6 @@
     .annotation build Lio/grpc/d0;
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/lang/UnsupportedOperationException;
 
     invoke-direct {v0}, Ljava/lang/UnsupportedOperationException;-><init>()V
@@ -137,7 +129,6 @@
 .method public i(Lio/grpc/t0$j;)V
     .locals 1
 
-    .line 1
     new-instance p1, Ljava/lang/UnsupportedOperationException;
 
     const-string v0, "Not implemented"
@@ -158,7 +149,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance p1, Ljava/lang/UnsupportedOperationException;
 
     invoke-direct {p1}, Ljava/lang/UnsupportedOperationException;-><init>()V

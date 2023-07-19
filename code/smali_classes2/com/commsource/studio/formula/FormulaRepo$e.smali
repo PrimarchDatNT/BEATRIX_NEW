@@ -59,34 +59,28 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/studio/formula/c;->v:Lcom/commsource/studio/formula/c;
 
     invoke-virtual {v1}, Lcom/commsource/studio/formula/c;->K()Lcom/commsource/studio/formula/JsFormula;
 
     move-result-object v2
 
-    .line 2
     new-instance v3, Ljava/util/ArrayList;
 
     invoke-direct {v3}, Ljava/util/ArrayList;-><init>()V
 
-    .line 3
     new-instance v4, Ljava/util/ArrayList;
 
     invoke-direct {v4}, Ljava/util/ArrayList;-><init>()V
 
-    .line 4
     invoke-virtual {v4, v2}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    .line 5
     invoke-virtual {v1}, Lcom/commsource/studio/formula/c;->L()Ljava/util/List;
 
     move-result-object v1
 
     invoke-virtual {v3, v1}, Ljava/util/ArrayList;->addAll(Ljava/util/Collection;)Z
 
-    .line 6
     invoke-interface {v3}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v1
@@ -104,7 +98,6 @@
 
     check-cast v2, Lcom/commsource/studio/formula/FormulaCategory;
 
-    .line 7
     sget-object v3, Lcom/commsource/studio/formula/FormulaRepo;->x:Lcom/commsource/studio/formula/FormulaRepo;
 
     invoke-static {v3}, Lcom/commsource/studio/formula/FormulaRepo;->q(Lcom/commsource/studio/formula/FormulaRepo;)Lf/k/i0/a/v;
@@ -121,7 +114,6 @@
 
     if-nez v5, :cond_0
 
-    .line 8
     invoke-static {v3}, Lcom/commsource/studio/formula/FormulaRepo;->q(Lcom/commsource/studio/formula/FormulaRepo;)Lf/k/i0/a/v;
 
     move-result-object v3
@@ -130,7 +122,6 @@
 
     goto :goto_0
 
-    .line 9
     :cond_0
     invoke-virtual {v5}, Lcom/commsource/studio/formula/FormulaCategory;->getCategorySort()I
 
@@ -138,7 +129,6 @@
 
     invoke-virtual {v2, v5}, Lcom/commsource/studio/formula/FormulaCategory;->setCategorySort(I)V
 
-    .line 10
     invoke-static {v3}, Lcom/commsource/studio/formula/FormulaRepo;->q(Lcom/commsource/studio/formula/FormulaRepo;)Lf/k/i0/a/v;
 
     move-result-object v3
@@ -147,7 +137,6 @@
 
     goto :goto_0
 
-    .line 11
     :cond_1
     invoke-interface {v4}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
@@ -166,7 +155,6 @@
 
     check-cast v2, Lcom/commsource/studio/formula/JsFormula;
 
-    .line 12
     sget-object v3, Lcom/commsource/studio/formula/FormulaRepo;->x:Lcom/commsource/studio/formula/FormulaRepo;
 
     invoke-static {v3}, Lcom/commsource/studio/formula/FormulaRepo;->r(Lcom/commsource/studio/formula/FormulaRepo;)Lf/k/i0/a/x;
@@ -183,7 +171,6 @@
 
     if-nez v4, :cond_2
 
-    .line 13
     invoke-static {v3}, Lcom/commsource/studio/formula/FormulaRepo;->r(Lcom/commsource/studio/formula/FormulaRepo;)Lf/k/i0/a/x;
 
     move-result-object v3
@@ -192,7 +179,6 @@
 
     goto :goto_1
 
-    .line 14
     :cond_2
     invoke-virtual {v4}, Lcom/commsource/studio/formula/JsFormula;->getSorts()Ljava/lang/String;
 
@@ -200,14 +186,12 @@
 
     invoke-virtual {v2, v5}, Lcom/commsource/studio/formula/JsFormula;->setSorts(Ljava/lang/String;)V
 
-    .line 15
     invoke-virtual {v4}, Lcom/meitu/template/bean/e;->getDownloadState()I
 
     move-result v4
 
     invoke-virtual {v2, v4}, Lcom/meitu/template/bean/e;->setDownloadState(I)V
 
-    .line 16
     invoke-static {v3}, Lcom/commsource/studio/formula/FormulaRepo;->r(Lcom/commsource/studio/formula/FormulaRepo;)Lf/k/i0/a/x;
 
     move-result-object v3
@@ -216,7 +200,6 @@
 
     goto :goto_1
 
-    .line 17
     :cond_3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

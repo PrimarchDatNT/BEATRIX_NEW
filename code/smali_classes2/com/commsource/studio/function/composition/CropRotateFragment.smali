@@ -32,10 +32,8 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/studio/function/BaseSubFragment;-><init>()V
 
-    .line 2
     sget-object v0, Lcom/commsource/studio/n0;->z:Lcom/commsource/studio/n0;
 
     invoke-virtual {v0}, Lcom/commsource/studio/n0;->h()I
@@ -46,7 +44,6 @@
 
     iput v0, p0, Lcom/commsource/studio/function/composition/CropRotateFragment;->d0:F
 
-    .line 3
     new-instance v0, Lcom/commsource/studio/effect/e;
 
     invoke-direct {v0}, Lcom/commsource/studio/effect/e;-><init>()V
@@ -63,7 +60,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/function/composition/CropRotateFragment;->c0:Lcom/commsource/beautyplus/f0/kb;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -78,7 +74,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/studio/function/composition/CropRotateFragment;->c0:Lcom/commsource/beautyplus/f0/kb;
 
     if-nez p0, :cond_0
@@ -104,7 +99,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/function/composition/CropRotateFragment;->e0:Lcom/commsource/studio/effect/e;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -127,7 +121,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/function/composition/CropRotateFragment;->e0:Lcom/commsource/studio/effect/e;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -144,10 +137,8 @@
 
     const-string v1, "beau_composition_yes"
 
-    .line 1
     invoke-static {v1}, Lcom/commsource/statistics/i;->p(Ljava/lang/String;)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/function/composition/CropRotateFragment;->c0:Lcom/commsource/beautyplus/f0/kb;
 
     if-nez v1, :cond_0
@@ -165,15 +156,12 @@
 
     if-nez v1, :cond_1
 
-    .line 3
     invoke-virtual {p0}, Lcom/commsource/studio/function/BaseSubFragment;->U()V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 5
     :cond_1
     new-instance v1, Lcom/commsource/studio/function/composition/CropRotateFragment$onClickConfirm$1;
 
@@ -181,7 +169,6 @@
 
     invoke-virtual {p0, v1}, Lcom/commsource/studio/function/BaseSubFragment;->Y0(Lcotlin/jvm/u/a;)V
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -215,7 +202,6 @@
 
     invoke-static {p2, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/studio/function/composition/CropRotateFragment;->c0:Lcom/commsource/beautyplus/f0/kb;
 
     if-nez v0, :cond_0
@@ -229,7 +215,6 @@
 
     invoke-super {p0, v0, p2}, Lcom/commsource/studio/function/BaseSubFragment;->I(Landroid/view/View;Lcotlin/jvm/u/a;)V
 
-    .line 2
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -263,7 +248,6 @@
 
     invoke-static {p2, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/studio/function/composition/CropRotateFragment;->c0:Lcom/commsource/beautyplus/f0/kb;
 
     if-nez v0, :cond_0
@@ -277,7 +261,6 @@
 
     invoke-super {p0, v0, p2}, Lcom/commsource/studio/function/BaseSubFragment;->K(Landroid/view/View;Lcotlin/jvm/u/a;)V
 
-    .line 2
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -290,10 +273,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0}, Lcom/commsource/studio/function/BaseSubFragment;->N0()V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/function/composition/CropRotateFragment;->c0:Lcom/commsource/beautyplus/f0/kb;
 
     if-nez v1, :cond_0
@@ -311,7 +292,6 @@
 
     invoke-static {v1}, Lcom/commsource/util/l0;->v0(Landroid/view/View;)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -328,15 +308,12 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v0, Lcom/commsource/studio/MatrixBox;
 
     invoke-direct {v0}, Lcom/commsource/studio/MatrixBox;-><init>()V
 
-    .line 2
     new-instance v1, Landroid/graphics/RectF;
 
-    .line 3
     invoke-virtual {p0}, Lcom/commsource/studio/function/BaseSubFragment;->r0()Lcom/commsource/studio/ImageStudioViewModel;
 
     move-result-object v2
@@ -351,7 +328,6 @@
 
     int-to-float v2, v2
 
-    .line 4
     invoke-virtual {p0}, Lcom/commsource/studio/function/BaseSubFragment;->r0()Lcom/commsource/studio/ImageStudioViewModel;
 
     move-result-object v3
@@ -384,10 +360,8 @@
 
     const/4 v4, 0x0
 
-    .line 5
     invoke-direct {v1, v4, v4, v2, v3}, Landroid/graphics/RectF;-><init>(FFFF)V
 
-    .line 6
     iget v2, v1, Landroid/graphics/RectF;->left:F
 
     iget-object v3, p0, Lcom/commsource/studio/function/composition/CropRotateFragment;->c0:Lcom/commsource/beautyplus/f0/kb;
@@ -415,7 +389,6 @@
 
     iput v2, v1, Landroid/graphics/RectF;->left:F
 
-    .line 7
     iget v2, v1, Landroid/graphics/RectF;->right:F
 
     iget-object v3, p0, Lcom/commsource/studio/function/composition/CropRotateFragment;->c0:Lcom/commsource/beautyplus/f0/kb;
@@ -439,7 +412,6 @@
 
     iput v2, v1, Landroid/graphics/RectF;->right:F
 
-    .line 8
     iget v2, v1, Landroid/graphics/RectF;->top:F
 
     iget-object v3, p0, Lcom/commsource/studio/function/composition/CropRotateFragment;->c0:Lcom/commsource/beautyplus/f0/kb;
@@ -463,7 +435,6 @@
 
     iput v2, v1, Landroid/graphics/RectF;->top:F
 
-    .line 9
     iget v2, v1, Landroid/graphics/RectF;->bottom:F
 
     iget-object v3, p0, Lcom/commsource/studio/function/composition/CropRotateFragment;->c0:Lcom/commsource/beautyplus/f0/kb;
@@ -487,7 +458,6 @@
 
     iput v2, v1, Landroid/graphics/RectF;->bottom:F
 
-    .line 10
     invoke-virtual {p0}, Lcom/commsource/studio/function/BaseSubFragment;->r0()Lcom/commsource/studio/ImageStudioViewModel;
 
     move-result-object v2
@@ -500,7 +470,6 @@
 
     move-result v2
 
-    .line 11
     invoke-virtual {p0}, Lcom/commsource/studio/function/BaseSubFragment;->r0()Lcom/commsource/studio/ImageStudioViewModel;
 
     move-result-object v3
@@ -513,7 +482,6 @@
 
     move-result v3
 
-    .line 12
     invoke-static {v1, v2, v3}, Lcom/commsource/util/common/i;->f(Landroid/graphics/RectF;II)Landroid/graphics/Matrix;
 
     move-result-object v1
@@ -522,13 +490,10 @@
 
     invoke-static {v1, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 13
     invoke-virtual {v0, v1}, Lcom/commsource/studio/MatrixBox;->set(Landroid/graphics/Matrix;)V
 
-    .line 14
     invoke-super {p0, v0}, Lcom/commsource/studio/function/BaseSubFragment;->P0(Lcom/commsource/studio/MatrixBox;)V
 
-    .line 15
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -549,12 +514,10 @@
 
     if-eqz p1, :cond_3
 
-    .line 1
     new-instance v1, Lcom/commsource/studio/MatrixBox;
 
     invoke-direct {v1}, Lcom/commsource/studio/MatrixBox;-><init>()V
 
-    .line 2
     iget-object v2, p0, Lcom/commsource/studio/function/composition/CropRotateFragment;->c0:Lcom/commsource/beautyplus/f0/kb;
 
     if-nez v2, :cond_0
@@ -570,7 +533,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/studio/MatrixBox;->set(Lcom/commsource/studio/MatrixBox;)V
 
-    .line 3
     iget-object v2, p0, Lcom/commsource/studio/function/composition/CropRotateFragment;->c0:Lcom/commsource/beautyplus/f0/kb;
 
     if-nez v2, :cond_1
@@ -586,7 +548,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/studio/MatrixBox;->preConcat(Lcom/commsource/studio/MatrixBox;)V
 
-    .line 4
     iget-object v2, p0, Lcom/commsource/studio/function/composition/CropRotateFragment;->c0:Lcom/commsource/beautyplus/f0/kb;
 
     if-nez v2, :cond_2
@@ -604,11 +565,9 @@
 
     goto :goto_0
 
-    .line 5
     :cond_3
     new-instance v1, Lcom/commsource/studio/MatrixBox;
 
-    .line 6
     iget-object v2, p0, Lcom/commsource/studio/function/composition/CropRotateFragment;->c0:Lcom/commsource/beautyplus/f0/kb;
 
     if-nez v2, :cond_4
@@ -622,7 +581,6 @@
 
     move-result-object v0
 
-    .line 7
     invoke-virtual {p0}, Lcom/commsource/studio/function/BaseSubFragment;->r0()Lcom/commsource/studio/ImageStudioViewModel;
 
     move-result-object v2
@@ -635,7 +593,6 @@
 
     move-result v2
 
-    .line 8
     invoke-virtual {p0}, Lcom/commsource/studio/function/BaseSubFragment;->r0()Lcom/commsource/studio/ImageStudioViewModel;
 
     move-result-object v3
@@ -648,7 +605,6 @@
 
     move-result v3
 
-    .line 9
     invoke-static {v0, v2, v3}, Lcom/commsource/util/common/i;->f(Landroid/graphics/RectF;II)Landroid/graphics/Matrix;
 
     move-result-object v0
@@ -657,14 +613,11 @@
 
     invoke-static {v0, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 10
     invoke-direct {v1, v0}, Lcom/commsource/studio/MatrixBox;-><init>(Landroid/graphics/Matrix;)V
 
-    .line 11
     :goto_0
     invoke-super {p0, p1, v1}, Lcom/commsource/studio/function/BaseSubFragment;->V0(ZLcom/commsource/studio/MatrixBox;)V
 
-    .line 12
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -677,17 +630,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0, p1}, Lcom/commsource/studio/function/BaseSubFragment;->Y(Z)V
 
-    .line 2
     new-instance p1, Lcom/commsource/studio/function/composition/CropRotateFragment$exit$1;
 
     invoke-direct {p1, p0}, Lcom/commsource/studio/function/composition/CropRotateFragment$exit$1;-><init>(Lcom/commsource/studio/function/composition/CropRotateFragment;)V
 
     invoke-virtual {p0, p1}, Lcom/commsource/studio/function/BaseSubFragment;->i1(Lcotlin/jvm/u/a;)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -700,7 +650,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/studio/function/composition/CropRotateFragment;->B1()Lcom/commsource/studio/effect/e;
 
     move-result-object v1
@@ -717,7 +666,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Lcom/commsource/studio/effect/e;
 
     invoke-virtual {p0, p1}, Lcom/commsource/studio/function/composition/CropRotateFragment;->C1(Lcom/commsource/studio/effect/e;)V
@@ -734,7 +682,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/function/composition/CropRotateFragment;->d0:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -749,7 +696,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/studio/function/composition/CropRotateFragment;->d0:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -782,7 +728,6 @@
 
     invoke-static {p1, p3}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-static {p1}, Lcom/commsource/beautyplus/f0/kb;->d(Landroid/view/LayoutInflater;)Lcom/commsource/beautyplus/f0/kb;
 
     move-result-object p1
@@ -797,13 +742,11 @@
 
     if-nez p1, :cond_0
 
-    .line 2
     invoke-static {p3}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
     invoke-virtual {p1, p0}, Lcom/commsource/beautyplus/f0/kb;->i(Landroidx/fragment/app/Fragment;)V
 
-    .line 3
     iget-object p1, p0, Lcom/commsource/studio/function/composition/CropRotateFragment;->c0:Lcom/commsource/beautyplus/f0/kb;
 
     if-nez p1, :cond_1
@@ -855,10 +798,8 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-super {p0, p1, p2}, Lcom/commsource/studio/function/BaseSubFragment;->onViewCreated(Landroid/view/View;Landroid/os/Bundle;)V
 
-    .line 2
     iget-object p1, p0, Lcom/commsource/studio/function/composition/CropRotateFragment;->c0:Lcom/commsource/beautyplus/f0/kb;
 
     const-string p2, "mViewBinding"
@@ -884,7 +825,6 @@
 
     invoke-virtual {p1, v1}, Lcom/commsource/studio/function/composition/CompositionView;->setTargetBitmap(Landroid/graphics/Bitmap;)V
 
-    .line 3
     iget-object p1, p0, Lcom/commsource/studio/function/composition/CropRotateFragment;->c0:Lcom/commsource/beautyplus/f0/kb;
 
     if-nez p1, :cond_1
@@ -894,7 +834,6 @@
     :cond_1
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/kb;->d:Landroidx/recyclerview/widget/RecyclerView;
 
-    .line 4
     new-instance v1, Lcom/commsource/studio/sub/f;
 
     const/4 v2, 0x2
@@ -903,19 +842,16 @@
 
     invoke-virtual {p1, v1}, Landroidx/recyclerview/widget/RecyclerView;->addItemDecoration(Landroidx/recyclerview/widget/RecyclerView$ItemDecoration;)V
 
-    .line 5
     new-instance v1, Lcom/commsource/widget/h1/e;
 
     iget-object v3, p0, Lcom/commsource/beautyplus/i0/a;->b:Landroid/app/Activity;
 
     invoke-direct {v1, v3}, Lcom/commsource/widget/h1/e;-><init>(Landroid/content/Context;)V
 
-    .line 6
     invoke-static {}, Lcom/commsource/widget/h1/c;->j()Lcom/commsource/widget/h1/c;
 
     move-result-object v3
 
-    .line 7
     invoke-static {}, Lcom/commsource/studio/effect/FlipFixRotateEnum;->values()[Lcom/commsource/studio/effect/FlipFixRotateEnum;
 
     move-result-object v4
@@ -924,10 +860,8 @@
 
     move-result-object v4
 
-    .line 8
     const-class v5, Lcom/commsource/studio/function/composition/e;
 
-    .line 9
     invoke-virtual {v3, v4, v5}, Lcom/commsource/widget/h1/c;->c(Ljava/util/List;Ljava/lang/Class;)Lcom/commsource/widget/h1/c;
 
     move-result-object v3
@@ -936,7 +870,6 @@
 
     new-array v4, v4, [Lcom/commsource/easyeditor/entity/CropEnum;
 
-    .line 10
     sget-object v5, Lcom/commsource/easyeditor/entity/CropEnum;->Origin:Lcom/commsource/easyeditor/entity/CropEnum;
 
     const/4 v6, 0x0
@@ -961,7 +894,6 @@
 
     const/4 v2, 0x4
 
-    .line 11
     sget-object v5, Lcom/commsource/easyeditor/entity/CropEnum;->CROP_169:Lcom/commsource/easyeditor/entity/CropEnum;
 
     aput-object v5, v4, v2
@@ -980,7 +912,6 @@
 
     const/4 v2, 0x7
 
-    .line 12
     sget-object v5, Lcom/commsource/easyeditor/entity/CropEnum;->CROP_34:Lcom/commsource/easyeditor/entity/CropEnum;
 
     aput-object v5, v4, v2
@@ -991,28 +922,22 @@
 
     aput-object v5, v4, v2
 
-    .line 13
     invoke-static {v4}, Lcotlin/collections/s;->L([Ljava/lang/Object;)Ljava/util/List;
 
     move-result-object v2
 
-    .line 14
     const-class v4, Lcom/commsource/studio/function/composition/d;
 
-    .line 15
     invoke-virtual {v3, v2, v4}, Lcom/commsource/widget/h1/c;->g(Ljava/util/List;Ljava/lang/Class;)Lcom/commsource/widget/h1/c;
 
     move-result-object v2
 
-    .line 16
     invoke-virtual {v2}, Lcom/commsource/widget/h1/c;->k()Ljava/util/List;
 
     move-result-object v2
 
-    .line 17
     invoke-virtual {v1, v2}, Lcom/commsource/widget/h1/e;->Q(Ljava/util/List;)V
 
-    .line 18
     const-class v2, Lcom/commsource/easyeditor/entity/CropEnum;
 
     new-instance v3, Lcom/commsource/studio/function/composition/CropRotateFragment$a;
@@ -1021,7 +946,6 @@
 
     invoke-virtual {v1, v2, v3}, Lcom/commsource/widget/h1/e;->J(Ljava/lang/Class;Lcom/commsource/widget/h1/e$b;)V
 
-    .line 19
     const-class v2, Lcom/commsource/studio/effect/FlipFixRotateEnum;
 
     new-instance v3, Lcom/commsource/studio/function/composition/CropRotateFragment$b;
@@ -1030,13 +954,10 @@
 
     invoke-virtual {v1, v2, v3}, Lcom/commsource/widget/h1/e;->J(Ljava/lang/Class;Lcom/commsource/widget/h1/e$b;)V
 
-    .line 20
     invoke-virtual {v1, v7}, Lcom/commsource/widget/h1/e;->E(Ljava/lang/Object;)V
 
-    .line 21
     invoke-virtual {p1, v1}, Landroidx/recyclerview/widget/RecyclerView;->setAdapter(Landroidx/recyclerview/widget/RecyclerView$Adapter;)V
 
-    .line 22
     new-instance v1, Lcom/commsource/easyeditor/widget/CenterScrollLayoutManager;
 
     iget-object v2, p0, Lcom/commsource/beautyplus/i0/a;->b:Landroid/app/Activity;
@@ -1045,7 +966,6 @@
 
     invoke-virtual {p1, v1}, Landroidx/recyclerview/widget/RecyclerView;->setLayoutManager(Landroidx/recyclerview/widget/RecyclerView$LayoutManager;)V
 
-    .line 23
     iget-object p1, p0, Lcom/commsource/studio/function/composition/CropRotateFragment;->c0:Lcom/commsource/beautyplus/f0/kb;
 
     if-nez p1, :cond_2
@@ -1061,7 +981,6 @@
 
     invoke-virtual {p1, v1}, Landroid/widget/TextView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 24
     iget-object p1, p0, Lcom/commsource/studio/function/composition/CropRotateFragment;->c0:Lcom/commsource/beautyplus/f0/kb;
 
     if-nez p1, :cond_3
@@ -1071,17 +990,14 @@
     :cond_3
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/kb;->g:Lcom/commsource/widget/VernierView;
 
-    .line 25
     invoke-virtual {p1, v6}, Lcom/commsource/widget/VernierView;->setProgress(I)V
 
-    .line 26
     new-instance p2, Lcom/commsource/studio/function/composition/CropRotateFragment$c;
 
     invoke-direct {p2, p0}, Lcom/commsource/studio/function/composition/CropRotateFragment$c;-><init>(Lcom/commsource/studio/function/composition/CropRotateFragment;)V
 
     invoke-virtual {p1, p2}, Lcom/commsource/widget/VernierView;->setOnProgressChangeListener(Lcom/commsource/widget/x0;)V
 
-    .line 27
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

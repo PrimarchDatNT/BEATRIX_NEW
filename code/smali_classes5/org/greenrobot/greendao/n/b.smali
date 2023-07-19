@@ -51,7 +51,6 @@
 .method static constructor <clinit>()V
     .locals 0
 
-    .line 1
     invoke-static {}, Lorg/greenrobot/greendao/n/b;->f()V
 
     return-void
@@ -69,7 +68,6 @@
 
     const/4 v0, 0x1
 
-    .line 1
     invoke-direct {p0, p1, v0}, Lorg/greenrobot/greendao/n/b;-><init>(Ljava/lang/Class;Z)V
 
     return-void
@@ -85,10 +83,8 @@
         }
     .end annotation
 
-    .line 2
     invoke-direct {p0, p2}, Lorg/greenrobot/greendao/n/h;-><init>(Z)V
 
-    .line 3
     iput-object p1, p0, Lorg/greenrobot/greendao/n/b;->f:Ljava/lang/Class;
 
     return-void
@@ -97,7 +93,6 @@
 .method private static synthetic f()V
     .locals 9
 
-    .line 1
     new-instance v8, Ln/a/b/c/e;
 
     const-class v0, Lorg/greenrobot/greendao/n/b;
@@ -142,7 +137,6 @@
 .method static final synthetic g(Lorg/greenrobot/greendao/n/b;Ljava/lang/reflect/Method;Ljava/lang/Object;[Ljava/lang/Object;Lorg/aspectj/lang/c;)Ljava/lang/Object;
     .locals 0
 
-    .line 1
     invoke-virtual {p1, p2, p3}, Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p0
@@ -160,12 +154,10 @@
         }
     .end annotation
 
-    .line 1
     const-class v0, Lorg/greenrobot/greendao/database/a;
 
     invoke-super {p0}, Lorg/greenrobot/greendao/n/h;->setUp()V
 
-    .line 2
     :try_start_0
     iget-object v1, p0, Lorg/greenrobot/greendao/n/b;->f:Ljava/lang/Class;
 
@@ -183,7 +175,6 @@
 
     new-array v3, v2, [Ljava/lang/Object;
 
-    .line 3
     iget-object v5, p0, Lorg/greenrobot/greendao/n/h;->c:Lorg/greenrobot/greendao/database/a;
 
     aput-object v5, v3, v4
@@ -196,7 +187,6 @@
 
     iput-object v1, p0, Lorg/greenrobot/greendao/n/b;->g:Lorg/greenrobot/greendao/b;
 
-    .line 4
     iget-object v1, p0, Lorg/greenrobot/greendao/n/b;->f:Ljava/lang/Class;
 
     const-string v3, "createAllTables"
@@ -219,7 +209,6 @@
 
     new-array v3, v5, [Ljava/lang/Object;
 
-    .line 5
     iget-object v6, p0, Lorg/greenrobot/greendao/n/h;->c:Lorg/greenrobot/greendao/database/a;
 
     aput-object v6, v3, v4
@@ -270,7 +259,6 @@
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
-    .line 6
     iget-object v0, p0, Lorg/greenrobot/greendao/n/b;->g:Lorg/greenrobot/greendao/b;
 
     invoke-virtual {v0}, Lorg/greenrobot/greendao/b;->c()Lorg/greenrobot/greendao/c;
@@ -284,7 +272,6 @@
     :catch_0
     move-exception v0
 
-    .line 7
     new-instance v1, Ljava/lang/RuntimeException;
 
     const-string v2, "Could not prepare DAO session test"

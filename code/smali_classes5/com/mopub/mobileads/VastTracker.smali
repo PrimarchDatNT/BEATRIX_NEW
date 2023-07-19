@@ -97,7 +97,6 @@
 
     invoke-static {p2, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     iput-object p1, p0, Lcom/mopub/mobileads/VastTracker;->content:Ljava/lang/String;
@@ -124,7 +123,6 @@
 
     return v0
 
-    .line 1
     :cond_0
     instance-of v1, p1, Lcom/mopub/mobileads/VastTracker;
 
@@ -134,7 +132,6 @@
 
     return v2
 
-    .line 2
     :cond_1
     iget-object v1, p0, Lcom/mopub/mobileads/VastTracker;->content:Ljava/lang/String;
 
@@ -152,7 +149,6 @@
 
     return v2
 
-    .line 3
     :cond_2
     iget-object v1, p0, Lcom/mopub/mobileads/VastTracker;->messageType:Lcom/mopub/mobileads/VastTracker$MessageType;
 
@@ -162,7 +158,6 @@
 
     return v2
 
-    .line 4
     :cond_3
     iget-boolean v1, p0, Lcom/mopub/mobileads/VastTracker;->isRepeatable:Z
 
@@ -172,7 +167,6 @@
 
     return v2
 
-    .line 5
     :cond_4
     iget-boolean v1, p0, Lcom/mopub/mobileads/VastTracker;->isTracked:Z
 
@@ -191,7 +185,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/mobileads/VastTracker;->content:Ljava/lang/String;
 
     return-object v0
@@ -202,7 +195,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/mobileads/VastTracker;->messageType:Lcom/mopub/mobileads/VastTracker$MessageType;
 
     return-object v0
@@ -211,7 +203,6 @@
 .method public hashCode()I
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/mobileads/VastTracker;->content:Ljava/lang/String;
 
     invoke-virtual {v0}, Ljava/lang/String;->hashCode()I
@@ -220,7 +211,6 @@
 
     mul-int/lit8 v0, v0, 0x1f
 
-    .line 2
     iget-object v1, p0, Lcom/mopub/mobileads/VastTracker;->messageType:Lcom/mopub/mobileads/VastTracker$MessageType;
 
     invoke-virtual {v1}, Ljava/lang/Enum;->hashCode()I
@@ -231,7 +221,6 @@
 
     mul-int/lit8 v0, v0, 0x1f
 
-    .line 3
     iget-boolean v1, p0, Lcom/mopub/mobileads/VastTracker;->isRepeatable:Z
 
     invoke-static {v1}, La;->a(Z)I
@@ -242,7 +231,6 @@
 
     mul-int/lit8 v0, v0, 0x1f
 
-    .line 4
     iget-boolean v1, p0, Lcom/mopub/mobileads/VastTracker;->isTracked:Z
 
     invoke-static {v1}, La;->a(Z)I
@@ -257,7 +245,6 @@
 .method public final isRepeatable()Z
     .locals 1
 
-    .line 1
     iget-boolean v0, p0, Lcom/mopub/mobileads/VastTracker;->isRepeatable:Z
 
     return v0
@@ -266,7 +253,6 @@
 .method public final isTracked()Z
     .locals 1
 
-    .line 1
     iget-boolean v0, p0, Lcom/mopub/mobileads/VastTracker;->isTracked:Z
 
     return v0
@@ -277,7 +263,6 @@
 
     const/4 v0, 0x1
 
-    .line 1
     iput-boolean v0, p0, Lcom/mopub/mobileads/VastTracker;->isTracked:Z
 
     return-void
@@ -288,7 +273,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -317,7 +301,6 @@
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 2
     iget-boolean v1, p0, Lcom/mopub/mobileads/VastTracker;->isRepeatable:Z
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Z)Ljava/lang/StringBuilder;

@@ -51,7 +51,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/util/p2/b;-><init>()V
 
     iput-object p1, p0, Lcom/commsource/util/delegate/process/j;->a:Ljava/lang/String;
@@ -72,7 +71,6 @@
 
     if-ne p1, p2, :cond_0
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/util/delegate/process/j;->e()V
 
     :cond_0
@@ -92,7 +90,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     :try_start_0
     new-instance v0, Landroid/content/Intent;
 
@@ -100,12 +97,10 @@
 
     const-string v1, "android.intent.action.SEND"
 
-    .line 2
     invoke-virtual {v0, v1}, Landroid/content/Intent;->setAction(Ljava/lang/String;)Landroid/content/Intent;
 
     const-string v1, "android.intent.extra.STREAM"
 
-    .line 3
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
     move-result-object v2
@@ -120,12 +115,10 @@
 
     const-string v1, "video/mp4"
 
-    .line 4
     invoke-virtual {v0, v1}, Landroid/content/Intent;->setType(Ljava/lang/String;)Landroid/content/Intent;
 
     const/4 v1, 0x0
 
-    .line 5
     invoke-static {v0, v1}, Landroid/content/Intent;->createChooser(Landroid/content/Intent;Ljava/lang/CharSequence;)Landroid/content/Intent;
 
     move-result-object v0
@@ -145,7 +138,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/util/delegate/process/j;->a:Ljava/lang/String;
 
     return-object v0

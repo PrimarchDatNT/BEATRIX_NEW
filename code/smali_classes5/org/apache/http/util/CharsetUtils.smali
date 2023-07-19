@@ -7,7 +7,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -27,7 +26,6 @@
 
     return-object p0
 
-    .line 1
     :cond_0
     :try_start_0
     invoke-static {p0}, Ljava/nio/charset/Charset;->forName(Ljava/lang/String;)Ljava/nio/charset/Charset;
@@ -38,7 +36,6 @@
 
     return-object p0
 
-    .line 2
     :catch_0
     new-instance v0, Ljava/io/UnsupportedEncodingException;
 
@@ -56,7 +53,6 @@
 
     return-object v0
 
-    .line 1
     :cond_0
     :try_start_0
     invoke-static {p0}, Ljava/nio/charset/Charset;->forName(Ljava/lang/String;)Ljava/nio/charset/Charset;

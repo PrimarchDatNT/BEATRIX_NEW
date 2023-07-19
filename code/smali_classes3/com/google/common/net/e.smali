@@ -324,10 +324,8 @@
 .method static constructor <clinit>()V
     .locals 10
 
-    .line 1
     sget-object v0, Lcom/google/common/base/c;->c:Ljava/nio/charset/Charset;
 
-    .line 2
     invoke-virtual {v0}, Ljava/nio/charset/Charset;->name()Ljava/lang/String;
 
     move-result-object v0
@@ -344,12 +342,10 @@
 
     sput-object v0, Lcom/google/common/net/e;->h:Lcom/google/common/collect/ImmutableListMultimap;
 
-    .line 3
     invoke-static {}, Lcom/google/common/base/b;->f()Lcom/google/common/base/b;
 
     move-result-object v0
 
-    .line 4
     invoke-static {}, Lcom/google/common/base/b;->v()Lcom/google/common/base/b;
 
     move-result-object v1
@@ -364,7 +360,6 @@
 
     const/16 v1, 0x20
 
-    .line 5
     invoke-static {v1}, Lcom/google/common/base/b;->s(C)Lcom/google/common/base/b;
 
     move-result-object v1
@@ -375,7 +370,6 @@
 
     const-string v1, "()<>@,;:\\\"/[]?="
 
-    .line 6
     invoke-static {v1}, Lcom/google/common/base/b;->H(Ljava/lang/CharSequence;)Lcom/google/common/base/b;
 
     move-result-object v1
@@ -386,7 +380,6 @@
 
     sput-object v0, Lcom/google/common/net/e;->i:Lcom/google/common/base/b;
 
-    .line 7
     invoke-static {}, Lcom/google/common/base/b;->f()Lcom/google/common/base/b;
 
     move-result-object v0
@@ -405,14 +398,12 @@
 
     const-string v0, " \t\r\n"
 
-    .line 8
     invoke-static {v0}, Lcom/google/common/base/b;->d(Ljava/lang/CharSequence;)Lcom/google/common/base/b;
 
     move-result-object v0
 
     sput-object v0, Lcom/google/common/net/e;->k:Lcom/google/common/base/b;
 
-    .line 9
     invoke-static {}, Lcom/google/common/collect/Maps;->Y()Ljava/util/HashMap;
 
     move-result-object v0
@@ -421,7 +412,6 @@
 
     const-string v0, "*"
 
-    .line 10
     invoke-static {v0, v0}, Lcom/google/common/net/e;->j(Ljava/lang/String;Ljava/lang/String;)Lcom/google/common/net/e;
 
     move-result-object v1
@@ -430,7 +420,6 @@
 
     const-string v1, "text"
 
-    .line 11
     invoke-static {v1, v0}, Lcom/google/common/net/e;->j(Ljava/lang/String;Ljava/lang/String;)Lcom/google/common/net/e;
 
     move-result-object v2
@@ -439,7 +428,6 @@
 
     const-string v2, "image"
 
-    .line 12
     invoke-static {v2, v0}, Lcom/google/common/net/e;->j(Ljava/lang/String;Ljava/lang/String;)Lcom/google/common/net/e;
 
     move-result-object v3
@@ -448,7 +436,6 @@
 
     const-string v3, "audio"
 
-    .line 13
     invoke-static {v3, v0}, Lcom/google/common/net/e;->j(Ljava/lang/String;Ljava/lang/String;)Lcom/google/common/net/e;
 
     move-result-object v4
@@ -457,7 +444,6 @@
 
     const-string v4, "video"
 
-    .line 14
     invoke-static {v4, v0}, Lcom/google/common/net/e;->j(Ljava/lang/String;Ljava/lang/String;)Lcom/google/common/net/e;
 
     move-result-object v5
@@ -466,7 +452,6 @@
 
     const-string v5, "application"
 
-    .line 15
     invoke-static {v5, v0}, Lcom/google/common/net/e;->j(Ljava/lang/String;Ljava/lang/String;)Lcom/google/common/net/e;
 
     move-result-object v0
@@ -475,7 +460,6 @@
 
     const-string v0, "cache-manifest"
 
-    .line 16
     invoke-static {v1, v0}, Lcom/google/common/net/e;->k(Ljava/lang/String;Ljava/lang/String;)Lcom/google/common/net/e;
 
     move-result-object v0
@@ -484,7 +468,6 @@
 
     const-string v0, "css"
 
-    .line 17
     invoke-static {v1, v0}, Lcom/google/common/net/e;->k(Ljava/lang/String;Ljava/lang/String;)Lcom/google/common/net/e;
 
     move-result-object v0
@@ -493,7 +476,6 @@
 
     const-string v0, "csv"
 
-    .line 18
     invoke-static {v1, v0}, Lcom/google/common/net/e;->k(Ljava/lang/String;Ljava/lang/String;)Lcom/google/common/net/e;
 
     move-result-object v0
@@ -502,7 +484,6 @@
 
     const-string v0, "html"
 
-    .line 19
     invoke-static {v1, v0}, Lcom/google/common/net/e;->k(Ljava/lang/String;Ljava/lang/String;)Lcom/google/common/net/e;
 
     move-result-object v0
@@ -511,7 +492,6 @@
 
     const-string v0, "calendar"
 
-    .line 20
     invoke-static {v1, v0}, Lcom/google/common/net/e;->k(Ljava/lang/String;Ljava/lang/String;)Lcom/google/common/net/e;
 
     move-result-object v0
@@ -520,7 +500,6 @@
 
     const-string v0, "plain"
 
-    .line 21
     invoke-static {v1, v0}, Lcom/google/common/net/e;->k(Ljava/lang/String;Ljava/lang/String;)Lcom/google/common/net/e;
 
     move-result-object v0
@@ -529,7 +508,6 @@
 
     const-string v0, "javascript"
 
-    .line 22
     invoke-static {v1, v0}, Lcom/google/common/net/e;->k(Ljava/lang/String;Ljava/lang/String;)Lcom/google/common/net/e;
 
     move-result-object v6
@@ -538,7 +516,6 @@
 
     const-string v6, "tab-separated-values"
 
-    .line 23
     invoke-static {v1, v6}, Lcom/google/common/net/e;->k(Ljava/lang/String;Ljava/lang/String;)Lcom/google/common/net/e;
 
     move-result-object v6
@@ -547,7 +524,6 @@
 
     const-string v6, "vcard"
 
-    .line 24
     invoke-static {v1, v6}, Lcom/google/common/net/e;->k(Ljava/lang/String;Ljava/lang/String;)Lcom/google/common/net/e;
 
     move-result-object v6
@@ -556,7 +532,6 @@
 
     const-string v6, "vnd.wap.wml"
 
-    .line 25
     invoke-static {v1, v6}, Lcom/google/common/net/e;->k(Ljava/lang/String;Ljava/lang/String;)Lcom/google/common/net/e;
 
     move-result-object v6
@@ -565,7 +540,6 @@
 
     const-string v6, "xml"
 
-    .line 26
     invoke-static {v1, v6}, Lcom/google/common/net/e;->k(Ljava/lang/String;Ljava/lang/String;)Lcom/google/common/net/e;
 
     move-result-object v7
@@ -574,7 +548,6 @@
 
     const-string v7, "vtt"
 
-    .line 27
     invoke-static {v1, v7}, Lcom/google/common/net/e;->k(Ljava/lang/String;Ljava/lang/String;)Lcom/google/common/net/e;
 
     move-result-object v1
@@ -583,7 +556,6 @@
 
     const-string v1, "bmp"
 
-    .line 28
     invoke-static {v2, v1}, Lcom/google/common/net/e;->j(Ljava/lang/String;Ljava/lang/String;)Lcom/google/common/net/e;
 
     move-result-object v1
@@ -592,7 +564,6 @@
 
     const-string v1, "x-canon-crw"
 
-    .line 29
     invoke-static {v2, v1}, Lcom/google/common/net/e;->j(Ljava/lang/String;Ljava/lang/String;)Lcom/google/common/net/e;
 
     move-result-object v1
@@ -601,7 +572,6 @@
 
     const-string v1, "gif"
 
-    .line 30
     invoke-static {v2, v1}, Lcom/google/common/net/e;->j(Ljava/lang/String;Ljava/lang/String;)Lcom/google/common/net/e;
 
     move-result-object v1
@@ -610,7 +580,6 @@
 
     const-string v1, "vnd.microsoft.icon"
 
-    .line 31
     invoke-static {v2, v1}, Lcom/google/common/net/e;->j(Ljava/lang/String;Ljava/lang/String;)Lcom/google/common/net/e;
 
     move-result-object v1
@@ -619,7 +588,6 @@
 
     const-string v1, "jpeg"
 
-    .line 32
     invoke-static {v2, v1}, Lcom/google/common/net/e;->j(Ljava/lang/String;Ljava/lang/String;)Lcom/google/common/net/e;
 
     move-result-object v1
@@ -628,7 +596,6 @@
 
     const-string v1, "png"
 
-    .line 33
     invoke-static {v2, v1}, Lcom/google/common/net/e;->j(Ljava/lang/String;Ljava/lang/String;)Lcom/google/common/net/e;
 
     move-result-object v1
@@ -637,7 +604,6 @@
 
     const-string v1, "vnd.adobe.photoshop"
 
-    .line 34
     invoke-static {v2, v1}, Lcom/google/common/net/e;->j(Ljava/lang/String;Ljava/lang/String;)Lcom/google/common/net/e;
 
     move-result-object v1
@@ -646,7 +612,6 @@
 
     const-string v1, "svg+xml"
 
-    .line 35
     invoke-static {v2, v1}, Lcom/google/common/net/e;->k(Ljava/lang/String;Ljava/lang/String;)Lcom/google/common/net/e;
 
     move-result-object v1
@@ -655,7 +620,6 @@
 
     const-string v1, "tiff"
 
-    .line 36
     invoke-static {v2, v1}, Lcom/google/common/net/e;->j(Ljava/lang/String;Ljava/lang/String;)Lcom/google/common/net/e;
 
     move-result-object v1
@@ -664,7 +628,6 @@
 
     const-string v1, "webp"
 
-    .line 37
     invoke-static {v2, v1}, Lcom/google/common/net/e;->j(Ljava/lang/String;Ljava/lang/String;)Lcom/google/common/net/e;
 
     move-result-object v1
@@ -673,7 +636,6 @@
 
     const-string v1, "heif"
 
-    .line 38
     invoke-static {v2, v1}, Lcom/google/common/net/e;->j(Ljava/lang/String;Ljava/lang/String;)Lcom/google/common/net/e;
 
     move-result-object v1
@@ -682,7 +644,6 @@
 
     const-string v1, "jp2"
 
-    .line 39
     invoke-static {v2, v1}, Lcom/google/common/net/e;->j(Ljava/lang/String;Ljava/lang/String;)Lcom/google/common/net/e;
 
     move-result-object v1
@@ -691,7 +652,6 @@
 
     const-string v1, "mp4"
 
-    .line 40
     invoke-static {v3, v1}, Lcom/google/common/net/e;->j(Ljava/lang/String;Ljava/lang/String;)Lcom/google/common/net/e;
 
     move-result-object v2
@@ -700,7 +660,6 @@
 
     const-string v2, "mpeg"
 
-    .line 41
     invoke-static {v3, v2}, Lcom/google/common/net/e;->j(Ljava/lang/String;Ljava/lang/String;)Lcom/google/common/net/e;
 
     move-result-object v7
@@ -709,7 +668,6 @@
 
     const-string v7, "ogg"
 
-    .line 42
     invoke-static {v3, v7}, Lcom/google/common/net/e;->j(Ljava/lang/String;Ljava/lang/String;)Lcom/google/common/net/e;
 
     move-result-object v8
@@ -718,7 +676,6 @@
 
     const-string v8, "webm"
 
-    .line 43
     invoke-static {v3, v8}, Lcom/google/common/net/e;->j(Ljava/lang/String;Ljava/lang/String;)Lcom/google/common/net/e;
 
     move-result-object v9
@@ -727,7 +684,6 @@
 
     const-string v9, "l16"
 
-    .line 44
     invoke-static {v3, v9}, Lcom/google/common/net/e;->j(Ljava/lang/String;Ljava/lang/String;)Lcom/google/common/net/e;
 
     move-result-object v9
@@ -736,7 +692,6 @@
 
     const-string v9, "l24"
 
-    .line 45
     invoke-static {v3, v9}, Lcom/google/common/net/e;->j(Ljava/lang/String;Ljava/lang/String;)Lcom/google/common/net/e;
 
     move-result-object v9
@@ -745,7 +700,6 @@
 
     const-string v9, "basic"
 
-    .line 46
     invoke-static {v3, v9}, Lcom/google/common/net/e;->j(Ljava/lang/String;Ljava/lang/String;)Lcom/google/common/net/e;
 
     move-result-object v9
@@ -754,7 +708,6 @@
 
     const-string v9, "aac"
 
-    .line 47
     invoke-static {v3, v9}, Lcom/google/common/net/e;->j(Ljava/lang/String;Ljava/lang/String;)Lcom/google/common/net/e;
 
     move-result-object v9
@@ -763,7 +716,6 @@
 
     const-string v9, "vorbis"
 
-    .line 48
     invoke-static {v3, v9}, Lcom/google/common/net/e;->j(Ljava/lang/String;Ljava/lang/String;)Lcom/google/common/net/e;
 
     move-result-object v9
@@ -772,7 +724,6 @@
 
     const-string v9, "x-ms-wma"
 
-    .line 49
     invoke-static {v3, v9}, Lcom/google/common/net/e;->j(Ljava/lang/String;Ljava/lang/String;)Lcom/google/common/net/e;
 
     move-result-object v9
@@ -781,7 +732,6 @@
 
     const-string v9, "x-ms-wax"
 
-    .line 50
     invoke-static {v3, v9}, Lcom/google/common/net/e;->j(Ljava/lang/String;Ljava/lang/String;)Lcom/google/common/net/e;
 
     move-result-object v9
@@ -790,7 +740,6 @@
 
     const-string v9, "vnd.rn-realaudio"
 
-    .line 51
     invoke-static {v3, v9}, Lcom/google/common/net/e;->j(Ljava/lang/String;Ljava/lang/String;)Lcom/google/common/net/e;
 
     move-result-object v9
@@ -799,28 +748,24 @@
 
     const-string v9, "vnd.wave"
 
-    .line 52
     invoke-static {v3, v9}, Lcom/google/common/net/e;->j(Ljava/lang/String;Ljava/lang/String;)Lcom/google/common/net/e;
 
     move-result-object v3
 
     sput-object v3, Lcom/google/common/net/e;->i0:Lcom/google/common/net/e;
 
-    .line 53
     invoke-static {v4, v1}, Lcom/google/common/net/e;->j(Ljava/lang/String;Ljava/lang/String;)Lcom/google/common/net/e;
 
     move-result-object v1
 
     sput-object v1, Lcom/google/common/net/e;->j0:Lcom/google/common/net/e;
 
-    .line 54
     invoke-static {v4, v2}, Lcom/google/common/net/e;->j(Ljava/lang/String;Ljava/lang/String;)Lcom/google/common/net/e;
 
     move-result-object v1
 
     sput-object v1, Lcom/google/common/net/e;->k0:Lcom/google/common/net/e;
 
-    .line 55
     invoke-static {v4, v7}, Lcom/google/common/net/e;->j(Ljava/lang/String;Ljava/lang/String;)Lcom/google/common/net/e;
 
     move-result-object v1
@@ -829,14 +774,12 @@
 
     const-string v1, "quicktime"
 
-    .line 56
     invoke-static {v4, v1}, Lcom/google/common/net/e;->j(Ljava/lang/String;Ljava/lang/String;)Lcom/google/common/net/e;
 
     move-result-object v1
 
     sput-object v1, Lcom/google/common/net/e;->m0:Lcom/google/common/net/e;
 
-    .line 57
     invoke-static {v4, v8}, Lcom/google/common/net/e;->j(Ljava/lang/String;Ljava/lang/String;)Lcom/google/common/net/e;
 
     move-result-object v1
@@ -845,7 +788,6 @@
 
     const-string v1, "x-ms-wmv"
 
-    .line 58
     invoke-static {v4, v1}, Lcom/google/common/net/e;->j(Ljava/lang/String;Ljava/lang/String;)Lcom/google/common/net/e;
 
     move-result-object v1
@@ -854,7 +796,6 @@
 
     const-string v1, "x-flv"
 
-    .line 59
     invoke-static {v4, v1}, Lcom/google/common/net/e;->j(Ljava/lang/String;Ljava/lang/String;)Lcom/google/common/net/e;
 
     move-result-object v1
@@ -863,7 +804,6 @@
 
     const-string v1, "3gpp"
 
-    .line 60
     invoke-static {v4, v1}, Lcom/google/common/net/e;->j(Ljava/lang/String;Ljava/lang/String;)Lcom/google/common/net/e;
 
     move-result-object v1
@@ -872,14 +812,12 @@
 
     const-string v1, "3gpp2"
 
-    .line 61
     invoke-static {v4, v1}, Lcom/google/common/net/e;->j(Ljava/lang/String;Ljava/lang/String;)Lcom/google/common/net/e;
 
     move-result-object v1
 
     sput-object v1, Lcom/google/common/net/e;->r0:Lcom/google/common/net/e;
 
-    .line 62
     invoke-static {v5, v6}, Lcom/google/common/net/e;->k(Ljava/lang/String;Ljava/lang/String;)Lcom/google/common/net/e;
 
     move-result-object v1
@@ -888,7 +826,6 @@
 
     const-string v1, "atom+xml"
 
-    .line 63
     invoke-static {v5, v1}, Lcom/google/common/net/e;->k(Ljava/lang/String;Ljava/lang/String;)Lcom/google/common/net/e;
 
     move-result-object v1
@@ -897,7 +834,6 @@
 
     const-string v1, "x-bzip2"
 
-    .line 64
     invoke-static {v5, v1}, Lcom/google/common/net/e;->j(Ljava/lang/String;Ljava/lang/String;)Lcom/google/common/net/e;
 
     move-result-object v1
@@ -906,7 +842,6 @@
 
     const-string v1, "dart"
 
-    .line 65
     invoke-static {v5, v1}, Lcom/google/common/net/e;->k(Ljava/lang/String;Ljava/lang/String;)Lcom/google/common/net/e;
 
     move-result-object v1
@@ -915,7 +850,6 @@
 
     const-string v1, "vnd.apple.pkpass"
 
-    .line 66
     invoke-static {v5, v1}, Lcom/google/common/net/e;->j(Ljava/lang/String;Ljava/lang/String;)Lcom/google/common/net/e;
 
     move-result-object v1
@@ -924,7 +858,6 @@
 
     const-string v1, "vnd.ms-fontobject"
 
-    .line 67
     invoke-static {v5, v1}, Lcom/google/common/net/e;->j(Ljava/lang/String;Ljava/lang/String;)Lcom/google/common/net/e;
 
     move-result-object v1
@@ -933,7 +866,6 @@
 
     const-string v1, "epub+zip"
 
-    .line 68
     invoke-static {v5, v1}, Lcom/google/common/net/e;->j(Ljava/lang/String;Ljava/lang/String;)Lcom/google/common/net/e;
 
     move-result-object v1
@@ -942,7 +874,6 @@
 
     const-string v1, "x-www-form-urlencoded"
 
-    .line 69
     invoke-static {v5, v1}, Lcom/google/common/net/e;->j(Ljava/lang/String;Ljava/lang/String;)Lcom/google/common/net/e;
 
     move-result-object v1
@@ -951,7 +882,6 @@
 
     const-string v1, "pkcs12"
 
-    .line 70
     invoke-static {v5, v1}, Lcom/google/common/net/e;->j(Ljava/lang/String;Ljava/lang/String;)Lcom/google/common/net/e;
 
     move-result-object v1
@@ -960,7 +890,6 @@
 
     const-string v1, "binary"
 
-    .line 71
     invoke-static {v5, v1}, Lcom/google/common/net/e;->j(Ljava/lang/String;Ljava/lang/String;)Lcom/google/common/net/e;
 
     move-result-object v1
@@ -969,7 +898,6 @@
 
     const-string v1, "geo+json"
 
-    .line 72
     invoke-static {v5, v1}, Lcom/google/common/net/e;->j(Ljava/lang/String;Ljava/lang/String;)Lcom/google/common/net/e;
 
     move-result-object v1
@@ -978,7 +906,6 @@
 
     const-string v1, "x-gzip"
 
-    .line 73
     invoke-static {v5, v1}, Lcom/google/common/net/e;->j(Ljava/lang/String;Ljava/lang/String;)Lcom/google/common/net/e;
 
     move-result-object v1
@@ -987,14 +914,12 @@
 
     const-string v1, "hal+json"
 
-    .line 74
     invoke-static {v5, v1}, Lcom/google/common/net/e;->j(Ljava/lang/String;Ljava/lang/String;)Lcom/google/common/net/e;
 
     move-result-object v1
 
     sput-object v1, Lcom/google/common/net/e;->E0:Lcom/google/common/net/e;
 
-    .line 75
     invoke-static {v5, v0}, Lcom/google/common/net/e;->k(Ljava/lang/String;Ljava/lang/String;)Lcom/google/common/net/e;
 
     move-result-object v0
@@ -1003,7 +928,6 @@
 
     const-string v0, "jose"
 
-    .line 76
     invoke-static {v5, v0}, Lcom/google/common/net/e;->j(Ljava/lang/String;Ljava/lang/String;)Lcom/google/common/net/e;
 
     move-result-object v0
@@ -1012,7 +936,6 @@
 
     const-string v0, "jose+json"
 
-    .line 77
     invoke-static {v5, v0}, Lcom/google/common/net/e;->j(Ljava/lang/String;Ljava/lang/String;)Lcom/google/common/net/e;
 
     move-result-object v0
@@ -1021,7 +944,6 @@
 
     const-string v0, "json"
 
-    .line 78
     invoke-static {v5, v0}, Lcom/google/common/net/e;->k(Ljava/lang/String;Ljava/lang/String;)Lcom/google/common/net/e;
 
     move-result-object v0
@@ -1030,7 +952,6 @@
 
     const-string v0, "manifest+json"
 
-    .line 79
     invoke-static {v5, v0}, Lcom/google/common/net/e;->k(Ljava/lang/String;Ljava/lang/String;)Lcom/google/common/net/e;
 
     move-result-object v0
@@ -1039,7 +960,6 @@
 
     const-string v0, "vnd.google-earth.kml+xml"
 
-    .line 80
     invoke-static {v5, v0}, Lcom/google/common/net/e;->j(Ljava/lang/String;Ljava/lang/String;)Lcom/google/common/net/e;
 
     move-result-object v0
@@ -1048,7 +968,6 @@
 
     const-string v0, "vnd.google-earth.kmz"
 
-    .line 81
     invoke-static {v5, v0}, Lcom/google/common/net/e;->j(Ljava/lang/String;Ljava/lang/String;)Lcom/google/common/net/e;
 
     move-result-object v0
@@ -1057,7 +976,6 @@
 
     const-string v0, "mbox"
 
-    .line 82
     invoke-static {v5, v0}, Lcom/google/common/net/e;->j(Ljava/lang/String;Ljava/lang/String;)Lcom/google/common/net/e;
 
     move-result-object v0
@@ -1066,7 +984,6 @@
 
     const-string v0, "x-apple-aspen-config"
 
-    .line 83
     invoke-static {v5, v0}, Lcom/google/common/net/e;->j(Ljava/lang/String;Ljava/lang/String;)Lcom/google/common/net/e;
 
     move-result-object v0
@@ -1075,7 +992,6 @@
 
     const-string v0, "vnd.ms-excel"
 
-    .line 84
     invoke-static {v5, v0}, Lcom/google/common/net/e;->j(Ljava/lang/String;Ljava/lang/String;)Lcom/google/common/net/e;
 
     move-result-object v0
@@ -1084,7 +1000,6 @@
 
     const-string v0, "vnd.ms-outlook"
 
-    .line 85
     invoke-static {v5, v0}, Lcom/google/common/net/e;->j(Ljava/lang/String;Ljava/lang/String;)Lcom/google/common/net/e;
 
     move-result-object v0
@@ -1093,7 +1008,6 @@
 
     const-string v0, "vnd.ms-powerpoint"
 
-    .line 86
     invoke-static {v5, v0}, Lcom/google/common/net/e;->j(Ljava/lang/String;Ljava/lang/String;)Lcom/google/common/net/e;
 
     move-result-object v0
@@ -1102,7 +1016,6 @@
 
     const-string v0, "msword"
 
-    .line 87
     invoke-static {v5, v0}, Lcom/google/common/net/e;->j(Ljava/lang/String;Ljava/lang/String;)Lcom/google/common/net/e;
 
     move-result-object v0
@@ -1111,7 +1024,6 @@
 
     const-string v0, "dash+xml"
 
-    .line 88
     invoke-static {v5, v0}, Lcom/google/common/net/e;->j(Ljava/lang/String;Ljava/lang/String;)Lcom/google/common/net/e;
 
     move-result-object v0
@@ -1120,7 +1032,6 @@
 
     const-string v0, "wasm"
 
-    .line 89
     invoke-static {v5, v0}, Lcom/google/common/net/e;->j(Ljava/lang/String;Ljava/lang/String;)Lcom/google/common/net/e;
 
     move-result-object v0
@@ -1129,7 +1040,6 @@
 
     const-string v0, "x-nacl"
 
-    .line 90
     invoke-static {v5, v0}, Lcom/google/common/net/e;->j(Ljava/lang/String;Ljava/lang/String;)Lcom/google/common/net/e;
 
     move-result-object v0
@@ -1138,7 +1048,6 @@
 
     const-string v0, "x-pnacl"
 
-    .line 91
     invoke-static {v5, v0}, Lcom/google/common/net/e;->j(Ljava/lang/String;Ljava/lang/String;)Lcom/google/common/net/e;
 
     move-result-object v0
@@ -1147,14 +1056,12 @@
 
     const-string v0, "octet-stream"
 
-    .line 92
     invoke-static {v5, v0}, Lcom/google/common/net/e;->j(Ljava/lang/String;Ljava/lang/String;)Lcom/google/common/net/e;
 
     move-result-object v0
 
     sput-object v0, Lcom/google/common/net/e;->W0:Lcom/google/common/net/e;
 
-    .line 93
     invoke-static {v5, v7}, Lcom/google/common/net/e;->j(Ljava/lang/String;Ljava/lang/String;)Lcom/google/common/net/e;
 
     move-result-object v0
@@ -1163,7 +1070,6 @@
 
     const-string v0, "vnd.openxmlformats-officedocument.wordprocessingml.document"
 
-    .line 94
     invoke-static {v5, v0}, Lcom/google/common/net/e;->j(Ljava/lang/String;Ljava/lang/String;)Lcom/google/common/net/e;
 
     move-result-object v0
@@ -1172,7 +1078,6 @@
 
     const-string v0, "vnd.openxmlformats-officedocument.presentationml.presentation"
 
-    .line 95
     invoke-static {v5, v0}, Lcom/google/common/net/e;->j(Ljava/lang/String;Ljava/lang/String;)Lcom/google/common/net/e;
 
     move-result-object v0
@@ -1181,7 +1086,6 @@
 
     const-string v0, "vnd.openxmlformats-officedocument.spreadsheetml.sheet"
 
-    .line 96
     invoke-static {v5, v0}, Lcom/google/common/net/e;->j(Ljava/lang/String;Ljava/lang/String;)Lcom/google/common/net/e;
 
     move-result-object v0
@@ -1190,7 +1094,6 @@
 
     const-string v0, "vnd.oasis.opendocument.graphics"
 
-    .line 97
     invoke-static {v5, v0}, Lcom/google/common/net/e;->j(Ljava/lang/String;Ljava/lang/String;)Lcom/google/common/net/e;
 
     move-result-object v0
@@ -1199,7 +1102,6 @@
 
     const-string v0, "vnd.oasis.opendocument.presentation"
 
-    .line 98
     invoke-static {v5, v0}, Lcom/google/common/net/e;->j(Ljava/lang/String;Ljava/lang/String;)Lcom/google/common/net/e;
 
     move-result-object v0
@@ -1208,7 +1110,6 @@
 
     const-string v0, "vnd.oasis.opendocument.spreadsheet"
 
-    .line 99
     invoke-static {v5, v0}, Lcom/google/common/net/e;->j(Ljava/lang/String;Ljava/lang/String;)Lcom/google/common/net/e;
 
     move-result-object v0
@@ -1217,7 +1118,6 @@
 
     const-string v0, "vnd.oasis.opendocument.text"
 
-    .line 100
     invoke-static {v5, v0}, Lcom/google/common/net/e;->j(Ljava/lang/String;Ljava/lang/String;)Lcom/google/common/net/e;
 
     move-result-object v0
@@ -1226,7 +1126,6 @@
 
     const-string v0, "opensearchdescription+xml"
 
-    .line 101
     invoke-static {v5, v0}, Lcom/google/common/net/e;->k(Ljava/lang/String;Ljava/lang/String;)Lcom/google/common/net/e;
 
     move-result-object v0
@@ -1235,7 +1134,6 @@
 
     const-string v0, "pdf"
 
-    .line 102
     invoke-static {v5, v0}, Lcom/google/common/net/e;->j(Ljava/lang/String;Ljava/lang/String;)Lcom/google/common/net/e;
 
     move-result-object v0
@@ -1244,7 +1142,6 @@
 
     const-string v0, "postscript"
 
-    .line 103
     invoke-static {v5, v0}, Lcom/google/common/net/e;->j(Ljava/lang/String;Ljava/lang/String;)Lcom/google/common/net/e;
 
     move-result-object v0
@@ -1253,7 +1150,6 @@
 
     const-string v0, "protobuf"
 
-    .line 104
     invoke-static {v5, v0}, Lcom/google/common/net/e;->j(Ljava/lang/String;Ljava/lang/String;)Lcom/google/common/net/e;
 
     move-result-object v0
@@ -1262,7 +1158,6 @@
 
     const-string v0, "rdf+xml"
 
-    .line 105
     invoke-static {v5, v0}, Lcom/google/common/net/e;->k(Ljava/lang/String;Ljava/lang/String;)Lcom/google/common/net/e;
 
     move-result-object v0
@@ -1271,7 +1166,6 @@
 
     const-string v0, "rtf"
 
-    .line 106
     invoke-static {v5, v0}, Lcom/google/common/net/e;->k(Ljava/lang/String;Ljava/lang/String;)Lcom/google/common/net/e;
 
     move-result-object v0
@@ -1280,7 +1174,6 @@
 
     const-string v0, "font-sfnt"
 
-    .line 107
     invoke-static {v5, v0}, Lcom/google/common/net/e;->j(Ljava/lang/String;Ljava/lang/String;)Lcom/google/common/net/e;
 
     move-result-object v0
@@ -1289,7 +1182,6 @@
 
     const-string v0, "x-shockwave-flash"
 
-    .line 108
     invoke-static {v5, v0}, Lcom/google/common/net/e;->j(Ljava/lang/String;Ljava/lang/String;)Lcom/google/common/net/e;
 
     move-result-object v0
@@ -1298,7 +1190,6 @@
 
     const-string v0, "vnd.sketchup.skp"
 
-    .line 109
     invoke-static {v5, v0}, Lcom/google/common/net/e;->j(Ljava/lang/String;Ljava/lang/String;)Lcom/google/common/net/e;
 
     move-result-object v0
@@ -1307,7 +1198,6 @@
 
     const-string v0, "soap+xml"
 
-    .line 110
     invoke-static {v5, v0}, Lcom/google/common/net/e;->k(Ljava/lang/String;Ljava/lang/String;)Lcom/google/common/net/e;
 
     move-result-object v0
@@ -1316,7 +1206,6 @@
 
     const-string v0, "x-tar"
 
-    .line 111
     invoke-static {v5, v0}, Lcom/google/common/net/e;->j(Ljava/lang/String;Ljava/lang/String;)Lcom/google/common/net/e;
 
     move-result-object v0
@@ -1325,7 +1214,6 @@
 
     const-string v0, "font-woff"
 
-    .line 112
     invoke-static {v5, v0}, Lcom/google/common/net/e;->j(Ljava/lang/String;Ljava/lang/String;)Lcom/google/common/net/e;
 
     move-result-object v0
@@ -1334,7 +1222,6 @@
 
     const-string v0, "font-woff2"
 
-    .line 113
     invoke-static {v5, v0}, Lcom/google/common/net/e;->j(Ljava/lang/String;Ljava/lang/String;)Lcom/google/common/net/e;
 
     move-result-object v0
@@ -1343,7 +1230,6 @@
 
     const-string v0, "xhtml+xml"
 
-    .line 114
     invoke-static {v5, v0}, Lcom/google/common/net/e;->k(Ljava/lang/String;Ljava/lang/String;)Lcom/google/common/net/e;
 
     move-result-object v0
@@ -1352,7 +1238,6 @@
 
     const-string v0, "xrd+xml"
 
-    .line 115
     invoke-static {v5, v0}, Lcom/google/common/net/e;->k(Ljava/lang/String;Ljava/lang/String;)Lcom/google/common/net/e;
 
     move-result-object v0
@@ -1361,7 +1246,6 @@
 
     const-string v0, "zip"
 
-    .line 116
     invoke-static {v5, v0}, Lcom/google/common/net/e;->j(Ljava/lang/String;Ljava/lang/String;)Lcom/google/common/net/e;
 
     move-result-object v0
@@ -1370,7 +1254,6 @@
 
     const-string v0, "; "
 
-    .line 117
     invoke-static {v0}, Lcom/google/common/base/o;->p(Ljava/lang/String;)Lcom/google/common/base/o;
 
     move-result-object v0
@@ -1400,16 +1283,12 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/google/common/net/e;->a:Ljava/lang/String;
 
-    .line 3
     iput-object p2, p0, Lcom/google/common/net/e;->b:Ljava/lang/String;
 
-    .line 4
     iput-object p3, p0, Lcom/google/common/net/e;->c:Lcom/google/common/collect/ImmutableListMultimap;
 
     return-void
@@ -1418,7 +1297,6 @@
 .method static synthetic a()Lcom/google/common/base/b;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/google/common/net/e;->i:Lcom/google/common/base/b;
 
     return-object v0
@@ -1427,7 +1305,6 @@
 .method static synthetic b(Ljava/lang/String;)Ljava/lang/String;
     .locals 0
 
-    .line 1
     invoke-static {p0}, Lcom/google/common/net/e;->o(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p0
@@ -1438,7 +1315,6 @@
 .method private static c(Lcom/google/common/net/e;)Lcom/google/common/net/e;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/google/common/net/e;->r:Ljava/util/Map;
 
     invoke-interface {v0, p0, p0}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
@@ -1449,7 +1325,6 @@
 .method private e()Ljava/lang/String;
     .locals 3
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -1466,7 +1341,6 @@
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 2
     iget-object v1, p0, Lcom/google/common/net/e;->c:Lcom/google/common/collect/ImmutableListMultimap;
 
     invoke-virtual {v1}, Lcom/google/common/collect/ImmutableMultimap;->isEmpty()Z
@@ -1477,22 +1351,18 @@
 
     const-string v1, "; "
 
-    .line 3
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 4
     iget-object v1, p0, Lcom/google/common/net/e;->c:Lcom/google/common/collect/ImmutableListMultimap;
 
     new-instance v2, Lcom/google/common/net/e$b;
 
     invoke-direct {v2, p0}, Lcom/google/common/net/e$b;-><init>(Lcom/google/common/net/e;)V
 
-    .line 5
     invoke-static {v1, v2}, Lcom/google/common/collect/Multimaps;->E(Lcom/google/common/collect/i1;Lcom/google/common/base/n;)Lcom/google/common/collect/i1;
 
     move-result-object v1
 
-    .line 6
     sget-object v2, Lcom/google/common/net/e;->v1:Lcom/google/common/base/o$d;
 
     invoke-interface {v1}, Lcom/google/common/collect/l1;->entries()Ljava/util/Collection;
@@ -1501,7 +1371,6 @@
 
     invoke-virtual {v2, v0, v1}, Lcom/google/common/base/o$d;->d(Ljava/lang/StringBuilder;Ljava/lang/Iterable;)Ljava/lang/StringBuilder;
 
-    .line 7
     :cond_0
     invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
@@ -1513,7 +1382,6 @@
 .method public static f(Ljava/lang/String;Ljava/lang/String;)Lcom/google/common/net/e;
     .locals 1
 
-    .line 1
     invoke-static {}, Lcom/google/common/collect/ImmutableListMultimap;->of()Lcom/google/common/collect/ImmutableListMultimap;
 
     move-result-object v0
@@ -1522,7 +1390,6 @@
 
     move-result-object p0
 
-    .line 2
     invoke-static {}, Lcom/google/common/base/Optional;->absent()Lcom/google/common/base/Optional;
 
     move-result-object p1
@@ -1547,28 +1414,22 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p0}, Lcom/google/common/base/t;->E(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 2
     invoke-static {p1}, Lcom/google/common/base/t;->E(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 3
     invoke-static {p2}, Lcom/google/common/base/t;->E(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 4
     invoke-static {p0}, Lcom/google/common/net/e;->s(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p0
 
-    .line 5
     invoke-static {p1}, Lcom/google/common/net/e;->s(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p1
 
     const-string v0, "*"
 
-    .line 6
     invoke-virtual {v0, p0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v1
@@ -1595,15 +1456,12 @@
     :goto_1
     const-string v1, "A wildcard type cannot be used with a non-wildcard subtype"
 
-    .line 7
     invoke-static {v0, v1}, Lcom/google/common/base/t;->e(ZLjava/lang/Object;)V
 
-    .line 8
     invoke-static {}, Lcom/google/common/collect/ImmutableListMultimap;->builder()Lcom/google/common/collect/ImmutableListMultimap$a;
 
     move-result-object v0
 
-    .line 9
     invoke-interface {p2}, Lcom/google/common/collect/l1;->entries()Ljava/util/Collection;
 
     move-result-object p2
@@ -1625,7 +1483,6 @@
 
     check-cast v1, Ljava/util/Map$Entry;
 
-    .line 10
     invoke-interface {v1}, Ljava/util/Map$Entry;->getKey()Ljava/lang/Object;
 
     move-result-object v2
@@ -1636,7 +1493,6 @@
 
     move-result-object v2
 
-    .line 11
     invoke-interface {v1}, Ljava/util/Map$Entry;->getValue()Ljava/lang/Object;
 
     move-result-object v1
@@ -1651,7 +1507,6 @@
 
     goto :goto_2
 
-    .line 12
     :cond_2
     new-instance p2, Lcom/google/common/net/e;
 
@@ -1661,7 +1516,6 @@
 
     invoke-direct {p2, p0, p1, v0}, Lcom/google/common/net/e;-><init>(Ljava/lang/String;Ljava/lang/String;Lcom/google/common/collect/ImmutableListMultimap;)V
 
-    .line 13
     sget-object p0, Lcom/google/common/net/e;->r:Ljava/util/Map;
 
     invoke-interface {p0, p2}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
@@ -1682,7 +1536,6 @@
 
     const-string v0, "application"
 
-    .line 1
     invoke-static {v0, p0}, Lcom/google/common/net/e;->f(Ljava/lang/String;Ljava/lang/String;)Lcom/google/common/net/e;
 
     move-result-object p0
@@ -1695,7 +1548,6 @@
 
     const-string v0, "audio"
 
-    .line 1
     invoke-static {v0, p0}, Lcom/google/common/net/e;->f(Ljava/lang/String;Ljava/lang/String;)Lcom/google/common/net/e;
 
     move-result-object p0
@@ -1706,10 +1558,8 @@
 .method private static j(Ljava/lang/String;Ljava/lang/String;)Lcom/google/common/net/e;
     .locals 2
 
-    .line 1
     new-instance v0, Lcom/google/common/net/e;
 
-    .line 2
     invoke-static {}, Lcom/google/common/collect/ImmutableListMultimap;->of()Lcom/google/common/collect/ImmutableListMultimap;
 
     move-result-object v1
@@ -1720,7 +1570,6 @@
 
     move-result-object p0
 
-    .line 3
     invoke-static {}, Lcom/google/common/base/Optional;->absent()Lcom/google/common/base/Optional;
 
     move-result-object p1
@@ -1733,7 +1582,6 @@
 .method private static k(Ljava/lang/String;Ljava/lang/String;)Lcom/google/common/net/e;
     .locals 2
 
-    .line 1
     new-instance v0, Lcom/google/common/net/e;
 
     sget-object v1, Lcom/google/common/net/e;->h:Lcom/google/common/collect/ImmutableListMultimap;
@@ -1744,7 +1592,6 @@
 
     move-result-object p0
 
-    .line 2
     sget-object p1, Lcom/google/common/base/c;->c:Ljava/nio/charset/Charset;
 
     invoke-static {p1}, Lcom/google/common/base/Optional;->of(Ljava/lang/Object;)Lcom/google/common/base/Optional;
@@ -1761,7 +1608,6 @@
 
     const-string v0, "image"
 
-    .line 1
     invoke-static {v0, p0}, Lcom/google/common/net/e;->f(Ljava/lang/String;Ljava/lang/String;)Lcom/google/common/net/e;
 
     move-result-object p0
@@ -1774,7 +1620,6 @@
 
     const-string v0, "text"
 
-    .line 1
     invoke-static {v0, p0}, Lcom/google/common/net/e;->f(Ljava/lang/String;Ljava/lang/String;)Lcom/google/common/net/e;
 
     move-result-object p0
@@ -1787,7 +1632,6 @@
 
     const-string v0, "video"
 
-    .line 1
     invoke-static {v0, p0}, Lcom/google/common/net/e;->f(Ljava/lang/String;Ljava/lang/String;)Lcom/google/common/net/e;
 
     move-result-object p0
@@ -1798,7 +1642,6 @@
 .method private static o(Ljava/lang/String;)Ljava/lang/String;
     .locals 6
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-virtual {p0}, Ljava/lang/String;->length()I
@@ -1815,7 +1658,6 @@
 
     const/4 v2, 0x0
 
-    .line 2
     :goto_0
     invoke-virtual {p0}, Ljava/lang/String;->length()I
 
@@ -1823,7 +1665,6 @@
 
     if-ge v2, v3, :cond_2
 
-    .line 3
     invoke-virtual {p0, v2}, Ljava/lang/String;->charAt(I)C
 
     move-result v3
@@ -1838,11 +1679,9 @@
 
     if-ne v3, v1, :cond_1
 
-    .line 4
     :cond_0
     invoke-virtual {v0, v5}, Ljava/lang/StringBuilder;->append(C)Ljava/lang/StringBuilder;
 
-    .line 5
     :cond_1
     invoke-virtual {v0, v3}, Ljava/lang/StringBuilder;->append(C)Ljava/lang/StringBuilder;
 
@@ -1850,7 +1689,6 @@
 
     goto :goto_0
 
-    .line 6
     :cond_2
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(C)Ljava/lang/StringBuilder;
 
@@ -1864,10 +1702,8 @@
 .method private static r(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
     .locals 2
 
-    .line 1
     invoke-static {p1}, Lcom/google/common/base/t;->E(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 2
     invoke-static {}, Lcom/google/common/base/b;->f()Lcom/google/common/base/b;
 
     move-result-object v0
@@ -1882,7 +1718,6 @@
 
     const-string v0, "charset"
 
-    .line 3
     invoke-virtual {v0, p0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p0
@@ -1900,7 +1735,6 @@
 .method private static s(Ljava/lang/String;)Ljava/lang/String;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/google/common/net/e;->i:Lcom/google/common/base/b;
 
     invoke-virtual {v0, p0}, Lcom/google/common/base/b;->C(Ljava/lang/CharSequence;)Z
@@ -1909,7 +1743,6 @@
 
     invoke-static {v0}, Lcom/google/common/base/t;->d(Z)V
 
-    .line 2
     invoke-virtual {p0}, Ljava/lang/String;->isEmpty()Z
 
     move-result v0
@@ -1918,7 +1751,6 @@
 
     invoke-static {v0}, Lcom/google/common/base/t;->d(Z)V
 
-    .line 3
     invoke-static {p0}, Lcom/google/common/base/a;->g(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p0
@@ -1939,10 +1771,8 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/net/e;->c:Lcom/google/common/collect/ImmutableListMultimap;
 
-    .line 2
     invoke-virtual {v0}, Lcom/google/common/collect/ImmutableMultimap;->asMap()Lcom/google/common/collect/ImmutableMap;
 
     move-result-object v0
@@ -1951,7 +1781,6 @@
 
     invoke-direct {v1, p0}, Lcom/google/common/net/e$a;-><init>(Lcom/google/common/net/e;)V
 
-    .line 3
     invoke-static {v0, v1}, Lcom/google/common/collect/Maps;->B0(Ljava/util/Map;Lcom/google/common/base/n;)Ljava/util/Map;
 
     move-result-object v0
@@ -1962,15 +1791,12 @@
 .method public static v(Ljava/lang/String;)Lcom/google/common/net/e;
     .locals 9
 
-    .line 1
     invoke-static {p0}, Lcom/google/common/base/t;->E(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 2
     new-instance v0, Lcom/google/common/net/e$c;
 
     invoke-direct {v0, p0}, Lcom/google/common/net/e$c;-><init>(Ljava/lang/String;)V
 
-    .line 3
     :try_start_0
     sget-object v1, Lcom/google/common/net/e;->i:Lcom/google/common/base/b;
 
@@ -1980,20 +1806,16 @@
 
     const/16 v3, 0x2f
 
-    .line 4
     invoke-virtual {v0, v3}, Lcom/google/common/net/e$c;->a(C)C
 
-    .line 5
     invoke-virtual {v0, v1}, Lcom/google/common/net/e$c;->c(Lcom/google/common/base/b;)Ljava/lang/String;
 
     move-result-object v1
 
-    .line 6
     invoke-static {}, Lcom/google/common/collect/ImmutableListMultimap;->builder()Lcom/google/common/collect/ImmutableListMultimap$a;
 
     move-result-object v3
 
-    .line 7
     :goto_0
     invoke-virtual {v0}, Lcom/google/common/net/e$c;->e()Z
 
@@ -2001,20 +1823,16 @@
 
     if-eqz v4, :cond_3
 
-    .line 8
     sget-object v4, Lcom/google/common/net/e;->k:Lcom/google/common/base/b;
 
     invoke-virtual {v0, v4}, Lcom/google/common/net/e$c;->d(Lcom/google/common/base/b;)Ljava/lang/String;
 
     const/16 v5, 0x3b
 
-    .line 9
     invoke-virtual {v0, v5}, Lcom/google/common/net/e$c;->a(C)C
 
-    .line 10
     invoke-virtual {v0, v4}, Lcom/google/common/net/e$c;->d(Lcom/google/common/base/b;)Ljava/lang/String;
 
-    .line 11
     sget-object v4, Lcom/google/common/net/e;->i:Lcom/google/common/base/b;
 
     invoke-virtual {v0, v4}, Lcom/google/common/net/e$c;->c(Lcom/google/common/base/b;)Ljava/lang/String;
@@ -2023,10 +1841,8 @@
 
     const/16 v6, 0x3d
 
-    .line 12
     invoke-virtual {v0, v6}, Lcom/google/common/net/e$c;->a(C)C
 
-    .line 13
     invoke-virtual {v0}, Lcom/google/common/net/e$c;->f()C
 
     move-result v6
@@ -2035,15 +1851,12 @@
 
     if-ne v7, v6, :cond_2
 
-    .line 14
     invoke-virtual {v0, v7}, Lcom/google/common/net/e$c;->a(C)C
 
-    .line 15
     new-instance v4, Ljava/lang/StringBuilder;
 
     invoke-direct {v4}, Ljava/lang/StringBuilder;-><init>()V
 
-    .line 16
     :goto_1
     invoke-virtual {v0}, Lcom/google/common/net/e$c;->f()C
 
@@ -2051,7 +1864,6 @@
 
     if-eq v7, v6, :cond_1
 
-    .line 17
     invoke-virtual {v0}, Lcom/google/common/net/e$c;->f()C
 
     move-result v6
@@ -2060,10 +1872,8 @@
 
     if-ne v8, v6, :cond_0
 
-    .line 18
     invoke-virtual {v0, v8}, Lcom/google/common/net/e$c;->a(C)C
 
-    .line 19
     invoke-static {}, Lcom/google/common/base/b;->f()Lcom/google/common/base/b;
 
     move-result-object v6
@@ -2076,7 +1886,6 @@
 
     goto :goto_1
 
-    .line 20
     :cond_0
     sget-object v6, Lcom/google/common/net/e;->j:Lcom/google/common/base/b;
 
@@ -2088,30 +1897,25 @@
 
     goto :goto_1
 
-    .line 21
     :cond_1
     invoke-virtual {v4}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     move-result-object v4
 
-    .line 22
     invoke-virtual {v0, v7}, Lcom/google/common/net/e$c;->a(C)C
 
     goto :goto_2
 
-    .line 23
     :cond_2
     invoke-virtual {v0, v4}, Lcom/google/common/net/e$c;->c(Lcom/google/common/base/b;)Ljava/lang/String;
 
     move-result-object v4
 
-    .line 24
     :goto_2
     invoke-virtual {v3, v5, v4}, Lcom/google/common/collect/ImmutableListMultimap$a;->o(Ljava/lang/Object;Ljava/lang/Object;)Lcom/google/common/collect/ImmutableListMultimap$a;
 
     goto :goto_0
 
-    .line 25
     :cond_3
     invoke-virtual {v3}, Lcom/google/common/collect/ImmutableListMultimap$a;->l()Lcom/google/common/collect/ImmutableListMultimap;
 
@@ -2128,7 +1932,6 @@
     :catch_0
     move-exception v0
 
-    .line 26
     new-instance v1, Ljava/lang/IllegalArgumentException;
 
     new-instance v2, Ljava/lang/StringBuilder;
@@ -2169,7 +1972,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/net/e;->a:Ljava/lang/String;
 
     iget-object v1, p0, Lcom/google/common/net/e;->b:Ljava/lang/String;
@@ -2194,23 +1996,18 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p1}, Lcom/google/common/base/t;->E(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 2
     invoke-static {p2}, Lcom/google/common/base/t;->E(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 3
     invoke-static {p1}, Lcom/google/common/net/e;->s(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p1
 
-    .line 4
     invoke-static {}, Lcom/google/common/collect/ImmutableListMultimap;->builder()Lcom/google/common/collect/ImmutableListMultimap$a;
 
     move-result-object v0
 
-    .line 5
     iget-object v1, p0, Lcom/google/common/net/e;->c:Lcom/google/common/collect/ImmutableListMultimap;
 
     invoke-virtual {v1}, Lcom/google/common/collect/ImmutableMultimap;->entries()Lcom/google/common/collect/ImmutableCollection;
@@ -2235,21 +2032,18 @@
 
     check-cast v2, Ljava/util/Map$Entry;
 
-    .line 6
     invoke-interface {v2}, Ljava/util/Map$Entry;->getKey()Ljava/lang/Object;
 
     move-result-object v3
 
     check-cast v3, Ljava/lang/String;
 
-    .line 7
     invoke-virtual {p1, v3}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v4
 
     if-nez v4, :cond_0
 
-    .line 8
     invoke-interface {v2}, Ljava/util/Map$Entry;->getValue()Ljava/lang/Object;
 
     move-result-object v2
@@ -2258,7 +2052,6 @@
 
     goto :goto_0
 
-    .line 9
     :cond_1
     invoke-interface {p2}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
@@ -2277,7 +2070,6 @@
 
     check-cast v1, Ljava/lang/String;
 
-    .line 10
     invoke-static {p1, v1}, Lcom/google/common/net/e;->r(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v1
@@ -2286,7 +2078,6 @@
 
     goto :goto_1
 
-    .line 11
     :cond_2
     new-instance p2, Lcom/google/common/net/e;
 
@@ -2302,19 +2093,16 @@
 
     const-string v0, "charset"
 
-    .line 12
     invoke-virtual {p1, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p1
 
     if-nez p1, :cond_3
 
-    .line 13
     iget-object p1, p0, Lcom/google/common/net/e;->f:Lcom/google/common/base/Optional;
 
     iput-object p1, p2, Lcom/google/common/net/e;->f:Lcom/google/common/base/Optional;
 
-    .line 14
     :cond_3
     sget-object p1, Lcom/google/common/net/e;->r:Ljava/util/Map;
 
@@ -2334,7 +2122,6 @@
 .method public C()Lcom/google/common/net/e;
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/net/e;->c:Lcom/google/common/collect/ImmutableListMultimap;
 
     invoke-virtual {v0}, Lcom/google/common/collect/ImmutableMultimap;->isEmpty()Z
@@ -2371,19 +2158,16 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/net/e;->f:Lcom/google/common/base/Optional;
 
     if-nez v0, :cond_3
 
     const/4 v0, 0x0
 
-    .line 2
     invoke-static {}, Lcom/google/common/base/Optional;->absent()Lcom/google/common/base/Optional;
 
     move-result-object v1
 
-    .line 3
     iget-object v2, p0, Lcom/google/common/net/e;->c:Lcom/google/common/collect/ImmutableListMultimap;
 
     const-string v3, "charset"
@@ -2417,7 +2201,6 @@
 
     if-nez v1, :cond_0
 
-    .line 4
     invoke-static {v3}, Ljava/nio/charset/Charset;->forName(Ljava/lang/String;)Ljava/nio/charset/Charset;
 
     move-result-object v0
@@ -2430,7 +2213,6 @@
 
     goto :goto_0
 
-    .line 5
     :cond_0
     invoke-virtual {v1, v3}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
@@ -2440,7 +2222,6 @@
 
     goto :goto_0
 
-    .line 6
     :cond_1
     new-instance v0, Ljava/lang/IllegalStateException;
 
@@ -2468,7 +2249,6 @@
 
     throw v0
 
-    .line 7
     :cond_2
     iput-object v0, p0, Lcom/google/common/net/e;->f:Lcom/google/common/base/Optional;
 
@@ -2489,7 +2269,6 @@
 
     return v0
 
-    .line 1
     :cond_0
     instance-of v1, p1, Lcom/google/common/net/e;
 
@@ -2497,10 +2276,8 @@
 
     if-eqz v1, :cond_2
 
-    .line 2
     check-cast p1, Lcom/google/common/net/e;
 
-    .line 3
     iget-object v1, p0, Lcom/google/common/net/e;->a:Ljava/lang/String;
 
     iget-object v3, p1, Lcom/google/common/net/e;->a:Ljava/lang/String;
@@ -2515,14 +2292,12 @@
 
     iget-object v3, p1, Lcom/google/common/net/e;->b:Ljava/lang/String;
 
-    .line 4
     invoke-virtual {v1, v3}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v1
 
     if-eqz v1, :cond_1
 
-    .line 5
     invoke-direct {p0}, Lcom/google/common/net/e;->u()Ljava/util/Map;
 
     move-result-object v1
@@ -2552,7 +2327,6 @@
 .method public hashCode()I
     .locals 3
 
-    .line 1
     iget v0, p0, Lcom/google/common/net/e;->e:I
 
     if-nez v0, :cond_0
@@ -2563,7 +2337,6 @@
 
     const/4 v1, 0x0
 
-    .line 2
     iget-object v2, p0, Lcom/google/common/net/e;->a:Ljava/lang/String;
 
     aput-object v2, v0, v1
@@ -2586,7 +2359,6 @@
 
     move-result v0
 
-    .line 3
     iput v0, p0, Lcom/google/common/net/e;->e:I
 
     :cond_0
@@ -2596,7 +2368,6 @@
 .method public p()Z
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/net/e;->a:Ljava/lang/String;
 
     const-string v1, "*"
@@ -2633,7 +2404,6 @@
 .method public q(Lcom/google/common/net/e;)Z
     .locals 3
 
-    .line 1
     iget-object v0, p1, Lcom/google/common/net/e;->a:Ljava/lang/String;
 
     const-string v1, "*"
@@ -2657,7 +2427,6 @@
     :cond_0
     iget-object v0, p1, Lcom/google/common/net/e;->b:Ljava/lang/String;
 
-    .line 2
     invoke-virtual {v0, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v0
@@ -2677,7 +2446,6 @@
     :cond_1
     iget-object v0, p0, Lcom/google/common/net/e;->c:Lcom/google/common/collect/ImmutableListMultimap;
 
-    .line 3
     invoke-virtual {v0}, Lcom/google/common/collect/ImmutableMultimap;->entries()Lcom/google/common/collect/ImmutableCollection;
 
     move-result-object v0
@@ -2717,7 +2485,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/net/e;->c:Lcom/google/common/collect/ImmutableListMultimap;
 
     return-object v0
@@ -2726,17 +2493,14 @@
 .method public toString()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/net/e;->d:Ljava/lang/String;
 
     if-nez v0, :cond_0
 
-    .line 2
     invoke-direct {p0}, Lcom/google/common/net/e;->e()Ljava/lang/String;
 
     move-result-object v0
 
-    .line 3
     iput-object v0, p0, Lcom/google/common/net/e;->d:Ljava/lang/String;
 
     :cond_0
@@ -2746,7 +2510,6 @@
 .method public w()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/net/e;->b:Ljava/lang/String;
 
     return-object v0
@@ -2755,7 +2518,6 @@
 .method public x()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/net/e;->a:Ljava/lang/String;
 
     return-object v0
@@ -2764,10 +2526,8 @@
 .method public y(Ljava/nio/charset/Charset;)Lcom/google/common/net/e;
     .locals 2
 
-    .line 1
     invoke-static {p1}, Lcom/google/common/base/t;->E(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 2
     invoke-virtual {p1}, Ljava/nio/charset/Charset;->name()Ljava/lang/String;
 
     move-result-object v0
@@ -2778,7 +2538,6 @@
 
     move-result-object v0
 
-    .line 3
     invoke-static {p1}, Lcom/google/common/base/Optional;->of(Ljava/lang/Object;)Lcom/google/common/base/Optional;
 
     move-result-object p1
@@ -2791,7 +2550,6 @@
 .method public z(Ljava/lang/String;Ljava/lang/String;)Lcom/google/common/net/e;
     .locals 0
 
-    .line 1
     invoke-static {p2}, Lcom/google/common/collect/ImmutableSet;->of(Ljava/lang/Object;)Lcom/google/common/collect/ImmutableSet;
 
     move-result-object p2

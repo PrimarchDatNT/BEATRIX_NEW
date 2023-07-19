@@ -52,7 +52,6 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
     new-instance v0, Lcom/sdk/imp/base/k$a;
 
     invoke-direct {v0}, Lcom/sdk/imp/base/k$a;-><init>()V
@@ -88,31 +87,24 @@
         }
     .end annotation
 
-    .line 2
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 3
     invoke-static {p1}, Ljava/util/EnumSet;->copyOf(Ljava/util/EnumSet;)Ljava/util/EnumSet;
 
     move-result-object p1
 
     iput-object p1, p0, Lcom/sdk/imp/base/k;->a:Ljava/util/EnumSet;
 
-    .line 4
     iput-object p2, p0, Lcom/sdk/imp/base/k;->b:Lcom/sdk/imp/base/k$d;
 
-    .line 5
     iput-object p3, p0, Lcom/sdk/imp/base/k;->c:Lcom/sdk/imp/base/k$e;
 
-    .line 6
     iput-boolean p4, p0, Lcom/sdk/imp/base/k;->d:Z
 
     const/4 p1, 0x0
 
-    .line 7
     iput-boolean p1, p0, Lcom/sdk/imp/base/k;->e:Z
 
-    .line 8
     iput-boolean p1, p0, Lcom/sdk/imp/base/k;->f:Z
 
     return-void
@@ -121,7 +113,6 @@
 .method synthetic constructor <init>(Ljava/util/EnumSet;Lcom/sdk/imp/base/k$d;Lcom/sdk/imp/base/k$e;ZLcom/sdk/imp/base/k$a;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1, p2, p3, p4}, Lcom/sdk/imp/base/k;-><init>(Ljava/util/EnumSet;Lcom/sdk/imp/base/k$d;Lcom/sdk/imp/base/k$e;Z)V
 
     return-void
@@ -130,7 +121,6 @@
 .method static synthetic a()Lcom/sdk/imp/base/k$d;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/sdk/imp/base/k;->g:Lcom/sdk/imp/base/k$d;
 
     return-object v0
@@ -139,7 +129,6 @@
 .method static synthetic b(Lcom/sdk/imp/base/k;Z)Z
     .locals 0
 
-    .line 1
     iput-boolean p1, p0, Lcom/sdk/imp/base/k;->f:Z
 
     return p1
@@ -148,7 +137,6 @@
 .method static synthetic c(Lcom/sdk/imp/base/k;Ljava/lang/String;Lcom/sdk/imp/base/UrlAction;Ljava/lang/String;Ljava/lang/Throwable;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1, p2, p3, p4}, Lcom/sdk/imp/base/k;->d(Ljava/lang/String;Lcom/sdk/imp/base/UrlAction;Ljava/lang/String;Ljava/lang/Throwable;)V
 
     return-void
@@ -173,15 +161,12 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-static {p3}, Lcom/sdk/imp/base/i;->a(Ljava/lang/Object;)V
 
     if-nez p2, :cond_0
 
-    .line 2
     sget-object p2, Lcom/sdk/imp/base/UrlAction;->NOOP:Lcom/sdk/imp/base/UrlAction;
 
-    .line 3
     :cond_0
     iget-object p3, p0, Lcom/sdk/imp/base/k;->b:Lcom/sdk/imp/base/k$d;
 
@@ -197,7 +182,6 @@
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/sdk/imp/base/k;->c:Lcom/sdk/imp/base/k$e;
 
     return-object v0
@@ -214,7 +198,6 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-static {p2}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v0
@@ -227,21 +210,17 @@
 
     const-string p1, "Attempted to handle empty url."
 
-    .line 2
     invoke-direct {p0, p2, v2, p1, v2}, Lcom/sdk/imp/base/k;->d(Ljava/lang/String;Lcom/sdk/imp/base/UrlAction;Ljava/lang/String;Ljava/lang/Throwable;)V
 
     return v1
 
-    .line 3
     :cond_0
     sget-object v0, Lcom/sdk/imp/base/UrlAction;->NOOP:Lcom/sdk/imp/base/UrlAction;
 
-    .line 4
     invoke-static {p2}, Landroid/net/Uri;->parse(Ljava/lang/String;)Landroid/net/Uri;
 
     move-result-object v3
 
-    .line 5
     iget-object v4, p0, Lcom/sdk/imp/base/k;->a:Ljava/util/EnumSet;
 
     invoke-virtual {v4}, Ljava/util/EnumSet;->iterator()Ljava/util/Iterator;
@@ -262,18 +241,15 @@
 
     check-cast v5, Lcom/sdk/imp/base/UrlAction;
 
-    .line 6
     invoke-virtual {v5, v3}, Lcom/sdk/imp/base/UrlAction;->shouldTryHandlingUrl(Landroid/net/Uri;)Z
 
     move-result v6
 
     if-eqz v6, :cond_1
 
-    .line 7
     :try_start_0
     invoke-virtual {v5, p0, p1, v3, p3}, Lcom/sdk/imp/base/UrlAction;->handleUrl(Lcom/sdk/imp/base/k;Landroid/content/Context;Landroid/net/Uri;Z)V
 
-    .line 8
     iget-boolean v0, p0, Lcom/sdk/imp/base/k;->e:Z
 
     const/4 v6, 0x1
@@ -286,7 +262,6 @@
 
     sget-object v0, Lcom/sdk/imp/base/UrlAction;->IGNORE_ABOUT_SCHEME:Lcom/sdk/imp/base/UrlAction;
 
-    .line 9
     invoke-virtual {v0, v5}, Ljava/lang/Enum;->equals(Ljava/lang/Object;)Z
 
     move-result v0
@@ -295,14 +270,12 @@
 
     sget-object v0, Lcom/sdk/imp/base/UrlAction;->HANDLE_US_SCHEME:Lcom/sdk/imp/base/UrlAction;
 
-    .line 10
     invoke-virtual {v0, v5}, Ljava/lang/Enum;->equals(Ljava/lang/Object;)Z
 
     move-result v0
 
     if-nez v0, :cond_2
 
-    .line 11
     iget-object v0, p0, Lcom/sdk/imp/base/k;->b:Lcom/sdk/imp/base/k$d;
 
     invoke-virtual {v3}, Landroid/net/Uri;->toString()Ljava/lang/String;
@@ -311,7 +284,6 @@
 
     invoke-interface {v0, v7, v5}, Lcom/sdk/imp/base/k$d;->b(Ljava/lang/String;Lcom/sdk/imp/base/UrlAction;)V
 
-    .line 12
     iput-boolean v6, p0, Lcom/sdk/imp/base/k;->e:Z
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
@@ -322,7 +294,6 @@
     :catch_0
     move-exception v0
 
-    .line 13
     invoke-virtual {v0}, Ljava/lang/Exception;->getMessage()Ljava/lang/String;
 
     move-result-object v6
@@ -337,7 +308,6 @@
 
     goto :goto_0
 
-    .line 14
     :cond_3
     new-instance p1, Ljava/lang/StringBuilder;
 
@@ -369,12 +339,10 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-static {p1}, Lcom/sdk/imp/base/i;->a(Ljava/lang/Object;)V
 
     const/4 v0, 0x1
 
-    .line 2
     invoke-virtual {p0, p1, p2, v0}, Lcom/sdk/imp/base/k;->h(Landroid/content/Context;Ljava/lang/String;Z)V
 
     return-void
@@ -391,10 +359,8 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-static {p1}, Lcom/sdk/imp/base/i;->a(Ljava/lang/Object;)V
 
-    .line 2
     invoke-static {p2}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v0
@@ -405,23 +371,19 @@
 
     const-string p3, "Attempted to handle empty url."
 
-    .line 3
     invoke-direct {p0, p2, p1, p3, p1}, Lcom/sdk/imp/base/k;->d(Ljava/lang/String;Lcom/sdk/imp/base/UrlAction;Ljava/lang/String;Ljava/lang/Throwable;)V
 
     return-void
 
-    .line 4
     :cond_0
     new-instance v0, Lcom/sdk/imp/base/k$b;
 
     invoke-direct {v0, p0, p1, p3, p2}, Lcom/sdk/imp/base/k$b;-><init>(Lcom/sdk/imp/base/k;Landroid/content/Context;ZLjava/lang/String;)V
 
-    .line 5
     invoke-static {p2, v0}, Lcom/sdk/imp/base/l;->c(Ljava/lang/String;Lcom/sdk/imp/base/l$a;)V
 
     const/4 p1, 0x1
 
-    .line 6
     iput-boolean p1, p0, Lcom/sdk/imp/base/k;->f:Z
 
     return-void
@@ -430,7 +392,6 @@
 .method i()Z
     .locals 1
 
-    .line 1
     iget-boolean v0, p0, Lcom/sdk/imp/base/k;->d:Z
 
     return v0

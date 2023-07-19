@@ -32,7 +32,6 @@
 .method static constructor <clinit>()V
     .locals 0
 
-    .line 1
     invoke-static {}, Lcom/moat/analytics/mobile/spotx/q$1;->ajc$preClinit()V
 
     return-void
@@ -41,7 +40,6 @@
 .method constructor <init>(Landroid/content/Context;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/moat/analytics/mobile/spotx/q$1;->a:Landroid/content/Context;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -52,7 +50,6 @@
 .method private static synthetic ajc$preClinit()V
     .locals 11
 
-    .line 1
     new-instance v8, Ln/a/b/c/e;
 
     const-class v0, Lcom/moat/analytics/mobile/spotx/q$1;
@@ -149,7 +146,6 @@
 .method static final synthetic invoke_aroundBody0(Lcom/moat/analytics/mobile/spotx/q$1;Ljava/lang/reflect/Method;Ljava/lang/Object;[Ljava/lang/Object;Lorg/aspectj/lang/c;)Ljava/lang/Object;
     .locals 0
 
-    .line 1
     invoke-virtual {p1, p2, p3}, Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p0
@@ -160,7 +156,6 @@
 .method static final synthetic invoke_aroundBody2(Lcom/moat/analytics/mobile/spotx/q$1;Ljava/lang/reflect/Method;Ljava/lang/Object;[Ljava/lang/Object;Lorg/aspectj/lang/c;)Ljava/lang/Object;
     .locals 0
 
-    .line 1
     invoke-virtual {p1, p2, p3}, Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p0
@@ -171,7 +166,6 @@
 .method static final synthetic invoke_aroundBody4(Lcom/moat/analytics/mobile/spotx/q$1;Ljava/lang/reflect/Method;Ljava/lang/Object;[Ljava/lang/Object;Lorg/aspectj/lang/c;)Ljava/lang/Object;
     .locals 0
 
-    .line 1
     invoke-virtual {p1, p2, p3}, Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p0
@@ -189,7 +183,6 @@
     :try_start_0
     const-string v1, "com.google.android.gms.ads.identifier.AdvertisingIdClient"
 
-    .line 1
     invoke-static {v1}, Ljava/lang/Class;->forName(Ljava/lang/String;)Ljava/lang/Class;
 
     move-result-object v1

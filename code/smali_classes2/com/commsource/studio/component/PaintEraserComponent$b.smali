@@ -42,7 +42,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/studio/component/PaintEraserComponent$b;->a:Lcom/commsource/studio/component/PaintEraserComponent;
 
     invoke-virtual {v0}, Lcom/commsource/studio/component/PaintEraserComponent;->getViewBinding()Lcom/commsource/beautyplus/f0/e2;
@@ -61,18 +60,15 @@
 
     if-nez v0, :cond_0
 
-    .line 2
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 3
     :cond_0
     iget-object v0, p0, Lcom/commsource/studio/component/PaintEraserComponent$b;->a:Lcom/commsource/studio/component/PaintEraserComponent;
 
     invoke-virtual {v0}, Lcom/commsource/studio/component/PaintEraserComponent;->i()V
 
-    .line 4
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

@@ -31,7 +31,6 @@
     .annotation build Lcotlinx/coroutines/y1;
     .end annotation
 
-    .line 1
     new-instance v0, Lcotlinx/coroutines/g1;
 
     invoke-direct {v0, p1}, Lcotlinx/coroutines/g1;-><init>(Lcotlinx/coroutines/f1;)V
@@ -62,21 +61,18 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     instance-of v0, p0, Lcotlinx/coroutines/w0;
 
     const/4 v1, 0x0
 
     if-nez v0, :cond_0
 
-    .line 2
     new-instance v0, Lcotlinx/coroutines/n;
 
     invoke-direct {v0, p0, v1}, Lcotlinx/coroutines/n;-><init>(Lcotlin/coroutines/c;I)V
 
     return-object v0
 
-    .line 3
     :cond_0
     move-object v0, p0
 
@@ -104,7 +100,6 @@
 
     return-object v0
 
-    .line 4
     :cond_2
     new-instance v0, Lcotlinx/coroutines/n;
 
@@ -133,7 +128,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lcotlinx/coroutines/u2;
 
     invoke-direct {v0, p1}, Lcotlinx/coroutines/u2;-><init>(Lcotlinx/coroutines/internal/m;)V
@@ -176,7 +170,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     new-instance v0, Lcotlinx/coroutines/n;
 
     invoke-static {p1}, Lcotlin/coroutines/intrinsics/a;->d(Lcotlin/coroutines/c;)Lcotlin/coroutines/c;
@@ -187,15 +180,12 @@
 
     invoke-direct {v0, v1, v2}, Lcotlinx/coroutines/n;-><init>(Lcotlin/coroutines/c;I)V
 
-    .line 2
     invoke-interface {p0, v0}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 3
     invoke-virtual {v0}, Lcotlinx/coroutines/n;->v()Ljava/lang/Object;
 
     move-result-object p0
 
-    .line 4
     invoke-static {}, Lcotlin/coroutines/intrinsics/a;->h()Ljava/lang/Object;
 
     move-result-object v0
@@ -249,7 +239,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     new-instance p0, Lcotlinx/coroutines/n;
 
     invoke-static {p2}, Lcotlin/coroutines/intrinsics/a;->d(Lcotlin/coroutines/c;)Lcotlin/coroutines/c;
@@ -260,15 +249,12 @@
 
     invoke-direct {p0, v0, v1}, Lcotlinx/coroutines/n;-><init>(Lcotlin/coroutines/c;I)V
 
-    .line 2
     invoke-interface {p1, p0}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 3
     invoke-virtual {p0}, Lcotlinx/coroutines/n;->v()Ljava/lang/Object;
 
     move-result-object p0
 
-    .line 4
     invoke-static {}, Lcotlin/coroutines/intrinsics/a;->h()Ljava/lang/Object;
 
     move-result-object p1
@@ -299,10 +285,8 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-static {v0}, Lcotlin/jvm/internal/c0;->e(I)V
 
-    .line 2
     new-instance v1, Lcotlinx/coroutines/n;
 
     invoke-static {p1}, Lcotlin/coroutines/intrinsics/a;->d(Lcotlin/coroutines/c;)Lcotlin/coroutines/c;
@@ -311,15 +295,12 @@
 
     invoke-direct {v1, v2, v0}, Lcotlinx/coroutines/n;-><init>(Lcotlin/coroutines/c;I)V
 
-    .line 3
     invoke-interface {p0, v1}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 4
     invoke-virtual {v1}, Lcotlinx/coroutines/n;->v()Ljava/lang/Object;
 
     move-result-object p0
 
-    .line 5
     invoke-static {}, Lcotlin/coroutines/intrinsics/a;->h()Ljava/lang/Object;
 
     move-result-object v0
@@ -362,10 +343,8 @@
 
     const/4 p0, 0x0
 
-    .line 1
     invoke-static {p0}, Lcotlin/jvm/internal/c0;->e(I)V
 
-    .line 2
     new-instance v0, Lcotlinx/coroutines/n;
 
     invoke-static {p2}, Lcotlin/coroutines/intrinsics/a;->d(Lcotlin/coroutines/c;)Lcotlin/coroutines/c;
@@ -374,15 +353,12 @@
 
     invoke-direct {v0, v1, p0}, Lcotlinx/coroutines/n;-><init>(Lcotlin/coroutines/c;I)V
 
-    .line 3
     invoke-interface {p1, v0}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 4
     invoke-virtual {v0}, Lcotlinx/coroutines/n;->v()Ljava/lang/Object;
 
     move-result-object p0
 
-    .line 5
     invoke-static {}, Lcotlin/coroutines/intrinsics/a;->h()Ljava/lang/Object;
 
     move-result-object p1
@@ -408,10 +384,8 @@
 
     const/4 p3, 0x0
 
-    .line 1
     invoke-static {p3}, Lcotlin/jvm/internal/c0;->e(I)V
 
-    .line 2
     new-instance p4, Lcotlinx/coroutines/n;
 
     invoke-static {p2}, Lcotlin/coroutines/intrinsics/a;->d(Lcotlin/coroutines/c;)Lcotlin/coroutines/c;
@@ -420,15 +394,12 @@
 
     invoke-direct {p4, v0, p3}, Lcotlinx/coroutines/n;-><init>(Lcotlin/coroutines/c;I)V
 
-    .line 3
     invoke-interface {p1, p4}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 4
     invoke-virtual {p4}, Lcotlinx/coroutines/n;->v()Ljava/lang/Object;
 
     move-result-object p1
 
-    .line 5
     invoke-static {}, Lcotlin/coroutines/intrinsics/a;->h()Ljava/lang/Object;
 
     move-result-object p3
@@ -473,7 +444,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     invoke-static {p1}, Lcotlin/coroutines/intrinsics/a;->d(Lcotlin/coroutines/c;)Lcotlin/coroutines/c;
 
     move-result-object v0
@@ -482,15 +452,12 @@
 
     move-result-object v0
 
-    .line 2
     invoke-interface {p0, v0}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 3
     invoke-virtual {v0}, Lcotlinx/coroutines/n;->v()Ljava/lang/Object;
 
     move-result-object p0
 
-    .line 4
     invoke-static {}, Lcotlin/coroutines/intrinsics/a;->h()Ljava/lang/Object;
 
     move-result-object v0
@@ -518,10 +485,8 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-static {v0}, Lcotlin/jvm/internal/c0;->e(I)V
 
-    .line 2
     invoke-static {p1}, Lcotlin/coroutines/intrinsics/a;->d(Lcotlin/coroutines/c;)Lcotlin/coroutines/c;
 
     move-result-object v0
@@ -530,15 +495,12 @@
 
     move-result-object v0
 
-    .line 3
     invoke-interface {p0, v0}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 4
     invoke-virtual {v0}, Lcotlinx/coroutines/n;->v()Ljava/lang/Object;
 
     move-result-object p0
 
-    .line 5
     invoke-static {}, Lcotlin/coroutines/intrinsics/a;->h()Ljava/lang/Object;
 
     move-result-object v0
@@ -585,7 +547,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     new-instance v0, Lcotlinx/coroutines/n;
 
     invoke-static {p1}, Lcotlin/coroutines/intrinsics/a;->d(Lcotlin/coroutines/c;)Lcotlin/coroutines/c;
@@ -596,15 +557,12 @@
 
     invoke-direct {v0, v1, v2}, Lcotlinx/coroutines/n;-><init>(Lcotlin/coroutines/c;I)V
 
-    .line 2
     invoke-interface {p0, v0}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 3
     invoke-virtual {v0}, Lcotlinx/coroutines/n;->v()Ljava/lang/Object;
 
     move-result-object p0
 
-    .line 4
     invoke-static {}, Lcotlin/coroutines/intrinsics/a;->h()Ljava/lang/Object;
 
     move-result-object v0
@@ -632,10 +590,8 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-static {v0}, Lcotlin/jvm/internal/c0;->e(I)V
 
-    .line 2
     new-instance v0, Lcotlinx/coroutines/n;
 
     invoke-static {p1}, Lcotlin/coroutines/intrinsics/a;->d(Lcotlin/coroutines/c;)Lcotlin/coroutines/c;
@@ -646,15 +602,12 @@
 
     invoke-direct {v0, v1, v2}, Lcotlinx/coroutines/n;-><init>(Lcotlin/coroutines/c;I)V
 
-    .line 3
     invoke-interface {p0, v0}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 4
     invoke-virtual {v0}, Lcotlinx/coroutines/n;->v()Ljava/lang/Object;
 
     move-result-object p0
 
-    .line 5
     invoke-static {}, Lcotlin/coroutines/intrinsics/a;->h()Ljava/lang/Object;
 
     move-result-object v0

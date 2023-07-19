@@ -30,7 +30,6 @@
 
     const/4 v0, 0x4
 
-    .line 1
     invoke-direct {p0, v0}, Lcom/google/common/collect/ImmutableList$a;-><init>(I)V
 
     return-void
@@ -39,7 +38,6 @@
 .method constructor <init>(I)V
     .locals 0
 
-    .line 2
     invoke-direct {p0, p1}, Lcom/google/common/collect/ImmutableCollection$a;-><init>(I)V
 
     return-void
@@ -52,7 +50,6 @@
     .annotation build Lf/f/f/a/a;
     .end annotation
 
-    .line 1
     invoke-virtual {p0, p1}, Lcom/google/common/collect/ImmutableList$a;->i(Ljava/lang/Object;)Lcom/google/common/collect/ImmutableList$a;
 
     move-result-object p1
@@ -65,7 +62,6 @@
     .annotation build Lf/f/f/a/a;
     .end annotation
 
-    .line 1
     invoke-virtual {p0, p1}, Lcom/google/common/collect/ImmutableList$a;->j([Ljava/lang/Object;)Lcom/google/common/collect/ImmutableList$a;
 
     move-result-object p1
@@ -78,7 +74,6 @@
     .annotation build Lf/f/f/a/a;
     .end annotation
 
-    .line 1
     invoke-virtual {p0, p1}, Lcom/google/common/collect/ImmutableList$a;->k(Ljava/lang/Iterable;)Lcom/google/common/collect/ImmutableList$a;
 
     move-result-object p1
@@ -91,7 +86,6 @@
     .annotation build Lf/f/f/a/a;
     .end annotation
 
-    .line 1
     invoke-virtual {p0, p1}, Lcom/google/common/collect/ImmutableList$a;->l(Ljava/util/Iterator;)Lcom/google/common/collect/ImmutableList$a;
 
     move-result-object p1
@@ -102,7 +96,6 @@
 .method public bridge synthetic e()Lcom/google/common/collect/ImmutableCollection;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/collect/ImmutableList$a;->m()Lcom/google/common/collect/ImmutableList;
 
     move-result-object v0
@@ -115,7 +108,6 @@
     .annotation build Lf/f/f/a/a;
     .end annotation
 
-    .line 1
     invoke-virtual {p0, p1}, Lcom/google/common/collect/ImmutableList$a;->i(Ljava/lang/Object;)Lcom/google/common/collect/ImmutableList$a;
 
     move-result-object p1
@@ -136,7 +128,6 @@
     .annotation build Lf/f/f/a/a;
     .end annotation
 
-    .line 1
     invoke-super {p0, p1}, Lcom/google/common/collect/ImmutableCollection$a;->g(Ljava/lang/Object;)Lcom/google/common/collect/ImmutableCollection$a;
 
     return-object p0
@@ -155,7 +146,6 @@
     .annotation build Lf/f/f/a/a;
     .end annotation
 
-    .line 1
     invoke-super {p0, p1}, Lcom/google/common/collect/ImmutableCollection$a;->b([Ljava/lang/Object;)Lcom/google/common/collect/ImmutableCollection$b;
 
     return-object p0
@@ -176,7 +166,6 @@
     .annotation build Lf/f/f/a/a;
     .end annotation
 
-    .line 1
     invoke-super {p0, p1}, Lcom/google/common/collect/ImmutableCollection$a;->c(Ljava/lang/Iterable;)Lcom/google/common/collect/ImmutableCollection$b;
 
     return-object p0
@@ -197,7 +186,6 @@
     .annotation build Lf/f/f/a/a;
     .end annotation
 
-    .line 1
     invoke-super {p0, p1}, Lcom/google/common/collect/ImmutableCollection$b;->d(Ljava/util/Iterator;)Lcom/google/common/collect/ImmutableCollection$b;
 
     return-object p0
@@ -215,10 +203,8 @@
 
     const/4 v0, 0x1
 
-    .line 1
     iput-boolean v0, p0, Lcom/google/common/collect/ImmutableCollection$a;->d:Z
 
-    .line 2
     iget-object v0, p0, Lcom/google/common/collect/ImmutableCollection$a;->b:[Ljava/lang/Object;
 
     iget v1, p0, Lcom/google/common/collect/ImmutableCollection$a;->c:I

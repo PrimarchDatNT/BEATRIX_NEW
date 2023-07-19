@@ -16,7 +16,6 @@
 .method constructor <init>(Lcom/google/android/gms/measurement/internal/u6;Z)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/android/gms/measurement/internal/o7;->b:Lcom/google/android/gms/measurement/internal/u6;
 
     iput-boolean p2, p0, Lcom/google/android/gms/measurement/internal/o7;->a:Z
@@ -31,7 +30,6 @@
 .method public final run()V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/measurement/internal/o7;->b:Lcom/google/android/gms/measurement/internal/u6;
 
     iget-boolean v1, p0, Lcom/google/android/gms/measurement/internal/o7;->a:Z

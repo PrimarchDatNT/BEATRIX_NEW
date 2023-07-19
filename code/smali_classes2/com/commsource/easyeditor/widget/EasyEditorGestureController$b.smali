@@ -27,7 +27,6 @@
 .method private constructor <init>(Lcom/commsource/easyeditor/widget/EasyEditorGestureController;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/easyeditor/widget/EasyEditorGestureController$b;->b:Lcom/commsource/easyeditor/widget/EasyEditorGestureController;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -38,7 +37,6 @@
 .method synthetic constructor <init>(Lcom/commsource/easyeditor/widget/EasyEditorGestureController;Lcom/commsource/easyeditor/widget/EasyEditorGestureController$a;)V
     .locals 0
 
-    .line 2
     invoke-direct {p0, p1}, Lcom/commsource/easyeditor/widget/EasyEditorGestureController$b;-><init>(Lcom/commsource/easyeditor/widget/EasyEditorGestureController;)V
 
     return-void
@@ -53,10 +51,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/easyeditor/widget/EasyEditorGestureController$b;->a:[F
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -69,7 +65,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/easyeditor/widget/EasyEditorGestureController$b;->b:Lcom/commsource/easyeditor/widget/EasyEditorGestureController;
 
     invoke-static {v1}, Lcom/commsource/easyeditor/widget/EasyEditorGestureController;->a(Lcom/commsource/easyeditor/widget/EasyEditorGestureController;)Lcom/commsource/easyeditor/widget/EasyEditorGestureController$e;
@@ -78,7 +73,6 @@
 
     if-eqz v1, :cond_0
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/easyeditor/widget/EasyEditorGestureController$b;->b:Lcom/commsource/easyeditor/widget/EasyEditorGestureController;
 
     invoke-static {v1}, Lcom/commsource/easyeditor/widget/EasyEditorGestureController;->a(Lcom/commsource/easyeditor/widget/EasyEditorGestureController;)Lcom/commsource/easyeditor/widget/EasyEditorGestureController$e;
@@ -89,7 +83,6 @@
 
     invoke-interface {v1, v2}, Lcom/commsource/easyeditor/widget/EasyEditorGestureController$e;->c([F)V
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

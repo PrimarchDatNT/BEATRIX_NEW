@@ -28,21 +28,16 @@
 .method private constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/high16 v0, -0x800000    # Float.NEGATIVE_INFINITY
 
-    .line 2
     iput v0, p0, Lcom/commsource/puzzle/patchedworld/v/b$b;->a:F
 
-    .line 3
     iput v0, p0, Lcom/commsource/puzzle/patchedworld/v/b$b;->b:F
 
-    .line 4
     iput v0, p0, Lcom/commsource/puzzle/patchedworld/v/b$b;->c:F
 
-    .line 5
     iput v0, p0, Lcom/commsource/puzzle/patchedworld/v/b$b;->d:F
 
     return-void
@@ -51,7 +46,6 @@
 .method synthetic constructor <init>(Lcom/commsource/puzzle/patchedworld/v/b$a;)V
     .locals 0
 
-    .line 6
     invoke-direct {p0}, Lcom/commsource/puzzle/patchedworld/v/b$b;-><init>()V
 
     return-void

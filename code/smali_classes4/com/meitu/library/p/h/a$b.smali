@@ -27,7 +27,6 @@
 .method constructor <init>(ZLandroid/app/Activity;)V
     .locals 0
 
-    .line 1
     iput-boolean p1, p0, Lcom/meitu/library/p/h/a$b;->a:Z
 
     iput-object p2, p0, Lcom/meitu/library/p/h/a$b;->b:Landroid/app/Activity;
@@ -46,17 +45,14 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean p2, p0, Lcom/meitu/library/p/h/a$b;->a:Z
 
     if-eqz p2, :cond_0
 
-    .line 2
     iget-object p2, p0, Lcom/meitu/library/p/h/a$b;->b:Landroid/app/Activity;
 
     invoke-virtual {p2}, Landroid/app/Activity;->finish()V
 
-    .line 3
     :cond_0
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

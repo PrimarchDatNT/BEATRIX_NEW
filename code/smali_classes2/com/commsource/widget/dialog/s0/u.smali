@@ -27,7 +27,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lf/d/a;-><init>()V
 
     return-void
@@ -40,7 +39,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lf/d/a;->W:Landroidx/databinding/ViewDataBinding;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -55,15 +53,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/widget/dialog/s0/u;->Z:Landroid/view/View$OnClickListener;
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-interface {v1, p1}, Landroid/view/View$OnClickListener;->onClick(Landroid/view/View;)V
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -77,15 +72,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/widget/dialog/s0/u;->a0:Landroid/view/View$OnClickListener;
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-interface {v1, p1}, Landroid/view/View$OnClickListener;->onClick(Landroid/view/View;)V
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -101,7 +93,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lf/d/a;->W:Landroidx/databinding/ViewDataBinding;
 
     check-cast v1, Lcom/commsource/beautyplus/f0/g5;
@@ -110,12 +101,10 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/beautyplus/f0/g5;->m(Ljava/lang/Boolean;)V
 
-    .line 2
     invoke-virtual {p0}, Landroidx/fragment/app/Fragment;->getArguments()Landroid/os/Bundle;
 
     move-result-object v1
 
-    .line 3
     iget-object v2, p0, Lf/d/a;->W:Landroidx/databinding/ViewDataBinding;
 
     check-cast v2, Lcom/commsource/beautyplus/f0/g5;
@@ -128,7 +117,6 @@
 
     invoke-virtual {v2, v3}, Lcom/commsource/beautyplus/f0/g5;->n(Ljava/lang/String;)V
 
-    .line 4
     iget-object v2, p0, Lf/d/a;->W:Landroidx/databinding/ViewDataBinding;
 
     check-cast v2, Lcom/commsource/beautyplus/f0/g5;
@@ -141,7 +129,6 @@
 
     invoke-virtual {v2, v1}, Lcom/commsource/beautyplus/f0/g5;->l(Ljava/lang/String;)V
 
-    .line 5
     iget-object v1, p0, Lf/d/a;->W:Landroidx/databinding/ViewDataBinding;
 
     check-cast v1, Lcom/commsource/beautyplus/f0/g5;
@@ -154,7 +141,6 @@
 
     invoke-virtual {v1, v2}, Landroid/widget/TextView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 6
     iget-object v1, p0, Lf/d/a;->W:Landroidx/databinding/ViewDataBinding;
 
     check-cast v1, Lcom/commsource/beautyplus/f0/g5;
@@ -167,7 +153,6 @@
 
     invoke-virtual {v1, v2}, Landroid/widget/TextView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -180,7 +165,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     sget v0, Lcom/res/provider/ResSTYLE;->center_zoom_in_animation:I
@@ -195,7 +179,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     sget v0, Lcom/res/provider/ResLAYOUT;->dialog_ar_guide:I
@@ -226,10 +209,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/widget/dialog/s0/u;->a0:Landroid/view/View$OnClickListener;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -242,10 +223,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/widget/dialog/s0/u;->Z:Landroid/view/View$OnClickListener;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -258,10 +237,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/widget/dialog/s0/u;->X:Ljava/lang/Runnable;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -274,7 +251,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lf/d/a;->W:Landroidx/databinding/ViewDataBinding;
 
     check-cast v1, Lcom/commsource/beautyplus/f0/g5;
@@ -283,7 +259,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/beautyplus/f0/g5;->m(Ljava/lang/Boolean;)V
 
-    .line 2
     iget-object v1, p0, Lf/d/a;->W:Landroidx/databinding/ViewDataBinding;
 
     check-cast v1, Lcom/commsource/beautyplus/f0/g5;
@@ -296,7 +271,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/widget/MTVideoView;->setOnPlayStateChangeListener(Lcom/commsource/widget/MTVideoView$a;)V
 
-    .line 3
     iget-object v1, p0, Lf/d/a;->W:Landroidx/databinding/ViewDataBinding;
 
     check-cast v1, Lcom/commsource/beautyplus/f0/g5;
@@ -307,7 +281,6 @@
 
     invoke-virtual {v1, p1, v2}, Lcom/commsource/widget/MTVideoView;->J(Ljava/lang/String;Z)V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -324,10 +297,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0, p1}, Lf/d/a;->onCreate(Landroid/os/Bundle;)V
 
-    .line 2
     invoke-virtual {p0}, Landroidx/fragment/app/Fragment;->getActivity()Landroidx/fragment/app/FragmentActivity;
 
     move-result-object p1
@@ -344,7 +315,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 3
     invoke-virtual {p0}, Landroidx/fragment/app/Fragment;->getActivity()Landroidx/fragment/app/FragmentActivity;
 
     move-result-object p1
@@ -357,7 +327,6 @@
 
     invoke-virtual {p1, v1}, Landroid/view/Window;->setDimAmount(F)V
 
-    .line 4
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -371,10 +340,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0}, Landroidx/fragment/app/Fragment;->onPause()V
 
-    .line 2
     iget-object v1, p0, Lf/d/a;->W:Landroidx/databinding/ViewDataBinding;
 
     check-cast v1, Lcom/commsource/beautyplus/f0/g5;
@@ -391,10 +358,8 @@
 
     const/4 v1, 0x1
 
-    .line 3
     iput-boolean v1, p0, Lcom/commsource/widget/dialog/s0/u;->Y:Z
 
-    .line 4
     iget-object v1, p0, Lf/d/a;->W:Landroidx/databinding/ViewDataBinding;
 
     check-cast v1, Lcom/commsource/beautyplus/f0/g5;
@@ -403,7 +368,6 @@
 
     invoke-virtual {v1}, Lcom/commsource/widget/MTVideoView;->E()V
 
-    .line 5
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -417,10 +381,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0}, Landroidx/fragment/app/Fragment;->onResume()V
 
-    .line 2
     iget-object v1, p0, Lf/d/a;->W:Landroidx/databinding/ViewDataBinding;
 
     if-eqz v1, :cond_0
@@ -429,14 +391,12 @@
 
     if-eqz v2, :cond_0
 
-    .line 3
     check-cast v1, Lcom/commsource/beautyplus/f0/g5;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/g5;->f:Lcom/commsource/widget/MTVideoView;
 
     invoke-virtual {v1}, Lcom/commsource/widget/MTVideoView;->N()V
 
-    .line 4
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -458,18 +418,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0, p1, p2}, Lf/d/a;->onViewCreated(Landroid/view/View;Landroid/os/Bundle;)V
 
-    .line 2
     iget-object p1, p0, Lcom/commsource/widget/dialog/s0/u;->X:Ljava/lang/Runnable;
 
     if-eqz p1, :cond_0
 
-    .line 3
     invoke-interface {p1}, Ljava/lang/Runnable;->run()V
 
-    .line 4
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

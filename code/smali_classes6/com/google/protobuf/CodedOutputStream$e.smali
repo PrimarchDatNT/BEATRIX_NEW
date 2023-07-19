@@ -28,13 +28,10 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-direct {p0, v0}, Lcom/google/protobuf/CodedOutputStream;-><init>(Lcom/google/protobuf/CodedOutputStream$a;)V
 
-    .line 2
     iput-object p1, p0, Lcom/google/protobuf/CodedOutputStream$e;->i:Ljava/nio/ByteBuffer;
 
-    .line 3
     invoke-virtual {p1}, Ljava/nio/ByteBuffer;->duplicate()Ljava/nio/ByteBuffer;
 
     move-result-object v0
@@ -47,7 +44,6 @@
 
     iput-object v0, p0, Lcom/google/protobuf/CodedOutputStream$e;->j:Ljava/nio/ByteBuffer;
 
-    .line 4
     invoke-virtual {p1}, Ljava/nio/ByteBuffer;->position()I
 
     move-result p1
@@ -65,7 +61,6 @@
         }
     .end annotation
 
-    .line 1
     :try_start_0
     iget-object v0, p0, Lcom/google/protobuf/CodedOutputStream$e;->j:Ljava/nio/ByteBuffer;
 
@@ -78,7 +73,6 @@
     :catch_0
     move-exception p1
 
-    .line 2
     new-instance v0, Lcom/google/protobuf/CodedOutputStream$OutOfSpaceException;
 
     invoke-direct {v0, p1}, Lcom/google/protobuf/CodedOutputStream$OutOfSpaceException;-><init>(Ljava/lang/Throwable;)V
@@ -98,10 +92,8 @@
 
     const/4 v0, 0x2
 
-    .line 1
     invoke-virtual {p0, p1, v0}, Lcom/google/protobuf/CodedOutputStream$e;->q1(II)V
 
-    .line 2
     invoke-virtual {p0, p2}, Lcom/google/protobuf/CodedOutputStream$e;->B0(Lcom/google/protobuf/ByteString;)V
 
     return-void
@@ -115,14 +107,12 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p1}, Lcom/google/protobuf/ByteString;->size()I
 
     move-result v0
 
     invoke-virtual {p0, v0}, Lcom/google/protobuf/CodedOutputStream$e;->s1(I)V
 
-    .line 2
     invoke-virtual {p1, p0}, Lcom/google/protobuf/ByteString;->writeTo(Lcom/google/protobuf/n;)V
 
     return-void
@@ -138,10 +128,8 @@
 
     const/4 v0, 0x5
 
-    .line 1
     invoke-virtual {p0, p1, v0}, Lcom/google/protobuf/CodedOutputStream$e;->q1(II)V
 
-    .line 2
     invoke-virtual {p0, p2}, Lcom/google/protobuf/CodedOutputStream$e;->H0(I)V
 
     return-void
@@ -155,7 +143,6 @@
         }
     .end annotation
 
-    .line 1
     :try_start_0
     iget-object v0, p0, Lcom/google/protobuf/CodedOutputStream$e;->j:Ljava/nio/ByteBuffer;
 
@@ -168,7 +155,6 @@
     :catch_0
     move-exception p1
 
-    .line 2
     new-instance v0, Lcom/google/protobuf/CodedOutputStream$OutOfSpaceException;
 
     invoke-direct {v0, p1}, Lcom/google/protobuf/CodedOutputStream$OutOfSpaceException;-><init>(Ljava/lang/Throwable;)V
@@ -186,10 +172,8 @@
 
     const/4 v0, 0x1
 
-    .line 1
     invoke-virtual {p0, p1, v0}, Lcom/google/protobuf/CodedOutputStream$e;->q1(II)V
 
-    .line 2
     invoke-virtual {p0, p2, p3}, Lcom/google/protobuf/CodedOutputStream$e;->J0(J)V
 
     return-void
@@ -203,7 +187,6 @@
         }
     .end annotation
 
-    .line 1
     :try_start_0
     iget-object v0, p0, Lcom/google/protobuf/CodedOutputStream$e;->j:Ljava/nio/ByteBuffer;
 
@@ -216,7 +199,6 @@
     :catch_0
     move-exception p1
 
-    .line 2
     new-instance p2, Lcom/google/protobuf/CodedOutputStream$OutOfSpaceException;
 
     invoke-direct {p2, p1}, Lcom/google/protobuf/CodedOutputStream$OutOfSpaceException;-><init>(Ljava/lang/Throwable;)V
@@ -234,10 +216,8 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-virtual {p0, p1, v0}, Lcom/google/protobuf/CodedOutputStream$e;->q1(II)V
 
-    .line 2
     invoke-virtual {p0, p2}, Lcom/google/protobuf/CodedOutputStream$e;->P0(I)V
 
     return-void
@@ -253,7 +233,6 @@
 
     if-ltz p1, :cond_0
 
-    .line 1
     invoke-virtual {p0, p1}, Lcom/google/protobuf/CodedOutputStream$e;->s1(I)V
 
     goto :goto_0
@@ -261,7 +240,6 @@
     :cond_0
     int-to-long v0, p1
 
-    .line 2
     invoke-virtual {p0, v0, v1}, Lcom/google/protobuf/CodedOutputStream$e;->u1(J)V
 
     :goto_0
@@ -278,10 +256,8 @@
 
     const/4 v0, 0x2
 
-    .line 1
     invoke-virtual {p0, p1, v0}, Lcom/google/protobuf/CodedOutputStream$e;->q1(II)V
 
-    .line 2
     invoke-virtual {p0, p2}, Lcom/google/protobuf/CodedOutputStream$e;->T0(Lcom/google/protobuf/i1;)V
 
     return-void
@@ -295,14 +271,12 @@
         }
     .end annotation
 
-    .line 1
     invoke-interface {p1}, Lcom/google/protobuf/i1;->Y6()I
 
     move-result v0
 
     invoke-virtual {p0, v0}, Lcom/google/protobuf/CodedOutputStream$e;->s1(I)V
 
-    .line 2
     invoke-interface {p1, p0}, Lcom/google/protobuf/i1;->zb(Lcom/google/protobuf/CodedOutputStream;)V
 
     return-void
@@ -320,20 +294,16 @@
 
     const/4 v1, 0x3
 
-    .line 1
     invoke-virtual {p0, v0, v1}, Lcom/google/protobuf/CodedOutputStream$e;->q1(II)V
 
     const/4 v2, 0x2
 
-    .line 2
     invoke-virtual {p0, v2, p1}, Lcom/google/protobuf/CodedOutputStream$e;->r1(II)V
 
-    .line 3
     invoke-virtual {p0, v1, p2}, Lcom/google/protobuf/CodedOutputStream$e;->S0(ILcom/google/protobuf/i1;)V
 
     const/4 p1, 0x4
 
-    .line 4
     invoke-virtual {p0, v0, p1}, Lcom/google/protobuf/CodedOutputStream$e;->q1(II)V
 
     return-void
@@ -347,14 +317,12 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p1}, Ljava/nio/ByteBuffer;->hasArray()Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-virtual {p1}, Ljava/nio/ByteBuffer;->array()[B
 
     move-result-object v0
@@ -371,16 +339,13 @@
 
     goto :goto_0
 
-    .line 3
     :cond_0
     invoke-virtual {p1}, Ljava/nio/ByteBuffer;->duplicate()Ljava/nio/ByteBuffer;
 
     move-result-object p1
 
-    .line 4
     invoke-virtual {p1}, Ljava/nio/ByteBuffer;->clear()Ljava/nio/Buffer;
 
-    .line 5
     invoke-virtual {p0, p1}, Lcom/google/protobuf/CodedOutputStream$e;->b(Ljava/nio/ByteBuffer;)V
 
     :goto_0
@@ -395,7 +360,6 @@
         }
     .end annotation
 
-    .line 1
     :try_start_0
     iget-object v0, p0, Lcom/google/protobuf/CodedOutputStream$e;->j:Ljava/nio/ByteBuffer;
 
@@ -408,7 +372,6 @@
     :catch_0
     move-exception p1
 
-    .line 2
     new-instance v0, Lcom/google/protobuf/CodedOutputStream$OutOfSpaceException;
 
     invoke-direct {v0, p1}, Lcom/google/protobuf/CodedOutputStream$OutOfSpaceException;-><init>(Ljava/lang/Throwable;)V
@@ -424,7 +387,6 @@
         }
     .end annotation
 
-    .line 1
     :try_start_0
     iget-object v0, p0, Lcom/google/protobuf/CodedOutputStream$e;->j:Ljava/nio/ByteBuffer;
 
@@ -437,7 +399,6 @@
     :catch_0
     move-exception p1
 
-    .line 2
     new-instance v0, Lcom/google/protobuf/CodedOutputStream$OutOfSpaceException;
 
     invoke-direct {v0, p1}, Lcom/google/protobuf/CodedOutputStream$OutOfSpaceException;-><init>(Ljava/lang/Throwable;)V
@@ -453,7 +414,6 @@
         }
     .end annotation
 
-    .line 1
     :try_start_0
     iget-object v0, p0, Lcom/google/protobuf/CodedOutputStream$e;->j:Ljava/nio/ByteBuffer;
 
@@ -467,7 +427,6 @@
     :catch_0
     move-exception p1
 
-    .line 2
     new-instance p2, Lcom/google/protobuf/CodedOutputStream$OutOfSpaceException;
 
     invoke-direct {p2, p1}, Lcom/google/protobuf/CodedOutputStream$OutOfSpaceException;-><init>(Ljava/lang/Throwable;)V
@@ -477,7 +436,6 @@
     :catch_1
     move-exception p1
 
-    .line 3
     new-instance p2, Lcom/google/protobuf/CodedOutputStream$OutOfSpaceException;
 
     invoke-direct {p2, p1}, Lcom/google/protobuf/CodedOutputStream$OutOfSpaceException;-><init>(Ljava/lang/Throwable;)V
@@ -493,7 +451,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0, p1}, Lcom/google/protobuf/CodedOutputStream$e;->b(Ljava/nio/ByteBuffer;)V
 
     return-void
@@ -511,20 +468,16 @@
 
     const/4 v1, 0x3
 
-    .line 1
     invoke-virtual {p0, v0, v1}, Lcom/google/protobuf/CodedOutputStream$e;->q1(II)V
 
     const/4 v2, 0x2
 
-    .line 2
     invoke-virtual {p0, v2, p1}, Lcom/google/protobuf/CodedOutputStream$e;->r1(II)V
 
-    .line 3
     invoke-virtual {p0, v1, p2}, Lcom/google/protobuf/CodedOutputStream$e;->A0(ILcom/google/protobuf/ByteString;)V
 
     const/4 p1, 0x4
 
-    .line 4
     invoke-virtual {p0, v0, p1}, Lcom/google/protobuf/CodedOutputStream$e;->q1(II)V
 
     return-void
@@ -538,7 +491,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0, p1, p2, p3}, Lcom/google/protobuf/CodedOutputStream$e;->c([BII)V
 
     return-void
@@ -547,7 +499,6 @@
 .method public i0()V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/google/protobuf/CodedOutputStream$e;->i:Ljava/nio/ByteBuffer;
 
     iget-object v1, p0, Lcom/google/protobuf/CodedOutputStream$e;->j:Ljava/nio/ByteBuffer;
@@ -564,7 +515,6 @@
 .method public j0()I
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/google/protobuf/CodedOutputStream$e;->j:Ljava/nio/ByteBuffer;
 
     invoke-virtual {v0}, Ljava/nio/ByteBuffer;->position()I
@@ -588,10 +538,8 @@
 
     const/4 v0, 0x2
 
-    .line 1
     invoke-virtual {p0, p1, v0}, Lcom/google/protobuf/CodedOutputStream$e;->q1(II)V
 
-    .line 2
     invoke-virtual {p0, p2}, Lcom/google/protobuf/CodedOutputStream$e;->p1(Ljava/lang/String;)V
 
     return-void
@@ -605,14 +553,12 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/protobuf/CodedOutputStream$e;->j:Ljava/nio/ByteBuffer;
 
     invoke-virtual {v0}, Ljava/nio/ByteBuffer;->position()I
 
     move-result v0
 
-    .line 2
     :try_start_0
     invoke-virtual {p1}, Ljava/lang/String;->length()I
 
@@ -620,12 +566,10 @@
 
     mul-int/lit8 v1, v1, 0x3
 
-    .line 3
     invoke-static {v1}, Lcom/google/protobuf/CodedOutputStream;->d0(I)I
 
     move-result v1
 
-    .line 4
     invoke-virtual {p1}, Ljava/lang/String;->length()I
 
     move-result v2
@@ -636,7 +580,6 @@
 
     if-ne v2, v1, :cond_0
 
-    .line 5
     iget-object v1, p0, Lcom/google/protobuf/CodedOutputStream$e;->j:Ljava/nio/ByteBuffer;
 
     invoke-virtual {v1}, Ljava/nio/ByteBuffer;->position()I
@@ -645,48 +588,39 @@
 
     add-int/2addr v1, v2
 
-    .line 6
     iget-object v2, p0, Lcom/google/protobuf/CodedOutputStream$e;->j:Ljava/nio/ByteBuffer;
 
     invoke-virtual {v2, v1}, Ljava/nio/ByteBuffer;->position(I)Ljava/nio/Buffer;
 
-    .line 7
     invoke-direct {p0, p1}, Lcom/google/protobuf/CodedOutputStream$e;->v1(Ljava/lang/String;)V
 
-    .line 8
     iget-object v2, p0, Lcom/google/protobuf/CodedOutputStream$e;->j:Ljava/nio/ByteBuffer;
 
     invoke-virtual {v2}, Ljava/nio/ByteBuffer;->position()I
 
     move-result v2
 
-    .line 9
     iget-object v3, p0, Lcom/google/protobuf/CodedOutputStream$e;->j:Ljava/nio/ByteBuffer;
 
     invoke-virtual {v3, v0}, Ljava/nio/ByteBuffer;->position(I)Ljava/nio/Buffer;
 
     sub-int v1, v2, v1
 
-    .line 10
     invoke-virtual {p0, v1}, Lcom/google/protobuf/CodedOutputStream$e;->s1(I)V
 
-    .line 11
     iget-object v1, p0, Lcom/google/protobuf/CodedOutputStream$e;->j:Ljava/nio/ByteBuffer;
 
     invoke-virtual {v1, v2}, Ljava/nio/ByteBuffer;->position(I)Ljava/nio/Buffer;
 
     goto :goto_0
 
-    .line 12
     :cond_0
     invoke-static {p1}, Lcom/google/protobuf/Utf8;->i(Ljava/lang/CharSequence;)I
 
     move-result v1
 
-    .line 13
     invoke-virtual {p0, v1}, Lcom/google/protobuf/CodedOutputStream$e;->s1(I)V
 
-    .line 14
     invoke-direct {p0, p1}, Lcom/google/protobuf/CodedOutputStream$e;->v1(Ljava/lang/String;)V
     :try_end_0
     .catch Lcom/google/protobuf/Utf8$UnpairedSurrogateException; {:try_start_0 .. :try_end_0} :catch_1
@@ -697,7 +631,6 @@
     :catch_0
     move-exception p1
 
-    .line 15
     new-instance v0, Lcom/google/protobuf/CodedOutputStream$OutOfSpaceException;
 
     invoke-direct {v0, p1}, Lcom/google/protobuf/CodedOutputStream$OutOfSpaceException;-><init>(Ljava/lang/Throwable;)V
@@ -707,12 +640,10 @@
     :catch_1
     move-exception v1
 
-    .line 16
     iget-object v2, p0, Lcom/google/protobuf/CodedOutputStream$e;->j:Ljava/nio/ByteBuffer;
 
     invoke-virtual {v2, v0}, Ljava/nio/ByteBuffer;->position(I)Ljava/nio/Buffer;
 
-    .line 17
     invoke-virtual {p0, p1, v1}, Lcom/google/protobuf/CodedOutputStream;->k0(Ljava/lang/String;Lcom/google/protobuf/Utf8$UnpairedSurrogateException;)V
 
     :goto_0
@@ -727,7 +658,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p1, p2}, Lcom/google/protobuf/WireFormat;->c(II)I
 
     move-result p1
@@ -747,10 +677,8 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-virtual {p0, p1, v0}, Lcom/google/protobuf/CodedOutputStream$e;->q1(II)V
 
-    .line 2
     invoke-virtual {p0, p2}, Lcom/google/protobuf/CodedOutputStream$e;->s1(I)V
 
     return-void
@@ -759,7 +687,6 @@
 .method public s0()I
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/protobuf/CodedOutputStream$e;->j:Ljava/nio/ByteBuffer;
 
     invoke-virtual {v0}, Ljava/nio/ByteBuffer;->remaining()I
@@ -782,7 +709,6 @@
 
     if-nez v0, :cond_0
 
-    .line 1
     :try_start_0
     iget-object v0, p0, Lcom/google/protobuf/CodedOutputStream$e;->j:Ljava/nio/ByteBuffer;
 
@@ -792,7 +718,6 @@
 
     return-void
 
-    .line 2
     :cond_0
     iget-object v0, p0, Lcom/google/protobuf/CodedOutputStream$e;->j:Ljava/nio/ByteBuffer;
 
@@ -813,7 +738,6 @@
     :catch_0
     move-exception p1
 
-    .line 3
     new-instance v0, Lcom/google/protobuf/CodedOutputStream$OutOfSpaceException;
 
     invoke-direct {v0, p1}, Lcom/google/protobuf/CodedOutputStream$OutOfSpaceException;-><init>(Ljava/lang/Throwable;)V
@@ -831,12 +755,10 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-virtual {p0, p1, v0}, Lcom/google/protobuf/CodedOutputStream$e;->q1(II)V
 
     int-to-byte p1, p2
 
-    .line 2
     invoke-virtual {p0, p1}, Lcom/google/protobuf/CodedOutputStream$e;->a(B)V
 
     return-void
@@ -852,10 +774,8 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-virtual {p0, p1, v0}, Lcom/google/protobuf/CodedOutputStream$e;->q1(II)V
 
-    .line 2
     invoke-virtual {p0, p2, p3}, Lcom/google/protobuf/CodedOutputStream$e;->u1(J)V
 
     return-void
@@ -880,7 +800,6 @@
 
     if-nez v4, :cond_0
 
-    .line 1
     :try_start_0
     iget-object v0, p0, Lcom/google/protobuf/CodedOutputStream$e;->j:Ljava/nio/ByteBuffer;
 
@@ -892,7 +811,6 @@
 
     return-void
 
-    .line 2
     :cond_0
     iget-object v0, p0, Lcom/google/protobuf/CodedOutputStream$e;->j:Ljava/nio/ByteBuffer;
 
@@ -917,7 +835,6 @@
     :catch_0
     move-exception p1
 
-    .line 3
     new-instance p2, Lcom/google/protobuf/CodedOutputStream$OutOfSpaceException;
 
     invoke-direct {p2, p1}, Lcom/google/protobuf/CodedOutputStream$OutOfSpaceException;-><init>(Ljava/lang/Throwable;)V
@@ -933,7 +850,6 @@
         }
     .end annotation
 
-    .line 1
     array-length v0, p2
 
     const/4 v1, 0x0
@@ -953,10 +869,8 @@
 
     const/4 v0, 0x2
 
-    .line 1
     invoke-virtual {p0, p1, v0}, Lcom/google/protobuf/CodedOutputStream$e;->q1(II)V
 
-    .line 2
     invoke-virtual {p0, p2, p3, p4}, Lcom/google/protobuf/CodedOutputStream$e;->y0([BII)V
 
     return-void
@@ -970,10 +884,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0, p3}, Lcom/google/protobuf/CodedOutputStream$e;->s1(I)V
 
-    .line 2
     invoke-virtual {p0, p1, p2, p3}, Lcom/google/protobuf/CodedOutputStream$e;->c([BII)V
 
     return-void
@@ -989,17 +901,14 @@
 
     const/4 v0, 0x2
 
-    .line 1
     invoke-virtual {p0, p1, v0}, Lcom/google/protobuf/CodedOutputStream$e;->q1(II)V
 
-    .line 2
     invoke-virtual {p2}, Ljava/nio/ByteBuffer;->capacity()I
 
     move-result p1
 
     invoke-virtual {p0, p1}, Lcom/google/protobuf/CodedOutputStream$e;->s1(I)V
 
-    .line 3
     invoke-virtual {p0, p2}, Lcom/google/protobuf/CodedOutputStream$e;->Y0(Ljava/nio/ByteBuffer;)V
 
     return-void

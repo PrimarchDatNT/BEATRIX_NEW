@@ -28,7 +28,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/function/relight/RelightManualFragment$f;->a:Lcom/commsource/studio/function/relight/RelightManualFragment;
 
     invoke-direct {p0}, Landroidx/viewpager2/widget/ViewPager2$OnPageChangeCallback;-><init>()V
@@ -45,10 +44,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0, p1}, Landroidx/viewpager2/widget/ViewPager2$OnPageChangeCallback;->onPageSelected(I)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/function/relight/RelightManualFragment$f;->a:Lcom/commsource/studio/function/relight/RelightManualFragment;
 
     invoke-static {v1}, Lcom/commsource/studio/function/relight/RelightManualFragment;->B(Lcom/commsource/studio/function/relight/RelightManualFragment;)Lcom/commsource/studio/function/relight/g;
@@ -65,7 +62,6 @@
 
     invoke-virtual {v1, p1}, Landroidx/lifecycle/MutableLiveData;->setValue(Ljava/lang/Object;)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

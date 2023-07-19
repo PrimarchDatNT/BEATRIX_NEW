@@ -27,7 +27,6 @@
 .method constructor <init>(Lcom/commsource/widget/infiniteview/InfinitePageRecyclerView;I)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/widget/infiniteview/InfinitePageRecyclerView$a;->b:Lcom/commsource/widget/infiniteview/InfinitePageRecyclerView;
 
     iput p2, p0, Lcom/commsource/widget/infiniteview/InfinitePageRecyclerView$a;->a:I
@@ -46,7 +45,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/widget/infiniteview/InfinitePageRecyclerView$a;->b:Lcom/commsource/widget/infiniteview/InfinitePageRecyclerView;
 
     invoke-virtual {v1}, Lcom/commsource/widget/infiniteview/InfinitePageRecyclerView;->getTotalItemCount()I
@@ -57,7 +55,6 @@
 
     if-le v1, v2, :cond_0
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/widget/infiniteview/InfinitePageRecyclerView$a;->b:Lcom/commsource/widget/infiniteview/InfinitePageRecyclerView;
 
     invoke-virtual {v1}, Lcom/commsource/widget/infiniteview/InfinitePageRecyclerView;->getCurrentSelectIndex()I
@@ -66,7 +63,6 @@
 
     add-int/2addr v1, v2
 
-    .line 3
     iget-object v2, p0, Lcom/commsource/widget/infiniteview/InfinitePageRecyclerView$a;->b:Lcom/commsource/widget/infiniteview/InfinitePageRecyclerView;
 
     invoke-virtual {v2}, Lcom/commsource/widget/infiniteview/InfinitePageRecyclerView;->getTotalItemCount()I
@@ -75,12 +71,10 @@
 
     rem-int/2addr v1, v2
 
-    .line 4
     iget-object v2, p0, Lcom/commsource/widget/infiniteview/InfinitePageRecyclerView$a;->b:Lcom/commsource/widget/infiniteview/InfinitePageRecyclerView;
 
     invoke-virtual {v2, v1}, Lcom/commsource/widget/infiniteview/InfinitePageRecyclerView;->b(I)V
 
-    .line 5
     iget-object v1, p0, Lcom/commsource/widget/infiniteview/InfinitePageRecyclerView$a;->b:Lcom/commsource/widget/infiniteview/InfinitePageRecyclerView;
 
     invoke-static {v1}, Lcom/commsource/widget/infiniteview/InfinitePageRecyclerView;->a(Lcom/commsource/widget/infiniteview/InfinitePageRecyclerView;)Landroid/os/Handler;
@@ -93,7 +87,6 @@
 
     invoke-virtual {v1, p0, v2, v3}, Landroid/os/Handler;->postDelayed(Ljava/lang/Runnable;J)Z
 
-    .line 6
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

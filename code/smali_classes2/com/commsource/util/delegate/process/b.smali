@@ -37,7 +37,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/util/p2/b;-><init>()V
 
     return-void
@@ -66,19 +65,16 @@
 
     const/4 p2, 0x0
 
-    .line 1
     invoke-virtual {p3, p1, p2}, Landroid/content/Intent;->getIntExtra(Ljava/lang/String;I)I
 
     move-result p1
 
     const-string v1, "IS_SCROLL_EVENT"
 
-    .line 2
     invoke-virtual {p3, v1, p2}, Landroid/content/Intent;->getBooleanExtra(Ljava/lang/String;Z)Z
 
     move-result p2
 
-    .line 3
     invoke-virtual {p0, p1, p2}, Lcom/commsource/util/delegate/process/b;->d(IZ)V
 
     :cond_0
@@ -96,7 +92,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     sget-object v1, Lcom/commsource/store/filter/FilterStoreActivity;->X:Lcom/commsource/store/filter/FilterStoreActivity$a;
 
     const/4 v3, 0x1

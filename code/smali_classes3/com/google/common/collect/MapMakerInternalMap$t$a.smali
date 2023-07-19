@@ -48,7 +48,6 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
     new-instance v0, Lcom/google/common/collect/MapMakerInternalMap$t$a;
 
     invoke-direct {v0}, Lcom/google/common/collect/MapMakerInternalMap$t$a;-><init>()V
@@ -61,7 +60,6 @@
 .method constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -79,7 +77,6 @@
         }
     .end annotation
 
-    .line 1
     sget-object v0, Lcom/google/common/collect/MapMakerInternalMap$t$a;->a:Lcom/google/common/collect/MapMakerInternalMap$t$a;
 
     return-object v0
@@ -94,7 +91,6 @@
         .end annotation
     .end param
 
-    .line 1
     check-cast p1, Lcom/google/common/collect/MapMakerInternalMap$WeakKeyDummyValueSegment;
 
     check-cast p2, Lcom/google/common/collect/MapMakerInternalMap$t;
@@ -111,7 +107,6 @@
 .method public b()Lcom/google/common/collect/MapMakerInternalMap$Strength;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/google/common/collect/MapMakerInternalMap$Strength;->STRONG:Lcom/google/common/collect/MapMakerInternalMap$Strength;
 
     return-object v0
@@ -120,7 +115,6 @@
 .method public bridge synthetic c(Lcom/google/common/collect/MapMakerInternalMap$Segment;Lcom/google/common/collect/MapMakerInternalMap$i;Ljava/lang/Object;)V
     .locals 0
 
-    .line 1
     check-cast p1, Lcom/google/common/collect/MapMakerInternalMap$WeakKeyDummyValueSegment;
 
     check-cast p2, Lcom/google/common/collect/MapMakerInternalMap$t;
@@ -139,7 +133,6 @@
         .end annotation
     .end param
 
-    .line 1
     check-cast p1, Lcom/google/common/collect/MapMakerInternalMap$WeakKeyDummyValueSegment;
 
     check-cast p4, Lcom/google/common/collect/MapMakerInternalMap$t;
@@ -154,7 +147,6 @@
 .method public e()Lcom/google/common/collect/MapMakerInternalMap$Strength;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/google/common/collect/MapMakerInternalMap$Strength;->WEAK:Lcom/google/common/collect/MapMakerInternalMap$Strength;
 
     return-object v0
@@ -163,7 +155,6 @@
 .method public bridge synthetic f(Lcom/google/common/collect/MapMakerInternalMap;II)Lcom/google/common/collect/MapMakerInternalMap$Segment;
     .locals 0
 
-    .line 1
     invoke-virtual {p0, p1, p2, p3}, Lcom/google/common/collect/MapMakerInternalMap$t$a;->j(Lcom/google/common/collect/MapMakerInternalMap;II)Lcom/google/common/collect/MapMakerInternalMap$WeakKeyDummyValueSegment;
 
     move-result-object p1
@@ -191,7 +182,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p2}, Lcom/google/common/collect/MapMakerInternalMap$c;->getKey()Ljava/lang/Object;
 
     move-result-object v0
@@ -202,7 +192,6 @@
 
     return-object p1
 
-    .line 2
     :cond_0
     invoke-static {p1}, Lcom/google/common/collect/MapMakerInternalMap$WeakKeyDummyValueSegment;->access$200(Lcom/google/common/collect/MapMakerInternalMap$WeakKeyDummyValueSegment;)Ljava/lang/ref/ReferenceQueue;
 
@@ -233,7 +222,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/google/common/collect/MapMakerInternalMap$t;
 
     invoke-static {p1}, Lcom/google/common/collect/MapMakerInternalMap$WeakKeyDummyValueSegment;->access$200(Lcom/google/common/collect/MapMakerInternalMap$WeakKeyDummyValueSegment;)Ljava/lang/ref/ReferenceQueue;
@@ -262,7 +250,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/google/common/collect/MapMakerInternalMap$WeakKeyDummyValueSegment;
 
     invoke-direct {v0, p1, p2, p3}, Lcom/google/common/collect/MapMakerInternalMap$WeakKeyDummyValueSegment;-><init>(Lcom/google/common/collect/MapMakerInternalMap;II)V

@@ -25,7 +25,6 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
     new-instance v0, Lcotlin/collections/EmptyList;
 
     invoke-direct {v0}, Lcotlin/collections/EmptyList;-><init>()V
@@ -38,7 +37,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -47,7 +45,6 @@
 .method private final readResolve()Ljava/lang/Object;
     .locals 1
 
-    .line 1
     sget-object v0, Lcotlin/collections/EmptyList;->INSTANCE:Lcotlin/collections/EmptyList;
 
     return-object v0
@@ -142,7 +139,6 @@
 .method public final bridge contains(Ljava/lang/Object;)Z
     .locals 1
 
-    .line 1
     instance-of v0, p1, Ljava/lang/Void;
 
     if-eqz v0, :cond_0
@@ -188,7 +184,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-interface {p1}, Ljava/util/Collection;->isEmpty()Z
 
     move-result p1
@@ -203,7 +198,6 @@
         .end annotation
     .end param
 
-    .line 1
     instance-of v0, p1, Ljava/util/List;
 
     if-eqz v0, :cond_0
@@ -230,7 +224,6 @@
 .method public bridge synthetic get(I)Ljava/lang/Object;
     .locals 0
 
-    .line 1
     invoke-virtual {p0, p1}, Lcotlin/collections/EmptyList;->get(I)Ljava/lang/Void;
 
     move-result-object p1
@@ -243,7 +236,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 2
     new-instance v0, Ljava/lang/IndexOutOfBoundsException;
 
     new-instance v1, Ljava/lang/StringBuilder;
@@ -288,7 +280,6 @@
 .method public final bridge indexOf(Ljava/lang/Object;)I
     .locals 1
 
-    .line 1
     instance-of v0, p1, Ljava/lang/Void;
 
     if-eqz v0, :cond_0
@@ -336,7 +327,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     sget-object v0, Lcotlin/collections/c0;->a:Lcotlin/collections/c0;
 
     return-object v0
@@ -345,7 +335,6 @@
 .method public final bridge lastIndexOf(Ljava/lang/Object;)I
     .locals 1
 
-    .line 1
     instance-of v0, p1, Ljava/lang/Void;
 
     if-eqz v0, :cond_0
@@ -385,7 +374,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     sget-object v0, Lcotlin/collections/c0;->a:Lcotlin/collections/c0;
 
     return-object v0
@@ -398,12 +386,10 @@
 
     if-nez p1, :cond_0
 
-    .line 2
     sget-object p1, Lcotlin/collections/c0;->a:Lcotlin/collections/c0;
 
     return-object p1
 
-    .line 3
     :cond_0
     new-instance v0, Ljava/lang/IndexOutOfBoundsException;
 
@@ -513,7 +499,6 @@
 .method public final bridge size()I
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcotlin/collections/EmptyList;->getSize()I
 
     move-result v0
@@ -532,7 +517,6 @@
 
     return-object p0
 
-    .line 1
     :cond_0
     new-instance v0, Ljava/lang/IndexOutOfBoundsException;
 

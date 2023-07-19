@@ -40,7 +40,6 @@
 
     move-wide/from16 v11, p11
 
-    .line 1
     invoke-direct/range {p0 .. p0}, Ljava/lang/Object;-><init>()V
 
     const/4 v13, 0x1
@@ -60,7 +59,6 @@
     :cond_0
     const/16 v17, 0x0
 
-    .line 2
     :goto_0
     invoke-static/range {v17 .. v17}, Lcom/google/common/base/t;->d(Z)V
 
@@ -75,7 +73,6 @@
     :cond_1
     const/16 v17, 0x0
 
-    .line 3
     :goto_1
     invoke-static/range {v17 .. v17}, Lcom/google/common/base/t;->d(Z)V
 
@@ -90,7 +87,6 @@
     :cond_2
     const/16 v17, 0x0
 
-    .line 4
     :goto_2
     invoke-static/range {v17 .. v17}, Lcom/google/common/base/t;->d(Z)V
 
@@ -105,7 +101,6 @@
     :cond_3
     const/16 v17, 0x0
 
-    .line 5
     :goto_3
     invoke-static/range {v17 .. v17}, Lcom/google/common/base/t;->d(Z)V
 
@@ -120,7 +115,6 @@
     :cond_4
     const/16 v17, 0x0
 
-    .line 6
     :goto_4
     invoke-static/range {v17 .. v17}, Lcom/google/common/base/t;->d(Z)V
 
@@ -133,26 +127,19 @@
     :cond_5
     const/4 v13, 0x0
 
-    .line 7
     :goto_5
     invoke-static {v13}, Lcom/google/common/base/t;->d(Z)V
 
-    .line 8
     iput-wide v1, v0, Lcom/google/common/cache/e;->a:J
 
-    .line 9
     iput-wide v3, v0, Lcom/google/common/cache/e;->b:J
 
-    .line 10
     iput-wide v5, v0, Lcom/google/common/cache/e;->c:J
 
-    .line 11
     iput-wide v7, v0, Lcom/google/common/cache/e;->d:J
 
-    .line 12
     iput-wide v9, v0, Lcom/google/common/cache/e;->e:J
 
-    .line 13
     iput-wide v11, v0, Lcom/google/common/cache/e;->f:J
 
     return-void
@@ -163,7 +150,6 @@
 .method public a()D
     .locals 5
 
-    .line 1
     iget-wide v0, p0, Lcom/google/common/cache/e;->c:J
 
     iget-wide v2, p0, Lcom/google/common/cache/e;->d:J
@@ -182,7 +168,6 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     iget-wide v2, p0, Lcom/google/common/cache/e;->e:J
 
@@ -199,7 +184,6 @@
 .method public b()J
     .locals 2
 
-    .line 1
     iget-wide v0, p0, Lcom/google/common/cache/e;->f:J
 
     return-wide v0
@@ -208,7 +192,6 @@
 .method public c()J
     .locals 2
 
-    .line 1
     iget-wide v0, p0, Lcom/google/common/cache/e;->a:J
 
     return-wide v0
@@ -217,7 +200,6 @@
 .method public d()D
     .locals 5
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/cache/e;->m()J
 
     move-result-wide v0
@@ -232,7 +214,6 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     iget-wide v2, p0, Lcom/google/common/cache/e;->a:J
 
@@ -249,7 +230,6 @@
 .method public e()J
     .locals 4
 
-    .line 1
     iget-wide v0, p0, Lcom/google/common/cache/e;->c:J
 
     iget-wide v2, p0, Lcom/google/common/cache/e;->d:J
@@ -268,17 +248,14 @@
         .end annotation
     .end param
 
-    .line 1
     instance-of v0, p1, Lcom/google/common/cache/e;
 
     const/4 v1, 0x0
 
     if-eqz v0, :cond_0
 
-    .line 2
     check-cast p1, Lcom/google/common/cache/e;
 
-    .line 3
     iget-wide v2, p0, Lcom/google/common/cache/e;->a:J
 
     iget-wide v4, p1, Lcom/google/common/cache/e;->a:J
@@ -336,7 +313,6 @@
 .method public f()J
     .locals 2
 
-    .line 1
     iget-wide v0, p0, Lcom/google/common/cache/e;->d:J
 
     return-wide v0
@@ -345,7 +321,6 @@
 .method public g()D
     .locals 5
 
-    .line 1
     iget-wide v0, p0, Lcom/google/common/cache/e;->c:J
 
     iget-wide v2, p0, Lcom/google/common/cache/e;->d:J
@@ -364,7 +339,6 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     iget-wide v2, p0, Lcom/google/common/cache/e;->d:J
 
@@ -381,7 +355,6 @@
 .method public h()J
     .locals 2
 
-    .line 1
     iget-wide v0, p0, Lcom/google/common/cache/e;->c:J
 
     return-wide v0
@@ -394,10 +367,8 @@
 
     new-array v0, v0, [Ljava/lang/Object;
 
-    .line 1
     iget-wide v1, p0, Lcom/google/common/cache/e;->a:J
 
-    .line 2
     invoke-static {v1, v2}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
 
     move-result-object v1
@@ -456,7 +427,6 @@
 
     aput-object v1, v0, v2
 
-    .line 3
     invoke-static {v0}, Lcom/google/common/base/q;->b([Ljava/lang/Object;)I
 
     move-result v0
@@ -471,14 +441,12 @@
 
     move-object/from16 v1, p1
 
-    .line 1
     new-instance v14, Lcom/google/common/cache/e;
 
     iget-wide v2, v0, Lcom/google/common/cache/e;->a:J
 
     iget-wide v4, v1, Lcom/google/common/cache/e;->a:J
 
-    .line 2
     invoke-static {v2, v3, v4, v5}, Lcom/google/common/math/LongMath;->z(JJ)J
 
     move-result-wide v2
@@ -493,7 +461,6 @@
 
     iget-wide v8, v1, Lcom/google/common/cache/e;->b:J
 
-    .line 3
     invoke-static {v6, v7, v8, v9}, Lcom/google/common/math/LongMath;->z(JJ)J
 
     move-result-wide v6
@@ -506,7 +473,6 @@
 
     iget-wide v10, v1, Lcom/google/common/cache/e;->c:J
 
-    .line 4
     invoke-static {v8, v9, v10, v11}, Lcom/google/common/math/LongMath;->z(JJ)J
 
     move-result-wide v8
@@ -519,7 +485,6 @@
 
     iget-wide v12, v1, Lcom/google/common/cache/e;->d:J
 
-    .line 5
     invoke-static {v10, v11, v12, v13}, Lcom/google/common/math/LongMath;->z(JJ)J
 
     move-result-wide v10
@@ -534,7 +499,6 @@
 
     iget-wide v10, v1, Lcom/google/common/cache/e;->e:J
 
-    .line 6
     invoke-static {v12, v13, v10, v11}, Lcom/google/common/math/LongMath;->z(JJ)J
 
     move-result-wide v10
@@ -547,7 +511,6 @@
 
     iget-wide v0, v1, Lcom/google/common/cache/e;->f:J
 
-    .line 7
     invoke-static {v12, v13, v0, v1}, Lcom/google/common/math/LongMath;->z(JJ)J
 
     move-result-wide v0
@@ -572,7 +535,6 @@
 .method public j()J
     .locals 2
 
-    .line 1
     iget-wide v0, p0, Lcom/google/common/cache/e;->b:J
 
     return-wide v0
@@ -581,7 +543,6 @@
 .method public k()D
     .locals 5
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/cache/e;->m()J
 
     move-result-wide v0
@@ -596,7 +557,6 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     iget-wide v2, p0, Lcom/google/common/cache/e;->b:J
 
@@ -617,14 +577,12 @@
 
     move-object/from16 v1, p1
 
-    .line 1
     new-instance v14, Lcom/google/common/cache/e;
 
     iget-wide v2, v0, Lcom/google/common/cache/e;->a:J
 
     iget-wide v4, v1, Lcom/google/common/cache/e;->a:J
 
-    .line 2
     invoke-static {v2, v3, v4, v5}, Lcom/google/common/math/LongMath;->w(JJ)J
 
     move-result-wide v2
@@ -633,7 +591,6 @@
 
     iget-wide v6, v1, Lcom/google/common/cache/e;->b:J
 
-    .line 3
     invoke-static {v4, v5, v6, v7}, Lcom/google/common/math/LongMath;->w(JJ)J
 
     move-result-wide v4
@@ -642,7 +599,6 @@
 
     iget-wide v8, v1, Lcom/google/common/cache/e;->c:J
 
-    .line 4
     invoke-static {v6, v7, v8, v9}, Lcom/google/common/math/LongMath;->w(JJ)J
 
     move-result-wide v6
@@ -651,7 +607,6 @@
 
     iget-wide v10, v1, Lcom/google/common/cache/e;->d:J
 
-    .line 5
     invoke-static {v8, v9, v10, v11}, Lcom/google/common/math/LongMath;->w(JJ)J
 
     move-result-wide v8
@@ -660,7 +615,6 @@
 
     iget-wide v12, v1, Lcom/google/common/cache/e;->e:J
 
-    .line 6
     invoke-static {v10, v11, v12, v13}, Lcom/google/common/math/LongMath;->w(JJ)J
 
     move-result-wide v10
@@ -669,7 +623,6 @@
 
     iget-wide v0, v1, Lcom/google/common/cache/e;->f:J
 
-    .line 7
     invoke-static {v12, v13, v0, v1}, Lcom/google/common/math/LongMath;->w(JJ)J
 
     move-result-wide v12
@@ -684,7 +637,6 @@
 .method public m()J
     .locals 4
 
-    .line 1
     iget-wide v0, p0, Lcom/google/common/cache/e;->a:J
 
     iget-wide v2, p0, Lcom/google/common/cache/e;->b:J
@@ -699,7 +651,6 @@
 .method public n()J
     .locals 2
 
-    .line 1
     iget-wide v0, p0, Lcom/google/common/cache/e;->e:J
 
     return-wide v0
@@ -708,7 +659,6 @@
 .method public toString()Ljava/lang/String;
     .locals 4
 
-    .line 1
     invoke-static {p0}, Lcom/google/common/base/p;->c(Ljava/lang/Object;)Lcom/google/common/base/p$b;
 
     move-result-object v0
@@ -717,7 +667,6 @@
 
     const-string v3, "hitCount"
 
-    .line 2
     invoke-virtual {v0, v3, v1, v2}, Lcom/google/common/base/p$b;->e(Ljava/lang/String;J)Lcom/google/common/base/p$b;
 
     move-result-object v0
@@ -726,7 +675,6 @@
 
     const-string v3, "missCount"
 
-    .line 3
     invoke-virtual {v0, v3, v1, v2}, Lcom/google/common/base/p$b;->e(Ljava/lang/String;J)Lcom/google/common/base/p$b;
 
     move-result-object v0
@@ -735,7 +683,6 @@
 
     const-string v3, "loadSuccessCount"
 
-    .line 4
     invoke-virtual {v0, v3, v1, v2}, Lcom/google/common/base/p$b;->e(Ljava/lang/String;J)Lcom/google/common/base/p$b;
 
     move-result-object v0
@@ -744,7 +691,6 @@
 
     const-string v3, "loadExceptionCount"
 
-    .line 5
     invoke-virtual {v0, v3, v1, v2}, Lcom/google/common/base/p$b;->e(Ljava/lang/String;J)Lcom/google/common/base/p$b;
 
     move-result-object v0
@@ -753,7 +699,6 @@
 
     const-string v3, "totalLoadTime"
 
-    .line 6
     invoke-virtual {v0, v3, v1, v2}, Lcom/google/common/base/p$b;->e(Ljava/lang/String;J)Lcom/google/common/base/p$b;
 
     move-result-object v0
@@ -762,12 +707,10 @@
 
     const-string v3, "evictionCount"
 
-    .line 7
     invoke-virtual {v0, v3, v1, v2}, Lcom/google/common/base/p$b;->e(Ljava/lang/String;J)Lcom/google/common/base/p$b;
 
     move-result-object v0
 
-    .line 8
     invoke-virtual {v0}, Lcom/google/common/base/p$b;->toString()Ljava/lang/String;
 
     move-result-object v0

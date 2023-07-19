@@ -31,7 +31,6 @@
 .method constructor <init>(Lorg/apache/http/pool/AbstractConnPool;Ljava/lang/Object;Ljava/lang/Object;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lorg/apache/http/pool/AbstractConnPool$1;->this$0:Lorg/apache/http/pool/AbstractConnPool;
 
     iput-object p3, p0, Lorg/apache/http/pool/AbstractConnPool$1;->val$route:Ljava/lang/Object;
@@ -51,7 +50,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lorg/apache/http/pool/AbstractConnPool$1;->this$0:Lorg/apache/http/pool/AbstractConnPool;
 
     iget-object v1, p0, Lorg/apache/http/pool/AbstractConnPool$1;->val$route:Ljava/lang/Object;

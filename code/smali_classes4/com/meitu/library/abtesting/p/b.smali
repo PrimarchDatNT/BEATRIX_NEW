@@ -7,7 +7,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -22,20 +21,17 @@
 
     if-eqz p0, :cond_5
 
-    .line 1
     array-length v1, p0
 
     if-gtz v1, :cond_0
 
     goto :goto_1
 
-    .line 2
     :cond_0
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
 
-    .line 3
     array-length v2, p0
 
     const/4 v3, 0x0
@@ -49,7 +45,6 @@
 
     and-int/lit16 v5, v5, 0xff
 
-    .line 4
     invoke-static {v5}, Ljava/lang/Integer;->toHexString(I)Ljava/lang/String;
 
     move-result-object v5
@@ -58,10 +53,8 @@
 
     const-string v6, "0x"
 
-    .line 5
     invoke-virtual {v1, v6}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 6
     :cond_1
     invoke-virtual {v5}, Ljava/lang/String;->length()I
 
@@ -71,10 +64,8 @@
 
     if-ge v6, v7, :cond_2
 
-    .line 7
     invoke-virtual {v1, v3}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
 
-    .line 8
     :cond_2
     invoke-virtual {v1, v5}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
@@ -82,7 +73,6 @@
 
     const-string v5, " "
 
-    .line 9
     invoke-virtual {v1, v5}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     :cond_3
@@ -90,7 +80,6 @@
 
     goto :goto_0
 
-    .line 10
     :cond_4
     invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
@@ -104,7 +93,6 @@
     :goto_1
     const/4 p0, 0x0
 
-    .line 11
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
@@ -121,7 +109,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     array-length p1, p0
 
     const/4 v2, 0x0
@@ -144,13 +131,11 @@
     :cond_0
     const/4 p1, 0x0
 
-    .line 2
     :goto_1
     array-length v2, p0
 
     if-ge v1, v2, :cond_1
 
-    .line 3
     aget-byte v2, p0, v1
 
     and-int/lit16 v2, v2, 0xff
@@ -168,7 +153,6 @@
     :cond_1
     move v2, p1
 
-    .line 4
     :cond_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -182,12 +166,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Ljava/lang/String;->length()I
 
     move-result v1
 
-    .line 2
     invoke-static {p0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v2
@@ -200,7 +182,6 @@
 
     goto :goto_1
 
-    .line 3
     :cond_0
     div-int/lit8 v2, v1, 0x2
 
@@ -211,7 +192,6 @@
     :goto_0
     if-ge v3, v1, :cond_1
 
-    .line 4
     invoke-virtual {p0, v3}, Ljava/lang/String;->charAt(I)C
 
     move-result v4
@@ -226,7 +206,6 @@
 
     add-int/lit8 v6, v3, 0x1
 
-    .line 5
     invoke-virtual {p0, v6}, Ljava/lang/String;->charAt(I)C
 
     move-result v6
@@ -235,7 +214,6 @@
 
     move-result v5
 
-    .line 6
     div-int/lit8 v6, v3, 0x2
 
     add-int/2addr v4, v5
@@ -248,7 +226,6 @@
 
     goto :goto_0
 
-    .line 7
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -258,7 +235,6 @@
     :goto_1
     const/4 p0, 0x0
 
-    .line 8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
@@ -298,14 +274,12 @@
 
     int-to-byte v5, v5
 
-    .line 1
     aput-byte v5, v2, v4
 
     add-int/lit8 v3, v3, 0x1
 
     goto :goto_0
 
-    .line 2
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -319,7 +293,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     array-length v1, p0
 
     const/4 v2, 0x0
@@ -335,7 +308,6 @@
 
     if-eqz v5, :cond_0
 
-    .line 2
     array-length v5, v5
 
     add-int/2addr v4, v5
@@ -345,11 +317,9 @@
 
     goto :goto_0
 
-    .line 3
     :cond_1
     new-array v1, v4, [B
 
-    .line 4
     array-length v3, p0
 
     const/4 v4, 0x0
@@ -363,12 +333,10 @@
 
     if-eqz v6, :cond_2
 
-    .line 5
     array-length v7, v6
 
     invoke-static {v6, v2, v1, v5, v7}, Ljava/lang/System;->arraycopy(Ljava/lang/Object;ILjava/lang/Object;II)V
 
-    .line 6
     array-length v6, v6
 
     add-int/2addr v5, v6
@@ -378,7 +346,6 @@
 
     goto :goto_1
 
-    .line 7
     :cond_3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -394,7 +361,6 @@
 
     const/4 v1, 0x0
 
-    .line 1
     :try_start_0
     new-instance v2, Ljava/io/FileInputStream;
 
@@ -408,7 +374,6 @@
     :try_start_1
     new-array v3, p0, [B
 
-    .line 2
     new-instance v4, Ljava/io/ByteArrayOutputStream;
 
     invoke-direct {v4, p0}, Ljava/io/ByteArrayOutputStream;-><init>(I)V
@@ -416,19 +381,16 @@
     :goto_0
     const/4 v5, 0x0
 
-    .line 3
     invoke-virtual {v2, v3, v5, p0}, Ljava/io/FileInputStream;->read([BII)I
 
     move-result v6
 
     if-lez v6, :cond_0
 
-    .line 4
     invoke-virtual {v4, v3, v5, v6}, Ljava/io/ByteArrayOutputStream;->write([BII)V
 
     goto :goto_0
 
-    .line 5
     :cond_0
     invoke-virtual {v4}, Ljava/io/ByteArrayOutputStream;->toByteArray()[B
 
@@ -437,13 +399,11 @@
     .catch Ljava/lang/Exception; {:try_start_1 .. :try_end_1} :catch_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_1
 
-    .line 6
     :try_start_2
     invoke-virtual {v2}, Ljava/io/FileInputStream;->close()V
     :try_end_2
     .catch Ljava/io/IOException; {:try_start_2 .. :try_end_2} :catch_0
 
-    .line 7
     :catch_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -464,7 +424,6 @@
 
     move-object v2, v1
 
-    .line 8
     :goto_1
     :try_start_3
     invoke-virtual {p0}, Ljava/lang/Exception;->printStackTrace()V
@@ -473,13 +432,11 @@
 
     if-eqz v2, :cond_1
 
-    .line 9
     :try_start_4
     invoke-virtual {v2}, Ljava/io/FileInputStream;->close()V
     :try_end_4
     .catch Ljava/io/IOException; {:try_start_4 .. :try_end_4} :catch_3
 
-    .line 10
     :catch_3
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -494,13 +451,11 @@
     :goto_2
     if-eqz v1, :cond_2
 
-    .line 11
     :try_start_5
     invoke-virtual {v1}, Ljava/io/FileInputStream;->close()V
     :try_end_5
     .catch Ljava/io/IOException; {:try_start_5 .. :try_end_5} :catch_4
 
-    .line 12
     :catch_4
     :cond_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -519,7 +474,6 @@
 
     const/4 v2, 0x0
 
-    .line 1
     :try_start_0
     new-instance v3, Ljava/io/FileOutputStream;
 
@@ -530,7 +484,6 @@
 
     if-eqz p0, :cond_0
 
-    .line 2
     :try_start_1
     array-length p1, p0
 
@@ -559,13 +512,11 @@
     :goto_0
     const/4 p0, 0x1
 
-    .line 3
     :try_start_2
     invoke-virtual {v3}, Ljava/io/FileOutputStream;->close()V
     :try_end_2
     .catch Ljava/io/IOException; {:try_start_2 .. :try_end_2} :catch_1
 
-    .line 4
     :catch_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -579,7 +530,6 @@
     :catch_2
     move-exception p0
 
-    .line 5
     :goto_1
     :try_start_3
     invoke-virtual {p0}, Ljava/lang/Exception;->printStackTrace()V
@@ -588,13 +538,11 @@
 
     if-eqz v2, :cond_1
 
-    .line 6
     :try_start_4
     invoke-virtual {v2}, Ljava/io/FileOutputStream;->close()V
     :try_end_4
     .catch Ljava/io/IOException; {:try_start_4 .. :try_end_4} :catch_3
 
-    .line 7
     :catch_3
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -604,13 +552,11 @@
     :goto_2
     if-eqz v2, :cond_2
 
-    .line 8
     :try_start_5
     invoke-virtual {v2}, Ljava/io/FileOutputStream;->close()V
     :try_end_5
     .catch Ljava/io/IOException; {:try_start_5 .. :try_end_5} :catch_4
 
-    .line 9
     :catch_4
     :cond_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

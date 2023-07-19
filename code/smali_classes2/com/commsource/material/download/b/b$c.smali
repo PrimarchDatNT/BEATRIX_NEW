@@ -46,12 +46,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/material/download/b/b$c;->a:Lcom/commsource/material/download/b/b;
 
     invoke-virtual {v1}, Lcom/commsource/material/download/b/b;->g()V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/material/download/b/b$c;->b:Landroid/app/Activity;
 
     invoke-static {v1}, Lcom/commsource/util/x;->D(Landroid/content/Context;)Z
@@ -62,10 +60,8 @@
 
     if-eqz p1, :cond_0
 
-    .line 3
     invoke-interface {p1}, Landroid/content/DialogInterface;->dismiss()V
 
-    .line 4
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

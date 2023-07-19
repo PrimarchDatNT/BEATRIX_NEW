@@ -41,7 +41,6 @@
 
     invoke-static {p2, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/layer/FaceLabelLayer$DrawTranslateView;->a:Lcom/commsource/studio/layer/FaceLabelLayer;
 
     invoke-direct {p0, p2}, Landroid/view/View;-><init>(Landroid/content/Context;)V
@@ -133,7 +132,6 @@
 
     if-eqz p1, :cond_2
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/layer/FaceLabelLayer$DrawTranslateView;->a:Lcom/commsource/studio/layer/FaceLabelLayer;
 
     invoke-virtual {v1}, Lcom/commsource/studio/layer/BaseLayer;->K()F
@@ -148,7 +146,6 @@
 
     invoke-virtual {p1, v1, v2}, Landroid/graphics/Canvas;->translate(FF)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/layer/FaceLabelLayer$DrawTranslateView;->a:Lcom/commsource/studio/layer/FaceLabelLayer;
 
     invoke-virtual {v1}, Lcom/commsource/studio/layer/BaseLayer;->O()F
@@ -165,7 +162,6 @@
 
     invoke-virtual {p1, v3, v3, v1, v2}, Landroid/graphics/Canvas;->clipRect(FFFF)Z
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/studio/layer/FaceLabelLayer$DrawTranslateView;->a:Lcom/commsource/studio/layer/FaceLabelLayer;
 
     invoke-static {v1}, Lcom/commsource/studio/layer/FaceLabelLayer;->p0(Lcom/commsource/studio/layer/FaceLabelLayer;)Ljava/util/LinkedList;
@@ -174,7 +170,6 @@
 
     const/4 v2, 0x0
 
-    .line 4
     invoke-interface {v1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v1
@@ -199,7 +194,6 @@
     :cond_0
     check-cast v3, Lcom/commsource/studio/layer/FaceOval;
 
-    .line 5
     iget-object v5, p0, Lcom/commsource/studio/layer/FaceLabelLayer$DrawTranslateView;->a:Lcom/commsource/studio/layer/FaceLabelLayer;
 
     invoke-virtual {v5, v2}, Lcom/commsource/studio/layer/FaceLabelLayer;->u0(I)Z
@@ -208,14 +202,12 @@
 
     if-eqz v2, :cond_1
 
-    .line 6
     invoke-virtual {v3}, Lcom/commsource/studio/layer/FaceOval;->x()Z
 
     move-result v2
 
     if-eqz v2, :cond_1
 
-    .line 7
     iget-object v2, p0, Lcom/commsource/studio/layer/FaceLabelLayer$DrawTranslateView;->a:Lcom/commsource/studio/layer/FaceLabelLayer;
 
     invoke-virtual {v2}, Lcom/commsource/studio/layer/BaseLayer;->y()F
@@ -235,7 +227,6 @@
 
     goto :goto_0
 
-    .line 8
     :cond_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

@@ -42,7 +42,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/home/NewHomeActivity$h;->a:Lcom/commsource/home/NewHomeActivity;
 
     invoke-static {v0}, Lcom/commsource/home/NewHomeActivity;->X0(Lcom/commsource/home/NewHomeActivity;)V

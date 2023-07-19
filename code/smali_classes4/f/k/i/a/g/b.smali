@@ -33,34 +33,26 @@
 .method public constructor <init>(Ljava/lang/String;)V
     .locals 4
 
-    .line 1
     invoke-direct {p0}, Lf/k/i/a/h/a;-><init>()V
 
     const-string v0, ""
 
-    .line 2
     iput-object v0, p0, Lf/k/i/a/g/b;->c:Ljava/lang/String;
 
     const/high16 v0, 0x40000
 
-    .line 3
     iput v0, p0, Lf/k/i/a/g/b;->d:I
 
     const-wide/16 v0, 0x0
 
-    .line 4
     iput-wide v0, p0, Lf/k/i/a/g/b;->e:J
 
-    .line 5
     iput-wide v0, p0, Lf/k/i/a/g/b;->f:J
 
-    .line 6
     iput-wide v0, p0, Lf/k/i/a/g/b;->g:J
 
-    .line 7
     iput-object p1, p0, Lf/k/i/a/g/b;->c:Ljava/lang/String;
 
-    .line 8
     sget-object v0, Lf/k/i/a/i/c;->a:Lcom/meitu/library/m/a/b;
 
     sget-object v1, Lf/k/i/a/g/b;->h:Ljava/lang/String;
@@ -87,7 +79,6 @@
 .method private h(Lokhttp3/Response;)J
     .locals 2
 
-    .line 1
     invoke-virtual {p1}, Lokhttp3/Response;->request()Lokhttp3/Request;
 
     move-result-object v0
@@ -102,14 +93,12 @@
 
     const-string v0, "Content-Length"
 
-    .line 2
     invoke-virtual {p1, v0}, Lokhttp3/Response;->header(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p1
 
     if-eqz p1, :cond_1
 
-    .line 3
     invoke-static {p1}, Ljava/lang/Long;->valueOf(Ljava/lang/String;)Ljava/lang/Long;
 
     move-result-object p1
@@ -123,7 +112,6 @@
     :cond_0
     const-string v0, "Content-Range"
 
-    .line 4
     invoke-virtual {p1, v0}, Lokhttp3/Response;->header(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p1
@@ -132,14 +120,12 @@
 
     const-string v0, "/"
 
-    .line 5
     invoke-virtual {p1, v0}, Ljava/lang/String;->contains(Ljava/lang/CharSequence;)Z
 
     move-result v1
 
     if-eqz v1, :cond_1
 
-    .line 6
     invoke-virtual {p1, v0}, Ljava/lang/String;->indexOf(Ljava/lang/String;)I
 
     move-result v0
@@ -175,7 +161,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     :try_start_0
     invoke-virtual {p1}, Lokhttp3/Response;->close()V
     :try_end_0
@@ -191,7 +176,6 @@
 .method public d(Lf/k/i/a/d;)V
     .locals 7
 
-    .line 1
     iget-wide v1, p0, Lf/k/i/a/g/b;->e:J
 
     iget-wide v3, p0, Lf/k/i/a/g/b;->f:J
@@ -208,7 +192,6 @@
 .method public final e(Lf/k/i/a/d;Ljava/lang/Exception;)V
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lf/k/i/a/h/a;->c()Lf/k/i/a/d;
 
     move-result-object p1
@@ -227,22 +210,18 @@
 
     const-string v9, "File Download Finish : "
 
-    .line 1
     invoke-virtual/range {p1 .. p1}, Lf/k/i/a/e;->f()Lokhttp3/Response;
 
     move-result-object v10
 
-    .line 2
     invoke-virtual {v10}, Lokhttp3/Response;->isSuccessful()Z
 
     move-result v0
 
     if-nez v0, :cond_0
 
-    .line 3
     invoke-direct {v8, v10}, Lf/k/i/a/g/b;->i(Lokhttp3/Response;)V
 
-    .line 4
     invoke-virtual/range {p0 .. p0}, Lf/k/i/a/h/a;->c()Lf/k/i/a/d;
 
     move-result-object v0
@@ -277,7 +256,6 @@
 
     return-void
 
-    .line 5
     :cond_0
     invoke-direct {v8, v10}, Lf/k/i/a/g/b;->h(Lokhttp3/Response;)J
 
@@ -285,7 +263,6 @@
 
     iput-wide v0, v8, Lf/k/i/a/g/b;->e:J
 
-    .line 6
     invoke-virtual {v10}, Lokhttp3/Response;->body()Lokhttp3/ResponseBody;
 
     move-result-object v0
@@ -296,7 +273,6 @@
 
     iput-wide v0, v8, Lf/k/i/a/g/b;->f:J
 
-    .line 7
     sget-object v0, Lf/k/i/a/i/c;->a:Lcom/meitu/library/m/a/b;
 
     sget-object v1, Lf/k/i/a/g/b;->h:Ljava/lang/String;
@@ -331,10 +307,8 @@
 
     invoke-virtual {v0, v1, v2}, Lcom/meitu/library/m/a/b;->b(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 8
     new-instance v6, Lf/k/i/a/i/d;
 
-    .line 9
     invoke-virtual/range {p0 .. p0}, Lf/k/i/a/h/a;->c()Lf/k/i/a/d;
 
     move-result-object v2
@@ -345,7 +319,6 @@
 
     invoke-direct {v6, v2}, Lf/k/i/a/i/d;-><init>(Landroid/content/Context;)V
 
-    .line 10
     invoke-virtual/range {p1 .. p1}, Lf/k/i/a/e;->g()Ljava/lang/String;
 
     move-result-object v2
@@ -362,7 +335,6 @@
 
     if-nez v2, :cond_1
 
-    .line 11
     invoke-virtual/range {p1 .. p1}, Lf/k/i/a/e;->g()Ljava/lang/String;
 
     move-result-object v12
@@ -398,17 +370,14 @@
 
     move-wide v5, v13
 
-    .line 12
     invoke-virtual {v2, v15, v5, v6}, Lorg/json/JSONObject;->optLong(Ljava/lang/String;J)J
 
     move-result-wide v11
 
-    .line 13
     invoke-virtual {v2, v7, v5, v6}, Lorg/json/JSONObject;->optLong(Ljava/lang/String;J)J
 
     move-result-wide v13
 
-    .line 14
     new-instance v2, Ljava/lang/StringBuilder;
 
     invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
@@ -439,7 +408,6 @@
 
     goto :goto_0
 
-    .line 15
     :cond_2
     iget-wide v5, v8, Lf/k/i/a/g/b;->e:J
 
@@ -474,7 +442,6 @@
     :cond_5
     const/4 v2, 0x0
 
-    .line 16
     :goto_0
     invoke-static {v2}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
@@ -482,7 +449,6 @@
 
     if-nez v5, :cond_6
 
-    .line 17
     invoke-virtual/range {p1 .. p1}, Lf/k/i/a/e;->g()Ljava/lang/String;
 
     move-result-object v0
@@ -491,13 +457,10 @@
 
     invoke-virtual {v6, v0}, Lf/k/i/a/i/d;->c(Ljava/lang/String;)V
 
-    .line 18
     invoke-virtual {v6}, Lf/k/i/a/i/d;->b()V
 
-    .line 19
     invoke-direct {v8, v10}, Lf/k/i/a/g/b;->i(Lokhttp3/Response;)V
 
-    .line 20
     invoke-virtual/range {p0 .. p0}, Lf/k/i/a/h/a;->c()Lf/k/i/a/d;
 
     move-result-object v0
@@ -560,14 +523,12 @@
     :goto_1
     const/16 v17, 0x1
 
-    .line 21
     invoke-virtual/range {p0 .. p0}, Lf/k/i/a/g/b;->j()I
 
     move-result v2
 
     new-array v2, v2, [B
 
-    .line 22
     :try_start_0
     invoke-virtual/range {p0 .. p0}, Lf/k/i/a/g/b;->k()Ljava/lang/String;
 
@@ -588,7 +549,6 @@
 
     if-nez v16, :cond_7
 
-    .line 23
     :try_start_2
     invoke-virtual/range {p0 .. p0}, Lf/k/i/a/g/b;->k()Ljava/lang/String;
 
@@ -674,7 +634,6 @@
 
     goto/16 :goto_10
 
-    .line 24
     :cond_7
     :goto_3
     :try_start_3
@@ -696,11 +655,9 @@
     .catch Ljava/io/IOException; {:try_start_3 .. :try_end_3} :catch_c
     .catchall {:try_start_3 .. :try_end_3} :catchall_5
 
-    .line 25
     :try_start_4
     invoke-virtual {v3, v4, v5}, Ljava/io/RandomAccessFile;->seek(J)V
 
-    .line 26
     new-instance v11, Ljava/lang/StringBuilder;
 
     invoke-direct {v11}, Ljava/lang/StringBuilder;-><init>()V
@@ -717,14 +674,12 @@
 
     invoke-virtual {v0, v1, v11}, Lcom/meitu/library/m/a/b;->b(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 27
     iget-wide v0, v8, Lf/k/i/a/g/b;->e:J
 
     iget-wide v11, v8, Lf/k/i/a/g/b;->f:J
 
     invoke-virtual {v8, v0, v1, v11, v12}, Lf/k/i/a/g/b;->p(JJ)V
 
-    .line 28
     :goto_4
     invoke-virtual {v10}, Lokhttp3/Response;->body()Lokhttp3/ResponseBody;
 
@@ -746,11 +701,9 @@
 
     const/4 v1, 0x0
 
-    .line 29
     :try_start_5
     invoke-virtual {v3, v2, v1, v0}, Ljava/io/RandomAccessFile;->write([BII)V
 
-    .line 30
     iget-wide v11, v8, Lf/k/i/a/g/b;->g:J
 
     move-object/from16 v18, v2
@@ -761,7 +714,6 @@
 
     iput-wide v11, v8, Lf/k/i/a/g/b;->g:J
 
-    .line 31
     invoke-virtual/range {p1 .. p1}, Lf/k/i/a/e;->g()Ljava/lang/String;
 
     move-result-object v12
@@ -789,7 +741,6 @@
     :try_start_6
     invoke-virtual/range {v11 .. v16}, Lf/k/i/a/i/d;->g(Ljava/lang/String;JJ)V
 
-    .line 32
     iget-wide v11, v8, Lf/k/i/a/g/b;->e:J
 
     iget-wide v13, v8, Lf/k/i/a/g/b;->f:J
@@ -1008,10 +959,8 @@
 
     const/16 v18, 0x0
 
-    .line 33
     invoke-direct {v8, v10}, Lf/k/i/a/g/b;->i(Lokhttp3/Response;)V
 
-    .line 34
     :try_start_8
     invoke-virtual/range {v19 .. v19}, Ljava/io/RandomAccessFile;->close()V
     :try_end_8
@@ -1024,7 +973,6 @@
 
     move-object v1, v0
 
-    .line 35
     invoke-virtual/range {p0 .. p0}, Lf/k/i/a/h/a;->c()Lf/k/i/a/d;
 
     move-result-object v0
@@ -1037,7 +985,6 @@
 
     const/16 v17, 0x0
 
-    .line 36
     :goto_8
     invoke-virtual/range {p1 .. p1}, Lf/k/i/a/e;->g()Ljava/lang/String;
 
@@ -1051,14 +998,12 @@
 
     const-wide/16 v11, -0x1
 
-    .line 37
     invoke-virtual {v0, v9, v11, v12}, Lorg/json/JSONObject;->optLong(Ljava/lang/String;J)J
 
     move-result-wide v1
 
     const-wide/16 v6, -0x2
 
-    .line 38
     invoke-virtual {v0, v14, v6, v7}, Lorg/json/JSONObject;->optLong(Ljava/lang/String;J)J
 
     move-result-wide v3
@@ -1067,7 +1012,6 @@
 
     if-nez v0, :cond_9
 
-    .line 39
     sget-object v0, Lf/k/i/a/i/c;->a:Lcom/meitu/library/m/a/b;
 
     sget-object v1, Lf/k/i/a/g/b;->h:Ljava/lang/String;
@@ -1092,20 +1036,17 @@
 
     invoke-virtual {v0, v1, v2}, Lcom/meitu/library/m/a/b;->b(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 40
     invoke-virtual/range {p1 .. p1}, Lf/k/i/a/e;->g()Ljava/lang/String;
 
     move-result-object v0
 
     invoke-virtual {v13, v0}, Lf/k/i/a/i/d;->c(Ljava/lang/String;)V
 
-    .line 41
     :cond_9
     invoke-virtual {v13}, Lf/k/i/a/i/d;->b()V
 
     if-eqz v17, :cond_e
 
-    .line 42
     iget-wide v2, v8, Lf/k/i/a/g/b;->e:J
 
     iget-wide v4, v8, Lf/k/i/a/g/b;->f:J
@@ -1262,7 +1203,6 @@
 
     const/16 v19, 0x0
 
-    .line 43
     :goto_9
     :try_start_9
     invoke-virtual/range {p0 .. p0}, Lf/k/i/a/h/a;->c()Lf/k/i/a/d;
@@ -1284,7 +1224,6 @@
 
     if-eqz v1, :cond_a
 
-    .line 44
     iget-wide v2, v8, Lf/k/i/a/g/b;->e:J
 
     iget-wide v4, v8, Lf/k/i/a/g/b;->f:J
@@ -1326,7 +1265,6 @@
 
     goto :goto_e
 
-    .line 45
     :cond_a
     :try_start_c
     invoke-virtual/range {p0 .. p0}, Lf/k/i/a/h/a;->c()Lf/k/i/a/d;
@@ -1341,13 +1279,11 @@
     :try_end_c
     .catchall {:try_start_c .. :try_end_c} :catchall_8
 
-    .line 46
     :goto_a
     invoke-direct {v8, v10}, Lf/k/i/a/g/b;->i(Lokhttp3/Response;)V
 
     if-eqz v19, :cond_b
 
-    .line 47
     :try_start_d
     invoke-virtual/range {v19 .. v19}, Ljava/io/RandomAccessFile;->close()V
     :try_end_d
@@ -1360,7 +1296,6 @@
 
     move-object v1, v0
 
-    .line 48
     invoke-virtual/range {p0 .. p0}, Lf/k/i/a/h/a;->c()Lf/k/i/a/d;
 
     move-result-object v0
@@ -1371,7 +1306,6 @@
 
     invoke-virtual {v8, v0, v2, v1}, Lf/k/i/a/g/b;->m(Lf/k/i/a/d;ILjava/lang/Exception;)V
 
-    .line 49
     :cond_b
     :goto_b
     invoke-virtual/range {p1 .. p1}, Lf/k/i/a/e;->g()Ljava/lang/String;
@@ -1384,14 +1318,12 @@
 
     if-eqz v0, :cond_c
 
-    .line 50
     invoke-virtual {v0, v9, v11, v12}, Lorg/json/JSONObject;->optLong(Ljava/lang/String;J)J
 
     move-result-wide v1
 
     const-wide/16 v3, -0x2
 
-    .line 51
     invoke-virtual {v0, v14, v3, v4}, Lorg/json/JSONObject;->optLong(Ljava/lang/String;J)J
 
     move-result-wide v3
@@ -1400,7 +1332,6 @@
 
     if-nez v0, :cond_c
 
-    .line 52
     sget-object v0, Lf/k/i/a/i/c;->a:Lcom/meitu/library/m/a/b;
 
     sget-object v1, Lf/k/i/a/g/b;->h:Ljava/lang/String;
@@ -1424,14 +1355,12 @@
 
     invoke-virtual {v0, v1, v2}, Lcom/meitu/library/m/a/b;->b(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 53
     invoke-virtual/range {p1 .. p1}, Lf/k/i/a/e;->g()Ljava/lang/String;
 
     move-result-object v0
 
     invoke-virtual {v13, v0}, Lf/k/i/a/i/d;->c(Ljava/lang/String;)V
 
-    .line 54
     :cond_c
     invoke-virtual {v13}, Lf/k/i/a/i/d;->b()V
 
@@ -1479,7 +1408,6 @@
     :goto_f
     const/4 v5, 0x0
 
-    .line 55
     :goto_10
     :try_start_e
     invoke-virtual/range {p0 .. p0}, Lf/k/i/a/h/a;->c()Lf/k/i/a/d;
@@ -1494,12 +1422,10 @@
     :try_end_e
     .catchall {:try_start_e .. :try_end_e} :catchall_a
 
-    .line 56
     invoke-direct {v8, v10}, Lf/k/i/a/g/b;->i(Lokhttp3/Response;)V
 
     if-eqz v5, :cond_d
 
-    .line 57
     :try_start_f
     invoke-virtual {v5}, Ljava/io/RandomAccessFile;->close()V
     :try_end_f
@@ -1512,7 +1438,6 @@
 
     move-object v1, v0
 
-    .line 58
     invoke-virtual/range {p0 .. p0}, Lf/k/i/a/h/a;->c()Lf/k/i/a/d;
 
     move-result-object v0
@@ -1523,7 +1448,6 @@
 
     invoke-virtual {v8, v0, v2, v1}, Lf/k/i/a/g/b;->m(Lf/k/i/a/d;ILjava/lang/Exception;)V
 
-    .line 59
     :cond_d
     :goto_11
     invoke-virtual/range {p1 .. p1}, Lf/k/i/a/e;->g()Ljava/lang/String;
@@ -1536,12 +1460,10 @@
 
     if-eqz v0, :cond_c
 
-    .line 60
     invoke-virtual {v0, v9, v11, v12}, Lorg/json/JSONObject;->optLong(Ljava/lang/String;J)J
 
     move-result-wide v1
 
-    .line 61
     invoke-virtual {v0, v14, v3, v4}, Lorg/json/JSONObject;->optLong(Ljava/lang/String;J)J
 
     move-result-wide v3
@@ -1550,7 +1472,6 @@
 
     if-nez v0, :cond_c
 
-    .line 62
     sget-object v0, Lf/k/i/a/i/c;->a:Lcom/meitu/library/m/a/b;
 
     sget-object v1, Lf/k/i/a/g/b;->h:Ljava/lang/String;
@@ -1573,13 +1494,11 @@
     :goto_13
     const/16 v17, 0x0
 
-    .line 63
     :goto_14
     invoke-direct {v8, v10}, Lf/k/i/a/g/b;->i(Lokhttp3/Response;)V
 
     if-eqz v5, :cond_f
 
-    .line 64
     :try_start_10
     invoke-virtual {v5}, Ljava/io/RandomAccessFile;->close()V
     :try_end_10
@@ -1592,7 +1511,6 @@
 
     move-object v1, v0
 
-    .line 65
     invoke-virtual/range {p0 .. p0}, Lf/k/i/a/h/a;->c()Lf/k/i/a/d;
 
     move-result-object v0
@@ -1605,7 +1523,6 @@
 
     const/16 v17, 0x0
 
-    .line 66
     :cond_f
     :goto_15
     invoke-virtual/range {p1 .. p1}, Lf/k/i/a/e;->g()Ljava/lang/String;
@@ -1618,12 +1535,10 @@
 
     if-eqz v0, :cond_10
 
-    .line 67
     invoke-virtual {v0, v9, v11, v12}, Lorg/json/JSONObject;->optLong(Ljava/lang/String;J)J
 
     move-result-wide v1
 
-    .line 68
     invoke-virtual {v0, v14, v3, v4}, Lorg/json/JSONObject;->optLong(Ljava/lang/String;J)J
 
     move-result-wide v3
@@ -1632,7 +1547,6 @@
 
     if-nez v0, :cond_10
 
-    .line 69
     sget-object v0, Lf/k/i/a/i/c;->a:Lcom/meitu/library/m/a/b;
 
     sget-object v1, Lf/k/i/a/g/b;->h:Ljava/lang/String;
@@ -1655,20 +1569,17 @@
 
     invoke-virtual {v0, v1, v2}, Lcom/meitu/library/m/a/b;->b(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 70
     invoke-virtual/range {p1 .. p1}, Lf/k/i/a/e;->g()Ljava/lang/String;
 
     move-result-object v0
 
     invoke-virtual {v13, v0}, Lf/k/i/a/i/d;->c(Ljava/lang/String;)V
 
-    .line 71
     :cond_10
     invoke-virtual {v13}, Lf/k/i/a/i/d;->b()V
 
     if-eqz v17, :cond_11
 
-    .line 72
     iget-wide v2, v8, Lf/k/i/a/g/b;->e:J
 
     iget-wide v4, v8, Lf/k/i/a/g/b;->f:J
@@ -1679,7 +1590,6 @@
 
     invoke-virtual/range {v1 .. v7}, Lf/k/i/a/g/b;->o(JJJ)V
 
-    .line 73
     :cond_11
     throw v16
 .end method
@@ -1687,7 +1597,6 @@
 .method public j()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lf/k/i/a/g/b;->d:I
 
     return v0
@@ -1696,7 +1605,6 @@
 .method public k()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lf/k/i/a/g/b;->c:Ljava/lang/String;
 
     return-object v0
@@ -1723,7 +1631,6 @@
 .method public q(I)V
     .locals 0
 
-    .line 1
     iput p1, p0, Lf/k/i/a/g/b;->d:I
 
     return-void

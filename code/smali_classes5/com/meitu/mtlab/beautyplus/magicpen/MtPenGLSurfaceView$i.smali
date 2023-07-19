@@ -29,7 +29,6 @@
 .method constructor <init>(Lcom/meitu/mtlab/beautyplus/magicpen/MtPenGLSurfaceView;FF)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/mtlab/beautyplus/magicpen/MtPenGLSurfaceView$i;->c:Lcom/meitu/mtlab/beautyplus/magicpen/MtPenGLSurfaceView;
 
     iput p2, p0, Lcom/meitu/mtlab/beautyplus/magicpen/MtPenGLSurfaceView$i;->a:F
@@ -50,7 +49,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/mtlab/beautyplus/magicpen/MtPenGLSurfaceView$i;->c:Lcom/meitu/mtlab/beautyplus/magicpen/MtPenGLSurfaceView;
 
     invoke-static {v1}, Lcom/meitu/mtlab/beautyplus/magicpen/MtPenGLSurfaceView;->k(Lcom/meitu/mtlab/beautyplus/magicpen/MtPenGLSurfaceView;)Lcom/meitu/mtlab/beautyplus/magicpen/NativeGLMagicPen;
@@ -63,7 +61,6 @@
 
     invoke-virtual {v1, v2, v3}, Lcom/meitu/mtlab/beautyplus/magicpen/NativeGLMagicPen;->j(FF)Z
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

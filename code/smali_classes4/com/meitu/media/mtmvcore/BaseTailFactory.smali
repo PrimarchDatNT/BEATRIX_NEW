@@ -20,13 +20,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/meitu/flymedia/glx/utils/GlxNativesLoader;->a()V
 
-    .line 2
     invoke-static {}, Lcom/meitu/media/mtmvcore/BaseTailFactory;->native_init()V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -35,15 +32,12 @@
 .method protected constructor <init>(J)V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/4 v0, 0x0
 
-    .line 2
     iput-boolean v0, p0, Lcom/meitu/media/mtmvcore/BaseTailFactory;->a:Z
 
-    .line 3
     invoke-direct {p0, p1, p2}, Lcom/meitu/media/mtmvcore/BaseTailFactory;->native_setup(J)V
 
     return-void
@@ -62,7 +56,6 @@
 
     goto :goto_0
 
-    .line 1
     :cond_0
     iget-wide v1, p0, Lcom/meitu/media/mtmvcore/BaseTailFactory;->mNativeContext:J
 
@@ -90,15 +83,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/meitu/media/mtmvcore/BaseTailFactory;->native_finalize()V
 
     const/4 v1, 0x1
 
-    .line 2
     iput-boolean v1, p0, Lcom/meitu/media/mtmvcore/BaseTailFactory;->a:Z
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -116,20 +106,16 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/meitu/media/mtmvcore/BaseTailFactory;->a:Z
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-super {p0}, Ljava/lang/Object;->finalize()V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 4
     :cond_0
     new-instance v1, Ljava/lang/RuntimeException;
 

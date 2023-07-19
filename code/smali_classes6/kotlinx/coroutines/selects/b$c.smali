@@ -33,7 +33,6 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-direct {p0}, Lcotlinx/coroutines/internal/v;-><init>()V
 
     iput-object p1, p0, Lcotlinx/coroutines/selects/b$c;->a:Lcotlinx/coroutines/internal/m$d;
@@ -56,7 +55,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcotlinx/coroutines/selects/b$c;->a:Lcotlinx/coroutines/internal/m$d;
 
     invoke-virtual {v0}, Lcotlinx/coroutines/internal/m$d;->a()Lcotlinx/coroutines/internal/d;
@@ -77,15 +75,12 @@
 
     if-eqz p1, :cond_1
 
-    .line 1
     check-cast p1, Lcotlinx/coroutines/selects/b;
 
-    .line 2
     iget-object v0, p0, Lcotlinx/coroutines/selects/b$c;->a:Lcotlinx/coroutines/internal/m$d;
 
     invoke-virtual {v0}, Lcotlinx/coroutines/internal/m$d;->d()V
 
-    .line 3
     iget-object v0, p0, Lcotlinx/coroutines/selects/b$c;->a:Lcotlinx/coroutines/internal/m$d;
 
     invoke-virtual {v0}, Lcotlinx/coroutines/internal/m$d;->a()Lcotlinx/coroutines/internal/d;
@@ -100,7 +95,6 @@
 
     if-nez v0, :cond_0
 
-    .line 4
     iget-object v1, p0, Lcotlinx/coroutines/selects/b$c;->a:Lcotlinx/coroutines/internal/m$d;
 
     iget-object v1, v1, Lcotlinx/coroutines/internal/m$d;->c:Lcotlinx/coroutines/internal/m$a;
@@ -110,7 +104,6 @@
     :cond_0
     move-object v1, p1
 
-    .line 5
     :goto_0
     sget-object v2, Lcotlinx/coroutines/selects/b;->f:Ljava/util/concurrent/atomic/AtomicReferenceFieldUpdater;
 
@@ -118,7 +111,6 @@
 
     return-object v0
 
-    .line 6
     :cond_1
     new-instance p1, Lcotlin/TypeCastException;
 

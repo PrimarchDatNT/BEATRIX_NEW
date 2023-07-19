@@ -35,10 +35,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/google/android/gms/common/api/internal/a2;-><init>(I)V
 
-    .line 2
     iput-object p2, p0, Lcom/google/android/gms/common/api/internal/u2;->b:Lcom/google/android/gms/tasks/l;
 
     return-void
@@ -53,7 +51,6 @@
         .end annotation
     .end param
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/common/api/internal/u2;->b:Lcom/google/android/gms/tasks/l;
 
     new-instance v1, Lcom/google/android/gms/common/api/ApiException;
@@ -81,7 +78,6 @@
         }
     .end annotation
 
-    .line 1
     :try_start_0
     invoke-virtual {p0, p1}, Lcom/google/android/gms/common/api/internal/u2;->i(Lcom/google/android/gms/common/api/internal/g$a;)V
     :try_end_0
@@ -94,7 +90,6 @@
     :catch_0
     move-exception p1
 
-    .line 2
     invoke-virtual {p0, p1}, Lcom/google/android/gms/common/api/internal/a1;->e(Ljava/lang/RuntimeException;)V
 
     return-void
@@ -102,7 +97,6 @@
     :catch_1
     move-exception p1
 
-    .line 3
     invoke-static {p1}, Lcom/google/android/gms/common/api/internal/a1;->f(Landroid/os/RemoteException;)Lcom/google/android/gms/common/api/Status;
 
     move-result-object p1
@@ -114,14 +108,12 @@
     :catch_2
     move-exception p1
 
-    .line 4
     invoke-static {p1}, Lcom/google/android/gms/common/api/internal/a1;->f(Landroid/os/RemoteException;)Lcom/google/android/gms/common/api/Status;
 
     move-result-object v0
 
     invoke-virtual {p0, v0}, Lcom/google/android/gms/common/api/internal/a1;->b(Lcom/google/android/gms/common/api/Status;)V
 
-    .line 5
     throw p1
 .end method
 
@@ -142,7 +134,6 @@
         .end annotation
     .end param
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/common/api/internal/u2;->b:Lcom/google/android/gms/tasks/l;
 
     invoke-virtual {v0, p1}, Lcom/google/android/gms/tasks/l;->d(Ljava/lang/Exception;)Z

@@ -37,10 +37,8 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/beautyplus/i0/a;-><init>()V
 
-    .line 2
     new-instance v0, Lcom/commsource/studio/function/background/BackgroundTextureFragment$mViewBinding$2;
 
     invoke-direct {v0, p0}, Lcom/commsource/studio/function/background/BackgroundTextureFragment$mViewBinding$2;-><init>(Lcom/commsource/studio/function/background/BackgroundTextureFragment;)V
@@ -51,7 +49,6 @@
 
     iput-object v0, p0, Lcom/commsource/studio/function/background/BackgroundTextureFragment;->c:Lcotlin/w;
 
-    .line 3
     new-instance v0, Lcom/commsource/studio/function/background/BackgroundTextureFragment$mAdapter$2;
 
     invoke-direct {v0, p0}, Lcom/commsource/studio/function/background/BackgroundTextureFragment$mAdapter$2;-><init>(Lcom/commsource/studio/function/background/BackgroundTextureFragment;)V
@@ -62,7 +59,6 @@
 
     iput-object v0, p0, Lcom/commsource/studio/function/background/BackgroundTextureFragment;->d:Lcotlin/w;
 
-    .line 4
     new-instance v0, Lcom/commsource/studio/function/background/BackgroundTextureFragment$backgroundViewModel$2;
 
     invoke-direct {v0, p0}, Lcom/commsource/studio/function/background/BackgroundTextureFragment$backgroundViewModel$2;-><init>(Lcom/commsource/studio/function/background/BackgroundTextureFragment;)V
@@ -73,7 +69,6 @@
 
     iput-object v0, p0, Lcom/commsource/studio/function/background/BackgroundTextureFragment;->f:Lcotlin/w;
 
-    .line 5
     new-instance v0, Lcom/commsource/studio/function/background/BackgroundTextureFragment$tracker$2;
 
     invoke-direct {v0, p0}, Lcom/commsource/studio/function/background/BackgroundTextureFragment$tracker$2;-><init>(Lcom/commsource/studio/function/background/BackgroundTextureFragment;)V
@@ -94,7 +89,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/commsource/studio/function/background/BackgroundTextureFragment;->H(Lcom/commsource/studio/function/background/TextureMaterial;)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -109,7 +103,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/beautyplus/i0/a;->b:Landroid/app/Activity;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -124,7 +117,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/function/background/BackgroundTextureFragment;->g:Lcom/commsource/studio/function/background/TextureMaterial;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -141,14 +133,12 @@
 
     invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual/range {p1 .. p1}, Lcom/commsource/studio/function/background/TextureMaterial;->needDownload()Z
 
     move-result v2
 
     if-eqz v2, :cond_1
 
-    .line 2
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
     move-result-object v2
@@ -159,7 +149,6 @@
 
     if-nez v2, :cond_0
 
-    .line 3
     invoke-virtual/range {p0 .. p0}, Landroidx/fragment/app/Fragment;->getContext()Landroid/content/Context;
 
     move-result-object v0
@@ -168,7 +157,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_0
     sget-object v2, Lcom/commsource/repository/child/TextureRepository;->s:Lcom/commsource/repository/child/TextureRepository;
 
@@ -180,13 +168,11 @@
 
     invoke-static {v2, v0, v3, v4, v5}, Lcom/commsource/repository/child/TextureRepository;->x(Lcom/commsource/repository/child/TextureRepository;Lcom/commsource/studio/function/background/TextureMaterial;ZILjava/lang/Object;)V
 
-    .line 5
     :goto_0
     invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 6
     :cond_1
     invoke-virtual/range {p1 .. p1}, Lcom/commsource/studio/function/background/TextureMaterial;->getConfig()Lcom/commsource/studio/function/background/TextureConfig;
 
@@ -194,7 +180,6 @@
 
     if-eqz v2, :cond_3
 
-    .line 7
     new-instance v3, Ljava/lang/StringBuilder;
 
     invoke-direct {v3}, Ljava/lang/StringBuilder;-><init>()V
@@ -219,7 +204,6 @@
 
     move-result-object v15
 
-    .line 8
     new-instance v3, Lcom/commsource/studio/function/background/BackgroundTexture;
 
     invoke-virtual/range {p1 .. p1}, Lcom/commsource/studio/function/background/TextureMaterial;->getId()Ljava/lang/String;
@@ -262,7 +246,6 @@
 
     invoke-direct/range {v5 .. v15}, Lcom/commsource/studio/function/background/BackgroundTexture;-><init>(Ljava/lang/String;FLjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ZZLjava/lang/String;)V
 
-    .line 9
     invoke-virtual/range {p0 .. p0}, Lcom/commsource/studio/function/background/BackgroundTextureFragment;->D()Lcom/commsource/studio/function/background/BackgroundViewModel;
 
     move-result-object v0
@@ -285,7 +268,6 @@
 
     if-eqz v0, :cond_2
 
-    .line 10
     invoke-virtual {v3}, Lcom/commsource/studio/function/background/BackgroundTexture;->getId()Ljava/lang/String;
 
     move-result-object v0
@@ -294,10 +276,8 @@
 
     const-string v4, "background_texture"
 
-    .line 11
     invoke-static {v2, v4, v0}, Lcom/commsource/statistics/i;->r(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 12
     :cond_2
     invoke-virtual/range {p0 .. p0}, Lcom/commsource/studio/function/background/BackgroundTextureFragment;->D()Lcom/commsource/studio/function/background/BackgroundViewModel;
 
@@ -305,7 +285,6 @@
 
     invoke-virtual {v0, v3}, Lcom/commsource/studio/function/background/BackgroundViewModel;->Y(Lcom/commsource/studio/function/background/BackgroundTexture;)V
 
-    .line 13
     invoke-virtual/range {p0 .. p0}, Lcom/commsource/studio/function/background/BackgroundTextureFragment;->D()Lcom/commsource/studio/function/background/BackgroundViewModel;
 
     move-result-object v0
@@ -316,7 +295,6 @@
 
     invoke-virtual {v0, v3}, Landroidx/lifecycle/MutableLiveData;->setValue(Ljava/lang/Object;)V
 
-    .line 14
     :cond_3
     invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -330,7 +308,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/beautyplus/i0/a;->b:Landroid/app/Activity;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -345,7 +322,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/studio/function/background/BackgroundTextureFragment;->g:Lcom/commsource/studio/function/background/TextureMaterial;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -459,10 +435,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0}, Lcom/commsource/beautyplus/i0/a;->m()V
 
-    .line 2
     invoke-virtual {p0}, Lcom/commsource/studio/function/background/BackgroundTextureFragment;->G()Lcom/commsource/util/h1;
 
     move-result-object v1
@@ -479,7 +453,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/util/h1;->g(Landroidx/recyclerview/widget/RecyclerView;)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -510,7 +483,6 @@
 
     invoke-static {p1, p3}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/studio/function/background/BackgroundTextureFragment;->F()Lcom/commsource/beautyplus/f0/e7;
 
     move-result-object p1
@@ -563,10 +535,8 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-super {p0, p1, p2}, Landroidx/fragment/app/Fragment;->onViewCreated(Landroid/view/View;Landroid/os/Bundle;)V
 
-    .line 2
     invoke-virtual {p0}, Lcom/commsource/studio/function/background/BackgroundTextureFragment;->F()Lcom/commsource/beautyplus/f0/e7;
 
     move-result-object p1
@@ -583,7 +553,6 @@
 
     invoke-virtual {p1, v1}, Landroidx/recyclerview/widget/RecyclerView;->setAdapter(Landroidx/recyclerview/widget/RecyclerView$Adapter;)V
 
-    .line 3
     invoke-virtual {p0}, Lcom/commsource/studio/function/background/BackgroundTextureFragment;->F()Lcom/commsource/beautyplus/f0/e7;
 
     move-result-object p1
@@ -596,7 +565,6 @@
 
     invoke-virtual {p1, v1}, Landroidx/recyclerview/widget/RecyclerView;->addOnScrollListener(Landroidx/recyclerview/widget/RecyclerView$OnScrollListener;)V
 
-    .line 4
     invoke-virtual {p0}, Lcom/commsource/studio/function/background/BackgroundTextureFragment;->E()Lcom/commsource/widget/h1/e;
 
     move-result-object p1
@@ -607,7 +575,6 @@
 
     invoke-virtual {p1, v1}, Lcom/commsource/widget/h1/e;->P(Ljava/lang/Object;)V
 
-    .line 5
     invoke-virtual {p0}, Lcom/commsource/studio/function/background/BackgroundTextureFragment;->F()Lcom/commsource/beautyplus/f0/e7;
 
     move-result-object p1
@@ -620,7 +587,6 @@
 
     invoke-virtual {p1, v1}, Landroidx/recyclerview/widget/RecyclerView;->addItemDecoration(Landroidx/recyclerview/widget/RecyclerView$ItemDecoration;)V
 
-    .line 6
     invoke-virtual {p0}, Lcom/commsource/studio/function/background/BackgroundTextureFragment;->F()Lcom/commsource/beautyplus/f0/e7;
 
     move-result-object p1
@@ -641,7 +607,6 @@
 
     invoke-virtual {p1, p2}, Landroidx/recyclerview/widget/RecyclerView;->setLayoutManager(Landroidx/recyclerview/widget/RecyclerView$LayoutManager;)V
 
-    .line 7
     sget-object p1, Lcom/commsource/repository/child/TextureRepository;->s:Lcom/commsource/repository/child/TextureRepository;
 
     invoke-virtual {p1}, Lcom/commsource/repository/child/TextureRepository;->z()Landroidx/lifecycle/MutableLiveData;
@@ -658,12 +623,10 @@
 
     invoke-virtual {p2, v1, v2}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 8
     invoke-virtual {p1}, Lcom/commsource/repository/child/TextureRepository;->B()Lcom/commsource/material/download/b/a;
 
     move-result-object p1
 
-    .line 9
     invoke-virtual {p1}, Lcom/commsource/material/download/b/a;->c()Lcom/commsource/beautyfilter/NoStickLiveData;
 
     move-result-object p2
@@ -682,7 +645,6 @@
 
     invoke-virtual {p2, v1, v3}, Lcom/commsource/beautyfilter/NoStickLiveData;->a(Landroidx/lifecycle/LifecycleOwner;Lcom/commsource/beautyfilter/NoStickLiveData$a;)V
 
-    .line 10
     invoke-virtual {p1}, Lcom/commsource/material/download/b/a;->e()Lcom/commsource/beautyfilter/NoStickLiveData;
 
     move-result-object p2
@@ -699,7 +661,6 @@
 
     invoke-virtual {p2, v1, v3}, Lcom/commsource/beautyfilter/NoStickLiveData;->a(Landroidx/lifecycle/LifecycleOwner;Lcom/commsource/beautyfilter/NoStickLiveData$a;)V
 
-    .line 11
     invoke-virtual {p1}, Lcom/commsource/material/download/b/a;->b()Lcom/commsource/beautyfilter/NoStickLiveData;
 
     move-result-object p1
@@ -716,7 +677,6 @@
 
     invoke-virtual {p1, p2, v1}, Lcom/commsource/beautyfilter/NoStickLiveData;->a(Landroidx/lifecycle/LifecycleOwner;Lcom/commsource/beautyfilter/NoStickLiveData$a;)V
 
-    .line 12
     invoke-virtual {p0}, Lcom/commsource/studio/function/background/BackgroundTextureFragment;->D()Lcom/commsource/studio/function/background/BackgroundViewModel;
 
     move-result-object p1
@@ -733,7 +693,6 @@
 
     invoke-virtual {p1, p2, v1}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 13
     invoke-virtual {p0}, Lcom/commsource/studio/function/background/BackgroundTextureFragment;->E()Lcom/commsource/widget/h1/e;
 
     move-result-object p1
@@ -746,7 +705,6 @@
 
     invoke-virtual {p1, p2, v1}, Lcom/commsource/widget/h1/e;->J(Ljava/lang/Class;Lcom/commsource/widget/h1/e$b;)V
 
-    .line 14
     invoke-virtual {p0}, Lcom/commsource/studio/function/background/BackgroundTextureFragment;->E()Lcom/commsource/widget/h1/e;
 
     move-result-object p1
@@ -759,7 +717,6 @@
 
     invoke-virtual {p1, p2, v1}, Lcom/commsource/widget/h1/e;->J(Ljava/lang/Class;Lcom/commsource/widget/h1/e$b;)V
 
-    .line 15
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

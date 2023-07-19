@@ -57,7 +57,6 @@
 
     invoke-static {p3, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     iput p1, p0, Lcom/mopub/network/MoPubNetworkResponse;->statusCode:I
@@ -66,7 +65,6 @@
 
     iput-object p3, p0, Lcom/mopub/network/MoPubNetworkResponse;->headers:Ljava/util/Map;
 
-    .line 2
     new-instance v0, Lcom/mopub/volley/NetworkResponse;
 
     invoke-direct {p0, p3}, Lcom/mopub/network/MoPubNetworkResponse;->toAllHeaderList(Ljava/util/Map;)Ljava/util/List;
@@ -105,7 +103,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-interface {p1}, Ljava/util/Map;->size()I
@@ -114,7 +111,6 @@
 
     invoke-direct {v0, v1}, Ljava/util/ArrayList;-><init>(I)V
 
-    .line 2
     invoke-interface {p1}, Ljava/util/Map;->entrySet()Ljava/util/Set;
 
     move-result-object p1
@@ -136,7 +132,6 @@
 
     check-cast v1, Ljava/util/Map$Entry;
 
-    .line 3
     new-instance v2, Lcom/mopub/volley/Header;
 
     invoke-interface {v1}, Ljava/util/Map$Entry;->getKey()Ljava/lang/Object;
@@ -168,7 +163,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/network/MoPubNetworkResponse;->data:[B
 
     return-object v0
@@ -189,7 +183,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/network/MoPubNetworkResponse;->headers:Ljava/util/Map;
 
     return-object v0
@@ -198,7 +191,6 @@
 .method public final getStatusCode()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lcom/mopub/network/MoPubNetworkResponse;->statusCode:I
 
     return v0
@@ -209,7 +201,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/network/MoPubNetworkResponse;->volleyNetworkResponse:Lcom/mopub/volley/NetworkResponse;
 
     return-object v0

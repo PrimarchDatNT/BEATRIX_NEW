@@ -23,7 +23,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -34,7 +33,6 @@
 .method public final synthetic Eb(Lcom/google/android/gms/internal/firebase_auth/s5;)Lcom/google/android/gms/internal/firebase_auth/r5;
     .locals 1
 
-    .line 1
     invoke-interface {p0}, Lcom/google/android/gms/internal/firebase_auth/u5;->e()Lcom/google/android/gms/internal/firebase_auth/s5;
 
     move-result-object v0
@@ -49,7 +47,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 2
     check-cast p1, Lcom/google/android/gms/internal/firebase_auth/u2;
 
     invoke-virtual {p0, p1}, Lcom/google/android/gms/internal/firebase_auth/y2;->f(Lcom/google/android/gms/internal/firebase_auth/u2;)Lcom/google/android/gms/internal/firebase_auth/y2;
@@ -58,7 +55,6 @@
 
     return-object p1
 
-    .line 3
     :cond_0
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -77,7 +73,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/android/gms/internal/firebase_auth/y2;->h()Lcom/google/android/gms/internal/firebase_auth/y2;
 
     move-result-object v0

@@ -11,10 +11,8 @@
 .method public constructor <init>([Ljava/lang/String;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/meitu/hubble/i/c;->a:[Ljava/lang/String;
 
     return-void
@@ -27,12 +25,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p0}, Lcom/meitu/hubble/k/b;->g(Landroid/content/Context;)Lcom/meitu/hubble/i/c;
 
     move-result-object p0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0

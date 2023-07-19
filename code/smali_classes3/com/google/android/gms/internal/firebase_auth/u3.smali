@@ -9,7 +9,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -18,7 +17,6 @@
 .method synthetic constructor <init>(Lcom/google/android/gms/internal/firebase_auth/s4;)V
     .locals 0
 
-    .line 2
     invoke-direct {p0}, Lcom/google/android/gms/internal/firebase_auth/u3;-><init>()V
 
     return-void
@@ -31,12 +29,10 @@
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
-    .line 1
     invoke-static {}, Ljava/util/concurrent/Executors;->defaultThreadFactory()Ljava/util/concurrent/ThreadFactory;
 
     move-result-object v7
 
-    .line 2
     new-instance p1, Ljava/util/concurrent/ThreadPoolExecutor;
 
     sget-object v5, Ljava/util/concurrent/TimeUnit;->SECONDS:Ljava/util/concurrent/TimeUnit;
@@ -57,10 +53,8 @@
 
     const/4 v0, 0x1
 
-    .line 3
     invoke-virtual {p1, v0}, Ljava/util/concurrent/ThreadPoolExecutor;->allowCoreThreadTimeOut(Z)V
 
-    .line 4
     invoke-static {p1}, Ljava/util/concurrent/Executors;->unconfigurableExecutorService(Ljava/util/concurrent/ExecutorService;)Ljava/util/concurrent/ExecutorService;
 
     move-result-object p1

@@ -13,13 +13,10 @@
 .method public constructor <init>(ZI)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-boolean p1, p0, Lio/jaegertracing/a/i/e;->a:Z
 
-    .line 3
     iput p2, p0, Lio/jaegertracing/a/i/e;->b:I
 
     return-void
@@ -28,7 +25,6 @@
 .method public static c(ZI)Lio/jaegertracing/a/i/e;
     .locals 1
 
-    .line 1
     new-instance v0, Lio/jaegertracing/a/i/e;
 
     invoke-direct {v0, p0, p1}, Lio/jaegertracing/a/i/e;-><init>(ZI)V
@@ -41,7 +37,6 @@
 .method public a()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lio/jaegertracing/a/i/e;->b:I
 
     return v0
@@ -50,7 +45,6 @@
 .method public b()Z
     .locals 1
 
-    .line 1
     iget-boolean v0, p0, Lio/jaegertracing/a/i/e;->a:Z
 
     return v0
@@ -59,7 +53,6 @@
 .method public d(Z)V
     .locals 0
 
-    .line 1
     iput-boolean p1, p0, Lio/jaegertracing/a/i/e;->a:Z
 
     return-void
@@ -68,7 +61,6 @@
 .method public e(I)V
     .locals 0
 
-    .line 1
     iput p1, p0, Lio/jaegertracing/a/i/e;->b:I
 
     return-void

@@ -42,10 +42,8 @@
 
     invoke-static {p2, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-direct {p0, p1, p2}, Lcom/commsource/widget/dialog/delegate/DialogDelegate;-><init>(Lcom/commsource/widget/dialog/delegate/b;Lcom/commsource/widget/dialog/delegate/d/a;)V
 
-    .line 2
     new-instance v0, Lcom/commsource/widget/dialog/delegate/d/d$a;
 
     invoke-direct {v0, p0, p2, p1}, Lcom/commsource/widget/dialog/delegate/d/d$a;-><init>(Lcom/commsource/widget/dialog/delegate/d/d;Lcom/commsource/widget/dialog/delegate/d/c;Lcom/commsource/widget/dialog/delegate/b;)V
@@ -64,7 +62,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/widget/dialog/delegate/DialogDelegate;->d()Landroidx/databinding/ViewDataBinding;
 
     move-result-object v1
@@ -75,7 +72,6 @@
 
     invoke-virtual {v1}, Lcom/airbnb/lottie/LottieAnimationView;->z()V
 
-    .line 2
     invoke-virtual {p0}, Lcom/commsource/widget/dialog/delegate/DialogDelegate;->b()Lcom/commsource/widget/dialog/delegate/d/a;
 
     move-result-object v1
@@ -88,14 +84,12 @@
 
     if-eqz v1, :cond_0
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/widget/dialog/delegate/d/d;->e:Ljava/lang/Runnable;
 
     const-wide/16 v2, 0x1388
 
     invoke-static {v1, v2, v3}, Lcom/commsource/util/g2;->l(Ljava/lang/Runnable;J)V
 
-    .line 4
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -109,15 +103,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0}, Lcom/commsource/widget/dialog/delegate/DialogDelegate;->i()V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/widget/dialog/delegate/d/d;->e:Ljava/lang/Runnable;
 
     invoke-static {v1}, Lcom/commsource/util/g2;->h(Ljava/lang/Runnable;)V
 
-    .line 3
     invoke-virtual {p0}, Lcom/commsource/widget/dialog/delegate/DialogDelegate;->d()Landroidx/databinding/ViewDataBinding;
 
     move-result-object v1
@@ -128,7 +119,6 @@
 
     invoke-virtual {v1}, Lcom/airbnb/lottie/LottieAnimationView;->k()V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -143,7 +133,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/widget/dialog/delegate/d/d;->e:Ljava/lang/Runnable;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

@@ -41,7 +41,6 @@
 
     iput-object p2, p0, Lcotlinx/coroutines/flow/FlowKt__MigrationKt$combine$$inlined$unsafeFlow$3;->b:Lcotlin/jvm/u/p;
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -62,7 +61,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcotlinx/coroutines/flow/FlowKt__MigrationKt$combine$$inlined$unsafeFlow$3;->a:[Lcotlinx/coroutines/flow/d;
 
     invoke-static {}, Lcotlin/jvm/internal/f0;->w()V
@@ -91,7 +89,6 @@
 
     return-object p1
 
-    .line 2
     :cond_0
     sget-object p1, Lcotlin/t1;->a:Lcotlin/t1;
 
@@ -123,7 +120,6 @@
 
     invoke-static {v0}, Lcotlin/jvm/internal/c0;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcotlinx/coroutines/flow/FlowKt__MigrationKt$combine$$inlined$unsafeFlow$3;->a:[Lcotlinx/coroutines/flow/d;
 
     invoke-static {}, Lcotlin/jvm/internal/f0;->w()V
@@ -154,7 +150,6 @@
 
     invoke-static {p1}, Lcotlin/jvm/internal/c0;->e(I)V
 
-    .line 2
     sget-object p1, Lcotlin/t1;->a:Lcotlin/t1;
 
     return-object p1

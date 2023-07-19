@@ -54,7 +54,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     const-class v1, Lcom/commsource/util/c2;
 
     invoke-virtual {v1}, Ljava/lang/Class;->getSimpleName()Ljava/lang/String;
@@ -65,13 +64,10 @@
 
     const/4 v1, 0x0
 
-    .line 2
     sput-object v1, Lcom/commsource/util/c2;->f:Ljava/util/concurrent/ExecutorService;
 
-    .line 3
     sput-object v1, Lcom/commsource/util/c2;->g:Ljava/util/concurrent/ExecutorService;
 
-    .line 4
     new-instance v1, Ljava/util/concurrent/atomic/AtomicLong;
 
     const-wide/16 v2, 0x0
@@ -80,14 +76,12 @@
 
     sput-object v1, Lcom/commsource/util/c2;->h:Ljava/util/concurrent/atomic/AtomicLong;
 
-    .line 5
     new-instance v1, Ljava/util/concurrent/atomic/AtomicLong;
 
     invoke-direct {v1, v2, v3}, Ljava/util/concurrent/atomic/AtomicLong;-><init>(J)V
 
     sput-object v1, Lcom/commsource/util/c2;->i:Ljava/util/concurrent/atomic/AtomicLong;
 
-    .line 6
     sget-object v1, Lcom/commsource/util/j;->a:Lcom/commsource/util/j;
 
     sput-object v1, Lcom/commsource/util/c2;->j:Ljava/util/Comparator;
@@ -100,10 +94,8 @@
 .method public constructor <init>()V
     .locals 2
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     new-instance v0, Landroid/os/Handler;
 
     invoke-static {}, Landroid/os/Looper;->getMainLooper()Landroid/os/Looper;
@@ -124,7 +116,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/util/c2;->b:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -139,7 +130,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/util/c2;->h:Ljava/util/concurrent/atomic/AtomicLong;
 
     invoke-virtual {v1}, Ljava/util/concurrent/atomic/AtomicLong;->getAndIncrement()J
@@ -148,21 +138,18 @@
 
     invoke-virtual {p0, v1, v2}, Lcom/commsource/util/u2/a;->e(J)V
 
-    .line 2
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v1
 
     invoke-virtual {p0, v1, v2}, Lcom/commsource/util/u2/a;->d(J)V
 
-    .line 3
     invoke-static {}, Lcom/commsource/util/c2;->i()Ljava/util/concurrent/ExecutorService;
 
     move-result-object v1
 
     invoke-interface {v1, p0}, Ljava/util/concurrent/ExecutorService;->execute(Ljava/lang/Runnable;)V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -179,7 +166,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/commsource/util/x;->C()Z
 
     move-result v1
@@ -194,7 +180,6 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     new-instance p0, Ljava/lang/IllegalArgumentException;
 
@@ -206,14 +191,12 @@
 
     throw p0
 
-    .line 3
     :cond_1
     :goto_0
     new-instance v1, Lcom/commsource/util/c2$a;
 
     invoke-direct {v1, p0, p1}, Lcom/commsource/util/c2$a;-><init>(Ljava/lang/String;Ljava/lang/Runnable;)V
 
-    .line 4
     sget-object p0, Lcom/commsource/util/c2;->h:Ljava/util/concurrent/atomic/AtomicLong;
 
     invoke-virtual {p0}, Ljava/util/concurrent/atomic/AtomicLong;->getAndIncrement()J
@@ -222,21 +205,18 @@
 
     invoke-virtual {v1, p0, p1}, Lcom/commsource/util/u2/a;->e(J)V
 
-    .line 5
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide p0
 
     invoke-virtual {v1, p0, p1}, Lcom/commsource/util/u2/a;->d(J)V
 
-    .line 6
     invoke-static {}, Lcom/commsource/util/c2;->i()Ljava/util/concurrent/ExecutorService;
 
     move-result-object p0
 
     invoke-interface {p0, v1}, Ljava/util/concurrent/ExecutorService;->execute(Ljava/lang/Runnable;)V
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -249,7 +229,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/util/c2;->i:Ljava/util/concurrent/atomic/AtomicLong;
 
     invoke-virtual {v1}, Ljava/util/concurrent/atomic/AtomicLong;->getAndIncrement()J
@@ -258,21 +237,18 @@
 
     invoke-virtual {p0, v1, v2}, Lcom/commsource/util/u2/a;->e(J)V
 
-    .line 2
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v1
 
     invoke-virtual {p0, v1, v2}, Lcom/commsource/util/u2/a;->d(J)V
 
-    .line 3
     invoke-static {}, Lcom/commsource/util/c2;->j()Ljava/util/concurrent/ExecutorService;
 
     move-result-object v1
 
     invoke-interface {v1, p0}, Ljava/util/concurrent/ExecutorService;->execute(Ljava/lang/Runnable;)V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -289,7 +265,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/commsource/util/x;->C()Z
 
     move-result v1
@@ -304,7 +279,6 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     new-instance p0, Ljava/lang/IllegalArgumentException;
 
@@ -316,14 +290,12 @@
 
     throw p0
 
-    .line 3
     :cond_1
     :goto_0
     new-instance v1, Lcom/commsource/util/c2$b;
 
     invoke-direct {v1, p0, p1}, Lcom/commsource/util/c2$b;-><init>(Ljava/lang/String;Ljava/lang/Runnable;)V
 
-    .line 4
     sget-object p0, Lcom/commsource/util/c2;->i:Ljava/util/concurrent/atomic/AtomicLong;
 
     invoke-virtual {p0}, Ljava/util/concurrent/atomic/AtomicLong;->getAndIncrement()J
@@ -332,21 +304,18 @@
 
     invoke-virtual {v1, p0, p1}, Lcom/commsource/util/u2/a;->e(J)V
 
-    .line 5
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide p0
 
     invoke-virtual {v1, p0, p1}, Lcom/commsource/util/u2/a;->d(J)V
 
-    .line 6
     invoke-static {}, Lcom/commsource/util/c2;->j()Ljava/util/concurrent/ExecutorService;
 
     move-result-object p0
 
     invoke-interface {p0, v1}, Ljava/util/concurrent/ExecutorService;->execute(Ljava/lang/Runnable;)V
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -364,23 +333,19 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/util/c2;->f:Ljava/util/concurrent/ExecutorService;
 
     if-nez v1, :cond_1
 
-    .line 2
     const-class v1, Lcom/commsource/util/c2;
 
     monitor-enter v1
 
-    .line 3
     :try_start_0
     sget-object v2, Lcom/commsource/util/c2;->f:Ljava/util/concurrent/ExecutorService;
 
     if-nez v2, :cond_0
 
-    .line 4
     invoke-static {}, Ljava/lang/Runtime;->getRuntime()Ljava/lang/Runtime;
 
     move-result-object v2
@@ -395,7 +360,6 @@
 
     add-int/lit8 v5, v2, -0x1
 
-    .line 5
     invoke-static {v4, v5}, Ljava/lang/Math;->max(II)I
 
     move-result v4
@@ -408,10 +372,8 @@
 
     add-int/lit8 v2, v2, 0x1
 
-    .line 6
     invoke-static {v3, v2}, Ljava/lang/Math;->max(II)I
 
-    .line 7
     new-instance v2, Lcom/commsource/util/c2$c;
 
     const/4 v4, 0x0
@@ -424,7 +386,6 @@
 
     sput-object v2, Lcom/commsource/util/c2;->f:Ljava/util/concurrent/ExecutorService;
 
-    .line 8
     :cond_0
     monitor-exit v1
 
@@ -441,7 +402,6 @@
 
     throw v2
 
-    .line 9
     :cond_1
     :goto_0
     sget-object v1, Lcom/commsource/util/c2;->f:Ljava/util/concurrent/ExecutorService;
@@ -463,23 +423,19 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/util/c2;->g:Ljava/util/concurrent/ExecutorService;
 
     if-nez v1, :cond_1
 
-    .line 2
     const-class v1, Lcom/commsource/util/c2;
 
     monitor-enter v1
 
-    .line 3
     :try_start_0
     sget-object v2, Lcom/commsource/util/c2;->g:Ljava/util/concurrent/ExecutorService;
 
     if-nez v2, :cond_0
 
-    .line 4
     new-instance v2, Lcom/commsource/util/c2$c;
 
     const/4 v3, 0x1
@@ -492,7 +448,6 @@
 
     sput-object v2, Lcom/commsource/util/c2;->g:Ljava/util/concurrent/ExecutorService;
 
-    .line 5
     :cond_0
     monitor-exit v1
 
@@ -509,7 +464,6 @@
 
     throw v2
 
-    .line 6
     :cond_1
     :goto_0
     sget-object v1, Lcom/commsource/util/c2;->g:Ljava/util/concurrent/ExecutorService;
@@ -526,7 +480,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-interface {p0, p1}, Lcom/commsource/beautyplus/base/b/a$c;->onSuccess(Ljava/lang/Object;)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -541,7 +494,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-interface {p0, p1}, Lcom/commsource/beautyplus/base/b/a$c;->a(Ljava/lang/Integer;)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -556,7 +508,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     instance-of v1, p0, Lcom/commsource/util/u2/a;
 
     if-eqz v1, :cond_1
@@ -565,13 +516,10 @@
 
     if-eqz v1, :cond_1
 
-    .line 2
     check-cast p0, Lcom/commsource/util/u2/a;
 
-    .line 3
     check-cast p1, Lcom/commsource/util/u2/a;
 
-    .line 4
     invoke-virtual {p0}, Lcom/commsource/util/u2/a;->c()I
 
     move-result v1
@@ -584,7 +532,6 @@
 
     if-nez v1, :cond_0
 
-    .line 5
     invoke-virtual {p0}, Lcom/commsource/util/u2/a;->b()J
 
     move-result-wide v1
@@ -605,7 +552,6 @@
     :cond_1
     const/4 p0, 0x0
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p0
@@ -634,15 +580,12 @@
 
     const-string p1, "useCaseCallback is null,Please set useCaseCallback"
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/util/Debug/Debug;->m(Ljava/lang/String;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 3
     :cond_0
     iget-object v1, p0, Lcom/commsource/util/c2;->a:Landroid/os/Handler;
 
@@ -652,7 +595,6 @@
 
     invoke-virtual {v1, v2}, Landroid/os/Handler;->post(Ljava/lang/Runnable;)Z
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -665,10 +607,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/commsource/util/c2;->e(Lcom/commsource/util/u2/a;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -694,15 +634,12 @@
 
     const-string p1, "useCaseCallback is null,Please set useCaseCallback"
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/util/Debug/Debug;->m(Ljava/lang/String;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 3
     :cond_0
     iget-object v1, p0, Lcom/commsource/util/c2;->a:Landroid/os/Handler;
 
@@ -712,7 +649,6 @@
 
     invoke-virtual {v1, v2}, Landroid/os/Handler;->post(Ljava/lang/Runnable;)Z
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

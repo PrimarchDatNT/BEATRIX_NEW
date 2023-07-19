@@ -19,18 +19,14 @@
 .method public constructor <init>(Lcom/google/android/gms/measurement/internal/x4;Ljava/lang/String;J)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/android/gms/measurement/internal/c5;->e:Lcom/google/android/gms/measurement/internal/x4;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     invoke-static {p2}, Lcom/google/android/gms/common/internal/b0;->g(Ljava/lang/String;)Ljava/lang/String;
 
-    .line 3
     iput-object p2, p0, Lcom/google/android/gms/measurement/internal/c5;->a:Ljava/lang/String;
 
-    .line 4
     iput-wide p3, p0, Lcom/google/android/gms/measurement/internal/c5;->b:J
 
     return-void
@@ -43,17 +39,14 @@
     .annotation build Landroidx/annotation/WorkerThread;
     .end annotation
 
-    .line 1
     iget-boolean v0, p0, Lcom/google/android/gms/measurement/internal/c5;->c:Z
 
     if-nez v0, :cond_0
 
     const/4 v0, 0x1
 
-    .line 2
     iput-boolean v0, p0, Lcom/google/android/gms/measurement/internal/c5;->c:Z
 
-    .line 3
     iget-object v0, p0, Lcom/google/android/gms/measurement/internal/c5;->e:Lcom/google/android/gms/measurement/internal/x4;
 
     invoke-virtual {v0}, Lcom/google/android/gms/measurement/internal/x4;->C()Landroid/content/SharedPreferences;
@@ -70,7 +63,6 @@
 
     iput-wide v0, p0, Lcom/google/android/gms/measurement/internal/c5;->d:J
 
-    .line 4
     :cond_0
     iget-wide v0, p0, Lcom/google/android/gms/measurement/internal/c5;->d:J
 
@@ -82,7 +74,6 @@
     .annotation build Landroidx/annotation/WorkerThread;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/measurement/internal/c5;->e:Lcom/google/android/gms/measurement/internal/x4;
 
     invoke-virtual {v0}, Lcom/google/android/gms/measurement/internal/x4;->C()Landroid/content/SharedPreferences;
@@ -93,15 +84,12 @@
 
     move-result-object v0
 
-    .line 2
     iget-object v1, p0, Lcom/google/android/gms/measurement/internal/c5;->a:Ljava/lang/String;
 
     invoke-interface {v0, v1, p1, p2}, Landroid/content/SharedPreferences$Editor;->putLong(Ljava/lang/String;J)Landroid/content/SharedPreferences$Editor;
 
-    .line 3
     invoke-interface {v0}, Landroid/content/SharedPreferences$Editor;->apply()V
 
-    .line 4
     iput-wide p1, p0, Lcom/google/android/gms/measurement/internal/c5;->d:J
 
     return-void

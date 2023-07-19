@@ -67,25 +67,20 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const-string v0, "native"
 
-    .line 2
     iput-object v0, p0, Lcom/meitu/hwbusinesskit/core/bean/Platform;->type:Ljava/lang/String;
 
     const/4 v0, 0x1
 
-    .line 3
     iput v0, p0, Lcom/meitu/hwbusinesskit/core/bean/Platform;->show_times:I
 
     const-string v0, ""
 
-    .line 4
     iput-object v0, p0, Lcom/meitu/hwbusinesskit/core/bean/Platform;->custom_id:Ljava/lang/String;
 
-    .line 5
     iput-object v0, p0, Lcom/meitu/hwbusinesskit/core/bean/Platform;->test_custom_id:Ljava/lang/String;
 
     return-void
@@ -102,7 +97,6 @@
 
     const/4 v1, 0x0
 
-    .line 2
     :try_start_0
     invoke-super {p0}, Ljava/lang/Object;->clone()Ljava/lang/Object;
 
@@ -112,18 +106,15 @@
     :try_end_0
     .catch Ljava/lang/CloneNotSupportedException; {:try_start_0 .. :try_end_0} :catch_1
 
-    .line 3
     :try_start_1
     iget-object v1, p0, Lcom/meitu/hwbusinesskit/core/bean/Platform;->ad_ids:Ljava/util/ArrayList;
 
     if-eqz v1, :cond_1
 
-    .line 4
     new-instance v1, Ljava/util/ArrayList;
 
     invoke-direct {v1}, Ljava/util/ArrayList;-><init>()V
 
-    .line 5
     iget-object v3, p0, Lcom/meitu/hwbusinesskit/core/bean/Platform;->ad_ids:Ljava/util/ArrayList;
 
     invoke-virtual {v3}, Ljava/util/ArrayList;->iterator()Ljava/util/Iterator;
@@ -143,7 +134,6 @@
 
     check-cast v4, Lcom/meitu/hwbusinesskit/core/bean/AdId;
 
-    .line 6
     invoke-virtual {v4}, Lcom/meitu/hwbusinesskit/core/bean/AdId;->clone()Lcom/meitu/hwbusinesskit/core/bean/AdId;
 
     move-result-object v4
@@ -152,7 +142,6 @@
 
     goto :goto_0
 
-    .line 7
     :cond_0
     invoke-virtual {v2, v1}, Lcom/meitu/hwbusinesskit/core/bean/Platform;->setAd_ids(Ljava/util/ArrayList;)V
     :try_end_1
@@ -166,7 +155,6 @@
     :catch_1
     move-object v2, v1
 
-    .line 8
     :cond_1
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -186,7 +174,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/meitu/hwbusinesskit/core/bean/Platform;->clone()Lcom/meitu/hwbusinesskit/core/bean/Platform;
 
     move-result-object v1
@@ -203,7 +190,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/hwbusinesskit/core/bean/Platform;->ad_ids:Ljava/util/ArrayList;
 
     if-eqz v1, :cond_1
@@ -216,7 +202,6 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     iget-object v1, p0, Lcom/meitu/hwbusinesskit/core/bean/Platform;->ad_ids:Ljava/util/ArrayList;
 
@@ -236,7 +221,6 @@
 
     return-object v1
 
-    .line 3
     :cond_1
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -253,7 +237,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 4
     iget-object v1, p0, Lcom/meitu/hwbusinesskit/core/bean/Platform;->ad_ids:Ljava/util/ArrayList;
 
     if-eqz v1, :cond_2
@@ -266,7 +249,6 @@
 
     goto :goto_0
 
-    .line 5
     :cond_0
     iget-object v1, p0, Lcom/meitu/hwbusinesskit/core/bean/Platform;->ad_ids:Ljava/util/ArrayList;
 
@@ -278,7 +260,6 @@
 
     const/4 p1, 0x0
 
-    .line 6
     :cond_1
     iget-object v1, p0, Lcom/meitu/hwbusinesskit/core/bean/Platform;->ad_ids:Ljava/util/ArrayList;
 
@@ -296,7 +277,6 @@
 
     return-object p1
 
-    .line 7
     :cond_2
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -313,7 +293,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/hwbusinesskit/core/bean/Platform;->ad_ids:Ljava/util/ArrayList;
 
     if-eqz v1, :cond_c
@@ -326,7 +305,6 @@
 
     goto/16 :goto_0
 
-    .line 2
     :cond_0
     iget-object v1, p0, Lcom/meitu/hwbusinesskit/core/bean/Platform;->ad_ids:Ljava/util/ArrayList;
 
@@ -349,7 +327,6 @@
 
     check-cast v2, Lcom/meitu/hwbusinesskit/core/bean/AdId;
 
-    .line 3
     invoke-virtual {v2}, Lcom/meitu/hwbusinesskit/core/bean/AdId;->getStyle()Ljava/lang/String;
 
     move-result-object v4
@@ -368,7 +345,6 @@
 
     if-eqz p3, :cond_2
 
-    .line 4
     iget v3, p0, Lcom/meitu/hwbusinesskit/core/bean/Platform;->number:I
 
     :cond_2
@@ -380,7 +356,6 @@
 
     return-object p1
 
-    .line 5
     :cond_3
     invoke-virtual {v2}, Lcom/meitu/hwbusinesskit/core/bean/AdId;->getStyle()Ljava/lang/String;
 
@@ -398,7 +373,6 @@
 
     if-eqz v4, :cond_1
 
-    .line 6
     invoke-virtual {v2}, Lcom/meitu/hwbusinesskit/core/bean/AdId;->getStyle()Ljava/lang/String;
 
     move-result-object v4
@@ -417,7 +391,6 @@
 
     if-eqz p3, :cond_4
 
-    .line 7
     iget v3, p0, Lcom/meitu/hwbusinesskit/core/bean/Platform;->number:I
 
     :cond_4
@@ -429,7 +402,6 @@
 
     return-object p1
 
-    .line 8
     :cond_5
     iget-object v1, p0, Lcom/meitu/hwbusinesskit/core/bean/Platform;->ad_ids:Ljava/util/ArrayList;
 
@@ -450,7 +422,6 @@
 
     check-cast v2, Lcom/meitu/hwbusinesskit/core/bean/AdId;
 
-    .line 9
     invoke-virtual {v2}, Lcom/meitu/hwbusinesskit/core/bean/AdId;->getStyle()Ljava/lang/String;
 
     move-result-object v4
@@ -467,7 +438,6 @@
 
     if-nez v4, :cond_8
 
-    .line 10
     invoke-virtual {v2}, Lcom/meitu/hwbusinesskit/core/bean/AdId;->getStyle()Ljava/lang/String;
 
     move-result-object v4
@@ -480,7 +450,6 @@
 
     if-eqz p3, :cond_7
 
-    .line 11
     iget v3, p0, Lcom/meitu/hwbusinesskit/core/bean/Platform;->number:I
 
     :cond_7
@@ -492,7 +461,6 @@
 
     return-object p1
 
-    .line 12
     :cond_8
     invoke-virtual {v2}, Lcom/meitu/hwbusinesskit/core/bean/AdId;->getStyle()Ljava/lang/String;
 
@@ -510,7 +478,6 @@
 
     if-eqz v4, :cond_6
 
-    .line 13
     invoke-virtual {v2}, Lcom/meitu/hwbusinesskit/core/bean/AdId;->getCache_mode()I
 
     move-result v4
@@ -519,7 +486,6 @@
 
     if-eqz p3, :cond_9
 
-    .line 14
     iget v3, p0, Lcom/meitu/hwbusinesskit/core/bean/Platform;->number:I
 
     :cond_9
@@ -531,7 +497,6 @@
 
     return-object p1
 
-    .line 15
     :cond_a
     iget-object p1, p0, Lcom/meitu/hwbusinesskit/core/bean/Platform;->ad_ids:Ljava/util/ArrayList;
 
@@ -556,7 +521,6 @@
 
     return-object p1
 
-    .line 16
     :cond_c
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -581,7 +545,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/hwbusinesskit/core/bean/Platform;->ad_ids:Ljava/util/ArrayList;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -596,7 +559,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/hwbusinesskit/core/bean/Platform;->custom_id:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -611,7 +573,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/hwbusinesskit/core/bean/Platform;->max_show_times:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -626,7 +587,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/hwbusinesskit/core/bean/Platform;->number:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -641,7 +601,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/hwbusinesskit/core/bean/Platform;->platform:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -656,7 +615,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/hwbusinesskit/core/bean/Platform;->show_times:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -671,7 +629,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/hwbusinesskit/core/bean/Platform;->test_custom_id:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -686,7 +643,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/hwbusinesskit/core/bean/Platform;->test_id:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -701,7 +657,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/hwbusinesskit/core/bean/Platform;->type:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -724,10 +679,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/hwbusinesskit/core/bean/Platform;->ad_ids:Ljava/util/ArrayList;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -740,10 +693,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/hwbusinesskit/core/bean/Platform;->custom_id:Ljava/lang/String;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -756,10 +707,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/meitu/hwbusinesskit/core/bean/Platform;->max_show_times:I
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -772,10 +721,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/meitu/hwbusinesskit/core/bean/Platform;->number:I
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -788,10 +735,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/hwbusinesskit/core/bean/Platform;->platform:Ljava/lang/String;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -804,10 +749,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/meitu/hwbusinesskit/core/bean/Platform;->show_times:I
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -820,10 +763,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/hwbusinesskit/core/bean/Platform;->test_custom_id:Ljava/lang/String;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -836,10 +777,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/hwbusinesskit/core/bean/Platform;->test_id:Ljava/lang/String;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -852,10 +791,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/hwbusinesskit/core/bean/Platform;->type:Ljava/lang/String;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

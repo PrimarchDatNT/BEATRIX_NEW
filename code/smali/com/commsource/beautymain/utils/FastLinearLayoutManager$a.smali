@@ -22,10 +22,8 @@
 .method public constructor <init>(Lcom/commsource/beautymain/utils/FastLinearLayoutManager;Landroid/content/Context;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/beautymain/utils/FastLinearLayoutManager$a;->a:Lcom/commsource/beautymain/utils/FastLinearLayoutManager;
 
-    .line 2
     invoke-direct {p0, p2}, Landroidx/recyclerview/widget/LinearSmoothScroller;-><init>(Landroid/content/Context;)V
 
     return-void
@@ -40,7 +38,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/beautymain/utils/FastLinearLayoutManager$a;->a:Lcom/commsource/beautymain/utils/FastLinearLayoutManager;
 
     invoke-static {v1}, Lcom/commsource/beautymain/utils/FastLinearLayoutManager;->b(Lcom/commsource/beautymain/utils/FastLinearLayoutManager;)F
@@ -69,26 +66,22 @@
 
     if-ne p1, v1, :cond_2
 
-    .line 1
     invoke-virtual {p0}, Landroidx/recyclerview/widget/RecyclerView$SmoothScroller;->getTargetPosition()I
 
     move-result p1
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/beautymain/utils/FastLinearLayoutManager$a;->a:Lcom/commsource/beautymain/utils/FastLinearLayoutManager;
 
     invoke-virtual {v1}, Landroidx/recyclerview/widget/LinearLayoutManager;->findFirstVisibleItemPosition()I
 
     move-result v1
 
-    .line 3
     iget-object v2, p0, Lcom/commsource/beautymain/utils/FastLinearLayoutManager$a;->a:Lcom/commsource/beautymain/utils/FastLinearLayoutManager;
 
     invoke-virtual {v2}, Landroidx/recyclerview/widget/LinearLayoutManager;->findLastVisibleItemPosition()I
 
     move-result v2
 
-    .line 4
     iget-object v3, p0, Lcom/commsource/beautymain/utils/FastLinearLayoutManager$a;->a:Lcom/commsource/beautymain/utils/FastLinearLayoutManager;
 
     invoke-static {v3}, Lcom/commsource/beautymain/utils/FastLinearLayoutManager;->a(Lcom/commsource/beautymain/utils/FastLinearLayoutManager;)I
@@ -118,16 +111,13 @@
     :cond_1
     const p1, 0x2dc6c0
 
-    .line 5
     div-int/2addr p1, v1
 
-    .line 6
     :goto_1
     invoke-super {p0, p1}, Landroidx/recyclerview/widget/LinearSmoothScroller;->calculateTimeForScrolling(I)I
 
     move-result p1
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
@@ -139,13 +129,11 @@
 
     const/16 p1, 0x12c
 
-    .line 8
     :cond_3
     invoke-super {p0, p1}, Landroidx/recyclerview/widget/LinearSmoothScroller;->calculateTimeForScrolling(I)I
 
     move-result p1
 
-    .line 9
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
@@ -158,7 +146,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/beautymain/utils/FastLinearLayoutManager$a;->a:Lcom/commsource/beautymain/utils/FastLinearLayoutManager;
 
     invoke-virtual {v1, p1}, Landroidx/recyclerview/widget/LinearLayoutManager;->computeScrollVectorForPosition(I)Landroid/graphics/PointF;

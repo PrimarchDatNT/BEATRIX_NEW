@@ -25,7 +25,6 @@
 .method constructor <init>(Lcom/sdk/imp/IncentiveVideoPlayActivity;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/sdk/imp/IncentiveVideoPlayActivity$c;->a:Lcom/sdk/imp/IncentiveVideoPlayActivity;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -38,14 +37,12 @@
 .method public onClick(Landroid/view/View;)V
     .locals 0
 
-    .line 1
     invoke-static {}, Lcom/sdk/imp/IncentiveVideoPlayActivity;->c()Lcom/sdk/api/d$d;
 
     move-result-object p1
 
     if-eqz p1, :cond_0
 
-    .line 2
     invoke-static {}, Lcom/sdk/imp/IncentiveVideoPlayActivity;->c()Lcom/sdk/api/d$d;
 
     move-result-object p1

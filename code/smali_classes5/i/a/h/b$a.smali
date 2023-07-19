@@ -21,7 +21,6 @@
 .method constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -38,7 +37,6 @@
 .method public span()Li/a/d;
     .locals 1
 
-    .line 1
     sget-object v0, Li/a/h/c;->a:Li/a/h/c;
 
     return-object v0

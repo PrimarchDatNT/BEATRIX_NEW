@@ -12,7 +12,6 @@
 
     const-string v0, "com.google.android.gms.ads.internal.httpcache.IHttpAssetsCacheCallback"
 
-    .line 1
     invoke-direct {p0, v0}, Lcom/google/android/gms/internal/ads/l82;-><init>(Ljava/lang/String;)V
 
     return-void
@@ -32,7 +31,6 @@
 
     if-ne p1, p3, :cond_0
 
-    .line 1
     sget-object p1, Landroid/os/ParcelFileDescriptor;->CREATOR:Landroid/os/Parcelable$Creator;
 
     invoke-static {p2, p1}, Lcom/google/android/gms/internal/ads/o82;->b(Landroid/os/Parcel;Landroid/os/Parcelable$Creator;)Landroid/os/Parcelable;
@@ -41,7 +39,6 @@
 
     check-cast p1, Landroid/os/ParcelFileDescriptor;
 
-    .line 2
     invoke-interface {p0, p1}, Lcom/google/android/gms/internal/ads/u6;->Z6(Landroid/os/ParcelFileDescriptor;)V
 
     return p3

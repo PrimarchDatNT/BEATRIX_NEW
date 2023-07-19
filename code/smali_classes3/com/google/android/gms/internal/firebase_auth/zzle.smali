@@ -42,7 +42,6 @@
 .method static constructor <clinit>()V
     .locals 16
 
-    .line 1
     new-instance v0, Lcom/google/android/gms/internal/firebase_auth/zzle;
 
     const/4 v1, 0x0
@@ -57,7 +56,6 @@
 
     sput-object v0, Lcom/google/android/gms/internal/firebase_auth/zzle;->zzagj:Lcom/google/android/gms/internal/firebase_auth/zzle;
 
-    .line 2
     new-instance v2, Lcom/google/android/gms/internal/firebase_auth/zzle;
 
     const-wide/16 v3, 0x0
@@ -74,7 +72,6 @@
 
     sput-object v2, Lcom/google/android/gms/internal/firebase_auth/zzle;->zzagk:Lcom/google/android/gms/internal/firebase_auth/zzle;
 
-    .line 3
     new-instance v3, Lcom/google/android/gms/internal/firebase_auth/zzle;
 
     const/4 v4, 0x0
@@ -91,7 +88,6 @@
 
     sput-object v3, Lcom/google/android/gms/internal/firebase_auth/zzle;->zzagl:Lcom/google/android/gms/internal/firebase_auth/zzle;
 
-    .line 4
     new-instance v4, Lcom/google/android/gms/internal/firebase_auth/zzle;
 
     const-wide/16 v8, 0x0
@@ -108,7 +104,6 @@
 
     sput-object v4, Lcom/google/android/gms/internal/firebase_auth/zzle;->zzagm:Lcom/google/android/gms/internal/firebase_auth/zzle;
 
-    .line 5
     new-instance v6, Lcom/google/android/gms/internal/firebase_auth/zzle;
 
     sget-object v8, Ljava/lang/Boolean;->FALSE:Ljava/lang/Boolean;
@@ -121,7 +116,6 @@
 
     sput-object v6, Lcom/google/android/gms/internal/firebase_auth/zzle;->zzagn:Lcom/google/android/gms/internal/firebase_auth/zzle;
 
-    .line 6
     new-instance v8, Lcom/google/android/gms/internal/firebase_auth/zzle;
 
     const-string v10, "STRING"
@@ -134,7 +128,6 @@
 
     sput-object v8, Lcom/google/android/gms/internal/firebase_auth/zzle;->zzago:Lcom/google/android/gms/internal/firebase_auth/zzle;
 
-    .line 7
     new-instance v10, Lcom/google/android/gms/internal/firebase_auth/zzle;
 
     sget-object v13, Lcom/google/android/gms/internal/firebase_auth/zzgf;->zzvv:Lcom/google/android/gms/internal/firebase_auth/zzgf;
@@ -147,7 +140,6 @@
 
     sput-object v10, Lcom/google/android/gms/internal/firebase_auth/zzle;->zzagp:Lcom/google/android/gms/internal/firebase_auth/zzle;
 
-    .line 8
     new-instance v13, Lcom/google/android/gms/internal/firebase_auth/zzle;
 
     const-string v14, "ENUM"
@@ -160,7 +152,6 @@
 
     sput-object v13, Lcom/google/android/gms/internal/firebase_auth/zzle;->zzagq:Lcom/google/android/gms/internal/firebase_auth/zzle;
 
-    .line 9
     new-instance v14, Lcom/google/android/gms/internal/firebase_auth/zzle;
 
     const-string v15, "MESSAGE"
@@ -201,7 +192,6 @@
 
     aput-object v14, v12, v11
 
-    .line 10
     sput-object v12, Lcom/google/android/gms/internal/firebase_auth/zzle;->zzags:[Lcom/google/android/gms/internal/firebase_auth/zzle;
 
     return-void
@@ -217,10 +207,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 2
     iput-object p3, p0, Lcom/google/android/gms/internal/firebase_auth/zzle;->zzabs:Ljava/lang/Object;
 
     return-void
@@ -229,7 +217,6 @@
 .method public static values()[Lcom/google/android/gms/internal/firebase_auth/zzle;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/google/android/gms/internal/firebase_auth/zzle;->zzags:[Lcom/google/android/gms/internal/firebase_auth/zzle;
 
     invoke-virtual {v0}, [Lcom/google/android/gms/internal/firebase_auth/zzle;->clone()Ljava/lang/Object;

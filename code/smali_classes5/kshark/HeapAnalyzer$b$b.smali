@@ -40,12 +40,10 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-direct {p0, v0}, Lkshark/HeapAnalyzer$b;-><init>(Lcotlin/jvm/internal/u;)V
 
     iput-wide p1, p0, Lkshark/HeapAnalyzer$b$b;->b:J
 
-    .line 2
     new-instance p1, Ljava/util/LinkedHashMap;
 
     invoke-direct {p1}, Ljava/util/LinkedHashMap;-><init>()V
@@ -60,7 +58,6 @@
 .method public a()J
     .locals 2
 
-    .line 1
     iget-wide v0, p0, Lkshark/HeapAnalyzer$b$b;->b:J
 
     return-wide v0
@@ -81,7 +78,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lkshark/HeapAnalyzer$b$b;->a:Ljava/util/Map;
 
     return-object v0
@@ -92,7 +88,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V

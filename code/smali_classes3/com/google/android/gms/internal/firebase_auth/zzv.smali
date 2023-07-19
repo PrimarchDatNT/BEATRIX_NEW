@@ -52,7 +52,6 @@
 .method static constructor <clinit>()V
     .locals 15
 
-    .line 1
     new-instance v0, Lcom/google/android/gms/internal/firebase_auth/zzv;
 
     const-string v1, "USER_ATTRIBUTE_NAME_UNSPECIFIED"
@@ -63,7 +62,6 @@
 
     sput-object v0, Lcom/google/android/gms/internal/firebase_auth/zzv;->zzfj:Lcom/google/android/gms/internal/firebase_auth/zzv;
 
-    .line 2
     new-instance v1, Lcom/google/android/gms/internal/firebase_auth/zzv;
 
     const-string v3, "EMAIL"
@@ -74,7 +72,6 @@
 
     sput-object v1, Lcom/google/android/gms/internal/firebase_auth/zzv;->zzfk:Lcom/google/android/gms/internal/firebase_auth/zzv;
 
-    .line 3
     new-instance v3, Lcom/google/android/gms/internal/firebase_auth/zzv;
 
     const-string v5, "DISPLAY_NAME"
@@ -85,7 +82,6 @@
 
     sput-object v3, Lcom/google/android/gms/internal/firebase_auth/zzv;->zzfl:Lcom/google/android/gms/internal/firebase_auth/zzv;
 
-    .line 4
     new-instance v5, Lcom/google/android/gms/internal/firebase_auth/zzv;
 
     const-string v7, "PROVIDER"
@@ -96,7 +92,6 @@
 
     sput-object v5, Lcom/google/android/gms/internal/firebase_auth/zzv;->zzfm:Lcom/google/android/gms/internal/firebase_auth/zzv;
 
-    .line 5
     new-instance v7, Lcom/google/android/gms/internal/firebase_auth/zzv;
 
     const-string v9, "PHOTO_URL"
@@ -107,7 +102,6 @@
 
     sput-object v7, Lcom/google/android/gms/internal/firebase_auth/zzv;->zzfn:Lcom/google/android/gms/internal/firebase_auth/zzv;
 
-    .line 6
     new-instance v9, Lcom/google/android/gms/internal/firebase_auth/zzv;
 
     const-string v11, "PASSWORD"
@@ -118,7 +112,6 @@
 
     sput-object v9, Lcom/google/android/gms/internal/firebase_auth/zzv;->zzfo:Lcom/google/android/gms/internal/firebase_auth/zzv;
 
-    .line 7
     new-instance v11, Lcom/google/android/gms/internal/firebase_auth/zzv;
 
     const-string v13, "RAW_USER_INFO"
@@ -147,10 +140,8 @@
 
     aput-object v11, v13, v14
 
-    .line 8
     sput-object v13, Lcom/google/android/gms/internal/firebase_auth/zzv;->zzfr:[Lcom/google/android/gms/internal/firebase_auth/zzv;
 
-    .line 9
     new-instance v0, Lcom/google/android/gms/internal/firebase_auth/d8;
 
     invoke-direct {v0}, Lcom/google/android/gms/internal/firebase_auth/d8;-><init>()V
@@ -168,10 +159,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 2
     iput p3, p0, Lcom/google/android/gms/internal/firebase_auth/zzv;->value:I
 
     return-void
@@ -180,7 +169,6 @@
 .method public static values()[Lcom/google/android/gms/internal/firebase_auth/zzv;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/google/android/gms/internal/firebase_auth/zzv;->zzfr:[Lcom/google/android/gms/internal/firebase_auth/zzv;
 
     invoke-virtual {v0}, [Lcom/google/android/gms/internal/firebase_auth/zzv;->clone()Ljava/lang/Object;
@@ -195,7 +183,6 @@
 .method public static zzbr()Lcom/google/android/gms/internal/firebase_auth/q4;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/google/android/gms/internal/firebase_auth/c8;->a:Lcom/google/android/gms/internal/firebase_auth/q4;
 
     return-object v0
@@ -210,43 +197,36 @@
 
     return-object p0
 
-    .line 1
     :pswitch_0
     sget-object p0, Lcom/google/android/gms/internal/firebase_auth/zzv;->zzfp:Lcom/google/android/gms/internal/firebase_auth/zzv;
 
     return-object p0
 
-    .line 2
     :pswitch_1
     sget-object p0, Lcom/google/android/gms/internal/firebase_auth/zzv;->zzfo:Lcom/google/android/gms/internal/firebase_auth/zzv;
 
     return-object p0
 
-    .line 3
     :pswitch_2
     sget-object p0, Lcom/google/android/gms/internal/firebase_auth/zzv;->zzfn:Lcom/google/android/gms/internal/firebase_auth/zzv;
 
     return-object p0
 
-    .line 4
     :pswitch_3
     sget-object p0, Lcom/google/android/gms/internal/firebase_auth/zzv;->zzfm:Lcom/google/android/gms/internal/firebase_auth/zzv;
 
     return-object p0
 
-    .line 5
     :pswitch_4
     sget-object p0, Lcom/google/android/gms/internal/firebase_auth/zzv;->zzfl:Lcom/google/android/gms/internal/firebase_auth/zzv;
 
     return-object p0
 
-    .line 6
     :pswitch_5
     sget-object p0, Lcom/google/android/gms/internal/firebase_auth/zzv;->zzfk:Lcom/google/android/gms/internal/firebase_auth/zzv;
 
     return-object p0
 
-    .line 7
     :pswitch_6
     sget-object p0, Lcom/google/android/gms/internal/firebase_auth/zzv;->zzfj:Lcom/google/android/gms/internal/firebase_auth/zzv;
 
@@ -269,7 +249,6 @@
 .method public final zzbq()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lcom/google/android/gms/internal/firebase_auth/zzv;->value:I
 
     return v0

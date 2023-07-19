@@ -30,7 +30,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/google/common/collect/ImmutableMap$b;-><init>()V
 
     return-void
@@ -39,7 +38,6 @@
 .method constructor <init>(I)V
     .locals 0
 
-    .line 2
     invoke-direct {p0, p1}, Lcom/google/common/collect/ImmutableMap$b;-><init>(I)V
 
     return-void
@@ -50,7 +48,6 @@
 .method public bridge synthetic a()Lcom/google/common/collect/ImmutableMap;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/collect/ImmutableBiMap$a;->i()Lcom/google/common/collect/ImmutableBiMap;
 
     move-result-object v0
@@ -66,7 +63,6 @@
     .annotation build Lf/f/f/a/a;
     .end annotation
 
-    .line 1
     invoke-virtual {p0, p1}, Lcom/google/common/collect/ImmutableBiMap$a;->j(Ljava/util/Comparator;)Lcom/google/common/collect/ImmutableBiMap$a;
 
     move-result-object p1
@@ -79,7 +75,6 @@
     .annotation build Lf/f/f/a/a;
     .end annotation
 
-    .line 1
     invoke-virtual {p0, p1, p2}, Lcom/google/common/collect/ImmutableBiMap$a;->k(Ljava/lang/Object;Ljava/lang/Object;)Lcom/google/common/collect/ImmutableBiMap$a;
 
     move-result-object p1
@@ -92,7 +87,6 @@
     .annotation build Lf/f/f/a/a;
     .end annotation
 
-    .line 1
     invoke-virtual {p0, p1}, Lcom/google/common/collect/ImmutableBiMap$a;->l(Ljava/util/Map$Entry;)Lcom/google/common/collect/ImmutableBiMap$a;
 
     move-result-object p1
@@ -108,7 +102,6 @@
     .annotation build Lf/f/f/a/a;
     .end annotation
 
-    .line 1
     invoke-virtual {p0, p1}, Lcom/google/common/collect/ImmutableBiMap$a;->m(Ljava/lang/Iterable;)Lcom/google/common/collect/ImmutableBiMap$a;
 
     move-result-object p1
@@ -121,7 +114,6 @@
     .annotation build Lf/f/f/a/a;
     .end annotation
 
-    .line 1
     invoke-virtual {p0, p1}, Lcom/google/common/collect/ImmutableBiMap$a;->n(Ljava/util/Map;)Lcom/google/common/collect/ImmutableBiMap$a;
 
     move-result-object p1
@@ -139,28 +131,23 @@
         }
     .end annotation
 
-    .line 1
     iget v0, p0, Lcom/google/common/collect/ImmutableMap$b;->c:I
 
     if-nez v0, :cond_0
 
-    .line 2
     invoke-static {}, Lcom/google/common/collect/ImmutableBiMap;->of()Lcom/google/common/collect/ImmutableBiMap;
 
     move-result-object v0
 
     return-object v0
 
-    .line 3
     :cond_0
     invoke-virtual {p0}, Lcom/google/common/collect/ImmutableMap$b;->h()V
 
     const/4 v0, 0x1
 
-    .line 4
     iput-boolean v0, p0, Lcom/google/common/collect/ImmutableMap$b;->d:Z
 
-    .line 5
     new-instance v0, Lcom/google/common/collect/RegularImmutableBiMap;
 
     iget-object v1, p0, Lcom/google/common/collect/ImmutableMap$b;->b:[Ljava/lang/Object;
@@ -190,7 +177,6 @@
     .annotation build Lf/f/f/a/a;
     .end annotation
 
-    .line 1
     invoke-super {p0, p1}, Lcom/google/common/collect/ImmutableMap$b;->c(Ljava/util/Comparator;)Lcom/google/common/collect/ImmutableMap$b;
 
     return-object p0
@@ -209,7 +195,6 @@
     .annotation build Lf/f/f/a/a;
     .end annotation
 
-    .line 1
     invoke-super {p0, p1, p2}, Lcom/google/common/collect/ImmutableMap$b;->d(Ljava/lang/Object;Ljava/lang/Object;)Lcom/google/common/collect/ImmutableMap$b;
 
     return-object p0
@@ -230,7 +215,6 @@
     .annotation build Lf/f/f/a/a;
     .end annotation
 
-    .line 1
     invoke-super {p0, p1}, Lcom/google/common/collect/ImmutableMap$b;->e(Ljava/util/Map$Entry;)Lcom/google/common/collect/ImmutableMap$b;
 
     return-object p0
@@ -256,7 +240,6 @@
     .annotation build Lf/f/f/a/a;
     .end annotation
 
-    .line 1
     invoke-super {p0, p1}, Lcom/google/common/collect/ImmutableMap$b;->f(Ljava/lang/Iterable;)Lcom/google/common/collect/ImmutableMap$b;
 
     return-object p0
@@ -277,7 +260,6 @@
     .annotation build Lf/f/f/a/a;
     .end annotation
 
-    .line 1
     invoke-super {p0, p1}, Lcom/google/common/collect/ImmutableMap$b;->g(Ljava/util/Map;)Lcom/google/common/collect/ImmutableMap$b;
 
     return-object p0

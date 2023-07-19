@@ -67,7 +67,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/sticker/CustomStickerActivity$c;->a:Lcom/commsource/studio/sticker/CustomStickerActivity;
 
     invoke-static {v1}, Lcom/commsource/studio/sticker/CustomStickerActivity;->N0(Lcom/commsource/studio/sticker/CustomStickerActivity;)Lcom/commsource/beautyplus/f0/q;
@@ -98,7 +97,6 @@
 
     invoke-virtual {v1, v2, p1}, Lcom/commsource/studio/StudioCanvasContainer;->z(II)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -111,7 +109,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Lcotlin/Pair;
 
     invoke-virtual {p0, p1}, Lcom/commsource/studio/sticker/CustomStickerActivity$c;->a(Lcotlin/Pair;)V

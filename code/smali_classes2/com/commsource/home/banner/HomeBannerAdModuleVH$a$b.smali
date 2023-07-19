@@ -50,7 +50,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object p1, p0, Lcom/commsource/home/banner/HomeBannerAdModuleVH$a$b;->a:Lcom/commsource/home/banner/HomeBannerAdModuleVH$a;
 
     iget-object p1, p1, Lcom/commsource/home/banner/HomeBannerAdModuleVH$a;->a:Lcom/commsource/home/banner/HomeBannerAdModuleVH;
@@ -63,14 +62,12 @@
 
     invoke-static {p1, v1}, Lcom/commsource/home/banner/HomeBannerAdModuleVH;->C(Lcom/commsource/home/banner/HomeBannerAdModuleVH;Landroid/view/View;)V
 
-    .line 2
     iget-object p1, p0, Lcom/commsource/home/banner/HomeBannerAdModuleVH$a$b;->a:Lcom/commsource/home/banner/HomeBannerAdModuleVH$a;
 
     iget-object p1, p1, Lcom/commsource/home/banner/HomeBannerAdModuleVH$a;->a:Lcom/commsource/home/banner/HomeBannerAdModuleVH;
 
     invoke-static {p1}, Lcom/commsource/home/banner/HomeBannerAdModuleVH;->Y(Lcom/commsource/home/banner/HomeBannerAdModuleVH;)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

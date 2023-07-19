@@ -190,7 +190,6 @@
 
     const/16 v1, 0x8
 
-    .line 1
     invoke-static {v1}, Lcom/commsource/util/l0;->p(I)F
 
     move-result v1
@@ -275,20 +274,16 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-direct {p0, p1, p2, p3}, Landroid/view/View;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
     const/4 p3, 0x1
 
-    .line 2
     iput-boolean p3, p0, Lcom/commsource/widget/XSeekBar;->a:Z
 
-    .line 3
     iput-boolean p3, p0, Lcom/commsource/widget/XSeekBar;->d:Z
 
     sget v0, Lcom/res/provider/ResCOLOR;->color_80f2f2f2:I
 
-    .line 4
     invoke-static {v0}, Lcom/commsource/util/u1;->b(I)I
 
     move-result v0
@@ -297,7 +292,6 @@
 
     sget v0, Lcom/res/provider/ResCOLOR;->color_4d000000:I
 
-    .line 5
     invoke-static {v0}, Lcom/commsource/util/u1;->b(I)I
 
     move-result v0
@@ -306,15 +300,12 @@
 
     const/4 v0, -0x1
 
-    .line 6
     iput v0, p0, Lcom/commsource/widget/XSeekBar;->J:I
 
-    .line 7
     iput v0, p0, Lcom/commsource/widget/XSeekBar;->K:I
 
     const/high16 v0, 0x41180000    # 9.5f
 
-    .line 8
     invoke-static {v0}, Lcom/meitu/library/p/f/i;->d(F)I
 
     move-result v0
@@ -323,7 +314,6 @@
 
     const/high16 v0, 0x40400000    # 3.0f
 
-    .line 9
     invoke-static {v0}, Lcom/meitu/library/p/f/i;->d(F)I
 
     move-result v0
@@ -332,7 +322,6 @@
 
     const/high16 v0, 0x40e00000    # 7.0f
 
-    .line 10
     invoke-static {v0}, Lcom/meitu/library/p/f/i;->d(F)I
 
     move-result v0
@@ -341,19 +330,16 @@
 
     const/high16 v0, 0x40000000    # 2.0f
 
-    .line 11
     invoke-static {v0}, Lcom/meitu/library/p/f/i;->b(F)F
 
     move-result v0
 
     iput v0, p0, Lcom/commsource/widget/XSeekBar;->O:F
 
-    .line 12
     iput v0, p0, Lcom/commsource/widget/XSeekBar;->P:F
 
     const/high16 v0, 0x41600000    # 14.0f
 
-    .line 13
     invoke-static {v0}, Lcom/meitu/library/p/f/i;->b(F)F
 
     move-result v0
@@ -362,7 +348,6 @@
 
     const/high16 v0, 0x3f000000    # 0.5f
 
-    .line 14
     invoke-static {v0}, Lcom/meitu/library/p/f/i;->b(F)F
 
     move-result v0
@@ -371,31 +356,26 @@
 
     const/16 v0, 0x64
 
-    .line 15
     iput v0, p0, Lcom/commsource/widget/XSeekBar;->b0:I
 
-    .line 16
     new-instance v0, Landroid/graphics/Paint;
 
     invoke-direct {v0, p3}, Landroid/graphics/Paint;-><init>(I)V
 
     iput-object v0, p0, Lcom/commsource/widget/XSeekBar;->i0:Landroid/graphics/Paint;
 
-    .line 17
     new-instance v0, Landroid/graphics/Paint;
 
     invoke-direct {v0, p3}, Landroid/graphics/Paint;-><init>(I)V
 
     iput-object v0, p0, Lcom/commsource/widget/XSeekBar;->j0:Landroid/graphics/Paint;
 
-    .line 18
     new-instance v0, Landroid/graphics/Paint;
 
     invoke-direct {v0, p3}, Landroid/graphics/Paint;-><init>(I)V
 
     iput-object v0, p0, Lcom/commsource/widget/XSeekBar;->k0:Landroid/graphics/Paint;
 
-    .line 19
     new-instance v0, Landroid/graphics/Paint;
 
     invoke-direct {v0, p3}, Landroid/graphics/Paint;-><init>(I)V
@@ -404,88 +384,74 @@
 
     const/high16 v0, 0x40200000    # 2.5f
 
-    .line 20
     invoke-static {v0}, Lcom/meitu/library/p/f/i;->d(F)I
 
     move-result v0
 
     iput v0, p0, Lcom/commsource/widget/XSeekBar;->m0:I
 
-    .line 21
     iput-boolean p3, p0, Lcom/commsource/widget/XSeekBar;->r0:Z
 
-    .line 22
     new-instance p3, Lcom/commsource/camera/f1/n;
 
     invoke-direct {p3}, Lcom/commsource/camera/f1/n;-><init>()V
 
     iput-object p3, p0, Lcom/commsource/widget/XSeekBar;->s0:Lcom/commsource/camera/f1/n;
 
-    .line 23
     new-instance p3, Ljava/util/ArrayList;
 
     invoke-direct {p3}, Ljava/util/ArrayList;-><init>()V
 
-    .line 24
     new-instance v0, Lcom/commsource/widget/part/a;
 
     invoke-direct {v0, p0}, Lcom/commsource/widget/part/a;-><init>(Lcom/commsource/widget/XSeekBar;)V
 
     invoke-virtual {p3, v0}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    .line 25
     new-instance v0, Lcom/commsource/widget/part/b;
 
     invoke-direct {v0, p0}, Lcom/commsource/widget/part/b;-><init>(Lcom/commsource/widget/XSeekBar;)V
 
     invoke-virtual {p3, v0}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    .line 26
     new-instance v0, Lcom/commsource/widget/part/f;
 
     invoke-direct {v0, p0}, Lcom/commsource/widget/part/f;-><init>(Lcom/commsource/widget/XSeekBar;)V
 
     invoke-virtual {p3, v0}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    .line 27
     new-instance v0, Lcom/commsource/widget/part/d;
 
     invoke-direct {v0, p0}, Lcom/commsource/widget/part/d;-><init>(Lcom/commsource/widget/XSeekBar;)V
 
     invoke-virtual {p3, v0}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    .line 28
     new-instance v0, Lcom/commsource/widget/part/e;
 
     invoke-direct {v0, p0}, Lcom/commsource/widget/part/e;-><init>(Lcom/commsource/widget/XSeekBar;)V
 
     invoke-virtual {p3, v0}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    .line 29
     new-instance v0, Lcom/commsource/widget/part/h;
 
     invoke-direct {v0, p0}, Lcom/commsource/widget/part/h;-><init>(Lcom/commsource/widget/XSeekBar;)V
 
     invoke-virtual {p3, v0}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    .line 30
     new-instance v0, Lcom/commsource/widget/part/g;
 
     invoke-direct {v0, p0}, Lcom/commsource/widget/part/g;-><init>(Lcom/commsource/widget/XSeekBar;)V
 
     invoke-virtual {p3, v0}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    .line 31
     iput-object p3, p0, Lcom/commsource/widget/XSeekBar;->t0:Ljava/util/ArrayList;
 
-    .line 32
     new-instance p3, Ljava/util/ArrayList;
 
     invoke-direct {p3}, Ljava/util/ArrayList;-><init>()V
 
     iput-object p3, p0, Lcom/commsource/widget/XSeekBar;->u0:Ljava/util/ArrayList;
 
-    .line 33
     new-instance p3, Lcom/commsource/widget/XSeekBar$progressAnimator$2;
 
     invoke-direct {p3, p0}, Lcom/commsource/widget/XSeekBar$progressAnimator$2;-><init>(Lcom/commsource/widget/XSeekBar;)V
@@ -496,14 +462,12 @@
 
     iput-object p3, p0, Lcom/commsource/widget/XSeekBar;->v0:Lcotlin/w;
 
-    .line 34
     new-instance p3, Lcom/commsource/camera/f1/n;
 
     invoke-direct {p3}, Lcom/commsource/camera/f1/n;-><init>()V
 
     iput-object p3, p0, Lcom/commsource/widget/XSeekBar;->w0:Lcom/commsource/camera/f1/n;
 
-    .line 35
     invoke-direct {p0, p1, p2}, Lcom/commsource/widget/XSeekBar;->j(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
     return-void
@@ -525,7 +489,6 @@
 
     const/4 p3, 0x0
 
-    .line 36
     :cond_1
     invoke-direct {p0, p1, p2, p3}, Lcom/commsource/widget/XSeekBar;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
@@ -539,7 +502,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget v1, Lcom/commsource/widget/XSeekBar;->z0:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -554,7 +516,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/widget/XSeekBar;->u0:Ljava/util/ArrayList;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -569,7 +530,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0, p1, p2}, Lcom/commsource/widget/XSeekBar;->u(FZ)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -604,73 +564,62 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0, p1, p2}, Lcom/commsource/widget/XSeekBar;->k(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
-    .line 2
     iget-object p1, p0, Lcom/commsource/widget/XSeekBar;->j0:Landroid/graphics/Paint;
 
     iget p2, p0, Lcom/commsource/widget/XSeekBar;->g:I
 
     invoke-virtual {p1, p2}, Landroid/graphics/Paint;->setColor(I)V
 
-    .line 3
     iget-object p1, p0, Lcom/commsource/widget/XSeekBar;->j0:Landroid/graphics/Paint;
 
     sget-object p2, Landroid/graphics/Paint$Style;->FILL_AND_STROKE:Landroid/graphics/Paint$Style;
 
     invoke-virtual {p1, p2}, Landroid/graphics/Paint;->setStyle(Landroid/graphics/Paint$Style;)V
 
-    .line 4
     iget-object p1, p0, Lcom/commsource/widget/XSeekBar;->k0:Landroid/graphics/Paint;
 
     iget p2, p0, Lcom/commsource/widget/XSeekBar;->p:I
 
     invoke-virtual {p1, p2}, Landroid/graphics/Paint;->setColor(I)V
 
-    .line 5
     iget-object p1, p0, Lcom/commsource/widget/XSeekBar;->k0:Landroid/graphics/Paint;
 
     iget p2, p0, Lcom/commsource/widget/XSeekBar;->W:F
 
     invoke-virtual {p1, p2}, Landroid/graphics/Paint;->setStrokeWidth(F)V
 
-    .line 6
     iget-object p1, p0, Lcom/commsource/widget/XSeekBar;->k0:Landroid/graphics/Paint;
 
     sget-object p2, Landroid/graphics/Paint$Style;->STROKE:Landroid/graphics/Paint$Style;
 
     invoke-virtual {p1, p2}, Landroid/graphics/Paint;->setStyle(Landroid/graphics/Paint$Style;)V
 
-    .line 7
     iget-object p1, p0, Lcom/commsource/widget/XSeekBar;->i0:Landroid/graphics/Paint;
 
     iget p2, p0, Lcom/commsource/widget/XSeekBar;->J:I
 
     invoke-virtual {p1, p2}, Landroid/graphics/Paint;->setColor(I)V
 
-    .line 8
     iget-object p1, p0, Lcom/commsource/widget/XSeekBar;->i0:Landroid/graphics/Paint;
 
     sget-object p2, Landroid/graphics/Paint$Style;->FILL_AND_STROKE:Landroid/graphics/Paint$Style;
 
     invoke-virtual {p1, p2}, Landroid/graphics/Paint;->setStyle(Landroid/graphics/Paint$Style;)V
 
-    .line 9
     iget-object p1, p0, Lcom/commsource/widget/XSeekBar;->l0:Landroid/graphics/Paint;
 
     iget p2, p0, Lcom/commsource/widget/XSeekBar;->K:I
 
     invoke-virtual {p1, p2}, Landroid/graphics/Paint;->setColor(I)V
 
-    .line 10
     iget-object p1, p0, Lcom/commsource/widget/XSeekBar;->l0:Landroid/graphics/Paint;
 
     sget-object p2, Landroid/graphics/Paint$Style;->FILL_AND_STROKE:Landroid/graphics/Paint$Style;
 
     invoke-virtual {p1, p2}, Landroid/graphics/Paint;->setStyle(Landroid/graphics/Paint$Style;)V
 
-    .line 11
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -687,7 +636,6 @@
 
     if-eqz p2, :cond_0
 
-    .line 1
     sget-object v1, Lcom/res/provider/ResSTYLEABLE;->C2:[I
 
     invoke-virtual {p1, p2, v1}, Landroid/content/Context;->obtainStyledAttributes(Landroid/util/AttributeSet;[I)Landroid/content/res/TypedArray;
@@ -702,14 +650,12 @@
 
     const/4 v1, 0x0
 
-    .line 2
     invoke-virtual {p1, p2, v1}, Landroid/content/res/TypedArray;->getBoolean(IZ)Z
 
     move-result p2
 
     invoke-virtual {p0, p2}, Lcom/commsource/widget/XSeekBar;->setEnableStroke(Z)V
 
-    .line 3
     invoke-virtual {p1, v1, v1}, Landroid/content/res/TypedArray;->getBoolean(IZ)Z
 
     move-result p2
@@ -718,7 +664,6 @@
 
     const/4 p2, 0x2
 
-    .line 4
     invoke-virtual {p1, p2, v1}, Landroid/content/res/TypedArray;->getBoolean(IZ)Z
 
     move-result p2
@@ -729,7 +674,6 @@
 
     const v2, -0x4a67a
 
-    .line 5
     invoke-virtual {p1, p2, v2}, Landroid/content/res/TypedArray;->getColor(II)I
 
     move-result p2
@@ -740,7 +684,6 @@
 
     const v2, -0x7f0d0d0e
 
-    .line 6
     invoke-virtual {p1, p2, v2}, Landroid/content/res/TypedArray;->getColor(II)I
 
     move-result p2
@@ -751,7 +694,6 @@
 
     sget v2, Lcom/res/provider/ResCOLOR;->color_4d000000:I
 
-    .line 7
     invoke-static {v2}, Lcom/commsource/util/u1;->b(I)I
 
     move-result v2
@@ -766,7 +708,6 @@
 
     const/4 v2, -0x1
 
-    .line 8
     invoke-virtual {p1, p2, v2}, Landroid/content/res/TypedArray;->getColor(II)I
 
     move-result p2
@@ -777,7 +718,6 @@
 
     const/high16 v2, 0x41180000    # 9.5f
 
-    .line 9
     invoke-static {v2}, Lcom/meitu/library/p/f/i;->d(F)I
 
     move-result v2
@@ -792,7 +732,6 @@
 
     const/high16 v2, 0x40400000    # 3.0f
 
-    .line 10
     invoke-static {v2}, Lcom/meitu/library/p/f/i;->d(F)I
 
     move-result v2
@@ -807,7 +746,6 @@
 
     const/high16 v2, 0x40e00000    # 7.0f
 
-    .line 11
     invoke-static {v2}, Lcom/meitu/library/p/f/i;->d(F)I
 
     move-result v2
@@ -822,7 +760,6 @@
 
     const/high16 v2, 0x40200000    # 2.5f
 
-    .line 12
     invoke-static {v2}, Lcom/meitu/library/p/f/i;->d(F)I
 
     move-result v2
@@ -835,14 +772,12 @@
 
     iput p2, p0, Lcom/commsource/widget/XSeekBar;->O:F
 
-    .line 13
     iput p2, p0, Lcom/commsource/widget/XSeekBar;->P:F
 
     const/4 p2, 0x5
 
     const/4 v2, 0x0
 
-    .line 14
     invoke-virtual {p1, p2, v2}, Landroid/content/res/TypedArray;->getFloat(IF)F
 
     move-result p2
@@ -853,7 +788,6 @@
 
     const/16 v2, 0x64
 
-    .line 15
     invoke-virtual {p1, p2, v2}, Landroid/content/res/TypedArray;->getInteger(II)I
 
     move-result p2
@@ -862,7 +796,6 @@
 
     const/16 p2, 0x8
 
-    .line 16
     invoke-virtual {p1, p2, v1}, Landroid/content/res/TypedArray;->getInteger(II)I
 
     move-result p2
@@ -871,7 +804,6 @@
 
     const/16 p2, 0x9
 
-    .line 17
     invoke-virtual {p1, p2, v1}, Landroid/content/res/TypedArray;->getInteger(II)I
 
     move-result p2
@@ -880,10 +812,8 @@
 
     iput p2, p0, Lcom/commsource/widget/XSeekBar;->S:F
 
-    .line 18
     invoke-virtual {p1}, Landroid/content/res/TypedArray;->recycle()V
 
-    .line 19
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -897,15 +827,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/widget/XSeekBar;->c0:I
 
-    .line 2
     iput p2, p0, Lcom/commsource/widget/XSeekBar;->d0:I
 
     int-to-float p2, p1
 
-    .line 3
     invoke-virtual {p0}, Lcom/commsource/widget/XSeekBar;->getLimitLeft()F
 
     move-result v1
@@ -920,14 +847,12 @@
 
     iput v1, p0, Lcom/commsource/widget/XSeekBar;->e0:F
 
-    .line 4
     invoke-virtual {p0}, Lcom/commsource/widget/XSeekBar;->getLimitLeft()F
 
     move-result v1
 
     iput v1, p0, Lcom/commsource/widget/XSeekBar;->f0:F
 
-    .line 5
     invoke-virtual {p0}, Lcom/commsource/widget/XSeekBar;->getLimitRight()F
 
     move-result v1
@@ -936,7 +861,6 @@
 
     iput p2, p0, Lcom/commsource/widget/XSeekBar;->g0:F
 
-    .line 6
     iget p2, p0, Lcom/commsource/widget/XSeekBar;->S:F
 
     invoke-virtual {p0, p2}, Lcom/commsource/widget/XSeekBar;->h(F)F
@@ -945,7 +869,6 @@
 
     iput p2, p0, Lcom/commsource/widget/XSeekBar;->R:F
 
-    .line 7
     iget p2, p0, Lcom/commsource/widget/XSeekBar;->b0:I
 
     iget v1, p0, Lcom/commsource/widget/XSeekBar;->a0:I
@@ -964,7 +887,6 @@
 
     iput p2, p0, Lcom/commsource/widget/XSeekBar;->V:F
 
-    .line 8
     invoke-virtual {p0}, Landroid/view/View;->getPaddingLeft()I
 
     move-result p2
@@ -991,17 +913,14 @@
 
     iput p1, p0, Lcom/commsource/widget/XSeekBar;->h0:F
 
-    .line 9
     iget p1, p0, Lcom/commsource/widget/XSeekBar;->S:F
 
     const/4 p2, 0x0
 
     invoke-direct {p0, p1, p2}, Lcom/commsource/widget/XSeekBar;->u(FZ)V
 
-    .line 10
     invoke-virtual {p0, p2}, Lcom/commsource/widget/XSeekBar;->x(Z)V
 
-    .line 11
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1014,7 +933,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/widget/XSeekBar;->a0:I
 
     int-to-float v2, v1
@@ -1029,7 +947,6 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     iget v1, p0, Lcom/commsource/widget/XSeekBar;->b0:I
 
@@ -1045,11 +962,9 @@
 
     goto :goto_0
 
-    .line 3
     :cond_1
     iput p1, p0, Lcom/commsource/widget/XSeekBar;->S:F
 
-    .line 4
     :goto_0
     iget p1, p0, Lcom/commsource/widget/XSeekBar;->S:F
 
@@ -1073,15 +988,12 @@
     :goto_1
     float-to-int p1, p1
 
-    .line 5
     iget v1, p0, Lcom/commsource/widget/XSeekBar;->T:I
 
     if-eq v1, p1, :cond_3
 
-    .line 6
     iput p1, p0, Lcom/commsource/widget/XSeekBar;->T:I
 
-    .line 7
     iget-object p1, p0, Lcom/commsource/widget/XSeekBar;->u0:Ljava/util/ArrayList;
 
     invoke-virtual {p1}, Ljava/util/ArrayList;->iterator()Ljava/util/Iterator;
@@ -1101,7 +1013,6 @@
 
     check-cast v1, Lcom/commsource/widget/XSeekBar$b;
 
-    .line 8
     iget v2, p0, Lcom/commsource/widget/XSeekBar;->T:I
 
     iget v3, p0, Lcom/commsource/widget/XSeekBar;->R:F
@@ -1110,7 +1021,6 @@
 
     goto :goto_2
 
-    .line 9
     :cond_3
     iget-object p1, p0, Lcom/commsource/widget/XSeekBar;->u0:Ljava/util/ArrayList;
 
@@ -1131,7 +1041,6 @@
 
     check-cast v1, Lcom/commsource/widget/XSeekBar$b;
 
-    .line 10
     iget v2, p0, Lcom/commsource/widget/XSeekBar;->T:I
 
     iget v3, p0, Lcom/commsource/widget/XSeekBar;->R:F
@@ -1140,14 +1049,11 @@
 
     goto :goto_3
 
-    .line 11
     :cond_4
     invoke-virtual {p0, p2}, Lcom/commsource/widget/XSeekBar;->x(Z)V
 
-    .line 12
     invoke-virtual {p0}, Landroid/view/View;->invalidate()V
 
-    .line 13
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1166,7 +1072,6 @@
 
     const/4 p2, 0x0
 
-    .line 1
     :cond_0
     invoke-virtual {p0, p1, p2}, Lcom/commsource/widget/XSeekBar;->v(ZZ)V
 
@@ -1259,7 +1164,6 @@
 
     if-eqz p1, :cond_1
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/widget/XSeekBar;->u0:Ljava/util/ArrayList;
 
     invoke-virtual {v1, p1}, Ljava/util/ArrayList;->contains(Ljava/lang/Object;)Z
@@ -1278,12 +1182,10 @@
     :goto_0
     if-eqz p1, :cond_1
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/widget/XSeekBar;->u0:Ljava/util/ArrayList;
 
     invoke-virtual {v1, p1}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    .line 3
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1297,7 +1199,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/widget/XSeekBar;->a0:I
 
     int-to-float v2, v1
@@ -1324,7 +1225,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/widget/XSeekBar;->h0:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1339,7 +1239,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/widget/XSeekBar;->e0:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1354,7 +1253,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/widget/XSeekBar;->U:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1369,7 +1267,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/widget/XSeekBar;->V:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1384,7 +1281,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/widget/XSeekBar;->P:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1399,7 +1295,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/widget/XSeekBar;->d0:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1414,7 +1309,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/widget/XSeekBar;->c0:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1429,7 +1323,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/widget/XSeekBar;->o0:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1444,7 +1337,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/widget/XSeekBar;->n0:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1459,7 +1351,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/widget/XSeekBar;->p0:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1474,7 +1365,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/widget/XSeekBar;->m0:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1500,7 +1390,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/widget/XSeekBar;->t0:Ljava/util/ArrayList;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1515,7 +1404,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/widget/XSeekBar;->q0:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1530,7 +1418,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/widget/XSeekBar;->T:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1545,7 +1432,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Landroid/view/View;->getPaddingLeft()I
 
     move-result v1
@@ -1578,7 +1464,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Landroid/view/View;->getPaddingRight()I
 
     move-result v1
@@ -1611,7 +1496,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/widget/XSeekBar;->g:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1628,7 +1512,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/widget/XSeekBar;->j0:Landroid/graphics/Paint;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1643,7 +1526,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/widget/XSeekBar;->N:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1658,7 +1540,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/widget/XSeekBar;->M:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1673,7 +1554,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/widget/XSeekBar;->Q:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1690,7 +1570,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/widget/XSeekBar;->i0:Landroid/graphics/Paint;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1705,7 +1584,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/widget/XSeekBar;->O:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1722,7 +1600,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/widget/XSeekBar;->k0:Landroid/graphics/Paint;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1737,7 +1614,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/widget/XSeekBar;->K:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1754,7 +1630,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/widget/XSeekBar;->l0:Landroid/graphics/Paint;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1769,7 +1644,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/widget/XSeekBar;->L:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1784,7 +1658,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/widget/XSeekBar;->b0:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1799,7 +1672,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/widget/XSeekBar;->a0:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1826,7 +1698,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/widget/XSeekBar;->x0:Lcotlin/jvm/u/l;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1841,7 +1712,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/widget/XSeekBar;->S:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1856,7 +1726,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/widget/XSeekBar;->J:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1871,7 +1740,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/widget/XSeekBar;->g0:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1886,7 +1754,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/widget/XSeekBar;->f0:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1903,7 +1770,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/widget/XSeekBar;->s0:Lcom/commsource/camera/f1/n;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1918,7 +1784,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/widget/XSeekBar;->R:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1933,7 +1798,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/widget/XSeekBar;->p:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1948,7 +1812,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/widget/XSeekBar;->W:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1963,7 +1826,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/widget/XSeekBar;->a0:I
 
     int-to-float v2, v1
@@ -1988,7 +1850,6 @@
 
     add-float/2addr p1, v1
 
-    .line 2
     iget v1, p0, Lcom/commsource/widget/XSeekBar;->f0:F
 
     cmpg-float v2, p1, v1
@@ -2000,7 +1861,6 @@
 
     goto :goto_1
 
-    .line 3
     :cond_0
     iget v1, p0, Lcom/commsource/widget/XSeekBar;->g0:F
 
@@ -2010,7 +1870,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_1
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2027,20 +1886,17 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     iget p1, p0, Lcom/commsource/widget/XSeekBar;->Q:F
 
     iput p1, p0, Lcom/commsource/widget/XSeekBar;->P:F
 
     goto :goto_0
 
-    .line 2
     :cond_0
     iget p1, p0, Lcom/commsource/widget/XSeekBar;->O:F
 
     iput p1, p0, Lcom/commsource/widget/XSeekBar;->P:F
 
-    .line 3
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -2054,7 +1910,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/widget/XSeekBar;->d:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2069,7 +1924,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/widget/XSeekBar;->b:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2084,7 +1938,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/widget/XSeekBar;->f:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2107,10 +1960,8 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-super {p0, p1}, Landroid/view/View;->onDraw(Landroid/graphics/Canvas;)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/widget/XSeekBar;->t0:Ljava/util/ArrayList;
 
     invoke-virtual {v1}, Ljava/util/ArrayList;->iterator()Ljava/util/Iterator;
@@ -2130,12 +1981,10 @@
 
     check-cast v2, Lcom/commsource/widget/g1;
 
-    .line 3
     invoke-virtual {v2, p1}, Lcom/commsource/widget/g1;->c(Landroid/graphics/Canvas;)V
 
     goto :goto_0
 
-    .line 4
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -2149,17 +1998,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super/range {p0 .. p5}, Landroid/view/View;->onLayout(ZIIII)V
 
     sub-int/2addr p4, p2
 
     sub-int/2addr p5, p3
 
-    .line 2
     invoke-direct {p0, p4, p5}, Lcom/commsource/widget/XSeekBar;->l(II)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2172,13 +2018,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0, p1, p2, p3, p4}, Landroid/view/View;->onSizeChanged(IIII)V
 
-    .line 2
     invoke-direct {p0, p1, p2}, Lcom/commsource/widget/XSeekBar;->l(II)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2199,7 +2042,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-virtual {p0}, Landroid/view/View;->isEnabled()Z
 
     move-result v1
@@ -2212,20 +2054,17 @@
 
     goto/16 :goto_4
 
-    .line 2
     :cond_0
     invoke-virtual {p1}, Landroid/view/MotionEvent;->getAction()I
 
     move-result v1
 
-    .line 3
     invoke-virtual {p1}, Landroid/view/MotionEvent;->getX()F
 
     move-result v2
 
     iput v2, p0, Lcom/commsource/widget/XSeekBar;->R:F
 
-    .line 4
     iget v3, p0, Lcom/commsource/widget/XSeekBar;->f0:F
 
     cmpg-float v4, v2, v3
@@ -2236,7 +2075,6 @@
 
     goto :goto_0
 
-    .line 5
     :cond_1
     iget v3, p0, Lcom/commsource/widget/XSeekBar;->g0:F
 
@@ -2246,7 +2084,6 @@
 
     iput v3, p0, Lcom/commsource/widget/XSeekBar;->R:F
 
-    .line 6
     :cond_2
     :goto_0
     iget v2, p0, Lcom/commsource/widget/XSeekBar;->R:F
@@ -2285,7 +2122,6 @@
 
     div-float/2addr v3, v4
 
-    .line 7
     iget-boolean v4, p0, Lcom/commsource/widget/XSeekBar;->b:Z
 
     const/4 v6, 0x2
@@ -2312,7 +2148,6 @@
 
     if-gtz v4, :cond_3
 
-    .line 8
     invoke-virtual {p0, v3}, Lcom/commsource/widget/XSeekBar;->h(F)F
 
     move-result v2
@@ -2323,7 +2158,6 @@
 
     move v2, v3
 
-    .line 9
     :cond_3
     iget v4, p0, Lcom/commsource/widget/XSeekBar;->p0:I
 
@@ -2343,19 +2177,16 @@
 
     int-to-float v2, v4
 
-    .line 10
     invoke-virtual {p0, v2}, Lcom/commsource/widget/XSeekBar;->h(F)F
 
     move-result v2
 
     iput v2, p0, Lcom/commsource/widget/XSeekBar;->R:F
 
-    .line 11
     iget v5, p0, Lcom/commsource/widget/XSeekBar;->p0:I
 
     int-to-float v2, v5
 
-    .line 12
     :cond_4
     iget v4, p0, Lcom/commsource/widget/XSeekBar;->T:I
 
@@ -2372,7 +2203,6 @@
     :cond_5
     const/4 v4, 0x0
 
-    .line 13
     :goto_1
     iget-boolean v9, p0, Lcom/commsource/widget/XSeekBar;->d:Z
 
@@ -2395,17 +2225,14 @@
 
     if-ne v5, v3, :cond_8
 
-    .line 14
     :cond_7
     invoke-static {p0}, Lcom/commsource/util/l0;->x(Landroid/view/View;)V
 
-    .line 15
     :cond_8
     invoke-direct {p0, v2, v8}, Lcom/commsource/widget/XSeekBar;->u(FZ)V
 
     if-nez v1, :cond_b
 
-    .line 16
     iget-object p1, p0, Lcom/commsource/widget/XSeekBar;->u0:Ljava/util/ArrayList;
 
     invoke-virtual {p1}, Ljava/util/ArrayList;->iterator()Ljava/util/Iterator;
@@ -2425,7 +2252,6 @@
 
     check-cast v1, Lcom/commsource/widget/XSeekBar$b;
 
-    .line 17
     iget v2, p0, Lcom/commsource/widget/XSeekBar;->T:I
 
     iget v3, p0, Lcom/commsource/widget/XSeekBar;->R:F
@@ -2434,7 +2260,6 @@
 
     goto :goto_2
 
-    .line 18
     :cond_9
     invoke-virtual {p0}, Landroid/view/View;->getParent()Landroid/view/ViewParent;
 
@@ -2444,7 +2269,6 @@
 
     invoke-interface {p1, v8}, Landroid/view/ViewParent;->requestDisallowInterceptTouchEvent(Z)V
 
-    .line 19
     :cond_a
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -2453,7 +2277,6 @@
     :cond_b
     if-ne v1, v6, :cond_c
 
-    .line 20
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v8
@@ -2465,7 +2288,6 @@
 
     if-ne v1, v2, :cond_f
 
-    .line 21
     :cond_d
     iget-object v1, p0, Lcom/commsource/widget/XSeekBar;->u0:Ljava/util/ArrayList;
 
@@ -2486,14 +2308,12 @@
 
     check-cast v2, Lcom/commsource/widget/XSeekBar$b;
 
-    .line 22
     iget v3, p0, Lcom/commsource/widget/XSeekBar;->T:I
 
     iget v4, p0, Lcom/commsource/widget/XSeekBar;->R:F
 
     invoke-interface {v2, v3, v4, v8}, Lcom/commsource/widget/XSeekBar$b;->O(IFZ)V
 
-    .line 23
     iget v3, p0, Lcom/commsource/widget/XSeekBar;->T:I
 
     iget v4, p0, Lcom/commsource/widget/XSeekBar;->R:F
@@ -2502,7 +2322,6 @@
 
     goto :goto_3
 
-    .line 24
     :cond_e
     invoke-virtual {p0}, Landroid/view/View;->getParent()Landroid/view/ViewParent;
 
@@ -2512,7 +2331,6 @@
 
     invoke-interface {v1, v7}, Landroid/view/ViewParent;->requestDisallowInterceptTouchEvent(Z)V
 
-    .line 25
     :cond_f
     invoke-super {p0, p1}, Landroid/view/View;->onTouchEvent(Landroid/view/MotionEvent;)Z
 
@@ -2522,7 +2340,6 @@
 
     return p1
 
-    .line 26
     :cond_10
     :goto_4
     invoke-super {p0, p1}, Landroid/view/View;->onTouchEvent(Landroid/view/MotionEvent;)Z
@@ -2549,17 +2366,14 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-super {p0, p1, p2}, Landroid/view/View;->onVisibilityChanged(Landroid/view/View;I)V
 
-    .line 2
     invoke-static {p1, p0}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result p1
 
     if-eqz p1, :cond_1
 
-    .line 3
     iget-object p1, p0, Lcom/commsource/widget/XSeekBar;->x0:Lcotlin/jvm/u/l;
 
     if-eqz p1, :cond_1
@@ -2584,7 +2398,6 @@
 
     check-cast p1, Lcotlin/t1;
 
-    .line 4
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -2598,7 +2411,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/widget/XSeekBar;->a:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2613,7 +2425,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/widget/XSeekBar;->c:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2628,7 +2439,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/widget/XSeekBar;->r0:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2649,7 +2459,6 @@
 
     if-eqz p1, :cond_1
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/widget/XSeekBar;->u0:Ljava/util/ArrayList;
 
     invoke-virtual {v1, p1}, Ljava/util/ArrayList;->contains(Ljava/lang/Object;)Z
@@ -2666,12 +2475,10 @@
     :goto_0
     if-eqz p1, :cond_1
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/widget/XSeekBar;->u0:Ljava/util/ArrayList;
 
     invoke-virtual {v1, p1}, Ljava/util/ArrayList;->remove(Ljava/lang/Object;)Z
 
-    .line 3
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -2685,7 +2492,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/widget/XSeekBar;->h0:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2700,7 +2506,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/widget/XSeekBar;->e0:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2715,10 +2520,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/widget/XSeekBar;->U:F
 
-    .line 2
     iget p1, p0, Lcom/commsource/widget/XSeekBar;->b0:I
 
     iget v1, p0, Lcom/commsource/widget/XSeekBar;->a0:I
@@ -2739,13 +2542,10 @@
 
     const/4 p1, 0x0
 
-    .line 3
     invoke-virtual {p0, p1}, Lcom/commsource/widget/XSeekBar;->x(Z)V
 
-    .line 4
     invoke-virtual {p0}, Landroid/view/View;->invalidate()V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2758,7 +2558,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/widget/XSeekBar;->V:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2773,7 +2572,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/widget/XSeekBar;->P:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2788,7 +2586,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/widget/XSeekBar;->d0:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2803,7 +2600,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/widget/XSeekBar;->c0:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2818,10 +2614,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/widget/XSeekBar;->o0:F
 
-    .line 2
     iget v1, p0, Lcom/commsource/widget/XSeekBar;->b0:I
 
     iget v2, p0, Lcom/commsource/widget/XSeekBar;->a0:I
@@ -2838,7 +2632,6 @@
 
     int-to-float p1, p1
 
-    .line 3
     invoke-virtual {p0, p1}, Lcom/commsource/widget/XSeekBar;->h(F)F
 
     move-result p1
@@ -2847,13 +2640,10 @@
 
     const/4 p1, 0x0
 
-    .line 4
     invoke-virtual {p0, p1}, Lcom/commsource/widget/XSeekBar;->x(Z)V
 
-    .line 5
     invoke-virtual {p0}, Landroid/view/View;->invalidate()V
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2866,7 +2656,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/widget/XSeekBar;->n0:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2881,7 +2670,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/widget/XSeekBar;->p0:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2896,7 +2684,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/widget/XSeekBar;->d:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2911,7 +2698,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/widget/XSeekBar;->b:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2926,21 +2712,16 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/widget/XSeekBar;->f:Z
 
-    .line 2
     invoke-virtual {p0, p1}, Lcom/commsource/widget/XSeekBar;->i(Z)V
 
     const/4 p1, 0x0
 
-    .line 3
     invoke-virtual {p0, p1}, Lcom/commsource/widget/XSeekBar;->x(Z)V
 
-    .line 4
     invoke-virtual {p0}, Landroid/view/View;->invalidate()V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2953,13 +2734,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/widget/XSeekBar;->a:Z
 
-    .line 2
     invoke-virtual {p0}, Landroid/view/View;->invalidate()V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2972,7 +2750,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/widget/XSeekBar;->c:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2987,7 +2764,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/widget/XSeekBar;->q0:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -3002,7 +2778,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/widget/XSeekBar;->T:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -3017,18 +2792,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/widget/XSeekBar;->g:I
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/widget/XSeekBar;->j0:Landroid/graphics/Paint;
 
     invoke-virtual {v1, p1}, Landroid/graphics/Paint;->setColor(I)V
 
-    .line 3
     invoke-virtual {p0}, Landroid/view/View;->invalidate()V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -3049,7 +2820,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/widget/XSeekBar;->j0:Landroid/graphics/Paint;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -3064,7 +2834,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/widget/XSeekBar;->N:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -3079,7 +2848,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/widget/XSeekBar;->M:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -3094,7 +2862,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/widget/XSeekBar;->Q:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -3117,7 +2884,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/widget/XSeekBar;->i0:Landroid/graphics/Paint;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -3132,7 +2898,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/widget/XSeekBar;->O:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -3155,7 +2920,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/widget/XSeekBar;->k0:Landroid/graphics/Paint;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -3170,18 +2934,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/widget/XSeekBar;->K:I
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/widget/XSeekBar;->l0:Landroid/graphics/Paint;
 
     invoke-virtual {v1, p1}, Landroid/graphics/Paint;->setColor(I)V
 
-    .line 3
     invoke-virtual {p0}, Landroid/view/View;->invalidate()V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -3202,7 +2962,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/widget/XSeekBar;->l0:Landroid/graphics/Paint;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -3217,7 +2976,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/widget/XSeekBar;->L:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -3232,7 +2990,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/widget/XSeekBar;->b0:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -3247,7 +3004,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/widget/XSeekBar;->a0:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -3276,7 +3032,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/widget/XSeekBar;->x0:Lcotlin/jvm/u/l;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -3291,7 +3046,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/widget/XSeekBar;->S:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -3308,10 +3062,8 @@
 
     const/4 v1, 0x0
 
-    .line 2
     invoke-virtual {p0, p1, v1}, Lcom/commsource/widget/XSeekBar;->t(IZ)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -3324,18 +3076,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/widget/XSeekBar;->J:I
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/widget/XSeekBar;->i0:Landroid/graphics/Paint;
 
     invoke-virtual {v1, p1}, Landroid/graphics/Paint;->setColor(I)V
 
-    .line 3
     invoke-virtual {p0}, Landroid/view/View;->invalidate()V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -3348,7 +3096,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/widget/XSeekBar;->g0:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -3363,7 +3110,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/widget/XSeekBar;->f0:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -3378,7 +3124,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/widget/XSeekBar;->R:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -3393,7 +3138,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/widget/XSeekBar;->r0:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -3408,7 +3152,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/widget/XSeekBar;->p:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -3427,17 +3170,14 @@
 
     int-to-float p1, p1
 
-    .line 1
     iput p1, p0, Lcom/commsource/widget/XSeekBar;->q0:F
 
-    .line 2
     invoke-direct {p0}, Lcom/commsource/widget/XSeekBar;->getProgressAnimator()Lcom/commsource/camera/f1/l;
 
     move-result-object p1
 
     invoke-virtual {p1}, Lcom/commsource/camera/f1/l;->a()V
 
-    .line 3
     invoke-direct {p0}, Lcom/commsource/widget/XSeekBar;->getProgressAnimator()Lcom/commsource/camera/f1/l;
 
     move-result-object p1
@@ -3449,7 +3189,6 @@
     :cond_0
     int-to-float p1, p1
 
-    .line 4
     invoke-virtual {p0, p1}, Lcom/commsource/widget/XSeekBar;->h(F)F
 
     move-result p2
@@ -3458,10 +3197,8 @@
 
     const/4 p2, 0x0
 
-    .line 5
     invoke-direct {p0, p1, p2}, Lcom/commsource/widget/XSeekBar;->u(FZ)V
 
-    .line 6
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -3475,7 +3212,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/widget/XSeekBar;->r0:Z
 
     if-eqz p1, :cond_0
@@ -3494,11 +3230,9 @@
     :cond_1
     const/high16 p1, 0x3f000000    # 0.5f
 
-    .line 2
     :goto_0
     invoke-virtual {p0, p1}, Landroid/view/View;->setAlpha(F)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -3511,7 +3245,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/widget/XSeekBar;->t0:Ljava/util/ArrayList;
 
     invoke-virtual {v1}, Ljava/util/ArrayList;->iterator()Ljava/util/Iterator;
@@ -3531,12 +3264,10 @@
 
     check-cast v2, Lcom/commsource/widget/g1;
 
-    .line 2
     invoke-virtual {v2, p1}, Lcom/commsource/widget/g1;->a(Z)V
 
     goto :goto_0
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

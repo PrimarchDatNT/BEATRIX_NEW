@@ -22,7 +22,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     const-class v1, Lf/k/h/a/l/x/g;
 
     invoke-virtual {v1}, Ljava/lang/Class;->getSimpleName()Ljava/lang/String;
@@ -39,10 +38,8 @@
 .method public constructor <init>(Lf/k/h/a/l/q;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1}, Lf/k/h/a/l/x/k;-><init>(Lf/k/h/a/l/q;)V
 
-    .line 2
     invoke-interface {p1, p0}, Lf/k/h/a/l/y/a;->d(Lf/k/h/a/l/y/b;)V
 
     return-void
@@ -55,7 +52,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0, p1}, Lf/k/h/a/l/x/g;->j(Ljava/util/List;)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -70,7 +66,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0, p1, p2}, Lf/k/h/a/l/x/g;->i(ILjava/util/List;)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -85,7 +80,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lf/k/h/a/l/x/g;->h()V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -102,10 +96,8 @@
 
     const/4 v1, 0x0
 
-    .line 1
     iput-object v1, p0, Lf/k/h/a/l/x/g;->b:Lf/k/h/a/l/y/m;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -126,15 +118,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lf/k/h/a/l/x/g;->b:Lf/k/h/a/l/y/m;
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-interface {v1, p1, p2}, Lf/k/h/a/l/y/m;->a(ILjava/util/List;)V
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -156,7 +145,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lf/k/h/a/l/x/g;->c:Ljava/lang/String;
 
     const-string v2, "queryIAPHistoryPurchase"
@@ -165,7 +153,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 2
     invoke-interface {p1}, Ljava/util/List;->size()I
 
     move-result v1
@@ -179,7 +166,6 @@
     :cond_0
     const/4 v1, 0x0
 
-    .line 3
     :goto_0
     iget-object v2, p0, Lf/k/h/a/l/x/k;->a:Lf/k/h/a/l/q;
 
@@ -191,7 +177,6 @@
 
     invoke-interface {v2, p1, v3}, Lf/k/h/a/l/q;->a(Ljava/lang/String;Lf/k/h/a/l/y/l;)V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -204,14 +189,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lf/k/h/a/l/x/g;->c:Ljava/lang/String;
 
     const-string v2, "querySubsHistoryPurchase"
 
     invoke-static {v1, v2}, Lf/k/h/a/c;->d(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 2
     iget-object v1, p0, Lf/k/h/a/l/x/k;->a:Lf/k/h/a/l/q;
 
     new-instance v2, Lf/k/h/a/l/x/g$a;
@@ -222,7 +205,6 @@
 
     invoke-interface {v1, v3, v2}, Lf/k/h/a/l/q;->a(Ljava/lang/String;Lf/k/h/a/l/y/l;)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -237,13 +219,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lf/k/h/a/l/x/g;->b:Lf/k/h/a/l/y/m;
 
-    .line 2
     invoke-direct {p0}, Lf/k/h/a/l/x/g;->k()V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -258,20 +237,16 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     iget-object v1, p0, Lf/k/h/a/l/x/g;->b:Lf/k/h/a/l/y/m;
 
     if-eqz v1, :cond_0
 
     const/4 v1, 0x0
 
-    .line 2
     invoke-direct {p0, p1, v1}, Lf/k/h/a/l/x/g;->i(ILjava/util/List;)V
 
-    .line 3
     invoke-direct {p0}, Lf/k/h/a/l/x/g;->h()V
 
-    .line 4
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -285,7 +260,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -306,7 +280,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

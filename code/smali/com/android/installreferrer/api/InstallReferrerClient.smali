@@ -16,7 +16,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -31,7 +30,6 @@
     .annotation build Landroidx/annotation/UiThread;
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/android/installreferrer/api/InstallReferrerClient$Builder;
 
     const/4 v1, 0x0

@@ -11,7 +11,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -36,10 +35,8 @@
 
     const-string v0, "scopeStrings can\'t be null."
 
-    .line 1
     invoke-static {p0, v0}, Lcom/google/android/gms/common/internal/b0;->l(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 2
     invoke-interface {p0}, Ljava/util/Collection;->size()I
 
     move-result v0
@@ -77,17 +74,14 @@
 
     const-string v0, "scopeStrings can\'t be null."
 
-    .line 1
     invoke-static {p0, v0}, Lcom/google/android/gms/common/internal/b0;->l(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 2
     new-instance v0, Ljava/util/HashSet;
 
     array-length v1, p0
 
     invoke-direct {v0, v1}, Ljava/util/HashSet;-><init>(I)V
 
-    .line 3
     array-length v1, p0
 
     const/4 v2, 0x0
@@ -95,17 +89,14 @@
     :goto_0
     if-ge v2, v1, :cond_1
 
-    .line 4
     aget-object v3, p0, v2
 
-    .line 5
     invoke-static {v3}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v4
 
     if-nez v4, :cond_0
 
-    .line 6
     new-instance v4, Lcom/google/android/gms/common/api/Scope;
 
     invoke-direct {v4, v3}, Lcom/google/android/gms/common/api/Scope;-><init>(Ljava/lang/String;)V
@@ -138,10 +129,8 @@
 
     const-string v0, "scopes can\'t be null."
 
-    .line 1
     invoke-static {p0, v0}, Lcom/google/android/gms/common/internal/b0;->l(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 2
     invoke-interface {p0}, Ljava/util/Set;->size()I
 
     move-result v0
@@ -168,23 +157,19 @@
 
     const-string v0, "scopes can\'t be null."
 
-    .line 1
     invoke-static {p0, v0}, Lcom/google/android/gms/common/internal/b0;->l(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 2
     array-length v0, p0
 
     new-array v0, v0, [Ljava/lang/String;
 
     const/4 v1, 0x0
 
-    .line 3
     :goto_0
     array-length v2, p0
 
     if-ge v1, v2, :cond_0
 
-    .line 4
     aget-object v2, p0, v1
 
     invoke-virtual {v2}, Lcom/google/android/gms/common/api/Scope;->y()Ljava/lang/String;

@@ -40,13 +40,10 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-boolean p1, p0, Lcom/google/android/gms/internal/ads/kq1;->a:Z
 
-    .line 3
     iput-object p2, p0, Lcom/google/android/gms/internal/ads/kq1;->b:Lcom/google/android/gms/internal/ads/zzdss;
 
     return-void
@@ -55,7 +52,6 @@
 .method synthetic constructor <init>(ZLcom/google/android/gms/internal/ads/zzdss;Lcom/google/android/gms/internal/ads/iq1;)V
     .locals 0
 
-    .line 4
     invoke-direct {p0, p1, p2}, Lcom/google/android/gms/internal/ads/kq1;-><init>(ZLcom/google/android/gms/internal/ads/zzdss;)V
 
     return-void
@@ -79,7 +75,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/google/android/gms/internal/ads/aq1;
 
     iget-object v1, p0, Lcom/google/android/gms/internal/ads/kq1;->b:Lcom/google/android/gms/internal/ads/zzdss;

@@ -16,10 +16,8 @@
 .method constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     invoke-static {}, Lcom/google/android/gms/internal/firebase_remote_config/n5;->c()Lcom/google/android/gms/internal/firebase_remote_config/n5;
 
     move-result-object v0
@@ -32,13 +30,10 @@
 .method constructor <init>(Lcom/google/android/gms/internal/firebase_remote_config/n5;)V
     .locals 0
 
-    .line 3
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 4
     invoke-static {p1}, Ljava/util/Objects;->requireNonNull(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 5
     iput-object p1, p0, Lcom/google/android/gms/internal/firebase_remote_config/p4;->d:Lcom/google/android/gms/internal/firebase_remote_config/n5;
 
     return-void

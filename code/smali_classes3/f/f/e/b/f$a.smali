@@ -35,7 +35,6 @@
 .method constructor <init>(Lf/f/e/b/f;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lf/f/e/b/f$a;->a:Lf/f/e/b/f;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -48,7 +47,6 @@
 .method public a(Ljava/lang/String;)Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lf/f/e/b/f$a;->a:Lf/f/e/b/f;
 
     invoke-virtual {v0, p1}, Lf/f/e/b/f;->b(Ljava/lang/String;)Ljava/lang/String;
@@ -61,7 +59,6 @@
 .method public bridge synthetic apply(Ljava/lang/Object;)Ljava/lang/Object;
     .locals 0
 
-    .line 1
     check-cast p1, Ljava/lang/String;
 
     invoke-virtual {p0, p1}, Lf/f/e/b/f$a;->a(Ljava/lang/String;)Ljava/lang/String;

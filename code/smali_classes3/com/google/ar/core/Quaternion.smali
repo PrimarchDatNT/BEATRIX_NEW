@@ -43,7 +43,6 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
     new-instance v0, Lcom/google/ar/core/Quaternion;
 
     invoke-direct {v0}, Lcom/google/ar/core/Quaternion;-><init>()V
@@ -56,26 +55,20 @@
 .method public constructor <init>()V
     .locals 2
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/4 v0, 0x0
 
-    .line 2
     iput v0, p0, Lcom/google/ar/core/Quaternion;->x:F
 
-    .line 3
     iput v0, p0, Lcom/google/ar/core/Quaternion;->y:F
 
-    .line 4
     iput v0, p0, Lcom/google/ar/core/Quaternion;->z:F
 
     const/high16 v1, 0x3f800000    # 1.0f
 
-    .line 5
     iput v1, p0, Lcom/google/ar/core/Quaternion;->w:F
 
-    .line 6
     invoke-direct {p0, v0, v0, v0, v1}, Lcom/google/ar/core/Quaternion;->d(FFFF)V
 
     return-void
@@ -87,26 +80,20 @@
         value = "session_jni_wrapper.cc"
     .end annotation
 
-    .line 13
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/4 v0, 0x0
 
-    .line 14
     iput v0, p0, Lcom/google/ar/core/Quaternion;->x:F
 
-    .line 15
     iput v0, p0, Lcom/google/ar/core/Quaternion;->y:F
 
-    .line 16
     iput v0, p0, Lcom/google/ar/core/Quaternion;->z:F
 
     const/high16 v0, 0x3f800000    # 1.0f
 
-    .line 17
     iput v0, p0, Lcom/google/ar/core/Quaternion;->w:F
 
-    .line 18
     invoke-direct {p0, p1, p2, p3, p4}, Lcom/google/ar/core/Quaternion;->d(FFFF)V
 
     return-void
@@ -115,26 +102,20 @@
 .method private constructor <init>(Lcom/google/ar/core/Quaternion;)V
     .locals 3
 
-    .line 7
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/4 v0, 0x0
 
-    .line 8
     iput v0, p0, Lcom/google/ar/core/Quaternion;->x:F
 
-    .line 9
     iput v0, p0, Lcom/google/ar/core/Quaternion;->y:F
 
-    .line 10
     iput v0, p0, Lcom/google/ar/core/Quaternion;->z:F
 
     const/high16 v0, 0x3f800000    # 1.0f
 
-    .line 11
     iput v0, p0, Lcom/google/ar/core/Quaternion;->w:F
 
-    .line 12
     iget v0, p1, Lcom/google/ar/core/Quaternion;->x:F
 
     iget v1, p1, Lcom/google/ar/core/Quaternion;->y:F
@@ -151,12 +132,10 @@
 .method public static c(Lcom/google/ar/core/Quaternion;Lcom/google/ar/core/Quaternion;F)Lcom/google/ar/core/Quaternion;
     .locals 9
 
-    .line 1
     new-instance v0, Lcom/google/ar/core/Quaternion;
 
     invoke-direct {v0}, Lcom/google/ar/core/Quaternion;-><init>()V
 
-    .line 2
     iget v1, p0, Lcom/google/ar/core/Quaternion;->x:F
 
     iget v2, p1, Lcom/google/ar/core/Quaternion;->x:F
@@ -193,35 +172,30 @@
 
     if-gez v2, :cond_0
 
-    .line 3
     new-instance v2, Lcom/google/ar/core/Quaternion;
 
     invoke-direct {v2, p1}, Lcom/google/ar/core/Quaternion;-><init>(Lcom/google/ar/core/Quaternion;)V
 
     neg-float v1, v1
 
-    .line 4
     iget p1, v2, Lcom/google/ar/core/Quaternion;->x:F
 
     neg-float p1, p1
 
     iput p1, v2, Lcom/google/ar/core/Quaternion;->x:F
 
-    .line 5
     iget p1, v2, Lcom/google/ar/core/Quaternion;->y:F
 
     neg-float p1, p1
 
     iput p1, v2, Lcom/google/ar/core/Quaternion;->y:F
 
-    .line 6
     iget p1, v2, Lcom/google/ar/core/Quaternion;->z:F
 
     neg-float p1, p1
 
     iput p1, v2, Lcom/google/ar/core/Quaternion;->z:F
 
-    .line 7
     iget p1, v2, Lcom/google/ar/core/Quaternion;->w:F
 
     neg-float p1, p1
@@ -233,7 +207,6 @@
     :cond_0
     float-to-double v2, v1
 
-    .line 8
     invoke-static {v2, v3}, Ljava/lang/Math;->acos(D)D
 
     move-result-wide v2
@@ -248,14 +221,12 @@
 
     float-to-double v4, v1
 
-    .line 9
     invoke-static {v4, v5}, Ljava/lang/Math;->sqrt(D)D
 
     move-result-wide v4
 
     double-to-float v1, v4
 
-    .line 10
     invoke-static {v1}, Ljava/lang/Math;->abs(F)F
 
     move-result v4
@@ -276,7 +247,6 @@
 
     float-to-double v3, v3
 
-    .line 11
     invoke-static {v3, v4}, Ljava/lang/Math;->sin(D)D
 
     move-result-wide v3
@@ -289,7 +259,6 @@
 
     float-to-double v4, p2
 
-    .line 12
     invoke-static {v4, v5}, Ljava/lang/Math;->sin(D)D
 
     move-result-wide v4
@@ -303,7 +272,6 @@
     :cond_1
     sub-float/2addr v3, p2
 
-    .line 13
     :goto_0
     iget v1, p0, Lcom/google/ar/core/Quaternion;->x:F
 
@@ -317,7 +285,6 @@
 
     iput v1, v0, Lcom/google/ar/core/Quaternion;->x:F
 
-    .line 14
     iget v2, p0, Lcom/google/ar/core/Quaternion;->y:F
 
     mul-float v2, v2, v3
@@ -330,7 +297,6 @@
 
     iput v2, v0, Lcom/google/ar/core/Quaternion;->y:F
 
-    .line 15
     iget v4, p0, Lcom/google/ar/core/Quaternion;->z:F
 
     mul-float v4, v4, v3
@@ -343,7 +309,6 @@
 
     iput v4, v0, Lcom/google/ar/core/Quaternion;->z:F
 
-    .line 16
     iget p0, p0, Lcom/google/ar/core/Quaternion;->w:F
 
     mul-float v3, v3, p0
@@ -374,7 +339,6 @@
 
     float-to-double v1, v1
 
-    .line 17
     invoke-static {v1, v2}, Ljava/lang/Math;->sqrt(D)D
 
     move-result-wide v1
@@ -383,28 +347,24 @@
 
     double-to-float p0, p0
 
-    .line 18
     iget p1, v0, Lcom/google/ar/core/Quaternion;->x:F
 
     mul-float p1, p1, p0
 
     iput p1, v0, Lcom/google/ar/core/Quaternion;->x:F
 
-    .line 19
     iget p1, v0, Lcom/google/ar/core/Quaternion;->y:F
 
     mul-float p1, p1, p0
 
     iput p1, v0, Lcom/google/ar/core/Quaternion;->y:F
 
-    .line 20
     iget p1, v0, Lcom/google/ar/core/Quaternion;->z:F
 
     mul-float p1, p1, p0
 
     iput p1, v0, Lcom/google/ar/core/Quaternion;->z:F
 
-    .line 21
     iget p1, v0, Lcom/google/ar/core/Quaternion;->w:F
 
     mul-float p1, p1, p0
@@ -417,16 +377,12 @@
 .method private final d(FFFF)V
     .locals 0
 
-    .line 1
     iput p1, p0, Lcom/google/ar/core/Quaternion;->x:F
 
-    .line 2
     iput p2, p0, Lcom/google/ar/core/Quaternion;->y:F
 
-    .line 3
     iput p3, p0, Lcom/google/ar/core/Quaternion;->z:F
 
-    .line 4
     iput p4, p0, Lcom/google/ar/core/Quaternion;->w:F
 
     return-void
@@ -435,29 +391,22 @@
 .method public static e(Lcom/google/ar/core/Quaternion;[FI[FI)V
     .locals 8
 
-    .line 1
     aget v0, p1, p2
 
     add-int/lit8 v1, p2, 0x1
 
-    .line 2
     aget v1, p1, v1
 
     add-int/lit8 p2, p2, 0x2
 
-    .line 3
     aget p1, p1, p2
 
-    .line 4
     iget p2, p0, Lcom/google/ar/core/Quaternion;->x:F
 
-    .line 5
     iget v2, p0, Lcom/google/ar/core/Quaternion;->y:F
 
-    .line 6
     iget v3, p0, Lcom/google/ar/core/Quaternion;->z:F
 
-    .line 7
     iget p0, p0, Lcom/google/ar/core/Quaternion;->w:F
 
     mul-float v4, p0, v0
@@ -520,7 +469,6 @@
 
     sub-float/2addr p1, v3
 
-    .line 8
     aput p1, p3, p4
 
     add-int/lit8 p1, p4, 0x1
@@ -539,7 +487,6 @@
 
     sub-float/2addr v3, v7
 
-    .line 9
     aput v3, p3, p1
 
     add-int/lit8 p4, p4, 0x2
@@ -558,7 +505,6 @@
 
     sub-float/2addr v6, v5
 
-    .line 10
     aput v6, p3, p4
 
     return-void
@@ -569,7 +515,6 @@
 .method public final a()F
     .locals 1
 
-    .line 1
     iget v0, p0, Lcom/google/ar/core/Quaternion;->x:F
 
     return v0
@@ -578,12 +523,10 @@
 .method public final b(Lcom/google/ar/core/Quaternion;)Lcom/google/ar/core/Quaternion;
     .locals 11
 
-    .line 1
     new-instance v0, Lcom/google/ar/core/Quaternion;
 
     invoke-direct {v0}, Lcom/google/ar/core/Quaternion;-><init>()V
 
-    .line 2
     iget v1, p0, Lcom/google/ar/core/Quaternion;->x:F
 
     iget v2, p1, Lcom/google/ar/core/Quaternion;->w:F
@@ -616,7 +559,6 @@
 
     iput v1, v0, Lcom/google/ar/core/Quaternion;->x:F
 
-    .line 3
     iget v1, p0, Lcom/google/ar/core/Quaternion;->x:F
 
     neg-float v8, v1
@@ -639,7 +581,6 @@
 
     iput v8, v0, Lcom/google/ar/core/Quaternion;->y:F
 
-    .line 4
     iget v6, p1, Lcom/google/ar/core/Quaternion;->y:F
 
     mul-float v8, v1, v6
@@ -668,7 +609,6 @@
 
     sub-float/2addr v1, v9
 
-    .line 5
     iget v3, p0, Lcom/google/ar/core/Quaternion;->z:F
 
     iget p1, p1, Lcom/google/ar/core/Quaternion;->z:F
@@ -689,28 +629,24 @@
 .method public final f([FI)V
     .locals 2
 
-    .line 1
     iget v0, p0, Lcom/google/ar/core/Quaternion;->x:F
 
     aput v0, p1, p2
 
     add-int/lit8 v0, p2, 0x1
 
-    .line 2
     iget v1, p0, Lcom/google/ar/core/Quaternion;->y:F
 
     aput v1, p1, v0
 
     add-int/lit8 v0, p2, 0x2
 
-    .line 3
     iget v1, p0, Lcom/google/ar/core/Quaternion;->z:F
 
     aput v1, p1, v0
 
     add-int/lit8 p2, p2, 0x3
 
-    .line 4
     iget v0, p0, Lcom/google/ar/core/Quaternion;->w:F
 
     aput v0, p1, p2
@@ -721,7 +657,6 @@
 .method public final g([FII)V
     .locals 11
 
-    .line 1
     iget p3, p0, Lcom/google/ar/core/Quaternion;->x:F
 
     mul-float v0, p3, p3
@@ -785,28 +720,24 @@
 
     sub-float v4, v9, v4
 
-    .line 2
     aput v4, p1, p2
 
     add-int/lit8 v4, p2, 0x4
 
     sub-float v10, v8, v3
 
-    .line 3
     aput v10, p1, v4
 
     add-int/lit8 v4, p2, 0x8
 
     add-float v10, p3, v7
 
-    .line 4
     aput v10, p1, v4
 
     add-int/lit8 v4, p2, 0x1
 
     add-float/2addr v8, v3
 
-    .line 5
     aput v8, p1, v4
 
     add-int/lit8 v3, v4, 0x4
@@ -815,28 +746,24 @@
 
     sub-float v2, v9, v2
 
-    .line 6
     aput v2, p1, v3
 
     add-int/lit8 v4, v4, 0x8
 
     sub-float v2, v1, v6
 
-    .line 7
     aput v2, p1, v4
 
     add-int/lit8 p2, p2, 0x2
 
     sub-float/2addr p3, v7
 
-    .line 8
     aput p3, p1, p2
 
     add-int/lit8 p3, p2, 0x4
 
     add-float/2addr v1, v6
 
-    .line 9
     aput v1, p1, p3
 
     add-int/lit8 p2, p2, 0x8
@@ -845,7 +772,6 @@
 
     sub-float/2addr v9, v0
 
-    .line 10
     aput v9, p1, p2
 
     return-void
@@ -854,7 +780,6 @@
 .method public final h()F
     .locals 1
 
-    .line 1
     iget v0, p0, Lcom/google/ar/core/Quaternion;->y:F
 
     return v0
@@ -863,7 +788,6 @@
 .method public final i()F
     .locals 1
 
-    .line 1
     iget v0, p0, Lcom/google/ar/core/Quaternion;->z:F
 
     return v0
@@ -872,7 +796,6 @@
 .method public final j()F
     .locals 1
 
-    .line 1
     iget v0, p0, Lcom/google/ar/core/Quaternion;->w:F
 
     return v0
@@ -881,7 +804,6 @@
 .method public final k()Lcom/google/ar/core/Quaternion;
     .locals 5
 
-    .line 1
     new-instance v0, Lcom/google/ar/core/Quaternion;
 
     iget v1, p0, Lcom/google/ar/core/Quaternion;->x:F
@@ -910,7 +832,6 @@
 
     new-array v0, v0, [Ljava/lang/Object;
 
-    .line 1
     iget v1, p0, Lcom/google/ar/core/Quaternion;->x:F
 
     invoke-static {v1}, Ljava/lang/Float;->valueOf(F)Ljava/lang/Float;

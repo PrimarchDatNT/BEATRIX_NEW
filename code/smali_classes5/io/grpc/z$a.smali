@@ -48,10 +48,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Lio/grpc/z;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lio/grpc/z$a;->a:Lio/grpc/k1;
 
     return-void
@@ -62,7 +60,6 @@
 .method public bridge synthetic a(Lio/grpc/Status;Lio/grpc/y0;)V
     .locals 0
 
-    .line 1
     invoke-super {p0, p1, p2}, Lio/grpc/z;->a(Lio/grpc/Status;Lio/grpc/y0;)V
 
     return-void
@@ -74,7 +71,6 @@
         value = "https://github.com/grpc/grpc-java/issues/1779"
     .end annotation
 
-    .line 1
     invoke-super {p0}, Lio/grpc/z;->b()Lio/grpc/a;
 
     move-result-object v0
@@ -85,7 +81,6 @@
 .method public bridge synthetic c()Ljava/lang/String;
     .locals 1
 
-    .line 1
     invoke-super {p0}, Lio/grpc/z;->c()Ljava/lang/String;
 
     move-result-object v0
@@ -103,7 +98,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lio/grpc/z$a;->a:Lio/grpc/k1;
 
     invoke-virtual {v0}, Lio/grpc/k1;->d()Lio/grpc/MethodDescriptor;
@@ -116,7 +110,6 @@
 .method public bridge synthetic e()Z
     .locals 1
 
-    .line 1
     invoke-super {p0}, Lio/grpc/z;->e()Z
 
     move-result v0
@@ -127,7 +120,6 @@
 .method public bridge synthetic f()Z
     .locals 1
 
-    .line 1
     invoke-super {p0}, Lio/grpc/z;->f()Z
 
     move-result v0
@@ -138,7 +130,6 @@
 .method public bridge synthetic g(I)V
     .locals 0
 
-    .line 1
     invoke-super {p0, p1}, Lio/grpc/z;->g(I)V
 
     return-void
@@ -147,7 +138,6 @@
 .method public bridge synthetic h(Lio/grpc/y0;)V
     .locals 0
 
-    .line 1
     invoke-super {p0, p1}, Lio/grpc/z;->h(Lio/grpc/y0;)V
 
     return-void
@@ -159,7 +149,6 @@
         value = "https://github.com/grpc/grpc-java/issues/1704"
     .end annotation
 
-    .line 1
     invoke-super {p0, p1}, Lio/grpc/z;->j(Ljava/lang/String;)V
 
     return-void
@@ -171,7 +160,6 @@
         value = "https://github.com/grpc/grpc-java/issues/1703"
     .end annotation
 
-    .line 1
     invoke-super {p0, p1}, Lio/grpc/z;->k(Z)V
 
     return-void
@@ -187,7 +175,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lio/grpc/z$a;->a:Lio/grpc/k1;
 
     return-object v0
@@ -196,7 +183,6 @@
 .method public bridge synthetic toString()Ljava/lang/String;
     .locals 1
 
-    .line 1
     invoke-super {p0}, Lio/grpc/z;->toString()Ljava/lang/String;
 
     move-result-object v0

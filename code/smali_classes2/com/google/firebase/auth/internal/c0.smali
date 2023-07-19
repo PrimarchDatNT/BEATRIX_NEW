@@ -12,10 +12,8 @@
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
-    .line 1
     invoke-static {p0}, Lcom/google/android/gms/common/internal/b0;->k(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 2
     const-class v0, Lcom/google/firebase/auth/GoogleAuthCredential;
 
     invoke-virtual {p0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
@@ -28,17 +26,14 @@
 
     if-eqz v0, :cond_0
 
-    .line 3
     check-cast p0, Lcom/google/firebase/auth/GoogleAuthCredential;
 
-    .line 4
     invoke-static {p0, p1}, Lcom/google/firebase/auth/GoogleAuthCredential;->A(Lcom/google/firebase/auth/GoogleAuthCredential;Ljava/lang/String;)Lcom/google/android/gms/internal/firebase_auth/zzfm;
 
     move-result-object p0
 
     return-object p0
 
-    .line 5
     :cond_0
     const-class v0, Lcom/google/firebase/auth/FacebookAuthCredential;
 
@@ -52,17 +47,14 @@
 
     if-eqz v0, :cond_1
 
-    .line 6
     check-cast p0, Lcom/google/firebase/auth/FacebookAuthCredential;
 
-    .line 7
     invoke-static {p0, p1}, Lcom/google/firebase/auth/FacebookAuthCredential;->A(Lcom/google/firebase/auth/FacebookAuthCredential;Ljava/lang/String;)Lcom/google/android/gms/internal/firebase_auth/zzfm;
 
     move-result-object p0
 
     return-object p0
 
-    .line 8
     :cond_1
     const-class v0, Lcom/google/firebase/auth/TwitterAuthCredential;
 
@@ -76,17 +68,14 @@
 
     if-eqz v0, :cond_2
 
-    .line 9
     check-cast p0, Lcom/google/firebase/auth/TwitterAuthCredential;
 
-    .line 10
     invoke-static {p0, p1}, Lcom/google/firebase/auth/TwitterAuthCredential;->A(Lcom/google/firebase/auth/TwitterAuthCredential;Ljava/lang/String;)Lcom/google/android/gms/internal/firebase_auth/zzfm;
 
     move-result-object p0
 
     return-object p0
 
-    .line 11
     :cond_2
     const-class v0, Lcom/google/firebase/auth/GithubAuthCredential;
 
@@ -100,17 +89,14 @@
 
     if-eqz v0, :cond_3
 
-    .line 12
     check-cast p0, Lcom/google/firebase/auth/GithubAuthCredential;
 
-    .line 13
     invoke-static {p0, p1}, Lcom/google/firebase/auth/GithubAuthCredential;->A(Lcom/google/firebase/auth/GithubAuthCredential;Ljava/lang/String;)Lcom/google/android/gms/internal/firebase_auth/zzfm;
 
     move-result-object p0
 
     return-object p0
 
-    .line 14
     :cond_3
     const-class v0, Lcom/google/firebase/auth/PlayGamesAuthCredential;
 
@@ -124,17 +110,14 @@
 
     if-eqz v0, :cond_4
 
-    .line 15
     check-cast p0, Lcom/google/firebase/auth/PlayGamesAuthCredential;
 
-    .line 16
     invoke-static {p0, p1}, Lcom/google/firebase/auth/PlayGamesAuthCredential;->A(Lcom/google/firebase/auth/PlayGamesAuthCredential;Ljava/lang/String;)Lcom/google/android/gms/internal/firebase_auth/zzfm;
 
     move-result-object p0
 
     return-object p0
 
-    .line 17
     :cond_4
     const-class v0, Lcom/google/firebase/auth/zzf;
 
@@ -148,17 +131,14 @@
 
     if-eqz v0, :cond_5
 
-    .line 18
     check-cast p0, Lcom/google/firebase/auth/zzf;
 
-    .line 19
     invoke-static {p0, p1}, Lcom/google/firebase/auth/zzf;->Q(Lcom/google/firebase/auth/zzf;Ljava/lang/String;)Lcom/google/android/gms/internal/firebase_auth/zzfm;
 
     move-result-object p0
 
     return-object p0
 
-    .line 20
     :cond_5
     new-instance p0, Ljava/lang/IllegalArgumentException;
 

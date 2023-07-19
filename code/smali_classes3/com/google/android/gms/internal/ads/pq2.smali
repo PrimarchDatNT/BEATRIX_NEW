@@ -11,10 +11,8 @@
 .method public constructor <init>(Lcom/google/android/gms/ads/formats/h;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/google/android/gms/internal/ads/o4;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/google/android/gms/internal/ads/pq2;->b:Lcom/google/android/gms/ads/formats/h;
 
     return-void
@@ -30,7 +28,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/pq2;->b:Lcom/google/android/gms/ads/formats/h;
 
     invoke-static {p1}, Lcom/google/android/gms/dynamic/f;->B0(Lcom/google/android/gms/dynamic/d;)Ljava/lang/Object;

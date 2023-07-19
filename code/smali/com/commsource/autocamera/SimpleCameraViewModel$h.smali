@@ -34,19 +34,14 @@
 .method constructor <init>(IJLcom/meitu/library/camera/MTCamera$t;Lcom/meitu/library/camera/p/d/f;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput p1, p0, Lcom/commsource/autocamera/SimpleCameraViewModel$h;->b:I
 
-    .line 3
     iput-wide p2, p0, Lcom/commsource/autocamera/SimpleCameraViewModel$h;->a:J
 
-    .line 4
     iput-object p5, p0, Lcom/commsource/autocamera/SimpleCameraViewModel$h;->c:Lcom/meitu/library/camera/p/d/f;
 
-    .line 5
     iput-object p4, p0, Lcom/commsource/autocamera/SimpleCameraViewModel$h;->d:Lcom/meitu/library/camera/MTCamera$t;
 
     return-void
@@ -61,7 +56,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/autocamera/SimpleCameraViewModel$h;->b:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -76,7 +70,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/commsource/autocamera/SimpleCameraViewModel$h;->a:J
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -91,7 +84,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/autocamera/SimpleCameraViewModel$h;->c:Lcom/meitu/library/camera/p/d/f;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -106,7 +98,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/autocamera/SimpleCameraViewModel$h;->d:Lcom/meitu/library/camera/MTCamera$t;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

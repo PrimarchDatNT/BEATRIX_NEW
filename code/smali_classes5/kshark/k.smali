@@ -11,7 +11,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -24,7 +23,6 @@
 
     if-eqz p3, :cond_1
 
-    .line 1
     invoke-virtual {p1}, Ljava/io/File;->getParent()Ljava/lang/String;
 
     move-result-object p2
@@ -51,7 +49,6 @@
 
     move-result-object p3
 
-    .line 2
     invoke-virtual {p1}, Ljava/io/File;->getName()Ljava/lang/String;
 
     move-result-object p4
@@ -85,7 +82,6 @@
 
     move-result-object p3
 
-    .line 3
     :goto_0
     new-instance p4, Ljava/io/File;
 
@@ -124,40 +120,33 @@
 
     invoke-static {p2, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     sget-object v0, Lkshark/Hprof;->J:Lkshark/Hprof$a;
 
     invoke-virtual {v0, p1}, Lkshark/Hprof$a;->a(Ljava/io/File;)Lkshark/Hprof;
 
     move-result-object p1
 
-    .line 2
     :try_start_0
     invoke-virtual {p1}, Lkshark/Hprof;->e()Lkshark/l;
 
     move-result-object v0
 
-    .line 3
     sget-object v1, Lkshark/HprofWriter;->f:Lkshark/HprofWriter$a;
 
-    .line 4
     invoke-virtual {v0}, Lkshark/l;->b()I
 
     move-result v2
 
-    .line 5
     invoke-virtual {p1}, Lkshark/Hprof;->d()Lkshark/Hprof$HprofVersion;
 
     move-result-object v3
 
-    .line 6
     invoke-virtual {v1, p2, v2, v3}, Lkshark/HprofWriter$a;->a(Ljava/io/File;ILkshark/Hprof$HprofVersion;)Lkshark/HprofWriter;
 
     move-result-object v1
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_2
 
-    .line 7
     :try_start_1
     const-class v2, Lkshark/m;
 
@@ -169,31 +158,25 @@
 
     move-result-object v2
 
-    .line 8
     sget-object v3, Lkshark/w;->a:Lkshark/w$a;
 
-    .line 9
     new-instance v3, Lkshark/k$a;
 
     invoke-direct {v3, v1}, Lkshark/k$a;-><init>(Lkshark/HprofWriter;)V
 
-    .line 10
     invoke-virtual {v0, v2, v3}, Lkshark/l;->r(Ljava/util/Set;Lkshark/w;)V
 
-    .line 11
     sget-object v0, Lcotlin/t1;->a:Lcotlin/t1;
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
     const/4 v0, 0x0
 
-    .line 12
     :try_start_2
     invoke-static {v1, v0}, Lcotlin/io/b;->a(Ljava/io/Closeable;Ljava/lang/Throwable;)V
     :try_end_2
     .catchall {:try_start_2 .. :try_end_2} :catchall_2
 
-    .line 13
     invoke-static {p1, v0}, Lcotlin/io/b;->a(Ljava/io/Closeable;Ljava/lang/Throwable;)V
 
     return-object p2
@@ -201,7 +184,6 @@
     :catchall_0
     move-exception p2
 
-    .line 14
     :try_start_3
     throw p2
     :try_end_3
@@ -220,7 +202,6 @@
     :catchall_2
     move-exception p2
 
-    .line 15
     :try_start_5
     throw p2
     :try_end_5

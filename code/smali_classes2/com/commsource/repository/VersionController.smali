@@ -44,14 +44,12 @@
 
     invoke-static {p2, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     iput p1, p0, Lcom/commsource/repository/VersionController;->e:I
 
     iput-object p2, p0, Lcom/commsource/repository/VersionController;->f:Ljava/lang/String;
 
-    .line 2
     new-instance p1, Ljava/lang/StringBuilder;
 
     invoke-direct {p1}, Ljava/lang/StringBuilder;-><init>()V
@@ -68,7 +66,6 @@
 
     iput-object p1, p0, Lcom/commsource/repository/VersionController;->a:Ljava/lang/String;
 
-    .line 3
     sget-object p1, Lcom/commsource/repository/VersionController$sp$2;->INSTANCE:Lcom/commsource/repository/VersionController$sp$2;
 
     invoke-static {p1}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
@@ -77,7 +74,6 @@
 
     iput-object p1, p0, Lcom/commsource/repository/VersionController;->b:Lcotlin/w;
 
-    .line 4
     new-instance p1, Lcom/commsource/repository/VersionController$currentVersionCode$2;
 
     invoke-direct {p1, p0}, Lcom/commsource/repository/VersionController$currentVersionCode$2;-><init>(Lcom/commsource/repository/VersionController;)V
@@ -88,7 +84,6 @@
 
     iput-object p1, p0, Lcom/commsource/repository/VersionController;->c:Lcotlin/w;
 
-    .line 5
     new-instance p1, Ljava/util/ArrayList;
 
     invoke-direct {p1}, Ljava/util/ArrayList;-><init>()V
@@ -101,7 +96,6 @@
 .method public static final synthetic e(Lcom/commsource/repository/VersionController;)Lcom/commsource/util/common/l;
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/repository/VersionController;->k()Lcom/commsource/util/common/l;
 
     move-result-object p0
@@ -112,7 +106,6 @@
 .method public static final synthetic f(Lcom/commsource/repository/VersionController;)Ljava/lang/String;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/repository/VersionController;->a:Ljava/lang/String;
 
     return-object p0
@@ -155,7 +148,6 @@
 .method public final g()V
     .locals 4
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -198,7 +190,6 @@
 
     invoke-static {v0, v1, v2, v3, v2}, Lcom/commsource/util/l0;->L(Ljava/lang/String;Ljava/lang/String;Lcom/meitu/library/util/Debug/Debug$DebugLevel;ILjava/lang/Object;)V
 
-    .line 2
     invoke-direct {p0}, Lcom/commsource/repository/VersionController;->i()I
 
     move-result v0
@@ -209,20 +200,17 @@
 
     return-void
 
-    .line 3
     :cond_0
     iget-object v0, p0, Lcom/commsource/repository/VersionController;->d:Ljava/util/ArrayList;
 
     invoke-virtual {p0, v0}, Lcom/commsource/repository/VersionController;->l(Ljava/util/List;)V
 
-    .line 4
     iget-object v0, p0, Lcom/commsource/repository/VersionController;->d:Ljava/util/ArrayList;
 
     sget-object v1, Lcom/commsource/repository/VersionController$a;->a:Lcom/commsource/repository/VersionController$a;
 
     invoke-static {v0, v1}, Lcotlin/collections/s;->p0(Ljava/util/List;Ljava/util/Comparator;)V
 
-    .line 5
     iget-object v0, p0, Lcom/commsource/repository/VersionController;->d:Ljava/util/ArrayList;
 
     invoke-virtual {v0}, Ljava/util/ArrayList;->iterator()Ljava/util/Iterator;
@@ -242,7 +230,6 @@
 
     check-cast v1, Lcom/commsource/repository/h;
 
-    .line 6
     invoke-direct {p0}, Lcom/commsource/repository/VersionController;->i()I
 
     move-result v2
@@ -251,7 +238,6 @@
 
     goto :goto_0
 
-    .line 7
     :cond_1
     invoke-direct {p0}, Lcom/commsource/repository/VersionController;->k()Lcom/commsource/util/common/l;
 
@@ -263,7 +249,6 @@
 
     invoke-virtual {v0, v1, v2}, Lcom/commsource/util/common/l;->F(Ljava/lang/String;I)Z
 
-    .line 8
     iget-object v0, p0, Lcom/commsource/repository/VersionController;->d:Ljava/util/ArrayList;
 
     invoke-virtual {v0}, Ljava/util/ArrayList;->clear()V
@@ -274,7 +259,6 @@
 .method public final h()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lcom/commsource/repository/VersionController;->e:I
 
     return v0
@@ -285,7 +269,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/repository/VersionController;->f:Ljava/lang/String;
 
     return-object v0

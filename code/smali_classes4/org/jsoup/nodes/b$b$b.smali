@@ -32,7 +32,6 @@
 .method private constructor <init>(Lorg/jsoup/nodes/b$b;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lorg/jsoup/nodes/b$b$b;->a:Lorg/jsoup/nodes/b$b;
 
     invoke-direct {p0}, Ljava/util/AbstractSet;-><init>()V
@@ -43,7 +42,6 @@
 .method synthetic constructor <init>(Lorg/jsoup/nodes/b$b;Lorg/jsoup/nodes/b$a;)V
     .locals 0
 
-    .line 2
     invoke-direct {p0, p1}, Lorg/jsoup/nodes/b$b$b;-><init>(Lorg/jsoup/nodes/b$b;)V
 
     return-void
@@ -64,7 +62,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lorg/jsoup/nodes/b$b$a;
 
     iget-object v1, p0, Lorg/jsoup/nodes/b$b$b;->a:Lorg/jsoup/nodes/b$b;
@@ -79,7 +76,6 @@
 .method public size()I
     .locals 3
 
-    .line 1
     new-instance v0, Lorg/jsoup/nodes/b$b$a;
 
     iget-object v1, p0, Lorg/jsoup/nodes/b$b$b;->a:Lorg/jsoup/nodes/b$b;
@@ -90,7 +86,6 @@
 
     const/4 v1, 0x0
 
-    .line 2
     :goto_0
     invoke-interface {v0}, Ljava/util/Iterator;->hasNext()Z
 

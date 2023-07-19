@@ -18,7 +18,6 @@
 .method public static final synthetic W0(Ljava/util/List;I)I
     .locals 0
 
-    .line 1
     invoke-static {p0, p1}, Lcotlin/collections/z;->a1(Ljava/util/List;I)I
 
     move-result p0
@@ -29,7 +28,6 @@
 .method public static final synthetic X0(Ljava/util/List;I)I
     .locals 0
 
-    .line 1
     invoke-static {p0, p1}, Lcotlin/collections/z;->b1(Ljava/util/List;I)I
 
     move-result p0
@@ -62,7 +60,6 @@
 
     invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     new-instance v0, Lcotlin/collections/z0;
 
     invoke-direct {v0, p0}, Lcotlin/collections/z0;-><init>(Ljava/util/List;)V
@@ -99,7 +96,6 @@
 
     invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     new-instance v0, Lcotlin/collections/y0;
 
     invoke-direct {v0, p0}, Lcotlin/collections/y0;-><init>(Ljava/util/List;)V
@@ -117,7 +113,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p0}, Lcotlin/collections/s;->G(Ljava/util/List;)I
 
     move-result v0
@@ -186,7 +181,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-interface {p0}, Ljava/util/List;->size()I
 
     move-result v0

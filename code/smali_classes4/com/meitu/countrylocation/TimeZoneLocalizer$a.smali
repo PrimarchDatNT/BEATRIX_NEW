@@ -25,7 +25,6 @@
 .method constructor <init>(Lcom/meitu/countrylocation/TimeZoneLocalizer;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/countrylocation/TimeZoneLocalizer$a;->a:Lcom/meitu/countrylocation/TimeZoneLocalizer;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -42,7 +41,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     :try_start_0
     iget-object v1, p0, Lcom/meitu/countrylocation/TimeZoneLocalizer$a;->a:Lcom/meitu/countrylocation/TimeZoneLocalizer;
 
@@ -62,12 +60,10 @@
 
     new-array v2, v2, [B
 
-    .line 2
     new-instance v3, Ljava/lang/StringBuilder;
 
     invoke-direct {v3}, Ljava/lang/StringBuilder;-><init>()V
 
-    .line 3
     :goto_0
     invoke-virtual {v1, v2}, Ljava/io/InputStream;->read([B)I
 
@@ -75,7 +71,6 @@
 
     if-lez v4, :cond_0
 
-    .line 4
     new-instance v5, Ljava/lang/String;
 
     const/4 v6, 0x0
@@ -90,7 +85,6 @@
 
     goto :goto_0
 
-    .line 5
     :cond_0
     new-instance v1, Lorg/json/JSONObject;
 
@@ -100,7 +94,6 @@
 
     invoke-direct {v1, v2}, Lorg/json/JSONObject;-><init>(Ljava/lang/String;)V
 
-    .line 6
     invoke-static {}, Ljava/util/TimeZone;->getDefault()Ljava/util/TimeZone;
 
     move-result-object v2
@@ -109,38 +102,32 @@
 
     move-result-object v2
 
-    .line 7
     invoke-virtual {v1, v2}, Lorg/json/JSONObject;->isNull(Ljava/lang/String;)Z
 
     move-result v3
 
     if-eqz v3, :cond_1
 
-    .line 8
     iget-object v1, p0, Lcom/meitu/countrylocation/TimeZoneLocalizer$a;->a:Lcom/meitu/countrylocation/TimeZoneLocalizer;
 
     invoke-virtual {v1}, Lcom/meitu/countrylocation/Localizer;->e()V
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
-    .line 9
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 10
     :cond_1
     :try_start_1
     new-instance v3, Lcom/google/gson/Gson;
 
     invoke-direct {v3}, Lcom/google/gson/Gson;-><init>()V
 
-    .line 11
     invoke-virtual {v1, v2}, Lorg/json/JSONObject;->getString(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v4
 
-    .line 12
     invoke-virtual {v1, v2}, Lorg/json/JSONObject;->getString(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v1
@@ -153,14 +140,12 @@
 
     check-cast v1, Lcom/meitu/countrylocation/LocationBean;
 
-    .line 13
     iget-object v2, p0, Lcom/meitu/countrylocation/TimeZoneLocalizer$a;->a:Lcom/meitu/countrylocation/TimeZoneLocalizer;
 
     sget-object v3, Lcom/meitu/countrylocation/Localizer$Type;->TIMEZONE:Lcom/meitu/countrylocation/Localizer$Type;
 
     invoke-virtual {v2, v3, v4, v1}, Lcom/meitu/countrylocation/Localizer;->f(Lcom/meitu/countrylocation/Localizer$Type;Ljava/lang/String;Lcom/meitu/countrylocation/LocationBean;)V
 
-    .line 14
     iget-object v2, p0, Lcom/meitu/countrylocation/TimeZoneLocalizer$a;->a:Lcom/meitu/countrylocation/TimeZoneLocalizer;
 
     invoke-virtual {v1}, Lcom/meitu/countrylocation/LocationBean;->getCountry_code()Ljava/lang/String;
@@ -171,7 +156,6 @@
 
     move-result-object v1
 
-    .line 15
     new-instance v2, Lcom/meitu/countrylocation/d;
 
     invoke-direct {v2}, Lcom/meitu/countrylocation/d;-><init>()V
@@ -197,15 +181,12 @@
     :catch_0
     move-exception v1
 
-    .line 16
     invoke-virtual {v1}, Ljava/lang/Exception;->printStackTrace()V
 
-    .line 17
     iget-object v1, p0, Lcom/meitu/countrylocation/TimeZoneLocalizer$a;->a:Lcom/meitu/countrylocation/TimeZoneLocalizer;
 
     invoke-virtual {v1}, Lcom/meitu/countrylocation/Localizer;->e()V
 
-    .line 18
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

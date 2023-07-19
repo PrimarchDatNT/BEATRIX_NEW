@@ -35,7 +35,6 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     iput-object p1, p0, Lcom/commsource/studio/g;->c:Landroid/graphics/Bitmap;
@@ -54,7 +53,6 @@
 
     const/4 p2, 0x1
 
-    .line 2
     :cond_0
     invoke-direct {p0, p1, p2}, Lcom/commsource/studio/g;-><init>(Landroid/graphics/Bitmap;Z)V
 
@@ -78,29 +76,23 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/g;->c:Landroid/graphics/Bitmap;
 
     if-nez v1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 3
     :cond_0
     iput-object p1, p0, Lcom/commsource/studio/g;->b:Ljava/lang/String;
 
-    .line 4
     invoke-static {v1, p1}, Lcom/meitu/core/util/CacheUtil;->androidBitmap2Cache(Landroid/graphics/Bitmap;Ljava/lang/String;)Z
 
-    .line 5
     iget-boolean p1, p0, Lcom/commsource/studio/g;->d:Z
 
     if-eqz p1, :cond_2
 
-    .line 6
     new-instance p1, Ljava/lang/ref/WeakReference;
 
     iget-object v1, p0, Lcom/commsource/studio/g;->c:Landroid/graphics/Bitmap;
@@ -117,10 +109,8 @@
     :cond_2
     const/4 p1, 0x0
 
-    .line 7
     iput-object p1, p0, Lcom/commsource/studio/g;->c:Landroid/graphics/Bitmap;
 
-    .line 8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -135,7 +125,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/g;->c:Landroid/graphics/Bitmap;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -150,7 +139,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/studio/g;->d:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -167,7 +155,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/g;->a:Ljava/lang/ref/WeakReference;
 
     if-eqz v1, :cond_0
@@ -188,7 +175,6 @@
 
     if-nez v1, :cond_1
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/g;->b:Ljava/lang/String;
 
     invoke-static {v1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
@@ -197,7 +183,6 @@
 
     if-nez v1, :cond_1
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/studio/g;->b:Ljava/lang/String;
 
     invoke-static {v1}, Lcom/meitu/core/util/CacheUtil;->cache2AndroidBitmap(Ljava/lang/String;)Landroid/graphics/Bitmap;
@@ -206,7 +191,6 @@
 
     iput-object v1, p0, Lcom/commsource/studio/g;->c:Landroid/graphics/Bitmap;
 
-    .line 4
     :cond_1
     iget-object v1, p0, Lcom/commsource/studio/g;->c:Landroid/graphics/Bitmap;
 
@@ -226,7 +210,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/g;->c:Landroid/graphics/Bitmap;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -241,7 +224,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/studio/g;->d:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

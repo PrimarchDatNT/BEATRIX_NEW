@@ -25,7 +25,6 @@
 .method constructor <init>(Lcom/sdk/imp/InterstitialActivity;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/sdk/imp/InterstitialActivity$b;->a:Lcom/sdk/imp/InterstitialActivity;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -38,12 +37,10 @@
 .method public onClick(Landroid/view/View;)V
     .locals 0
 
-    .line 1
     iget-object p1, p0, Lcom/sdk/imp/InterstitialActivity$b;->a:Lcom/sdk/imp/InterstitialActivity;
 
     invoke-static {p1}, Lcom/sdk/imp/InterstitialActivity;->c(Lcom/sdk/imp/InterstitialActivity;)V
 
-    .line 2
     iget-object p1, p0, Lcom/sdk/imp/InterstitialActivity$b;->a:Lcom/sdk/imp/InterstitialActivity;
 
     invoke-virtual {p1}, Landroid/app/Activity;->finish()V

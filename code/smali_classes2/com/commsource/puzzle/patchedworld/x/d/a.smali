@@ -15,7 +15,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     const-class v1, Lcom/commsource/puzzle/patchedworld/x/d/a;
 
     invoke-virtual {v1}, Ljava/lang/Class;->getSimpleName()Ljava/lang/String;
@@ -32,7 +31,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -45,7 +43,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     :try_start_0
     new-instance v1, Ljava/lang/StringBuilder;
 
@@ -65,7 +62,6 @@
 
     move-result-object p0
 
-    .line 2
     new-instance v1, Landroid/content/Intent;
 
     const-string v2, "android.intent.action.MEDIA_SCANNER_SCAN_FILE"
@@ -81,10 +77,8 @@
     :catch_0
     move-exception p0
 
-    .line 3
     invoke-static {p0}, Lcom/meitu/library/util/Debug/Debug;->q(Ljava/lang/Throwable;)V
 
-    .line 4
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -98,13 +92,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p0, p1}, Lcom/commsource/puzzle/patchedworld/x/d/a;->d(Ljava/lang/String;Landroid/content/Context;)Landroid/net/Uri;
 
-    .line 2
     invoke-static {p0, p1}, Lcom/commsource/puzzle/patchedworld/x/d/a;->a(Ljava/lang/String;Landroid/content/Context;)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -120,7 +111,6 @@
     :try_start_0
     const-string v1, "/"
 
-    .line 1
     invoke-virtual {p0, v1}, Ljava/lang/String;->lastIndexOf(Ljava/lang/String;)I
 
     move-result v1
@@ -133,38 +123,32 @@
 
     move-result-object p0
 
-    .line 2
     new-instance v1, Landroid/content/ContentValues;
 
     invoke-direct {v1}, Landroid/content/ContentValues;-><init>()V
 
     const-string v3, "title"
 
-    .line 3
     invoke-virtual {v1, v3, p0}, Landroid/content/ContentValues;->put(Ljava/lang/String;Ljava/lang/String;)V
 
     const-string v3, "_display_name"
 
-    .line 4
     invoke-virtual {v1, v3, p0}, Landroid/content/ContentValues;->put(Ljava/lang/String;Ljava/lang/String;)V
 
     const-string p0, "mime_type"
 
     const-string v3, "video/mp4"
 
-    .line 5
     invoke-virtual {v1, p0, v3}, Landroid/content/ContentValues;->put(Ljava/lang/String;Ljava/lang/String;)V
 
     const-string p0, "relative_path"
 
     const-string v3, "DCIM/Camera"
 
-    .line 6
     invoke-virtual {v1, p0, v3}, Landroid/content/ContentValues;->put(Ljava/lang/String;Ljava/lang/String;)V
 
     const-string p0, "duration"
 
-    .line 7
     invoke-static {p1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object p1
@@ -173,7 +157,6 @@
 
     if-eqz p2, :cond_0
 
-    .line 8
     array-length p0, p2
 
     const/4 p1, 0x2
@@ -182,7 +165,6 @@
 
     const-string p0, "resolution"
 
-    .line 9
     new-instance p1, Ljava/lang/StringBuilder;
 
     invoke-direct {p1}, Ljava/lang/StringBuilder;-><init>()V
@@ -210,7 +192,6 @@
     :cond_0
     const-string p0, "datetaken"
 
-    .line 10
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide p1
@@ -221,7 +202,6 @@
 
     invoke-virtual {v1, p0, p1}, Landroid/content/ContentValues;->put(Ljava/lang/String;Ljava/lang/Long;)V
 
-    .line 11
     invoke-virtual {p3}, Landroid/content/Context;->getContentResolver()Landroid/content/ContentResolver;
 
     move-result-object p0
@@ -235,7 +215,6 @@
     .catch Landroid/database/sqlite/SQLiteException; {:try_start_0 .. :try_end_0} :catch_1
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
-    .line 12
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
@@ -243,14 +222,12 @@
     :catch_0
     move-exception p0
 
-    .line 13
     sget-object p1, Lcom/commsource/puzzle/patchedworld/x/d/a;->a:Ljava/lang/String;
 
     const-string p2, ">>>>insertMedia error Exception"
 
     invoke-static {p1, p2}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 14
     invoke-static {p1, p0}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/Throwable;)I
 
     goto :goto_0
@@ -258,20 +235,17 @@
     :catch_1
     move-exception p0
 
-    .line 15
     sget-object p1, Lcom/commsource/puzzle/patchedworld/x/d/a;->a:Ljava/lang/String;
 
     const-string p2, ">>>>insertMedia error SQLiteException"
 
     invoke-static {p1, p2}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 16
     invoke-static {p1, p0}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/Throwable;)I
 
     :goto_0
     const/4 p0, 0x0
 
-    .line 17
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
@@ -287,7 +261,6 @@
     :try_start_0
     const-string v1, "/"
 
-    .line 1
     invoke-virtual {p0, v1}, Ljava/lang/String;->lastIndexOf(Ljava/lang/String;)I
 
     move-result v1
@@ -298,24 +271,20 @@
 
     move-result-object p0
 
-    .line 2
     new-instance v1, Landroid/content/ContentValues;
 
     invoke-direct {v1}, Landroid/content/ContentValues;-><init>()V
 
     const-string v2, "title"
 
-    .line 3
     invoke-virtual {v1, v2, p0}, Landroid/content/ContentValues;->put(Ljava/lang/String;Ljava/lang/String;)V
 
     const-string v2, "_display_name"
 
-    .line 4
     invoke-virtual {v1, v2, p0}, Landroid/content/ContentValues;->put(Ljava/lang/String;Ljava/lang/String;)V
 
     const-string p0, "Meizu"
 
-    .line 5
     sget-object v2, Landroid/os/Build;->MANUFACTURER:Ljava/lang/String;
 
     invoke-virtual {p0, v2}, Ljava/lang/String;->equalsIgnoreCase(Ljava/lang/String;)Z
@@ -328,7 +297,6 @@
 
     const-string v2, "image/jpg"
 
-    .line 6
     invoke-virtual {v1, p0, v2}, Landroid/content/ContentValues;->put(Ljava/lang/String;Ljava/lang/String;)V
 
     :cond_0
@@ -336,12 +304,10 @@
 
     const-string v2, "DCIM/Camera"
 
-    .line 7
     invoke-virtual {v1, p0, v2}, Landroid/content/ContentValues;->put(Ljava/lang/String;Ljava/lang/String;)V
 
     const-string p0, "datetaken"
 
-    .line 8
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v2
@@ -352,7 +318,6 @@
 
     invoke-virtual {v1, p0, v2}, Landroid/content/ContentValues;->put(Ljava/lang/String;Ljava/lang/Long;)V
 
-    .line 9
     invoke-virtual {p1}, Landroid/content/Context;->getContentResolver()Landroid/content/ContentResolver;
 
     move-result-object p0
@@ -370,12 +335,10 @@
     :catch_0
     move-exception p0
 
-    .line 10
     invoke-virtual {p0}, Ljava/lang/Exception;->printStackTrace()V
 
     const/4 p0, 0x0
 
-    .line 11
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

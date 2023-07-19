@@ -68,16 +68,12 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/google/common/collect/MapMakerInternalMap$b;->a:Ljava/lang/Object;
 
-    .line 3
     iput p2, p0, Lcom/google/common/collect/MapMakerInternalMap$b;->b:I
 
-    .line 4
     iput-object p3, p0, Lcom/google/common/collect/MapMakerInternalMap$b;->c:Lcom/google/common/collect/MapMakerInternalMap$i;
 
     return-void
@@ -88,7 +84,6 @@
 .method public getHash()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lcom/google/common/collect/MapMakerInternalMap$b;->b:I
 
     return v0
@@ -102,7 +97,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/MapMakerInternalMap$b;->a:Ljava/lang/Object;
 
     return-object v0
@@ -116,7 +110,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/MapMakerInternalMap$b;->c:Lcom/google/common/collect/MapMakerInternalMap$i;
 
     return-object v0

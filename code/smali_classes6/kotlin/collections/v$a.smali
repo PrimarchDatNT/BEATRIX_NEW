@@ -43,7 +43,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcotlin/collections/v$a;->a:Ljava/util/Enumeration;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -56,7 +55,6 @@
 .method public hasNext()Z
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcotlin/collections/v$a;->a:Ljava/util/Enumeration;
 
     invoke-interface {v0}, Ljava/util/Enumeration;->hasMoreElements()Z
@@ -74,7 +72,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcotlin/collections/v$a;->a:Ljava/util/Enumeration;
 
     invoke-interface {v0}, Ljava/util/Enumeration;->nextElement()Ljava/lang/Object;

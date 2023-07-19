@@ -21,7 +21,6 @@
 .method constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -32,7 +31,6 @@
 .method public a(Ljava/lang/String;Ljava/net/InetAddress;ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/net/PasswordAuthentication;
     .locals 9
 
-    .line 1
     :try_start_0
     new-instance v0, Ljava/net/URL;
 
@@ -44,7 +42,6 @@
 
     goto :goto_0
 
-    .line 2
     :catch_0
     invoke-static {}, Lio/grpc/internal/z1;->b()Ljava/util/logging/Logger;
 
@@ -66,12 +63,10 @@
 
     const-string v3, "failed to create URL for Authenticator: %s %s"
 
-    .line 3
     invoke-static {v3, v2}, Ljava/lang/String;->format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object v2
 
-    .line 4
     invoke-virtual {v0, v1, v2}, Ljava/util/logging/Logger;->log(Ljava/util/logging/Level;Ljava/lang/String;)V
 
     const/4 v0, 0x0
@@ -79,7 +74,6 @@
     :goto_0
     move-object v7, v0
 
-    .line 5
     sget-object v8, Ljava/net/Authenticator$RequestorType;->PROXY:Ljava/net/Authenticator$RequestorType;
 
     move-object v1, p1

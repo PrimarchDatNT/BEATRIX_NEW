@@ -36,7 +36,6 @@
 
     iput-boolean p3, p0, Lcom/commsource/repository/child/makeup/MakeupMaterialRepository$d;->c:Z
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -51,12 +50,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/repository/child/makeup/MakeupMaterialRepository$d;->a:Lcom/commsource/repository/child/makeup/h;
 
     invoke-virtual {v1, p1}, Lcom/commsource/repository/child/makeup/h;->m0(I)V
 
-    .line 2
     sget-object p1, Lcom/commsource/repository/child/makeup/MakeupMaterialRepository;->E:Lcom/commsource/repository/child/makeup/MakeupMaterialRepository;
 
     invoke-virtual {p1}, Lcom/commsource/repository/child/makeup/MakeupMaterialRepository;->B()Lcom/commsource/material/download/b/a;
@@ -67,7 +64,6 @@
 
     invoke-virtual {p1, v1}, Lcom/commsource/material/download/b/a;->h(Ljava/lang/Object;)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -88,24 +84,20 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/repository/child/makeup/MakeupMaterialRepository$d;->a:Lcom/commsource/repository/child/makeup/h;
 
     const/4 v2, 0x0
 
     invoke-virtual {v1, v2}, Lcom/commsource/repository/child/makeup/h;->m0(I)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/repository/child/makeup/MakeupMaterialRepository$d;->a:Lcom/commsource/repository/child/makeup/h;
 
     invoke-virtual {v1, v2}, Lcom/commsource/repository/child/makeup/h;->p0(Z)V
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/repository/child/makeup/MakeupMaterialRepository$d;->a:Lcom/commsource/repository/child/makeup/h;
 
     invoke-virtual {v1, v2}, Lcom/commsource/repository/child/makeup/h;->o0(I)V
 
-    .line 4
     sget-object v1, Lcom/commsource/repository/child/makeup/MakeupMaterialRepository;->E:Lcom/commsource/repository/child/makeup/MakeupMaterialRepository;
 
     invoke-virtual {v1}, Lcom/commsource/repository/child/makeup/MakeupMaterialRepository;->O()Lf/k/i0/a/g0;
@@ -116,7 +108,6 @@
 
     invoke-interface {v2, v3}, Lf/k/i0/a/g0;->i0(Lcom/commsource/repository/child/makeup/h;)V
 
-    .line 5
     invoke-virtual {v1}, Lcom/commsource/repository/child/makeup/MakeupMaterialRepository;->B()Lcom/commsource/material/download/b/a;
 
     move-result-object v1
@@ -127,7 +118,6 @@
 
     invoke-virtual {v1, v2, p1, v3}, Lcom/commsource/material/download/b/a;->f(Ljava/lang/Object;Ljava/lang/Throwable;Z)V
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -140,21 +130,18 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/repository/child/makeup/MakeupMaterialRepository$d;->a:Lcom/commsource/repository/child/makeup/h;
 
     const/4 v2, 0x1
 
     invoke-virtual {v1, v2}, Lcom/commsource/repository/child/makeup/h;->p0(Z)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/repository/child/makeup/MakeupMaterialRepository$d;->a:Lcom/commsource/repository/child/makeup/h;
 
     const/4 v2, 0x0
 
     invoke-virtual {v1, v2}, Lcom/commsource/repository/child/makeup/h;->o0(I)V
 
-    .line 3
     sget-object v1, Lcom/commsource/repository/child/makeup/MakeupMaterialRepository;->E:Lcom/commsource/repository/child/makeup/MakeupMaterialRepository;
 
     invoke-virtual {v1}, Lcom/commsource/repository/child/makeup/MakeupMaterialRepository;->O()Lf/k/i0/a/g0;
@@ -165,7 +152,6 @@
 
     invoke-interface {v2, v3}, Lf/k/i0/a/g0;->i0(Lcom/commsource/repository/child/makeup/h;)V
 
-    .line 4
     invoke-virtual {v1}, Lcom/commsource/repository/child/makeup/MakeupMaterialRepository;->B()Lcom/commsource/material/download/b/a;
 
     move-result-object v1
@@ -174,7 +160,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/material/download/b/a;->i(Ljava/lang/Object;)V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -187,21 +172,18 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/repository/child/makeup/MakeupMaterialRepository$d;->a:Lcom/commsource/repository/child/makeup/h;
 
     const/4 v2, 0x1
 
     invoke-virtual {v1, v2}, Lcom/commsource/repository/child/makeup/h;->o0(I)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/repository/child/makeup/MakeupMaterialRepository$d;->a:Lcom/commsource/repository/child/makeup/h;
 
     const/4 v2, 0x0
 
     invoke-virtual {v1, v2}, Lcom/commsource/repository/child/makeup/h;->p0(Z)V
 
-    .line 3
     sget-object v1, Lcom/commsource/repository/child/makeup/MakeupMaterialRepository;->E:Lcom/commsource/repository/child/makeup/MakeupMaterialRepository;
 
     invoke-virtual {v1}, Lcom/commsource/repository/child/makeup/MakeupMaterialRepository;->O()Lf/k/i0/a/g0;
@@ -212,7 +194,6 @@
 
     invoke-interface {v2, v3}, Lf/k/i0/a/g0;->i0(Lcom/commsource/repository/child/makeup/h;)V
 
-    .line 4
     invoke-virtual {v1}, Lcom/commsource/repository/child/makeup/MakeupMaterialRepository;->B()Lcom/commsource/material/download/b/a;
 
     move-result-object v1
@@ -221,7 +202,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/material/download/b/a;->j(Ljava/lang/Object;)V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

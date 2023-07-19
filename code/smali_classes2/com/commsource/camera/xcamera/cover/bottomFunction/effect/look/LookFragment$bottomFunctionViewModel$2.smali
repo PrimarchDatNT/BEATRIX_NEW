@@ -55,7 +55,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/LookFragment$bottomFunctionViewModel$2;->this$0:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/LookFragment;
 
     invoke-static {v1}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/LookFragment;->B(Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/LookFragment;)Landroid/app/Activity;
@@ -70,7 +69,6 @@
 
     move-result-object v1
 
-    .line 3
     const-class v2, Lcom/commsource/camera/xcamera/cover/bottomFunction/b;
 
     invoke-virtual {v1, v2}, Landroidx/lifecycle/ViewModelProvider;->get(Ljava/lang/Class;)Landroidx/lifecycle/ViewModel;
@@ -83,7 +81,6 @@
 
     return-object v1
 
-    .line 4
     :cond_0
     new-instance v1, Lcotlin/TypeCastException;
 
@@ -103,7 +100,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/LookFragment$bottomFunctionViewModel$2;->invoke()Lcom/commsource/camera/xcamera/cover/bottomFunction/b;
 
     move-result-object v1

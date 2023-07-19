@@ -47,24 +47,18 @@
         }
     .end annotation
 
-    .line 2
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 3
     iput-object p1, p0, Lcom/tencent/matrix/c;->b:Landroid/app/Application;
 
-    .line 4
     iput-object p2, p0, Lcom/tencent/matrix/c;->c:Lcom/tencent/matrix/g/d;
 
-    .line 5
     iput-object p3, p0, Lcom/tencent/matrix/c;->a:Ljava/util/HashSet;
 
-    .line 6
     sget-object p2, Lcom/tencent/matrix/AppActiveMatrixDelegate;->INSTANCE:Lcom/tencent/matrix/AppActiveMatrixDelegate;
 
     invoke-virtual {p2, p1}, Lcom/tencent/matrix/AppActiveMatrixDelegate;->init(Landroid/app/Application;)V
 
-    .line 7
     invoke-virtual {p3}, Ljava/util/HashSet;->iterator()Ljava/util/Iterator;
 
     move-result-object p1
@@ -82,14 +76,12 @@
 
     check-cast p2, Lcom/tencent/matrix/g/c;
 
-    .line 8
     iget-object p3, p0, Lcom/tencent/matrix/c;->b:Landroid/app/Application;
 
     iget-object v0, p0, Lcom/tencent/matrix/c;->c:Lcom/tencent/matrix/g/d;
 
     invoke-virtual {p2, p3, v0}, Lcom/tencent/matrix/g/c;->b(Landroid/app/Application;Lcom/tencent/matrix/g/d;)V
 
-    .line 9
     iget-object p3, p0, Lcom/tencent/matrix/c;->c:Lcom/tencent/matrix/g/d;
 
     invoke-interface {p3, p2}, Lcom/tencent/matrix/g/d;->c(Lcom/tencent/matrix/g/c;)V
@@ -103,7 +95,6 @@
 .method synthetic constructor <init>(Landroid/app/Application;Lcom/tencent/matrix/g/d;Ljava/util/HashSet;Lcom/tencent/matrix/c$a;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1, p2, p3}, Lcom/tencent/matrix/c;-><init>(Landroid/app/Application;Lcom/tencent/matrix/g/d;Ljava/util/HashSet;)V
 
     return-void
@@ -114,18 +105,15 @@
 
     if-eqz p0, :cond_1
 
-    .line 1
     const-class v0, Lcom/tencent/matrix/c;
 
     monitor-enter v0
 
-    .line 2
     :try_start_0
     sget-object v1, Lcom/tencent/matrix/c;->e:Lcom/tencent/matrix/c;
 
     if-nez v1, :cond_0
 
-    .line 3
     sput-object p0, Lcom/tencent/matrix/c;->e:Lcom/tencent/matrix/c;
 
     goto :goto_0
@@ -139,16 +127,13 @@
 
     new-array v2, v2, [Ljava/lang/Object;
 
-    .line 4
     invoke-static {p0, v1, v2}, Lcom/tencent/matrix/util/b;->b(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
-    .line 5
     :goto_0
     monitor-exit v0
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 6
     sget-object p0, Lcom/tencent/matrix/c;->e:Lcom/tencent/matrix/c;
 
     return-object p0
@@ -156,7 +141,6 @@
     :catchall_0
     move-exception p0
 
-    .line 7
     :try_start_1
     monitor-exit v0
     :try_end_1
@@ -164,7 +148,6 @@
 
     throw p0
 
-    .line 8
     :cond_1
     new-instance p0, Ljava/lang/RuntimeException;
 
@@ -178,7 +161,6 @@
 .method public static g()Z
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/tencent/matrix/c;->e:Lcom/tencent/matrix/c;
 
     if-eqz v0, :cond_0
@@ -197,7 +179,6 @@
 .method public static h(Lcom/tencent/matrix/util/b$b;)V
     .locals 0
 
-    .line 1
     invoke-static {p0}, Lcom/tencent/matrix/util/b;->f(Lcom/tencent/matrix/util/b$b;)V
 
     return-void
@@ -206,17 +187,14 @@
 .method public static k()Lcom/tencent/matrix/c;
     .locals 2
 
-    .line 1
     sget-object v0, Lcom/tencent/matrix/c;->e:Lcom/tencent/matrix/c;
 
     if-eqz v0, :cond_0
 
-    .line 2
     sget-object v0, Lcom/tencent/matrix/c;->e:Lcom/tencent/matrix/c;
 
     return-object v0
 
-    .line 3
     :cond_0
     new-instance v0, Ljava/lang/RuntimeException;
 
@@ -232,7 +210,6 @@
 .method public a()V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/tencent/matrix/c;->a:Ljava/util/HashSet;
 
     invoke-virtual {v0}, Ljava/util/HashSet;->iterator()Ljava/util/Iterator;
@@ -252,7 +229,6 @@
 
     check-cast v1, Lcom/tencent/matrix/g/c;
 
-    .line 2
     invoke-virtual {v1}, Lcom/tencent/matrix/g/c;->destroy()V
 
     goto :goto_0
@@ -264,7 +240,6 @@
 .method public b()Landroid/app/Application;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/tencent/matrix/c;->b:Landroid/app/Application;
 
     return-object v0
@@ -282,12 +257,10 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p1}, Ljava/lang/Class;->getName()Ljava/lang/String;
 
     move-result-object p1
 
-    .line 2
     iget-object v0, p0, Lcom/tencent/matrix/c;->a:Ljava/util/HashSet;
 
     invoke-virtual {v0}, Ljava/util/HashSet;->iterator()Ljava/util/Iterator;
@@ -307,7 +280,6 @@
 
     check-cast v1, Lcom/tencent/matrix/g/c;
 
-    .line 3
     invoke-virtual {v1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
     move-result-object v2
@@ -333,7 +305,6 @@
 .method public d(Ljava/lang/String;)Lcom/tencent/matrix/g/c;
     .locals 3
 
-    .line 1
     iget-object v0, p0, Lcom/tencent/matrix/c;->a:Ljava/util/HashSet;
 
     invoke-virtual {v0}, Ljava/util/HashSet;->iterator()Ljava/util/Iterator;
@@ -353,7 +324,6 @@
 
     check-cast v1, Lcom/tencent/matrix/g/c;
 
-    .line 2
     invoke-virtual {v1}, Lcom/tencent/matrix/g/c;->getTag()Ljava/lang/String;
 
     move-result-object v2
@@ -383,7 +353,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/tencent/matrix/c;->a:Ljava/util/HashSet;
 
     return-object v0
@@ -392,7 +361,6 @@
 .method public i()V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/tencent/matrix/c;->a:Ljava/util/HashSet;
 
     invoke-virtual {v0}, Ljava/util/HashSet;->iterator()Ljava/util/Iterator;
@@ -412,7 +380,6 @@
 
     check-cast v1, Lcom/tencent/matrix/g/c;
 
-    .line 2
     invoke-virtual {v1}, Lcom/tencent/matrix/g/c;->start()V
 
     goto :goto_0
@@ -424,7 +391,6 @@
 .method public j()V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/tencent/matrix/c;->a:Ljava/util/HashSet;
 
     invoke-virtual {v0}, Ljava/util/HashSet;->iterator()Ljava/util/Iterator;
@@ -444,7 +410,6 @@
 
     check-cast v1, Lcom/tencent/matrix/g/c;
 
-    .line 2
     invoke-virtual {v1}, Lcom/tencent/matrix/g/c;->stop()V
 
     goto :goto_0

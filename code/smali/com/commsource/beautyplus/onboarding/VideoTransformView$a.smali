@@ -42,12 +42,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/beautyplus/onboarding/VideoTransformView$a;->a:Lcom/commsource/beautyplus/onboarding/VideoTransformView;
 
     invoke-static {v1}, Lcom/commsource/util/l0;->y(Landroid/view/View;)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/beautyplus/onboarding/VideoTransformView$a;->a:Lcom/commsource/beautyplus/onboarding/VideoTransformView;
 
     invoke-static {v1}, Lcom/commsource/beautyplus/onboarding/VideoTransformView;->h(Lcom/commsource/beautyplus/onboarding/VideoTransformView;)Lcom/commsource/beautyplus/f0/q1;
@@ -58,7 +56,6 @@
 
     invoke-virtual {v1}, Lcom/commsource/widget/VideoPlayComponent;->t()V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

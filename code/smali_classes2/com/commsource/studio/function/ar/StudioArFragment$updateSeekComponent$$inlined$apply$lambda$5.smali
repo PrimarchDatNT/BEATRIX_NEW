@@ -63,7 +63,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Ljava/lang/Number;
 
     invoke-virtual {p1}, Ljava/lang/Number;->intValue()I
@@ -94,7 +93,6 @@
 
     if-eqz p2, :cond_0
 
-    .line 2
     iget-object p2, p0, Lcom/commsource/studio/function/ar/StudioArFragment$updateSeekComponent$$inlined$apply$lambda$5;->this$0:Lcom/commsource/studio/function/ar/StudioArFragment;
 
     invoke-virtual {p2}, Lcom/commsource/studio/function/ar/StudioArFragment;->C1()Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/c1;
@@ -103,7 +101,6 @@
 
     invoke-virtual {p2}, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/c1;->K0()V
 
-    .line 3
     invoke-static {}, Lcom/commsource/material/a;->h()Lcom/commsource/material/a;
 
     move-result-object p2
@@ -112,7 +109,6 @@
 
     invoke-virtual {p2, v1, p1}, Lcom/commsource/material/a;->b(Lcom/meitu/template/bean/ArMaterial;I)V
 
-    .line 4
     iget-object p2, p0, Lcom/commsource/studio/function/ar/StudioArFragment$updateSeekComponent$$inlined$apply$lambda$5;->this$0:Lcom/commsource/studio/function/ar/StudioArFragment;
 
     invoke-virtual {p2}, Lcom/commsource/studio/function/ar/StudioArFragment;->B1()Lcom/commsource/studio/function/ar/ArProcessor;
@@ -135,7 +131,6 @@
 
     invoke-virtual {p2, p1}, Lcom/commsource/camera/newrender/renderproxy/v/w;->r2(F)V
 
-    .line 5
     iget-object p1, p0, Lcom/commsource/studio/function/ar/StudioArFragment$updateSeekComponent$$inlined$apply$lambda$5;->this$0:Lcom/commsource/studio/function/ar/StudioArFragment;
 
     invoke-virtual {p1}, Lcom/commsource/studio/function/ar/StudioArFragment;->B1()Lcom/commsource/studio/function/ar/ArProcessor;
@@ -150,7 +145,6 @@
 
     invoke-static {p1, p2, v2, v1, v2}, Lcom/commsource/studio/processor/BaseEffectProcessor;->z(Lcom/commsource/studio/processor/BaseEffectProcessor;ZLcotlin/jvm/u/a;ILjava/lang/Object;)V
 
-    .line 6
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

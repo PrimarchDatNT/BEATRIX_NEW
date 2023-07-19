@@ -12,22 +12,18 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {}, Landroid/os/ParcelFileDescriptor;->createPipe()[Landroid/os/ParcelFileDescriptor;
 
     move-result-object v0
 
     const/4 v1, 0x0
 
-    .line 2
     aget-object v1, v0, v1
 
     const/4 v2, 0x1
 
-    .line 3
     aget-object v0, v0, v2
 
-    .line 4
     sget-object v2, Lcom/google/android/gms/internal/ads/dq;->a:Lcom/google/android/gms/internal/ads/uq1;
 
     new-instance v3, Lcom/google/android/gms/internal/ads/wh1;

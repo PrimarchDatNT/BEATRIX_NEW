@@ -53,44 +53,36 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Lcom/google/common/collect/AbstractIterator;-><init>()V
 
-    .line 2
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0, p1}, Ljava/util/ArrayList;-><init>(Ljava/util/Collection;)V
 
     iput-object v0, p0, Lcom/google/common/collect/n$e;->c:Ljava/util/List;
 
-    .line 3
     invoke-interface {p1}, Ljava/util/List;->size()I
 
     move-result p1
 
-    .line 4
     new-array v0, p1, [I
 
     iput-object v0, p0, Lcom/google/common/collect/n$e;->d:[I
 
-    .line 5
     new-array p1, p1, [I
 
     iput-object p1, p0, Lcom/google/common/collect/n$e;->f:[I
 
     const/4 v1, 0x0
 
-    .line 6
     invoke-static {v0, v1}, Ljava/util/Arrays;->fill([II)V
 
     const/4 v0, 0x1
 
-    .line 7
     invoke-static {p1, v0}, Ljava/util/Arrays;->fill([II)V
 
     const p1, 0x7fffffff
 
-    .line 8
     iput p1, p0, Lcom/google/common/collect/n$e;->g:I
 
     return-void
@@ -101,7 +93,6 @@
 .method protected bridge synthetic a()Ljava/lang/Object;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/collect/n$e;->e()Ljava/util/List;
 
     move-result-object v0
@@ -112,7 +103,6 @@
 .method d()V
     .locals 5
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/n$e;->c:Ljava/util/List;
 
     invoke-interface {v0}, Ljava/util/List;->size()I
@@ -132,7 +122,6 @@
     :cond_0
     const/4 v0, 0x0
 
-    .line 2
     :goto_0
     iget-object v1, p0, Lcom/google/common/collect/n$e;->d:[I
 
@@ -148,7 +137,6 @@
 
     if-gez v3, :cond_1
 
-    .line 3
     invoke-virtual {p0}, Lcom/google/common/collect/n$e;->f()V
 
     goto :goto_0
@@ -165,12 +153,10 @@
     :cond_2
     add-int/lit8 v0, v0, 0x1
 
-    .line 4
     invoke-virtual {p0}, Lcom/google/common/collect/n$e;->f()V
 
     goto :goto_0
 
-    .line 5
     :cond_3
     iget-object v4, p0, Lcom/google/common/collect/n$e;->c:Ljava/util/List;
 
@@ -186,7 +172,6 @@
 
     invoke-static {v4, v1, v2}, Ljava/util/Collections;->swap(Ljava/util/List;II)V
 
-    .line 6
     iget-object v0, p0, Lcom/google/common/collect/n$e;->d:[I
 
     iget v1, p0, Lcom/google/common/collect/n$e;->g:I
@@ -207,12 +192,10 @@
         }
     .end annotation
 
-    .line 1
     iget v0, p0, Lcom/google/common/collect/n$e;->g:I
 
     if-gtz v0, :cond_0
 
-    .line 2
     invoke-virtual {p0}, Lcom/google/common/collect/AbstractIterator;->b()Ljava/lang/Object;
 
     move-result-object v0
@@ -221,7 +204,6 @@
 
     return-object v0
 
-    .line 3
     :cond_0
     iget-object v0, p0, Lcom/google/common/collect/n$e;->c:Ljava/util/List;
 
@@ -229,7 +211,6 @@
 
     move-result-object v0
 
-    .line 4
     invoke-virtual {p0}, Lcom/google/common/collect/n$e;->d()V
 
     return-object v0
@@ -238,7 +219,6 @@
 .method f()V
     .locals 3
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/n$e;->f:[I
 
     iget v1, p0, Lcom/google/common/collect/n$e;->g:I
@@ -251,7 +231,6 @@
 
     add-int/lit8 v1, v1, -0x1
 
-    .line 2
     iput v1, p0, Lcom/google/common/collect/n$e;->g:I
 
     return-void

@@ -56,7 +56,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/meitu/core/imageloader/ImageInfo$ImageExif;
 
     const-string v2, "ORIENTATION_UNDEFINED"
@@ -67,7 +66,6 @@
 
     sput-object v1, Lcom/meitu/core/imageloader/ImageInfo$ImageExif;->ORIENTATION_UNDEFINED:Lcom/meitu/core/imageloader/ImageInfo$ImageExif;
 
-    .line 2
     new-instance v2, Lcom/meitu/core/imageloader/ImageInfo$ImageExif;
 
     const-string v4, "ORIENTATION_NORMAL"
@@ -78,7 +76,6 @@
 
     sput-object v2, Lcom/meitu/core/imageloader/ImageInfo$ImageExif;->ORIENTATION_NORMAL:Lcom/meitu/core/imageloader/ImageInfo$ImageExif;
 
-    .line 3
     new-instance v4, Lcom/meitu/core/imageloader/ImageInfo$ImageExif;
 
     const-string v6, "ORIENTATION_FLIP_HORIZONTAL"
@@ -89,7 +86,6 @@
 
     sput-object v4, Lcom/meitu/core/imageloader/ImageInfo$ImageExif;->ORIENTATION_FLIP_HORIZONTAL:Lcom/meitu/core/imageloader/ImageInfo$ImageExif;
 
-    .line 4
     new-instance v6, Lcom/meitu/core/imageloader/ImageInfo$ImageExif;
 
     const-string v8, "ORIENTATION_ROTATE_180"
@@ -100,7 +96,6 @@
 
     sput-object v6, Lcom/meitu/core/imageloader/ImageInfo$ImageExif;->ORIENTATION_ROTATE_180:Lcom/meitu/core/imageloader/ImageInfo$ImageExif;
 
-    .line 5
     new-instance v8, Lcom/meitu/core/imageloader/ImageInfo$ImageExif;
 
     const-string v10, "ORIENTATION_FLIP_VERTICAL"
@@ -111,7 +106,6 @@
 
     sput-object v8, Lcom/meitu/core/imageloader/ImageInfo$ImageExif;->ORIENTATION_FLIP_VERTICAL:Lcom/meitu/core/imageloader/ImageInfo$ImageExif;
 
-    .line 6
     new-instance v10, Lcom/meitu/core/imageloader/ImageInfo$ImageExif;
 
     const-string v12, "ORIENTATION_TRANSPOSE"
@@ -122,7 +116,6 @@
 
     sput-object v10, Lcom/meitu/core/imageloader/ImageInfo$ImageExif;->ORIENTATION_TRANSPOSE:Lcom/meitu/core/imageloader/ImageInfo$ImageExif;
 
-    .line 7
     new-instance v12, Lcom/meitu/core/imageloader/ImageInfo$ImageExif;
 
     const-string v14, "ORIENTATION_ROTATE_90"
@@ -133,7 +126,6 @@
 
     sput-object v12, Lcom/meitu/core/imageloader/ImageInfo$ImageExif;->ORIENTATION_ROTATE_90:Lcom/meitu/core/imageloader/ImageInfo$ImageExif;
 
-    .line 8
     new-instance v14, Lcom/meitu/core/imageloader/ImageInfo$ImageExif;
 
     const-string v0, "ORIENTATION_TRANSVERSE"
@@ -144,7 +136,6 @@
 
     sput-object v14, Lcom/meitu/core/imageloader/ImageInfo$ImageExif;->ORIENTATION_TRANSVERSE:Lcom/meitu/core/imageloader/ImageInfo$ImageExif;
 
-    .line 9
     new-instance v0, Lcom/meitu/core/imageloader/ImageInfo$ImageExif;
 
     const-string v15, "ORIENTATION_ROTATE_270"
@@ -183,7 +174,6 @@
 
     aput-object v0, v15, v13
 
-    .line 10
     sput-object v15, Lcom/meitu/core/imageloader/ImageInfo$ImageExif;->$VALUES:[Lcom/meitu/core/imageloader/ImageInfo$ImageExif;
 
     const v0, 0xddca
@@ -201,10 +191,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 2
     iput p3, p0, Lcom/meitu/core/imageloader/ImageInfo$ImageExif;->nativeInt:I
 
     return-void
@@ -217,7 +205,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     const-class v1, Lcom/meitu/core/imageloader/ImageInfo$ImageExif;
 
     invoke-static {v1, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -238,7 +225,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/meitu/core/imageloader/ImageInfo$ImageExif;->$VALUES:[Lcom/meitu/core/imageloader/ImageInfo$ImageExif;
 
     invoke-virtual {v1}, [Lcom/meitu/core/imageloader/ImageInfo$ImageExif;->clone()Ljava/lang/Object;
@@ -261,7 +247,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/core/imageloader/ImageInfo$ImageExif;->nativeInt:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

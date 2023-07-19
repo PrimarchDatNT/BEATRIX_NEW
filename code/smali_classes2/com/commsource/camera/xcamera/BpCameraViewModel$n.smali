@@ -41,7 +41,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/camera/xcamera/BpCameraViewModel$n;->a:Lcom/commsource/camera/xcamera/BpCameraViewModel;
 
     iput-object p2, p0, Lcom/commsource/camera/xcamera/BpCameraViewModel$n;->b:Lcom/commsource/camera/xcamera/n;
@@ -64,7 +63,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/BpCameraViewModel$n;->a:Lcom/commsource/camera/xcamera/BpCameraViewModel;
 
     invoke-virtual {v1}, Landroidx/lifecycle/AndroidViewModel;->getApplication()Landroid/app/Application;
@@ -93,7 +91,6 @@
 
     invoke-virtual/range {v1 .. v8}, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;->e1(ZZZLcom/commsource/camera/xcamera/m;Lcom/commsource/camera/xcamera/n;ZZ)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/camera/xcamera/BpCameraViewModel$n;->a:Lcom/commsource/camera/xcamera/BpCameraViewModel;
 
     invoke-virtual {v1}, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;->s0()Landroidx/lifecycle/MutableLiveData;
@@ -104,14 +101,12 @@
 
     invoke-virtual {v1, v2}, Landroidx/lifecycle/MutableLiveData;->setValue(Ljava/lang/Object;)V
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/camera/xcamera/BpCameraViewModel$n;->d:Ljava/lang/Runnable;
 
     if-eqz v1, :cond_0
 
     invoke-interface {v1}, Ljava/lang/Runnable;->run()V
 
-    .line 4
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

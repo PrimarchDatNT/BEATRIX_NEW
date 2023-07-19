@@ -30,10 +30,8 @@
 .method public constructor <init>(Lcom/meitu/mtmvcore/application/MTMVPlayer;Landroid/os/Looper;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p2}, Landroid/os/Handler;-><init>(Landroid/os/Looper;)V
 
-    .line 2
     new-instance p2, Ljava/lang/ref/WeakReference;
 
     invoke-direct {p2, p1}, Ljava/lang/ref/WeakReference;-><init>(Ljava/lang/Object;)V
@@ -52,7 +50,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/mtmvcore/application/MTMVPlayer$a;->a:Ljava/lang/ref/WeakReference;
 
     invoke-virtual {v1}, Ljava/lang/ref/WeakReference;->get()Ljava/lang/Object;
@@ -63,7 +60,6 @@
 
     if-eqz v1, :cond_f
 
-    .line 2
     invoke-static {v1}, Lcom/meitu/mtmvcore/application/MTMVPlayer;->access$000(Lcom/meitu/mtmvcore/application/MTMVPlayer;)Lcom/meitu/mtmvcore/application/MTMVCoreApplication;
 
     move-result-object v2
@@ -80,7 +76,6 @@
 
     goto/16 :goto_2
 
-    .line 3
     :cond_0
     iget v2, p1, Landroid/os/Message;->what:I
 
@@ -130,7 +125,6 @@
 
     if-eq v2, v1, :cond_e
 
-    .line 4
     invoke-static {}, Lcom/meitu/mtmvcore/application/MTMVPlayer;->access$100()Ljava/lang/String;
 
     move-result-object v1
@@ -153,18 +147,15 @@
 
     invoke-static {v1, p1}, Lcom/meitu/debug/Logger;->j(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 6
     :cond_1
     iget v2, p1, Landroid/os/Message;->arg1:I
 
     if-ne v4, v2, :cond_2
 
-    .line 7
     iget-object p1, p1, Landroid/os/Message;->obj:Ljava/lang/Object;
 
     check-cast p1, Ljava/lang/String;
@@ -173,7 +164,6 @@
 
     goto/16 :goto_1
 
-    .line 8
     :cond_2
     iget p1, p1, Landroid/os/Message;->arg2:I
 
@@ -181,7 +171,6 @@
 
     goto/16 :goto_1
 
-    .line 9
     :cond_3
     iget v2, p1, Landroid/os/Message;->arg1:I
 
@@ -189,7 +178,6 @@
 
     if-eq v2, v4, :cond_4
 
-    .line 10
     invoke-static {}, Lcom/meitu/mtmvcore/application/MTMVPlayer;->access$100()Ljava/lang/String;
 
     move-result-object v2
@@ -220,7 +208,6 @@
 
     invoke-static {v2, v4}, Lcom/meitu/debug/Logger;->x(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 11
     :cond_4
     iget v2, p1, Landroid/os/Message;->arg1:I
 
@@ -234,7 +221,6 @@
 
     const/16 v4, 0x3e9
 
-    .line 12
     check-cast v2, Ljava/lang/String;
 
     const-string v5, "1"
@@ -253,7 +239,6 @@
     :goto_0
     invoke-virtual {v1, v4, v3}, Lcom/meitu/mtmvcore/application/MTMVPlayer;->notifyOnInfo(II)Z
 
-    .line 13
     :cond_6
     iget v2, p1, Landroid/os/Message;->arg1:I
 
@@ -261,12 +246,10 @@
 
     invoke-virtual {v1, v2, p1}, Lcom/meitu/mtmvcore/application/MTMVPlayer;->notifyOnInfo(II)Z
 
-    .line 14
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 15
     :cond_7
     invoke-static {}, Lcom/meitu/mtmvcore/application/MTMVPlayer;->access$100()Ljava/lang/String;
 
@@ -298,7 +281,6 @@
 
     invoke-static {v2, v3}, Lcom/meitu/debug/Logger;->j(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 16
     iget v2, p1, Landroid/os/Message;->arg1:I
 
     iget p1, p1, Landroid/os/Message;->arg2:I
@@ -309,67 +291,54 @@
 
     if-nez p1, :cond_8
 
-    .line 17
     invoke-virtual {v1}, Lcom/meitu/mtmvcore/application/MTMVPlayer;->notifyOnCompletion()V
 
-    .line 18
     :cond_8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 19
     :cond_9
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 20
     :cond_a
     invoke-virtual {v1}, Lcom/meitu/mtmvcore/application/MTMVPlayer;->notifyOnSeekComplete()V
 
-    .line 21
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 22
     :cond_b
     iget p1, p1, Landroid/os/Message;->arg2:I
 
     invoke-virtual {v1, p1}, Lcom/meitu/mtmvcore/application/MTMVPlayer;->notifyOnBufferingUpdate(I)V
 
-    .line 23
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 24
     :cond_c
     invoke-virtual {v1}, Lcom/meitu/mtmvcore/application/MTMVPlayer;->notifyOnCompletion()V
 
-    .line 25
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 26
     :cond_d
     invoke-virtual {v1}, Lcom/meitu/mtmvcore/application/MTMVPlayer;->notifyOnPrepared()V
 
-    .line 27
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 28
     :cond_e
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 29
     :cond_f
     :goto_2
     invoke-static {}, Lcom/meitu/mtmvcore/application/MTMVPlayer;->access$100()Ljava/lang/String;
@@ -380,7 +349,6 @@
 
     invoke-static {p1, v1}, Lcom/meitu/debug/Logger;->Y(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 30
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

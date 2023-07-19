@@ -21,21 +21,16 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/4 v0, 0x0
 
-    .line 2
     iput-object v0, p0, Lorg/apache/thrift/transport/TStandardFile;->path_:Ljava/lang/String;
 
-    .line 3
     iput-object v0, p0, Lorg/apache/thrift/transport/TStandardFile;->inputFile_:Ljava/io/RandomAccessFile;
 
-    .line 4
     iput-object p1, p0, Lorg/apache/thrift/transport/TStandardFile;->path_:Ljava/lang/String;
 
-    .line 5
     new-instance p1, Ljava/io/RandomAccessFile;
 
     iget-object v0, p0, Lorg/apache/thrift/transport/TStandardFile;->path_:Ljava/lang/String;
@@ -59,12 +54,10 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lorg/apache/thrift/transport/TStandardFile;->inputFile_:Ljava/io/RandomAccessFile;
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-virtual {v0}, Ljava/io/RandomAccessFile;->close()V
 
     :cond_0
@@ -79,7 +72,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/io/FileInputStream;
 
     iget-object v1, p0, Lorg/apache/thrift/transport/TStandardFile;->inputFile_:Ljava/io/RandomAccessFile;
@@ -101,7 +93,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/io/FileOutputStream;
 
     iget-object v1, p0, Lorg/apache/thrift/transport/TStandardFile;->path_:Ljava/lang/String;
@@ -119,7 +110,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lorg/apache/thrift/transport/TStandardFile;->inputFile_:Ljava/io/RandomAccessFile;
 
     invoke-virtual {v0}, Ljava/io/RandomAccessFile;->length()J
@@ -137,7 +127,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lorg/apache/thrift/transport/TStandardFile;->inputFile_:Ljava/io/RandomAccessFile;
 
     invoke-virtual {v0, p1, p2}, Ljava/io/RandomAccessFile;->seek(J)V

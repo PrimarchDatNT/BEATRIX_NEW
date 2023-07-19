@@ -12,15 +12,12 @@
 .method private constructor <init>(I)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     new-array p1, p1, [B
 
     iput-object p1, p0, Lcom/google/android/gms/internal/firebase_auth/j3;->b:[B
 
-    .line 3
     invoke-static {p1}, Lcom/google/android/gms/internal/firebase_auth/zzha;->Q([B)Lcom/google/android/gms/internal/firebase_auth/zzha;
 
     move-result-object p1
@@ -33,7 +30,6 @@
 .method synthetic constructor <init>(ILcom/google/android/gms/internal/firebase_auth/f3;)V
     .locals 0
 
-    .line 4
     invoke-direct {p0, p1}, Lcom/google/android/gms/internal/firebase_auth/j3;-><init>(I)V
 
     return-void
@@ -44,12 +40,10 @@
 .method public final a()Lcom/google/android/gms/internal/firebase_auth/zzgf;
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/firebase_auth/j3;->a:Lcom/google/android/gms/internal/firebase_auth/zzha;
 
     invoke-virtual {v0}, Lcom/google/android/gms/internal/firebase_auth/zzha;->t0()V
 
-    .line 2
     new-instance v0, Lcom/google/android/gms/internal/firebase_auth/zzgp;
 
     iget-object v1, p0, Lcom/google/android/gms/internal/firebase_auth/j3;->b:[B
@@ -62,7 +56,6 @@
 .method public final b()Lcom/google/android/gms/internal/firebase_auth/zzha;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/firebase_auth/j3;->a:Lcom/google/android/gms/internal/firebase_auth/zzha;
 
     return-object v0

@@ -21,7 +21,6 @@
 .method public constructor <init>(Ljava/lang/String;Lorg/apache/http/HttpHost;Lorg/apache/http/HttpClientConnection;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1, p2, p3}, Lorg/apache/http/pool/PoolEntry;-><init>(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
 
     return-void
@@ -32,7 +31,6 @@
 .method public close()V
     .locals 1
 
-    .line 1
     :try_start_0
     invoke-virtual {p0}, Lorg/apache/http/pool/PoolEntry;->getConnection()Ljava/lang/Object;
 
@@ -51,7 +49,6 @@
 .method public isClosed()Z
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lorg/apache/http/pool/PoolEntry;->getConnection()Ljava/lang/Object;
 
     move-result-object v0

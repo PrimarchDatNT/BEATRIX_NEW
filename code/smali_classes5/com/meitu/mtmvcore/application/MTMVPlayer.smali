@@ -197,7 +197,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     const-class v1, Lcom/meitu/mtmvcore/application/MTMVPlayer;
 
     invoke-virtual {v1}, Ljava/lang/Class;->getName()Ljava/lang/String;
@@ -214,23 +213,18 @@
 .method public constructor <init>(Lcom/meitu/mtmvcore/application/MTMVCoreApplication;)V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/4 v0, 0x0
 
-    .line 2
     iput v0, p0, Lcom/meitu/mtmvcore/application/MTMVPlayer;->debugHardwareSaveMode:I
 
     const/4 v0, 0x3
 
-    .line 3
     iput v0, p0, Lcom/meitu/mtmvcore/application/MTMVPlayer;->videoIFrameInterval:I
 
-    .line 4
     iput-object p1, p0, Lcom/meitu/mtmvcore/application/MTMVPlayer;->application:Lcom/meitu/mtmvcore/application/MTMVCoreApplication;
 
-    .line 5
     invoke-direct {p0}, Lcom/meitu/mtmvcore/application/MTMVPlayer;->initPlayer()V
 
     return-void
@@ -562,7 +556,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/meitu/mtmvcore/application/MTMVPlayer;->application:Lcom/meitu/mtmvcore/application/MTMVCoreApplication;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -577,7 +570,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/meitu/mtmvcore/application/MTMVPlayer;->TAG:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -592,7 +584,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/meitu/mtmvcore/application/MTMVPlayer;->notifyOnSegmentSave(Ljava/lang/String;)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -607,7 +598,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0, p1, p2}, Lcom/meitu/mtmvcore/application/MTMVPlayer;->notifyOnSave(II)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -624,12 +614,10 @@
 
     if-nez p0, :cond_0
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 2
     :cond_0
     check-cast p0, Ljava/lang/ref/WeakReference;
 
@@ -641,23 +629,19 @@
 
     if-nez p0, :cond_1
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 4
     :cond_1
     iget-object v1, p0, Lcom/meitu/mtmvcore/application/MTMVPlayer;->mEventHandler:Lcom/meitu/mtmvcore/application/MTMVPlayer$a;
 
     if-eqz v1, :cond_3
 
-    .line 5
     invoke-virtual {v1, p1, p2, p3, p4}, Landroid/os/Handler;->obtainMessage(IIILjava/lang/Object;)Landroid/os/Message;
 
     move-result-object p1
 
-    .line 6
     iget p2, p1, Landroid/os/Message;->what:I
 
     const/16 p3, 0x12c
@@ -670,14 +654,12 @@
 
     if-ne p2, p3, :cond_2
 
-    .line 7
     iget-object p0, p0, Lcom/meitu/mtmvcore/application/MTMVPlayer;->mEventHandler:Lcom/meitu/mtmvcore/application/MTMVPlayer$a;
 
     invoke-virtual {p0, p1}, Lcom/meitu/mtmvcore/application/MTMVPlayer$a;->handleMessage(Landroid/os/Message;)V
 
     goto :goto_0
 
-    .line 8
     :cond_2
     new-instance p0, Ljava/lang/RuntimeException;
 
@@ -689,7 +671,6 @@
 
     throw p0
 
-    .line 9
     :cond_3
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -707,14 +688,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Landroid/os/Looper;->myLooper()Landroid/os/Looper;
 
     move-result-object v1
 
     if-eqz v1, :cond_0
 
-    .line 2
     new-instance v2, Lcom/meitu/mtmvcore/application/MTMVPlayer$a;
 
     invoke-direct {v2, p0, v1}, Lcom/meitu/mtmvcore/application/MTMVPlayer$a;-><init>(Lcom/meitu/mtmvcore/application/MTMVPlayer;Landroid/os/Looper;)V
@@ -723,7 +702,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_0
     invoke-static {}, Landroid/os/Looper;->getMainLooper()Landroid/os/Looper;
 
@@ -731,7 +709,6 @@
 
     if-eqz v1, :cond_1
 
-    .line 4
     new-instance v2, Lcom/meitu/mtmvcore/application/MTMVPlayer$a;
 
     invoke-direct {v2, p0, v1}, Lcom/meitu/mtmvcore/application/MTMVPlayer$a;-><init>(Lcom/meitu/mtmvcore/application/MTMVPlayer;Landroid/os/Looper;)V
@@ -743,10 +720,8 @@
     :cond_1
     const/4 v1, 0x0
 
-    .line 5
     iput-object v1, p0, Lcom/meitu/mtmvcore/application/MTMVPlayer;->mEventHandler:Lcom/meitu/mtmvcore/application/MTMVPlayer$a;
 
-    .line 6
     :goto_0
     iget-object v1, p0, Lcom/meitu/mtmvcore/application/MTMVPlayer;->application:Lcom/meitu/mtmvcore/application/MTMVCoreApplication;
 
@@ -760,7 +735,6 @@
 
     invoke-direct {p0, v1, v2, v3}, Lcom/meitu/mtmvcore/application/MTMVPlayer;->native_setup(JLjava/lang/Object;)V
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -776,7 +750,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/meitu/mtmvcore/application/MTMVPlayer;->getHardwareMode()Z
 
     move-result v1
@@ -785,7 +758,6 @@
 
     if-eqz v1, :cond_1
 
-    .line 2
     iget-object v1, p0, Lcom/meitu/mtmvcore/application/MTMVPlayer;->mOnSaveListenerInternal:Lcom/meitu/mtmvcore/application/MTMVPlayer$i;
 
     if-eqz v1, :cond_0
@@ -803,14 +775,12 @@
     :cond_1
     if-ne p1, v2, :cond_3
 
-    .line 3
     iget-object p1, p0, Lcom/meitu/mtmvcore/application/MTMVPlayer;->mOnSaveListenerInternal:Lcom/meitu/mtmvcore/application/MTMVPlayer$i;
 
     if-eqz p1, :cond_2
 
     invoke-interface {p1, p0}, Lcom/meitu/mtmvcore/application/MTMVPlayer$i;->onSaveBegan(Lcom/meitu/mtmvcore/application/MTMVPlayer;)V
 
-    .line 4
     :cond_2
     iget-object p1, p0, Lcom/meitu/mtmvcore/application/MTMVPlayer;->mOnSaveInfoListener:Lcom/meitu/mtmvcore/application/MTMVPlayer$h;
 
@@ -825,14 +795,12 @@
 
     if-ne v1, p1, :cond_5
 
-    .line 5
     iget-object p1, p0, Lcom/meitu/mtmvcore/application/MTMVPlayer;->mOnSaveListenerInternal:Lcom/meitu/mtmvcore/application/MTMVPlayer$i;
 
     if-eqz p1, :cond_4
 
     invoke-interface {p1, p0}, Lcom/meitu/mtmvcore/application/MTMVPlayer$i;->onSaveEnded(Lcom/meitu/mtmvcore/application/MTMVPlayer;)V
 
-    .line 6
     :cond_4
     iget-object p1, p0, Lcom/meitu/mtmvcore/application/MTMVPlayer;->mOnSaveInfoListener:Lcom/meitu/mtmvcore/application/MTMVPlayer$h;
 
@@ -847,7 +815,6 @@
 
     if-ne v1, p1, :cond_6
 
-    .line 7
     iget-object p1, p0, Lcom/meitu/mtmvcore/application/MTMVPlayer;->mOnSaveListenerInternal:Lcom/meitu/mtmvcore/application/MTMVPlayer$i;
 
     if-eqz p1, :cond_a
@@ -861,14 +828,12 @@
 
     if-ne p2, p1, :cond_8
 
-    .line 8
     iget-object p1, p0, Lcom/meitu/mtmvcore/application/MTMVPlayer;->mOnSaveListenerInternal:Lcom/meitu/mtmvcore/application/MTMVPlayer$i;
 
     if-eqz p1, :cond_7
 
     invoke-interface {p1, p0}, Lcom/meitu/mtmvcore/application/MTMVPlayer$i;->onSaveCanceled(Lcom/meitu/mtmvcore/application/MTMVPlayer;)V
 
-    .line 9
     :cond_7
     iget-object p1, p0, Lcom/meitu/mtmvcore/application/MTMVPlayer;->mOnSaveInfoListener:Lcom/meitu/mtmvcore/application/MTMVPlayer$h;
 
@@ -883,24 +848,19 @@
 
     if-ne p2, p1, :cond_a
 
-    .line 10
     iget-object p1, p0, Lcom/meitu/mtmvcore/application/MTMVPlayer;->mOnSaveListenerInternal:Lcom/meitu/mtmvcore/application/MTMVPlayer$i;
 
     if-eqz p1, :cond_9
 
-    .line 11
     invoke-interface {p1, p0}, Lcom/meitu/mtmvcore/application/MTMVPlayer$i;->onSaveSegmentComplete(Lcom/meitu/mtmvcore/application/MTMVPlayer;)V
 
-    .line 12
     :cond_9
     iget-object p1, p0, Lcom/meitu/mtmvcore/application/MTMVPlayer;->mOnSaveInfoListener:Lcom/meitu/mtmvcore/application/MTMVPlayer$h;
 
     if-eqz p1, :cond_a
 
-    .line 13
     invoke-interface {p1, p0}, Lcom/meitu/mtmvcore/application/MTMVPlayer$h;->onSaveSegmentComplete(Lcom/meitu/mtmvcore/application/MTMVPlayer;)V
 
-    .line 14
     :cond_a
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -915,24 +875,19 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/mtmvcore/application/MTMVPlayer;->mOnSaveListenerInternal:Lcom/meitu/mtmvcore/application/MTMVPlayer$i;
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-interface {v1, p0, p1}, Lcom/meitu/mtmvcore/application/MTMVPlayer$i;->onSaveSegmentReady(Lcom/meitu/mtmvcore/application/MTMVPlayer;Ljava/lang/String;)V
 
-    .line 3
     :cond_0
     iget-object v1, p0, Lcom/meitu/mtmvcore/application/MTMVPlayer;->mOnSaveInfoListener:Lcom/meitu/mtmvcore/application/MTMVPlayer$h;
 
     if-eqz v1, :cond_1
 
-    .line 4
     invoke-interface {v1, p0, p1}, Lcom/meitu/mtmvcore/application/MTMVPlayer$h;->onSaveSegmentReady(Lcom/meitu/mtmvcore/application/MTMVPlayer;Ljava/lang/String;)V
 
-    .line 5
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -948,12 +903,10 @@
 
     if-nez p0, :cond_0
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 2
     :cond_0
     check-cast p0, Ljava/lang/ref/WeakReference;
 
@@ -965,7 +918,6 @@
 
     if-nez p0, :cond_1
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -979,26 +931,21 @@
 
     if-ne p2, v1, :cond_2
 
-    .line 4
     invoke-virtual {p0}, Lcom/meitu/mtmvcore/application/MTMVPlayer;->start()V
 
-    .line 5
     :cond_2
     iget-object v1, p0, Lcom/meitu/mtmvcore/application/MTMVPlayer;->mEventHandler:Lcom/meitu/mtmvcore/application/MTMVPlayer$a;
 
     if-eqz v1, :cond_3
 
-    .line 6
     invoke-virtual {v1, p1, p2, p3, p4}, Landroid/os/Handler;->obtainMessage(IIILjava/lang/Object;)Landroid/os/Message;
 
     move-result-object p1
 
-    .line 7
     iget-object p0, p0, Lcom/meitu/mtmvcore/application/MTMVPlayer;->mEventHandler:Lcom/meitu/mtmvcore/application/MTMVPlayer$a;
 
     invoke-virtual {p0, p1}, Landroid/os/Handler;->sendMessage(Landroid/os/Message;)Z
 
-    .line 8
     :cond_3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1014,42 +961,34 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/mtmvcore/application/MTMVPlayer;->mOnPreparedListener:Lcom/meitu/mtmvcore/application/MTMVPlayer$g;
 
     invoke-virtual {p1, v1}, Lcom/meitu/mtmvcore/application/MTMVPlayer;->setOnPreparedListener(Lcom/meitu/mtmvcore/application/MTMVPlayer$g;)V
 
-    .line 2
     iget-object v1, p0, Lcom/meitu/mtmvcore/application/MTMVPlayer;->mOnBufferingUpdateListener:Lcom/meitu/mtmvcore/application/MTMVPlayer$b;
 
     invoke-virtual {p1, v1}, Lcom/meitu/mtmvcore/application/MTMVPlayer;->setOnBufferingUpdateListener(Lcom/meitu/mtmvcore/application/MTMVPlayer$b;)V
 
-    .line 3
     iget-object v1, p0, Lcom/meitu/mtmvcore/application/MTMVPlayer;->mOnCompletionListener:Lcom/meitu/mtmvcore/application/MTMVPlayer$c;
 
     invoke-virtual {p1, v1}, Lcom/meitu/mtmvcore/application/MTMVPlayer;->setOnCompletionListener(Lcom/meitu/mtmvcore/application/MTMVPlayer$c;)V
 
-    .line 4
     iget-object v1, p0, Lcom/meitu/mtmvcore/application/MTMVPlayer;->mOnSeekCompleteListener:Lcom/meitu/mtmvcore/application/MTMVPlayer$j;
 
     invoke-virtual {p1, v1}, Lcom/meitu/mtmvcore/application/MTMVPlayer;->setOnSeekCompleteListener(Lcom/meitu/mtmvcore/application/MTMVPlayer$j;)V
 
-    .line 5
     iget-object v1, p0, Lcom/meitu/mtmvcore/application/MTMVPlayer;->mOnVideoSizeChangedListener:Lcom/meitu/mtmvcore/application/MTMVPlayer$k;
 
     invoke-virtual {p1, v1}, Lcom/meitu/mtmvcore/application/MTMVPlayer;->setOnVideoSizeChangedListener(Lcom/meitu/mtmvcore/application/MTMVPlayer$k;)V
 
-    .line 6
     iget-object v1, p0, Lcom/meitu/mtmvcore/application/MTMVPlayer;->mOnErrorListener:Lcom/meitu/mtmvcore/application/MTMVPlayer$d;
 
     invoke-virtual {p1, v1}, Lcom/meitu/mtmvcore/application/MTMVPlayer;->setOnErrorListener(Lcom/meitu/mtmvcore/application/MTMVPlayer$d;)V
 
-    .line 7
     iget-object v1, p0, Lcom/meitu/mtmvcore/application/MTMVPlayer;->mOnInfoListener:Lcom/meitu/mtmvcore/application/MTMVPlayer$e;
 
     invoke-virtual {p1, v1}, Lcom/meitu/mtmvcore/application/MTMVPlayer;->setOnInfoListener(Lcom/meitu/mtmvcore/application/MTMVPlayer$e;)V
 
-    .line 8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1070,7 +1009,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/mtmvcore/application/MTMVPlayer;->application:Lcom/meitu/mtmvcore/application/MTMVCoreApplication;
 
     invoke-virtual {v1}, Lcom/meitu/mtmvcore/application/MTMVCoreApplication;->getNativeApplication()J
@@ -1079,7 +1017,6 @@
 
     invoke-direct {p0, v1, v2}, Lcom/meitu/mtmvcore/application/MTMVPlayer;->_cleanup(J)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1092,7 +1029,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/mtmvcore/application/MTMVPlayer;->application:Lcom/meitu/mtmvcore/application/MTMVCoreApplication;
 
     invoke-virtual {v1}, Lcom/meitu/mtmvcore/application/MTMVCoreApplication;->getNativeApplication()J
@@ -1105,7 +1041,6 @@
 
     invoke-direct {p0, v1, v2, v3, v4}, Lcom/meitu/mtmvcore/application/MTMVPlayer;->_disableVFXPlayback(JJ)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1118,7 +1053,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/mtmvcore/application/MTMVPlayer;->application:Lcom/meitu/mtmvcore/application/MTMVCoreApplication;
 
     invoke-virtual {v1}, Lcom/meitu/mtmvcore/application/MTMVCoreApplication;->getNativeApplication()J
@@ -1131,7 +1065,6 @@
 
     invoke-direct {p0, v1, v2, v3, v4}, Lcom/meitu/mtmvcore/application/MTMVPlayer;->_enableVFXPlayback(JJ)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1150,7 +1083,6 @@
 
     move-object/from16 v15, p0
 
-    .line 3
     iget-object v2, v15, Lcom/meitu/mtmvcore/application/MTMVPlayer;->application:Lcom/meitu/mtmvcore/application/MTMVCoreApplication;
 
     invoke-virtual {v2}, Lcom/meitu/mtmvcore/application/MTMVCoreApplication;->getNativeApplication()J
@@ -1191,7 +1123,6 @@
 
     invoke-direct/range {v1 .. v18}, Lcom/meitu/mtmvcore/application/MTMVPlayer;->_enableVFXPlayback(JJZZZJJJJJ)V
 
-    .line 4
     invoke-static/range {v19 .. v19}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1209,10 +1140,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0, p1, p2}, Lcom/meitu/mtmvcore/application/MTMVPlayer;->_getCurFramePixel(II)V
 
-    .line 2
     iget-object p1, p0, Lcom/meitu/mtmvcore/application/MTMVPlayer;->mImageByteBuffer:Ljava/nio/ByteBuffer;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1232,7 +1161,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/mtmvcore/application/MTMVPlayer;->application:Lcom/meitu/mtmvcore/application/MTMVCoreApplication;
 
     invoke-virtual {v1}, Lcom/meitu/mtmvcore/application/MTMVCoreApplication;->getNativeApplication()J
@@ -1262,14 +1190,12 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     invoke-virtual {p1}, Ljava/nio/ByteBuffer;->isDirect()Z
 
     move-result v1
 
     invoke-static {v1}, Lcom/meitu/common/base/a;->d(Z)V
 
-    .line 2
     iget-object v1, p0, Lcom/meitu/mtmvcore/application/MTMVPlayer;->application:Lcom/meitu/mtmvcore/application/MTMVCoreApplication;
 
     invoke-virtual {v1}, Lcom/meitu/mtmvcore/application/MTMVCoreApplication;->getNativeApplication()J
@@ -1288,7 +1214,6 @@
 
     invoke-direct/range {v2 .. v8}, Lcom/meitu/mtmvcore/application/MTMVPlayer;->_getCurrentFrame(JLjava/nio/ByteBuffer;III)V
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1307,7 +1232,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/mtmvcore/application/MTMVPlayer;->application:Lcom/meitu/mtmvcore/application/MTMVCoreApplication;
 
     invoke-virtual {v1}, Lcom/meitu/mtmvcore/application/MTMVCoreApplication;->getNativeApplication()J
@@ -1330,7 +1254,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/mtmvcore/application/MTMVPlayer;->debugHardwareSaveMode:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1350,7 +1273,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/mtmvcore/application/MTMVPlayer;->application:Lcom/meitu/mtmvcore/application/MTMVCoreApplication;
 
     invoke-virtual {v1}, Lcom/meitu/mtmvcore/application/MTMVCoreApplication;->getNativeApplication()J
@@ -1378,7 +1300,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/mtmvcore/application/MTMVPlayer;->application:Lcom/meitu/mtmvcore/application/MTMVCoreApplication;
 
     invoke-virtual {v1}, Lcom/meitu/mtmvcore/application/MTMVCoreApplication;->getNativeApplication()J
@@ -1401,10 +1322,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/meitu/mtmvcore/application/MTMVPlayer;->_getFirstCurFrame()V
 
-    .line 2
     iget-object v1, p0, Lcom/meitu/mtmvcore/application/MTMVPlayer;->mImageByteBuffer:Ljava/nio/ByteBuffer;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1424,7 +1343,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/mtmvcore/application/MTMVPlayer;->application:Lcom/meitu/mtmvcore/application/MTMVCoreApplication;
 
     invoke-virtual {v1}, Lcom/meitu/mtmvcore/application/MTMVCoreApplication;->getNativeApplication()J
@@ -1447,7 +1365,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/mtmvcore/application/MTMVPlayer;->application:Lcom/meitu/mtmvcore/application/MTMVCoreApplication;
 
     invoke-virtual {v1}, Lcom/meitu/mtmvcore/application/MTMVCoreApplication;->getNativeApplication()J
@@ -1475,7 +1392,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/mtmvcore/application/MTMVPlayer;->application:Lcom/meitu/mtmvcore/application/MTMVCoreApplication;
 
     invoke-virtual {v1}, Lcom/meitu/mtmvcore/application/MTMVCoreApplication;->getNativeApplication()J
@@ -1503,7 +1419,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/mtmvcore/application/MTMVPlayer;->application:Lcom/meitu/mtmvcore/application/MTMVCoreApplication;
 
     invoke-virtual {v1}, Lcom/meitu/mtmvcore/application/MTMVCoreApplication;->getNativeApplication()J
@@ -1526,7 +1441,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/mtmvcore/application/MTMVPlayer;->videoIFrameInterval:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1543,7 +1457,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/meitu/media/mtmvcore/MTMVConfig;->getVideoOutputBitrate()J
 
     move-result-wide v1
@@ -1562,7 +1475,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/meitu/media/mtmvcore/MTMVConfig;->getVideoCRF()F
 
     move-result v1
@@ -1581,7 +1493,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/meitu/media/mtmvcore/MTMVConfig;->getVideoOutputFrameRate()I
 
     move-result v1
@@ -1598,7 +1509,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/mtmvcore/application/MTMVPlayer;->mVideoSavePath:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1618,7 +1528,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/mtmvcore/application/MTMVPlayer;->application:Lcom/meitu/mtmvcore/application/MTMVCoreApplication;
 
     invoke-virtual {v1}, Lcom/meitu/mtmvcore/application/MTMVCoreApplication;->getNativeApplication()J
@@ -1646,7 +1555,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/mtmvcore/application/MTMVPlayer;->application:Lcom/meitu/mtmvcore/application/MTMVCoreApplication;
 
     invoke-virtual {v1}, Lcom/meitu/mtmvcore/application/MTMVCoreApplication;->getNativeApplication()J
@@ -1674,7 +1582,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/mtmvcore/application/MTMVPlayer;->application:Lcom/meitu/mtmvcore/application/MTMVCoreApplication;
 
     invoke-virtual {v1}, Lcom/meitu/mtmvcore/application/MTMVCoreApplication;->getNativeApplication()J
@@ -1697,15 +1604,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/mtmvcore/application/MTMVPlayer;->mOnBufferingUpdateListener:Lcom/meitu/mtmvcore/application/MTMVPlayer$b;
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-interface {v1, p0, p1}, Lcom/meitu/mtmvcore/application/MTMVPlayer$b;->a(Lcom/meitu/mtmvcore/application/MTMVPlayer;I)V
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1719,15 +1623,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/mtmvcore/application/MTMVPlayer;->mOnCompletionListener:Lcom/meitu/mtmvcore/application/MTMVPlayer$c;
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-interface {v1, p0}, Lcom/meitu/mtmvcore/application/MTMVPlayer$c;->a(Lcom/meitu/mtmvcore/application/MTMVPlayer;)V
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1741,12 +1642,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/mtmvcore/application/MTMVPlayer;->mOnErrorListener:Lcom/meitu/mtmvcore/application/MTMVPlayer$d;
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-interface {v1, p0, p1, p2}, Lcom/meitu/mtmvcore/application/MTMVPlayer$d;->a(Lcom/meitu/mtmvcore/application/MTMVPlayer;II)Z
 
     move-result p1
@@ -1758,7 +1657,6 @@
     :cond_0
     const/4 p1, 0x0
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
@@ -1771,12 +1669,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/mtmvcore/application/MTMVPlayer;->mOnInfoListener:Lcom/meitu/mtmvcore/application/MTMVPlayer$e;
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-interface {v1, p0, p1, p2}, Lcom/meitu/mtmvcore/application/MTMVPlayer$e;->a(Lcom/meitu/mtmvcore/application/MTMVPlayer;II)Z
 
     move-result p1
@@ -1788,7 +1684,6 @@
     :cond_0
     const/4 p1, 0x0
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
@@ -1801,15 +1696,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/mtmvcore/application/MTMVPlayer;->mOnPreparedListener:Lcom/meitu/mtmvcore/application/MTMVPlayer$g;
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-interface {v1, p0}, Lcom/meitu/mtmvcore/application/MTMVPlayer$g;->a(Lcom/meitu/mtmvcore/application/MTMVPlayer;)V
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1823,15 +1715,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/mtmvcore/application/MTMVPlayer;->mOnSeekCompleteListener:Lcom/meitu/mtmvcore/application/MTMVPlayer$j;
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-interface {v1, p0}, Lcom/meitu/mtmvcore/application/MTMVPlayer$j;->a(Lcom/meitu/mtmvcore/application/MTMVPlayer;)V
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1845,7 +1734,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/mtmvcore/application/MTMVPlayer;->mOnVideoSizeChangedListener:Lcom/meitu/mtmvcore/application/MTMVPlayer$k;
 
     if-eqz v1, :cond_0
@@ -1860,10 +1748,8 @@
 
     move v6, p4
 
-    .line 2
     invoke-interface/range {v1 .. v6}, Lcom/meitu/mtmvcore/application/MTMVPlayer$k;->a(Lcom/meitu/mtmvcore/application/MTMVPlayer;IIII)V
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1882,7 +1768,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/mtmvcore/application/MTMVPlayer;->application:Lcom/meitu/mtmvcore/application/MTMVCoreApplication;
 
     invoke-virtual {v1}, Lcom/meitu/mtmvcore/application/MTMVCoreApplication;->getNativeApplication()J
@@ -1891,15 +1776,12 @@
 
     invoke-direct {p0, v1, v2}, Lcom/meitu/mtmvcore/application/MTMVPlayer;->_pause(J)V
 
-    .line 2
     iget-object v1, p0, Lcom/meitu/mtmvcore/application/MTMVPlayer;->mOnPlayerActionListener:Lcom/meitu/mtmvcore/application/MTMVPlayer$f;
 
     if-eqz v1, :cond_0
 
-    .line 3
     invoke-interface {v1}, Lcom/meitu/mtmvcore/application/MTMVPlayer$f;->onPaused()V
 
-    .line 4
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1913,22 +1795,18 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/mtmvcore/application/MTMVPlayer;->mEventHandler:Lcom/meitu/mtmvcore/application/MTMVPlayer$a;
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-virtual {v1, p1, p2, p3, p4}, Landroid/os/Handler;->obtainMessage(IIILjava/lang/Object;)Landroid/os/Message;
 
     move-result-object p1
 
-    .line 3
     iget-object p2, p0, Lcom/meitu/mtmvcore/application/MTMVPlayer;->mEventHandler:Lcom/meitu/mtmvcore/application/MTMVPlayer$a;
 
     invoke-virtual {p2, p1}, Landroid/os/Handler;->sendMessage(Landroid/os/Message;)Z
 
-    .line 4
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1949,10 +1827,8 @@
 
     const-wide/16 v1, -0x1
 
-    .line 1
     invoke-virtual {p0, v1, v2}, Lcom/meitu/mtmvcore/application/MTMVPlayer;->prepareAsync(J)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1970,7 +1846,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 3
     iget-object v1, p0, Lcom/meitu/mtmvcore/application/MTMVPlayer;->application:Lcom/meitu/mtmvcore/application/MTMVCoreApplication;
 
     invoke-virtual {v1}, Lcom/meitu/mtmvcore/application/MTMVCoreApplication;->getNativeApplication()J
@@ -1979,14 +1854,12 @@
 
     invoke-direct {p0, v1, v2, p1, p2}, Lcom/meitu/mtmvcore/application/MTMVPlayer;->_prepareAsync(JJ)V
 
-    .line 4
     iget-object v1, p0, Lcom/meitu/mtmvcore/application/MTMVPlayer;->application:Lcom/meitu/mtmvcore/application/MTMVCoreApplication;
 
     const/4 v2, 0x1
 
     invoke-virtual {v1, v2}, Lcom/meitu/mtmvcore/application/MTMVCoreApplication;->setAllowRender(Z)V
 
-    .line 5
     sget-object v1, Lcom/meitu/mtmvcore/application/MTMVPlayer;->TAG:Ljava/lang/String;
 
     new-instance v2, Ljava/lang/StringBuilder;
@@ -2005,7 +1878,6 @@
 
     invoke-static {v1, p1}, Lcom/meitu/debug/Logger;->b(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2023,10 +1895,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/meitu/mtmvcore/application/MTMVPlayer;->resetListeners()V
 
-    .line 2
     iget-object v1, p0, Lcom/meitu/mtmvcore/application/MTMVPlayer;->application:Lcom/meitu/mtmvcore/application/MTMVCoreApplication;
 
     invoke-virtual {v1}, Lcom/meitu/mtmvcore/application/MTMVCoreApplication;->getNativeApplication()J
@@ -2035,20 +1905,16 @@
 
     invoke-direct {p0, v1, v2}, Lcom/meitu/mtmvcore/application/MTMVPlayer;->_release(J)V
 
-    .line 3
     iget-object v1, p0, Lcom/meitu/mtmvcore/application/MTMVPlayer;->mImageByteBuffer:Ljava/nio/ByteBuffer;
 
     if-eqz v1, :cond_0
 
-    .line 4
     invoke-virtual {v1}, Ljava/nio/ByteBuffer;->clear()Ljava/nio/Buffer;
 
     const/4 v1, 0x0
 
-    .line 5
     iput-object v1, p0, Lcom/meitu/mtmvcore/application/MTMVPlayer;->mImageByteBuffer:Ljava/nio/ByteBuffer;
 
-    .line 6
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -2067,7 +1933,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/mtmvcore/application/MTMVPlayer;->application:Lcom/meitu/mtmvcore/application/MTMVCoreApplication;
 
     invoke-virtual {v1}, Lcom/meitu/mtmvcore/application/MTMVCoreApplication;->getNativeApplication()J
@@ -2076,14 +1941,12 @@
 
     invoke-direct {p0, v1, v2}, Lcom/meitu/mtmvcore/application/MTMVPlayer;->_reset(J)V
 
-    .line 2
     iget-object v1, p0, Lcom/meitu/mtmvcore/application/MTMVPlayer;->mEventHandler:Lcom/meitu/mtmvcore/application/MTMVPlayer$a;
 
     const/4 v2, 0x0
 
     invoke-virtual {v1, v2}, Landroid/os/Handler;->removeCallbacksAndMessages(Ljava/lang/Object;)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2098,28 +1961,20 @@
 
     const/4 v1, 0x0
 
-    .line 1
     iput-object v1, p0, Lcom/meitu/mtmvcore/application/MTMVPlayer;->mOnPreparedListener:Lcom/meitu/mtmvcore/application/MTMVPlayer$g;
 
-    .line 2
     iput-object v1, p0, Lcom/meitu/mtmvcore/application/MTMVPlayer;->mOnBufferingUpdateListener:Lcom/meitu/mtmvcore/application/MTMVPlayer$b;
 
-    .line 3
     iput-object v1, p0, Lcom/meitu/mtmvcore/application/MTMVPlayer;->mOnCompletionListener:Lcom/meitu/mtmvcore/application/MTMVPlayer$c;
 
-    .line 4
     iput-object v1, p0, Lcom/meitu/mtmvcore/application/MTMVPlayer;->mOnSeekCompleteListener:Lcom/meitu/mtmvcore/application/MTMVPlayer$j;
 
-    .line 5
     iput-object v1, p0, Lcom/meitu/mtmvcore/application/MTMVPlayer;->mOnVideoSizeChangedListener:Lcom/meitu/mtmvcore/application/MTMVPlayer$k;
 
-    .line 6
     iput-object v1, p0, Lcom/meitu/mtmvcore/application/MTMVPlayer;->mOnErrorListener:Lcom/meitu/mtmvcore/application/MTMVPlayer$d;
 
-    .line 7
     iput-object v1, p0, Lcom/meitu/mtmvcore/application/MTMVPlayer;->mOnInfoListener:Lcom/meitu/mtmvcore/application/MTMVPlayer$e;
 
-    .line 8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2137,7 +1992,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/mtmvcore/application/MTMVPlayer;->application:Lcom/meitu/mtmvcore/application/MTMVCoreApplication;
 
     invoke-virtual {v1}, Lcom/meitu/mtmvcore/application/MTMVCoreApplication;->getNativeApplication()J
@@ -2152,7 +2006,6 @@
 
     invoke-direct/range {v2 .. v7}, Lcom/meitu/mtmvcore/application/MTMVPlayer;->_seekFileTo(JJZ)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2170,7 +2023,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/mtmvcore/application/MTMVPlayer;->application:Lcom/meitu/mtmvcore/application/MTMVCoreApplication;
 
     invoke-virtual {v1}, Lcom/meitu/mtmvcore/application/MTMVCoreApplication;->getNativeApplication()J
@@ -2185,7 +2037,6 @@
 
     invoke-direct/range {v2 .. v7}, Lcom/meitu/mtmvcore/application/MTMVPlayer;->_seekTo(JJZ)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2206,10 +2057,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/mtmvcore/application/MTMVPlayer;->mMTAVRecorder:Ljava/lang/ref/WeakReference;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2222,10 +2071,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/meitu/mtmvcore/application/MTMVPlayer;->debugHardwareSaveMode:I
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2243,7 +2090,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/mtmvcore/application/MTMVPlayer;->application:Lcom/meitu/mtmvcore/application/MTMVCoreApplication;
 
     invoke-virtual {v1}, Lcom/meitu/mtmvcore/application/MTMVCoreApplication;->getNativeApplication()J
@@ -2252,7 +2098,6 @@
 
     invoke-direct {p0, v1, v2, p1, p2}, Lcom/meitu/mtmvcore/application/MTMVPlayer;->_setFirstCurFrame(JII)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2272,14 +2117,12 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     invoke-virtual {p1}, Ljava/nio/ByteBuffer;->isDirect()Z
 
     move-result v1
 
     invoke-static {v1}, Lcom/meitu/common/base/a;->d(Z)V
 
-    .line 2
     iget-object v1, p0, Lcom/meitu/mtmvcore/application/MTMVPlayer;->application:Lcom/meitu/mtmvcore/application/MTMVCoreApplication;
 
     invoke-virtual {v1}, Lcom/meitu/mtmvcore/application/MTMVCoreApplication;->getNativeApplication()J
@@ -2298,7 +2141,6 @@
 
     invoke-direct/range {v2 .. v8}, Lcom/meitu/mtmvcore/application/MTMVPlayer;->_setFirstFrameSaveBuffer(JLjava/nio/ByteBuffer;III)V
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -2319,14 +2161,12 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     sget-boolean v1, Lcom/meitu/utils/system/SystemUtils;->g:Z
 
     const-string v2, "Hardware encode mode just can open Android API 18 or later"
 
     invoke-static {v1, v2}, Lcom/meitu/common/base/a;->e(ZLjava/lang/Object;)V
 
-    .line 2
     :cond_0
     iget-object v1, p0, Lcom/meitu/mtmvcore/application/MTMVPlayer;->application:Lcom/meitu/mtmvcore/application/MTMVCoreApplication;
 
@@ -2336,7 +2176,6 @@
 
     invoke-direct {p0, v1, v2, p1}, Lcom/meitu/mtmvcore/application/MTMVPlayer;->_setHardwareMode(JZ)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2349,15 +2188,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/meitu/mtmvcore/application/MTMVPlayer;->videoIFrameInterval:I
 
     int-to-float p1, p1
 
-    .line 2
     invoke-direct {p0, p1}, Lcom/meitu/mtmvcore/application/MTMVPlayer;->_setIFrameInternal(F)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2375,7 +2211,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/mtmvcore/application/MTMVPlayer;->application:Lcom/meitu/mtmvcore/application/MTMVCoreApplication;
 
     invoke-virtual {v1}, Lcom/meitu/mtmvcore/application/MTMVCoreApplication;->getNativeApplication()J
@@ -2384,7 +2219,6 @@
 
     invoke-direct {p0, v1, v2, p1}, Lcom/meitu/mtmvcore/application/MTMVPlayer;->_setLooping(JZ)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2399,10 +2233,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/mtmvcore/application/MTMVPlayer;->mOnBufferingUpdateListener:Lcom/meitu/mtmvcore/application/MTMVPlayer$b;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2415,10 +2247,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/mtmvcore/application/MTMVPlayer;->mOnCompletionListener:Lcom/meitu/mtmvcore/application/MTMVPlayer$c;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2431,10 +2261,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/mtmvcore/application/MTMVPlayer;->mOnErrorListener:Lcom/meitu/mtmvcore/application/MTMVPlayer$d;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2447,10 +2275,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/mtmvcore/application/MTMVPlayer;->mOnInfoListener:Lcom/meitu/mtmvcore/application/MTMVPlayer$e;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2463,7 +2289,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/mtmvcore/application/MTMVPlayer;->mOnPlayerActionListener:Lcom/meitu/mtmvcore/application/MTMVPlayer$f;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2478,10 +2303,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/mtmvcore/application/MTMVPlayer;->mOnPreparedListener:Lcom/meitu/mtmvcore/application/MTMVPlayer$g;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2494,7 +2317,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/mtmvcore/application/MTMVPlayer;->mOnSaveInfoListener:Lcom/meitu/mtmvcore/application/MTMVPlayer$h;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2509,10 +2331,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/mtmvcore/application/MTMVPlayer;->mOnSaveListenerInternal:Lcom/meitu/mtmvcore/application/MTMVPlayer$i;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2525,10 +2345,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/mtmvcore/application/MTMVPlayer;->mOnSeekCompleteListener:Lcom/meitu/mtmvcore/application/MTMVPlayer$j;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2543,10 +2361,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/mtmvcore/application/MTMVPlayer;->mOnVideoSizeChangedListener:Lcom/meitu/mtmvcore/application/MTMVPlayer$k;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2559,7 +2375,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/mtmvcore/application/MTMVPlayer;->application:Lcom/meitu/mtmvcore/application/MTMVCoreApplication;
 
     invoke-virtual {v1}, Lcom/meitu/mtmvcore/application/MTMVCoreApplication;->getNativeApplication()J
@@ -2596,10 +2411,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/media/mtmvcore/MTMVConfig;->setVideoOutputFrameRate(I)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2617,7 +2430,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/mtmvcore/application/MTMVPlayer;->application:Lcom/meitu/mtmvcore/application/MTMVCoreApplication;
 
     invoke-virtual {v1}, Lcom/meitu/mtmvcore/application/MTMVCoreApplication;->getNativeApplication()J
@@ -2626,7 +2438,6 @@
 
     invoke-direct {p0, v1, v2, p1}, Lcom/meitu/mtmvcore/application/MTMVPlayer;->_setSaveMode(JZ)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2653,11 +2464,9 @@
     :cond_0
     const/4 v1, 0x0
 
-    .line 1
     :goto_0
     invoke-static {v1}, Lcom/meitu/common/base/a;->d(Z)V
 
-    .line 2
     iget-object v1, p0, Lcom/meitu/mtmvcore/application/MTMVPlayer;->application:Lcom/meitu/mtmvcore/application/MTMVCoreApplication;
 
     invoke-virtual {v1}, Lcom/meitu/mtmvcore/application/MTMVCoreApplication;->getNativeApplication()J
@@ -2670,7 +2479,6 @@
 
     invoke-direct {p0, v1, v2, v3, v4}, Lcom/meitu/mtmvcore/application/MTMVPlayer;->_setTimeLine(JJ)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2697,14 +2505,11 @@
     :cond_0
     const/4 v1, 0x0
 
-    .line 1
     :goto_0
     invoke-static {v1}, Lcom/meitu/common/base/a;->d(Z)V
 
-    .line 2
     iput-object p1, p0, Lcom/meitu/mtmvcore/application/MTMVPlayer;->mVideoSavePath:Ljava/lang/String;
 
-    .line 3
     iget-object v1, p0, Lcom/meitu/mtmvcore/application/MTMVPlayer;->application:Lcom/meitu/mtmvcore/application/MTMVCoreApplication;
 
     invoke-virtual {v1}, Lcom/meitu/mtmvcore/application/MTMVCoreApplication;->getNativeApplication()J
@@ -2713,7 +2518,6 @@
 
     invoke-direct {p0, v1, v2, p1}, Lcom/meitu/mtmvcore/application/MTMVPlayer;->_setVideSavePath(JLjava/lang/String;)V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2728,10 +2532,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1, p2}, Lcom/meitu/media/mtmvcore/MTMVConfig;->setVideoOutputBitrate(J)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2746,10 +2548,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/media/mtmvcore/MTMVConfig;->setVideoCRF(F)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2768,7 +2568,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/mtmvcore/application/MTMVPlayer;->application:Lcom/meitu/mtmvcore/application/MTMVCoreApplication;
 
     invoke-virtual {v1}, Lcom/meitu/mtmvcore/application/MTMVCoreApplication;->getNativeApplication()J
@@ -2777,7 +2576,6 @@
 
     invoke-direct {p0, v1, v2, p1}, Lcom/meitu/mtmvcore/application/MTMVPlayer;->_setVolume(JF)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2795,7 +2593,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/mtmvcore/application/MTMVPlayer;->application:Lcom/meitu/mtmvcore/application/MTMVCoreApplication;
 
     invoke-virtual {v1}, Lcom/meitu/mtmvcore/application/MTMVCoreApplication;->getNativeApplication()J
@@ -2804,7 +2601,6 @@
 
     invoke-direct {p0, v1, v2}, Lcom/meitu/mtmvcore/application/MTMVPlayer;->_start(J)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2824,10 +2620,8 @@
 
     const/4 v1, 0x1
 
-    .line 1
     invoke-virtual {p0, v1}, Lcom/meitu/mtmvcore/application/MTMVPlayer;->stopAndRelease(Z)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2845,14 +2639,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/mtmvcore/application/MTMVPlayer;->application:Lcom/meitu/mtmvcore/application/MTMVCoreApplication;
 
     const/4 v2, 0x0
 
     invoke-virtual {v1, v2}, Lcom/meitu/mtmvcore/application/MTMVCoreApplication;->setAllowRender(Z)V
 
-    .line 2
     sget-object v1, Lcom/meitu/mtmvcore/application/MTMVPlayer;->TAG:Ljava/lang/String;
 
     new-instance v3, Ljava/lang/StringBuilder;
@@ -2883,7 +2675,6 @@
 
     invoke-static {v1, v3}, Lcom/meitu/debug/Logger;->b(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 3
     iget-object v3, p0, Lcom/meitu/mtmvcore/application/MTMVPlayer;->application:Lcom/meitu/mtmvcore/application/MTMVCoreApplication;
 
     invoke-virtual {v3}, Lcom/meitu/mtmvcore/application/MTMVCoreApplication;->getNativeApplication()J
@@ -2896,7 +2687,6 @@
 
     if-nez v3, :cond_1
 
-    .line 4
     invoke-virtual {p0}, Lcom/meitu/mtmvcore/application/MTMVPlayer;->getSaveMode()Z
 
     move-result v3
@@ -2919,7 +2709,6 @@
 
     if-eqz v3, :cond_0
 
-    .line 5
     iget-object v3, p0, Lcom/meitu/mtmvcore/application/MTMVPlayer;->mMTAVRecorder:Ljava/lang/ref/WeakReference;
 
     invoke-virtual {v3}, Ljava/lang/ref/WeakReference;->get()Ljava/lang/Object;
@@ -2933,17 +2722,14 @@
     :cond_0
     if-eqz p1, :cond_1
 
-    .line 6
     iget-object p1, p0, Lcom/meitu/mtmvcore/application/MTMVPlayer;->application:Lcom/meitu/mtmvcore/application/MTMVCoreApplication;
 
     invoke-virtual {p1}, Lcom/meitu/mtmvcore/application/MTMVCoreApplication;->releaseGL_stop()V
 
     const-string p1, "releaseGL_stop finish"
 
-    .line 7
     invoke-static {v1, p1}, Lcom/meitu/debug/Logger;->x(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 8
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -2957,7 +2743,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/mtmvcore/application/MTMVPlayer;->application:Lcom/meitu/mtmvcore/application/MTMVCoreApplication;
 
     invoke-virtual {v1}, Lcom/meitu/mtmvcore/application/MTMVCoreApplication;->getNativeApplication()J
@@ -2966,7 +2751,6 @@
 
     invoke-direct {p0, v1, v2}, Lcom/meitu/mtmvcore/application/MTMVPlayer;->_switchAudioTrack(J)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2984,7 +2768,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/mtmvcore/application/MTMVPlayer;->application:Lcom/meitu/mtmvcore/application/MTMVCoreApplication;
 
     invoke-virtual {v1}, Lcom/meitu/mtmvcore/application/MTMVCoreApplication;->getNativeApplication()J
@@ -3007,7 +2790,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/mtmvcore/application/MTMVPlayer;->application:Lcom/meitu/mtmvcore/application/MTMVCoreApplication;
 
     invoke-virtual {v1}, Lcom/meitu/mtmvcore/application/MTMVCoreApplication;->getNativeApplication()J
@@ -3016,7 +2798,6 @@
 
     invoke-direct {p0, v1, v2}, Lcom/meitu/mtmvcore/application/MTMVPlayer;->_tagVolumeStateChange(J)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -3034,7 +2815,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/mtmvcore/application/MTMVPlayer;->application:Lcom/meitu/mtmvcore/application/MTMVCoreApplication;
 
     invoke-virtual {v1}, Lcom/meitu/mtmvcore/application/MTMVCoreApplication;->getNativeApplication()J
@@ -3043,7 +2823,6 @@
 
     invoke-direct {p0, v1, v2}, Lcom/meitu/mtmvcore/application/MTMVPlayer;->_touchSeekBegin(J)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -3061,7 +2840,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/mtmvcore/application/MTMVPlayer;->application:Lcom/meitu/mtmvcore/application/MTMVCoreApplication;
 
     invoke-virtual {v1}, Lcom/meitu/mtmvcore/application/MTMVCoreApplication;->getNativeApplication()J
@@ -3070,7 +2848,6 @@
 
     invoke-direct {p0, v1, v2, p1, p2}, Lcom/meitu/mtmvcore/application/MTMVPlayer;->_touchSeekEnd(JJ)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -3088,7 +2865,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/mtmvcore/application/MTMVPlayer;->application:Lcom/meitu/mtmvcore/application/MTMVCoreApplication;
 
     invoke-virtual {v1}, Lcom/meitu/mtmvcore/application/MTMVCoreApplication;->getNativeApplication()J
@@ -3097,7 +2873,6 @@
 
     invoke-direct {p0, v1, v2, p1, p2}, Lcom/meitu/mtmvcore/application/MTMVPlayer;->_touchSeekFileEnd(JJ)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -3115,7 +2890,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/mtmvcore/application/MTMVPlayer;->application:Lcom/meitu/mtmvcore/application/MTMVCoreApplication;
 
     invoke-virtual {v1}, Lcom/meitu/mtmvcore/application/MTMVCoreApplication;->getNativeApplication()J
@@ -3124,7 +2898,6 @@
 
     invoke-direct {p0, v1, v2, p1, p2}, Lcom/meitu/mtmvcore/application/MTMVPlayer;->_touchSeekFileTo(JJ)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -3142,7 +2915,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/mtmvcore/application/MTMVPlayer;->application:Lcom/meitu/mtmvcore/application/MTMVCoreApplication;
 
     invoke-virtual {v1}, Lcom/meitu/mtmvcore/application/MTMVCoreApplication;->getNativeApplication()J
@@ -3151,7 +2923,6 @@
 
     invoke-direct {p0, v1, v2, p1, p2}, Lcom/meitu/mtmvcore/application/MTMVPlayer;->_touchSeekTo(JJ)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

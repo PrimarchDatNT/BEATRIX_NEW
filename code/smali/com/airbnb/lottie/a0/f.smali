@@ -44,7 +44,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Landroid/view/animation/LinearInterpolator;
 
     invoke-direct {v0}, Landroid/view/animation/LinearInterpolator;-><init>()V
@@ -64,16 +63,12 @@
         }
     .end annotation
 
-    .line 2
     invoke-direct {p0}, Lcom/airbnb/lottie/a0/j;-><init>()V
 
-    .line 3
     iput-object p1, p0, Lcom/airbnb/lottie/a0/f;->d:Ljava/lang/Object;
 
-    .line 4
     iput-object p2, p0, Lcom/airbnb/lottie/a0/f;->e:Ljava/lang/Object;
 
-    .line 5
     iput-object p3, p0, Lcom/airbnb/lottie/a0/f;->f:Landroid/view/animation/Interpolator;
 
     return-void
@@ -91,7 +86,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/airbnb/lottie/a0/f;->f:Landroid/view/animation/Interpolator;
 
     invoke-virtual {p1}, Lcom/airbnb/lottie/a0/b;->e()F
@@ -102,7 +96,6 @@
 
     move-result p1
 
-    .line 2
     iget-object v0, p0, Lcom/airbnb/lottie/a0/f;->d:Ljava/lang/Object;
 
     iget-object v1, p0, Lcom/airbnb/lottie/a0/f;->e:Ljava/lang/Object;

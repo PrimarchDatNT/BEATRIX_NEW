@@ -39,14 +39,12 @@
 
     const-string v4, "variantId"
 
-    .line 1
     filled-new-array {v0, v1, v2, v3, v4}, [Ljava/lang/String;
 
     move-result-object v0
 
     sput-object v0, Lcom/google/firebase/abt/c;->g:[Ljava/lang/String;
 
-    .line 2
     new-instance v0, Ljava/text/SimpleDateFormat;
 
     sget-object v1, Ljava/util/Locale;->US:Ljava/util/Locale;
@@ -65,25 +63,18 @@
     .annotation build Landroidx/annotation/VisibleForTesting;
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/google/firebase/abt/c;->a:Ljava/lang/String;
 
-    .line 3
     iput-object p2, p0, Lcom/google/firebase/abt/c;->b:Ljava/lang/String;
 
-    .line 4
     iput-object p3, p0, Lcom/google/firebase/abt/c;->c:Ljava/lang/String;
 
-    .line 5
     iput-object p4, p0, Lcom/google/firebase/abt/c;->d:Ljava/util/Date;
 
-    .line 6
     iput-wide p5, p0, Lcom/google/firebase/abt/c;->e:J
 
-    .line 7
     iput-wide p7, p0, Lcom/google/firebase/abt/c;->f:J
 
     return-void
@@ -110,12 +101,10 @@
 
     const-string v0, "triggerEvent"
 
-    .line 1
     new-instance v1, Ljava/util/ArrayList;
 
     invoke-direct {v1}, Ljava/util/ArrayList;-><init>()V
 
-    .line 2
     sget-object v2, Lcom/google/firebase/abt/c;->g:[Ljava/lang/String;
 
     array-length v3, v2
@@ -129,14 +118,12 @@
 
     aget-object v6, v2, v5
 
-    .line 3
     invoke-interface {p0, v6}, Ljava/util/Map;->containsKey(Ljava/lang/Object;)Z
 
     move-result v7
 
     if-nez v7, :cond_0
 
-    .line 4
     invoke-interface {v1, v6}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
     :cond_0
@@ -144,7 +131,6 @@
 
     goto :goto_0
 
-    .line 5
     :cond_1
     invoke-interface {v1}, Ljava/util/List;->isEmpty()Z
 
@@ -152,13 +138,11 @@
 
     if-eqz v2, :cond_3
 
-    .line 6
     :try_start_0
     sget-object v1, Lcom/google/firebase/abt/c;->h:Ljava/text/DateFormat;
 
     const-string v2, "experimentStartTime"
 
-    .line 7
     invoke-interface {p0, v2}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v2
@@ -171,7 +155,6 @@
 
     const-string v1, "triggerTimeoutMillis"
 
-    .line 8
     invoke-interface {p0, v1}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v1
@@ -184,7 +167,6 @@
 
     const-string v1, "timeToLiveMillis"
 
-    .line 9
     invoke-interface {p0, v1}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v1
@@ -195,12 +177,10 @@
 
     move-result-wide v10
 
-    .line 10
     new-instance v1, Lcom/google/firebase/abt/c;
 
     const-string v2, "experimentId"
 
-    .line 11
     invoke-interface {p0, v2}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v2
@@ -211,7 +191,6 @@
 
     const-string v2, "variantId"
 
-    .line 12
     invoke-interface {p0, v2}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v2
@@ -220,14 +199,12 @@
 
     check-cast v5, Ljava/lang/String;
 
-    .line 13
     invoke-interface {p0, v0}, Ljava/util/Map;->containsKey(Ljava/lang/Object;)Z
 
     move-result v2
 
     if-eqz v2, :cond_2
 
-    .line 14
     invoke-interface {p0, v0}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p0
@@ -244,7 +221,6 @@
 
     move-object v3, v1
 
-    .line 15
     invoke-direct/range {v3 .. v11}, Lcom/google/firebase/abt/c;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;JJ)V
     :try_end_0
     .catch Ljava/text/ParseException; {:try_start_0 .. :try_end_0} :catch_1
@@ -255,7 +231,6 @@
     :catch_0
     move-exception p0
 
-    .line 16
     new-instance v0, Lcom/google/firebase/abt/AbtException;
 
     const-string v1, "Could not process experiment: one of the durations could not be converted into a long."
@@ -267,7 +242,6 @@
     :catch_1
     move-exception p0
 
-    .line 17
     new-instance v0, Lcom/google/firebase/abt/AbtException;
 
     const-string v1, "Could not process experiment: parsing experiment start time failed."
@@ -276,7 +250,6 @@
 
     throw v0
 
-    .line 18
     :cond_3
     new-instance p0, Lcom/google/firebase/abt/AbtException;
 
@@ -288,7 +261,6 @@
 
     const-string v1, "The following keys are missing from the experiment info map: %s"
 
-    .line 19
     invoke-static {v1, v0}, Ljava/lang/String;->format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object v0
@@ -303,7 +275,6 @@
 .method final b()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/abt/c;->a:Ljava/lang/String;
 
     return-object v0
@@ -312,7 +283,6 @@
 .method final c()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/abt/c;->b:Ljava/lang/String;
 
     return-object v0
@@ -321,7 +291,6 @@
 .method final d()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/abt/c;->c:Ljava/lang/String;
 
     return-object v0
@@ -330,7 +299,6 @@
 .method final e()J
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/abt/c;->d:Ljava/util/Date;
 
     invoke-virtual {v0}, Ljava/util/Date;->getTime()J
@@ -343,7 +311,6 @@
 .method final f()J
     .locals 2
 
-    .line 1
     iget-wide v0, p0, Lcom/google/firebase/abt/c;->e:J
 
     return-wide v0
@@ -352,7 +319,6 @@
 .method final g()J
     .locals 2
 
-    .line 1
     iget-wide v0, p0, Lcom/google/firebase/abt/c;->f:J
 
     return-wide v0

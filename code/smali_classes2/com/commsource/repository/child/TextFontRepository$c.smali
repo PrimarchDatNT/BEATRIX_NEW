@@ -58,17 +58,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/repository/child/TextFontRepository;->v:Lcom/commsource/repository/child/TextFontRepository;
 
     invoke-static {v1}, Lcom/commsource/repository/child/TextFontRepository;->t(Lcom/commsource/repository/child/TextFontRepository;)Ljava/util/List;
 
     move-result-object v2
 
-    .line 2
     invoke-static {v1, v2}, Lcom/commsource/repository/child/TextFontRepository;->w(Lcom/commsource/repository/child/TextFontRepository;Ljava/util/List;)V
 
-    .line 3
     invoke-virtual {v1}, Lcom/commsource/repository/child/TextFontRepository;->A()Landroidx/lifecycle/MutableLiveData;
 
     move-result-object v2
@@ -79,14 +76,12 @@
 
     invoke-virtual {v2, v3}, Landroidx/lifecycle/MutableLiveData;->postValue(Ljava/lang/Object;)V
 
-    .line 4
     invoke-static {v1}, Lcom/commsource/repository/child/TextFontRepository;->p(Lcom/commsource/repository/child/TextFontRepository;)Lcom/commsource/repository/f;
 
     move-result-object v1
 
     invoke-virtual {v1}, Lcom/commsource/repository/f;->d()V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

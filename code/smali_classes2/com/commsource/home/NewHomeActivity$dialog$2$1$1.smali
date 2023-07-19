@@ -70,7 +70,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Lcom/commsource/widget/dialog/delegate/d/g;
 
     invoke-virtual {p0, p1}, Lcom/commsource/home/NewHomeActivity$dialog$2$1$1;->invoke(Lcom/commsource/widget/dialog/delegate/d/g;)V
@@ -99,10 +98,8 @@
 
     const-string v1, "BeautyPlus Dialog"
 
-    .line 2
     invoke-static {p1, v1}, Lcom/commsource/widget/dialog/delegate/XDialogKt;->h(Lcom/commsource/widget/dialog/delegate/d/a;Ljava/lang/String;)V
 
-    .line 3
     sget-object v1, Lcom/commsource/home/NewHomeActivity$dialog$2$1$1$1;->INSTANCE:Lcom/commsource/home/NewHomeActivity$dialog$2$1$1$1;
 
     const/4 v2, 0x0
@@ -111,13 +108,10 @@
 
     invoke-static {p1, v2, v1, v3, v2}, Lcom/commsource/widget/dialog/delegate/XDialogKt;->f(Lcom/commsource/widget/dialog/delegate/d/a;Ljava/lang/String;Lcotlin/jvm/u/l;ILjava/lang/Object;)V
 
-    .line 4
     invoke-static {p1}, Lcom/commsource/widget/dialog/delegate/XDialogKt;->o(Lcom/commsource/widget/dialog/delegate/d/a;)Lcom/commsource/widget/dialog/delegate/d/a;
 
-    .line 5
     invoke-virtual {p1, v3}, Lcom/commsource/widget/dialog/delegate/d/a;->v(Z)V
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

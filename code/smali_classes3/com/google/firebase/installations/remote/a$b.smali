@@ -30,7 +30,6 @@
 .method constructor <init>()V
     .locals 0
 
-    .line 2
     invoke-direct {p0}, Lcom/google/firebase/installations/remote/InstallationResponse$a;-><init>()V
 
     return-void
@@ -39,38 +38,32 @@
 .method private constructor <init>(Lcom/google/firebase/installations/remote/InstallationResponse;)V
     .locals 1
 
-    .line 3
     invoke-direct {p0}, Lcom/google/firebase/installations/remote/InstallationResponse$a;-><init>()V
 
-    .line 4
     invoke-virtual {p1}, Lcom/google/firebase/installations/remote/InstallationResponse;->f()Ljava/lang/String;
 
     move-result-object v0
 
     iput-object v0, p0, Lcom/google/firebase/installations/remote/a$b;->a:Ljava/lang/String;
 
-    .line 5
     invoke-virtual {p1}, Lcom/google/firebase/installations/remote/InstallationResponse;->c()Ljava/lang/String;
 
     move-result-object v0
 
     iput-object v0, p0, Lcom/google/firebase/installations/remote/a$b;->b:Ljava/lang/String;
 
-    .line 6
     invoke-virtual {p1}, Lcom/google/firebase/installations/remote/InstallationResponse;->d()Ljava/lang/String;
 
     move-result-object v0
 
     iput-object v0, p0, Lcom/google/firebase/installations/remote/a$b;->c:Ljava/lang/String;
 
-    .line 7
     invoke-virtual {p1}, Lcom/google/firebase/installations/remote/InstallationResponse;->b()Lcom/google/firebase/installations/remote/TokenResult;
 
     move-result-object v0
 
     iput-object v0, p0, Lcom/google/firebase/installations/remote/a$b;->d:Lcom/google/firebase/installations/remote/TokenResult;
 
-    .line 8
     invoke-virtual {p1}, Lcom/google/firebase/installations/remote/InstallationResponse;->e()Lcom/google/firebase/installations/remote/InstallationResponse$ResponseCode;
 
     move-result-object p1
@@ -83,7 +76,6 @@
 .method synthetic constructor <init>(Lcom/google/firebase/installations/remote/InstallationResponse;Lcom/google/firebase/installations/remote/a$a;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/google/firebase/installations/remote/a$b;-><init>(Lcom/google/firebase/installations/remote/InstallationResponse;)V
 
     return-void
@@ -94,7 +86,6 @@
 .method public a()Lcom/google/firebase/installations/remote/InstallationResponse;
     .locals 8
 
-    .line 1
     new-instance v7, Lcom/google/firebase/installations/remote/a;
 
     iget-object v1, p0, Lcom/google/firebase/installations/remote/a$b;->a:Ljava/lang/String;
@@ -119,7 +110,6 @@
 .method public b(Lcom/google/firebase/installations/remote/TokenResult;)Lcom/google/firebase/installations/remote/InstallationResponse$a;
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/firebase/installations/remote/a$b;->d:Lcom/google/firebase/installations/remote/TokenResult;
 
     return-object p0
@@ -128,7 +118,6 @@
 .method public c(Ljava/lang/String;)Lcom/google/firebase/installations/remote/InstallationResponse$a;
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/firebase/installations/remote/a$b;->b:Ljava/lang/String;
 
     return-object p0
@@ -137,7 +126,6 @@
 .method public d(Ljava/lang/String;)Lcom/google/firebase/installations/remote/InstallationResponse$a;
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/firebase/installations/remote/a$b;->c:Ljava/lang/String;
 
     return-object p0
@@ -146,7 +134,6 @@
 .method public e(Lcom/google/firebase/installations/remote/InstallationResponse$ResponseCode;)Lcom/google/firebase/installations/remote/InstallationResponse$a;
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/firebase/installations/remote/a$b;->e:Lcom/google/firebase/installations/remote/InstallationResponse$ResponseCode;
 
     return-object p0
@@ -155,7 +142,6 @@
 .method public f(Ljava/lang/String;)Lcom/google/firebase/installations/remote/InstallationResponse$a;
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/firebase/installations/remote/a$b;->a:Ljava/lang/String;
 
     return-object p0

@@ -43,7 +43,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/function/ar/StudioArFragment$a;->a:Lcom/commsource/studio/function/ar/StudioArFragment;
 
     invoke-virtual {v1}, Lcom/commsource/studio/function/BaseSubFragment;->n0()Lcom/commsource/beautyplus/router/RouterEntity;
@@ -52,7 +51,6 @@
 
     if-eqz v1, :cond_1
 
-    .line 2
     :try_start_0
     invoke-static {v1}, Lcom/commsource/beautyplus/router/d;->a(Lcom/commsource/beautyplus/router/RouterEntity;)Ljava/lang/String;
 
@@ -64,7 +62,6 @@
 
     move-result v2
 
-    .line 3
     iget-object v3, p0, Lcom/commsource/studio/function/ar/StudioArFragment$a;->a:Lcom/commsource/studio/function/ar/StudioArFragment;
 
     invoke-virtual {v3}, Lcom/commsource/studio/function/ar/StudioArFragment;->C1()Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/c1;
@@ -73,7 +70,6 @@
 
     invoke-virtual {v3, v2}, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/c1;->D(I)V
 
-    .line 4
     :cond_0
     invoke-static {v1}, Lcom/commsource/beautyplus/router/d;->b(Lcom/commsource/beautyplus/router/RouterEntity;)Ljava/lang/String;
 
@@ -85,7 +81,6 @@
 
     move-result v1
 
-    .line 5
     iget-object v2, p0, Lcom/commsource/studio/function/ar/StudioArFragment$a;->a:Lcom/commsource/studio/function/ar/StudioArFragment;
 
     invoke-virtual {v2}, Lcom/commsource/studio/function/ar/StudioArFragment;->C1()Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/c1;
@@ -96,7 +91,6 @@
 
     invoke-virtual {v2, v1, v3}, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/c1;->z(IZ)V
 
-    .line 6
     sget-object v1, Lcotlin/t1;->a:Lcotlin/t1;
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
@@ -106,12 +100,10 @@
     :catch_0
     move-exception v1
 
-    .line 7
     invoke-virtual {v1}, Ljava/lang/Exception;->printStackTrace()V
 
     sget-object v1, Lcotlin/t1;->a:Lcotlin/t1;
 
-    .line 8
     :cond_1
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

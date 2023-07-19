@@ -13,7 +13,6 @@
 .method constructor <init>(Lcom/google/ar/core/m0;Ljava/util/concurrent/atomic/AtomicBoolean;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/ar/core/l0;->c:Lcom/google/ar/core/m0;
 
     iput-object p2, p0, Lcom/google/ar/core/l0;->b:Ljava/util/concurrent/atomic/AtomicBoolean;
@@ -33,7 +32,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/ar/core/l0;->b:Ljava/util/concurrent/atomic/AtomicBoolean;
 
     const/4 v1, 0x1
@@ -51,7 +49,6 @@
 
     const-string v1, "error.code"
 
-    .line 2
     invoke-virtual {p1, v1, v0}, Landroid/os/Bundle;->getInt(Ljava/lang/String;I)I
 
     move-result v0
@@ -60,7 +57,6 @@
 
     const-string v2, "install.status"
 
-    .line 3
     invoke-virtual {p1, v2, v1}, Landroid/os/Bundle;->getInt(Ljava/lang/String;I)I
 
     move-result v1
@@ -69,7 +65,6 @@
 
     if-ne v1, v2, :cond_1
 
-    .line 4
     iget-object p1, p0, Lcom/google/ar/core/l0;->c:Lcom/google/ar/core/m0;
 
     iget-object p1, p1, Lcom/google/ar/core/m0;->b:Lcom/google/ar/core/g0;
@@ -85,7 +80,6 @@
 
     const/16 p1, 0x33
 
-    .line 5
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1, p1}, Ljava/lang/StringBuilder;-><init>(I)V
@@ -108,7 +102,6 @@
 
     invoke-static {v0, p1}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 6
     iget-object p1, p0, Lcom/google/ar/core/l0;->c:Lcom/google/ar/core/m0;
 
     iget-object v0, p1, Lcom/google/ar/core/m0;->c:Lcom/google/ar/core/e0;
@@ -124,14 +117,12 @@
     :cond_2
     const-string v0, "resolution.intent"
 
-    .line 7
     invoke-virtual {p1, v0}, Landroid/os/Bundle;->containsKey(Ljava/lang/String;)Z
 
     move-result v0
 
     if-eqz v0, :cond_3
 
-    .line 8
     iget-object v0, p0, Lcom/google/ar/core/l0;->c:Lcom/google/ar/core/m0;
 
     iget-object v1, v0, Lcom/google/ar/core/m0;->c:Lcom/google/ar/core/e0;
@@ -151,7 +142,6 @@
 
     packed-switch v1, :pswitch_data_0
 
-    .line 9
     iget-object p1, p0, Lcom/google/ar/core/l0;->c:Lcom/google/ar/core/m0;
 
     iget-object p1, p1, Lcom/google/ar/core/m0;->b:Lcom/google/ar/core/g0;
@@ -180,7 +170,6 @@
 
     return-void
 
-    .line 10
     :pswitch_0
     iget-object p1, p0, Lcom/google/ar/core/l0;->c:Lcom/google/ar/core/m0;
 
@@ -192,7 +181,6 @@
 
     return-void
 
-    .line 11
     :pswitch_1
     iget-object p1, p0, Lcom/google/ar/core/l0;->c:Lcom/google/ar/core/m0;
 
@@ -208,7 +196,6 @@
 
     return-void
 
-    .line 12
     :pswitch_2
     iget-object p1, p0, Lcom/google/ar/core/l0;->c:Lcom/google/ar/core/m0;
 
@@ -220,7 +207,6 @@
 
     return-void
 
-    .line 13
     :pswitch_3
     iget-object p1, p0, Lcom/google/ar/core/l0;->c:Lcom/google/ar/core/m0;
 
@@ -232,7 +218,6 @@
 
     return-void
 
-    .line 14
     :cond_4
     iget-object p1, p0, Lcom/google/ar/core/l0;->c:Lcom/google/ar/core/m0;
 

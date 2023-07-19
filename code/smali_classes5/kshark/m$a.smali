@@ -23,7 +23,6 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
     new-instance v0, Lkshark/m$a;
 
     invoke-direct {v0}, Lkshark/m$a;-><init>()V
@@ -38,7 +37,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-direct {p0, v0}, Lkshark/m;-><init>(Lcotlin/jvm/internal/u;)V
 
     return-void

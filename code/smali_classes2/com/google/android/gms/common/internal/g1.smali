@@ -30,21 +30,16 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/google/android/gms/common/internal/g1;->b:Ljava/lang/String;
 
-    .line 3
     iput-object p2, p0, Lcom/google/android/gms/common/internal/g1;->a:Ljava/lang/String;
 
-    .line 4
     iput-boolean p3, p0, Lcom/google/android/gms/common/internal/g1;->d:Z
 
     const/16 p1, 0x81
 
-    .line 5
     iput p1, p0, Lcom/google/android/gms/common/internal/g1;->c:I
 
     return-void
@@ -57,7 +52,6 @@
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/common/internal/g1;->b:Ljava/lang/String;
 
     return-object v0
@@ -66,7 +60,6 @@
 .method final b()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lcom/google/android/gms/common/internal/g1;->c:I
 
     return v0
@@ -77,7 +70,6 @@
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/common/internal/g1;->a:Ljava/lang/String;
 
     return-object v0

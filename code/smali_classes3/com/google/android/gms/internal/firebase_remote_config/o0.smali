@@ -10,7 +10,6 @@
 .method constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/io/OutputStream;-><init>()V
 
     return-void
@@ -26,7 +25,6 @@
         }
     .end annotation
 
-    .line 2
     iget-wide v0, p0, Lcom/google/android/gms/internal/firebase_remote_config/o0;->a:J
 
     const-wide/16 v2, 0x1
@@ -46,7 +44,6 @@
         }
     .end annotation
 
-    .line 1
     iget-wide p1, p0, Lcom/google/android/gms/internal/firebase_remote_config/o0;->a:J
 
     int-to-long v0, p3

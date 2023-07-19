@@ -67,45 +67,34 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/commsource/studio/layer/c;-><init>(Landroid/content/Context;)V
 
-    .line 2
     new-instance p1, Lcom/commsource/studio/layer/h;
 
     invoke-direct {p1, p0}, Lcom/commsource/studio/layer/h;-><init>(Lcom/commsource/studio/layer/c;)V
 
     const/4 v0, 0x0
 
-    .line 3
     invoke-virtual {p1, v0}, Lcom/commsource/studio/layer/l;->e(Z)V
 
-    .line 4
     iput-object p1, p0, Lcom/commsource/studio/layer/SlimLayer;->S:Lcom/commsource/studio/layer/h;
 
-    .line 5
     new-instance p1, Lcom/commsource/studio/layer/i;
 
     invoke-direct {p1, p0}, Lcom/commsource/studio/layer/i;-><init>(Lcom/commsource/studio/layer/c;)V
 
-    .line 6
     invoke-virtual {p1, v0}, Lcom/commsource/studio/layer/l;->e(Z)V
 
-    .line 7
     iput-object p1, p0, Lcom/commsource/studio/layer/SlimLayer;->T:Lcom/commsource/studio/layer/i;
 
-    .line 8
     new-instance p1, Lcom/commsource/studio/layer/j;
 
     invoke-direct {p1, p0}, Lcom/commsource/studio/layer/j;-><init>(Lcom/commsource/studio/layer/c;)V
 
-    .line 9
     invoke-virtual {p1, v0}, Lcom/commsource/studio/layer/l;->e(Z)V
 
-    .line 10
     iput-object p1, p0, Lcom/commsource/studio/layer/SlimLayer;->U:Lcom/commsource/studio/layer/j;
 
-    .line 11
     invoke-virtual {p0, p0, v0}, Lcom/commsource/studio/layer/c;->q0(Lcom/commsource/studio/layer/c$a;I)V
 
     return-void
@@ -122,7 +111,6 @@
 
     new-array v1, v1, [F
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/studio/layer/BaseLayer;->F()Landroid/view/View;
 
     move-result-object v2
@@ -157,10 +145,8 @@
 
     aput v2, v1, v3
 
-    .line 2
     invoke-virtual {p0, v1}, Lcom/commsource/studio/layer/BaseLayer;->U([F)V
 
-    .line 3
     iget-object v2, p0, Lcom/commsource/studio/layer/SlimLayer;->S:Lcom/commsource/studio/layer/h;
 
     invoke-virtual {v2}, Lcom/commsource/studio/layer/h;->i()Landroid/graphics/PointF;
@@ -173,14 +159,12 @@
 
     invoke-virtual {v2, v4, v1}, Landroid/graphics/PointF;->set(FF)V
 
-    .line 4
     invoke-virtual {p0}, Lcom/commsource/studio/layer/BaseLayer;->F()Landroid/view/View;
 
     move-result-object v1
 
     invoke-virtual {v1}, Landroid/view/View;->invalidate()V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -193,7 +177,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/studio/layer/SlimLayer;->G0()V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -212,7 +195,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/layer/SlimLayer;->S:Lcom/commsource/studio/layer/h;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -229,7 +211,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/layer/SlimLayer;->T:Lcom/commsource/studio/layer/i;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -246,7 +227,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/layer/SlimLayer;->U:Lcom/commsource/studio/layer/j;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -263,7 +243,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/layer/SlimLayer;->W:Lcom/commsource/studio/component/PaintSelectComponent$b;
 
     if-nez v1, :cond_0
@@ -299,7 +278,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/layer/SlimLayer;->V:Lcotlin/jvm/u/l;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -322,7 +300,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/layer/SlimLayer;->W:Lcom/commsource/studio/component/PaintSelectComponent$b;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -339,7 +316,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/commsource/studio/layer/SlimLayer$DrawPathView;
 
     invoke-virtual {p0}, Lcom/commsource/studio/layer/BaseLayer;->A()Landroid/content/Context;
@@ -368,12 +344,10 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/layer/SlimLayer;->S:Lcom/commsource/studio/layer/h;
 
     invoke-virtual {v1, p1}, Lcom/commsource/studio/layer/l;->d(Landroid/graphics/Canvas;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -394,7 +368,6 @@
 
     invoke-static {p3, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-static {p0, p1, p2, p3}, Lcom/commsource/studio/layer/c$a$a;->a(Lcom/commsource/studio/layer/c$a;FFLandroid/view/MotionEvent;)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -417,7 +390,6 @@
 
     invoke-static {p3, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-static {p0, p1, p2, p3}, Lcom/commsource/studio/layer/c$a$a;->b(Lcom/commsource/studio/layer/c$a;FFLandroid/view/MotionEvent;)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -440,7 +412,6 @@
 
     invoke-static {p3, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-static {p0, p1, p2, p3}, Lcom/commsource/studio/layer/c$a$a;->c(Lcom/commsource/studio/layer/c$a;FFLandroid/view/MotionEvent;)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -471,10 +442,8 @@
 
     invoke-static {p2, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-super {p0, p1, p2}, Lcom/commsource/studio/layer/c;->p(Landroidx/lifecycle/ViewModelStoreOwner;Landroidx/lifecycle/LifecycleOwner;)V
 
-    .line 2
     const-class p1, Lcom/commsource/studio/MagnifyComponent$a;
 
     invoke-virtual {p0, p1}, Lcom/commsource/studio/layer/d;->e(Ljava/lang/Class;)Landroidx/lifecycle/AndroidViewModel;
@@ -485,7 +454,6 @@
 
     invoke-virtual {p1, p0}, Lcom/commsource/studio/MagnifyComponent$a;->y(Lcom/commsource/studio/p0;)V
 
-    .line 3
     const-class p1, Lcom/commsource/studio/component/PaintSelectComponent$b;
 
     invoke-virtual {p0, p1}, Lcom/commsource/studio/layer/d;->e(Ljava/lang/Class;)Landroidx/lifecycle/AndroidViewModel;
@@ -494,7 +462,6 @@
 
     check-cast p1, Lcom/commsource/studio/component/PaintSelectComponent$b;
 
-    .line 4
     invoke-virtual {p1}, Lcom/commsource/studio/component/PaintSelectComponent$b;->A()Landroidx/lifecycle/MutableLiveData;
 
     move-result-object v1
@@ -505,7 +472,6 @@
 
     invoke-virtual {v1, p2, v2}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 5
     invoke-virtual {p1}, Lcom/commsource/studio/component/PaintSelectComponent$b;->z()Landroidx/lifecycle/MutableLiveData;
 
     move-result-object v1
@@ -516,10 +482,8 @@
 
     invoke-virtual {v1, p2, v2}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 6
     iput-object p1, p0, Lcom/commsource/studio/layer/SlimLayer;->W:Lcom/commsource/studio/component/PaintSelectComponent$b;
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -540,7 +504,6 @@
 
     invoke-static {p3, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-static {p0, p1, p2, p3}, Lcom/commsource/studio/layer/c$a$a;->e(Lcom/commsource/studio/layer/c$a;FFLandroid/view/MotionEvent;)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -563,7 +526,6 @@
 
     if-eqz p4, :cond_1
 
-    .line 1
     iget-object p2, p0, Lcom/commsource/studio/layer/SlimLayer;->T:Lcom/commsource/studio/layer/i;
 
     invoke-virtual {p2}, Lcom/commsource/studio/layer/i;->k()Landroid/graphics/PointF;
@@ -586,7 +548,6 @@
 
     if-nez p2, :cond_0
 
-    .line 2
     iget-object p2, p0, Lcom/commsource/studio/layer/SlimLayer;->T:Lcom/commsource/studio/layer/i;
 
     invoke-virtual {p2}, Lcom/commsource/studio/layer/i;->i()Landroid/graphics/PointF;
@@ -609,18 +570,15 @@
 
     if-nez p2, :cond_0
 
-    .line 3
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 4
     :cond_0
     new-instance p2, Landroid/graphics/PointF;
 
     invoke-direct {p2}, Landroid/graphics/PointF;-><init>()V
 
-    .line 5
     iget-object p3, p0, Lcom/commsource/studio/layer/SlimLayer;->T:Lcom/commsource/studio/layer/i;
 
     invoke-virtual {p3}, Lcom/commsource/studio/layer/i;->k()Landroid/graphics/PointF;
@@ -637,7 +595,6 @@
 
     iput p3, p2, Landroid/graphics/PointF;->x:F
 
-    .line 6
     iget-object p3, p0, Lcom/commsource/studio/layer/SlimLayer;->T:Lcom/commsource/studio/layer/i;
 
     invoke-virtual {p3}, Lcom/commsource/studio/layer/i;->k()Landroid/graphics/PointF;
@@ -654,12 +611,10 @@
 
     iput p3, p2, Landroid/graphics/PointF;->y:F
 
-    .line 7
     new-instance p3, Landroid/graphics/PointF;
 
     invoke-direct {p3}, Landroid/graphics/PointF;-><init>()V
 
-    .line 8
     iget-object p4, p0, Lcom/commsource/studio/layer/SlimLayer;->T:Lcom/commsource/studio/layer/i;
 
     invoke-virtual {p4}, Lcom/commsource/studio/layer/i;->i()Landroid/graphics/PointF;
@@ -676,7 +631,6 @@
 
     iput p4, p3, Landroid/graphics/PointF;->x:F
 
-    .line 9
     iget-object p4, p0, Lcom/commsource/studio/layer/SlimLayer;->T:Lcom/commsource/studio/layer/i;
 
     invoke-virtual {p4}, Lcom/commsource/studio/layer/i;->i()Landroid/graphics/PointF;
@@ -693,7 +647,6 @@
 
     iput p4, p3, Landroid/graphics/PointF;->y:F
 
-    .line 10
     iget-object p4, p0, Lcom/commsource/studio/layer/SlimLayer;->S:Lcom/commsource/studio/layer/h;
 
     invoke-virtual {p4}, Lcom/commsource/studio/layer/h;->k()F
@@ -712,7 +665,6 @@
 
     div-float/2addr p4, p5
 
-    .line 11
     iget-object p5, p0, Lcom/commsource/studio/layer/SlimLayer;->V:Lcotlin/jvm/u/l;
 
     if-eqz p5, :cond_1
@@ -729,7 +681,6 @@
 
     check-cast p2, Lcotlin/t1;
 
-    .line 12
     :cond_1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -755,7 +706,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/layer/SlimLayer;->V:Lcotlin/jvm/u/l;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

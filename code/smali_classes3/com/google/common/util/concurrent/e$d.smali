@@ -18,7 +18,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 2
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -27,7 +26,6 @@
 .method synthetic constructor <init>(Lcom/google/common/util/concurrent/e$a;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/google/common/util/concurrent/e$d;-><init>()V
 
     return-void
@@ -36,7 +34,6 @@
 .method public static a(JJLjava/util/concurrent/TimeUnit;)Lcom/google/common/util/concurrent/e$d;
     .locals 8
 
-    .line 1
     invoke-static {p4}, Lcom/google/common/base/t;->E(Ljava/lang/Object;)Ljava/lang/Object;
 
     const-wide/16 v0, 0x0
@@ -55,10 +52,8 @@
     :goto_0
     const-string v1, "delay must be > 0, found %s"
 
-    .line 2
     invoke-static {v0, v1, p2, p3}, Lcom/google/common/base/t;->p(ZLjava/lang/String;J)V
 
-    .line 3
     new-instance v0, Lcom/google/common/util/concurrent/e$d$a;
 
     move-object v2, v0
@@ -77,7 +72,6 @@
 .method public static b(JJLjava/util/concurrent/TimeUnit;)Lcom/google/common/util/concurrent/e$d;
     .locals 8
 
-    .line 1
     invoke-static {p4}, Lcom/google/common/base/t;->E(Ljava/lang/Object;)Ljava/lang/Object;
 
     const-wide/16 v0, 0x0
@@ -96,10 +90,8 @@
     :goto_0
     const-string v1, "period must be > 0, found %s"
 
-    .line 2
     invoke-static {v0, v1, p2, p3}, Lcom/google/common/base/t;->p(ZLjava/lang/String;J)V
 
-    .line 3
     new-instance v0, Lcom/google/common/util/concurrent/e$d$b;
 
     move-object v2, v0

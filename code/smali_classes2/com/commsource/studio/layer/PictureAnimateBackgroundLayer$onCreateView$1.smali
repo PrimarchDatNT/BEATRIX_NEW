@@ -31,12 +31,10 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/layer/PictureAnimateBackgroundLayer$onCreateView$1;->a:Lcom/commsource/studio/layer/PictureAnimateBackgroundLayer;
 
     invoke-direct {p0, p2}, Landroid/view/View;-><init>(Landroid/content/Context;)V
 
-    .line 2
     invoke-static {p0}, Lcom/commsource/util/l0;->w(Landroid/view/View;)V
 
     return-void
@@ -63,14 +61,12 @@
 
     const/high16 v2, 0x3f800000    # 1.0f
 
-    .line 1
     invoke-static {v1, v2}, Lcom/commsource/util/l0;->h(IF)I
 
     move-result v1
 
     invoke-virtual {p1, v1}, Landroid/graphics/Canvas;->drawColor(I)V
 
-    .line 2
     iget-object p1, p0, Lcom/commsource/studio/layer/PictureAnimateBackgroundLayer$onCreateView$1;->a:Lcom/commsource/studio/layer/PictureAnimateBackgroundLayer;
 
     invoke-virtual {p1}, Lcom/commsource/studio/layer/PictureAnimateBackgroundLayer;->p0()Lcotlin/jvm/u/a;
@@ -79,17 +75,14 @@
 
     if-eqz p1, :cond_0
 
-    .line 3
     invoke-interface {p1}, Lcotlin/jvm/u/a;->invoke()Ljava/lang/Object;
 
-    .line 4
     iget-object p1, p0, Lcom/commsource/studio/layer/PictureAnimateBackgroundLayer$onCreateView$1;->a:Lcom/commsource/studio/layer/PictureAnimateBackgroundLayer;
 
     const/4 v1, 0x0
 
     invoke-virtual {p1, v1}, Lcom/commsource/studio/layer/PictureAnimateBackgroundLayer;->q0(Lcotlin/jvm/u/a;)V
 
-    .line 5
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

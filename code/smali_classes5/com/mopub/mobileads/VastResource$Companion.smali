@@ -20,7 +20,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -29,7 +28,6 @@
 .method public synthetic constructor <init>(Lcotlin/jvm/internal/u;)V
     .locals 0
 
-    .line 2
     invoke-direct {p0}, Lcom/mopub/mobileads/VastResource$Companion;-><init>()V
 
     return-void
@@ -53,17 +51,14 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-static {}, Lcom/mopub/mobileads/VastResource$Type;->values()[Lcom/mopub/mobileads/VastResource$Type;
 
     move-result-object v0
 
-    .line 2
     new-instance v1, Ljava/util/ArrayList;
 
     invoke-direct {v1}, Ljava/util/ArrayList;-><init>()V
 
-    .line 3
     array-length v2, v0
 
     const/4 v3, 0x0
@@ -73,7 +68,6 @@
 
     aget-object v4, v0, v3
 
-    .line 4
     sget-object v5, Lcom/mopub/mobileads/VastResource;->Companion:Lcom/mopub/mobileads/VastResource$Companion;
 
     invoke-virtual {v5, p1, v4, p2, p3}, Lcom/mopub/mobileads/VastResource$Companion;->fromVastResourceXmlManager(Lcom/mopub/mobileads/VastResourceXmlManager;Lcom/mopub/mobileads/VastResource$Type;II)Lcom/mopub/mobileads/VastResource;
@@ -82,7 +76,6 @@
 
     if-eqz v4, :cond_0
 
-    .line 5
     invoke-interface {v1, v4}, Ljava/util/Collection;->add(Ljava/lang/Object;)Z
 
     :cond_0
@@ -90,7 +83,6 @@
 
     goto :goto_0
 
-    .line 6
     :cond_1
     invoke-static {v1}, Lcotlin/collections/s;->r2(Ljava/util/List;)Ljava/lang/Object;
 
@@ -125,15 +117,12 @@
 
     invoke-static {p2, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 7
     invoke-virtual {p1}, Lcom/mopub/mobileads/VastResourceXmlManager;->getStaticResourceType()Ljava/lang/String;
 
     move-result-object v0
 
-    .line 8
     sget-object v1, Lcom/mopub/mobileads/VastResource$CreativeType;->NONE:Lcom/mopub/mobileads/VastResource$CreativeType;
 
-    .line 9
     sget-object v2, Lcom/mopub/mobileads/VastResource$Companion$WhenMappings;->$EnumSwitchMapping$0:[I
 
     invoke-virtual {p2}, Ljava/lang/Enum;->ordinal()I
@@ -162,7 +151,6 @@
 
     goto :goto_4
 
-    .line 10
     :cond_0
     invoke-virtual {p1}, Lcom/mopub/mobileads/VastResourceXmlManager;->getIFrameResource()Ljava/lang/String;
 
@@ -170,7 +158,6 @@
 
     goto :goto_0
 
-    .line 11
     :cond_1
     invoke-virtual {p1}, Lcom/mopub/mobileads/VastResourceXmlManager;->getHTMLResource()Ljava/lang/String;
 
@@ -183,13 +170,11 @@
 
     goto :goto_4
 
-    .line 12
     :cond_2
     invoke-virtual {p1}, Lcom/mopub/mobileads/VastResourceXmlManager;->getStaticResource()Ljava/lang/String;
 
     move-result-object p1
 
-    .line 13
     invoke-static {}, Lcom/mopub/mobileads/VastResource;->access$getVALID_IMAGE_TYPES$cp()Ljava/util/List;
 
     move-result-object v1
@@ -224,11 +209,9 @@
     :cond_5
     move-object p1, v4
 
-    .line 14
     :goto_2
     sget-object v1, Lcom/mopub/mobileads/VastResource$CreativeType;->IMAGE:Lcom/mopub/mobileads/VastResource$CreativeType;
 
-    .line 15
     invoke-static {}, Lcom/mopub/mobileads/VastResource;->access$getVALID_IMAGE_TYPES$cp()Ljava/util/List;
 
     move-result-object v2
@@ -249,7 +232,6 @@
 
     goto :goto_0
 
-    .line 16
     :cond_7
     sget-object v0, Lcom/mopub/mobileads/VastResource$CreativeType;->JAVASCRIPT:Lcom/mopub/mobileads/VastResource$CreativeType;
 
@@ -260,7 +242,6 @@
     :goto_4
     if-eqz v6, :cond_8
 
-    .line 17
     new-instance v4, Lcom/mopub/mobileads/VastResource;
 
     move-object v5, v4

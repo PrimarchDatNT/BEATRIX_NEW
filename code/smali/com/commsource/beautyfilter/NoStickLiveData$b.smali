@@ -30,7 +30,6 @@
 .method constructor <init>(Lcotlin/jvm/u/l;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/beautyfilter/NoStickLiveData$b;->c:Lcotlin/jvm/u/l;
 
     invoke-direct {p0}, Lcom/commsource/beautyfilter/NoStickLiveData$a;-><init>()V
@@ -56,15 +55,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0, p1}, Lcom/commsource/beautyfilter/NoStickLiveData$a;->b(Ljava/lang/Object;)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/beautyfilter/NoStickLiveData$b;->c:Lcotlin/jvm/u/l;
 
     invoke-interface {v1, p1}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

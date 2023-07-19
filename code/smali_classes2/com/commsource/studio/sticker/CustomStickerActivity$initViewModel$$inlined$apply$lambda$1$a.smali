@@ -44,17 +44,14 @@
 
     sget v1, Lcom/res/provider/ResSTRING;->image_bad:I
 
-    .line 1
     invoke-static {v1}, Lf/k/c/c/f;->r(I)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/sticker/CustomStickerActivity$initViewModel$$inlined$apply$lambda$1$a;->a:Lcom/commsource/studio/sticker/CustomStickerActivity$initViewModel$$inlined$apply$lambda$1;
 
     iget-object v1, v1, Lcom/commsource/studio/sticker/CustomStickerActivity$initViewModel$$inlined$apply$lambda$1;->b:Lcom/commsource/studio/sticker/CustomStickerActivity;
 
     invoke-virtual {v1}, Lcom/commsource/beautyplus/BaseActivity;->finish()V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

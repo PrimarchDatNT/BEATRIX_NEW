@@ -85,33 +85,26 @@
         }
     .end annotation
 
-    .line 2
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 3
     invoke-static {p1}, Ljava/util/Collections;->unmodifiableSet(Ljava/util/Set;)Ljava/util/Set;
 
     move-result-object p1
 
     iput-object p1, p0, Lcom/google/firebase/components/f;->a:Ljava/util/Set;
 
-    .line 4
     invoke-static {p2}, Ljava/util/Collections;->unmodifiableSet(Ljava/util/Set;)Ljava/util/Set;
 
     move-result-object p1
 
     iput-object p1, p0, Lcom/google/firebase/components/f;->b:Ljava/util/Set;
 
-    .line 5
     iput p3, p0, Lcom/google/firebase/components/f;->c:I
 
-    .line 6
     iput p4, p0, Lcom/google/firebase/components/f;->d:I
 
-    .line 7
     iput-object p5, p0, Lcom/google/firebase/components/f;->e:Lcom/google/firebase/components/i;
 
-    .line 8
     invoke-static {p6}, Ljava/util/Collections;->unmodifiableSet(Ljava/util/Set;)Ljava/util/Set;
 
     move-result-object p1
@@ -124,7 +117,6 @@
 .method synthetic constructor <init>(Ljava/util/Set;Ljava/util/Set;IILcom/google/firebase/components/i;Ljava/util/Set;Lcom/google/firebase/components/f$a;)V
     .locals 0
 
-    .line 1
     invoke-direct/range {p0 .. p6}, Lcom/google/firebase/components/f;-><init>(Ljava/util/Set;Ljava/util/Set;IILcom/google/firebase/components/i;Ljava/util/Set;)V
 
     return-void
@@ -144,7 +136,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/google/firebase/components/f$b;
 
     const/4 v1, 0x0
@@ -177,7 +168,6 @@
     .annotation runtime Ljava/lang/SafeVarargs;
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/google/firebase/components/f$b;
 
     const/4 v1, 0x0
@@ -201,7 +191,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p1}, Lcom/google/firebase/components/f;->h(Ljava/lang/Class;)Lcom/google/firebase/components/f$b;
 
     move-result-object p1
@@ -235,7 +224,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p0}, Lcom/google/firebase/components/f;->a(Ljava/lang/Class;)Lcom/google/firebase/components/f$b;
 
     move-result-object p0
@@ -282,7 +270,6 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    .line 1
     invoke-static {p0}, Lcom/google/firebase/components/f;->a(Ljava/lang/Class;)Lcom/google/firebase/components/f$b;
 
     move-result-object p0
@@ -321,7 +308,6 @@
     .annotation runtime Ljava/lang/SafeVarargs;
     .end annotation
 
-    .line 1
     invoke-static {p1, p2}, Lcom/google/firebase/components/f;->b(Ljava/lang/Class;[Ljava/lang/Class;)Lcom/google/firebase/components/f$b;
 
     move-result-object p1
@@ -354,7 +340,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/components/f;->b:Ljava/util/Set;
 
     return-object v0
@@ -370,7 +355,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/components/f;->e:Lcom/google/firebase/components/i;
 
     return-object v0
@@ -387,7 +371,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/components/f;->a:Ljava/util/Set;
 
     return-object v0
@@ -404,7 +387,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/components/f;->f:Ljava/util/Set;
 
     return-object v0
@@ -413,7 +395,6 @@
 .method public i()Z
     .locals 2
 
-    .line 1
     iget v0, p0, Lcom/google/firebase/components/f;->c:I
 
     const/4 v1, 0x1
@@ -432,7 +413,6 @@
 .method public j()Z
     .locals 2
 
-    .line 1
     iget v0, p0, Lcom/google/firebase/components/f;->c:I
 
     const/4 v1, 0x2
@@ -453,7 +433,6 @@
 .method public k()Z
     .locals 1
 
-    .line 1
     iget v0, p0, Lcom/google/firebase/components/f;->c:I
 
     if-nez v0, :cond_0
@@ -472,7 +451,6 @@
 .method public l()Z
     .locals 1
 
-    .line 1
     iget v0, p0, Lcom/google/firebase/components/f;->d:I
 
     if-nez v0, :cond_0
@@ -491,7 +469,6 @@
 .method public toString()Ljava/lang/String;
     .locals 2
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     const-string v1, "Component<"
@@ -500,7 +477,6 @@
 
     iget-object v1, p0, Lcom/google/firebase/components/f;->a:Ljava/util/Set;
 
-    .line 2
     invoke-interface {v1}, Ljava/util/Set;->toArray()[Ljava/lang/Object;
 
     move-result-object v1
@@ -513,32 +489,26 @@
 
     const-string v1, ">{"
 
-    .line 3
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     iget v1, p0, Lcom/google/firebase/components/f;->c:I
 
-    .line 4
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
 
     const-string v1, ", type="
 
-    .line 5
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     iget v1, p0, Lcom/google/firebase/components/f;->d:I
 
-    .line 6
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
 
     const-string v1, ", deps="
 
-    .line 7
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     iget-object v1, p0, Lcom/google/firebase/components/f;->b:Ljava/util/Set;
 
-    .line 8
     invoke-interface {v1}, Ljava/util/Set;->toArray()[Ljava/lang/Object;
 
     move-result-object v1
@@ -551,10 +521,8 @@
 
     const-string v1, "}"
 
-    .line 9
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 10
     invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     move-result-object v0

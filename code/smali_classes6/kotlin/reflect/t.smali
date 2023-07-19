@@ -55,7 +55,6 @@
 
     sput-object v0, Lcotlin/reflect/t;->d:Lcotlin/reflect/t$a;
 
-    .line 1
     new-instance v0, Lcotlin/reflect/t;
 
     invoke-direct {v0, v1, v1}, Lcotlin/reflect/t;-><init>(Lcotlin/reflect/KVariance;Lcotlin/reflect/r;)V
@@ -76,7 +75,6 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     iput-object p1, p0, Lcotlin/reflect/t;->a:Lcotlin/reflect/KVariance;
@@ -123,7 +121,6 @@
 
     goto :goto_3
 
-    .line 2
     :cond_3
     new-instance p2, Ljava/lang/StringBuilder;
 
@@ -143,7 +140,6 @@
 
     move-result-object p1
 
-    .line 3
     :goto_3
     new-instance p2, Ljava/lang/IllegalArgumentException;
 
@@ -342,7 +338,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcotlin/reflect/t;->b:Lcotlin/reflect/r;
 
     return-object v0
@@ -353,7 +348,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcotlin/reflect/t;->a:Lcotlin/reflect/KVariance;
 
     return-object v0
@@ -399,7 +393,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcotlin/reflect/t;->a:Lcotlin/reflect/KVariance;
 
     if-nez v0, :cond_0
@@ -429,7 +422,6 @@
 
     if-ne v0, v1, :cond_1
 
-    .line 2
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -455,7 +447,6 @@
 
     throw v0
 
-    .line 3
     :cond_2
     new-instance v0, Ljava/lang/StringBuilder;
 
@@ -475,7 +466,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_3
     iget-object v0, p0, Lcotlin/reflect/t;->b:Lcotlin/reflect/r;
 

@@ -22,7 +22,6 @@
 .method static constructor <clinit>()V
     .locals 0
 
-    .line 1
     invoke-static {}, Lcom/meitu/library/h/f;->b()V
 
     return-void
@@ -31,20 +30,16 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/4 v0, -0x1
 
-    .line 2
     iput v0, p0, Lcom/meitu/library/h/f;->a:I
 
-    .line 3
     iput v0, p0, Lcom/meitu/library/h/f;->b:I
 
     const/4 v0, 0x4
 
-    .line 4
     iput v0, p0, Lcom/meitu/library/h/f;->c:I
 
     return-void
@@ -57,7 +52,6 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/meitu/library/h/f;->c(Landroid/content/Context;)V
 
     return-void
@@ -66,7 +60,6 @@
 .method private static synthetic b()V
     .locals 9
 
-    .line 1
     new-instance v8, Ln/a/b/c/e;
 
     const-class v0, Lcom/meitu/library/h/f;
@@ -118,7 +111,6 @@
 
     const-string v2, "versionCode"
 
-    .line 1
     invoke-static {v1}, Ljava/lang/Class;->forName(Ljava/lang/String;)Ljava/lang/Class;
 
     move-result-object v1
@@ -127,7 +119,6 @@
 
     new-array v4, v3, [Ljava/lang/Class;
 
-    .line 2
     invoke-virtual {v1, v2, v4}, Ljava/lang/Class;->getMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
 
     move-result-object v2
@@ -206,7 +197,6 @@
     :catch_0
     const/16 v1, 0x11
 
-    .line 3
     :goto_0
     new-instance v2, Ljava/lang/StringBuilder;
 
@@ -230,7 +220,6 @@
 
     move-result-object v2
 
-    .line 4
     new-instance v5, Ljava/lang/StringBuilder;
 
     invoke-direct {v5}, Ljava/lang/StringBuilder;-><init>()V
@@ -249,7 +238,6 @@
 
     move-result-object v5
 
-    .line 5
     new-instance v6, Ljava/lang/StringBuilder;
 
     invoke-direct {v6}, Ljava/lang/StringBuilder;-><init>()V
@@ -268,47 +256,40 @@
 
     move-result-object v1
 
-    .line 6
     sget-object v3, Lcom/meitu/library/devicelevellib/utils/CachedSharedPreferences;->e:Lcom/meitu/library/devicelevellib/utils/CachedSharedPreferences$a;
 
     invoke-virtual {v3, p1}, Lcom/meitu/library/devicelevellib/utils/CachedSharedPreferences$a;->a(Landroid/content/Context;)Lcom/meitu/library/devicelevellib/utils/CachedSharedPreferences;
 
     move-result-object v4
 
-    .line 7
     invoke-virtual {v4, v2, v0}, Lcom/meitu/library/devicelevellib/utils/CachedSharedPreferences;->d(Ljava/lang/String;I)I
 
     move-result v4
 
     iput v4, p0, Lcom/meitu/library/h/f;->c:I
 
-    .line 8
     invoke-virtual {v3, p1}, Lcom/meitu/library/devicelevellib/utils/CachedSharedPreferences$a;->a(Landroid/content/Context;)Lcom/meitu/library/devicelevellib/utils/CachedSharedPreferences;
 
     move-result-object v4
 
     const/4 v6, -0x1
 
-    .line 9
     invoke-virtual {v4, v5, v6}, Lcom/meitu/library/devicelevellib/utils/CachedSharedPreferences;->d(Ljava/lang/String;I)I
 
     move-result v4
 
     iput v4, p0, Lcom/meitu/library/h/f;->a:I
 
-    .line 10
     invoke-virtual {v3, p1}, Lcom/meitu/library/devicelevellib/utils/CachedSharedPreferences$a;->a(Landroid/content/Context;)Lcom/meitu/library/devicelevellib/utils/CachedSharedPreferences;
 
     move-result-object v4
 
-    .line 11
     invoke-virtual {v4, v1, v6}, Lcom/meitu/library/devicelevellib/utils/CachedSharedPreferences;->d(Ljava/lang/String;I)I
 
     move-result v4
 
     iput v4, p0, Lcom/meitu/library/h/f;->b:I
 
-    .line 12
     iget v4, p0, Lcom/meitu/library/h/f;->c:I
 
     if-eq v4, v0, :cond_1
@@ -317,7 +298,6 @@
 
     if-ne v0, v6, :cond_2
 
-    .line 13
     :cond_1
     invoke-virtual {p0, p1}, Lcom/meitu/library/h/f;->d(Landroid/content/Context;)I
 
@@ -325,32 +305,26 @@
 
     iput v0, p0, Lcom/meitu/library/h/f;->c:I
 
-    .line 14
     invoke-virtual {v3, p1}, Lcom/meitu/library/devicelevellib/utils/CachedSharedPreferences$a;->a(Landroid/content/Context;)Lcom/meitu/library/devicelevellib/utils/CachedSharedPreferences;
 
     move-result-object v0
 
-    .line 15
     iget v4, p0, Lcom/meitu/library/h/f;->c:I
 
     invoke-virtual {v0, v2, v4}, Lcom/meitu/library/devicelevellib/utils/CachedSharedPreferences;->f(Ljava/lang/String;I)V
 
-    .line 16
     invoke-virtual {v3, p1}, Lcom/meitu/library/devicelevellib/utils/CachedSharedPreferences$a;->a(Landroid/content/Context;)Lcom/meitu/library/devicelevellib/utils/CachedSharedPreferences;
 
     move-result-object v0
 
-    .line 17
     iget v2, p0, Lcom/meitu/library/h/f;->a:I
 
     invoke-virtual {v0, v5, v2}, Lcom/meitu/library/devicelevellib/utils/CachedSharedPreferences;->f(Ljava/lang/String;I)V
 
-    .line 18
     invoke-virtual {v3, p1}, Lcom/meitu/library/devicelevellib/utils/CachedSharedPreferences$a;->a(Landroid/content/Context;)Lcom/meitu/library/devicelevellib/utils/CachedSharedPreferences;
 
     move-result-object p1
 
-    .line 19
     iget v0, p0, Lcom/meitu/library/h/f;->b:I
 
     invoke-virtual {p1, v1, v0}, Lcom/meitu/library/devicelevellib/utils/CachedSharedPreferences;->f(Ljava/lang/String;I)V
@@ -372,7 +346,6 @@
 
     const/4 p2, 0x0
 
-    .line 1
     :cond_0
     invoke-virtual {p0, p1, p2}, Lcom/meitu/library/h/f;->g(Landroid/content/Context;Lcom/meitu/library/h/i;)I
 
@@ -380,7 +353,6 @@
 
     return p0
 
-    .line 2
     :cond_1
     new-instance p0, Ljava/lang/UnsupportedOperationException;
 
@@ -407,7 +379,6 @@
 
     const/4 p2, 0x0
 
-    .line 1
     :cond_0
     invoke-virtual {p0, p1, p2}, Lcom/meitu/library/h/f;->j(Landroid/content/Context;Lcom/meitu/library/h/i;)I
 
@@ -415,7 +386,6 @@
 
     return p0
 
-    .line 2
     :cond_1
     new-instance p0, Ljava/lang/UnsupportedOperationException;
 
@@ -445,13 +415,11 @@
 
     const-wide/16 p2, 0x0
 
-    .line 1
     :cond_0
     invoke-virtual {p0, p1, p2, p3}, Lcom/meitu/library/h/f;->o(Landroid/content/Context;J)V
 
     return-void
 
-    .line 2
     :cond_1
     new-instance p0, Ljava/lang/UnsupportedOperationException;
 
@@ -465,7 +433,6 @@
 .method static final synthetic q(Lcom/meitu/library/h/f;Ljava/lang/reflect/Method;Ljava/lang/Object;[Ljava/lang/Object;Lorg/aspectj/lang/c;)Ljava/lang/Object;
     .locals 0
 
-    .line 1
     invoke-virtual {p1, p2, p3}, Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p0
@@ -485,7 +452,6 @@
 .method public final e()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lcom/meitu/library/h/f;->b:I
 
     return v0
@@ -504,7 +470,6 @@
 
     const/4 v1, 0x2
 
-    .line 1
     invoke-static {p0, p1, v0, v1, v0}, Lcom/meitu/library/h/f;->h(Lcom/meitu/library/h/f;Landroid/content/Context;Lcom/meitu/library/h/i;ILjava/lang/Object;)I
 
     move-result p1
@@ -529,7 +494,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget v0, p0, Lcom/meitu/library/h/f;->c:I
 
     const/4 v1, 0x4
@@ -538,7 +502,6 @@
 
     if-eqz p2, :cond_0
 
-    .line 2
     invoke-interface {p2, p1}, Lcom/meitu/library/h/i;->a(Landroid/content/Context;)I
 
     move-result v0
@@ -569,7 +532,6 @@
 
     const/4 v1, 0x2
 
-    .line 1
     invoke-static {p0, p1, v0, v1, v0}, Lcom/meitu/library/h/f;->k(Lcom/meitu/library/h/f;Landroid/content/Context;Lcom/meitu/library/h/i;ILjava/lang/Object;)I
 
     move-result p1
@@ -597,17 +559,14 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget v0, p0, Lcom/meitu/library/h/f;->c:I
 
     const/4 v1, 0x4
 
     if-ne v0, v1, :cond_0
 
-    .line 2
     invoke-direct {p0, p1}, Lcom/meitu/library/h/f;->c(Landroid/content/Context;)V
 
-    .line 3
     :cond_0
     iget v0, p0, Lcom/meitu/library/h/f;->c:I
 
@@ -615,7 +574,6 @@
 
     if-eqz p2, :cond_1
 
-    .line 4
     invoke-interface {p2, p1}, Lcom/meitu/library/h/i;->a(Landroid/content/Context;)I
 
     move-result v1
@@ -630,7 +588,6 @@
 .method protected final l()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lcom/meitu/library/h/f;->b:I
 
     return v0
@@ -639,7 +596,6 @@
 .method protected final m()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lcom/meitu/library/h/f;->a:I
 
     return v0
@@ -670,7 +626,6 @@
 
     move-object v1, p1
 
-    .line 1
     invoke-static/range {v0 .. v5}, Lcom/meitu/library/h/f;->p(Lcom/meitu/library/h/f;Landroid/content/Context;JILjava/lang/Object;)V
 
     return-void
@@ -695,19 +650,16 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget v0, p0, Lcom/meitu/library/h/f;->c:I
 
     const/4 v1, 0x4
 
     if-ne v0, v1, :cond_0
 
-    .line 2
     invoke-virtual {p1}, Landroid/content/Context;->getApplicationContext()Landroid/content/Context;
 
     move-result-object p1
 
-    .line 3
     new-instance v0, Ljava/lang/Thread;
 
     new-instance v1, Lcom/meitu/library/h/f$a;
@@ -716,10 +668,8 @@
 
     const-string p1, "LevelStrategy"
 
-    .line 4
     invoke-direct {v0, v1, p1}, Ljava/lang/Thread;-><init>(Ljava/lang/Runnable;Ljava/lang/String;)V
 
-    .line 5
     invoke-virtual {v0}, Ljava/lang/Thread;->start()V
 
     :cond_0
@@ -739,7 +689,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget v0, p0, Lcom/meitu/library/h/f;->c:I
 
     const-string v1, "fallback"
@@ -750,7 +699,6 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     iget v0, p0, Lcom/meitu/library/h/f;->a:I
 
@@ -802,7 +750,6 @@
 .method public final s()I
     .locals 2
 
-    .line 1
     iget v0, p0, Lcom/meitu/library/h/f;->c:I
 
     const/4 v1, 0x4
@@ -813,7 +760,6 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     iget v0, p0, Lcom/meitu/library/h/f;->a:I
 
@@ -824,7 +770,6 @@
 .method protected final t(I)V
     .locals 0
 
-    .line 1
     iput p1, p0, Lcom/meitu/library/h/f;->b:I
 
     return-void
@@ -833,7 +778,6 @@
 .method protected final u(I)V
     .locals 0
 
-    .line 1
     iput p1, p0, Lcom/meitu/library/h/f;->a:I
 
     return-void

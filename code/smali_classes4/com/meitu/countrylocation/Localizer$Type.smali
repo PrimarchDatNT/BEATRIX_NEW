@@ -42,7 +42,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/meitu/countrylocation/Localizer$Type;
 
     const-string v2, "IP"
@@ -53,7 +52,6 @@
 
     sput-object v1, Lcom/meitu/countrylocation/Localizer$Type;->IP:Lcom/meitu/countrylocation/Localizer$Type;
 
-    .line 2
     new-instance v2, Lcom/meitu/countrylocation/Localizer$Type;
 
     const-string v4, "GPS"
@@ -64,7 +62,6 @@
 
     sput-object v2, Lcom/meitu/countrylocation/Localizer$Type;->GPS:Lcom/meitu/countrylocation/Localizer$Type;
 
-    .line 3
     new-instance v4, Lcom/meitu/countrylocation/Localizer$Type;
 
     const-string v6, "TIMEZONE"
@@ -75,7 +72,6 @@
 
     sput-object v4, Lcom/meitu/countrylocation/Localizer$Type;->TIMEZONE:Lcom/meitu/countrylocation/Localizer$Type;
 
-    .line 4
     new-instance v6, Lcom/meitu/countrylocation/Localizer$Type;
 
     const-string v8, "SIM"
@@ -98,7 +94,6 @@
 
     aput-object v6, v8, v9
 
-    .line 5
     sput-object v8, Lcom/meitu/countrylocation/Localizer$Type;->$VALUES:[Lcom/meitu/countrylocation/Localizer$Type;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -114,7 +109,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
     return-void
@@ -127,7 +121,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     const-class v1, Lcom/meitu/countrylocation/Localizer$Type;
 
     invoke-static {v1, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -148,7 +141,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/meitu/countrylocation/Localizer$Type;->$VALUES:[Lcom/meitu/countrylocation/Localizer$Type;
 
     invoke-virtual {v1}, [Lcom/meitu/countrylocation/Localizer$Type;->clone()Ljava/lang/Object;

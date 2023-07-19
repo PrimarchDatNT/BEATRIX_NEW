@@ -21,7 +21,6 @@
         }
     .end annotation
 
-    .line 1
     :try_start_0
     invoke-interface {p1}, Lcotlin/jvm/u/a;->invoke()Ljava/lang/Object;
     :try_end_0
@@ -32,7 +31,6 @@
     :catchall_0
     move-exception p1
 
-    .line 2
     sget-object v0, Lcotlin/Result;->Companion:Lcotlin/Result$a;
 
     invoke-static {p1}, Lcotlin/r0;->a(Ljava/lang/Throwable;)Ljava/lang/Object;
@@ -71,7 +69,6 @@
         }
     .end annotation
 
-    .line 1
     :try_start_0
     invoke-static {p0}, Lcotlin/coroutines/intrinsics/a;->d(Lcotlin/coroutines/c;)Lcotlin/coroutines/c;
 
@@ -94,7 +91,6 @@
     :catchall_0
     move-exception p0
 
-    .line 2
     sget-object v0, Lcotlin/Result;->Companion:Lcotlin/Result$a;
 
     invoke-static {p0}, Lcotlin/r0;->a(Ljava/lang/Throwable;)Ljava/lang/Object;
@@ -140,7 +136,6 @@
     .annotation build Lcotlinx/coroutines/y1;
     .end annotation
 
-    .line 1
     :try_start_0
     invoke-static {p0, p1}, Lcotlin/coroutines/intrinsics/a;->b(Lcotlin/jvm/u/l;Lcotlin/coroutines/c;)Lcotlin/coroutines/c;
 
@@ -167,7 +162,6 @@
     :catchall_0
     move-exception p0
 
-    .line 2
     sget-object v0, Lcotlin/Result;->Companion:Lcotlin/Result$a;
 
     invoke-static {p0}, Lcotlin/r0;->a(Ljava/lang/Throwable;)Ljava/lang/Object;
@@ -212,7 +206,6 @@
         }
     .end annotation
 
-    .line 1
     :try_start_0
     invoke-static {p0, p1, p2}, Lcotlin/coroutines/intrinsics/a;->c(Lcotlin/jvm/u/p;Ljava/lang/Object;Lcotlin/coroutines/c;)Lcotlin/coroutines/c;
 
@@ -239,7 +232,6 @@
     :catchall_0
     move-exception p0
 
-    .line 2
     sget-object p1, Lcotlin/Result;->Companion:Lcotlin/Result$a;
 
     invoke-static {p0}, Lcotlin/r0;->a(Ljava/lang/Throwable;)Ljava/lang/Object;

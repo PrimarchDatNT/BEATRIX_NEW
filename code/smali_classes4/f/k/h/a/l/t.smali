@@ -20,20 +20,16 @@
 .method public constructor <init>(Lf/k/h/a/l/q;)V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     invoke-virtual {p0, p1}, Lf/k/h/a/l/t;->h(Lf/k/h/a/l/q;)Lf/k/h/a/l/x/h;
 
     move-result-object v0
 
     iput-object v0, p0, Lf/k/h/a/l/t;->b:Lf/k/h/a/l/x/d;
 
-    .line 3
     iput-object p1, p0, Lf/k/h/a/l/t;->a:Lf/k/h/a/l/q;
 
-    .line 4
     new-instance v0, Lf/k/h/a/l/t$a;
 
     invoke-direct {v0, p0, p1}, Lf/k/h/a/l/t$a;-><init>(Lf/k/h/a/l/t;Lf/k/h/a/l/q;)V
@@ -50,23 +46,19 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lf/k/h/a/l/t;->c:Lf/k/h/a/l/x/c;
 
     if-nez v1, :cond_1
 
-    .line 2
     const-class v1, Lf/k/h/a/l/x/c;
 
     monitor-enter v1
 
-    .line 3
     :try_start_0
     iget-object v2, p0, Lf/k/h/a/l/t;->c:Lf/k/h/a/l/x/c;
 
     if-nez v2, :cond_0
 
-    .line 4
     iget-object v2, p0, Lf/k/h/a/l/t;->a:Lf/k/h/a/l/q;
 
     invoke-virtual {p0, v2}, Lf/k/h/a/l/t;->g(Lf/k/h/a/l/q;)Lf/k/h/a/l/x/f;
@@ -75,7 +67,6 @@
 
     iput-object v2, p0, Lf/k/h/a/l/t;->c:Lf/k/h/a/l/x/c;
 
-    .line 5
     :cond_0
     monitor-exit v1
 
@@ -92,7 +83,6 @@
 
     throw v2
 
-    .line 6
     :cond_1
     :goto_0
     iget-object v1, p0, Lf/k/h/a/l/t;->c:Lf/k/h/a/l/x/c;
@@ -109,23 +99,19 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lf/k/h/a/l/t;->d:Lf/k/h/a/l/x/e;
 
     if-nez v1, :cond_1
 
-    .line 2
     const-class v1, Lf/k/h/a/l/x/e;
 
     monitor-enter v1
 
-    .line 3
     :try_start_0
     iget-object v2, p0, Lf/k/h/a/l/t;->d:Lf/k/h/a/l/x/e;
 
     if-nez v2, :cond_0
 
-    .line 4
     iget-object v2, p0, Lf/k/h/a/l/t;->a:Lf/k/h/a/l/q;
 
     invoke-virtual {p0, v2}, Lf/k/h/a/l/t;->i(Lf/k/h/a/l/q;)Lf/k/h/a/l/x/j;
@@ -134,7 +120,6 @@
 
     iput-object v2, p0, Lf/k/h/a/l/t;->d:Lf/k/h/a/l/x/e;
 
-    .line 5
     :cond_0
     monitor-exit v1
 
@@ -151,7 +136,6 @@
 
     throw v2
 
-    .line 6
     :cond_1
     :goto_0
     iget-object v1, p0, Lf/k/h/a/l/t;->d:Lf/k/h/a/l/x/e;
@@ -170,14 +154,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lf/k/h/a/l/t;->d()Lf/k/h/a/l/x/c;
 
     move-result-object v1
 
     invoke-interface {v1, p1, p2}, Lf/k/h/a/l/x/c;->a(Lcom/meitu/global/billing/purchase/data/MTGPurchase;Lf/k/h/a/l/y/c;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -194,15 +176,12 @@
 
     const/4 p1, 0x5
 
-    .line 1
     invoke-interface {p3, p1}, Lf/k/h/a/l/y/d;->a(I)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 3
     :cond_0
     invoke-direct {p0}, Lf/k/h/a/l/t;->d()Lf/k/h/a/l/x/c;
 
@@ -210,7 +189,6 @@
 
     invoke-interface {v1, p1, p2, p3}, Lf/k/h/a/l/x/c;->b(Landroid/app/Activity;Lcom/meitu/global/billing/product/data/Product;Lf/k/h/a/l/y/d;)V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -223,14 +201,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lf/k/h/a/l/t;->e()Lf/k/h/a/l/x/e;
 
     move-result-object v1
 
     invoke-interface {v1, p1}, Lf/k/h/a/l/x/e;->c(Lf/k/h/a/l/y/g;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -243,12 +219,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lf/k/h/a/l/t;->b:Lf/k/h/a/l/x/d;
 
     invoke-interface {v1}, Lf/k/h/a/l/x/d;->a()V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -261,7 +235,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lf/k/h/a/l/x/f;
 
     invoke-direct {v1, p1}, Lf/k/h/a/l/x/f;-><init>(Lf/k/h/a/l/q;)V
@@ -278,7 +251,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lf/k/h/a/l/x/h;
 
     invoke-direct {v1, p1}, Lf/k/h/a/l/x/h;-><init>(Lf/k/h/a/l/q;)V
@@ -295,7 +267,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lf/k/h/a/l/x/j;
 
     invoke-direct {v1, p1}, Lf/k/h/a/l/x/j;-><init>(Lf/k/h/a/l/q;)V
@@ -312,12 +283,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lf/k/h/a/l/t;->a:Lf/k/h/a/l/q;
 
     invoke-interface {v1, p1, p2, p3}, Lf/k/h/a/l/q;->onActivityResult(IILandroid/content/Intent;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

@@ -39,12 +39,10 @@
 .method constructor <init>(Lcom/google/common/collect/ImmutableMapValues;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/common/collect/ImmutableMapValues$a;->b:Lcom/google/common/collect/ImmutableMapValues;
 
     invoke-direct {p0}, Lcom/google/common/collect/l2;-><init>()V
 
-    .line 2
     invoke-static {p1}, Lcom/google/common/collect/ImmutableMapValues;->access$000(Lcom/google/common/collect/ImmutableMapValues;)Lcom/google/common/collect/ImmutableMap;
 
     move-result-object p1
@@ -67,7 +65,6 @@
 .method public hasNext()Z
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/ImmutableMapValues$a;->a:Lcom/google/common/collect/l2;
 
     invoke-interface {v0}, Ljava/util/Iterator;->hasNext()Z
@@ -85,7 +82,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/ImmutableMapValues$a;->a:Lcom/google/common/collect/l2;
 
     invoke-interface {v0}, Ljava/util/Iterator;->next()Ljava/lang/Object;

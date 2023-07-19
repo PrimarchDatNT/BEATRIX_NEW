@@ -31,7 +31,6 @@
 .method protected constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -93,7 +92,6 @@
 .method public contains(Ljava/lang/Object;)Z
     .locals 3
 
-    .line 1
     invoke-interface {p0}, Ljava/util/Collection;->isEmpty()Z
 
     move-result v0
@@ -104,7 +102,6 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     invoke-interface {p0}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
@@ -121,7 +118,6 @@
 
     move-result-object v2
 
-    .line 3
     invoke-static {v2, p1}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v2
@@ -155,7 +151,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-interface {p1}, Ljava/util/Collection;->isEmpty()Z
 
     move-result v0
@@ -166,7 +161,6 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     invoke-interface {p1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
@@ -183,7 +177,6 @@
 
     move-result-object v0
 
-    .line 3
     invoke-virtual {p0, v0}, Lcotlin/collections/AbstractCollection;->contains(Ljava/lang/Object;)Z
 
     move-result v0
@@ -200,7 +193,6 @@
 .method public isEmpty()Z
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcotlin/collections/AbstractCollection;->size()I
 
     move-result v0
@@ -288,7 +280,6 @@
 .method public final bridge size()I
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcotlin/collections/AbstractCollection;->b()I
 
     move-result v0
@@ -301,7 +292,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     invoke-static {p0}, Lcotlin/jvm/internal/t;->a(Ljava/util/Collection;)[Ljava/lang/Object;
 
     move-result-object v0
@@ -330,7 +320,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 2
     invoke-static {p0, p1}, Lcotlin/jvm/internal/t;->b(Ljava/util/Collection;[Ljava/lang/Object;)[Ljava/lang/Object;
 
     move-result-object p1
@@ -347,7 +336,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     new-instance v6, Lcotlin/collections/AbstractCollection$toString$1;
 
     invoke-direct {v6, p0}, Lcotlin/collections/AbstractCollection$toString$1;-><init>(Lcotlin/collections/AbstractCollection;)V

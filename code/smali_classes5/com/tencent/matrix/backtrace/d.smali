@@ -52,12 +52,10 @@
 .method constructor <init>()V
     .locals 2
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/4 v0, 0x0
 
-    .line 2
     iput-boolean v0, p0, Lcom/tencent/matrix/backtrace/d;->a:Z
 
     const/4 v1, 0x1
@@ -66,7 +64,6 @@
 
     aput-boolean v0, v1, v0
 
-    .line 3
     iput-object v1, p0, Lcom/tencent/matrix/backtrace/d;->g:[Z
 
     return-void
@@ -75,7 +72,6 @@
 .method static synthetic a(Lcom/tencent/matrix/backtrace/d;)Lcom/tencent/matrix/backtrace/WeChatBacktrace$c;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lcom/tencent/matrix/backtrace/d;->f:Lcom/tencent/matrix/backtrace/WeChatBacktrace$c;
 
     return-object p0
@@ -84,7 +80,6 @@
 .method static synthetic b(Lcom/tencent/matrix/backtrace/d;)Lcom/tencent/matrix/backtrace/WarmUpScheduler;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lcom/tencent/matrix/backtrace/d;->e:Lcom/tencent/matrix/backtrace/WarmUpScheduler;
 
     return-object p0
@@ -93,7 +88,6 @@
 .method static synthetic c(Lcom/tencent/matrix/backtrace/d;)Lcom/tencent/matrix/backtrace/e;
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/tencent/matrix/backtrace/d;->i()Lcom/tencent/matrix/backtrace/e;
 
     move-result-object p0
@@ -104,7 +98,6 @@
 .method static synthetic d(Lcom/tencent/matrix/backtrace/d;Ljava/lang/String;I)Z
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1, p2}, Lcom/tencent/matrix/backtrace/d;->v(Ljava/lang/String;I)Z
 
     move-result p0
@@ -115,7 +108,6 @@
 .method static synthetic e(Lcom/tencent/matrix/backtrace/d;Ljava/lang/String;I)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1, p2}, Lcom/tencent/matrix/backtrace/d;->w(Ljava/lang/String;I)V
 
     return-void
@@ -124,7 +116,6 @@
 .method static synthetic f(Lcom/tencent/matrix/backtrace/d;Lcom/tencent/matrix/backtrace/e;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/tencent/matrix/backtrace/d;->r(Lcom/tencent/matrix/backtrace/e;)V
 
     return-void
@@ -133,7 +124,6 @@
 .method static synthetic g(Lcom/tencent/matrix/backtrace/d;Landroid/content/Context;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/tencent/matrix/backtrace/d;->j(Landroid/content/Context;)V
 
     return-void
@@ -142,7 +132,6 @@
 .method static synthetic h(Lcom/tencent/matrix/backtrace/WeChatBacktrace$Mode;)V
     .locals 0
 
-    .line 1
     invoke-static {p0}, Lcom/tencent/matrix/backtrace/d;->u(Lcom/tencent/matrix/backtrace/WeChatBacktrace$Mode;)V
 
     return-void
@@ -151,26 +140,22 @@
 .method private i()Lcom/tencent/matrix/backtrace/e;
     .locals 5
 
-    .line 1
     iget-boolean v0, p0, Lcom/tencent/matrix/backtrace/d;->a:Z
 
     const/4 v1, 0x0
 
     if-eqz v0, :cond_1
 
-    .line 2
     new-instance v0, Lcom/tencent/matrix/backtrace/d$f;
 
     iget-object v2, p0, Lcom/tencent/matrix/backtrace/d;->b:Ljava/lang/String;
 
     invoke-direct {v0, v2}, Lcom/tencent/matrix/backtrace/d$f;-><init>(Ljava/lang/String;)V
 
-    .line 3
     new-instance v2, Landroid/os/Bundle;
 
     invoke-direct {v2}, Landroid/os/Bundle;-><init>()V
 
-    .line 4
     iget-object v3, p0, Lcom/tencent/matrix/backtrace/d;->f:Lcom/tencent/matrix/backtrace/WeChatBacktrace$c;
 
     iget-boolean v3, v3, Lcom/tencent/matrix/backtrace/WeChatBacktrace$c;->n:Z
@@ -179,7 +164,6 @@
 
     invoke-virtual {v2, v4, v3}, Landroid/os/Bundle;->putBoolean(Ljava/lang/String;Z)V
 
-    .line 5
     iget-object v3, p0, Lcom/tencent/matrix/backtrace/d;->f:Lcom/tencent/matrix/backtrace/WeChatBacktrace$c;
 
     iget-object v3, v3, Lcom/tencent/matrix/backtrace/WeChatBacktrace$c;->o:Ljava/lang/String;
@@ -188,7 +172,6 @@
 
     invoke-virtual {v2, v4, v3}, Landroid/os/Bundle;->putString(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 6
     iget-object v3, p0, Lcom/tencent/matrix/backtrace/d;->f:Lcom/tencent/matrix/backtrace/WeChatBacktrace$c;
 
     iget-object v3, v3, Lcom/tencent/matrix/backtrace/WeChatBacktrace$c;->a:Landroid/content/Context;
@@ -204,7 +187,6 @@
     :cond_0
     return-object v1
 
-    .line 7
     :cond_1
     new-instance v0, Lcom/tencent/matrix/backtrace/d$e;
 
@@ -220,16 +202,13 @@
 
     const/4 v1, 0x0
 
-    .line 1
     :try_start_0
     invoke-static {p1}, Lcom/tencent/matrix/backtrace/f;->q(Landroid/content/Context;)Ljava/io/File;
 
     move-result-object v2
 
-    .line 2
     invoke-virtual {v2}, Ljava/io/File;->createNewFile()Z
 
-    .line 3
     invoke-virtual {p1}, Landroid/content/Context;->getApplicationInfo()Landroid/content/pm/ApplicationInfo;
 
     move-result-object v3
@@ -249,16 +228,13 @@
 
     const-string v4, ""
 
-    .line 4
     invoke-static {v0, v2, v4, v3}, Lcom/tencent/matrix/util/b;->e(Ljava/lang/String;Ljava/lang/Throwable;Ljava/lang/String;[Ljava/lang/Object;)V
 
     :goto_0
     const/4 v2, 0x1
 
-    .line 5
     invoke-static {v2}, Lcom/tencent/matrix/backtrace/WeChatBacktraceNative;->setWarmedUp(Z)V
 
-    .line 6
     iget-object v2, p0, Lcom/tencent/matrix/backtrace/d;->f:Lcom/tencent/matrix/backtrace/WeChatBacktrace$c;
 
     iget-object v2, v2, Lcom/tencent/matrix/backtrace/WeChatBacktrace$c;->d:Lcom/tencent/matrix/backtrace/WeChatBacktrace$Mode;
@@ -269,17 +245,14 @@
 
     const-string v3, "Broadcast warmed up message to other processes."
 
-    .line 7
     invoke-static {v0, v3, v2}, Lcom/tencent/matrix/util/b;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
-    .line 8
     new-instance v0, Landroid/content/Intent;
 
     const-string v2, "action.backtrace.warmed-up"
 
     invoke-direct {v0, v2}, Landroid/content/Intent;-><init>(Ljava/lang/String;)V
 
-    .line 9
     invoke-static {}, Landroid/os/Process;->myPid()I
 
     move-result v2
@@ -288,7 +261,6 @@
 
     invoke-virtual {v0, v3, v2}, Landroid/content/Intent;->putExtra(Ljava/lang/String;I)Landroid/content/Intent;
 
-    .line 10
     new-instance v2, Ljava/lang/StringBuilder;
 
     invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
@@ -309,12 +281,10 @@
 
     invoke-virtual {p1, v0, v2}, Landroid/content/Context;->sendBroadcast(Landroid/content/Intent;Ljava/lang/String;)V
 
-    .line 11
     sget-object p1, Lcom/tencent/matrix/backtrace/d;->o:Lcom/tencent/matrix/backtrace/WarmUpReporter;
 
     if-eqz p1, :cond_0
 
-    .line 12
     sget-object v0, Lcom/tencent/matrix/backtrace/WarmUpReporter$ReportEvent;->WarmedUp:Lcom/tencent/matrix/backtrace/WarmUpReporter$ReportEvent;
 
     new-array v1, v1, [Ljava/lang/Object;
@@ -328,7 +298,6 @@
 .method static n(Ljava/lang/String;IZ)Z
     .locals 0
 
-    .line 1
     invoke-static {p0, p1, p2}, Lcom/tencent/matrix/backtrace/WeChatBacktraceNative;->warmUp(Ljava/lang/String;IZ)Z
 
     move-result p0
@@ -339,12 +308,10 @@
 .method private r(Lcom/tencent/matrix/backtrace/e;)V
     .locals 1
 
-    .line 1
     iget-boolean v0, p0, Lcom/tencent/matrix/backtrace/d;->a:Z
 
     if-eqz v0, :cond_0
 
-    .line 2
     check-cast p1, Lcom/tencent/matrix/backtrace/d$f;
 
     iget-object v0, p0, Lcom/tencent/matrix/backtrace/d;->f:Lcom/tencent/matrix/backtrace/WeChatBacktrace$c;
@@ -360,7 +327,6 @@
 .method private static u(Lcom/tencent/matrix/backtrace/WeChatBacktrace$Mode;)V
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/tencent/matrix/backtrace/WeChatBacktrace$Mode;->FpUntilQuickenWarmedUp:Lcom/tencent/matrix/backtrace/WeChatBacktrace$Mode;
 
     if-eq p0, v0, :cond_0
@@ -369,7 +335,6 @@
 
     if-ne p0, v0, :cond_1
 
-    .line 2
     :cond_0
     sget-object p0, Lcom/tencent/matrix/backtrace/WeChatBacktrace$Mode;->Quicken:Lcom/tencent/matrix/backtrace/WeChatBacktrace$Mode;
 
@@ -384,7 +349,6 @@
 .method private v(Ljava/lang/String;I)Z
     .locals 4
 
-    .line 1
     iget-object v0, p0, Lcom/tencent/matrix/backtrace/d;->f:Lcom/tencent/matrix/backtrace/WeChatBacktrace$c;
 
     iget-object v0, v0, Lcom/tencent/matrix/backtrace/WeChatBacktrace$c;->a:Landroid/content/Context;
@@ -407,7 +371,6 @@
 
     aput-object p1, v2, v3
 
-    .line 2
     invoke-static {p2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object p1
@@ -427,12 +390,10 @@
 .method private w(Ljava/lang/String;I)V
     .locals 4
 
-    .line 1
     sget-object v0, Lcom/tencent/matrix/backtrace/d;->o:Lcom/tencent/matrix/backtrace/WarmUpReporter;
 
     if-eqz v0, :cond_0
 
-    .line 2
     sget-object v1, Lcom/tencent/matrix/backtrace/WarmUpReporter$ReportEvent;->WarmUpFailed:Lcom/tencent/matrix/backtrace/WarmUpReporter$ReportEvent;
 
     const/4 v2, 0x2
@@ -462,7 +423,6 @@
 .method k(Landroid/os/CancellationSignal;)V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/tencent/matrix/backtrace/d;->d:Lcom/tencent/matrix/backtrace/d$g;
 
     new-instance v1, Lcom/tencent/matrix/backtrace/d$b;
@@ -479,7 +439,6 @@
 .method l(Landroid/os/CancellationSignal;)V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/tencent/matrix/backtrace/d;->d:Lcom/tencent/matrix/backtrace/d$g;
 
     new-instance v1, Lcom/tencent/matrix/backtrace/d$d;
@@ -496,7 +455,6 @@
 .method m(Landroid/os/CancellationSignal;)V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/tencent/matrix/backtrace/d;->d:Lcom/tencent/matrix/backtrace/d$g;
 
     new-instance v1, Lcom/tencent/matrix/backtrace/d$c;
@@ -513,12 +471,10 @@
 .method o()Z
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/tencent/matrix/backtrace/d;->d:Lcom/tencent/matrix/backtrace/d$g;
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-virtual {v0}, Lcom/tencent/matrix/backtrace/d$g;->b()Z
 
     move-result v0
@@ -534,12 +490,10 @@
 .method p(Lcom/tencent/matrix/backtrace/WeChatBacktrace$c;)V
     .locals 9
 
-    .line 1
     iget-object v0, p0, Lcom/tencent/matrix/backtrace/d;->g:[Z
 
     monitor-enter v0
 
-    .line 2
     :try_start_0
     iget-object v1, p0, Lcom/tencent/matrix/backtrace/d;->g:[Z
 
@@ -549,7 +503,6 @@
 
     if-eqz v3, :cond_0
 
-    .line 3
     monitor-exit v0
 
     return-void
@@ -557,23 +510,18 @@
     :cond_0
     const/4 v3, 0x1
 
-    .line 4
     aput-boolean v3, v1, v2
 
-    .line 5
     monitor-exit v0
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 6
     iput-object p1, p0, Lcom/tencent/matrix/backtrace/d;->f:Lcom/tencent/matrix/backtrace/WeChatBacktrace$c;
 
-    .line 7
     iget-boolean v0, p1, Lcom/tencent/matrix/backtrace/WeChatBacktrace$c;->j:Z
 
     iput-boolean v0, p0, Lcom/tencent/matrix/backtrace/d;->a:Z
 
-    .line 8
     new-instance v0, Lcom/tencent/matrix/backtrace/d$g;
 
     const-string v1, "WeChatBacktraceTask"
@@ -582,7 +530,6 @@
 
     iput-object v0, p0, Lcom/tencent/matrix/backtrace/d;->d:Lcom/tencent/matrix/backtrace/d$g;
 
-    .line 9
     new-instance v0, Lcom/tencent/matrix/backtrace/WarmUpScheduler;
 
     iget-object v5, p1, Lcom/tencent/matrix/backtrace/WeChatBacktrace$c;->a:Landroid/content/Context;
@@ -599,15 +546,12 @@
 
     iput-object v0, p0, Lcom/tencent/matrix/backtrace/d;->e:Lcom/tencent/matrix/backtrace/WarmUpScheduler;
 
-    .line 10
     iget-boolean v0, p1, Lcom/tencent/matrix/backtrace/WeChatBacktrace$c;->i:Z
 
     if-eqz v0, :cond_3
 
-    .line 11
     iget-object p1, p1, Lcom/tencent/matrix/backtrace/WeChatBacktrace$c;->a:Landroid/content/Context;
 
-    .line 12
     invoke-static {p1}, Lcom/tencent/matrix/backtrace/f;->e(Landroid/content/Context;)Z
 
     move-result v0
@@ -620,17 +564,14 @@
 
     new-array v3, v2, [Ljava/lang/Object;
 
-    .line 13
     invoke-static {v0, v1, v3}, Lcom/tencent/matrix/util/b;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
-    .line 14
     iget-object v0, p0, Lcom/tencent/matrix/backtrace/d;->e:Lcom/tencent/matrix/backtrace/WarmUpScheduler;
 
     sget-object v1, Lcom/tencent/matrix/backtrace/WarmUpScheduler$TaskType;->WarmUp:Lcom/tencent/matrix/backtrace/WarmUpScheduler$TaskType;
 
     invoke-virtual {v0, v1}, Lcom/tencent/matrix/backtrace/WarmUpScheduler;->d(Lcom/tencent/matrix/backtrace/WarmUpScheduler$TaskType;)V
 
-    .line 15
     :cond_1
     invoke-static {p1}, Lcom/tencent/matrix/backtrace/f;->i(Landroid/content/Context;)Z
 
@@ -644,17 +585,14 @@
 
     new-array v3, v2, [Ljava/lang/Object;
 
-    .line 16
     invoke-static {v0, v1, v3}, Lcom/tencent/matrix/util/b;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
-    .line 17
     iget-object v0, p0, Lcom/tencent/matrix/backtrace/d;->e:Lcom/tencent/matrix/backtrace/WarmUpScheduler;
 
     sget-object v1, Lcom/tencent/matrix/backtrace/WarmUpScheduler$TaskType;->CleanUp:Lcom/tencent/matrix/backtrace/WarmUpScheduler$TaskType;
 
     invoke-virtual {v0, v1}, Lcom/tencent/matrix/backtrace/WarmUpScheduler;->d(Lcom/tencent/matrix/backtrace/WarmUpScheduler$TaskType;)V
 
-    .line 18
     :cond_2
     invoke-static {p1}, Lcom/tencent/matrix/backtrace/f;->m(Landroid/content/Context;)Z
 
@@ -668,10 +606,8 @@
 
     new-array v1, v2, [Ljava/lang/Object;
 
-    .line 19
     invoke-static {p1, v0, v1}, Lcom/tencent/matrix/util/b;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
-    .line 20
     iget-object p1, p0, Lcom/tencent/matrix/backtrace/d;->e:Lcom/tencent/matrix/backtrace/WarmUpScheduler;
 
     sget-object v0, Lcom/tencent/matrix/backtrace/WarmUpScheduler$TaskType;->DiskUsage:Lcom/tencent/matrix/backtrace/WarmUpScheduler$TaskType;
@@ -684,7 +620,6 @@
     :catchall_0
     move-exception p1
 
-    .line 21
     :try_start_1
     monitor-exit v0
     :try_end_1
@@ -698,7 +633,6 @@
 
     monitor-enter p0
 
-    .line 1
     :try_start_0
     iget-object v0, p1, Lcom/tencent/matrix/backtrace/WeChatBacktrace$c;->a:Landroid/content/Context;
 
@@ -710,19 +644,16 @@
 
     if-eqz v0, :cond_0
 
-    .line 2
     monitor-exit p0
 
     return-void
 
-    .line 3
     :cond_0
     :try_start_1
     iget-object v0, p0, Lcom/tencent/matrix/backtrace/d;->c:Lcom/tencent/matrix/backtrace/d$h;
 
     if-nez v0, :cond_1
 
-    .line 4
     new-instance v0, Lcom/tencent/matrix/backtrace/d$h;
 
     invoke-direct {v0, p2}, Lcom/tencent/matrix/backtrace/d$h;-><init>(Lcom/tencent/matrix/backtrace/WeChatBacktrace$Mode;)V
@@ -737,20 +668,16 @@
 
     new-array v1, v1, [Ljava/lang/Object;
 
-    .line 5
     invoke-static {p2, v0, v1}, Lcom/tencent/matrix/util/b;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
-    .line 6
     new-instance p2, Landroid/content/IntentFilter;
 
     invoke-direct {p2}, Landroid/content/IntentFilter;-><init>()V
 
     const-string v0, "action.backtrace.warmed-up"
 
-    .line 7
     invoke-virtual {p2, v0}, Landroid/content/IntentFilter;->addAction(Ljava/lang/String;)V
 
-    .line 8
     iget-object v0, p1, Lcom/tencent/matrix/backtrace/WeChatBacktrace$c;->a:Landroid/content/Context;
 
     iget-object v1, p0, Lcom/tencent/matrix/backtrace/d;->c:Lcom/tencent/matrix/backtrace/d$h;
@@ -761,7 +688,6 @@
 
     iget-object p1, p1, Lcom/tencent/matrix/backtrace/WeChatBacktrace$c;->a:Landroid/content/Context;
 
-    .line 9
     invoke-virtual {p1}, Landroid/content/Context;->getPackageName()Ljava/lang/String;
 
     move-result-object p1
@@ -778,17 +704,14 @@
 
     const/4 v2, 0x0
 
-    .line 10
     invoke-virtual {v0, v1, p2, p1, v2}, Landroid/content/Context;->registerReceiver(Landroid/content/BroadcastReceiver;Landroid/content/IntentFilter;Ljava/lang/String;Landroid/os/Handler;)Landroid/content/Intent;
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
-    .line 11
     monitor-exit p0
 
     return-void
 
-    .line 12
     :cond_1
     monitor-exit p0
 
@@ -805,7 +728,6 @@
 .method s()V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/tencent/matrix/backtrace/d;->f:Lcom/tencent/matrix/backtrace/WeChatBacktrace$c;
 
     iget-object v0, v0, Lcom/tencent/matrix/backtrace/WeChatBacktrace$c;->a:Landroid/content/Context;
@@ -818,7 +740,6 @@
 
     return-void
 
-    .line 2
     :cond_0
     iget-object v0, p0, Lcom/tencent/matrix/backtrace/d;->e:Lcom/tencent/matrix/backtrace/WarmUpScheduler;
 
@@ -832,10 +753,8 @@
 .method t(Ljava/lang/String;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/tencent/matrix/backtrace/d;->b:Ljava/lang/String;
 
-    .line 2
     invoke-static {p1}, Lcom/tencent/matrix/backtrace/WeChatBacktraceNative;->setSavingPath(Ljava/lang/String;)V
 
     return-void
@@ -844,7 +763,6 @@
 .method x(Landroid/os/CancellationSignal;)V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/tencent/matrix/backtrace/d;->d:Lcom/tencent/matrix/backtrace/d$g;
 
     new-instance v1, Lcom/tencent/matrix/backtrace/d$a;

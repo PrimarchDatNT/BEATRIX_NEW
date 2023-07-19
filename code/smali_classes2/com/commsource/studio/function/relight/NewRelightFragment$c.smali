@@ -57,12 +57,10 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/function/relight/NewRelightFragment$c;->a:Lcom/commsource/studio/function/relight/NewRelightFragment;
 
     invoke-static {v1, p1}, Lcom/commsource/studio/function/relight/NewRelightFragment;->A1(Lcom/commsource/studio/function/relight/NewRelightFragment;Lcom/commsource/studio/function/relight/b;)V
 
-    .line 2
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -76,7 +74,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Lcom/commsource/studio/function/relight/b;
 
     invoke-virtual {p0, p1}, Lcom/commsource/studio/function/relight/NewRelightFragment$c;->a(Lcom/commsource/studio/function/relight/b;)V

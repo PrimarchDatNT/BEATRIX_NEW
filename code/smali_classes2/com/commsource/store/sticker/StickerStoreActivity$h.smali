@@ -36,7 +36,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/store/sticker/StickerStoreActivity$h;->c:Lcom/commsource/store/sticker/StickerStoreActivity;
 
     invoke-direct {p0}, Lcom/commsource/beautyfilter/NoStickLiveData$a;-><init>()V
@@ -53,7 +52,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Ljava/lang/Boolean;
 
     invoke-virtual {p0, p1}, Lcom/commsource/store/sticker/StickerStoreActivity$h;->e(Ljava/lang/Boolean;)V
@@ -76,12 +74,10 @@
 
     if-nez p1, :cond_0
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 2
     :cond_0
     invoke-virtual {p1}, Ljava/lang/Boolean;->booleanValue()Z
 
@@ -89,12 +85,10 @@
 
     if-eqz p1, :cond_1
 
-    .line 3
     iget-object p1, p0, Lcom/commsource/store/sticker/StickerStoreActivity$h;->c:Lcom/commsource/store/sticker/StickerStoreActivity;
 
     invoke-static {p1}, Lcom/commsource/store/sticker/StickerStoreActivity;->T0(Lcom/commsource/store/sticker/StickerStoreActivity;)V
 
-    .line 4
     iget-object p1, p0, Lcom/commsource/store/sticker/StickerStoreActivity$h;->c:Lcom/commsource/store/sticker/StickerStoreActivity;
 
     invoke-static {p1}, Lcom/commsource/store/sticker/StickerStoreActivity;->R0(Lcom/commsource/store/sticker/StickerStoreActivity;)Lcom/commsource/beautyplus/f0/w0;
@@ -105,20 +99,17 @@
 
     invoke-virtual {p1}, Lcom/commsource/widget/mask/MaskContainer;->b()V
 
-    .line 5
     sget-object p1, Lcom/commsource/studio/sticker/StickerManager;->p:Lcom/commsource/studio/sticker/StickerManager;
 
     const-string v1, "\u8d34\u7eb8\u5546\u5e97\u9875"
 
     invoke-virtual {p1, v1}, Lcom/commsource/studio/sticker/StickerManager;->y(Ljava/lang/String;)V
 
-    .line 6
     :cond_1
     iget-object p1, p0, Lcom/commsource/store/sticker/StickerStoreActivity$h;->c:Lcom/commsource/store/sticker/StickerStoreActivity;
 
     invoke-static {p1}, Lcom/commsource/store/sticker/StickerStoreActivity;->N0(Lcom/commsource/store/sticker/StickerStoreActivity;)V
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

@@ -34,7 +34,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lf/r/c/d/d$c;->c:Lf/r/c/d/d;
 
     iput-object p2, p0, Lf/r/c/d/d$c;->a:Lf/r/c/d/b$a;
@@ -51,12 +50,10 @@
 .method public a(Lf/r/c/d/b;)V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lf/r/c/d/d$c;->a:Lf/r/c/d/b$a;
 
     invoke-virtual {v0, p1}, Lf/r/c/e/d;->c(Ljava/lang/Object;)V
 
-    .line 2
     iget-object p1, p0, Lf/r/c/d/d$c;->c:Lf/r/c/d/d;
 
     iget-object v0, p0, Lf/r/c/d/d$c;->b:Ljava/util/ArrayList;

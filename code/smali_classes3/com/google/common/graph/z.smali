@@ -60,7 +60,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/google/common/graph/y;-><init>(Ljava/util/Map;)V
 
     return-void
@@ -76,12 +75,10 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/graph/z;->c:Lcom/google/common/graph/z$a;
 
     iput-object v0, p0, Lcom/google/common/graph/z;->d:Lcom/google/common/graph/z$a;
 
-    .line 2
     iput-object p1, p0, Lcom/google/common/graph/z;->c:Lcom/google/common/graph/z$a;
 
     return-void
@@ -95,7 +92,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/google/common/graph/z$a;
 
     invoke-direct {v0, p1, p2}, Lcom/google/common/graph/z$a;-><init>(Ljava/lang/Object;Ljava/lang/Object;)V
@@ -110,15 +106,12 @@
 .method protected d()V
     .locals 1
 
-    .line 1
     invoke-super {p0}, Lcom/google/common/graph/y;->d()V
 
     const/4 v0, 0x0
 
-    .line 2
     iput-object v0, p0, Lcom/google/common/graph/z;->c:Lcom/google/common/graph/z$a;
 
-    .line 3
     iput-object v0, p0, Lcom/google/common/graph/z;->d:Lcom/google/common/graph/z$a;
 
     return-void
@@ -138,7 +131,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0, p1}, Lcom/google/common/graph/z;->g(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v0
@@ -147,7 +139,6 @@
 
     return-object v0
 
-    .line 2
     :cond_0
     invoke-virtual {p0, p1}, Lcom/google/common/graph/y;->h(Ljava/lang/Object;)Ljava/lang/Object;
 
@@ -155,7 +146,6 @@
 
     if-eqz v0, :cond_1
 
-    .line 3
     invoke-direct {p0, p1, v0}, Lcom/google/common/graph/z;->m(Ljava/lang/Object;Ljava/lang/Object;)V
 
     :cond_1
@@ -176,7 +166,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-super {p0, p1}, Lcom/google/common/graph/y;->g(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v0
@@ -185,37 +174,30 @@
 
     return-object v0
 
-    .line 2
     :cond_0
     iget-object v0, p0, Lcom/google/common/graph/z;->c:Lcom/google/common/graph/z$a;
 
     if-eqz v0, :cond_1
 
-    .line 3
     iget-object v1, v0, Lcom/google/common/graph/z$a;->a:Ljava/lang/Object;
 
     if-ne v1, p1, :cond_1
 
-    .line 4
     iget-object p1, v0, Lcom/google/common/graph/z$a;->b:Ljava/lang/Object;
 
     return-object p1
 
-    .line 5
     :cond_1
     iget-object v0, p0, Lcom/google/common/graph/z;->d:Lcom/google/common/graph/z$a;
 
     if-eqz v0, :cond_2
 
-    .line 6
     iget-object v1, v0, Lcom/google/common/graph/z$a;->a:Ljava/lang/Object;
 
     if-ne v1, p1, :cond_2
 
-    .line 7
     invoke-direct {p0, v0}, Lcom/google/common/graph/z;->l(Lcom/google/common/graph/z$a;)V
 
-    .line 8
     iget-object p1, v0, Lcom/google/common/graph/z$a;->b:Ljava/lang/Object;
 
     return-object p1

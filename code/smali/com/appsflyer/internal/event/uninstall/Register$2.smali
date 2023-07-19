@@ -27,7 +27,6 @@
 .method constructor <init>(Lcom/appsflyer/internal/event/uninstall/Register;Lcom/appsflyer/AppsFlyerLibCore;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/appsflyer/internal/event/uninstall/Register$2;->AFDateFormat:Lcom/appsflyer/internal/event/uninstall/Register;
 
     iput-object p2, p0, Lcom/appsflyer/internal/event/uninstall/Register$2;->values:Lcom/appsflyer/AppsFlyerLibCore;
@@ -42,7 +41,6 @@
 .method public final run()V
     .locals 3
 
-    .line 1
     :try_start_0
     new-instance v0, Lcom/appsflyer/BackgroundHttpTask;
 
@@ -50,7 +48,6 @@
 
     iget-object v2, p0, Lcom/appsflyer/internal/event/uninstall/Register$2;->values:Lcom/appsflyer/AppsFlyerLibCore;
 
-    .line 2
     invoke-virtual {v2}, Lcom/appsflyer/AppsFlyerLib;->isStopped()Z
 
     move-result v2
@@ -67,7 +64,6 @@
 
     if-eqz v0, :cond_1
 
-    .line 3
     invoke-virtual {v0}, Ljava/net/HttpURLConnection;->getResponseCode()I
 
     move-result v1
@@ -80,7 +76,6 @@
 
     invoke-static {v1}, Lcom/appsflyer/internal/event/uninstall/Register;->$$b(Lcom/appsflyer/internal/event/uninstall/Register;)V
 
-    .line 4
     :cond_0
     invoke-virtual {v0}, Ljava/net/HttpURLConnection;->disconnect()V
     :try_end_0
@@ -92,7 +87,6 @@
     :catchall_0
     move-exception v0
 
-    .line 5
     invoke-virtual {v0}, Ljava/lang/Throwable;->getMessage()Ljava/lang/String;
 
     move-result-object v1

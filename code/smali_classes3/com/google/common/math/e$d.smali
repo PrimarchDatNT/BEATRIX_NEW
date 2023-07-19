@@ -29,18 +29,14 @@
 .method constructor <init>(DD)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/google/common/math/e;-><init>()V
 
-    .line 2
     iput-wide p1, p0, Lcom/google/common/math/e$d;->a:D
 
-    .line 3
     iput-wide p3, p0, Lcom/google/common/math/e$d;->b:D
 
     const/4 p1, 0x0
 
-    .line 4
     iput-object p1, p0, Lcom/google/common/math/e$d;->c:Lcom/google/common/math/e;
 
     return-void
@@ -49,16 +45,12 @@
 .method constructor <init>(DDLcom/google/common/math/e;)V
     .locals 0
 
-    .line 5
     invoke-direct {p0}, Lcom/google/common/math/e;-><init>()V
 
-    .line 6
     iput-wide p1, p0, Lcom/google/common/math/e$d;->a:D
 
-    .line 7
     iput-wide p3, p0, Lcom/google/common/math/e$d;->b:D
 
-    .line 8
     iput-object p5, p0, Lcom/google/common/math/e$d;->c:Lcom/google/common/math/e;
 
     return-void
@@ -67,7 +59,6 @@
 .method private j()Lcom/google/common/math/e;
     .locals 11
 
-    .line 1
     iget-wide v0, p0, Lcom/google/common/math/e$d;->a:D
 
     const-wide/16 v2, 0x0
@@ -76,7 +67,6 @@
 
     if-eqz v4, :cond_0
 
-    .line 2
     new-instance v2, Lcom/google/common/math/e$d;
 
     const-wide/high16 v3, 0x3ff0000000000000L    # 1.0
@@ -99,7 +89,6 @@
 
     return-object v2
 
-    .line 3
     :cond_0
     new-instance v0, Lcom/google/common/math/e$e;
 
@@ -115,12 +104,10 @@
 .method public c()Lcom/google/common/math/e;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/math/e$d;->c:Lcom/google/common/math/e;
 
     if-nez v0, :cond_0
 
-    .line 2
     invoke-direct {p0}, Lcom/google/common/math/e$d;->j()Lcom/google/common/math/e;
 
     move-result-object v0
@@ -134,7 +121,6 @@
 .method public d()Z
     .locals 5
 
-    .line 1
     iget-wide v0, p0, Lcom/google/common/math/e$d;->a:D
 
     const-wide/16 v2, 0x0
@@ -165,7 +151,6 @@
 .method public g()D
     .locals 2
 
-    .line 1
     iget-wide v0, p0, Lcom/google/common/math/e$d;->a:D
 
     return-wide v0
@@ -174,7 +159,6 @@
 .method public h(D)D
     .locals 2
 
-    .line 1
     iget-wide v0, p0, Lcom/google/common/math/e$d;->a:D
 
     mul-double p1, p1, v0
@@ -193,7 +177,6 @@
 
     new-array v0, v0, [Ljava/lang/Object;
 
-    .line 1
     iget-wide v1, p0, Lcom/google/common/math/e$d;->a:D
 
     invoke-static {v1, v2}, Ljava/lang/Double;->valueOf(D)Ljava/lang/Double;

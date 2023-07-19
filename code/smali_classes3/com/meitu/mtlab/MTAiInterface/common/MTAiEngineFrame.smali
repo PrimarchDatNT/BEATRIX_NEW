@@ -56,56 +56,42 @@
 .method public constructor <init>()V
     .locals 4
 
-    .line 1
     invoke-direct {p0}, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineNativeBase;-><init>()V
 
     const-wide/16 v0, 0x0
 
-    .line 2
     iput-wide v0, p0, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineFrame;->mNativeInstance:J
 
     const/4 v2, 0x0
 
-    .line 3
     iput-object v2, p0, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineFrame;->colorImage:Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineImage;
 
-    .line 4
     iput-object v2, p0, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineFrame;->colorImagePL:Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineImage;
 
-    .line 5
     iput-object v2, p0, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineFrame;->colorImageUV:Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineImage;
 
-    .line 6
     iput-object v2, p0, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineFrame;->grayImage:Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineImage;
 
-    .line 7
     iput-object v2, p0, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineFrame;->p2pAlpha:Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineImage;
 
     const/4 v3, 0x0
 
-    .line 8
     iput-boolean v3, p0, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineFrame;->firstFrame:Z
 
-    .line 9
     iput-boolean v3, p0, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineFrame;->captureFrame:Z
 
-    .line 10
     iput v3, p0, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineFrame;->frameTextureID:I
 
-    .line 11
     iput v3, p0, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineFrame;->frameTextureW:I
 
-    .line 12
     iput v3, p0, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineFrame;->frameTextureH:I
 
-    .line 13
     iput-object v2, p0, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineFrame;->imageDict:Ljava/util/HashMap;
 
     cmp-long v2, v0, v0
 
     if-nez v2, :cond_0
 
-    .line 14
     new-instance v0, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineFrame$1;
 
     invoke-direct {v0, p0}, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineFrame$1;-><init>(Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineFrame;)V
@@ -123,7 +109,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-wide p1, p0, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineFrame;->mNativeInstance:J
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -138,7 +123,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineFrame;->nativeCreateInstance()J
 
     move-result-wide v1
@@ -204,47 +188,34 @@
 
     const/4 v1, 0x0
 
-    .line 1
     iput-object v1, p0, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineFrame;->colorImage:Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineImage;
 
-    .line 2
     iput-object v1, p0, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineFrame;->colorImagePL:Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineImage;
 
-    .line 3
     iput-object v1, p0, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineFrame;->colorImageUV:Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineImage;
 
-    .line 4
     iput-object v1, p0, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineFrame;->grayImage:Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineImage;
 
-    .line 5
     iput-object v1, p0, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineFrame;->p2pAlpha:Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineImage;
 
     const/4 v2, 0x0
 
-    .line 6
     iput-boolean v2, p0, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineFrame;->firstFrame:Z
 
-    .line 7
     iput-boolean v2, p0, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineFrame;->captureFrame:Z
 
-    .line 8
     iput v2, p0, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineFrame;->frameTextureID:I
 
-    .line 9
     iput v2, p0, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineFrame;->frameTextureW:I
 
-    .line 10
     iput v2, p0, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineFrame;->frameTextureH:I
 
-    .line 11
     iput-object v1, p0, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineFrame;->imageDict:Ljava/util/HashMap;
 
-    .line 12
     iget-wide v1, p0, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineFrame;->mNativeInstance:J
 
     invoke-static {v1, v2}, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineFrame;->nativeClearFrame(J)V
 
-    .line 13
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -262,7 +233,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     :try_start_0
     iget-wide v1, p0, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineFrame;->mNativeInstance:J
 
@@ -270,10 +240,8 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 2
     invoke-super {p0}, Ljava/lang/Object;->finalize()V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -281,10 +249,8 @@
     :catchall_0
     move-exception v1
 
-    .line 4
     invoke-super {p0}, Ljava/lang/Object;->finalize()V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     throw v1
@@ -297,7 +263,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineFrame;->mNativeInstance:J
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -312,12 +277,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineFrame;->colorImage:Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineImage;
 
     if-eqz v1, :cond_0
 
-    .line 2
     iget-wide v2, p0, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineFrame;->mNativeInstance:J
 
     invoke-virtual {v1}, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineImage;->getNativeInstance()J
@@ -326,13 +289,11 @@
 
     invoke-static {v2, v3, v4, v5}, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineFrame;->nativeSetColorImage(JJ)V
 
-    .line 3
     :cond_0
     iget-object v1, p0, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineFrame;->colorImagePL:Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineImage;
 
     if-eqz v1, :cond_1
 
-    .line 4
     iget-wide v2, p0, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineFrame;->mNativeInstance:J
 
     invoke-virtual {v1}, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineImage;->getNativeInstance()J
@@ -341,13 +302,11 @@
 
     invoke-static {v2, v3, v4, v5}, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineFrame;->nativeSetColorImagePL(JJ)V
 
-    .line 5
     :cond_1
     iget-object v1, p0, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineFrame;->colorImageUV:Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineImage;
 
     if-eqz v1, :cond_2
 
-    .line 6
     iget-wide v2, p0, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineFrame;->mNativeInstance:J
 
     invoke-virtual {v1}, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineImage;->getNativeInstance()J
@@ -356,13 +315,11 @@
 
     invoke-static {v2, v3, v4, v5}, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineFrame;->nativeSetColorImageUV(JJ)V
 
-    .line 7
     :cond_2
     iget-object v1, p0, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineFrame;->grayImage:Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineImage;
 
     if-eqz v1, :cond_3
 
-    .line 8
     iget-wide v2, p0, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineFrame;->mNativeInstance:J
 
     invoke-virtual {v1}, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineImage;->getNativeInstance()J
@@ -371,13 +328,11 @@
 
     invoke-static {v2, v3, v4, v5}, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineFrame;->nativeSetGrayImage(JJ)V
 
-    .line 9
     :cond_3
     iget-object v1, p0, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineFrame;->p2pAlpha:Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineImage;
 
     if-eqz v1, :cond_4
 
-    .line 10
     iget-wide v2, p0, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineFrame;->mNativeInstance:J
 
     invoke-virtual {v1}, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineImage;->getNativeInstance()J
@@ -386,7 +341,6 @@
 
     invoke-static {v2, v3, v4, v5}, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineFrame;->nativeSetP2pAlphaImage(JJ)V
 
-    .line 11
     :cond_4
     iget-wide v1, p0, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineFrame;->mNativeInstance:J
 
@@ -394,14 +348,12 @@
 
     invoke-static {v1, v2, v3}, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineFrame;->nativeSetIsFirstFrame(JZ)V
 
-    .line 12
     iget-wide v1, p0, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineFrame;->mNativeInstance:J
 
     iget-boolean v3, p0, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineFrame;->captureFrame:Z
 
     invoke-static {v1, v2, v3}, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineFrame;->nativeSetIsCaptureFrame(JZ)V
 
-    .line 13
     iget-wide v1, p0, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineFrame;->mNativeInstance:J
 
     iget v3, p0, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineFrame;->frameTextureID:I
@@ -412,17 +364,14 @@
 
     invoke-static {v1, v2, v3, v4, v5}, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineFrame;->nativeSetFrameTextureID(JIII)V
 
-    .line 14
     iget-object v1, p0, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineFrame;->imageDict:Ljava/util/HashMap;
 
     if-eqz v1, :cond_5
 
-    .line 15
     iget-wide v2, p0, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineFrame;->mNativeInstance:J
 
     invoke-static {v2, v3, v1}, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineFrame;->nativeSetImageDict(JLjava/util/HashMap;)V
 
-    .line 16
     :cond_5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

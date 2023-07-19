@@ -17,7 +17,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-direct {p0, p1, v0}, Lcom/commsource/camera/widget/BreathImageView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
     return-void
@@ -30,7 +29,6 @@
         .end annotation
     .end param
 
-    .line 2
     invoke-direct {p0, p1, p2}, Landroidx/appcompat/widget/AppCompatImageView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
     return-void
@@ -43,7 +41,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/camera/widget/BreathImageView;->c:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -60,7 +57,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/widget/BreathImageView;->b:Landroid/animation/ValueAnimator;
 
     if-nez v1, :cond_0
@@ -69,7 +65,6 @@
 
     new-array v1, v1, [F
 
-    .line 2
     fill-array-data v1, :array_0
 
     invoke-static {v1}, Landroid/animation/ValueAnimator;->ofFloat([F)Landroid/animation/ValueAnimator;
@@ -78,14 +73,12 @@
 
     iput-object v1, p0, Lcom/commsource/camera/widget/BreathImageView;->b:Landroid/animation/ValueAnimator;
 
-    .line 3
     new-instance v2, Lcom/commsource/camera/widget/BreathImageView$b;
 
     invoke-direct {v2, p0}, Lcom/commsource/camera/widget/BreathImageView$b;-><init>(Lcom/commsource/camera/widget/BreathImageView;)V
 
     invoke-virtual {v1, v2}, Landroid/animation/ValueAnimator;->addUpdateListener(Landroid/animation/ValueAnimator$AnimatorUpdateListener;)V
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/camera/widget/BreathImageView;->b:Landroid/animation/ValueAnimator;
 
     new-instance v2, Lcom/commsource/camera/widget/BreathImageView$c;
@@ -94,7 +87,6 @@
 
     invoke-virtual {v1, v2}, Landroid/animation/ValueAnimator;->addListener(Landroid/animation/Animator$AnimatorListener;)V
 
-    .line 5
     :cond_0
     iget-object v1, p0, Lcom/commsource/camera/widget/BreathImageView;->b:Landroid/animation/ValueAnimator;
 
@@ -106,7 +98,6 @@
 
     invoke-virtual {v1}, Landroid/animation/ValueAnimator;->start()V
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -126,7 +117,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/widget/BreathImageView;->a:Landroid/animation/ValueAnimator;
 
     if-nez v1, :cond_0
@@ -135,7 +125,6 @@
 
     new-array v1, v1, [F
 
-    .line 2
     fill-array-data v1, :array_0
 
     invoke-static {v1}, Landroid/animation/ValueAnimator;->ofFloat([F)Landroid/animation/ValueAnimator;
@@ -144,7 +133,6 @@
 
     iput-object v1, p0, Lcom/commsource/camera/widget/BreathImageView;->a:Landroid/animation/ValueAnimator;
 
-    .line 3
     new-instance v2, Lcom/commsource/camera/widget/BreathImageView$a;
 
     invoke-direct {v2, p0}, Lcom/commsource/camera/widget/BreathImageView$a;-><init>(Lcom/commsource/camera/widget/BreathImageView;)V
@@ -154,10 +142,8 @@
     :cond_0
     const/4 v1, 0x0
 
-    .line 4
     invoke-virtual {p0, v1}, Landroid/widget/ImageView;->setVisibility(I)V
 
-    .line 5
     iget-object v1, p0, Lcom/commsource/camera/widget/BreathImageView;->a:Landroid/animation/ValueAnimator;
 
     const-wide/16 v2, 0x1f4
@@ -168,7 +154,6 @@
 
     invoke-virtual {v1}, Landroid/animation/ValueAnimator;->start()V
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -190,7 +175,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     invoke-virtual {p0}, Landroid/widget/ImageView;->getVisibility()I
 
     move-result p1
@@ -199,12 +183,10 @@
 
     const/4 p1, 0x0
 
-    .line 2
     invoke-virtual {p0, p1}, Landroid/widget/ImageView;->setVisibility(I)V
 
     goto :goto_0
 
-    .line 3
     :cond_0
     invoke-virtual {p0}, Landroid/widget/ImageView;->getVisibility()I
 
@@ -214,10 +196,8 @@
 
     const/16 p1, 0x8
 
-    .line 4
     invoke-virtual {p0, p1}, Landroid/widget/ImageView;->setVisibility(I)V
 
-    .line 5
     :cond_1
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

@@ -25,7 +25,6 @@
 .method constructor <init>(Lcom/meitu/library/abtest/h/a$a;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/library/abtest/h/a$a$a;->a:Lcom/meitu/library/abtest/h/a$a;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -42,14 +41,12 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcom/meitu/library/abtest/h/a$a$a;->a:Lcom/meitu/library/abtest/h/a$a;
 
     iget-object v0, v0, Lcom/meitu/library/abtest/h/a$a;->b:Lcom/meitu/library/abtest/h/g;
 
     invoke-interface {v0, p2}, Lcom/meitu/library/abtest/h/g;->a(Ljava/lang/Exception;)V
 
-    .line 2
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -62,7 +59,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     :try_start_0
     iget-object v1, p0, Lcom/meitu/library/abtest/h/a$a$a;->a:Lcom/meitu/library/abtest/h/a$a;
 
@@ -93,10 +89,8 @@
     :catch_0
     move-exception p2
 
-    .line 2
     invoke-virtual {p0, p1, p2}, Lcom/meitu/library/abtest/h/a$a$a;->onFailure(Lokhttp3/Call;Ljava/io/IOException;)V
 
-    .line 3
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

@@ -36,7 +36,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/store/sticker/StickerChildStoreFragment$g;->c:Lcom/commsource/store/sticker/StickerChildStoreFragment;
 
     invoke-direct {p0}, Lcom/commsource/beautyfilter/NoStickLiveData$a;-><init>()V
@@ -53,7 +52,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Lcom/meitu/template/bean/StickerGroup;
 
     invoke-virtual {p0, p1}, Lcom/commsource/store/sticker/StickerChildStoreFragment$g;->e(Lcom/meitu/template/bean/StickerGroup;)V
@@ -74,7 +72,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/store/sticker/StickerChildStoreFragment$g;->c:Lcom/commsource/store/sticker/StickerChildStoreFragment;
 
     invoke-static {v1}, Lcom/commsource/store/sticker/StickerChildStoreFragment;->B(Lcom/commsource/store/sticker/StickerChildStoreFragment;)Lcom/commsource/widget/h1/e;
@@ -83,7 +80,6 @@
 
     invoke-virtual {v1, p1}, Lcom/commsource/widget/h1/e;->v(Ljava/lang/Object;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

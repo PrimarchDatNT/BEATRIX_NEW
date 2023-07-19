@@ -55,7 +55,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Ljava/lang/Number;
 
     invoke-virtual {p1}, Ljava/lang/Number;->floatValue()F
@@ -78,7 +77,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/puzzle/StitchComponent$StitchContainer$scrollToOnY$func$1;->this$0:Lcom/commsource/puzzle/StitchComponent$StitchContainer;
 
     invoke-virtual {v1}, Landroid/widget/LinearLayout;->getTranslationY()F
@@ -89,10 +87,8 @@
 
     invoke-virtual {v1, v2}, Landroid/widget/LinearLayout;->setTranslationY(F)V
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/puzzle/StitchComponent$StitchContainer$scrollToOnY$func$1;->this$0:Lcom/commsource/puzzle/StitchComponent$StitchContainer;
 
-    .line 4
     invoke-virtual {v1}, Landroid/view/ViewGroup;->getChildCount()I
 
     move-result v2
@@ -102,7 +98,6 @@
     :goto_0
     if-ge v3, v2, :cond_0
 
-    .line 5
     invoke-virtual {v1, v3}, Landroid/view/ViewGroup;->getChildAt(I)Landroid/view/View;
 
     move-result-object v4
@@ -111,7 +106,6 @@
 
     invoke-static {v4, v5}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 6
     iget-object v5, p0, Lcom/commsource/puzzle/StitchComponent$StitchContainer$scrollToOnY$func$1;->this$0:Lcom/commsource/puzzle/StitchComponent$StitchContainer;
 
     iget-object v5, v5, Lcom/commsource/puzzle/StitchComponent$StitchContainer;->M:Lcom/commsource/puzzle/StitchComponent;
@@ -132,7 +126,6 @@
 
     goto :goto_0
 
-    .line 7
     :cond_0
     iget-object p1, p0, Lcom/commsource/puzzle/StitchComponent$StitchContainer$scrollToOnY$func$1;->this$0:Lcom/commsource/puzzle/StitchComponent$StitchContainer;
 
@@ -158,7 +151,6 @@
 
     invoke-virtual {p1, v1, v2}, Landroid/graphics/Rect;->offsetTo(II)V
 
-    .line 8
     iget-object p1, p0, Lcom/commsource/puzzle/StitchComponent$StitchContainer$scrollToOnY$func$1;->this$0:Lcom/commsource/puzzle/StitchComponent$StitchContainer;
 
     invoke-virtual {p1}, Landroid/widget/LinearLayout;->getParent()Landroid/view/ViewParent;
@@ -171,12 +163,10 @@
 
     invoke-virtual {p1}, Landroid/widget/FrameLayout;->invalidate()V
 
-    .line 9
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 10
     :cond_1
     new-instance p1, Lcotlin/TypeCastException;
 

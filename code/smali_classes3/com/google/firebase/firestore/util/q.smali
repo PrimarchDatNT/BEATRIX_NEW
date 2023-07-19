@@ -13,12 +13,10 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/google/android/gms/tasks/m;->a:Ljava/util/concurrent/Executor;
 
     sput-object v0, Lcom/google/firebase/firestore/util/q;->a:Ljava/util/concurrent/Executor;
 
-    .line 2
     invoke-static {}, Lcom/google/firebase/firestore/util/p;->a()Ljava/util/concurrent/Executor;
 
     move-result-object v0
@@ -31,7 +29,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void

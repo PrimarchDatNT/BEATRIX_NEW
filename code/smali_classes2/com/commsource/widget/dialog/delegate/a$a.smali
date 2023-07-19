@@ -70,7 +70,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/widget/dialog/delegate/a$a;->b:Lcom/commsource/widget/dialog/delegate/c;
 
     invoke-virtual {v0}, Lcom/commsource/widget/dialog/delegate/c;->f()Lcotlin/jvm/u/l;
@@ -85,7 +84,6 @@
 
     invoke-interface {v0, v1}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 2
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

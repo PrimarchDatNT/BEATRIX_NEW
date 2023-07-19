@@ -59,7 +59,6 @@
 .method public bridge synthetic invoke()Ljava/lang/Object;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lkshark/internal/hppc/LongObjectScatterMap$entrySequence$1;->invoke()Lcotlin/Pair;
 
     move-result-object v0
@@ -81,7 +80,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 2
     iget-object v0, p0, Lkshark/internal/hppc/LongObjectScatterMap$entrySequence$1;->$slot:Lcotlin/jvm/internal/Ref$IntRef;
 
     iget v1, v0, Lcotlin/jvm/internal/Ref$IntRef;->element:I
@@ -94,10 +92,8 @@
 
     add-int/lit8 v1, v1, 0x1
 
-    .line 3
     iput v1, v0, Lcotlin/jvm/internal/Ref$IntRef;->element:I
 
-    .line 4
     :goto_0
     iget-object v0, p0, Lkshark/internal/hppc/LongObjectScatterMap$entrySequence$1;->$slot:Lcotlin/jvm/internal/Ref$IntRef;
 
@@ -107,7 +103,6 @@
 
     if-ge v0, v1, :cond_2
 
-    .line 5
     iget-object v0, p0, Lkshark/internal/hppc/LongObjectScatterMap$entrySequence$1;->this$0:Lkshark/internal/hppc/LongObjectScatterMap;
 
     invoke-static {v0}, Lkshark/internal/hppc/LongObjectScatterMap;->b(Lkshark/internal/hppc/LongObjectScatterMap;)[J
@@ -124,7 +119,6 @@
 
     if-eqz v0, :cond_1
 
-    .line 6
     invoke-static {v5, v6}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
 
     move-result-object v0
@@ -155,12 +149,10 @@
     :cond_1
     add-int/lit8 v2, v2, 0x1
 
-    .line 7
     iput v2, v1, Lcotlin/jvm/internal/Ref$IntRef;->element:I
 
     goto :goto_0
 
-    .line 8
     :cond_2
     iget-object v0, p0, Lkshark/internal/hppc/LongObjectScatterMap$entrySequence$1;->$slot:Lcotlin/jvm/internal/Ref$IntRef;
 
@@ -178,7 +170,6 @@
 
     if-eqz v0, :cond_4
 
-    .line 9
     iget-object v0, p0, Lkshark/internal/hppc/LongObjectScatterMap$entrySequence$1;->$slot:Lcotlin/jvm/internal/Ref$IntRef;
 
     iget v1, v0, Lcotlin/jvm/internal/Ref$IntRef;->element:I
@@ -187,7 +178,6 @@
 
     iput v1, v0, Lcotlin/jvm/internal/Ref$IntRef;->element:I
 
-    .line 10
     invoke-static {v3, v4}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
 
     move-result-object v0

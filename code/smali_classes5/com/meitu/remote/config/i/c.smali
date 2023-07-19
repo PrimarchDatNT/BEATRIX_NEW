@@ -49,7 +49,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/util/Date;
 
     const-wide/16 v2, 0x0
@@ -71,20 +70,16 @@
         }
     .end annotation
 
-    .line 2
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 3
     new-instance v0, Lorg/json/JSONObject;
 
     invoke-direct {v0}, Lorg/json/JSONObject;-><init>()V
 
     const-string v1, "configs_key"
 
-    .line 4
     invoke-virtual {v0, v1, p1}, Lorg/json/JSONObject;->put(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;
 
-    .line 5
     invoke-virtual {p2}, Ljava/util/Date;->getTime()J
 
     move-result-wide v1
@@ -95,31 +90,24 @@
 
     const-string v1, "abt_experiments_key"
 
-    .line 6
     invoke-virtual {v0, v1, p3}, Lorg/json/JSONObject;->put(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;
 
     :try_start_0
     const-string v1, "meitu_ab_testing_key"
 
-    .line 7
     invoke-virtual {v0, v1, p4}, Lorg/json/JSONObject;->put(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;
     :try_end_0
     .catch Lorg/json/JSONException; {:try_start_0 .. :try_end_0} :catch_0
 
-    .line 8
     :catch_0
     iput-object p1, p0, Lcom/meitu/remote/config/i/c;->b:Lorg/json/JSONObject;
 
-    .line 9
     iput-object p2, p0, Lcom/meitu/remote/config/i/c;->c:Ljava/util/Date;
 
-    .line 10
     iput-object p3, p0, Lcom/meitu/remote/config/i/c;->d:Lorg/json/JSONArray;
 
-    .line 11
     iput-object p4, p0, Lcom/meitu/remote/config/i/c;->e:Ljava/lang/String;
 
-    .line 12
     iput-object v0, p0, Lcom/meitu/remote/config/i/c;->a:Lorg/json/JSONObject;
 
     return-void
@@ -133,7 +121,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1, p2, p3, p4}, Lcom/meitu/remote/config/i/c;-><init>(Lorg/json/JSONObject;Ljava/util/Date;Lorg/json/JSONArray;Ljava/lang/String;)V
 
     return-void
@@ -146,7 +133,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/meitu/remote/config/i/c;->j:Ljava/util/Date;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -168,12 +154,10 @@
 
     const-string v1, "configs_key"
 
-    .line 1
     invoke-virtual {p0, v1}, Lorg/json/JSONObject;->getJSONObject(Ljava/lang/String;)Lorg/json/JSONObject;
 
     move-result-object v1
 
-    .line 2
     new-instance v2, Ljava/util/Date;
 
     const-string v3, "fetch_time_key"
@@ -186,7 +170,6 @@
 
     const-string v3, "abt_experiments_key"
 
-    .line 3
     invoke-virtual {p0, v3}, Lorg/json/JSONObject;->getJSONArray(Ljava/lang/String;)Lorg/json/JSONArray;
 
     move-result-object v3
@@ -194,7 +177,6 @@
     :try_start_0
     const-string v4, "meitu_ab_testing_key"
 
-    .line 4
     invoke-virtual {p0, v4}, Lorg/json/JSONObject;->getString(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p0
@@ -206,7 +188,6 @@
     :catch_0
     const/4 p0, 0x0
 
-    .line 5
     :goto_0
     new-instance v4, Lcom/meitu/remote/config/i/c;
 
@@ -224,7 +205,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/meitu/remote/config/i/c$b;
 
     const/4 v2, 0x0
@@ -243,7 +223,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/meitu/remote/config/i/c$b;
 
     invoke-direct {v1, p0}, Lcom/meitu/remote/config/i/c$b;-><init>(Lcom/meitu/remote/config/i/c;)V
@@ -262,7 +241,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/remote/config/i/c;->d:Lorg/json/JSONArray;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -277,7 +255,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/remote/config/i/c;->b:Lorg/json/JSONObject;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -292,7 +269,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/remote/config/i/c;->c:Ljava/util/Date;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -311,12 +287,10 @@
 
     const/4 p1, 0x1
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
 
-    .line 2
     :cond_0
     instance-of v1, p1, Lcom/meitu/remote/config/i/c;
 
@@ -324,16 +298,13 @@
 
     const/4 p1, 0x0
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
 
-    .line 4
     :cond_1
     check-cast p1, Lcom/meitu/remote/config/i/c;
 
-    .line 5
     iget-object v1, p0, Lcom/meitu/remote/config/i/c;->a:Lorg/json/JSONObject;
 
     invoke-virtual {v1}, Lorg/json/JSONObject;->toString()Ljava/lang/String;
@@ -362,7 +333,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/remote/config/i/c;->e:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -377,7 +347,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/remote/config/i/c;->a:Lorg/json/JSONObject;
 
     invoke-virtual {v1}, Ljava/lang/Object;->hashCode()I
@@ -396,7 +365,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/remote/config/i/c;->a:Lorg/json/JSONObject;
 
     invoke-virtual {v1}, Lorg/json/JSONObject;->toString()Ljava/lang/String;

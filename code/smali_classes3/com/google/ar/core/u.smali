@@ -15,7 +15,6 @@
 .method constructor <init>(Lcom/google/ar/core/SharedCamera;Landroid/os/Handler;Landroid/hardware/camera2/CameraCaptureSession$StateCallback;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/ar/core/u;->c:Lcom/google/ar/core/SharedCamera;
 
     iput-object p2, p0, Lcom/google/ar/core/u;->a:Landroid/os/Handler;
@@ -32,7 +31,6 @@
 .method public final onActive(Landroid/hardware/camera2/CameraCaptureSession;)V
     .locals 3
 
-    .line 1
     iget-object v0, p0, Lcom/google/ar/core/u;->a:Landroid/os/Handler;
 
     new-instance v1, Lcom/google/ar/core/x;
@@ -43,7 +41,6 @@
 
     invoke-virtual {v0, v1}, Landroid/os/Handler;->post(Ljava/lang/Runnable;)Z
 
-    .line 2
     iget-object v0, p0, Lcom/google/ar/core/u;->c:Lcom/google/ar/core/SharedCamera;
 
     invoke-static {v0, p1}, Lcom/google/ar/core/SharedCamera;->access$1300(Lcom/google/ar/core/SharedCamera;Landroid/hardware/camera2/CameraCaptureSession;)V
@@ -54,7 +51,6 @@
 .method public final onClosed(Landroid/hardware/camera2/CameraCaptureSession;)V
     .locals 3
 
-    .line 1
     iget-object v0, p0, Lcom/google/ar/core/u;->a:Landroid/os/Handler;
 
     new-instance v1, Lcom/google/ar/core/t;
@@ -65,7 +61,6 @@
 
     invoke-virtual {v0, v1}, Landroid/os/Handler;->post(Ljava/lang/Runnable;)Z
 
-    .line 2
     iget-object v0, p0, Lcom/google/ar/core/u;->c:Lcom/google/ar/core/SharedCamera;
 
     invoke-static {v0, p1}, Lcom/google/ar/core/SharedCamera;->access$800(Lcom/google/ar/core/SharedCamera;Landroid/hardware/camera2/CameraCaptureSession;)V
@@ -76,7 +71,6 @@
 .method public final onConfigureFailed(Landroid/hardware/camera2/CameraCaptureSession;)V
     .locals 3
 
-    .line 1
     iget-object v0, p0, Lcom/google/ar/core/u;->a:Landroid/os/Handler;
 
     new-instance v1, Lcom/google/ar/core/v;
@@ -87,7 +81,6 @@
 
     invoke-virtual {v0, v1}, Landroid/os/Handler;->post(Ljava/lang/Runnable;)Z
 
-    .line 2
     iget-object v0, p0, Lcom/google/ar/core/u;->c:Lcom/google/ar/core/SharedCamera;
 
     invoke-static {v0, p1}, Lcom/google/ar/core/SharedCamera;->access$1100(Lcom/google/ar/core/SharedCamera;Landroid/hardware/camera2/CameraCaptureSession;)V
@@ -98,12 +91,10 @@
 .method public final onConfigured(Landroid/hardware/camera2/CameraCaptureSession;)V
     .locals 3
 
-    .line 1
     iget-object v0, p0, Lcom/google/ar/core/u;->c:Lcom/google/ar/core/SharedCamera;
 
     invoke-static {v0}, Lcom/google/ar/core/SharedCamera;->access$200(Lcom/google/ar/core/SharedCamera;)Lcom/google/ar/core/SharedCamera$a;
 
-    .line 2
     iget-object v0, p0, Lcom/google/ar/core/u;->a:Landroid/os/Handler;
 
     new-instance v1, Lcom/google/ar/core/w;
@@ -114,12 +105,10 @@
 
     invoke-virtual {v0, v1}, Landroid/os/Handler;->post(Ljava/lang/Runnable;)Z
 
-    .line 3
     iget-object v0, p0, Lcom/google/ar/core/u;->c:Lcom/google/ar/core/SharedCamera;
 
     invoke-static {v0, p1}, Lcom/google/ar/core/SharedCamera;->access$900(Lcom/google/ar/core/SharedCamera;Landroid/hardware/camera2/CameraCaptureSession;)V
 
-    .line 4
     iget-object p1, p0, Lcom/google/ar/core/u;->c:Lcom/google/ar/core/SharedCamera;
 
     invoke-static {p1}, Lcom/google/ar/core/SharedCamera;->access$200(Lcom/google/ar/core/SharedCamera;)Lcom/google/ar/core/SharedCamera$a;
@@ -132,7 +121,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 5
     iget-object p1, p0, Lcom/google/ar/core/u;->c:Lcom/google/ar/core/SharedCamera;
 
     invoke-static {p1}, Lcom/google/ar/core/SharedCamera;->access$1000(Lcom/google/ar/core/SharedCamera;)V
@@ -144,7 +132,6 @@
 .method public final onReady(Landroid/hardware/camera2/CameraCaptureSession;)V
     .locals 3
 
-    .line 1
     iget-object v0, p0, Lcom/google/ar/core/u;->a:Landroid/os/Handler;
 
     new-instance v1, Lcom/google/ar/core/y;
@@ -155,7 +142,6 @@
 
     invoke-virtual {v0, v1}, Landroid/os/Handler;->post(Ljava/lang/Runnable;)Z
 
-    .line 2
     iget-object v0, p0, Lcom/google/ar/core/u;->c:Lcom/google/ar/core/SharedCamera;
 
     invoke-static {v0, p1}, Lcom/google/ar/core/SharedCamera;->access$1200(Lcom/google/ar/core/SharedCamera;Landroid/hardware/camera2/CameraCaptureSession;)V

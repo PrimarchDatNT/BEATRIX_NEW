@@ -29,7 +29,6 @@
 .method static constructor <clinit>()V
     .locals 9
 
-    .line 1
     new-instance v0, Lio/grpc/okhttp/internal/framed/HeadersMode;
 
     const-string v1, "SPDY_SYN_STREAM"
@@ -40,7 +39,6 @@
 
     sput-object v0, Lio/grpc/okhttp/internal/framed/HeadersMode;->SPDY_SYN_STREAM:Lio/grpc/okhttp/internal/framed/HeadersMode;
 
-    .line 2
     new-instance v1, Lio/grpc/okhttp/internal/framed/HeadersMode;
 
     const-string v3, "SPDY_REPLY"
@@ -51,7 +49,6 @@
 
     sput-object v1, Lio/grpc/okhttp/internal/framed/HeadersMode;->SPDY_REPLY:Lio/grpc/okhttp/internal/framed/HeadersMode;
 
-    .line 3
     new-instance v3, Lio/grpc/okhttp/internal/framed/HeadersMode;
 
     const-string v5, "SPDY_HEADERS"
@@ -62,7 +59,6 @@
 
     sput-object v3, Lio/grpc/okhttp/internal/framed/HeadersMode;->SPDY_HEADERS:Lio/grpc/okhttp/internal/framed/HeadersMode;
 
-    .line 4
     new-instance v5, Lio/grpc/okhttp/internal/framed/HeadersMode;
 
     const-string v7, "HTTP_20_HEADERS"
@@ -85,7 +81,6 @@
 
     aput-object v5, v7, v8
 
-    .line 5
     sput-object v7, Lio/grpc/okhttp/internal/framed/HeadersMode;->$VALUES:[Lio/grpc/okhttp/internal/framed/HeadersMode;
 
     return-void
@@ -99,7 +94,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
     return-void
@@ -108,7 +102,6 @@
 .method public static valueOf(Ljava/lang/String;)Lio/grpc/okhttp/internal/framed/HeadersMode;
     .locals 1
 
-    .line 1
     const-class v0, Lio/grpc/okhttp/internal/framed/HeadersMode;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -123,7 +116,6 @@
 .method public static values()[Lio/grpc/okhttp/internal/framed/HeadersMode;
     .locals 1
 
-    .line 1
     sget-object v0, Lio/grpc/okhttp/internal/framed/HeadersMode;->$VALUES:[Lio/grpc/okhttp/internal/framed/HeadersMode;
 
     invoke-virtual {v0}, [Lio/grpc/okhttp/internal/framed/HeadersMode;->clone()Ljava/lang/Object;
@@ -140,7 +132,6 @@
 .method public failIfHeadersAbsent()Z
     .locals 1
 
-    .line 1
     sget-object v0, Lio/grpc/okhttp/internal/framed/HeadersMode;->SPDY_HEADERS:Lio/grpc/okhttp/internal/framed/HeadersMode;
 
     if-ne p0, v0, :cond_0
@@ -159,7 +150,6 @@
 .method public failIfHeadersPresent()Z
     .locals 1
 
-    .line 1
     sget-object v0, Lio/grpc/okhttp/internal/framed/HeadersMode;->SPDY_REPLY:Lio/grpc/okhttp/internal/framed/HeadersMode;
 
     if-ne p0, v0, :cond_0
@@ -178,7 +168,6 @@
 .method public failIfStreamAbsent()Z
     .locals 1
 
-    .line 1
     sget-object v0, Lio/grpc/okhttp/internal/framed/HeadersMode;->SPDY_REPLY:Lio/grpc/okhttp/internal/framed/HeadersMode;
 
     if-eq p0, v0, :cond_1
@@ -205,7 +194,6 @@
 .method public failIfStreamPresent()Z
     .locals 1
 
-    .line 1
     sget-object v0, Lio/grpc/okhttp/internal/framed/HeadersMode;->SPDY_SYN_STREAM:Lio/grpc/okhttp/internal/framed/HeadersMode;
 
     if-ne p0, v0, :cond_0

@@ -21,13 +21,10 @@
 .method private constructor <init>(Lcom/squareup/okhttp/Request;Lcom/squareup/okhttp/Response;)V
     .locals 0
 
-    .line 2
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 3
     iput-object p1, p0, Lcom/squareup/okhttp/internal/http/CacheStrategy;->networkRequest:Lcom/squareup/okhttp/Request;
 
-    .line 4
     iput-object p2, p0, Lcom/squareup/okhttp/internal/http/CacheStrategy;->cacheResponse:Lcom/squareup/okhttp/Response;
 
     return-void
@@ -36,7 +33,6 @@
 .method synthetic constructor <init>(Lcom/squareup/okhttp/Request;Lcom/squareup/okhttp/Response;Lcom/squareup/okhttp/internal/http/CacheStrategy$1;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1, p2}, Lcom/squareup/okhttp/internal/http/CacheStrategy;-><init>(Lcom/squareup/okhttp/Request;Lcom/squareup/okhttp/Response;)V
 
     return-void
@@ -45,7 +41,6 @@
 .method public static isCacheable(Lcom/squareup/okhttp/Response;Lcom/squareup/okhttp/Request;)Z
     .locals 3
 
-    .line 1
     invoke-virtual {p0}, Lcom/squareup/okhttp/Response;->code()I
 
     move-result v0
@@ -100,14 +95,12 @@
     :pswitch_0
     const-string v0, "Expires"
 
-    .line 2
     invoke-virtual {p0, v0}, Lcom/squareup/okhttp/Response;->header(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
 
     if-nez v0, :cond_2
 
-    .line 3
     invoke-virtual {p0}, Lcom/squareup/okhttp/Response;->cacheControl()Lcom/squareup/okhttp/CacheControl;
 
     move-result-object v0
@@ -120,7 +113,6 @@
 
     if-ne v0, v1, :cond_2
 
-    .line 4
     invoke-virtual {p0}, Lcom/squareup/okhttp/Response;->cacheControl()Lcom/squareup/okhttp/CacheControl;
 
     move-result-object v0
@@ -131,7 +123,6 @@
 
     if-nez v0, :cond_2
 
-    .line 5
     invoke-virtual {p0}, Lcom/squareup/okhttp/Response;->cacheControl()Lcom/squareup/okhttp/CacheControl;
 
     move-result-object v0
@@ -148,7 +139,6 @@
     :goto_0
     return v2
 
-    .line 6
     :cond_2
     :goto_1
     :pswitch_1

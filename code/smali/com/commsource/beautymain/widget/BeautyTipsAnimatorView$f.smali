@@ -25,7 +25,6 @@
 .method constructor <init>(Lcom/commsource/beautymain/widget/BeautyTipsAnimatorView;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/beautymain/widget/BeautyTipsAnimatorView$f;->a:Lcom/commsource/beautymain/widget/BeautyTipsAnimatorView;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -42,14 +41,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p1}, Landroid/animation/ValueAnimator;->getAnimatedValue()Ljava/lang/Object;
 
     move-result-object p1
 
     check-cast p1, Landroid/graphics/PointF;
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/beautymain/widget/BeautyTipsAnimatorView$f;->a:Lcom/commsource/beautymain/widget/BeautyTipsAnimatorView;
 
     invoke-static {v1}, Lcom/commsource/beautymain/widget/BeautyTipsAnimatorView;->i(Lcom/commsource/beautymain/widget/BeautyTipsAnimatorView;)Landroid/graphics/Paint;
@@ -60,7 +57,6 @@
 
     invoke-virtual {v1, v2}, Landroid/graphics/Paint;->setAlpha(I)V
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/beautymain/widget/BeautyTipsAnimatorView$f;->a:Lcom/commsource/beautymain/widget/BeautyTipsAnimatorView;
 
     invoke-static {v1}, Lcom/commsource/beautymain/widget/BeautyTipsAnimatorView;->j(Lcom/commsource/beautymain/widget/BeautyTipsAnimatorView;)Z
@@ -69,7 +65,6 @@
 
     if-eqz v1, :cond_0
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/beautymain/widget/BeautyTipsAnimatorView$f;->a:Lcom/commsource/beautymain/widget/BeautyTipsAnimatorView;
 
     invoke-static {v1}, Lcom/commsource/beautymain/widget/BeautyTipsAnimatorView;->l(Lcom/commsource/beautymain/widget/BeautyTipsAnimatorView;)Landroid/graphics/Path;
@@ -82,7 +77,6 @@
 
     invoke-virtual {v1, v2, v3}, Landroid/graphics/Path;->moveTo(FF)V
 
-    .line 5
     iget-object v1, p0, Lcom/commsource/beautymain/widget/BeautyTipsAnimatorView$f;->a:Lcom/commsource/beautymain/widget/BeautyTipsAnimatorView;
 
     const/4 v2, 0x0
@@ -91,7 +85,6 @@
 
     goto :goto_0
 
-    .line 6
     :cond_0
     iget-object v1, p0, Lcom/commsource/beautymain/widget/BeautyTipsAnimatorView$f;->a:Lcom/commsource/beautymain/widget/BeautyTipsAnimatorView;
 
@@ -105,7 +98,6 @@
 
     invoke-virtual {v1, v2, v3}, Landroid/graphics/Path;->lineTo(FF)V
 
-    .line 7
     :goto_0
     iget-object v1, p0, Lcom/commsource/beautymain/widget/BeautyTipsAnimatorView$f;->a:Lcom/commsource/beautymain/widget/BeautyTipsAnimatorView;
 
@@ -115,7 +107,6 @@
 
     invoke-virtual {v1}, Landroid/graphics/RectF;->setEmpty()V
 
-    .line 8
     iget-object v1, p0, Lcom/commsource/beautymain/widget/BeautyTipsAnimatorView$f;->a:Lcom/commsource/beautymain/widget/BeautyTipsAnimatorView;
 
     invoke-static {v1}, Lcom/commsource/beautymain/widget/BeautyTipsAnimatorView;->b(Lcom/commsource/beautymain/widget/BeautyTipsAnimatorView;)Landroid/graphics/Rect;
@@ -124,7 +115,6 @@
 
     invoke-virtual {v1}, Landroid/graphics/Rect;->setEmpty()V
 
-    .line 9
     iget-object v1, p0, Lcom/commsource/beautymain/widget/BeautyTipsAnimatorView$f;->a:Lcom/commsource/beautymain/widget/BeautyTipsAnimatorView;
 
     invoke-static {v1}, Lcom/commsource/beautymain/widget/BeautyTipsAnimatorView;->a(Lcom/commsource/beautymain/widget/BeautyTipsAnimatorView;)Landroid/graphics/RectF;
@@ -135,7 +125,6 @@
 
     iput v2, v1, Landroid/graphics/RectF;->left:F
 
-    .line 10
     iget-object v1, p0, Lcom/commsource/beautymain/widget/BeautyTipsAnimatorView$f;->a:Lcom/commsource/beautymain/widget/BeautyTipsAnimatorView;
 
     invoke-static {v1}, Lcom/commsource/beautymain/widget/BeautyTipsAnimatorView;->a(Lcom/commsource/beautymain/widget/BeautyTipsAnimatorView;)Landroid/graphics/RectF;
@@ -146,7 +135,6 @@
 
     iput p1, v1, Landroid/graphics/RectF;->top:F
 
-    .line 11
     iget-object p1, p0, Lcom/commsource/beautymain/widget/BeautyTipsAnimatorView$f;->a:Lcom/commsource/beautymain/widget/BeautyTipsAnimatorView;
 
     invoke-static {p1}, Lcom/commsource/beautymain/widget/BeautyTipsAnimatorView;->a(Lcom/commsource/beautymain/widget/BeautyTipsAnimatorView;)Landroid/graphics/RectF;
@@ -163,7 +151,6 @@
 
     iput v1, p1, Landroid/graphics/RectF;->right:F
 
-    .line 12
     iget-object p1, p0, Lcom/commsource/beautymain/widget/BeautyTipsAnimatorView$f;->a:Lcom/commsource/beautymain/widget/BeautyTipsAnimatorView;
 
     invoke-static {p1}, Lcom/commsource/beautymain/widget/BeautyTipsAnimatorView;->a(Lcom/commsource/beautymain/widget/BeautyTipsAnimatorView;)Landroid/graphics/RectF;
@@ -180,7 +167,6 @@
 
     iput v1, p1, Landroid/graphics/RectF;->bottom:F
 
-    .line 13
     iget-object p1, p0, Lcom/commsource/beautymain/widget/BeautyTipsAnimatorView$f;->a:Lcom/commsource/beautymain/widget/BeautyTipsAnimatorView;
 
     invoke-static {p1}, Lcom/commsource/beautymain/widget/BeautyTipsAnimatorView;->a(Lcom/commsource/beautymain/widget/BeautyTipsAnimatorView;)Landroid/graphics/RectF;
@@ -209,7 +195,6 @@
 
     invoke-virtual {p1, v1, v2}, Landroid/graphics/RectF;->inset(FF)V
 
-    .line 14
     iget-object p1, p0, Lcom/commsource/beautymain/widget/BeautyTipsAnimatorView$f;->a:Lcom/commsource/beautymain/widget/BeautyTipsAnimatorView;
 
     invoke-static {p1}, Lcom/commsource/beautymain/widget/BeautyTipsAnimatorView;->a(Lcom/commsource/beautymain/widget/BeautyTipsAnimatorView;)Landroid/graphics/RectF;
@@ -224,7 +209,6 @@
 
     invoke-virtual {p1, v1}, Landroid/graphics/RectF;->round(Landroid/graphics/Rect;)V
 
-    .line 15
     iget-object p1, p0, Lcom/commsource/beautymain/widget/BeautyTipsAnimatorView$f;->a:Lcom/commsource/beautymain/widget/BeautyTipsAnimatorView;
 
     invoke-static {p1}, Lcom/commsource/beautymain/widget/BeautyTipsAnimatorView;->g(Lcom/commsource/beautymain/widget/BeautyTipsAnimatorView;)Landroid/graphics/drawable/Drawable;
@@ -239,12 +223,10 @@
 
     invoke-virtual {p1, v1}, Landroid/graphics/drawable/Drawable;->setBounds(Landroid/graphics/Rect;)V
 
-    .line 16
     iget-object p1, p0, Lcom/commsource/beautymain/widget/BeautyTipsAnimatorView$f;->a:Lcom/commsource/beautymain/widget/BeautyTipsAnimatorView;
 
     invoke-virtual {p1}, Landroid/view/View;->invalidate()V
 
-    .line 17
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

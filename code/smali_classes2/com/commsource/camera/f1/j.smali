@@ -56,7 +56,6 @@
 
     invoke-static {p4, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-virtual {p0}, Landroid/view/View;->getTag()Ljava/lang/Object;
 
     move-result-object v1
@@ -96,33 +95,26 @@
 
     throw p0
 
-    .line 2
     :cond_2
     :goto_1
     new-instance v1, Lcom/commsource/camera/f1/k;
 
     invoke-direct {v1, p0, p1, p2, p3}, Lcom/commsource/camera/f1/k;-><init>(Landroid/view/View;JLandroid/view/animation/Interpolator;)V
 
-    .line 3
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide p1
 
     const/4 p3, 0x1
 
-    .line 4
     invoke-static {v1, v2, p3, v2}, Lcom/commsource/camera/f1/k;->l(Lcom/commsource/camera/f1/k;Landroid/view/View;ILjava/lang/Object;)V
 
-    .line 5
     invoke-interface {p4, p0}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 6
     invoke-virtual {v1}, Lcom/commsource/camera/f1/k;->p()V
 
-    .line 7
     invoke-virtual {v1}, Lcom/commsource/camera/f1/k;->q()V
 
-    .line 8
     new-instance p0, Ljava/lang/StringBuilder;
 
     invoke-direct {p0}, Ljava/lang/StringBuilder;-><init>()V
@@ -149,7 +141,6 @@
 
     invoke-static {p0, p2, v2, p1, v2}, Lcom/commsource/util/l0;->L(Ljava/lang/String;Ljava/lang/String;Lcom/meitu/library/util/Debug/Debug$DebugLevel;ILjava/lang/Object;)V
 
-    .line 9
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
@@ -173,7 +164,6 @@
 
     if-eqz p5, :cond_1
 
-    .line 1
     new-instance p3, Landroid/view/animation/AccelerateDecelerateInterpolator;
 
     invoke-direct {p3}, Landroid/view/animation/AccelerateDecelerateInterpolator;-><init>()V

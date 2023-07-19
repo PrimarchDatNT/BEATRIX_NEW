@@ -14,7 +14,6 @@
 .method static constructor <clinit>()V
     .locals 2
 
-    .line 1
     new-instance v0, Landroid/content/IntentFilter;
 
     const-string v1, "android.intent.action.BATTERY_CHANGED"
@@ -25,7 +24,6 @@
 
     const/high16 v0, 0x7fc00000    # Float.NaN
 
-    .line 2
     sput v0, Lcom/google/android/gms/common/util/g0;->c:F
 
     return-void
@@ -41,7 +39,6 @@
 
     if-eqz p0, :cond_6
 
-    .line 1
     invoke-virtual {p0}, Landroid/content/Context;->getApplicationContext()Landroid/content/Context;
 
     move-result-object v1
@@ -50,7 +47,6 @@
 
     goto :goto_3
 
-    .line 2
     :cond_0
     invoke-virtual {p0}, Landroid/content/Context;->getApplicationContext()Landroid/content/Context;
 
@@ -75,7 +71,6 @@
     :cond_1
     const-string v3, "plugged"
 
-    .line 3
     invoke-virtual {v1, v3, v2}, Landroid/content/Intent;->getIntExtra(Ljava/lang/String;I)I
 
     move-result v1
@@ -95,7 +90,6 @@
     :goto_1
     const-string v3, "power"
 
-    .line 4
     invoke-virtual {p0, v3}, Landroid/content/Context;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
 
     move-result-object p0
@@ -106,7 +100,6 @@
 
     return v0
 
-    .line 5
     :cond_3
     invoke-static {}, Lcom/google/android/gms/common/util/v;->i()Z
 
@@ -114,14 +107,12 @@
 
     if-eqz v0, :cond_4
 
-    .line 6
     invoke-virtual {p0}, Landroid/os/PowerManager;->isInteractive()Z
 
     move-result p0
 
     goto :goto_2
 
-    .line 7
     :cond_4
     invoke-virtual {p0}, Landroid/os/PowerManager;->isScreenOn()Z
 
@@ -149,7 +140,6 @@
 
     monitor-enter v0
 
-    .line 1
     :try_start_0
     invoke-static {}, Landroid/os/SystemClock;->elapsedRealtime()J
 
@@ -167,14 +157,12 @@
 
     sget v1, Lcom/google/android/gms/common/util/g0;->c:F
 
-    .line 2
     invoke-static {v1}, Ljava/lang/Float;->isNaN(F)Z
 
     move-result v1
 
     if-nez v1, :cond_0
 
-    .line 3
     sget p0, Lcom/google/android/gms/common/util/g0;->c:F
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
@@ -183,7 +171,6 @@
 
     return p0
 
-    .line 4
     :cond_0
     :try_start_1
     invoke-virtual {p0}, Landroid/content/Context;->getApplicationContext()Landroid/content/Context;
@@ -204,14 +191,12 @@
 
     const/4 v2, -0x1
 
-    .line 5
     invoke-virtual {p0, v1, v2}, Landroid/content/Intent;->getIntExtra(Ljava/lang/String;I)I
 
     move-result v1
 
     const-string v3, "scale"
 
-    .line 6
     invoke-virtual {p0, v3, v2}, Landroid/content/Intent;->getIntExtra(Ljava/lang/String;I)I
 
     move-result p0
@@ -222,10 +207,8 @@
 
     div-float/2addr v1, p0
 
-    .line 7
     sput v1, Lcom/google/android/gms/common/util/g0;->c:F
 
-    .line 8
     :cond_1
     invoke-static {}, Landroid/os/SystemClock;->elapsedRealtime()J
 
@@ -233,7 +216,6 @@
 
     sput-wide v1, Lcom/google/android/gms/common/util/g0;->b:J
 
-    .line 9
     sget p0, Lcom/google/android/gms/common/util/g0;->c:F
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0

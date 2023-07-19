@@ -29,7 +29,6 @@
 
     const/4 v2, 0x2
 
-    .line 1
     invoke-direct {p0, v0, v1, v2, v1}, Lcom/commsource/studio/r0/s;-><init>(Ljava/lang/String;Ljava/lang/String;ILcotlin/jvm/internal/u;)V
 
     iput-object p1, p0, Lcom/commsource/studio/r0/f0;->j:Lcom/commsource/studio/effect/d;
@@ -46,10 +45,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0}, Lcom/commsource/studio/r0/s;->h()V
 
-    .line 2
     const-class v1, Lcom/commsource/studio/y;
 
     invoke-virtual {p0, v1}, Lcom/commsource/camera/newrender/renderproxy/n;->c(Ljava/lang/Class;)Ljava/lang/Object;
@@ -60,14 +57,12 @@
 
     if-eqz v1, :cond_0
 
-    .line 3
     invoke-virtual {v1}, Lcom/commsource/studio/y;->g()I
 
     move-result v2
 
     int-to-float v2, v2
 
-    .line 4
     invoke-virtual {v1}, Lcom/commsource/studio/y;->d()I
 
     move-result v1
@@ -84,7 +79,6 @@
 
     float-to-double v4, v4
 
-    .line 5
     invoke-static {v4, v5}, Ljava/lang/Math;->sqrt(D)D
 
     move-result-wide v4
@@ -115,7 +109,6 @@
 
     aput v1, v4, v2
 
-    .line 6
     aget v1, v4, v6
 
     aget v2, v4, v2
@@ -124,7 +117,6 @@
 
     move-result v1
 
-    .line 7
     invoke-virtual {p0}, Lcom/commsource/studio/r0/s;->w()Lcom/meitu/render/b;
 
     move-result-object v2
@@ -133,7 +125,6 @@
 
     invoke-virtual {v2, v5, v3}, Lcom/meitu/core/MTFilterGLRender;->changeUniformValue(Ljava/lang/String;F)V
 
-    .line 8
     invoke-virtual {p0}, Lcom/commsource/studio/r0/s;->w()Lcom/meitu/render/b;
 
     move-result-object v2
@@ -142,7 +133,6 @@
 
     invoke-virtual {v2, v3, v1}, Lcom/meitu/core/MTFilterGLRender;->changeUniformValue(Ljava/lang/String;F)V
 
-    .line 9
     invoke-virtual {p0}, Lcom/commsource/studio/r0/s;->w()Lcom/meitu/render/b;
 
     move-result-object v1
@@ -155,7 +145,6 @@
 
     invoke-virtual {v1, v2, v5, v4, v3}, Lcom/meitu/core/MTFilterGLRender;->changeUniformValue_floatArray(ILjava/lang/String;[FI)V
 
-    .line 10
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -169,7 +158,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/r0/f0;->j:Lcom/commsource/studio/effect/d;
 
     invoke-virtual {v1}, Lcom/commsource/studio/effect/d;->o()F
@@ -188,7 +176,6 @@
 
     mul-float v1, v1, v2
 
-    .line 2
     :cond_0
     invoke-virtual {p0}, Lcom/commsource/studio/r0/s;->w()Lcom/meitu/render/b;
 
@@ -206,7 +193,6 @@
 
     invoke-virtual {v2, v4, v3}, Lcom/meitu/core/MTFilterGLRender;->changeUniformValue(Ljava/lang/String;F)V
 
-    .line 3
     invoke-virtual {p0}, Lcom/commsource/studio/r0/s;->w()Lcom/meitu/render/b;
 
     move-result-object v2
@@ -229,7 +215,6 @@
 
     invoke-virtual {v2, v3, v1}, Lcom/meitu/core/MTFilterGLRender;->changeUniformValue(Ljava/lang/String;F)V
 
-    .line 4
     invoke-virtual {p0}, Lcom/commsource/studio/r0/s;->w()Lcom/meitu/render/b;
 
     move-result-object v1
@@ -240,7 +225,6 @@
 
     invoke-virtual {v1, v3, v2}, Lcom/meitu/core/MTFilterGLRender;->changeUniformValue(Ljava/lang/String;F)V
 
-    .line 5
     invoke-virtual {p0}, Lcom/commsource/studio/r0/s;->w()Lcom/meitu/render/b;
 
     move-result-object v1
@@ -251,7 +235,6 @@
 
     invoke-virtual {v1, v3, v2}, Lcom/meitu/core/MTFilterGLRender;->changeUniformValue(Ljava/lang/String;F)V
 
-    .line 6
     invoke-super/range {p0 .. p7}, Lcom/commsource/studio/r0/s;->j(IIIIIIZ)I
 
     move-result p1

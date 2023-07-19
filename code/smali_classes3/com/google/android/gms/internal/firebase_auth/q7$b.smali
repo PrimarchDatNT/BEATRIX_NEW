@@ -66,14 +66,12 @@
 .method static constructor <clinit>()V
     .locals 2
 
-    .line 1
     new-instance v0, Lcom/google/android/gms/internal/firebase_auth/q7$b;
 
     invoke-direct {v0}, Lcom/google/android/gms/internal/firebase_auth/q7$b;-><init>()V
 
     sput-object v0, Lcom/google/android/gms/internal/firebase_auth/q7$b;->zzahc:Lcom/google/android/gms/internal/firebase_auth/q7$b;
 
-    .line 2
     const-class v1, Lcom/google/android/gms/internal/firebase_auth/q7$b;
 
     invoke-static {v1, v0}, Lcom/google/android/gms/internal/firebase_auth/k4;->n(Ljava/lang/Class;Lcom/google/android/gms/internal/firebase_auth/k4;)V
@@ -84,24 +82,18 @@
 .method private constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Lcom/google/android/gms/internal/firebase_auth/k4;-><init>()V
 
     const-string v0, ""
 
-    .line 2
     iput-object v0, p0, Lcom/google/android/gms/internal/firebase_auth/q7$b;->zzagy:Ljava/lang/String;
 
-    .line 3
     iput-object v0, p0, Lcom/google/android/gms/internal/firebase_auth/q7$b;->zzagz:Ljava/lang/String;
 
-    .line 4
     iput-object v0, p0, Lcom/google/android/gms/internal/firebase_auth/q7$b;->zzbb:Ljava/lang/String;
 
-    .line 5
     iput-object v0, p0, Lcom/google/android/gms/internal/firebase_auth/q7$b;->zzaw:Ljava/lang/String;
 
-    .line 6
     iput-object v0, p0, Lcom/google/android/gms/internal/firebase_auth/q7$b;->zzaha:Ljava/lang/String;
 
     return-void
@@ -110,7 +102,6 @@
 .method static synthetic w()Lcom/google/android/gms/internal/firebase_auth/q7$b;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/google/android/gms/internal/firebase_auth/q7$b;->zzahc:Lcom/google/android/gms/internal/firebase_auth/q7$b;
 
     return-object v0
@@ -127,20 +118,16 @@
         }
     .end annotation
 
-    .line 1
     sget-object v0, Lcom/google/android/gms/internal/firebase_auth/q7$b;->zzahc:Lcom/google/android/gms/internal/firebase_auth/q7$b;
 
-    .line 2
     sget v1, Lcom/google/android/gms/internal/firebase_auth/k4$d;->g:I
 
     const/4 v2, 0x0
 
-    .line 3
     invoke-virtual {v0, v1, v2, v2}, Lcom/google/android/gms/internal/firebase_auth/k4;->k(ILjava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v0
 
-    .line 4
     check-cast v0, Lcom/google/android/gms/internal/firebase_auth/c6;
 
     return-object v0
@@ -151,7 +138,6 @@
 .method protected final k(ILjava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
     .locals 1
 
-    .line 1
     sget-object p2, Lcom/google/android/gms/internal/firebase_auth/s7;->a:[I
 
     const/4 p3, 0x1
@@ -164,7 +150,6 @@
 
     packed-switch p1, :pswitch_data_0
 
-    .line 2
     new-instance p1, Ljava/lang/UnsupportedOperationException;
 
     invoke-direct {p1}, Ljava/lang/UnsupportedOperationException;-><init>()V
@@ -174,7 +159,6 @@
     :pswitch_0
     return-object p2
 
-    .line 3
     :pswitch_1
     invoke-static {p3}, Ljava/lang/Byte;->valueOf(B)Ljava/lang/Byte;
 
@@ -182,34 +166,28 @@
 
     return-object p1
 
-    .line 4
     :pswitch_2
     sget-object p1, Lcom/google/android/gms/internal/firebase_auth/q7$b;->zzs:Lcom/google/android/gms/internal/firebase_auth/c6;
 
     if-nez p1, :cond_1
 
-    .line 5
     const-class p2, Lcom/google/android/gms/internal/firebase_auth/q7$b;
 
     monitor-enter p2
 
-    .line 6
     :try_start_0
     sget-object p1, Lcom/google/android/gms/internal/firebase_auth/q7$b;->zzs:Lcom/google/android/gms/internal/firebase_auth/c6;
 
     if-nez p1, :cond_0
 
-    .line 7
     new-instance p1, Lcom/google/android/gms/internal/firebase_auth/k4$c;
 
     sget-object p3, Lcom/google/android/gms/internal/firebase_auth/q7$b;->zzahc:Lcom/google/android/gms/internal/firebase_auth/q7$b;
 
     invoke-direct {p1, p3}, Lcom/google/android/gms/internal/firebase_auth/k4$c;-><init>(Lcom/google/android/gms/internal/firebase_auth/k4;)V
 
-    .line 8
     sput-object p1, Lcom/google/android/gms/internal/firebase_auth/q7$b;->zzs:Lcom/google/android/gms/internal/firebase_auth/c6;
 
-    .line 9
     :cond_0
     monitor-exit p2
 
@@ -228,7 +206,6 @@
     :goto_0
     return-object p1
 
-    .line 10
     :pswitch_3
     sget-object p1, Lcom/google/android/gms/internal/firebase_auth/q7$b;->zzahc:Lcom/google/android/gms/internal/firebase_auth/q7$b;
 
@@ -281,7 +258,6 @@
 
     const-string p2, "\u0000\u0007\u0000\u0000\u0001\u0007\u0007\u0000\u0000\u0000\u0001\u0208\u0002\u0002\u0003\u0208\u0004\u0208\u0005\u0208\u0006\u0208\u0007\u0002"
 
-    .line 11
     sget-object p3, Lcom/google/android/gms/internal/firebase_auth/q7$b;->zzahc:Lcom/google/android/gms/internal/firebase_auth/q7$b;
 
     invoke-static {p3, p2, p1}, Lcom/google/android/gms/internal/firebase_auth/k4;->l(Lcom/google/android/gms/internal/firebase_auth/s5;Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/Object;
@@ -290,7 +266,6 @@
 
     return-object p1
 
-    .line 12
     :pswitch_5
     new-instance p1, Lcom/google/android/gms/internal/firebase_auth/q7$b$a;
 
@@ -298,7 +273,6 @@
 
     return-object p1
 
-    .line 13
     :pswitch_6
     new-instance p1, Lcom/google/android/gms/internal/firebase_auth/q7$b;
 
@@ -323,7 +297,6 @@
 .method public final u()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/firebase_auth/q7$b;->zzagy:Ljava/lang/String;
 
     return-object v0
@@ -332,7 +305,6 @@
 .method public final v()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/firebase_auth/q7$b;->zzagz:Ljava/lang/String;
 
     return-object v0
@@ -341,7 +313,6 @@
 .method public final y()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/firebase_auth/q7$b;->zzbb:Ljava/lang/String;
 
     return-object v0
@@ -350,7 +321,6 @@
 .method public final z()J
     .locals 2
 
-    .line 1
     iget-wide v0, p0, Lcom/google/android/gms/internal/firebase_auth/q7$b;->zzbc:J
 
     return-wide v0

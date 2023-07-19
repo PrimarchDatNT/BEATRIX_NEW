@@ -30,12 +30,10 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/beautyplus/BaseActivity;-><init>()V
 
     const/4 v0, 0x0
 
-    .line 2
     iput-boolean v0, p0, Lcom/commsource/beautyplus/setting/SettingActivity;->P:Z
 
     return-void
@@ -48,7 +46,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p1}, Lcom/commsource/push/bean/UpdateBean;->getUrl()Ljava/lang/String;
 
     move-result-object v1
@@ -61,16 +58,13 @@
 
     sget v1, Lcom/res/provider/ResSTRING;->very_sorry_data_illegal:I
 
-    .line 2
     invoke-static {v1}, Lf/k/c/c/f;->n(I)V
 
-    .line 3
     :cond_0
     new-instance v1, Landroid/content/Intent;
 
     invoke-direct {v1}, Landroid/content/Intent;-><init>()V
 
-    .line 4
     invoke-virtual {p1}, Lcom/commsource/push/bean/UpdateBean;->getAction()I
 
     move-result v2
@@ -93,10 +87,8 @@
     :try_start_0
     const-string v2, "android.intent.action.VIEW"
 
-    .line 5
     invoke-virtual {v1, v2}, Landroid/content/Intent;->setAction(Ljava/lang/String;)Landroid/content/Intent;
 
-    .line 6
     invoke-virtual {p1}, Lcom/commsource/push/bean/UpdateBean;->getUrl()Ljava/lang/String;
 
     move-result-object p1
@@ -107,7 +99,6 @@
 
     invoke-virtual {v1, p1}, Landroid/content/Intent;->setData(Landroid/net/Uri;)Landroid/content/Intent;
 
-    .line 7
     invoke-virtual {p0, v1}, Landroid/app/Activity;->startActivity(Landroid/content/Intent;)V
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
@@ -117,23 +108,19 @@
     :catch_0
     move-exception p1
 
-    .line 8
     invoke-static {p1}, Lcom/meitu/library/util/Debug/Debug;->a0(Ljava/lang/Throwable;)V
 
     sget p1, Lcom/res/provider/ResSTRING;->open_failed:I
 
-    .line 9
     invoke-static {p1}, Lf/k/c/c/f;->n(I)V
 
     goto :goto_0
 
-    .line 10
     :cond_2
     const-class v2, Lcom/commsource/beautyplus/web/WebActivity;
 
     invoke-virtual {v1, p0, v2}, Landroid/content/Intent;->setClass(Landroid/content/Context;Ljava/lang/Class;)Landroid/content/Intent;
 
-    .line 11
     invoke-virtual {p1}, Lcom/commsource/push/bean/UpdateBean;->getUrl()Ljava/lang/String;
 
     move-result-object p1
@@ -142,14 +129,11 @@
 
     invoke-virtual {v1, v2, p1}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
 
-    .line 12
     invoke-virtual {p0, v1}, Landroid/app/Activity;->startActivity(Landroid/content/Intent;)V
 
-    .line 13
     :goto_0
     invoke-virtual {p2}, Lcom/commsource/widget/dialog/i0;->dismiss()V
 
-    .line 14
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -162,10 +146,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p0}, Lcom/commsource/util/w0;->v(Landroid/content/Context;)V
 
-    .line 2
     invoke-virtual {p0}, Landroid/app/Activity;->getApplicationContext()Landroid/content/Context;
 
     move-result-object v1
@@ -174,10 +156,8 @@
 
     invoke-static {v1, v2}, Lcom/commsource/statistics/m;->h(Landroid/content/Context;Ljava/lang/String;)V
 
-    .line 3
     invoke-virtual {p1}, Lcom/commsource/widget/dialog/i0;->dismiss()V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -192,14 +172,12 @@
 
     if-eqz p2, :cond_2
 
-    .line 1
     iget-boolean p2, p0, Lcom/commsource/beautyplus/setting/SettingActivity;->P:Z
 
     if-nez p2, :cond_1
 
     sget p2, Lcom/res/provider/ResSTRING;->dialog_pre_environment_tips:I
 
-    .line 2
     invoke-virtual {p0, p2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
     move-result-object p2
@@ -208,7 +186,6 @@
 
     sget p2, Lcom/res/provider/ResSTRING;->dialog_formal_environment_tips:I
 
-    .line 3
     invoke-virtual {p0, p2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
     move-result-object p2
@@ -216,12 +193,10 @@
     :cond_0
     const/4 v1, 0x1
 
-    .line 4
     iput-boolean v1, p0, Lcom/commsource/beautyplus/setting/SettingActivity;->P:Z
 
     sget v1, Lcom/res/provider/ResSTRING;->ok:I
 
-    .line 5
     invoke-virtual {p0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
     move-result-object v1
@@ -232,7 +207,6 @@
 
     sget v3, Lcom/res/provider/ResSTRING;->cancel:I
 
-    .line 6
     invoke-virtual {p0, v3}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
     move-result-object v3
@@ -241,16 +215,13 @@
 
     invoke-direct {v4, p0, p1}, Lcom/commsource/beautyplus/setting/s;-><init>(Lcom/commsource/beautyplus/setting/SettingActivity;Z)V
 
-    .line 7
     invoke-static {p2, v1, v2, v3, v4}, Lcom/commsource/widget/dialog/s0/t;->l0(Ljava/lang/String;Ljava/lang/String;Lcom/commsource/widget/dialog/s0/y;Ljava/lang/String;Lcom/commsource/widget/dialog/s0/x;)V
 
     goto :goto_0
 
-    .line 8
     :cond_1
     invoke-static {p1}, Lcom/meitu/template/feedback/util/e;->S(Z)V
 
-    .line 9
     :cond_2
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -267,10 +238,8 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     invoke-static {p0}, Lcom/meitu/template/feedback/util/e;->T(Z)V
 
-    .line 2
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -284,15 +253,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/beautyplus/setting/SettingActivity;->O:Lcom/commsource/beautyplus/setting/followus/FollowUsPresenter;
 
     invoke-virtual {v1}, Lcom/commsource/beautyplus/setting/followus/FollowUsPresenter;->n()V
 
-    .line 2
     invoke-virtual {p1}, Lcom/commsource/widget/dialog/i0;->dismiss()V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -305,7 +271,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/beautyplus/setting/SettingActivity;->R:Lcom/commsource/beautyplus/f0/e1;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/e1;->G0:Landroid/view/View;
@@ -316,7 +281,6 @@
 
     if-nez v1, :cond_0
 
-    .line 2
     new-instance v1, Landroid/content/Intent;
 
     const-class v2, Lcom/commsource/billing/activity/ProActivity;
@@ -327,10 +291,8 @@
 
     const-string/jumbo v3, "setting_page_popup"
 
-    .line 3
     invoke-virtual {v1, v2, v3}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
 
-    .line 4
     invoke-virtual {p0, v1}, Landroid/app/Activity;->startActivity(Landroid/content/Intent;)V
 
     goto :goto_0
@@ -338,10 +300,8 @@
     :cond_0
     const-string/jumbo v1, "\u8bbe\u7f6e\u9875"
 
-    .line 5
     invoke-static {p0, v1}, Lcom/commsource/billing/activity/c;->a(Landroid/app/Activity;Ljava/lang/String;)V
 
-    .line 6
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -355,14 +315,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lf/d/i/e;->N1()Z
 
     move-result v1
 
     if-eqz v1, :cond_0
 
-    .line 2
     new-instance v1, Landroid/content/Intent;
 
     const-class v2, Lcom/commsource/beautyplus/setting/test/TestFuncFloatingWinService;
@@ -371,10 +329,8 @@
 
     invoke-virtual {p0, v1}, Landroid/app/Activity;->stopService(Landroid/content/Intent;)Z
 
-    .line 3
     invoke-static {}, Lcom/meitu/autotest/kotrace/runtime/Kotrace;->hideWidget()V
 
-    .line 4
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -390,7 +346,6 @@
 
     const/4 v1, 0x0
 
-    .line 1
     :try_start_0
     sget v2, Landroid/os/Build$VERSION;->SDK_INT:I
 
@@ -400,14 +355,12 @@
 
     if-lt v2, v3, :cond_1
 
-    .line 2
     invoke-static {p0}, Landroid/provider/Settings;->canDrawOverlays(Landroid/content/Context;)Z
 
     move-result v2
 
     if-eqz v2, :cond_0
 
-    .line 3
     new-instance v2, Landroid/content/Intent;
 
     const-class v3, Lcom/commsource/beautyplus/setting/test/TestFuncFloatingWinService;
@@ -416,12 +369,10 @@
 
     invoke-virtual {p0, v2}, Landroid/app/Activity;->startService(Landroid/content/Intent;)Landroid/content/ComponentName;
 
-    .line 4
     invoke-static {p0}, Lcom/meitu/autotest/kotrace/runtime/Kotrace;->showWidget(Landroid/app/Activity;)V
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v4
@@ -430,10 +381,8 @@
     :try_start_1
     const-string/jumbo v2, "\u8bf7\u5f00\u542f\u60ac\u6d6e\u7a97\u6743\u9650\uff0c\u4ee5\u5f00\u542f\u6d4b\u8bd5\u529f\u80fd\u5165\u53e3"
 
-    .line 6
     invoke-static {v2}, Lf/k/c/c/f;->j(Ljava/lang/CharSequence;)V
 
-    .line 7
     new-instance v2, Landroid/content/Intent;
 
     const-string v3, "android.settings.action.MANAGE_OVERLAY_PERMISSION"
@@ -446,7 +395,6 @@
 
     invoke-virtual {v5, v6}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 8
     invoke-virtual {p0}, Landroid/app/Activity;->getPackageName()Ljava/lang/String;
 
     move-result-object v6
@@ -463,17 +411,14 @@
 
     invoke-direct {v2, v3, v5}, Landroid/content/Intent;-><init>(Ljava/lang/String;Landroid/net/Uri;)V
 
-    .line 9
     invoke-virtual {p0, v2, v4}, Landroidx/fragment/app/FragmentActivity;->startActivityForResult(Landroid/content/Intent;I)V
     :try_end_1
     .catch Ljava/lang/Exception; {:try_start_1 .. :try_end_1} :catch_0
 
-    .line 10
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
 
-    .line 11
     :cond_1
     :try_start_2
     new-instance v2, Landroid/content/Intent;
@@ -484,12 +429,10 @@
 
     invoke-virtual {p0, v2}, Landroid/app/Activity;->startService(Landroid/content/Intent;)Landroid/content/ComponentName;
 
-    .line 12
     invoke-static {p0}, Lcom/meitu/autotest/kotrace/runtime/Kotrace;->showWidget(Landroid/app/Activity;)V
     :try_end_2
     .catch Ljava/lang/Exception; {:try_start_2 .. :try_end_2} :catch_0
 
-    .line 13
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v4
@@ -497,10 +440,8 @@
     :catch_0
     move-exception v2
 
-    .line 14
     invoke-static {v2}, Lcom/meitu/library/util/Debug/Debug;->a0(Ljava/lang/Throwable;)V
 
-    .line 15
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
@@ -513,7 +454,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/beautyplus/setting/SettingActivity;->R:Lcom/commsource/beautyplus/f0/e1;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/e1;->b0:Lcom/commsource/camera/xcamera/widget/CameraSwitchButton;
@@ -524,7 +464,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/camera/xcamera/widget/CameraSwitchButton;->j(Z)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/beautyplus/setting/SettingActivity;->R:Lcom/commsource/beautyplus/f0/e1;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/e1;->b0:Lcom/commsource/camera/xcamera/widget/CameraSwitchButton;
@@ -533,7 +472,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/camera/xcamera/widget/CameraSwitchButton;->setOnSwitchListener(Lcom/commsource/camera/xcamera/widget/CameraSwitchButton$c;)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -546,7 +484,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/beautyplus/setting/SettingActivity;->R:Lcom/commsource/beautyplus/f0/e1;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/e1;->V:Lcom/commsource/camera/xcamera/widget/CameraSwitchButton;
@@ -557,7 +494,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/camera/xcamera/widget/CameraSwitchButton;->j(Z)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/beautyplus/setting/SettingActivity;->R:Lcom/commsource/beautyplus/f0/e1;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/e1;->V:Lcom/commsource/camera/xcamera/widget/CameraSwitchButton;
@@ -566,7 +502,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/camera/xcamera/widget/CameraSwitchButton;->setOnSwitchListener(Lcom/commsource/camera/xcamera/widget/CameraSwitchButton$c;)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -579,7 +514,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/beautyplus/setting/SettingActivity;->R:Lcom/commsource/beautyplus/f0/e1;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/e1;->s0:Landroid/widget/TextView;
@@ -594,7 +528,6 @@
 
     invoke-virtual {v1, v2}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -607,7 +540,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/beautyplus/setting/SettingActivity;->R:Lcom/commsource/beautyplus/f0/e1;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/e1;->W:Lcom/commsource/camera/xcamera/widget/CameraSwitchButton;
@@ -618,7 +550,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/camera/xcamera/widget/CameraSwitchButton;->j(Z)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/beautyplus/setting/SettingActivity;->R:Lcom/commsource/beautyplus/f0/e1;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/e1;->W:Lcom/commsource/camera/xcamera/widget/CameraSwitchButton;
@@ -627,7 +558,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/camera/xcamera/widget/CameraSwitchButton;->setOnSwitchListener(Lcom/commsource/camera/xcamera/widget/CameraSwitchButton$c;)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -640,7 +570,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Landroid/app/Activity;->isFinishing()Z
 
     move-result v1
@@ -655,7 +584,6 @@
 
     sget v1, Lcom/res/provider/ResSTRING;->dialog_confirm:I
 
-    .line 2
     invoke-virtual {p0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
     move-result-object v1
@@ -666,7 +594,6 @@
 
     invoke-static {p1, v1, v2, v3}, Lcom/commsource/widget/dialog/s0/t;->p0(Ljava/lang/String;Ljava/lang/String;Lcom/commsource/widget/dialog/s0/y;Z)V
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -680,21 +607,18 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p0}, Lcom/commsource/beautyplus/setting/a0/b;->f(Landroid/content/Context;)Ljava/lang/String;
 
     move-result-object v1
 
     const-string v2, "0.00KB"
 
-    .line 2
     invoke-virtual {v2, v1}, Ljava/lang/String;->equalsIgnoreCase(Ljava/lang/String;)Z
 
     move-result v1
 
     if-eqz v1, :cond_0
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/beautyplus/setting/SettingActivity;->R:Lcom/commsource/beautyplus/f0/e1;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/e1;->n0:Landroid/widget/TextView;
@@ -703,12 +627,10 @@
 
     invoke-virtual {v1, v2}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 4
     invoke-direct {p0}, Lcom/commsource/beautyplus/setting/SettingActivity;->V0()V
 
     goto :goto_0
 
-    .line 5
     :cond_0
     iget-object v1, p0, Lcom/commsource/beautyplus/setting/SettingActivity;->R:Lcom/commsource/beautyplus/f0/e1;
 
@@ -720,7 +642,6 @@
 
     invoke-virtual {v1, v2}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 6
     :goto_0
     iget-object v1, p0, Lcom/commsource/beautyplus/setting/SettingActivity;->R:Lcom/commsource/beautyplus/f0/e1;
 
@@ -734,10 +655,8 @@
 
     const-string v1, ""
 
-    .line 7
     invoke-static {p0, v1}, Lf/d/i/b;->f0(Landroid/content/Context;Ljava/lang/String;)V
 
-    .line 8
     invoke-static {}, Lcom/commsource/beautyplus/m0/d;->a()Lcom/commsource/beautyplus/m0/d;
 
     move-result-object v1
@@ -750,10 +669,8 @@
 
     if-eqz v1, :cond_1
 
-    .line 9
     invoke-virtual {v1, p0}, Lcom/commsource/beautyplus/m0/c;->d(Landroid/content/Context;)V
 
-    .line 10
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -767,7 +684,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Landroid/app/Activity;->isFinishing()Z
 
     move-result v1
@@ -776,7 +692,6 @@
 
     sget v1, Lcom/res/provider/ResSTRING;->attention:I
 
-    .line 2
     invoke-virtual {p1, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
     move-result-object v2
@@ -789,7 +704,6 @@
 
     sget v1, Lcom/res/provider/ResSTRING;->ok:I
 
-    .line 3
     invoke-virtual {p1, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
     move-result-object v4
@@ -804,10 +718,8 @@
 
     const/4 v9, 0x0
 
-    .line 4
     invoke-static/range {v2 .. v9}, Lcom/commsource/widget/dialog/s0/t;->v0(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lcom/commsource/widget/dialog/s0/y;Ljava/lang/String;Lcom/commsource/widget/dialog/s0/x;ZLcom/commsource/widget/dialog/s0/w;)V
 
-    .line 5
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -821,7 +733,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/beautyplus/setting/SettingActivity;->R:Lcom/commsource/beautyplus/f0/e1;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/e1;->a0:Lcom/commsource/camera/xcamera/widget/CameraSwitchButton;
@@ -832,7 +743,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/camera/xcamera/widget/CameraSwitchButton;->j(Z)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/beautyplus/setting/SettingActivity;->R:Lcom/commsource/beautyplus/f0/e1;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/e1;->a0:Lcom/commsource/camera/xcamera/widget/CameraSwitchButton;
@@ -841,7 +751,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/camera/xcamera/widget/CameraSwitchButton;->setOnSwitchListener(Lcom/commsource/camera/xcamera/widget/CameraSwitchButton$c;)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -854,7 +763,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/beautyplus/setting/SettingActivity;->R:Lcom/commsource/beautyplus/f0/e1;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/e1;->f0:Lcom/commsource/camera/xcamera/widget/CameraSwitchButton;
@@ -865,7 +773,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/camera/xcamera/widget/CameraSwitchButton;->j(Z)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/beautyplus/setting/SettingActivity;->R:Lcom/commsource/beautyplus/f0/e1;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/e1;->f0:Lcom/commsource/camera/xcamera/widget/CameraSwitchButton;
@@ -874,7 +781,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/camera/xcamera/widget/CameraSwitchButton;->setOnSwitchListener(Lcom/commsource/camera/xcamera/widget/CameraSwitchButton$c;)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -887,7 +793,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/beautyplus/setting/SettingActivity;->R:Lcom/commsource/beautyplus/f0/e1;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/e1;->g0:Lcom/commsource/camera/xcamera/widget/CameraSwitchButton;
@@ -898,7 +803,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/camera/xcamera/widget/CameraSwitchButton;->j(Z)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/beautyplus/setting/SettingActivity;->R:Lcom/commsource/beautyplus/f0/e1;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/e1;->g0:Lcom/commsource/camera/xcamera/widget/CameraSwitchButton;
@@ -907,7 +811,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/camera/xcamera/widget/CameraSwitchButton;->setOnSwitchListener(Lcom/commsource/camera/xcamera/widget/CameraSwitchButton$c;)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -920,17 +823,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/beautyplus/setting/SettingActivity;->N1()V
 
-    .line 2
     invoke-static {}, Lcom/commsource/beautyplus/util/f;->c()Z
 
     move-result v1
 
     if-eqz v1, :cond_0
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/beautyplus/setting/SettingActivity;->R:Lcom/commsource/beautyplus/f0/e1;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/e1;->J:Landroid/view/View;
@@ -939,14 +839,12 @@
 
     invoke-virtual {v1, v2}, Landroid/view/View;->setVisibility(I)V
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/beautyplus/setting/SettingActivity;->R:Lcom/commsource/beautyplus/f0/e1;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/e1;->U:Landroid/widget/RelativeLayout;
 
     invoke-virtual {v1, v2}, Landroid/widget/RelativeLayout;->setVisibility(I)V
 
-    .line 5
     iget-object v1, p0, Lcom/commsource/beautyplus/setting/SettingActivity;->R:Lcom/commsource/beautyplus/f0/e1;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/e1;->h0:Lcom/commsource/camera/xcamera/widget/CameraSwitchButton;
@@ -957,7 +855,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/camera/xcamera/widget/CameraSwitchButton;->j(Z)V
 
-    .line 6
     iget-object v1, p0, Lcom/commsource/beautyplus/setting/SettingActivity;->R:Lcom/commsource/beautyplus/f0/e1;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/e1;->h0:Lcom/commsource/camera/xcamera/widget/CameraSwitchButton;
@@ -966,7 +863,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/camera/xcamera/widget/CameraSwitchButton;->setOnSwitchListener(Lcom/commsource/camera/xcamera/widget/CameraSwitchButton$c;)V
 
-    .line 7
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -980,7 +876,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/beautyplus/setting/SettingActivity;->R:Lcom/commsource/beautyplus/f0/e1;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/e1;->j0:Lcom/commsource/camera/xcamera/widget/CameraSwitchButton;
@@ -991,7 +886,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/camera/xcamera/widget/CameraSwitchButton;->j(Z)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/beautyplus/setting/SettingActivity;->R:Lcom/commsource/beautyplus/f0/e1;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/e1;->j0:Lcom/commsource/camera/xcamera/widget/CameraSwitchButton;
@@ -1000,7 +894,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/camera/xcamera/widget/CameraSwitchButton;->setOnSwitchListener(Lcom/commsource/camera/xcamera/widget/CameraSwitchButton$c;)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1013,7 +906,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/beautyplus/setting/SettingActivity;->R:Lcom/commsource/beautyplus/f0/e1;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/e1;->N:Landroid/widget/LinearLayout;
@@ -1022,7 +914,6 @@
 
     invoke-virtual {v1, v2}, Landroid/widget/LinearLayout;->setEnabled(Z)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/beautyplus/setting/SettingActivity;->R:Lcom/commsource/beautyplus/f0/e1;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/e1;->N:Landroid/widget/LinearLayout;
@@ -1031,7 +922,6 @@
 
     invoke-virtual {v1, v2}, Landroid/widget/LinearLayout;->setAlpha(F)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1044,25 +934,20 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Landroid/content/Intent;
 
     invoke-direct {v1}, Landroid/content/Intent;-><init>()V
 
-    .line 2
     const-class v2, Lcom/commsource/beautyplus/web/WebActivity;
 
     invoke-virtual {v1, p0, v2}, Landroid/content/Intent;->setClass(Landroid/content/Context;Ljava/lang/Class;)Landroid/content/Intent;
 
     const-string/jumbo v2, "url"
 
-    .line 3
     invoke-virtual {v1, v2, p1}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
 
-    .line 4
     invoke-virtual {p0, v1}, Landroid/app/Activity;->startActivity(Landroid/content/Intent;)V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1079,7 +964,6 @@
 
     sget p1, Lcom/res/provider/ResSTRING;->setting_image_quality_lower:I
 
-    .line 1
     invoke-virtual {p0, p1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
     move-result-object p1
@@ -1095,7 +979,6 @@
 
     sget p1, Lcom/res/provider/ResSTRING;->setting_image_quality_ultra:I
 
-    .line 2
     invoke-virtual {p0, p1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
     move-result-object p1
@@ -1111,7 +994,6 @@
 
     sget p1, Lcom/res/provider/ResSTRING;->setting_image_quality_higher:I
 
-    .line 3
     invoke-virtual {p0, p1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
     move-result-object p1
@@ -1123,7 +1005,6 @@
     :cond_2
     sget p1, Lcom/res/provider/ResSTRING;->setting_image_quality_normal:I
 
-    .line 4
     invoke-virtual {p0, p1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
     move-result-object p1
@@ -1140,7 +1021,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/billing/pro/GmsManager;->i:Lcom/commsource/billing/pro/GmsManager$a;
 
     invoke-virtual {v1}, Lcom/commsource/billing/pro/GmsManager$a;->a()Lcom/commsource/billing/pro/GmsManager;
@@ -1157,7 +1037,6 @@
 
     invoke-virtual {v1, p0, v2}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1172,14 +1051,12 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
     move-result-object p1
 
     invoke-static {p1, p0}, Lcom/meitu/library/camera/util/l;->z(Landroid/content/Context;Z)V
 
-    .line 2
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1195,7 +1072,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
     move-result-object p1
@@ -1204,14 +1080,12 @@
 
     invoke-static {p1, v1}, Lf/d/i/n;->z1(Landroid/content/Context;Z)V
 
-    .line 2
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
     move-result-object p1
 
     invoke-static {p1, p0}, Lf/d/i/n;->w1(Landroid/content/Context;Z)V
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1227,14 +1101,12 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
     move-result-object p1
 
     invoke-static {p1, p0}, Lf/d/i/n;->n1(Landroid/content/Context;Z)V
 
-    .line 2
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1248,10 +1120,8 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p0}, Lcom/commsource/beautyplus/setting/a0/b;->a(Landroid/content/Context;)V
 
-    .line 2
     iget-object v0, p0, Lcom/commsource/beautyplus/setting/SettingActivity;->R:Lcom/commsource/beautyplus/f0/e1;
 
     iget-object v0, v0, Lcom/commsource/beautyplus/f0/e1;->n0:Landroid/widget/TextView;
@@ -1262,13 +1132,10 @@
 
     const/4 v0, 0x1
 
-    .line 3
     iput-boolean v0, p0, Lcom/commsource/beautyplus/setting/SettingActivity;->Q:Z
 
-    .line 4
     invoke-direct {p0}, Lcom/commsource/beautyplus/setting/SettingActivity;->V0()V
 
-    .line 5
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1283,7 +1150,6 @@
 
     if-eqz p1, :cond_1
 
-    .line 1
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
     move-result-object p1
@@ -1304,10 +1170,8 @@
 
     const-string/jumbo v1, "\u72b6\u6001"
 
-    .line 2
     invoke-static {p1, v1, p0}, Lcom/commsource/statistics/i;->r(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 3
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1323,14 +1187,12 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
     move-result-object p1
 
     invoke-static {p1, p0}, Lf/d/i/n;->W1(Landroid/content/Context;Z)V
 
-    .line 2
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1346,14 +1208,12 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
     move-result-object p1
 
     invoke-static {p1, p0}, Lf/d/i/n;->m2(Landroid/content/Context;Z)V
 
-    .line 2
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1369,14 +1229,12 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
     move-result-object p1
 
     invoke-static {p1, p0}, Lf/d/i/g;->v(Landroid/content/Context;Z)Z
 
-    .line 2
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1392,14 +1250,12 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
     move-result-object p1
 
     invoke-static {p1, p0}, Lf/d/i/n;->r2(Landroid/content/Context;Z)V
 
-    .line 2
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1413,7 +1269,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/beautyplus/setting/SettingActivity;->R:Lcom/commsource/beautyplus/f0/e1;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/e1;->G0:Landroid/view/View;
@@ -1434,7 +1289,6 @@
     :goto_0
     invoke-static {v1, v2}, Lcom/commsource/util/l2;->P(Landroid/view/View;Z)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1451,7 +1305,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/beautyplus/setting/SettingActivity;->L1()Z
 
     move-result p1
@@ -1460,21 +1313,17 @@
 
     const/4 p1, 0x1
 
-    .line 2
     invoke-static {p1}, Lf/d/i/e;->Z3(Z)V
 
     goto :goto_0
 
-    .line 3
     :cond_0
     invoke-direct {p0}, Lcom/commsource/beautyplus/setting/SettingActivity;->L0()V
 
     const/4 p1, 0x0
 
-    .line 4
     invoke-static {p1}, Lf/d/i/e;->Z3(Z)V
 
-    .line 5
     :cond_1
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1489,7 +1338,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v0, Landroid/content/Intent;
 
     const-class v1, Lcom/commsource/beautyplus/setting/test/TestFuncActivity;
@@ -1498,7 +1346,6 @@
 
     invoke-virtual {p0, v0}, Landroid/app/Activity;->startActivity(Landroid/content/Intent;)V
 
-    .line 2
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1513,15 +1360,12 @@
 
     if-eqz p2, :cond_0
 
-    .line 1
     invoke-static {p0, p1}, Lf/d/i/e;->g4(Landroid/content/Context;Z)V
 
-    .line 2
     iget-object p1, p0, Lcom/commsource/beautyplus/setting/SettingActivity;->N:Lcom/commsource/beautyplus/setting/y$a;
 
     invoke-interface {p1}, Lcom/commsource/beautyplus/setting/y$a;->g()V
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1537,7 +1381,6 @@
 
     if-eqz p2, :cond_0
 
-    .line 1
     new-instance p2, Lcom/commsource/beautyplus/setting/SettingActivity$a;
 
     const-string v1, "changePreEnvironment"
@@ -1546,7 +1389,6 @@
 
     invoke-static {p2}, Lcom/commsource/util/c2;->e(Lcom/commsource/util/u2/a;)V
 
-    .line 2
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1560,7 +1402,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/beautyplus/setting/SettingActivity;->R:Lcom/commsource/beautyplus/f0/e1;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/e1;->T:Landroid/widget/LinearLayout;
@@ -1579,28 +1420,22 @@
     :goto_0
     invoke-virtual {v1, v3}, Landroid/widget/LinearLayout;->setVisibility(I)V
 
-    .line 2
     invoke-virtual {p0}, Landroid/app/Activity;->getApplication()Landroid/app/Application;
 
     move-result-object v1
 
-    .line 3
     new-instance v3, Lcom/commsource/camera/ardata/e;
 
     invoke-direct {v3, v1}, Lcom/commsource/camera/ardata/e;-><init>(Landroid/content/Context;)V
 
     invoke-virtual {v3}, Lcom/commsource/camera/ardata/j;->n()V
 
-    .line 4
     invoke-static {p1}, Lcom/meitu/template/feedback/util/e;->S(Z)V
 
-    .line 5
     iput-boolean v2, p0, Lcom/commsource/beautyplus/setting/SettingActivity;->P:Z
 
-    .line 6
     invoke-virtual {p2}, Lcom/commsource/widget/dialog/i0;->dismiss()V
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1613,7 +1448,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/beautyplus/setting/SettingActivity;->R:Lcom/commsource/beautyplus/f0/e1;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/e1;->X:Lcom/commsource/camera/xcamera/widget/CameraSwitchButton;
@@ -1624,13 +1458,10 @@
 
     const/4 p1, 0x0
 
-    .line 2
     iput-boolean p1, p0, Lcom/commsource/beautyplus/setting/SettingActivity;->P:Z
 
-    .line 3
     invoke-virtual {p2}, Lcom/commsource/widget/dialog/i0;->dismiss()V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1645,10 +1476,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/commsource/beautyplus/setting/SettingActivity;->X0(Ljava/lang/String;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1663,10 +1492,8 @@
 
     const-string v1, "Nothing to consumeAsync"
 
-    .line 1
     invoke-static {v1}, Lf/k/c/c/f;->y(Ljava/lang/CharSequence;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1703,10 +1530,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p0, p1}, Lcom/commsource/beautyplus/util/t;->j(Landroid/app/Activity;I)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1727,12 +1552,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Landroid/app/Activity;->getPackageManager()Landroid/content/pm/PackageManager;
 
     move-result-object v1
 
-    .line 2
     :try_start_0
     invoke-virtual {p0}, Landroid/app/Activity;->getPackageName()Ljava/lang/String;
 
@@ -1744,7 +1567,6 @@
 
     move-result-object v1
 
-    .line 3
     iget-object v1, v1, Landroid/content/pm/PackageInfo;->versionName:Ljava/lang/String;
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
@@ -1754,12 +1576,10 @@
     :catch_0
     move-exception v1
 
-    .line 4
     invoke-static {v1}, Lcom/meitu/library/util/Debug/Debug;->a0(Ljava/lang/Throwable;)V
 
     const/4 v1, 0x0
 
-    .line 5
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1773,12 +1593,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/meitu/library/hwanalytics/spm/e/a;
 
     invoke-direct {v1}, Lcom/meitu/library/hwanalytics/spm/e/a;-><init>()V
 
-    .line 2
     const-class v2, Lcom/commsource/beautyplus/setting/SettingActivity;
 
     invoke-virtual {v2}, Ljava/lang/Class;->getSimpleName()Ljava/lang/String;
@@ -1789,13 +1607,10 @@
 
     const-string v2, "1011"
 
-    .line 3
     invoke-virtual {v1, v2}, Lcom/meitu/library/hwanalytics/spm/e/a;->r(Ljava/lang/String;)V
 
-    .line 4
     invoke-virtual {v1, p0}, Lcom/meitu/library/hwanalytics/spm/e/a;->t(Ljava/lang/Object;)V
 
-    .line 5
     sget-object v2, Lcom/meitu/library/hwanalytics/spm/SPMManager;->h:Lcom/meitu/library/hwanalytics/spm/SPMManager$a;
 
     invoke-virtual {v2}, Lcom/meitu/library/hwanalytics/spm/SPMManager$a;->a()Lcom/meitu/library/hwanalytics/spm/SPMManager;
@@ -1804,7 +1619,6 @@
 
     invoke-virtual {v2, v1}, Lcom/meitu/library/hwanalytics/spm/SPMManager;->w(Lcom/meitu/library/hwanalytics/spm/e/a;)V
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1819,7 +1633,6 @@
 
     sget v1, Lcom/res/provider/ResSTRING;->no_has_new_version:I
 
-    .line 1
     invoke-virtual {p0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
     move-result-object v2
@@ -1832,7 +1645,6 @@
 
     sget v1, Lcom/res/provider/ResSTRING;->dialog_i_konw:I
 
-    .line 2
     invoke-virtual {p0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
     move-result-object v4
@@ -1847,10 +1659,8 @@
 
     const/4 v9, 0x0
 
-    .line 3
     invoke-static/range {v2 .. v9}, Lcom/commsource/widget/dialog/s0/t;->v0(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lcom/commsource/widget/dialog/s0/y;Ljava/lang/String;Lcom/commsource/widget/dialog/s0/x;ZLcom/commsource/widget/dialog/s0/w;)V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1863,14 +1673,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p0}, Lcom/commsource/util/c0;->v(Landroid/content/Context;)Z
 
     move-result v1
 
     if-eqz v1, :cond_0
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/beautyplus/setting/SettingActivity;->R:Lcom/commsource/beautyplus/f0/e1;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/e1;->p:Lcom/commsource/widget/PressImageView;
@@ -1879,7 +1687,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_0
     iget-object v1, p0, Lcom/commsource/beautyplus/setting/SettingActivity;->R:Lcom/commsource/beautyplus/f0/e1;
 
@@ -1889,7 +1696,6 @@
 
     invoke-virtual {v1, v2}, Landroid/widget/ImageView;->setVisibility(I)V
 
-    .line 4
     :goto_0
     iget-object v1, p0, Lcom/commsource/beautyplus/setting/SettingActivity;->R:Lcom/commsource/beautyplus/f0/e1;
 
@@ -1897,35 +1703,30 @@
 
     invoke-virtual {v1, p0}, Landroid/widget/ImageView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 5
     iget-object v1, p0, Lcom/commsource/beautyplus/setting/SettingActivity;->R:Lcom/commsource/beautyplus/f0/e1;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/e1;->f:Lcom/commsource/widget/PressImageView;
 
     invoke-virtual {v1, p0}, Landroid/widget/ImageView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 6
     iget-object v1, p0, Lcom/commsource/beautyplus/setting/SettingActivity;->R:Lcom/commsource/beautyplus/f0/e1;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/e1;->g:Lcom/commsource/widget/PressImageView;
 
     invoke-virtual {v1, p0}, Landroid/widget/ImageView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 7
     iget-object v1, p0, Lcom/commsource/beautyplus/setting/SettingActivity;->R:Lcom/commsource/beautyplus/f0/e1;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/e1;->v0:Landroid/widget/TextView;
 
     invoke-virtual {v1, p0}, Landroid/widget/TextView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 8
     iget-object v1, p0, Lcom/commsource/beautyplus/setting/SettingActivity;->R:Lcom/commsource/beautyplus/f0/e1;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/e1;->x0:Landroid/widget/TextView;
 
     invoke-virtual {v1, p0}, Landroid/widget/TextView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 9
     invoke-static {}, Lcom/commsource/util/x;->C()Z
 
     move-result v1
@@ -1934,7 +1735,6 @@
 
     invoke-static {p0, v2, v1}, Lf/d/i/e;->O2(Landroid/content/Context;Ljava/lang/String;Z)V
 
-    .line 10
     iget-object v1, p0, Lcom/commsource/beautyplus/setting/SettingActivity;->R:Lcom/commsource/beautyplus/f0/e1;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/e1;->I0:Lcom/commsource/widget/title/XTitleBar;
@@ -1945,7 +1745,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/widget/title/XTitleBar;->j(Lcom/commsource/widget/title/a;)Lcom/commsource/widget/title/XTitleBar;
 
-    .line 11
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1960,7 +1759,6 @@
 
     sget v1, Lcom/res/provider/ResSTRING;->ok:I
 
-    .line 1
     invoke-virtual {p0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
     move-result-object v1
@@ -1971,15 +1769,12 @@
 
     sget v3, Lcom/res/provider/ResSTRING;->cancel:I
 
-    .line 2
     invoke-virtual {p0, v3}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
     move-result-object v3
 
-    .line 3
     invoke-static {p1, v1, v2, v3}, Lcom/commsource/widget/dialog/s0/t;->j0(Ljava/lang/String;Ljava/lang/String;Lcom/commsource/widget/dialog/s0/y;Ljava/lang/String;)V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1992,7 +1787,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     :try_start_0
     invoke-virtual {p0, p1}, Landroid/app/Activity;->startActivity(Landroid/content/Intent;)V
     :try_end_0
@@ -2000,11 +1794,9 @@
 
     goto :goto_0
 
-    .line 2
     :catch_0
     invoke-direct {p0, p2}, Lcom/commsource/beautyplus/setting/SettingActivity;->X0(Ljava/lang/String;)V
 
-    .line 3
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -2018,10 +1810,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/beautyplus/setting/SettingActivity;->finish()V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2034,24 +1824,20 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/beautyplus/BaseActivity;->q0()V
 
-    .line 2
     iget-boolean v1, p0, Lcom/commsource/beautyplus/setting/SettingActivity;->S:Z
 
     sget v2, Lcom/res/provider/ResSTRING;->restored:I
 
     if-eqz v1, :cond_0
 
-    .line 3
     invoke-virtual {p0, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
     move-result-object v1
 
     goto :goto_0
 
-    .line 4
     :cond_0
     invoke-static {}, Lf/d/i/o;->o0()Z
 
@@ -2059,7 +1845,6 @@
 
     if-eqz v1, :cond_1
 
-    .line 5
     invoke-virtual {p0, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
     move-result-object v1
@@ -2069,16 +1854,13 @@
     :cond_1
     sget v1, Lcom/res/provider/ResSTRING;->half_restored:I
 
-    .line 6
     invoke-virtual {p0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
     move-result-object v1
 
-    .line 7
     :goto_0
     invoke-direct {p0, v1}, Lcom/commsource/beautyplus/setting/SettingActivity;->O1(Ljava/lang/String;)V
 
-    .line 8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2091,24 +1873,20 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/beautyplus/BaseActivity;->q0()V
 
-    .line 2
     iget-boolean v1, p0, Lcom/commsource/beautyplus/setting/SettingActivity;->S:Z
 
     sget v2, Lcom/res/provider/ResSTRING;->restored:I
 
     if-eqz v1, :cond_0
 
-    .line 3
     invoke-virtual {p0, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
     move-result-object v1
 
     goto :goto_0
 
-    .line 4
     :cond_0
     invoke-static {}, Lf/d/i/o;->o0()Z
 
@@ -2116,7 +1894,6 @@
 
     if-eqz v1, :cond_1
 
-    .line 5
     invoke-virtual {p0, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
     move-result-object v1
@@ -2126,16 +1903,13 @@
     :cond_1
     sget v1, Lcom/res/provider/ResSTRING;->not_subs_no_restore:I
 
-    .line 6
     invoke-virtual {p0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
     move-result-object v1
 
-    .line 7
     :goto_0
     invoke-direct {p0, v1}, Lcom/commsource/beautyplus/setting/SettingActivity;->O1(Ljava/lang/String;)V
 
-    .line 8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2148,7 +1922,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/beautyplus/setting/SettingActivity;->R:Lcom/commsource/beautyplus/f0/e1;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/e1;->b:Landroid/widget/Button;
@@ -2167,7 +1940,6 @@
 
     invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 2
     invoke-virtual {p1}, Lcom/meitu/countrylocation/LocationBean;->getCountry_code()Ljava/lang/String;
 
     move-result-object p1
@@ -2188,10 +1960,8 @@
 
     move-result-object p1
 
-    .line 3
     invoke-virtual {v1, p1}, Landroid/widget/Button;->setText(Ljava/lang/CharSequence;)V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2204,38 +1974,32 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/beautyplus/setting/SettingActivity;->R:Lcom/commsource/beautyplus/f0/e1;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/e1;->y0:Landroid/widget/TextView;
 
     invoke-virtual {v1, p0}, Landroid/widget/TextView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/beautyplus/setting/SettingActivity;->R:Lcom/commsource/beautyplus/f0/e1;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/e1;->r0:Landroid/widget/TextView;
 
     invoke-virtual {v1, p0}, Landroid/widget/TextView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/beautyplus/setting/SettingActivity;->R:Lcom/commsource/beautyplus/f0/e1;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/e1;->w0:Landroid/widget/TextView;
 
     invoke-virtual {v1, p0}, Landroid/widget/TextView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/beautyplus/setting/SettingActivity;->R:Lcom/commsource/beautyplus/f0/e1;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/e1;->t0:Landroid/widget/TextView;
 
     invoke-virtual {v1, p0}, Landroid/widget/TextView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 5
     invoke-virtual {p0}, Lcom/commsource/beautyplus/setting/SettingActivity;->M1()V
 
-    .line 6
     invoke-static {}, Lcom/commsource/util/x;->C()Z
 
     move-result v1
@@ -2246,14 +2010,12 @@
 
     if-eqz v1, :cond_0
 
-    .line 7
     iget-object v1, p0, Lcom/commsource/beautyplus/setting/SettingActivity;->R:Lcom/commsource/beautyplus/f0/e1;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/e1;->A0:Landroid/widget/TextView;
 
     invoke-virtual {v1, v3}, Landroid/widget/TextView;->setVisibility(I)V
 
-    .line 8
     iget-object v1, p0, Lcom/commsource/beautyplus/setting/SettingActivity;->R:Lcom/commsource/beautyplus/f0/e1;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/e1;->C0:Landroid/widget/TextView;
@@ -2280,7 +2042,6 @@
 
     invoke-virtual {v1, v4}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 9
     iget-object v1, p0, Lcom/commsource/beautyplus/setting/SettingActivity;->R:Lcom/commsource/beautyplus/f0/e1;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/e1;->C0:Landroid/widget/TextView;
@@ -2289,7 +2050,6 @@
 
     goto :goto_0
 
-    .line 10
     :cond_0
     iget-object v1, p0, Lcom/commsource/beautyplus/setting/SettingActivity;->R:Lcom/commsource/beautyplus/f0/e1;
 
@@ -2297,7 +2057,6 @@
 
     invoke-virtual {v1, v2}, Landroid/widget/TextView;->setVisibility(I)V
 
-    .line 11
     :goto_0
     invoke-static {}, Lcom/commsource/util/x;->C()Z
 
@@ -2305,14 +2064,12 @@
 
     if-eqz v1, :cond_1
 
-    .line 12
     iget-object v1, p0, Lcom/commsource/beautyplus/setting/SettingActivity;->R:Lcom/commsource/beautyplus/f0/e1;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/e1;->c:Landroid/widget/FrameLayout;
 
     invoke-virtual {v1, v3}, Landroid/widget/FrameLayout;->setVisibility(I)V
 
-    .line 13
     iget-object v1, p0, Lcom/commsource/beautyplus/setting/SettingActivity;->R:Lcom/commsource/beautyplus/f0/e1;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/e1;->i0:Lcom/commsource/camera/xcamera/widget/CameraSwitchButton;
@@ -2323,7 +2080,6 @@
 
     invoke-virtual {v1, v4}, Lcom/commsource/camera/xcamera/widget/CameraSwitchButton;->j(Z)V
 
-    .line 14
     iget-object v1, p0, Lcom/commsource/beautyplus/setting/SettingActivity;->R:Lcom/commsource/beautyplus/f0/e1;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/e1;->i0:Lcom/commsource/camera/xcamera/widget/CameraSwitchButton;
@@ -2334,7 +2090,6 @@
 
     invoke-virtual {v1, v4}, Lcom/commsource/camera/xcamera/widget/CameraSwitchButton;->setOnSwitchListener(Lcom/commsource/camera/xcamera/widget/CameraSwitchButton$c;)V
 
-    .line 15
     iget-object v1, p0, Lcom/commsource/beautyplus/setting/SettingActivity;->R:Lcom/commsource/beautyplus/f0/e1;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/e1;->c:Landroid/widget/FrameLayout;
@@ -2347,7 +2102,6 @@
 
     goto :goto_1
 
-    .line 16
     :cond_1
     iget-object v1, p0, Lcom/commsource/beautyplus/setting/SettingActivity;->R:Lcom/commsource/beautyplus/f0/e1;
 
@@ -2355,7 +2109,6 @@
 
     invoke-virtual {v1, v2}, Landroid/widget/FrameLayout;->setVisibility(I)V
 
-    .line 17
     :goto_1
     invoke-static {}, Lcom/commsource/util/x;->C()Z
 
@@ -2369,7 +2122,6 @@
 
     if-eqz v1, :cond_3
 
-    .line 18
     :cond_2
     iget-object v1, p0, Lcom/commsource/beautyplus/setting/SettingActivity;->R:Lcom/commsource/beautyplus/f0/e1;
 
@@ -2377,14 +2129,12 @@
 
     invoke-virtual {v1, v3}, Landroid/widget/LinearLayout;->setVisibility(I)V
 
-    .line 19
     iget-object v1, p0, Lcom/commsource/beautyplus/setting/SettingActivity;->R:Lcom/commsource/beautyplus/f0/e1;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/e1;->b:Landroid/widget/Button;
 
     invoke-virtual {v1, p0}, Landroid/widget/Button;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 20
     iget-object v1, p0, Lcom/commsource/beautyplus/setting/SettingActivity;->R:Lcom/commsource/beautyplus/f0/e1;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/e1;->X:Lcom/commsource/camera/xcamera/widget/CameraSwitchButton;
@@ -2395,7 +2145,6 @@
 
     invoke-virtual {v1, v4}, Lcom/commsource/camera/xcamera/widget/CameraSwitchButton;->j(Z)V
 
-    .line 21
     iget-object v1, p0, Lcom/commsource/beautyplus/setting/SettingActivity;->R:Lcom/commsource/beautyplus/f0/e1;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/e1;->X:Lcom/commsource/camera/xcamera/widget/CameraSwitchButton;
@@ -2406,7 +2155,6 @@
 
     invoke-virtual {v1, v4}, Lcom/commsource/camera/xcamera/widget/CameraSwitchButton;->setOnSwitchListener(Lcom/commsource/camera/xcamera/widget/CameraSwitchButton$c;)V
 
-    .line 22
     :cond_3
     invoke-static {p0}, Lf/d/i/o;->k0(Landroid/content/Context;)Z
 
@@ -2414,28 +2162,24 @@
 
     if-eqz v1, :cond_4
 
-    .line 23
     iget-object v1, p0, Lcom/commsource/beautyplus/setting/SettingActivity;->R:Lcom/commsource/beautyplus/f0/e1;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/e1;->S:Landroid/widget/LinearLayout;
 
     invoke-virtual {v1, v3}, Landroid/widget/LinearLayout;->setVisibility(I)V
 
-    .line 24
     iget-object v1, p0, Lcom/commsource/beautyplus/setting/SettingActivity;->R:Lcom/commsource/beautyplus/f0/e1;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/e1;->H0:Landroid/view/View;
 
     invoke-virtual {v1, v3}, Landroid/view/View;->setVisibility(I)V
 
-    .line 25
     iget-object v1, p0, Lcom/commsource/beautyplus/setting/SettingActivity;->R:Lcom/commsource/beautyplus/f0/e1;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/e1;->S:Landroid/widget/LinearLayout;
 
     invoke-virtual {v1, p0}, Landroid/widget/LinearLayout;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 26
     :cond_4
     invoke-static {}, Lcom/commsource/util/x;->C()Z
 
@@ -2443,14 +2187,12 @@
 
     if-eqz v1, :cond_5
 
-    .line 27
     iget-object v1, p0, Lcom/commsource/beautyplus/setting/SettingActivity;->R:Lcom/commsource/beautyplus/f0/e1;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/e1;->R:Landroid/widget/LinearLayout;
 
     invoke-virtual {v1, v3}, Landroid/widget/LinearLayout;->setVisibility(I)V
 
-    .line 28
     iget-object v1, p0, Lcom/commsource/beautyplus/setting/SettingActivity;->R:Lcom/commsource/beautyplus/f0/e1;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/e1;->c0:Lcom/commsource/camera/xcamera/widget/CameraSwitchButton;
@@ -2461,7 +2203,6 @@
 
     invoke-virtual {v1, v4}, Lcom/commsource/camera/xcamera/widget/CameraSwitchButton;->j(Z)V
 
-    .line 29
     iget-object v1, p0, Lcom/commsource/beautyplus/setting/SettingActivity;->R:Lcom/commsource/beautyplus/f0/e1;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/e1;->c0:Lcom/commsource/camera/xcamera/widget/CameraSwitchButton;
@@ -2474,7 +2215,6 @@
 
     goto :goto_2
 
-    .line 30
     :cond_5
     iget-object v1, p0, Lcom/commsource/beautyplus/setting/SettingActivity;->R:Lcom/commsource/beautyplus/f0/e1;
 
@@ -2482,7 +2222,6 @@
 
     invoke-virtual {v1, v2}, Landroid/widget/LinearLayout;->setVisibility(I)V
 
-    .line 31
     :goto_2
     invoke-static {}, Lcom/commsource/util/x;->C()Z
 
@@ -2490,14 +2229,12 @@
 
     if-eqz v1, :cond_6
 
-    .line 32
     iget-object v1, p0, Lcom/commsource/beautyplus/setting/SettingActivity;->R:Lcom/commsource/beautyplus/f0/e1;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/e1;->M:Landroid/widget/LinearLayout;
 
     invoke-virtual {v1, v3}, Landroid/widget/LinearLayout;->setVisibility(I)V
 
-    .line 33
     iget-object v1, p0, Lcom/commsource/beautyplus/setting/SettingActivity;->R:Lcom/commsource/beautyplus/f0/e1;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/e1;->k0:Landroid/widget/TextView;
@@ -2508,7 +2245,6 @@
 
     invoke-virtual {v1, v4}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 34
     :cond_6
     iget-object v1, p0, Lcom/commsource/beautyplus/setting/SettingActivity;->R:Lcom/commsource/beautyplus/f0/e1;
 
@@ -2530,7 +2266,6 @@
     :goto_3
     invoke-virtual {v1, v4}, Landroid/widget/TextView;->setVisibility(I)V
 
-    .line 35
     iget-object v1, p0, Lcom/commsource/beautyplus/setting/SettingActivity;->R:Lcom/commsource/beautyplus/f0/e1;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/e1;->L:Landroid/view/View;
@@ -2551,34 +2286,24 @@
     :goto_4
     invoke-virtual {v1, v4}, Landroid/view/View;->setVisibility(I)V
 
-    .line 36
     invoke-direct {p0}, Lcom/commsource/beautyplus/setting/SettingActivity;->T0()V
 
-    .line 37
     invoke-direct {p0}, Lcom/commsource/beautyplus/setting/SettingActivity;->Q0()V
 
-    .line 38
     invoke-direct {p0}, Lcom/commsource/beautyplus/setting/SettingActivity;->N0()V
 
-    .line 39
     invoke-direct {p0}, Lcom/commsource/beautyplus/setting/SettingActivity;->U0()V
 
-    .line 40
     invoke-direct {p0}, Lcom/commsource/beautyplus/setting/SettingActivity;->M0()V
 
-    .line 41
     invoke-direct {p0}, Lcom/commsource/beautyplus/setting/SettingActivity;->O0()V
 
-    .line 42
     invoke-direct {p0}, Lcom/commsource/beautyplus/setting/SettingActivity;->S0()V
 
-    .line 43
     invoke-direct {p0}, Lcom/commsource/beautyplus/setting/SettingActivity;->P0()V
 
-    .line 44
     invoke-direct {p0}, Lcom/commsource/beautyplus/setting/SettingActivity;->R0()V
 
-    .line 45
     iget-object v1, p0, Lcom/commsource/beautyplus/setting/SettingActivity;->R:Lcom/commsource/beautyplus/f0/e1;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/e1;->D0:Landroid/widget/TextView;
@@ -2611,14 +2336,12 @@
 
     invoke-virtual {v1, v3}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 46
     iget-object v1, p0, Lcom/commsource/beautyplus/setting/SettingActivity;->R:Lcom/commsource/beautyplus/f0/e1;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/e1;->F0:Landroid/widget/TextView;
 
     invoke-virtual {v1, v2}, Landroid/widget/TextView;->setVisibility(I)V
 
-    .line 47
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2631,19 +2354,16 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/beautyplus/BaseActivity;->q0()V
 
     sget v1, Lcom/res/provider/ResSTRING;->purchase_restore_failed:I
 
-    .line 2
     invoke-static {v1}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
 
     move-result-object v1
 
     sget v2, Lcom/res/provider/ResSTRING;->solve_now:I
 
-    .line 3
     invoke-static {v2}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
 
     move-result-object v2
@@ -2654,10 +2374,8 @@
 
     const/4 v4, 0x1
 
-    .line 4
     invoke-static {v1, v2, v3, v4}, Lcom/commsource/widget/dialog/s0/t;->p0(Ljava/lang/String;Ljava/lang/String;Lcom/commsource/widget/dialog/s0/y;Z)V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2670,7 +2388,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Landroid/app/Activity;->getIntent()Landroid/content/Intent;
 
     move-result-object v1
@@ -2689,7 +2406,6 @@
 
     if-eqz v1, :cond_1
 
-    .line 2
     :cond_0
     new-instance v1, Landroid/content/Intent;
 
@@ -2697,14 +2413,11 @@
 
     const/4 v2, -0x1
 
-    .line 3
     invoke-virtual {p0, v2, v1}, Landroid/app/Activity;->setResult(ILandroid/content/Intent;)V
 
-    .line 4
     :cond_1
     invoke-super {p0}, Lcom/commsource/beautyplus/BaseActivity;->finish()V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2725,7 +2438,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v0, Landroid/content/Intent;
 
     const-class v1, Lcom/commsource/beautyplus/setting/camerasetting/ImageQualitySettingActivity;
@@ -2734,10 +2446,8 @@
 
     const/16 v1, 0x2766
 
-    .line 2
     invoke-virtual {p0, v0, v1}, Landroidx/fragment/app/FragmentActivity;->startActivityForResult(Landroid/content/Intent;I)V
 
-    .line 3
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2750,12 +2460,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/meitu/library/hwanalytics/spm/e/a;
 
     invoke-direct {v1}, Lcom/meitu/library/hwanalytics/spm/e/a;-><init>()V
 
-    .line 2
     const-class v2, Lcom/commsource/beautyplus/setting/SettingActivity;
 
     invoke-virtual {v2}, Ljava/lang/Class;->getSimpleName()Ljava/lang/String;
@@ -2766,13 +2474,10 @@
 
     const-string v2, "1011"
 
-    .line 3
     invoke-virtual {v1, v2}, Lcom/meitu/library/hwanalytics/spm/e/a;->r(Ljava/lang/String;)V
 
-    .line 4
     invoke-virtual {v1, p0}, Lcom/meitu/library/hwanalytics/spm/e/a;->t(Ljava/lang/Object;)V
 
-    .line 5
     sget-object v2, Lcom/meitu/library/hwanalytics/spm/SPMManager;->h:Lcom/meitu/library/hwanalytics/spm/SPMManager$a;
 
     invoke-virtual {v2}, Lcom/meitu/library/hwanalytics/spm/SPMManager$a;->a()Lcom/meitu/library/hwanalytics/spm/SPMManager;
@@ -2781,7 +2486,6 @@
 
     invoke-virtual {v2, v1}, Lcom/meitu/library/hwanalytics/spm/SPMManager;->p(Lcom/meitu/library/hwanalytics/spm/e/a;)V
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2802,10 +2506,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0, p0}, Lcom/commsource/beautyplus/setting/SettingActivity;->P1(Landroid/content/Context;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2822,28 +2524,24 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0, p1, p2, p3}, Landroidx/fragment/app/FragmentActivity;->onActivityResult(IILandroid/content/Intent;)V
 
     const/4 v1, 0x1
 
     if-ne p1, v1, :cond_1
 
-    .line 2
     sget v2, Landroid/os/Build$VERSION;->SDK_INT:I
 
     const/16 v3, 0x17
 
     if-lt v2, v3, :cond_1
 
-    .line 3
     invoke-static {p0}, Landroid/provider/Settings;->canDrawOverlays(Landroid/content/Context;)Z
 
     move-result v2
 
     if-eqz v2, :cond_0
 
-    .line 4
     new-instance v2, Landroid/content/Intent;
 
     const-class v3, Lcom/commsource/beautyplus/setting/test/TestFuncFloatingWinService;
@@ -2852,10 +2550,8 @@
 
     invoke-virtual {p0, v2}, Landroid/app/Activity;->startService(Landroid/content/Intent;)Landroid/content/ComponentName;
 
-    .line 5
     invoke-static {p0}, Lcom/meitu/autotest/kotrace/runtime/Kotrace;->showWidget(Landroid/app/Activity;)V
 
-    .line 6
     invoke-static {v1}, Lf/d/i/e;->Z3(Z)V
 
     goto :goto_0
@@ -2863,10 +2559,8 @@
     :cond_0
     const-string/jumbo v1, "\u6388\u6743\u5931\u8d25\uff0c\u65e0\u6cd5\u5f00\u542f\u6d4b\u8bd5\u529f\u80fd\u5165\u53e3"
 
-    .line 7
     invoke-static {v1}, Lf/k/c/c/f;->j(Ljava/lang/CharSequence;)V
 
-    .line 8
     iget-object v1, p0, Lcom/commsource/beautyplus/setting/SettingActivity;->R:Lcom/commsource/beautyplus/f0/e1;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/e1;->i0:Lcom/commsource/camera/xcamera/widget/CameraSwitchButton;
@@ -2875,15 +2569,12 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/camera/xcamera/widget/CameraSwitchButton;->j(Z)V
 
-    .line 9
     invoke-static {v2}, Lf/d/i/e;->Z3(Z)V
 
-    .line 10
     :cond_1
     :goto_0
     invoke-static {p0, p1, p2, p3}, Lcom/meitu/autotest/kotrace/runtime/Kotrace;->onWidgetPermissionResult(Landroid/app/Activity;IILandroid/content/Intent;)V
 
-    .line 11
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2896,19 +2587,16 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/commsource/util/common/k;->a()Z
 
     move-result v1
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 3
     :cond_0
     invoke-virtual {p1}, Landroid/view/View;->getId()I
 
@@ -2921,10 +2609,8 @@
     :sswitch_0
     const-string p1, "home_set_about"
 
-    .line 4
     invoke-static {p1}, Lcom/commsource/statistics/i;->p(Ljava/lang/String;)V
 
-    .line 5
     new-instance p1, Landroid/content/Intent;
 
     const-class v1, Lcom/commsource/beautyplus/setting/about/AboutActivity;
@@ -2935,7 +2621,6 @@
 
     goto/16 :goto_0
 
-    .line 6
     :sswitch_1
     invoke-static {}, Lf/d/i/o;->o0()Z
 
@@ -2945,13 +2630,10 @@
 
     const-string p1, "home_set_purchase"
 
-    .line 7
     invoke-static {p1}, Lcom/commsource/statistics/i;->p(Ljava/lang/String;)V
 
-    .line 8
     invoke-virtual {p0}, Lcom/commsource/beautyplus/BaseActivity;->I0()V
 
-    .line 9
     iget-object p1, p0, Lcom/commsource/beautyplus/setting/SettingActivity;->N:Lcom/commsource/beautyplus/setting/y$a;
 
     invoke-interface {p1}, Lcom/commsource/beautyplus/setting/y$a;->e()V
@@ -2961,7 +2643,6 @@
     :sswitch_2
     const-string/jumbo p1, "setting"
 
-    .line 10
     invoke-static {p0, p1}, Lcom/commsource/util/w0;->p(Landroid/app/Activity;Ljava/lang/String;)V
 
     goto/16 :goto_0
@@ -2969,10 +2650,8 @@
     :sswitch_3
     const-string p1, "home_set_evaluate"
 
-    .line 11
     invoke-static {p1}, Lcom/commsource/statistics/i;->p(Ljava/lang/String;)V
 
-    .line 12
     :try_start_0
     new-instance p1, Landroid/content/Intent;
 
@@ -2994,7 +2673,6 @@
 
     const/4 p1, 0x0
 
-    .line 13
     invoke-static {p0, p1}, Lf/d/i/m;->Y(Landroid/content/Context;Z)V
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
@@ -3004,17 +2682,14 @@
     :catch_0
     move-exception p1
 
-    .line 14
     invoke-static {p1}, Lcom/meitu/library/util/Debug/Debug;->a0(Ljava/lang/Throwable;)V
 
     sget p1, Lcom/res/provider/ResSTRING;->open_failed:I
 
-    .line 15
     invoke-static {p1}, Lf/k/c/c/f;->w(I)V
 
     goto :goto_0
 
-    .line 16
     :sswitch_4
     new-instance p1, Landroid/content/Intent;
 
@@ -3022,12 +2697,10 @@
 
     invoke-direct {p1, p0, v1}, Landroid/content/Intent;-><init>(Landroid/content/Context;Ljava/lang/Class;)V
 
-    .line 17
     invoke-virtual {p0, p1}, Landroid/app/Activity;->startActivity(Landroid/content/Intent;)V
 
     goto :goto_0
 
-    .line 18
     :sswitch_5
     invoke-static {}, Lcom/commsource/util/common/k;->a()Z
 
@@ -3035,7 +2708,6 @@
 
     if-eqz p1, :cond_1
 
-    .line 19
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -3043,21 +2715,17 @@
     :cond_1
     const-string p1, "home_set_suggestion"
 
-    .line 20
     invoke-static {p1}, Lcom/commsource/statistics/i;->p(Ljava/lang/String;)V
 
-    .line 21
     invoke-static {p0}, Lcom/commsource/util/w0;->v(Landroid/content/Context;)V
 
     goto :goto_0
 
-    .line 22
     :sswitch_6
     invoke-direct {p0}, Lcom/commsource/beautyplus/setting/SettingActivity;->K1()V
 
     goto :goto_0
 
-    .line 23
     :sswitch_7
     iget-object p1, p0, Lcom/commsource/beautyplus/setting/SettingActivity;->O:Lcom/commsource/beautyplus/setting/followus/FollowUsPresenter;
 
@@ -3065,7 +2733,6 @@
 
     goto :goto_0
 
-    .line 24
     :sswitch_8
     iget-object p1, p0, Lcom/commsource/beautyplus/setting/SettingActivity;->O:Lcom/commsource/beautyplus/setting/followus/FollowUsPresenter;
 
@@ -3076,10 +2743,8 @@
     :sswitch_9
     const-string p1, "home_set_ins"
 
-    .line 25
     invoke-static {p1}, Lcom/commsource/statistics/i;->p(Ljava/lang/String;)V
 
-    .line 26
     iget-object p1, p0, Lcom/commsource/beautyplus/setting/SettingActivity;->O:Lcom/commsource/beautyplus/setting/followus/FollowUsPresenter;
 
     invoke-virtual {p1}, Lcom/commsource/beautyplus/setting/followus/FollowUsPresenter;->j()V
@@ -3089,23 +2754,19 @@
     :sswitch_a
     const-string p1, "home_set_fb"
 
-    .line 27
     invoke-static {p1}, Lcom/commsource/statistics/i;->p(Ljava/lang/String;)V
 
-    .line 28
     iget-object p1, p0, Lcom/commsource/beautyplus/setting/SettingActivity;->O:Lcom/commsource/beautyplus/setting/followus/FollowUsPresenter;
 
     invoke-virtual {p1}, Lcom/commsource/beautyplus/setting/followus/FollowUsPresenter;->d()V
 
     goto :goto_0
 
-    .line 29
     :sswitch_b
     iget-object p1, p0, Lcom/commsource/beautyplus/setting/SettingActivity;->N:Lcom/commsource/beautyplus/setting/y$a;
 
     invoke-interface {p1}, Lcom/commsource/beautyplus/setting/y$a;->i()V
 
-    .line 30
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -3135,12 +2796,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0, p1}, Lcom/commsource/beautyplus/BaseActivity;->onCreate(Landroid/os/Bundle;)V
 
     sget p1, Lcom/res/provider/ResLAYOUT;->app_setting:I
 
-    .line 2
     invoke-static {p0, p1}, Landroidx/databinding/DataBindingUtil;->setContentView(Landroid/app/Activity;I)Landroidx/databinding/ViewDataBinding;
 
     move-result-object p1
@@ -3149,27 +2808,22 @@
 
     iput-object p1, p0, Lcom/commsource/beautyplus/setting/SettingActivity;->R:Lcom/commsource/beautyplus/f0/e1;
 
-    .line 3
     new-instance p1, Lcom/commsource/beautyplus/setting/z;
 
     invoke-direct {p1, p0, p0}, Lcom/commsource/beautyplus/setting/z;-><init>(Landroid/content/Context;Lcom/commsource/beautyplus/setting/y$b;)V
 
     iput-object p1, p0, Lcom/commsource/beautyplus/setting/SettingActivity;->N:Lcom/commsource/beautyplus/setting/y$a;
 
-    .line 4
     new-instance p1, Lcom/commsource/beautyplus/setting/followus/FollowUsPresenter;
 
     invoke-direct {p1, p0, p0}, Lcom/commsource/beautyplus/setting/followus/FollowUsPresenter;-><init>(Landroid/content/Context;Lcom/commsource/beautyplus/setting/followus/a$b;)V
 
     iput-object p1, p0, Lcom/commsource/beautyplus/setting/SettingActivity;->O:Lcom/commsource/beautyplus/setting/followus/FollowUsPresenter;
 
-    .line 5
     invoke-virtual {p0}, Lcom/commsource/beautyplus/setting/SettingActivity;->b1()V
 
-    .line 6
     invoke-direct {p0}, Lcom/commsource/beautyplus/setting/SettingActivity;->Z0()V
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -3182,20 +2836,16 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0}, Landroidx/appcompat/app/AppCompatActivity;->onDestroy()V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/beautyplus/setting/SettingActivity;->N:Lcom/commsource/beautyplus/setting/y$a;
 
     invoke-interface {v1}, Lcom/commsource/beautyplus/setting/y$a;->b()V
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/beautyplus/setting/SettingActivity;->N:Lcom/commsource/beautyplus/setting/y$a;
 
     invoke-interface {v1}, Lcom/commsource/beautyplus/setting/y$a;->onDestroy()V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -3212,13 +2862,11 @@
 
     if-ne p1, v0, :cond_0
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/beautyplus/setting/SettingActivity;->W0()V
 
     :cond_0
     const/4 p1, 0x0
 
-    .line 2
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
@@ -3231,15 +2879,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0}, Lcom/commsource/beautyplus/BaseActivity;->onPause()V
 
     const-string v1, "profilepage"
 
-    .line 2
     invoke-static {v1}, Lcom/commsource/statistics/i;->D(Ljava/lang/String;)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -3252,10 +2897,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0}, Lcom/commsource/beautyplus/BaseActivity;->onResume()V
 
-    .line 2
     invoke-static {}, Lcom/meitu/template/feedback/util/e;->N()Z
 
     move-result v1
@@ -3276,21 +2919,18 @@
 
     if-ne v1, v3, :cond_0
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/beautyplus/setting/SettingActivity;->R:Lcom/commsource/beautyplus/f0/e1;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/e1;->Q:Landroid/widget/LinearLayout;
 
     invoke-virtual {v1, v2}, Landroid/widget/LinearLayout;->setVisibility(I)V
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/beautyplus/setting/SettingActivity;->R:Lcom/commsource/beautyplus/f0/e1;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/e1;->A0:Landroid/widget/TextView;
 
     invoke-virtual {v1, v2}, Landroid/widget/TextView;->setVisibility(I)V
 
-    .line 5
     iget-object v1, p0, Lcom/commsource/beautyplus/setting/SettingActivity;->R:Lcom/commsource/beautyplus/f0/e1;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/e1;->Z:Lcom/commsource/camera/xcamera/widget/CameraSwitchButton;
@@ -3301,7 +2941,6 @@
 
     invoke-virtual {v1, v3}, Lcom/commsource/camera/xcamera/widget/CameraSwitchButton;->j(Z)V
 
-    .line 6
     iget-object v1, p0, Lcom/commsource/beautyplus/setting/SettingActivity;->R:Lcom/commsource/beautyplus/f0/e1;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/e1;->Z:Lcom/commsource/camera/xcamera/widget/CameraSwitchButton;
@@ -3312,7 +2951,6 @@
 
     invoke-virtual {v1, v3}, Lcom/commsource/camera/xcamera/widget/CameraSwitchButton;->setOnSwitchListener(Lcom/commsource/camera/xcamera/widget/CameraSwitchButton$c;)V
 
-    .line 7
     :cond_0
     invoke-static {}, Lcom/meitu/template/feedback/util/e;->M()Z
 
@@ -3320,14 +2958,12 @@
 
     if-eqz v1, :cond_1
 
-    .line 8
     iget-object v1, p0, Lcom/commsource/beautyplus/setting/SettingActivity;->R:Lcom/commsource/beautyplus/f0/e1;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/e1;->A0:Landroid/widget/TextView;
 
     invoke-virtual {v1, v2}, Landroid/widget/TextView;->setVisibility(I)V
 
-    .line 9
     :cond_1
     invoke-static {}, Lcom/commsource/util/x;->C()Z
 
@@ -3341,7 +2977,6 @@
 
     if-eqz v1, :cond_3
 
-    .line 10
     :cond_2
     iget-object v1, p0, Lcom/commsource/beautyplus/setting/SettingActivity;->R:Lcom/commsource/beautyplus/f0/e1;
 
@@ -3349,7 +2984,6 @@
 
     invoke-virtual {v1, v2}, Landroid/widget/TextView;->setVisibility(I)V
 
-    .line 11
     iget-object v1, p0, Lcom/commsource/beautyplus/setting/SettingActivity;->R:Lcom/commsource/beautyplus/f0/e1;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/e1;->X:Lcom/commsource/camera/xcamera/widget/CameraSwitchButton;
@@ -3360,19 +2994,16 @@
 
     invoke-virtual {v1, v3}, Lcom/commsource/camera/xcamera/widget/CameraSwitchButton;->j(Z)V
 
-    .line 12
     iget-object v1, p0, Lcom/commsource/beautyplus/setting/SettingActivity;->N:Lcom/commsource/beautyplus/setting/y$a;
 
     invoke-interface {v1}, Lcom/commsource/beautyplus/setting/y$a;->g()V
 
-    .line 13
     iget-object v1, p0, Lcom/commsource/beautyplus/setting/SettingActivity;->R:Lcom/commsource/beautyplus/f0/e1;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/e1;->P:Landroid/widget/LinearLayout;
 
     invoke-virtual {v1, v2}, Landroid/widget/LinearLayout;->setVisibility(I)V
 
-    .line 14
     iget-object v1, p0, Lcom/commsource/beautyplus/setting/SettingActivity;->R:Lcom/commsource/beautyplus/f0/e1;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/e1;->d0:Lcom/commsource/camera/xcamera/widget/CameraSwitchButton;
@@ -3383,7 +3014,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/camera/xcamera/widget/CameraSwitchButton;->j(Z)V
 
-    .line 15
     iget-object v1, p0, Lcom/commsource/beautyplus/setting/SettingActivity;->R:Lcom/commsource/beautyplus/f0/e1;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/e1;->d0:Lcom/commsource/camera/xcamera/widget/CameraSwitchButton;
@@ -3395,13 +3025,10 @@
     :cond_3
     const-string v1, "profilepage"
 
-    .line 16
     invoke-static {v1}, Lcom/commsource/statistics/i;->C(Ljava/lang/String;)V
 
-    .line 17
     invoke-direct {p0}, Lcom/commsource/beautyplus/setting/SettingActivity;->N1()V
 
-    .line 18
     iget-object v1, p0, Lcom/commsource/beautyplus/setting/SettingActivity;->R:Lcom/commsource/beautyplus/f0/e1;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/e1;->e0:Lcom/commsource/camera/xcamera/widget/CameraSwitchButton;
@@ -3412,7 +3039,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/camera/xcamera/widget/CameraSwitchButton;->j(Z)V
 
-    .line 19
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -3425,15 +3051,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/beautyplus/BaseActivity;->q0()V
 
     sget v1, Lcom/res/provider/ResSTRING;->web_net_error:I
 
-    .line 2
     invoke-static {v1}, Lf/k/c/c/f;->w(I)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -3456,10 +3079,8 @@
 
     const-string v1, "Consume Success"
 
-    .line 1
     invoke-static {v1}, Lf/k/c/c/f;->y(Ljava/lang/CharSequence;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -3496,7 +3117,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p1}, Lcom/commsource/push/bean/UpdateBean;->getTitle()Ljava/lang/String;
 
     move-result-object v1
@@ -3517,7 +3137,6 @@
 
     sget p1, Lcom/res/provider/ResSTRING;->update_push_cancle:I
 
-    .line 2
     invoke-virtual {p0, p1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
     move-result-object v5
@@ -3528,10 +3147,8 @@
 
     const/4 v8, 0x0
 
-    .line 3
     invoke-static/range {v1 .. v8}, Lcom/commsource/widget/dialog/s0/t;->v0(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lcom/commsource/widget/dialog/s0/y;Ljava/lang/String;Lcom/commsource/widget/dialog/s0/x;ZLcom/commsource/widget/dialog/s0/w;)V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -3552,15 +3169,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/beautyplus/BaseActivity;->q0()V
 
     sget v1, Lcom/res/provider/ResSTRING;->google_play_setup_failure:I
 
-    .line 2
     invoke-static {v1}, Lf/k/c/c/f;->w(I)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

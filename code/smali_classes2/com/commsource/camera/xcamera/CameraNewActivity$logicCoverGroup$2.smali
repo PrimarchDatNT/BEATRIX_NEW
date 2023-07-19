@@ -56,7 +56,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 2
     new-instance v7, Lcom/commsource/camera/xcamera/cover/CoverGroup;
 
     iget-object v2, p0, Lcom/commsource/camera/xcamera/CameraNewActivity$logicCoverGroup$2;->this$0:Lcom/commsource/camera/xcamera/CameraNewActivity;
@@ -75,20 +74,16 @@
 
     const/4 v1, 0x1
 
-    .line 3
     invoke-virtual {v7, v1}, Lcom/commsource/camera/xcamera/cover/CoverGroup;->setBackWeight(I)V
 
-    .line 4
     invoke-virtual {v7, v1}, Lcom/commsource/camera/xcamera/cover/CoverGroup;->setPhysicsWeight(I)V
 
-    .line 5
     iget-object v1, p0, Lcom/commsource/camera/xcamera/CameraNewActivity$logicCoverGroup$2;->this$0:Lcom/commsource/camera/xcamera/CameraNewActivity;
 
     invoke-virtual {v7, v1}, Lcom/commsource/camera/xcamera/cover/CoverGroup;->i(Landroidx/fragment/app/FragmentActivity;)Lcom/commsource/camera/xcamera/cover/CoverGroup$a;
 
     move-result-object v1
 
-    .line 6
     new-instance v2, Lcom/commsource/camera/xcamera/cover/tips/ArHelperCover;
 
     invoke-direct {v2}, Lcom/commsource/camera/xcamera/cover/tips/ArHelperCover;-><init>()V
@@ -97,7 +92,6 @@
 
     move-result-object v1
 
-    .line 7
     new-instance v2, Lcom/commsource/camera/xcamera/cover/tips/ArCorePaintCover;
 
     invoke-direct {v2}, Lcom/commsource/camera/xcamera/cover/tips/ArCorePaintCover;-><init>()V
@@ -106,7 +100,6 @@
 
     move-result-object v1
 
-    .line 8
     new-instance v2, Lcom/commsource/camera/xcamera/cover/tips/ArCoreTipsCover;
 
     invoke-direct {v2}, Lcom/commsource/camera/xcamera/cover/tips/ArCoreTipsCover;-><init>()V
@@ -115,7 +108,6 @@
 
     move-result-object v1
 
-    .line 9
     new-instance v2, Lcom/commsource/camera/xcamera/cover/tips/FaceDetectTipsCover;
 
     invoke-direct {v2}, Lcom/commsource/camera/xcamera/cover/tips/FaceDetectTipsCover;-><init>()V
@@ -124,21 +116,18 @@
 
     move-result-object v1
 
-    .line 10
     invoke-static {}, Lcom/commsource/util/x;->C()Z
 
     move-result v2
 
     if-eqz v2, :cond_0
 
-    .line 11
     new-instance v2, Lcom/commsource/camera/xcamera/cover/tips/TestTipsCover;
 
     invoke-direct {v2}, Lcom/commsource/camera/xcamera/cover/tips/TestTipsCover;-><init>()V
 
     invoke-virtual {v1, v2}, Lcom/commsource/camera/xcamera/cover/CoverGroup$a;->a(Lcom/commsource/camera/xcamera/cover/g;)Lcom/commsource/camera/xcamera/cover/CoverGroup$a;
 
-    .line 12
     :cond_0
     new-instance v2, Lcom/commsource/camera/xcamera/cover/rightFunction/RightFunctionCover;
 
@@ -148,7 +137,6 @@
 
     move-result-object v1
 
-    .line 13
     new-instance v2, Lcom/commsource/camera/xcamera/cover/TopBarCover;
 
     invoke-direct {v2}, Lcom/commsource/camera/xcamera/cover/TopBarCover;-><init>()V
@@ -157,7 +145,6 @@
 
     move-result-object v1
 
-    .line 14
     new-instance v2, Lcom/commsource/camera/xcamera/cover/tips/TipsCover;
 
     invoke-direct {v2}, Lcom/commsource/camera/xcamera/cover/tips/TipsCover;-><init>()V
@@ -166,7 +153,6 @@
 
     move-result-object v1
 
-    .line 15
     new-instance v2, Lcom/commsource/camera/xcamera/cover/SettingCover;
 
     invoke-direct {v2}, Lcom/commsource/camera/xcamera/cover/SettingCover;-><init>()V
@@ -175,7 +161,6 @@
 
     move-result-object v1
 
-    .line 16
     new-instance v2, Lcom/commsource/camera/xcamera/cover/montage/MontageMaterialTopBarCover;
 
     invoke-direct {v2}, Lcom/commsource/camera/xcamera/cover/montage/MontageMaterialTopBarCover;-><init>()V
@@ -184,7 +169,6 @@
 
     move-result-object v1
 
-    .line 17
     new-instance v2, Lcom/commsource/camera/xcamera/cover/CameraVideoRecordTopBarCover;
 
     invoke-direct {v2}, Lcom/commsource/camera/xcamera/cover/CameraVideoRecordTopBarCover;-><init>()V
@@ -193,21 +177,18 @@
 
     move-result-object v1
 
-    .line 18
     invoke-static {}, Lf/d/k/k;->e()Z
 
     move-result v2
 
     if-nez v2, :cond_1
 
-    .line 19
     new-instance v2, Lcom/commsource/camera/xcamera/cover/tips/VideoNoSupportCover;
 
     invoke-direct {v2}, Lcom/commsource/camera/xcamera/cover/tips/VideoNoSupportCover;-><init>()V
 
     invoke-virtual {v1, v2}, Lcom/commsource/camera/xcamera/cover/CoverGroup$a;->a(Lcom/commsource/camera/xcamera/cover/g;)Lcom/commsource/camera/xcamera/cover/CoverGroup$a;
 
-    .line 20
     :cond_1
     new-instance v2, Lcom/commsource/camera/xcamera/cover/bottomFunction/BottomFunctionCover;
 
@@ -217,7 +198,6 @@
 
     move-result-object v1
 
-    .line 21
     new-instance v2, Lcom/commsource/camera/xcamera/cover/montage/CreateMontageCover;
 
     invoke-direct {v2}, Lcom/commsource/camera/xcamera/cover/montage/CreateMontageCover;-><init>()V
@@ -226,7 +206,6 @@
 
     move-result-object v1
 
-    .line 22
     new-instance v2, Lcom/commsource/camera/xcamera/cover/CameraCaptureCover;
 
     invoke-direct {v2}, Lcom/commsource/camera/xcamera/cover/CameraCaptureCover;-><init>()V
@@ -235,7 +214,6 @@
 
     move-result-object v1
 
-    .line 23
     new-instance v2, Lcom/commsource/camera/xcamera/cover/CameraVideoCaptureCover;
 
     invoke-direct {v2}, Lcom/commsource/camera/xcamera/cover/CameraVideoCaptureCover;-><init>()V
@@ -244,7 +222,6 @@
 
     move-result-object v1
 
-    .line 24
     new-instance v2, Lcom/commsource/camera/xcamera/cover/window/H5Cover;
 
     invoke-direct {v2}, Lcom/commsource/camera/xcamera/cover/window/H5Cover;-><init>()V
@@ -253,7 +230,6 @@
 
     move-result-object v1
 
-    .line 25
     new-instance v2, Lcom/commsource/camera/xcamera/cover/window/MontagePreviewCover;
 
     invoke-direct {v2}, Lcom/commsource/camera/xcamera/cover/window/MontagePreviewCover;-><init>()V
@@ -262,7 +238,6 @@
 
     move-result-object v1
 
-    .line 26
     new-instance v2, Lcom/commsource/camera/xcamera/cover/window/ArTextEditCover;
 
     invoke-direct {v2}, Lcom/commsource/camera/xcamera/cover/window/ArTextEditCover;-><init>()V
@@ -271,7 +246,6 @@
 
     move-result-object v1
 
-    .line 27
     new-instance v2, Lcom/commsource/camera/xcamera/cover/window/ArPreviewCover;
 
     invoke-direct {v2}, Lcom/commsource/camera/xcamera/cover/window/ArPreviewCover;-><init>()V
@@ -280,7 +254,6 @@
 
     move-result-object v1
 
-    .line 28
     new-instance v2, Lcom/commsource/camera/xcamera/cover/window/ArGiphyDeleteCover;
 
     invoke-direct {v2}, Lcom/commsource/camera/xcamera/cover/window/ArGiphyDeleteCover;-><init>()V
@@ -289,7 +262,6 @@
 
     move-result-object v1
 
-    .line 29
     new-instance v2, Lcom/commsource/camera/xcamera/cover/window/TimeCountDownCover;
 
     invoke-direct {v2}, Lcom/commsource/camera/xcamera/cover/window/TimeCountDownCover;-><init>()V
@@ -298,7 +270,6 @@
 
     move-result-object v1
 
-    .line 30
     new-instance v2, Lcom/commsource/camera/xcamera/cover/montage/MontageLoadingCover;
 
     invoke-direct {v2}, Lcom/commsource/camera/xcamera/cover/montage/MontageLoadingCover;-><init>()V
@@ -307,7 +278,6 @@
 
     move-result-object v1
 
-    .line 31
     new-instance v2, Lcom/commsource/camera/xcamera/cover/transaction/ArTransaction;
 
     invoke-direct {v2}, Lcom/commsource/camera/xcamera/cover/transaction/ArTransaction;-><init>()V
@@ -316,7 +286,6 @@
 
     move-result-object v1
 
-    .line 32
     new-instance v2, Lcom/commsource/camera/xcamera/cover/transaction/LookTransaction;
 
     invoke-direct {v2}, Lcom/commsource/camera/xcamera/cover/transaction/LookTransaction;-><init>()V
@@ -325,7 +294,6 @@
 
     move-result-object v1
 
-    .line 33
     new-instance v2, Lcom/commsource/camera/xcamera/cover/transaction/BeautyTransaction;
 
     invoke-direct {v2}, Lcom/commsource/camera/xcamera/cover/transaction/BeautyTransaction;-><init>()V
@@ -334,7 +302,6 @@
 
     move-result-object v1
 
-    .line 34
     new-instance v2, Lcom/commsource/camera/xcamera/cover/transaction/MakeupTransaction;
 
     invoke-direct {v2}, Lcom/commsource/camera/xcamera/cover/transaction/MakeupTransaction;-><init>()V
@@ -343,7 +310,6 @@
 
     move-result-object v1
 
-    .line 35
     new-instance v2, Lcom/commsource/camera/xcamera/cover/transaction/FilterTransaction;
 
     invoke-direct {v2}, Lcom/commsource/camera/xcamera/cover/transaction/FilterTransaction;-><init>()V
@@ -352,7 +318,6 @@
 
     move-result-object v1
 
-    .line 36
     new-instance v2, Lcom/commsource/camera/xcamera/cover/transaction/CameraTransaction;
 
     invoke-direct {v2}, Lcom/commsource/camera/xcamera/cover/transaction/CameraTransaction;-><init>()V
@@ -361,10 +326,8 @@
 
     move-result-object v1
 
-    .line 37
     invoke-virtual {v1}, Lcom/commsource/camera/xcamera/cover/CoverGroup$a;->c()V
 
-    .line 38
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v7
@@ -377,7 +340,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/CameraNewActivity$logicCoverGroup$2;->invoke()Lcom/commsource/camera/xcamera/cover/CoverGroup;
 
     move-result-object v1

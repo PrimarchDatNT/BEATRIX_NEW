@@ -20,7 +20,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -29,7 +28,6 @@
 .method public synthetic constructor <init>(Lcotlin/jvm/internal/u;)V
     .locals 0
 
-    .line 2
     invoke-direct {p0}, Lkshark/internal/i/b$a;-><init>()V
 
     return-void
@@ -38,7 +36,6 @@
 .method public static final synthetic a(Lkshark/internal/i/b$a;[BI[BIIIILkshark/internal/i/a;)I
     .locals 0
 
-    .line 1
     invoke-direct/range {p0 .. p8}, Lkshark/internal/i/b$a;->f([BI[BIIIILkshark/internal/i/a;)I
 
     move-result p0
@@ -49,7 +46,6 @@
 .method public static final synthetic b(Lkshark/internal/i/b$a;[BI[BIIIILkshark/internal/i/a;)I
     .locals 0
 
-    .line 1
     invoke-direct/range {p0 .. p8}, Lkshark/internal/i/b$a;->g([BI[BIIIILkshark/internal/i/a;)I
 
     move-result p0
@@ -70,7 +66,6 @@
 
     move/from16 v9, p5
 
-    .line 1
     invoke-static {}, Lkshark/internal/i/b;->a()Z
 
     move-result v1
@@ -79,7 +74,6 @@
 
     add-int/lit8 v0, v0, 0x1
 
-    .line 2
     :cond_0
     new-array v10, v9, [B
 
@@ -99,7 +93,6 @@
 
     add-int v2, v0, v1
 
-    .line 3
     aget-byte v2, v6, v2
 
     aput-byte v2, v10, v1
@@ -108,7 +101,6 @@
 
     goto :goto_1
 
-    .line 4
     :cond_1
     invoke-static {}, Lkshark/internal/i/b;->a()Z
 
@@ -139,7 +131,6 @@
 
     move v5, v15
 
-    .line 5
     invoke-interface/range {v0 .. v5}, Lkshark/internal/i/a;->a(I[BI[BI)I
 
     move-result v0
@@ -155,7 +146,6 @@
 
     goto :goto_2
 
-    .line 6
     :cond_3
     invoke-static {}, Lkshark/internal/i/b;->a()Z
 
@@ -177,7 +167,6 @@
 
     mul-int v1, v1, v9
 
-    .line 7
     invoke-static {v6, v0, v6, v2, v1}, Ljava/lang/System;->arraycopy(Ljava/lang/Object;ILjava/lang/Object;II)V
 
     goto :goto_6
@@ -202,7 +191,6 @@
 
     add-int v5, v1, v3
 
-    .line 8
     aget-byte v5, v6, v5
 
     aput-byte v5, v6, v4
@@ -221,7 +209,6 @@
 
     add-int v4, v0, v2
 
-    .line 9
     aget-byte v4, v6, v4
 
     aput-byte v4, v6, v3
@@ -246,7 +233,6 @@
 
     add-int v4, v0, v2
 
-    .line 10
     aget-byte v4, v6, v4
 
     aput-byte v4, v6, v3
@@ -264,7 +250,6 @@
 
     add-int v0, v13, v12
 
-    .line 11
     aget-byte v1, v10, v12
 
     aput-byte v1, v6, v0
@@ -293,7 +278,6 @@
 
     return-void
 
-    .line 1
     :cond_0
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -321,11 +305,9 @@
 
     throw p1
 
-    .line 2
     :cond_1
     new-instance v0, Ljava/lang/ArrayIndexOutOfBoundsException;
 
-    .line 3
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -334,7 +316,6 @@
 
     invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 4
     invoke-virtual {v1, p2}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
 
     const-string p2, ", end="
@@ -353,7 +334,6 @@
 
     move-result-object p1
 
-    .line 5
     invoke-direct {v0, p1}, Ljava/lang/ArrayIndexOutOfBoundsException;-><init>(Ljava/lang/String;)V
 
     throw v0
@@ -362,7 +342,6 @@
 .method private final e([BIIILkshark/internal/i/a;)I
     .locals 8
 
-    .line 1
     invoke-static {}, Lkshark/internal/i/b;->a()Z
 
     move-result v0
@@ -388,7 +367,6 @@
 
     move v6, p2
 
-    .line 2
     invoke-interface/range {v1 .. v6}, Lkshark/internal/i/a;->a(I[BI[BI)I
 
     move-result v1
@@ -412,7 +390,6 @@
 
     move-object v6, p1
 
-    .line 3
     invoke-interface/range {v2 .. v7}, Lkshark/internal/i/a;->a(I[BI[BI)I
 
     move-result v1
@@ -423,7 +400,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_1
     invoke-direct {p0, p1, p2, v0, p4}, Lkshark/internal/i/b$a;->i([BIII)V
 
@@ -445,7 +421,6 @@
 
     move-object v5, p1
 
-    .line 5
     invoke-interface/range {v1 .. v6}, Lkshark/internal/i/a;->a(I[BI[BI)I
 
     move-result v1
@@ -470,7 +445,6 @@
 
     move/from16 v1, p6
 
-    .line 1
     invoke-static {}, Lkshark/internal/i/b;->a()Z
 
     move-result v2
@@ -491,7 +465,6 @@
 
     move v8, v9
 
-    .line 2
     invoke-interface/range {v3 .. v8}, Lkshark/internal/i/a;->a(I[BI[BI)I
 
     move-result v3
@@ -521,7 +494,6 @@
 
     move-object/from16 v14, p3
 
-    .line 3
     invoke-interface/range {v10 .. v15}, Lkshark/internal/i/a;->a(I[BI[BI)I
 
     move-result v6
@@ -582,7 +554,6 @@
 
     move-object/from16 v14, p3
 
-    .line 4
     invoke-interface/range {v10 .. v15}, Lkshark/internal/i/a;->a(I[BI[BI)I
 
     move-result v6
@@ -621,7 +592,6 @@
 
     move v5, v2
 
-    .line 5
     :goto_4
     invoke-static {}, Lkshark/internal/i/b;->a()Z
 
@@ -655,7 +625,6 @@
 
     move-object/from16 v10, p3
 
-    .line 6
     invoke-interface/range {v6 .. v11}, Lkshark/internal/i/a;->a(I[BI[BI)I
 
     move-result v1
@@ -673,7 +642,6 @@
 
     goto :goto_5
 
-    .line 7
     :cond_9
     invoke-static {}, Lkshark/internal/i/b;->a()Z
 
@@ -689,7 +657,6 @@
 
     move/from16 v1, p6
 
-    .line 1
     invoke-static {}, Lkshark/internal/i/b;->a()Z
 
     move-result v2
@@ -710,7 +677,6 @@
 
     move v8, v9
 
-    .line 2
     invoke-interface/range {v3 .. v8}, Lkshark/internal/i/a;->a(I[BI[BI)I
 
     move-result v3
@@ -740,7 +706,6 @@
 
     move-object/from16 v14, p3
 
-    .line 3
     invoke-interface/range {v10 .. v15}, Lkshark/internal/i/a;->a(I[BI[BI)I
 
     move-result v6
@@ -801,7 +766,6 @@
 
     move-object/from16 v14, p3
 
-    .line 4
     invoke-interface/range {v10 .. v15}, Lkshark/internal/i/a;->a(I[BI[BI)I
 
     move-result v6
@@ -838,7 +802,6 @@
 
     add-int/2addr v1, v3
 
-    .line 5
     :goto_4
     invoke-static {}, Lkshark/internal/i/b;->a()Z
 
@@ -872,7 +835,6 @@
 
     move-object/from16 v9, p3
 
-    .line 6
     invoke-interface/range {v5 .. v10}, Lkshark/internal/i/a;->a(I[BI[BI)I
 
     move-result v3
@@ -890,7 +852,6 @@
 
     goto :goto_5
 
-    .line 7
     :cond_9
     invoke-static {}, Lkshark/internal/i/b;->a()Z
 
@@ -902,14 +863,12 @@
 .method private final h(I)I
     .locals 2
 
-    .line 1
     invoke-static {}, Lkshark/internal/i/b;->a()Z
 
     move-result v0
 
     const/4 v0, 0x0
 
-    .line 2
     :goto_0
     invoke-static {}, Lkshark/internal/i/b;->b()I
 
@@ -950,17 +909,14 @@
 
     add-int v3, v0, v2
 
-    .line 1
     aget-byte v4, p1, v3
 
     add-int v5, v1, v2
 
-    .line 2
     aget-byte v6, p1, v5
 
     aput-byte v6, p1, v3
 
-    .line 3
     aput-byte v4, p1, v5
 
     add-int/lit8 v2, v2, 0x1
@@ -1009,7 +965,6 @@
 
     invoke-static {v11, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     array-length v0, v8
 
     div-int/2addr v0, v10
@@ -1024,7 +979,6 @@
 
     return-void
 
-    .line 2
     :cond_0
     invoke-static {}, Lkshark/internal/i/b;->b()I
 
@@ -1032,7 +986,6 @@
 
     if-ge v0, v1, :cond_1
 
-    .line 3
     invoke-direct/range {p0 .. p5}, Lkshark/internal/i/b$a;->e([BIIILkshark/internal/i/a;)I
 
     move-result v0
@@ -1051,12 +1004,10 @@
 
     move-object/from16 v6, p5
 
-    .line 4
     invoke-direct/range {v0 .. v6}, Lkshark/internal/i/b$a;->c([BIIIILkshark/internal/i/a;)V
 
     return-void
 
-    .line 5
     :cond_1
     new-instance v12, Lkshark/internal/i/b;
 
@@ -1064,7 +1015,6 @@
 
     invoke-direct {v12, v8, v11, v10, v1}, Lkshark/internal/i/b;-><init>([BLkshark/internal/i/a;ILcotlin/jvm/internal/u;)V
 
-    .line 6
     invoke-direct {v7, v0}, Lkshark/internal/i/b$a;->h(I)I
 
     move-result v13
@@ -1086,7 +1036,6 @@
 
     move-object/from16 v5, p5
 
-    .line 7
     invoke-direct/range {v0 .. v5}, Lkshark/internal/i/b$a;->e([BIIILkshark/internal/i/a;)I
 
     move-result v0
@@ -1117,16 +1066,13 @@
 
     move-object/from16 v6, p5
 
-    .line 8
     invoke-direct/range {v0 .. v6}, Lkshark/internal/i/b$a;->c([BIIIILkshark/internal/i/a;)V
 
     move/from16 v0, v16
 
-    .line 9
     :cond_4
     invoke-static {v12, v14, v0}, Lkshark/internal/i/b;->f(Lkshark/internal/i/b;II)V
 
-    .line 10
     invoke-static {v12}, Lkshark/internal/i/b;->d(Lkshark/internal/i/b;)V
 
     add-int/2addr v14, v0
@@ -1135,15 +1081,12 @@
 
     if-nez v15, :cond_2
 
-    .line 11
     invoke-static {}, Lkshark/internal/i/b;->a()Z
 
     move-result v0
 
-    .line 12
     invoke-static {v12}, Lkshark/internal/i/b;->e(Lkshark/internal/i/b;)V
 
-    .line 13
     invoke-static {}, Lkshark/internal/i/b;->a()Z
 
     move-result v0
@@ -1179,7 +1122,6 @@
 
     invoke-static {p3, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     array-length v0, p1
 
     div-int v4, v0, p2

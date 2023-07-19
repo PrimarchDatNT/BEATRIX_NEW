@@ -28,14 +28,12 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
     new-instance v0, Lcom/google/firebase/firestore/l$c;
 
     invoke-direct {v0}, Lcom/google/firebase/firestore/l$c;-><init>()V
 
     sput-object v0, Lcom/google/firebase/firestore/l;->a:Lcom/google/firebase/firestore/l$c;
 
-    .line 2
     new-instance v0, Lcom/google/firebase/firestore/l$e;
 
     invoke-direct {v0}, Lcom/google/firebase/firestore/l$e;-><init>()V
@@ -48,7 +46,6 @@
 .method constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -66,7 +63,6 @@
     .annotation build Lcom/google/firebase/n/a;
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/google/firebase/firestore/l$a;
 
     invoke-static {p0}, Ljava/util/Arrays;->asList([Ljava/lang/Object;)Ljava/util/List;
@@ -90,7 +86,6 @@
     .annotation build Lcom/google/firebase/n/a;
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/google/firebase/firestore/l$b;
 
     invoke-static {p0}, Ljava/util/Arrays;->asList([Ljava/lang/Object;)Ljava/util/List;
@@ -110,7 +105,6 @@
     .annotation build Lcom/google/firebase/n/a;
     .end annotation
 
-    .line 1
     sget-object v0, Lcom/google/firebase/firestore/l;->a:Lcom/google/firebase/firestore/l$c;
 
     return-object v0
@@ -124,7 +118,6 @@
     .annotation build Lcom/google/firebase/n/a;
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/google/firebase/firestore/l$d;
 
     invoke-static {p0, p1}, Ljava/lang/Double;->valueOf(D)Ljava/lang/Double;
@@ -144,7 +137,6 @@
     .annotation build Lcom/google/firebase/n/a;
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/google/firebase/firestore/l$d;
 
     invoke-static {p0, p1}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
@@ -164,7 +156,6 @@
     .annotation build Lcom/google/firebase/n/a;
     .end annotation
 
-    .line 1
     sget-object v0, Lcom/google/firebase/firestore/l;->b:Lcom/google/firebase/firestore/l$e;
 
     return-object v0

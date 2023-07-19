@@ -44,20 +44,16 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     iput-object p1, p0, Lcotlinx/coroutines/JobSupport$c;->a:Lcotlinx/coroutines/n2;
 
-    .line 2
     iput p2, p0, Lcotlinx/coroutines/JobSupport$c;->_isCompleting:I
 
-    .line 3
     iput-object p3, p0, Lcotlinx/coroutines/JobSupport$c;->_rootCause:Ljava/lang/Object;
 
     const/4 p1, 0x0
 
-    .line 4
     iput-object p1, p0, Lcotlinx/coroutines/JobSupport$c;->_exceptionsHolder:Ljava/lang/Object;
 
     return-void
@@ -74,7 +70,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/util/ArrayList;
 
     const/4 v1, 0x4
@@ -87,7 +82,6 @@
 .method private final c()Ljava/lang/Object;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcotlinx/coroutines/JobSupport$c;->_exceptionsHolder:Ljava/lang/Object;
 
     return-object v0
@@ -96,7 +90,6 @@
 .method private final k(Ljava/lang/Object;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcotlinx/coroutines/JobSupport$c;->_exceptionsHolder:Ljava/lang/Object;
 
     return-void
@@ -111,14 +104,12 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-virtual {p0}, Lcotlinx/coroutines/JobSupport$c;->d()Ljava/lang/Throwable;
 
     move-result-object v0
 
     if-nez v0, :cond_0
 
-    .line 2
     invoke-virtual {p0, p1}, Lcotlinx/coroutines/JobSupport$c;->l(Ljava/lang/Throwable;)V
 
     return-void
@@ -128,7 +119,6 @@
 
     return-void
 
-    .line 3
     :cond_1
     invoke-direct {p0}, Lcotlinx/coroutines/JobSupport$c;->c()Ljava/lang/Object;
 
@@ -136,12 +126,10 @@
 
     if-nez v0, :cond_2
 
-    .line 4
     invoke-direct {p0, p1}, Lcotlinx/coroutines/JobSupport$c;->k(Ljava/lang/Object;)V
 
     goto :goto_0
 
-    .line 5
     :cond_2
     instance-of v1, v0, Ljava/lang/Throwable;
 
@@ -151,24 +139,19 @@
 
     return-void
 
-    .line 6
     :cond_3
     invoke-direct {p0}, Lcotlinx/coroutines/JobSupport$c;->b()Ljava/util/ArrayList;
 
     move-result-object v1
 
-    .line 7
     invoke-virtual {v1, v0}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    .line 8
     invoke-virtual {v1, p1}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    .line 9
     invoke-direct {p0, v1}, Lcotlinx/coroutines/JobSupport$c;->k(Ljava/lang/Object;)V
 
     goto :goto_0
 
-    .line 10
     :cond_4
     instance-of v1, v0, Ljava/util/ArrayList;
 
@@ -181,7 +164,6 @@
     :goto_0
     return-void
 
-    .line 11
     :cond_5
     new-instance p1, Ljava/lang/StringBuilder;
 
@@ -213,7 +195,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcotlinx/coroutines/JobSupport$c;->_rootCause:Ljava/lang/Object;
 
     check-cast v0, Ljava/lang/Throwable;
@@ -226,7 +207,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcotlinx/coroutines/JobSupport$c;->a:Lcotlinx/coroutines/n2;
 
     return-object v0
@@ -235,7 +215,6 @@
 .method public final f()Z
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcotlinx/coroutines/JobSupport$c;->d()Ljava/lang/Throwable;
 
     move-result-object v0
@@ -256,7 +235,6 @@
 .method public final g()Z
     .locals 1
 
-    .line 1
     iget v0, p0, Lcotlinx/coroutines/JobSupport$c;->_isCompleting:I
 
     return v0
@@ -265,7 +243,6 @@
 .method public final h()Z
     .locals 2
 
-    .line 1
     invoke-direct {p0}, Lcotlinx/coroutines/JobSupport$c;->c()Ljava/lang/Object;
 
     move-result-object v0
@@ -307,21 +284,18 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Lcotlinx/coroutines/JobSupport$c;->c()Ljava/lang/Object;
 
     move-result-object v0
 
     if-nez v0, :cond_0
 
-    .line 2
     invoke-direct {p0}, Lcotlinx/coroutines/JobSupport$c;->b()Ljava/util/ArrayList;
 
     move-result-object v0
 
     goto :goto_0
 
-    .line 3
     :cond_0
     instance-of v1, v0, Ljava/lang/Throwable;
 
@@ -337,7 +311,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_1
     instance-of v1, v0, Ljava/util/ArrayList;
 
@@ -345,7 +318,6 @@
 
     check-cast v0, Ljava/util/ArrayList;
 
-    .line 5
     :goto_0
     invoke-virtual {p0}, Lcotlinx/coroutines/JobSupport$c;->d()Ljava/lang/Throwable;
 
@@ -355,13 +327,11 @@
 
     const/4 v2, 0x0
 
-    .line 6
     invoke-virtual {v0, v2, v1}, Ljava/util/ArrayList;->add(ILjava/lang/Object;)V
 
     :cond_2
     if-eqz p1, :cond_3
 
-    .line 7
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v1
@@ -372,7 +342,6 @@
 
     invoke-virtual {v0, p1}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    .line 8
     :cond_3
     invoke-static {}, Lcotlinx/coroutines/j2;->l()Lcotlinx/coroutines/internal/c0;
 
@@ -382,7 +351,6 @@
 
     return-object v0
 
-    .line 9
     :cond_4
     new-instance p1, Ljava/lang/StringBuilder;
 
@@ -412,7 +380,6 @@
 .method public isActive()Z
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcotlinx/coroutines/JobSupport$c;->d()Ljava/lang/Throwable;
 
     move-result-object v0
@@ -433,7 +400,6 @@
 .method public final j(Z)V
     .locals 0
 
-    .line 1
     iput p1, p0, Lcotlinx/coroutines/JobSupport$c;->_isCompleting:I
 
     return-void
@@ -446,7 +412,6 @@
         .end annotation
     .end param
 
-    .line 1
     iput-object p1, p0, Lcotlinx/coroutines/JobSupport$c;->_rootCause:Ljava/lang/Object;
 
     return-void
@@ -457,7 +422,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V

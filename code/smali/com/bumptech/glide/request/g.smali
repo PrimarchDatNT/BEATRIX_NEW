@@ -59,7 +59,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/bumptech/glide/request/a;-><init>()V
 
     return-void
@@ -87,7 +86,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/bumptech/glide/request/g;
 
     invoke-direct {v0}, Lcom/bumptech/glide/request/g;-><init>()V
@@ -109,12 +107,10 @@
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
-    .line 1
     sget-object v0, Lcom/bumptech/glide/request/g;->B0:Lcom/bumptech/glide/request/g;
 
     if-nez v0, :cond_0
 
-    .line 2
     new-instance v0, Lcom/bumptech/glide/request/g;
 
     invoke-direct {v0}, Lcom/bumptech/glide/request/g;-><init>()V
@@ -133,7 +129,6 @@
 
     sput-object v0, Lcom/bumptech/glide/request/g;->B0:Lcom/bumptech/glide/request/g;
 
-    .line 3
     :cond_0
     sget-object v0, Lcom/bumptech/glide/request/g;->B0:Lcom/bumptech/glide/request/g;
 
@@ -148,12 +143,10 @@
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
-    .line 1
     sget-object v0, Lcom/bumptech/glide/request/g;->A0:Lcom/bumptech/glide/request/g;
 
     if-nez v0, :cond_0
 
-    .line 2
     new-instance v0, Lcom/bumptech/glide/request/g;
 
     invoke-direct {v0}, Lcom/bumptech/glide/request/g;-><init>()V
@@ -172,7 +165,6 @@
 
     sput-object v0, Lcom/bumptech/glide/request/g;->A0:Lcom/bumptech/glide/request/g;
 
-    .line 3
     :cond_0
     sget-object v0, Lcom/bumptech/glide/request/g;->A0:Lcom/bumptech/glide/request/g;
 
@@ -187,12 +179,10 @@
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
-    .line 1
     sget-object v0, Lcom/bumptech/glide/request/g;->C0:Lcom/bumptech/glide/request/g;
 
     if-nez v0, :cond_0
 
-    .line 2
     new-instance v0, Lcom/bumptech/glide/request/g;
 
     invoke-direct {v0}, Lcom/bumptech/glide/request/g;-><init>()V
@@ -211,7 +201,6 @@
 
     sput-object v0, Lcom/bumptech/glide/request/g;->C0:Lcom/bumptech/glide/request/g;
 
-    .line 3
     :cond_0
     sget-object v0, Lcom/bumptech/glide/request/g;->C0:Lcom/bumptech/glide/request/g;
 
@@ -239,7 +228,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/bumptech/glide/request/g;
 
     invoke-direct {v0}, Lcom/bumptech/glide/request/g;-><init>()V
@@ -265,7 +253,6 @@
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/bumptech/glide/request/g;
 
     invoke-direct {v0}, Lcom/bumptech/glide/request/g;-><init>()V
@@ -291,7 +278,6 @@
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/bumptech/glide/request/g;
 
     invoke-direct {v0}, Lcom/bumptech/glide/request/g;-><init>()V
@@ -317,7 +303,6 @@
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/bumptech/glide/request/g;
 
     invoke-direct {v0}, Lcom/bumptech/glide/request/g;-><init>()V
@@ -345,7 +330,6 @@
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/bumptech/glide/request/g;
 
     invoke-direct {v0}, Lcom/bumptech/glide/request/g;-><init>()V
@@ -371,7 +355,6 @@
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/bumptech/glide/request/g;
 
     invoke-direct {v0}, Lcom/bumptech/glide/request/g;-><init>()V
@@ -397,7 +380,6 @@
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/bumptech/glide/request/g;
 
     invoke-direct {v0}, Lcom/bumptech/glide/request/g;-><init>()V
@@ -419,12 +401,10 @@
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
-    .line 1
     sget-object v0, Lcom/bumptech/glide/request/g;->z0:Lcom/bumptech/glide/request/g;
 
     if-nez v0, :cond_0
 
-    .line 2
     new-instance v0, Lcom/bumptech/glide/request/g;
 
     invoke-direct {v0}, Lcom/bumptech/glide/request/g;-><init>()V
@@ -443,7 +423,6 @@
 
     sput-object v0, Lcom/bumptech/glide/request/g;->z0:Lcom/bumptech/glide/request/g;
 
-    .line 3
     :cond_0
     sget-object v0, Lcom/bumptech/glide/request/g;->z0:Lcom/bumptech/glide/request/g;
 
@@ -462,7 +441,6 @@
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/bumptech/glide/request/g;
 
     invoke-direct {v0}, Lcom/bumptech/glide/request/g;-><init>()V
@@ -489,7 +467,6 @@
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/bumptech/glide/request/g;
 
     invoke-direct {v0}, Lcom/bumptech/glide/request/g;-><init>()V
@@ -511,12 +488,10 @@
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
-    .line 1
     sget-object v0, Lcom/bumptech/glide/request/g;->E0:Lcom/bumptech/glide/request/g;
 
     if-nez v0, :cond_0
 
-    .line 2
     new-instance v0, Lcom/bumptech/glide/request/g;
 
     invoke-direct {v0}, Lcom/bumptech/glide/request/g;-><init>()V
@@ -535,7 +510,6 @@
 
     sput-object v0, Lcom/bumptech/glide/request/g;->E0:Lcom/bumptech/glide/request/g;
 
-    .line 3
     :cond_0
     sget-object v0, Lcom/bumptech/glide/request/g;->E0:Lcom/bumptech/glide/request/g;
 
@@ -550,12 +524,10 @@
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
-    .line 1
     sget-object v0, Lcom/bumptech/glide/request/g;->D0:Lcom/bumptech/glide/request/g;
 
     if-nez v0, :cond_0
 
-    .line 2
     new-instance v0, Lcom/bumptech/glide/request/g;
 
     invoke-direct {v0}, Lcom/bumptech/glide/request/g;-><init>()V
@@ -574,7 +546,6 @@
 
     sput-object v0, Lcom/bumptech/glide/request/g;->D0:Lcom/bumptech/glide/request/g;
 
-    .line 3
     :cond_0
     sget-object v0, Lcom/bumptech/glide/request/g;->D0:Lcom/bumptech/glide/request/g;
 
@@ -608,7 +579,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/bumptech/glide/request/g;
 
     invoke-direct {v0}, Lcom/bumptech/glide/request/g;-><init>()V
@@ -630,7 +600,6 @@
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
-    .line 1
     invoke-static {p0, p0}, Lcom/bumptech/glide/request/g;->n1(II)Lcom/bumptech/glide/request/g;
 
     move-result-object p0
@@ -646,7 +615,6 @@
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/bumptech/glide/request/g;
 
     invoke-direct {v0}, Lcom/bumptech/glide/request/g;-><init>()V
@@ -672,7 +640,6 @@
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/bumptech/glide/request/g;
 
     invoke-direct {v0}, Lcom/bumptech/glide/request/g;-><init>()V
@@ -698,7 +665,6 @@
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/bumptech/glide/request/g;
 
     invoke-direct {v0}, Lcom/bumptech/glide/request/g;-><init>()V
@@ -724,7 +690,6 @@
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/bumptech/glide/request/g;
 
     invoke-direct {v0}, Lcom/bumptech/glide/request/g;-><init>()V
@@ -750,7 +715,6 @@
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/bumptech/glide/request/g;
 
     invoke-direct {v0}, Lcom/bumptech/glide/request/g;-><init>()V
@@ -778,7 +742,6 @@
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/bumptech/glide/request/g;
 
     invoke-direct {v0}, Lcom/bumptech/glide/request/g;-><init>()V
@@ -802,12 +765,10 @@
 
     if-eqz p0, :cond_1
 
-    .line 1
     sget-object p0, Lcom/bumptech/glide/request/g;->x0:Lcom/bumptech/glide/request/g;
 
     if-nez p0, :cond_0
 
-    .line 2
     new-instance p0, Lcom/bumptech/glide/request/g;
 
     invoke-direct {p0}, Lcom/bumptech/glide/request/g;-><init>()V
@@ -828,19 +789,16 @@
 
     sput-object p0, Lcom/bumptech/glide/request/g;->x0:Lcom/bumptech/glide/request/g;
 
-    .line 3
     :cond_0
     sget-object p0, Lcom/bumptech/glide/request/g;->x0:Lcom/bumptech/glide/request/g;
 
     return-object p0
 
-    .line 4
     :cond_1
     sget-object p0, Lcom/bumptech/glide/request/g;->y0:Lcom/bumptech/glide/request/g;
 
     if-nez p0, :cond_2
 
-    .line 5
     new-instance p0, Lcom/bumptech/glide/request/g;
 
     invoke-direct {p0}, Lcom/bumptech/glide/request/g;-><init>()V
@@ -861,7 +819,6 @@
 
     sput-object p0, Lcom/bumptech/glide/request/g;->y0:Lcom/bumptech/glide/request/g;
 
-    .line 6
     :cond_2
     sget-object p0, Lcom/bumptech/glide/request/g;->y0:Lcom/bumptech/glide/request/g;
 
@@ -881,7 +838,6 @@
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/bumptech/glide/request/g;
 
     invoke-direct {v0}, Lcom/bumptech/glide/request/g;-><init>()V

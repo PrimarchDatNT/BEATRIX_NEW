@@ -10,7 +10,6 @@
 .method static constructor <clinit>()V
     .locals 3
 
-    .line 1
     invoke-static {}, Lcom/google/android/gms/internal/firebase_auth/c;->a()[I
 
     move-result-object v0

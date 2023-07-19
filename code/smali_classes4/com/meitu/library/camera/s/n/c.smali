@@ -7,7 +7,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -29,7 +28,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/util/HashMap;
 
     const/16 v2, 0x10
@@ -60,7 +58,6 @@
 
     if-eq p0, v4, :cond_0
 
-    .line 2
     new-instance p0, Lcom/meitu/library/camera/s/k/g;
 
     invoke-direct {p0, v2, v3}, Lcom/meitu/library/camera/s/k/g;-><init>(II)V
@@ -71,7 +68,6 @@
 
     invoke-virtual {v1, p0, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 3
     sget-object p0, Lcom/meitu/library/camera/s/k/g;->n:Lcom/meitu/library/camera/s/k/g;
 
     new-instance v2, Lcom/meitu/library/camera/s/k/j;
@@ -82,7 +78,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_0
     sget-object p0, Lcom/meitu/library/camera/s/k/g;->n:Lcom/meitu/library/camera/s/k/g;
 
@@ -92,7 +87,6 @@
 
     goto :goto_0
 
-    .line 5
     :cond_1
     new-instance p0, Lcom/meitu/library/camera/s/k/g;
 
@@ -108,7 +102,6 @@
 
     invoke-virtual {v1, p0, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 6
     sget-object p0, Lcom/meitu/library/camera/s/k/g;->n:Lcom/meitu/library/camera/s/k/g;
 
     new-instance v2, Lcom/meitu/library/camera/s/k/j;
@@ -119,7 +112,6 @@
 
     goto :goto_0
 
-    .line 7
     :cond_2
     new-instance p0, Lcom/meitu/library/camera/s/k/g;
 
@@ -131,7 +123,6 @@
 
     invoke-virtual {v1, p0, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 8
     sget-object p0, Lcom/meitu/library/camera/s/k/g;->n:Lcom/meitu/library/camera/s/k/g;
 
     new-instance v2, Lcom/meitu/library/camera/s/k/j;
@@ -142,7 +133,6 @@
 
     goto :goto_0
 
-    .line 9
     :cond_3
     new-instance p0, Lcom/meitu/library/camera/s/k/g;
 
@@ -158,7 +148,6 @@
 
     invoke-virtual {v1, p0, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 10
     sget-object p0, Lcom/meitu/library/camera/s/k/g;->n:Lcom/meitu/library/camera/s/k/g;
 
     new-instance v2, Lcom/meitu/library/camera/s/k/j;
@@ -169,7 +158,6 @@
 
     invoke-virtual {v1, p0, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 11
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

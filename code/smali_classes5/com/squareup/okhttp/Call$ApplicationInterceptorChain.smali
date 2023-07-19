@@ -31,18 +31,14 @@
 .method constructor <init>(Lcom/squareup/okhttp/Call;ILcom/squareup/okhttp/Request;Z)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/squareup/okhttp/Call$ApplicationInterceptorChain;->this$0:Lcom/squareup/okhttp/Call;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput p2, p0, Lcom/squareup/okhttp/Call$ApplicationInterceptorChain;->index:I
 
-    .line 3
     iput-object p3, p0, Lcom/squareup/okhttp/Call$ApplicationInterceptorChain;->request:Lcom/squareup/okhttp/Request;
 
-    .line 4
     iput-boolean p4, p0, Lcom/squareup/okhttp/Call$ApplicationInterceptorChain;->forWebSocket:Z
 
     return-void
@@ -66,7 +62,6 @@
         }
     .end annotation
 
-    .line 1
     iget v0, p0, Lcom/squareup/okhttp/Call$ApplicationInterceptorChain;->index:I
 
     iget-object v1, p0, Lcom/squareup/okhttp/Call$ApplicationInterceptorChain;->this$0:Lcom/squareup/okhttp/Call;
@@ -85,7 +80,6 @@
 
     if-ge v0, v1, :cond_1
 
-    .line 2
     new-instance v0, Lcom/squareup/okhttp/Call$ApplicationInterceptorChain;
 
     iget-object v1, p0, Lcom/squareup/okhttp/Call$ApplicationInterceptorChain;->this$0:Lcom/squareup/okhttp/Call;
@@ -98,7 +92,6 @@
 
     invoke-direct {v0, v1, v2, p1, v3}, Lcom/squareup/okhttp/Call$ApplicationInterceptorChain;-><init>(Lcom/squareup/okhttp/Call;ILcom/squareup/okhttp/Request;Z)V
 
-    .line 3
     iget-object p1, p0, Lcom/squareup/okhttp/Call$ApplicationInterceptorChain;->this$0:Lcom/squareup/okhttp/Call;
 
     invoke-static {p1}, Lcom/squareup/okhttp/Call;->access$300(Lcom/squareup/okhttp/Call;)Lcom/squareup/okhttp/OkHttpClient;
@@ -117,7 +110,6 @@
 
     check-cast p1, Lcom/squareup/okhttp/Interceptor;
 
-    .line 4
     invoke-interface {p1, v0}, Lcom/squareup/okhttp/Interceptor;->intercept(Lcom/squareup/okhttp/Interceptor$Chain;)Lcom/squareup/okhttp/Response;
 
     move-result-object v0
@@ -126,7 +118,6 @@
 
     return-object v0
 
-    .line 5
     :cond_0
     new-instance v0, Ljava/lang/NullPointerException;
 
@@ -152,7 +143,6 @@
 
     throw v0
 
-    .line 6
     :cond_1
     iget-object v0, p0, Lcom/squareup/okhttp/Call$ApplicationInterceptorChain;->this$0:Lcom/squareup/okhttp/Call;
 
@@ -168,7 +158,6 @@
 .method public request()Lcom/squareup/okhttp/Request;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/squareup/okhttp/Call$ApplicationInterceptorChain;->request:Lcom/squareup/okhttp/Request;
 
     return-object v0

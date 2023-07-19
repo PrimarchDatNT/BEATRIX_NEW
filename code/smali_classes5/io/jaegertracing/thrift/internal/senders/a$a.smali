@@ -28,22 +28,18 @@
 .method public constructor <init>(Ljava/lang/String;)V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/high16 v0, 0x100000
 
-    .line 2
     iput v0, p0, Lio/jaegertracing/thrift/internal/senders/a$a;->b:I
 
-    .line 3
     new-instance v0, Lokhttp3/OkHttpClient$Builder;
 
     invoke-direct {v0}, Lokhttp3/OkHttpClient$Builder;-><init>()V
 
     iput-object v0, p0, Lio/jaegertracing/thrift/internal/senders/a$a;->d:Lokhttp3/OkHttpClient$Builder;
 
-    .line 4
     iput-object p1, p0, Lio/jaegertracing/thrift/internal/senders/a$a;->a:Ljava/lang/String;
 
     return-void
@@ -52,7 +48,6 @@
 .method static synthetic a(Lio/jaegertracing/thrift/internal/senders/a$a;)I
     .locals 0
 
-    .line 1
     iget p0, p0, Lio/jaegertracing/thrift/internal/senders/a$a;->b:I
 
     return p0
@@ -61,7 +56,6 @@
 .method static synthetic b(Lio/jaegertracing/thrift/internal/senders/a$a;)Ljava/lang/String;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lio/jaegertracing/thrift/internal/senders/a$a;->a:Ljava/lang/String;
 
     return-object p0
@@ -70,7 +64,6 @@
 .method static synthetic c(Lio/jaegertracing/thrift/internal/senders/a$a;)Lokhttp3/OkHttpClient$Builder;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lio/jaegertracing/thrift/internal/senders/a$a;->d:Lokhttp3/OkHttpClient$Builder;
 
     return-object p0
@@ -79,7 +72,6 @@
 .method private e(Ljava/lang/String;)Lokhttp3/Interceptor;
     .locals 1
 
-    .line 1
     new-instance v0, Lio/jaegertracing/thrift/internal/senders/a$a$a;
 
     invoke-direct {v0, p0, p1}, Lio/jaegertracing/thrift/internal/senders/a$a$a;-><init>(Lio/jaegertracing/thrift/internal/senders/a$a;Ljava/lang/String;)V
@@ -92,17 +84,14 @@
 .method public d()Lio/jaegertracing/thrift/internal/senders/a;
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lio/jaegertracing/thrift/internal/senders/a$a;->c:Lokhttp3/Interceptor;
 
     if-eqz v0, :cond_0
 
-    .line 2
     iget-object v1, p0, Lio/jaegertracing/thrift/internal/senders/a$a;->d:Lokhttp3/OkHttpClient$Builder;
 
     invoke-virtual {v1, v0}, Lokhttp3/OkHttpClient$Builder;->addInterceptor(Lokhttp3/Interceptor;)Lokhttp3/OkHttpClient$Builder;
 
-    .line 3
     :cond_0
     new-instance v0, Lio/jaegertracing/thrift/internal/senders/a;
 
@@ -114,7 +103,6 @@
 .method public f(Ljava/lang/String;)Lio/jaegertracing/thrift/internal/senders/a$a;
     .locals 2
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -141,7 +129,6 @@
 .method public g(Ljava/lang/String;Ljava/lang/String;)Lio/jaegertracing/thrift/internal/senders/a$a;
     .locals 0
 
-    .line 1
     invoke-static {p1, p2}, Lokhttp3/Credentials;->basic(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p1
@@ -158,7 +145,6 @@
 .method public h(Lokhttp3/OkHttpClient;)Lio/jaegertracing/thrift/internal/senders/a$a;
     .locals 0
 
-    .line 1
     invoke-virtual {p1}, Lokhttp3/OkHttpClient;->newBuilder()Lokhttp3/OkHttpClient$Builder;
 
     move-result-object p1
@@ -171,7 +157,6 @@
 .method public i(I)Lio/jaegertracing/thrift/internal/senders/a$a;
     .locals 0
 
-    .line 1
     iput p1, p0, Lio/jaegertracing/thrift/internal/senders/a$a;->b:I
 
     return-object p0

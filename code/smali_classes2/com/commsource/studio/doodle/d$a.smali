@@ -23,7 +23,6 @@
 .method constructor <init>(Lcom/meitu/template/bean/Doodle;Ljava/lang/String;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/doodle/d$a;->g:Lcom/meitu/template/bean/Doodle;
 
     invoke-direct {p0, p2}, Lcom/commsource/util/u2/a;-><init>(Ljava/lang/String;)V
@@ -40,19 +39,16 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/doodle/d$a;->g:Lcom/meitu/template/bean/Doodle;
 
     const/4 v2, 0x0
 
     invoke-virtual {v1, v2}, Lcom/meitu/template/bean/e;->setDownloadState(I)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/doodle/d$a;->g:Lcom/meitu/template/bean/Doodle;
 
     invoke-virtual {v1, v2}, Lcom/meitu/template/bean/e;->setDownloadProgress(I)V
 
-    .line 3
     new-instance v1, Ljava/io/File;
 
     iget-object v2, p0, Lcom/commsource/studio/doodle/d$a;->g:Lcom/meitu/template/bean/Doodle;
@@ -65,7 +61,6 @@
 
     invoke-virtual {v1}, Ljava/io/File;->deleteOnExit()V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

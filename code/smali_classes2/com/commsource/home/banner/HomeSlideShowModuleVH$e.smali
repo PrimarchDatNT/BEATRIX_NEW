@@ -45,10 +45,8 @@
 
     sget v0, Lcom/res/provider/ResLAYOUT;->item_pager_banner:I
 
-    .line 1
     invoke-direct {p0, p1, p2, v0}, Lcom/commsource/widget/h1/f;-><init>(Landroid/content/Context;Landroid/view/ViewGroup;I)V
 
-    .line 2
     iget-object p1, p0, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->itemView:Landroid/view/View;
 
     invoke-static {p1}, Lcom/commsource/beautyplus/f0/uh;->a(Landroid/view/View;)Lcom/commsource/beautyplus/f0/uh;
@@ -84,10 +82,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0, p1, p2, p3}, Lcom/commsource/widget/h1/f;->k(ILcom/commsource/widget/h1/d;Ljava/util/List;)V
 
-    .line 2
     iget-object p3, p0, Lcom/commsource/widget/h1/f;->d:Landroid/content/Context;
 
     invoke-static {p3}, Lcom/commsource/util/u0;->i(Landroid/content/Context;)Lcom/commsource/util/u0$d;
@@ -96,7 +92,6 @@
 
     if-eqz p2, :cond_0
 
-    .line 3
     invoke-virtual {p2}, Lcom/commsource/widget/h1/d;->b()Ljava/lang/Object;
 
     move-result-object p2
@@ -119,7 +114,6 @@
 
     move-result-object p2
 
-    .line 4
     sget-object p3, Lcom/commsource/home/c;->y:Lcom/commsource/home/c;
 
     invoke-virtual {p3, p1}, Lcom/commsource/home/c;->z(I)I
@@ -136,7 +130,6 @@
 
     move-result-object p1
 
-    .line 5
     invoke-virtual {p3}, Lcom/commsource/home/c;->v()Lcom/bumptech/glide/request/g;
 
     move-result-object p2
@@ -147,12 +140,10 @@
 
     const/16 p2, 0x190
 
-    .line 6
     invoke-virtual {p1, p2}, Lcom/commsource/util/u0$d;->d(I)Lcom/commsource/util/u0$d;
 
     move-result-object p1
 
-    .line 7
     iget-object p2, p0, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->itemView:Landroid/view/View;
 
     const-string p3, "itemView"
@@ -169,7 +160,6 @@
 
     invoke-virtual {p1, p2}, Lcom/commsource/util/u0$d;->e(Landroid/widget/ImageView;)V
 
-    .line 8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

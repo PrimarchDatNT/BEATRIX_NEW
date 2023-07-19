@@ -19,12 +19,10 @@
 .method public constructor <init>(Landroid/content/Context;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1}, Landroidx/recyclerview/widget/LinearSmoothScroller;-><init>(Landroid/content/Context;)V
 
     const/high16 p1, 0x43fa0000    # 500.0f
 
-    .line 2
     invoke-static {p1}, Lcom/commsource/widget/t0;->a(F)V
 
     return-void
@@ -33,7 +31,6 @@
 .method public static a(F)V
     .locals 0
 
-    .line 1
     sput p0, Lcom/commsource/widget/t0;->b:F
 
     return-void
@@ -44,7 +41,6 @@
 .method protected calculateSpeedPerPixel(Landroid/util/DisplayMetrics;)F
     .locals 1
 
-    .line 1
     sget v0, Lcom/commsource/widget/t0;->b:F
 
     iget p1, p1, Landroid/util/DisplayMetrics;->densityDpi:I

@@ -20,16 +20,12 @@
 .method public constructor <init>(Landroid/content/Context;Lcom/google/android/gms/internal/ads/d12;Landroid/view/View;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/google/android/gms/internal/ads/n6;->a:Landroid/content/Context;
 
-    .line 3
     iput-object p2, p0, Lcom/google/android/gms/internal/ads/n6;->b:Lcom/google/android/gms/internal/ads/d12;
 
-    .line 4
     iput-object p3, p0, Lcom/google/android/gms/internal/ads/n6;->c:Landroid/view/View;
 
     return-void
@@ -38,12 +34,10 @@
 .method private static a(Landroid/content/Intent;Landroid/content/pm/ResolveInfo;)Landroid/content/Intent;
     .locals 1
 
-    .line 1
     new-instance v0, Landroid/content/Intent;
 
     invoke-direct {v0, p0}, Landroid/content/Intent;-><init>(Landroid/content/Intent;)V
 
-    .line 2
     iget-object p0, p1, Landroid/content/pm/ResolveInfo;->activityInfo:Landroid/content/pm/ActivityInfo;
 
     iget-object p1, p0, Landroid/content/pm/ActivityInfo;->packageName:Ljava/lang/String;
@@ -73,7 +67,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     :try_start_0
     iget-object v1, p0, Lcom/google/android/gms/internal/ads/n6;->a:Landroid/content/Context;
 
@@ -88,12 +81,10 @@
     :cond_0
     const/high16 v2, 0x10000
 
-    .line 2
     invoke-virtual {v1, p1, v2}, Landroid/content/pm/PackageManager;->queryIntentActivities(Landroid/content/Intent;I)Ljava/util/List;
 
     move-result-object v3
 
-    .line 3
     invoke-virtual {v1, p1, v2}, Landroid/content/pm/PackageManager;->resolveActivity(Landroid/content/Intent;I)Landroid/content/pm/ResolveInfo;
 
     move-result-object p1
@@ -104,7 +95,6 @@
 
     const/4 v1, 0x0
 
-    .line 4
     :goto_0
     invoke-interface {v3}, Ljava/util/List;->size()I
 
@@ -112,7 +102,6 @@
 
     if-ge v1, v2, :cond_2
 
-    .line 5
     invoke-interface {v3, v1}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object v2
@@ -121,7 +110,6 @@
 
     if-eqz p1, :cond_1
 
-    .line 6
     iget-object v4, p1, Landroid/content/pm/ResolveInfo;->activityInfo:Landroid/content/pm/ActivityInfo;
 
     iget-object v4, v4, Landroid/content/pm/ActivityInfo;->name:Ljava/lang/String;
@@ -130,7 +118,6 @@
 
     iget-object v2, v2, Landroid/content/pm/ActivityInfo;->name:Ljava/lang/String;
 
-    .line 7
     invoke-virtual {v4, v2}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v2
@@ -146,7 +133,6 @@
 
     goto :goto_0
 
-    .line 8
     :cond_2
     :goto_1
     invoke-virtual {p2, v3}, Ljava/util/ArrayList;->addAll(Ljava/util/Collection;)Z
@@ -158,14 +144,12 @@
     :catchall_0
     move-exception p1
 
-    .line 9
     invoke-static {}, Lcom/google/android/gms/ads/internal/p;->g()Lcom/google/android/gms/internal/ads/em;
 
     move-result-object p2
 
     const-string v1, "OpenSystemBrowserHandler.getDefaultBrowserResolverForIntent"
 
-    .line 10
     invoke-virtual {p2, p1, v1}, Lcom/google/android/gms/internal/ads/em;->e(Ljava/lang/Throwable;Ljava/lang/String;)V
 
     :goto_2
@@ -177,7 +161,6 @@
     .annotation build Lcom/google/android/gms/common/util/d0;
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
@@ -198,7 +181,6 @@
 
     return-object p0
 
-    .line 1
     :cond_0
     new-instance v0, Landroid/content/Intent;
 
@@ -208,13 +190,10 @@
 
     const/high16 v2, 0x10000000
 
-    .line 2
     invoke-virtual {v0, v2}, Landroid/content/Intent;->addFlags(I)Landroid/content/Intent;
 
-    .line 3
     invoke-virtual {v0, p0}, Landroid/content/Intent;->setData(Landroid/net/Uri;)Landroid/content/Intent;
 
-    .line 4
     invoke-virtual {v0, v1}, Landroid/content/Intent;->setAction(Ljava/lang/String;)Landroid/content/Intent;
 
     return-object v0
@@ -238,12 +217,10 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/n6;->a:Landroid/content/Context;
 
     const-string v1, "activity"
 
-    .line 2
     invoke-virtual {v0, v1}, Landroid/content/Context;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
 
     move-result-object v0
@@ -252,14 +229,12 @@
 
     const-string v1, "u"
 
-    .line 3
     invoke-interface {p1, v1}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v1
 
     check-cast v1, Ljava/lang/String;
 
-    .line 4
     invoke-static {v1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v2
@@ -270,13 +245,11 @@
 
     return-object v3
 
-    .line 5
     :cond_0
     invoke-static {v1}, Landroid/net/Uri;->parse(Ljava/lang/String;)Landroid/net/Uri;
 
     move-result-object v1
 
-    .line 6
     iget-object v2, p0, Lcom/google/android/gms/internal/ads/n6;->a:Landroid/content/Context;
 
     iget-object v4, p0, Lcom/google/android/gms/internal/ads/n6;->b:Lcom/google/android/gms/internal/ads/d12;
@@ -287,14 +260,12 @@
 
     move-result-object v1
 
-    .line 7
     invoke-static {v1}, Lcom/google/android/gms/internal/ads/k6;->f(Landroid/net/Uri;)Landroid/net/Uri;
 
     move-result-object v1
 
     const-string v2, "use_first_package"
 
-    .line 8
     invoke-interface {p1, v2}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v2
@@ -307,7 +278,6 @@
 
     const-string v4, "use_running_process"
 
-    .line 9
     invoke-interface {p1, v4}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v4
@@ -320,7 +290,6 @@
 
     const-string v5, "use_custom_tabs"
 
-    .line 10
     invoke-interface {p1, v5}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -337,7 +306,6 @@
 
     sget-object p1, Lcom/google/android/gms/internal/ads/w;->L2:Lcom/google/android/gms/internal/ads/h;
 
-    .line 11
     invoke-static {}, Lcom/google/android/gms/internal/ads/zm2;->e()Lcom/google/android/gms/internal/ads/s;
 
     move-result-object v6
@@ -346,7 +314,6 @@
 
     move-result-object p1
 
-    .line 12
     check-cast p1, Ljava/lang/Boolean;
 
     invoke-virtual {p1}, Ljava/lang/Boolean;->booleanValue()Z
@@ -366,7 +333,6 @@
     :goto_0
     const/4 p1, 0x1
 
-    .line 13
     :goto_1
     invoke-virtual {v1}, Landroid/net/Uri;->getScheme()Ljava/lang/String;
 
@@ -382,7 +348,6 @@
 
     if-eqz v6, :cond_3
 
-    .line 14
     invoke-virtual {v1}, Landroid/net/Uri;->buildUpon()Landroid/net/Uri$Builder;
 
     move-result-object v3
@@ -397,7 +362,6 @@
 
     goto :goto_2
 
-    .line 15
     :cond_3
     invoke-virtual {v1}, Landroid/net/Uri;->getScheme()Ljava/lang/String;
 
@@ -409,7 +373,6 @@
 
     if-eqz v6, :cond_4
 
-    .line 16
     invoke-virtual {v1}, Landroid/net/Uri;->buildUpon()Landroid/net/Uri$Builder;
 
     move-result-object v3
@@ -422,40 +385,34 @@
 
     move-result-object v3
 
-    .line 17
     :cond_4
     :goto_2
     new-instance v6, Ljava/util/ArrayList;
 
     invoke-direct {v6}, Ljava/util/ArrayList;-><init>()V
 
-    .line 18
     invoke-static {v1}, Lcom/google/android/gms/internal/ads/n6;->e(Landroid/net/Uri;)Landroid/content/Intent;
 
     move-result-object v1
 
-    .line 19
     invoke-static {v3}, Lcom/google/android/gms/internal/ads/n6;->e(Landroid/net/Uri;)Landroid/content/Intent;
 
     move-result-object v3
 
     if-eqz p1, :cond_5
 
-    .line 20
     invoke-static {}, Lcom/google/android/gms/ads/internal/p;->c()Lcom/google/android/gms/internal/ads/cn;
 
     iget-object p1, p0, Lcom/google/android/gms/internal/ads/n6;->a:Landroid/content/Context;
 
     invoke-static {p1, v1}, Lcom/google/android/gms/internal/ads/cn;->F(Landroid/content/Context;Landroid/content/Intent;)V
 
-    .line 21
     invoke-static {}, Lcom/google/android/gms/ads/internal/p;->c()Lcom/google/android/gms/internal/ads/cn;
 
     iget-object p1, p0, Lcom/google/android/gms/internal/ads/n6;->a:Landroid/content/Context;
 
     invoke-static {p1, v3}, Lcom/google/android/gms/internal/ads/cn;->F(Landroid/content/Context;Landroid/content/Intent;)V
 
-    .line 22
     :cond_5
     invoke-direct {p0, v1, v6}, Lcom/google/android/gms/internal/ads/n6;->b(Landroid/content/Intent;Ljava/util/ArrayList;)Landroid/content/pm/ResolveInfo;
 
@@ -463,7 +420,6 @@
 
     if-eqz p1, :cond_6
 
-    .line 23
     invoke-static {v1, p1}, Lcom/google/android/gms/internal/ads/n6;->a(Landroid/content/Intent;Landroid/content/pm/ResolveInfo;)Landroid/content/Intent;
 
     move-result-object p1
@@ -473,19 +429,16 @@
     :cond_6
     if-eqz v3, :cond_7
 
-    .line 24
     invoke-direct {p0, v3}, Lcom/google/android/gms/internal/ads/n6;->c(Landroid/content/Intent;)Landroid/content/pm/ResolveInfo;
 
     move-result-object p1
 
     if-eqz p1, :cond_7
 
-    .line 25
     invoke-static {v1, p1}, Lcom/google/android/gms/internal/ads/n6;->a(Landroid/content/Intent;Landroid/content/pm/ResolveInfo;)Landroid/content/Intent;
 
     move-result-object p1
 
-    .line 26
     invoke-direct {p0, p1}, Lcom/google/android/gms/internal/ads/n6;->c(Landroid/content/Intent;)Landroid/content/pm/ResolveInfo;
 
     move-result-object v3
@@ -494,7 +447,6 @@
 
     return-object p1
 
-    .line 27
     :cond_7
     invoke-virtual {v6}, Ljava/util/ArrayList;->size()I
 
@@ -509,14 +461,12 @@
 
     if-eqz v0, :cond_b
 
-    .line 28
     invoke-virtual {v0}, Landroid/app/ActivityManager;->getRunningAppProcesses()Ljava/util/List;
 
     move-result-object p1
 
     if-eqz p1, :cond_b
 
-    .line 29
     invoke-virtual {v6}, Ljava/util/ArrayList;->size()I
 
     move-result v0
@@ -534,7 +484,6 @@
 
     check-cast v4, Landroid/content/pm/ResolveInfo;
 
-    .line 30
     invoke-interface {p1}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
     move-result-object v7
@@ -552,7 +501,6 @@
 
     check-cast v8, Landroid/app/ActivityManager$RunningAppProcessInfo;
 
-    .line 31
     iget-object v8, v8, Landroid/app/ActivityManager$RunningAppProcessInfo;->processName:Ljava/lang/String;
 
     iget-object v9, v4, Landroid/content/pm/ResolveInfo;->activityInfo:Landroid/content/pm/ActivityInfo;
@@ -565,7 +513,6 @@
 
     if-eqz v8, :cond_a
 
-    .line 32
     invoke-static {v1, v4}, Lcom/google/android/gms/internal/ads/n6;->a(Landroid/content/Intent;Landroid/content/pm/ResolveInfo;)Landroid/content/Intent;
 
     move-result-object p1
@@ -575,7 +522,6 @@
     :cond_b
     if-eqz v2, :cond_c
 
-    .line 33
     invoke-virtual {v6, v5}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
 
     move-result-object p1

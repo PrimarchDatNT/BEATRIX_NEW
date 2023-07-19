@@ -59,14 +59,12 @@
         }
     .end annotation
 
-    .line 2
     iput-object p1, p0, Lio/grpc/inprocess/d$g;->g:Lio/grpc/inprocess/d;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const-string p1, "method"
 
-    .line 3
     invoke-static {p2, p1}, Lcom/google/common/base/t;->F(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -77,7 +75,6 @@
 
     const-string p1, "headers"
 
-    .line 4
     invoke-static {p3, p1}, Lcom/google/common/base/t;->F(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -88,7 +85,6 @@
 
     const-string p1, "callOptions"
 
-    .line 5
     invoke-static {p4, p1}, Lcom/google/common/base/t;->F(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -97,17 +93,14 @@
 
     iput-object p1, p0, Lio/grpc/inprocess/d$g;->c:Lio/grpc/f;
 
-    .line 6
     iput-object p5, p0, Lio/grpc/inprocess/d$g;->f:Ljava/lang/String;
 
-    .line 7
     new-instance p1, Lio/grpc/inprocess/d$g$a;
 
     invoke-direct {p1, p0, p4, p3}, Lio/grpc/inprocess/d$g$a;-><init>(Lio/grpc/inprocess/d$g;Lio/grpc/f;Lio/grpc/y0;)V
 
     iput-object p1, p0, Lio/grpc/inprocess/d$g;->a:Lio/grpc/inprocess/d$g$a;
 
-    .line 8
     new-instance p1, Lio/grpc/inprocess/d$g$b;
 
     invoke-direct {p1, p0, p2, p3}, Lio/grpc/inprocess/d$g$b;-><init>(Lio/grpc/inprocess/d$g;Lio/grpc/MethodDescriptor;Lio/grpc/y0;)V
@@ -120,7 +113,6 @@
 .method synthetic constructor <init>(Lio/grpc/inprocess/d;Lio/grpc/MethodDescriptor;Lio/grpc/y0;Lio/grpc/f;Ljava/lang/String;Lio/grpc/inprocess/d$a;)V
     .locals 0
 
-    .line 1
     invoke-direct/range {p0 .. p5}, Lio/grpc/inprocess/d$g;-><init>(Lio/grpc/inprocess/d;Lio/grpc/MethodDescriptor;Lio/grpc/y0;Lio/grpc/f;Ljava/lang/String;)V
 
     return-void
@@ -129,7 +121,6 @@
 .method static synthetic a(Lio/grpc/inprocess/d$g;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lio/grpc/inprocess/d$g;->h()V
 
     return-void
@@ -138,7 +129,6 @@
 .method static synthetic b(Lio/grpc/inprocess/d$g;)Ljava/lang/String;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lio/grpc/inprocess/d$g;->f:Ljava/lang/String;
 
     return-object p0
@@ -147,7 +137,6 @@
 .method static synthetic c(Lio/grpc/inprocess/d$g;Ljava/lang/String;)Ljava/lang/String;
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lio/grpc/inprocess/d$g;->f:Ljava/lang/String;
 
     return-object p1
@@ -156,7 +145,6 @@
 .method static synthetic d(Lio/grpc/inprocess/d$g;)Lio/grpc/inprocess/d$g$b;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lio/grpc/inprocess/d$g;->b:Lio/grpc/inprocess/d$g$b;
 
     return-object p0
@@ -165,7 +153,6 @@
 .method static synthetic e(Lio/grpc/inprocess/d$g;)Lio/grpc/MethodDescriptor;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lio/grpc/inprocess/d$g;->e:Lio/grpc/MethodDescriptor;
 
     return-object p0
@@ -174,7 +161,6 @@
 .method static synthetic f(Lio/grpc/inprocess/d$g;)Lio/grpc/y0;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lio/grpc/inprocess/d$g;->d:Lio/grpc/y0;
 
     return-object p0
@@ -183,7 +169,6 @@
 .method static synthetic g(Lio/grpc/inprocess/d$g;)Lio/grpc/inprocess/d$g$a;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lio/grpc/inprocess/d$g;->a:Lio/grpc/inprocess/d$g$a;
 
     return-object p0
@@ -192,12 +177,10 @@
 .method private h()V
     .locals 4
 
-    .line 1
     iget-object v0, p0, Lio/grpc/inprocess/d$g;->g:Lio/grpc/inprocess/d;
 
     monitor-enter v0
 
-    .line 2
     :try_start_0
     iget-object v1, p0, Lio/grpc/inprocess/d$g;->g:Lio/grpc/inprocess/d;
 
@@ -209,7 +192,6 @@
 
     move-result v1
 
-    .line 3
     iget-object v2, p0, Lio/grpc/inprocess/d$g;->c:Lio/grpc/f;
 
     invoke-static {v2}, Lio/grpc/internal/GrpcUtil;->q(Lio/grpc/f;)Z
@@ -218,7 +200,6 @@
 
     if-eqz v2, :cond_0
 
-    .line 4
     iget-object v2, p0, Lio/grpc/inprocess/d$g;->g:Lio/grpc/inprocess/d;
 
     invoke-static {v2}, Lio/grpc/inprocess/d;->y(Lio/grpc/inprocess/d;)Lio/grpc/internal/b1;
@@ -229,7 +210,6 @@
 
     invoke-virtual {v2, p0, v3}, Lio/grpc/internal/b1;->d(Ljava/lang/Object;Z)V
 
-    .line 5
     :cond_0
     iget-object v2, p0, Lio/grpc/inprocess/d$g;->g:Lio/grpc/inprocess/d;
 
@@ -245,7 +225,6 @@
 
     if-eqz v1, :cond_1
 
-    .line 6
     iget-object v1, p0, Lio/grpc/inprocess/d$g;->g:Lio/grpc/inprocess/d;
 
     invoke-static {v1}, Lio/grpc/inprocess/d;->k(Lio/grpc/inprocess/d;)Z
@@ -254,12 +233,10 @@
 
     if-eqz v1, :cond_1
 
-    .line 7
     iget-object v1, p0, Lio/grpc/inprocess/d$g;->g:Lio/grpc/inprocess/d;
 
     invoke-static {v1}, Lio/grpc/inprocess/d;->q(Lio/grpc/inprocess/d;)V
 
-    .line 8
     :cond_1
     monitor-exit v0
 

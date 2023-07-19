@@ -22,7 +22,6 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
     new-instance v0, Lcom/appsflyer/internal/s;
 
     invoke-direct {v0}, Lcom/appsflyer/internal/s;-><init>()V

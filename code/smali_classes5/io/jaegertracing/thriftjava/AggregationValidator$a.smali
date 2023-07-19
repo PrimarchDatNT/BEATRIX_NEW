@@ -24,7 +24,6 @@
 .method static constructor <clinit>()V
     .locals 3
 
-    .line 1
     invoke-static {}, Lio/jaegertracing/thriftjava/AggregationValidator$validateTrace_result$_Fields;->values()[Lio/jaegertracing/thriftjava/AggregationValidator$validateTrace_result$_Fields;
 
     move-result-object v0
@@ -48,7 +47,6 @@
     :try_end_0
     .catch Ljava/lang/NoSuchFieldError; {:try_start_0 .. :try_end_0} :catch_0
 
-    .line 2
     :catch_0
     invoke-static {}, Lio/jaegertracing/thriftjava/AggregationValidator$validateTrace_args$_Fields;->values()[Lio/jaegertracing/thriftjava/AggregationValidator$validateTrace_args$_Fields;
 

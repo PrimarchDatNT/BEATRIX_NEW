@@ -29,7 +29,6 @@
 .method constructor <init>(Lcom/google/common/collect/j2$d;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/common/collect/j2$d$a;->b:Lcom/google/common/collect/j2$d;
 
     invoke-direct {p0, p1}, Lcom/google/common/collect/j2$d$b;-><init>(Lcom/google/common/collect/j2$d;)V
@@ -51,7 +50,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/j2$d$a;->b:Lcom/google/common/collect/j2$d;
 
     invoke-static {v0}, Lcom/google/common/collect/j2$d;->a(Lcom/google/common/collect/j2$d;)Lcom/google/common/collect/Range;
@@ -64,27 +62,23 @@
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-static {}, Lcom/google/common/collect/Iterators;->u()Lcom/google/common/collect/l2;
 
     move-result-object v0
 
     return-object v0
 
-    .line 3
     :cond_0
     iget-object v0, p0, Lcom/google/common/collect/j2$d$a;->b:Lcom/google/common/collect/j2$d;
 
     iget-object v0, v0, Lcom/google/common/collect/j2$d;->b:Lcom/google/common/collect/j2;
 
-    .line 4
     invoke-static {v0}, Lcom/google/common/collect/j2;->a(Lcom/google/common/collect/j2;)Ljava/util/NavigableMap;
 
     move-result-object v0
 
     iget-object v1, p0, Lcom/google/common/collect/j2$d$a;->b:Lcom/google/common/collect/j2$d;
 
-    .line 5
     invoke-static {v1}, Lcom/google/common/collect/j2$d;->a(Lcom/google/common/collect/j2$d;)Lcom/google/common/collect/Range;
 
     move-result-object v1
@@ -97,22 +91,18 @@
 
     move-result-object v0
 
-    .line 6
     invoke-interface {v0}, Ljava/util/NavigableMap;->descendingMap()Ljava/util/NavigableMap;
 
     move-result-object v0
 
-    .line 7
     invoke-interface {v0}, Ljava/util/NavigableMap;->values()Ljava/util/Collection;
 
     move-result-object v0
 
-    .line 8
     invoke-interface {v0}, Ljava/util/Collection;->iterator()Ljava/util/Iterator;
 
     move-result-object v0
 
-    .line 9
     new-instance v1, Lcom/google/common/collect/j2$d$a$a;
 
     invoke-direct {v1, p0, v0}, Lcom/google/common/collect/j2$d$a$a;-><init>(Lcom/google/common/collect/j2$d$a;Ljava/util/Iterator;)V

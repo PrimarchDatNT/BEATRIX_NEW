@@ -27,7 +27,6 @@
 .method constructor <init>(Lcom/google/android/gms/internal/ads/j9;Lcom/google/android/gms/internal/ads/aa;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/android/gms/internal/ads/s9;->b:Lcom/google/android/gms/internal/ads/j9;
 
     iput-object p2, p0, Lcom/google/android/gms/internal/ads/s9;->a:Lcom/google/android/gms/internal/ads/aa;
@@ -42,10 +41,8 @@
 .method public final synthetic a(Ljava/lang/Object;)V
     .locals 2
 
-    .line 1
     check-cast p1, Lcom/google/android/gms/internal/ads/v8;
 
-    .line 2
     iget-object p1, p0, Lcom/google/android/gms/internal/ads/s9;->b:Lcom/google/android/gms/internal/ads/j9;
 
     invoke-static {p1}, Lcom/google/android/gms/internal/ads/j9;->d(Lcom/google/android/gms/internal/ads/j9;)Ljava/lang/Object;
@@ -54,7 +51,6 @@
 
     monitor-enter p1
 
-    .line 3
     :try_start_0
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/s9;->b:Lcom/google/android/gms/internal/ads/j9;
 
@@ -62,7 +58,6 @@
 
     invoke-static {v0, v1}, Lcom/google/android/gms/internal/ads/j9;->a(Lcom/google/android/gms/internal/ads/j9;I)I
 
-    .line 4
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/s9;->b:Lcom/google/android/gms/internal/ads/j9;
 
     invoke-static {v0}, Lcom/google/android/gms/internal/ads/j9;->i(Lcom/google/android/gms/internal/ads/j9;)Lcom/google/android/gms/internal/ads/aa;
@@ -83,10 +78,8 @@
 
     const-string v0, "New JS engine is loaded, marking previous one as destroyable."
 
-    .line 5
     invoke-static {v0}, Lcom/google/android/gms/internal/ads/sm;->m(Ljava/lang/String;)V
 
-    .line 6
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/s9;->b:Lcom/google/android/gms/internal/ads/j9;
 
     invoke-static {v0}, Lcom/google/android/gms/internal/ads/j9;->i(Lcom/google/android/gms/internal/ads/j9;)Lcom/google/android/gms/internal/ads/aa;
@@ -95,7 +88,6 @@
 
     invoke-virtual {v0}, Lcom/google/android/gms/internal/ads/aa;->i()V
 
-    .line 7
     :cond_0
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/s9;->b:Lcom/google/android/gms/internal/ads/j9;
 
@@ -103,7 +95,6 @@
 
     invoke-static {v0, v1}, Lcom/google/android/gms/internal/ads/j9;->b(Lcom/google/android/gms/internal/ads/j9;Lcom/google/android/gms/internal/ads/aa;)Lcom/google/android/gms/internal/ads/aa;
 
-    .line 8
     monitor-exit p1
 
     return-void

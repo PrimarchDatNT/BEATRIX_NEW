@@ -31,7 +31,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/kwai/koom/javaoom/analysis/i;-><init>()V
 
     return-void
@@ -40,24 +39,20 @@
 .method public constructor <init>(Lkshark/i;)V
     .locals 2
 
-    .line 2
     invoke-direct {p0}, Lcom/kwai/koom/javaoom/analysis/i;-><init>()V
 
     const-string v0, "android.app.Activity"
 
-    .line 3
     invoke-interface {p1, v0}, Lkshark/i;->d(Ljava/lang/String;)Lkshark/HeapObject$HeapClass;
 
     move-result-object p1
 
-    .line 4
     invoke-virtual {p1}, Lkshark/HeapObject$HeapClass;->g()J
 
     move-result-wide v0
 
     iput-wide v0, p0, Lcom/kwai/koom/javaoom/analysis/b;->c:J
 
-    .line 5
     new-instance p1, Lcom/kwai/koom/javaoom/analysis/d;
 
     invoke-direct {p1}, Lcom/kwai/koom/javaoom/analysis/d;-><init>()V
@@ -72,7 +67,6 @@
 .method public a()J
     .locals 2
 
-    .line 1
     iget-wide v0, p0, Lcom/kwai/koom/javaoom/analysis/b;->c:J
 
     return-wide v0
@@ -96,7 +90,6 @@
         }
     .end annotation
 
-    .line 1
     const-class v0, Landroid/app/Activity;
 
     return-object v0
@@ -105,7 +98,6 @@
 .method public e()Lcom/kwai/koom/javaoom/analysis/d;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/kwai/koom/javaoom/analysis/b;->d:Lcom/kwai/koom/javaoom/analysis/d;
 
     return-object v0
@@ -114,7 +106,6 @@
 .method public f(Lkshark/HeapObject$HeapInstance;)Z
     .locals 6
 
-    .line 1
     iget-boolean v0, p0, Lcom/kwai/koom/javaoom/analysis/i;->a:Z
 
     const-string v1, "ActivityLeakDetector"
@@ -123,10 +114,8 @@
 
     const-string v0, "run isLeak"
 
-    .line 2
     invoke-static {v1, v0}, Lcom/kwai/koom/javaoom/common/e;->c(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 3
     :cond_0
     iget-object v0, p0, Lcom/kwai/koom/javaoom/analysis/b;->d:Lcom/kwai/koom/javaoom/analysis/d;
 
@@ -142,19 +131,16 @@
 
     const-string v2, "mDestroyed"
 
-    .line 4
     invoke-virtual {p1, v0, v2}, Lkshark/HeapObject$HeapInstance;->j(Ljava/lang/String;Ljava/lang/String;)Lkshark/h;
 
     move-result-object v2
 
     const-string v4, "mFinished"
 
-    .line 5
     invoke-virtual {p1, v0, v4}, Lkshark/HeapObject$HeapInstance;->j(Ljava/lang/String;Ljava/lang/String;)Lkshark/h;
 
     move-result-object v0
 
-    .line 6
     invoke-virtual {v2}, Lkshark/h;->c()Lkshark/j;
 
     move-result-object v4
@@ -167,7 +153,6 @@
 
     if-eqz v4, :cond_2
 
-    .line 7
     invoke-virtual {v0}, Lkshark/h;->c()Lkshark/j;
 
     move-result-object v4
@@ -194,12 +179,10 @@
 
     const-string p1, "ABNORMAL destroyField or finishedField is null"
 
-    .line 8
     invoke-static {v1, p1}, Lcom/kwai/koom/javaoom/common/e;->b(Ljava/lang/String;Ljava/lang/String;)V
 
     return v5
 
-    .line 9
     :cond_3
     invoke-virtual {v2}, Lkshark/h;->c()Lkshark/j;
 
@@ -215,7 +198,6 @@
 
     if-nez v2, :cond_4
 
-    .line 10
     invoke-virtual {v0}, Lkshark/h;->c()Lkshark/j;
 
     move-result-object v0
@@ -236,12 +218,10 @@
     :cond_5
     if-eqz v5, :cond_7
 
-    .line 11
     iget-boolean v0, p0, Lcom/kwai/koom/javaoom/analysis/i;->a:Z
 
     if-eqz v0, :cond_6
 
-    .line 12
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -262,7 +242,6 @@
 
     invoke-static {v1, p1}, Lcom/kwai/koom/javaoom/common/e;->b(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 13
     :cond_6
     iget-object p1, p0, Lcom/kwai/koom/javaoom/analysis/b;->d:Lcom/kwai/koom/javaoom/analysis/d;
 

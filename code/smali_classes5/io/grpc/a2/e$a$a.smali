@@ -29,7 +29,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lio/grpc/a2/e$a$a;->b:Lio/grpc/a2/e$a;
 
     iput-object p2, p0, Lio/grpc/a2/e$a$a;->a:Lio/grpc/Status;
@@ -44,7 +43,6 @@
 .method public a(Lio/grpc/t0$f;)Lio/grpc/t0$e;
     .locals 0
 
-    .line 1
     iget-object p1, p0, Lio/grpc/a2/e$a$a;->a:Lio/grpc/Status;
 
     invoke-static {p1}, Lio/grpc/t0$e;->f(Lio/grpc/Status;)Lio/grpc/t0$e;
@@ -57,7 +55,6 @@
 .method public toString()Ljava/lang/String;
     .locals 3
 
-    .line 1
     const-class v0, Lio/grpc/a2/e$a$a;
 
     invoke-static {v0}, Lcom/google/common/base/p;->b(Ljava/lang/Class;)Lcom/google/common/base/p$b;

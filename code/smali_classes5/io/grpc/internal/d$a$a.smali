@@ -22,7 +22,6 @@
 .method constructor <init>(Lio/grpc/internal/d$a;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lio/grpc/internal/d$a$a;->a:Lio/grpc/internal/d$a;
 
     invoke-direct {p0}, Lio/grpc/z0;-><init>()V
@@ -35,7 +34,6 @@
 .method public a()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lio/grpc/internal/d$a$a;->a:Lio/grpc/internal/d$a;
 
     iget-object v0, v0, Lio/grpc/internal/d$a;->f:Ljava/lang/String;
@@ -52,7 +50,6 @@
 .method public d(Lio/grpc/z0$f;)V
     .locals 3
 
-    .line 1
     invoke-static {}, Lio/grpc/z0$h;->d()Lio/grpc/z0$h$a;
 
     move-result-object v0
@@ -65,7 +62,6 @@
 
     invoke-direct {v1, v2}, Lio/grpc/u;-><init>(Ljava/net/SocketAddress;)V
 
-    .line 2
     invoke-static {v1}, Ljava/util/Collections;->singletonList(Ljava/lang/Object;)Ljava/util/List;
 
     move-result-object v1
@@ -76,17 +72,14 @@
 
     sget-object v1, Lio/grpc/a;->b:Lio/grpc/a;
 
-    .line 3
     invoke-virtual {v0, v1}, Lio/grpc/z0$h$a;->c(Lio/grpc/a;)Lio/grpc/z0$h$a;
 
     move-result-object v0
 
-    .line 4
     invoke-virtual {v0}, Lio/grpc/z0$h$a;->a()Lio/grpc/z0$h;
 
     move-result-object v0
 
-    .line 5
     invoke-virtual {p1, v0}, Lio/grpc/z0$f;->c(Lio/grpc/z0$h;)V
 
     return-void

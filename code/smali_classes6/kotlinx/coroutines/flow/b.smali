@@ -63,7 +63,6 @@
         }
     .end annotation
 
-    .line 3
     invoke-direct {p0, p2, p3}, Lcotlinx/coroutines/flow/internal/ChannelFlow;-><init>(Lcotlin/coroutines/CoroutineContext;I)V
 
     iput-object p1, p0, Lcotlinx/coroutines/flow/b;->c:Lcotlin/jvm/u/p;
@@ -78,7 +77,6 @@
 
     if-eqz p5, :cond_0
 
-    .line 1
     sget-object p2, Lcotlin/coroutines/EmptyCoroutineContext;->INSTANCE:Lcotlin/coroutines/EmptyCoroutineContext;
 
     :cond_0
@@ -88,7 +86,6 @@
 
     const/4 p3, -0x2
 
-    .line 2
     :cond_1
     invoke-direct {p0, p1, p2, p3}, Lcotlinx/coroutines/flow/b;-><init>(Lcotlin/jvm/u/p;Lcotlin/coroutines/CoroutineContext;I)V
 
@@ -98,7 +95,6 @@
 .method static synthetic l(Lcotlinx/coroutines/flow/b;Lcotlinx/coroutines/channels/w;Lcotlin/coroutines/c;)Ljava/lang/Object;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lcotlinx/coroutines/flow/b;->c:Lcotlin/jvm/u/p;
 
     invoke-interface {p0, p1, p2}, Lcotlin/jvm/u/p;->invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
@@ -173,7 +169,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     new-instance v0, Lcotlinx/coroutines/flow/b;
 
     iget-object v1, p0, Lcotlinx/coroutines/flow/b;->c:Lcotlin/jvm/u/p;
@@ -188,7 +183,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V

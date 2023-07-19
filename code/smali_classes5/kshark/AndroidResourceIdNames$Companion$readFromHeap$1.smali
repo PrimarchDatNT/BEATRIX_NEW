@@ -50,7 +50,6 @@
 .method public bridge synthetic invoke()Ljava/lang/Object;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lkshark/AndroidResourceIdNames$Companion$readFromHeap$1;->invoke()Lkshark/AndroidResourceIdNames;
 
     move-result-object v0
@@ -63,14 +62,12 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 2
     const-class v0, Lkshark/AndroidResourceIdNames;
 
     invoke-virtual {v0}, Ljava/lang/Class;->getName()Ljava/lang/String;
 
     move-result-object v0
 
-    .line 3
     iget-object v1, p0, Lkshark/AndroidResourceIdNames$Companion$readFromHeap$1;->$graph:Lkshark/i;
 
     const-string v2, "className"
@@ -87,7 +84,6 @@
 
     const-string v3, "holderField"
 
-    .line 4
     invoke-virtual {v1, v3}, Lkshark/HeapObject$HeapClass;->j(Ljava/lang/String;)Lkshark/h;
 
     move-result-object v1
@@ -96,7 +92,6 @@
 
     invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
-    .line 5
     :cond_0
     invoke-virtual {v1}, Lkshark/h;->e()Lkshark/HeapObject$HeapInstance;
 
@@ -106,7 +101,6 @@
 
     const-string v3, "resourceIds"
 
-    .line 6
     invoke-virtual {v1, v0, v3}, Lkshark/HeapObject$HeapInstance;->j(Ljava/lang/String;Ljava/lang/String;)Lkshark/h;
 
     move-result-object v3
@@ -139,7 +133,6 @@
 
     const-string v4, "names"
 
-    .line 7
     invoke-virtual {v1, v0, v4}, Lkshark/HeapObject$HeapInstance;->j(Ljava/lang/String;Ljava/lang/String;)Lkshark/h;
 
     move-result-object v0
@@ -162,14 +155,12 @@
 
     move-result-object v0
 
-    .line 8
     sget-object v1, Lkshark/AndroidResourceIdNames$Companion$readFromHeap$1$1$1$names$1;->INSTANCE:Lkshark/AndroidResourceIdNames$Companion$readFromHeap$1$1$1$names$1;
 
     invoke-static {v0, v1}, Lcotlin/sequences/p;->b1(Lcotlin/sequences/m;Lcotlin/jvm/u/l;)Lcotlin/sequences/m;
 
     move-result-object v0
 
-    .line 9
     invoke-static {v0}, Lcotlin/sequences/p;->V2(Lcotlin/sequences/m;)Ljava/util/List;
 
     move-result-object v0
@@ -178,17 +169,14 @@
 
     new-array v1, v1, [Ljava/lang/String;
 
-    .line 10
     invoke-interface {v0, v1}, Ljava/util/Collection;->toArray([Ljava/lang/Object;)[Ljava/lang/Object;
 
     move-result-object v0
 
     if-eqz v0, :cond_5
 
-    .line 11
     check-cast v0, [Ljava/lang/String;
 
-    .line 12
     new-instance v1, Lkshark/AndroidResourceIdNames;
 
     invoke-direct {v1, v3, v0, v2}, Lkshark/AndroidResourceIdNames;-><init>([I[Ljava/lang/String;Lcotlin/jvm/internal/u;)V
@@ -197,7 +185,6 @@
 
     goto :goto_0
 
-    .line 13
     :cond_5
     new-instance v0, Lcotlin/TypeCastException;
 
@@ -207,7 +194,6 @@
 
     throw v0
 
-    .line 14
     :cond_6
     new-instance v0, Lcotlin/TypeCastException;
 

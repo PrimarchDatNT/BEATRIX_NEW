@@ -25,7 +25,6 @@
 .method constructor <init>(Ljava/util/concurrent/Future;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/common/util/concurrent/a0$a;->a:Ljava/util/concurrent/Future;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -38,7 +37,6 @@
 .method public run()V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/util/concurrent/a0$a;->a:Ljava/util/concurrent/Future;
 
     const/4 v1, 0x0

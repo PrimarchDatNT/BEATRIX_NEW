@@ -58,7 +58,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/meitu/global/billing/net/HttpConstant$ErrorMsg;
 
     const-string v2, "SUCCESS"
@@ -69,7 +68,6 @@
 
     sput-object v1, Lcom/meitu/global/billing/net/HttpConstant$ErrorMsg;->SUCCESS:Lcom/meitu/global/billing/net/HttpConstant$ErrorMsg;
 
-    .line 2
     new-instance v2, Lcom/meitu/global/billing/net/HttpConstant$ErrorMsg;
 
     const-string v4, "UNKNOWN_ERROR"
@@ -82,7 +80,6 @@
 
     sput-object v2, Lcom/meitu/global/billing/net/HttpConstant$ErrorMsg;->UNKNOWN_ERROR:Lcom/meitu/global/billing/net/HttpConstant$ErrorMsg;
 
-    .line 3
     new-instance v4, Lcom/meitu/global/billing/net/HttpConstant$ErrorMsg;
 
     const-string v6, "INNER_ERROR"
@@ -95,7 +92,6 @@
 
     sput-object v4, Lcom/meitu/global/billing/net/HttpConstant$ErrorMsg;->INNER_ERROR:Lcom/meitu/global/billing/net/HttpConstant$ErrorMsg;
 
-    .line 4
     new-instance v6, Lcom/meitu/global/billing/net/HttpConstant$ErrorMsg;
 
     const-string v8, "SERVER_ERROR"
@@ -108,7 +104,6 @@
 
     sput-object v6, Lcom/meitu/global/billing/net/HttpConstant$ErrorMsg;->SERVER_ERROR:Lcom/meitu/global/billing/net/HttpConstant$ErrorMsg;
 
-    .line 5
     new-instance v8, Lcom/meitu/global/billing/net/HttpConstant$ErrorMsg;
 
     const-string v10, "NET_ERROR"
@@ -121,7 +116,6 @@
 
     sput-object v8, Lcom/meitu/global/billing/net/HttpConstant$ErrorMsg;->NET_ERROR:Lcom/meitu/global/billing/net/HttpConstant$ErrorMsg;
 
-    .line 6
     new-instance v10, Lcom/meitu/global/billing/net/HttpConstant$ErrorMsg;
 
     const-string v12, "CERTIFICATE_ERROR"
@@ -134,7 +128,6 @@
 
     sput-object v10, Lcom/meitu/global/billing/net/HttpConstant$ErrorMsg;->CERTIFICATE_ERROR:Lcom/meitu/global/billing/net/HttpConstant$ErrorMsg;
 
-    .line 7
     new-instance v12, Lcom/meitu/global/billing/net/HttpConstant$ErrorMsg;
 
     const-string v14, "CERTIFICATE_NOT_YET_VALID_ERROR"
@@ -147,7 +140,6 @@
 
     sput-object v12, Lcom/meitu/global/billing/net/HttpConstant$ErrorMsg;->CERTIFICATE_NOT_YET_VALID_ERROR:Lcom/meitu/global/billing/net/HttpConstant$ErrorMsg;
 
-    .line 8
     new-instance v0, Lcom/meitu/global/billing/net/HttpConstant$ErrorMsg;
 
     const-string v14, "CERTIFICATE_EXPIRED_ERROR"
@@ -160,7 +152,6 @@
 
     sput-object v0, Lcom/meitu/global/billing/net/HttpConstant$ErrorMsg;->CERTIFICATE_EXPIRED_ERROR:Lcom/meitu/global/billing/net/HttpConstant$ErrorMsg;
 
-    .line 9
     new-instance v13, Lcom/meitu/global/billing/net/HttpConstant$ErrorMsg;
 
     const-string v14, "IO_ERROR"
@@ -203,7 +194,6 @@
 
     aput-object v13, v11, v15
 
-    .line 10
     sput-object v11, Lcom/meitu/global/billing/net/HttpConstant$ErrorMsg;->$VALUES:[Lcom/meitu/global/billing/net/HttpConstant$ErrorMsg;
 
     const v0, 0xc7bc
@@ -223,13 +213,10 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 2
     iput p3, p0, Lcom/meitu/global/billing/net/HttpConstant$ErrorMsg;->errorCode:I
 
-    .line 3
     iput-object p4, p0, Lcom/meitu/global/billing/net/HttpConstant$ErrorMsg;->errorStr:Ljava/lang/String;
 
     return-void
@@ -242,7 +229,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     const-class v1, Lcom/meitu/global/billing/net/HttpConstant$ErrorMsg;
 
     invoke-static {v1, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -263,7 +249,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/meitu/global/billing/net/HttpConstant$ErrorMsg;->$VALUES:[Lcom/meitu/global/billing/net/HttpConstant$ErrorMsg;
 
     invoke-virtual {v1}, [Lcom/meitu/global/billing/net/HttpConstant$ErrorMsg;->clone()Ljava/lang/Object;
@@ -286,7 +271,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/global/billing/net/HttpConstant$ErrorMsg;->errorCode:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -301,7 +285,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/global/billing/net/HttpConstant$ErrorMsg;->errorStr:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

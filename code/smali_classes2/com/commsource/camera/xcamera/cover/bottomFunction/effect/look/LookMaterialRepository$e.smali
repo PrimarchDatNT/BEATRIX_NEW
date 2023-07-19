@@ -58,7 +58,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/LookConfig;->g:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/LookConfig$a;
 
     invoke-virtual {v1}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/LookConfig$a;->c()Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/LookConfig;
@@ -69,7 +68,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/LookConfig;->l(Z)V
 
-    .line 2
     new-instance v1, Lcom/meitu/template/bean/LookMaterial;
 
     move-object v3, v1
@@ -112,7 +110,6 @@
 
     invoke-direct/range {v3 .. v19}, Lcom/meitu/template/bean/LookMaterial;-><init>(JILjava/lang/String;ILjava/lang/String;JLjava/lang/String;Ljava/lang/String;IILjava/lang/String;III)V
 
-    .line 3
     new-instance v2, Lcom/meitu/template/bean/LookMaterial;
 
     move-object/from16 v20, v2
@@ -149,7 +146,6 @@
 
     invoke-direct/range {v20 .. v36}, Lcom/meitu/template/bean/LookMaterial;-><init>(JILjava/lang/String;ILjava/lang/String;JLjava/lang/String;Ljava/lang/String;IILjava/lang/String;III)V
 
-    .line 4
     sget-object v3, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/LookMaterialRepository;->l:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/LookMaterialRepository;
 
     invoke-virtual {v3}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/LookMaterialRepository;->q()Lf/k/i0/a/b0;
@@ -158,14 +154,12 @@
 
     invoke-interface {v4, v1}, Lf/k/i0/a/b0;->S1(Lcom/meitu/template/bean/LookMaterial;)V
 
-    .line 5
     invoke-virtual {v3}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/LookMaterialRepository;->q()Lf/k/i0/a/b0;
 
     move-result-object v1
 
     invoke-interface {v1, v2}, Lf/k/i0/a/b0;->S1(Lcom/meitu/template/bean/LookMaterial;)V
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

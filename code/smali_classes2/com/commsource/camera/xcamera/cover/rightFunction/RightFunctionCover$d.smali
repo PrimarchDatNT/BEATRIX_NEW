@@ -54,7 +54,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/rightFunction/RightFunctionCover$d;->a:Lcom/commsource/camera/xcamera/cover/rightFunction/RightFunctionCover;
 
     invoke-virtual {v1}, Lcom/commsource/camera/xcamera/cover/rightFunction/RightFunctionCover;->M()Lcom/commsource/camera/f1/n;
@@ -92,7 +91,6 @@
 
     invoke-virtual {v1, v2, v3}, Lcom/commsource/camera/f1/n;->f(FF)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/rightFunction/RightFunctionCover$d;->a:Lcom/commsource/camera/xcamera/cover/rightFunction/RightFunctionCover;
 
     invoke-virtual {v1}, Lcom/commsource/camera/xcamera/cover/rightFunction/RightFunctionCover;->J()Lcom/commsource/camera/f1/n;
@@ -130,7 +128,6 @@
 
     invoke-virtual {v1, v2, p1}, Lcom/commsource/camera/f1/n;->f(FF)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -143,7 +140,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Ljava/lang/Integer;
 
     invoke-virtual {p0, p1}, Lcom/commsource/camera/xcamera/cover/rightFunction/RightFunctionCover$d;->a(Ljava/lang/Integer;)V

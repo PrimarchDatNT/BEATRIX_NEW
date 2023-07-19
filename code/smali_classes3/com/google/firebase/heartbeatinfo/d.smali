@@ -25,14 +25,12 @@
 .method private constructor <init>(Landroid/content/Context;)V
     .locals 2
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const-string v0, "FirebaseAppHeartBeat"
 
     const/4 v1, 0x0
 
-    .line 2
     invoke-virtual {p1, v0, v1}, Landroid/content/Context;->getSharedPreferences(Ljava/lang/String;I)Landroid/content/SharedPreferences;
 
     move-result-object p1
@@ -53,10 +51,8 @@
     .annotation build Landroidx/annotation/VisibleForTesting;
     .end annotation
 
-    .line 3
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 4
     iput-object p1, p0, Lcom/google/firebase/heartbeatinfo/d;->a:Landroid/content/SharedPreferences;
 
     return-void
@@ -69,20 +65,17 @@
 
     monitor-enter v0
 
-    .line 1
     :try_start_0
     sget-object v1, Lcom/google/firebase/heartbeatinfo/d;->b:Lcom/google/firebase/heartbeatinfo/d;
 
     if-nez v1, :cond_0
 
-    .line 2
     new-instance v1, Lcom/google/firebase/heartbeatinfo/d;
 
     invoke-direct {v1, p0}, Lcom/google/firebase/heartbeatinfo/d;-><init>(Landroid/content/Context;)V
 
     sput-object v1, Lcom/google/firebase/heartbeatinfo/d;->b:Lcom/google/firebase/heartbeatinfo/d;
 
-    .line 3
     :cond_0
     sget-object p0, Lcom/google/firebase/heartbeatinfo/d;->b:Lcom/google/firebase/heartbeatinfo/d;
     :try_end_0
@@ -110,7 +103,6 @@
     :try_start_0
     const-string v0, "fire-global"
 
-    .line 1
     invoke-virtual {p0, v0, p1, p2}, Lcom/google/firebase/heartbeatinfo/d;->c(Ljava/lang/String;J)Z
 
     move-result p1
@@ -134,7 +126,6 @@
 
     monitor-enter p0
 
-    .line 1
     :try_start_0
     iget-object v0, p0, Lcom/google/firebase/heartbeatinfo/d;->a:Landroid/content/SharedPreferences;
 
@@ -146,7 +137,6 @@
 
     if-eqz v0, :cond_1
 
-    .line 2
     iget-object v0, p0, Lcom/google/firebase/heartbeatinfo/d;->a:Landroid/content/SharedPreferences;
 
     const-wide/16 v2, -0x1
@@ -163,7 +153,6 @@
 
     if-ltz v0, :cond_0
 
-    .line 3
     iget-object v0, p0, Lcom/google/firebase/heartbeatinfo/d;->a:Landroid/content/SharedPreferences;
 
     invoke-interface {v0}, Landroid/content/SharedPreferences;->edit()Landroid/content/SharedPreferences$Editor;
@@ -178,7 +167,6 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 4
     monitor-exit p0
 
     return v1
@@ -186,12 +174,10 @@
     :cond_0
     const/4 p1, 0x0
 
-    .line 5
     monitor-exit p0
 
     return p1
 
-    .line 6
     :cond_1
     :try_start_1
     iget-object v0, p0, Lcom/google/firebase/heartbeatinfo/d;->a:Landroid/content/SharedPreferences;
@@ -208,7 +194,6 @@
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
-    .line 7
     monitor-exit p0
 
     return v1

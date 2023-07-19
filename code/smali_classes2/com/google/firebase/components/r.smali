@@ -49,24 +49,20 @@
 .method constructor <init>(Ljava/util/concurrent/Executor;)V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     new-instance v0, Ljava/util/HashMap;
 
     invoke-direct {v0}, Ljava/util/HashMap;-><init>()V
 
     iput-object v0, p0, Lcom/google/firebase/components/r;->a:Ljava/util/Map;
 
-    .line 3
     new-instance v0, Ljava/util/ArrayDeque;
 
     invoke-direct {v0}, Ljava/util/ArrayDeque;-><init>()V
 
     iput-object v0, p0, Lcom/google/firebase/components/r;->b:Ljava/util/Queue;
 
-    .line 4
     iput-object p1, p0, Lcom/google/firebase/components/r;->c:Ljava/util/concurrent/Executor;
 
     return-void
@@ -91,7 +87,6 @@
 
     monitor-enter p0
 
-    .line 1
     :try_start_0
     iget-object v0, p0, Lcom/google/firebase/components/r;->a:Ljava/util/Map;
 
@@ -107,7 +102,6 @@
 
     if-nez p1, :cond_0
 
-    .line 2
     invoke-static {}, Ljava/util/Collections;->emptySet()Ljava/util/Set;
 
     move-result-object p1
@@ -137,7 +131,6 @@
 .method static synthetic g(Ljava/util/Map$Entry;Lcom/google/firebase/p/a;)V
     .locals 0
 
-    .line 1
     invoke-interface {p0}, Ljava/util/Map$Entry;->getKey()Ljava/lang/Object;
 
     move-result-object p0
@@ -165,7 +158,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/components/r;->c:Ljava/util/concurrent/Executor;
 
     invoke-virtual {p0, p1, v0, p2}, Lcom/google/firebase/components/r;->b(Ljava/lang/Class;Ljava/util/concurrent/Executor;Lcom/google/firebase/p/b;)V
@@ -190,17 +182,13 @@
 
     monitor-enter p0
 
-    .line 1
     :try_start_0
     invoke-static {p1}, Lcom/google/firebase/components/t;->b(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 2
     invoke-static {p3}, Lcom/google/firebase/components/t;->b(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 3
     invoke-static {p2}, Lcom/google/firebase/components/t;->b(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 4
     iget-object v0, p0, Lcom/google/firebase/components/r;->a:Ljava/util/Map;
 
     invoke-interface {v0, p1}, Ljava/util/Map;->containsKey(Ljava/lang/Object;)Z
@@ -209,7 +197,6 @@
 
     if-nez v0, :cond_0
 
-    .line 5
     iget-object v0, p0, Lcom/google/firebase/components/r;->a:Ljava/util/Map;
 
     new-instance v1, Ljava/util/concurrent/ConcurrentHashMap;
@@ -218,7 +205,6 @@
 
     invoke-interface {v0, p1, v1}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 6
     :cond_0
     iget-object v0, p0, Lcom/google/firebase/components/r;->a:Ljava/util/Map;
 
@@ -232,7 +218,6 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 7
     monitor-exit p0
 
     return-void
@@ -255,33 +240,26 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p1}, Lcom/google/firebase/components/t;->b(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 2
     monitor-enter p0
 
-    .line 3
     :try_start_0
     iget-object v0, p0, Lcom/google/firebase/components/r;->b:Ljava/util/Queue;
 
     if-eqz v0, :cond_0
 
-    .line 4
     invoke-interface {v0, p1}, Ljava/util/Queue;->add(Ljava/lang/Object;)Z
 
-    .line 5
     monitor-exit p0
 
     return-void
 
-    .line 6
     :cond_0
     monitor-exit p0
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 7
     invoke-direct {p0, p1}, Lcom/google/firebase/components/r;->f(Lcom/google/firebase/p/a;)Ljava/util/Set;
 
     move-result-object v0
@@ -303,7 +281,6 @@
 
     check-cast v1, Ljava/util/Map$Entry;
 
-    .line 8
     invoke-interface {v1}, Ljava/util/Map$Entry;->getValue()Ljava/lang/Object;
 
     move-result-object v2
@@ -324,7 +301,6 @@
     :catchall_0
     move-exception p1
 
-    .line 9
     :try_start_1
     monitor-exit p0
     :try_end_1
@@ -349,14 +325,11 @@
 
     monitor-enter p0
 
-    .line 1
     :try_start_0
     invoke-static {p1}, Lcom/google/firebase/components/t;->b(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 2
     invoke-static {p2}, Lcom/google/firebase/components/t;->b(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 3
     iget-object v0, p0, Lcom/google/firebase/components/r;->a:Ljava/util/Map;
 
     invoke-interface {v0, p1}, Ljava/util/Map;->containsKey(Ljava/lang/Object;)Z
@@ -367,12 +340,10 @@
 
     if-nez v0, :cond_0
 
-    .line 4
     monitor-exit p0
 
     return-void
 
-    .line 5
     :cond_0
     :try_start_1
     iget-object v0, p0, Lcom/google/firebase/components/r;->a:Ljava/util/Map;
@@ -383,24 +354,20 @@
 
     check-cast v0, Ljava/util/concurrent/ConcurrentHashMap;
 
-    .line 6
     invoke-virtual {v0, p2}, Ljava/util/concurrent/ConcurrentHashMap;->remove(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 7
     invoke-virtual {v0}, Ljava/util/concurrent/ConcurrentHashMap;->isEmpty()Z
 
     move-result p2
 
     if-eqz p2, :cond_1
 
-    .line 8
     iget-object p2, p0, Lcom/google/firebase/components/r;->a:Ljava/util/Map;
 
     invoke-interface {p2, p1}, Ljava/util/Map;->remove(Ljava/lang/Object;)Ljava/lang/Object;
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
-    .line 9
     :cond_1
     monitor-exit p0
 
@@ -417,10 +384,8 @@
 .method e()V
     .locals 2
 
-    .line 1
     monitor-enter p0
 
-    .line 2
     :try_start_0
     iget-object v0, p0, Lcom/google/firebase/components/r;->b:Ljava/util/Queue;
 
@@ -428,7 +393,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 3
     iput-object v1, p0, Lcom/google/firebase/components/r;->b:Ljava/util/Queue;
 
     goto :goto_0
@@ -436,7 +400,6 @@
     :cond_0
     move-object v0, v1
 
-    .line 4
     :goto_0
     monitor-exit p0
     :try_end_0
@@ -444,7 +407,6 @@
 
     if-eqz v0, :cond_1
 
-    .line 5
     invoke-interface {v0}, Ljava/util/Queue;->iterator()Ljava/util/Iterator;
 
     move-result-object v0
@@ -462,7 +424,6 @@
 
     check-cast v1, Lcom/google/firebase/p/a;
 
-    .line 6
     invoke-virtual {p0, v1}, Lcom/google/firebase/components/r;->c(Lcom/google/firebase/p/a;)V
 
     goto :goto_1
@@ -473,7 +434,6 @@
     :catchall_0
     move-exception v0
 
-    .line 7
     :try_start_1
     monitor-exit p0
     :try_end_1

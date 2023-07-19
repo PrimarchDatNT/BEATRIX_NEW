@@ -22,7 +22,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/bumptech/glide/p/a;-><init>()V
 
     return-void
@@ -37,14 +36,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/bumptech/glide/load/engine/x/l$a;
 
     invoke-direct {v1, p1}, Lcom/bumptech/glide/load/engine/x/l$a;-><init>(Landroid/content/Context;)V
 
     const v2, 0x3ea8f5c3    # 0.33f
 
-    .line 2
     invoke-virtual {v1, v2}, Lcom/bumptech/glide/load/engine/x/l$a;->f(F)Lcom/bumptech/glide/load/engine/x/l$a;
 
     move-result-object v1
@@ -55,10 +52,8 @@
 
     move-result-object v1
 
-    .line 3
     invoke-virtual {p2, v1}, Lcom/bumptech/glide/d;->r(Lcom/bumptech/glide/load/engine/x/l$a;)Lcom/bumptech/glide/d;
 
-    .line 4
     new-instance v1, Lcom/commsource/beautyplus/BeautyPlusGlideModule$a;
 
     const-string v2, "glide_disk_cache"
@@ -69,7 +64,6 @@
 
     invoke-virtual {p2, v1}, Lcom/bumptech/glide/d;->j(Lcom/bumptech/glide/load/engine/x/a$a;)Lcom/bumptech/glide/d;
 
-    .line 5
     invoke-static {}, Lcom/commsource/util/x;->C()Z
 
     move-result p1
@@ -86,7 +80,6 @@
     :goto_0
     invoke-virtual {p2, p1}, Lcom/bumptech/glide/d;->o(I)Lcom/bumptech/glide/d;
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -111,7 +104,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lf/k/k/s;->l()Lf/k/k/s;
 
     move-result-object v1
@@ -122,7 +114,6 @@
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-static {}, Lf/k/k/s;->l()Lf/k/k/s;
 
     move-result-object p1
@@ -131,7 +122,6 @@
 
     move-result-object p1
 
-    .line 3
     const-class p2, Lcom/bumptech/glide/load/k/g;
 
     const-class v1, Ljava/io/InputStream;
@@ -144,11 +134,9 @@
 
     goto :goto_0
 
-    .line 4
     :cond_0
     invoke-super {p0, p1, p2, p3}, Lcom/bumptech/glide/p/d;->b(Landroid/content/Context;Lcom/bumptech/glide/c;Lcom/bumptech/glide/Registry;)V
 
-    .line 5
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

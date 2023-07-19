@@ -15,16 +15,12 @@
 .method constructor <init>(Ljava/lang/String;Lcom/google/android/gms/internal/ads/zzdor;Lcom/google/android/gms/internal/ads/zzdor;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/google/android/gms/internal/ads/sq0;->a:Ljava/lang/String;
 
-    .line 3
     iput-object p2, p0, Lcom/google/android/gms/internal/ads/sq0;->b:Lcom/google/android/gms/internal/ads/zzdor;
 
-    .line 4
     iput-object p3, p0, Lcom/google/android/gms/internal/ads/sq0;->c:Lcom/google/android/gms/internal/ads/zzdor;
 
     return-void
@@ -33,7 +29,6 @@
 .method static synthetic a(Lcom/google/android/gms/internal/ads/sq0;)Lcom/google/android/gms/internal/ads/zzdor;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lcom/google/android/gms/internal/ads/sq0;->c:Lcom/google/android/gms/internal/ads/zzdor;
 
     return-object p0
@@ -42,7 +37,6 @@
 .method static synthetic b(Lcom/google/android/gms/internal/ads/sq0;)Lcom/google/android/gms/internal/ads/zzdor;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lcom/google/android/gms/internal/ads/sq0;->b:Lcom/google/android/gms/internal/ads/zzdor;
 
     return-object p0
@@ -51,7 +45,6 @@
 .method static synthetic c(Lcom/google/android/gms/internal/ads/sq0;)Ljava/lang/String;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lcom/google/android/gms/internal/ads/sq0;->a:Ljava/lang/String;
 
     return-object p0

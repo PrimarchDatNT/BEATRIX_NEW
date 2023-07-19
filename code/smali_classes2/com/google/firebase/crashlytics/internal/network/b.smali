@@ -7,7 +7,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -18,7 +17,6 @@
 .method public a(Lcom/google/firebase/crashlytics/internal/network/HttpMethod;Ljava/lang/String;)Lcom/google/firebase/crashlytics/internal/network/a;
     .locals 1
 
-    .line 1
     invoke-static {}, Ljava/util/Collections;->emptyMap()Ljava/util/Map;
 
     move-result-object v0
@@ -45,7 +43,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/google/firebase/crashlytics/internal/network/a;
 
     invoke-direct {v0, p1, p2, p3}, Lcom/google/firebase/crashlytics/internal/network/a;-><init>(Lcom/google/firebase/crashlytics/internal/network/HttpMethod;Ljava/lang/String;Ljava/util/Map;)V

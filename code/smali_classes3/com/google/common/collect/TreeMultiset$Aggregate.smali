@@ -34,7 +34,6 @@
 .method static constructor <clinit>()V
     .locals 5
 
-    .line 1
     new-instance v0, Lcom/google/common/collect/TreeMultiset$Aggregate$1;
 
     const-string v1, "SIZE"
@@ -45,7 +44,6 @@
 
     sput-object v0, Lcom/google/common/collect/TreeMultiset$Aggregate;->SIZE:Lcom/google/common/collect/TreeMultiset$Aggregate;
 
-    .line 2
     new-instance v1, Lcom/google/common/collect/TreeMultiset$Aggregate$2;
 
     const-string v3, "DISTINCT"
@@ -64,7 +62,6 @@
 
     aput-object v1, v3, v4
 
-    .line 3
     sput-object v3, Lcom/google/common/collect/TreeMultiset$Aggregate;->$VALUES:[Lcom/google/common/collect/TreeMultiset$Aggregate;
 
     return-void
@@ -78,7 +75,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
     return-void
@@ -87,7 +83,6 @@
 .method synthetic constructor <init>(Ljava/lang/String;ILcom/google/common/collect/TreeMultiset$a;)V
     .locals 0
 
-    .line 2
     invoke-direct {p0, p1, p2}, Lcom/google/common/collect/TreeMultiset$Aggregate;-><init>(Ljava/lang/String;I)V
 
     return-void
@@ -96,7 +91,6 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/google/common/collect/TreeMultiset$Aggregate;
     .locals 1
 
-    .line 1
     const-class v0, Lcom/google/common/collect/TreeMultiset$Aggregate;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -111,7 +105,6 @@
 .method public static values()[Lcom/google/common/collect/TreeMultiset$Aggregate;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/google/common/collect/TreeMultiset$Aggregate;->$VALUES:[Lcom/google/common/collect/TreeMultiset$Aggregate;
 
     invoke-virtual {v0}, [Lcom/google/common/collect/TreeMultiset$Aggregate;->clone()Ljava/lang/Object;

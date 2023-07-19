@@ -11,7 +11,6 @@
 .method constructor <init>(Lcom/google/android/gms/internal/ads/op;Ljava/lang/String;)V
     .locals 0
 
-    .line 1
     iput-object p2, p0, Lcom/google/android/gms/internal/ads/rp;->a:Ljava/lang/String;
 
     invoke-direct {p0}, Ljava/lang/Thread;-><init>()V
@@ -24,7 +23,6 @@
 .method public final run()V
     .locals 2
 
-    .line 1
     new-instance v0, Lcom/google/android/gms/internal/ads/cq;
 
     invoke-direct {v0}, Lcom/google/android/gms/internal/ads/cq;-><init>()V

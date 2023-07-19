@@ -13,7 +13,6 @@
 
     const-string v0, "0123456789abcdef"
 
-    .line 1
     invoke-virtual {v0}, Ljava/lang/String;->toCharArray()[C
 
     move-result-object v0
@@ -26,7 +25,6 @@
 .method public static a()Z
     .locals 2
 
-    .line 1
     invoke-static {}, Landroid/os/Looper;->myLooper()Landroid/os/Looper;
 
     move-result-object v0
@@ -50,7 +48,6 @@
 .method public static b(DLandroid/util/DisplayMetrics;)J
     .locals 2
 
-    .line 1
     iget p2, p2, Landroid/util/DisplayMetrics;->density:F
 
     float-to-double v0, p2
@@ -67,19 +64,16 @@
 .method public static c(Ljava/lang/Throwable;)Ljava/lang/String;
     .locals 2
 
-    .line 1
     new-instance v0, Ljava/io/StringWriter;
 
     invoke-direct {v0}, Ljava/io/StringWriter;-><init>()V
 
-    .line 2
     new-instance v1, Ljava/io/PrintWriter;
 
     invoke-direct {v1, v0}, Ljava/io/PrintWriter;-><init>(Ljava/io/Writer;)V
 
     invoke-static {p0, v1}, Lcom/google/android/gms/internal/ads/kz1;->a(Ljava/lang/Throwable;Ljava/io/PrintWriter;)V
 
-    .line 3
     invoke-virtual {v0}, Ljava/io/StringWriter;->toString()Ljava/lang/String;
 
     move-result-object p0
@@ -92,7 +86,6 @@
 
     if-eqz p0, :cond_0
 
-    .line 1
     iget p0, p0, Landroid/util/DisplayMetrics;->density:F
 
     const/4 v0, 0x0
@@ -118,14 +111,12 @@
 
     const-string v0, "^[a-fA-F0-9]{8}-([a-fA-F0-9]{4}-){3}[a-fA-F0-9]{12}$"
 
-    .line 1
     invoke-virtual {p0, v0}, Ljava/lang/String;->matches(Ljava/lang/String;)Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-static {p0}, Ljava/util/UUID;->fromString(Ljava/lang/String;)Ljava/util/UUID;
 
     move-result-object p0
@@ -134,19 +125,16 @@
 
     new-array v0, v0, [B
 
-    .line 3
     invoke-static {v0}, Ljava/nio/ByteBuffer;->wrap([B)Ljava/nio/ByteBuffer;
 
     move-result-object v1
 
-    .line 4
     invoke-virtual {p0}, Ljava/util/UUID;->getMostSignificantBits()J
 
     move-result-wide v2
 
     invoke-virtual {v1, v2, v3}, Ljava/nio/ByteBuffer;->putLong(J)Ljava/nio/ByteBuffer;
 
-    .line 5
     invoke-virtual {p0}, Ljava/util/UUID;->getLeastSignificantBits()J
 
     move-result-wide v2
@@ -155,7 +143,6 @@
 
     const/4 p0, 0x1
 
-    .line 6
     invoke-static {v0, p0}, Lcom/google/android/gms/internal/ads/t01;->a([BZ)Ljava/lang/String;
 
     move-result-object p0
@@ -169,7 +156,6 @@
 
     if-eqz p0, :cond_1
 
-    .line 1
     invoke-virtual {p0}, Ljava/lang/String;->isEmpty()Z
 
     move-result p0
@@ -193,7 +179,6 @@
 .method public static g(Landroid/view/View;)Landroid/app/Activity;
     .locals 2
 
-    .line 1
     invoke-virtual {p0}, Landroid/view/View;->getRootView()Landroid/view/View;
 
     move-result-object v0
@@ -202,7 +187,6 @@
 
     move-object p0, v0
 
-    .line 2
     :cond_0
     invoke-virtual {p0}, Landroid/view/View;->getContext()Landroid/content/Context;
 
@@ -210,7 +194,6 @@
 
     const/4 v0, 0x0
 
-    .line 3
     :goto_0
     instance-of v1, p0, Landroid/content/ContextWrapper;
 
@@ -220,17 +203,14 @@
 
     if-ge v0, v1, :cond_2
 
-    .line 4
     instance-of v1, p0, Landroid/app/Activity;
 
     if-eqz v1, :cond_1
 
-    .line 5
     check-cast p0, Landroid/app/Activity;
 
     return-object p0
 
-    .line 6
     :cond_1
     check-cast p0, Landroid/content/ContextWrapper;
 

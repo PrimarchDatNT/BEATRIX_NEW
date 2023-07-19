@@ -56,22 +56,18 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/commsource/beautyplus/base/BaseVm;-><init>(Landroid/app/Application;)V
 
-    .line 2
     new-instance p1, Landroidx/lifecycle/MutableLiveData;
 
     invoke-direct {p1}, Landroidx/lifecycle/MutableLiveData;-><init>()V
 
     iput-object p1, p0, Lcom/commsource/camera/xcamera/FastCaptureViewModel;->b:Landroidx/lifecycle/MutableLiveData;
 
-    .line 3
     new-instance p1, Landroidx/lifecycle/MediatorLiveData;
 
     invoke-direct {p1}, Landroidx/lifecycle/MediatorLiveData;-><init>()V
 
-    .line 4
     invoke-static {}, Lcom/commsource/camera/fastcapture/i;->b()Lcom/commsource/camera/fastcapture/i;
 
     move-result-object v0
@@ -90,17 +86,14 @@
 
     invoke-virtual {p1, v0, v1}, Landroidx/lifecycle/MediatorLiveData;->addSource(Landroidx/lifecycle/LiveData;Landroidx/lifecycle/Observer;)V
 
-    .line 5
     iput-object p1, p0, Lcom/commsource/camera/xcamera/FastCaptureViewModel;->d:Landroidx/lifecycle/MediatorLiveData;
 
-    .line 6
     invoke-static {}, Lcom/commsource/camera/fastcapture/i;->b()Lcom/commsource/camera/fastcapture/i;
 
     move-result-object p1
 
     iput-object p1, p0, Lcom/commsource/camera/xcamera/FastCaptureViewModel;->f:Lcom/commsource/camera/fastcapture/i;
 
-    .line 7
     invoke-virtual {p0}, Landroidx/lifecycle/AndroidViewModel;->getApplication()Landroid/app/Application;
 
     move-result-object p1
@@ -134,7 +127,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/FastCaptureViewModel;->d:Landroidx/lifecycle/MediatorLiveData;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -160,7 +152,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/FastCaptureViewModel;->b:Landroidx/lifecycle/MutableLiveData;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -175,7 +166,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/camera/xcamera/FastCaptureViewModel;->a:Z
 
     if-eqz v1, :cond_0
@@ -208,7 +198,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/FastCaptureViewModel;->f:Lcom/commsource/camera/fastcapture/i;
 
     const-string v2, "fastCaptureController"
@@ -231,7 +220,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/camera/xcamera/FastCaptureViewModel;->a:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -250,7 +238,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/camera/xcamera/FastCaptureViewModel;->c:Lcom/commsource/camera/fastcapture/SelfiePhotoData;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -265,7 +252,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/camera/xcamera/FastCaptureViewModel;->a:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -288,12 +274,10 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/FastCaptureViewModel;->f:Lcom/commsource/camera/fastcapture/i;
 
     invoke-virtual {v1, p1}, Lcom/commsource/camera/fastcapture/i;->a(Lcom/commsource/camera/fastcapture/SelfiePhotoData;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -308,7 +292,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/FastCaptureViewModel;->c:Lcom/commsource/camera/fastcapture/SelfiePhotoData;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

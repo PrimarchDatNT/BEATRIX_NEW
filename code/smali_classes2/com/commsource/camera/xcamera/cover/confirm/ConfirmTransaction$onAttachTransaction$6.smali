@@ -71,7 +71,6 @@
 
     if-eqz p1, :cond_2
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmTransaction$onAttachTransaction$6;->a:Lcom/commsource/camera/xcamera/cover/confirm/ConfirmTransaction;
 
     invoke-static {v1}, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmTransaction;->A(Lcom/commsource/camera/xcamera/cover/confirm/ConfirmTransaction;)Lcom/commsource/camera/xcamera/cover/confirm/b;
@@ -84,7 +83,6 @@
 
     if-eqz v1, :cond_2
 
-    .line 2
     iget-object v2, p0, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmTransaction$onAttachTransaction$6;->a:Lcom/commsource/camera/xcamera/cover/confirm/ConfirmTransaction;
 
     invoke-virtual {p1}, Lcotlin/Pair;->getSecond()Ljava/lang/Object;
@@ -99,48 +97,40 @@
 
     invoke-static {v2, v3}, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmTransaction;->B(Lcom/commsource/camera/xcamera/cover/confirm/ConfirmTransaction;I)V
 
-    .line 3
     invoke-virtual {v1}, Lcom/commsource/camera/fastcapture/SelfiePhotoData;->getScreenShotBitmap()Landroid/graphics/Bitmap;
 
     move-result-object v2
 
     const/16 v3, 0x3e9
 
-    .line 4
     invoke-static {v3}, Lcom/commsource/camera/beauty/o;->l(I)Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/WaterEntity;
 
     move-result-object v3
 
     const/4 v4, 0x1
 
-    .line 5
     invoke-virtual {v1}, Lcom/commsource/camera/fastcapture/SelfiePhotoData;->isArNeedWaterMark()Z
 
     move-result v1
 
-    .line 6
     invoke-static {v2, v3, v4, v1}, Lcom/commsource/camera/beauty/o;->i(Landroid/graphics/Bitmap;Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/WaterEntity;ZZ)Landroid/graphics/Bitmap;
 
     move-result-object v1
 
-    .line 7
     invoke-static {}, Lcom/commsource/beautyplus/util/v;->l()Ljava/lang/String;
 
     move-result-object v2
 
     const/16 v3, 0x64
 
-    .line 8
     sget-object v4, Landroid/graphics/Bitmap$CompressFormat;->JPEG:Landroid/graphics/Bitmap$CompressFormat;
 
-    .line 9
     invoke-static {v1, v2, v3, v4}, Lcom/commsource/util/common/e;->D(Landroid/graphics/Bitmap;Ljava/lang/String;ILandroid/graphics/Bitmap$CompressFormat;)Z
 
     move-result v3
 
     if-eqz v3, :cond_1
 
-    .line 10
     invoke-static {v2}, Lcom/meitu/library/p/g/b;->y(Ljava/lang/String;)Z
 
     move-result v3
@@ -149,30 +139,25 @@
 
     goto :goto_0
 
-    .line 11
     :cond_0
     new-instance v3, Lcom/commsource/widget/dialog/delegate/b;
 
     invoke-direct {v3}, Lcom/commsource/widget/dialog/delegate/b;-><init>()V
 
-    .line 12
     new-instance v4, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmTransaction$onAttachTransaction$6$$special$$inlined$let$lambda$2;
 
     invoke-direct {v4, v2, v1, p1, p0}, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmTransaction$onAttachTransaction$6$$special$$inlined$let$lambda$2;-><init>(Ljava/lang/String;Landroid/graphics/Bitmap;Lcotlin/Pair;Lcom/commsource/camera/xcamera/cover/confirm/ConfirmTransaction$onAttachTransaction$6;)V
 
     invoke-static {v3, v4}, Lcom/commsource/widget/dialog/delegate/XDialogKt;->i(Lcom/commsource/widget/dialog/delegate/b;Lcotlin/jvm/u/l;)V
 
-    .line 13
     invoke-virtual {v3}, Lf/d/a;->F()V
 
-    .line 14
     new-instance v1, Ljava/util/HashMap;
 
     const/4 v2, 0x4
 
     invoke-direct {v1, v2}, Ljava/util/HashMap;-><init>(I)V
 
-    .line 15
     invoke-virtual {p1}, Lcotlin/Pair;->getFirst()Ljava/lang/Object;
 
     move-result-object p1
@@ -197,19 +182,16 @@
 
     const-string p1, "ARshare_imp"
 
-    .line 16
     invoke-static {p1, v1}, Lcom/commsource/statistics/i;->s(Ljava/lang/String;Ljava/util/Map;)V
 
     goto :goto_1
 
-    .line 17
     :cond_1
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 18
     :cond_2
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -224,7 +206,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Lcotlin/Pair;
 
     invoke-virtual {p0, p1}, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmTransaction$onAttachTransaction$6;->a(Lcotlin/Pair;)V

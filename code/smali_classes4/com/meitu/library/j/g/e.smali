@@ -27,7 +27,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/meitu/library/j/g/e;
 
     const/4 v2, 0x7
@@ -36,7 +35,6 @@
 
     sput-object v1, Lcom/meitu/library/j/g/e;->b:Lcom/meitu/library/j/g/e;
 
-    .line 2
     new-instance v1, Lcom/meitu/library/j/g/e;
 
     const/4 v2, 0x6
@@ -45,7 +43,6 @@
 
     sput-object v1, Lcom/meitu/library/j/g/e;->c:Lcom/meitu/library/j/g/e;
 
-    .line 3
     new-instance v1, Lcom/meitu/library/j/g/e;
 
     const/4 v2, 0x5
@@ -54,7 +51,6 @@
 
     sput-object v1, Lcom/meitu/library/j/g/e;->d:Lcom/meitu/library/j/g/e;
 
-    .line 4
     new-instance v1, Lcom/meitu/library/j/g/e;
 
     const/4 v2, 0x4
@@ -63,7 +59,6 @@
 
     sput-object v1, Lcom/meitu/library/j/g/e;->e:Lcom/meitu/library/j/g/e;
 
-    .line 5
     new-instance v1, Lcom/meitu/library/j/g/e;
 
     const/4 v2, 0x3
@@ -80,10 +75,8 @@
 .method private constructor <init>(I)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput p1, p0, Lcom/meitu/library/j/g/e;->a:I
 
     return-void

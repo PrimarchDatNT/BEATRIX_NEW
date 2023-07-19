@@ -25,7 +25,6 @@
 .method constructor <init>(Lcom/sdk/imp/d;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/sdk/imp/d$d;->a:Lcom/sdk/imp/d;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -38,7 +37,6 @@
 .method public run()V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/sdk/imp/d$d;->a:Lcom/sdk/imp/d;
 
     invoke-static {v0}, Lcom/sdk/imp/d;->j(Lcom/sdk/imp/d;)Z
@@ -47,7 +45,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 2
     iget-object v0, p0, Lcom/sdk/imp/d$d;->a:Lcom/sdk/imp/d;
 
     invoke-static {v0}, Lcom/sdk/imp/d;->h(Lcom/sdk/imp/d;)Lcom/sdk/imp/d$j;
@@ -56,7 +53,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 3
     iget-object v0, p0, Lcom/sdk/imp/d$d;->a:Lcom/sdk/imp/d;
 
     invoke-static {v0}, Lcom/sdk/imp/d;->h(Lcom/sdk/imp/d;)Lcom/sdk/imp/d$j;

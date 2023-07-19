@@ -35,7 +35,6 @@
 .method constructor <init>(Landroid/content/Context;Ljava/lang/String;IJLjava/lang/String;Ljava/lang/String;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/pushkit/u$b;->a:Landroid/content/Context;
 
     iput-object p2, p0, Lcom/meitu/pushkit/u$b;->b:Ljava/lang/String;
@@ -62,7 +61,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/meitu/pushkit/y;->y()Lcom/meitu/library/m/a/b;
 
     move-result-object v0
@@ -71,7 +69,6 @@
 
     invoke-virtual {v0, v1, p2}, Lcom/meitu/library/m/a/b;->i(Ljava/lang/String;Ljava/lang/Throwable;)V
 
-    .line 2
     iget-object v2, p0, Lcom/meitu/pushkit/u$b;->a:Landroid/content/Context;
 
     iget-object v4, p0, Lcom/meitu/pushkit/u$b;->b:Ljava/lang/String;
@@ -84,17 +81,14 @@
 
     iget-object v9, p0, Lcom/meitu/pushkit/u$b;->g:Ljava/lang/String;
 
-    .line 3
     invoke-virtual {p2}, Ljava/io/IOException;->getMessage()Ljava/lang/String;
 
     move-result-object v10
 
     const/4 v3, 0x0
 
-    .line 4
     invoke-static/range {v2 .. v10}, Lcom/meitu/pushkit/y;->K(Landroid/content/Context;ZLjava/lang/String;IJLjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 5
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -114,7 +108,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     :try_start_0
     invoke-virtual {p2}, Lokhttp3/Response;->body()Lokhttp3/ResponseBody;
 
@@ -124,12 +117,10 @@
 
     move-result-object p2
 
-    .line 2
     new-instance v1, Lorg/json/JSONObject;
 
     invoke-direct {v1, p2}, Lorg/json/JSONObject;-><init>(Ljava/lang/String;)V
 
-    .line 3
     invoke-static {}, Lcom/meitu/pushkit/y;->y()Lcom/meitu/library/m/a/b;
 
     move-result-object v2
@@ -152,7 +143,6 @@
 
     const-string p2, "code"
 
-    .line 4
     invoke-virtual {v1, p2}, Lorg/json/JSONObject;->optInt(Ljava/lang/String;)I
 
     move-result p2
@@ -168,7 +158,6 @@
     :catch_0
     move-exception p2
 
-    .line 5
     invoke-static {}, Lcom/meitu/pushkit/y;->y()Lcom/meitu/library/m/a/b;
 
     move-result-object v1
@@ -177,7 +166,6 @@
 
     invoke-virtual {v1, v2, p2}, Lcom/meitu/library/m/a/b;->i(Ljava/lang/String;Ljava/lang/Throwable;)V
 
-    .line 6
     invoke-virtual {p2}, Ljava/lang/Exception;->getMessage()Ljava/lang/String;
 
     move-result-object v1
@@ -191,14 +179,12 @@
 
     if-ne p2, v1, :cond_0
 
-    .line 7
     invoke-static {}, Lcom/meitu/pushkit/f;->d()Lcom/meitu/pushkit/f;
 
     move-result-object v2
 
     invoke-virtual {v2}, Lcom/meitu/pushkit/f;->c()V
 
-    .line 8
     :cond_0
     iget-object v2, p0, Lcom/meitu/pushkit/u$b;->a:Landroid/content/Context;
 
@@ -223,7 +209,6 @@
 
     invoke-static/range {v1 .. v9}, Lcom/meitu/pushkit/y;->K(Landroid/content/Context;ZLjava/lang/String;IJLjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 9
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

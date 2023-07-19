@@ -86,10 +86,8 @@
 .method public constructor <init>(II)V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     new-instance v0, Ljava/util/LinkedList;
 
     invoke-direct {v0}, Ljava/util/LinkedList;-><init>()V
@@ -98,29 +96,22 @@
 
     const/4 v0, 0x0
 
-    .line 3
     iput-boolean v0, p0, Lcom/commsource/puzzle/patchedworld/o;->f:Z
 
-    .line 4
     iput v0, p0, Lcom/commsource/puzzle/patchedworld/o;->g:I
 
-    .line 5
     iput p1, p0, Lcom/commsource/puzzle/patchedworld/o;->a:I
 
-    .line 6
     iput p2, p0, Lcom/commsource/puzzle/patchedworld/o;->b:I
 
-    .line 7
     iput v0, p0, Lcom/commsource/puzzle/patchedworld/o;->c:I
 
-    .line 8
     new-instance v0, Lcom/commsource/puzzle/patchedworld/VisualPatch$b;
 
     invoke-direct {v0, p1, p2, p1, p2}, Lcom/commsource/puzzle/patchedworld/VisualPatch$b;-><init>(IIII)V
 
     const/4 p1, 0x1
 
-    .line 9
     invoke-virtual {v0, p1}, Lcom/commsource/puzzle/patchedworld/VisualPatch$b;->j0(Z)Lcom/commsource/puzzle/patchedworld/VisualPatch$b;
 
     move-result-object p1
@@ -137,10 +128,8 @@
 .method public constructor <init>(III)V
     .locals 1
 
-    .line 10
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 11
     new-instance v0, Ljava/util/LinkedList;
 
     invoke-direct {v0}, Ljava/util/LinkedList;-><init>()V
@@ -149,29 +138,22 @@
 
     const/4 v0, 0x0
 
-    .line 12
     iput-boolean v0, p0, Lcom/commsource/puzzle/patchedworld/o;->f:Z
 
-    .line 13
     iput v0, p0, Lcom/commsource/puzzle/patchedworld/o;->g:I
 
-    .line 14
     iput p1, p0, Lcom/commsource/puzzle/patchedworld/o;->a:I
 
-    .line 15
     iput p2, p0, Lcom/commsource/puzzle/patchedworld/o;->b:I
 
-    .line 16
     iput p3, p0, Lcom/commsource/puzzle/patchedworld/o;->c:I
 
-    .line 17
     new-instance p3, Lcom/commsource/puzzle/patchedworld/VisualPatch$b;
 
     invoke-direct {p3, p1, p2, p1, p2}, Lcom/commsource/puzzle/patchedworld/VisualPatch$b;-><init>(IIII)V
 
     const/4 p1, 0x1
 
-    .line 18
     invoke-virtual {p3, p1}, Lcom/commsource/puzzle/patchedworld/VisualPatch$b;->j0(Z)Lcom/commsource/puzzle/patchedworld/VisualPatch$b;
 
     move-result-object p1
@@ -188,7 +170,6 @@
 .method public constructor <init>(Lcom/commsource/puzzle/patchedworld/o$a;)V
     .locals 3
 
-    .line 19
     invoke-static {p1}, Lcom/commsource/puzzle/patchedworld/o$a;->a(Lcom/commsource/puzzle/patchedworld/o$a;)I
 
     move-result v0
@@ -203,7 +184,6 @@
 
     invoke-direct {p0, v0, v1, v2}, Lcom/commsource/puzzle/patchedworld/o;-><init>(III)V
 
-    .line 20
     invoke-static {p1}, Lcom/commsource/puzzle/patchedworld/o$a;->d(Lcom/commsource/puzzle/patchedworld/o$a;)Z
 
     move-result p1
@@ -228,7 +208,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p2, Lcom/commsource/puzzle/patchedworld/VisualPatch;->L:Landroid/graphics/Point;
 
     iget v1, v1, Landroid/graphics/Point;->y:I
@@ -239,7 +218,6 @@
 
     add-int/2addr v1, v2
 
-    .line 2
     invoke-virtual {p2}, Lcom/commsource/puzzle/patchedworld/VisualPatch;->X()I
 
     move-result p2
@@ -252,15 +230,12 @@
 
     const/4 p0, 0x0
 
-    .line 3
     iput p0, p3, Landroid/graphics/Rect;->left:I
 
-    .line 4
     iput p0, p3, Landroid/graphics/Rect;->top:I
 
     sub-int/2addr p1, p0
 
-    .line 5
     iput p1, p3, Landroid/graphics/Rect;->right:I
 
     add-int/2addr v1, p2
@@ -275,10 +250,8 @@
 
     float-to-int p0, p1
 
-    .line 6
     iput p0, p3, Landroid/graphics/Rect;->bottom:I
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v2
@@ -293,7 +266,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     iget v1, p0, Lcom/commsource/puzzle/patchedworld/o;->a:I
 
     iget v2, p0, Lcom/commsource/puzzle/patchedworld/o;->b:I
@@ -302,7 +274,6 @@
 
     invoke-virtual {p1, v3, v3, v1, v2}, Lcom/commsource/puzzle/patchedworld/VisualPatch;->v1(IIII)V
 
-    .line 2
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -322,12 +293,10 @@
 
     if-nez p1, :cond_0
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
 
-    .line 2
     :cond_0
     instance-of v2, p1, Lcom/commsource/puzzle/patchedworld/PosterPhotoPatch;
 
@@ -335,7 +304,6 @@
 
     if-eqz v2, :cond_2
 
-    .line 3
     invoke-virtual {p1}, Lcom/commsource/puzzle/patchedworld/VisualPatch;->h0()I
 
     move-result p1
@@ -354,7 +322,6 @@
 
     return v1
 
-    .line 4
     :cond_2
     invoke-virtual {p1}, Lcom/commsource/puzzle/patchedworld/VisualPatch;->w()I
 
@@ -364,7 +331,6 @@
 
     if-eq v2, v4, :cond_3
 
-    .line 5
     invoke-virtual {p1}, Lcom/commsource/puzzle/patchedworld/VisualPatch;->w()I
 
     move-result p1
@@ -378,7 +344,6 @@
     :cond_3
     const/4 v1, 0x0
 
-    .line 6
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -392,17 +357,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/puzzle/patchedworld/o;->d:Lcom/commsource/puzzle/patchedworld/VisualPatch;
 
     invoke-virtual {v1}, Lcom/commsource/puzzle/patchedworld/VisualPatch;->Z0()V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/puzzle/patchedworld/o;->e:Ljava/util/LinkedList;
 
     monitor-enter v1
 
-    .line 3
     :try_start_0
     iget-object v2, p0, Lcom/commsource/puzzle/patchedworld/o;->e:Ljava/util/LinkedList;
 
@@ -426,18 +388,15 @@
 
     if-eqz v3, :cond_0
 
-    .line 4
     invoke-virtual {v3}, Lcom/commsource/puzzle/patchedworld/VisualPatch;->Z0()V
 
     goto :goto_0
 
-    .line 5
     :cond_1
     monitor-exit v1
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -445,7 +404,6 @@
     :catchall_0
     move-exception v2
 
-    .line 7
     :try_start_1
     monitor-exit v1
     :try_end_1
@@ -465,7 +423,6 @@
 
     const/4 v1, 0x1
 
-    .line 1
     invoke-virtual {p0, p1, v1}, Lcom/commsource/puzzle/patchedworld/o;->b(Lcom/commsource/puzzle/patchedworld/VisualPatch;Z)Lcom/commsource/puzzle/patchedworld/o;
 
     move-result-object p1
@@ -484,18 +441,15 @@
 
     if-nez p1, :cond_0
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
 
-    .line 2
     :cond_0
     iget-object v1, p0, Lcom/commsource/puzzle/patchedworld/o;->e:Ljava/util/LinkedList;
 
     monitor-enter v1
 
-    .line 3
     :try_start_0
     iget-object v2, p0, Lcom/commsource/puzzle/patchedworld/o;->e:Ljava/util/LinkedList;
 
@@ -505,7 +459,6 @@
 
     if-eqz v2, :cond_1
 
-    .line 4
     monitor-exit v1
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
@@ -514,19 +467,16 @@
 
     return-object p0
 
-    .line 5
     :cond_1
     :try_start_1
     instance-of v2, p1, Lcom/commsource/puzzle/patchedworld/PosterPhotoPatch;
 
     if-eqz v2, :cond_4
 
-    .line 6
     move-object v2, p1
 
     check-cast v2, Lcom/commsource/puzzle/patchedworld/PosterPhotoPatch;
 
-    .line 7
     invoke-virtual {v2}, Lcom/commsource/puzzle/patchedworld/VisualPatch;->h0()I
 
     move-result v3
@@ -535,12 +485,10 @@
 
     if-ne v3, v4, :cond_2
 
-    .line 8
     iget v3, p0, Lcom/commsource/puzzle/patchedworld/o;->g:I
 
     invoke-virtual {v2, v3}, Lcom/commsource/puzzle/patchedworld/VisualPatch;->E1(I)V
 
-    .line 9
     :cond_2
     invoke-virtual {v2}, Lcom/commsource/puzzle/patchedworld/PosterPhotoPatch;->K2()I
 
@@ -548,12 +496,10 @@
 
     if-ne v3, v4, :cond_3
 
-    .line 10
     iget v3, p0, Lcom/commsource/puzzle/patchedworld/o;->g:I
 
     invoke-virtual {v2, v3}, Lcom/commsource/puzzle/patchedworld/PosterPhotoPatch;->M2(I)V
 
-    .line 11
     :cond_3
     iget v2, p0, Lcom/commsource/puzzle/patchedworld/o;->g:I
 
@@ -564,26 +510,22 @@
     :cond_4
     if-eqz p2, :cond_5
 
-    .line 12
     iget-object p2, p0, Lcom/commsource/puzzle/patchedworld/o;->e:Ljava/util/LinkedList;
 
     invoke-virtual {p2, p1}, Ljava/util/LinkedList;->addLast(Ljava/lang/Object;)V
 
     goto :goto_0
 
-    .line 13
     :cond_5
     iget-object p2, p0, Lcom/commsource/puzzle/patchedworld/o;->e:Ljava/util/LinkedList;
 
     invoke-virtual {p2, p1}, Ljava/util/LinkedList;->addFirst(Ljava/lang/Object;)V
 
-    .line 14
     :goto_0
     monitor-exit v1
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
-    .line 15
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
@@ -591,7 +533,6 @@
     :catchall_0
     move-exception p1
 
-    .line 16
     :try_start_2
     monitor-exit v1
     :try_end_2
@@ -609,7 +550,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/puzzle/patchedworld/o;->f:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -624,12 +564,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/puzzle/patchedworld/o;->e:Ljava/util/LinkedList;
 
     monitor-enter v1
 
-    .line 2
     :try_start_0
     iget-object v2, p0, Lcom/commsource/puzzle/patchedworld/o;->e:Ljava/util/LinkedList;
 
@@ -639,23 +577,19 @@
 
     if-eqz v2, :cond_0
 
-    .line 3
     iget-object v2, p0, Lcom/commsource/puzzle/patchedworld/o;->e:Ljava/util/LinkedList;
 
     invoke-virtual {v2, p1}, Ljava/util/LinkedList;->remove(Ljava/lang/Object;)Z
 
-    .line 4
     iget-object v2, p0, Lcom/commsource/puzzle/patchedworld/o;->e:Ljava/util/LinkedList;
 
     invoke-virtual {v2, p1}, Ljava/util/LinkedList;->addLast(Ljava/lang/Object;)V
 
-    .line 5
     :cond_0
     monitor-exit v1
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -663,7 +597,6 @@
     :catchall_0
     move-exception p1
 
-    .line 7
     :try_start_1
     monitor-exit v1
     :try_end_1
@@ -681,23 +614,19 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/puzzle/patchedworld/o;->e:Ljava/util/LinkedList;
 
     monitor-enter v1
 
-    .line 2
     :try_start_0
     iget-object v2, p0, Lcom/commsource/puzzle/patchedworld/o;->e:Ljava/util/LinkedList;
 
     invoke-virtual {v2}, Ljava/util/LinkedList;->clear()V
 
-    .line 3
     monitor-exit v1
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -705,7 +634,6 @@
     :catchall_0
     move-exception v2
 
-    .line 5
     :try_start_1
     monitor-exit v1
     :try_end_1
@@ -727,17 +655,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/puzzle/patchedworld/o;->d:Lcom/commsource/puzzle/patchedworld/VisualPatch;
 
     invoke-direct {p0, v1}, Lcom/commsource/puzzle/patchedworld/o;->g(Lcom/commsource/puzzle/patchedworld/VisualPatch;)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/puzzle/patchedworld/o;->e:Ljava/util/LinkedList;
 
     monitor-enter v1
 
-    .line 3
     :try_start_0
     iget-object v2, p0, Lcom/commsource/puzzle/patchedworld/o;->e:Ljava/util/LinkedList;
 
@@ -761,26 +686,22 @@
 
     if-eqz p1, :cond_1
 
-    .line 4
     invoke-interface {p1, v3}, Lcom/commsource/puzzle/patchedworld/g;->a(Lcom/commsource/puzzle/patchedworld/VisualPatch;)Z
 
     move-result v4
 
     if-eqz v4, :cond_0
 
-    .line 5
     :cond_1
     invoke-direct {p0, v3}, Lcom/commsource/puzzle/patchedworld/o;->g(Lcom/commsource/puzzle/patchedworld/VisualPatch;)V
 
     goto :goto_0
 
-    .line 6
     :cond_2
     monitor-exit v1
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -788,7 +709,6 @@
     :catchall_0
     move-exception p1
 
-    .line 8
     :try_start_1
     monitor-exit v1
     :try_end_1
@@ -809,12 +729,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
 
-    .line 2
     iget-object v2, p0, Lcom/commsource/puzzle/patchedworld/o;->e:Ljava/util/LinkedList;
 
     invoke-virtual {v2}, Ljava/util/LinkedList;->iterator()Ljava/util/Iterator;
@@ -835,15 +753,12 @@
 
     check-cast v3, Lcom/commsource/puzzle/patchedworld/VisualPatch;
 
-    .line 3
     instance-of v4, v3, Lcom/commsource/puzzle/patchedworld/PosterPhotoPatch;
 
     if-eqz v4, :cond_0
 
-    .line 4
     check-cast v3, Lcom/commsource/puzzle/patchedworld/PosterPhotoPatch;
 
-    .line 5
     invoke-virtual {v3}, Lcom/commsource/puzzle/patchedworld/PosterPhotoPatch;->J2()I
 
     move-result v3
@@ -852,7 +767,6 @@
 
     goto :goto_0
 
-    .line 6
     :cond_1
     invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
@@ -882,7 +796,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/puzzle/patchedworld/o;->e:Ljava/util/LinkedList;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -897,12 +810,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/puzzle/patchedworld/o;->e:Ljava/util/LinkedList;
 
     monitor-enter v1
 
-    .line 2
     :try_start_0
     iget-object v2, p0, Lcom/commsource/puzzle/patchedworld/o;->e:Ljava/util/LinkedList;
 
@@ -923,22 +834,18 @@
 
     check-cast v3, Lcom/commsource/puzzle/patchedworld/VisualPatch;
 
-    .line 3
     instance-of v4, v3, Lcom/commsource/puzzle/patchedworld/PosterPhotoPatch;
 
     if-eqz v4, :cond_0
 
-    .line 4
     check-cast v3, Lcom/commsource/puzzle/patchedworld/PosterPhotoPatch;
 
-    .line 5
     invoke-virtual {v3}, Lcom/commsource/puzzle/patchedworld/VisualPatch;->h0()I
 
     move-result v4
 
     if-ne v4, p1, :cond_0
 
-    .line 6
     monitor-exit v1
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
@@ -947,7 +854,6 @@
 
     return-object v3
 
-    .line 7
     :cond_1
     :try_start_1
     monitor-exit v1
@@ -956,7 +862,6 @@
 
     const/4 p1, 0x0
 
-    .line 8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p1
@@ -964,7 +869,6 @@
     :catchall_0
     move-exception p1
 
-    .line 9
     :try_start_2
     monitor-exit v1
     :try_end_2
@@ -982,7 +886,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/puzzle/patchedworld/o;->g:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -997,7 +900,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/puzzle/patchedworld/o;->d:Lcom/commsource/puzzle/patchedworld/VisualPatch;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1014,12 +916,10 @@
 
     const/4 v1, 0x0
 
-    .line 1
     invoke-virtual {p0, v1}, Lcom/commsource/puzzle/patchedworld/o;->k(I)Lcom/commsource/puzzle/patchedworld/PosterPhotoPatch;
 
     move-result-object v1
 
-    .line 2
     iget-object v2, p0, Lcom/commsource/puzzle/patchedworld/o;->e:Ljava/util/LinkedList;
 
     invoke-virtual {v2}, Ljava/util/LinkedList;->iterator()Ljava/util/Iterator;
@@ -1046,7 +946,6 @@
 
     goto :goto_1
 
-    .line 3
     :cond_1
     invoke-virtual {v3}, Lcom/commsource/puzzle/patchedworld/VisualPatch;->R()Landroid/graphics/Rect;
 
@@ -1058,7 +957,6 @@
 
     add-int/2addr v4, v5
 
-    .line 4
     invoke-virtual {v1}, Lcom/commsource/puzzle/patchedworld/VisualPatch;->R()Landroid/graphics/Rect;
 
     move-result-object v5
@@ -1076,7 +974,6 @@
 
     goto :goto_0
 
-    .line 5
     :cond_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1090,7 +987,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/puzzle/patchedworld/o;->c:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1105,7 +1001,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/puzzle/patchedworld/o;->b:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1120,7 +1015,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/puzzle/patchedworld/o;->a:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1135,17 +1029,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/puzzle/patchedworld/o;->d:Lcom/commsource/puzzle/patchedworld/VisualPatch;
 
     invoke-virtual {v1, p1}, Lcom/commsource/puzzle/patchedworld/VisualPatch;->N0(Landroid/content/Context;)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/puzzle/patchedworld/o;->e:Ljava/util/LinkedList;
 
     monitor-enter v1
 
-    .line 3
     :try_start_0
     iget-object v2, p0, Lcom/commsource/puzzle/patchedworld/o;->e:Ljava/util/LinkedList;
 
@@ -1169,18 +1060,15 @@
 
     if-eqz v3, :cond_0
 
-    .line 4
     invoke-virtual {v3, p1}, Lcom/commsource/puzzle/patchedworld/VisualPatch;->N0(Landroid/content/Context;)V
 
     goto :goto_0
 
-    .line 5
     :cond_1
     monitor-exit v1
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1188,7 +1076,6 @@
     :catchall_0
     move-exception p1
 
-    .line 7
     :try_start_1
     monitor-exit v1
     :try_end_1
@@ -1206,7 +1093,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/puzzle/patchedworld/o;->d:Lcom/commsource/puzzle/patchedworld/VisualPatch;
 
     iget v2, p0, Lcom/commsource/puzzle/patchedworld/o;->a:I
@@ -1217,7 +1103,6 @@
 
     invoke-virtual {v1, v4, v4, v2, v3}, Lcom/commsource/puzzle/patchedworld/VisualPatch;->v1(IIII)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1230,7 +1115,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/puzzle/patchedworld/o;->o()I
 
     move-result v1
@@ -1239,7 +1123,6 @@
 
     if-ne v1, v2, :cond_0
 
-    .line 2
     invoke-virtual {p0}, Lcom/commsource/puzzle/patchedworld/o;->n()Lcom/commsource/puzzle/patchedworld/VisualPatch;
 
     move-result-object v1
@@ -1260,12 +1143,10 @@
 
     invoke-virtual {p0, v1}, Lcom/commsource/puzzle/patchedworld/o;->x(I)V
 
-    .line 3
     invoke-virtual {p0}, Lcom/commsource/puzzle/patchedworld/o;->s()V
 
     const/4 v1, 0x1
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
@@ -1273,7 +1154,6 @@
     :cond_0
     const/4 v1, 0x0
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
@@ -1286,14 +1166,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/puzzle/patchedworld/o;->j()Ljava/util/LinkedList;
 
     move-result-object v1
 
     monitor-enter v1
 
-    .line 2
     :try_start_0
     invoke-virtual {p0}, Lcom/commsource/puzzle/patchedworld/o;->j()Ljava/util/LinkedList;
 
@@ -1321,20 +1199,16 @@
 
     check-cast v3, Lcom/commsource/puzzle/patchedworld/VisualPatch;
 
-    .line 3
     instance-of v6, v3, Lcom/commsource/puzzle/patchedworld/PosterPhotoPatch;
 
     if-eqz v6, :cond_0
 
-    .line 4
     check-cast v3, Lcom/commsource/puzzle/patchedworld/PosterPhotoPatch;
 
-    .line 5
     invoke-virtual {v3}, Lcom/commsource/puzzle/patchedworld/VisualPatch;->h0()I
 
     move-result v6
 
-    .line 6
     invoke-virtual {p0}, Lcom/commsource/puzzle/patchedworld/o;->o()I
 
     move-result v7
@@ -1349,18 +1223,15 @@
 
     add-int/lit8 v6, v6, -0x1
 
-    .line 7
     invoke-virtual {p0, v6}, Lcom/commsource/puzzle/patchedworld/o;->k(I)Lcom/commsource/puzzle/patchedworld/PosterPhotoPatch;
 
     move-result-object v9
 
-    .line 8
     :cond_1
     invoke-virtual {v3, v9, v4}, Lcom/commsource/puzzle/patchedworld/VisualPatch;->e1(Lcom/commsource/puzzle/patchedworld/VisualPatch;Z)V
 
     goto :goto_1
 
-    .line 9
     :cond_2
     invoke-virtual {p0}, Lcom/commsource/puzzle/patchedworld/o;->o()I
 
@@ -1368,17 +1239,14 @@
 
     if-nez v5, :cond_3
 
-    .line 10
     invoke-virtual {v3, v9, v4}, Lcom/commsource/puzzle/patchedworld/VisualPatch;->e1(Lcom/commsource/puzzle/patchedworld/VisualPatch;Z)V
 
-    .line 11
     :cond_3
     :goto_1
     invoke-virtual {v3}, Lcom/commsource/puzzle/patchedworld/ImagePatch;->o2()V
 
     goto :goto_0
 
-    .line 12
     :cond_4
     invoke-virtual {p0}, Lcom/commsource/puzzle/patchedworld/o;->j()Ljava/util/LinkedList;
 
@@ -1402,12 +1270,10 @@
 
     check-cast v3, Lcom/commsource/puzzle/patchedworld/VisualPatch;
 
-    .line 13
     instance-of v6, v3, Lcom/commsource/puzzle/patchedworld/PosterPhotoPatch;
 
     if-nez v6, :cond_5
 
-    .line 14
     invoke-virtual {v3}, Lcom/commsource/puzzle/patchedworld/VisualPatch;->w()I
 
     move-result v6
@@ -1416,7 +1282,6 @@
 
     move-result-object v6
 
-    .line 15
     invoke-virtual {v3}, Lcom/commsource/puzzle/patchedworld/VisualPatch;->t0()Z
 
     move-result v7
@@ -1430,32 +1295,26 @@
     :cond_6
     const/4 v7, 0x0
 
-    .line 16
     :goto_3
     invoke-virtual {v3, v6, v7}, Lcom/commsource/puzzle/patchedworld/VisualPatch;->e1(Lcom/commsource/puzzle/patchedworld/VisualPatch;Z)V
 
-    .line 17
     instance-of v6, v3, Lcom/commsource/puzzle/patchedworld/ImagePatch;
 
     if-eqz v6, :cond_5
 
-    .line 18
     check-cast v3, Lcom/commsource/puzzle/patchedworld/ImagePatch;
 
     invoke-virtual {v3}, Lcom/commsource/puzzle/patchedworld/ImagePatch;->o2()V
 
     goto :goto_2
 
-    .line 19
     :cond_7
     invoke-virtual {p0}, Lcom/commsource/puzzle/patchedworld/o;->t()Z
 
-    .line 20
     monitor-exit v1
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 21
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1463,7 +1322,6 @@
     :catchall_0
     move-exception v2
 
-    .line 22
     :try_start_1
     monitor-exit v1
     :try_end_1
@@ -1481,10 +1339,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/puzzle/patchedworld/o;->f:Z
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1497,10 +1353,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/puzzle/patchedworld/o;->g:I
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1513,10 +1367,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/puzzle/patchedworld/o;->b:I
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1529,10 +1381,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/puzzle/patchedworld/o;->a:I
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1545,30 +1395,25 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/puzzle/patchedworld/o;->e:Ljava/util/LinkedList;
 
     monitor-enter v1
 
-    .line 2
     :try_start_0
     invoke-virtual {p0, p1}, Lcom/commsource/puzzle/patchedworld/o;->k(I)Lcom/commsource/puzzle/patchedworld/PosterPhotoPatch;
 
     move-result-object p1
 
-    .line 3
     invoke-virtual {p0, p2}, Lcom/commsource/puzzle/patchedworld/o;->k(I)Lcom/commsource/puzzle/patchedworld/PosterPhotoPatch;
 
     move-result-object p2
 
-    .line 4
     iget-object v2, p0, Lcom/commsource/puzzle/patchedworld/o;->e:Ljava/util/LinkedList;
 
     invoke-virtual {v2, p1}, Ljava/util/LinkedList;->indexOf(Ljava/lang/Object;)I
 
     move-result v2
 
-    .line 5
     iget-object v3, p0, Lcom/commsource/puzzle/patchedworld/o;->e:Ljava/util/LinkedList;
 
     invoke-virtual {v3, p2}, Ljava/util/LinkedList;->indexOf(Ljava/lang/Object;)I
@@ -1577,7 +1422,6 @@
 
     sub-int v4, v3, v2
 
-    .line 6
     invoke-static {v4}, Ljava/lang/Math;->abs(I)I
 
     move-result v4
@@ -1592,7 +1436,6 @@
 
     goto :goto_3
 
-    .line 7
     :cond_0
     invoke-virtual {p1}, Lcom/commsource/puzzle/patchedworld/PosterPhotoPatch;->I2()Lcom/commsource/puzzle/patchedworld/PosterPhotoPatch$b;
 
@@ -1602,7 +1445,6 @@
 
     if-ne v4, v6, :cond_1
 
-    .line 8
     invoke-virtual {p1, p2}, Lcom/commsource/puzzle/patchedworld/PosterPhotoPatch;->N2(Lcom/commsource/puzzle/patchedworld/PosterPhotoPatch;)V
 
     goto :goto_2
@@ -1613,7 +1455,6 @@
     :goto_0
     if-gt v3, v2, :cond_5
 
-    .line 9
     iget-object p1, p0, Lcom/commsource/puzzle/patchedworld/o;->e:Ljava/util/LinkedList;
 
     invoke-virtual {p1, v3}, Ljava/util/LinkedList;->get(I)Ljava/lang/Object;
@@ -1622,12 +1463,10 @@
 
     check-cast p1, Lcom/commsource/puzzle/patchedworld/VisualPatch;
 
-    .line 10
     instance-of p2, p1, Lcom/commsource/puzzle/patchedworld/PosterPhotoPatch;
 
     if-eqz p2, :cond_2
 
-    .line 11
     check-cast p1, Lcom/commsource/puzzle/patchedworld/PosterPhotoPatch;
 
     invoke-virtual {p1, v5}, Lcom/commsource/puzzle/patchedworld/PosterPhotoPatch;->H2(Lcom/commsource/puzzle/patchedworld/PosterPhotoPatch$b;)Lcom/commsource/puzzle/patchedworld/PosterPhotoPatch$b;
@@ -1645,7 +1484,6 @@
     :goto_1
     if-lt v3, v2, :cond_5
 
-    .line 12
     iget-object p1, p0, Lcom/commsource/puzzle/patchedworld/o;->e:Ljava/util/LinkedList;
 
     invoke-virtual {p1, v3}, Ljava/util/LinkedList;->get(I)Ljava/lang/Object;
@@ -1654,12 +1492,10 @@
 
     check-cast p1, Lcom/commsource/puzzle/patchedworld/VisualPatch;
 
-    .line 13
     instance-of p2, p1, Lcom/commsource/puzzle/patchedworld/PosterPhotoPatch;
 
     if-eqz p2, :cond_4
 
-    .line 14
     check-cast p1, Lcom/commsource/puzzle/patchedworld/PosterPhotoPatch;
 
     invoke-virtual {p1, v5}, Lcom/commsource/puzzle/patchedworld/PosterPhotoPatch;->H2(Lcom/commsource/puzzle/patchedworld/PosterPhotoPatch$b;)Lcom/commsource/puzzle/patchedworld/PosterPhotoPatch$b;
@@ -1673,14 +1509,12 @@
 
     goto :goto_1
 
-    .line 15
     :cond_5
     :goto_2
     monitor-exit v1
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 16
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v6
@@ -1689,7 +1523,6 @@
     :goto_3
     const/4 p1, 0x0
 
-    .line 17
     :try_start_1
     monitor-exit v1
     :try_end_1
@@ -1702,7 +1535,6 @@
     :catchall_0
     move-exception p1
 
-    .line 18
     :try_start_2
     monitor-exit v1
     :try_end_2

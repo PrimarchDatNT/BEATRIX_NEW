@@ -31,7 +31,6 @@
 .method private constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-static {}, Lcom/google/android/gms/internal/ads/zzty$h;->z()Lcom/google/android/gms/internal/ads/zzty$h;
 
     move-result-object v0
@@ -44,7 +43,6 @@
 .method synthetic constructor <init>(Lcom/google/android/gms/internal/ads/wk2;)V
     .locals 0
 
-    .line 2
     invoke-direct {p0}, Lcom/google/android/gms/internal/ads/zzty$h$a;-><init>()V
 
     return-void

@@ -37,7 +37,6 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
     new-instance v0, Lcom/kwai/koom/javaoom/common/KHeapFile$Hprof$a;
 
     invoke-direct {v0}, Lcom/kwai/koom/javaoom/common/KHeapFile$Hprof$a;-><init>()V
@@ -50,10 +49,8 @@
 .method protected constructor <init>(Landroid/os/Parcel;)V
     .locals 0
 
-    .line 2
     invoke-direct {p0, p1}, Lcom/kwai/koom/javaoom/common/KHeapFile$BaseFile;-><init>(Landroid/os/Parcel;)V
 
-    .line 3
     invoke-virtual {p1}, Landroid/os/Parcel;->readByte()B
 
     move-result p1
@@ -78,7 +75,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-direct {p0, p1, v0}, Lcom/kwai/koom/javaoom/common/KHeapFile$BaseFile;-><init>(Ljava/lang/String;Lcom/kwai/koom/javaoom/common/KHeapFile$a;)V
 
     return-void
@@ -87,7 +83,6 @@
 .method public static d(Ljava/lang/String;)Lcom/kwai/koom/javaoom/common/KHeapFile$Hprof;
     .locals 1
 
-    .line 1
     new-instance v0, Lcom/kwai/koom/javaoom/common/KHeapFile$Hprof;
 
     invoke-direct {v0, p0}, Lcom/kwai/koom/javaoom/common/KHeapFile$Hprof;-><init>(Ljava/lang/String;)V
@@ -100,7 +95,6 @@
 .method public bridge synthetic a()V
     .locals 0
 
-    .line 1
     invoke-super {p0}, Lcom/kwai/koom/javaoom/common/KHeapFile$BaseFile;->a()V
 
     return-void
@@ -109,7 +103,6 @@
 .method public bridge synthetic b()Ljava/io/File;
     .locals 1
 
-    .line 1
     invoke-super {p0}, Lcom/kwai/koom/javaoom/common/KHeapFile$BaseFile;->b()Ljava/io/File;
 
     move-result-object v0
@@ -120,7 +113,6 @@
 .method public bridge synthetic c()Ljava/lang/String;
     .locals 1
 
-    .line 1
     invoke-super {p0}, Lcom/kwai/koom/javaoom/common/KHeapFile$BaseFile;->c()Ljava/lang/String;
 
     move-result-object v0
@@ -139,10 +131,8 @@
 .method public writeToParcel(Landroid/os/Parcel;I)V
     .locals 0
 
-    .line 1
     invoke-super {p0, p1, p2}, Lcom/kwai/koom/javaoom/common/KHeapFile$BaseFile;->writeToParcel(Landroid/os/Parcel;I)V
 
-    .line 2
     iget-boolean p2, p0, Lcom/kwai/koom/javaoom/common/KHeapFile$Hprof;->c:Z
 
     int-to-byte p2, p2

@@ -32,7 +32,6 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
     new-instance v0, Lcom/google/common/io/g$a;
 
     invoke-direct {v0}, Lcom/google/common/io/g$a;-><init>()V
@@ -45,7 +44,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -61,7 +59,6 @@
         }
     .end annotation
 
-    .line 1
     new-array v0, p1, [B
 
     move v1, p1
@@ -69,14 +66,12 @@
     :goto_0
     if-lez v1, :cond_0
 
-    .line 2
     invoke-interface {p0}, Ljava/util/Deque;->removeFirst()Ljava/lang/Object;
 
     move-result-object v2
 
     check-cast v2, [B
 
-    .line 3
     array-length v3, v2
 
     invoke-static {v1, v3}, Ljava/lang/Math;->min(II)I
@@ -87,7 +82,6 @@
 
     const/4 v5, 0x0
 
-    .line 4
     invoke-static {v2, v5, v0, v4, v3}, Ljava/lang/System;->arraycopy(Ljava/lang/Object;ILjava/lang/Object;II)V
 
     sub-int/2addr v1, v3
@@ -109,20 +103,16 @@
     .annotation build Lf/f/f/a/a;
     .end annotation
 
-    .line 1
     invoke-static {p0}, Lcom/google/common/base/t;->E(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 2
     invoke-static {p1}, Lcom/google/common/base/t;->E(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 3
     invoke-static {}, Lcom/google/common/io/g;->d()[B
 
     move-result-object v0
 
     const-wide/16 v1, 0x0
 
-    .line 4
     :goto_0
     invoke-virtual {p0, v0}, Ljava/io/InputStream;->read([B)I
 
@@ -137,7 +127,6 @@
     :cond_0
     const/4 v4, 0x0
 
-    .line 5
     invoke-virtual {p1, v0, v4, v3}, Ljava/io/OutputStream;->write([BII)V
 
     int-to-long v3, v3
@@ -158,25 +147,20 @@
     .annotation build Lf/f/f/a/a;
     .end annotation
 
-    .line 1
     invoke-static {p0}, Lcom/google/common/base/t;->E(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 2
     invoke-static {p1}, Lcom/google/common/base/t;->E(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 3
     instance-of v0, p0, Ljava/nio/channels/FileChannel;
 
     const-wide/16 v1, 0x0
 
     if-eqz v0, :cond_1
 
-    .line 4
     move-object v0, p0
 
     check-cast v0, Ljava/nio/channels/FileChannel;
 
-    .line 5
     invoke-virtual {v0}, Ljava/nio/channels/FileChannel;->position()J
 
     move-result-wide v9
@@ -192,21 +176,18 @@
 
     move-object v8, p1
 
-    .line 6
     invoke-virtual/range {v3 .. v8}, Ljava/nio/channels/FileChannel;->transferTo(JJLjava/nio/channels/WritableByteChannel;)J
 
     move-result-wide v3
 
     add-long/2addr v11, v3
 
-    .line 7
     invoke-virtual {v0, v11, v12}, Ljava/nio/channels/FileChannel;->position(J)Ljava/nio/channels/FileChannel;
 
     cmp-long p0, v3, v1
 
     if-gtz p0, :cond_0
 
-    .line 8
     invoke-virtual {v0}, Ljava/nio/channels/FileChannel;->size()J
 
     move-result-wide v3
@@ -219,7 +200,6 @@
 
     return-wide v11
 
-    .line 9
     :cond_1
     invoke-static {}, Lcom/google/common/io/g;->d()[B
 
@@ -229,7 +209,6 @@
 
     move-result-object v0
 
-    .line 10
     :goto_0
     invoke-interface {p0, v0}, Ljava/nio/channels/ReadableByteChannel;->read(Ljava/nio/ByteBuffer;)I
 
@@ -239,10 +218,8 @@
 
     if-eq v3, v4, :cond_3
 
-    .line 11
     invoke-virtual {v0}, Ljava/nio/ByteBuffer;->flip()Ljava/nio/Buffer;
 
-    .line 12
     :goto_1
     invoke-virtual {v0}, Ljava/nio/ByteBuffer;->hasRemaining()Z
 
@@ -250,7 +227,6 @@
 
     if-eqz v3, :cond_2
 
-    .line 13
     invoke-interface {p1, v0}, Ljava/nio/channels/WritableByteChannel;->write(Ljava/nio/ByteBuffer;)I
 
     move-result v3
@@ -261,7 +237,6 @@
 
     goto :goto_1
 
-    .line 14
     :cond_2
     invoke-virtual {v0}, Ljava/nio/ByteBuffer;->clear()Ljava/nio/Buffer;
 
@@ -295,14 +270,12 @@
     .annotation build Lf/f/f/a/a;
     .end annotation
 
-    .line 1
     invoke-static {}, Lcom/google/common/io/g;->d()[B
 
     move-result-object v0
 
     const-wide/16 v1, 0x0
 
-    .line 2
     :goto_0
     invoke-virtual {p0, v0}, Ljava/io/InputStream;->read([B)I
 
@@ -329,7 +302,6 @@
     .annotation build Lf/f/e/a/a;
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/google/common/io/g$d;
 
     invoke-direct {v0, p0, p1, p2}, Lcom/google/common/io/g$d;-><init>(Ljava/io/InputStream;J)V
@@ -342,7 +314,6 @@
     .annotation build Lf/f/e/a/a;
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/google/common/io/g$b;
 
     invoke-static {p0}, Lcom/google/common/base/t;->E(Ljava/lang/Object;)Ljava/lang/Object;
@@ -361,7 +332,6 @@
     .annotation build Lf/f/e/a/a;
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/io/ByteArrayInputStream;
 
     invoke-direct {v0, p0}, Ljava/io/ByteArrayInputStream;-><init>([B)V
@@ -378,12 +348,10 @@
     .annotation build Lf/f/e/a/a;
     .end annotation
 
-    .line 1
     array-length v0, p0
 
     invoke-static {p1, v0}, Lcom/google/common/base/t;->d0(II)I
 
-    .line 2
     new-instance v0, Ljava/io/ByteArrayInputStream;
 
     array-length v1, p0
@@ -404,7 +372,6 @@
     .annotation build Lf/f/e/a/a;
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/io/ByteArrayOutputStream;
 
     invoke-direct {v0}, Ljava/io/ByteArrayOutputStream;-><init>()V
@@ -423,7 +390,6 @@
 
     if-ltz p0, :cond_0
 
-    .line 1
     new-instance v0, Ljava/io/ByteArrayOutputStream;
 
     invoke-direct {v0, p0}, Ljava/io/ByteArrayOutputStream;-><init>(I)V
@@ -434,7 +400,6 @@
 
     return-object p0
 
-    .line 2
     :cond_0
     new-instance v0, Ljava/lang/IllegalArgumentException;
 
@@ -466,7 +431,6 @@
     .annotation build Lf/f/e/a/a;
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/google/common/io/g$c;
 
     invoke-static {p0}, Lcom/google/common/base/t;->E(Ljava/lang/Object;)Ljava/lang/Object;
@@ -485,7 +449,6 @@
     .annotation build Lf/f/e/a/a;
     .end annotation
 
-    .line 1
     sget-object v0, Lcom/google/common/io/g;->e:Ljava/io/OutputStream;
 
     return-object v0
@@ -505,10 +468,8 @@
     .annotation build Lf/f/f/a/a;
     .end annotation
 
-    .line 1
     invoke-static {p0}, Lcom/google/common/base/t;->E(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 2
     invoke-static {p1}, Lcom/google/common/base/t;->E(Ljava/lang/Object;)Ljava/lang/Object;
 
     const/4 v0, 0x0
@@ -517,7 +478,6 @@
 
     add-int v1, p2, p3
 
-    .line 3
     array-length v2, p1
 
     invoke-static {p2, v1, v2}, Lcom/google/common/base/t;->f0(III)V
@@ -529,7 +489,6 @@
 
     sub-int v2, p3, v0
 
-    .line 4
     invoke-virtual {p0, p1, v1, v2}, Ljava/io/InputStream;->read([BII)I
 
     move-result v1
@@ -549,7 +508,6 @@
     :goto_1
     return v0
 
-    .line 5
     :cond_2
     new-instance p0, Ljava/lang/IndexOutOfBoundsException;
 
@@ -599,18 +557,14 @@
     .annotation build Lf/f/f/a/a;
     .end annotation
 
-    .line 1
     invoke-static {p0}, Lcom/google/common/base/t;->E(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 2
     invoke-static {p1}, Lcom/google/common/base/t;->E(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 3
     invoke-static {}, Lcom/google/common/io/g;->d()[B
 
     move-result-object v0
 
-    .line 4
     :cond_0
     invoke-virtual {p0, v0}, Ljava/io/InputStream;->read([B)I
 
@@ -622,14 +576,12 @@
 
     const/4 v2, 0x0
 
-    .line 5
     invoke-interface {p1, v0, v2, v1}, Lcom/google/common/io/d;->b([BII)Z
 
     move-result v1
 
     if-nez v1, :cond_0
 
-    .line 6
     :cond_1
     invoke-interface {p1}, Lcom/google/common/io/d;->a()Ljava/lang/Object;
 
@@ -649,7 +601,6 @@
     .annotation build Lf/f/e/a/a;
     .end annotation
 
-    .line 1
     array-length v0, p1
 
     const/4 v1, 0x0
@@ -670,7 +621,6 @@
     .annotation build Lf/f/e/a/a;
     .end annotation
 
-    .line 1
     invoke-static {p0, p1, p2, p3}, Lcom/google/common/io/g;->n(Ljava/io/InputStream;[BII)I
 
     move-result p0
@@ -679,7 +629,6 @@
 
     return-void
 
-    .line 2
     :cond_0
     new-instance p1, Ljava/io/EOFException;
 
@@ -723,7 +672,6 @@
     .annotation build Lf/f/e/a/a;
     .end annotation
 
-    .line 1
     invoke-static {p0, p1, p2}, Lcom/google/common/io/g;->t(Ljava/io/InputStream;J)J
 
     move-result-wide v0
@@ -734,7 +682,6 @@
 
     return-void
 
-    .line 2
     :cond_0
     new-instance p0, Ljava/io/EOFException;
 
@@ -775,7 +722,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Ljava/io/InputStream;->available()I
 
     move-result v0
@@ -789,7 +735,6 @@
     :cond_0
     int-to-long v0, v0
 
-    .line 2
     invoke-static {v0, v1, p1, p2}, Ljava/lang/Math;->min(JJ)J
 
     move-result-wide p1
@@ -823,7 +768,6 @@
 
     sub-long v5, p1, v3
 
-    .line 1
     invoke-static {p0, v5, v6}, Lcom/google/common/io/g;->s(Ljava/io/InputStream;J)J
 
     move-result-wide v7
@@ -834,7 +778,6 @@
 
     const-wide/16 v7, 0x2000
 
-    .line 2
     invoke-static {v5, v6, v7, v8}, Ljava/lang/Math;->min(JJ)J
 
     move-result-wide v5
@@ -843,13 +786,11 @@
 
     if-nez v2, :cond_0
 
-    .line 3
     new-array v2, v6, [B
 
     :cond_0
     const/4 v5, 0x0
 
-    .line 4
     invoke-virtual {p0, v2, v5, v6}, Ljava/io/InputStream;->read([BII)I
 
     move-result v5
@@ -882,10 +823,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p0}, Lcom/google/common/base/t;->E(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 2
     new-instance v0, Ljava/util/ArrayDeque;
 
     const/16 v1, 0x14
@@ -929,7 +868,6 @@
     :goto_0
     const-string v3, "expectedSize (%s) must be non-negative"
 
-    .line 1
     invoke-static {v2, v3, p1, p2}, Lcom/google/common/base/t;->p(ZLjava/lang/String;J)V
 
     const-wide/32 v2, 0x7ffffff7
@@ -940,7 +878,6 @@
 
     long-to-int p2, p1
 
-    .line 2
     new-array p1, p2, [B
 
     move v2, p2
@@ -952,14 +889,12 @@
 
     sub-int v4, p2, v2
 
-    .line 3
     invoke-virtual {p0, p1, v4, v2}, Ljava/io/InputStream;->read([BII)I
 
     move-result v5
 
     if-ne v5, v3, :cond_1
 
-    .line 4
     invoke-static {p1, v4}, Ljava/util/Arrays;->copyOf([BI)[B
 
     move-result-object p0
@@ -971,7 +906,6 @@
 
     goto :goto_1
 
-    .line 5
     :cond_2
     invoke-virtual {p0}, Ljava/io/InputStream;->read()I
 
@@ -981,7 +915,6 @@
 
     return-object p1
 
-    .line 6
     :cond_3
     new-instance v3, Ljava/util/ArrayDeque;
 
@@ -989,7 +922,6 @@
 
     invoke-direct {v3, v4}, Ljava/util/ArrayDeque;-><init>(I)V
 
-    .line 7
     invoke-interface {v3, p1}, Ljava/util/Deque;->add(Ljava/lang/Object;)Z
 
     new-array p1, v1, [B
@@ -998,19 +930,16 @@
 
     aput-byte v2, p1, v0
 
-    .line 8
     invoke-interface {v3, p1}, Ljava/util/Deque;->add(Ljava/lang/Object;)Z
 
     add-int/2addr p2, v1
 
-    .line 9
     invoke-static {p0, v3, p2}, Lcom/google/common/io/g;->w(Ljava/io/InputStream;Ljava/util/Deque;I)[B
 
     move-result-object p0
 
     return-object p0
 
-    .line 10
     :cond_4
     new-instance p0, Ljava/lang/OutOfMemoryError;
 
@@ -1061,14 +990,12 @@
 
     sub-int/2addr v2, p2
 
-    .line 1
     invoke-static {v0, v2}, Ljava/lang/Math;->min(II)I
 
     move-result v2
 
     new-array v3, v2, [B
 
-    .line 2
     invoke-interface {p1, v3}, Ljava/util/Deque;->add(Ljava/lang/Object;)Z
 
     const/4 v4, 0x0
@@ -1078,14 +1005,12 @@
 
     sub-int v5, v2, v4
 
-    .line 3
     invoke-virtual {p0, v3, v4, v5}, Ljava/io/InputStream;->read([BII)I
 
     move-result v5
 
     if-ne v5, v1, :cond_0
 
-    .line 4
     invoke-static {p1, p2}, Lcom/google/common/io/g;->a(Ljava/util/Deque;I)[B
 
     move-result-object p0
@@ -1102,14 +1027,12 @@
     :cond_1
     const/4 v1, 0x2
 
-    .line 5
     invoke-static {v0, v1}, Lcom/google/common/math/d;->u(II)I
 
     move-result v0
 
     goto :goto_0
 
-    .line 6
     :cond_2
     invoke-virtual {p0}, Ljava/io/InputStream;->read()I
 
@@ -1117,14 +1040,12 @@
 
     if-ne p0, v1, :cond_3
 
-    .line 7
     invoke-static {p1, v2}, Lcom/google/common/io/g;->a(Ljava/util/Deque;I)[B
 
     move-result-object p0
 
     return-object p0
 
-    .line 8
     :cond_3
     new-instance p0, Ljava/lang/OutOfMemoryError;
 

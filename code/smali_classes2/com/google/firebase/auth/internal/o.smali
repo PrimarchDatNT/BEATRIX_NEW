@@ -16,7 +16,6 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
     new-instance v0, Lcom/google/firebase/auth/internal/o;
 
     invoke-direct {v0}, Lcom/google/firebase/auth/internal/o;-><init>()V
@@ -29,7 +28,6 @@
 .method private constructor <init>()V
     .locals 2
 
-    .line 1
     invoke-static {}, Lcom/google/firebase/auth/internal/t;->h()Lcom/google/firebase/auth/internal/t;
 
     move-result-object v0
@@ -48,13 +46,10 @@
     .annotation build Landroidx/annotation/VisibleForTesting;
     .end annotation
 
-    .line 2
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 3
     iput-object p1, p0, Lcom/google/firebase/auth/internal/o;->a:Lcom/google/firebase/auth/internal/t;
 
-    .line 4
     iput-object p2, p0, Lcom/google/firebase/auth/internal/o;->b:Lcom/google/firebase/auth/internal/g;
 
     return-void
@@ -63,7 +58,6 @@
 .method public static e()Lcom/google/firebase/auth/internal/o;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/google/firebase/auth/internal/o;->c:Lcom/google/firebase/auth/internal/o;
 
     return-object v0
@@ -74,7 +68,6 @@
 .method public final a(Landroid/content/Context;)V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/auth/internal/o;->a:Lcom/google/firebase/auth/internal/t;
 
     invoke-virtual {v0, p1}, Lcom/google/firebase/auth/internal/t;->a(Landroid/content/Context;)V
@@ -96,7 +89,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/auth/internal/o;->b:Lcom/google/firebase/auth/internal/g;
 
     invoke-virtual {v0, p1, p2, p3}, Lcom/google/firebase/auth/internal/g;->f(Landroid/app/Activity;Lcom/google/android/gms/tasks/l;Lcom/google/firebase/auth/FirebaseAuth;)Z
@@ -121,7 +113,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/auth/internal/o;->b:Lcom/google/firebase/auth/internal/g;
 
     invoke-virtual {v0, p1, p2, p3, p4}, Lcom/google/firebase/auth/internal/g;->g(Landroid/app/Activity;Lcom/google/android/gms/tasks/l;Lcom/google/firebase/auth/FirebaseAuth;Lcom/google/firebase/auth/FirebaseUser;)Z
@@ -134,7 +125,6 @@
 .method public final d(Lcom/google/firebase/auth/FirebaseAuth;)V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/auth/internal/o;->a:Lcom/google/firebase/auth/internal/t;
 
     invoke-virtual {v0, p1}, Lcom/google/firebase/auth/internal/t;->i(Lcom/google/firebase/auth/FirebaseAuth;)V
@@ -153,7 +143,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/auth/internal/o;->a:Lcom/google/firebase/auth/internal/t;
 
     invoke-virtual {v0}, Lcom/google/firebase/auth/internal/t;->g()Lcom/google/android/gms/tasks/k;

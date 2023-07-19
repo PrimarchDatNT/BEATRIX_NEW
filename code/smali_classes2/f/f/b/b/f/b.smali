@@ -38,24 +38,20 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
 
     iput-object v0, p0, Lf/f/b/b/f/b;->a:Ljava/util/Collection;
 
-    .line 3
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
 
     iput-object v0, p0, Lf/f/b/b/f/b;->b:Ljava/util/Collection;
 
-    .line 4
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
@@ -70,7 +66,6 @@
     .annotation build Lcom/google/android/gms/common/annotation/a;
     .end annotation
 
-    .line 1
     invoke-static {}, Lf/f/b/b/f/e;->c()Lf/f/b/b/f/g;
 
     move-result-object v0
@@ -85,7 +80,6 @@
 .method public final b(Lf/f/b/b/f/a;)V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lf/f/b/b/f/b;->a:Ljava/util/Collection;
 
     invoke-interface {v0, p1}, Ljava/util/Collection;->add(Ljava/lang/Object;)Z

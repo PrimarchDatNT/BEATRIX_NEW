@@ -91,10 +91,8 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/camera/xcamera/cover/AbsLazyCover;-><init>()V
 
-    .line 2
     new-instance v0, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover$fastCaptureViewModel$2;
 
     invoke-direct {v0, p0}, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover$fastCaptureViewModel$2;-><init>(Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover;)V
@@ -105,7 +103,6 @@
 
     iput-object v0, p0, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover;->d:Lcotlin/w;
 
-    .line 3
     new-instance v0, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover$bpCameraViewModel$2;
 
     invoke-direct {v0, p0}, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover$bpCameraViewModel$2;-><init>(Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover;)V
@@ -116,7 +113,6 @@
 
     iput-object v0, p0, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover;->f:Lcotlin/w;
 
-    .line 4
     new-instance v0, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover$bottomFunctionViewModel$2;
 
     invoke-direct {v0, p0}, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover$bottomFunctionViewModel$2;-><init>(Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover;)V
@@ -127,7 +123,6 @@
 
     iput-object v0, p0, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover;->g:Lcotlin/w;
 
-    .line 5
     new-instance v0, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover$cameraConfigViewModel$2;
 
     invoke-direct {v0, p0}, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover$cameraConfigViewModel$2;-><init>(Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover;)V
@@ -138,7 +133,6 @@
 
     iput-object v0, p0, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover;->p:Lcotlin/w;
 
-    .line 6
     new-instance v0, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover$cameraCaptureViewModel$2;
 
     invoke-direct {v0, p0}, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover$cameraCaptureViewModel$2;-><init>(Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover;)V
@@ -149,7 +143,6 @@
 
     iput-object v0, p0, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover;->J:Lcotlin/w;
 
-    .line 7
     new-instance v0, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover$confirmViewModel$2;
 
     invoke-direct {v0, p0}, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover$confirmViewModel$2;-><init>(Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover;)V
@@ -160,7 +153,6 @@
 
     iput-object v0, p0, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover;->K:Lcotlin/w;
 
-    .line 8
     new-instance v0, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover$confirmBottomFunctionViewModel$2;
 
     invoke-direct {v0, p0}, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover$confirmBottomFunctionViewModel$2;-><init>(Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover;)V
@@ -171,7 +163,6 @@
 
     iput-object v0, p0, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover;->L:Lcotlin/w;
 
-    .line 9
     new-instance v0, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover$waterMarkViewModel$2;
 
     invoke-direct {v0, p0}, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover$waterMarkViewModel$2;-><init>(Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover;)V
@@ -182,7 +173,6 @@
 
     iput-object v0, p0, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover;->M:Lcotlin/w;
 
-    .line 10
     new-instance v0, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover$arViewModel$2;
 
     invoke-direct {v0, p0}, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover$arViewModel$2;-><init>(Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover;)V
@@ -193,7 +183,6 @@
 
     iput-object v0, p0, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover;->N:Lcotlin/w;
 
-    .line 11
     new-instance v0, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover$makeupViewModel$2;
 
     invoke-direct {v0, p0}, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover$makeupViewModel$2;-><init>(Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover;)V
@@ -204,7 +193,6 @@
 
     iput-object v0, p0, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover;->O:Lcotlin/w;
 
-    .line 12
     new-instance v0, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover$aiBeautyViewModel$2;
 
     invoke-direct {v0, p0}, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover$aiBeautyViewModel$2;-><init>(Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover;)V
@@ -215,7 +203,6 @@
 
     iput-object v0, p0, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover;->P:Lcotlin/w;
 
-    .line 13
     new-instance v0, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover$beautyViewModel$2;
 
     invoke-direct {v0, p0}, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover$beautyViewModel$2;-><init>(Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover;)V
@@ -226,7 +213,6 @@
 
     iput-object v0, p0, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover;->Q:Lcotlin/w;
 
-    .line 14
     new-instance v0, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover$proViewModel$2;
 
     invoke-direct {v0, p0}, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover$proViewModel$2;-><init>(Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover;)V
@@ -237,7 +223,6 @@
 
     iput-object v0, p0, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover;->R:Lcotlin/w;
 
-    .line 15
     new-instance v0, Landroid/graphics/Rect;
 
     invoke-direct {v0}, Landroid/graphics/Rect;-><init>()V
@@ -246,7 +231,6 @@
 
     const/4 v0, 0x1
 
-    .line 16
     iput-boolean v0, p0, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover;->T:Z
 
     return-void
@@ -259,7 +243,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover;->M(Z)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -274,7 +257,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover;->O(Lcom/commsource/camera/xcamera/n;)Lcom/commsource/camera/fastcapture/SelfiePhotoData;
 
     move-result-object p0
@@ -291,7 +273,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover;->Y()Lcom/commsource/camera/xcamera/FastCaptureViewModel;
 
     move-result-object p0
@@ -308,7 +289,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover;->d0(Z)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -323,7 +303,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover;->f0(I)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -338,7 +317,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover;->i0(Lcom/commsource/camera/fastcapture/SelfiePhotoData;)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -353,7 +331,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover;->j0(Lcom/commsource/camera/xcamera/bean/c;)Lcom/commsource/camera/fastcapture/SelfiePhotoData;
 
     move-result-object p0
@@ -370,7 +347,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover;->X()Lcom/commsource/camera/xcamera/cover/confirm/b;
 
     move-result-object v1
@@ -381,14 +357,12 @@
 
     if-eqz v1, :cond_7
 
-    .line 2
     new-instance v2, Ljava/util/HashSet;
 
     const/4 v3, 0x4
 
     invoke-direct {v2, v3}, Ljava/util/HashSet;-><init>(I)V
 
-    .line 3
     invoke-virtual {v1}, Lcom/commsource/camera/fastcapture/SelfiePhotoData;->getArMaterial()Lcom/meitu/template/bean/ArMaterial;
 
     move-result-object v3
@@ -411,7 +385,6 @@
     :goto_0
     if-eqz v3, :cond_1
 
-    .line 4
     new-instance v5, Ljava/lang/StringBuilder;
 
     invoke-direct {v5}, Ljava/lang/StringBuilder;-><init>()V
@@ -432,7 +405,6 @@
 
     invoke-virtual {v2, v3}, Ljava/util/HashSet;->add(Ljava/lang/Object;)Z
 
-    .line 5
     :cond_1
     invoke-virtual {v1}, Lcom/commsource/camera/fastcapture/SelfiePhotoData;->getFilter()Lcom/meitu/template/bean/Filter;
 
@@ -444,7 +416,6 @@
 
     if-eqz v3, :cond_3
 
-    .line 6
     new-instance v3, Ljava/lang/StringBuilder;
 
     invoke-direct {v3}, Ljava/lang/StringBuilder;-><init>()V
@@ -474,7 +445,6 @@
 
     invoke-virtual {v2, v3}, Ljava/util/HashSet;->add(Ljava/lang/Object;)Z
 
-    .line 7
     :cond_3
     invoke-virtual {v1}, Lcom/commsource/camera/fastcapture/SelfiePhotoData;->isMovieMode()Z
 
@@ -490,10 +460,8 @@
 
     const-string v3, "1FLA7"
 
-    .line 8
     invoke-virtual {v2, v3}, Ljava/util/HashSet;->add(Ljava/lang/Object;)Z
 
-    .line 9
     :cond_4
     invoke-virtual {v1}, Lcom/commsource/camera/fastcapture/SelfiePhotoData;->getLookMaterial()Lcom/meitu/template/bean/LookMaterial;
 
@@ -509,7 +477,6 @@
 
     if-ne v3, v5, :cond_6
 
-    .line 10
     new-instance v3, Ljava/lang/StringBuilder;
 
     invoke-direct {v3}, Ljava/lang/StringBuilder;-><init>()V
@@ -541,32 +508,25 @@
 
     invoke-virtual {v2, v3}, Ljava/util/HashSet;->add(Ljava/lang/Object;)Z
 
-    .line 11
     :cond_6
     sget-object v3, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/h;->b:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/h$a;
 
-    .line 12
     invoke-virtual {v1}, Lcom/commsource/camera/fastcapture/SelfiePhotoData;->getMakeupWrappers()Landroid/util/SparseArray;
 
     move-result-object v4
 
-    .line 13
     invoke-virtual {v1}, Lcom/commsource/camera/fastcapture/SelfiePhotoData;->getMakeupStyleMaterials()Landroid/util/SparseArray;
 
     move-result-object v1
 
-    .line 14
     invoke-virtual {v3, v4, v1}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/h$a;->a(Landroid/util/SparseArray;Landroid/util/SparseArray;)Ljava/util/HashSet;
 
     move-result-object v1
 
-    .line 15
     invoke-virtual {v2, v1}, Ljava/util/HashSet;->addAll(Ljava/util/Collection;)Z
 
-    .line 16
     invoke-static {v2}, Lcom/commsource/statistics/q;->d(Ljava/util/HashSet;)V
 
-    .line 17
     :cond_7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -580,7 +540,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/AbsLazyCover;->A()Landroidx/databinding/ViewDataBinding;
 
     move-result-object v1
@@ -598,23 +557,19 @@
     :cond_0
     const/high16 v2, -0x1000000
 
-    .line 2
     :goto_0
     iget-object v3, v1, Lcom/commsource/beautyplus/f0/o4;->c:Lcom/commsource/widget/IconFrontView;
 
     invoke-virtual {v3, v2}, Landroid/widget/TextView;->setTextColor(I)V
 
-    .line 3
     iget-object v3, v1, Lcom/commsource/beautyplus/f0/o4;->c:Lcom/commsource/widget/IconFrontView;
 
     iput-boolean p1, v3, Lcom/commsource/widget/IconFrontView;->d:Z
 
-    .line 4
     iget-object v3, v1, Lcom/commsource/beautyplus/f0/o4;->f:Lcom/commsource/widget/PressStrokeTextView;
 
     invoke-virtual {v3, v2}, Lcom/commsource/comic/widget/StrokeTextView;->setTextColor(I)V
 
-    .line 5
     iget-object v3, v1, Lcom/commsource/beautyplus/f0/o4;->f:Lcom/commsource/widget/PressStrokeTextView;
 
     const-string v4, "mViewBinding.backText"
@@ -623,17 +578,14 @@
 
     invoke-virtual {v3, p1}, Lcom/commsource/comic/widget/StrokeTextView;->setStroke(Z)V
 
-    .line 6
     iget-object v3, v1, Lcom/commsource/beautyplus/f0/o4;->O:Lcom/commsource/widget/IconFrontView;
 
     invoke-virtual {v3, v2}, Landroid/widget/TextView;->setTextColor(I)V
 
-    .line 7
     iget-object v3, v1, Lcom/commsource/beautyplus/f0/o4;->O:Lcom/commsource/widget/IconFrontView;
 
     iput-boolean p1, v3, Lcom/commsource/widget/IconFrontView;->d:Z
 
-    .line 8
     iget-object v3, v1, Lcom/commsource/beautyplus/f0/o4;->Q:Lcom/commsource/widget/PressStrokeTextView;
 
     const-string v4, "mViewBinding.flareText"
@@ -642,27 +594,22 @@
 
     invoke-virtual {v3, p1}, Lcom/commsource/comic/widget/StrokeTextView;->setStroke(Z)V
 
-    .line 9
     iget-object v3, v1, Lcom/commsource/beautyplus/f0/o4;->Q:Lcom/commsource/widget/PressStrokeTextView;
 
     invoke-virtual {v3, v2}, Lcom/commsource/comic/widget/StrokeTextView;->setTextColor(I)V
 
-    .line 10
     iget-object v3, v1, Lcom/commsource/beautyplus/f0/o4;->K:Lcom/commsource/widget/IconFrontView;
 
     invoke-virtual {v3, v2}, Landroid/widget/TextView;->setTextColor(I)V
 
-    .line 11
     iget-object v3, v1, Lcom/commsource/beautyplus/f0/o4;->K:Lcom/commsource/widget/IconFrontView;
 
     iput-boolean p1, v3, Lcom/commsource/widget/IconFrontView;->d:Z
 
-    .line 12
     iget-object v3, v1, Lcom/commsource/beautyplus/f0/o4;->M:Lcom/commsource/widget/PressStrokeTextView;
 
     invoke-virtual {v3, v2}, Lcom/commsource/comic/widget/StrokeTextView;->setTextColor(I)V
 
-    .line 13
     iget-object v3, v1, Lcom/commsource/beautyplus/f0/o4;->M:Lcom/commsource/widget/PressStrokeTextView;
 
     const-string v4, "mViewBinding.editText"
@@ -671,22 +618,18 @@
 
     invoke-virtual {v3, p1}, Lcom/commsource/comic/widget/StrokeTextView;->setStroke(Z)V
 
-    .line 14
     iget-object v3, v1, Lcom/commsource/beautyplus/f0/o4;->W:Lcom/commsource/widget/IconFrontView;
 
     invoke-virtual {v3, v2}, Landroid/widget/TextView;->setTextColor(I)V
 
-    .line 15
     iget-object v3, v1, Lcom/commsource/beautyplus/f0/o4;->W:Lcom/commsource/widget/IconFrontView;
 
     iput-boolean p1, v3, Lcom/commsource/widget/IconFrontView;->d:Z
 
-    .line 16
     iget-object v3, v1, Lcom/commsource/beautyplus/f0/o4;->Y:Lcom/commsource/widget/PressStrokeTextView;
 
     invoke-virtual {v3, v2}, Lcom/commsource/comic/widget/StrokeTextView;->setTextColor(I)V
 
-    .line 17
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/o4;->Y:Lcom/commsource/widget/PressStrokeTextView;
 
     const-string v2, "mViewBinding.shareText"
@@ -695,7 +638,6 @@
 
     invoke-virtual {v1, p1}, Lcom/commsource/comic/widget/StrokeTextView;->setStroke(Z)V
 
-    .line 18
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -717,7 +659,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover;->X()Lcom/commsource/camera/xcamera/cover/confirm/b;
 
     move-result-object v1
@@ -734,7 +675,6 @@
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-static {}, Lf/d/i/o;->o0()Z
 
     move-result v2
@@ -753,7 +693,6 @@
 
     if-eqz v2, :cond_0
 
-    .line 3
     sget-object v2, Lcom/meitu/library/hwanalytics/spm/d;->b:Lcom/meitu/library/hwanalytics/spm/d;
 
     const-string v3, "source_click_position"
@@ -762,10 +701,8 @@
 
     invoke-virtual {v2, v3, v4}, Lcom/meitu/library/hwanalytics/spm/d;->d(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 4
     invoke-direct {p0}, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover;->L()V
 
-    .line 5
     new-instance v2, Lcom/commsource/util/p2/c;
 
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/AbsBaseCover;->c()Lcom/commsource/camera/xcamera/cover/CoverGroup;
@@ -786,7 +723,6 @@
 
     const/4 p1, 0x1
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
@@ -794,7 +730,6 @@
     :cond_0
     const/4 p1, 0x0
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
@@ -812,7 +747,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover;->T()Lcom/commsource/camera/xcamera/BpCameraViewModel;
 
     move-result-object v1
@@ -821,7 +755,6 @@
 
     move-result-object v1
 
-    .line 2
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover;->T()Lcom/commsource/camera/xcamera/BpCameraViewModel;
 
     move-result-object v2
@@ -832,14 +765,12 @@
 
     invoke-virtual {v2, v3}, Lcom/commsource/camera/xcamera/BpCameraViewModel;->L1(Lcom/commsource/camera/newrender/renderproxy/m$b;)V
 
-    .line 3
     sget-object v2, Lcom/commsource/camera/fastcapture/SelfiePhotoData;->Companion:Lcom/commsource/camera/fastcapture/SelfiePhotoData$a;
 
     invoke-virtual {v2}, Lcom/commsource/camera/fastcapture/SelfiePhotoData$a;->a()Lcom/commsource/camera/fastcapture/SelfiePhotoData;
 
     move-result-object v2
 
-    .line 4
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover;->T()Lcom/commsource/camera/xcamera/BpCameraViewModel;
 
     move-result-object v3
@@ -858,7 +789,6 @@
 
     const-string v4, "it"
 
-    .line 5
     invoke-static {v3, v4}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v3}, Ljava/lang/Integer;->intValue()I
@@ -867,7 +797,6 @@
 
     iput v3, v2, Lcom/commsource/camera/fastcapture/SelfiePhotoData;->mTakePictureRatio:I
 
-    .line 6
     :cond_0
     invoke-virtual {p1}, Lcom/commsource/camera/xcamera/n;->a()I
 
@@ -875,21 +804,18 @@
 
     invoke-virtual {v2, p1}, Lcom/commsource/camera/fastcapture/SelfiePhotoData;->setTakePictureBtn(I)V
 
-    .line 7
     invoke-virtual {v1}, Lcom/commsource/camera/xcamera/h;->p()Lcom/meitu/template/bean/k;
 
     move-result-object p1
 
     invoke-virtual {v2, p1}, Lcom/commsource/camera/fastcapture/SelfiePhotoData;->setLookEffectBean(Lcom/meitu/template/bean/k;)V
 
-    .line 8
     invoke-virtual {v1}, Lcom/commsource/camera/xcamera/h;->f()Ljava/util/List;
 
     move-result-object p1
 
     invoke-virtual {v2, p1}, Lcom/commsource/camera/fastcapture/SelfiePhotoData;->setBeautyEntities(Ljava/util/List;)V
 
-    .line 9
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover;->R()Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/beauty/d;
 
     move-result-object p1
@@ -900,21 +826,18 @@
 
     invoke-virtual {v2, p1}, Lcom/commsource/camera/fastcapture/SelfiePhotoData;->setSimpleBeautyEnable(Z)V
 
-    .line 10
     invoke-virtual {v1}, Lcom/commsource/camera/xcamera/h;->d()Lcom/meitu/template/bean/ArMaterial;
 
     move-result-object p1
 
     if-nez p1, :cond_1
 
-    .line 11
     invoke-virtual {v1}, Lcom/commsource/camera/xcamera/h;->n()Lcom/meitu/template/bean/LookMaterial;
 
     move-result-object p1
 
     invoke-virtual {v2, p1}, Lcom/commsource/camera/fastcapture/SelfiePhotoData;->setLookMaterial(Lcom/meitu/template/bean/LookMaterial;)V
 
-    .line 12
     :cond_1
     invoke-virtual {v1}, Lcom/commsource/camera/xcamera/h;->m()Z
 
@@ -922,7 +845,6 @@
 
     invoke-virtual {v2, p1}, Lcom/commsource/camera/fastcapture/SelfiePhotoData;->setArGiphy(Z)V
 
-    .line 13
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover;->V()Lcom/commsource/camera/xcamera/cover/CameraConfigViewModel;
 
     move-result-object p1
@@ -933,7 +855,6 @@
 
     invoke-virtual {v2, p1}, Lcom/commsource/camera/fastcapture/SelfiePhotoData;->setFullScreen(Z)V
 
-    .line 14
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover;->T()Lcom/commsource/camera/xcamera/BpCameraViewModel;
 
     move-result-object p1
@@ -944,7 +865,6 @@
 
     invoke-virtual {v2, p1}, Lcom/commsource/camera/fastcapture/SelfiePhotoData;->setFront(Z)V
 
-    .line 15
     invoke-virtual {v1}, Lcom/commsource/camera/xcamera/h;->d()Lcom/meitu/template/bean/ArMaterial;
 
     move-result-object p1
@@ -978,7 +898,6 @@
     :goto_0
     invoke-virtual {v2, p1}, Lcom/commsource/camera/fastcapture/SelfiePhotoData;->setFilter(Lcom/meitu/template/bean/Filter;)V
 
-    .line 16
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover;->T()Lcom/commsource/camera/xcamera/BpCameraViewModel;
 
     move-result-object p1
@@ -993,7 +912,6 @@
 
     invoke-virtual {v2, p1}, Lcom/commsource/camera/fastcapture/SelfiePhotoData;->setArFaceCount(I)V
 
-    .line 17
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/AbsBaseCover;->c()Lcom/commsource/camera/xcamera/cover/CoverGroup;
 
     move-result-object p1
@@ -1008,7 +926,6 @@
 
     invoke-virtual {v2, p1}, Lcom/commsource/camera/fastcapture/SelfiePhotoData;->setDelayMode(I)V
 
-    .line 18
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover;->S()Lcom/commsource/camera/xcamera/cover/bottomFunction/b;
 
     move-result-object p1
@@ -1019,7 +936,6 @@
 
     invoke-virtual {v2, p1}, Lcom/commsource/camera/fastcapture/SelfiePhotoData;->setBottomShowCapture(Z)V
 
-    .line 19
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover;->T()Lcom/commsource/camera/xcamera/BpCameraViewModel;
 
     move-result-object p1
@@ -1034,7 +950,6 @@
 
     invoke-virtual {v2, p1}, Lcom/commsource/camera/fastcapture/SelfiePhotoData;->setFlashMode(Ljava/lang/String;)V
 
-    .line 20
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover;->V()Lcom/commsource/camera/xcamera/cover/CameraConfigViewModel;
 
     move-result-object p1
@@ -1059,7 +974,6 @@
 
     invoke-virtual {v2, p1}, Lcom/commsource/camera/fastcapture/SelfiePhotoData;->setFillLight(Z)V
 
-    .line 21
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/AbsBaseCover;->c()Lcom/commsource/camera/xcamera/cover/CoverGroup;
 
     move-result-object p1
@@ -1112,7 +1026,6 @@
     :goto_2
     invoke-virtual {v2, p1}, Lcom/commsource/camera/fastcapture/SelfiePhotoData;->setObtainOneCapture(Z)V
 
-    .line 22
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/AbsBaseCover;->c()Lcom/commsource/camera/xcamera/cover/CoverGroup;
 
     move-result-object p1
@@ -1133,7 +1046,6 @@
 
     invoke-virtual {v2, p1}, Lcom/commsource/camera/fastcapture/SelfiePhotoData;->setCropValue(Ljava/lang/String;)V
 
-    .line 23
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/AbsBaseCover;->c()Lcom/commsource/camera/xcamera/cover/CoverGroup;
 
     move-result-object p1
@@ -1156,7 +1068,6 @@
 
     invoke-virtual {v2, p1}, Lcom/commsource/camera/fastcapture/SelfiePhotoData;->setSaveUri(Landroid/net/Uri;)V
 
-    .line 24
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover;->U()Lcom/commsource/camera/xcamera/cover/CameraCaptureViewModel;
 
     move-result-object p1
@@ -1167,7 +1078,6 @@
 
     invoke-virtual {v2, p1}, Lcom/commsource/camera/fastcapture/SelfiePhotoData;->setCameraMode(I)V
 
-    .line 25
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover;->U()Lcom/commsource/camera/xcamera/cover/CameraCaptureViewModel;
 
     move-result-object p1
@@ -1178,12 +1088,10 @@
 
     if-eqz p1, :cond_6
 
-    .line 26
     new-instance p1, Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/c;
 
     const/4 v6, 0x2
 
-    .line 27
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
     move-result-object v7
@@ -1192,12 +1100,10 @@
 
     move-result v7
 
-    .line 28
     invoke-direct {p1, v6, v7}, Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/c;-><init>(II)V
 
     invoke-virtual {v2, p1}, Lcom/commsource/camera/fastcapture/SelfiePhotoData;->setMovieFlareEffect(Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/c;)V
 
-    .line 29
     :cond_6
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/AbsBaseCover;->c()Lcom/commsource/camera/xcamera/cover/CoverGroup;
 
@@ -1217,7 +1123,6 @@
 
     invoke-virtual {v2, p1}, Lcom/commsource/camera/fastcapture/SelfiePhotoData;->setWaterEntity(Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/WaterEntity;)V
 
-    .line 30
     invoke-virtual {v1}, Lcom/commsource/camera/xcamera/h;->m()Z
 
     move-result p1
@@ -1244,7 +1149,6 @@
     :goto_4
     invoke-virtual {v2, p1}, Lcom/commsource/camera/fastcapture/SelfiePhotoData;->setAr(Z)V
 
-    .line 31
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover;->T()Lcom/commsource/camera/xcamera/BpCameraViewModel;
 
     move-result-object p1
@@ -1259,7 +1163,6 @@
 
     invoke-virtual {v2, p1}, Lcom/commsource/camera/fastcapture/SelfiePhotoData;->setExportValue(I)V
 
-    .line 32
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover;->Q()Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/c1;
 
     move-result-object p1
@@ -1278,7 +1181,6 @@
 
     if-nez p1, :cond_d
 
-    .line 33
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover;->Z()Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/i;
 
     move-result-object p1
@@ -1307,12 +1209,10 @@
     :goto_5
     invoke-virtual {v2, p1}, Lcom/commsource/camera/fastcapture/SelfiePhotoData;->setMakeupWrappers(Landroid/util/SparseArray;)V
 
-    .line 34
     new-instance p1, Landroid/util/SparseArray;
 
     invoke-direct {p1}, Landroid/util/SparseArray;-><init>()V
 
-    .line 35
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover;->Z()Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/i;
 
     move-result-object v6
@@ -1338,7 +1238,6 @@
     :cond_a
     move-object v6, v3
 
-    .line 36
     :goto_6
     invoke-virtual {v2}, Lcom/commsource/camera/fastcapture/SelfiePhotoData;->getMakeupWrappers()Landroid/util/SparseArray;
 
@@ -1346,7 +1245,6 @@
 
     if-eqz v7, :cond_c
 
-    .line 37
     invoke-virtual {v7}, Landroid/util/SparseArray;->size()I
 
     move-result v8
@@ -1356,14 +1254,12 @@
     :goto_7
     if-ge v9, v8, :cond_c
 
-    .line 38
     invoke-virtual {v7, v9}, Landroid/util/SparseArray;->keyAt(I)I
 
     move-result v10
 
     if-eqz v6, :cond_b
 
-    .line 39
     invoke-virtual {v6, v10}, Landroid/util/SparseArray;->get(I)Ljava/lang/Object;
 
     move-result-object v11
@@ -1372,7 +1268,6 @@
 
     if-eqz v11, :cond_b
 
-    .line 40
     invoke-virtual {p1, v10, v11}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
     :cond_b
@@ -1380,11 +1275,9 @@
 
     goto :goto_7
 
-    .line 41
     :cond_c
     invoke-virtual {v2, p1}, Lcom/commsource/camera/fastcapture/SelfiePhotoData;->setMakeupStyleMaterials(Landroid/util/SparseArray;)V
 
-    .line 42
     :cond_d
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/AbsBaseCover;->c()Lcom/commsource/camera/xcamera/cover/CoverGroup;
 
@@ -1406,7 +1299,6 @@
 
     if-eqz p1, :cond_f
 
-    .line 43
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/AbsBaseCover;->c()Lcom/commsource/camera/xcamera/cover/CoverGroup;
 
     move-result-object p1
@@ -1442,7 +1334,6 @@
 
     throw p1
 
-    .line 44
     :cond_f
     :goto_8
     invoke-virtual {v1}, Lcom/commsource/camera/xcamera/h;->d()Lcom/meitu/template/bean/ArMaterial;
@@ -1468,45 +1359,38 @@
     :cond_10
     if-eqz v3, :cond_12
 
-    .line 45
     invoke-virtual {v3}, Lcom/meitu/template/bean/ArMaterial;->getNumber()I
 
     move-result p1
 
     invoke-virtual {v2, p1}, Lcom/commsource/camera/fastcapture/SelfiePhotoData;->setArMaterialId(I)V
 
-    .line 46
     invoke-virtual {v2, v3}, Lcom/commsource/camera/fastcapture/SelfiePhotoData;->setArMaterial(Lcom/meitu/template/bean/ArMaterial;)V
 
-    .line 47
     invoke-virtual {v3}, Lcom/meitu/template/bean/ArMaterial;->getGroupNumber()I
 
     move-result p1
 
     invoke-virtual {v2, p1}, Lcom/commsource/camera/fastcapture/SelfiePhotoData;->setArMaterialGroup(I)V
 
-    .line 48
     invoke-virtual {v3}, Lcom/meitu/template/bean/ArMaterial;->getClickGroupNumber()I
 
     move-result p1
 
     invoke-virtual {v2, p1}, Lcom/commsource/camera/fastcapture/SelfiePhotoData;->setArClickGroup(I)V
 
-    .line 49
     invoke-static {v3}, Lcom/commsource/beautyplus/util/h;->y(Lcom/meitu/template/bean/ArMaterial;)Z
 
     move-result p1
 
     invoke-virtual {v2, p1}, Lcom/commsource/camera/fastcapture/SelfiePhotoData;->setArVideoReward(Z)V
 
-    .line 50
     invoke-static {v3}, Lcom/commsource/beautyplus/util/h;->v(Lcom/meitu/template/bean/ArMaterial;)Z
 
     move-result p1
 
     invoke-virtual {v2, p1}, Lcom/commsource/camera/fastcapture/SelfiePhotoData;->setArCore(Z)V
 
-    .line 51
     invoke-virtual {v1}, Lcom/commsource/camera/xcamera/h;->a()Lcom/meitu/template/bean/Filter;
 
     move-result-object p1
@@ -1518,7 +1402,6 @@
     :cond_11
     invoke-virtual {v2, v4}, Lcom/commsource/camera/fastcapture/SelfiePhotoData;->setUseArFilter(Z)V
 
-    .line 52
     :cond_12
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1552,21 +1435,17 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover;->T:Z
 
     if-ne p1, v1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 3
     :cond_0
     iput-boolean p1, p0, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover;->T:Z
 
-    .line 4
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover;->X()Lcom/commsource/camera/xcamera/cover/confirm/b;
 
     move-result-object p1
@@ -1583,7 +1462,6 @@
 
     if-eqz p1, :cond_8
 
-    .line 5
     iget-boolean v1, p0, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover;->T:Z
 
     const-wide/16 v2, 0xc8
@@ -1592,7 +1470,6 @@
 
     if-eqz v1, :cond_4
 
-    .line 6
     invoke-virtual {p1}, Lcom/commsource/camera/fastcapture/SelfiePhotoData;->isNeedShowAIBeauty()Z
 
     move-result p1
@@ -1601,7 +1478,6 @@
 
     if-eqz p1, :cond_2
 
-    .line 7
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/AbsLazyCover;->A()Landroidx/databinding/ViewDataBinding;
 
     move-result-object p1
@@ -1622,7 +1498,6 @@
 
     invoke-virtual {p1}, Landroid/view/ViewPropertyAnimator;->cancel()V
 
-    .line 8
     :cond_1
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/AbsLazyCover;->A()Landroidx/databinding/ViewDataBinding;
 
@@ -1636,7 +1511,6 @@
 
     if-eqz p1, :cond_2
 
-    .line 9
     invoke-virtual {p1}, Landroid/widget/RelativeLayout;->animate()Landroid/view/ViewPropertyAnimator;
 
     move-result-object p1
@@ -1649,24 +1523,20 @@
 
     if-eqz p1, :cond_2
 
-    .line 10
     invoke-virtual {p1, v1}, Landroid/view/ViewPropertyAnimator;->alpha(F)Landroid/view/ViewPropertyAnimator;
 
     move-result-object p1
 
     if-eqz p1, :cond_2
 
-    .line 11
     invoke-virtual {p1, v2, v3}, Landroid/view/ViewPropertyAnimator;->setDuration(J)Landroid/view/ViewPropertyAnimator;
 
     move-result-object p1
 
     if-eqz p1, :cond_2
 
-    .line 12
     invoke-virtual {p1}, Landroid/view/ViewPropertyAnimator;->start()V
 
-    .line 13
     :cond_2
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/AbsLazyCover;->A()Landroidx/databinding/ViewDataBinding;
 
@@ -1688,7 +1558,6 @@
 
     invoke-virtual {p1}, Landroid/view/ViewPropertyAnimator;->cancel()V
 
-    .line 14
     :cond_3
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/AbsLazyCover;->A()Landroidx/databinding/ViewDataBinding;
 
@@ -1702,7 +1571,6 @@
 
     if-eqz p1, :cond_8
 
-    .line 15
     invoke-virtual {p1}, Landroid/widget/RelativeLayout;->animate()Landroid/view/ViewPropertyAnimator;
 
     move-result-object p1
@@ -1715,26 +1583,22 @@
 
     if-eqz p1, :cond_8
 
-    .line 16
     invoke-virtual {p1, v1}, Landroid/view/ViewPropertyAnimator;->alpha(F)Landroid/view/ViewPropertyAnimator;
 
     move-result-object p1
 
     if-eqz p1, :cond_8
 
-    .line 17
     invoke-virtual {p1, v2, v3}, Landroid/view/ViewPropertyAnimator;->setDuration(J)Landroid/view/ViewPropertyAnimator;
 
     move-result-object p1
 
     if-eqz p1, :cond_8
 
-    .line 18
     invoke-virtual {p1}, Landroid/view/ViewPropertyAnimator;->start()V
 
     goto/16 :goto_0
 
-    .line 19
     :cond_4
     invoke-virtual {p1}, Lcom/commsource/camera/fastcapture/SelfiePhotoData;->isNeedShowAIBeauty()Z
 
@@ -1744,7 +1608,6 @@
 
     if-eqz p1, :cond_6
 
-    .line 20
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/AbsLazyCover;->A()Landroidx/databinding/ViewDataBinding;
 
     move-result-object p1
@@ -1765,7 +1628,6 @@
 
     invoke-virtual {p1}, Landroid/view/ViewPropertyAnimator;->cancel()V
 
-    .line 21
     :cond_5
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/AbsLazyCover;->A()Landroidx/databinding/ViewDataBinding;
 
@@ -1779,7 +1641,6 @@
 
     if-eqz p1, :cond_6
 
-    .line 22
     invoke-virtual {p1}, Landroid/widget/RelativeLayout;->animate()Landroid/view/ViewPropertyAnimator;
 
     move-result-object p1
@@ -1796,24 +1657,20 @@
 
     if-eqz p1, :cond_6
 
-    .line 23
     invoke-virtual {p1, v4}, Landroid/view/ViewPropertyAnimator;->alpha(F)Landroid/view/ViewPropertyAnimator;
 
     move-result-object p1
 
     if-eqz p1, :cond_6
 
-    .line 24
     invoke-virtual {p1, v2, v3}, Landroid/view/ViewPropertyAnimator;->setDuration(J)Landroid/view/ViewPropertyAnimator;
 
     move-result-object p1
 
     if-eqz p1, :cond_6
 
-    .line 25
     invoke-virtual {p1}, Landroid/view/ViewPropertyAnimator;->start()V
 
-    .line 26
     :cond_6
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/AbsLazyCover;->A()Landroidx/databinding/ViewDataBinding;
 
@@ -1835,7 +1692,6 @@
 
     invoke-virtual {p1}, Landroid/view/ViewPropertyAnimator;->cancel()V
 
-    .line 27
     :cond_7
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/AbsLazyCover;->A()Landroidx/databinding/ViewDataBinding;
 
@@ -1849,7 +1705,6 @@
 
     if-eqz p1, :cond_8
 
-    .line 28
     invoke-virtual {p1}, Landroid/widget/RelativeLayout;->animate()Landroid/view/ViewPropertyAnimator;
 
     move-result-object p1
@@ -1866,24 +1721,20 @@
 
     if-eqz p1, :cond_8
 
-    .line 29
     invoke-virtual {p1, v4}, Landroid/view/ViewPropertyAnimator;->alpha(F)Landroid/view/ViewPropertyAnimator;
 
     move-result-object p1
 
     if-eqz p1, :cond_8
 
-    .line 30
     invoke-virtual {p1, v2, v3}, Landroid/view/ViewPropertyAnimator;->setDuration(J)Landroid/view/ViewPropertyAnimator;
 
     move-result-object p1
 
     if-eqz p1, :cond_8
 
-    .line 31
     invoke-virtual {p1}, Landroid/view/ViewPropertyAnimator;->start()V
 
-    .line 32
     :cond_8
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1902,7 +1753,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover$onClickSave$1;
 
     invoke-direct {v1, p0, p1}, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover$onClickSave$1;-><init>(Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover;I)V
@@ -1913,12 +1763,10 @@
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 3
     :cond_0
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover;->X()Lcom/commsource/camera/xcamera/cover/confirm/b;
 
@@ -1926,7 +1774,6 @@
 
     invoke-virtual {v1, p1}, Lcom/commsource/camera/xcamera/cover/confirm/b;->L0(I)V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1939,7 +1786,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/AbsLazyCover;->A()Landroidx/databinding/ViewDataBinding;
 
     move-result-object v1
@@ -1948,7 +1794,6 @@
 
     if-eqz v1, :cond_3
 
-    .line 2
     invoke-virtual {p1}, Lcom/commsource/camera/fastcapture/SelfiePhotoData;->isNeedShowAIBeauty()Z
 
     move-result v2
@@ -1957,10 +1802,8 @@
 
     if-eqz v2, :cond_2
 
-    .line 3
     iget-object v2, v1, Lcom/commsource/beautyplus/f0/o4;->a0:Lcom/commsource/widget/PressRelativeLayout;
 
-    .line 4
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover;->V()Lcom/commsource/camera/xcamera/cover/CameraConfigViewModel;
 
     move-result-object v4
@@ -1973,7 +1816,6 @@
 
     if-eqz v4, :cond_0
 
-    .line 5
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover;->V()Lcom/commsource/camera/xcamera/cover/CameraConfigViewModel;
 
     move-result-object v4
@@ -1984,7 +1826,6 @@
 
     invoke-virtual {v4, v6, v7}, Lcom/commsource/camera/xcamera/cover/CameraConfigViewModel;->D(ILandroid/graphics/Rect;)V
 
-    .line 6
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover;->V()Lcom/commsource/camera/xcamera/cover/CameraConfigViewModel;
 
     move-result-object v4
@@ -2001,7 +1842,6 @@
 
     goto :goto_0
 
-    .line 7
     :cond_0
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover;->V()Lcom/commsource/camera/xcamera/cover/CameraConfigViewModel;
 
@@ -2011,7 +1851,6 @@
 
     invoke-virtual {v4, v5, v6}, Lcom/commsource/camera/xcamera/cover/CameraConfigViewModel;->D(ILandroid/graphics/Rect;)V
 
-    .line 8
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover;->V()Lcom/commsource/camera/xcamera/cover/CameraConfigViewModel;
 
     move-result-object v4
@@ -2029,17 +1868,14 @@
     :goto_0
     sub-int/2addr v4, v6
 
-    .line 9
     invoke-static {v2, v4}, Lcom/commsource/util/l2;->A(Landroid/view/View;I)V
 
-    .line 10
     iget-object v2, v1, Lcom/commsource/beautyplus/f0/o4;->a0:Lcom/commsource/widget/PressRelativeLayout;
 
     invoke-static {v2, v3}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-static {v2}, Lcom/commsource/util/l0;->v0(Landroid/view/View;)V
 
-    .line 11
     iget-object v2, v1, Lcom/commsource/beautyplus/f0/o4;->a0:Lcom/commsource/widget/PressRelativeLayout;
 
     invoke-static {v2, v3}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
@@ -2048,14 +1884,12 @@
 
     invoke-virtual {v2, v4}, Landroid/widget/RelativeLayout;->setClickable(Z)V
 
-    .line 12
     invoke-virtual {p1}, Lcom/commsource/camera/fastcapture/SelfiePhotoData;->isAIBeautyEnable()Z
 
     move-result p1
 
     if-eqz p1, :cond_1
 
-    .line 13
     iget-object p1, v1, Lcom/commsource/beautyplus/f0/o4;->a0:Lcom/commsource/widget/PressRelativeLayout;
 
     invoke-static {p1, v3}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
@@ -2064,19 +1898,16 @@
 
     invoke-virtual {p1, v2}, Landroid/widget/RelativeLayout;->setTag(Ljava/lang/Object;)V
 
-    .line 14
     iget-object p1, v1, Lcom/commsource/beautyplus/f0/o4;->a0:Lcom/commsource/widget/PressRelativeLayout;
 
     invoke-virtual {p1, v5}, Lcom/commsource/widget/PressRelativeLayout;->a(Z)V
 
-    .line 15
     iget-object p1, v1, Lcom/commsource/beautyplus/f0/o4;->a0:Lcom/commsource/widget/PressRelativeLayout;
 
     sget v2, Lcom/res/provider/ResDRAWABLE;->common_aibeauty_shadow_icon:I
 
     invoke-virtual {p1, v2}, Landroid/widget/RelativeLayout;->setBackgroundResource(I)V
 
-    .line 16
     iget-object p1, v1, Lcom/commsource/beautyplus/f0/o4;->a0:Lcom/commsource/widget/PressRelativeLayout;
 
     invoke-static {p1, v3}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
@@ -2087,7 +1918,6 @@
 
     goto :goto_1
 
-    .line 17
     :cond_1
     iget-object p1, v1, Lcom/commsource/beautyplus/f0/o4;->a0:Lcom/commsource/widget/PressRelativeLayout;
 
@@ -2095,12 +1925,10 @@
 
     invoke-virtual {p1, v2}, Landroid/widget/RelativeLayout;->setBackgroundResource(I)V
 
-    .line 18
     iget-object p1, v1, Lcom/commsource/beautyplus/f0/o4;->a0:Lcom/commsource/widget/PressRelativeLayout;
 
     invoke-virtual {p1, v4}, Lcom/commsource/widget/PressRelativeLayout;->a(Z)V
 
-    .line 19
     iget-object p1, v1, Lcom/commsource/beautyplus/f0/o4;->a0:Lcom/commsource/widget/PressRelativeLayout;
 
     invoke-static {p1, v3}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
@@ -2111,7 +1939,6 @@
 
     goto :goto_1
 
-    .line 20
     :cond_2
     iget-object p1, v1, Lcom/commsource/beautyplus/f0/o4;->a0:Lcom/commsource/widget/PressRelativeLayout;
 
@@ -2119,7 +1946,6 @@
 
     invoke-static {p1}, Lcom/commsource/util/l0;->w(Landroid/view/View;)V
 
-    .line 21
     :cond_3
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2134,7 +1960,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover;->U()Lcom/commsource/camera/xcamera/cover/CameraCaptureViewModel;
 
     move-result-object v1
@@ -2157,7 +1982,6 @@
 
     goto/16 :goto_4
 
-    .line 2
     :cond_0
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
@@ -2169,10 +1993,8 @@
 
     const/4 v1, 0x1
 
-    .line 3
     invoke-static {v1}, Lf/d/i/e;->x2(I)V
 
-    .line 4
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/AbsLazyCover;->A()Landroidx/databinding/ViewDataBinding;
 
     move-result-object v2
@@ -2181,12 +2003,10 @@
 
     if-eqz v2, :cond_6
 
-    .line 5
     iget-object v3, v2, Lcom/commsource/beautyplus/f0/o4;->V:Lcom/commsource/camera/xcamera/widget/CameraSaveLoadingView;
 
     invoke-virtual {v3}, Lcom/commsource/camera/xcamera/widget/CameraSaveLoadingView;->l()V
 
-    .line 6
     invoke-virtual {p1}, Lcom/commsource/camera/fastcapture/SelfiePhotoData;->isMovieMode()Z
 
     move-result v3
@@ -2195,7 +2015,6 @@
 
     if-eqz v3, :cond_1
 
-    .line 7
     iget-object v3, v2, Lcom/commsource/beautyplus/f0/o4;->U:Landroid/widget/RelativeLayout;
 
     invoke-static {v3, v4}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
@@ -2204,7 +2023,6 @@
 
     goto :goto_0
 
-    .line 8
     :cond_1
     iget-object v3, v2, Lcom/commsource/beautyplus/f0/o4;->U:Landroid/widget/RelativeLayout;
 
@@ -2212,7 +2030,6 @@
 
     invoke-static {v3}, Lcom/commsource/util/l0;->w(Landroid/view/View;)V
 
-    .line 9
     :goto_0
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover;->U()Lcom/commsource/camera/xcamera/cover/CameraCaptureViewModel;
 
@@ -2224,7 +2041,6 @@
 
     if-eqz v3, :cond_2
 
-    .line 10
     iget-object v3, v2, Lcom/commsource/beautyplus/f0/o4;->X:Landroid/widget/RelativeLayout;
 
     const-string v4, "mViewBinding.shareContainer"
@@ -2233,7 +2049,6 @@
 
     invoke-static {v3}, Lcom/commsource/util/l0;->w(Landroid/view/View;)V
 
-    .line 11
     iget-object v3, v2, Lcom/commsource/beautyplus/f0/o4;->L:Landroid/widget/RelativeLayout;
 
     const-string v4, "mViewBinding.editContainer"
@@ -2242,11 +2057,9 @@
 
     invoke-static {v3}, Lcom/commsource/util/l0;->w(Landroid/view/View;)V
 
-    .line 12
     :cond_2
     invoke-direct {p0, p1}, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover;->h0(Lcom/commsource/camera/fastcapture/SelfiePhotoData;)V
 
-    .line 13
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover;->V()Lcom/commsource/camera/xcamera/cover/CameraConfigViewModel;
 
     move-result-object v3
@@ -2259,18 +2072,15 @@
 
     if-eqz v3, :cond_3
 
-    .line 14
     iget-object v3, v2, Lcom/commsource/beautyplus/f0/o4;->Z:Lcom/commsource/camera/beauty/WaterMarkImageView;
 
     invoke-static {v3, v4}, Lcom/commsource/util/l2;->D(Landroid/view/View;I)V
 
     goto :goto_1
 
-    .line 15
     :cond_3
     iget-object v3, v2, Lcom/commsource/beautyplus/f0/o4;->Z:Lcom/commsource/camera/beauty/WaterMarkImageView;
 
-    .line 16
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover;->V()Lcom/commsource/camera/xcamera/cover/CameraConfigViewModel;
 
     move-result-object v5
@@ -2281,10 +2091,8 @@
 
     iget v5, v5, Landroid/graphics/Rect;->top:I
 
-    .line 17
     invoke-static {v3, v5}, Lcom/commsource/util/l2;->D(Landroid/view/View;I)V
 
-    .line 18
     :goto_1
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover;->V()Lcom/commsource/camera/xcamera/cover/CameraConfigViewModel;
 
@@ -2296,20 +2104,16 @@
 
     if-eqz v3, :cond_4
 
-    .line 19
     invoke-direct {p0, v1}, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover;->M(Z)V
 
     goto :goto_2
 
-    .line 20
     :cond_4
     invoke-direct {p0, v4}, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover;->M(Z)V
 
-    .line 21
     :goto_2
     iget-object v1, v2, Lcom/commsource/beautyplus/f0/o4;->Z:Lcom/commsource/camera/beauty/WaterMarkImageView;
 
-    .line 22
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover;->V()Lcom/commsource/camera/xcamera/cover/CameraConfigViewModel;
 
     move-result-object v3
@@ -2322,13 +2126,10 @@
 
     move-result v3
 
-    .line 23
     invoke-static {v1, v3}, Lcom/commsource/util/l2;->y(Landroid/view/View;I)V
 
-    .line 24
     iget-object v1, v2, Lcom/commsource/beautyplus/f0/o4;->Z:Lcom/commsource/camera/beauty/WaterMarkImageView;
 
-    .line 25
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover;->V()Lcom/commsource/camera/xcamera/cover/CameraConfigViewModel;
 
     move-result-object v3
@@ -2341,10 +2142,8 @@
 
     move-result v3
 
-    .line 26
     invoke-static {v1, v3}, Lcom/commsource/util/l2;->N(Landroid/view/View;I)V
 
-    .line 27
     invoke-virtual {p1}, Lcom/commsource/camera/fastcapture/SelfiePhotoData;->getArMaterialGroup()I
 
     move-result v1
@@ -2353,7 +2152,6 @@
 
     if-ne v1, v3, :cond_5
 
-    .line 28
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
     move-result-object v1
@@ -2364,7 +2162,6 @@
 
     if-eqz v1, :cond_5
 
-    .line 29
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
     move-result-object v1
@@ -2381,7 +2178,6 @@
 
     if-nez p1, :cond_5
 
-    .line 30
     iget-object p1, v2, Lcom/commsource/beautyplus/f0/o4;->X:Landroid/widget/RelativeLayout;
 
     new-instance v1, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover$w;
@@ -2392,7 +2188,6 @@
 
     goto :goto_3
 
-    .line 31
     :cond_5
     iget-object p1, v2, Lcom/commsource/beautyplus/f0/o4;->e0:Landroid/widget/LinearLayout;
 
@@ -2402,14 +2197,12 @@
 
     invoke-static {p1}, Lcom/commsource/util/l0;->w(Landroid/view/View;)V
 
-    .line 32
     :cond_6
     :goto_3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 33
     :cond_7
     :goto_4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2424,7 +2217,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover;->X()Lcom/commsource/camera/xcamera/cover/confirm/b;
 
     move-result-object v1
@@ -2469,7 +2261,6 @@
 
     if-nez p1, :cond_2
 
-    .line 2
     invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_2
@@ -2479,28 +2270,24 @@
 
     invoke-virtual {v1, v5}, Lcom/commsource/camera/fastcapture/SelfiePhotoData;->setScreenShotBitmap(Landroid/graphics/Bitmap;)V
 
-    .line 3
     invoke-virtual {p1}, Lcom/commsource/camera/xcamera/bean/c;->d()Landroid/graphics/Bitmap;
 
     move-result-object v5
 
     invoke-virtual {v1, v5}, Lcom/commsource/camera/fastcapture/SelfiePhotoData;->setGlOriBitmap(Landroid/graphics/Bitmap;)V
 
-    .line 4
     invoke-virtual {p1}, Lcom/commsource/camera/xcamera/bean/c;->b()Landroid/graphics/Bitmap;
 
     move-result-object v5
 
     invoke-virtual {v1, v5}, Lcom/commsource/camera/fastcapture/SelfiePhotoData;->setGlEffectBitmap(Landroid/graphics/Bitmap;)V
 
-    .line 5
     invoke-virtual {p1}, Lcom/commsource/camera/xcamera/bean/c;->e()I
 
     move-result v5
 
     invoke-virtual {v1, v5}, Lcom/commsource/camera/fastcapture/SelfiePhotoData;->setScreenOrientation(I)V
 
-    .line 6
     invoke-virtual {v1}, Lcom/commsource/camera/fastcapture/SelfiePhotoData;->getScreenOrientation()I
 
     move-result v5
@@ -2517,7 +2304,6 @@
 
     if-ne v5, v6, :cond_6
 
-    .line 7
     :cond_3
     invoke-virtual {v1}, Lcom/commsource/camera/fastcapture/SelfiePhotoData;->getScreenOrientation()I
 
@@ -2536,7 +2322,6 @@
 
     rsub-int v5, v5, 0x168
 
-    .line 8
     :goto_2
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/AbsLazyCover;->A()Landroidx/databinding/ViewDataBinding;
 
@@ -2550,7 +2335,6 @@
 
     if-eqz v6, :cond_5
 
-    .line 9
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/AbsBaseCover;->c()Lcom/commsource/camera/xcamera/cover/CoverGroup;
 
     move-result-object v7
@@ -2561,10 +2345,8 @@
 
     int-to-float v5, v5
 
-    .line 10
     invoke-virtual {v6, v7, v5}, Lcom/commsource/beautymain/widget/gesturewidget/GsensorImageView;->f0(Landroid/content/Context;F)V
 
-    .line 11
     :cond_5
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/AbsLazyCover;->A()Landroidx/databinding/ViewDataBinding;
 
@@ -2584,7 +2366,6 @@
 
     invoke-virtual {v5, v6}, Lcom/commsource/beautymain/widget/gesturewidget/GsensorImageView;->setOnChangeListener(Lcom/commsource/beautymain/widget/gesturewidget/GsensorImageView$c;)V
 
-    .line 12
     :cond_6
     invoke-virtual {p1}, Lcom/commsource/camera/xcamera/bean/c;->c()Lcom/meitu/core/types/FaceData;
 
@@ -2592,14 +2373,12 @@
 
     invoke-virtual {v1, v5}, Lcom/commsource/camera/fastcapture/SelfiePhotoData;->setFaceData(Lcom/meitu/core/types/FaceData;)V
 
-    .line 13
     invoke-virtual {p1}, Lcom/commsource/camera/xcamera/bean/c;->a()Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/MTFaceResult;
 
     move-result-object p1
 
     invoke-virtual {v1, p1}, Lcom/commsource/camera/fastcapture/SelfiePhotoData;->setAiFaceData(Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/MTFaceResult;)V
 
-    .line 14
     invoke-virtual {v1}, Lcom/commsource/camera/fastcapture/SelfiePhotoData;->getFaceData()Lcom/meitu/core/types/FaceData;
 
     move-result-object p1
@@ -2620,12 +2399,10 @@
 
     const-string p1, "this"
 
-    .line 15
     invoke-static {v1, p1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-direct {p0, v1}, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover;->h0(Lcom/commsource/camera/fastcapture/SelfiePhotoData;)V
 
-    .line 16
     invoke-virtual {v1}, Lcom/commsource/camera/fastcapture/SelfiePhotoData;->getAiFaceData()Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/MTFaceResult;
 
     move-result-object p1
@@ -2674,7 +2451,6 @@
     :goto_6
     if-eqz p1, :cond_d
 
-    .line 17
     iget-object p1, p1, Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/MTFaceResult;->faces:[Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/MTFace;
 
     array-length v5, p1
@@ -2686,7 +2462,6 @@
 
     aget-object v7, p1, v6
 
-    .line 18
     invoke-static {v7}, Lcom/commsource/beautyplus/g0/d;->h(Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/MTFace;)I
 
     move-result v7
@@ -2697,7 +2472,6 @@
 
     goto :goto_8
 
-    .line 19
     :cond_b
     invoke-virtual {v1}, Lcom/commsource/camera/fastcapture/SelfiePhotoData;->getMaleCount()I
 
@@ -2709,7 +2483,6 @@
 
     goto :goto_8
 
-    .line 20
     :cond_c
     invoke-virtual {v1}, Lcom/commsource/camera/fastcapture/SelfiePhotoData;->getFemaleCount()I
 
@@ -2724,7 +2497,6 @@
 
     goto :goto_7
 
-    .line 21
     :cond_d
     invoke-static {}, Lf/d/i/o;->o0()Z
 
@@ -2732,7 +2504,6 @@
 
     if-nez p1, :cond_10
 
-    .line 22
     sget-object p1, Lcom/commsource/util/delegate/process/g;->c:Lcom/commsource/util/delegate/process/g$a;
 
     invoke-virtual {p1, v1}, Lcom/commsource/util/delegate/process/g$a;->b(Lcom/commsource/camera/fastcapture/SelfiePhotoData;)Z
@@ -2741,7 +2512,6 @@
 
     if-eqz v3, :cond_f
 
-    .line 23
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover;->a0()Lcom/commsource/camera/xcamera/cover/j;
 
     move-result-object v3
@@ -2750,53 +2520,44 @@
 
     invoke-direct {v5}, Ljava/util/ArrayList;-><init>()V
 
-    .line 24
     invoke-static {}, Lf/k/c/a;->a()Landroid/app/Application;
 
     move-result-object v6
 
     sget v7, Lcom/res/provider/ResSTRING;->join_to_unlock_all_exclusive_effects:I
 
-    .line 25
     invoke-virtual {v6, v7}, Landroid/app/Application;->getString(I)Ljava/lang/String;
 
     move-result-object v6
 
-    .line 26
     invoke-virtual {v5, v6}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    .line 27
     invoke-static {}, Lcom/commsource/util/b2;->c()Ljava/lang/String;
 
     move-result-object v6
 
     invoke-virtual {v5, v6}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    .line 28
     invoke-virtual {v3, v5}, Lcom/commsource/camera/xcamera/cover/j;->C(Ljava/util/List;)V
 
-    .line 29
     invoke-virtual {p1, v1}, Lcom/commsource/util/delegate/process/g$a;->c(Lcom/commsource/camera/fastcapture/SelfiePhotoData;)Z
 
     move-result v3
 
     if-eqz v3, :cond_e
 
-    .line 30
     invoke-virtual {p1, v1}, Lcom/commsource/util/delegate/process/g$a;->f(Lcom/commsource/camera/fastcapture/SelfiePhotoData;)Z
 
     move-result v3
 
     if-nez v3, :cond_e
 
-    .line 31
     invoke-virtual {p1, v1}, Lcom/commsource/util/delegate/process/g$a;->d(Lcom/commsource/camera/fastcapture/SelfiePhotoData;)Z
 
     move-result p1
 
     if-nez p1, :cond_e
 
-    .line 32
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover;->a0()Lcom/commsource/camera/xcamera/cover/j;
 
     move-result-object p1
@@ -2805,7 +2566,6 @@
 
     goto :goto_9
 
-    .line 33
     :cond_e
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover;->a0()Lcom/commsource/camera/xcamera/cover/j;
 
@@ -2817,7 +2577,6 @@
 
     goto :goto_9
 
-    .line 34
     :cond_f
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover;->a0()Lcom/commsource/camera/xcamera/cover/j;
 
@@ -2827,7 +2586,6 @@
 
     goto :goto_9
 
-    .line 35
     :cond_10
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover;->a0()Lcom/commsource/camera/xcamera/cover/j;
 
@@ -2835,7 +2593,6 @@
 
     invoke-virtual {p1, v3}, Lcom/commsource/camera/xcamera/cover/j;->B(I)V
 
-    .line 36
     :goto_9
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover;->U()Lcom/commsource/camera/xcamera/cover/CameraCaptureViewModel;
 
@@ -2847,7 +2604,6 @@
 
     if-eqz p1, :cond_14
 
-    .line 37
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover;->T()Lcom/commsource/camera/xcamera/BpCameraViewModel;
 
     move-result-object p1
@@ -2856,14 +2612,12 @@
 
     move-result-object p1
 
-    .line 38
     new-instance v3, Ljava/util/HashMap;
 
     const/4 v4, 0x4
 
     invoke-direct {v3, v4}, Ljava/util/HashMap;-><init>(I)V
 
-    .line 39
     invoke-virtual {p1}, Lcom/commsource/camera/xcamera/h;->p()Lcom/meitu/template/bean/k;
 
     move-result-object v4
@@ -2896,7 +2650,6 @@
 
     invoke-virtual {v3, v5, v4}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 40
     invoke-virtual {p1}, Lcom/commsource/camera/xcamera/h;->n()Lcom/meitu/template/bean/LookMaterial;
 
     move-result-object v4
@@ -2923,7 +2676,6 @@
 
     invoke-virtual {v3, v5, v4}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 41
     invoke-virtual {p1}, Lcom/commsource/camera/xcamera/h;->p()Lcom/meitu/template/bean/k;
 
     move-result-object p1
@@ -2953,12 +2705,10 @@
 
     const-string p1, "movie_takepic"
 
-    .line 42
     invoke-static {p1, v3}, Lcom/commsource/statistics/i;->s(Ljava/lang/String;Ljava/util/Map;)V
 
     goto :goto_d
 
-    .line 43
     :cond_14
     invoke-virtual {v1}, Lcom/commsource/camera/fastcapture/SelfiePhotoData;->isAr()Z
 
@@ -2974,7 +2724,6 @@
 
     goto :goto_c
 
-    .line 44
     :cond_15
     sget-object p1, Lcom/commsource/camera/xcamera/util/c;->c:Lcom/commsource/camera/xcamera/util/c$a;
 
@@ -2986,12 +2735,10 @@
 
     goto :goto_d
 
-    .line 45
     :cond_16
     :goto_c
     invoke-static {v1}, Lcom/commsource/camera/beauty/ArAnalyAgent;->g(Lcom/commsource/camera/fastcapture/SelfiePhotoData;)V
 
-    .line 46
     sget-object p1, Lcom/commsource/camera/xcamera/util/c;->c:Lcom/commsource/camera/xcamera/util/c$a;
 
     invoke-virtual {p1}, Lcom/commsource/camera/xcamera/util/c$a;->a()Lcom/commsource/camera/xcamera/util/c;
@@ -3003,7 +2750,6 @@
     :goto_d
     move-object v2, v1
 
-    .line 47
     :cond_17
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -3295,7 +3041,6 @@
 
     goto :goto_0
 
-    .line 1
     :cond_0
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover;->V()Lcom/commsource/camera/xcamera/cover/CameraConfigViewModel;
 
@@ -3307,7 +3052,6 @@
 
     goto :goto_1
 
-    .line 2
     :cond_1
     :goto_0
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover;->V()Lcom/commsource/camera/xcamera/cover/CameraConfigViewModel;
@@ -3358,7 +3102,6 @@
 
     const/4 v1, 0x1
 
-    .line 3
     :cond_4
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -3373,7 +3116,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover;->T:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -3388,7 +3130,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover;->T:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -3403,10 +3144,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0, p1, p2}, Lcom/commsource/camera/xcamera/cover/AbsBaseCover;->h(FF)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -3419,7 +3158,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover;->X()Lcom/commsource/camera/xcamera/cover/confirm/b;
 
     move-result-object v1
@@ -3444,19 +3182,16 @@
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover;->W()Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/ConfirmBottomFunctionViewModel;
 
     move-result-object v1
 
     invoke-virtual {v1, v2}, Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/ConfirmBottomFunctionViewModel;->A(Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/ConfirmBottomFunction;)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v3
 
-    .line 4
     :cond_0
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover;->X()Lcom/commsource/camera/xcamera/cover/confirm/b;
 
@@ -3478,12 +3213,10 @@
 
     if-eqz v1, :cond_1
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v3
 
-    .line 6
     :cond_1
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover;->X()Lcom/commsource/camera/xcamera/cover/confirm/b;
 
@@ -3495,7 +3228,6 @@
 
     if-eqz v1, :cond_2
 
-    .line 7
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover;->X()Lcom/commsource/camera/xcamera/cover/confirm/b;
 
     move-result-object v1
@@ -3504,7 +3236,6 @@
 
     invoke-static {v1, v4, v3, v2}, Lcom/commsource/camera/xcamera/cover/confirm/b;->N(Lcom/commsource/camera/xcamera/cover/confirm/b;ZILjava/lang/Object;)V
 
-    .line 8
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover;->X()Lcom/commsource/camera/xcamera/cover/confirm/b;
 
     move-result-object v1
@@ -3519,12 +3250,10 @@
 
     invoke-virtual {v1, v3, v2}, Lcom/commsource/camera/xcamera/cover/confirm/b;->u0(ZZ)V
 
-    .line 9
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v3
 
-    .line 10
     :cond_2
     invoke-super {p0}, Lcom/commsource/camera/xcamera/cover/AbsBaseCover;->l()Z
 
@@ -3542,7 +3271,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover;->T()Lcom/commsource/camera/xcamera/BpCameraViewModel;
 
     move-result-object v1
@@ -3565,7 +3293,6 @@
 
     invoke-virtual {v1, v2, v3}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 2
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover;->T()Lcom/commsource/camera/xcamera/BpCameraViewModel;
 
     move-result-object v1
@@ -3588,7 +3315,6 @@
 
     invoke-virtual {v1, v2, v3}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -3605,7 +3331,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/AbsLazyCover;->A()Landroidx/databinding/ViewDataBinding;
 
     move-result-object v1
@@ -3634,14 +3359,12 @@
 
     if-eqz v1, :cond_1
 
-    .line 2
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover;->X()Lcom/commsource/camera/xcamera/cover/confirm/b;
 
     move-result-object p1
 
     invoke-static {p1, v3, v4, v2}, Lcom/commsource/camera/xcamera/cover/confirm/b;->N(Lcom/commsource/camera/xcamera/cover/confirm/b;ZILjava/lang/Object;)V
 
-    .line 3
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover;->X()Lcom/commsource/camera/xcamera/cover/confirm/b;
 
     move-result-object p1
@@ -3658,7 +3381,6 @@
 
     goto/16 :goto_5
 
-    .line 4
     :cond_1
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/AbsLazyCover;->A()Landroidx/databinding/ViewDataBinding;
 
@@ -3692,7 +3414,6 @@
 
     goto/16 :goto_5
 
-    .line 5
     :cond_3
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/AbsLazyCover;->A()Landroidx/databinding/ViewDataBinding;
 
@@ -3716,7 +3437,6 @@
 
     if-eqz v1, :cond_6
 
-    .line 6
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/AbsLazyCover;->A()Landroidx/databinding/ViewDataBinding;
 
     move-result-object p1
@@ -3751,25 +3471,21 @@
 
     if-ne p1, v4, :cond_5
 
-    .line 7
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover;->X()Lcom/commsource/camera/xcamera/cover/confirm/b;
 
     move-result-object p1
 
     invoke-static {p1, v3, v4, v2}, Lcom/commsource/camera/xcamera/cover/confirm/b;->N(Lcom/commsource/camera/xcamera/cover/confirm/b;ZILjava/lang/Object;)V
 
-    .line 8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 9
     :cond_5
     invoke-direct {p0, v3}, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover;->f0(I)V
 
     goto/16 :goto_5
 
-    .line 10
     :cond_6
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/AbsLazyCover;->A()Landroidx/databinding/ViewDataBinding;
 
@@ -3799,7 +3515,6 @@
 
     goto/16 :goto_5
 
-    .line 11
     :cond_8
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/AbsLazyCover;->A()Landroidx/databinding/ViewDataBinding;
 
@@ -3829,7 +3544,6 @@
 
     goto/16 :goto_5
 
-    .line 12
     :cond_a
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/AbsLazyCover;->A()Landroidx/databinding/ViewDataBinding;
 
@@ -3848,7 +3562,6 @@
 
     if-eqz p1, :cond_10
 
-    .line 13
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover;->X()Lcom/commsource/camera/xcamera/cover/confirm/b;
 
     move-result-object p1
@@ -3859,21 +3572,18 @@
 
     if-eqz p1, :cond_10
 
-    .line 14
     invoke-virtual {p1}, Lcom/commsource/camera/fastcapture/SelfiePhotoData;->isAIBeautyEnable()Z
 
     move-result v1
 
     if-eqz v1, :cond_f
 
-    .line 15
     invoke-virtual {p1}, Lcom/commsource/camera/fastcapture/SelfiePhotoData;->isAIBeautyProcessSuccess()Z
 
     move-result v1
 
     if-eqz v1, :cond_c
 
-    .line 16
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover;->W()Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/ConfirmBottomFunctionViewModel;
 
     move-result-object p1
@@ -3884,7 +3594,6 @@
 
     goto :goto_5
 
-    .line 17
     :cond_c
     invoke-virtual {p1}, Lcom/commsource/camera/fastcapture/SelfiePhotoData;->isAIBeautyProcessLoading()Z
 
@@ -3892,7 +3601,6 @@
 
     if-nez v1, :cond_10
 
-    .line 18
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
     move-result-object v1
@@ -3903,7 +3611,6 @@
 
     if-nez v1, :cond_d
 
-    .line 19
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/AbsBaseCover;->c()Lcom/commsource/camera/xcamera/cover/CoverGroup;
 
     move-result-object p1
@@ -3914,12 +3621,10 @@
 
     invoke-static {p1}, Lcom/commsource/widget/dialog/s0/t;->Y(Landroid/content/Context;)V
 
-    .line 20
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 21
     :cond_d
     new-instance v1, Lcotlin/jvm/internal/Ref$ObjectRef;
 
@@ -3931,33 +3636,28 @@
 
     iput-object v2, v1, Lcotlin/jvm/internal/Ref$ObjectRef;->element:Ljava/lang/Object;
 
-    .line 22
     invoke-static {}, Lf/d/d/p;->P()I
 
     move-result p1
 
     if-ge p1, v4, :cond_e
 
-    .line 23
     new-instance p1, Lcom/commsource/widget/dialog/g0;
 
     invoke-direct {p1}, Lcom/commsource/widget/dialog/g0;-><init>()V
 
-    .line 24
     new-instance v2, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover$a;
 
     invoke-direct {v2, p1, v1}, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover$a;-><init>(Lcom/commsource/widget/dialog/g0;Lcotlin/jvm/internal/Ref$ObjectRef;)V
 
     invoke-virtual {p1, v2}, Lcom/commsource/widget/dialog/g0;->I(Landroid/view/View$OnClickListener;)V
 
-    .line 25
     new-instance v1, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover$t;
 
     invoke-direct {v1, p1}, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover$t;-><init>(Lcom/commsource/widget/dialog/g0;)V
 
     invoke-virtual {p1, v1}, Lcom/commsource/widget/dialog/g0;->H(Landroid/view/View$OnClickListener;)V
 
-    .line 26
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/AbsBaseCover;->c()Lcom/commsource/camera/xcamera/cover/CoverGroup;
 
     move-result-object v1
@@ -3976,7 +3676,6 @@
 
     goto :goto_5
 
-    .line 27
     :cond_e
     iget-object p1, v1, Lcotlin/jvm/internal/Ref$ObjectRef;->element:Ljava/lang/Object;
 
@@ -3989,10 +3688,8 @@
     :cond_f
     sget p1, Lcom/res/provider/ResSTRING;->need_face:I
 
-    .line 28
     invoke-static {p1}, Lf/k/c/c/f;->h(I)V
 
-    .line 29
     :cond_10
     :goto_5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -4011,7 +3708,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover;->X()Lcom/commsource/camera/xcamera/cover/confirm/b;
 
     move-result-object v1
@@ -4044,7 +3740,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 2
     invoke-virtual {p1}, Landroid/view/KeyEvent;->getKeyCode()I
 
     move-result v1
@@ -4065,7 +3760,6 @@
 
     goto :goto_1
 
-    .line 3
     :cond_1
     invoke-virtual {v1}, Ljava/lang/Integer;->intValue()I
 
@@ -4083,7 +3777,6 @@
 
     goto :goto_3
 
-    .line 4
     :cond_3
     invoke-virtual {v1}, Ljava/lang/Integer;->intValue()I
 
@@ -4094,15 +3787,12 @@
     :goto_2
     const/4 p1, 0x1
 
-    .line 5
     invoke-direct {p0, p1}, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover;->f0(I)V
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
 
-    .line 7
     :cond_4
     :goto_3
     invoke-super {p0, p1}, Lcom/commsource/camera/xcamera/cover/AbsBaseCover;->p(Landroid/view/KeyEvent;)Z
@@ -4121,7 +3811,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     sget v0, Lcom/res/provider/ResLAYOUT;->cover_selfie_confirm:I
@@ -4152,10 +3841,8 @@
 
     invoke-static {p2, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-super {p0, p1, p2}, Lcom/commsource/camera/xcamera/cover/AbsBaseCover;->t(Landroid/graphics/Rect;Landroid/graphics/Rect;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -4176,10 +3863,8 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-super {p0, p1, p2}, Lcom/commsource/camera/xcamera/cover/AbsBaseCover;->u(Landroid/graphics/Rect;F)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -4192,7 +3877,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/AbsLazyCover;->A()Landroidx/databinding/ViewDataBinding;
 
     move-result-object v1
@@ -4207,7 +3891,6 @@
 
     invoke-virtual {v1, p0}, Landroid/widget/RelativeLayout;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 2
     :cond_0
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/AbsLazyCover;->A()Landroidx/databinding/ViewDataBinding;
 
@@ -4223,7 +3906,6 @@
 
     invoke-virtual {v1, p0}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 3
     :cond_1
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/AbsLazyCover;->A()Landroidx/databinding/ViewDataBinding;
 
@@ -4239,7 +3921,6 @@
 
     invoke-virtual {v1, p0}, Landroid/widget/RelativeLayout;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 4
     :cond_2
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/AbsLazyCover;->A()Landroidx/databinding/ViewDataBinding;
 
@@ -4255,7 +3936,6 @@
 
     invoke-virtual {v1, p0}, Landroid/widget/RelativeLayout;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 5
     :cond_3
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/AbsLazyCover;->A()Landroidx/databinding/ViewDataBinding;
 
@@ -4271,7 +3951,6 @@
 
     invoke-virtual {v1, p0}, Landroid/widget/RelativeLayout;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 6
     :cond_4
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/AbsLazyCover;->A()Landroidx/databinding/ViewDataBinding;
 
@@ -4287,7 +3966,6 @@
 
     invoke-virtual {v1, p0}, Landroid/widget/RelativeLayout;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 7
     :cond_5
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/AbsLazyCover;->A()Landroidx/databinding/ViewDataBinding;
 
@@ -4307,7 +3985,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/camera/xcamera/widget/CameraSaveLoadingView;->setOnLoadingListener(Lcom/commsource/camera/xcamera/widget/CameraSaveLoadingView$b;)V
 
-    .line 8
     :cond_6
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/AbsLazyCover;->A()Landroidx/databinding/ViewDataBinding;
 
@@ -4327,7 +4004,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->setOnSingleClickListener(Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView$i;)V
 
-    .line 9
     :cond_7
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/AbsLazyCover;->A()Landroidx/databinding/ViewDataBinding;
 
@@ -4347,7 +4023,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->setOnLongClickListener(Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView$f;)V
 
-    .line 10
     :cond_8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -4361,7 +4036,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover;->S()Lcom/commsource/camera/xcamera/cover/bottomFunction/b;
 
     move-result-object v1
@@ -4384,7 +4058,6 @@
 
     invoke-virtual {v1, v2, v3}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 2
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover;->X()Lcom/commsource/camera/xcamera/cover/confirm/b;
 
     move-result-object v1
@@ -4407,7 +4080,6 @@
 
     invoke-virtual {v1, v2, v3}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 3
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover;->X()Lcom/commsource/camera/xcamera/cover/confirm/b;
 
     move-result-object v1
@@ -4430,7 +4102,6 @@
 
     invoke-virtual {v1, v2, v3}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 4
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover;->b0()Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/e;
 
     move-result-object v1
@@ -4453,7 +4124,6 @@
 
     invoke-virtual {v1, v2, v3}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 5
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover;->X()Lcom/commsource/camera/xcamera/cover/confirm/b;
 
     move-result-object v1
@@ -4476,7 +4146,6 @@
 
     invoke-virtual {v1, v2, v3}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 6
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover;->b0()Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/e;
 
     move-result-object v1
@@ -4485,7 +4154,6 @@
 
     move-result-object v1
 
-    .line 7
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/AbsBaseCover;->c()Lcom/commsource/camera/xcamera/cover/CoverGroup;
 
     move-result-object v2
@@ -4494,15 +4162,12 @@
 
     move-result-object v2
 
-    .line 8
     new-instance v3, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover$o;
 
     invoke-direct {v3, p0}, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover$o;-><init>(Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover;)V
 
-    .line 9
     invoke-virtual {v1, v2, v3}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 10
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover;->P()Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/a;
 
     move-result-object v1
@@ -4525,7 +4190,6 @@
 
     invoke-virtual {v1, v2, v3}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 11
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover;->P()Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/a;
 
     move-result-object v1
@@ -4548,7 +4212,6 @@
 
     invoke-virtual {v1, v2, v3}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 12
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover;->W()Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/ConfirmBottomFunctionViewModel;
 
     move-result-object v1
@@ -4557,7 +4220,6 @@
 
     move-result-object v1
 
-    .line 13
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/AbsBaseCover;->c()Lcom/commsource/camera/xcamera/cover/CoverGroup;
 
     move-result-object v2
@@ -4566,15 +4228,12 @@
 
     move-result-object v2
 
-    .line 14
     new-instance v3, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover$r;
 
     invoke-direct {v3, p0}, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover$r;-><init>(Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover;)V
 
-    .line 15
     invoke-virtual {v1, v2, v3}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 16
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover;->X()Lcom/commsource/camera/xcamera/cover/confirm/b;
 
     move-result-object v1
@@ -4597,7 +4256,6 @@
 
     invoke-virtual {v1, v2, v3}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 17
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover;->X()Lcom/commsource/camera/xcamera/cover/confirm/b;
 
     move-result-object v1
@@ -4620,7 +4278,6 @@
 
     invoke-virtual {v1, v2, v3}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 18
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover;->X()Lcom/commsource/camera/xcamera/cover/confirm/b;
 
     move-result-object v1
@@ -4643,7 +4300,6 @@
 
     invoke-virtual {v1, v2, v3}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 19
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

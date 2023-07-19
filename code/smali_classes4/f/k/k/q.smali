@@ -7,7 +7,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -29,10 +28,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p0}, Lf/k/k/m;->a(Ljava/lang/Object;)V
 
-    .line 2
     :try_start_0
     invoke-virtual {p0}, Ljava/lang/Class;->newInstance()Ljava/lang/Object;
 
@@ -46,7 +43,6 @@
     :catch_0
     move-exception p0
 
-    .line 3
     invoke-virtual {p0}, Ljava/lang/InstantiationException;->printStackTrace()V
 
     goto :goto_0
@@ -54,13 +50,11 @@
     :catch_1
     move-exception p0
 
-    .line 4
     invoke-virtual {p0}, Ljava/lang/IllegalAccessException;->printStackTrace()V
 
     :goto_0
     const/4 p0, 0x0
 
-    .line 5
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

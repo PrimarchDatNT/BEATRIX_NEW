@@ -36,40 +36,32 @@
 .method protected constructor <init>(Lorg/apache/thrift/server/TServer$AbstractServerArgs;)V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/4 v0, 0x0
 
-    .line 2
     iput-boolean v0, p0, Lorg/apache/thrift/server/TServer;->stopped_:Z
 
-    .line 3
     iget-object v0, p1, Lorg/apache/thrift/server/TServer$AbstractServerArgs;->processorFactory:Lorg/apache/thrift/TProcessorFactory;
 
     iput-object v0, p0, Lorg/apache/thrift/server/TServer;->processorFactory_:Lorg/apache/thrift/TProcessorFactory;
 
-    .line 4
     iget-object v0, p1, Lorg/apache/thrift/server/TServer$AbstractServerArgs;->serverTransport:Lorg/apache/thrift/transport/TServerTransport;
 
     iput-object v0, p0, Lorg/apache/thrift/server/TServer;->serverTransport_:Lorg/apache/thrift/transport/TServerTransport;
 
-    .line 5
     iget-object v0, p1, Lorg/apache/thrift/server/TServer$AbstractServerArgs;->inputTransportFactory:Lorg/apache/thrift/transport/TTransportFactory;
 
     iput-object v0, p0, Lorg/apache/thrift/server/TServer;->inputTransportFactory_:Lorg/apache/thrift/transport/TTransportFactory;
 
-    .line 6
     iget-object v0, p1, Lorg/apache/thrift/server/TServer$AbstractServerArgs;->outputTransportFactory:Lorg/apache/thrift/transport/TTransportFactory;
 
     iput-object v0, p0, Lorg/apache/thrift/server/TServer;->outputTransportFactory_:Lorg/apache/thrift/transport/TTransportFactory;
 
-    .line 7
     iget-object v0, p1, Lorg/apache/thrift/server/TServer$AbstractServerArgs;->inputProtocolFactory:Lorg/apache/thrift/protocol/TProtocolFactory;
 
     iput-object v0, p0, Lorg/apache/thrift/server/TServer;->inputProtocolFactory_:Lorg/apache/thrift/protocol/TProtocolFactory;
 
-    .line 8
     iget-object p1, p1, Lorg/apache/thrift/server/TServer$AbstractServerArgs;->outputProtocolFactory:Lorg/apache/thrift/protocol/TProtocolFactory;
 
     iput-object p1, p0, Lorg/apache/thrift/server/TServer;->outputProtocolFactory_:Lorg/apache/thrift/protocol/TProtocolFactory;
@@ -82,7 +74,6 @@
 .method public getEventHandler()Lorg/apache/thrift/server/TServerEventHandler;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lorg/apache/thrift/server/TServer;->eventHandler_:Lorg/apache/thrift/server/TServerEventHandler;
 
     return-object v0
@@ -91,7 +82,6 @@
 .method public getShouldStop()Z
     .locals 1
 
-    .line 1
     iget-boolean v0, p0, Lorg/apache/thrift/server/TServer;->stopped_:Z
 
     return v0
@@ -100,7 +90,6 @@
 .method public isServing()Z
     .locals 1
 
-    .line 1
     iget-boolean v0, p0, Lorg/apache/thrift/server/TServer;->isServing:Z
 
     return v0
@@ -112,7 +101,6 @@
 .method public setServerEventHandler(Lorg/apache/thrift/server/TServerEventHandler;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lorg/apache/thrift/server/TServer;->eventHandler_:Lorg/apache/thrift/server/TServerEventHandler;
 
     return-void
@@ -121,7 +109,6 @@
 .method protected setServing(Z)V
     .locals 0
 
-    .line 1
     iput-boolean p1, p0, Lorg/apache/thrift/server/TServer;->isServing:Z
 
     return-void
@@ -130,7 +117,6 @@
 .method public setShouldStop(Z)V
     .locals 0
 
-    .line 1
     iput-boolean p1, p0, Lorg/apache/thrift/server/TServer;->stopped_:Z
 
     return-void

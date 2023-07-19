@@ -40,10 +40,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Lcom/google/common/io/j;-><init>()V
 
-    .line 2
     invoke-static {p1}, Lcom/google/common/base/t;->E(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -65,7 +63,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/io/j$c;->a:Ljava/lang/Iterable;
 
     invoke-interface {v0}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
@@ -85,7 +82,6 @@
 
     check-cast v1, Lcom/google/common/io/j;
 
-    .line 2
     invoke-virtual {v1}, Lcom/google/common/io/j;->i()Z
 
     move-result v1
@@ -110,7 +106,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/io/j$c;->a:Ljava/lang/Iterable;
 
     invoke-interface {v0}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
@@ -132,7 +127,6 @@
 
     check-cast v3, Lcom/google/common/io/j;
 
-    .line 2
     invoke-virtual {v3}, Lcom/google/common/io/j;->j()J
 
     move-result-wide v3
@@ -156,7 +150,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/io/j$c;->a:Ljava/lang/Iterable;
 
     invoke-interface {v0}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
@@ -178,26 +171,22 @@
 
     check-cast v3, Lcom/google/common/io/j;
 
-    .line 2
     invoke-virtual {v3}, Lcom/google/common/io/j;->k()Lcom/google/common/base/Optional;
 
     move-result-object v3
 
-    .line 3
     invoke-virtual {v3}, Lcom/google/common/base/Optional;->isPresent()Z
 
     move-result v4
 
     if-nez v4, :cond_0
 
-    .line 4
     invoke-static {}, Lcom/google/common/base/Optional;->absent()Lcom/google/common/base/Optional;
 
     move-result-object v0
 
     return-object v0
 
-    .line 5
     :cond_0
     invoke-virtual {v3}, Lcom/google/common/base/Optional;->get()Ljava/lang/Object;
 
@@ -213,7 +202,6 @@
 
     goto :goto_0
 
-    .line 6
     :cond_1
     invoke-static {v1, v2}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
 
@@ -234,7 +222,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/google/common/io/y;
 
     iget-object v1, p0, Lcom/google/common/io/j$c;->a:Ljava/lang/Iterable;
@@ -251,7 +238,6 @@
 .method public toString()Ljava/lang/String;
     .locals 2
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V

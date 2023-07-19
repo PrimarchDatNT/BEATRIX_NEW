@@ -24,7 +24,6 @@
 .method constructor <init>(Lcom/commsource/beautyplus/b0/a;Lcom/commsource/beautyplus/setting/abtest/ABTestDataEnum;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/beautyplus/b0/a$a;->i:Lcom/commsource/beautyplus/b0/a;
 
     iput-object p2, p0, Lcom/commsource/beautyplus/b0/a$a;->h:Lcom/commsource/beautyplus/setting/abtest/ABTestDataEnum;
@@ -43,7 +42,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/beautyplus/b0/a$a;->h:Lcom/commsource/beautyplus/setting/abtest/ABTestDataEnum;
 
     invoke-virtual {v1}, Lcom/commsource/beautyplus/setting/abtest/ABTestDataEnum;->getCode()I

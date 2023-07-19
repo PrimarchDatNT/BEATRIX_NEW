@@ -54,14 +54,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/home/NewHomeContentViewModel$a;->a:Lcom/commsource/home/NewHomeContentViewModel;
 
     invoke-static {v1, p1}, Lcom/commsource/home/NewHomeContentViewModel;->C(Lcom/commsource/home/NewHomeContentViewModel;Lcom/commsource/home/entity/e;)V
 
     if-eqz p1, :cond_0
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/home/NewHomeContentViewModel$a;->a:Lcom/commsource/home/NewHomeContentViewModel;
 
     invoke-static {v1, p1}, Lcom/commsource/home/NewHomeContentViewModel;->y(Lcom/commsource/home/NewHomeContentViewModel;Lcom/commsource/home/entity/e;)V
@@ -73,25 +71,21 @@
     :cond_0
     const/4 v1, 0x0
 
-    .line 3
     :goto_0
     iget-object v2, p0, Lcom/commsource/home/NewHomeContentViewModel$a;->a:Lcom/commsource/home/NewHomeContentViewModel;
 
     invoke-static {v2, v1}, Lcom/commsource/home/NewHomeContentViewModel;->A(Lcom/commsource/home/NewHomeContentViewModel;Lcom/commsource/home/entity/e;)Z
 
-    .line 4
     iget-object v2, p0, Lcom/commsource/home/NewHomeContentViewModel$a;->a:Lcom/commsource/home/NewHomeContentViewModel;
 
     invoke-virtual {v2, v1}, Lcom/commsource/home/NewHomeContentViewModel;->F(Lcom/commsource/home/entity/e;)V
 
-    .line 5
     iget-object v2, p0, Lcom/commsource/home/NewHomeContentViewModel$a;->a:Lcom/commsource/home/NewHomeContentViewModel;
 
     invoke-static {v2, v1}, Lcom/commsource/home/NewHomeContentViewModel;->z(Lcom/commsource/home/NewHomeContentViewModel;Lcom/commsource/home/entity/e;)V
 
     if-eqz p1, :cond_1
 
-    .line 6
     invoke-virtual {p1}, Lcom/commsource/home/entity/e;->e()Ljava/util/List;
 
     move-result-object v1
@@ -108,7 +102,6 @@
 
     if-ne v1, v2, :cond_1
 
-    .line 7
     iget-object v1, p0, Lcom/commsource/home/NewHomeContentViewModel$a;->a:Lcom/commsource/home/NewHomeContentViewModel;
 
     invoke-virtual {v1}, Lcom/commsource/home/NewHomeContentViewModel;->L()Landroidx/lifecycle/MediatorLiveData;
@@ -119,7 +112,6 @@
 
     goto :goto_1
 
-    .line 8
     :cond_1
     iget-object p1, p0, Lcom/commsource/home/NewHomeContentViewModel$a;->a:Lcom/commsource/home/NewHomeContentViewModel;
 
@@ -131,7 +123,6 @@
 
     invoke-virtual {p1, v1}, Landroidx/lifecycle/MutableLiveData;->setValue(Ljava/lang/Object;)V
 
-    .line 9
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -145,7 +136,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Lcom/commsource/home/entity/e;
 
     invoke-virtual {p0, p1}, Lcom/commsource/home/NewHomeContentViewModel$a;->a(Lcom/commsource/home/entity/e;)V

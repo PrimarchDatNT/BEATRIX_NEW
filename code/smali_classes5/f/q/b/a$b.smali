@@ -25,10 +25,8 @@
 .method public constructor <init>(Ljava/lang/Runnable;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lf/q/b/a$b;->a:Ljava/lang/Runnable;
 
     return-void
@@ -39,34 +37,28 @@
 .method public run()V
     .locals 5
 
-    .line 1
     iget-object v0, p0, Lf/q/b/a$b;->a:Ljava/lang/Runnable;
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v0
 
     const-string v2, "IOThread task run start"
 
-    .line 3
     invoke-static {v2}, Lf/q/b/g;->e(Ljava/lang/String;)V
 
-    .line 4
     iget-object v2, p0, Lf/q/b/a$b;->a:Ljava/lang/Runnable;
 
     invoke-interface {v2}, Ljava/lang/Runnable;->run()V
 
-    .line 5
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v2
 
     const-string v4, "IOThread task run end"
 
-    .line 6
     invoke-static {v4}, Lf/q/b/g;->e(Ljava/lang/String;)V
 
     sub-long/2addr v2, v0
@@ -79,7 +71,6 @@
 
     const-string v0, "IOThread task spent exceed 200 millis"
 
-    .line 7
     invoke-static {v0}, Lf/q/b/g;->c(Ljava/lang/String;)V
 
     :cond_0

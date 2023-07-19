@@ -48,7 +48,6 @@
 .method constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/google/common/collect/ImmutableSortedMultisetFauxverideShim;-><init>()V
 
     return-void
@@ -68,12 +67,10 @@
         }
     .end annotation
 
-    .line 2
     invoke-static {}, Lcom/google/common/collect/Ordering;->natural()Lcom/google/common/collect/Ordering;
 
     move-result-object v0
 
-    .line 3
     invoke-static {v0, p0}, Lcom/google/common/collect/ImmutableSortedMultiset;->copyOf(Ljava/util/Comparator;Ljava/lang/Iterable;)Lcom/google/common/collect/ImmutableSortedMultiset;
 
     move-result-object p0
@@ -97,17 +94,14 @@
         }
     .end annotation
 
-    .line 8
     instance-of v0, p1, Lcom/google/common/collect/ImmutableSortedMultiset;
 
     if-eqz v0, :cond_1
 
-    .line 9
     move-object v0, p1
 
     check-cast v0, Lcom/google/common/collect/ImmutableSortedMultiset;
 
-    .line 10
     invoke-virtual {v0}, Lcom/google/common/collect/ImmutableSortedMultiset;->comparator()Ljava/util/Comparator;
 
     move-result-object v1
@@ -118,14 +112,12 @@
 
     if-eqz v1, :cond_1
 
-    .line 11
     invoke-virtual {v0}, Lcom/google/common/collect/ImmutableCollection;->isPartialView()Z
 
     move-result p1
 
     if-eqz p1, :cond_0
 
-    .line 12
     invoke-virtual {v0}, Lcom/google/common/collect/ImmutableMultiset;->entrySet()Lcom/google/common/collect/ImmutableSet;
 
     move-result-object p1
@@ -143,7 +135,6 @@
     :cond_0
     return-object v0
 
-    .line 13
     :cond_1
     new-instance v0, Lcom/google/common/collect/ImmutableSortedMultiset$a;
 
@@ -176,10 +167,8 @@
         }
     .end annotation
 
-    .line 6
     invoke-static {p0}, Lcom/google/common/base/t;->E(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 7
     new-instance v0, Lcom/google/common/collect/ImmutableSortedMultiset$a;
 
     invoke-direct {v0, p0}, Lcom/google/common/collect/ImmutableSortedMultiset$a;-><init>(Ljava/util/Comparator;)V
@@ -209,12 +198,10 @@
         }
     .end annotation
 
-    .line 4
     invoke-static {}, Lcom/google/common/collect/Ordering;->natural()Lcom/google/common/collect/Ordering;
 
     move-result-object v0
 
-    .line 5
     invoke-static {v0, p0}, Lcom/google/common/collect/ImmutableSortedMultiset;->copyOf(Ljava/util/Comparator;Ljava/util/Iterator;)Lcom/google/common/collect/ImmutableSortedMultiset;
 
     move-result-object p0
@@ -234,7 +221,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {}, Lcom/google/common/collect/Ordering;->natural()Lcom/google/common/collect/Ordering;
 
     move-result-object v0
@@ -264,7 +250,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-interface {p0}, Lcom/google/common/collect/b2;->comparator()Ljava/util/Comparator;
 
     move-result-object v0
@@ -277,7 +262,6 @@
 
     move-result-object p0
 
-    .line 2
     invoke-static {v0, p0}, Lcom/google/common/collect/ImmutableSortedMultiset;->copyOfSortedEntries(Ljava/util/Comparator;Ljava/util/Collection;)Lcom/google/common/collect/ImmutableSortedMultiset;
 
     move-result-object p0
@@ -302,21 +286,18 @@
         }
     .end annotation
 
-    .line 1
     invoke-interface {p1}, Ljava/util/Collection;->isEmpty()Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-static {p0}, Lcom/google/common/collect/ImmutableSortedMultiset;->emptyMultiset(Ljava/util/Comparator;)Lcom/google/common/collect/ImmutableSortedMultiset;
 
     move-result-object p0
 
     return-object p0
 
-    .line 3
     :cond_0
     new-instance v0, Lcom/google/common/collect/ImmutableList$a;
 
@@ -326,7 +307,6 @@
 
     invoke-direct {v0, v1}, Lcom/google/common/collect/ImmutableList$a;-><init>(I)V
 
-    .line 4
     invoke-interface {p1}, Ljava/util/Collection;->size()I
 
     move-result v1
@@ -335,7 +315,6 @@
 
     new-array v1, v1, [J
 
-    .line 5
     invoke-interface {p1}, Ljava/util/Collection;->iterator()Ljava/util/Iterator;
 
     move-result-object v2
@@ -357,7 +336,6 @@
 
     check-cast v5, Lcom/google/common/collect/m1$a;
 
-    .line 6
     invoke-interface {v5}, Lcom/google/common/collect/m1$a;->getElement()Ljava/lang/Object;
 
     move-result-object v6
@@ -366,7 +344,6 @@
 
     add-int/lit8 v6, v4, 0x1
 
-    .line 7
     aget-wide v7, v1, v4
 
     invoke-interface {v5}, Lcom/google/common/collect/m1$a;->getCount()I
@@ -383,20 +360,17 @@
 
     goto :goto_0
 
-    .line 8
     :cond_1
     new-instance v2, Lcom/google/common/collect/RegularImmutableSortedMultiset;
 
     new-instance v4, Lcom/google/common/collect/RegularImmutableSortedSet;
 
-    .line 9
     invoke-virtual {v0}, Lcom/google/common/collect/ImmutableList$a;->m()Lcom/google/common/collect/ImmutableList;
 
     move-result-object v0
 
     invoke-direct {v4, v0, p0}, Lcom/google/common/collect/RegularImmutableSortedSet;-><init>(Lcom/google/common/collect/ImmutableList;Ljava/util/Comparator;)V
 
-    .line 10
     invoke-interface {p1}, Ljava/util/Collection;->size()I
 
     move-result p0
@@ -420,7 +394,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {}, Lcom/google/common/collect/Ordering;->natural()Lcom/google/common/collect/Ordering;
 
     move-result-object v0
@@ -431,12 +404,10 @@
 
     if-eqz v0, :cond_0
 
-    .line 2
     sget-object p0, Lcom/google/common/collect/RegularImmutableSortedMultiset;->NATURAL_EMPTY_MULTISET:Lcom/google/common/collect/ImmutableSortedMultiset;
 
     return-object p0
 
-    .line 3
     :cond_0
     new-instance v0, Lcom/google/common/collect/RegularImmutableSortedMultiset;
 
@@ -457,7 +428,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/google/common/collect/ImmutableSortedMultiset$a;
 
     invoke-static {}, Lcom/google/common/collect/Ordering;->natural()Lcom/google/common/collect/Ordering;
@@ -481,7 +451,6 @@
         }
     .end annotation
 
-    .line 1
     sget-object v0, Lcom/google/common/collect/RegularImmutableSortedMultiset;->NATURAL_EMPTY_MULTISET:Lcom/google/common/collect/ImmutableSortedMultiset;
 
     return-object v0
@@ -499,7 +468,6 @@
         }
     .end annotation
 
-    .line 2
     invoke-static {p0}, Lcom/google/common/collect/ImmutableSortedSet;->of(Ljava/lang/Comparable;)Lcom/google/common/collect/ImmutableSortedSet;
 
     move-result-object p0
@@ -510,10 +478,8 @@
 
     new-array v0, v0, [J
 
-    .line 3
     fill-array-data v0, :array_0
 
-    .line 4
     new-instance v1, Lcom/google/common/collect/RegularImmutableSortedMultiset;
 
     const/4 v2, 0x0
@@ -543,7 +509,6 @@
         }
     .end annotation
 
-    .line 5
     invoke-static {}, Lcom/google/common/collect/Ordering;->natural()Lcom/google/common/collect/Ordering;
 
     move-result-object v0
@@ -583,7 +548,6 @@
         }
     .end annotation
 
-    .line 6
     invoke-static {}, Lcom/google/common/collect/Ordering;->natural()Lcom/google/common/collect/Ordering;
 
     move-result-object v0
@@ -627,7 +591,6 @@
         }
     .end annotation
 
-    .line 7
     invoke-static {}, Lcom/google/common/collect/Ordering;->natural()Lcom/google/common/collect/Ordering;
 
     move-result-object v0
@@ -675,7 +638,6 @@
         }
     .end annotation
 
-    .line 8
     invoke-static {}, Lcom/google/common/collect/Ordering;->natural()Lcom/google/common/collect/Ordering;
 
     move-result-object v0
@@ -727,14 +689,12 @@
         }
     .end annotation
 
-    .line 9
     array-length v0, p6
 
     const/4 v1, 0x6
 
     add-int/2addr v0, v1
 
-    .line 10
     invoke-static {v0}, Lcom/google/common/collect/Lists;->u(I)Ljava/util/ArrayList;
 
     move-result-object v0
@@ -765,13 +725,10 @@
 
     aput-object p5, v1, p0
 
-    .line 11
     invoke-static {v0, v1}, Ljava/util/Collections;->addAll(Ljava/util/Collection;[Ljava/lang/Object;)Z
 
-    .line 12
     invoke-static {v0, p6}, Ljava/util/Collections;->addAll(Ljava/util/Collection;[Ljava/lang/Object;)Z
 
-    .line 13
     invoke-static {}, Lcom/google/common/collect/Ordering;->natural()Lcom/google/common/collect/Ordering;
 
     move-result-object p0
@@ -797,7 +754,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/google/common/collect/ImmutableSortedMultiset$a;
 
     invoke-direct {v0, p0}, Lcom/google/common/collect/ImmutableSortedMultiset$a;-><init>(Ljava/util/Comparator;)V
@@ -817,7 +773,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/google/common/collect/ImmutableSortedMultiset$a;
 
     invoke-static {}, Lcom/google/common/collect/Ordering;->natural()Lcom/google/common/collect/Ordering;
@@ -845,7 +800,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/collect/ImmutableSortedMultiset;->elementSet()Lcom/google/common/collect/ImmutableSortedSet;
 
     move-result-object v0
@@ -867,19 +821,16 @@
         }
     .end annotation
 
-    .line 2
     iget-object v0, p0, Lcom/google/common/collect/ImmutableSortedMultiset;->descendingMultiset:Lcom/google/common/collect/ImmutableSortedMultiset;
 
     if-nez v0, :cond_1
 
-    .line 3
     invoke-virtual {p0}, Ljava/util/AbstractCollection;->isEmpty()Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
-    .line 4
     invoke-virtual {p0}, Lcom/google/common/collect/ImmutableSortedMultiset;->comparator()Ljava/util/Comparator;
 
     move-result-object v0
@@ -913,7 +864,6 @@
 .method public bridge synthetic descendingMultiset()Lcom/google/common/collect/b2;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/collect/ImmutableSortedMultiset;->descendingMultiset()Lcom/google/common/collect/ImmutableSortedMultiset;
 
     move-result-object v0
@@ -924,7 +874,6 @@
 .method public bridge synthetic elementSet()Lcom/google/common/collect/ImmutableSet;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/collect/ImmutableSortedMultiset;->elementSet()Lcom/google/common/collect/ImmutableSortedSet;
 
     move-result-object v0
@@ -945,7 +894,6 @@
 .method public bridge synthetic elementSet()Ljava/util/NavigableSet;
     .locals 1
 
-    .line 2
     invoke-virtual {p0}, Lcom/google/common/collect/ImmutableSortedMultiset;->elementSet()Lcom/google/common/collect/ImmutableSortedSet;
 
     move-result-object v0
@@ -956,7 +904,6 @@
 .method public bridge synthetic elementSet()Ljava/util/Set;
     .locals 1
 
-    .line 3
     invoke-virtual {p0}, Lcom/google/common/collect/ImmutableSortedMultiset;->elementSet()Lcom/google/common/collect/ImmutableSortedSet;
 
     move-result-object v0
@@ -967,7 +914,6 @@
 .method public bridge synthetic elementSet()Ljava/util/SortedSet;
     .locals 1
 
-    .line 4
     invoke-virtual {p0}, Lcom/google/common/collect/ImmutableSortedMultiset;->elementSet()Lcom/google/common/collect/ImmutableSortedSet;
 
     move-result-object v0
@@ -990,7 +936,6 @@
 .method public bridge synthetic headMultiset(Ljava/lang/Object;Lcom/google/common/collect/BoundType;)Lcom/google/common/collect/b2;
     .locals 0
 
-    .line 1
     invoke-virtual {p0, p1, p2}, Lcom/google/common/collect/ImmutableSortedMultiset;->headMultiset(Ljava/lang/Object;Lcom/google/common/collect/BoundType;)Lcom/google/common/collect/ImmutableSortedMultiset;
 
     move-result-object p1
@@ -1014,7 +959,6 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/lang/UnsupportedOperationException;
 
     invoke-direct {v0}, Ljava/lang/UnsupportedOperationException;-><init>()V
@@ -1038,7 +982,6 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/lang/UnsupportedOperationException;
 
     invoke-direct {v0}, Ljava/lang/UnsupportedOperationException;-><init>()V
@@ -1060,7 +1003,6 @@
         }
     .end annotation
 
-    .line 2
     invoke-virtual {p0}, Lcom/google/common/collect/ImmutableSortedMultiset;->comparator()Ljava/util/Comparator;
 
     move-result-object v0
@@ -1081,10 +1023,8 @@
     :goto_0
     const-string v1, "Expected lowerBound <= upperBound but %s > %s"
 
-    .line 3
     invoke-static {v0, v1, p1, p3}, Lcom/google/common/base/t;->y(ZLjava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
 
-    .line 4
     invoke-virtual {p0, p1, p2}, Lcom/google/common/collect/ImmutableSortedMultiset;->tailMultiset(Ljava/lang/Object;Lcom/google/common/collect/BoundType;)Lcom/google/common/collect/ImmutableSortedMultiset;
 
     move-result-object p1
@@ -1099,7 +1039,6 @@
 .method public bridge synthetic subMultiset(Ljava/lang/Object;Lcom/google/common/collect/BoundType;Ljava/lang/Object;Lcom/google/common/collect/BoundType;)Lcom/google/common/collect/b2;
     .locals 0
 
-    .line 1
     invoke-virtual {p0, p1, p2, p3, p4}, Lcom/google/common/collect/ImmutableSortedMultiset;->subMultiset(Ljava/lang/Object;Lcom/google/common/collect/BoundType;Ljava/lang/Object;Lcom/google/common/collect/BoundType;)Lcom/google/common/collect/ImmutableSortedMultiset;
 
     move-result-object p1
@@ -1122,7 +1061,6 @@
 .method public bridge synthetic tailMultiset(Ljava/lang/Object;Lcom/google/common/collect/BoundType;)Lcom/google/common/collect/b2;
     .locals 0
 
-    .line 1
     invoke-virtual {p0, p1, p2}, Lcom/google/common/collect/ImmutableSortedMultiset;->tailMultiset(Ljava/lang/Object;Lcom/google/common/collect/BoundType;)Lcom/google/common/collect/ImmutableSortedMultiset;
 
     move-result-object p1
@@ -1133,7 +1071,6 @@
 .method writeReplace()Ljava/lang/Object;
     .locals 1
 
-    .line 1
     new-instance v0, Lcom/google/common/collect/ImmutableSortedMultiset$SerializedForm;
 
     invoke-direct {v0, p0}, Lcom/google/common/collect/ImmutableSortedMultiset$SerializedForm;-><init>(Lcom/google/common/collect/b2;)V

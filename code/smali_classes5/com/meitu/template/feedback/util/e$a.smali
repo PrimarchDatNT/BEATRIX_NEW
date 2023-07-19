@@ -26,7 +26,6 @@
 .method constructor <init>(Ljava/lang/String;Ljava/lang/String;Landroid/content/Context;Lcom/meitu/template/feedback/util/e$b;)V
     .locals 0
 
-    .line 1
     iput-object p2, p0, Lcom/meitu/template/feedback/util/e$a;->g:Ljava/lang/String;
 
     iput-object p3, p0, Lcom/meitu/template/feedback/util/e$a;->p:Landroid/content/Context;
@@ -49,7 +48,6 @@
 
     invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     :try_start_0
     iget-object v2, p0, Lcom/meitu/template/feedback/util/e$a;->g:Ljava/lang/String;
 
@@ -59,29 +57,24 @@
 
     if-nez v2, :cond_3
 
-    .line 2
     new-instance v2, Lokhttp3/FormBody$Builder;
 
     invoke-direct {v2}, Lokhttp3/FormBody$Builder;-><init>()V
 
     const-string v3, "phrase_word"
 
-    .line 3
     iget-object v4, p0, Lcom/meitu/template/feedback/util/e$a;->g:Ljava/lang/String;
 
     invoke-virtual {v2, v3, v4}, Lokhttp3/FormBody$Builder;->add(Ljava/lang/String;Ljava/lang/String;)Lokhttp3/FormBody$Builder;
 
-    .line 4
     invoke-virtual {v2}, Lokhttp3/FormBody$Builder;->build()Lokhttp3/FormBody;
 
     move-result-object v2
 
-    .line 5
     new-instance v3, Lokhttp3/OkHttpClient;
 
     invoke-direct {v3}, Lokhttp3/OkHttpClient;-><init>()V
 
-    .line 6
     iget-object v4, p0, Lcom/meitu/template/feedback/util/e$a;->p:Landroid/content/Context;
 
     sget v5, Lcom/res/provider/ResSTRING;->pre_verify_debug:I
@@ -90,14 +83,12 @@
 
     move-result-object v4
 
-    .line 7
     invoke-static {}, Lcom/commsource/util/x;->C()Z
 
     move-result v5
 
     if-nez v5, :cond_0
 
-    .line 8
     new-instance v4, Ljava/lang/StringBuilder;
 
     invoke-direct {v4}, Ljava/lang/StringBuilder;-><init>()V
@@ -124,7 +115,6 @@
 
     move-result-object v4
 
-    .line 9
     :cond_0
     new-instance v5, Ljava/lang/StringBuilder;
 
@@ -142,7 +132,6 @@
 
     invoke-static {v5}, Lcom/meitu/library/util/Debug/Debug;->d(Ljava/lang/String;)V
 
-    .line 10
     new-instance v5, Lokhttp3/Request$Builder;
 
     invoke-direct {v5}, Lokhttp3/Request$Builder;-><init>()V
@@ -159,7 +148,6 @@
 
     move-result-object v2
 
-    .line 11
     invoke-virtual {v3, v2}, Lokhttp3/OkHttpClient;->newCall(Lokhttp3/Request;)Lokhttp3/Call;
 
     move-result-object v2
@@ -170,7 +158,6 @@
 
     if-eqz v2, :cond_3
 
-    .line 12
     invoke-virtual {v2}, Lokhttp3/Response;->isSuccessful()Z
 
     move-result v3
@@ -183,7 +170,6 @@
 
     if-eqz v3, :cond_3
 
-    .line 13
     invoke-virtual {v2}, Lokhttp3/Response;->body()Lokhttp3/ResponseBody;
 
     move-result-object v3
@@ -192,7 +178,6 @@
 
     move-result-object v3
 
-    .line 14
     invoke-virtual {v2}, Lokhttp3/Response;->code()I
 
     move-result v2
@@ -209,12 +194,10 @@
 
     if-eqz v2, :cond_3
 
-    .line 15
     new-instance v2, Lorg/json/JSONObject;
 
     invoke-direct {v2, v3}, Lorg/json/JSONObject;-><init>(Ljava/lang/String;)V
 
-    .line 16
     invoke-virtual {v2, v0}, Lorg/json/JSONObject;->has(Ljava/lang/String;)Z
 
     move-result v3
@@ -230,13 +213,11 @@
     :cond_1
     const-string v0, ""
 
-    .line 17
     :goto_0
     invoke-static {}, Lcom/meitu/hwbusinesskit/core/utils/SingleInstanceUtil;->getGson()Lcom/google/gson/Gson;
 
     move-result-object v2
 
-    .line 18
     const-class v3, Lcom/meitu/template/feedback/util/PreVerifyResult;
 
     invoke-virtual {v2, v0, v3}, Lcom/google/gson/Gson;->fromJson(Ljava/lang/String;Ljava/lang/Class;)Ljava/lang/Object;
@@ -245,7 +226,6 @@
 
     check-cast v0, Lcom/meitu/template/feedback/util/PreVerifyResult;
 
-    .line 19
     iget v2, v0, Lcom/meitu/template/feedback/util/PreVerifyResult;->status:I
 
     const/4 v3, 0x1
@@ -260,7 +240,6 @@
     :goto_1
     invoke-static {v3}, Lcom/meitu/template/feedback/util/e;->V(Z)V
 
-    .line 20
     iget-wide v2, v0, Lcom/meitu/template/feedback/util/PreVerifyResult;->expire_at:J
 
     invoke-static {v2, v3}, Lcom/meitu/template/feedback/util/e;->U(J)V
@@ -268,13 +247,11 @@
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 21
     :cond_3
     iget-object v0, p0, Lcom/meitu/template/feedback/util/e$a;->J:Lcom/meitu/template/feedback/util/e$b;
 
     if-eqz v0, :cond_4
 
-    .line 22
     :goto_2
     invoke-interface {v0}, Lcom/meitu/template/feedback/util/e$b;->a()V
 
@@ -291,7 +268,6 @@
     :try_start_1
     const-string v2, "zby log"
 
-    .line 23
     invoke-virtual {v0}, Ljava/lang/Exception;->getMessage()Ljava/lang/String;
 
     move-result-object v0
@@ -300,30 +276,25 @@
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
-    .line 24
     iget-object v0, p0, Lcom/meitu/template/feedback/util/e$a;->J:Lcom/meitu/template/feedback/util/e$b;
 
     if-eqz v0, :cond_4
 
     goto :goto_2
 
-    .line 25
     :cond_4
     :goto_3
     invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 26
     :goto_4
     iget-object v2, p0, Lcom/meitu/template/feedback/util/e$a;->J:Lcom/meitu/template/feedback/util/e$b;
 
     if-eqz v2, :cond_5
 
-    .line 27
     invoke-interface {v2}, Lcom/meitu/template/feedback/util/e$b;->a()V
 
-    .line 28
     :cond_5
     invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

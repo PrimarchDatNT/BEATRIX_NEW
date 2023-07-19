@@ -94,7 +94,6 @@
 
     invoke-static {p4, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     iput-object p1, p0, Lkshark/LeakTraceReference;->originObject:Lkshark/LeakTraceObject;
@@ -306,7 +305,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lkshark/LeakTraceReference;->declaredClassName:Ljava/lang/String;
 
     return-object v0
@@ -317,7 +315,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lkshark/LeakTraceReference;->originObject:Lkshark/LeakTraceObject;
 
     return-object v0
@@ -328,7 +325,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lkshark/LeakTraceReference;->referenceType:Lkshark/LeakTraceReference$ReferenceType;
 
     sget-object v1, Lkshark/r;->a:[I
@@ -359,7 +355,6 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     new-instance v0, Lcotlin/NoWhenBranchMatchedException;
 
@@ -367,13 +362,11 @@
 
     throw v0
 
-    .line 3
     :cond_1
     iget-object v0, p0, Lkshark/LeakTraceReference;->referenceName:Ljava/lang/String;
 
     goto :goto_0
 
-    .line 4
     :cond_2
     new-instance v0, Ljava/lang/StringBuilder;
 
@@ -404,7 +397,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lkshark/LeakTraceReference;->referenceType:Lkshark/LeakTraceReference$ReferenceType;
 
     sget-object v1, Lkshark/r;->b:[I
@@ -435,7 +427,6 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     new-instance v0, Lcotlin/NoWhenBranchMatchedException;
 
@@ -443,7 +434,6 @@
 
     throw v0
 
-    .line 3
     :cond_1
     iget-object v0, p0, Lkshark/LeakTraceReference;->referenceName:Ljava/lang/String;
 
@@ -461,7 +451,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lkshark/LeakTraceReference;->referenceName:Ljava/lang/String;
 
     return-object v0
@@ -472,7 +461,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lkshark/LeakTraceReference;->referenceType:Lkshark/LeakTraceReference$ReferenceType;
 
     return-object v0

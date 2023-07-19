@@ -17,7 +17,6 @@
 
     const/4 v1, 0x0
 
-    .line 1
     sput-object v1, Lcom/meitu/webview/utils/c;->a:Lcom/google/gson/Gson;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -28,7 +27,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -51,7 +49,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     :try_start_0
     invoke-static {}, Lcom/meitu/webview/utils/c;->b()Lcom/google/gson/Gson;
 
@@ -70,12 +67,10 @@
     :catch_0
     move-exception p0
 
-    .line 2
     invoke-virtual {p0}, Ljava/lang/Exception;->printStackTrace()V
 
     const/4 p0, 0x0
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
@@ -88,10 +83,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/meitu/webview/utils/c;->c()V
 
-    .line 2
     sget-object v1, Lcom/meitu/webview/utils/c;->a:Lcom/google/gson/Gson;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -106,30 +99,25 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/meitu/webview/utils/c;->a:Lcom/google/gson/Gson;
 
     if-nez v1, :cond_1
 
-    .line 2
     const-class v1, Lcom/meitu/webview/utils/c;
 
     monitor-enter v1
 
-    .line 3
     :try_start_0
     sget-object v2, Lcom/meitu/webview/utils/c;->a:Lcom/google/gson/Gson;
 
     if-nez v2, :cond_0
 
-    .line 4
     new-instance v2, Lcom/google/gson/Gson;
 
     invoke-direct {v2}, Lcom/google/gson/Gson;-><init>()V
 
     sput-object v2, Lcom/meitu/webview/utils/c;->a:Lcom/google/gson/Gson;
 
-    .line 5
     :cond_0
     monitor-exit v1
 
@@ -146,7 +134,6 @@
 
     throw v2
 
-    .line 6
     :cond_1
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

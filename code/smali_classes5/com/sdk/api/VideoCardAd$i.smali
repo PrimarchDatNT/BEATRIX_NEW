@@ -22,7 +22,6 @@
 .method static constructor <clinit>()V
     .locals 3
 
-    .line 1
     invoke-static {}, Lcom/sdk/api/VideoCardAd$LoadMode;->values()[Lcom/sdk/api/VideoCardAd$LoadMode;
 
     move-result-object v0

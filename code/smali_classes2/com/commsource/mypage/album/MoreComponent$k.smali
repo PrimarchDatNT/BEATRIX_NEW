@@ -44,7 +44,6 @@
 
     add-int/lit8 p1, p1, 0x2
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/mypage/album/MoreComponent$k;->a:Lcom/commsource/mypage/album/MoreComponent;
 
     invoke-virtual {v1}, Lcom/commsource/mypage/album/BaseAlbumComponent;->c()Lcom/commsource/mypage/album/BpAlbumActivity;
@@ -57,7 +56,6 @@
 
     invoke-virtual {v1, p1}, Lcom/commsource/mypage/album/z;->P(I)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/mypage/album/MoreComponent$k;->a:Lcom/commsource/mypage/album/MoreComponent;
 
     invoke-virtual {v1}, Lcom/commsource/mypage/album/BaseAlbumComponent;->c()Lcom/commsource/mypage/album/BpAlbumActivity;
@@ -66,7 +64,6 @@
 
     invoke-static {v1, p1}, Lcom/commsource/mypage/f0;->d(Landroid/content/Context;I)V
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/mypage/album/MoreComponent$k;->a:Lcom/commsource/mypage/album/MoreComponent;
 
     invoke-static {v1}, Lcom/commsource/mypage/album/MoreComponent;->g(Lcom/commsource/mypage/album/MoreComponent;)Lf/d/h/a/a;
@@ -80,7 +77,6 @@
     :cond_0
     invoke-virtual {v1}, Lf/d/h/a/a;->dismiss()V
 
-    .line 4
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -103,10 +99,8 @@
 
     const-string v2, "Gid"
 
-    .line 5
     invoke-static {v1, v2, p1}, Lcom/commsource/statistics/i;->r(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

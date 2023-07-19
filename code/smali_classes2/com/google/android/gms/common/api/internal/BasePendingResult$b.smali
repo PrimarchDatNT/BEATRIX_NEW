@@ -21,7 +21,6 @@
 .method private constructor <init>(Lcom/google/android/gms/common/api/internal/BasePendingResult;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/android/gms/common/api/internal/BasePendingResult$b;->a:Lcom/google/android/gms/common/api/internal/BasePendingResult;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -32,7 +31,6 @@
 .method synthetic constructor <init>(Lcom/google/android/gms/common/api/internal/BasePendingResult;Lcom/google/android/gms/common/api/internal/g3;)V
     .locals 0
 
-    .line 2
     invoke-direct {p0, p1}, Lcom/google/android/gms/common/api/internal/BasePendingResult$b;-><init>(Lcom/google/android/gms/common/api/internal/BasePendingResult;)V
 
     return-void
@@ -48,7 +46,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/common/api/internal/BasePendingResult$b;->a:Lcom/google/android/gms/common/api/internal/BasePendingResult;
 
     invoke-static {v0}, Lcom/google/android/gms/common/api/internal/BasePendingResult;->q(Lcom/google/android/gms/common/api/internal/BasePendingResult;)Lcom/google/android/gms/common/api/p;
@@ -57,7 +54,6 @@
 
     invoke-static {v0}, Lcom/google/android/gms/common/api/internal/BasePendingResult;->t(Lcom/google/android/gms/common/api/p;)V
 
-    .line 2
     invoke-super {p0}, Ljava/lang/Object;->finalize()V
 
     return-void

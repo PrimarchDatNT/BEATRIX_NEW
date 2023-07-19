@@ -41,10 +41,8 @@
 
     sget v0, Lcom/res/provider/ResLAYOUT;->item_shop_detail_header:I
 
-    .line 1
     invoke-direct {p0, p1, p2, v0}, Lcom/commsource/widget/h1/f;-><init>(Landroid/content/Context;Landroid/view/ViewGroup;I)V
 
-    .line 2
     iget-object p1, p0, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->itemView:Landroid/view/View;
 
     invoke-static {p1}, Lcom/commsource/beautyplus/f0/oi;->a(Landroid/view/View;)Lcom/commsource/beautyplus/f0/oi;
@@ -53,7 +51,6 @@
 
     iput-object p1, p0, Lcom/commsource/store/filter/c;->p:Lcom/commsource/beautyplus/f0/oi;
 
-    .line 3
     invoke-virtual {p1}, Landroidx/databinding/ViewDataBinding;->executePendingBindings()V
 
     return-void
@@ -91,10 +88,8 @@
 
     invoke-static {p2, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-super {p0, p1, p2, p3}, Lcom/commsource/widget/h1/f;->k(ILcom/commsource/widget/h1/d;Ljava/util/List;)V
 
-    .line 2
     invoke-virtual {p2}, Lcom/commsource/widget/h1/d;->b()Ljava/lang/Object;
 
     move-result-object p1
@@ -103,7 +98,6 @@
 
     if-eqz p1, :cond_5
 
-    .line 3
     iget-object p2, p0, Lcom/commsource/store/filter/c;->p:Lcom/commsource/beautyplus/f0/oi;
 
     const-string p3, "viewBinding"
@@ -124,24 +118,20 @@
 
     invoke-virtual {p2, v2, v1, v2, v2}, Landroid/view/View;->setPadding(IIII)V
 
-    .line 4
     iget-object p2, p0, Lcom/commsource/store/filter/c;->p:Lcom/commsource/beautyplus/f0/oi;
 
     invoke-static {p2, p3}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {p2, p1}, Lcom/commsource/beautyplus/f0/oi;->i(Lcom/meitu/template/bean/j;)V
 
-    .line 5
     iget-object p2, p0, Lcom/commsource/store/filter/c;->p:Lcom/commsource/beautyplus/f0/oi;
 
     iget-object p2, p2, Lcom/commsource/beautyplus/f0/oi;->d:Landroid/widget/TextView;
 
-    .line 6
     new-instance p3, Lcom/commsource/camera/mvp/helper/XSpanUtils;
 
     invoke-direct {p3}, Lcom/commsource/camera/mvp/helper/XSpanUtils;-><init>()V
 
-    .line 7
     invoke-virtual {p1}, Lcom/meitu/template/bean/j;->l()Ljava/lang/String;
 
     move-result-object v1
@@ -162,12 +152,10 @@
 
     const/4 v3, 0x1
 
-    .line 8
     invoke-virtual {p3, v1, v3}, Lcom/commsource/camera/mvp/helper/XSpanUtils;->E(IZ)Lcom/commsource/camera/mvp/helper/XSpanUtils;
 
     move-result-object p3
 
-    .line 9
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -234,20 +222,16 @@
 
     const/16 v1, 0xc
 
-    .line 10
     invoke-virtual {p3, v1, v3}, Lcom/commsource/camera/mvp/helper/XSpanUtils;->E(IZ)Lcom/commsource/camera/mvp/helper/XSpanUtils;
 
     move-result-object p3
 
-    .line 11
     invoke-virtual {p3}, Lcom/commsource/camera/mvp/helper/XSpanUtils;->p()Landroid/text/SpannableStringBuilder;
 
     move-result-object p3
 
-    .line 12
     invoke-virtual {p2, p3}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 13
     invoke-virtual {p1}, Lcom/meitu/template/bean/j;->n()I
 
     move-result p2
@@ -258,7 +242,6 @@
 
     if-nez p2, :cond_2
 
-    .line 14
     iget-object p2, p0, Lcom/commsource/store/filter/c;->p:Lcom/commsource/beautyplus/f0/oi;
 
     iget-object p2, p2, Lcom/commsource/beautyplus/f0/oi;->f:Landroid/widget/ImageView;
@@ -267,7 +250,6 @@
 
     invoke-static {p2}, Lcom/commsource/util/l0;->w(Landroid/view/View;)V
 
-    .line 15
     iget-object p2, p0, Lcom/commsource/store/filter/c;->p:Lcom/commsource/beautyplus/f0/oi;
 
     iget-object v1, p2, Lcom/commsource/beautyplus/f0/oi;->b:Landroid/widget/TextView;
@@ -294,7 +276,6 @@
 
     goto :goto_2
 
-    .line 16
     :cond_2
     iget-object p2, p0, Lcom/commsource/store/filter/c;->p:Lcom/commsource/beautyplus/f0/oi;
 
@@ -304,7 +285,6 @@
 
     invoke-static {p2}, Lcom/commsource/util/l0;->v0(Landroid/view/View;)V
 
-    .line 17
     iget-object p2, p0, Lcom/commsource/store/filter/c;->p:Lcom/commsource/beautyplus/f0/oi;
 
     iget-object v1, p2, Lcom/commsource/beautyplus/f0/oi;->b:Landroid/widget/TextView;
@@ -329,18 +309,15 @@
 
     invoke-static/range {v1 .. v7}, Lcom/commsource/util/l0;->W(Landroid/view/View;IIIIILjava/lang/Object;)V
 
-    .line 18
     :goto_2
     iget-object p2, p0, Lcom/commsource/store/filter/c;->p:Lcom/commsource/beautyplus/f0/oi;
 
     iget-object p2, p2, Lcom/commsource/beautyplus/f0/oi;->b:Landroid/widget/TextView;
 
-    .line 19
     new-instance p3, Lcom/commsource/camera/mvp/helper/XSpanUtils;
 
     invoke-direct {p3}, Lcom/commsource/camera/mvp/helper/XSpanUtils;-><init>()V
 
-    .line 20
     invoke-virtual {p1}, Lcom/meitu/template/bean/j;->n()I
 
     move-result v1
@@ -363,7 +340,6 @@
 
     move-result-object p3
 
-    .line 21
     invoke-virtual {p1}, Lcom/meitu/template/bean/j;->n()I
 
     move-result p1
@@ -386,15 +362,12 @@
 
     move-result-object p1
 
-    .line 22
     invoke-virtual {p1}, Lcom/commsource/camera/mvp/helper/XSpanUtils;->p()Landroid/text/SpannableStringBuilder;
 
     move-result-object p1
 
-    .line 23
     invoke-virtual {p2, p1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 24
     :cond_5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

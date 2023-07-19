@@ -105,69 +105,58 @@
 .method public constructor <init>(Lcom/commsource/easyeditor/EasyEditorActivity;)V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     new-instance v0, Landroid/util/SparseArray;
 
     invoke-direct {v0}, Landroid/util/SparseArray;-><init>()V
 
     iput-object v0, p0, Lcom/commsource/easyeditor/x1;->g:Landroid/util/SparseArray;
 
-    .line 3
     new-instance v0, Lcom/commsource/easyeditor/a2/e;
 
     invoke-direct {v0}, Lcom/commsource/easyeditor/a2/e;-><init>()V
 
     iput-object v0, p0, Lcom/commsource/easyeditor/x1;->i:Lcom/commsource/easyeditor/a2/e;
 
-    .line 4
     new-instance v0, Landroid/util/SparseArray;
 
     invoke-direct {v0}, Landroid/util/SparseArray;-><init>()V
 
     iput-object v0, p0, Lcom/commsource/easyeditor/x1;->m:Landroid/util/SparseArray;
 
-    .line 5
     new-instance v0, Landroid/util/SparseArray;
 
     invoke-direct {v0}, Landroid/util/SparseArray;-><init>()V
 
     iput-object v0, p0, Lcom/commsource/easyeditor/x1;->n:Landroid/util/SparseArray;
 
-    .line 6
     iput-object p1, p0, Lcom/commsource/easyeditor/x1;->a:Lcom/commsource/easyeditor/EasyEditorActivity;
 
-    .line 7
     invoke-virtual {p1}, Lcom/commsource/easyeditor/EasyEditorActivity;->T0()Lcom/commsource/beautyplus/f0/w;
 
     move-result-object v0
 
     iput-object v0, p0, Lcom/commsource/easyeditor/x1;->b:Lcom/commsource/beautyplus/f0/w;
 
-    .line 8
     invoke-virtual {p1}, Lcom/commsource/easyeditor/EasyEditorActivity;->U0()Lcom/commsource/easyeditor/y1;
 
     move-result-object v0
 
     iput-object v0, p0, Lcom/commsource/easyeditor/x1;->c:Lcom/commsource/easyeditor/y1;
 
-    .line 9
     invoke-virtual {p1}, Lcom/commsource/easyeditor/EasyEditorActivity;->S0()Lcom/commsource/easyeditor/widget/EasyEditorGestureController;
 
     move-result-object p1
 
     iput-object p1, p0, Lcom/commsource/easyeditor/x1;->k:Lcom/commsource/easyeditor/widget/EasyEditorGestureController;
 
-    .line 10
     invoke-static {}, Lcom/commsource/easyeditor/a2/d;->q()Landroid/util/SparseArray;
 
     move-result-object p1
 
     iput-object p1, p0, Lcom/commsource/easyeditor/x1;->d:Landroid/util/SparseArray;
 
-    .line 11
     iget-object p1, p0, Lcom/commsource/easyeditor/x1;->b:Lcom/commsource/beautyplus/f0/w;
 
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/w;->d0:Lcom/commsource/camera/montage/CustomSeekbar;
@@ -178,10 +167,8 @@
 
     invoke-virtual {p1, v0}, Lcom/commsource/camera/montage/CustomSeekbar;->setOnProgressChangeListener(Lcom/commsource/camera/montage/CustomSeekbar$a;)V
 
-    .line 12
     invoke-direct {p0}, Lcom/commsource/easyeditor/x1;->n()V
 
-    .line 13
     invoke-direct {p0}, Lcom/commsource/easyeditor/x1;->m()V
 
     return-void
@@ -194,7 +181,6 @@
 
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/easyeditor/x1;->b:Lcom/commsource/beautyplus/f0/w;
 
     iget-object v0, v0, Lcom/commsource/beautyplus/f0/w;->c0:Lcom/commsource/easyeditor/widget/FaceEffectsRecyclerView;
@@ -211,12 +197,10 @@
 
     if-ne v0, p1, :cond_0
 
-    .line 2
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
 
-    .line 3
     :cond_0
     iget-object v0, p0, Lcom/commsource/easyeditor/x1;->b:Lcom/commsource/beautyplus/f0/w;
 
@@ -230,7 +214,6 @@
 
     invoke-virtual {v0, p1, v2}, Lcom/commsource/easyeditor/widget/WheelLayoutManager;->s(IZ)V
 
-    .line 4
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
@@ -243,7 +226,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/easyeditor/x1;->b:Lcom/commsource/beautyplus/f0/w;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/w;->c0:Lcom/commsource/easyeditor/widget/FaceEffectsRecyclerView;
@@ -260,12 +242,10 @@
 
     if-ne v1, p1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v2
 
-    .line 3
     :cond_0
     iget-object v1, p0, Lcom/commsource/easyeditor/x1;->b:Lcom/commsource/beautyplus/f0/w;
 
@@ -279,19 +259,16 @@
 
     check-cast v1, Landroid/app/Activity;
 
-    .line 4
     invoke-static {v1, p2}, Lcom/commsource/camera/a1/g;->c(Landroid/app/Activity;Lcom/commsource/camera/a1/f;)Z
 
     move-result v3
 
     if-nez v3, :cond_1
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v2
 
-    .line 6
     :cond_1
     invoke-static {p2}, Lcom/commsource/camera/a1/g;->a(Lcom/commsource/camera/a1/f;)Z
 
@@ -299,19 +276,16 @@
 
     if-eqz v3, :cond_3
 
-    .line 7
     invoke-static {v1}, Lcom/meitu/library/p/h/a;->b(Landroid/content/Context;)Z
 
     move-result p1
 
     if-nez p1, :cond_2
 
-    .line 8
     invoke-static {v1}, Lcom/commsource/widget/dialog/s0/t;->Y(Landroid/content/Context;)V
 
     goto :goto_0
 
-    .line 9
     :cond_2
     invoke-static {}, Lcom/commsource/camera/a1/h;->j()Lcom/commsource/camera/a1/h;
 
@@ -319,13 +293,11 @@
 
     invoke-virtual {p1, p2}, Lcom/commsource/camera/a1/h;->g(Lcom/commsource/camera/a1/f;)V
 
-    .line 10
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v2
 
-    .line 11
     :cond_3
     iget-object p2, p0, Lcom/commsource/easyeditor/x1;->b:Lcom/commsource/beautyplus/f0/w;
 
@@ -339,7 +311,6 @@
 
     invoke-virtual {p2, p1, v1}, Lcom/commsource/easyeditor/widget/WheelLayoutManager;->s(IZ)V
 
-    .line 12
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v2
@@ -352,7 +323,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/easyeditor/x1;->g:Landroid/util/SparseArray;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -367,21 +337,18 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/easyeditor/x1;->f:Ljava/util/List;
 
     if-eqz v1, :cond_0
 
     if-eqz p1, :cond_0
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/easyeditor/x1;->b:Lcom/commsource/beautyplus/f0/w;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/w;->c0:Lcom/commsource/easyeditor/widget/FaceEffectsRecyclerView;
 
     invoke-virtual {v1, p1}, Lcom/commsource/easyeditor/widget/FaceEffectsRecyclerView;->e(Lcom/commsource/camera/a1/f;)V
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -395,7 +362,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/easyeditor/x1;->c:Lcom/commsource/easyeditor/y1;
 
     invoke-virtual {v0}, Lcom/commsource/easyeditor/y1;->g0()Lcom/commsource/easyeditor/entity/f;
@@ -404,7 +370,6 @@
 
     if-nez v0, :cond_0
 
-    .line 2
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -412,10 +377,8 @@
     :cond_0
     const/16 v0, 0xf
 
-    .line 3
     invoke-static {v0}, Lcom/commsource/util/j2;->c(I)V
 
-    .line 4
     iget-object v0, p0, Lcom/commsource/easyeditor/x1;->c:Lcom/commsource/easyeditor/y1;
 
     const/4 v1, 0x0
@@ -424,7 +387,6 @@
 
     invoke-virtual {v0, v1, v2}, Lcom/commsource/easyeditor/y1;->T0(IZ)V
 
-    .line 5
     iget-object v0, p0, Lcom/commsource/easyeditor/x1;->c:Lcom/commsource/easyeditor/y1;
 
     invoke-virtual {v0}, Lcom/commsource/easyeditor/y1;->g0()Lcom/commsource/easyeditor/entity/f;
@@ -433,14 +395,12 @@
 
     invoke-direct {p0, v0}, Lcom/commsource/easyeditor/x1;->g0(Lcom/commsource/easyeditor/entity/f;)V
 
-    .line 6
     iget-object v0, p0, Lcom/commsource/easyeditor/x1;->b:Lcom/commsource/beautyplus/f0/w;
 
     iget-object v0, v0, Lcom/commsource/beautyplus/f0/w;->l0:Lcom/commsource/easyeditor/widget/FacePointTipsView;
 
     invoke-virtual {v0}, Lcom/commsource/easyeditor/widget/FacePointTipsView;->d()V
 
-    .line 7
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -453,7 +413,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/easyeditor/x1;->c:Lcom/commsource/easyeditor/y1;
 
     invoke-virtual {v0}, Lcom/commsource/easyeditor/y1;->g0()Lcom/commsource/easyeditor/entity/f;
@@ -462,7 +421,6 @@
 
     if-nez v0, :cond_0
 
-    .line 2
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -470,10 +428,8 @@
     :cond_0
     const/16 v0, 0xf
 
-    .line 3
     invoke-static {v0}, Lcom/commsource/util/j2;->c(I)V
 
-    .line 4
     iget-object v0, p0, Lcom/commsource/easyeditor/x1;->c:Lcom/commsource/easyeditor/y1;
 
     invoke-virtual {v0}, Lcom/commsource/easyeditor/y1;->g0()Lcom/commsource/easyeditor/entity/f;
@@ -490,21 +446,18 @@
 
     iget-object v0, p0, Lcom/commsource/easyeditor/x1;->c:Lcom/commsource/easyeditor/y1;
 
-    .line 5
     invoke-virtual {v0}, Lcom/commsource/easyeditor/y1;->m0()Z
 
     move-result v0
 
     if-nez v0, :cond_1
 
-    .line 6
     iget-object v0, p0, Lcom/commsource/easyeditor/x1;->c:Lcom/commsource/easyeditor/y1;
 
     invoke-virtual {v0}, Lcom/commsource/easyeditor/y1;->M0()V
 
     goto :goto_0
 
-    .line 7
     :cond_1
     iget-object v0, p0, Lcom/commsource/easyeditor/x1;->c:Lcom/commsource/easyeditor/y1;
 
@@ -514,7 +467,6 @@
 
     invoke-virtual {v0, v1, v2}, Lcom/commsource/easyeditor/y1;->T0(IZ)V
 
-    .line 8
     iget-object v0, p0, Lcom/commsource/easyeditor/x1;->c:Lcom/commsource/easyeditor/y1;
 
     invoke-virtual {v0}, Lcom/commsource/easyeditor/y1;->g0()Lcom/commsource/easyeditor/entity/f;
@@ -523,7 +475,6 @@
 
     invoke-direct {p0, v0}, Lcom/commsource/easyeditor/x1;->g0(Lcom/commsource/easyeditor/entity/f;)V
 
-    .line 9
     :goto_0
     iget-object v0, p0, Lcom/commsource/easyeditor/x1;->b:Lcom/commsource/beautyplus/f0/w;
 
@@ -531,7 +482,6 @@
 
     invoke-virtual {v0}, Lcom/commsource/easyeditor/widget/FacePointTipsView;->d()V
 
-    .line 10
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -546,12 +496,10 @@
 
     if-nez p1, :cond_0
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 2
     :cond_0
     invoke-virtual {p1}, Lf/d/d/o$c;->c()I
 
@@ -559,14 +507,12 @@
 
     if-nez p1, :cond_1
 
-    .line 3
     iget-object p1, p0, Lcom/commsource/easyeditor/x1;->b:Lcom/commsource/beautyplus/f0/w;
 
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/w;->l0:Lcom/commsource/easyeditor/widget/FacePointTipsView;
 
     invoke-virtual {p1}, Lcom/commsource/easyeditor/widget/FacePointTipsView;->d()V
 
-    .line 4
     new-instance p1, Lcom/commsource/easyeditor/y0;
 
     invoke-direct {p1, p0}, Lcom/commsource/easyeditor/y0;-><init>(Lcom/commsource/easyeditor/x1;)V
@@ -575,7 +521,6 @@
 
     invoke-static {p1, v1, v2}, Lcom/commsource/util/g2;->l(Ljava/lang/Runnable;J)V
 
-    .line 5
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -589,7 +534,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/easyeditor/x1;->c:Lcom/commsource/easyeditor/y1;
 
     const/16 v2, 0x64
@@ -598,7 +542,6 @@
 
     invoke-virtual {v1, v2, v3}, Lcom/commsource/easyeditor/y1;->T0(IZ)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/easyeditor/x1;->c:Lcom/commsource/easyeditor/y1;
 
     invoke-virtual {v1}, Lcom/commsource/easyeditor/y1;->g0()Lcom/commsource/easyeditor/entity/f;
@@ -607,7 +550,6 @@
 
     invoke-direct {p0, v1}, Lcom/commsource/easyeditor/x1;->g0(Lcom/commsource/easyeditor/entity/f;)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -620,7 +562,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/easyeditor/x1;->b:Lcom/commsource/beautyplus/f0/w;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/w;->h0:Lcom/commsource/comic/widget/StrokeTextView;
@@ -629,19 +570,16 @@
 
     invoke-virtual {v1, v2}, Landroid/widget/TextView;->setVisibility(I)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/easyeditor/x1;->b:Lcom/commsource/beautyplus/f0/w;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/w;->d0:Lcom/commsource/camera/montage/CustomSeekbar;
 
     invoke-virtual {v1, v2}, Landroid/view/View;->setVisibility(I)V
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/easyeditor/x1;->a:Lcom/commsource/easyeditor/EasyEditorActivity;
 
     invoke-virtual {v1}, Lcom/commsource/easyeditor/EasyEditorActivity;->V0()V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -654,7 +592,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/easyeditor/x1;->b:Lcom/commsource/beautyplus/f0/w;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/w;->Z:Lcom/meitu/ratiorelativelayout/RatioRelativeLayout;
@@ -683,7 +620,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/easyeditor/x1;->b:Lcom/commsource/beautyplus/f0/w;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/w;->U:Landroid/widget/LinearLayout;
@@ -692,7 +628,6 @@
 
     invoke-virtual {v1, v2}, Landroid/widget/LinearLayout;->setVisibility(I)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/easyeditor/x1;->c:Lcom/commsource/easyeditor/y1;
 
     invoke-virtual {v1}, Lcom/commsource/easyeditor/y1;->Y()Lcom/commsource/easyeditor/entity/b;
@@ -709,7 +644,6 @@
 
     check-cast p1, Lcom/commsource/easyeditor/entity/c;
 
-    .line 3
     invoke-virtual {p1}, Lcom/commsource/easyeditor/entity/c;->c()Lcom/commsource/easyeditor/entity/EditEffectEnum;
 
     move-result-object v1
@@ -722,7 +656,6 @@
 
     if-eqz p2, :cond_0
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/easyeditor/x1;->i:Lcom/commsource/easyeditor/a2/e;
 
     const/4 v2, 0x0
@@ -735,7 +668,6 @@
 
     goto :goto_0
 
-    .line 5
     :cond_0
     iget-object v1, p0, Lcom/commsource/easyeditor/x1;->b:Lcom/commsource/beautyplus/f0/w;
 
@@ -751,7 +683,6 @@
 
     invoke-virtual {v1, v3}, Landroid/widget/TextView;->setText(I)V
 
-    .line 6
     iget-object v1, p0, Lcom/commsource/easyeditor/x1;->b:Lcom/commsource/beautyplus/f0/w;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/w;->d0:Lcom/commsource/camera/montage/CustomSeekbar;
@@ -760,7 +691,6 @@
 
     goto :goto_0
 
-    .line 7
     :cond_1
     invoke-virtual {p1}, Lcom/commsource/easyeditor/entity/c;->c()Lcom/commsource/easyeditor/entity/EditEffectEnum;
 
@@ -770,12 +700,10 @@
 
     if-ne v1, v2, :cond_2
 
-    .line 8
     invoke-virtual {p0, v4}, Lcom/commsource/easyeditor/x1;->d0(Z)V
 
     goto :goto_0
 
-    .line 9
     :cond_2
     iget-object v1, p0, Lcom/commsource/easyeditor/x1;->b:Lcom/commsource/beautyplus/f0/w;
 
@@ -791,14 +719,12 @@
 
     invoke-virtual {v1, v2}, Landroid/widget/TextView;->setText(I)V
 
-    .line 10
     iget-object v1, p0, Lcom/commsource/easyeditor/x1;->b:Lcom/commsource/beautyplus/f0/w;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/w;->d0:Lcom/commsource/camera/montage/CustomSeekbar;
 
     invoke-virtual {v1, v4}, Landroid/view/View;->setVisibility(I)V
 
-    .line 11
     invoke-virtual {p1}, Lcom/commsource/easyeditor/entity/c;->a()F
 
     move-result v1
@@ -811,14 +737,12 @@
 
     move-result v1
 
-    .line 12
     iget-object v2, p0, Lcom/commsource/easyeditor/x1;->b:Lcom/commsource/beautyplus/f0/w;
 
     iget-object v2, v2, Lcom/commsource/beautyplus/f0/w;->d0:Lcom/commsource/camera/montage/CustomSeekbar;
 
     invoke-virtual {v2, v1}, Lcom/commsource/camera/montage/CustomSeekbar;->setProgress(I)V
 
-    .line 13
     invoke-virtual {p1}, Lcom/commsource/easyeditor/entity/c;->c()Lcom/commsource/easyeditor/entity/EditEffectEnum;
 
     move-result-object v1
@@ -841,16 +765,13 @@
     :goto_0
     if-eqz p2, :cond_4
 
-    .line 14
     invoke-static {p1}, Lcom/commsource/easyeditor/w1;->a(Lcom/commsource/easyeditor/entity/c;)V
 
-    .line 15
     :cond_4
     iget-object p2, p0, Lcom/commsource/easyeditor/x1;->c:Lcom/commsource/easyeditor/y1;
 
     invoke-virtual {p2, p1}, Lcom/commsource/easyeditor/y1;->S0(Lcom/commsource/easyeditor/entity/c;)V
 
-    .line 16
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -868,7 +789,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/easyeditor/x1;->e:Ljava/util/List;
 
     if-nez v1, :cond_0
@@ -877,7 +797,6 @@
 
     if-nez v2, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -885,14 +804,12 @@
     :cond_0
     if-eqz v1, :cond_1
 
-    .line 3
     invoke-interface {v1, p1}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object p1
 
     check-cast p1, Lcom/commsource/easyeditor/entity/f;
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/easyeditor/x1;->c:Lcom/commsource/easyeditor/y1;
 
     iget-object v2, p0, Lcom/commsource/easyeditor/x1;->b:Lcom/commsource/beautyplus/f0/w;
@@ -905,7 +822,6 @@
 
     invoke-virtual {v1, p1, v2}, Lcom/commsource/easyeditor/y1;->U0(Lcom/commsource/easyeditor/entity/f;Z)V
 
-    .line 5
     iget-object v1, p0, Lcom/commsource/easyeditor/x1;->c:Lcom/commsource/easyeditor/y1;
 
     invoke-virtual {v1}, Lcom/commsource/easyeditor/y1;->U()I
@@ -922,7 +838,6 @@
 
     goto :goto_0
 
-    .line 6
     :cond_1
     iget-object v1, p0, Lcom/commsource/easyeditor/x1;->f:Ljava/util/List;
 
@@ -932,12 +847,10 @@
 
     check-cast p1, Lcom/commsource/camera/a1/f;
 
-    .line 7
     iget-object v1, p0, Lcom/commsource/easyeditor/x1;->c:Lcom/commsource/easyeditor/y1;
 
     invoke-virtual {v1, p1}, Lcom/commsource/easyeditor/y1;->W0(Lcom/commsource/camera/a1/f;)V
 
-    .line 8
     :goto_0
     iget-object p1, p0, Lcom/commsource/easyeditor/x1;->b:Lcom/commsource/beautyplus/f0/w;
 
@@ -965,7 +878,6 @@
 
     iget-object v2, p0, Lcom/commsource/easyeditor/x1;->c:Lcom/commsource/easyeditor/y1;
 
-    .line 9
     invoke-virtual {v2}, Lcom/commsource/easyeditor/y1;->g0()Lcom/commsource/easyeditor/entity/f;
 
     move-result-object v2
@@ -988,17 +900,14 @@
 
     move-result-object v1
 
-    .line 10
     invoke-virtual {p1, v1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 11
     iget-object p1, p0, Lcom/commsource/easyeditor/x1;->b:Lcom/commsource/beautyplus/f0/w;
 
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/w;->l0:Lcom/commsource/easyeditor/widget/FacePointTipsView;
 
     invoke-virtual {p1}, Lcom/commsource/easyeditor/widget/FacePointTipsView;->d()V
 
-    .line 12
     iget-object p1, p0, Lcom/commsource/easyeditor/x1;->c:Lcom/commsource/easyeditor/y1;
 
     invoke-virtual {p1}, Lcom/commsource/easyeditor/y1;->g0()Lcom/commsource/easyeditor/entity/f;
@@ -1009,7 +918,6 @@
 
     if-eqz p2, :cond_2
 
-    .line 13
     iget-object p1, p0, Lcom/commsource/easyeditor/x1;->c:Lcom/commsource/easyeditor/y1;
 
     invoke-virtual {p1}, Lcom/commsource/easyeditor/y1;->T()I
@@ -1018,15 +926,12 @@
 
     iget-object p2, p0, Lcom/commsource/easyeditor/x1;->c:Lcom/commsource/easyeditor/y1;
 
-    .line 14
     invoke-virtual {p2}, Lcom/commsource/easyeditor/y1;->g0()Lcom/commsource/easyeditor/entity/f;
 
     move-result-object p2
 
-    .line 15
     invoke-static {p1, p2}, Lcom/commsource/easyeditor/w1;->d(ILcom/commsource/easyeditor/entity/f;)V
 
-    .line 16
     :cond_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1040,7 +945,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/easyeditor/x1;->b:Lcom/commsource/beautyplus/f0/w;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/w;->U:Landroid/widget/LinearLayout;
@@ -1051,17 +955,14 @@
 
     const/4 v1, 0x0
 
-    .line 2
     invoke-direct {p0, v1}, Lcom/commsource/easyeditor/x1;->l0(Z)V
 
     if-nez p1, :cond_0
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 4
     :cond_0
     invoke-virtual {p1}, Lcom/meitu/template/bean/Filter;->getFilterId()I
 
@@ -1071,14 +972,12 @@
 
     if-nez v3, :cond_1
 
-    .line 5
     iget-object v1, p0, Lcom/commsource/easyeditor/x1;->b:Lcom/commsource/beautyplus/f0/w;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/w;->d0:Lcom/commsource/camera/montage/CustomSeekbar;
 
     invoke-virtual {v1, v2}, Landroid/view/View;->setVisibility(I)V
 
-    .line 6
     iget-object v1, p0, Lcom/commsource/easyeditor/x1;->b:Lcom/commsource/beautyplus/f0/w;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/w;->i0:Landroid/widget/TextView;
@@ -1089,7 +988,6 @@
 
     goto :goto_0
 
-    .line 7
     :cond_1
     iget-object v2, p0, Lcom/commsource/easyeditor/x1;->b:Lcom/commsource/beautyplus/f0/w;
 
@@ -1097,7 +995,6 @@
 
     invoke-virtual {v2, v1}, Landroid/view/View;->setVisibility(I)V
 
-    .line 8
     iget-object v1, p0, Lcom/commsource/easyeditor/x1;->b:Lcom/commsource/beautyplus/f0/w;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/w;->d0:Lcom/commsource/camera/montage/CustomSeekbar;
@@ -1108,7 +1005,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/camera/montage/CustomSeekbar;->setProgress(I)V
 
-    .line 9
     iget-object v1, p0, Lcom/commsource/easyeditor/x1;->b:Lcom/commsource/beautyplus/f0/w;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/w;->i0:Landroid/widget/TextView;
@@ -1119,7 +1015,6 @@
 
     invoke-virtual {v1, v2}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 10
     :goto_0
     iget-object v1, p0, Lcom/commsource/easyeditor/x1;->b:Lcom/commsource/beautyplus/f0/w;
 
@@ -1131,7 +1026,6 @@
 
     invoke-virtual {v1, v2}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 11
     iget-object v1, p0, Lcom/commsource/easyeditor/x1;->i:Lcom/commsource/easyeditor/a2/e;
 
     iget-object v2, p0, Lcom/commsource/easyeditor/x1;->b:Lcom/commsource/beautyplus/f0/w;
@@ -1140,17 +1034,14 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/easyeditor/a2/e;->d(Landroid/view/View;)V
 
-    .line 12
     iget-object v1, p0, Lcom/commsource/easyeditor/x1;->c:Lcom/commsource/easyeditor/y1;
 
     invoke-virtual {v1, p1}, Lcom/commsource/easyeditor/y1;->V0(Lcom/meitu/template/bean/Filter;)V
 
     if-eqz p2, :cond_2
 
-    .line 13
     invoke-static {p1}, Lcom/commsource/easyeditor/w1;->f(Lcom/meitu/template/bean/Filter;)V
 
-    .line 14
     :cond_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1166,16 +1057,12 @@
 
     const/16 v1, 0xf
 
-    .line 1
     invoke-static {v1}, Lcom/commsource/util/j2;->c(I)V
 
-    .line 2
     iput-boolean p1, p0, Lcom/commsource/easyeditor/x1;->h:Z
 
-    .line 3
     invoke-direct {p0, p1}, Lcom/commsource/easyeditor/x1;->n0(Z)V
 
-    .line 4
     iget-object p1, p0, Lcom/commsource/easyeditor/x1;->c:Lcom/commsource/easyeditor/y1;
 
     invoke-virtual {p1}, Lcom/commsource/easyeditor/y1;->U()I
@@ -1190,7 +1077,6 @@
 
     invoke-virtual {p0, p1, v1}, Lcom/commsource/easyeditor/x1;->e0(II)V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1203,7 +1089,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/easyeditor/x1;->b:Lcom/commsource/beautyplus/f0/w;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1218,7 +1103,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/easyeditor/x1;->c:Lcom/commsource/easyeditor/y1;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1235,13 +1119,10 @@
 
     const/4 v1, 0x0
 
-    .line 1
     iput-object v1, p0, Lcom/commsource/easyeditor/x1;->f:Ljava/util/List;
 
-    .line 2
     iput-object v1, p0, Lcom/commsource/easyeditor/x1;->e:Ljava/util/List;
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1254,7 +1135,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/easyeditor/x1;->e:Ljava/util/List;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1269,7 +1149,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/easyeditor/x1;->l:Ljava/util/List;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1284,7 +1163,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/easyeditor/x1;->j:Lcom/commsource/widget/h1/e;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1299,7 +1177,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0, p1, p2}, Lcom/commsource/easyeditor/x1;->Y(Lcom/meitu/template/bean/Filter;Z)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1318,7 +1195,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/easyeditor/x1;->m:Landroid/util/SparseArray;
 
     invoke-virtual {v1, p1}, Landroid/util/SparseArray;->get(I)Ljava/lang/Object;
@@ -1329,21 +1205,17 @@
 
     if-nez v1, :cond_0
 
-    .line 2
     new-instance v1, Landroid/util/SparseArray;
 
     invoke-direct {v1}, Landroid/util/SparseArray;-><init>()V
 
-    .line 3
     iget-object v2, p0, Lcom/commsource/easyeditor/x1;->m:Landroid/util/SparseArray;
 
     invoke-virtual {v2, p1, v1}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
-    .line 4
     :cond_0
     invoke-virtual {v1, p2, p3}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1356,7 +1228,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p1}, Lcom/commsource/easyeditor/entity/f;->a()F
 
     move-result p1
@@ -1369,14 +1240,12 @@
 
     if-nez p1, :cond_0
 
-    .line 2
     iget-object p1, p0, Lcom/commsource/easyeditor/x1;->b:Lcom/commsource/beautyplus/f0/w;
 
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/w;->f0:Landroid/widget/TextView;
 
     invoke-virtual {p1, v1}, Landroid/widget/TextView;->setBackgroundResource(I)V
 
-    .line 3
     iget-object p1, p0, Lcom/commsource/easyeditor/x1;->b:Lcom/commsource/beautyplus/f0/w;
 
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/w;->e0:Landroid/widget/TextView;
@@ -1385,7 +1254,6 @@
 
     invoke-virtual {p1, v1}, Landroid/widget/TextView;->setBackgroundResource(I)V
 
-    .line 4
     iget-object p1, p0, Lcom/commsource/easyeditor/x1;->b:Lcom/commsource/beautyplus/f0/w;
 
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/w;->e0:Landroid/widget/TextView;
@@ -1396,7 +1264,6 @@
 
     goto :goto_0
 
-    .line 5
     :cond_0
     iget-object p1, p0, Lcom/commsource/easyeditor/x1;->b:Lcom/commsource/beautyplus/f0/w;
 
@@ -1406,14 +1273,12 @@
 
     invoke-virtual {p1, v2}, Landroid/widget/TextView;->setBackgroundResource(I)V
 
-    .line 6
     iget-object p1, p0, Lcom/commsource/easyeditor/x1;->b:Lcom/commsource/beautyplus/f0/w;
 
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/w;->e0:Landroid/widget/TextView;
 
     invoke-virtual {p1, v1}, Landroid/widget/TextView;->setBackgroundResource(I)V
 
-    .line 7
     iget-object p1, p0, Lcom/commsource/easyeditor/x1;->b:Lcom/commsource/beautyplus/f0/w;
 
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/w;->e0:Landroid/widget/TextView;
@@ -1422,7 +1287,6 @@
 
     invoke-virtual {p1, v1}, Landroid/widget/TextView;->setTextColor(I)V
 
-    .line 8
     :goto_0
     iget-object p1, p0, Lcom/commsource/easyeditor/x1;->b:Lcom/commsource/beautyplus/f0/w;
 
@@ -1440,7 +1304,6 @@
 
     invoke-virtual {p1, v1}, Lcom/commsource/widget/h1/e;->v(Ljava/lang/Object;)V
 
-    .line 9
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1457,7 +1320,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/easyeditor/x1;->n:Landroid/util/SparseArray;
 
     invoke-virtual {v1, p1}, Landroid/util/SparseArray;->get(I)Ljava/lang/Object;
@@ -1468,21 +1330,17 @@
 
     if-nez v1, :cond_0
 
-    .line 2
     new-instance v1, Landroid/util/SparseBooleanArray;
 
     invoke-direct {v1}, Landroid/util/SparseBooleanArray;-><init>()V
 
-    .line 3
     iget-object v2, p0, Lcom/commsource/easyeditor/x1;->n:Landroid/util/SparseArray;
 
     invoke-virtual {v2, p1, v1}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
-    .line 4
     :cond_0
     invoke-virtual {v1, p2, p3}, Landroid/util/SparseBooleanArray;->put(IZ)V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1495,7 +1353,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/easyeditor/x1;->d:Landroid/util/SparseArray;
 
     invoke-virtual {v1, p3}, Landroid/util/SparseArray;->get(I)Ljava/lang/Object;
@@ -1508,7 +1365,6 @@
 
     if-ne p3, v2, :cond_0
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/easyeditor/x1;->d:Landroid/util/SparseArray;
 
     const/4 v2, 0x4
@@ -1519,7 +1375,6 @@
 
     check-cast v1, Ljava/util/List;
 
-    .line 3
     :cond_0
     iget-object v2, p0, Lcom/commsource/easyeditor/x1;->g:Landroid/util/SparseArray;
 
@@ -1531,7 +1386,6 @@
 
     if-nez p4, :cond_1
 
-    .line 4
     invoke-direct {p0, p2, p3}, Lcom/commsource/easyeditor/x1;->k(II)Z
 
     move-result v3
@@ -1540,7 +1394,6 @@
 
     goto :goto_0
 
-    .line 5
     :cond_1
     invoke-virtual {p4}, Lcom/commsource/easyeditor/entity/f;->c()Lcom/commsource/easyeditor/entity/FaceEffectEnum;
 
@@ -1552,7 +1405,6 @@
 
     iput-boolean v3, p0, Lcom/commsource/easyeditor/x1;->h:Z
 
-    .line 6
     :goto_0
     iget-boolean v3, p0, Lcom/commsource/easyeditor/x1;->h:Z
 
@@ -1566,7 +1418,6 @@
 
     if-eqz v2, :cond_2
 
-    .line 7
     iget-boolean v6, p0, Lcom/commsource/easyeditor/x1;->h:Z
 
     if-nez v6, :cond_9
@@ -1574,10 +1425,8 @@
     :cond_2
     if-eqz v1, :cond_9
 
-    .line 8
     iget-object v6, p0, Lcom/commsource/easyeditor/x1;->c:Lcom/commsource/easyeditor/y1;
 
-    .line 9
     invoke-virtual {v6}, Lcom/commsource/easyeditor/y1;->Y()Lcom/commsource/easyeditor/entity/b;
 
     move-result-object v6
@@ -1586,7 +1435,6 @@
 
     move-result-object v6
 
-    .line 10
     iget-object v7, p0, Lcom/commsource/easyeditor/x1;->f:Ljava/util/List;
 
     if-nez v7, :cond_4
@@ -1606,14 +1454,12 @@
     :goto_1
     if-eqz v4, :cond_7
 
-    .line 11
     new-instance p1, Ljava/util/LinkedList;
 
     invoke-direct {p1}, Ljava/util/LinkedList;-><init>()V
 
     iput-object p1, p0, Lcom/commsource/easyeditor/x1;->e:Ljava/util/List;
 
-    .line 12
     invoke-interface {v1}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
     move-result-object p1
@@ -1632,7 +1478,6 @@
 
     check-cast v7, Lcom/commsource/easyeditor/entity/FaceEffectEnum;
 
-    .line 13
     sget-object v8, Lcom/commsource/easyeditor/entity/FaceEffectEnum;->TeethWhiten:Lcom/commsource/easyeditor/entity/FaceEffectEnum;
 
     if-ne v7, v8, :cond_6
@@ -1647,7 +1492,6 @@
 
     goto :goto_2
 
-    .line 14
     :cond_6
     invoke-virtual {v7}, Lcom/commsource/easyeditor/entity/FaceEffectEnum;->getId()I
 
@@ -1661,7 +1505,6 @@
 
     if-eqz v7, :cond_5
 
-    .line 15
     iget-object v8, p0, Lcom/commsource/easyeditor/x1;->e:Ljava/util/List;
 
     invoke-interface {v8, v7}, Ljava/util/List;->add(Ljava/lang/Object;)Z
@@ -1671,17 +1514,14 @@
     :cond_7
     if-eqz p4, :cond_8
 
-    .line 16
     invoke-static {p4, v1}, Lcom/commsource/easyeditor/a2/d;->j(Lcom/commsource/easyeditor/entity/f;Ljava/util/List;)I
 
     move-result p1
 
-    .line 17
     invoke-direct {p0, p2, p3, p4}, Lcom/commsource/easyeditor/x1;->g(IILcom/commsource/easyeditor/entity/f;)V
 
     goto :goto_3
 
-    .line 18
     :cond_8
     invoke-direct {p0, p2, p3}, Lcom/commsource/easyeditor/x1;->j(II)Lcom/commsource/easyeditor/entity/f;
 
@@ -1691,23 +1531,19 @@
 
     move-result p1
 
-    .line 19
     :goto_3
     invoke-static {v5, p1}, Ljava/lang/Math;->max(II)I
 
     move-result p1
 
-    .line 20
     iput-object v3, p0, Lcom/commsource/easyeditor/x1;->f:Ljava/util/List;
 
-    .line 21
     iget-object p2, p0, Lcom/commsource/easyeditor/x1;->e:Ljava/util/List;
 
     invoke-direct {p0, p1, v4, p2}, Lcom/commsource/easyeditor/x1;->i0(IZLjava/util/List;)V
 
     if-nez p5, :cond_d
 
-    .line 22
     iget-object p2, p0, Lcom/commsource/easyeditor/x1;->e:Ljava/util/List;
 
     invoke-interface {p2, p1}, Ljava/util/List;->get(I)Ljava/lang/Object;
@@ -1723,38 +1559,32 @@
     :cond_9
     if-eqz v2, :cond_d
 
-    .line 23
     iget-object p4, p0, Lcom/commsource/easyeditor/x1;->c:Lcom/commsource/easyeditor/y1;
 
     invoke-virtual {p4}, Lcom/commsource/easyeditor/y1;->Y()Lcom/commsource/easyeditor/entity/b;
 
     move-result-object p4
 
-    .line 24
     invoke-static {p3}, Lcom/commsource/easyeditor/a2/d;->x(I)Lcom/commsource/easyeditor/entity/FaceEffectEnum;
 
     move-result-object v6
 
-    .line 25
     invoke-virtual {p4, p2, v6}, Lcom/commsource/easyeditor/entity/b;->k(ILcom/commsource/easyeditor/entity/FaceEffectEnum;)Lcom/commsource/easyeditor/entity/f;
 
     move-result-object p2
 
-    .line 26
     invoke-virtual {p2}, Lcom/commsource/easyeditor/entity/f;->e()Z
 
     move-result p4
 
     if-nez p4, :cond_a
 
-    .line 27
     invoke-virtual {p2, v4}, Lcom/commsource/easyeditor/entity/f;->g(Z)V
 
     const/4 p4, 0x1
 
     goto :goto_4
 
-    .line 28
     :cond_a
     new-instance p4, Lcom/commsource/camera/a1/f;
 
@@ -1772,7 +1602,6 @@
 
     move-result p4
 
-    .line 29
     :goto_4
     iget-object v6, p0, Lcom/commsource/easyeditor/x1;->e:Ljava/util/List;
 
@@ -1789,23 +1618,18 @@
     :cond_b
     const/4 v4, 0x0
 
-    .line 30
     :cond_c
     :goto_5
     iput-object v2, p0, Lcom/commsource/easyeditor/x1;->f:Ljava/util/List;
 
-    .line 31
     iput-object v3, p0, Lcom/commsource/easyeditor/x1;->e:Ljava/util/List;
 
-    .line 32
     invoke-direct {p0, p4, v4, v2}, Lcom/commsource/easyeditor/x1;->j0(IZLjava/util/List;)V
 
     if-nez p5, :cond_d
 
-    .line 33
     invoke-static {p3, p2}, Lcom/commsource/easyeditor/w1;->d(ILcom/commsource/easyeditor/entity/f;)V
 
-    .line 34
     :cond_d
     :goto_6
     invoke-static {v1}, Lcom/google/android/gms/common/util/h;->a(Ljava/util/Collection;)Z
@@ -1822,7 +1646,6 @@
 
     goto :goto_7
 
-    .line 35
     :cond_e
     iget-object p1, p0, Lcom/commsource/easyeditor/x1;->b:Lcom/commsource/beautyplus/f0/w;
 
@@ -1832,7 +1655,6 @@
 
     goto :goto_8
 
-    .line 36
     :cond_f
     :goto_7
     iget-object p1, p0, Lcom/commsource/easyeditor/x1;->b:Lcom/commsource/beautyplus/f0/w;
@@ -1843,7 +1665,6 @@
 
     invoke-virtual {p1, p2}, Landroid/widget/LinearLayout;->setVisibility(I)V
 
-    .line 37
     :goto_8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1869,7 +1690,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/easyeditor/x1;->b:Lcom/commsource/beautyplus/f0/w;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/w;->c0:Lcom/commsource/easyeditor/widget/FaceEffectsRecyclerView;
@@ -1878,14 +1698,12 @@
 
     if-eqz p2, :cond_0
 
-    .line 2
     iget-object p2, p0, Lcom/commsource/easyeditor/x1;->b:Lcom/commsource/beautyplus/f0/w;
 
     iget-object p2, p2, Lcom/commsource/beautyplus/f0/w;->c0:Lcom/commsource/easyeditor/widget/FaceEffectsRecyclerView;
 
     invoke-virtual {p2, p3}, Lcom/commsource/easyeditor/widget/FaceEffectsRecyclerView;->f(Ljava/util/List;)V
 
-    .line 3
     iget-object p2, p0, Lcom/commsource/easyeditor/x1;->b:Lcom/commsource/beautyplus/f0/w;
 
     iget-object p2, p2, Lcom/commsource/beautyplus/f0/w;->c0:Lcom/commsource/easyeditor/widget/FaceEffectsRecyclerView;
@@ -1898,7 +1716,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_0
     iget-object p2, p0, Lcom/commsource/easyeditor/x1;->b:Lcom/commsource/beautyplus/f0/w;
 
@@ -1910,7 +1727,6 @@
 
     invoke-virtual {p2, p1}, Lcom/commsource/easyeditor/widget/WheelLayoutManager;->r(I)V
 
-    .line 5
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1928,7 +1744,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/easyeditor/x1;->m:Landroid/util/SparseArray;
 
     invoke-virtual {v1, p1}, Landroid/util/SparseArray;->get(I)Ljava/lang/Object;
@@ -1941,12 +1756,10 @@
 
     const/4 p1, 0x0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p1
 
-    .line 3
     :cond_0
     invoke-virtual {p1, p2}, Landroid/util/SparseArray;->get(I)Ljava/lang/Object;
 
@@ -1978,7 +1791,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/easyeditor/x1;->b:Lcom/commsource/beautyplus/f0/w;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/w;->c0:Lcom/commsource/easyeditor/widget/FaceEffectsRecyclerView;
@@ -1987,14 +1799,12 @@
 
     if-eqz p2, :cond_0
 
-    .line 2
     iget-object p2, p0, Lcom/commsource/easyeditor/x1;->b:Lcom/commsource/beautyplus/f0/w;
 
     iget-object p2, p2, Lcom/commsource/beautyplus/f0/w;->c0:Lcom/commsource/easyeditor/widget/FaceEffectsRecyclerView;
 
     invoke-virtual {p2, p3}, Lcom/commsource/easyeditor/widget/FaceEffectsRecyclerView;->g(Ljava/util/List;)V
 
-    .line 3
     iget-object p2, p0, Lcom/commsource/easyeditor/x1;->b:Lcom/commsource/beautyplus/f0/w;
 
     iget-object p2, p2, Lcom/commsource/beautyplus/f0/w;->c0:Lcom/commsource/easyeditor/widget/FaceEffectsRecyclerView;
@@ -2007,7 +1817,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_0
     iget-object p2, p0, Lcom/commsource/easyeditor/x1;->b:Lcom/commsource/beautyplus/f0/w;
 
@@ -2019,13 +1828,11 @@
 
     invoke-virtual {p2, p1}, Lcom/commsource/easyeditor/widget/WheelLayoutManager;->r(I)V
 
-    .line 5
     :goto_0
     iget-object p1, p0, Lcom/commsource/easyeditor/x1;->c:Lcom/commsource/easyeditor/y1;
 
     invoke-virtual {p1, p3}, Lcom/commsource/easyeditor/y1;->M(Ljava/util/List;)V
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2042,7 +1849,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/easyeditor/x1;->n:Landroid/util/SparseArray;
 
     invoke-virtual {v1, p1}, Landroid/util/SparseArray;->get(I)Ljava/lang/Object;
@@ -2055,12 +1861,10 @@
 
     const/4 p1, 0x0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
 
-    .line 3
     :cond_0
     invoke-virtual {p1, p2}, Landroid/util/SparseBooleanArray;->get(I)Z
 
@@ -2078,7 +1882,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p1}, Lcom/commsource/easyeditor/entity/f;->c()Lcom/commsource/easyeditor/entity/FaceEffectEnum;
 
     move-result-object v1
@@ -2091,7 +1894,6 @@
 
     if-eq v1, v2, :cond_4
 
-    .line 2
     invoke-virtual {p1}, Lcom/commsource/easyeditor/entity/f;->c()Lcom/commsource/easyeditor/entity/FaceEffectEnum;
 
     move-result-object v1
@@ -2102,7 +1904,6 @@
 
     goto :goto_2
 
-    .line 3
     :cond_0
     invoke-virtual {p1}, Lcom/commsource/easyeditor/entity/f;->c()Lcom/commsource/easyeditor/entity/FaceEffectEnum;
 
@@ -2114,10 +1915,8 @@
 
     if-eqz v1, :cond_2
 
-    .line 4
     invoke-direct {p0, v4}, Lcom/commsource/easyeditor/x1;->l0(Z)V
 
-    .line 5
     invoke-virtual {p1}, Lcom/commsource/easyeditor/entity/f;->d()I
 
     move-result v1
@@ -2132,7 +1931,6 @@
 
     if-ne v1, v2, :cond_1
 
-    .line 6
     iget-object v1, p0, Lcom/commsource/easyeditor/x1;->b:Lcom/commsource/beautyplus/f0/w;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/w;->d0:Lcom/commsource/camera/montage/CustomSeekbar;
@@ -2141,7 +1939,6 @@
 
     goto :goto_1
 
-    .line 7
     :cond_1
     iget-object v1, p0, Lcom/commsource/easyeditor/x1;->b:Lcom/commsource/beautyplus/f0/w;
 
@@ -2151,7 +1948,6 @@
 
     goto :goto_1
 
-    .line 8
     :cond_2
     invoke-virtual {p1}, Lcom/commsource/easyeditor/entity/f;->c()Lcom/commsource/easyeditor/entity/FaceEffectEnum;
 
@@ -2177,14 +1973,12 @@
     :goto_0
     invoke-direct {p0, v1}, Lcom/commsource/easyeditor/x1;->l0(Z)V
 
-    .line 9
     iget-object v1, p0, Lcom/commsource/easyeditor/x1;->b:Lcom/commsource/beautyplus/f0/w;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/w;->d0:Lcom/commsource/camera/montage/CustomSeekbar;
 
     invoke-virtual {v1, v4}, Landroid/view/View;->setVisibility(I)V
 
-    .line 10
     iget-object v1, p0, Lcom/commsource/easyeditor/x1;->b:Lcom/commsource/beautyplus/f0/w;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/w;->c0:Lcom/commsource/easyeditor/widget/FaceEffectsRecyclerView;
@@ -2195,7 +1989,6 @@
 
     invoke-virtual {v1, p1}, Lcom/commsource/widget/h1/e;->v(Ljava/lang/Object;)V
 
-    .line 11
     :goto_1
     iget-object v1, p0, Lcom/commsource/easyeditor/x1;->b:Lcom/commsource/beautyplus/f0/w;
 
@@ -2203,12 +1996,10 @@
 
     invoke-virtual {v1, v3}, Landroid/widget/LinearLayout;->setVisibility(I)V
 
-    .line 12
     iget-object v1, p0, Lcom/commsource/easyeditor/x1;->b:Lcom/commsource/beautyplus/f0/w;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/w;->d0:Lcom/commsource/camera/montage/CustomSeekbar;
 
-    .line 13
     invoke-virtual {p1}, Lcom/commsource/easyeditor/entity/f;->a()F
 
     move-result v2
@@ -2221,31 +2012,26 @@
 
     move-result p1
 
-    .line 14
     invoke-virtual {v1, p1}, Lcom/commsource/camera/montage/CustomSeekbar;->setProgress(I)V
 
     goto :goto_3
 
-    .line 15
     :cond_4
     :goto_2
     invoke-direct {p0, p1}, Lcom/commsource/easyeditor/x1;->g0(Lcom/commsource/easyeditor/entity/f;)V
 
-    .line 16
     iget-object p1, p0, Lcom/commsource/easyeditor/x1;->b:Lcom/commsource/beautyplus/f0/w;
 
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/w;->U:Landroid/widget/LinearLayout;
 
     invoke-virtual {p1, v4}, Landroid/widget/LinearLayout;->setVisibility(I)V
 
-    .line 17
     iget-object p1, p0, Lcom/commsource/easyeditor/x1;->b:Lcom/commsource/beautyplus/f0/w;
 
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/w;->d0:Lcom/commsource/camera/montage/CustomSeekbar;
 
     invoke-virtual {p1, v3}, Landroid/view/View;->setVisibility(I)V
 
-    .line 18
     :goto_3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -2263,7 +2049,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     iget-object p1, p0, Lcom/commsource/easyeditor/x1;->b:Lcom/commsource/beautyplus/f0/w;
 
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/w;->d0:Lcom/commsource/camera/montage/CustomSeekbar;
@@ -2272,7 +2057,6 @@
 
     invoke-virtual {p1, v2, v1}, Lcom/commsource/camera/montage/CustomSeekbar;->n(II)V
 
-    .line 2
     iget-object p1, p0, Lcom/commsource/easyeditor/x1;->b:Lcom/commsource/beautyplus/f0/w;
 
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/w;->d0:Lcom/commsource/camera/montage/CustomSeekbar;
@@ -2283,7 +2067,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_0
     iget-object p1, p0, Lcom/commsource/easyeditor/x1;->b:Lcom/commsource/beautyplus/f0/w;
 
@@ -2293,14 +2076,12 @@
 
     invoke-virtual {p1, v2, v1}, Lcom/commsource/camera/montage/CustomSeekbar;->n(II)V
 
-    .line 4
     iget-object p1, p0, Lcom/commsource/easyeditor/x1;->b:Lcom/commsource/beautyplus/f0/w;
 
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/w;->d0:Lcom/commsource/camera/montage/CustomSeekbar;
 
     invoke-virtual {p1, v2}, Lcom/commsource/camera/montage/CustomSeekbar;->setAdsorbProgress(I)V
 
-    .line 5
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -2314,7 +2095,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/easyeditor/x1;->b:Lcom/commsource/beautyplus/f0/w;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/w;->a0:Lcom/commsource/easyeditor/widget/EditEffectsRecyclerView;
@@ -2329,7 +2109,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/easyeditor/widget/WheelLayoutManager;->o(Lcom/commsource/util/common/b;)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/easyeditor/x1;->b:Lcom/commsource/beautyplus/f0/w;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/w;->a0:Lcom/commsource/easyeditor/widget/EditEffectsRecyclerView;
@@ -2346,7 +2125,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/easyeditor/widget/EditEffectsRecyclerView;->e(Ljava/util/List;)V
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/easyeditor/x1;->b:Lcom/commsource/beautyplus/f0/w;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/w;->a0:Lcom/commsource/easyeditor/widget/EditEffectsRecyclerView;
@@ -2363,7 +2141,6 @@
 
     invoke-virtual {v1, v2, v3}, Lcom/commsource/widget/h1/e;->I(Lcom/commsource/widget/h1/e$b;Ljava/lang/Class;)V
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/easyeditor/x1;->b:Lcom/commsource/beautyplus/f0/w;
 
     invoke-virtual {v1}, Landroidx/databinding/ViewDataBinding;->getRoot()Landroid/view/View;
@@ -2376,14 +2153,12 @@
 
     check-cast v1, Lcom/commsource/beautyplus/BaseActivity;
 
-    .line 5
     new-instance v2, Lcom/commsource/widget/h1/e;
 
     invoke-direct {v2, v1}, Lcom/commsource/widget/h1/e;-><init>(Landroid/content/Context;)V
 
     iput-object v2, p0, Lcom/commsource/easyeditor/x1;->j:Lcom/commsource/widget/h1/e;
 
-    .line 6
     iget-object v2, p0, Lcom/commsource/easyeditor/x1;->c:Lcom/commsource/easyeditor/y1;
 
     invoke-virtual {v2}, Lcom/commsource/easyeditor/y1;->c0()Landroidx/lifecycle/MutableLiveData;
@@ -2396,7 +2171,6 @@
 
     invoke-virtual {v2, v1, v3}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 7
     iget-object v2, p0, Lcom/commsource/easyeditor/x1;->b:Lcom/commsource/beautyplus/f0/w;
 
     iget-object v2, v2, Lcom/commsource/beautyplus/f0/w;->b0:Landroidx/recyclerview/widget/RecyclerView;
@@ -2407,10 +2181,8 @@
 
     invoke-direct {v3, v1, v4, v4}, Lcom/commsource/easyeditor/widget/CenterScrollLayoutManager;-><init>(Landroid/content/Context;IZ)V
 
-    .line 8
     invoke-virtual {v2, v3}, Landroidx/recyclerview/widget/RecyclerView;->setLayoutManager(Landroidx/recyclerview/widget/RecyclerView$LayoutManager;)V
 
-    .line 9
     iget-object v2, p0, Lcom/commsource/easyeditor/x1;->b:Lcom/commsource/beautyplus/f0/w;
 
     iget-object v2, v2, Lcom/commsource/beautyplus/f0/w;->b0:Landroidx/recyclerview/widget/RecyclerView;
@@ -2419,7 +2191,6 @@
 
     invoke-virtual {v2, v3}, Landroidx/recyclerview/widget/RecyclerView;->setAdapter(Landroidx/recyclerview/widget/RecyclerView$Adapter;)V
 
-    .line 10
     iget-object v2, p0, Lcom/commsource/easyeditor/x1;->j:Lcom/commsource/widget/h1/e;
 
     new-instance v3, Lcom/commsource/easyeditor/x0;
@@ -2430,7 +2201,6 @@
 
     invoke-virtual {v2, v3, v4}, Lcom/commsource/widget/h1/e;->I(Lcom/commsource/widget/h1/e$b;Ljava/lang/Class;)V
 
-    .line 11
     iget-object v2, p0, Lcom/commsource/easyeditor/x1;->b:Lcom/commsource/beautyplus/f0/w;
 
     iget-object v2, v2, Lcom/commsource/beautyplus/f0/w;->P:Lcom/commsource/widget/PressImageView;
@@ -2441,7 +2211,6 @@
 
     invoke-virtual {v2, v3}, Landroid/widget/ImageView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 12
     iget-object v2, p0, Lcom/commsource/easyeditor/x1;->b:Lcom/commsource/beautyplus/f0/w;
 
     iget-object v2, v2, Lcom/commsource/beautyplus/f0/w;->m0:Landroid/view/View;
@@ -2454,7 +2223,6 @@
 
     invoke-virtual {v2, v3}, Landroid/view/View;->setOnTouchListener(Landroid/view/View$OnTouchListener;)V
 
-    .line 13
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2467,7 +2235,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/easyeditor/x1;->b:Lcom/commsource/beautyplus/f0/w;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/w;->c0:Lcom/commsource/easyeditor/widget/FaceEffectsRecyclerView;
@@ -2482,7 +2249,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/easyeditor/widget/WheelLayoutManager;->o(Lcom/commsource/util/common/b;)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/easyeditor/x1;->b:Lcom/commsource/beautyplus/f0/w;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/w;->Q:Landroid/widget/TextView;
@@ -2493,7 +2259,6 @@
 
     invoke-virtual {v1, v2}, Landroid/widget/TextView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/easyeditor/x1;->b:Lcom/commsource/beautyplus/f0/w;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/w;->O:Landroid/widget/TextView;
@@ -2506,10 +2271,8 @@
 
     const/4 v1, 0x0
 
-    .line 4
     invoke-direct {p0, v1}, Lcom/commsource/easyeditor/x1;->n0(Z)V
 
-    .line 5
     iget-object v1, p0, Lcom/commsource/easyeditor/x1;->b:Lcom/commsource/beautyplus/f0/w;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/w;->c0:Lcom/commsource/easyeditor/widget/FaceEffectsRecyclerView;
@@ -2526,7 +2289,6 @@
 
     invoke-virtual {v1, v2, v3}, Lcom/commsource/widget/h1/e;->I(Lcom/commsource/widget/h1/e$b;Ljava/lang/Class;)V
 
-    .line 6
     iget-object v1, p0, Lcom/commsource/easyeditor/x1;->b:Lcom/commsource/beautyplus/f0/w;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/w;->c0:Lcom/commsource/easyeditor/widget/FaceEffectsRecyclerView;
@@ -2543,7 +2305,6 @@
 
     invoke-virtual {v1, v2, v3}, Lcom/commsource/widget/h1/e;->I(Lcom/commsource/widget/h1/e$b;Ljava/lang/Class;)V
 
-    .line 7
     iget-object v1, p0, Lcom/commsource/easyeditor/x1;->b:Lcom/commsource/beautyplus/f0/w;
 
     invoke-virtual {v1}, Landroidx/databinding/ViewDataBinding;->getRoot()Landroid/view/View;
@@ -2556,7 +2317,6 @@
 
     check-cast v1, Lcom/commsource/beautyplus/BaseActivity;
 
-    .line 8
     iget-object v2, p0, Lcom/commsource/easyeditor/x1;->c:Lcom/commsource/easyeditor/y1;
 
     invoke-virtual {v2}, Lcom/commsource/easyeditor/y1;->O()Landroidx/lifecycle/MutableLiveData;
@@ -2569,7 +2329,6 @@
 
     invoke-virtual {v2, v1, v3}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 9
     iget-object v2, p0, Lcom/commsource/easyeditor/x1;->c:Lcom/commsource/easyeditor/y1;
 
     invoke-virtual {v2}, Lcom/commsource/easyeditor/y1;->W()Landroidx/lifecycle/MediatorLiveData;
@@ -2582,7 +2341,6 @@
 
     invoke-virtual {v2, v1, v3}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 10
     iget-object v2, p0, Lcom/commsource/easyeditor/x1;->b:Lcom/commsource/beautyplus/f0/w;
 
     iget-object v2, v2, Lcom/commsource/beautyplus/f0/w;->e0:Landroid/widget/TextView;
@@ -2593,7 +2351,6 @@
 
     invoke-virtual {v2, v3}, Landroid/widget/TextView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 11
     iget-object v2, p0, Lcom/commsource/easyeditor/x1;->b:Lcom/commsource/beautyplus/f0/w;
 
     iget-object v2, v2, Lcom/commsource/beautyplus/f0/w;->f0:Landroid/widget/TextView;
@@ -2604,7 +2361,6 @@
 
     invoke-virtual {v2, v3}, Landroid/widget/TextView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 12
     new-instance v2, Lf/d/d/o;
 
     iget-object v3, p0, Lcom/commsource/easyeditor/x1;->b:Lcom/commsource/beautyplus/f0/w;
@@ -2619,12 +2375,10 @@
 
     invoke-direct {v2, v1, v1, v3, v4}, Lf/d/d/o;-><init>(Landroidx/lifecycle/LifecycleOwner;Landroid/app/Activity;Landroid/view/ViewGroup;I)V
 
-    .line 13
     iget-object v3, p0, Lcom/commsource/easyeditor/x1;->c:Lcom/commsource/easyeditor/y1;
 
     invoke-virtual {v3, v2}, Lcom/commsource/easyeditor/y1;->J0(Lf/d/d/o;)V
 
-    .line 14
     invoke-virtual {v2}, Lf/d/d/o;->z()Landroidx/lifecycle/MutableLiveData;
 
     move-result-object v2
@@ -2635,7 +2389,6 @@
 
     invoke-virtual {v2, v1, v3}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 15
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2654,14 +2407,12 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     iget-object v3, p0, Lcom/commsource/easyeditor/x1;->b:Lcom/commsource/beautyplus/f0/w;
 
     iget-object v3, v3, Lcom/commsource/beautyplus/f0/w;->O:Landroid/widget/TextView;
 
     invoke-virtual {v3, v1}, Landroid/widget/TextView;->setAlpha(F)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/easyeditor/x1;->b:Lcom/commsource/beautyplus/f0/w;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/w;->Q:Landroid/widget/TextView;
@@ -2670,7 +2421,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_0
     iget-object v3, p0, Lcom/commsource/easyeditor/x1;->b:Lcom/commsource/beautyplus/f0/w;
 
@@ -2678,14 +2428,12 @@
 
     invoke-virtual {v3, v2}, Landroid/widget/TextView;->setAlpha(F)V
 
-    .line 4
     iget-object v2, p0, Lcom/commsource/easyeditor/x1;->b:Lcom/commsource/beautyplus/f0/w;
 
     iget-object v2, v2, Lcom/commsource/beautyplus/f0/w;->Q:Landroid/widget/TextView;
 
     invoke-virtual {v2, v1}, Landroid/widget/TextView;->setAlpha(F)V
 
-    .line 5
     :goto_0
     iget-object v1, p0, Lcom/commsource/easyeditor/x1;->c:Lcom/commsource/easyeditor/y1;
 
@@ -2701,7 +2449,6 @@
 
     invoke-direct {p0, v1, v2, p1}, Lcom/commsource/easyeditor/x1;->h(IIZ)V
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2722,7 +2469,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/easyeditor/x1;->b:Lcom/commsource/beautyplus/f0/w;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/w;->a0:Lcom/commsource/easyeditor/widget/EditEffectsRecyclerView;
@@ -2739,7 +2485,6 @@
 
     if-ne v1, p1, :cond_0
 
-    .line 2
     invoke-virtual {p2}, Lcom/commsource/easyeditor/entity/c;->c()Lcom/commsource/easyeditor/entity/EditEffectEnum;
 
     move-result-object p2
@@ -2748,12 +2493,10 @@
 
     if-eq p2, v1, :cond_0
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v2
 
-    .line 4
     :cond_0
     iget-object p2, p0, Lcom/commsource/easyeditor/x1;->b:Lcom/commsource/beautyplus/f0/w;
 
@@ -2767,7 +2510,6 @@
 
     invoke-virtual {p2, p1, v1}, Lcom/commsource/easyeditor/widget/WheelLayoutManager;->s(IZ)V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v2
@@ -2780,10 +2522,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/easyeditor/x1;->l:Ljava/util/List;
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/easyeditor/x1;->j:Lcom/commsource/widget/h1/e;
 
     const-class v2, Lcom/commsource/easyeditor/widget/e0;
@@ -2792,7 +2532,6 @@
 
     invoke-virtual {v1, p1, v2, v3}, Lcom/commsource/widget/h1/e;->O(Ljava/util/List;Ljava/lang/Class;Z)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2805,7 +2544,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/easyeditor/x1;->j:Lcom/commsource/widget/h1/e;
 
     invoke-virtual {v1}, Lcom/commsource/widget/h1/e;->e()Ljava/lang/Object;
@@ -2816,12 +2554,10 @@
 
     if-ne v1, p2, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v2
 
-    .line 3
     :cond_0
     iget-object v1, p0, Lcom/commsource/easyeditor/x1;->b:Lcom/commsource/beautyplus/f0/w;
 
@@ -2831,10 +2567,8 @@
 
     const/4 p1, 0x1
 
-    .line 4
     invoke-direct {p0, p2, p1}, Lcom/commsource/easyeditor/x1;->Y(Lcom/meitu/template/bean/Filter;Z)V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v2
@@ -2849,7 +2583,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-virtual {p0, v0}, Lcom/commsource/easyeditor/x1;->c0(Lcom/commsource/easyeditor/entity/c;)V
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2866,7 +2599,6 @@
 
     const/4 v0, 0x1
 
-    .line 1
     invoke-direct {p0, v0}, Lcom/commsource/easyeditor/x1;->Z(Z)V
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2883,7 +2615,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-direct {p0, v0}, Lcom/commsource/easyeditor/x1;->Z(Z)V
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2996,7 +2727,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p1}, Lcom/commsource/easyeditor/entity/d;->e()Lcom/commsource/easyeditor/entity/f;
 
     move-result-object v1
@@ -3005,7 +2735,6 @@
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-virtual {p1}, Lcom/commsource/easyeditor/entity/d;->h()I
 
     move-result v1
@@ -3014,17 +2743,14 @@
 
     move-result v3
 
-    .line 3
     invoke-virtual {p1}, Lcom/commsource/easyeditor/entity/d;->e()Lcom/commsource/easyeditor/entity/f;
 
     move-result-object p1
 
-    .line 4
     invoke-virtual {p0, v1, v3, p1, v2}, Lcom/commsource/easyeditor/x1;->f0(IILcom/commsource/easyeditor/entity/f;Z)V
 
     goto :goto_0
 
-    .line 5
     :cond_0
     invoke-virtual {p1}, Lcom/commsource/easyeditor/entity/d;->d()Lcom/commsource/easyeditor/entity/c;
 
@@ -3032,7 +2758,6 @@
 
     if-eqz v1, :cond_3
 
-    .line 6
     invoke-virtual {p1}, Lcom/commsource/easyeditor/entity/d;->d()Lcom/commsource/easyeditor/entity/c;
 
     move-result-object v1
@@ -3045,7 +2770,6 @@
 
     if-ne v1, v3, :cond_2
 
-    .line 7
     iget-object p1, p0, Lcom/commsource/easyeditor/x1;->c:Lcom/commsource/easyeditor/y1;
 
     invoke-virtual {p1}, Lcom/commsource/easyeditor/y1;->Y()Lcom/commsource/easyeditor/entity/b;
@@ -3058,7 +2782,6 @@
 
     if-eqz p1, :cond_1
 
-    .line 8
     iget-object v1, p0, Lcom/commsource/easyeditor/x1;->c:Lcom/commsource/easyeditor/y1;
 
     invoke-virtual {v1}, Lcom/commsource/easyeditor/y1;->Y()Lcom/commsource/easyeditor/entity/b;
@@ -3083,13 +2806,11 @@
 
     invoke-virtual {p1, v1}, Lcom/meitu/template/bean/Filter;->setFilterDefaultAlpha(I)V
 
-    .line 9
     :cond_1
     invoke-virtual {p0, v2}, Lcom/commsource/easyeditor/x1;->d0(Z)V
 
     goto :goto_0
 
-    .line 10
     :cond_2
     invoke-virtual {p1}, Lcom/commsource/easyeditor/entity/d;->d()Lcom/commsource/easyeditor/entity/c;
 
@@ -3099,7 +2820,6 @@
 
     goto :goto_0
 
-    .line 11
     :cond_3
     invoke-virtual {p1}, Lcom/commsource/easyeditor/entity/d;->c()Lcom/commsource/easyeditor/entity/a;
 
@@ -3107,7 +2827,6 @@
 
     if-eqz p1, :cond_4
 
-    .line 12
     iget-object p1, p0, Lcom/commsource/easyeditor/x1;->c:Lcom/commsource/easyeditor/y1;
 
     invoke-virtual {p1}, Lcom/commsource/easyeditor/y1;->Y()Lcom/commsource/easyeditor/entity/b;
@@ -3120,10 +2839,8 @@
 
     move-result-object p1
 
-    .line 13
     invoke-virtual {p0, p1}, Lcom/commsource/easyeditor/x1;->c0(Lcom/commsource/easyeditor/entity/c;)V
 
-    .line 14
     iget-object v1, p0, Lcom/commsource/easyeditor/x1;->b:Lcom/commsource/beautyplus/f0/w;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/w;->a0:Lcom/commsource/easyeditor/widget/EditEffectsRecyclerView;
@@ -3134,7 +2851,6 @@
 
     invoke-virtual {v1, p1}, Lcom/commsource/widget/h1/e;->v(Ljava/lang/Object;)V
 
-    .line 15
     :cond_4
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -3149,7 +2865,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/easyeditor/x1;->b:Lcom/commsource/beautyplus/f0/w;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/w;->Z:Lcom/meitu/ratiorelativelayout/RatioRelativeLayout;
@@ -3158,14 +2873,12 @@
 
     invoke-virtual {v1, v2}, Landroid/widget/RelativeLayout;->setVisibility(I)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/easyeditor/x1;->b:Lcom/commsource/beautyplus/f0/w;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/w;->h0:Lcom/commsource/comic/widget/StrokeTextView;
 
     invoke-virtual {v1, v2}, Landroid/widget/TextView;->setVisibility(I)V
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/easyeditor/x1;->b:Lcom/commsource/beautyplus/f0/w;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/w;->m0:Landroid/view/View;
@@ -3174,14 +2887,12 @@
 
     invoke-virtual {v1, v3}, Landroid/view/View;->setVisibility(I)V
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/easyeditor/x1;->b:Lcom/commsource/beautyplus/f0/w;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/w;->l0:Lcom/commsource/easyeditor/widget/FacePointTipsView;
 
     invoke-virtual {v1}, Lcom/commsource/easyeditor/widget/FacePointTipsView;->a()V
 
-    .line 5
     iget-object v1, p0, Lcom/commsource/easyeditor/x1;->i:Lcom/commsource/easyeditor/a2/e;
 
     invoke-virtual {v1}, Lcom/commsource/easyeditor/a2/e;->b()Landroid/view/View;
@@ -3201,14 +2912,12 @@
     :cond_0
     if-eqz v2, :cond_1
 
-    .line 6
     iget-object v1, p0, Lcom/commsource/easyeditor/x1;->i:Lcom/commsource/easyeditor/a2/e;
 
     const/4 v5, 0x0
 
     invoke-virtual {v1, v4, v3, v5}, Lcom/commsource/easyeditor/a2/e;->a(ZLandroid/view/View;Ljava/lang/Runnable;)V
 
-    .line 7
     :cond_1
     iget-object v1, p0, Lcom/commsource/easyeditor/x1;->b:Lcom/commsource/beautyplus/f0/w;
 
@@ -3218,7 +2927,6 @@
 
     if-eqz p1, :cond_2
 
-    .line 8
     iget-object v1, p0, Lcom/commsource/easyeditor/x1;->c:Lcom/commsource/easyeditor/y1;
 
     invoke-virtual {v1}, Lcom/commsource/easyeditor/y1;->Y()Lcom/commsource/easyeditor/entity/b;
@@ -3240,10 +2948,8 @@
 
     if-eqz v2, :cond_3
 
-    .line 9
     iget-object v1, p0, Lcom/commsource/easyeditor/x1;->c:Lcom/commsource/easyeditor/y1;
 
-    .line 10
     invoke-virtual {v1}, Lcom/commsource/easyeditor/y1;->Y()Lcom/commsource/easyeditor/entity/b;
 
     move-result-object v1
@@ -3264,7 +2970,6 @@
     :goto_0
     if-eqz v2, :cond_4
 
-    .line 11
     iget-object v1, p0, Lcom/commsource/easyeditor/x1;->b:Lcom/commsource/beautyplus/f0/w;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/w;->a0:Lcom/commsource/easyeditor/widget/EditEffectsRecyclerView;
@@ -3275,7 +2980,6 @@
 
     invoke-virtual {v1}, Landroidx/recyclerview/widget/RecyclerView$Adapter;->notifyDataSetChanged()V
 
-    .line 12
     iget-object v1, p0, Lcom/commsource/easyeditor/x1;->b:Lcom/commsource/beautyplus/f0/w;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/w;->a0:Lcom/commsource/easyeditor/widget/EditEffectsRecyclerView;
@@ -3288,7 +2992,6 @@
 
     goto :goto_1
 
-    .line 13
     :cond_4
     iget-object v1, p0, Lcom/commsource/easyeditor/x1;->b:Lcom/commsource/beautyplus/f0/w;
 
@@ -3300,11 +3003,9 @@
 
     invoke-virtual {v1, p1}, Lcom/commsource/easyeditor/widget/WheelLayoutManager;->r(I)V
 
-    .line 14
     :goto_1
     invoke-direct {p0}, Lcom/commsource/easyeditor/x1;->b0()V
 
-    .line 15
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -3317,24 +3018,20 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/easyeditor/x1;->b0()V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/easyeditor/x1;->k:Lcom/commsource/easyeditor/widget/EasyEditorGestureController;
 
     const/4 v2, 0x0
 
     invoke-virtual {v1, v2}, Lcom/commsource/easyeditor/widget/EasyEditorGestureController;->e(Ljava/lang/Runnable;)V
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/easyeditor/x1;->b:Lcom/commsource/beautyplus/f0/w;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/w;->l0:Lcom/commsource/easyeditor/widget/FacePointTipsView;
 
     invoke-virtual {v1}, Lcom/commsource/easyeditor/widget/FacePointTipsView;->e()V
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/easyeditor/x1;->b:Lcom/commsource/beautyplus/f0/w;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/w;->Z:Lcom/meitu/ratiorelativelayout/RatioRelativeLayout;
@@ -3343,21 +3040,18 @@
 
     invoke-virtual {v1, v3}, Landroid/widget/RelativeLayout;->setVisibility(I)V
 
-    .line 5
     iget-object v1, p0, Lcom/commsource/easyeditor/x1;->b:Lcom/commsource/beautyplus/f0/w;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/w;->h0:Lcom/commsource/comic/widget/StrokeTextView;
 
     invoke-virtual {v1, v3}, Landroid/widget/TextView;->setVisibility(I)V
 
-    .line 6
     iget-object v1, p0, Lcom/commsource/easyeditor/x1;->b:Lcom/commsource/beautyplus/f0/w;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/w;->m0:Landroid/view/View;
 
     invoke-virtual {v1, v3}, Landroid/view/View;->setVisibility(I)V
 
-    .line 7
     iget-object v1, p0, Lcom/commsource/easyeditor/x1;->i:Lcom/commsource/easyeditor/a2/e;
 
     invoke-virtual {v1}, Lcom/commsource/easyeditor/a2/e;->b()Landroid/view/View;
@@ -3382,12 +3076,10 @@
     :goto_0
     if-eqz v1, :cond_1
 
-    .line 8
     iget-object v1, p0, Lcom/commsource/easyeditor/x1;->i:Lcom/commsource/easyeditor/a2/e;
 
     invoke-virtual {v1, v5, v4, v2}, Lcom/commsource/easyeditor/a2/e;->a(ZLandroid/view/View;Ljava/lang/Runnable;)V
 
-    .line 9
     :cond_1
     iget-object v1, p0, Lcom/commsource/easyeditor/x1;->b:Lcom/commsource/beautyplus/f0/w;
 
@@ -3395,7 +3087,6 @@
 
     invoke-virtual {v1}, Lcom/commsource/easyeditor/widget/EasyEditorGuideView;->a()V
 
-    .line 10
     iget-object v1, p0, Lcom/commsource/easyeditor/x1;->c:Lcom/commsource/easyeditor/y1;
 
     invoke-virtual {v1}, Lcom/commsource/easyeditor/y1;->Y()Lcom/commsource/easyeditor/entity/b;
@@ -3406,7 +3097,6 @@
 
     move-result-object v1
 
-    .line 11
     iget-object v2, p0, Lcom/commsource/easyeditor/x1;->c:Lcom/commsource/easyeditor/y1;
 
     invoke-virtual {v2}, Lcom/commsource/easyeditor/y1;->Y()Lcom/commsource/easyeditor/entity/b;
@@ -3417,17 +3107,14 @@
 
     move-result-object v2
 
-    .line 12
     invoke-virtual {v2}, Lcom/commsource/easyeditor/entity/c;->e()Z
 
     move-result v4
 
     if-nez v4, :cond_2
 
-    .line 13
     invoke-virtual {v2, v5}, Lcom/commsource/easyeditor/entity/c;->h(Z)V
 
-    .line 14
     iget-object v1, p0, Lcom/commsource/easyeditor/x1;->c:Lcom/commsource/easyeditor/y1;
 
     invoke-virtual {v1}, Lcom/commsource/easyeditor/y1;->Y()Lcom/commsource/easyeditor/entity/b;
@@ -3445,7 +3132,6 @@
     :cond_2
     if-nez v1, :cond_3
 
-    .line 15
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -3453,33 +3139,27 @@
     :cond_3
     if-nez p1, :cond_4
 
-    .line 16
     invoke-static {v1}, Lcom/commsource/easyeditor/w1;->f(Lcom/meitu/template/bean/Filter;)V
 
-    .line 17
     :cond_4
     iget-object p1, p0, Lcom/commsource/easyeditor/x1;->j:Lcom/commsource/widget/h1/e;
 
     invoke-virtual {p1, v1}, Lcom/commsource/widget/h1/e;->E(Ljava/lang/Object;)V
 
-    .line 18
     iget-object p1, p0, Lcom/commsource/easyeditor/x1;->j:Lcom/commsource/widget/h1/e;
 
     invoke-virtual {p1, v1}, Lcom/commsource/widget/h1/e;->g(Ljava/lang/Object;)I
 
     move-result p1
 
-    .line 19
     iget-object v2, p0, Lcom/commsource/easyeditor/x1;->b:Lcom/commsource/beautyplus/f0/w;
 
     iget-object v2, v2, Lcom/commsource/beautyplus/f0/w;->b0:Landroidx/recyclerview/widget/RecyclerView;
 
     invoke-virtual {v2, p1}, Landroidx/recyclerview/widget/RecyclerView;->smoothScrollToPosition(I)V
 
-    .line 20
     invoke-direct {p0, v1, v3}, Lcom/commsource/easyeditor/x1;->Y(Lcom/meitu/template/bean/Filter;Z)V
 
-    .line 21
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -3496,10 +3176,8 @@
 
     const/4 v2, 0x0
 
-    .line 1
     invoke-virtual {p0, p1, p2, v1, v2}, Lcom/commsource/easyeditor/x1;->f0(IILcom/commsource/easyeditor/entity/f;Z)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -3518,7 +3196,6 @@
 
     invoke-static {v7}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, v6, Lcom/commsource/easyeditor/x1;->b:Lcom/commsource/beautyplus/f0/w;
 
     iget-object v0, v0, Lcom/commsource/beautyplus/f0/w;->m0:Landroid/view/View;
@@ -3535,22 +3212,18 @@
 
     if-ne v3, v0, :cond_0
 
-    .line 2
     invoke-direct {p0}, Lcom/commsource/easyeditor/x1;->b0()V
 
-    .line 3
     iget-object v3, v6, Lcom/commsource/easyeditor/x1;->c:Lcom/commsource/easyeditor/y1;
 
     invoke-virtual {v3, p1, v0}, Lcom/commsource/easyeditor/y1;->L0(II)Z
 
-    .line 4
     iget-object v0, v6, Lcom/commsource/easyeditor/x1;->b:Lcom/commsource/beautyplus/f0/w;
 
     iget-object v0, v0, Lcom/commsource/beautyplus/f0/w;->h0:Lcom/commsource/comic/widget/StrokeTextView;
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setVisibility(I)V
 
-    .line 5
     iget-object v0, v6, Lcom/commsource/easyeditor/x1;->i:Lcom/commsource/easyeditor/a2/e;
 
     new-instance v1, Lcom/commsource/easyeditor/f1;
@@ -3559,12 +3232,10 @@
 
     invoke-virtual {v0, v9, v8, v1}, Lcom/commsource/easyeditor/a2/e;->a(ZLandroid/view/View;Ljava/lang/Runnable;)V
 
-    .line 6
     invoke-static {v7}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 7
     :cond_0
     iget-object v0, v6, Lcom/commsource/easyeditor/x1;->c:Lcom/commsource/easyeditor/y1;
 
@@ -3578,7 +3249,6 @@
 
     iget-object v0, v6, Lcom/commsource/easyeditor/x1;->i:Lcom/commsource/easyeditor/a2/e;
 
-    .line 8
     invoke-virtual {v0}, Lcom/commsource/easyeditor/a2/e;->b()Landroid/view/View;
 
     move-result-object v0
@@ -3613,24 +3283,20 @@
 
     move/from16 v5, p4
 
-    .line 9
     invoke-direct/range {v0 .. v5}, Lcom/commsource/easyeditor/x1;->h0(ZIILcom/commsource/easyeditor/entity/f;Z)V
 
-    .line 10
     iget-object v0, v6, Lcom/commsource/easyeditor/x1;->b:Lcom/commsource/beautyplus/f0/w;
 
     iget-object v0, v0, Lcom/commsource/beautyplus/f0/w;->Z:Lcom/meitu/ratiorelativelayout/RatioRelativeLayout;
 
     invoke-virtual {v0, v9}, Landroid/widget/RelativeLayout;->setVisibility(I)V
 
-    .line 11
     iget-object v0, v6, Lcom/commsource/easyeditor/x1;->b:Lcom/commsource/beautyplus/f0/w;
 
     iget-object v0, v0, Lcom/commsource/beautyplus/f0/w;->h0:Lcom/commsource/comic/widget/StrokeTextView;
 
     invoke-virtual {v0, v9}, Landroid/widget/TextView;->setVisibility(I)V
 
-    .line 12
     iget-object v0, v6, Lcom/commsource/easyeditor/x1;->b:Lcom/commsource/beautyplus/f0/w;
 
     iget-object v0, v0, Lcom/commsource/beautyplus/f0/w;->b:Lcom/commsource/easyeditor/widget/EasyEditorGuideView;
@@ -3639,7 +3305,6 @@
 
     if-eqz v11, :cond_3
 
-    .line 13
     iget-object v0, v6, Lcom/commsource/easyeditor/x1;->i:Lcom/commsource/easyeditor/a2/e;
 
     iget-object v1, v6, Lcom/commsource/easyeditor/x1;->b:Lcom/commsource/beautyplus/f0/w;
@@ -3648,7 +3313,6 @@
 
     invoke-virtual {v0, v10, v1, v8}, Lcom/commsource/easyeditor/a2/e;->a(ZLandroid/view/View;Ljava/lang/Runnable;)V
 
-    .line 14
     :cond_3
     invoke-static {v7}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -3662,7 +3326,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/easyeditor/x1;->i:Lcom/commsource/easyeditor/a2/e;
 
     invoke-virtual {v1}, Lcom/commsource/easyeditor/a2/e;->b()Landroid/view/View;
@@ -3687,12 +3350,10 @@
 
     const/4 p1, 0x4
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
 
-    .line 2
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -3706,14 +3367,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/commsource/easyeditor/a2/b;->M()Z
 
     move-result v1
 
     if-nez v1, :cond_0
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/easyeditor/x1;->d:Landroid/util/SparseArray;
 
     const/4 v2, 0x4
@@ -3726,12 +3385,10 @@
 
     if-eqz v1, :cond_0
 
-    .line 3
     sget-object v2, Lcom/commsource/easyeditor/entity/FaceEffectEnum;->Smile:Lcom/commsource/easyeditor/entity/FaceEffectEnum;
 
     invoke-interface {v1, v2}, Ljava/util/List;->remove(Ljava/lang/Object;)Z
 
-    .line 4
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

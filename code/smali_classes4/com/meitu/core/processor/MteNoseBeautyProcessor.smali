@@ -7,7 +7,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/meitu/core/NativeBaseClass;-><init>()V
 
     return-void
@@ -30,12 +29,10 @@
 
     if-eqz p1, :cond_0
 
-    .line 8
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v1
 
-    .line 9
     invoke-virtual {p1}, Lcom/meitu/core/face/InterPoint;->nativeInstance()J
 
     move-result-wide v4
@@ -52,7 +49,6 @@
 
     move-result p1
 
-    .line 10
     new-instance p2, Ljava/lang/StringBuilder;
 
     invoke-direct {p2}, Ljava/lang/StringBuilder;-><init>()V
@@ -81,7 +77,6 @@
 
     invoke-virtual {p2, p0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 11
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v3
@@ -100,7 +95,6 @@
 
     const-string p2, "lier"
 
-    .line 12
     invoke-static {p2, p0}, Lcom/meitu/core/types/NDebug;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_0
@@ -108,12 +102,10 @@
     :cond_0
     const-string p0, "ERROR:MteNoseBeautyProcessor zoomWingOfNose bitmap  is null or no face point"
 
-    .line 13
     invoke-static {p0}, Lcom/meitu/core/types/NDebug;->e(Ljava/lang/String;)V
 
     const/4 p1, 0x0
 
-    .line 14
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -131,12 +123,10 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v1
 
-    .line 2
     invoke-virtual {p0}, Lcom/meitu/core/types/NativeBitmap;->nativeInstance()J
 
     move-result-wide v3
@@ -155,7 +145,6 @@
 
     move-result p1
 
-    .line 3
     new-instance p2, Ljava/lang/StringBuilder;
 
     invoke-direct {p2}, Ljava/lang/StringBuilder;-><init>()V
@@ -184,7 +173,6 @@
 
     invoke-virtual {p2, p0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 4
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v3
@@ -203,7 +191,6 @@
 
     const-string p2, "lier"
 
-    .line 5
     invoke-static {p2, p0}, Lcom/meitu/core/types/NDebug;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_0
@@ -211,12 +198,10 @@
     :cond_0
     const-string p0, "ERROR:MteNoseBeautyProcessor zoomWingOfNose bitmap  is null or no face point"
 
-    .line 6
     invoke-static {p0}, Lcom/meitu/core/types/NDebug;->e(Ljava/lang/String;)V
 
     const/4 p1, 0x0
 
-    .line 7
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

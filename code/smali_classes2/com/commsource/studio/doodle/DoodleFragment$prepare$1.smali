@@ -58,7 +58,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/studio/doodle/DoodleFragment$prepare$1;->invoke()V
 
     sget-object v1, Lcotlin/t1;->a:Lcotlin/t1;
@@ -75,10 +74,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/doodle/DoodleFragment$prepare$1;->this$0:Lcom/commsource/studio/doodle/DoodleFragment;
 
-    .line 3
     new-instance v2, Lcom/commsource/studio/doodle/DoodleFragment$prepare$1$a;
 
     iget-object v3, p0, Lcom/commsource/studio/doodle/DoodleFragment$prepare$1;->this$0:Lcom/commsource/studio/doodle/DoodleFragment;
@@ -97,7 +94,6 @@
 
     invoke-direct {v2, p0, v3}, Lcom/commsource/studio/doodle/DoodleFragment$prepare$1$a;-><init>(Lcom/commsource/studio/doodle/DoodleFragment$prepare$1;Lcom/commsource/editengine/b;)V
 
-    .line 4
     iget-object v3, p0, Lcom/commsource/studio/doodle/DoodleFragment$prepare$1;->this$0:Lcom/commsource/studio/doodle/DoodleFragment;
 
     invoke-virtual {v3}, Lcom/commsource/studio/sub/BaseSubTabFragment;->L()Lcom/commsource/studio/ImageStudioViewModel;
@@ -110,7 +106,6 @@
 
     invoke-virtual {v3, v2}, Lcom/commsource/editengine/f;->o(Lcom/commsource/editengine/d;)V
 
-    .line 5
     invoke-virtual {v2}, Lcom/commsource/editengine/d;->k()Lcom/commsource/editengine/b;
 
     move-result-object v3
@@ -119,7 +114,6 @@
 
     move-result-object v3
 
-    .line 6
     iget-object v4, p0, Lcom/commsource/studio/doodle/DoodleFragment$prepare$1;->this$0:Lcom/commsource/studio/doodle/DoodleFragment;
 
     invoke-virtual {v4}, Lcom/commsource/studio/sub/BaseSubTabFragment;->L()Lcom/commsource/studio/ImageStudioViewModel;
@@ -141,15 +135,12 @@
     :cond_0
     const-string v5, "doodleProcessor1"
 
-    .line 7
     invoke-virtual {v3, v4, v5}, Lcom/commsource/studio/s;->c(Lcom/commsource/easyeditor/utils/opengl/f;Ljava/lang/String;)Lcom/commsource/easyeditor/utils/opengl/f;
 
     move-result-object v3
 
-    .line 8
     invoke-virtual {v2, v3}, Lcom/commsource/editengine/d;->x(Lcom/commsource/easyeditor/utils/opengl/f;)V
 
-    .line 9
     iget-object v4, p0, Lcom/commsource/studio/doodle/DoodleFragment$prepare$1;->this$0:Lcom/commsource/studio/doodle/DoodleFragment;
 
     invoke-virtual {v4}, Lcom/commsource/studio/sub/BaseSubTabFragment;->L()Lcom/commsource/studio/ImageStudioViewModel;
@@ -166,7 +157,6 @@
 
     invoke-virtual {v2, v4}, Lcom/commsource/editengine/d;->z(Lcom/commsource/easyeditor/utils/opengl/f;)V
 
-    .line 10
     invoke-virtual {v2}, Lcom/commsource/editengine/d;->k()Lcom/commsource/editengine/b;
 
     move-result-object v4
@@ -183,7 +173,6 @@
 
     invoke-virtual {v2, v4}, Lcom/commsource/editengine/d;->A(Lcom/commsource/easyeditor/utils/opengl/f;)V
 
-    .line 11
     iget-object v4, p0, Lcom/commsource/studio/doodle/DoodleFragment$prepare$1;->this$0:Lcom/commsource/studio/doodle/DoodleFragment;
 
     invoke-static {v4}, Lcom/commsource/studio/doodle/DoodleFragment;->X(Lcom/commsource/studio/doodle/DoodleFragment;)Lcom/commsource/studio/processor/DoodleProcessor;
@@ -194,13 +183,10 @@
 
     const/4 v5, 0x1
 
-    .line 12
     invoke-virtual {v4, v5}, Lcom/commsource/studio/processor/DoodleProcessor;->p0(Z)V
 
-    .line 13
     invoke-virtual {v4, v3}, Lcom/commsource/studio/processor/BaseEffectProcessor;->H(Lcom/commsource/easyeditor/utils/opengl/f;)V
 
-    .line 14
     invoke-virtual {v2}, Lcom/commsource/editengine/d;->q()Lcom/commsource/easyeditor/utils/opengl/f;
 
     move-result-object v3
@@ -212,7 +198,6 @@
     :cond_1
     invoke-virtual {v4, v3}, Lcom/commsource/studio/processor/BaseEffectProcessor;->B(Lcom/commsource/easyeditor/utils/opengl/f;)V
 
-    .line 15
     invoke-virtual {v2}, Lcom/commsource/editengine/d;->k()Lcom/commsource/editengine/b;
 
     move-result-object v3
@@ -223,7 +208,6 @@
 
     invoke-virtual {v4, v3}, Lcom/commsource/studio/processor/BaseEffectProcessor;->D(Lcom/commsource/studio/s;)V
 
-    .line 16
     invoke-virtual {v2}, Lcom/commsource/editengine/d;->k()Lcom/commsource/editengine/b;
 
     move-result-object v3
@@ -234,14 +218,12 @@
 
     invoke-virtual {v4, v3}, Lcom/commsource/studio/processor/BaseEffectProcessor;->C(Lcom/commsource/easyeditor/utils/opengl/c;)V
 
-    .line 17
     invoke-virtual {v2}, Lcom/commsource/editengine/d;->k()Lcom/commsource/editengine/b;
 
     move-result-object v3
 
     invoke-virtual {v3, v4}, Lcom/commsource/editengine/b;->a(Lcom/commsource/editengine/a;)V
 
-    .line 18
     iget-object v3, p0, Lcom/commsource/studio/doodle/DoodleFragment$prepare$1;->this$0:Lcom/commsource/studio/doodle/DoodleFragment;
 
     invoke-virtual {v3}, Lcom/commsource/studio/sub/BaseSubTabFragment;->L()Lcom/commsource/studio/ImageStudioViewModel;
@@ -254,21 +236,17 @@
 
     invoke-virtual {v4, v3}, Lcom/commsource/studio/processor/DoodleProcessor;->k0(Landroid/graphics/Bitmap;)V
 
-    .line 19
     invoke-virtual {v4}, Lcom/commsource/studio/processor/DoodleProcessor;->l0()V
 
-    .line 20
     :cond_2
     invoke-virtual {v1, v2}, Lcom/commsource/studio/doodle/DoodleFragment;->G0(Lcom/commsource/editengine/d;)V
 
-    .line 21
     new-instance v1, Lcom/commsource/studio/doodle/DoodleFragment$prepare$1$b;
 
     invoke-direct {v1, p0}, Lcom/commsource/studio/doodle/DoodleFragment$prepare$1$b;-><init>(Lcom/commsource/studio/doodle/DoodleFragment$prepare$1;)V
 
     invoke-static {v1}, Lcom/commsource/util/g2;->k(Ljava/lang/Runnable;)V
 
-    .line 22
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

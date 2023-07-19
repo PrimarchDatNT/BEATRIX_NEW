@@ -74,23 +74,18 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Lcom/google/common/cache/LocalCache$d;-><init>()V
 
-    .line 2
     invoke-static {}, Lcom/google/common/cache/LocalCache;->R()Lcom/google/common/cache/LocalCache$s;
 
     move-result-object v0
 
     iput-object v0, p0, Lcom/google/common/cache/LocalCache$o;->d:Lcom/google/common/cache/LocalCache$s;
 
-    .line 3
     iput-object p1, p0, Lcom/google/common/cache/LocalCache$o;->a:Ljava/lang/Object;
 
-    .line 4
     iput p2, p0, Lcom/google/common/cache/LocalCache$o;->b:I
 
-    .line 5
     iput-object p3, p0, Lcom/google/common/cache/LocalCache$o;->c:Lcom/google/common/cache/j;
 
     return-void
@@ -101,7 +96,6 @@
 .method public getHash()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lcom/google/common/cache/LocalCache$o;->b:I
 
     return v0
@@ -115,7 +109,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/cache/LocalCache$o;->a:Ljava/lang/Object;
 
     return-object v0
@@ -131,7 +124,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/cache/LocalCache$o;->c:Lcom/google/common/cache/j;
 
     return-object v0
@@ -147,7 +139,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/cache/LocalCache$o;->d:Lcom/google/common/cache/LocalCache$s;
 
     return-object v0
@@ -163,7 +154,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/google/common/cache/LocalCache$o;->d:Lcom/google/common/cache/LocalCache$s;
 
     return-void

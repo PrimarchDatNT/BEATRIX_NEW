@@ -7,7 +7,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -16,7 +15,6 @@
 .method public static parseSeconds(Ljava/lang/String;I)I
     .locals 3
 
-    .line 1
     :try_start_0
     invoke-static {p0}, Ljava/lang/Long;->parseLong(Ljava/lang/String;)J
 
@@ -55,7 +53,6 @@
 .method public static skipUntil(Ljava/lang/String;ILjava/lang/String;)I
     .locals 2
 
-    .line 1
     :goto_0
     invoke-virtual {p0}, Ljava/lang/String;->length()I
 
@@ -63,7 +60,6 @@
 
     if-ge p1, v0, :cond_1
 
-    .line 2
     invoke-virtual {p0, p1}, Ljava/lang/String;->charAt(I)C
 
     move-result v0
@@ -91,7 +87,6 @@
 .method public static skipWhitespace(Ljava/lang/String;I)I
     .locals 2
 
-    .line 1
     :goto_0
     invoke-virtual {p0}, Ljava/lang/String;->length()I
 
@@ -99,7 +94,6 @@
 
     if-ge p1, v0, :cond_1
 
-    .line 2
     invoke-virtual {p0, p1}, Ljava/lang/String;->charAt(I)C
 
     move-result v0

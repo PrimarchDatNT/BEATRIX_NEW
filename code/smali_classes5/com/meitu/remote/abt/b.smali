@@ -74,14 +74,12 @@
 
     const-string v5, "variantId"
 
-    .line 1
     filled-new-array {v1, v2, v3, v4, v5}, [Ljava/lang/String;
 
     move-result-object v1
 
     sput-object v1, Lcom/meitu/remote/abt/b;->m:[Ljava/lang/String;
 
-    .line 2
     new-instance v1, Ljava/text/SimpleDateFormat;
 
     sget-object v2, Ljava/util/Locale;->US:Ljava/util/Locale;
@@ -102,25 +100,18 @@
     .annotation build Landroidx/annotation/VisibleForTesting;
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/meitu/remote/abt/b;->a:Ljava/lang/String;
 
-    .line 3
     iput-object p2, p0, Lcom/meitu/remote/abt/b;->b:Ljava/lang/String;
 
-    .line 4
     iput-object p3, p0, Lcom/meitu/remote/abt/b;->c:Ljava/lang/String;
 
-    .line 5
     iput-object p4, p0, Lcom/meitu/remote/abt/b;->d:Ljava/util/Date;
 
-    .line 6
     iput-wide p5, p0, Lcom/meitu/remote/abt/b;->e:J
 
-    .line 7
     iput-wide p7, p0, Lcom/meitu/remote/abt/b;->f:J
 
     return-void
@@ -151,16 +142,13 @@
 
     invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p0}, Lcom/meitu/remote/abt/b;->i(Ljava/util/Map;)V
 
-    .line 2
     :try_start_0
     sget-object v2, Lcom/meitu/remote/abt/b;->n:Ljava/text/DateFormat;
 
     const-string v3, "experimentStartTime"
 
-    .line 3
     invoke-interface {p0, v3}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v3
@@ -173,7 +161,6 @@
 
     const-string v2, "triggerTimeoutMillis"
 
-    .line 4
     invoke-interface {p0, v2}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v2
@@ -186,7 +173,6 @@
 
     const-string v2, "timeToLiveMillis"
 
-    .line 5
     invoke-interface {p0, v2}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v2
@@ -197,12 +183,10 @@
 
     move-result-wide v11
 
-    .line 6
     new-instance v2, Lcom/meitu/remote/abt/b;
 
     const-string v3, "experimentId"
 
-    .line 7
     invoke-interface {p0, v3}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v3
@@ -213,7 +197,6 @@
 
     const-string v3, "variantId"
 
-    .line 8
     invoke-interface {p0, v3}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v3
@@ -222,14 +205,12 @@
 
     check-cast v6, Ljava/lang/String;
 
-    .line 9
     invoke-interface {p0, v0}, Ljava/util/Map;->containsKey(Ljava/lang/Object;)Z
 
     move-result v3
 
     if-eqz v3, :cond_0
 
-    .line 10
     invoke-interface {p0, v0}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p0
@@ -251,7 +232,6 @@
     .catch Ljava/text/ParseException; {:try_start_0 .. :try_end_0} :catch_1
     .catch Ljava/lang/NumberFormatException; {:try_start_0 .. :try_end_0} :catch_0
 
-    .line 11
     invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v2
@@ -259,7 +239,6 @@
     :catch_0
     move-exception p0
 
-    .line 12
     new-instance v0, Lcom/meitu/remote/abt/AbtException;
 
     const-string v2, "Could not process experiment: one of the durations could not be converted into a long."
@@ -273,7 +252,6 @@
     :catch_1
     move-exception p0
 
-    .line 13
     new-instance v0, Lcom/meitu/remote/abt/AbtException;
 
     const-string v2, "Could not process experiment: parsing experiment start time failed."
@@ -307,12 +285,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/util/ArrayList;
 
     invoke-direct {v1}, Ljava/util/ArrayList;-><init>()V
 
-    .line 2
     sget-object v2, Lcom/meitu/remote/abt/b;->m:[Ljava/lang/String;
 
     array-length v3, v2
@@ -326,14 +302,12 @@
 
     aget-object v6, v2, v5
 
-    .line 3
     invoke-interface {p0, v6}, Ljava/util/Map;->containsKey(Ljava/lang/Object;)Z
 
     move-result v7
 
     if-nez v7, :cond_0
 
-    .line 4
     invoke-interface {v1, v6}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
     :cond_0
@@ -341,7 +315,6 @@
 
     goto :goto_0
 
-    .line 5
     :cond_1
     invoke-interface {v1}, Ljava/util/List;->isEmpty()Z
 
@@ -349,12 +322,10 @@
 
     if-eqz p0, :cond_2
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 7
     :cond_2
     new-instance p0, Lcom/meitu/remote/abt/AbtException;
 
@@ -366,7 +337,6 @@
 
     const-string v1, "The following keys are missing from the experiment info map: %s"
 
-    .line 8
     invoke-static {v1, v2}, Ljava/lang/String;->format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object v1
@@ -387,7 +357,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/remote/abt/b;->a:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -402,7 +371,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/remote/abt/b;->d:Ljava/util/Date;
 
     invoke-virtual {v1}, Ljava/util/Date;->getTime()J
@@ -421,7 +389,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/remote/abt/b;->f:J
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -436,7 +403,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/remote/abt/b;->c:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -451,7 +417,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/remote/abt/b;->e:J
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -466,7 +431,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/remote/abt/b;->b:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -493,48 +457,40 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/util/HashMap;
 
     invoke-direct {v1}, Ljava/util/HashMap;-><init>()V
 
-    .line 2
     iget-object v2, p0, Lcom/meitu/remote/abt/b;->a:Ljava/lang/String;
 
     const-string v3, "experimentId"
 
     invoke-interface {v1, v3, v2}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 3
     iget-object v2, p0, Lcom/meitu/remote/abt/b;->b:Ljava/lang/String;
 
     const-string v3, "variantId"
 
     invoke-interface {v1, v3, v2}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 4
     iget-object v2, p0, Lcom/meitu/remote/abt/b;->c:Ljava/lang/String;
 
     const-string v3, "triggerEvent"
 
     invoke-interface {v1, v3, v2}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 5
     sget-object v2, Lcom/meitu/remote/abt/b;->n:Ljava/text/DateFormat;
 
     iget-object v3, p0, Lcom/meitu/remote/abt/b;->d:Ljava/util/Date;
 
-    .line 6
     invoke-virtual {v2, v3}, Ljava/text/DateFormat;->format(Ljava/util/Date;)Ljava/lang/String;
 
     move-result-object v2
 
     const-string v3, "experimentStartTime"
 
-    .line 7
     invoke-interface {v1, v3, v2}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 8
     iget-wide v2, p0, Lcom/meitu/remote/abt/b;->e:J
 
     invoke-static {v2, v3}, Ljava/lang/Long;->toString(J)Ljava/lang/String;
@@ -545,7 +501,6 @@
 
     invoke-interface {v1, v3, v2}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 9
     iget-wide v2, p0, Lcom/meitu/remote/abt/b;->f:J
 
     invoke-static {v2, v3}, Ljava/lang/Long;->toString(J)Ljava/lang/String;
@@ -556,7 +511,6 @@
 
     invoke-interface {v1, v3, v2}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 10
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1

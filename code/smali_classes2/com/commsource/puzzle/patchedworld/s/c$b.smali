@@ -26,15 +26,12 @@
 .method public constructor <init>(Lcom/commsource/puzzle/patchedworld/s/c;Landroid/view/View;)V
     .locals 1
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/puzzle/patchedworld/s/c$b;->c:Lcom/commsource/puzzle/patchedworld/s/c;
 
-    .line 2
     invoke-direct {p0, p2}, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;-><init>(Landroid/view/View;)V
 
     sget v0, Lcom/res/provider/ResID;->ifv_icon:I
 
-    .line 3
     invoke-virtual {p2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v0
@@ -45,7 +42,6 @@
 
     sget v0, Lcom/res/provider/ResID;->tv_name:I
 
-    .line 4
     invoke-virtual {p2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v0
@@ -54,7 +50,6 @@
 
     iput-object v0, p0, Lcom/commsource/puzzle/patchedworld/s/c$b;->b:Lcom/commsource/widget/AutoFitTextView;
 
-    .line 5
     new-instance v0, Lcom/commsource/puzzle/patchedworld/s/c$b$a;
 
     invoke-direct {v0, p0, p1}, Lcom/commsource/puzzle/patchedworld/s/c$b$a;-><init>(Lcom/commsource/puzzle/patchedworld/s/c$b;Lcom/commsource/puzzle/patchedworld/s/c;)V
@@ -71,7 +66,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/puzzle/patchedworld/s/c$b;->a:Lcom/commsource/widget/IconFrontView;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -86,7 +80,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/puzzle/patchedworld/s/c$b;->b:Lcom/commsource/widget/AutoFitTextView;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

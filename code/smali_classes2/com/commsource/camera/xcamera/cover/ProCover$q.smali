@@ -56,7 +56,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/ProCover$q;->a:Lcom/commsource/camera/xcamera/cover/ProCover;
 
     invoke-virtual {p1}, Lcom/commsource/camera/xcamera/cover/ProCover;->V()Lcom/commsource/camera/xcamera/cover/CameraCaptureViewModel;
@@ -81,7 +80,6 @@
 
     if-nez p1, :cond_0
 
-    .line 2
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/ProCover$q;->a:Lcom/commsource/camera/xcamera/cover/ProCover;
 
     invoke-virtual {p1}, Lcom/commsource/camera/xcamera/cover/AbsLazyCover;->A()Landroidx/databinding/ViewDataBinding;
@@ -104,7 +102,6 @@
 
     invoke-virtual {p1, v1}, Lcom/commsource/widget/ProView;->M(Ljava/lang/Integer;)V
 
-    .line 3
     :cond_0
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/ProCover$q;->a:Lcom/commsource/camera/xcamera/cover/ProCover;
 
@@ -124,7 +121,6 @@
 
     invoke-virtual {p1, v1}, Lcom/commsource/widget/ProView;->setHasShowProBanner(Z)V
 
-    .line 4
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -138,7 +134,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Lcom/commsource/camera/xcamera/n;
 
     invoke-virtual {p0, p1}, Lcom/commsource/camera/xcamera/cover/ProCover$q;->a(Lcom/commsource/camera/xcamera/n;)V

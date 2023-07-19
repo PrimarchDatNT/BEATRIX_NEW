@@ -44,10 +44,8 @@
 
     sget v0, Lcom/res/provider/ResLAYOUT;->item_new_makeup_group:I
 
-    .line 1
     invoke-direct {p0, p1, p2, v0}, Lcom/commsource/widget/h1/f;-><init>(Landroid/content/Context;Landroid/view/ViewGroup;I)V
 
-    .line 2
     iget-object p1, p0, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->itemView:Landroid/view/View;
 
     invoke-static {p1}, Landroidx/databinding/DataBindingUtil;->bind(Landroid/view/View;)Landroidx/databinding/ViewDataBinding;
@@ -100,10 +98,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0, p1, p2, p3}, Lcom/commsource/widget/h1/f;->k(ILcom/commsource/widget/h1/d;Ljava/util/List;)V
 
-    .line 2
     invoke-virtual {p0}, Lcom/commsource/widget/h1/f;->b()Lcom/commsource/widget/h1/e;
 
     move-result-object p1
@@ -114,7 +110,6 @@
 
     if-eqz p2, :cond_b
 
-    .line 3
     invoke-virtual {p2}, Lcom/commsource/widget/h1/d;->b()Ljava/lang/Object;
 
     move-result-object v1
@@ -123,7 +118,6 @@
 
     if-eqz v1, :cond_b
 
-    .line 4
     invoke-virtual {v1}, Lcom/commsource/repository/child/makeup/e;->d()I
 
     move-result v2
@@ -132,7 +126,6 @@
 
     move-result-object v2
 
-    .line 5
     invoke-virtual {v1}, Lcom/commsource/repository/child/makeup/e;->b()I
 
     move-result v1
@@ -141,28 +134,24 @@
 
     move-result-object v1
 
-    .line 6
     iget-object v3, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/e;->p:Lcom/commsource/beautyplus/f0/ih;
 
     iget-object v3, v3, Lcom/commsource/beautyplus/f0/ih;->c:Lcom/commsource/widget/AutoFitTextView;
 
     invoke-virtual {v3, v2}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 7
     iget-object v2, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/e;->p:Lcom/commsource/beautyplus/f0/ih;
 
     iget-object v2, v2, Lcom/commsource/beautyplus/f0/ih;->a:Lcom/commsource/widget/IconFrontView;
 
     invoke-virtual {v2, v1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 8
     invoke-virtual {p2}, Lcom/commsource/widget/h1/d;->g()Z
 
     move-result v1
 
     if-eqz v1, :cond_0
 
-    .line 9
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/e;->p:Lcom/commsource/beautyplus/f0/ih;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/ih;->a:Lcom/commsource/widget/IconFrontView;
@@ -175,7 +164,6 @@
 
     goto :goto_2
 
-    .line 10
     :cond_0
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/e;->p:Lcom/commsource/beautyplus/f0/ih;
 
@@ -201,7 +189,6 @@
     :goto_0
     invoke-virtual {v1, v2}, Landroid/widget/TextView;->setTextColor(I)V
 
-    .line 11
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/e;->p:Lcom/commsource/beautyplus/f0/ih;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/ih;->a:Lcom/commsource/widget/IconFrontView;
@@ -229,7 +216,6 @@
     :goto_2
     if-eqz p3, :cond_b
 
-    .line 12
     invoke-interface {p3}, Ljava/util/List;->isEmpty()Z
 
     move-result v1
@@ -246,7 +232,6 @@
     :goto_3
     if-eqz p3, :cond_b
 
-    .line 13
     invoke-interface {p3}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
     move-result-object p3
@@ -263,7 +248,6 @@
 
     move-result-object v1
 
-    .line 14
     sget-object v2, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/b;->E:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/b$a;
 
     invoke-virtual {v2}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/b$a;->b()I
@@ -280,14 +264,12 @@
 
     if-eqz v1, :cond_4
 
-    .line 15
     invoke-virtual {p2}, Lcom/commsource/widget/h1/d;->g()Z
 
     move-result v1
 
     if-eqz v1, :cond_5
 
-    .line 16
     iget-object p2, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/e;->p:Lcom/commsource/beautyplus/f0/ih;
 
     iget-object p2, p2, Lcom/commsource/beautyplus/f0/ih;->a:Lcom/commsource/widget/IconFrontView;
@@ -298,7 +280,6 @@
 
     invoke-virtual {p2, p3}, Landroid/widget/TextView;->setTextColor(I)V
 
-    .line 17
     iget-object p2, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/e;->p:Lcom/commsource/beautyplus/f0/ih;
 
     iget-object p2, p2, Lcom/commsource/beautyplus/f0/ih;->c:Lcom/commsource/widget/AutoFitTextView;
@@ -309,12 +290,10 @@
 
     invoke-virtual {p2, p1}, Landroid/widget/TextView;->setTextColor(I)V
 
-    .line 18
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 19
     :cond_5
     invoke-virtual {p1}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/b;->i0()Z
 
@@ -322,7 +301,6 @@
 
     if-eqz v1, :cond_8
 
-    .line 20
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/e;->p:Lcom/commsource/beautyplus/f0/ih;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/ih;->a:Lcom/commsource/widget/IconFrontView;
@@ -347,7 +325,6 @@
     :goto_5
     invoke-virtual {v1, v2}, Landroid/widget/TextView;->setTextColor(I)V
 
-    .line 21
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/e;->p:Lcom/commsource/beautyplus/f0/ih;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/ih;->c:Lcom/commsource/widget/AutoFitTextView;
@@ -374,7 +351,6 @@
 
     goto :goto_4
 
-    .line 22
     :cond_8
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/e;->p:Lcom/commsource/beautyplus/f0/ih;
 
@@ -400,7 +376,6 @@
     :goto_7
     invoke-virtual {v1, v2}, Landroid/widget/TextView;->setTextColor(I)V
 
-    .line 23
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/e;->p:Lcom/commsource/beautyplus/f0/ih;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/f0/ih;->c:Lcom/commsource/widget/AutoFitTextView;
@@ -427,13 +402,11 @@
 
     goto/16 :goto_4
 
-    .line 24
     :cond_b
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 25
     :cond_c
     new-instance p1, Lcotlin/TypeCastException;
 
@@ -455,7 +428,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/e;->p:Lcom/commsource/beautyplus/f0/ih;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

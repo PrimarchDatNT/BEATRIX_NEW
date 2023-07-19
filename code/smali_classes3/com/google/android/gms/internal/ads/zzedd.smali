@@ -27,7 +27,6 @@
 .method static constructor <clinit>()V
     .locals 7
 
-    .line 1
     new-instance v0, Lcom/google/android/gms/internal/ads/zzedd;
 
     const-string v1, "UNCOMPRESSED"
@@ -38,7 +37,6 @@
 
     sput-object v0, Lcom/google/android/gms/internal/ads/zzedd;->zzhxv:Lcom/google/android/gms/internal/ads/zzedd;
 
-    .line 2
     new-instance v1, Lcom/google/android/gms/internal/ads/zzedd;
 
     const-string v3, "COMPRESSED"
@@ -49,7 +47,6 @@
 
     sput-object v1, Lcom/google/android/gms/internal/ads/zzedd;->zzhxw:Lcom/google/android/gms/internal/ads/zzedd;
 
-    .line 3
     new-instance v3, Lcom/google/android/gms/internal/ads/zzedd;
 
     const-string v5, "DO_NOT_USE_CRUNCHY_UNCOMPRESSED"
@@ -70,7 +67,6 @@
 
     aput-object v3, v5, v6
 
-    .line 4
     sput-object v5, Lcom/google/android/gms/internal/ads/zzedd;->zzhxy:[Lcom/google/android/gms/internal/ads/zzedd;
 
     return-void
@@ -84,7 +80,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
     return-void
@@ -93,7 +88,6 @@
 .method public static values()[Lcom/google/android/gms/internal/ads/zzedd;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/google/android/gms/internal/ads/zzedd;->zzhxy:[Lcom/google/android/gms/internal/ads/zzedd;
 
     invoke-virtual {v0}, [Lcom/google/android/gms/internal/ads/zzedd;->clone()Ljava/lang/Object;

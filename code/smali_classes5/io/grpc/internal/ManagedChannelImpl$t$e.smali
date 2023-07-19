@@ -32,15 +32,12 @@
 .method constructor <init>(Lio/grpc/internal/ManagedChannelImpl$t;Ljava/lang/String;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lio/grpc/internal/ManagedChannelImpl$t$e;->U:Lio/grpc/internal/ManagedChannelImpl$t;
 
-    .line 2
     invoke-direct {p0, p2}, Lio/grpc/internal/d;-><init>(Ljava/lang/String;)V
 
     const/4 p1, -0x1
 
-    .line 3
     iput p1, p0, Lio/grpc/internal/ManagedChannelImpl$t$e;->T:I
 
     return-void
@@ -51,7 +48,6 @@
 .method protected K()Lio/grpc/internal/w;
     .locals 1
 
-    .line 1
     new-instance v0, Ljava/lang/UnsupportedOperationException;
 
     invoke-direct {v0}, Ljava/lang/UnsupportedOperationException;-><init>()V
@@ -62,7 +58,6 @@
 .method public Y()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lio/grpc/internal/ManagedChannelImpl$t$e;->T:I
 
     return v0
@@ -71,14 +66,12 @@
 .method public a()Lio/grpc/w0;
     .locals 9
 
-    .line 1
     new-instance v8, Lio/grpc/internal/ManagedChannelImpl;
 
     iget-object v0, p0, Lio/grpc/internal/ManagedChannelImpl$t$e;->U:Lio/grpc/internal/ManagedChannelImpl$t;
 
     iget-object v0, v0, Lio/grpc/internal/ManagedChannelImpl$t;->b:Lio/grpc/internal/ManagedChannelImpl;
 
-    .line 2
     invoke-static {v0}, Lio/grpc/internal/ManagedChannelImpl;->G(Lio/grpc/internal/ManagedChannelImpl;)Lio/grpc/internal/w;
 
     move-result-object v2
@@ -87,7 +80,6 @@
 
     iget-object v0, v0, Lio/grpc/internal/ManagedChannelImpl$t;->b:Lio/grpc/internal/ManagedChannelImpl;
 
-    .line 3
     invoke-static {v0}, Lio/grpc/internal/ManagedChannelImpl;->r0(Lio/grpc/internal/ManagedChannelImpl;)Lio/grpc/internal/p$a;
 
     move-result-object v3
@@ -96,7 +88,6 @@
 
     iget-object v0, v0, Lio/grpc/internal/ManagedChannelImpl$t;->b:Lio/grpc/internal/ManagedChannelImpl;
 
-    .line 4
     invoke-static {v0}, Lio/grpc/internal/ManagedChannelImpl;->k0(Lio/grpc/internal/ManagedChannelImpl;)Lio/grpc/internal/t1;
 
     move-result-object v4
@@ -105,12 +96,10 @@
 
     iget-object v0, v0, Lio/grpc/internal/ManagedChannelImpl$t;->b:Lio/grpc/internal/ManagedChannelImpl;
 
-    .line 5
     invoke-static {v0}, Lio/grpc/internal/ManagedChannelImpl;->s0(Lio/grpc/internal/ManagedChannelImpl;)Lcom/google/common/base/z;
 
     move-result-object v5
 
-    .line 6
     invoke-static {}, Ljava/util/Collections;->emptyList()Ljava/util/List;
 
     move-result-object v6
@@ -119,7 +108,6 @@
 
     iget-object v0, v0, Lio/grpc/internal/ManagedChannelImpl$t;->b:Lio/grpc/internal/ManagedChannelImpl;
 
-    .line 7
     invoke-static {v0}, Lio/grpc/internal/ManagedChannelImpl;->i0(Lio/grpc/internal/ManagedChannelImpl;)Lio/grpc/internal/d3;
 
     move-result-object v7

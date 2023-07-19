@@ -65,7 +65,6 @@
 
     invoke-static {p2, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-direct {p0, p1, p2, p3}, Lcom/commsource/widget/h1/f;-><init>(Landroid/content/Context;Landroid/view/ViewGroup;I)V
 
     return-void
@@ -76,7 +75,6 @@
 .method protected final v()I
     .locals 2
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/widget/h1/f;->b()Lcom/commsource/widget/h1/e;
 
     move-result-object v0
@@ -94,7 +92,6 @@
     :cond_0
     const/4 v0, 0x3
 
-    .line 2
     invoke-static {v0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v0
@@ -123,7 +120,6 @@
 .method protected final x()I
     .locals 2
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/a;->v()I
 
     move-result v0
@@ -134,7 +130,6 @@
 
     sget v0, Lcom/res/provider/ResCOLOR;->white:I
 
-    .line 2
     invoke-static {v0}, Lcom/commsource/util/u1;->b(I)I
 
     move-result v0
@@ -144,7 +139,6 @@
     :cond_0
     sget v0, Lcom/res/provider/ResCOLOR;->Gray_A:I
 
-    .line 3
     invoke-static {v0}, Lcom/commsource/util/u1;->b(I)I
 
     move-result v0

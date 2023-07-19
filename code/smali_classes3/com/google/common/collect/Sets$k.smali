@@ -49,10 +49,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/util/AbstractSet;-><init>()V
 
-    .line 2
     invoke-interface {p1}, Ljava/util/Set;->size()I
 
     move-result v0
@@ -75,10 +73,8 @@
 
     const-string v2, "Too many elements to create power set: %s > 30"
 
-    .line 3
     invoke-static {v0, v2, v1}, Lcom/google/common/base/t;->k(ZLjava/lang/String;I)V
 
-    .line 4
     invoke-static {p1}, Lcom/google/common/collect/Maps;->Q(Ljava/util/Collection;)Lcom/google/common/collect/ImmutableMap;
 
     move-result-object p1
@@ -97,15 +93,12 @@
         .end annotation
     .end param
 
-    .line 1
     instance-of v0, p1, Ljava/util/Set;
 
     if-eqz v0, :cond_0
 
-    .line 2
     check-cast p1, Ljava/util/Set;
 
-    .line 3
     iget-object v0, p0, Lcom/google/common/collect/Sets$k;->a:Lcom/google/common/collect/ImmutableMap;
 
     invoke-virtual {v0}, Lcom/google/common/collect/ImmutableMap;->keySet()Lcom/google/common/collect/ImmutableSet;
@@ -131,15 +124,12 @@
         .end annotation
     .end param
 
-    .line 1
     instance-of v0, p1, Lcom/google/common/collect/Sets$k;
 
     if-eqz v0, :cond_0
 
-    .line 2
     check-cast p1, Lcom/google/common/collect/Sets$k;
 
-    .line 3
     iget-object v0, p0, Lcom/google/common/collect/Sets$k;->a:Lcom/google/common/collect/ImmutableMap;
 
     iget-object p1, p1, Lcom/google/common/collect/Sets$k;->a:Lcom/google/common/collect/ImmutableMap;
@@ -150,7 +140,6 @@
 
     return p1
 
-    .line 4
     :cond_0
     invoke-super {p0, p1}, Ljava/util/AbstractSet;->equals(Ljava/lang/Object;)Z
 
@@ -162,7 +151,6 @@
 .method public hashCode()I
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/Sets$k;->a:Lcom/google/common/collect/ImmutableMap;
 
     invoke-virtual {v0}, Lcom/google/common/collect/ImmutableMap;->keySet()Lcom/google/common/collect/ImmutableSet;
@@ -205,7 +193,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/google/common/collect/Sets$k$a;
 
     invoke-virtual {p0}, Lcom/google/common/collect/Sets$k;->size()I
@@ -220,7 +207,6 @@
 .method public size()I
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/Sets$k;->a:Lcom/google/common/collect/ImmutableMap;
 
     invoke-interface {v0}, Ljava/util/Map;->size()I
@@ -237,7 +223,6 @@
 .method public toString()Ljava/lang/String;
     .locals 2
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V

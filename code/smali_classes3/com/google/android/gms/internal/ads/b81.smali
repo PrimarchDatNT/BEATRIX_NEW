@@ -401,14 +401,12 @@
 .method public constructor <init>()V
     .locals 4
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/16 v0, 0xc
 
     new-array v0, v0, [Lcom/google/android/gms/internal/ads/da1;
 
-    .line 2
     new-instance v1, Lcom/google/android/gms/internal/ads/c91;
 
     const/4 v2, 0x0

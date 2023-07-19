@@ -16,10 +16,8 @@
 .method public constructor <init>(Landroid/content/Context;)V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Lcom/google/firebase/appindexing/internal/a0;-><init>()V
 
-    .line 2
     const-class v0, Landroid/app/slice/SliceManager;
 
     invoke-virtual {p1, v0}, Landroid/content/Context;->getSystemService(Ljava/lang/Class;)Ljava/lang/Object;
@@ -38,7 +36,6 @@
 .method public final a(Ljava/lang/String;Landroid/net/Uri;)V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/appindexing/internal/b;->a:Landroid/app/slice/SliceManager;
 
     invoke-virtual {v0, p1, p2}, Landroid/app/slice/SliceManager;->grantSlicePermission(Ljava/lang/String;Landroid/net/Uri;)V

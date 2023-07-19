@@ -18,10 +18,8 @@
 
     const-string v1, "unlock"
 
-    .line 1
     invoke-direct {p0, v0, v1, p1}, Ln/a/b/c/l;-><init>(ILjava/lang/String;Ljava/lang/Class;)V
 
-    .line 2
     iput-object p1, p0, Ln/a/b/c/o;->m:Ljava/lang/Class;
 
     return-void
@@ -30,7 +28,6 @@
 .method constructor <init>(Ljava/lang/String;)V
     .locals 0
 
-    .line 3
     invoke-direct {p0, p1}, Ln/a/b/c/l;-><init>(Ljava/lang/String;)V
 
     return-void
@@ -41,7 +38,6 @@
 .method public k()Ljava/lang/Class;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Ln/a/b/c/o;->m:Ljava/lang/Class;
 
     if-nez v0, :cond_0
@@ -54,7 +50,6 @@
 
     iput-object v0, p0, Ln/a/b/c/o;->m:Ljava/lang/Class;
 
-    .line 2
     :cond_0
     iget-object v0, p0, Ln/a/b/c/o;->m:Ljava/lang/Class;
 
@@ -64,7 +59,6 @@
 .method protected q(Ln/a/b/c/n;)Ljava/lang/String;
     .locals 2
 
-    .line 1
     iget-object v0, p0, Ln/a/b/c/o;->m:Ljava/lang/Class;
 
     if-nez v0, :cond_0
@@ -77,7 +71,6 @@
 
     iput-object v0, p0, Ln/a/b/c/o;->m:Ljava/lang/Class;
 
-    .line 2
     :cond_0
     new-instance v0, Ljava/lang/StringBuilder;
 

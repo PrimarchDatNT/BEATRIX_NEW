@@ -22,7 +22,6 @@
 .method public constructor <init>(Landroid/content/Context;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/tencent/bugly/BuglyStrategy;-><init>()V
 
     return-void
@@ -35,7 +34,6 @@
 
     monitor-enter p0
 
-    .line 1
     :try_start_0
     iget v0, p0, Lcom/tencent/bugly/BuglyStrategy;->a:I
     :try_end_0
@@ -58,7 +56,6 @@
 
     monitor-enter p0
 
-    .line 1
     :try_start_0
     iget-boolean v0, p0, Lcom/tencent/bugly/BuglyStrategy;->b:Z
     :try_end_0
@@ -79,7 +76,6 @@
 .method public bridge synthetic getCrashHandleCallback()Lcom/tencent/bugly/BuglyStrategy$a;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/tencent/bugly/crashreport/CrashReport$UserStrategy;->getCrashHandleCallback()Lcom/tencent/bugly/crashreport/CrashReport$CrashHandleCallback;
 
     move-result-object v0
@@ -92,7 +88,6 @@
 
     monitor-enter p0
 
-    .line 2
     :try_start_0
     iget-object v0, p0, Lcom/tencent/bugly/crashreport/CrashReport$UserStrategy;->c:Lcom/tencent/bugly/crashreport/CrashReport$CrashHandleCallback;
     :try_end_0
@@ -115,13 +110,11 @@
 
     monitor-enter p0
 
-    .line 1
     :try_start_0
     iput p1, p0, Lcom/tencent/bugly/BuglyStrategy;->a:I
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 2
     monitor-exit p0
 
     return-void
@@ -139,13 +132,11 @@
 
     monitor-enter p0
 
-    .line 1
     :try_start_0
     iput-boolean p1, p0, Lcom/tencent/bugly/BuglyStrategy;->b:Z
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 2
     monitor-exit p0
 
     return-void
@@ -163,13 +154,11 @@
 
     monitor-enter p0
 
-    .line 1
     :try_start_0
     iput-object p1, p0, Lcom/tencent/bugly/crashreport/CrashReport$UserStrategy;->c:Lcom/tencent/bugly/crashreport/CrashReport$CrashHandleCallback;
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 2
     monitor-exit p0
 
     return-void

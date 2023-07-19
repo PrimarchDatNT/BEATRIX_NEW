@@ -28,15 +28,12 @@
 .method constructor <init>(Lio/grpc/internal/MessageDeframer$b;Lio/grpc/internal/l$h;Lio/grpc/internal/MessageDeframer;)V
     .locals 2
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     new-instance v0, Lio/grpc/internal/x2;
 
     const-string v1, "listener"
 
-    .line 3
     invoke-static {p1, v1}, Lcom/google/common/base/t;->F(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -47,17 +44,14 @@
 
     iput-object v0, p0, Lio/grpc/internal/l;->a:Lio/grpc/internal/MessageDeframer$b;
 
-    .line 4
     new-instance p1, Lio/grpc/internal/m;
 
     invoke-direct {p1, v0, p2}, Lio/grpc/internal/m;-><init>(Lio/grpc/internal/MessageDeframer$b;Lio/grpc/internal/m$d;)V
 
     iput-object p1, p0, Lio/grpc/internal/l;->b:Lio/grpc/internal/m;
 
-    .line 5
     invoke-virtual {p3, p1}, Lio/grpc/internal/MessageDeframer;->p(Lio/grpc/internal/MessageDeframer$b;)V
 
-    .line 6
     iput-object p3, p0, Lio/grpc/internal/l;->c:Lio/grpc/internal/MessageDeframer;
 
     return-void
@@ -66,7 +60,6 @@
 .method static synthetic a(Lio/grpc/internal/l;)Lio/grpc/internal/MessageDeframer;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lio/grpc/internal/l;->c:Lio/grpc/internal/MessageDeframer;
 
     return-object p0
@@ -75,7 +68,6 @@
 .method static synthetic c(Lio/grpc/internal/l;)Lio/grpc/internal/m;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lio/grpc/internal/l;->b:Lio/grpc/internal/m;
 
     return-object p0
@@ -86,7 +78,6 @@
 .method public b(I)V
     .locals 3
 
-    .line 1
     iget-object v0, p0, Lio/grpc/internal/l;->a:Lio/grpc/internal/MessageDeframer$b;
 
     new-instance v1, Lio/grpc/internal/l$g;
@@ -107,12 +98,10 @@
 .method public close()V
     .locals 4
 
-    .line 1
     iget-object v0, p0, Lio/grpc/internal/l;->c:Lio/grpc/internal/MessageDeframer;
 
     invoke-virtual {v0}, Lio/grpc/internal/MessageDeframer;->q()V
 
-    .line 2
     iget-object v0, p0, Lio/grpc/internal/l;->a:Lio/grpc/internal/MessageDeframer$b;
 
     new-instance v1, Lio/grpc/internal/l$g;
@@ -135,7 +124,6 @@
     .annotation build Lf/f/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lio/grpc/internal/l;->b:Lio/grpc/internal/m;
 
     return-object v0
@@ -144,7 +132,6 @@
 .method public f(I)V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lio/grpc/internal/l;->c:Lio/grpc/internal/MessageDeframer;
 
     invoke-virtual {v0, p1}, Lio/grpc/internal/MessageDeframer;->f(I)V
@@ -155,7 +142,6 @@
 .method public h(Lio/grpc/r;)V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lio/grpc/internal/l;->c:Lio/grpc/internal/MessageDeframer;
 
     invoke-virtual {v0, p1}, Lio/grpc/internal/MessageDeframer;->h(Lio/grpc/r;)V
@@ -166,7 +152,6 @@
 .method public i(Lio/grpc/internal/GzipInflatingBuffer;)V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lio/grpc/internal/l;->c:Lio/grpc/internal/MessageDeframer;
 
     invoke-virtual {v0, p1}, Lio/grpc/internal/MessageDeframer;->i(Lio/grpc/internal/GzipInflatingBuffer;)V
@@ -177,7 +162,6 @@
 .method public j(Lio/grpc/internal/a2;)V
     .locals 4
 
-    .line 1
     iget-object v0, p0, Lio/grpc/internal/l;->a:Lio/grpc/internal/MessageDeframer$b;
 
     new-instance v1, Lio/grpc/internal/l$f;
@@ -200,7 +184,6 @@
 .method public k()V
     .locals 4
 
-    .line 1
     iget-object v0, p0, Lio/grpc/internal/l;->a:Lio/grpc/internal/MessageDeframer$b;
 
     new-instance v1, Lio/grpc/internal/l$g;

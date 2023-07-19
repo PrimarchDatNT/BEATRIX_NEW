@@ -25,7 +25,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/meitu/core/MTFilterGLRender;-><init>()V
 
     return-void
@@ -42,14 +41,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/meitu/render/MTBlurAlongRender$BlurAlongType;->Blur_Custom:Lcom/meitu/render/MTBlurAlongRender$BlurAlongType;
 
     const/4 v2, 0x0
 
     invoke-virtual {p0, v1, v2}, Lcom/meitu/render/MTBlurAlongRender;->c(Lcom/meitu/render/MTBlurAlongRender$BlurAlongType;I)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -66,7 +63,6 @@
 
     if-ne p1, v1, :cond_0
 
-    .line 1
     iget p1, p0, Lcom/meitu/render/MTBlurAlongRender;->c:F
 
     goto :goto_0
@@ -74,7 +70,6 @@
     :cond_0
     const/4 p1, 0x0
 
-    .line 2
     :goto_0
     sget v1, Lcom/meitu/core/MTFilterType;->Filter_BlurAlong:I
 
@@ -84,7 +79,6 @@
 
     invoke-virtual {p0, v1, v3, p1, v2}, Lcom/meitu/core/MTFilterGLRender;->changeUniformValue(ILjava/lang/String;FI)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -97,13 +91,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/render/MTBlurAlongRender;->b:Lcom/meitu/render/MTBlurAlongRender$BlurAlongType;
 
-    .line 2
     iput p2, p0, Lcom/meitu/render/MTBlurAlongRender;->d:I
 
-    .line 3
     sget-object p2, Lcom/meitu/render/MTBlurAlongRender$a;->a:[I
 
     invoke-virtual {p1}, Ljava/lang/Enum;->ordinal()I
@@ -141,7 +132,6 @@
     :cond_0
     const-string p2, "glfilter/1006/drawArray2.plist"
 
-    .line 4
     invoke-static {v7, p2}, Lcom/meitu/parse/FilterDataHelper;->parserFilterData(Ljava/lang/String;Ljava/lang/String;)Lcom/meitu/parse/FilterData;
 
     move-result-object p2
@@ -153,7 +143,6 @@
     :cond_1
     const-string p2, "glfilter/1006/drawArray1.plist"
 
-    .line 5
     invoke-static {v7, p2}, Lcom/meitu/parse/FilterDataHelper;->parserFilterData(Ljava/lang/String;Ljava/lang/String;)Lcom/meitu/parse/FilterData;
 
     move-result-object p2
@@ -164,7 +153,6 @@
 
     goto :goto_0
 
-    .line 6
     :cond_2
     invoke-static {v7, v1}, Lcom/meitu/parse/FilterDataHelper;->parserFilterData(Ljava/lang/String;Ljava/lang/String;)Lcom/meitu/parse/FilterData;
 
@@ -176,7 +164,6 @@
 
     goto :goto_0
 
-    .line 7
     :cond_3
     invoke-static {v7, v1}, Lcom/meitu/parse/FilterDataHelper;->parserFilterData(Ljava/lang/String;Ljava/lang/String;)Lcom/meitu/parse/FilterData;
 
@@ -186,7 +173,6 @@
 
     const/4 v2, 0x1
 
-    .line 8
     :goto_0
     iget-object p2, p0, Lcom/meitu/render/MTBlurAlongRender;->a:Lcom/meitu/parse/FilterData;
 
@@ -196,12 +182,10 @@
 
     iput p2, p0, Lcom/meitu/render/MTBlurAlongRender;->c:F
 
-    .line 9
     iget-object p2, p0, Lcom/meitu/render/MTBlurAlongRender;->a:Lcom/meitu/parse/FilterData;
 
     invoke-virtual {p0, p2}, Lcom/meitu/core/MTFilterGLRender;->setFilterData(Lcom/meitu/parse/FilterData;)Z
 
-    .line 10
     sget-object p2, Lcom/meitu/render/MTBlurAlongRender$BlurAlongType;->Blur_Normal:Lcom/meitu/render/MTBlurAlongRender$BlurAlongType;
 
     if-eq p1, p2, :cond_4
@@ -216,7 +200,6 @@
     :cond_5
     invoke-virtual {p0, v5}, Lcom/meitu/core/MTFilterGLRender;->isNeedBlurAlongMask(Z)V
 
-    .line 11
     sget p1, Lcom/meitu/core/MTFilterType;->Filter_BlurAlong:I
 
     int-to-float p2, v2
@@ -227,7 +210,6 @@
 
     invoke-virtual {p0, p1, v2, p2, v1}, Lcom/meitu/core/MTFilterGLRender;->changeUniformValue(ILjava/lang/String;FI)V
 
-    .line 12
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

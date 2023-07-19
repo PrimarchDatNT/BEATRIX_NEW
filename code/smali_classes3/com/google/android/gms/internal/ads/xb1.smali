@@ -30,12 +30,10 @@
 .method public final call()Ljava/lang/Object;
     .locals 3
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/xb1;->a:Lcom/google/android/gms/internal/ads/rq1;
 
     iget-object v1, p0, Lcom/google/android/gms/internal/ads/xb1;->b:Lcom/google/android/gms/internal/ads/rq1;
 
-    .line 2
     new-instance v2, Lcom/google/android/gms/internal/ads/vb1;
 
     invoke-interface {v0}, Ljava/util/concurrent/Future;->get()Ljava/lang/Object;

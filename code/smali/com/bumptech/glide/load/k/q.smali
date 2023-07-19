@@ -74,13 +74,10 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/bumptech/glide/load/k/q;->a:Ljava/util/List;
 
-    .line 3
     iput-object p2, p0, Lcom/bumptech/glide/load/k/q;->b:Landroidx/core/util/Pools$Pool;
 
     return-void
@@ -100,7 +97,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/bumptech/glide/load/k/q;->a:Ljava/util/List;
 
     invoke-interface {v0}, Ljava/util/List;->iterator()Ljava/util/Iterator;
@@ -120,7 +116,6 @@
 
     check-cast v1, Lcom/bumptech/glide/load/k/n;
 
-    .line 2
     invoke-interface {v1, p1}, Lcom/bumptech/glide/load/k/n;->a(Ljava/lang/Object;)Z
 
     move-result v1
@@ -157,14 +152,12 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/bumptech/glide/load/k/q;->a:Ljava/util/List;
 
     invoke-interface {v0}, Ljava/util/List;->size()I
 
     move-result v0
 
-    .line 2
     new-instance v1, Ljava/util/ArrayList;
 
     invoke-direct {v1, v0}, Ljava/util/ArrayList;-><init>(I)V
@@ -178,7 +171,6 @@
     :goto_0
     if-ge v3, v0, :cond_1
 
-    .line 3
     iget-object v5, p0, Lcom/bumptech/glide/load/k/q;->a:Ljava/util/List;
 
     invoke-interface {v5, v3}, Ljava/util/List;->get(I)Ljava/lang/Object;
@@ -187,24 +179,20 @@
 
     check-cast v5, Lcom/bumptech/glide/load/k/n;
 
-    .line 4
     invoke-interface {v5, p1}, Lcom/bumptech/glide/load/k/n;->a(Ljava/lang/Object;)Z
 
     move-result v6
 
     if-eqz v6, :cond_0
 
-    .line 5
     invoke-interface {v5, p1, p2, p3, p4}, Lcom/bumptech/glide/load/k/n;->b(Ljava/lang/Object;IILcom/bumptech/glide/load/f;)Lcom/bumptech/glide/load/k/n$a;
 
     move-result-object v5
 
     if-eqz v5, :cond_0
 
-    .line 6
     iget-object v4, v5, Lcom/bumptech/glide/load/k/n$a;->a:Lcom/bumptech/glide/load/c;
 
-    .line 7
     iget-object v5, v5, Lcom/bumptech/glide/load/k/n$a;->c:Lcom/bumptech/glide/load/j/d;
 
     invoke-interface {v1, v5}, Ljava/util/List;->add(Ljava/lang/Object;)Z
@@ -214,7 +202,6 @@
 
     goto :goto_0
 
-    .line 8
     :cond_1
     invoke-interface {v1}, Ljava/util/List;->isEmpty()Z
 
@@ -224,7 +211,6 @@
 
     if-eqz v4, :cond_2
 
-    .line 9
     new-instance v2, Lcom/bumptech/glide/load/k/n$a;
 
     new-instance p1, Lcom/bumptech/glide/load/k/q$a;
@@ -242,7 +228,6 @@
 .method public toString()Ljava/lang/String;
     .locals 2
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V

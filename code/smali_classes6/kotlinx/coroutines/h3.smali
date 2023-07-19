@@ -29,7 +29,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     new-instance v0, Lcotlinx/coroutines/internal/h0;
 
     invoke-direct {v0, p1, p0}, Lcotlinx/coroutines/internal/h0;-><init>(Ljava/lang/Object;Ljava/lang/ThreadLocal;)V
@@ -44,7 +43,6 @@
 
     if-eqz p2, :cond_0
 
-    .line 1
     invoke-virtual {p0}, Ljava/lang/ThreadLocal;->get()Ljava/lang/Object;
 
     move-result-object p1
@@ -83,7 +81,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     invoke-interface {p1}, Lcotlin/coroutines/c;->getContext()Lcotlin/coroutines/CoroutineContext;
 
     move-result-object v0
@@ -116,7 +113,6 @@
 
     if-eqz v0, :cond_1
 
-    .line 2
     sget-object p0, Lcotlin/t1;->a:Lcotlin/t1;
 
     return-object p0
@@ -172,7 +168,6 @@
 
     const/4 p1, 0x3
 
-    .line 1
     invoke-static {p1}, Lcotlin/jvm/internal/c0;->e(I)V
 
     const/4 v0, 0x0
@@ -201,7 +196,6 @@
     :goto_0
     if-eqz v1, :cond_1
 
-    .line 2
     sget-object p0, Lcotlin/t1;->a:Lcotlin/t1;
 
     return-object p0
@@ -270,7 +264,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     invoke-interface {p1}, Lcotlin/coroutines/c;->getContext()Lcotlin/coroutines/CoroutineContext;
 
     move-result-object p1
@@ -315,7 +308,6 @@
 
     const/4 p1, 0x3
 
-    .line 1
     invoke-static {p1}, Lcotlin/jvm/internal/c0;->e(I)V
 
     const/4 p1, 0x0

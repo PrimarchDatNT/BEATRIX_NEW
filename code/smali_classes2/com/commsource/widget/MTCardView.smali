@@ -11,10 +11,8 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-direct {p0, p1}, Landroidx/cardview/widget/CardView;-><init>(Landroid/content/Context;)V
 
-    .line 2
     invoke-direct {p0}, Lcom/commsource/widget/MTCardView;->e()V
 
     return-void
@@ -31,10 +29,8 @@
         .end annotation
     .end param
 
-    .line 3
     invoke-direct {p0, p1, p2}, Landroidx/cardview/widget/CardView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
-    .line 4
     invoke-direct {p0}, Lcom/commsource/widget/MTCardView;->e()V
 
     return-void
@@ -51,10 +47,8 @@
         .end annotation
     .end param
 
-    .line 5
     invoke-direct {p0, p1, p2, p3}, Landroidx/cardview/widget/CardView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
-    .line 6
     invoke-direct {p0}, Lcom/commsource/widget/MTCardView;->e()V
 
     return-void
@@ -67,7 +61,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget v1, Landroid/os/Build$VERSION;->SDK_INT:I
 
     const/16 v2, 0x15
@@ -76,10 +69,8 @@
 
     const/4 v1, 0x0
 
-    .line 2
     invoke-virtual {p0, v1}, Landroidx/cardview/widget/CardView;->setRadius(F)V
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

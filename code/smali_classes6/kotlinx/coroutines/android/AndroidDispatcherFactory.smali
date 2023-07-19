@@ -13,7 +13,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -34,7 +33,6 @@
 .method public bridge synthetic b(Ljava/util/List;)Lcotlinx/coroutines/m2;
     .locals 0
 
-    .line 1
     invoke-virtual {p0, p1}, Lcotlinx/coroutines/android/AndroidDispatcherFactory;->d(Ljava/util/List;)Lcotlinx/coroutines/android/HandlerContext;
 
     move-result-object p1
@@ -70,7 +68,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     new-instance p1, Lcotlinx/coroutines/android/HandlerContext;
 
     invoke-static {}, Landroid/os/Looper;->getMainLooper()Landroid/os/Looper;

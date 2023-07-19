@@ -75,7 +75,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -88,14 +87,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p0}, Lcom/commsource/beautyplus/setting/a0/a;->c(Landroid/content/Context;)Ljava/lang/String;
 
     move-result-object v1
 
     const-string v2, "jp"
 
-    .line 2
     invoke-virtual {v1, v2}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v2
@@ -115,7 +112,6 @@
     :cond_0
     const-string v2, "KR"
 
-    .line 3
     invoke-virtual {v1, v2}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v2
@@ -135,7 +131,6 @@
     :cond_1
     const-string v2, "IN"
 
-    .line 4
     invoke-virtual {v1, v2}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v2
@@ -155,7 +150,6 @@
     :cond_2
     const-string v2, "ID"
 
-    .line 5
     invoke-virtual {v1, v2}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v2
@@ -177,7 +171,6 @@
     :cond_3
     const-string v2, "PH"
 
-    .line 6
     invoke-virtual {v1, v2}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v2
@@ -197,7 +190,6 @@
     :cond_4
     const-string v2, "VN"
 
-    .line 7
     invoke-virtual {v1, v2}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v2
@@ -217,7 +209,6 @@
     :cond_5
     const-string/jumbo v2, "th"
 
-    .line 8
     invoke-virtual {v1, v2}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v2
@@ -237,7 +228,6 @@
     :cond_6
     sget v1, Lcom/res/provider/ResSTRING;->facebook_app_attention_url:I
 
-    .line 9
     invoke-virtual {p0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
     move-result-object p0
@@ -250,7 +240,6 @@
     :goto_0
     sget v1, Lcom/res/provider/ResSTRING;->facebook_app_thailand_url:I
 
-    .line 10
     invoke-virtual {p0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
     move-result-object p0
@@ -263,7 +252,6 @@
     :goto_1
     sget v1, Lcom/res/provider/ResSTRING;->facebook_app_vietnam_url:I
 
-    .line 11
     invoke-virtual {p0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
     move-result-object p0
@@ -272,7 +260,6 @@
 
     return-object p0
 
-    .line 12
     :cond_9
     :goto_2
     invoke-virtual {p0, v3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -283,7 +270,6 @@
 
     return-object p0
 
-    .line 13
     :cond_a
     :goto_3
     invoke-virtual {p0, v3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -298,7 +284,6 @@
     :goto_4
     sget v1, Lcom/res/provider/ResSTRING;->facebook_app_meIndia_url:I
 
-    .line 14
     invoke-virtual {p0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
     move-result-object p0
@@ -311,7 +296,6 @@
     :goto_5
     sget v1, Lcom/res/provider/ResSTRING;->facebook_app_keroea_url:I
 
-    .line 15
     invoke-virtual {p0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
     move-result-object p0
@@ -324,7 +308,6 @@
     :goto_6
     sget v1, Lcom/res/provider/ResSTRING;->facebook_app_japan_url:I
 
-    .line 16
     invoke-virtual {p0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
     move-result-object p0
@@ -341,14 +324,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p0}, Lcom/commsource/beautyplus/setting/a0/a;->c(Landroid/content/Context;)Ljava/lang/String;
 
     move-result-object p0
 
     const-string v1, "jp"
 
-    .line 2
     invoke-virtual {p0, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v1
@@ -368,7 +349,6 @@
     :cond_0
     const-string v1, "KR"
 
-    .line 3
     invoke-virtual {p0, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v1
@@ -388,7 +368,6 @@
     :cond_1
     const-string v1, "ID"
 
-    .line 4
     invoke-virtual {p0, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v1
@@ -408,7 +387,6 @@
     :cond_2
     const-string v1, "my"
 
-    .line 5
     invoke-virtual {p0, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v1
@@ -428,7 +406,6 @@
     :cond_3
     const-string v1, "PH"
 
-    .line 6
     invoke-virtual {p0, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v1
@@ -448,7 +425,6 @@
     :cond_4
     const-string v1, "VN"
 
-    .line 7
     invoke-virtual {p0, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v1
@@ -468,7 +444,6 @@
     :cond_5
     const-string/jumbo v1, "th"
 
-    .line 8
     invoke-virtual {p0, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v1
@@ -488,7 +463,6 @@
     :cond_6
     const-string v1, "IN"
 
-    .line 9
     invoke-virtual {p0, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v1
@@ -508,7 +482,6 @@
     :cond_7
     const-string v1, "BR"
 
-    .line 10
     invoke-virtual {p0, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v1
@@ -525,7 +498,6 @@
 
     goto :goto_0
 
-    .line 11
     :cond_8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -533,7 +505,6 @@
 
     return-object p0
 
-    .line 12
     :cond_9
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -542,7 +513,6 @@
 
     return-object p0
 
-    .line 13
     :cond_a
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -551,7 +521,6 @@
 
     return-object p0
 
-    .line 14
     :cond_b
     :goto_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -560,7 +529,6 @@
 
     return-object p0
 
-    .line 15
     :cond_c
     :goto_3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -569,7 +537,6 @@
 
     return-object p0
 
-    .line 16
     :cond_d
     :goto_4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -578,7 +545,6 @@
 
     return-object p0
 
-    .line 17
     :cond_e
     :goto_5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -587,7 +553,6 @@
 
     return-object p0
 
-    .line 18
     :cond_f
     :goto_6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -596,7 +561,6 @@
 
     return-object p0
 
-    .line 19
     :cond_10
     :goto_7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -605,7 +569,6 @@
 
     return-object p0
 
-    .line 20
     :cond_11
     :goto_8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -622,17 +585,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p0}, Lcom/commsource/util/c0;->d(Landroid/content/Context;)Lcom/meitu/countrylocation/LocationBean;
 
     move-result-object p0
 
-    .line 2
     invoke-virtual {p0}, Lcom/meitu/countrylocation/LocationBean;->getCountry_code()Ljava/lang/String;
 
     move-result-object p0
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
@@ -645,7 +605,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
 
     move-result-object p0
@@ -656,7 +615,6 @@
 
     iget-object p0, p0, Landroid/content/res/Configuration;->locale:Ljava/util/Locale;
 
-    .line 2
     invoke-virtual {p0}, Ljava/util/Locale;->getLanguage()Ljava/lang/String;
 
     move-result-object p0
@@ -673,14 +631,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p0}, Lcom/commsource/beautyplus/setting/a0/a;->c(Landroid/content/Context;)Ljava/lang/String;
 
     move-result-object p0
 
     const-string v1, "jp"
 
-    .line 2
     invoke-virtual {p0, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v1
@@ -700,7 +656,6 @@
     :cond_0
     const-string v1, "KR"
 
-    .line 3
     invoke-virtual {p0, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v1
@@ -720,7 +675,6 @@
     :cond_1
     const-string v1, "IN"
 
-    .line 4
     invoke-virtual {p0, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v1
@@ -740,7 +694,6 @@
     :cond_2
     const-string v1, "ID"
 
-    .line 5
     invoke-virtual {p0, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v1
@@ -760,7 +713,6 @@
     :cond_3
     const-string v1, "PH"
 
-    .line 6
     invoke-virtual {p0, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v1
@@ -780,7 +732,6 @@
     :cond_4
     const-string v1, "VN"
 
-    .line 7
     invoke-virtual {p0, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v1
@@ -800,7 +751,6 @@
     :cond_5
     const-string/jumbo v1, "th"
 
-    .line 8
     invoke-virtual {p0, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v1
@@ -817,7 +767,6 @@
 
     goto :goto_0
 
-    .line 9
     :cond_6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -825,7 +774,6 @@
 
     return-object p0
 
-    .line 10
     :cond_7
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -834,7 +782,6 @@
 
     return-object p0
 
-    .line 11
     :cond_8
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -843,7 +790,6 @@
 
     return-object p0
 
-    .line 12
     :cond_9
     :goto_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -852,7 +798,6 @@
 
     return-object p0
 
-    .line 13
     :cond_a
     :goto_3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -861,7 +806,6 @@
 
     return-object p0
 
-    .line 14
     :cond_b
     :goto_4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -870,7 +814,6 @@
 
     return-object p0
 
-    .line 15
     :cond_c
     :goto_5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -879,7 +822,6 @@
 
     return-object p0
 
-    .line 16
     :cond_d
     :goto_6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -896,14 +838,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p0}, Lcom/commsource/beautyplus/setting/a0/a;->c(Landroid/content/Context;)Ljava/lang/String;
 
     move-result-object p0
 
     const-string v1, "jp"
 
-    .line 2
     invoke-virtual {p0, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v1
@@ -923,7 +863,6 @@
     :cond_0
     const-string v1, "KR"
 
-    .line 3
     invoke-virtual {p0, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v1
@@ -943,7 +882,6 @@
     :cond_1
     const-string v1, "ID"
 
-    .line 4
     invoke-virtual {p0, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v1
@@ -963,7 +901,6 @@
     :cond_2
     const-string v1, "my"
 
-    .line 5
     invoke-virtual {p0, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v1
@@ -983,7 +920,6 @@
     :cond_3
     const-string v1, "PH"
 
-    .line 6
     invoke-virtual {p0, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v1
@@ -1003,7 +939,6 @@
     :cond_4
     const-string v1, "VN"
 
-    .line 7
     invoke-virtual {p0, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v1
@@ -1023,7 +958,6 @@
     :cond_5
     const-string/jumbo v1, "th"
 
-    .line 8
     invoke-virtual {p0, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v1
@@ -1043,7 +977,6 @@
     :cond_6
     const-string v1, "IN"
 
-    .line 9
     invoke-virtual {p0, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v1
@@ -1063,7 +996,6 @@
     :cond_7
     const-string v1, "BR"
 
-    .line 10
     invoke-virtual {p0, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v1
@@ -1080,7 +1012,6 @@
 
     goto :goto_0
 
-    .line 11
     :cond_8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1088,7 +1019,6 @@
 
     return-object p0
 
-    .line 12
     :cond_9
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1097,7 +1027,6 @@
 
     return-object p0
 
-    .line 13
     :cond_a
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1106,7 +1035,6 @@
 
     return-object p0
 
-    .line 14
     :cond_b
     :goto_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1115,7 +1043,6 @@
 
     return-object p0
 
-    .line 15
     :cond_c
     :goto_3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1124,7 +1051,6 @@
 
     return-object p0
 
-    .line 16
     :cond_d
     :goto_4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1133,7 +1059,6 @@
 
     return-object p0
 
-    .line 17
     :cond_e
     :goto_5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1142,7 +1067,6 @@
 
     return-object p0
 
-    .line 18
     :cond_f
     :goto_6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1151,7 +1075,6 @@
 
     return-object p0
 
-    .line 19
     :cond_10
     :goto_7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1160,7 +1083,6 @@
 
     return-object p0
 
-    .line 20
     :cond_11
     :goto_8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

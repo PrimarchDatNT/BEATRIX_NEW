@@ -26,7 +26,6 @@
 .method constructor <init>(Ljava/lang/String;Lcom/google/firebase/remoteconfig/b;Lcom/meitu/hwbusinesskit/core/bean/Business;Lcom/meitu/hwbusinesskit/core/helper/RemoteConfigHelper$OnLoadListener;)V
     .locals 0
 
-    .line 1
     iput-object p2, p0, Lcom/meitu/hwbusinesskit/core/helper/RemoteConfigHelper$1;->val$firebaseRemoteConfig:Lcom/google/firebase/remoteconfig/b;
 
     iput-object p3, p0, Lcom/meitu/hwbusinesskit/core/helper/RemoteConfigHelper$1;->val$defaultBusiness:Lcom/meitu/hwbusinesskit/core/bean/Business;
@@ -47,12 +46,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     const-class v1, Lcom/meitu/hwbusinesskit/core/helper/RemoteConfigHelper;
 
     monitor-enter v1
 
-    .line 2
     :try_start_0
     iget-object v2, p0, Lcom/meitu/hwbusinesskit/core/helper/RemoteConfigHelper$1;->val$firebaseRemoteConfig:Lcom/google/firebase/remoteconfig/b;
 
@@ -62,21 +59,17 @@
 
     move-result-object v2
 
-    .line 3
     iget-object v3, p0, Lcom/meitu/hwbusinesskit/core/helper/RemoteConfigHelper$1;->val$onLoadListener:Lcom/meitu/hwbusinesskit/core/helper/RemoteConfigHelper$OnLoadListener;
 
     if-eqz v3, :cond_0
 
-    .line 4
     invoke-interface {v3, v2}, Lcom/meitu/hwbusinesskit/core/helper/RemoteConfigHelper$OnLoadListener;->onSuccess(Lcom/meitu/hwbusinesskit/core/bean/Business;)V
 
-    .line 5
     :cond_0
     monitor-exit v1
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -84,7 +77,6 @@
     :catchall_0
     move-exception v2
 
-    .line 7
     :try_start_1
     monitor-exit v1
     :try_end_1

@@ -38,7 +38,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/function/CleanOilFragment$b;->P:Lcom/commsource/studio/function/CleanOilFragment;
 
     invoke-direct {p0, p2}, Lcom/commsource/studio/processor/MultiFaceEffectProcessor;-><init>(Lcom/commsource/camera/newrender/renderproxy/n;)V
@@ -55,7 +54,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Lcom/commsource/studio/r0/g;
 
     invoke-virtual {p0, p1, p2, p3}, Lcom/commsource/studio/function/CleanOilFragment$b;->S(Lcom/commsource/studio/r0/g;ILcom/commsource/easyeditor/utils/opengl/f;)V
@@ -88,7 +86,6 @@
 
     invoke-static {p3, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object p3, p0, Lcom/commsource/studio/function/CleanOilFragment$b;->P:Lcom/commsource/studio/function/CleanOilFragment;
 
     invoke-virtual {p3}, Lcom/commsource/studio/function/CleanOilFragment;->L1()Lcom/commsource/studio/effect/c;
@@ -107,7 +104,6 @@
 
     invoke-virtual {p1, p2}, Lcom/commsource/studio/r0/g;->H(F)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

@@ -30,14 +30,12 @@
 .method private constructor <init>(Lio/grpc/internal/ManagedChannelImpl;Ljava/lang/String;)V
     .locals 0
 
-    .line 2
     iput-object p1, p0, Lio/grpc/internal/ManagedChannelImpl$v;->b:Lio/grpc/internal/ManagedChannelImpl;
 
     invoke-direct {p0}, Lio/grpc/g;-><init>()V
 
     const-string p1, "authority"
 
-    .line 3
     invoke-static {p2, p1}, Lcom/google/common/base/t;->F(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -52,7 +50,6 @@
 .method synthetic constructor <init>(Lio/grpc/internal/ManagedChannelImpl;Ljava/lang/String;Lio/grpc/internal/ManagedChannelImpl$a;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1, p2}, Lio/grpc/internal/ManagedChannelImpl$v;-><init>(Lio/grpc/internal/ManagedChannelImpl;Ljava/lang/String;)V
 
     return-void
@@ -61,7 +58,6 @@
 .method static synthetic k(Lio/grpc/internal/ManagedChannelImpl$v;Lio/grpc/MethodDescriptor;Lio/grpc/f;)Lio/grpc/h;
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1, p2}, Lio/grpc/internal/ManagedChannelImpl$v;->l(Lio/grpc/MethodDescriptor;Lio/grpc/f;)Lio/grpc/h;
 
     move-result-object p0
@@ -87,24 +83,20 @@
         }
     .end annotation
 
-    .line 1
     new-instance v8, Lio/grpc/internal/t;
 
     iget-object v0, p0, Lio/grpc/internal/ManagedChannelImpl$v;->b:Lio/grpc/internal/ManagedChannelImpl;
 
-    .line 2
     invoke-static {v0, p2}, Lio/grpc/internal/ManagedChannelImpl;->F(Lio/grpc/internal/ManagedChannelImpl;Lio/grpc/f;)Ljava/util/concurrent/Executor;
 
     move-result-object v2
 
     iget-object v0, p0, Lio/grpc/internal/ManagedChannelImpl$v;->b:Lio/grpc/internal/ManagedChannelImpl;
 
-    .line 3
     invoke-static {v0}, Lio/grpc/internal/ManagedChannelImpl;->Z(Lio/grpc/internal/ManagedChannelImpl;)Lio/grpc/internal/t$f;
 
     move-result-object v4
 
-    .line 4
     iget-object v0, p0, Lio/grpc/internal/ManagedChannelImpl$v;->b:Lio/grpc/internal/ManagedChannelImpl;
 
     invoke-static {v0}, Lio/grpc/internal/ManagedChannelImpl;->a0(Lio/grpc/internal/ManagedChannelImpl;)Z
@@ -133,14 +125,12 @@
 
     iget-object v0, p0, Lio/grpc/internal/ManagedChannelImpl$v;->b:Lio/grpc/internal/ManagedChannelImpl;
 
-    .line 5
     invoke-static {v0}, Lio/grpc/internal/ManagedChannelImpl;->J(Lio/grpc/internal/ManagedChannelImpl;)Lio/grpc/internal/r;
 
     move-result-object v6
 
     iget-object v0, p0, Lio/grpc/internal/ManagedChannelImpl$v;->b:Lio/grpc/internal/ManagedChannelImpl;
 
-    .line 6
     invoke-static {v0}, Lio/grpc/internal/ManagedChannelImpl;->P(Lio/grpc/internal/ManagedChannelImpl;)Ljava/util/concurrent/atomic/AtomicReference;
 
     move-result-object v0
@@ -163,7 +153,6 @@
 
     iget-object p1, p0, Lio/grpc/internal/ManagedChannelImpl$v;->b:Lio/grpc/internal/ManagedChannelImpl;
 
-    .line 7
     invoke-static {p1}, Lio/grpc/internal/ManagedChannelImpl;->Y(Lio/grpc/internal/ManagedChannelImpl;)Z
 
     move-result p1
@@ -174,7 +163,6 @@
 
     iget-object p2, p0, Lio/grpc/internal/ManagedChannelImpl$v;->b:Lio/grpc/internal/ManagedChannelImpl;
 
-    .line 8
     invoke-static {p2}, Lio/grpc/internal/ManagedChannelImpl;->X(Lio/grpc/internal/ManagedChannelImpl;)Lio/grpc/s;
 
     move-result-object p2
@@ -185,7 +173,6 @@
 
     iget-object p2, p0, Lio/grpc/internal/ManagedChannelImpl$v;->b:Lio/grpc/internal/ManagedChannelImpl;
 
-    .line 9
     invoke-static {p2}, Lio/grpc/internal/ManagedChannelImpl;->W(Lio/grpc/internal/ManagedChannelImpl;)Lio/grpc/n;
 
     move-result-object p2
@@ -202,7 +189,6 @@
 .method public b()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lio/grpc/internal/ManagedChannelImpl$v;->a:Ljava/lang/String;
 
     return-object v0
@@ -226,7 +212,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1, p2}, Lio/grpc/internal/ManagedChannelImpl$v;->l(Lio/grpc/MethodDescriptor;Lio/grpc/f;)Lio/grpc/h;
 
     move-result-object p1

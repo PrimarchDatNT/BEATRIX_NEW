@@ -118,7 +118,6 @@
 .method static constructor <clinit>()V
     .locals 46
 
-    .line 1
     new-instance v0, Lcom/tencent/mrs/plugin/IDynamicConfig$ExptEnum;
 
     const-string v1, "clicfg_matrix_trace_fps_enable"
@@ -129,7 +128,6 @@
 
     sput-object v0, Lcom/tencent/mrs/plugin/IDynamicConfig$ExptEnum;->clicfg_matrix_trace_fps_enable:Lcom/tencent/mrs/plugin/IDynamicConfig$ExptEnum;
 
-    .line 2
     new-instance v1, Lcom/tencent/mrs/plugin/IDynamicConfig$ExptEnum;
 
     const-string v3, "clicfg_matrix_trace_care_scene_set"
@@ -140,7 +138,6 @@
 
     sput-object v1, Lcom/tencent/mrs/plugin/IDynamicConfig$ExptEnum;->clicfg_matrix_trace_care_scene_set:Lcom/tencent/mrs/plugin/IDynamicConfig$ExptEnum;
 
-    .line 3
     new-instance v3, Lcom/tencent/mrs/plugin/IDynamicConfig$ExptEnum;
 
     const-string v5, "clicfg_matrix_trace_fps_time_slice"
@@ -151,7 +148,6 @@
 
     sput-object v3, Lcom/tencent/mrs/plugin/IDynamicConfig$ExptEnum;->clicfg_matrix_trace_fps_time_slice:Lcom/tencent/mrs/plugin/IDynamicConfig$ExptEnum;
 
-    .line 4
     new-instance v5, Lcom/tencent/mrs/plugin/IDynamicConfig$ExptEnum;
 
     const-string v7, "clicfg_matrix_trace_evil_method_threshold"
@@ -162,7 +158,6 @@
 
     sput-object v5, Lcom/tencent/mrs/plugin/IDynamicConfig$ExptEnum;->clicfg_matrix_trace_evil_method_threshold:Lcom/tencent/mrs/plugin/IDynamicConfig$ExptEnum;
 
-    .line 5
     new-instance v7, Lcom/tencent/mrs/plugin/IDynamicConfig$ExptEnum;
 
     const-string v9, "clicfg_matrix_fps_dropped_normal"
@@ -173,7 +168,6 @@
 
     sput-object v7, Lcom/tencent/mrs/plugin/IDynamicConfig$ExptEnum;->clicfg_matrix_fps_dropped_normal:Lcom/tencent/mrs/plugin/IDynamicConfig$ExptEnum;
 
-    .line 6
     new-instance v9, Lcom/tencent/mrs/plugin/IDynamicConfig$ExptEnum;
 
     const-string v11, "clicfg_matrix_fps_dropped_middle"
@@ -184,7 +178,6 @@
 
     sput-object v9, Lcom/tencent/mrs/plugin/IDynamicConfig$ExptEnum;->clicfg_matrix_fps_dropped_middle:Lcom/tencent/mrs/plugin/IDynamicConfig$ExptEnum;
 
-    .line 7
     new-instance v11, Lcom/tencent/mrs/plugin/IDynamicConfig$ExptEnum;
 
     const-string v13, "clicfg_matrix_fps_dropped_high"
@@ -195,7 +188,6 @@
 
     sput-object v11, Lcom/tencent/mrs/plugin/IDynamicConfig$ExptEnum;->clicfg_matrix_fps_dropped_high:Lcom/tencent/mrs/plugin/IDynamicConfig$ExptEnum;
 
-    .line 8
     new-instance v13, Lcom/tencent/mrs/plugin/IDynamicConfig$ExptEnum;
 
     const-string v15, "clicfg_matrix_fps_dropped_frozen"
@@ -206,7 +198,6 @@
 
     sput-object v13, Lcom/tencent/mrs/plugin/IDynamicConfig$ExptEnum;->clicfg_matrix_fps_dropped_frozen:Lcom/tencent/mrs/plugin/IDynamicConfig$ExptEnum;
 
-    .line 9
     new-instance v15, Lcom/tencent/mrs/plugin/IDynamicConfig$ExptEnum;
 
     const-string v14, "clicfg_matrix_trace_evil_method_enable"
@@ -217,7 +208,6 @@
 
     sput-object v15, Lcom/tencent/mrs/plugin/IDynamicConfig$ExptEnum;->clicfg_matrix_trace_evil_method_enable:Lcom/tencent/mrs/plugin/IDynamicConfig$ExptEnum;
 
-    .line 10
     new-instance v14, Lcom/tencent/mrs/plugin/IDynamicConfig$ExptEnum;
 
     const-string v12, "clicfg_matrix_trace_anr_enable"
@@ -228,7 +218,6 @@
 
     sput-object v14, Lcom/tencent/mrs/plugin/IDynamicConfig$ExptEnum;->clicfg_matrix_trace_anr_enable:Lcom/tencent/mrs/plugin/IDynamicConfig$ExptEnum;
 
-    .line 11
     new-instance v12, Lcom/tencent/mrs/plugin/IDynamicConfig$ExptEnum;
 
     const-string v10, "clicfg_matrix_trace_startup_enable"
@@ -239,7 +228,6 @@
 
     sput-object v12, Lcom/tencent/mrs/plugin/IDynamicConfig$ExptEnum;->clicfg_matrix_trace_startup_enable:Lcom/tencent/mrs/plugin/IDynamicConfig$ExptEnum;
 
-    .line 12
     new-instance v10, Lcom/tencent/mrs/plugin/IDynamicConfig$ExptEnum;
 
     const-string v8, "clicfg_matrix_trace_app_start_up_threshold"
@@ -250,7 +238,6 @@
 
     sput-object v10, Lcom/tencent/mrs/plugin/IDynamicConfig$ExptEnum;->clicfg_matrix_trace_app_start_up_threshold:Lcom/tencent/mrs/plugin/IDynamicConfig$ExptEnum;
 
-    .line 13
     new-instance v8, Lcom/tencent/mrs/plugin/IDynamicConfig$ExptEnum;
 
     const-string v6, "clicfg_matrix_trace_warm_app_start_up_threshold"
@@ -261,7 +248,6 @@
 
     sput-object v8, Lcom/tencent/mrs/plugin/IDynamicConfig$ExptEnum;->clicfg_matrix_trace_warm_app_start_up_threshold:Lcom/tencent/mrs/plugin/IDynamicConfig$ExptEnum;
 
-    .line 14
     new-instance v6, Lcom/tencent/mrs/plugin/IDynamicConfig$ExptEnum;
 
     const-string v4, "clicfg_matrix_io_file_io_main_thread_enable"
@@ -272,7 +258,6 @@
 
     sput-object v6, Lcom/tencent/mrs/plugin/IDynamicConfig$ExptEnum;->clicfg_matrix_io_file_io_main_thread_enable:Lcom/tencent/mrs/plugin/IDynamicConfig$ExptEnum;
 
-    .line 15
     new-instance v4, Lcom/tencent/mrs/plugin/IDynamicConfig$ExptEnum;
 
     const-string v2, "clicfg_matrix_io_main_thread_enable_threshold"
@@ -285,7 +270,6 @@
 
     sput-object v4, Lcom/tencent/mrs/plugin/IDynamicConfig$ExptEnum;->clicfg_matrix_io_main_thread_enable_threshold:Lcom/tencent/mrs/plugin/IDynamicConfig$ExptEnum;
 
-    .line 16
     new-instance v2, Lcom/tencent/mrs/plugin/IDynamicConfig$ExptEnum;
 
     const-string v6, "clicfg_matrix_io_small_buffer_enable"
@@ -298,7 +282,6 @@
 
     sput-object v2, Lcom/tencent/mrs/plugin/IDynamicConfig$ExptEnum;->clicfg_matrix_io_small_buffer_enable:Lcom/tencent/mrs/plugin/IDynamicConfig$ExptEnum;
 
-    .line 17
     new-instance v6, Lcom/tencent/mrs/plugin/IDynamicConfig$ExptEnum;
 
     const-string v4, "clicfg_matrix_io_small_buffer_threshold"
@@ -311,7 +294,6 @@
 
     sput-object v6, Lcom/tencent/mrs/plugin/IDynamicConfig$ExptEnum;->clicfg_matrix_io_small_buffer_threshold:Lcom/tencent/mrs/plugin/IDynamicConfig$ExptEnum;
 
-    .line 18
     new-instance v4, Lcom/tencent/mrs/plugin/IDynamicConfig$ExptEnum;
 
     const-string v2, "clicfg_matrix_io_small_buffer_operator_times"
@@ -324,7 +306,6 @@
 
     sput-object v4, Lcom/tencent/mrs/plugin/IDynamicConfig$ExptEnum;->clicfg_matrix_io_small_buffer_operator_times:Lcom/tencent/mrs/plugin/IDynamicConfig$ExptEnum;
 
-    .line 19
     new-instance v2, Lcom/tencent/mrs/plugin/IDynamicConfig$ExptEnum;
 
     const-string v6, "clicfg_matrix_io_repeated_read_enable"
@@ -337,7 +318,6 @@
 
     sput-object v2, Lcom/tencent/mrs/plugin/IDynamicConfig$ExptEnum;->clicfg_matrix_io_repeated_read_enable:Lcom/tencent/mrs/plugin/IDynamicConfig$ExptEnum;
 
-    .line 20
     new-instance v6, Lcom/tencent/mrs/plugin/IDynamicConfig$ExptEnum;
 
     const-string v4, "clicfg_matrix_io_repeated_read_threshold"
@@ -350,7 +330,6 @@
 
     sput-object v6, Lcom/tencent/mrs/plugin/IDynamicConfig$ExptEnum;->clicfg_matrix_io_repeated_read_threshold:Lcom/tencent/mrs/plugin/IDynamicConfig$ExptEnum;
 
-    .line 21
     new-instance v4, Lcom/tencent/mrs/plugin/IDynamicConfig$ExptEnum;
 
     const-string v2, "clicfg_matrix_io_closeable_leak_enable"
@@ -363,7 +342,6 @@
 
     sput-object v4, Lcom/tencent/mrs/plugin/IDynamicConfig$ExptEnum;->clicfg_matrix_io_closeable_leak_enable:Lcom/tencent/mrs/plugin/IDynamicConfig$ExptEnum;
 
-    .line 22
     new-instance v2, Lcom/tencent/mrs/plugin/IDynamicConfig$ExptEnum;
 
     const-string v6, "clicfg_matrix_battery_detect_wake_lock_enable"
@@ -376,7 +354,6 @@
 
     sput-object v2, Lcom/tencent/mrs/plugin/IDynamicConfig$ExptEnum;->clicfg_matrix_battery_detect_wake_lock_enable:Lcom/tencent/mrs/plugin/IDynamicConfig$ExptEnum;
 
-    .line 23
     new-instance v6, Lcom/tencent/mrs/plugin/IDynamicConfig$ExptEnum;
 
     const-string v4, "clicfg_matrix_battery_record_wake_lock_enable"
@@ -389,7 +366,6 @@
 
     sput-object v6, Lcom/tencent/mrs/plugin/IDynamicConfig$ExptEnum;->clicfg_matrix_battery_record_wake_lock_enable:Lcom/tencent/mrs/plugin/IDynamicConfig$ExptEnum;
 
-    .line 24
     new-instance v2, Lcom/tencent/mrs/plugin/IDynamicConfig$ExptEnum;
 
     const-string v4, "clicfg_matrix_battery_wake_lock_hold_time_threshold"
@@ -402,7 +378,6 @@
 
     sput-object v2, Lcom/tencent/mrs/plugin/IDynamicConfig$ExptEnum;->clicfg_matrix_battery_wake_lock_hold_time_threshold:Lcom/tencent/mrs/plugin/IDynamicConfig$ExptEnum;
 
-    .line 25
     new-instance v4, Lcom/tencent/mrs/plugin/IDynamicConfig$ExptEnum;
 
     const-string v6, "clicfg_matrix_battery_wake_lock_1h_acquire_cnt_threshold"
@@ -415,7 +390,6 @@
 
     sput-object v4, Lcom/tencent/mrs/plugin/IDynamicConfig$ExptEnum;->clicfg_matrix_battery_wake_lock_1h_acquire_cnt_threshold:Lcom/tencent/mrs/plugin/IDynamicConfig$ExptEnum;
 
-    .line 26
     new-instance v2, Lcom/tencent/mrs/plugin/IDynamicConfig$ExptEnum;
 
     const-string v6, "clicfg_matrix_battery_wake_lock_1h_hold_time_threshold"
@@ -428,7 +402,6 @@
 
     sput-object v2, Lcom/tencent/mrs/plugin/IDynamicConfig$ExptEnum;->clicfg_matrix_battery_wake_lock_1h_hold_time_threshold:Lcom/tencent/mrs/plugin/IDynamicConfig$ExptEnum;
 
-    .line 27
     new-instance v4, Lcom/tencent/mrs/plugin/IDynamicConfig$ExptEnum;
 
     const-string v6, "clicfg_matrix_battery_detect_alarm_enable"
@@ -441,7 +414,6 @@
 
     sput-object v4, Lcom/tencent/mrs/plugin/IDynamicConfig$ExptEnum;->clicfg_matrix_battery_detect_alarm_enable:Lcom/tencent/mrs/plugin/IDynamicConfig$ExptEnum;
 
-    .line 28
     new-instance v2, Lcom/tencent/mrs/plugin/IDynamicConfig$ExptEnum;
 
     const-string v6, "clicfg_matrix_battery_record_alarm_enable"
@@ -454,7 +426,6 @@
 
     sput-object v2, Lcom/tencent/mrs/plugin/IDynamicConfig$ExptEnum;->clicfg_matrix_battery_record_alarm_enable:Lcom/tencent/mrs/plugin/IDynamicConfig$ExptEnum;
 
-    .line 29
     new-instance v4, Lcom/tencent/mrs/plugin/IDynamicConfig$ExptEnum;
 
     const-string v6, "clicfg_matrix_battery_alarm_1h_trigger_cnt_threshold"
@@ -467,7 +438,6 @@
 
     sput-object v4, Lcom/tencent/mrs/plugin/IDynamicConfig$ExptEnum;->clicfg_matrix_battery_alarm_1h_trigger_cnt_threshold:Lcom/tencent/mrs/plugin/IDynamicConfig$ExptEnum;
 
-    .line 30
     new-instance v2, Lcom/tencent/mrs/plugin/IDynamicConfig$ExptEnum;
 
     const-string v6, "clicfg_matrix_battery_wake_up_alarm_1h_trigger_cnt_threshold"
@@ -480,7 +450,6 @@
 
     sput-object v2, Lcom/tencent/mrs/plugin/IDynamicConfig$ExptEnum;->clicfg_matrix_battery_wake_up_alarm_1h_trigger_cnt_threshold:Lcom/tencent/mrs/plugin/IDynamicConfig$ExptEnum;
 
-    .line 31
     new-instance v4, Lcom/tencent/mrs/plugin/IDynamicConfig$ExptEnum;
 
     const-string v6, "clicfg_matrix_memory_middle_min_span"
@@ -493,7 +462,6 @@
 
     sput-object v4, Lcom/tencent/mrs/plugin/IDynamicConfig$ExptEnum;->clicfg_matrix_memory_middle_min_span:Lcom/tencent/mrs/plugin/IDynamicConfig$ExptEnum;
 
-    .line 32
     new-instance v2, Lcom/tencent/mrs/plugin/IDynamicConfig$ExptEnum;
 
     const-string v6, "clicfg_matrix_memory_high_min_span"
@@ -506,7 +474,6 @@
 
     sput-object v2, Lcom/tencent/mrs/plugin/IDynamicConfig$ExptEnum;->clicfg_matrix_memory_high_min_span:Lcom/tencent/mrs/plugin/IDynamicConfig$ExptEnum;
 
-    .line 33
     new-instance v4, Lcom/tencent/mrs/plugin/IDynamicConfig$ExptEnum;
 
     const-string v6, "clicfg_matrix_memory_threshold"
@@ -519,7 +486,6 @@
 
     sput-object v4, Lcom/tencent/mrs/plugin/IDynamicConfig$ExptEnum;->clicfg_matrix_memory_threshold:Lcom/tencent/mrs/plugin/IDynamicConfig$ExptEnum;
 
-    .line 34
     new-instance v2, Lcom/tencent/mrs/plugin/IDynamicConfig$ExptEnum;
 
     const-string v6, "clicfg_matrix_memory_special_activities"
@@ -532,7 +498,6 @@
 
     sput-object v2, Lcom/tencent/mrs/plugin/IDynamicConfig$ExptEnum;->clicfg_matrix_memory_special_activities:Lcom/tencent/mrs/plugin/IDynamicConfig$ExptEnum;
 
-    .line 35
     new-instance v4, Lcom/tencent/mrs/plugin/IDynamicConfig$ExptEnum;
 
     const-string v6, "clicfg_matrix_resource_detect_interval_millis"
@@ -545,7 +510,6 @@
 
     sput-object v4, Lcom/tencent/mrs/plugin/IDynamicConfig$ExptEnum;->clicfg_matrix_resource_detect_interval_millis:Lcom/tencent/mrs/plugin/IDynamicConfig$ExptEnum;
 
-    .line 36
     new-instance v2, Lcom/tencent/mrs/plugin/IDynamicConfig$ExptEnum;
 
     const-string v6, "clicfg_matrix_resource_detect_interval_millis_bg"
@@ -558,7 +522,6 @@
 
     sput-object v2, Lcom/tencent/mrs/plugin/IDynamicConfig$ExptEnum;->clicfg_matrix_resource_detect_interval_millis_bg:Lcom/tencent/mrs/plugin/IDynamicConfig$ExptEnum;
 
-    .line 37
     new-instance v4, Lcom/tencent/mrs/plugin/IDynamicConfig$ExptEnum;
 
     const-string v6, "clicfg_matrix_resource_max_detect_times"
@@ -571,7 +534,6 @@
 
     sput-object v4, Lcom/tencent/mrs/plugin/IDynamicConfig$ExptEnum;->clicfg_matrix_resource_max_detect_times:Lcom/tencent/mrs/plugin/IDynamicConfig$ExptEnum;
 
-    .line 38
     new-instance v2, Lcom/tencent/mrs/plugin/IDynamicConfig$ExptEnum;
 
     const-string v6, "clicfg_matrix_resource_dump_hprof_enable"
@@ -584,7 +546,6 @@
 
     sput-object v2, Lcom/tencent/mrs/plugin/IDynamicConfig$ExptEnum;->clicfg_matrix_resource_dump_hprof_enable:Lcom/tencent/mrs/plugin/IDynamicConfig$ExptEnum;
 
-    .line 39
     new-instance v4, Lcom/tencent/mrs/plugin/IDynamicConfig$ExptEnum;
 
     const-string v6, "clicfg_matrix_thread_check_time"
@@ -597,7 +558,6 @@
 
     sput-object v4, Lcom/tencent/mrs/plugin/IDynamicConfig$ExptEnum;->clicfg_matrix_thread_check_time:Lcom/tencent/mrs/plugin/IDynamicConfig$ExptEnum;
 
-    .line 40
     new-instance v2, Lcom/tencent/mrs/plugin/IDynamicConfig$ExptEnum;
 
     const-string v6, "clicfg_matrix_thread_check_bg_time"
@@ -610,7 +570,6 @@
 
     sput-object v2, Lcom/tencent/mrs/plugin/IDynamicConfig$ExptEnum;->clicfg_matrix_thread_check_bg_time:Lcom/tencent/mrs/plugin/IDynamicConfig$ExptEnum;
 
-    .line 41
     new-instance v4, Lcom/tencent/mrs/plugin/IDynamicConfig$ExptEnum;
 
     const-string v6, "clicfg_matrix_thread_limit_count"
@@ -623,7 +582,6 @@
 
     sput-object v4, Lcom/tencent/mrs/plugin/IDynamicConfig$ExptEnum;->clicfg_matrix_thread_limit_count:Lcom/tencent/mrs/plugin/IDynamicConfig$ExptEnum;
 
-    .line 42
     new-instance v2, Lcom/tencent/mrs/plugin/IDynamicConfig$ExptEnum;
 
     const-string v6, "clicfg_matrix_thread_report_time"
@@ -636,7 +594,6 @@
 
     sput-object v2, Lcom/tencent/mrs/plugin/IDynamicConfig$ExptEnum;->clicfg_matrix_thread_report_time:Lcom/tencent/mrs/plugin/IDynamicConfig$ExptEnum;
 
-    .line 43
     new-instance v4, Lcom/tencent/mrs/plugin/IDynamicConfig$ExptEnum;
 
     const-string v6, "clicfg_matrix_thread_contain_sys"
@@ -649,7 +606,6 @@
 
     sput-object v4, Lcom/tencent/mrs/plugin/IDynamicConfig$ExptEnum;->clicfg_matrix_thread_contain_sys:Lcom/tencent/mrs/plugin/IDynamicConfig$ExptEnum;
 
-    .line 44
     new-instance v2, Lcom/tencent/mrs/plugin/IDynamicConfig$ExptEnum;
 
     const-string v6, "clicfg_matrix_thread_filter_thread_set"
@@ -842,7 +798,6 @@
 
     aput-object v2, v4, v0
 
-    .line 45
     sput-object v4, Lcom/tencent/mrs/plugin/IDynamicConfig$ExptEnum;->$VALUES:[Lcom/tencent/mrs/plugin/IDynamicConfig$ExptEnum;
 
     return-void
@@ -856,7 +811,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
     return-void
@@ -865,7 +819,6 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/tencent/mrs/plugin/IDynamicConfig$ExptEnum;
     .locals 1
 
-    .line 1
     const-class v0, Lcom/tencent/mrs/plugin/IDynamicConfig$ExptEnum;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -880,7 +833,6 @@
 .method public static values()[Lcom/tencent/mrs/plugin/IDynamicConfig$ExptEnum;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/tencent/mrs/plugin/IDynamicConfig$ExptEnum;->$VALUES:[Lcom/tencent/mrs/plugin/IDynamicConfig$ExptEnum;
 
     invoke-virtual {v0}, [Lcom/tencent/mrs/plugin/IDynamicConfig$ExptEnum;->clone()Ljava/lang/Object;

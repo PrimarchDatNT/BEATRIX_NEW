@@ -35,7 +35,6 @@
 .method constructor <init>(Lcom/commsource/camera/a1/h;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/camera/a1/h$c;->a:Lcom/commsource/camera/a1/h;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -66,7 +65,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/google/android/gms/common/util/h;->a(Ljava/util/Collection;)Z
 
     move-result v1
@@ -75,7 +73,6 @@
 
     if-nez v1, :cond_0
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/camera/a1/h$c;->a:Lcom/commsource/camera/a1/h;
 
     invoke-static {v1}, Lcom/commsource/camera/a1/h;->d(Lcom/commsource/camera/a1/h;)Lf/k/i0/a/d0;
@@ -92,7 +89,6 @@
 
     invoke-interface {v1, v3}, Lf/k/i0/a/d0;->p0([Lcom/commsource/camera/a1/f;)V
 
-    .line 3
     :cond_0
     invoke-static {p2}, Lcom/google/android/gms/common/util/h;->a(Ljava/util/Collection;)Z
 
@@ -100,7 +96,6 @@
 
     if-nez v1, :cond_1
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/camera/a1/h$c;->a:Lcom/commsource/camera/a1/h;
 
     invoke-static {v1}, Lcom/commsource/camera/a1/h;->d(Lcom/commsource/camera/a1/h;)Lf/k/i0/a/d0;
@@ -117,7 +112,6 @@
 
     invoke-interface {v1, v2}, Lf/k/i0/a/d0;->p0([Lcom/commsource/camera/a1/f;)V
 
-    .line 5
     :cond_1
     invoke-static {p3}, Lcom/google/android/gms/common/util/h;->a(Ljava/util/Collection;)Z
 
@@ -125,7 +119,6 @@
 
     if-nez v1, :cond_2
 
-    .line 6
     invoke-interface {p3}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
     move-result-object v1
@@ -143,7 +136,6 @@
 
     check-cast v2, Lcom/commsource/camera/a1/f;
 
-    .line 7
     iget-object v3, p0, Lcom/commsource/camera/a1/h$c;->a:Lcom/commsource/camera/a1/h;
 
     invoke-static {v3}, Lcom/commsource/camera/a1/h;->d(Lcom/commsource/camera/a1/h;)Lf/k/i0/a/d0;
@@ -154,13 +146,11 @@
 
     goto :goto_0
 
-    .line 8
     :cond_2
     iget-object v1, p0, Lcom/commsource/camera/a1/h$c;->a:Lcom/commsource/camera/a1/h;
 
     invoke-virtual {v1, p1, p2, p3}, Lcom/commsource/camera/a1/h;->s(Ljava/util/List;Ljava/util/List;Ljava/util/List;)V
 
-    .line 9
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -173,7 +163,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Ljava/util/List;
 
     check-cast p2, Ljava/util/List;

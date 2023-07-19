@@ -44,7 +44,6 @@
 
     const/16 v0, 0x100
 
-    .line 1
     invoke-direct {p0, v0}, Lcom/qiniu/android/dns/util/b;-><init>(I)V
 
     return-void
@@ -53,24 +52,20 @@
 .method public constructor <init>(I)V
     .locals 1
 
-    .line 2
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 3
     new-instance v0, Ljava/util/LinkedList;
 
     invoke-direct {v0}, Ljava/util/LinkedList;-><init>()V
 
     iput-object v0, p0, Lcom/qiniu/android/dns/util/b;->a:Ljava/util/LinkedList;
 
-    .line 4
     new-instance v0, Ljava/util/HashMap;
 
     invoke-direct {v0}, Ljava/util/HashMap;-><init>()V
 
     iput-object v0, p0, Lcom/qiniu/android/dns/util/b;->b:Ljava/util/HashMap;
 
-    .line 5
     iput p1, p0, Lcom/qiniu/android/dns/util/b;->c:I
 
     return-void
@@ -81,12 +76,10 @@
 .method public a()V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/qiniu/android/dns/util/b;->a:Ljava/util/LinkedList;
 
     invoke-virtual {v0}, Ljava/util/LinkedList;->clear()V
 
-    .line 2
     iget-object v0, p0, Lcom/qiniu/android/dns/util/b;->b:Ljava/util/HashMap;
 
     invoke-virtual {v0}, Ljava/util/HashMap;->clear()V
@@ -103,12 +96,10 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/qiniu/android/dns/util/b;->a:Ljava/util/LinkedList;
 
     invoke-virtual {v0, p1}, Ljava/util/LinkedList;->remove(Ljava/lang/Object;)Z
 
-    .line 2
     iget-object v0, p0, Lcom/qiniu/android/dns/util/b;->b:Ljava/util/HashMap;
 
     invoke-virtual {v0, p1}, Ljava/util/HashMap;->remove(Ljava/lang/Object;)Ljava/lang/Object;
@@ -124,19 +115,16 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/qiniu/android/dns/util/b;->b:Ljava/util/HashMap;
 
     invoke-virtual {v0, p1}, Ljava/util/HashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v0
 
-    .line 2
     iget-object v1, p0, Lcom/qiniu/android/dns/util/b;->a:Ljava/util/LinkedList;
 
     invoke-virtual {v1, p1}, Ljava/util/LinkedList;->remove(Ljava/lang/Object;)Z
 
-    .line 3
     iget-object v1, p0, Lcom/qiniu/android/dns/util/b;->a:Ljava/util/LinkedList;
 
     invoke-virtual {v1, p1}, Ljava/util/LinkedList;->push(Ljava/lang/Object;)V
@@ -153,7 +141,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/qiniu/android/dns/util/b;->a:Ljava/util/LinkedList;
 
     invoke-virtual {v0}, Ljava/util/LinkedList;->size()I
@@ -164,25 +151,21 @@
 
     if-ne v0, v1, :cond_0
 
-    .line 2
     iget-object v0, p0, Lcom/qiniu/android/dns/util/b;->a:Ljava/util/LinkedList;
 
     invoke-virtual {v0}, Ljava/util/LinkedList;->pollLast()Ljava/lang/Object;
 
     move-result-object v0
 
-    .line 3
     iget-object v1, p0, Lcom/qiniu/android/dns/util/b;->b:Ljava/util/HashMap;
 
     invoke-virtual {v1, v0}, Ljava/util/HashMap;->remove(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 4
     :cond_0
     iget-object v0, p0, Lcom/qiniu/android/dns/util/b;->b:Ljava/util/HashMap;
 
     invoke-virtual {v0, p1, p2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 5
     iget-object p2, p0, Lcom/qiniu/android/dns/util/b;->a:Ljava/util/LinkedList;
 
     invoke-virtual {p2, p1}, Ljava/util/LinkedList;->push(Ljava/lang/Object;)V

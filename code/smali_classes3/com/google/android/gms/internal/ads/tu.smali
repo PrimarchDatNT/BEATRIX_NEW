@@ -12,7 +12,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -30,10 +29,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p0}, Lcom/google/android/gms/internal/ads/w;->a(Landroid/content/Context;)V
 
-    .line 2
     sget-object v0, Lcom/google/android/gms/internal/ads/y1;->b:Lcom/google/android/gms/internal/ads/y0;
 
     invoke-virtual {v0}, Lcom/google/android/gms/internal/ads/y0;->a()Ljava/lang/Object;
@@ -74,14 +71,12 @@
 
     move/from16 v13, p12
 
-    .line 3
     invoke-static/range {v1 .. v13}, Lcom/google/android/gms/internal/ads/jw;->a(Landroid/content/Context;Lcom/google/android/gms/internal/ads/dw;Ljava/lang/String;ZZLcom/google/android/gms/internal/ads/d12;Lcom/google/android/gms/internal/ads/zzbbd;Lcom/google/android/gms/internal/ads/j0;Lcom/google/android/gms/ads/internal/h;Lcom/google/android/gms/ads/internal/a;Lcom/google/android/gms/internal/ads/mk2;Lcom/google/android/gms/internal/ads/pj2;Z)Lcom/google/android/gms/internal/ads/lu;
 
     move-result-object v0
 
     return-object v0
 
-    .line 4
     :cond_0
     :try_start_0
     new-instance v0, Lcom/google/android/gms/internal/ads/vu;
@@ -129,7 +124,6 @@
     :catchall_0
     move-exception v0
 
-    .line 5
     new-instance v1, Lcom/google/android/gms/internal/ads/zzbfz;
 
     const-string v2, "Webview initialization failed."
@@ -158,7 +152,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-static {v0}, Lcom/google/android/gms/internal/ads/jq1;->g(Ljava/lang/Object;)Lcom/google/android/gms/internal/ads/rq1;
 
     move-result-object v0
@@ -181,7 +174,6 @@
 
     sget-object p0, Lcom/google/android/gms/internal/ads/dq;->e:Lcom/google/android/gms/internal/ads/uq1;
 
-    .line 2
     invoke-static {v0, v7, p0}, Lcom/google/android/gms/internal/ads/jq1;->j(Lcom/google/android/gms/internal/ads/rq1;Lcom/google/android/gms/internal/ads/xp1;Ljava/util/concurrent/Executor;)Lcom/google/android/gms/internal/ads/rq1;
 
     move-result-object p0

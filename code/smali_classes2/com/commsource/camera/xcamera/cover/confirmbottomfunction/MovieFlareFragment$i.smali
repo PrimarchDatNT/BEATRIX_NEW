@@ -32,7 +32,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/MovieFlareFragment$i;->a:Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/MovieFlareFragment;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -49,7 +48,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -62,7 +60,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -75,7 +72,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -88,7 +84,6 @@
 
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p3, p0, Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/MovieFlareFragment$i;->a:Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/MovieFlareFragment;
 
     invoke-virtual {p3}, Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/MovieFlareFragment;->G()Lcom/commsource/camera/xcamera/cover/confirm/b;
@@ -107,7 +102,6 @@
 
     if-eqz p3, :cond_0
 
-    .line 2
     invoke-virtual {p3}, Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/c;->f()I
 
     move-result p3
@@ -122,7 +116,6 @@
 
     invoke-static {v0, v1, p3}, Lcom/commsource/statistics/i;->r(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 3
     :cond_0
     iget-object p3, p0, Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/MovieFlareFragment$i;->a:Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/MovieFlareFragment;
 
@@ -132,7 +125,6 @@
 
     invoke-virtual {p3, p1}, Lcom/commsource/camera/xcamera/cover/confirm/b;->w0(I)V
 
-    .line 4
     iget-object p3, p0, Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/MovieFlareFragment$i;->a:Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/MovieFlareFragment;
 
     invoke-virtual {p3}, Landroidx/fragment/app/Fragment;->getContext()Landroid/content/Context;
@@ -141,7 +133,6 @@
 
     invoke-static {p3, p1}, Lf/d/i/n;->k1(Landroid/content/Context;I)V
 
-    .line 5
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

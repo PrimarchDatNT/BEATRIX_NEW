@@ -24,24 +24,20 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const-string v0, "ads"
 
-    .line 2
     invoke-virtual {p1, v0}, Lorg/json/JSONObject;->getJSONArray(Ljava/lang/String;)Lorg/json/JSONArray;
 
     move-result-object p1
 
-    .line 3
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
 
     iput-object v0, p0, Lcom/spotxchange/v4/h/c;->a:Ljava/util/ArrayList;
 
-    .line 4
     invoke-virtual {p1}, Lorg/json/JSONArray;->length()I
 
     move-result v0
@@ -51,7 +47,6 @@
     :goto_0
     if-ge v1, v0, :cond_0
 
-    .line 5
     iget-object v2, p0, Lcom/spotxchange/v4/h/c;->a:Ljava/util/ArrayList;
 
     new-instance v3, Lcom/spotxchange/v4/h/b;
@@ -68,7 +63,6 @@
 
     goto :goto_0
 
-    .line 6
     :cond_0
     iget-object p1, p0, Lcom/spotxchange/v4/h/c;->a:Ljava/util/ArrayList;
 

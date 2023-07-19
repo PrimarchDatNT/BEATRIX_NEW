@@ -36,10 +36,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     invoke-static {p1}, Lcom/google/common/base/t;->E(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -61,7 +59,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/reflect/l$d;->a:Ljava/lang/reflect/TypeVariable;
 
     invoke-interface {v0}, Ljava/lang/reflect/TypeVariable;->getGenericDeclaration()Ljava/lang/reflect/GenericDeclaration;
@@ -80,7 +77,6 @@
 
     iget-object v0, p0, Lcom/google/common/reflect/l$d;->a:Ljava/lang/reflect/TypeVariable;
 
-    .line 2
     invoke-interface {v0}, Ljava/lang/reflect/TypeVariable;->getName()Ljava/lang/String;
 
     move-result-object v0
@@ -109,12 +105,10 @@
 .method static c(Ljava/lang/reflect/Type;)Lcom/google/common/reflect/l$d;
     .locals 1
 
-    .line 1
     instance-of v0, p0, Ljava/lang/reflect/TypeVariable;
 
     if-eqz v0, :cond_0
 
-    .line 2
     new-instance v0, Lcom/google/common/reflect/l$d;
 
     check-cast p0, Ljava/lang/reflect/TypeVariable;
@@ -134,12 +128,10 @@
 .method a(Ljava/lang/reflect/Type;)Z
     .locals 1
 
-    .line 1
     instance-of v0, p1, Ljava/lang/reflect/TypeVariable;
 
     if-eqz v0, :cond_0
 
-    .line 2
     check-cast p1, Ljava/lang/reflect/TypeVariable;
 
     invoke-direct {p0, p1}, Lcom/google/common/reflect/l$d;->b(Ljava/lang/reflect/TypeVariable;)Z
@@ -157,15 +149,12 @@
 .method public equals(Ljava/lang/Object;)Z
     .locals 1
 
-    .line 1
     instance-of v0, p1, Lcom/google/common/reflect/l$d;
 
     if-eqz v0, :cond_0
 
-    .line 2
     check-cast p1, Lcom/google/common/reflect/l$d;
 
-    .line 3
     iget-object p1, p1, Lcom/google/common/reflect/l$d;->a:Ljava/lang/reflect/TypeVariable;
 
     invoke-direct {p0, p1}, Lcom/google/common/reflect/l$d;->b(Ljava/lang/reflect/TypeVariable;)Z
@@ -187,7 +176,6 @@
 
     new-array v0, v0, [Ljava/lang/Object;
 
-    .line 1
     iget-object v1, p0, Lcom/google/common/reflect/l$d;->a:Ljava/lang/reflect/TypeVariable;
 
     invoke-interface {v1}, Ljava/lang/reflect/TypeVariable;->getGenericDeclaration()Ljava/lang/reflect/GenericDeclaration;
@@ -218,7 +206,6 @@
 .method public toString()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/reflect/l$d;->a:Ljava/lang/reflect/TypeVariable;
 
     invoke-virtual {v0}, Ljava/lang/Object;->toString()Ljava/lang/String;

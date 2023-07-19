@@ -62,7 +62,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/studio/function/BaseSubFragment$getCurrentEffectBitmap$1;->invoke()V
 
     sget-object v1, Lcotlin/t1;->a:Lcotlin/t1;
@@ -81,24 +80,20 @@
 
     const/16 v1, 0x1e
 
-    .line 2
     invoke-static {v1}, Lcom/commsource/util/w1;->j(I)Z
 
     move-result v1
 
     if-nez v1, :cond_0
 
-    .line 3
     sget-object v1, Lcom/commsource/studio/function/BaseSubFragment$getCurrentEffectBitmap$1$a;->a:Lcom/commsource/studio/function/BaseSubFragment$getCurrentEffectBitmap$1$a;
 
     invoke-static {v1}, Lcom/commsource/util/g2;->k(Ljava/lang/Runnable;)V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 5
     :cond_0
     iget-object v1, p0, Lcom/commsource/studio/function/BaseSubFragment$getCurrentEffectBitmap$1;->this$0:Lcom/commsource/studio/function/BaseSubFragment;
 
@@ -108,7 +103,6 @@
 
     if-eqz v1, :cond_2
 
-    .line 6
     iget-object v1, p0, Lcom/commsource/studio/function/BaseSubFragment$getCurrentEffectBitmap$1;->this$0:Lcom/commsource/studio/function/BaseSubFragment;
 
     invoke-virtual {v1}, Lcom/commsource/studio/function/BaseSubFragment;->s0()Lcom/commsource/easyeditor/utils/opengl/f;
@@ -126,7 +120,6 @@
 
     goto :goto_0
 
-    .line 7
     :cond_2
     iget-object v1, p0, Lcom/commsource/studio/function/BaseSubFragment$getCurrentEffectBitmap$1;->this$0:Lcom/commsource/studio/function/BaseSubFragment;
 
@@ -142,23 +135,19 @@
 
     move-result-object v1
 
-    .line 8
     :goto_0
     iget-object v2, p0, Lcom/commsource/studio/function/BaseSubFragment$getCurrentEffectBitmap$1;->$imageResult:Lcom/commsource/studio/effect/t;
 
-    .line 9
     new-instance v3, Ljava/lang/StringBuilder;
 
     invoke-direct {v3}, Ljava/lang/StringBuilder;-><init>()V
 
-    .line 10
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
     move-result-object v4
 
     const-string v5, "total"
 
-    .line 11
     invoke-static {v4, v5}, Lcom/commsource/beautyplus/util/v;->L(Landroid/content/Context;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v4
@@ -169,7 +158,6 @@
 
     invoke-virtual {v3, v4}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 12
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v4
@@ -182,10 +170,8 @@
 
     invoke-virtual {v2, v3}, Lcom/commsource/studio/effect/t;->h(Ljava/lang/String;)V
 
-    .line 13
     sget-object v2, Lcom/commsource/util/m0;->a:Lcom/commsource/util/m0;
 
-    .line 14
     iget-object v3, p0, Lcom/commsource/studio/function/BaseSubFragment$getCurrentEffectBitmap$1;->$imageResult:Lcom/commsource/studio/effect/t;
 
     invoke-virtual {v3}, Lcom/commsource/studio/effect/t;->e()Ljava/lang/String;
@@ -194,17 +180,14 @@
 
     const/4 v4, 0x1
 
-    .line 15
     invoke-virtual {v2, v1, v3, v4}, Lcom/commsource/util/m0;->b(Landroid/graphics/Bitmap;Ljava/lang/String;Z)Z
 
-    .line 16
     new-instance v1, Lcom/commsource/studio/function/BaseSubFragment$getCurrentEffectBitmap$1$b;
 
     invoke-direct {v1, p0}, Lcom/commsource/studio/function/BaseSubFragment$getCurrentEffectBitmap$1$b;-><init>(Lcom/commsource/studio/function/BaseSubFragment$getCurrentEffectBitmap$1;)V
 
     invoke-static {v1}, Lcom/commsource/util/g2;->k(Ljava/lang/Runnable;)V
 
-    .line 17
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

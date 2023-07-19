@@ -26,10 +26,8 @@
 .method public final call()Ljava/lang/Object;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/tk1;->a:Lcom/google/android/gms/internal/ads/ok1;
 
-    .line 2
     invoke-interface {v0}, Lcom/google/android/gms/internal/ads/ok1;->run()V
 
     const/4 v0, 0x0

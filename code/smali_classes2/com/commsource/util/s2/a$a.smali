@@ -42,7 +42,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/util/s2/a$a;->a:Lcom/commsource/util/s2/a;
 
     invoke-virtual {v1}, Lcom/commsource/util/s2/a;->h()V

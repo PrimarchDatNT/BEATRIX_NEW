@@ -37,12 +37,10 @@
 .method private constructor <init>(Lio/grpc/internal/n;J)V
     .locals 0
 
-    .line 2
     iput-object p1, p0, Lio/grpc/internal/n$b;->b:Lio/grpc/internal/n;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 3
     iput-wide p2, p0, Lio/grpc/internal/n$b;->a:J
 
     return-void
@@ -51,7 +49,6 @@
 .method synthetic constructor <init>(Lio/grpc/internal/n;JLio/grpc/internal/n$a;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1, p2, p3}, Lio/grpc/internal/n$b;-><init>(Lio/grpc/internal/n;J)V
 
     return-void
@@ -62,7 +59,6 @@
 .method public a()V
     .locals 7
 
-    .line 1
     iget-wide v0, p0, Lio/grpc/internal/n$b;->a:J
 
     const-wide/16 v2, 0x2
@@ -73,7 +69,6 @@
 
     move-result-wide v0
 
-    .line 2
     iget-object v2, p0, Lio/grpc/internal/n$b;->b:Lio/grpc/internal/n;
 
     invoke-static {v2}, Lio/grpc/internal/n;->a(Lio/grpc/internal/n;)Ljava/util/concurrent/atomic/AtomicLong;
@@ -88,7 +83,6 @@
 
     if-eqz v2, :cond_0
 
-    .line 3
     invoke-static {}, Lio/grpc/internal/n;->c()Ljava/util/logging/Logger;
 
     move-result-object v2
@@ -128,7 +122,6 @@
 .method public b()J
     .locals 2
 
-    .line 1
     iget-wide v0, p0, Lio/grpc/internal/n$b;->a:J
 
     return-wide v0

@@ -27,12 +27,10 @@
 .method private constructor <init>(Lcom/appsflyer/AppsFlyerLibCore;Lcom/appsflyer/AFEvent;)V
     .locals 0
 
-    .line 2
     iput-object p1, p0, Lcom/appsflyer/AppsFlyerLibCore$e;->valueOf:Lcom/appsflyer/AppsFlyerLibCore;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 3
     iput-object p2, p0, Lcom/appsflyer/AppsFlyerLibCore$e;->$$b:Lcom/appsflyer/AFEvent;
 
     return-void
@@ -41,7 +39,6 @@
 .method synthetic constructor <init>(Lcom/appsflyer/AppsFlyerLibCore;Lcom/appsflyer/AFEvent;B)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1, p2}, Lcom/appsflyer/AppsFlyerLibCore$e;-><init>(Lcom/appsflyer/AppsFlyerLibCore;Lcom/appsflyer/AFEvent;)V
 
     return-void
@@ -52,7 +49,6 @@
 .method public final run()V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/appsflyer/AppsFlyerLibCore$e;->valueOf:Lcom/appsflyer/AppsFlyerLibCore;
 
     iget-object v1, p0, Lcom/appsflyer/AppsFlyerLibCore$e;->$$b:Lcom/appsflyer/AFEvent;

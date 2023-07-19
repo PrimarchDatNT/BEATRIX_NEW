@@ -19,10 +19,8 @@
 
     const/4 v1, 0x0
 
-    .line 1
     sput-object v1, Lcom/meitu/core/imageloader/MteImageLoader;->imageLoader:Lcom/meitu/core/imageloader/IImageLoader;
 
-    .line 2
     new-instance v1, Ljava/lang/Object;
 
     invoke-direct {v1}, Ljava/lang/Object;-><init>()V
@@ -37,7 +35,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -50,17 +47,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/meitu/core/imageloader/MteImageLoader;->imageLoader:Lcom/meitu/core/imageloader/IImageLoader;
 
     if-nez v1, :cond_2
 
-    .line 2
     sget-object v1, Lcom/meitu/core/imageloader/MteImageLoader;->sync:Ljava/lang/Object;
 
     monitor-enter v1
 
-    .line 3
     :try_start_0
     sget-object v2, Lcom/meitu/core/imageloader/MteImageLoader;->imageLoader:Lcom/meitu/core/imageloader/IImageLoader;
     :try_end_0
@@ -73,7 +67,6 @@
     :try_start_1
     const-string v3, "com.meitu.core.imageloader.MteSkiaImageLoader"
 
-    .line 4
     invoke-static {v3}, Ljava/lang/Class;->forName(Ljava/lang/String;)Ljava/lang/Class;
 
     move-result-object v2
@@ -92,7 +85,6 @@
     :try_start_2
     const-string v3, "com.meitu.core.imageloader.AndroidImageLoader"
 
-    .line 5
     invoke-static {v3}, Ljava/lang/Class;->forName(Ljava/lang/String;)Ljava/lang/Class;
 
     move-result-object v2
@@ -102,7 +94,6 @@
 
     goto :goto_1
 
-    .line 6
     :goto_0
     :try_start_3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -117,7 +108,6 @@
     :goto_1
     if-eqz v2, :cond_1
 
-    .line 7
     :try_start_4
     invoke-virtual {v2}, Ljava/lang/Class;->newInstance()Ljava/lang/Object;
 
@@ -136,7 +126,6 @@
     :catch_2
     move-exception v2
 
-    .line 8
     :try_start_5
     invoke-virtual {v2}, Ljava/lang/IllegalAccessException;->printStackTrace()V
 
@@ -145,10 +134,8 @@
     :catch_3
     move-exception v2
 
-    .line 9
     invoke-virtual {v2}, Ljava/lang/InstantiationException;->printStackTrace()V
 
-    .line 10
     :goto_2
     sget-object v2, Lcom/meitu/core/imageloader/MteImageLoader;->imageLoader:Lcom/meitu/core/imageloader/IImageLoader;
 
@@ -158,17 +145,14 @@
 
     const-string v3, "\u8b66\u544a: \u65e0\u6cd5\u627e\u5230meitu skia \u52a0\u8f7d\u5e93, \u73b0\u5728\u4f7f\u7528\u7684\u662f\u7cfb\u7edf\u56fe\u7247\u52a0\u8f7d\u65b9\u6cd5\u3002"
 
-    .line 11
     invoke-static {v2, v3}, Lcom/meitu/core/types/NDebug;->e(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 12
     new-instance v2, Lcom/meitu/core/imageloader/AndroidImageLoader;
 
     invoke-direct {v2}, Lcom/meitu/core/imageloader/AndroidImageLoader;-><init>()V
 
     sput-object v2, Lcom/meitu/core/imageloader/MteImageLoader;->imageLoader:Lcom/meitu/core/imageloader/IImageLoader;
 
-    .line 13
     :cond_0
     sget-object v2, Lcom/meitu/core/imageloader/MteImageLoader;->imageLoader:Lcom/meitu/core/imageloader/IImageLoader;
 
@@ -182,7 +166,6 @@
 
     invoke-interface {v2, v3}, Lcom/meitu/core/imageloader/IImageLoader;->init(Landroid/content/Context;)V
 
-    .line 14
     :cond_1
     monitor-exit v1
 
@@ -199,7 +182,6 @@
 
     throw v2
 
-    .line 15
     :cond_2
     :goto_3
     sget-object v1, Lcom/meitu/core/imageloader/MteImageLoader;->imageLoader:Lcom/meitu/core/imageloader/IImageLoader;
@@ -216,7 +198,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/meitu/core/imageloader/MteImageLoader;->instance()Lcom/meitu/core/imageloader/IImageLoader;
 
     move-result-object v1
@@ -239,7 +220,6 @@
 
     const/4 v1, 0x1
 
-    .line 1
     invoke-static {p0, p1, v1, v1}, Lcom/meitu/core/imageloader/MteImageLoader;->loadImageFromFileToNativeBitmap(Ljava/lang/String;IZZ)Lcom/meitu/core/types/NativeBitmap;
 
     move-result-object p0
@@ -256,7 +236,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 2
     invoke-static {}, Lcom/meitu/core/imageloader/MteImageLoader;->instance()Lcom/meitu/core/imageloader/IImageLoader;
 
     move-result-object v1
@@ -277,7 +256,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/meitu/core/imageloader/MteImageLoader;->instance()Lcom/meitu/core/imageloader/IImageLoader;
 
     move-result-object v1
@@ -298,7 +276,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/meitu/core/imageloader/MteImageLoader;->instance()Lcom/meitu/core/imageloader/IImageLoader;
 
     move-result-object v1
@@ -319,7 +296,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/meitu/core/imageloader/MteImageLoader;->instance()Lcom/meitu/core/imageloader/IImageLoader;
 
     move-result-object v1
@@ -340,7 +316,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 2
     invoke-static {}, Lcom/meitu/core/imageloader/MteImageLoader;->instance()Lcom/meitu/core/imageloader/IImageLoader;
 
     move-result-object v1
@@ -361,7 +336,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 3
     invoke-static {}, Lcom/meitu/core/imageloader/MteImageLoader;->instance()Lcom/meitu/core/imageloader/IImageLoader;
 
     move-result-object v1
@@ -382,7 +356,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/meitu/core/imageloader/MteImageLoader;->instance()Lcom/meitu/core/imageloader/IImageLoader;
 
     move-result-object v1
@@ -403,7 +376,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 2
     invoke-static {}, Lcom/meitu/core/imageloader/MteImageLoader;->instance()Lcom/meitu/core/imageloader/IImageLoader;
 
     move-result-object v1

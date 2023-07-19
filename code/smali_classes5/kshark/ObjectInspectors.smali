@@ -157,7 +157,6 @@
 
     sput-object v0, Lkshark/ObjectInspectors;->Companion:Lkshark/ObjectInspectors$a;
 
-    .line 1
     new-instance v1, Lcotlin/text/Regex;
 
     const-string v2, "^.+\\$\\d+$"
@@ -166,7 +165,6 @@
 
     sput-object v1, Lkshark/ObjectInspectors;->ANONYMOUS_CLASS_NAME_PATTERN_REGEX:Lcotlin/text/Regex;
 
-    .line 2
     const-class v1, Lkshark/ObjectInspectors;
 
     invoke-static {v1}, Ljava/util/EnumSet;->allOf(Ljava/lang/Class;)Ljava/util/EnumSet;
@@ -194,7 +192,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
     return-void
@@ -203,7 +200,6 @@
 .method public synthetic constructor <init>(Ljava/lang/String;ILcotlin/jvm/internal/u;)V
     .locals 0
 
-    .line 2
     invoke-direct {p0, p1, p2}, Lkshark/ObjectInspectors;-><init>(Ljava/lang/String;I)V
 
     return-void
@@ -212,7 +208,6 @@
 .method public static final synthetic access$getANONYMOUS_CLASS_NAME_PATTERN_REGEX$cp()Lcotlin/text/Regex;
     .locals 1
 
-    .line 1
     sget-object v0, Lkshark/ObjectInspectors;->ANONYMOUS_CLASS_NAME_PATTERN_REGEX:Lcotlin/text/Regex;
 
     return-object v0
@@ -221,7 +216,6 @@
 .method public static final synthetic access$getJdkLeakingObjectFilters$cp()Ljava/util/List;
     .locals 1
 
-    .line 1
     sget-object v0, Lkshark/ObjectInspectors;->jdkLeakingObjectFilters:Ljava/util/List;
 
     return-object v0
@@ -272,7 +266,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lkshark/ObjectInspectors;->leakingObjectFilter:Lcotlin/jvm/u/l;
 
     return-object v0

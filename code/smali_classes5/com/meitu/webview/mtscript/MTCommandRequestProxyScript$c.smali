@@ -25,7 +25,6 @@
 .method constructor <init>(Lcom/meitu/webview/mtscript/MTCommandRequestProxyScript;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/webview/mtscript/MTCommandRequestProxyScript$c;->a:Lcom/meitu/webview/mtscript/MTCommandRequestProxyScript;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -42,14 +41,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/webview/mtscript/MTCommandRequestProxyScript$c;->a:Lcom/meitu/webview/mtscript/MTCommandRequestProxyScript;
 
     iget-object v2, v1, Lcom/meitu/webview/mtscript/i;->d:Lf/k/o0/c/c;
 
     if-eqz v2, :cond_0
 
-    .line 2
     invoke-virtual {v1}, Lcom/meitu/webview/mtscript/i;->n()Landroid/app/Activity;
 
     move-result-object v1
@@ -58,7 +55,6 @@
 
     invoke-interface {v2, v1, v3}, Lf/k/o0/c/c;->a(Landroid/content/Context;Z)V
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

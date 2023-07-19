@@ -52,7 +52,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/meitu/library/camera/s/k/j;
 
     const v2, 0x7fffffff
@@ -71,12 +70,10 @@
 
     const-string v0, "MTSizeConfigValue"
 
-    .line 1
     invoke-direct {p0, v0}, Lcom/meitu/library/camera/s/k/a;-><init>(Ljava/lang/String;)V
 
     const/4 v0, 0x0
 
-    .line 2
     iput v0, p0, Lcom/meitu/library/camera/s/k/j;->i:I
 
     return-void
@@ -85,13 +82,10 @@
 .method public constructor <init>(II)V
     .locals 0
 
-    .line 3
     invoke-direct {p0}, Lcom/meitu/library/camera/s/k/j;-><init>()V
 
-    .line 4
     iput p1, p0, Lcom/meitu/library/camera/s/k/j;->g:I
 
-    .line 5
     iput p2, p0, Lcom/meitu/library/camera/s/k/j;->h:I
 
     return-void
@@ -100,16 +94,12 @@
 .method public constructor <init>(III)V
     .locals 0
 
-    .line 6
     invoke-direct {p0}, Lcom/meitu/library/camera/s/k/j;-><init>()V
 
-    .line 7
     iput p1, p0, Lcom/meitu/library/camera/s/k/j;->g:I
 
-    .line 8
     iput p2, p0, Lcom/meitu/library/camera/s/k/j;->h:I
 
-    .line 9
     iput p3, p0, Lcom/meitu/library/camera/s/k/j;->i:I
 
     return-void
@@ -124,7 +114,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -167,7 +156,6 @@
 
     if-nez p1, :cond_0
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
@@ -177,21 +165,17 @@
 
     if-ne p0, p1, :cond_1
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v2
 
-    .line 3
     :cond_1
     instance-of v3, p1, Lcom/meitu/library/camera/s/k/j;
 
     if-eqz v3, :cond_3
 
-    .line 4
     check-cast p1, Lcom/meitu/library/camera/s/k/j;
 
-    .line 5
     iget v3, p0, Lcom/meitu/library/camera/s/k/j;->g:I
 
     iget v4, p1, Lcom/meitu/library/camera/s/k/j;->g:I
@@ -211,7 +195,6 @@
 
     return v1
 
-    .line 6
     :cond_3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -225,7 +208,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/library/camera/s/k/j;->h:I
 
     iget v2, p0, Lcom/meitu/library/camera/s/k/j;->g:I
@@ -252,7 +234,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -295,7 +276,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/library/camera/s/k/j;->i:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -310,7 +290,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/library/camera/s/k/j;->h:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -325,7 +304,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/library/camera/s/k/j;->g:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -340,7 +318,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/meitu/library/camera/s/k/j;->w()I
 
     move-result v1
@@ -361,12 +338,10 @@
 
     if-eq v1, v4, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v2
 
-    .line 3
     :cond_0
     invoke-virtual {p0}, Lcom/meitu/library/camera/s/k/j;->y()I
 
@@ -378,7 +353,6 @@
 
     if-nez p1, :cond_1
 
-    .line 4
     invoke-virtual {p0}, Lcom/meitu/library/camera/s/k/j;->y()I
 
     move-result p1
@@ -392,13 +366,11 @@
     :cond_1
     const/4 v2, 0x1
 
-    .line 5
     :cond_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v2
 
-    .line 6
     :cond_3
     invoke-virtual {p0}, Lcom/meitu/library/camera/s/k/j;->x()I
 
@@ -412,7 +384,6 @@
 
     return p1
 
-    .line 7
     :cond_4
     invoke-virtual {p0}, Lcom/meitu/library/camera/s/k/j;->y()I
 
@@ -426,7 +397,6 @@
 
     return p1
 
-    .line 8
     :cond_5
     invoke-virtual {p0}, Lcom/meitu/library/camera/s/k/j;->y()I
 
@@ -438,7 +408,6 @@
 
     if-eqz p1, :cond_6
 
-    .line 9
     invoke-virtual {p0}, Lcom/meitu/library/camera/s/k/j;->x()I
 
     move-result p1
@@ -451,7 +420,6 @@
 
     const/4 v2, 0x1
 
-    .line 10
     :cond_6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

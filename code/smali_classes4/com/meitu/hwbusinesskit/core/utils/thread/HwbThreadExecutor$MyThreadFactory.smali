@@ -33,10 +33,8 @@
 .method constructor <init>(Z)V
     .locals 2
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     new-instance v0, Ljava/util/concurrent/atomic/AtomicInteger;
 
     const/4 v1, 0x1
@@ -45,14 +43,12 @@
 
     iput-object v0, p0, Lcom/meitu/hwbusinesskit/core/utils/thread/HwbThreadExecutor$MyThreadFactory;->poolNumber:Ljava/util/concurrent/atomic/AtomicInteger;
 
-    .line 3
     new-instance v0, Ljava/util/concurrent/atomic/AtomicInteger;
 
     invoke-direct {v0, v1}, Ljava/util/concurrent/atomic/AtomicInteger;-><init>(I)V
 
     iput-object v0, p0, Lcom/meitu/hwbusinesskit/core/utils/thread/HwbThreadExecutor$MyThreadFactory;->threadNumber:Ljava/util/concurrent/atomic/AtomicInteger;
 
-    .line 4
     iput-boolean p1, p0, Lcom/meitu/hwbusinesskit/core/utils/thread/HwbThreadExecutor$MyThreadFactory;->isFast:Z
 
     return-void
@@ -71,26 +67,22 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/hwbusinesskit/core/utils/thread/HwbThreadExecutor$MyThreadFactory;->threadGroup:Ljava/lang/ThreadGroup;
 
     if-nez v1, :cond_2
 
-    .line 2
     invoke-static {}, Ljava/lang/System;->getSecurityManager()Ljava/lang/SecurityManager;
 
     move-result-object v1
 
     if-eqz v1, :cond_0
 
-    .line 3
     invoke-virtual {v1}, Ljava/lang/SecurityManager;->getThreadGroup()Ljava/lang/ThreadGroup;
 
     move-result-object v1
 
     goto :goto_0
 
-    .line 4
     :cond_0
     invoke-static {}, Ljava/lang/Thread;->currentThread()Ljava/lang/Thread;
 
@@ -103,7 +95,6 @@
     :goto_0
     iput-object v1, p0, Lcom/meitu/hwbusinesskit/core/utils/thread/HwbThreadExecutor$MyThreadFactory;->threadGroup:Ljava/lang/ThreadGroup;
 
-    .line 5
     iget-boolean v1, p0, Lcom/meitu/hwbusinesskit/core/utils/thread/HwbThreadExecutor$MyThreadFactory;->isFast:Z
 
     if-eqz v1, :cond_1
@@ -112,7 +103,6 @@
 
     goto :goto_1
 
-    .line 6
     :cond_1
     new-instance v1, Ljava/lang/StringBuilder;
 
@@ -141,7 +131,6 @@
     :goto_1
     iput-object v1, p0, Lcom/meitu/hwbusinesskit/core/utils/thread/HwbThreadExecutor$MyThreadFactory;->namePrefix:Ljava/lang/String;
 
-    .line 7
     :cond_2
     new-instance v1, Ljava/lang/Thread;
 
@@ -175,7 +164,6 @@
 
     invoke-direct/range {v2 .. v7}, Ljava/lang/Thread;-><init>(Ljava/lang/ThreadGroup;Ljava/lang/Runnable;Ljava/lang/String;J)V
 
-    .line 8
     invoke-virtual {v1}, Ljava/lang/Thread;->isDaemon()Z
 
     move-result p1
@@ -184,10 +172,8 @@
 
     const/4 p1, 0x0
 
-    .line 9
     invoke-virtual {v1, p1}, Ljava/lang/Thread;->setDaemon(Z)V
 
-    .line 10
     :cond_3
     invoke-virtual {v1}, Ljava/lang/Thread;->getPriority()I
 
@@ -197,10 +183,8 @@
 
     if-eq p1, v2, :cond_4
 
-    .line 11
     invoke-virtual {v1, v2}, Ljava/lang/Thread;->setPriority(I)V
 
-    .line 12
     :cond_4
     invoke-static {}, Lcom/meitu/hwbusinesskit/core/utils/thread/HwbThreadExecutor;->access$000()Ljava/lang/String;
 
@@ -226,7 +210,6 @@
 
     invoke-static {p1, v2}, Lcom/meitu/hwbusinesskit/core/utils/TestLog;->log(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 13
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1

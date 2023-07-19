@@ -53,7 +53,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/studio/function/BaseSubFragment$onClickPreview$2$3$1;->invoke()V
 
     sget-object v1, Lcotlin/t1;->a:Lcotlin/t1;
@@ -70,7 +69,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 2
     new-instance v1, Lcom/commsource/studio/function/BaseSubFragment$onClickPreview$2$3$1$a;
 
     invoke-direct {v1, p0}, Lcom/commsource/studio/function/BaseSubFragment$onClickPreview$2$3$1$a;-><init>(Lcom/commsource/studio/function/BaseSubFragment$onClickPreview$2$3$1;)V
@@ -79,7 +77,6 @@
 
     invoke-static {v1, v2, v3}, Lcom/commsource/util/g2;->l(Ljava/lang/Runnable;J)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

@@ -31,7 +31,6 @@
 .method static constructor <clinit>()V
     .locals 8
 
-    .line 1
     new-instance v0, Lcom/bumptech/glide/MemoryCategory;
 
     const-string v1, "LOW"
@@ -44,7 +43,6 @@
 
     sput-object v0, Lcom/bumptech/glide/MemoryCategory;->LOW:Lcom/bumptech/glide/MemoryCategory;
 
-    .line 2
     new-instance v1, Lcom/bumptech/glide/MemoryCategory;
 
     const-string v3, "NORMAL"
@@ -57,7 +55,6 @@
 
     sput-object v1, Lcom/bumptech/glide/MemoryCategory;->NORMAL:Lcom/bumptech/glide/MemoryCategory;
 
-    .line 3
     new-instance v3, Lcom/bumptech/glide/MemoryCategory;
 
     const-string v5, "HIGH"
@@ -80,7 +77,6 @@
 
     aput-object v3, v5, v6
 
-    .line 4
     sput-object v5, Lcom/bumptech/glide/MemoryCategory;->$VALUES:[Lcom/bumptech/glide/MemoryCategory;
 
     return-void
@@ -94,10 +90,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 2
     iput p3, p0, Lcom/bumptech/glide/MemoryCategory;->multiplier:F
 
     return-void
@@ -106,7 +100,6 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/bumptech/glide/MemoryCategory;
     .locals 1
 
-    .line 1
     const-class v0, Lcom/bumptech/glide/MemoryCategory;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -121,7 +114,6 @@
 .method public static values()[Lcom/bumptech/glide/MemoryCategory;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/bumptech/glide/MemoryCategory;->$VALUES:[Lcom/bumptech/glide/MemoryCategory;
 
     invoke-virtual {v0}, [Lcom/bumptech/glide/MemoryCategory;->clone()Ljava/lang/Object;
@@ -138,7 +130,6 @@
 .method public getMultiplier()F
     .locals 1
 
-    .line 1
     iget v0, p0, Lcom/bumptech/glide/MemoryCategory;->multiplier:F
 
     return v0

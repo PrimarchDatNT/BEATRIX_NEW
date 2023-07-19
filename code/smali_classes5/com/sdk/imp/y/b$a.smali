@@ -27,12 +27,10 @@
 .method constructor <init>(Ljava/lang/String;)V
     .locals 1
 
-    .line 1
     iput-object p1, p0, Lcom/sdk/imp/y/b$a;->b:Ljava/lang/String;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     new-instance p1, Ljava/util/concurrent/atomic/AtomicInteger;
 
     const/4 v0, 0x1
@@ -49,7 +47,6 @@
 .method public newThread(Ljava/lang/Runnable;)Ljava/lang/Thread;
     .locals 3
 
-    .line 1
     new-instance v0, Ljava/lang/Thread;
 
     new-instance v1, Ljava/lang/StringBuilder;

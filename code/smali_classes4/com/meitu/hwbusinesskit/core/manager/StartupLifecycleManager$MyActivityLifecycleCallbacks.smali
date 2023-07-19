@@ -25,7 +25,6 @@
 .method private constructor <init>(Lcom/meitu/hwbusinesskit/core/manager/StartupLifecycleManager;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/hwbusinesskit/core/manager/StartupLifecycleManager$MyActivityLifecycleCallbacks;->this$0:Lcom/meitu/hwbusinesskit/core/manager/StartupLifecycleManager;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -36,7 +35,6 @@
 .method synthetic constructor <init>(Lcom/meitu/hwbusinesskit/core/manager/StartupLifecycleManager;Lcom/meitu/hwbusinesskit/core/manager/StartupLifecycleManager$1;)V
     .locals 0
 
-    .line 2
     invoke-direct {p0, p1}, Lcom/meitu/hwbusinesskit/core/manager/StartupLifecycleManager$MyActivityLifecycleCallbacks;-><init>(Lcom/meitu/hwbusinesskit/core/manager/StartupLifecycleManager;)V
 
     return-void
@@ -51,7 +49,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p2, p0, Lcom/meitu/hwbusinesskit/core/manager/StartupLifecycleManager$MyActivityLifecycleCallbacks;->this$0:Lcom/meitu/hwbusinesskit/core/manager/StartupLifecycleManager;
 
     invoke-static {p2}, Lcom/meitu/hwbusinesskit/core/manager/StartupLifecycleManager;->access$100(Lcom/meitu/hwbusinesskit/core/manager/StartupLifecycleManager;)Z
@@ -60,14 +57,12 @@
 
     if-eqz p2, :cond_0
 
-    .line 2
     iget-object p2, p0, Lcom/meitu/hwbusinesskit/core/manager/StartupLifecycleManager$MyActivityLifecycleCallbacks;->this$0:Lcom/meitu/hwbusinesskit/core/manager/StartupLifecycleManager;
 
     const/4 v0, 0x0
 
     invoke-static {p2, v0}, Lcom/meitu/hwbusinesskit/core/manager/StartupLifecycleManager;->access$102(Lcom/meitu/hwbusinesskit/core/manager/StartupLifecycleManager;Z)Z
 
-    .line 3
     :cond_0
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -81,7 +76,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcom/meitu/hwbusinesskit/core/manager/StartupLifecycleManager$MyActivityLifecycleCallbacks;->this$0:Lcom/meitu/hwbusinesskit/core/manager/StartupLifecycleManager;
 
     invoke-static {v0}, Lcom/meitu/hwbusinesskit/core/manager/StartupLifecycleManager;->access$200(Lcom/meitu/hwbusinesskit/core/manager/StartupLifecycleManager;)I
@@ -90,21 +84,18 @@
 
     if-nez v0, :cond_0
 
-    .line 2
     iget-object v0, p0, Lcom/meitu/hwbusinesskit/core/manager/StartupLifecycleManager$MyActivityLifecycleCallbacks;->this$0:Lcom/meitu/hwbusinesskit/core/manager/StartupLifecycleManager;
 
     const/4 v1, 0x0
 
     invoke-static {v0, v1}, Lcom/meitu/hwbusinesskit/core/manager/StartupLifecycleManager;->access$302(Lcom/meitu/hwbusinesskit/core/manager/StartupLifecycleManager;Z)Z
 
-    .line 3
     iget-object v0, p0, Lcom/meitu/hwbusinesskit/core/manager/StartupLifecycleManager$MyActivityLifecycleCallbacks;->this$0:Lcom/meitu/hwbusinesskit/core/manager/StartupLifecycleManager;
 
     const/4 v1, 0x1
 
     invoke-static {v0, v1}, Lcom/meitu/hwbusinesskit/core/manager/StartupLifecycleManager;->access$102(Lcom/meitu/hwbusinesskit/core/manager/StartupLifecycleManager;Z)Z
 
-    .line 4
     :cond_0
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -118,7 +109,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -131,7 +121,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -144,7 +133,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -157,7 +145,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
     move-result-object v1
@@ -166,7 +153,6 @@
 
     move-result-object v1
 
-    .line 2
     new-instance v2, Ljava/lang/StringBuilder;
 
     invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
@@ -183,7 +169,6 @@
 
     invoke-static {v1}, Lcom/meitu/hwbusinesskit/core/utils/TestLog;->log(Ljava/lang/String;)V
 
-    .line 3
     invoke-virtual {p1}, Landroid/app/Activity;->getIntent()Landroid/content/Intent;
 
     move-result-object p1
@@ -192,7 +177,6 @@
 
     move-result-object p1
 
-    .line 4
     invoke-static {p1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v1
@@ -222,7 +206,6 @@
     :goto_0
     const/4 p1, 0x1
 
-    .line 5
     :goto_1
     iget-object v1, p0, Lcom/meitu/hwbusinesskit/core/manager/StartupLifecycleManager$MyActivityLifecycleCallbacks;->this$0:Lcom/meitu/hwbusinesskit/core/manager/StartupLifecycleManager;
 
@@ -252,38 +235,32 @@
     :goto_2
     if-eqz p1, :cond_3
 
-    .line 6
     invoke-static {}, Lcom/meitu/hwbusinesskit/core/MTHWBusinessConfig;->isEnableHotStartup()Z
 
     move-result p1
 
     if-eqz p1, :cond_3
 
-    .line 7
     iget-object p1, p0, Lcom/meitu/hwbusinesskit/core/manager/StartupLifecycleManager$MyActivityLifecycleCallbacks;->this$0:Lcom/meitu/hwbusinesskit/core/manager/StartupLifecycleManager;
 
     invoke-static {p1, v3}, Lcom/meitu/hwbusinesskit/core/manager/StartupLifecycleManager;->access$402(Lcom/meitu/hwbusinesskit/core/manager/StartupLifecycleManager;Z)Z
 
     const-string p1, "\u70ed\u542f\u52a8"
 
-    .line 8
     invoke-static {p1}, Lcom/meitu/hwbusinesskit/core/utils/TestLog;->log(Ljava/lang/String;)V
 
     goto :goto_3
 
-    .line 9
     :cond_3
     iget-object p1, p0, Lcom/meitu/hwbusinesskit/core/manager/StartupLifecycleManager$MyActivityLifecycleCallbacks;->this$0:Lcom/meitu/hwbusinesskit/core/manager/StartupLifecycleManager;
 
     invoke-static {p1, v2}, Lcom/meitu/hwbusinesskit/core/manager/StartupLifecycleManager;->access$402(Lcom/meitu/hwbusinesskit/core/manager/StartupLifecycleManager;Z)Z
 
-    .line 10
     :goto_3
     iget-object p1, p0, Lcom/meitu/hwbusinesskit/core/manager/StartupLifecycleManager$MyActivityLifecycleCallbacks;->this$0:Lcom/meitu/hwbusinesskit/core/manager/StartupLifecycleManager;
 
     invoke-static {p1}, Lcom/meitu/hwbusinesskit/core/manager/StartupLifecycleManager;->access$208(Lcom/meitu/hwbusinesskit/core/manager/StartupLifecycleManager;)I
 
-    .line 11
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -296,19 +273,16 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/hwbusinesskit/core/manager/StartupLifecycleManager$MyActivityLifecycleCallbacks;->this$0:Lcom/meitu/hwbusinesskit/core/manager/StartupLifecycleManager;
 
     const/4 v2, 0x1
 
     invoke-static {v1, v2}, Lcom/meitu/hwbusinesskit/core/manager/StartupLifecycleManager;->access$302(Lcom/meitu/hwbusinesskit/core/manager/StartupLifecycleManager;Z)Z
 
-    .line 2
     iget-object v1, p0, Lcom/meitu/hwbusinesskit/core/manager/StartupLifecycleManager$MyActivityLifecycleCallbacks;->this$0:Lcom/meitu/hwbusinesskit/core/manager/StartupLifecycleManager;
 
     invoke-static {v1}, Lcom/meitu/hwbusinesskit/core/manager/StartupLifecycleManager;->access$210(Lcom/meitu/hwbusinesskit/core/manager/StartupLifecycleManager;)I
 
-    .line 3
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -333,7 +307,6 @@
 
     invoke-static {p1}, Lcom/meitu/hwbusinesskit/core/utils/TestLog;->log(Ljava/lang/String;)V
 
-    .line 4
     iget-object p1, p0, Lcom/meitu/hwbusinesskit/core/manager/StartupLifecycleManager$MyActivityLifecycleCallbacks;->this$0:Lcom/meitu/hwbusinesskit/core/manager/StartupLifecycleManager;
 
     invoke-static {p1}, Lcom/meitu/hwbusinesskit/core/manager/StartupLifecycleManager;->access$200(Lcom/meitu/hwbusinesskit/core/manager/StartupLifecycleManager;)I
@@ -344,10 +317,8 @@
 
     const-string p1, "\u5e94\u7528\u56de\u5230\u540e\u53f0"
 
-    .line 5
     invoke-static {p1}, Lcom/meitu/hwbusinesskit/core/utils/TestLog;->log(Ljava/lang/String;)V
 
-    .line 6
     invoke-static {}, Lcom/meitu/hwbusinesskit/core/config/StartUpAdvertConfig;->getInstance()Lcom/meitu/hwbusinesskit/core/config/StartUpAdvertConfig;
 
     move-result-object p1
@@ -358,7 +329,6 @@
 
     invoke-virtual {p1, v1, v2}, Lcom/meitu/hwbusinesskit/core/config/StartUpAdvertConfig;->setLastBackTime(J)V
 
-    .line 7
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

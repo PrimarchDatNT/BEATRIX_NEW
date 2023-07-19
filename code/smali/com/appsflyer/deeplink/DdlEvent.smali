@@ -48,20 +48,17 @@
         }
     .end annotation
 
-    .line 11
     :goto_0
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v0
 
-    .line 12
     iget v2, p0, Lcom/appsflyer/deeplink/DdlEvent;->context:I
 
     const/4 v3, 0x1
 
     if-ne v2, v3, :cond_0
 
-    .line 13
     iget-object v2, p0, Lcom/appsflyer/deeplink/DdlEvent;->AFEvent:Lorg/json/JSONObject;
 
     iget-object v4, p0, Lcom/appsflyer/deeplink/DdlEvent;->requestListener:Lcom/appsflyer/internal/EventDataCollector;
@@ -78,7 +75,6 @@
 
     invoke-virtual {v2, v6, v4, v5}, Lorg/json/JSONObject;->put(Ljava/lang/String;J)Lorg/json/JSONObject;
 
-    .line 14
     :cond_0
     new-instance v2, Lcom/appsflyer/BackgroundHttpTask;
 
@@ -88,7 +84,6 @@
 
     move-result-object v2
 
-    .line 15
     iget-object v4, p0, Lcom/appsflyer/deeplink/DdlEvent;->AFEvent:Lorg/json/JSONObject;
 
     const-string v5, "net"
@@ -99,18 +94,15 @@
 
     if-nez v4, :cond_1
 
-    .line 16
     new-instance v4, Lorg/json/JSONArray;
 
     invoke-direct {v4}, Lorg/json/JSONArray;-><init>()V
 
-    .line 17
     :cond_1
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v6
 
-    .line 18
     iget v8, p0, Lcom/appsflyer/deeplink/DdlEvent;->context:I
 
     sub-int/2addr v8, v3
@@ -119,12 +111,10 @@
 
     invoke-virtual {v4, v8, v0, v1}, Lorg/json/JSONArray;->put(IJ)Lorg/json/JSONArray;
 
-    .line 19
     iget-object v0, p0, Lcom/appsflyer/deeplink/DdlEvent;->AFEvent:Lorg/json/JSONObject;
 
     invoke-virtual {v0, v5, v4}, Lorg/json/JSONObject;->put(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;
 
-    .line 20
     invoke-virtual {v2}, Ljava/net/HttpURLConnection;->getResponseCode()I
 
     move-result v0
@@ -135,7 +125,6 @@
 
     if-ne v0, v1, :cond_6
 
-    .line 21
     invoke-static {}, Lcom/appsflyer/AppsFlyerLibCore;->getInstance()Lcom/appsflyer/AppsFlyerLibCore;
 
     move-result-object v0
@@ -144,14 +133,12 @@
 
     move-result-object v0
 
-    .line 22
     new-instance v1, Lorg/json/JSONObject;
 
     invoke-direct {v1, v0}, Lorg/json/JSONObject;-><init>(Ljava/lang/String;)V
 
     const-string v0, "is_second_ping"
 
-    .line 23
     invoke-virtual {v1, v0, v3}, Lorg/json/JSONObject;->optBoolean(Ljava/lang/String;Z)Z
 
     move-result v0
@@ -160,7 +147,6 @@
 
     const-string v0, "found"
 
-    .line 24
     invoke-virtual {v1, v0}, Lorg/json/JSONObject;->optBoolean(Ljava/lang/String;)Z
 
     move-result v0
@@ -174,7 +160,6 @@
     :cond_2
     const-string v0, "click_event"
 
-    .line 25
     invoke-virtual {v1, v0}, Lorg/json/JSONObject;->optJSONObject(Ljava/lang/String;)Lorg/json/JSONObject;
 
     move-result-object v0
@@ -183,7 +168,6 @@
 
     move-result-object v0
 
-    .line 26
     iget-object v1, v0, Lcom/appsflyer/deeplink/DeepLink;->$$b:Lorg/json/JSONObject;
 
     const-string v2, "is_deferred"
@@ -193,14 +177,12 @@
     :goto_1
     if-eqz v0, :cond_3
 
-    .line 27
     new-instance p0, Lcom/appsflyer/deeplink/DeepLinkResult;
 
     invoke-direct {p0, v0, v4}, Lcom/appsflyer/deeplink/DeepLinkResult;-><init>(Lcom/appsflyer/deeplink/DeepLink;Lcom/appsflyer/deeplink/DeepLinkResult$Error;)V
 
     return-object p0
 
-    .line 28
     :cond_3
     iget v0, p0, Lcom/appsflyer/deeplink/DdlEvent;->context:I
 
@@ -218,15 +200,12 @@
 
     const-string v0, "[DDL] Waiting for referrers..."
 
-    .line 29
     invoke-static {v0}, Lcom/appsflyer/AFLogger;->afDebugLog(Ljava/lang/String;)V
 
-    .line 30
     iget-object v0, p0, Lcom/appsflyer/deeplink/DdlEvent;->getDataFormatter:Ljava/util/concurrent/CountDownLatch;
 
     invoke-virtual {v0}, Ljava/util/concurrent/CountDownLatch;->await()V
 
-    .line 31
     iget-object v0, p0, Lcom/appsflyer/deeplink/DdlEvent;->AFEvent:Lorg/json/JSONObject;
 
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
@@ -239,27 +218,23 @@
 
     invoke-virtual {v0, v3, v1, v2}, Lorg/json/JSONObject;->put(Ljava/lang/String;J)Lorg/json/JSONObject;
 
-    .line 32
     iget v0, p0, Lcom/appsflyer/deeplink/DdlEvent;->getRequestListener:I
 
     iget v1, p0, Lcom/appsflyer/deeplink/DdlEvent;->addParams:I
 
     if-ne v0, v1, :cond_4
 
-    .line 33
     new-instance p0, Lcom/appsflyer/deeplink/DeepLinkResult;
 
     invoke-direct {p0, v4, v4}, Lcom/appsflyer/deeplink/DeepLinkResult;-><init>(Lcom/appsflyer/deeplink/DeepLink;Lcom/appsflyer/deeplink/DeepLinkResult$Error;)V
 
     return-object p0
 
-    .line 34
     :cond_4
     invoke-direct {p0, p1}, Lcom/appsflyer/deeplink/DdlEvent;->valueOf(Landroid/content/Context;)V
 
     goto/16 :goto_0
 
-    .line 35
     :cond_5
     new-instance p0, Lcom/appsflyer/deeplink/DeepLinkResult;
 
@@ -267,7 +242,6 @@
 
     return-object p0
 
-    .line 36
     :cond_6
     new-instance p0, Ljava/lang/StringBuilder;
 
@@ -287,7 +261,6 @@
 
     invoke-static {p0}, Lcom/appsflyer/AFLogger;->afDebugLog(Ljava/lang/String;)V
 
-    .line 37
     new-instance p0, Lcom/appsflyer/deeplink/DeepLinkResult;
 
     sget-object p1, Lcom/appsflyer/deeplink/DeepLinkResult$Error;->HTTP_STATUS_CODE:Lcom/appsflyer/deeplink/DeepLinkResult$Error;
@@ -300,12 +273,10 @@
 .method static synthetic $$a(Lcom/appsflyer/deeplink/DdlEvent;)V
     .locals 7
 
-    .line 1
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
 
-    .line 2
     invoke-static {}, Lcom/appsflyer/AppsFlyerLibCore;->getInstance()Lcom/appsflyer/AppsFlyerLibCore;
 
     move-result-object v1
@@ -325,7 +296,6 @@
 
     if-eqz v4, :cond_0
 
-    .line 3
     invoke-virtual {v4}, Lcom/appsflyer/internal/referrer/Referrer;->getState()Lcom/appsflyer/internal/referrer/Referrer$State;
 
     move-result-object v5
@@ -334,7 +304,6 @@
 
     if-eq v5, v6, :cond_0
 
-    .line 4
     invoke-interface {v0, v4}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
     :cond_0
@@ -342,7 +311,6 @@
 
     goto :goto_0
 
-    .line 5
     :cond_1
     invoke-interface {v0}, Ljava/util/List;->size()I
 
@@ -350,7 +318,6 @@
 
     iput v1, p0, Lcom/appsflyer/deeplink/DdlEvent;->addParams:I
 
-    .line 6
     invoke-interface {v0}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
     move-result-object v0
@@ -368,7 +335,6 @@
 
     check-cast v1, Lcom/appsflyer/internal/referrer/Referrer;
 
-    .line 7
     sget-object v2, Lcom/appsflyer/deeplink/DdlEvent$2;->values:[I
 
     invoke-virtual {v1}, Lcom/appsflyer/internal/referrer/Referrer;->getState()Lcom/appsflyer/internal/referrer/Referrer$State;
@@ -391,7 +357,6 @@
 
     goto :goto_1
 
-    .line 8
     :cond_2
     new-instance v2, Lcom/appsflyer/deeplink/DdlEvent$4;
 
@@ -401,7 +366,6 @@
 
     goto :goto_1
 
-    .line 9
     :cond_3
     new-instance v2, Ljava/lang/StringBuilder;
 
@@ -429,7 +393,6 @@
 
     invoke-static {v2}, Lcom/appsflyer/AFLogger;->afDebugLog(Ljava/lang/String;)V
 
-    .line 10
     invoke-direct {p0, v1}, Lcom/appsflyer/deeplink/DdlEvent;->valueOf(Lcom/appsflyer/internal/referrer/Referrer;)V
 
     goto :goto_1
@@ -441,7 +404,6 @@
 .method static synthetic $$b(Lcom/appsflyer/deeplink/DdlEvent;)Landroid/app/Application;
     .locals 0
 
-    .line 1
     invoke-virtual {p0}, Lcom/appsflyer/AFEvent;->context()Landroid/app/Application;
 
     move-result-object p0
@@ -458,7 +420,6 @@
         }
     .end annotation
 
-    .line 2
     invoke-direct {p0, p1}, Lcom/appsflyer/deeplink/DdlEvent;->valueOf(Landroid/content/Context;)V
 
     return-void
@@ -467,7 +428,6 @@
 .method static constructor <clinit>()V
     .locals 3
 
-    .line 1
     sget-object v0, Ljava/util/concurrent/TimeUnit;->SECONDS:Ljava/util/concurrent/TimeUnit;
 
     const-wide/16 v1, 0x3
@@ -484,7 +444,6 @@
 .method public constructor <init>(Landroid/content/Context;Lcom/appsflyer/internal/EventDataCollector;)V
     .locals 7
 
-    .line 1
     sget-object v2, Lcom/appsflyer/deeplink/DdlEvent;->URL:Ljava/lang/String;
 
     sget-object v3, Ljava/lang/Boolean;->FALSE:Ljava/lang/Boolean;
@@ -501,14 +460,12 @@
 
     invoke-direct/range {v0 .. v6}, Lcom/appsflyer/internal/model/event/BackgroundEvent;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Boolean;Ljava/lang/Boolean;Ljava/lang/Boolean;Landroid/content/Context;)V
 
-    .line 2
     new-instance p1, Ljava/util/ArrayList;
 
     invoke-direct {p1}, Ljava/util/ArrayList;-><init>()V
 
     iput-object p1, p0, Lcom/appsflyer/deeplink/DdlEvent;->dateFormatUTC:Ljava/util/List;
 
-    .line 3
     new-instance p1, Ljava/util/concurrent/CountDownLatch;
 
     const/4 v0, 0x1
@@ -517,14 +474,12 @@
 
     iput-object p1, p0, Lcom/appsflyer/deeplink/DdlEvent;->getDataFormatter:Ljava/util/concurrent/CountDownLatch;
 
-    .line 4
     new-instance p1, Lorg/json/JSONObject;
 
     invoke-direct {p1}, Lorg/json/JSONObject;-><init>()V
 
     iput-object p1, p0, Lcom/appsflyer/deeplink/DdlEvent;->AFEvent:Lorg/json/JSONObject;
 
-    .line 5
     iput-object p2, p0, Lcom/appsflyer/deeplink/DdlEvent;->requestListener:Lcom/appsflyer/internal/EventDataCollector;
 
     return-void
@@ -533,7 +488,6 @@
 .method private AFDateFormat(Lcom/appsflyer/deeplink/DeepLinkResult;)V
     .locals 4
 
-    .line 1
     :try_start_0
     iget-object v0, p0, Lcom/appsflyer/deeplink/DdlEvent;->AFEvent:Lorg/json/JSONObject;
 
@@ -549,7 +503,6 @@
 
     invoke-virtual {v0, v1, v2}, Lorg/json/JSONObject;->put(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;
 
-    .line 2
     iget-object v0, p0, Lcom/appsflyer/deeplink/DdlEvent;->AFEvent:Lorg/json/JSONObject;
 
     const-string/jumbo v1, "timeout_value"
@@ -560,7 +513,6 @@
     :try_end_0
     .catch Lorg/json/JSONException; {:try_start_0 .. :try_end_0} :catch_0
 
-    .line 3
     :catch_0
     iget-object v0, p0, Lcom/appsflyer/deeplink/DdlEvent;->requestListener:Lcom/appsflyer/internal/EventDataCollector;
 
@@ -574,12 +526,10 @@
 
     invoke-virtual {v0, v2, v1}, Lcom/appsflyer/internal/EventDataCollector;->set(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 4
     invoke-virtual {p0}, Lcom/appsflyer/AFEvent;->context()Landroid/app/Application;
 
     move-result-object v0
 
-    .line 5
     invoke-static {v0}, Lcom/appsflyer/AppsFlyerLibCore;->getSharedPreferences(Landroid/content/Context;)Landroid/content/SharedPreferences;
 
     move-result-object v0
@@ -598,7 +548,6 @@
 
     invoke-interface {v0}, Landroid/content/SharedPreferences$Editor;->apply()V
 
-    .line 6
     invoke-static {p1}, Lcom/appsflyer/deeplink/DeepLinkCallbacks;->$$b(Lcom/appsflyer/deeplink/DeepLinkResult;)V
 
     return-void
@@ -616,7 +565,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-interface {p0}, Ljava/util/Map;->entrySet()Ljava/util/Set;
 
     move-result-object p0
@@ -639,7 +587,6 @@
 
     check-cast v0, Ljava/util/Map$Entry;
 
-    .line 2
     invoke-interface {v0}, Ljava/util/Map$Entry;->getKey()Ljava/lang/Object;
 
     move-result-object v1
@@ -677,7 +624,6 @@
         }
     .end annotation
 
-    .line 1
     iget v0, p0, Lcom/appsflyer/deeplink/DdlEvent;->context:I
 
     const/4 v1, 0x1
@@ -686,7 +632,6 @@
 
     iput v0, p0, Lcom/appsflyer/deeplink/DdlEvent;->context:I
 
-    .line 2
     new-instance v0, Ljava/lang/StringBuilder;
 
     const-string v2, "[DDL] Preparing request "
@@ -703,17 +648,14 @@
 
     invoke-static {v0}, Lcom/appsflyer/AFLogger;->afDebugLog(Ljava/lang/String;)V
 
-    .line 3
     iget v0, p0, Lcom/appsflyer/deeplink/DdlEvent;->context:I
 
     if-ne v0, v1, :cond_2
 
-    .line 4
     invoke-static {}, Lcom/appsflyer/AppsFlyerLibCore;->getInstance()Lcom/appsflyer/AppsFlyerLibCore;
 
     move-result-object v0
 
-    .line 5
     iget-object v1, p0, Lcom/appsflyer/AFEvent;->params:Ljava/util/Map;
 
     invoke-virtual {v0, p1}, Lcom/appsflyer/AppsFlyerLibCore;->isAppsFlyerFirstLaunch(Landroid/content/Context;)Z
@@ -728,7 +670,6 @@
 
     invoke-interface {v1, v3, v2}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 6
     iget-object v1, p0, Lcom/appsflyer/AFEvent;->params:Ljava/util/Map;
 
     new-instance v2, Ljava/lang/StringBuilder;
@@ -767,7 +708,6 @@
 
     invoke-interface {v1, v3, v2}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 7
     iget-object v1, p0, Lcom/appsflyer/AFEvent;->params:Ljava/util/Map;
 
     sget-object v2, Landroid/os/Build$VERSION;->RELEASE:Ljava/lang/String;
@@ -776,7 +716,6 @@
 
     invoke-interface {v1, v3, v2}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 8
     iget-object v1, p0, Lcom/appsflyer/AFEvent;->params:Ljava/util/Map;
 
     sget-object v2, Landroid/os/Build;->MODEL:Ljava/lang/String;
@@ -785,7 +724,6 @@
 
     invoke-interface {v1, v3, v2}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 9
     iget-object v1, p0, Lcom/appsflyer/AFEvent;->params:Ljava/util/Map;
 
     invoke-virtual {v0, p1}, Lcom/appsflyer/AppsFlyerLib;->getAppsFlyerUID(Landroid/content/Context;)Ljava/lang/String;
@@ -796,19 +734,16 @@
 
     invoke-interface {v1, v3, v2}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 10
     iget-object v0, v0, Lcom/appsflyer/AppsFlyerLibCore;->sharingFilter:[Ljava/lang/String;
 
     if-eqz v0, :cond_0
 
-    .line 11
     iget-object v1, p0, Lcom/appsflyer/AFEvent;->params:Ljava/util/Map;
 
     const-string/jumbo v2, "sharing_filter"
 
     invoke-interface {v1, v2, v0}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 12
     :cond_0
     new-instance v0, Ljava/util/HashMap;
 
@@ -822,7 +757,6 @@
 
     move-result-object v0
 
-    .line 13
     invoke-static {p1}, Lcom/appsflyer/AdvertisingIdUtil;->getOaid(Landroid/content/Context;)Lcom/appsflyer/AdvertisingIdObject;
 
     move-result-object v1
@@ -833,7 +767,6 @@
 
     if-eqz v0, :cond_1
 
-    .line 14
     iget-object v2, p0, Lcom/appsflyer/AFEvent;->params:Ljava/util/Map;
 
     const-string v3, "gaid"
@@ -843,30 +776,25 @@
     :cond_1
     if-eqz v1, :cond_2
 
-    .line 15
     iget-object v0, p0, Lcom/appsflyer/AFEvent;->params:Ljava/util/Map;
 
     const-string v2, "oaid"
 
     invoke-interface {v0, v2, v1}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 16
     :cond_2
     iget-object v0, p0, Lcom/appsflyer/AFEvent;->params:Ljava/util/Map;
 
     const-string/jumbo v1, "yyyy-MM-dd\'T\'HH:mm:ss.SSS"
 
-    .line 17
     invoke-static {v1}, Lcom/appsflyer/AFDateFormat;->getDataFormatter(Ljava/lang/String;)Ljava/text/SimpleDateFormat;
 
     move-result-object v1
 
-    .line 18
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v2
 
-    .line 19
     invoke-static {v1, v2, v3}, Lcom/appsflyer/AFDateFormat;->dateFormatUTC(Ljava/text/SimpleDateFormat;J)Ljava/lang/String;
 
     move-result-object v1
@@ -875,7 +803,6 @@
 
     invoke-interface {v0, v2, v1}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 20
     iget-object v0, p0, Lcom/appsflyer/AFEvent;->params:Ljava/util/Map;
 
     iget v1, p0, Lcom/appsflyer/deeplink/DdlEvent;->context:I
@@ -888,12 +815,10 @@
 
     invoke-interface {v0, v3, v1}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 21
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
 
-    .line 22
     iget-object v1, p0, Lcom/appsflyer/deeplink/DdlEvent;->dateFormatUTC:Ljava/util/List;
 
     invoke-interface {v1}, Ljava/util/List;->iterator()Ljava/util/Iterator;
@@ -914,7 +839,6 @@
 
     check-cast v3, Lcom/appsflyer/internal/referrer/Referrer;
 
-    .line 23
     invoke-virtual {v3}, Lcom/appsflyer/internal/referrer/Referrer;->getState()Lcom/appsflyer/internal/referrer/Referrer$State;
 
     move-result-object v4
@@ -923,12 +847,10 @@
 
     if-ne v4, v5, :cond_4
 
-    .line 24
     new-instance v4, Ljava/util/HashMap;
 
     invoke-direct {v4}, Ljava/util/HashMap;-><init>()V
 
-    .line 25
     iget-object v5, v3, Lcom/appsflyer/internal/referrer/Referrer;->map:Ljava/util/Map;
 
     const-string v6, "referrer"
@@ -941,7 +863,6 @@
 
     if-eqz v5, :cond_4
 
-    .line 26
     iget-object v3, v3, Lcom/appsflyer/internal/referrer/Referrer;->map:Ljava/util/Map;
 
     const-string/jumbo v6, "source"
@@ -956,7 +877,6 @@
 
     const-string/jumbo v3, "value"
 
-    .line 27
     invoke-interface {v4, v3, v5}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     goto :goto_1
@@ -967,12 +887,10 @@
     :goto_1
     if-eqz v4, :cond_3
 
-    .line 28
     invoke-interface {v0, v4}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
     goto :goto_0
 
-    .line 29
     :cond_5
     invoke-interface {v0}, Ljava/util/List;->isEmpty()Z
 
@@ -986,7 +904,6 @@
 
     invoke-interface {v1, v3, v0}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 30
     :cond_6
     invoke-virtual {p0}, Lcom/appsflyer/AFEvent;->urlString()Ljava/lang/String;
 
@@ -1000,12 +917,10 @@
 
     move-result-object v0
 
-    .line 31
     invoke-virtual {v0}, Landroid/net/Uri;->buildUpon()Landroid/net/Uri$Builder;
 
     move-result-object v0
 
-    .line 32
     invoke-virtual {p1}, Landroid/content/Context;->getPackageName()Ljava/lang/String;
 
     move-result-object p1
@@ -1016,45 +931,38 @@
 
     iget-object v0, p0, Lcom/appsflyer/AFEvent;->params:Ljava/util/Map;
 
-    .line 33
     invoke-interface {v0, v2}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v0
 
     check-cast v0, Ljava/lang/String;
 
-    .line 34
     invoke-static {}, Lcom/appsflyer/AppsFlyerProperties;->getInstance()Lcom/appsflyer/AppsFlyerProperties;
 
     move-result-object v1
 
     const-string v2, "AppsFlyerKey"
 
-    .line 35
     invoke-virtual {v1, v2}, Lcom/appsflyer/AppsFlyerProperties;->getString(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v1
 
-    .line 36
     invoke-virtual {v1}, Ljava/lang/String;->getBytes()[B
 
     move-result-object v1
 
     const-string v3, "HmacSHA256"
 
-    .line 37
     invoke-static {v3}, Ljavax/crypto/Mac;->getInstance(Ljava/lang/String;)Ljavax/crypto/Mac;
 
     move-result-object v4
 
-    .line 38
     new-instance v5, Ljavax/crypto/spec/SecretKeySpec;
 
     invoke-direct {v5, v1, v3}, Ljavax/crypto/spec/SecretKeySpec;-><init>([BLjava/lang/String;)V
 
     invoke-virtual {v4, v5}, Ljavax/crypto/Mac;->init(Ljava/security/Key;)V
 
-    .line 39
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -1075,7 +983,6 @@
 
     move-result-object v0
 
-    .line 40
     invoke-virtual {v0}, Ljava/lang/String;->getBytes()[B
 
     move-result-object v0
@@ -1084,7 +991,6 @@
 
     move-result-object v0
 
-    .line 41
     invoke-static {v0}, Lcom/appsflyer/HashUtils;->bytesToHex([B)Ljava/lang/String;
 
     move-result-object v0
@@ -1095,7 +1001,6 @@
 
     const-string v1, "af_sig"
 
-    .line 42
     invoke-virtual {p1, v1, v0}, Landroid/net/Uri$Builder;->appendQueryParameter(Ljava/lang/String;Ljava/lang/String;)Landroid/net/Uri$Builder;
 
     move-result-object p1
@@ -1104,22 +1009,18 @@
 
     const-string v1, "sdk_version"
 
-    .line 43
     invoke-virtual {p1, v1, v0}, Landroid/net/Uri$Builder;->appendQueryParameter(Ljava/lang/String;Ljava/lang/String;)Landroid/net/Uri$Builder;
 
     move-result-object p1
 
-    .line 44
     invoke-virtual {p1}, Landroid/net/Uri$Builder;->build()Landroid/net/Uri;
 
     move-result-object p1
 
-    .line 45
     invoke-virtual {p1}, Ljava/lang/Object;->toString()Ljava/lang/String;
 
     move-result-object p1
 
-    .line 46
     invoke-virtual {p0, p1}, Lcom/appsflyer/AFEvent;->urlString(Ljava/lang/String;)Lcom/appsflyer/AFEvent;
 
     return-void
@@ -1128,24 +1029,20 @@
 .method private valueOf(Lcom/appsflyer/internal/referrer/Referrer;)V
     .locals 2
 
-    .line 47
     invoke-static {p1}, Lcom/appsflyer/deeplink/DdlEvent;->values(Lcom/appsflyer/internal/referrer/Referrer;)Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
-    .line 48
     iget-object v0, p0, Lcom/appsflyer/deeplink/DdlEvent;->dateFormatUTC:Ljava/util/List;
 
     invoke-interface {v0, p1}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
-    .line 49
     iget-object v0, p0, Lcom/appsflyer/deeplink/DdlEvent;->getDataFormatter:Ljava/util/concurrent/CountDownLatch;
 
     invoke-virtual {v0}, Ljava/util/concurrent/CountDownLatch;->countDown()V
 
-    .line 50
     new-instance v0, Ljava/lang/StringBuilder;
 
     const-string v1, "[DDL] Added non-organic "
@@ -1170,7 +1067,6 @@
 
     return-void
 
-    .line 51
     :cond_0
     iget p1, p0, Lcom/appsflyer/deeplink/DdlEvent;->getRequestListener:I
 
@@ -1182,7 +1078,6 @@
 
     if-ne p1, v0, :cond_1
 
-    .line 52
     iget-object p1, p0, Lcom/appsflyer/deeplink/DdlEvent;->getDataFormatter:Ljava/util/concurrent/CountDownLatch;
 
     invoke-virtual {p1}, Ljava/util/concurrent/CountDownLatch;->countDown()V
@@ -1212,21 +1107,18 @@
 
     if-eqz p1, :cond_1
 
-    .line 2
     invoke-virtual {p1}, Lcom/appsflyer/AdvertisingIdObject;->getAdvertisingId()Ljava/lang/String;
 
     move-result-object v1
 
     if-eqz v1, :cond_1
 
-    .line 3
     invoke-virtual {p1}, Lcom/appsflyer/AdvertisingIdObject;->isLimitAdTracking()Ljava/lang/Boolean;
 
     move-result-object v1
 
     if-eqz v1, :cond_0
 
-    .line 4
     invoke-virtual {v1}, Ljava/lang/Boolean;->booleanValue()Z
 
     move-result v1
@@ -1239,7 +1131,6 @@
     :cond_1
     if-eqz v0, :cond_2
 
-    .line 5
     new-instance v0, Lcom/appsflyer/deeplink/DdlEvent$5;
 
     invoke-direct {v0, p1}, Lcom/appsflyer/deeplink/DdlEvent$5;-><init>(Lcom/appsflyer/AdvertisingIdObject;)V
@@ -1255,7 +1146,6 @@
 .method static synthetic values(Lcom/appsflyer/deeplink/DdlEvent;Lcom/appsflyer/internal/referrer/Referrer;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/appsflyer/deeplink/DdlEvent;->valueOf(Lcom/appsflyer/internal/referrer/Referrer;)V
 
     return-void
@@ -1264,12 +1154,10 @@
 .method private values()Z
     .locals 4
 
-    .line 6
     iget-object v0, p0, Lcom/appsflyer/AFEvent;->params:Ljava/util/Map;
 
     const-string v1, "referrers"
 
-    .line 7
     invoke-interface {v0, v1}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v0
@@ -1280,7 +1168,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 8
     invoke-interface {v0}, Ljava/util/List;->size()I
 
     move-result v0
@@ -1290,7 +1177,6 @@
     :cond_0
     const/4 v0, 0x0
 
-    .line 9
     :goto_0
     iget v3, p0, Lcom/appsflyer/deeplink/DdlEvent;->addParams:I
 
@@ -1315,7 +1201,6 @@
 .method private static values(Lcom/appsflyer/internal/referrer/Referrer;)Z
     .locals 6
 
-    .line 10
     iget-object p0, p0, Lcom/appsflyer/internal/referrer/Referrer;->map:Ljava/util/Map;
 
     const-string v0, "click_ts"
@@ -1332,7 +1217,6 @@
 
     return v0
 
-    .line 11
     :cond_0
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
@@ -1377,10 +1261,8 @@
 
     const-string v0, "[DDL] start"
 
-    .line 1
     invoke-static {v0}, Lcom/appsflyer/AFLogger;->afDebugLog(Ljava/lang/String;)V
 
-    .line 2
     new-instance v0, Ljava/util/concurrent/FutureTask;
 
     new-instance v1, Lcom/appsflyer/deeplink/DdlEvent$1;
@@ -1389,7 +1271,6 @@
 
     invoke-direct {v0, v1}, Ljava/util/concurrent/FutureTask;-><init>(Ljava/util/concurrent/Callable;)V
 
-    .line 3
     new-instance v1, Ljava/lang/Thread;
 
     invoke-direct {v1, v0}, Ljava/lang/Thread;-><init>(Ljava/lang/Runnable;)V
@@ -1398,7 +1279,6 @@
 
     const/4 v1, 0x0
 
-    .line 4
     :try_start_0
     sget-wide v2, Lcom/appsflyer/deeplink/DdlEvent;->LISTENER_TIMEOUT:J
 
@@ -1410,7 +1290,6 @@
 
     check-cast v0, Lcom/appsflyer/deeplink/DeepLinkResult;
 
-    .line 5
     invoke-direct {p0, v0}, Lcom/appsflyer/deeplink/DdlEvent;->AFDateFormat(Lcom/appsflyer/deeplink/DeepLinkResult;)V
     :try_end_0
     .catch Ljava/util/concurrent/ExecutionException; {:try_start_0 .. :try_end_0} :catch_2
@@ -1419,7 +1298,6 @@
 
     return-void
 
-    .line 6
     :catch_0
     new-instance v0, Ljava/lang/StringBuilder;
 
@@ -1449,7 +1327,6 @@
 
     invoke-static {v0}, Lcom/appsflyer/AFLogger;->afDebugLog(Ljava/lang/String;)V
 
-    .line 7
     new-instance v0, Lcom/appsflyer/deeplink/DeepLinkResult;
 
     sget-object v2, Lcom/appsflyer/deeplink/DeepLinkResult$Error;->TIMEOUT:Lcom/appsflyer/deeplink/DeepLinkResult$Error;
@@ -1473,13 +1350,10 @@
 
     const-string v3, "[DDL] Error occurred"
 
-    .line 8
     invoke-static {v3, v0, v2}, Lcom/appsflyer/AFLogger;->afErrorLog(Ljava/lang/String;Ljava/lang/Throwable;Z)V
 
-    .line 9
     new-instance v2, Lcom/appsflyer/deeplink/DeepLinkResult;
 
-    .line 10
     invoke-virtual {v0}, Ljava/lang/Throwable;->getCause()Ljava/lang/Throwable;
 
     move-result-object v0
@@ -1498,7 +1372,6 @@
     :goto_1
     invoke-direct {v2, v1, v0}, Lcom/appsflyer/deeplink/DeepLinkResult;-><init>(Lcom/appsflyer/deeplink/DeepLink;Lcom/appsflyer/deeplink/DeepLinkResult$Error;)V
 
-    .line 11
     invoke-direct {p0, v2}, Lcom/appsflyer/deeplink/DdlEvent;->AFDateFormat(Lcom/appsflyer/deeplink/DeepLinkResult;)V
 
     return-void

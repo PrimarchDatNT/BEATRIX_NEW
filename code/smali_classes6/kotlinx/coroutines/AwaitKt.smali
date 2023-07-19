@@ -72,7 +72,6 @@
 
     move-result-object v1
 
-    .line 1
     iget v2, v0, Lcotlinx/coroutines/AwaitKt$awaitAll$2;->label:I
 
     const/4 v3, 0x1
@@ -89,7 +88,6 @@
 
     goto :goto_1
 
-    .line 2
     :cond_1
     new-instance p0, Ljava/lang/IllegalStateException;
 
@@ -99,11 +97,9 @@
 
     throw p0
 
-    .line 3
     :cond_2
     invoke-static {p1}, Lcotlin/r0;->n(Ljava/lang/Object;)V
 
-    .line 4
     invoke-interface {p0}, Ljava/util/Collection;->isEmpty()Z
 
     move-result p1
@@ -121,7 +117,6 @@
 
     new-array p1, p1, [Lcotlinx/coroutines/t0;
 
-    .line 5
     invoke-interface {p0, p1}, Ljava/util/Collection;->toArray([Ljava/lang/Object;)[Ljava/lang/Object;
 
     move-result-object p1
@@ -130,7 +125,6 @@
 
     check-cast p1, [Lcotlinx/coroutines/t0;
 
-    .line 6
     new-instance v2, Lcotlinx/coroutines/c;
 
     invoke-direct {v2, p1}, Lcotlinx/coroutines/c;-><init>([Lcotlinx/coroutines/t0;)V
@@ -156,7 +150,6 @@
     :goto_2
     return-object p0
 
-    .line 7
     :cond_5
     new-instance p0, Lcotlin/TypeCastException;
 
@@ -229,7 +222,6 @@
 
     move-result-object v1
 
-    .line 1
     iget v2, v0, Lcotlinx/coroutines/AwaitKt$awaitAll$1;->label:I
 
     const/4 v3, 0x1
@@ -246,7 +238,6 @@
 
     goto :goto_2
 
-    .line 2
     :cond_1
     new-instance p0, Ljava/lang/IllegalStateException;
 
@@ -256,11 +247,9 @@
 
     throw p0
 
-    .line 3
     :cond_2
     invoke-static {p1}, Lcotlin/r0;->n(Ljava/lang/Object;)V
 
-    .line 4
     array-length p1, p0
 
     if-nez p1, :cond_3
@@ -370,7 +359,6 @@
 
     move-result-object v1
 
-    .line 1
     iget v2, v0, Lcotlinx/coroutines/AwaitKt$joinAll$3;->label:I
 
     const/4 v3, 0x1
@@ -423,7 +411,6 @@
     :cond_2
     invoke-static {p1}, Lcotlin/r0;->n(Ljava/lang/Object;)V
 
-    .line 2
     invoke-interface {p0}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object p1
@@ -454,7 +441,6 @@
 
     check-cast v5, Lcotlinx/coroutines/c2;
 
-    .line 3
     iput-object p1, v1, Lcotlinx/coroutines/AwaitKt$joinAll$3;->L$0:Ljava/lang/Object;
 
     iput-object v0, v1, Lcotlinx/coroutines/AwaitKt$joinAll$3;->L$1:Ljava/lang/Object;
@@ -475,7 +461,6 @@
 
     return-object v2
 
-    .line 4
     :cond_4
     sget-object p0, Lcotlin/t1;->a:Lcotlin/t1;
 
@@ -541,7 +526,6 @@
 
     move-result-object v1
 
-    .line 1
     iget v2, v0, Lcotlinx/coroutines/AwaitKt$joinAll$1;->label:I
 
     const/4 v3, 0x1
@@ -602,7 +586,6 @@
     :cond_2
     invoke-static {p1}, Lcotlin/r0;->n(Ljava/lang/Object;)V
 
-    .line 2
     array-length p1, p0
 
     const/4 v2, 0x0
@@ -626,7 +609,6 @@
 
     aget-object v6, p1, p0
 
-    .line 3
     iput-object v0, v2, Lcotlinx/coroutines/AwaitKt$joinAll$1;->L$0:Ljava/lang/Object;
 
     iput-object v1, v2, Lcotlinx/coroutines/AwaitKt$joinAll$1;->L$1:Ljava/lang/Object;
@@ -657,7 +639,6 @@
 
     goto :goto_1
 
-    .line 4
     :cond_4
     sget-object p0, Lcotlin/t1;->a:Lcotlin/t1;
 

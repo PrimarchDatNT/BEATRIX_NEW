@@ -90,7 +90,6 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-direct {p0, p2, p3}, Lcom/mopub/volley/VolleyError;-><init>(Ljava/lang/String;Ljava/lang/Throwable;)V
 
     iput-object p1, p0, Lcom/mopub/network/MoPubNetworkError$InternalVolleyError;->reason:Lcom/mopub/network/MoPubNetworkError$Reason;
@@ -181,7 +180,6 @@
 
     move-object p5, v3
 
-    .line 2
     invoke-direct/range {p1 .. p6}, Lcom/mopub/network/MoPubNetworkError$InternalVolleyError;-><init>(Lcom/mopub/network/MoPubNetworkError$Reason;Ljava/lang/String;Ljava/lang/Throwable;Lcom/mopub/network/MoPubNetworkResponse;Ljava/lang/Integer;)V
 
     return-void
@@ -194,7 +192,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/network/MoPubNetworkError$InternalVolleyError;->cause:Ljava/lang/Throwable;
 
     return-object v0
@@ -205,7 +202,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/network/MoPubNetworkError$InternalVolleyError;->message:Ljava/lang/String;
 
     return-object v0
@@ -216,7 +212,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/network/MoPubNetworkError$InternalVolleyError;->moPubNetworkResponse:Lcom/mopub/network/MoPubNetworkResponse;
 
     return-object v0
@@ -227,7 +222,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/network/MoPubNetworkError$InternalVolleyError;->reason:Lcom/mopub/network/MoPubNetworkError$Reason;
 
     return-object v0
@@ -238,7 +232,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/network/MoPubNetworkError$InternalVolleyError;->refreshTimeMillis:Ljava/lang/Integer;
 
     return-object v0

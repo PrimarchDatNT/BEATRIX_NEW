@@ -43,7 +43,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p1}, Landroid/view/View;->isSelected()Z
 
     move-result v1
@@ -52,10 +51,8 @@
 
     const/4 v1, 0x1
 
-    .line 2
     invoke-virtual {p1, v1}, Landroid/view/View;->setSelected(Z)V
 
-    .line 3
     iget-object p1, p0, Lcom/commsource/studio/function/TeethCorrectFragment$f;->a:Lcom/commsource/studio/function/TeethCorrectFragment;
 
     invoke-static {p1}, Lcom/commsource/studio/function/TeethCorrectFragment;->B1(Lcom/commsource/studio/function/TeethCorrectFragment;)Lcom/commsource/beautyplus/f0/ac;
@@ -72,7 +69,6 @@
 
     invoke-virtual {p1, v1}, Landroid/widget/LinearLayout;->setSelected(Z)V
 
-    .line 4
     iget-object p1, p0, Lcom/commsource/studio/function/TeethCorrectFragment$f;->a:Lcom/commsource/studio/function/TeethCorrectFragment;
 
     invoke-static {p1}, Lcom/commsource/studio/function/TeethCorrectFragment;->B1(Lcom/commsource/studio/function/TeethCorrectFragment;)Lcom/commsource/beautyplus/f0/ac;
@@ -87,12 +83,10 @@
 
     invoke-virtual {p1, v1}, Landroid/widget/LinearLayout;->setSelected(Z)V
 
-    .line 5
     iget-object p1, p0, Lcom/commsource/studio/function/TeethCorrectFragment$f;->a:Lcom/commsource/studio/function/TeethCorrectFragment;
 
     invoke-static {p1, v1}, Lcom/commsource/studio/function/TeethCorrectFragment;->z1(Lcom/commsource/studio/function/TeethCorrectFragment;I)V
 
-    .line 6
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

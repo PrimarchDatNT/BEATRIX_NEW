@@ -50,7 +50,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/store/filter/search/FilterSearchFragment$j$a;->c:Lcom/commsource/store/filter/search/FilterSearchFragment$j;
 
     iget-object v0, v0, Lcom/commsource/store/filter/search/FilterSearchFragment$j;->c:Lcom/commsource/store/filter/search/FilterSearchFragment;
@@ -73,7 +72,6 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/EditText;->setText(Ljava/lang/CharSequence;)V
 
-    .line 2
     iget-object v0, p0, Lcom/commsource/store/filter/search/FilterSearchFragment$j$a;->c:Lcom/commsource/store/filter/search/FilterSearchFragment$j;
 
     iget-object v0, v0, Lcom/commsource/store/filter/search/FilterSearchFragment$j;->c:Lcom/commsource/store/filter/search/FilterSearchFragment;
@@ -86,7 +84,6 @@
 
     invoke-virtual {v0}, Landroid/widget/EditText;->clearFocus()V
 
-    .line 3
     iget-object v0, p0, Lcom/commsource/store/filter/search/FilterSearchFragment$j$a;->c:Lcom/commsource/store/filter/search/FilterSearchFragment$j;
 
     iget-object v0, v0, Lcom/commsource/store/filter/search/FilterSearchFragment$j;->c:Lcom/commsource/store/filter/search/FilterSearchFragment;
@@ -99,7 +96,6 @@
 
     invoke-static {v0}, Lcom/commsource/camera/f1/r;->a(Landroid/view/View;)V
 
-    .line 4
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

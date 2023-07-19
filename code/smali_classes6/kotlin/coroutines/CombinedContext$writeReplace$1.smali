@@ -55,7 +55,6 @@
 .method public bridge synthetic invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
     .locals 0
 
-    .line 1
     check-cast p1, Lcotlin/t1;
 
     check-cast p2, Lcotlin/coroutines/CoroutineContext$a;
@@ -86,7 +85,6 @@
 
     invoke-static {p2, p1}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 2
     iget-object p1, p0, Lcotlin/coroutines/CombinedContext$writeReplace$1;->$elements:[Lcotlin/coroutines/CoroutineContext;
 
     iget-object v0, p0, Lcotlin/coroutines/CombinedContext$writeReplace$1;->$index:Lcotlin/jvm/internal/Ref$IntRef;

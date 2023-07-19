@@ -135,7 +135,6 @@
 
     invoke-static {p6, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     iput-object p1, p0, Lcom/mopub/mobileads/CreativeExperienceSettings;->hash:Ljava/lang/String;
@@ -177,7 +176,6 @@
 
     move-object v6, p6
 
-    .line 2
     invoke-direct/range {v0 .. v6}, Lcom/mopub/mobileads/CreativeExperienceSettings;-><init>(Ljava/lang/String;ILjava/util/List;Lcom/mopub/mobileads/EndCardDurations;Lcom/mopub/mobileads/CreativeExperienceAdConfig;Lcom/mopub/mobileads/CreativeExperienceAdConfig;)V
 
     return-void
@@ -552,7 +550,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/mobileads/CreativeExperienceSettings;->endCardConfig:Lcom/mopub/mobileads/CreativeExperienceAdConfig;
 
     return-object v0
@@ -563,7 +560,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/mobileads/CreativeExperienceSettings;->endCardDurations:Lcom/mopub/mobileads/EndCardDurations;
 
     return-object v0
@@ -574,7 +570,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/mobileads/CreativeExperienceSettings;->hash:Ljava/lang/String;
 
     return-object v0
@@ -585,7 +580,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/mobileads/CreativeExperienceSettings;->mainAdConfig:Lcom/mopub/mobileads/CreativeExperienceAdConfig;
 
     return-object v0
@@ -594,7 +588,6 @@
 .method public final getMaxAdExperienceTimeSecs()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lcom/mopub/mobileads/CreativeExperienceSettings;->maxAdExperienceTimeSecs:I
 
     return v0
@@ -614,7 +607,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/mobileads/CreativeExperienceSettings;->vastSkipThresholds:Ljava/util/List;
 
     return-object v0
@@ -726,7 +718,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iput-object p1, p0, Lcom/mopub/mobileads/CreativeExperienceSettings;->hash:Ljava/lang/String;
 
     return-void
@@ -737,32 +728,25 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     :try_start_0
     new-instance v0, Ljava/io/ByteArrayOutputStream;
 
     invoke-direct {v0}, Ljava/io/ByteArrayOutputStream;-><init>()V
 
-    .line 2
     new-instance v1, Ljava/io/ObjectOutputStream;
 
     invoke-direct {v1, v0}, Ljava/io/ObjectOutputStream;-><init>(Ljava/io/OutputStream;)V
 
-    .line 3
     invoke-virtual {v1, p0}, Ljava/io/ObjectOutputStream;->writeObject(Ljava/lang/Object;)V
 
-    .line 4
     invoke-virtual {v1}, Ljava/io/ObjectOutputStream;->flush()V
 
-    .line 5
     invoke-virtual {v0}, Ljava/io/ByteArrayOutputStream;->toByteArray()[B
 
     move-result-object v2
 
-    .line 6
     invoke-virtual {v0}, Ljava/io/ByteArrayOutputStream;->close()V
 
-    .line 7
     invoke-virtual {v1}, Ljava/io/ObjectOutputStream;->close()V
     :try_end_0
     .catch Ljava/io/IOException; {:try_start_0 .. :try_end_0} :catch_0
@@ -772,7 +756,6 @@
     :catch_0
     move-exception v0
 
-    .line 8
     sget-object v1, Lcom/mopub/common/logging/MoPubLog$SdkLogEvent;->CUSTOM:Lcom/mopub/common/logging/MoPubLog$SdkLogEvent;
 
     const/4 v2, 0x2
@@ -789,7 +772,6 @@
 
     aput-object v0, v2, v3
 
-    .line 9
     invoke-static {v1, v2}, Lcom/mopub/common/logging/MoPubLog;->log(Lcom/mopub/common/logging/MoPubLog$MPLogEventType;[Ljava/lang/Object;)V
 
     const/4 v0, 0x0
@@ -802,7 +784,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -815,7 +796,6 @@
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 2
     iget-object v1, p0, Lcom/mopub/mobileads/CreativeExperienceSettings;->hash:Ljava/lang/String;
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
@@ -828,7 +808,6 @@
 
     invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 3
     iget v2, p0, Lcom/mopub/mobileads/CreativeExperienceSettings;->maxAdExperienceTimeSecs:I
 
     invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
@@ -839,7 +818,6 @@
 
     invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 4
     iget-object v2, p0, Lcom/mopub/mobileads/CreativeExperienceSettings;->vastSkipThresholds:Ljava/util/List;
 
     invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
@@ -850,7 +828,6 @@
 
     invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 5
     iget-object v2, p0, Lcom/mopub/mobileads/CreativeExperienceSettings;->endCardDurations:Lcom/mopub/mobileads/EndCardDurations;
 
     invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
@@ -861,7 +838,6 @@
 
     invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 6
     iget-object v2, p0, Lcom/mopub/mobileads/CreativeExperienceSettings;->mainAdConfig:Lcom/mopub/mobileads/CreativeExperienceAdConfig;
 
     invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
@@ -872,7 +848,6 @@
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 7
     iget-object v1, p0, Lcom/mopub/mobileads/CreativeExperienceSettings;->endCardConfig:Lcom/mopub/mobileads/CreativeExperienceAdConfig;
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;

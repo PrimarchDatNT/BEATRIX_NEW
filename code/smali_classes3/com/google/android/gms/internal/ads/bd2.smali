@@ -47,7 +47,6 @@
 .method constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -58,7 +57,6 @@
 .method public final a(I)V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/bd2;->q:Lcom/google/android/gms/internal/ads/jg2;
 
     if-eqz v0, :cond_0
@@ -69,7 +67,6 @@
 
     if-ge v0, p1, :cond_1
 
-    .line 2
     :cond_0
     new-instance v0, Lcom/google/android/gms/internal/ads/jg2;
 
@@ -77,16 +74,13 @@
 
     iput-object v0, p0, Lcom/google/android/gms/internal/ads/bd2;->q:Lcom/google/android/gms/internal/ads/jg2;
 
-    .line 3
     :cond_1
     iput p1, p0, Lcom/google/android/gms/internal/ads/bd2;->p:I
 
     const/4 p1, 0x1
 
-    .line 4
     iput-boolean p1, p0, Lcom/google/android/gms/internal/ads/bd2;->m:Z
 
-    .line 5
     iput-boolean p1, p0, Lcom/google/android/gms/internal/ads/bd2;->r:Z
 
     return-void
@@ -95,7 +89,6 @@
 .method public final b(I)J
     .locals 5
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/bd2;->k:[J
 
     aget-wide v1, v0, p1

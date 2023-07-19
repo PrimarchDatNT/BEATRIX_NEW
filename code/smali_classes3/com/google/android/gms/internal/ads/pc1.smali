@@ -17,7 +17,6 @@
         }
     .end annotation
 
-    .line 1
     sget-object v0, Lcom/google/android/gms/internal/ads/sc1;->a:Lcom/google/android/gms/internal/ads/ga1;
 
     return-object v0

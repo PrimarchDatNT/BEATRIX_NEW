@@ -27,7 +27,6 @@
 .method constructor <init>(Lcom/mopub/nativeads/MoPubAdAdapter;Landroid/widget/AdapterView$OnItemSelectedListener;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/mopub/nativeads/MoPubAdAdapter$6;->this$0:Lcom/mopub/nativeads/MoPubAdAdapter;
 
     iput-object p2, p0, Lcom/mopub/nativeads/MoPubAdAdapter$6;->val$listener:Landroid/widget/AdapterView$OnItemSelectedListener;
@@ -51,7 +50,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/nativeads/MoPubAdAdapter$6;->this$0:Lcom/mopub/nativeads/MoPubAdAdapter;
 
     invoke-virtual {v0, p3}, Lcom/mopub/nativeads/MoPubAdAdapter;->isAd(I)Z
@@ -60,12 +58,10 @@
 
     if-nez v0, :cond_0
 
-    .line 2
     iget-object v1, p0, Lcom/mopub/nativeads/MoPubAdAdapter$6;->val$listener:Landroid/widget/AdapterView$OnItemSelectedListener;
 
     iget-object v0, p0, Lcom/mopub/nativeads/MoPubAdAdapter$6;->this$0:Lcom/mopub/nativeads/MoPubAdAdapter;
 
-    .line 3
     invoke-static {v0}, Lcom/mopub/nativeads/MoPubAdAdapter;->access$200(Lcom/mopub/nativeads/MoPubAdAdapter;)Lcom/mopub/nativeads/MoPubStreamAdPlacer;
 
     move-result-object v0
@@ -80,7 +76,6 @@
 
     move-wide v5, p4
 
-    .line 4
     invoke-interface/range {v1 .. v6}, Landroid/widget/AdapterView$OnItemSelectedListener;->onItemSelected(Landroid/widget/AdapterView;Landroid/view/View;IJ)V
 
     :cond_0
@@ -97,7 +92,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/nativeads/MoPubAdAdapter$6;->val$listener:Landroid/widget/AdapterView$OnItemSelectedListener;
 
     invoke-interface {v0, p1}, Landroid/widget/AdapterView$OnItemSelectedListener;->onNothingSelected(Landroid/widget/AdapterView;)V

@@ -37,7 +37,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v0
@@ -70,20 +69,16 @@
         }
     .end annotation
 
-    .line 2
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 3
     iput-object p1, p0, Lcom/meitu/library/analytics/y/l/d;->a:Ljava/lang/Object;
 
-    .line 4
     invoke-virtual {p2}, Ljava/lang/Long;->longValue()J
 
     move-result-wide p1
 
     iput-wide p1, p0, Lcom/meitu/library/analytics/y/l/d;->b:J
 
-    .line 5
     invoke-virtual {p3}, Ljava/lang/Long;->longValue()J
 
     move-result-wide p1

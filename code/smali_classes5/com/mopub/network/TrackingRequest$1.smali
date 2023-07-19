@@ -27,7 +27,6 @@
 .method constructor <init>(Lcom/mopub/network/TrackingRequest$Listener;Ljava/lang/String;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/mopub/network/TrackingRequest$1;->val$listener:Lcom/mopub/network/TrackingRequest$Listener;
 
     iput-object p2, p0, Lcom/mopub/network/TrackingRequest$1;->val$url:Ljava/lang/String;
@@ -46,7 +45,6 @@
         .end annotation
     .end param
 
-    .line 1
     sget-object v0, Lcom/mopub/common/logging/MoPubLog$SdkLogEvent;->CUSTOM:Lcom/mopub/common/logging/MoPubLog$SdkLogEvent;
 
     const/4 v1, 0x1
@@ -75,12 +73,10 @@
 
     invoke-static {v0, v1}, Lcom/mopub/common/logging/MoPubLog;->log(Lcom/mopub/common/logging/MoPubLog$MPLogEventType;[Ljava/lang/Object;)V
 
-    .line 2
     iget-object v0, p0, Lcom/mopub/network/TrackingRequest$1;->val$listener:Lcom/mopub/network/TrackingRequest$Listener;
 
     if-eqz v0, :cond_0
 
-    .line 3
     invoke-interface {v0, p1}, Lcom/mopub/network/MoPubResponse$Listener;->onErrorResponse(Lcom/mopub/network/MoPubNetworkError;)V
 
     :cond_0
@@ -94,7 +90,6 @@
         .end annotation
     .end param
 
-    .line 1
     check-cast p1, Ljava/lang/String;
 
     invoke-virtual {p0, p1}, Lcom/mopub/network/TrackingRequest$1;->onResponse(Ljava/lang/String;)V
@@ -109,7 +104,6 @@
         .end annotation
     .end param
 
-    .line 2
     sget-object v0, Lcom/mopub/common/logging/MoPubLog$SdkLogEvent;->CUSTOM:Lcom/mopub/common/logging/MoPubLog$SdkLogEvent;
 
     const/4 v1, 0x1
@@ -136,12 +130,10 @@
 
     invoke-static {v0, v1}, Lcom/mopub/common/logging/MoPubLog;->log(Lcom/mopub/common/logging/MoPubLog$MPLogEventType;[Ljava/lang/Object;)V
 
-    .line 3
     iget-object v0, p0, Lcom/mopub/network/TrackingRequest$1;->val$listener:Lcom/mopub/network/TrackingRequest$Listener;
 
     if-eqz v0, :cond_0
 
-    .line 4
     invoke-interface {v0, p1}, Lcom/mopub/network/MoPubResponse$Listener;->onResponse(Ljava/lang/Object;)V
 
     :cond_0

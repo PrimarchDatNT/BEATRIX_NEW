@@ -41,38 +41,32 @@
 .method public constructor <init>(Lorg/apache/thrift/transport/TServerTransport;)V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     new-instance v0, Lorg/apache/thrift/transport/TTransportFactory;
 
     invoke-direct {v0}, Lorg/apache/thrift/transport/TTransportFactory;-><init>()V
 
     iput-object v0, p0, Lorg/apache/thrift/server/TServer$AbstractServerArgs;->inputTransportFactory:Lorg/apache/thrift/transport/TTransportFactory;
 
-    .line 3
     new-instance v0, Lorg/apache/thrift/transport/TTransportFactory;
 
     invoke-direct {v0}, Lorg/apache/thrift/transport/TTransportFactory;-><init>()V
 
     iput-object v0, p0, Lorg/apache/thrift/server/TServer$AbstractServerArgs;->outputTransportFactory:Lorg/apache/thrift/transport/TTransportFactory;
 
-    .line 4
     new-instance v0, Lorg/apache/thrift/protocol/TBinaryProtocol$Factory;
 
     invoke-direct {v0}, Lorg/apache/thrift/protocol/TBinaryProtocol$Factory;-><init>()V
 
     iput-object v0, p0, Lorg/apache/thrift/server/TServer$AbstractServerArgs;->inputProtocolFactory:Lorg/apache/thrift/protocol/TProtocolFactory;
 
-    .line 5
     new-instance v0, Lorg/apache/thrift/protocol/TBinaryProtocol$Factory;
 
     invoke-direct {v0}, Lorg/apache/thrift/protocol/TBinaryProtocol$Factory;-><init>()V
 
     iput-object v0, p0, Lorg/apache/thrift/server/TServer$AbstractServerArgs;->outputProtocolFactory:Lorg/apache/thrift/protocol/TProtocolFactory;
 
-    .line 6
     iput-object p1, p0, Lorg/apache/thrift/server/TServer$AbstractServerArgs;->serverTransport:Lorg/apache/thrift/transport/TServerTransport;
 
     return-void
@@ -90,7 +84,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lorg/apache/thrift/server/TServer$AbstractServerArgs;->inputProtocolFactory:Lorg/apache/thrift/protocol/TProtocolFactory;
 
     return-object p0
@@ -106,7 +99,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lorg/apache/thrift/server/TServer$AbstractServerArgs;->inputTransportFactory:Lorg/apache/thrift/transport/TTransportFactory;
 
     return-object p0
@@ -122,7 +114,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lorg/apache/thrift/server/TServer$AbstractServerArgs;->outputProtocolFactory:Lorg/apache/thrift/protocol/TProtocolFactory;
 
     return-object p0
@@ -138,7 +129,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lorg/apache/thrift/server/TServer$AbstractServerArgs;->outputTransportFactory:Lorg/apache/thrift/transport/TTransportFactory;
 
     return-object p0
@@ -154,7 +144,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lorg/apache/thrift/TProcessorFactory;
 
     invoke-direct {v0, p1}, Lorg/apache/thrift/TProcessorFactory;-><init>(Lorg/apache/thrift/TProcessor;)V
@@ -174,7 +163,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lorg/apache/thrift/server/TServer$AbstractServerArgs;->processorFactory:Lorg/apache/thrift/TProcessorFactory;
 
     return-object p0
@@ -190,10 +178,8 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lorg/apache/thrift/server/TServer$AbstractServerArgs;->inputProtocolFactory:Lorg/apache/thrift/protocol/TProtocolFactory;
 
-    .line 2
     iput-object p1, p0, Lorg/apache/thrift/server/TServer$AbstractServerArgs;->outputProtocolFactory:Lorg/apache/thrift/protocol/TProtocolFactory;
 
     return-object p0
@@ -209,10 +195,8 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lorg/apache/thrift/server/TServer$AbstractServerArgs;->inputTransportFactory:Lorg/apache/thrift/transport/TTransportFactory;
 
-    .line 2
     iput-object p1, p0, Lorg/apache/thrift/server/TServer$AbstractServerArgs;->outputTransportFactory:Lorg/apache/thrift/transport/TTransportFactory;
 
     return-object p0

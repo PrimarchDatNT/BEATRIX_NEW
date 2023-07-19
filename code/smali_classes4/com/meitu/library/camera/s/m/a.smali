@@ -25,10 +25,8 @@
 .method public constructor <init>(Ljava/lang/String;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/meitu/library/camera/s/m/a;->a:Ljava/lang/String;
 
     return-void
@@ -41,7 +39,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/meitu/library/camera/s/m/a;->a:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -65,7 +62,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/meitu/library/camera/s/m/a;->g()Lcom/meitu/remote/config/c;
 
     move-result-object v1
@@ -88,12 +84,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v1
 
-    .line 2
     invoke-virtual {p0}, Lcom/meitu/library/camera/s/m/a;->g()Lcom/meitu/remote/config/c;
 
     move-result-object v3
@@ -102,14 +96,12 @@
 
     move-result-object v3
 
-    .line 3
     new-instance v4, Lcom/meitu/library/camera/s/m/a$c;
 
     invoke-direct {v4, p0, v1, v2}, Lcom/meitu/library/camera/s/m/a$c;-><init>(Lcom/meitu/library/camera/s/m/a;J)V
 
     invoke-virtual {v3, v4}, Lcom/google/android/gms/tasks/k;->e(Lcom/google/android/gms/tasks/e;)Lcom/google/android/gms/tasks/k;
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -130,7 +122,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/meitu/library/camera/s/m/a;->g()Lcom/meitu/remote/config/c;
 
     move-result-object v1
@@ -141,7 +132,6 @@
 
     invoke-virtual {v1, p1}, Lcom/google/android/gms/tasks/k;->e(Lcom/google/android/gms/tasks/e;)Lcom/google/android/gms/tasks/k;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -162,7 +152,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/meitu/library/camera/s/m/a;->g()Lcom/meitu/remote/config/c;
 
     move-result-object v1
@@ -173,7 +162,6 @@
 
     invoke-virtual {v1, p1}, Lcom/google/android/gms/tasks/k;->e(Lcom/google/android/gms/tasks/e;)Lcom/google/android/gms/tasks/k;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -186,7 +174,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/meitu/library/camera/s/m/a;->g()Lcom/meitu/remote/config/c;
 
     move-result-object v1
@@ -195,14 +182,12 @@
 
     move-result-object v1
 
-    .line 2
     new-instance v2, Lcom/meitu/library/camera/s/m/a$b;
 
     invoke-direct {v2, p0}, Lcom/meitu/library/camera/s/m/a$b;-><init>(Lcom/meitu/library/camera/s/m/a;)V
 
     invoke-virtual {v1, v2}, Lcom/google/android/gms/tasks/k;->e(Lcom/google/android/gms/tasks/e;)Lcom/google/android/gms/tasks/k;
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -215,7 +200,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/library/camera/s/m/a;->a:Ljava/lang/String;
 
     invoke-static {v1}, Lcom/meitu/remote/config/c;->r(Ljava/lang/String;)Lcom/meitu/remote/config/c;
@@ -234,57 +218,47 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/meitu/library/camera/s/m/a;->g()Lcom/meitu/remote/config/c;
 
     move-result-object v1
 
     if-nez p1, :cond_0
 
-    .line 2
     new-instance p1, Lcom/meitu/remote/config/g$b;
 
     invoke-direct {p1}, Lcom/meitu/remote/config/g$b;-><init>()V
 
-    .line 3
     invoke-virtual {p1, p2, p3}, Lcom/meitu/remote/config/g$b;->j(J)Lcom/meitu/remote/config/g$b;
 
     const-wide/16 p2, 0x3c
 
-    .line 4
     invoke-virtual {p1, p2, p3}, Lcom/meitu/remote/config/g$b;->i(J)Lcom/meitu/remote/config/g$b;
 
     const/4 p2, 0x0
 
-    .line 5
     invoke-virtual {p1, p2}, Lcom/meitu/remote/config/g$b;->h(Z)Lcom/meitu/remote/config/g$b;
 
-    .line 6
     invoke-virtual {p1}, Lcom/meitu/remote/config/g$b;->d()Lcom/meitu/remote/config/g;
 
     move-result-object p1
 
     invoke-virtual {v1, p1}, Lcom/meitu/remote/config/c;->A(Lcom/meitu/remote/config/g;)Lcom/google/android/gms/tasks/k;
 
-    .line 7
     :cond_0
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide p1
 
-    .line 8
     invoke-virtual {v1}, Lcom/meitu/remote/config/c;->i()Lcom/google/android/gms/tasks/k;
 
     move-result-object p3
 
-    .line 9
     new-instance v1, Lcom/meitu/library/camera/s/m/a$a;
 
     invoke-direct {v1, p0, p1, p2}, Lcom/meitu/library/camera/s/m/a$a;-><init>(Lcom/meitu/library/camera/s/m/a;J)V
 
     invoke-virtual {p3, v1}, Lcom/google/android/gms/tasks/k;->e(Lcom/google/android/gms/tasks/e;)Lcom/google/android/gms/tasks/k;
 
-    .line 10
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -310,14 +284,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/meitu/library/camera/s/m/a;->g()Lcom/meitu/remote/config/c;
 
     move-result-object v1
 
     invoke-virtual {v1, p1}, Lcom/meitu/remote/config/c;->C(Ljava/util/Map;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

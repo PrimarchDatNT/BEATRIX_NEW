@@ -31,13 +31,10 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput p1, p0, Lcom/google/firebase/firestore/local/v;->a:I
 
-    .line 3
     iput-object p2, p0, Lcom/google/firebase/firestore/local/v;->b:Lcom/google/firebase/database/collection/d;
 
     return-void
@@ -48,7 +45,6 @@
 .method public a()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lcom/google/firebase/firestore/local/v;->a:I
 
     return v0
@@ -66,7 +62,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/firestore/local/v;->b:Lcom/google/firebase/database/collection/d;
 
     return-object v0

@@ -19,7 +19,6 @@
 .method private static $$a(Ljava/lang/String;Ljava/lang/Throwable;ZZ)V
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/appsflyer/AFLogger$LogLevel;->ERROR:Lcom/appsflyer/AFLogger$LogLevel;
 
     invoke-static {v0}, Lcom/appsflyer/AFLogger;->valueOf(Lcom/appsflyer/AFLogger$LogLevel;)Z
@@ -30,7 +29,6 @@
 
     if-nez p0, :cond_0
 
-    .line 2
     invoke-virtual {p1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
     move-result-object p0
@@ -42,7 +40,6 @@
     :cond_0
     const/4 v0, 0x0
 
-    .line 3
     invoke-static {p0, v0}, Lcom/appsflyer/AFLogger;->$$b(Ljava/lang/String;Z)Ljava/lang/String;
 
     move-result-object p0
@@ -51,7 +48,6 @@
 
     if-eqz p3, :cond_1
 
-    .line 4
     invoke-static {v0, p0, p1}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
 
     goto :goto_0
@@ -59,22 +55,18 @@
     :cond_1
     if-eqz p2, :cond_2
 
-    .line 5
     invoke-static {v0, p0}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 6
     :cond_2
     :goto_0
     invoke-static {}, Lcom/appsflyer/internal/ad;->$$a()Lcom/appsflyer/internal/ad;
 
     move-result-object p0
 
-    .line 7
     invoke-virtual {p1}, Ljava/lang/Throwable;->getCause()Ljava/lang/Throwable;
 
     move-result-object p2
 
-    .line 8
     invoke-virtual {p1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
     move-result-object p3
@@ -119,7 +111,6 @@
 
     invoke-virtual {p0, p2, p3, p1}, Lcom/appsflyer/internal/ad;->AFDateFormat(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;)V
 
-    .line 9
     invoke-static {}, Lcom/appsflyer/internal/Exlytics;->increment()V
 
     return-void
@@ -137,7 +128,6 @@
     :cond_0
     if-nez p1, :cond_2
 
-    .line 1
     sget-object p1, Lcom/appsflyer/AFLogger$LogLevel;->VERBOSE:Lcom/appsflyer/AFLogger$LogLevel;
 
     invoke-virtual {p1}, Lcom/appsflyer/AFLogger$LogLevel;->getLevel()I
@@ -148,7 +138,6 @@
 
     move-result-object v0
 
-    .line 2
     sget-object v1, Lcom/appsflyer/AFLogger$LogLevel;->NONE:Lcom/appsflyer/AFLogger$LogLevel;
 
     invoke-virtual {v1}, Lcom/appsflyer/AFLogger$LogLevel;->getLevel()I
@@ -168,7 +157,6 @@
     :cond_1
     return-object p0
 
-    .line 3
     :cond_2
     :goto_0
     new-instance p1, Ljava/lang/StringBuilder;
@@ -191,7 +179,6 @@
 
     invoke-virtual {p1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 4
     invoke-static {}, Ljava/lang/Thread;->currentThread()Ljava/lang/Thread;
 
     move-result-object v0
@@ -218,7 +205,6 @@
 .method static $$b(Ljava/lang/String;)V
     .locals 4
 
-    .line 5
     sget-object v0, Lcom/appsflyer/AFLogger$LogLevel;->WARNING:Lcom/appsflyer/AFLogger$LogLevel;
 
     invoke-static {v0}, Lcom/appsflyer/AFLogger;->valueOf(Lcom/appsflyer/AFLogger$LogLevel;)Z
@@ -229,17 +215,14 @@
 
     if-eqz v0, :cond_0
 
-    .line 6
     invoke-static {p0, v1}, Lcom/appsflyer/AFLogger;->$$b(Ljava/lang/String;Z)Ljava/lang/String;
 
     move-result-object v0
 
     const-string v2, "AppsFlyer_6.1.4"
 
-    .line 7
     invoke-static {v2, v0}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 8
     :cond_0
     invoke-static {}, Lcom/appsflyer/internal/ad;->$$a()Lcom/appsflyer/internal/ad;
 
@@ -259,7 +242,6 @@
 
     const-string p0, "W"
 
-    .line 9
     invoke-virtual {v0, v3, p0, v2}, Lcom/appsflyer/internal/ad;->AFDateFormat(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;)V
 
     return-void
@@ -268,7 +250,6 @@
 .method static constructor <clinit>()V
     .locals 2
 
-    .line 1
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v0
@@ -281,7 +262,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -290,7 +270,6 @@
 .method public static afDebugLog(Ljava/lang/String;)V
     .locals 4
 
-    .line 1
     sget-object v0, Lcom/appsflyer/AFLogger$LogLevel;->DEBUG:Lcom/appsflyer/AFLogger$LogLevel;
 
     invoke-static {v0}, Lcom/appsflyer/AFLogger;->valueOf(Lcom/appsflyer/AFLogger$LogLevel;)Z
@@ -301,17 +280,14 @@
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-static {p0, v1}, Lcom/appsflyer/AFLogger;->$$b(Ljava/lang/String;Z)Ljava/lang/String;
 
     move-result-object v0
 
     const-string v2, "AppsFlyer_6.1.4"
 
-    .line 3
     invoke-static {v2, v0}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 4
     :cond_0
     invoke-static {}, Lcom/appsflyer/internal/ad;->$$a()Lcom/appsflyer/internal/ad;
 
@@ -331,7 +307,6 @@
 
     const-string p0, "D"
 
-    .line 5
     invoke-virtual {v0, v3, p0, v2}, Lcom/appsflyer/internal/ad;->AFDateFormat(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;)V
 
     return-void
@@ -344,7 +319,6 @@
 
     const/4 v1, 0x0
 
-    .line 1
     invoke-static {p0, p1, v0, v1}, Lcom/appsflyer/AFLogger;->$$a(Ljava/lang/String;Ljava/lang/Throwable;ZZ)V
 
     return-void
@@ -355,7 +329,6 @@
 
     const/4 v0, 0x1
 
-    .line 2
     invoke-static {p0, p1, v0, p2}, Lcom/appsflyer/AFLogger;->$$a(Ljava/lang/String;Ljava/lang/Throwable;ZZ)V
 
     return-void
@@ -368,7 +341,6 @@
 
     const/4 v1, 0x0
 
-    .line 3
     invoke-static {v0, p0, v1, v1}, Lcom/appsflyer/AFLogger;->$$a(Ljava/lang/String;Ljava/lang/Throwable;ZZ)V
 
     return-void
@@ -379,7 +351,6 @@
 
     const/4 v0, 0x1
 
-    .line 6
     invoke-static {p0, v0}, Lcom/appsflyer/AFLogger;->afInfoLog(Ljava/lang/String;Z)V
 
     return-void
@@ -388,7 +359,6 @@
 .method public static afInfoLog(Ljava/lang/String;Z)V
     .locals 3
 
-    .line 1
     sget-object v0, Lcom/appsflyer/AFLogger$LogLevel;->INFO:Lcom/appsflyer/AFLogger$LogLevel;
 
     invoke-static {v0}, Lcom/appsflyer/AFLogger;->valueOf(Lcom/appsflyer/AFLogger$LogLevel;)Z
@@ -399,20 +369,17 @@
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-static {p0, v1}, Lcom/appsflyer/AFLogger;->$$b(Ljava/lang/String;Z)Ljava/lang/String;
 
     move-result-object v0
 
     const-string v2, "AppsFlyer_6.1.4"
 
-    .line 3
     invoke-static {v2, v0}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;)I
 
     :cond_0
     if-eqz p1, :cond_1
 
-    .line 4
     invoke-static {}, Lcom/appsflyer/internal/ad;->$$a()Lcom/appsflyer/internal/ad;
 
     move-result-object p1
@@ -431,7 +398,6 @@
 
     const-string p0, "I"
 
-    .line 5
     invoke-virtual {p1, v2, p0, v0}, Lcom/appsflyer/internal/ad;->AFDateFormat(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;)V
 
     :cond_1
@@ -441,7 +407,6 @@
 .method public static afRDLog(Ljava/lang/String;)V
     .locals 4
 
-    .line 1
     sget-object v0, Lcom/appsflyer/AFLogger$LogLevel;->VERBOSE:Lcom/appsflyer/AFLogger$LogLevel;
 
     invoke-static {v0}, Lcom/appsflyer/AFLogger;->valueOf(Lcom/appsflyer/AFLogger$LogLevel;)Z
@@ -452,17 +417,14 @@
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-static {p0, v1}, Lcom/appsflyer/AFLogger;->$$b(Ljava/lang/String;Z)Ljava/lang/String;
 
     move-result-object v0
 
     const-string v2, "AppsFlyer_6.1.4"
 
-    .line 3
     invoke-static {v2, v0}, Landroid/util/Log;->v(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 4
     :cond_0
     invoke-static {}, Lcom/appsflyer/internal/ad;->$$a()Lcom/appsflyer/internal/ad;
 
@@ -482,7 +444,6 @@
 
     const-string p0, "V"
 
-    .line 5
     invoke-virtual {v0, v3, p0, v2}, Lcom/appsflyer/internal/ad;->AFDateFormat(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;)V
 
     return-void
@@ -491,7 +452,6 @@
 .method public static afWarnLog(Ljava/lang/String;)V
     .locals 0
 
-    .line 1
     invoke-static {p0}, Lcom/appsflyer/AFLogger;->$$b(Ljava/lang/String;)V
 
     return-void
@@ -500,7 +460,6 @@
 .method static valueOf(Ljava/lang/String;)V
     .locals 4
 
-    .line 3
     invoke-static {}, Lcom/appsflyer/AFLogger;->valueOf()Z
 
     move-result v0
@@ -509,17 +468,14 @@
 
     if-nez v0, :cond_0
 
-    .line 4
     invoke-static {p0, v1}, Lcom/appsflyer/AFLogger;->$$b(Ljava/lang/String;Z)Ljava/lang/String;
 
     move-result-object v0
 
     const-string v2, "AppsFlyer_6.1.4"
 
-    .line 5
     invoke-static {v2, v0}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 6
     :cond_0
     invoke-static {}, Lcom/appsflyer/internal/ad;->$$a()Lcom/appsflyer/internal/ad;
 
@@ -535,7 +491,6 @@
 
     const-string p0, "F"
 
-    .line 7
     invoke-virtual {v0, v2, p0, v3}, Lcom/appsflyer/internal/ad;->AFDateFormat(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;)V
 
     return-void
@@ -544,7 +499,6 @@
 .method private static valueOf()Z
     .locals 1
 
-    .line 8
     invoke-static {}, Lcom/appsflyer/AppsFlyerProperties;->getInstance()Lcom/appsflyer/AppsFlyerProperties;
 
     move-result-object v0
@@ -559,7 +513,6 @@
 .method private static valueOf(Lcom/appsflyer/AFLogger$LogLevel;)Z
     .locals 3
 
-    .line 1
     invoke-virtual {p0}, Lcom/appsflyer/AFLogger$LogLevel;->getLevel()I
 
     move-result p0
@@ -568,7 +521,6 @@
 
     move-result-object v0
 
-    .line 2
     sget-object v1, Lcom/appsflyer/AFLogger$LogLevel;->NONE:Lcom/appsflyer/AFLogger$LogLevel;
 
     invoke-virtual {v1}, Lcom/appsflyer/AFLogger$LogLevel;->getLevel()I

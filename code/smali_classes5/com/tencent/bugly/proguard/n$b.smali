@@ -27,7 +27,6 @@
 .method constructor <init>(Lcom/tencent/bugly/proguard/n;I)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/tencent/bugly/proguard/n$b;->b:Lcom/tencent/bugly/proguard/n;
 
     iput p2, p0, Lcom/tencent/bugly/proguard/n$b;->a:I
@@ -42,7 +41,6 @@
 .method public final run()V
     .locals 4
 
-    .line 1
     iget-object v0, p0, Lcom/tencent/bugly/proguard/n$b;->b:Lcom/tencent/bugly/proguard/n;
 
     iget v1, p0, Lcom/tencent/bugly/proguard/n$b;->a:I
@@ -51,7 +49,6 @@
 
     move-result v0
 
-    .line 2
     iget-object v1, p0, Lcom/tencent/bugly/proguard/n$b;->b:Lcom/tencent/bugly/proguard/n;
 
     invoke-static {v1}, Lcom/tencent/bugly/proguard/n;->c(Lcom/tencent/bugly/proguard/n;)Landroid/content/SharedPreferences;

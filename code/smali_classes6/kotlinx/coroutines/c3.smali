@@ -22,7 +22,6 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-direct {p0, p1, p2}, Lcotlinx/coroutines/a;-><init>(Lcotlin/coroutines/CoroutineContext;Z)V
 
     return-void
@@ -37,7 +36,6 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-virtual {p0}, Lcotlinx/coroutines/a;->getContext()Lcotlin/coroutines/CoroutineContext;
 
     move-result-object v0

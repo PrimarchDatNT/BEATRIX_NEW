@@ -41,7 +41,6 @@
 .method public constructor <init>(II)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/studio/bean/FocusLayerInfo;-><init>()V
 
     iput p1, p0, Lcom/commsource/studio/bean/GroupLayerInfo;->canvasWidth:I
@@ -50,10 +49,8 @@
 
     const/4 p1, 0x7
 
-    .line 2
     iput p1, p0, Lcom/commsource/studio/bean/GroupLayerInfo;->layerType:I
 
-    .line 3
     new-instance p1, Ljava/util/ArrayList;
 
     invoke-direct {p1}, Ljava/util/ArrayList;-><init>()V
@@ -76,7 +73,6 @@
 
     const/4 p2, -0x1
 
-    .line 1
     :cond_0
     invoke-virtual {p0, p1, p2}, Lcom/commsource/studio/bean/GroupLayerInfo;->insert(Lcom/commsource/studio/bean/FocusLayerInfo;I)V
 
@@ -98,7 +94,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/bean/GroupLayerInfo;->subLayerInfos:Ljava/util/ArrayList;
 
     invoke-interface {v1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
@@ -160,7 +155,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0, p1}, Lcom/commsource/studio/bean/GroupLayerInfo;->copy(Z)Lcom/commsource/studio/bean/GroupLayerInfo;
 
     move-result-object p1
@@ -177,7 +171,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 2
     invoke-virtual {p0, p1}, Lcom/commsource/studio/bean/GroupLayerInfo;->copy(Z)Lcom/commsource/studio/bean/GroupLayerInfo;
 
     move-result-object p1
@@ -196,7 +189,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 3
     invoke-super {p0, p1}, Lcom/commsource/studio/bean/FocusLayerInfo;->copy(Z)Lcom/commsource/studio/bean/FocusLayerInfo;
 
     move-result-object v1
@@ -205,17 +197,14 @@
 
     check-cast v1, Lcom/commsource/studio/bean/GroupLayerInfo;
 
-    .line 4
     new-instance v2, Ljava/util/ArrayList;
 
     invoke-direct {v2}, Ljava/util/ArrayList;-><init>()V
 
     iput-object v2, v1, Lcom/commsource/studio/bean/GroupLayerInfo;->subLayerInfos:Ljava/util/ArrayList;
 
-    .line 5
     iget-object v2, p0, Lcom/commsource/studio/bean/GroupLayerInfo;->subLayerInfos:Ljava/util/ArrayList;
 
-    .line 6
     invoke-interface {v2}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v2
@@ -233,7 +222,6 @@
 
     check-cast v3, Lcotlin/Pair;
 
-    .line 7
     iget-object v4, v1, Lcom/commsource/studio/bean/GroupLayerInfo;->subLayerInfos:Ljava/util/ArrayList;
 
     invoke-virtual {v3}, Lcotlin/Pair;->getFirst()Ljava/lang/Object;
@@ -246,7 +234,6 @@
 
     move-result-object v5
 
-    .line 8
     invoke-virtual {v3}, Lcotlin/Pair;->getFirst()Ljava/lang/Object;
 
     move-result-object v6
@@ -259,10 +246,8 @@
 
     if-eqz v6, :cond_0
 
-    .line 9
     invoke-virtual {v5, v1}, Lcom/commsource/studio/bean/FocusLayerInfo;->setGroupLayerInfo(Lcom/commsource/studio/bean/GroupLayerInfo;)V
 
-    .line 10
     :cond_0
     new-instance v6, Lcom/commsource/studio/MatrixBox;
 
@@ -274,7 +259,6 @@
 
     invoke-direct {v6, v3}, Lcom/commsource/studio/MatrixBox;-><init>(Lcom/commsource/studio/MatrixBox;)V
 
-    .line 11
     new-instance v3, Lcotlin/Pair;
 
     invoke-direct {v3, v5, v6}, Lcotlin/Pair;-><init>(Ljava/lang/Object;Ljava/lang/Object;)V
@@ -286,15 +270,12 @@
     :cond_1
     const/4 p1, 0x0
 
-    .line 12
     iput-object p1, v1, Lcom/commsource/studio/bean/GroupLayerInfo;->serializeString:Ljava/lang/String;
 
-    .line 13
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
 
-    .line 14
     :cond_2
     new-instance p1, Lcotlin/TypeCastException;
 
@@ -314,10 +295,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/bean/GroupLayerInfo;->subLayerInfos:Ljava/util/ArrayList;
 
-    .line 2
     invoke-interface {v1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v1
@@ -350,7 +329,6 @@
 
     if-nez v3, :cond_1
 
-    .line 3
     invoke-virtual {v5}, Lcotlin/Pair;->getFirst()Ljava/lang/Object;
 
     move-result-object v3
@@ -363,7 +341,6 @@
 
     goto :goto_1
 
-    .line 4
     :cond_1
     invoke-virtual {v5}, Lcotlin/Pair;->getFirst()Ljava/lang/Object;
 
@@ -379,7 +356,6 @@
 
     if-eqz v3, :cond_2
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v2
@@ -390,7 +366,6 @@
 
     goto :goto_0
 
-    .line 6
     :cond_3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -404,7 +379,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/bean/GroupLayerInfo;->canvasHeight:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -419,7 +393,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/bean/GroupLayerInfo;->canvasWidth:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -451,10 +424,8 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/bean/GroupLayerInfo;->subLayerInfos:Ljava/util/ArrayList;
 
-    .line 2
     instance-of v2, v1, Ljava/util/Collection;
 
     const/4 v3, 0x0
@@ -469,7 +440,6 @@
 
     goto :goto_1
 
-    .line 3
     :cond_0
     invoke-interface {v1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
@@ -489,7 +459,6 @@
 
     check-cast v2, Lcotlin/Pair;
 
-    .line 4
     invoke-virtual {v2}, Lcotlin/Pair;->getFirst()Ljava/lang/Object;
 
     move-result-object v2
@@ -512,7 +481,6 @@
 
     goto :goto_0
 
-    .line 5
     :cond_2
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -549,7 +517,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/bean/GroupLayerInfo;->subLayerInfos:Ljava/util/ArrayList;
 
     invoke-interface {v1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
@@ -603,7 +570,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/bean/GroupLayerInfo;->layerType:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -620,10 +586,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/bean/GroupLayerInfo;->subLayerInfos:Ljava/util/ArrayList;
 
-    .line 2
     invoke-interface {v1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v1
@@ -656,7 +620,6 @@
 
     if-nez v3, :cond_1
 
-    .line 3
     invoke-virtual {v5}, Lcotlin/Pair;->getFirst()Ljava/lang/Object;
 
     move-result-object v3
@@ -669,7 +632,6 @@
 
     goto :goto_1
 
-    .line 4
     :cond_1
     invoke-virtual {v5}, Lcotlin/Pair;->getFirst()Ljava/lang/Object;
 
@@ -683,7 +645,6 @@
 
     if-eq v4, v3, :cond_2
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v2
@@ -694,7 +655,6 @@
 
     goto :goto_0
 
-    .line 6
     :cond_3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -710,7 +670,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/bean/GroupLayerInfo;->serializeString:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -738,7 +697,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/bean/GroupLayerInfo;->subLayerInfos:Ljava/util/ArrayList;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -761,10 +719,8 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/bean/GroupLayerInfo;->subLayerInfos:Ljava/util/ArrayList;
 
-    .line 2
     invoke-interface {v1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v1
@@ -791,7 +747,6 @@
     :cond_0
     check-cast v3, Lcotlin/Pair;
 
-    .line 3
     invoke-virtual {v3}, Lcotlin/Pair;->getFirst()Ljava/lang/Object;
 
     move-result-object v3
@@ -804,7 +759,6 @@
 
     if-eqz v3, :cond_1
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v2
@@ -817,7 +771,6 @@
     :cond_2
     const/4 p1, -0x1
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
@@ -842,7 +795,6 @@
 
     if-ne p2, v1, :cond_0
 
-    .line 1
     iget-object p2, p0, Lcom/commsource/studio/bean/GroupLayerInfo;->subLayerInfos:Ljava/util/ArrayList;
 
     new-instance v1, Lcotlin/Pair;
@@ -857,7 +809,6 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     iget-object v1, p0, Lcom/commsource/studio/bean/GroupLayerInfo;->subLayerInfos:Ljava/util/ArrayList;
 
@@ -871,11 +822,9 @@
 
     invoke-virtual {v1, p2, v2}, Ljava/util/ArrayList;->add(ILjava/lang/Object;)V
 
-    .line 3
     :goto_0
     invoke-virtual {p0}, Lcom/commsource/studio/bean/GroupLayerInfo;->refreshGroupSizeAndPosition()V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -888,7 +837,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/studio/bean/GroupLayerInfo;->isGroup:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -903,7 +851,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/bean/GroupLayerInfo;->subLayerInfos:Ljava/util/ArrayList;
 
     invoke-interface {v1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
@@ -965,19 +912,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0, p1, p2}, Lcom/commsource/studio/bean/FocusLayerInfo;->onUpdateMatrix(II)V
 
-    .line 2
     iput p1, p0, Lcom/commsource/studio/bean/GroupLayerInfo;->canvasWidth:I
 
-    .line 3
     iput p2, p0, Lcom/commsource/studio/bean/GroupLayerInfo;->canvasHeight:I
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/studio/bean/GroupLayerInfo;->subLayerInfos:Ljava/util/ArrayList;
 
-    .line 5
     invoke-interface {v1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v1
@@ -995,7 +937,6 @@
 
     check-cast v2, Lcotlin/Pair;
 
-    .line 6
     invoke-virtual {v2}, Lcotlin/Pair;->getFirst()Ljava/lang/Object;
 
     move-result-object v3
@@ -1006,7 +947,6 @@
 
     move-result-object v3
 
-    .line 7
     invoke-virtual {v2}, Lcotlin/Pair;->getSecond()Ljava/lang/Object;
 
     move-result-object v4
@@ -1015,14 +955,12 @@
 
     invoke-virtual {v3, v4}, Lcom/commsource/studio/MatrixBox;->set(Lcom/commsource/studio/MatrixBox;)V
 
-    .line 8
     invoke-virtual {p0}, Lcom/commsource/studio/bean/FocusLayerInfo;->getDrawMatrixBox()Lcom/commsource/studio/MatrixBox;
 
     move-result-object v4
 
     invoke-virtual {v3, v4}, Lcom/commsource/studio/MatrixBox;->postConcat(Lcom/commsource/studio/MatrixBox;)V
 
-    .line 9
     invoke-virtual {v2}, Lcotlin/Pair;->getFirst()Ljava/lang/Object;
 
     move-result-object v2
@@ -1033,7 +971,6 @@
 
     goto :goto_0
 
-    .line 10
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1047,10 +984,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/bean/GroupLayerInfo;->subLayerInfos:Ljava/util/ArrayList;
 
-    .line 2
     invoke-interface {v1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v1
@@ -1078,7 +1013,6 @@
 
     check-cast v6, Lcotlin/Pair;
 
-    .line 3
     invoke-virtual {v6}, Lcotlin/Pair;->getFirst()Ljava/lang/Object;
 
     move-result-object v6
@@ -1089,28 +1023,24 @@
 
     move-result-object v6
 
-    .line 4
     iget v7, v6, Landroid/graphics/RectF;->left:F
 
     invoke-static {v4, v7}, Lcotlin/g2/o;->t(FF)F
 
     move-result v4
 
-    .line 5
     iget v7, v6, Landroid/graphics/RectF;->top:F
 
     invoke-static {v5, v7}, Lcotlin/g2/o;->t(FF)F
 
     move-result v5
 
-    .line 6
     iget v7, v6, Landroid/graphics/RectF;->right:F
 
     invoke-static {v2, v7}, Lcotlin/g2/o;->m(FF)F
 
     move-result v2
 
-    .line 7
     iget v6, v6, Landroid/graphics/RectF;->bottom:F
 
     invoke-static {v3, v6}, Lcotlin/g2/o;->m(FF)F
@@ -1122,7 +1052,6 @@
     :cond_0
     sub-float/2addr v2, v4
 
-    .line 8
     invoke-static {v2}, Lcotlin/e2/b;->H0(F)I
 
     move-result v1
@@ -1135,7 +1064,6 @@
 
     invoke-virtual {p0, v1, v2}, Lcom/commsource/studio/bean/FocusLayerInfo;->updateSize(II)V
 
-    .line 9
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -1172,21 +1100,16 @@
 
     invoke-static {v1, v3, v6, v2, v6}, Lcom/commsource/util/l0;->L(Ljava/lang/String;Ljava/lang/String;Lcom/meitu/library/util/Debug/Debug$DebugLevel;ILjava/lang/Object;)V
 
-    .line 10
     invoke-virtual {p0}, Lcom/commsource/studio/bean/FocusLayerInfo;->getDrawMatrixBox()Lcom/commsource/studio/MatrixBox;
 
     move-result-object v1
 
-    .line 11
     invoke-virtual {v1}, Lcom/commsource/studio/MatrixBox;->reset()V
 
-    .line 12
     invoke-virtual {v1, v4, v5}, Lcom/commsource/studio/MatrixBox;->postTranslate(FF)V
 
-    .line 13
     iget-object v1, p0, Lcom/commsource/studio/bean/GroupLayerInfo;->subLayerInfos:Ljava/util/ArrayList;
 
-    .line 14
     invoke-interface {v1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v1
@@ -1204,14 +1127,12 @@
 
     check-cast v2, Lcotlin/Pair;
 
-    .line 15
     invoke-virtual {v2}, Lcotlin/Pair;->getSecond()Ljava/lang/Object;
 
     move-result-object v3
 
     check-cast v3, Lcom/commsource/studio/MatrixBox;
 
-    .line 16
     invoke-virtual {v2}, Lcotlin/Pair;->getFirst()Ljava/lang/Object;
 
     move-result-object v2
@@ -1224,7 +1145,6 @@
 
     invoke-virtual {v3, v2}, Lcom/commsource/studio/MatrixBox;->set(Lcom/commsource/studio/MatrixBox;)V
 
-    .line 17
     invoke-virtual {p0}, Lcom/commsource/studio/bean/FocusLayerInfo;->getDrawMatrixBox()Lcom/commsource/studio/MatrixBox;
 
     move-result-object v2
@@ -1237,7 +1157,6 @@
 
     goto :goto_1
 
-    .line 18
     :cond_1
     iget v1, p0, Lcom/commsource/studio/bean/GroupLayerInfo;->canvasWidth:I
 
@@ -1245,7 +1164,6 @@
 
     invoke-super {p0, v1, v2}, Lcom/commsource/studio/bean/FocusLayerInfo;->onUpdateMatrix(II)V
 
-    .line 19
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1266,7 +1184,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/bean/GroupLayerInfo;->subLayerInfos:Ljava/util/ArrayList;
 
     invoke-interface {v1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
@@ -1314,15 +1231,12 @@
 
     invoke-interface {p1, v3}, Ljava/util/Collection;->remove(Ljava/lang/Object;)Z
 
-    .line 2
     invoke-virtual {p0}, Lcom/commsource/studio/bean/GroupLayerInfo;->refreshGroupSizeAndPosition()V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 4
     :cond_2
     new-instance p1, Ljava/lang/NullPointerException;
 
@@ -1342,10 +1256,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/bean/GroupLayerInfo;->subLayerInfos:Ljava/util/ArrayList;
 
-    .line 2
     invoke-interface {v1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v1
@@ -1363,7 +1275,6 @@
 
     check-cast v2, Lcotlin/Pair;
 
-    .line 3
     invoke-virtual {v2}, Lcotlin/Pair;->getFirst()Ljava/lang/Object;
 
     move-result-object v2
@@ -1374,7 +1285,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1388,7 +1298,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/studio/bean/GroupLayerInfo;->canvasHeight:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1403,7 +1312,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/studio/bean/GroupLayerInfo;->canvasWidth:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1418,7 +1326,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/studio/bean/GroupLayerInfo;->isGroup:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1433,7 +1340,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/studio/bean/GroupLayerInfo;->layerType:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1452,10 +1358,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/bean/GroupLayerInfo;->subLayerInfos:Ljava/util/ArrayList;
 
-    .line 2
     invoke-interface {v1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v1
@@ -1473,7 +1377,6 @@
 
     check-cast v2, Lcotlin/Pair;
 
-    .line 3
     invoke-virtual {v2}, Lcotlin/Pair;->getFirst()Ljava/lang/Object;
 
     move-result-object v2
@@ -1484,7 +1387,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1502,7 +1404,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/bean/GroupLayerInfo;->serializeString:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1535,7 +1436,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/bean/GroupLayerInfo;->subLayerInfos:Ljava/util/ArrayList;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1567,7 +1467,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     new-instance v1, Ljava/util/HashMap;
 
     iget-object v2, p0, Lcom/commsource/studio/bean/GroupLayerInfo;->subLayerInfos:Ljava/util/ArrayList;
@@ -1578,10 +1477,8 @@
 
     invoke-direct {v1, v2}, Ljava/util/HashMap;-><init>(I)V
 
-    .line 2
     iget-object v2, p0, Lcom/commsource/studio/bean/GroupLayerInfo;->subLayerInfos:Ljava/util/ArrayList;
 
-    .line 3
     invoke-interface {v2}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v2
@@ -1599,7 +1496,6 @@
 
     check-cast v3, Lcotlin/Pair;
 
-    .line 4
     invoke-virtual {v3}, Lcotlin/Pair;->getFirst()Ljava/lang/Object;
 
     move-result-object v4
@@ -1620,11 +1516,9 @@
 
     goto :goto_0
 
-    .line 5
     :cond_0
     iget-object p1, p0, Lcom/commsource/studio/bean/GroupLayerInfo;->subLayerInfos:Ljava/util/ArrayList;
 
-    .line 6
     invoke-interface {p1}, Ljava/util/List;->size()I
 
     move-result v2
@@ -1639,7 +1533,6 @@
 
     invoke-static {p1, v2}, Lcotlin/collections/s;->p0(Ljava/util/List;Ljava/util/Comparator;)V
 
-    .line 7
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

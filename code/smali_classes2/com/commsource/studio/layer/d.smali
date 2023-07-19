@@ -33,7 +33,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/commsource/studio/layer/BaseLayer;-><init>(Landroid/content/Context;)V
 
     return-void
@@ -52,13 +51,10 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-virtual {p0, p1}, Lcom/commsource/studio/layer/d;->setStoreOwner(Landroidx/lifecycle/ViewModelStoreOwner;)V
 
-    .line 2
     invoke-virtual {p0, p1}, Lcom/commsource/studio/layer/d;->setLifeOwner(Landroidx/lifecycle/LifecycleOwner;)V
 
-    .line 3
     invoke-virtual {p0}, Lcom/commsource/studio/layer/d;->getStoreOwner()Landroidx/lifecycle/ViewModelStoreOwner;
 
     move-result-object p1
@@ -83,13 +79,10 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-virtual {p0, p1}, Lcom/commsource/studio/layer/d;->setStoreOwner(Landroidx/lifecycle/ViewModelStoreOwner;)V
 
-    .line 2
     invoke-virtual {p0, p1}, Lcom/commsource/studio/layer/d;->setLifeOwner(Landroidx/lifecycle/LifecycleOwner;)V
 
-    .line 3
     invoke-virtual {p0}, Lcom/commsource/studio/layer/d;->getStoreOwner()Landroidx/lifecycle/ViewModelStoreOwner;
 
     move-result-object p1
@@ -126,7 +119,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-static {p0, p1}, Lcom/commsource/studio/component/c$a;->a(Lcom/commsource/studio/component/c;Ljava/lang/Class;)Landroidx/lifecycle/AndroidViewModel;
 
     move-result-object p1
@@ -139,7 +131,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/studio/layer/d;->M:Landroidx/lifecycle/LifecycleOwner;
 
     if-nez v0, :cond_0
@@ -157,7 +148,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/studio/layer/d;->L:Landroidx/lifecycle/ViewModelStoreOwner;
 
     if-nez v0, :cond_0
@@ -209,7 +199,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/layer/d;->M:Landroidx/lifecycle/LifecycleOwner;
 
     return-void
@@ -226,7 +215,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/layer/d;->L:Landroidx/lifecycle/ViewModelStoreOwner;
 
     return-void

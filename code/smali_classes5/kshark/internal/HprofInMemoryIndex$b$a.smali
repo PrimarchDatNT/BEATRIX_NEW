@@ -41,7 +41,6 @@
 
     iput-object p4, p0, Lkshark/internal/HprofInMemoryIndex$b$a;->e:Lcotlin/jvm/internal/Ref$IntRef;
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -60,7 +59,6 @@
 
     invoke-static {p3, p1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     instance-of p1, p3, Lkshark/m$c;
 
     if-eqz p1, :cond_0
@@ -75,7 +73,6 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     instance-of p1, p3, Lkshark/m$b$c$d;
 
@@ -91,7 +88,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_1
     instance-of p1, p3, Lkshark/m$b$c$f;
 
@@ -107,7 +103,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_2
     instance-of p1, p3, Lkshark/m$b$c$h;
 

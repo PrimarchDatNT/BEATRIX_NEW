@@ -57,7 +57,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/meitu/library/appcia/f/e/b$a;
 
     invoke-direct {v1}, Lcom/meitu/library/appcia/f/e/b$a;-><init>()V
@@ -66,27 +65,22 @@
 
     const-string v1, "name"
 
-    .line 2
     sput-object v1, Lcom/meitu/library/appcia/f/e/b$a;->a:Ljava/lang/String;
 
     const-string v1, "category"
 
-    .line 3
     sput-object v1, Lcom/meitu/library/appcia/f/e/b$a;->b:Ljava/lang/String;
 
     const-string v1, "actions"
 
-    .line 4
     sput-object v1, Lcom/meitu/library/appcia/f/e/b$a;->c:Ljava/lang/String;
 
     const-string v1, "label"
 
-    .line 5
     sput-object v1, Lcom/meitu/library/appcia/f/e/b$a;->d:Ljava/lang/String;
 
     const-string v1, "metric"
 
-    .line 6
     sput-object v1, Lcom/meitu/library/appcia/f/e/b$a;->e:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -97,7 +91,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -184,7 +177,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/meitu/library/appcia/f/e/b$a;->c:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -201,7 +193,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/meitu/library/appcia/f/e/b$a;->d:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -218,7 +209,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/meitu/library/appcia/f/e/b$a;->e:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -235,7 +225,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/meitu/library/appcia/f/e/b$a;->b:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -252,7 +241,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/meitu/library/appcia/f/e/b$a;->a:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

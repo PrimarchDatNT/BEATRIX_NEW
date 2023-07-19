@@ -43,7 +43,6 @@
 .method static constructor <clinit>()V
     .locals 15
 
-    .line 1
     new-instance v0, Lio/jaegertracing/twitter/zipkin/thriftjava/AnnotationType;
 
     const-string v1, "BOOL"
@@ -54,7 +53,6 @@
 
     sput-object v0, Lio/jaegertracing/twitter/zipkin/thriftjava/AnnotationType;->BOOL:Lio/jaegertracing/twitter/zipkin/thriftjava/AnnotationType;
 
-    .line 2
     new-instance v1, Lio/jaegertracing/twitter/zipkin/thriftjava/AnnotationType;
 
     const-string v3, "BYTES"
@@ -65,7 +63,6 @@
 
     sput-object v1, Lio/jaegertracing/twitter/zipkin/thriftjava/AnnotationType;->BYTES:Lio/jaegertracing/twitter/zipkin/thriftjava/AnnotationType;
 
-    .line 3
     new-instance v3, Lio/jaegertracing/twitter/zipkin/thriftjava/AnnotationType;
 
     const-string v5, "I16"
@@ -76,7 +73,6 @@
 
     sput-object v3, Lio/jaegertracing/twitter/zipkin/thriftjava/AnnotationType;->I16:Lio/jaegertracing/twitter/zipkin/thriftjava/AnnotationType;
 
-    .line 4
     new-instance v5, Lio/jaegertracing/twitter/zipkin/thriftjava/AnnotationType;
 
     const-string v7, "I32"
@@ -87,7 +83,6 @@
 
     sput-object v5, Lio/jaegertracing/twitter/zipkin/thriftjava/AnnotationType;->I32:Lio/jaegertracing/twitter/zipkin/thriftjava/AnnotationType;
 
-    .line 5
     new-instance v7, Lio/jaegertracing/twitter/zipkin/thriftjava/AnnotationType;
 
     const-string v9, "I64"
@@ -98,7 +93,6 @@
 
     sput-object v7, Lio/jaegertracing/twitter/zipkin/thriftjava/AnnotationType;->I64:Lio/jaegertracing/twitter/zipkin/thriftjava/AnnotationType;
 
-    .line 6
     new-instance v9, Lio/jaegertracing/twitter/zipkin/thriftjava/AnnotationType;
 
     const-string v11, "DOUBLE"
@@ -109,7 +103,6 @@
 
     sput-object v9, Lio/jaegertracing/twitter/zipkin/thriftjava/AnnotationType;->DOUBLE:Lio/jaegertracing/twitter/zipkin/thriftjava/AnnotationType;
 
-    .line 7
     new-instance v11, Lio/jaegertracing/twitter/zipkin/thriftjava/AnnotationType;
 
     const-string v13, "STRING"
@@ -138,7 +131,6 @@
 
     aput-object v11, v13, v14
 
-    .line 8
     sput-object v13, Lio/jaegertracing/twitter/zipkin/thriftjava/AnnotationType;->$VALUES:[Lio/jaegertracing/twitter/zipkin/thriftjava/AnnotationType;
 
     return-void
@@ -152,10 +144,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 2
     iput p3, p0, Lio/jaegertracing/twitter/zipkin/thriftjava/AnnotationType;->value:I
 
     return-void
@@ -170,43 +160,36 @@
 
     return-object p0
 
-    .line 1
     :pswitch_0
     sget-object p0, Lio/jaegertracing/twitter/zipkin/thriftjava/AnnotationType;->STRING:Lio/jaegertracing/twitter/zipkin/thriftjava/AnnotationType;
 
     return-object p0
 
-    .line 2
     :pswitch_1
     sget-object p0, Lio/jaegertracing/twitter/zipkin/thriftjava/AnnotationType;->DOUBLE:Lio/jaegertracing/twitter/zipkin/thriftjava/AnnotationType;
 
     return-object p0
 
-    .line 3
     :pswitch_2
     sget-object p0, Lio/jaegertracing/twitter/zipkin/thriftjava/AnnotationType;->I64:Lio/jaegertracing/twitter/zipkin/thriftjava/AnnotationType;
 
     return-object p0
 
-    .line 4
     :pswitch_3
     sget-object p0, Lio/jaegertracing/twitter/zipkin/thriftjava/AnnotationType;->I32:Lio/jaegertracing/twitter/zipkin/thriftjava/AnnotationType;
 
     return-object p0
 
-    .line 5
     :pswitch_4
     sget-object p0, Lio/jaegertracing/twitter/zipkin/thriftjava/AnnotationType;->I16:Lio/jaegertracing/twitter/zipkin/thriftjava/AnnotationType;
 
     return-object p0
 
-    .line 6
     :pswitch_5
     sget-object p0, Lio/jaegertracing/twitter/zipkin/thriftjava/AnnotationType;->BYTES:Lio/jaegertracing/twitter/zipkin/thriftjava/AnnotationType;
 
     return-object p0
 
-    .line 7
     :pswitch_6
     sget-object p0, Lio/jaegertracing/twitter/zipkin/thriftjava/AnnotationType;->BOOL:Lio/jaegertracing/twitter/zipkin/thriftjava/AnnotationType;
 
@@ -227,7 +210,6 @@
 .method public static valueOf(Ljava/lang/String;)Lio/jaegertracing/twitter/zipkin/thriftjava/AnnotationType;
     .locals 1
 
-    .line 1
     const-class v0, Lio/jaegertracing/twitter/zipkin/thriftjava/AnnotationType;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -242,7 +224,6 @@
 .method public static values()[Lio/jaegertracing/twitter/zipkin/thriftjava/AnnotationType;
     .locals 1
 
-    .line 1
     sget-object v0, Lio/jaegertracing/twitter/zipkin/thriftjava/AnnotationType;->$VALUES:[Lio/jaegertracing/twitter/zipkin/thriftjava/AnnotationType;
 
     invoke-virtual {v0}, [Lio/jaegertracing/twitter/zipkin/thriftjava/AnnotationType;->clone()Ljava/lang/Object;
@@ -259,7 +240,6 @@
 .method public getValue()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lio/jaegertracing/twitter/zipkin/thriftjava/AnnotationType;->value:I
 
     return v0

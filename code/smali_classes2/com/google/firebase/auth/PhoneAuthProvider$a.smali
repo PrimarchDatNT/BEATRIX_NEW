@@ -21,7 +21,6 @@
 .method static constructor <clinit>()V
     .locals 3
 
-    .line 1
     new-instance v0, Lcom/google/android/gms/common/m/a;
 
     const/4 v1, 0x0
@@ -40,7 +39,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -51,7 +49,6 @@
 .method public a(Ljava/lang/String;)V
     .locals 2
 
-    .line 1
     sget-object p1, Lcom/google/firebase/auth/PhoneAuthProvider$a;->a:Lcom/google/android/gms/common/m/a;
 
     const/4 v0, 0x0

@@ -151,21 +151,18 @@
 
     sput-object v1, Lcom/commsource/studio/i;->e0:Lcom/commsource/studio/i$a;
 
-    .line 1
     invoke-static {}, Landroid/view/ViewConfiguration;->getLongPressTimeout()I
 
     move-result v1
 
     sput v1, Lcom/commsource/studio/i;->X:I
 
-    .line 2
     invoke-static {}, Landroid/view/ViewConfiguration;->getTapTimeout()I
 
     move-result v1
 
     sput v1, Lcom/commsource/studio/i;->Y:I
 
-    .line 3
     invoke-static {}, Landroid/view/ViewConfiguration;->getDoubleTapTimeout()I
 
     move-result v1
@@ -184,58 +181,46 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const-string v0, "BpGestureDetector"
 
-    .line 2
     iput-object v0, p0, Lcom/commsource/studio/i;->a:Ljava/lang/String;
 
     const/4 v0, 0x1
 
-    .line 3
     iput-boolean v0, p0, Lcom/commsource/studio/i;->k:Z
 
-    .line 4
     sget v1, Lcom/commsource/studio/i;->X:I
 
     iput v1, p0, Lcom/commsource/studio/i;->p:I
 
     const/high16 v1, 0x42340000    # 45.0f
 
-    .line 5
     iput v1, p0, Lcom/commsource/studio/i;->q:F
 
-    .line 6
     iput v1, p0, Lcom/commsource/studio/i;->r:F
 
-    .line 7
     iput v1, p0, Lcom/commsource/studio/i;->s:F
 
-    .line 8
     iput v1, p0, Lcom/commsource/studio/i;->t:F
 
     const v1, 0x451c4000    # 2500.0f
 
-    .line 9
     iput v1, p0, Lcom/commsource/studio/i;->J:F
 
-    .line 10
     new-instance v1, Landroid/graphics/PointF;
 
     invoke-direct {v1}, Landroid/graphics/PointF;-><init>()V
 
     iput-object v1, p0, Lcom/commsource/studio/i;->K:Landroid/graphics/PointF;
 
-    .line 11
     new-instance v1, Landroid/graphics/PointF;
 
     invoke-direct {v1}, Landroid/graphics/PointF;-><init>()V
 
     iput-object v1, p0, Lcom/commsource/studio/i;->Q:Landroid/graphics/PointF;
 
-    .line 12
     new-instance v1, Landroid/graphics/PointF;
 
     invoke-direct {v1}, Landroid/graphics/PointF;-><init>()V
@@ -244,23 +229,18 @@
 
     if-eqz p1, :cond_0
 
-    .line 13
     new-instance v1, Lcom/commsource/studio/i$b;
 
     invoke-direct {v1, p0}, Lcom/commsource/studio/i$b;-><init>(Lcom/commsource/studio/i;)V
 
     iput-object v1, p0, Lcom/commsource/studio/i;->g:Landroid/os/Handler;
 
-    .line 14
     iput-object p1, p0, Lcom/commsource/studio/i;->A:Lcom/commsource/studio/i$d;
 
-    .line 15
     invoke-interface {p1, p0}, Lcom/commsource/studio/i$d;->setGestureDetector(Lcom/commsource/studio/i;)V
 
-    .line 16
     iput-boolean v0, p0, Lcom/commsource/studio/i;->n:Z
 
-    .line 17
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
     move-result-object p1
@@ -271,31 +251,26 @@
 
     const-string v0, "configuration"
 
-    .line 18
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {p1}, Landroid/view/ViewConfiguration;->getScaledTouchSlop()I
 
     move-result v0
 
-    .line 19
     invoke-virtual {p1}, Landroid/view/ViewConfiguration;->getScaledTouchSlop()I
 
     move-result v1
 
-    .line 20
     invoke-virtual {p1}, Landroid/view/ViewConfiguration;->getScaledDoubleTapSlop()I
 
     move-result v2
 
-    .line 21
     invoke-virtual {p1}, Landroid/view/ViewConfiguration;->getScaledMinimumFlingVelocity()I
 
     move-result v3
 
     iput v3, p0, Lcom/commsource/studio/i;->e:I
 
-    .line 22
     invoke-virtual {p1}, Landroid/view/ViewConfiguration;->getScaledMaximumFlingVelocity()I
 
     move-result p1
@@ -304,22 +279,18 @@
 
     mul-int v0, v0, v0
 
-    .line 23
     iput v0, p0, Lcom/commsource/studio/i;->b:I
 
     mul-int v1, v1, v1
 
-    .line 24
     iput v1, p0, Lcom/commsource/studio/i;->c:I
 
     mul-int v2, v2, v2
 
-    .line 25
     iput v2, p0, Lcom/commsource/studio/i;->d:I
 
     return-void
 
-    .line 26
     :cond_0
     new-instance p1, Ljava/lang/RuntimeException;
 
@@ -337,7 +308,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/i;->E:Landroid/view/MotionEvent;
 
     invoke-direct {p0, v1, p2}, Lcom/commsource/studio/i;->o(Landroid/view/MotionEvent;Landroid/view/MotionEvent;)Landroid/view/MotionEvent;
@@ -348,27 +318,22 @@
 
     const/4 v1, 0x0
 
-    .line 2
     iput-boolean v1, p0, Lcom/commsource/studio/i;->h:Z
 
-    .line 3
     iget-boolean v2, p0, Lcom/commsource/studio/i;->j:Z
 
     if-eqz v2, :cond_0
 
-    .line 4
     iget-object v2, p0, Lcom/commsource/studio/i;->g:Landroid/os/Handler;
 
     const/4 v3, 0x3
 
     invoke-virtual {v2, v3}, Landroid/os/Handler;->removeMessages(I)V
 
-    .line 5
     iput-boolean v1, p0, Lcom/commsource/studio/i;->j:Z
 
     goto :goto_0
 
-    .line 6
     :cond_0
     iget-boolean v2, p0, Lcom/commsource/studio/i;->l:Z
 
@@ -378,7 +343,6 @@
 
     if-eqz v2, :cond_3
 
-    .line 7
     iget-object v2, p0, Lcom/commsource/studio/i;->A:Lcom/commsource/studio/i$d;
 
     iget-object v3, p0, Lcom/commsource/studio/i;->D:Landroid/view/MotionEvent;
@@ -397,14 +361,12 @@
     :cond_2
     invoke-interface {v2, v3, v4}, Lcom/commsource/studio/i$d;->onSingleTap(Landroid/view/MotionEvent;Landroid/view/MotionEvent;)Z
 
-    .line 8
     :cond_3
     :goto_0
     iget-boolean v2, p0, Lcom/commsource/studio/i;->H:Z
 
     if-eqz v2, :cond_8
 
-    .line 9
     iget v2, p1, Landroid/graphics/PointF;->x:F
 
     iget v3, p0, Lcom/commsource/studio/i;->y:F
@@ -413,7 +375,6 @@
 
     float-to-int v2, v2
 
-    .line 10
     iget p1, p1, Landroid/graphics/PointF;->y:F
 
     iget v3, p0, Lcom/commsource/studio/i;->z:F
@@ -428,17 +389,14 @@
 
     add-int/2addr v2, p1
 
-    .line 11
     iget-object p1, p0, Lcom/commsource/studio/i;->o:Landroid/view/VelocityTracker;
 
-    .line 12
     invoke-virtual {p2, v1}, Landroid/view/MotionEvent;->getPointerId(I)I
 
     move-result v3
 
     if-nez p1, :cond_4
 
-    .line 13
     invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_4
@@ -450,19 +408,16 @@
 
     invoke-virtual {p1, v4, v5}, Landroid/view/VelocityTracker;->computeCurrentVelocity(IF)V
 
-    .line 14
     invoke-virtual {p1, v3}, Landroid/view/VelocityTracker;->getYVelocity(I)F
 
     move-result v4
 
-    .line 15
     invoke-virtual {p1, v3}, Landroid/view/VelocityTracker;->getXVelocity(I)F
 
     move-result p1
 
     int-to-float v2, v2
 
-    .line 16
     iget v3, p0, Lcom/commsource/studio/i;->J:F
 
     cmpl-float v2, v2, v3
@@ -493,7 +448,6 @@
 
     if-lez v2, :cond_8
 
-    .line 17
     :cond_5
     iget-object v2, p0, Lcom/commsource/studio/i;->A:Lcom/commsource/studio/i$d;
 
@@ -503,7 +457,6 @@
 
     move-result v2
 
-    .line 18
     iget-object v3, p0, Lcom/commsource/studio/i;->D:Landroid/view/MotionEvent;
 
     if-nez v3, :cond_6
@@ -529,20 +482,17 @@
     :cond_8
     const/4 p1, 0x0
 
-    .line 19
     :goto_1
     iget-object v2, p0, Lcom/commsource/studio/i;->E:Landroid/view/MotionEvent;
 
     iput-object v2, p0, Lcom/commsource/studio/i;->C:Landroid/view/MotionEvent;
 
-    .line 20
     iget-object v2, p0, Lcom/commsource/studio/i;->o:Landroid/view/VelocityTracker;
 
     if-eqz v2, :cond_a
 
     if-nez v2, :cond_9
 
-    .line 21
     invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_9
@@ -550,33 +500,27 @@
 
     const/4 v2, 0x0
 
-    .line 22
     iput-object v2, p0, Lcom/commsource/studio/i;->o:Landroid/view/VelocityTracker;
 
-    .line 23
     :cond_a
     iput-boolean v1, p0, Lcom/commsource/studio/i;->i:Z
 
-    .line 24
     iget-object v2, p0, Lcom/commsource/studio/i;->g:Landroid/os/Handler;
 
     const/4 v3, 0x1
 
     invoke-virtual {v2, v3}, Landroid/os/Handler;->removeMessages(I)V
 
-    .line 25
     iget-object v2, p0, Lcom/commsource/studio/i;->g:Landroid/os/Handler;
 
     const/4 v3, 0x2
 
     invoke-virtual {v2, v3}, Landroid/os/Handler;->removeMessages(I)V
 
-    .line 26
     iget-boolean v2, p0, Lcom/commsource/studio/i;->l:Z
 
     if-eqz v2, :cond_d
 
-    .line 27
     iget-object p1, p0, Lcom/commsource/studio/i;->A:Lcom/commsource/studio/i$d;
 
     iget-object v2, p0, Lcom/commsource/studio/i;->D:Landroid/view/MotionEvent;
@@ -597,13 +541,11 @@
 
     move-result p1
 
-    .line 28
     :cond_d
     iget-boolean v2, p0, Lcom/commsource/studio/i;->F:Z
 
     if-eqz v2, :cond_f
 
-    .line 29
     iget-object v2, p0, Lcom/commsource/studio/i;->A:Lcom/commsource/studio/i$d;
 
     iget-object v3, p0, Lcom/commsource/studio/i;->E:Landroid/view/MotionEvent;
@@ -619,10 +561,8 @@
 
     or-int/2addr p1, v2
 
-    .line 30
     iput-boolean v1, p0, Lcom/commsource/studio/i;->F:Z
 
-    .line 31
     :cond_f
     iget-object v1, p0, Lcom/commsource/studio/i;->A:Lcom/commsource/studio/i$d;
 
@@ -632,7 +572,6 @@
 
     or-int/2addr p1, p2
 
-    .line 32
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
@@ -645,15 +584,12 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/studio/i;->m()V
 
-    .line 2
     iget-object v0, p0, Lcom/commsource/studio/i;->A:Lcom/commsource/studio/i$d;
 
     invoke-interface {v0, p2}, Lcom/commsource/studio/i$d;->onMajorFingerUp(Landroid/view/MotionEvent;)Z
 
-    .line 3
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -666,7 +602,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/studio/i;->q()V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -681,7 +616,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/studio/i;->D:Landroid/view/MotionEvent;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -696,7 +630,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/studio/i;->E:Landroid/view/MotionEvent;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -711,7 +644,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean p0, p0, Lcom/commsource/studio/i;->i:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -726,7 +658,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/studio/i;->A:Lcom/commsource/studio/i$d;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -741,7 +672,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean p0, p0, Lcom/commsource/studio/i;->h:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -756,7 +686,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/i;->D:Landroid/view/MotionEvent;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -771,7 +700,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/i;->E:Landroid/view/MotionEvent;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -786,7 +714,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/studio/i;->i:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -801,7 +728,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/studio/i;->h:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -832,7 +758,6 @@
 
     add-double/2addr v1, v3
 
-    .line 1
     invoke-static {v1, v2}, Ljava/lang/Math;->sqrt(D)D
 
     move-result-wide v1
@@ -855,7 +780,6 @@
 
     double-to-float p1, p1
 
-    .line 2
     invoke-static {p1}, Ljava/lang/Float;->isNaN(F)Z
 
     move-result p2
@@ -917,7 +841,6 @@
     :cond_3
     const/4 p1, 0x0
 
-    .line 3
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -931,7 +854,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Landroid/graphics/PointF;
 
     invoke-direct {v1}, Landroid/graphics/PointF;-><init>()V
@@ -954,7 +876,6 @@
     :goto_0
     if-eqz p1, :cond_1
 
-    .line 2
     invoke-virtual {p2}, Landroid/view/MotionEvent;->getActionIndex()I
 
     move-result v3
@@ -964,7 +885,6 @@
     :cond_1
     const/4 v3, -0x1
 
-    .line 3
     :goto_1
     invoke-virtual {p2}, Landroid/view/MotionEvent;->getPointerCount()I
 
@@ -981,7 +901,6 @@
 
     goto :goto_3
 
-    .line 4
     :cond_2
     invoke-virtual {p2, v2}, Landroid/view/MotionEvent;->getX(I)F
 
@@ -989,7 +908,6 @@
 
     add-float/2addr v5, v7
 
-    .line 5
     invoke-virtual {p2, v2}, Landroid/view/MotionEvent;->getY(I)F
 
     move-result v7
@@ -1013,10 +931,8 @@
 
     div-float/2addr v6, p1
 
-    .line 6
     invoke-virtual {v1, v5, v6}, Landroid/graphics/PointF;->set(FF)V
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
@@ -1029,28 +945,24 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/i;->g:Landroid/os/Handler;
 
     const/4 v2, 0x1
 
     invoke-virtual {v1, v2}, Landroid/os/Handler;->removeMessages(I)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/i;->g:Landroid/os/Handler;
 
     const/4 v2, 0x2
 
     invoke-virtual {v1, v2}, Landroid/os/Handler;->removeMessages(I)V
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/studio/i;->g:Landroid/os/Handler;
 
     const/4 v2, 0x3
 
     invoke-virtual {v1, v2}, Landroid/os/Handler;->removeMessages(I)V
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/studio/i;->o:Landroid/view/VelocityTracker;
 
     if-nez v1, :cond_0
@@ -1062,32 +974,24 @@
 
     const/4 v1, 0x0
 
-    .line 5
     iput-object v1, p0, Lcom/commsource/studio/i;->o:Landroid/view/VelocityTracker;
 
     const/4 v1, 0x0
 
-    .line 6
     iput-boolean v1, p0, Lcom/commsource/studio/i;->h:Z
 
-    .line 7
     iput-boolean v1, p0, Lcom/commsource/studio/i;->l:Z
 
-    .line 8
     iput-boolean v1, p0, Lcom/commsource/studio/i;->m:Z
 
-    .line 9
     iput-boolean v1, p0, Lcom/commsource/studio/i;->i:Z
 
-    .line 10
     iget-boolean v2, p0, Lcom/commsource/studio/i;->j:Z
 
     if-eqz v2, :cond_1
 
-    .line 11
     iput-boolean v1, p0, Lcom/commsource/studio/i;->j:Z
 
-    .line 12
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1101,21 +1005,18 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/i;->g:Landroid/os/Handler;
 
     const/4 v2, 0x1
 
     invoke-virtual {v1, v2}, Landroid/os/Handler;->removeMessages(I)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/i;->g:Landroid/os/Handler;
 
     const/4 v2, 0x2
 
     invoke-virtual {v1, v2}, Landroid/os/Handler;->removeMessages(I)V
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/studio/i;->g:Landroid/os/Handler;
 
     const/4 v2, 0x3
@@ -1124,24 +1025,18 @@
 
     const/4 v1, 0x0
 
-    .line 4
     iput-boolean v1, p0, Lcom/commsource/studio/i;->l:Z
 
-    .line 5
     iput-boolean v1, p0, Lcom/commsource/studio/i;->m:Z
 
-    .line 6
     iput-boolean v1, p0, Lcom/commsource/studio/i;->i:Z
 
-    .line 7
     iget-boolean v2, p0, Lcom/commsource/studio/i;->j:Z
 
     if-eqz v2, :cond_0
 
-    .line 8
     iput-boolean v1, p0, Lcom/commsource/studio/i;->j:Z
 
-    .line 9
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1155,20 +1050,17 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p2}, Landroid/view/MotionEvent;->obtain(Landroid/view/MotionEvent;)Landroid/view/MotionEvent;
 
     move-result-object p2
 
     if-eqz p1, :cond_0
 
-    .line 2
     invoke-virtual {p1}, Landroid/view/MotionEvent;->recycle()V
 
     :cond_0
     const-string p1, "obtain"
 
-    .line 3
     invoke-static {p2, p1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1183,32 +1075,26 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p1}, Landroid/view/MotionEvent;->getX()F
 
     move-result v1
 
-    .line 2
     invoke-virtual {p1}, Landroid/view/MotionEvent;->getY()F
 
     move-result v2
 
-    .line 3
     invoke-virtual {p2}, Landroid/view/MotionEvent;->getX()F
 
     move-result v3
 
-    .line 4
     invoke-virtual {p2}, Landroid/view/MotionEvent;->getY()F
 
     move-result v4
 
-    .line 5
     invoke-direct {p0, v1, v2, v3, v4}, Lcom/commsource/studio/i;->k(FFFF)F
 
     move-result v1
 
-    .line 6
     iget v2, p0, Lcom/commsource/studio/i;->q:F
 
     cmpl-float v2, v1, v2
@@ -1227,7 +1113,6 @@
 
     if-gtz v2, :cond_0
 
-    .line 7
     iget-object v2, p0, Lcom/commsource/studio/i;->A:Lcom/commsource/studio/i$d;
 
     invoke-interface {v2, p1, p2, p3, p4}, Lcom/commsource/studio/i$d;->onFlingFromLeftToRight(Landroid/view/MotionEvent;Landroid/view/MotionEvent;FF)Z
@@ -1244,7 +1129,6 @@
 
     int-to-float v3, v3
 
-    .line 8
     iget v4, p0, Lcom/commsource/studio/i;->r:F
 
     add-float v5, v3, v4
@@ -1259,7 +1143,6 @@
 
     if-ltz v3, :cond_1
 
-    .line 9
     iget-object v3, p0, Lcom/commsource/studio/i;->A:Lcom/commsource/studio/i$d;
 
     invoke-interface {v3, p1, p2, p3, p4}, Lcom/commsource/studio/i$d;->onFlingFromRightToLeft(Landroid/view/MotionEvent;Landroid/view/MotionEvent;FF)Z
@@ -1273,7 +1156,6 @@
 
     int-to-float v3, v3
 
-    .line 10
     iget v4, p0, Lcom/commsource/studio/i;->s:F
 
     add-float/2addr v3, v4
@@ -1292,7 +1174,6 @@
 
     if-ltz v3, :cond_3
 
-    .line 11
     :cond_2
     iget-object v3, p0, Lcom/commsource/studio/i;->A:Lcom/commsource/studio/i$d;
 
@@ -1302,7 +1183,6 @@
 
     or-int/2addr v2, v3
 
-    .line 12
     :cond_3
     iget v3, p0, Lcom/commsource/studio/i;->t:F
 
@@ -1316,7 +1196,6 @@
 
     if-ltz v1, :cond_4
 
-    .line 13
     iget-object v1, p0, Lcom/commsource/studio/i;->A:Lcom/commsource/studio/i$d;
 
     invoke-interface {v1, p1, p2, p3, p4}, Lcom/commsource/studio/i$d;->onFlingFromBottomToTop(Landroid/view/MotionEvent;Landroid/view/MotionEvent;FF)Z
@@ -1325,7 +1204,6 @@
 
     or-int/2addr v2, p1
 
-    .line 14
     :cond_4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1339,7 +1217,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/i;->g:Landroid/os/Handler;
 
     const/4 v2, 0x3
@@ -1348,21 +1225,16 @@
 
     const/4 v1, 0x0
 
-    .line 2
     iput-boolean v1, p0, Lcom/commsource/studio/i;->i:Z
 
-    .line 3
     iput-boolean v1, p0, Lcom/commsource/studio/i;->l:Z
 
     const/4 v1, 0x1
 
-    .line 4
     iput-boolean v1, p0, Lcom/commsource/studio/i;->j:Z
 
-    .line 5
     iput-boolean v1, p0, Lcom/commsource/studio/i;->F:Z
 
-    .line 6
     iget-object v1, p0, Lcom/commsource/studio/i;->A:Lcom/commsource/studio/i$d;
 
     iget-object v2, p0, Lcom/commsource/studio/i;->D:Landroid/view/MotionEvent;
@@ -1374,7 +1246,6 @@
     :cond_0
     invoke-interface {v1, v2}, Lcom/commsource/studio/i$d;->onLongPress(Landroid/view/MotionEvent;)Z
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1387,19 +1258,16 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/studio/i;->m:Z
 
     const/4 v2, 0x0
 
     if-nez v1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v2
 
-    .line 3
     :cond_0
     invoke-virtual {p3}, Landroid/view/MotionEvent;->getEventTime()J
 
@@ -1411,7 +1279,6 @@
 
     sub-long/2addr v3, v5
 
-    .line 4
     sget p2, Lcom/commsource/studio/i;->Z:I
 
     int-to-long v5, p2
@@ -1428,7 +1295,6 @@
 
     goto :goto_0
 
-    .line 5
     :cond_1
     invoke-virtual {p1}, Landroid/view/MotionEvent;->getX()F
 
@@ -1444,7 +1310,6 @@
 
     sub-int/2addr p2, v1
 
-    .line 6
     invoke-virtual {p1}, Landroid/view/MotionEvent;->getY()F
 
     move-result p1
@@ -1465,7 +1330,6 @@
 
     add-int/2addr p2, p1
 
-    .line 7
     iget p1, p0, Lcom/commsource/studio/i;->d:I
 
     if-ge p2, p1, :cond_2
@@ -1477,7 +1341,6 @@
 
     return v2
 
-    .line 8
     :cond_3
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1492,7 +1355,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p1}, Landroid/view/MotionEvent;->getPointerCount()I
 
     move-result p1
@@ -1521,23 +1383,18 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p1, Landroid/graphics/PointF;->x:F
 
     iput v1, p0, Lcom/commsource/studio/i;->u:F
 
-    .line 2
     iput v1, p0, Lcom/commsource/studio/i;->y:F
 
-    .line 3
     iget p1, p1, Landroid/graphics/PointF;->y:F
 
     iput p1, p0, Lcom/commsource/studio/i;->v:F
 
-    .line 4
     iput p1, p0, Lcom/commsource/studio/i;->z:F
 
-    .line 5
     iget-object p1, p0, Lcom/commsource/studio/i;->D:Landroid/view/MotionEvent;
 
     invoke-direct {p0, p1, p2}, Lcom/commsource/studio/i;->o(Landroid/view/MotionEvent;Landroid/view/MotionEvent;)Landroid/view/MotionEvent;
@@ -1546,7 +1403,6 @@
 
     iput-object p1, p0, Lcom/commsource/studio/i;->D:Landroid/view/MotionEvent;
 
-    .line 6
     iget-object p1, p0, Lcom/commsource/studio/i;->g:Landroid/os/Handler;
 
     const/4 v1, 0x3
@@ -1557,12 +1413,10 @@
 
     if-eqz p1, :cond_0
 
-    .line 7
     iget-object v2, p0, Lcom/commsource/studio/i;->g:Landroid/os/Handler;
 
     invoke-virtual {v2, v1}, Landroid/os/Handler;->removeMessages(I)V
 
-    .line 8
     :cond_0
     iget-object v2, p0, Lcom/commsource/studio/i;->D:Landroid/view/MotionEvent;
 
@@ -1601,7 +1455,6 @@
 
     if-eqz p1, :cond_4
 
-    .line 9
     iget-object p1, p0, Lcom/commsource/studio/i;->A:Lcom/commsource/studio/i$d;
 
     iget-object v1, p0, Lcom/commsource/studio/i;->B:Landroid/view/MotionEvent;
@@ -1616,7 +1469,6 @@
 
     goto :goto_0
 
-    .line 10
     :cond_4
     iget-object p1, p0, Lcom/commsource/studio/i;->g:Landroid/os/Handler;
 
@@ -1626,7 +1478,6 @@
 
     const/4 p1, 0x0
 
-    .line 11
     :goto_0
     iget-object v1, p0, Lcom/commsource/studio/i;->D:Landroid/view/MotionEvent;
 
@@ -1634,39 +1485,30 @@
 
     const/4 v2, 0x1
 
-    .line 12
     iput-boolean v2, p0, Lcom/commsource/studio/i;->l:Z
 
-    .line 13
     iput-boolean v2, p0, Lcom/commsource/studio/i;->m:Z
 
-    .line 14
     iput-boolean v2, p0, Lcom/commsource/studio/i;->h:Z
 
-    .line 15
     iput-boolean v3, p0, Lcom/commsource/studio/i;->j:Z
 
-    .line 16
     iput-boolean v3, p0, Lcom/commsource/studio/i;->i:Z
 
-    .line 17
     iput-boolean v2, p0, Lcom/commsource/studio/i;->H:Z
 
     if-eqz v1, :cond_8
 
-    .line 18
     iget-boolean v1, p0, Lcom/commsource/studio/i;->n:Z
 
     if-eqz v1, :cond_6
 
-    .line 19
     iget-object v1, p0, Lcom/commsource/studio/i;->g:Landroid/os/Handler;
 
     const/4 v3, 0x2
 
     invoke-virtual {v1, v3}, Landroid/os/Handler;->removeMessages(I)V
 
-    .line 20
     iget-object v1, p0, Lcom/commsource/studio/i;->g:Landroid/os/Handler;
 
     iget-object v4, p0, Lcom/commsource/studio/i;->D:Landroid/view/MotionEvent;
@@ -1688,7 +1530,6 @@
 
     invoke-virtual {v1, v3, v4, v5}, Landroid/os/Handler;->sendEmptyMessageAtTime(IJ)Z
 
-    .line 21
     :cond_6
     iget-object v1, p0, Lcom/commsource/studio/i;->g:Landroid/os/Handler;
 
@@ -1711,7 +1552,6 @@
 
     invoke-virtual {v1, v2, v3, v4}, Landroid/os/Handler;->sendEmptyMessageAtTime(IJ)Z
 
-    .line 22
     :cond_8
     iget-object v1, p0, Lcom/commsource/studio/i;->A:Lcom/commsource/studio/i$d;
 
@@ -1721,7 +1561,6 @@
 
     or-int/2addr p1, p2
 
-    .line 23
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
@@ -1734,7 +1573,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/studio/i;->j:Z
 
     const/4 v2, 0x0
@@ -1745,12 +1583,10 @@
 
     if-nez v1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v2
 
-    .line 3
     :cond_0
     iget v1, p0, Lcom/commsource/studio/i;->u:F
 
@@ -1758,28 +1594,24 @@
 
     sub-float/2addr v1, v3
 
-    .line 4
     iget v4, p0, Lcom/commsource/studio/i;->v:F
 
     iget v5, p1, Landroid/graphics/PointF;->y:F
 
     sub-float/2addr v4, v5
 
-    .line 5
     iget-boolean v6, p0, Lcom/commsource/studio/i;->l:Z
 
     const/4 v7, 0x1
 
     if-eqz v6, :cond_5
 
-    .line 6
     iget v6, p0, Lcom/commsource/studio/i;->y:F
 
     sub-float/2addr v3, v6
 
     float-to-int v3, v3
 
-    .line 7
     iget v6, p0, Lcom/commsource/studio/i;->z:F
 
     sub-float/2addr v5, v6
@@ -1792,7 +1624,6 @@
 
     add-int/2addr v3, v5
 
-    .line 8
     iget v5, p0, Lcom/commsource/studio/i;->b:I
 
     if-gt v3, v5, :cond_2
@@ -1808,7 +1639,6 @@
 
     goto :goto_1
 
-    .line 9
     :cond_2
     :goto_0
     iget-object v5, p0, Lcom/commsource/studio/i;->A:Lcom/commsource/studio/i$d;
@@ -1819,14 +1649,12 @@
 
     move-result v5
 
-    .line 10
     invoke-virtual {p2}, Landroid/view/MotionEvent;->getPointerCount()I
 
     move-result v6
 
     if-ne v6, v7, :cond_4
 
-    .line 11
     iget-object v6, p0, Lcom/commsource/studio/i;->A:Lcom/commsource/studio/i$d;
 
     iget-object v8, p0, Lcom/commsource/studio/i;->D:Landroid/view/MotionEvent;
@@ -1842,51 +1670,42 @@
 
     or-int/2addr v5, v1
 
-    .line 12
     :cond_4
     iget v1, p1, Landroid/graphics/PointF;->x:F
 
     iput v1, p0, Lcom/commsource/studio/i;->u:F
 
-    .line 13
     iget v1, p1, Landroid/graphics/PointF;->y:F
 
     iput v1, p0, Lcom/commsource/studio/i;->v:F
 
-    .line 14
     iput-boolean v2, p0, Lcom/commsource/studio/i;->l:Z
 
-    .line 15
     iget-object v1, p0, Lcom/commsource/studio/i;->g:Landroid/os/Handler;
 
     const/4 v4, 0x3
 
     invoke-virtual {v1, v4}, Landroid/os/Handler;->removeMessages(I)V
 
-    .line 16
     iget-object v1, p0, Lcom/commsource/studio/i;->g:Landroid/os/Handler;
 
     invoke-virtual {v1, v7}, Landroid/os/Handler;->removeMessages(I)V
 
-    .line 17
     iget-object v1, p0, Lcom/commsource/studio/i;->g:Landroid/os/Handler;
 
     const/4 v4, 0x2
 
     invoke-virtual {v1, v4}, Landroid/os/Handler;->removeMessages(I)V
 
-    .line 18
     :goto_1
     iget v1, p0, Lcom/commsource/studio/i;->c:I
 
     if-le v3, v1, :cond_a
 
-    .line 19
     iput-boolean v2, p0, Lcom/commsource/studio/i;->m:Z
 
     goto :goto_4
 
-    .line 20
     :cond_5
     invoke-static {v1}, Ljava/lang/Math;->abs(F)F
 
@@ -1913,7 +1732,6 @@
 
     goto :goto_4
 
-    .line 21
     :cond_7
     :goto_2
     iget-object v3, p0, Lcom/commsource/studio/i;->A:Lcom/commsource/studio/i$d;
@@ -1924,14 +1742,12 @@
 
     move-result v3
 
-    .line 22
     invoke-virtual {p2}, Landroid/view/MotionEvent;->getPointerCount()I
 
     move-result v5
 
     if-ne v5, v7, :cond_9
 
-    .line 23
     iget-object v5, p0, Lcom/commsource/studio/i;->A:Lcom/commsource/studio/i$d;
 
     iget-object v6, p0, Lcom/commsource/studio/i;->D:Landroid/view/MotionEvent;
@@ -1954,18 +1770,15 @@
     :cond_9
     move v5, v3
 
-    .line 24
     :goto_3
     iget v1, p1, Landroid/graphics/PointF;->x:F
 
     iput v1, p0, Lcom/commsource/studio/i;->u:F
 
-    .line 25
     iget v1, p1, Landroid/graphics/PointF;->y:F
 
     iput v1, p0, Lcom/commsource/studio/i;->v:F
 
-    .line 26
     :cond_a
     :goto_4
     invoke-direct {p0, p2}, Lcom/commsource/studio/i;->v(Landroid/view/MotionEvent;)Z
@@ -1976,7 +1789,6 @@
 
     const/high16 v1, 0x3f800000    # 1.0f
 
-    .line 27
     invoke-virtual {p2, v2}, Landroid/view/MotionEvent;->getX(I)F
 
     move-result v3
@@ -1995,7 +1807,6 @@
 
     move-result v3
 
-    .line 28
     invoke-virtual {p2, v7}, Landroid/view/MotionEvent;->getX(I)F
 
     move-result v4
@@ -2016,7 +1827,6 @@
 
     sub-float/2addr v3, v4
 
-    .line 29
     invoke-static {v3}, Ljava/lang/Math;->abs(F)F
 
     move-result v3
@@ -2037,23 +1847,19 @@
 
     if-lez v4, :cond_b
 
-    .line 30
     iget v1, p0, Lcom/commsource/studio/i;->M:F
 
     div-float/2addr v1, v3
 
-    .line 31
     :cond_b
     iget v3, p0, Lcom/commsource/studio/i;->M:F
 
     iput v3, p0, Lcom/commsource/studio/i;->N:F
 
-    .line 32
     iget v3, p0, Lcom/commsource/studio/i;->O:F
 
     iput v3, p0, Lcom/commsource/studio/i;->P:F
 
-    .line 33
     invoke-virtual {p2, v2}, Landroid/view/MotionEvent;->getX(I)F
 
     move-result v3
@@ -2076,7 +1882,6 @@
 
     iput v3, p0, Lcom/commsource/studio/i;->M:F
 
-    .line 34
     invoke-virtual {p2, v2}, Landroid/view/MotionEvent;->getX(I)F
 
     move-result v3
@@ -2099,7 +1904,6 @@
 
     iput v3, p0, Lcom/commsource/studio/i;->O:F
 
-    .line 35
     iget-object v4, p0, Lcom/commsource/studio/i;->A:Lcom/commsource/studio/i$d;
 
     iget v6, p0, Lcom/commsource/studio/i;->P:F
@@ -2108,7 +1912,6 @@
 
     invoke-interface {v4, v1, v3, p1}, Lcom/commsource/studio/i$d;->onDoubleGestureMove(FFLandroid/graphics/PointF;)Z
 
-    .line 36
     iget-object p1, p0, Lcom/commsource/studio/i;->Q:Landroid/graphics/PointF;
 
     invoke-virtual {p2, v2}, Landroid/view/MotionEvent;->getX(I)F
@@ -2121,7 +1924,6 @@
 
     invoke-virtual {p1, v1, v2}, Landroid/graphics/PointF;->set(FF)V
 
-    .line 37
     iget-object p1, p0, Lcom/commsource/studio/i;->R:Landroid/graphics/PointF;
 
     invoke-virtual {p2, v7}, Landroid/view/MotionEvent;->getX(I)F
@@ -2134,7 +1936,6 @@
 
     invoke-virtual {p1, v1, p2}, Landroid/graphics/PointF;->set(FF)V
 
-    .line 38
     :cond_c
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -2148,38 +1949,30 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p1, Landroid/graphics/PointF;->x:F
 
     iput v1, p0, Lcom/commsource/studio/i;->u:F
 
-    .line 2
     iput v1, p0, Lcom/commsource/studio/i;->y:F
 
-    .line 3
     iget v1, p1, Landroid/graphics/PointF;->y:F
 
     iput v1, p0, Lcom/commsource/studio/i;->v:F
 
-    .line 4
     iput v1, p0, Lcom/commsource/studio/i;->z:F
 
-    .line 5
     iget-object v1, p0, Lcom/commsource/studio/i;->A:Lcom/commsource/studio/i$d;
 
     invoke-interface {v1, p2}, Lcom/commsource/studio/i$d;->onMinorFingerDown(Landroid/view/MotionEvent;)Z
 
     move-result v1
 
-    .line 6
     invoke-direct {p0}, Lcom/commsource/studio/i;->n()V
 
-    .line 7
     iget-boolean v2, p0, Lcom/commsource/studio/i;->I:Z
 
     iput-boolean v2, p0, Lcom/commsource/studio/i;->H:Z
 
-    .line 8
     iget v2, p0, Lcom/commsource/studio/i;->G:I
 
     const/4 v3, 0x1
@@ -2190,7 +1983,6 @@
 
     if-ne v2, v5, :cond_0
 
-    .line 9
     iget-object v2, p0, Lcom/commsource/studio/i;->A:Lcom/commsource/studio/i$d;
 
     new-instance v5, Landroid/graphics/PointF;
@@ -2219,7 +2011,6 @@
 
     invoke-interface {v2, v5, v6, p1}, Lcom/commsource/studio/i$d;->onDoubleGestureStart(Landroid/graphics/PointF;Landroid/graphics/PointF;Landroid/graphics/PointF;)Z
 
-    .line 10
     :cond_0
     invoke-direct {p0, p2}, Lcom/commsource/studio/i;->v(Landroid/view/MotionEvent;)Z
 
@@ -2227,7 +2018,6 @@
 
     if-eqz p1, :cond_1
 
-    .line 11
     invoke-virtual {p2, v4}, Landroid/view/MotionEvent;->getX(I)F
 
     move-result p1
@@ -2250,7 +2040,6 @@
 
     iput p1, p0, Lcom/commsource/studio/i;->M:F
 
-    .line 12
     invoke-virtual {p2, v4}, Landroid/view/MotionEvent;->getX(I)F
 
     move-result p1
@@ -2273,15 +2062,12 @@
 
     iput p1, p0, Lcom/commsource/studio/i;->O:F
 
-    .line 13
     iget v2, p0, Lcom/commsource/studio/i;->M:F
 
     iput v2, p0, Lcom/commsource/studio/i;->N:F
 
-    .line 14
     iput p1, p0, Lcom/commsource/studio/i;->P:F
 
-    .line 15
     iget-object p1, p0, Lcom/commsource/studio/i;->Q:Landroid/graphics/PointF;
 
     invoke-virtual {p2, v4}, Landroid/view/MotionEvent;->getX(I)F
@@ -2294,7 +2080,6 @@
 
     invoke-virtual {p1, v2, v4}, Landroid/graphics/PointF;->set(FF)V
 
-    .line 16
     iget-object p1, p0, Lcom/commsource/studio/i;->R:Landroid/graphics/PointF;
 
     invoke-virtual {p2, v3}, Landroid/view/MotionEvent;->getX(I)F
@@ -2307,7 +2092,6 @@
 
     invoke-virtual {p1, v2, p2}, Landroid/graphics/PointF;->set(FF)V
 
-    .line 17
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -2321,23 +2105,18 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p1, Landroid/graphics/PointF;->x:F
 
     iput v1, p0, Lcom/commsource/studio/i;->u:F
 
-    .line 2
     iput v1, p0, Lcom/commsource/studio/i;->y:F
 
-    .line 3
     iget v1, p1, Landroid/graphics/PointF;->y:F
 
     iput v1, p0, Lcom/commsource/studio/i;->v:F
 
-    .line 4
     iput v1, p0, Lcom/commsource/studio/i;->z:F
 
-    .line 5
     iget-object v1, p0, Lcom/commsource/studio/i;->o:Landroid/view/VelocityTracker;
 
     if-nez v1, :cond_0
@@ -2353,17 +2132,14 @@
 
     invoke-virtual {v1, v2, v3}, Landroid/view/VelocityTracker;->computeCurrentVelocity(IF)V
 
-    .line 6
     invoke-virtual {p2}, Landroid/view/MotionEvent;->getActionIndex()I
 
     move-result v1
 
-    .line 7
     invoke-virtual {p2, v1}, Landroid/view/MotionEvent;->getPointerId(I)I
 
     move-result v2
 
-    .line 8
     iget-object v3, p0, Lcom/commsource/studio/i;->o:Landroid/view/VelocityTracker;
 
     if-nez v3, :cond_1
@@ -2375,7 +2151,6 @@
 
     move-result v3
 
-    .line 9
     iget-object v4, p0, Lcom/commsource/studio/i;->o:Landroid/view/VelocityTracker;
 
     if-nez v4, :cond_2
@@ -2387,7 +2162,6 @@
 
     move-result v2
 
-    .line 10
     invoke-virtual {p2}, Landroid/view/MotionEvent;->getPointerCount()I
 
     move-result v4
@@ -2403,13 +2177,11 @@
 
     goto :goto_1
 
-    .line 11
     :cond_3
     invoke-virtual {p2, v6}, Landroid/view/MotionEvent;->getPointerId(I)I
 
     move-result v7
 
-    .line 12
     iget-object v8, p0, Lcom/commsource/studio/i;->o:Landroid/view/VelocityTracker;
 
     if-nez v8, :cond_4
@@ -2423,7 +2195,6 @@
 
     mul-float v8, v8, v3
 
-    .line 13
     iget-object v9, p0, Lcom/commsource/studio/i;->o:Landroid/view/VelocityTracker;
 
     if-nez v9, :cond_5
@@ -2445,7 +2216,6 @@
 
     if-gez v7, :cond_7
 
-    .line 14
     iget-object v1, p0, Lcom/commsource/studio/i;->o:Landroid/view/VelocityTracker;
 
     if-nez v1, :cond_6
@@ -2463,7 +2233,6 @@
 
     goto :goto_0
 
-    .line 15
     :cond_8
     :goto_2
     iget-object v1, p0, Lcom/commsource/studio/i;->A:Lcom/commsource/studio/i$d;
@@ -2472,7 +2241,6 @@
 
     move-result v1
 
-    .line 16
     iget v2, p0, Lcom/commsource/studio/i;->G:I
 
     const/4 v3, 0x2
@@ -2481,7 +2249,6 @@
 
     if-ne v2, v3, :cond_9
 
-    .line 17
     iget-object v2, p0, Lcom/commsource/studio/i;->A:Lcom/commsource/studio/i$d;
 
     new-instance v3, Landroid/graphics/PointF;
@@ -2510,7 +2277,6 @@
 
     invoke-interface {v2, v3, v6, p1}, Lcom/commsource/studio/i$d;->onDoubleGestureStart(Landroid/graphics/PointF;Landroid/graphics/PointF;Landroid/graphics/PointF;)Z
 
-    .line 18
     :cond_9
     invoke-direct {p0, p2}, Lcom/commsource/studio/i;->v(Landroid/view/MotionEvent;)Z
 
@@ -2518,7 +2284,6 @@
 
     if-eqz p1, :cond_a
 
-    .line 19
     invoke-virtual {p2, v5}, Landroid/view/MotionEvent;->getX(I)F
 
     move-result p1
@@ -2541,7 +2306,6 @@
 
     iput p1, p0, Lcom/commsource/studio/i;->M:F
 
-    .line 20
     invoke-virtual {p2, v5}, Landroid/view/MotionEvent;->getX(I)F
 
     move-result p1
@@ -2564,15 +2328,12 @@
 
     iput p1, p0, Lcom/commsource/studio/i;->O:F
 
-    .line 21
     iget v2, p0, Lcom/commsource/studio/i;->M:F
 
     iput v2, p0, Lcom/commsource/studio/i;->N:F
 
-    .line 22
     iput p1, p0, Lcom/commsource/studio/i;->P:F
 
-    .line 23
     iget-object p1, p0, Lcom/commsource/studio/i;->Q:Landroid/graphics/PointF;
 
     invoke-virtual {p2, v5}, Landroid/view/MotionEvent;->getX(I)F
@@ -2585,7 +2346,6 @@
 
     invoke-virtual {p1, v2, v3}, Landroid/graphics/PointF;->set(FF)V
 
-    .line 24
     iget-object p1, p0, Lcom/commsource/studio/i;->R:Landroid/graphics/PointF;
 
     invoke-virtual {p2, v4}, Landroid/view/MotionEvent;->getX(I)F
@@ -2598,7 +2358,6 @@
 
     invoke-virtual {p1, v2, p2}, Landroid/graphics/PointF;->set(FF)V
 
-    .line 25
     :cond_a
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -2622,46 +2381,38 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-static {}, Lcom/commsource/util/d2;->b()Lcom/commsource/util/d2;
 
     move-result-object v1
 
-    .line 2
     invoke-virtual {p1}, Landroid/view/MotionEvent;->getPointerCount()I
 
     move-result v2
 
     iput v2, p0, Lcom/commsource/studio/i;->G:I
 
-    .line 3
     invoke-virtual {p1}, Landroid/view/MotionEvent;->getAction()I
 
     move-result v2
 
-    .line 4
     invoke-direct {p0, v2, p1}, Lcom/commsource/studio/i;->l(ILandroid/view/MotionEvent;)Landroid/graphics/PointF;
 
     move-result-object v3
 
-    .line 5
     iget-object v4, p0, Lcom/commsource/studio/i;->K:Landroid/graphics/PointF;
 
     invoke-virtual {v4, v3}, Landroid/graphics/PointF;->set(Landroid/graphics/PointF;)V
 
-    .line 6
     iget-object v4, p0, Lcom/commsource/studio/i;->o:Landroid/view/VelocityTracker;
 
     if-nez v4, :cond_0
 
-    .line 7
     invoke-static {}, Landroid/view/VelocityTracker;->obtain()Landroid/view/VelocityTracker;
 
     move-result-object v4
 
     iput-object v4, p0, Lcom/commsource/studio/i;->o:Landroid/view/VelocityTracker;
 
-    .line 8
     :cond_0
     iget-object v4, p0, Lcom/commsource/studio/i;->o:Landroid/view/VelocityTracker;
 
@@ -2700,7 +2451,6 @@
 
     goto :goto_0
 
-    .line 9
     :cond_2
     invoke-direct {p0, v3, p1}, Lcom/commsource/studio/i;->z(Landroid/graphics/PointF;Landroid/view/MotionEvent;)Z
 
@@ -2708,7 +2458,6 @@
 
     goto :goto_0
 
-    .line 10
     :cond_3
     invoke-direct {p0, v3, p1}, Lcom/commsource/studio/i;->y(Landroid/graphics/PointF;Landroid/view/MotionEvent;)Z
 
@@ -2716,13 +2465,11 @@
 
     goto :goto_0
 
-    .line 11
     :cond_4
     invoke-direct {p0, v3, p1}, Lcom/commsource/studio/i;->B(Landroid/graphics/PointF;Landroid/view/MotionEvent;)V
 
     goto :goto_0
 
-    .line 12
     :cond_5
     invoke-direct {p0, v3, p1}, Lcom/commsource/studio/i;->x(Landroid/graphics/PointF;Landroid/view/MotionEvent;)Z
 
@@ -2730,7 +2477,6 @@
 
     goto :goto_0
 
-    .line 13
     :cond_6
     invoke-direct {p0, v3, p1}, Lcom/commsource/studio/i;->A(Landroid/graphics/PointF;Landroid/view/MotionEvent;)Z
 
@@ -2738,19 +2484,16 @@
 
     goto :goto_0
 
-    .line 14
     :cond_7
     invoke-direct {p0, v3, p1}, Lcom/commsource/studio/i;->w(Landroid/graphics/PointF;Landroid/view/MotionEvent;)Z
 
     move-result v4
 
-    .line 15
     :goto_0
     iget-object v2, p0, Lcom/commsource/studio/i;->A:Lcom/commsource/studio/i$d;
 
     invoke-interface {v2, p1}, Lcom/commsource/studio/i$d;->onGestureEnd(Landroid/view/MotionEvent;)Z
 
-    .line 16
     new-instance p1, Ljava/lang/StringBuilder;
 
     invoke-direct {p1}, Ljava/lang/StringBuilder;-><init>()V
@@ -2775,7 +2518,6 @@
 
     invoke-static {p1, v1, v2, v5, v2}, Lcom/commsource/util/l0;->L(Ljava/lang/String;Ljava/lang/String;Lcom/meitu/library/util/Debug/Debug$DebugLevel;ILjava/lang/Object;)V
 
-    .line 17
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v4
@@ -2788,10 +2530,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/studio/i;->k:Z
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2819,11 +2559,9 @@
     :cond_0
     mul-float p1, p1, p1
 
-    .line 1
     :goto_0
     iput p1, p0, Lcom/commsource/studio/i;->J:F
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2836,10 +2574,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/studio/i;->n:Z
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2858,11 +2594,9 @@
 
     const/16 p1, 0x96
 
-    .line 1
     :cond_0
     iput p1, p0, Lcom/commsource/studio/i;->p:I
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2875,10 +2609,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/studio/i;->L:Z
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2891,10 +2623,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/studio/i;->I:Z
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2907,10 +2637,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/studio/i;->t:F
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2923,10 +2651,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/studio/i;->q:F
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2939,10 +2665,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/studio/i;->r:F
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2955,10 +2679,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/studio/i;->s:F
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2971,7 +2693,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/i;->K:Landroid/graphics/PointF;
 
     iget v1, v1, Landroid/graphics/PointF;->x:F
@@ -2988,7 +2709,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/i;->K:Landroid/graphics/PointF;
 
     iget v1, v1, Landroid/graphics/PointF;->y:F
@@ -3005,7 +2725,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/i;->G:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

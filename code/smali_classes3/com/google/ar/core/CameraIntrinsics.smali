@@ -21,20 +21,16 @@
 .method protected constructor <init>()V
     .locals 3
 
-    .line 5
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const-wide/16 v0, 0x0
 
-    .line 6
     iput-wide v0, p0, Lcom/google/ar/core/CameraIntrinsics;->nativeHandle:J
 
     const/4 v2, 0x0
 
-    .line 7
     iput-object v2, p0, Lcom/google/ar/core/CameraIntrinsics;->session:Lcom/google/ar/core/Session;
 
-    .line 8
     iput-wide v0, p0, Lcom/google/ar/core/CameraIntrinsics;->nativeHandle:J
 
     return-void
@@ -43,18 +39,14 @@
 .method constructor <init>(JLcom/google/ar/core/Session;)V
     .locals 2
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const-wide/16 v0, 0x0
 
-    .line 2
     iput-wide v0, p0, Lcom/google/ar/core/CameraIntrinsics;->nativeHandle:J
 
-    .line 3
     iput-wide p1, p0, Lcom/google/ar/core/CameraIntrinsics;->nativeHandle:J
 
-    .line 4
     iput-object p3, p0, Lcom/google/ar/core/CameraIntrinsics;->session:Lcom/google/ar/core/Session;
 
     return-void
@@ -91,7 +83,6 @@
         }
     .end annotation
 
-    .line 1
     iget-wide v0, p0, Lcom/google/ar/core/CameraIntrinsics;->nativeHandle:J
 
     const-wide/16 v2, 0x0
@@ -100,10 +91,8 @@
 
     if-eqz v4, :cond_0
 
-    .line 2
     invoke-direct {p0, v0, v1}, Lcom/google/ar/core/CameraIntrinsics;->nativeDestroyCameraIntrinsics(J)V
 
-    .line 3
     :cond_0
     invoke-super {p0}, Ljava/lang/Object;->finalize()V
 
@@ -113,19 +102,16 @@
 .method public getDistortionCoefficients()Ljava/nio/FloatBuffer;
     .locals 4
 
-    .line 1
     iget-object v0, p0, Lcom/google/ar/core/CameraIntrinsics;->session:Lcom/google/ar/core/Session;
 
     iget-wide v0, v0, Lcom/google/ar/core/Session;->nativeWrapperHandle:J
 
     iget-wide v2, p0, Lcom/google/ar/core/CameraIntrinsics;->nativeHandle:J
 
-    .line 2
     invoke-direct {p0, v0, v1, v2, v3}, Lcom/google/ar/core/CameraIntrinsics;->nativeGetDistortionCoefficients(JJ)[F
 
     move-result-object v0
 
-    .line 3
     invoke-static {v0}, Ljava/nio/FloatBuffer;->wrap([F)Ljava/nio/FloatBuffer;
 
     move-result-object v0
@@ -136,19 +122,16 @@
 .method public getDistortionModel()Lcom/google/ar/core/CameraIntrinsics$DistortionModel;
     .locals 4
 
-    .line 1
     iget-object v0, p0, Lcom/google/ar/core/CameraIntrinsics;->session:Lcom/google/ar/core/Session;
 
     iget-wide v0, v0, Lcom/google/ar/core/Session;->nativeWrapperHandle:J
 
     iget-wide v2, p0, Lcom/google/ar/core/CameraIntrinsics;->nativeHandle:J
 
-    .line 2
     invoke-direct {p0, v0, v1, v2, v3}, Lcom/google/ar/core/CameraIntrinsics;->nativeGetDistortionModel(JJ)I
 
     move-result v0
 
-    .line 3
     invoke-static {v0}, Lcom/google/ar/core/CameraIntrinsics$DistortionModel;->forNumber(I)Lcom/google/ar/core/CameraIntrinsics$DistortionModel;
 
     move-result-object v0
@@ -159,7 +142,6 @@
 .method public getFocalLength([FI)V
     .locals 8
 
-    .line 1
     iget-object v0, p0, Lcom/google/ar/core/CameraIntrinsics;->session:Lcom/google/ar/core/Session;
 
     iget-wide v2, v0, Lcom/google/ar/core/Session;->nativeWrapperHandle:J
@@ -186,7 +168,6 @@
 
     const/4 v1, 0x0
 
-    .line 2
     invoke-virtual {p0, v0, v1}, Lcom/google/ar/core/CameraIntrinsics;->getFocalLength([FI)V
 
     return-object v0
@@ -195,7 +176,6 @@
 .method public getImageDimensions([II)V
     .locals 8
 
-    .line 1
     iget-object v0, p0, Lcom/google/ar/core/CameraIntrinsics;->session:Lcom/google/ar/core/Session;
 
     iget-wide v2, v0, Lcom/google/ar/core/Session;->nativeWrapperHandle:J
@@ -222,7 +202,6 @@
 
     const/4 v1, 0x0
 
-    .line 2
     invoke-virtual {p0, v0, v1}, Lcom/google/ar/core/CameraIntrinsics;->getImageDimensions([II)V
 
     return-object v0
@@ -231,7 +210,6 @@
 .method public getPrincipalPoint([FI)V
     .locals 8
 
-    .line 1
     iget-object v0, p0, Lcom/google/ar/core/CameraIntrinsics;->session:Lcom/google/ar/core/Session;
 
     iget-wide v2, v0, Lcom/google/ar/core/Session;->nativeWrapperHandle:J
@@ -258,7 +236,6 @@
 
     const/4 v1, 0x0
 
-    .line 2
     invoke-virtual {p0, v0, v1}, Lcom/google/ar/core/CameraIntrinsics;->getPrincipalPoint([FI)V
 
     return-object v0

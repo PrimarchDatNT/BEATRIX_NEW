@@ -22,7 +22,6 @@
 .method constructor <init>(Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/x0;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/x0$f;->a:Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/x0;
 
     invoke-direct {p0}, Landroid/animation/AnimatorListenerAdapter;-><init>()V
@@ -37,7 +36,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lf/d/i/g;->s()Z
 
     move-result v1
@@ -46,10 +44,8 @@
 
     const/4 v1, 0x0
 
-    .line 2
     invoke-static {v1}, Lf/d/i/g;->E(Z)V
 
-    .line 3
     iget-object v2, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/x0$f;->a:Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/x0;
 
     sget v3, Lcom/res/provider/ResSTRING;->click_to_cancel_ar:I
@@ -60,7 +56,6 @@
 
     invoke-virtual {v2, v1, v3}, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/x0;->z0(ILjava/lang/String;)V
 
-    .line 4
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -84,10 +79,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0, p1}, Landroid/animation/AnimatorListenerAdapter;->onAnimationEnd(Landroid/animation/Animator;)V
 
-    .line 2
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/x0$f;->a:Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/x0;
 
     invoke-static {p1}, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/x0;->D(Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/x0;)Lcom/commsource/beautyplus/f0/w6;
@@ -104,7 +97,6 @@
 
     invoke-virtual {p1, v1}, Landroid/view/View;->post(Ljava/lang/Runnable;)Z
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

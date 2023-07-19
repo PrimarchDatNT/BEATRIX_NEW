@@ -43,14 +43,12 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lio/grpc/internal/t$e;->c:Lio/grpc/internal/t;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const-string p1, "observer"
 
-    .line 2
     invoke-static {p2, p1}, Lcom/google/common/base/t;->F(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -65,7 +63,6 @@
 .method static synthetic h(Lio/grpc/internal/t$e;)Lio/grpc/Status;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lio/grpc/internal/t$e;->b:Lio/grpc/Status;
 
     return-object p0
@@ -74,7 +71,6 @@
 .method static synthetic i(Lio/grpc/internal/t$e;)Lio/grpc/h$a;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lio/grpc/internal/t$e;->a:Lio/grpc/h$a;
 
     return-object p0
@@ -83,7 +79,6 @@
 .method static synthetic j(Lio/grpc/internal/t$e;Lio/grpc/Status;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1}, Lio/grpc/internal/t$e;->l(Lio/grpc/Status;)V
 
     return-void
@@ -92,14 +87,12 @@
 .method private k(Lio/grpc/Status;Lio/grpc/internal/ClientStreamListener$RpcProgress;Lio/grpc/y0;)V
     .locals 2
 
-    .line 1
     iget-object p2, p0, Lio/grpc/internal/t$e;->c:Lio/grpc/internal/t;
 
     invoke-static {p2}, Lio/grpc/internal/t;->m(Lio/grpc/internal/t;)Lio/grpc/q;
 
     move-result-object p2
 
-    .line 2
     invoke-virtual {p1}, Lio/grpc/Status;->p()Lio/grpc/Status$Code;
 
     move-result-object v0
@@ -110,19 +103,16 @@
 
     if-eqz p2, :cond_0
 
-    .line 3
     invoke-virtual {p2}, Lio/grpc/q;->s()Z
 
     move-result p2
 
     if-eqz p2, :cond_0
 
-    .line 4
     new-instance p1, Lio/grpc/internal/c1;
 
     invoke-direct {p1}, Lio/grpc/internal/c1;-><init>()V
 
-    .line 5
     iget-object p2, p0, Lio/grpc/internal/t$e;->c:Lio/grpc/internal/t;
 
     invoke-static {p2}, Lio/grpc/internal/t;->i(Lio/grpc/internal/t;)Lio/grpc/internal/u;
@@ -131,7 +121,6 @@
 
     invoke-interface {p2, p1}, Lio/grpc/internal/u;->t(Lio/grpc/internal/c1;)V
 
-    .line 6
     sget-object p2, Lio/grpc/Status;->k:Lio/grpc/Status;
 
     new-instance p3, Ljava/lang/StringBuilder;
@@ -152,18 +141,15 @@
 
     move-result-object p1
 
-    .line 7
     new-instance p3, Lio/grpc/y0;
 
     invoke-direct {p3}, Lio/grpc/y0;-><init>()V
 
-    .line 8
     :cond_0
     invoke-static {}, Li/b/c;->j()Li/b/b;
 
     move-result-object p2
 
-    .line 9
     iget-object v0, p0, Lio/grpc/internal/t$e;->c:Lio/grpc/internal/t;
 
     invoke-static {v0}, Lio/grpc/internal/t;->k(Lio/grpc/internal/t;)Ljava/util/concurrent/Executor;
@@ -182,10 +168,8 @@
 .method private l(Lio/grpc/Status;)V
     .locals 1
 
-    .line 1
     iput-object p1, p0, Lio/grpc/internal/t$e;->b:Lio/grpc/Status;
 
-    .line 2
     iget-object v0, p0, Lio/grpc/internal/t$e;->c:Lio/grpc/internal/t;
 
     invoke-static {v0}, Lio/grpc/internal/t;->i(Lio/grpc/internal/t;)Lio/grpc/internal/u;
@@ -202,7 +186,6 @@
 .method public a(Lio/grpc/internal/a3$a;)V
     .locals 4
 
-    .line 1
     iget-object v0, p0, Lio/grpc/internal/t$e;->c:Lio/grpc/internal/t;
 
     invoke-static {v0}, Lio/grpc/internal/t;->t(Lio/grpc/internal/t;)Li/b/d;
@@ -213,12 +196,10 @@
 
     invoke-static {v1, v0}, Li/b/c;->m(Ljava/lang/String;Li/b/d;)V
 
-    .line 2
     invoke-static {}, Li/b/c;->j()Li/b/b;
 
     move-result-object v0
 
-    .line 3
     :try_start_0
     iget-object v2, p0, Lio/grpc/internal/t$e;->c:Lio/grpc/internal/t;
 
@@ -234,7 +215,6 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 4
     iget-object p1, p0, Lio/grpc/internal/t$e;->c:Lio/grpc/internal/t;
 
     invoke-static {p1}, Lio/grpc/internal/t;->t(Lio/grpc/internal/t;)Li/b/d;
@@ -262,7 +242,6 @@
 .method public b(Lio/grpc/Status;Lio/grpc/y0;)V
     .locals 1
 
-    .line 1
     sget-object v0, Lio/grpc/internal/ClientStreamListener$RpcProgress;->PROCESSED:Lio/grpc/internal/ClientStreamListener$RpcProgress;
 
     invoke-virtual {p0, p1, v0, p2}, Lio/grpc/internal/t$e;->g(Lio/grpc/Status;Lio/grpc/internal/ClientStreamListener$RpcProgress;Lio/grpc/y0;)V
@@ -273,7 +252,6 @@
 .method public c()V
     .locals 4
 
-    .line 1
     iget-object v0, p0, Lio/grpc/internal/t$e;->c:Lio/grpc/internal/t;
 
     invoke-static {v0}, Lio/grpc/internal/t;->l(Lio/grpc/internal/t;)Lio/grpc/MethodDescriptor;
@@ -292,7 +270,6 @@
 
     return-void
 
-    .line 2
     :cond_0
     iget-object v0, p0, Lio/grpc/internal/t$e;->c:Lio/grpc/internal/t;
 
@@ -304,12 +281,10 @@
 
     invoke-static {v1, v0}, Li/b/c;->m(Ljava/lang/String;Li/b/d;)V
 
-    .line 3
     invoke-static {}, Li/b/c;->j()Li/b/b;
 
     move-result-object v0
 
-    .line 4
     :try_start_0
     iget-object v2, p0, Lio/grpc/internal/t$e;->c:Lio/grpc/internal/t;
 
@@ -325,7 +300,6 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 5
     iget-object v0, p0, Lio/grpc/internal/t$e;->c:Lio/grpc/internal/t;
 
     invoke-static {v0}, Lio/grpc/internal/t;->t(Lio/grpc/internal/t;)Li/b/d;
@@ -353,7 +327,6 @@
 .method public f(Lio/grpc/y0;)V
     .locals 4
 
-    .line 1
     iget-object v0, p0, Lio/grpc/internal/t$e;->c:Lio/grpc/internal/t;
 
     invoke-static {v0}, Lio/grpc/internal/t;->t(Lio/grpc/internal/t;)Li/b/d;
@@ -364,12 +337,10 @@
 
     invoke-static {v1, v0}, Li/b/c;->m(Ljava/lang/String;Li/b/d;)V
 
-    .line 2
     invoke-static {}, Li/b/c;->j()Li/b/b;
 
     move-result-object v0
 
-    .line 3
     :try_start_0
     iget-object v2, p0, Lio/grpc/internal/t$e;->c:Lio/grpc/internal/t;
 
@@ -385,7 +356,6 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 4
     iget-object p1, p0, Lio/grpc/internal/t$e;->c:Lio/grpc/internal/t;
 
     invoke-static {p1}, Lio/grpc/internal/t;->t(Lio/grpc/internal/t;)Li/b/d;
@@ -413,7 +383,6 @@
 .method public g(Lio/grpc/Status;Lio/grpc/internal/ClientStreamListener$RpcProgress;Lio/grpc/y0;)V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lio/grpc/internal/t$e;->c:Lio/grpc/internal/t;
 
     invoke-static {v0}, Lio/grpc/internal/t;->t(Lio/grpc/internal/t;)Li/b/d;
@@ -424,13 +393,11 @@
 
     invoke-static {v1, v0}, Li/b/c;->m(Ljava/lang/String;Li/b/d;)V
 
-    .line 2
     :try_start_0
     invoke-direct {p0, p1, p2, p3}, Lio/grpc/internal/t$e;->k(Lio/grpc/Status;Lio/grpc/internal/ClientStreamListener$RpcProgress;Lio/grpc/y0;)V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 3
     iget-object p1, p0, Lio/grpc/internal/t$e;->c:Lio/grpc/internal/t;
 
     invoke-static {p1}, Lio/grpc/internal/t;->t(Lio/grpc/internal/t;)Li/b/d;

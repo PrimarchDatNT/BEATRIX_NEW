@@ -57,7 +57,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/studio/LayerManageListLayout$createContainer$$inlined$apply$lambda$1;->invoke()V
 
     sget-object v1, Lcotlin/t1;->a:Lcotlin/t1;
@@ -74,7 +73,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/LayerManageListLayout$createContainer$$inlined$apply$lambda$1;->$this_apply:Lcom/commsource/studio/d0;
 
     invoke-virtual {v1}, Lcom/commsource/studio/d0;->g()Landroid/view/ViewGroup;
@@ -93,7 +91,6 @@
 
     invoke-virtual {v1, v2}, Landroid/view/ViewGroup;->setTranslationX(F)V
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/studio/LayerManageListLayout$createContainer$$inlined$apply$lambda$1;->$this_apply:Lcom/commsource/studio/d0;
 
     invoke-virtual {v1}, Lcom/commsource/studio/d0;->g()Landroid/view/ViewGroup;
@@ -120,7 +117,6 @@
 
     invoke-virtual {v1, v2}, Landroid/view/ViewGroup;->setTranslationY(F)V
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/studio/LayerManageListLayout$createContainer$$inlined$apply$lambda$1;->this$0:Lcom/commsource/studio/LayerManageListLayout;
 
     invoke-virtual {v1}, Lcom/commsource/studio/LayerManageListLayout;->getOnLayoutChildListener()Lcom/commsource/studio/g0;
@@ -131,7 +127,6 @@
 
     invoke-interface {v1}, Lcom/commsource/studio/g0;->a()V
 
-    .line 5
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

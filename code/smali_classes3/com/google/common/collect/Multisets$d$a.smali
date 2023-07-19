@@ -31,7 +31,6 @@
 .method constructor <init>(Lcom/google/common/collect/Multisets$d;Ljava/util/Iterator;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/common/collect/Multisets$d$a;->d:Lcom/google/common/collect/Multisets$d;
 
     iput-object p2, p0, Lcom/google/common/collect/Multisets$d$a;->c:Ljava/util/Iterator;
@@ -51,7 +50,6 @@
         }
     .end annotation
 
-    .line 1
     :cond_0
     iget-object v0, p0, Lcom/google/common/collect/Multisets$d$a;->c:Ljava/util/Iterator;
 
@@ -61,7 +59,6 @@
 
     if-eqz v0, :cond_1
 
-    .line 2
     iget-object v0, p0, Lcom/google/common/collect/Multisets$d$a;->c:Ljava/util/Iterator;
 
     invoke-interface {v0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
@@ -70,12 +67,10 @@
 
     check-cast v0, Lcom/google/common/collect/m1$a;
 
-    .line 3
     invoke-interface {v0}, Lcom/google/common/collect/m1$a;->getElement()Ljava/lang/Object;
 
     move-result-object v1
 
-    .line 4
     invoke-interface {v0}, Lcom/google/common/collect/m1$a;->getCount()I
 
     move-result v0
@@ -92,7 +87,6 @@
 
     return-object v1
 
-    .line 5
     :cond_1
     invoke-virtual {p0}, Lcom/google/common/collect/AbstractIterator;->b()Ljava/lang/Object;
 

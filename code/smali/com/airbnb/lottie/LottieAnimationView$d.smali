@@ -37,7 +37,6 @@
 .method constructor <init>(Lcom/airbnb/lottie/LottieAnimationView;I)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/airbnb/lottie/LottieAnimationView$d;->b:Lcom/airbnb/lottie/LottieAnimationView;
 
     iput p2, p0, Lcom/airbnb/lottie/LottieAnimationView$d;->a:I
@@ -60,7 +59,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/airbnb/lottie/LottieAnimationView$d;->b:Lcom/airbnb/lottie/LottieAnimationView;
 
     invoke-static {v0}, Lcom/airbnb/lottie/LottieAnimationView;->d(Lcom/airbnb/lottie/LottieAnimationView;)Z
@@ -69,7 +67,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 2
     iget-object v0, p0, Lcom/airbnb/lottie/LottieAnimationView$d;->b:Lcom/airbnb/lottie/LottieAnimationView;
 
     invoke-virtual {v0}, Landroid/widget/ImageView;->getContext()Landroid/content/Context;
@@ -111,7 +108,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/airbnb/lottie/LottieAnimationView$d;->a()Lcom/airbnb/lottie/p;
 
     move-result-object v0

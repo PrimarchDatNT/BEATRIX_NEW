@@ -28,7 +28,6 @@
 
     iput-object p1, p0, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmTransaction$g$a;->a:Lcom/commsource/camera/xcamera/cover/confirm/ConfirmTransaction$g;
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -51,7 +50,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmTransaction$g$a;->a:Lcom/commsource/camera/xcamera/cover/confirm/ConfirmTransaction$g;
 
     iget-object p1, p1, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmTransaction$g;->a:Lcom/commsource/camera/xcamera/cover/confirm/ConfirmTransaction;
@@ -68,7 +66,6 @@
 
     invoke-static {p1, v0, v1, v2}, Lcom/commsource/camera/xcamera/cover/confirm/b;->N(Lcom/commsource/camera/xcamera/cover/confirm/b;ZILjava/lang/Object;)V
 
-    .line 2
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -81,7 +78,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -94,7 +90,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmTransaction$g$a;->a:Lcom/commsource/camera/xcamera/cover/confirm/ConfirmTransaction$g;
 
     iget-object v1, v1, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmTransaction$g;->a:Lcom/commsource/camera/xcamera/cover/confirm/ConfirmTransaction;
@@ -111,7 +106,6 @@
 
     invoke-static {v1, v2, v3, v4}, Lcom/commsource/camera/xcamera/cover/confirm/b;->N(Lcom/commsource/camera/xcamera/cover/confirm/b;ZILjava/lang/Object;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

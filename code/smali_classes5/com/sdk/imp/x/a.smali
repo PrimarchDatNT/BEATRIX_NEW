@@ -60,7 +60,6 @@
 .method static constructor <clinit>()V
     .locals 9
 
-    .line 1
     new-instance v8, Ljava/util/concurrent/ThreadPoolExecutor;
 
     sget-object v5, Ljava/util/concurrent/TimeUnit;->MILLISECONDS:Ljava/util/concurrent/TimeUnit;
@@ -69,7 +68,6 @@
 
     invoke-direct {v6}, Ljava/util/concurrent/LinkedBlockingQueue;-><init>()V
 
-    .line 2
     invoke-static {}, Ljava/util/concurrent/Executors;->defaultThreadFactory()Ljava/util/concurrent/ThreadFactory;
 
     move-result-object v7
@@ -88,7 +86,6 @@
 
     const/4 v0, 0x0
 
-    .line 3
     sput-boolean v0, Lcom/sdk/imp/x/a;->u:Z
 
     return-void
@@ -97,7 +94,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -106,7 +102,6 @@
 .method static synthetic a(Ljava/lang/String;)Ljava/lang/String;
     .locals 0
 
-    .line 1
     invoke-static {p0}, Lcom/sdk/imp/x/a;->e(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p0
@@ -117,7 +112,6 @@
 .method static synthetic b()Lcom/sdk/imp/x/b;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/sdk/imp/x/a;->q:Lcom/sdk/imp/x/b;
 
     return-object v0
@@ -126,7 +120,6 @@
 .method static synthetic c(Lcom/sdk/imp/x/a$f;Ljava/lang/String;I)V
     .locals 0
 
-    .line 1
     invoke-static {p0, p1, p2}, Lcom/sdk/imp/x/a;->l(Lcom/sdk/imp/x/a$f;Ljava/lang/String;I)V
 
     return-void
@@ -135,14 +128,12 @@
 .method private static d()V
     .locals 3
 
-    .line 1
     invoke-static {}, Lcom/sdk/api/a;->g()Landroid/content/Context;
 
     move-result-object v0
 
     if-eqz v0, :cond_1
 
-    .line 2
     invoke-static {}, Landroid/os/Environment;->getExternalStorageState()Ljava/lang/String;
 
     move-result-object v1
@@ -157,14 +148,12 @@
 
     const/4 v1, 0x0
 
-    .line 3
     invoke-virtual {v0, v1}, Landroid/content/Context;->getExternalFilesDir(Ljava/lang/String;)Ljava/io/File;
 
     move-result-object v1
 
     if-eqz v1, :cond_0
 
-    .line 4
     new-instance v2, Ljava/lang/StringBuilder;
 
     invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
@@ -183,10 +172,8 @@
 
     move-result-object v1
 
-    .line 5
     invoke-static {v1}, Lcom/sdk/imp/x/a;->p(Ljava/lang/String;)V
 
-    .line 6
     :cond_0
     invoke-virtual {v0}, Landroid/content/Context;->getFilesDir()Ljava/io/File;
 
@@ -194,7 +181,6 @@
 
     if-eqz v0, :cond_1
 
-    .line 7
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -213,7 +199,6 @@
 
     move-result-object v0
 
-    .line 8
     invoke-static {v0}, Lcom/sdk/imp/x/a;->p(Ljava/lang/String;)V
 
     :cond_1
@@ -223,7 +208,6 @@
 .method private static e(Ljava/lang/String;)Ljava/lang/String;
     .locals 0
 
-    .line 1
     invoke-static {p0}, Lf/q/b/h;->a(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p0
@@ -242,19 +226,16 @@
         .end annotation
     .end param
 
-    .line 1
     sget-object v0, Lcom/sdk/imp/x/a;->q:Lcom/sdk/imp/x/b;
 
     if-nez v0, :cond_0
 
     const/4 v0, 0x0
 
-    .line 2
     invoke-interface {p1, p0, v0}, Lcom/sdk/imp/x/a$e;->a(Ljava/lang/String;Ljava/io/InputStream;)V
 
     return-void
 
-    .line 3
     :cond_0
     sget-object v0, Lcom/sdk/imp/x/a;->r:Ljava/util/concurrent/Executor;
 
@@ -270,7 +251,6 @@
 .method public static g(Ljava/lang/String;)Ljava/lang/String;
     .locals 2
 
-    .line 1
     sget-object v0, Lcom/sdk/imp/x/a;->q:Lcom/sdk/imp/x/b;
 
     if-nez v0, :cond_0
@@ -279,7 +259,6 @@
 
     return-object p0
 
-    .line 2
     :cond_0
     new-instance v0, Ljava/lang/StringBuilder;
 
@@ -297,7 +276,6 @@
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 3
     invoke-static {p0}, Lcom/sdk/imp/x/a;->e(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p0
@@ -322,14 +300,12 @@
 .method public static h()Ljava/io/File;
     .locals 3
 
-    .line 1
     sget-object v0, Lcom/sdk/imp/x/a;->t:Ljava/io/File;
 
     if-eqz v0, :cond_0
 
     return-object v0
 
-    .line 2
     :cond_0
     sget-object v0, Lcom/sdk/imp/x/a;->s:Ljava/io/File;
 
@@ -339,7 +315,6 @@
 
     return-object v1
 
-    .line 3
     :cond_1
     invoke-virtual {v0}, Ljava/io/File;->getParentFile()Ljava/io/File;
 
@@ -349,7 +324,6 @@
 
     move-result-object v0
 
-    .line 4
     new-instance v2, Ljava/lang/StringBuilder;
 
     invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
@@ -368,12 +342,10 @@
 
     move-result-object v0
 
-    .line 5
     new-instance v2, Ljava/io/File;
 
     invoke-direct {v2, v0}, Ljava/io/File;-><init>(Ljava/lang/String;)V
 
-    .line 6
     invoke-virtual {v2}, Ljava/io/File;->isFile()Z
 
     move-result v0
@@ -388,7 +360,6 @@
 
     return-object v1
 
-    .line 7
     :cond_2
     invoke-virtual {v2}, Ljava/io/File;->exists()Z
 
@@ -404,7 +375,6 @@
 
     return-object v1
 
-    .line 8
     :cond_3
     sput-object v2, Lcom/sdk/imp/x/a;->t:Ljava/io/File;
 
@@ -414,7 +384,6 @@
 .method public static i(Landroid/content/Context;)Z
     .locals 4
 
-    .line 1
     sget-boolean v0, Lcom/sdk/imp/x/a;->u:Z
 
     const/4 v1, 0x1
@@ -430,19 +399,16 @@
 
     return v0
 
-    .line 2
     :cond_1
     :try_start_0
     sget-object v2, Lcom/sdk/imp/x/a;->q:Lcom/sdk/imp/x/b;
 
     if-nez v2, :cond_5
 
-    .line 3
     invoke-static {}, Lcom/sdk/imp/x/a;->d()V
 
     const-string v2, "mounted"
 
-    .line 4
     invoke-static {}, Landroid/os/Environment;->getExternalStorageState()Ljava/lang/String;
 
     move-result-object v3
@@ -455,7 +421,6 @@
 
     const/4 v2, 0x0
 
-    .line 5
     invoke-virtual {p0, v2}, Landroid/content/Context;->getExternalFilesDir(Ljava/lang/String;)Ljava/io/File;
 
     move-result-object v2
@@ -466,7 +431,6 @@
 
     if-nez v2, :cond_3
 
-    .line 6
     invoke-virtual {p0}, Landroid/content/Context;->getFilesDir()Ljava/io/File;
 
     move-result-object p0
@@ -486,7 +450,6 @@
     :goto_0
     return v1
 
-    .line 7
     :cond_4
     invoke-virtual {p0}, Landroid/content/Context;->getFilesDir()Ljava/io/File;
 
@@ -500,7 +463,6 @@
 
     return p0
 
-    .line 8
     :cond_5
     sput-boolean v1, Lcom/sdk/imp/x/a;->u:Z
 
@@ -521,7 +483,6 @@
 
     return v1
 
-    .line 1
     :cond_0
     :try_start_0
     new-instance v2, Ljava/io/File;
@@ -550,7 +511,6 @@
 
     invoke-direct {v2, v3}, Ljava/io/File;-><init>(Ljava/lang/String;)V
 
-    .line 2
     invoke-virtual {v2}, Ljava/io/File;->isFile()Z
 
     move-result v3
@@ -570,22 +530,18 @@
 
     const/4 v5, 0x1
 
-    .line 3
     invoke-static {v2, v5, v5, v3, v4}, Lcom/sdk/imp/x/b;->x(Ljava/io/File;IIJ)Lcom/sdk/imp/x/b;
 
     move-result-object v6
 
-    .line 4
     invoke-virtual {v6}, Lcom/sdk/imp/x/b;->size()J
 
     move-result-wide v7
 
-    .line 5
     invoke-static {v2}, Lf/q/b/f;->b(Ljava/io/File;)J
 
     move-result-wide v9
 
-    .line 6
     sget-object v11, Lcom/sdk/imp/x/a;->g:Ljava/lang/String;
 
     new-instance v12, Ljava/lang/StringBuilder;
@@ -608,7 +564,6 @@
 
     invoke-static {v11, v12}, Lf/q/b/g;->b(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 7
     new-instance v12, Ljava/lang/StringBuilder;
 
     invoke-direct {v12}, Ljava/lang/StringBuilder;-><init>()V
@@ -635,7 +590,6 @@
 
     invoke-static {v11, v5}, Lf/q/b/g;->b(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 8
     new-instance v5, Ljava/lang/StringBuilder;
 
     invoke-direct {v5}, Ljava/lang/StringBuilder;-><init>()V
@@ -677,12 +631,10 @@
     :cond_2
     const-wide/32 v1, 0x9600000
 
-    .line 9
     invoke-static {v7, v8, v1, v2}, Ljava/lang/Math;->min(JJ)J
 
     move-result-wide v1
 
-    .line 10
     new-instance v3, Ljava/lang/StringBuilder;
 
     invoke-direct {v3}, Ljava/lang/StringBuilder;-><init>()V
@@ -707,13 +659,10 @@
 
     move-object/from16 v0, v17
 
-    .line 11
     invoke-virtual {v0, v1, v2}, Lcom/sdk/imp/x/b;->E(J)V
 
-    .line 12
     sput-object v12, Lcom/sdk/imp/x/a;->s:Ljava/io/File;
 
-    .line 13
     sput-object v0, Lcom/sdk/imp/x/a;->q:Lcom/sdk/imp/x/b;
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
@@ -725,7 +674,6 @@
     :catch_0
     move-exception v0
 
-    .line 14
     sget-object v1, Lcom/sdk/imp/x/a;->g:Ljava/lang/String;
 
     new-instance v2, Ljava/lang/StringBuilder;
@@ -756,7 +704,6 @@
 .method public static k(Ljava/lang/String;)Z
     .locals 2
 
-    .line 1
     sget-object v0, Lcom/sdk/imp/x/a;->q:Lcom/sdk/imp/x/b;
 
     const/4 v1, 0x0
@@ -765,7 +712,6 @@
 
     return v1
 
-    .line 2
     :cond_0
     :try_start_0
     invoke-static {p0}, Lcom/sdk/imp/x/a;->e(Ljava/lang/String;)Ljava/lang/String;
@@ -786,7 +732,6 @@
     :cond_1
     if-eqz p0, :cond_2
 
-    .line 3
     invoke-virtual {p0}, Lcom/sdk/imp/x/b$e;->close()V
 
     :cond_2
@@ -795,7 +740,6 @@
     :catchall_0
     move-exception p0
 
-    .line 4
     throw p0
 
     :catch_0
@@ -807,7 +751,6 @@
 
     if-eqz p0, :cond_0
 
-    .line 1
     invoke-interface {p0, p1, p2}, Lcom/sdk/imp/x/a$f;->a(Ljava/lang/String;I)V
 
     :cond_0
@@ -817,7 +760,6 @@
 .method public static m(Ljava/lang/String;Ljava/io/File;Lcom/sdk/imp/x/a$f;)V
     .locals 2
 
-    .line 1
     sget-object v0, Lcom/sdk/imp/x/a;->q:Lcom/sdk/imp/x/b;
 
     if-eqz v0, :cond_1
@@ -832,7 +774,6 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     sget-object v0, Lcom/sdk/imp/x/a;->r:Ljava/util/concurrent/Executor;
 
@@ -848,7 +789,6 @@
     :goto_0
     const/4 p1, 0x2
 
-    .line 3
     invoke-static {p2, p0, p1}, Lcom/sdk/imp/x/a;->l(Lcom/sdk/imp/x/a$f;Ljava/lang/String;I)V
 
     return-void
@@ -857,7 +797,6 @@
 .method public static n(Ljava/lang/String;Ljava/io/Serializable;Lcom/sdk/imp/x/a$f;)V
     .locals 2
 
-    .line 1
     sget-object v0, Lcom/sdk/imp/x/a;->q:Lcom/sdk/imp/x/b;
 
     if-eqz v0, :cond_1
@@ -872,7 +811,6 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     sget-object v0, Lcom/sdk/imp/x/a;->r:Ljava/util/concurrent/Executor;
 
@@ -888,7 +826,6 @@
     :goto_0
     const/4 p1, 0x2
 
-    .line 3
     invoke-static {p2, p0, p1}, Lcom/sdk/imp/x/a;->l(Lcom/sdk/imp/x/a$f;Ljava/lang/String;I)V
 
     return-void
@@ -897,14 +834,12 @@
 .method public static o(Ljava/lang/String;)V
     .locals 2
 
-    .line 1
     sget-object v0, Lcom/sdk/imp/x/a;->q:Lcom/sdk/imp/x/b;
 
     if-nez v0, :cond_0
 
     return-void
 
-    .line 2
     :cond_0
     sget-object v0, Lcom/sdk/imp/x/a;->r:Ljava/util/concurrent/Executor;
 
@@ -920,7 +855,6 @@
 .method private static p(Ljava/lang/String;)V
     .locals 5
 
-    .line 1
     new-instance v0, Ljava/io/File;
 
     new-instance v1, Ljava/lang/StringBuilder;
@@ -943,7 +877,6 @@
 
     invoke-static {v0, v1, v2}, Lf/q/b/f;->f(Ljava/io/File;J)V
 
-    .line 2
     new-instance v0, Ljava/io/File;
 
     new-instance v3, Ljava/lang/StringBuilder;
@@ -964,7 +897,6 @@
 
     invoke-static {v0, v1, v2}, Lf/q/b/f;->f(Ljava/io/File;J)V
 
-    .line 3
     new-instance v0, Ljava/io/File;
 
     new-instance v3, Ljava/lang/StringBuilder;
@@ -985,7 +917,6 @@
 
     invoke-static {v0, v1, v2}, Lf/q/b/f;->f(Ljava/io/File;J)V
 
-    .line 4
     new-instance v0, Ljava/io/File;
 
     new-instance v3, Ljava/lang/StringBuilder;
@@ -1006,7 +937,6 @@
 
     invoke-static {v0, v1, v2}, Lf/q/b/f;->f(Ljava/io/File;J)V
 
-    .line 5
     new-instance v0, Ljava/io/File;
 
     new-instance v3, Ljava/lang/StringBuilder;
@@ -1035,7 +965,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     :try_start_0
     new-instance v1, Ljava/io/ObjectOutputStream;
 
@@ -1044,11 +973,9 @@
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_1
     .catchall {:try_start_0 .. :try_end_0} :catchall_1
 
-    .line 2
     :try_start_1
     invoke-virtual {v1, p0}, Ljava/io/ObjectOutputStream;->writeObject(Ljava/lang/Object;)V
 
-    .line 3
     invoke-virtual {v1}, Ljava/io/ObjectOutputStream;->flush()V
     :try_end_1
     .catch Ljava/lang/Exception; {:try_start_1 .. :try_end_1} :catch_0
@@ -1056,13 +983,11 @@
 
     const/4 p0, 0x1
 
-    .line 4
     :try_start_2
     invoke-virtual {v1}, Ljava/io/ObjectOutputStream;->close()V
 
     if-eqz p1, :cond_1
 
-    .line 5
     :goto_0
     invoke-virtual {p1}, Ljava/io/OutputStream;->close()V
     :try_end_2
@@ -1098,7 +1023,6 @@
 
     const-string v2, "stackerror:"
 
-    .line 6
     invoke-static {v1, v2, p0}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
     :try_end_3
     .catchall {:try_start_3 .. :try_end_3} :catchall_1
@@ -1107,7 +1031,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 7
     :try_start_4
     invoke-virtual {v0}, Ljava/io/ObjectOutputStream;->close()V
     :try_end_4
@@ -1132,12 +1055,10 @@
     :cond_2
     if-eqz p1, :cond_3
 
-    .line 8
     invoke-virtual {p1}, Ljava/io/OutputStream;->close()V
     :try_end_5
     .catch Ljava/lang/Exception; {:try_start_5 .. :try_end_5} :catch_3
 
-    .line 9
     :catch_3
     :cond_3
     throw p0

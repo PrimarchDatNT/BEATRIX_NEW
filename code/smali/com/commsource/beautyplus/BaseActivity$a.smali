@@ -34,7 +34,6 @@
 .method constructor <init>(Lcom/commsource/beautyplus/BaseActivity;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/beautyplus/BaseActivity$a;->a:Lcom/commsource/beautyplus/BaseActivity;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -51,14 +50,12 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/beautyplus/BaseActivity$a;->a:Lcom/commsource/beautyplus/BaseActivity;
 
     const/4 v1, 0x0
 
     iput-boolean v1, v0, Lcom/commsource/beautyplus/BaseActivity;->b:Z
 
-    .line 2
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -71,14 +68,12 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/beautyplus/BaseActivity$a;->a:Lcom/commsource/beautyplus/BaseActivity;
 
     const/4 v1, 0x0
 
     invoke-virtual {v0, v1}, Lcom/commsource/beautyplus/BaseActivity;->t0(Z)V
 
-    .line 2
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -91,7 +86,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Lcom/commsource/beautyplus/base/b/a$b;
 
     invoke-virtual {p0, p1}, Lcom/commsource/beautyplus/BaseActivity$a;->b(Lcom/commsource/beautyplus/base/b/a$b;)V

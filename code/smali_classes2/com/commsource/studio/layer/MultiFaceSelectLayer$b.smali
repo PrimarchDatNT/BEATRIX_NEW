@@ -29,7 +29,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/layer/MultiFaceSelectLayer$b;->d:Lcom/commsource/studio/layer/MultiFaceSelectLayer;
 
     invoke-direct {p0}, Lcom/commsource/studio/i$c;-><init>()V
@@ -62,7 +61,6 @@
 
     invoke-static {p2, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/studio/i$e;->isEnable()Z
 
     move-result p2
@@ -71,7 +69,6 @@
 
     if-nez p2, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
@@ -81,7 +78,6 @@
 
     new-array p2, p2, [F
 
-    .line 3
     invoke-virtual {p1}, Landroid/view/MotionEvent;->getX()F
 
     move-result v2
@@ -96,19 +92,16 @@
 
     aput p1, p2, v2
 
-    .line 4
     iget-object p1, p0, Lcom/commsource/studio/layer/MultiFaceSelectLayer$b;->d:Lcom/commsource/studio/layer/MultiFaceSelectLayer;
 
     invoke-virtual {p1, p2}, Lcom/commsource/studio/layer/BaseLayer;->U([F)V
 
-    .line 5
     iget-object p1, p0, Lcom/commsource/studio/layer/MultiFaceSelectLayer$b;->d:Lcom/commsource/studio/layer/MultiFaceSelectLayer;
 
     invoke-static {p1}, Lcom/commsource/studio/layer/MultiFaceSelectLayer;->q0(Lcom/commsource/studio/layer/MultiFaceSelectLayer;)Ljava/util/LinkedList;
 
     move-result-object p1
 
-    .line 6
     invoke-interface {p1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object p1
@@ -133,7 +126,6 @@
     :cond_1
     check-cast v3, Lcom/commsource/studio/layer/FaceOval;
 
-    .line 7
     invoke-virtual {v3, p2}, Lcom/commsource/studio/layer/FaceOval;->z([F)Z
 
     move-result v3
@@ -148,7 +140,6 @@
 
     if-eqz v3, :cond_3
 
-    .line 8
     iget-object p1, p0, Lcom/commsource/studio/layer/MultiFaceSelectLayer$b;->d:Lcom/commsource/studio/layer/MultiFaceSelectLayer;
 
     invoke-virtual {p1}, Lcom/commsource/studio/layer/BaseLayer;->G()Lcom/commsource/studio/ImageStudioViewModel;
@@ -161,7 +152,6 @@
 
     if-eq p1, v1, :cond_2
 
-    .line 9
     iget-object p1, p0, Lcom/commsource/studio/layer/MultiFaceSelectLayer$b;->d:Lcom/commsource/studio/layer/MultiFaceSelectLayer;
 
     invoke-virtual {p1}, Lcom/commsource/studio/layer/BaseLayer;->G()Lcom/commsource/studio/ImageStudioViewModel;
@@ -170,7 +160,6 @@
 
     invoke-virtual {p1, v1}, Lcom/commsource/studio/ImageStudioViewModel;->h2(I)V
 
-    .line 10
     iget-object p1, p0, Lcom/commsource/studio/layer/MultiFaceSelectLayer$b;->d:Lcom/commsource/studio/layer/MultiFaceSelectLayer;
 
     invoke-virtual {p1}, Lcom/commsource/studio/layer/BaseLayer;->G()Lcom/commsource/studio/ImageStudioViewModel;
@@ -185,10 +174,8 @@
 
     invoke-virtual {p1, p2}, Landroidx/lifecycle/MutableLiveData;->setValue(Ljava/lang/Object;)V
 
-    .line 11
     invoke-static {v2}, Lcom/commsource/studio/m0;->W(Z)V
 
-    .line 12
     :cond_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -199,7 +186,6 @@
 
     goto :goto_0
 
-    .line 13
     :cond_4
     iget-object p1, p0, Lcom/commsource/studio/layer/MultiFaceSelectLayer$b;->d:Lcom/commsource/studio/layer/MultiFaceSelectLayer;
 
@@ -217,7 +203,6 @@
 
     if-nez p1, :cond_5
 
-    .line 14
     iget-object p1, p0, Lcom/commsource/studio/layer/MultiFaceSelectLayer$b;->d:Lcom/commsource/studio/layer/MultiFaceSelectLayer;
 
     invoke-static {p1}, Lcom/commsource/studio/layer/MultiFaceSelectLayer;->p0(Lcom/commsource/studio/layer/MultiFaceSelectLayer;)Landroid/animation/ValueAnimator;
@@ -226,7 +211,6 @@
 
     invoke-virtual {p1}, Landroid/animation/ValueAnimator;->start()V
 
-    .line 15
     :cond_5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

@@ -36,7 +36,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     iput-object p1, p0, Lcom/commsource/studio/y;->c:Landroid/graphics/Bitmap;
@@ -55,7 +54,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/y;->b:Lcom/meitu/library/renderarch/arch/data/b/d;
 
     if-eqz v1, :cond_0
@@ -67,7 +65,6 @@
 
     invoke-direct {v1}, Lcom/meitu/library/renderarch/arch/data/b/d;-><init>()V
 
-    .line 2
     iget-object v2, p0, Lcom/commsource/studio/y;->c:Landroid/graphics/Bitmap;
 
     const/16 v3, 0x280
@@ -78,7 +75,6 @@
 
     if-eqz v2, :cond_2
 
-    .line 3
     invoke-static {v2}, Lcom/commsource/util/common/e;->m(Landroid/graphics/Bitmap;)[B
 
     move-result-object v3
@@ -89,19 +85,16 @@
 
     if-eqz v3, :cond_1
 
-    .line 4
     iget-object v6, v1, Lcom/meitu/library/renderarch/arch/data/b/d;->e:Lcom/meitu/library/renderarch/arch/data/b/g;
 
     iput-object v3, v6, Lcom/meitu/library/renderarch/arch/data/b/g;->a:[B
 
-    .line 5
     invoke-virtual {v2}, Landroid/graphics/Bitmap;->getWidth()I
 
     move-result v3
 
     iput v3, v6, Lcom/meitu/library/renderarch/arch/data/b/g;->b:I
 
-    .line 6
     iget-object v3, v1, Lcom/meitu/library/renderarch/arch/data/b/d;->e:Lcom/meitu/library/renderarch/arch/data/b/g;
 
     invoke-virtual {v2}, Landroid/graphics/Bitmap;->getHeight()I
@@ -110,23 +103,18 @@
 
     iput v6, v3, Lcom/meitu/library/renderarch/arch/data/b/g;->c:I
 
-    .line 7
     iget-object v3, v1, Lcom/meitu/library/renderarch/arch/data/b/d;->e:Lcom/meitu/library/renderarch/arch/data/b/g;
 
     iput v5, v3, Lcom/meitu/library/renderarch/arch/data/b/g;->f:I
 
-    .line 8
     iput v4, v1, Lcom/meitu/library/renderarch/arch/data/b/d;->c:I
 
     const/16 v3, 0x5a
 
-    .line 9
     iput v3, v1, Lcom/meitu/library/renderarch/arch/data/b/d;->b:I
 
-    .line 10
     iput-boolean v5, v1, Lcom/meitu/library/renderarch/arch/data/b/d;->a:Z
 
-    .line 11
     :cond_1
     invoke-virtual {v2}, Landroid/graphics/Bitmap;->getByteCount()I
 
@@ -136,25 +124,20 @@
 
     move-result-object v3
 
-    .line 12
     invoke-virtual {v2, v3}, Landroid/graphics/Bitmap;->copyPixelsToBuffer(Ljava/nio/Buffer;)V
 
-    .line 13
     iget-object v6, v1, Lcom/meitu/library/renderarch/arch/data/b/d;->f:Lcom/meitu/library/renderarch/arch/data/b/f;
 
     iput-object v3, v6, Lcom/meitu/library/renderarch/arch/data/b/f;->a:Ljava/nio/ByteBuffer;
 
-    .line 14
     iput v5, v6, Lcom/meitu/library/renderarch/arch/data/b/f;->f:I
 
-    .line 15
     invoke-virtual {v2}, Landroid/graphics/Bitmap;->getWidth()I
 
     move-result v3
 
     iput v3, v6, Lcom/meitu/library/renderarch/arch/data/b/f;->b:I
 
-    .line 16
     iget-object v3, v1, Lcom/meitu/library/renderarch/arch/data/b/d;->f:Lcom/meitu/library/renderarch/arch/data/b/f;
 
     invoke-virtual {v2}, Landroid/graphics/Bitmap;->getHeight()I
@@ -163,7 +146,6 @@
 
     iput v5, v3, Lcom/meitu/library/renderarch/arch/data/b/f;->c:I
 
-    .line 17
     iget-object v3, v1, Lcom/meitu/library/renderarch/arch/data/b/d;->f:Lcom/meitu/library/renderarch/arch/data/b/f;
 
     invoke-virtual {v2}, Landroid/graphics/Bitmap;->getWidth()I
@@ -174,16 +156,13 @@
 
     iput v2, v3, Lcom/meitu/library/renderarch/arch/data/b/f;->d:I
 
-    .line 18
     iget-object v2, v1, Lcom/meitu/library/renderarch/arch/data/b/d;->f:Lcom/meitu/library/renderarch/arch/data/b/f;
 
     iput v4, v2, Lcom/meitu/library/renderarch/arch/data/b/f;->e:I
 
-    .line 19
     :cond_2
     iput-object v1, p0, Lcom/commsource/studio/y;->b:Lcom/meitu/library/renderarch/arch/data/b/d;
 
-    .line 20
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -199,7 +178,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/y;->a:Lcom/commsource/camera/d1/g/p;
 
     if-eqz v1, :cond_0
@@ -211,7 +189,6 @@
 
     invoke-direct {v1}, Lcom/commsource/camera/d1/g/p;-><init>()V
 
-    .line 2
     new-instance v2, Landroid/graphics/Rect;
 
     iget-object v3, p0, Lcom/commsource/studio/y;->c:Landroid/graphics/Bitmap;
@@ -232,7 +209,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/camera/d1/g/p;->j(Landroid/graphics/Rect;)V
 
-    .line 3
     new-instance v2, Landroid/graphics/Rect;
 
     iget-object v3, p0, Lcom/commsource/studio/y;->c:Landroid/graphics/Bitmap;
@@ -251,7 +227,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/camera/d1/g/p;->n(Landroid/graphics/Rect;)V
 
-    .line 4
     new-instance v2, Landroid/graphics/RectF;
 
     const/4 v3, 0x0
@@ -262,13 +237,10 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/camera/d1/g/p;->o(Landroid/graphics/RectF;)V
 
-    .line 5
     invoke-virtual {v1, v5}, Lcom/commsource/camera/d1/g/p;->k(I)V
 
-    .line 6
     invoke-virtual {v1, v5}, Lcom/commsource/camera/d1/g/p;->m(I)V
 
-    .line 7
     iget-object v2, p0, Lcom/commsource/studio/y;->c:Landroid/graphics/Bitmap;
 
     invoke-virtual {v2}, Landroid/graphics/Bitmap;->getWidth()I
@@ -285,7 +257,6 @@
 
     if-lez v2, :cond_4
 
-    .line 8
     iget-object v2, p0, Lcom/commsource/studio/y;->c:Landroid/graphics/Bitmap;
 
     invoke-virtual {v2}, Landroid/graphics/Bitmap;->getWidth()I
@@ -300,7 +271,6 @@
 
     if-ge v2, v3, :cond_1
 
-    .line 9
     iget-object v2, p0, Lcom/commsource/studio/y;->c:Landroid/graphics/Bitmap;
 
     invoke-virtual {v2}, Landroid/graphics/Bitmap;->getWidth()I
@@ -317,7 +287,6 @@
 
     goto :goto_0
 
-    .line 10
     :cond_1
     iget-object v2, p0, Lcom/commsource/studio/y;->c:Landroid/graphics/Bitmap;
 
@@ -340,7 +309,6 @@
 
     sub-float/2addr v4, v2
 
-    .line 11
     invoke-static {v4}, Ljava/lang/Math;->abs(F)F
 
     move-result v3
@@ -353,7 +321,6 @@
 
     if-gtz v7, :cond_2
 
-    .line 12
     new-instance v2, Landroid/graphics/Point;
 
     const/4 v3, 0x1
@@ -367,7 +334,6 @@
 
     sub-float/2addr v3, v2
 
-    .line 13
     invoke-static {v3}, Ljava/lang/Math;->abs(F)F
 
     move-result v2
@@ -378,7 +344,6 @@
 
     if-gtz v4, :cond_3
 
-    .line 14
     new-instance v2, Landroid/graphics/Point;
 
     const/16 v3, 0x10
@@ -389,7 +354,6 @@
 
     goto :goto_1
 
-    .line 15
     :cond_3
     new-instance v2, Landroid/graphics/Point;
 
@@ -399,13 +363,11 @@
 
     invoke-direct {v2, v3, v4}, Landroid/graphics/Point;-><init>(II)V
 
-    .line 16
     :goto_1
     invoke-virtual {v1, v2}, Lcom/commsource/camera/d1/g/p;->i(Landroid/graphics/Point;)V
 
     goto :goto_2
 
-    .line 17
     :cond_4
     new-instance v2, Landroid/graphics/Point;
 
@@ -413,11 +375,9 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/camera/d1/g/p;->i(Landroid/graphics/Point;)V
 
-    .line 18
     :goto_2
     iput-object v1, p0, Lcom/commsource/studio/y;->a:Lcom/commsource/camera/d1/g/p;
 
-    .line 19
     :goto_3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -433,7 +393,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/y;->b:Lcom/meitu/library/renderarch/arch/data/b/d;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -448,7 +407,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/y;->c:Landroid/graphics/Bitmap;
 
     invoke-virtual {v1}, Landroid/graphics/Bitmap;->getHeight()I
@@ -469,7 +427,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/y;->c:Landroid/graphics/Bitmap;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -486,7 +443,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/y;->a:Lcom/commsource/camera/d1/g/p;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -501,7 +457,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/y;->c:Landroid/graphics/Bitmap;
 
     invoke-virtual {v1}, Landroid/graphics/Bitmap;->getWidth()I
@@ -524,7 +479,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/y;->b:Lcom/meitu/library/renderarch/arch/data/b/d;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -547,7 +501,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/y;->c:Landroid/graphics/Bitmap;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -566,7 +519,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/y;->a:Lcom/commsource/camera/d1/g/p;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

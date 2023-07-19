@@ -30,10 +30,8 @@
 .method public constructor <init>(Lcom/meitu/media/tools/editor/av/b;)V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Landroid/os/Handler;-><init>()V
 
-    .line 2
     new-instance v0, Ljava/lang/ref/WeakReference;
 
     invoke-direct {v0, p1}, Ljava/lang/ref/WeakReference;-><init>(Ljava/lang/Object;)V
@@ -54,13 +52,10 @@
 
     invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v2, p1, Landroid/os/Message;->what:I
 
-    .line 2
     iget-object p1, p1, Landroid/os/Message;->obj:Ljava/lang/Object;
 
-    .line 3
     iget-object v3, p0, Lcom/meitu/media/tools/editor/av/b$b;->a:Ljava/lang/ref/WeakReference;
 
     invoke-virtual {v3}, Ljava/lang/ref/WeakReference;->get()Ljava/lang/Object;
@@ -75,10 +70,8 @@
 
     const-string p1, "[FFmpegMuxer]FFmpegHandler.handleMessage: muxer is null"
 
-    .line 4
     invoke-static {p1}, Lcom/meitu/media/tools/utils/debug/Logger;->R(Ljava/lang/String;)V
 
-    .line 5
     invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -98,12 +91,10 @@
 
     if-ne v2, p1, :cond_1
 
-    .line 6
     invoke-static {v4}, Lcom/meitu/media/tools/editor/av/b;->r(Lcom/meitu/media/tools/editor/av/b;)V
 
     goto :goto_0
 
-    .line 7
     :cond_1
     new-instance p1, Ljava/lang/RuntimeException;
 
@@ -132,10 +123,8 @@
 
     const-string v2, "addTrack"
 
-    .line 8
     invoke-static {v2}, Landroid/os/Trace;->beginSection(Ljava/lang/String;)V
 
-    .line 9
     :cond_3
     check-cast p1, Landroid/media/MediaFormat;
 
@@ -143,7 +132,6 @@
 
     if-lt v0, v10, :cond_6
 
-    .line 10
     invoke-static {}, Landroid/os/Trace;->endSection()V
 
     goto :goto_0
@@ -153,14 +141,11 @@
 
     const-string v2, "writeSampleData"
 
-    .line 11
     invoke-static {v2}, Landroid/os/Trace;->beginSection(Ljava/lang/String;)V
 
-    .line 12
     :cond_5
     check-cast p1, Lcom/meitu/media/tools/editor/av/b$c;
 
-    .line 13
     iget-object v5, p1, Lcom/meitu/media/tools/editor/av/b$c;->a:Landroid/media/MediaCodec;
 
     iget v6, p1, Lcom/meitu/media/tools/editor/av/b$c;->b:I
@@ -169,20 +154,16 @@
 
     iget-object v8, p1, Lcom/meitu/media/tools/editor/av/b$c;->d:Ljava/nio/ByteBuffer;
 
-    .line 14
     invoke-virtual {p1}, Lcom/meitu/media/tools/editor/av/b$c;->a()Landroid/media/MediaCodec$BufferInfo;
 
     move-result-object v9
 
-    .line 15
     invoke-static/range {v4 .. v9}, Lcom/meitu/media/tools/editor/av/b;->q(Lcom/meitu/media/tools/editor/av/b;Landroid/media/MediaCodec;IILjava/nio/ByteBuffer;Landroid/media/MediaCodec$BufferInfo;)V
 
     if-lt v0, v10, :cond_6
 
-    .line 16
     invoke-static {}, Landroid/os/Trace;->endSection()V
 
-    .line 17
     :cond_6
     :goto_0
     invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V

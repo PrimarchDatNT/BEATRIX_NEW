@@ -35,7 +35,6 @@
 .method constructor <init>([J)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcotlin/collections/unsigned/b$b;->b:[J
 
     invoke-direct {p0}, Lcotlin/collections/c;-><init>()V
@@ -48,7 +47,6 @@
 .method public b()I
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcotlin/collections/unsigned/b$b;->b:[J
 
     invoke-static {v0}, Lcotlin/k1;->s([J)I
@@ -61,7 +59,6 @@
 .method public c(J)Z
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcotlin/collections/unsigned/b$b;->b:[J
 
     invoke-static {v0, p1, p2}, Lcotlin/k1;->j([JJ)Z
@@ -74,7 +71,6 @@
 .method public final bridge contains(Ljava/lang/Object;)Z
     .locals 2
 
-    .line 1
     instance-of v0, p1, Lcotlin/j1;
 
     if-eqz v0, :cond_0
@@ -100,7 +96,6 @@
 .method public e(I)J
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcotlin/collections/unsigned/b$b;->b:[J
 
     invoke-static {v0, p1}, Lcotlin/k1;->q([JI)J
@@ -113,7 +108,6 @@
 .method public bridge synthetic get(I)Ljava/lang/Object;
     .locals 2
 
-    .line 1
     invoke-virtual {p0, p1}, Lcotlin/collections/unsigned/b$b;->e(I)J
 
     move-result-wide v0
@@ -128,7 +122,6 @@
 .method public h(J)I
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcotlin/collections/unsigned/b$b;->b:[J
 
     invoke-static {v0, p1, p2}, Lcotlin/collections/k;->cf([JJ)I
@@ -141,7 +134,6 @@
 .method public i(J)I
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcotlin/collections/unsigned/b$b;->b:[J
 
     invoke-static {v0, p1, p2}, Lcotlin/collections/k;->gh([JJ)I
@@ -154,7 +146,6 @@
 .method public final bridge indexOf(Ljava/lang/Object;)I
     .locals 2
 
-    .line 1
     instance-of v0, p1, Lcotlin/j1;
 
     if-eqz v0, :cond_0
@@ -180,7 +171,6 @@
 .method public isEmpty()Z
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcotlin/collections/unsigned/b$b;->b:[J
 
     invoke-static {v0}, Lcotlin/k1;->y([J)Z
@@ -193,7 +183,6 @@
 .method public final bridge lastIndexOf(Ljava/lang/Object;)I
     .locals 2
 
-    .line 1
     instance-of v0, p1, Lcotlin/j1;
 
     if-eqz v0, :cond_0

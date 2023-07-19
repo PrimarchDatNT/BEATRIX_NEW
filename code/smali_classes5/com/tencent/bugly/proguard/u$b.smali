@@ -27,7 +27,6 @@
 .method constructor <init>(Lcom/tencent/bugly/proguard/u;ILjava/util/concurrent/LinkedBlockingQueue;)V
     .locals 0
 
-    .line 1
     iput p2, p0, Lcom/tencent/bugly/proguard/u$b;->a:I
 
     iput-object p3, p0, Lcom/tencent/bugly/proguard/u$b;->b:Ljava/util/concurrent/LinkedBlockingQueue;
@@ -44,13 +43,11 @@
 
     const/4 v0, 0x0
 
-    .line 1
     :goto_0
     iget v1, p0, Lcom/tencent/bugly/proguard/u$b;->a:I
 
     if-ge v0, v1, :cond_0
 
-    .line 2
     iget-object v1, p0, Lcom/tencent/bugly/proguard/u$b;->b:Ljava/util/concurrent/LinkedBlockingQueue;
 
     invoke-virtual {v1}, Ljava/util/concurrent/LinkedBlockingQueue;->poll()Ljava/lang/Object;
@@ -61,7 +58,6 @@
 
     if-eqz v1, :cond_0
 
-    .line 3
     invoke-interface {v1}, Ljava/lang/Runnable;->run()V
 
     add-int/lit8 v0, v0, 0x1

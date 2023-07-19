@@ -73,7 +73,6 @@
 
     invoke-static {p2, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     iput-object p1, p0, Lcom/commsource/studio/shader/a;->c:Lcom/commsource/studio/shader/BaseShader;
@@ -82,7 +81,6 @@
 
     const/4 p1, -0x1
 
-    .line 2
     iput p1, p0, Lcom/commsource/studio/shader/a;->a:I
 
     return-void
@@ -93,7 +91,6 @@
 .method public final a()V
     .locals 3
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/studio/shader/a;->g()V
 
     const/4 v0, 0x5
@@ -102,7 +99,6 @@
 
     const/4 v2, 0x4
 
-    .line 2
     invoke-static {v0, v1, v2}, Landroid/opengl/GLES20;->glDrawArrays(III)V
 
     return-void
@@ -113,7 +109,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/studio/shader/a;->b:Lcom/commsource/easyeditor/utils/opengl/c;
 
     if-nez v0, :cond_0
@@ -137,7 +132,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/studio/shader/a;->d:Lcom/commsource/studio/shader/BaseShader;
 
     return-object v0
@@ -154,7 +148,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/studio/shader/a;->c:Lcom/commsource/studio/shader/BaseShader;
 
     return-object v0
@@ -163,7 +156,6 @@
 .method public e()V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/studio/shader/a;->c:Lcom/commsource/studio/shader/BaseShader;
 
     invoke-virtual {v0}, Lcom/commsource/studio/shader/BaseShader;->b()I
@@ -182,12 +174,10 @@
 
     iput v0, p0, Lcom/commsource/studio/shader/a;->a:I
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/shader/a;->c:Lcom/commsource/studio/shader/BaseShader;
 
     invoke-virtual {v1, v0}, Lcom/commsource/studio/shader/BaseShader;->d(I)V
 
-    .line 3
     iget-object v0, p0, Lcom/commsource/studio/shader/a;->d:Lcom/commsource/studio/shader/BaseShader;
 
     iget v1, p0, Lcom/commsource/studio/shader/a;->a:I
@@ -200,23 +190,19 @@
 .method public f()V
     .locals 2
 
-    .line 1
     iget v0, p0, Lcom/commsource/studio/shader/a;->a:I
 
     const/4 v1, -0x1
 
     if-eq v0, v1, :cond_0
 
-    .line 2
     invoke-static {v0}, Landroid/opengl/GLES20;->glDeleteProgram(I)V
 
-    .line 3
     :cond_0
     iget-object v0, p0, Lcom/commsource/studio/shader/a;->c:Lcom/commsource/studio/shader/BaseShader;
 
     invoke-virtual {v0}, Lcom/commsource/studio/shader/BaseShader;->f()V
 
-    .line 4
     iget-object v0, p0, Lcom/commsource/studio/shader/a;->d:Lcom/commsource/studio/shader/BaseShader;
 
     invoke-virtual {v0}, Lcom/commsource/studio/shader/BaseShader;->f()V
@@ -227,17 +213,14 @@
 .method public g()V
     .locals 1
 
-    .line 1
     iget v0, p0, Lcom/commsource/studio/shader/a;->a:I
 
     invoke-static {v0}, Landroid/opengl/GLES20;->glUseProgram(I)V
 
-    .line 2
     iget-object v0, p0, Lcom/commsource/studio/shader/a;->c:Lcom/commsource/studio/shader/BaseShader;
 
     invoke-virtual {v0}, Lcom/commsource/studio/shader/BaseShader;->e()V
 
-    .line 3
     iget-object v0, p0, Lcom/commsource/studio/shader/a;->d:Lcom/commsource/studio/shader/BaseShader;
 
     invoke-virtual {v0}, Lcom/commsource/studio/shader/BaseShader;->e()V
@@ -256,7 +239,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/shader/a;->b:Lcom/commsource/easyeditor/utils/opengl/c;
 
     return-void
@@ -278,7 +260,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/shader/a;->d:Lcom/commsource/studio/shader/BaseShader;
 
     return-void
@@ -300,7 +281,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/shader/a;->c:Lcom/commsource/studio/shader/BaseShader;
 
     return-void

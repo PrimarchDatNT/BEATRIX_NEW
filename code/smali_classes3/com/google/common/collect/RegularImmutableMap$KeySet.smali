@@ -57,13 +57,10 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Lcom/google/common/collect/ImmutableSet;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/google/common/collect/RegularImmutableMap$KeySet;->map:Lcom/google/common/collect/ImmutableMap;
 
-    .line 3
     iput-object p2, p0, Lcom/google/common/collect/RegularImmutableMap$KeySet;->list:Lcom/google/common/collect/ImmutableList;
 
     return-void
@@ -81,7 +78,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/RegularImmutableMap$KeySet;->list:Lcom/google/common/collect/ImmutableList;
 
     return-object v0
@@ -94,7 +90,6 @@
         .end annotation
     .end param
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/RegularImmutableMap$KeySet;->map:Lcom/google/common/collect/ImmutableMap;
 
     invoke-virtual {v0, p1}, Lcom/google/common/collect/ImmutableMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
@@ -117,7 +112,6 @@
 .method copyIntoArray([Ljava/lang/Object;I)I
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/collect/RegularImmutableMap$KeySet;->asList()Lcom/google/common/collect/ImmutableList;
 
     move-result-object v0
@@ -147,7 +141,6 @@
         }
     .end annotation
 
-    .line 2
     invoke-virtual {p0}, Lcom/google/common/collect/RegularImmutableMap$KeySet;->asList()Lcom/google/common/collect/ImmutableList;
 
     move-result-object v0
@@ -162,7 +155,6 @@
 .method public bridge synthetic iterator()Ljava/util/Iterator;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/collect/RegularImmutableMap$KeySet;->iterator()Lcom/google/common/collect/l2;
 
     move-result-object v0
@@ -173,7 +165,6 @@
 .method public size()I
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/RegularImmutableMap$KeySet;->map:Lcom/google/common/collect/ImmutableMap;
 
     invoke-interface {v0}, Ljava/util/Map;->size()I

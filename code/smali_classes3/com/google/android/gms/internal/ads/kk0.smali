@@ -38,14 +38,12 @@
 .method public final call()Ljava/lang/Object;
     .locals 9
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/kk0;->b:Lcom/google/android/gms/internal/ads/fh1;
 
     iget-object v1, p0, Lcom/google/android/gms/internal/ads/kk0;->c:Lcom/google/android/gms/internal/ads/ug1;
 
     iget-object v2, p0, Lcom/google/android/gms/internal/ads/kk0;->d:Lorg/json/JSONObject;
 
-    .line 2
     new-instance v3, Lcom/google/android/gms/internal/ads/vh0;
 
     invoke-direct {v3}, Lcom/google/android/gms/internal/ads/vh0;-><init>()V
@@ -54,7 +52,6 @@
 
     const/4 v5, -0x1
 
-    .line 3
     invoke-virtual {v2, v4, v5}, Lorg/json/JSONObject;->optInt(Ljava/lang/String;I)I
 
     move-result v4
@@ -63,7 +60,6 @@
 
     const-string v4, "custom_template_id"
 
-    .line 4
     invoke-virtual {v2, v4}, Lorg/json/JSONObject;->optString(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v4
@@ -72,7 +68,6 @@
 
     const-string v4, "omid_settings"
 
-    .line 5
     invoke-virtual {v2, v4}, Lorg/json/JSONObject;->optJSONObject(Ljava/lang/String;)Lorg/json/JSONObject;
 
     move-result-object v4
@@ -83,7 +78,6 @@
 
     const-string v6, "omid_partner_name"
 
-    .line 6
     invoke-virtual {v4, v6}, Lorg/json/JSONObject;->optString(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v4
@@ -93,16 +87,13 @@
     :cond_0
     move-object v4, v5
 
-    .line 7
     :goto_0
     invoke-virtual {v3, v4}, Lcom/google/android/gms/internal/ads/vh0;->U(Ljava/lang/String;)V
 
-    .line 8
     iget-object v0, v0, Lcom/google/android/gms/internal/ads/fh1;->a:Lcom/google/android/gms/internal/ads/ah1;
 
     iget-object v0, v0, Lcom/google/android/gms/internal/ads/ah1;->a:Lcom/google/android/gms/internal/ads/kh1;
 
-    .line 9
     iget-object v4, v0, Lcom/google/android/gms/internal/ads/kh1;->g:Ljava/util/ArrayList;
 
     invoke-virtual {v3}, Lcom/google/android/gms/internal/ads/vh0;->A()I
@@ -119,7 +110,6 @@
 
     if-eqz v4, :cond_5
 
-    .line 10
     invoke-virtual {v3}, Lcom/google/android/gms/internal/ads/vh0;->A()I
 
     move-result v4
@@ -128,14 +118,12 @@
 
     if-ne v4, v6, :cond_3
 
-    .line 11
     invoke-virtual {v3}, Lcom/google/android/gms/internal/ads/vh0;->e()Ljava/lang/String;
 
     move-result-object v4
 
     if-eqz v4, :cond_2
 
-    .line 12
     iget-object v0, v0, Lcom/google/android/gms/internal/ads/kh1;->h:Ljava/util/ArrayList;
 
     invoke-virtual {v3}, Lcom/google/android/gms/internal/ads/vh0;->e()Ljava/lang/String;
@@ -150,7 +138,6 @@
 
     goto :goto_1
 
-    .line 13
     :cond_1
     new-instance v0, Lcom/google/android/gms/internal/ads/zzctw;
 
@@ -162,7 +149,6 @@
 
     throw v0
 
-    .line 14
     :cond_2
     new-instance v0, Lcom/google/android/gms/internal/ads/zzctw;
 
@@ -180,7 +166,6 @@
 
     const-string v0, "rating"
 
-    .line 15
     invoke-virtual {v2, v0, v7, v8}, Lorg/json/JSONObject;->optDouble(Ljava/lang/String;D)D
 
     move-result-wide v7
@@ -189,7 +174,6 @@
 
     const-string v0, "headline"
 
-    .line 16
     invoke-virtual {v2, v0, v5}, Lorg/json/JSONObject;->optString(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v4
@@ -198,14 +182,12 @@
 
     if-eqz v1, :cond_4
 
-    .line 17
     invoke-static {}, Lcom/google/android/gms/ads/internal/p;->c()Lcom/google/android/gms/internal/ads/cn;
 
     invoke-static {}, Lcom/google/android/gms/internal/ads/cn;->t0()Ljava/lang/String;
 
     move-result-object v1
 
-    .line 18
     invoke-static {v1}, Ljava/lang/String;->valueOf(Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object v7
@@ -242,13 +224,11 @@
 
     move-result-object v4
 
-    .line 19
     :cond_4
     invoke-virtual {v3, v0, v4}, Lcom/google/android/gms/internal/ads/vh0;->Z(Ljava/lang/String;Ljava/lang/String;)V
 
     const-string v0, "body"
 
-    .line 20
     invoke-virtual {v2, v0, v5}, Lorg/json/JSONObject;->optString(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v1
@@ -257,7 +237,6 @@
 
     const-string v0, "call_to_action"
 
-    .line 21
     invoke-virtual {v2, v0, v5}, Lorg/json/JSONObject;->optString(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v1
@@ -266,7 +245,6 @@
 
     const-string v0, "store"
 
-    .line 22
     invoke-virtual {v2, v0, v5}, Lorg/json/JSONObject;->optString(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v1
@@ -275,7 +253,6 @@
 
     const-string v0, "price"
 
-    .line 23
     invoke-virtual {v2, v0, v5}, Lorg/json/JSONObject;->optString(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v1
@@ -284,7 +261,6 @@
 
     const-string v0, "advertiser"
 
-    .line 24
     invoke-virtual {v2, v0, v5}, Lorg/json/JSONObject;->optString(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v1
@@ -293,13 +269,11 @@
 
     return-object v3
 
-    .line 25
     :cond_5
     new-instance v0, Lcom/google/android/gms/internal/ads/zzctw;
 
     sget v1, Lcom/google/android/gms/internal/ads/bi1;->a:I
 
-    .line 26
     invoke-virtual {v3}, Lcom/google/android/gms/internal/ads/vh0;->A()I
 
     move-result v2

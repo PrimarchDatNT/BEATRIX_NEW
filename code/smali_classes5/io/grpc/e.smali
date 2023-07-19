@@ -22,7 +22,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lio/grpc/d;-><init>()V
 
     return-void
@@ -33,7 +32,6 @@
 .method public final a(Lio/grpc/d$b;Ljava/util/concurrent/Executor;Lio/grpc/d$a;)V
     .locals 1
 
-    .line 1
     new-instance v0, Lio/grpc/e$a;
 
     invoke-direct {v0, p0, p3}, Lio/grpc/e$a;-><init>(Lio/grpc/e;Lio/grpc/d$a;)V

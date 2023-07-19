@@ -41,7 +41,6 @@
 
     iput-object p2, p0, Lcotlinx/coroutines/flow/FlowKt__EmittersKt$onCompletion$$inlined$unsafeFlow$1;->b:Lcotlin/jvm/u/q;
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -96,7 +95,6 @@
 
     move-result-object v1
 
-    .line 1
     iget v2, v0, Lcotlinx/coroutines/flow/FlowKt__EmittersKt$onCompletion$$inlined$unsafeFlow$1$1;->label:I
 
     const/4 v3, 0x3
@@ -149,7 +147,6 @@
 
     goto/16 :goto_3
 
-    .line 2
     :cond_1
     new-instance p1, Ljava/lang/IllegalStateException;
 
@@ -159,7 +156,6 @@
 
     throw p1
 
-    .line 3
     :cond_2
     iget-object p1, v0, Lcotlinx/coroutines/flow/FlowKt__EmittersKt$onCompletion$$inlined$unsafeFlow$1$1;->L$4:Ljava/lang/Object;
 
@@ -223,7 +219,6 @@
     :cond_4
     invoke-static {p2}, Lcotlin/r0;->n(Ljava/lang/Object;)V
 
-    .line 4
     :try_start_2
     iget-object p2, p0, Lcotlinx/coroutines/flow/FlowKt__EmittersKt$onCompletion$$inlined$unsafeFlow$1;->a:Lcotlinx/coroutines/flow/d;
 
@@ -260,7 +255,6 @@
     :try_end_3
     .catchall {:try_start_3 .. :try_end_3} :catchall_1
 
-    .line 5
     invoke-interface {v0}, Lcotlin/coroutines/c;->getContext()Lcotlin/coroutines/CoroutineContext;
 
     move-result-object v4
@@ -269,7 +263,6 @@
 
     invoke-direct {v7, p1, v4}, Lcotlinx/coroutines/flow/internal/SafeCollector;-><init>(Lcotlinx/coroutines/flow/e;Lcotlin/coroutines/CoroutineContext;)V
 
-    .line 6
     :try_start_4
     iget-object v4, v6, Lcotlinx/coroutines/flow/FlowKt__EmittersKt$onCompletion$$inlined$unsafeFlow$1;->b:Lcotlin/jvm/u/q;
 
@@ -302,18 +295,15 @@
 
     move-object v1, v7
 
-    .line 7
     :goto_2
     invoke-virtual {v1}, Lcotlinx/coroutines/flow/internal/SafeCollector;->releaseIntercepted()V
 
     if-nez p1, :cond_7
 
-    .line 8
     sget-object p1, Lcotlin/t1;->a:Lcotlin/t1;
 
     return-object p1
 
-    .line 9
     :cond_7
     throw p1
 
@@ -322,7 +312,6 @@
 
     move-object v1, v7
 
-    .line 10
     :goto_3
     invoke-virtual {v1}, Lcotlinx/coroutines/flow/internal/SafeCollector;->releaseIntercepted()V
 
@@ -341,7 +330,6 @@
 
     move-object p2, v5
 
-    .line 11
     :goto_4
     new-instance v3, Lcotlinx/coroutines/flow/h;
 
@@ -371,7 +359,6 @@
 
     return-object v1
 
-    .line 12
     :cond_8
     :goto_5
     throw p1

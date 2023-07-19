@@ -53,19 +53,14 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput p1, p0, Lf/f/b/b/f/a;->a:I
 
-    .line 3
     iput-object p2, p0, Lf/f/b/b/f/a;->b:Ljava/lang/String;
 
-    .line 4
     iput-object p3, p0, Lf/f/b/b/f/a;->c:Ljava/lang/Object;
 
-    .line 5
     invoke-static {}, Lf/f/b/b/f/e;->a()Lf/f/b/b/f/b;
 
     move-result-object p1
@@ -78,7 +73,6 @@
 .method synthetic constructor <init>(ILjava/lang/String;Ljava/lang/Object;Lf/f/b/b/f/f;)V
     .locals 0
 
-    .line 6
     invoke-direct {p0, p1, p2, p3}, Lf/f/b/b/f/a;-><init>(ILjava/lang/String;Ljava/lang/Object;)V
 
     return-void
@@ -92,7 +86,6 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    .line 1
     new-instance v0, Lf/f/b/b/f/a$a;
 
     invoke-direct {v0, p0, p1, p2}, Lf/f/b/b/f/a$a;-><init>(ILjava/lang/String;Ljava/lang/Boolean;)V
@@ -108,7 +101,6 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    .line 1
     new-instance v0, Lf/f/b/b/f/a$b;
 
     invoke-static {p2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -128,7 +120,6 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    .line 1
     new-instance v0, Lf/f/b/b/f/a$c;
 
     invoke-static {p2, p3}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
@@ -148,7 +139,6 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    .line 1
     new-instance v0, Lf/f/b/b/f/a$d;
 
     invoke-direct {v0, p0, p1, p2}, Lf/f/b/b/f/a$d;-><init>(ILjava/lang/String;Ljava/lang/String;)V
@@ -169,7 +159,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {}, Lf/f/b/b/f/e;->c()Lf/f/b/b/f/g;
 
     move-result-object v0
@@ -184,7 +173,6 @@
 .method public final f()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lf/f/b/b/f/a;->b:Ljava/lang/String;
 
     return-object v0
@@ -195,7 +183,6 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    .line 1
     iget v0, p0, Lf/f/b/b/f/a;->a:I
 
     return v0
@@ -219,7 +206,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lf/f/b/b/f/a;->c:Ljava/lang/Object;
 
     return-object v0

@@ -39,7 +39,6 @@
 .method constructor <init>(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/airbnb/lottie/h$c;->a:Landroid/content/Context;
 
     iput-object p2, p0, Lcom/airbnb/lottie/h$c;->b:Ljava/lang/String;
@@ -64,7 +63,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/airbnb/lottie/h$c;->a:Landroid/content/Context;
 
     invoke-static {v0}, Lcom/airbnb/lottie/e;->d(Landroid/content/Context;)Lcom/airbnb/lottie/network/g;
@@ -79,7 +77,6 @@
 
     move-result-object v0
 
-    .line 2
     iget-object v1, p0, Lcom/airbnb/lottie/h$c;->c:Ljava/lang/String;
 
     if-eqz v1, :cond_0
@@ -90,7 +87,6 @@
 
     if-eqz v1, :cond_0
 
-    .line 3
     invoke-static {}, Lcom/airbnb/lottie/model/f;->c()Lcom/airbnb/lottie/model/f;
 
     move-result-object v1
@@ -117,7 +113,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/airbnb/lottie/h$c;->a()Lcom/airbnb/lottie/p;
 
     move-result-object v0

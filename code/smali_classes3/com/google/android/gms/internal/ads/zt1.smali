@@ -21,7 +21,6 @@
 .method constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -40,7 +39,6 @@
         }
     .end annotation
 
-    .line 1
     const-class v0, Lcom/google/android/gms/internal/ads/or1;
 
     return-object v0
@@ -54,7 +52,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/google/android/gms/internal/ads/yt1;
 
     invoke-direct {v0, p1}, Lcom/google/android/gms/internal/ads/yt1;-><init>(Lcom/google/android/gms/internal/ads/as1;)V

@@ -71,7 +71,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 2
     new-instance v1, Lcom/commsource/camera/r0;
 
     invoke-direct {v1}, Lcom/commsource/camera/r0;-><init>()V
@@ -88,7 +87,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/BpCameraViewModel$mMultiVideoRecordHelper$2;->invoke()Lcom/commsource/camera/r0;
 
     move-result-object v1

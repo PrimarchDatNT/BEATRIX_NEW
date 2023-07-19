@@ -46,7 +46,6 @@
 .method static constructor <clinit>()V
     .locals 13
 
-    .line 1
     new-instance v0, Lcom/google/common/base/CaseFormat$1;
 
     const/16 v1, 0x2d
@@ -65,7 +64,6 @@
 
     sput-object v0, Lcom/google/common/base/CaseFormat;->LOWER_HYPHEN:Lcom/google/common/base/CaseFormat;
 
-    .line 2
     new-instance v1, Lcom/google/common/base/CaseFormat$2;
 
     const/16 v2, 0x5f
@@ -84,7 +82,6 @@
 
     sput-object v1, Lcom/google/common/base/CaseFormat;->LOWER_UNDERSCORE:Lcom/google/common/base/CaseFormat;
 
-    .line 3
     new-instance v4, Lcom/google/common/base/CaseFormat$3;
 
     const/16 v5, 0x41
@@ -105,7 +102,6 @@
 
     sput-object v4, Lcom/google/common/base/CaseFormat;->LOWER_CAMEL:Lcom/google/common/base/CaseFormat;
 
-    .line 4
     new-instance v9, Lcom/google/common/base/CaseFormat$4;
 
     invoke-static {v5, v8}, Lcom/google/common/base/b;->m(CC)Lcom/google/common/base/b;
@@ -120,7 +116,6 @@
 
     sput-object v9, Lcom/google/common/base/CaseFormat;->UPPER_CAMEL:Lcom/google/common/base/CaseFormat;
 
-    .line 5
     new-instance v5, Lcom/google/common/base/CaseFormat$5;
 
     invoke-static {v2}, Lcom/google/common/base/b;->q(C)Lcom/google/common/base/b;
@@ -149,7 +144,6 @@
 
     aput-object v5, v2, v12
 
-    .line 6
     sput-object v2, Lcom/google/common/base/CaseFormat;->$VALUES:[Lcom/google/common/base/CaseFormat;
 
     return-void
@@ -166,13 +160,10 @@
         }
     .end annotation
 
-    .line 2
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 3
     iput-object p3, p0, Lcom/google/common/base/CaseFormat;->wordBoundary:Lcom/google/common/base/b;
 
-    .line 4
     iput-object p4, p0, Lcom/google/common/base/CaseFormat;->wordSeparator:Ljava/lang/String;
 
     return-void
@@ -181,7 +172,6 @@
 .method synthetic constructor <init>(Ljava/lang/String;ILcom/google/common/base/b;Ljava/lang/String;Lcom/google/common/base/CaseFormat$1;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1, p2, p3, p4}, Lcom/google/common/base/CaseFormat;-><init>(Ljava/lang/String;ILcom/google/common/base/b;Ljava/lang/String;)V
 
     return-void
@@ -190,7 +180,6 @@
 .method static synthetic access$100(Ljava/lang/String;)Ljava/lang/String;
     .locals 0
 
-    .line 1
     invoke-static {p0}, Lcom/google/common/base/CaseFormat;->firstCharOnlyToUpper(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p0
@@ -201,7 +190,6 @@
 .method private static firstCharOnlyToUpper(Ljava/lang/String;)Ljava/lang/String;
     .locals 2
 
-    .line 1
     invoke-virtual {p0}, Ljava/lang/String;->isEmpty()Z
 
     move-result v0
@@ -217,7 +205,6 @@
 
     const/4 v1, 0x0
 
-    .line 2
     invoke-virtual {p0, v1}, Ljava/lang/String;->charAt(I)C
 
     move-result v1
@@ -251,7 +238,6 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/google/common/base/CaseFormat;
     .locals 1
 
-    .line 1
     const-class v0, Lcom/google/common/base/CaseFormat;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -266,7 +252,6 @@
 .method public static values()[Lcom/google/common/base/CaseFormat;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/google/common/base/CaseFormat;->$VALUES:[Lcom/google/common/base/CaseFormat;
 
     invoke-virtual {v0}, [Lcom/google/common/base/CaseFormat;->clone()Ljava/lang/Object;
@@ -291,7 +276,6 @@
 
     const/4 v3, -0x1
 
-    .line 1
     :goto_0
     iget-object v4, p0, Lcom/google/common/base/CaseFormat;->wordBoundary:Lcom/google/common/base/b;
 
@@ -305,7 +289,6 @@
 
     if-nez v2, :cond_0
 
-    .line 2
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-virtual {p2}, Ljava/lang/String;->length()I
@@ -324,7 +307,6 @@
 
     invoke-direct {v1, v4}, Ljava/lang/StringBuilder;-><init>(I)V
 
-    .line 3
     invoke-virtual {p2, v2, v3}, Ljava/lang/String;->substring(II)Ljava/lang/String;
 
     move-result-object v2
@@ -337,7 +319,6 @@
 
     goto :goto_1
 
-    .line 4
     :cond_0
     invoke-virtual {p2, v2, v3}, Ljava/lang/String;->substring(II)Ljava/lang/String;
 
@@ -349,13 +330,11 @@
 
     invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 5
     :goto_1
     iget-object v2, p1, Lcom/google/common/base/CaseFormat;->wordSeparator:Ljava/lang/String;
 
     invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 6
     iget-object v2, p0, Lcom/google/common/base/CaseFormat;->wordSeparator:Ljava/lang/String;
 
     invoke-virtual {v2}, Ljava/lang/String;->length()I
@@ -369,14 +348,12 @@
     :cond_1
     if-nez v2, :cond_2
 
-    .line 7
     invoke-virtual {p1, p2}, Lcom/google/common/base/CaseFormat;->normalizeFirstWord(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p1
 
     goto :goto_2
 
-    .line 8
     :cond_2
     invoke-virtual {p2, v2}, Ljava/lang/String;->substring(I)Ljava/lang/String;
 
@@ -410,7 +387,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/google/common/base/CaseFormat$StringConverter;
 
     invoke-direct {v0, p0, p1}, Lcom/google/common/base/CaseFormat$StringConverter;-><init>(Lcom/google/common/base/CaseFormat;Lcom/google/common/base/CaseFormat;)V
@@ -421,7 +397,6 @@
 .method normalizeFirstWord(Ljava/lang/String;)Ljava/lang/String;
     .locals 0
 
-    .line 1
     invoke-virtual {p0, p1}, Lcom/google/common/base/CaseFormat;->normalizeWord(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p1
@@ -435,17 +410,14 @@
 .method public final to(Lcom/google/common/base/CaseFormat;Ljava/lang/String;)Ljava/lang/String;
     .locals 0
 
-    .line 1
     invoke-static {p1}, Lcom/google/common/base/t;->E(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 2
     invoke-static {p2}, Lcom/google/common/base/t;->E(Ljava/lang/Object;)Ljava/lang/Object;
 
     if-ne p1, p0, :cond_0
 
     goto :goto_0
 
-    .line 3
     :cond_0
     invoke-virtual {p0, p1, p2}, Lcom/google/common/base/CaseFormat;->convert(Lcom/google/common/base/CaseFormat;Ljava/lang/String;)Ljava/lang/String;
 

@@ -25,7 +25,6 @@
 .method private constructor <init>(Lcom/sdk/imp/f;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/sdk/imp/f$c;->a:Lcom/sdk/imp/f;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -36,7 +35,6 @@
 .method synthetic constructor <init>(Lcom/sdk/imp/f;Lcom/sdk/imp/f$a;)V
     .locals 0
 
-    .line 2
     invoke-direct {p0, p1}, Lcom/sdk/imp/f$c;-><init>(Lcom/sdk/imp/f;)V
 
     return-void
@@ -51,10 +49,8 @@
 
     const-string v1, "CommonBannerAdController onWebViewPreparedFailed"
 
-    .line 1
     invoke-static {v0, v1}, Lf/q/b/g;->b(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 2
     iget-object v0, p0, Lcom/sdk/imp/f$c;->a:Lcom/sdk/imp/f;
 
     invoke-static {v0}, Lcom/sdk/imp/f;->g(Lcom/sdk/imp/f;)Landroid/view/View;
@@ -63,7 +59,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 3
     iget-object v0, p0, Lcom/sdk/imp/f$c;->a:Lcom/sdk/imp/f;
 
     invoke-static {v0}, Lcom/sdk/imp/f;->g(Lcom/sdk/imp/f;)Landroid/view/View;
@@ -74,7 +69,6 @@
 
     invoke-virtual {v0, v1}, Landroid/view/View;->setVisibility(I)V
 
-    .line 4
     :cond_0
     iget-object v0, p0, Lcom/sdk/imp/f$c;->a:Lcom/sdk/imp/f;
 
@@ -82,7 +76,6 @@
 
     if-eqz v0, :cond_1
 
-    .line 5
     invoke-interface {v0, p1}, Lcom/sdk/imp/a$a;->b(I)V
 
     :cond_1
@@ -96,10 +89,8 @@
 
     const-string v1, "CommonBannerAdController onWebViewPreparedSuccess"
 
-    .line 1
     invoke-static {v0, v1}, Lf/q/b/g;->b(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 2
     iget-object v0, p0, Lcom/sdk/imp/f$c;->a:Lcom/sdk/imp/f;
 
     invoke-static {v0}, Lcom/sdk/imp/f;->g(Lcom/sdk/imp/f;)Landroid/view/View;
@@ -108,7 +99,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 3
     iget-object v0, p0, Lcom/sdk/imp/f$c;->a:Lcom/sdk/imp/f;
 
     invoke-static {v0}, Lcom/sdk/imp/f;->g(Lcom/sdk/imp/f;)Landroid/view/View;
@@ -119,7 +109,6 @@
 
     invoke-virtual {v0, v1}, Landroid/view/View;->setVisibility(I)V
 
-    .line 4
     :cond_0
     iget-object v0, p0, Lcom/sdk/imp/f$c;->a:Lcom/sdk/imp/f;
 
@@ -127,7 +116,6 @@
 
     if-eqz v0, :cond_1
 
-    .line 5
     invoke-interface {v0}, Lcom/sdk/imp/a$a;->a()V
 
     :cond_1

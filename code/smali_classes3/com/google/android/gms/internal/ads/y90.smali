@@ -22,10 +22,8 @@
 .method private constructor <init>(Lcom/google/android/gms/internal/ads/x90;)V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     new-instance v0, Ljava/lang/ref/WeakReference;
 
     invoke-direct {v0, p1}, Ljava/lang/ref/WeakReference;-><init>(Ljava/lang/Object;)V
@@ -38,7 +36,6 @@
 .method synthetic constructor <init>(Lcom/google/android/gms/internal/ads/x90;Lcom/google/android/gms/internal/ads/z90;)V
     .locals 0
 
-    .line 3
     invoke-direct {p0, p1}, Lcom/google/android/gms/internal/ads/y90;-><init>(Lcom/google/android/gms/internal/ads/x90;)V
 
     return-void
@@ -49,7 +46,6 @@
 .method public final run()V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/y90;->a:Ljava/lang/ref/WeakReference;
 
     invoke-virtual {v0}, Ljava/lang/ref/WeakReference;->get()Ljava/lang/Object;
@@ -60,7 +56,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/google/android/gms/internal/ads/x90;->H0(Lcom/google/android/gms/internal/ads/x90;)V
 
     :cond_0

@@ -26,14 +26,12 @@
 .method public final b(Ljava/lang/Object;)V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/y91;->a:Landroid/os/Bundle;
 
     check-cast p1, Landroid/os/Bundle;
 
     const-string v1, "shared_pref"
 
-    .line 2
     invoke-virtual {p1, v1, v0}, Landroid/os/Bundle;->putBundle(Ljava/lang/String;Landroid/os/Bundle;)V
 
     return-void

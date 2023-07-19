@@ -7,7 +7,6 @@
 .method public constructor <init>(Landroid/content/Context;Landroid/webkit/WebView;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1}, Landroid/widget/RelativeLayout;-><init>(Landroid/content/Context;)V
 
     return-void

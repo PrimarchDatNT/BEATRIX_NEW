@@ -34,7 +34,6 @@
 .method constructor <init>(Lf/i/a/a;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lf/i/a/a$a;->a:Lf/i/a/a;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -52,12 +51,10 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lf/i/a/a$a;->a:Lf/i/a/a;
 
     monitor-enter v0
 
-    .line 2
     :try_start_0
     iget-object v1, p0, Lf/i/a/a$a;->a:Lf/i/a/a;
 
@@ -69,18 +66,15 @@
 
     if-nez v1, :cond_0
 
-    .line 3
     monitor-exit v0
 
     return-object v2
 
-    .line 4
     :cond_0
     iget-object v1, p0, Lf/i/a/a$a;->a:Lf/i/a/a;
 
     invoke-static {v1}, Lf/i/a/a;->b(Lf/i/a/a;)V
 
-    .line 5
     iget-object v1, p0, Lf/i/a/a$a;->a:Lf/i/a/a;
 
     invoke-static {v1}, Lf/i/a/a;->g(Lf/i/a/a;)Z
@@ -89,19 +83,16 @@
 
     if-eqz v1, :cond_1
 
-    .line 6
     iget-object v1, p0, Lf/i/a/a$a;->a:Lf/i/a/a;
 
     invoke-static {v1}, Lf/i/a/a;->j(Lf/i/a/a;)V
 
-    .line 7
     iget-object v1, p0, Lf/i/a/a$a;->a:Lf/i/a/a;
 
     const/4 v3, 0x0
 
     invoke-static {v1, v3}, Lf/i/a/a;->k(Lf/i/a/a;I)I
 
-    .line 8
     :cond_1
     monitor-exit v0
 
@@ -125,7 +116,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lf/i/a/a$a;->a()Ljava/lang/Void;
 
     move-result-object v0

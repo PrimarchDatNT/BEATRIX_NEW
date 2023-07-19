@@ -30,7 +30,6 @@
 .method constructor <init>(Lcom/commsource/referral/MTReferral;Ljava/lang/Class;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/referral/MTReferral$a;->c:Lcom/commsource/referral/MTReferral;
 
     invoke-direct {p0, p1, p2}, Lcom/meitu/webview/mtscript/i$c;-><init>(Lcom/meitu/webview/mtscript/i;Ljava/lang/Class;)V
@@ -47,7 +46,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Lcom/commsource/referral/MTReferral$Model;
 
     invoke-virtual {p0, p1}, Lcom/commsource/referral/MTReferral$a;->d(Lcom/commsource/referral/MTReferral$Model;)V
@@ -64,22 +62,16 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v5, p1, Lcom/commsource/referral/MTReferral$Model;->description:Ljava/lang/String;
 
-    .line 2
     iget-object v4, p1, Lcom/commsource/referral/MTReferral$Model;->image:Ljava/lang/String;
 
-    .line 3
     iget-object v6, p1, Lcom/commsource/referral/MTReferral$Model;->link:Ljava/lang/String;
 
-    .line 4
     iget-object v1, p1, Lcom/commsource/referral/MTReferral$Model;->title:Ljava/lang/String;
 
-    .line 5
     iget-object p1, p1, Lcom/commsource/referral/MTReferral$Model;->platform:Ljava/lang/String;
 
-    .line 6
     invoke-virtual {p1}, Ljava/lang/String;->hashCode()I
 
     invoke-virtual {p1}, Ljava/lang/String;->hashCode()I
@@ -195,7 +187,6 @@
 
     goto/16 :goto_1
 
-    .line 7
     :pswitch_0
     iget-object p1, p0, Lcom/commsource/referral/MTReferral$a;->c:Lcom/commsource/referral/MTReferral;
 
@@ -205,7 +196,6 @@
 
     invoke-virtual {p1}, Lcom/commsource/beautyplus/web/WebActivity;->o1()V
 
-    .line 8
     new-instance p1, Lcom/commsource/referral/MTReferral$a$b;
 
     const-string v3, "twitter_share"
@@ -220,11 +210,9 @@
 
     goto/16 :goto_1
 
-    .line 9
     :pswitch_1
     iget-object p1, p0, Lcom/commsource/referral/MTReferral$a;->c:Lcom/commsource/referral/MTReferral;
 
-    .line 10
     invoke-static {p1}, Lcom/commsource/referral/MTReferral;->I(Lcom/commsource/referral/MTReferral;)Lcom/commsource/beautyplus/web/WebActivity;
 
     move-result-object p1
@@ -237,31 +225,26 @@
 
     check-cast p1, Lcom/meitu/libmtsns/Facebook/PlatformFacebookSSOShare;
 
-    .line 11
     new-instance v1, Lcom/meitu/libmtsns/Facebook/PlatformFacebookSSOShare$g$a;
 
     invoke-direct {v1, v6}, Lcom/meitu/libmtsns/Facebook/PlatformFacebookSSOShare$g$a;-><init>(Ljava/lang/String;)V
 
-    .line 12
     invoke-virtual {v1}, Lcom/meitu/libmtsns/framwork/i/a$a$a;->a()Lcom/meitu/libmtsns/framwork/i/a$a;
 
     move-result-object v1
 
     check-cast v1, Lcom/meitu/libmtsns/Facebook/PlatformFacebookSSOShare$g;
 
-    .line 13
     new-instance v2, Lcom/commsource/referral/MTReferral$a$a;
 
     invoke-direct {v2, p0, v1}, Lcom/commsource/referral/MTReferral$a$a;-><init>(Lcom/commsource/referral/MTReferral$a;Lcom/meitu/libmtsns/Facebook/PlatformFacebookSSOShare$g;)V
 
     invoke-virtual {p1, v2}, Lcom/meitu/libmtsns/framwork/i/d;->E(Lcom/meitu/libmtsns/framwork/i/e;)V
 
-    .line 14
     invoke-virtual {p1, v1}, Lcom/meitu/libmtsns/framwork/i/d;->l(Lcom/meitu/libmtsns/framwork/i/d$l;)V
 
     goto/16 :goto_1
 
-    .line 15
     :pswitch_2
     new-instance p1, Landroid/content/Intent;
 
@@ -269,10 +252,8 @@
 
     const-string v1, "android.intent.action.SEND"
 
-    .line 16
     invoke-virtual {p1, v1}, Landroid/content/Intent;->setAction(Ljava/lang/String;)Landroid/content/Intent;
 
-    .line 17
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -291,10 +272,8 @@
 
     const-string v1, "text/plain"
 
-    .line 18
     invoke-virtual {p1, v1}, Landroid/content/Intent;->setType(Ljava/lang/String;)Landroid/content/Intent;
 
-    .line 19
     iget-object v1, p0, Lcom/commsource/referral/MTReferral$a;->c:Lcom/commsource/referral/MTReferral;
 
     invoke-static {v1}, Lcom/commsource/referral/MTReferral;->I(Lcom/commsource/referral/MTReferral;)Lcom/commsource/beautyplus/web/WebActivity;
@@ -311,7 +290,6 @@
 
     goto :goto_1
 
-    .line 20
     :pswitch_3
     iget-object v1, p0, Lcom/commsource/referral/MTReferral$a;->c:Lcom/commsource/referral/MTReferral;
 
@@ -335,7 +313,6 @@
 
     goto :goto_1
 
-    .line 21
     :pswitch_4
     iget-object v1, p0, Lcom/commsource/referral/MTReferral$a;->c:Lcom/commsource/referral/MTReferral;
 
@@ -351,7 +328,6 @@
 
     check-cast v1, Landroid/content/ClipboardManager;
 
-    .line 22
     new-instance v4, Ljava/lang/StringBuilder;
 
     invoke-direct {v4}, Ljava/lang/StringBuilder;-><init>()V
@@ -370,12 +346,10 @@
 
     move-result-object v4
 
-    .line 23
     invoke-virtual {v1, v4}, Landroid/content/ClipboardManager;->setPrimaryClip(Landroid/content/ClipData;)V
 
     sget v1, Lcom/res/provider/ResSTRING;->share_copy_link:I
 
-    .line 24
     invoke-static {v1}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
 
     move-result-object v1
@@ -388,10 +362,8 @@
 
     move-result-object p1
 
-    .line 25
     invoke-static {p1}, Lf/k/c/c/f;->y(Ljava/lang/CharSequence;)V
 
-    .line 26
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

@@ -34,7 +34,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -54,23 +53,18 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p1}, Lcom/google/android/gms/internal/ads/a62;->a(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 2
     check-cast p0, Lcom/google/android/gms/internal/ads/r52;
 
-    .line 3
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/r52;->a:Lcom/google/android/gms/internal/ads/d62;
 
     if-nez v0, :cond_0
 
-    .line 4
     iput-object p1, p0, Lcom/google/android/gms/internal/ads/r52;->a:Lcom/google/android/gms/internal/ads/d62;
 
     return-void
 
-    .line 5
     :cond_0
     new-instance p0, Ljava/lang/IllegalStateException;
 
@@ -89,19 +83,16 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/r52;->a:Lcom/google/android/gms/internal/ads/d62;
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-interface {v0}, Lcom/google/android/gms/internal/ads/d62;->get()Ljava/lang/Object;
 
     move-result-object v0
 
     return-object v0
 
-    .line 3
     :cond_0
     new-instance v0, Ljava/lang/IllegalStateException;
 

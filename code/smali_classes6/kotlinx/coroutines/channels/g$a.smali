@@ -61,12 +61,10 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Lcotlinx/coroutines/channels/a;-><init>()V
 
     iput-object p1, p0, Lcotlinx/coroutines/channels/g$a;->d:Lcotlinx/coroutines/channels/g;
 
-    .line 2
     new-instance p1, Ljava/util/concurrent/locks/ReentrantLock;
 
     invoke-direct {p1}, Ljava/util/concurrent/locks/ReentrantLock;-><init>()V
@@ -75,7 +73,6 @@
 
     const-wide/16 v0, 0x0
 
-    .line 3
     iput-wide v0, p0, Lcotlinx/coroutines/channels/g$a;->_subHead:J
 
     return-void
@@ -84,7 +81,6 @@
 .method private final r0()Z
     .locals 2
 
-    .line 1
     invoke-virtual {p0}, Lcotlinx/coroutines/channels/c;->m()Lcotlinx/coroutines/channels/p;
 
     move-result-object v0
@@ -95,7 +91,6 @@
 
     return v1
 
-    .line 2
     :cond_0
     invoke-virtual {p0}, Lcotlinx/coroutines/channels/g$a;->d0()Z
 
@@ -122,19 +117,16 @@
 .method private final s0()Ljava/lang/Object;
     .locals 6
 
-    .line 1
     invoke-virtual {p0}, Lcotlinx/coroutines/channels/g$a;->q0()J
 
     move-result-wide v0
 
-    .line 2
     iget-object v2, p0, Lcotlinx/coroutines/channels/g$a;->d:Lcotlinx/coroutines/channels/g;
 
     invoke-virtual {v2}, Lcotlinx/coroutines/channels/c;->m()Lcotlinx/coroutines/channels/p;
 
     move-result-object v2
 
-    .line 3
     iget-object v3, p0, Lcotlinx/coroutines/channels/g$a;->d:Lcotlinx/coroutines/channels/g;
 
     invoke-static {v3}, Lcotlinx/coroutines/channels/g;->R(Lcotlinx/coroutines/channels/g;)J
@@ -149,7 +141,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_0
     invoke-virtual {p0}, Lcotlinx/coroutines/channels/c;->m()Lcotlinx/coroutines/channels/p;
 
@@ -166,7 +157,6 @@
     :goto_1
     return-object v2
 
-    .line 5
     :cond_2
     iget-object v2, p0, Lcotlinx/coroutines/channels/g$a;->d:Lcotlinx/coroutines/channels/g;
 
@@ -174,7 +164,6 @@
 
     move-result-object v0
 
-    .line 6
     invoke-virtual {p0}, Lcotlinx/coroutines/channels/c;->m()Lcotlinx/coroutines/channels/p;
 
     move-result-object v1
@@ -200,7 +189,6 @@
 .method protected d0()Z
     .locals 5
 
-    .line 1
     invoke-virtual {p0}, Lcotlinx/coroutines/channels/g$a;->q0()J
 
     move-result-wide v0
@@ -231,7 +219,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     iget-object p1, p0, Lcotlinx/coroutines/channels/g$a;->d:Lcotlinx/coroutines/channels/g;
 
     const/4 v0, 0x1
@@ -240,13 +227,10 @@
 
     invoke-static {p1, v1, p0, v0, v1}, Lcotlinx/coroutines/channels/g;->i0(Lcotlinx/coroutines/channels/g;Lcotlinx/coroutines/channels/g$a;Lcotlinx/coroutines/channels/g$a;ILjava/lang/Object;)V
 
-    .line 2
     iget-object p1, p0, Lcotlinx/coroutines/channels/g$a;->c:Ljava/util/concurrent/locks/ReentrantLock;
 
-    .line 3
     invoke-interface {p1}, Ljava/util/concurrent/locks/Lock;->lock()V
 
-    .line 4
     :try_start_0
     iget-object v0, p0, Lcotlinx/coroutines/channels/g$a;->d:Lcotlinx/coroutines/channels/g;
 
@@ -256,7 +240,6 @@
 
     invoke-virtual {p0, v0, v1}, Lcotlinx/coroutines/channels/g$a;->t0(J)V
 
-    .line 5
     sget-object v0, Lcotlin/t1;->a:Lcotlin/t1;
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
@@ -282,19 +265,15 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcotlinx/coroutines/channels/g$a;->c:Ljava/util/concurrent/locks/ReentrantLock;
 
-    .line 2
     invoke-interface {v0}, Ljava/util/concurrent/locks/Lock;->lock()V
 
-    .line 3
     :try_start_0
     invoke-direct {p0}, Lcotlinx/coroutines/channels/g$a;->s0()Ljava/lang/Object;
 
     move-result-object v1
 
-    .line 4
     instance-of v2, v1, Lcotlinx/coroutines/channels/p;
 
     const/4 v3, 0x1
@@ -303,7 +282,6 @@
 
     goto :goto_0
 
-    .line 5
     :cond_0
     sget-object v2, Lcotlinx/coroutines/channels/b;->f:Ljava/lang/Object;
 
@@ -314,7 +292,6 @@
 
     goto :goto_1
 
-    .line 6
     :cond_1
     invoke-virtual {p0}, Lcotlinx/coroutines/channels/g$a;->q0()J
 
@@ -324,18 +301,15 @@
 
     add-long/2addr v4, v6
 
-    .line 7
     invoke-virtual {p0, v4, v5}, Lcotlinx/coroutines/channels/g$a;->t0(J)V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
     const/4 v2, 0x1
 
-    .line 8
     :goto_1
     invoke-interface {v0}, Ljava/util/concurrent/locks/Lock;->unlock()V
 
-    .line 9
     instance-of v0, v1, Lcotlinx/coroutines/channels/p;
 
     const/4 v4, 0x0
@@ -358,7 +332,6 @@
 
     invoke-virtual {p0, v0}, Lcotlinx/coroutines/channels/c;->Q(Ljava/lang/Throwable;)Z
 
-    .line 10
     :cond_3
     invoke-virtual {p0}, Lcotlinx/coroutines/channels/g$a;->p0()Z
 
@@ -374,7 +347,6 @@
     :goto_3
     if-eqz v3, :cond_5
 
-    .line 11
     iget-object v0, p0, Lcotlinx/coroutines/channels/g$a;->d:Lcotlinx/coroutines/channels/g;
 
     const/4 v2, 0x3
@@ -387,7 +359,6 @@
     :catchall_0
     move-exception v1
 
-    .line 12
     invoke-interface {v0}, Ljava/util/concurrent/locks/Lock;->unlock()V
 
     throw v1
@@ -411,19 +382,15 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcotlinx/coroutines/channels/g$a;->c:Ljava/util/concurrent/locks/ReentrantLock;
 
-    .line 2
     invoke-interface {v0}, Ljava/util/concurrent/locks/Lock;->lock()V
 
-    .line 3
     :try_start_0
     invoke-direct {p0}, Lcotlinx/coroutines/channels/g$a;->s0()Ljava/lang/Object;
 
     move-result-object v1
 
-    .line 4
     instance-of v2, v1, Lcotlinx/coroutines/channels/p;
 
     const/4 v3, 0x1
@@ -434,7 +401,6 @@
 
     goto :goto_0
 
-    .line 5
     :cond_0
     sget-object v2, Lcotlinx/coroutines/channels/b;->f:Ljava/lang/Object;
 
@@ -442,7 +408,6 @@
 
     goto :goto_0
 
-    .line 6
     :cond_1
     invoke-interface {p1}, Lcotlinx/coroutines/selects/f;->o()Z
 
@@ -450,14 +415,12 @@
 
     if-nez p1, :cond_2
 
-    .line 7
     invoke-static {}, Lcotlinx/coroutines/selects/g;->g()Ljava/lang/Object;
 
     move-result-object v1
 
     goto :goto_0
 
-    .line 8
     :cond_2
     invoke-virtual {p0}, Lcotlinx/coroutines/channels/g$a;->q0()J
 
@@ -467,18 +430,15 @@
 
     add-long/2addr v4, v6
 
-    .line 9
     invoke-virtual {p0, v4, v5}, Lcotlinx/coroutines/channels/g$a;->t0(J)V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
     const/4 v4, 0x1
 
-    .line 10
     :goto_0
     invoke-interface {v0}, Ljava/util/concurrent/locks/Lock;->unlock()V
 
-    .line 11
     instance-of p1, v1, Lcotlinx/coroutines/channels/p;
 
     const/4 v0, 0x0
@@ -501,7 +461,6 @@
 
     invoke-virtual {p0, p1}, Lcotlinx/coroutines/channels/c;->Q(Ljava/lang/Throwable;)Z
 
-    .line 12
     :cond_4
     invoke-virtual {p0}, Lcotlinx/coroutines/channels/g$a;->p0()Z
 
@@ -517,7 +476,6 @@
     :goto_2
     if-eqz v3, :cond_6
 
-    .line 13
     iget-object p1, p0, Lcotlinx/coroutines/channels/g$a;->d:Lcotlinx/coroutines/channels/g;
 
     const/4 v2, 0x3
@@ -530,7 +488,6 @@
     :catchall_0
     move-exception p1
 
-    .line 14
     invoke-interface {v0}, Ljava/util/concurrent/locks/Lock;->unlock()V
 
     throw p1
@@ -545,7 +502,6 @@
 
     const/4 v2, 0x0
 
-    .line 1
     :goto_0
     invoke-direct {p0}, Lcotlinx/coroutines/channels/g$a;->r0()Z
 
@@ -555,7 +511,6 @@
 
     if-eqz v3, :cond_a
 
-    .line 2
     iget-object v3, p0, Lcotlinx/coroutines/channels/g$a;->c:Ljava/util/concurrent/locks/ReentrantLock;
 
     invoke-virtual {v3}, Ljava/util/concurrent/locks/ReentrantLock;->tryLock()Z
@@ -566,21 +521,18 @@
 
     goto :goto_4
 
-    .line 3
     :cond_0
     :try_start_0
     invoke-direct {p0}, Lcotlinx/coroutines/channels/g$a;->s0()Ljava/lang/Object;
 
     move-result-object v3
 
-    .line 4
     sget-object v5, Lcotlinx/coroutines/channels/b;->f:Ljava/lang/Object;
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
     if-ne v3, v5, :cond_2
 
-    .line 5
     :cond_1
     iget-object v3, p0, Lcotlinx/coroutines/channels/g$a;->c:Ljava/util/concurrent/locks/ReentrantLock;
 
@@ -588,21 +540,18 @@
 
     goto :goto_0
 
-    .line 6
     :cond_2
     :try_start_1
     instance-of v5, v3, Lcotlinx/coroutines/channels/p;
 
     if-eqz v5, :cond_4
 
-    .line 7
     move-object v4, v3
 
     check-cast v4, Lcotlinx/coroutines/channels/p;
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
-    .line 8
     :cond_3
     :goto_1
     iget-object v0, p0, Lcotlinx/coroutines/channels/g$a;->c:Ljava/util/concurrent/locks/ReentrantLock;
@@ -611,7 +560,6 @@
 
     goto :goto_4
 
-    .line 9
     :cond_4
     :try_start_2
     invoke-virtual {p0}, Lcotlinx/coroutines/channels/a;->I()Lcotlinx/coroutines/channels/z;
@@ -620,14 +568,12 @@
 
     if-eqz v5, :cond_3
 
-    .line 10
     instance-of v6, v5, Lcotlinx/coroutines/channels/p;
 
     if-eqz v6, :cond_5
 
     goto :goto_1
 
-    .line 11
     :cond_5
     invoke-interface {v5, v3, v4}, Lcotlinx/coroutines/channels/z;->v(Ljava/lang/Object;Lcotlinx/coroutines/internal/m$d;)Lcotlinx/coroutines/internal/c0;
 
@@ -635,7 +581,6 @@
 
     if-eqz v4, :cond_1
 
-    .line 12
     invoke-static {}, Lcotlinx/coroutines/p0;->b()Z
 
     move-result v2
@@ -665,7 +610,6 @@
 
     throw v0
 
-    .line 13
     :cond_8
     :goto_3
     invoke-virtual {p0}, Lcotlinx/coroutines/channels/g$a;->q0()J
@@ -676,19 +620,16 @@
 
     add-long/2addr v6, v8
 
-    .line 14
     invoke-virtual {p0, v6, v7}, Lcotlinx/coroutines/channels/g$a;->t0(J)V
     :try_end_2
     .catchall {:try_start_2 .. :try_end_2} :catchall_0
 
-    .line 15
     iget-object v2, p0, Lcotlinx/coroutines/channels/g$a;->c:Ljava/util/concurrent/locks/ReentrantLock;
 
     invoke-virtual {v2}, Ljava/util/concurrent/locks/ReentrantLock;->unlock()V
 
     if-nez v5, :cond_9
 
-    .line 16
     invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_9
@@ -701,7 +642,6 @@
     :catchall_0
     move-exception v0
 
-    .line 17
     iget-object v1, p0, Lcotlinx/coroutines/channels/g$a;->c:Ljava/util/concurrent/locks/ReentrantLock;
 
     invoke-virtual {v1}, Ljava/util/concurrent/locks/ReentrantLock;->unlock()V
@@ -712,7 +652,6 @@
     :goto_4
     if-eqz v4, :cond_b
 
-    .line 18
     iget-object v0, v4, Lcotlinx/coroutines/channels/p;->d:Ljava/lang/Throwable;
 
     invoke-virtual {p0, v0}, Lcotlinx/coroutines/channels/c;->Q(Ljava/lang/Throwable;)Z
@@ -724,7 +663,6 @@
 .method public final q0()J
     .locals 2
 
-    .line 1
     iget-wide v0, p0, Lcotlinx/coroutines/channels/g$a;->_subHead:J
 
     return-wide v0
@@ -733,7 +671,6 @@
 .method public final t0(J)V
     .locals 0
 
-    .line 1
     iput-wide p1, p0, Lcotlinx/coroutines/channels/g$a;->_subHead:J
 
     return-void
@@ -742,7 +679,6 @@
 .method protected u()Z
     .locals 2
 
-    .line 1
     new-instance v0, Ljava/lang/IllegalStateException;
 
     const-string v1, "Should not be used"
@@ -759,7 +695,6 @@
 .method protected w()Z
     .locals 2
 
-    .line 1
     new-instance v0, Ljava/lang/IllegalStateException;
 
     const-string v1, "Should not be used"

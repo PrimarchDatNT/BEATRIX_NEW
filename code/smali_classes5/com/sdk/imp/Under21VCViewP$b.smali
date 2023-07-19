@@ -25,7 +25,6 @@
 .method constructor <init>(Lcom/sdk/imp/Under21VCViewP;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/sdk/imp/Under21VCViewP$b;->a:Lcom/sdk/imp/Under21VCViewP;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -38,7 +37,6 @@
 .method public a()V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/sdk/imp/Under21VCViewP$b;->a:Lcom/sdk/imp/Under21VCViewP;
 
     invoke-virtual {v0}, Landroid/widget/RelativeLayout;->getContext()Landroid/content/Context;
@@ -49,7 +47,6 @@
 
     move-result v0
 
-    .line 2
     iget-object v1, p0, Lcom/sdk/imp/Under21VCViewP$b;->a:Lcom/sdk/imp/Under21VCViewP;
 
     invoke-virtual {v1}, Landroid/widget/RelativeLayout;->getContext()Landroid/content/Context;
@@ -68,14 +65,12 @@
 
     if-nez v0, :cond_0
 
-    .line 3
     iget-object v0, p0, Lcom/sdk/imp/Under21VCViewP$b;->a:Lcom/sdk/imp/Under21VCViewP;
 
     invoke-virtual {v0}, Lcom/sdk/imp/Under21VCViewP;->d()V
 
     goto :goto_0
 
-    .line 4
     :cond_0
     iget-object v0, p0, Lcom/sdk/imp/Under21VCViewP$b;->a:Lcom/sdk/imp/Under21VCViewP;
 

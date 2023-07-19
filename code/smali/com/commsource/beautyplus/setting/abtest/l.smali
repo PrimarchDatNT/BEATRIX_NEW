@@ -19,7 +19,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lf/d/a;-><init>()V
 
     return-void
@@ -32,10 +31,8 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/widget/dialog/i0;->dismiss()V
 
-    .line 2
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -48,12 +45,10 @@
 
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/beautyplus/setting/abtest/l;->X:Lcom/commsource/beautyplus/setting/abtest/l$a;
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-virtual {p1}, Lcom/commsource/beautyplus/setting/abtest/ABTestDataEnum;->getCode()I
 
     move-result p1
@@ -62,11 +57,9 @@
 
     invoke-interface {v0, p1, v1}, Lcom/commsource/beautyplus/setting/abtest/l$a;->a(IZ)V
 
-    .line 3
     :cond_0
     invoke-virtual {p0}, Lcom/commsource/widget/dialog/i0;->dismiss()V
 
-    .line 4
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -79,12 +72,10 @@
 
     invoke-static {p3}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/beautyplus/setting/abtest/l;->X:Lcom/commsource/beautyplus/setting/abtest/l$a;
 
     if-eqz v0, :cond_2
 
-    .line 2
     invoke-interface {p1}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
     move-result-object p1
@@ -103,7 +94,6 @@
 
     check-cast v0, Lcom/commsource/beautyplus/setting/abtest/ABTestDataEnum;
 
-    .line 3
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
     move-result-object v1
@@ -126,7 +116,6 @@
 
     if-eqz v1, :cond_0
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/beautyplus/setting/abtest/l;->X:Lcom/commsource/beautyplus/setting/abtest/l$a;
 
     invoke-virtual {v0}, Lcom/commsource/beautyplus/setting/abtest/ABTestDataEnum;->getCode()I
@@ -139,7 +128,6 @@
 
     goto :goto_0
 
-    .line 5
     :cond_1
     iget-object p1, p0, Lcom/commsource/beautyplus/setting/abtest/l;->X:Lcom/commsource/beautyplus/setting/abtest/l$a;
 
@@ -151,11 +139,9 @@
 
     invoke-interface {p1, p2, v0}, Lcom/commsource/beautyplus/setting/abtest/l$a;->a(IZ)V
 
-    .line 6
     :cond_2
     invoke-virtual {p0}, Lcom/commsource/widget/dialog/i0;->dismiss()V
 
-    .line 7
     invoke-static {p3}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -170,12 +156,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lf/d/a;->W:Landroidx/databinding/ViewDataBinding;
 
     check-cast v1, Lcom/commsource/beautyplus/f0/y4;
 
-    .line 2
     iget-object v2, v1, Lcom/commsource/beautyplus/f0/y4;->b:Landroid/widget/TextView;
 
     new-instance v3, Lcom/commsource/beautyplus/setting/abtest/d;
@@ -184,7 +168,6 @@
 
     invoke-virtual {v2, v3}, Landroid/widget/TextView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 3
     invoke-virtual {p0}, Landroidx/fragment/app/Fragment;->getArguments()Landroid/os/Bundle;
 
     move-result-object v2
@@ -197,7 +180,6 @@
 
     check-cast v2, Ljava/util/List;
 
-    .line 4
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
     move-result-object v3
@@ -206,7 +188,6 @@
 
     move-result-object v3
 
-    .line 5
     invoke-interface {v2}, Ljava/util/List;->size()I
 
     move-result v4
@@ -216,14 +197,12 @@
     :goto_0
     if-ltz v4, :cond_2
 
-    .line 6
     invoke-interface {v2, v4}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object v5
 
     check-cast v5, Lcom/commsource/beautyplus/setting/abtest/ABTestDataEnum;
 
-    .line 7
     new-instance v6, Landroid/widget/TextView;
 
     invoke-virtual {p0}, Landroidx/fragment/app/Fragment;->getContext()Landroid/content/Context;
@@ -234,10 +213,8 @@
 
     const/16 v7, 0x11
 
-    .line 8
     invoke-virtual {v6, v7}, Landroid/widget/TextView;->setGravity(I)V
 
-    .line 9
     new-instance v7, Landroid/widget/LinearLayout$LayoutParams;
 
     const/high16 v8, 0x42200000    # 40.0f
@@ -254,10 +231,8 @@
 
     const/high16 v7, -0x1000000
 
-    .line 10
     invoke-virtual {v6, v7}, Landroid/widget/TextView;->setTextColor(I)V
 
-    .line 11
     new-instance v7, Ljava/lang/StringBuilder;
 
     invoke-direct {v7}, Ljava/lang/StringBuilder;-><init>()V
@@ -286,10 +261,8 @@
 
     const/high16 v7, 0x41600000    # 14.0f
 
-    .line 12
     invoke-virtual {v6, v7}, Landroid/widget/TextView;->setTextSize(F)V
 
-    .line 13
     invoke-virtual {v5}, Lcom/commsource/beautyplus/setting/abtest/ABTestDataEnum;->getCode()I
 
     move-result v7
@@ -304,7 +277,6 @@
 
     if-eqz v7, :cond_0
 
-    .line 14
     invoke-virtual {p0}, Landroidx/fragment/app/Fragment;->getContext()Landroid/content/Context;
 
     move-result-object v7
@@ -317,7 +289,6 @@
 
     invoke-virtual {v6, v7}, Landroid/widget/TextView;->setBackgroundColor(I)V
 
-    .line 15
     new-instance v7, Lcom/commsource/beautyplus/setting/abtest/b;
 
     invoke-direct {v7, p0, v5}, Lcom/commsource/beautyplus/setting/abtest/b;-><init>(Lcom/commsource/beautyplus/setting/abtest/l;Lcom/commsource/beautyplus/setting/abtest/ABTestDataEnum;)V
@@ -326,7 +297,6 @@
 
     goto :goto_1
 
-    .line 16
     :cond_0
     invoke-virtual {p0}, Landroidx/fragment/app/Fragment;->getContext()Landroid/content/Context;
 
@@ -340,14 +310,12 @@
 
     invoke-virtual {v6, v7}, Landroid/widget/TextView;->setBackground(Landroid/graphics/drawable/Drawable;)V
 
-    .line 17
     new-instance v7, Lcom/commsource/beautyplus/setting/abtest/c;
 
     invoke-direct {v7, p0, v2, v5}, Lcom/commsource/beautyplus/setting/abtest/c;-><init>(Lcom/commsource/beautyplus/setting/abtest/l;Ljava/util/List;Lcom/commsource/beautyplus/setting/abtest/ABTestDataEnum;)V
 
     invoke-virtual {v6, v7}, Landroid/widget/TextView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 18
     :goto_1
     iget-object v5, v1, Lcom/commsource/beautyplus/f0/y4;->a:Landroid/widget/LinearLayout;
 
@@ -355,7 +323,6 @@
 
     if-lez v4, :cond_1
 
-    .line 19
     new-instance v5, Landroid/view/View;
 
     invoke-virtual {p0}, Landroidx/fragment/app/Fragment;->getContext()Landroid/content/Context;
@@ -364,7 +331,6 @@
 
     invoke-direct {v5, v6}, Landroid/view/View;-><init>(Landroid/content/Context;)V
 
-    .line 20
     new-instance v6, Landroid/view/ViewGroup$LayoutParams;
 
     const/high16 v7, 0x3f000000    # 0.5f
@@ -377,7 +343,6 @@
 
     invoke-virtual {v5, v6}, Landroid/view/View;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
 
-    .line 21
     invoke-virtual {p0}, Landroidx/fragment/app/Fragment;->getContext()Landroid/content/Context;
 
     move-result-object v6
@@ -390,7 +355,6 @@
 
     invoke-virtual {v5, v6}, Landroid/view/View;->setBackgroundColor(I)V
 
-    .line 22
     iget-object v6, v1, Lcom/commsource/beautyplus/f0/y4;->a:Landroid/widget/LinearLayout;
 
     invoke-virtual {v6, v5}, Landroid/widget/LinearLayout;->addView(Landroid/view/View;)V
@@ -400,7 +364,6 @@
 
     goto/16 :goto_0
 
-    .line 23
     :cond_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -414,7 +377,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     sget v0, Lcom/res/provider/ResLAYOUT;->dialog_abtest_choose_test:I
@@ -453,10 +415,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/beautyplus/setting/abtest/l;->X:Lcom/commsource/beautyplus/setting/abtest/l$a;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

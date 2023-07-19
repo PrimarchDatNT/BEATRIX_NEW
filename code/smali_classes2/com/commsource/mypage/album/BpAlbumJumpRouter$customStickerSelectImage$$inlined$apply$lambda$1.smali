@@ -29,7 +29,6 @@
 
     iput-boolean p1, p0, Lcom/commsource/mypage/album/BpAlbumJumpRouter$customStickerSelectImage$$inlined$apply$lambda$1;->$showProBanner$inlined:Z
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -60,14 +59,12 @@
 
     invoke-static {p2, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     new-instance v1, Landroid/content/Intent;
 
     const-class v2, Lcom/commsource/studio/sticker/CustomStickerActivity;
 
     invoke-direct {v1, p1, v2}, Landroid/content/Intent;-><init>(Landroid/content/Context;Ljava/lang/Class;)V
 
-    .line 2
     invoke-virtual {p2}, Lcom/commsource/mypage/album/w;->i()Lcom/commsource/cloudalbum/bean/CAImageInfo;
 
     move-result-object p2
@@ -80,17 +77,14 @@
 
     invoke-virtual {v1, v2, p2}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
 
-    .line 3
     iget-boolean p2, p0, Lcom/commsource/mypage/album/BpAlbumJumpRouter$customStickerSelectImage$$inlined$apply$lambda$1;->$showProBanner$inlined:Z
 
     const-string v2, "EXTRA_SHOW_PRO_BANNER"
 
     invoke-virtual {v1, v2, p2}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Z)Landroid/content/Intent;
 
-    .line 4
     invoke-virtual {p1, v1}, Landroid/app/Activity;->startActivity(Landroid/content/Intent;)V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

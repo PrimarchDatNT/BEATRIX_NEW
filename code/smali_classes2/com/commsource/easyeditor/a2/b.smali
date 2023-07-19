@@ -17,7 +17,6 @@
 .method private constructor <init>(Landroid/content/Context;Ljava/lang/String;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1, p2}, Lcom/commsource/util/common/l;-><init>(Landroid/content/Context;Ljava/lang/String;)V
 
     return-void
@@ -30,7 +29,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/commsource/easyeditor/a2/b;->L()Lcom/commsource/util/common/l;
 
     move-result-object v1
@@ -55,12 +53,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/easyeditor/a2/b;->n:Lcom/commsource/easyeditor/a2/b;
 
     if-nez v1, :cond_0
 
-    .line 2
     new-instance v1, Lcom/commsource/easyeditor/a2/b;
 
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
@@ -73,7 +69,6 @@
 
     sput-object v1, Lcom/commsource/easyeditor/a2/b;->n:Lcom/commsource/easyeditor/a2/b;
 
-    .line 3
     :cond_0
     sget-object v1, Lcom/commsource/easyeditor/a2/b;->n:Lcom/commsource/easyeditor/a2/b;
 
@@ -89,7 +84,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/commsource/easyeditor/a2/b;->L()Lcom/commsource/util/common/l;
 
     move-result-object v1
@@ -124,7 +118,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/commsource/easyeditor/a2/b;->L()Lcom/commsource/util/common/l;
 
     move-result-object v1
@@ -139,18 +132,15 @@
 
     if-eq v1, v3, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 3
     :cond_0
     invoke-static {}, Lcom/commsource/easyeditor/a2/b;->L()Lcom/commsource/util/common/l;
 
     move-result-object v1
 
-    .line 4
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
     move-result-object v3
@@ -171,11 +161,9 @@
 
     const/4 v4, 0x1
 
-    .line 5
     :cond_1
     invoke-virtual {v1, v2, v4}, Lcom/commsource/util/common/l;->F(Ljava/lang/String;I)Z
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -188,7 +176,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/commsource/easyeditor/a2/b;->L()Lcom/commsource/util/common/l;
 
     move-result-object v1
@@ -197,7 +184,6 @@
 
     invoke-virtual {v1, v2, p0}, Lcom/commsource/util/common/l;->F(Ljava/lang/String;I)Z
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

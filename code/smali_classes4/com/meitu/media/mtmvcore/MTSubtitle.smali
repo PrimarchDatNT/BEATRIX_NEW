@@ -20,13 +20,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/meitu/flymedia/glx/utils/GlxNativesLoader;->a()V
 
-    .line 2
     invoke-static {}, Lcom/meitu/media/mtmvcore/MTSubtitle;->native_init()V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -35,19 +32,16 @@
 .method public constructor <init>(Ljava/lang/String;Ljava/lang/String;JJ)V
     .locals 2
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/4 v0, 0x0
 
-    .line 2
     iput-boolean v0, p0, Lcom/meitu/media/mtmvcore/MTSubtitle;->a:Z
 
     const-string v0, ""
 
     if-eqz p1, :cond_0
 
-    .line 3
     invoke-virtual {p1}, Ljava/lang/String;->isEmpty()Z
 
     move-result v1
@@ -63,7 +57,6 @@
     :cond_0
     if-eqz p2, :cond_2
 
-    .line 4
     invoke-virtual {p2}, Ljava/lang/String;->isEmpty()Z
 
     move-result v1
@@ -76,13 +69,11 @@
 
     if-nez v0, :cond_2
 
-    .line 5
     :cond_1
     invoke-direct/range {p0 .. p6}, Lcom/meitu/media/mtmvcore/MTSubtitle;->native_setup(Ljava/lang/String;Ljava/lang/String;JJ)V
 
     return-void
 
-    .line 6
     :cond_2
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -114,10 +105,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/meitu/media/mtmvcore/MTSubtitle;->native_cleanup()V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -130,7 +119,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/media/mtmvcore/MTSubtitle;->mNativeContext:J
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -145,15 +133,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/meitu/media/mtmvcore/MTSubtitle;->native_finalize()V
 
     const/4 v1, 0x1
 
-    .line 2
     iput-boolean v1, p0, Lcom/meitu/media/mtmvcore/MTSubtitle;->a:Z
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -171,20 +156,16 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/meitu/media/mtmvcore/MTSubtitle;->a:Z
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-super {p0}, Ljava/lang/Object;->finalize()V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 4
     :cond_0
     new-instance v1, Ljava/lang/RuntimeException;
 

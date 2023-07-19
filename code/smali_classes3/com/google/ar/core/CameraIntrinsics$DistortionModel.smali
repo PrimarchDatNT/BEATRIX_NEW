@@ -48,7 +48,6 @@
 .method static constructor <clinit>()V
     .locals 15
 
-    .line 1
     new-instance v0, Lcom/google/ar/core/CameraIntrinsics$DistortionModel;
 
     const-string v1, "UNKNOWN"
@@ -59,7 +58,6 @@
 
     sput-object v0, Lcom/google/ar/core/CameraIntrinsics$DistortionModel;->UNKNOWN:Lcom/google/ar/core/CameraIntrinsics$DistortionModel;
 
-    .line 2
     new-instance v1, Lcom/google/ar/core/CameraIntrinsics$DistortionModel;
 
     const-string v3, "NONE"
@@ -70,7 +68,6 @@
 
     sput-object v1, Lcom/google/ar/core/CameraIntrinsics$DistortionModel;->NONE:Lcom/google/ar/core/CameraIntrinsics$DistortionModel;
 
-    .line 3
     new-instance v3, Lcom/google/ar/core/CameraIntrinsics$DistortionModel;
 
     const-string v5, "EQUIDISTANT"
@@ -81,7 +78,6 @@
 
     sput-object v3, Lcom/google/ar/core/CameraIntrinsics$DistortionModel;->EQUIDISTANT:Lcom/google/ar/core/CameraIntrinsics$DistortionModel;
 
-    .line 4
     new-instance v5, Lcom/google/ar/core/CameraIntrinsics$DistortionModel;
 
     const-string v7, "EQUIDISTANT_POLY_1_PARAM"
@@ -92,7 +88,6 @@
 
     sput-object v5, Lcom/google/ar/core/CameraIntrinsics$DistortionModel;->EQUIDISTANT_POLY_1_PARAM:Lcom/google/ar/core/CameraIntrinsics$DistortionModel;
 
-    .line 5
     new-instance v7, Lcom/google/ar/core/CameraIntrinsics$DistortionModel;
 
     const-string v9, "BROWNS_POLY_2_PARAMS"
@@ -103,7 +98,6 @@
 
     sput-object v7, Lcom/google/ar/core/CameraIntrinsics$DistortionModel;->BROWNS_POLY_2_PARAMS:Lcom/google/ar/core/CameraIntrinsics$DistortionModel;
 
-    .line 6
     new-instance v9, Lcom/google/ar/core/CameraIntrinsics$DistortionModel;
 
     const-string v11, "BROWNS_POLY_3_PARAMS"
@@ -114,7 +108,6 @@
 
     sput-object v9, Lcom/google/ar/core/CameraIntrinsics$DistortionModel;->BROWNS_POLY_3_PARAMS:Lcom/google/ar/core/CameraIntrinsics$DistortionModel;
 
-    .line 7
     new-instance v11, Lcom/google/ar/core/CameraIntrinsics$DistortionModel;
 
     const-string v13, "BROWNS_POLY_5_PARAMS"
@@ -143,7 +136,6 @@
 
     aput-object v11, v13, v14
 
-    .line 8
     sput-object v13, Lcom/google/ar/core/CameraIntrinsics$DistortionModel;->$VALUES:[Lcom/google/ar/core/CameraIntrinsics$DistortionModel;
 
     return-void
@@ -157,10 +149,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 2
     iput p3, p0, Lcom/google/ar/core/CameraIntrinsics$DistortionModel;->nativeCode:I
 
     return-void
@@ -169,7 +159,6 @@
 .method static forNumber(I)Lcom/google/ar/core/CameraIntrinsics$DistortionModel;
     .locals 5
 
-    .line 1
     invoke-static {}, Lcom/google/ar/core/CameraIntrinsics$DistortionModel;->values()[Lcom/google/ar/core/CameraIntrinsics$DistortionModel;
 
     move-result-object v0
@@ -183,7 +172,6 @@
 
     aget-object v3, v0, v2
 
-    .line 2
     iget v4, v3, Lcom/google/ar/core/CameraIntrinsics$DistortionModel;->nativeCode:I
 
     if-ne v4, p0, :cond_0
@@ -195,7 +183,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_1
     new-instance v0, Lcom/google/ar/core/exceptions/FatalException;
 
@@ -223,7 +210,6 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/google/ar/core/CameraIntrinsics$DistortionModel;
     .locals 1
 
-    .line 1
     const-class v0, Lcom/google/ar/core/CameraIntrinsics$DistortionModel;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -238,7 +224,6 @@
 .method public static values()[Lcom/google/ar/core/CameraIntrinsics$DistortionModel;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/google/ar/core/CameraIntrinsics$DistortionModel;->$VALUES:[Lcom/google/ar/core/CameraIntrinsics$DistortionModel;
 
     invoke-virtual {v0}, [Lcom/google/ar/core/CameraIntrinsics$DistortionModel;->clone()Ljava/lang/Object;

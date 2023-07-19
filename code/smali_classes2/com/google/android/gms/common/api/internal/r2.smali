@@ -13,7 +13,6 @@
 .method constructor <init>(Lcom/google/android/gms/common/api/internal/q2;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/android/gms/common/api/internal/r2;->a:Lcom/google/android/gms/common/api/internal/q2;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -33,7 +32,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/common/api/internal/r2;->a:Lcom/google/android/gms/common/api/internal/q2;
 
     iget-object v0, v0, Lcom/google/android/gms/common/api/internal/q2;->a:Ljava/util/Set;

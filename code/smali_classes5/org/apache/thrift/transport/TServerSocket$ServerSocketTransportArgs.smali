@@ -30,7 +30,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lorg/apache/thrift/transport/TServerTransport$AbstractServerTransportArgs;-><init>()V
 
     return-void
@@ -41,7 +40,6 @@
 .method public serverSocket(Ljava/net/ServerSocket;)Lorg/apache/thrift/transport/TServerSocket$ServerSocketTransportArgs;
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lorg/apache/thrift/transport/TServerSocket$ServerSocketTransportArgs;->serverSocket:Ljava/net/ServerSocket;
 
     return-object p0

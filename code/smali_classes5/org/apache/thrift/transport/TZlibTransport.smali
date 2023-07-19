@@ -21,7 +21,6 @@
 
     const/16 v0, 0x9
 
-    .line 1
     invoke-direct {p0, p1, v0}, Lorg/apache/thrift/transport/TZlibTransport;-><init>(Lorg/apache/thrift/transport/TTransport;I)V
 
     return-void
@@ -30,18 +29,14 @@
 .method public constructor <init>(Lorg/apache/thrift/transport/TTransport;I)V
     .locals 3
 
-    .line 2
     invoke-direct {p0}, Lorg/apache/thrift/transport/TIOStreamTransport;-><init>()V
 
     const/4 v0, 0x0
 
-    .line 3
     iput-object v0, p0, Lorg/apache/thrift/transport/TZlibTransport;->transport_:Lorg/apache/thrift/transport/TTransport;
 
-    .line 4
     iput-object p1, p0, Lorg/apache/thrift/transport/TZlibTransport;->transport_:Lorg/apache/thrift/transport/TTransport;
 
-    .line 5
     new-instance p1, Ljava/util/zip/InflaterInputStream;
 
     new-instance v0, Lorg/apache/thrift/transport/TTransportInputStream;
@@ -58,7 +53,6 @@
 
     iput-object p1, p0, Lorg/apache/thrift/transport/TIOStreamTransport;->inputStream_:Ljava/io/InputStream;
 
-    .line 6
     new-instance p1, Ljava/util/zip/DeflaterOutputStream;
 
     new-instance v0, Lorg/apache/thrift/transport/TTransportOutputStream;
@@ -87,10 +81,8 @@
 .method public close()V
     .locals 1
 
-    .line 1
     invoke-super {p0}, Lorg/apache/thrift/transport/TIOStreamTransport;->close()V
 
-    .line 2
     iget-object v0, p0, Lorg/apache/thrift/transport/TZlibTransport;->transport_:Lorg/apache/thrift/transport/TTransport;
 
     invoke-virtual {v0}, Lorg/apache/thrift/transport/TTransport;->isOpen()Z
@@ -99,7 +91,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 3
     iget-object v0, p0, Lorg/apache/thrift/transport/TZlibTransport;->transport_:Lorg/apache/thrift/transport/TTransport;
 
     invoke-virtual {v0}, Lorg/apache/thrift/transport/TTransport;->close()V
@@ -111,7 +102,6 @@
 .method public isOpen()Z
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lorg/apache/thrift/transport/TZlibTransport;->transport_:Lorg/apache/thrift/transport/TTransport;
 
     invoke-virtual {v0}, Lorg/apache/thrift/transport/TTransport;->isOpen()Z
@@ -129,7 +119,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lorg/apache/thrift/transport/TZlibTransport;->transport_:Lorg/apache/thrift/transport/TTransport;
 
     invoke-virtual {v0}, Lorg/apache/thrift/transport/TTransport;->open()V

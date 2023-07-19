@@ -18,14 +18,12 @@
 .method static constructor <clinit>()V
     .locals 3
 
-    .line 1
     sget-object v0, Ljava/lang/Boolean;->TRUE:Ljava/lang/Boolean;
 
     const/4 v1, 0x0
 
     const-string v2, "firebase_auth_proactive_token_refresh_enabled"
 
-    .line 2
     invoke-static {v1, v2, v0}, Lf/f/b/b/f/a;->a(ILjava/lang/String;Ljava/lang/Boolean;)Lf/f/b/b/f/a$a;
 
     move-result-object v0
@@ -38,7 +36,6 @@
 .method public static final a(Landroid/content/Context;)V
     .locals 0
 
-    .line 1
     invoke-static {}, Lf/f/b/b/f/e;->a()Lf/f/b/b/f/b;
 
     invoke-static {p0}, Lf/f/b/b/f/b;->a(Landroid/content/Context;)V

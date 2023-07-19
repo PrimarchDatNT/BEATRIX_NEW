@@ -23,17 +23,14 @@
 .method protected constructor <init>()V
     .locals 2
 
-    .line 4
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/4 v0, 0x0
 
-    .line 5
     iput-object v0, p0, Lcom/google/ar/core/CameraConfigFilter;->session:Lcom/google/ar/core/Session;
 
     const-wide/16 v0, 0x0
 
-    .line 6
     iput-wide v0, p0, Lcom/google/ar/core/CameraConfigFilter;->nativeHandle:J
 
     return-void
@@ -42,13 +39,10 @@
 .method public constructor <init>(Lcom/google/ar/core/Session;)V
     .locals 2
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/google/ar/core/CameraConfigFilter;->session:Lcom/google/ar/core/Session;
 
-    .line 3
     iget-wide v0, p1, Lcom/google/ar/core/Session;->nativeWrapperHandle:J
 
     invoke-static {v0, v1}, Lcom/google/ar/core/CameraConfigFilter;->nativeCreateCameraConfigFilter(J)J
@@ -82,7 +76,6 @@
         }
     .end annotation
 
-    .line 1
     iget-wide v0, p0, Lcom/google/ar/core/CameraConfigFilter;->nativeHandle:J
 
     const-wide/16 v2, 0x0
@@ -91,13 +84,10 @@
 
     if-eqz v4, :cond_0
 
-    .line 2
     invoke-static {v0, v1}, Lcom/google/ar/core/CameraConfigFilter;->nativeDestroyCameraConfigFilter(J)V
 
-    .line 3
     iput-wide v2, p0, Lcom/google/ar/core/CameraConfigFilter;->nativeHandle:J
 
-    .line 4
     :cond_0
     invoke-super {p0}, Ljava/lang/Object;->finalize()V
 
@@ -116,7 +106,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p1}, Ljava/util/EnumSet;->iterator()Ljava/util/Iterator;
 
     move-result-object p1
@@ -138,14 +127,12 @@
 
     check-cast v0, Lcom/google/ar/core/CameraConfig$DepthSensorUsage;
 
-    .line 2
     iget v0, v0, Lcom/google/ar/core/CameraConfig$DepthSensorUsage;->nativeCode:I
 
     or-int/2addr v6, v0
 
     goto :goto_0
 
-    .line 3
     :cond_0
     iget-object p1, p0, Lcom/google/ar/core/CameraConfigFilter;->session:Lcom/google/ar/core/Session;
 
@@ -172,7 +159,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p1}, Ljava/util/EnumSet;->iterator()Ljava/util/Iterator;
 
     move-result-object p1
@@ -194,14 +180,12 @@
 
     check-cast v0, Lcom/google/ar/core/CameraConfig$TargetFps;
 
-    .line 2
     iget v0, v0, Lcom/google/ar/core/CameraConfig$TargetFps;->nativeCode:I
 
     or-int/2addr v6, v0
 
     goto :goto_0
 
-    .line 3
     :cond_0
     iget-object p1, p0, Lcom/google/ar/core/CameraConfigFilter;->session:Lcom/google/ar/core/Session;
 

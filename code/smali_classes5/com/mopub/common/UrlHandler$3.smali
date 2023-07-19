@@ -33,7 +33,6 @@
 .method constructor <init>(Lcom/mopub/common/UrlHandler;Landroid/content/Context;ZLjava/lang/Iterable;Ljava/lang/String;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/mopub/common/UrlHandler$3;->this$0:Lcom/mopub/common/UrlHandler;
 
     iput-object p2, p0, Lcom/mopub/common/UrlHandler$3;->val$context:Landroid/content/Context;
@@ -62,14 +61,12 @@
         .end annotation
     .end param
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/common/UrlHandler$3;->this$0:Lcom/mopub/common/UrlHandler;
 
     const/4 v1, 0x0
 
     invoke-static {v0, v1}, Lcom/mopub/common/UrlHandler;->access$302(Lcom/mopub/common/UrlHandler;Z)Z
 
-    .line 2
     iget-object v0, p0, Lcom/mopub/common/UrlHandler$3;->this$0:Lcom/mopub/common/UrlHandler;
 
     iget-object v1, p0, Lcom/mopub/common/UrlHandler$3;->val$destinationUrl:Ljava/lang/String;
@@ -88,14 +85,12 @@
         .end annotation
     .end param
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/common/UrlHandler$3;->this$0:Lcom/mopub/common/UrlHandler;
 
     const/4 v1, 0x0
 
     invoke-static {v0, v1}, Lcom/mopub/common/UrlHandler;->access$302(Lcom/mopub/common/UrlHandler;Z)Z
 
-    .line 2
     iget-object v0, p0, Lcom/mopub/common/UrlHandler$3;->this$0:Lcom/mopub/common/UrlHandler;
 
     iget-object v1, p0, Lcom/mopub/common/UrlHandler$3;->val$context:Landroid/content/Context;

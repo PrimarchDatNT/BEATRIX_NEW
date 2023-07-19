@@ -77,35 +77,30 @@
 .method static constructor <clinit>()V
     .locals 6
 
-    .line 1
     new-instance v0, Lcom/google/android/gms/common/api/a$g;
 
     invoke-direct {v0}, Lcom/google/android/gms/common/api/a$g;-><init>()V
 
     sput-object v0, Lf/f/b/b/l/b;->a:Lcom/google/android/gms/common/api/a$g;
 
-    .line 2
     new-instance v1, Lcom/google/android/gms/common/api/a$g;
 
     invoke-direct {v1}, Lcom/google/android/gms/common/api/a$g;-><init>()V
 
     sput-object v1, Lf/f/b/b/l/b;->b:Lcom/google/android/gms/common/api/a$g;
 
-    .line 3
     new-instance v2, Lf/f/b/b/l/c;
 
     invoke-direct {v2}, Lf/f/b/b/l/c;-><init>()V
 
     sput-object v2, Lf/f/b/b/l/b;->c:Lcom/google/android/gms/common/api/a$a;
 
-    .line 4
     new-instance v3, Lf/f/b/b/l/d;
 
     invoke-direct {v3}, Lf/f/b/b/l/d;-><init>()V
 
     sput-object v3, Lf/f/b/b/l/b;->d:Lcom/google/android/gms/common/api/a$a;
 
-    .line 5
     new-instance v4, Lcom/google/android/gms/common/api/Scope;
 
     const-string v5, "profile"
@@ -114,7 +109,6 @@
 
     sput-object v4, Lf/f/b/b/l/b;->e:Lcom/google/android/gms/common/api/Scope;
 
-    .line 6
     new-instance v4, Lcom/google/android/gms/common/api/Scope;
 
     const-string v5, "email"
@@ -123,7 +117,6 @@
 
     sput-object v4, Lf/f/b/b/l/b;->f:Lcom/google/android/gms/common/api/Scope;
 
-    .line 7
     new-instance v4, Lcom/google/android/gms/common/api/a;
 
     const-string v5, "SignIn.API"
@@ -132,7 +125,6 @@
 
     sput-object v4, Lf/f/b/b/l/b;->g:Lcom/google/android/gms/common/api/a;
 
-    .line 8
     new-instance v0, Lcom/google/android/gms/common/api/a;
 
     const-string v2, "SignIn.INTERNAL_API"

@@ -25,7 +25,6 @@
 .method constructor <init>(Landroid/view/View;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/mopub/nativeads/NativeRendererHelper$2;->val$rootView:Landroid/view/View;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -38,7 +37,6 @@
 .method public onClick(Landroid/view/View;)V
     .locals 0
 
-    .line 1
     iget-object p1, p0, Lcom/mopub/nativeads/NativeRendererHelper$2;->val$rootView:Landroid/view/View;
 
     invoke-virtual {p1}, Landroid/view/View;->performClick()Z

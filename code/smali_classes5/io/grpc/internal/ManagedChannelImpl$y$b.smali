@@ -29,7 +29,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lio/grpc/internal/ManagedChannelImpl$y$b;->b:Lio/grpc/internal/ManagedChannelImpl$y;
 
     iput-object p2, p0, Lio/grpc/internal/ManagedChannelImpl$y$b;->a:Lio/grpc/t0$j;
@@ -44,7 +43,6 @@
 .method a(Lio/grpc/internal/f1;)V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lio/grpc/internal/ManagedChannelImpl$y$b;->b:Lio/grpc/internal/ManagedChannelImpl$y;
 
     iget-object v0, v0, Lio/grpc/internal/ManagedChannelImpl$y;->k:Lio/grpc/internal/ManagedChannelImpl;
@@ -61,7 +59,6 @@
 .method b(Lio/grpc/internal/f1;)V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lio/grpc/internal/ManagedChannelImpl$y$b;->b:Lio/grpc/internal/ManagedChannelImpl$y;
 
     iget-object v0, v0, Lio/grpc/internal/ManagedChannelImpl$y;->k:Lio/grpc/internal/ManagedChannelImpl;
@@ -78,14 +75,12 @@
 .method c(Lio/grpc/internal/f1;Lio/grpc/o;)V
     .locals 1
 
-    .line 1
     iget-object p1, p0, Lio/grpc/internal/ManagedChannelImpl$y$b;->b:Lio/grpc/internal/ManagedChannelImpl$y;
 
     iget-object p1, p1, Lio/grpc/internal/ManagedChannelImpl$y;->k:Lio/grpc/internal/ManagedChannelImpl;
 
     invoke-static {p1, p2}, Lio/grpc/internal/ManagedChannelImpl;->o0(Lio/grpc/internal/ManagedChannelImpl;Lio/grpc/o;)V
 
-    .line 2
     iget-object p1, p0, Lio/grpc/internal/ManagedChannelImpl$y$b;->a:Lio/grpc/t0$j;
 
     if-eqz p1, :cond_0
@@ -102,7 +97,6 @@
 
     invoke-static {p1, v0}, Lcom/google/common/base/t;->h0(ZLjava/lang/Object;)V
 
-    .line 3
     iget-object p1, p0, Lio/grpc/internal/ManagedChannelImpl$y$b;->a:Lio/grpc/t0$j;
 
     invoke-interface {p1, p2}, Lio/grpc/t0$j;->a(Lio/grpc/o;)V
@@ -113,7 +107,6 @@
 .method d(Lio/grpc/internal/f1;)V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lio/grpc/internal/ManagedChannelImpl$y$b;->b:Lio/grpc/internal/ManagedChannelImpl$y;
 
     iget-object v0, v0, Lio/grpc/internal/ManagedChannelImpl$y;->k:Lio/grpc/internal/ManagedChannelImpl;
@@ -124,7 +117,6 @@
 
     invoke-interface {v0, p1}, Ljava/util/Set;->remove(Ljava/lang/Object;)Z
 
-    .line 2
     iget-object v0, p0, Lio/grpc/internal/ManagedChannelImpl$y$b;->b:Lio/grpc/internal/ManagedChannelImpl$y;
 
     iget-object v0, v0, Lio/grpc/internal/ManagedChannelImpl$y;->k:Lio/grpc/internal/ManagedChannelImpl;
@@ -135,7 +127,6 @@
 
     invoke-virtual {v0, p1}, Lio/grpc/InternalChannelz;->C(Lio/grpc/i0;)V
 
-    .line 3
     iget-object p1, p0, Lio/grpc/internal/ManagedChannelImpl$y$b;->b:Lio/grpc/internal/ManagedChannelImpl$y;
 
     iget-object p1, p1, Lio/grpc/internal/ManagedChannelImpl$y;->k:Lio/grpc/internal/ManagedChannelImpl;

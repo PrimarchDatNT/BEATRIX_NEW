@@ -12,7 +12,6 @@
 
     const-string v0, "com.google.android.gms.ads.internal.formats.client.IUnconfirmedClickListener"
 
-    .line 1
     invoke-direct {p0, v0}, Lcom/google/android/gms/internal/ads/l82;-><init>(Ljava/lang/String;)V
 
     return-void
@@ -40,22 +39,18 @@
 
     return p1
 
-    .line 1
     :cond_0
     invoke-interface {p0}, Lcom/google/android/gms/internal/ads/q4;->c1()V
 
     goto :goto_0
 
-    .line 2
     :cond_1
     invoke-virtual {p2}, Landroid/os/Parcel;->readString()Ljava/lang/String;
 
     move-result-object p1
 
-    .line 3
     invoke-interface {p0, p1}, Lcom/google/android/gms/internal/ads/q4;->y0(Ljava/lang/String;)V
 
-    .line 4
     :goto_0
     invoke-virtual {p3}, Landroid/os/Parcel;->writeNoException()V
 

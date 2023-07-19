@@ -21,7 +21,6 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
@@ -30,7 +29,6 @@
 
     const/4 v0, 0x0
 
-    .line 2
     sput-object v0, Lcom/meitu/webview/mtscript/l;->b:Lf/k/o0/c/b;
 
     return-void
@@ -39,7 +37,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -56,7 +53,6 @@
         }
     .end annotation
 
-    .line 1
     sget-object v0, Lcom/meitu/webview/mtscript/l;->a:Ljava/util/ArrayList;
 
     return-object v0
@@ -67,14 +63,12 @@
 
     if-eqz p0, :cond_0
 
-    .line 1
     sget-object v0, Lcom/meitu/webview/mtscript/l;->a:Ljava/util/ArrayList;
 
     invoke-virtual {v0, p0}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
     return-void
 
-    .line 2
     :cond_0
     new-instance p0, Ljava/lang/IllegalArgumentException;
 
@@ -88,7 +82,6 @@
 .method public static f(Lf/k/o0/c/b;)V
     .locals 0
 
-    .line 1
     sput-object p0, Lcom/meitu/webview/mtscript/l;->b:Lf/k/o0/c/b;
 
     return-void
@@ -99,7 +92,6 @@
 
     if-eqz p0, :cond_0
 
-    .line 1
     sget-object v0, Lcom/meitu/webview/mtscript/l;->a:Ljava/util/ArrayList;
 
     invoke-virtual {v0, p0}, Ljava/util/ArrayList;->remove(Ljava/lang/Object;)Z
@@ -111,7 +103,6 @@
 
     const-string v0, "Do not call unregister script with null object!"
 
-    .line 2
     invoke-static {p0, v0}, Lcom/meitu/webview/utils/g;->b(Ljava/lang/String;Ljava/lang/String;)V
 
     :goto_0
@@ -126,7 +117,6 @@
 .method protected b()Lf/k/o0/c/b;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/meitu/webview/mtscript/l;->b:Lf/k/o0/c/b;
 
     return-object v0

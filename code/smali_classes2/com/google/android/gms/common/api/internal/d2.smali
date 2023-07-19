@@ -10,7 +10,6 @@
 .method static constructor <clinit>()V
     .locals 9
 
-    .line 1
     new-instance v8, Ljava/util/concurrent/ThreadPoolExecutor;
 
     sget-object v5, Ljava/util/concurrent/TimeUnit;->SECONDS:Ljava/util/concurrent/TimeUnit;
@@ -43,7 +42,6 @@
 .method public static a()Ljava/util/concurrent/ExecutorService;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/google/android/gms/common/api/internal/d2;->a:Ljava/util/concurrent/ExecutorService;
 
     return-object v0

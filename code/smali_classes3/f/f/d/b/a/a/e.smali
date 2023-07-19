@@ -31,16 +31,12 @@
 .method private constructor <init>(ZIJ)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-boolean p1, p0, Lf/f/d/b/a/a/e;->a:Z
 
-    .line 3
     iput p2, p0, Lf/f/d/b/a/a/e;->b:I
 
-    .line 4
     iput-wide p3, p0, Lf/f/d/b/a/a/e;->c:J
 
     return-void
@@ -69,7 +65,6 @@
 
     goto :goto_0
 
-    .line 1
     :cond_0
     new-instance p0, Ljava/lang/IllegalArgumentException;
 
@@ -79,7 +74,6 @@
 
     throw p0
 
-    .line 2
     :cond_1
     :goto_0
     new-instance v0, Lf/f/d/b/a/a/e;
@@ -100,7 +94,6 @@
 .method public static f(D)Lf/f/d/b/a/a/e;
     .locals 11
 
-    .line 1
     invoke-static {p0, p1}, Ljava/lang/Double;->doubleToLongBits(D)J
 
     move-result-wide v0
@@ -157,14 +150,12 @@
 
     const/high16 p0, -0x80000000
 
-    .line 2
     invoke-static {v2, p0, v9, v10}, Lf/f/d/b/a/a/e;->c(ZIJ)Lf/f/d/b/a/a/e;
 
     move-result-object p0
 
     return-object p0
 
-    .line 3
     :cond_1
     invoke-static {v0, v1}, Ljava/lang/Long;->numberOfLeadingZeros(J)I
 
@@ -199,14 +190,12 @@
 
     if-eqz p0, :cond_3
 
-    .line 4
     invoke-static {v3, p1, v9, v10}, Lf/f/d/b/a/a/e;->c(ZIJ)Lf/f/d/b/a/a/e;
 
     move-result-object p0
 
     goto :goto_1
 
-    .line 5
     :cond_3
     invoke-static {v2, p1, v9, v10}, Lf/f/d/b/a/a/e;->c(ZIJ)Lf/f/d/b/a/a/e;
 
@@ -214,7 +203,6 @@
 
     goto :goto_1
 
-    .line 6
     :cond_4
     invoke-static {v3, p1, v6, v7}, Lf/f/d/b/a/a/e;->c(ZIJ)Lf/f/d/b/a/a/e;
 
@@ -226,7 +214,6 @@
     :cond_5
     shl-long/2addr v0, v8
 
-    .line 7
     :goto_2
     invoke-static {p0, p1, v0, v1}, Lf/f/d/b/a/a/e;->c(ZIJ)Lf/f/d/b/a/a/e;
 
@@ -248,7 +235,6 @@
 
     const/high16 p0, -0x80000000
 
-    .line 1
     invoke-static {v0, p0, v1, v2}, Lf/f/d/b/a/a/e;->c(ZIJ)Lf/f/d/b/a/a/e;
 
     move-result-object p0
@@ -264,7 +250,6 @@
 
     const/4 v0, 0x1
 
-    .line 2
     :cond_1
     invoke-static {p0, p1}, Ljava/lang/Long;->numberOfLeadingZeros(J)I
 
@@ -284,7 +269,6 @@
 
     shl-long/2addr p0, v2
 
-    .line 3
     invoke-static {v0, v3, p0, p1}, Lf/f/d/b/a/a/e;->c(ZIJ)Lf/f/d/b/a/a/e;
 
     move-result-object p0
@@ -295,7 +279,6 @@
 .method private k()Ljava/lang/String;
     .locals 7
 
-    .line 1
     invoke-virtual {p0}, Lf/f/d/b/a/a/e;->j()Z
 
     move-result v0
@@ -306,7 +289,6 @@
 
     return-object v1
 
-    .line 2
     :cond_0
     invoke-virtual {p0}, Lf/f/d/b/a/a/e;->h()Z
 
@@ -316,7 +298,6 @@
 
     if-eqz v0, :cond_1
 
-    .line 3
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -335,7 +316,6 @@
 
     return-object v0
 
-    .line 4
     :cond_1
     invoke-virtual {p0}, Lf/f/d/b/a/a/e;->i()Z
 
@@ -343,7 +323,6 @@
 
     if-eqz v0, :cond_2
 
-    .line 5
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -362,7 +341,6 @@
 
     return-object v0
 
-    .line 6
     :cond_2
     invoke-virtual {p0}, Lf/f/d/b/a/a/e;->e()I
 
@@ -372,7 +350,6 @@
 
     if-ne v0, v3, :cond_5
 
-    .line 7
     invoke-virtual {p0}, Lf/f/d/b/a/a/e;->p()J
 
     move-result-wide v3
@@ -394,7 +371,6 @@
     :cond_3
     return-object v1
 
-    .line 8
     :cond_4
     :goto_0
     new-instance v0, Ljava/lang/StringBuilder;
@@ -415,7 +391,6 @@
 
     return-object v0
 
-    .line 9
     :cond_5
     invoke-virtual {p0}, Lf/f/d/b/a/a/e;->e()I
 
@@ -431,7 +406,6 @@
 
     goto :goto_1
 
-    .line 10
     :cond_6
     invoke-virtual {p0}, Lf/f/d/b/a/a/e;->p()J
 
@@ -441,7 +415,6 @@
 
     move-result v0
 
-    .line 11
     invoke-virtual {p0}, Lf/f/d/b/a/a/e;->e()I
 
     move-result v3
@@ -450,7 +423,6 @@
 
     if-ge v3, v0, :cond_7
 
-    .line 12
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -472,7 +444,6 @@
     :cond_7
     return-object v1
 
-    .line 13
     :cond_8
     :goto_1
     new-instance v0, Ljava/lang/StringBuilder;
@@ -509,14 +480,12 @@
 .method public a()D
     .locals 10
 
-    .line 1
     invoke-static {}, Lf/f/d/b/a/a/e;->d()Ljava/lang/String;
 
     move-result-object v0
 
     if-nez v0, :cond_6
 
-    .line 2
     invoke-virtual {p0}, Lf/f/d/b/a/a/e;->j()Z
 
     move-result v0
@@ -527,7 +496,6 @@
 
     return-wide v0
 
-    .line 3
     :cond_0
     invoke-virtual {p0}, Lf/f/d/b/a/a/e;->h()Z
 
@@ -535,7 +503,6 @@
 
     if-eqz v0, :cond_2
 
-    .line 4
     invoke-virtual {p0}, Lf/f/d/b/a/a/e;->m()Z
 
     move-result v0
@@ -552,7 +519,6 @@
     :goto_0
     return-wide v0
 
-    .line 5
     :cond_2
     invoke-virtual {p0}, Lf/f/d/b/a/a/e;->i()Z
 
@@ -564,7 +530,6 @@
 
     return-wide v0
 
-    .line 6
     :cond_3
     invoke-virtual {p0}, Lf/f/d/b/a/a/e;->e()I
 
@@ -572,7 +537,6 @@
 
     int-to-long v0, v0
 
-    .line 7
     invoke-virtual {p0}, Lf/f/d/b/a/a/e;->p()J
 
     move-result-wide v2
@@ -597,7 +561,6 @@
 
     goto :goto_1
 
-    .line 8
     :cond_4
     invoke-virtual {p0}, Lf/f/d/b/a/a/e;->e()I
 
@@ -622,7 +585,6 @@
 
     or-long/2addr v0, v2
 
-    .line 9
     invoke-virtual {p0}, Lf/f/d/b/a/a/e;->m()Z
 
     move-result v2
@@ -634,14 +596,12 @@
     :cond_5
     or-long/2addr v0, v6
 
-    .line 10
     invoke-static {v0, v1}, Ljava/lang/Double;->longBitsToDouble(J)D
 
     move-result-wide v0
 
     return-wide v0
 
-    .line 11
     :cond_6
     new-instance v1, Ljava/lang/IllegalArgumentException;
 
@@ -653,14 +613,12 @@
 .method public b()J
     .locals 5
 
-    .line 1
     invoke-direct {p0}, Lf/f/d/b/a/a/e;->k()Ljava/lang/String;
 
     move-result-object v0
 
     if-nez v0, :cond_3
 
-    .line 2
     invoke-virtual {p0}, Lf/f/d/b/a/a/e;->j()Z
 
     move-result v0
@@ -671,7 +629,6 @@
 
     return-wide v0
 
-    .line 3
     :cond_0
     invoke-virtual {p0}, Lf/f/d/b/a/a/e;->e()I
 
@@ -685,13 +642,11 @@
 
     return-wide v0
 
-    .line 4
     :cond_1
     invoke-virtual {p0}, Lf/f/d/b/a/a/e;->p()J
 
     move-result-wide v2
 
-    .line 5
     invoke-virtual {p0}, Lf/f/d/b/a/a/e;->e()I
 
     move-result v0
@@ -704,7 +659,6 @@
 
     const-wide/16 v2, 0x1
 
-    .line 6
     invoke-virtual {p0}, Lf/f/d/b/a/a/e;->e()I
 
     move-result v4
@@ -713,7 +667,6 @@
 
     xor-long/2addr v0, v2
 
-    .line 7
     invoke-virtual {p0}, Lf/f/d/b/a/a/e;->m()Z
 
     move-result v2
@@ -725,7 +678,6 @@
     :cond_2
     return-wide v0
 
-    .line 8
     :cond_3
     new-instance v1, Ljava/lang/IllegalArgumentException;
 
@@ -737,7 +689,6 @@
 .method public e()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lf/f/d/b/a/a/e;->b:I
 
     return v0
@@ -752,7 +703,6 @@
 
     return v0
 
-    .line 1
     :cond_0
     instance-of v1, p1, Lf/f/d/b/a/a/e;
 
@@ -762,11 +712,9 @@
 
     return v2
 
-    .line 2
     :cond_1
     check-cast p1, Lf/f/d/b/a/a/e;
 
-    .line 3
     iget-boolean v1, p0, Lf/f/d/b/a/a/e;->a:Z
 
     iget-boolean v3, p1, Lf/f/d/b/a/a/e;->a:Z
@@ -799,7 +747,6 @@
 .method public h()Z
     .locals 5
 
-    .line 1
     invoke-virtual {p0}, Lf/f/d/b/a/a/e;->e()I
 
     move-result v0
@@ -832,19 +779,16 @@
 .method public hashCode()I
     .locals 5
 
-    .line 1
     iget-boolean v0, p0, Lf/f/d/b/a/a/e;->a:Z
 
     mul-int/lit8 v0, v0, 0x1f
 
-    .line 2
     iget v1, p0, Lf/f/d/b/a/a/e;->b:I
 
     add-int/2addr v0, v1
 
     mul-int/lit8 v0, v0, 0x1f
 
-    .line 3
     iget-wide v1, p0, Lf/f/d/b/a/a/e;->c:J
 
     const/16 v3, 0x20
@@ -863,7 +807,6 @@
 .method public i()Z
     .locals 5
 
-    .line 1
     invoke-virtual {p0}, Lf/f/d/b/a/a/e;->e()I
 
     move-result v0
@@ -896,7 +839,6 @@
 .method public j()Z
     .locals 5
 
-    .line 1
     invoke-virtual {p0}, Lf/f/d/b/a/a/e;->e()I
 
     move-result v0
@@ -929,7 +871,6 @@
 .method public l()Lf/f/d/b/a/a/e;
     .locals 4
 
-    .line 1
     invoke-virtual {p0}, Lf/f/d/b/a/a/e;->j()Z
 
     move-result v0
@@ -944,7 +885,6 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     invoke-virtual {p0}, Lf/f/d/b/a/a/e;->m()Z
 
@@ -974,7 +914,6 @@
 .method public m()Z
     .locals 1
 
-    .line 1
     iget-boolean v0, p0, Lf/f/d/b/a/a/e;->a:Z
 
     return v0
@@ -983,7 +922,6 @@
 .method public n()Z
     .locals 1
 
-    .line 1
     invoke-static {}, Lf/f/d/b/a/a/e;->d()Ljava/lang/String;
 
     move-result-object v0
@@ -1004,7 +942,6 @@
 .method public o()Z
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Lf/f/d/b/a/a/e;->k()Ljava/lang/String;
 
     move-result-object v0
@@ -1025,7 +962,6 @@
 .method public p()J
     .locals 2
 
-    .line 1
     iget-wide v0, p0, Lf/f/d/b/a/a/e;->c:J
 
     return-wide v0

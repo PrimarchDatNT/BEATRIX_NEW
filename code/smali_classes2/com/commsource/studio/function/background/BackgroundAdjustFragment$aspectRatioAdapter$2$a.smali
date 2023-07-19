@@ -54,7 +54,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p2, Lcom/commsource/easyeditor/entity/CropEnum;
 
     invoke-virtual {p0, p1, p2}, Lcom/commsource/studio/function/background/BackgroundAdjustFragment$aspectRatioAdapter$2$a;->b(ILcom/commsource/easyeditor/entity/CropEnum;)Z
@@ -73,7 +72,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/function/background/BackgroundAdjustFragment$aspectRatioAdapter$2$a;->a:Lcom/commsource/studio/function/background/BackgroundAdjustFragment$aspectRatioAdapter$2;
 
     iget-object v1, v1, Lcom/commsource/studio/function/background/BackgroundAdjustFragment$aspectRatioAdapter$2;->this$0:Lcom/commsource/studio/function/background/BackgroundAdjustFragment;
@@ -86,7 +84,6 @@
 
     invoke-virtual {v1, p1}, Landroidx/recyclerview/widget/RecyclerView;->smoothScrollToPosition(I)V
 
-    .line 2
     iget-object p1, p0, Lcom/commsource/studio/function/background/BackgroundAdjustFragment$aspectRatioAdapter$2$a;->a:Lcom/commsource/studio/function/background/BackgroundAdjustFragment$aspectRatioAdapter$2;
 
     iget-object p1, p1, Lcom/commsource/studio/function/background/BackgroundAdjustFragment$aspectRatioAdapter$2;->this$0:Lcom/commsource/studio/function/background/BackgroundAdjustFragment;
@@ -101,7 +98,6 @@
 
     invoke-virtual {p1, p2}, Lcom/commsource/studio/function/background/BackgroundViewModel;->W(Lcom/commsource/easyeditor/entity/CropEnum;)V
 
-    .line 3
     iget-object p1, p0, Lcom/commsource/studio/function/background/BackgroundAdjustFragment$aspectRatioAdapter$2$a;->a:Lcom/commsource/studio/function/background/BackgroundAdjustFragment$aspectRatioAdapter$2;
 
     iget-object p1, p1, Lcom/commsource/studio/function/background/BackgroundAdjustFragment$aspectRatioAdapter$2;->this$0:Lcom/commsource/studio/function/background/BackgroundAdjustFragment;
@@ -118,7 +114,6 @@
 
     invoke-virtual {p1, p2}, Landroidx/lifecycle/MutableLiveData;->setValue(Ljava/lang/Object;)V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const/4 p1, 0x0

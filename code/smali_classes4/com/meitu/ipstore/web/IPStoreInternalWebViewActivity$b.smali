@@ -22,7 +22,6 @@
 .method constructor <init>(Lcom/meitu/ipstore/web/IPStoreInternalWebViewActivity;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/ipstore/web/IPStoreInternalWebViewActivity$b;->a:Lcom/meitu/ipstore/web/IPStoreInternalWebViewActivity;
 
     invoke-direct {p0}, Lf/k/o0/c/d;-><init>()V
@@ -39,10 +38,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0, p1, p2, p3}, Lf/k/o0/c/d;->a(Landroid/webkit/WebView;Ljava/lang/String;Landroid/graphics/Bitmap;)V
 
-    .line 2
     iget-object p1, p0, Lcom/meitu/ipstore/web/IPStoreInternalWebViewActivity$b;->a:Lcom/meitu/ipstore/web/IPStoreInternalWebViewActivity;
 
     invoke-static {p1}, Lcom/meitu/ipstore/web/IPStoreInternalWebViewActivity;->m0(Lcom/meitu/ipstore/web/IPStoreInternalWebViewActivity;)Landroid/widget/FrameLayout;
@@ -53,7 +50,6 @@
 
     invoke-virtual {p1, p2}, Landroid/widget/FrameLayout;->setVisibility(I)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -66,10 +62,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0, p1, p2, p3, p4}, Lf/k/o0/c/d;->b(Landroid/webkit/WebView;ILjava/lang/String;Ljava/lang/String;)V
 
-    .line 2
     iget-object p1, p0, Lcom/meitu/ipstore/web/IPStoreInternalWebViewActivity$b;->a:Lcom/meitu/ipstore/web/IPStoreInternalWebViewActivity;
 
     invoke-static {p1}, Lcom/meitu/ipstore/web/IPStoreInternalWebViewActivity;->m0(Lcom/meitu/ipstore/web/IPStoreInternalWebViewActivity;)Landroid/widget/FrameLayout;
@@ -80,7 +74,6 @@
 
     invoke-virtual {p1, v1}, Landroid/widget/FrameLayout;->setVisibility(I)V
 
-    .line 3
     invoke-static {}, Lcom/meitu/ipstore/web/IPStoreInternalWebViewActivity;->n0()Ljava/lang/String;
 
     move-result-object p1
@@ -113,7 +106,6 @@
 
     invoke-static {p1, p2}, Lf/k/m/j/e;->d(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 4
     iget-object p1, p0, Lcom/meitu/ipstore/web/IPStoreInternalWebViewActivity$b;->a:Lcom/meitu/ipstore/web/IPStoreInternalWebViewActivity;
 
     invoke-virtual {p1}, Landroid/app/Activity;->getIntent()Landroid/content/Intent;
@@ -132,7 +124,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 5
     iget-object p1, p0, Lcom/meitu/ipstore/web/IPStoreInternalWebViewActivity$b;->a:Lcom/meitu/ipstore/web/IPStoreInternalWebViewActivity;
 
     sget p2, Lf/k/m/e$g;->Q:I
@@ -145,7 +136,6 @@
 
     invoke-virtual {p1, p2}, Landroid/view/View;->setVisibility(I)V
 
-    .line 6
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -159,10 +149,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0, p1, p2}, Lf/k/o0/c/d;->c(Landroid/webkit/WebView;Ljava/lang/String;)V
 
-    .line 2
     iget-object p1, p0, Lcom/meitu/ipstore/web/IPStoreInternalWebViewActivity$b;->a:Lcom/meitu/ipstore/web/IPStoreInternalWebViewActivity;
 
     invoke-static {p1}, Lcom/meitu/ipstore/web/IPStoreInternalWebViewActivity;->m0(Lcom/meitu/ipstore/web/IPStoreInternalWebViewActivity;)Landroid/widget/FrameLayout;
@@ -173,7 +161,6 @@
 
     invoke-virtual {p1, p2}, Landroid/widget/FrameLayout;->setVisibility(I)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -186,7 +173,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0, p1}, Lf/k/o0/c/d;->e(Lcom/meitu/webview/core/CommonWebView;)Z
 
     move-result p1
@@ -203,7 +189,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/ipstore/web/IPStoreInternalWebViewActivity$b;->a:Lcom/meitu/ipstore/web/IPStoreInternalWebViewActivity;
 
     invoke-static {v1, p1, p2}, Lcom/meitu/ipstore/web/scripts/a;->a(Landroid/app/Activity;Lcom/meitu/webview/core/CommonWebView;Landroid/net/Uri;)Z
@@ -214,12 +199,10 @@
 
     const/4 p1, 0x1
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
 
-    .line 3
     :cond_0
     invoke-super {p0, p1, p2}, Lf/k/o0/c/d;->f(Lcom/meitu/webview/core/CommonWebView;Landroid/net/Uri;)Z
 

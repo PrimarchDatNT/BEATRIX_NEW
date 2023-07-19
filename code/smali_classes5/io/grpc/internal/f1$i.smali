@@ -27,7 +27,6 @@
 .method constructor <init>(Lio/grpc/internal/f1;Lio/grpc/Status;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lio/grpc/internal/f1$i;->b:Lio/grpc/internal/f1;
 
     iput-object p2, p0, Lio/grpc/internal/f1$i;->a:Lio/grpc/Status;
@@ -42,19 +41,16 @@
 .method public run()V
     .locals 3
 
-    .line 1
     new-instance v0, Ljava/util/ArrayList;
 
     iget-object v1, p0, Lio/grpc/internal/f1$i;->b:Lio/grpc/internal/f1;
 
-    .line 2
     invoke-static {v1}, Lio/grpc/internal/f1;->x(Lio/grpc/internal/f1;)Ljava/util/Collection;
 
     move-result-object v1
 
     invoke-direct {v0, v1}, Ljava/util/ArrayList;-><init>(Ljava/util/Collection;)V
 
-    .line 3
     invoke-interface {v0}, Ljava/util/Collection;->iterator()Ljava/util/Iterator;
 
     move-result-object v0
@@ -72,7 +68,6 @@
 
     check-cast v1, Lio/grpc/internal/o1;
 
-    .line 4
     iget-object v2, p0, Lio/grpc/internal/f1$i;->a:Lio/grpc/Status;
 
     invoke-interface {v1, v2}, Lio/grpc/internal/o1;->a(Lio/grpc/Status;)V

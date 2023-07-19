@@ -22,7 +22,6 @@
 .method constructor <init>(Lcom/google/android/gms/internal/ads/eh2;IIIF)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/android/gms/internal/ads/lh2;->f:Lcom/google/android/gms/internal/ads/eh2;
 
     iput p2, p0, Lcom/google/android/gms/internal/ads/lh2;->a:I
@@ -43,7 +42,6 @@
 .method public final run()V
     .locals 5
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/lh2;->f:Lcom/google/android/gms/internal/ads/eh2;
 
     invoke-static {v0}, Lcom/google/android/gms/internal/ads/eh2;->a(Lcom/google/android/gms/internal/ads/eh2;)Lcom/google/android/gms/internal/ads/fh2;

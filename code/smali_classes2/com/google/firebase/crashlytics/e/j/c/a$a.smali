@@ -22,7 +22,6 @@
 .method static constructor <clinit>()V
     .locals 3
 
-    .line 1
     invoke-static {}, Lcom/google/firebase/crashlytics/internal/report/model/Report$Type;->values()[Lcom/google/firebase/crashlytics/internal/report/model/Report$Type;
 
     move-result-object v0

@@ -17,7 +17,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/meitu/library/d/a/a$a;-><init>()V
 
     return-void
@@ -34,7 +33,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/e;->a:Lcom/commsource/camera/xcamera/i;
 
     if-nez v1, :cond_0
@@ -78,7 +76,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     invoke-interface {p1}, Lcom/meitu/library/d/a/a$c;->a()Ljava/lang/String;
 
     move-result-object v1
@@ -99,12 +96,10 @@
 
     const/4 p1, 0x1
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
 
-    .line 3
     :cond_1
     invoke-super {p0, p1}, Lcom/meitu/library/d/a/a$a;->b(Lcom/meitu/library/d/a/a$c;)I
 
@@ -132,20 +127,16 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     sget-object v1, Lcom/meitu/library/camera/MTCamera$d;->a:Lcom/meitu/library/camera/MTCamera$c;
 
     iput-object v1, p1, Lcom/meitu/library/camera/MTCamera$r;->i:Lcom/meitu/library/camera/MTCamera$c;
 
     const/4 v1, 0x0
 
-    .line 2
     iput v1, p1, Lcom/meitu/library/camera/MTCamera$r;->d:I
 
-    .line 3
     iput v1, p1, Lcom/meitu/library/camera/MTCamera$r;->h:I
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p1
@@ -160,7 +151,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/e;->a:Lcom/commsource/camera/xcamera/i;
 
     if-nez v1, :cond_0
@@ -190,7 +180,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/camera/xcamera/e;->a:Lcom/commsource/camera/xcamera/i;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

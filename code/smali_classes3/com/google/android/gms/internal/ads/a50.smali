@@ -18,7 +18,6 @@
 .method public static b(Ljava/nio/ByteBuffer;)J
     .locals 4
 
-    .line 1
     invoke-virtual {p0}, Ljava/nio/ByteBuffer;->getInt()I
 
     move-result p0
@@ -42,7 +41,6 @@
 .method public static c(Ljava/nio/ByteBuffer;)I
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Ljava/nio/ByteBuffer;->get()B
 
     move-result v0
@@ -55,7 +53,6 @@
 
     add-int/lit8 v0, v0, 0x0
 
-    .line 2
     invoke-virtual {p0}, Ljava/nio/ByteBuffer;->get()B
 
     move-result p0
@@ -72,7 +69,6 @@
 .method public static d(Ljava/nio/ByteBuffer;)J
     .locals 5
 
-    .line 1
     invoke-static {p0}, Lcom/google/android/gms/internal/ads/a50;->b(Ljava/nio/ByteBuffer;)J
 
     move-result-wide v0
@@ -89,7 +85,6 @@
 
     if-ltz v4, :cond_0
 
-    .line 2
     invoke-static {p0}, Lcom/google/android/gms/internal/ads/a50;->b(Ljava/nio/ByteBuffer;)J
 
     move-result-wide v2
@@ -98,7 +93,6 @@
 
     return-wide v0
 
-    .line 3
     :cond_0
     new-instance p0, Ljava/lang/RuntimeException;
 
@@ -116,12 +110,10 @@
 
     new-array v0, v0, [B
 
-    .line 1
     invoke-virtual {p0, v0}, Ljava/nio/ByteBuffer;->get([B)Ljava/nio/ByteBuffer;
 
     const/4 p0, 0x0
 
-    .line 2
     aget-byte v1, v0, p0
 
     shl-int/lit8 v1, v1, 0x18
@@ -134,7 +126,6 @@
 
     const/4 v1, 0x1
 
-    .line 3
     aget-byte v1, v0, v1
 
     shl-int/lit8 v1, v1, 0x10
@@ -147,7 +138,6 @@
 
     const/4 v1, 0x2
 
-    .line 4
     aget-byte v1, v0, v1
 
     shl-int/lit8 v1, v1, 0x8
@@ -160,7 +150,6 @@
 
     const/4 v1, 0x3
 
-    .line 5
     aget-byte v0, v0, v1
 
     and-int/lit16 v0, v0, 0xff
@@ -183,12 +172,10 @@
 
     new-array v0, v0, [B
 
-    .line 1
     invoke-virtual {p0, v0}, Ljava/nio/ByteBuffer;->get([B)Ljava/nio/ByteBuffer;
 
     const/4 p0, 0x0
 
-    .line 2
     aget-byte v1, v0, p0
 
     shl-int/lit8 v1, v1, 0x18
@@ -201,7 +188,6 @@
 
     const/4 v1, 0x1
 
-    .line 3
     aget-byte v1, v0, v1
 
     shl-int/lit8 v1, v1, 0x10
@@ -214,7 +200,6 @@
 
     const/4 v1, 0x2
 
-    .line 4
     aget-byte v1, v0, v1
 
     shl-int/lit8 v1, v1, 0x8
@@ -227,7 +212,6 @@
 
     const/4 v1, 0x3
 
-    .line 5
     aget-byte v0, v0, v1
 
     and-int/lit16 v0, v0, 0xff
@@ -250,10 +234,8 @@
 
     new-array v0, v0, [B
 
-    .line 1
     invoke-virtual {p0, v0}, Ljava/nio/ByteBuffer;->get([B)Ljava/nio/ByteBuffer;
 
-    .line 2
     :try_start_0
     new-instance p0, Ljava/lang/String;
 
@@ -268,7 +250,6 @@
     :catch_0
     move-exception p0
 
-    .line 3
     new-instance v0, Ljava/lang/RuntimeException;
 
     invoke-direct {v0, p0}, Ljava/lang/RuntimeException;-><init>(Ljava/lang/Throwable;)V

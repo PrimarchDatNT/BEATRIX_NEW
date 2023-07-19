@@ -146,7 +146,6 @@
 
     move-result-object v0
 
-    .line 1
     iget v1, p0, Lcotlinx/coroutines/flow/FlowKt__ZipKt$combine$$inlined$unsafeFlow$1$lambda$1;->label:I
 
     const/4 v2, 0x2
@@ -167,7 +166,6 @@
 
     goto :goto_1
 
-    .line 2
     :cond_0
     new-instance p1, Ljava/lang/IllegalStateException;
 
@@ -177,7 +175,6 @@
 
     throw p1
 
-    .line 3
     :cond_1
     iget-object v1, p0, Lcotlinx/coroutines/flow/FlowKt__ZipKt$combine$$inlined$unsafeFlow$1$lambda$1;->L$3:Ljava/lang/Object;
 
@@ -204,7 +201,6 @@
 
     iget-object p1, p0, Lcotlinx/coroutines/flow/FlowKt__ZipKt$combine$$inlined$unsafeFlow$1$lambda$1;->p$1:Ljava/lang/Object;
 
-    .line 4
     iget-object v5, p0, Lcotlinx/coroutines/flow/FlowKt__ZipKt$combine$$inlined$unsafeFlow$1$lambda$1;->this$0:Lcotlinx/coroutines/flow/FlowKt__ZipKt$combine$$inlined$unsafeFlow$1;
 
     iget-object v5, v5, Lcotlinx/coroutines/flow/FlowKt__ZipKt$combine$$inlined$unsafeFlow$1;->c:Lcotlin/jvm/u/q;
@@ -253,7 +249,6 @@
 
     return-object v0
 
-    .line 5
     :cond_4
     :goto_1
     sget-object p1, Lcotlin/t1;->a:Lcotlin/t1;

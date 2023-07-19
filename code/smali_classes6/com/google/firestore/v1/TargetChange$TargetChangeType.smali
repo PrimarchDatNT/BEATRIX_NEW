@@ -70,7 +70,6 @@
 .method static constructor <clinit>()V
     .locals 14
 
-    .line 1
     new-instance v0, Lcom/google/firestore/v1/TargetChange$TargetChangeType;
 
     const-string v1, "NO_CHANGE"
@@ -81,7 +80,6 @@
 
     sput-object v0, Lcom/google/firestore/v1/TargetChange$TargetChangeType;->NO_CHANGE:Lcom/google/firestore/v1/TargetChange$TargetChangeType;
 
-    .line 2
     new-instance v1, Lcom/google/firestore/v1/TargetChange$TargetChangeType;
 
     const-string v3, "ADD"
@@ -92,7 +90,6 @@
 
     sput-object v1, Lcom/google/firestore/v1/TargetChange$TargetChangeType;->ADD:Lcom/google/firestore/v1/TargetChange$TargetChangeType;
 
-    .line 3
     new-instance v3, Lcom/google/firestore/v1/TargetChange$TargetChangeType;
 
     const-string v5, "REMOVE"
@@ -103,7 +100,6 @@
 
     sput-object v3, Lcom/google/firestore/v1/TargetChange$TargetChangeType;->REMOVE:Lcom/google/firestore/v1/TargetChange$TargetChangeType;
 
-    .line 4
     new-instance v5, Lcom/google/firestore/v1/TargetChange$TargetChangeType;
 
     const-string v7, "CURRENT"
@@ -114,7 +110,6 @@
 
     sput-object v5, Lcom/google/firestore/v1/TargetChange$TargetChangeType;->CURRENT:Lcom/google/firestore/v1/TargetChange$TargetChangeType;
 
-    .line 5
     new-instance v7, Lcom/google/firestore/v1/TargetChange$TargetChangeType;
 
     const-string v9, "RESET"
@@ -125,7 +120,6 @@
 
     sput-object v7, Lcom/google/firestore/v1/TargetChange$TargetChangeType;->RESET:Lcom/google/firestore/v1/TargetChange$TargetChangeType;
 
-    .line 6
     new-instance v9, Lcom/google/firestore/v1/TargetChange$TargetChangeType;
 
     const-string v11, "UNRECOGNIZED"
@@ -154,10 +148,8 @@
 
     aput-object v9, v11, v12
 
-    .line 7
     sput-object v11, Lcom/google/firestore/v1/TargetChange$TargetChangeType;->$VALUES:[Lcom/google/firestore/v1/TargetChange$TargetChangeType;
 
-    .line 8
     new-instance v0, Lcom/google/firestore/v1/TargetChange$TargetChangeType$a;
 
     invoke-direct {v0}, Lcom/google/firestore/v1/TargetChange$TargetChangeType$a;-><init>()V
@@ -175,10 +167,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 2
     iput p3, p0, Lcom/google/firestore/v1/TargetChange$TargetChangeType;->value:I
 
     return-void
@@ -209,31 +199,26 @@
 
     return-object p0
 
-    .line 1
     :cond_0
     sget-object p0, Lcom/google/firestore/v1/TargetChange$TargetChangeType;->RESET:Lcom/google/firestore/v1/TargetChange$TargetChangeType;
 
     return-object p0
 
-    .line 2
     :cond_1
     sget-object p0, Lcom/google/firestore/v1/TargetChange$TargetChangeType;->CURRENT:Lcom/google/firestore/v1/TargetChange$TargetChangeType;
 
     return-object p0
 
-    .line 3
     :cond_2
     sget-object p0, Lcom/google/firestore/v1/TargetChange$TargetChangeType;->REMOVE:Lcom/google/firestore/v1/TargetChange$TargetChangeType;
 
     return-object p0
 
-    .line 4
     :cond_3
     sget-object p0, Lcom/google/firestore/v1/TargetChange$TargetChangeType;->ADD:Lcom/google/firestore/v1/TargetChange$TargetChangeType;
 
     return-object p0
 
-    .line 5
     :cond_4
     sget-object p0, Lcom/google/firestore/v1/TargetChange$TargetChangeType;->NO_CHANGE:Lcom/google/firestore/v1/TargetChange$TargetChangeType;
 
@@ -251,7 +236,6 @@
         }
     .end annotation
 
-    .line 1
     sget-object v0, Lcom/google/firestore/v1/TargetChange$TargetChangeType;->internalValueMap:Lcom/google/protobuf/z0$d;
 
     return-object v0
@@ -262,7 +246,6 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    .line 2
     invoke-static {p0}, Lcom/google/firestore/v1/TargetChange$TargetChangeType;->forNumber(I)Lcom/google/firestore/v1/TargetChange$TargetChangeType;
 
     move-result-object p0
@@ -273,7 +256,6 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/google/firestore/v1/TargetChange$TargetChangeType;
     .locals 1
 
-    .line 1
     const-class v0, Lcom/google/firestore/v1/TargetChange$TargetChangeType;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -288,7 +270,6 @@
 .method public static values()[Lcom/google/firestore/v1/TargetChange$TargetChangeType;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/google/firestore/v1/TargetChange$TargetChangeType;->$VALUES:[Lcom/google/firestore/v1/TargetChange$TargetChangeType;
 
     invoke-virtual {v0}, [Lcom/google/firestore/v1/TargetChange$TargetChangeType;->clone()Ljava/lang/Object;
@@ -305,7 +286,6 @@
 .method public final getNumber()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lcom/google/firestore/v1/TargetChange$TargetChangeType;->value:I
 
     return v0

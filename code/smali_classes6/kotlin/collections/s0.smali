@@ -57,7 +57,6 @@
 
     invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     check-cast p0, Lcotlin/collections/o1/d;
 
     invoke-virtual {p0}, Lcotlin/collections/o1/d;->m()Ljava/util/Map;
@@ -100,7 +99,6 @@
         version = "1.3"
     .end annotation
 
-    .line 1
     invoke-static {p0}, Lcotlin/collections/s0;->h(I)Ljava/util/Map;
 
     move-result-object p0
@@ -147,7 +145,6 @@
         version = "1.3"
     .end annotation
 
-    .line 1
     invoke-static {}, Lcotlin/collections/s0;->g()Ljava/util/Map;
 
     move-result-object v0
@@ -188,7 +185,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     new-instance v0, Lcotlin/collections/o1/d;
 
     invoke-direct {v0}, Lcotlin/collections/o1/d;-><init>()V
@@ -223,7 +219,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     new-instance v0, Lcotlin/collections/o1/d;
 
     invoke-direct {v0, p0}, Lcotlin/collections/o1/d;-><init>(I)V
@@ -263,7 +258,6 @@
 
     invoke-static {p2, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-interface {p0, p1}, Ljava/util/concurrent/ConcurrentMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v0
@@ -272,7 +266,6 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     invoke-interface {p2}, Lcotlin/jvm/u/a;->invoke()Ljava/lang/Object;
 
@@ -366,7 +359,6 @@
 
     invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-virtual {p0}, Lcotlin/Pair;->getFirst()Ljava/lang/Object;
 
     move-result-object v0
@@ -427,7 +419,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     new-instance v0, Ljava/util/TreeMap;
 
     invoke-direct {v0, p0}, Ljava/util/TreeMap;-><init>(Ljava/util/Comparator;)V
@@ -464,7 +455,6 @@
 
     invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     new-instance v0, Ljava/util/TreeMap;
 
     invoke-direct {v0}, Ljava/util/TreeMap;-><init>()V
@@ -490,7 +480,6 @@
     .annotation build Lcotlin/internal/f;
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/util/Properties;
 
     invoke-direct {v0}, Ljava/util/Properties;-><init>()V
@@ -527,7 +516,6 @@
 
     invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-interface {p0}, Ljava/util/Map;->entrySet()Ljava/util/Set;
 
     move-result-object p0
@@ -580,7 +568,6 @@
     .annotation build Lcotlin/internal/f;
     .end annotation
 
-    .line 1
     invoke-static {p0}, Lcotlin/collections/s0;->o(Ljava/util/Map;)Ljava/util/Map;
 
     move-result-object p0
@@ -615,7 +602,6 @@
 
     invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     new-instance v0, Ljava/util/TreeMap;
 
     invoke-direct {v0, p0}, Ljava/util/TreeMap;-><init>(Ljava/util/Map;)V
@@ -660,7 +646,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     new-instance v0, Ljava/util/TreeMap;
 
     invoke-direct {v0, p1}, Ljava/util/TreeMap;-><init>(Ljava/util/Comparator;)V

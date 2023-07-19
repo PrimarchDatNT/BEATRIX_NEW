@@ -19,7 +19,6 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-direct {p0, p1}, Landroid/app/Dialog;-><init>(Landroid/content/Context;)V
 
     return-void
@@ -32,7 +31,6 @@
         .end annotation
     .end param
 
-    .line 2
     invoke-direct {p0, p1, p2}, Landroid/app/Dialog;-><init>(Landroid/content/Context;I)V
 
     return-void
@@ -47,7 +45,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/widget/dialog/l0;->c:Landroid/content/DialogInterface$OnCancelListener;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -62,7 +59,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/widget/dialog/l0;->b:Landroid/content/DialogInterface$OnDismissListener;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -77,7 +73,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/widget/dialog/l0;->a:Landroid/content/DialogInterface$OnShowListener;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -96,12 +91,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/widget/dialog/l0;->c:Landroid/content/DialogInterface$OnCancelListener;
 
     if-eqz p1, :cond_0
 
-    .line 2
     new-instance v1, Lcom/commsource/widget/dialog/m0;
 
     invoke-direct {v1, p1}, Lcom/commsource/widget/dialog/m0;-><init>(Landroid/content/DialogInterface$OnCancelListener;)V
@@ -113,10 +106,8 @@
     :cond_0
     const/4 p1, 0x0
 
-    .line 3
     invoke-super {p0, p1}, Landroid/app/Dialog;->setOnCancelListener(Landroid/content/DialogInterface$OnCancelListener;)V
 
-    .line 4
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -134,12 +125,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/widget/dialog/l0;->b:Landroid/content/DialogInterface$OnDismissListener;
 
     if-eqz p1, :cond_0
 
-    .line 2
     new-instance v1, Lcom/commsource/widget/dialog/n0;
 
     invoke-direct {v1, p1}, Lcom/commsource/widget/dialog/n0;-><init>(Landroid/content/DialogInterface$OnDismissListener;)V
@@ -151,10 +140,8 @@
     :cond_0
     const/4 p1, 0x0
 
-    .line 3
     invoke-super {p0, p1}, Landroid/app/Dialog;->setOnDismissListener(Landroid/content/DialogInterface$OnDismissListener;)V
 
-    .line 4
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -172,12 +159,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/widget/dialog/l0;->a:Landroid/content/DialogInterface$OnShowListener;
 
     if-eqz p1, :cond_0
 
-    .line 2
     new-instance v1, Lcom/commsource/widget/dialog/o0;
 
     invoke-direct {v1, p1}, Lcom/commsource/widget/dialog/o0;-><init>(Landroid/content/DialogInterface$OnShowListener;)V
@@ -189,10 +174,8 @@
     :cond_0
     const/4 p1, 0x0
 
-    .line 3
     invoke-super {p0, p1}, Landroid/app/Dialog;->setOnShowListener(Landroid/content/DialogInterface$OnShowListener;)V
 
-    .line 4
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

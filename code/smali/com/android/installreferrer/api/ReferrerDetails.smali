@@ -19,10 +19,8 @@
 .method public constructor <init>(Landroid/os/Bundle;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/android/installreferrer/api/ReferrerDetails;->mOriginalBundle:Landroid/os/Bundle;
 
     return-void
@@ -33,7 +31,6 @@
 .method public getInstallBeginTimestampSeconds()J
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/android/installreferrer/api/ReferrerDetails;->mOriginalBundle:Landroid/os/Bundle;
 
     const-string v1, "install_begin_timestamp_seconds"
@@ -48,7 +45,6 @@
 .method public getInstallReferrer()Ljava/lang/String;
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/android/installreferrer/api/ReferrerDetails;->mOriginalBundle:Landroid/os/Bundle;
 
     const-string v1, "install_referrer"
@@ -63,7 +59,6 @@
 .method public getReferrerClickTimestampSeconds()J
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/android/installreferrer/api/ReferrerDetails;->mOriginalBundle:Landroid/os/Bundle;
 
     const-string v1, "referrer_click_timestamp_seconds"

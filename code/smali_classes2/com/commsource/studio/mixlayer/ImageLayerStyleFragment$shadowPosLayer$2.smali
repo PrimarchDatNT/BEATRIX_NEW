@@ -56,7 +56,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 2
     new-instance v1, Lcom/commsource/studio/mixlayer/ShadowPosLayer;
 
     iget-object v2, p0, Lcom/commsource/studio/mixlayer/ImageLayerStyleFragment$shadowPosLayer$2;->this$0:Lcom/commsource/studio/mixlayer/ImageLayerStyleFragment;
@@ -83,14 +82,12 @@
 
     invoke-direct {v1, v2}, Lcom/commsource/studio/mixlayer/ShadowPosLayer;-><init>(Landroid/content/Context;)V
 
-    .line 3
     new-instance v2, Lcom/commsource/studio/mixlayer/ImageLayerStyleFragment$shadowPosLayer$2$$special$$inlined$apply$lambda$1;
 
     invoke-direct {v2, p0}, Lcom/commsource/studio/mixlayer/ImageLayerStyleFragment$shadowPosLayer$2$$special$$inlined$apply$lambda$1;-><init>(Lcom/commsource/studio/mixlayer/ImageLayerStyleFragment$shadowPosLayer$2;)V
 
     invoke-virtual {v1, v2}, Lcom/commsource/studio/mixlayer/ShadowPosLayer;->M0(Lcotlin/jvm/u/q;)V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
@@ -103,7 +100,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/studio/mixlayer/ImageLayerStyleFragment$shadowPosLayer$2;->invoke()Lcom/commsource/studio/mixlayer/ShadowPosLayer;
 
     move-result-object v1

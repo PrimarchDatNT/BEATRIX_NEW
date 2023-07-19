@@ -24,7 +24,6 @@
 .method constructor <init>(Lf/d/d/o;Ljava/lang/String;Landroid/view/ViewGroup;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lf/d/d/o$a;->p:Lf/d/d/o;
 
     iput-object p3, p0, Lf/d/d/o$a;->g:Landroid/view/ViewGroup;
@@ -43,12 +42,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lf/d/d/o$a;->p:Lf/d/d/o;
 
     iget-object v2, p0, Lf/d/d/o$a;->g:Landroid/view/ViewGroup;
 
-    .line 2
     invoke-virtual {v2}, Landroid/view/ViewGroup;->getContext()Landroid/content/Context;
 
     move-result-object v2
@@ -63,10 +60,8 @@
 
     move-result-object v2
 
-    .line 3
     invoke-static {v1, v2}, Lf/d/d/o;->a(Lf/d/d/o;Lcom/airbnb/lottie/p;)Lcom/airbnb/lottie/p;
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

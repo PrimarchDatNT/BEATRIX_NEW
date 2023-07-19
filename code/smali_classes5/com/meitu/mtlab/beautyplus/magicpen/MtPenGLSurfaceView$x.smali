@@ -63,7 +63,6 @@
 
     move-object v1, p1
 
-    .line 1
     invoke-direct/range {v0 .. v5}, Lcom/meitu/mtlab/beautyplus/magicpen/MtPenGLSurfaceView$x;-><init>(Lcom/meitu/mtlab/beautyplus/magicpen/MtPenGLSurfaceView;FFFF)V
 
     return-void
@@ -72,27 +71,20 @@
 .method public constructor <init>(Lcom/meitu/mtlab/beautyplus/magicpen/MtPenGLSurfaceView;FFFF)V
     .locals 0
 
-    .line 2
     iput-object p1, p0, Lcom/meitu/mtlab/beautyplus/magicpen/MtPenGLSurfaceView$x;->n:Lcom/meitu/mtlab/beautyplus/magicpen/MtPenGLSurfaceView;
 
-    .line 3
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/high16 p1, 0x3f800000    # 1.0f
 
-    .line 4
     iput p1, p0, Lcom/meitu/mtlab/beautyplus/magicpen/MtPenGLSurfaceView$x;->a:F
 
-    .line 5
     iput p2, p0, Lcom/meitu/mtlab/beautyplus/magicpen/MtPenGLSurfaceView$x;->j:F
 
-    .line 6
     iput p3, p0, Lcom/meitu/mtlab/beautyplus/magicpen/MtPenGLSurfaceView$x;->k:F
 
-    .line 7
     iput p4, p0, Lcom/meitu/mtlab/beautyplus/magicpen/MtPenGLSurfaceView$x;->l:F
 
-    .line 8
     iput p5, p0, Lcom/meitu/mtlab/beautyplus/magicpen/MtPenGLSurfaceView$x;->m:F
 
     return-void
@@ -107,7 +99,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/mtlab/beautyplus/magicpen/MtPenGLSurfaceView$x;->n:Lcom/meitu/mtlab/beautyplus/magicpen/MtPenGLSurfaceView;
 
     iget-boolean v1, v1, Lcom/meitu/mtlab/beautyplus/magicpen/MtPenGLSurfaceView;->f:Z
@@ -116,12 +107,10 @@
 
     const/4 p1, 0x0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
 
-    .line 3
     :cond_0
     invoke-virtual {p1}, Landroid/view/ScaleGestureDetector;->getFocusX()F
 
@@ -129,40 +118,34 @@
 
     iput v1, p0, Lcom/meitu/mtlab/beautyplus/magicpen/MtPenGLSurfaceView$x;->f:F
 
-    .line 4
     invoke-virtual {p1}, Landroid/view/ScaleGestureDetector;->getFocusY()F
 
     move-result v1
 
     iput v1, p0, Lcom/meitu/mtlab/beautyplus/magicpen/MtPenGLSurfaceView$x;->g:F
 
-    .line 5
     iget v2, p0, Lcom/meitu/mtlab/beautyplus/magicpen/MtPenGLSurfaceView$x;->f:F
 
     iget v3, p0, Lcom/meitu/mtlab/beautyplus/magicpen/MtPenGLSurfaceView$x;->d:F
 
     sub-float/2addr v2, v3
 
-    .line 6
     iget v3, p0, Lcom/meitu/mtlab/beautyplus/magicpen/MtPenGLSurfaceView$x;->e:F
 
     sub-float/2addr v1, v3
 
-    .line 7
     iget v3, p0, Lcom/meitu/mtlab/beautyplus/magicpen/MtPenGLSurfaceView$x;->h:F
 
     add-float/2addr v3, v2
 
     iput v3, p0, Lcom/meitu/mtlab/beautyplus/magicpen/MtPenGLSurfaceView$x;->h:F
 
-    .line 8
     iget v3, p0, Lcom/meitu/mtlab/beautyplus/magicpen/MtPenGLSurfaceView$x;->i:F
 
     add-float/2addr v3, v1
 
     iput v3, p0, Lcom/meitu/mtlab/beautyplus/magicpen/MtPenGLSurfaceView$x;->i:F
 
-    .line 9
     iget-object v3, p0, Lcom/meitu/mtlab/beautyplus/magicpen/MtPenGLSurfaceView$x;->n:Lcom/meitu/mtlab/beautyplus/magicpen/MtPenGLSurfaceView;
 
     invoke-static {v3}, Lcom/meitu/mtlab/beautyplus/magicpen/MtPenGLSurfaceView;->k(Lcom/meitu/mtlab/beautyplus/magicpen/MtPenGLSurfaceView;)Lcom/meitu/mtlab/beautyplus/magicpen/NativeGLMagicPen;
@@ -173,24 +156,20 @@
 
     invoke-virtual {v3, v2, v1}, Lcom/meitu/mtlab/beautyplus/magicpen/NativeGLMagicPen;->A(FF)Z
 
-    .line 10
     iget v1, p0, Lcom/meitu/mtlab/beautyplus/magicpen/MtPenGLSurfaceView$x;->f:F
 
     iput v1, p0, Lcom/meitu/mtlab/beautyplus/magicpen/MtPenGLSurfaceView$x;->d:F
 
-    .line 11
     iget v1, p0, Lcom/meitu/mtlab/beautyplus/magicpen/MtPenGLSurfaceView$x;->g:F
 
     iput v1, p0, Lcom/meitu/mtlab/beautyplus/magicpen/MtPenGLSurfaceView$x;->e:F
 
-    .line 12
     invoke-virtual {p1}, Landroid/view/ScaleGestureDetector;->getCurrentSpan()F
 
     move-result p1
 
     iput p1, p0, Lcom/meitu/mtlab/beautyplus/magicpen/MtPenGLSurfaceView$x;->c:F
 
-    .line 13
     iget v1, p0, Lcom/meitu/mtlab/beautyplus/magicpen/MtPenGLSurfaceView$x;->b:F
 
     div-float/2addr p1, v1
@@ -209,7 +188,6 @@
 
     if-lez v3, :cond_1
 
-    .line 14
     iget v3, p0, Lcom/meitu/mtlab/beautyplus/magicpen/MtPenGLSurfaceView$x;->a:F
 
     iget v4, p0, Lcom/meitu/mtlab/beautyplus/magicpen/MtPenGLSurfaceView$x;->k:F
@@ -231,13 +209,11 @@
 
     if-gez v1, :cond_3
 
-    .line 15
     :cond_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v2
 
-    .line 16
     :cond_3
     iget v1, p0, Lcom/meitu/mtlab/beautyplus/magicpen/MtPenGLSurfaceView$x;->a:F
 
@@ -245,7 +221,6 @@
 
     iput v1, p0, Lcom/meitu/mtlab/beautyplus/magicpen/MtPenGLSurfaceView$x;->a:F
 
-    .line 17
     :cond_4
     iget-object p1, p0, Lcom/meitu/mtlab/beautyplus/magicpen/MtPenGLSurfaceView$x;->n:Lcom/meitu/mtlab/beautyplus/magicpen/MtPenGLSurfaceView;
 
@@ -271,12 +246,10 @@
 
     invoke-virtual {p1, v1, v3, v4}, Lcom/meitu/mtlab/beautyplus/magicpen/NativeGLMagicPen;->u(FFF)Z
 
-    .line 18
     iget p1, p0, Lcom/meitu/mtlab/beautyplus/magicpen/MtPenGLSurfaceView$x;->c:F
 
     iput p1, p0, Lcom/meitu/mtlab/beautyplus/magicpen/MtPenGLSurfaceView$x;->b:F
 
-    .line 19
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v2
@@ -289,35 +262,30 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p1}, Landroid/view/ScaleGestureDetector;->getCurrentSpan()F
 
     move-result v1
 
     iput v1, p0, Lcom/meitu/mtlab/beautyplus/magicpen/MtPenGLSurfaceView$x;->b:F
 
-    .line 2
     invoke-virtual {p1}, Landroid/view/ScaleGestureDetector;->getCurrentSpan()F
 
     move-result v1
 
     iput v1, p0, Lcom/meitu/mtlab/beautyplus/magicpen/MtPenGLSurfaceView$x;->c:F
 
-    .line 3
     invoke-virtual {p1}, Landroid/view/ScaleGestureDetector;->getFocusX()F
 
     move-result v1
 
     iput v1, p0, Lcom/meitu/mtlab/beautyplus/magicpen/MtPenGLSurfaceView$x;->d:F
 
-    .line 4
     invoke-virtual {p1}, Landroid/view/ScaleGestureDetector;->getFocusY()F
 
     move-result p1
 
     iput p1, p0, Lcom/meitu/mtlab/beautyplus/magicpen/MtPenGLSurfaceView$x;->e:F
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const/4 p1, 0x1
@@ -332,19 +300,16 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcom/meitu/mtlab/beautyplus/magicpen/MtPenGLSurfaceView$x;->n:Lcom/meitu/mtlab/beautyplus/magicpen/MtPenGLSurfaceView;
 
     iget-boolean v1, v0, Lcom/meitu/mtlab/beautyplus/magicpen/MtPenGLSurfaceView;->f:Z
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 3
     :cond_0
     iget v1, p0, Lcom/meitu/mtlab/beautyplus/magicpen/MtPenGLSurfaceView$x;->a:F
 
@@ -354,12 +319,10 @@
 
     if-lez v3, :cond_1
 
-    .line 4
     iput v2, p0, Lcom/meitu/mtlab/beautyplus/magicpen/MtPenGLSurfaceView$x;->a:F
 
     goto :goto_0
 
-    .line 5
     :cond_1
     iget v2, p0, Lcom/meitu/mtlab/beautyplus/magicpen/MtPenGLSurfaceView$x;->l:F
 
@@ -367,10 +330,8 @@
 
     if-gez v1, :cond_2
 
-    .line 6
     iput v2, p0, Lcom/meitu/mtlab/beautyplus/magicpen/MtPenGLSurfaceView$x;->a:F
 
-    .line 7
     :cond_2
     :goto_0
     invoke-static {v0}, Lcom/meitu/mtlab/beautyplus/magicpen/MtPenGLSurfaceView;->k(Lcom/meitu/mtlab/beautyplus/magicpen/MtPenGLSurfaceView;)Lcom/meitu/mtlab/beautyplus/magicpen/NativeGLMagicPen;
@@ -395,7 +356,6 @@
 
     invoke-virtual {v0, v1, v2, v3}, Lcom/meitu/mtlab/beautyplus/magicpen/NativeGLMagicPen;->u(FFF)Z
 
-    .line 8
     iget v0, p0, Lcom/meitu/mtlab/beautyplus/magicpen/MtPenGLSurfaceView$x;->a:F
 
     iget v1, p0, Lcom/meitu/mtlab/beautyplus/magicpen/MtPenGLSurfaceView$x;->l:F
@@ -406,12 +366,10 @@
 
     if-gtz v0, :cond_3
 
-    .line 9
     iput v2, p0, Lcom/meitu/mtlab/beautyplus/magicpen/MtPenGLSurfaceView$x;->i:F
 
     iput v2, p0, Lcom/meitu/mtlab/beautyplus/magicpen/MtPenGLSurfaceView$x;->h:F
 
-    .line 10
     iget-object v0, p0, Lcom/meitu/mtlab/beautyplus/magicpen/MtPenGLSurfaceView$x;->n:Lcom/meitu/mtlab/beautyplus/magicpen/MtPenGLSurfaceView;
 
     invoke-static {v0}, Lcom/meitu/mtlab/beautyplus/magicpen/MtPenGLSurfaceView;->k(Lcom/meitu/mtlab/beautyplus/magicpen/MtPenGLSurfaceView;)Lcom/meitu/mtlab/beautyplus/magicpen/NativeGLMagicPen;
@@ -431,7 +389,6 @@
 
     new-array v1, v0, [F
 
-    .line 11
     iget-object v3, p0, Lcom/meitu/mtlab/beautyplus/magicpen/MtPenGLSurfaceView$x;->n:Lcom/meitu/mtlab/beautyplus/magicpen/MtPenGLSurfaceView;
 
     invoke-static {v3}, Lcom/meitu/mtlab/beautyplus/magicpen/MtPenGLSurfaceView;->k(Lcom/meitu/mtlab/beautyplus/magicpen/MtPenGLSurfaceView;)Lcom/meitu/mtlab/beautyplus/magicpen/NativeGLMagicPen;
@@ -440,7 +397,6 @@
 
     invoke-virtual {v3, v1}, Lcom/meitu/mtlab/beautyplus/magicpen/NativeGLMagicPen;->d([F)Z
 
-    .line 12
     iget v3, p0, Lcom/meitu/mtlab/beautyplus/magicpen/MtPenGLSurfaceView$x;->a:F
 
     iget-object v4, p0, Lcom/meitu/mtlab/beautyplus/magicpen/MtPenGLSurfaceView$x;->n:Lcom/meitu/mtlab/beautyplus/magicpen/MtPenGLSurfaceView;
@@ -469,7 +425,6 @@
 
     sub-float/2addr v3, v5
 
-    .line 13
     iget v5, p0, Lcom/meitu/mtlab/beautyplus/magicpen/MtPenGLSurfaceView$x;->a:F
 
     iget-object v6, p0, Lcom/meitu/mtlab/beautyplus/magicpen/MtPenGLSurfaceView$x;->n:Lcom/meitu/mtlab/beautyplus/magicpen/MtPenGLSurfaceView;
@@ -498,12 +453,10 @@
 
     const/4 v0, 0x0
 
-    .line 14
     aget v4, v1, v0
 
     sub-float/2addr v4, v3
 
-    .line 15
     iget v6, p0, Lcom/meitu/mtlab/beautyplus/magicpen/MtPenGLSurfaceView$x;->a:F
 
     iget-object v7, p0, Lcom/meitu/mtlab/beautyplus/magicpen/MtPenGLSurfaceView$x;->n:Lcom/meitu/mtlab/beautyplus/magicpen/MtPenGLSurfaceView;
@@ -520,14 +473,12 @@
 
     const/4 v7, 0x1
 
-    .line 16
     aget v8, v1, v7
 
     add-float/2addr v8, v5
 
     neg-float v8, v8
 
-    .line 17
     iget v9, p0, Lcom/meitu/mtlab/beautyplus/magicpen/MtPenGLSurfaceView$x;->a:F
 
     iget-object v10, p0, Lcom/meitu/mtlab/beautyplus/magicpen/MtPenGLSurfaceView$x;->n:Lcom/meitu/mtlab/beautyplus/magicpen/MtPenGLSurfaceView;
@@ -542,17 +493,14 @@
 
     add-float/2addr v9, v8
 
-    .line 18
     aget v0, v1, v0
 
-    .line 19
     aget v1, v1, v7
 
     cmpl-float v7, v4, v2
 
     if-lez v7, :cond_4
 
-    .line 20
     iget-object v10, p0, Lcom/meitu/mtlab/beautyplus/magicpen/MtPenGLSurfaceView$x;->n:Lcom/meitu/mtlab/beautyplus/magicpen/MtPenGLSurfaceView;
 
     invoke-virtual {v10}, Landroid/opengl/GLSurfaceView;->getWidth()I
@@ -572,7 +520,6 @@
 
     if-gez v4, :cond_5
 
-    .line 21
     iget-object v4, p0, Lcom/meitu/mtlab/beautyplus/magicpen/MtPenGLSurfaceView$x;->n:Lcom/meitu/mtlab/beautyplus/magicpen/MtPenGLSurfaceView;
 
     invoke-virtual {v4}, Landroid/opengl/GLSurfaceView;->getWidth()I
@@ -592,7 +539,6 @@
     :cond_5
     if-lez v7, :cond_6
 
-    .line 22
     iget-object v3, p0, Lcom/meitu/mtlab/beautyplus/magicpen/MtPenGLSurfaceView$x;->n:Lcom/meitu/mtlab/beautyplus/magicpen/MtPenGLSurfaceView;
 
     invoke-virtual {v3}, Landroid/opengl/GLSurfaceView;->getWidth()I
@@ -617,7 +563,6 @@
 
     if-lez v0, :cond_7
 
-    .line 23
     iget-object v4, p0, Lcom/meitu/mtlab/beautyplus/magicpen/MtPenGLSurfaceView$x;->n:Lcom/meitu/mtlab/beautyplus/magicpen/MtPenGLSurfaceView;
 
     invoke-virtual {v4}, Landroid/opengl/GLSurfaceView;->getHeight()I
@@ -639,7 +584,6 @@
 
     if-gez v4, :cond_8
 
-    .line 24
     iget-object v4, p0, Lcom/meitu/mtlab/beautyplus/magicpen/MtPenGLSurfaceView$x;->n:Lcom/meitu/mtlab/beautyplus/magicpen/MtPenGLSurfaceView;
 
     invoke-virtual {v4}, Landroid/opengl/GLSurfaceView;->getHeight()I
@@ -659,7 +603,6 @@
     :cond_8
     if-lez v0, :cond_9
 
-    .line 25
     iget-object v0, p0, Lcom/meitu/mtlab/beautyplus/magicpen/MtPenGLSurfaceView$x;->n:Lcom/meitu/mtlab/beautyplus/magicpen/MtPenGLSurfaceView;
 
     invoke-virtual {v0}, Landroid/opengl/GLSurfaceView;->getHeight()I
@@ -677,7 +620,6 @@
     :cond_9
     move v2, v1
 
-    .line 26
     :goto_2
     iget-object v0, p0, Lcom/meitu/mtlab/beautyplus/magicpen/MtPenGLSurfaceView$x;->n:Lcom/meitu/mtlab/beautyplus/magicpen/MtPenGLSurfaceView;
 
@@ -687,7 +629,6 @@
 
     invoke-virtual {v0, v3, v2}, Lcom/meitu/mtlab/beautyplus/magicpen/NativeGLMagicPen;->C(FF)Z
 
-    .line 27
     :goto_3
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

@@ -33,7 +33,6 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     new-instance v0, Lcom/commsource/studio/r0/t;
 
     invoke-direct {v0}, Lcom/commsource/studio/r0/t;-><init>()V
@@ -63,7 +62,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/processor/AdjustProcessor;->N:Ljava/util/List;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -90,7 +88,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/processor/AdjustProcessor;->N:Ljava/util/List;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -121,17 +118,14 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/processor/AdjustProcessor;->N:Ljava/util/List;
 
-    .line 2
     new-instance v1, Lcom/commsource/studio/processor/AdjustProcessor$updateEffect$1;
 
     invoke-direct {v1, p0, p1}, Lcom/commsource/studio/processor/AdjustProcessor$updateEffect$1;-><init>(Lcom/commsource/studio/processor/AdjustProcessor;Ljava/util/List;)V
 
     invoke-virtual {p0, v1}, Lcom/commsource/studio/processor/BaseEffectProcessor;->q(Lcotlin/jvm/u/a;)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

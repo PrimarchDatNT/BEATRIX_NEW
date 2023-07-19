@@ -7,7 +7,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -29,7 +28,6 @@
 
     return-void
 
-    .line 1
     :cond_0
     new-instance p0, Ljava/lang/IllegalStateException;
 
@@ -66,7 +64,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p0}, Ljava/util/Objects;->requireNonNull(Ljava/lang/Object;)Ljava/lang/Object;
 
     return-object p0
@@ -84,7 +81,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p0, p1}, Ljava/util/Objects;->requireNonNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
 
     return-object p0
@@ -107,14 +103,12 @@
 
     const-string p0, "%s"
 
-    .line 1
     invoke-virtual {p1, p0}, Ljava/lang/String;->contains(Ljava/lang/CharSequence;)Z
 
     move-result v0
 
     if-eqz v0, :cond_2
 
-    .line 2
     invoke-virtual {p1, p0}, Ljava/lang/String;->indexOf(Ljava/lang/String;)I
 
     move-result v0
@@ -125,12 +119,10 @@
 
     if-ne v0, v1, :cond_1
 
-    .line 3
     instance-of v0, p2, Ljava/lang/Class;
 
     if-eqz v0, :cond_0
 
-    .line 4
     check-cast p2, Ljava/lang/Class;
 
     invoke-virtual {p2}, Ljava/lang/Class;->getCanonicalName()Ljava/lang/String;
@@ -139,13 +131,11 @@
 
     goto :goto_0
 
-    .line 5
     :cond_0
     invoke-static {p2}, Ljava/lang/String;->valueOf(Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object p2
 
-    .line 6
     :goto_0
     new-instance v0, Ljava/lang/NullPointerException;
 
@@ -157,7 +147,6 @@
 
     throw v0
 
-    .line 7
     :cond_1
     new-instance p0, Ljava/lang/IllegalArgumentException;
 
@@ -167,7 +156,6 @@
 
     throw p0
 
-    .line 8
     :cond_2
     new-instance p0, Ljava/lang/IllegalArgumentException;
 

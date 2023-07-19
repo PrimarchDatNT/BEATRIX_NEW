@@ -25,7 +25,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance p0, Lcotlin/NotImplementedError;
 
     const-string v0, "Implementation is intrinsic"

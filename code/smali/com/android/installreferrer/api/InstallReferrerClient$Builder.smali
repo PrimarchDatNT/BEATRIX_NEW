@@ -22,10 +22,8 @@
 .method private constructor <init>(Landroid/content/Context;)V
     .locals 0
 
-    .line 2
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 3
     iput-object p1, p0, Lcom/android/installreferrer/api/InstallReferrerClient$Builder;->mContext:Landroid/content/Context;
 
     return-void
@@ -34,7 +32,6 @@
 .method synthetic constructor <init>(Landroid/content/Context;Lcom/android/installreferrer/api/InstallReferrerClient$a;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/android/installreferrer/api/InstallReferrerClient$Builder;-><init>(Landroid/content/Context;)V
 
     return-void
@@ -47,19 +44,16 @@
     .annotation build Landroidx/annotation/UiThread;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/android/installreferrer/api/InstallReferrerClient$Builder;->mContext:Landroid/content/Context;
 
     if-eqz v0, :cond_0
 
-    .line 2
     new-instance v1, Lcom/android/installreferrer/api/InstallReferrerClientImpl;
 
     invoke-direct {v1, v0}, Lcom/android/installreferrer/api/InstallReferrerClientImpl;-><init>(Landroid/content/Context;)V
 
     return-object v1
 
-    .line 3
     :cond_0
     new-instance v0, Ljava/lang/IllegalArgumentException;
 

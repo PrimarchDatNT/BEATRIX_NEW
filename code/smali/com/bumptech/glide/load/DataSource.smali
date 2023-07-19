@@ -31,7 +31,6 @@
 .method static constructor <clinit>()V
     .locals 11
 
-    .line 1
     new-instance v0, Lcom/bumptech/glide/load/DataSource;
 
     const-string v1, "LOCAL"
@@ -42,7 +41,6 @@
 
     sput-object v0, Lcom/bumptech/glide/load/DataSource;->LOCAL:Lcom/bumptech/glide/load/DataSource;
 
-    .line 2
     new-instance v1, Lcom/bumptech/glide/load/DataSource;
 
     const-string v3, "REMOTE"
@@ -53,7 +51,6 @@
 
     sput-object v1, Lcom/bumptech/glide/load/DataSource;->REMOTE:Lcom/bumptech/glide/load/DataSource;
 
-    .line 3
     new-instance v3, Lcom/bumptech/glide/load/DataSource;
 
     const-string v5, "DATA_DISK_CACHE"
@@ -64,7 +61,6 @@
 
     sput-object v3, Lcom/bumptech/glide/load/DataSource;->DATA_DISK_CACHE:Lcom/bumptech/glide/load/DataSource;
 
-    .line 4
     new-instance v5, Lcom/bumptech/glide/load/DataSource;
 
     const-string v7, "RESOURCE_DISK_CACHE"
@@ -75,7 +71,6 @@
 
     sput-object v5, Lcom/bumptech/glide/load/DataSource;->RESOURCE_DISK_CACHE:Lcom/bumptech/glide/load/DataSource;
 
-    .line 5
     new-instance v7, Lcom/bumptech/glide/load/DataSource;
 
     const-string v9, "MEMORY_CACHE"
@@ -100,7 +95,6 @@
 
     aput-object v7, v9, v10
 
-    .line 6
     sput-object v9, Lcom/bumptech/glide/load/DataSource;->$VALUES:[Lcom/bumptech/glide/load/DataSource;
 
     return-void
@@ -114,7 +108,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
     return-void
@@ -123,7 +116,6 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/bumptech/glide/load/DataSource;
     .locals 1
 
-    .line 1
     const-class v0, Lcom/bumptech/glide/load/DataSource;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -138,7 +130,6 @@
 .method public static values()[Lcom/bumptech/glide/load/DataSource;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/bumptech/glide/load/DataSource;->$VALUES:[Lcom/bumptech/glide/load/DataSource;
 
     invoke-virtual {v0}, [Lcom/bumptech/glide/load/DataSource;->clone()Ljava/lang/Object;

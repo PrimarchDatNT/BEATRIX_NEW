@@ -55,7 +55,6 @@
 
     if-eqz p2, :cond_1
 
-    .line 1
     iget-object p2, p0, Lcom/commsource/camera/xcamera/util/d$a;->a:Lcotlin/jvm/internal/Ref$BooleanRef;
 
     iget v0, p1, Lf/k/v/b;->f:I
@@ -72,7 +71,6 @@
     :goto_0
     iput-boolean v1, p2, Lcotlin/jvm/internal/Ref$BooleanRef;->element:Z
 
-    .line 2
     :cond_1
     invoke-static {p3}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

@@ -19,14 +19,12 @@
 
     new-array v1, v0, [I
 
-    .line 1
     fill-array-data v1, :array_0
 
     sput-object v1, Lcom/google/android/gms/internal/ads/la2;->a:[I
 
     new-array v0, v0, [I
 
-    .line 2
     fill-array-data v0, :array_1
 
     sput-object v0, Lcom/google/android/gms/internal/ads/la2;->b:[I
@@ -35,7 +33,6 @@
 
     new-array v0, v0, [I
 
-    .line 3
     fill-array-data v0, :array_2
 
     sput-object v0, Lcom/google/android/gms/internal/ads/la2;->c:[I
@@ -119,14 +116,12 @@
 .method public static a(Ljava/nio/ByteBuffer;)I
     .locals 2
 
-    .line 1
     invoke-virtual {p0}, Ljava/nio/ByteBuffer;->position()I
 
     move-result v0
 
     add-int/lit8 v1, v0, 0x4
 
-    .line 2
     invoke-virtual {p0, v1}, Ljava/nio/ByteBuffer;->get(I)B
 
     move-result v1
@@ -137,7 +132,6 @@
 
     add-int/lit8 v0, v0, 0x5
 
-    .line 3
     invoke-virtual {p0, v0}, Ljava/nio/ByteBuffer;->get(I)B
 
     move-result p0

@@ -27,7 +27,6 @@
 
     const/4 v1, 0x0
 
-    .line 1
     sput-boolean v1, Lcom/meitu/core/processor/BlurProcessor;->nativeStackBlur_bitmap_ret:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -38,7 +37,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/meitu/core/NativeBaseClass;-><init>()V
 
     return-void
@@ -51,7 +49,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sput-boolean p0, Lcom/meitu/core/processor/BlurProcessor;->nativeStackBlur_bitmap_ret:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -66,7 +63,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p0, p1, p2}, Lcom/meitu/core/processor/BlurProcessor;->nativeStackBlur_bitmap(Landroid/graphics/Bitmap;IZ)Z
 
     move-result p0
@@ -91,7 +87,6 @@
 
     if-eqz p2, :cond_1
 
-    .line 1
     invoke-virtual {p0}, Lcom/meitu/core/types/NativeBitmap;->nativeInstance()J
 
     move-result-wide v1
@@ -131,7 +126,6 @@
     :cond_1
     const/4 v1, 0x0
 
-    .line 2
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -151,7 +145,6 @@
 
     if-eqz p2, :cond_0
 
-    .line 3
     invoke-virtual {p0}, Lcom/meitu/core/types/NativeBitmap;->nativeInstance()J
 
     move-result-wide v1
@@ -179,7 +172,6 @@
     :cond_0
     const/4 v1, 0x0
 
-    .line 4
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -193,7 +185,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 68
     invoke-static {p0, p1}, Lcom/meitu/core/processor/BlurProcessor;->filmFocus(Landroid/graphics/Bitmap;Lcom/meitu/core/types/FaceData;)Z
 
     move-result p0
@@ -230,7 +221,6 @@
 
     move/from16 v9, p8
 
-    .line 50
     invoke-static/range {v1 .. v10}, Lcom/meitu/core/processor/BlurProcessor;->filmFocus(Landroid/graphics/Bitmap;Lcom/meitu/core/types/FaceData;FFFFFFFZ)Z
 
     move-result v1
@@ -249,7 +239,6 @@
 
     if-nez p0, :cond_0
 
-    .line 51
     sget-object v1, Lcom/meitu/core/types/NDebug;->TAG:Ljava/lang/String;
 
     const-string v2, "effectcore filmFocus bitmap is null."
@@ -258,12 +247,10 @@
 
     const/4 v1, 0x0
 
-    .line 52
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
 
-    .line 53
     :cond_0
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
@@ -275,7 +262,6 @@
 
     goto :goto_0
 
-    .line 54
     :cond_1
     invoke-virtual {p1}, Lcom/meitu/core/types/FaceData;->nativeInstance()J
 
@@ -306,12 +292,10 @@
 
     move-result v1
 
-    .line 55
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v2
 
-    .line 56
     sget-object v4, Lcom/meitu/core/types/NDebug;->TAG:Ljava/lang/String;
 
     new-instance v5, Ljava/lang/StringBuilder;
@@ -356,7 +340,6 @@
 
     invoke-static {v4, v2}, Lcom/meitu/core/types/NDebug;->i(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 57
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
@@ -373,7 +356,6 @@
 
     const/4 p0, 0x0
 
-    .line 27
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p0
@@ -381,56 +363,48 @@
     :cond_0
     const-string v1, "ellipse"
 
-    .line 28
     invoke-virtual {p2, v1}, Lcom/meitu/core/parse/MteDict;->floatValueForKey(Ljava/lang/String;)F
 
     move-result v4
 
     const-string v1, "ellipseHeight"
 
-    .line 29
     invoke-virtual {p2, v1}, Lcom/meitu/core/parse/MteDict;->floatValueForKey(Ljava/lang/String;)F
 
     move-result v5
 
     const-string v1, "div"
 
-    .line 30
     invoke-virtual {p2, v1}, Lcom/meitu/core/parse/MteDict;->floatValueForKey(Ljava/lang/String;)F
 
     move-result v6
 
     const-string v1, "heightOffset"
 
-    .line 31
     invoke-virtual {p2, v1}, Lcom/meitu/core/parse/MteDict;->floatValueForKey(Ljava/lang/String;)F
 
     move-result v7
 
     const-string v1, "innerValue"
 
-    .line 32
     invoke-virtual {p2, v1}, Lcom/meitu/core/parse/MteDict;->floatValueForKey(Ljava/lang/String;)F
 
     move-result v8
 
     const-string v1, "outerValue"
 
-    .line 33
     invoke-virtual {p2, v1}, Lcom/meitu/core/parse/MteDict;->floatValueForKey(Ljava/lang/String;)F
 
     move-result v9
 
     const-string v1, "isOnlySupportSingleFace"
 
-    .line 34
     invoke-virtual {p2, v1}, Lcom/meitu/core/parse/MteDict;->booleanValueForKey(Ljava/lang/String;)Z
 
     move-result v11
 
     const/high16 p2, 0x3f800000    # 1.0f
 
-    .line 35
     invoke-virtual {p0}, Landroid/graphics/Bitmap;->getWidth()I
 
     move-result v1
@@ -459,7 +433,6 @@
 
     move-object v3, p1
 
-    .line 36
     invoke-static/range {v2 .. v11}, Lcom/meitu/core/processor/BlurProcessor;->filmFocus(Landroid/graphics/Bitmap;Lcom/meitu/core/types/FaceData;FFFFFFFZ)Z
 
     move-result p0
@@ -478,7 +451,6 @@
 
     if-nez p0, :cond_0
 
-    .line 69
     sget-object p0, Lcom/meitu/core/types/NDebug;->TAG:Ljava/lang/String;
 
     const-string p1, "effectcore filmFocus bitmap is null."
@@ -487,7 +459,6 @@
 
     const/4 p0, 0x0
 
-    .line 70
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p0
@@ -505,7 +476,6 @@
 
     const/high16 v3, 0x3f800000    # 1.0f
 
-    .line 71
     invoke-virtual {p0}, Landroid/graphics/Bitmap;->getWidth()I
 
     move-result v4
@@ -536,7 +506,6 @@
 
     if-eqz p1, :cond_2
 
-    .line 72
     invoke-virtual {p1}, Lcom/meitu/core/types/FaceData;->getFaceCount()I
 
     move-result v8
@@ -573,12 +542,10 @@
 
     move v11, p2
 
-    .line 73
     invoke-static/range {v2 .. v11}, Lcom/meitu/core/processor/BlurProcessor;->filmFocus(Landroid/graphics/Bitmap;Lcom/meitu/core/types/FaceData;FFFFFFFZ)Z
 
     move-result p0
 
-    .line 74
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p0
@@ -593,7 +560,6 @@
 
     if-nez p0, :cond_0
 
-    .line 58
     sget-object p0, Lcom/meitu/core/types/NDebug;->TAG:Ljava/lang/String;
 
     const-string p1, "effectcore filmFocus bitmap is null."
@@ -602,7 +568,6 @@
 
     const/4 p0, 0x0
 
-    .line 59
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p0
@@ -628,7 +593,6 @@
 
     move v9, p4
 
-    .line 60
     invoke-static/range {v1 .. v10}, Lcom/meitu/core/processor/BlurProcessor;->filmFocus(Lcom/meitu/core/types/NativeBitmap;Lcom/meitu/core/types/FaceData;FFFFFFFZ)Z
 
     move-result p0
@@ -647,7 +611,6 @@
 
     const/4 v1, 0x0
 
-    .line 61
     invoke-static {p0, p1, v1}, Lcom/meitu/core/processor/BlurProcessor;->filmFocus(Lcom/meitu/core/types/NativeBitmap;Lcom/meitu/core/types/FaceData;Z)Z
 
     move-result p0
@@ -684,7 +647,6 @@
 
     move/from16 v9, p8
 
-    .line 42
     invoke-static/range {v1 .. v10}, Lcom/meitu/core/processor/BlurProcessor;->filmFocus(Lcom/meitu/core/types/NativeBitmap;Lcom/meitu/core/types/FaceData;FFFFFFFZ)Z
 
     move-result v1
@@ -703,7 +665,6 @@
 
     if-nez p0, :cond_0
 
-    .line 43
     sget-object v1, Lcom/meitu/core/types/NDebug;->TAG:Ljava/lang/String;
 
     const-string v2, "effectcore filmFocus bitmap is null."
@@ -712,18 +673,15 @@
 
     const/4 v1, 0x0
 
-    .line 44
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
 
-    .line 45
     :cond_0
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v1
 
-    .line 46
     invoke-virtual {p0}, Lcom/meitu/core/types/NativeBitmap;->nativeInstance()J
 
     move-result-wide v3
@@ -760,12 +718,10 @@
 
     move-result v3
 
-    .line 47
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v4
 
-    .line 48
     sget-object v6, Lcom/meitu/core/types/NDebug;->TAG:Ljava/lang/String;
 
     new-instance v7, Ljava/lang/StringBuilder;
@@ -810,7 +766,6 @@
 
     invoke-static {v6, v1}, Lcom/meitu/core/types/NDebug;->i(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 49
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v3
@@ -825,7 +780,6 @@
 
     const/4 v1, 0x0
 
-    .line 37
     invoke-static {p0, p1, p2, v1}, Lcom/meitu/core/processor/BlurProcessor;->filmFocus(Lcom/meitu/core/types/NativeBitmap;Lcom/meitu/core/types/FaceData;IZ)Z
 
     move-result p0
@@ -844,7 +798,6 @@
 
     if-nez p0, :cond_0
 
-    .line 38
     sget-object v0, Lcom/meitu/core/types/NDebug;->TAG:Ljava/lang/String;
 
     const-string v2, "effectcore filmFocus bitmap is null."
@@ -853,7 +806,6 @@
 
     const/4 v0, 0x0
 
-    .line 39
     invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v0
@@ -918,7 +870,6 @@
 
     const/high16 v0, 0x3f800000    # 1.0f
 
-    .line 40
     invoke-virtual {p0}, Lcom/meitu/core/types/NativeBitmap;->getWidth()I
 
     move-result v2
@@ -949,7 +900,6 @@
 
     move v11, p3
 
-    .line 41
     invoke-static/range {v2 .. v11}, Lcom/meitu/core/processor/BlurProcessor;->filmFocus(Lcom/meitu/core/types/NativeBitmap;Lcom/meitu/core/types/FaceData;FFFFFFFZ)Z
 
     move-result v0
@@ -970,7 +920,6 @@
 
     const/4 p0, 0x0
 
-    .line 17
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p0
@@ -978,56 +927,48 @@
     :cond_0
     const-string v1, "ellipse"
 
-    .line 18
     invoke-virtual {p2, v1}, Lcom/meitu/core/parse/MteDict;->floatValueForKey(Ljava/lang/String;)F
 
     move-result v4
 
     const-string v1, "ellipseHeight"
 
-    .line 19
     invoke-virtual {p2, v1}, Lcom/meitu/core/parse/MteDict;->floatValueForKey(Ljava/lang/String;)F
 
     move-result v5
 
     const-string v1, "div"
 
-    .line 20
     invoke-virtual {p2, v1}, Lcom/meitu/core/parse/MteDict;->floatValueForKey(Ljava/lang/String;)F
 
     move-result v6
 
     const-string v1, "heightOffset"
 
-    .line 21
     invoke-virtual {p2, v1}, Lcom/meitu/core/parse/MteDict;->floatValueForKey(Ljava/lang/String;)F
 
     move-result v7
 
     const-string v1, "innerValue"
 
-    .line 22
     invoke-virtual {p2, v1}, Lcom/meitu/core/parse/MteDict;->floatValueForKey(Ljava/lang/String;)F
 
     move-result v8
 
     const-string v1, "outerValue"
 
-    .line 23
     invoke-virtual {p2, v1}, Lcom/meitu/core/parse/MteDict;->floatValueForKey(Ljava/lang/String;)F
 
     move-result v9
 
     const-string v1, "isOnlySupportSingleFace"
 
-    .line 24
     invoke-virtual {p2, v1}, Lcom/meitu/core/parse/MteDict;->booleanValueForKey(Ljava/lang/String;)Z
 
     move-result v11
 
     const/high16 p2, 0x3f800000    # 1.0f
 
-    .line 25
     invoke-virtual {p0}, Lcom/meitu/core/types/NativeBitmap;->getWidth()I
 
     move-result v1
@@ -1056,7 +997,6 @@
 
     move-object v3, p1
 
-    .line 26
     invoke-static/range {v2 .. v11}, Lcom/meitu/core/processor/BlurProcessor;->filmFocus(Lcom/meitu/core/types/NativeBitmap;Lcom/meitu/core/types/FaceData;FFFFFFFZ)Z
 
     move-result p0
@@ -1084,56 +1024,48 @@
     :cond_0
     const-string v2, "ellipse"
 
-    .line 1
     invoke-virtual {v0, v2}, Lcom/meitu/core/parse/MteDict;->floatValueForKey(Ljava/lang/String;)F
 
     move-result v7
 
     const-string v2, "ellipseHeight"
 
-    .line 2
     invoke-virtual {v0, v2}, Lcom/meitu/core/parse/MteDict;->floatValueForKey(Ljava/lang/String;)F
 
     move-result v8
 
     const-string v2, "div"
 
-    .line 3
     invoke-virtual {v0, v2}, Lcom/meitu/core/parse/MteDict;->floatValueForKey(Ljava/lang/String;)F
 
     move-result v9
 
     const-string v2, "heightOffset"
 
-    .line 4
     invoke-virtual {v0, v2}, Lcom/meitu/core/parse/MteDict;->floatValueForKey(Ljava/lang/String;)F
 
     move-result v10
 
     const-string v2, "innerValue"
 
-    .line 5
     invoke-virtual {v0, v2}, Lcom/meitu/core/parse/MteDict;->floatValueForKey(Ljava/lang/String;)F
 
     move-result v11
 
     const-string v2, "outerValue"
 
-    .line 6
     invoke-virtual {v0, v2}, Lcom/meitu/core/parse/MteDict;->floatValueForKey(Ljava/lang/String;)F
 
     move-result v12
 
     const-string v2, "isOnlySupportSingleFace"
 
-    .line 7
     invoke-virtual {v0, v2}, Lcom/meitu/core/parse/MteDict;->booleanValueForKey(Ljava/lang/String;)Z
 
     move-result v14
 
     const/high16 v0, 0x3f800000    # 1.0f
 
-    .line 8
     invoke-virtual/range {p0 .. p0}, Lcom/meitu/core/types/NativeBitmap;->getWidth()I
 
     move-result v2
@@ -1158,12 +1090,10 @@
 
     move-result v13
 
-    .line 9
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v19
 
-    .line 10
     invoke-virtual/range {p0 .. p0}, Lcom/meitu/core/types/NativeBitmap;->nativeInstance()J
 
     move-result-wide v3
@@ -1186,7 +1116,6 @@
 
     goto :goto_1
 
-    .line 11
     :cond_2
     invoke-virtual/range {p6 .. p6}, Lcom/meitu/core/types/NativeBitmap;->nativeInstance()J
 
@@ -1201,17 +1130,14 @@
 
     move/from16 v16, p5
 
-    .line 12
     invoke-static/range {v3 .. v18}, Lcom/meitu/core/processor/BlurProcessor;->nativeFilmFocus(JJFFFFFFFZIIJ)Z
 
     move-result v0
 
-    .line 13
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v2
 
-    .line 14
     sget-object v4, Lcom/meitu/core/types/NDebug;->TAG:Ljava/lang/String;
 
     new-instance v5, Ljava/lang/StringBuilder;
@@ -1256,7 +1182,6 @@
 
     invoke-static {v4, v2}, Lcom/meitu/core/types/NDebug;->i(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 15
     invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v0
@@ -1265,7 +1190,6 @@
     :goto_2
     const/4 v0, 0x0
 
-    .line 16
     invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v0
@@ -1280,7 +1204,6 @@
 
     if-nez p0, :cond_0
 
-    .line 62
     sget-object p0, Lcom/meitu/core/types/NDebug;->TAG:Ljava/lang/String;
 
     const-string p1, "effectcore filmFocus bitmap is null."
@@ -1289,7 +1212,6 @@
 
     const/4 p0, 0x0
 
-    .line 63
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p0
@@ -1307,7 +1229,6 @@
 
     const/high16 v3, 0x3f800000    # 1.0f
 
-    .line 64
     invoke-virtual {p0}, Lcom/meitu/core/types/NativeBitmap;->getWidth()I
 
     move-result v4
@@ -1338,7 +1259,6 @@
 
     if-eqz p1, :cond_2
 
-    .line 65
     invoke-virtual {p1}, Lcom/meitu/core/types/FaceData;->getFaceCount()I
 
     move-result v8
@@ -1375,12 +1295,10 @@
 
     move v11, p2
 
-    .line 66
     invoke-static/range {v2 .. v11}, Lcom/meitu/core/processor/BlurProcessor;->filmFocus(Lcom/meitu/core/types/NativeBitmap;Lcom/meitu/core/types/FaceData;FFFFFFFZ)Z
 
     move-result p0
 
-    .line 67
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p0
@@ -1395,7 +1313,6 @@
 
     const/4 v1, 0x0
 
-    .line 19
     invoke-static {p0, p1, v1}, Lcom/meitu/core/processor/BlurProcessor;->flareBlur(Lcom/meitu/core/types/NativeBitmap;Landroid/graphics/Bitmap;F)Z
 
     move-result p0
@@ -1414,7 +1331,6 @@
 
     const/4 v1, 0x0
 
-    .line 1
     invoke-static {p0, p1, p2, v1}, Lcom/meitu/core/processor/BlurProcessor;->flareBlur(Lcom/meitu/core/types/NativeBitmap;Landroid/graphics/Bitmap;FF)Z
 
     move-result p0
@@ -1433,7 +1349,6 @@
 
     if-nez p0, :cond_0
 
-    .line 2
     sget-object p0, Lcom/meitu/core/types/NDebug;->TAG:Ljava/lang/String;
 
     const-string p1, "effectcore flareBlur bitmap is null."
@@ -1442,12 +1357,10 @@
 
     const/4 p0, 0x0
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p0
 
-    .line 4
     :cond_0
     invoke-virtual {p0}, Lcom/meitu/core/types/NativeBitmap;->getWidth()I
 
@@ -1487,7 +1400,6 @@
 
     const/16 v3, 0x25
 
-    .line 5
     invoke-static {v1, v3}, Ljava/lang/Math;->min(II)I
 
     move-result v1
@@ -1496,7 +1408,6 @@
 
     const/high16 v4, 0x42c80000    # 100.0f
 
-    .line 6
     invoke-static {p2, v4}, Ljava/lang/Math;->min(FF)F
 
     move-result p2
@@ -1525,14 +1436,12 @@
 
     sub-float/2addr v3, p2
 
-    .line 7
     invoke-static {v2, v3}, Ljava/lang/Math;->max(FF)F
 
     move-result p2
 
     float-to-int p2, p2
 
-    .line 8
     rem-int/lit8 v2, p2, 0x2
 
     const/4 v3, 0x1
@@ -1541,7 +1450,6 @@
 
     add-int/lit8 p2, p2, -0x1
 
-    .line 9
     invoke-static {v3, p2}, Ljava/lang/Math;->max(II)I
 
     move-result p2
@@ -1549,14 +1457,12 @@
     :cond_1
     move v7, p2
 
-    .line 10
     rem-int/lit8 p2, v1, 0x2
 
     if-nez p2, :cond_2
 
     add-int/lit8 v1, v1, -0x1
 
-    .line 11
     invoke-static {v3, v1}, Ljava/lang/Math;->max(II)I
 
     move-result v1
@@ -1564,12 +1470,10 @@
     :cond_2
     move v8, v1
 
-    .line 12
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v1
 
-    .line 13
     invoke-virtual {p0}, Lcom/meitu/core/types/NativeBitmap;->nativeInstance()J
 
     move-result-wide v4
@@ -1582,7 +1486,6 @@
 
     move-result p1
 
-    .line 14
     sget-object p2, Lcom/meitu/core/types/NDebug;->TAG:Ljava/lang/String;
 
     new-instance p3, Ljava/lang/StringBuilder;
@@ -1593,7 +1496,6 @@
 
     invoke-virtual {p3, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 15
     invoke-virtual {p0}, Lcom/meitu/core/types/NativeBitmap;->getWidth()I
 
     move-result v3
@@ -1614,7 +1516,6 @@
 
     invoke-virtual {p3, p0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 16
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v3
@@ -1631,10 +1532,8 @@
 
     move-result-object p0
 
-    .line 17
     invoke-static {p2, p0}, Lcom/meitu/core/types/NDebug;->i(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 18
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
@@ -1649,7 +1548,6 @@
 
     if-nez p0, :cond_0
 
-    .line 1
     sget-object p0, Lcom/meitu/core/types/NDebug;->TAG:Ljava/lang/String;
 
     const-string p1, "effectcore flareBlur bitmap is null."
@@ -1658,18 +1556,15 @@
 
     const/4 p0, 0x0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p0
 
-    .line 3
     :cond_0
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v1
 
-    .line 4
     invoke-virtual {p0}, Lcom/meitu/core/types/NativeBitmap;->nativeInstance()J
 
     move-result-wide v3
@@ -1686,7 +1581,6 @@
 
     move-result p1
 
-    .line 5
     sget-object p2, Lcom/meitu/core/types/NDebug;->TAG:Ljava/lang/String;
 
     new-instance p3, Ljava/lang/StringBuilder;
@@ -1697,7 +1591,6 @@
 
     invoke-virtual {p3, p4}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 6
     invoke-virtual {p0}, Lcom/meitu/core/types/NativeBitmap;->getWidth()I
 
     move-result p4
@@ -1718,7 +1611,6 @@
 
     invoke-virtual {p3, p0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 7
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v3
@@ -1735,10 +1627,8 @@
 
     move-result-object p0
 
-    .line 8
     invoke-static {p2, p0}, Lcom/meitu/core/types/NDebug;->i(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 9
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
@@ -1753,7 +1643,6 @@
 
     if-eqz p0, :cond_0
 
-    .line 3
     invoke-static {p0, p1}, Lcom/meitu/core/processor/BlurProcessor;->nativeGaussianBlurGL_bitmap(Landroid/graphics/Bitmap;F)Z
 
     move-result p0
@@ -1763,7 +1652,6 @@
     :cond_0
     const/4 p0, 0x0
 
-    .line 4
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1779,7 +1667,6 @@
 
     if-eqz p0, :cond_0
 
-    .line 1
     invoke-virtual {p0}, Lcom/meitu/core/types/NativeBitmap;->nativeInstance()J
 
     move-result-wide v1
@@ -1793,7 +1680,6 @@
     :cond_0
     const/4 p0, 0x0
 
-    .line 2
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1807,7 +1693,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p0, p1, p2}, Lcom/meitu/core/processor/BlurProcessor;->nativeGetStackBlurRadius(III)I
 
     move-result p0
@@ -1826,7 +1711,6 @@
 
     if-nez p0, :cond_0
 
-    .line 1
     sget-object p0, Lcom/meitu/core/types/NDebug;->TAG:Ljava/lang/String;
 
     const-string p1, "effectcore mosaicBlock bitmap is null."
@@ -1835,18 +1719,15 @@
 
     const/4 p0, 0x0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p0
 
-    .line 3
     :cond_0
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v1
 
-    .line 4
     invoke-virtual {p0}, Lcom/meitu/core/types/NativeBitmap;->nativeInstance()J
 
     move-result-wide v3
@@ -1855,7 +1736,6 @@
 
     move-result p1
 
-    .line 5
     sget-object v3, Lcom/meitu/core/types/NDebug;->TAG:Ljava/lang/String;
 
     new-instance v4, Ljava/lang/StringBuilder;
@@ -1886,7 +1766,6 @@
 
     invoke-virtual {v4, p0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 6
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v5
@@ -1903,10 +1782,8 @@
 
     move-result-object p0
 
-    .line 7
     invoke-static {v3, p0}, Lcom/meitu/core/types/NDebug;->i(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
@@ -1921,7 +1798,6 @@
 
     if-nez p0, :cond_0
 
-    .line 1
     sget-object p0, Lcom/meitu/core/types/NDebug;->TAG:Ljava/lang/String;
 
     const-string p1, "effectcore motionBlur bitmap is null."
@@ -1930,18 +1806,15 @@
 
     const/4 p0, 0x0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p0
 
-    .line 3
     :cond_0
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v1
 
-    .line 4
     invoke-virtual {p0}, Lcom/meitu/core/types/NativeBitmap;->nativeInstance()J
 
     move-result-wide v3
@@ -1952,7 +1825,6 @@
 
     move-result p1
 
-    .line 5
     sget-object p2, Lcom/meitu/core/types/NDebug;->TAG:Ljava/lang/String;
 
     new-instance v3, Ljava/lang/StringBuilder;
@@ -1983,7 +1855,6 @@
 
     invoke-virtual {v3, p0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 6
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v4
@@ -2000,10 +1871,8 @@
 
     move-result-object p0
 
-    .line 7
     invoke-static {p2, p0}, Lcom/meitu/core/types/NDebug;->i(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
@@ -2060,7 +1929,6 @@
 
     if-nez p0, :cond_0
 
-    .line 1
     sget-object p0, Lcom/meitu/core/types/NDebug;->TAG:Ljava/lang/String;
 
     const-string p1, "effectcore radiusZoomBlur bitmap is null."
@@ -2069,18 +1937,15 @@
 
     const/4 p0, 0x0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p0
 
-    .line 3
     :cond_0
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v1
 
-    .line 4
     invoke-virtual {p0}, Lcom/meitu/core/types/NativeBitmap;->nativeInstance()J
 
     move-result-wide v3
@@ -2089,7 +1954,6 @@
 
     move-result p1
 
-    .line 5
     sget-object v3, Lcom/meitu/core/types/NDebug;->TAG:Ljava/lang/String;
 
     new-instance v4, Ljava/lang/StringBuilder;
@@ -2120,7 +1984,6 @@
 
     invoke-virtual {v4, p0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 6
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v5
@@ -2137,10 +2000,8 @@
 
     move-result-object p0
 
-    .line 7
     invoke-static {v3, p0}, Lcom/meitu/core/types/NDebug;->i(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
@@ -2155,7 +2016,6 @@
 
     const/4 v1, 0x0
 
-    .line 1
     invoke-static {p0, p1, v1}, Lcom/meitu/core/processor/BlurProcessor;->stackBlur(Lcom/meitu/core/types/NativeBitmap;IZ)Z
 
     move-result p0
@@ -2174,7 +2034,6 @@
 
     if-nez p0, :cond_0
 
-    .line 2
     sget-object p0, Lcom/meitu/core/types/NDebug;->TAG:Ljava/lang/String;
 
     const-string p1, "effectcore stackBlur bitmap is null."
@@ -2183,18 +2042,15 @@
 
     const/4 p0, 0x0
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p0
 
-    .line 4
     :cond_0
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v1
 
-    .line 5
     invoke-virtual {p0}, Lcom/meitu/core/types/NativeBitmap;->nativeInstance()J
 
     move-result-wide v3
@@ -2203,12 +2059,10 @@
 
     move-result p1
 
-    .line 6
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v3
 
-    .line 7
     sget-object p2, Lcom/meitu/core/types/NDebug;->TAG:Ljava/lang/String;
 
     new-instance v5, Ljava/lang/StringBuilder;
@@ -2253,7 +2107,6 @@
 
     invoke-static {p2, p0}, Lcom/meitu/core/types/NDebug;->i(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
@@ -2268,7 +2121,6 @@
 
     const/4 v1, 0x0
 
-    .line 1
     invoke-static {p0, p1, v1}, Lcom/meitu/core/processor/BlurProcessor;->stackBlur_bitmap(Landroid/graphics/Bitmap;IZ)Z
 
     move-result p0
@@ -2287,7 +2139,6 @@
 
     if-nez p0, :cond_0
 
-    .line 2
     sget-object p0, Lcom/meitu/core/types/NDebug;->TAG:Ljava/lang/String;
 
     const-string p1, "effectcore stackBlur bitmap is null."
@@ -2296,30 +2147,25 @@
 
     const/4 p0, 0x0
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p0
 
-    .line 4
     :cond_0
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v1
 
-    .line 5
     new-instance v3, Lcom/meitu/core/processor/BlurProcessor$1;
 
     invoke-direct {v3, p0, p1, p2}, Lcom/meitu/core/processor/BlurProcessor$1;-><init>(Landroid/graphics/Bitmap;IZ)V
 
     invoke-static {v3}, Lcom/meitu/core/NativeBaseClass;->trySyncRunNativeMethod(Ljava/lang/Runnable;)V
 
-    .line 6
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide p1
 
-    .line 7
     sget-object v3, Lcom/meitu/core/types/NDebug;->TAG:Ljava/lang/String;
 
     new-instance v4, Ljava/lang/StringBuilder;
@@ -2364,7 +2210,6 @@
 
     invoke-static {v3, p0}, Lcom/meitu/core/types/NDebug;->i(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 8
     sget-boolean p0, Lcom/meitu/core/processor/BlurProcessor;->nativeStackBlur_bitmap_ret:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

@@ -23,10 +23,8 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
     const-class v0, Lcom/google/common/util/concurrent/b;
 
-    .line 2
     invoke-virtual {v0}, Ljava/lang/Class;->getName()Ljava/lang/String;
 
     move-result-object v0
@@ -43,10 +41,8 @@
 .method protected constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     new-instance v0, Lcom/google/common/util/concurrent/b$a;
 
     invoke-direct {v0, p0}, Lcom/google/common/util/concurrent/b$a;-><init>(Lcom/google/common/util/concurrent/b;)V
@@ -59,7 +55,6 @@
 .method static synthetic j()Ljava/util/logging/Logger;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/google/common/util/concurrent/b;->b:Ljava/util/logging/Logger;
 
     return-object v0
@@ -70,7 +65,6 @@
 .method public final a(Lcom/google/common/util/concurrent/Service$b;Ljava/util/concurrent/Executor;)V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/util/concurrent/b;->a:Lcom/google/common/util/concurrent/Service;
 
     invoke-interface {v0, p1, p2}, Lcom/google/common/util/concurrent/Service;->a(Lcom/google/common/util/concurrent/Service$b;Ljava/util/concurrent/Executor;)V
@@ -86,7 +80,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/util/concurrent/b;->a:Lcom/google/common/util/concurrent/Service;
 
     invoke-interface {v0, p1, p2, p3}, Lcom/google/common/util/concurrent/Service;->b(JLjava/util/concurrent/TimeUnit;)V
@@ -102,7 +95,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/util/concurrent/b;->a:Lcom/google/common/util/concurrent/Service;
 
     invoke-interface {v0, p1, p2, p3}, Lcom/google/common/util/concurrent/Service;->c(JLjava/util/concurrent/TimeUnit;)V
@@ -113,7 +105,6 @@
 .method public final d()V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/util/concurrent/b;->a:Lcom/google/common/util/concurrent/Service;
 
     invoke-interface {v0}, Lcom/google/common/util/concurrent/Service;->d()V
@@ -126,7 +117,6 @@
     .annotation build Lf/f/f/a/a;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/util/concurrent/b;->a:Lcom/google/common/util/concurrent/Service;
 
     invoke-interface {v0}, Lcom/google/common/util/concurrent/Service;->e()Lcom/google/common/util/concurrent/Service;
@@ -137,7 +127,6 @@
 .method public final f()Lcom/google/common/util/concurrent/Service$State;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/util/concurrent/b;->a:Lcom/google/common/util/concurrent/Service;
 
     invoke-interface {v0}, Lcom/google/common/util/concurrent/Service;->f()Lcom/google/common/util/concurrent/Service$State;
@@ -150,7 +139,6 @@
 .method public final g()V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/util/concurrent/b;->a:Lcom/google/common/util/concurrent/Service;
 
     invoke-interface {v0}, Lcom/google/common/util/concurrent/Service;->g()V
@@ -161,7 +149,6 @@
 .method public final h()Ljava/lang/Throwable;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/util/concurrent/b;->a:Lcom/google/common/util/concurrent/Service;
 
     invoke-interface {v0}, Lcom/google/common/util/concurrent/Service;->h()Ljava/lang/Throwable;
@@ -176,7 +163,6 @@
     .annotation build Lf/f/f/a/a;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/util/concurrent/b;->a:Lcom/google/common/util/concurrent/Service;
 
     invoke-interface {v0}, Lcom/google/common/util/concurrent/Service;->i()Lcom/google/common/util/concurrent/Service;
@@ -187,7 +173,6 @@
 .method public final isRunning()Z
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/util/concurrent/b;->a:Lcom/google/common/util/concurrent/Service;
 
     invoke-interface {v0}, Lcom/google/common/util/concurrent/Service;->isRunning()Z
@@ -200,7 +185,6 @@
 .method protected k()Ljava/util/concurrent/Executor;
     .locals 1
 
-    .line 1
     new-instance v0, Lcom/google/common/util/concurrent/b$b;
 
     invoke-direct {v0, p0}, Lcom/google/common/util/concurrent/b$b;-><init>(Lcom/google/common/util/concurrent/b;)V
@@ -219,7 +203,6 @@
 .method protected m()Ljava/lang/String;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
     move-result-object v0
@@ -264,7 +247,6 @@
 .method public toString()Ljava/lang/String;
     .locals 2
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V

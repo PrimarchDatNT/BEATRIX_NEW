@@ -33,7 +33,6 @@
 .method constructor <init>(Lcom/google/common/collect/StandardTable$f;)V
     .locals 1
 
-    .line 1
     iput-object p1, p0, Lcom/google/common/collect/StandardTable$f$a;->b:Lcom/google/common/collect/StandardTable$f;
 
     iget-object p1, p1, Lcom/google/common/collect/StandardTable$f;->d:Lcom/google/common/collect/StandardTable;
@@ -50,15 +49,12 @@
 .method public contains(Ljava/lang/Object;)Z
     .locals 2
 
-    .line 1
     instance-of v0, p1, Ljava/util/Map$Entry;
 
     if-eqz v0, :cond_0
 
-    .line 2
     check-cast p1, Ljava/util/Map$Entry;
 
-    .line 3
     iget-object v0, p0, Lcom/google/common/collect/StandardTable$f$a;->b:Lcom/google/common/collect/StandardTable$f;
 
     iget-object v0, v0, Lcom/google/common/collect/StandardTable$f;->d:Lcom/google/common/collect/StandardTable;
@@ -73,12 +69,10 @@
 
     if-eqz v0, :cond_0
 
-    .line 4
     invoke-interface {p1}, Ljava/util/Map$Entry;->getKey()Ljava/lang/Object;
 
     move-result-object v0
 
-    .line 5
     iget-object v1, p0, Lcom/google/common/collect/StandardTable$f$a;->b:Lcom/google/common/collect/StandardTable$f;
 
     invoke-virtual {v1, v0}, Lcom/google/common/collect/StandardTable$f;->d(Ljava/lang/Object;)Ljava/util/Map;
@@ -114,12 +108,10 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/StandardTable$f$a;->b:Lcom/google/common/collect/StandardTable$f;
 
     iget-object v0, v0, Lcom/google/common/collect/StandardTable$f;->d:Lcom/google/common/collect/StandardTable;
 
-    .line 2
     invoke-virtual {v0}, Lcom/google/common/collect/StandardTable;->columnKeySet()Ljava/util/Set;
 
     move-result-object v0
@@ -128,7 +120,6 @@
 
     invoke-direct {v1, p0}, Lcom/google/common/collect/StandardTable$f$a$a;-><init>(Lcom/google/common/collect/StandardTable$f$a;)V
 
-    .line 3
     invoke-static {v0, v1}, Lcom/google/common/collect/Maps;->m(Ljava/util/Set;Lcom/google/common/base/n;)Ljava/util/Iterator;
 
     move-result-object v0
@@ -139,17 +130,14 @@
 .method public remove(Ljava/lang/Object;)Z
     .locals 1
 
-    .line 1
     invoke-virtual {p0, p1}, Lcom/google/common/collect/StandardTable$f$a;->contains(Ljava/lang/Object;)Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
-    .line 2
     check-cast p1, Ljava/util/Map$Entry;
 
-    .line 3
     iget-object v0, p0, Lcom/google/common/collect/StandardTable$f$a;->b:Lcom/google/common/collect/StandardTable$f;
 
     iget-object v0, v0, Lcom/google/common/collect/StandardTable$f;->d:Lcom/google/common/collect/StandardTable;
@@ -180,10 +168,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p1}, Lcom/google/common/base/t;->E(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 2
     invoke-interface {p1}, Ljava/util/Collection;->iterator()Ljava/util/Iterator;
 
     move-result-object p1
@@ -205,10 +191,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p1}, Lcom/google/common/base/t;->E(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 2
     iget-object v0, p0, Lcom/google/common/collect/StandardTable$f$a;->b:Lcom/google/common/collect/StandardTable$f;
 
     iget-object v0, v0, Lcom/google/common/collect/StandardTable$f;->d:Lcom/google/common/collect/StandardTable;
@@ -243,7 +227,6 @@
 
     move-result-object v2
 
-    .line 3
     iget-object v3, p0, Lcom/google/common/collect/StandardTable$f$a;->b:Lcom/google/common/collect/StandardTable$f;
 
     iget-object v3, v3, Lcom/google/common/collect/StandardTable$f;->d:Lcom/google/common/collect/StandardTable;
@@ -262,7 +245,6 @@
 
     if-nez v3, :cond_0
 
-    .line 4
     iget-object v1, p0, Lcom/google/common/collect/StandardTable$f$a;->b:Lcom/google/common/collect/StandardTable$f;
 
     iget-object v1, v1, Lcom/google/common/collect/StandardTable$f;->d:Lcom/google/common/collect/StandardTable;
@@ -280,7 +262,6 @@
 .method public size()I
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/StandardTable$f$a;->b:Lcom/google/common/collect/StandardTable$f;
 
     iget-object v0, v0, Lcom/google/common/collect/StandardTable$f;->d:Lcom/google/common/collect/StandardTable;

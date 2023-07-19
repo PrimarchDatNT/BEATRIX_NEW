@@ -36,7 +36,6 @@
 .method public constructor <init>(Lcom/commsource/camera/ardata/g;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/camera/ardata/g$a;->b:Lcom/commsource/camera/ardata/g;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -61,7 +60,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/ardata/g$a;->a:Ljava/util/List;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

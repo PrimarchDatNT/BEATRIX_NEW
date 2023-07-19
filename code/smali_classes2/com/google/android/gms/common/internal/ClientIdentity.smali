@@ -55,7 +55,6 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
     new-instance v0, Lcom/google/android/gms/common/internal/m0;
 
     invoke-direct {v0}, Lcom/google/android/gms/common/internal/m0;-><init>()V
@@ -83,13 +82,10 @@
     .annotation build Lcom/google/android/gms/common/internal/safeparcel/SafeParcelable$b;
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Lcom/google/android/gms/common/internal/safeparcel/AbstractSafeParcelable;-><init>()V
 
-    .line 2
     iput p1, p0, Lcom/google/android/gms/common/internal/ClientIdentity;->a:I
 
-    .line 3
     iput-object p2, p0, Lcom/google/android/gms/common/internal/ClientIdentity;->b:Ljava/lang/String;
 
     return-void
@@ -111,18 +107,15 @@
 
     if-eqz p1, :cond_2
 
-    .line 1
     instance-of v2, p1, Lcom/google/android/gms/common/internal/ClientIdentity;
 
     if-nez v2, :cond_1
 
     goto :goto_0
 
-    .line 2
     :cond_1
     check-cast p1, Lcom/google/android/gms/common/internal/ClientIdentity;
 
-    .line 3
     iget v2, p1, Lcom/google/android/gms/common/internal/ClientIdentity;->a:I
 
     iget v3, p0, Lcom/google/android/gms/common/internal/ClientIdentity;->a:I
@@ -149,7 +142,6 @@
 .method public hashCode()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lcom/google/android/gms/common/internal/ClientIdentity;->a:I
 
     return v0
@@ -158,7 +150,6 @@
 .method public toString()Ljava/lang/String;
     .locals 4
 
-    .line 1
     iget v0, p0, Lcom/google/android/gms/common/internal/ClientIdentity;->a:I
 
     iget-object v1, p0, Lcom/google/android/gms/common/internal/ClientIdentity;->b:Ljava/lang/String;
@@ -195,19 +186,16 @@
 .method public writeToParcel(Landroid/os/Parcel;I)V
     .locals 3
 
-    .line 1
     invoke-static {p1}, Lcom/google/android/gms/common/internal/safeparcel/a;->a(Landroid/os/Parcel;)I
 
     move-result p2
 
-    .line 2
     iget v0, p0, Lcom/google/android/gms/common/internal/ClientIdentity;->a:I
 
     const/4 v1, 0x1
 
     invoke-static {p1, v1, v0}, Lcom/google/android/gms/common/internal/safeparcel/a;->F(Landroid/os/Parcel;II)V
 
-    .line 3
     iget-object v0, p0, Lcom/google/android/gms/common/internal/ClientIdentity;->b:Ljava/lang/String;
 
     const/4 v1, 0x2
@@ -216,7 +204,6 @@
 
     invoke-static {p1, v1, v0, v2}, Lcom/google/android/gms/common/internal/safeparcel/a;->X(Landroid/os/Parcel;ILjava/lang/String;Z)V
 
-    .line 4
     invoke-static {p1, p2}, Lcom/google/android/gms/common/internal/safeparcel/a;->b(Landroid/os/Parcel;I)V
 
     return-void

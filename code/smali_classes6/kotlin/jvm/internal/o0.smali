@@ -11,7 +11,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -22,7 +21,6 @@
 .method public a(Ljava/lang/Class;)Lcotlin/reflect/d;
     .locals 1
 
-    .line 1
     new-instance v0, Lcotlin/jvm/internal/s;
 
     invoke-direct {v0, p1}, Lcotlin/jvm/internal/s;-><init>(Ljava/lang/Class;)V
@@ -33,7 +31,6 @@
 .method public b(Ljava/lang/Class;Ljava/lang/String;)Lcotlin/reflect/d;
     .locals 0
 
-    .line 1
     new-instance p2, Lcotlin/jvm/internal/s;
 
     invoke-direct {p2, p1}, Lcotlin/jvm/internal/s;-><init>(Ljava/lang/Class;)V
@@ -50,7 +47,6 @@
 .method public d(Ljava/lang/Class;)Lcotlin/reflect/d;
     .locals 1
 
-    .line 1
     new-instance v0, Lcotlin/jvm/internal/s;
 
     invoke-direct {v0, p1}, Lcotlin/jvm/internal/s;-><init>(Ljava/lang/Class;)V
@@ -61,7 +57,6 @@
 .method public e(Ljava/lang/Class;Ljava/lang/String;)Lcotlin/reflect/d;
     .locals 0
 
-    .line 1
     new-instance p2, Lcotlin/jvm/internal/s;
 
     invoke-direct {p2, p1}, Lcotlin/jvm/internal/s;-><init>(Ljava/lang/Class;)V
@@ -72,7 +67,6 @@
 .method public f(Ljava/lang/Class;Ljava/lang/String;)Lcotlin/reflect/h;
     .locals 1
 
-    .line 1
     new-instance v0, Lcotlin/jvm/internal/l0;
 
     invoke-direct {v0, p1, p2}, Lcotlin/jvm/internal/l0;-><init>(Ljava/lang/Class;Ljava/lang/String;)V
@@ -122,7 +116,6 @@
         version = "1.3"
     .end annotation
 
-    .line 1
     invoke-virtual {p1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
     move-result-object p1
@@ -141,7 +134,6 @@
 
     const-string v0, "kotlin.jvm.functions."
 
-    .line 2
     invoke-virtual {p1, v0}, Ljava/lang/String;->startsWith(Ljava/lang/String;)Z
 
     move-result v0
@@ -164,7 +156,6 @@
         version = "1.1"
     .end annotation
 
-    .line 1
     invoke-virtual {p0, p1}, Lcotlin/jvm/internal/o0;->m(Lcotlin/jvm/internal/b0;)Ljava/lang/String;
 
     move-result-object p1
@@ -188,7 +179,6 @@
         version = "1.4"
     .end annotation
 
-    .line 1
     check-cast p1, Lcotlin/jvm/internal/v0;
 
     invoke-virtual {p1, p2}, Lcotlin/jvm/internal/v0;->g(Ljava/util/List;)V
@@ -213,7 +203,6 @@
         version = "1.4"
     .end annotation
 
-    .line 1
     new-instance v0, Lcotlin/jvm/internal/TypeReference;
 
     invoke-direct {v0, p1, p2, p3}, Lcotlin/jvm/internal/TypeReference;-><init>(Lcotlin/reflect/g;Ljava/util/List;Z)V
@@ -227,7 +216,6 @@
         version = "1.4"
     .end annotation
 
-    .line 1
     new-instance v0, Lcotlin/jvm/internal/v0;
 
     invoke-direct {v0, p1, p2, p3, p4}, Lcotlin/jvm/internal/v0;-><init>(Ljava/lang/Object;Ljava/lang/String;Lcotlin/reflect/KVariance;Z)V

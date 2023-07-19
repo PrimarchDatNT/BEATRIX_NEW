@@ -36,13 +36,10 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/google/android/gms/internal/ads/r81;->a:Landroid/content/pm/ApplicationInfo;
 
-    .line 3
     iput-object p2, p0, Lcom/google/android/gms/internal/ads/r81;->b:Landroid/content/pm/PackageInfo;
 
     return-void
@@ -62,7 +59,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p0}, Lcom/google/android/gms/internal/ads/jq1;->g(Ljava/lang/Object;)Lcom/google/android/gms/internal/ads/rq1;
 
     move-result-object v0
@@ -73,15 +69,12 @@
 .method public final synthetic b(Ljava/lang/Object;)V
     .locals 4
 
-    .line 1
     check-cast p1, Landroid/os/Bundle;
 
-    .line 2
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/r81;->a:Landroid/content/pm/ApplicationInfo;
 
     iget-object v0, v0, Landroid/content/pm/ApplicationInfo;->packageName:Ljava/lang/String;
 
-    .line 3
     iget-object v1, p0, Lcom/google/android/gms/internal/ads/r81;->b:Landroid/content/pm/PackageInfo;
 
     const/4 v2, 0x0
@@ -102,12 +95,10 @@
     :goto_0
     const-string v3, "pn"
 
-    .line 4
     invoke-virtual {p1, v3, v0}, Landroid/os/Bundle;->putString(Ljava/lang/String;Ljava/lang/String;)V
 
     if-eqz v1, :cond_1
 
-    .line 5
     invoke-virtual {v1}, Ljava/lang/Integer;->intValue()I
 
     move-result v0
@@ -116,11 +107,9 @@
 
     invoke-virtual {p1, v1, v0}, Landroid/os/Bundle;->putInt(Ljava/lang/String;I)V
 
-    .line 6
     :cond_1
     sget-object v0, Lcom/google/android/gms/internal/ads/w;->U3:Lcom/google/android/gms/internal/ads/h;
 
-    .line 7
     invoke-static {}, Lcom/google/android/gms/internal/ads/zm2;->e()Lcom/google/android/gms/internal/ads/s;
 
     move-result-object v1
@@ -129,7 +118,6 @@
 
     move-result-object v0
 
-    .line 8
     check-cast v0, Ljava/lang/Boolean;
 
     invoke-virtual {v0}, Ljava/lang/Boolean;->booleanValue()Z
@@ -138,7 +126,6 @@
 
     if-eqz v0, :cond_3
 
-    .line 9
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/r81;->b:Landroid/content/pm/PackageInfo;
 
     if-nez v0, :cond_2
@@ -153,7 +140,6 @@
 
     const-string v0, "vnm"
 
-    .line 10
     invoke-virtual {p1, v0, v2}, Landroid/os/Bundle;->putString(Ljava/lang/String;Ljava/lang/String;)V
 
     :cond_3

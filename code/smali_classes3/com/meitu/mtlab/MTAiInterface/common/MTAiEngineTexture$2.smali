@@ -31,7 +31,6 @@
 .method constructor <init>(Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineTexture;II[B)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineTexture$2;->val$texture:Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineTexture;
 
     iput p2, p0, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineTexture$2;->val$width:I
@@ -54,7 +53,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineTexture$2;->val$texture:Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineTexture;
 
     iget v2, p0, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineTexture$2;->val$width:I
@@ -69,7 +67,6 @@
 
     invoke-static {v1, v2, v3}, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineTexture;->access$002(Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineTexture;J)J
 
-    .line 2
     iget-object v1, p0, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineTexture$2;->val$texture:Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineTexture;
 
     invoke-static {v1}, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineTexture;->access$000(Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineTexture;)J
@@ -82,7 +79,6 @@
 
     invoke-virtual {v1, v2}, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineTexture;->setID(I)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

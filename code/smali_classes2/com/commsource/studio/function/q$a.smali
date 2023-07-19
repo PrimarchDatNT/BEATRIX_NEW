@@ -23,7 +23,6 @@
 
     invoke-static {p0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -48,7 +47,6 @@
 
     invoke-static {p1, p2}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-static {p0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -76,7 +74,6 @@
 
     const/4 p3, 0x0
 
-    .line 1
     :cond_1
     invoke-interface {p0, p1, p2, p3}, Lcom/commsource/studio/function/q;->b(Lcom/commsource/studio/effect/k;Landroid/graphics/Bitmap;Z)V
 
@@ -84,7 +81,6 @@
 
     return-void
 
-    .line 2
     :cond_2
     new-instance p0, Ljava/lang/UnsupportedOperationException;
 

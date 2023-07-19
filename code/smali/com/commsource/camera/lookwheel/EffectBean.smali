@@ -39,13 +39,10 @@
 .method public constructor <init>(Ljava/lang/String;Z)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/commsource/camera/lookwheel/EffectBean;->mPath:Ljava/lang/String;
 
-    .line 3
     iput-boolean p2, p0, Lcom/commsource/camera/lookwheel/EffectBean;->isInnerStyle:Z
 
     return-void
@@ -60,7 +57,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/lookwheel/EffectBean;->mArJsonConfigBuffer:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -75,7 +71,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/lookwheel/EffectBean;->mArMakeupParam:Lcom/commsource/camera/param/MakeupParam;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -90,7 +85,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/lookwheel/EffectBean;->mBeautyFaceConfig:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -105,7 +99,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/lookwheel/EffectBean;->mEffectDegreeBean:Lcom/commsource/camera/lookwheel/StyleEffectDegree;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -120,7 +113,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/lookwheel/EffectBean;->mFaceLiftMakeupParam:Lcom/commsource/camera/param/MakeupParam;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -135,7 +127,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/lookwheel/EffectBean;->mFilter:Lcom/meitu/template/bean/Filter;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -159,7 +150,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/lookwheel/EffectBean;->mParamHashMap:Ljava/util/HashMap;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -174,10 +164,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/lookwheel/EffectBean;->mPath:Ljava/lang/String;
 
-    .line 2
     iget-boolean v2, p0, Lcom/commsource/camera/lookwheel/EffectBean;->isInnerStyle:Z
 
     if-nez v2, :cond_0
@@ -192,7 +180,6 @@
 
     if-eqz v2, :cond_1
 
-    .line 3
     :cond_0
     invoke-static {v1}, Lcom/commsource/camera/lookwheel/StyleEffectDegree;->parseEffectDegreePlist(Ljava/lang/String;)Lcom/commsource/camera/lookwheel/StyleEffectDegree;
 
@@ -200,7 +187,6 @@
 
     iput-object v1, p0, Lcom/commsource/camera/lookwheel/EffectBean;->mEffectDegreeBean:Lcom/commsource/camera/lookwheel/StyleEffectDegree;
 
-    .line 4
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -214,36 +200,30 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/camera/lookwheel/EffectBean;->mEffectDegreeBean:Lcom/commsource/camera/lookwheel/StyleEffectDegree;
 
     iget-object v0, v0, Lcom/commsource/camera/lookwheel/StyleEffectDegree;->arPath:Ljava/lang/String;
 
-    .line 2
     invoke-static {v0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v1
 
     if-nez v1, :cond_0
 
-    .line 3
     new-instance v1, Lcom/commsource/camera/param/MakeupParam;
 
     invoke-direct {v1}, Lcom/commsource/camera/param/MakeupParam;-><init>()V
 
     iput-object v1, p0, Lcom/commsource/camera/lookwheel/EffectBean;->mArMakeupParam:Lcom/commsource/camera/param/MakeupParam;
 
-    .line 4
     invoke-virtual {v1, v0}, Lcom/commsource/camera/param/MakeupParam;->setPlistPath(Ljava/lang/String;)V
 
-    .line 5
     iget-object v1, p0, Lcom/commsource/camera/lookwheel/EffectBean;->mArMakeupParam:Lcom/commsource/camera/param/MakeupParam;
 
     const/16 v2, 0x95
 
     invoke-virtual {v1, v2}, Lcom/commsource/camera/param/MakeupParam;->setMakeupType(I)V
 
-    .line 6
     iget-object v1, p0, Lcom/commsource/camera/lookwheel/EffectBean;->mArMakeupParam:Lcom/commsource/camera/param/MakeupParam;
 
     new-instance v2, Ljava/lang/StringBuilder;
@@ -276,7 +256,6 @@
 
     invoke-virtual {v1, v0}, Lcom/commsource/camera/param/MakeupParam;->setResourcePath(Ljava/lang/String;)V
 
-    .line 7
     :cond_0
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -294,14 +273,12 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     invoke-static {}, Lcom/commsource/util/x;->F()Z
 
     move-result p1
 
     if-nez p1, :cond_0
 
-    .line 2
     new-instance p1, Ljava/lang/StringBuilder;
 
     invoke-direct {p1}, Ljava/lang/StringBuilder;-><init>()V
@@ -330,7 +307,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_0
     new-instance p1, Ljava/lang/StringBuilder;
 
@@ -358,7 +334,6 @@
 
     iput-object p1, p0, Lcom/commsource/camera/lookwheel/EffectBean;->mBeautyFaceConfig:Ljava/lang/String;
 
-    .line 4
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -374,7 +349,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     new-instance p1, Ljava/lang/StringBuilder;
 
     invoke-direct {p1}, Ljava/lang/StringBuilder;-><init>()V
@@ -403,13 +377,11 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     iget-object p1, p0, Lcom/commsource/camera/lookwheel/EffectBean;->mEffectDegreeBean:Lcom/commsource/camera/lookwheel/StyleEffectDegree;
 
     iget-object p1, p1, Lcom/commsource/camera/lookwheel/StyleEffectDegree;->faceliftPath:Ljava/lang/String;
 
-    .line 3
     :goto_0
     invoke-static {p1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
@@ -421,10 +393,8 @@
 
     const-string v2, "---\u89e3\u6790\u7f8e\u578b \u6548\u679c---"
 
-    .line 4
     invoke-static {v1, v2}, Lcom/meitu/library/util/Debug/Debug;->e(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 5
     new-instance v1, Lcom/commsource/camera/param/MakeupParam;
 
     invoke-direct {v1}, Lcom/commsource/camera/param/MakeupParam;-><init>()V
@@ -433,15 +403,12 @@
 
     const/16 v2, 0x92
 
-    .line 6
     invoke-virtual {v1, v2}, Lcom/commsource/camera/param/MakeupParam;->setMakeupType(I)V
 
-    .line 7
     iget-object v1, p0, Lcom/commsource/camera/lookwheel/EffectBean;->mFaceLiftMakeupParam:Lcom/commsource/camera/param/MakeupParam;
 
     invoke-virtual {v1, p1}, Lcom/commsource/camera/param/MakeupParam;->setPlistPath(Ljava/lang/String;)V
 
-    .line 8
     iget-object v1, p0, Lcom/commsource/camera/lookwheel/EffectBean;->mFaceLiftMakeupParam:Lcom/commsource/camera/param/MakeupParam;
 
     new-instance v2, Ljava/lang/StringBuilder;
@@ -452,7 +419,6 @@
 
     sget-object v4, Ljava/io/File;->separator:Ljava/lang/String;
 
-    .line 9
     invoke-virtual {p1, v4}, Ljava/lang/String;->lastIndexOf(Ljava/lang/String;)I
 
     move-result v4
@@ -473,10 +439,8 @@
 
     move-result-object p1
 
-    .line 10
     invoke-virtual {v1, p1}, Lcom/commsource/camera/param/MakeupParam;->setResourcePath(Ljava/lang/String;)V
 
-    .line 11
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -490,12 +454,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/lookwheel/EffectBean;->mEffectDegreeBean:Lcom/commsource/camera/lookwheel/StyleEffectDegree;
 
     iget-object v1, v1, Lcom/commsource/camera/lookwheel/StyleEffectDegree;->filterPath:Ljava/lang/String;
 
-    .line 2
     invoke-static {v1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v2
@@ -504,7 +466,6 @@
 
     const/4 v2, 0x0
 
-    .line 3
     sget-object v3, Ljava/io/File;->separator:Ljava/lang/String;
 
     invoke-virtual {v1, v3}, Ljava/lang/String;->lastIndexOf(Ljava/lang/String;)I
@@ -515,7 +476,6 @@
 
     move-result-object v1
 
-    .line 4
     invoke-static {v1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v2
@@ -526,10 +486,8 @@
 
     const-string v3, "---\u89e3\u6790\u6ee4\u955c \u6548\u679c---"
 
-    .line 5
     invoke-static {v2, v3}, Lcom/meitu/library/util/Debug/Debug;->e(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 6
     new-instance v2, Lcom/meitu/template/bean/Filter;
 
     const/4 v3, -0x1
@@ -538,7 +496,6 @@
 
     iput-object v2, p0, Lcom/commsource/camera/lookwheel/EffectBean;->mFilter:Lcom/meitu/template/bean/Filter;
 
-    .line 7
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -552,12 +509,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/lookwheel/EffectBean;->mEffectDegreeBean:Lcom/commsource/camera/lookwheel/StyleEffectDegree;
 
     iget-object v1, v1, Lcom/commsource/camera/lookwheel/StyleEffectDegree;->makeupPath:Ljava/lang/String;
 
-    .line 2
     invoke-static {v1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v2
@@ -568,10 +523,8 @@
 
     const-string v3, "---\u89e3\u6790\u7f8e\u5986 \u6548\u679c---"
 
-    .line 3
     invoke-static {v2, v3}, Lcom/meitu/library/util/Debug/Debug;->e(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 4
     new-instance v2, Ljava/util/HashMap;
 
     const/4 v3, 0x4
@@ -580,20 +533,16 @@
 
     iput-object v2, p0, Lcom/commsource/camera/lookwheel/EffectBean;->mParamHashMap:Ljava/util/HashMap;
 
-    .line 5
     new-instance v2, Lcom/commsource/camera/param/MakeupParam;
 
     invoke-direct {v2}, Lcom/commsource/camera/param/MakeupParam;-><init>()V
 
     const/4 v3, 0x2
 
-    .line 6
     invoke-virtual {v2, v3}, Lcom/commsource/camera/param/MakeupParam;->setMakeupType(I)V
 
-    .line 7
     invoke-virtual {v2, v1}, Lcom/commsource/camera/param/MakeupParam;->setPlistPath(Ljava/lang/String;)V
 
-    .line 8
     new-instance v4, Ljava/lang/StringBuilder;
 
     invoke-direct {v4}, Ljava/lang/StringBuilder;-><init>()V
@@ -602,7 +551,6 @@
 
     sget-object v6, Ljava/io/File;->separator:Ljava/lang/String;
 
-    .line 9
     invoke-virtual {v1, v6}, Ljava/lang/String;->lastIndexOf(Ljava/lang/String;)I
 
     move-result v6
@@ -625,7 +573,6 @@
 
     invoke-virtual {v2, v1}, Lcom/commsource/camera/param/MakeupParam;->setResourcePath(Ljava/lang/String;)V
 
-    .line 10
     iget-object v1, p0, Lcom/commsource/camera/lookwheel/EffectBean;->mParamHashMap:Ljava/util/HashMap;
 
     invoke-static {v3}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -634,7 +581,6 @@
 
     invoke-virtual {v1, v3, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 11
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -648,10 +594,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/camera/lookwheel/EffectBean;->mArJsonConfigBuffer:Ljava/lang/String;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

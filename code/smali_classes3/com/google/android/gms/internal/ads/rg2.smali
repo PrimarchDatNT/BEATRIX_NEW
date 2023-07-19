@@ -33,22 +33,16 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/google/android/gms/internal/ads/rg2;->a:Ljava/util/List;
 
-    .line 3
     iput p2, p0, Lcom/google/android/gms/internal/ads/rg2;->b:I
 
-    .line 4
     iput p3, p0, Lcom/google/android/gms/internal/ads/rg2;->c:I
 
-    .line 5
     iput p4, p0, Lcom/google/android/gms/internal/ads/rg2;->d:I
 
-    .line 6
     iput p5, p0, Lcom/google/android/gms/internal/ads/rg2;->e:F
 
     return-void
@@ -64,11 +58,9 @@
 
     const/4 v0, 0x4
 
-    .line 1
     :try_start_0
     invoke-virtual {p0, v0}, Lcom/google/android/gms/internal/ads/jg2;->m(I)V
 
-    .line 2
     invoke-virtual {p0}, Lcom/google/android/gms/internal/ads/jg2;->g()I
 
     move-result v0
@@ -81,12 +73,10 @@
 
     if-eq v4, v1, :cond_3
 
-    .line 3
     new-instance v3, Ljava/util/ArrayList;
 
     invoke-direct {v3}, Ljava/util/ArrayList;-><init>()V
 
-    .line 4
     invoke-virtual {p0}, Lcom/google/android/gms/internal/ads/jg2;->g()I
 
     move-result v0
@@ -100,7 +90,6 @@
     :goto_0
     if-ge v2, v0, :cond_0
 
-    .line 5
     invoke-static {p0}, Lcom/google/android/gms/internal/ads/rg2;->b(Lcom/google/android/gms/internal/ads/jg2;)[B
 
     move-result-object v5
@@ -111,7 +100,6 @@
 
     goto :goto_0
 
-    .line 6
     :cond_0
     invoke-virtual {p0}, Lcom/google/android/gms/internal/ads/jg2;->g()I
 
@@ -122,7 +110,6 @@
     :goto_1
     if-ge v5, v2, :cond_1
 
-    .line 7
     invoke-static {p0}, Lcom/google/android/gms/internal/ads/rg2;->b(Lcom/google/android/gms/internal/ads/jg2;)[B
 
     move-result-object v6
@@ -140,14 +127,12 @@
 
     if-lez v0, :cond_2
 
-    .line 8
     invoke-interface {v3, v1}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object p0
 
     check-cast p0, [B
 
-    .line 9
     invoke-interface {v3, v1}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object v0
@@ -160,13 +145,10 @@
 
     move-result-object p0
 
-    .line 10
     iget v0, p0, Lcom/google/android/gms/internal/ads/hg2;->b:I
 
-    .line 11
     iget v1, p0, Lcom/google/android/gms/internal/ads/hg2;->c:I
 
-    .line 12
     iget p0, p0, Lcom/google/android/gms/internal/ads/hg2;->d:F
 
     move v7, p0
@@ -184,7 +166,6 @@
 
     const/high16 v7, 0x3f800000    # 1.0f
 
-    .line 13
     :goto_2
     new-instance p0, Lcom/google/android/gms/internal/ads/rg2;
 
@@ -194,7 +175,6 @@
 
     return-object p0
 
-    .line 14
     :cond_3
     new-instance p0, Ljava/lang/IllegalStateException;
 
@@ -207,7 +187,6 @@
     :catch_0
     move-exception p0
 
-    .line 15
     new-instance v0, Lcom/google/android/gms/internal/ads/zzht;
 
     const-string v1, "Error parsing AVC config"
@@ -220,20 +199,16 @@
 .method private static b(Lcom/google/android/gms/internal/ads/jg2;)[B
     .locals 2
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/android/gms/internal/ads/jg2;->h()I
 
     move-result v0
 
-    .line 2
     invoke-virtual {p0}, Lcom/google/android/gms/internal/ads/jg2;->b()I
 
     move-result v1
 
-    .line 3
     invoke-virtual {p0, v0}, Lcom/google/android/gms/internal/ads/jg2;->m(I)V
 
-    .line 4
     iget-object p0, p0, Lcom/google/android/gms/internal/ads/jg2;->a:[B
 
     invoke-static {p0, v1, v0}, Lcom/google/android/gms/internal/ads/bg2;->c([BII)[B

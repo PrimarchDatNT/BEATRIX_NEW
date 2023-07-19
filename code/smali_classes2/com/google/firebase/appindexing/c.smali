@@ -32,7 +32,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -45,7 +44,6 @@
 
     monitor-enter v0
 
-    .line 1
     :try_start_0
     sget-object v1, Lcom/google/firebase/appindexing/c;->f:Ljava/lang/ref/WeakReference;
 
@@ -65,7 +63,6 @@
     :goto_0
     if-nez v1, :cond_1
 
-    .line 2
     invoke-static {}, Lcom/google/firebase/d;->n()Lcom/google/firebase/d;
 
     move-result-object v1
@@ -74,12 +71,10 @@
 
     move-result-object v1
 
-    .line 3
     new-instance v2, Lcom/google/firebase/appindexing/internal/j;
 
     invoke-direct {v2, v1}, Lcom/google/firebase/appindexing/internal/j;-><init>(Landroid/content/Context;)V
 
-    .line 4
     new-instance v1, Ljava/lang/ref/WeakReference;
 
     invoke-direct {v1, v2}, Ljava/lang/ref/WeakReference;-><init>(Ljava/lang/Object;)V
@@ -90,7 +85,6 @@
 
     move-object v1, v2
 
-    .line 5
     :cond_1
     monitor-exit v0
 

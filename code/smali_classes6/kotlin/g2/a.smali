@@ -59,7 +59,6 @@
 .method public constructor <init>(CCI)V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     if-eqz p3, :cond_1
@@ -68,10 +67,8 @@
 
     if-eq p3, v0, :cond_0
 
-    .line 2
     iput-char p1, p0, Lcotlin/g2/a;->a:C
 
-    .line 3
     invoke-static {p1, p2, p3}, Lcotlin/internal/m;->c(III)I
 
     move-result p1
@@ -80,12 +77,10 @@
 
     iput-char p1, p0, Lcotlin/g2/a;->b:C
 
-    .line 4
     iput p3, p0, Lcotlin/g2/a;->c:I
 
     return-void
 
-    .line 5
     :cond_0
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -95,7 +90,6 @@
 
     throw p1
 
-    .line 6
     :cond_1
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -111,7 +105,6 @@
 .method public final c()C
     .locals 1
 
-    .line 1
     iget-char v0, p0, Lcotlin/g2/a;->a:C
 
     return v0
@@ -120,7 +113,6 @@
 .method public final e()C
     .locals 1
 
-    .line 1
     iget-char v0, p0, Lcotlin/g2/a;->b:C
 
     return v0
@@ -133,7 +125,6 @@
         .end annotation
     .end param
 
-    .line 1
     instance-of v0, p1, Lcotlin/g2/a;
 
     if-eqz v0, :cond_2
@@ -190,7 +181,6 @@
 .method public final h()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lcotlin/g2/a;->c:I
 
     return v0
@@ -199,7 +189,6 @@
 .method public hashCode()I
     .locals 2
 
-    .line 1
     invoke-virtual {p0}, Lcotlin/g2/a;->isEmpty()Z
 
     move-result v0
@@ -234,7 +223,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     new-instance v0, Lcotlin/g2/b;
 
     iget-char v1, p0, Lcotlin/g2/a;->a:C
@@ -251,7 +239,6 @@
 .method public isEmpty()Z
     .locals 4
 
-    .line 1
     iget v0, p0, Lcotlin/g2/a;->c:I
 
     const/4 v1, 0x1
@@ -295,7 +282,6 @@
 .method public bridge synthetic iterator()Ljava/util/Iterator;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcotlin/g2/a;->i()Lcotlin/collections/r;
 
     move-result-object v0
@@ -308,7 +294,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget v0, p0, Lcotlin/g2/a;->c:I
 
     const-string v1, " step "

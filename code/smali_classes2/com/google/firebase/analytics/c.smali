@@ -25,7 +25,6 @@
 .method constructor <init>(Lcom/google/firebase/analytics/FirebaseAnalytics;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/firebase/analytics/c;->a:Lcom/google/firebase/analytics/FirebaseAnalytics;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -43,7 +42,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/analytics/c;->a:Lcom/google/firebase/analytics/FirebaseAnalytics;
 
     invoke-static {v0}, Lcom/google/firebase/analytics/FirebaseAnalytics;->i(Lcom/google/firebase/analytics/FirebaseAnalytics;)Ljava/lang/String;
@@ -54,7 +52,6 @@
 
     return-object v0
 
-    .line 2
     :cond_0
     iget-object v0, p0, Lcom/google/firebase/analytics/c;->a:Lcom/google/firebase/analytics/FirebaseAnalytics;
 
@@ -64,7 +61,6 @@
 
     if-eqz v0, :cond_1
 
-    .line 3
     iget-object v0, p0, Lcom/google/firebase/analytics/c;->a:Lcom/google/firebase/analytics/FirebaseAnalytics;
 
     invoke-static {v0}, Lcom/google/firebase/analytics/FirebaseAnalytics;->o(Lcom/google/firebase/analytics/FirebaseAnalytics;)Lcom/google/android/gms/internal/measurement/qc;
@@ -77,7 +73,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_1
     iget-object v0, p0, Lcom/google/firebase/analytics/c;->a:Lcom/google/firebase/analytics/FirebaseAnalytics;
 
@@ -98,14 +93,12 @@
     :goto_0
     if-eqz v0, :cond_2
 
-    .line 5
     iget-object v1, p0, Lcom/google/firebase/analytics/c;->a:Lcom/google/firebase/analytics/FirebaseAnalytics;
 
     invoke-static {v1, v0}, Lcom/google/firebase/analytics/FirebaseAnalytics;->k(Lcom/google/firebase/analytics/FirebaseAnalytics;Ljava/lang/String;)V
 
     return-object v0
 
-    .line 6
     :cond_2
     new-instance v0, Ljava/util/concurrent/TimeoutException;
 

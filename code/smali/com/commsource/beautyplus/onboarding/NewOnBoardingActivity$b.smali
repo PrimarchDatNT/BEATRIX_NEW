@@ -42,19 +42,16 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/commsource/util/common/k;->a()Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 3
     :cond_0
     iget-object v0, p0, Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity$b;->a:Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity;
 
@@ -74,7 +71,6 @@
 
     if-nez v0, :cond_1
 
-    .line 4
     iget-object v0, p0, Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity$b;->a:Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity;
 
     invoke-static {v0}, Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity;->S0(Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity;)Lcom/commsource/billing/activity/SubscribeViewModel;
@@ -89,7 +85,6 @@
 
     invoke-virtual {v0, v1}, Lcom/commsource/billing/activity/SubscribeViewModel;->k1(I)V
 
-    .line 5
     iget-object v0, p0, Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity$b;->a:Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity;
 
     invoke-static {v0}, Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity;->S0(Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity;)Lcom/commsource/billing/activity/SubscribeViewModel;
@@ -102,13 +97,11 @@
 
     goto :goto_0
 
-    .line 6
     :cond_1
     iget-object v0, p0, Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity$b;->a:Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity;
 
     invoke-static {v0}, Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity;->V0(Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity;)V
 
-    .line 7
     :goto_0
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

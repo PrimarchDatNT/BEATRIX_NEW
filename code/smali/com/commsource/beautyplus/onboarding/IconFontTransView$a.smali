@@ -54,21 +54,18 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p2, p0, Lcom/commsource/beautyplus/onboarding/IconFontTransView$a;->b:Lcom/commsource/beautyplus/onboarding/IconFontTransView;
 
     iget-object p3, p0, Lcom/commsource/beautyplus/onboarding/IconFontTransView$a;->a:Lcom/commsource/widget/IconFrontView;
 
     invoke-virtual {p2, p3}, Landroid/widget/FrameLayout;->removeView(Landroid/view/View;)V
 
-    .line 2
     iget-object p2, p0, Lcom/commsource/beautyplus/onboarding/IconFontTransView$a;->b:Lcom/commsource/beautyplus/onboarding/IconFontTransView;
 
     const/4 p3, 0x0
 
     invoke-static {p2, p3}, Lcom/commsource/beautyplus/onboarding/IconFontTransView;->d(Lcom/commsource/beautyplus/onboarding/IconFontTransView;Lcom/commsource/widget/IconFrontView;)V
 
-    .line 3
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

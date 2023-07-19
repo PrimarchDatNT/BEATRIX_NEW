@@ -42,7 +42,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/studio/component/EraserComponent$b;->a:Lcom/commsource/studio/component/EraserComponent;
 
     invoke-static {v0}, Lcom/commsource/studio/component/EraserComponent;->f(Lcom/commsource/studio/component/EraserComponent;)Lcom/commsource/studio/component/EraserComponent$a;
@@ -59,7 +58,6 @@
 
     invoke-virtual {v0, p2}, Landroidx/lifecycle/MutableLiveData;->setValue(Ljava/lang/Object;)V
 
-    .line 2
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

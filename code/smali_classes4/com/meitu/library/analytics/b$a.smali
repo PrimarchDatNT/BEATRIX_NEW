@@ -28,7 +28,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/meitu/library/analytics/Permission;->values()[Lcom/meitu/library/analytics/Permission;
 
     move-result-object v1
@@ -100,7 +99,6 @@
     :try_end_3
     .catch Ljava/lang/NoSuchFieldError; {:try_start_3 .. :try_end_3} :catch_3
 
-    .line 2
     :catch_3
     invoke-static {}, Lcom/meitu/library/analytics/EventType;->values()[Lcom/meitu/library/analytics/EventType;
 

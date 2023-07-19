@@ -20,7 +20,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -29,7 +28,6 @@
 .method public synthetic constructor <init>(Lcotlin/jvm/internal/u;)V
     .locals 0
 
-    .line 2
     invoke-direct {p0}, Lcom/commsource/util/delegate/process/o$a;-><init>()V
 
     return-void
@@ -42,7 +40,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/commsource/util/delegate/process/o$a;->d(I)Z
 
     move-result p0
@@ -59,7 +56,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/commsource/util/delegate/process/o$a;->e(Lcom/meitu/template/bean/Filter;)Z
 
     move-result p0
@@ -76,7 +72,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/z0;->E()Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/z0;
 
     move-result-object v1
@@ -87,7 +82,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 2
     invoke-virtual {p1}, Lcom/meitu/template/bean/ArMaterial;->isNeedSubscribe()Z
 
     move-result p1
@@ -99,7 +93,6 @@
     :cond_0
     const/4 p1, 0x0
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
@@ -112,7 +105,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/commsource/camera/f1/f;->u(Lcom/meitu/template/bean/Filter;)Z
 
     move-result p1
@@ -139,7 +131,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-static {}, Lf/d/i/o;->o0()Z
 
     move-result v1
@@ -148,12 +139,10 @@
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v2
 
-    .line 3
     :cond_0
     new-instance v1, Ljava/util/HashSet;
 
@@ -161,7 +150,6 @@
 
     invoke-direct {v1, v3}, Ljava/util/HashSet;-><init>(I)V
 
-    .line 4
     invoke-virtual {p1}, Lcom/commsource/camera/beauty/ArAnalyAgent$ArVideoInfo;->getUseFilters()Ljava/util/List;
 
     move-result-object v3
@@ -170,7 +158,6 @@
 
     if-eqz v3, :cond_2
 
-    .line 5
     invoke-interface {v3}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v3
@@ -191,7 +178,6 @@
 
     check-cast v6, Lcom/meitu/template/bean/Filter;
 
-    .line 6
     sget-object v7, Lcom/commsource/util/delegate/process/o;->c:Lcom/commsource/util/delegate/process/o$a;
 
     const-string v8, "it"
@@ -204,7 +190,6 @@
 
     if-eqz v7, :cond_1
 
-    .line 7
     new-instance v5, Ljava/lang/StringBuilder;
 
     invoke-direct {v5}, Ljava/lang/StringBuilder;-><init>()V
@@ -232,7 +217,6 @@
     :cond_2
     const/4 v5, 0x0
 
-    .line 8
     :cond_3
     invoke-virtual {p1}, Lcom/commsource/camera/beauty/ArAnalyAgent$ArVideoInfo;->getArMaterialIds()Ljava/util/List;
 
@@ -240,7 +224,6 @@
 
     if-eqz v3, :cond_5
 
-    .line 9
     invoke-interface {v3}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v3
@@ -259,7 +242,6 @@
 
     check-cast v6, Ljava/lang/Long;
 
-    .line 10
     sget-object v7, Lcom/commsource/util/delegate/process/o;->c:Lcom/commsource/util/delegate/process/o$a;
 
     invoke-virtual {v6}, Ljava/lang/Long;->longValue()J
@@ -274,7 +256,6 @@
 
     if-eqz v7, :cond_4
 
-    .line 11
     new-instance v5, Ljava/lang/StringBuilder;
 
     invoke-direct {v5}, Ljava/lang/StringBuilder;-><init>()V
@@ -303,7 +284,6 @@
 
     goto :goto_1
 
-    .line 12
     :cond_5
     invoke-virtual {p1}, Lcom/commsource/camera/beauty/ArAnalyAgent$ArVideoInfo;->isMakeupNeedPay()Z
 
@@ -313,14 +293,12 @@
 
     if-eqz v3, :cond_8
 
-    .line 13
     invoke-virtual {p1}, Lcom/commsource/camera/beauty/ArAnalyAgent$ArVideoInfo;->getMakeupPayIds()Ljava/util/List;
 
     move-result-object v3
 
     if-eqz v3, :cond_7
 
-    .line 14
     invoke-virtual {p1}, Lcom/commsource/camera/beauty/ArAnalyAgent$ArVideoInfo;->getMakeupPayIds()Ljava/util/List;
 
     move-result-object v3
@@ -344,10 +322,8 @@
 
     check-cast v7, Ljava/lang/String;
 
-    .line 15
     invoke-virtual {v1, v7}, Ljava/util/HashSet;->add(Ljava/lang/Object;)Z
 
-    .line 16
     new-instance v8, Ljava/lang/StringBuilder;
 
     invoke-direct {v8}, Ljava/lang/StringBuilder;-><init>()V
@@ -364,7 +340,6 @@
 
     move-result-object v6
 
-    .line 17
     new-instance v7, Ljava/lang/StringBuilder;
 
     invoke-direct {v7}, Ljava/lang/StringBuilder;-><init>()V
@@ -397,7 +372,6 @@
     :cond_8
     move-object v3, v6
 
-    .line 18
     :goto_4
     sget-object v7, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/LookMaterialRepository;->l:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/LookMaterialRepository;
 
@@ -411,14 +385,12 @@
 
     if-eqz v7, :cond_9
 
-    .line 19
     invoke-virtual {v7}, Lcom/meitu/template/bean/LookMaterial;->isPayLook()Z
 
     move-result v7
 
     if-eqz v7, :cond_9
 
-    .line 20
     new-instance v5, Ljava/lang/StringBuilder;
 
     invoke-direct {v5}, Ljava/lang/StringBuilder;-><init>()V
@@ -441,7 +413,6 @@
 
     const/4 v5, 0x1
 
-    .line 21
     :cond_9
     invoke-static {v6}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
@@ -453,10 +424,8 @@
 
     if-nez p1, :cond_b
 
-    .line 22
     sget-object p1, Lcom/meitu/library/hwanalytics/spm/d;->b:Lcom/meitu/library/hwanalytics/spm/d;
 
-    .line 23
     invoke-virtual {v6}, Ljava/lang/String;->length()I
 
     move-result v9
@@ -473,12 +442,10 @@
 
     const-string v9, "mids_material"
 
-    .line 24
     invoke-virtual {p1, v9, v6}, Lcom/meitu/library/hwanalytics/spm/d;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_5
 
-    .line 25
     :cond_a
     new-instance p1, Ljava/lang/NullPointerException;
 
@@ -488,7 +455,6 @@
 
     throw p1
 
-    .line 26
     :cond_b
     :goto_5
     invoke-static {v3}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
@@ -497,10 +463,8 @@
 
     if-nez p1, :cond_d
 
-    .line 27
     sget-object p1, Lcom/meitu/library/hwanalytics/spm/d;->b:Lcom/meitu/library/hwanalytics/spm/d;
 
-    .line 28
     invoke-virtual {v3}, Ljava/lang/String;->length()I
 
     move-result v6
@@ -517,12 +481,10 @@
 
     const-string v3, "mids_material_tag"
 
-    .line 29
     invoke-virtual {p1, v3, v2}, Lcom/meitu/library/hwanalytics/spm/d;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_6
 
-    .line 30
     :cond_c
     new-instance p1, Ljava/lang/NullPointerException;
 
@@ -532,12 +494,10 @@
 
     throw p1
 
-    .line 31
     :cond_d
     :goto_6
     invoke-static {v1}, Lcom/commsource/statistics/q;->d(Ljava/util/HashSet;)V
 
-    .line 32
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v5

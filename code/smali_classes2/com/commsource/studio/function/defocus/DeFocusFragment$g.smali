@@ -42,7 +42,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/studio/function/defocus/DeFocusFragment$g;->a:Lcom/commsource/studio/function/defocus/DeFocusFragment;
 
     invoke-static {v0}, Lcom/commsource/studio/function/defocus/DeFocusFragment;->C1(Lcom/commsource/studio/function/defocus/DeFocusFragment;)Lcom/commsource/beautyplus/f0/mb;
@@ -57,7 +56,6 @@
 
     invoke-static {v0, v1, v2, v1}, Lcom/commsource/studio/component/AutoManualPanelComponent;->k(Lcom/commsource/studio/component/AutoManualPanelComponent;Landroid/view/View;ILjava/lang/Object;)V
 
-    .line 2
     iget-object v0, p0, Lcom/commsource/studio/function/defocus/DeFocusFragment$g;->a:Lcom/commsource/studio/function/defocus/DeFocusFragment;
 
     invoke-static {v0}, Lcom/commsource/studio/function/defocus/DeFocusFragment;->C1(Lcom/commsource/studio/function/defocus/DeFocusFragment;)Lcom/commsource/beautyplus/f0/mb;
@@ -72,7 +70,6 @@
 
     invoke-static {v0}, Lcom/commsource/util/l0;->v0(Landroid/view/View;)V
 
-    .line 3
     iget-object v0, p0, Lcom/commsource/studio/function/defocus/DeFocusFragment$g;->a:Lcom/commsource/studio/function/defocus/DeFocusFragment;
 
     invoke-static {v0}, Lcom/commsource/studio/function/defocus/DeFocusFragment;->E1(Lcom/commsource/studio/function/defocus/DeFocusFragment;)Lcom/commsource/widget/h1/e;
@@ -81,7 +78,6 @@
 
     invoke-virtual {v0, v1}, Lcom/commsource/widget/h1/e;->E(Ljava/lang/Object;)V
 
-    .line 4
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

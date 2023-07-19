@@ -7,7 +7,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -40,7 +39,6 @@
 
     move-object/from16 v2, p6
 
-    .line 1
     sget v3, Landroid/os/Build$VERSION;->SDK_INT:I
 
     const/4 v4, 0x0
@@ -57,7 +55,6 @@
 
     goto/16 :goto_1
 
-    .line 2
     :cond_0
     invoke-virtual {p2}, Lcom/sdk/imp/internal/loader/Ad;->getAppShowType()I
 
@@ -69,7 +66,6 @@
 
     goto/16 :goto_1
 
-    .line 3
     :cond_1
     invoke-virtual {p2}, Lcom/sdk/imp/internal/loader/Ad;->getWidth()I
 
@@ -85,15 +81,12 @@
 
     if-ge v3, v7, :cond_2
 
-    .line 4
     new-instance v3, Lcom/sdk/imp/Under21VCViewL;
 
     invoke-direct {v3, p0, v2}, Lcom/sdk/imp/Under21VCViewL;-><init>(Landroid/content/Context;Lcom/sdk/imp/r;)V
 
-    .line 5
     invoke-virtual {v3, v1}, Lcom/sdk/imp/Under21VCViewL;->setListener(Lcom/sdk/api/VideoCardAd$j;)V
 
-    .line 6
     invoke-virtual {p1}, Lcom/sdk/api/VideoCardAd;->T()Ljava/lang/String;
 
     move-result-object v7
@@ -121,16 +114,13 @@
 
     goto :goto_1
 
-    .line 7
     :cond_2
     new-instance v3, Lcom/sdk/imp/VCViewL;
 
     invoke-direct {v3, p0, v2}, Lcom/sdk/imp/VCViewL;-><init>(Landroid/content/Context;Lcom/sdk/imp/r;)V
 
-    .line 8
     invoke-virtual {v3, v1}, Lcom/sdk/imp/VCViewL;->setListener(Lcom/sdk/api/VideoCardAd$j;)V
 
-    .line 9
     invoke-virtual {p1}, Lcom/sdk/api/VideoCardAd;->T()Ljava/lang/String;
 
     move-result-object v7
@@ -158,15 +148,12 @@
     :cond_3
     if-ge v3, v7, :cond_4
 
-    .line 10
     new-instance v3, Lcom/sdk/imp/Under21VCViewP;
 
     invoke-direct {v3, p0, v2}, Lcom/sdk/imp/Under21VCViewP;-><init>(Landroid/content/Context;Lcom/sdk/imp/r;)V
 
-    .line 11
     invoke-virtual {v3, v1}, Lcom/sdk/imp/Under21VCViewP;->setListener(Lcom/sdk/api/VideoCardAd$j;)V
 
-    .line 12
     invoke-virtual {p1}, Lcom/sdk/api/VideoCardAd;->T()Ljava/lang/String;
 
     move-result-object v7
@@ -191,16 +178,13 @@
 
     goto :goto_0
 
-    .line 13
     :cond_4
     new-instance v3, Lcom/sdk/imp/VCViewP;
 
     invoke-direct {v3, p0, v2}, Lcom/sdk/imp/VCViewP;-><init>(Landroid/content/Context;Lcom/sdk/imp/r;)V
 
-    .line 14
     invoke-virtual {v3, v1}, Lcom/sdk/imp/VCViewP;->setListener(Lcom/sdk/api/VideoCardAd$j;)V
 
-    .line 15
     invoke-virtual {p1}, Lcom/sdk/api/VideoCardAd;->T()Ljava/lang/String;
 
     move-result-object v7

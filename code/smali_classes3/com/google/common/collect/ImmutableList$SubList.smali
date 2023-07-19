@@ -33,15 +33,12 @@
 .method constructor <init>(Lcom/google/common/collect/ImmutableList;II)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/common/collect/ImmutableList$SubList;->this$0:Lcom/google/common/collect/ImmutableList;
 
     invoke-direct {p0}, Lcom/google/common/collect/ImmutableList;-><init>()V
 
-    .line 2
     iput p2, p0, Lcom/google/common/collect/ImmutableList$SubList;->offset:I
 
-    .line 3
     iput p3, p0, Lcom/google/common/collect/ImmutableList$SubList;->length:I
 
     return-void
@@ -57,12 +54,10 @@
         }
     .end annotation
 
-    .line 1
     iget v0, p0, Lcom/google/common/collect/ImmutableList$SubList;->length:I
 
     invoke-static {p1, v0}, Lcom/google/common/base/t;->C(II)I
 
-    .line 2
     iget-object v0, p0, Lcom/google/common/collect/ImmutableList$SubList;->this$0:Lcom/google/common/collect/ImmutableList;
 
     iget v1, p0, Lcom/google/common/collect/ImmutableList$SubList;->offset:I
@@ -79,7 +74,6 @@
 .method internalArray()[Ljava/lang/Object;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/ImmutableList$SubList;->this$0:Lcom/google/common/collect/ImmutableList;
 
     invoke-virtual {v0}, Lcom/google/common/collect/ImmutableCollection;->internalArray()[Ljava/lang/Object;
@@ -92,7 +86,6 @@
 .method internalArrayEnd()I
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/ImmutableList$SubList;->this$0:Lcom/google/common/collect/ImmutableList;
 
     invoke-virtual {v0}, Lcom/google/common/collect/ImmutableCollection;->internalArrayStart()I
@@ -113,7 +106,6 @@
 .method internalArrayStart()I
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/ImmutableList$SubList;->this$0:Lcom/google/common/collect/ImmutableList;
 
     invoke-virtual {v0}, Lcom/google/common/collect/ImmutableCollection;->internalArrayStart()I
@@ -138,7 +130,6 @@
 .method public bridge synthetic iterator()Ljava/util/Iterator;
     .locals 1
 
-    .line 1
     invoke-super {p0}, Lcom/google/common/collect/ImmutableList;->iterator()Lcom/google/common/collect/l2;
 
     move-result-object v0
@@ -149,7 +140,6 @@
 .method public bridge synthetic listIterator()Ljava/util/ListIterator;
     .locals 1
 
-    .line 1
     invoke-super {p0}, Lcom/google/common/collect/ImmutableList;->listIterator()Lcom/google/common/collect/m2;
 
     move-result-object v0
@@ -160,7 +150,6 @@
 .method public bridge synthetic listIterator(I)Ljava/util/ListIterator;
     .locals 0
 
-    .line 2
     invoke-super {p0, p1}, Lcom/google/common/collect/ImmutableList;->listIterator(I)Lcom/google/common/collect/m2;
 
     move-result-object p1
@@ -171,7 +160,6 @@
 .method public size()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lcom/google/common/collect/ImmutableList$SubList;->length:I
 
     return v0
@@ -187,12 +175,10 @@
         }
     .end annotation
 
-    .line 2
     iget v0, p0, Lcom/google/common/collect/ImmutableList$SubList;->length:I
 
     invoke-static {p1, p2, v0}, Lcom/google/common/base/t;->f0(III)V
 
-    .line 3
     iget-object v0, p0, Lcom/google/common/collect/ImmutableList$SubList;->this$0:Lcom/google/common/collect/ImmutableList;
 
     iget v1, p0, Lcom/google/common/collect/ImmutableList$SubList;->offset:I
@@ -211,7 +197,6 @@
 .method public bridge synthetic subList(II)Ljava/util/List;
     .locals 0
 
-    .line 1
     invoke-virtual {p0, p1, p2}, Lcom/google/common/collect/ImmutableList$SubList;->subList(II)Lcom/google/common/collect/ImmutableList;
 
     move-result-object p1

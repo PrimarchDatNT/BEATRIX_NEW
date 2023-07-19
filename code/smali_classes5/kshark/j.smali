@@ -34,7 +34,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     iput-object p1, p0, Lkshark/j;->a:Lkshark/i;
@@ -51,7 +50,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lkshark/j;->b:Lkshark/b0;
 
     instance-of v1, v0, Lkshark/b0$a;
@@ -82,7 +80,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lkshark/j;->b:Lkshark/b0;
 
     instance-of v1, v0, Lkshark/b0$b;
@@ -113,7 +110,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lkshark/j;->b:Lkshark/b0;
 
     instance-of v1, v0, Lkshark/b0$c;
@@ -144,7 +140,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lkshark/j;->b:Lkshark/b0;
 
     instance-of v1, v0, Lkshark/b0$e;
@@ -175,7 +170,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lkshark/j;->b:Lkshark/b0;
 
     instance-of v1, v0, Lkshark/b0$f;
@@ -206,7 +200,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lkshark/j;->b:Lkshark/b0;
 
     instance-of v1, v0, Lkshark/b0$g;
@@ -237,7 +230,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lkshark/j;->b:Lkshark/b0;
 
     instance-of v1, v0, Lkshark/b0$h;
@@ -268,7 +260,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lkshark/j;->b:Lkshark/b0;
 
     instance-of v1, v0, Lkshark/b0$i;
@@ -309,7 +300,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lkshark/j;->b:Lkshark/b0;
 
     instance-of v1, v0, Lkshark/b0$i;
@@ -324,7 +314,6 @@
 
     if-nez v0, :cond_0
 
-    .line 2
     iget-object v0, p0, Lkshark/j;->a:Lkshark/i;
 
     iget-object v1, p0, Lkshark/j;->b:Lkshark/b0;
@@ -352,7 +341,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lkshark/j;->b:Lkshark/b0;
 
     instance-of v1, v0, Lkshark/b0$i;
@@ -383,7 +371,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lkshark/j;->b:Lkshark/b0;
 
     instance-of v1, v0, Lkshark/b0$j;
@@ -414,7 +401,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lkshark/j;->a:Lkshark/i;
 
     return-object v0
@@ -425,7 +411,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lkshark/j;->b:Lkshark/b0;
 
     return-object v0
@@ -434,7 +419,6 @@
 .method public final n()Z
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lkshark/j;->b:Lkshark/b0;
 
     instance-of v1, v0, Lkshark/b0$i;
@@ -463,7 +447,6 @@
 .method public final o()Z
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lkshark/j;->b:Lkshark/b0;
 
     instance-of v1, v0, Lkshark/b0$i;
@@ -494,7 +477,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lkshark/j;->b:Lkshark/b0;
 
     instance-of v1, v0, Lkshark/b0$i;
@@ -511,7 +493,6 @@
 
     if-nez v0, :cond_0
 
-    .line 2
     iget-object v0, p0, Lkshark/j;->a:Lkshark/i;
 
     iget-object v1, p0, Lkshark/j;->b:Lkshark/b0;
@@ -528,7 +509,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 3
     invoke-virtual {v0}, Lkshark/HeapObject;->c()Lkshark/HeapObject$HeapInstance;
 
     move-result-object v0

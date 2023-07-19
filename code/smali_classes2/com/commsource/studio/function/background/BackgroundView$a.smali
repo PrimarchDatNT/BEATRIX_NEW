@@ -38,7 +38,6 @@
 
     iput-object p5, p0, Lcom/commsource/studio/function/background/BackgroundView$a;->K:Lcom/commsource/studio/bean/BgLayerInfo;
 
-    .line 1
     invoke-direct {p0, p2}, Lcom/commsource/util/u2/a;-><init>(Ljava/lang/String;)V
 
     return-void
@@ -53,7 +52,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/function/background/BackgroundView$a;->g:Lcom/commsource/studio/function/background/BackgroundTexture;
 
     invoke-virtual {v1}, Lcom/commsource/studio/function/background/BackgroundTexture;->getPath()Ljava/lang/String;
@@ -66,7 +64,6 @@
 
     if-nez v1, :cond_0
 
-    .line 2
     sget-object v1, Lcom/commsource/repository/child/TextureRepository;->s:Lcom/commsource/repository/child/TextureRepository;
 
     iget-object v2, p0, Lcom/commsource/studio/function/background/BackgroundView$a;->g:Lcom/commsource/studio/function/background/BackgroundTexture;
@@ -77,14 +74,12 @@
 
     if-eqz v1, :cond_0
 
-    .line 3
     iget-object v2, p0, Lcom/commsource/studio/function/background/BackgroundView$a;->p:Lcom/commsource/studio/function/background/BackgroundDrawer;
 
     iget-object v3, p0, Lcom/commsource/studio/function/background/BackgroundView$a;->g:Lcom/commsource/studio/function/background/BackgroundTexture;
 
     invoke-virtual {v2, v1, v3}, Lcom/commsource/studio/function/background/BackgroundDrawer;->v(Landroid/graphics/Bitmap;Lcom/commsource/studio/function/background/BackgroundTexture;)V
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/studio/function/background/BackgroundView$a;->p:Lcom/commsource/studio/function/background/BackgroundDrawer;
 
     iget-object v2, p0, Lcom/commsource/studio/function/background/BackgroundView$a;->g:Lcom/commsource/studio/function/background/BackgroundTexture;
@@ -105,12 +100,10 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/studio/function/background/BackgroundDrawer;->m(I)V
 
-    .line 5
     iget-object v1, p0, Lcom/commsource/studio/function/background/BackgroundView$a;->J:Lcom/commsource/studio/function/background/BackgroundView;
 
     invoke-virtual {v1}, Landroid/view/View;->postInvalidate()V
 
-    .line 6
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

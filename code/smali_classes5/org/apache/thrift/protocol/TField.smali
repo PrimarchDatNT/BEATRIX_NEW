@@ -19,7 +19,6 @@
 
     const/4 v1, 0x0
 
-    .line 1
     invoke-direct {p0, v0, v1, v1}, Lorg/apache/thrift/protocol/TField;-><init>(Ljava/lang/String;BS)V
 
     return-void
@@ -28,16 +27,12 @@
 .method public constructor <init>(Ljava/lang/String;BS)V
     .locals 0
 
-    .line 2
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 3
     iput-object p1, p0, Lorg/apache/thrift/protocol/TField;->name:Ljava/lang/String;
 
-    .line 4
     iput-byte p2, p0, Lorg/apache/thrift/protocol/TField;->type:B
 
-    .line 5
     iput-short p3, p0, Lorg/apache/thrift/protocol/TField;->id:S
 
     return-void
@@ -61,7 +56,6 @@
 
     return v1
 
-    .line 1
     :cond_1
     invoke-virtual {p0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
@@ -75,11 +69,9 @@
 
     return v1
 
-    .line 2
     :cond_2
     check-cast p1, Lorg/apache/thrift/protocol/TField;
 
-    .line 3
     iget-byte v2, p0, Lorg/apache/thrift/protocol/TField;->type:B
 
     iget-byte v3, p1, Lorg/apache/thrift/protocol/TField;->type:B
@@ -104,7 +96,6 @@
 .method public hashCode()I
     .locals 3
 
-    .line 1
     iget-short v0, p0, Lorg/apache/thrift/protocol/TField;->id:S
 
     const/16 v1, 0x1f
@@ -113,7 +104,6 @@
 
     mul-int/lit8 v0, v0, 0x1f
 
-    .line 2
     iget-object v2, p0, Lorg/apache/thrift/protocol/TField;->name:Ljava/lang/String;
 
     if-nez v2, :cond_0
@@ -132,7 +122,6 @@
 
     mul-int/lit8 v0, v0, 0x1f
 
-    .line 3
     iget-byte v1, p0, Lorg/apache/thrift/protocol/TField;->type:B
 
     add-int/2addr v0, v1
@@ -143,7 +132,6 @@
 .method public toString()Ljava/lang/String;
     .locals 2
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V

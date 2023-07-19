@@ -20,7 +20,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-direct {p0, p1, p2, v0}, Lorg/jsoup/parser/TokeniserState;-><init>(Ljava/lang/String;ILorg/jsoup/parser/TokeniserState$1;)V
 
     return-void
@@ -31,7 +30,6 @@
 .method read(Lorg/jsoup/parser/h;Lorg/jsoup/parser/a;)V
     .locals 1
 
-    .line 1
     sget-object v0, Lorg/jsoup/parser/TokeniserState;->ScriptDataEscaped:Lorg/jsoup/parser/TokeniserState;
 
     invoke-static {p1, p2, v0}, Lorg/jsoup/parser/TokeniserState;->access$500(Lorg/jsoup/parser/h;Lorg/jsoup/parser/a;Lorg/jsoup/parser/TokeniserState;)V

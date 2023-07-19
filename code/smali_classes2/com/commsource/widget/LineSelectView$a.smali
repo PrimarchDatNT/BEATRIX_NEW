@@ -25,7 +25,6 @@
 
     iput-object p1, p0, Lcom/commsource/widget/LineSelectView$a;->a:Lcom/commsource/widget/LineSelectView;
 
-    .line 1
     invoke-direct {p0}, Landroidx/recyclerview/widget/RecyclerView$OnScrollListener;-><init>()V
 
     return-void
@@ -48,7 +47,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object p1, p0, Lcom/commsource/widget/LineSelectView$a;->a:Lcom/commsource/widget/LineSelectView;
 
     invoke-static {p1}, Lcom/commsource/widget/LineSelectView;->c(Lcom/commsource/widget/LineSelectView;)F
@@ -61,12 +59,10 @@
 
     invoke-static {p1, v0}, Lcom/commsource/widget/LineSelectView;->f(Lcom/commsource/widget/LineSelectView;F)V
 
-    .line 2
     iget-object p1, p0, Lcom/commsource/widget/LineSelectView$a;->a:Lcom/commsource/widget/LineSelectView;
 
     invoke-virtual {p1}, Landroid/view/View;->invalidate()V
 
-    .line 3
     invoke-static {p3}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

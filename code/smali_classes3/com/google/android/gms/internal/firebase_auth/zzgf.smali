@@ -42,7 +42,6 @@
 .method static constructor <clinit>()V
     .locals 2
 
-    .line 1
     new-instance v0, Lcom/google/android/gms/internal/firebase_auth/zzgp;
 
     sget-object v1, Lcom/google/android/gms/internal/firebase_auth/l4;->c:[B
@@ -51,7 +50,6 @@
 
     sput-object v0, Lcom/google/android/gms/internal/firebase_auth/zzgf;->zzvv:Lcom/google/android/gms/internal/firebase_auth/zzgf;
 
-    .line 2
     invoke-static {}, Lcom/google/android/gms/internal/firebase_auth/c3;->b()Z
 
     move-result v0
@@ -74,7 +72,6 @@
     :goto_0
     sput-object v0, Lcom/google/android/gms/internal/firebase_auth/zzgf;->zzvw:Lcom/google/android/gms/internal/firebase_auth/i3;
 
-    .line 3
     new-instance v0, Lcom/google/android/gms/internal/firebase_auth/e3;
 
     invoke-direct {v0}, Lcom/google/android/gms/internal/firebase_auth/e3;-><init>()V
@@ -87,12 +84,10 @@
 .method constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/4 v0, 0x0
 
-    .line 2
     iput v0, p0, Lcom/google/android/gms/internal/firebase_auth/zzgf;->zzvx:I
 
     return-void
@@ -109,7 +104,6 @@
 .method public static zza([B)Lcom/google/android/gms/internal/firebase_auth/zzgf;
     .locals 2
 
-    .line 3
     array-length v0, p0
 
     const/4 v1, 0x0
@@ -126,12 +120,10 @@
 
     add-int v0, p1, p2
 
-    .line 1
     array-length v1, p0
 
     invoke-static {p1, v0, v1}, Lcom/google/android/gms/internal/firebase_auth/zzgf;->zzc(III)I
 
-    .line 2
     new-instance v0, Lcom/google/android/gms/internal/firebase_auth/zzgp;
 
     sget-object v1, Lcom/google/android/gms/internal/firebase_auth/zzgf;->zzvw:Lcom/google/android/gms/internal/firebase_auth/i3;
@@ -148,7 +140,6 @@
 .method static synthetic zzb(B)I
     .locals 0
 
-    .line 2
     invoke-static {p0}, Lcom/google/android/gms/internal/firebase_auth/zzgf;->zza(B)I
 
     move-result p0
@@ -159,7 +150,6 @@
 .method static zzb([B)Lcom/google/android/gms/internal/firebase_auth/zzgf;
     .locals 1
 
-    .line 1
     new-instance v0, Lcom/google/android/gms/internal/firebase_auth/zzgp;
 
     invoke-direct {v0, p0}, Lcom/google/android/gms/internal/firebase_auth/zzgp;-><init>([B)V
@@ -186,7 +176,6 @@
 
     if-ge p1, p0, :cond_0
 
-    .line 1
     new-instance p2, Ljava/lang/IndexOutOfBoundsException;
 
     const/16 v0, 0x42
@@ -215,7 +204,6 @@
 
     throw p2
 
-    .line 2
     :cond_0
     new-instance p0, Ljava/lang/IndexOutOfBoundsException;
 
@@ -245,7 +233,6 @@
 
     throw p0
 
-    .line 3
     :cond_1
     new-instance p1, Ljava/lang/IndexOutOfBoundsException;
 
@@ -280,7 +267,6 @@
 .method public static zzdh(Ljava/lang/String;)Lcom/google/android/gms/internal/firebase_auth/zzgf;
     .locals 2
 
-    .line 1
     new-instance v0, Lcom/google/android/gms/internal/firebase_auth/zzgp;
 
     sget-object v1, Lcom/google/android/gms/internal/firebase_auth/l4;->a:Ljava/nio/charset/Charset;
@@ -297,7 +283,6 @@
 .method static zzr(I)Lcom/google/android/gms/internal/firebase_auth/j3;
     .locals 2
 
-    .line 1
     new-instance v0, Lcom/google/android/gms/internal/firebase_auth/j3;
 
     const/4 v1, 0x0
@@ -315,19 +300,16 @@
 .method public final hashCode()I
     .locals 2
 
-    .line 1
     iget v0, p0, Lcom/google/android/gms/internal/firebase_auth/zzgf;->zzvx:I
 
     if-nez v0, :cond_1
 
-    .line 2
     invoke-virtual {p0}, Lcom/google/android/gms/internal/firebase_auth/zzgf;->size()I
 
     move-result v0
 
     const/4 v1, 0x0
 
-    .line 3
     invoke-virtual {p0, v0, v1, v0}, Lcom/google/android/gms/internal/firebase_auth/zzgf;->zzb(III)I
 
     move-result v0
@@ -336,7 +318,6 @@
 
     const/4 v0, 0x1
 
-    .line 4
     :cond_0
     iput v0, p0, Lcom/google/android/gms/internal/firebase_auth/zzgf;->zzvx:I
 
@@ -347,7 +328,6 @@
 .method public synthetic iterator()Ljava/util/Iterator;
     .locals 1
 
-    .line 1
     new-instance v0, Lcom/google/android/gms/internal/firebase_auth/f3;
 
     invoke-direct {v0, p0}, Lcom/google/android/gms/internal/firebase_auth/f3;-><init>(Lcom/google/android/gms/internal/firebase_auth/zzgf;)V
@@ -365,7 +345,6 @@
 
     new-array v0, v0, [Ljava/lang/Object;
 
-    .line 1
     invoke-static {p0}, Ljava/lang/System;->identityHashCode(Ljava/lang/Object;)I
 
     move-result v1
@@ -392,7 +371,6 @@
 
     const-string v1, "<ByteString@%s size=%d>"
 
-    .line 2
     invoke-static {v1, v0}, Ljava/lang/String;->format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object v0
@@ -420,10 +398,8 @@
 .method public final zzgc()Ljava/lang/String;
     .locals 2
 
-    .line 1
     sget-object v0, Lcom/google/android/gms/internal/firebase_auth/l4;->a:Ljava/nio/charset/Charset;
 
-    .line 2
     invoke-virtual {p0}, Lcom/google/android/gms/internal/firebase_auth/zzgf;->size()I
 
     move-result v1
@@ -448,7 +424,6 @@
 .method protected final zzge()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lcom/google/android/gms/internal/firebase_auth/zzgf;->zzvx:I
 
     return v0

@@ -42,7 +42,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/studio/component/PlayComponent$b;->a:Lcom/commsource/studio/component/PlayComponent;
 
     invoke-virtual {v0}, Lcom/commsource/studio/component/PlayComponent;->i()Z
@@ -53,7 +52,6 @@
 
     invoke-virtual {v0, v1}, Lcom/commsource/studio/component/PlayComponent;->setPlay(Z)V
 
-    .line 2
     iget-object v0, p0, Lcom/commsource/studio/component/PlayComponent$b;->a:Lcom/commsource/studio/component/PlayComponent;
 
     invoke-virtual {v0}, Lcom/commsource/studio/component/PlayComponent;->i()Z
@@ -62,7 +60,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 3
     iget-object v0, p0, Lcom/commsource/studio/component/PlayComponent$b;->a:Lcom/commsource/studio/component/PlayComponent;
 
     invoke-static {v0}, Lcom/commsource/studio/component/PlayComponent;->f(Lcom/commsource/studio/component/PlayComponent;)Lcom/commsource/beautyplus/f0/i2;
@@ -77,7 +74,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_0
     iget-object v0, p0, Lcom/commsource/studio/component/PlayComponent$b;->a:Lcom/commsource/studio/component/PlayComponent;
 
@@ -91,7 +87,6 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
 
-    .line 5
     :goto_0
     iget-object v0, p0, Lcom/commsource/studio/component/PlayComponent$b;->a:Lcom/commsource/studio/component/PlayComponent;
 
@@ -115,7 +110,6 @@
 
     invoke-virtual {v0, v1}, Landroidx/lifecycle/MutableLiveData;->setValue(Ljava/lang/Object;)V
 
-    .line 6
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

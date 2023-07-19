@@ -24,7 +24,6 @@
 .method constructor <init>(Lcom/commsource/studio/function/DarkCircleFragment$a;Lcom/commsource/studio/processor/MultiFaceEffectProcessor;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/function/DarkCircleFragment$b;->d:Lcom/commsource/studio/function/DarkCircleFragment$a;
 
     invoke-direct {p0, p2}, Lcom/commsource/studio/function/automanual/e;-><init>(Lcom/commsource/studio/processor/MultiFaceEffectProcessor;)V
@@ -49,10 +48,8 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-super {p0, p1}, Lcom/commsource/studio/function/automanual/e;->d(Lcom/commsource/easyeditor/utils/opengl/f;)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/function/DarkCircleFragment$b;->d:Lcom/commsource/studio/function/DarkCircleFragment$a;
 
     invoke-virtual {v1}, Lcom/commsource/studio/processor/m;->J()Lcom/commsource/camera/newrender/renderproxy/n;
@@ -75,7 +72,6 @@
 
     invoke-virtual {v1, p1, v2}, Lcom/commsource/studio/r0/v;->y(Lcom/commsource/easyeditor/utils/opengl/f;Lcom/commsource/easyeditor/utils/opengl/f;)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -96,10 +92,8 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-super {p0, p1}, Lcom/commsource/studio/function/automanual/e;->e(Lcom/commsource/studio/e;)V
 
-    .line 2
     iget-object p1, p0, Lcom/commsource/studio/function/DarkCircleFragment$b;->d:Lcom/commsource/studio/function/DarkCircleFragment$a;
 
     invoke-virtual {p1}, Lcom/commsource/studio/processor/MultiFaceEffectProcessor;->L()Lcom/commsource/easyeditor/utils/opengl/f;
@@ -110,7 +104,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_0
     iget-object p1, p0, Lcom/commsource/studio/function/DarkCircleFragment$b;->d:Lcom/commsource/studio/function/DarkCircleFragment$a;
 
@@ -141,7 +134,6 @@
 
     invoke-virtual {v1, p1, v2}, Lcom/commsource/studio/r0/v;->y(Lcom/commsource/easyeditor/utils/opengl/f;Lcom/commsource/easyeditor/utils/opengl/f;)V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

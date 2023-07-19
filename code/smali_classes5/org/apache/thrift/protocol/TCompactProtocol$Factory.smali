@@ -29,7 +29,6 @@
 
     const-wide/16 v0, -0x1
 
-    .line 1
     invoke-direct {p0, v0, v1, v0, v1}, Lorg/apache/thrift/protocol/TCompactProtocol$Factory;-><init>(JJ)V
 
     return-void
@@ -40,7 +39,6 @@
 
     const-wide/16 v0, -0x1
 
-    .line 2
     invoke-direct {p0, p1, p2, v0, v1}, Lorg/apache/thrift/protocol/TCompactProtocol$Factory;-><init>(JJ)V
 
     return-void
@@ -49,13 +47,10 @@
 .method public constructor <init>(JJ)V
     .locals 0
 
-    .line 3
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 4
     iput-wide p3, p0, Lorg/apache/thrift/protocol/TCompactProtocol$Factory;->containerLengthLimit_:J
 
-    .line 5
     iput-wide p1, p0, Lorg/apache/thrift/protocol/TCompactProtocol$Factory;->stringLengthLimit_:J
 
     return-void
@@ -66,7 +61,6 @@
 .method public getProtocol(Lorg/apache/thrift/transport/TTransport;)Lorg/apache/thrift/protocol/TProtocol;
     .locals 7
 
-    .line 1
     new-instance v6, Lorg/apache/thrift/protocol/TCompactProtocol;
 
     iget-wide v2, p0, Lorg/apache/thrift/protocol/TCompactProtocol$Factory;->stringLengthLimit_:J

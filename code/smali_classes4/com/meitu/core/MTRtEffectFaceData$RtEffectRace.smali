@@ -46,7 +46,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/meitu/core/MTRtEffectFaceData$RtEffectRace;
 
     const-string v2, "UNDEFINE_SKIN_RACE"
@@ -59,7 +58,6 @@
 
     sput-object v1, Lcom/meitu/core/MTRtEffectFaceData$RtEffectRace;->UNDEFINE_SKIN_RACE:Lcom/meitu/core/MTRtEffectFaceData$RtEffectRace;
 
-    .line 2
     new-instance v2, Lcom/meitu/core/MTRtEffectFaceData$RtEffectRace;
 
     const-string v4, "BLACK_SKIN_RACE"
@@ -70,7 +68,6 @@
 
     sput-object v2, Lcom/meitu/core/MTRtEffectFaceData$RtEffectRace;->BLACK_SKIN_RACE:Lcom/meitu/core/MTRtEffectFaceData$RtEffectRace;
 
-    .line 3
     new-instance v4, Lcom/meitu/core/MTRtEffectFaceData$RtEffectRace;
 
     const-string v6, "WHITE_SKIN_RACE"
@@ -81,7 +78,6 @@
 
     sput-object v4, Lcom/meitu/core/MTRtEffectFaceData$RtEffectRace;->WHITE_SKIN_RACE:Lcom/meitu/core/MTRtEffectFaceData$RtEffectRace;
 
-    .line 4
     new-instance v6, Lcom/meitu/core/MTRtEffectFaceData$RtEffectRace;
 
     const-string v8, "YELLOW_SKIN_RACE"
@@ -104,7 +100,6 @@
 
     aput-object v6, v8, v9
 
-    .line 5
     sput-object v8, Lcom/meitu/core/MTRtEffectFaceData$RtEffectRace;->$VALUES:[Lcom/meitu/core/MTRtEffectFaceData$RtEffectRace;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -120,10 +115,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 2
     iput p3, p0, Lcom/meitu/core/MTRtEffectFaceData$RtEffectRace;->id:I
 
     return-void
@@ -136,7 +129,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     const-class v1, Lcom/meitu/core/MTRtEffectFaceData$RtEffectRace;
 
     invoke-static {v1, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -157,7 +149,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/meitu/core/MTRtEffectFaceData$RtEffectRace;->$VALUES:[Lcom/meitu/core/MTRtEffectFaceData$RtEffectRace;
 
     invoke-virtual {v1}, [Lcom/meitu/core/MTRtEffectFaceData$RtEffectRace;->clone()Ljava/lang/Object;
@@ -180,14 +171,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/core/MTRtEffectFaceData$RtEffectRace;->id:I
 
     const/4 v2, -0x1
 
     if-ne v1, v2, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const-string v0, "UNDEFINE_SKIN_RACE"
@@ -197,7 +186,6 @@
     :cond_0
     if-nez v1, :cond_1
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const-string v0, "BLACK_SKIN_RACE"
@@ -209,7 +197,6 @@
 
     if-ne v1, v2, :cond_2
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const-string v0, "WHITE_SKIN_RACE"
@@ -221,14 +208,12 @@
 
     if-ne v1, v2, :cond_3
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const-string v0, "YELLOW_SKIN_RACE"
 
     return-object v0
 
-    .line 6
     :cond_3
     invoke-super {p0}, Ljava/lang/Enum;->toString()Ljava/lang/String;
 

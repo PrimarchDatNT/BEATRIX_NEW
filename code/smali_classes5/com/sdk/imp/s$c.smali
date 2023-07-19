@@ -35,7 +35,6 @@
 .method constructor <init>(Lcom/sdk/api/VideoCardAd;Lcom/sdk/imp/internal/loader/Ad;Lcom/sdk/imp/s$h;Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/sdk/imp/s$c;->a:Lcom/sdk/api/VideoCardAd;
 
     iput-object p2, p0, Lcom/sdk/imp/s$c;->b:Lcom/sdk/imp/internal/loader/Ad;
@@ -64,34 +63,28 @@
 
     if-eqz p2, :cond_0
 
-    .line 1
     invoke-static {p1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v3
 
     if-nez v3, :cond_0
 
-    .line 2
     invoke-static {p2}, Lcom/sdk/imp/v;->e(Ljava/io/InputStream;)Ljava/lang/Object;
 
     move-result-object p2
 
     if-eqz p2, :cond_0
 
-    .line 3
     instance-of v3, p2, Lcom/sdk/imp/VastModel;
 
     if-eqz v3, :cond_0
 
-    .line 4
     check-cast p2, Lcom/sdk/imp/VastModel;
 
-    .line 5
     invoke-virtual {p2, p1}, Lcom/sdk/imp/VastModel;->hasExpired(Ljava/lang/String;)Z
 
     move-result v3
 
-    .line 6
     invoke-static {}, Lcom/sdk/imp/s;->a()Ljava/lang/String;
 
     move-result-object v4
@@ -124,14 +117,12 @@
 
     if-nez v3, :cond_0
 
-    .line 7
     iget-object p1, p0, Lcom/sdk/imp/s$c;->a:Lcom/sdk/api/VideoCardAd;
 
     sget-object v3, Lcom/sdk/api/Const$Event;->PARSE_START:Lcom/sdk/api/Const$Event;
 
     invoke-virtual {p1, v3, v0, v1, v2}, Lcom/sdk/api/VideoCardAd;->I(Lcom/sdk/api/Const$Event;IJ)V
 
-    .line 8
     iget-object p1, p0, Lcom/sdk/imp/s$c;->a:Lcom/sdk/api/VideoCardAd;
 
     sget-object v3, Lcom/sdk/api/Const$Event;->PARSE_SUCCESS:Lcom/sdk/api/Const$Event;
@@ -140,22 +131,18 @@
 
     const/4 p1, 0x1
 
-    .line 9
     invoke-virtual {p2, p1}, Lcom/sdk/imp/VastModel;->setIsXmlFromCache(Z)V
 
-    .line 10
     iget-object p1, p0, Lcom/sdk/imp/s$c;->b:Lcom/sdk/imp/internal/loader/Ad;
 
     invoke-virtual {p2, p1}, Lcom/sdk/imp/VastModel;->setAd(Lcom/sdk/imp/internal/loader/Ad;)V
 
-    .line 11
     iget-object p1, p0, Lcom/sdk/imp/s$c;->c:Lcom/sdk/imp/s$h;
 
     invoke-interface {p1, p2}, Lcom/sdk/imp/s$h;->b(Lcom/sdk/imp/VastModel;)V
 
     return-void
 
-    .line 12
     :cond_0
     invoke-static {}, Lcom/sdk/imp/s;->a()Ljava/lang/String;
 
@@ -181,10 +168,8 @@
 
     invoke-static {p2, v3}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 13
     invoke-static {p1}, Lcom/sdk/imp/x/a;->o(Ljava/lang/String;)V
 
-    .line 14
     iget-object p1, p0, Lcom/sdk/imp/s$c;->b:Lcom/sdk/imp/internal/loader/Ad;
 
     invoke-virtual {p1}, Lcom/sdk/imp/internal/loader/Ad;->getResType()I
@@ -205,7 +190,6 @@
 
     if-eqz p1, :cond_1
 
-    .line 15
     invoke-static {}, Lcom/sdk/imp/s;->a()Ljava/lang/String;
 
     move-result-object p1
@@ -214,14 +198,12 @@
 
     invoke-static {p1, p2}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 16
     iget-object p1, p0, Lcom/sdk/imp/s$c;->c:Lcom/sdk/imp/s$h;
 
     sget-object p2, Lcom/sdk/api/InternalAdError;->NOT_WIFI_ERROR:Lcom/sdk/api/InternalAdError;
 
     invoke-interface {p1, p2}, Lcom/sdk/imp/s$h;->a(Lcom/sdk/api/InternalAdError;)V
 
-    .line 17
     iget-object p1, p0, Lcom/sdk/imp/s$c;->a:Lcom/sdk/api/VideoCardAd;
 
     sget-object p2, Lcom/sdk/api/Const$Event;->PARSE_FAIL:Lcom/sdk/api/Const$Event;
@@ -232,7 +214,6 @@
 
     return-void
 
-    .line 18
     :cond_1
     iget-object p1, p0, Lcom/sdk/imp/s$c;->a:Lcom/sdk/api/VideoCardAd;
 
@@ -240,17 +221,14 @@
 
     invoke-virtual {p1, p2, v0, v1, v2}, Lcom/sdk/api/VideoCardAd;->I(Lcom/sdk/api/Const$Event;IJ)V
 
-    .line 19
     new-instance p1, Lcom/sdk/imp/w;
 
     invoke-direct {p1}, Lcom/sdk/imp/w;-><init>()V
 
-    .line 20
     iget-object p2, p0, Lcom/sdk/imp/s$c;->b:Lcom/sdk/imp/internal/loader/Ad;
 
     invoke-virtual {p1, p2}, Lcom/sdk/imp/w;->y(Lcom/sdk/imp/internal/loader/Ad;)V
 
-    .line 21
     iget-object p2, p0, Lcom/sdk/imp/s$c;->e:Ljava/lang/String;
 
     new-instance v0, Lcom/sdk/imp/s$c$a;

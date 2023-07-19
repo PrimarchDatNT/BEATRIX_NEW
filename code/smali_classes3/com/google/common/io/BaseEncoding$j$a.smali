@@ -30,7 +30,6 @@
 .method constructor <init>(Lcom/google/common/io/BaseEncoding$j;Ljava/io/Writer;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/common/io/BaseEncoding$j$a;->f:Lcom/google/common/io/BaseEncoding$j;
 
     iput-object p2, p0, Lcom/google/common/io/BaseEncoding$j$a;->d:Ljava/io/Writer;
@@ -39,13 +38,10 @@
 
     const/4 p1, 0x0
 
-    .line 2
     iput p1, p0, Lcom/google/common/io/BaseEncoding$j$a;->a:I
 
-    .line 3
     iput p1, p0, Lcom/google/common/io/BaseEncoding$j$a;->b:I
 
-    .line 4
     iput p1, p0, Lcom/google/common/io/BaseEncoding$j$a;->c:I
 
     return-void
@@ -61,12 +57,10 @@
         }
     .end annotation
 
-    .line 1
     iget v0, p0, Lcom/google/common/io/BaseEncoding$j$a;->b:I
 
     if-lez v0, :cond_0
 
-    .line 2
     iget v1, p0, Lcom/google/common/io/BaseEncoding$j$a;->a:I
 
     iget-object v2, p0, Lcom/google/common/io/BaseEncoding$j$a;->f:Lcom/google/common/io/BaseEncoding$j;
@@ -83,7 +77,6 @@
 
     and-int/2addr v0, v1
 
-    .line 3
     iget-object v1, p0, Lcom/google/common/io/BaseEncoding$j$a;->d:Ljava/io/Writer;
 
     invoke-virtual {v2, v0}, Lcom/google/common/io/BaseEncoding$f;->d(I)C
@@ -92,21 +85,18 @@
 
     invoke-virtual {v1, v0}, Ljava/io/Writer;->write(I)V
 
-    .line 4
     iget v0, p0, Lcom/google/common/io/BaseEncoding$j$a;->c:I
 
     add-int/lit8 v0, v0, 0x1
 
     iput v0, p0, Lcom/google/common/io/BaseEncoding$j$a;->c:I
 
-    .line 5
     iget-object v0, p0, Lcom/google/common/io/BaseEncoding$j$a;->f:Lcom/google/common/io/BaseEncoding$j;
 
     iget-object v0, v0, Lcom/google/common/io/BaseEncoding$j;->g:Ljava/lang/Character;
 
     if-eqz v0, :cond_0
 
-    .line 6
     :goto_0
     iget v0, p0, Lcom/google/common/io/BaseEncoding$j$a;->c:I
 
@@ -120,7 +110,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 7
     iget-object v0, p0, Lcom/google/common/io/BaseEncoding$j$a;->d:Ljava/io/Writer;
 
     iget-object v1, v1, Lcom/google/common/io/BaseEncoding$j;->g:Ljava/lang/Character;
@@ -131,7 +120,6 @@
 
     invoke-virtual {v0, v1}, Ljava/io/Writer;->write(I)V
 
-    .line 8
     iget v0, p0, Lcom/google/common/io/BaseEncoding$j$a;->c:I
 
     add-int/lit8 v0, v0, 0x1
@@ -140,7 +128,6 @@
 
     goto :goto_0
 
-    .line 9
     :cond_0
     iget-object v0, p0, Lcom/google/common/io/BaseEncoding$j$a;->d:Ljava/io/Writer;
 
@@ -157,7 +144,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/io/BaseEncoding$j$a;->d:Ljava/io/Writer;
 
     invoke-virtual {v0}, Ljava/io/Writer;->flush()V
@@ -173,7 +159,6 @@
         }
     .end annotation
 
-    .line 1
     iget v0, p0, Lcom/google/common/io/BaseEncoding$j$a;->a:I
 
     shl-int/lit8 v0, v0, 0x8
@@ -184,17 +169,14 @@
 
     or-int/2addr p1, v0
 
-    .line 2
     iput p1, p0, Lcom/google/common/io/BaseEncoding$j$a;->a:I
 
-    .line 3
     iget p1, p0, Lcom/google/common/io/BaseEncoding$j$a;->b:I
 
     add-int/lit8 p1, p1, 0x8
 
     iput p1, p0, Lcom/google/common/io/BaseEncoding$j$a;->b:I
 
-    .line 4
     :goto_0
     iget p1, p0, Lcom/google/common/io/BaseEncoding$j$a;->b:I
 
@@ -206,7 +188,6 @@
 
     if-lt p1, v1, :cond_0
 
-    .line 5
     iget v2, p0, Lcom/google/common/io/BaseEncoding$j$a;->a:I
 
     sub-int/2addr p1, v1
@@ -217,7 +198,6 @@
 
     and-int/2addr p1, v1
 
-    .line 6
     iget-object v1, p0, Lcom/google/common/io/BaseEncoding$j$a;->d:Ljava/io/Writer;
 
     invoke-virtual {v0, p1}, Lcom/google/common/io/BaseEncoding$f;->d(I)C
@@ -226,14 +206,12 @@
 
     invoke-virtual {v1, p1}, Ljava/io/Writer;->write(I)V
 
-    .line 7
     iget p1, p0, Lcom/google/common/io/BaseEncoding$j$a;->c:I
 
     add-int/lit8 p1, p1, 0x1
 
     iput p1, p0, Lcom/google/common/io/BaseEncoding$j$a;->c:I
 
-    .line 8
     iget p1, p0, Lcom/google/common/io/BaseEncoding$j$a;->b:I
 
     iget-object v0, p0, Lcom/google/common/io/BaseEncoding$j$a;->f:Lcom/google/common/io/BaseEncoding$j;

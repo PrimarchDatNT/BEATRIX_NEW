@@ -35,7 +35,6 @@
 .method static constructor <clinit>()V
     .locals 0
 
-    .line 1
     invoke-static {}, Lf/f/e/c/g;->c()V
 
     return-void
@@ -44,28 +43,22 @@
 .method private constructor <init>(Lf/f/e/c/e;Ljava/lang/Object;Ljava/lang/reflect/Method;)V
     .locals 0
 
-    .line 2
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 3
     iput-object p1, p0, Lf/f/e/c/g;->a:Lf/f/e/c/e;
 
-    .line 4
     invoke-static {p2}, Lcom/google/common/base/t;->E(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p2
 
     iput-object p2, p0, Lf/f/e/c/g;->b:Ljava/lang/Object;
 
-    .line 5
     iput-object p3, p0, Lf/f/e/c/g;->c:Ljava/lang/reflect/Method;
 
     const/4 p2, 0x1
 
-    .line 6
     invoke-virtual {p3, p2}, Ljava/lang/reflect/Method;->setAccessible(Z)V
 
-    .line 7
     invoke-virtual {p1}, Lf/f/e/c/e;->a()Ljava/util/concurrent/Executor;
 
     move-result-object p1
@@ -78,7 +71,6 @@
 .method synthetic constructor <init>(Lf/f/e/c/e;Ljava/lang/Object;Ljava/lang/reflect/Method;Lf/f/e/c/g$a;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1, p2, p3}, Lf/f/e/c/g;-><init>(Lf/f/e/c/e;Ljava/lang/Object;Ljava/lang/reflect/Method;)V
 
     return-void
@@ -87,7 +79,6 @@
 .method static synthetic a(Lf/f/e/c/g;Ljava/lang/Object;)Lf/f/e/c/i;
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1}, Lf/f/e/c/g;->d(Ljava/lang/Object;)Lf/f/e/c/i;
 
     move-result-object p0
@@ -98,7 +89,6 @@
 .method static synthetic b(Lf/f/e/c/g;)Lf/f/e/c/e;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lf/f/e/c/g;->a:Lf/f/e/c/e;
 
     return-object p0
@@ -107,7 +97,6 @@
 .method private static synthetic c()V
     .locals 9
 
-    .line 1
     new-instance v8, Ln/a/b/c/e;
 
     const-class v0, Lf/f/e/c/g;
@@ -152,7 +141,6 @@
 .method private d(Ljava/lang/Object;)Lf/f/e/c/i;
     .locals 4
 
-    .line 1
     new-instance v0, Lf/f/e/c/i;
 
     iget-object v1, p0, Lf/f/e/c/g;->a:Lf/f/e/c/e;
@@ -169,7 +157,6 @@
 .method static e(Lf/f/e/c/e;Ljava/lang/Object;Ljava/lang/reflect/Method;)Lf/f/e/c/g;
     .locals 2
 
-    .line 1
     invoke-static {p2}, Lf/f/e/c/g;->i(Ljava/lang/reflect/Method;)Z
 
     move-result v0
@@ -196,7 +183,6 @@
 .method static final synthetic h(Lf/f/e/c/g;Ljava/lang/reflect/Method;Ljava/lang/Object;[Ljava/lang/Object;Lorg/aspectj/lang/c;)Ljava/lang/Object;
     .locals 0
 
-    .line 1
     invoke-virtual {p1, p2, p3}, Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p0
@@ -207,7 +193,6 @@
 .method private static i(Ljava/lang/reflect/Method;)Z
     .locals 1
 
-    .line 1
     const-class v0, Lf/f/e/c/a;
 
     invoke-virtual {p0, v0}, Ljava/lang/reflect/Method;->getAnnotation(Ljava/lang/Class;)Ljava/lang/annotation/Annotation;
@@ -236,17 +221,14 @@
         .end annotation
     .end param
 
-    .line 1
     instance-of v0, p1, Lf/f/e/c/g;
 
     const/4 v1, 0x0
 
     if-eqz v0, :cond_0
 
-    .line 2
     check-cast p1, Lf/f/e/c/g;
 
-    .line 3
     iget-object v0, p0, Lf/f/e/c/g;->b:Ljava/lang/Object;
 
     iget-object v2, p1, Lf/f/e/c/g;->b:Ljava/lang/Object;
@@ -272,7 +254,6 @@
 .method final f(Ljava/lang/Object;)V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lf/f/e/c/g;->d:Ljava/util/concurrent/Executor;
 
     new-instance v1, Lf/f/e/c/g$a;
@@ -295,7 +276,6 @@
     .annotation build Lf/f/e/a/d;
     .end annotation
 
-    .line 1
     :try_start_0
     iget-object v0, p0, Lf/f/e/c/g;->c:Ljava/lang/reflect/Method;
 
@@ -364,7 +344,6 @@
     :catch_0
     move-exception p1
 
-    .line 2
     invoke-virtual {p1}, Ljava/lang/reflect/InvocationTargetException;->getCause()Ljava/lang/Throwable;
 
     move-result-object v0
@@ -373,7 +352,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 3
     invoke-virtual {p1}, Ljava/lang/reflect/InvocationTargetException;->getCause()Ljava/lang/Throwable;
 
     move-result-object p1
@@ -382,14 +360,12 @@
 
     throw p1
 
-    .line 4
     :cond_0
     throw p1
 
     :catch_1
     move-exception v0
 
-    .line 5
     new-instance v1, Ljava/lang/Error;
 
     new-instance v2, Ljava/lang/StringBuilder;
@@ -413,7 +389,6 @@
     :catch_2
     move-exception v0
 
-    .line 6
     new-instance v1, Ljava/lang/Error;
 
     new-instance v2, Ljava/lang/StringBuilder;
@@ -438,7 +413,6 @@
 .method public final hashCode()I
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lf/f/e/c/g;->c:Ljava/lang/reflect/Method;
 
     invoke-virtual {v0}, Ljava/lang/reflect/Method;->hashCode()I

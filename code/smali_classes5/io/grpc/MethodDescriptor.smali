@@ -106,10 +106,8 @@
         }
     .end annotation
 
-    .line 2
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 3
     new-instance v0, Ljava/util/concurrent/atomic/AtomicReferenceArray;
 
     const/4 v1, 0x2
@@ -120,7 +118,6 @@
 
     const-string v0, "type"
 
-    .line 4
     invoke-static {p1, v0}, Lcom/google/common/base/t;->F(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -131,7 +128,6 @@
 
     const-string p1, "fullMethodName"
 
-    .line 5
     invoke-static {p2, p1}, Lcom/google/common/base/t;->F(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -140,7 +136,6 @@
 
     iput-object p1, p0, Lio/grpc/MethodDescriptor;->b:Ljava/lang/String;
 
-    .line 6
     invoke-static {p2}, Lio/grpc/MethodDescriptor;->b(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p1
@@ -149,7 +144,6 @@
 
     const-string p1, "requestMarshaller"
 
-    .line 7
     invoke-static {p3, p1}, Lcom/google/common/base/t;->F(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -160,7 +154,6 @@
 
     const-string p1, "responseMarshaller"
 
-    .line 8
     invoke-static {p4, p1}, Lcom/google/common/base/t;->F(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -169,16 +162,12 @@
 
     iput-object p1, p0, Lio/grpc/MethodDescriptor;->e:Lio/grpc/MethodDescriptor$c;
 
-    .line 9
     iput-object p5, p0, Lio/grpc/MethodDescriptor;->f:Ljava/lang/Object;
 
-    .line 10
     iput-boolean p6, p0, Lio/grpc/MethodDescriptor;->g:Z
 
-    .line 11
     iput-boolean p7, p0, Lio/grpc/MethodDescriptor;->h:Z
 
-    .line 12
     iput-boolean p8, p0, Lio/grpc/MethodDescriptor;->i:Z
 
     return-void
@@ -187,7 +176,6 @@
 .method synthetic constructor <init>(Lio/grpc/MethodDescriptor$MethodType;Ljava/lang/String;Lio/grpc/MethodDescriptor$c;Lio/grpc/MethodDescriptor$c;Ljava/lang/Object;ZZZLio/grpc/MethodDescriptor$a;)V
     .locals 0
 
-    .line 1
     invoke-direct/range {p0 .. p8}, Lio/grpc/MethodDescriptor;-><init>(Lio/grpc/MethodDescriptor$MethodType;Ljava/lang/String;Lio/grpc/MethodDescriptor$c;Lio/grpc/MethodDescriptor$c;Ljava/lang/Object;ZZZ)V
 
     return-void
@@ -216,7 +204,6 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    .line 1
     new-instance v9, Lio/grpc/MethodDescriptor;
 
     const/4 v5, 0x0
@@ -249,7 +236,6 @@
 
     const-string v0, "fullMethodName"
 
-    .line 1
     invoke-static {p0, v0}, Lcom/google/common/base/t;->F(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v0
@@ -273,7 +259,6 @@
     :cond_0
     const/4 v1, 0x0
 
-    .line 2
     invoke-virtual {p0, v1, v0}, Ljava/lang/String;->substring(II)Ljava/lang/String;
 
     move-result-object p0
@@ -284,7 +269,6 @@
 .method public static c(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
     .locals 2
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -305,7 +289,6 @@
 
     const-string p0, "methodName"
 
-    .line 2
     invoke-static {p1, p0}, Lcom/google/common/base/t;->F(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p0
@@ -340,7 +323,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-static {v0, v0}, Lio/grpc/MethodDescriptor;->o(Lio/grpc/MethodDescriptor$c;Lio/grpc/MethodDescriptor$c;)Lio/grpc/MethodDescriptor$b;
 
     move-result-object v0
@@ -369,19 +351,16 @@
     .annotation runtime Ljavax/annotation/c;
     .end annotation
 
-    .line 1
     new-instance v0, Lio/grpc/MethodDescriptor$b;
 
     const/4 v1, 0x0
 
     invoke-direct {v0, v1}, Lio/grpc/MethodDescriptor$b;-><init>(Lio/grpc/MethodDescriptor$a;)V
 
-    .line 2
     invoke-virtual {v0, p0}, Lio/grpc/MethodDescriptor$b;->d(Lio/grpc/MethodDescriptor$c;)Lio/grpc/MethodDescriptor$b;
 
     move-result-object p0
 
-    .line 3
     invoke-virtual {p0, p1}, Lio/grpc/MethodDescriptor$b;->e(Lio/grpc/MethodDescriptor$c;)Lio/grpc/MethodDescriptor$b;
 
     move-result-object p0
@@ -394,7 +373,6 @@
 .method public d()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lio/grpc/MethodDescriptor;->b:Ljava/lang/String;
 
     return-object v0
@@ -403,7 +381,6 @@
 .method final e(I)Ljava/lang/Object;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lio/grpc/MethodDescriptor;->j:Ljava/util/concurrent/atomic/AtomicReferenceArray;
 
     invoke-virtual {v0, p1}, Ljava/util/concurrent/atomic/AtomicReferenceArray;->get(I)Ljava/lang/Object;
@@ -427,7 +404,6 @@
         value = "https://github.com/grpc/grpc-java/issues/2592"
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lio/grpc/MethodDescriptor;->d:Lio/grpc/MethodDescriptor$c;
 
     return-object v0
@@ -447,7 +423,6 @@
         value = "https://github.com/grpc/grpc-java/issues/2592"
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lio/grpc/MethodDescriptor;->e:Lio/grpc/MethodDescriptor$c;
 
     return-object v0
@@ -458,7 +433,6 @@
     .annotation runtime Ljavax/annotation/j;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lio/grpc/MethodDescriptor;->f:Ljava/lang/Object;
 
     return-object v0
@@ -473,7 +447,6 @@
     .annotation runtime Ljavax/annotation/j;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lio/grpc/MethodDescriptor;->c:Ljava/lang/String;
 
     return-object v0
@@ -482,7 +455,6 @@
 .method public j()Lio/grpc/MethodDescriptor$MethodType;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lio/grpc/MethodDescriptor;->a:Lio/grpc/MethodDescriptor$MethodType;
 
     return-object v0
@@ -491,7 +463,6 @@
 .method public k()Z
     .locals 1
 
-    .line 1
     iget-boolean v0, p0, Lio/grpc/MethodDescriptor;->g:Z
 
     return v0
@@ -500,7 +471,6 @@
 .method public l()Z
     .locals 1
 
-    .line 1
     iget-boolean v0, p0, Lio/grpc/MethodDescriptor;->h:Z
 
     return v0
@@ -509,7 +479,6 @@
 .method public m()Z
     .locals 1
 
-    .line 1
     iget-boolean v0, p0, Lio/grpc/MethodDescriptor;->i:Z
 
     return v0
@@ -525,7 +494,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lio/grpc/MethodDescriptor;->d:Lio/grpc/MethodDescriptor$c;
 
     invoke-interface {v0, p1}, Lio/grpc/MethodDescriptor$c;->c(Ljava/io/InputStream;)Ljava/lang/Object;
@@ -545,7 +513,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lio/grpc/MethodDescriptor;->e:Lio/grpc/MethodDescriptor$c;
 
     invoke-interface {v0, p1}, Lio/grpc/MethodDescriptor$c;->c(Ljava/io/InputStream;)Ljava/lang/Object;
@@ -558,7 +525,6 @@
 .method final r(ILjava/lang/Object;)V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lio/grpc/MethodDescriptor;->j:Ljava/util/concurrent/atomic/AtomicReferenceArray;
 
     invoke-virtual {v0, p1, p2}, Ljava/util/concurrent/atomic/AtomicReferenceArray;->lazySet(ILjava/lang/Object;)V
@@ -575,7 +541,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lio/grpc/MethodDescriptor;->d:Lio/grpc/MethodDescriptor$c;
 
     invoke-interface {v0, p1}, Lio/grpc/MethodDescriptor$c;->a(Ljava/lang/Object;)Ljava/io/InputStream;
@@ -594,7 +559,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lio/grpc/MethodDescriptor;->e:Lio/grpc/MethodDescriptor$c;
 
     invoke-interface {v0, p1}, Lio/grpc/MethodDescriptor$c;->a(Ljava/lang/Object;)Ljava/io/InputStream;
@@ -607,7 +571,6 @@
 .method public toString()Ljava/lang/String;
     .locals 3
 
-    .line 1
     invoke-static {p0}, Lcom/google/common/base/p;->c(Ljava/lang/Object;)Lcom/google/common/base/p$b;
 
     move-result-object v0
@@ -616,7 +579,6 @@
 
     const-string v2, "fullMethodName"
 
-    .line 2
     invoke-virtual {v0, v2, v1}, Lcom/google/common/base/p$b;->f(Ljava/lang/String;Ljava/lang/Object;)Lcom/google/common/base/p$b;
 
     move-result-object v0
@@ -625,7 +587,6 @@
 
     const-string v2, "type"
 
-    .line 3
     invoke-virtual {v0, v2, v1}, Lcom/google/common/base/p$b;->f(Ljava/lang/String;Ljava/lang/Object;)Lcom/google/common/base/p$b;
 
     move-result-object v0
@@ -634,7 +595,6 @@
 
     const-string v2, "idempotent"
 
-    .line 4
     invoke-virtual {v0, v2, v1}, Lcom/google/common/base/p$b;->g(Ljava/lang/String;Z)Lcom/google/common/base/p$b;
 
     move-result-object v0
@@ -643,7 +603,6 @@
 
     const-string v2, "safe"
 
-    .line 5
     invoke-virtual {v0, v2, v1}, Lcom/google/common/base/p$b;->g(Ljava/lang/String;Z)Lcom/google/common/base/p$b;
 
     move-result-object v0
@@ -652,7 +611,6 @@
 
     const-string v2, "sampledToLocalTracing"
 
-    .line 6
     invoke-virtual {v0, v2, v1}, Lcom/google/common/base/p$b;->g(Ljava/lang/String;Z)Lcom/google/common/base/p$b;
 
     move-result-object v0
@@ -661,7 +619,6 @@
 
     const-string v2, "requestMarshaller"
 
-    .line 7
     invoke-virtual {v0, v2, v1}, Lcom/google/common/base/p$b;->f(Ljava/lang/String;Ljava/lang/Object;)Lcom/google/common/base/p$b;
 
     move-result-object v0
@@ -670,7 +627,6 @@
 
     const-string v2, "responseMarshaller"
 
-    .line 8
     invoke-virtual {v0, v2, v1}, Lcom/google/common/base/p$b;->f(Ljava/lang/String;Ljava/lang/Object;)Lcom/google/common/base/p$b;
 
     move-result-object v0
@@ -679,17 +635,14 @@
 
     const-string v2, "schemaDescriptor"
 
-    .line 9
     invoke-virtual {v0, v2, v1}, Lcom/google/common/base/p$b;->f(Ljava/lang/String;Ljava/lang/Object;)Lcom/google/common/base/p$b;
 
     move-result-object v0
 
-    .line 10
     invoke-virtual {v0}, Lcom/google/common/base/p$b;->r()Lcom/google/common/base/p$b;
 
     move-result-object v0
 
-    .line 11
     invoke-virtual {v0}, Lcom/google/common/base/p$b;->toString()Ljava/lang/String;
 
     move-result-object v0
@@ -710,7 +663,6 @@
     .annotation runtime Ljavax/annotation/c;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lio/grpc/MethodDescriptor;->d:Lio/grpc/MethodDescriptor$c;
 
     iget-object v1, p0, Lio/grpc/MethodDescriptor;->e:Lio/grpc/MethodDescriptor$c;
@@ -743,59 +695,50 @@
     .annotation runtime Ljavax/annotation/c;
     .end annotation
 
-    .line 1
     invoke-static {}, Lio/grpc/MethodDescriptor;->n()Lio/grpc/MethodDescriptor$b;
 
     move-result-object v0
 
-    .line 2
     invoke-virtual {v0, p1}, Lio/grpc/MethodDescriptor$b;->d(Lio/grpc/MethodDescriptor$c;)Lio/grpc/MethodDescriptor$b;
 
     move-result-object p1
 
-    .line 3
     invoke-virtual {p1, p2}, Lio/grpc/MethodDescriptor$b;->e(Lio/grpc/MethodDescriptor$c;)Lio/grpc/MethodDescriptor$b;
 
     move-result-object p1
 
     iget-object p2, p0, Lio/grpc/MethodDescriptor;->a:Lio/grpc/MethodDescriptor$MethodType;
 
-    .line 4
     invoke-virtual {p1, p2}, Lio/grpc/MethodDescriptor$b;->i(Lio/grpc/MethodDescriptor$MethodType;)Lio/grpc/MethodDescriptor$b;
 
     move-result-object p1
 
     iget-object p2, p0, Lio/grpc/MethodDescriptor;->b:Ljava/lang/String;
 
-    .line 5
     invoke-virtual {p1, p2}, Lio/grpc/MethodDescriptor$b;->b(Ljava/lang/String;)Lio/grpc/MethodDescriptor$b;
 
     move-result-object p1
 
     iget-boolean p2, p0, Lio/grpc/MethodDescriptor;->g:Z
 
-    .line 6
     invoke-virtual {p1, p2}, Lio/grpc/MethodDescriptor$b;->c(Z)Lio/grpc/MethodDescriptor$b;
 
     move-result-object p1
 
     iget-boolean p2, p0, Lio/grpc/MethodDescriptor;->h:Z
 
-    .line 7
     invoke-virtual {p1, p2}, Lio/grpc/MethodDescriptor$b;->f(Z)Lio/grpc/MethodDescriptor$b;
 
     move-result-object p1
 
     iget-boolean p2, p0, Lio/grpc/MethodDescriptor;->i:Z
 
-    .line 8
     invoke-virtual {p1, p2}, Lio/grpc/MethodDescriptor$b;->g(Z)Lio/grpc/MethodDescriptor$b;
 
     move-result-object p1
 
     iget-object p2, p0, Lio/grpc/MethodDescriptor;->f:Ljava/lang/Object;
 
-    .line 9
     invoke-virtual {p1, p2}, Lio/grpc/MethodDescriptor$b;->h(Ljava/lang/Object;)Lio/grpc/MethodDescriptor$b;
 
     move-result-object p1

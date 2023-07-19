@@ -63,7 +63,6 @@
 
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/mypage/album/BpAlbumActivity$b$a;->a:Lcom/commsource/mypage/album/BpAlbumActivity$b;
 
     iget-object v0, v0, Lcom/commsource/mypage/album/BpAlbumActivity$b;->a:Lcom/commsource/mypage/album/BpAlbumActivity;
@@ -72,12 +71,10 @@
 
     if-eqz p1, :cond_0
 
-    .line 2
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 3
     :cond_0
     iget p1, p0, Lcom/commsource/mypage/album/BpAlbumActivity$b$a;->b:I
 
@@ -93,7 +90,6 @@
 
     goto/16 :goto_1
 
-    .line 4
     :cond_1
     iget-object p1, p0, Lcom/commsource/mypage/album/BpAlbumActivity$b$a;->a:Lcom/commsource/mypage/album/BpAlbumActivity$b;
 
@@ -113,7 +109,6 @@
 
     if-eqz p1, :cond_8
 
-    .line 5
     iget-object p1, p0, Lcom/commsource/mypage/album/BpAlbumActivity$b$a;->c:Lcom/commsource/cloudalbum/bean/CAImageInfo;
 
     invoke-virtual {p1}, Lcom/commsource/cloudalbum/bean/CAImageInfo;->q()I
@@ -132,7 +127,6 @@
 
     if-gtz p1, :cond_3
 
-    .line 6
     :cond_2
     iget-object p1, p0, Lcom/commsource/mypage/album/BpAlbumActivity$b$a;->c:Lcom/commsource/cloudalbum/bean/CAImageInfo;
 
@@ -146,7 +140,6 @@
 
     if-eqz p1, :cond_3
 
-    .line 7
     iget-object v1, p0, Lcom/commsource/mypage/album/BpAlbumActivity$b$a;->c:Lcom/commsource/cloudalbum/bean/CAImageInfo;
 
     const/4 v2, 0x0
@@ -155,14 +148,12 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/cloudalbum/bean/CAImageInfo;->N(I)V
 
-    .line 8
     iget-object v1, p0, Lcom/commsource/mypage/album/BpAlbumActivity$b$a;->c:Lcom/commsource/cloudalbum/bean/CAImageInfo;
 
     aget p1, p1, v0
 
     invoke-virtual {v1, p1}, Lcom/commsource/cloudalbum/bean/CAImageInfo;->A(I)V
 
-    .line 9
     :cond_3
     iget-object p1, p0, Lcom/commsource/mypage/album/BpAlbumActivity$b$a;->c:Lcom/commsource/cloudalbum/bean/CAImageInfo;
 
@@ -184,7 +175,6 @@
 
     goto :goto_0
 
-    .line 10
     :cond_4
     iget-object p1, p0, Lcom/commsource/mypage/album/BpAlbumActivity$b$a;->a:Lcom/commsource/mypage/album/BpAlbumActivity$b;
 
@@ -196,7 +186,6 @@
 
     invoke-virtual {p1, v0}, Lcom/commsource/mypage/g0;->N0(I)V
 
-    .line 11
     iget-object p1, p0, Lcom/commsource/mypage/album/BpAlbumActivity$b$a;->a:Lcom/commsource/mypage/album/BpAlbumActivity$b;
 
     iget-object p1, p1, Lcom/commsource/mypage/album/BpAlbumActivity$b;->a:Lcom/commsource/mypage/album/BpAlbumActivity;
@@ -215,10 +204,8 @@
     :goto_0
     sget p1, Lcom/res/provider/ResSTRING;->pic_to_small:I
 
-    .line 12
     invoke-static {p1}, Lf/k/c/c/f;->w(I)V
 
-    .line 13
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -227,10 +214,8 @@
     :goto_1
     const-string p1, "album_clk_amplify"
 
-    .line 14
     invoke-static {p1}, Lcom/commsource/statistics/i;->p(Ljava/lang/String;)V
 
-    .line 15
     iget-object p1, p0, Lcom/commsource/mypage/album/BpAlbumActivity$b$a;->a:Lcom/commsource/mypage/album/BpAlbumActivity$b;
 
     iget-object p1, p1, Lcom/commsource/mypage/album/BpAlbumActivity$b;->a:Lcom/commsource/mypage/album/BpAlbumActivity;
@@ -249,7 +234,6 @@
 
     if-eqz p1, :cond_7
 
-    .line 16
     iget-object p1, p0, Lcom/commsource/mypage/album/BpAlbumActivity$b$a;->a:Lcom/commsource/mypage/album/BpAlbumActivity$b;
 
     iget-object p1, p1, Lcom/commsource/mypage/album/BpAlbumActivity$b;->a:Lcom/commsource/mypage/album/BpAlbumActivity;
@@ -262,7 +246,6 @@
 
     invoke-virtual {p1, v0}, Lcom/commsource/mypage/g0;->N0(I)V
 
-    .line 17
     :cond_7
     iget-object p1, p0, Lcom/commsource/mypage/album/BpAlbumActivity$b$a;->a:Lcom/commsource/mypage/album/BpAlbumActivity$b;
 
@@ -276,7 +259,6 @@
 
     invoke-virtual {p1, v0, v1, v2}, Lcom/commsource/mypage/album/BpAlbumActivity;->e1(ILcom/commsource/cloudalbum/bean/CAImageInfo;Landroid/view/View;)V
 
-    .line 18
     :cond_8
     :goto_2
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->a(I)V

@@ -55,7 +55,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/function/background/BackgroundAdjustFragment$o;->a:Lcom/commsource/studio/function/background/BackgroundAdjustFragment;
 
     invoke-virtual {v1}, Lcom/commsource/studio/function/background/BackgroundAdjustFragment;->F()Lcom/commsource/widget/h1/e;
@@ -64,7 +63,6 @@
 
     invoke-virtual {v1, p1}, Lcom/commsource/widget/h1/e;->E(Ljava/lang/Object;)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/function/background/BackgroundAdjustFragment$o;->a:Lcom/commsource/studio/function/background/BackgroundAdjustFragment;
 
     invoke-virtual {v1}, Lcom/commsource/studio/function/background/BackgroundAdjustFragment;->J()Lcom/commsource/widget/h1/e;
@@ -81,7 +79,6 @@
 
     if-eqz v1, :cond_4
 
-    .line 3
     invoke-interface {v1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v1
@@ -110,7 +107,6 @@
 
     const-string v7, "item"
 
-    .line 4
     invoke-static {v5, v7}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v5}, Lcom/commsource/widget/h1/d;->b()Ljava/lang/Object;
@@ -121,7 +117,6 @@
 
     if-eqz v7, :cond_3
 
-    .line 5
     invoke-virtual {v5}, Lcom/commsource/widget/h1/d;->b()Ljava/lang/Object;
 
     move-result-object v5
@@ -179,7 +174,6 @@
 
     goto :goto_0
 
-    .line 6
     :cond_4
     iget-object v1, p0, Lcom/commsource/studio/function/background/BackgroundAdjustFragment$o;->a:Lcom/commsource/studio/function/background/BackgroundAdjustFragment;
 
@@ -189,7 +183,6 @@
 
     invoke-virtual {v1, v3}, Lcom/commsource/widget/h1/e;->G(I)V
 
-    .line 7
     iget-object v1, p0, Lcom/commsource/studio/function/background/BackgroundAdjustFragment$o;->a:Lcom/commsource/studio/function/background/BackgroundAdjustFragment;
 
     invoke-virtual {v1}, Lcom/commsource/studio/function/background/BackgroundAdjustFragment;->L()Lcom/commsource/beautyplus/f0/eb;
@@ -211,7 +204,6 @@
     :cond_5
     invoke-virtual {v1, v2}, Lcom/commsource/studio/function/background/GradientDrawer;->s(Z)V
 
-    .line 8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -224,7 +216,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Lcom/commsource/studio/function/background/BackgroundType;
 
     invoke-virtual {p0, p1}, Lcom/commsource/studio/function/background/BackgroundAdjustFragment$o;->a(Lcom/commsource/studio/function/background/BackgroundType;)V

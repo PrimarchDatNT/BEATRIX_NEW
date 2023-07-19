@@ -57,7 +57,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/studio/PictureSelectView$startPictureSelect$2;->invoke()V
 
     sget-object v1, Lcotlin/t1;->a:Lcotlin/t1;
@@ -74,14 +73,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 2
     sget-object v1, Lcom/commsource/studio/PictureSelectView;->c0:Lcom/commsource/studio/PictureSelectView$a;
 
     const/4 v2, 0x1
 
     invoke-virtual {v1, v2}, Lcom/commsource/studio/PictureSelectView$a;->b(Z)V
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/studio/PictureSelectView$startPictureSelect$2;->$studioViewModel:Lcom/commsource/studio/ImageStudioViewModel;
 
     invoke-virtual {v1}, Lcom/commsource/studio/ImageStudioViewModel;->g0()Lcom/commsource/studio/StudioCanvasContainer;
@@ -96,7 +93,6 @@
 
     invoke-virtual {v1, v3}, Lcom/commsource/studio/layer/BaseLayer;->n0(Z)V
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/studio/PictureSelectView$startPictureSelect$2;->$studioViewModel:Lcom/commsource/studio/ImageStudioViewModel;
 
     invoke-virtual {v1}, Lcom/commsource/studio/ImageStudioViewModel;->t0()Lcom/commsource/editengine/d;
@@ -109,7 +105,6 @@
 
     invoke-static {v1, v3, v4, v2, v5}, Lcom/commsource/editengine/d;->u(Lcom/commsource/editengine/d;ZLcotlin/jvm/u/a;ILjava/lang/Object;)V
 
-    .line 5
     iget-object v1, p0, Lcom/commsource/studio/PictureSelectView$startPictureSelect$2;->this$0:Lcom/commsource/studio/PictureSelectView;
 
     invoke-static {v1}, Lcom/commsource/studio/PictureSelectView;->c(Lcom/commsource/studio/PictureSelectView;)Ljava/util/ArrayList;
@@ -133,12 +128,10 @@
 
     check-cast v2, Lcom/commsource/studio/h0;
 
-    .line 6
     invoke-virtual {v2}, Lcom/commsource/studio/PictureAnimationWrapper;->y()V
 
     goto :goto_0
 
-    .line 7
     :cond_0
     iget-object v1, p0, Lcom/commsource/studio/PictureSelectView$startPictureSelect$2;->this$0:Lcom/commsource/studio/PictureSelectView;
 
@@ -164,7 +157,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/camera/f1/n;->i(F)V
 
-    .line 8
     iget-object v1, p0, Lcom/commsource/studio/PictureSelectView$startPictureSelect$2;->this$0:Lcom/commsource/studio/PictureSelectView;
 
     invoke-virtual {v1}, Lcom/commsource/studio/PictureSelectView;->getSelectAnimator()Lcom/commsource/camera/f1/l;
@@ -173,7 +165,6 @@
 
     invoke-virtual {v1}, Lcom/commsource/camera/f1/l;->a()V
 
-    .line 9
     iget-object v1, p0, Lcom/commsource/studio/PictureSelectView$startPictureSelect$2;->this$0:Lcom/commsource/studio/PictureSelectView;
 
     invoke-virtual {v1}, Lcom/commsource/studio/PictureSelectView;->getSelectAnimator()Lcom/commsource/camera/f1/l;
@@ -182,7 +173,6 @@
 
     invoke-virtual {v1}, Lcom/commsource/camera/f1/l;->j()V
 
-    .line 10
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

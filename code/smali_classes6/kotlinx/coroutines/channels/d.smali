@@ -42,7 +42,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1, p2, p3}, Lcotlinx/coroutines/channels/m;-><init>(Lcotlin/coroutines/CoroutineContext;Lcotlinx/coroutines/channels/l;Z)V
 
     return-void
@@ -57,7 +56,6 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-virtual {p0}, Lcotlinx/coroutines/a;->getContext()Lcotlin/coroutines/CoroutineContext;
 
     move-result-object v0
@@ -76,7 +74,6 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-virtual {p0}, Lcotlinx/coroutines/channels/m;->x1()Lcotlinx/coroutines/channels/l;
 
     move-result-object v0
@@ -85,7 +82,6 @@
 
     if-eqz p1, :cond_2
 
-    .line 2
     instance-of v2, p1, Ljava/util/concurrent/CancellationException;
 
     if-nez v2, :cond_0
@@ -127,7 +123,6 @@
 
     move-object v1, p1
 
-    .line 3
     :cond_2
     :goto_1
     invoke-interface {v0, v1}, Lcotlinx/coroutines/channels/y;->d(Ljava/util/concurrent/CancellationException;)V

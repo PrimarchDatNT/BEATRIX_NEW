@@ -45,7 +45,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/commsource/billing/SubUserType;
 
     const-string v2, "USER_TYPE_NORMAL"
@@ -58,7 +57,6 @@
 
     sput-object v1, Lcom/commsource/billing/SubUserType;->USER_TYPE_NORMAL:Lcom/commsource/billing/SubUserType;
 
-    .line 2
     new-instance v2, Lcom/commsource/billing/SubUserType;
 
     const-string v6, "USER_TYPE_DISCOUNT"
@@ -69,7 +67,6 @@
 
     sput-object v2, Lcom/commsource/billing/SubUserType;->USER_TYPE_DISCOUNT:Lcom/commsource/billing/SubUserType;
 
-    .line 3
     new-instance v6, Lcom/commsource/billing/SubUserType;
 
     const-string v8, "USER_TYPE_NEW_DISCOUNT"
@@ -80,7 +77,6 @@
 
     sput-object v6, Lcom/commsource/billing/SubUserType;->USER_TYPE_NEW_DISCOUNT:Lcom/commsource/billing/SubUserType;
 
-    .line 4
     new-instance v8, Lcom/commsource/billing/SubUserType;
 
     const-string v10, "USER_TYPE_FEAST_DISCOUNT"
@@ -91,7 +87,6 @@
 
     sput-object v8, Lcom/commsource/billing/SubUserType;->USER_TYPE_FEAST_DISCOUNT:Lcom/commsource/billing/SubUserType;
 
-    .line 5
     new-instance v10, Lcom/commsource/billing/SubUserType;
 
     const-string v12, "USER_TYPE_ONLINE_DISCOUNT"
@@ -102,7 +97,6 @@
 
     sput-object v10, Lcom/commsource/billing/SubUserType;->USER_TYPE_ONLINE_DISCOUNT:Lcom/commsource/billing/SubUserType;
 
-    .line 6
     new-instance v12, Lcom/commsource/billing/SubUserType;
 
     const-string v14, "USER_TYPE_SUBSCRIBER"
@@ -113,7 +107,6 @@
 
     sput-object v12, Lcom/commsource/billing/SubUserType;->USER_TYPE_SUBSCRIBER:Lcom/commsource/billing/SubUserType;
 
-    .line 7
     new-instance v14, Lcom/commsource/billing/SubUserType;
 
     const-string v0, "USER_TYPE_RESUBSCRIBER"
@@ -144,7 +137,6 @@
 
     aput-object v14, v0, v15
 
-    .line 8
     sput-object v0, Lcom/commsource/billing/SubUserType;->$VALUES:[Lcom/commsource/billing/SubUserType;
 
     const/16 v0, 0x39ee
@@ -162,10 +154,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 2
     iput-wide p3, p0, Lcom/commsource/billing/SubUserType;->mDiscountDeadLine:J
 
     return-void
@@ -178,7 +168,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     const-class v1, Lcom/commsource/billing/SubUserType;
 
     invoke-static {v1, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -199,7 +188,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/billing/SubUserType;->$VALUES:[Lcom/commsource/billing/SubUserType;
 
     invoke-virtual {v1}, [Lcom/commsource/billing/SubUserType;->clone()Ljava/lang/Object;
@@ -222,7 +210,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/commsource/billing/SubUserType;->mDiscountDeadLine:J
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -237,7 +224,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/billing/SubUserType;->mUserTypeBeforeSubscribed:Lcom/commsource/billing/SubUserType;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -252,7 +238,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/billing/SubUserType;->USER_TYPE_FEAST_DISCOUNT:Lcom/commsource/billing/SubUserType;
 
     if-eq p0, v1, :cond_1
@@ -261,7 +246,6 @@
 
     if-ne p0, v2, :cond_0
 
-    .line 2
     invoke-virtual {p0}, Lcom/commsource/billing/SubUserType;->getUserTypeBeforeSubscribed()Lcom/commsource/billing/SubUserType;
 
     move-result-object v2
@@ -279,7 +263,6 @@
     :goto_0
     const/4 v1, 0x1
 
-    .line 3
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -293,10 +276,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-wide p1, p0, Lcom/commsource/billing/SubUserType;->mDiscountDeadLine:J
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -309,10 +290,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/billing/SubUserType;->mUserTypeBeforeSubscribed:Lcom/commsource/billing/SubUserType;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

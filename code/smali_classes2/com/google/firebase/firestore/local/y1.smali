@@ -16,13 +16,10 @@
 .method constructor <init>(Lcom/google/firebase/firestore/local/n1;Lcom/google/firebase/firestore/local/i;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/google/firebase/firestore/local/y1;->a:Lcom/google/firebase/firestore/local/n1;
 
-    .line 3
     iput-object p2, p0, Lcom/google/firebase/firestore/local/y1;->b:Lcom/google/firebase/firestore/local/i;
 
     return-void
@@ -31,16 +28,13 @@
 .method private e([B)Lcom/google/firebase/firestore/model/i;
     .locals 2
 
-    .line 1
     :try_start_0
     iget-object v0, p0, Lcom/google/firebase/firestore/local/y1;->b:Lcom/google/firebase/firestore/local/i;
 
-    .line 2
     invoke-static {p1}, Lcom/google/firebase/firestore/proto/MaybeDocument;->Jh([B)Lcom/google/firebase/firestore/proto/MaybeDocument;
 
     move-result-object p1
 
-    .line 3
     invoke-virtual {v0, p1}, Lcom/google/firebase/firestore/local/i;->b(Lcom/google/firebase/firestore/proto/MaybeDocument;)Lcom/google/firebase/firestore/model/i;
 
     move-result-object p1
@@ -62,7 +56,6 @@
 
     const-string p1, "MaybeDocument failed to parse: %s"
 
-    .line 4
     invoke-static {p1, v0}, Lcom/google/firebase/firestore/util/b;->a(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/AssertionError;
 
     move-result-object p1
@@ -75,7 +68,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-interface {p1, v0}, Landroid/database/Cursor;->getBlob(I)[B
 
     move-result-object p1
@@ -92,7 +84,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-interface {p2, v0}, Landroid/database/Cursor;->getBlob(I)[B
 
     move-result-object p2
@@ -101,7 +92,6 @@
 
     move-result-object p0
 
-    .line 2
     invoke-virtual {p0}, Lcom/google/firebase/firestore/model/i;->a()Lcom/google/firebase/firestore/model/e;
 
     move-result-object p2
@@ -116,7 +106,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-interface {p4, v0}, Landroid/database/Cursor;->getString(I)Ljava/lang/String;
 
     move-result-object v0
@@ -125,7 +114,6 @@
 
     move-result-object v0
 
-    .line 2
     invoke-virtual {v0}, Lcom/google/firebase/firestore/model/a;->D()I
 
     move-result v0
@@ -137,7 +125,6 @@
     :cond_0
     const/4 p1, 0x1
 
-    .line 3
     invoke-interface {p4, p1}, Landroid/database/Cursor;->getBlob(I)[B
 
     move-result-object p1
@@ -146,18 +133,15 @@
 
     move-result-object p0
 
-    .line 4
     instance-of p1, p0, Lcom/google/firebase/firestore/model/Document;
 
     if-nez p1, :cond_1
 
     return-void
 
-    .line 5
     :cond_1
     check-cast p0, Lcom/google/firebase/firestore/model/Document;
 
-    .line 6
     invoke-virtual {p2, p0}, Lcom/google/firebase/firestore/core/e0;->v(Lcom/google/firebase/firestore/model/Document;)Z
 
     move-result p1
@@ -166,7 +150,6 @@
 
     return-void
 
-    .line 7
     :cond_2
     invoke-virtual {p0}, Lcom/google/firebase/firestore/model/i;->a()Lcom/google/firebase/firestore/model/e;
 
@@ -180,7 +163,6 @@
 .method private i(Lcom/google/firebase/firestore/model/e;)Ljava/lang/String;
     .locals 0
 
-    .line 1
     invoke-virtual {p1}, Lcom/google/firebase/firestore/model/e;->s()Lcom/google/firebase/firestore/model/k;
 
     move-result-object p1
@@ -199,12 +181,10 @@
     .annotation runtime Ljavax/annotation/j;
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/google/firebase/firestore/local/y1;->i(Lcom/google/firebase/firestore/model/e;)Ljava/lang/String;
 
     move-result-object p1
 
-    .line 2
     iget-object v0, p0, Lcom/google/firebase/firestore/local/y1;->a:Lcom/google/firebase/firestore/local/n1;
 
     const-string v1, "SELECT contents FROM remote_documents WHERE path = ?"
@@ -221,7 +201,6 @@
 
     aput-object p1, v1, v2
 
-    .line 3
     invoke-virtual {v0, v1}, Lcom/google/firebase/firestore/local/n1$d;->a([Ljava/lang/Object;)Lcom/google/firebase/firestore/local/n1$d;
 
     move-result-object p1
@@ -230,7 +209,6 @@
 
     move-result-object v0
 
-    .line 4
     invoke-virtual {p1, v0}, Lcom/google/firebase/firestore/local/n1$d;->c(Lcom/google/common/base/n;)Ljava/lang/Object;
 
     move-result-object p1
@@ -243,12 +221,10 @@
 .method public b(Lcom/google/firebase/firestore/model/e;)V
     .locals 3
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/google/firebase/firestore/local/y1;->i(Lcom/google/firebase/firestore/model/e;)Ljava/lang/String;
 
     move-result-object p1
 
-    .line 2
     iget-object v0, p0, Lcom/google/firebase/firestore/local/y1;->a:Lcom/google/firebase/firestore/local/n1;
 
     const/4 v1, 0x1
@@ -280,7 +256,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p1}, Lcom/google/firebase/firestore/core/e0;->s()Z
 
     move-result v0
@@ -295,37 +270,30 @@
 
     const-string v4, "CollectionGroup queries should be handled in LocalDocumentsView"
 
-    .line 2
     invoke-static {v0, v4, v3}, Lcom/google/firebase/firestore/util/b;->d(ZLjava/lang/String;[Ljava/lang/Object;)V
 
-    .line 3
     invoke-virtual {p1}, Lcom/google/firebase/firestore/core/e0;->n()Lcom/google/firebase/firestore/model/k;
 
     move-result-object v0
 
-    .line 4
     invoke-virtual {v0}, Lcom/google/firebase/firestore/model/a;->D()I
 
     move-result v3
 
     add-int/2addr v3, v1
 
-    .line 5
     invoke-static {v0}, Lcom/google/firebase/firestore/local/d;->d(Lcom/google/firebase/firestore/model/a;)Ljava/lang/String;
 
     move-result-object v0
 
-    .line 6
     invoke-static {v0}, Lcom/google/firebase/firestore/local/d;->g(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v4
 
-    .line 7
     new-instance v5, Ljava/util/HashMap;
 
     invoke-direct {v5}, Ljava/util/HashMap;-><init>()V
 
-    .line 8
     iget-object v6, p0, Lcom/google/firebase/firestore/local/y1;->a:Lcom/google/firebase/firestore/local/n1;
 
     const-string v7, "SELECT path, contents FROM remote_documents WHERE path >= ? AND path < ?"
@@ -342,7 +310,6 @@
 
     aput-object v4, v7, v1
 
-    .line 9
     invoke-virtual {v6, v7}, Lcom/google/firebase/firestore/local/n1$d;->a([Ljava/lang/Object;)Lcom/google/firebase/firestore/local/n1$d;
 
     move-result-object v0
@@ -351,10 +318,8 @@
 
     move-result-object p1
 
-    .line 10
     invoke-virtual {v0, p1}, Lcom/google/firebase/firestore/local/n1$d;->d(Lcom/google/firebase/firestore/util/m;)V
 
-    .line 11
     invoke-static {}, Lcom/google/firebase/firestore/model/e;->a()Ljava/util/Comparator;
 
     move-result-object p1
@@ -369,7 +334,6 @@
 .method public d(Lcom/google/firebase/firestore/model/i;)V
     .locals 5
 
-    .line 1
     invoke-virtual {p1}, Lcom/google/firebase/firestore/model/i;->a()Lcom/google/firebase/firestore/model/e;
 
     move-result-object v0
@@ -378,14 +342,12 @@
 
     move-result-object v0
 
-    .line 2
     iget-object v1, p0, Lcom/google/firebase/firestore/local/y1;->b:Lcom/google/firebase/firestore/local/i;
 
     invoke-virtual {v1, p1}, Lcom/google/firebase/firestore/local/i;->h(Lcom/google/firebase/firestore/model/i;)Lcom/google/firebase/firestore/proto/MaybeDocument;
 
     move-result-object v1
 
-    .line 3
     iget-object v2, p0, Lcom/google/firebase/firestore/local/y1;->a:Lcom/google/firebase/firestore/local/n1;
 
     const/4 v3, 0x2
@@ -396,7 +358,6 @@
 
     aput-object v0, v3, v4
 
-    .line 4
     invoke-interface {v1}, Lcom/google/protobuf/i1;->P()[B
 
     move-result-object v0
@@ -407,10 +368,8 @@
 
     const-string v0, "INSERT OR REPLACE INTO remote_documents (path, contents) VALUES (?, ?)"
 
-    .line 5
     invoke-virtual {v2, v0, v3}, Lcom/google/firebase/firestore/local/n1;->q(Ljava/lang/String;[Ljava/lang/Object;)V
 
-    .line 6
     iget-object v0, p0, Lcom/google/firebase/firestore/local/y1;->a:Lcom/google/firebase/firestore/local/n1;
 
     invoke-virtual {v0}, Lcom/google/firebase/firestore/local/n1;->a()Lcom/google/firebase/firestore/local/f;
@@ -451,12 +410,10 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
 
-    .line 2
     invoke-interface {p1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v1
@@ -474,7 +431,6 @@
 
     check-cast v2, Lcom/google/firebase/firestore/model/e;
 
-    .line 3
     invoke-virtual {v2}, Lcom/google/firebase/firestore/model/e;->s()Lcom/google/firebase/firestore/model/k;
 
     move-result-object v2
@@ -487,13 +443,11 @@
 
     goto :goto_0
 
-    .line 4
     :cond_0
     new-instance v1, Ljava/util/HashMap;
 
     invoke-direct {v1}, Ljava/util/HashMap;-><init>()V
 
-    .line 5
     invoke-interface {p1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object p1
@@ -513,12 +467,10 @@
 
     const/4 v3, 0x0
 
-    .line 6
     invoke-interface {v1, v2, v3}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     goto :goto_1
 
-    .line 7
     :cond_1
     new-instance p1, Lcom/google/firebase/firestore/local/n1$b;
 
@@ -530,7 +482,6 @@
 
     invoke-direct {p1, v2, v3, v0, v4}, Lcom/google/firebase/firestore/local/n1$b;-><init>(Lcom/google/firebase/firestore/local/n1;Ljava/lang/String;Ljava/util/List;Ljava/lang/String;)V
 
-    .line 8
     :goto_2
     invoke-virtual {p1}, Lcom/google/firebase/firestore/local/n1$b;->b()Z
 
@@ -538,7 +489,6 @@
 
     if-eqz v0, :cond_2
 
-    .line 9
     invoke-virtual {p1}, Lcom/google/firebase/firestore/local/n1$b;->c()Lcom/google/firebase/firestore/local/n1$d;
 
     move-result-object v0
@@ -547,7 +497,6 @@
 
     move-result-object v2
 
-    .line 10
     invoke-virtual {v0, v2}, Lcom/google/firebase/firestore/local/n1$d;->d(Lcom/google/firebase/firestore/util/m;)V
 
     goto :goto_2

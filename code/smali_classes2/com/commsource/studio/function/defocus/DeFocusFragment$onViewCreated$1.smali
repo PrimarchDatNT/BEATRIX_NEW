@@ -31,7 +31,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/function/defocus/DeFocusFragment$onViewCreated$1;->a:Lcom/commsource/studio/function/defocus/DeFocusFragment;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -48,7 +47,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p0, p1, p2}, Lcom/commsource/widget/XSeekBar$b$a;->c(Lcom/commsource/widget/XSeekBar$b;IF)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -63,7 +61,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p0, p1, p2, p3}, Lcom/commsource/widget/XSeekBar$b$a;->a(Lcom/commsource/widget/XSeekBar$b;IFZ)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -78,7 +75,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p0, p1, p2, p3}, Lcom/commsource/widget/XSeekBar$b$a;->b(Lcom/commsource/widget/XSeekBar$b;IFZ)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -93,14 +89,12 @@
 
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p3, p0, Lcom/commsource/studio/function/defocus/DeFocusFragment$onViewCreated$1;->a:Lcom/commsource/studio/function/defocus/DeFocusFragment;
 
     const/4 v0, 0x0
 
     invoke-static {p3, v0}, Lcom/commsource/studio/function/defocus/DeFocusFragment;->S1(Lcom/commsource/studio/function/defocus/DeFocusFragment;Z)V
 
-    .line 2
     iget-object p3, p0, Lcom/commsource/studio/function/defocus/DeFocusFragment$onViewCreated$1;->a:Lcom/commsource/studio/function/defocus/DeFocusFragment;
 
     invoke-virtual {p3}, Lcom/commsource/studio/function/defocus/DeFocusFragment;->W1()Lcom/commsource/studio/effect/f;
@@ -115,7 +109,6 @@
 
     iput p1, p3, Lcom/commsource/beautymain/data/SoftFocusEntity;->mEffectIntensity:I
 
-    .line 3
     :cond_0
     iget-object p1, p0, Lcom/commsource/studio/function/defocus/DeFocusFragment$onViewCreated$1;->a:Lcom/commsource/studio/function/defocus/DeFocusFragment;
 
@@ -125,7 +118,6 @@
 
     invoke-virtual {p1, p3}, Lcom/commsource/studio/function/BaseSubFragment;->Z0(Lcotlin/jvm/u/a;)V
 
-    .line 4
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

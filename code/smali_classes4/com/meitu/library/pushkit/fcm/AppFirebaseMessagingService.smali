@@ -7,7 +7,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/google/firebase/messaging/FirebaseMessagingService;-><init>()V
 
     return-void
@@ -22,10 +21,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0}, Landroid/app/Service;->onCreate()V
 
-    .line 2
     :try_start_0
     invoke-static {}, Lcom/google/firebase/iid/FirebaseInstanceId;->e()Lcom/google/firebase/iid/FirebaseInstanceId;
 
@@ -42,7 +39,6 @@
     :catch_0
     move-exception v1
 
-    .line 3
     invoke-static {}, Lcom/meitu/pushkit/y;->y()Lcom/meitu/library/m/a/b;
 
     move-result-object v2
@@ -53,7 +49,6 @@
 
     const/4 v1, 0x0
 
-    .line 4
     :goto_0
     new-instance v2, Ljava/lang/StringBuilder;
 
@@ -63,7 +58,6 @@
 
     invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 5
     invoke-static {v1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v3
@@ -81,7 +75,6 @@
 
     const/4 v4, 0x0
 
-    .line 6
     invoke-virtual {v1}, Ljava/lang/String;->length()I
 
     move-result v5
@@ -115,17 +108,14 @@
 
     const-string v3, "MLog"
 
-    .line 7
     invoke-static {v3, v2}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 8
     invoke-static {v1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v2
 
     if-nez v2, :cond_1
 
-    .line 9
     invoke-virtual {p0}, Landroid/app/Service;->getApplicationContext()Landroid/content/Context;
 
     move-result-object v2
@@ -134,7 +124,6 @@
 
     invoke-static {v2, v1, v3}, Lcom/meitu/pushkit/y;->J(Landroid/content/Context;Ljava/lang/String;I)V
 
-    .line 10
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -148,10 +137,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0}, Lcom/google/firebase/messaging/FirebaseMessagingService;->onDeletedMessages()V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -164,10 +151,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0, p1}, Lcom/google/firebase/messaging/FirebaseMessagingService;->onMessageReceived(Lcom/google/firebase/messaging/RemoteMessage;)V
 
-    .line 2
     invoke-virtual {p1}, Lcom/google/firebase/messaging/RemoteMessage;->z()Ljava/util/Map;
 
     move-result-object p1
@@ -176,14 +161,12 @@
 
     const-string v1, "message"
 
-    .line 3
     invoke-interface {p1, v1}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
 
     check-cast p1, Ljava/lang/String;
 
-    .line 4
     invoke-static {}, Lcom/meitu/pushkit/y;->y()Lcom/meitu/library/m/a/b;
 
     move-result-object v1
@@ -204,7 +187,6 @@
 
     invoke-virtual {v1, v2}, Lcom/meitu/library/m/a/b;->a(Ljava/lang/String;)V
 
-    .line 5
     invoke-virtual {p0}, Landroid/app/Service;->getApplicationContext()Landroid/content/Context;
 
     move-result-object v1
@@ -219,7 +201,6 @@
 
     goto :goto_0
 
-    .line 6
     :cond_0
     invoke-static {}, Lcom/meitu/pushkit/y;->y()Lcom/meitu/library/m/a/b;
 
@@ -241,7 +222,6 @@
 
     invoke-virtual {v1, p1}, Lcom/meitu/library/m/a/b;->a(Ljava/lang/String;)V
 
-    .line 7
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -255,10 +235,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0, p1}, Lcom/google/firebase/messaging/FirebaseMessagingService;->onMessageSent(Ljava/lang/String;)V
 
-    .line 2
     invoke-static {}, Lcom/meitu/pushkit/y;->y()Lcom/meitu/library/m/a/b;
 
     move-result-object v1
@@ -279,7 +257,6 @@
 
     invoke-virtual {v1, p1}, Lcom/meitu/library/m/a/b;->a(Ljava/lang/String;)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -294,7 +271,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -303,7 +279,6 @@
 
     invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 2
     invoke-static {p1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v2
@@ -321,7 +296,6 @@
 
     const/4 v3, 0x0
 
-    .line 3
     invoke-virtual {p1}, Ljava/lang/String;->length()I
 
     move-result v4
@@ -355,10 +329,8 @@
 
     const-string v2, "MLog"
 
-    .line 4
     invoke-static {v2, v1}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 5
     invoke-virtual {p0}, Landroid/app/Service;->getApplicationContext()Landroid/content/Context;
 
     move-result-object v1
@@ -369,14 +341,12 @@
 
     invoke-static {v1, v2, v3, p1}, Lcom/meitu/pushkit/d0;->k(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 6
     invoke-static {}, Lcom/meitu/library/pushkit/PushChannel4;->isTurnOn()Z
 
     move-result v1
 
     if-eqz v1, :cond_1
 
-    .line 7
     invoke-virtual {p0}, Landroid/app/Service;->getApplicationContext()Landroid/content/Context;
 
     move-result-object v1
@@ -385,7 +355,6 @@
 
     invoke-static {v1, p1, v2}, Lcom/meitu/pushkit/y;->J(Landroid/content/Context;Ljava/lang/String;I)V
 
-    .line 8
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -399,10 +368,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0, p1, p2}, Lcom/google/firebase/messaging/FirebaseMessagingService;->onSendError(Ljava/lang/String;Ljava/lang/Exception;)V
 
-    .line 2
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -421,7 +388,6 @@
 
     invoke-static {v1, p1, p2}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

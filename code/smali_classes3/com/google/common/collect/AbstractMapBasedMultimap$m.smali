@@ -51,10 +51,8 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/google/common/collect/AbstractMapBasedMultimap$m;->p:Lcom/google/common/collect/AbstractMapBasedMultimap;
 
-    .line 2
     invoke-direct {p0, p1, p2, p3, p4}, Lcom/google/common/collect/AbstractMapBasedMultimap$o;-><init>(Lcom/google/common/collect/AbstractMapBasedMultimap;Ljava/lang/Object;Ljava/util/SortedSet;Lcom/google/common/collect/AbstractMapBasedMultimap$k;)V
 
     return-void
@@ -72,7 +70,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/google/common/collect/AbstractMapBasedMultimap$m;
 
     iget-object v1, p0, Lcom/google/common/collect/AbstractMapBasedMultimap$m;->p:Lcom/google/common/collect/AbstractMapBasedMultimap;
@@ -110,7 +107,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/collect/AbstractMapBasedMultimap$m;->l()Ljava/util/NavigableSet;
 
     move-result-object v0
@@ -132,7 +128,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/google/common/collect/AbstractMapBasedMultimap$k$a;
 
     invoke-virtual {p0}, Lcom/google/common/collect/AbstractMapBasedMultimap$m;->l()Ljava/util/NavigableSet;
@@ -158,7 +153,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/collect/AbstractMapBasedMultimap$m;->l()Ljava/util/NavigableSet;
 
     move-result-object v0
@@ -182,7 +176,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/collect/AbstractMapBasedMultimap$m;->l()Ljava/util/NavigableSet;
 
     move-result-object v0
@@ -204,7 +197,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/collect/AbstractMapBasedMultimap$m;->l()Ljava/util/NavigableSet;
 
     move-result-object v0
@@ -228,7 +220,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/collect/AbstractMapBasedMultimap$m;->l()Ljava/util/NavigableSet;
 
     move-result-object v0
@@ -243,7 +234,6 @@
 .method bridge synthetic k()Ljava/util/SortedSet;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/collect/AbstractMapBasedMultimap$m;->l()Ljava/util/NavigableSet;
 
     move-result-object v0
@@ -261,7 +251,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-super {p0}, Lcom/google/common/collect/AbstractMapBasedMultimap$o;->k()Ljava/util/SortedSet;
 
     move-result-object v0
@@ -279,7 +268,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/collect/AbstractMapBasedMultimap$m;->l()Ljava/util/NavigableSet;
 
     move-result-object v0
@@ -299,7 +287,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/collect/AbstractMapBasedMultimap$k;->iterator()Ljava/util/Iterator;
 
     move-result-object v0
@@ -319,7 +306,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/collect/AbstractMapBasedMultimap$m;->descendingIterator()Ljava/util/Iterator;
 
     move-result-object v0
@@ -341,7 +327,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/collect/AbstractMapBasedMultimap$m;->l()Ljava/util/NavigableSet;
 
     move-result-object v0
@@ -350,7 +335,6 @@
 
     move-result-object p1
 
-    .line 2
     invoke-direct {p0, p1}, Lcom/google/common/collect/AbstractMapBasedMultimap$m;->m(Ljava/util/NavigableSet;)Ljava/util/NavigableSet;
 
     move-result-object p1
@@ -368,7 +352,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/collect/AbstractMapBasedMultimap$m;->l()Ljava/util/NavigableSet;
 
     move-result-object v0

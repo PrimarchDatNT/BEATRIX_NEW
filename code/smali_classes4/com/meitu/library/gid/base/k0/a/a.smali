@@ -13,7 +13,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -26,12 +25,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p0}, Lcom/meitu/library/gid/base/w;->b(Ljava/lang/String;)[B
 
     move-result-object p0
 
-    .line 2
     invoke-static {p0, p1}, Lcom/meitu/library/gid/base/k0/a/a;->b([B[B)[B
 
     move-result-object p0
@@ -48,7 +45,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     :try_start_0
     new-instance v1, Ljavax/crypto/spec/SecretKeySpec;
 
@@ -58,17 +54,14 @@
 
     const-string p0, "AES/ECB/PKCS5Padding"
 
-    .line 2
     invoke-static {p0}, Ljavax/crypto/Cipher;->getInstance(Ljava/lang/String;)Ljavax/crypto/Cipher;
 
     move-result-object p0
 
     const/4 v2, 0x2
 
-    .line 3
     invoke-virtual {p0, v2, v1}, Ljavax/crypto/Cipher;->init(ILjava/security/Key;)V
 
-    .line 4
     invoke-virtual {p0, p1}, Ljavax/crypto/Cipher;->doFinal([B)[B
 
     move-result-object p0
@@ -86,7 +79,6 @@
     :catch_0
     move-exception p0
 
-    .line 5
     invoke-virtual {p0}, Ljavax/crypto/BadPaddingException;->printStackTrace()V
 
     goto :goto_0
@@ -94,7 +86,6 @@
     :catch_1
     move-exception p0
 
-    .line 6
     invoke-virtual {p0}, Ljavax/crypto/IllegalBlockSizeException;->printStackTrace()V
 
     goto :goto_0
@@ -102,7 +93,6 @@
     :catch_2
     move-exception p0
 
-    .line 7
     invoke-virtual {p0}, Ljava/security/InvalidKeyException;->printStackTrace()V
 
     goto :goto_0
@@ -110,7 +100,6 @@
     :catch_3
     move-exception p0
 
-    .line 8
     invoke-virtual {p0}, Ljavax/crypto/NoSuchPaddingException;->printStackTrace()V
 
     goto :goto_0
@@ -118,13 +107,11 @@
     :catch_4
     move-exception p0
 
-    .line 9
     invoke-virtual {p0}, Ljava/security/NoSuchAlgorithmException;->printStackTrace()V
 
     :goto_0
     const/4 p0, 0x0
 
-    .line 10
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
@@ -137,12 +124,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p0}, Lcom/meitu/library/gid/base/w;->b(Ljava/lang/String;)[B
 
     move-result-object p0
 
-    .line 2
     invoke-static {p0, p1}, Lcom/meitu/library/gid/base/k0/a/a;->d([B[B)[B
 
     move-result-object p0
@@ -164,12 +149,10 @@
     :try_start_0
     const-string v1, "AES/ECB/PKCS5Padding"
 
-    .line 1
     invoke-static {v1}, Ljavax/crypto/Cipher;->getInstance(Ljava/lang/String;)Ljavax/crypto/Cipher;
 
     move-result-object v1
 
-    .line 2
     new-instance v2, Ljavax/crypto/spec/SecretKeySpec;
 
     const-string v3, "AES"
@@ -178,10 +161,8 @@
 
     const/4 p0, 0x1
 
-    .line 3
     invoke-virtual {v1, p0, v2}, Ljavax/crypto/Cipher;->init(ILjava/security/Key;)V
 
-    .line 4
     invoke-virtual {v1, p1}, Ljavax/crypto/Cipher;->doFinal([B)[B
 
     move-result-object p0
@@ -195,12 +176,10 @@
     :catch_0
     move-exception p0
 
-    .line 5
     invoke-virtual {p0}, Ljava/lang/Exception;->printStackTrace()V
 
     const/4 p0, 0x0
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
@@ -215,7 +194,6 @@
 
     const/16 v1, 0x20
 
-    .line 1
     invoke-static {v1}, Lcom/meitu/library/gid/base/f0;->a(I)Ljava/lang/String;
 
     move-result-object v1

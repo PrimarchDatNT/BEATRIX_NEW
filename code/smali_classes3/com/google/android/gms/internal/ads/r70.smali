@@ -30,7 +30,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/google/android/gms/internal/ads/bc0;-><init>(Ljava/util/Set;)V
 
     return-void
@@ -41,7 +40,6 @@
 .method public final a(I)V
     .locals 1
 
-    .line 1
     new-instance v0, Lcom/google/android/gms/internal/ads/q70;
 
     invoke-direct {v0, p1}, Lcom/google/android/gms/internal/ads/q70;-><init>(I)V

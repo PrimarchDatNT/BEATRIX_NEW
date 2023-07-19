@@ -84,12 +84,10 @@
 .method public constructor <init>(I)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     iput p1, p0, Lcom/commsource/studio/shader/BaseShader;->b:I
 
-    .line 2
     new-instance p1, Lcom/commsource/studio/shader/BaseShader$shaderId$2;
 
     invoke-direct {p1, p0}, Lcom/commsource/studio/shader/BaseShader$shaderId$2;-><init>(Lcom/commsource/studio/shader/BaseShader;)V
@@ -106,7 +104,6 @@
 .method public static final synthetic a(Lcom/commsource/studio/shader/BaseShader;)I
     .locals 0
 
-    .line 1
     iget p0, p0, Lcom/commsource/studio/shader/BaseShader;->b:I
 
     return p0
@@ -146,7 +143,6 @@
 .method public final f()V
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/studio/shader/BaseShader;->b()I
 
     move-result v0

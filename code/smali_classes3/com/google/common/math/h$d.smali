@@ -24,10 +24,8 @@
 .method private constructor <init>(I[I)V
     .locals 4
 
-    .line 2
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 3
     array-length v0, p2
 
     const/4 v1, 0x0
@@ -39,14 +37,12 @@
 
     aget v3, p2, v2
 
-    .line 4
     invoke-static {v3, p1}, Lcom/google/common/math/h;->a(II)V
 
     add-int/lit8 v2, v2, 0x1
 
     goto :goto_0
 
-    .line 5
     :cond_0
     array-length v0, p2
 
@@ -59,10 +55,8 @@
 
     invoke-static {v1, v0}, Lcom/google/common/base/t;->e(ZLjava/lang/Object;)V
 
-    .line 6
     iput p1, p0, Lcom/google/common/math/h$d;->a:I
 
-    .line 7
     iput-object p2, p0, Lcom/google/common/math/h$d;->b:[I
 
     return-void
@@ -71,7 +65,6 @@
 .method synthetic constructor <init>(I[ILcom/google/common/math/h$a;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1, p2}, Lcom/google/common/math/h$d;-><init>(I[I)V
 
     return-void
@@ -95,7 +88,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p1}, Lcom/google/common/primitives/Doubles;->z(Ljava/util/Collection;)[D
 
     move-result-object p1
@@ -119,7 +111,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p1}, [D->clone()Ljava/lang/Object;
 
     move-result-object p1
@@ -145,7 +136,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p1}, Lcom/google/common/math/h;->c([I)[D
 
     move-result-object p1
@@ -169,7 +159,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p1}, Lcom/google/common/math/h;->b([J)[D
 
     move-result-object p1
@@ -197,7 +186,6 @@
 
     move-object/from16 v7, p1
 
-    .line 1
     array-length v1, v7
 
     const/4 v8, 0x0
@@ -218,19 +206,16 @@
 
     invoke-static {v1, v3}, Lcom/google/common/base/t;->e(ZLjava/lang/Object;)V
 
-    .line 2
     invoke-static/range {p1 .. p1}, Lcom/google/common/math/h;->d([D)Z
 
     move-result v1
 
     if-eqz v1, :cond_2
 
-    .line 3
     new-instance v1, Ljava/util/LinkedHashMap;
 
     invoke-direct {v1}, Ljava/util/LinkedHashMap;-><init>()V
 
-    .line 4
     iget-object v2, v0, Lcom/google/common/math/h$d;->b:[I
 
     array-length v3, v2
@@ -240,7 +225,6 @@
 
     aget v4, v2, v8
 
-    .line 5
     invoke-static {v4}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v4
@@ -257,7 +241,6 @@
 
     goto :goto_1
 
-    .line 6
     :cond_1
     invoke-static {v1}, Ljava/util/Collections;->unmodifiableMap(Ljava/util/Map;)Ljava/util/Map;
 
@@ -265,7 +248,6 @@
 
     return-object v1
 
-    .line 7
     :cond_2
     iget-object v1, v0, Lcom/google/common/math/h$d;->b:[I
 
@@ -273,12 +255,10 @@
 
     new-array v9, v3, [I
 
-    .line 8
     array-length v3, v1
 
     new-array v10, v3, [I
 
-    .line 9
     array-length v1, v1
 
     mul-int/lit8 v1, v1, 0x2
@@ -289,7 +269,6 @@
 
     const/4 v4, 0x0
 
-    .line 10
     :goto_2
     iget-object v5, v0, Lcom/google/common/math/h$d;->b:[I
 
@@ -297,7 +276,6 @@
 
     if-ge v3, v6, :cond_4
 
-    .line 11
     aget v5, v5, v3
 
     int-to-long v5, v5
@@ -310,7 +288,6 @@
 
     mul-long v5, v5, v11
 
-    .line 12
     iget v11, v0, Lcom/google/common/math/h$d;->a:I
 
     int-to-long v11, v11
@@ -325,7 +302,6 @@
 
     int-to-long v13, v12
 
-    .line 13
     iget v11, v0, Lcom/google/common/math/h$d;->a:I
 
     move/from16 v16, v3
@@ -338,13 +314,10 @@
 
     long-to-int v2, v5
 
-    .line 14
     aput v12, v9, v16
 
-    .line 15
     aput v2, v10, v16
 
-    .line 16
     aput v12, v1, v4
 
     add-int/lit8 v4, v4, 0x1
@@ -353,7 +326,6 @@
 
     add-int/lit8 v12, v12, 0x1
 
-    .line 17
     aput v12, v1, v4
 
     add-int/lit8 v4, v4, 0x1
@@ -365,7 +337,6 @@
 
     goto :goto_2
 
-    .line 18
     :cond_4
     invoke-static {v1, v8, v4}, Ljava/util/Arrays;->sort([III)V
 
@@ -377,7 +348,6 @@
 
     const/4 v5, 0x0
 
-    .line 19
     array-length v6, v7
 
     sub-int/2addr v6, v3
@@ -388,12 +358,10 @@
 
     invoke-static/range {v1 .. v6}, Lcom/google/common/math/h;->g([III[DII)V
 
-    .line 20
     new-instance v1, Ljava/util/LinkedHashMap;
 
     invoke-direct {v1}, Ljava/util/LinkedHashMap;-><init>()V
 
-    .line 21
     :goto_3
     iget-object v2, v0, Lcom/google/common/math/h$d;->b:[I
 
@@ -401,15 +369,12 @@
 
     if-ge v8, v3, :cond_6
 
-    .line 22
     aget v3, v9, v8
 
-    .line 23
     aget v4, v10, v8
 
     if-nez v4, :cond_5
 
-    .line 24
     aget v2, v2, v8
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -426,11 +391,9 @@
 
     goto :goto_4
 
-    .line 25
     :cond_5
     aget v2, v2, v8
 
-    .line 26
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v2
@@ -459,7 +422,6 @@
 
     move-result-object v3
 
-    .line 27
     invoke-interface {v1, v2, v3}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     :goto_4
@@ -467,7 +429,6 @@
 
     goto :goto_3
 
-    .line 28
     :cond_6
     invoke-static {v1}, Ljava/util/Collections;->unmodifiableMap(Ljava/util/Map;)Ljava/util/Map;
 

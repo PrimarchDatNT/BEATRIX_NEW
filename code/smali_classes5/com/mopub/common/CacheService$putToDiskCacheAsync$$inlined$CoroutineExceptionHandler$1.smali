@@ -29,7 +29,6 @@
 
     iput-object p2, p0, Lcom/mopub/common/CacheService$putToDiskCacheAsync$$inlined$CoroutineExceptionHandler$1;->$listener$inlined:Lcom/mopub/common/CacheService$DiskLruCacheListener;
 
-    .line 1
     invoke-direct {p0, p1}, Lcotlin/coroutines/a;-><init>(Lcotlin/coroutines/CoroutineContext$b;)V
 
     return-void
@@ -52,10 +51,8 @@
 
     const/4 v1, 0x1
 
-    .line 1
     invoke-static {p1, v0, v1, v0}, Lcotlinx/coroutines/f2;->j(Lcotlin/coroutines/CoroutineContext;Ljava/util/concurrent/CancellationException;ILjava/lang/Object;)V
 
-    .line 2
     sget-object p1, Lcom/mopub/common/logging/MoPubLog$SdkLogEvent;->CUSTOM:Lcom/mopub/common/logging/MoPubLog$SdkLogEvent;
 
     const/4 v0, 0x2
@@ -72,7 +69,6 @@
 
     invoke-static {p1, v0}, Lcom/mopub/common/logging/MoPubLog;->log(Lcom/mopub/common/logging/MoPubLog$MPLogEventType;[Ljava/lang/Object;)V
 
-    .line 3
     iget-object p1, p0, Lcom/mopub/common/CacheService$putToDiskCacheAsync$$inlined$CoroutineExceptionHandler$1;->$listener$inlined:Lcom/mopub/common/CacheService$DiskLruCacheListener;
 
     if-eqz p1, :cond_0

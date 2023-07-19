@@ -29,7 +29,6 @@
 .method static constructor <clinit>()V
     .locals 9
 
-    .line 1
     new-instance v0, Lcom/google/firebase/crashlytics/internal/network/HttpMethod;
 
     const-string v1, "GET"
@@ -40,7 +39,6 @@
 
     sput-object v0, Lcom/google/firebase/crashlytics/internal/network/HttpMethod;->GET:Lcom/google/firebase/crashlytics/internal/network/HttpMethod;
 
-    .line 2
     new-instance v1, Lcom/google/firebase/crashlytics/internal/network/HttpMethod;
 
     const-string v3, "POST"
@@ -51,7 +49,6 @@
 
     sput-object v1, Lcom/google/firebase/crashlytics/internal/network/HttpMethod;->POST:Lcom/google/firebase/crashlytics/internal/network/HttpMethod;
 
-    .line 3
     new-instance v3, Lcom/google/firebase/crashlytics/internal/network/HttpMethod;
 
     const-string v5, "PUT"
@@ -62,7 +59,6 @@
 
     sput-object v3, Lcom/google/firebase/crashlytics/internal/network/HttpMethod;->PUT:Lcom/google/firebase/crashlytics/internal/network/HttpMethod;
 
-    .line 4
     new-instance v5, Lcom/google/firebase/crashlytics/internal/network/HttpMethod;
 
     const-string v7, "DELETE"
@@ -85,7 +81,6 @@
 
     aput-object v5, v7, v8
 
-    .line 5
     sput-object v7, Lcom/google/firebase/crashlytics/internal/network/HttpMethod;->$VALUES:[Lcom/google/firebase/crashlytics/internal/network/HttpMethod;
 
     return-void
@@ -99,7 +94,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
     return-void
@@ -108,7 +102,6 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/google/firebase/crashlytics/internal/network/HttpMethod;
     .locals 1
 
-    .line 1
     const-class v0, Lcom/google/firebase/crashlytics/internal/network/HttpMethod;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -123,7 +116,6 @@
 .method public static values()[Lcom/google/firebase/crashlytics/internal/network/HttpMethod;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/google/firebase/crashlytics/internal/network/HttpMethod;->$VALUES:[Lcom/google/firebase/crashlytics/internal/network/HttpMethod;
 
     invoke-virtual {v0}, [Lcom/google/firebase/crashlytics/internal/network/HttpMethod;->clone()Ljava/lang/Object;

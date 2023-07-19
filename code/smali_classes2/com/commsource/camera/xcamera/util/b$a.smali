@@ -35,7 +35,6 @@
 .method constructor <init>(Lcotlin/jvm/u/l;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/camera/xcamera/util/b$a;->a:Lcotlin/jvm/u/l;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -52,7 +51,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Lcom/meitu/http/api/b$a;
 
     invoke-virtual {p0, p1}, Lcom/commsource/camera/xcamera/util/b$a;->c(Lcom/meitu/http/api/b$a;)V
@@ -73,17 +71,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p0, p1}, Lf/k/k/o;->d(Lf/k/k/p;Ljava/lang/Throwable;)V
 
-    .line 2
     iget-object p1, p0, Lcom/commsource/camera/xcamera/util/b$a;->a:Lcotlin/jvm/u/l;
 
     sget-object v1, Ljava/lang/Boolean;->FALSE:Ljava/lang/Boolean;
 
     invoke-interface {p1, v1}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -100,7 +95,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -121,7 +115,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     invoke-virtual {p1}, Lokhttp3/Response;->body()Lokhttp3/ResponseBody;
 
     move-result-object p1
@@ -137,7 +130,6 @@
     :cond_0
     move-object p1, v1
 
-    .line 2
     :goto_0
     invoke-static {p1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
@@ -145,10 +137,8 @@
 
     if-nez v2, :cond_1
 
-    .line 3
     const-class v1, Lcom/meitu/http/api/b$a;
 
-    .line 4
     invoke-static {p1, v1}, Lcom/meitu/webview/utils/c;->a(Ljava/lang/String;Ljava/lang/reflect/Type;)Ljava/lang/Object;
 
     move-result-object p1
@@ -160,7 +150,6 @@
     :cond_1
     if-eqz v1, :cond_7
 
-    .line 5
     invoke-virtual {v1}, Lcom/meitu/http/api/b$a;->c()Ljava/lang/Integer;
 
     move-result-object p1
@@ -203,7 +192,6 @@
 
     if-eqz p1, :cond_7
 
-    .line 6
     const-class p1, Lcom/meitu/http/api/b;
 
     invoke-static {p1}, Lf/k/k/u/b;->h(Ljava/lang/Class;)Ljava/lang/Object;
@@ -212,7 +200,6 @@
 
     check-cast p1, Lcom/meitu/http/api/b;
 
-    .line 7
     invoke-virtual {v1}, Lcom/meitu/http/api/b$a;->a()Lcom/meitu/http/api/b$a$a;
 
     move-result-object v1
@@ -235,17 +222,14 @@
 
     move-result v1
 
-    .line 8
     new-instance v2, Lcom/commsource/camera/xcamera/util/b$a$a;
 
     invoke-direct {v2, p0}, Lcom/commsource/camera/xcamera/util/b$a$a;-><init>(Lcom/commsource/camera/xcamera/util/b$a;)V
 
-    .line 9
     invoke-virtual {p1, v1, v2}, Lcom/meitu/http/api/b;->b(ILf/k/k/p;)V
 
     goto :goto_3
 
-    .line 10
     :cond_7
     :goto_2
     iget-object p1, p0, Lcom/commsource/camera/xcamera/util/b$a;->a:Lcotlin/jvm/u/l;
@@ -257,7 +241,6 @@
     :goto_3
     const/4 p1, 0x1
 
-    .line 11
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1

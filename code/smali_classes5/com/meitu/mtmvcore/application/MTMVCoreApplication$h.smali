@@ -27,7 +27,6 @@
 .method constructor <init>(Lcom/meitu/mtmvcore/application/MTMVCoreApplication;Ljava/util/concurrent/Semaphore;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/mtmvcore/application/MTMVCoreApplication$h;->b:Lcom/meitu/mtmvcore/application/MTMVCoreApplication;
 
     iput-object p2, p0, Lcom/meitu/mtmvcore/application/MTMVCoreApplication$h;->a:Ljava/util/concurrent/Semaphore;
@@ -50,12 +49,10 @@
 
     if-eqz p2, :cond_0
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/mtmvcore/application/MTMVCoreApplication$h;->b:Lcom/meitu/mtmvcore/application/MTMVCoreApplication;
 
     invoke-static {v1, p2}, Lcom/meitu/mtmvcore/application/MTMVCoreApplication;->access$1802(Lcom/meitu/mtmvcore/application/MTMVCoreApplication;Landroid/os/Handler;)Landroid/os/Handler;
 
-    .line 2
     iget-object p2, p0, Lcom/meitu/mtmvcore/application/MTMVCoreApplication$h;->b:Lcom/meitu/mtmvcore/application/MTMVCoreApplication;
 
     invoke-static {p2, p1}, Lcom/meitu/mtmvcore/application/MTMVCoreApplication;->access$1902(Lcom/meitu/mtmvcore/application/MTMVCoreApplication;Landroid/os/Looper;)Landroid/os/Looper;
@@ -64,20 +61,16 @@
 
     const-string p2, "offscreen thread onInitComplete"
 
-    .line 3
     invoke-static {p1, p2}, Lcom/meitu/debug/Logger;->b(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 4
     iget-object p1, p0, Lcom/meitu/mtmvcore/application/MTMVCoreApplication$h;->a:Ljava/util/concurrent/Semaphore;
 
     invoke-virtual {p1}, Ljava/util/concurrent/Semaphore;->release()V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 6
     :cond_0
     new-instance p1, Ljava/lang/RuntimeException;
 

@@ -24,20 +24,16 @@
 .method constructor <init>(Lcom/meitu/library/analytics/consumer/EventUploader;J)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/library/analytics/consumer/EventUploader$a;->b:Lcom/meitu/library/analytics/consumer/EventUploader;
 
     invoke-direct {p0}, Ljava/lang/Thread;-><init>()V
 
-    .line 2
     invoke-static {p1, p0}, Lcom/meitu/library/analytics/consumer/EventUploader;->b(Lcom/meitu/library/analytics/consumer/EventUploader;Ljava/lang/Thread;)Ljava/lang/Thread;
 
-    .line 3
     iput-wide p2, p0, Lcom/meitu/library/analytics/consumer/EventUploader$a;->a:J
 
     const-string p1, "Teemo-EventUploader"
 
-    .line 4
     invoke-virtual {p0, p1}, Ljava/lang/Thread;->setName(Ljava/lang/String;)V
 
     return-void
@@ -54,7 +50,6 @@
 
     const/4 v1, 0x0
 
-    .line 1
     :try_start_0
     iget-object v2, p0, Lcom/meitu/library/analytics/consumer/EventUploader$a;->b:Lcom/meitu/library/analytics/consumer/EventUploader;
 
@@ -62,7 +57,6 @@
 
     invoke-static {v2, v3, v4}, Lcom/meitu/library/analytics/consumer/EventUploader;->c(Lcom/meitu/library/analytics/consumer/EventUploader;J)V
 
-    .line 2
     iget-object v2, p0, Lcom/meitu/library/analytics/consumer/EventUploader$a;->b:Lcom/meitu/library/analytics/consumer/EventUploader;
 
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
@@ -84,30 +78,25 @@
     :catch_0
     move-exception v2
 
-    .line 3
     :try_start_1
     invoke-virtual {v2}, Ljava/lang/Exception;->printStackTrace()V
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
-    .line 4
     :goto_0
     iget-object v2, p0, Lcom/meitu/library/analytics/consumer/EventUploader$a;->b:Lcom/meitu/library/analytics/consumer/EventUploader;
 
     invoke-static {v2, v1}, Lcom/meitu/library/analytics/consumer/EventUploader;->b(Lcom/meitu/library/analytics/consumer/EventUploader;Ljava/lang/Thread;)Ljava/lang/Thread;
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 6
     :goto_1
     iget-object v3, p0, Lcom/meitu/library/analytics/consumer/EventUploader$a;->b:Lcom/meitu/library/analytics/consumer/EventUploader;
 
     invoke-static {v3, v1}, Lcom/meitu/library/analytics/consumer/EventUploader;->b(Lcom/meitu/library/analytics/consumer/EventUploader;Ljava/lang/Thread;)Ljava/lang/Thread;
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     throw v2

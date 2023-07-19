@@ -39,62 +39,50 @@
 
     const/16 v1, 0x3e9
 
-    .line 1
     sput v1, Lcom/meitu/ipstore/web/scripts/b;->a:I
 
     const/16 v1, 0x3ea
 
-    .line 2
     sput v1, Lcom/meitu/ipstore/web/scripts/b;->b:I
 
     const/16 v1, 0x3eb
 
-    .line 3
     sput v1, Lcom/meitu/ipstore/web/scripts/b;->c:I
 
     const/16 v1, 0x3ec
 
-    .line 4
     sput v1, Lcom/meitu/ipstore/web/scripts/b;->d:I
 
     const/16 v1, 0x3ed
 
-    .line 5
     sput v1, Lcom/meitu/ipstore/web/scripts/b;->e:I
 
     const/16 v1, 0x3ee
 
-    .line 6
     sput v1, Lcom/meitu/ipstore/web/scripts/b;->f:I
 
     const/16 v1, 0x3ef
 
-    .line 7
     sput v1, Lcom/meitu/ipstore/web/scripts/b;->g:I
 
     const/16 v1, 0x3f0
 
-    .line 8
     sput v1, Lcom/meitu/ipstore/web/scripts/b;->h:I
 
     const/16 v1, 0x3f1
 
-    .line 9
     sput v1, Lcom/meitu/ipstore/web/scripts/b;->i:I
 
     const/16 v1, 0x3f2
 
-    .line 10
     sput v1, Lcom/meitu/ipstore/web/scripts/b;->j:I
 
     const/16 v1, 0x7d1
 
-    .line 11
     sput v1, Lcom/meitu/ipstore/web/scripts/b;->k:I
 
     const-string v1, ""
 
-    .line 12
     sput-object v1, Lcom/meitu/ipstore/web/scripts/b;->l:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -105,7 +93,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -118,7 +105,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v1
@@ -127,7 +113,6 @@
 
     const-string p1, "{}"
 
-    .line 2
     :cond_0
     new-instance v1, Ljava/lang/StringBuilder;
 
@@ -165,7 +150,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const-string v0, "{}"
@@ -180,7 +164,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V

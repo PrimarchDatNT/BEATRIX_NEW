@@ -70,7 +70,6 @@
 .method static constructor <clinit>()V
     .locals 20
 
-    .line 1
     new-instance v0, Lio/grpc/Status$Code;
 
     const-string v1, "OK"
@@ -81,7 +80,6 @@
 
     sput-object v0, Lio/grpc/Status$Code;->OK:Lio/grpc/Status$Code;
 
-    .line 2
     new-instance v1, Lio/grpc/Status$Code;
 
     const-string v3, "CANCELLED"
@@ -92,7 +90,6 @@
 
     sput-object v1, Lio/grpc/Status$Code;->CANCELLED:Lio/grpc/Status$Code;
 
-    .line 3
     new-instance v3, Lio/grpc/Status$Code;
 
     const-string v5, "UNKNOWN"
@@ -103,7 +100,6 @@
 
     sput-object v3, Lio/grpc/Status$Code;->UNKNOWN:Lio/grpc/Status$Code;
 
-    .line 4
     new-instance v5, Lio/grpc/Status$Code;
 
     const-string v7, "INVALID_ARGUMENT"
@@ -114,7 +110,6 @@
 
     sput-object v5, Lio/grpc/Status$Code;->INVALID_ARGUMENT:Lio/grpc/Status$Code;
 
-    .line 5
     new-instance v7, Lio/grpc/Status$Code;
 
     const-string v9, "DEADLINE_EXCEEDED"
@@ -125,7 +120,6 @@
 
     sput-object v7, Lio/grpc/Status$Code;->DEADLINE_EXCEEDED:Lio/grpc/Status$Code;
 
-    .line 6
     new-instance v9, Lio/grpc/Status$Code;
 
     const-string v11, "NOT_FOUND"
@@ -136,7 +130,6 @@
 
     sput-object v9, Lio/grpc/Status$Code;->NOT_FOUND:Lio/grpc/Status$Code;
 
-    .line 7
     new-instance v11, Lio/grpc/Status$Code;
 
     const-string v13, "ALREADY_EXISTS"
@@ -147,7 +140,6 @@
 
     sput-object v11, Lio/grpc/Status$Code;->ALREADY_EXISTS:Lio/grpc/Status$Code;
 
-    .line 8
     new-instance v13, Lio/grpc/Status$Code;
 
     const-string v15, "PERMISSION_DENIED"
@@ -158,7 +150,6 @@
 
     sput-object v13, Lio/grpc/Status$Code;->PERMISSION_DENIED:Lio/grpc/Status$Code;
 
-    .line 9
     new-instance v15, Lio/grpc/Status$Code;
 
     const-string v14, "RESOURCE_EXHAUSTED"
@@ -169,7 +160,6 @@
 
     sput-object v15, Lio/grpc/Status$Code;->RESOURCE_EXHAUSTED:Lio/grpc/Status$Code;
 
-    .line 10
     new-instance v14, Lio/grpc/Status$Code;
 
     const-string v12, "FAILED_PRECONDITION"
@@ -180,7 +170,6 @@
 
     sput-object v14, Lio/grpc/Status$Code;->FAILED_PRECONDITION:Lio/grpc/Status$Code;
 
-    .line 11
     new-instance v12, Lio/grpc/Status$Code;
 
     const-string v10, "ABORTED"
@@ -191,7 +180,6 @@
 
     sput-object v12, Lio/grpc/Status$Code;->ABORTED:Lio/grpc/Status$Code;
 
-    .line 12
     new-instance v10, Lio/grpc/Status$Code;
 
     const-string v8, "OUT_OF_RANGE"
@@ -202,7 +190,6 @@
 
     sput-object v10, Lio/grpc/Status$Code;->OUT_OF_RANGE:Lio/grpc/Status$Code;
 
-    .line 13
     new-instance v8, Lio/grpc/Status$Code;
 
     const-string v6, "UNIMPLEMENTED"
@@ -213,7 +200,6 @@
 
     sput-object v8, Lio/grpc/Status$Code;->UNIMPLEMENTED:Lio/grpc/Status$Code;
 
-    .line 14
     new-instance v6, Lio/grpc/Status$Code;
 
     const-string v4, "INTERNAL"
@@ -224,7 +210,6 @@
 
     sput-object v6, Lio/grpc/Status$Code;->INTERNAL:Lio/grpc/Status$Code;
 
-    .line 15
     new-instance v4, Lio/grpc/Status$Code;
 
     const-string v2, "UNAVAILABLE"
@@ -237,7 +222,6 @@
 
     sput-object v4, Lio/grpc/Status$Code;->UNAVAILABLE:Lio/grpc/Status$Code;
 
-    .line 16
     new-instance v2, Lio/grpc/Status$Code;
 
     const-string v6, "DATA_LOSS"
@@ -250,7 +234,6 @@
 
     sput-object v2, Lio/grpc/Status$Code;->DATA_LOSS:Lio/grpc/Status$Code;
 
-    .line 17
     new-instance v6, Lio/grpc/Status$Code;
 
     const-string v4, "UNAUTHENTICATED"
@@ -333,7 +316,6 @@
 
     aput-object v6, v4, v2
 
-    .line 18
     sput-object v4, Lio/grpc/Status$Code;->$VALUES:[Lio/grpc/Status$Code;
 
     return-void
@@ -347,13 +329,10 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 2
     iput p3, p0, Lio/grpc/Status$Code;->value:I
 
-    .line 3
     invoke-static {p3}, Ljava/lang/Integer;->toString(I)Ljava/lang/String;
 
     move-result-object p1
@@ -372,7 +351,6 @@
 .method static synthetic access$300(Lio/grpc/Status$Code;)[B
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lio/grpc/Status$Code;->valueAscii()[B
 
     move-result-object p0
@@ -383,7 +361,6 @@
 .method private valueAscii()[B
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lio/grpc/Status$Code;->valueAscii:[B
 
     return-object v0
@@ -392,7 +369,6 @@
 .method public static valueOf(Ljava/lang/String;)Lio/grpc/Status$Code;
     .locals 1
 
-    .line 1
     const-class v0, Lio/grpc/Status$Code;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -407,7 +383,6 @@
 .method public static values()[Lio/grpc/Status$Code;
     .locals 1
 
-    .line 1
     sget-object v0, Lio/grpc/Status$Code;->$VALUES:[Lio/grpc/Status$Code;
 
     invoke-virtual {v0}, [Lio/grpc/Status$Code;->clone()Ljava/lang/Object;
@@ -424,7 +399,6 @@
 .method public toStatus()Lio/grpc/Status;
     .locals 2
 
-    .line 1
     invoke-static {}, Lio/grpc/Status;->a()Ljava/util/List;
 
     move-result-object v0
@@ -443,7 +417,6 @@
 .method public value()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lio/grpc/Status$Code;->value:I
 
     return v0

@@ -25,16 +25,12 @@
 .method public constructor <init>(Ljava/lang/String;FF)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/airbnb/lottie/model/g;->a:Ljava/lang/String;
 
-    .line 3
     iput p3, p0, Lcom/airbnb/lottie/model/g;->c:F
 
-    .line 4
     iput p2, p0, Lcom/airbnb/lottie/model/g;->b:F
 
     return-void
@@ -45,7 +41,6 @@
 .method public a(Ljava/lang/String;)Z
     .locals 4
 
-    .line 1
     iget-object v0, p0, Lcom/airbnb/lottie/model/g;->a:Ljava/lang/String;
 
     invoke-virtual {v0, p1}, Ljava/lang/String;->equalsIgnoreCase(Ljava/lang/String;)Z
@@ -58,7 +53,6 @@
 
     return v1
 
-    .line 2
     :cond_0
     iget-object v0, p0, Lcom/airbnb/lottie/model/g;->a:Ljava/lang/String;
 

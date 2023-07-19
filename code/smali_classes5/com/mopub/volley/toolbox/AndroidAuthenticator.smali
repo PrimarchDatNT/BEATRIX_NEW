@@ -30,19 +30,14 @@
     .annotation build Landroidx/annotation/VisibleForTesting;
     .end annotation
 
-    .line 3
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 4
     iput-object p1, p0, Lcom/mopub/volley/toolbox/AndroidAuthenticator;->mAccountManager:Landroid/accounts/AccountManager;
 
-    .line 5
     iput-object p2, p0, Lcom/mopub/volley/toolbox/AndroidAuthenticator;->mAccount:Landroid/accounts/Account;
 
-    .line 6
     iput-object p3, p0, Lcom/mopub/volley/toolbox/AndroidAuthenticator;->mAuthTokenType:Ljava/lang/String;
 
-    .line 7
     iput-boolean p4, p0, Lcom/mopub/volley/toolbox/AndroidAuthenticator;->mNotifyAuthFailure:Z
 
     return-void
@@ -53,7 +48,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-direct {p0, p1, p2, p3, v0}, Lcom/mopub/volley/toolbox/AndroidAuthenticator;-><init>(Landroid/content/Context;Landroid/accounts/Account;Ljava/lang/String;Z)V
 
     return-void
@@ -62,7 +56,6 @@
 .method public constructor <init>(Landroid/content/Context;Landroid/accounts/Account;Ljava/lang/String;Z)V
     .locals 0
 
-    .line 2
     invoke-static {p1}, Landroid/accounts/AccountManager;->get(Landroid/content/Context;)Landroid/accounts/AccountManager;
 
     move-result-object p1
@@ -77,7 +70,6 @@
 .method public getAccount()Landroid/accounts/Account;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/volley/toolbox/AndroidAuthenticator;->mAccount:Landroid/accounts/Account;
 
     return-object v0
@@ -91,7 +83,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/volley/toolbox/AndroidAuthenticator;->mAccountManager:Landroid/accounts/AccountManager;
 
     iget-object v1, p0, Lcom/mopub/volley/toolbox/AndroidAuthenticator;->mAccount:Landroid/accounts/Account;
@@ -104,12 +95,10 @@
 
     const/4 v5, 0x0
 
-    .line 2
     invoke-virtual/range {v0 .. v5}, Landroid/accounts/AccountManager;->getAuthToken(Landroid/accounts/Account;Ljava/lang/String;ZLandroid/accounts/AccountManagerCallback;Landroid/os/Handler;)Landroid/accounts/AccountManagerFuture;
 
     move-result-object v0
 
-    .line 3
     :try_start_0
     invoke-interface {v0}, Landroid/accounts/AccountManagerFuture;->getResult()Ljava/lang/Object;
 
@@ -121,7 +110,6 @@
 
     const/4 v2, 0x0
 
-    .line 4
     invoke-interface {v0}, Landroid/accounts/AccountManagerFuture;->isDone()Z
 
     move-result v3
@@ -136,7 +124,6 @@
 
     const-string v0, "intent"
 
-    .line 5
     invoke-virtual {v1, v0}, Landroid/os/Bundle;->containsKey(Ljava/lang/String;)Z
 
     move-result v2
@@ -145,14 +132,12 @@
 
     const-string v0, "authtoken"
 
-    .line 6
     invoke-virtual {v1, v0}, Landroid/os/Bundle;->getString(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v2
 
     goto :goto_0
 
-    .line 7
     :cond_0
     invoke-virtual {v1, v0}, Landroid/os/Bundle;->getParcelable(Ljava/lang/String;)Landroid/os/Parcelable;
 
@@ -160,7 +145,6 @@
 
     check-cast v0, Landroid/content/Intent;
 
-    .line 8
     new-instance v1, Lcom/mopub/volley/AuthFailureError;
 
     invoke-direct {v1, v0}, Lcom/mopub/volley/AuthFailureError;-><init>(Landroid/content/Intent;)V
@@ -173,7 +157,6 @@
 
     return-object v2
 
-    .line 9
     :cond_2
     new-instance v0, Lcom/mopub/volley/AuthFailureError;
 
@@ -200,7 +183,6 @@
     :catch_0
     move-exception v0
 
-    .line 10
     new-instance v1, Lcom/mopub/volley/AuthFailureError;
 
     const-string v2, "Error while retrieving auth token"
@@ -213,7 +195,6 @@
 .method public getAuthTokenType()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/volley/toolbox/AndroidAuthenticator;->mAuthTokenType:Ljava/lang/String;
 
     return-object v0
@@ -222,7 +203,6 @@
 .method public invalidateAuthToken(Ljava/lang/String;)V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/volley/toolbox/AndroidAuthenticator;->mAccountManager:Landroid/accounts/AccountManager;
 
     iget-object v1, p0, Lcom/mopub/volley/toolbox/AndroidAuthenticator;->mAccount:Landroid/accounts/Account;

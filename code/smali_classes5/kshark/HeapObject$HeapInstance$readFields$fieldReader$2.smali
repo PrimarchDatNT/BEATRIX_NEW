@@ -49,7 +49,6 @@
 .method public bridge synthetic invoke()Ljava/lang/Object;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lkshark/HeapObject$HeapInstance$readFields$fieldReader$2;->invoke()Lkshark/internal/c;
 
     move-result-object v0
@@ -62,7 +61,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 2
     iget-object v0, p0, Lkshark/HeapObject$HeapInstance$readFields$fieldReader$2;->this$0:Lkshark/HeapObject$HeapInstance;
 
     invoke-static {v0}, Lkshark/HeapObject$HeapInstance;->i(Lkshark/HeapObject$HeapInstance;)Lkshark/HprofHeapGraph;

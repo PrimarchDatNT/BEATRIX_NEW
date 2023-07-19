@@ -11,7 +11,6 @@
 .method public static final synthetic a(BJ)J
     .locals 0
 
-    .line 1
     invoke-static {p0, p1, p2}, Lkshark/internal/b;->c(BJ)J
 
     move-result-wide p0
@@ -50,7 +49,6 @@
 
     add-int/lit8 v0, p1, 0x1
 
-    .line 1
     aget-byte p1, p0, p1
 
     and-int/lit16 p1, p1, 0xff
@@ -59,7 +57,6 @@
 
     add-int/lit8 v1, v0, 0x1
 
-    .line 2
     aget-byte v0, p0, v0
 
     and-int/lit16 v0, v0, 0xff
@@ -70,7 +67,6 @@
 
     add-int/lit8 v0, v1, 0x1
 
-    .line 3
     aget-byte v1, p0, v1
 
     and-int/lit16 v1, v1, 0xff
@@ -79,7 +75,6 @@
 
     or-int/2addr p1, v1
 
-    .line 4
     aget-byte p0, p0, v0
 
     and-int/lit16 p0, p0, 0xff
@@ -102,7 +97,6 @@
 
     add-int/lit8 v0, p1, 0x1
 
-    .line 1
     aget-byte p1, p0, p1
 
     int-to-long v1, p1
@@ -117,7 +111,6 @@
 
     add-int/lit8 p1, v0, 0x1
 
-    .line 2
     aget-byte v0, p0, v0
 
     int-to-long v5, v0
@@ -132,7 +125,6 @@
 
     add-int/lit8 v2, p1, 0x1
 
-    .line 3
     aget-byte p1, p0, p1
 
     int-to-long v5, p1
@@ -147,7 +139,6 @@
 
     add-int/lit8 p1, v2, 0x1
 
-    .line 4
     aget-byte v2, p0, v2
 
     int-to-long v5, v2
@@ -162,7 +153,6 @@
 
     add-int/lit8 v2, p1, 0x1
 
-    .line 5
     aget-byte p1, p0, p1
 
     int-to-long v5, p1
@@ -177,7 +167,6 @@
 
     add-int/lit8 p1, v2, 0x1
 
-    .line 6
     aget-byte v2, p0, v2
 
     int-to-long v5, v2
@@ -192,7 +181,6 @@
 
     add-int/lit8 v2, p1, 0x1
 
-    .line 7
     aget-byte p1, p0, p1
 
     int-to-long v5, p1
@@ -205,7 +193,6 @@
 
     or-long/2addr v0, v5
 
-    .line 8
     aget-byte p0, p0, v2
 
     int-to-long p0, p0
@@ -230,7 +217,6 @@
 
     add-int/lit8 v0, p1, 0x1
 
-    .line 1
     aget-byte p1, p0, p1
 
     and-int/lit16 p1, p1, 0xff

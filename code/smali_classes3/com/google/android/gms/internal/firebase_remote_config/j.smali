@@ -16,12 +16,10 @@
 .method public constructor <init>()V
     .locals 2
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const-wide/16 v0, -0x1
 
-    .line 2
     iput-wide v0, p0, Lcom/google/android/gms/internal/firebase_remote_config/j;->a:J
 
     return-void
@@ -40,7 +38,6 @@
 .method public final b()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/firebase_remote_config/j;->b:Ljava/lang/String;
 
     return-object v0
@@ -49,7 +46,6 @@
 .method public final c()J
     .locals 2
 
-    .line 1
     iget-wide v0, p0, Lcom/google/android/gms/internal/firebase_remote_config/j;->a:J
 
     return-wide v0
@@ -58,7 +54,6 @@
 .method public final d()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/firebase_remote_config/j;->c:Ljava/lang/String;
 
     return-object v0
@@ -72,7 +67,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/google/android/gms/internal/firebase_remote_config/j;->b:Ljava/lang/String;
 
     return-void
@@ -86,7 +80,6 @@
         }
     .end annotation
 
-    .line 1
     iput-wide p1, p0, Lcom/google/android/gms/internal/firebase_remote_config/j;->a:J
 
     return-void
@@ -100,7 +93,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/google/android/gms/internal/firebase_remote_config/j;->c:Ljava/lang/String;
 
     return-void
@@ -125,7 +117,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/google/android/gms/internal/firebase_remote_config/j;->d:Lcom/google/android/gms/internal/firebase_remote_config/k1;
 
     return-void
@@ -134,7 +125,6 @@
 .method public final j()Lcom/google/android/gms/internal/firebase_remote_config/k1;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/firebase_remote_config/j;->d:Lcom/google/android/gms/internal/firebase_remote_config/k1;
 
     return-object v0

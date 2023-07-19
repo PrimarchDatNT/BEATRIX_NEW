@@ -28,13 +28,10 @@
 .method public constructor <init>(Lcom/bumptech/glide/integration/webp/decoder/j;Lcom/bumptech/glide/load/engine/bitmap_recycle/b;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/bumptech/glide/integration/webp/decoder/f;->a:Lcom/bumptech/glide/integration/webp/decoder/j;
 
-    .line 3
     iput-object p2, p0, Lcom/bumptech/glide/integration/webp/decoder/f;->b:Lcom/bumptech/glide/load/engine/bitmap_recycle/b;
 
     return-void
@@ -58,7 +55,6 @@
         }
     .end annotation
 
-    .line 1
     check-cast p1, Ljava/io/InputStream;
 
     invoke-virtual {p0, p1, p2}, Lcom/bumptech/glide/integration/webp/decoder/f;->d(Ljava/io/InputStream;Lcom/bumptech/glide/load/f;)Z
@@ -84,7 +80,6 @@
         }
     .end annotation
 
-    .line 1
     check-cast p1, Ljava/io/InputStream;
 
     invoke-virtual {p0, p1, p2, p3, p4}, Lcom/bumptech/glide/integration/webp/decoder/f;->c(Ljava/io/InputStream;IILcom/bumptech/glide/load/f;)Lcom/bumptech/glide/load/engine/s;
@@ -123,7 +118,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/bumptech/glide/integration/webp/decoder/f;->a:Lcom/bumptech/glide/integration/webp/decoder/j;
 
     invoke-virtual {v0, p1, p2, p3, p4}, Lcom/bumptech/glide/integration/webp/decoder/j;->d(Ljava/io/InputStream;IILcom/bumptech/glide/load/f;)Lcom/bumptech/glide/load/engine/s;
@@ -149,7 +143,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/bumptech/glide/integration/webp/decoder/f;->a:Lcom/bumptech/glide/integration/webp/decoder/j;
 
     invoke-virtual {v0, p1, p2}, Lcom/bumptech/glide/integration/webp/decoder/j;->l(Ljava/io/InputStream;Lcom/bumptech/glide/load/f;)Z

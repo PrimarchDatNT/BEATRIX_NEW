@@ -7,7 +7,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -22,7 +21,6 @@
 
     const/4 v1, 0x2
 
-    .line 1
     :try_start_0
     invoke-virtual {p0, p1, v1}, Landroid/content/Context;->createPackageContext(Ljava/lang/String;I)Landroid/content/Context;
 
@@ -30,7 +28,6 @@
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
@@ -38,7 +35,6 @@
     :catch_0
     const/4 p0, 0x0
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
@@ -55,26 +51,22 @@
 
     const/4 v2, 0x0
 
-    .line 1
     invoke-virtual {p0, v1, v2}, Landroid/content/Context;->getDir(Ljava/lang/String;I)Ljava/io/File;
 
     move-result-object p0
 
-    .line 2
     new-instance v1, Ljava/io/File;
 
     const-string v2, "share"
 
     invoke-direct {v1, p0, v2}, Ljava/io/File;-><init>(Ljava/io/File;Ljava/lang/String;)V
 
-    .line 3
     new-instance p0, Ljava/io/File;
 
     const-string v2, "core_info"
 
     invoke-direct {p0, v1, v2}, Ljava/io/File;-><init>(Ljava/io/File;Ljava/lang/String;)V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
@@ -91,7 +83,6 @@
 
     if-nez p0, :cond_0
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
@@ -101,19 +92,16 @@
 
     const-string v3, "tbs"
 
-    .line 2
     invoke-virtual {p0, v3, v2}, Landroid/content/Context;->getDir(Ljava/lang/String;I)Ljava/io/File;
 
     move-result-object p0
 
-    .line 3
     new-instance v2, Ljava/io/File;
 
     const-string v3, "core_share"
 
     invoke-direct {v2, p0, v3}, Ljava/io/File;-><init>(Ljava/io/File;Ljava/lang/String;)V
 
-    .line 4
     invoke-virtual {v2}, Ljava/io/File;->isDirectory()Z
 
     move-result p0
@@ -135,19 +123,16 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p0}, Lf/k/n0/a;->b(Landroid/content/Context;)Ljava/io/File;
 
     move-result-object p0
 
-    .line 2
     new-instance v1, Ljava/util/Properties;
 
     invoke-direct {v1}, Ljava/util/Properties;-><init>()V
 
     const/4 v2, 0x0
 
-    .line 3
     :try_start_0
     invoke-virtual {p0}, Ljava/io/File;->exists()Z
 
@@ -155,14 +140,12 @@
 
     if-eqz v3, :cond_0
 
-    .line 4
     new-instance v3, Ljava/io/FileInputStream;
 
     invoke-direct {v3, p0}, Ljava/io/FileInputStream;-><init>(Ljava/io/File;)V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_1
 
-    .line 5
     :try_start_1
     invoke-virtual {v1, v3}, Ljava/util/Properties;->load(Ljava/io/InputStream;)V
     :try_end_1
@@ -181,7 +164,6 @@
     :goto_0
     if-eqz v2, :cond_1
 
-    .line 6
     :goto_1
     :try_start_2
     invoke-virtual {v2}, Ljava/io/FileInputStream;->close()V
@@ -198,7 +180,6 @@
 
     goto :goto_1
 
-    .line 7
     :catch_0
     :cond_1
     :goto_3
@@ -214,13 +195,11 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     :try_start_0
     invoke-static {p0}, Lf/k/n0/a;->b(Landroid/content/Context;)Ljava/io/File;
 
     move-result-object p0
 
-    .line 2
     new-instance v1, Ljava/io/FileOutputStream;
 
     invoke-direct {v1, p0}, Ljava/io/FileOutputStream;-><init>(Ljava/io/File;)V
@@ -231,7 +210,6 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 3
     :catchall_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

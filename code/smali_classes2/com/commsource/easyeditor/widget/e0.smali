@@ -31,10 +31,8 @@
 
     sget v0, Lcom/res/provider/ResLAYOUT;->item_ee_filter:I
 
-    .line 1
     invoke-direct {p0, p1, p2, v0}, Lcom/commsource/widget/h1/f;-><init>(Landroid/content/Context;Landroid/view/ViewGroup;I)V
 
-    .line 2
     new-instance p1, Ljava/lang/StringBuilder;
 
     invoke-direct {p1}, Ljava/lang/StringBuilder;-><init>()V
@@ -59,7 +57,6 @@
 
     invoke-static {p2, p1}, Lcom/meitu/library/util/Debug/Debug;->P(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 3
     iget-object p1, p0, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->itemView:Landroid/view/View;
 
     invoke-static {p1}, Lcom/commsource/beautyplus/f0/we;->a(Landroid/view/View;)Lcom/commsource/beautyplus/f0/we;
@@ -78,14 +75,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/easyeditor/widget/e0;->J:Landroid/graphics/drawable/GradientDrawable;
 
     if-nez v1, :cond_0
 
     sget v1, Lcom/res/provider/ResDRAWABLE;->shape_top_r6:I
 
-    .line 2
     invoke-static {v1}, Lcom/commsource/util/u1;->g(I)Landroid/graphics/drawable/Drawable;
 
     move-result-object v1
@@ -98,13 +93,11 @@
 
     iput-object v1, p0, Lcom/commsource/easyeditor/widget/e0;->J:Landroid/graphics/drawable/GradientDrawable;
 
-    .line 3
     :cond_0
     iget-object v1, p0, Lcom/commsource/easyeditor/widget/e0;->J:Landroid/graphics/drawable/GradientDrawable;
 
     invoke-virtual {v1, p1}, Landroid/graphics/drawable/GradientDrawable;->setColor(I)V
 
-    .line 4
     iget-object p1, p0, Lcom/commsource/easyeditor/widget/e0;->p:Lcom/commsource/beautyplus/f0/we;
 
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/we;->c:Landroid/widget/ImageView;
@@ -113,7 +106,6 @@
 
     invoke-virtual {p1, v1}, Landroid/widget/ImageView;->setBackground(Landroid/graphics/drawable/Drawable;)V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -126,14 +118,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/easyeditor/widget/e0;->K:Landroid/graphics/drawable/GradientDrawable;
 
     if-nez v1, :cond_0
 
     sget v1, Lcom/res/provider/ResDRAWABLE;->shape_bottom_r6:I
 
-    .line 2
     invoke-static {v1}, Lcom/commsource/util/u1;->g(I)Landroid/graphics/drawable/Drawable;
 
     move-result-object v1
@@ -146,13 +136,11 @@
 
     iput-object v1, p0, Lcom/commsource/easyeditor/widget/e0;->K:Landroid/graphics/drawable/GradientDrawable;
 
-    .line 3
     :cond_0
     iget-object v1, p0, Lcom/commsource/easyeditor/widget/e0;->K:Landroid/graphics/drawable/GradientDrawable;
 
     invoke-virtual {v1, p1}, Landroid/graphics/drawable/GradientDrawable;->setColor(I)V
 
-    .line 4
     iget-object p1, p0, Lcom/commsource/easyeditor/widget/e0;->p:Lcom/commsource/beautyplus/f0/we;
 
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/we;->b:Landroid/widget/TextView;
@@ -161,7 +149,6 @@
 
     invoke-virtual {p1, v1}, Landroid/widget/TextView;->setBackground(Landroid/graphics/drawable/Drawable;)V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -187,19 +174,16 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0, p1, p2, p3}, Lcom/commsource/widget/h1/f;->k(ILcom/commsource/widget/h1/d;Ljava/util/List;)V
 
     if-eqz p3, :cond_0
 
-    .line 2
     invoke-interface {p3}, Ljava/util/List;->isEmpty()Z
 
     move-result p1
 
     if-eqz p1, :cond_2
 
-    .line 3
     :cond_0
     invoke-virtual {p2}, Lcom/commsource/widget/h1/d;->b()Ljava/lang/Object;
 
@@ -213,7 +197,6 @@
 
     if-nez p1, :cond_1
 
-    .line 4
     iget-object p1, p0, Lcom/commsource/easyeditor/widget/e0;->p:Lcom/commsource/beautyplus/f0/we;
 
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/we;->b:Landroid/widget/TextView;
@@ -224,7 +207,6 @@
 
     goto :goto_0
 
-    .line 5
     :cond_1
     iget-object p1, p0, Lcom/commsource/widget/h1/f;->d:Landroid/content/Context;
 
@@ -254,7 +236,6 @@
 
     invoke-virtual {p1, p3}, Lcom/commsource/util/u0$d;->e(Landroid/widget/ImageView;)V
 
-    .line 6
     iget-object p1, p0, Lcom/commsource/easyeditor/widget/e0;->p:Lcom/commsource/beautyplus/f0/we;
 
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/we;->b:Landroid/widget/TextView;
@@ -263,7 +244,6 @@
 
     invoke-virtual {p1, p3}, Landroid/widget/TextView;->setTextColor(I)V
 
-    .line 7
     :cond_2
     :goto_0
     iget-object p1, p0, Lcom/commsource/easyeditor/widget/e0;->p:Lcom/commsource/beautyplus/f0/we;
@@ -284,7 +264,6 @@
 
     invoke-virtual {p1, p3}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 8
     invoke-virtual {p2}, Lcom/commsource/widget/h1/d;->b()Ljava/lang/Object;
 
     move-result-object p1
@@ -299,19 +278,16 @@
 
     if-nez p1, :cond_4
 
-    .line 9
     iget-object p1, p0, Lcom/commsource/easyeditor/widget/e0;->p:Lcom/commsource/beautyplus/f0/we;
 
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/we;->c:Landroid/widget/ImageView;
 
     invoke-virtual {p1, p3}, Landroid/widget/ImageView;->setVisibility(I)V
 
-    .line 10
     iget-object p1, p0, Lcom/commsource/easyeditor/widget/e0;->p:Lcom/commsource/beautyplus/f0/we;
 
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/we;->a:Lcom/commsource/widget/CircleImageView;
 
-    .line 11
     invoke-virtual {p2}, Lcom/commsource/widget/h1/d;->g()Z
 
     move-result p3
@@ -325,13 +301,11 @@
     :cond_3
     sget p3, Lcom/res/provider/ResDRAWABLE;->ic_ee_filter_default:I
 
-    .line 12
     :goto_1
     invoke-virtual {p1, p3}, Lcom/commsource/widget/CircleImageView;->setImageResource(I)V
 
     goto :goto_2
 
-    .line 13
     :cond_4
     iget-object p1, p0, Lcom/commsource/easyeditor/widget/e0;->p:Lcom/commsource/beautyplus/f0/we;
 
@@ -348,7 +322,6 @@
     :cond_5
     invoke-virtual {p1, p3}, Landroid/widget/ImageView;->setVisibility(I)V
 
-    .line 14
     :goto_2
     invoke-virtual {p2}, Lcom/commsource/widget/h1/d;->b()Ljava/lang/Object;
 
@@ -366,7 +339,6 @@
 
     invoke-direct {p0, p1}, Lcom/commsource/easyeditor/widget/e0;->v(I)V
 
-    .line 15
     invoke-virtual {p2}, Lcom/commsource/widget/h1/d;->b()Ljava/lang/Object;
 
     move-result-object p1
@@ -379,7 +351,6 @@
 
     invoke-direct {p0, p1}, Lcom/commsource/easyeditor/widget/e0;->x(I)V
 
-    .line 16
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

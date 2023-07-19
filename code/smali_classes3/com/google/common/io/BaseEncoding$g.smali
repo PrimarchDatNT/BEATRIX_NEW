@@ -24,17 +24,14 @@
 
     const/4 v0, 0x0
 
-    .line 2
     invoke-direct {p0, p1, v0}, Lcom/google/common/io/BaseEncoding$j;-><init>(Lcom/google/common/io/BaseEncoding$f;Ljava/lang/Character;)V
 
     const/16 v0, 0x200
 
     new-array v0, v0, [C
 
-    .line 3
     iput-object v0, p0, Lcom/google/common/io/BaseEncoding$g;->j:[C
 
-    .line 4
     invoke-static {p1}, Lcom/google/common/io/BaseEncoding$f;->a(Lcom/google/common/io/BaseEncoding$f;)[C
 
     move-result-object v0
@@ -62,7 +59,6 @@
 
     if-ge v1, v0, :cond_1
 
-    .line 5
     iget-object v0, p0, Lcom/google/common/io/BaseEncoding$g;->j:[C
 
     ushr-int/lit8 v2, v1, 0x4
@@ -73,7 +69,6 @@
 
     aput-char v2, v0, v1
 
-    .line 6
     iget-object v0, p0, Lcom/google/common/io/BaseEncoding$g;->j:[C
 
     or-int/lit16 v2, v1, 0x100
@@ -97,7 +92,6 @@
 .method constructor <init>(Ljava/lang/String;Ljava/lang/String;)V
     .locals 1
 
-    .line 1
     new-instance v0, Lcom/google/common/io/BaseEncoding$f;
 
     invoke-virtual {p2}, Ljava/lang/String;->toCharArray()[C
@@ -120,7 +114,6 @@
         .end annotation
     .end param
 
-    .line 1
     new-instance p2, Lcom/google/common/io/BaseEncoding$g;
 
     invoke-direct {p2, p1}, Lcom/google/common/io/BaseEncoding$g;-><init>(Lcom/google/common/io/BaseEncoding$f;)V
@@ -136,10 +129,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p1}, Lcom/google/common/base/t;->E(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 2
     invoke-interface {p2}, Ljava/lang/CharSequence;->length()I
 
     move-result v0
@@ -154,7 +145,6 @@
 
     const/4 v1, 0x0
 
-    .line 3
     :goto_0
     invoke-interface {p2}, Ljava/lang/CharSequence;->length()I
 
@@ -162,7 +152,6 @@
 
     if-ge v0, v2, :cond_0
 
-    .line 4
     iget-object v2, p0, Lcom/google/common/io/BaseEncoding$j;->f:Lcom/google/common/io/BaseEncoding$f;
 
     invoke-interface {p2, v0}, Ljava/lang/CharSequence;->charAt(I)C
@@ -193,7 +182,6 @@
 
     int-to-byte v2, v2
 
-    .line 5
     aput-byte v2, p1, v1
 
     add-int/lit8 v0, v0, 0x2
@@ -205,7 +193,6 @@
     :cond_0
     return v1
 
-    .line 6
     :cond_1
     new-instance p1, Lcom/google/common/io/BaseEncoding$DecodingException;
 
@@ -240,12 +227,10 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p1}, Lcom/google/common/base/t;->E(Ljava/lang/Object;)Ljava/lang/Object;
 
     add-int v0, p3, p4
 
-    .line 2
     array-length v1, p2
 
     invoke-static {p3, v0, v1}, Lcom/google/common/base/t;->f0(III)V
@@ -257,19 +242,16 @@
 
     add-int v1, p3, v0
 
-    .line 3
     aget-byte v1, p2, v1
 
     and-int/lit16 v1, v1, 0xff
 
-    .line 4
     iget-object v2, p0, Lcom/google/common/io/BaseEncoding$g;->j:[C
 
     aget-char v2, v2, v1
 
     invoke-interface {p1, v2}, Ljava/lang/Appendable;->append(C)Ljava/lang/Appendable;
 
-    .line 5
     iget-object v2, p0, Lcom/google/common/io/BaseEncoding$g;->j:[C
 
     or-int/lit16 v1, v1, 0x100

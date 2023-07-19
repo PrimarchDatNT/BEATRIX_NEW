@@ -22,7 +22,6 @@
 .method static constructor <clinit>()V
     .locals 3
 
-    .line 1
     invoke-static {}, Lcom/mopub/common/VideoEvent;->values()[Lcom/mopub/common/VideoEvent;
 
     move-result-object v0

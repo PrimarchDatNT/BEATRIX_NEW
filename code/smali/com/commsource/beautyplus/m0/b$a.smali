@@ -31,7 +31,6 @@
 .method constructor <init>(Lcom/commsource/beautyplus/m0/b;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/beautyplus/m0/b$a;->a:Lcom/commsource/beautyplus/m0/b;
 
     invoke-direct {p0}, Lcom/google/gson/reflect/TypeToken;-><init>()V

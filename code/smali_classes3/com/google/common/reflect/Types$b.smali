@@ -22,7 +22,6 @@
 .method constructor <init>(Ljava/util/concurrent/atomic/AtomicReference;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/common/reflect/Types$b;->b:Ljava/util/concurrent/atomic/AtomicReference;
 
     invoke-direct {p0}, Lcom/google/common/reflect/n;-><init>()V
@@ -42,7 +41,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/reflect/Types$b;->b:Ljava/util/concurrent/atomic/AtomicReference;
 
     invoke-virtual {p1}, Ljava/lang/Class;->getComponentType()Ljava/lang/Class;
@@ -57,7 +55,6 @@
 .method c(Ljava/lang/reflect/GenericArrayType;)V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/reflect/Types$b;->b:Ljava/util/concurrent/atomic/AtomicReference;
 
     invoke-interface {p1}, Ljava/lang/reflect/GenericArrayType;->getGenericComponentType()Ljava/lang/reflect/Type;
@@ -79,7 +76,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/reflect/Types$b;->b:Ljava/util/concurrent/atomic/AtomicReference;
 
     invoke-interface {p1}, Ljava/lang/reflect/TypeVariable;->getBounds()[Ljava/lang/reflect/Type;
@@ -98,7 +94,6 @@
 .method f(Ljava/lang/reflect/WildcardType;)V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/reflect/Types$b;->b:Ljava/util/concurrent/atomic/AtomicReference;
 
     invoke-interface {p1}, Ljava/lang/reflect/WildcardType;->getUpperBounds()[Ljava/lang/reflect/Type;

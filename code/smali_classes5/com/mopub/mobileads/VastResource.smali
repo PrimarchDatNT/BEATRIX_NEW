@@ -128,12 +128,10 @@
 
     const-string v4, "image/jpg"
 
-    .line 1
     filled-new-array {v0, v1, v2, v3, v4}, [Ljava/lang/String;
 
     move-result-object v0
 
-    .line 2
     invoke-static {v0}, Lcotlin/collections/s;->L([Ljava/lang/Object;)Ljava/util/List;
 
     move-result-object v0
@@ -142,7 +140,6 @@
 
     const-string v0, "application/x-javascript"
 
-    .line 3
     invoke-static {v0}, Lcotlin/collections/s;->k(Ljava/lang/Object;)Ljava/util/List;
 
     move-result-object v0
@@ -179,7 +176,6 @@
 
     invoke-static {p3, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     iput-object p1, p0, Lcom/mopub/mobileads/VastResource;->resource:Ljava/lang/String;
@@ -198,7 +194,6 @@
 .method public static final synthetic access$getVALID_APPLICATION_TYPES$cp()Ljava/util/List;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/mopub/mobileads/VastResource;->VALID_APPLICATION_TYPES:Ljava/util/List;
 
     return-object v0
@@ -207,7 +202,6 @@
 .method public static final synthetic access$getVALID_IMAGE_TYPES$cp()Ljava/util/List;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/mopub/mobileads/VastResource;->VALID_IMAGE_TYPES:Ljava/util/List;
 
     return-object v0
@@ -274,7 +268,6 @@
 
     return v0
 
-    .line 1
     :cond_0
     instance-of v1, p1, Lcom/mopub/mobileads/VastResource;
 
@@ -284,7 +277,6 @@
 
     return v2
 
-    .line 2
     :cond_1
     invoke-virtual {p0}, Lcom/mopub/mobileads/VastResource;->getResource()Ljava/lang/String;
 
@@ -306,7 +298,6 @@
 
     return v2
 
-    .line 3
     :cond_2
     invoke-virtual {p0}, Lcom/mopub/mobileads/VastResource;->getType()Lcom/mopub/mobileads/VastResource$Type;
 
@@ -320,7 +311,6 @@
 
     return v2
 
-    .line 4
     :cond_3
     invoke-virtual {p0}, Lcom/mopub/mobileads/VastResource;->getCreativeType()Lcom/mopub/mobileads/VastResource$CreativeType;
 
@@ -334,7 +324,6 @@
 
     return v2
 
-    .line 5
     :cond_4
     invoke-virtual {p0}, Lcom/mopub/mobileads/VastResource;->getWidth()I
 
@@ -348,7 +337,6 @@
 
     return v2
 
-    .line 6
     :cond_5
     invoke-virtual {p0}, Lcom/mopub/mobileads/VastResource;->getHeight()I
 
@@ -379,7 +367,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/mopub/mobileads/VastResource;->getType()Lcom/mopub/mobileads/VastResource$Type;
 
     move-result-object v0
@@ -398,7 +385,6 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     invoke-virtual {p0}, Lcom/mopub/mobileads/VastResource;->getType()Lcom/mopub/mobileads/VastResource$Type;
 
@@ -418,7 +404,6 @@
 
     goto :goto_1
 
-    .line 3
     :cond_1
     invoke-virtual {p0}, Lcom/mopub/mobileads/VastResource;->getType()Lcom/mopub/mobileads/VastResource$Type;
 
@@ -436,7 +421,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_2
     invoke-virtual {p0}, Lcom/mopub/mobileads/VastResource;->getType()Lcom/mopub/mobileads/VastResource$Type;
 
@@ -466,7 +450,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/mobileads/VastResource;->creativeType:Lcom/mopub/mobileads/VastResource$CreativeType;
 
     return-object v0
@@ -475,7 +458,6 @@
 .method public getHeight()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lcom/mopub/mobileads/VastResource;->height:I
 
     return v0
@@ -486,7 +468,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/mopub/mobileads/VastResource;->getType()Lcom/mopub/mobileads/VastResource$Type;
 
     move-result-object v0
@@ -501,7 +482,6 @@
 
     goto/16 :goto_0
 
-    .line 2
     :cond_0
     invoke-virtual {p0}, Lcom/mopub/mobileads/VastResource;->getType()Lcom/mopub/mobileads/VastResource$Type;
 
@@ -525,7 +505,6 @@
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 3
     invoke-virtual {p0}, Lcom/mopub/mobileads/VastResource;->getWidth()I
 
     move-result v1
@@ -538,7 +517,6 @@
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 4
     invoke-virtual {p0}, Lcom/mopub/mobileads/VastResource;->getHeight()I
 
     move-result v1
@@ -551,7 +529,6 @@
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 5
     invoke-virtual {p0}, Lcom/mopub/mobileads/VastResource;->getResource()Ljava/lang/String;
 
     move-result-object v1
@@ -568,7 +545,6 @@
 
     goto :goto_0
 
-    .line 6
     :cond_1
     invoke-virtual {p0}, Lcom/mopub/mobileads/VastResource;->getType()Lcom/mopub/mobileads/VastResource$Type;
 
@@ -598,7 +574,6 @@
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 7
     invoke-virtual {p0}, Lcom/mopub/mobileads/VastResource;->getResource()Ljava/lang/String;
 
     move-result-object v1
@@ -621,7 +596,6 @@
 
     goto :goto_0
 
-    .line 8
     :cond_2
     invoke-virtual {p0}, Lcom/mopub/mobileads/VastResource;->getType()Lcom/mopub/mobileads/VastResource$Type;
 
@@ -637,7 +611,6 @@
 
     if-ne v0, v1, :cond_3
 
-    .line 9
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -662,7 +635,6 @@
 
     goto :goto_0
 
-    .line 10
     :cond_3
     invoke-virtual {p0}, Lcom/mopub/mobileads/VastResource;->getType()Lcom/mopub/mobileads/VastResource$Type;
 
@@ -690,7 +662,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/mobileads/VastResource;->resource:Ljava/lang/String;
 
     return-object v0
@@ -701,7 +672,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/mobileads/VastResource;->type:Lcom/mopub/mobileads/VastResource$Type;
 
     return-object v0
@@ -710,7 +680,6 @@
 .method public getWidth()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lcom/mopub/mobileads/VastResource;->width:I
 
     return v0
@@ -719,7 +688,6 @@
 .method public hashCode()I
     .locals 2
 
-    .line 1
     invoke-virtual {p0}, Lcom/mopub/mobileads/VastResource;->getResource()Ljava/lang/String;
 
     move-result-object v0
@@ -730,7 +698,6 @@
 
     mul-int/lit8 v0, v0, 0x1f
 
-    .line 2
     invoke-virtual {p0}, Lcom/mopub/mobileads/VastResource;->getType()Lcom/mopub/mobileads/VastResource$Type;
 
     move-result-object v1
@@ -743,7 +710,6 @@
 
     mul-int/lit8 v0, v0, 0x1f
 
-    .line 3
     invoke-virtual {p0}, Lcom/mopub/mobileads/VastResource;->getCreativeType()Lcom/mopub/mobileads/VastResource$CreativeType;
 
     move-result-object v1
@@ -756,7 +722,6 @@
 
     mul-int/lit8 v0, v0, 0x1f
 
-    .line 4
     invoke-virtual {p0}, Lcom/mopub/mobileads/VastResource;->getWidth()I
 
     move-result v1
@@ -765,7 +730,6 @@
 
     mul-int/lit8 v0, v0, 0x1f
 
-    .line 5
     invoke-virtual {p0}, Lcom/mopub/mobileads/VastResource;->getHeight()I
 
     move-result v1
@@ -786,7 +750,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/mopub/mobileads/VastResource;->getHtmlResourceValue()Ljava/lang/String;
 
     move-result-object v0
@@ -804,7 +767,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V

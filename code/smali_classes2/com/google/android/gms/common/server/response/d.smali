@@ -20,7 +20,6 @@
 .method constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -37,7 +36,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p1, p2}, Lcom/google/android/gms/common/server/response/FastParser;->q(Lcom/google/android/gms/common/server/response/FastParser;Ljava/io/BufferedReader;)D
 
     move-result-wide p1

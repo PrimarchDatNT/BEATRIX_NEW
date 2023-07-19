@@ -17,7 +17,6 @@
 .method constructor <init>(Landroid/content/Context;Landroid/os/Looper;Lcom/google/android/gms/common/internal/e$a;Lcom/google/android/gms/common/internal/e$b;)V
     .locals 7
 
-    .line 1
     invoke-static {p1}, Lcom/google/android/gms/internal/ads/bi;->c(Landroid/content/Context;)Landroid/content/Context;
 
     move-result-object v1
@@ -34,7 +33,6 @@
 
     move-object v5, p4
 
-    .line 2
     invoke-direct/range {v0 .. v6}, Lcom/google/android/gms/ads/internal/b;-><init>(Landroid/content/Context;Landroid/os/Looper;ILcom/google/android/gms/common/internal/e$a;Lcom/google/android/gms/common/internal/e$b;Ljava/lang/String;)V
 
     return-void
@@ -50,7 +48,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-super {p0}, Lcom/google/android/gms/common/internal/e;->G()Landroid/os/IInterface;
 
     move-result-object v0
@@ -94,22 +91,18 @@
     :cond_0
     const-string v0, "com.google.android.gms.ads.internal.cache.ICacheService"
 
-    .line 1
     invoke-interface {p1, v0}, Landroid/os/IBinder;->queryLocalInterface(Ljava/lang/String;)Landroid/os/IInterface;
 
     move-result-object v0
 
-    .line 2
     instance-of v1, v0, Lcom/google/android/gms/internal/ads/dk2;
 
     if-eqz v1, :cond_1
 
-    .line 3
     check-cast v0, Lcom/google/android/gms/internal/ads/dk2;
 
     return-object v0
 
-    .line 4
     :cond_1
     new-instance v0, Lcom/google/android/gms/internal/ads/ck2;
 

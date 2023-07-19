@@ -24,7 +24,6 @@
 .method constructor <init>(Ljava/lang/String;Lcom/meitu/hwbusinesskit/core/bean/Business;Ljava/lang/String;)V
     .locals 0
 
-    .line 1
     iput-object p2, p0, Lcom/meitu/hwbusinesskit/core/utils/TestLog$1;->val$business:Lcom/meitu/hwbusinesskit/core/bean/Business;
 
     iput-object p3, p0, Lcom/meitu/hwbusinesskit/core/utils/TestLog$1;->val$log:Ljava/lang/String;
@@ -43,7 +42,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/hwbusinesskit/core/utils/TestLog$1;->val$business:Lcom/meitu/hwbusinesskit/core/bean/Business;
 
     invoke-virtual {v1}, Lcom/meitu/hwbusinesskit/core/bean/Business;->getAds()Ljava/util/concurrent/CopyOnWriteArrayList;
@@ -54,7 +52,6 @@
 
     if-eqz v1, :cond_1
 
-    .line 2
     invoke-virtual {v1}, Ljava/util/concurrent/CopyOnWriteArrayList;->isEmpty()Z
 
     move-result v3
@@ -63,13 +60,11 @@
 
     goto :goto_1
 
-    .line 3
     :cond_0
     invoke-static {}, Lcom/meitu/hwbusinesskit/core/utils/SingleInstanceUtil;->getGson()Lcom/google/gson/Gson;
 
     move-result-object v3
 
-    .line 4
     new-instance v4, Ljava/lang/StringBuilder;
 
     invoke-direct {v4}, Ljava/lang/StringBuilder;-><init>()V
@@ -88,7 +83,6 @@
 
     invoke-static {v2, v4}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 5
     invoke-virtual {v1}, Ljava/util/concurrent/CopyOnWriteArrayList;->iterator()Ljava/util/Iterator;
 
     move-result-object v1
@@ -106,7 +100,6 @@
 
     check-cast v4, Lcom/meitu/hwbusinesskit/core/bean/AdSlot;
 
-    .line 6
     new-instance v5, Ljava/lang/StringBuilder;
 
     invoke-direct {v5}, Ljava/lang/StringBuilder;-><init>()V
@@ -129,7 +122,6 @@
 
     goto :goto_0
 
-    .line 7
     :cond_1
     :goto_1
     new-instance v1, Ljava/lang/StringBuilder;
@@ -150,7 +142,6 @@
 
     invoke-static {v2, v1}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 8
     :cond_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

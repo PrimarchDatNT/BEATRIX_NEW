@@ -15,7 +15,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     const-class v1, Lf/k/h/a/l/x/i;
 
     invoke-virtual {v1}, Ljava/lang/Class;->getSimpleName()Ljava/lang/String;
@@ -32,7 +31,6 @@
 .method public constructor <init>(Lf/k/h/a/l/q;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1}, Lf/k/h/a/l/x/k;-><init>(Lf/k/h/a/l/q;)V
 
     return-void
@@ -45,7 +43,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lf/k/h/a/l/x/i;->b:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -62,7 +59,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lf/k/h/a/l/x/k;->a:Lf/k/h/a/l/q;
 
     new-instance v2, Lf/k/h/a/l/x/i$a;
@@ -71,12 +67,10 @@
 
     invoke-interface {v1, v2}, Lf/k/h/a/l/y/a;->d(Lf/k/h/a/l/y/b;)V
 
-    .line 2
     iget-object p1, p0, Lf/k/h/a/l/x/k;->a:Lf/k/h/a/l/q;
 
     invoke-interface {p1}, Lf/k/h/a/l/q;->c()V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

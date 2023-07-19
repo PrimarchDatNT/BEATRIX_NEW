@@ -32,12 +32,10 @@
 .method private constructor <init>()V
     .locals 1
 
-    .line 2
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const-string v0, "PRETTY_LOGGER"
 
-    .line 3
     iput-object v0, p0, Lf/l/a/c$b;->d:Ljava/lang/String;
 
     return-void
@@ -46,7 +44,6 @@
 .method synthetic constructor <init>(Lf/l/a/c$a;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lf/l/a/c$b;-><init>()V
 
     return-void
@@ -59,25 +56,21 @@
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lf/l/a/c$b;->a:Ljava/util/Date;
 
     if-nez v0, :cond_0
 
-    .line 2
     new-instance v0, Ljava/util/Date;
 
     invoke-direct {v0}, Ljava/util/Date;-><init>()V
 
     iput-object v0, p0, Lf/l/a/c$b;->a:Ljava/util/Date;
 
-    .line 3
     :cond_0
     iget-object v0, p0, Lf/l/a/c$b;->b:Ljava/text/SimpleDateFormat;
 
     if-nez v0, :cond_1
 
-    .line 4
     new-instance v0, Ljava/text/SimpleDateFormat;
 
     sget-object v1, Ljava/util/Locale;->UK:Ljava/util/Locale;
@@ -88,13 +81,11 @@
 
     iput-object v0, p0, Lf/l/a/c$b;->b:Ljava/text/SimpleDateFormat;
 
-    .line 5
     :cond_1
     iget-object v0, p0, Lf/l/a/c$b;->c:Lf/l/a/h;
 
     if-nez v0, :cond_2
 
-    .line 6
     invoke-static {}, Landroid/os/Environment;->getExternalStorageDirectory()Ljava/io/File;
 
     move-result-object v0
@@ -103,7 +94,6 @@
 
     move-result-object v0
 
-    .line 7
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -122,7 +112,6 @@
 
     move-result-object v0
 
-    .line 8
     new-instance v1, Landroid/os/HandlerThread;
 
     new-instance v2, Ljava/lang/StringBuilder;
@@ -141,10 +130,8 @@
 
     invoke-direct {v1, v2}, Landroid/os/HandlerThread;-><init>(Ljava/lang/String;)V
 
-    .line 9
     invoke-virtual {v1}, Landroid/os/HandlerThread;->start()V
 
-    .line 10
     new-instance v2, Lf/l/a/e$a;
 
     invoke-virtual {v1}, Landroid/os/HandlerThread;->getLooper()Landroid/os/Looper;
@@ -155,14 +142,12 @@
 
     invoke-direct {v2, v1, v0, v3}, Lf/l/a/e$a;-><init>(Landroid/os/Looper;Ljava/lang/String;I)V
 
-    .line 11
     new-instance v0, Lf/l/a/e;
 
     invoke-direct {v0, v2}, Lf/l/a/e;-><init>(Landroid/os/Handler;)V
 
     iput-object v0, p0, Lf/l/a/c$b;->c:Lf/l/a/h;
 
-    .line 12
     :cond_2
     new-instance v0, Lf/l/a/c;
 
@@ -182,7 +167,6 @@
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lf/l/a/c$b;->a:Ljava/util/Date;
 
     return-object p0
@@ -197,7 +181,6 @@
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lf/l/a/c$b;->b:Ljava/text/SimpleDateFormat;
 
     return-object p0
@@ -212,7 +195,6 @@
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lf/l/a/c$b;->c:Lf/l/a/h;
 
     return-object p0
@@ -227,7 +209,6 @@
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lf/l/a/c$b;->d:Ljava/lang/String;
 
     return-object p0

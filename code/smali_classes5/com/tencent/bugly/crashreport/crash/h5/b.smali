@@ -19,7 +19,6 @@
 .method public static a()Ljava/lang/String;
     .locals 3
 
-    .line 1
     :try_start_0
     new-instance v0, Ljava/lang/String;
 
@@ -40,14 +39,12 @@
     :catchall_0
     move-exception v0
 
-    .line 2
     invoke-static {v0}, Lcom/tencent/bugly/proguard/x;->a(Ljava/lang/Throwable;)Z
 
     move-result v1
 
     if-nez v1, :cond_0
 
-    .line 3
     invoke-virtual {v0}, Ljava/lang/Throwable;->printStackTrace()V
 
     :cond_0
@@ -59,7 +56,6 @@
 .method public static b()Ljava/lang/String;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/tencent/bugly/crashreport/crash/h5/b;->a:Ljava/lang/String;
 
     return-object v0

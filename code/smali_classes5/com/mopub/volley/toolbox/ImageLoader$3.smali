@@ -27,7 +27,6 @@
 .method constructor <init>(Lcom/mopub/volley/toolbox/ImageLoader;Ljava/lang/String;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/mopub/volley/toolbox/ImageLoader$3;->this$0:Lcom/mopub/volley/toolbox/ImageLoader;
 
     iput-object p2, p0, Lcom/mopub/volley/toolbox/ImageLoader$3;->val$cacheKey:Ljava/lang/String;
@@ -42,7 +41,6 @@
 .method public onErrorResponse(Lcom/mopub/volley/VolleyError;)V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/volley/toolbox/ImageLoader$3;->this$0:Lcom/mopub/volley/toolbox/ImageLoader;
 
     iget-object v1, p0, Lcom/mopub/volley/toolbox/ImageLoader$3;->val$cacheKey:Ljava/lang/String;

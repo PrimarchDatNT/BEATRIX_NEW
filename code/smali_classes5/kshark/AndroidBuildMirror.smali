@@ -65,7 +65,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     iput-object p1, p0, Lkshark/AndroidBuildMirror;->a:Ljava/lang/String;
@@ -91,7 +90,6 @@
 
     const/16 p2, 0x15
 
-    .line 2
     :cond_1
     invoke-direct {p0, p1, p2}, Lkshark/AndroidBuildMirror;-><init>(Ljava/lang/String;I)V
 
@@ -105,7 +103,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lkshark/AndroidBuildMirror;->a:Ljava/lang/String;
 
     return-object v0
@@ -114,7 +111,6 @@
 .method public final b()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lkshark/AndroidBuildMirror;->b:I
 
     return v0

@@ -40,10 +40,8 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/studio/function/BaseSubFragment;-><init>()V
 
-    .line 2
     new-instance v0, Lcom/commsource/studio/effect/q;
 
     invoke-direct {v0}, Lcom/commsource/studio/effect/q;-><init>()V
@@ -60,7 +58,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/commsource/studio/function/NewSkinColorFragment;->G1(Lcom/commsource/studio/function/t/c;)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -75,7 +72,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/studio/function/NewSkinColorFragment;->e0:Lcom/commsource/studio/processor/m;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -90,7 +86,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/studio/function/NewSkinColorFragment;->d0:Lcom/commsource/beautyplus/f0/u9;
 
     if-nez p0, :cond_0
@@ -112,7 +107,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/function/NewSkinColorFragment;->e0:Lcom/commsource/studio/processor/m;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -127,7 +121,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/function/NewSkinColorFragment;->d0:Lcom/commsource/beautyplus/f0/u9;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -142,7 +135,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/studio/function/NewSkinColorFragment;->H1()Lcom/commsource/studio/effect/q;
 
     move-result-object v1
@@ -151,7 +143,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/studio/effect/q;->t(Lcom/commsource/studio/function/t/c;)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/function/NewSkinColorFragment;->e0:Lcom/commsource/studio/processor/m;
 
     if-eqz v1, :cond_1
@@ -164,19 +155,16 @@
 
     if-eqz v1, :cond_1
 
-    .line 3
     invoke-virtual {v1}, Lcom/commsource/studio/r0/b0;->G()Lcom/commsource/studio/function/t/c;
 
     move-result-object v3
 
     if-nez v3, :cond_0
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 5
     :cond_0
     invoke-virtual {v1, v2}, Lcom/commsource/studio/r0/b0;->H(Lcom/commsource/studio/function/t/c;)V
 
@@ -185,7 +173,6 @@
 
     const/4 v3, 0x2
 
-    .line 6
     invoke-static {p0, v1, v1, v3, v2}, Lcom/commsource/studio/function/BaseSubFragment;->y1(Lcom/commsource/studio/function/BaseSubFragment;IZILjava/lang/Object;)V
 
     new-array v3, v3, [F
@@ -198,7 +185,6 @@
 
     const/16 v5, 0x5e
 
-    .line 7
     invoke-static {v5}, Lcom/commsource/util/l0;->p(I)F
 
     move-result v5
@@ -209,7 +195,6 @@
 
     move-result-object v3
 
-    .line 8
     new-instance v4, Lcom/commsource/studio/function/NewSkinColorFragment$a;
 
     invoke-direct {v4, p0}, Lcom/commsource/studio/function/NewSkinColorFragment$a;-><init>(Lcom/commsource/studio/function/NewSkinColorFragment;)V
@@ -218,10 +203,8 @@
 
     move-result-object v3
 
-    .line 9
     invoke-virtual {v3}, Lcom/commsource/camera/f1/l;->j()V
 
-    .line 10
     iget-object v3, p0, Lcom/commsource/studio/function/NewSkinColorFragment;->d0:Lcom/commsource/beautyplus/f0/u9;
 
     if-nez v3, :cond_2
@@ -253,7 +236,6 @@
 
     invoke-static/range {v5 .. v11}, Lcom/commsource/util/l0;->q0(Landroid/view/View;FJLcotlin/jvm/u/a;ILjava/lang/Object;)V
 
-    .line 11
     invoke-virtual {p0}, Lcom/commsource/studio/function/BaseSubFragment;->q0()Lcom/commsource/beautyplus/f0/k0;
 
     move-result-object v3
@@ -278,7 +260,6 @@
 
     invoke-static/range {v4 .. v10}, Lcom/commsource/studio/StudioCanvasContainer;->B(Lcom/commsource/studio/StudioCanvasContainer;FFZLcotlin/jvm/u/a;ILjava/lang/Object;)V
 
-    .line 12
     iget-object v3, p0, Lcom/commsource/studio/function/NewSkinColorFragment;->e0:Lcom/commsource/studio/processor/m;
 
     if-eqz v3, :cond_3
@@ -287,7 +268,6 @@
 
     invoke-static {v3, v1, v2, v4, v2}, Lcom/commsource/studio/processor/BaseEffectProcessor;->z(Lcom/commsource/studio/processor/BaseEffectProcessor;ZLcotlin/jvm/u/a;ILjava/lang/Object;)V
 
-    .line 13
     :cond_3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -301,7 +281,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/function/NewSkinColorFragment;->e0:Lcom/commsource/studio/processor/m;
 
     const/4 v2, 0x0
@@ -332,12 +311,10 @@
 
     if-eqz v1, :cond_1
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 3
     :cond_1
     invoke-virtual {p0}, Lcom/commsource/studio/function/NewSkinColorFragment;->H1()Lcom/commsource/studio/effect/q;
 
@@ -345,7 +322,6 @@
 
     invoke-virtual {v1, p1}, Lcom/commsource/studio/effect/q;->t(Lcom/commsource/studio/function/t/c;)V
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/studio/function/NewSkinColorFragment;->e0:Lcom/commsource/studio/processor/m;
 
     if-eqz v1, :cond_2
@@ -360,7 +336,6 @@
 
     invoke-virtual {v1, p1}, Lcom/commsource/studio/r0/b0;->H(Lcom/commsource/studio/function/t/c;)V
 
-    .line 5
     :cond_2
     iget-object v1, p0, Lcom/commsource/studio/function/NewSkinColorFragment;->d0:Lcom/commsource/beautyplus/f0/u9;
 
@@ -379,7 +354,6 @@
 
     invoke-virtual {v1, v4}, Lcom/commsource/widget/XSeekBar;->setProgress(I)V
 
-    .line 6
     iget-object v1, p0, Lcom/commsource/studio/function/NewSkinColorFragment;->d0:Lcom/commsource/beautyplus/f0/u9;
 
     if-nez v1, :cond_4
@@ -395,7 +369,6 @@
 
     invoke-virtual {v1, v3}, Lcom/commsource/studio/function/relight/ColorSeekBar;->setProgress(I)V
 
-    .line 7
     iget-object v1, p0, Lcom/commsource/studio/function/NewSkinColorFragment;->e0:Lcom/commsource/studio/processor/m;
 
     const/4 v3, 0x1
@@ -410,7 +383,6 @@
 
     invoke-static {v1, v4, v5, v3, v2}, Lcom/commsource/studio/processor/BaseEffectProcessor;->z(Lcom/commsource/studio/processor/BaseEffectProcessor;ZLcotlin/jvm/u/a;ILjava/lang/Object;)V
 
-    .line 8
     :cond_5
     invoke-virtual {p1}, Lcom/commsource/studio/function/t/c;->e()Z
 
@@ -420,7 +392,6 @@
 
     if-eqz p1, :cond_6
 
-    .line 9
     invoke-virtual {p0}, Lcom/commsource/studio/function/BaseSubFragment;->r0()Lcom/commsource/studio/ImageStudioViewModel;
 
     move-result-object p1
@@ -451,16 +422,13 @@
 
     const/4 p1, 0x3
 
-    .line 10
     invoke-static {p0, p1, v4, v1, v2}, Lcom/commsource/studio/function/BaseSubFragment;->y1(Lcom/commsource/studio/function/BaseSubFragment;IZILjava/lang/Object;)V
 
     goto :goto_1
 
-    .line 11
     :cond_6
     invoke-static {p0, v4, v4, v1, v2}, Lcom/commsource/studio/function/BaseSubFragment;->y1(Lcom/commsource/studio/function/BaseSubFragment;IZILjava/lang/Object;)V
 
-    .line 12
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -482,7 +450,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget v1, Landroid/os/Build$VERSION;->SDK_INT:I
 
     const/16 v2, 0x1c
@@ -496,13 +463,11 @@
     :cond_0
     const-string v1, "_low.plist"
 
-    .line 2
     :goto_0
     new-instance v2, Ljava/util/ArrayList;
 
     invoke-direct {v2}, Ljava/util/ArrayList;-><init>()V
 
-    .line 3
     new-instance v10, Lcom/commsource/studio/function/t/c;
 
     const/16 v6, 0x46
@@ -511,7 +476,6 @@
 
     const/4 v8, 0x1
 
-    .line 4
     new-instance v3, Ljava/lang/StringBuilder;
 
     invoke-direct {v3}, Ljava/lang/StringBuilder;-><init>()V
@@ -532,13 +496,10 @@
 
     move-object v3, v10
 
-    .line 5
     invoke-direct/range {v3 .. v9}, Lcom/commsource/studio/function/t/c;-><init>(Ljava/lang/String;Ljava/lang/String;IIZLjava/lang/String;)V
 
-    .line 6
     invoke-virtual {v2, v10}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    .line 7
     new-instance v3, Lcom/commsource/studio/function/t/c;
 
     const/16 v14, 0x32
@@ -547,7 +508,6 @@
 
     const/16 v16, 0x0
 
-    .line 8
     new-instance v4, Ljava/lang/StringBuilder;
 
     invoke-direct {v4}, Ljava/lang/StringBuilder;-><init>()V
@@ -568,20 +528,16 @@
 
     move-object v11, v3
 
-    .line 9
     invoke-direct/range {v11 .. v17}, Lcom/commsource/studio/function/t/c;-><init>(Ljava/lang/String;Ljava/lang/String;IIZLjava/lang/String;)V
 
-    .line 10
     invoke-virtual {v2, v3}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    .line 11
     new-instance v3, Lcom/commsource/studio/function/t/c;
 
     const/16 v8, 0x32
 
     const/4 v9, 0x0
 
-    .line 12
     new-instance v4, Ljava/lang/StringBuilder;
 
     invoke-direct {v4}, Ljava/lang/StringBuilder;-><init>()V
@@ -602,16 +558,12 @@
 
     move-object v4, v3
 
-    .line 13
     invoke-direct/range {v4 .. v10}, Lcom/commsource/studio/function/t/c;-><init>(Ljava/lang/String;Ljava/lang/String;IIZLjava/lang/String;)V
 
-    .line 14
     invoke-virtual {v2, v3}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    .line 15
     new-instance v3, Lcom/commsource/studio/function/t/c;
 
-    .line 16
     new-instance v4, Ljava/lang/StringBuilder;
 
     invoke-direct {v4}, Ljava/lang/StringBuilder;-><init>()V
@@ -632,18 +584,14 @@
 
     move-object v11, v3
 
-    .line 17
     invoke-direct/range {v11 .. v17}, Lcom/commsource/studio/function/t/c;-><init>(Ljava/lang/String;Ljava/lang/String;IIZLjava/lang/String;)V
 
-    .line 18
     invoke-virtual {v2, v3}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    .line 19
     new-instance v3, Lcom/commsource/studio/function/t/c;
 
     const/4 v9, 0x1
 
-    .line 20
     new-instance v4, Ljava/lang/StringBuilder;
 
     invoke-direct {v4}, Ljava/lang/StringBuilder;-><init>()V
@@ -664,20 +612,16 @@
 
     move-object v4, v3
 
-    .line 21
     invoke-direct/range {v4 .. v10}, Lcom/commsource/studio/function/t/c;-><init>(Ljava/lang/String;Ljava/lang/String;IIZLjava/lang/String;)V
 
-    .line 22
     invoke-virtual {v2, v3}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    .line 23
     new-instance v3, Lcom/commsource/studio/function/t/c;
 
     const/16 v14, 0x41
 
     const/16 v16, 0x1
 
-    .line 24
     new-instance v4, Ljava/lang/StringBuilder;
 
     invoke-direct {v4}, Ljava/lang/StringBuilder;-><init>()V
@@ -698,13 +642,10 @@
 
     move-object v11, v3
 
-    .line 25
     invoke-direct/range {v11 .. v17}, Lcom/commsource/studio/function/t/c;-><init>(Ljava/lang/String;Ljava/lang/String;IIZLjava/lang/String;)V
 
-    .line 26
     invoke-virtual {v2, v3}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    .line 27
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v2
@@ -717,7 +658,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/studio/function/NewSkinColorFragment;->F1()V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -734,7 +674,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/studio/function/NewSkinColorFragment;->H1()Lcom/commsource/studio/effect/q;
 
     move-result-object v1
@@ -745,14 +684,12 @@
 
     if-eqz v1, :cond_0
 
-    .line 2
     new-instance v2, Ljava/util/HashMap;
 
     const/4 v3, 0x4
 
     invoke-direct {v2, v3}, Ljava/util/HashMap;-><init>(I)V
 
-    .line 3
     invoke-virtual {v1}, Lcom/commsource/studio/function/t/c;->b()Ljava/lang/String;
 
     move-result-object v3
@@ -761,7 +698,6 @@
 
     invoke-interface {v2, v4, v3}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 4
     invoke-virtual {v1}, Lcom/commsource/studio/function/t/c;->c()I
 
     move-result v3
@@ -774,7 +710,6 @@
 
     invoke-interface {v2, v4, v3}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 5
     invoke-virtual {v1}, Lcom/commsource/studio/function/t/c;->f()I
 
     move-result v1
@@ -789,14 +724,11 @@
 
     const-string v1, "beautonesyes"
 
-    .line 6
     invoke-static {v1, v2}, Lcom/commsource/statistics/i;->s(Ljava/lang/String;Ljava/util/Map;)V
 
-    .line 7
     :cond_0
     invoke-super {p0}, Lcom/commsource/studio/function/BaseSubFragment;->G0()V
 
-    .line 8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -811,7 +743,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/function/NewSkinColorFragment;->c0:Lcom/commsource/studio/effect/q;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -834,7 +765,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/function/NewSkinColorFragment;->c0:Lcom/commsource/studio/effect/q;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -849,7 +779,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/commsource/studio/processor/m;
 
     new-instance v2, Lcom/commsource/studio/r0/b0;
@@ -858,10 +787,8 @@
 
     invoke-direct {v1, v2}, Lcom/commsource/studio/processor/m;-><init>(Lcom/commsource/camera/newrender/renderproxy/n;)V
 
-    .line 2
     invoke-virtual {p0, v1}, Lcom/commsource/studio/function/BaseSubFragment;->D(Lcom/commsource/studio/processor/BaseEffectProcessor;)V
 
-    .line 3
     invoke-virtual {v1}, Lcom/commsource/studio/processor/BaseEffectProcessor;->d()Lcom/commsource/studio/o;
 
     move-result-object v2
@@ -872,7 +799,6 @@
 
     if-nez v2, :cond_0
 
-    .line 4
     invoke-virtual {v1}, Lcom/commsource/studio/processor/BaseEffectProcessor;->d()Lcom/commsource/studio/o;
 
     move-result-object v2
@@ -881,7 +807,6 @@
 
     invoke-direct {v3}, Lcom/commsource/camera/d1/g/k;-><init>()V
 
-    .line 5
     invoke-virtual {p0}, Lcom/commsource/studio/function/BaseSubFragment;->r0()Lcom/commsource/studio/ImageStudioViewModel;
 
     move-result-object v4
@@ -908,13 +833,10 @@
 
     invoke-virtual {v3, v4, v5}, Lcom/commsource/camera/d1/g/k;->a(Landroid/graphics/Bitmap;Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/MTFaceResult;)V
 
-    .line 6
     invoke-virtual {v3}, Lcom/commsource/camera/d1/g/k;->i()V
 
-    .line 7
     invoke-virtual {v2, v3}, Lcom/commsource/studio/o;->z(Lcom/commsource/camera/d1/g/k;)V
 
-    .line 8
     :cond_0
     invoke-virtual {v1}, Lcom/commsource/studio/processor/m;->J()Lcom/commsource/camera/newrender/renderproxy/n;
 
@@ -934,7 +856,6 @@
 
     invoke-virtual {v2, v3, v4}, Lcom/commsource/camera/newrender/renderproxy/n;->s(Ljava/lang/Object;Ljava/lang/Class;)V
 
-    .line 9
     invoke-virtual {v1}, Lcom/commsource/studio/processor/BaseEffectProcessor;->d()Lcom/commsource/studio/o;
 
     move-result-object v2
@@ -945,7 +866,6 @@
 
     if-nez v2, :cond_1
 
-    .line 10
     invoke-virtual {v1}, Lcom/commsource/studio/processor/BaseEffectProcessor;->d()Lcom/commsource/studio/o;
 
     move-result-object v2
@@ -954,7 +874,6 @@
 
     invoke-direct {v3}, Lcom/commsource/camera/d1/g/r;-><init>()V
 
-    .line 11
     invoke-virtual {p0}, Lcom/commsource/studio/function/BaseSubFragment;->r0()Lcom/commsource/studio/ImageStudioViewModel;
 
     move-result-object v4
@@ -985,13 +904,10 @@
 
     invoke-virtual {v3, v4, v5}, Lcom/commsource/camera/d1/g/r;->b(Landroid/graphics/Bitmap;Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/MTFaceResult;)V
 
-    .line 12
     invoke-virtual {v3}, Lcom/commsource/camera/d1/g/r;->m()V
 
-    .line 13
     invoke-virtual {v2, v3}, Lcom/commsource/studio/o;->C(Lcom/commsource/camera/d1/g/r;)V
 
-    .line 14
     :cond_1
     invoke-virtual {v1}, Lcom/commsource/studio/processor/m;->J()Lcom/commsource/camera/newrender/renderproxy/n;
 
@@ -1011,10 +927,8 @@
 
     invoke-virtual {v2, v3, v4}, Lcom/commsource/camera/newrender/renderproxy/n;->s(Ljava/lang/Object;Ljava/lang/Class;)V
 
-    .line 15
     iput-object v1, p0, Lcom/commsource/studio/function/NewSkinColorFragment;->e0:Lcom/commsource/studio/processor/m;
 
-    .line 16
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1027,17 +941,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0}, Lcom/commsource/studio/function/BaseSubFragment;->L0()V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/function/NewSkinColorFragment;->e0:Lcom/commsource/studio/processor/m;
 
     if-eqz v1, :cond_0
 
     invoke-virtual {v1}, Lcom/commsource/studio/processor/m;->c()V
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1051,7 +962,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/studio/function/NewSkinColorFragment;->H1()Lcom/commsource/studio/effect/q;
 
     move-result-object v1
@@ -1068,7 +978,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Lcom/commsource/studio/effect/q;
 
     invoke-virtual {p0, p1}, Lcom/commsource/studio/function/NewSkinColorFragment;->J1(Lcom/commsource/studio/effect/q;)V
@@ -1103,7 +1012,6 @@
 
     invoke-static {p1, p3}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-static {p1}, Lcom/commsource/beautyplus/f0/u9;->d(Landroid/view/LayoutInflater;)Lcom/commsource/beautyplus/f0/u9;
 
     move-result-object p1
@@ -1118,13 +1026,11 @@
 
     if-nez p1, :cond_0
 
-    .line 2
     invoke-static {p3}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
     invoke-virtual {p1, p0}, Lcom/commsource/beautyplus/f0/u9;->i(Landroidx/fragment/app/Fragment;)V
 
-    .line 3
     iget-object p1, p0, Lcom/commsource/studio/function/NewSkinColorFragment;->d0:Lcom/commsource/beautyplus/f0/u9;
 
     if-nez p1, :cond_1
@@ -1176,15 +1082,12 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-super {p0, p1, p2}, Lcom/commsource/studio/function/BaseSubFragment;->onViewCreated(Landroid/view/View;Landroid/os/Bundle;)V
 
     const/4 p1, 0x1
 
-    .line 2
     invoke-static {p1}, Lcom/commsource/studio/m0;->c0(Z)V
 
-    .line 3
     iget-object p2, p0, Lcom/commsource/studio/function/NewSkinColorFragment;->d0:Lcom/commsource/beautyplus/f0/u9;
 
     const-string v1, "mViewBinding"
@@ -1202,7 +1105,6 @@
 
     invoke-virtual {p0, p2}, Lcom/commsource/studio/function/BaseSubFragment;->C(Landroid/view/View;)V
 
-    .line 4
     iget-object p2, p0, Lcom/commsource/studio/function/NewSkinColorFragment;->d0:Lcom/commsource/beautyplus/f0/u9;
 
     if-nez p2, :cond_1
@@ -1218,7 +1120,6 @@
 
     invoke-virtual {p0, p2}, Lcom/commsource/studio/function/BaseSubFragment;->C(Landroid/view/View;)V
 
-    .line 5
     iget-object p2, p0, Lcom/commsource/studio/function/NewSkinColorFragment;->d0:Lcom/commsource/beautyplus/f0/u9;
 
     if-nez p2, :cond_2
@@ -1228,19 +1129,16 @@
     :cond_2
     iget-object p2, p2, Lcom/commsource/beautyplus/f0/u9;->f:Landroidx/recyclerview/widget/RecyclerView;
 
-    .line 6
     invoke-direct {p0}, Lcom/commsource/studio/function/NewSkinColorFragment;->I1()Ljava/util/List;
 
     move-result-object v2
 
-    .line 7
     new-instance v3, Lcom/commsource/widget/h1/e;
 
     iget-object v4, p0, Lcom/commsource/beautyplus/i0/a;->b:Landroid/app/Activity;
 
     invoke-direct {v3, v4}, Lcom/commsource/widget/h1/e;-><init>(Landroid/content/Context;)V
 
-    .line 8
     const-class v4, Lcom/commsource/studio/function/t/c;
 
     new-instance v5, Lcom/commsource/studio/function/NewSkinColorFragment$b;
@@ -1249,7 +1147,6 @@
 
     invoke-virtual {v3, v4, v5}, Lcom/commsource/widget/h1/e;->J(Ljava/lang/Class;Lcom/commsource/widget/h1/e$b;)V
 
-    .line 9
     const-class v4, Ljava/lang/Integer;
 
     new-instance v5, Lcom/commsource/studio/function/NewSkinColorFragment$c;
@@ -1258,14 +1155,12 @@
 
     invoke-virtual {v3, v4, v5}, Lcom/commsource/widget/h1/e;->J(Ljava/lang/Class;Lcom/commsource/widget/h1/e$b;)V
 
-    .line 10
     invoke-static {}, Lcom/commsource/widget/h1/c;->j()Lcom/commsource/widget/h1/c;
 
     move-result-object v4
 
     new-array v5, p1, [Ljava/lang/Integer;
 
-    .line 11
     invoke-static {p1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v6
@@ -1284,7 +1179,6 @@
 
     move-result-object v4
 
-    .line 12
     const-class v5, Lcom/commsource/studio/function/t/a;
 
     invoke-virtual {v4, v2, v5}, Lcom/commsource/widget/h1/c;->c(Ljava/util/List;Ljava/lang/Class;)Lcom/commsource/widget/h1/c;
@@ -1295,13 +1189,10 @@
 
     move-result-object v4
 
-    .line 13
     invoke-virtual {v3, v4}, Lcom/commsource/widget/h1/e;->Q(Ljava/util/List;)V
 
-    .line 14
     invoke-virtual {p2, v3}, Landroidx/recyclerview/widget/RecyclerView;->setAdapter(Landroidx/recyclerview/widget/RecyclerView$Adapter;)V
 
-    .line 15
     new-instance v3, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/FastCenterScrollLayoutManager;
 
     iget-object v4, p0, Lcom/commsource/beautyplus/i0/a;->b:Landroid/app/Activity;
@@ -1310,14 +1201,12 @@
 
     invoke-virtual {p2, v3}, Landroidx/recyclerview/widget/RecyclerView;->setLayoutManager(Landroidx/recyclerview/widget/RecyclerView$LayoutManager;)V
 
-    .line 16
     new-instance v3, Lcom/commsource/studio/function/NewSkinColorFragment$onViewCreated$$inlined$apply$lambda$3;
 
     invoke-direct {v3, p2, v2, p0}, Lcom/commsource/studio/function/NewSkinColorFragment$onViewCreated$$inlined$apply$lambda$3;-><init>(Landroidx/recyclerview/widget/RecyclerView;Ljava/util/List;Lcom/commsource/studio/function/NewSkinColorFragment;)V
 
     invoke-virtual {p0, v3}, Lcom/commsource/studio/function/BaseSubFragment;->c1(Lcotlin/jvm/u/a;)V
 
-    .line 17
     iget-object p2, p0, Lcom/commsource/studio/function/NewSkinColorFragment;->d0:Lcom/commsource/beautyplus/f0/u9;
 
     if-nez p2, :cond_3
@@ -1333,7 +1222,6 @@
 
     invoke-virtual {p2, v2}, Lcom/commsource/widget/XSeekBar;->f(Lcom/commsource/widget/XSeekBar$b;)V
 
-    .line 18
     iget-object p2, p0, Lcom/commsource/studio/function/NewSkinColorFragment;->d0:Lcom/commsource/beautyplus/f0/u9;
 
     if-nez p2, :cond_4
@@ -1359,17 +1247,14 @@
 
     aput v5, v3, p1
 
-    .line 19
     invoke-virtual {p2, v3}, Lcom/commsource/studio/function/relight/ColorSeekBar;->setTempColors([I)V
 
     new-array p1, v2, [F
 
-    .line 20
     fill-array-data p1, :array_0
 
     invoke-virtual {p2, p1}, Lcom/commsource/studio/function/relight/ColorSeekBar;->setTempPositions([F)V
 
-    .line 21
     iget-object p1, p0, Lcom/commsource/studio/function/NewSkinColorFragment;->d0:Lcom/commsource/beautyplus/f0/u9;
 
     if-nez p1, :cond_5
@@ -1385,7 +1270,6 @@
 
     invoke-virtual {p1, p2}, Lcom/commsource/studio/function/relight/ColorSeekBar;->g(Lcom/commsource/widget/XSeekBar$b;)V
 
-    .line 22
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1488,10 +1372,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0}, Lcom/commsource/studio/function/BaseSubFragment;->y0()V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

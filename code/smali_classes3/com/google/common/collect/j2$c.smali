@@ -59,7 +59,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p1, p2}, Lcom/google/common/collect/Range;->create(Lcom/google/common/collect/Cut;Lcom/google/common/collect/Cut;)Lcom/google/common/collect/Range;
 
     move-result-object p1
@@ -79,13 +78,10 @@
         }
     .end annotation
 
-    .line 2
     invoke-direct {p0}, Lcom/google/common/collect/b;-><init>()V
 
-    .line 3
     iput-object p1, p0, Lcom/google/common/collect/j2$c;->a:Lcom/google/common/collect/Range;
 
-    .line 4
     iput-object p2, p0, Lcom/google/common/collect/j2$c;->b:Ljava/lang/Object;
 
     return-void
@@ -101,7 +97,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/j2$c;->a:Lcom/google/common/collect/Range;
 
     invoke-virtual {v0, p1}, Lcom/google/common/collect/Range;->contains(Ljava/lang/Comparable;)Z
@@ -121,7 +116,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/j2$c;->a:Lcom/google/common/collect/Range;
 
     return-object v0
@@ -137,7 +131,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/j2$c;->a:Lcom/google/common/collect/Range;
 
     iget-object v0, v0, Lcom/google/common/collect/Range;->lowerBound:Lcom/google/common/collect/Cut;
@@ -155,7 +148,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/j2$c;->a:Lcom/google/common/collect/Range;
 
     iget-object v0, v0, Lcom/google/common/collect/Range;->upperBound:Lcom/google/common/collect/Cut;
@@ -166,7 +158,6 @@
 .method public bridge synthetic getKey()Ljava/lang/Object;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/collect/j2$c;->b()Lcom/google/common/collect/Range;
 
     move-result-object v0
@@ -182,7 +173,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/j2$c;->b:Ljava/lang/Object;
 
     return-object v0

@@ -99,7 +99,6 @@
 .method static constructor <clinit>()V
     .locals 18
 
-    .line 1
     new-instance v0, Lorg/apache/thrift/protocol/TStruct;
 
     const-string v1, "Tag"
@@ -108,7 +107,6 @@
 
     sput-object v0, Lio/jaegertracing/thriftjava/Tag;->STRUCT_DESC:Lorg/apache/thrift/protocol/TStruct;
 
-    .line 2
     new-instance v0, Lorg/apache/thrift/protocol/TField;
 
     const-string v1, "key"
@@ -121,7 +119,6 @@
 
     sput-object v0, Lio/jaegertracing/thriftjava/Tag;->KEY_FIELD_DESC:Lorg/apache/thrift/protocol/TField;
 
-    .line 3
     new-instance v0, Lorg/apache/thrift/protocol/TField;
 
     const-string v4, "vType"
@@ -134,7 +131,6 @@
 
     sput-object v0, Lio/jaegertracing/thriftjava/Tag;->V_TYPE_FIELD_DESC:Lorg/apache/thrift/protocol/TField;
 
-    .line 4
     new-instance v0, Lorg/apache/thrift/protocol/TField;
 
     const-string v5, "vStr"
@@ -145,7 +141,6 @@
 
     sput-object v0, Lio/jaegertracing/thriftjava/Tag;->V_STR_FIELD_DESC:Lorg/apache/thrift/protocol/TField;
 
-    .line 5
     new-instance v0, Lorg/apache/thrift/protocol/TField;
 
     const-string v8, "vDouble"
@@ -156,7 +151,6 @@
 
     sput-object v0, Lio/jaegertracing/thriftjava/Tag;->V_DOUBLE_FIELD_DESC:Lorg/apache/thrift/protocol/TField;
 
-    .line 6
     new-instance v0, Lorg/apache/thrift/protocol/TField;
 
     const-string v10, "vBool"
@@ -167,7 +161,6 @@
 
     sput-object v0, Lio/jaegertracing/thriftjava/Tag;->V_BOOL_FIELD_DESC:Lorg/apache/thrift/protocol/TField;
 
-    .line 7
     new-instance v0, Lorg/apache/thrift/protocol/TField;
 
     const-string v12, "vLong"
@@ -180,7 +173,6 @@
 
     sput-object v0, Lio/jaegertracing/thriftjava/Tag;->V_LONG_FIELD_DESC:Lorg/apache/thrift/protocol/TField;
 
-    .line 8
     new-instance v0, Lorg/apache/thrift/protocol/TField;
 
     const-string v14, "vBinary"
@@ -191,7 +183,6 @@
 
     sput-object v0, Lio/jaegertracing/thriftjava/Tag;->V_BINARY_FIELD_DESC:Lorg/apache/thrift/protocol/TField;
 
-    .line 9
     new-instance v0, Lio/jaegertracing/thriftjava/Tag$c;
 
     const/4 v15, 0x0
@@ -200,7 +191,6 @@
 
     sput-object v0, Lio/jaegertracing/thriftjava/Tag;->STANDARD_SCHEME_FACTORY:Lorg/apache/thrift/scheme/SchemeFactory;
 
-    .line 10
     new-instance v0, Lio/jaegertracing/thriftjava/Tag$e;
 
     invoke-direct {v0, v15}, Lio/jaegertracing/thriftjava/Tag$e;-><init>(Lio/jaegertracing/thriftjava/Tag$a;)V
@@ -209,7 +199,6 @@
 
     new-array v0, v11, [Lio/jaegertracing/thriftjava/Tag$_Fields;
 
-    .line 11
     sget-object v11, Lio/jaegertracing/thriftjava/Tag$_Fields;->V_STR:Lio/jaegertracing/thriftjava/Tag$_Fields;
 
     const/4 v15, 0x0
@@ -234,14 +223,12 @@
 
     sput-object v0, Lio/jaegertracing/thriftjava/Tag;->optionals:[Lio/jaegertracing/thriftjava/Tag$_Fields;
 
-    .line 12
     new-instance v0, Ljava/util/EnumMap;
 
     const-class v9, Lio/jaegertracing/thriftjava/Tag$_Fields;
 
     invoke-direct {v0, v9}, Ljava/util/EnumMap;-><init>(Ljava/lang/Class;)V
 
-    .line 13
     sget-object v9, Lio/jaegertracing/thriftjava/Tag$_Fields;->KEY:Lio/jaegertracing/thriftjava/Tag$_Fields;
 
     new-instance v3, Lorg/apache/thrift/meta_data/FieldMetaData;
@@ -258,7 +245,6 @@
 
     invoke-interface {v0, v9, v3}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 14
     sget-object v1, Lio/jaegertracing/thriftjava/Tag$_Fields;->V_TYPE:Lio/jaegertracing/thriftjava/Tag$_Fields;
 
     new-instance v3, Lorg/apache/thrift/meta_data/FieldMetaData;
@@ -277,7 +263,6 @@
 
     invoke-interface {v0, v1, v3}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 15
     new-instance v1, Lorg/apache/thrift/meta_data/FieldMetaData;
 
     new-instance v2, Lorg/apache/thrift/meta_data/FieldValueMetaData;
@@ -292,7 +277,6 @@
 
     invoke-interface {v0, v11, v1}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 16
     new-instance v1, Lorg/apache/thrift/meta_data/FieldMetaData;
 
     new-instance v2, Lorg/apache/thrift/meta_data/FieldValueMetaData;
@@ -305,7 +289,6 @@
 
     invoke-interface {v0, v15, v1}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 17
     new-instance v1, Lorg/apache/thrift/meta_data/FieldMetaData;
 
     new-instance v2, Lorg/apache/thrift/meta_data/FieldValueMetaData;
@@ -316,7 +299,6 @@
 
     invoke-interface {v0, v13, v1}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 18
     new-instance v1, Lorg/apache/thrift/meta_data/FieldMetaData;
 
     new-instance v2, Lorg/apache/thrift/meta_data/FieldValueMetaData;
@@ -329,7 +311,6 @@
 
     invoke-interface {v0, v6, v1}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 19
     new-instance v1, Lorg/apache/thrift/meta_data/FieldMetaData;
 
     new-instance v2, Lorg/apache/thrift/meta_data/FieldValueMetaData;
@@ -348,14 +329,12 @@
 
     invoke-interface {v0, v2, v1}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 20
     invoke-static {v0}, Ljava/util/Collections;->unmodifiableMap(Ljava/util/Map;)Ljava/util/Map;
 
     move-result-object v0
 
     sput-object v0, Lio/jaegertracing/thriftjava/Tag;->metaDataMap:Ljava/util/Map;
 
-    .line 21
     const-class v1, Lio/jaegertracing/thriftjava/Tag;
 
     invoke-static {v1, v0}, Lorg/apache/thrift/meta_data/FieldMetaData;->addStructMetaDataMap(Ljava/lang/Class;Ljava/util/Map;)V
@@ -366,12 +345,10 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/4 v0, 0x0
 
-    .line 2
     iput-byte v0, p0, Lio/jaegertracing/thriftjava/Tag;->__isset_bitfield:B
 
     return-void
@@ -380,32 +357,26 @@
 .method public constructor <init>(Lio/jaegertracing/thriftjava/Tag;)V
     .locals 2
 
-    .line 6
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/4 v0, 0x0
 
-    .line 7
     iput-byte v0, p0, Lio/jaegertracing/thriftjava/Tag;->__isset_bitfield:B
 
-    .line 8
     iget-byte v0, p1, Lio/jaegertracing/thriftjava/Tag;->__isset_bitfield:B
 
     iput-byte v0, p0, Lio/jaegertracing/thriftjava/Tag;->__isset_bitfield:B
 
-    .line 9
     invoke-virtual {p1}, Lio/jaegertracing/thriftjava/Tag;->isSetKey()Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
-    .line 10
     iget-object v0, p1, Lio/jaegertracing/thriftjava/Tag;->key:Ljava/lang/String;
 
     iput-object v0, p0, Lio/jaegertracing/thriftjava/Tag;->key:Ljava/lang/String;
 
-    .line 11
     :cond_0
     invoke-virtual {p1}, Lio/jaegertracing/thriftjava/Tag;->isSetVType()Z
 
@@ -413,12 +384,10 @@
 
     if-eqz v0, :cond_1
 
-    .line 12
     iget-object v0, p1, Lio/jaegertracing/thriftjava/Tag;->vType:Lio/jaegertracing/thriftjava/TagType;
 
     iput-object v0, p0, Lio/jaegertracing/thriftjava/Tag;->vType:Lio/jaegertracing/thriftjava/TagType;
 
-    .line 13
     :cond_1
     invoke-virtual {p1}, Lio/jaegertracing/thriftjava/Tag;->isSetVStr()Z
 
@@ -426,35 +395,29 @@
 
     if-eqz v0, :cond_2
 
-    .line 14
     iget-object v0, p1, Lio/jaegertracing/thriftjava/Tag;->vStr:Ljava/lang/String;
 
     iput-object v0, p0, Lio/jaegertracing/thriftjava/Tag;->vStr:Ljava/lang/String;
 
-    .line 15
     :cond_2
     iget-wide v0, p1, Lio/jaegertracing/thriftjava/Tag;->vDouble:D
 
     iput-wide v0, p0, Lio/jaegertracing/thriftjava/Tag;->vDouble:D
 
-    .line 16
     iget-boolean v0, p1, Lio/jaegertracing/thriftjava/Tag;->vBool:Z
 
     iput-boolean v0, p0, Lio/jaegertracing/thriftjava/Tag;->vBool:Z
 
-    .line 17
     iget-wide v0, p1, Lio/jaegertracing/thriftjava/Tag;->vLong:J
 
     iput-wide v0, p0, Lio/jaegertracing/thriftjava/Tag;->vLong:J
 
-    .line 18
     invoke-virtual {p1}, Lio/jaegertracing/thriftjava/Tag;->isSetVBinary()Z
 
     move-result v0
 
     if-eqz v0, :cond_3
 
-    .line 19
     iget-object p1, p1, Lio/jaegertracing/thriftjava/Tag;->vBinary:Ljava/nio/ByteBuffer;
 
     invoke-static {p1}, Lorg/apache/thrift/TBaseHelper;->copyBinary(Ljava/nio/ByteBuffer;)Ljava/nio/ByteBuffer;
@@ -470,13 +433,10 @@
 .method public constructor <init>(Ljava/lang/String;Lio/jaegertracing/thriftjava/TagType;)V
     .locals 0
 
-    .line 3
     invoke-direct {p0}, Lio/jaegertracing/thriftjava/Tag;-><init>()V
 
-    .line 4
     iput-object p1, p0, Lio/jaegertracing/thriftjava/Tag;->key:Ljava/lang/String;
 
-    .line 5
     iput-object p2, p0, Lio/jaegertracing/thriftjava/Tag;->vType:Lio/jaegertracing/thriftjava/TagType;
 
     return-void
@@ -485,7 +445,6 @@
 .method static synthetic access$1000()Lorg/apache/thrift/protocol/TField;
     .locals 1
 
-    .line 1
     sget-object v0, Lio/jaegertracing/thriftjava/Tag;->V_BINARY_FIELD_DESC:Lorg/apache/thrift/protocol/TField;
 
     return-object v0
@@ -494,7 +453,6 @@
 .method static synthetic access$300()Lorg/apache/thrift/protocol/TStruct;
     .locals 1
 
-    .line 1
     sget-object v0, Lio/jaegertracing/thriftjava/Tag;->STRUCT_DESC:Lorg/apache/thrift/protocol/TStruct;
 
     return-object v0
@@ -503,7 +461,6 @@
 .method static synthetic access$400()Lorg/apache/thrift/protocol/TField;
     .locals 1
 
-    .line 1
     sget-object v0, Lio/jaegertracing/thriftjava/Tag;->KEY_FIELD_DESC:Lorg/apache/thrift/protocol/TField;
 
     return-object v0
@@ -512,7 +469,6 @@
 .method static synthetic access$500()Lorg/apache/thrift/protocol/TField;
     .locals 1
 
-    .line 1
     sget-object v0, Lio/jaegertracing/thriftjava/Tag;->V_TYPE_FIELD_DESC:Lorg/apache/thrift/protocol/TField;
 
     return-object v0
@@ -521,7 +477,6 @@
 .method static synthetic access$600()Lorg/apache/thrift/protocol/TField;
     .locals 1
 
-    .line 1
     sget-object v0, Lio/jaegertracing/thriftjava/Tag;->V_STR_FIELD_DESC:Lorg/apache/thrift/protocol/TField;
 
     return-object v0
@@ -530,7 +485,6 @@
 .method static synthetic access$700()Lorg/apache/thrift/protocol/TField;
     .locals 1
 
-    .line 1
     sget-object v0, Lio/jaegertracing/thriftjava/Tag;->V_DOUBLE_FIELD_DESC:Lorg/apache/thrift/protocol/TField;
 
     return-object v0
@@ -539,7 +493,6 @@
 .method static synthetic access$800()Lorg/apache/thrift/protocol/TField;
     .locals 1
 
-    .line 1
     sget-object v0, Lio/jaegertracing/thriftjava/Tag;->V_BOOL_FIELD_DESC:Lorg/apache/thrift/protocol/TField;
 
     return-object v0
@@ -548,7 +501,6 @@
 .method static synthetic access$900()Lorg/apache/thrift/protocol/TField;
     .locals 1
 
-    .line 1
     sget-object v0, Lio/jaegertracing/thriftjava/Tag;->V_LONG_FIELD_DESC:Lorg/apache/thrift/protocol/TField;
 
     return-object v0
@@ -565,11 +517,9 @@
 
     const/4 v0, 0x0
 
-    .line 1
     :try_start_0
     iput-byte v0, p0, Lio/jaegertracing/thriftjava/Tag;->__isset_bitfield:B
 
-    .line 2
     new-instance v0, Lorg/apache/thrift/protocol/TCompactProtocol;
 
     new-instance v1, Lorg/apache/thrift/transport/TIOStreamTransport;
@@ -587,7 +537,6 @@
     :catch_0
     move-exception p1
 
-    .line 3
     new-instance v0, Ljava/io/IOException;
 
     invoke-direct {v0, p1}, Ljava/io/IOException;-><init>(Ljava/lang/Throwable;)V
@@ -607,7 +556,6 @@
         }
     .end annotation
 
-    .line 1
     const-class v0, Lorg/apache/thrift/scheme/StandardScheme;
 
     invoke-virtual {p0}, Lorg/apache/thrift/protocol/TProtocol;->getScheme()Ljava/lang/Class;
@@ -643,7 +591,6 @@
         }
     .end annotation
 
-    .line 1
     :try_start_0
     new-instance v0, Lorg/apache/thrift/protocol/TCompactProtocol;
 
@@ -662,7 +609,6 @@
     :catch_0
     move-exception p1
 
-    .line 2
     new-instance v0, Ljava/io/IOException;
 
     invoke-direct {v0, p1}, Ljava/io/IOException;-><init>(Ljava/lang/Throwable;)V
@@ -675,7 +621,6 @@
 .method public bufferForVBinary()Ljava/nio/ByteBuffer;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lio/jaegertracing/thriftjava/Tag;->vBinary:Ljava/nio/ByteBuffer;
 
     invoke-static {v0}, Lorg/apache/thrift/TBaseHelper;->copyBinary(Ljava/nio/ByteBuffer;)Ljava/nio/ByteBuffer;
@@ -690,40 +635,30 @@
 
     const/4 v0, 0x0
 
-    .line 1
     iput-object v0, p0, Lio/jaegertracing/thriftjava/Tag;->key:Ljava/lang/String;
 
-    .line 2
     iput-object v0, p0, Lio/jaegertracing/thriftjava/Tag;->vType:Lio/jaegertracing/thriftjava/TagType;
 
-    .line 3
     iput-object v0, p0, Lio/jaegertracing/thriftjava/Tag;->vStr:Ljava/lang/String;
 
     const/4 v1, 0x0
 
-    .line 4
     invoke-virtual {p0, v1}, Lio/jaegertracing/thriftjava/Tag;->setVDoubleIsSet(Z)V
 
     const-wide/16 v2, 0x0
 
-    .line 5
     iput-wide v2, p0, Lio/jaegertracing/thriftjava/Tag;->vDouble:D
 
-    .line 6
     invoke-virtual {p0, v1}, Lio/jaegertracing/thriftjava/Tag;->setVBoolIsSet(Z)V
 
-    .line 7
     iput-boolean v1, p0, Lio/jaegertracing/thriftjava/Tag;->vBool:Z
 
-    .line 8
     invoke-virtual {p0, v1}, Lio/jaegertracing/thriftjava/Tag;->setVLongIsSet(Z)V
 
     const-wide/16 v1, 0x0
 
-    .line 9
     iput-wide v1, p0, Lio/jaegertracing/thriftjava/Tag;->vLong:J
 
-    .line 10
     iput-object v0, p0, Lio/jaegertracing/thriftjava/Tag;->vBinary:Ljava/nio/ByteBuffer;
 
     return-void
@@ -732,7 +667,6 @@
 .method public compareTo(Lio/jaegertracing/thriftjava/Tag;)I
     .locals 4
 
-    .line 2
     invoke-virtual {p0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
     move-result-object v0
@@ -747,7 +681,6 @@
 
     if-nez v0, :cond_0
 
-    .line 3
     invoke-virtual {p0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
     move-result-object v0
@@ -770,7 +703,6 @@
 
     return p1
 
-    .line 4
     :cond_0
     invoke-virtual {p0}, Lio/jaegertracing/thriftjava/Tag;->isSetKey()Z
 
@@ -796,7 +728,6 @@
 
     return v0
 
-    .line 5
     :cond_1
     invoke-virtual {p0}, Lio/jaegertracing/thriftjava/Tag;->isSetKey()Z
 
@@ -804,7 +735,6 @@
 
     if-eqz v0, :cond_2
 
-    .line 6
     iget-object v0, p0, Lio/jaegertracing/thriftjava/Tag;->key:Ljava/lang/String;
 
     iget-object v1, p1, Lio/jaegertracing/thriftjava/Tag;->key:Ljava/lang/String;
@@ -817,7 +747,6 @@
 
     return v0
 
-    .line 7
     :cond_2
     invoke-virtual {p0}, Lio/jaegertracing/thriftjava/Tag;->isSetVType()Z
 
@@ -843,7 +772,6 @@
 
     return v0
 
-    .line 8
     :cond_3
     invoke-virtual {p0}, Lio/jaegertracing/thriftjava/Tag;->isSetVType()Z
 
@@ -851,7 +779,6 @@
 
     if-eqz v0, :cond_4
 
-    .line 9
     iget-object v0, p0, Lio/jaegertracing/thriftjava/Tag;->vType:Lio/jaegertracing/thriftjava/TagType;
 
     iget-object v1, p1, Lio/jaegertracing/thriftjava/Tag;->vType:Lio/jaegertracing/thriftjava/TagType;
@@ -864,7 +791,6 @@
 
     return v0
 
-    .line 10
     :cond_4
     invoke-virtual {p0}, Lio/jaegertracing/thriftjava/Tag;->isSetVStr()Z
 
@@ -890,7 +816,6 @@
 
     return v0
 
-    .line 11
     :cond_5
     invoke-virtual {p0}, Lio/jaegertracing/thriftjava/Tag;->isSetVStr()Z
 
@@ -898,7 +823,6 @@
 
     if-eqz v0, :cond_6
 
-    .line 12
     iget-object v0, p0, Lio/jaegertracing/thriftjava/Tag;->vStr:Ljava/lang/String;
 
     iget-object v1, p1, Lio/jaegertracing/thriftjava/Tag;->vStr:Ljava/lang/String;
@@ -911,7 +835,6 @@
 
     return v0
 
-    .line 13
     :cond_6
     invoke-virtual {p0}, Lio/jaegertracing/thriftjava/Tag;->isSetVDouble()Z
 
@@ -937,7 +860,6 @@
 
     return v0
 
-    .line 14
     :cond_7
     invoke-virtual {p0}, Lio/jaegertracing/thriftjava/Tag;->isSetVDouble()Z
 
@@ -945,7 +867,6 @@
 
     if-eqz v0, :cond_8
 
-    .line 15
     iget-wide v0, p0, Lio/jaegertracing/thriftjava/Tag;->vDouble:D
 
     iget-wide v2, p1, Lio/jaegertracing/thriftjava/Tag;->vDouble:D
@@ -958,7 +879,6 @@
 
     return v0
 
-    .line 16
     :cond_8
     invoke-virtual {p0}, Lio/jaegertracing/thriftjava/Tag;->isSetVBool()Z
 
@@ -984,7 +904,6 @@
 
     return v0
 
-    .line 17
     :cond_9
     invoke-virtual {p0}, Lio/jaegertracing/thriftjava/Tag;->isSetVBool()Z
 
@@ -992,7 +911,6 @@
 
     if-eqz v0, :cond_a
 
-    .line 18
     iget-boolean v0, p0, Lio/jaegertracing/thriftjava/Tag;->vBool:Z
 
     iget-boolean v1, p1, Lio/jaegertracing/thriftjava/Tag;->vBool:Z
@@ -1005,7 +923,6 @@
 
     return v0
 
-    .line 19
     :cond_a
     invoke-virtual {p0}, Lio/jaegertracing/thriftjava/Tag;->isSetVLong()Z
 
@@ -1031,7 +948,6 @@
 
     return v0
 
-    .line 20
     :cond_b
     invoke-virtual {p0}, Lio/jaegertracing/thriftjava/Tag;->isSetVLong()Z
 
@@ -1039,7 +955,6 @@
 
     if-eqz v0, :cond_c
 
-    .line 21
     iget-wide v0, p0, Lio/jaegertracing/thriftjava/Tag;->vLong:J
 
     iget-wide v2, p1, Lio/jaegertracing/thriftjava/Tag;->vLong:J
@@ -1052,7 +967,6 @@
 
     return v0
 
-    .line 22
     :cond_c
     invoke-virtual {p0}, Lio/jaegertracing/thriftjava/Tag;->isSetVBinary()Z
 
@@ -1078,7 +992,6 @@
 
     return v0
 
-    .line 23
     :cond_d
     invoke-virtual {p0}, Lio/jaegertracing/thriftjava/Tag;->isSetVBinary()Z
 
@@ -1086,7 +999,6 @@
 
     if-eqz v0, :cond_e
 
-    .line 24
     iget-object v0, p0, Lio/jaegertracing/thriftjava/Tag;->vBinary:Ljava/nio/ByteBuffer;
 
     iget-object p1, p1, Lio/jaegertracing/thriftjava/Tag;->vBinary:Ljava/nio/ByteBuffer;
@@ -1108,7 +1020,6 @@
 .method public bridge synthetic compareTo(Ljava/lang/Object;)I
     .locals 0
 
-    .line 1
     check-cast p1, Lio/jaegertracing/thriftjava/Tag;
 
     invoke-virtual {p0, p1}, Lio/jaegertracing/thriftjava/Tag;->compareTo(Lio/jaegertracing/thriftjava/Tag;)I
@@ -1121,7 +1032,6 @@
 .method public deepCopy()Lio/jaegertracing/thriftjava/Tag;
     .locals 1
 
-    .line 2
     new-instance v0, Lio/jaegertracing/thriftjava/Tag;
 
     invoke-direct {v0, p0}, Lio/jaegertracing/thriftjava/Tag;-><init>(Lio/jaegertracing/thriftjava/Tag;)V
@@ -1132,7 +1042,6 @@
 .method public bridge synthetic deepCopy()Lorg/apache/thrift/TBase;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lio/jaegertracing/thriftjava/Tag;->deepCopy()Lio/jaegertracing/thriftjava/Tag;
 
     move-result-object v0
@@ -1156,13 +1065,11 @@
 
     return v1
 
-    .line 3
     :cond_1
     invoke-virtual {p0}, Lio/jaegertracing/thriftjava/Tag;->isSetKey()Z
 
     move-result v2
 
-    .line 4
     invoke-virtual {p1}, Lio/jaegertracing/thriftjava/Tag;->isSetKey()Z
 
     move-result v3
@@ -1178,7 +1085,6 @@
 
     goto/16 :goto_0
 
-    .line 5
     :cond_3
     iget-object v2, p0, Lio/jaegertracing/thriftjava/Tag;->key:Ljava/lang/String;
 
@@ -1192,13 +1098,11 @@
 
     return v0
 
-    .line 6
     :cond_4
     invoke-virtual {p0}, Lio/jaegertracing/thriftjava/Tag;->isSetVType()Z
 
     move-result v2
 
-    .line 7
     invoke-virtual {p1}, Lio/jaegertracing/thriftjava/Tag;->isSetVType()Z
 
     move-result v3
@@ -1214,7 +1118,6 @@
 
     goto/16 :goto_0
 
-    .line 8
     :cond_6
     iget-object v2, p0, Lio/jaegertracing/thriftjava/Tag;->vType:Lio/jaegertracing/thriftjava/TagType;
 
@@ -1228,13 +1131,11 @@
 
     return v0
 
-    .line 9
     :cond_7
     invoke-virtual {p0}, Lio/jaegertracing/thriftjava/Tag;->isSetVStr()Z
 
     move-result v2
 
-    .line 10
     invoke-virtual {p1}, Lio/jaegertracing/thriftjava/Tag;->isSetVStr()Z
 
     move-result v3
@@ -1250,7 +1151,6 @@
 
     goto/16 :goto_0
 
-    .line 11
     :cond_9
     iget-object v2, p0, Lio/jaegertracing/thriftjava/Tag;->vStr:Ljava/lang/String;
 
@@ -1264,13 +1164,11 @@
 
     return v0
 
-    .line 12
     :cond_a
     invoke-virtual {p0}, Lio/jaegertracing/thriftjava/Tag;->isSetVDouble()Z
 
     move-result v2
 
-    .line 13
     invoke-virtual {p1}, Lio/jaegertracing/thriftjava/Tag;->isSetVDouble()Z
 
     move-result v3
@@ -1286,7 +1184,6 @@
 
     goto :goto_0
 
-    .line 14
     :cond_c
     iget-wide v2, p0, Lio/jaegertracing/thriftjava/Tag;->vDouble:D
 
@@ -1298,13 +1195,11 @@
 
     return v0
 
-    .line 15
     :cond_d
     invoke-virtual {p0}, Lio/jaegertracing/thriftjava/Tag;->isSetVBool()Z
 
     move-result v2
 
-    .line 16
     invoke-virtual {p1}, Lio/jaegertracing/thriftjava/Tag;->isSetVBool()Z
 
     move-result v3
@@ -1320,7 +1215,6 @@
 
     goto :goto_0
 
-    .line 17
     :cond_f
     iget-boolean v2, p0, Lio/jaegertracing/thriftjava/Tag;->vBool:Z
 
@@ -1330,13 +1224,11 @@
 
     return v0
 
-    .line 18
     :cond_10
     invoke-virtual {p0}, Lio/jaegertracing/thriftjava/Tag;->isSetVLong()Z
 
     move-result v2
 
-    .line 19
     invoke-virtual {p1}, Lio/jaegertracing/thriftjava/Tag;->isSetVLong()Z
 
     move-result v3
@@ -1352,7 +1244,6 @@
 
     goto :goto_0
 
-    .line 20
     :cond_12
     iget-wide v2, p0, Lio/jaegertracing/thriftjava/Tag;->vLong:J
 
@@ -1364,13 +1255,11 @@
 
     return v0
 
-    .line 21
     :cond_13
     invoke-virtual {p0}, Lio/jaegertracing/thriftjava/Tag;->isSetVBinary()Z
 
     move-result v2
 
-    .line 22
     invoke-virtual {p1}, Lio/jaegertracing/thriftjava/Tag;->isSetVBinary()Z
 
     move-result v3
@@ -1386,7 +1275,6 @@
 
     goto :goto_0
 
-    .line 23
     :cond_15
     iget-object v2, p0, Lio/jaegertracing/thriftjava/Tag;->vBinary:Ljava/nio/ByteBuffer;
 
@@ -1417,13 +1305,11 @@
 
     return v0
 
-    .line 1
     :cond_0
     instance-of v1, p1, Lio/jaegertracing/thriftjava/Tag;
 
     if-eqz v1, :cond_1
 
-    .line 2
     check-cast p1, Lio/jaegertracing/thriftjava/Tag;
 
     invoke-virtual {p0, p1}, Lio/jaegertracing/thriftjava/Tag;->equals(Lio/jaegertracing/thriftjava/Tag;)Z
@@ -1439,7 +1325,6 @@
 .method public fieldForId(I)Lio/jaegertracing/thriftjava/Tag$_Fields;
     .locals 0
 
-    .line 2
     invoke-static {p1}, Lio/jaegertracing/thriftjava/Tag$_Fields;->findByThriftId(I)Lio/jaegertracing/thriftjava/Tag$_Fields;
 
     move-result-object p1
@@ -1450,7 +1335,6 @@
 .method public bridge synthetic fieldForId(I)Lorg/apache/thrift/TFieldIdEnum;
     .locals 0
 
-    .line 1
     invoke-virtual {p0, p1}, Lio/jaegertracing/thriftjava/Tag;->fieldForId(I)Lio/jaegertracing/thriftjava/Tag$_Fields;
 
     move-result-object p1
@@ -1461,7 +1345,6 @@
 .method public getFieldValue(Lio/jaegertracing/thriftjava/Tag$_Fields;)Ljava/lang/Object;
     .locals 2
 
-    .line 2
     sget-object v0, Lio/jaegertracing/thriftjava/Tag$a;->a:[I
 
     invoke-virtual {p1}, Ljava/lang/Enum;->ordinal()I
@@ -1472,14 +1355,12 @@
 
     packed-switch p1, :pswitch_data_0
 
-    .line 3
     new-instance p1, Ljava/lang/IllegalStateException;
 
     invoke-direct {p1}, Ljava/lang/IllegalStateException;-><init>()V
 
     throw p1
 
-    .line 4
     :pswitch_0
     invoke-virtual {p0}, Lio/jaegertracing/thriftjava/Tag;->getVBinary()[B
 
@@ -1487,7 +1368,6 @@
 
     return-object p1
 
-    .line 5
     :pswitch_1
     invoke-virtual {p0}, Lio/jaegertracing/thriftjava/Tag;->getVLong()J
 
@@ -1499,7 +1379,6 @@
 
     return-object p1
 
-    .line 6
     :pswitch_2
     invoke-virtual {p0}, Lio/jaegertracing/thriftjava/Tag;->isVBool()Z
 
@@ -1511,7 +1390,6 @@
 
     return-object p1
 
-    .line 7
     :pswitch_3
     invoke-virtual {p0}, Lio/jaegertracing/thriftjava/Tag;->getVDouble()D
 
@@ -1523,7 +1401,6 @@
 
     return-object p1
 
-    .line 8
     :pswitch_4
     invoke-virtual {p0}, Lio/jaegertracing/thriftjava/Tag;->getVStr()Ljava/lang/String;
 
@@ -1531,7 +1408,6 @@
 
     return-object p1
 
-    .line 9
     :pswitch_5
     invoke-virtual {p0}, Lio/jaegertracing/thriftjava/Tag;->getVType()Lio/jaegertracing/thriftjava/TagType;
 
@@ -1539,7 +1415,6 @@
 
     return-object p1
 
-    .line 10
     :pswitch_6
     invoke-virtual {p0}, Lio/jaegertracing/thriftjava/Tag;->getKey()Ljava/lang/String;
 
@@ -1562,7 +1437,6 @@
 .method public bridge synthetic getFieldValue(Lorg/apache/thrift/TFieldIdEnum;)Ljava/lang/Object;
     .locals 0
 
-    .line 1
     check-cast p1, Lio/jaegertracing/thriftjava/Tag$_Fields;
 
     invoke-virtual {p0, p1}, Lio/jaegertracing/thriftjava/Tag;->getFieldValue(Lio/jaegertracing/thriftjava/Tag$_Fields;)Ljava/lang/Object;
@@ -1575,7 +1449,6 @@
 .method public getKey()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lio/jaegertracing/thriftjava/Tag;->key:Ljava/lang/String;
 
     return-object v0
@@ -1584,7 +1457,6 @@
 .method public getVBinary()[B
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lio/jaegertracing/thriftjava/Tag;->vBinary:Ljava/nio/ByteBuffer;
 
     invoke-static {v0}, Lorg/apache/thrift/TBaseHelper;->rightSize(Ljava/nio/ByteBuffer;)Ljava/nio/ByteBuffer;
@@ -1593,7 +1465,6 @@
 
     invoke-virtual {p0, v0}, Lio/jaegertracing/thriftjava/Tag;->setVBinary(Ljava/nio/ByteBuffer;)Lio/jaegertracing/thriftjava/Tag;
 
-    .line 2
     iget-object v0, p0, Lio/jaegertracing/thriftjava/Tag;->vBinary:Ljava/nio/ByteBuffer;
 
     if-nez v0, :cond_0
@@ -1614,7 +1485,6 @@
 .method public getVDouble()D
     .locals 2
 
-    .line 1
     iget-wide v0, p0, Lio/jaegertracing/thriftjava/Tag;->vDouble:D
 
     return-wide v0
@@ -1623,7 +1493,6 @@
 .method public getVLong()J
     .locals 2
 
-    .line 1
     iget-wide v0, p0, Lio/jaegertracing/thriftjava/Tag;->vLong:J
 
     return-wide v0
@@ -1632,7 +1501,6 @@
 .method public getVStr()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lio/jaegertracing/thriftjava/Tag;->vStr:Ljava/lang/String;
 
     return-object v0
@@ -1641,7 +1509,6 @@
 .method public getVType()Lio/jaegertracing/thriftjava/TagType;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lio/jaegertracing/thriftjava/Tag;->vType:Lio/jaegertracing/thriftjava/TagType;
 
     return-object v0
@@ -1650,7 +1517,6 @@
 .method public hashCode()I
     .locals 6
 
-    .line 1
     invoke-virtual {p0}, Lio/jaegertracing/thriftjava/Tag;->isSetKey()Z
 
     move-result v0
@@ -1673,7 +1539,6 @@
 
     add-int/2addr v0, v3
 
-    .line 2
     invoke-virtual {p0}, Lio/jaegertracing/thriftjava/Tag;->isSetKey()Z
 
     move-result v4
@@ -1682,7 +1547,6 @@
 
     mul-int/lit16 v0, v0, 0x1fff
 
-    .line 3
     iget-object v4, p0, Lio/jaegertracing/thriftjava/Tag;->key:Ljava/lang/String;
 
     invoke-virtual {v4}, Ljava/lang/String;->hashCode()I
@@ -1694,7 +1558,6 @@
     :cond_1
     mul-int/lit16 v0, v0, 0x1fff
 
-    .line 4
     invoke-virtual {p0}, Lio/jaegertracing/thriftjava/Tag;->isSetVType()Z
 
     move-result v4
@@ -1711,7 +1574,6 @@
     :goto_1
     add-int/2addr v0, v4
 
-    .line 5
     invoke-virtual {p0}, Lio/jaegertracing/thriftjava/Tag;->isSetVType()Z
 
     move-result v4
@@ -1720,7 +1582,6 @@
 
     mul-int/lit16 v0, v0, 0x1fff
 
-    .line 6
     iget-object v4, p0, Lio/jaegertracing/thriftjava/Tag;->vType:Lio/jaegertracing/thriftjava/TagType;
 
     invoke-virtual {v4}, Lio/jaegertracing/thriftjava/TagType;->getValue()I
@@ -1732,7 +1593,6 @@
     :cond_3
     mul-int/lit16 v0, v0, 0x1fff
 
-    .line 7
     invoke-virtual {p0}, Lio/jaegertracing/thriftjava/Tag;->isSetVStr()Z
 
     move-result v4
@@ -1749,7 +1609,6 @@
     :goto_2
     add-int/2addr v0, v4
 
-    .line 8
     invoke-virtual {p0}, Lio/jaegertracing/thriftjava/Tag;->isSetVStr()Z
 
     move-result v4
@@ -1758,7 +1617,6 @@
 
     mul-int/lit16 v0, v0, 0x1fff
 
-    .line 9
     iget-object v4, p0, Lio/jaegertracing/thriftjava/Tag;->vStr:Ljava/lang/String;
 
     invoke-virtual {v4}, Ljava/lang/String;->hashCode()I
@@ -1770,7 +1628,6 @@
     :cond_5
     mul-int/lit16 v0, v0, 0x1fff
 
-    .line 10
     invoke-virtual {p0}, Lio/jaegertracing/thriftjava/Tag;->isSetVDouble()Z
 
     move-result v4
@@ -1787,7 +1644,6 @@
     :goto_3
     add-int/2addr v0, v4
 
-    .line 11
     invoke-virtual {p0}, Lio/jaegertracing/thriftjava/Tag;->isSetVDouble()Z
 
     move-result v4
@@ -1796,7 +1652,6 @@
 
     mul-int/lit16 v0, v0, 0x1fff
 
-    .line 12
     iget-wide v4, p0, Lio/jaegertracing/thriftjava/Tag;->vDouble:D
 
     invoke-static {v4, v5}, Lorg/apache/thrift/TBaseHelper;->hashCode(D)I
@@ -1808,7 +1663,6 @@
     :cond_7
     mul-int/lit16 v0, v0, 0x1fff
 
-    .line 13
     invoke-virtual {p0}, Lio/jaegertracing/thriftjava/Tag;->isSetVBool()Z
 
     move-result v4
@@ -1825,7 +1679,6 @@
     :goto_4
     add-int/2addr v0, v4
 
-    .line 14
     invoke-virtual {p0}, Lio/jaegertracing/thriftjava/Tag;->isSetVBool()Z
 
     move-result v4
@@ -1834,7 +1687,6 @@
 
     mul-int/lit16 v0, v0, 0x1fff
 
-    .line 15
     iget-boolean v4, p0, Lio/jaegertracing/thriftjava/Tag;->vBool:Z
 
     if-eqz v4, :cond_9
@@ -1852,7 +1704,6 @@
     :cond_a
     mul-int/lit16 v0, v0, 0x1fff
 
-    .line 16
     invoke-virtual {p0}, Lio/jaegertracing/thriftjava/Tag;->isSetVLong()Z
 
     move-result v4
@@ -1869,7 +1720,6 @@
     :goto_6
     add-int/2addr v0, v4
 
-    .line 17
     invoke-virtual {p0}, Lio/jaegertracing/thriftjava/Tag;->isSetVLong()Z
 
     move-result v4
@@ -1878,7 +1728,6 @@
 
     mul-int/lit16 v0, v0, 0x1fff
 
-    .line 18
     iget-wide v4, p0, Lio/jaegertracing/thriftjava/Tag;->vLong:J
 
     invoke-static {v4, v5}, Lorg/apache/thrift/TBaseHelper;->hashCode(J)I
@@ -1890,7 +1739,6 @@
     :cond_c
     mul-int/lit16 v0, v0, 0x1fff
 
-    .line 19
     invoke-virtual {p0}, Lio/jaegertracing/thriftjava/Tag;->isSetVBinary()Z
 
     move-result v3
@@ -1905,7 +1753,6 @@
     :goto_7
     add-int/2addr v0, v1
 
-    .line 20
     invoke-virtual {p0}, Lio/jaegertracing/thriftjava/Tag;->isSetVBinary()Z
 
     move-result v1
@@ -1914,7 +1761,6 @@
 
     mul-int/lit16 v0, v0, 0x1fff
 
-    .line 21
     iget-object v1, p0, Lio/jaegertracing/thriftjava/Tag;->vBinary:Ljava/nio/ByteBuffer;
 
     invoke-virtual {v1}, Ljava/nio/ByteBuffer;->hashCode()I
@@ -1932,7 +1778,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 2
     sget-object v0, Lio/jaegertracing/thriftjava/Tag$a;->a:[I
 
     invoke-virtual {p1}, Ljava/lang/Enum;->ordinal()I
@@ -1943,14 +1788,12 @@
 
     packed-switch p1, :pswitch_data_0
 
-    .line 3
     new-instance p1, Ljava/lang/IllegalStateException;
 
     invoke-direct {p1}, Ljava/lang/IllegalStateException;-><init>()V
 
     throw p1
 
-    .line 4
     :pswitch_0
     invoke-virtual {p0}, Lio/jaegertracing/thriftjava/Tag;->isSetVBinary()Z
 
@@ -1958,7 +1801,6 @@
 
     return p1
 
-    .line 5
     :pswitch_1
     invoke-virtual {p0}, Lio/jaegertracing/thriftjava/Tag;->isSetVLong()Z
 
@@ -1966,7 +1808,6 @@
 
     return p1
 
-    .line 6
     :pswitch_2
     invoke-virtual {p0}, Lio/jaegertracing/thriftjava/Tag;->isSetVBool()Z
 
@@ -1974,7 +1815,6 @@
 
     return p1
 
-    .line 7
     :pswitch_3
     invoke-virtual {p0}, Lio/jaegertracing/thriftjava/Tag;->isSetVDouble()Z
 
@@ -1982,7 +1822,6 @@
 
     return p1
 
-    .line 8
     :pswitch_4
     invoke-virtual {p0}, Lio/jaegertracing/thriftjava/Tag;->isSetVStr()Z
 
@@ -1990,7 +1829,6 @@
 
     return p1
 
-    .line 9
     :pswitch_5
     invoke-virtual {p0}, Lio/jaegertracing/thriftjava/Tag;->isSetVType()Z
 
@@ -1998,7 +1836,6 @@
 
     return p1
 
-    .line 10
     :pswitch_6
     invoke-virtual {p0}, Lio/jaegertracing/thriftjava/Tag;->isSetKey()Z
 
@@ -2006,7 +1843,6 @@
 
     return p1
 
-    .line 11
     :cond_0
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -2029,7 +1865,6 @@
 .method public bridge synthetic isSet(Lorg/apache/thrift/TFieldIdEnum;)Z
     .locals 0
 
-    .line 1
     check-cast p1, Lio/jaegertracing/thriftjava/Tag$_Fields;
 
     invoke-virtual {p0, p1}, Lio/jaegertracing/thriftjava/Tag;->isSet(Lio/jaegertracing/thriftjava/Tag$_Fields;)Z
@@ -2042,7 +1877,6 @@
 .method public isSetKey()Z
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lio/jaegertracing/thriftjava/Tag;->key:Ljava/lang/String;
 
     if-eqz v0, :cond_0
@@ -2061,7 +1895,6 @@
 .method public isSetVBinary()Z
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lio/jaegertracing/thriftjava/Tag;->vBinary:Ljava/nio/ByteBuffer;
 
     if-eqz v0, :cond_0
@@ -2080,7 +1913,6 @@
 .method public isSetVBool()Z
     .locals 2
 
-    .line 1
     iget-byte v0, p0, Lio/jaegertracing/thriftjava/Tag;->__isset_bitfield:B
 
     const/4 v1, 0x1
@@ -2095,7 +1927,6 @@
 .method public isSetVDouble()Z
     .locals 2
 
-    .line 1
     iget-byte v0, p0, Lio/jaegertracing/thriftjava/Tag;->__isset_bitfield:B
 
     const/4 v1, 0x0
@@ -2110,7 +1941,6 @@
 .method public isSetVLong()Z
     .locals 2
 
-    .line 1
     iget-byte v0, p0, Lio/jaegertracing/thriftjava/Tag;->__isset_bitfield:B
 
     const/4 v1, 0x2
@@ -2125,7 +1955,6 @@
 .method public isSetVStr()Z
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lio/jaegertracing/thriftjava/Tag;->vStr:Ljava/lang/String;
 
     if-eqz v0, :cond_0
@@ -2144,7 +1973,6 @@
 .method public isSetVType()Z
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lio/jaegertracing/thriftjava/Tag;->vType:Lio/jaegertracing/thriftjava/TagType;
 
     if-eqz v0, :cond_0
@@ -2163,7 +1991,6 @@
 .method public isVBool()Z
     .locals 1
 
-    .line 1
     iget-boolean v0, p0, Lio/jaegertracing/thriftjava/Tag;->vBool:Z
 
     return v0
@@ -2177,7 +2004,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p1}, Lio/jaegertracing/thriftjava/Tag;->scheme(Lorg/apache/thrift/protocol/TProtocol;)Lorg/apache/thrift/scheme/IScheme;
 
     move-result-object v0
@@ -2190,7 +2016,6 @@
 .method public setFieldValue(Lio/jaegertracing/thriftjava/Tag$_Fields;Ljava/lang/Object;)V
     .locals 1
 
-    .line 2
     sget-object v0, Lio/jaegertracing/thriftjava/Tag$a;->a:[I
 
     invoke-virtual {p1}, Ljava/lang/Enum;->ordinal()I
@@ -2206,25 +2031,21 @@
     :pswitch_0
     if-nez p2, :cond_0
 
-    .line 3
     invoke-virtual {p0}, Lio/jaegertracing/thriftjava/Tag;->unsetVBinary()V
 
     goto/16 :goto_0
 
-    .line 4
     :cond_0
     instance-of p1, p2, [B
 
     if-eqz p1, :cond_1
 
-    .line 5
     check-cast p2, [B
 
     invoke-virtual {p0, p2}, Lio/jaegertracing/thriftjava/Tag;->setVBinary([B)Lio/jaegertracing/thriftjava/Tag;
 
     goto :goto_0
 
-    .line 6
     :cond_1
     check-cast p2, Ljava/nio/ByteBuffer;
 
@@ -2235,12 +2056,10 @@
     :pswitch_1
     if-nez p2, :cond_2
 
-    .line 7
     invoke-virtual {p0}, Lio/jaegertracing/thriftjava/Tag;->unsetVLong()V
 
     goto :goto_0
 
-    .line 8
     :cond_2
     check-cast p2, Ljava/lang/Long;
 
@@ -2255,12 +2074,10 @@
     :pswitch_2
     if-nez p2, :cond_3
 
-    .line 9
     invoke-virtual {p0}, Lio/jaegertracing/thriftjava/Tag;->unsetVBool()V
 
     goto :goto_0
 
-    .line 10
     :cond_3
     check-cast p2, Ljava/lang/Boolean;
 
@@ -2275,12 +2092,10 @@
     :pswitch_3
     if-nez p2, :cond_4
 
-    .line 11
     invoke-virtual {p0}, Lio/jaegertracing/thriftjava/Tag;->unsetVDouble()V
 
     goto :goto_0
 
-    .line 12
     :cond_4
     check-cast p2, Ljava/lang/Double;
 
@@ -2295,12 +2110,10 @@
     :pswitch_4
     if-nez p2, :cond_5
 
-    .line 13
     invoke-virtual {p0}, Lio/jaegertracing/thriftjava/Tag;->unsetVStr()V
 
     goto :goto_0
 
-    .line 14
     :cond_5
     check-cast p2, Ljava/lang/String;
 
@@ -2311,12 +2124,10 @@
     :pswitch_5
     if-nez p2, :cond_6
 
-    .line 15
     invoke-virtual {p0}, Lio/jaegertracing/thriftjava/Tag;->unsetVType()V
 
     goto :goto_0
 
-    .line 16
     :cond_6
     check-cast p2, Lio/jaegertracing/thriftjava/TagType;
 
@@ -2327,12 +2138,10 @@
     :pswitch_6
     if-nez p2, :cond_7
 
-    .line 17
     invoke-virtual {p0}, Lio/jaegertracing/thriftjava/Tag;->unsetKey()V
 
     goto :goto_0
 
-    .line 18
     :cond_7
     check-cast p2, Ljava/lang/String;
 
@@ -2356,7 +2165,6 @@
 .method public bridge synthetic setFieldValue(Lorg/apache/thrift/TFieldIdEnum;Ljava/lang/Object;)V
     .locals 0
 
-    .line 1
     check-cast p1, Lio/jaegertracing/thriftjava/Tag$_Fields;
 
     invoke-virtual {p0, p1, p2}, Lio/jaegertracing/thriftjava/Tag;->setFieldValue(Lio/jaegertracing/thriftjava/Tag$_Fields;Ljava/lang/Object;)V
@@ -2367,7 +2175,6 @@
 .method public setKey(Ljava/lang/String;)Lio/jaegertracing/thriftjava/Tag;
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lio/jaegertracing/thriftjava/Tag;->key:Ljava/lang/String;
 
     return-object p0
@@ -2380,7 +2187,6 @@
 
     const/4 p1, 0x0
 
-    .line 1
     iput-object p1, p0, Lio/jaegertracing/thriftjava/Tag;->key:Ljava/lang/String;
 
     :cond_0
@@ -2390,7 +2196,6 @@
 .method public setVBinary(Ljava/nio/ByteBuffer;)Lio/jaegertracing/thriftjava/Tag;
     .locals 0
 
-    .line 2
     invoke-static {p1}, Lorg/apache/thrift/TBaseHelper;->copyBinary(Ljava/nio/ByteBuffer;)Ljava/nio/ByteBuffer;
 
     move-result-object p1
@@ -2409,7 +2214,6 @@
 
     goto :goto_0
 
-    .line 1
     :cond_0
     invoke-virtual {p1}, [B->clone()Ljava/lang/Object;
 
@@ -2434,7 +2238,6 @@
 
     const/4 p1, 0x0
 
-    .line 1
     iput-object p1, p0, Lio/jaegertracing/thriftjava/Tag;->vBinary:Ljava/nio/ByteBuffer;
 
     :cond_0
@@ -2444,12 +2247,10 @@
 .method public setVBool(Z)Lio/jaegertracing/thriftjava/Tag;
     .locals 0
 
-    .line 1
     iput-boolean p1, p0, Lio/jaegertracing/thriftjava/Tag;->vBool:Z
 
     const/4 p1, 0x1
 
-    .line 2
     invoke-virtual {p0, p1}, Lio/jaegertracing/thriftjava/Tag;->setVBoolIsSet(Z)V
 
     return-object p0
@@ -2458,7 +2259,6 @@
 .method public setVBoolIsSet(Z)V
     .locals 2
 
-    .line 1
     iget-byte v0, p0, Lio/jaegertracing/thriftjava/Tag;->__isset_bitfield:B
 
     const/4 v1, 0x1
@@ -2475,12 +2275,10 @@
 .method public setVDouble(D)Lio/jaegertracing/thriftjava/Tag;
     .locals 0
 
-    .line 1
     iput-wide p1, p0, Lio/jaegertracing/thriftjava/Tag;->vDouble:D
 
     const/4 p1, 0x1
 
-    .line 2
     invoke-virtual {p0, p1}, Lio/jaegertracing/thriftjava/Tag;->setVDoubleIsSet(Z)V
 
     return-object p0
@@ -2489,7 +2287,6 @@
 .method public setVDoubleIsSet(Z)V
     .locals 2
 
-    .line 1
     iget-byte v0, p0, Lio/jaegertracing/thriftjava/Tag;->__isset_bitfield:B
 
     const/4 v1, 0x0
@@ -2506,12 +2303,10 @@
 .method public setVLong(J)Lio/jaegertracing/thriftjava/Tag;
     .locals 0
 
-    .line 1
     iput-wide p1, p0, Lio/jaegertracing/thriftjava/Tag;->vLong:J
 
     const/4 p1, 0x1
 
-    .line 2
     invoke-virtual {p0, p1}, Lio/jaegertracing/thriftjava/Tag;->setVLongIsSet(Z)V
 
     return-object p0
@@ -2520,7 +2315,6 @@
 .method public setVLongIsSet(Z)V
     .locals 2
 
-    .line 1
     iget-byte v0, p0, Lio/jaegertracing/thriftjava/Tag;->__isset_bitfield:B
 
     const/4 v1, 0x2
@@ -2537,7 +2331,6 @@
 .method public setVStr(Ljava/lang/String;)Lio/jaegertracing/thriftjava/Tag;
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lio/jaegertracing/thriftjava/Tag;->vStr:Ljava/lang/String;
 
     return-object p0
@@ -2550,7 +2343,6 @@
 
     const/4 p1, 0x0
 
-    .line 1
     iput-object p1, p0, Lio/jaegertracing/thriftjava/Tag;->vStr:Ljava/lang/String;
 
     :cond_0
@@ -2560,7 +2352,6 @@
 .method public setVType(Lio/jaegertracing/thriftjava/TagType;)Lio/jaegertracing/thriftjava/Tag;
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lio/jaegertracing/thriftjava/Tag;->vType:Lio/jaegertracing/thriftjava/TagType;
 
     return-object p0
@@ -2573,7 +2364,6 @@
 
     const/4 p1, 0x0
 
-    .line 1
     iput-object p1, p0, Lio/jaegertracing/thriftjava/Tag;->vType:Lio/jaegertracing/thriftjava/TagType;
 
     :cond_0
@@ -2583,7 +2373,6 @@
 .method public toString()Ljava/lang/String;
     .locals 5
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     const-string v1, "Tag("
@@ -2592,51 +2381,41 @@
 
     const-string v1, "key:"
 
-    .line 2
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 3
     iget-object v1, p0, Lio/jaegertracing/thriftjava/Tag;->key:Ljava/lang/String;
 
     const-string v2, "null"
 
     if-nez v1, :cond_0
 
-    .line 4
     invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     goto :goto_0
 
-    .line 5
     :cond_0
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     :goto_0
     const-string v1, ", "
 
-    .line 6
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     const-string v3, "vType:"
 
-    .line 7
     invoke-virtual {v0, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 8
     iget-object v3, p0, Lio/jaegertracing/thriftjava/Tag;->vType:Lio/jaegertracing/thriftjava/TagType;
 
     if-nez v3, :cond_1
 
-    .line 9
     invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     goto :goto_1
 
-    .line 10
     :cond_1
     invoke-virtual {v0, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
 
-    .line 11
     :goto_1
     invoke-virtual {p0}, Lio/jaegertracing/thriftjava/Tag;->isSetVStr()Z
 
@@ -2644,29 +2423,23 @@
 
     if-eqz v3, :cond_3
 
-    .line 12
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     const-string v3, "vStr:"
 
-    .line 13
     invoke-virtual {v0, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 14
     iget-object v3, p0, Lio/jaegertracing/thriftjava/Tag;->vStr:Ljava/lang/String;
 
     if-nez v3, :cond_2
 
-    .line 15
     invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     goto :goto_2
 
-    .line 16
     :cond_2
     invoke-virtual {v0, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 17
     :cond_3
     :goto_2
     invoke-virtual {p0}, Lio/jaegertracing/thriftjava/Tag;->isSetVDouble()Z
@@ -2675,20 +2448,16 @@
 
     if-eqz v3, :cond_4
 
-    .line 18
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     const-string v3, "vDouble:"
 
-    .line 19
     invoke-virtual {v0, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 20
     iget-wide v3, p0, Lio/jaegertracing/thriftjava/Tag;->vDouble:D
 
     invoke-virtual {v0, v3, v4}, Ljava/lang/StringBuilder;->append(D)Ljava/lang/StringBuilder;
 
-    .line 21
     :cond_4
     invoke-virtual {p0}, Lio/jaegertracing/thriftjava/Tag;->isSetVBool()Z
 
@@ -2696,20 +2465,16 @@
 
     if-eqz v3, :cond_5
 
-    .line 22
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     const-string v3, "vBool:"
 
-    .line 23
     invoke-virtual {v0, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 24
     iget-boolean v3, p0, Lio/jaegertracing/thriftjava/Tag;->vBool:Z
 
     invoke-virtual {v0, v3}, Ljava/lang/StringBuilder;->append(Z)Ljava/lang/StringBuilder;
 
-    .line 25
     :cond_5
     invoke-virtual {p0}, Lio/jaegertracing/thriftjava/Tag;->isSetVLong()Z
 
@@ -2717,20 +2482,16 @@
 
     if-eqz v3, :cond_6
 
-    .line 26
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     const-string v3, "vLong:"
 
-    .line 27
     invoke-virtual {v0, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 28
     iget-wide v3, p0, Lio/jaegertracing/thriftjava/Tag;->vLong:J
 
     invoke-virtual {v0, v3, v4}, Ljava/lang/StringBuilder;->append(J)Ljava/lang/StringBuilder;
 
-    .line 29
     :cond_6
     invoke-virtual {p0}, Lio/jaegertracing/thriftjava/Tag;->isSetVBinary()Z
 
@@ -2738,25 +2499,20 @@
 
     if-eqz v3, :cond_8
 
-    .line 30
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     const-string v1, "vBinary:"
 
-    .line 31
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 32
     iget-object v1, p0, Lio/jaegertracing/thriftjava/Tag;->vBinary:Ljava/nio/ByteBuffer;
 
     if-nez v1, :cond_7
 
-    .line 33
     invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     goto :goto_3
 
-    .line 34
     :cond_7
     invoke-static {v1, v0}, Lorg/apache/thrift/TBaseHelper;->toString(Ljava/nio/ByteBuffer;Ljava/lang/StringBuilder;)V
 
@@ -2764,10 +2520,8 @@
     :goto_3
     const-string v1, ")"
 
-    .line 35
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 36
     invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     move-result-object v0
@@ -2780,7 +2534,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     iput-object v0, p0, Lio/jaegertracing/thriftjava/Tag;->key:Ljava/lang/String;
 
     return-void
@@ -2791,7 +2544,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     iput-object v0, p0, Lio/jaegertracing/thriftjava/Tag;->vBinary:Ljava/nio/ByteBuffer;
 
     return-void
@@ -2800,7 +2552,6 @@
 .method public unsetVBool()V
     .locals 2
 
-    .line 1
     iget-byte v0, p0, Lio/jaegertracing/thriftjava/Tag;->__isset_bitfield:B
 
     const/4 v1, 0x1
@@ -2817,7 +2568,6 @@
 .method public unsetVDouble()V
     .locals 2
 
-    .line 1
     iget-byte v0, p0, Lio/jaegertracing/thriftjava/Tag;->__isset_bitfield:B
 
     const/4 v1, 0x0
@@ -2834,7 +2584,6 @@
 .method public unsetVLong()V
     .locals 2
 
-    .line 1
     iget-byte v0, p0, Lio/jaegertracing/thriftjava/Tag;->__isset_bitfield:B
 
     const/4 v1, 0x2
@@ -2853,7 +2602,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     iput-object v0, p0, Lio/jaegertracing/thriftjava/Tag;->vStr:Ljava/lang/String;
 
     return-void
@@ -2864,7 +2612,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     iput-object v0, p0, Lio/jaegertracing/thriftjava/Tag;->vType:Lio/jaegertracing/thriftjava/TagType;
 
     return-void
@@ -2878,19 +2625,16 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lio/jaegertracing/thriftjava/Tag;->key:Ljava/lang/String;
 
     if-eqz v0, :cond_1
 
-    .line 2
     iget-object v0, p0, Lio/jaegertracing/thriftjava/Tag;->vType:Lio/jaegertracing/thriftjava/TagType;
 
     if-eqz v0, :cond_0
 
     return-void
 
-    .line 3
     :cond_0
     new-instance v0, Lorg/apache/thrift/protocol/TProtocolException;
 
@@ -2916,7 +2660,6 @@
 
     throw v0
 
-    .line 4
     :cond_1
     new-instance v0, Lorg/apache/thrift/protocol/TProtocolException;
 
@@ -2951,7 +2694,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p1}, Lio/jaegertracing/thriftjava/Tag;->scheme(Lorg/apache/thrift/protocol/TProtocol;)Lorg/apache/thrift/scheme/IScheme;
 
     move-result-object v0

@@ -7,7 +7,6 @@
 .method public static a(Lcom/google/android/gms/internal/ads/jr1;)Ljava/lang/Throwable;
     .locals 0
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/android/gms/internal/ads/jr1;->a()Ljava/lang/Throwable;
 
     move-result-object p0

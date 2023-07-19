@@ -54,7 +54,6 @@
 .method private constructor <init>(Lcom/meitu/library/analytics/consumer/c;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/library/analytics/consumer/c$b;->q:Lcom/meitu/library/analytics/consumer/c;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -65,7 +64,6 @@
 .method synthetic constructor <init>(Lcom/meitu/library/analytics/consumer/c;Lcom/meitu/library/analytics/consumer/c$a;)V
     .locals 0
 
-    .line 2
     invoke-direct {p0, p1}, Lcom/meitu/library/analytics/consumer/c$b;-><init>(Lcom/meitu/library/analytics/consumer/c;)V
 
     return-void
@@ -80,7 +78,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V

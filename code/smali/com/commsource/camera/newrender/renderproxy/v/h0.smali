@@ -19,17 +19,14 @@
 .method public constructor <init>()V
     .locals 3
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/camera/newrender/renderproxy/v/v;-><init>()V
 
-    .line 2
     new-instance v0, Lcom/commsource/camera/render/b;
 
     invoke-direct {v0}, Lcom/commsource/camera/render/b;-><init>()V
 
     iput-object v0, p0, Lcom/commsource/camera/newrender/renderproxy/v/h0;->b:Lcom/commsource/camera/render/b;
 
-    .line 3
     new-instance v1, Lcom/commsource/camera/newrender/renderproxy/v/h0$b;
 
     const/4 v2, 0x0
@@ -50,7 +47,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/camera/newrender/renderproxy/v/v;->g()Lcom/commsource/camera/newrender/renderproxy/m;
 
     move-result-object v1
@@ -65,7 +61,6 @@
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-virtual {v1}, Lcom/commsource/camera/d1/g/p;->b()Landroid/graphics/Rect;
 
     move-result-object v1
@@ -77,7 +72,6 @@
     :cond_0
     const/4 v1, 0x0
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
@@ -94,12 +88,10 @@
 
     if-nez p1, :cond_0
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
 
-    .line 2
     :cond_0
     invoke-virtual {p0}, Lcom/commsource/camera/newrender/renderproxy/v/v;->g()Lcom/commsource/camera/newrender/renderproxy/m;
 
@@ -111,12 +103,10 @@
 
     if-nez v2, :cond_1
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
 
-    .line 4
     :cond_1
     invoke-virtual {p0}, Lcom/commsource/camera/newrender/renderproxy/v/v;->g()Lcom/commsource/camera/newrender/renderproxy/m;
 
@@ -128,7 +118,6 @@
 
     if-eqz v2, :cond_2
 
-    .line 5
     invoke-virtual {p0}, Lcom/commsource/camera/newrender/renderproxy/v/v;->g()Lcom/commsource/camera/newrender/renderproxy/m;
 
     move-result-object v2
@@ -139,7 +128,6 @@
 
     invoke-interface {v2, p1}, Lcom/commsource/camera/l0;->onTouchEvent(Landroid/view/MotionEvent;)V
 
-    .line 6
     :cond_2
     invoke-virtual {p0}, Lcom/commsource/camera/newrender/renderproxy/v/h0;->d2()Landroid/graphics/Rect;
 
@@ -147,13 +135,10 @@
 
     if-eqz v2, :cond_3
 
-    .line 7
     iget v3, v2, Landroid/graphics/Rect;->left:I
 
-    .line 8
     iget v4, v2, Landroid/graphics/Rect;->top:I
 
-    .line 9
     iget-object v5, p0, Lcom/commsource/camera/newrender/renderproxy/v/h0;->b:Lcom/commsource/camera/render/b;
 
     invoke-virtual {v5, v2}, Lcom/commsource/camera/render/b;->c(Landroid/graphics/Rect;)V
@@ -165,13 +150,11 @@
 
     const/4 v4, 0x0
 
-    .line 10
     :goto_0
     invoke-virtual {p1}, Landroid/view/MotionEvent;->getPointerCount()I
 
     move-result v2
 
-    .line 11
     invoke-virtual {p1}, Landroid/view/MotionEvent;->getActionMasked()I
 
     move-result v5
@@ -189,7 +172,6 @@
 
     int-to-float v7, v7
 
-    .line 12
     invoke-virtual {p1, v6, v7}, Landroid/view/MotionEvent;->offsetLocation(FF)V
 
     :cond_5
@@ -225,12 +207,10 @@
     :goto_1
     if-ge v5, v2, :cond_9
 
-    .line 13
     invoke-virtual {p1, v5}, Landroid/view/MotionEvent;->getPointerId(I)I
 
     move-result v8
 
-    .line 14
     invoke-virtual {p1, v5}, Landroid/view/MotionEvent;->getX(I)F
 
     move-result v9
@@ -239,7 +219,6 @@
 
     float-to-int v9, v9
 
-    .line 15
     invoke-virtual {p1, v5}, Landroid/view/MotionEvent;->getY(I)F
 
     move-result v10
@@ -248,7 +227,6 @@
 
     float-to-int v10, v10
 
-    .line 16
     iget-object v11, p0, Lcom/commsource/camera/newrender/renderproxy/v/h0;->b:Lcom/commsource/camera/render/b;
 
     invoke-virtual {v11, v1, v9, v10, v8}, Lcom/commsource/camera/render/b;->i(ZIII)V
@@ -257,7 +235,6 @@
 
     goto :goto_1
 
-    .line 17
     :cond_7
     invoke-virtual {p1}, Landroid/view/MotionEvent;->getActionIndex()I
 
@@ -267,7 +244,6 @@
 
     move-result v1
 
-    .line 18
     invoke-virtual {p1}, Landroid/view/MotionEvent;->getX()F
 
     move-result v2
@@ -276,7 +252,6 @@
 
     float-to-int v2, v2
 
-    .line 19
     invoke-virtual {p1}, Landroid/view/MotionEvent;->getY()F
 
     move-result v5
@@ -285,7 +260,6 @@
 
     float-to-int v5, v5
 
-    .line 20
     iget-object v7, p0, Lcom/commsource/camera/newrender/renderproxy/v/h0;->b:Lcom/commsource/camera/render/b;
 
     invoke-virtual {v7, v6, v2, v5, v1}, Lcom/commsource/camera/render/b;->i(ZIII)V
@@ -298,12 +272,10 @@
     :goto_2
     if-ge v5, v2, :cond_9
 
-    .line 21
     invoke-virtual {p1, v5}, Landroid/view/MotionEvent;->getPointerId(I)I
 
     move-result v8
 
-    .line 22
     invoke-virtual {p1, v5}, Landroid/view/MotionEvent;->getX(I)F
 
     move-result v9
@@ -312,7 +284,6 @@
 
     float-to-int v9, v9
 
-    .line 23
     invoke-virtual {p1, v5}, Landroid/view/MotionEvent;->getY(I)F
 
     move-result v10
@@ -321,7 +292,6 @@
 
     float-to-int v10, v10
 
-    .line 24
     iget-object v11, p0, Lcom/commsource/camera/newrender/renderproxy/v/h0;->b:Lcom/commsource/camera/render/b;
 
     invoke-virtual {v11, v1, v9, v10, v8}, Lcom/commsource/camera/render/b;->i(ZIII)V
@@ -341,10 +311,8 @@
 
     int-to-float v2, v4
 
-    .line 25
     invoke-virtual {p1, v1, v2}, Landroid/view/MotionEvent;->offsetLocation(FF)V
 
-    .line 26
     :cond_b
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

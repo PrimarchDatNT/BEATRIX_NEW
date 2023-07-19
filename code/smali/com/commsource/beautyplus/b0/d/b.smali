@@ -14,7 +14,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -25,7 +24,6 @@
 .method public A1()I
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/beautyplus/b0/d/b;->g:Lcom/commsource/beautyplus/b0/f/b/b;
 
     if-nez v0, :cond_0
@@ -46,7 +44,6 @@
 .method public final B1()I
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/beautyplus/b0/d/b;->f()I
 
     move-result v0
@@ -57,12 +54,10 @@
 .method protected a()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/beautyplus/b0/d/b;->g:Lcom/commsource/beautyplus/b0/f/b/b;
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-virtual {v0}, Lcom/commsource/beautyplus/b0/f/b/b;->b()Ljava/lang/String;
 
     move-result-object v0
@@ -86,12 +81,10 @@
 .method protected c()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/beautyplus/b0/d/b;->g:Lcom/commsource/beautyplus/b0/f/b/b;
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-virtual {v0}, Lcom/commsource/beautyplus/b0/f/b/b;->l()Ljava/lang/String;
 
     move-result-object v0
@@ -109,7 +102,6 @@
 
     sget v0, Lcom/res/provider/ResSTRING;->new_score_content:I
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/p/d/b;->l(I)Ljava/lang/String;
 
     move-result-object v0
@@ -120,12 +112,10 @@
 .method protected e()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/beautyplus/b0/d/b;->g:Lcom/commsource/beautyplus/b0/f/b/b;
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-virtual {v0}, Lcom/commsource/beautyplus/b0/f/b/b;->m()Ljava/lang/String;
 
     move-result-object v0
@@ -152,7 +142,6 @@
 .method public h(Lcom/commsource/beautyplus/b0/f/b/b;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/beautyplus/b0/d/b;->g:Lcom/commsource/beautyplus/b0/f/b/b;
 
     return-void
@@ -161,7 +150,6 @@
 .method public final j1()I
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/beautyplus/b0/d/b;->g()I
 
     move-result v0
@@ -172,7 +160,6 @@
 .method public final k1()Ljava/lang/String;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/beautyplus/b0/d/b;->d()Ljava/lang/String;
 
     move-result-object v0
@@ -183,7 +170,6 @@
 .method public l1()I
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/beautyplus/b0/d/b;->g:Lcom/commsource/beautyplus/b0/f/b/b;
 
     if-nez v0, :cond_0
@@ -204,7 +190,6 @@
 .method public m1()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/beautyplus/b0/d/b;->g:Lcom/commsource/beautyplus/b0/f/b/b;
 
     if-nez v0, :cond_0
@@ -225,7 +210,6 @@
 .method public final n1()Ljava/lang/String;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/beautyplus/b0/d/b;->a()Ljava/lang/String;
 
     move-result-object v0
@@ -236,7 +220,6 @@
 .method public final o1()Ljava/lang/String;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/beautyplus/b0/d/b;->e()Ljava/lang/String;
 
     move-result-object v0
@@ -247,7 +230,6 @@
 .method public final p1()Ljava/lang/String;
     .locals 2
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -272,12 +254,10 @@
 .method public q1()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/beautyplus/b0/d/b;->g:Lcom/commsource/beautyplus/b0/f/b/b;
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-virtual {v0}, Lcom/commsource/beautyplus/b0/f/b/b;->j()Ljava/lang/String;
 
     move-result-object v0
@@ -293,7 +273,6 @@
 .method public final r1()Ljava/lang/String;
     .locals 2
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -318,7 +297,6 @@
 .method public final s1()Ljava/lang/String;
     .locals 2
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -343,12 +321,10 @@
 .method public final t1()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/beautyplus/b0/d/b;->g:Lcom/commsource/beautyplus/b0/f/b/b;
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-virtual {v0}, Lcom/commsource/beautyplus/b0/f/b/b;->e()Ljava/lang/String;
 
     move-result-object v0
@@ -364,12 +340,10 @@
 .method public u1()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/beautyplus/b0/d/b;->g:Lcom/commsource/beautyplus/b0/f/b/b;
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-virtual {v0}, Lcom/commsource/beautyplus/b0/f/b/b;->i()Ljava/lang/String;
 
     move-result-object v0
@@ -385,7 +359,6 @@
 .method public final v1()Ljava/lang/String;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/beautyplus/b0/d/b;->c()Ljava/lang/String;
 
     move-result-object v0
@@ -396,7 +369,6 @@
 .method public final w1()Ljava/lang/String;
     .locals 2
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -421,7 +393,6 @@
 .method public final x1()I
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/beautyplus/b0/d/b;->b()I
 
     move-result v0
@@ -432,14 +403,12 @@
 .method public y1()Z
     .locals 3
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/beautyplus/b0/d/b;->g:Lcom/commsource/beautyplus/b0/f/b/b;
 
     const/4 v1, 0x0
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-virtual {v0}, Lcom/commsource/beautyplus/b0/f/b/b;->k()I
 
     move-result v0
@@ -457,14 +426,12 @@
 .method public z1()Z
     .locals 3
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/beautyplus/b0/d/b;->g:Lcom/commsource/beautyplus/b0/f/b/b;
 
     const/4 v1, 0x0
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-virtual {v0}, Lcom/commsource/beautyplus/b0/f/b/b;->k()I
 
     move-result v0

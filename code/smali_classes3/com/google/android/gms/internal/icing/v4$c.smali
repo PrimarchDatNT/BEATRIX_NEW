@@ -17,7 +17,6 @@
 .method constructor <init>(Lsun/misc/Unsafe;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/google/android/gms/internal/icing/v4$d;-><init>(Lsun/misc/Unsafe;)V
 
     return-void
@@ -28,7 +27,6 @@
 .method public final a(Ljava/lang/Object;JD)V
     .locals 6
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/icing/v4$d;->a:Lsun/misc/Unsafe;
 
     move-object v1, p1
@@ -45,7 +43,6 @@
 .method public final b(Ljava/lang/Object;JF)V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/icing/v4$d;->a:Lsun/misc/Unsafe;
 
     invoke-virtual {v0, p1, p2, p3, p4}, Lsun/misc/Unsafe;->putFloat(Ljava/lang/Object;JF)V
@@ -56,7 +53,6 @@
 .method public final e(Ljava/lang/Object;JZ)V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/icing/v4$d;->a:Lsun/misc/Unsafe;
 
     invoke-virtual {v0, p1, p2, p3, p4}, Lsun/misc/Unsafe;->putBoolean(Ljava/lang/Object;JZ)V
@@ -67,7 +63,6 @@
 .method public final f(Ljava/lang/Object;JB)V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/icing/v4$d;->a:Lsun/misc/Unsafe;
 
     invoke-virtual {v0, p1, p2, p3, p4}, Lsun/misc/Unsafe;->putByte(Ljava/lang/Object;JB)V
@@ -78,7 +73,6 @@
 .method public final i(Ljava/lang/Object;J)Z
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/icing/v4$d;->a:Lsun/misc/Unsafe;
 
     invoke-virtual {v0, p1, p2, p3}, Lsun/misc/Unsafe;->getBoolean(Ljava/lang/Object;J)Z
@@ -91,7 +85,6 @@
 .method public final j(Ljava/lang/Object;J)F
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/icing/v4$d;->a:Lsun/misc/Unsafe;
 
     invoke-virtual {v0, p1, p2, p3}, Lsun/misc/Unsafe;->getFloat(Ljava/lang/Object;J)F
@@ -104,7 +97,6 @@
 .method public final k(Ljava/lang/Object;J)D
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/icing/v4$d;->a:Lsun/misc/Unsafe;
 
     invoke-virtual {v0, p1, p2, p3}, Lsun/misc/Unsafe;->getDouble(Ljava/lang/Object;J)D
@@ -117,7 +109,6 @@
 .method public final l(Ljava/lang/Object;J)B
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/icing/v4$d;->a:Lsun/misc/Unsafe;
 
     invoke-virtual {v0, p1, p2, p3}, Lsun/misc/Unsafe;->getByte(Ljava/lang/Object;J)B

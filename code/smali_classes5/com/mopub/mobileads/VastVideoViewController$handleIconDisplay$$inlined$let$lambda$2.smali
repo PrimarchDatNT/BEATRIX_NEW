@@ -29,7 +29,6 @@
 
     iput-object p2, p0, Lcom/mopub/mobileads/VastVideoViewController$handleIconDisplay$$inlined$let$lambda$2;->this$0:Lcom/mopub/mobileads/VastVideoViewController;
 
-    .line 1
     invoke-direct {p0}, Landroid/webkit/WebViewClient;-><init>()V
 
     return-void
@@ -51,7 +50,6 @@
         value = 0x1a
     .end annotation
 
-    .line 1
     sget-object p1, Lcom/mopub/common/logging/MoPubLog$SdkLogEvent;->CUSTOM:Lcom/mopub/common/logging/MoPubLog$SdkLogEvent;
 
     const/4 p2, 0x1
@@ -64,17 +62,14 @@
 
     aput-object v2, v0, v1
 
-    .line 2
     invoke-static {p1, v0}, Lcom/mopub/common/logging/MoPubLog;->log(Lcom/mopub/common/logging/MoPubLog$MPLogEventType;[Ljava/lang/Object;)V
 
-    .line 3
     iget-object p1, p0, Lcom/mopub/mobileads/VastVideoViewController$handleIconDisplay$$inlined$let$lambda$2;->this$0:Lcom/mopub/mobileads/VastVideoViewController;
 
     invoke-virtual {p1}, Lcom/mopub/mobileads/VastVideoViewController;->getVastVideoConfig()Lcom/mopub/mobileads/VastVideoConfig;
 
     move-result-object p1
 
-    .line 4
     iget-object v0, p0, Lcom/mopub/mobileads/VastVideoViewController$handleIconDisplay$$inlined$let$lambda$2;->this$0:Lcom/mopub/mobileads/VastVideoViewController;
 
     invoke-virtual {v0}, Lcom/mopub/mobileads/BaseVideoViewController;->getContext()Landroid/content/Context;
@@ -85,17 +80,14 @@
 
     invoke-static {v0, v1}, Lcotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 5
     sget-object v1, Lcom/mopub/mobileads/VastErrorCode;->UNDEFINED_ERROR:Lcom/mopub/mobileads/VastErrorCode;
 
-    .line 6
     iget-object v2, p0, Lcom/mopub/mobileads/VastVideoViewController$handleIconDisplay$$inlined$let$lambda$2;->this$0:Lcom/mopub/mobileads/VastVideoViewController;
 
     invoke-virtual {v2}, Lcom/mopub/mobileads/VastVideoViewController;->getCurrentPosition()I
 
     move-result v2
 
-    .line 7
     invoke-virtual {p1, v0, v1, v2}, Lcom/mopub/mobileads/VastVideoConfig;->handleError(Landroid/content/Context;Lcom/mopub/mobileads/VastErrorCode;I)V
 
     return p2
@@ -120,7 +112,6 @@
 
     invoke-static {p2, p1}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object p1, p0, Lcom/mopub/mobileads/VastVideoViewController$handleIconDisplay$$inlined$let$lambda$2;->this$0:Lcom/mopub/mobileads/VastVideoViewController;
 
     invoke-virtual {p1}, Lcom/mopub/mobileads/VastVideoViewController;->getVastIconConfig()Lcom/mopub/mobileads/VastIconConfig;
@@ -129,7 +120,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 2
     iget-object v0, p0, Lcom/mopub/mobileads/VastVideoViewController$handleIconDisplay$$inlined$let$lambda$2;->this$0:Lcom/mopub/mobileads/VastVideoViewController;
 
     invoke-virtual {v0}, Lcom/mopub/mobileads/BaseVideoViewController;->getContext()Landroid/content/Context;
@@ -140,7 +130,6 @@
 
     invoke-static {v0, v1}, Lcotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 3
     iget-object v1, p0, Lcom/mopub/mobileads/VastVideoViewController$handleIconDisplay$$inlined$let$lambda$2;->this$0:Lcom/mopub/mobileads/VastVideoViewController;
 
     invoke-virtual {v1}, Lcom/mopub/mobileads/VastVideoViewController;->getVastVideoConfig()Lcom/mopub/mobileads/VastVideoConfig;
@@ -151,7 +140,6 @@
 
     move-result-object v1
 
-    .line 4
     invoke-virtual {p1, v0, p2, v1}, Lcom/mopub/mobileads/VastIconConfig;->handleClick(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;)V
 
     :cond_0

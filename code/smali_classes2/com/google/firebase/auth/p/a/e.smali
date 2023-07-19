@@ -28,7 +28,6 @@
 .method constructor <init>(Lcom/google/firebase/auth/p/a/b0;Lcom/google/firebase/auth/UserProfileChangeRequest;Lcom/google/firebase/auth/p/a/q2;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/firebase/auth/p/a/e;->c:Lcom/google/firebase/auth/p/a/b0;
 
     iput-object p2, p0, Lcom/google/firebase/auth/p/a/e;->a:Lcom/google/firebase/auth/UserProfileChangeRequest;
@@ -49,12 +48,10 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-static {p1}, Lcom/google/firebase/auth/internal/m0;->b(Ljava/lang/String;)Lcom/google/android/gms/common/api/Status;
 
     move-result-object p1
 
-    .line 2
     iget-object v0, p0, Lcom/google/firebase/auth/p/a/e;->b:Lcom/google/firebase/auth/p/a/q2;
 
     invoke-virtual {v0, p1}, Lcom/google/firebase/auth/p/a/q2;->a(Lcom/google/android/gms/common/api/Status;)V
@@ -65,22 +62,18 @@
 .method public final synthetic onSuccess(Ljava/lang/Object;)V
     .locals 3
 
-    .line 1
     check-cast p1, Lcom/google/android/gms/internal/firebase_auth/zzes;
 
-    .line 2
     new-instance v0, Lcom/google/android/gms/internal/firebase_auth/h2;
 
     invoke-direct {v0}, Lcom/google/android/gms/internal/firebase_auth/h2;-><init>()V
 
-    .line 3
     invoke-virtual {p1}, Lcom/google/android/gms/internal/firebase_auth/zzes;->y()Ljava/lang/String;
 
     move-result-object v1
 
     invoke-virtual {v0, v1}, Lcom/google/android/gms/internal/firebase_auth/h2;->f(Ljava/lang/String;)Lcom/google/android/gms/internal/firebase_auth/h2;
 
-    .line 4
     iget-object v1, p0, Lcom/google/firebase/auth/p/a/e;->a:Lcom/google/firebase/auth/UserProfileChangeRequest;
 
     invoke-virtual {v1}, Lcom/google/firebase/auth/UserProfileChangeRequest;->A()Z
@@ -97,7 +90,6 @@
 
     if-eqz v1, :cond_1
 
-    .line 5
     :cond_0
     iget-object v1, p0, Lcom/google/firebase/auth/p/a/e;->a:Lcom/google/firebase/auth/UserProfileChangeRequest;
 
@@ -107,7 +99,6 @@
 
     invoke-virtual {v0, v1}, Lcom/google/android/gms/internal/firebase_auth/h2;->i(Ljava/lang/String;)Lcom/google/android/gms/internal/firebase_auth/h2;
 
-    .line 6
     :cond_1
     iget-object v1, p0, Lcom/google/firebase/auth/p/a/e;->a:Lcom/google/firebase/auth/UserProfileChangeRequest;
 
@@ -125,7 +116,6 @@
 
     if-eqz v1, :cond_3
 
-    .line 7
     :cond_2
     iget-object v1, p0, Lcom/google/firebase/auth/p/a/e;->a:Lcom/google/firebase/auth/UserProfileChangeRequest;
 
@@ -135,7 +125,6 @@
 
     invoke-virtual {v0, v1}, Lcom/google/android/gms/internal/firebase_auth/h2;->j(Ljava/lang/String;)Lcom/google/android/gms/internal/firebase_auth/h2;
 
-    .line 8
     :cond_3
     iget-object v1, p0, Lcom/google/firebase/auth/p/a/e;->c:Lcom/google/firebase/auth/p/a/b0;
 

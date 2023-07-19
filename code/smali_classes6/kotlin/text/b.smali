@@ -20,7 +20,6 @@
     .annotation build Lcotlin/internal/f;
     .end annotation
 
-    .line 1
     invoke-static {p0}, Ljava/lang/Character;->toUpperCase(C)C
 
     move-result p0
@@ -40,7 +39,6 @@
         version = "1.4"
     .end annotation
 
-    .line 1
     invoke-static {p0}, Ljava/lang/String;->valueOf(C)Ljava/lang/String;
 
     move-result-object p0
@@ -82,7 +80,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-static {p0}, Ljava/lang/String;->valueOf(C)Ljava/lang/String;
 
     move-result-object p0
@@ -114,7 +111,6 @@
         version = "1.4"
     .end annotation
 
-    .line 1
     invoke-static {p0}, Ljava/lang/Character;->toUpperCase(C)C
 
     move-result p0
@@ -137,7 +133,6 @@
 
     return p0
 
-    .line 1
     :cond_0
     new-instance v2, Ljava/lang/IllegalArgumentException;
 
@@ -173,7 +168,6 @@
 .method public static final b(CI)I
     .locals 0
 
-    .line 1
     invoke-static {p0, p1}, Ljava/lang/Character;->digit(II)I
 
     move-result p0
@@ -186,7 +180,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     sget-object v0, Lcotlin/text/CharCategory;->Companion:Lcotlin/text/CharCategory$a;
 
     invoke-static {p0}, Ljava/lang/Character;->getType(C)I
@@ -205,7 +198,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     sget-object v0, Lcotlin/text/CharDirectionality;->Companion:Lcotlin/text/CharDirectionality$a;
 
     invoke-static {p0}, Ljava/lang/Character;->getDirectionality(C)B
@@ -224,7 +216,6 @@
     .annotation build Lcotlin/internal/f;
     .end annotation
 
-    .line 1
     invoke-static {p0}, Ljava/lang/Character;->isDefined(C)Z
 
     move-result p0
@@ -237,7 +228,6 @@
     .annotation build Lcotlin/internal/f;
     .end annotation
 
-    .line 1
     invoke-static {p0}, Ljava/lang/Character;->isDigit(C)Z
 
     move-result p0
@@ -250,7 +240,6 @@
     .annotation build Lcotlin/internal/f;
     .end annotation
 
-    .line 1
     invoke-static {p0}, Ljava/lang/Character;->isHighSurrogate(C)Z
 
     move-result p0
@@ -263,7 +252,6 @@
     .annotation build Lcotlin/internal/f;
     .end annotation
 
-    .line 1
     invoke-static {p0}, Ljava/lang/Character;->isISOControl(C)Z
 
     move-result p0
@@ -276,7 +264,6 @@
     .annotation build Lcotlin/internal/f;
     .end annotation
 
-    .line 1
     invoke-static {p0}, Ljava/lang/Character;->isIdentifierIgnorable(C)Z
 
     move-result p0
@@ -289,7 +276,6 @@
     .annotation build Lcotlin/internal/f;
     .end annotation
 
-    .line 1
     invoke-static {p0}, Ljava/lang/Character;->isJavaIdentifierPart(C)Z
 
     move-result p0
@@ -302,7 +288,6 @@
     .annotation build Lcotlin/internal/f;
     .end annotation
 
-    .line 1
     invoke-static {p0}, Ljava/lang/Character;->isJavaIdentifierStart(C)Z
 
     move-result p0
@@ -315,7 +300,6 @@
     .annotation build Lcotlin/internal/f;
     .end annotation
 
-    .line 1
     invoke-static {p0}, Ljava/lang/Character;->isLetter(C)Z
 
     move-result p0
@@ -328,7 +312,6 @@
     .annotation build Lcotlin/internal/f;
     .end annotation
 
-    .line 1
     invoke-static {p0}, Ljava/lang/Character;->isLetterOrDigit(C)Z
 
     move-result p0
@@ -341,7 +324,6 @@
     .annotation build Lcotlin/internal/f;
     .end annotation
 
-    .line 1
     invoke-static {p0}, Ljava/lang/Character;->isLowSurrogate(C)Z
 
     move-result p0
@@ -354,7 +336,6 @@
     .annotation build Lcotlin/internal/f;
     .end annotation
 
-    .line 1
     invoke-static {p0}, Ljava/lang/Character;->isLowerCase(C)Z
 
     move-result p0
@@ -367,7 +348,6 @@
     .annotation build Lcotlin/internal/f;
     .end annotation
 
-    .line 1
     invoke-static {p0}, Ljava/lang/Character;->isTitleCase(C)Z
 
     move-result p0
@@ -380,7 +360,6 @@
     .annotation build Lcotlin/internal/f;
     .end annotation
 
-    .line 1
     invoke-static {p0}, Ljava/lang/Character;->isUpperCase(C)Z
 
     move-result p0
@@ -391,7 +370,6 @@
 .method public static final r(C)Z
     .locals 1
 
-    .line 1
     invoke-static {p0}, Ljava/lang/Character;->isWhitespace(C)Z
 
     move-result v0
@@ -431,7 +409,6 @@
         version = "1.4"
     .end annotation
 
-    .line 1
     invoke-static {p0}, Ljava/lang/String;->valueOf(C)Ljava/lang/String;
 
     move-result-object p0
@@ -473,7 +450,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-static {p0}, Ljava/lang/String;->valueOf(C)Ljava/lang/String;
 
     move-result-object p0
@@ -505,7 +481,6 @@
         version = "1.4"
     .end annotation
 
-    .line 1
     invoke-static {p0}, Ljava/lang/Character;->toLowerCase(C)C
 
     move-result p0
@@ -525,7 +500,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     invoke-static {p0}, Ljava/lang/String;->valueOf(C)Ljava/lang/String;
 
     move-result-object v0
@@ -544,7 +518,6 @@
 
     invoke-static {v0, v3}, Lcotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 2
     invoke-virtual {v0}, Ljava/lang/String;->length()I
 
     move-result v3
@@ -562,7 +535,6 @@
     :cond_0
     const/4 p0, 0x0
 
-    .line 3
     invoke-virtual {v0, p0}, Ljava/lang/String;->charAt(I)C
 
     move-result p0
@@ -606,7 +578,6 @@
     :goto_0
     return-object v0
 
-    .line 4
     :cond_1
     invoke-static {p0}, Ljava/lang/Character;->toTitleCase(C)C
 
@@ -639,12 +610,10 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-static {p0, p1}, Lcotlin/text/b;->C(CLjava/util/Locale;)Ljava/lang/String;
 
     move-result-object p1
 
-    .line 2
     invoke-virtual {p1}, Ljava/lang/String;->length()I
 
     move-result v0
@@ -664,7 +633,6 @@
     :cond_0
     const/4 p0, 0x0
 
-    .line 3
     invoke-virtual {p1, p0}, Ljava/lang/String;->charAt(I)C
 
     move-result p0
@@ -710,7 +678,6 @@
     :goto_0
     return-object p1
 
-    .line 4
     :cond_1
     invoke-static {p0}, Ljava/lang/String;->valueOf(C)Ljava/lang/String;
 
@@ -738,7 +705,6 @@
 
     return-object p1
 
-    .line 5
     :cond_2
     invoke-static {p0}, Ljava/lang/Character;->toTitleCase(C)C
 
@@ -763,7 +729,6 @@
         version = "1.4"
     .end annotation
 
-    .line 1
     invoke-static {p0}, Ljava/lang/Character;->toTitleCase(C)C
 
     move-result p0
@@ -776,7 +741,6 @@
     .annotation build Lcotlin/internal/f;
     .end annotation
 
-    .line 1
     invoke-static {p0}, Ljava/lang/Character;->toLowerCase(C)C
 
     move-result p0
@@ -789,7 +753,6 @@
     .annotation build Lcotlin/internal/f;
     .end annotation
 
-    .line 1
     invoke-static {p0}, Ljava/lang/Character;->toTitleCase(C)C
 
     move-result p0

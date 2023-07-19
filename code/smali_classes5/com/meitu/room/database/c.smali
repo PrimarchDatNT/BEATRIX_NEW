@@ -10,7 +10,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -34,7 +33,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/commsource/util/z0;->b()Lcom/google/gson/Gson;
 
     move-result-object v1
@@ -78,7 +76,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/commsource/util/z0;->b()Lcom/google/gson/Gson;
 
     move-result-object v1
@@ -122,7 +119,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/commsource/util/z0;->b()Lcom/google/gson/Gson;
 
     move-result-object v1
@@ -167,7 +163,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/commsource/util/z0;->b()Lcom/google/gson/Gson;
 
     move-result-object v1
@@ -201,7 +196,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/meitu/room/database/c$a;
 
     invoke-direct {v1}, Lcom/meitu/room/database/c$a;-><init>()V
@@ -248,7 +242,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/meitu/room/database/c$b;
 
     invoke-direct {v1}, Lcom/meitu/room/database/c$b;-><init>()V
@@ -295,7 +288,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/meitu/room/database/c$c;
 
     invoke-direct {v1}, Lcom/meitu/room/database/c$c;-><init>()V
@@ -343,7 +335,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/meitu/room/database/c$d;
 
     invoke-direct {v1}, Lcom/meitu/room/database/c$d;-><init>()V
@@ -390,7 +381,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/meitu/room/database/c$e;
 
     invoke-direct {v1}, Lcom/meitu/room/database/c$e;-><init>()V
@@ -436,7 +426,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/commsource/util/z0;->b()Lcom/google/gson/Gson;
 
     move-result-object v1

@@ -47,21 +47,18 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/util/HashMap;
 
     const/4 v2, 0x4
 
     invoke-direct {v1, v2}, Ljava/util/HashMap;-><init>(I)V
 
-    .line 2
     iget-object v2, p0, Lcom/commsource/store/filter/search/FilterSearchViewModel$a;->a:Ljava/lang/String;
 
     const-string v3, "\u641c\u7d22\u5185\u5bb9"
 
     invoke-virtual {v1, v3, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 3
     iget-boolean v2, p0, Lcom/commsource/store/filter/search/FilterSearchViewModel$a;->b:Z
 
     if-eqz v2, :cond_0
@@ -80,10 +77,8 @@
 
     const-string v2, "filter_store_search_req"
 
-    .line 4
     invoke-static {v2, v1}, Lcom/commsource/statistics/i;->s(Ljava/lang/String;Ljava/util/Map;)V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

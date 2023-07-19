@@ -174,7 +174,6 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
     new-instance v0, Lcom/giphy/sdk/core/models/Media$1;
 
     invoke-direct {v0}, Lcom/giphy/sdk/core/models/Media$1;-><init>()V
@@ -187,7 +186,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -196,10 +194,8 @@
 .method public constructor <init>(Landroid/os/Parcel;)V
     .locals 6
 
-    .line 2
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 3
     invoke-virtual {p1}, Landroid/os/Parcel;->readInt()I
 
     move-result v0
@@ -210,7 +206,6 @@
 
     if-eq v0, v1, :cond_0
 
-    .line 4
     invoke-static {}, Lcom/giphy/sdk/core/models/enums/MediaType;->values()[Lcom/giphy/sdk/core/models/enums/MediaType;
 
     move-result-object v3
@@ -225,63 +220,54 @@
     :goto_0
     iput-object v0, p0, Lcom/giphy/sdk/core/models/Media;->type:Lcom/giphy/sdk/core/models/enums/MediaType;
 
-    .line 5
     invoke-virtual {p1}, Landroid/os/Parcel;->readString()Ljava/lang/String;
 
     move-result-object v0
 
     iput-object v0, p0, Lcom/giphy/sdk/core/models/Media;->id:Ljava/lang/String;
 
-    .line 6
     invoke-virtual {p1}, Landroid/os/Parcel;->readString()Ljava/lang/String;
 
     move-result-object v0
 
     iput-object v0, p0, Lcom/giphy/sdk/core/models/Media;->slug:Ljava/lang/String;
 
-    .line 7
     invoke-virtual {p1}, Landroid/os/Parcel;->readString()Ljava/lang/String;
 
     move-result-object v0
 
     iput-object v0, p0, Lcom/giphy/sdk/core/models/Media;->url:Ljava/lang/String;
 
-    .line 8
     invoke-virtual {p1}, Landroid/os/Parcel;->readString()Ljava/lang/String;
 
     move-result-object v0
 
     iput-object v0, p0, Lcom/giphy/sdk/core/models/Media;->bitlyGifUrl:Ljava/lang/String;
 
-    .line 9
     invoke-virtual {p1}, Landroid/os/Parcel;->readString()Ljava/lang/String;
 
     move-result-object v0
 
     iput-object v0, p0, Lcom/giphy/sdk/core/models/Media;->bitlyUrl:Ljava/lang/String;
 
-    .line 10
     invoke-virtual {p1}, Landroid/os/Parcel;->readString()Ljava/lang/String;
 
     move-result-object v0
 
     iput-object v0, p0, Lcom/giphy/sdk/core/models/Media;->embedUrl:Ljava/lang/String;
 
-    .line 11
     invoke-virtual {p1}, Landroid/os/Parcel;->readString()Ljava/lang/String;
 
     move-result-object v0
 
     iput-object v0, p0, Lcom/giphy/sdk/core/models/Media;->source:Ljava/lang/String;
 
-    .line 12
     invoke-virtual {p1}, Landroid/os/Parcel;->readInt()I
 
     move-result v0
 
     if-eq v0, v1, :cond_1
 
-    .line 13
     invoke-static {}, Lcom/giphy/sdk/core/models/enums/RatingType;->values()[Lcom/giphy/sdk/core/models/enums/RatingType;
 
     move-result-object v1
@@ -296,28 +282,24 @@
     :goto_1
     iput-object v0, p0, Lcom/giphy/sdk/core/models/Media;->rating:Lcom/giphy/sdk/core/models/enums/RatingType;
 
-    .line 14
     invoke-virtual {p1}, Landroid/os/Parcel;->readString()Ljava/lang/String;
 
     move-result-object v0
 
     iput-object v0, p0, Lcom/giphy/sdk/core/models/Media;->contentUrl:Ljava/lang/String;
 
-    .line 15
     invoke-virtual {p1}, Landroid/os/Parcel;->createStringArrayList()Ljava/util/ArrayList;
 
     move-result-object v0
 
     iput-object v0, p0, Lcom/giphy/sdk/core/models/Media;->tags:Ljava/util/List;
 
-    .line 16
     invoke-virtual {p1}, Landroid/os/Parcel;->createStringArrayList()Ljava/util/ArrayList;
 
     move-result-object v0
 
     iput-object v0, p0, Lcom/giphy/sdk/core/models/Media;->featuredTags:Ljava/util/List;
 
-    .line 17
     const-class v0, Lcom/giphy/sdk/core/models/User;
 
     invoke-virtual {v0}, Ljava/lang/Class;->getClassLoader()Ljava/lang/ClassLoader;
@@ -332,7 +314,6 @@
 
     iput-object v0, p0, Lcom/giphy/sdk/core/models/Media;->user:Lcom/giphy/sdk/core/models/User;
 
-    .line 18
     const-class v0, Lcom/giphy/sdk/core/models/Images;
 
     invoke-virtual {v0}, Ljava/lang/Class;->getClassLoader()Ljava/lang/ClassLoader;
@@ -347,21 +328,18 @@
 
     iput-object v0, p0, Lcom/giphy/sdk/core/models/Media;->images:Lcom/giphy/sdk/core/models/Images;
 
-    .line 19
     invoke-virtual {p1}, Landroid/os/Parcel;->readString()Ljava/lang/String;
 
     move-result-object v0
 
     iput-object v0, p0, Lcom/giphy/sdk/core/models/Media;->sourceTld:Ljava/lang/String;
 
-    .line 20
     invoke-virtual {p1}, Landroid/os/Parcel;->readString()Ljava/lang/String;
 
     move-result-object v0
 
     iput-object v0, p0, Lcom/giphy/sdk/core/models/Media;->sourcePostUrl:Ljava/lang/String;
 
-    .line 21
     invoke-virtual {p1}, Landroid/os/Parcel;->readLong()J
 
     move-result-wide v0
@@ -372,7 +350,6 @@
 
     if-eqz v5, :cond_2
 
-    .line 22
     new-instance v5, Ljava/util/Date;
 
     invoke-direct {v5, v0, v1}, Ljava/util/Date;-><init>(J)V
@@ -385,7 +362,6 @@
     :goto_2
     iput-object v5, p0, Lcom/giphy/sdk/core/models/Media;->updateDate:Ljava/util/Date;
 
-    .line 23
     invoke-virtual {p1}, Landroid/os/Parcel;->readLong()J
 
     move-result-wide v0
@@ -394,7 +370,6 @@
 
     if-eqz v5, :cond_3
 
-    .line 24
     new-instance v5, Ljava/util/Date;
 
     invoke-direct {v5, v0, v1}, Ljava/util/Date;-><init>(J)V
@@ -407,7 +382,6 @@
     :goto_3
     iput-object v5, p0, Lcom/giphy/sdk/core/models/Media;->createDate:Ljava/util/Date;
 
-    .line 25
     invoke-virtual {p1}, Landroid/os/Parcel;->readLong()J
 
     move-result-wide v0
@@ -416,7 +390,6 @@
 
     if-eqz v5, :cond_4
 
-    .line 26
     new-instance v5, Ljava/util/Date;
 
     invoke-direct {v5, v0, v1}, Ljava/util/Date;-><init>(J)V
@@ -429,7 +402,6 @@
     :goto_4
     iput-object v5, p0, Lcom/giphy/sdk/core/models/Media;->importDate:Ljava/util/Date;
 
-    .line 27
     invoke-virtual {p1}, Landroid/os/Parcel;->readLong()J
 
     move-result-wide v0
@@ -438,7 +410,6 @@
 
     if-eqz v5, :cond_5
 
-    .line 28
     new-instance v2, Ljava/util/Date;
 
     invoke-direct {v2, v0, v1}, Ljava/util/Date;-><init>(J)V
@@ -446,7 +417,6 @@
     :cond_5
     iput-object v2, p0, Lcom/giphy/sdk/core/models/Media;->trendingDate:Ljava/util/Date;
 
-    .line 29
     invoke-virtual {p1}, Landroid/os/Parcel;->readByte()B
 
     move-result v0
@@ -467,7 +437,6 @@
     :goto_5
     iput-boolean v0, p0, Lcom/giphy/sdk/core/models/Media;->isHidden:Z
 
-    .line 30
     invoke-virtual {p1}, Landroid/os/Parcel;->readByte()B
 
     move-result v0
@@ -484,7 +453,6 @@
     :goto_6
     iput-boolean v0, p0, Lcom/giphy/sdk/core/models/Media;->isRemoved:Z
 
-    .line 31
     invoke-virtual {p1}, Landroid/os/Parcel;->readByte()B
 
     move-result v0
@@ -501,7 +469,6 @@
     :goto_7
     iput-boolean v0, p0, Lcom/giphy/sdk/core/models/Media;->isCommunity:Z
 
-    .line 32
     invoke-virtual {p1}, Landroid/os/Parcel;->readByte()B
 
     move-result v0
@@ -518,7 +485,6 @@
     :goto_8
     iput-boolean v0, p0, Lcom/giphy/sdk/core/models/Media;->isAnonymous:Z
 
-    .line 33
     invoke-virtual {p1}, Landroid/os/Parcel;->readByte()B
 
     move-result v0
@@ -535,7 +501,6 @@
     :goto_9
     iput-boolean v0, p0, Lcom/giphy/sdk/core/models/Media;->isFeatured:Z
 
-    .line 34
     invoke-virtual {p1}, Landroid/os/Parcel;->readByte()B
 
     move-result v0
@@ -552,7 +517,6 @@
     :goto_a
     iput-boolean v0, p0, Lcom/giphy/sdk/core/models/Media;->isRealtime:Z
 
-    .line 35
     invoke-virtual {p1}, Landroid/os/Parcel;->readByte()B
 
     move-result v0
@@ -569,7 +533,6 @@
     :goto_b
     iput-boolean v0, p0, Lcom/giphy/sdk/core/models/Media;->isIndexable:Z
 
-    .line 36
     invoke-virtual {p1}, Landroid/os/Parcel;->readByte()B
 
     move-result v0
@@ -584,7 +547,6 @@
     :goto_c
     iput-boolean v1, p0, Lcom/giphy/sdk/core/models/Media;->isSticker:Z
 
-    .line 37
     invoke-virtual {p1}, Landroid/os/Parcel;->readString()Ljava/lang/String;
 
     move-result-object p1
@@ -607,7 +569,6 @@
 .method public getBitlyGifUrl()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/giphy/sdk/core/models/Media;->bitlyGifUrl:Ljava/lang/String;
 
     return-object v0
@@ -616,7 +577,6 @@
 .method public getBitlyUrl()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/giphy/sdk/core/models/Media;->bitlyUrl:Ljava/lang/String;
 
     return-object v0
@@ -625,7 +585,6 @@
 .method public getContentUrl()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/giphy/sdk/core/models/Media;->contentUrl:Ljava/lang/String;
 
     return-object v0
@@ -634,7 +593,6 @@
 .method public getCreateDate()Ljava/util/Date;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/giphy/sdk/core/models/Media;->createDate:Ljava/util/Date;
 
     return-object v0
@@ -643,7 +601,6 @@
 .method public getEmbedUrl()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/giphy/sdk/core/models/Media;->embedUrl:Ljava/lang/String;
 
     return-object v0
@@ -660,7 +617,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/giphy/sdk/core/models/Media;->featuredTags:Ljava/util/List;
 
     return-object v0
@@ -669,7 +625,6 @@
 .method public getId()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/giphy/sdk/core/models/Media;->id:Ljava/lang/String;
 
     return-object v0
@@ -678,7 +633,6 @@
 .method public getImages()Lcom/giphy/sdk/core/models/Images;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/giphy/sdk/core/models/Media;->images:Lcom/giphy/sdk/core/models/Images;
 
     return-object v0
@@ -687,7 +641,6 @@
 .method public getImportDate()Ljava/util/Date;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/giphy/sdk/core/models/Media;->importDate:Ljava/util/Date;
 
     return-object v0
@@ -696,7 +649,6 @@
 .method public getIsAnonymous()Z
     .locals 1
 
-    .line 1
     iget-boolean v0, p0, Lcom/giphy/sdk/core/models/Media;->isAnonymous:Z
 
     return v0
@@ -705,7 +657,6 @@
 .method public getIsCommunity()Z
     .locals 1
 
-    .line 1
     iget-boolean v0, p0, Lcom/giphy/sdk/core/models/Media;->isCommunity:Z
 
     return v0
@@ -714,7 +665,6 @@
 .method public getIsFeatured()Z
     .locals 1
 
-    .line 1
     iget-boolean v0, p0, Lcom/giphy/sdk/core/models/Media;->isFeatured:Z
 
     return v0
@@ -723,7 +673,6 @@
 .method public getIsHidden()Z
     .locals 1
 
-    .line 1
     iget-boolean v0, p0, Lcom/giphy/sdk/core/models/Media;->isHidden:Z
 
     return v0
@@ -732,7 +681,6 @@
 .method public getIsIndexable()Z
     .locals 1
 
-    .line 1
     iget-boolean v0, p0, Lcom/giphy/sdk/core/models/Media;->isIndexable:Z
 
     return v0
@@ -741,7 +689,6 @@
 .method public getIsRealtime()Z
     .locals 1
 
-    .line 1
     iget-boolean v0, p0, Lcom/giphy/sdk/core/models/Media;->isRealtime:Z
 
     return v0
@@ -750,7 +697,6 @@
 .method public getIsRemoved()Z
     .locals 1
 
-    .line 1
     iget-boolean v0, p0, Lcom/giphy/sdk/core/models/Media;->isRemoved:Z
 
     return v0
@@ -759,7 +705,6 @@
 .method public getIsSticker()Z
     .locals 1
 
-    .line 1
     iget-boolean v0, p0, Lcom/giphy/sdk/core/models/Media;->isSticker:Z
 
     return v0
@@ -768,7 +713,6 @@
 .method public getRating()Lcom/giphy/sdk/core/models/enums/RatingType;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/giphy/sdk/core/models/Media;->rating:Lcom/giphy/sdk/core/models/enums/RatingType;
 
     return-object v0
@@ -777,7 +721,6 @@
 .method public getSlug()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/giphy/sdk/core/models/Media;->slug:Ljava/lang/String;
 
     return-object v0
@@ -786,7 +729,6 @@
 .method public getSource()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/giphy/sdk/core/models/Media;->source:Ljava/lang/String;
 
     return-object v0
@@ -795,7 +737,6 @@
 .method public getSourcePostUrl()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/giphy/sdk/core/models/Media;->sourcePostUrl:Ljava/lang/String;
 
     return-object v0
@@ -804,7 +745,6 @@
 .method public getSourceTld()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/giphy/sdk/core/models/Media;->sourceTld:Ljava/lang/String;
 
     return-object v0
@@ -821,7 +761,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/giphy/sdk/core/models/Media;->tags:Ljava/util/List;
 
     return-object v0
@@ -830,7 +769,6 @@
 .method public getTitle()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/giphy/sdk/core/models/Media;->title:Ljava/lang/String;
 
     return-object v0
@@ -839,7 +777,6 @@
 .method public getTrendingDate()Ljava/util/Date;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/giphy/sdk/core/models/Media;->trendingDate:Ljava/util/Date;
 
     return-object v0
@@ -848,7 +785,6 @@
 .method public getType()Lcom/giphy/sdk/core/models/enums/MediaType;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/giphy/sdk/core/models/Media;->type:Lcom/giphy/sdk/core/models/enums/MediaType;
 
     return-object v0
@@ -857,7 +793,6 @@
 .method public getUpdateDate()Ljava/util/Date;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/giphy/sdk/core/models/Media;->updateDate:Ljava/util/Date;
 
     return-object v0
@@ -866,7 +801,6 @@
 .method public getUrl()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/giphy/sdk/core/models/Media;->url:Ljava/lang/String;
 
     return-object v0
@@ -875,7 +809,6 @@
 .method public getUser()Lcom/giphy/sdk/core/models/User;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/giphy/sdk/core/models/Media;->user:Lcom/giphy/sdk/core/models/User;
 
     return-object v0
@@ -884,17 +817,14 @@
 .method public postProcess()V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/giphy/sdk/core/models/Media;->images:Lcom/giphy/sdk/core/models/Images;
 
     if-eqz v0, :cond_0
 
-    .line 2
     iget-object v1, p0, Lcom/giphy/sdk/core/models/Media;->id:Ljava/lang/String;
 
     invoke-virtual {v0, v1}, Lcom/giphy/sdk/core/models/Images;->setMediaId(Ljava/lang/String;)V
 
-    .line 3
     iget-object v0, p0, Lcom/giphy/sdk/core/models/Media;->images:Lcom/giphy/sdk/core/models/Images;
 
     invoke-virtual {v0}, Lcom/giphy/sdk/core/models/Images;->postProcess()V
@@ -906,7 +836,6 @@
 .method setId(Ljava/lang/String;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/giphy/sdk/core/models/Media;->id:Ljava/lang/String;
 
     return-void
@@ -915,7 +844,6 @@
 .method setImages(Lcom/giphy/sdk/core/models/Images;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/giphy/sdk/core/models/Media;->images:Lcom/giphy/sdk/core/models/Images;
 
     return-void
@@ -924,7 +852,6 @@
 .method setType(Lcom/giphy/sdk/core/models/enums/MediaType;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/giphy/sdk/core/models/Media;->type:Lcom/giphy/sdk/core/models/enums/MediaType;
 
     return-void
@@ -933,7 +860,6 @@
 .method setUrl(Ljava/lang/String;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/giphy/sdk/core/models/Media;->url:Ljava/lang/String;
 
     return-void
@@ -942,7 +868,6 @@
 .method setUser(Lcom/giphy/sdk/core/models/User;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/giphy/sdk/core/models/Media;->user:Lcom/giphy/sdk/core/models/User;
 
     return-void
@@ -951,7 +876,6 @@
 .method public writeToParcel(Landroid/os/Parcel;I)V
     .locals 4
 
-    .line 1
     iget-object v0, p0, Lcom/giphy/sdk/core/models/Media;->type:Lcom/giphy/sdk/core/models/enums/MediaType;
 
     const/4 v1, -0x1
@@ -970,42 +894,34 @@
     :goto_0
     invoke-virtual {p1, v0}, Landroid/os/Parcel;->writeInt(I)V
 
-    .line 2
     iget-object v0, p0, Lcom/giphy/sdk/core/models/Media;->id:Ljava/lang/String;
 
     invoke-virtual {p1, v0}, Landroid/os/Parcel;->writeString(Ljava/lang/String;)V
 
-    .line 3
     iget-object v0, p0, Lcom/giphy/sdk/core/models/Media;->slug:Ljava/lang/String;
 
     invoke-virtual {p1, v0}, Landroid/os/Parcel;->writeString(Ljava/lang/String;)V
 
-    .line 4
     iget-object v0, p0, Lcom/giphy/sdk/core/models/Media;->url:Ljava/lang/String;
 
     invoke-virtual {p1, v0}, Landroid/os/Parcel;->writeString(Ljava/lang/String;)V
 
-    .line 5
     iget-object v0, p0, Lcom/giphy/sdk/core/models/Media;->bitlyGifUrl:Ljava/lang/String;
 
     invoke-virtual {p1, v0}, Landroid/os/Parcel;->writeString(Ljava/lang/String;)V
 
-    .line 6
     iget-object v0, p0, Lcom/giphy/sdk/core/models/Media;->bitlyUrl:Ljava/lang/String;
 
     invoke-virtual {p1, v0}, Landroid/os/Parcel;->writeString(Ljava/lang/String;)V
 
-    .line 7
     iget-object v0, p0, Lcom/giphy/sdk/core/models/Media;->embedUrl:Ljava/lang/String;
 
     invoke-virtual {p1, v0}, Landroid/os/Parcel;->writeString(Ljava/lang/String;)V
 
-    .line 8
     iget-object v0, p0, Lcom/giphy/sdk/core/models/Media;->source:Ljava/lang/String;
 
     invoke-virtual {p1, v0}, Landroid/os/Parcel;->writeString(Ljava/lang/String;)V
 
-    .line 9
     iget-object v0, p0, Lcom/giphy/sdk/core/models/Media;->rating:Lcom/giphy/sdk/core/models/enums/RatingType;
 
     if-eqz v0, :cond_1
@@ -1017,42 +933,34 @@
     :cond_1
     invoke-virtual {p1, v1}, Landroid/os/Parcel;->writeInt(I)V
 
-    .line 10
     iget-object v0, p0, Lcom/giphy/sdk/core/models/Media;->contentUrl:Ljava/lang/String;
 
     invoke-virtual {p1, v0}, Landroid/os/Parcel;->writeString(Ljava/lang/String;)V
 
-    .line 11
     iget-object v0, p0, Lcom/giphy/sdk/core/models/Media;->tags:Ljava/util/List;
 
     invoke-virtual {p1, v0}, Landroid/os/Parcel;->writeStringList(Ljava/util/List;)V
 
-    .line 12
     iget-object v0, p0, Lcom/giphy/sdk/core/models/Media;->featuredTags:Ljava/util/List;
 
     invoke-virtual {p1, v0}, Landroid/os/Parcel;->writeStringList(Ljava/util/List;)V
 
-    .line 13
     iget-object v0, p0, Lcom/giphy/sdk/core/models/Media;->user:Lcom/giphy/sdk/core/models/User;
 
     invoke-virtual {p1, v0, p2}, Landroid/os/Parcel;->writeParcelable(Landroid/os/Parcelable;I)V
 
-    .line 14
     iget-object v0, p0, Lcom/giphy/sdk/core/models/Media;->images:Lcom/giphy/sdk/core/models/Images;
 
     invoke-virtual {p1, v0, p2}, Landroid/os/Parcel;->writeParcelable(Landroid/os/Parcelable;I)V
 
-    .line 15
     iget-object p2, p0, Lcom/giphy/sdk/core/models/Media;->sourceTld:Ljava/lang/String;
 
     invoke-virtual {p1, p2}, Landroid/os/Parcel;->writeString(Ljava/lang/String;)V
 
-    .line 16
     iget-object p2, p0, Lcom/giphy/sdk/core/models/Media;->sourcePostUrl:Ljava/lang/String;
 
     invoke-virtual {p1, p2}, Landroid/os/Parcel;->writeString(Ljava/lang/String;)V
 
-    .line 17
     iget-object p2, p0, Lcom/giphy/sdk/core/models/Media;->updateDate:Ljava/util/Date;
 
     const-wide/16 v0, -0x1
@@ -1071,7 +979,6 @@
     :goto_1
     invoke-virtual {p1, v2, v3}, Landroid/os/Parcel;->writeLong(J)V
 
-    .line 18
     iget-object p2, p0, Lcom/giphy/sdk/core/models/Media;->createDate:Ljava/util/Date;
 
     if-eqz p2, :cond_3
@@ -1088,7 +995,6 @@
     :goto_2
     invoke-virtual {p1, v2, v3}, Landroid/os/Parcel;->writeLong(J)V
 
-    .line 19
     iget-object p2, p0, Lcom/giphy/sdk/core/models/Media;->importDate:Ljava/util/Date;
 
     if-eqz p2, :cond_4
@@ -1105,7 +1011,6 @@
     :goto_3
     invoke-virtual {p1, v2, v3}, Landroid/os/Parcel;->writeLong(J)V
 
-    .line 20
     iget-object p2, p0, Lcom/giphy/sdk/core/models/Media;->trendingDate:Ljava/util/Date;
 
     if-eqz p2, :cond_5
@@ -1117,63 +1022,54 @@
     :cond_5
     invoke-virtual {p1, v0, v1}, Landroid/os/Parcel;->writeLong(J)V
 
-    .line 21
     iget-boolean p2, p0, Lcom/giphy/sdk/core/models/Media;->isHidden:Z
 
     int-to-byte p2, p2
 
     invoke-virtual {p1, p2}, Landroid/os/Parcel;->writeByte(B)V
 
-    .line 22
     iget-boolean p2, p0, Lcom/giphy/sdk/core/models/Media;->isRemoved:Z
 
     int-to-byte p2, p2
 
     invoke-virtual {p1, p2}, Landroid/os/Parcel;->writeByte(B)V
 
-    .line 23
     iget-boolean p2, p0, Lcom/giphy/sdk/core/models/Media;->isCommunity:Z
 
     int-to-byte p2, p2
 
     invoke-virtual {p1, p2}, Landroid/os/Parcel;->writeByte(B)V
 
-    .line 24
     iget-boolean p2, p0, Lcom/giphy/sdk/core/models/Media;->isAnonymous:Z
 
     int-to-byte p2, p2
 
     invoke-virtual {p1, p2}, Landroid/os/Parcel;->writeByte(B)V
 
-    .line 25
     iget-boolean p2, p0, Lcom/giphy/sdk/core/models/Media;->isFeatured:Z
 
     int-to-byte p2, p2
 
     invoke-virtual {p1, p2}, Landroid/os/Parcel;->writeByte(B)V
 
-    .line 26
     iget-boolean p2, p0, Lcom/giphy/sdk/core/models/Media;->isRealtime:Z
 
     int-to-byte p2, p2
 
     invoke-virtual {p1, p2}, Landroid/os/Parcel;->writeByte(B)V
 
-    .line 27
     iget-boolean p2, p0, Lcom/giphy/sdk/core/models/Media;->isIndexable:Z
 
     int-to-byte p2, p2
 
     invoke-virtual {p1, p2}, Landroid/os/Parcel;->writeByte(B)V
 
-    .line 28
     iget-boolean p2, p0, Lcom/giphy/sdk/core/models/Media;->isSticker:Z
 
     int-to-byte p2, p2
 
     invoke-virtual {p1, p2}, Landroid/os/Parcel;->writeByte(B)V
 
-    .line 29
     iget-object p2, p0, Lcom/giphy/sdk/core/models/Media;->title:Ljava/lang/String;
 
     invoke-virtual {p1, p2}, Landroid/os/Parcel;->writeString(Ljava/lang/String;)V

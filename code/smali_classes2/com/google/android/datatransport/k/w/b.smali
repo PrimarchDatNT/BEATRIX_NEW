@@ -7,7 +7,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -41,20 +40,17 @@
 
     if-ge p0, v0, :cond_0
 
-    .line 1
     invoke-interface {p2, p1}, Lcom/google/android/datatransport/k/w/a;->apply(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p0
 
     return-object p0
 
-    .line 2
     :cond_0
     invoke-interface {p2, p1}, Lcom/google/android/datatransport/k/w/a;->apply(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v1
 
-    .line 3
     invoke-interface {p3, p1, v1}, Lcom/google/android/datatransport/k/w/c;->a(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1

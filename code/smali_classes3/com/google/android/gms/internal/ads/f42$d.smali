@@ -22,10 +22,8 @@
 .method constructor <init>(Lsun/misc/Unsafe;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/google/android/gms/internal/ads/f42$d;->a:Lsun/misc/Unsafe;
 
     return-void
@@ -42,7 +40,6 @@
 .method public final c(Ljava/lang/Object;JJ)V
     .locals 6
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/f42$d;->a:Lsun/misc/Unsafe;
 
     move-object v1, p1
@@ -62,7 +59,6 @@
 .method public final e(Ljava/lang/Object;JI)V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/f42$d;->a:Lsun/misc/Unsafe;
 
     invoke-virtual {v0, p1, p2, p3, p4}, Lsun/misc/Unsafe;->putInt(Ljava/lang/Object;JI)V
@@ -76,7 +72,6 @@
 .method public final g(Ljava/lang/Object;J)I
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/f42$d;->a:Lsun/misc/Unsafe;
 
     invoke-virtual {v0, p1, p2, p3}, Lsun/misc/Unsafe;->getInt(Ljava/lang/Object;J)I
@@ -89,7 +84,6 @@
 .method public final h(Ljava/lang/Object;J)J
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/f42$d;->a:Lsun/misc/Unsafe;
 
     invoke-virtual {v0, p1, p2, p3}, Lsun/misc/Unsafe;->getLong(Ljava/lang/Object;J)J

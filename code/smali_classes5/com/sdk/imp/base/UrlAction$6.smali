@@ -20,7 +20,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-direct {p0, p1, p2, p3, v0}, Lcom/sdk/imp/base/UrlAction;-><init>(Ljava/lang/String;IZLcom/sdk/imp/base/UrlAction$1;)V
 
     return-void
@@ -48,14 +47,12 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p3}, Lcom/sdk/imp/base/k;->i()Z
 
     move-result p3
 
     if-nez p3, :cond_0
 
-    .line 2
     invoke-static {p1, p2}, Lcom/sdk/imp/base/h;->i(Landroid/content/Context;Landroid/net/Uri;)V
 
     :cond_0
@@ -69,14 +66,12 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-virtual {p1}, Landroid/net/Uri;->getScheme()Ljava/lang/String;
 
     move-result-object p1
 
     const-string v0, "http"
 
-    .line 2
     invoke-virtual {v0, p1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v0

@@ -31,7 +31,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -40,7 +39,6 @@
 .method public static c()Lcom/android/billingclient/api/o$a;
     .locals 2
 
-    .line 1
     new-instance v0, Lcom/android/billingclient/api/o$a;
 
     const/4 v1, 0x0
@@ -53,7 +51,6 @@
 .method static synthetic e(Lcom/android/billingclient/api/o;Ljava/lang/String;)Ljava/lang/String;
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/android/billingclient/api/o;->a:Ljava/lang/String;
 
     return-object p1
@@ -62,7 +59,6 @@
 .method static synthetic f(Lcom/android/billingclient/api/o;Ljava/util/List;)Ljava/util/List;
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/android/billingclient/api/o;->c:Ljava/util/List;
 
     return-object p1
@@ -73,7 +69,6 @@
 
     const/4 p1, 0x0
 
-    .line 1
     iput-object p1, p0, Lcom/android/billingclient/api/o;->b:Ljava/lang/String;
 
     return-object p1
@@ -84,7 +79,6 @@
 .method public a()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/android/billingclient/api/o;->a:Ljava/lang/String;
 
     return-object v0
@@ -101,7 +95,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/android/billingclient/api/o;->c:Ljava/util/List;
 
     return-object v0
@@ -112,7 +105,6 @@
     .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/android/billingclient/api/o;->b:Ljava/lang/String;
 
     return-object v0

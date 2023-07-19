@@ -38,7 +38,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/beautyplus/web/mtscript/MTCommandSaveVideoScript$b;->c:Lcom/commsource/beautyplus/web/mtscript/MTCommandSaveVideoScript;
 
     invoke-direct {p0, p1, p2}, Lcom/meitu/webview/mtscript/i$c;-><init>(Lcom/meitu/webview/mtscript/i;Ljava/lang/Class;)V
@@ -55,7 +54,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Lcom/commsource/beautyplus/web/mtscript/MTCommandSaveVideoScript$Model;
 
     invoke-virtual {p0, p1}, Lcom/commsource/beautyplus/web/mtscript/MTCommandSaveVideoScript$b;->d(Lcom/commsource/beautyplus/web/mtscript/MTCommandSaveVideoScript$Model;)V
@@ -78,7 +76,6 @@
 
     if-eqz p1, :cond_1
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/beautyplus/web/mtscript/MTCommandSaveVideoScript$b;->c:Lcom/commsource/beautyplus/web/mtscript/MTCommandSaveVideoScript;
 
     invoke-static {v1}, Lcom/commsource/beautyplus/web/mtscript/MTCommandSaveVideoScript;->I(Lcom/commsource/beautyplus/web/mtscript/MTCommandSaveVideoScript;)Lf/k/o0/c/c;
@@ -89,7 +86,6 @@
 
     if-eqz v1, :cond_1
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/beautyplus/web/mtscript/MTCommandSaveVideoScript$b;->c:Lcom/commsource/beautyplus/web/mtscript/MTCommandSaveVideoScript;
 
     invoke-static {v1}, Lcom/commsource/beautyplus/web/mtscript/MTCommandSaveVideoScript;->I(Lcom/commsource/beautyplus/web/mtscript/MTCommandSaveVideoScript;)Lf/k/o0/c/c;
@@ -100,10 +96,8 @@
 
     check-cast v1, Lcom/commsource/beautyplus/web/p$c;
 
-    .line 3
     invoke-virtual {v1}, Lcom/commsource/beautyplus/web/p$c;->p()V
 
-    .line 4
     new-instance v2, Lcom/commsource/beautyplus/web/mtscript/MTCommandSaveVideoScript$b$a;
 
     const-string v3, "saveVideoTask"
@@ -114,7 +108,6 @@
 
     goto :goto_0
 
-    .line 5
     :cond_0
     new-instance p1, Lcotlin/TypeCastException;
 
@@ -126,7 +119,6 @@
 
     throw p1
 
-    .line 6
     :cond_1
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

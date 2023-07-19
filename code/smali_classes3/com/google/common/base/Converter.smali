@@ -58,7 +58,6 @@
 
     const/4 v0, 0x1
 
-    .line 1
     invoke-direct {p0, v0}, Lcom/google/common/base/Converter;-><init>(Z)V
 
     return-void
@@ -67,10 +66,8 @@
 .method constructor <init>(Z)V
     .locals 0
 
-    .line 2
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 3
     iput-boolean p1, p0, Lcom/google/common/base/Converter;->handleNullAutomatically:Z
 
     return-void
@@ -94,7 +91,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/google/common/base/Converter$FunctionBasedConverter;
 
     const/4 v1, 0x0
@@ -116,7 +112,6 @@
         }
     .end annotation
 
-    .line 1
     sget-object v0, Lcom/google/common/base/Converter$IdentityConverter;->INSTANCE:Lcom/google/common/base/Converter$IdentityConverter;
 
     return-object v0
@@ -138,7 +133,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0, p1}, Lcom/google/common/base/Converter;->doAndThen(Lcom/google/common/base/Converter;)Lcom/google/common/base/Converter;
 
     move-result-object p1
@@ -167,7 +161,6 @@
     .annotation runtime Ln/b/a/a/a/g;
     .end annotation
 
-    .line 1
     invoke-virtual {p0, p1}, Lcom/google/common/base/Converter;->convert(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -193,7 +186,6 @@
     .annotation runtime Ln/b/a/a/a/g;
     .end annotation
 
-    .line 1
     invoke-virtual {p0, p1}, Lcom/google/common/base/Converter;->correctedDoForward(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -218,10 +210,8 @@
 
     const-string v0, "fromIterable"
 
-    .line 1
     invoke-static {p1, v0}, Lcom/google/common/base/t;->F(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 2
     new-instance v0, Lcom/google/common/base/Converter$a;
 
     invoke-direct {v0, p0, p1}, Lcom/google/common/base/Converter$a;-><init>(Lcom/google/common/base/Converter;Ljava/lang/Iterable;)V
@@ -244,7 +234,6 @@
     .annotation runtime Ln/b/a/a/a/g;
     .end annotation
 
-    .line 1
     iget-boolean v0, p0, Lcom/google/common/base/Converter;->handleNullAutomatically:Z
 
     if-eqz v0, :cond_1
@@ -255,7 +244,6 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     invoke-virtual {p0, p1}, Lcom/google/common/base/Converter;->doBackward(Ljava/lang/Object;)Ljava/lang/Object;
 
@@ -268,7 +256,6 @@
     :goto_0
     return-object p1
 
-    .line 3
     :cond_1
     invoke-virtual {p0, p1}, Lcom/google/common/base/Converter;->doBackward(Ljava/lang/Object;)Ljava/lang/Object;
 
@@ -292,7 +279,6 @@
     .annotation runtime Ln/b/a/a/a/g;
     .end annotation
 
-    .line 1
     iget-boolean v0, p0, Lcom/google/common/base/Converter;->handleNullAutomatically:Z
 
     if-eqz v0, :cond_1
@@ -303,7 +289,6 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     invoke-virtual {p0, p1}, Lcom/google/common/base/Converter;->doForward(Ljava/lang/Object;)Ljava/lang/Object;
 
@@ -316,7 +301,6 @@
     :goto_0
     return-object p1
 
-    .line 3
     :cond_1
     invoke-virtual {p0, p1}, Lcom/google/common/base/Converter;->doForward(Ljava/lang/Object;)Ljava/lang/Object;
 
@@ -339,7 +323,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/google/common/base/Converter$ConverterComposition;
 
     invoke-static {p1}, Lcom/google/common/base/t;->E(Ljava/lang/Object;)Ljava/lang/Object;
@@ -382,7 +365,6 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-super {p0, p1}, Ljava/lang/Object;->equals(Ljava/lang/Object;)Z
 
     move-result p1
@@ -403,12 +385,10 @@
     .annotation build Lf/f/f/a/a;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/base/Converter;->reverse:Lcom/google/common/base/Converter;
 
     if-nez v0, :cond_0
 
-    .line 2
     new-instance v0, Lcom/google/common/base/Converter$ReverseConverter;
 
     invoke-direct {v0, p0}, Lcom/google/common/base/Converter$ReverseConverter;-><init>(Lcom/google/common/base/Converter;)V

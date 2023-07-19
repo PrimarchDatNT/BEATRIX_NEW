@@ -57,22 +57,16 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-wide p1, p0, Lio/grpc/InternalChannelz$h;->a:J
 
-    .line 3
     iput-wide p3, p0, Lio/grpc/InternalChannelz$h;->b:J
 
-    .line 4
     iput-wide p5, p0, Lio/grpc/InternalChannelz$h;->c:J
 
-    .line 5
     iput-wide p7, p0, Lio/grpc/InternalChannelz$h;->d:J
 
-    .line 6
     invoke-static {p9}, Lcom/google/common/base/t;->E(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1

@@ -19,7 +19,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-direct {p0, p1, p2, p3, v0}, Lcom/google/android/gms/internal/ads/h;-><init>(ILjava/lang/String;Ljava/lang/Object;Lcom/google/android/gms/internal/ads/k;)V
 
     return-void
@@ -30,7 +29,6 @@
 .method public final synthetic g(Landroid/content/SharedPreferences;)Ljava/lang/Object;
     .locals 2
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/android/gms/internal/ads/h;->a()Ljava/lang/String;
 
     move-result-object v0
@@ -59,7 +57,6 @@
 .method public final synthetic h(Landroid/os/Bundle;)Ljava/lang/Object;
     .locals 3
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/android/gms/internal/ads/h;->a()Ljava/lang/String;
 
     move-result-object v0
@@ -94,7 +91,6 @@
 
     if-eqz v0, :cond_2
 
-    .line 2
     invoke-virtual {p0}, Lcom/google/android/gms/internal/ads/h;->a()Ljava/lang/String;
 
     move-result-object v0
@@ -131,7 +127,6 @@
 
     return-object p1
 
-    .line 3
     :cond_2
     invoke-virtual {p0}, Lcom/google/android/gms/internal/ads/h;->m()Ljava/lang/Object;
 
@@ -145,10 +140,8 @@
 .method public final synthetic i(Landroid/content/SharedPreferences$Editor;Ljava/lang/Object;)V
     .locals 1
 
-    .line 1
     check-cast p2, Ljava/lang/Boolean;
 
-    .line 2
     invoke-virtual {p0}, Lcom/google/android/gms/internal/ads/h;->a()Ljava/lang/String;
 
     move-result-object v0
@@ -165,7 +158,6 @@
 .method public final synthetic l(Lorg/json/JSONObject;)Ljava/lang/Object;
     .locals 2
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/android/gms/internal/ads/h;->a()Ljava/lang/String;
 
     move-result-object v0

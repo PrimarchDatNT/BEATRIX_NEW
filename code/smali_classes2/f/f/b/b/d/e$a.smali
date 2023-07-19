@@ -27,10 +27,8 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     new-instance v0, Landroid/os/Bundle;
 
     invoke-direct {v0}, Landroid/os/Bundle;-><init>()V
@@ -45,7 +43,6 @@
 .method public a()Lf/f/b/b/d/e;
     .locals 2
 
-    .line 1
     new-instance v0, Lf/f/b/b/d/e;
 
     iget-object v1, p0, Lf/f/b/b/d/e$a;->a:Landroid/os/Bundle;
@@ -58,12 +55,10 @@
 .method public b(Ljava/lang/String;Lf/f/b/b/d/e;)Lf/f/b/b/d/e$a;
     .locals 1
 
-    .line 1
     invoke-static {p1}, Lcom/google/android/gms/common/internal/b0;->k(Ljava/lang/Object;)Ljava/lang/Object;
 
     if-eqz p2, :cond_0
 
-    .line 2
     iget-object v0, p0, Lf/f/b/b/d/e$a;->a:Landroid/os/Bundle;
 
     iget-object p2, p2, Lf/f/b/b/d/e;->a:Landroid/os/Bundle;
@@ -77,12 +72,10 @@
 .method public c(Ljava/lang/String;Ljava/lang/String;)Lf/f/b/b/d/e$a;
     .locals 1
 
-    .line 1
     invoke-static {p1}, Lcom/google/android/gms/common/internal/b0;->k(Ljava/lang/Object;)Ljava/lang/Object;
 
     if-eqz p2, :cond_0
 
-    .line 2
     iget-object v0, p0, Lf/f/b/b/d/e$a;->a:Landroid/os/Bundle;
 
     invoke-virtual {v0, p1, p2}, Landroid/os/Bundle;->putString(Ljava/lang/String;Ljava/lang/String;)V
@@ -94,10 +87,8 @@
 .method public d(Ljava/lang/String;Z)Lf/f/b/b/d/e$a;
     .locals 1
 
-    .line 1
     invoke-static {p1}, Lcom/google/android/gms/common/internal/b0;->k(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 2
     iget-object v0, p0, Lf/f/b/b/d/e$a;->a:Landroid/os/Bundle;
 
     invoke-virtual {v0, p1, p2}, Landroid/os/Bundle;->putBoolean(Ljava/lang/String;Z)V
@@ -108,17 +99,14 @@
 .method public e(Ljava/lang/String;[Lf/f/b/b/d/e;)Lf/f/b/b/d/e$a;
     .locals 4
 
-    .line 1
     invoke-static {p1}, Lcom/google/android/gms/common/internal/b0;->k(Ljava/lang/Object;)Ljava/lang/Object;
 
     if-eqz p2, :cond_2
 
-    .line 2
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
 
-    .line 3
     array-length v1, p2
 
     const/4 v2, 0x0
@@ -130,7 +118,6 @@
 
     if-eqz v3, :cond_0
 
-    .line 4
     iget-object v3, v3, Lf/f/b/b/d/e;->a:Landroid/os/Bundle;
 
     invoke-virtual {v0, v3}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
@@ -140,7 +127,6 @@
 
     goto :goto_0
 
-    .line 5
     :cond_1
     iget-object p2, p0, Lf/f/b/b/d/e$a;->a:Landroid/os/Bundle;
 
@@ -165,12 +151,10 @@
 .method public f(Ljava/lang/String;[Ljava/lang/String;)Lf/f/b/b/d/e$a;
     .locals 1
 
-    .line 1
     invoke-static {p1}, Lcom/google/android/gms/common/internal/b0;->k(Ljava/lang/Object;)Ljava/lang/Object;
 
     if-eqz p2, :cond_0
 
-    .line 2
     iget-object v0, p0, Lf/f/b/b/d/e$a;->a:Landroid/os/Bundle;
 
     invoke-virtual {v0, p1, p2}, Landroid/os/Bundle;->putStringArray(Ljava/lang/String;[Ljava/lang/String;)V
@@ -184,7 +168,6 @@
 
     const-string v0, "description"
 
-    .line 1
     invoke-virtual {p0, v0, p1}, Lf/f/b/b/d/e$a;->c(Ljava/lang/String;Ljava/lang/String;)Lf/f/b/b/d/e$a;
 
     return-object p0
@@ -197,7 +180,6 @@
 
     const-string v0, "id"
 
-    .line 1
     invoke-virtual {p0, v0, p1}, Lf/f/b/b/d/e$a;->c(Ljava/lang/String;Ljava/lang/String;)Lf/f/b/b/d/e$a;
 
     :cond_0
@@ -207,12 +189,10 @@
 .method public i(Ljava/lang/String;)Lf/f/b/b/d/e$a;
     .locals 1
 
-    .line 1
     invoke-static {p1}, Lcom/google/android/gms/common/internal/b0;->k(Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "name"
 
-    .line 2
     invoke-virtual {p0, v0, p1}, Lf/f/b/b/d/e$a;->c(Ljava/lang/String;Ljava/lang/String;)Lf/f/b/b/d/e$a;
 
     return-object p0
@@ -223,7 +203,6 @@
 
     const-string v0, "type"
 
-    .line 1
     invoke-virtual {p0, v0, p1}, Lf/f/b/b/d/e$a;->c(Ljava/lang/String;Ljava/lang/String;)Lf/f/b/b/d/e$a;
 
     return-object p0
@@ -232,10 +211,8 @@
 .method public k(Landroid/net/Uri;)Lf/f/b/b/d/e$a;
     .locals 1
 
-    .line 1
     invoke-static {p1}, Lcom/google/android/gms/common/internal/b0;->k(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 2
     invoke-virtual {p1}, Landroid/net/Uri;->toString()Ljava/lang/String;
 
     move-result-object p1

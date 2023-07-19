@@ -19,7 +19,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-direct {p0, p1, p2, p3, v0}, Lcom/google/android/gms/internal/measurement/m1;-><init>(Lcom/google/android/gms/internal/measurement/s1;Ljava/lang/String;Ljava/lang/Object;Lcom/google/android/gms/internal/measurement/o1;)V
 
     return-void
@@ -28,23 +27,19 @@
 .method private final p(Ljava/lang/Object;)Ljava/lang/Long;
     .locals 3
 
-    .line 1
     instance-of v0, p1, Ljava/lang/Long;
 
     if-eqz v0, :cond_0
 
-    .line 2
     check-cast p1, Ljava/lang/Long;
 
     return-object p1
 
-    .line 3
     :cond_0
     instance-of v0, p1, Ljava/lang/String;
 
     if-eqz v0, :cond_1
 
-    .line 4
     :try_start_0
     move-object v0, p1
 
@@ -62,7 +57,6 @@
 
     return-object p1
 
-    .line 5
     :catch_0
     :cond_1
     invoke-super {p0}, Lcom/google/android/gms/internal/measurement/m1;->m()Ljava/lang/String;
@@ -127,7 +121,6 @@
 .method final synthetic e(Ljava/lang/Object;)Ljava/lang/Object;
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/google/android/gms/internal/measurement/o1;->p(Ljava/lang/Object;)Ljava/lang/Long;
 
     move-result-object p1

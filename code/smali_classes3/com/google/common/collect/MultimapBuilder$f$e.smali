@@ -31,7 +31,6 @@
 .method constructor <init>(Lcom/google/common/collect/MultimapBuilder$f;Ljava/util/Comparator;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/common/collect/MultimapBuilder$f$e;->c:Lcom/google/common/collect/MultimapBuilder$f;
 
     iput-object p2, p0, Lcom/google/common/collect/MultimapBuilder$f$e;->b:Ljava/util/Comparator;
@@ -46,7 +45,6 @@
 .method public bridge synthetic a()Lcom/google/common/collect/l1;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/collect/MultimapBuilder$f$e;->l()Lcom/google/common/collect/e2;
 
     move-result-object v0
@@ -57,7 +55,6 @@
 .method public bridge synthetic j()Lcom/google/common/collect/x1;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/collect/MultimapBuilder$f$e;->l()Lcom/google/common/collect/e2;
 
     move-result-object v0
@@ -75,10 +72,8 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/MultimapBuilder$f$e;->c:Lcom/google/common/collect/MultimapBuilder$f;
 
-    .line 2
     invoke-virtual {v0}, Lcom/google/common/collect/MultimapBuilder$f;->c()Ljava/util/Map;
 
     move-result-object v0
@@ -89,7 +84,6 @@
 
     invoke-direct {v1, v2}, Lcom/google/common/collect/MultimapBuilder$TreeSetSupplier;-><init>(Ljava/util/Comparator;)V
 
-    .line 3
     invoke-static {v0, v1}, Lcom/google/common/collect/Multimaps;->x(Ljava/util/Map;Lcom/google/common/base/z;)Lcom/google/common/collect/e2;
 
     move-result-object v0

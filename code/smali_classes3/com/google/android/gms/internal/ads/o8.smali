@@ -11,10 +11,8 @@
 .method private constructor <init>(Lcom/google/android/gms/internal/ads/r8;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/google/android/gms/internal/ads/o8;->a:Lcom/google/android/gms/internal/ads/r8;
 
     return-void
@@ -23,7 +21,6 @@
 .method synthetic constructor <init>(Lcom/google/android/gms/internal/ads/r8;Lcom/google/android/gms/internal/ads/l8;)V
     .locals 0
 
-    .line 3
     invoke-direct {p0, p1}, Lcom/google/android/gms/internal/ads/o8;-><init>(Lcom/google/android/gms/internal/ads/r8;)V
 
     return-void
@@ -40,7 +37,6 @@
     .annotation runtime Landroid/webkit/JavascriptInterface;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/o8;->a:Lcom/google/android/gms/internal/ads/r8;
 
     invoke-interface {v0, p1}, Lcom/google/android/gms/internal/ads/r8;->s(Ljava/lang/String;)Z

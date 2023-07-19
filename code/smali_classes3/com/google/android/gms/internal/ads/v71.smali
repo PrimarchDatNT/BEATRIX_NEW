@@ -36,10 +36,8 @@
 .method public final call()Ljava/lang/Object;
     .locals 3
 
-    .line 1
     new-instance v0, Lcom/google/android/gms/internal/ads/t71;
 
-    .line 2
     invoke-static {}, Lcom/google/android/gms/ads/internal/p;->m()Lcom/google/android/gms/internal/ads/do;
 
     move-result-object v1
@@ -48,7 +46,6 @@
 
     move-result-object v1
 
-    .line 3
     invoke-static {}, Lcom/google/android/gms/ads/internal/p;->m()Lcom/google/android/gms/internal/ads/do;
 
     move-result-object v2

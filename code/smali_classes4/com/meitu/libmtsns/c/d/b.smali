@@ -35,15 +35,12 @@
 .method public constructor <init>(Landroid/content/Context;)V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/4 v0, 0x1
 
-    .line 2
     iput-boolean v0, p0, Lcom/meitu/libmtsns/c/d/b;->b:Z
 
-    .line 3
     new-instance v0, Ljava/lang/ref/WeakReference;
 
     invoke-direct {v0, p1}, Ljava/lang/ref/WeakReference;-><init>(Ljava/lang/Object;)V
@@ -56,25 +53,20 @@
 .method public constructor <init>(Landroid/content/Context;Z)V
     .locals 1
 
-    .line 4
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/4 v0, 0x1
 
-    .line 5
     iput-boolean v0, p0, Lcom/meitu/libmtsns/c/d/b;->b:Z
 
-    .line 6
     new-instance v0, Ljava/lang/ref/WeakReference;
 
     invoke-direct {v0, p1}, Ljava/lang/ref/WeakReference;-><init>(Ljava/lang/Object;)V
 
     iput-object v0, p0, Lcom/meitu/libmtsns/c/d/b;->a:Ljava/lang/ref/WeakReference;
 
-    .line 7
     iput-boolean p2, p0, Lcom/meitu/libmtsns/c/d/b;->b:Z
 
-    .line 8
     sget p2, Lcom/meitu/libmtsns/b$j;->V:I
 
     invoke-virtual {p1, p2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -89,25 +81,20 @@
 .method public constructor <init>(Landroid/content/Context;ZLjava/lang/String;)V
     .locals 1
 
-    .line 9
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/4 v0, 0x1
 
-    .line 10
     iput-boolean v0, p0, Lcom/meitu/libmtsns/c/d/b;->b:Z
 
-    .line 11
     new-instance v0, Ljava/lang/ref/WeakReference;
 
     invoke-direct {v0, p1}, Ljava/lang/ref/WeakReference;-><init>(Ljava/lang/Object;)V
 
     iput-object v0, p0, Lcom/meitu/libmtsns/c/d/b;->a:Ljava/lang/ref/WeakReference;
 
-    .line 12
     iput-boolean p2, p0, Lcom/meitu/libmtsns/c/d/b;->b:Z
 
-    .line 13
     iput-object p3, p0, Lcom/meitu/libmtsns/c/d/b;->c:Ljava/lang/String;
 
     return-void
@@ -116,7 +103,6 @@
 .method private a()Landroid/app/Dialog;
     .locals 3
 
-    .line 1
     new-instance v0, Landroid/app/Dialog;
 
     iget-object v1, p0, Lcom/meitu/libmtsns/c/d/b;->a:Ljava/lang/ref/WeakReference;
@@ -133,19 +119,16 @@
 
     iput-object v0, p0, Lcom/meitu/libmtsns/c/d/b;->e:Landroid/app/Dialog;
 
-    .line 2
     iget-boolean v1, p0, Lcom/meitu/libmtsns/c/d/b;->b:Z
 
     invoke-virtual {v0, v1}, Landroid/app/Dialog;->setCancelable(Z)V
 
-    .line 3
     iget-object v0, p0, Lcom/meitu/libmtsns/c/d/b;->e:Landroid/app/Dialog;
 
     sget v1, Lcom/meitu/libmtsns/b$i;->B:I
 
     invoke-virtual {v0, v1}, Landroid/app/Dialog;->setContentView(I)V
 
-    .line 4
     iget-object v0, p0, Lcom/meitu/libmtsns/c/d/b;->e:Landroid/app/Dialog;
 
     sget v1, Lcom/meitu/libmtsns/b$g;->W0:I
@@ -160,15 +143,12 @@
 
     if-eqz v0, :cond_1
 
-    .line 5
     iget-object v2, p0, Lcom/meitu/libmtsns/c/d/b;->c:Ljava/lang/String;
 
     if-eqz v2, :cond_0
 
-    .line 6
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setVisibility(I)V
 
-    .line 7
     iget-object v2, p0, Lcom/meitu/libmtsns/c/d/b;->c:Ljava/lang/String;
 
     invoke-virtual {v0, v2}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
@@ -178,17 +158,14 @@
     :cond_0
     const/16 v2, 0x8
 
-    .line 8
     invoke-virtual {v0, v2}, Landroid/widget/TextView;->setVisibility(I)V
 
-    .line 9
     :cond_1
     :goto_0
     iget-object v0, p0, Lcom/meitu/libmtsns/c/d/b;->e:Landroid/app/Dialog;
 
     invoke-virtual {v0, v1}, Landroid/app/Dialog;->setCanceledOnTouchOutside(Z)V
 
-    .line 10
     iget-object v0, p0, Lcom/meitu/libmtsns/c/d/b;->e:Landroid/app/Dialog;
 
     new-instance v1, Lcom/meitu/libmtsns/c/d/b$b;
@@ -197,12 +174,10 @@
 
     invoke-virtual {v0, v1}, Landroid/app/Dialog;->setOnCancelListener(Landroid/content/DialogInterface$OnCancelListener;)V
 
-    .line 11
     iget-object v0, p0, Lcom/meitu/libmtsns/c/d/b;->e:Landroid/app/Dialog;
 
     invoke-virtual {v0}, Landroid/app/Dialog;->show()V
 
-    .line 12
     iget-object v0, p0, Lcom/meitu/libmtsns/c/d/b;->e:Landroid/app/Dialog;
 
     return-object v0
@@ -211,7 +186,6 @@
 .method static synthetic b(Lcom/meitu/libmtsns/c/d/b;)Landroid/app/Dialog;
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/meitu/libmtsns/c/d/b;->a()Landroid/app/Dialog;
 
     move-result-object p0
@@ -222,7 +196,6 @@
 .method static synthetic c(Lcom/meitu/libmtsns/c/d/b;)Ljava/lang/ref/WeakReference;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lcom/meitu/libmtsns/c/d/b;->a:Ljava/lang/ref/WeakReference;
 
     return-object p0
@@ -231,7 +204,6 @@
 .method static synthetic d(Lcom/meitu/libmtsns/c/d/b;)Lcom/meitu/libmtsns/c/d/b$c;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lcom/meitu/libmtsns/c/d/b;->d:Lcom/meitu/libmtsns/c/d/b$c;
 
     return-object p0
@@ -242,7 +214,6 @@
 .method public e()V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/meitu/libmtsns/c/d/b;->e:Landroid/app/Dialog;
 
     if-eqz v0, :cond_0
@@ -253,7 +224,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 2
     iget-object v0, p0, Lcom/meitu/libmtsns/c/d/b;->e:Landroid/app/Dialog;
 
     invoke-virtual {v0}, Landroid/app/Dialog;->dismiss()V
@@ -268,7 +238,6 @@
 .method public g(Lcom/meitu/libmtsns/c/d/b$c;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/libmtsns/c/d/b;->d:Lcom/meitu/libmtsns/c/d/b$c;
 
     return-void
@@ -277,12 +246,10 @@
 .method public h()V
     .locals 1
 
-    .line 1
     new-instance v0, Lcom/meitu/libmtsns/c/d/b$a;
 
     invoke-direct {v0, p0}, Lcom/meitu/libmtsns/c/d/b$a;-><init>(Lcom/meitu/libmtsns/c/d/b;)V
 
-    .line 2
     invoke-virtual {v0}, Ljava/lang/Thread;->start()V
 
     return-void

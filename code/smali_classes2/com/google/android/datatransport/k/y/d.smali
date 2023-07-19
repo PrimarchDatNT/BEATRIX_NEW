@@ -12,7 +12,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -26,7 +25,6 @@
     .annotation runtime Lg/i;
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/google/android/datatransport/k/y/i;
 
     invoke-direct {v0}, Lcom/google/android/datatransport/k/y/i;-><init>()V
@@ -42,7 +40,6 @@
     .annotation runtime Lg/i;
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/google/android/datatransport/k/y/g;
 
     invoke-direct {v0}, Lcom/google/android/datatransport/k/y/g;-><init>()V

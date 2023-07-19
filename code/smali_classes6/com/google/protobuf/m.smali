@@ -25,7 +25,6 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
     new-instance v0, Ljava/lang/ThreadLocal;
 
     invoke-direct {v0}, Ljava/lang/ThreadLocal;-><init>()V
@@ -38,7 +37,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -47,7 +45,6 @@
 .method static a()V
     .locals 2
 
-    .line 1
     sget-object v0, Lcom/google/protobuf/m;->d:Ljava/lang/ThreadLocal;
 
     const/4 v1, 0x0
@@ -60,7 +57,6 @@
 .method private static b()[B
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/google/protobuf/m;->d:Ljava/lang/ThreadLocal;
 
     invoke-virtual {v0}, Ljava/lang/ThreadLocal;->get()Ljava/lang/Object;
@@ -75,7 +71,6 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     invoke-virtual {v0}, Ljava/lang/ref/SoftReference;->get()Ljava/lang/Object;
 
@@ -92,19 +87,16 @@
 
     const/16 v0, 0x400
 
-    .line 1
     invoke-static {p0, v0}, Ljava/lang/Math;->max(II)I
 
     move-result p0
 
-    .line 2
     invoke-static {}, Lcom/google/protobuf/m;->b()[B
 
     move-result-object v0
 
     if-eqz v0, :cond_0
 
-    .line 3
     array-length v1, v0
 
     invoke-static {p0, v1}, Lcom/google/protobuf/m;->d(II)Z
@@ -113,7 +105,6 @@
 
     if-eqz v1, :cond_1
 
-    .line 4
     :cond_0
     new-array v0, p0, [B
 
@@ -121,7 +112,6 @@
 
     if-gt p0, v1, :cond_1
 
-    .line 5
     invoke-static {v0}, Lcom/google/protobuf/m;->e([B)V
 
     :cond_1
@@ -159,7 +149,6 @@
 .method private static e([B)V
     .locals 2
 
-    .line 1
     sget-object v0, Lcom/google/protobuf/m;->d:Ljava/lang/ThreadLocal;
 
     new-instance v1, Ljava/lang/ref/SoftReference;
@@ -179,12 +168,10 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Ljava/nio/ByteBuffer;->position()I
 
     move-result v0
 
-    .line 2
     :try_start_0
     invoke-virtual {p0}, Ljava/nio/ByteBuffer;->hasArray()Z
 
@@ -192,7 +179,6 @@
 
     if-eqz v1, :cond_0
 
-    .line 3
     invoke-virtual {p0}, Ljava/nio/ByteBuffer;->array()[B
 
     move-result-object v1
@@ -215,13 +201,11 @@
 
     goto :goto_1
 
-    .line 4
     :cond_0
     instance-of v1, p1, Ljava/io/FileOutputStream;
 
     if-eqz v1, :cond_1
 
-    .line 5
     check-cast p1, Ljava/io/FileOutputStream;
 
     invoke-virtual {p1}, Ljava/io/FileOutputStream;->getChannel()Ljava/nio/channels/FileChannel;
@@ -232,7 +216,6 @@
 
     goto :goto_1
 
-    .line 6
     :cond_1
     invoke-virtual {p0}, Ljava/nio/ByteBuffer;->remaining()I
 
@@ -242,7 +225,6 @@
 
     move-result-object v1
 
-    .line 7
     :goto_0
     invoke-virtual {p0}, Ljava/nio/ByteBuffer;->hasRemaining()Z
 
@@ -250,7 +232,6 @@
 
     if-eqz v2, :cond_2
 
-    .line 8
     invoke-virtual {p0}, Ljava/nio/ByteBuffer;->remaining()I
 
     move-result v2
@@ -263,17 +244,14 @@
 
     const/4 v3, 0x0
 
-    .line 9
     invoke-virtual {p0, v1, v3, v2}, Ljava/nio/ByteBuffer;->get([BII)Ljava/nio/ByteBuffer;
 
-    .line 10
     invoke-virtual {p1, v1, v3, v2}, Ljava/io/OutputStream;->write([BII)V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
     goto :goto_0
 
-    .line 11
     :cond_2
     :goto_1
     invoke-virtual {p0, v0}, Ljava/nio/ByteBuffer;->position(I)Ljava/nio/Buffer;

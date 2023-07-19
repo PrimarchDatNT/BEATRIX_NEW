@@ -49,7 +49,6 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
     new-instance v0, Lcom/tencent/matrix/util/DeviceUtil$a;
 
     invoke-direct {v0}, Lcom/tencent/matrix/util/DeviceUtil$a;-><init>()V
@@ -62,7 +61,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -76,14 +74,12 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
 
     const/4 v1, 0x0
 
-    .line 2
     :try_start_0
     new-instance v2, Ljava/io/BufferedReader;
 
@@ -97,7 +93,6 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_1
 
-    .line 3
     :goto_0
     :try_start_1
     invoke-virtual {v2}, Ljava/io/BufferedReader;->readLine()Ljava/lang/String;
@@ -106,7 +101,6 @@
 
     if-eqz p0, :cond_0
 
-    .line 4
     invoke-virtual {v0, p0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     const/16 p0, 0xa
@@ -117,11 +111,9 @@
 
     goto :goto_0
 
-    .line 5
     :cond_0
     invoke-virtual {v2}, Ljava/io/BufferedReader;->close()V
 
-    .line 6
     invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     move-result-object p0
@@ -141,10 +133,8 @@
     :goto_1
     if-eqz v1, :cond_1
 
-    .line 7
     invoke-virtual {v1}, Ljava/io/BufferedReader;->close()V
 
-    .line 8
     :cond_1
     throw p0
 .end method
@@ -162,7 +152,6 @@
 
     const-string v5, "Matrix.DeviceUtil"
 
-    .line 1
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v6
@@ -175,7 +164,6 @@
 
     const/4 v12, 0x0
 
-    .line 2
     :try_start_0
     new-instance v13, Ljava/io/RandomAccessFile;
 
@@ -186,20 +174,17 @@
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_2
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 3
     :try_start_1
     invoke-virtual {v13}, Ljava/io/RandomAccessFile;->readLine()Ljava/lang/String;
 
     move-result-object v0
 
-    .line 4
     invoke-virtual {v0, v1}, Ljava/lang/String;->split(Ljava/lang/String;)[Ljava/lang/String;
 
     move-result-object v0
 
     const/4 v14, 0x2
 
-    .line 5
     aget-object v14, v0, v14
 
     invoke-static {v14}, Ljava/lang/Long;->parseLong(Ljava/lang/String;)J
@@ -220,7 +205,6 @@
 
     aget-object v16, v0, v16
 
-    .line 6
     invoke-static/range {v16 .. v16}, Ljava/lang/Long;->parseLong(Ljava/lang/String;)J
 
     move-result-wide v16
@@ -241,7 +225,6 @@
 
     aget-object v16, v0, v16
 
-    .line 7
     invoke-static/range {v16 .. v16}, Ljava/lang/Long;->parseLong(Ljava/lang/String;)J
 
     move-result-wide v16
@@ -262,7 +245,6 @@
 
     aget-object v0, v0, v16
 
-    .line 8
     invoke-static {v0}, Ljava/lang/Long;->parseLong(Ljava/lang/String;)J
 
     move-result-wide v16
@@ -272,7 +254,6 @@
 
     add-long v14, v14, v16
 
-    .line 9
     :try_start_2
     invoke-virtual {v13}, Ljava/io/RandomAccessFile;->close()V
     :try_end_2
@@ -287,7 +268,6 @@
 
     new-array v0, v11, [Ljava/lang/Object;
 
-    .line 10
     invoke-virtual {v13}, Ljava/lang/Exception;->toString()Ljava/lang/String;
 
     move-result-object v13
@@ -321,7 +301,6 @@
 
     new-array v15, v11, [Ljava/lang/Object;
 
-    .line 11
     invoke-virtual {v0}, Ljava/lang/Exception;->toString()Ljava/lang/String;
 
     move-result-object v0
@@ -334,7 +313,6 @@
 
     if-eqz v13, :cond_0
 
-    .line 12
     :try_start_4
     invoke-virtual {v13}, Ljava/io/RandomAccessFile;->close()V
     :try_end_4
@@ -349,7 +327,6 @@
 
     new-array v0, v11, [Ljava/lang/Object;
 
-    .line 13
     invoke-virtual {v13}, Ljava/lang/Exception;->toString()Ljava/lang/String;
 
     move-result-object v13
@@ -362,7 +339,6 @@
     :goto_1
     move-wide v14, v9
 
-    .line 14
     :goto_2
     :try_start_5
     new-instance v4, Ljava/io/RandomAccessFile;
@@ -394,20 +370,17 @@
     .catch Ljava/lang/Exception; {:try_start_5 .. :try_end_5} :catch_6
     .catchall {:try_start_5 .. :try_end_5} :catchall_2
 
-    .line 15
     :try_start_6
     invoke-virtual {v4}, Ljava/io/RandomAccessFile;->readLine()Ljava/lang/String;
 
     move-result-object v0
 
-    .line 16
     invoke-virtual {v0, v1}, Ljava/lang/String;->split(Ljava/lang/String;)[Ljava/lang/String;
 
     move-result-object v0
 
     const/16 v1, 0xd
 
-    .line 17
     aget-object v1, v0, v1
 
     invoke-static {v1}, Ljava/lang/Long;->parseLong(Ljava/lang/String;)J
@@ -427,7 +400,6 @@
 
     add-long v1, v1, v16
 
-    .line 18
     :try_start_7
     invoke-virtual {v4}, Ljava/io/RandomAccessFile;->close()V
     :try_end_7
@@ -442,7 +414,6 @@
 
     new-array v0, v11, [Ljava/lang/Object;
 
-    .line 19
     invoke-virtual {v4}, Ljava/lang/Exception;->toString()Ljava/lang/String;
 
     move-result-object v4
@@ -485,7 +456,6 @@
 
     new-array v2, v11, [Ljava/lang/Object;
 
-    .line 20
     invoke-virtual {v0}, Ljava/lang/Exception;->toString()Ljava/lang/String;
 
     move-result-object v0
@@ -498,7 +468,6 @@
 
     if-eqz v8, :cond_1
 
-    .line 21
     :try_start_9
     invoke-virtual {v8}, Ljava/io/RandomAccessFile;->close()V
     :try_end_9
@@ -513,7 +482,6 @@
 
     new-array v0, v11, [Ljava/lang/Object;
 
-    .line 22
     invoke-virtual {v1}, Ljava/lang/Exception;->toString()Ljava/lang/String;
 
     move-result-object v1
@@ -546,7 +514,6 @@
     :cond_2
     const-wide/16 v0, 0x0
 
-    .line 23
     :goto_6
     new-instance v2, Ljava/lang/StringBuilder;
 
@@ -583,7 +550,6 @@
     :goto_7
     if-eqz v8, :cond_3
 
-    .line 24
     :try_start_a
     invoke-virtual {v8}, Ljava/io/RandomAccessFile;->close()V
     :try_end_a
@@ -598,7 +564,6 @@
 
     new-array v0, v11, [Ljava/lang/Object;
 
-    .line 25
     invoke-virtual {v2}, Ljava/lang/Exception;->toString()Ljava/lang/String;
 
     move-result-object v2
@@ -607,7 +572,6 @@
 
     invoke-static {v5, v3, v0}, Lcom/tencent/matrix/util/b;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
-    .line 26
     :cond_3
     :goto_8
     throw v1
@@ -622,7 +586,6 @@
     :goto_9
     if-eqz v8, :cond_4
 
-    .line 27
     :try_start_b
     invoke-virtual {v8}, Ljava/io/RandomAccessFile;->close()V
     :try_end_b
@@ -637,7 +600,6 @@
 
     new-array v0, v11, [Ljava/lang/Object;
 
-    .line 28
     invoke-virtual {v2}, Ljava/lang/Exception;->toString()Ljava/lang/String;
 
     move-result-object v2
@@ -646,7 +608,6 @@
 
     invoke-static {v5, v4, v0}, Lcom/tencent/matrix/util/b;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
-    .line 29
     :cond_4
     :goto_a
     throw v1
@@ -655,7 +616,6 @@
 .method private static c()I
     .locals 1
 
-    .line 1
     invoke-static {}, Landroid/os/Process;->myPid()I
 
     move-result v0
@@ -673,7 +633,6 @@
     :try_start_0
     const-string v2, "activity"
 
-    .line 1
     invoke-virtual {p0, v2}, Landroid/content/Context;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
 
     move-result-object p0
@@ -682,7 +641,6 @@
 
     new-array v2, v0, [I
 
-    .line 2
     invoke-static {}, Lcom/tencent/matrix/util/DeviceUtil;->c()I
 
     move-result v3
@@ -693,12 +651,10 @@
 
     move-result-object p0
 
-    .line 3
     array-length v2, p0
 
     if-lez v2, :cond_0
 
-    .line 4
     aget-object p0, p0, v1
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
@@ -710,7 +666,6 @@
 
     new-array v0, v0, [Ljava/lang/Object;
 
-    .line 5
     invoke-virtual {p0}, Ljava/lang/Exception;->toString()Ljava/lang/String;
 
     move-result-object p0
@@ -732,12 +687,10 @@
 .method public static e(Landroid/content/Context;)J
     .locals 4
 
-    .line 1
     invoke-static {}, Ljava/lang/Runtime;->getRuntime()Ljava/lang/Runtime;
 
     move-result-object p0
 
-    .line 2
     invoke-virtual {p0}, Ljava/lang/Runtime;->freeMemory()J
 
     move-result-wide v0
@@ -752,7 +705,6 @@
 .method private static f(Ljava/lang/String;)I
     .locals 1
 
-    .line 1
     new-instance v0, Ljava/io/File;
 
     invoke-direct {v0, p0}, Ljava/io/File;-><init>(Ljava/lang/String;)V
@@ -769,7 +721,6 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     array-length p0, p0
 
@@ -790,7 +741,6 @@
 
     const/4 v4, 0x0
 
-    .line 1
     :try_start_0
     new-instance v5, Ljava/io/FileInputStream;
 
@@ -799,7 +749,6 @@
     .catch Ljava/io/IOException; {:try_start_0 .. :try_end_0} :catch_3
     .catchall {:try_start_0 .. :try_end_0} :catchall_1
 
-    .line 2
     :try_start_1
     new-instance p0, Ljava/io/BufferedReader;
 
@@ -811,19 +760,16 @@
 
     invoke-direct {p0, v4}, Ljava/io/BufferedReader;-><init>(Ljava/io/Reader;)V
 
-    .line 3
     invoke-virtual {p0}, Ljava/io/BufferedReader;->readLine()Ljava/lang/String;
 
     move-result-object v4
 
-    .line 4
     invoke-virtual {p0}, Ljava/io/BufferedReader;->close()V
 
     if-eqz v4, :cond_1
 
     const-string p0, "0-[\\d]+$"
 
-    .line 5
     invoke-virtual {v4, p0}, Ljava/lang/String;->matches(Ljava/lang/String;)Z
 
     move-result p0
@@ -835,12 +781,10 @@
     :cond_0
     const/4 p0, 0x2
 
-    .line 6
     invoke-virtual {v4, p0}, Ljava/lang/String;->substring(I)Ljava/lang/String;
 
     move-result-object p0
 
-    .line 7
     invoke-static {p0}, Ljava/lang/Integer;->parseInt(Ljava/lang/String;)I
 
     move-result p0
@@ -850,7 +794,6 @@
 
     add-int/2addr p0, v2
 
-    .line 8
     :try_start_2
     invoke-virtual {v5}, Ljava/io/InputStream;->close()V
     :try_end_2
@@ -863,7 +806,6 @@
 
     new-array v2, v2, [Ljava/lang/Object;
 
-    .line 9
     invoke-virtual {v4}, Ljava/io/IOException;->toString()Ljava/lang/String;
 
     move-result-object v4
@@ -875,7 +817,6 @@
     :goto_0
     return p0
 
-    .line 10
     :cond_1
     :goto_1
     :try_start_3
@@ -890,7 +831,6 @@
 
     new-array v2, v2, [Ljava/lang/Object;
 
-    .line 11
     invoke-virtual {p0}, Ljava/io/IOException;->toString()Ljava/lang/String;
 
     move-result-object p0
@@ -928,7 +868,6 @@
     :try_start_4
     new-array v5, v2, [Ljava/lang/Object;
 
-    .line 12
     invoke-virtual {p0}, Ljava/io/IOException;->toString()Ljava/lang/String;
 
     move-result-object p0
@@ -941,7 +880,6 @@
 
     if-eqz v4, :cond_2
 
-    .line 13
     :try_start_5
     invoke-virtual {v4}, Ljava/io/InputStream;->close()V
     :try_end_5
@@ -954,7 +892,6 @@
 
     new-array v2, v2, [Ljava/lang/Object;
 
-    .line 14
     invoke-virtual {p0}, Ljava/io/IOException;->toString()Ljava/lang/String;
 
     move-result-object p0
@@ -970,7 +907,6 @@
     :goto_5
     if-eqz v4, :cond_3
 
-    .line 15
     :try_start_6
     invoke-virtual {v4}, Ljava/io/InputStream;->close()V
     :try_end_6
@@ -983,7 +919,6 @@
 
     new-array v2, v2, [Ljava/lang/Object;
 
-    .line 16
     invoke-virtual {v4}, Ljava/io/IOException;->toString()Ljava/lang/String;
 
     move-result-object v4
@@ -992,7 +927,6 @@
 
     invoke-static {v1, v0, v2}, Lcom/tencent/matrix/util/b;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
-    .line 17
     :cond_3
     :goto_6
     throw p0
@@ -1001,12 +935,10 @@
 .method public static h()J
     .locals 5
 
-    .line 1
     invoke-static {}, Ljava/lang/Runtime;->getRuntime()Ljava/lang/Runtime;
 
     move-result-object v0
 
-    .line 2
     invoke-virtual {v0}, Ljava/lang/Runtime;->totalMemory()J
 
     move-result-wide v1
@@ -1030,7 +962,6 @@
     :try_start_0
     const-string v0, "machine"
 
-    .line 1
     invoke-static {p1}, Lcom/tencent/matrix/util/DeviceUtil;->j(Landroid/content/Context;)Lcom/tencent/matrix/util/DeviceUtil$LEVEL;
 
     move-result-object v1
@@ -1039,7 +970,6 @@
 
     const-string v0, "cpu_app"
 
-    .line 2
     invoke-static {}, Lcom/tencent/matrix/util/DeviceUtil;->b()D
 
     move-result-wide v1
@@ -1048,7 +978,6 @@
 
     const-string v0, "mem"
 
-    .line 3
     invoke-static {p1}, Lcom/tencent/matrix/util/DeviceUtil;->q(Landroid/content/Context;)J
 
     move-result-wide v1
@@ -1057,7 +986,6 @@
 
     const-string v0, "mem_free"
 
-    .line 4
     invoke-static {p1}, Lcom/tencent/matrix/util/DeviceUtil;->l(Landroid/content/Context;)J
 
     move-result-wide v1
@@ -1083,7 +1011,6 @@
 
     const-string v1, "[JSONException for stack, error: %s"
 
-    .line 5
     invoke-static {p1, v1, v0}, Lcom/tencent/matrix/util/b;->b(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     :goto_0
@@ -1093,25 +1020,21 @@
 .method public static j(Landroid/content/Context;)Lcom/tencent/matrix/util/DeviceUtil$LEVEL;
     .locals 9
 
-    .line 1
     sget-object v0, Lcom/tencent/matrix/util/DeviceUtil;->h:Lcom/tencent/matrix/util/DeviceUtil$LEVEL;
 
     if-eqz v0, :cond_0
 
     return-object v0
 
-    .line 2
     :cond_0
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v0
 
-    .line 3
     invoke-static {p0}, Lcom/tencent/matrix/util/DeviceUtil;->q(Landroid/content/Context;)J
 
     move-result-wide v2
 
-    .line 4
     invoke-static {}, Lcom/tencent/matrix/util/DeviceUtil;->o()I
 
     move-result p0
@@ -1120,7 +1043,6 @@
 
     new-array v4, v4, [Ljava/lang/Object;
 
-    .line 5
     invoke-static {v2, v3}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
 
     move-result-object v5
@@ -1149,7 +1071,6 @@
 
     if-ltz v4, :cond_1
 
-    .line 6
     sget-object p0, Lcom/tencent/matrix/util/DeviceUtil$LEVEL;->BEST:Lcom/tencent/matrix/util/DeviceUtil$LEVEL;
 
     sput-object p0, Lcom/tencent/matrix/util/DeviceUtil;->h:Lcom/tencent/matrix/util/DeviceUtil$LEVEL;
@@ -1163,7 +1084,6 @@
 
     if-ltz v4, :cond_2
 
-    .line 7
     sget-object p0, Lcom/tencent/matrix/util/DeviceUtil$LEVEL;->HIGH:Lcom/tencent/matrix/util/DeviceUtil$LEVEL;
 
     sput-object p0, Lcom/tencent/matrix/util/DeviceUtil;->h:Lcom/tencent/matrix/util/DeviceUtil$LEVEL;
@@ -1177,7 +1097,6 @@
 
     if-ltz v4, :cond_3
 
-    .line 8
     sget-object p0, Lcom/tencent/matrix/util/DeviceUtil$LEVEL;->MIDDLE:Lcom/tencent/matrix/util/DeviceUtil$LEVEL;
 
     sput-object p0, Lcom/tencent/matrix/util/DeviceUtil;->h:Lcom/tencent/matrix/util/DeviceUtil$LEVEL;
@@ -1195,7 +1114,6 @@
 
     if-lt p0, v2, :cond_4
 
-    .line 9
     sget-object p0, Lcom/tencent/matrix/util/DeviceUtil$LEVEL;->MIDDLE:Lcom/tencent/matrix/util/DeviceUtil$LEVEL;
 
     sput-object p0, Lcom/tencent/matrix/util/DeviceUtil;->h:Lcom/tencent/matrix/util/DeviceUtil$LEVEL;
@@ -1205,7 +1123,6 @@
     :cond_4
     if-lez p0, :cond_7
 
-    .line 10
     sget-object p0, Lcom/tencent/matrix/util/DeviceUtil$LEVEL;->LOW:Lcom/tencent/matrix/util/DeviceUtil$LEVEL;
 
     sput-object p0, Lcom/tencent/matrix/util/DeviceUtil;->h:Lcom/tencent/matrix/util/DeviceUtil$LEVEL;
@@ -1219,20 +1136,17 @@
 
     if-ltz p0, :cond_6
 
-    .line 11
     sget-object p0, Lcom/tencent/matrix/util/DeviceUtil$LEVEL;->BAD:Lcom/tencent/matrix/util/DeviceUtil$LEVEL;
 
     sput-object p0, Lcom/tencent/matrix/util/DeviceUtil;->h:Lcom/tencent/matrix/util/DeviceUtil$LEVEL;
 
     goto :goto_0
 
-    .line 12
     :cond_6
     sget-object p0, Lcom/tencent/matrix/util/DeviceUtil$LEVEL;->UN_KNOW:Lcom/tencent/matrix/util/DeviceUtil$LEVEL;
 
     sput-object p0, Lcom/tencent/matrix/util/DeviceUtil;->h:Lcom/tencent/matrix/util/DeviceUtil$LEVEL;
 
-    .line 13
     :cond_7
     :goto_0
     new-instance p0, Ljava/lang/StringBuilder;
@@ -1267,7 +1181,6 @@
 
     invoke-static {v5, p0, v0}, Lcom/tencent/matrix/util/b;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
-    .line 14
     sget-object p0, Lcom/tencent/matrix/util/DeviceUtil;->h:Lcom/tencent/matrix/util/DeviceUtil$LEVEL;
 
     return-object p0
@@ -1276,7 +1189,6 @@
 .method public static k(Landroid/content/Context;)J
     .locals 5
 
-    .line 1
     sget-wide v0, Lcom/tencent/matrix/util/DeviceUtil;->n:J
 
     const-wide/16 v2, 0x0
@@ -1287,11 +1199,9 @@
 
     return-wide v0
 
-    .line 2
     :cond_0
     invoke-static {p0}, Lcom/tencent/matrix/util/DeviceUtil;->q(Landroid/content/Context;)J
 
-    .line 3
     sget-wide v0, Lcom/tencent/matrix/util/DeviceUtil;->n:J
 
     return-wide v0
@@ -1304,7 +1214,6 @@
 
     const-string v1, "Matrix.DeviceUtil"
 
-    .line 1
     sget v2, Landroid/os/Build$VERSION;->SDK_INT:I
 
     const-wide/16 v3, 0x400
@@ -1313,24 +1222,20 @@
 
     if-lt v2, v5, :cond_0
 
-    .line 2
     new-instance v0, Landroid/app/ActivityManager$MemoryInfo;
 
     invoke-direct {v0}, Landroid/app/ActivityManager$MemoryInfo;-><init>()V
 
     const-string v1, "activity"
 
-    .line 3
     invoke-virtual {p0, v1}, Landroid/content/Context;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
 
     move-result-object p0
 
     check-cast p0, Landroid/app/ActivityManager;
 
-    .line 4
     invoke-virtual {p0, v0}, Landroid/app/ActivityManager;->getMemoryInfo(Landroid/app/ActivityManager$MemoryInfo;)V
 
-    .line 5
     iget-wide v0, v0, Landroid/app/ActivityManager$MemoryInfo;->availMem:J
 
     div-long/2addr v0, v3
@@ -1346,7 +1251,6 @@
 
     const/4 v7, 0x1
 
-    .line 6
     :try_start_0
     new-instance v8, Ljava/io/BufferedReader;
 
@@ -1367,7 +1271,6 @@
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_2
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 7
     :try_start_1
     invoke-virtual {v8}, Ljava/io/BufferedReader;->readLine()Ljava/lang/String;
 
@@ -1378,14 +1281,12 @@
 
     const-string v9, "\\s+"
 
-    .line 8
     invoke-virtual {p0, v9}, Ljava/lang/String;->split(Ljava/lang/String;)[Ljava/lang/String;
 
     move-result-object p0
 
     const-string v9, "MemAvailable:"
 
-    .line 9
     aget-object v10, p0, v2
 
     invoke-virtual {v9, v10}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -1394,7 +1295,6 @@
 
     if-eqz v9, :cond_1
 
-    .line 10
     aget-object p0, p0, v7
 
     invoke-static {p0}, Ljava/lang/Integer;->parseInt(Ljava/lang/String;)I
@@ -1407,7 +1307,6 @@
 
     goto :goto_1
 
-    .line 11
     :cond_1
     invoke-virtual {v8}, Ljava/io/BufferedReader;->readLine()Ljava/lang/String;
 
@@ -1418,7 +1317,6 @@
 
     goto :goto_0
 
-    .line 12
     :cond_2
     :goto_1
     :try_start_2
@@ -1433,7 +1331,6 @@
 
     new-array v7, v7, [Ljava/lang/Object;
 
-    .line 13
     invoke-virtual {p0}, Ljava/lang/Exception;->toString()Ljava/lang/String;
 
     move-result-object p0
@@ -1473,7 +1370,6 @@
 
     new-array v10, v7, [Ljava/lang/Object;
 
-    .line 14
     invoke-virtual {p0}, Ljava/lang/Exception;->toString()Ljava/lang/String;
 
     move-result-object p0
@@ -1486,7 +1382,6 @@
 
     if-eqz v8, :cond_3
 
-    .line 15
     :try_start_4
     invoke-virtual {v8}, Ljava/io/BufferedReader;->close()V
     :try_end_4
@@ -1499,7 +1394,6 @@
 
     new-array v7, v7, [Ljava/lang/Object;
 
-    .line 16
     invoke-virtual {p0}, Ljava/lang/Exception;->toString()Ljava/lang/String;
 
     move-result-object p0
@@ -1508,7 +1402,6 @@
 
     invoke-static {v1, v0, v7}, Lcom/tencent/matrix/util/b;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
-    .line 17
     :cond_3
     :goto_3
     div-long/2addr v5, v3
@@ -1521,7 +1414,6 @@
     :goto_4
     if-eqz v8, :cond_4
 
-    .line 18
     :try_start_5
     invoke-virtual {v8}, Ljava/io/BufferedReader;->close()V
     :try_end_5
@@ -1534,7 +1426,6 @@
 
     new-array v4, v7, [Ljava/lang/Object;
 
-    .line 19
     invoke-virtual {v3}, Ljava/lang/Exception;->toString()Ljava/lang/String;
 
     move-result-object v3
@@ -1543,7 +1434,6 @@
 
     invoke-static {v1, v0, v4}, Lcom/tencent/matrix/util/b;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
-    .line 20
     :cond_4
     :goto_5
     throw p0
@@ -1552,7 +1442,6 @@
 .method public static m(Landroid/content/Context;)I
     .locals 1
 
-    .line 1
     sget v0, Lcom/tencent/matrix/util/DeviceUtil;->o:I
 
     if-eqz v0, :cond_0
@@ -1561,11 +1450,9 @@
 
     return v0
 
-    .line 2
     :cond_0
     invoke-static {p0}, Lcom/tencent/matrix/util/DeviceUtil;->q(Landroid/content/Context;)J
 
-    .line 3
     sget p0, Lcom/tencent/matrix/util/DeviceUtil;->o:I
 
     mul-int/lit16 p0, p0, 0x400
@@ -1576,7 +1463,6 @@
 .method public static n()J
     .locals 4
 
-    .line 1
     invoke-static {}, Landroid/os/Debug;->getNativeHeapAllocatedSize()J
 
     move-result-wide v0
@@ -1591,7 +1477,6 @@
 .method private static o()I
     .locals 3
 
-    .line 1
     sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
 
     const/4 v1, 0x1
@@ -1606,7 +1491,6 @@
     :try_start_0
     const-string v0, "/sys/devices/system/cpu/possible"
 
-    .line 2
     invoke-static {v0}, Lcom/tencent/matrix/util/DeviceUtil;->g(Ljava/lang/String;)I
 
     move-result v0
@@ -1615,7 +1499,6 @@
 
     const-string v0, "/sys/devices/system/cpu/present"
 
-    .line 3
     invoke-static {v0}, Lcom/tencent/matrix/util/DeviceUtil;->g(Ljava/lang/String;)I
 
     move-result v0
@@ -1625,7 +1508,6 @@
 
     const-string v0, "/sys/devices/system/cpu/"
 
-    .line 4
     invoke-static {v0}, Lcom/tencent/matrix/util/DeviceUtil;->f(Ljava/lang/String;)I
 
     move-result v0
@@ -1658,14 +1540,12 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/io/File;
 
     invoke-direct {v0, p0}, Ljava/io/File;-><init>(Ljava/lang/String;)V
 
     const/4 p0, 0x0
 
-    .line 2
     :try_start_0
     new-instance v1, Ljava/io/FileInputStream;
 
@@ -1673,7 +1553,6 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_1
 
-    .line 3
     :try_start_1
     invoke-static {v1}, Lcom/tencent/matrix/util/DeviceUtil;->a(Ljava/io/InputStream;)Ljava/lang/String;
 
@@ -1681,7 +1560,6 @@
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
-    .line 4
     invoke-virtual {v1}, Ljava/io/FileInputStream;->close()V
 
     return-object p0
@@ -1703,7 +1581,6 @@
 
     invoke-virtual {v1}, Ljava/io/FileInputStream;->close()V
 
-    .line 5
     :cond_0
     throw p0
 .end method
@@ -1711,7 +1588,6 @@
 .method public static q(Landroid/content/Context;)J
     .locals 7
 
-    .line 1
     sget-wide v0, Lcom/tencent/matrix/util/DeviceUtil;->m:J
 
     const-wide/16 v2, 0x0
@@ -1722,47 +1598,39 @@
 
     return-wide v0
 
-    .line 2
     :cond_0
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v0
 
-    .line 3
     sget v4, Landroid/os/Build$VERSION;->SDK_INT:I
 
     const/16 v5, 0x10
 
     if-lt v4, v5, :cond_2
 
-    .line 4
     new-instance v2, Landroid/app/ActivityManager$MemoryInfo;
 
     invoke-direct {v2}, Landroid/app/ActivityManager$MemoryInfo;-><init>()V
 
     const-string v3, "activity"
 
-    .line 5
     invoke-virtual {p0, v3}, Landroid/content/Context;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
 
     move-result-object p0
 
     check-cast p0, Landroid/app/ActivityManager;
 
-    .line 6
     invoke-virtual {p0, v2}, Landroid/app/ActivityManager;->getMemoryInfo(Landroid/app/ActivityManager$MemoryInfo;)V
 
-    .line 7
     iget-wide v3, v2, Landroid/app/ActivityManager$MemoryInfo;->totalMem:J
 
     sput-wide v3, Lcom/tencent/matrix/util/DeviceUtil;->m:J
 
-    .line 8
     iget-wide v2, v2, Landroid/app/ActivityManager$MemoryInfo;->threshold:J
 
     sput-wide v2, Lcom/tencent/matrix/util/DeviceUtil;->n:J
 
-    .line 9
     invoke-static {}, Ljava/lang/Runtime;->getRuntime()Ljava/lang/Runtime;
 
     move-result-object v2
@@ -1777,7 +1645,6 @@
 
     if-nez v6, :cond_1
 
-    .line 10
     invoke-virtual {p0}, Landroid/app/ActivityManager;->getMemoryClass()I
 
     move-result p0
@@ -1789,14 +1656,12 @@
     :cond_1
     const-wide/32 v4, 0x100000
 
-    .line 11
     div-long/2addr v2, v4
 
     long-to-int p0, v2
 
     sput p0, Lcom/tencent/matrix/util/DeviceUtil;->o:I
 
-    .line 12
     :goto_0
     new-instance p0, Ljava/lang/StringBuilder;
 
@@ -1850,7 +1715,6 @@
 
     invoke-static {v1, p0, v0}, Lcom/tencent/matrix/util/b;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
-    .line 13
     sget-wide v0, Lcom/tencent/matrix/util/DeviceUtil;->m:J
 
     return-wide v0
@@ -1866,7 +1730,6 @@
 
     new-array v0, v0, [Ljava/lang/Object;
 
-    .line 1
     invoke-static {}, Lcom/tencent/matrix/util/DeviceUtil;->c()I
 
     move-result v1
@@ -1887,7 +1750,6 @@
 
     const-wide/16 v3, -0x1
 
-    .line 2
     :try_start_0
     invoke-static {v0}, Lcom/tencent/matrix/util/DeviceUtil;->p(Ljava/lang/String;)Ljava/lang/String;
 
@@ -1899,12 +1761,10 @@
 
     const-string v1, "\n"
 
-    .line 3
     invoke-virtual {v0, v1}, Ljava/lang/String;->split(Ljava/lang/String;)[Ljava/lang/String;
 
     move-result-object v0
 
-    .line 4
     array-length v1, v0
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
@@ -1919,31 +1779,26 @@
 
     const-string v7, "VmSize"
 
-    .line 5
     invoke-virtual {v6, v7}, Ljava/lang/String;->startsWith(Ljava/lang/String;)Z
 
     move-result v7
 
     if-eqz v7, :cond_0
 
-    .line 6
     invoke-static {v5}, Ljava/util/regex/Pattern;->compile(Ljava/lang/String;)Ljava/util/regex/Pattern;
 
     move-result-object v5
 
-    .line 7
     invoke-virtual {v5, v6}, Ljava/util/regex/Pattern;->matcher(Ljava/lang/CharSequence;)Ljava/util/regex/Matcher;
 
     move-result-object v5
 
-    .line 8
     invoke-virtual {v5}, Ljava/util/regex/Matcher;->find()Z
 
     move-result v6
 
     if-eqz v6, :cond_0
 
-    .line 9
     invoke-virtual {v5}, Ljava/util/regex/Matcher;->group()Ljava/lang/String;
 
     move-result-object v0
@@ -1959,7 +1814,6 @@
 
     goto :goto_0
 
-    .line 10
     :cond_1
     array-length v1, v0
 
@@ -1967,26 +1821,22 @@
 
     if-le v1, v2, :cond_2
 
-    .line 11
     invoke-static {v5}, Ljava/util/regex/Pattern;->compile(Ljava/lang/String;)Ljava/util/regex/Pattern;
 
     move-result-object v1
 
-    .line 12
     aget-object v0, v0, v2
 
     invoke-virtual {v1, v0}, Ljava/util/regex/Pattern;->matcher(Ljava/lang/CharSequence;)Ljava/util/regex/Matcher;
 
     move-result-object v0
 
-    .line 13
     invoke-virtual {v0}, Ljava/util/regex/Matcher;->find()Z
 
     move-result v1
 
     if-eqz v1, :cond_2
 
-    .line 14
     invoke-virtual {v0}, Ljava/util/regex/Matcher;->group()Ljava/lang/String;
 
     move-result-object v0
@@ -2007,12 +1857,10 @@
 .method public static s()Z
     .locals 2
 
-    .line 1
     sget-object v0, Landroid/os/Build;->CPU_ABI:Ljava/lang/String;
 
     const-string v1, "arm64-v8a"
 
-    .line 2
     invoke-virtual {v1, v0}, Ljava/lang/String;->equalsIgnoreCase(Ljava/lang/String;)Z
 
     move-result v1
@@ -2021,7 +1869,6 @@
 
     const-string v1, "x86_64"
 
-    .line 3
     invoke-virtual {v1, v0}, Ljava/lang/String;->equalsIgnoreCase(Ljava/lang/String;)Z
 
     move-result v1
@@ -2030,7 +1877,6 @@
 
     const-string v1, "mips64"
 
-    .line 4
     invoke-virtual {v1, v0}, Ljava/lang/String;->equalsIgnoreCase(Ljava/lang/String;)Z
 
     move-result v0
@@ -2055,24 +1901,20 @@
 .method public static t(Landroid/content/Context;)Z
     .locals 2
 
-    .line 1
     new-instance v0, Landroid/app/ActivityManager$MemoryInfo;
 
     invoke-direct {v0}, Landroid/app/ActivityManager$MemoryInfo;-><init>()V
 
     const-string v1, "activity"
 
-    .line 2
     invoke-virtual {p0, v1}, Landroid/content/Context;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
 
     move-result-object p0
 
     check-cast p0, Landroid/app/ActivityManager;
 
-    .line 3
     invoke-virtual {p0, v0}, Landroid/app/ActivityManager;->getMemoryInfo(Landroid/app/ActivityManager$MemoryInfo;)V
 
-    .line 4
     iget-boolean p0, v0, Landroid/app/ActivityManager$MemoryInfo;->lowMemory:Z
 
     return p0

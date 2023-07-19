@@ -28,13 +28,10 @@
 .method public constructor <init>(DD)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-wide p1, p0, Lcotlin/g2/d;->a:D
 
-    .line 3
     iput-wide p3, p0, Lcotlin/g2/d;->b:D
 
     return-void
@@ -45,7 +42,6 @@
 .method public a(D)Z
     .locals 3
 
-    .line 1
     iget-wide v0, p0, Lcotlin/g2/d;->a:D
 
     cmpl-double v2, p1, v0
@@ -72,7 +68,6 @@
 .method public bridge synthetic b(Ljava/lang/Comparable;Ljava/lang/Comparable;)Z
     .locals 2
 
-    .line 1
     check-cast p1, Ljava/lang/Number;
 
     invoke-virtual {p1}, Ljava/lang/Number;->doubleValue()D
@@ -97,7 +92,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget-wide v0, p0, Lcotlin/g2/d;->b:D
 
     invoke-static {v0, v1}, Ljava/lang/Double;->valueOf(D)Ljava/lang/Double;
@@ -110,7 +104,6 @@
 .method public bridge synthetic contains(Ljava/lang/Comparable;)Z
     .locals 2
 
-    .line 1
     check-cast p1, Ljava/lang/Number;
 
     invoke-virtual {p1}, Ljava/lang/Number;->doubleValue()D
@@ -129,7 +122,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget-wide v0, p0, Lcotlin/g2/d;->a:D
 
     invoke-static {v0, v1}, Ljava/lang/Double;->valueOf(D)Ljava/lang/Double;
@@ -164,7 +156,6 @@
         .end annotation
     .end param
 
-    .line 1
     instance-of v0, p1, Lcotlin/g2/d;
 
     if-eqz v0, :cond_2
@@ -219,7 +210,6 @@
 .method public bridge synthetic getEndInclusive()Ljava/lang/Comparable;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcotlin/g2/d;->c()Ljava/lang/Double;
 
     move-result-object v0
@@ -230,7 +220,6 @@
 .method public bridge synthetic getStart()Ljava/lang/Comparable;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcotlin/g2/d;->d()Ljava/lang/Double;
 
     move-result-object v0
@@ -241,7 +230,6 @@
 .method public hashCode()I
     .locals 3
 
-    .line 1
     invoke-virtual {p0}, Lcotlin/g2/d;->isEmpty()Z
 
     move-result v0
@@ -284,7 +272,6 @@
 .method public isEmpty()Z
     .locals 5
 
-    .line 1
     iget-wide v0, p0, Lcotlin/g2/d;->a:D
 
     iget-wide v2, p0, Lcotlin/g2/d;->b:D
@@ -309,7 +296,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V

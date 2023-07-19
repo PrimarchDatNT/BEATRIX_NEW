@@ -39,7 +39,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/billing/activity/ProActivity$t;->M:Lcom/commsource/billing/activity/ProActivity;
 
     invoke-direct {p0, p2}, Lcom/bumptech/glide/request/j/j;-><init>(Landroid/widget/ImageView;)V
@@ -56,7 +55,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Landroid/graphics/drawable/Drawable;
 
     invoke-virtual {p0, p1}, Lcom/commsource/billing/activity/ProActivity$t;->o(Landroid/graphics/drawable/Drawable;)V
@@ -77,7 +75,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/billing/activity/ProActivity$t;->M:Lcom/commsource/billing/activity/ProActivity;
 
     invoke-static {v1}, Lcom/commsource/billing/activity/ProActivity;->O0(Lcom/commsource/billing/activity/ProActivity;)Lcom/commsource/beautyplus/f0/u0;
@@ -94,7 +91,6 @@
 
     invoke-direct {v2}, Landroid/graphics/Matrix;-><init>()V
 
-    .line 2
     invoke-static {}, Lcom/meitu/library/p/f/i;->z()I
 
     move-result v3
@@ -103,7 +99,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 3
     invoke-virtual {p1}, Landroid/graphics/drawable/Drawable;->getIntrinsicWidth()I
 
     move-result v4
@@ -118,13 +113,10 @@
     :goto_0
     div-float/2addr v3, v4
 
-    .line 4
     invoke-virtual {v2, v3, v3}, Landroid/graphics/Matrix;->postScale(FF)Z
 
-    .line 5
     invoke-virtual {v1, v2}, Landroid/widget/ImageView;->setImageMatrix(Landroid/graphics/Matrix;)V
 
-    .line 6
     iget-object v1, p0, Lcom/commsource/billing/activity/ProActivity$t;->M:Lcom/commsource/billing/activity/ProActivity;
 
     invoke-static {v1}, Lcom/commsource/billing/activity/ProActivity;->O0(Lcom/commsource/billing/activity/ProActivity;)Lcom/commsource/beautyplus/f0/u0;
@@ -135,7 +127,6 @@
 
     invoke-virtual {v1, p1}, Landroid/widget/ImageView;->setImageDrawable(Landroid/graphics/drawable/Drawable;)V
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

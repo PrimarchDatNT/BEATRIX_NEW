@@ -27,7 +27,6 @@
 .method constructor <init>(Lcom/meitu/libmtsns/Facebook/PlatformFacebook;Lcom/facebook/internal/Utility$GraphMeRequestWithCacheCallback;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/libmtsns/Facebook/PlatformFacebook$d;->b:Lcom/meitu/libmtsns/Facebook/PlatformFacebook;
 
     iput-object p2, p0, Lcom/meitu/libmtsns/Facebook/PlatformFacebook$d;->a:Lcom/facebook/internal/Utility$GraphMeRequestWithCacheCallback;
@@ -46,7 +45,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/libmtsns/Facebook/PlatformFacebook$d;->b:Lcom/meitu/libmtsns/Facebook/PlatformFacebook;
 
     new-instance v2, Lcom/meitu/libmtsns/c/c/b;
@@ -65,7 +63,6 @@
 
     invoke-static {v1, v4, v2, v3}, Lcom/meitu/libmtsns/Facebook/PlatformFacebook;->U(Lcom/meitu/libmtsns/Facebook/PlatformFacebook;ILcom/meitu/libmtsns/c/c/b;[Ljava/lang/Object;)V
 
-    .line 2
     iget-object v1, p0, Lcom/meitu/libmtsns/Facebook/PlatformFacebook$d;->b:Lcom/meitu/libmtsns/Facebook/PlatformFacebook;
 
     invoke-static {v1}, Lcom/meitu/libmtsns/Facebook/PlatformFacebook;->O(Lcom/meitu/libmtsns/Facebook/PlatformFacebook;)Landroid/util/SparseArray;
@@ -74,14 +71,12 @@
 
     invoke-virtual {v1, v4}, Landroid/util/SparseArray;->remove(I)V
 
-    .line 3
     invoke-virtual {p1}, Lcom/facebook/GraphResponse;->getError()Lcom/facebook/FacebookRequestError;
 
     move-result-object v1
 
     if-eqz v1, :cond_0
 
-    .line 4
     iget-object v1, p0, Lcom/meitu/libmtsns/Facebook/PlatformFacebook$d;->a:Lcom/facebook/internal/Utility$GraphMeRequestWithCacheCallback;
 
     invoke-virtual {p1}, Lcom/facebook/GraphResponse;->getError()Lcom/facebook/FacebookRequestError;
@@ -96,7 +91,6 @@
 
     goto :goto_0
 
-    .line 5
     :cond_0
     iget-object v1, p0, Lcom/meitu/libmtsns/Facebook/PlatformFacebook$d;->a:Lcom/facebook/internal/Utility$GraphMeRequestWithCacheCallback;
 
@@ -106,7 +100,6 @@
 
     invoke-interface {v1, p1}, Lcom/facebook/internal/Utility$GraphMeRequestWithCacheCallback;->onSuccess(Lorg/json/JSONObject;)V
 
-    .line 6
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

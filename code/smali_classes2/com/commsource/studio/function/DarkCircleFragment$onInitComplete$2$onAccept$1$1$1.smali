@@ -54,7 +54,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/studio/function/DarkCircleFragment$onInitComplete$2$onAccept$1$1$1;->invoke()V
 
     sget-object v1, Lcotlin/t1;->a:Lcotlin/t1;
@@ -71,7 +70,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/function/DarkCircleFragment$onInitComplete$2$onAccept$1$1$1;->$processor:Lcom/commsource/studio/processor/MultiFaceEffectProcessor;
 
     invoke-virtual {v1}, Lcom/commsource/studio/processor/m;->J()Lcom/commsource/camera/newrender/renderproxy/n;
@@ -80,7 +78,6 @@
 
     check-cast v1, Lcom/commsource/studio/r0/v;
 
-    .line 3
     iget-object v2, p0, Lcom/commsource/studio/function/DarkCircleFragment$onInitComplete$2$onAccept$1$1$1;->$processor:Lcom/commsource/studio/processor/MultiFaceEffectProcessor;
 
     invoke-virtual {v2}, Lcom/commsource/studio/processor/MultiFaceEffectProcessor;->L()Lcom/commsource/easyeditor/utils/opengl/f;
@@ -95,7 +92,6 @@
 
     invoke-virtual {v1, v2, v3}, Lcom/commsource/studio/r0/v;->y(Lcom/commsource/easyeditor/utils/opengl/f;Lcom/commsource/easyeditor/utils/opengl/f;)V
 
-    .line 4
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

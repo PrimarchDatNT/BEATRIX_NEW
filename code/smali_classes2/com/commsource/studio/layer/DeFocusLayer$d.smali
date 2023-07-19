@@ -51,21 +51,18 @@
 
     new-array v1, v1, [F
 
-    .line 1
     fill-array-data v1, :array_0
 
     invoke-static {v1}, Landroid/animation/ValueAnimator;->ofFloat([F)Landroid/animation/ValueAnimator;
 
     move-result-object v1
 
-    .line 2
     new-instance v2, Lcom/commsource/studio/layer/DeFocusLayer$d$a;
 
     invoke-direct {v2, p0}, Lcom/commsource/studio/layer/DeFocusLayer$d$a;-><init>(Lcom/commsource/studio/layer/DeFocusLayer$d;)V
 
     invoke-virtual {v1, v2}, Landroid/animation/ValueAnimator;->addUpdateListener(Landroid/animation/ValueAnimator$AnimatorUpdateListener;)V
 
-    .line 3
     new-instance v2, Lcom/commsource/studio/layer/DeFocusLayer$d$b;
 
     invoke-direct {v2, p0}, Lcom/commsource/studio/layer/DeFocusLayer$d$b;-><init>(Lcom/commsource/studio/layer/DeFocusLayer$d;)V
@@ -74,13 +71,10 @@
 
     const-wide/16 v2, 0x514
 
-    .line 4
     invoke-virtual {v1, v2, v3}, Landroid/animation/ValueAnimator;->setDuration(J)Landroid/animation/ValueAnimator;
 
-    .line 5
     invoke-virtual {v1}, Landroid/animation/ValueAnimator;->start()V
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

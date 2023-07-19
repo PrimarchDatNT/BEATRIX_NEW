@@ -50,7 +50,6 @@
 .method public bridge synthetic invoke(Ljava/lang/Object;)Ljava/lang/Object;
     .locals 0
 
-    .line 1
     check-cast p1, Lkshark/m$b$c$a$b;
 
     invoke-virtual {p0, p1}, Lkshark/HeapObject$HeapClass$readStaticFields$1;->invoke(Lkshark/m$b$c$a$b;)Lkshark/h;
@@ -73,10 +72,8 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 2
     new-instance v0, Lkshark/h;
 
-    .line 3
     iget-object v1, p0, Lkshark/HeapObject$HeapClass$readStaticFields$1;->this$0:Lkshark/HeapObject$HeapClass;
 
     invoke-static {v1}, Lkshark/HeapObject$HeapClass;->i(Lkshark/HeapObject$HeapClass;)Lkshark/HprofHeapGraph;
@@ -93,7 +90,6 @@
 
     move-result-object v2
 
-    .line 4
     new-instance v3, Lkshark/j;
 
     iget-object v4, p0, Lkshark/HeapObject$HeapClass$readStaticFields$1;->this$0:Lkshark/HeapObject$HeapClass;
@@ -108,7 +104,6 @@
 
     invoke-direct {v3, v4, p1}, Lkshark/j;-><init>(Lkshark/i;Lkshark/b0;)V
 
-    .line 5
     invoke-direct {v0, v1, v2, v3}, Lkshark/h;-><init>(Lkshark/HeapObject$HeapClass;Ljava/lang/String;Lkshark/j;)V
 
     return-object v0

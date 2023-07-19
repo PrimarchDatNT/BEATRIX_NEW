@@ -27,7 +27,6 @@
 .method constructor <init>(Lf/n/a/c/k;Lf/n/a/c/h;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lf/n/a/c/k$b;->b:Lf/n/a/c/k;
 
     iput-object p2, p0, Lf/n/a/c/k$b;->a:Lf/n/a/c/h;
@@ -42,7 +41,6 @@
 .method public a(Ljava/lang/String;Lcom/qiniu/android/http/g;Lorg/json/JSONObject;)V
     .locals 1
 
-    .line 1
     new-instance v0, Lf/n/a/c/k$b$a;
 
     invoke-direct {v0, p0, p1, p2, p3}, Lf/n/a/c/k$b$a;-><init>(Lf/n/a/c/k$b;Ljava/lang/String;Lcom/qiniu/android/http/g;Lorg/json/JSONObject;)V

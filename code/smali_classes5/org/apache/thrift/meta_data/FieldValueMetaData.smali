@@ -22,7 +22,6 @@
 
     const/4 v0, 0x0
 
-    .line 6
     invoke-direct {p0, p1, v0}, Lorg/apache/thrift/meta_data/FieldValueMetaData;-><init>(BZ)V
 
     return-void
@@ -31,23 +30,18 @@
 .method public constructor <init>(BLjava/lang/String;)V
     .locals 0
 
-    .line 7
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 8
     iput-byte p1, p0, Lorg/apache/thrift/meta_data/FieldValueMetaData;->type:B
 
     const/4 p1, 0x1
 
-    .line 9
     iput-boolean p1, p0, Lorg/apache/thrift/meta_data/FieldValueMetaData;->isTypedefType:Z
 
-    .line 10
     iput-object p2, p0, Lorg/apache/thrift/meta_data/FieldValueMetaData;->typedefName:Ljava/lang/String;
 
     const/4 p1, 0x0
 
-    .line 11
     iput-boolean p1, p0, Lorg/apache/thrift/meta_data/FieldValueMetaData;->isBinary:Z
 
     return-void
@@ -56,23 +50,18 @@
 .method public constructor <init>(BZ)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-byte p1, p0, Lorg/apache/thrift/meta_data/FieldValueMetaData;->type:B
 
     const/4 p1, 0x0
 
-    .line 3
     iput-boolean p1, p0, Lorg/apache/thrift/meta_data/FieldValueMetaData;->isTypedefType:Z
 
     const/4 p1, 0x0
 
-    .line 4
     iput-object p1, p0, Lorg/apache/thrift/meta_data/FieldValueMetaData;->typedefName:Ljava/lang/String;
 
-    .line 5
     iput-boolean p2, p0, Lorg/apache/thrift/meta_data/FieldValueMetaData;->isBinary:Z
 
     return-void
@@ -83,7 +72,6 @@
 .method public getTypedefName()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lorg/apache/thrift/meta_data/FieldValueMetaData;->typedefName:Ljava/lang/String;
 
     return-object v0
@@ -92,7 +80,6 @@
 .method public isBinary()Z
     .locals 1
 
-    .line 1
     iget-boolean v0, p0, Lorg/apache/thrift/meta_data/FieldValueMetaData;->isBinary:Z
 
     return v0
@@ -101,7 +88,6 @@
 .method public isContainer()Z
     .locals 2
 
-    .line 1
     iget-byte v0, p0, Lorg/apache/thrift/meta_data/FieldValueMetaData;->type:B
 
     const/16 v1, 0xf
@@ -134,7 +120,6 @@
 .method public isStruct()Z
     .locals 2
 
-    .line 1
     iget-byte v0, p0, Lorg/apache/thrift/meta_data/FieldValueMetaData;->type:B
 
     const/16 v1, 0xc
@@ -155,7 +140,6 @@
 .method public isTypedef()Z
     .locals 1
 
-    .line 1
     iget-boolean v0, p0, Lorg/apache/thrift/meta_data/FieldValueMetaData;->isTypedefType:Z
 
     return v0

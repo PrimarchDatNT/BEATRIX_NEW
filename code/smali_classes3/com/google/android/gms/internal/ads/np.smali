@@ -35,14 +35,12 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
     new-instance v0, Ljava/util/HashMap;
 
     invoke-direct {v0}, Ljava/util/HashMap;-><init>()V
 
     sput-object v0, Lcom/google/android/gms/internal/ads/np;->a:Ljava/util/Map;
 
-    .line 2
     new-instance v0, Ljava/lang/Object;
 
     invoke-direct {v0}, Ljava/lang/Object;-><init>()V
@@ -72,7 +70,6 @@
 
     new-array v0, v0, [Ljava/lang/Integer;
 
-    .line 1
     invoke-virtual {p0}, Landroid/util/Range;->getLower()Ljava/lang/Comparable;
 
     move-result-object v1
@@ -115,14 +112,12 @@
         }
     .end annotation
 
-    .line 1
     sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
 
     sget-object v1, Lcom/google/android/gms/internal/ads/np;->c:Ljava/lang/Object;
 
     monitor-enter v1
 
-    .line 2
     :try_start_0
     sget-object v2, Lcom/google/android/gms/internal/ads/np;->a:Ljava/util/Map;
 
@@ -132,7 +127,6 @@
 
     if-eqz v2, :cond_0
 
-    .line 3
     sget-object v0, Lcom/google/android/gms/internal/ads/np;->a:Ljava/util/Map;
 
     invoke-interface {v0, p0}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
@@ -147,7 +141,6 @@
 
     return-object p0
 
-    .line 4
     :cond_0
     :try_start_1
     monitor-enter v1
@@ -156,7 +149,6 @@
     .catch Ljava/lang/LinkageError; {:try_start_1 .. :try_end_1} :catch_0
     .catchall {:try_start_1 .. :try_end_1} :catchall_1
 
-    .line 5
     :try_start_2
     sget-object v2, Lcom/google/android/gms/internal/ads/np;->b:Ljava/util/List;
 
@@ -166,7 +158,6 @@
 
     if-eqz v2, :cond_1
 
-    .line 6
     monitor-exit v1
 
     goto :goto_2
@@ -174,12 +165,10 @@
     :cond_1
     if-lt v0, v3, :cond_2
 
-    .line 7
     new-instance v2, Landroid/media/MediaCodecList;
 
     invoke-direct {v2, v4}, Landroid/media/MediaCodecList;-><init>(I)V
 
-    .line 8
     invoke-virtual {v2}, Landroid/media/MediaCodecList;->getCodecInfos()[Landroid/media/MediaCodecInfo;
 
     move-result-object v2
@@ -192,13 +181,11 @@
 
     goto :goto_1
 
-    .line 9
     :cond_2
     invoke-static {}, Landroid/media/MediaCodecList;->getCodecCount()I
 
     move-result v2
 
-    .line 10
     new-instance v5, Ljava/util/ArrayList;
 
     invoke-direct {v5, v2}, Ljava/util/ArrayList;-><init>(I)V
@@ -210,12 +197,10 @@
     :goto_0
     if-ge v5, v2, :cond_3
 
-    .line 11
     invoke-static {v5}, Landroid/media/MediaCodecList;->getCodecInfoAt(I)Landroid/media/MediaCodecInfo;
 
     move-result-object v6
 
-    .line 12
     sget-object v7, Lcom/google/android/gms/internal/ads/np;->b:Ljava/util/List;
 
     invoke-interface {v7, v6}, Ljava/util/List;->add(Ljava/lang/Object;)Z
@@ -224,21 +209,18 @@
 
     goto :goto_0
 
-    .line 13
     :cond_3
     :goto_1
     monitor-exit v1
     :try_end_2
     .catchall {:try_start_2 .. :try_end_2} :catchall_0
 
-    .line 14
     :goto_2
     :try_start_3
     new-instance v2, Ljava/util/ArrayList;
 
     invoke-direct {v2}, Ljava/util/ArrayList;-><init>()V
 
-    .line 15
     sget-object v5, Lcom/google/android/gms/internal/ads/np;->b:Ljava/util/List;
 
     invoke-interface {v5}, Ljava/util/List;->iterator()Ljava/util/Iterator;
@@ -259,19 +241,16 @@
 
     check-cast v6, Landroid/media/MediaCodecInfo;
 
-    .line 16
     invoke-virtual {v6}, Landroid/media/MediaCodecInfo;->isEncoder()Z
 
     move-result v7
 
     if-nez v7, :cond_4
 
-    .line 17
     invoke-virtual {v6}, Landroid/media/MediaCodecInfo;->getSupportedTypes()[Ljava/lang/String;
 
     move-result-object v7
 
-    .line 18
     invoke-static {v7}, Ljava/util/Arrays;->asList([Ljava/lang/Object;)Ljava/util/List;
 
     move-result-object v7
@@ -282,31 +261,26 @@
 
     if-eqz v7, :cond_4
 
-    .line 19
     new-instance v7, Ljava/util/HashMap;
 
     invoke-direct {v7}, Ljava/util/HashMap;-><init>()V
 
     const-string v8, "codecName"
 
-    .line 20
     invoke-virtual {v6}, Landroid/media/MediaCodecInfo;->getName()Ljava/lang/String;
 
     move-result-object v9
 
     invoke-interface {v7, v8, v9}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 21
     invoke-virtual {v6, p0}, Landroid/media/MediaCodecInfo;->getCapabilitiesForType(Ljava/lang/String;)Landroid/media/MediaCodecInfo$CodecCapabilities;
 
     move-result-object v6
 
-    .line 22
     new-instance v8, Ljava/util/ArrayList;
 
     invoke-direct {v8}, Ljava/util/ArrayList;-><init>()V
 
-    .line 23
     iget-object v9, v6, Landroid/media/MediaCodecInfo$CodecCapabilities;->profileLevels:[Landroid/media/MediaCodecInfo$CodecProfileLevel;
 
     array-length v10, v9
@@ -322,7 +296,6 @@
 
     new-array v13, v13, [Ljava/lang/Integer;
 
-    .line 24
     iget v14, v12, Landroid/media/MediaCodecInfo$CodecProfileLevel;->profile:I
 
     invoke-static {v14}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -350,19 +323,16 @@
     :cond_5
     const-string v9, "profileLevels"
 
-    .line 25
     invoke-interface {v7, v9, v8}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     if-lt v0, v3, :cond_6
 
-    .line 26
     invoke-virtual {v6}, Landroid/media/MediaCodecInfo$CodecCapabilities;->getVideoCapabilities()Landroid/media/MediaCodecInfo$VideoCapabilities;
 
     move-result-object v8
 
     const-string v9, "bitRatesBps"
 
-    .line 27
     invoke-virtual {v8}, Landroid/media/MediaCodecInfo$VideoCapabilities;->getBitrateRange()Landroid/util/Range;
 
     move-result-object v10
@@ -375,7 +345,6 @@
 
     const-string v9, "widthAlignment"
 
-    .line 28
     invoke-virtual {v8}, Landroid/media/MediaCodecInfo$VideoCapabilities;->getWidthAlignment()I
 
     move-result v10
@@ -388,7 +357,6 @@
 
     const-string v9, "heightAlignment"
 
-    .line 29
     invoke-virtual {v8}, Landroid/media/MediaCodecInfo$VideoCapabilities;->getHeightAlignment()I
 
     move-result v10
@@ -401,7 +369,6 @@
 
     const-string v9, "frameRates"
 
-    .line 30
     invoke-virtual {v8}, Landroid/media/MediaCodecInfo$VideoCapabilities;->getSupportedFrameRates()Landroid/util/Range;
 
     move-result-object v10
@@ -414,7 +381,6 @@
 
     const-string v9, "widths"
 
-    .line 31
     invoke-virtual {v8}, Landroid/media/MediaCodecInfo$VideoCapabilities;->getSupportedWidths()Landroid/util/Range;
 
     move-result-object v10
@@ -427,7 +393,6 @@
 
     const-string v9, "heights"
 
-    .line 32
     invoke-virtual {v8}, Landroid/media/MediaCodecInfo$VideoCapabilities;->getSupportedHeights()Landroid/util/Range;
 
     move-result-object v8
@@ -445,7 +410,6 @@
 
     const-string v8, "instancesLimit"
 
-    .line 33
     invoke-virtual {v6}, Landroid/media/MediaCodecInfo$CodecCapabilities;->getMaxSupportedInstances()I
 
     move-result v6
@@ -456,13 +420,11 @@
 
     invoke-interface {v7, v8, v6}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 34
     :cond_7
     invoke-virtual {v2, v7}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
     goto/16 :goto_3
 
-    .line 35
     :cond_8
     sget-object v0, Lcom/google/android/gms/internal/ads/np;->a:Ljava/util/Map;
 
@@ -472,7 +434,6 @@
     .catch Ljava/lang/LinkageError; {:try_start_3 .. :try_end_3} :catch_0
     .catchall {:try_start_3 .. :try_end_3} :catchall_1
 
-    .line 36
     :try_start_4
     monitor-exit v1
     :try_end_4
@@ -483,7 +444,6 @@
     :catchall_0
     move-exception v0
 
-    .line 37
     :try_start_5
     monitor-exit v1
     :try_end_5
@@ -504,7 +464,6 @@
     :catch_1
     move-exception v0
 
-    .line 38
     :goto_5
     :try_start_7
     new-instance v2, Ljava/util/HashMap;
@@ -513,7 +472,6 @@
 
     const-string v3, "error"
 
-    .line 39
     invoke-virtual {v0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
     move-result-object v0
@@ -524,20 +482,16 @@
 
     invoke-interface {v2, v3, v0}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 40
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
 
-    .line 41
     invoke-virtual {v0, v2}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    .line 42
     sget-object v2, Lcom/google/android/gms/internal/ads/np;->a:Ljava/util/Map;
 
     invoke-interface {v2, p0, v0}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 43
     monitor-exit v1
 
     return-object v0
@@ -545,7 +499,6 @@
     :catchall_1
     move-exception p0
 
-    .line 44
     monitor-exit v1
     :try_end_7
     .catchall {:try_start_7 .. :try_end_7} :catchall_1

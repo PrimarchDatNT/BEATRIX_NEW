@@ -25,17 +25,14 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     invoke-static {}, Lcom/sdk/imp/internal/loader/f;->t()Ljava/lang/String;
 
     move-result-object v0
 
     iput-object v0, p0, Lcom/sdk/imp/internal/loader/c;->a:Ljava/lang/String;
 
-    .line 3
     invoke-static {}, Lcom/sdk/imp/internal/loader/f;->u()Ljava/lang/String;
 
     move-result-object v0
@@ -44,10 +41,8 @@
 
     const/4 v0, -0x1
 
-    .line 4
     iput v0, p0, Lcom/sdk/imp/internal/loader/c;->c:I
 
-    .line 5
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
@@ -62,7 +57,6 @@
 .method public a(I)Lcom/sdk/imp/internal/loader/c;
     .locals 3
 
-    .line 1
     iget-object v0, p0, Lcom/sdk/imp/internal/loader/c;->d:Ljava/util/List;
 
     new-instance v1, Lf/q/a/a;

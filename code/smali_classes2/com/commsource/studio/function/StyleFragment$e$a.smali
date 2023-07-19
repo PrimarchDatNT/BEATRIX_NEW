@@ -46,7 +46,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/function/StyleFragment$e$a;->b:Lcom/commsource/studio/function/StyleFragment$e;
 
     iget-object v1, v1, Lcom/commsource/studio/function/StyleFragment$e;->a:Lcom/commsource/studio/function/StyleFragment;
@@ -71,7 +70,6 @@
 
     invoke-virtual {v1, v2, v3}, Lcom/commsource/studio/function/StyleViewModel;->H(Lcom/commsource/beautyplus/router/RouterEntity;Z)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

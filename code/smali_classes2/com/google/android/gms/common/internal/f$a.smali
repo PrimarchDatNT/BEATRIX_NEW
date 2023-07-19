@@ -58,15 +58,12 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/4 v0, 0x0
 
-    .line 2
     iput v0, p0, Lcom/google/android/gms/common/internal/f$a;->d:I
 
-    .line 3
     sget-object v0, Lf/f/b/b/l/a;->K:Lf/f/b/b/l/a;
 
     iput-object v0, p0, Lcom/google/android/gms/common/internal/f$a;->h:Lf/f/b/b/l/a;
@@ -88,19 +85,16 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/common/internal/f$a;->b:Landroidx/collection/ArraySet;
 
     if-nez v0, :cond_0
 
-    .line 2
     new-instance v0, Landroidx/collection/ArraySet;
 
     invoke-direct {v0}, Landroidx/collection/ArraySet;-><init>()V
 
     iput-object v0, p0, Lcom/google/android/gms/common/internal/f$a;->b:Landroidx/collection/ArraySet;
 
-    .line 3
     :cond_0
     iget-object v0, p0, Lcom/google/android/gms/common/internal/f$a;->b:Landroidx/collection/ArraySet;
 
@@ -112,19 +106,16 @@
 .method public final b(Lcom/google/android/gms/common/api/Scope;)Lcom/google/android/gms/common/internal/f$a;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/common/internal/f$a;->b:Landroidx/collection/ArraySet;
 
     if-nez v0, :cond_0
 
-    .line 2
     new-instance v0, Landroidx/collection/ArraySet;
 
     invoke-direct {v0}, Landroidx/collection/ArraySet;-><init>()V
 
     iput-object v0, p0, Lcom/google/android/gms/common/internal/f$a;->b:Landroidx/collection/ArraySet;
 
-    .line 3
     :cond_0
     iget-object v0, p0, Lcom/google/android/gms/common/internal/f$a;->b:Landroidx/collection/ArraySet;
 
@@ -138,7 +129,6 @@
     .annotation build Lcom/google/android/gms/common/annotation/a;
     .end annotation
 
-    .line 1
     new-instance v10, Lcom/google/android/gms/common/internal/f;
 
     iget-object v1, p0, Lcom/google/android/gms/common/internal/f$a;->a:Landroid/accounts/Account;
@@ -171,7 +161,6 @@
 
     const/4 v0, 0x1
 
-    .line 1
     iput-boolean v0, p0, Lcom/google/android/gms/common/internal/f$a;->i:Z
 
     return-object p0
@@ -180,7 +169,6 @@
 .method public final e(Landroid/accounts/Account;)Lcom/google/android/gms/common/internal/f$a;
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/android/gms/common/internal/f$a;->a:Landroid/accounts/Account;
 
     return-object p0
@@ -189,7 +177,6 @@
 .method public final f(I)Lcom/google/android/gms/common/internal/f$a;
     .locals 0
 
-    .line 1
     iput p1, p0, Lcom/google/android/gms/common/internal/f$a;->d:I
 
     return-object p0
@@ -209,7 +196,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/google/android/gms/common/internal/f$a;->c:Ljava/util/Map;
 
     return-object p0
@@ -218,7 +204,6 @@
 .method public final h(Ljava/lang/String;)Lcom/google/android/gms/common/internal/f$a;
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/android/gms/common/internal/f$a;->g:Ljava/lang/String;
 
     return-object p0
@@ -229,7 +214,6 @@
     .annotation build Lcom/google/android/gms/common/annotation/a;
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/google/android/gms/common/internal/f$a;->f:Ljava/lang/String;
 
     return-object p0
@@ -238,7 +222,6 @@
 .method public final j(Lf/f/b/b/l/a;)Lcom/google/android/gms/common/internal/f$a;
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/android/gms/common/internal/f$a;->h:Lf/f/b/b/l/a;
 
     return-object p0
@@ -247,7 +230,6 @@
 .method public final k(Landroid/view/View;)Lcom/google/android/gms/common/internal/f$a;
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/android/gms/common/internal/f$a;->e:Landroid/view/View;
 
     return-object p0

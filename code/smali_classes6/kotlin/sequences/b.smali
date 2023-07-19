@@ -76,14 +76,12 @@
 
     invoke-static {p2, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-direct {p0}, Lcotlin/collections/b;-><init>()V
 
     iput-object p1, p0, Lcotlin/sequences/b;->d:Ljava/util/Iterator;
 
     iput-object p2, p0, Lcotlin/sequences/b;->f:Lcotlin/jvm/u/l;
 
-    .line 2
     new-instance p1, Ljava/util/HashSet;
 
     invoke-direct {p1}, Ljava/util/HashSet;-><init>()V
@@ -98,7 +96,6 @@
 .method protected a()V
     .locals 3
 
-    .line 1
     :cond_0
     iget-object v0, p0, Lcotlin/sequences/b;->d:Ljava/util/Iterator;
 
@@ -108,21 +105,18 @@
 
     if-eqz v0, :cond_1
 
-    .line 2
     iget-object v0, p0, Lcotlin/sequences/b;->d:Ljava/util/Iterator;
 
     invoke-interface {v0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
     move-result-object v0
 
-    .line 3
     iget-object v1, p0, Lcotlin/sequences/b;->f:Lcotlin/jvm/u/l;
 
     invoke-interface {v1, v0}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v1
 
-    .line 4
     iget-object v2, p0, Lcotlin/sequences/b;->c:Ljava/util/HashSet;
 
     invoke-virtual {v2, v1}, Ljava/util/HashSet;->add(Ljava/lang/Object;)Z
@@ -131,12 +125,10 @@
 
     if-eqz v1, :cond_0
 
-    .line 5
     invoke-virtual {p0, v0}, Lcotlin/collections/b;->c(Ljava/lang/Object;)V
 
     return-void
 
-    .line 6
     :cond_1
     invoke-virtual {p0}, Lcotlin/collections/b;->b()V
 

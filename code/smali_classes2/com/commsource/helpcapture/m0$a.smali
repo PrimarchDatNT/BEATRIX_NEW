@@ -27,7 +27,6 @@
 .method constructor <init>(Lcom/commsource/helpcapture/m0;Z)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/helpcapture/m0$a;->b:Lcom/commsource/helpcapture/m0;
 
     iput-boolean p2, p0, Lcom/commsource/helpcapture/m0$a;->a:Z
@@ -46,7 +45,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/helpcapture/m0$a;->b:Lcom/commsource/helpcapture/m0;
 
     invoke-static {v1}, Lcom/commsource/helpcapture/m0;->a(Lcom/commsource/helpcapture/m0;)Landroid/view/View;
@@ -59,7 +57,6 @@
 
     if-lez v1, :cond_0
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/helpcapture/m0$a;->b:Lcom/commsource/helpcapture/m0;
 
     invoke-static {v1}, Lcom/commsource/helpcapture/m0;->a(Lcom/commsource/helpcapture/m0;)Landroid/view/View;
@@ -72,7 +69,6 @@
 
     invoke-virtual {v1, p0}, Landroid/view/ViewTreeObserver;->removeOnGlobalLayoutListener(Landroid/view/ViewTreeObserver$OnGlobalLayoutListener;)V
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/helpcapture/m0$a;->b:Lcom/commsource/helpcapture/m0;
 
     invoke-static {v1}, Lcom/commsource/helpcapture/m0;->a(Lcom/commsource/helpcapture/m0;)Landroid/view/View;
@@ -101,14 +97,12 @@
 
     invoke-static {v1, v2}, Lcom/commsource/helpcapture/m0;->b(Lcom/commsource/helpcapture/m0;I)I
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/helpcapture/m0$a;->b:Lcom/commsource/helpcapture/m0;
 
     iget-boolean v2, p0, Lcom/commsource/helpcapture/m0$a;->a:Z
 
     invoke-static {v1, v2}, Lcom/commsource/helpcapture/m0;->c(Lcom/commsource/helpcapture/m0;Z)V
 
-    .line 5
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

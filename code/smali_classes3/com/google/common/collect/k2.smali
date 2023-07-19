@@ -36,7 +36,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -61,10 +60,8 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    .line 1
     invoke-static {p0}, Lcom/google/common/base/t;->E(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 2
     new-instance v0, Lcom/google/common/collect/k2$a;
 
     invoke-direct {v0, p0}, Lcom/google/common/collect/k2$a;-><init>(Lcom/google/common/base/n;)V
@@ -87,10 +84,8 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    .line 1
     invoke-static {p1}, Lcom/google/common/base/t;->E(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 2
     new-instance v0, Lcom/google/common/collect/k2$d;
 
     invoke-direct {v0, p0, p1}, Lcom/google/common/collect/k2$d;-><init>(Lcom/google/common/collect/k2;Ljava/lang/Object;)V
@@ -118,7 +113,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/google/common/collect/k2$f;
 
     invoke-direct {v0, p0, p1}, Lcom/google/common/collect/k2$f;-><init>(Lcom/google/common/collect/k2;Ljava/lang/Object;)V
@@ -139,10 +133,8 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    .line 1
     invoke-static {p1}, Lcom/google/common/base/t;->E(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 2
     new-instance v0, Lcom/google/common/collect/k2$c;
 
     invoke-direct {v0, p0, p1}, Lcom/google/common/collect/k2$c;-><init>(Lcom/google/common/collect/k2;Ljava/lang/Object;)V
@@ -160,7 +152,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/google/common/collect/k2$h;
 
     invoke-direct {v0, p0, p1}, Lcom/google/common/collect/k2$h;-><init>(Lcom/google/common/collect/k2;Ljava/lang/Object;)V
@@ -181,10 +172,8 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    .line 1
     invoke-static {p1}, Lcom/google/common/base/t;->E(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 2
     new-instance v0, Lcom/google/common/collect/k2$b;
 
     invoke-direct {v0, p0, p1}, Lcom/google/common/collect/k2$b;-><init>(Lcom/google/common/collect/k2;Ljava/lang/Object;)V

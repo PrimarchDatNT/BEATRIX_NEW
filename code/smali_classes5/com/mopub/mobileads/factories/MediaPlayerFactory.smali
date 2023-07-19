@@ -36,7 +36,6 @@
 
     sput-object v0, Lcom/mopub/mobileads/factories/MediaPlayerFactory;->Companion:Lcom/mopub/mobileads/factories/MediaPlayerFactory$Companion;
 
-    .line 1
     new-instance v0, Lcom/mopub/mobileads/factories/MediaPlayerFactory;
 
     invoke-direct {v0}, Lcom/mopub/mobileads/factories/MediaPlayerFactory;-><init>()V
@@ -49,7 +48,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -58,7 +56,6 @@
 .method public static final synthetic access$getInstance$cp()Lcom/mopub/mobileads/factories/MediaPlayerFactory;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/mopub/mobileads/factories/MediaPlayerFactory;->instance:Lcom/mopub/mobileads/factories/MediaPlayerFactory;
 
     return-object v0
@@ -67,7 +64,6 @@
 .method public static final synthetic access$setInstance$cp(Lcom/mopub/mobileads/factories/MediaPlayerFactory;)V
     .locals 0
 
-    .line 1
     sput-object p0, Lcom/mopub/mobileads/factories/MediaPlayerFactory;->instance:Lcom/mopub/mobileads/factories/MediaPlayerFactory;
 
     return-void
@@ -88,7 +84,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     new-instance v0, Landroidx/media2/player/MediaPlayer;
 
     invoke-direct {v0, p1}, Landroidx/media2/player/MediaPlayer;-><init>(Landroid/content/Context;)V

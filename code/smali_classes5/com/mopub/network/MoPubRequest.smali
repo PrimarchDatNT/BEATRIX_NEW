@@ -155,7 +155,6 @@
 
     invoke-static {p4, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     iput-object p1, p0, Lcom/mopub/network/MoPubRequest;->context:Landroid/content/Context;
@@ -168,19 +167,16 @@
 
     iput-object p5, p0, Lcom/mopub/network/MoPubRequest;->moPubListener:Lcom/mopub/network/MoPubResponse$Listener;
 
-    .line 2
     new-instance p2, Lcom/mopub/network/MoPubRetryPolicy;
 
     invoke-direct {p2}, Lcom/mopub/network/MoPubRetryPolicy;-><init>()V
 
     iput-object p2, p0, Lcom/mopub/network/MoPubRequest;->retryPolicy:Lcom/mopub/network/MoPubRetryPolicy;
 
-    .line 3
     new-instance v6, Lcom/mopub/network/MoPubRequest$volleyErrorListener$1;
 
     invoke-direct {v6, p0}, Lcom/mopub/network/MoPubRequest$volleyErrorListener$1;-><init>(Lcom/mopub/network/MoPubRequest;)V
 
-    .line 4
     new-instance p2, Lcom/mopub/network/MoPubRequest$1;
 
     move-object v0, p2
@@ -207,7 +203,6 @@
 .method public final cancel()V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/network/MoPubRequest;->volleyRequest:Lcom/mopub/network/MoPubRequest$VolleyRequest;
 
     invoke-virtual {v0}, Lcom/mopub/volley/Request;->cancel()V
@@ -232,7 +227,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/mopub/network/MoPubRequest;->getParams()Ljava/util/Map;
 
     move-result-object v0
@@ -243,7 +237,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 2
     sget-object v1, Lcotlin/text/d;->a:Ljava/nio/charset/Charset;
 
     const-string v2, "null cannot be cast to non-null type java.lang.String"
@@ -281,7 +274,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/network/MoPubRequest;->context:Landroid/content/Context;
 
     return-object v0
@@ -302,7 +294,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/network/MoPubRequest;->volleyRequest:Lcom/mopub/network/MoPubRequest$VolleyRequest;
 
     invoke-virtual {v0}, Lcom/mopub/network/MoPubRequest$VolleyRequest;->getHeaders()Ljava/util/Map;
@@ -317,7 +308,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/network/MoPubRequest;->method:Lcom/mopub/network/MoPubRequest$Method;
 
     return-object v0
@@ -336,7 +326,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/network/MoPubRequest;->moPubListener:Lcom/mopub/network/MoPubResponse$Listener;
 
     return-object v0
@@ -347,7 +336,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/network/MoPubRequest;->originalUrl:Ljava/lang/String;
 
     return-object v0
@@ -368,14 +356,12 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     invoke-static {}, Lcom/mopub/network/Networking;->getUrlRewriter()Lcom/mopub/network/MoPubUrlRewriter;
 
     move-result-object v0
 
     if-eqz v0, :cond_0
 
-    .line 2
     iget-object v1, p0, Lcom/mopub/network/MoPubRequest;->originalUrl:Ljava/lang/String;
 
     invoke-interface {v0, v1}, Lcom/mopub/network/MoPubUrlRewriter;->rewriteUrl(Ljava/lang/String;)Ljava/lang/String;
@@ -400,7 +386,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/network/MoPubRequest;->retryPolicy:Lcom/mopub/network/MoPubRetryPolicy;
 
     return-object v0
@@ -409,7 +394,6 @@
 .method public final getShouldCache()Z
     .locals 1
 
-    .line 1
     iget-boolean v0, p0, Lcom/mopub/network/MoPubRequest;->shouldCache:Z
 
     return v0
@@ -420,7 +404,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/network/MoPubRequest;->truncatedUrl:Ljava/lang/String;
 
     return-object v0
@@ -431,7 +414,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/network/MoPubRequest;->volleyRequest:Lcom/mopub/network/MoPubRequest$VolleyRequest;
 
     invoke-virtual {v0}, Lcom/mopub/volley/Request;->getUrl()Ljava/lang/String;
@@ -458,7 +440,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/network/MoPubRequest;->volleyRequest:Lcom/mopub/network/MoPubRequest$VolleyRequest;
 
     return-object v0
@@ -467,7 +448,6 @@
 .method public final isCanceled()Z
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/network/MoPubRequest;->volleyRequest:Lcom/mopub/network/MoPubRequest$VolleyRequest;
 
     invoke-virtual {v0}, Lcom/mopub/volley/Request;->isCanceled()Z
@@ -509,7 +489,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-virtual {p1}, Lcom/mopub/network/MoPubNetworkResponse;->getData()[B
 
     move-result-object v0
@@ -523,7 +502,6 @@
 
     new-array v0, v0, [B
 
-    .line 2
     :goto_0
     :try_start_0
     invoke-virtual {p1}, Lcom/mopub/network/MoPubNetworkResponse;->getHeaders()Ljava/util/Map;
@@ -550,7 +528,6 @@
 
     goto :goto_1
 
-    .line 3
     :catch_0
     new-instance v1, Ljava/lang/String;
 
@@ -573,30 +550,24 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iput-object p1, p0, Lcom/mopub/network/MoPubRequest;->retryPolicy:Lcom/mopub/network/MoPubRetryPolicy;
 
-    .line 2
     iget-object v0, p0, Lcom/mopub/network/MoPubRequest;->volleyRequest:Lcom/mopub/network/MoPubRequest$VolleyRequest;
 
     new-instance v1, Lcom/mopub/volley/DefaultRetryPolicy;
 
-    .line 3
     invoke-virtual {p1}, Lcom/mopub/network/MoPubRetryPolicy;->getInitialTimeoutMs()I
 
     move-result v2
 
-    .line 4
     invoke-virtual {p1}, Lcom/mopub/network/MoPubRetryPolicy;->getMaxNumRetries()I
 
     move-result v3
 
-    .line 5
     invoke-virtual {p1}, Lcom/mopub/network/MoPubRetryPolicy;->getBackoffMultiplier()F
 
     move-result p1
 
-    .line 6
     invoke-direct {v1, v2, v3, p1}, Lcom/mopub/volley/DefaultRetryPolicy;-><init>(IIF)V
 
     invoke-virtual {v0, v1}, Lcom/mopub/volley/Request;->setRetryPolicy(Lcom/mopub/volley/RetryPolicy;)Lcom/mopub/volley/Request;
@@ -607,10 +578,8 @@
 .method public final setShouldCache(Z)V
     .locals 1
 
-    .line 1
     iput-boolean p1, p0, Lcom/mopub/network/MoPubRequest;->shouldCache:Z
 
-    .line 2
     iget-object v0, p0, Lcom/mopub/network/MoPubRequest;->volleyRequest:Lcom/mopub/network/MoPubRequest$VolleyRequest;
 
     invoke-virtual {v0, p1}, Lcom/mopub/volley/Request;->setShouldCache(Z)Lcom/mopub/volley/Request;
@@ -629,7 +598,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/network/MoPubRequest;->volleyRequest:Lcom/mopub/network/MoPubRequest$VolleyRequest;
 
     invoke-virtual {v0, p1}, Lcom/mopub/volley/Request;->setTag(Ljava/lang/Object;)Lcom/mopub/volley/Request;

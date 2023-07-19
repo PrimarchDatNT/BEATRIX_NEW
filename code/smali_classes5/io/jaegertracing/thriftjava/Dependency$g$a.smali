@@ -32,7 +32,6 @@
 
     const-string v0, "getDependenciesForTrace"
 
-    .line 1
     invoke-direct {p0, v0}, Lorg/apache/thrift/ProcessFunction;-><init>(Ljava/lang/String;)V
 
     return-void
@@ -43,7 +42,6 @@
 .method public a()Lio/jaegertracing/thriftjava/Dependency$getDependenciesForTrace_args;
     .locals 1
 
-    .line 1
     new-instance v0, Lio/jaegertracing/thriftjava/Dependency$getDependenciesForTrace_args;
 
     invoke-direct {v0}, Lio/jaegertracing/thriftjava/Dependency$getDependenciesForTrace_args;-><init>()V
@@ -68,12 +66,10 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lio/jaegertracing/thriftjava/Dependency$getDependenciesForTrace_result;
 
     invoke-direct {v0}, Lio/jaegertracing/thriftjava/Dependency$getDependenciesForTrace_result;-><init>()V
 
-    .line 2
     iget-object p2, p2, Lio/jaegertracing/thriftjava/Dependency$getDependenciesForTrace_args;->traceId:Ljava/lang/String;
 
     invoke-interface {p1, p2}, Lio/jaegertracing/thriftjava/Dependency$f;->j(Ljava/lang/String;)Lio/jaegertracing/thriftjava/Dependencies;
@@ -88,7 +84,6 @@
 .method public bridge synthetic getEmptyArgsInstance()Lorg/apache/thrift/TBase;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lio/jaegertracing/thriftjava/Dependency$g$a;->a()Lio/jaegertracing/thriftjava/Dependency$getDependenciesForTrace_args;
 
     move-result-object v0
@@ -104,7 +99,6 @@
         }
     .end annotation
 
-    .line 1
     check-cast p1, Lio/jaegertracing/thriftjava/Dependency$f;
 
     check-cast p2, Lio/jaegertracing/thriftjava/Dependency$getDependenciesForTrace_args;

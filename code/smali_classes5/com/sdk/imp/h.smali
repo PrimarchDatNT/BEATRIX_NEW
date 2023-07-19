@@ -36,7 +36,6 @@
 .method public constructor <init>(Landroid/content/Context;Ljava/lang/String;Lcom/sdk/imp/a$a;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1, p2, p3}, Lcom/sdk/imp/a;-><init>(Landroid/content/Context;Ljava/lang/String;Lcom/sdk/imp/a$a;)V
 
     return-void
@@ -45,7 +44,6 @@
 .method static synthetic g(Lcom/sdk/imp/h;Lcom/sdk/imp/VastModel;)Lcom/sdk/imp/VastModel;
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/sdk/imp/h;->j:Lcom/sdk/imp/VastModel;
 
     return-object p1
@@ -54,7 +52,6 @@
 .method static synthetic h(Lcom/sdk/imp/h;)Lcom/sdk/api/VideoCardAd;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lcom/sdk/imp/h;->e:Lcom/sdk/api/VideoCardAd;
 
     return-object p0
@@ -63,7 +60,6 @@
 .method static synthetic i(Lcom/sdk/imp/h;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/sdk/imp/h;->n()V
 
     return-void
@@ -72,7 +68,6 @@
 .method static synthetic j(Lcom/sdk/imp/h;)Landroid/widget/TextView;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lcom/sdk/imp/h;->g:Landroid/widget/TextView;
 
     return-object p0
@@ -81,7 +76,6 @@
 .method static synthetic k(Lcom/sdk/imp/h;)Landroid/animation/ValueAnimator;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lcom/sdk/imp/h;->m:Landroid/animation/ValueAnimator;
 
     return-object p0
@@ -90,7 +84,6 @@
 .method static synthetic l(Lcom/sdk/imp/h;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/sdk/imp/h;->q()V
 
     return-void
@@ -128,7 +121,6 @@
 .method private n()V
     .locals 14
 
-    .line 1
     iget-object v0, p0, Lcom/sdk/imp/h;->e:Lcom/sdk/api/VideoCardAd;
 
     const/16 v1, 0xb
@@ -139,7 +131,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-virtual {v0}, Lcom/sdk/api/VideoCardAd;->R()Landroid/view/View;
 
     move-result-object v0
@@ -150,15 +141,12 @@
 
     check-cast v0, Landroid/widget/RelativeLayout$LayoutParams;
 
-    .line 3
     invoke-virtual {v0, v1, v3}, Landroid/widget/RelativeLayout$LayoutParams;->addRule(II)V
 
     const/16 v4, 0x9
 
-    .line 4
     invoke-virtual {v0, v4}, Landroid/widget/RelativeLayout$LayoutParams;->addRule(I)V
 
-    .line 5
     iget-object v4, p0, Lcom/sdk/imp/a;->a:Landroid/content/Context;
 
     invoke-static {v2, v4}, Lf/q/b/e;->e(FLandroid/content/Context;)I
@@ -167,7 +155,6 @@
 
     iput v4, v0, Landroid/widget/RelativeLayout$LayoutParams;->leftMargin:I
 
-    .line 6
     iget-object v4, p0, Lcom/sdk/imp/a;->a:Landroid/content/Context;
 
     invoke-static {v2, v4}, Lf/q/b/e;->e(FLandroid/content/Context;)I
@@ -176,7 +163,6 @@
 
     iput v4, v0, Landroid/widget/RelativeLayout$LayoutParams;->topMargin:I
 
-    .line 7
     iget-object v4, p0, Lcom/sdk/imp/a;->a:Landroid/content/Context;
 
     const/high16 v5, 0x41d00000    # 26.0f
@@ -187,7 +173,6 @@
 
     iput v4, v0, Landroid/widget/RelativeLayout$LayoutParams;->width:I
 
-    .line 8
     iget-object v4, p0, Lcom/sdk/imp/a;->a:Landroid/content/Context;
 
     invoke-static {v5, v4}, Lf/q/b/e;->e(FLandroid/content/Context;)I
@@ -196,7 +181,6 @@
 
     iput v4, v0, Landroid/widget/RelativeLayout$LayoutParams;->height:I
 
-    .line 9
     iget-object v4, p0, Lcom/sdk/imp/h;->e:Lcom/sdk/api/VideoCardAd;
 
     invoke-virtual {v4}, Lcom/sdk/api/VideoCardAd;->R()Landroid/view/View;
@@ -205,39 +189,33 @@
 
     invoke-virtual {v4, v0}, Landroid/view/View;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
 
-    .line 10
     :cond_0
     iget-object v0, p0, Lcom/sdk/imp/h;->j:Lcom/sdk/imp/VastModel;
 
     if-eqz v0, :cond_9
 
-    .line 11
     invoke-virtual {v0}, Lcom/sdk/imp/VastModel;->getButtonTxt()Ljava/lang/String;
 
     move-result-object v0
 
-    .line 12
     iget-object v4, p0, Lcom/sdk/imp/h;->j:Lcom/sdk/imp/VastModel;
 
     invoke-virtual {v4}, Lcom/sdk/imp/VastModel;->getAdTitle()Ljava/lang/String;
 
     move-result-object v4
 
-    .line 13
     iget-object v5, p0, Lcom/sdk/imp/h;->j:Lcom/sdk/imp/VastModel;
 
     invoke-virtual {v5}, Lcom/sdk/imp/VastModel;->getIconUrl()Ljava/lang/String;
 
     move-result-object v5
 
-    .line 14
     iget-object v6, p0, Lcom/sdk/imp/h;->j:Lcom/sdk/imp/VastModel;
 
     invoke-virtual {v6}, Lcom/sdk/imp/VastModel;->getDescription()Ljava/lang/String;
 
     move-result-object v6
 
-    .line 15
     invoke-static {v4}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v7
@@ -265,7 +243,6 @@
     :cond_1
     const/4 v7, 0x0
 
-    .line 16
     :goto_0
     invoke-static {v6}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
@@ -290,7 +267,6 @@
     :cond_2
     const/4 v10, 0x0
 
-    .line 17
     :goto_1
     invoke-static {v5}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
@@ -315,7 +291,6 @@
     :cond_3
     const/4 v8, 0x0
 
-    .line 18
     :goto_2
     invoke-direct {p0, v7, v10, v8}, Lcom/sdk/imp/h;->m(ZZZ)Z
 
@@ -327,7 +302,6 @@
 
     if-eqz v11, :cond_7
 
-    .line 19
     invoke-direct {p0}, Lcom/sdk/imp/h;->o()Landroid/view/View;
 
     move-result-object v1
@@ -336,7 +310,6 @@
 
     if-eqz v7, :cond_4
 
-    .line 20
     iget-object v1, p0, Lcom/sdk/imp/h;->f:Landroid/widget/TextView;
 
     invoke-virtual {v1, v4}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
@@ -345,13 +318,11 @@
 
     goto :goto_3
 
-    .line 21
     :cond_4
     iget-object v1, p0, Lcom/sdk/imp/h;->f:Landroid/widget/TextView;
 
     invoke-virtual {v1, v6}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 22
     :goto_3
     iget-object v1, p0, Lcom/sdk/imp/h;->i:Landroid/widget/ImageView;
 
@@ -363,21 +334,18 @@
 
     if-eqz v8, :cond_5
 
-    .line 23
     iget-object v4, p0, Lcom/sdk/imp/a;->a:Landroid/content/Context;
 
     iget-object v7, p0, Lcom/sdk/imp/h;->i:Landroid/widget/ImageView;
 
     invoke-static {v4, v7, v5}, Lcom/sdk/imp/b;->a(Landroid/content/Context;Landroid/widget/ImageView;Ljava/lang/String;)V
 
-    .line 24
     iget-object v4, p0, Lcom/sdk/imp/h;->i:Landroid/widget/ImageView;
 
     invoke-virtual {v4, v3}, Landroid/widget/ImageView;->setVisibility(I)V
 
     goto :goto_4
 
-    .line 25
     :cond_5
     iget-object v3, p0, Lcom/sdk/imp/h;->i:Landroid/widget/ImageView;
 
@@ -388,18 +356,15 @@
 
     if-nez v9, :cond_6
 
-    .line 26
     iget-object v3, p0, Lcom/sdk/imp/h;->h:Landroid/widget/TextView;
 
     invoke-virtual {v3, v6}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 27
     :cond_6
     iget-object v3, p0, Lcom/sdk/imp/h;->l:Landroid/widget/RatingBar;
 
     invoke-virtual {v3, v1}, Landroid/widget/RatingBar;->setVisibility(I)V
 
-    .line 28
     iget-object v1, p0, Lcom/sdk/imp/h;->e:Lcom/sdk/api/VideoCardAd;
 
     invoke-virtual {v1}, Lcom/sdk/api/VideoCardAd;->Z()Landroid/view/View;
@@ -412,7 +377,6 @@
 
     check-cast v1, Landroid/widget/RelativeLayout$LayoutParams;
 
-    .line 29
     iget-object v3, p0, Lcom/sdk/imp/a;->a:Landroid/content/Context;
 
     const/high16 v4, 0x429c0000    # 78.0f
@@ -423,7 +387,6 @@
 
     iput v3, v1, Landroid/widget/RelativeLayout$LayoutParams;->bottomMargin:I
 
-    .line 30
     iget-object v3, p0, Lcom/sdk/imp/a;->a:Landroid/content/Context;
 
     invoke-static {v2, v3}, Lf/q/b/e;->e(FLandroid/content/Context;)I
@@ -432,7 +395,6 @@
 
     iput v2, v1, Landroid/widget/RelativeLayout$LayoutParams;->leftMargin:I
 
-    .line 31
     iget-object v2, p0, Lcom/sdk/imp/h;->e:Lcom/sdk/api/VideoCardAd;
 
     invoke-virtual {v2}, Lcom/sdk/api/VideoCardAd;->Z()Landroid/view/View;
@@ -441,7 +403,6 @@
 
     invoke-virtual {v2, v1}, Landroid/view/View;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
 
-    .line 32
     iget-object v1, p0, Lcom/sdk/imp/h;->e:Lcom/sdk/api/VideoCardAd;
 
     invoke-virtual {v1}, Lcom/sdk/api/VideoCardAd;->O()Landroid/view/View;
@@ -454,7 +415,6 @@
 
     check-cast v1, Landroid/widget/RelativeLayout$LayoutParams;
 
-    .line 33
     iget-object v2, p0, Lcom/sdk/imp/a;->a:Landroid/content/Context;
 
     invoke-static {v4, v2}, Lf/q/b/e;->e(FLandroid/content/Context;)I
@@ -463,7 +423,6 @@
 
     iput v2, v1, Landroid/widget/RelativeLayout$LayoutParams;->bottomMargin:I
 
-    .line 34
     iget-object v2, p0, Lcom/sdk/imp/h;->e:Lcom/sdk/api/VideoCardAd;
 
     invoke-virtual {v2}, Lcom/sdk/api/VideoCardAd;->O()Landroid/view/View;
@@ -472,7 +431,6 @@
 
     invoke-virtual {v2, v1}, Landroid/view/View;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
 
-    .line 35
     new-instance v1, Landroid/widget/RelativeLayout$LayoutParams;
 
     const/high16 v2, 0x42840000    # 66.0f
@@ -485,12 +443,10 @@
 
     invoke-direct {v1, v12, v2}, Landroid/widget/RelativeLayout$LayoutParams;-><init>(II)V
 
-    .line 36
     invoke-virtual {v1, v13}, Landroid/widget/RelativeLayout$LayoutParams;->addRule(I)V
 
     goto :goto_5
 
-    .line 37
     :cond_7
     invoke-direct {p0}, Lcom/sdk/imp/h;->p()Landroid/view/View;
 
@@ -498,20 +454,16 @@
 
     iput-object v3, p0, Lcom/sdk/imp/h;->k:Landroid/view/View;
 
-    .line 38
     new-instance v3, Landroid/widget/RelativeLayout$LayoutParams;
 
     const/4 v4, -0x2
 
     invoke-direct {v3, v4, v4}, Landroid/widget/RelativeLayout$LayoutParams;-><init>(II)V
 
-    .line 39
     invoke-virtual {v3, v13, v12}, Landroid/widget/RelativeLayout$LayoutParams;->addRule(II)V
 
-    .line 40
     invoke-virtual {v3, v1}, Landroid/widget/RelativeLayout$LayoutParams;->addRule(I)V
 
-    .line 41
     iget-object v1, p0, Lcom/sdk/imp/h;->e:Lcom/sdk/api/VideoCardAd;
 
     invoke-virtual {v1}, Lcom/sdk/api/VideoCardAd;->Z()Landroid/view/View;
@@ -524,7 +476,6 @@
 
     check-cast v1, Landroid/widget/RelativeLayout$LayoutParams;
 
-    .line 42
     iget-object v4, p0, Lcom/sdk/imp/a;->a:Landroid/content/Context;
 
     const/high16 v5, 0x41980000    # 19.0f
@@ -535,7 +486,6 @@
 
     iput v4, v1, Landroid/widget/RelativeLayout$LayoutParams;->bottomMargin:I
 
-    .line 43
     iget-object v4, p0, Lcom/sdk/imp/a;->a:Landroid/content/Context;
 
     invoke-static {v2, v4}, Lf/q/b/e;->e(FLandroid/content/Context;)I
@@ -544,7 +494,6 @@
 
     iput v2, v1, Landroid/widget/RelativeLayout$LayoutParams;->leftMargin:I
 
-    .line 44
     iget-object v2, p0, Lcom/sdk/imp/h;->e:Lcom/sdk/api/VideoCardAd;
 
     invoke-virtual {v2}, Lcom/sdk/api/VideoCardAd;->Z()Landroid/view/View;
@@ -553,7 +502,6 @@
 
     invoke-virtual {v2, v1}, Landroid/view/View;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
 
-    .line 45
     iget-object v1, p0, Lcom/sdk/imp/h;->e:Lcom/sdk/api/VideoCardAd;
 
     invoke-virtual {v1}, Lcom/sdk/api/VideoCardAd;->O()Landroid/view/View;
@@ -566,7 +514,6 @@
 
     check-cast v1, Landroid/widget/RelativeLayout$LayoutParams;
 
-    .line 46
     iget-object v2, p0, Lcom/sdk/imp/a;->a:Landroid/content/Context;
 
     invoke-static {v5, v2}, Lf/q/b/e;->e(FLandroid/content/Context;)I
@@ -575,7 +522,6 @@
 
     iput v2, v1, Landroid/widget/RelativeLayout$LayoutParams;->bottomMargin:I
 
-    .line 47
     iget-object v2, p0, Lcom/sdk/imp/h;->e:Lcom/sdk/api/VideoCardAd;
 
     invoke-virtual {v2}, Lcom/sdk/api/VideoCardAd;->O()Landroid/view/View;
@@ -589,21 +535,18 @@
     :goto_5
     if-eqz v0, :cond_8
 
-    .line 48
     invoke-virtual {v0}, Ljava/lang/String;->isEmpty()Z
 
     move-result v2
 
     if-nez v2, :cond_8
 
-    .line 49
     iget-object v2, p0, Lcom/sdk/imp/h;->g:Landroid/widget/TextView;
 
     invoke-virtual {v2, v0}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
     goto :goto_6
 
-    .line 50
     :cond_8
     iget-object v0, p0, Lcom/sdk/imp/h;->g:Landroid/widget/TextView;
 
@@ -611,7 +554,6 @@
 
     invoke-virtual {v0, v2}, Landroid/widget/TextView;->setText(I)V
 
-    .line 51
     :goto_6
     iget-object v0, p0, Lcom/sdk/imp/h;->e:Lcom/sdk/api/VideoCardAd;
 
@@ -625,7 +567,6 @@
 
     invoke-virtual {v0, v2, v1}, Landroid/widget/RelativeLayout;->addView(Landroid/view/View;Landroid/view/ViewGroup$LayoutParams;)V
 
-    .line 52
     iget-object v0, p0, Lcom/sdk/imp/h;->k:Landroid/view/View;
 
     new-instance v1, Lcom/sdk/imp/h$a;
@@ -641,7 +582,6 @@
 .method private o()Landroid/view/View;
     .locals 3
 
-    .line 1
     iget-object v0, p0, Lcom/sdk/imp/a;->a:Landroid/content/Context;
 
     sget v1, Lcom/sdk/api/i$g;->C:I
@@ -652,7 +592,6 @@
 
     move-result-object v0
 
-    .line 2
     sget v1, Lcom/sdk/api/i$e;->P0:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -663,7 +602,6 @@
 
     iput-object v1, p0, Lcom/sdk/imp/h;->f:Landroid/widget/TextView;
 
-    .line 3
     sget v1, Lcom/sdk/api/i$e;->O0:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -674,7 +612,6 @@
 
     iput-object v1, p0, Lcom/sdk/imp/h;->i:Landroid/widget/ImageView;
 
-    .line 4
     sget v1, Lcom/sdk/api/i$e;->N0:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -685,7 +622,6 @@
 
     iput-object v1, p0, Lcom/sdk/imp/h;->h:Landroid/widget/TextView;
 
-    .line 5
     sget v1, Lcom/sdk/api/i$e;->M0:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -696,7 +632,6 @@
 
     iput-object v1, p0, Lcom/sdk/imp/h;->g:Landroid/widget/TextView;
 
-    .line 6
     sget v1, Lcom/sdk/api/i$e;->P:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -713,7 +648,6 @@
 .method private p()Landroid/view/View;
     .locals 3
 
-    .line 1
     iget-object v0, p0, Lcom/sdk/imp/a;->a:Landroid/content/Context;
 
     sget v1, Lcom/sdk/api/i$g;->D:I
@@ -724,7 +658,6 @@
 
     move-result-object v0
 
-    .line 2
     sget v1, Lcom/sdk/api/i$e;->M0:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -744,7 +677,6 @@
         value = 0xb
     .end annotation
 
-    .line 1
     sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
 
     const/16 v1, 0xb
@@ -758,7 +690,6 @@
 
     new-array v0, v0, [I
 
-    .line 2
     fill-array-data v0, :array_0
 
     invoke-static {v0}, Landroid/animation/ValueAnimator;->ofInt([I)Landroid/animation/ValueAnimator;
@@ -769,24 +700,20 @@
 
     const-wide/16 v1, 0x55
 
-    .line 3
     invoke-virtual {v0, v1, v2}, Landroid/animation/ValueAnimator;->setDuration(J)Landroid/animation/ValueAnimator;
 
-    .line 4
     iget-object v0, p0, Lcom/sdk/imp/h;->m:Landroid/animation/ValueAnimator;
 
     const/4 v1, 0x1
 
     invoke-virtual {v0, v1}, Landroid/animation/ValueAnimator;->setRepeatMode(I)V
 
-    .line 5
     iget-object v0, p0, Lcom/sdk/imp/h;->m:Landroid/animation/ValueAnimator;
 
     const/4 v1, 0x6
 
     invoke-virtual {v0, v1}, Landroid/animation/ValueAnimator;->setRepeatCount(I)V
 
-    .line 6
     iget-object v0, p0, Lcom/sdk/imp/h;->m:Landroid/animation/ValueAnimator;
 
     new-instance v1, Landroid/view/animation/DecelerateInterpolator;
@@ -795,7 +722,6 @@
 
     invoke-virtual {v0, v1}, Landroid/animation/ValueAnimator;->setInterpolator(Landroid/animation/TimeInterpolator;)V
 
-    .line 7
     iget-object v0, p0, Lcom/sdk/imp/h;->m:Landroid/animation/ValueAnimator;
 
     new-instance v1, Lcom/sdk/imp/h$b;
@@ -804,7 +730,6 @@
 
     invoke-virtual {v0, v1}, Landroid/animation/ValueAnimator;->addUpdateListener(Landroid/animation/ValueAnimator$AnimatorUpdateListener;)V
 
-    .line 8
     iget-object v0, p0, Lcom/sdk/imp/h;->m:Landroid/animation/ValueAnimator;
 
     new-instance v1, Lcom/sdk/imp/h$c;
@@ -813,7 +738,6 @@
 
     invoke-virtual {v0, v1}, Landroid/animation/ValueAnimator;->addListener(Landroid/animation/Animator$AnimatorListener;)V
 
-    .line 9
     iget-object v0, p0, Lcom/sdk/imp/h;->m:Landroid/animation/ValueAnimator;
 
     invoke-virtual {v0}, Landroid/animation/ValueAnimator;->start()V
@@ -833,22 +757,18 @@
 .method private r()V
     .locals 2
 
-    .line 1
     sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
 
     const/16 v1, 0xb
 
     if-lt v0, v1, :cond_0
 
-    .line 2
     iget-object v0, p0, Lcom/sdk/imp/h;->m:Landroid/animation/ValueAnimator;
 
     if-eqz v0, :cond_0
 
-    .line 3
     invoke-virtual {v0}, Landroid/animation/ValueAnimator;->end()V
 
-    .line 4
     iget-object v0, p0, Lcom/sdk/imp/h;->m:Landroid/animation/ValueAnimator;
 
     invoke-virtual {v0}, Landroid/animation/ValueAnimator;->cancel()V
@@ -862,15 +782,12 @@
 .method public a(Lcom/sdk/imp/internal/loader/Ad;)V
     .locals 4
 
-    .line 1
     iget-object v0, p0, Lcom/sdk/imp/h;->e:Lcom/sdk/api/VideoCardAd;
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-virtual {v0}, Lcom/sdk/api/VideoCardAd;->H()V
 
-    .line 3
     :cond_0
     new-instance v0, Lcom/sdk/api/VideoCardAd;
 
@@ -886,32 +803,26 @@
 
     const/4 v1, 0x0
 
-    .line 4
     invoke-virtual {v0, v1}, Lcom/sdk/api/VideoCardAd;->I0(Z)V
 
-    .line 5
     iget-object v0, p0, Lcom/sdk/imp/h;->e:Lcom/sdk/api/VideoCardAd;
 
     invoke-virtual {v0, v1}, Lcom/sdk/api/VideoCardAd;->F0(Z)V
 
-    .line 6
     iget-object v0, p0, Lcom/sdk/imp/h;->e:Lcom/sdk/api/VideoCardAd;
 
     invoke-virtual {v0, v1}, Lcom/sdk/api/VideoCardAd;->J0(Z)V
 
-    .line 7
     iget-object v0, p0, Lcom/sdk/imp/h;->e:Lcom/sdk/api/VideoCardAd;
 
     invoke-virtual {v0, v1}, Lcom/sdk/api/VideoCardAd;->H0(Z)V
 
-    .line 8
     iget-object v0, p0, Lcom/sdk/imp/h;->e:Lcom/sdk/api/VideoCardAd;
 
     const/4 v1, 0x1
 
     invoke-virtual {v0, v1}, Lcom/sdk/api/VideoCardAd;->z0(Z)V
 
-    .line 9
     iget-object v0, p0, Lcom/sdk/imp/h;->e:Lcom/sdk/api/VideoCardAd;
 
     invoke-virtual {p1}, Lcom/sdk/imp/internal/loader/Ad;->isVideoOnlyWifi()Z
@@ -920,7 +831,6 @@
 
     invoke-virtual {v0, v1}, Lcom/sdk/api/VideoCardAd;->Q0(Z)V
 
-    .line 10
     iget-object v0, p0, Lcom/sdk/imp/h;->e:Lcom/sdk/api/VideoCardAd;
 
     new-instance v1, Lcom/sdk/imp/h$d;
@@ -929,7 +839,6 @@
 
     invoke-virtual {v0, v1}, Lcom/sdk/api/VideoCardAd;->M0(Lcom/sdk/api/VideoCardAd$j;)V
 
-    .line 11
     iget-object v0, p0, Lcom/sdk/imp/h;->e:Lcom/sdk/api/VideoCardAd;
 
     new-instance v1, Lcom/sdk/imp/h$e;
@@ -944,7 +853,6 @@
 .method public b()Z
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/sdk/imp/h;->e:Lcom/sdk/api/VideoCardAd;
 
     if-eqz v0, :cond_0
@@ -969,15 +877,12 @@
 .method public c()V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/sdk/imp/h;->e:Lcom/sdk/api/VideoCardAd;
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-virtual {v0}, Lcom/sdk/api/VideoCardAd;->H()V
 
-    .line 3
     :cond_0
     invoke-direct {p0}, Lcom/sdk/imp/h;->r()V
 
@@ -985,7 +890,6 @@
 
     const-string v1, "CommonVideoAdController onDestroy"
 
-    .line 4
     invoke-static {v0, v1}, Lf/q/b/g;->b(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
@@ -994,12 +898,10 @@
 .method public d()V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/sdk/imp/h;->e:Lcom/sdk/api/VideoCardAd;
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-virtual {v0}, Lcom/sdk/api/VideoCardAd;->t0()V
 
     :cond_0
@@ -1009,12 +911,10 @@
 .method public e()V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/sdk/imp/h;->e:Lcom/sdk/api/VideoCardAd;
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-virtual {v0}, Lcom/sdk/api/VideoCardAd;->u0()V
 
     :cond_0
@@ -1024,19 +924,16 @@
 .method public f(Z)V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/sdk/imp/h;->e:Lcom/sdk/api/VideoCardAd;
 
     if-eqz v0, :cond_1
 
     if-eqz p1, :cond_0
 
-    .line 2
     invoke-virtual {v0}, Lcom/sdk/api/VideoCardAd;->p0()V
 
     goto :goto_0
 
-    .line 3
     :cond_0
     invoke-virtual {v0}, Lcom/sdk/api/VideoCardAd;->S0()V
 

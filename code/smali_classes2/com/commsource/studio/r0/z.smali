@@ -29,7 +29,6 @@
 
     const/4 v2, 0x2
 
-    .line 1
     invoke-direct {p0, v0, v1, v2, v1}, Lcom/commsource/studio/r0/s;-><init>(Ljava/lang/String;Ljava/lang/String;ILcotlin/jvm/internal/u;)V
 
     iput-object p1, p0, Lcom/commsource/studio/r0/z;->j:Lcom/commsource/studio/effect/d;
@@ -46,10 +45,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0}, Lcom/commsource/studio/r0/s;->h()V
 
-    .line 2
     const-class v1, Lcom/commsource/studio/y;
 
     invoke-virtual {p0, v1}, Lcom/commsource/camera/newrender/renderproxy/n;->c(Ljava/lang/Class;)Ljava/lang/Object;
@@ -60,7 +57,6 @@
 
     if-eqz v1, :cond_0
 
-    .line 3
     invoke-virtual {v1}, Lcom/commsource/studio/y;->e()Landroid/graphics/Bitmap;
 
     move-result-object v1
@@ -71,14 +67,12 @@
 
     const/16 v2, 0x1e
 
-    .line 4
     invoke-static {v1, v2}, Lcom/meitu/core/processor/EnhanceProcessor;->getShadowHighLightMask(Lcom/meitu/core/types/NativeBitmap;I)Lcom/meitu/core/types/NativeBitmap;
 
     move-result-object v2
 
     if-eqz v2, :cond_0
 
-    .line 5
     invoke-virtual {v2}, Lcom/meitu/core/types/NativeBitmap;->getImage()Landroid/graphics/Bitmap;
 
     move-result-object v3
@@ -89,7 +83,6 @@
 
     move-result v3
 
-    .line 6
     invoke-virtual {p0}, Lcom/commsource/studio/r0/s;->w()Lcom/meitu/render/b;
 
     move-result-object v4
@@ -98,13 +91,10 @@
 
     invoke-virtual {v4, v5, v3}, Lcom/meitu/core/MTFilterGLRender;->setInputCustomMask(Ljava/lang/String;I)V
 
-    .line 7
     invoke-virtual {v2}, Lcom/meitu/core/types/NativeBitmap;->recycle()V
 
-    .line 8
     invoke-virtual {v1}, Lcom/meitu/core/types/NativeBitmap;->recycle()V
 
-    .line 9
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -118,7 +108,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/studio/r0/s;->w()Lcom/meitu/render/b;
 
     move-result-object v1
@@ -137,7 +126,6 @@
 
     invoke-virtual {v1, v3, v4, v2, v5}, Lcom/meitu/core/MTFilterGLRender;->changeUniformValue(ILjava/lang/String;FI)V
 
-    .line 2
     invoke-super/range {p0 .. p7}, Lcom/commsource/studio/r0/s;->j(IIIIIIZ)I
 
     move-result p1

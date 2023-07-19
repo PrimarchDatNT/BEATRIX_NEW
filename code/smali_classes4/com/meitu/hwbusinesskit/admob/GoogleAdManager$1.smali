@@ -26,7 +26,6 @@
 .method constructor <init>(Lcom/meitu/hwbusinesskit/admob/GoogleAdManager;Ljava/lang/String;Landroid/content/Context;Ljava/lang/String;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/hwbusinesskit/admob/GoogleAdManager$1;->this$0:Lcom/meitu/hwbusinesskit/admob/GoogleAdManager;
 
     iput-object p3, p0, Lcom/meitu/hwbusinesskit/admob/GoogleAdManager$1;->val$context:Landroid/content/Context;
@@ -47,7 +46,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/hwbusinesskit/admob/GoogleAdManager$1;->this$0:Lcom/meitu/hwbusinesskit/admob/GoogleAdManager;
 
     iget-object v2, p0, Lcom/meitu/hwbusinesskit/admob/GoogleAdManager$1;->val$context:Landroid/content/Context;
@@ -56,7 +54,6 @@
 
     invoke-static {v1, v2, v3}, Lcom/meitu/hwbusinesskit/admob/GoogleAdManager;->access$000(Lcom/meitu/hwbusinesskit/admob/GoogleAdManager;Landroid/content/Context;Ljava/lang/String;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

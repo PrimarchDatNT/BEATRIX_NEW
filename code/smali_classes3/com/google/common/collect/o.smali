@@ -36,7 +36,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -53,7 +52,6 @@
 
     if-gt p0, v0, :cond_2
 
-    .line 1
     invoke-static {p0}, Ljava/lang/Integer;->highestOneBit(I)I
 
     move-result v0
@@ -64,7 +62,6 @@
 
     if-gt p0, v0, :cond_0
 
-    .line 2
     new-array p0, p0, [B
 
     return-object p0
@@ -74,18 +71,15 @@
 
     if-gt p0, v0, :cond_1
 
-    .line 3
     new-array p0, p0, [S
 
     return-object p0
 
-    .line 4
     :cond_1
     new-array p0, p0, [I
 
     return-object p0
 
-    .line 5
     :cond_2
     new-instance v0, Ljava/lang/IllegalArgumentException;
 
@@ -177,14 +171,12 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-static {p0}, Lcom/google/common/collect/e1;->d(Ljava/lang/Object;)I
 
     move-result v0
 
     and-int v1, v0, p2
 
-    .line 2
     invoke-static {p3, v1}, Lcom/google/common/collect/o;->h(Ljava/lang/Object;I)I
 
     move-result v2
@@ -195,7 +187,6 @@
 
     return v3
 
-    .line 3
     :cond_0
     invoke-static {v0, p2}, Lcom/google/common/collect/o;->b(II)I
 
@@ -206,10 +197,8 @@
     :goto_0
     add-int/lit8 v2, v2, -0x1
 
-    .line 4
     aget v5, p4, v2
 
-    .line 5
     invoke-static {v5, p2}, Lcom/google/common/collect/o;->b(II)I
 
     move-result v6
@@ -218,7 +207,6 @@
 
     aget-object v6, p5, v2
 
-    .line 6
     invoke-static {p0, v6}, Lcom/google/common/base/q;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v6
@@ -229,14 +217,12 @@
 
     aget-object v6, p6, v2
 
-    .line 7
     invoke-static {p1, v6}, Lcom/google/common/base/q;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v6
 
     if-eqz v6, :cond_3
 
-    .line 8
     :cond_1
     invoke-static {v5, p2}, Lcom/google/common/collect/o;->c(II)I
 
@@ -244,12 +230,10 @@
 
     if-ne v4, v3, :cond_2
 
-    .line 9
     invoke-static {p3, v1, p0}, Lcom/google/common/collect/o;->i(Ljava/lang/Object;II)V
 
     goto :goto_1
 
-    .line 10
     :cond_2
     aget p1, p4, v4
 
@@ -262,7 +246,6 @@
     :goto_1
     return v2
 
-    .line 11
     :cond_3
     invoke-static {v5, p2}, Lcom/google/common/collect/o;->c(II)I
 
@@ -285,34 +268,29 @@
 .method static g(Ljava/lang/Object;)V
     .locals 2
 
-    .line 1
     instance-of v0, p0, [B
 
     const/4 v1, 0x0
 
     if-eqz v0, :cond_0
 
-    .line 2
     check-cast p0, [B
 
     invoke-static {p0, v1}, Ljava/util/Arrays;->fill([BB)V
 
     goto :goto_0
 
-    .line 3
     :cond_0
     instance-of v0, p0, [S
 
     if-eqz v0, :cond_1
 
-    .line 4
     check-cast p0, [S
 
     invoke-static {p0, v1}, Ljava/util/Arrays;->fill([SS)V
 
     goto :goto_0
 
-    .line 5
     :cond_1
     check-cast p0, [I
 
@@ -325,12 +303,10 @@
 .method static h(Ljava/lang/Object;I)I
     .locals 1
 
-    .line 1
     instance-of v0, p0, [B
 
     if-eqz v0, :cond_0
 
-    .line 2
     check-cast p0, [B
 
     aget-byte p0, p0, p1
@@ -339,13 +315,11 @@
 
     return p0
 
-    .line 3
     :cond_0
     instance-of v0, p0, [S
 
     if-eqz v0, :cond_1
 
-    .line 4
     check-cast p0, [S
 
     aget-short p0, p0, p1
@@ -356,7 +330,6 @@
 
     return p0
 
-    .line 5
     :cond_1
     check-cast p0, [I
 
@@ -368,12 +341,10 @@
 .method static i(Ljava/lang/Object;II)V
     .locals 1
 
-    .line 1
     instance-of v0, p0, [B
 
     if-eqz v0, :cond_0
 
-    .line 2
     check-cast p0, [B
 
     int-to-byte p2, p2
@@ -382,13 +353,11 @@
 
     goto :goto_0
 
-    .line 3
     :cond_0
     instance-of v0, p0, [S
 
     if-eqz v0, :cond_1
 
-    .line 4
     check-cast p0, [S
 
     int-to-short p2, p2
@@ -397,7 +366,6 @@
 
     goto :goto_0
 
-    .line 5
     :cond_1
     check-cast p0, [I
 
@@ -414,7 +382,6 @@
 
     const-wide/high16 v0, 0x3ff0000000000000L    # 1.0
 
-    .line 1
     invoke-static {p0, v0, v1}, Lcom/google/common/collect/e1;->a(ID)I
 
     move-result p0

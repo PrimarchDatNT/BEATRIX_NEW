@@ -19,7 +19,6 @@
 .method constructor <init>(Lcom/google/android/gms/common/api/k;Lcom/google/android/gms/tasks/l;Lcom/google/android/gms/common/internal/a0$a;Lcom/google/android/gms/common/internal/a0$b;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/android/gms/common/internal/u0;->a:Lcom/google/android/gms/common/api/k;
 
     iput-object p2, p0, Lcom/google/android/gms/common/internal/u0;->b:Lcom/google/android/gms/tasks/l;
@@ -38,14 +37,12 @@
 .method public final a(Lcom/google/android/gms/common/api/Status;)V
     .locals 3
 
-    .line 1
     invoke-virtual {p1}, Lcom/google/android/gms/common/api/Status;->V()Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
-    .line 2
     iget-object p1, p0, Lcom/google/android/gms/common/internal/u0;->a:Lcom/google/android/gms/common/api/k;
 
     const-wide/16 v0, 0x0
@@ -56,7 +53,6 @@
 
     move-result-object p1
 
-    .line 3
     iget-object v0, p0, Lcom/google/android/gms/common/internal/u0;->b:Lcom/google/android/gms/tasks/l;
 
     iget-object v1, p0, Lcom/google/android/gms/common/internal/u0;->c:Lcom/google/android/gms/common/internal/a0$a;
@@ -69,7 +65,6 @@
 
     return-void
 
-    .line 4
     :cond_0
     iget-object v0, p0, Lcom/google/android/gms/common/internal/u0;->b:Lcom/google/android/gms/tasks/l;
 

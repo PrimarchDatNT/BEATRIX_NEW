@@ -40,7 +40,6 @@
 .method static constructor <clinit>()V
     .locals 11
 
-    .line 1
     new-instance v0, Lcom/google/firebase/installations/local/PersistedInstallation$RegistrationStatus;
 
     const-string v1, "ATTEMPT_MIGRATION"
@@ -51,7 +50,6 @@
 
     sput-object v0, Lcom/google/firebase/installations/local/PersistedInstallation$RegistrationStatus;->ATTEMPT_MIGRATION:Lcom/google/firebase/installations/local/PersistedInstallation$RegistrationStatus;
 
-    .line 2
     new-instance v1, Lcom/google/firebase/installations/local/PersistedInstallation$RegistrationStatus;
 
     const-string v3, "NOT_GENERATED"
@@ -62,7 +60,6 @@
 
     sput-object v1, Lcom/google/firebase/installations/local/PersistedInstallation$RegistrationStatus;->NOT_GENERATED:Lcom/google/firebase/installations/local/PersistedInstallation$RegistrationStatus;
 
-    .line 3
     new-instance v3, Lcom/google/firebase/installations/local/PersistedInstallation$RegistrationStatus;
 
     const-string v5, "UNREGISTERED"
@@ -73,7 +70,6 @@
 
     sput-object v3, Lcom/google/firebase/installations/local/PersistedInstallation$RegistrationStatus;->UNREGISTERED:Lcom/google/firebase/installations/local/PersistedInstallation$RegistrationStatus;
 
-    .line 4
     new-instance v5, Lcom/google/firebase/installations/local/PersistedInstallation$RegistrationStatus;
 
     const-string v7, "REGISTERED"
@@ -84,7 +80,6 @@
 
     sput-object v5, Lcom/google/firebase/installations/local/PersistedInstallation$RegistrationStatus;->REGISTERED:Lcom/google/firebase/installations/local/PersistedInstallation$RegistrationStatus;
 
-    .line 5
     new-instance v7, Lcom/google/firebase/installations/local/PersistedInstallation$RegistrationStatus;
 
     const-string v9, "REGISTER_ERROR"
@@ -109,7 +104,6 @@
 
     aput-object v7, v9, v10
 
-    .line 6
     sput-object v9, Lcom/google/firebase/installations/local/PersistedInstallation$RegistrationStatus;->$VALUES:[Lcom/google/firebase/installations/local/PersistedInstallation$RegistrationStatus;
 
     return-void
@@ -123,7 +117,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
     return-void
@@ -132,7 +125,6 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/google/firebase/installations/local/PersistedInstallation$RegistrationStatus;
     .locals 1
 
-    .line 1
     const-class v0, Lcom/google/firebase/installations/local/PersistedInstallation$RegistrationStatus;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -147,7 +139,6 @@
 .method public static values()[Lcom/google/firebase/installations/local/PersistedInstallation$RegistrationStatus;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/google/firebase/installations/local/PersistedInstallation$RegistrationStatus;->$VALUES:[Lcom/google/firebase/installations/local/PersistedInstallation$RegistrationStatus;
 
     invoke-virtual {v0}, [Lcom/google/firebase/installations/local/PersistedInstallation$RegistrationStatus;->clone()Ljava/lang/Object;

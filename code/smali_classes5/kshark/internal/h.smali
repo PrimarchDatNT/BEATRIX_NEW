@@ -39,7 +39,6 @@
 .method public constructor <init>(IZID)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     iput p1, p0, Lkshark/internal/h;->g:I
@@ -62,10 +61,8 @@
     :goto_0
     add-int/2addr p1, p2
 
-    .line 2
     iput p1, p0, Lkshark/internal/h;->a:I
 
-    .line 3
     new-instance p1, Lkshark/internal/h$a;
 
     invoke-direct {p1, p0}, Lkshark/internal/h$a;-><init>(Lkshark/internal/h;)V
@@ -107,7 +104,6 @@
 
     move v2, p2
 
-    .line 4
     invoke-direct/range {v0 .. v5}, Lkshark/internal/h;-><init>(IZID)V
 
     return-void
@@ -116,7 +112,6 @@
 .method public static final synthetic a(Lkshark/internal/h;)I
     .locals 0
 
-    .line 1
     iget p0, p0, Lkshark/internal/h;->e:I
 
     return p0
@@ -125,7 +120,6 @@
 .method public static final synthetic b(Lkshark/internal/h;)I
     .locals 0
 
-    .line 1
     iget p0, p0, Lkshark/internal/h;->a:I
 
     return p0
@@ -134,7 +128,6 @@
 .method public static final synthetic c(Lkshark/internal/h;)[B
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lkshark/internal/h;->b:[B
 
     return-object p0
@@ -143,7 +136,6 @@
 .method public static final synthetic d(Lkshark/internal/h;)Z
     .locals 0
 
-    .line 1
     iget-boolean p0, p0, Lkshark/internal/h;->h:Z
 
     return p0
@@ -152,7 +144,6 @@
 .method public static final synthetic e(Lkshark/internal/h;)I
     .locals 0
 
-    .line 1
     iget p0, p0, Lkshark/internal/h;->d:I
 
     return p0
@@ -161,7 +152,6 @@
 .method public static final synthetic f(Lkshark/internal/h;[BI)I
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1, p2}, Lkshark/internal/h;->p([BI)I
 
     move-result p0
@@ -172,7 +162,6 @@
 .method public static final synthetic g(Lkshark/internal/h;[BI)J
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1, p2}, Lkshark/internal/h;->q([BI)J
 
     move-result-wide p0
@@ -183,7 +172,6 @@
 .method public static final synthetic h(Lkshark/internal/h;I)V
     .locals 0
 
-    .line 1
     iput p1, p0, Lkshark/internal/h;->e:I
 
     return-void
@@ -192,7 +180,6 @@
 .method public static final synthetic i(Lkshark/internal/h;[B)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lkshark/internal/h;->b:[B
 
     return-void
@@ -201,7 +188,6 @@
 .method public static final synthetic j(Lkshark/internal/h;I)V
     .locals 0
 
-    .line 1
     iput p1, p0, Lkshark/internal/h;->d:I
 
     return-void
@@ -228,14 +214,12 @@
 .method private final n(I)V
     .locals 3
 
-    .line 1
     iget v0, p0, Lkshark/internal/h;->a:I
 
     mul-int p1, p1, v0
 
     new-array p1, p1, [B
 
-    .line 2
     iget-object v1, p0, Lkshark/internal/h;->b:[B
 
     iget v2, p0, Lkshark/internal/h;->e:I
@@ -246,7 +230,6 @@
 
     invoke-static {v1, v0, p1, v0, v2}, Ljava/lang/System;->arraycopy(Ljava/lang/Object;ILjava/lang/Object;II)V
 
-    .line 3
     iput-object p1, p0, Lkshark/internal/h;->b:[B
 
     return-void
@@ -257,7 +240,6 @@
 
     add-int/lit8 v0, p2, 0x1
 
-    .line 1
     aget-byte p2, p1, p2
 
     and-int/lit16 p2, p2, 0xff
@@ -266,7 +248,6 @@
 
     add-int/lit8 v1, v0, 0x1
 
-    .line 2
     aget-byte v0, p1, v0
 
     and-int/lit16 v0, v0, 0xff
@@ -277,7 +258,6 @@
 
     add-int/lit8 v0, v1, 0x1
 
-    .line 3
     aget-byte v1, p1, v1
 
     and-int/lit16 v1, v1, 0xff
@@ -286,7 +266,6 @@
 
     or-int/2addr p2, v1
 
-    .line 4
     aget-byte p1, p1, v0
 
     and-int/lit16 p1, p1, 0xff
@@ -301,7 +280,6 @@
 
     add-int/lit8 v0, p2, 0x1
 
-    .line 1
     aget-byte p2, p1, p2
 
     int-to-long v1, p2
@@ -316,7 +294,6 @@
 
     add-int/lit8 p2, v0, 0x1
 
-    .line 2
     aget-byte v0, p1, v0
 
     int-to-long v5, v0
@@ -331,7 +308,6 @@
 
     add-int/lit8 v2, p2, 0x1
 
-    .line 3
     aget-byte p2, p1, p2
 
     int-to-long v5, p2
@@ -346,7 +322,6 @@
 
     add-int/lit8 p2, v2, 0x1
 
-    .line 4
     aget-byte v2, p1, v2
 
     int-to-long v5, v2
@@ -361,7 +336,6 @@
 
     add-int/lit8 v2, p2, 0x1
 
-    .line 5
     aget-byte p2, p1, p2
 
     int-to-long v5, p2
@@ -376,7 +350,6 @@
 
     add-int/lit8 p2, v2, 0x1
 
-    .line 6
     aget-byte v2, p1, v2
 
     int-to-long v5, v2
@@ -391,7 +364,6 @@
 
     add-int/lit8 v2, p2, 0x1
 
-    .line 7
     aget-byte p2, p1, p2
 
     int-to-long v5, p2
@@ -404,7 +376,6 @@
 
     or-long/2addr v0, v5
 
-    .line 8
     aget-byte p1, p1, v2
 
     int-to-long p1, p1
@@ -423,17 +394,14 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lkshark/internal/h;->b:[B
 
     if-nez v0, :cond_0
 
-    .line 2
     iget v0, p0, Lkshark/internal/h;->i:I
 
     iput v0, p0, Lkshark/internal/h;->f:I
 
-    .line 3
     iget v1, p0, Lkshark/internal/h;->a:I
 
     mul-int v0, v0, v1
@@ -444,7 +412,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_0
     iget v0, p0, Lkshark/internal/h;->f:I
 
@@ -454,20 +421,16 @@
 
     int-to-double v0, v0
 
-    .line 5
     iget-wide v2, p0, Lkshark/internal/h;->j:D
 
     mul-double v0, v0, v2
 
     double-to-int v0, v0
 
-    .line 6
     invoke-direct {p0, v0}, Lkshark/internal/h;->n(I)V
 
-    .line 7
     iput v0, p0, Lkshark/internal/h;->f:I
 
-    .line 8
     :cond_1
     :goto_0
     iget v0, p0, Lkshark/internal/h;->e:I
@@ -478,15 +441,12 @@
 
     const/4 v0, 0x0
 
-    .line 9
     iput v0, p0, Lkshark/internal/h;->d:I
 
-    .line 10
     iget-object v0, p0, Lkshark/internal/h;->c:Lkshark/internal/h$a;
 
     invoke-virtual {v0, p1, p2}, Lkshark/internal/h$a;->b(J)V
 
-    .line 11
     iget-object p1, p0, Lkshark/internal/h;->c:Lkshark/internal/h$a;
 
     return-object p1
@@ -497,14 +457,12 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget v0, p0, Lkshark/internal/h;->e:I
 
     const/4 v1, 0x0
 
     if-nez v0, :cond_0
 
-    .line 2
     new-instance v0, Lkshark/internal/SortedBytesMap;
 
     iget-boolean v2, p0, Lkshark/internal/h;->h:Z
@@ -517,7 +475,6 @@
 
     return-object v0
 
-    .line 3
     :cond_0
     iget-object v0, p0, Lkshark/internal/h;->b:[B
 
@@ -525,7 +482,6 @@
 
     invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
-    .line 4
     :cond_1
     sget-object v4, Lkshark/internal/i/b;->m:Lkshark/internal/i/b$a;
 
@@ -543,7 +499,6 @@
 
     invoke-virtual/range {v4 .. v9}, Lkshark/internal/i/b$a;->j([BIIILkshark/internal/i/a;)V
 
-    .line 5
     array-length v2, v0
 
     iget v3, p0, Lkshark/internal/h;->e:I
@@ -556,7 +511,6 @@
 
     mul-int v3, v3, v4
 
-    .line 6
     invoke-static {v0, v3}, Ljava/util/Arrays;->copyOf([BI)[B
 
     move-result-object v0
@@ -568,21 +522,16 @@
     :cond_2
     const/4 v2, 0x0
 
-    .line 7
     iput-object v2, p0, Lkshark/internal/h;->b:[B
 
-    .line 8
     iput v1, p0, Lkshark/internal/h;->e:I
 
-    .line 9
     new-instance v1, Lkshark/internal/SortedBytesMap;
 
-    .line 10
     iget-boolean v2, p0, Lkshark/internal/h;->h:Z
 
     iget v3, p0, Lkshark/internal/h;->g:I
 
-    .line 11
     invoke-direct {v1, v2, v3, v0}, Lkshark/internal/SortedBytesMap;-><init>(ZI[B)V
 
     return-object v1

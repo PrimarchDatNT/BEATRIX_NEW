@@ -22,7 +22,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -35,7 +34,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/meitu/library/analytics/w/g/a/a;->j()Ljava/lang/String;
 
     move-result-object v1
@@ -56,49 +54,38 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-array p0, p0, [B
 
-    .line 2
     invoke-static {p0}, Ljava/nio/ByteBuffer;->wrap([B)Ljava/nio/ByteBuffer;
 
     move-result-object v1
 
-    .line 3
     invoke-virtual {v1, p1}, Ljava/nio/ByteBuffer;->putShort(S)Ljava/nio/ByteBuffer;
 
-    .line 4
     invoke-virtual {v1, p2}, Ljava/nio/ByteBuffer;->put(B)Ljava/nio/ByteBuffer;
 
     const/16 p1, 0x2c
 
-    .line 5
     invoke-virtual {v1, p1}, Ljava/nio/ByteBuffer;->put(B)Ljava/nio/ByteBuffer;
 
     const/4 p1, 0x0
 
-    .line 6
     invoke-virtual {v1, p1}, Ljava/nio/ByteBuffer;->put(B)Ljava/nio/ByteBuffer;
 
-    .line 7
     invoke-virtual {v1, p1}, Ljava/nio/ByteBuffer;->put(B)Ljava/nio/ByteBuffer;
 
-    .line 8
     invoke-virtual {v1, p1}, Ljava/nio/ByteBuffer;->putShort(S)Ljava/nio/ByteBuffer;
 
-    .line 9
     invoke-static {p3}, Lcom/meitu/library/analytics/w/g/a/a;->g(Ljava/lang/String;)[B
 
     move-result-object p1
 
-    .line 10
     array-length p2, p1
 
     const/16 p3, 0x8
 
     if-eq p2, p3, :cond_0
 
-    .line 11
     new-instance p0, Ljava/lang/StringBuilder;
 
     invoke-direct {p0}, Ljava/lang/StringBuilder;-><init>()V
@@ -121,25 +108,19 @@
 
     const/4 p0, 0x0
 
-    .line 12
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
 
-    .line 13
     :cond_0
     invoke-virtual {v1, p1}, Ljava/nio/ByteBuffer;->put([B)Ljava/nio/ByteBuffer;
 
-    .line 14
     invoke-virtual {v1, p4, p5}, Ljava/nio/ByteBuffer;->putLong(J)Ljava/nio/ByteBuffer;
 
-    .line 15
     invoke-virtual {v1, p6}, Ljava/nio/ByteBuffer;->put([B)Ljava/nio/ByteBuffer;
 
-    .line 16
     invoke-virtual {v1, p7}, Ljava/nio/ByteBuffer;->put([B)Ljava/nio/ByteBuffer;
 
-    .line 17
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
@@ -152,7 +133,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     array-length v1, p0
 
     array-length v2, p1
@@ -163,24 +143,18 @@
 
     add-int/2addr v1, v2
 
-    .line 2
     new-array v1, v1, [B
 
-    .line 3
     invoke-static {v1}, Ljava/nio/ByteBuffer;->wrap([B)Ljava/nio/ByteBuffer;
 
     move-result-object v2
 
-    .line 4
     invoke-virtual {v2, p0}, Ljava/nio/ByteBuffer;->put([B)Ljava/nio/ByteBuffer;
 
-    .line 5
     invoke-virtual {v2, p1}, Ljava/nio/ByteBuffer;->put([B)Ljava/nio/ByteBuffer;
 
-    .line 6
     invoke-virtual {v2, p2}, Ljava/nio/ByteBuffer;->put([B)Ljava/nio/ByteBuffer;
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
@@ -197,34 +171,28 @@
 
     new-array v2, v1, [B
 
-    .line 1
     invoke-static {v2}, Ljava/nio/ByteBuffer;->wrap([B)Ljava/nio/ByteBuffer;
 
     move-result-object v3
 
     const/4 v4, 0x1
 
-    .line 2
     invoke-virtual {v3, v4}, Ljava/nio/ByteBuffer;->put(B)Ljava/nio/ByteBuffer;
 
-    .line 3
     invoke-virtual {v3, v4}, Ljava/nio/ByteBuffer;->put(B)Ljava/nio/ByteBuffer;
 
     add-int/2addr p0, p1
 
     add-int/2addr p0, v1
 
-    .line 4
     invoke-virtual {v3, p0}, Ljava/nio/ByteBuffer;->putInt(I)Ljava/nio/ByteBuffer;
 
     add-int/2addr p1, v1
 
     int-to-short p0, p1
 
-    .line 5
     invoke-virtual {v3, p0}, Ljava/nio/ByteBuffer;->putShort(S)Ljava/nio/ByteBuffer;
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v2
@@ -237,12 +205,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p3}, Ljava/lang/String;->getBytes()[B
 
     move-result-object p3
 
-    .line 2
     array-length v1, p2
 
     add-int/lit8 v1, v1, 0x8
@@ -255,16 +221,12 @@
 
     move-result-object v1
 
-    .line 3
     invoke-virtual {v1, p0, p1}, Ljava/nio/ByteBuffer;->putLong(J)Ljava/nio/ByteBuffer;
 
-    .line 4
     invoke-virtual {v1, p2}, Ljava/nio/ByteBuffer;->put([B)Ljava/nio/ByteBuffer;
 
-    .line 5
     invoke-virtual {v1, p3}, Ljava/nio/ByteBuffer;->put([B)Ljava/nio/ByteBuffer;
 
-    .line 6
     invoke-virtual {v1}, Ljava/nio/ByteBuffer;->array()[B
 
     move-result-object p0
@@ -287,7 +249,6 @@
 
     const-string v1, "0123456789ABCDEF"
 
-    .line 1
     invoke-virtual {v1, p0}, Ljava/lang/String;->indexOf(I)I
 
     move-result p0
@@ -306,24 +267,20 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Ljava/lang/String;->toUpperCase()Ljava/lang/String;
 
     move-result-object p0
 
-    .line 2
     invoke-virtual {p0}, Ljava/lang/String;->length()I
 
     move-result v1
 
     div-int/lit8 v1, v1, 0x2
 
-    .line 3
     invoke-virtual {p0}, Ljava/lang/String;->toCharArray()[C
 
     move-result-object p0
 
-    .line 4
     new-array v2, v1, [B
 
     const/4 v3, 0x0
@@ -333,7 +290,6 @@
 
     mul-int/lit8 v4, v3, 0x2
 
-    .line 5
     aget-char v5, p0, v4
 
     invoke-static {v5}, Lcom/meitu/library/analytics/w/g/a/a;->f(C)B
@@ -360,7 +316,6 @@
 
     goto :goto_0
 
-    .line 6
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -374,7 +329,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static/range {p5 .. p5}, Lcom/meitu/library/analytics/w/g/a/a;->i([B)[B
 
     move-result-object v1
@@ -383,25 +337,21 @@
 
     if-nez v1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v2
 
-    .line 3
     :cond_0
     invoke-static {}, Lcom/meitu/library/analytics/w/g/a/a;->a()[B
 
     move-result-object v3
 
-    .line 4
     invoke-static {v3, v1}, Lcom/meitu/library/analytics/y/e/a/a;->d([B[B)[B
 
     move-result-object v1
 
     if-nez v1, :cond_1
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v2
@@ -409,7 +359,6 @@
     :cond_1
     move-object v4, p2
 
-    .line 6
     :try_start_0
     invoke-static {p2, v3}, Lcom/meitu/library/analytics/y/e/a/b;->g(Ljava/lang/String;[B)[B
 
@@ -417,26 +366,22 @@
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
-    .line 7
     array-length v3, v11
 
     add-int/lit8 v4, v3, 0x28
 
-    .line 8
     array-length v3, v1
 
     invoke-static {v3, v4}, Lcom/meitu/library/analytics/w/g/a/a;->d(II)[B
 
     move-result-object v3
 
-    .line 9
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v8
 
     move-object v5, p1
 
-    .line 10
     invoke-static {v8, v9, v1, p1}, Lcom/meitu/library/analytics/w/g/a/a;->e(J[BLjava/lang/String;)[B
 
     move-result-object v10
@@ -447,10 +392,8 @@
 
     const-string v3, "bizHeaderSign is null"
 
-    .line 11
     invoke-static {v1, v3}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 12
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v2
@@ -464,12 +407,10 @@
 
     move-object v7, p0
 
-    .line 13
     invoke-static/range {v4 .. v11}, Lcom/meitu/library/analytics/w/g/a/a;->b(ISBLjava/lang/String;J[B[B)[B
 
     move-result-object v2
 
-    .line 14
     invoke-static {v3, v2, v1}, Lcom/meitu/library/analytics/w/g/a/a;->c([B[B[B)[B
 
     move-result-object v1
@@ -478,7 +419,6 @@
 
     return-object v1
 
-    .line 15
     :catch_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -494,7 +434,6 @@
 
     const/4 v1, 0x0
 
-    .line 1
     :try_start_0
     new-instance v2, Ljava/io/ByteArrayOutputStream;
 
@@ -503,7 +442,6 @@
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_4
     .catchall {:try_start_0 .. :try_end_0} :catchall_1
 
-    .line 2
     :try_start_1
     new-instance v3, Ljava/util/zip/GZIPOutputStream;
 
@@ -512,14 +450,11 @@
     .catch Ljava/lang/Exception; {:try_start_1 .. :try_end_1} :catch_3
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
-    .line 3
     :try_start_2
     invoke-virtual {v3, p0}, Ljava/util/zip/GZIPOutputStream;->write([B)V
 
-    .line 4
     invoke-virtual {v3}, Ljava/util/zip/GZIPOutputStream;->finish()V
 
-    .line 5
     invoke-virtual {v2}, Ljava/io/ByteArrayOutputStream;->toByteArray()[B
 
     move-result-object p0
@@ -527,20 +462,17 @@
     .catch Ljava/lang/Exception; {:try_start_2 .. :try_end_2} :catch_2
     .catchall {:try_start_2 .. :try_end_2} :catchall_2
 
-    .line 6
     :try_start_3
     invoke-virtual {v3}, Ljava/util/zip/GZIPOutputStream;->close()V
     :try_end_3
     .catch Ljava/lang/Exception; {:try_start_3 .. :try_end_3} :catch_0
 
-    .line 7
     :catch_0
     :try_start_4
     invoke-virtual {v2}, Ljava/io/ByteArrayOutputStream;->close()V
     :try_end_4
     .catch Ljava/lang/Exception; {:try_start_4 .. :try_end_4} :catch_1
 
-    .line 8
     :catch_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -581,7 +513,6 @@
     :try_start_5
     const-string v4, "AnalyticsDataSecurity"
 
-    .line 9
     new-instance v5, Ljava/lang/StringBuilder;
 
     invoke-direct {v5}, Ljava/lang/StringBuilder;-><init>()V
@@ -606,7 +537,6 @@
 
     if-eqz v3, :cond_0
 
-    .line 10
     :try_start_6
     invoke-virtual {v3}, Ljava/util/zip/GZIPOutputStream;->close()V
     :try_end_6
@@ -621,13 +551,11 @@
     :goto_1
     if-eqz v2, :cond_1
 
-    .line 11
     :try_start_7
     invoke-virtual {v2}, Ljava/io/ByteArrayOutputStream;->close()V
     :try_end_7
     .catch Ljava/lang/Exception; {:try_start_7 .. :try_end_7} :catch_6
 
-    .line 12
     :catch_6
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -642,7 +570,6 @@
     :goto_2
     if-eqz v1, :cond_2
 
-    .line 13
     :try_start_8
     invoke-virtual {v1}, Ljava/util/zip/GZIPOutputStream;->close()V
     :try_end_8
@@ -657,13 +584,11 @@
     :goto_3
     if-eqz v2, :cond_3
 
-    .line 14
     :try_start_9
     invoke-virtual {v2}, Ljava/io/ByteArrayOutputStream;->close()V
     :try_end_9
     .catch Ljava/lang/Exception; {:try_start_9 .. :try_end_9} :catch_8
 
-    .line 15
     :catch_8
     :cond_3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -680,7 +605,6 @@
 
     const/16 v1, 0x20
 
-    .line 1
     invoke-static {v1}, Lcom/meitu/library/analytics/y/o/u;->a(I)Ljava/lang/String;
 
     move-result-object v1

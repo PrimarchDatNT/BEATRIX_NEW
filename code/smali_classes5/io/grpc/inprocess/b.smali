@@ -60,7 +60,6 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
     new-instance v0, Ljava/util/concurrent/ConcurrentHashMap;
 
     invoke-direct {v0}, Ljava/util/concurrent/ConcurrentHashMap;-><init>()V
@@ -83,27 +82,22 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iget-object v0, p1, Lio/grpc/inprocess/c;->B:Ljava/lang/String;
 
     iput-object v0, p0, Lio/grpc/inprocess/b;->a:Ljava/lang/String;
 
-    .line 3
     iget-object v0, p1, Lio/grpc/inprocess/c;->D:Lio/grpc/internal/t1;
 
     iput-object v0, p0, Lio/grpc/inprocess/b;->f:Lio/grpc/internal/t1;
 
-    .line 4
     iget p1, p1, Lio/grpc/inprocess/c;->C:I
 
     iput p1, p0, Lio/grpc/inprocess/b;->b:I
 
     const-string p1, "streamTracerFactories"
 
-    .line 5
     invoke-static {p2, p1}, Lcom/google/common/base/t;->F(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -122,7 +116,6 @@
 .method static d(Ljava/lang/String;)Lio/grpc/inprocess/b;
     .locals 1
 
-    .line 1
     sget-object v0, Lio/grpc/inprocess/b;->h:Ljava/util/concurrent/ConcurrentMap;
 
     invoke-interface {v0, p0}, Ljava/util/concurrent/ConcurrentMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
@@ -144,10 +137,8 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lio/grpc/inprocess/b;->d:Lio/grpc/internal/n2;
 
-    .line 2
     iget-object p1, p0, Lio/grpc/inprocess/b;->f:Lio/grpc/internal/t1;
 
     invoke-interface {p1}, Lio/grpc/internal/t1;->a()Ljava/lang/Object;
@@ -158,7 +149,6 @@
 
     iput-object p1, p0, Lio/grpc/inprocess/b;->g:Ljava/util/concurrent/ScheduledExecutorService;
 
-    .line 3
     sget-object p1, Lio/grpc/inprocess/b;->h:Ljava/util/concurrent/ConcurrentMap;
 
     iget-object v0, p0, Lio/grpc/inprocess/b;->a:Ljava/lang/String;
@@ -171,7 +161,6 @@
 
     return-void
 
-    .line 4
     :cond_0
     new-instance p1, Ljava/io/IOException;
 
@@ -215,7 +204,6 @@
 .method public c()Ljava/net/SocketAddress;
     .locals 2
 
-    .line 1
     new-instance v0, Lio/grpc/inprocess/InProcessSocketAddress;
 
     iget-object v1, p0, Lio/grpc/inprocess/b;->a:Ljava/lang/String;
@@ -228,7 +216,6 @@
 .method e()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lio/grpc/inprocess/b;->b:I
 
     return v0
@@ -245,7 +232,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lio/grpc/inprocess/b;->f:Lio/grpc/internal/t1;
 
     return-object v0
@@ -262,7 +248,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lio/grpc/inprocess/b;->c:Ljava/util/List;
 
     return-object v0
@@ -273,7 +258,6 @@
 
     monitor-enter p0
 
-    .line 1
     :try_start_0
     iget-boolean v0, p0, Lio/grpc/inprocess/b;->e:Z
     :try_end_0
@@ -283,12 +267,10 @@
 
     const/4 p1, 0x0
 
-    .line 2
     monitor-exit p0
 
     return-object p1
 
-    .line 3
     :cond_0
     :try_start_1
     iget-object v0, p0, Lio/grpc/inprocess/b;->d:Lio/grpc/internal/n2;
@@ -314,7 +296,6 @@
 .method public shutdown()V
     .locals 2
 
-    .line 1
     sget-object v0, Lio/grpc/inprocess/b;->h:Ljava/util/concurrent/ConcurrentMap;
 
     iget-object v1, p0, Lio/grpc/inprocess/b;->a:Ljava/lang/String;
@@ -325,7 +306,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 2
     iget-object v0, p0, Lio/grpc/inprocess/b;->f:Lio/grpc/internal/t1;
 
     iget-object v1, p0, Lio/grpc/inprocess/b;->g:Ljava/util/concurrent/ScheduledExecutorService;
@@ -338,21 +318,17 @@
 
     iput-object v0, p0, Lio/grpc/inprocess/b;->g:Ljava/util/concurrent/ScheduledExecutorService;
 
-    .line 3
     monitor-enter p0
 
     const/4 v0, 0x1
 
-    .line 4
     :try_start_0
     iput-boolean v0, p0, Lio/grpc/inprocess/b;->e:Z
 
-    .line 5
     iget-object v0, p0, Lio/grpc/inprocess/b;->d:Lio/grpc/internal/n2;
 
     invoke-interface {v0}, Lio/grpc/internal/n2;->a()V
 
-    .line 6
     monitor-exit p0
 
     return-void
@@ -366,7 +342,6 @@
 
     throw v0
 
-    .line 7
     :cond_0
     new-instance v0, Ljava/lang/AssertionError;
 
@@ -378,7 +353,6 @@
 .method public toString()Ljava/lang/String;
     .locals 3
 
-    .line 1
     invoke-static {p0}, Lcom/google/common/base/p;->c(Ljava/lang/Object;)Lcom/google/common/base/p$b;
 
     move-result-object v0

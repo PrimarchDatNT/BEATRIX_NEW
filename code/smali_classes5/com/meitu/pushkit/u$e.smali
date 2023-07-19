@@ -25,7 +25,6 @@
 .method constructor <init>(Ljava/util/List;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/pushkit/u$e;->a:Ljava/util/List;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -42,7 +41,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/meitu/pushkit/y;->y()Lcom/meitu/library/m/a/b;
 
     move-result-object v0
@@ -51,7 +49,6 @@
 
     invoke-virtual {v0, v1, p2}, Lcom/meitu/library/m/a/b;->i(Ljava/lang/String;Ljava/lang/Throwable;)V
 
-    .line 2
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -69,7 +66,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     :try_start_0
     invoke-virtual {p2}, Lokhttp3/Response;->body()Lokhttp3/ResponseBody;
 
@@ -79,7 +75,6 @@
 
     move-result-object p2
 
-    .line 2
     invoke-static {}, Lcom/meitu/pushkit/y;->y()Lcom/meitu/library/m/a/b;
 
     move-result-object v0
@@ -100,14 +95,12 @@
 
     invoke-virtual {v0, v1}, Lcom/meitu/library/m/a/b;->a(Ljava/lang/String;)V
 
-    .line 3
     new-instance v0, Lorg/json/JSONObject;
 
     invoke-direct {v0, p2}, Lorg/json/JSONObject;-><init>(Ljava/lang/String;)V
 
     const-string p2, "code"
 
-    .line 4
     invoke-virtual {v0, p2}, Lorg/json/JSONObject;->optInt(Ljava/lang/String;)I
 
     move-result p2
@@ -116,7 +109,6 @@
 
     if-ne p2, v0, :cond_0
 
-    .line 5
     invoke-static {}, Lcom/meitu/pushkit/y;->y()Lcom/meitu/library/m/a/b;
 
     move-result-object p2
@@ -125,7 +117,6 @@
 
     invoke-virtual {p2, v0}, Lcom/meitu/library/m/a/b;->a(Ljava/lang/String;)V
 
-    .line 6
     sget-object p2, Lcom/meitu/pushkit/x;->a:Landroid/content/Context;
 
     iget-object v0, p0, Lcom/meitu/pushkit/u$e;->a:Ljava/util/List;
@@ -139,7 +130,6 @@
     :catch_0
     move-exception p2
 
-    .line 7
     invoke-static {}, Lcom/meitu/pushkit/y;->y()Lcom/meitu/library/m/a/b;
 
     move-result-object v0
@@ -148,7 +138,6 @@
 
     invoke-virtual {v0, v1, p2}, Lcom/meitu/library/m/a/b;->i(Ljava/lang/String;Ljava/lang/Throwable;)V
 
-    .line 8
     :cond_0
     :goto_0
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V

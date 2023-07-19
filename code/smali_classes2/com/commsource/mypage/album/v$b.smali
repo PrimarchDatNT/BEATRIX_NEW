@@ -32,24 +32,18 @@
 .method constructor <init>(Lcom/commsource/mypage/album/v;Landroidx/recyclerview/widget/RecyclerView$ViewHolder;FFFF)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/mypage/album/v$b;->f:Lcom/commsource/mypage/album/v;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p2, p0, Lcom/commsource/mypage/album/v$b;->a:Landroidx/recyclerview/widget/RecyclerView$ViewHolder;
 
-    .line 3
     iput p3, p0, Lcom/commsource/mypage/album/v$b;->b:F
 
-    .line 4
     iput p4, p0, Lcom/commsource/mypage/album/v$b;->c:F
 
-    .line 5
     iput p5, p0, Lcom/commsource/mypage/album/v$b;->d:F
 
-    .line 6
     iput p6, p0, Lcom/commsource/mypage/album/v$b;->e:F
 
     return-void

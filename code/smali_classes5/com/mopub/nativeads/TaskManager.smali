@@ -87,22 +87,18 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const-string v0, "Urls list cannot be null"
 
-    .line 2
     invoke-static {p1, v0}, Lcom/mopub/common/Preconditions;->checkNotNull(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "ImageTaskManagerListener cannot be null"
 
-    .line 3
     invoke-static {p2, v0}, Lcom/mopub/common/Preconditions;->checkNotNull(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/4 v0, 0x0
 
-    .line 4
     invoke-interface {p1, v0}, Ljava/util/List;->contains(Ljava/lang/Object;)Z
 
     move-result v0
@@ -113,17 +109,14 @@
 
     invoke-static {v0, v1}, Lcom/mopub/common/Preconditions;->checkState(ZLjava/lang/String;)V
 
-    .line 5
     invoke-interface {p1}, Ljava/util/List;->size()I
 
     move-result p1
 
     iput p1, p0, Lcom/mopub/nativeads/TaskManager;->mSize:I
 
-    .line 6
     iput-object p2, p0, Lcom/mopub/nativeads/TaskManager;->mImageTaskManagerListener:Lcom/mopub/nativeads/TaskManager$TaskManagerListener;
 
-    .line 7
     new-instance p2, Ljava/util/concurrent/atomic/AtomicInteger;
 
     const/4 v0, 0x0
@@ -132,14 +125,12 @@
 
     iput-object p2, p0, Lcom/mopub/nativeads/TaskManager;->mCompletedCount:Ljava/util/concurrent/atomic/AtomicInteger;
 
-    .line 8
     new-instance p2, Ljava/util/concurrent/atomic/AtomicBoolean;
 
     invoke-direct {p2, v0}, Ljava/util/concurrent/atomic/AtomicBoolean;-><init>(Z)V
 
     iput-object p2, p0, Lcom/mopub/nativeads/TaskManager;->mFailed:Ljava/util/concurrent/atomic/AtomicBoolean;
 
-    .line 9
     new-instance p2, Ljava/util/HashMap;
 
     invoke-direct {p2, p1}, Ljava/util/HashMap;-><init>(I)V

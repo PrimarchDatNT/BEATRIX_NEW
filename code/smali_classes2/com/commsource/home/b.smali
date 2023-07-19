@@ -35,23 +35,18 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/commsource/home/b;->a:Lcom/commsource/beautyplus/f0/q0;
 
     const/high16 p1, 0x3f800000    # 1.0f
 
-    .line 3
     iput p1, p0, Lcom/commsource/home/b;->b:F
 
-    .line 4
     iput p1, p0, Lcom/commsource/home/b;->d:F
 
     const/4 p1, 0x1
 
-    .line 5
     iput-boolean p1, p0, Lcom/commsource/home/b;->f:Z
 
     return-void
@@ -64,7 +59,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget p0, p0, Lcom/commsource/home/b;->d:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -79,7 +73,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/home/b;->d:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -94,7 +87,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/home/b;->e:Landroid/animation/ValueAnimator;
 
     const/4 v2, 0x1
@@ -109,14 +101,12 @@
 
     if-ne v1, v2, :cond_0
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/home/b;->e:Landroid/animation/ValueAnimator;
 
     if-eqz v1, :cond_0
 
     invoke-virtual {v1}, Landroid/animation/ValueAnimator;->cancel()V
 
-    .line 3
     :cond_0
     iget v1, p0, Lcom/commsource/home/b;->d:F
 
@@ -131,7 +121,6 @@
     :cond_1
     const/4 p1, 0x0
 
-    .line 4
     :goto_0
     iput p1, p0, Lcom/commsource/home/b;->c:F
 
@@ -139,7 +128,6 @@
 
     if-nez v3, :cond_2
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -155,7 +143,6 @@
 
     aput p1, v3, v2
 
-    .line 6
     invoke-static {v3}, Landroid/animation/ValueAnimator;->ofFloat([F)Landroid/animation/ValueAnimator;
 
     move-result-object p1
@@ -170,14 +157,12 @@
 
     if-eqz p1, :cond_3
 
-    .line 7
     new-instance v1, Lcom/commsource/home/b$a;
 
     invoke-direct {v1, p0}, Lcom/commsource/home/b$a;-><init>(Lcom/commsource/home/b;)V
 
     invoke-virtual {p1, v1}, Landroid/animation/ValueAnimator;->addUpdateListener(Landroid/animation/ValueAnimator$AnimatorUpdateListener;)V
 
-    .line 8
     :cond_3
     iget-object p1, p0, Lcom/commsource/home/b;->e:Landroid/animation/ValueAnimator;
 
@@ -185,7 +170,6 @@
 
     invoke-virtual {p1}, Landroid/animation/ValueAnimator;->start()V
 
-    .line 9
     :cond_4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -203,7 +187,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/home/b;->a:Lcom/commsource/beautyplus/f0/q0;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -218,7 +201,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/home/b;->f:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -241,7 +223,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-virtual {p1}, Landroidx/recyclerview/widget/RecyclerView;->computeVerticalScrollOffset()I
 
     move-result p1
@@ -250,22 +231,18 @@
 
     if-le p1, v1, :cond_0
 
-    .line 2
     iget-boolean p1, p0, Lcom/commsource/home/b;->f:Z
 
     if-eqz p1, :cond_1
 
     const/4 p1, 0x0
 
-    .line 3
     iput-boolean p1, p0, Lcom/commsource/home/b;->f:Z
 
-    .line 4
     invoke-direct {p0, p1}, Lcom/commsource/home/b;->c(Z)V
 
     goto :goto_0
 
-    .line 5
     :cond_0
     iget-boolean p1, p0, Lcom/commsource/home/b;->f:Z
 
@@ -273,13 +250,10 @@
 
     const/4 p1, 0x1
 
-    .line 6
     iput-boolean p1, p0, Lcom/commsource/home/b;->f:Z
 
-    .line 7
     invoke-direct {p0, p1}, Lcom/commsource/home/b;->c(Z)V
 
-    .line 8
     :cond_1
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -294,7 +268,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/home/b;->f:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

@@ -25,7 +25,6 @@
 .method constructor <init>(Lcom/bumptech/glide/d;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/bumptech/glide/d$a;->a:Lcom/bumptech/glide/d;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -40,7 +39,6 @@
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/bumptech/glide/request/g;
 
     invoke-direct {v0}, Lcom/bumptech/glide/request/g;-><init>()V

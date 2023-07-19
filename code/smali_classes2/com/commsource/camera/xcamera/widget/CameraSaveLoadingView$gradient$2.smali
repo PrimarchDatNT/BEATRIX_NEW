@@ -71,31 +71,26 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 2
     new-instance v9, Landroid/graphics/LinearGradient;
 
-    .line 3
     sget-object v1, Lcom/commsource/camera/xcamera/widget/CameraSaveLoadingView;->V:Lcom/commsource/camera/xcamera/widget/CameraSaveLoadingView$a;
 
     invoke-virtual {v1}, Lcom/commsource/camera/xcamera/widget/CameraSaveLoadingView$a;->a()F
 
     move-result v2
 
-    .line 4
     invoke-virtual {v1}, Lcom/commsource/camera/xcamera/widget/CameraSaveLoadingView$a;->a()F
 
     move-result v3
 
     neg-float v3, v3
 
-    .line 5
     invoke-virtual {v1}, Lcom/commsource/camera/xcamera/widget/CameraSaveLoadingView$a;->a()F
 
     move-result v4
 
     neg-float v4, v4
 
-    .line 6
     invoke-virtual {v1}, Lcom/commsource/camera/xcamera/widget/CameraSaveLoadingView$a;->a()F
 
     move-result v5
@@ -130,18 +125,14 @@
 
     new-array v7, v1, [F
 
-    .line 7
     fill-array-data v7, :array_0
 
-    .line 8
     sget-object v8, Landroid/graphics/Shader$TileMode;->CLAMP:Landroid/graphics/Shader$TileMode;
 
     move-object v1, v9
 
-    .line 9
     invoke-direct/range {v1 .. v8}, Landroid/graphics/LinearGradient;-><init>(FFFF[I[FLandroid/graphics/Shader$TileMode;)V
 
-    .line 10
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v9
@@ -161,7 +152,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/widget/CameraSaveLoadingView$gradient$2;->invoke()Landroid/graphics/LinearGradient;
 
     move-result-object v1

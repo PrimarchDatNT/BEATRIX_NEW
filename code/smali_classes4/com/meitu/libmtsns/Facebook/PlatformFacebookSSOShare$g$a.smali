@@ -27,7 +27,6 @@
 .method constructor <init>(Lcom/meitu/libmtsns/Facebook/PlatformFacebookSSOShare$g;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/meitu/libmtsns/framwork/i/a$a$a;-><init>(Lcom/meitu/libmtsns/framwork/i/a$a;)V
 
     return-void
@@ -40,14 +39,12 @@
         .end annotation
     .end param
 
-    .line 2
     new-instance v0, Lcom/meitu/libmtsns/Facebook/PlatformFacebookSSOShare$g;
 
     invoke-direct {v0}, Lcom/meitu/libmtsns/Facebook/PlatformFacebookSSOShare$g;-><init>()V
 
     invoke-direct {p0, v0}, Lcom/meitu/libmtsns/framwork/i/a$a$a;-><init>(Lcom/meitu/libmtsns/framwork/i/a$a;)V
 
-    .line 3
     iget-object v0, p0, Lcom/meitu/libmtsns/framwork/i/a$a$a;->a:Lcom/meitu/libmtsns/framwork/i/a$a;
 
     check-cast v0, Lcom/meitu/libmtsns/Facebook/PlatformFacebookSSOShare$g;
@@ -66,14 +63,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/libmtsns/framwork/i/a$a$a;->a:Lcom/meitu/libmtsns/framwork/i/a$a;
 
     check-cast v1, Lcom/meitu/libmtsns/Facebook/PlatformFacebookSSOShare$g;
 
     iput-object p1, v1, Lcom/meitu/libmtsns/Facebook/PlatformFacebookSSOShare$e;->o:Ljava/lang/String;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
@@ -86,14 +81,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/libmtsns/framwork/i/a$a$a;->a:Lcom/meitu/libmtsns/framwork/i/a$a;
 
     check-cast v1, Lcom/meitu/libmtsns/Facebook/PlatformFacebookSSOShare$g;
 
     iput-object p1, v1, Lcom/meitu/libmtsns/Facebook/PlatformFacebookSSOShare$e;->n:Ljava/lang/String;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0

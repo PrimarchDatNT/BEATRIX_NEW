@@ -33,7 +33,6 @@
 .method constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -80,7 +79,6 @@
 
     if-eqz p1, :cond_1
 
-    .line 1
     sget-object v3, Lcom/commsource/home/OnlineDialogRepo;->m:Lcom/commsource/home/OnlineDialogRepo;
 
     invoke-static {v3}, Lcom/commsource/home/OnlineDialogRepo;->a(Lcom/commsource/home/OnlineDialogRepo;)Lf/k/i0/a/s0;
@@ -89,7 +87,6 @@
 
     new-array v4, v2, [Lcom/commsource/home/entity/DialogDataEntity;
 
-    .line 2
     invoke-interface {p1, v4}, Ljava/util/Collection;->toArray([Ljava/lang/Object;)[Ljava/lang/Object;
 
     move-result-object p1
@@ -98,12 +95,10 @@
 
     check-cast p1, [Lcom/commsource/home/entity/DialogDataEntity;
 
-    .line 3
     invoke-interface {v3, p1}, Lf/k/i0/a/s0;->t2([Lcom/commsource/home/entity/DialogDataEntity;)V
 
     goto :goto_0
 
-    .line 4
     :cond_0
     new-instance p1, Ljava/lang/NullPointerException;
 
@@ -117,7 +112,6 @@
     :goto_0
     if-eqz p2, :cond_3
 
-    .line 5
     sget-object p1, Lcom/commsource/home/OnlineDialogRepo;->m:Lcom/commsource/home/OnlineDialogRepo;
 
     invoke-static {p1}, Lcom/commsource/home/OnlineDialogRepo;->a(Lcom/commsource/home/OnlineDialogRepo;)Lf/k/i0/a/s0;
@@ -126,7 +120,6 @@
 
     new-array v3, v2, [Lcom/commsource/home/entity/DialogDataEntity;
 
-    .line 6
     invoke-interface {p2, v3}, Ljava/util/Collection;->toArray([Ljava/lang/Object;)[Ljava/lang/Object;
 
     move-result-object p2
@@ -135,12 +128,10 @@
 
     check-cast p2, [Lcom/commsource/home/entity/DialogDataEntity;
 
-    .line 7
     invoke-interface {p1, p2}, Lf/k/i0/a/s0;->A([Lcom/commsource/home/entity/DialogDataEntity;)V
 
     goto :goto_1
 
-    .line 8
     :cond_2
     new-instance p1, Ljava/lang/NullPointerException;
 
@@ -154,7 +145,6 @@
     :goto_1
     if-eqz p3, :cond_5
 
-    .line 9
     sget-object p1, Lcom/commsource/home/OnlineDialogRepo;->m:Lcom/commsource/home/OnlineDialogRepo;
 
     invoke-static {p1}, Lcom/commsource/home/OnlineDialogRepo;->a(Lcom/commsource/home/OnlineDialogRepo;)Lf/k/i0/a/s0;
@@ -163,7 +153,6 @@
 
     new-array p2, v2, [Lcom/commsource/home/entity/DialogDataEntity;
 
-    .line 10
     invoke-interface {p3, p2}, Ljava/util/Collection;->toArray([Ljava/lang/Object;)[Ljava/lang/Object;
 
     move-result-object p2
@@ -172,12 +161,10 @@
 
     check-cast p2, [Lcom/commsource/home/entity/DialogDataEntity;
 
-    .line 11
     invoke-interface {p1, p2}, Lf/k/i0/a/s0;->B0([Lcom/commsource/home/entity/DialogDataEntity;)V
 
     goto :goto_2
 
-    .line 12
     :cond_4
     new-instance p1, Ljava/lang/NullPointerException;
 
@@ -187,7 +174,6 @@
 
     throw p1
 
-    .line 13
     :cond_5
     :goto_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -202,7 +188,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Ljava/util/List;
 
     check-cast p2, Ljava/util/List;

@@ -24,7 +24,6 @@
 .method constructor <init>(I)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/google/common/collect/AbstractMapBasedMultiset;-><init>(I)V
 
     return-void
@@ -44,7 +43,6 @@
 
     const/4 v0, 0x3
 
-    .line 1
     invoke-static {v0}, Lcom/google/common/collect/LinkedHashMultiset;->create(I)Lcom/google/common/collect/LinkedHashMultiset;
 
     move-result-object v0
@@ -64,7 +62,6 @@
         }
     .end annotation
 
-    .line 2
     new-instance v0, Lcom/google/common/collect/LinkedHashMultiset;
 
     invoke-direct {v0, p0}, Lcom/google/common/collect/LinkedHashMultiset;-><init>(I)V
@@ -86,7 +83,6 @@
         }
     .end annotation
 
-    .line 3
     invoke-static {p0}, Lcom/google/common/collect/Multisets;->l(Ljava/lang/Iterable;)I
 
     move-result v0
@@ -95,7 +91,6 @@
 
     move-result-object v0
 
-    .line 4
     invoke-static {v0, p0}, Lcom/google/common/collect/h1;->a(Ljava/util/Collection;Ljava/lang/Iterable;)Z
 
     return-object v0
@@ -110,7 +105,6 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-super {p0, p1}, Lcom/google/common/collect/d;->contains(Ljava/lang/Object;)Z
 
     move-result p1
@@ -121,7 +115,6 @@
 .method public bridge synthetic elementSet()Ljava/util/Set;
     .locals 1
 
-    .line 1
     invoke-super {p0}, Lcom/google/common/collect/d;->elementSet()Ljava/util/Set;
 
     move-result-object v0
@@ -132,7 +125,6 @@
 .method public bridge synthetic entrySet()Ljava/util/Set;
     .locals 1
 
-    .line 1
     invoke-super {p0}, Lcom/google/common/collect/d;->entrySet()Ljava/util/Set;
 
     move-result-object v0
@@ -143,7 +135,6 @@
 .method init(I)V
     .locals 1
 
-    .line 1
     new-instance v0, Lcom/google/common/collect/p1;
 
     invoke-direct {v0, p1}, Lcom/google/common/collect/p1;-><init>(I)V
@@ -156,7 +147,6 @@
 .method public bridge synthetic isEmpty()Z
     .locals 1
 
-    .line 1
     invoke-super {p0}, Lcom/google/common/collect/d;->isEmpty()Z
 
     move-result v0

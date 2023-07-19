@@ -21,7 +21,6 @@
 .method constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -32,7 +31,6 @@
 .method public create()Lio/grpc/internal/r;
     .locals 2
 
-    .line 1
     new-instance v0, Lio/grpc/internal/r;
 
     sget-object v1, Lio/grpc/internal/d3;->a:Lio/grpc/internal/d3;

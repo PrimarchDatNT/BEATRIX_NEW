@@ -32,7 +32,6 @@
 .method constructor <init>(Lcom/commsource/mypage/g0$h;Lcom/commsource/cloudalbum/bean/CAImageInfo;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/mypage/g0$h$a;->f:Lcom/commsource/mypage/g0$h;
 
     iput-object p2, p0, Lcom/commsource/mypage/g0$h$a;->d:Lcom/commsource/cloudalbum/bean/CAImageInfo;
@@ -59,7 +58,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Landroid/graphics/Bitmap;
 
     invoke-virtual {p0, p1, p2}, Lcom/commsource/mypage/g0$h$a;->c(Landroid/graphics/Bitmap;Lcom/bumptech/glide/request/k/f;)V
@@ -94,7 +92,6 @@
 
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/mypage/g0$h$a;->d:Lcom/commsource/cloudalbum/bean/CAImageInfo;
 
     iget-object v1, p0, Lcom/commsource/mypage/g0$h$a;->f:Lcom/commsource/mypage/g0$h;
@@ -105,12 +102,10 @@
 
     if-eq v0, v1, :cond_0
 
-    .line 2
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 3
     :cond_0
     new-instance v0, Lcom/commsource/mypage/g0$h$a$a;
 
@@ -120,7 +115,6 @@
 
     invoke-static {v0}, Lcom/commsource/util/c2;->e(Lcom/commsource/util/u2/a;)V
 
-    .line 4
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

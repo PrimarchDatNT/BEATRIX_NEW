@@ -14,10 +14,8 @@
 .method protected constructor <init>(Lorg/aspectj/lang/reflect/PerClauseKind;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Ln/a/a/a/b/l;->a:Lorg/aspectj/lang/reflect/PerClauseKind;
 
     return-void
@@ -28,7 +26,6 @@
 .method public k()Lorg/aspectj/lang/reflect/PerClauseKind;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Ln/a/a/a/b/l;->a:Lorg/aspectj/lang/reflect/PerClauseKind;
 
     return-object v0

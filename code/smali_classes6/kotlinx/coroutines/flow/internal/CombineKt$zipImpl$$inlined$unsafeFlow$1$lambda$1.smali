@@ -161,7 +161,6 @@
 
     move-result-object v0
 
-    .line 1
     iget v2, v1, Lcotlinx/coroutines/flow/internal/CombineKt$zipImpl$$inlined$unsafeFlow$1$lambda$1;->label:I
 
     const/4 v3, 0x4
@@ -247,7 +246,6 @@
 
     goto/16 :goto_6
 
-    .line 2
     :cond_0
     new-instance v0, Ljava/lang/IllegalStateException;
 
@@ -257,7 +255,6 @@
 
     throw v0
 
-    .line 3
     :cond_1
     iget-object v2, v1, Lcotlinx/coroutines/flow/internal/CombineKt$zipImpl$$inlined$unsafeFlow$1$lambda$1;->L$12:Ljava/lang/Object;
 
@@ -524,7 +521,6 @@
 
     iget-object v2, v1, Lcotlinx/coroutines/flow/internal/CombineKt$zipImpl$$inlined$unsafeFlow$1$lambda$1;->p$:Lcotlinx/coroutines/m0;
 
-    .line 4
     iget-object v3, v1, Lcotlinx/coroutines/flow/internal/CombineKt$zipImpl$$inlined$unsafeFlow$1$lambda$1;->this$0:Lcotlinx/coroutines/flow/internal/CombineKt$zipImpl$$inlined$unsafeFlow$1;
 
     iget-object v3, v3, Lcotlinx/coroutines/flow/internal/CombineKt$zipImpl$$inlined$unsafeFlow$1;->a:Lcotlinx/coroutines/flow/d;
@@ -533,7 +529,6 @@
 
     move-result-object v10
 
-    .line 5
     iget-object v3, v1, Lcotlinx/coroutines/flow/internal/CombineKt$zipImpl$$inlined$unsafeFlow$1$lambda$1;->this$0:Lcotlinx/coroutines/flow/internal/CombineKt$zipImpl$$inlined$unsafeFlow$1;
 
     iget-object v3, v3, Lcotlinx/coroutines/flow/internal/CombineKt$zipImpl$$inlined$unsafeFlow$1;->b:Lcotlinx/coroutines/flow/d;
@@ -544,7 +539,6 @@
 
     if-eqz v14, :cond_f
 
-    .line 6
     move-object v3, v14
 
     check-cast v3, Lcotlinx/coroutines/channels/c0;
@@ -555,12 +549,10 @@
 
     invoke-interface {v3, v4}, Lcotlinx/coroutines/channels/c0;->E(Lcotlin/jvm/u/l;)V
 
-    .line 7
     invoke-interface {v14}, Lcotlinx/coroutines/channels/y;->iterator()Lcotlinx/coroutines/channels/ChannelIterator;
 
     move-result-object v3
 
-    .line 8
     :try_start_4
     invoke-interface {v10}, Lcotlinx/coroutines/channels/y;->iterator()Lcotlinx/coroutines/channels/ChannelIterator;
 
@@ -653,7 +645,6 @@
 
     move-result-object v13
 
-    .line 9
     iput-object v3, v2, Lcotlinx/coroutines/flow/internal/CombineKt$zipImpl$$inlined$unsafeFlow$1$lambda$1;->L$0:Ljava/lang/Object;
 
     iput-object v12, v2, Lcotlinx/coroutines/flow/internal/CombineKt$zipImpl$$inlined$unsafeFlow$1$lambda$1;->L$1:Ljava/lang/Object;
@@ -735,7 +726,6 @@
 
     goto/16 :goto_7
 
-    .line 10
     :cond_7
     iget-object v6, v11, Lcotlinx/coroutines/flow/internal/CombineKt$zipImpl$$inlined$unsafeFlow$1$lambda$1;->$this_unsafeFlow:Lcotlinx/coroutines/flow/e;
 
@@ -769,7 +759,6 @@
 
     const/4 v1, 0x0
 
-    .line 11
     :cond_9
     iput-object v2, v11, Lcotlinx/coroutines/flow/internal/CombineKt$zipImpl$$inlined$unsafeFlow$1$lambda$1;->L$0:Ljava/lang/Object;
 
@@ -868,7 +857,6 @@
 
     iput v3, v11, Lcotlinx/coroutines/flow/internal/CombineKt$zipImpl$$inlined$unsafeFlow$1$lambda$1;->label:I
 
-    .line 12
     invoke-interface {v2, v0, v11}, Lcotlinx/coroutines/flow/e;->emit(Ljava/lang/Object;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object v0
@@ -920,21 +908,18 @@
 
     goto :goto_9
 
-    .line 13
     :cond_c
     :try_start_9
     sget-object v0, Lcotlin/t1;->a:Lcotlin/t1;
     :try_end_9
     .catchall {:try_start_9 .. :try_end_9} :catchall_4
 
-    .line 14
     :try_start_a
     invoke-static {v10, v7}, Lcotlinx/coroutines/channels/o;->r(Lcotlinx/coroutines/channels/y;Ljava/lang/Throwable;)V
     :try_end_a
     .catch Lcotlinx/coroutines/flow/internal/AbortFlowException; {:try_start_a .. :try_end_a} :catch_0
     .catchall {:try_start_a .. :try_end_a} :catchall_9
 
-    .line 15
     invoke-interface {v14}, Lcotlinx/coroutines/channels/y;->l()Z
 
     move-result v0
@@ -982,7 +967,6 @@
 
     goto/16 :goto_0
 
-    .line 16
     :goto_9
     :try_start_b
     throw v1
@@ -994,7 +978,6 @@
 
     move-object v2, v0
 
-    .line 17
     :try_start_c
     invoke-static {v10, v1}, Lcotlinx/coroutines/channels/o;->r(Lcotlinx/coroutines/channels/y;Ljava/lang/Throwable;)V
 
@@ -1015,7 +998,6 @@
 
     move-object v2, v11
 
-    .line 18
     :goto_a
     :try_start_d
     iget-object v1, v2, Lcotlinx/coroutines/flow/internal/CombineKt$zipImpl$$inlined$unsafeFlow$1$lambda$1;->$this_unsafeFlow:Lcotlinx/coroutines/flow/e;
@@ -1024,7 +1006,6 @@
     :try_end_d
     .catchall {:try_start_d .. :try_end_d} :catchall_9
 
-    .line 19
     invoke-interface {v14}, Lcotlinx/coroutines/channels/y;->l()Z
 
     move-result v0
@@ -1039,7 +1020,6 @@
 
     goto :goto_8
 
-    .line 20
     :cond_d
     :goto_b
     sget-object v0, Lcotlin/t1;->a:Lcotlin/t1;
@@ -1049,7 +1029,6 @@
     :catchall_9
     move-exception v0
 
-    .line 21
     :goto_c
     invoke-interface {v14}, Lcotlinx/coroutines/channels/y;->l()Z
 
@@ -1068,7 +1047,6 @@
     :cond_e
     throw v0
 
-    .line 22
     :cond_f
     new-instance v0, Lcotlin/TypeCastException;
 

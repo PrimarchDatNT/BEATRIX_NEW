@@ -19,7 +19,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -28,7 +27,6 @@
 .method public synthetic constructor <init>(Lcotlin/jvm/internal/u;)V
     .locals 0
 
-    .line 2
     invoke-direct {p0}, Lcom/commsource/studio/i0$a;-><init>()V
 
     return-void
@@ -76,7 +74,6 @@
     :cond_2
     sget v2, Lcom/res/provider/ResDRAWABLE;->ic_heart:I
 
-    .line 1
     :cond_3
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -110,7 +107,6 @@
     :sswitch_2
     const/4 v1, 0x1
 
-    .line 1
     :goto_0
     :sswitch_3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

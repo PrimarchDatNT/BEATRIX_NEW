@@ -32,7 +32,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/common/animutil/a$a;->a:Lcom/meitu/common/animutil/a;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -55,7 +54,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/common/animutil/a$a;->a:Lcom/meitu/common/animutil/a;
 
     invoke-virtual {v1}, Lcom/meitu/common/animutil/a;->h()Lcotlin/jvm/u/l;
@@ -70,7 +68,6 @@
 
     check-cast p1, Lcotlin/t1;
 
-    .line 2
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -90,7 +87,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/common/animutil/a$a;->a:Lcom/meitu/common/animutil/a;
 
     invoke-virtual {v1}, Lcom/meitu/common/animutil/a;->j()Lcotlin/jvm/u/l;
@@ -108,7 +104,6 @@
     :cond_0
     if-eqz p1, :cond_1
 
-    .line 2
     iget-object v1, p0, Lcom/meitu/common/animutil/a$a;->a:Lcom/meitu/common/animutil/a;
 
     invoke-virtual {v1}, Lcom/meitu/common/animutil/a;->i()Lcotlin/jvm/u/l;
@@ -123,7 +118,6 @@
 
     check-cast p1, Lcotlin/t1;
 
-    .line 3
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -143,7 +137,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/common/animutil/a$a;->a:Lcom/meitu/common/animutil/a;
 
     invoke-virtual {v1}, Lcom/meitu/common/animutil/a;->k()Lcotlin/jvm/u/l;
@@ -158,7 +151,6 @@
 
     check-cast p1, Lcotlin/t1;
 
-    .line 2
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -178,7 +170,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/common/animutil/a$a;->a:Lcom/meitu/common/animutil/a;
 
     invoke-virtual {v1}, Lcom/meitu/common/animutil/a;->m()Lcotlin/jvm/u/l;
@@ -196,7 +187,6 @@
     :cond_0
     if-eqz p1, :cond_1
 
-    .line 2
     iget-object v1, p0, Lcom/meitu/common/animutil/a$a;->a:Lcom/meitu/common/animutil/a;
 
     invoke-virtual {v1}, Lcom/meitu/common/animutil/a;->l()Lcotlin/jvm/u/l;
@@ -211,7 +201,6 @@
 
     check-cast p1, Lcotlin/t1;
 
-    .line 3
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

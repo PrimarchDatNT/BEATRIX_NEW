@@ -24,13 +24,10 @@
 .method constructor <init>(II)V
     .locals 0
 
-    .line 2
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 3
     iput p1, p0, Lf/k/g0/g/c/a$a;->a:I
 
-    .line 4
     iput p2, p0, Lf/k/g0/g/c/a$a;->b:I
 
     return-void
@@ -46,7 +43,6 @@
 
     const-string v0, "code"
 
-    .line 1
     invoke-virtual {p1, v0}, Lorg/json/JSONObject;->getInt(Ljava/lang/String;)I
 
     move-result v0
@@ -69,7 +65,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget p0, p0, Lf/k/g0/g/c/a$a;->a:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -97,7 +92,6 @@
 
     if-eqz p0, :cond_2
 
-    .line 1
     invoke-virtual {p0}, Lorg/json/JSONArray;->length()I
 
     move-result v2
@@ -106,7 +100,6 @@
 
     goto :goto_1
 
-    .line 2
     :cond_0
     invoke-virtual {p0}, Lorg/json/JSONArray;->length()I
 
@@ -114,7 +107,6 @@
 
     new-array v2, v2, [Lf/k/g0/g/c/a$a;
 
-    .line 3
     :goto_0
     invoke-virtual {p0}, Lorg/json/JSONArray;->length()I
 
@@ -122,7 +114,6 @@
 
     if-ge v1, v3, :cond_1
 
-    .line 4
     new-instance v3, Lf/k/g0/g/c/a$a;
 
     invoke-virtual {p0, v1}, Lorg/json/JSONArray;->getJSONObject(I)Lorg/json/JSONObject;
@@ -137,7 +128,6 @@
 
     goto :goto_0
 
-    .line 5
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -147,7 +137,6 @@
     :goto_1
     new-array p0, v1, [Lf/k/g0/g/c/a$a;
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
@@ -162,7 +151,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lf/k/g0/g/c/a$a;->a:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -177,7 +165,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lf/k/g0/g/c/a$a;->b:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

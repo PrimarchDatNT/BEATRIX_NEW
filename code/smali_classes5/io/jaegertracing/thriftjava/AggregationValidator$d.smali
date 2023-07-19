@@ -38,7 +38,6 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
     const-class v0, Lio/jaegertracing/thriftjava/AggregationValidator$d;
 
     invoke-virtual {v0}, Ljava/lang/Class;->getName()Ljava/lang/String;
@@ -62,7 +61,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/util/HashMap;
 
     invoke-direct {v0}, Ljava/util/HashMap;-><init>()V
@@ -90,7 +88,6 @@
         }
     .end annotation
 
-    .line 2
     invoke-static {p2}, Lio/jaegertracing/thriftjava/AggregationValidator$d;->b(Ljava/util/Map;)Ljava/util/Map;
 
     move-result-object p2
@@ -103,7 +100,6 @@
 .method static synthetic a()Lorg/slf4j/c;
     .locals 1
 
-    .line 1
     sget-object v0, Lio/jaegertracing/thriftjava/AggregationValidator$d;->a:Lorg/slf4j/c;
 
     return-object v0
@@ -131,7 +127,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lio/jaegertracing/thriftjava/AggregationValidator$d$a;
 
     invoke-direct {v0}, Lio/jaegertracing/thriftjava/AggregationValidator$d$a;-><init>()V

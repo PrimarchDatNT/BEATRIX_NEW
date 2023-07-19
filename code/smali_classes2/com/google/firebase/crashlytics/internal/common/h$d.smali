@@ -35,7 +35,6 @@
 .method constructor <init>(Lcom/google/firebase/crashlytics/internal/common/h;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/firebase/crashlytics/internal/common/h$d;->a:Lcom/google/firebase/crashlytics/internal/common/h;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -57,7 +56,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0, p1}, Lcom/google/firebase/crashlytics/internal/common/h$d;->b(Lcom/google/android/gms/tasks/k;)Ljava/lang/Void;
 
     move-result-object p1

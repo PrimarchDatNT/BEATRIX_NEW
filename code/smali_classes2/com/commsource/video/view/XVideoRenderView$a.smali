@@ -46,7 +46,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/video/view/XVideoRenderView$a;->a:Lcom/commsource/video/view/XVideoRenderView;
 
     invoke-virtual {v1}, Lcom/commsource/video/view/XVideoRenderView;->getOnVideoUiStateChange()Lcotlin/jvm/u/l;
@@ -67,7 +66,6 @@
 
     check-cast v1, Lcotlin/t1;
 
-    .line 2
     :cond_0
     iget-object v1, p0, Lcom/commsource/video/view/XVideoRenderView$a;->a:Lcom/commsource/video/view/XVideoRenderView;
 
@@ -79,7 +77,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/video/view/XVideoUIGroup;->n(I)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

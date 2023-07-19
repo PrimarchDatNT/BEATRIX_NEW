@@ -28,7 +28,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/camera/xcamera/cover/CoverGroup$b;->a:Lcom/commsource/camera/xcamera/cover/CoverGroup;
 
     invoke-direct {p0}, Lcom/commsource/camera/f1/l$a;-><init>()V
@@ -45,10 +44,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0, p1, p2}, Lcom/commsource/camera/f1/l$a;->e(FF)V
 
-    .line 2
     iget-object p2, p0, Lcom/commsource/camera/xcamera/cover/CoverGroup$b;->a:Lcom/commsource/camera/xcamera/cover/CoverGroup;
 
     invoke-virtual {p2}, Lcom/commsource/camera/xcamera/cover/CoverGroup;->getOrientationValuer()Lcom/commsource/camera/f1/n;
@@ -59,7 +56,6 @@
 
     move-result p2
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/CoverGroup$b;->a:Lcom/commsource/camera/xcamera/cover/CoverGroup;
 
     invoke-virtual {v1}, Lcom/commsource/camera/xcamera/cover/CoverGroup;->getBuilder()Lcom/commsource/camera/xcamera/cover/CoverGroup$a;
@@ -87,12 +83,10 @@
 
     check-cast v2, Lcom/commsource/camera/xcamera/cover/g;
 
-    .line 4
     invoke-interface {v2, p2, p1}, Lcom/commsource/camera/xcamera/cover/g;->h(FF)V
 
     goto :goto_0
 
-    .line 5
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

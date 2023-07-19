@@ -25,10 +25,8 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/camera/xcamera/cover/AbsLazyCover;-><init>()V
 
-    .line 2
     new-instance v0, Lcom/commsource/camera/xcamera/cover/tips/ArCoreTipsCover$tipsViewModel$2;
 
     invoke-direct {v0, p0}, Lcom/commsource/camera/xcamera/cover/tips/ArCoreTipsCover$tipsViewModel$2;-><init>(Lcom/commsource/camera/xcamera/cover/tips/ArCoreTipsCover;)V
@@ -39,7 +37,6 @@
 
     iput-object v0, p0, Lcom/commsource/camera/xcamera/cover/tips/ArCoreTipsCover;->d:Lcotlin/w;
 
-    .line 3
     new-instance v0, Lcom/commsource/camera/xcamera/cover/tips/ArCoreTipsCover$arViewModel$2;
 
     invoke-direct {v0, p0}, Lcom/commsource/camera/xcamera/cover/tips/ArCoreTipsCover$arViewModel$2;-><init>(Lcom/commsource/camera/xcamera/cover/tips/ArCoreTipsCover;)V
@@ -106,7 +103,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/AbsLazyCover;->A()Landroidx/databinding/ViewDataBinding;
 
     move-result-object v1
@@ -133,7 +129,6 @@
     :goto_0
     if-eqz v1, :cond_1
 
-    .line 2
     invoke-virtual {v1}, Landroid/view/ViewPropertyAnimator;->cancel()V
 
     :cond_1
@@ -141,7 +136,6 @@
 
     const/high16 v2, 0x3f800000    # 1.0f
 
-    .line 3
     invoke-virtual {v1, v2}, Landroid/view/ViewPropertyAnimator;->alpha(F)Landroid/view/ViewPropertyAnimator;
 
     move-result-object v1
@@ -163,7 +157,6 @@
 
     if-nez p1, :cond_3
 
-    .line 4
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/AbsLazyCover;->A()Landroidx/databinding/ViewDataBinding;
 
     move-result-object p1
@@ -189,7 +182,6 @@
 
     if-ne p1, v2, :cond_9
 
-    .line 5
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/AbsLazyCover;->A()Landroidx/databinding/ViewDataBinding;
 
     move-result-object p1
@@ -204,7 +196,6 @@
 
     invoke-virtual {p1}, Landroid/widget/ImageView;->clearAnimation()V
 
-    .line 6
     :cond_4
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/AbsLazyCover;->A()Landroidx/databinding/ViewDataBinding;
 
@@ -222,7 +213,6 @@
 
     invoke-virtual {p1, v1}, Lcom/airbnb/lottie/LottieAnimationView;->setAnimation(Ljava/lang/String;)V
 
-    .line 7
     :cond_5
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/AbsLazyCover;->A()Landroidx/databinding/ViewDataBinding;
 
@@ -238,7 +228,6 @@
 
     invoke-virtual {p1}, Lcom/airbnb/lottie/LottieAnimationView;->z()V
 
-    .line 8
     :cond_6
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/AbsLazyCover;->A()Landroidx/databinding/ViewDataBinding;
 
@@ -254,7 +243,6 @@
 
     invoke-virtual {p1, v3}, Landroid/widget/ImageView;->setVisibility(I)V
 
-    .line 9
     :cond_7
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/AbsLazyCover;->A()Landroidx/databinding/ViewDataBinding;
 
@@ -272,7 +260,6 @@
 
     invoke-virtual {p1, v1}, Landroid/widget/TextView;->setText(I)V
 
-    .line 10
     :cond_8
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/AbsLazyCover;->A()Landroidx/databinding/ViewDataBinding;
 
@@ -295,7 +282,6 @@
 
     if-ne p1, v2, :cond_f
 
-    .line 11
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/AbsLazyCover;->A()Landroidx/databinding/ViewDataBinding;
 
     move-result-object p1
@@ -310,7 +296,6 @@
 
     invoke-virtual {p1}, Landroid/widget/ImageView;->clearAnimation()V
 
-    .line 12
     :cond_a
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/AbsLazyCover;->A()Landroidx/databinding/ViewDataBinding;
 
@@ -328,7 +313,6 @@
 
     invoke-virtual {p1, v1}, Lcom/airbnb/lottie/LottieAnimationView;->setAnimation(Ljava/lang/String;)V
 
-    .line 13
     :cond_b
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/AbsLazyCover;->A()Landroidx/databinding/ViewDataBinding;
 
@@ -344,7 +328,6 @@
 
     invoke-virtual {p1}, Lcom/airbnb/lottie/LottieAnimationView;->z()V
 
-    .line 14
     :cond_c
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/AbsLazyCover;->A()Landroidx/databinding/ViewDataBinding;
 
@@ -360,7 +343,6 @@
 
     invoke-virtual {p1, v3}, Landroid/widget/ImageView;->setVisibility(I)V
 
-    .line 15
     :cond_d
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/AbsLazyCover;->A()Landroidx/databinding/ViewDataBinding;
 
@@ -378,7 +360,6 @@
 
     invoke-virtual {p1, v1}, Landroid/widget/TextView;->setText(I)V
 
-    .line 16
     :cond_e
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/AbsLazyCover;->A()Landroidx/databinding/ViewDataBinding;
 
@@ -401,7 +382,6 @@
 
     if-ne p1, v2, :cond_15
 
-    .line 17
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/AbsLazyCover;->A()Landroidx/databinding/ViewDataBinding;
 
     move-result-object p1
@@ -416,7 +396,6 @@
 
     invoke-virtual {p1}, Landroid/widget/ImageView;->clearAnimation()V
 
-    .line 18
     :cond_10
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/AbsLazyCover;->A()Landroidx/databinding/ViewDataBinding;
 
@@ -434,7 +413,6 @@
 
     invoke-virtual {p1, v1}, Lcom/airbnb/lottie/LottieAnimationView;->setAnimation(Ljava/lang/String;)V
 
-    .line 19
     :cond_11
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/AbsLazyCover;->A()Landroidx/databinding/ViewDataBinding;
 
@@ -450,7 +428,6 @@
 
     invoke-virtual {p1}, Lcom/airbnb/lottie/LottieAnimationView;->z()V
 
-    .line 20
     :cond_12
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/AbsLazyCover;->A()Landroidx/databinding/ViewDataBinding;
 
@@ -466,7 +443,6 @@
 
     invoke-virtual {p1, v3}, Landroid/widget/ImageView;->setVisibility(I)V
 
-    .line 21
     :cond_13
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/AbsLazyCover;->A()Landroidx/databinding/ViewDataBinding;
 
@@ -484,7 +460,6 @@
 
     invoke-virtual {p1, v1}, Landroid/widget/TextView;->setText(I)V
 
-    .line 22
     :cond_14
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/AbsLazyCover;->A()Landroidx/databinding/ViewDataBinding;
 
@@ -507,7 +482,6 @@
 
     if-ne p1, v2, :cond_1b
 
-    .line 23
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/AbsLazyCover;->A()Landroidx/databinding/ViewDataBinding;
 
     move-result-object p1
@@ -522,7 +496,6 @@
 
     invoke-virtual {p1}, Landroid/widget/ImageView;->clearAnimation()V
 
-    .line 24
     :cond_16
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/AbsLazyCover;->A()Landroidx/databinding/ViewDataBinding;
 
@@ -540,7 +513,6 @@
 
     invoke-virtual {p1, v1}, Lcom/airbnb/lottie/LottieAnimationView;->setAnimation(Ljava/lang/String;)V
 
-    .line 25
     :cond_17
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/AbsLazyCover;->A()Landroidx/databinding/ViewDataBinding;
 
@@ -556,7 +528,6 @@
 
     invoke-virtual {p1}, Lcom/airbnb/lottie/LottieAnimationView;->z()V
 
-    .line 26
     :cond_18
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/AbsLazyCover;->A()Landroidx/databinding/ViewDataBinding;
 
@@ -572,7 +543,6 @@
 
     invoke-virtual {p1, v3}, Landroid/widget/ImageView;->setVisibility(I)V
 
-    .line 27
     :cond_19
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/AbsLazyCover;->A()Landroidx/databinding/ViewDataBinding;
 
@@ -590,7 +560,6 @@
 
     invoke-virtual {p1, v1}, Landroid/widget/TextView;->setText(I)V
 
-    .line 28
     :cond_1a
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/AbsLazyCover;->A()Landroidx/databinding/ViewDataBinding;
 
@@ -613,7 +582,6 @@
 
     if-ne p1, v2, :cond_1f
 
-    .line 29
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/AbsLazyCover;->A()Landroidx/databinding/ViewDataBinding;
 
     move-result-object p1
@@ -628,7 +596,6 @@
 
     invoke-virtual {p1}, Landroid/widget/ImageView;->clearAnimation()V
 
-    .line 30
     :cond_1c
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/AbsLazyCover;->A()Landroidx/databinding/ViewDataBinding;
 
@@ -644,7 +611,6 @@
 
     invoke-virtual {p1, v1}, Landroid/widget/ImageView;->setVisibility(I)V
 
-    .line 31
     :cond_1d
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/AbsLazyCover;->A()Landroidx/databinding/ViewDataBinding;
 
@@ -662,7 +628,6 @@
 
     invoke-virtual {p1, v1}, Landroid/widget/TextView;->setText(I)V
 
-    .line 32
     :cond_1e
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/AbsLazyCover;->A()Landroidx/databinding/ViewDataBinding;
 
@@ -678,7 +643,6 @@
 
     invoke-virtual {p1, v3}, Landroid/widget/RelativeLayout;->setVisibility(I)V
 
-    .line 33
     :cond_1f
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -693,7 +657,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/camera/xcamera/cover/tips/ArCoreTipsCover;->E()Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/c1;
 
     move-result-object v1
@@ -716,7 +679,6 @@
 
     invoke-virtual {v1, v2, v3}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 2
     invoke-direct {p0}, Lcom/commsource/camera/xcamera/cover/tips/ArCoreTipsCover;->F()Lcom/commsource/camera/xcamera/cover/tips/a;
 
     move-result-object v1
@@ -739,7 +701,6 @@
 
     invoke-virtual {v1, v2, v3}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -752,7 +713,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     sget v0, Lcom/res/provider/ResLAYOUT;->layout_ar_core_tips:I
@@ -767,7 +727,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -780,7 +739,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

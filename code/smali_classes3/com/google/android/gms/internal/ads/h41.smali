@@ -25,7 +25,6 @@
 .method constructor <init>(Lcom/google/android/gms/internal/ads/v31;Lcom/google/android/gms/internal/ads/bg;)V
     .locals 0
 
-    .line 1
     iput-object p2, p0, Lcom/google/android/gms/internal/ads/h41;->a:Lcom/google/android/gms/internal/ads/bg;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -38,7 +37,6 @@
 .method public final a(Ljava/lang/Throwable;)V
     .locals 3
 
-    .line 1
     :try_start_0
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/h41;->a:Lcom/google/android/gms/internal/ads/bg;
 
@@ -81,7 +79,6 @@
 
     const-string v0, ""
 
-    .line 2
     invoke-static {v0, p1}, Lcom/google/android/gms/internal/ads/aq;->c(Ljava/lang/String;Ljava/lang/Throwable;)V
 
     return-void
@@ -94,10 +91,8 @@
         .end annotation
     .end param
 
-    .line 1
     check-cast p1, Landroid/net/Uri;
 
-    .line 2
     :try_start_0
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/h41;->a:Lcom/google/android/gms/internal/ads/bg;
 
@@ -116,7 +111,6 @@
 
     const-string v0, ""
 
-    .line 3
     invoke-static {v0, p1}, Lcom/google/android/gms/internal/ads/aq;->c(Ljava/lang/String;Ljava/lang/Throwable;)V
 
     return-void

@@ -25,12 +25,10 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/studio/effect/k;-><init>()V
 
     iput-object p1, p0, Lcom/commsource/studio/effect/s;->i:Landroid/graphics/Bitmap;
 
-    .line 2
     new-instance p1, Ljava/lang/ref/WeakReference;
 
     iget-object v0, p0, Lcom/commsource/studio/effect/s;->i:Landroid/graphics/Bitmap;
@@ -39,7 +37,6 @@
 
     invoke-virtual {p0, p1}, Lcom/commsource/studio/effect/k;->p(Ljava/lang/ref/WeakReference;)V
 
-    .line 3
     iget-object p1, p0, Lcom/commsource/studio/effect/s;->i:Landroid/graphics/Bitmap;
 
     invoke-virtual {p1}, Landroid/graphics/Bitmap;->getWidth()I
@@ -48,7 +45,6 @@
 
     invoke-virtual {p0, p1}, Lcom/commsource/studio/effect/k;->q(I)V
 
-    .line 4
     iget-object p1, p0, Lcom/commsource/studio/effect/s;->i:Landroid/graphics/Bitmap;
 
     invoke-virtual {p1}, Landroid/graphics/Bitmap;->getHeight()I
@@ -69,7 +65,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const/4 v0, 0x0
@@ -86,7 +81,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/effect/s;->i:Landroid/graphics/Bitmap;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -109,7 +103,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/effect/s;->i:Landroid/graphics/Bitmap;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

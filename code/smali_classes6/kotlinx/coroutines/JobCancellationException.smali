@@ -45,14 +45,12 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-direct {p0, p1}, Ljava/util/concurrent/CancellationException;-><init>(Ljava/lang/String;)V
 
     iput-object p3, p0, Lcotlinx/coroutines/JobCancellationException;->job:Lcotlinx/coroutines/c2;
 
     if-eqz p2, :cond_0
 
-    .line 2
     invoke-virtual {p0, p2}, Ljava/util/concurrent/CancellationException;->initCause(Ljava/lang/Throwable;)Ljava/lang/Throwable;
 
     :cond_0
@@ -64,7 +62,6 @@
 .method public bridge synthetic createCopy()Ljava/lang/Throwable;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcotlinx/coroutines/JobCancellationException;->createCopy()Lcotlinx/coroutines/JobCancellationException;
 
     move-result-object v0
@@ -77,14 +74,12 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 2
     invoke-static {}, Lcotlinx/coroutines/p0;->d()Z
 
     move-result v0
 
     if-eqz v0, :cond_1
 
-    .line 3
     new-instance v0, Lcotlinx/coroutines/JobCancellationException;
 
     invoke-virtual {p0}, Ljava/util/concurrent/CancellationException;->getMessage()Ljava/lang/String;
@@ -117,7 +112,6 @@
 
     if-eq p1, p0, :cond_1
 
-    .line 1
     instance-of v0, p1, Lcotlinx/coroutines/JobCancellationException;
 
     if-eqz v0, :cond_0
@@ -182,14 +176,12 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     invoke-static {}, Lcotlinx/coroutines/p0;->d()Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-super {p0}, Ljava/util/concurrent/CancellationException;->fillInStackTrace()Ljava/lang/Throwable;
 
     move-result-object v0
@@ -201,7 +193,6 @@
 
     new-array v0, v0, [Ljava/lang/StackTraceElement;
 
-    .line 3
     invoke-virtual {p0, v0}, Ljava/util/concurrent/CancellationException;->setStackTrace([Ljava/lang/StackTraceElement;)V
 
     return-object p0
@@ -210,7 +201,6 @@
 .method public hashCode()I
     .locals 2
 
-    .line 1
     invoke-virtual {p0}, Ljava/util/concurrent/CancellationException;->getMessage()Ljava/lang/String;
 
     move-result-object v0
@@ -262,7 +252,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V

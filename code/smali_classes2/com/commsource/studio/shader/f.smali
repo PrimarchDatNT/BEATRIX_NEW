@@ -47,7 +47,6 @@
 
     const v0, 0x8b30
 
-    .line 1
     invoke-direct {p0, v0}, Lcom/commsource/studio/shader/BaseShader;-><init>(I)V
 
     iput-object p1, p0, Lcom/commsource/studio/shader/f;->m:Lcom/commsource/studio/shader/f$a;
@@ -62,7 +61,6 @@
 
     if-eqz p2, :cond_0
 
-    .line 2
     new-instance p1, Lcom/commsource/studio/shader/f$a;
 
     invoke-direct {p1}, Lcom/commsource/studio/shader/f$a;-><init>()V
@@ -84,7 +82,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const-string v0, "precision highp float;\n\nuniform sampler2D texture;\nvarying vec2 v_textureCoordinates;\n\nvoid main()\n{\n    gl_FragColor = texture2D(texture, v_textureCoordinates);\n}"
@@ -101,14 +98,12 @@
 
     const-string v1, "texture"
 
-    .line 1
     invoke-static {p1, v1}, Landroid/opengl/GLES20;->glGetUniformLocation(ILjava/lang/String;)I
 
     move-result p1
 
     iput p1, p0, Lcom/commsource/studio/shader/f;->l:I
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -123,10 +118,8 @@
 
     const v1, 0x84c0
 
-    .line 1
     invoke-static {v1}, Landroid/opengl/GLES20;->glActiveTexture(I)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/shader/f;->m:Lcom/commsource/studio/shader/f$a;
 
     invoke-virtual {v1}, Lcom/commsource/studio/shader/f$a;->a()I
@@ -137,14 +130,12 @@
 
     invoke-static {v2, v1}, Landroid/opengl/GLES20;->glBindTexture(II)V
 
-    .line 3
     iget v1, p0, Lcom/commsource/studio/shader/f;->l:I
 
     const/4 v2, 0x0
 
     invoke-static {v1, v2}, Landroid/opengl/GLES20;->glUniform1i(II)V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -159,7 +150,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/shader/f;->m:Lcom/commsource/studio/shader/f$a;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

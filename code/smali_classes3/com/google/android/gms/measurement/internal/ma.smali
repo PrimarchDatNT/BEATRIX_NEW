@@ -36,7 +36,6 @@
 .method constructor <init>(Lcom/google/android/gms/measurement/internal/aa;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/google/android/gms/measurement/internal/x9;-><init>(Lcom/google/android/gms/measurement/internal/aa;)V
 
     return-void
@@ -45,7 +44,6 @@
 .method private final t(I)Lcom/google/android/gms/measurement/internal/oa;
     .locals 3
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/measurement/internal/ma;->f:Ljava/util/Map;
 
     invoke-static {p1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -58,7 +56,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 2
     iget-object v0, p0, Lcom/google/android/gms/measurement/internal/ma;->f:Ljava/util/Map;
 
     invoke-static {p1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -73,7 +70,6 @@
 
     return-object p1
 
-    .line 3
     :cond_0
     new-instance v0, Lcom/google/android/gms/measurement/internal/oa;
 
@@ -83,7 +79,6 @@
 
     invoke-direct {v0, p0, v1, v2}, Lcom/google/android/gms/measurement/internal/oa;-><init>(Lcom/google/android/gms/measurement/internal/ma;Ljava/lang/String;Lcom/google/android/gms/measurement/internal/pa;)V
 
-    .line 4
     iget-object v1, p0, Lcom/google/android/gms/measurement/internal/ma;->f:Ljava/util/Map;
 
     invoke-static {p1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -98,7 +93,6 @@
 .method private final y(II)Z
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/measurement/internal/ma;->f:Ljava/util/Map;
 
     invoke-static {p1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -115,7 +109,6 @@
 
     return p1
 
-    .line 2
     :cond_0
     iget-object v0, p0, Lcom/google/android/gms/measurement/internal/ma;->f:Ljava/util/Map;
 
@@ -176,28 +169,22 @@
 
     move-object/from16 v10, p0
 
-    .line 1
     invoke-static/range {p1 .. p1}, Lcom/google/android/gms/common/internal/b0;->g(Ljava/lang/String;)Ljava/lang/String;
 
-    .line 2
     invoke-static/range {p2 .. p2}, Lcom/google/android/gms/common/internal/b0;->k(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 3
     invoke-static/range {p3 .. p3}, Lcom/google/android/gms/common/internal/b0;->k(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-object/from16 v0, p1
 
-    .line 4
     iput-object v0, v10, Lcom/google/android/gms/measurement/internal/ma;->d:Ljava/lang/String;
 
-    .line 5
     new-instance v0, Ljava/util/HashSet;
 
     invoke-direct {v0}, Ljava/util/HashSet;-><init>()V
 
     iput-object v0, v10, Lcom/google/android/gms/measurement/internal/ma;->e:Ljava/util/Set;
 
-    .line 6
     new-instance v0, Landroidx/collection/ArrayMap;
 
     invoke-direct {v0}, Landroidx/collection/ArrayMap;-><init>()V
@@ -206,15 +193,12 @@
 
     move-object/from16 v0, p4
 
-    .line 7
     iput-object v0, v10, Lcom/google/android/gms/measurement/internal/ma;->g:Ljava/lang/Long;
 
     move-object/from16 v0, p5
 
-    .line 8
     iput-object v0, v10, Lcom/google/android/gms/measurement/internal/ma;->h:Ljava/lang/Long;
 
-    .line 9
     invoke-virtual/range {p0 .. p0}, Lcom/google/android/gms/measurement/internal/k6;->k()Lcom/google/android/gms/measurement/internal/va;
 
     move-result-object v0
@@ -223,7 +207,6 @@
 
     sget-object v2, Lcom/google/android/gms/measurement/internal/o;->o0:Lcom/google/android/gms/measurement/internal/c4;
 
-    .line 10
     invoke-virtual {v0, v1, v2}, Lcom/google/android/gms/measurement/internal/va;->y(Ljava/lang/String;Lcom/google/android/gms/measurement/internal/c4;)Z
 
     move-result v0
@@ -234,7 +217,6 @@
 
     if-nez v0, :cond_0
 
-    .line 11
     invoke-virtual/range {p0 .. p0}, Lcom/google/android/gms/measurement/internal/k6;->k()Lcom/google/android/gms/measurement/internal/va;
 
     move-result-object v0
@@ -243,14 +225,12 @@
 
     sget-object v2, Lcom/google/android/gms/measurement/internal/o;->p0:Lcom/google/android/gms/measurement/internal/c4;
 
-    .line 12
     invoke-virtual {v0, v1, v2}, Lcom/google/android/gms/measurement/internal/va;->y(Ljava/lang/String;Lcom/google/android/gms/measurement/internal/c4;)Z
 
     move-result v0
 
     if-eqz v0, :cond_2
 
-    .line 13
     :cond_0
     invoke-interface/range {p2 .. p2}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
@@ -269,7 +249,6 @@
 
     check-cast v1, Lcom/google/android/gms/internal/measurement/zzbr$c;
 
-    .line 14
     invoke-virtual {v1}, Lcom/google/android/gms/internal/measurement/zzbr$c;->P()Ljava/lang/String;
 
     move-result-object v1
@@ -289,7 +268,6 @@
     :cond_2
     const/4 v1, 0x0
 
-    .line 15
     :goto_0
     invoke-virtual/range {p0 .. p0}, Lcom/google/android/gms/measurement/internal/k6;->k()Lcom/google/android/gms/measurement/internal/va;
 
@@ -299,12 +277,10 @@
 
     sget-object v3, Lcom/google/android/gms/measurement/internal/o;->o0:Lcom/google/android/gms/measurement/internal/c4;
 
-    .line 16
     invoke-virtual {v0, v2, v3}, Lcom/google/android/gms/measurement/internal/va;->y(Ljava/lang/String;Lcom/google/android/gms/measurement/internal/c4;)Z
 
     move-result v13
 
-    .line 17
     invoke-virtual/range {p0 .. p0}, Lcom/google/android/gms/measurement/internal/k6;->k()Lcom/google/android/gms/measurement/internal/va;
 
     move-result-object v0
@@ -313,19 +289,16 @@
 
     sget-object v3, Lcom/google/android/gms/measurement/internal/o;->p0:Lcom/google/android/gms/measurement/internal/c4;
 
-    .line 18
     invoke-virtual {v0, v2, v3}, Lcom/google/android/gms/measurement/internal/va;->y(Ljava/lang/String;Lcom/google/android/gms/measurement/internal/c4;)Z
 
     move-result v0
 
-    .line 19
     invoke-static {}, Lcom/google/android/gms/internal/measurement/m8;->a()Z
 
     move-result v2
 
     if-eqz v2, :cond_3
 
-    .line 20
     invoke-virtual/range {p0 .. p0}, Lcom/google/android/gms/measurement/internal/k6;->k()Lcom/google/android/gms/measurement/internal/va;
 
     move-result-object v2
@@ -334,7 +307,6 @@
 
     sget-object v4, Lcom/google/android/gms/measurement/internal/o;->A0:Lcom/google/android/gms/measurement/internal/c4;
 
-    .line 21
     invoke-virtual {v2, v3, v4}, Lcom/google/android/gms/measurement/internal/va;->y(Ljava/lang/String;Lcom/google/android/gms/measurement/internal/c4;)Z
 
     move-result v2
@@ -348,7 +320,6 @@
     :cond_3
     const/4 v14, 0x0
 
-    .line 22
     :goto_1
     invoke-static {}, Lcom/google/android/gms/internal/measurement/m8;->a()Z
 
@@ -356,7 +327,6 @@
 
     if-eqz v2, :cond_4
 
-    .line 23
     invoke-virtual/range {p0 .. p0}, Lcom/google/android/gms/measurement/internal/k6;->k()Lcom/google/android/gms/measurement/internal/va;
 
     move-result-object v2
@@ -365,7 +335,6 @@
 
     sget-object v4, Lcom/google/android/gms/measurement/internal/o;->z0:Lcom/google/android/gms/measurement/internal/c4;
 
-    .line 24
     invoke-virtual {v2, v3, v4}, Lcom/google/android/gms/measurement/internal/va;->y(Ljava/lang/String;Lcom/google/android/gms/measurement/internal/c4;)Z
 
     move-result v2
@@ -384,28 +353,22 @@
 
     if-eqz v0, :cond_5
 
-    .line 25
     invoke-virtual/range {p0 .. p0}, Lcom/google/android/gms/measurement/internal/y9;->n()Lcom/google/android/gms/measurement/internal/d;
 
     move-result-object v2
 
     iget-object v3, v10, Lcom/google/android/gms/measurement/internal/ma;->d:Ljava/lang/String;
 
-    .line 26
     invoke-virtual {v2}, Lcom/google/android/gms/measurement/internal/x9;->q()V
 
-    .line 27
     invoke-virtual {v2}, Lcom/google/android/gms/measurement/internal/k6;->d()V
 
-    .line 28
     invoke-static {v3}, Lcom/google/android/gms/common/internal/b0;->g(Ljava/lang/String;)Ljava/lang/String;
 
-    .line 29
     new-instance v0, Landroid/content/ContentValues;
 
     invoke-direct {v0}, Landroid/content/ContentValues;-><init>()V
 
-    .line 30
     invoke-static {v11}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v4
@@ -414,7 +377,6 @@
 
     invoke-virtual {v0, v5, v4}, Landroid/content/ContentValues;->put(Ljava/lang/String;Ljava/lang/Integer;)V
 
-    .line 31
     :try_start_0
     invoke-virtual {v2}, Lcom/google/android/gms/measurement/internal/d;->x()Landroid/database/sqlite/SQLiteDatabase;
 
@@ -428,7 +390,6 @@
 
     aput-object v3, v7, v11
 
-    .line 32
     invoke-virtual {v4, v5, v0, v6, v7}, Landroid/database/sqlite/SQLiteDatabase;->update(Ljava/lang/String;Landroid/content/ContentValues;Ljava/lang/String;[Ljava/lang/String;)I
     :try_end_0
     .catch Landroid/database/sqlite/SQLiteException; {:try_start_0 .. :try_end_0} :catch_0
@@ -438,27 +399,22 @@
     :catch_0
     move-exception v0
 
-    .line 33
     invoke-virtual {v2}, Lcom/google/android/gms/measurement/internal/k6;->w()Lcom/google/android/gms/measurement/internal/o4;
 
     move-result-object v2
 
-    .line 34
     invoke-virtual {v2}, Lcom/google/android/gms/measurement/internal/o4;->G()Lcom/google/android/gms/measurement/internal/q4;
 
     move-result-object v2
 
-    .line 35
     invoke-static {v3}, Lcom/google/android/gms/measurement/internal/o4;->x(Ljava/lang/String;)Ljava/lang/Object;
 
     move-result-object v3
 
     const-string v4, "Error resetting session-scoped event counts. appId"
 
-    .line 36
     invoke-virtual {v2, v4, v3, v0}, Lcom/google/android/gms/measurement/internal/q4;->c(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
 
-    .line 37
     :cond_5
     :goto_3
     invoke-static {}, Ljava/util/Collections;->emptyMap()Ljava/util/Map;
@@ -469,7 +425,6 @@
 
     if-eqz v14, :cond_6
 
-    .line 38
     invoke-virtual/range {p0 .. p0}, Lcom/google/android/gms/measurement/internal/y9;->n()Lcom/google/android/gms/measurement/internal/d;
 
     move-result-object v0
@@ -480,7 +435,6 @@
 
     move-result-object v0
 
-    .line 39
     :cond_6
     invoke-virtual/range {p0 .. p0}, Lcom/google/android/gms/measurement/internal/y9;->n()Lcom/google/android/gms/measurement/internal/d;
 
@@ -494,7 +448,6 @@
 
     if-eqz v9, :cond_23
 
-    .line 40
     invoke-interface {v9}, Ljava/util/Map;->isEmpty()Z
 
     move-result v2
@@ -503,7 +456,6 @@
 
     goto/16 :goto_17
 
-    .line 41
     :cond_7
     new-instance v2, Ljava/util/HashSet;
 
@@ -517,28 +469,22 @@
 
     if-eqz v1, :cond_10
 
-    .line 42
     iget-object v1, v10, Lcom/google/android/gms/measurement/internal/ma;->d:Ljava/lang/String;
 
-    .line 43
     invoke-static {v1}, Lcom/google/android/gms/common/internal/b0;->g(Ljava/lang/String;)Ljava/lang/String;
 
-    .line 44
     invoke-static {v9}, Lcom/google/android/gms/common/internal/b0;->k(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 45
     new-instance v3, Landroidx/collection/ArrayMap;
 
     invoke-direct {v3}, Landroidx/collection/ArrayMap;-><init>()V
 
-    .line 46
     invoke-interface {v9}, Ljava/util/Map;->isEmpty()Z
 
     move-result v4
 
     if-nez v4, :cond_f
 
-    .line 47
     invoke-virtual/range {p0 .. p0}, Lcom/google/android/gms/measurement/internal/y9;->n()Lcom/google/android/gms/measurement/internal/d;
 
     move-result-object v4
@@ -547,7 +493,6 @@
 
     move-result-object v1
 
-    .line 48
     invoke-interface {v9}, Ljava/util/Map;->keySet()Ljava/util/Set;
 
     move-result-object v4
@@ -573,7 +518,6 @@
 
     move-result v5
 
-    .line 49
     invoke-static {v5}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v6
@@ -584,7 +528,6 @@
 
     check-cast v6, Lcom/google/android/gms/internal/measurement/zzbr$h;
 
-    .line 50
     invoke-static {v5}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v7
@@ -597,7 +540,6 @@
 
     if-eqz v7, :cond_e
 
-    .line 51
     invoke-interface {v7}, Ljava/util/List;->isEmpty()Z
 
     move-result v16
@@ -606,7 +548,6 @@
 
     goto/16 :goto_7
 
-    .line 52
     :cond_8
     invoke-virtual/range {p0 .. p0}, Lcom/google/android/gms/measurement/internal/y9;->m()Lcom/google/android/gms/measurement/internal/ea;
 
@@ -620,19 +561,16 @@
 
     move-result-object v8
 
-    .line 53
     invoke-interface {v8}, Ljava/util/List;->isEmpty()Z
 
     move-result v11
 
     if-nez v11, :cond_d
 
-    .line 54
     invoke-virtual {v6}, Lcom/google/android/gms/internal/measurement/v3;->t()Lcom/google/android/gms/internal/measurement/v3$b;
 
     move-result-object v11
 
-    .line 55
     check-cast v11, Lcom/google/android/gms/internal/measurement/zzbr$h$a;
 
     invoke-virtual {v11}, Lcom/google/android/gms/internal/measurement/zzbr$h$a;->w()Lcom/google/android/gms/internal/measurement/zzbr$h$a;
@@ -643,7 +581,6 @@
 
     move-result-object v8
 
-    .line 56
     invoke-virtual/range {p0 .. p0}, Lcom/google/android/gms/measurement/internal/y9;->m()Lcom/google/android/gms/measurement/internal/ea;
 
     move-result-object v11
@@ -656,7 +593,6 @@
 
     move-result-object v11
 
-    .line 57
     invoke-virtual {v8}, Lcom/google/android/gms/internal/measurement/zzbr$h$a;->t()Lcom/google/android/gms/internal/measurement/zzbr$h$a;
 
     move-result-object v12
@@ -665,7 +601,6 @@
 
     const/4 v11, 0x0
 
-    .line 58
     :goto_5
     invoke-virtual {v6}, Lcom/google/android/gms/internal/measurement/zzbr$h;->S()I
 
@@ -673,7 +608,6 @@
 
     if-ge v11, v12, :cond_a
 
-    .line 59
     invoke-virtual {v6, v11}, Lcom/google/android/gms/internal/measurement/zzbr$h;->x(I)Lcom/google/android/gms/internal/measurement/zzbr$b;
 
     move-result-object v12
@@ -686,14 +620,12 @@
 
     move-result-object v12
 
-    .line 60
     invoke-interface {v7, v12}, Ljava/util/List;->contains(Ljava/lang/Object;)Z
 
     move-result v12
 
     if-eqz v12, :cond_9
 
-    .line 61
     invoke-virtual {v8, v11}, Lcom/google/android/gms/internal/measurement/zzbr$h$a;->u(I)Lcom/google/android/gms/internal/measurement/zzbr$h$a;
 
     :cond_9
@@ -704,7 +636,6 @@
     :cond_a
     const/4 v11, 0x0
 
-    .line 62
     :goto_6
     invoke-virtual {v6}, Lcom/google/android/gms/internal/measurement/zzbr$h;->U()I
 
@@ -712,7 +643,6 @@
 
     if-ge v11, v12, :cond_c
 
-    .line 63
     invoke-virtual {v6, v11}, Lcom/google/android/gms/internal/measurement/zzbr$h;->E(I)Lcom/google/android/gms/internal/measurement/zzbr$i;
 
     move-result-object v12
@@ -725,14 +655,12 @@
 
     move-result-object v12
 
-    .line 64
     invoke-interface {v7, v12}, Ljava/util/List;->contains(Ljava/lang/Object;)Z
 
     move-result v12
 
     if-eqz v12, :cond_b
 
-    .line 65
     invoke-virtual {v8, v11}, Lcom/google/android/gms/internal/measurement/zzbr$h$a;->x(I)Lcom/google/android/gms/internal/measurement/zzbr$h$a;
 
     :cond_b
@@ -740,7 +668,6 @@
 
     goto :goto_6
 
-    .line 66
     :cond_c
     invoke-static {v5}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -763,7 +690,6 @@
 
     goto/16 :goto_4
 
-    .line 67
     :cond_e
     :goto_7
     invoke-static {v5}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -787,7 +713,6 @@
     :cond_10
     move-object v11, v9
 
-    .line 68
     :goto_9
     invoke-interface {v2}, Ljava/util/Set;->iterator()Ljava/util/Iterator;
 
@@ -810,7 +735,6 @@
 
     move-result v16
 
-    .line 69
     invoke-static/range {v16 .. v16}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v1
@@ -821,24 +745,20 @@
 
     check-cast v1, Lcom/google/android/gms/internal/measurement/zzbr$h;
 
-    .line 70
     new-instance v5, Ljava/util/BitSet;
 
     invoke-direct {v5}, Ljava/util/BitSet;-><init>()V
 
-    .line 71
     new-instance v6, Ljava/util/BitSet;
 
     invoke-direct {v6}, Ljava/util/BitSet;-><init>()V
 
-    .line 72
     new-instance v7, Landroidx/collection/ArrayMap;
 
     invoke-direct {v7}, Landroidx/collection/ArrayMap;-><init>()V
 
     if-eqz v1, :cond_14
 
-    .line 73
     invoke-virtual {v1}, Lcom/google/android/gms/internal/measurement/zzbr$h;->S()I
 
     move-result v2
@@ -847,7 +767,6 @@
 
     goto :goto_d
 
-    .line 74
     :cond_11
     invoke-virtual {v1}, Lcom/google/android/gms/internal/measurement/zzbr$h;->Q()Ljava/util/List;
 
@@ -871,14 +790,12 @@
 
     check-cast v3, Lcom/google/android/gms/internal/measurement/zzbr$b;
 
-    .line 75
     invoke-virtual {v3}, Lcom/google/android/gms/internal/measurement/zzbr$b;->B()Z
 
     move-result v4
 
     if-eqz v4, :cond_12
 
-    .line 76
     invoke-virtual {v3}, Lcom/google/android/gms/internal/measurement/zzbr$b;->C()I
 
     move-result v4
@@ -887,14 +804,12 @@
 
     move-result-object v4
 
-    .line 77
     invoke-virtual {v3}, Lcom/google/android/gms/internal/measurement/zzbr$b;->D()Z
 
     move-result v8
 
     if-eqz v8, :cond_13
 
-    .line 78
     invoke-virtual {v3}, Lcom/google/android/gms/internal/measurement/zzbr$b;->E()J
 
     move-result-wide v17
@@ -908,13 +823,11 @@
     :cond_13
     const/4 v3, 0x0
 
-    .line 79
     :goto_c
     invoke-interface {v7, v4, v3}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     goto :goto_b
 
-    .line 80
     :cond_14
     :goto_d
     invoke-static {}, Lcom/google/android/gms/internal/measurement/ib;->a()Z
@@ -923,7 +836,6 @@
 
     if-eqz v2, :cond_18
 
-    .line 81
     invoke-virtual/range {p0 .. p0}, Lcom/google/android/gms/measurement/internal/k6;->k()Lcom/google/android/gms/measurement/internal/va;
 
     move-result-object v2
@@ -932,21 +844,18 @@
 
     sget-object v4, Lcom/google/android/gms/measurement/internal/o;->v0:Lcom/google/android/gms/measurement/internal/c4;
 
-    .line 82
     invoke-virtual {v2, v3, v4}, Lcom/google/android/gms/measurement/internal/va;->y(Ljava/lang/String;Lcom/google/android/gms/measurement/internal/c4;)Z
 
     move-result v2
 
     if-eqz v2, :cond_18
 
-    .line 83
     new-instance v2, Landroidx/collection/ArrayMap;
 
     invoke-direct {v2}, Landroidx/collection/ArrayMap;-><init>()V
 
     if-eqz v1, :cond_17
 
-    .line 84
     invoke-virtual {v1}, Lcom/google/android/gms/internal/measurement/zzbr$h;->U()I
 
     move-result v3
@@ -955,7 +864,6 @@
 
     goto :goto_10
 
-    .line 85
     :cond_15
     invoke-virtual {v1}, Lcom/google/android/gms/internal/measurement/zzbr$h;->T()Ljava/util/List;
 
@@ -978,7 +886,6 @@
 
     check-cast v4, Lcom/google/android/gms/internal/measurement/zzbr$i;
 
-    .line 86
     invoke-virtual {v4}, Lcom/google/android/gms/internal/measurement/zzbr$i;->E()Z
 
     move-result v8
@@ -991,7 +898,6 @@
 
     if-lez v8, :cond_16
 
-    .line 87
     invoke-virtual {v4}, Lcom/google/android/gms/internal/measurement/zzbr$i;->F()I
 
     move-result v8
@@ -1000,7 +906,6 @@
 
     move-result-object v8
 
-    .line 88
     invoke-virtual {v4}, Lcom/google/android/gms/internal/measurement/zzbr$i;->I()I
 
     move-result v17
@@ -1019,7 +924,6 @@
 
     move-result-object v3
 
-    .line 89
     invoke-interface {v2, v8, v3}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     goto :goto_f
@@ -1052,7 +956,6 @@
 
     const/4 v2, 0x0
 
-    .line 90
     :goto_12
     invoke-virtual {v1}, Lcom/google/android/gms/internal/measurement/zzbr$h;->D()I
 
@@ -1062,7 +965,6 @@
 
     if-ge v2, v3, :cond_1c
 
-    .line 91
     invoke-virtual {v1}, Lcom/google/android/gms/internal/measurement/zzbr$h;->y()Ljava/util/List;
 
     move-result-object v3
@@ -1073,17 +975,14 @@
 
     if-eqz v3, :cond_19
 
-    .line 92
     invoke-virtual/range {p0 .. p0}, Lcom/google/android/gms/measurement/internal/k6;->w()Lcom/google/android/gms/measurement/internal/o4;
 
     move-result-object v3
 
-    .line 93
     invoke-virtual {v3}, Lcom/google/android/gms/measurement/internal/o4;->O()Lcom/google/android/gms/measurement/internal/q4;
 
     move-result-object v3
 
-    .line 94
     invoke-static/range {v16 .. v16}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v4
@@ -1100,10 +999,8 @@
 
     invoke-virtual {v3, v12, v4, v11}, Lcom/google/android/gms/measurement/internal/q4;->c(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
 
-    .line 95
     invoke-virtual {v6, v2}, Ljava/util/BitSet;->set(I)V
 
-    .line 96
     invoke-virtual {v1}, Lcom/google/android/gms/internal/measurement/zzbr$h;->J()Ljava/util/List;
 
     move-result-object v3
@@ -1114,7 +1011,6 @@
 
     if-eqz v3, :cond_1a
 
-    .line 97
     invoke-virtual {v5, v2}, Ljava/util/BitSet;->set(I)V
 
     const/4 v3, 0x1
@@ -1132,7 +1028,6 @@
     :goto_13
     if-nez v3, :cond_1b
 
-    .line 98
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v3
@@ -1155,7 +1050,6 @@
 
     if-eqz v13, :cond_1d
 
-    .line 99
     invoke-static/range {v16 .. v16}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v1
@@ -1173,7 +1067,6 @@
 
     if-eqz v14, :cond_22
 
-    .line 100
     invoke-static/range {v16 .. v16}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v1
@@ -1186,7 +1079,6 @@
 
     if-eqz v1, :cond_22
 
-    .line 101
     iget-object v2, v10, Lcom/google/android/gms/measurement/internal/ma;->h:Ljava/lang/Long;
 
     if-eqz v2, :cond_22
@@ -1197,7 +1089,6 @@
 
     goto :goto_16
 
-    .line 102
     :cond_1e
     invoke-interface {v1}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
@@ -1216,12 +1107,10 @@
 
     check-cast v2, Lcom/google/android/gms/internal/measurement/zzbj$b;
 
-    .line 103
     invoke-virtual {v2}, Lcom/google/android/gms/internal/measurement/zzbj$b;->D()I
 
     move-result v3
 
-    .line 104
     iget-object v11, v10, Lcom/google/android/gms/measurement/internal/ma;->h:Ljava/lang/Long;
 
     invoke-virtual {v11}, Ljava/lang/Long;->longValue()J
@@ -1232,14 +1121,12 @@
 
     div-long v11, v11, v19
 
-    .line 105
     invoke-virtual {v2}, Lcom/google/android/gms/internal/measurement/zzbj$b;->K()Z
 
     move-result v2
 
     if-eqz v2, :cond_1f
 
-    .line 106
     iget-object v2, v10, Lcom/google/android/gms/measurement/internal/ma;->g:Ljava/lang/Long;
 
     invoke-virtual {v2}, Ljava/lang/Long;->longValue()J
@@ -1248,7 +1135,6 @@
 
     div-long v11, v11, v19
 
-    .line 107
     :cond_1f
     invoke-static {v3}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -1260,7 +1146,6 @@
 
     if-eqz v2, :cond_20
 
-    .line 108
     invoke-static {v3}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v2
@@ -1278,7 +1163,6 @@
     :cond_20
     move-object/from16 v19, v0
 
-    .line 109
     :goto_15
     invoke-static {v3}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -1290,7 +1174,6 @@
 
     if-eqz v0, :cond_21
 
-    .line 110
     invoke-static {v3}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v0
@@ -1310,7 +1193,6 @@
     :goto_16
     move-object/from16 v19, v0
 
-    .line 111
     new-instance v0, Lcom/google/android/gms/measurement/internal/oa;
 
     iget-object v3, v10, Lcom/google/android/gms/measurement/internal/ma;->d:Ljava/lang/String;
@@ -1329,7 +1211,6 @@
 
     invoke-direct/range {v1 .. v9}, Lcom/google/android/gms/measurement/internal/oa;-><init>(Lcom/google/android/gms/measurement/internal/ma;Ljava/lang/String;Lcom/google/android/gms/internal/measurement/zzbr$h;Ljava/util/BitSet;Ljava/util/BitSet;Ljava/util/Map;Ljava/util/Map;Lcom/google/android/gms/measurement/internal/pa;)V
 
-    .line 112
     iget-object v1, v10, Lcom/google/android/gms/measurement/internal/ma;->f:Ljava/util/Map;
 
     invoke-static/range {v16 .. v16}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -1354,7 +1235,6 @@
 
     const/16 v18, 0x1
 
-    .line 113
     invoke-interface/range {p2 .. p2}, Ljava/util/List;->isEmpty()Z
 
     move-result v0
@@ -1363,17 +1243,14 @@
 
     if-nez v0, :cond_2e
 
-    .line 114
     new-instance v0, Lcom/google/android/gms/measurement/internal/ra;
 
     invoke-direct {v0, v10, v12}, Lcom/google/android/gms/measurement/internal/ra;-><init>(Lcom/google/android/gms/measurement/internal/ma;Lcom/google/android/gms/measurement/internal/pa;)V
 
-    .line 115
     new-instance v2, Landroidx/collection/ArrayMap;
 
     invoke-direct {v2}, Landroidx/collection/ArrayMap;-><init>()V
 
-    .line 116
     invoke-interface/range {p2 .. p2}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
     move-result-object v3
@@ -1391,17 +1268,14 @@
 
     check-cast v4, Lcom/google/android/gms/internal/measurement/zzbr$c;
 
-    .line 117
     iget-object v5, v10, Lcom/google/android/gms/measurement/internal/ma;->d:Ljava/lang/String;
 
-    .line 118
     invoke-virtual {v0, v5, v4}, Lcom/google/android/gms/measurement/internal/ra;->a(Ljava/lang/String;Lcom/google/android/gms/internal/measurement/zzbr$c;)Lcom/google/android/gms/internal/measurement/zzbr$c;
 
     move-result-object v5
 
     if-eqz v5, :cond_24
 
-    .line 119
     invoke-virtual/range {p0 .. p0}, Lcom/google/android/gms/measurement/internal/y9;->n()Lcom/google/android/gms/measurement/internal/d;
 
     move-result-object v6
@@ -1412,19 +1286,16 @@
 
     move-result-object v8
 
-    .line 120
     invoke-virtual {v6}, Lcom/google/android/gms/measurement/internal/k6;->k()Lcom/google/android/gms/measurement/internal/va;
 
     move-result-object v9
 
     sget-object v11, Lcom/google/android/gms/measurement/internal/o;->p0:Lcom/google/android/gms/measurement/internal/c4;
 
-    .line 121
     invoke-virtual {v9, v7, v11}, Lcom/google/android/gms/measurement/internal/va;->y(Ljava/lang/String;Lcom/google/android/gms/measurement/internal/c4;)Z
 
     move-result v9
 
-    .line 122
     invoke-virtual {v4}, Lcom/google/android/gms/internal/measurement/zzbr$c;->P()Ljava/lang/String;
 
     move-result-object v11
@@ -1435,22 +1306,18 @@
 
     if-nez v11, :cond_26
 
-    .line 123
     invoke-virtual {v6}, Lcom/google/android/gms/measurement/internal/k6;->w()Lcom/google/android/gms/measurement/internal/o4;
 
     move-result-object v11
 
-    .line 124
     invoke-virtual {v11}, Lcom/google/android/gms/measurement/internal/o4;->J()Lcom/google/android/gms/measurement/internal/q4;
 
     move-result-object v11
 
-    .line 125
     invoke-static {v7}, Lcom/google/android/gms/measurement/internal/o4;->x(Ljava/lang/String;)Ljava/lang/Object;
 
     move-result-object v13
 
-    .line 126
     invoke-virtual {v6}, Lcom/google/android/gms/measurement/internal/k6;->g()Lcom/google/android/gms/measurement/internal/m4;
 
     move-result-object v6
@@ -1461,17 +1328,14 @@
 
     const-string v8, "Event aggregate wasn\'t created during raw event logging. appId, event"
 
-    .line 127
     invoke-virtual {v11, v8, v13, v6}, Lcom/google/android/gms/measurement/internal/q4;->c(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
 
     if-eqz v9, :cond_25
 
-    .line 128
     new-instance v6, Lcom/google/android/gms/measurement/internal/k;
 
     move-object/from16 v19, v6
 
-    .line 129
     invoke-virtual {v4}, Lcom/google/android/gms/internal/measurement/zzbr$c;->P()Ljava/lang/String;
 
     move-result-object v21
@@ -1482,7 +1346,6 @@
 
     const-wide/16 v26, 0x1
 
-    .line 130
     invoke-virtual {v4}, Lcom/google/android/gms/internal/measurement/zzbr$c;->R()J
 
     move-result-wide v28
@@ -1503,11 +1366,9 @@
 
     goto/16 :goto_19
 
-    .line 131
     :cond_25
     new-instance v6, Lcom/google/android/gms/measurement/internal/k;
 
-    .line 132
     invoke-virtual {v4}, Lcom/google/android/gms/internal/measurement/zzbr$c;->P()Ljava/lang/String;
 
     move-result-object v21
@@ -1516,7 +1377,6 @@
 
     const-wide/16 v24, 0x1
 
-    .line 133
     invoke-virtual {v4}, Lcom/google/android/gms/internal/measurement/zzbr$c;->R()J
 
     move-result-wide v26
@@ -1544,7 +1404,6 @@
 
     if-eqz v9, :cond_27
 
-    .line 134
     new-instance v4, Lcom/google/android/gms/measurement/internal/k;
 
     move-object/from16 v19, v4
@@ -1597,7 +1456,6 @@
 
     goto :goto_18
 
-    .line 135
     :cond_27
     new-instance v4, Lcom/google/android/gms/measurement/internal/k;
 
@@ -1652,7 +1510,6 @@
     :goto_18
     move-object v6, v4
 
-    .line 136
     :goto_19
     invoke-virtual/range {p0 .. p0}, Lcom/google/android/gms/measurement/internal/y9;->n()Lcom/google/android/gms/measurement/internal/d;
 
@@ -1660,15 +1517,12 @@
 
     invoke-virtual {v4, v6}, Lcom/google/android/gms/measurement/internal/d;->O(Lcom/google/android/gms/measurement/internal/k;)V
 
-    .line 137
     iget-wide v7, v6, Lcom/google/android/gms/measurement/internal/k;->c:J
 
-    .line 138
     invoke-virtual {v5}, Lcom/google/android/gms/internal/measurement/zzbr$c;->P()Ljava/lang/String;
 
     move-result-object v4
 
-    .line 139
     invoke-interface {v2, v4}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v9
@@ -1677,7 +1531,6 @@
 
     if-nez v9, :cond_29
 
-    .line 140
     invoke-virtual/range {p0 .. p0}, Lcom/google/android/gms/measurement/internal/y9;->n()Lcom/google/android/gms/measurement/internal/d;
 
     move-result-object v9
@@ -1690,16 +1543,13 @@
 
     if-nez v9, :cond_28
 
-    .line 141
     new-instance v9, Landroidx/collection/ArrayMap;
 
     invoke-direct {v9}, Landroidx/collection/ArrayMap;-><init>()V
 
-    .line 142
     :cond_28
     invoke-interface {v2, v4, v9}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 143
     :cond_29
     invoke-interface {v9}, Ljava/util/Map;->keySet()Ljava/util/Set;
 
@@ -1726,7 +1576,6 @@
 
     move-result v11
 
-    .line 144
     iget-object v13, v10, Lcom/google/android/gms/measurement/internal/ma;->e:Ljava/util/Set;
 
     invoke-static {v11}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -1739,7 +1588,6 @@
 
     if-eqz v13, :cond_2a
 
-    .line 145
     invoke-virtual/range {p0 .. p0}, Lcom/google/android/gms/measurement/internal/k6;->w()Lcom/google/android/gms/measurement/internal/o4;
 
     move-result-object v13
@@ -1756,7 +1604,6 @@
 
     goto :goto_1a
 
-    .line 146
     :cond_2a
     invoke-static {v11}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -1768,7 +1615,6 @@
 
     check-cast v13, Ljava/util/List;
 
-    .line 147
     invoke-interface {v13}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
     move-result-object v13
@@ -1788,21 +1634,18 @@
 
     check-cast v14, Lcom/google/android/gms/internal/measurement/zzbj$b;
 
-    .line 148
     new-instance v15, Lcom/google/android/gms/measurement/internal/qa;
 
     iget-object v12, v10, Lcom/google/android/gms/measurement/internal/ma;->d:Ljava/lang/String;
 
     invoke-direct {v15, v10, v12, v11, v14}, Lcom/google/android/gms/measurement/internal/qa;-><init>(Lcom/google/android/gms/measurement/internal/ma;Ljava/lang/String;ILcom/google/android/gms/internal/measurement/zzbj$b;)V
 
-    .line 149
     iget-object v12, v10, Lcom/google/android/gms/measurement/internal/ma;->g:Ljava/lang/Long;
 
     move-object/from16 p5, v0
 
     iget-object v0, v10, Lcom/google/android/gms/measurement/internal/ma;->h:Ljava/lang/Long;
 
-    .line 150
     invoke-virtual {v14}, Lcom/google/android/gms/internal/measurement/zzbj$b;->D()I
 
     move-result v14
@@ -1823,12 +1666,10 @@
 
     move-object/from16 v25, v6
 
-    .line 151
     invoke-virtual/range {v19 .. v26}, Lcom/google/android/gms/measurement/internal/qa;->k(Ljava/lang/Long;Ljava/lang/Long;Lcom/google/android/gms/internal/measurement/zzbr$c;JLcom/google/android/gms/measurement/internal/k;Z)Z
 
     move-result v14
 
-    .line 152
     invoke-virtual/range {p0 .. p0}, Lcom/google/android/gms/measurement/internal/k6;->k()Lcom/google/android/gms/measurement/internal/va;
 
     move-result-object v0
@@ -1839,7 +1680,6 @@
 
     sget-object v2, Lcom/google/android/gms/measurement/internal/o;->x0:Lcom/google/android/gms/measurement/internal/c4;
 
-    .line 153
     invoke-virtual {v0, v12, v2}, Lcom/google/android/gms/measurement/internal/va;->y(Ljava/lang/String;Lcom/google/android/gms/measurement/internal/c4;)Z
 
     move-result v0
@@ -1848,7 +1688,6 @@
 
     if-nez v14, :cond_2b
 
-    .line 154
     iget-object v0, v10, Lcom/google/android/gms/measurement/internal/ma;->e:Ljava/util/Set;
 
     invoke-static {v11}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -1859,13 +1698,11 @@
 
     goto :goto_1c
 
-    .line 155
     :cond_2b
     invoke-direct {v10, v11}, Lcom/google/android/gms/measurement/internal/ma;->t(I)Lcom/google/android/gms/measurement/internal/oa;
 
     move-result-object v0
 
-    .line 156
     invoke-virtual {v0, v15}, Lcom/google/android/gms/measurement/internal/oa;->c(Lcom/google/android/gms/measurement/internal/ta;)V
 
     move-object/from16 v0, p5
@@ -1884,7 +1721,6 @@
     :goto_1c
     if-nez v14, :cond_2d
 
-    .line 157
     iget-object v0, v10, Lcom/google/android/gms/measurement/internal/ma;->e:Ljava/util/Set;
 
     invoke-static {v11}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -1902,25 +1738,21 @@
 
     goto/16 :goto_1a
 
-    .line 158
     :cond_2e
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
 
-    .line 159
     invoke-interface/range {p3 .. p3}, Ljava/util/List;->isEmpty()Z
 
     move-result v2
 
     if-nez v2, :cond_3b
 
-    .line 160
     new-instance v2, Landroidx/collection/ArrayMap;
 
     invoke-direct {v2}, Landroidx/collection/ArrayMap;-><init>()V
 
-    .line 161
     invoke-interface/range {p3 .. p3}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
     move-result-object v3
@@ -1939,19 +1771,16 @@
 
     check-cast v4, Lcom/google/android/gms/internal/measurement/zzbr$j;
 
-    .line 162
     invoke-virtual {v4}, Lcom/google/android/gms/internal/measurement/zzbr$j;->L()Ljava/lang/String;
 
     move-result-object v5
 
     invoke-interface {v0, v5}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
-    .line 163
     invoke-virtual {v4}, Lcom/google/android/gms/internal/measurement/zzbr$j;->L()Ljava/lang/String;
 
     move-result-object v5
 
-    .line 164
     invoke-interface {v2, v5}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v6
@@ -1960,7 +1789,6 @@
 
     if-nez v6, :cond_31
 
-    .line 165
     invoke-virtual/range {p0 .. p0}, Lcom/google/android/gms/measurement/internal/y9;->n()Lcom/google/android/gms/measurement/internal/d;
 
     move-result-object v6
@@ -1973,16 +1801,13 @@
 
     if-nez v6, :cond_30
 
-    .line 166
     new-instance v6, Landroidx/collection/ArrayMap;
 
     invoke-direct {v6}, Landroidx/collection/ArrayMap;-><init>()V
 
-    .line 167
     :cond_30
     invoke-interface {v2, v5, v6}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 168
     :cond_31
     invoke-interface {v6}, Ljava/util/Map;->keySet()Ljava/util/Set;
 
@@ -2010,7 +1835,6 @@
 
     move-result v7
 
-    .line 169
     iget-object v8, v10, Lcom/google/android/gms/measurement/internal/ma;->e:Ljava/util/Set;
 
     invoke-static {v7}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -2023,7 +1847,6 @@
 
     if-eqz v8, :cond_33
 
-    .line 170
     invoke-virtual/range {p0 .. p0}, Lcom/google/android/gms/measurement/internal/k6;->w()Lcom/google/android/gms/measurement/internal/o4;
 
     move-result-object v4
@@ -2040,7 +1863,6 @@
 
     goto :goto_1d
 
-    .line 171
     :cond_33
     invoke-static {v7}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -2052,7 +1874,6 @@
 
     check-cast v8, Ljava/util/List;
 
-    .line 172
     invoke-interface {v8}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
     move-result-object v8
@@ -2072,7 +1893,6 @@
 
     check-cast v9, Lcom/google/android/gms/internal/measurement/zzbj$d;
 
-    .line 173
     invoke-virtual/range {p0 .. p0}, Lcom/google/android/gms/measurement/internal/k6;->w()Lcom/google/android/gms/measurement/internal/o4;
 
     move-result-object v11
@@ -2085,22 +1905,18 @@
 
     if-eqz v11, :cond_35
 
-    .line 174
     invoke-virtual/range {p0 .. p0}, Lcom/google/android/gms/measurement/internal/k6;->w()Lcom/google/android/gms/measurement/internal/o4;
 
     move-result-object v11
 
-    .line 175
     invoke-virtual {v11}, Lcom/google/android/gms/measurement/internal/o4;->O()Lcom/google/android/gms/measurement/internal/q4;
 
     move-result-object v11
 
-    .line 176
     invoke-static {v7}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v12
 
-    .line 177
     invoke-virtual {v9}, Lcom/google/android/gms/internal/measurement/zzbj$d;->z()Z
 
     move-result v13
@@ -2120,7 +1936,6 @@
     :cond_34
     const/4 v13, 0x0
 
-    .line 178
     :goto_20
     invoke-virtual/range {p0 .. p0}, Lcom/google/android/gms/measurement/internal/k6;->g()Lcom/google/android/gms/measurement/internal/m4;
 
@@ -2136,20 +1951,16 @@
 
     const-string v15, "Evaluating filter. audience, filter, property"
 
-    .line 179
     invoke-virtual {v11, v15, v12, v13, v14}, Lcom/google/android/gms/measurement/internal/q4;->d(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)V
 
-    .line 180
     invoke-virtual/range {p0 .. p0}, Lcom/google/android/gms/measurement/internal/k6;->w()Lcom/google/android/gms/measurement/internal/o4;
 
     move-result-object v11
 
-    .line 181
     invoke-virtual {v11}, Lcom/google/android/gms/measurement/internal/o4;->O()Lcom/google/android/gms/measurement/internal/q4;
 
     move-result-object v11
 
-    .line 182
     invoke-virtual/range {p0 .. p0}, Lcom/google/android/gms/measurement/internal/y9;->m()Lcom/google/android/gms/measurement/internal/ea;
 
     move-result-object v12
@@ -2162,7 +1973,6 @@
 
     invoke-virtual {v11, v13, v12}, Lcom/google/android/gms/measurement/internal/q4;->b(Ljava/lang/String;Ljava/lang/Object;)V
 
-    .line 183
     :cond_35
     invoke-virtual {v9}, Lcom/google/android/gms/internal/measurement/zzbj$d;->z()Z
 
@@ -2180,7 +1990,6 @@
 
     goto :goto_21
 
-    .line 184
     :cond_36
     new-instance v11, Lcom/google/android/gms/measurement/internal/sa;
 
@@ -2188,12 +1997,10 @@
 
     invoke-direct {v11, v10, v12, v7, v9}, Lcom/google/android/gms/measurement/internal/sa;-><init>(Lcom/google/android/gms/measurement/internal/ma;Ljava/lang/String;ILcom/google/android/gms/internal/measurement/zzbj$d;)V
 
-    .line 185
     iget-object v12, v10, Lcom/google/android/gms/measurement/internal/ma;->g:Ljava/lang/Long;
 
     iget-object v13, v10, Lcom/google/android/gms/measurement/internal/ma;->h:Ljava/lang/Long;
 
-    .line 186
     invoke-virtual {v9}, Lcom/google/android/gms/internal/measurement/zzbj$d;->A()I
 
     move-result v9
@@ -2202,12 +2009,10 @@
 
     move-result v9
 
-    .line 187
     invoke-virtual {v11, v12, v13, v4, v9}, Lcom/google/android/gms/measurement/internal/sa;->k(Ljava/lang/Long;Ljava/lang/Long;Lcom/google/android/gms/internal/measurement/zzbr$j;Z)Z
 
     move-result v9
 
-    .line 188
     invoke-virtual/range {p0 .. p0}, Lcom/google/android/gms/measurement/internal/k6;->k()Lcom/google/android/gms/measurement/internal/va;
 
     move-result-object v12
@@ -2216,7 +2021,6 @@
 
     sget-object v14, Lcom/google/android/gms/measurement/internal/o;->x0:Lcom/google/android/gms/measurement/internal/c4;
 
-    .line 189
     invoke-virtual {v12, v13, v14}, Lcom/google/android/gms/measurement/internal/va;->y(Ljava/lang/String;Lcom/google/android/gms/measurement/internal/c4;)Z
 
     move-result v12
@@ -2225,7 +2029,6 @@
 
     if-nez v9, :cond_37
 
-    .line 190
     iget-object v8, v10, Lcom/google/android/gms/measurement/internal/ma;->e:Ljava/util/Set;
 
     invoke-static {v7}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -2236,37 +2039,31 @@
 
     goto :goto_23
 
-    .line 191
     :cond_37
     invoke-direct {v10, v7}, Lcom/google/android/gms/measurement/internal/ma;->t(I)Lcom/google/android/gms/measurement/internal/oa;
 
     move-result-object v12
 
-    .line 192
     invoke-virtual {v12, v11}, Lcom/google/android/gms/measurement/internal/oa;->c(Lcom/google/android/gms/measurement/internal/ta;)V
 
     goto/16 :goto_1f
 
-    .line 193
     :cond_38
     :goto_21
     invoke-virtual/range {p0 .. p0}, Lcom/google/android/gms/measurement/internal/k6;->w()Lcom/google/android/gms/measurement/internal/o4;
 
     move-result-object v8
 
-    .line 194
     invoke-virtual {v8}, Lcom/google/android/gms/measurement/internal/o4;->J()Lcom/google/android/gms/measurement/internal/q4;
 
     move-result-object v8
 
     iget-object v11, v10, Lcom/google/android/gms/measurement/internal/ma;->d:Ljava/lang/String;
 
-    .line 195
     invoke-static {v11}, Lcom/google/android/gms/measurement/internal/o4;->x(Ljava/lang/String;)Ljava/lang/Object;
 
     move-result-object v11
 
-    .line 196
     invoke-virtual {v9}, Lcom/google/android/gms/internal/measurement/zzbj$d;->z()Z
 
     move-result v12
@@ -2293,7 +2090,6 @@
 
     const-string v12, "Invalid property filter ID. appId, id"
 
-    .line 197
     invoke-virtual {v8, v12, v11, v9}, Lcom/google/android/gms/measurement/internal/q4;->c(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
 
     const/4 v9, 0x0
@@ -2302,7 +2098,6 @@
     :goto_23
     if-nez v9, :cond_32
 
-    .line 198
     iget-object v8, v10, Lcom/google/android/gms/measurement/internal/ma;->e:Ljava/util/Set;
 
     invoke-static {v7}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -2313,7 +2108,6 @@
 
     goto/16 :goto_1e
 
-    .line 199
     :cond_3b
     invoke-virtual/range {p0 .. p0}, Lcom/google/android/gms/measurement/internal/k6;->k()Lcom/google/android/gms/measurement/internal/va;
 
@@ -2323,19 +2117,16 @@
 
     sget-object v3, Lcom/google/android/gms/measurement/internal/o;->u0:Lcom/google/android/gms/measurement/internal/c4;
 
-    .line 200
     invoke-virtual {v1, v2, v3}, Lcom/google/android/gms/measurement/internal/va;->y(Ljava/lang/String;Lcom/google/android/gms/measurement/internal/c4;)Z
 
     move-result v1
 
-    .line 201
     new-instance v2, Landroidx/collection/ArrayMap;
 
     invoke-direct {v2}, Landroidx/collection/ArrayMap;-><init>()V
 
     if-eqz v1, :cond_3c
 
-    .line 202
     invoke-virtual/range {p0 .. p0}, Lcom/google/android/gms/measurement/internal/y9;->n()Lcom/google/android/gms/measurement/internal/d;
 
     move-result-object v1
@@ -2346,25 +2137,21 @@
 
     move-result-object v2
 
-    .line 203
     :cond_3c
     new-instance v1, Ljava/util/ArrayList;
 
     invoke-direct {v1}, Ljava/util/ArrayList;-><init>()V
 
-    .line 204
     iget-object v0, v10, Lcom/google/android/gms/measurement/internal/ma;->f:Ljava/util/Map;
 
     invoke-interface {v0}, Ljava/util/Map;->keySet()Ljava/util/Set;
 
     move-result-object v0
 
-    .line 205
     iget-object v3, v10, Lcom/google/android/gms/measurement/internal/ma;->e:Ljava/util/Set;
 
     invoke-interface {v0, v3}, Ljava/util/Set;->removeAll(Ljava/util/Collection;)Z
 
-    .line 206
     invoke-interface {v0}, Ljava/util/Set;->iterator()Ljava/util/Iterator;
 
     move-result-object v3
@@ -2387,7 +2174,6 @@
 
     move-result v0
 
-    .line 207
     iget-object v4, v10, Lcom/google/android/gms/measurement/internal/ma;->f:Ljava/util/Map;
 
     invoke-static {v0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -2400,7 +2186,6 @@
 
     check-cast v4, Lcom/google/android/gms/measurement/internal/oa;
 
-    .line 208
     invoke-static {v0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v5
@@ -2411,54 +2196,42 @@
 
     check-cast v5, Ljava/util/List;
 
-    .line 209
     invoke-virtual {v4, v0, v5}, Lcom/google/android/gms/measurement/internal/oa;->a(ILjava/util/List;)Lcom/google/android/gms/internal/measurement/zzbr$a;
 
     move-result-object v4
 
-    .line 210
     invoke-interface {v1, v4}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
-    .line 211
     invoke-virtual/range {p0 .. p0}, Lcom/google/android/gms/measurement/internal/y9;->n()Lcom/google/android/gms/measurement/internal/d;
 
     move-result-object v5
 
     iget-object v6, v10, Lcom/google/android/gms/measurement/internal/ma;->d:Ljava/lang/String;
 
-    .line 212
     invoke-virtual {v4}, Lcom/google/android/gms/internal/measurement/zzbr$a;->H()Lcom/google/android/gms/internal/measurement/zzbr$h;
 
     move-result-object v4
 
-    .line 213
     invoke-virtual {v5}, Lcom/google/android/gms/measurement/internal/x9;->q()V
 
-    .line 214
     invoke-virtual {v5}, Lcom/google/android/gms/measurement/internal/k6;->d()V
 
-    .line 215
     invoke-static {v6}, Lcom/google/android/gms/common/internal/b0;->g(Ljava/lang/String;)Ljava/lang/String;
 
-    .line 216
     invoke-static {v4}, Lcom/google/android/gms/common/internal/b0;->k(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 217
     invoke-virtual {v4}, Lcom/google/android/gms/internal/measurement/i2;->g()[B
 
     move-result-object v4
 
-    .line 218
     new-instance v7, Landroid/content/ContentValues;
 
     invoke-direct {v7}, Landroid/content/ContentValues;-><init>()V
 
     const-string v8, "app_id"
 
-    .line 219
     invoke-virtual {v7, v8, v6}, Landroid/content/ContentValues;->put(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 220
     invoke-static {v0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v0
@@ -2469,10 +2242,8 @@
 
     const-string v0, "current_results"
 
-    .line 221
     invoke-virtual {v7, v0, v4}, Landroid/content/ContentValues;->put(Ljava/lang/String;[B)V
 
-    .line 222
     :try_start_1
     invoke-virtual {v5}, Lcom/google/android/gms/measurement/internal/d;->x()Landroid/database/sqlite/SQLiteDatabase;
 
@@ -2486,7 +2257,6 @@
 
     const/4 v9, 0x0
 
-    .line 223
     :try_start_2
     invoke-virtual {v0, v4, v9, v7, v8}, Landroid/database/sqlite/SQLiteDatabase;->insertWithOnConflict(Ljava/lang/String;Ljava/lang/String;Landroid/content/ContentValues;I)J
 
@@ -2498,19 +2268,16 @@
 
     if-nez v0, :cond_3d
 
-    .line 224
     invoke-virtual {v5}, Lcom/google/android/gms/measurement/internal/k6;->w()Lcom/google/android/gms/measurement/internal/o4;
 
     move-result-object v0
 
-    .line 225
     invoke-virtual {v0}, Lcom/google/android/gms/measurement/internal/o4;->G()Lcom/google/android/gms/measurement/internal/q4;
 
     move-result-object v0
 
     const-string v4, "Failed to insert filter results (got -1). appId"
 
-    .line 226
     invoke-static {v6}, Lcom/google/android/gms/measurement/internal/o4;->x(Ljava/lang/String;)Ljava/lang/Object;
 
     move-result-object v7
@@ -2531,18 +2298,15 @@
 
     const/4 v9, 0x0
 
-    .line 227
     :goto_25
     invoke-virtual {v5}, Lcom/google/android/gms/measurement/internal/k6;->w()Lcom/google/android/gms/measurement/internal/o4;
 
     move-result-object v4
 
-    .line 228
     invoke-virtual {v4}, Lcom/google/android/gms/measurement/internal/o4;->G()Lcom/google/android/gms/measurement/internal/q4;
 
     move-result-object v4
 
-    .line 229
     invoke-static {v6}, Lcom/google/android/gms/measurement/internal/o4;->x(Ljava/lang/String;)Ljava/lang/Object;
 
     move-result-object v5

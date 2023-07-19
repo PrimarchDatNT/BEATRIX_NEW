@@ -87,54 +87,40 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Landroid/os/AsyncTask;-><init>()V
 
     const/4 v0, 0x0
 
-    .line 2
     iput-boolean v0, p0, Lcom/sdk/imp/internal/loader/b;->c:Z
 
     const/4 v1, 0x0
 
-    .line 3
     iput-object v1, p0, Lcom/sdk/imp/internal/loader/b;->g:Lcom/sdk/imp/internal/loader/h;
 
     const/4 v2, 0x1
 
-    .line 4
     iput v2, p0, Lcom/sdk/imp/internal/loader/b;->i:I
 
     const-wide/16 v3, -0x1
 
-    .line 5
     iput-wide v3, p0, Lcom/sdk/imp/internal/loader/b;->k:J
 
-    .line 6
     iput-boolean v2, p0, Lcom/sdk/imp/internal/loader/b;->n:Z
 
-    .line 7
     iput-boolean v0, p0, Lcom/sdk/imp/internal/loader/b;->q:Z
 
-    .line 8
     iput-object v1, p0, Lcom/sdk/imp/internal/loader/b;->r:Lcom/sdk/imp/internal/loader/h;
 
-    .line 9
     iput-object p3, p0, Lcom/sdk/imp/internal/loader/b;->b:Ljava/lang/String;
 
-    .line 10
     iput p1, p0, Lcom/sdk/imp/internal/loader/b;->e:I
 
-    .line 11
     iput p2, p0, Lcom/sdk/imp/internal/loader/b;->f:I
 
-    .line 12
     iput-boolean p4, p0, Lcom/sdk/imp/internal/loader/b;->h:Z
 
-    .line 13
     iput p5, p0, Lcom/sdk/imp/internal/loader/b;->i:I
 
-    .line 14
     iput-object p6, p0, Lcom/sdk/imp/internal/loader/b;->j:Ljava/util/Map;
 
     return-void
@@ -143,7 +129,6 @@
 .method private C(Ljava/lang/String;Ljava/lang/String;)V
     .locals 2
 
-    .line 1
     invoke-static {p1}, Lf/q/b/b;->E(Ljava/lang/String;)Z
 
     move-result v0
@@ -154,12 +139,10 @@
 
     const/4 v0, 0x0
 
-    .line 2
     invoke-direct {p0, v0, p2, v0, p1}, Lcom/sdk/imp/internal/loader/b;->E(ILjava/lang/String;ILjava/util/List;)V
 
     goto :goto_0
 
-    .line 3
     :cond_0
     new-instance v0, Lcom/sdk/utils/internal/a;
 
@@ -169,7 +152,6 @@
 
     invoke-direct {v0, p1, v1}, Lcom/sdk/utils/internal/a;-><init>(Ljava/lang/String;Lcom/sdk/utils/internal/a$b;)V
 
-    .line 4
     invoke-virtual {v0}, Lcom/sdk/utils/internal/a;->e()V
 
     :goto_0
@@ -181,7 +163,6 @@
 
     if-nez p1, :cond_6
 
-    .line 1
     iget-object v0, p0, Lcom/sdk/imp/internal/loader/b;->g:Lcom/sdk/imp/internal/loader/h;
 
     if-nez v0, :cond_0
@@ -190,7 +171,6 @@
 
     goto :goto_1
 
-    .line 2
     :cond_0
     invoke-virtual {v0}, Lcom/sdk/imp/internal/loader/h;->l()Z
 
@@ -202,7 +182,6 @@
 
     goto :goto_1
 
-    .line 3
     :cond_1
     iget-object v0, p0, Lcom/sdk/imp/internal/loader/b;->g:Lcom/sdk/imp/internal/loader/h;
 
@@ -226,13 +205,11 @@
 
     goto :goto_0
 
-    .line 4
     :cond_2
     iget-boolean v0, p0, Lcom/sdk/imp/internal/loader/b;->n:Z
 
     if-nez v0, :cond_3
 
-    .line 5
     iget-object v0, p0, Lcom/sdk/imp/internal/loader/b;->g:Lcom/sdk/imp/internal/loader/h;
 
     invoke-virtual {v0}, Lcom/sdk/imp/internal/loader/h;->c()Ljava/util/List;
@@ -243,7 +220,6 @@
 
     invoke-static {v0, v1}, Lcom/sdk/imp/internal/loader/h;->e(Ljava/util/List;Z)V
 
-    .line 6
     :cond_3
     iget-object v0, p0, Lcom/sdk/imp/internal/loader/b;->g:Lcom/sdk/imp/internal/loader/h;
 
@@ -294,7 +270,6 @@
 
     if-eqz p2, :cond_4
 
-    .line 1
     invoke-virtual {p2}, Ljava/lang/String;->isEmpty()Z
 
     move-result v0
@@ -303,7 +278,6 @@
 
     goto :goto_2
 
-    .line 2
     :cond_0
     new-instance v0, Ljava/lang/StringBuilder;
 
@@ -311,20 +285,17 @@
 
     const-string v1, "?"
 
-    .line 3
     invoke-virtual {p2, v1}, Ljava/lang/String;->contains(Ljava/lang/CharSequence;)Z
 
     move-result v2
 
     if-nez v2, :cond_1
 
-    .line 4
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     :cond_1
     const-string v1, "&count="
 
-    .line 5
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     invoke-virtual {v0, p3}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
@@ -339,14 +310,12 @@
 
     if-eqz p4, :cond_2
 
-    .line 6
     invoke-interface {p4}, Ljava/util/List;->isEmpty()Z
 
     move-result p3
 
     if-nez p3, :cond_2
 
-    .line 7
     :try_start_0
     new-instance p3, Lorg/json/JSONArray;
 
@@ -360,7 +329,6 @@
     :cond_2
     move-object p3, p1
 
-    .line 8
     :goto_0
     new-instance p4, Ljava/lang/StringBuilder;
 
@@ -400,7 +368,6 @@
 .method static synthetic a(Lcom/sdk/imp/internal/loader/b;ILjava/lang/String;ILjava/util/List;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1, p2, p3, p4}, Lcom/sdk/imp/internal/loader/b;->E(ILjava/lang/String;ILjava/util/List;)V
 
     return-void
@@ -411,7 +378,6 @@
 
     if-eqz p1, :cond_3
 
-    .line 1
     invoke-virtual {p1}, Lcom/sdk/imp/internal/loader/h;->c()Ljava/util/List;
 
     move-result-object v0
@@ -430,18 +396,15 @@
 
     goto :goto_1
 
-    .line 2
     :cond_0
     invoke-virtual {p1}, Lcom/sdk/imp/internal/loader/h;->c()Ljava/util/List;
 
     move-result-object p1
 
-    .line 3
     invoke-virtual {p2}, Lcom/sdk/imp/internal/loader/h;->c()Ljava/util/List;
 
     move-result-object p2
 
-    .line 4
     invoke-interface {p2}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
     move-result-object p2
@@ -460,14 +423,12 @@
 
     check-cast v0, Lcom/sdk/imp/internal/loader/Ad;
 
-    .line 5
     invoke-interface {p1, v0}, Ljava/util/List;->contains(Ljava/lang/Object;)Z
 
     move-result v1
 
     if-eqz v1, :cond_1
 
-    .line 6
     invoke-interface {p1, v0}, Ljava/util/List;->indexOf(Ljava/lang/Object;)I
 
     move-result v1
@@ -482,17 +443,14 @@
 
     move-result-object v1
 
-    .line 7
     invoke-direct {p0, v1}, Lcom/sdk/imp/internal/loader/b;->o(Ljava/lang/String;)Z
 
     move-result v2
 
     if-eqz v2, :cond_1
 
-    .line 8
     invoke-virtual {v0, v1}, Lcom/sdk/imp/internal/loader/Ad;->setHtml(Ljava/lang/String;)V
 
-    .line 9
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -516,7 +474,6 @@
     :cond_2
     const/4 p1, 0x0
 
-    .line 10
     iput-object p1, p0, Lcom/sdk/imp/internal/loader/b;->r:Lcom/sdk/imp/internal/loader/h;
 
     :cond_3
@@ -527,22 +484,18 @@
 .method private d(Ljava/net/URI;)I
     .locals 11
 
-    .line 1
     new-instance v0, Lcom/sdk/imp/internal/loader/m;
 
     invoke-direct {v0}, Lcom/sdk/imp/internal/loader/m;-><init>()V
 
-    .line 2
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v1
 
-    .line 3
     iget-boolean v3, p0, Lcom/sdk/imp/internal/loader/b;->p:Z
 
     if-eqz v3, :cond_0
 
-    .line 4
     invoke-virtual {p1}, Ljava/net/URI;->toString()Ljava/lang/String;
 
     move-result-object p1
@@ -555,7 +508,6 @@
 
     goto :goto_0
 
-    .line 5
     :cond_0
     invoke-virtual {p1}, Ljava/net/URI;->toString()Ljava/lang/String;
 
@@ -565,13 +517,11 @@
 
     move-result-object p1
 
-    .line 6
     :goto_0
     new-instance v9, Ljava/util/HashMap;
 
     invoke-direct {v9}, Ljava/util/HashMap;-><init>()V
 
-    .line 7
     sget-object v3, Lcom/sdk/api/Const$Event;->START_NET_REQUEST:Lcom/sdk/api/Const$Event;
 
     const/4 v4, 0x0
@@ -584,26 +534,22 @@
 
     invoke-static/range {v3 .. v9}, Lcom/sdk/imp/z/c;->c(Lcom/sdk/api/Const$Event;Lcom/sdk/imp/internal/loader/Ad;Ljava/lang/String;IJLjava/util/Map;)V
 
-    .line 8
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v3
 
     sub-long v1, v3, v1
 
-    .line 9
     iget v3, v0, Lcom/sdk/imp/internal/loader/m;->a:I
 
     if-nez v3, :cond_5
 
-    .line 10
     iget v3, p1, Lf/q/b/n$g;->b:I
 
     const/16 v4, 0xc8
 
     if-ne v3, v4, :cond_1
 
-    .line 11
     iget-object v3, p1, Lf/q/b/n$g;->a:Ljava/lang/String;
 
     goto :goto_2
@@ -615,7 +561,6 @@
 
     const/16 v3, 0x69
 
-    .line 12
     iput v3, v0, Lcom/sdk/imp/internal/loader/m;->a:I
 
     goto :goto_1
@@ -623,26 +568,22 @@
     :cond_2
     const/16 v3, 0x68
 
-    .line 13
     iput v3, v0, Lcom/sdk/imp/internal/loader/m;->a:I
 
     :goto_1
     const-string v3, ""
 
-    .line 14
     :goto_2
     iget v4, v0, Lcom/sdk/imp/internal/loader/m;->a:I
 
     if-nez v4, :cond_5
 
-    .line 15
     invoke-static {v3}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v4
 
     if-nez v4, :cond_4
 
-    .line 16
     new-instance v4, Ljava/lang/StringBuilder;
 
     invoke-direct {v4}, Ljava/lang/StringBuilder;-><init>()V
@@ -661,7 +602,6 @@
 
     invoke-static {v5, v4}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 17
     iget-object v4, p0, Lcom/sdk/imp/internal/loader/b;->b:Ljava/lang/String;
 
     invoke-static {v4, v3, v0}, Lcom/sdk/imp/internal/loader/h;->f(Ljava/lang/String;Ljava/lang/String;Lcom/sdk/imp/internal/loader/m;)Lcom/sdk/imp/internal/loader/h;
@@ -670,15 +610,12 @@
 
     iput-object v4, p0, Lcom/sdk/imp/internal/loader/b;->g:Lcom/sdk/imp/internal/loader/h;
 
-    .line 18
     invoke-direct {p0, v3}, Lcom/sdk/imp/internal/loader/b;->l(Ljava/lang/String;)V
 
-    .line 19
     iget-object v3, p0, Lcom/sdk/imp/internal/loader/b;->g:Lcom/sdk/imp/internal/loader/h;
 
     if-eqz v3, :cond_3
 
-    .line 20
     sget-object v5, Lcom/sdk/api/Const$Event;->LOAD_PICKS_NET_SUCCESS:Lcom/sdk/api/Const$Event;
 
     const/4 v6, 0x0
@@ -695,7 +632,6 @@
 
     goto :goto_3
 
-    .line 21
     :cond_3
     sget-object v5, Lcom/sdk/api/Const$Event;->LOAD_PICKS_NET_FAIL:Lcom/sdk/api/Const$Event;
 
@@ -716,19 +652,16 @@
     :cond_4
     const/16 v3, 0x6a
 
-    .line 22
     invoke-static {v0, v3}, Lcom/sdk/imp/internal/loader/m;->a(Lcom/sdk/imp/internal/loader/m;I)V
 
     :cond_5
     :goto_3
     const/4 v3, 0x0
 
-    .line 23
     iget v4, v0, Lcom/sdk/imp/internal/loader/m;->a:I
 
     if-nez v4, :cond_9
 
-    .line 24
     iget-object v4, p0, Lcom/sdk/imp/internal/loader/b;->g:Lcom/sdk/imp/internal/loader/h;
 
     if-eqz v4, :cond_8
@@ -739,7 +672,6 @@
 
     if-eqz v4, :cond_8
 
-    .line 25
     iget-object v4, p0, Lcom/sdk/imp/internal/loader/b;->g:Lcom/sdk/imp/internal/loader/h;
 
     invoke-virtual {v4}, Lcom/sdk/imp/internal/loader/h;->c()Ljava/util/List;
@@ -785,7 +717,6 @@
     :cond_9
     move v10, v4
 
-    .line 26
     :goto_5
     iget-object v5, p0, Lcom/sdk/imp/internal/loader/b;->b:Ljava/lang/String;
 
@@ -797,7 +728,6 @@
 
     invoke-static/range {v5 .. v10}, Lcom/sdk/api/a;->b(Ljava/lang/String;IJLjava/lang/String;I)V
 
-    .line 27
     iget p1, v0, Lcom/sdk/imp/internal/loader/m;->a:I
 
     return p1
@@ -814,12 +744,10 @@
         }
     .end annotation
 
-    .line 1
     invoke-interface {p1}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
     move-result-object p1
 
-    .line 2
     :cond_0
     :goto_0
     invoke-interface {p1}, Ljava/util/Iterator;->hasNext()Z
@@ -828,7 +756,6 @@
 
     if-eqz v0, :cond_a
 
-    .line 3
     invoke-interface {p1}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
     move-result-object v0
@@ -837,12 +764,10 @@
 
     if-nez v0, :cond_1
 
-    .line 4
     invoke-interface {p1}, Ljava/util/Iterator;->remove()V
 
     goto :goto_0
 
-    .line 5
     :cond_1
     invoke-virtual {v0}, Lcom/sdk/imp/internal/loader/Ad;->isStatusNormal()Z
 
@@ -850,12 +775,10 @@
 
     if-nez v1, :cond_2
 
-    .line 6
     invoke-interface {p1}, Ljava/util/Iterator;->remove()V
 
     goto :goto_0
 
-    .line 7
     :cond_2
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
@@ -881,12 +804,10 @@
 
     if-ltz v5, :cond_3
 
-    .line 8
     invoke-interface {p1}, Ljava/util/Iterator;->remove()V
 
     goto :goto_0
 
-    .line 9
     :cond_3
     invoke-virtual {v0}, Lcom/sdk/imp/internal/loader/Ad;->getBrandType()I
 
@@ -898,12 +819,10 @@
 
     if-ne v3, v1, :cond_4
 
-    .line 10
     invoke-virtual {v0}, Lcom/sdk/imp/internal/loader/Ad;->getExtension()Ljava/lang/String;
 
     move-result-object v1
 
-    .line 11
     iget-boolean v4, p0, Lcom/sdk/imp/internal/loader/b;->h:Z
 
     invoke-static {v1, v2, v4}, Lf/q/b/b;->f(Ljava/lang/String;ZZ)Z
@@ -912,18 +831,15 @@
 
     if-nez v1, :cond_5
 
-    .line 12
     invoke-interface {p1}, Ljava/util/Iterator;->remove()V
 
     goto :goto_0
 
-    .line 13
     :cond_4
     invoke-virtual {v0}, Lcom/sdk/imp/internal/loader/Ad;->getExtension()Ljava/lang/String;
 
     move-result-object v1
 
-    .line 14
     invoke-static {v1}, Lf/q/b/b;->i(Ljava/lang/String;)Z
 
     move-result v4
@@ -932,19 +848,16 @@
 
     iget-boolean v4, p0, Lcom/sdk/imp/internal/loader/b;->h:Z
 
-    .line 15
     invoke-static {v1, v2, v4}, Lf/q/b/b;->f(Ljava/lang/String;ZZ)Z
 
     move-result v1
 
     if-nez v1, :cond_5
 
-    .line 16
     invoke-interface {p1}, Ljava/util/Iterator;->remove()V
 
     goto :goto_0
 
-    .line 17
     :cond_5
     invoke-virtual {v0}, Lcom/sdk/imp/internal/loader/Ad;->getImp()I
 
@@ -956,7 +869,6 @@
 
     if-ne v1, v2, :cond_6
 
-    .line 18
     invoke-virtual {v0}, Lcom/sdk/imp/internal/loader/Ad;->getBrandType()I
 
     move-result v1
@@ -969,12 +881,10 @@
 
     if-lt v1, v4, :cond_8
 
-    .line 19
     invoke-interface {p1}, Ljava/util/Iterator;->remove()V
 
     goto :goto_0
 
-    .line 20
     :cond_6
     invoke-virtual {v0}, Lcom/sdk/imp/internal/loader/Ad;->getEday()J
 
@@ -1006,7 +916,6 @@
 
     if-gtz v7, :cond_7
 
-    .line 21
     invoke-virtual {v0}, Lcom/sdk/imp/internal/loader/Ad;->getAppId()I
 
     move-result v1
@@ -1025,12 +934,10 @@
 
     if-lt v1, v2, :cond_8
 
-    .line 22
     invoke-interface {p1}, Ljava/util/Iterator;->remove()V
 
     goto/16 :goto_0
 
-    .line 23
     :cond_7
     invoke-virtual {v0}, Lcom/sdk/imp/internal/loader/Ad;->getBrandType()I
 
@@ -1044,12 +951,10 @@
 
     if-lt v1, v4, :cond_8
 
-    .line 24
     invoke-interface {p1}, Ljava/util/Iterator;->remove()V
 
     goto/16 :goto_0
 
-    .line 25
     :cond_8
     invoke-virtual {v0}, Lcom/sdk/imp/internal/loader/Ad;->getMtType()I
 
@@ -1057,7 +962,6 @@
 
     if-ne v1, v4, :cond_9
 
-    .line 26
     invoke-static {}, Lcom/sdk/api/a;->g()Landroid/content/Context;
 
     move-result-object v1
@@ -1072,12 +976,10 @@
 
     if-eqz v1, :cond_9
 
-    .line 27
     invoke-interface {p1}, Ljava/util/Iterator;->remove()V
 
     goto/16 :goto_0
 
-    .line 28
     :cond_9
     invoke-virtual {v0}, Lcom/sdk/imp/internal/loader/Ad;->isMtTypeAvail()Z
 
@@ -1085,7 +987,6 @@
 
     if-nez v0, :cond_0
 
-    .line 29
     invoke-interface {p1}, Ljava/util/Iterator;->remove()V
 
     goto/16 :goto_0
@@ -1097,26 +998,22 @@
 .method private g()Z
     .locals 4
 
-    .line 1
     iget-object v0, p0, Lcom/sdk/imp/internal/loader/b;->g:Lcom/sdk/imp/internal/loader/h;
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-virtual {v0}, Lcom/sdk/imp/internal/loader/h;->c()Ljava/util/List;
 
     move-result-object v0
 
     if-eqz v0, :cond_0
 
-    .line 3
     invoke-interface {v0}, Ljava/util/List;->size()I
 
     move-result v1
 
     if-lez v1, :cond_0
 
-    .line 4
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -1139,10 +1036,8 @@
 
     invoke-static {v2, v1}, Lf/q/b/g;->b(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 5
     invoke-direct {p0, v0}, Lcom/sdk/imp/internal/loader/b;->f(Ljava/util/List;)V
 
-    .line 6
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -1163,7 +1058,6 @@
 
     invoke-static {v2, v1}, Lf/q/b/g;->b(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 7
     invoke-interface {v0}, Ljava/util/List;->size()I
 
     move-result v0
@@ -1183,7 +1077,6 @@
 .method private j()I
     .locals 2
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -1218,7 +1111,6 @@
 .method private l(Ljava/lang/String;)V
     .locals 4
 
-    .line 1
     invoke-static {p1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v0
@@ -1227,7 +1119,6 @@
 
     return-void
 
-    .line 2
     :cond_0
     :try_start_0
     new-instance v0, Lorg/json/JSONObject;
@@ -1236,27 +1127,23 @@
 
     const-string p1, "sdk_point"
 
-    .line 3
     invoke-virtual {v0, p1}, Lorg/json/JSONObject;->optJSONObject(Ljava/lang/String;)Lorg/json/JSONObject;
 
     move-result-object p1
 
     if-eqz p1, :cond_1
 
-    .line 4
     invoke-static {p1}, Lcom/sdk/imp/internal/loader/f;->H(Lorg/json/JSONObject;)V
 
     :cond_1
     const-string p1, "redu"
 
-    .line 5
     invoke-virtual {v0, p1}, Lorg/json/JSONObject;->optJSONArray(Ljava/lang/String;)Lorg/json/JSONArray;
 
     move-result-object p1
 
     if-eqz p1, :cond_6
 
-    .line 6
     invoke-virtual {p1}, Lorg/json/JSONArray;->length()I
 
     move-result v0
@@ -1268,7 +1155,6 @@
     :cond_2
     const/4 v0, 0x0
 
-    .line 7
     :goto_0
     invoke-virtual {p1}, Lorg/json/JSONArray;->length()I
 
@@ -1276,7 +1162,6 @@
 
     if-ge v0, v1, :cond_6
 
-    .line 8
     invoke-virtual {p1, v0}, Lorg/json/JSONArray;->optJSONObject(I)Lorg/json/JSONObject;
 
     move-result-object v1
@@ -1288,19 +1173,16 @@
     :cond_3
     const-string v2, "ul"
 
-    .line 9
     invoke-virtual {v1, v2}, Lorg/json/JSONObject;->optString(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v2
 
     const-string v3, "rp"
 
-    .line 10
     invoke-virtual {v1, v3}, Lorg/json/JSONObject;->optString(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v1
 
-    .line 11
     invoke-static {v2}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v3
@@ -1315,7 +1197,6 @@
 
     goto :goto_1
 
-    .line 12
     :cond_4
     invoke-direct {p0, v2, v1}, Lcom/sdk/imp/internal/loader/b;->C(Ljava/lang/String;Ljava/lang/String;)V
     :try_end_0
@@ -1336,7 +1217,6 @@
 .method private o(Ljava/lang/String;)Z
     .locals 2
 
-    .line 1
     invoke-static {p1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v0
@@ -1347,7 +1227,6 @@
 
     return v1
 
-    .line 2
     :cond_0
     new-instance v0, Ljava/lang/String;
 
@@ -1363,7 +1242,6 @@
 
     const-string p1, "VAST"
 
-    .line 3
     invoke-virtual {v0, p1}, Ljava/lang/String;->contains(Ljava/lang/CharSequence;)Z
 
     move-result p1
@@ -1389,15 +1267,12 @@
 
     const/4 v0, 0x1
 
-    .line 1
     iput-boolean v0, p0, Lcom/sdk/imp/internal/loader/b;->m:Z
 
-    .line 2
     new-instance v0, Lcom/sdk/imp/internal/loader/m;
 
     invoke-direct {v0}, Lcom/sdk/imp/internal/loader/m;-><init>()V
 
-    .line 3
     invoke-virtual {p0}, Lcom/sdk/imp/internal/loader/b;->r()Ljava/net/URI;
 
     move-result-object v1
@@ -1406,25 +1281,21 @@
 
     const/16 v1, 0x6b
 
-    .line 4
     invoke-static {v0, v1}, Lcom/sdk/imp/internal/loader/m;->a(Lcom/sdk/imp/internal/loader/m;I)V
 
     goto :goto_0
 
-    .line 5
     :cond_0
     iget v2, v0, Lcom/sdk/imp/internal/loader/m;->a:I
 
     if-nez v2, :cond_1
 
-    .line 6
     invoke-direct {p0, v1}, Lcom/sdk/imp/internal/loader/b;->d(Ljava/net/URI;)I
 
     move-result v1
 
     invoke-static {v0, v1}, Lcom/sdk/imp/internal/loader/m;->a(Lcom/sdk/imp/internal/loader/m;I)V
 
-    .line 7
     iget v1, v0, Lcom/sdk/imp/internal/loader/m;->a:I
 
     if-nez v1, :cond_1
@@ -1433,48 +1304,39 @@
 
     if-eqz v1, :cond_1
 
-    .line 8
     invoke-direct {p0, v1}, Lcom/sdk/imp/internal/loader/b;->w(Lcom/sdk/imp/internal/loader/h;)Z
 
     move-result v1
 
     if-eqz v1, :cond_1
 
-    .line 9
     iget v1, p0, Lcom/sdk/imp/internal/loader/b;->i:I
 
     const/4 v2, 0x2
 
     if-eq v1, v2, :cond_1
 
-    .line 10
     invoke-virtual {p0}, Lcom/sdk/imp/internal/loader/b;->y()V
 
-    .line 11
     iget v1, p0, Lcom/sdk/imp/internal/loader/b;->e:I
 
     if-nez v1, :cond_1
 
-    .line 12
     invoke-direct {p0}, Lcom/sdk/imp/internal/loader/b;->z()V
 
-    .line 13
     :cond_1
     :goto_0
     iget v1, v0, Lcom/sdk/imp/internal/loader/m;->a:I
 
     if-eqz v1, :cond_2
 
-    .line 14
     invoke-virtual {p0}, Lcom/sdk/imp/internal/loader/b;->e()V
 
     :cond_2
     const/4 v1, 0x0
 
-    .line 15
     iput-boolean v1, p0, Lcom/sdk/imp/internal/loader/b;->c:Z
 
-    .line 16
     iget v0, v0, Lcom/sdk/imp/internal/loader/m;->a:I
 
     return v0
@@ -1483,7 +1345,6 @@
 .method private q()Z
     .locals 1
 
-    .line 1
     iget v0, p0, Lcom/sdk/imp/internal/loader/b;->e:I
 
     if-nez v0, :cond_0
@@ -1502,7 +1363,6 @@
 .method private w(Lcom/sdk/imp/internal/loader/h;)Z
     .locals 4
 
-    .line 1
     iget v0, p0, Lcom/sdk/imp/internal/loader/b;->i:I
 
     const/4 v1, 0x1
@@ -1511,20 +1371,16 @@
 
     if-eq v0, v2, :cond_1
 
-    .line 2
     iget-object v0, p0, Lcom/sdk/imp/internal/loader/b;->r:Lcom/sdk/imp/internal/loader/h;
 
     invoke-direct {p0, v0, p1}, Lcom/sdk/imp/internal/loader/b;->b(Lcom/sdk/imp/internal/loader/h;Lcom/sdk/imp/internal/loader/h;)V
 
-    .line 3
     invoke-direct {p0, p1}, Lcom/sdk/imp/internal/loader/b;->x(Lcom/sdk/imp/internal/loader/h;)V
 
-    .line 4
     invoke-virtual {p0}, Lcom/sdk/imp/internal/loader/b;->k()Ljava/lang/String;
 
     move-result-object v0
 
-    .line 5
     invoke-static {}, Lcom/sdk/imp/internal/loader/i;->f()Lcom/sdk/imp/internal/loader/i;
 
     move-result-object v2
@@ -1537,7 +1393,6 @@
 
     move-result v0
 
-    .line 6
     invoke-virtual {p1}, Lcom/sdk/imp/internal/loader/h;->c()Ljava/util/List;
 
     move-result-object p1
@@ -1563,7 +1418,6 @@
 .method private x(Lcom/sdk/imp/internal/loader/h;)V
     .locals 2
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -1586,14 +1440,12 @@
 
     move-result-object v0
 
-    .line 2
     invoke-static {}, Lcom/sdk/imp/z/e;->b()Lcom/sdk/imp/z/e;
 
     move-result-object v1
 
     invoke-virtual {v1, v0, p1}, Lcom/sdk/imp/z/e;->d(Ljava/lang/String;Lcom/sdk/imp/internal/loader/h;)V
 
-    .line 3
     invoke-static {}, Lcom/sdk/imp/z/e;->b()Lcom/sdk/imp/z/e;
 
     move-result-object p1
@@ -1610,14 +1462,12 @@
 .method private z()V
     .locals 3
 
-    .line 1
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v0
 
     iput-wide v0, p0, Lcom/sdk/imp/internal/loader/b;->d:J
 
-    .line 2
     invoke-virtual {p0}, Lcom/sdk/imp/internal/loader/b;->h()Ljava/lang/String;
 
     move-result-object v0
@@ -1640,7 +1490,6 @@
 
     if-lez v2, :cond_0
 
-    .line 1
     iput-wide p1, p0, Lcom/sdk/imp/internal/loader/b;->k:J
 
     :cond_0
@@ -1650,10 +1499,8 @@
 .method public B(Lf/q/b/n$c;Z)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/sdk/imp/internal/loader/b;->o:Lf/q/b/n$c;
 
-    .line 2
     iput-boolean p2, p0, Lcom/sdk/imp/internal/loader/b;->p:Z
 
     return-void
@@ -1662,7 +1509,6 @@
 .method protected varargs c([Ljava/lang/Void;)Lcom/sdk/imp/internal/loader/h;
     .locals 5
 
-    .line 1
     iget p1, p0, Lcom/sdk/imp/internal/loader/b;->i:I
 
     const/4 v0, 0x0
@@ -1671,12 +1517,10 @@
 
     if-ne p1, v1, :cond_0
 
-    .line 2
     invoke-direct {p0}, Lcom/sdk/imp/internal/loader/b;->p()I
 
     move-result p1
 
-    .line 3
     iput-boolean v0, p0, Lcom/sdk/imp/internal/loader/b;->n:Z
 
     goto :goto_2
@@ -1686,14 +1530,12 @@
 
     if-ne p1, v1, :cond_1
 
-    .line 4
     invoke-virtual {p0}, Lcom/sdk/imp/internal/loader/b;->t()I
 
     move-result p1
 
     goto :goto_2
 
-    .line 5
     :cond_1
     invoke-virtual {p0}, Lcom/sdk/imp/internal/loader/b;->t()I
 
@@ -1703,7 +1545,6 @@
 
     if-nez p1, :cond_2
 
-    .line 6
     invoke-direct {p0}, Lcom/sdk/imp/internal/loader/b;->g()Z
 
     move-result v3
@@ -1726,20 +1567,16 @@
     :goto_1
     if-eqz v2, :cond_4
 
-    .line 7
     iget v2, p0, Lcom/sdk/imp/internal/loader/b;->i:I
 
     if-eq v1, v2, :cond_4
 
-    .line 8
     invoke-direct {p0}, Lcom/sdk/imp/internal/loader/b;->p()I
 
     move-result p1
 
-    .line 9
     iput-boolean v0, p0, Lcom/sdk/imp/internal/loader/b;->n:Z
 
-    .line 10
     :cond_4
     :goto_2
     invoke-direct {p0, p1}, Lcom/sdk/imp/internal/loader/b;->D(I)I
@@ -1748,18 +1585,15 @@
 
     if-eqz p1, :cond_5
 
-    .line 11
     invoke-virtual {p0, p1}, Lcom/sdk/imp/internal/loader/b;->s(I)V
 
     goto :goto_3
 
-    .line 12
     :cond_5
     iget-object p1, p0, Lcom/sdk/imp/internal/loader/b;->g:Lcom/sdk/imp/internal/loader/h;
 
     invoke-virtual {p0, p1}, Lcom/sdk/imp/internal/loader/b;->u(Lcom/sdk/imp/internal/loader/h;)V
 
-    .line 13
     :goto_3
     iget-object p1, p0, Lcom/sdk/imp/internal/loader/b;->g:Lcom/sdk/imp/internal/loader/h;
 
@@ -1769,7 +1603,6 @@
 .method protected bridge synthetic doInBackground([Ljava/lang/Object;)Ljava/lang/Object;
     .locals 0
 
-    .line 1
     check-cast p1, [Ljava/lang/Void;
 
     invoke-virtual {p0, p1}, Lcom/sdk/imp/internal/loader/b;->c([Ljava/lang/Void;)Lcom/sdk/imp/internal/loader/h;
@@ -1782,12 +1615,10 @@
 .method protected e()V
     .locals 3
 
-    .line 1
     invoke-virtual {p0}, Lcom/sdk/imp/internal/loader/b;->k()Ljava/lang/String;
 
     move-result-object v0
 
-    .line 2
     invoke-direct {p0}, Lcom/sdk/imp/internal/loader/b;->q()Z
 
     move-result v1
@@ -1804,7 +1635,6 @@
 
     if-lez v1, :cond_0
 
-    .line 3
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -1827,14 +1657,12 @@
 
     move-result-object v1
 
-    .line 4
     invoke-static {}, Lcom/sdk/imp/z/e;->b()Lcom/sdk/imp/z/e;
 
     move-result-object v2
 
     invoke-virtual {v2, v1}, Lcom/sdk/imp/z/e;->c(Ljava/lang/String;)V
 
-    .line 5
     new-instance v1, Lcom/sdk/imp/internal/loader/b$b;
 
     invoke-direct {v1, p0, v0}, Lcom/sdk/imp/internal/loader/b$b;-><init>(Lcom/sdk/imp/internal/loader/b;Ljava/lang/String;)V
@@ -1848,7 +1676,6 @@
 .method protected h()Ljava/lang/String;
     .locals 2
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -1877,7 +1704,6 @@
 .method protected i()J
     .locals 5
 
-    .line 1
     iget-wide v0, p0, Lcom/sdk/imp/internal/loader/b;->d:J
 
     const-wide/16 v2, 0x0
@@ -1886,7 +1712,6 @@
 
     if-gtz v4, :cond_0
 
-    .line 2
     invoke-virtual {p0}, Lcom/sdk/imp/internal/loader/b;->h()Ljava/lang/String;
 
     move-result-object v0
@@ -1897,7 +1722,6 @@
 
     iput-wide v0, p0, Lcom/sdk/imp/internal/loader/b;->d:J
 
-    .line 3
     :cond_0
     iget-wide v0, p0, Lcom/sdk/imp/internal/loader/b;->d:J
 
@@ -1907,7 +1731,6 @@
 .method protected k()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/sdk/imp/internal/loader/b;->b:Ljava/lang/String;
 
     return-object v0
@@ -1916,7 +1739,6 @@
 .method protected m()Z
     .locals 8
 
-    .line 1
     iget-wide v0, p0, Lcom/sdk/imp/internal/loader/b;->k:J
 
     const-wide/16 v2, 0x0
@@ -1927,7 +1749,6 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     iget-object v0, p0, Lcom/sdk/imp/internal/loader/b;->b:Ljava/lang/String;
 
@@ -1935,7 +1756,6 @@
 
     move-result-wide v0
 
-    .line 3
     :goto_0
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
@@ -1967,7 +1787,6 @@
 .method protected n()Z
     .locals 4
 
-    .line 1
     iget v0, p0, Lcom/sdk/imp/internal/loader/b;->i:I
 
     const/4 v1, 0x0
@@ -1976,7 +1795,6 @@
 
     if-ne v2, v0, :cond_0
 
-    .line 2
     invoke-virtual {p0}, Lcom/sdk/imp/internal/loader/b;->m()Z
 
     move-result v0
@@ -2009,7 +1827,6 @@
 .method protected bridge synthetic onPostExecute(Ljava/lang/Object;)V
     .locals 0
 
-    .line 1
     check-cast p1, Lcom/sdk/imp/internal/loader/h;
 
     invoke-virtual {p0, p1}, Lcom/sdk/imp/internal/loader/b;->v(Lcom/sdk/imp/internal/loader/h;)V
@@ -2022,10 +1839,8 @@
 
     const/4 v0, 0x0
 
-    .line 1
     iput-boolean v0, p0, Lcom/sdk/imp/internal/loader/b;->m:Z
 
-    .line 2
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v0
@@ -2038,19 +1853,16 @@
 .method protected r()Ljava/net/URI;
     .locals 3
 
-    .line 1
     new-instance v0, Lcom/sdk/imp/internal/loader/g$a;
 
     invoke-direct {v0}, Lcom/sdk/imp/internal/loader/g$a;-><init>()V
 
     iput-object v0, p0, Lcom/sdk/imp/internal/loader/b;->a:Lcom/sdk/imp/internal/loader/g$a;
 
-    .line 2
     iget-object v1, p0, Lcom/sdk/imp/internal/loader/b;->b:Ljava/lang/String;
 
     invoke-virtual {v0, v1}, Lcom/sdk/imp/internal/loader/g$a;->g(Ljava/lang/String;)Lcom/sdk/imp/internal/loader/g$a;
 
-    .line 3
     iget-object v0, p0, Lcom/sdk/imp/internal/loader/b;->j:Ljava/util/Map;
 
     if-eqz v0, :cond_0
@@ -2061,14 +1873,12 @@
 
     if-nez v0, :cond_0
 
-    .line 4
     iget-object v0, p0, Lcom/sdk/imp/internal/loader/b;->a:Lcom/sdk/imp/internal/loader/g$a;
 
     iget-object v1, p0, Lcom/sdk/imp/internal/loader/b;->j:Ljava/util/Map;
 
     invoke-virtual {v0, v1}, Lcom/sdk/imp/internal/loader/g$a;->b(Ljava/util/Map;)V
 
-    .line 5
     :cond_0
     iget-object v0, p0, Lcom/sdk/imp/internal/loader/b;->a:Lcom/sdk/imp/internal/loader/g$a;
 
@@ -2078,7 +1888,6 @@
 
     if-eqz v0, :cond_1
 
-    .line 6
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -2114,17 +1923,14 @@
 .method protected t()I
     .locals 13
 
-    .line 1
     new-instance v6, Lcom/sdk/imp/internal/loader/m;
 
     invoke-direct {v6}, Lcom/sdk/imp/internal/loader/m;-><init>()V
 
-    .line 2
     iget v0, v6, Lcom/sdk/imp/internal/loader/m;->a:I
 
     if-nez v0, :cond_2
 
-    .line 3
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -2147,7 +1953,6 @@
 
     move-result-object v0
 
-    .line 4
     invoke-static {}, Lcom/sdk/imp/z/e;->b()Lcom/sdk/imp/z/e;
 
     move-result-object v1
@@ -2160,7 +1965,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 5
     invoke-virtual {v0}, Lcom/sdk/imp/internal/loader/h;->c()Ljava/util/List;
 
     move-result-object v0
@@ -2179,13 +1983,11 @@
 
     if-nez v0, :cond_2
 
-    .line 6
     :cond_0
     invoke-virtual {p0}, Lcom/sdk/imp/internal/loader/b;->k()Ljava/lang/String;
 
     move-result-object v1
 
-    .line 7
     invoke-static {}, Lcom/sdk/imp/internal/loader/i;->f()Lcom/sdk/imp/internal/loader/i;
 
     move-result-object v0
@@ -2202,12 +2004,10 @@
 
     move-result-object v0
 
-    .line 8
     iget v1, v6, Lcom/sdk/imp/internal/loader/m;->a:I
 
     if-nez v1, :cond_2
 
-    .line 9
     invoke-interface {v0}, Ljava/util/List;->isEmpty()Z
 
     move-result v1
@@ -2216,12 +2016,10 @@
 
     const/16 v0, 0x70
 
-    .line 10
     invoke-static {v6, v0}, Lcom/sdk/imp/internal/loader/m;->a(Lcom/sdk/imp/internal/loader/m;I)V
 
     goto :goto_0
 
-    .line 11
     :cond_1
     new-instance v1, Lcom/sdk/imp/internal/loader/h;
 
@@ -2229,22 +2027,18 @@
 
     iput-object v1, p0, Lcom/sdk/imp/internal/loader/b;->g:Lcom/sdk/imp/internal/loader/h;
 
-    .line 12
     invoke-virtual {v1, v0}, Lcom/sdk/imp/internal/loader/h;->b(Ljava/util/List;)V
 
-    .line 13
     iget-object v0, p0, Lcom/sdk/imp/internal/loader/b;->g:Lcom/sdk/imp/internal/loader/h;
 
     invoke-direct {p0, v0}, Lcom/sdk/imp/internal/loader/b;->x(Lcom/sdk/imp/internal/loader/h;)V
 
-    .line 14
     :cond_2
     :goto_0
     iget-object v0, p0, Lcom/sdk/imp/internal/loader/b;->g:Lcom/sdk/imp/internal/loader/h;
 
     if-eqz v0, :cond_3
 
-    .line 15
     sget-object v7, Lcom/sdk/api/Const$Event;->LOAD_PICKS_CACHE_SUCCESS:Lcom/sdk/api/Const$Event;
 
     const/4 v8, 0x0
@@ -2259,7 +2053,6 @@
 
     goto :goto_1
 
-    .line 16
     :cond_3
     sget-object v0, Lcom/sdk/api/Const$Event;->LOAD_PICKS_CACHE_FAIL:Lcom/sdk/api/Const$Event;
 
@@ -2273,7 +2066,6 @@
 
     invoke-static/range {v0 .. v5}, Lcom/sdk/imp/z/c;->b(Lcom/sdk/api/Const$Event;Lcom/sdk/imp/internal/loader/Ad;Ljava/lang/String;IJ)V
 
-    .line 17
     :goto_1
     iget v0, v6, Lcom/sdk/imp/internal/loader/m;->a:I
 
@@ -2283,7 +2075,6 @@
 .method public u(Lcom/sdk/imp/internal/loader/h;)V
     .locals 2
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -2336,10 +2127,8 @@
 
     const-wide/16 v0, 0x0
 
-    .line 1
     iput-wide v0, p0, Lcom/sdk/imp/internal/loader/b;->d:J
 
-    .line 2
     invoke-virtual {p0}, Lcom/sdk/imp/internal/loader/b;->h()Ljava/lang/String;
 
     move-result-object v2

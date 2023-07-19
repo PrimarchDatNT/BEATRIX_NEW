@@ -44,7 +44,6 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
     new-instance v0, Lf/f/b/c/b/e;
 
     invoke-direct {v0}, Lf/f/b/c/b/e;-><init>()V
@@ -57,14 +56,12 @@
 .method private constructor <init>()V
     .locals 2
 
-    .line 1
     const-class v0, Ljava/lang/Integer;
 
     const-string v1, "drawableAlphaCompat"
 
     invoke-direct {p0, v0, v1}, Landroid/util/Property;-><init>(Ljava/lang/Class;Ljava/lang/String;)V
 
-    .line 2
     new-instance v0, Ljava/util/WeakHashMap;
 
     invoke-direct {v0}, Ljava/util/WeakHashMap;-><init>()V
@@ -79,14 +76,12 @@
 .method public a(Landroid/graphics/drawable/Drawable;)Ljava/lang/Integer;
     .locals 2
 
-    .line 1
     sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
 
     const/16 v1, 0x13
 
     if-lt v0, v1, :cond_0
 
-    .line 2
     invoke-virtual {p1}, Landroid/graphics/drawable/Drawable;->getAlpha()I
 
     move-result p1
@@ -97,7 +92,6 @@
 
     return-object p1
 
-    .line 3
     :cond_0
     iget-object v0, p0, Lf/f/b/c/b/e;->a:Ljava/util/WeakHashMap;
 
@@ -107,7 +101,6 @@
 
     if-eqz v0, :cond_1
 
-    .line 4
     iget-object v0, p0, Lf/f/b/c/b/e;->a:Ljava/util/WeakHashMap;
 
     invoke-virtual {v0, p1}, Ljava/util/WeakHashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
@@ -121,7 +114,6 @@
     :cond_1
     const/16 p1, 0xff
 
-    .line 5
     invoke-static {p1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object p1
@@ -132,19 +124,16 @@
 .method public b(Landroid/graphics/drawable/Drawable;Ljava/lang/Integer;)V
     .locals 2
 
-    .line 1
     sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
 
     const/16 v1, 0x13
 
     if-ge v0, v1, :cond_0
 
-    .line 2
     iget-object v0, p0, Lf/f/b/c/b/e;->a:Ljava/util/WeakHashMap;
 
     invoke-virtual {v0, p1, p2}, Ljava/util/WeakHashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 3
     :cond_0
     invoke-virtual {p2}, Ljava/lang/Integer;->intValue()I
 
@@ -158,7 +147,6 @@
 .method public bridge synthetic get(Ljava/lang/Object;)Ljava/lang/Object;
     .locals 0
 
-    .line 1
     check-cast p1, Landroid/graphics/drawable/Drawable;
 
     invoke-virtual {p0, p1}, Lf/f/b/c/b/e;->a(Landroid/graphics/drawable/Drawable;)Ljava/lang/Integer;
@@ -171,7 +159,6 @@
 .method public bridge synthetic set(Ljava/lang/Object;Ljava/lang/Object;)V
     .locals 0
 
-    .line 1
     check-cast p1, Landroid/graphics/drawable/Drawable;
 
     check-cast p2, Ljava/lang/Integer;

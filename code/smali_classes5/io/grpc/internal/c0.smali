@@ -24,7 +24,6 @@
     :try_start_0
     const-string v1, "org.conscrypt.Conscrypt"
 
-    .line 1
     invoke-static {v1}, Ljava/lang/Class;->forName(Ljava/lang/String;)Ljava/lang/Class;
 
     move-result-object v1
@@ -35,7 +34,6 @@
 
     new-array v4, v3, [Ljava/lang/Class;
 
-    .line 2
     invoke-virtual {v1, v2, v4}, Ljava/lang/Class;->getMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
 
     move-result-object v2
@@ -46,7 +44,6 @@
 
     new-array v5, v5, [Ljava/lang/Class;
 
-    .line 3
     const-class v6, Ljava/security/Provider;
 
     aput-object v6, v5, v3
@@ -67,7 +64,6 @@
     :catch_0
     move-exception v0
 
-    .line 4
     new-instance v1, Ljava/lang/AssertionError;
 
     invoke-direct {v1, v0}, Ljava/lang/AssertionError;-><init>(Ljava/lang/Object;)V
@@ -77,11 +73,9 @@
     :catch_1
     move-object v1, v0
 
-    .line 5
     :goto_0
     sput-object v0, Lio/grpc/internal/c0;->a:Ljava/lang/reflect/Method;
 
-    .line 6
     sput-object v1, Lio/grpc/internal/c0;->b:Ljava/lang/reflect/Method;
 
     return-void
@@ -90,7 +84,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -99,7 +92,6 @@
 .method private static synthetic a()V
     .locals 10
 
-    .line 1
     new-instance v8, Ln/a/b/c/e;
 
     const-class v0, Lio/grpc/internal/c0;
@@ -172,7 +164,6 @@
 .method static final synthetic b(Ljava/lang/reflect/Method;Ljava/lang/Object;[Ljava/lang/Object;Lorg/aspectj/lang/c;)Ljava/lang/Object;
     .locals 0
 
-    .line 1
     invoke-virtual {p0, p1, p2}, Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p0
@@ -183,7 +174,6 @@
 .method static final synthetic c(Ljava/lang/reflect/Method;Ljava/lang/Object;[Ljava/lang/Object;Lorg/aspectj/lang/c;)Ljava/lang/Object;
     .locals 0
 
-    .line 1
     invoke-virtual {p0, p1, p2}, Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p0
@@ -194,7 +184,6 @@
 .method public static d(Ljava/security/Provider;)Z
     .locals 7
 
-    .line 1
     invoke-static {}, Lio/grpc/internal/c0;->e()Z
 
     move-result v0
@@ -205,7 +194,6 @@
 
     return v1
 
-    .line 2
     :cond_0
     :try_start_0
     sget-object v0, Lio/grpc/internal/c0;->b:Ljava/lang/reflect/Method;
@@ -272,7 +260,6 @@
     :catch_0
     move-exception p0
 
-    .line 3
     new-instance v0, Ljava/lang/AssertionError;
 
     invoke-direct {v0, p0}, Ljava/lang/AssertionError;-><init>(Ljava/lang/Object;)V
@@ -282,7 +269,6 @@
     :catch_1
     move-exception p0
 
-    .line 4
     new-instance v0, Ljava/lang/AssertionError;
 
     invoke-direct {v0, p0}, Ljava/lang/AssertionError;-><init>(Ljava/lang/Object;)V
@@ -293,7 +279,6 @@
 .method public static e()Z
     .locals 1
 
-    .line 1
     sget-object v0, Lio/grpc/internal/c0;->a:Ljava/lang/reflect/Method;
 
     if-eqz v0, :cond_0
@@ -317,14 +302,12 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {}, Lio/grpc/internal/c0;->e()Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
-    .line 2
     sget-object v0, Lio/grpc/internal/c0;->a:Ljava/lang/reflect/Method;
 
     const/4 v1, 0x0
@@ -382,10 +365,8 @@
     :cond_0
     const-string v0, "org.conscrypt.Conscrypt"
 
-    .line 3
     invoke-static {v0}, Ljava/lang/Class;->forName(Ljava/lang/String;)Ljava/lang/Class;
 
-    .line 4
     new-instance v0, Ljava/lang/AssertionError;
 
     const-string v1, "Unexpected failure referencing Conscrypt class"

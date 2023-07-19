@@ -80,7 +80,6 @@
 
     aput-byte v2, v1, v3
 
-    .line 1
     sput-object v1, Lorg/apache/thrift/protocol/TSimpleJSONProtocol;->COMMA:[B
 
     new-array v1, v0, [B
@@ -89,7 +88,6 @@
 
     aput-byte v2, v1, v3
 
-    .line 2
     sput-object v1, Lorg/apache/thrift/protocol/TSimpleJSONProtocol;->COLON:[B
 
     new-array v1, v0, [B
@@ -98,7 +96,6 @@
 
     aput-byte v2, v1, v3
 
-    .line 3
     sput-object v1, Lorg/apache/thrift/protocol/TSimpleJSONProtocol;->LBRACE:[B
 
     new-array v1, v0, [B
@@ -107,7 +104,6 @@
 
     aput-byte v2, v1, v3
 
-    .line 4
     sput-object v1, Lorg/apache/thrift/protocol/TSimpleJSONProtocol;->RBRACE:[B
 
     new-array v1, v0, [B
@@ -116,7 +112,6 @@
 
     aput-byte v2, v1, v3
 
-    .line 5
     sput-object v1, Lorg/apache/thrift/protocol/TSimpleJSONProtocol;->LBRACKET:[B
 
     new-array v0, v0, [B
@@ -125,45 +120,38 @@
 
     aput-byte v1, v0, v3
 
-    .line 6
     sput-object v0, Lorg/apache/thrift/protocol/TSimpleJSONProtocol;->RBRACKET:[B
 
-    .line 7
     new-instance v0, Lorg/apache/thrift/protocol/TStruct;
 
     invoke-direct {v0}, Lorg/apache/thrift/protocol/TStruct;-><init>()V
 
     sput-object v0, Lorg/apache/thrift/protocol/TSimpleJSONProtocol;->ANONYMOUS_STRUCT:Lorg/apache/thrift/protocol/TStruct;
 
-    .line 8
     new-instance v0, Lorg/apache/thrift/protocol/TField;
 
     invoke-direct {v0}, Lorg/apache/thrift/protocol/TField;-><init>()V
 
     sput-object v0, Lorg/apache/thrift/protocol/TSimpleJSONProtocol;->ANONYMOUS_FIELD:Lorg/apache/thrift/protocol/TField;
 
-    .line 9
     new-instance v0, Lorg/apache/thrift/protocol/TMessage;
 
     invoke-direct {v0}, Lorg/apache/thrift/protocol/TMessage;-><init>()V
 
     sput-object v0, Lorg/apache/thrift/protocol/TSimpleJSONProtocol;->EMPTY_MESSAGE:Lorg/apache/thrift/protocol/TMessage;
 
-    .line 10
     new-instance v0, Lorg/apache/thrift/protocol/TSet;
 
     invoke-direct {v0}, Lorg/apache/thrift/protocol/TSet;-><init>()V
 
     sput-object v0, Lorg/apache/thrift/protocol/TSimpleJSONProtocol;->EMPTY_SET:Lorg/apache/thrift/protocol/TSet;
 
-    .line 11
     new-instance v0, Lorg/apache/thrift/protocol/TList;
 
     invoke-direct {v0}, Lorg/apache/thrift/protocol/TList;-><init>()V
 
     sput-object v0, Lorg/apache/thrift/protocol/TSimpleJSONProtocol;->EMPTY_LIST:Lorg/apache/thrift/protocol/TList;
 
-    .line 12
     new-instance v0, Lorg/apache/thrift/protocol/TMap;
 
     invoke-direct {v0}, Lorg/apache/thrift/protocol/TMap;-><init>()V
@@ -176,24 +164,20 @@
 .method public constructor <init>(Lorg/apache/thrift/transport/TTransport;)V
     .locals 1
 
-    .line 1
     invoke-direct {p0, p1}, Lorg/apache/thrift/protocol/TProtocol;-><init>(Lorg/apache/thrift/transport/TTransport;)V
 
-    .line 2
     new-instance p1, Lorg/apache/thrift/protocol/TSimpleJSONProtocol$Context;
 
     invoke-direct {p1, p0}, Lorg/apache/thrift/protocol/TSimpleJSONProtocol$Context;-><init>(Lorg/apache/thrift/protocol/TSimpleJSONProtocol;)V
 
     iput-object p1, p0, Lorg/apache/thrift/protocol/TSimpleJSONProtocol;->BASE_CONTEXT:Lorg/apache/thrift/protocol/TSimpleJSONProtocol$Context;
 
-    .line 3
     new-instance v0, Ljava/util/Stack;
 
     invoke-direct {v0}, Ljava/util/Stack;-><init>()V
 
     iput-object v0, p0, Lorg/apache/thrift/protocol/TSimpleJSONProtocol;->writeContextStack_:Ljava/util/Stack;
 
-    .line 4
     iput-object p1, p0, Lorg/apache/thrift/protocol/TSimpleJSONProtocol;->writeContext_:Lorg/apache/thrift/protocol/TSimpleJSONProtocol$Context;
 
     return-void
@@ -202,7 +186,6 @@
 .method static synthetic access$000()[B
     .locals 1
 
-    .line 1
     sget-object v0, Lorg/apache/thrift/protocol/TSimpleJSONProtocol;->COMMA:[B
 
     return-object v0
@@ -211,7 +194,6 @@
 .method static synthetic access$100()[B
     .locals 1
 
-    .line 1
     sget-object v0, Lorg/apache/thrift/protocol/TSimpleJSONProtocol;->COLON:[B
 
     return-object v0
@@ -230,12 +212,10 @@
     :try_start_0
     const-string v0, "UTF-8"
 
-    .line 1
     invoke-virtual {p1, v0}, Ljava/lang/String;->getBytes(Ljava/lang/String;)[B
 
     move-result-object p1
 
-    .line 2
     iget-object v0, p0, Lorg/apache/thrift/protocol/TProtocol;->trans_:Lorg/apache/thrift/transport/TTransport;
 
     invoke-virtual {v0, p1}, Lorg/apache/thrift/transport/TTransport;->write([B)V
@@ -244,7 +224,6 @@
 
     return-void
 
-    .line 3
     :catch_0
     new-instance p1, Lorg/apache/thrift/TException;
 
@@ -263,7 +242,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lorg/apache/thrift/protocol/TSimpleJSONProtocol;->writeContext_:Lorg/apache/thrift/protocol/TSimpleJSONProtocol$Context;
 
     invoke-virtual {v0}, Lorg/apache/thrift/protocol/TSimpleJSONProtocol$Context;->isMapKey()Z
@@ -274,7 +252,6 @@
 
     return-void
 
-    .line 2
     :cond_0
     new-instance v0, Lorg/apache/thrift/protocol/TSimpleJSONProtocol$CollectionMapKeyException;
 
@@ -300,7 +277,6 @@
 .method protected popWriteContext()V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lorg/apache/thrift/protocol/TSimpleJSONProtocol;->writeContextStack_:Ljava/util/Stack;
 
     invoke-virtual {v0}, Ljava/util/Stack;->pop()Ljava/lang/Object;
@@ -317,14 +293,12 @@
 .method protected pushWriteContext(Lorg/apache/thrift/protocol/TSimpleJSONProtocol$Context;)V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lorg/apache/thrift/protocol/TSimpleJSONProtocol;->writeContextStack_:Ljava/util/Stack;
 
     iget-object v1, p0, Lorg/apache/thrift/protocol/TSimpleJSONProtocol;->writeContext_:Lorg/apache/thrift/protocol/TSimpleJSONProtocol$Context;
 
     invoke-virtual {v0, v1}, Ljava/util/Stack;->push(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 2
     iput-object p1, p0, Lorg/apache/thrift/protocol/TSimpleJSONProtocol;->writeContext_:Lorg/apache/thrift/protocol/TSimpleJSONProtocol$Context;
 
     return-void
@@ -342,7 +316,6 @@
 
     new-array v0, v0, [B
 
-    .line 1
     invoke-static {v0}, Ljava/nio/ByteBuffer;->wrap([B)Ljava/nio/ByteBuffer;
 
     move-result-object v0
@@ -358,7 +331,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lorg/apache/thrift/protocol/TSimpleJSONProtocol;->readByte()B
 
     move-result v0
@@ -410,7 +382,6 @@
         }
     .end annotation
 
-    .line 1
     sget-object v0, Lorg/apache/thrift/protocol/TSimpleJSONProtocol;->ANONYMOUS_FIELD:Lorg/apache/thrift/protocol/TField;
 
     return-object v0
@@ -469,7 +440,6 @@
         }
     .end annotation
 
-    .line 1
     sget-object v0, Lorg/apache/thrift/protocol/TSimpleJSONProtocol;->EMPTY_LIST:Lorg/apache/thrift/protocol/TList;
 
     return-object v0
@@ -489,7 +459,6 @@
         }
     .end annotation
 
-    .line 1
     sget-object v0, Lorg/apache/thrift/protocol/TSimpleJSONProtocol;->EMPTY_MAP:Lorg/apache/thrift/protocol/TMap;
 
     return-object v0
@@ -509,7 +478,6 @@
         }
     .end annotation
 
-    .line 1
     sget-object v0, Lorg/apache/thrift/protocol/TSimpleJSONProtocol;->EMPTY_MESSAGE:Lorg/apache/thrift/protocol/TMessage;
 
     return-object v0
@@ -529,7 +497,6 @@
         }
     .end annotation
 
-    .line 1
     sget-object v0, Lorg/apache/thrift/protocol/TSimpleJSONProtocol;->EMPTY_SET:Lorg/apache/thrift/protocol/TSet;
 
     return-object v0
@@ -570,7 +537,6 @@
 .method public readStructBegin()Lorg/apache/thrift/protocol/TStruct;
     .locals 1
 
-    .line 1
     sget-object v0, Lorg/apache/thrift/protocol/TSimpleJSONProtocol;->ANONYMOUS_STRUCT:Lorg/apache/thrift/protocol/TStruct;
 
     return-object v0
@@ -585,7 +551,6 @@
 .method protected resetWriteContext()V
     .locals 1
 
-    .line 1
     :goto_0
     iget-object v0, p0, Lorg/apache/thrift/protocol/TSimpleJSONProtocol;->writeContextStack_:Ljava/util/Stack;
 
@@ -595,7 +560,6 @@
 
     if-nez v0, :cond_0
 
-    .line 2
     invoke-virtual {p0}, Lorg/apache/thrift/protocol/TSimpleJSONProtocol;->popWriteContext()V
 
     goto :goto_0
@@ -612,7 +576,6 @@
         }
     .end annotation
 
-    .line 1
     :try_start_0
     new-instance v0, Ljava/lang/String;
 
@@ -656,7 +619,6 @@
 
     return-void
 
-    .line 2
     :catch_0
     new-instance p1, Lorg/apache/thrift/TException;
 
@@ -675,7 +637,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0, p1}, Lorg/apache/thrift/protocol/TSimpleJSONProtocol;->writeByte(B)V
 
     return-void
@@ -689,7 +650,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0, p1}, Lorg/apache/thrift/protocol/TSimpleJSONProtocol;->writeI32(I)V
 
     return-void
@@ -703,7 +663,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lorg/apache/thrift/protocol/TSimpleJSONProtocol;->writeContext_:Lorg/apache/thrift/protocol/TSimpleJSONProtocol$Context;
 
     invoke-virtual {v0}, Lorg/apache/thrift/protocol/TSimpleJSONProtocol$Context;->isMapKey()Z
@@ -712,7 +671,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-static {p1, p2}, Ljava/lang/Double;->toString(D)Ljava/lang/String;
 
     move-result-object p1
@@ -721,13 +679,11 @@
 
     goto :goto_0
 
-    .line 3
     :cond_0
     iget-object v0, p0, Lorg/apache/thrift/protocol/TSimpleJSONProtocol;->writeContext_:Lorg/apache/thrift/protocol/TSimpleJSONProtocol$Context;
 
     invoke-virtual {v0}, Lorg/apache/thrift/protocol/TSimpleJSONProtocol$Context;->write()V
 
-    .line 4
     invoke-static {p1, p2}, Ljava/lang/Double;->toString(D)Ljava/lang/String;
 
     move-result-object p1
@@ -746,7 +702,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object p1, p1, Lorg/apache/thrift/protocol/TField;->name:Ljava/lang/String;
 
     invoke-virtual {p0, p1}, Lorg/apache/thrift/protocol/TSimpleJSONProtocol;->writeString(Ljava/lang/String;)V
@@ -774,7 +729,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0, p1}, Lorg/apache/thrift/protocol/TSimpleJSONProtocol;->writeI32(I)V
 
     return-void
@@ -788,7 +742,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lorg/apache/thrift/protocol/TSimpleJSONProtocol;->writeContext_:Lorg/apache/thrift/protocol/TSimpleJSONProtocol$Context;
 
     invoke-virtual {v0}, Lorg/apache/thrift/protocol/TSimpleJSONProtocol$Context;->isMapKey()Z
@@ -797,7 +750,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-static {p1}, Ljava/lang/Integer;->toString(I)Ljava/lang/String;
 
     move-result-object p1
@@ -806,13 +758,11 @@
 
     goto :goto_0
 
-    .line 3
     :cond_0
     iget-object v0, p0, Lorg/apache/thrift/protocol/TSimpleJSONProtocol;->writeContext_:Lorg/apache/thrift/protocol/TSimpleJSONProtocol$Context;
 
     invoke-virtual {v0}, Lorg/apache/thrift/protocol/TSimpleJSONProtocol$Context;->write()V
 
-    .line 4
     invoke-static {p1}, Ljava/lang/Integer;->toString(I)Ljava/lang/String;
 
     move-result-object p1
@@ -831,7 +781,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lorg/apache/thrift/protocol/TSimpleJSONProtocol;->writeContext_:Lorg/apache/thrift/protocol/TSimpleJSONProtocol$Context;
 
     invoke-virtual {v0}, Lorg/apache/thrift/protocol/TSimpleJSONProtocol$Context;->isMapKey()Z
@@ -840,7 +789,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-static {p1, p2}, Ljava/lang/Long;->toString(J)Ljava/lang/String;
 
     move-result-object p1
@@ -849,13 +797,11 @@
 
     goto :goto_0
 
-    .line 3
     :cond_0
     iget-object v0, p0, Lorg/apache/thrift/protocol/TSimpleJSONProtocol;->writeContext_:Lorg/apache/thrift/protocol/TSimpleJSONProtocol$Context;
 
     invoke-virtual {v0}, Lorg/apache/thrift/protocol/TSimpleJSONProtocol$Context;->write()V
 
-    .line 4
     invoke-static {p1, p2}, Ljava/lang/Long;->toString(J)Ljava/lang/String;
 
     move-result-object p1
@@ -876,22 +822,18 @@
 
     const-string p1, "list"
 
-    .line 1
     invoke-virtual {p0, p1}, Lorg/apache/thrift/protocol/TSimpleJSONProtocol;->assertContextIsNotMapKey(Ljava/lang/String;)V
 
-    .line 2
     iget-object p1, p0, Lorg/apache/thrift/protocol/TSimpleJSONProtocol;->writeContext_:Lorg/apache/thrift/protocol/TSimpleJSONProtocol$Context;
 
     invoke-virtual {p1}, Lorg/apache/thrift/protocol/TSimpleJSONProtocol$Context;->write()V
 
-    .line 3
     iget-object p1, p0, Lorg/apache/thrift/protocol/TProtocol;->trans_:Lorg/apache/thrift/transport/TTransport;
 
     sget-object v0, Lorg/apache/thrift/protocol/TSimpleJSONProtocol;->LBRACKET:[B
 
     invoke-virtual {p1, v0}, Lorg/apache/thrift/transport/TTransport;->write([B)V
 
-    .line 4
     new-instance p1, Lorg/apache/thrift/protocol/TSimpleJSONProtocol$ListContext;
 
     invoke-direct {p1, p0}, Lorg/apache/thrift/protocol/TSimpleJSONProtocol$ListContext;-><init>(Lorg/apache/thrift/protocol/TSimpleJSONProtocol;)V
@@ -909,10 +851,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lorg/apache/thrift/protocol/TSimpleJSONProtocol;->popWriteContext()V
 
-    .line 2
     iget-object v0, p0, Lorg/apache/thrift/protocol/TProtocol;->trans_:Lorg/apache/thrift/transport/TTransport;
 
     sget-object v1, Lorg/apache/thrift/protocol/TSimpleJSONProtocol;->RBRACKET:[B
@@ -932,22 +872,18 @@
 
     const-string p1, "map"
 
-    .line 1
     invoke-virtual {p0, p1}, Lorg/apache/thrift/protocol/TSimpleJSONProtocol;->assertContextIsNotMapKey(Ljava/lang/String;)V
 
-    .line 2
     iget-object p1, p0, Lorg/apache/thrift/protocol/TSimpleJSONProtocol;->writeContext_:Lorg/apache/thrift/protocol/TSimpleJSONProtocol$Context;
 
     invoke-virtual {p1}, Lorg/apache/thrift/protocol/TSimpleJSONProtocol$Context;->write()V
 
-    .line 3
     iget-object p1, p0, Lorg/apache/thrift/protocol/TProtocol;->trans_:Lorg/apache/thrift/transport/TTransport;
 
     sget-object v0, Lorg/apache/thrift/protocol/TSimpleJSONProtocol;->LBRACE:[B
 
     invoke-virtual {p1, v0}, Lorg/apache/thrift/transport/TTransport;->write([B)V
 
-    .line 4
     new-instance p1, Lorg/apache/thrift/protocol/TSimpleJSONProtocol$MapContext;
 
     invoke-direct {p1, p0}, Lorg/apache/thrift/protocol/TSimpleJSONProtocol$MapContext;-><init>(Lorg/apache/thrift/protocol/TSimpleJSONProtocol;)V
@@ -965,10 +901,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lorg/apache/thrift/protocol/TSimpleJSONProtocol;->popWriteContext()V
 
-    .line 2
     iget-object v0, p0, Lorg/apache/thrift/protocol/TProtocol;->trans_:Lorg/apache/thrift/transport/TTransport;
 
     sget-object v1, Lorg/apache/thrift/protocol/TSimpleJSONProtocol;->RBRACE:[B
@@ -986,34 +920,28 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lorg/apache/thrift/protocol/TSimpleJSONProtocol;->resetWriteContext()V
 
-    .line 2
     iget-object v0, p0, Lorg/apache/thrift/protocol/TProtocol;->trans_:Lorg/apache/thrift/transport/TTransport;
 
     sget-object v1, Lorg/apache/thrift/protocol/TSimpleJSONProtocol;->LBRACKET:[B
 
     invoke-virtual {v0, v1}, Lorg/apache/thrift/transport/TTransport;->write([B)V
 
-    .line 3
     new-instance v0, Lorg/apache/thrift/protocol/TSimpleJSONProtocol$ListContext;
 
     invoke-direct {v0, p0}, Lorg/apache/thrift/protocol/TSimpleJSONProtocol$ListContext;-><init>(Lorg/apache/thrift/protocol/TSimpleJSONProtocol;)V
 
     invoke-virtual {p0, v0}, Lorg/apache/thrift/protocol/TSimpleJSONProtocol;->pushWriteContext(Lorg/apache/thrift/protocol/TSimpleJSONProtocol$Context;)V
 
-    .line 4
     iget-object v0, p1, Lorg/apache/thrift/protocol/TMessage;->name:Ljava/lang/String;
 
     invoke-virtual {p0, v0}, Lorg/apache/thrift/protocol/TSimpleJSONProtocol;->writeString(Ljava/lang/String;)V
 
-    .line 5
     iget-byte v0, p1, Lorg/apache/thrift/protocol/TMessage;->type:B
 
     invoke-virtual {p0, v0}, Lorg/apache/thrift/protocol/TSimpleJSONProtocol;->writeByte(B)V
 
-    .line 6
     iget p1, p1, Lorg/apache/thrift/protocol/TMessage;->seqid:I
 
     invoke-virtual {p0, p1}, Lorg/apache/thrift/protocol/TSimpleJSONProtocol;->writeI32(I)V
@@ -1029,10 +957,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lorg/apache/thrift/protocol/TSimpleJSONProtocol;->popWriteContext()V
 
-    .line 2
     iget-object v0, p0, Lorg/apache/thrift/protocol/TProtocol;->trans_:Lorg/apache/thrift/transport/TTransport;
 
     sget-object v1, Lorg/apache/thrift/protocol/TSimpleJSONProtocol;->RBRACKET:[B
@@ -1052,22 +978,18 @@
 
     const-string p1, "set"
 
-    .line 1
     invoke-virtual {p0, p1}, Lorg/apache/thrift/protocol/TSimpleJSONProtocol;->assertContextIsNotMapKey(Ljava/lang/String;)V
 
-    .line 2
     iget-object p1, p0, Lorg/apache/thrift/protocol/TSimpleJSONProtocol;->writeContext_:Lorg/apache/thrift/protocol/TSimpleJSONProtocol$Context;
 
     invoke-virtual {p1}, Lorg/apache/thrift/protocol/TSimpleJSONProtocol$Context;->write()V
 
-    .line 3
     iget-object p1, p0, Lorg/apache/thrift/protocol/TProtocol;->trans_:Lorg/apache/thrift/transport/TTransport;
 
     sget-object v0, Lorg/apache/thrift/protocol/TSimpleJSONProtocol;->LBRACKET:[B
 
     invoke-virtual {p1, v0}, Lorg/apache/thrift/transport/TTransport;->write([B)V
 
-    .line 4
     new-instance p1, Lorg/apache/thrift/protocol/TSimpleJSONProtocol$ListContext;
 
     invoke-direct {p1, p0}, Lorg/apache/thrift/protocol/TSimpleJSONProtocol$ListContext;-><init>(Lorg/apache/thrift/protocol/TSimpleJSONProtocol;)V
@@ -1085,10 +1007,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lorg/apache/thrift/protocol/TSimpleJSONProtocol;->popWriteContext()V
 
-    .line 2
     iget-object v0, p0, Lorg/apache/thrift/protocol/TProtocol;->trans_:Lorg/apache/thrift/transport/TTransport;
 
     sget-object v1, Lorg/apache/thrift/protocol/TSimpleJSONProtocol;->RBRACKET:[B
@@ -1106,17 +1026,14 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lorg/apache/thrift/protocol/TSimpleJSONProtocol;->writeContext_:Lorg/apache/thrift/protocol/TSimpleJSONProtocol$Context;
 
     invoke-virtual {v0}, Lorg/apache/thrift/protocol/TSimpleJSONProtocol$Context;->write()V
 
-    .line 2
     invoke-virtual {p1}, Ljava/lang/String;->length()I
 
     move-result v0
 
-    .line 3
     new-instance v1, Ljava/lang/StringBuffer;
 
     add-int/lit8 v2, v0, 0x10
@@ -1125,7 +1042,6 @@
 
     const/16 v2, 0x22
 
-    .line 4
     invoke-virtual {v1, v2}, Ljava/lang/StringBuffer;->append(C)Ljava/lang/StringBuffer;
 
     const/4 v3, 0x0
@@ -1133,7 +1049,6 @@
     :goto_0
     if-ge v3, v0, :cond_5
 
-    .line 5
     invoke-virtual {p1, v3}, Ljava/lang/String;->charAt(I)C
 
     move-result v4
@@ -1158,22 +1073,18 @@
 
     if-ge v4, v5, :cond_1
 
-    .line 6
     invoke-static {v4}, Ljava/lang/Integer;->toHexString(I)Ljava/lang/String;
 
     move-result-object v4
 
-    .line 7
     invoke-virtual {v1, v6}, Ljava/lang/StringBuffer;->append(C)Ljava/lang/StringBuffer;
 
     const/16 v5, 0x75
 
-    .line 8
     invoke-virtual {v1, v5}, Ljava/lang/StringBuffer;->append(C)Ljava/lang/StringBuffer;
 
     const/4 v5, 0x4
 
-    .line 9
     :goto_1
     invoke-virtual {v4}, Ljava/lang/String;->length()I
 
@@ -1183,85 +1094,70 @@
 
     const/16 v6, 0x30
 
-    .line 10
     invoke-virtual {v1, v6}, Ljava/lang/StringBuffer;->append(C)Ljava/lang/StringBuffer;
 
     add-int/lit8 v5, v5, -0x1
 
     goto :goto_1
 
-    .line 11
     :cond_0
     invoke-virtual {v1, v4}, Ljava/lang/StringBuffer;->append(Ljava/lang/String;)Ljava/lang/StringBuffer;
 
     goto :goto_2
 
-    .line 12
     :cond_1
     invoke-virtual {v1, v4}, Ljava/lang/StringBuffer;->append(C)Ljava/lang/StringBuffer;
 
     goto :goto_2
 
-    .line 13
     :pswitch_0
     invoke-virtual {v1, v6}, Ljava/lang/StringBuffer;->append(C)Ljava/lang/StringBuffer;
 
     const/16 v4, 0x6e
 
-    .line 14
     invoke-virtual {v1, v4}, Ljava/lang/StringBuffer;->append(C)Ljava/lang/StringBuffer;
 
     goto :goto_2
 
-    .line 15
     :pswitch_1
     invoke-virtual {v1, v6}, Ljava/lang/StringBuffer;->append(C)Ljava/lang/StringBuffer;
 
     const/16 v4, 0x74
 
-    .line 16
     invoke-virtual {v1, v4}, Ljava/lang/StringBuffer;->append(C)Ljava/lang/StringBuffer;
 
     goto :goto_2
 
-    .line 17
     :pswitch_2
     invoke-virtual {v1, v6}, Ljava/lang/StringBuffer;->append(C)Ljava/lang/StringBuffer;
 
     const/16 v4, 0x62
 
-    .line 18
     invoke-virtual {v1, v4}, Ljava/lang/StringBuffer;->append(C)Ljava/lang/StringBuffer;
 
     goto :goto_2
 
-    .line 19
     :cond_2
     invoke-virtual {v1, v6}, Ljava/lang/StringBuffer;->append(C)Ljava/lang/StringBuffer;
 
-    .line 20
     invoke-virtual {v1, v4}, Ljava/lang/StringBuffer;->append(C)Ljava/lang/StringBuffer;
 
     goto :goto_2
 
-    .line 21
     :cond_3
     invoke-virtual {v1, v6}, Ljava/lang/StringBuffer;->append(C)Ljava/lang/StringBuffer;
 
     const/16 v4, 0x72
 
-    .line 22
     invoke-virtual {v1, v4}, Ljava/lang/StringBuffer;->append(C)Ljava/lang/StringBuffer;
 
     goto :goto_2
 
-    .line 23
     :cond_4
     invoke-virtual {v1, v6}, Ljava/lang/StringBuffer;->append(C)Ljava/lang/StringBuffer;
 
     const/16 v4, 0x66
 
-    .line 24
     invoke-virtual {v1, v4}, Ljava/lang/StringBuffer;->append(C)Ljava/lang/StringBuffer;
 
     :goto_2
@@ -1269,11 +1165,9 @@
 
     goto :goto_0
 
-    .line 25
     :cond_5
     invoke-virtual {v1, v2}, Ljava/lang/StringBuffer;->append(C)Ljava/lang/StringBuffer;
 
-    .line 26
     invoke-virtual {v1}, Ljava/lang/StringBuffer;->toString()Ljava/lang/String;
 
     move-result-object p1
@@ -1300,19 +1194,16 @@
         }
     .end annotation
 
-    .line 1
     iget-object p1, p0, Lorg/apache/thrift/protocol/TSimpleJSONProtocol;->writeContext_:Lorg/apache/thrift/protocol/TSimpleJSONProtocol$Context;
 
     invoke-virtual {p1}, Lorg/apache/thrift/protocol/TSimpleJSONProtocol$Context;->write()V
 
-    .line 2
     iget-object p1, p0, Lorg/apache/thrift/protocol/TProtocol;->trans_:Lorg/apache/thrift/transport/TTransport;
 
     sget-object v0, Lorg/apache/thrift/protocol/TSimpleJSONProtocol;->LBRACE:[B
 
     invoke-virtual {p1, v0}, Lorg/apache/thrift/transport/TTransport;->write([B)V
 
-    .line 3
     new-instance p1, Lorg/apache/thrift/protocol/TSimpleJSONProtocol$StructContext;
 
     invoke-direct {p1, p0}, Lorg/apache/thrift/protocol/TSimpleJSONProtocol$StructContext;-><init>(Lorg/apache/thrift/protocol/TSimpleJSONProtocol;)V
@@ -1330,10 +1221,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lorg/apache/thrift/protocol/TSimpleJSONProtocol;->popWriteContext()V
 
-    .line 2
     iget-object v0, p0, Lorg/apache/thrift/protocol/TProtocol;->trans_:Lorg/apache/thrift/transport/TTransport;
 
     sget-object v1, Lorg/apache/thrift/protocol/TSimpleJSONProtocol;->RBRACE:[B

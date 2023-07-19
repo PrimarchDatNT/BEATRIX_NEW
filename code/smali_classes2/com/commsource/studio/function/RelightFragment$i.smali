@@ -42,7 +42,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/function/RelightFragment$i;->a:Lcom/commsource/studio/function/RelightFragment;
 
     invoke-static {v1}, Lcom/commsource/studio/function/RelightFragment;->B1(Lcom/commsource/studio/function/RelightFragment;)Lcom/commsource/beautyplus/f0/wb;
@@ -73,12 +72,10 @@
 
     invoke-virtual {v1, p1}, Landroid/widget/TextView;->setAlpha(F)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 3
     :cond_0
     new-instance p1, Lcotlin/TypeCastException;
 

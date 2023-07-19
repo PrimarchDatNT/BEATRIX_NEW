@@ -45,13 +45,10 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/google/android/gms/internal/ads/fa1;->b:Ljava/util/concurrent/Executor;
 
-    .line 3
     iput-object p2, p0, Lcom/google/android/gms/internal/ads/fa1;->a:Ljava/util/Set;
 
     return-void
@@ -69,7 +66,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/util/ArrayList;
 
     iget-object v1, p0, Lcom/google/android/gms/internal/ads/fa1;->a:Ljava/util/Set;
@@ -80,7 +76,6 @@
 
     invoke-direct {v0, v1}, Ljava/util/ArrayList;-><init>(I)V
 
-    .line 2
     iget-object v1, p0, Lcom/google/android/gms/internal/ads/fa1;->a:Ljava/util/Set;
 
     invoke-interface {v1}, Ljava/util/Set;->iterator()Ljava/util/Iterator;
@@ -100,12 +95,10 @@
 
     check-cast v2, Lcom/google/android/gms/internal/ads/ga1;
 
-    .line 3
     invoke-interface {v2}, Lcom/google/android/gms/internal/ads/ga1;->a()Lcom/google/android/gms/internal/ads/rq1;
 
     move-result-object v3
 
-    .line 4
     sget-object v4, Lcom/google/android/gms/internal/ads/m1;->a:Lcom/google/android/gms/internal/ads/y0;
 
     invoke-virtual {v4}, Lcom/google/android/gms/internal/ads/y0;->a()Ljava/lang/Object;
@@ -120,7 +113,6 @@
 
     if-eqz v4, :cond_0
 
-    .line 5
     invoke-static {}, Lcom/google/android/gms/ads/internal/p;->j()Lcom/google/android/gms/common/util/g;
 
     move-result-object v4
@@ -129,24 +121,19 @@
 
     move-result-wide v4
 
-    .line 6
     new-instance v6, Lcom/google/android/gms/internal/ads/ia1;
 
     invoke-direct {v6, v2, v4, v5}, Lcom/google/android/gms/internal/ads/ia1;-><init>(Lcom/google/android/gms/internal/ads/ga1;J)V
 
-    .line 7
     sget-object v2, Lcom/google/android/gms/internal/ads/dq;->f:Lcom/google/android/gms/internal/ads/uq1;
 
-    .line 8
     invoke-interface {v3, v6, v2}, Lcom/google/android/gms/internal/ads/rq1;->addListener(Ljava/lang/Runnable;Ljava/util/concurrent/Executor;)V
 
-    .line 9
     :cond_0
     invoke-interface {v0, v3}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
     goto :goto_0
 
-    .line 10
     :cond_1
     invoke-static {v0}, Lcom/google/android/gms/internal/ads/jq1;->o(Ljava/lang/Iterable;)Lcom/google/android/gms/internal/ads/kq1;
 
@@ -158,7 +145,6 @@
 
     iget-object p1, p0, Lcom/google/android/gms/internal/ads/fa1;->b:Ljava/util/concurrent/Executor;
 
-    .line 11
     invoke-virtual {v1, v2, p1}, Lcom/google/android/gms/internal/ads/kq1;->a(Ljava/util/concurrent/Callable;Ljava/util/concurrent/Executor;)Lcom/google/android/gms/internal/ads/rq1;
 
     move-result-object p1

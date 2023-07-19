@@ -49,10 +49,8 @@
         }
     .end annotation
 
-    .line 2
     invoke-direct {p0, p2, p3, p4}, Lorg/greenrobot/greendao/l/a;-><init>(Lorg/greenrobot/greendao/a;Ljava/lang/String;[Ljava/lang/String;)V
 
-    .line 3
     iput-object p1, p0, Lorg/greenrobot/greendao/l/g;->f:Lorg/greenrobot/greendao/l/g$b;
 
     return-void
@@ -61,7 +59,6 @@
 .method synthetic constructor <init>(Lorg/greenrobot/greendao/l/g$b;Lorg/greenrobot/greendao/a;Ljava/lang/String;[Ljava/lang/String;Lorg/greenrobot/greendao/l/g$a;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1, p2, p3, p4}, Lorg/greenrobot/greendao/l/g;-><init>(Lorg/greenrobot/greendao/l/g$b;Lorg/greenrobot/greendao/a;Ljava/lang/String;[Ljava/lang/String;)V
 
     return-void
@@ -85,7 +82,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lorg/greenrobot/greendao/l/g$b;
 
     invoke-static {p2}, Lorg/greenrobot/greendao/l/a;->e([Ljava/lang/Object;)[Ljava/lang/String;
@@ -96,7 +92,6 @@
 
     invoke-direct {v0, p0, p1, p2, v1}, Lorg/greenrobot/greendao/l/g$b;-><init>(Lorg/greenrobot/greendao/a;Ljava/lang/String;[Ljava/lang/String;Lorg/greenrobot/greendao/l/g$a;)V
 
-    .line 2
     invoke-virtual {v0}, Lorg/greenrobot/greendao/l/b;->b()Lorg/greenrobot/greendao/l/a;
 
     move-result-object p0
@@ -111,7 +106,6 @@
 .method public bridge synthetic b(ILjava/lang/Boolean;)Lorg/greenrobot/greendao/l/a;
     .locals 0
 
-    .line 1
     invoke-virtual {p0, p1, p2}, Lorg/greenrobot/greendao/l/g;->i(ILjava/lang/Boolean;)Lorg/greenrobot/greendao/l/g;
 
     move-result-object p1
@@ -122,7 +116,6 @@
 .method public bridge synthetic c(ILjava/lang/Object;)Lorg/greenrobot/greendao/l/a;
     .locals 0
 
-    .line 1
     invoke-virtual {p0, p1, p2}, Lorg/greenrobot/greendao/l/g;->j(ILjava/lang/Object;)Lorg/greenrobot/greendao/l/g;
 
     move-result-object p1
@@ -133,7 +126,6 @@
 .method public bridge synthetic d(ILjava/util/Date;)Lorg/greenrobot/greendao/l/a;
     .locals 0
 
-    .line 1
     invoke-virtual {p0, p1, p2}, Lorg/greenrobot/greendao/l/g;->k(ILjava/util/Date;)Lorg/greenrobot/greendao/l/g;
 
     move-result-object p1
@@ -144,24 +136,20 @@
 .method public g()V
     .locals 4
 
-    .line 1
     invoke-virtual {p0}, Lorg/greenrobot/greendao/l/a;->a()V
 
-    .line 2
     iget-object v0, p0, Lorg/greenrobot/greendao/l/a;->a:Lorg/greenrobot/greendao/a;
 
     invoke-virtual {v0}, Lorg/greenrobot/greendao/a;->u()Lorg/greenrobot/greendao/database/a;
 
     move-result-object v0
 
-    .line 3
     invoke-interface {v0}, Lorg/greenrobot/greendao/database/a;->isDbLockedByCurrentThread()Z
 
     move-result v1
 
     if-eqz v1, :cond_0
 
-    .line 4
     iget-object v0, p0, Lorg/greenrobot/greendao/l/a;->a:Lorg/greenrobot/greendao/a;
 
     invoke-virtual {v0}, Lorg/greenrobot/greendao/a;->u()Lorg/greenrobot/greendao/database/a;
@@ -176,11 +164,9 @@
 
     goto :goto_0
 
-    .line 5
     :cond_0
     invoke-interface {v0}, Lorg/greenrobot/greendao/database/a;->beginTransaction()V
 
-    .line 6
     :try_start_0
     iget-object v1, p0, Lorg/greenrobot/greendao/l/a;->a:Lorg/greenrobot/greendao/a;
 
@@ -194,12 +180,10 @@
 
     invoke-interface {v1, v2, v3}, Lorg/greenrobot/greendao/database/a;->execSQL(Ljava/lang/String;[Ljava/lang/Object;)V
 
-    .line 7
     invoke-interface {v0}, Lorg/greenrobot/greendao/database/a;->setTransactionSuccessful()V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 8
     invoke-interface {v0}, Lorg/greenrobot/greendao/database/a;->endTransaction()V
 
     :goto_0
@@ -210,7 +194,6 @@
 
     invoke-interface {v0}, Lorg/greenrobot/greendao/database/a;->endTransaction()V
 
-    .line 9
     throw v1
 .end method
 
@@ -224,7 +207,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lorg/greenrobot/greendao/l/g;->f:Lorg/greenrobot/greendao/l/g$b;
 
     invoke-virtual {v0, p0}, Lorg/greenrobot/greendao/l/b;->c(Lorg/greenrobot/greendao/l/a;)Lorg/greenrobot/greendao/l/a;
@@ -248,7 +230,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-super {p0, p1, p2}, Lorg/greenrobot/greendao/l/a;->b(ILjava/lang/Boolean;)Lorg/greenrobot/greendao/l/a;
 
     move-result-object p1
@@ -270,7 +251,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-super {p0, p1, p2}, Lorg/greenrobot/greendao/l/a;->c(ILjava/lang/Object;)Lorg/greenrobot/greendao/l/a;
 
     move-result-object p1
@@ -292,7 +272,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-super {p0, p1, p2}, Lorg/greenrobot/greendao/l/a;->d(ILjava/util/Date;)Lorg/greenrobot/greendao/l/a;
 
     move-result-object p1

@@ -9,7 +9,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-direct {p0, p1, v0}, Lcom/google/android/gms/internal/ads/te0;-><init>(Lcom/google/android/gms/internal/ads/xf0;Lcom/google/android/gms/internal/ads/lu;)V
 
     return-void
@@ -22,7 +21,6 @@
         .end annotation
     .end param
 
-    .line 2
     invoke-direct {p0, p1, p2}, Lcom/google/android/gms/internal/ads/te0;-><init>(Lcom/google/android/gms/internal/ads/xf0;Lcom/google/android/gms/internal/ads/lu;)V
 
     return-void

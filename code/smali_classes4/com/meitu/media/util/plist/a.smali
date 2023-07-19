@@ -19,7 +19,6 @@
 
     const-string v1, "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/"
 
-    .line 1
     invoke-virtual {v1}, Ljava/lang/String;->toCharArray()[C
 
     move-result-object v1
@@ -30,15 +29,12 @@
 
     new-array v2, v2, [I
 
-    .line 2
     sput-object v2, Lcom/meitu/media/util/plist/a;->b:[I
 
     const/4 v3, -0x1
 
-    .line 3
     invoke-static {v2, v3}, Ljava/util/Arrays;->fill([II)V
 
-    .line 4
     array-length v1, v1
 
     const/4 v2, 0x0
@@ -48,7 +44,6 @@
     :goto_0
     if-ge v3, v1, :cond_0
 
-    .line 5
     sget-object v4, Lcom/meitu/media/util/plist/a;->b:[I
 
     sget-object v5, Lcom/meitu/media/util/plist/a;->a:[C
@@ -61,7 +56,6 @@
 
     goto :goto_0
 
-    .line 6
     :cond_0
     sget-object v1, Lcom/meitu/media/util/plist/a;->b:[I
 
@@ -69,7 +63,6 @@
 
     aput v2, v1, v3
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -78,7 +71,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -95,7 +87,6 @@
 
     if-eqz p0, :cond_0
 
-    .line 1
     invoke-virtual {p0}, Ljava/lang/String;->length()I
 
     move-result v2
@@ -110,7 +101,6 @@
 
     new-array p0, v1, [B
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
@@ -123,7 +113,6 @@
     :goto_1
     if-ge v3, v2, :cond_3
 
-    .line 3
     sget-object v5, Lcom/meitu/media/util/plist/a;->b:[I
 
     invoke-virtual {p0, v3}, Ljava/lang/String;->charAt(I)C
@@ -144,14 +133,12 @@
     :cond_3
     sub-int v3, v2, v4
 
-    .line 4
     rem-int/lit8 v4, v3, 0x4
 
     if-eqz v4, :cond_4
 
     const/4 p0, 0x0
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
@@ -165,7 +152,6 @@
 
     if-le v2, v5, :cond_6
 
-    .line 6
     sget-object v6, Lcom/meitu/media/util/plist/a;->b:[I
 
     add-int/lit8 v2, v2, -0x1
@@ -178,7 +164,6 @@
 
     if-gtz v6, :cond_6
 
-    .line 7
     invoke-virtual {p0, v2}, Ljava/lang/String;->charAt(I)C
 
     move-result v5
@@ -198,7 +183,6 @@
 
     sub-int/2addr v2, v4
 
-    .line 8
     new-array v3, v2, [B
 
     const/4 v4, 0x0
@@ -218,7 +202,6 @@
 
     if-ge v7, v9, :cond_9
 
-    .line 9
     sget-object v9, Lcom/meitu/media/util/plist/a;->b:[I
 
     add-int/lit8 v10, v6, 0x1
@@ -258,7 +241,6 @@
 
     int-to-byte v9, v9
 
-    .line 10
     aput-byte v9, v3, v4
 
     if-ge v7, v2, :cond_a
@@ -269,7 +251,6 @@
 
     int-to-byte v9, v9
 
-    .line 11
     aput-byte v9, v3, v7
 
     if-ge v4, v2, :cond_7
@@ -278,7 +259,6 @@
 
     int-to-byte v8, v8
 
-    .line 12
     aput-byte v8, v3, v4
 
     :cond_a
@@ -286,7 +266,6 @@
 
     goto :goto_3
 
-    .line 13
     :cond_b
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -300,7 +279,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     array-length v1, p0
 
     const/4 v2, 0x0
@@ -312,7 +290,6 @@
     :goto_0
     if-ge v3, v1, :cond_1
 
-    .line 2
     sget-object v5, Lcom/meitu/media/util/plist/a;->b:[I
 
     aget-byte v6, p0, v3
@@ -333,14 +310,12 @@
     :cond_1
     sub-int v3, v1, v4
 
-    .line 3
     rem-int/lit8 v4, v3, 0x4
 
     if-eqz v4, :cond_2
 
     const/4 p0, 0x0
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
@@ -354,7 +329,6 @@
 
     if-le v1, v5, :cond_4
 
-    .line 5
     sget-object v6, Lcom/meitu/media/util/plist/a;->b:[I
 
     add-int/lit8 v1, v1, -0x1
@@ -367,7 +341,6 @@
 
     if-gtz v6, :cond_4
 
-    .line 6
     aget-byte v5, p0, v1
 
     const/16 v6, 0x3d
@@ -385,7 +358,6 @@
 
     sub-int/2addr v1, v4
 
-    .line 7
     new-array v3, v1, [B
 
     const/4 v4, 0x0
@@ -405,7 +377,6 @@
 
     if-ge v7, v9, :cond_7
 
-    .line 8
     sget-object v9, Lcom/meitu/media/util/plist/a;->b:[I
 
     add-int/lit8 v10, v6, 0x1
@@ -445,7 +416,6 @@
 
     int-to-byte v9, v9
 
-    .line 9
     aput-byte v9, v3, v4
 
     if-ge v7, v1, :cond_8
@@ -456,7 +426,6 @@
 
     int-to-byte v9, v9
 
-    .line 10
     aput-byte v9, v3, v7
 
     if-ge v4, v1, :cond_5
@@ -465,7 +434,6 @@
 
     int-to-byte v8, v8
 
-    .line 11
     aput-byte v8, v3, v4
 
     :cond_8
@@ -473,7 +441,6 @@
 
     goto :goto_2
 
-    .line 12
     :cond_9
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -491,7 +458,6 @@
 
     if-eqz p0, :cond_0
 
-    .line 1
     array-length v2, p0
 
     goto :goto_0
@@ -504,7 +470,6 @@
 
     new-array p0, v1, [B
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
@@ -517,7 +482,6 @@
     :goto_1
     if-ge v3, v2, :cond_3
 
-    .line 3
     sget-object v5, Lcom/meitu/media/util/plist/a;->b:[I
 
     aget-char v6, p0, v3
@@ -536,14 +500,12 @@
     :cond_3
     sub-int v3, v2, v4
 
-    .line 4
     rem-int/lit8 v4, v3, 0x4
 
     if-eqz v4, :cond_4
 
     const/4 p0, 0x0
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
@@ -557,7 +519,6 @@
 
     if-le v2, v5, :cond_6
 
-    .line 6
     sget-object v6, Lcom/meitu/media/util/plist/a;->b:[I
 
     add-int/lit8 v2, v2, -0x1
@@ -568,7 +529,6 @@
 
     if-gtz v6, :cond_6
 
-    .line 7
     aget-char v5, p0, v2
 
     const/16 v6, 0x3d
@@ -586,7 +546,6 @@
 
     sub-int/2addr v2, v4
 
-    .line 8
     new-array v3, v2, [B
 
     const/4 v4, 0x0
@@ -606,7 +565,6 @@
 
     if-ge v7, v9, :cond_9
 
-    .line 9
     sget-object v9, Lcom/meitu/media/util/plist/a;->b:[I
 
     add-int/lit8 v10, v6, 0x1
@@ -644,7 +602,6 @@
 
     int-to-byte v9, v9
 
-    .line 10
     aput-byte v9, v3, v4
 
     if-ge v7, v2, :cond_a
@@ -655,7 +612,6 @@
 
     int-to-byte v9, v9
 
-    .line 11
     aput-byte v9, v3, v7
 
     if-ge v4, v2, :cond_7
@@ -664,7 +620,6 @@
 
     int-to-byte v8, v8
 
-    .line 12
     aput-byte v8, v3, v4
 
     :cond_a
@@ -672,7 +627,6 @@
 
     goto :goto_3
 
-    .line 13
     :cond_b
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -686,7 +640,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Ljava/lang/String;->length()I
 
     move-result v1
@@ -697,7 +650,6 @@
 
     new-array p0, v2, [B
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
@@ -710,7 +662,6 @@
     :goto_0
     if-ge v4, v3, :cond_1
 
-    .line 3
     sget-object v5, Lcom/meitu/media/util/plist/a;->b:[I
 
     invoke-virtual {p0, v4}, Ljava/lang/String;->charAt(I)C
@@ -731,7 +682,6 @@
     :goto_1
     if-lez v3, :cond_2
 
-    .line 4
     sget-object v5, Lcom/meitu/media/util/plist/a;->b:[I
 
     invoke-virtual {p0, v3}, Ljava/lang/String;->charAt(I)C
@@ -748,7 +698,6 @@
 
     goto :goto_1
 
-    .line 5
     :cond_2
     invoke-virtual {p0, v3}, Ljava/lang/String;->charAt(I)C
 
@@ -789,7 +738,6 @@
 
     if-le v1, v8, :cond_6
 
-    .line 6
     invoke-virtual {p0, v8}, Ljava/lang/String;->charAt(I)C
 
     move-result v1
@@ -822,10 +770,8 @@
 
     sub-int/2addr v6, v5
 
-    .line 7
     new-array v8, v6, [B
 
-    .line 8
     div-int/lit8 v9, v6, 0x3
 
     mul-int/lit8 v9, v9, 0x3
@@ -837,7 +783,6 @@
     :goto_5
     if-ge v10, v9, :cond_8
 
-    .line 9
     sget-object v12, Lcom/meitu/media/util/plist/a;->b:[I
 
     add-int/lit8 v13, v4, 0x1
@@ -864,7 +809,6 @@
 
     add-int/lit8 v13, v14, 0x1
 
-    .line 10
     invoke-virtual {p0, v14}, Ljava/lang/String;->charAt(I)C
 
     move-result v14
@@ -891,7 +835,6 @@
 
     int-to-byte v13, v13
 
-    .line 11
     aput-byte v13, v8, v10
 
     add-int/lit8 v10, v12, 0x1
@@ -900,14 +843,12 @@
 
     int-to-byte v13, v13
 
-    .line 12
     aput-byte v13, v8, v12
 
     add-int/lit8 v12, v10, 0x1
 
     int-to-byte v4, v4
 
-    .line 13
     aput-byte v4, v8, v10
 
     if-lez v1, :cond_7
@@ -944,7 +885,6 @@
 
     if-gt v4, v9, :cond_9
 
-    .line 14
     sget-object v9, Lcom/meitu/media/util/plist/a;->b:[I
 
     add-int/lit8 v11, v4, 0x1
@@ -981,7 +921,6 @@
 
     int-to-byte v3, v3
 
-    .line 15
     aput-byte v3, v8, v10
 
     add-int/lit8 p0, p0, -0x8
@@ -990,7 +929,6 @@
 
     goto :goto_8
 
-    .line 16
     :cond_a
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1004,7 +942,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     array-length v1, p0
 
     const/4 v2, 0x0
@@ -1013,7 +950,6 @@
 
     new-array p0, v2, [B
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
@@ -1026,7 +962,6 @@
     :goto_0
     if-ge v4, v3, :cond_1
 
-    .line 3
     sget-object v5, Lcom/meitu/media/util/plist/a;->b:[I
 
     aget-byte v6, p0, v4
@@ -1045,7 +980,6 @@
     :goto_1
     if-lez v3, :cond_2
 
-    .line 4
     sget-object v5, Lcom/meitu/media/util/plist/a;->b:[I
 
     aget-byte v6, p0, v3
@@ -1060,7 +994,6 @@
 
     goto :goto_1
 
-    .line 5
     :cond_2
     aget-byte v5, p0, v3
 
@@ -1097,7 +1030,6 @@
 
     if-le v1, v8, :cond_6
 
-    .line 6
     aget-byte v1, p0, v8
 
     const/16 v8, 0xd
@@ -1128,10 +1060,8 @@
 
     sub-int/2addr v6, v5
 
-    .line 7
     new-array v8, v6, [B
 
-    .line 8
     div-int/lit8 v9, v6, 0x3
 
     mul-int/lit8 v9, v9, 0x3
@@ -1143,7 +1073,6 @@
     :goto_5
     if-ge v10, v9, :cond_8
 
-    .line 9
     sget-object v12, Lcom/meitu/media/util/plist/a;->b:[I
 
     add-int/lit8 v13, v4, 0x1
@@ -1188,7 +1117,6 @@
 
     int-to-byte v13, v13
 
-    .line 10
     aput-byte v13, v8, v10
 
     add-int/lit8 v10, v12, 0x1
@@ -1197,14 +1125,12 @@
 
     int-to-byte v13, v13
 
-    .line 11
     aput-byte v13, v8, v12
 
     add-int/lit8 v12, v10, 0x1
 
     int-to-byte v4, v4
 
-    .line 12
     aput-byte v4, v8, v10
 
     if-lez v1, :cond_7
@@ -1241,7 +1167,6 @@
 
     if-gt v4, v9, :cond_9
 
-    .line 13
     sget-object v9, Lcom/meitu/media/util/plist/a;->b:[I
 
     add-int/lit8 v11, v4, 0x1
@@ -1276,7 +1201,6 @@
 
     int-to-byte v3, v3
 
-    .line 14
     aput-byte v3, v8, v10
 
     add-int/lit8 p0, p0, -0x8
@@ -1285,7 +1209,6 @@
 
     goto :goto_8
 
-    .line 15
     :cond_a
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1299,7 +1222,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     array-length v1, p0
 
     const/4 v2, 0x0
@@ -1308,7 +1230,6 @@
 
     new-array p0, v2, [B
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
@@ -1321,7 +1242,6 @@
     :goto_0
     if-ge v4, v3, :cond_1
 
-    .line 3
     sget-object v5, Lcom/meitu/media/util/plist/a;->b:[I
 
     aget-char v6, p0, v4
@@ -1338,7 +1258,6 @@
     :goto_1
     if-lez v3, :cond_2
 
-    .line 4
     sget-object v5, Lcom/meitu/media/util/plist/a;->b:[I
 
     aget-char v6, p0, v3
@@ -1351,7 +1270,6 @@
 
     goto :goto_1
 
-    .line 5
     :cond_2
     aget-char v5, p0, v3
 
@@ -1388,7 +1306,6 @@
 
     if-le v1, v8, :cond_6
 
-    .line 6
     aget-char v1, p0, v8
 
     const/16 v8, 0xd
@@ -1419,10 +1336,8 @@
 
     sub-int/2addr v6, v5
 
-    .line 7
     new-array v8, v6, [B
 
-    .line 8
     div-int/lit8 v9, v6, 0x3
 
     mul-int/lit8 v9, v9, 0x3
@@ -1434,7 +1349,6 @@
     :goto_5
     if-ge v10, v9, :cond_8
 
-    .line 9
     sget-object v12, Lcom/meitu/media/util/plist/a;->b:[I
 
     add-int/lit8 v13, v4, 0x1
@@ -1479,7 +1393,6 @@
 
     int-to-byte v13, v13
 
-    .line 10
     aput-byte v13, v8, v10
 
     add-int/lit8 v10, v12, 0x1
@@ -1488,14 +1401,12 @@
 
     int-to-byte v13, v13
 
-    .line 11
     aput-byte v13, v8, v12
 
     add-int/lit8 v12, v10, 0x1
 
     int-to-byte v4, v4
 
-    .line 12
     aput-byte v4, v8, v10
 
     if-lez v1, :cond_7
@@ -1532,7 +1443,6 @@
 
     if-gt v4, v9, :cond_9
 
-    .line 13
     sget-object v9, Lcom/meitu/media/util/plist/a;->b:[I
 
     add-int/lit8 v11, v4, 0x1
@@ -1567,7 +1477,6 @@
 
     int-to-byte v3, v3
 
-    .line 14
     aput-byte v3, v8, v10
 
     add-int/lit8 p0, p0, -0x8
@@ -1576,7 +1485,6 @@
 
     goto :goto_8
 
-    .line 15
     :cond_a
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1596,7 +1504,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 1
     array-length v3, v0
 
     goto :goto_0
@@ -1609,12 +1516,10 @@
 
     new-array v0, v2, [B
 
-    .line 2
     invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v0
 
-    .line 3
     :cond_1
     div-int/lit8 v4, v3, 0x3
 
@@ -1622,7 +1527,6 @@
 
     add-int/lit8 v5, v3, -0x1
 
-    .line 4
     div-int/lit8 v6, v5, 0x3
 
     add-int/lit8 v6, v6, 0x1
@@ -1635,7 +1539,6 @@
 
     add-int/lit8 v8, v6, -0x1
 
-    .line 5
     div-int/lit8 v8, v8, 0x4c
 
     shl-int/lit8 v8, v8, 0x1
@@ -1648,7 +1551,6 @@
     :goto_1
     add-int/2addr v6, v8
 
-    .line 6
     new-array v8, v6, [B
 
     const/4 v9, 0x0
@@ -1664,7 +1566,6 @@
 
     add-int/lit8 v13, v9, 0x1
 
-    .line 7
     aget-byte v9, v0, v9
 
     and-int/lit16 v9, v9, 0xff
@@ -1691,7 +1592,6 @@
 
     add-int/lit8 v14, v10, 0x1
 
-    .line 8
     sget-object v15, Lcom/meitu/media/util/plist/a;->a:[C
 
     ushr-int/lit8 v16, v9, 0x12
@@ -1710,7 +1610,6 @@
 
     and-int/lit8 v10, v10, 0x3f
 
-    .line 9
     aget-char v10, v15, v10
 
     int-to-byte v10, v10
@@ -1723,7 +1622,6 @@
 
     and-int/lit8 v14, v14, 0x3f
 
-    .line 10
     aget-char v14, v15, v14
 
     int-to-byte v14, v14
@@ -1734,7 +1632,6 @@
 
     and-int/lit8 v9, v9, 0x3f
 
-    .line 11
     aget-char v9, v15, v9
 
     int-to-byte v9, v9
@@ -1757,12 +1654,10 @@
 
     const/16 v10, 0xd
 
-    .line 12
     aput-byte v10, v8, v2
 
     add-int/lit8 v2, v9, 0x1
 
-    .line 13
     aput-byte v12, v8, v9
 
     move v10, v2
@@ -1786,7 +1681,6 @@
 
     if-lez v3, :cond_7
 
-    .line 14
     aget-byte v2, v0, v4
 
     and-int/lit16 v2, v2, 0xff
@@ -1811,7 +1705,6 @@
 
     add-int/lit8 v2, v6, -0x4
 
-    .line 15
     sget-object v4, Lcom/meitu/media/util/plist/a;->a:[C
 
     shr-int/lit8 v5, v0, 0xc
@@ -1828,7 +1721,6 @@
 
     and-int/lit8 v5, v5, 0x3f
 
-    .line 16
     aget-char v5, v4, v5
 
     int-to-byte v5, v5
@@ -1843,7 +1735,6 @@
 
     and-int/lit8 v0, v0, 0x3f
 
-    .line 17
     aget-char v0, v4, v0
 
     int-to-byte v0, v0
@@ -1858,10 +1749,8 @@
 
     add-int/lit8 v6, v6, -0x1
 
-    .line 18
     aput-byte v5, v8, v6
 
-    .line 19
     :cond_7
     invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1881,7 +1770,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 1
     array-length v3, v0
 
     goto :goto_0
@@ -1894,12 +1782,10 @@
 
     new-array v0, v2, [C
 
-    .line 2
     invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v0
 
-    .line 3
     :cond_1
     div-int/lit8 v4, v3, 0x3
 
@@ -1907,7 +1793,6 @@
 
     add-int/lit8 v5, v3, -0x1
 
-    .line 4
     div-int/lit8 v6, v5, 0x3
 
     add-int/lit8 v6, v6, 0x1
@@ -1920,7 +1805,6 @@
 
     add-int/lit8 v8, v6, -0x1
 
-    .line 5
     div-int/lit8 v8, v8, 0x4c
 
     shl-int/lit8 v8, v8, 0x1
@@ -1933,7 +1817,6 @@
     :goto_1
     add-int/2addr v6, v8
 
-    .line 6
     new-array v8, v6, [C
 
     const/4 v9, 0x0
@@ -1949,7 +1832,6 @@
 
     add-int/lit8 v13, v9, 0x1
 
-    .line 7
     aget-byte v9, v0, v9
 
     and-int/lit16 v9, v9, 0xff
@@ -1976,7 +1858,6 @@
 
     add-int/lit8 v14, v10, 0x1
 
-    .line 8
     sget-object v15, Lcom/meitu/media/util/plist/a;->a:[C
 
     ushr-int/lit8 v16, v9, 0x12
@@ -1993,7 +1874,6 @@
 
     and-int/lit8 v16, v16, 0x3f
 
-    .line 9
     aget-char v16, v15, v16
 
     aput-char v16, v8, v14
@@ -2004,7 +1884,6 @@
 
     and-int/lit8 v16, v16, 0x3f
 
-    .line 10
     aget-char v16, v15, v16
 
     aput-char v16, v8, v10
@@ -2013,7 +1892,6 @@
 
     and-int/lit8 v9, v9, 0x3f
 
-    .line 11
     aget-char v9, v15, v9
 
     aput-char v9, v8, v14
@@ -2034,12 +1912,10 @@
 
     const/16 v11, 0xd
 
-    .line 12
     aput-char v11, v8, v10
 
     add-int/lit8 v10, v9, 0x1
 
-    .line 13
     aput-char v12, v8, v9
 
     const/4 v11, 0x0
@@ -2054,7 +1930,6 @@
 
     if-lez v3, :cond_7
 
-    .line 14
     aget-byte v4, v0, v4
 
     and-int/lit16 v4, v4, 0xff
@@ -2074,7 +1949,6 @@
 
     add-int/lit8 v2, v6, -0x4
 
-    .line 15
     sget-object v4, Lcom/meitu/media/util/plist/a;->a:[C
 
     shr-int/lit8 v5, v0, 0xc
@@ -2089,7 +1963,6 @@
 
     and-int/lit8 v5, v5, 0x3f
 
-    .line 16
     aget-char v5, v4, v5
 
     aput-char v5, v8, v2
@@ -2102,7 +1975,6 @@
 
     and-int/lit8 v0, v0, 0x3f
 
-    .line 17
     aget-char v0, v4, v0
 
     goto :goto_3
@@ -2115,10 +1987,8 @@
 
     add-int/lit8 v6, v6, -0x1
 
-    .line 18
     aput-char v5, v8, v6
 
-    .line 19
     :cond_7
     invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -2132,7 +2002,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/lang/String;
 
     invoke-static {p0, p1}, Lcom/meitu/media/util/plist/a;->h([BZ)[C

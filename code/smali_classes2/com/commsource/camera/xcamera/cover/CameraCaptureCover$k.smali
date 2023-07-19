@@ -60,7 +60,6 @@
 
     goto :goto_0
 
-    .line 1
     :cond_0
     invoke-virtual {p1}, Ljava/lang/Integer;->intValue()I
 
@@ -70,7 +69,6 @@
 
     if-ne v2, v3, :cond_2
 
-    .line 2
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/CameraCaptureCover$k;->a:Lcom/commsource/camera/xcamera/cover/CameraCaptureCover;
 
     invoke-virtual {p1}, Lcom/commsource/camera/xcamera/cover/AbsCover;->A()Landroidx/databinding/ViewDataBinding;
@@ -87,7 +85,6 @@
 
     invoke-static {p1}, Lcom/commsource/util/l0;->w(Landroid/view/View;)V
 
-    .line 3
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/CameraCaptureCover$k;->a:Lcom/commsource/camera/xcamera/cover/CameraCaptureCover;
 
     invoke-virtual {p1}, Lcom/commsource/camera/xcamera/cover/AbsCover;->A()Landroidx/databinding/ViewDataBinding;
@@ -104,7 +101,6 @@
 
     invoke-static {p1}, Lcom/commsource/util/l0;->w(Landroid/view/View;)V
 
-    .line 4
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/CameraCaptureCover$k;->a:Lcom/commsource/camera/xcamera/cover/CameraCaptureCover;
 
     invoke-virtual {p1}, Lcom/commsource/camera/xcamera/cover/AbsCover;->A()Landroidx/databinding/ViewDataBinding;
@@ -117,7 +113,6 @@
 
     invoke-virtual {p1, v1}, Lcom/commsource/camera/xcamera/widget/CameraCaptureView;->setVideoEnable(Z)V
 
-    .line 5
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/CameraCaptureCover$k;->a:Lcom/commsource/camera/xcamera/cover/CameraCaptureCover;
 
     invoke-virtual {p1}, Lcom/commsource/camera/xcamera/cover/CameraCaptureCover;->V()Lcom/commsource/camera/xcamera/cover/CameraCaptureViewModel;
@@ -142,7 +137,6 @@
 
     if-eqz p1, :cond_1
 
-    .line 6
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/CameraCaptureCover$k;->a:Lcom/commsource/camera/xcamera/cover/CameraCaptureCover;
 
     invoke-virtual {p1}, Lcom/commsource/camera/xcamera/cover/AbsCover;->A()Landroidx/databinding/ViewDataBinding;
@@ -159,13 +153,11 @@
 
     invoke-static {p1}, Lcom/commsource/util/l0;->w(Landroid/view/View;)V
 
-    .line 7
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 8
     :cond_2
     :goto_0
     iget-object v2, p0, Lcom/commsource/camera/xcamera/cover/CameraCaptureCover$k;->a:Lcom/commsource/camera/xcamera/cover/CameraCaptureCover;
@@ -188,7 +180,6 @@
 
     invoke-virtual {v2, v3}, Lcom/commsource/camera/xcamera/widget/CameraModeTab;->setCameraMode(I)V
 
-    .line 9
     iget-object v2, p0, Lcom/commsource/camera/xcamera/cover/CameraCaptureCover$k;->a:Lcom/commsource/camera/xcamera/cover/CameraCaptureCover;
 
     invoke-virtual {p1}, Ljava/lang/Integer;->intValue()I
@@ -197,7 +188,6 @@
 
     invoke-static {v2, v3}, Lcom/commsource/camera/xcamera/cover/CameraCaptureCover;->E(Lcom/commsource/camera/xcamera/cover/CameraCaptureCover;I)V
 
-    .line 10
     iget-object v2, p0, Lcom/commsource/camera/xcamera/cover/CameraCaptureCover$k;->a:Lcom/commsource/camera/xcamera/cover/CameraCaptureCover;
 
     invoke-virtual {v2}, Lcom/commsource/camera/xcamera/cover/AbsCover;->A()Landroidx/databinding/ViewDataBinding;
@@ -216,14 +206,12 @@
 
     const/4 v2, 0x5
 
-    .line 11
     invoke-virtual {p1}, Ljava/lang/Integer;->intValue()I
 
     move-result p1
 
     if-ne p1, v2, :cond_3
 
-    .line 12
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/CameraCaptureCover$k;->a:Lcom/commsource/camera/xcamera/cover/CameraCaptureCover;
 
     invoke-virtual {p1}, Lcom/commsource/camera/xcamera/cover/AbsCover;->A()Landroidx/databinding/ViewDataBinding;
@@ -238,7 +226,6 @@
 
     invoke-virtual {p1, v1, v2}, Lcom/commsource/camera/xcamera/widget/CameraModeTab;->p(IZ)V
 
-    .line 13
     :cond_3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -252,7 +239,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Ljava/lang/Integer;
 
     invoke-virtual {p0, p1}, Lcom/commsource/camera/xcamera/cover/CameraCaptureCover$k;->a(Ljava/lang/Integer;)V

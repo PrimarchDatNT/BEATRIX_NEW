@@ -7,7 +7,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -20,17 +19,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
 
-    .line 2
     invoke-static {}, Ljava/lang/Thread;->getAllStackTraces()Ljava/util/Map;
 
     move-result-object v2
 
-    .line 3
     invoke-interface {v2}, Ljava/util/Map;->entrySet()Ljava/util/Set;
 
     move-result-object v2
@@ -52,21 +48,18 @@
 
     check-cast v3, Ljava/util/Map$Entry;
 
-    .line 4
     invoke-interface {v3}, Ljava/util/Map$Entry;->getKey()Ljava/lang/Object;
 
     move-result-object v4
 
     check-cast v4, Ljava/lang/Thread;
 
-    .line 5
     invoke-interface {v3}, Ljava/util/Map$Entry;->getValue()Ljava/lang/Object;
 
     move-result-object v3
 
     check-cast v3, [Ljava/lang/StackTraceElement;
 
-    .line 6
     invoke-virtual {v4}, Ljava/lang/Thread;->getName()Ljava/lang/String;
 
     move-result-object v5
@@ -106,7 +99,6 @@
     :cond_1
     const-string v5, "name:"
 
-    .line 7
     invoke-virtual {v1, v5}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     invoke-virtual {v4}, Ljava/lang/Thread;->getName()Ljava/lang/String;
@@ -117,7 +109,6 @@
 
     const-string v5, ",id:"
 
-    .line 8
     invoke-virtual {v1, v5}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     invoke-virtual {v4}, Ljava/lang/Thread;->getId()J
@@ -128,7 +119,6 @@
 
     const-string v5, ",thread priority:"
 
-    .line 9
     invoke-virtual {v1, v5}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     invoke-virtual {v4}, Ljava/lang/Thread;->getPriority()I
@@ -143,13 +133,11 @@
 
     const/4 v4, 0x0
 
-    .line 10
     :goto_0
     array-length v5, v3
 
     if-ge v4, v5, :cond_0
 
-    .line 11
     aget-object v5, v3, v4
 
     invoke-virtual {v5}, Ljava/lang/StackTraceElement;->getClassName()Ljava/lang/String;
@@ -164,7 +152,6 @@
 
     aget-object v5, v3, v4
 
-    .line 12
     invoke-virtual {v5}, Ljava/lang/StackTraceElement;->getMethodName()Ljava/lang/String;
 
     move-result-object v5
@@ -177,7 +164,6 @@
 
     aget-object v5, v3, v4
 
-    .line 13
     invoke-virtual {v5}, Ljava/lang/StackTraceElement;->getFileName()Ljava/lang/String;
 
     move-result-object v5
@@ -190,7 +176,6 @@
 
     aget-object v5, v3, v4
 
-    .line 14
     invoke-virtual {v5}, Ljava/lang/StackTraceElement;->getLineNumber()I
 
     move-result v5
@@ -205,7 +190,6 @@
 
     goto :goto_0
 
-    .line 15
     :cond_2
     invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 

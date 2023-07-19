@@ -17,7 +17,6 @@
 .method public constructor <init>(Landroid/content/Context;Landroid/view/ViewGroup;)V
     .locals 1
 
-    .line 1
     new-instance v0, Landroid/view/View;
 
     invoke-direct {v0, p1}, Landroid/view/View;-><init>(Landroid/content/Context;)V

@@ -114,10 +114,8 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-direct {p0, p1}, Landroidx/lifecycle/AndroidViewModel;-><init>(Landroid/app/Application;)V
 
-    .line 2
     sget-object p1, Lcom/commsource/studio/component/StudioProViewModel$showProEvent$2;->INSTANCE:Lcom/commsource/studio/component/StudioProViewModel$showProEvent$2;
 
     invoke-static {p1}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
@@ -126,7 +124,6 @@
 
     iput-object p1, p0, Lcom/commsource/studio/component/StudioProViewModel;->a:Lcotlin/w;
 
-    .line 3
     sget-object p1, Lcom/commsource/studio/component/StudioProViewModel$proSubscribeBackEvent$2;->INSTANCE:Lcom/commsource/studio/component/StudioProViewModel$proSubscribeBackEvent$2;
 
     invoke-static {p1}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
@@ -135,7 +132,6 @@
 
     iput-object p1, p0, Lcom/commsource/studio/component/StudioProViewModel;->b:Lcotlin/w;
 
-    .line 4
     sget-object p1, Lcom/commsource/studio/component/StudioProViewModel$freeUseTimesTipsEvent$2;->INSTANCE:Lcom/commsource/studio/component/StudioProViewModel$freeUseTimesTipsEvent$2;
 
     invoke-static {p1}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
@@ -144,7 +140,6 @@
 
     iput-object p1, p0, Lcom/commsource/studio/component/StudioProViewModel;->c:Lcotlin/w;
 
-    .line 5
     sget-object p1, Lcom/commsource/studio/component/StudioProViewModel$onThingInTheEndEvent$2;->INSTANCE:Lcom/commsource/studio/component/StudioProViewModel$onThingInTheEndEvent$2;
 
     invoke-static {p1}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
@@ -163,7 +158,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/component/StudioProViewModel;->f:Lcom/commsource/studio/effect/t;
 
     if-eqz v1, :cond_0
@@ -180,7 +174,6 @@
     :goto_0
     if-lez v1, :cond_1
 
-    .line 2
     invoke-virtual {p0}, Lcom/commsource/studio/component/StudioProViewModel;->z()Landroidx/lifecycle/MutableLiveData;
 
     move-result-object v2
@@ -207,7 +200,6 @@
 
     goto :goto_1
 
-    .line 3
     :cond_1
     invoke-virtual {p0}, Lcom/commsource/studio/component/StudioProViewModel;->z()Landroidx/lifecycle/MutableLiveData;
 
@@ -217,7 +209,6 @@
 
     invoke-virtual {v1, v2}, Landroidx/lifecycle/MutableLiveData;->setValue(Ljava/lang/Object;)V
 
-    .line 4
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -237,7 +228,6 @@
 
     const/4 p4, 0x0
 
-    .line 1
     :cond_0
     invoke-virtual {p0, p1, p2, p3, p4}, Lcom/commsource/studio/component/StudioProViewModel;->G(Landroidx/fragment/app/FragmentActivity;Lcom/commsource/studio/sub/SubModuleEnum;Lcom/commsource/studio/effect/t;Lcotlin/jvm/u/l;)V
 
@@ -257,7 +247,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 1
     sget-object p3, Lcom/commsource/studio/component/StudioProViewModel;->O:Lcom/commsource/studio/component/StudioProViewModel$a;
 
     iget-object v0, p0, Lcom/commsource/studio/component/StudioProViewModel;->f:Lcom/commsource/studio/effect/t;
@@ -273,7 +262,6 @@
 
     const/4 p4, 0x0
 
-    .line 2
     :cond_1
     invoke-virtual {p0, p1, p2, p3, p4}, Lcom/commsource/studio/component/StudioProViewModel;->H(Landroidx/fragment/app/FragmentActivity;Lcom/commsource/studio/sub/SubModuleEnum;Ljava/lang/String;Lcotlin/jvm/u/l;)V
 
@@ -304,7 +292,6 @@
 
     move-object p4, v1
 
-    .line 1
     :cond_1
     invoke-virtual {p0, p1, p2, p3, p4}, Lcom/commsource/studio/component/StudioProViewModel;->I(Landroidx/fragment/app/FragmentActivity;[Ljava/lang/String;Ljava/lang/String;Lcotlin/jvm/u/l;)V
 
@@ -320,7 +307,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/component/StudioProViewModel;->f:Lcom/commsource/studio/effect/t;
 
     if-eqz v1, :cond_2
@@ -351,13 +337,10 @@
     :goto_1
     if-eqz v1, :cond_2
 
-    .line 2
     invoke-virtual {v1}, Lcom/commsource/studio/effect/t;->i()V
 
-    .line 3
     invoke-direct {p0}, Lcom/commsource/studio/component/StudioProViewModel;->E()V
 
-    .line 4
     :cond_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -468,7 +451,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/component/StudioProViewModel;->f:Lcom/commsource/studio/effect/t;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -487,15 +469,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/component/StudioProViewModel;->f:Lcom/commsource/studio/effect/t;
 
     if-eqz p1, :cond_0
 
-    .line 2
     invoke-virtual {p1}, Lcom/commsource/studio/effect/t;->i()V
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -550,7 +529,6 @@
 
     invoke-static {p3, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     sget-object v1, Lcom/commsource/studio/component/StudioProViewModel;->O:Lcom/commsource/studio/component/StudioProViewModel$a;
 
     invoke-virtual {v1, p3}, Lcom/commsource/studio/component/StudioProViewModel$a;->a(Lcom/commsource/studio/effect/t;)Ljava/lang/String;
@@ -559,7 +537,6 @@
 
     invoke-virtual {p0, p1, p2, p3, p4}, Lcom/commsource/studio/component/StudioProViewModel;->H(Landroidx/fragment/app/FragmentActivity;Lcom/commsource/studio/sub/SubModuleEnum;Ljava/lang/String;Lcotlin/jvm/u/l;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -617,12 +594,10 @@
 
     invoke-static {v2, v5}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     new-instance v5, Lcom/commsource/util/p2/c;
 
     invoke-direct {v5, v1}, Lcom/commsource/util/p2/c;-><init>(Landroidx/fragment/app/FragmentActivity;)V
 
-    .line 2
     new-instance v1, Lcom/commsource/studio/component/StudioProViewModel$b;
 
     const-string v6, ""
@@ -641,31 +616,26 @@
     :goto_0
     invoke-direct {v1, v0, v7, v3, v8}, Lcom/commsource/studio/component/StudioProViewModel$b;-><init>(Lcom/commsource/studio/component/StudioProViewModel;Lcotlin/jvm/u/l;Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 3
     iget-object v3, v0, Lcom/commsource/studio/component/StudioProViewModel;->f:Lcom/commsource/studio/effect/t;
 
     invoke-virtual {v0, v2, v3}, Lcom/commsource/studio/component/StudioProViewModel;->y(Lcom/commsource/studio/sub/SubModuleEnum;Lcom/commsource/studio/effect/t;)V
 
-    .line 4
     iget-object v2, v0, Lcom/commsource/studio/component/StudioProViewModel;->f:Lcom/commsource/studio/effect/t;
 
     instance-of v2, v2, Lcom/commsource/studio/effect/m;
 
     if-eqz v2, :cond_8
 
-    .line 5
     new-instance v2, Ljava/util/ArrayList;
 
     invoke-direct {v2}, Ljava/util/ArrayList;-><init>()V
 
-    .line 6
     iget-object v3, v0, Lcom/commsource/studio/component/StudioProViewModel;->f:Lcom/commsource/studio/effect/t;
 
     if-eqz v3, :cond_7
 
     check-cast v3, Lcom/commsource/studio/effect/m;
 
-    .line 7
     invoke-virtual {v3}, Lcom/commsource/studio/effect/m;->t()Landroid/util/SparseArray;
 
     move-result-object v7
@@ -679,7 +649,6 @@
     :goto_1
     if-ge v9, v7, :cond_5
 
-    .line 8
     invoke-virtual {v3}, Lcom/commsource/studio/effect/m;->t()Landroid/util/SparseArray;
 
     move-result-object v10
@@ -688,7 +657,6 @@
 
     move-result v10
 
-    .line 9
     invoke-virtual {v3}, Lcom/commsource/studio/effect/m;->t()Landroid/util/SparseArray;
 
     move-result-object v11
@@ -699,7 +667,6 @@
 
     check-cast v11, Landroid/util/SparseArray;
 
-    .line 10
     invoke-virtual {v3}, Lcom/commsource/studio/effect/m;->s()Landroid/util/SparseArray;
 
     move-result-object v12
@@ -708,7 +675,6 @@
 
     move-result-object v10
 
-    .line 11
     check-cast v10, Landroid/util/SparseArray;
 
     const-string v12, "_makeup"
@@ -717,7 +683,6 @@
 
     if-eqz v11, :cond_2
 
-    .line 12
     invoke-virtual {v11}, Landroid/util/SparseArray;->size()I
 
     move-result v14
@@ -727,21 +692,18 @@
     :goto_2
     if-ge v15, v14, :cond_2
 
-    .line 13
     invoke-virtual {v11, v15}, Landroid/util/SparseArray;->valueAt(I)Ljava/lang/Object;
 
     move-result-object v16
 
     check-cast v16, Lcom/commsource/repository/child/makeup/h;
 
-    .line 14
     invoke-virtual/range {v16 .. v16}, Lcom/commsource/repository/child/makeup/h;->S()Z
 
     move-result v17
 
     if-eqz v17, :cond_1
 
-    .line 15
     new-instance v8, Ljava/lang/StringBuilder;
 
     invoke-direct {v8}, Ljava/lang/StringBuilder;-><init>()V
@@ -772,7 +734,6 @@
     :cond_2
     if-eqz v10, :cond_4
 
-    .line 16
     invoke-virtual {v10}, Landroid/util/SparseArray;->size()I
 
     move-result v4
@@ -782,21 +743,18 @@
     :goto_3
     if-ge v8, v4, :cond_4
 
-    .line 17
     invoke-virtual {v10, v8}, Landroid/util/SparseArray;->valueAt(I)Ljava/lang/Object;
 
     move-result-object v11
 
     check-cast v11, Lcom/commsource/repository/child/makeup/h;
 
-    .line 18
     invoke-virtual {v11}, Lcom/commsource/repository/child/makeup/h;->S()Z
 
     move-result v14
 
     if-eqz v14, :cond_3
 
-    .line 19
     new-instance v14, Ljava/lang/StringBuilder;
 
     invoke-direct {v14}, Ljava/lang/StringBuilder;-><init>()V
@@ -829,7 +787,6 @@
 
     goto/16 :goto_1
 
-    .line 20
     :cond_5
     invoke-virtual {v2}, Ljava/util/ArrayList;->size()I
 
@@ -848,16 +805,13 @@
 
     goto :goto_4
 
-    .line 21
     :cond_6
     invoke-virtual {v2, v4}, Ljava/util/ArrayList;->toArray([Ljava/lang/Object;)[Ljava/lang/Object;
 
-    .line 22
     invoke-virtual {v1, v4}, Lcom/commsource/util/delegate/process/m;->j([Ljava/lang/String;)V
 
     goto :goto_5
 
-    .line 23
     :cond_7
     new-instance v1, Lcotlin/TypeCastException;
 
@@ -871,7 +825,6 @@
 
     throw v1
 
-    .line 24
     :cond_8
     :goto_5
     invoke-virtual/range {p0 .. p0}, Lcom/commsource/studio/component/StudioProViewModel;->A()Landroidx/lifecycle/MutableLiveData;
@@ -892,25 +845,21 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/util/delegate/process/m;->k(Z)V
 
-    .line 25
     iget-object v2, v0, Lcom/commsource/studio/component/StudioProViewModel;->f:Lcom/commsource/studio/effect/t;
 
     if-eqz v2, :cond_9
 
-    .line 26
     invoke-virtual {v2}, Lcom/commsource/studio/effect/t;->e()Ljava/lang/String;
 
     move-result-object v2
 
     invoke-virtual {v1, v2}, Lcom/commsource/util/delegate/process/m;->i(Ljava/lang/String;)V
 
-    .line 27
     :cond_9
     invoke-virtual {v5, v1}, Lcom/commsource/util/p2/c;->c(Lcom/commsource/util/p2/b;)V
 
     const v1, 0x9294
 
-    .line 28
     invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -961,22 +910,18 @@
 
     invoke-static {p2, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     new-instance v1, Lcom/commsource/util/p2/c;
 
     invoke-direct {v1, p1}, Lcom/commsource/util/p2/c;-><init>(Landroidx/fragment/app/FragmentActivity;)V
 
-    .line 2
     new-instance p1, Lcom/commsource/studio/component/StudioProViewModel$c;
 
     const-string v2, ""
 
     invoke-direct {p1, p0, p4, v2}, Lcom/commsource/studio/component/StudioProViewModel$c;-><init>(Lcom/commsource/studio/component/StudioProViewModel;Lcotlin/jvm/u/l;Ljava/lang/String;)V
 
-    .line 3
     invoke-virtual {p1, p2}, Lcom/commsource/util/delegate/process/m;->j([Ljava/lang/String;)V
 
-    .line 4
     invoke-virtual {p0}, Lcom/commsource/studio/component/StudioProViewModel;->A()Landroidx/lifecycle/MutableLiveData;
 
     move-result-object p2
@@ -995,13 +940,10 @@
 
     invoke-virtual {p1, p2}, Lcom/commsource/util/delegate/process/m;->k(Z)V
 
-    .line 5
     invoke-virtual {p1, p3}, Lcom/commsource/util/delegate/process/m;->i(Ljava/lang/String;)V
 
-    .line 6
     invoke-virtual {v1, p1}, Lcom/commsource/util/p2/c;->c(Lcom/commsource/util/p2/b;)V
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1017,10 +959,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/studio/component/StudioProViewModel;->M()V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1056,14 +996,12 @@
 
     invoke-static {v4, v3}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     new-instance v3, Ljava/util/HashSet;
 
     const/4 v4, 0x4
 
     invoke-direct {v3, v4}, Ljava/util/HashSet;-><init>(I)V
 
-    .line 2
     instance-of v5, v1, Lcom/commsource/studio/effect/c;
 
     const-string v6, "prf_func"
@@ -1072,7 +1010,6 @@
 
     if-eqz v5, :cond_0
 
-    .line 3
     check-cast v1, Lcom/commsource/studio/effect/c;
 
     invoke-virtual {v1}, Lcom/commsource/studio/effect/c;->D()Lcom/commsource/studio/sub/SubModuleEnum;
@@ -1091,7 +1028,6 @@
 
     goto/16 :goto_a
 
-    .line 4
     :pswitch_0
     sget-object v1, Lcom/meitu/library/hwanalytics/spm/d;->b:Lcom/meitu/library/hwanalytics/spm/d;
 
@@ -1099,12 +1035,10 @@
 
     invoke-virtual {v1, v7, v3}, Lcom/meitu/library/hwanalytics/spm/d;->d(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 5
     invoke-virtual {v1, v6, v3}, Lcom/meitu/library/hwanalytics/spm/d;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     goto/16 :goto_a
 
-    .line 6
     :pswitch_1
     sget-object v1, Lcom/meitu/library/hwanalytics/spm/d;->b:Lcom/meitu/library/hwanalytics/spm/d;
 
@@ -1112,12 +1046,10 @@
 
     invoke-virtual {v1, v7, v3}, Lcom/meitu/library/hwanalytics/spm/d;->d(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 7
     invoke-virtual {v1, v6, v3}, Lcom/meitu/library/hwanalytics/spm/d;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     goto/16 :goto_a
 
-    .line 8
     :pswitch_2
     sget-object v1, Lcom/meitu/library/hwanalytics/spm/d;->b:Lcom/meitu/library/hwanalytics/spm/d;
 
@@ -1125,12 +1057,10 @@
 
     invoke-virtual {v1, v7, v3}, Lcom/meitu/library/hwanalytics/spm/d;->d(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 9
     invoke-virtual {v1, v6, v3}, Lcom/meitu/library/hwanalytics/spm/d;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     goto/16 :goto_a
 
-    .line 10
     :pswitch_3
     sget-object v1, Lcom/meitu/library/hwanalytics/spm/d;->b:Lcom/meitu/library/hwanalytics/spm/d;
 
@@ -1138,12 +1068,10 @@
 
     invoke-virtual {v1, v7, v3}, Lcom/meitu/library/hwanalytics/spm/d;->d(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 11
     invoke-virtual {v1, v6, v3}, Lcom/meitu/library/hwanalytics/spm/d;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     goto/16 :goto_a
 
-    .line 12
     :pswitch_4
     sget-object v1, Lcom/meitu/library/hwanalytics/spm/d;->b:Lcom/meitu/library/hwanalytics/spm/d;
 
@@ -1151,12 +1079,10 @@
 
     invoke-virtual {v1, v7, v3}, Lcom/meitu/library/hwanalytics/spm/d;->d(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 13
     invoke-virtual {v1, v6, v3}, Lcom/meitu/library/hwanalytics/spm/d;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     goto/16 :goto_a
 
-    .line 14
     :pswitch_5
     sget-object v1, Lcom/meitu/library/hwanalytics/spm/d;->b:Lcom/meitu/library/hwanalytics/spm/d;
 
@@ -1164,30 +1090,25 @@
 
     invoke-virtual {v1, v7, v3}, Lcom/meitu/library/hwanalytics/spm/d;->d(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 15
     invoke-virtual {v1, v6, v3}, Lcom/meitu/library/hwanalytics/spm/d;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     goto/16 :goto_a
 
-    .line 16
     :cond_0
     instance-of v5, v1, Lcom/commsource/studio/effect/x;
 
     if-eqz v5, :cond_1
 
-    .line 17
     sget-object v1, Lcom/meitu/library/hwanalytics/spm/d;->b:Lcom/meitu/library/hwanalytics/spm/d;
 
     const-string v3, "TeethCorrection"
 
     invoke-virtual {v1, v7, v3}, Lcom/meitu/library/hwanalytics/spm/d;->d(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 18
     invoke-virtual {v1, v6, v3}, Lcom/meitu/library/hwanalytics/spm/d;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     goto/16 :goto_a
 
-    .line 19
     :cond_1
     instance-of v5, v1, Lcom/commsource/studio/effect/m;
 
@@ -1197,15 +1118,12 @@
 
     if-eqz v1, :cond_e
 
-    .line 20
     check-cast v1, Lcom/commsource/studio/effect/m;
 
-    .line 21
     new-instance v3, Ljava/util/HashSet;
 
     invoke-direct {v3, v4}, Ljava/util/HashSet;-><init>(I)V
 
-    .line 22
     invoke-virtual {v1}, Lcom/commsource/studio/effect/m;->t()Landroid/util/SparseArray;
 
     move-result-object v4
@@ -1225,7 +1143,6 @@
     :goto_0
     if-ge v9, v4, :cond_a
 
-    .line 23
     invoke-virtual {v1}, Lcom/commsource/studio/effect/m;->t()Landroid/util/SparseArray;
 
     move-result-object v10
@@ -1234,7 +1151,6 @@
 
     move-result v10
 
-    .line 24
     invoke-virtual {v1}, Lcom/commsource/studio/effect/m;->t()Landroid/util/SparseArray;
 
     move-result-object v11
@@ -1245,7 +1161,6 @@
 
     check-cast v11, Landroid/util/SparseArray;
 
-    .line 25
     invoke-virtual {v1}, Lcom/commsource/studio/effect/m;->s()Landroid/util/SparseArray;
 
     move-result-object v12
@@ -1260,7 +1175,6 @@
 
     if-eqz v11, :cond_5
 
-    .line 26
     invoke-virtual {v11}, Landroid/util/SparseArray;->size()I
 
     move-result v14
@@ -1277,7 +1191,6 @@
     :goto_1
     if-eqz v14, :cond_5
 
-    .line 27
     invoke-virtual {v11}, Landroid/util/SparseArray;->size()I
 
     move-result v14
@@ -1287,12 +1200,10 @@
     :goto_2
     if-ge v15, v14, :cond_5
 
-    .line 28
     invoke-virtual {v11, v15}, Landroid/util/SparseArray;->keyAt(I)I
 
     move-result v13
 
-    .line 29
     invoke-virtual {v11, v13}, Landroid/util/SparseArray;->get(I)Ljava/lang/Object;
 
     move-result-object v13
@@ -1301,7 +1212,6 @@
 
     if-eqz v13, :cond_4
 
-    .line 30
     invoke-virtual {v13}, Lcom/commsource/repository/child/makeup/h;->S()Z
 
     move-result v16
@@ -1316,14 +1226,12 @@
     :goto_3
     if-eqz v13, :cond_4
 
-    .line 31
     invoke-virtual {v13}, Lcom/commsource/repository/child/makeup/h;->s()Ljava/lang/String;
 
     move-result-object v2
 
     invoke-virtual {v3, v2}, Ljava/util/HashSet;->add(Ljava/lang/Object;)Z
 
-    .line 32
     new-instance v2, Ljava/lang/StringBuilder;
 
     invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
@@ -1342,7 +1250,6 @@
 
     move-result-object v5
 
-    .line 33
     new-instance v2, Ljava/lang/StringBuilder;
 
     invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
@@ -1367,7 +1274,6 @@
     :cond_5
     if-eqz v10, :cond_9
 
-    .line 34
     invoke-virtual {v10}, Landroid/util/SparseArray;->size()I
 
     move-result v2
@@ -1384,7 +1290,6 @@
     :goto_4
     if-eqz v2, :cond_9
 
-    .line 35
     invoke-virtual {v10}, Landroid/util/SparseArray;->size()I
 
     move-result v2
@@ -1394,12 +1299,10 @@
     :goto_5
     if-ge v11, v2, :cond_9
 
-    .line 36
     invoke-virtual {v10, v11}, Landroid/util/SparseArray;->keyAt(I)I
 
     move-result v13
 
-    .line 37
     invoke-virtual {v10, v13}, Landroid/util/SparseArray;->get(I)Ljava/lang/Object;
 
     move-result-object v13
@@ -1408,7 +1311,6 @@
 
     if-eqz v13, :cond_8
 
-    .line 38
     invoke-virtual {v13}, Lcom/commsource/repository/child/makeup/h;->S()Z
 
     move-result v14
@@ -1423,14 +1325,12 @@
     :goto_6
     if-eqz v13, :cond_8
 
-    .line 39
     invoke-virtual {v13}, Lcom/commsource/repository/child/makeup/h;->s()Ljava/lang/String;
 
     move-result-object v14
 
     invoke-virtual {v3, v14}, Ljava/util/HashSet;->add(Ljava/lang/Object;)Z
 
-    .line 40
     new-instance v14, Ljava/lang/StringBuilder;
 
     invoke-direct {v14}, Ljava/lang/StringBuilder;-><init>()V
@@ -1449,7 +1349,6 @@
 
     move-result-object v5
 
-    .line 41
     new-instance v13, Ljava/lang/StringBuilder;
 
     invoke-direct {v13}, Ljava/lang/StringBuilder;-><init>()V
@@ -1476,11 +1375,9 @@
 
     goto/16 :goto_0
 
-    .line 42
     :cond_a
     invoke-static {v3}, Lcom/commsource/statistics/q;->d(Ljava/util/HashSet;)V
 
-    .line 43
     invoke-static {v5}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v1
@@ -1491,10 +1388,8 @@
 
     if-nez v1, :cond_c
 
-    .line 44
     sget-object v1, Lcom/meitu/library/hwanalytics/spm/d;->b:Lcom/meitu/library/hwanalytics/spm/d;
 
-    .line 45
     invoke-virtual {v5}, Ljava/lang/String;->length()I
 
     move-result v4
@@ -1511,12 +1406,10 @@
 
     const-string v5, "mids_material"
 
-    .line 46
     invoke-virtual {v1, v5, v4}, Lcom/meitu/library/hwanalytics/spm/d;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_7
 
-    .line 47
     :cond_b
     new-instance v1, Ljava/lang/NullPointerException;
 
@@ -1528,7 +1421,6 @@
 
     throw v1
 
-    .line 48
     :cond_c
     :goto_7
     invoke-static {v7}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
@@ -1537,10 +1429,8 @@
 
     if-nez v1, :cond_16
 
-    .line 49
     sget-object v1, Lcom/meitu/library/hwanalytics/spm/d;->b:Lcom/meitu/library/hwanalytics/spm/d;
 
-    .line 50
     invoke-virtual {v7}, Ljava/lang/String;->length()I
 
     move-result v4
@@ -1557,12 +1447,10 @@
 
     const-string v3, "mids_material_tag"
 
-    .line 51
     invoke-virtual {v1, v3, v2}, Lcom/meitu/library/hwanalytics/spm/d;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     goto/16 :goto_9
 
-    .line 52
     :cond_d
     new-instance v1, Ljava/lang/NullPointerException;
 
@@ -1574,7 +1462,6 @@
 
     throw v1
 
-    .line 53
     :cond_e
     new-instance v1, Lcotlin/TypeCastException;
 
@@ -1586,13 +1473,11 @@
 
     throw v1
 
-    .line 54
     :cond_f
     instance-of v2, v1, Lcom/commsource/studio/effect/b;
 
     if-eqz v2, :cond_11
 
-    .line 55
     iget-object v1, v0, Lcom/commsource/studio/component/StudioProViewModel;->f:Lcom/commsource/studio/effect/t;
 
     if-eqz v1, :cond_10
@@ -1605,7 +1490,6 @@
 
     if-eqz v1, :cond_16
 
-    .line 56
     sget-object v2, Lcom/meitu/library/hwanalytics/spm/d;->b:Lcom/meitu/library/hwanalytics/spm/d;
 
     new-instance v3, Ljava/lang/StringBuilder;
@@ -1630,7 +1514,6 @@
 
     goto :goto_9
 
-    .line 57
     :cond_10
     new-instance v1, Lcotlin/TypeCastException;
 
@@ -1644,13 +1527,11 @@
 
     throw v1
 
-    .line 58
     :cond_11
     instance-of v2, v1, Lcom/commsource/studio/effect/p;
 
     if-eqz v2, :cond_15
 
-    .line 59
     iget-object v1, v0, Lcom/commsource/studio/component/StudioProViewModel;->f:Lcom/commsource/studio/effect/t;
 
     if-eqz v1, :cond_14
@@ -1661,7 +1542,6 @@
 
     move-result-object v1
 
-    .line 60
     invoke-interface {v1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v1
@@ -1680,14 +1560,12 @@
 
     check-cast v2, Lcom/commsource/beautymain/data/c;
 
-    .line 61
     invoke-virtual {v2}, Lcom/commsource/beautymain/data/c;->g()I
 
     move-result v4
 
     if-ne v4, v8, :cond_12
 
-    .line 62
     new-instance v4, Ljava/lang/StringBuilder;
 
     invoke-direct {v4}, Ljava/lang/StringBuilder;-><init>()V
@@ -1710,13 +1588,11 @@
 
     goto :goto_8
 
-    .line 63
     :cond_13
     invoke-static {v3}, Lcom/commsource/statistics/q;->d(Ljava/util/HashSet;)V
 
     goto :goto_9
 
-    .line 64
     :cond_14
     new-instance v1, Lcotlin/TypeCastException;
 
@@ -1730,20 +1606,17 @@
 
     throw v1
 
-    .line 65
     :cond_15
     instance-of v2, v1, Lcom/commsource/studio/effect/v;
 
     if-eqz v2, :cond_17
 
-    .line 66
     sget-object v1, Lcom/meitu/library/hwanalytics/spm/d;->b:Lcom/meitu/library/hwanalytics/spm/d;
 
     const-string v2, "Cutout"
 
     invoke-virtual {v1, v7, v2}, Lcom/meitu/library/hwanalytics/spm/d;->d(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 67
     invoke-virtual {v1, v6, v2}, Lcom/meitu/library/hwanalytics/spm/d;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     :cond_16
@@ -1752,67 +1625,56 @@
 
     goto/16 :goto_a
 
-    .line 68
     :cond_17
     instance-of v2, v1, Lcom/commsource/studio/effect/remold/b;
 
     if-eqz v2, :cond_18
 
-    .line 69
     sget-object v1, Lcom/meitu/library/hwanalytics/spm/d;->b:Lcom/meitu/library/hwanalytics/spm/d;
 
     const-string v2, "FacialReshape"
 
     invoke-virtual {v1, v7, v2}, Lcom/meitu/library/hwanalytics/spm/d;->d(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 70
     invoke-virtual {v1, v6, v2}, Lcom/meitu/library/hwanalytics/spm/d;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_9
 
-    .line 71
     :cond_18
     instance-of v2, v1, Lcom/commsource/studio/effect/bodyshape/b;
 
     if-eqz v2, :cond_19
 
-    .line 72
     sget-object v1, Lcom/meitu/library/hwanalytics/spm/d;->b:Lcom/meitu/library/hwanalytics/spm/d;
 
     const-string v2, "Reshape"
 
     invoke-virtual {v1, v7, v2}, Lcom/meitu/library/hwanalytics/spm/d;->d(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 73
     invoke-virtual {v1, v6, v2}, Lcom/meitu/library/hwanalytics/spm/d;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_9
 
-    .line 74
     :cond_19
     instance-of v2, v1, Lcom/commsource/studio/effect/g;
 
     if-eqz v2, :cond_1a
 
-    .line 75
     sget-object v1, Lcom/meitu/library/hwanalytics/spm/d;->b:Lcom/meitu/library/hwanalytics/spm/d;
 
     const-string v2, "Disperse"
 
     invoke-virtual {v1, v7, v2}, Lcom/meitu/library/hwanalytics/spm/d;->d(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 76
     invoke-virtual {v1, v6, v2}, Lcom/meitu/library/hwanalytics/spm/d;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_9
 
-    .line 77
     :cond_1a
     instance-of v2, v1, Lcom/commsource/studio/effect/w;
 
     if-eqz v2, :cond_1d
 
-    .line 78
     iget-object v1, v0, Lcom/commsource/studio/component/StudioProViewModel;->f:Lcom/commsource/studio/effect/t;
 
     if-eqz v1, :cond_1c
@@ -1825,30 +1687,25 @@
 
     if-eqz v1, :cond_1b
 
-    .line 79
     invoke-virtual {v1}, Lcom/commsource/studio/bean/f;->d()I
 
     move-result v2
 
     if-ne v2, v8, :cond_1b
 
-    .line 80
     invoke-virtual {v1}, Lcom/commsource/studio/bean/f;->f()Ljava/lang/String;
 
     move-result-object v1
 
     if-eqz v1, :cond_1b
 
-    .line 81
     invoke-virtual {v3, v1}, Ljava/util/HashSet;->add(Ljava/lang/Object;)Z
 
-    .line 82
     :cond_1b
     invoke-static {v3}, Lcom/commsource/statistics/q;->d(Ljava/util/HashSet;)V
 
     goto :goto_9
 
-    .line 83
     :cond_1c
     new-instance v1, Lcotlin/TypeCastException;
 
@@ -1862,13 +1719,11 @@
 
     throw v1
 
-    .line 84
     :cond_1d
     instance-of v1, v1, Lcom/commsource/studio/effect/q;
 
     if-eqz v1, :cond_16
 
-    .line 85
     iget-object v1, v0, Lcom/commsource/studio/component/StudioProViewModel;->f:Lcom/commsource/studio/effect/t;
 
     if-eqz v1, :cond_1e
@@ -1881,7 +1736,6 @@
 
     if-eqz v1, :cond_16
 
-    .line 86
     sget-object v2, Lcom/meitu/library/hwanalytics/spm/d;->b:Lcom/meitu/library/hwanalytics/spm/d;
 
     invoke-virtual {v1}, Lcom/commsource/studio/function/t/c;->b()Ljava/lang/String;
@@ -1892,7 +1746,6 @@
 
     goto :goto_9
 
-    .line 87
     :cond_1e
     new-instance v1, Lcotlin/TypeCastException;
 
@@ -1906,7 +1759,6 @@
 
     throw v1
 
-    .line 88
     :goto_a
     invoke-static {v2}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

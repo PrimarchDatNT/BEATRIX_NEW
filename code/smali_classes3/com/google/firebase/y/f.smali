@@ -12,7 +12,6 @@
 .method constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -21,7 +20,6 @@
 .method static a(Ljava/lang/String;Ljava/lang/String;)Lcom/google/firebase/y/f;
     .locals 1
 
-    .line 1
     new-instance v0, Lcom/google/firebase/y/a;
 
     invoke-direct {v0, p0, p1}, Lcom/google/firebase/y/a;-><init>(Ljava/lang/String;Ljava/lang/String;)V

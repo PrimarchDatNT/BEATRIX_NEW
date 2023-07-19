@@ -8,14 +8,12 @@
     .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
-    .line 1
     const-class v0, Ljava/lang/String;
 
     const-string v1, "android.os.SystemProperties"
 
     const/4 v2, 0x0
 
-    .line 2
     :try_start_0
     invoke-static {v1}, Ljava/lang/Class;->forName(Ljava/lang/String;)Ljava/lang/Class;
 
@@ -31,7 +29,6 @@
 
     aput-object v0, v5, v6
 
-    .line 3
     invoke-virtual {v1, v3, v5}, Ljava/lang/Class;->getDeclaredMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
 
     move-result-object v1
@@ -40,14 +37,12 @@
 
     aput-object p0, v3, v6
 
-    .line 4
     invoke-virtual {v1, v2, v3}, Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p0
 
     if-eqz p0, :cond_0
 
-    .line 5
     invoke-virtual {p0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
     move-result-object v1
@@ -58,7 +53,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 6
     check-cast p0, Ljava/lang/String;
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0

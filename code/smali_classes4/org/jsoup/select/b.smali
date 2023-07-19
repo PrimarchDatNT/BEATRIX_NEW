@@ -30,15 +30,12 @@
 .method constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Lorg/jsoup/select/c;-><init>()V
 
     const/4 v0, 0x0
 
-    .line 2
     iput v0, p0, Lorg/jsoup/select/b;->b:I
 
-    .line 3
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
@@ -59,15 +56,12 @@
         }
     .end annotation
 
-    .line 4
     invoke-direct {p0}, Lorg/jsoup/select/b;-><init>()V
 
-    .line 5
     iget-object v0, p0, Lorg/jsoup/select/b;->a:Ljava/util/ArrayList;
 
     invoke-virtual {v0, p1}, Ljava/util/ArrayList;->addAll(Ljava/util/Collection;)Z
 
-    .line 6
     invoke-virtual {p0}, Lorg/jsoup/select/b;->d()V
 
     return-void
@@ -78,7 +72,6 @@
 .method b(Lorg/jsoup/select/c;)V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lorg/jsoup/select/b;->a:Ljava/util/ArrayList;
 
     iget v1, p0, Lorg/jsoup/select/b;->b:I
@@ -93,7 +86,6 @@
 .method c()Lorg/jsoup/select/c;
     .locals 2
 
-    .line 1
     iget v0, p0, Lorg/jsoup/select/b;->b:I
 
     if-lez v0, :cond_0
@@ -120,7 +112,6 @@
 .method d()V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lorg/jsoup/select/b;->a:Ljava/util/ArrayList;
 
     invoke-virtual {v0}, Ljava/util/ArrayList;->size()I

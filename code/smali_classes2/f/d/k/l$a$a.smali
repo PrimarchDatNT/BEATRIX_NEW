@@ -22,7 +22,6 @@
 .method constructor <init>(Lf/d/k/l$a;Ljava/lang/String;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lf/d/k/l$a$a;->g:Lf/d/k/l$a;
 
     invoke-direct {p0, p2}, Lcom/commsource/util/u2/a;-><init>(Ljava/lang/String;)V
@@ -39,7 +38,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lf/d/k/l$a$a;->g:Lf/d/k/l$a;
 
     iget-object v1, v1, Lf/d/k/l$a;->a:Lf/d/k/l;
@@ -50,7 +48,6 @@
 
     invoke-static {v1, v2}, Lf/d/k/l;->r(Lf/d/k/l;Lcom/meitu/mtmvcore/application/MTMVCoreApplication;)V
 
-    .line 2
     iget-object v1, p0, Lf/d/k/l$a$a;->g:Lf/d/k/l$a;
 
     iget-object v1, v1, Lf/d/k/l$a;->a:Lf/d/k/l;
@@ -61,7 +58,6 @@
 
     if-eqz v1, :cond_0
 
-    .line 3
     iget-object v1, p0, Lf/d/k/l$a$a;->g:Lf/d/k/l$a;
 
     iget-object v1, v1, Lf/d/k/l$a;->a:Lf/d/k/l;
@@ -72,7 +68,6 @@
 
     invoke-interface {v1}, Lf/d/k/l$g;->J()V
 
-    .line 4
     :cond_0
     iget-object v1, p0, Lf/d/k/l$a$a;->g:Lf/d/k/l$a;
 
@@ -94,7 +89,6 @@
 
     invoke-virtual {v1, v2, v3}, Lf/d/k/m;->J(Lcom/meitu/media/mtmvcore/MTMVTimeLine;Z)V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

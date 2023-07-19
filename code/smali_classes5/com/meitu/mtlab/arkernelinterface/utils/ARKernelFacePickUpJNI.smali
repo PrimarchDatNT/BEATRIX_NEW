@@ -7,7 +7,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/meitu/mtlab/arkernelinterface/ARKernelInterfaceNativeBasicClass;-><init>()V
 
     return-void
@@ -23,7 +22,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static/range {p0 .. p6}, Lcom/meitu/mtlab/arkernelinterface/utils/ARKernelFacePickUpJNI;->nativeProcessDirectionByTouch(IFFIIF[F)[F
 
     move-result-object p0

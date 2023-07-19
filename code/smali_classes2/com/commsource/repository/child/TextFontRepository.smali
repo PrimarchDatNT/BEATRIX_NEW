@@ -86,14 +86,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/commsource/repository/child/TextFontRepository;
 
     invoke-direct {v1}, Lcom/commsource/repository/child/TextFontRepository;-><init>()V
 
     sput-object v1, Lcom/commsource/repository/child/TextFontRepository;->v:Lcom/commsource/repository/child/TextFontRepository;
 
-    .line 2
     new-instance v2, Ljava/lang/StringBuilder;
 
     invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
@@ -120,7 +118,6 @@
 
     sput-object v2, Lcom/commsource/repository/child/TextFontRepository;->l:Ljava/lang/String;
 
-    .line 3
     sget-object v2, Lcom/commsource/repository/child/TextFontRepository$textFontDao$2;->INSTANCE:Lcom/commsource/repository/child/TextFontRepository$textFontDao$2;
 
     invoke-static {v2}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
@@ -131,45 +128,38 @@
 
     const/4 v2, 0x1
 
-    .line 4
     sput-boolean v2, Lcom/commsource/repository/child/TextFontRepository;->n:Z
 
-    .line 5
     new-instance v2, Landroidx/lifecycle/MutableLiveData;
 
     invoke-direct {v2}, Landroidx/lifecycle/MutableLiveData;-><init>()V
 
     sput-object v2, Lcom/commsource/repository/child/TextFontRepository;->o:Landroidx/lifecycle/MutableLiveData;
 
-    .line 6
     new-instance v2, Lcom/commsource/material/download/b/a;
 
     invoke-direct {v2}, Lcom/commsource/material/download/b/a;-><init>()V
 
     sput-object v2, Lcom/commsource/repository/child/TextFontRepository;->p:Lcom/commsource/material/download/b/a;
 
-    .line 7
     new-instance v2, Lcom/commsource/repository/f;
 
     invoke-direct {v2}, Lcom/commsource/repository/f;-><init>()V
 
     sput-object v2, Lcom/commsource/repository/child/TextFontRepository;->q:Lcom/commsource/repository/f;
 
-    .line 8
     new-instance v2, Ljava/util/ArrayList;
 
     invoke-direct {v2}, Ljava/util/ArrayList;-><init>()V
 
     sput-object v2, Lcom/commsource/repository/child/TextFontRepository;->r:Ljava/util/ArrayList;
 
-    .line 9
     new-instance v2, Ljava/util/HashMap;
 
     invoke-direct {v2}, Ljava/util/HashMap;-><init>()V
 
     sput-object v2, Lcom/commsource/repository/child/TextFontRepository;->s:Ljava/util/HashMap;
 
-    .line 10
     sget-object v2, Lcom/commsource/repository/child/TextFontRepository$SysFont$2;->INSTANCE:Lcom/commsource/repository/child/TextFontRepository$SysFont$2;
 
     invoke-static {v2}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
@@ -178,7 +168,6 @@
 
     sput-object v2, Lcom/commsource/repository/child/TextFontRepository;->t:Lcotlin/w;
 
-    .line 11
     new-instance v2, Lcom/commsource/repository/child/TextFontRepository$textFontComparator$2;
 
     invoke-direct {v2, v1}, Lcom/commsource/repository/child/TextFontRepository$textFontComparator$2;-><init>(Lcom/commsource/repository/child/TextFontRepository;)V
@@ -201,7 +190,6 @@
 
     const-string v1, "TextFontRepository"
 
-    .line 1
     invoke-direct {p0, v0, v1}, Lcom/commsource/repository/MaterialRepository;-><init>(ILjava/lang/String;)V
 
     return-void
@@ -282,7 +270,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/repository/child/TextFontRepository;->J()Lf/k/i0/a/a1;
 
     move-result-object v1
@@ -291,17 +278,14 @@
 
     move-result-object v1
 
-    .line 2
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v2
 
-    .line 3
     new-instance v4, Ljava/util/ArrayList;
 
     invoke-direct {v4}, Ljava/util/ArrayList;-><init>()V
 
-    .line 4
     invoke-interface {v1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v1
@@ -322,7 +306,6 @@
 
     check-cast v6, Lcom/commsource/studio/text/TextFontMaterial;
 
-    .line 5
     invoke-virtual {v6}, Lcom/commsource/studio/text/TextFontMaterial;->getEndedAt()J
 
     move-result-wide v7
@@ -359,7 +342,6 @@
 
     goto :goto_0
 
-    .line 6
     :cond_3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -384,7 +366,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-interface {p1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v1
@@ -420,15 +401,12 @@
 
     if-eqz v2, :cond_2
 
-    .line 2
     invoke-virtual {p1, v2}, Ljava/util/ArrayList;->remove(Ljava/lang/Object;)Z
 
     const/4 v1, 0x0
 
-    .line 3
     invoke-virtual {p1, v1, v2}, Ljava/util/ArrayList;->add(ILjava/lang/Object;)V
 
-    .line 4
     :cond_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -450,17 +428,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/util/HashMap;
 
     invoke-direct {v1}, Ljava/util/HashMap;-><init>()V
 
-    .line 2
     new-instance v2, Ljava/util/ArrayList;
 
     invoke-direct {v2}, Ljava/util/ArrayList;-><init>()V
 
-    .line 3
     new-instance v3, Lcom/commsource/repository/child/TextFontRepository$e;
 
     invoke-direct {v3}, Lcom/commsource/repository/child/TextFontRepository$e;-><init>()V
@@ -469,27 +444,22 @@
 
     move-result-object p1
 
-    .line 4
     new-instance v3, Ljava/util/ArrayList;
 
     invoke-direct {v3}, Ljava/util/ArrayList;-><init>()V
 
-    .line 5
     new-instance v4, Ljava/util/ArrayList;
 
     invoke-direct {v4}, Ljava/util/ArrayList;-><init>()V
 
-    .line 6
     new-instance v5, Ljava/util/ArrayList;
 
     invoke-direct {v5}, Ljava/util/ArrayList;-><init>()V
 
-    .line 7
     new-instance v6, Ljava/util/ArrayList;
 
     invoke-direct {v6}, Ljava/util/ArrayList;-><init>()V
 
-    .line 8
     invoke-interface {p1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object p1
@@ -507,7 +477,6 @@
 
     check-cast v7, Lcom/commsource/studio/text/TextFontMaterial;
 
-    .line 9
     invoke-virtual {v7}, Lcom/commsource/studio/text/TextFontMaterial;->getCategory()Ljava/lang/String;
 
     move-result-object v8
@@ -538,7 +507,6 @@
     :cond_1
     const-string v9, "English"
 
-    .line 10
     invoke-virtual {v8, v9}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v8
@@ -552,7 +520,6 @@
     :cond_2
     const-string v9, "Japanese"
 
-    .line 11
     invoke-virtual {v8, v9}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v8
@@ -566,7 +533,6 @@
     :cond_3
     const-string v9, "Korean"
 
-    .line 12
     invoke-virtual {v8, v9}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v8
@@ -577,14 +543,12 @@
 
     goto :goto_0
 
-    .line 13
     :cond_4
     :goto_1
     invoke-virtual {v6, v7}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
     goto :goto_0
 
-    .line 14
     :cond_5
     invoke-static {}, Lcom/commsource/util/u1;->k()Ljava/lang/String;
 
@@ -616,14 +580,12 @@
     :cond_7
     const-string v7, "th"
 
-    .line 15
     invoke-virtual {p1, v7}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p1
 
     if-eqz p1, :cond_a
 
-    .line 16
     sget-object p1, Lcom/commsource/repository/child/TextFontRepository;->v:Lcom/commsource/repository/child/TextFontRepository;
 
     invoke-direct {p1, v6}, Lcom/commsource/repository/child/TextFontRepository;->M(Ljava/util/ArrayList;)Ljava/util/ArrayList;
@@ -632,13 +594,10 @@
 
     invoke-virtual {v2, p1}, Ljava/util/ArrayList;->addAll(Ljava/util/Collection;)Z
 
-    .line 17
     invoke-virtual {v2, v3}, Ljava/util/ArrayList;->addAll(Ljava/util/Collection;)Z
 
-    .line 18
     invoke-virtual {v2, v5}, Ljava/util/ArrayList;->addAll(Ljava/util/Collection;)Z
 
-    .line 19
     invoke-virtual {v2, v4}, Ljava/util/ArrayList;->addAll(Ljava/util/Collection;)Z
 
     goto :goto_3
@@ -646,14 +605,12 @@
     :cond_8
     const-string v7, "ko"
 
-    .line 20
     invoke-virtual {p1, v7}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p1
 
     if-eqz p1, :cond_a
 
-    .line 21
     sget-object p1, Lcom/commsource/repository/child/TextFontRepository;->v:Lcom/commsource/repository/child/TextFontRepository;
 
     invoke-direct {p1, v4}, Lcom/commsource/repository/child/TextFontRepository;->M(Ljava/util/ArrayList;)Ljava/util/ArrayList;
@@ -662,13 +619,10 @@
 
     invoke-virtual {v2, p1}, Ljava/util/ArrayList;->addAll(Ljava/util/Collection;)Z
 
-    .line 22
     invoke-virtual {v2, v3}, Ljava/util/ArrayList;->addAll(Ljava/util/Collection;)Z
 
-    .line 23
     invoke-virtual {v2, v5}, Ljava/util/ArrayList;->addAll(Ljava/util/Collection;)Z
 
-    .line 24
     invoke-virtual {v2, v6}, Ljava/util/ArrayList;->addAll(Ljava/util/Collection;)Z
 
     goto :goto_3
@@ -676,14 +630,12 @@
     :cond_9
     const-string v7, "ja"
 
-    .line 25
     invoke-virtual {p1, v7}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p1
 
     if-eqz p1, :cond_a
 
-    .line 26
     sget-object p1, Lcom/commsource/repository/child/TextFontRepository;->v:Lcom/commsource/repository/child/TextFontRepository;
 
     invoke-direct {p1, v5}, Lcom/commsource/repository/child/TextFontRepository;->M(Ljava/util/ArrayList;)Ljava/util/ArrayList;
@@ -692,18 +644,14 @@
 
     invoke-virtual {v2, p1}, Ljava/util/ArrayList;->addAll(Ljava/util/Collection;)Z
 
-    .line 27
     invoke-virtual {v2, v3}, Ljava/util/ArrayList;->addAll(Ljava/util/Collection;)Z
 
-    .line 28
     invoke-virtual {v2, v4}, Ljava/util/ArrayList;->addAll(Ljava/util/Collection;)Z
 
-    .line 29
     invoke-virtual {v2, v6}, Ljava/util/ArrayList;->addAll(Ljava/util/Collection;)Z
 
     goto :goto_3
 
-    .line 30
     :cond_a
     :goto_2
     sget-object p1, Lcom/commsource/repository/child/TextFontRepository;->v:Lcom/commsource/repository/child/TextFontRepository;
@@ -714,16 +662,12 @@
 
     invoke-virtual {v2, p1}, Ljava/util/ArrayList;->addAll(Ljava/util/Collection;)Z
 
-    .line 31
     invoke-virtual {v2, v5}, Ljava/util/ArrayList;->addAll(Ljava/util/Collection;)Z
 
-    .line 32
     invoke-virtual {v2, v4}, Ljava/util/ArrayList;->addAll(Ljava/util/Collection;)Z
 
-    .line 33
     invoke-virtual {v2, v6}, Ljava/util/ArrayList;->addAll(Ljava/util/Collection;)Z
 
-    .line 34
     :goto_3
     invoke-interface {v2}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
@@ -742,7 +686,6 @@
 
     check-cast v3, Lcom/commsource/studio/text/TextFontMaterial;
 
-    .line 35
     invoke-virtual {v3}, Lcom/commsource/studio/text/TextFontMaterial;->getId()Ljava/lang/String;
 
     move-result-object v4
@@ -754,14 +697,12 @@
     :cond_b
     const/4 p1, 0x0
 
-    .line 36
     invoke-direct {p0}, Lcom/commsource/repository/child/TextFontRepository;->G()Lcom/commsource/studio/text/TextFontMaterial;
 
     move-result-object v3
 
     invoke-virtual {v2, p1, v3}, Ljava/util/ArrayList;->add(ILjava/lang/Object;)V
 
-    .line 37
     invoke-direct {p0}, Lcom/commsource/repository/child/TextFontRepository;->G()Lcom/commsource/studio/text/TextFontMaterial;
 
     move-result-object p1
@@ -776,13 +717,10 @@
 
     invoke-interface {v1, p1, v3}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 38
     sput-object v2, Lcom/commsource/repository/child/TextFontRepository;->r:Ljava/util/ArrayList;
 
-    .line 39
     sput-object v1, Lcom/commsource/repository/child/TextFontRepository;->s:Ljava/util/HashMap;
 
-    .line 40
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -795,7 +733,6 @@
 
     invoke-static {p0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v0, Lcom/commsource/repository/child/TextFontRepository;->q:Lcom/commsource/repository/f;
 
     invoke-static {p0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -810,7 +747,6 @@
 
     invoke-static {p0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-boolean v0, Lcom/commsource/repository/child/TextFontRepository;->n:Z
 
     invoke-static {p0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -825,7 +761,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/repository/child/TextFontRepository;->J()Lf/k/i0/a/a1;
 
     move-result-object p0
@@ -842,7 +777,6 @@
 
     invoke-static {p0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v0, Lcom/commsource/repository/child/TextFontRepository;->r:Ljava/util/ArrayList;
 
     invoke-static {p0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -857,7 +791,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/repository/child/TextFontRepository;->L()Ljava/util/List;
 
     move-result-object p0
@@ -874,7 +807,6 @@
 
     invoke-static {p0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sput-boolean p1, Lcom/commsource/repository/child/TextFontRepository;->n:Z
 
     invoke-static {p0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -889,7 +821,6 @@
 
     invoke-static {p0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sput-object p1, Lcom/commsource/repository/child/TextFontRepository;->r:Ljava/util/ArrayList;
 
     invoke-static {p0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -904,7 +835,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/commsource/repository/child/TextFontRepository;->N(Ljava/util/List;)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -925,7 +855,6 @@
 
     const/4 p2, 0x0
 
-    .line 1
     :cond_0
     invoke-virtual {p0, p1, p2}, Lcom/commsource/repository/child/TextFontRepository;->y(Lcom/commsource/studio/text/TextFontMaterial;Z)V
 
@@ -955,7 +884,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/repository/child/TextFontRepository;->o:Landroidx/lifecycle/MutableLiveData;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -980,7 +908,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     new-instance v1, Lcom/commsource/repository/child/TextFontRepository$b;
 
     invoke-direct {v1, p1}, Lcom/commsource/repository/child/TextFontRepository$b;-><init>(Lcom/commsource/studio/text/TextFontMaterial;)V
@@ -1008,7 +935,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/repository/child/TextFontRepository;->p:Lcom/commsource/material/download/b/a;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1029,7 +955,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/repository/child/TextFontRepository;->s:Ljava/util/HashMap;
 
     invoke-virtual {v1, p1}, Ljava/util/HashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
@@ -1056,14 +981,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0, p1}, Lcom/commsource/repository/child/TextFontRepository;->D(Ljava/lang/String;)Lcom/commsource/studio/text/TextFontMaterial;
 
     move-result-object p1
 
     if-eqz p1, :cond_0
 
-    .line 2
     sget-object v1, Lcom/commsource/beautyplus/util/l;->b:Lcom/commsource/beautyplus/util/l$a;
 
     invoke-virtual {p1}, Lcom/commsource/studio/text/TextFontMaterial;->getTextFontPath()Ljava/lang/String;
@@ -1083,7 +1006,6 @@
     :cond_0
     const/4 p1, 0x0
 
-    .line 3
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1099,7 +1021,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/repository/child/TextFontRepository;->l:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1124,12 +1045,10 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-virtual {p1}, Lcom/commsource/studio/text/TextFontMaterial;->getTextFontPath()Ljava/lang/String;
 
     move-result-object v4
 
-    .line 2
     new-instance v1, Lcom/commsource/material/download/c/d;
 
     invoke-virtual {p1}, Lcom/commsource/studio/text/TextFontMaterial;->getUrl()Ljava/lang/String;
@@ -1160,24 +1079,20 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-boolean v1, Lcom/commsource/repository/child/TextFontRepository;->n:Z
 
     const/4 v2, 0x0
 
     if-eqz v1, :cond_0
 
-    .line 2
     sput-boolean v2, Lcom/commsource/repository/child/TextFontRepository;->n:Z
 
-    .line 3
     sget-object v1, Lcom/commsource/repository/child/TextFontRepository$c;->a:Lcom/commsource/repository/child/TextFontRepository$c;
 
     const-string v3, "LoadTextFontData"
 
     invoke-static {v3, v1}, Lcom/commsource/util/c2;->f(Ljava/lang/String;Ljava/lang/Runnable;)V
 
-    .line 4
     :cond_0
     invoke-direct {p0}, Lcom/commsource/repository/child/TextFontRepository;->I()Lcom/commsource/repository/child/TextFontRepository$textFontComparator$2$a;
 
@@ -1189,7 +1104,6 @@
 
     invoke-static {v1, v2, v3, v4}, Lcom/commsource/repository/OnlineLocalMaterialCompator;->i(Lcom/commsource/repository/OnlineLocalMaterialCompator;ZILjava/lang/Object;)V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1210,11 +1124,9 @@
 
     if-ne p1, v1, :cond_1
 
-    .line 1
     :cond_0
     invoke-virtual {p0}, Lcom/commsource/repository/child/TextFontRepository;->K()V
 
-    .line 2
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1228,10 +1140,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/repository/child/TextFontRepository;->K()V
 
-    .line 2
     invoke-direct {p0}, Lcom/commsource/repository/child/TextFontRepository;->I()Lcom/commsource/repository/child/TextFontRepository$textFontComparator$2$a;
 
     move-result-object v1
@@ -1268,7 +1178,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     new-instance v1, Lcom/commsource/repository/child/TextFontRepository$d;
 
     const/4 v2, 0x1
@@ -1277,7 +1186,6 @@
 
     invoke-interface {p1, v1}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1290,14 +1198,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/repository/child/TextFontRepository;->q:Lcom/commsource/repository/f;
 
     sget-object v2, Lcom/commsource/repository/child/TextFontRepository$a;->a:Lcom/commsource/repository/child/TextFontRepository$a;
 
     invoke-virtual {v1, v2}, Lcom/commsource/repository/f;->a(Ljava/lang/Runnable;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1318,19 +1224,16 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-virtual {p1}, Lcom/commsource/studio/text/TextFontMaterial;->isDownloading()Z
 
     move-result v1
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 3
     :cond_0
     new-instance v1, Lcom/commsource/material/download/b/b$b;
 
@@ -1340,7 +1243,6 @@
 
     move-result-object v2
 
-    .line 4
     invoke-virtual {p0, p1}, Lcom/commsource/repository/child/TextFontRepository;->H(Lcom/commsource/studio/text/TextFontMaterial;)Lcom/commsource/material/download/c/d;
 
     move-result-object v3
@@ -1363,19 +1265,16 @@
 
     const/4 v1, 0x0
 
-    .line 5
     invoke-virtual {p2, v1}, Lcom/commsource/material/download/b/b$b;->l(Z)Lcom/commsource/material/download/b/b$b;
 
     move-result-object p2
 
-    .line 6
     invoke-virtual {p0, p1}, Lcom/commsource/repository/child/TextFontRepository;->B(Lcom/commsource/studio/text/TextFontMaterial;)Lcom/commsource/material/download/b/c;
 
     move-result-object p1
 
     invoke-virtual {p2, p1}, Lcom/commsource/material/download/b/b$b;->c(Lcom/commsource/material/download/b/c;)Lcom/commsource/material/download/b/b;
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

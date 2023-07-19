@@ -36,13 +36,10 @@
 .method constructor <init>(Lorg/greenrobot/greendao/a;Ljava/lang/String;[Ljava/lang/String;II)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1, p2, p3}, Lorg/greenrobot/greendao/l/b;-><init>(Lorg/greenrobot/greendao/a;Ljava/lang/String;[Ljava/lang/String;)V
 
-    .line 2
     iput p4, p0, Lorg/greenrobot/greendao/l/f$b;->e:I
 
-    .line 3
     iput p5, p0, Lorg/greenrobot/greendao/l/f$b;->f:I
 
     return-void
@@ -53,7 +50,6 @@
 .method protected bridge synthetic a()Lorg/greenrobot/greendao/l/a;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lorg/greenrobot/greendao/l/f$b;->e()Lorg/greenrobot/greendao/l/f;
 
     move-result-object v0
@@ -71,7 +67,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v8, Lorg/greenrobot/greendao/l/f;
 
     iget-object v2, p0, Lorg/greenrobot/greendao/l/b;->b:Lorg/greenrobot/greendao/a;

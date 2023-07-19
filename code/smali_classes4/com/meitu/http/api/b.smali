@@ -16,7 +16,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -47,7 +46,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-static {}, Lf/k/k/s;->l()Lf/k/k/s;
 
     move-result-object v1
@@ -58,7 +56,6 @@
 
     move-result-object v1
 
-    .line 2
     sget-object v2, Landroid/os/Build;->MODEL:Ljava/lang/String;
 
     const-string v3, "name"
@@ -67,7 +64,6 @@
 
     move-result-object v1
 
-    .line 3
     invoke-static {}, Lf/d/i/e;->B0()Ljava/lang/String;
 
     move-result-object v2
@@ -78,7 +74,6 @@
 
     move-result-object v1
 
-    .line 4
     sget v2, Landroid/os/Build$VERSION;->SDK_INT:I
 
     invoke-static {v2}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
@@ -95,12 +90,10 @@
 
     const-string v3, "Android"
 
-    .line 5
     invoke-virtual {v1, v2, v3}, Lf/k/k/d;->d(Ljava/lang/String;Ljava/lang/Object;)Lf/k/k/d;
 
     move-result-object v1
 
-    .line 6
     invoke-static {}, Lcom/commsource/util/i0;->c()Ljava/lang/String;
 
     move-result-object v2
@@ -111,20 +104,16 @@
 
     move-result-object v1
 
-    .line 7
     invoke-virtual {v1}, Lf/k/k/d;->z()Lf/k/k/d;
 
     move-result-object v1
 
-    .line 8
     invoke-virtual {v1}, Lf/k/k/d;->v()Lf/k/k/d;
 
     move-result-object v1
 
-    .line 9
     invoke-virtual {v1, p1}, Lf/k/k/d;->j(Lf/k/k/p;)Lf/k/k/d;
 
-    .line 10
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -153,7 +142,6 @@
 
     invoke-static {p2, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-static {}, Lf/k/k/s;->l()Lf/k/k/s;
 
     move-result-object v1
@@ -184,20 +172,16 @@
 
     move-result-object p1
 
-    .line 2
     invoke-virtual {p1}, Lf/k/k/d;->z()Lf/k/k/d;
 
     move-result-object p1
 
-    .line 3
     invoke-virtual {p1}, Lf/k/k/d;->v()Lf/k/k/d;
 
     move-result-object p1
 
-    .line 4
     invoke-virtual {p1, p2}, Lf/k/k/d;->j(Lf/k/k/p;)Lf/k/k/d;
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -237,7 +221,6 @@
 
     invoke-static {p2, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-static {}, Lf/k/k/s;->l()Lf/k/k/s;
 
     move-result-object v1
@@ -248,7 +231,6 @@
 
     move-result-object v1
 
-    .line 2
     invoke-static {}, Lf/d/i/e;->B0()Ljava/lang/String;
 
     move-result-object v2
@@ -261,25 +243,20 @@
 
     const-string v2, "data"
 
-    .line 3
     invoke-virtual {v1, v2, p1}, Lf/k/k/d;->d(Ljava/lang/String;Ljava/lang/Object;)Lf/k/k/d;
 
     move-result-object p1
 
-    .line 4
     invoke-virtual {p1}, Lf/k/k/d;->z()Lf/k/k/d;
 
     move-result-object p1
 
-    .line 5
     invoke-virtual {p1}, Lf/k/k/d;->v()Lf/k/k/d;
 
     move-result-object p1
 
-    .line 6
     invoke-virtual {p1, p2}, Lf/k/k/d;->j(Lf/k/k/p;)Lf/k/k/d;
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

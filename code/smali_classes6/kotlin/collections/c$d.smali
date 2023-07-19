@@ -63,14 +63,12 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-direct {p0}, Lcotlin/collections/c;-><init>()V
 
     iput-object p1, p0, Lcotlin/collections/c$d;->c:Lcotlin/collections/c;
 
     iput p2, p0, Lcotlin/collections/c$d;->d:I
 
-    .line 2
     sget-object v0, Lcotlin/collections/c;->a:Lcotlin/collections/c$a;
 
     invoke-virtual {p1}, Lcotlin/collections/AbstractCollection;->size()I
@@ -81,7 +79,6 @@
 
     sub-int/2addr p3, p2
 
-    .line 3
     iput p3, p0, Lcotlin/collections/c$d;->b:I
 
     return-void
@@ -92,7 +89,6 @@
 .method public b()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lcotlin/collections/c$d;->b:I
 
     return v0
@@ -106,14 +102,12 @@
         }
     .end annotation
 
-    .line 1
     sget-object v0, Lcotlin/collections/c;->a:Lcotlin/collections/c$a;
 
     iget v1, p0, Lcotlin/collections/c$d;->b:I
 
     invoke-virtual {v0, p1, v1}, Lcotlin/collections/c$a;->b(II)V
 
-    .line 2
     iget-object v0, p0, Lcotlin/collections/c$d;->c:Lcotlin/collections/c;
 
     iget v1, p0, Lcotlin/collections/c$d;->d:I

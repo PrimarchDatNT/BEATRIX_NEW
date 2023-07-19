@@ -25,7 +25,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/beautyplus/base/b/a;-><init>()V
 
     return-void
@@ -36,7 +35,6 @@
 .method protected bridge synthetic a(Lcom/commsource/beautyplus/base/b/a$a;)V
     .locals 0
 
-    .line 1
     check-cast p1, Lcom/commsource/beautyplus/j0/c/c$b;
 
     invoke-virtual {p0, p1}, Lcom/commsource/beautyplus/j0/c/c;->g(Lcom/commsource/beautyplus/j0/c/c$b;)V
@@ -47,7 +45,6 @@
 .method protected g(Lcom/commsource/beautyplus/j0/c/c$b;)V
     .locals 1
 
-    .line 1
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
     move-result-object p1
@@ -60,7 +57,6 @@
 
     return-void
 
-    .line 2
     :cond_0
     const-class p1, Lcom/meitu/http/api/OperationApi;
 
@@ -74,7 +70,6 @@
 
     invoke-direct {v0, p0}, Lcom/commsource/beautyplus/j0/c/c$a;-><init>(Lcom/commsource/beautyplus/j0/c/c;)V
 
-    .line 3
     invoke-virtual {p1, v0}, Lcom/meitu/http/api/OperationApi;->a(Lf/k/k/p;)V
 
     return-void

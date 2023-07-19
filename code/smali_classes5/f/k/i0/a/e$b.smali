@@ -30,7 +30,6 @@
 .method constructor <init>(Lf/k/i0/a/e;Landroidx/room/RoomDatabase;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lf/k/i0/a/e$b;->a:Lf/k/i0/a/e;
 
     invoke-direct {p0, p2}, Landroidx/room/EntityDeletionOrUpdateAdapter;-><init>(Landroidx/room/RoomDatabase;)V
@@ -47,19 +46,16 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p2, p2, Lcom/meitu/template/bean/ArMaterialGroup;->id:Ljava/lang/Long;
 
     const/4 v1, 0x1
 
     if-nez p2, :cond_0
 
-    .line 2
     invoke-interface {p1, v1}, Landroidx/sqlite/db/SupportSQLiteProgram;->bindNull(I)V
 
     goto :goto_0
 
-    .line 3
     :cond_0
     invoke-virtual {p2}, Ljava/lang/Long;->longValue()J
 
@@ -67,7 +63,6 @@
 
     invoke-interface {p1, v1, v2, v3}, Landroidx/sqlite/db/SupportSQLiteProgram;->bindLong(IJ)V
 
-    .line 4
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -81,7 +76,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p2, Lcom/meitu/template/bean/ArMaterialGroup;
 
     invoke-virtual {p0, p1, p2}, Lf/k/i0/a/e$b;->a(Landroidx/sqlite/db/SupportSQLiteStatement;Lcom/meitu/template/bean/ArMaterialGroup;)V
@@ -98,7 +92,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const-string v0, "DELETE FROM `AR_MATERIAL_GROUP` WHERE `_id` = ?"

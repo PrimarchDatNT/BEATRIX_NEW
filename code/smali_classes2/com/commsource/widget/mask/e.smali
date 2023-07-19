@@ -32,7 +32,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -45,7 +44,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/widget/mask/e;->a:Ljava/util/Map;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -60,7 +58,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/widget/mask/e;->a:Ljava/util/Map;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -75,7 +72,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/widget/mask/e;->b:Landroid/view/View$OnClickListener;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -101,7 +97,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/widget/mask/e;->a:Ljava/util/Map;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -116,7 +111,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/widget/mask/e;->b:Landroid/view/View$OnClickListener;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -131,28 +125,23 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/widget/mask/e;->c:Lcom/commsource/widget/mask/e$a;
 
     if-nez v1, :cond_0
 
-    .line 2
     new-instance v1, Lcom/commsource/widget/mask/e$a;
 
     invoke-direct {v1, p0}, Lcom/commsource/widget/mask/e$a;-><init>(Lcom/commsource/widget/mask/e;)V
 
     iput-object v1, p0, Lcom/commsource/widget/mask/e;->c:Lcom/commsource/widget/mask/e$a;
 
-    .line 3
     :cond_0
     iget-object v1, p0, Lcom/commsource/widget/mask/e;->a:Ljava/util/Map;
 
     if-eqz v1, :cond_1
 
-    .line 4
     invoke-interface {v1}, Ljava/util/Map;->clear()V
 
-    .line 5
     :cond_1
     iget-object v1, p0, Lcom/commsource/widget/mask/e;->b:Landroid/view/View$OnClickListener;
 
@@ -160,10 +149,8 @@
 
     const/4 v1, 0x0
 
-    .line 6
     iput-object v1, p0, Lcom/commsource/widget/mask/e;->b:Landroid/view/View$OnClickListener;
 
-    .line 7
     :cond_2
     iget-object v1, p0, Lcom/commsource/widget/mask/e;->c:Lcom/commsource/widget/mask/e$a;
 
@@ -188,10 +175,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/widget/mask/e;->a:Ljava/util/Map;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -204,10 +189,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/widget/mask/e;->b:Landroid/view/View$OnClickListener;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

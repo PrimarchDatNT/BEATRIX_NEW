@@ -25,7 +25,6 @@
 .method public constructor <init>(Landroid/content/Context;)V
     .locals 3
 
-    .line 7
     sget-object v0, Ljava/util/concurrent/TimeUnit;->SECONDS:Ljava/util/concurrent/TimeUnit;
 
     const-wide/16 v1, 0x1
@@ -38,28 +37,22 @@
 .method public constructor <init>(Landroid/content/Context;JLjava/util/concurrent/TimeUnit;)V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const-string v0, "AppsFlyerOaid6.1.2"
 
-    .line 2
     invoke-static {v0}, Ljava/util/logging/Logger;->getLogger(Ljava/lang/String;)Ljava/util/logging/Logger;
 
     move-result-object v0
 
     iput-object v0, p0, Lcom/appsflyer/oaid/OaidClient;->logger:Ljava/util/logging/Logger;
 
-    .line 3
     iput-object p1, p0, Lcom/appsflyer/oaid/OaidClient;->context:Landroid/content/Context;
 
-    .line 4
     iput-wide p2, p0, Lcom/appsflyer/oaid/OaidClient;->timeout:J
 
-    .line 5
     iput-object p4, p0, Lcom/appsflyer/oaid/OaidClient;->unit:Ljava/util/concurrent/TimeUnit;
 
-    .line 6
     sget-object p1, Ljava/util/logging/Level;->OFF:Ljava/util/logging/Level;
 
     invoke-virtual {v0, p1}, Ljava/util/logging/Logger;->setLevel(Ljava/util/logging/Level;)V
@@ -74,7 +67,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     :try_start_0
     iget-object v1, p0, Lcom/appsflyer/oaid/OaidClient;->context:Landroid/content/Context;
 
@@ -84,14 +76,12 @@
 
     if-eqz v1, :cond_0
 
-    .line 2
     iget-object v1, p0, Lcom/appsflyer/oaid/OaidClient;->context:Landroid/content/Context;
 
     invoke-static {v1}, Lcom/huawei/hms/ads/identifier/AdvertisingIdClient;->getAdvertisingIdInfo(Landroid/content/Context;)Lcom/huawei/hms/ads/identifier/AdvertisingIdClient$Info;
 
     move-result-object v1
 
-    .line 3
     new-instance v2, Lcom/appsflyer/oaid/OaidClient$Info;
 
     invoke-virtual {v1}, Lcom/huawei/hms/ads/identifier/AdvertisingIdClient$Info;->getId()Ljava/lang/String;
@@ -118,7 +108,6 @@
     :catchall_0
     move-exception v1
 
-    .line 4
     iget-object v2, p0, Lcom/appsflyer/oaid/OaidClient;->logger:Ljava/util/logging/Logger;
 
     invoke-virtual {v1}, Ljava/lang/Throwable;->getMessage()Ljava/lang/String;
@@ -135,7 +124,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     :try_start_0
     sget-object v1, Landroid/os/Build;->BRAND:Ljava/lang/String;
 
@@ -149,28 +137,24 @@
 
     const-string v1, "com.huawei.android.os.BuildEx$VERSION"
 
-    .line 2
     invoke-static {v1}, Ljava/lang/Class;->forName(Ljava/lang/String;)Ljava/lang/Class;
 
     move-result-object v1
 
     const-string v2, "EMUI_SDK_INT"
 
-    .line 3
     invoke-virtual {v1, v2}, Ljava/lang/Class;->getDeclaredField(Ljava/lang/String;)Ljava/lang/reflect/Field;
 
     move-result-object v1
 
     const/4 v2, 0x0
 
-    .line 4
     invoke-virtual {v1, v2}, Ljava/lang/reflect/Field;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v1
 
     check-cast v1, Ljava/lang/Integer;
 
-    .line 5
     invoke-virtual {v1}, Ljava/lang/Integer;->intValue()I
 
     move-result v1
@@ -192,7 +176,6 @@
 .method private static isMsaAvailableAtRuntime()Z
     .locals 1
 
-    .line 1
     :try_start_0
     const-class v0, Lcom/bun/miitmdid/interfaces/IIdentifierListener;
     :try_end_0
@@ -215,7 +198,6 @@
     .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
-    .line 1
     sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
 
     const/4 v1, 0x0
@@ -224,13 +206,11 @@
 
     if-lt v0, v2, :cond_2
 
-    .line 2
     :try_start_0
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v2
 
-    .line 3
     invoke-static {}, Lcom/appsflyer/oaid/OaidClient;->isHuawei()Z
 
     move-result v0
@@ -243,7 +223,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_0
     invoke-static {}, Lcom/appsflyer/oaid/OaidClient;->isMsaAvailableAtRuntime()Z
 
@@ -251,7 +230,6 @@
 
     if-eqz v0, :cond_1
 
-    .line 5
     iget-object v0, p0, Lcom/appsflyer/oaid/OaidClient;->context:Landroid/content/Context;
 
     iget-object v4, p0, Lcom/appsflyer/oaid/OaidClient;->logger:Ljava/util/logging/Logger;
@@ -269,7 +247,6 @@
     :cond_1
     move-object v0, v1
 
-    .line 6
     :goto_0
     iget-object v4, p0, Lcom/appsflyer/oaid/OaidClient;->logger:Ljava/util/logging/Logger;
 
@@ -306,7 +283,6 @@
     :catchall_0
     move-exception v0
 
-    .line 7
     iget-object v2, p0, Lcom/appsflyer/oaid/OaidClient;->logger:Ljava/util/logging/Logger;
 
     invoke-virtual {v0}, Ljava/lang/Throwable;->getMessage()Ljava/lang/String;
@@ -322,7 +298,6 @@
 .method public setLogging(Z)V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/appsflyer/oaid/OaidClient;->logger:Ljava/util/logging/Logger;
 
     if-eqz p1, :cond_0

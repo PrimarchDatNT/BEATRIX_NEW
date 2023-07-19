@@ -56,7 +56,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 2
     new-instance v7, Lcom/commsource/camera/xcamera/cover/CoverGroup;
 
     iget-object v2, p0, Lcom/commsource/camera/xcamera/CameraNewActivity$selfieConfirmCoverGroup$2;->this$0:Lcom/commsource/camera/xcamera/CameraNewActivity;
@@ -75,20 +74,16 @@
 
     const/4 v1, 0x2
 
-    .line 3
     invoke-virtual {v7, v1}, Lcom/commsource/camera/xcamera/cover/CoverGroup;->setBackWeight(I)V
 
-    .line 4
     invoke-virtual {v7, v1}, Lcom/commsource/camera/xcamera/cover/CoverGroup;->setPhysicsWeight(I)V
 
-    .line 5
     iget-object v1, p0, Lcom/commsource/camera/xcamera/CameraNewActivity$selfieConfirmCoverGroup$2;->this$0:Lcom/commsource/camera/xcamera/CameraNewActivity;
 
     invoke-virtual {v7, v1}, Lcom/commsource/camera/xcamera/cover/CoverGroup;->i(Landroidx/fragment/app/FragmentActivity;)Lcom/commsource/camera/xcamera/cover/CoverGroup$a;
 
     move-result-object v1
 
-    .line 6
     new-instance v2, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover;
 
     invoke-direct {v2}, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover;-><init>()V
@@ -97,7 +92,6 @@
 
     move-result-object v1
 
-    .line 7
     new-instance v2, Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/ConfirmBottomFunctionCover;
 
     invoke-direct {v2}, Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/ConfirmBottomFunctionCover;-><init>()V
@@ -106,7 +100,6 @@
 
     move-result-object v1
 
-    .line 8
     new-instance v2, Lcom/commsource/camera/xcamera/cover/tips/ConfirmTipsCover;
 
     invoke-direct {v2}, Lcom/commsource/camera/xcamera/cover/tips/ConfirmTipsCover;-><init>()V
@@ -115,21 +108,18 @@
 
     move-result-object v1
 
-    .line 9
     invoke-static {}, Lf/d/i/o;->o0()Z
 
     move-result v2
 
     if-nez v2, :cond_0
 
-    .line 10
     new-instance v2, Lcom/commsource/camera/xcamera/cover/ProCover;
 
     invoke-direct {v2}, Lcom/commsource/camera/xcamera/cover/ProCover;-><init>()V
 
     invoke-virtual {v1, v2}, Lcom/commsource/camera/xcamera/cover/CoverGroup$a;->a(Lcom/commsource/camera/xcamera/cover/g;)Lcom/commsource/camera/xcamera/cover/CoverGroup$a;
 
-    .line 11
     :cond_0
     new-instance v2, Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/AIBeautyLoadingCover;
 
@@ -139,7 +129,6 @@
 
     move-result-object v1
 
-    .line 12
     new-instance v2, Lcom/commsource/camera/xcamera/cover/FastCaptureTransitionCover;
 
     invoke-direct {v2}, Lcom/commsource/camera/xcamera/cover/FastCaptureTransitionCover;-><init>()V
@@ -148,7 +137,6 @@
 
     move-result-object v1
 
-    .line 13
     new-instance v2, Lcom/commsource/camera/xcamera/cover/FillLightCover;
 
     invoke-direct {v2}, Lcom/commsource/camera/xcamera/cover/FillLightCover;-><init>()V
@@ -157,7 +145,6 @@
 
     move-result-object v1
 
-    .line 14
     new-instance v2, Lcom/commsource/camera/xcamera/cover/CameraFilterManageCover;
 
     invoke-direct {v2}, Lcom/commsource/camera/xcamera/cover/CameraFilterManageCover;-><init>()V
@@ -166,7 +153,6 @@
 
     move-result-object v1
 
-    .line 15
     new-instance v2, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmTransaction;
 
     invoke-direct {v2}, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmTransaction;-><init>()V
@@ -175,10 +161,8 @@
 
     move-result-object v1
 
-    .line 16
     invoke-virtual {v1}, Lcom/commsource/camera/xcamera/cover/CoverGroup$a;->c()V
 
-    .line 17
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v7
@@ -191,7 +175,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/CameraNewActivity$selfieConfirmCoverGroup$2;->invoke()Lcom/commsource/camera/xcamera/cover/CoverGroup;
 
     move-result-object v1

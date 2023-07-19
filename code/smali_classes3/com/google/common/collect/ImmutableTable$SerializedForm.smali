@@ -37,22 +37,16 @@
 .method private constructor <init>([Ljava/lang/Object;[Ljava/lang/Object;[Ljava/lang/Object;[I[I)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/google/common/collect/ImmutableTable$SerializedForm;->rowKeys:[Ljava/lang/Object;
 
-    .line 3
     iput-object p2, p0, Lcom/google/common/collect/ImmutableTable$SerializedForm;->columnKeys:[Ljava/lang/Object;
 
-    .line 4
     iput-object p3, p0, Lcom/google/common/collect/ImmutableTable$SerializedForm;->cellValues:[Ljava/lang/Object;
 
-    .line 5
     iput-object p4, p0, Lcom/google/common/collect/ImmutableTable$SerializedForm;->cellRowIndices:[I
 
-    .line 6
     iput-object p5, p0, Lcom/google/common/collect/ImmutableTable$SerializedForm;->cellColumnIndices:[I
 
     return-void
@@ -69,10 +63,8 @@
         }
     .end annotation
 
-    .line 1
     new-instance v6, Lcom/google/common/collect/ImmutableTable$SerializedForm;
 
-    .line 2
     invoke-virtual {p0}, Lcom/google/common/collect/ImmutableTable;->rowKeySet()Lcom/google/common/collect/ImmutableSet;
 
     move-result-object v0
@@ -81,7 +73,6 @@
 
     move-result-object v1
 
-    .line 3
     invoke-virtual {p0}, Lcom/google/common/collect/ImmutableTable;->columnKeySet()Lcom/google/common/collect/ImmutableSet;
 
     move-result-object v0
@@ -90,7 +81,6 @@
 
     move-result-object v2
 
-    .line 4
     invoke-virtual {p0}, Lcom/google/common/collect/ImmutableTable;->values()Lcom/google/common/collect/ImmutableCollection;
 
     move-result-object p0
@@ -115,21 +105,18 @@
 .method readResolve()Ljava/lang/Object;
     .locals 6
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/ImmutableTable$SerializedForm;->cellValues:[Ljava/lang/Object;
 
     array-length v1, v0
 
     if-nez v1, :cond_0
 
-    .line 2
     invoke-static {}, Lcom/google/common/collect/ImmutableTable;->of()Lcom/google/common/collect/ImmutableTable;
 
     move-result-object v0
 
     return-object v0
 
-    .line 3
     :cond_0
     array-length v1, v0
 
@@ -139,7 +126,6 @@
 
     if-ne v1, v2, :cond_1
 
-    .line 4
     iget-object v1, p0, Lcom/google/common/collect/ImmutableTable$SerializedForm;->rowKeys:[Ljava/lang/Object;
 
     aget-object v1, v1, v3
@@ -156,7 +142,6 @@
 
     return-object v0
 
-    .line 5
     :cond_1
     new-instance v1, Lcom/google/common/collect/ImmutableList$a;
 
@@ -164,7 +149,6 @@
 
     invoke-direct {v1, v0}, Lcom/google/common/collect/ImmutableList$a;-><init>(I)V
 
-    .line 6
     :goto_0
     iget-object v0, p0, Lcom/google/common/collect/ImmutableTable$SerializedForm;->cellValues:[Ljava/lang/Object;
 
@@ -172,7 +156,6 @@
 
     if-ge v3, v2, :cond_2
 
-    .line 7
     iget-object v2, p0, Lcom/google/common/collect/ImmutableTable$SerializedForm;->rowKeys:[Ljava/lang/Object;
 
     iget-object v4, p0, Lcom/google/common/collect/ImmutableTable$SerializedForm;->cellRowIndices:[I
@@ -191,19 +174,16 @@
 
     aget-object v0, v0, v3
 
-    .line 8
     invoke-static {v2, v4, v0}, Lcom/google/common/collect/ImmutableTable;->cellOf(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Lcom/google/common/collect/f2$a;
 
     move-result-object v0
 
-    .line 9
     invoke-virtual {v1, v0}, Lcom/google/common/collect/ImmutableList$a;->i(Ljava/lang/Object;)Lcom/google/common/collect/ImmutableList$a;
 
     add-int/lit8 v3, v3, 0x1
 
     goto :goto_0
 
-    .line 10
     :cond_2
     invoke-virtual {v1}, Lcom/google/common/collect/ImmutableList$a;->m()Lcom/google/common/collect/ImmutableList;
 
@@ -221,7 +201,6 @@
 
     move-result-object v2
 
-    .line 11
     invoke-static {v0, v1, v2}, Lcom/google/common/collect/RegularImmutableTable;->forOrderedComponents(Lcom/google/common/collect/ImmutableList;Lcom/google/common/collect/ImmutableSet;Lcom/google/common/collect/ImmutableSet;)Lcom/google/common/collect/RegularImmutableTable;
 
     move-result-object v0

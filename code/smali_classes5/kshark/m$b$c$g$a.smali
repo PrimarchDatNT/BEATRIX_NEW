@@ -40,7 +40,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-direct {p0, v0}, Lkshark/m$b$c$g;-><init>(Lcotlin/jvm/internal/u;)V
 
     iput-wide p1, p0, Lkshark/m$b$c$g$a;->a:J
@@ -57,7 +56,6 @@
 .method public a()J
     .locals 2
 
-    .line 1
     iget-wide v0, p0, Lkshark/m$b$c$g$a;->a:J
 
     return-wide v0
@@ -66,7 +64,6 @@
 .method public b()I
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lkshark/m$b$c$g$a;->c:[Z
 
     array-length v0, v0
@@ -77,7 +74,6 @@
 .method public c()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lkshark/m$b$c$g$a;->b:I
 
     return v0
@@ -88,7 +84,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lkshark/m$b$c$g$a;->c:[Z
 
     return-object v0

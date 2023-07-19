@@ -18,7 +18,6 @@
 .method protected constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -27,7 +26,6 @@
 .method public static a()Lcom/google/common/util/concurrent/s0$a;
     .locals 1
 
-    .line 1
     new-instance v0, Lcom/google/common/util/concurrent/s0$a$a;
 
     invoke-direct {v0}, Lcom/google/common/util/concurrent/s0$a$a;-><init>()V

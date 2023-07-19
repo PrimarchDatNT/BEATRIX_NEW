@@ -27,7 +27,6 @@
 .method constructor <init>([Ljava/lang/reflect/Type;Ljava/lang/Class;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Ln/a/a/a/b/q$a;->a:[Ljava/lang/reflect/Type;
 
     iput-object p2, p0, Ln/a/a/a/b/q$a;->b:Ljava/lang/Class;
@@ -42,7 +41,6 @@
 .method public getActualTypeArguments()[Ljava/lang/reflect/Type;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Ln/a/a/a/b/q$a;->a:[Ljava/lang/reflect/Type;
 
     return-object v0
@@ -51,7 +49,6 @@
 .method public getOwnerType()Ljava/lang/reflect/Type;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Ln/a/a/a/b/q$a;->b:Ljava/lang/Class;
 
     invoke-virtual {v0}, Ljava/lang/Class;->getEnclosingClass()Ljava/lang/Class;
@@ -64,7 +61,6 @@
 .method public getRawType()Ljava/lang/reflect/Type;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Ln/a/a/a/b/q$a;->b:Ljava/lang/Class;
 
     return-object v0

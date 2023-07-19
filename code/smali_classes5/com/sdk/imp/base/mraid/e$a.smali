@@ -29,7 +29,6 @@
 .method constructor <init>(Lcom/sdk/imp/base/mraid/e;Landroid/content/Context;Lcom/sdk/imp/base/mraid/e$e;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/sdk/imp/base/mraid/e$a;->c:Lcom/sdk/imp/base/mraid/e;
 
     iput-object p2, p0, Lcom/sdk/imp/base/mraid/e$a;->a:Landroid/content/Context;
@@ -46,7 +45,6 @@
 .method public onFailure()V
     .locals 3
 
-    .line 1
     iget-object v0, p0, Lcom/sdk/imp/base/mraid/e$a;->a:Landroid/content/Context;
 
     const-string v1, "Image failed to download."
@@ -61,10 +59,8 @@
 
     const-string v0, "Error downloading and saving image file."
 
-    .line 2
     invoke-static {v0}, Lf/q/b/g;->a(Ljava/lang/String;)V
 
-    .line 3
     iget-object v1, p0, Lcom/sdk/imp/base/mraid/e$a;->b:Lcom/sdk/imp/base/mraid/e$e;
 
     new-instance v2, Ljava/lang/Exception;
@@ -81,7 +77,6 @@
 
     const-string v0, "Image successfully saved."
 
-    .line 1
     invoke-static {v0}, Lf/q/b/g;->a(Ljava/lang/String;)V
 
     return-void

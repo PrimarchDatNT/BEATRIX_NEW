@@ -31,7 +31,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/meitu/library/appcia/diskspace/c/a;->b()V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -42,7 +41,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -55,7 +53,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/lang/UnsupportedOperationException;
 
     const-string v2, "error!"
@@ -74,7 +71,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v9, Ln/a/b/c/e;
 
     const-class v1, Lcom/meitu/library/appcia/diskspace/c/a;
@@ -125,7 +121,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p0}, Lcom/meitu/library/appcia/f/f/d;->b(Landroid/content/Context;)Lcom/meitu/library/appcia/f/f/d;
 
     move-result-object p0
@@ -148,7 +143,6 @@
 
     move-result-wide v1
 
-    .line 2
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v3
@@ -183,7 +177,6 @@
 
     if-eqz p2, :cond_0
 
-    .line 1
     :try_start_0
     invoke-static {p0}, Lcom/meitu/library/appcia/diskspace/c/a;->c(Landroid/content/Context;)Z
 
@@ -193,31 +186,26 @@
 
     if-nez p2, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 3
     :cond_0
     :try_start_1
     invoke-static {p0}, Lcom/meitu/library/appcia/f/f/a;->a(Landroid/content/Context;)Ljava/util/HashMap;
 
     move-result-object p2
 
-    .line 4
     sget v1, Landroid/os/Build$VERSION;->SDK_INT:I
 
     const/16 v2, 0x1a
 
     if-ge v1, v2, :cond_1
 
-    .line 5
     invoke-static {p0, p1, p2}, Lcom/meitu/library/appcia/diskspace/c/a;->f(Landroid/content/Context;Lcom/meitu/library/appcia/diskspace/c/a$b;Ljava/util/HashMap;)V
 
     goto :goto_0
 
-    .line 6
     :cond_1
     invoke-static {p0, p1, p2}, Lcom/meitu/library/appcia/diskspace/c/a;->e(Landroid/content/Context;Lcom/meitu/library/appcia/diskspace/c/a$b;Ljava/util/HashMap;)V
     :try_end_1
@@ -230,10 +218,8 @@
 
     if-eqz p1, :cond_2
 
-    .line 7
     invoke-interface {p1, p0}, Lcom/meitu/library/appcia/diskspace/c/a$b;->a(Ljava/lang/Exception;)V
 
-    .line 8
     :cond_2
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -270,14 +256,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Landroid/content/Context;->getPackageName()Ljava/lang/String;
 
     move-result-object v1
 
     const-string v2, "storagestats"
 
-    .line 2
     invoke-virtual {p0, v2}, Landroid/content/Context;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
 
     move-result-object v2
@@ -286,14 +270,12 @@
 
     const-string v3, "storage"
 
-    .line 3
     invoke-virtual {p0, v3}, Landroid/content/Context;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
 
     move-result-object v3
 
     check-cast v3, Landroid/os/storage/StorageManager;
 
-    .line 4
     new-instance v4, Ljava/io/File;
 
     invoke-virtual {p0}, Landroid/content/Context;->getDataDir()Ljava/io/File;
@@ -306,19 +288,16 @@
 
     invoke-direct {v4, v5, v1}, Ljava/io/File;-><init>(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 5
     invoke-virtual {v4}, Ljava/io/File;->exists()Z
 
     move-result v5
 
     if-eqz v5, :cond_1
 
-    .line 6
     invoke-virtual {v3, v4}, Landroid/os/storage/StorageManager;->getUuidForPath(Ljava/io/File;)Ljava/util/UUID;
 
     move-result-object v3
 
-    .line 7
     invoke-virtual {p0}, Landroid/content/Context;->getPackageManager()Landroid/content/pm/PackageManager;
 
     move-result-object p0
@@ -331,7 +310,6 @@
 
     iget p0, p0, Landroid/content/pm/ApplicationInfo;->uid:I
 
-    .line 8
     invoke-virtual {v2, v3, p0}, Landroid/app/usage/StorageStatsManager;->queryStatsForUid(Ljava/util/UUID;I)Landroid/app/usage/StorageStats;
 
     move-result-object p0
@@ -340,7 +318,6 @@
 
     if-eqz p1, :cond_1
 
-    .line 9
     invoke-virtual {p0}, Landroid/app/usage/StorageStats;->getAppBytes()J
 
     move-result-wide v2
@@ -349,7 +326,6 @@
 
     move-result-wide v4
 
-    .line 10
     invoke-virtual {p0}, Landroid/app/usage/StorageStats;->getCacheBytes()J
 
     move-result-wide v6
@@ -358,7 +334,6 @@
 
     move-object v8, p2
 
-    .line 11
     invoke-interface/range {v1 .. v8}, Lcom/meitu/library/appcia/diskspace/c/a$b;->b(JJJLjava/util/HashMap;)V
 
     goto :goto_0
@@ -366,7 +341,6 @@
     :cond_0
     if-eqz p1, :cond_1
 
-    .line 12
     new-instance p0, Ljava/lang/NullPointerException;
 
     const-string p2, "storageStats is null!"
@@ -375,7 +349,6 @@
 
     invoke-interface {p1, p0}, Lcom/meitu/library/appcia/diskspace/c/a$b;->a(Ljava/lang/Exception;)V
 
-    .line 13
     :cond_1
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -409,12 +382,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Landroid/content/Context;->getPackageName()Ljava/lang/String;
 
     move-result-object v1
 
-    .line 2
     const-class v2, Landroid/content/pm/PackageManager;
 
     const/4 v3, 0x2
@@ -439,7 +410,6 @@
 
     move-result-object v2
 
-    .line 3
     invoke-virtual {p0}, Landroid/content/Context;->getPackageManager()Landroid/content/pm/PackageManager;
 
     move-result-object p0
@@ -492,7 +462,6 @@
 
     invoke-virtual {p2, p0}, Lcom/commsource/beautyplus/c0/a;->k(Lorg/aspectj/lang/e;)Ljava/lang/Object;
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -505,7 +474,6 @@
 
     invoke-static {p3}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0, p1, p2}, Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p0

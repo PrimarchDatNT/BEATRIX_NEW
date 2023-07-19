@@ -70,7 +70,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 2
     iget-object v0, p0, Lcotlin/collections/AbstractMap$toString$1;->this$0:Lcotlin/collections/AbstractMap;
 
     invoke-static {v0, p1}, Lcotlin/collections/AbstractMap;->a(Lcotlin/collections/AbstractMap;Ljava/util/Map$Entry;)Ljava/lang/String;
@@ -83,7 +82,6 @@
 .method public bridge synthetic invoke(Ljava/lang/Object;)Ljava/lang/Object;
     .locals 0
 
-    .line 1
     check-cast p1, Ljava/util/Map$Entry;
 
     invoke-virtual {p0, p1}, Lcotlin/collections/AbstractMap$toString$1;->invoke(Ljava/util/Map$Entry;)Ljava/lang/CharSequence;

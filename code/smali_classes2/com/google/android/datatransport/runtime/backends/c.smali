@@ -17,39 +17,30 @@
 .method constructor <init>(Landroid/content/Context;Lcom/google/android/datatransport/k/y/a;Lcom/google/android/datatransport/k/y/a;Ljava/lang/String;)V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Lcom/google/android/datatransport/runtime/backends/h;-><init>()V
 
     const-string v0, "Null applicationContext"
 
-    .line 2
     invoke-static {p1, v0}, Ljava/util/Objects;->requireNonNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
 
-    .line 3
     iput-object p1, p0, Lcom/google/android/datatransport/runtime/backends/c;->b:Landroid/content/Context;
 
     const-string p1, "Null wallClock"
 
-    .line 4
     invoke-static {p2, p1}, Ljava/util/Objects;->requireNonNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
 
-    .line 5
     iput-object p2, p0, Lcom/google/android/datatransport/runtime/backends/c;->c:Lcom/google/android/datatransport/k/y/a;
 
     const-string p1, "Null monotonicClock"
 
-    .line 6
     invoke-static {p3, p1}, Ljava/util/Objects;->requireNonNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
 
-    .line 7
     iput-object p3, p0, Lcom/google/android/datatransport/runtime/backends/c;->d:Lcom/google/android/datatransport/k/y/a;
 
     const-string p1, "Null backendName"
 
-    .line 8
     invoke-static {p4, p1}, Ljava/util/Objects;->requireNonNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
 
-    .line 9
     iput-object p4, p0, Lcom/google/android/datatransport/runtime/backends/c;->e:Ljava/lang/String;
 
     return-void
@@ -60,7 +51,6 @@
 .method public c()Landroid/content/Context;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/datatransport/runtime/backends/c;->b:Landroid/content/Context;
 
     return-object v0
@@ -71,7 +61,6 @@
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/datatransport/runtime/backends/c;->e:Ljava/lang/String;
 
     return-object v0
@@ -80,7 +69,6 @@
 .method public e()Lcom/google/android/datatransport/k/y/a;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/datatransport/runtime/backends/c;->d:Lcom/google/android/datatransport/k/y/a;
 
     return-object v0
@@ -95,7 +83,6 @@
 
     return v0
 
-    .line 1
     :cond_0
     instance-of v1, p1, Lcom/google/android/datatransport/runtime/backends/h;
 
@@ -103,10 +90,8 @@
 
     if-eqz v1, :cond_2
 
-    .line 2
     check-cast p1, Lcom/google/android/datatransport/runtime/backends/h;
 
-    .line 3
     iget-object v1, p0, Lcom/google/android/datatransport/runtime/backends/c;->b:Landroid/content/Context;
 
     invoke-virtual {p1}, Lcom/google/android/datatransport/runtime/backends/h;->c()Landroid/content/Context;
@@ -121,7 +106,6 @@
 
     iget-object v1, p0, Lcom/google/android/datatransport/runtime/backends/c;->c:Lcom/google/android/datatransport/k/y/a;
 
-    .line 4
     invoke-virtual {p1}, Lcom/google/android/datatransport/runtime/backends/h;->f()Lcom/google/android/datatransport/k/y/a;
 
     move-result-object v3
@@ -134,7 +118,6 @@
 
     iget-object v1, p0, Lcom/google/android/datatransport/runtime/backends/c;->d:Lcom/google/android/datatransport/k/y/a;
 
-    .line 5
     invoke-virtual {p1}, Lcom/google/android/datatransport/runtime/backends/h;->e()Lcom/google/android/datatransport/k/y/a;
 
     move-result-object v3
@@ -147,7 +130,6 @@
 
     iget-object v1, p0, Lcom/google/android/datatransport/runtime/backends/c;->e:Ljava/lang/String;
 
-    .line 6
     invoke-virtual {p1}, Lcom/google/android/datatransport/runtime/backends/h;->d()Ljava/lang/String;
 
     move-result-object p1
@@ -173,7 +155,6 @@
 .method public f()Lcom/google/android/datatransport/k/y/a;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/datatransport/runtime/backends/c;->c:Lcom/google/android/datatransport/k/y/a;
 
     return-object v0
@@ -182,7 +163,6 @@
 .method public hashCode()I
     .locals 3
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/datatransport/runtime/backends/c;->b:Landroid/content/Context;
 
     invoke-virtual {v0}, Ljava/lang/Object;->hashCode()I
@@ -195,7 +175,6 @@
 
     mul-int v0, v0, v1
 
-    .line 2
     iget-object v2, p0, Lcom/google/android/datatransport/runtime/backends/c;->c:Lcom/google/android/datatransport/k/y/a;
 
     invoke-virtual {v2}, Ljava/lang/Object;->hashCode()I
@@ -206,7 +185,6 @@
 
     mul-int v0, v0, v1
 
-    .line 3
     iget-object v2, p0, Lcom/google/android/datatransport/runtime/backends/c;->d:Lcom/google/android/datatransport/k/y/a;
 
     invoke-virtual {v2}, Ljava/lang/Object;->hashCode()I
@@ -217,7 +195,6 @@
 
     mul-int v0, v0, v1
 
-    .line 4
     iget-object v1, p0, Lcom/google/android/datatransport/runtime/backends/c;->e:Ljava/lang/String;
 
     invoke-virtual {v1}, Ljava/lang/String;->hashCode()I
@@ -232,7 +209,6 @@
 .method public toString()Ljava/lang/String;
     .locals 2
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V

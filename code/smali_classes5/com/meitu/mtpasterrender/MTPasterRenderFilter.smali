@@ -27,7 +27,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     const-class v1, Lcom/meitu/mtpasterrender/MTPasterRenderFilter;
 
     invoke-virtual {v1}, Ljava/lang/Class;->getSimpleName()Ljava/lang/String;
@@ -36,10 +35,8 @@
 
     sput-object v1, Lcom/meitu/mtpasterrender/MTPasterRenderFilter;->b:Ljava/lang/String;
 
-    .line 2
     invoke-static {}, Lcom/meitu/mtpasterrender/MTPasterRenderFilter;->b()V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -48,18 +45,14 @@
 .method public constructor <init>()V
     .locals 2
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const-wide/16 v0, 0x0
 
-    .line 2
     iput-wide v0, p0, Lcom/meitu/mtpasterrender/MTPasterRenderFilter;->a:J
 
-    .line 3
     invoke-static {}, Lcom/meitu/mtpasterrender/MTPasterRenderFilter;->b()V
 
-    .line 4
     invoke-direct {p0}, Lcom/meitu/mtpasterrender/MTPasterRenderFilter;->nCreate()J
 
     move-result-wide v0
@@ -79,7 +72,6 @@
     :try_start_0
     const-string v1, "gnustl_shared"
 
-    .line 1
     invoke-static {v1}, Lf/k/a0/a;->c(Ljava/lang/String;)V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
@@ -89,21 +81,18 @@
     :catchall_0
     move-exception v1
 
-    .line 2
     sget-object v2, Lcom/meitu/mtpasterrender/MTPasterRenderFilter;->b:Ljava/lang/String;
 
     const-string v3, "load gnustl_shared fail"
 
     invoke-static {v2, v3}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 3
     invoke-virtual {v1}, Ljava/lang/Throwable;->printStackTrace()V
 
     :goto_0
     :try_start_1
     const-string v1, "c++_shared"
 
-    .line 4
     invoke-static {v1}, Lf/k/a0/a;->c(Ljava/lang/String;)V
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_1
@@ -113,21 +102,18 @@
     :catchall_1
     move-exception v1
 
-    .line 5
     sget-object v2, Lcom/meitu/mtpasterrender/MTPasterRenderFilter;->b:Ljava/lang/String;
 
     const-string v3, "load c++_shared fail"
 
     invoke-static {v2, v3}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 6
     invoke-virtual {v1}, Ljava/lang/Throwable;->printStackTrace()V
 
     :goto_1
     :try_start_2
     const-string v1, "MTPasterRender"
 
-    .line 7
     invoke-static {v1}, Lf/k/a0/a;->c(Ljava/lang/String;)V
     :try_end_2
     .catchall {:try_start_2 .. :try_end_2} :catchall_2
@@ -137,17 +123,14 @@
     :catchall_2
     move-exception v1
 
-    .line 8
     sget-object v2, Lcom/meitu/mtpasterrender/MTPasterRenderFilter;->b:Ljava/lang/String;
 
     const-string v3, "load MTPasterRender fail"
 
     invoke-static {v2, v3}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 9
     invoke-virtual {v1}, Ljava/lang/Throwable;->printStackTrace()V
 
-    .line 10
     :goto_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -256,12 +239,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/mtpasterrender/MTPasterRenderFilter;->a:J
 
     invoke-direct {p0, v1, v2, p1}, Lcom/meitu/mtpasterrender/MTPasterRenderFilter;->nSetStrokeApply(JZ)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -274,7 +255,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v2, p0, Lcom/meitu/mtpasterrender/MTPasterRenderFilter;->a:J
 
     move-object v1, p0
@@ -289,7 +269,6 @@
 
     invoke-direct/range {v1 .. v7}, Lcom/meitu/mtpasterrender/MTPasterRenderFilter;->nSetStrokeColor(JFFFF)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -302,12 +281,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/mtpasterrender/MTPasterRenderFilter;->a:J
 
     invoke-direct {p0, v1, v2, p1}, Lcom/meitu/mtpasterrender/MTPasterRenderFilter;->nSetStrokeColorEnable(JZ)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -320,7 +297,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v2, p0, Lcom/meitu/mtpasterrender/MTPasterRenderFilter;->a:J
 
     move-object v1, p0
@@ -333,7 +309,6 @@
 
     invoke-direct/range {v1 .. v6}, Lcom/meitu/mtpasterrender/MTPasterRenderFilter;->nSetStrokeTexture(JIII)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -346,7 +321,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v2, p0, Lcom/meitu/mtpasterrender/MTPasterRenderFilter;->a:J
 
     move-object v1, p0
@@ -359,7 +333,6 @@
 
     invoke-direct/range {v1 .. v6}, Lcom/meitu/mtpasterrender/MTPasterRenderFilter;->nSetTexture(JIII)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -372,12 +345,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/mtpasterrender/MTPasterRenderFilter;->a:J
 
     invoke-direct {p0, v1, v2}, Lcom/meitu/mtpasterrender/MTPasterRenderFilter;->nInitInGL(J)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -392,7 +363,6 @@
 
     move-object v10, p0
 
-    .line 1
     iget-wide v2, v10, Lcom/meitu/mtpasterrender/MTPasterRenderFilter;->a:J
 
     move-object v1, p0
@@ -425,12 +395,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/mtpasterrender/MTPasterRenderFilter;->a:J
 
     invoke-direct {p0, v1, v2}, Lcom/meitu/mtpasterrender/MTPasterRenderFilter;->nReleaseInGL(J)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -443,7 +411,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/mtpasterrender/MTPasterRenderFilter;->a:J
 
     invoke-direct {p0, v1, v2, p1}, Lcom/meitu/mtpasterrender/MTPasterRenderFilter;->nSetAlpha(JF)Z
@@ -462,7 +429,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v2, p0, Lcom/meitu/mtpasterrender/MTPasterRenderFilter;->a:J
 
     move-object v1, p0
@@ -496,7 +462,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     :try_start_0
     iget-wide v1, p0, Lcom/meitu/mtpasterrender/MTPasterRenderFilter;->a:J
 
@@ -504,10 +469,8 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 2
     invoke-super {p0}, Ljava/lang/Object;->finalize()V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -515,10 +478,8 @@
     :catchall_0
     move-exception v1
 
-    .line 4
     invoke-super {p0}, Ljava/lang/Object;->finalize()V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     throw v1
@@ -531,7 +492,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/mtpasterrender/MTPasterRenderFilter;->a:J
 
     invoke-direct {p0, v1, v2, p1}, Lcom/meitu/mtpasterrender/MTPasterRenderFilter;->nSetColorEnable(JZ)Z
@@ -550,7 +510,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v2, p0, Lcom/meitu/mtpasterrender/MTPasterRenderFilter;->a:J
 
     move-object v1, p0
@@ -565,7 +524,6 @@
 
     invoke-direct/range {v1 .. v7}, Lcom/meitu/mtpasterrender/MTPasterRenderFilter;->nSetFullMask(JIIII)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -578,7 +536,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/mtpasterrender/MTPasterRenderFilter;->a:J
 
     invoke-direct {p0, v1, v2, p1}, Lcom/meitu/mtpasterrender/MTPasterRenderFilter;->nSetMirrorX(JZ)Z
@@ -597,7 +554,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/mtpasterrender/MTPasterRenderFilter;->a:J
 
     invoke-direct {p0, v1, v2, p1}, Lcom/meitu/mtpasterrender/MTPasterRenderFilter;->nSetMirrorY(JZ)Z
@@ -616,7 +572,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v2, p0, Lcom/meitu/mtpasterrender/MTPasterRenderFilter;->a:J
 
     move-object v1, p0
@@ -647,7 +602,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/mtpasterrender/MTPasterRenderFilter;->a:J
 
     invoke-direct {p0, v1, v2, p1}, Lcom/meitu/mtpasterrender/MTPasterRenderFilter;->nSetMixColorEnable(JZ)Z
@@ -666,7 +620,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/mtpasterrender/MTPasterRenderFilter;->a:J
 
     invoke-direct {p0, v1, v2, p1}, Lcom/meitu/mtpasterrender/MTPasterRenderFilter;->nSetPasterApply(JZ)Z
@@ -685,7 +638,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/mtpasterrender/MTPasterRenderFilter;->a:J
 
     invoke-direct {p0, v1, v2, p1, p2}, Lcom/meitu/mtpasterrender/MTPasterRenderFilter;->nSetPosition(JFF)Z
@@ -704,12 +656,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/mtpasterrender/MTPasterRenderFilter;->a:J
 
     invoke-direct {p0, v1, v2, p1}, Lcom/meitu/mtpasterrender/MTPasterRenderFilter;->nSetPsBlendType(JLcom/meitu/mtpasterrender/MTPasterRenderFilter$MtPsBlendType;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -722,7 +672,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/mtpasterrender/MTPasterRenderFilter;->a:J
 
     invoke-direct {p0, v1, v2, p1}, Lcom/meitu/mtpasterrender/MTPasterRenderFilter;->nSetRotate(JF)Z
@@ -741,7 +690,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/mtpasterrender/MTPasterRenderFilter;->a:J
 
     invoke-direct {p0, v1, v2, p1, p1}, Lcom/meitu/mtpasterrender/MTPasterRenderFilter;->nSetScale(JFF)Z
@@ -760,7 +708,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/mtpasterrender/MTPasterRenderFilter;->a:J
 
     invoke-direct {p0, v1, v2, p1, p2}, Lcom/meitu/mtpasterrender/MTPasterRenderFilter;->nSetScale(JFF)Z
@@ -779,7 +726,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v2, p0, Lcom/meitu/mtpasterrender/MTPasterRenderFilter;->a:J
 
     move-object v1, p0
@@ -808,12 +754,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/mtpasterrender/MTPasterRenderFilter;->a:J
 
     invoke-direct {p0, v1, v2, p1}, Lcom/meitu/mtpasterrender/MTPasterRenderFilter;->nSetShadowAlpha(JF)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -826,12 +770,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/mtpasterrender/MTPasterRenderFilter;->a:J
 
     invoke-direct {p0, v1, v2, p1}, Lcom/meitu/mtpasterrender/MTPasterRenderFilter;->nSetShadowApply(JZ)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -844,7 +786,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v2, p0, Lcom/meitu/mtpasterrender/MTPasterRenderFilter;->a:J
 
     move-object v1, p0
@@ -859,7 +800,6 @@
 
     invoke-direct/range {v1 .. v7}, Lcom/meitu/mtpasterrender/MTPasterRenderFilter;->nSetShadowColor(JFFFF)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -872,12 +812,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/mtpasterrender/MTPasterRenderFilter;->a:J
 
     invoke-direct {p0, v1, v2, p1}, Lcom/meitu/mtpasterrender/MTPasterRenderFilter;->nSetShadowColorEnable(JZ)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -890,12 +828,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/mtpasterrender/MTPasterRenderFilter;->a:J
 
     invoke-direct {p0, v1, v2, p1, p2}, Lcom/meitu/mtpasterrender/MTPasterRenderFilter;->nSetShadowPosition(JFF)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -908,7 +844,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v2, p0, Lcom/meitu/mtpasterrender/MTPasterRenderFilter;->a:J
 
     move-object v1, p0
@@ -921,7 +856,6 @@
 
     invoke-direct/range {v1 .. v6}, Lcom/meitu/mtpasterrender/MTPasterRenderFilter;->nSetShadowTexture(JIII)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -934,12 +868,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/mtpasterrender/MTPasterRenderFilter;->a:J
 
     invoke-direct {p0, v1, v2, p1}, Lcom/meitu/mtpasterrender/MTPasterRenderFilter;->nSetStrokeAlpha(JF)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

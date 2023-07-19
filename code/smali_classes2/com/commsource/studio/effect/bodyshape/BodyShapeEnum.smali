@@ -98,7 +98,6 @@
 
     move-object v2, v13
 
-    .line 1
     invoke-direct/range {v2 .. v12}, Lcom/commsource/studio/effect/bodyshape/BodyShapeEnum;-><init>(Ljava/lang/String;IIIILjava/lang/String;Ljava/lang/String;ZILcotlin/jvm/internal/u;)V
 
     sput-object v13, Lcom/commsource/studio/effect/bodyshape/BodyShapeEnum;->Slim:Lcom/commsource/studio/effect/bodyshape/BodyShapeEnum;
@@ -125,7 +124,6 @@
 
     move-object v3, v2
 
-    .line 2
     invoke-direct/range {v3 .. v11}, Lcom/commsource/studio/effect/bodyshape/BodyShapeEnum;-><init>(Ljava/lang/String;IIIILjava/lang/String;Ljava/lang/String;Z)V
 
     sput-object v2, Lcom/commsource/studio/effect/bodyshape/BodyShapeEnum;->Waist:Lcom/commsource/studio/effect/bodyshape/BodyShapeEnum;
@@ -156,7 +154,6 @@
 
     move-object v4, v2
 
-    .line 3
     invoke-direct/range {v4 .. v14}, Lcom/commsource/studio/effect/bodyshape/BodyShapeEnum;-><init>(Ljava/lang/String;IIIILjava/lang/String;Ljava/lang/String;ZILcotlin/jvm/internal/u;)V
 
     sput-object v2, Lcom/commsource/studio/effect/bodyshape/BodyShapeEnum;->ThinLeg:Lcom/commsource/studio/effect/bodyshape/BodyShapeEnum;
@@ -183,7 +180,6 @@
 
     move-object v4, v2
 
-    .line 4
     invoke-direct/range {v4 .. v14}, Lcom/commsource/studio/effect/bodyshape/BodyShapeEnum;-><init>(Ljava/lang/String;IIIILjava/lang/String;Ljava/lang/String;ZILcotlin/jvm/internal/u;)V
 
     sput-object v2, Lcom/commsource/studio/effect/bodyshape/BodyShapeEnum;->LongLeg:Lcom/commsource/studio/effect/bodyshape/BodyShapeEnum;
@@ -210,7 +206,6 @@
 
     move-object v4, v2
 
-    .line 5
     invoke-direct/range {v4 .. v14}, Lcom/commsource/studio/effect/bodyshape/BodyShapeEnum;-><init>(Ljava/lang/String;IIIILjava/lang/String;Ljava/lang/String;ZILcotlin/jvm/internal/u;)V
 
     sput-object v2, Lcom/commsource/studio/effect/bodyshape/BodyShapeEnum;->Breast:Lcom/commsource/studio/effect/bodyshape/BodyShapeEnum;
@@ -239,7 +234,6 @@
 
     move-object v4, v2
 
-    .line 6
     invoke-direct/range {v4 .. v12}, Lcom/commsource/studio/effect/bodyshape/BodyShapeEnum;-><init>(Ljava/lang/String;IIIILjava/lang/String;Ljava/lang/String;Z)V
 
     sput-object v2, Lcom/commsource/studio/effect/bodyshape/BodyShapeEnum;->Shoulder:Lcom/commsource/studio/effect/bodyshape/BodyShapeEnum;
@@ -268,7 +262,6 @@
 
     move-object v4, v2
 
-    .line 7
     invoke-direct/range {v4 .. v14}, Lcom/commsource/studio/effect/bodyshape/BodyShapeEnum;-><init>(Ljava/lang/String;IIIILjava/lang/String;Ljava/lang/String;ZILcotlin/jvm/internal/u;)V
 
     sput-object v2, Lcom/commsource/studio/effect/bodyshape/BodyShapeEnum;->ThinArms:Lcom/commsource/studio/effect/bodyshape/BodyShapeEnum;
@@ -295,7 +288,6 @@
 
     move-object v4, v2
 
-    .line 8
     invoke-direct/range {v4 .. v14}, Lcom/commsource/studio/effect/bodyshape/BodyShapeEnum;-><init>(Ljava/lang/String;IIIILjava/lang/String;Ljava/lang/String;ZILcotlin/jvm/internal/u;)V
 
     sput-object v2, Lcom/commsource/studio/effect/bodyshape/BodyShapeEnum;->Taller:Lcom/commsource/studio/effect/bodyshape/BodyShapeEnum;
@@ -330,7 +322,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
     iput p3, p0, Lcom/commsource/studio/effect/bodyshape/BodyShapeEnum;->id:I
@@ -381,7 +372,6 @@
 
     move-object/from16 v8, p7
 
-    .line 2
     invoke-direct/range {v1 .. v9}, Lcom/commsource/studio/effect/bodyshape/BodyShapeEnum;-><init>(Ljava/lang/String;IIIILjava/lang/String;Ljava/lang/String;Z)V
 
     return-void
@@ -436,7 +426,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/studio/effect/bodyshape/BodyShapeEnum;->bothWay:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -453,7 +442,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/effect/bodyshape/BodyShapeEnum;->dictValue:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -468,7 +456,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/effect/bodyshape/BodyShapeEnum;->iconFontRes:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -483,7 +470,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/effect/bodyshape/BodyShapeEnum;->id:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -498,7 +484,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/effect/bodyshape/BodyShapeEnum;->nameRes:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -515,7 +500,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/effect/bodyshape/BodyShapeEnum;->statisticName:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

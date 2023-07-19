@@ -20,7 +20,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -29,7 +28,6 @@
 .method public synthetic constructor <init>(Lcotlin/jvm/internal/u;)V
     .locals 0
 
-    .line 2
     invoke-direct {p0}, Lkshark/HprofWriter$a;-><init>()V
 
     return-void
@@ -51,7 +49,6 @@
 
     if-eqz p4, :cond_1
 
-    .line 1
     sget-object p3, Lkshark/Hprof$HprofVersion;->ANDROID:Lkshark/Hprof$HprofVersion;
 
     :cond_1
@@ -85,7 +82,6 @@
 
     invoke-static {p3, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     new-instance v0, Ljava/io/FileOutputStream;
 
     invoke-direct {v0, p1}, Ljava/io/FileOutputStream;-><init>(Ljava/io/File;)V
@@ -98,7 +94,6 @@
 
     move-result-object p1
 
-    .line 2
     invoke-virtual {p3}, Lkshark/Hprof$HprofVersion;->getVersionString()Ljava/lang/String;
 
     move-result-object v0
@@ -107,21 +102,16 @@
 
     const/4 v0, 0x0
 
-    .line 3
     invoke-interface {p1, v0}, Lokio/BufferedSink;->writeByte(I)Lokio/BufferedSink;
 
-    .line 4
     invoke-interface {p1, p2}, Lokio/BufferedSink;->writeInt(I)Lokio/BufferedSink;
 
-    .line 5
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v0
 
-    .line 6
     invoke-interface {p1, v0, v1}, Lokio/BufferedSink;->writeLong(J)Lokio/BufferedSink;
 
-    .line 7
     new-instance v0, Lkshark/HprofWriter;
 
     const-string v1, "sink"

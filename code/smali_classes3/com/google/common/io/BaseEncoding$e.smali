@@ -24,7 +24,6 @@
 .method constructor <init>(Ljava/lang/Appendable;Ljava/io/Writer;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/common/io/BaseEncoding$e;->a:Ljava/lang/Appendable;
 
     iput-object p2, p0, Lcom/google/common/io/BaseEncoding$e;->b:Ljava/io/Writer;
@@ -44,7 +43,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/io/BaseEncoding$e;->b:Ljava/io/Writer;
 
     invoke-virtual {v0}, Ljava/io/Writer;->close()V
@@ -60,7 +58,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/io/BaseEncoding$e;->b:Ljava/io/Writer;
 
     invoke-virtual {v0}, Ljava/io/Writer;->flush()V
@@ -76,7 +73,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/io/BaseEncoding$e;->a:Ljava/lang/Appendable;
 
     int-to-char p1, p1
@@ -94,7 +90,6 @@
         }
     .end annotation
 
-    .line 2
     new-instance p1, Ljava/lang/UnsupportedOperationException;
 
     invoke-direct {p1}, Ljava/lang/UnsupportedOperationException;-><init>()V

@@ -44,7 +44,6 @@
 
     if-nez p1, :cond_0
 
-    .line 1
     iget-object p1, p0, Lcom/commsource/beautyplus/setting/test/TestFuncViewModel$a;->a:Lcom/commsource/beautyplus/setting/test/TestFuncViewModel;
 
     invoke-virtual {p1}, Lcom/commsource/beautyplus/setting/test/TestFuncViewModel;->A()Landroidx/lifecycle/MutableLiveData;
@@ -61,7 +60,6 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     iget-object p1, p0, Lcom/commsource/beautyplus/setting/test/TestFuncViewModel$a;->a:Lcom/commsource/beautyplus/setting/test/TestFuncViewModel;
 
@@ -77,7 +75,6 @@
 
     invoke-virtual {p1, v1}, Landroidx/lifecycle/MutableLiveData;->postValue(Ljava/lang/Object;)V
 
-    .line 3
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

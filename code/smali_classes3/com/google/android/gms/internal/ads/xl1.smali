@@ -7,7 +7,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -16,21 +15,18 @@
 .method public static c()Lcom/google/android/gms/internal/ads/am1;
     .locals 2
 
-    .line 1
     new-instance v0, Lcom/google/android/gms/internal/ads/em1;
 
     invoke-direct {v0}, Lcom/google/android/gms/internal/ads/em1;-><init>()V
 
     const/4 v1, 0x0
 
-    .line 2
     invoke-virtual {v0, v1}, Lcom/google/android/gms/internal/ads/am1;->b(Z)Lcom/google/android/gms/internal/ads/am1;
 
     move-result-object v0
 
     const/4 v1, 0x1
 
-    .line 3
     invoke-virtual {v0, v1}, Lcom/google/android/gms/internal/ads/am1;->c(Z)Lcom/google/android/gms/internal/ads/am1;
 
     move-result-object v0

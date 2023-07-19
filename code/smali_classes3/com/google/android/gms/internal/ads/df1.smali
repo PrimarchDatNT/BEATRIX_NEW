@@ -26,12 +26,10 @@
 .method public final a(Ljava/lang/Object;)V
     .locals 3
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/df1;->a:Lcom/google/android/gms/internal/ads/ei;
 
     check-cast p1, Lcom/google/android/gms/internal/ads/gj;
 
-    .line 2
     new-instance v1, Lcom/google/android/gms/internal/ads/bk;
 
     invoke-interface {v0}, Lcom/google/android/gms/internal/ads/ei;->getType()Ljava/lang/String;

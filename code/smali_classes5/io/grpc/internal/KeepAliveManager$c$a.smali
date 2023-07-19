@@ -25,7 +25,6 @@
 .method constructor <init>(Lio/grpc/internal/KeepAliveManager$c;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lio/grpc/internal/KeepAliveManager$c$a;->a:Lio/grpc/internal/KeepAliveManager$c;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -38,7 +37,6 @@
 .method public a(Ljava/lang/Throwable;)V
     .locals 2
 
-    .line 1
     iget-object p1, p0, Lio/grpc/internal/KeepAliveManager$c$a;->a:Lio/grpc/internal/KeepAliveManager$c;
 
     invoke-static {p1}, Lio/grpc/internal/KeepAliveManager$c;->c(Lio/grpc/internal/KeepAliveManager$c;)Lio/grpc/internal/y;

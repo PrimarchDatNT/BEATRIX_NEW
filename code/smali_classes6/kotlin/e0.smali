@@ -24,7 +24,6 @@
         version = "1.2"
     .end annotation
 
-    .line 1
     invoke-virtual {p0, p1}, Ljava/math/BigInteger;->shiftRight(I)Ljava/math/BigInteger;
 
     move-result-object p0
@@ -45,7 +44,6 @@
 
     invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-virtual {p0, p1}, Ljava/math/BigInteger;->multiply(Ljava/math/BigInteger;)Ljava/math/BigInteger;
 
     move-result-object p0
@@ -66,7 +64,6 @@
         version = "1.2"
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/math/BigDecimal;
 
     invoke-direct {v0, p0}, Ljava/math/BigDecimal;-><init>(Ljava/math/BigInteger;)V
@@ -83,7 +80,6 @@
         version = "1.2"
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/math/BigDecimal;
 
     invoke-direct {v0, p0, p1, p2}, Ljava/math/BigDecimal;-><init>(Ljava/math/BigInteger;ILjava/math/MathContext;)V
@@ -105,14 +101,12 @@
 
     if-eqz p3, :cond_1
 
-    .line 1
     sget-object p2, Ljava/math/MathContext;->UNLIMITED:Ljava/math/MathContext;
 
     const-string p3, "MathContext.UNLIMITED"
 
     invoke-static {p2, p3}, Lcotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 2
     :cond_1
     new-instance p3, Ljava/math/BigDecimal;
 
@@ -132,7 +126,6 @@
 
     int-to-long v0, p0
 
-    .line 1
     invoke-static {v0, v1}, Ljava/math/BigInteger;->valueOf(J)Ljava/math/BigInteger;
 
     move-result-object p0
@@ -153,7 +146,6 @@
         version = "1.2"
     .end annotation
 
-    .line 1
     invoke-static {p0, p1}, Ljava/math/BigInteger;->valueOf(J)Ljava/math/BigInteger;
 
     move-result-object p0
@@ -174,7 +166,6 @@
 
     invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-virtual {p0}, Ljava/math/BigInteger;->negate()Ljava/math/BigInteger;
 
     move-result-object p0
@@ -195,7 +186,6 @@
         version = "1.2"
     .end annotation
 
-    .line 1
     invoke-virtual {p0, p1}, Ljava/math/BigInteger;->xor(Ljava/math/BigInteger;)Ljava/math/BigInteger;
 
     move-result-object p0
@@ -216,7 +206,6 @@
         version = "1.2"
     .end annotation
 
-    .line 1
     invoke-virtual {p0, p1}, Ljava/math/BigInteger;->and(Ljava/math/BigInteger;)Ljava/math/BigInteger;
 
     move-result-object p0
@@ -241,7 +230,6 @@
 
     invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     sget-object v0, Ljava/math/BigInteger;->ONE:Ljava/math/BigInteger;
 
     invoke-virtual {p0, v0}, Ljava/math/BigInteger;->subtract(Ljava/math/BigInteger;)Ljava/math/BigInteger;
@@ -264,7 +252,6 @@
 
     invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-virtual {p0, p1}, Ljava/math/BigInteger;->divide(Ljava/math/BigInteger;)Ljava/math/BigInteger;
 
     move-result-object p0
@@ -289,7 +276,6 @@
 
     invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     sget-object v0, Ljava/math/BigInteger;->ONE:Ljava/math/BigInteger;
 
     invoke-virtual {p0, v0}, Ljava/math/BigInteger;->add(Ljava/math/BigInteger;)Ljava/math/BigInteger;
@@ -312,7 +298,6 @@
         version = "1.2"
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Ljava/math/BigInteger;->not()Ljava/math/BigInteger;
 
     move-result-object p0
@@ -333,7 +318,6 @@
 
     invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-virtual {p0, p1}, Ljava/math/BigInteger;->subtract(Ljava/math/BigInteger;)Ljava/math/BigInteger;
 
     move-result-object p0
@@ -354,7 +338,6 @@
         version = "1.2"
     .end annotation
 
-    .line 1
     invoke-virtual {p0, p1}, Ljava/math/BigInteger;->or(Ljava/math/BigInteger;)Ljava/math/BigInteger;
 
     move-result-object p0
@@ -375,7 +358,6 @@
 
     invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-virtual {p0, p1}, Ljava/math/BigInteger;->add(Ljava/math/BigInteger;)Ljava/math/BigInteger;
 
     move-result-object p0
@@ -400,7 +382,6 @@
 
     invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-virtual {p0, p1}, Ljava/math/BigInteger;->remainder(Ljava/math/BigInteger;)Ljava/math/BigInteger;
 
     move-result-object p0
@@ -421,7 +402,6 @@
         version = "1.2"
     .end annotation
 
-    .line 1
     invoke-virtual {p0, p1}, Ljava/math/BigInteger;->shiftLeft(I)Ljava/math/BigInteger;
 
     move-result-object p0

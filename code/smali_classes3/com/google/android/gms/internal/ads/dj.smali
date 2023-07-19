@@ -12,7 +12,6 @@
 
     const-string v0, "com.google.android.gms.ads.internal.rewarded.client.IRewardItem"
 
-    .line 1
     invoke-direct {p0, v0}, Lcom/google/android/gms/internal/ads/l82;-><init>(Ljava/lang/String;)V
 
     return-void
@@ -30,22 +29,18 @@
     :cond_0
     const-string v0, "com.google.android.gms.ads.internal.rewarded.client.IRewardItem"
 
-    .line 1
     invoke-interface {p0, v0}, Landroid/os/IBinder;->queryLocalInterface(Ljava/lang/String;)Landroid/os/IInterface;
 
     move-result-object v0
 
-    .line 2
     instance-of v1, v0, Lcom/google/android/gms/internal/ads/aj;
 
     if-eqz v1, :cond_1
 
-    .line 3
     check-cast v0, Lcom/google/android/gms/internal/ads/aj;
 
     return-object v0
 
-    .line 4
     :cond_1
     new-instance v0, Lcom/google/android/gms/internal/ads/cj;
 
@@ -76,30 +71,24 @@
 
     return p1
 
-    .line 1
     :cond_0
     invoke-interface {p0}, Lcom/google/android/gms/internal/ads/aj;->r()I
 
     move-result p1
 
-    .line 2
     invoke-virtual {p3}, Landroid/os/Parcel;->writeNoException()V
 
-    .line 3
     invoke-virtual {p3, p1}, Landroid/os/Parcel;->writeInt(I)V
 
     goto :goto_0
 
-    .line 4
     :cond_1
     invoke-interface {p0}, Lcom/google/android/gms/internal/ads/aj;->getType()Ljava/lang/String;
 
     move-result-object p1
 
-    .line 5
     invoke-virtual {p3}, Landroid/os/Parcel;->writeNoException()V
 
-    .line 6
     invoke-virtual {p3, p1}, Landroid/os/Parcel;->writeString(Ljava/lang/String;)V
 
     :goto_0

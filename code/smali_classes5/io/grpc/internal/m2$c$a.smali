@@ -31,14 +31,12 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lio/grpc/internal/m2$c$a;->d:Lio/grpc/internal/m2$c;
 
     iput-object p2, p0, Lio/grpc/internal/m2$c$a;->b:Li/b/b;
 
     iput-object p3, p0, Lio/grpc/internal/m2$c$a;->c:Lio/grpc/Status;
 
-    .line 2
     invoke-static {p1}, Lio/grpc/internal/m2$c;->h(Lio/grpc/internal/m2$c;)Lio/grpc/Context$f;
 
     move-result-object p1
@@ -53,7 +51,6 @@
 .method public a()V
     .locals 3
 
-    .line 1
     iget-object v0, p0, Lio/grpc/internal/m2$c$a;->d:Lio/grpc/internal/m2$c;
 
     invoke-static {v0}, Lio/grpc/internal/m2$c;->i(Lio/grpc/internal/m2$c;)Li/b/d;
@@ -64,12 +61,10 @@
 
     invoke-static {v1, v0}, Li/b/c;->m(Ljava/lang/String;Li/b/d;)V
 
-    .line 2
     iget-object v0, p0, Lio/grpc/internal/m2$c$a;->b:Li/b/b;
 
     invoke-static {v0}, Li/b/c;->i(Li/b/b;)V
 
-    .line 3
     :try_start_0
     iget-object v0, p0, Lio/grpc/internal/m2$c$a;->d:Lio/grpc/internal/m2$c;
 
@@ -83,7 +78,6 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 4
     iget-object v0, p0, Lio/grpc/internal/m2$c$a;->d:Lio/grpc/internal/m2$c;
 
     invoke-static {v0}, Lio/grpc/internal/m2$c;->i(Lio/grpc/internal/m2$c;)Li/b/d;

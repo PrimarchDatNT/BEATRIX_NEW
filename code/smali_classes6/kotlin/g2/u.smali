@@ -66,7 +66,6 @@
 .method private constructor <init>(JJJ)V
     .locals 3
 
-    .line 2
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const-wide/16 v0, 0x0
@@ -81,22 +80,18 @@
 
     if-eqz v2, :cond_0
 
-    .line 3
     iput-wide p1, p0, Lcotlin/g2/u;->a:J
 
-    .line 4
     invoke-static/range {p1 .. p6}, Lcotlin/internal/p;->c(JJJ)J
 
     move-result-wide p1
 
     iput-wide p1, p0, Lcotlin/g2/u;->b:J
 
-    .line 5
     iput-wide p5, p0, Lcotlin/g2/u;->c:J
 
     return-void
 
-    .line 6
     :cond_0
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -106,7 +101,6 @@
 
     throw p1
 
-    .line 7
     :cond_1
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -120,7 +114,6 @@
 .method public synthetic constructor <init>(JJJLcotlin/jvm/internal/u;)V
     .locals 0
 
-    .line 1
     invoke-direct/range {p0 .. p6}, Lcotlin/g2/u;-><init>(JJJ)V
 
     return-void
@@ -131,7 +124,6 @@
 .method public final c()J
     .locals 2
 
-    .line 1
     iget-wide v0, p0, Lcotlin/g2/u;->a:J
 
     return-wide v0
@@ -140,7 +132,6 @@
 .method public final e()J
     .locals 2
 
-    .line 1
     iget-wide v0, p0, Lcotlin/g2/u;->b:J
 
     return-wide v0
@@ -153,7 +144,6 @@
         .end annotation
     .end param
 
-    .line 1
     instance-of v0, p1, Lcotlin/g2/u;
 
     if-eqz v0, :cond_2
@@ -216,7 +206,6 @@
 .method public final h()J
     .locals 2
 
-    .line 1
     iget-wide v0, p0, Lcotlin/g2/u;->c:J
 
     return-wide v0
@@ -225,7 +214,6 @@
 .method public hashCode()I
     .locals 7
 
-    .line 1
     invoke-virtual {p0}, Lcotlin/g2/u;->isEmpty()Z
 
     move-result v0
@@ -296,7 +284,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     new-instance v8, Lcotlin/g2/v;
 
     iget-wide v1, p0, Lcotlin/g2/u;->a:J
@@ -317,7 +304,6 @@
 .method public isEmpty()Z
     .locals 7
 
-    .line 1
     iget-wide v0, p0, Lcotlin/g2/u;->c:J
 
     const/4 v2, 0x1
@@ -357,7 +343,6 @@
 .method public bridge synthetic iterator()Ljava/util/Iterator;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcotlin/g2/u;->i()Lcotlin/collections/m1;
 
     move-result-object v0
@@ -370,7 +355,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget-wide v0, p0, Lcotlin/g2/u;->c:J
 
     const-string v2, " step "

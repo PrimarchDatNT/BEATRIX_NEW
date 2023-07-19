@@ -51,19 +51,16 @@
 .method constructor <init>(Lcom/mopub/common/VisibilityTracker;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/mopub/common/VisibilityTracker$VisibilityRunnable;->this$0:Lcom/mopub/common/VisibilityTracker;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     new-instance p1, Ljava/util/ArrayList;
 
     invoke-direct {p1}, Ljava/util/ArrayList;-><init>()V
 
     iput-object p1, p0, Lcom/mopub/common/VisibilityTracker$VisibilityRunnable;->mInvisibleViews:Ljava/util/ArrayList;
 
-    .line 3
     new-instance p1, Ljava/util/ArrayList;
 
     invoke-direct {p1}, Ljava/util/ArrayList;-><init>()V
@@ -78,14 +75,12 @@
 .method public run()V
     .locals 7
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/common/VisibilityTracker$VisibilityRunnable;->this$0:Lcom/mopub/common/VisibilityTracker;
 
     const/4 v1, 0x0
 
     invoke-static {v0, v1}, Lcom/mopub/common/VisibilityTracker;->access$002(Lcom/mopub/common/VisibilityTracker;Z)Z
 
-    .line 2
     iget-object v0, p0, Lcom/mopub/common/VisibilityTracker$VisibilityRunnable;->this$0:Lcom/mopub/common/VisibilityTracker;
 
     invoke-static {v0}, Lcom/mopub/common/VisibilityTracker;->access$100(Lcom/mopub/common/VisibilityTracker;)Ljava/util/Map;
@@ -114,14 +109,12 @@
 
     check-cast v1, Ljava/util/Map$Entry;
 
-    .line 3
     invoke-interface {v1}, Ljava/util/Map$Entry;->getKey()Ljava/lang/Object;
 
     move-result-object v2
 
     check-cast v2, Landroid/view/View;
 
-    .line 4
     invoke-interface {v1}, Ljava/util/Map$Entry;->getValue()Ljava/lang/Object;
 
     move-result-object v3
@@ -130,7 +123,6 @@
 
     iget v3, v3, Lcom/mopub/common/VisibilityTracker$TrackingInfo;->mMinViewablePercent:I
 
-    .line 5
     invoke-interface {v1}, Ljava/util/Map$Entry;->getValue()Ljava/lang/Object;
 
     move-result-object v4
@@ -139,7 +131,6 @@
 
     iget v4, v4, Lcom/mopub/common/VisibilityTracker$TrackingInfo;->mMaxInvisiblePercent:I
 
-    .line 6
     invoke-interface {v1}, Ljava/util/Map$Entry;->getValue()Ljava/lang/Object;
 
     move-result-object v5
@@ -148,7 +139,6 @@
 
     iget-object v5, v5, Lcom/mopub/common/VisibilityTracker$TrackingInfo;->mMinVisiblePx:Ljava/lang/Integer;
 
-    .line 7
     invoke-interface {v1}, Ljava/util/Map$Entry;->getValue()Ljava/lang/Object;
 
     move-result-object v1
@@ -157,7 +147,6 @@
 
     iget-object v1, v1, Lcom/mopub/common/VisibilityTracker$TrackingInfo;->mRootView:Landroid/view/View;
 
-    .line 8
     iget-object v6, p0, Lcom/mopub/common/VisibilityTracker$VisibilityRunnable;->this$0:Lcom/mopub/common/VisibilityTracker;
 
     invoke-static {v6}, Lcom/mopub/common/VisibilityTracker;->access$200(Lcom/mopub/common/VisibilityTracker;)Lcom/mopub/common/VisibilityTracker$VisibilityChecker;
@@ -170,14 +159,12 @@
 
     if-eqz v3, :cond_1
 
-    .line 9
     iget-object v1, p0, Lcom/mopub/common/VisibilityTracker$VisibilityRunnable;->mVisibleViews:Ljava/util/ArrayList;
 
     invoke-virtual {v1, v2}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
     goto :goto_0
 
-    .line 10
     :cond_1
     iget-object v3, p0, Lcom/mopub/common/VisibilityTracker$VisibilityRunnable;->this$0:Lcom/mopub/common/VisibilityTracker;
 
@@ -193,14 +180,12 @@
 
     if-nez v1, :cond_0
 
-    .line 11
     iget-object v1, p0, Lcom/mopub/common/VisibilityTracker$VisibilityRunnable;->mInvisibleViews:Ljava/util/ArrayList;
 
     invoke-virtual {v1, v2}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
     goto :goto_0
 
-    .line 12
     :cond_2
     iget-object v0, p0, Lcom/mopub/common/VisibilityTracker$VisibilityRunnable;->this$0:Lcom/mopub/common/VisibilityTracker;
 
@@ -210,7 +195,6 @@
 
     if-eqz v0, :cond_3
 
-    .line 13
     iget-object v0, p0, Lcom/mopub/common/VisibilityTracker$VisibilityRunnable;->this$0:Lcom/mopub/common/VisibilityTracker;
 
     invoke-static {v0}, Lcom/mopub/common/VisibilityTracker;->access$300(Lcom/mopub/common/VisibilityTracker;)Lcom/mopub/common/VisibilityTracker$VisibilityTrackerListener;
@@ -223,13 +207,11 @@
 
     invoke-interface {v0, v1, v2}, Lcom/mopub/common/VisibilityTracker$VisibilityTrackerListener;->onVisibilityChanged(Ljava/util/List;Ljava/util/List;)V
 
-    .line 14
     :cond_3
     iget-object v0, p0, Lcom/mopub/common/VisibilityTracker$VisibilityRunnable;->mVisibleViews:Ljava/util/ArrayList;
 
     invoke-virtual {v0}, Ljava/util/ArrayList;->clear()V
 
-    .line 15
     iget-object v0, p0, Lcom/mopub/common/VisibilityTracker$VisibilityRunnable;->mInvisibleViews:Ljava/util/ArrayList;
 
     invoke-virtual {v0}, Ljava/util/ArrayList;->clear()V

@@ -147,7 +147,6 @@
 
     move-result-object v0
 
-    .line 1
     iget v1, p0, Lcotlinx/coroutines/flow/internal/ChannelFlow$collectToFun$1;->label:I
 
     const/4 v2, 0x1

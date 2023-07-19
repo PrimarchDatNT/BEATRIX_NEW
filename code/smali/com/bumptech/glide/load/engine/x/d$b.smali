@@ -27,7 +27,6 @@
 .method constructor <init>(Ljava/lang/String;Ljava/lang/String;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/bumptech/glide/load/engine/x/d$b;->a:Ljava/lang/String;
 
     iput-object p2, p0, Lcom/bumptech/glide/load/engine/x/d$b;->b:Ljava/lang/String;
@@ -42,7 +41,6 @@
 .method public a()Ljava/io/File;
     .locals 3
 
-    .line 1
     new-instance v0, Ljava/io/File;
 
     iget-object v1, p0, Lcom/bumptech/glide/load/engine/x/d$b;->a:Ljava/lang/String;

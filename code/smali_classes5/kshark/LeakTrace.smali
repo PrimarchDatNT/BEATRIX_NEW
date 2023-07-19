@@ -123,7 +123,6 @@
 
     invoke-static {p3, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     iput-object p1, p0, Lkshark/LeakTrace;->gcRootType:Lkshark/LeakTrace$GcRootType;
@@ -178,7 +177,6 @@
 .method private final leakTraceAsString(Z)Ljava/lang/String;
     .locals 9
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -187,7 +185,6 @@
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 2
     iget-object v1, p0, Lkshark/LeakTrace;->gcRootType:Lkshark/LeakTrace$GcRootType;
 
     invoke-virtual {v1}, Lkshark/LeakTrace$GcRootType;->getDescription()Ljava/lang/String;
@@ -204,15 +201,12 @@
 
     move-result-object v0
 
-    .line 3
     invoke-static {v0}, Lcotlin/text/m;->p(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
 
-    .line 4
     iget-object v1, p0, Lkshark/LeakTrace;->referencePath:Ljava/util/List;
 
-    .line 5
     invoke-interface {v1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v1
@@ -243,7 +237,6 @@
     :cond_0
     check-cast v3, Lkshark/LeakTraceReference;
 
-    .line 6
     iget-object v7, p0, Lkshark/LeakTrace;->referencePath:Ljava/util/List;
 
     invoke-interface {v7, v2}, Ljava/util/List;->get(I)Ljava/lang/Object;
@@ -280,7 +273,6 @@
 
     if-ne v7, v8, :cond_1
 
-    .line 7
     new-instance v7, Ljava/lang/StringBuilder;
 
     invoke-direct {v7}, Ljava/lang/StringBuilder;-><init>()V
@@ -322,7 +314,6 @@
 
     throw p1
 
-    .line 8
     :cond_2
     new-instance v7, Ljava/lang/StringBuilder;
 
@@ -364,7 +355,6 @@
     :goto_1
     if-nez v2, :cond_4
 
-    .line 9
     iget-object v7, p0, Lkshark/LeakTrace;->gcRootType:Lkshark/LeakTrace$GcRootType;
 
     sget-object v8, Lkshark/LeakTrace$GcRootType;->JAVA_FRAME:Lkshark/LeakTrace$GcRootType;
@@ -384,7 +374,6 @@
 
     move-result-object v7
 
-    .line 10
     :goto_2
     new-instance v8, Ljava/lang/StringBuilder;
 
@@ -416,7 +405,6 @@
 
     if-eqz p1, :cond_5
 
-    .line 11
     new-instance v4, Ljava/lang/StringBuilder;
 
     invoke-direct {v4}, Ljava/lang/StringBuilder;-><init>()V
@@ -433,7 +421,6 @@
 
     move-result-object v0
 
-    .line 12
     :cond_5
     invoke-virtual {v3}, Lkshark/LeakTraceReference;->getOriginObject()Lkshark/LeakTraceObject;
 
@@ -460,7 +447,6 @@
 
     check-cast v5, Ljava/lang/String;
 
-    .line 13
     new-instance v7, Ljava/lang/StringBuilder;
 
     invoke-direct {v7}, Ljava/lang/StringBuilder;-><init>()V
@@ -479,7 +465,6 @@
 
     goto :goto_3
 
-    .line 14
     :cond_6
     new-instance v4, Ljava/lang/StringBuilder;
 
@@ -503,7 +488,6 @@
 
     goto/16 :goto_0
 
-    .line 15
     :cond_7
     new-instance v1, Ljava/lang/StringBuilder;
 
@@ -519,7 +503,6 @@
 
     move-result-object v0
 
-    .line 16
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -556,7 +539,6 @@
 
     if-eqz p1, :cond_8
 
-    .line 17
     new-instance p1, Ljava/lang/StringBuilder;
 
     invoke-direct {p1}, Ljava/lang/StringBuilder;-><init>()V
@@ -569,7 +551,6 @@
 
     move-result-object p1
 
-    .line 18
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -594,7 +575,6 @@
 
     move-result-object v0
 
-    .line 19
     :cond_8
     iget-object p1, p0, Lkshark/LeakTrace;->leakingObject:Lkshark/LeakTraceObject;
 
@@ -619,7 +599,6 @@
 
     check-cast v2, Ljava/lang/String;
 
-    .line 20
     new-instance v3, Ljava/lang/StringBuilder;
 
     invoke-direct {v3}, Ljava/lang/StringBuilder;-><init>()V
@@ -632,7 +611,6 @@
 
     move-result-object v0
 
-    .line 21
     new-instance v3, Ljava/lang/StringBuilder;
 
     invoke-direct {v3}, Ljava/lang/StringBuilder;-><init>()V
@@ -838,7 +816,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lkshark/LeakTrace;->elements:Ljava/util/List;
 
     if-nez v0, :cond_0
@@ -856,24 +833,20 @@
 
     move-result-object v0
 
-    .line 2
     iget-object v1, p0, Lkshark/LeakTrace;->elements:Ljava/util/List;
 
     const/4 v2, 0x0
 
-    .line 3
     invoke-static {v1}, Lcotlin/collections/s;->G(Ljava/util/List;)I
 
     move-result v3
 
     add-int/lit8 v3, v3, -0x1
 
-    .line 4
     invoke-interface {v1, v2, v3}, Ljava/util/List;->subList(II)Ljava/util/List;
 
     move-result-object v1
 
-    .line 5
     new-instance v2, Ljava/util/ArrayList;
 
     const/16 v3, 0xa
@@ -884,7 +857,6 @@
 
     invoke-direct {v2, v3}, Ljava/util/ArrayList;-><init>(I)V
 
-    .line 6
     invoke-interface {v1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v1
@@ -900,10 +872,8 @@
 
     move-result-object v3
 
-    .line 7
     check-cast v3, Lkshark/LeakTraceElement;
 
-    .line 8
     invoke-virtual {v3}, Lkshark/LeakTraceElement;->referencePathElementFromV20()Lkshark/LeakTraceReference;
 
     move-result-object v3
@@ -912,7 +882,6 @@
 
     goto :goto_0
 
-    .line 9
     :cond_1
     iget-object v1, p0, Lkshark/LeakTrace;->elements:Ljava/util/List;
 
@@ -926,7 +895,6 @@
 
     move-result-object v1
 
-    .line 10
     new-instance v3, Lkshark/LeakTrace;
 
     invoke-direct {v3, v0, v2, v1, p1}, Lkshark/LeakTrace;-><init>(Lkshark/LeakTrace$GcRootType;Ljava/util/List;Lkshark/LeakTraceObject;Ljava/lang/Integer;)V
@@ -939,7 +907,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lkshark/LeakTrace;->gcRootType:Lkshark/LeakTrace$GcRootType;
 
     return-object v0
@@ -950,7 +917,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lkshark/LeakTrace;->leakingObject:Lkshark/LeakTraceObject;
 
     return-object v0
@@ -970,7 +936,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lkshark/LeakTrace;->referencePath:Ljava/util/List;
 
     return-object v0
@@ -981,7 +946,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lkshark/LeakTrace;->retainedHeapByteSize:Ljava/lang/Integer;
 
     return-object v0
@@ -992,12 +956,10 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lkshark/LeakTrace;->getSuspectReferenceSubpath()Lcotlin/sequences/m;
 
     move-result-object v0
 
-    .line 2
     sget-object v6, Lkshark/LeakTrace$signature$1;->INSTANCE:Lkshark/LeakTrace$signature$1;
 
     const-string v1, ""
@@ -1018,7 +980,6 @@
 
     move-result-object v0
 
-    .line 3
     invoke-static {v0}, Lkshark/internal/g;->b(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
@@ -1040,14 +1001,12 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lkshark/LeakTrace;->referencePath:Ljava/util/List;
 
     invoke-static {v0}, Lcotlin/collections/s;->n1(Ljava/lang/Iterable;)Lcotlin/sequences/m;
 
     move-result-object v0
 
-    .line 2
     new-instance v1, Lkshark/LeakTrace$suspectReferenceSubpath$1;
 
     invoke-direct {v1, p0}, Lkshark/LeakTrace$suspectReferenceSubpath$1;-><init>(Lkshark/LeakTrace;)V
@@ -1133,7 +1092,6 @@
 .method public final referencePathElementIsSuspect(I)Z
     .locals 4
 
-    .line 1
     iget-object v0, p0, Lkshark/LeakTrace;->referencePath:Ljava/util/List;
 
     invoke-interface {v0, p1}, Ljava/util/List;->get(I)Ljava/lang/Object;
@@ -1170,7 +1128,6 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     iget-object v0, p0, Lkshark/LeakTrace;->referencePath:Ljava/util/List;
 
@@ -1217,7 +1174,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-direct {p0, v0}, Lkshark/LeakTrace;->leakTraceAsString(Z)Ljava/lang/String;
 
     move-result-object v0
@@ -1232,7 +1188,6 @@
 
     const/4 v0, 0x1
 
-    .line 1
     invoke-direct {p0, v0}, Lkshark/LeakTrace;->leakTraceAsString(Z)Ljava/lang/String;
 
     move-result-object v0

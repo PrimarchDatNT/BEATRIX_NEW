@@ -26,7 +26,6 @@
 .method constructor <init>(Lcom/google/android/gms/internal/ads/y6;Lcom/google/android/gms/internal/ads/zzaho;)V
     .locals 0
 
-    .line 1
     iput-object p2, p0, Lcom/google/android/gms/internal/ads/b7;->a:Lcom/google/android/gms/internal/ads/zzaho;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -44,15 +43,12 @@
         }
     .end annotation
 
-    .line 1
     check-cast p1, Lcom/google/android/gms/internal/ads/w6;
 
-    .line 2
     new-instance v0, Lcom/google/android/gms/internal/ads/lq;
 
     invoke-direct {v0}, Lcom/google/android/gms/internal/ads/lq;-><init>()V
 
-    .line 3
     iget-object v1, p0, Lcom/google/android/gms/internal/ads/b7;->a:Lcom/google/android/gms/internal/ads/zzaho;
 
     new-instance v2, Lcom/google/android/gms/internal/ads/a7;

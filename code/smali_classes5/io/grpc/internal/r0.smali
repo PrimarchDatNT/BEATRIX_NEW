@@ -11,10 +11,8 @@
 .method constructor <init>(Lio/grpc/w0;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lio/grpc/w0;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lio/grpc/internal/r0;->a:Lio/grpc/w0;
 
     return-void
@@ -25,7 +23,6 @@
 .method public b()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lio/grpc/internal/r0;->a:Lio/grpc/w0;
 
     invoke-virtual {v0}, Lio/grpc/g;->b()Ljava/lang/String;
@@ -53,7 +50,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lio/grpc/internal/r0;->a:Lio/grpc/w0;
 
     invoke-virtual {v0, p1, p2}, Lio/grpc/g;->j(Lio/grpc/MethodDescriptor;Lio/grpc/f;)Lio/grpc/h;
@@ -71,7 +67,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lio/grpc/internal/r0;->a:Lio/grpc/w0;
 
     invoke-virtual {v0, p1, p2, p3}, Lio/grpc/w0;->k(JLjava/util/concurrent/TimeUnit;)Z
@@ -84,7 +79,6 @@
 .method public l()V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lio/grpc/internal/r0;->a:Lio/grpc/w0;
 
     invoke-virtual {v0}, Lio/grpc/w0;->l()V
@@ -95,7 +89,6 @@
 .method public m(Z)Lio/grpc/ConnectivityState;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lio/grpc/internal/r0;->a:Lio/grpc/w0;
 
     invoke-virtual {v0, p1}, Lio/grpc/w0;->m(Z)Lio/grpc/ConnectivityState;
@@ -108,7 +101,6 @@
 .method public n()Z
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lio/grpc/internal/r0;->a:Lio/grpc/w0;
 
     invoke-virtual {v0}, Lio/grpc/w0;->n()Z
@@ -121,7 +113,6 @@
 .method public o()Z
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lio/grpc/internal/r0;->a:Lio/grpc/w0;
 
     invoke-virtual {v0}, Lio/grpc/w0;->o()Z
@@ -134,7 +125,6 @@
 .method public p(Lio/grpc/ConnectivityState;Ljava/lang/Runnable;)V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lio/grpc/internal/r0;->a:Lio/grpc/w0;
 
     invoke-virtual {v0, p1, p2}, Lio/grpc/w0;->p(Lio/grpc/ConnectivityState;Ljava/lang/Runnable;)V
@@ -145,7 +135,6 @@
 .method public q()V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lio/grpc/internal/r0;->a:Lio/grpc/w0;
 
     invoke-virtual {v0}, Lio/grpc/w0;->q()V
@@ -156,7 +145,6 @@
 .method public r()Lio/grpc/w0;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lio/grpc/internal/r0;->a:Lio/grpc/w0;
 
     invoke-virtual {v0}, Lio/grpc/w0;->r()Lio/grpc/w0;
@@ -169,7 +157,6 @@
 .method public s()Lio/grpc/w0;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lio/grpc/internal/r0;->a:Lio/grpc/w0;
 
     invoke-virtual {v0}, Lio/grpc/w0;->s()Lio/grpc/w0;
@@ -182,7 +169,6 @@
 .method public toString()Ljava/lang/String;
     .locals 3
 
-    .line 1
     invoke-static {p0}, Lcom/google/common/base/p;->c(Ljava/lang/Object;)Lcom/google/common/base/p$b;
 
     move-result-object v0

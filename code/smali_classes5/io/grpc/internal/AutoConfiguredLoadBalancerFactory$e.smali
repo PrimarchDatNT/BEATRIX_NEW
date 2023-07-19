@@ -18,7 +18,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lio/grpc/t0;-><init>()V
 
     return-void
@@ -27,7 +26,6 @@
 .method synthetic constructor <init>(Lio/grpc/internal/AutoConfiguredLoadBalancerFactory$a;)V
     .locals 0
 
-    .line 2
     invoke-direct {p0}, Lio/grpc/internal/AutoConfiguredLoadBalancerFactory$e;-><init>()V
 
     return-void

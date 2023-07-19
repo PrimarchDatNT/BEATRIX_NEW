@@ -46,12 +46,10 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-static {p2}, Lcom/mopub/network/MoPubRequestUtils;->truncateQueryParamsIfPost(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v3
 
-    .line 2
     invoke-static {p2}, Lcom/mopub/network/MoPubRequestUtils;->chooseMethod(Ljava/lang/String;)Lcom/mopub/network/MoPubRequest$Method;
 
     move-result-object v4
@@ -64,18 +62,14 @@
 
     move-object v5, p3
 
-    .line 3
     invoke-direct/range {v0 .. v5}, Lcom/mopub/network/MoPubRequest;-><init>(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Lcom/mopub/network/MoPubRequest$Method;Lcom/mopub/network/MoPubResponse$Listener;)V
 
-    .line 4
     iput-object p3, p0, Lcom/mopub/network/TrackingRequest;->mListener:Lcom/mopub/network/TrackingRequest$Listener;
 
     const/4 p1, 0x0
 
-    .line 5
     invoke-virtual {p0, p1}, Lcom/mopub/network/MoPubRequest;->setShouldCache(Z)V
 
-    .line 6
     new-instance p2, Lcom/mopub/network/MoPubRetryPolicy;
 
     const/16 p3, 0x9c4
@@ -112,7 +106,6 @@
 
     const/4 v0, 0x0
 
-    .line 10
     invoke-static {p0, p1, v0}, Lcom/mopub/network/TrackingRequest;->makeTrackingHttpRequest(Ljava/lang/Iterable;Landroid/content/Context;Lcom/mopub/network/TrackingRequest$Listener;)V
 
     return-void
@@ -150,13 +143,11 @@
 
     goto :goto_1
 
-    .line 1
     :cond_0
     invoke-static {p1}, Lcom/mopub/network/Networking;->getRequestQueue(Landroid/content/Context;)Lcom/mopub/network/MoPubRequestQueue;
 
     move-result-object v0
 
-    .line 2
     invoke-interface {p0}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object p0
@@ -174,7 +165,6 @@
 
     check-cast v1, Ljava/lang/String;
 
-    .line 3
     invoke-static {v1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v2
@@ -183,18 +173,15 @@
 
     goto :goto_0
 
-    .line 4
     :cond_1
     new-instance v2, Lcom/mopub/network/TrackingRequest$1;
 
     invoke-direct {v2, p2, v1}, Lcom/mopub/network/TrackingRequest$1;-><init>(Lcom/mopub/network/TrackingRequest$Listener;Ljava/lang/String;)V
 
-    .line 5
     new-instance v3, Lcom/mopub/network/TrackingRequest;
 
     invoke-direct {v3, p1, v1, v2}, Lcom/mopub/network/TrackingRequest;-><init>(Landroid/content/Context;Ljava/lang/String;Lcom/mopub/network/TrackingRequest$Listener;)V
 
-    .line 6
     invoke-virtual {v0, v3}, Lcom/mopub/network/MoPubRequestQueue;->add(Lcom/mopub/network/MoPubRequest;)V
 
     goto :goto_0
@@ -217,7 +204,6 @@
 
     const/4 v0, 0x0
 
-    .line 7
     invoke-static {p0, p1, v0}, Lcom/mopub/network/TrackingRequest;->makeTrackingHttpRequest(Ljava/lang/String;Landroid/content/Context;Lcom/mopub/network/TrackingRequest$Listener;)V
 
     return-void
@@ -238,7 +224,6 @@
         .end annotation
     .end param
 
-    .line 8
     invoke-static {p0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v0
@@ -253,7 +238,6 @@
 
     aput-object p0, v0, v1
 
-    .line 9
     invoke-static {v0}, Ljava/util/Arrays;->asList([Ljava/lang/Object;)Ljava/util/List;
 
     move-result-object p0
@@ -300,10 +284,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p0}, Lcom/mopub/common/Preconditions;->checkNotNull(Ljava/lang/Object;)V
 
-    .line 2
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-interface {p0}, Ljava/util/List;->size()I
@@ -312,7 +294,6 @@
 
     invoke-direct {v0, v1}, Ljava/util/ArrayList;-><init>(I)V
 
-    .line 3
     invoke-interface {p0}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
     move-result-object p0
@@ -334,7 +315,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_0
     invoke-virtual {v1}, Lcom/mopub/mobileads/VastTracker;->isTracked()Z
 
@@ -350,7 +330,6 @@
 
     goto :goto_0
 
-    .line 5
     :cond_1
     invoke-virtual {v1}, Lcom/mopub/mobileads/VastTracker;->getContent()Ljava/lang/String;
 
@@ -358,38 +337,31 @@
 
     invoke-interface {v0, v2}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
-    .line 6
     invoke-virtual {v1}, Lcom/mopub/mobileads/VastTracker;->setTracked()V
 
     goto :goto_0
 
-    .line 7
     :cond_2
     new-instance p0, Lcom/mopub/mobileads/VastMacroHelper;
 
     invoke-direct {p0, v0}, Lcom/mopub/mobileads/VastMacroHelper;-><init>(Ljava/util/List;)V
 
-    .line 8
     invoke-virtual {p0, p1}, Lcom/mopub/mobileads/VastMacroHelper;->withErrorCode(Lcom/mopub/mobileads/VastErrorCode;)Lcom/mopub/mobileads/VastMacroHelper;
 
     move-result-object p0
 
-    .line 9
     invoke-virtual {p0, p2}, Lcom/mopub/mobileads/VastMacroHelper;->withContentPlayHead(Ljava/lang/Integer;)Lcom/mopub/mobileads/VastMacroHelper;
 
     move-result-object p0
 
-    .line 10
     invoke-virtual {p0, p3}, Lcom/mopub/mobileads/VastMacroHelper;->withAssetUri(Ljava/lang/String;)Lcom/mopub/mobileads/VastMacroHelper;
 
     move-result-object p0
 
-    .line 11
     invoke-virtual {p0}, Lcom/mopub/mobileads/VastMacroHelper;->getUris()Ljava/util/List;
 
     move-result-object p0
 
-    .line 12
     invoke-static {p0, p4}, Lcom/mopub/network/TrackingRequest;->makeTrackingHttpRequest(Ljava/lang/Iterable;Landroid/content/Context;)V
 
     return-void
@@ -404,7 +376,6 @@
         .end annotation
     .end param
 
-    .line 1
     check-cast p1, Ljava/lang/String;
 
     invoke-virtual {p0, p1}, Lcom/mopub/network/TrackingRequest;->deliverResponse(Ljava/lang/String;)V
@@ -419,12 +390,10 @@
         .end annotation
     .end param
 
-    .line 2
     iget-object p1, p0, Lcom/mopub/network/TrackingRequest;->mListener:Lcom/mopub/network/TrackingRequest$Listener;
 
     if-eqz p1, :cond_0
 
-    .line 3
     invoke-virtual {p0}, Lcom/mopub/network/MoPubRequest;->getUrl()Ljava/lang/String;
 
     move-result-object v0
@@ -440,7 +409,6 @@
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/mopub/network/MoPubRequest;->getUrl()Ljava/lang/String;
 
     move-result-object v0
@@ -455,7 +423,6 @@
 
     return-object v0
 
-    .line 2
     :cond_0
     invoke-super {p0}, Lcom/mopub/network/MoPubRequest;->getBodyContentType()Ljava/lang/String;
 
@@ -479,7 +446,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/mopub/network/MoPubRequest;->getUrl()Ljava/lang/String;
 
     move-result-object v0
@@ -494,7 +460,6 @@
 
     return-object v0
 
-    .line 2
     :cond_0
     invoke-super {p0}, Lcom/mopub/network/MoPubRequest;->getParams()Ljava/util/Map;
 
@@ -516,7 +481,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p1}, Lcom/mopub/network/MoPubNetworkResponse;->getStatusCode()I
 
     move-result v0
@@ -525,7 +489,6 @@
 
     if-eq v0, v1, :cond_0
 
-    .line 2
     new-instance v0, Lcom/mopub/network/MoPubNetworkError$Builder;
 
     new-instance v1, Ljava/lang/StringBuilder;
@@ -536,7 +499,6 @@
 
     invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 3
     invoke-virtual {p1}, Lcom/mopub/network/MoPubNetworkResponse;->getStatusCode()I
 
     move-result p1
@@ -561,24 +523,20 @@
 
     sget-object p1, Lcom/mopub/network/MoPubNetworkError$Reason;->TRACKING_FAILURE:Lcom/mopub/network/MoPubNetworkError$Reason;
 
-    .line 4
     invoke-virtual {v0, p1}, Lcom/mopub/network/MoPubNetworkError$Builder;->reason(Lcom/mopub/network/MoPubNetworkError$Reason;)Lcom/mopub/network/MoPubNetworkError$Builder;
 
     move-result-object p1
 
-    .line 5
     invoke-virtual {p1}, Lcom/mopub/network/MoPubNetworkError$Builder;->build()Lcom/mopub/network/MoPubNetworkError;
 
     move-result-object p1
 
-    .line 6
     invoke-static {p1}, Lcom/mopub/network/MoPubResponse;->error(Lcom/mopub/network/MoPubNetworkError;)Lcom/mopub/network/MoPubResponse;
 
     move-result-object p1
 
     return-object p1
 
-    .line 7
     :cond_0
     invoke-virtual {p1}, Lcom/mopub/network/MoPubNetworkResponse;->getStatusCode()I
 

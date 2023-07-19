@@ -175,7 +175,6 @@
 
     move-result-object v0
 
-    .line 1
     iget v1, p0, Lcotlinx/coroutines/flow/internal/CombineKt$combineInternal$2$invokeSuspend$$inlined$select$lambda$1;->label:I
 
     const/4 v2, 0x1
@@ -192,7 +191,6 @@
 
     goto :goto_1
 
-    .line 2
     :cond_0
     new-instance p1, Ljava/lang/IllegalStateException;
 
@@ -202,13 +200,11 @@
 
     throw p1
 
-    .line 3
     :cond_1
     invoke-static {p1}, Lcotlin/r0;->n(Ljava/lang/Object;)V
 
     iget-object p1, p0, Lcotlinx/coroutines/flow/internal/CombineKt$combineInternal$2$invokeSuspend$$inlined$select$lambda$1;->p$0:Ljava/lang/Object;
 
-    .line 4
     iget-object v1, p0, Lcotlinx/coroutines/flow/internal/CombineKt$combineInternal$2$invokeSuspend$$inlined$select$lambda$1;->$latestValues$inlined:[Ljava/lang/Object;
 
     iget v3, p0, Lcotlinx/coroutines/flow/internal/CombineKt$combineInternal$2$invokeSuspend$$inlined$select$lambda$1;->$i:I
@@ -225,11 +221,9 @@
 
     iput v5, v4, Lcotlin/jvm/internal/Ref$IntRef;->element:I
 
-    .line 5
     :cond_2
     aput-object p1, v1, v3
 
-    .line 6
     iget-object v1, p0, Lcotlinx/coroutines/flow/internal/CombineKt$combineInternal$2$invokeSuspend$$inlined$select$lambda$1;->$remainingNulls$inlined:Lcotlin/jvm/internal/Ref$IntRef;
 
     iget v1, v1, Lcotlin/jvm/internal/Ref$IntRef;->element:I
@@ -240,7 +234,6 @@
 
     return-object p1
 
-    .line 7
     :cond_3
     iget-object v1, p0, Lcotlinx/coroutines/flow/internal/CombineKt$combineInternal$2$invokeSuspend$$inlined$select$lambda$1;->this$0:Lcotlinx/coroutines/flow/internal/CombineKt$combineInternal$2;
 
@@ -254,13 +247,11 @@
 
     const/4 v3, 0x0
 
-    .line 8
     iget v4, p0, Lcotlinx/coroutines/flow/internal/CombineKt$combineInternal$2$invokeSuspend$$inlined$select$lambda$1;->$size$inlined:I
 
     :goto_0
     if-ge v3, v4, :cond_5
 
-    .line 9
     sget-object v5, Lcotlinx/coroutines/flow/internal/i;->a:Lcotlinx/coroutines/internal/c0;
 
     iget-object v6, p0, Lcotlinx/coroutines/flow/internal/CombineKt$combineInternal$2$invokeSuspend$$inlined$select$lambda$1;->$latestValues$inlined:[Ljava/lang/Object;
@@ -271,7 +262,6 @@
 
     const/4 v6, 0x0
 
-    .line 10
     :cond_4
     aput-object v6, v1, v3
 
@@ -279,7 +269,6 @@
 
     goto :goto_0
 
-    .line 11
     :cond_5
     iget-object v3, p0, Lcotlinx/coroutines/flow/internal/CombineKt$combineInternal$2$invokeSuspend$$inlined$select$lambda$1;->this$0:Lcotlinx/coroutines/flow/internal/CombineKt$combineInternal$2;
 
@@ -303,14 +292,12 @@
 
     return-object v0
 
-    .line 12
     :cond_6
     :goto_1
     sget-object p1, Lcotlin/t1;->a:Lcotlin/t1;
 
     return-object p1
 
-    .line 13
     :cond_7
     new-instance p1, Lcotlin/TypeCastException;
 

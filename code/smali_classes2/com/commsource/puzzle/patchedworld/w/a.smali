@@ -13,7 +13,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -36,7 +35,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/util/ArrayList;
 
     invoke-direct {v1}, Ljava/util/ArrayList;-><init>()V
@@ -47,7 +45,6 @@
 
     if-ne p1, v2, :cond_0
 
-    .line 2
     invoke-virtual {p0}, Lcom/commsource/puzzle/patchedworld/w/a;->b()Ljava/util/List;
 
     move-result-object p1
@@ -62,12 +59,10 @@
 
     if-gt v2, v3, :cond_1
 
-    .line 3
     new-instance v3, Lcom/commsource/puzzle/patchedworld/t/a;
 
     invoke-direct {v3}, Lcom/commsource/puzzle/patchedworld/t/a;-><init>()V
 
-    .line 4
     new-instance v4, Ljava/lang/StringBuilder;
 
     invoke-direct {v4}, Ljava/lang/StringBuilder;-><init>()V
@@ -102,7 +97,6 @@
 
     invoke-virtual {v3, v4}, Lcom/commsource/puzzle/patchedworld/t/a;->u(Ljava/lang/String;)V
 
-    .line 5
     new-instance v4, Ljava/lang/StringBuilder;
 
     invoke-direct {v4}, Ljava/lang/StringBuilder;-><init>()V
@@ -121,14 +115,12 @@
 
     invoke-virtual {v3, v4}, Lcom/commsource/puzzle/patchedworld/t/a;->v(Ljava/lang/String;)V
 
-    .line 6
     invoke-interface {v1, v3}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
     add-int/lit8 v2, v2, 0x1
 
     goto :goto_0
 
-    .line 7
     :cond_1
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -151,12 +143,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/commsource/puzzle/patchedworld/t/a;
 
     invoke-direct {v1}, Lcom/commsource/puzzle/patchedworld/t/a;-><init>()V
 
-    .line 2
     new-instance v2, Ljava/lang/StringBuilder;
 
     invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
@@ -181,15 +171,12 @@
 
     const-string v2, "1-1"
 
-    .line 3
     invoke-virtual {v1, v2}, Lcom/commsource/puzzle/patchedworld/t/a;->v(Ljava/lang/String;)V
 
-    .line 4
     new-instance v2, Lcom/commsource/puzzle/patchedworld/t/a;
 
     invoke-direct {v2}, Lcom/commsource/puzzle/patchedworld/t/a;-><init>()V
 
-    .line 5
     new-instance v5, Ljava/lang/StringBuilder;
 
     invoke-direct {v5}, Ljava/lang/StringBuilder;-><init>()V
@@ -210,15 +197,12 @@
 
     const-string v5, "1-2"
 
-    .line 6
     invoke-virtual {v2, v5}, Lcom/commsource/puzzle/patchedworld/t/a;->v(Ljava/lang/String;)V
 
-    .line 7
     new-instance v5, Lcom/commsource/puzzle/patchedworld/t/a;
 
     invoke-direct {v5}, Lcom/commsource/puzzle/patchedworld/t/a;-><init>()V
 
-    .line 8
     new-instance v6, Ljava/lang/StringBuilder;
 
     invoke-direct {v6}, Ljava/lang/StringBuilder;-><init>()V
@@ -239,15 +223,12 @@
 
     const-string v6, "1-3"
 
-    .line 9
     invoke-virtual {v5, v6}, Lcom/commsource/puzzle/patchedworld/t/a;->v(Ljava/lang/String;)V
 
-    .line 10
     new-instance v6, Lcom/commsource/puzzle/patchedworld/t/a;
 
     invoke-direct {v6}, Lcom/commsource/puzzle/patchedworld/t/a;-><init>()V
 
-    .line 11
     new-instance v7, Ljava/lang/StringBuilder;
 
     invoke-direct {v7}, Ljava/lang/StringBuilder;-><init>()V
@@ -268,27 +249,20 @@
 
     const-string v3, "1-4"
 
-    .line 12
     invoke-virtual {v6, v3}, Lcom/commsource/puzzle/patchedworld/t/a;->v(Ljava/lang/String;)V
 
-    .line 13
     new-instance v3, Ljava/util/ArrayList;
 
     invoke-direct {v3}, Ljava/util/ArrayList;-><init>()V
 
-    .line 14
     invoke-interface {v3, v1}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
-    .line 15
     invoke-interface {v3, v2}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
-    .line 16
     invoke-interface {v3, v5}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
-    .line 17
     invoke-interface {v3, v6}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
-    .line 18
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v3

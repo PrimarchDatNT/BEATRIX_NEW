@@ -16,7 +16,6 @@
 .method constructor <init>(Lcom/google/android/gms/internal/ads/ou;Lcom/google/android/gms/internal/ads/nk;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/android/gms/internal/ads/su;->b:Lcom/google/android/gms/internal/ads/ou;
 
     iput-object p2, p0, Lcom/google/android/gms/internal/ads/su;->a:Lcom/google/android/gms/internal/ads/nk;
@@ -31,7 +30,6 @@
 .method public final onViewAttachedToWindow(Landroid/view/View;)V
     .locals 3
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/su;->b:Lcom/google/android/gms/internal/ads/ou;
 
     iget-object v1, p0, Lcom/google/android/gms/internal/ads/su;->a:Lcom/google/android/gms/internal/ads/nk;

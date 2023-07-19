@@ -39,7 +39,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/meitu/library/abtest/control/SensitiveData;
 
     const-string v2, "ADVERTISING_ID"
@@ -52,7 +51,6 @@
 
     sput-object v1, Lcom/meitu/library/abtest/control/SensitiveData;->ADVERTISING_ID:Lcom/meitu/library/abtest/control/SensitiveData;
 
-    .line 2
     new-instance v2, Lcom/meitu/library/abtest/control/SensitiveData;
 
     const-string v4, "BSSID"
@@ -65,7 +63,6 @@
 
     sput-object v2, Lcom/meitu/library/abtest/control/SensitiveData;->BSSID:Lcom/meitu/library/abtest/control/SensitiveData;
 
-    .line 3
     new-instance v4, Lcom/meitu/library/abtest/control/SensitiveData;
 
     const-string v6, "IMEI"
@@ -78,7 +75,6 @@
 
     sput-object v4, Lcom/meitu/library/abtest/control/SensitiveData;->IMEI:Lcom/meitu/library/abtest/control/SensitiveData;
 
-    .line 4
     new-instance v6, Lcom/meitu/library/abtest/control/SensitiveData;
 
     const-string v8, "ANDROID_ID"
@@ -91,7 +87,6 @@
 
     sput-object v6, Lcom/meitu/library/abtest/control/SensitiveData;->ANDROID_ID:Lcom/meitu/library/abtest/control/SensitiveData;
 
-    .line 5
     new-instance v8, Lcom/meitu/library/abtest/control/SensitiveData;
 
     const-string v10, "GID"
@@ -118,7 +113,6 @@
 
     aput-object v8, v10, v11
 
-    .line 6
     sput-object v10, Lcom/meitu/library/abtest/control/SensitiveData;->$VALUES:[Lcom/meitu/library/abtest/control/SensitiveData;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -136,10 +130,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 2
     iput-object p3, p0, Lcom/meitu/library/abtest/control/SensitiveData;->name:Ljava/lang/String;
 
     return-void
@@ -152,7 +144,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     const-class v1, Lcom/meitu/library/abtest/control/SensitiveData;
 
     invoke-static {v1, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -173,7 +164,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/meitu/library/abtest/control/SensitiveData;->$VALUES:[Lcom/meitu/library/abtest/control/SensitiveData;
 
     invoke-virtual {v1}, [Lcom/meitu/library/abtest/control/SensitiveData;->clone()Ljava/lang/Object;
@@ -196,7 +186,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/library/abtest/control/SensitiveData;->name:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

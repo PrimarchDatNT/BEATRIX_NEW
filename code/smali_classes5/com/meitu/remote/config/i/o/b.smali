@@ -40,7 +40,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/util/concurrent/ConcurrentHashMap;
 
     const/4 v2, 0x1
@@ -57,10 +56,8 @@
 .method private constructor <init>(Ljava/util/Locale;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/meitu/remote/config/i/o/b;->a:Ljava/util/Locale;
 
     return-void
@@ -73,7 +70,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/meitu/remote/config/i/o/b;->d:Ljava/util/Map;
 
     invoke-interface {v1, p0}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
@@ -84,10 +80,8 @@
 
     if-nez v2, :cond_1
 
-    .line 2
     monitor-enter v1
 
-    .line 3
     :try_start_0
     invoke-interface {v1, p0}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
@@ -97,15 +91,12 @@
 
     if-nez v2, :cond_0
 
-    .line 4
     new-instance v2, Lcom/meitu/remote/config/i/o/b;
 
     invoke-direct {v2, p0}, Lcom/meitu/remote/config/i/o/b;-><init>(Ljava/util/Locale;)V
 
-    .line 5
     invoke-interface {v1, p0, v2}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 6
     :cond_0
     monitor-exit v1
 
@@ -122,7 +113,6 @@
 
     throw p0
 
-    .line 7
     :cond_1
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -137,17 +127,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/remote/config/i/o/b;->b:Ljava/lang/String;
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
 
-    .line 3
     :cond_0
     iget-object v1, p0, Lcom/meitu/remote/config/i/o/b;->a:Ljava/util/Locale;
 
@@ -155,37 +142,31 @@
 
     move-result-object v1
 
-    .line 4
     new-instance v2, Ljava/lang/StringBuilder;
 
     invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
 
-    .line 5
     invoke-virtual {v1}, Lcom/meitu/remote/config/i/o/a;->f()Ljava/lang/String;
 
     move-result-object v3
 
-    .line 6
     invoke-virtual {v3}, Ljava/lang/String;->length()I
 
     move-result v4
 
     if-lez v4, :cond_1
 
-    .line 7
     invoke-static {v3}, Lcom/meitu/remote/config/i/o/a;->b(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v3
 
     invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 8
     :cond_1
     invoke-virtual {v1}, Lcom/meitu/remote/config/i/o/a;->i()Ljava/lang/String;
 
     move-result-object v3
 
-    .line 9
     invoke-virtual {v3}, Ljava/lang/String;->length()I
 
     move-result v4
@@ -194,23 +175,19 @@
 
     const-string v4, "-"
 
-    .line 10
     invoke-virtual {v2, v4}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 11
     invoke-static {v3}, Lcom/meitu/remote/config/i/o/a;->d(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v3
 
     invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 12
     :cond_2
     invoke-virtual {v1}, Lcom/meitu/remote/config/i/o/a;->h()Ljava/lang/String;
 
     move-result-object v3
 
-    .line 13
     invoke-virtual {v3}, Ljava/lang/String;->length()I
 
     move-result v4
@@ -219,23 +196,19 @@
 
     const-string v4, "-"
 
-    .line 14
     invoke-virtual {v2, v4}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 15
     invoke-static {v3}, Lcom/meitu/remote/config/i/o/a;->c(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v3
 
     invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 16
     :cond_3
     invoke-virtual {v1}, Lcom/meitu/remote/config/i/o/a;->j()Ljava/util/List;
 
     move-result-object v3
 
-    .line 17
     invoke-interface {v3}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
     move-result-object v3
@@ -255,21 +228,17 @@
 
     const-string v5, "-"
 
-    .line 18
     invoke-virtual {v2, v5}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 19
     invoke-virtual {v2, v4}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     goto :goto_0
 
-    .line 20
     :cond_4
     invoke-virtual {v1}, Lcom/meitu/remote/config/i/o/a;->e()Ljava/util/List;
 
     move-result-object v3
 
-    .line 21
     invoke-interface {v3}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
     move-result-object v3
@@ -289,10 +258,8 @@
 
     const-string v5, "-"
 
-    .line 22
     invoke-virtual {v2, v5}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 23
     invoke-static {v4}, Lcom/meitu/remote/config/i/o/a;->a(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v4
@@ -301,20 +268,17 @@
 
     goto :goto_1
 
-    .line 24
     :cond_5
     invoke-virtual {v1}, Lcom/meitu/remote/config/i/o/a;->g()Ljava/lang/String;
 
     move-result-object v1
 
-    .line 25
     invoke-virtual {v1}, Ljava/lang/String;->length()I
 
     move-result v3
 
     if-lez v3, :cond_7
 
-    .line 26
     invoke-virtual {v2}, Ljava/lang/StringBuilder;->length()I
 
     move-result v3
@@ -323,47 +287,38 @@
 
     const-string v3, "-"
 
-    .line 27
     invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     :cond_6
     const-string v3, "x"
 
-    .line 28
     invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     const-string v3, "-"
 
     invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 29
     invoke-virtual {v2, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 30
     :cond_7
     invoke-virtual {v2}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     move-result-object v1
 
-    .line 31
     monitor-enter p0
 
-    .line 32
     :try_start_0
     iget-object v2, p0, Lcom/meitu/remote/config/i/o/b;->b:Ljava/lang/String;
 
     if-nez v2, :cond_8
 
-    .line 33
     iput-object v1, p0, Lcom/meitu/remote/config/i/o/b;->b:Ljava/lang/String;
 
-    .line 34
     :cond_8
     monitor-exit p0
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 35
     iget-object v1, p0, Lcom/meitu/remote/config/i/o/b;->b:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -373,7 +328,6 @@
     :catchall_0
     move-exception v1
 
-    .line 36
     :try_start_1
     monitor-exit p0
     :try_end_1
@@ -398,14 +352,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget v1, Landroid/os/Build$VERSION;->SDK_INT:I
 
     const/16 v2, 0x15
 
     if-lt v1, v2, :cond_0
 
-    .line 2
     iget-object v1, p0, Lcom/meitu/remote/config/i/o/b;->a:Ljava/util/Locale;
 
     invoke-virtual {v1}, Ljava/util/Locale;->toLanguageTag()Ljava/lang/String;
@@ -416,7 +368,6 @@
 
     return-object v1
 
-    .line 3
     :cond_0
     invoke-direct {p0}, Lcom/meitu/remote/config/i/o/b;->c()Ljava/lang/String;
 

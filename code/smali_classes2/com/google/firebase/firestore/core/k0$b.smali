@@ -24,10 +24,8 @@
 .method constructor <init>(Lcom/google/firebase/firestore/model/e;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/google/firebase/firestore/core/k0$b;->a:Lcom/google/firebase/firestore/model/e;
 
     return-void
@@ -36,7 +34,6 @@
 .method static synthetic a(Lcom/google/firebase/firestore/core/k0$b;)Z
     .locals 0
 
-    .line 1
     iget-boolean p0, p0, Lcom/google/firebase/firestore/core/k0$b;->b:Z
 
     return p0
@@ -45,7 +42,6 @@
 .method static synthetic b(Lcom/google/firebase/firestore/core/k0$b;Z)Z
     .locals 0
 
-    .line 1
     iput-boolean p1, p0, Lcom/google/firebase/firestore/core/k0$b;->b:Z
 
     return p1
@@ -54,7 +50,6 @@
 .method static synthetic c(Lcom/google/firebase/firestore/core/k0$b;)Lcom/google/firebase/firestore/model/e;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lcom/google/firebase/firestore/core/k0$b;->a:Lcom/google/firebase/firestore/model/e;
 
     return-object p0

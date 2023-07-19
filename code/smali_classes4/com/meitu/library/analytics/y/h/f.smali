@@ -28,7 +28,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/meitu/library/analytics/y/h/f;
 
     invoke-direct {v1}, Lcom/meitu/library/analytics/y/h/f;-><init>()V
@@ -43,17 +42,14 @@
 .method private constructor <init>()V
     .locals 2
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     new-instance v0, Lcom/meitu/library/analytics/y/h/j;
 
     invoke-direct {v0}, Lcom/meitu/library/analytics/y/h/j;-><init>()V
 
     iput-object v0, p0, Lcom/meitu/library/analytics/y/h/f;->b:Lcom/meitu/library/analytics/y/h/h;
 
-    .line 3
     new-instance v0, Lcom/meitu/library/analytics/y/h/i;
 
     const-string v1, "MTAnalytics-Thread"
@@ -62,14 +58,12 @@
 
     iput-object v0, p0, Lcom/meitu/library/analytics/y/h/f;->a:Lcom/meitu/library/analytics/y/h/i;
 
-    .line 4
     new-instance v1, Lcom/meitu/library/analytics/y/h/f$a;
 
     invoke-direct {v1, p0}, Lcom/meitu/library/analytics/y/h/f$a;-><init>(Lcom/meitu/library/analytics/y/h/f;)V
 
     invoke-virtual {v0, v1}, Lcom/meitu/library/analytics/y/h/i;->a(Lcom/meitu/library/analytics/y/h/i$a;)V
 
-    .line 5
     invoke-virtual {v0}, Landroid/os/HandlerThread;->start()V
 
     return-void
@@ -82,7 +76,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/meitu/library/analytics/y/h/f;->f()V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -97,10 +90,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p0}, Lcom/meitu/library/analytics/y/h/b;->a(Landroid/os/MessageQueue$IdleHandler;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -118,19 +109,16 @@
     :try_start_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/meitu/library/analytics/y/h/a;
 
     invoke-direct {v1}, Lcom/meitu/library/analytics/y/h/a;-><init>()V
 
-    .line 2
     invoke-static {}, Lcom/meitu/library/analytics/sdk/content/f;->S()Lcom/meitu/library/analytics/sdk/content/f;
 
     move-result-object v2
 
     if-eqz v2, :cond_2
 
-    .line 3
     invoke-virtual {v2}, Lcom/meitu/library/analytics/sdk/content/f;->isInitialized()Z
 
     move-result v2
@@ -139,26 +127,20 @@
 
     goto :goto_0
 
-    .line 4
     :cond_0
     iget-object v2, p0, Lcom/meitu/library/analytics/y/h/f;->b:Lcom/meitu/library/analytics/y/h/h;
 
-    .line 5
     instance-of v3, v2, Lcom/meitu/library/analytics/y/h/g;
 
     if-eqz v3, :cond_1
 
-    .line 6
     check-cast v2, Lcom/meitu/library/analytics/y/h/g;
 
-    .line 7
     invoke-interface {v2, v1}, Lcom/meitu/library/analytics/y/h/g;->d(Lcom/meitu/library/analytics/y/h/h;)V
 
-    .line 8
     :cond_1
     iput-object v1, p0, Lcom/meitu/library/analytics/y/h/f;->b:Lcom/meitu/library/analytics/y/h/h;
 
-    .line 9
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
@@ -174,10 +156,8 @@
 
     const-string v3, "Context is not ready, wait for start..."
 
-    .line 10
     invoke-static {v2, v3}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 11
     new-instance v2, Lcom/meitu/library/analytics/y/h/f$b;
 
     invoke-direct {v2, p0}, Lcom/meitu/library/analytics/y/h/f$b;-><init>(Lcom/meitu/library/analytics/y/h/f;)V
@@ -186,7 +166,6 @@
 
     invoke-interface {v1, v2, v3, v4}, Lcom/meitu/library/analytics/y/h/h;->c(Ljava/lang/Runnable;J)V
 
-    .line 12
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
@@ -210,7 +189,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/meitu/library/analytics/y/h/f;->e:Lcom/meitu/library/analytics/y/h/f;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -234,12 +212,10 @@
     :try_start_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/library/analytics/y/h/f;->b:Lcom/meitu/library/analytics/y/h/h;
 
     invoke-interface {v1, p1}, Lcom/meitu/library/analytics/y/h/h;->a(Ljava/lang/Runnable;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
@@ -270,12 +246,10 @@
     :try_start_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/library/analytics/y/h/f;->b:Lcom/meitu/library/analytics/y/h/h;
 
     invoke-interface {v1, p1}, Lcom/meitu/library/analytics/y/h/h;->b(Ljava/lang/Runnable;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
@@ -306,12 +280,10 @@
     :try_start_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/library/analytics/y/h/f;->b:Lcom/meitu/library/analytics/y/h/h;
 
     invoke-interface {v1, p1, p2, p3}, Lcom/meitu/library/analytics/y/h/h;->c(Ljava/lang/Runnable;J)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
@@ -342,12 +314,10 @@
     :try_start_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/library/analytics/y/h/f;->b:Lcom/meitu/library/analytics/y/h/h;
 
     invoke-interface {v1, p1}, Lcom/meitu/library/analytics/y/h/h;->post(Ljava/lang/Runnable;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0

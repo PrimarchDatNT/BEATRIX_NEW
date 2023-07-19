@@ -10,7 +10,6 @@
 .method constructor <init>(Lcom/google/android/gms/internal/firebase_remote_config/u2;Lcom/google/android/gms/internal/firebase_remote_config/r2;Ljava/lang/CharSequence;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/android/gms/internal/firebase_remote_config/t2;->J:Lcom/google/android/gms/internal/firebase_remote_config/u2;
 
     invoke-direct {p0, p2, p3}, Lcom/google/android/gms/internal/firebase_remote_config/w2;-><init>(Lcom/google/android/gms/internal/firebase_remote_config/r2;Ljava/lang/CharSequence;)V
@@ -23,7 +22,6 @@
 .method final c(I)I
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/firebase_remote_config/t2;->J:Lcom/google/android/gms/internal/firebase_remote_config/u2;
 
     iget-object v0, v0, Lcom/google/android/gms/internal/firebase_remote_config/u2;->a:Lcom/google/android/gms/internal/firebase_remote_config/i2;

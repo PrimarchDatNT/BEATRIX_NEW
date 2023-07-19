@@ -12,7 +12,6 @@
 
     const-string v0, "com.google.android.gms.ads.internal.request.INonagonStreamingResponseListener"
 
-    .line 1
     invoke-direct {p0, v0}, Lcom/google/android/gms/internal/ads/l82;-><init>(Ljava/lang/String;)V
 
     return-void
@@ -40,7 +39,6 @@
 
     return p1
 
-    .line 1
     :cond_0
     sget-object p1, Lcom/google/android/gms/internal/ads/zzazi;->CREATOR:Landroid/os/Parcelable$Creator;
 
@@ -50,12 +48,10 @@
 
     check-cast p1, Lcom/google/android/gms/internal/ads/zzazi;
 
-    .line 2
     invoke-interface {p0, p1}, Lcom/google/android/gms/internal/ads/gh;->w9(Lcom/google/android/gms/internal/ads/zzazi;)V
 
     goto :goto_0
 
-    .line 3
     :cond_1
     sget-object p1, Landroid/os/ParcelFileDescriptor;->CREATOR:Landroid/os/Parcelable$Creator;
 
@@ -65,10 +61,8 @@
 
     check-cast p1, Landroid/os/ParcelFileDescriptor;
 
-    .line 4
     invoke-interface {p0, p1}, Lcom/google/android/gms/internal/ads/gh;->l6(Landroid/os/ParcelFileDescriptor;)V
 
-    .line 5
     :goto_0
     invoke-virtual {p3}, Landroid/os/Parcel;->writeNoException()V
 

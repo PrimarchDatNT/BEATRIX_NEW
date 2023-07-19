@@ -42,38 +42,28 @@
 .method public constructor <init>(IIIIIII)V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/4 v0, 0x1
 
     new-array v0, v0, [I
 
-    .line 2
     iput-object v0, p0, Lcom/meitu/mtmvcore/backend/android/surfaceview/b;->i:[I
 
-    .line 3
     iput p1, p0, Lcom/meitu/mtmvcore/backend/android/surfaceview/b;->a:I
 
-    .line 4
     iput p2, p0, Lcom/meitu/mtmvcore/backend/android/surfaceview/b;->b:I
 
-    .line 5
     iput p3, p0, Lcom/meitu/mtmvcore/backend/android/surfaceview/b;->c:I
 
-    .line 6
     iput p4, p0, Lcom/meitu/mtmvcore/backend/android/surfaceview/b;->d:I
 
-    .line 7
     iput p5, p0, Lcom/meitu/mtmvcore/backend/android/surfaceview/b;->e:I
 
-    .line 8
     iput p6, p0, Lcom/meitu/mtmvcore/backend/android/surfaceview/b;->f:I
 
-    .line 9
     iput p7, p0, Lcom/meitu/mtmvcore/backend/android/surfaceview/b;->g:I
 
-    .line 10
     sget p1, Landroid/os/Build$VERSION;->SDK_INT:I
 
     const/16 p2, 0x12
@@ -84,7 +74,6 @@
 
     new-array p1, p1, [I
 
-    .line 11
     fill-array-data p1, :array_0
 
     iput-object p1, p0, Lcom/meitu/mtmvcore/backend/android/surfaceview/b;->h:[I
@@ -96,7 +85,6 @@
 
     new-array p1, p1, [I
 
-    .line 12
     fill-array-data p1, :array_1
 
     iput-object p1, p0, Lcom/meitu/mtmvcore/backend/android/surfaceview/b;->h:[I
@@ -142,7 +130,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/mtmvcore/backend/android/surfaceview/b;->i:[I
 
     invoke-interface {p1, p2, p3, p4, v1}, Ljavax/microedition/khronos/egl/EGL10;->eglGetConfigAttrib(Ljavax/microedition/khronos/egl/EGLDisplay;Ljavax/microedition/khronos/egl/EGLConfig;I[I)Z
@@ -151,7 +138,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 2
     iget-object p1, p0, Lcom/meitu/mtmvcore/backend/android/surfaceview/b;->i:[I
 
     const/4 p2, 0x0
@@ -162,7 +148,6 @@
 
     return p1
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -180,7 +165,6 @@
 
     new-array v2, v1, [I
 
-    .line 1
     fill-array-data v2, :array_0
 
     const-string v3, "EGL_BUFFER_SIZE"
@@ -253,7 +237,6 @@
 
     const-string v37, "EGL_COVERAGE_SAMPLES_NV"
 
-    .line 2
     filled-new-array/range {v3 .. v37}, [Ljava/lang/String;
 
     move-result-object v3
@@ -269,10 +252,8 @@
     :goto_0
     if-ge v7, v1, :cond_1
 
-    .line 3
     aget v8, v2, v7
 
-    .line 4
     aget-object v9, v3, v7
 
     move-object/from16 v10, p1
@@ -281,7 +262,6 @@
 
     move-object/from16 v12, p3
 
-    .line 5
     invoke-interface {v10, v11, v12, v8, v5}, Ljavax/microedition/khronos/egl/EGL10;->eglGetConfigAttrib(Ljavax/microedition/khronos/egl/EGLDisplay;Ljavax/microedition/khronos/egl/EGLConfig;I[I)Z
 
     move-result v8
@@ -294,7 +274,6 @@
 
     aput-object v9, v8, v6
 
-    .line 6
     aget v9, v5, v6
 
     invoke-static {v9}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -315,7 +294,6 @@
 
     goto :goto_1
 
-    .line 7
     :cond_0
     invoke-interface/range {p1 .. p1}, Ljavax/microedition/khronos/egl/EGL10;->eglGetError()I
 
@@ -324,7 +302,6 @@
 
     goto :goto_0
 
-    .line 8
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -379,14 +356,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     array-length v1, p3
 
     const/4 v2, 0x1
 
     new-array v3, v2, [Ljava/lang/Object;
 
-    .line 2
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v4
@@ -412,7 +387,6 @@
 
     new-array v6, v2, [Ljava/lang/Object;
 
-    .line 3
     invoke-static {v3}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v7
@@ -427,7 +401,6 @@
 
     invoke-static {v4, v6}, Lcom/meitu/debug/Logger;->Y(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 4
     aget-object v6, p3, v3
 
     invoke-direct {p0, p1, p2, v6}, Lcom/meitu/mtmvcore/backend/android/surfaceview/b;->c(Ljavax/microedition/khronos/egl/EGL10;Ljavax/microedition/khronos/egl/EGLDisplay;Ljavax/microedition/khronos/egl/EGLConfig;)V
@@ -436,7 +409,6 @@
 
     goto :goto_0
 
-    .line 5
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -456,7 +428,6 @@
 
     invoke-static {v8}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     array-length v9, v7
 
     const/4 v0, 0x0
@@ -488,19 +459,16 @@
 
     move-object v3, v14
 
-    .line 2
     invoke-direct/range {v0 .. v5}, Lcom/meitu/mtmvcore/backend/android/surfaceview/b;->b(Ljavax/microedition/khronos/egl/EGL10;Ljavax/microedition/khronos/egl/EGLDisplay;Ljavax/microedition/khronos/egl/EGLConfig;II)I
 
     move-result v15
 
     const/16 v4, 0x3026
 
-    .line 3
     invoke-direct/range {v0 .. v5}, Lcom/meitu/mtmvcore/backend/android/surfaceview/b;->b(Ljavax/microedition/khronos/egl/EGL10;Ljavax/microedition/khronos/egl/EGLDisplay;Ljavax/microedition/khronos/egl/EGLConfig;II)I
 
     move-result v0
 
-    .line 4
     iget v1, v6, Lcom/meitu/mtmvcore/backend/android/surfaceview/b;->e:I
 
     if-lt v15, v1, :cond_5
@@ -524,14 +492,12 @@
 
     move-object v3, v14
 
-    .line 5
     invoke-direct/range {v0 .. v5}, Lcom/meitu/mtmvcore/backend/android/surfaceview/b;->b(Ljavax/microedition/khronos/egl/EGL10;Ljavax/microedition/khronos/egl/EGLDisplay;Ljavax/microedition/khronos/egl/EGLConfig;II)I
 
     move-result v15
 
     const/16 v4, 0x3023
 
-    .line 6
     invoke-direct/range {v0 .. v5}, Lcom/meitu/mtmvcore/backend/android/surfaceview/b;->b(Ljavax/microedition/khronos/egl/EGL10;Ljavax/microedition/khronos/egl/EGLDisplay;Ljavax/microedition/khronos/egl/EGLConfig;II)I
 
     move-result v5
@@ -544,7 +510,6 @@
 
     move/from16 v5, v16
 
-    .line 7
     invoke-direct/range {v0 .. v5}, Lcom/meitu/mtmvcore/backend/android/surfaceview/b;->b(Ljavax/microedition/khronos/egl/EGL10;Ljavax/microedition/khronos/egl/EGLDisplay;Ljavax/microedition/khronos/egl/EGLConfig;II)I
 
     move-result v5
@@ -555,7 +520,6 @@
 
     move/from16 v5, v16
 
-    .line 8
     invoke-direct/range {v0 .. v5}, Lcom/meitu/mtmvcore/backend/android/surfaceview/b;->b(Ljavax/microedition/khronos/egl/EGL10;Ljavax/microedition/khronos/egl/EGLDisplay;Ljavax/microedition/khronos/egl/EGLConfig;II)I
 
     move-result v5
@@ -579,7 +543,6 @@
     :cond_1
     if-nez v11, :cond_2
 
-    .line 9
     iget v0, v6, Lcom/meitu/mtmvcore/backend/android/surfaceview/b;->a:I
 
     if-ne v15, v0, :cond_2
@@ -596,7 +559,6 @@
 
     if-ne v5, v0, :cond_2
 
-    .line 10
     iget v0, v6, Lcom/meitu/mtmvcore/backend/android/surfaceview/b;->g:I
 
     move-object v11, v14
@@ -624,7 +586,6 @@
 
     move/from16 v5, v16
 
-    .line 11
     invoke-direct/range {v0 .. v5}, Lcom/meitu/mtmvcore/backend/android/surfaceview/b;->b(Ljavax/microedition/khronos/egl/EGL10;Ljavax/microedition/khronos/egl/EGLDisplay;Ljavax/microedition/khronos/egl/EGLConfig;II)I
 
     move-result v5
@@ -637,7 +598,6 @@
 
     move/from16 v5, v16
 
-    .line 12
     invoke-direct/range {v0 .. v5}, Lcom/meitu/mtmvcore/backend/android/surfaceview/b;->b(Ljavax/microedition/khronos/egl/EGL10;Ljavax/microedition/khronos/egl/EGLDisplay;Ljavax/microedition/khronos/egl/EGLConfig;II)I
 
     move-result v0
@@ -648,7 +608,6 @@
 
     if-ne v10, v5, :cond_3
 
-    .line 13
     iget v1, v6, Lcom/meitu/mtmvcore/backend/android/surfaceview/b;->g:I
 
     if-lt v0, v1, :cond_3
@@ -692,7 +651,6 @@
 
     move v5, v10
 
-    .line 14
     invoke-direct/range {v0 .. v5}, Lcom/meitu/mtmvcore/backend/android/surfaceview/b;->b(Ljavax/microedition/khronos/egl/EGL10;Ljavax/microedition/khronos/egl/EGLDisplay;Ljavax/microedition/khronos/egl/EGLConfig;II)I
 
     move-result v10
@@ -701,7 +659,6 @@
 
     const/4 v5, 0x0
 
-    .line 15
     invoke-direct/range {v0 .. v5}, Lcom/meitu/mtmvcore/backend/android/surfaceview/b;->b(Ljavax/microedition/khronos/egl/EGL10;Ljavax/microedition/khronos/egl/EGLDisplay;Ljavax/microedition/khronos/egl/EGLConfig;II)I
 
     move-result v0
@@ -710,7 +667,6 @@
 
     if-ne v10, v11, :cond_4
 
-    .line 16
     iget v1, v6, Lcom/meitu/mtmvcore/backend/android/surfaceview/b;->g:I
 
     if-lt v0, v1, :cond_4
@@ -762,7 +718,6 @@
 
     const v0, 0xdf77
 
-    .line 17
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v12
@@ -772,12 +727,10 @@
 
     if-eqz v11, :cond_8
 
-    .line 18
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v11
 
-    .line 19
     :cond_8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -797,7 +750,6 @@
 
     new-array v1, v1, [I
 
-    .line 1
     iget-object v4, p0, Lcom/meitu/mtmvcore/backend/android/surfaceview/b;->h:[I
 
     const/4 v6, 0x1
@@ -820,14 +772,12 @@
 
     const-string v3, "failed to find valid RGB8888 EGL14 EGLConfig,trying to find RGB565"
 
-    .line 2
     invoke-static {v2, v3}, Lcom/meitu/debug/Logger;->Y(Ljava/lang/String;Ljava/lang/String;)V
 
     const/16 v2, 0xb
 
     new-array v4, v2, [I
 
-    .line 3
     fill-array-data v4, :array_0
 
     const/4 v6, 0x1
@@ -840,7 +790,6 @@
 
     move-object v7, v1
 
-    .line 4
     invoke-interface/range {v2 .. v7}, Ljavax/microedition/khronos/egl/EGL10;->eglChooseConfig(Ljavax/microedition/khronos/egl/EGLDisplay;[I[Ljavax/microedition/khronos/egl/EGLConfig;I[I)Z
 
     move-result p1
@@ -849,7 +798,6 @@
 
     goto :goto_0
 
-    .line 5
     :cond_0
     new-instance p1, Ljava/lang/RuntimeException;
 
@@ -865,7 +813,6 @@
     :goto_0
     const/4 p1, 0x0
 
-    .line 6
     aget-object p1, v8, p1
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

@@ -40,10 +40,8 @@
 
     sget v0, Lcom/res/provider/ResLAYOUT;->item_text_color_picker:I
 
-    .line 1
     invoke-direct {p0, p1, p2, v0}, Lcom/commsource/widget/h1/f;-><init>(Landroid/content/Context;Landroid/view/ViewGroup;I)V
 
-    .line 2
     iget-object p1, p0, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->itemView:Landroid/view/View;
 
     invoke-static {p1}, Lcom/commsource/beautyplus/f0/ik;->a(Landroid/view/View;)Lcom/commsource/beautyplus/f0/ik;
@@ -91,10 +89,8 @@
 
     invoke-static {p2, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-super {p0, p1, p2, p3}, Lcom/commsource/widget/h1/f;->k(ILcom/commsource/widget/h1/d;Ljava/util/List;)V
 
-    .line 2
     iget-object p1, p0, Lcom/commsource/studio/mixlayer/c;->p:Lcom/commsource/beautyplus/f0/ik;
 
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/ik;->a:Lcom/commsource/studio/doodle/ColorItemView;
@@ -105,7 +101,6 @@
 
     invoke-static {p1}, Lcom/commsource/util/l0;->v0(Landroid/view/View;)V
 
-    .line 3
     iget-object p1, p0, Lcom/commsource/studio/mixlayer/c;->p:Lcom/commsource/beautyplus/f0/ik;
 
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/ik;->a:Lcom/commsource/studio/doodle/ColorItemView;
@@ -114,14 +109,12 @@
 
     invoke-virtual {p1, v1}, Lcom/commsource/studio/doodle/ColorItemView;->setSelectStrokeColor(I)V
 
-    .line 4
     iget-object p1, p0, Lcom/commsource/studio/mixlayer/c;->p:Lcom/commsource/beautyplus/f0/ik;
 
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/ik;->a:Lcom/commsource/studio/doodle/ColorItemView;
 
     invoke-virtual {p1, v1}, Lcom/commsource/studio/doodle/ColorItemView;->setUnSelectStrokeColor(I)V
 
-    .line 5
     iget-object p1, p0, Lcom/commsource/studio/mixlayer/c;->p:Lcom/commsource/beautyplus/f0/ik;
 
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/ik;->a:Lcom/commsource/studio/doodle/ColorItemView;
@@ -142,7 +135,6 @@
 
     invoke-virtual {p1, v1}, Lcom/commsource/studio/doodle/ColorItemView;->setFillColor(I)V
 
-    .line 6
     iget-object p1, p0, Lcom/commsource/studio/mixlayer/c;->p:Lcom/commsource/beautyplus/f0/ik;
 
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/ik;->a:Lcom/commsource/studio/doodle/ColorItemView;
@@ -155,7 +147,6 @@
 
     invoke-virtual {p1, p2}, Landroid/view/View;->setSelected(Z)V
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

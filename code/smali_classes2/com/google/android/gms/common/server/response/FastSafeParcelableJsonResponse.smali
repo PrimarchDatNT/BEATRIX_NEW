@@ -19,7 +19,6 @@
     .annotation build Lcom/google/android/gms/common/annotation/a;
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Lcom/google/android/gms/common/server/response/FastJsonResponse;-><init>()V
 
     return-void
@@ -32,22 +31,18 @@
     .annotation build Lcom/google/android/gms/common/annotation/a;
     .end annotation
 
-    .line 1
     invoke-static {}, Landroid/os/Parcel;->obtain()Landroid/os/Parcel;
 
     move-result-object v0
 
     const/4 v1, 0x0
 
-    .line 2
     invoke-interface {p0, v0, v1}, Landroid/os/Parcelable;->writeToParcel(Landroid/os/Parcel;I)V
 
-    .line 3
     invoke-virtual {v0}, Landroid/os/Parcel;->marshall()[B
 
     move-result-object v1
 
-    .line 4
     invoke-virtual {v0}, Landroid/os/Parcel;->recycle()V
 
     return-object v1
@@ -80,7 +75,6 @@
 
     return v0
 
-    .line 1
     :cond_0
     invoke-virtual {p0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
@@ -96,11 +90,9 @@
 
     return v2
 
-    .line 2
     :cond_1
     check-cast p1, Lcom/google/android/gms/common/server/response/FastJsonResponse;
 
-    .line 3
     invoke-virtual {p0}, Lcom/google/android/gms/common/server/response/FastJsonResponse;->c()Ljava/util/Map;
 
     move-result-object v1
@@ -126,21 +118,18 @@
 
     check-cast v3, Lcom/google/android/gms/common/server/response/FastJsonResponse$Field;
 
-    .line 4
     invoke-virtual {p0, v3}, Lcom/google/android/gms/common/server/response/FastJsonResponse;->f(Lcom/google/android/gms/common/server/response/FastJsonResponse$Field;)Z
 
     move-result v4
 
     if-eqz v4, :cond_4
 
-    .line 5
     invoke-virtual {p1, v3}, Lcom/google/android/gms/common/server/response/FastJsonResponse;->f(Lcom/google/android/gms/common/server/response/FastJsonResponse$Field;)Z
 
     move-result v4
 
     if-eqz v4, :cond_3
 
-    .line 6
     invoke-virtual {p0, v3}, Lcom/google/android/gms/common/server/response/FastJsonResponse;->d(Lcom/google/android/gms/common/server/response/FastJsonResponse$Field;)Ljava/lang/Object;
 
     move-result-object v4
@@ -158,7 +147,6 @@
     :cond_3
     return v2
 
-    .line 7
     :cond_4
     invoke-virtual {p1, v3}, Lcom/google/android/gms/common/server/response/FastJsonResponse;->f(Lcom/google/android/gms/common/server/response/FastJsonResponse$Field;)Z
 
@@ -185,7 +173,6 @@
 .method public hashCode()I
     .locals 4
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/android/gms/common/server/response/FastJsonResponse;->c()Ljava/util/Map;
 
     move-result-object v0
@@ -214,7 +201,6 @@
 
     check-cast v2, Lcom/google/android/gms/common/server/response/FastJsonResponse$Field;
 
-    .line 2
     invoke-virtual {p0, v2}, Lcom/google/android/gms/common/server/response/FastJsonResponse;->f(Lcom/google/android/gms/common/server/response/FastJsonResponse$Field;)Z
 
     move-result v3
@@ -223,7 +209,6 @@
 
     mul-int/lit8 v1, v1, 0x1f
 
-    .line 3
     invoke-virtual {p0, v2}, Lcom/google/android/gms/common/server/response/FastJsonResponse;->d(Lcom/google/android/gms/common/server/response/FastJsonResponse$Field;)Ljava/lang/Object;
 
     move-result-object v2

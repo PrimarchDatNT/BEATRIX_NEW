@@ -15,10 +15,8 @@
 .method public constructor <init>(Lcom/google/vr/dynamite/client/e;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/google/vr/dynamite/client/d;->c:Lcom/google/vr/dynamite/client/e;
 
     return-void
@@ -27,7 +25,6 @@
 .method private static a(Ljava/lang/ClassLoader;Ljava/lang/String;)Landroid/os/IBinder;
     .locals 3
 
-    .line 1
     :try_start_0
     invoke-virtual {p0, p1}, Ljava/lang/ClassLoader;->loadClass(Ljava/lang/String;)Ljava/lang/Class;
 
@@ -37,7 +34,6 @@
 
     new-array v1, v0, [Ljava/lang/Class;
 
-    .line 2
     invoke-virtual {p0, v1}, Ljava/lang/Class;->getDeclaredConstructor([Ljava/lang/Class;)Ljava/lang/reflect/Constructor;
 
     move-result-object p0
@@ -61,7 +57,6 @@
     :catch_0
     move-exception p0
 
-    .line 3
     new-instance v0, Ljava/lang/IllegalStateException;
 
     const-string v1, "Unable to call the default constructor of "
@@ -95,7 +90,6 @@
     :catch_1
     move-exception p0
 
-    .line 4
     new-instance v0, Ljava/lang/IllegalStateException;
 
     const-string v1, "Unable to instantiate the remote class "
@@ -129,7 +123,6 @@
     :catch_2
     move-exception p0
 
-    .line 5
     new-instance v0, Ljava/lang/IllegalStateException;
 
     const-string v1, "Unable to find dynamic class "
@@ -163,7 +156,6 @@
     :catch_3
     move-exception p0
 
-    .line 6
     new-instance v0, Ljava/lang/IllegalStateException;
 
     const-string v1, "Unable to invoke constructor of dynamic class "
@@ -197,7 +189,6 @@
     :catch_4
     move-exception p0
 
-    .line 7
     new-instance v0, Ljava/lang/IllegalStateException;
 
     const-string v1, "No constructor for dynamic class "
@@ -241,13 +232,11 @@
 
     monitor-enter p0
 
-    .line 1
     :try_start_0
     iget-object v0, p0, Lcom/google/vr/dynamite/client/d;->b:Lcom/google/vr/dynamite/client/ILoadedInstanceCreator;
 
     if-nez v0, :cond_2
 
-    .line 2
     invoke-virtual {p0, p1}, Lcom/google/vr/dynamite/client/d;->c(Landroid/content/Context;)Landroid/content/Context;
 
     move-result-object p1
@@ -258,7 +247,6 @@
 
     const-string v0, "com.google.vr.dynamite.LoadedInstanceCreator"
 
-    .line 3
     invoke-static {p1, v0}, Lcom/google/vr/dynamite/client/d;->a(Ljava/lang/ClassLoader;Ljava/lang/String;)Landroid/os/IBinder;
 
     move-result-object p1
@@ -272,24 +260,20 @@
     :cond_0
     const-string v0, "com.google.vr.dynamite.client.ILoadedInstanceCreator"
 
-    .line 4
     invoke-interface {p1, v0}, Landroid/os/IBinder;->queryLocalInterface(Ljava/lang/String;)Landroid/os/IInterface;
 
     move-result-object v0
 
-    .line 5
     instance-of v1, v0, Lcom/google/vr/dynamite/client/ILoadedInstanceCreator;
 
     if-eqz v1, :cond_1
 
-    .line 6
     move-object p1, v0
 
     check-cast p1, Lcom/google/vr/dynamite/client/ILoadedInstanceCreator;
 
     goto :goto_0
 
-    .line 7
     :cond_1
     new-instance v0, Lcom/google/vr/dynamite/client/a;
 
@@ -297,11 +281,9 @@
 
     move-object p1, v0
 
-    .line 8
     :goto_0
     iput-object p1, p0, Lcom/google/vr/dynamite/client/d;->b:Lcom/google/vr/dynamite/client/ILoadedInstanceCreator;
 
-    .line 9
     :cond_2
     iget-object p1, p0, Lcom/google/vr/dynamite/client/d;->b:Lcom/google/vr/dynamite/client/ILoadedInstanceCreator;
     :try_end_0
@@ -329,7 +311,6 @@
 
     monitor-enter p0
 
-    .line 1
     :try_start_0
     iget-object v0, p0, Lcom/google/vr/dynamite/client/d;->a:Landroid/content/Context;
     :try_end_0
@@ -337,18 +318,15 @@
 
     if-nez v0, :cond_0
 
-    .line 2
     :try_start_1
     iget-object v0, p0, Lcom/google/vr/dynamite/client/d;->c:Lcom/google/vr/dynamite/client/e;
 
-    .line 3
     invoke-virtual {v0}, Lcom/google/vr/dynamite/client/e;->a()Ljava/lang/String;
 
     move-result-object v0
 
     const/4 v1, 0x3
 
-    .line 4
     invoke-virtual {p1, v0, v1}, Landroid/content/Context;->createPackageContext(Ljava/lang/String;I)Landroid/content/Context;
 
     move-result-object p1
@@ -360,7 +338,6 @@
 
     goto :goto_0
 
-    .line 5
     :catch_0
     :try_start_2
     new-instance p1, Lcom/google/vr/dynamite/client/c;
@@ -371,7 +348,6 @@
 
     throw p1
 
-    .line 6
     :cond_0
     :goto_0
     iget-object p1, p0, Lcom/google/vr/dynamite/client/d;->a:Landroid/content/Context;

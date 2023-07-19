@@ -47,10 +47,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lio/grpc/z1/a/b$b;->a:Lcom/google/protobuf/i1;
 
     return-void
@@ -61,7 +59,6 @@
 .method public bridge synthetic a(Ljava/lang/Object;)[B
     .locals 0
 
-    .line 1
     check-cast p1, Lcom/google/protobuf/i1;
 
     invoke-virtual {p0, p1}, Lio/grpc/z1/a/b$b;->d(Lcom/google/protobuf/i1;)[B
@@ -74,7 +71,6 @@
 .method public bridge synthetic b([B)Ljava/lang/Object;
     .locals 0
 
-    .line 1
     invoke-virtual {p0, p1}, Lio/grpc/z1/a/b$b;->c([B)Lcom/google/protobuf/i1;
 
     move-result-object p1
@@ -90,7 +86,6 @@
         }
     .end annotation
 
-    .line 1
     :try_start_0
     iget-object v0, p0, Lio/grpc/z1/a/b$b;->a:Lcom/google/protobuf/i1;
 
@@ -113,7 +108,6 @@
     :catch_0
     move-exception p1
 
-    .line 2
     new-instance v0, Ljava/lang/IllegalArgumentException;
 
     invoke-direct {v0, p1}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/Throwable;)V
@@ -129,7 +123,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-interface {p1}, Lcom/google/protobuf/i1;->P()[B
 
     move-result-object p1

@@ -46,7 +46,6 @@
 .method static constructor <clinit>()V
     .locals 15
 
-    .line 1
     new-instance v0, Lio/grpc/okhttp/OkHttpFrameLogger$SettingParams;
 
     const-string v1, "HEADER_TABLE_SIZE"
@@ -59,7 +58,6 @@
 
     sput-object v0, Lio/grpc/okhttp/OkHttpFrameLogger$SettingParams;->HEADER_TABLE_SIZE:Lio/grpc/okhttp/OkHttpFrameLogger$SettingParams;
 
-    .line 2
     new-instance v1, Lio/grpc/okhttp/OkHttpFrameLogger$SettingParams;
 
     const-string v4, "ENABLE_PUSH"
@@ -70,7 +68,6 @@
 
     sput-object v1, Lio/grpc/okhttp/OkHttpFrameLogger$SettingParams;->ENABLE_PUSH:Lio/grpc/okhttp/OkHttpFrameLogger$SettingParams;
 
-    .line 3
     new-instance v4, Lio/grpc/okhttp/OkHttpFrameLogger$SettingParams;
 
     const-string v6, "MAX_CONCURRENT_STREAMS"
@@ -81,7 +78,6 @@
 
     sput-object v4, Lio/grpc/okhttp/OkHttpFrameLogger$SettingParams;->MAX_CONCURRENT_STREAMS:Lio/grpc/okhttp/OkHttpFrameLogger$SettingParams;
 
-    .line 4
     new-instance v6, Lio/grpc/okhttp/OkHttpFrameLogger$SettingParams;
 
     const-string v8, "MAX_FRAME_SIZE"
@@ -94,7 +90,6 @@
 
     sput-object v6, Lio/grpc/okhttp/OkHttpFrameLogger$SettingParams;->MAX_FRAME_SIZE:Lio/grpc/okhttp/OkHttpFrameLogger$SettingParams;
 
-    .line 5
     new-instance v8, Lio/grpc/okhttp/OkHttpFrameLogger$SettingParams;
 
     const-string v11, "MAX_HEADER_LIST_SIZE"
@@ -105,7 +100,6 @@
 
     sput-object v8, Lio/grpc/okhttp/OkHttpFrameLogger$SettingParams;->MAX_HEADER_LIST_SIZE:Lio/grpc/okhttp/OkHttpFrameLogger$SettingParams;
 
-    .line 6
     new-instance v11, Lio/grpc/okhttp/OkHttpFrameLogger$SettingParams;
 
     const-string v13, "INITIAL_WINDOW_SIZE"
@@ -130,7 +124,6 @@
 
     aput-object v11, v12, v10
 
-    .line 7
     sput-object v12, Lio/grpc/okhttp/OkHttpFrameLogger$SettingParams;->$VALUES:[Lio/grpc/okhttp/OkHttpFrameLogger$SettingParams;
 
     return-void
@@ -144,10 +137,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 2
     iput p3, p0, Lio/grpc/okhttp/OkHttpFrameLogger$SettingParams;->bit:I
 
     return-void
@@ -156,7 +147,6 @@
 .method public static valueOf(Ljava/lang/String;)Lio/grpc/okhttp/OkHttpFrameLogger$SettingParams;
     .locals 1
 
-    .line 1
     const-class v0, Lio/grpc/okhttp/OkHttpFrameLogger$SettingParams;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -171,7 +161,6 @@
 .method public static values()[Lio/grpc/okhttp/OkHttpFrameLogger$SettingParams;
     .locals 1
 
-    .line 1
     sget-object v0, Lio/grpc/okhttp/OkHttpFrameLogger$SettingParams;->$VALUES:[Lio/grpc/okhttp/OkHttpFrameLogger$SettingParams;
 
     invoke-virtual {v0}, [Lio/grpc/okhttp/OkHttpFrameLogger$SettingParams;->clone()Ljava/lang/Object;
@@ -188,7 +177,6 @@
 .method public getBit()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lio/grpc/okhttp/OkHttpFrameLogger$SettingParams;->bit:I
 
     return v0

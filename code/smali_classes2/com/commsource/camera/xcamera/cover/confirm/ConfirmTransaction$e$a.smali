@@ -29,7 +29,6 @@
 
     iput-object p5, p0, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmTransaction$e$a;->e:Lcom/commsource/camera/xcamera/cover/confirm/ConfirmTransaction$e;
 
-    .line 1
     invoke-direct {p0, p2, p3, p4}, Lcom/commsource/util/delegate/process/l;-><init>(Ljava/lang/String;Lcom/commsource/beautyplus/router/RouterEntity;I)V
 
     return-void
@@ -44,7 +43,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmTransaction$e$a;->e:Lcom/commsource/camera/xcamera/cover/confirm/ConfirmTransaction$e;
 
     iget-object v1, v1, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmTransaction$e;->a:Lcom/commsource/camera/xcamera/cover/confirm/ConfirmTransaction;
@@ -53,7 +51,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmTransaction;->J(Z)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmTransaction$e$a;->e:Lcom/commsource/camera/xcamera/cover/confirm/ConfirmTransaction$e;
 
     iget-object v1, v1, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmTransaction$e;->a:Lcom/commsource/camera/xcamera/cover/confirm/ConfirmTransaction;
@@ -66,7 +63,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/camera/xcamera/cover/confirm/b;->M(Z)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

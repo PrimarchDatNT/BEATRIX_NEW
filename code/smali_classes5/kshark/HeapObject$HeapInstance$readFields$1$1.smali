@@ -55,7 +55,6 @@
 .method public bridge synthetic invoke(Ljava/lang/Object;)Ljava/lang/Object;
     .locals 0
 
-    .line 1
     check-cast p1, Lkshark/m$b$c$a$a;
 
     invoke-virtual {p0, p1}, Lkshark/HeapObject$HeapInstance$readFields$1$1;->invoke(Lkshark/m$b$c$a$a;)Lkshark/h;
@@ -78,7 +77,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 2
     iget-object v0, p0, Lkshark/HeapObject$HeapInstance$readFields$1$1;->this$0:Lkshark/HeapObject$HeapInstance$readFields$1;
 
     iget-object v0, v0, Lkshark/HeapObject$HeapInstance$readFields$1;->this$0:Lkshark/HeapObject$HeapInstance;
@@ -97,7 +95,6 @@
 
     move-result-object v0
 
-    .line 3
     iget-object v1, p0, Lkshark/HeapObject$HeapInstance$readFields$1$1;->this$0:Lkshark/HeapObject$HeapInstance$readFields$1;
 
     iget-object v2, v1, Lkshark/HeapObject$HeapInstance$readFields$1;->$fieldReader:Lcotlin/w;
@@ -114,7 +111,6 @@
 
     move-result-object p1
 
-    .line 4
     new-instance v1, Lkshark/h;
 
     iget-object v2, p0, Lkshark/HeapObject$HeapInstance$readFields$1$1;->$heapClass:Lkshark/HeapObject$HeapClass;

@@ -57,7 +57,6 @@
 
     if-eqz p1, :cond_8
 
-    .line 1
     invoke-virtual {p1}, Ljava/lang/Number;->intValue()I
 
     move-result p1
@@ -76,7 +75,6 @@
 
     goto/16 :goto_2
 
-    .line 2
     :cond_0
     iget-object v4, p0, Lcom/commsource/studio/function/relight/NewRelightFragment$h;->a:Lcom/commsource/studio/function/relight/NewRelightFragment;
 
@@ -90,7 +88,6 @@
 
     if-eqz v4, :cond_1
 
-    .line 3
     iget-object v4, p0, Lcom/commsource/studio/function/relight/NewRelightFragment$h;->a:Lcom/commsource/studio/function/relight/NewRelightFragment;
 
     invoke-static {v4}, Lcom/commsource/studio/function/relight/NewRelightFragment;->J1(Lcom/commsource/studio/function/relight/NewRelightFragment;)Lcom/commsource/studio/function/relight/NewRelightLayer;
@@ -119,7 +116,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_1
     iget-object v4, p0, Lcom/commsource/studio/function/relight/NewRelightFragment$h;->a:Lcom/commsource/studio/function/relight/NewRelightFragment;
 
@@ -147,7 +143,6 @@
 
     invoke-virtual {v4, v5}, Lcom/commsource/studio/function/relight/NewRelightLayer;->G0(Lcom/commsource/studio/function/relight/e;)V
 
-    .line 5
     :goto_0
     iget-object v4, p0, Lcom/commsource/studio/function/relight/NewRelightFragment$h;->a:Lcom/commsource/studio/function/relight/NewRelightFragment;
 
@@ -157,7 +152,6 @@
 
     invoke-virtual {v4}, Lcom/commsource/studio/function/relight/g;->y()V
 
-    .line 6
     iget-object v4, p0, Lcom/commsource/studio/function/relight/NewRelightFragment$h;->a:Lcom/commsource/studio/function/relight/NewRelightFragment;
 
     invoke-static {v4}, Lcom/commsource/studio/function/relight/NewRelightFragment;->J1(Lcom/commsource/studio/function/relight/NewRelightFragment;)Lcom/commsource/studio/function/relight/NewRelightLayer;
@@ -166,7 +160,6 @@
 
     invoke-virtual {v4, v3}, Lcom/commsource/studio/layer/BaseLayer;->j0(Z)V
 
-    .line 7
     iget-object v3, p0, Lcom/commsource/studio/function/relight/NewRelightFragment$h;->a:Lcom/commsource/studio/function/relight/NewRelightFragment;
 
     invoke-static {v3}, Lcom/commsource/studio/function/relight/NewRelightFragment;->F1(Lcom/commsource/studio/function/relight/NewRelightFragment;)Lcom/commsource/studio/layer/MultiFaceSelectLayer;
@@ -179,7 +172,6 @@
 
     goto :goto_2
 
-    .line 8
     :cond_2
     iget-object v3, p0, Lcom/commsource/studio/function/relight/NewRelightFragment$h;->a:Lcom/commsource/studio/function/relight/NewRelightFragment;
 
@@ -189,7 +181,6 @@
 
     invoke-virtual {v3}, Lcom/commsource/studio/function/relight/g;->z()V
 
-    .line 9
     iget-object v3, p0, Lcom/commsource/studio/function/relight/NewRelightFragment$h;->a:Lcom/commsource/studio/function/relight/NewRelightFragment;
 
     invoke-static {v3}, Lcom/commsource/studio/function/relight/NewRelightFragment;->J1(Lcom/commsource/studio/function/relight/NewRelightFragment;)Lcom/commsource/studio/function/relight/NewRelightLayer;
@@ -198,7 +189,6 @@
 
     invoke-virtual {v3, v2}, Lcom/commsource/studio/layer/BaseLayer;->j0(Z)V
 
-    .line 10
     iget-object v3, p0, Lcom/commsource/studio/function/relight/NewRelightFragment$h;->a:Lcom/commsource/studio/function/relight/NewRelightFragment;
 
     invoke-static {v3}, Lcom/commsource/studio/function/relight/NewRelightFragment;->F1(Lcom/commsource/studio/function/relight/NewRelightFragment;)Lcom/commsource/studio/layer/MultiFaceSelectLayer;
@@ -211,7 +201,6 @@
 
     goto :goto_2
 
-    .line 11
     :cond_3
     iget-object v4, p0, Lcom/commsource/studio/function/relight/NewRelightFragment$h;->a:Lcom/commsource/studio/function/relight/NewRelightFragment;
 
@@ -247,7 +236,6 @@
     :goto_1
     invoke-virtual {v4, v5}, Lcom/commsource/studio/function/relight/NewRelightLayer;->G0(Lcom/commsource/studio/function/relight/e;)V
 
-    .line 12
     iget-object v4, p0, Lcom/commsource/studio/function/relight/NewRelightFragment$h;->a:Lcom/commsource/studio/function/relight/NewRelightFragment;
 
     invoke-static {v4}, Lcom/commsource/studio/function/relight/NewRelightFragment;->K1(Lcom/commsource/studio/function/relight/NewRelightFragment;)Lcom/commsource/studio/function/relight/g;
@@ -260,7 +248,6 @@
 
     if-nez v4, :cond_5
 
-    .line 13
     iget-object v4, p0, Lcom/commsource/studio/function/relight/NewRelightFragment$h;->a:Lcom/commsource/studio/function/relight/NewRelightFragment;
 
     invoke-static {v4}, Lcom/commsource/studio/function/relight/NewRelightFragment;->J1(Lcom/commsource/studio/function/relight/NewRelightFragment;)Lcom/commsource/studio/function/relight/NewRelightLayer;
@@ -269,7 +256,6 @@
 
     invoke-virtual {v4, v3}, Lcom/commsource/studio/function/relight/NewRelightLayer;->H0(Z)V
 
-    .line 14
     :cond_5
     iget-object v4, p0, Lcom/commsource/studio/function/relight/NewRelightFragment$h;->a:Lcom/commsource/studio/function/relight/NewRelightFragment;
 
@@ -279,7 +265,6 @@
 
     invoke-virtual {v4}, Lcom/commsource/studio/function/relight/g;->A()V
 
-    .line 15
     iget-object v4, p0, Lcom/commsource/studio/function/relight/NewRelightFragment$h;->a:Lcom/commsource/studio/function/relight/NewRelightFragment;
 
     invoke-static {v4}, Lcom/commsource/studio/function/relight/NewRelightFragment;->J1(Lcom/commsource/studio/function/relight/NewRelightFragment;)Lcom/commsource/studio/function/relight/NewRelightLayer;
@@ -288,7 +273,6 @@
 
     invoke-virtual {v4, v3}, Lcom/commsource/studio/layer/BaseLayer;->j0(Z)V
 
-    .line 16
     iget-object v4, p0, Lcom/commsource/studio/function/relight/NewRelightFragment$h;->a:Lcom/commsource/studio/function/relight/NewRelightFragment;
 
     invoke-static {v4}, Lcom/commsource/studio/function/relight/NewRelightFragment;->F1(Lcom/commsource/studio/function/relight/NewRelightFragment;)Lcom/commsource/studio/layer/MultiFaceSelectLayer;
@@ -305,7 +289,6 @@
 
     if-ne p1, v1, :cond_8
 
-    .line 17
     :cond_7
     invoke-static {}, Lf/d/i/h;->F0()Z
 
@@ -315,13 +298,10 @@
 
     sget p1, Lcom/res/provider/ResSTRING;->t_highlight_move_position:I
 
-    .line 18
     invoke-static {p1}, Lf/k/c/c/f;->r(I)V
 
-    .line 19
     invoke-static {v2}, Lf/d/i/h;->w1(Z)V
 
-    .line 20
     :cond_8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -335,7 +315,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Ljava/lang/Integer;
 
     invoke-virtual {p0, p1}, Lcom/commsource/studio/function/relight/NewRelightFragment$h;->a(Ljava/lang/Integer;)V

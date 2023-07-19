@@ -10,7 +10,6 @@
 .method public constructor <init>(I)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1}, Ljava/io/ByteArrayOutputStream;-><init>(I)V
 
     return-void
@@ -23,7 +22,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Ljava/io/ByteArrayOutputStream;->buf:[B
 
     const-string v1, "buf"

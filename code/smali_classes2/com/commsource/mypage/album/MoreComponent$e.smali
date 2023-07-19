@@ -54,7 +54,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/mypage/album/MoreComponent$e;->a:Lcom/commsource/mypage/album/MoreComponent;
 
     invoke-virtual {v1}, Lcom/commsource/mypage/album/BaseAlbumComponent;->c()Lcom/commsource/mypage/album/BpAlbumActivity;
@@ -65,7 +64,6 @@
 
     new-array v2, v2, [Ljava/lang/Object;
 
-    .line 2
     new-instance v3, Ljava/lang/StringBuilder;
 
     invoke-direct {v3}, Ljava/lang/StringBuilder;-><init>()V
@@ -94,22 +92,18 @@
 
     sget p1, Lcom/res/provider/ResSTRING;->x_photo_remove:I
 
-    .line 3
     invoke-virtual {v1, p1, v2}, Landroid/app/Activity;->getString(I[Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object p1
 
     new-array v1, v3, [Ljava/lang/Object;
 
-    .line 4
     invoke-static {p1, v1}, Lf/k/c/c/f;->z(Ljava/lang/String;[Ljava/lang/Object;)V
 
-    .line 5
     iget-object p1, p0, Lcom/commsource/mypage/album/MoreComponent$e;->a:Lcom/commsource/mypage/album/MoreComponent;
 
     invoke-static {p1, v3}, Lcom/commsource/mypage/album/MoreComponent;->v(Lcom/commsource/mypage/album/MoreComponent;Z)V
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -122,7 +116,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Ljava/lang/Integer;
 
     invoke-virtual {p0, p1}, Lcom/commsource/mypage/album/MoreComponent$e;->a(Ljava/lang/Integer;)V

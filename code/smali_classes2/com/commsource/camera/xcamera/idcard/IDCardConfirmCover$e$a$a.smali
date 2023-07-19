@@ -46,7 +46,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/idcard/IDCardConfirmCover$e$a$a;->a:Lcom/commsource/camera/xcamera/idcard/IDCardConfirmCover$e$a;
 
     iget-object v1, v1, Lcom/commsource/camera/xcamera/idcard/IDCardConfirmCover$e$a;->b:Lcom/commsource/camera/xcamera/idcard/IDCardConfirmCover$e;
@@ -77,7 +76,6 @@
 
     invoke-virtual {v1, v3, v2}, Landroid/app/Activity;->setResult(ILandroid/content/Intent;)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/camera/xcamera/idcard/IDCardConfirmCover$e$a$a;->a:Lcom/commsource/camera/xcamera/idcard/IDCardConfirmCover$e$a;
 
     iget-object v1, v1, Lcom/commsource/camera/xcamera/idcard/IDCardConfirmCover$e$a;->b:Lcom/commsource/camera/xcamera/idcard/IDCardConfirmCover$e;
@@ -94,7 +92,6 @@
 
     invoke-virtual {v1}, Landroid/app/Activity;->finish()V
 
-    .line 3
     sget-object v1, Lcom/meitu/library/hwanalytics/spm/SPMManager;->h:Lcom/meitu/library/hwanalytics/spm/SPMManager$a;
 
     invoke-virtual {v1}, Lcom/meitu/library/hwanalytics/spm/SPMManager$a;->a()Lcom/meitu/library/hwanalytics/spm/SPMManager;
@@ -103,7 +100,6 @@
 
     invoke-virtual {v1}, Lcom/meitu/library/hwanalytics/spm/SPMManager;->r()V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

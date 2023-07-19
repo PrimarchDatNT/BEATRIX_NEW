@@ -26,14 +26,12 @@
 .method constructor <init>(Lio/grpc/internal/ManagedChannelImpl;Lio/grpc/internal/ManagedChannelImpl$t;Lio/grpc/z0;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lio/grpc/internal/ManagedChannelImpl$u;->c:Lio/grpc/internal/ManagedChannelImpl;
 
     invoke-direct {p0}, Lio/grpc/z0$f;-><init>()V
 
     const-string p1, "helperImpl"
 
-    .line 2
     invoke-static {p2, p1}, Lcom/google/common/base/t;->F(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -44,7 +42,6 @@
 
     const-string p1, "resolver"
 
-    .line 3
     invoke-static {p3, p1}, Lcom/google/common/base/t;->F(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -59,7 +56,6 @@
 .method static synthetic d(Lio/grpc/internal/ManagedChannelImpl$u;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lio/grpc/internal/ManagedChannelImpl$u;->f()V
 
     return-void
@@ -68,7 +64,6 @@
 .method static synthetic e(Lio/grpc/internal/ManagedChannelImpl$u;Lio/grpc/Status;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1}, Lio/grpc/internal/ManagedChannelImpl$u;->g(Lio/grpc/Status;)V
 
     return-void
@@ -77,7 +72,6 @@
 .method private f()V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lio/grpc/internal/ManagedChannelImpl$u;->c:Lio/grpc/internal/ManagedChannelImpl;
 
     invoke-static {v0}, Lio/grpc/internal/ManagedChannelImpl;->R(Lio/grpc/internal/ManagedChannelImpl;)Ljava/util/Collection;
@@ -88,7 +82,6 @@
 
     return-void
 
-    .line 2
     :cond_0
     iget-object v0, p0, Lio/grpc/internal/ManagedChannelImpl$u;->c:Lio/grpc/internal/ManagedChannelImpl;
 
@@ -113,7 +106,6 @@
 
     check-cast v1, Lio/grpc/internal/ManagedChannelImpl$v$c;
 
-    .line 3
     invoke-virtual {v1}, Lio/grpc/internal/ManagedChannelImpl$v$c;->t()V
 
     goto :goto_0
@@ -125,7 +117,6 @@
 .method private g(Lio/grpc/Status;)V
     .locals 6
 
-    .line 1
     sget-object v0, Lio/grpc/internal/ManagedChannelImpl;->l0:Ljava/util/logging/Logger;
 
     sget-object v1, Ljava/util/logging/Level;->WARNING:Ljava/util/logging/Level;
@@ -136,7 +127,6 @@
 
     iget-object v3, p0, Lio/grpc/internal/ManagedChannelImpl$u;->c:Lio/grpc/internal/ManagedChannelImpl;
 
-    .line 2
     invoke-virtual {v3}, Lio/grpc/internal/ManagedChannelImpl;->d()Lio/grpc/j0;
 
     move-result-object v3
@@ -151,10 +141,8 @@
 
     const-string v5, "[{0}] Failed to resolve name. status={1}"
 
-    .line 3
     invoke-virtual {v0, v1, v5, v2}, Ljava/util/logging/Logger;->log(Ljava/util/logging/Level;Ljava/lang/String;[Ljava/lang/Object;)V
 
-    .line 4
     iget-object v0, p0, Lio/grpc/internal/ManagedChannelImpl$u;->c:Lio/grpc/internal/ManagedChannelImpl;
 
     invoke-static {v0}, Lio/grpc/internal/ManagedChannelImpl;->P(Lio/grpc/internal/ManagedChannelImpl;)Ljava/util/concurrent/atomic/AtomicReference;
@@ -171,7 +159,6 @@
 
     if-ne v0, v1, :cond_0
 
-    .line 5
     iget-object v0, p0, Lio/grpc/internal/ManagedChannelImpl$u;->c:Lio/grpc/internal/ManagedChannelImpl;
 
     invoke-static {v0}, Lio/grpc/internal/ManagedChannelImpl;->P(Lio/grpc/internal/ManagedChannelImpl;)Ljava/util/concurrent/atomic/AtomicReference;
@@ -182,10 +169,8 @@
 
     invoke-virtual {v0, v1}, Ljava/util/concurrent/atomic/AtomicReference;->set(Ljava/lang/Object;)V
 
-    .line 6
     invoke-direct {p0}, Lio/grpc/internal/ManagedChannelImpl$u;->f()V
 
-    .line 7
     :cond_0
     iget-object v0, p0, Lio/grpc/internal/ManagedChannelImpl$u;->c:Lio/grpc/internal/ManagedChannelImpl;
 
@@ -197,7 +182,6 @@
 
     if-eq v0, v1, :cond_1
 
-    .line 8
     iget-object v0, p0, Lio/grpc/internal/ManagedChannelImpl$u;->c:Lio/grpc/internal/ManagedChannelImpl;
 
     invoke-static {v0}, Lio/grpc/internal/ManagedChannelImpl;->K(Lio/grpc/internal/ManagedChannelImpl;)Lio/grpc/ChannelLogger;
@@ -214,12 +198,10 @@
 
     invoke-virtual {v0, v2, v4, v3}, Lio/grpc/ChannelLogger;->b(Lio/grpc/ChannelLogger$ChannelLogLevel;Ljava/lang/String;[Ljava/lang/Object;)V
 
-    .line 9
     iget-object v0, p0, Lio/grpc/internal/ManagedChannelImpl$u;->c:Lio/grpc/internal/ManagedChannelImpl;
 
     invoke-static {v0, v1}, Lio/grpc/internal/ManagedChannelImpl;->A0(Lio/grpc/internal/ManagedChannelImpl;Lio/grpc/internal/ManagedChannelImpl$ResolutionState;)Lio/grpc/internal/ManagedChannelImpl$ResolutionState;
 
-    .line 10
     :cond_1
     iget-object v0, p0, Lio/grpc/internal/ManagedChannelImpl$u;->a:Lio/grpc/internal/ManagedChannelImpl$t;
 
@@ -233,7 +215,6 @@
 
     return-void
 
-    .line 11
     :cond_2
     iget-object v0, p0, Lio/grpc/internal/ManagedChannelImpl$u;->a:Lio/grpc/internal/ManagedChannelImpl$t;
 
@@ -241,7 +222,6 @@
 
     invoke-virtual {v0, p1}, Lio/grpc/internal/AutoConfiguredLoadBalancerFactory$b;->c(Lio/grpc/Status;)V
 
-    .line 12
     invoke-direct {p0}, Lio/grpc/internal/ManagedChannelImpl$u;->h()V
 
     return-void
@@ -250,7 +230,6 @@
 .method private h()V
     .locals 7
 
-    .line 1
     iget-object v0, p0, Lio/grpc/internal/ManagedChannelImpl$u;->c:Lio/grpc/internal/ManagedChannelImpl;
 
     invoke-static {v0}, Lio/grpc/internal/ManagedChannelImpl;->t(Lio/grpc/internal/ManagedChannelImpl;)Lio/grpc/w1$c;
@@ -273,7 +252,6 @@
 
     return-void
 
-    .line 2
     :cond_0
     iget-object v0, p0, Lio/grpc/internal/ManagedChannelImpl$u;->c:Lio/grpc/internal/ManagedChannelImpl;
 
@@ -283,7 +261,6 @@
 
     if-nez v0, :cond_1
 
-    .line 3
     iget-object v0, p0, Lio/grpc/internal/ManagedChannelImpl$u;->c:Lio/grpc/internal/ManagedChannelImpl;
 
     invoke-static {v0}, Lio/grpc/internal/ManagedChannelImpl;->r0(Lio/grpc/internal/ManagedChannelImpl;)Lio/grpc/internal/p$a;
@@ -296,7 +273,6 @@
 
     invoke-static {v0, v1}, Lio/grpc/internal/ManagedChannelImpl;->D0(Lio/grpc/internal/ManagedChannelImpl;Lio/grpc/internal/p;)Lio/grpc/internal/p;
 
-    .line 4
     :cond_1
     iget-object v0, p0, Lio/grpc/internal/ManagedChannelImpl$u;->c:Lio/grpc/internal/ManagedChannelImpl;
 
@@ -308,7 +284,6 @@
 
     move-result-wide v3
 
-    .line 5
     iget-object v0, p0, Lio/grpc/internal/ManagedChannelImpl$u;->c:Lio/grpc/internal/ManagedChannelImpl;
 
     invoke-static {v0}, Lio/grpc/internal/ManagedChannelImpl;->K(Lio/grpc/internal/ManagedChannelImpl;)Lio/grpc/ChannelLogger;
@@ -323,7 +298,6 @@
 
     const/4 v5, 0x0
 
-    .line 6
     invoke-static {v3, v4}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
 
     move-result-object v6
@@ -332,10 +306,8 @@
 
     const-string v5, "Scheduling DNS resolution backoff for {0} ns"
 
-    .line 7
     invoke-virtual {v0, v1, v5, v2}, Lio/grpc/ChannelLogger;->b(Lio/grpc/ChannelLogger$ChannelLogLevel;Ljava/lang/String;[Ljava/lang/Object;)V
 
-    .line 8
     iget-object v0, p0, Lio/grpc/internal/ManagedChannelImpl$u;->c:Lio/grpc/internal/ManagedChannelImpl;
 
     iget-object v1, v0, Lio/grpc/internal/ManagedChannelImpl;->p:Lio/grpc/w1;
@@ -348,7 +320,6 @@
 
     iget-object v6, p0, Lio/grpc/internal/ManagedChannelImpl$u;->c:Lio/grpc/internal/ManagedChannelImpl;
 
-    .line 9
     invoke-static {v6}, Lio/grpc/internal/ManagedChannelImpl;->G(Lio/grpc/internal/ManagedChannelImpl;)Lio/grpc/internal/w;
 
     move-result-object v6
@@ -357,12 +328,10 @@
 
     move-result-object v6
 
-    .line 10
     invoke-virtual/range {v1 .. v6}, Lio/grpc/w1;->c(Ljava/lang/Runnable;JLjava/util/concurrent/TimeUnit;Ljava/util/concurrent/ScheduledExecutorService;)Lio/grpc/w1$c;
 
     move-result-object v1
 
-    .line 11
     invoke-static {v0, v1}, Lio/grpc/internal/ManagedChannelImpl;->u(Lio/grpc/internal/ManagedChannelImpl;Lio/grpc/w1$c;)Lio/grpc/w1$c;
 
     return-void
@@ -373,7 +342,6 @@
 .method public a(Lio/grpc/Status;)V
     .locals 2
 
-    .line 1
     invoke-virtual {p1}, Lio/grpc/Status;->r()Z
 
     move-result v0
@@ -384,7 +352,6 @@
 
     invoke-static {v0, v1}, Lcom/google/common/base/t;->e(ZLjava/lang/Object;)V
 
-    .line 2
     iget-object v0, p0, Lio/grpc/internal/ManagedChannelImpl$u;->c:Lio/grpc/internal/ManagedChannelImpl;
 
     iget-object v0, v0, Lio/grpc/internal/ManagedChannelImpl;->p:Lio/grpc/w1;
@@ -401,7 +368,6 @@
 .method public c(Lio/grpc/z0$h;)V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lio/grpc/internal/ManagedChannelImpl$u;->c:Lio/grpc/internal/ManagedChannelImpl;
 
     iget-object v0, v0, Lio/grpc/internal/ManagedChannelImpl;->p:Lio/grpc/w1;

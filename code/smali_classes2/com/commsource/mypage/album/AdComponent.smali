@@ -45,10 +45,8 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/commsource/mypage/album/BaseAlbumComponent;-><init>(Lcom/commsource/mypage/album/BpAlbumActivity;)V
 
-    .line 2
     new-instance p1, Lcom/commsource/beautyplus/m0/a;
 
     invoke-direct {p1}, Lcom/commsource/beautyplus/m0/a;-><init>()V
@@ -65,7 +63,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/mypage/album/AdComponent;->b:Lcom/commsource/mypage/e0;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -80,7 +77,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/mypage/album/AdComponent;->f:Lcom/commsource/beautyplus/m0/a;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -95,7 +91,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/mypage/album/AdComponent;->c:Ljava/lang/ref/WeakReference;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -110,7 +105,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean p0, p0, Lcom/commsource/mypage/album/AdComponent;->g:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -125,7 +119,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/mypage/album/AdComponent;->g:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -140,7 +133,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/mypage/album/AdComponent;->b:Lcom/commsource/mypage/e0;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -155,7 +147,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/mypage/album/AdComponent;->c:Ljava/lang/ref/WeakReference;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -170,7 +161,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/mypage/album/AdComponent;->q()V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -185,7 +175,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/mypage/album/AdComponent;->f:Lcom/commsource/beautyplus/m0/a;
 
     invoke-virtual {p0}, Lcom/commsource/mypage/album/BaseAlbumComponent;->c()Lcom/commsource/mypage/album/BpAlbumActivity;
@@ -200,12 +189,10 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/beautyplus/m0/a;->c(Landroid/view/View;)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/mypage/album/AdComponent;->d:Landroid/app/Dialog;
 
     if-nez v1, :cond_0
 
-    .line 3
     invoke-virtual {p0}, Lcom/commsource/mypage/album/BaseAlbumComponent;->c()Lcom/commsource/mypage/album/BpAlbumActivity;
 
     move-result-object v1
@@ -220,7 +207,6 @@
 
     iput-object v1, p0, Lcom/commsource/mypage/album/AdComponent;->d:Landroid/app/Dialog;
 
-    .line 4
     :cond_0
     iget-object v1, p0, Lcom/commsource/mypage/album/AdComponent;->d:Landroid/app/Dialog;
 
@@ -228,10 +214,8 @@
 
     if-eqz v1, :cond_1
 
-    .line 5
     invoke-virtual {v1}, Landroid/app/Dialog;->show()V
 
-    .line 6
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -247,10 +231,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0}, Lcom/commsource/mypage/album/BaseAlbumComponent;->onCreate()V
 
-    .line 2
     invoke-virtual {p0}, Lcom/commsource/mypage/album/BaseAlbumComponent;->c()Lcom/commsource/mypage/album/BpAlbumActivity;
 
     move-result-object v1
@@ -269,10 +251,8 @@
 
     if-eqz v1, :cond_0
 
-    .line 3
     new-instance v1, Lcom/commsource/mypage/e0;
 
-    .line 4
     invoke-virtual {p0}, Lcom/commsource/mypage/album/BaseAlbumComponent;->c()Lcom/commsource/mypage/album/BpAlbumActivity;
 
     move-result-object v2
@@ -297,17 +277,14 @@
 
     iget-object v4, v4, Lcom/commsource/beautyplus/f0/i;->X:Lcom/meitu/hwbusinesskit/core/widget/NativeAdView;
 
-    .line 5
     new-instance v5, Lcom/commsource/mypage/album/AdComponent$b;
 
     invoke-direct {v5, p0}, Lcom/commsource/mypage/album/AdComponent$b;-><init>(Lcom/commsource/mypage/album/AdComponent;)V
 
-    .line 6
     invoke-direct {v1, v2, v3, v4, v5}, Lcom/commsource/mypage/e0;-><init>(Landroid/app/Activity;Landroid/view/View;Lcom/meitu/hwbusinesskit/core/widget/NativeAdView;Lcom/meitu/hwbusinesskit/core/listener/OnAdListener;)V
 
     iput-object v1, p0, Lcom/commsource/mypage/album/AdComponent;->b:Lcom/commsource/mypage/e0;
 
-    .line 7
     invoke-virtual {p0}, Lcom/commsource/mypage/album/BaseAlbumComponent;->c()Lcom/commsource/mypage/album/BpAlbumActivity;
 
     move-result-object v1
@@ -324,7 +301,6 @@
 
     invoke-virtual {v1, v2}, Landroid/widget/ImageView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 8
     invoke-virtual {p0}, Lcom/commsource/mypage/album/BaseAlbumComponent;->c()Lcom/commsource/mypage/album/BpAlbumActivity;
 
     move-result-object v1
@@ -349,7 +325,6 @@
 
     goto :goto_0
 
-    .line 9
     :cond_0
     invoke-virtual {p0}, Lcom/commsource/mypage/album/BaseAlbumComponent;->c()Lcom/commsource/mypage/album/BpAlbumActivity;
 
@@ -367,7 +342,6 @@
 
     invoke-static {v1}, Lcom/commsource/util/l0;->w(Landroid/view/View;)V
 
-    .line 10
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -381,10 +355,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0}, Lcom/commsource/mypage/album/BaseAlbumComponent;->onDestroy()V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -397,10 +369,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0}, Lcom/commsource/mypage/album/BaseAlbumComponent;->onResume()V
 
-    .line 2
     invoke-virtual {p0}, Lcom/commsource/mypage/album/BaseAlbumComponent;->c()Lcom/commsource/mypage/album/BpAlbumActivity;
 
     move-result-object v1
@@ -411,7 +381,6 @@
 
     if-nez v1, :cond_0
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/mypage/album/AdComponent;->b:Lcom/commsource/mypage/e0;
 
     if-eqz v1, :cond_0
@@ -420,7 +389,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/mypage/e0;->b(Z)V
 
-    .line 4
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -434,10 +402,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0}, Lcom/commsource/mypage/album/BaseAlbumComponent;->onStop()V
 
-    .line 2
     invoke-virtual {p0}, Lcom/commsource/mypage/album/BaseAlbumComponent;->c()Lcom/commsource/mypage/album/BpAlbumActivity;
 
     move-result-object v1
@@ -456,14 +422,12 @@
 
     if-eqz v1, :cond_0
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/mypage/album/AdComponent;->b:Lcom/commsource/mypage/e0;
 
     if-eqz v1, :cond_0
 
     invoke-virtual {v1}, Lcom/commsource/mypage/e0;->a()V
 
-    .line 4
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

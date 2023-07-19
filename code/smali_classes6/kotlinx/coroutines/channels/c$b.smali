@@ -41,7 +41,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lcotlinx/coroutines/channels/c$a;
 
     invoke-direct {v0, p2}, Lcotlinx/coroutines/channels/c$a;-><init>(Ljava/lang/Object;)V
@@ -62,14 +61,12 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     instance-of v0, p1, Lcotlinx/coroutines/channels/p;
 
     if-eqz v0, :cond_0
 
     goto :goto_0
 
-    .line 2
     :cond_0
     instance-of p1, p1, Lcotlinx/coroutines/channels/z;
 

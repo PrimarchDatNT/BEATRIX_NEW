@@ -31,7 +31,6 @@
 .method constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -46,7 +45,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Ljava/lang/Boolean;
 
     invoke-virtual {p0, p1}, Lcom/commsource/beautyplus/setting/test/TestFuncActivity$u$a;->c(Ljava/lang/Boolean;)V
@@ -67,7 +65,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -84,7 +81,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Ljava/lang/Boolean;->TRUE:Ljava/lang/Boolean;
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
@@ -99,14 +95,12 @@
 
     const-string v2, "com.commsource.beautyplus.unlock_remover"
 
-    .line 2
     invoke-static {v2, p1}, Lf/d/i/n;->C1(Ljava/lang/String;Z)V
 
     new-array p1, v1, [Ljava/lang/Object;
 
     const-string/jumbo v1, "\u8d2d\u4e70\u6210\u529f"
 
-    .line 3
     invoke-static {v1, p1}, Lf/k/c/c/f;->z(Ljava/lang/String;[Ljava/lang/Object;)V
 
     goto :goto_0
@@ -116,10 +110,8 @@
 
     const-string/jumbo v1, "\u8d2d\u4e70\u5931\u8d25"
 
-    .line 4
     invoke-static {v1, p1}, Lf/k/c/c/f;->z(Ljava/lang/String;[Ljava/lang/Object;)V
 
-    .line 5
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

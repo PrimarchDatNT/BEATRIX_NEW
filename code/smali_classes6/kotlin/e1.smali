@@ -19,7 +19,6 @@
         version = "1.3"
     .end annotation
 
-    .line 1
     invoke-static {p0}, Lcotlin/b1;->s(B)B
 
     move-result p0
@@ -41,7 +40,6 @@
 
     int-to-byte p0, p0
 
-    .line 1
     invoke-static {p0}, Lcotlin/b1;->s(B)B
 
     move-result p0
@@ -65,7 +63,6 @@
 
     int-to-byte p0, p1
 
-    .line 1
     invoke-static {p0}, Lcotlin/b1;->s(B)B
 
     move-result p0
@@ -87,7 +84,6 @@
 
     int-to-byte p0, p0
 
-    .line 1
     invoke-static {p0}, Lcotlin/b1;->s(B)B
 
     move-result p0

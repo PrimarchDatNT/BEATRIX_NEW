@@ -25,7 +25,6 @@
 .method constructor <init>(Lf/d/k/l;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lf/d/k/l$a;->a:Lf/d/k/l;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -42,14 +41,12 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v0, Lf/d/k/l;->Z:Ljava/lang/String;
 
     const-string v1, "onApplicationCreated"
 
     invoke-static {v0, v1}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 2
     new-instance v0, Lf/d/k/l$a$a;
 
     const-string v1, "InitTimeLineTask"
@@ -58,7 +55,6 @@
 
     invoke-static {v0}, Lcom/commsource/util/c2;->e(Lcom/commsource/util/u2/a;)V
 
-    .line 3
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -71,14 +67,12 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v0, Lf/d/k/l;->Z:Ljava/lang/String;
 
     const-string v1, "onApplicationDestroyed"
 
     invoke-static {v0, v1}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 2
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

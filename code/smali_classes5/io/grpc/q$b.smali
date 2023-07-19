@@ -18,7 +18,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lio/grpc/q$c;-><init>()V
 
     return-void
@@ -27,7 +26,6 @@
 .method synthetic constructor <init>(Lio/grpc/q$a;)V
     .locals 0
 
-    .line 2
     invoke-direct {p0}, Lio/grpc/q$b;-><init>()V
 
     return-void
@@ -38,7 +36,6 @@
 .method public a()J
     .locals 2
 
-    .line 1
     invoke-static {}, Ljava/lang/System;->nanoTime()J
 
     move-result-wide v0

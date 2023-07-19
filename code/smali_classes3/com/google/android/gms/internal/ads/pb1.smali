@@ -29,16 +29,12 @@
 .method public constructor <init>(Lcom/google/android/gms/internal/ads/ak2;Lcom/google/android/gms/internal/ads/uq1;Landroid/content/Context;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/google/android/gms/internal/ads/pb1;->a:Lcom/google/android/gms/internal/ads/ak2;
 
-    .line 3
     iput-object p2, p0, Lcom/google/android/gms/internal/ads/pb1;->b:Lcom/google/android/gms/internal/ads/uq1;
 
-    .line 4
     iput-object p3, p0, Lcom/google/android/gms/internal/ads/pb1;->c:Landroid/content/Context;
 
     return-void
@@ -57,7 +53,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/pb1;->b:Lcom/google/android/gms/internal/ads/uq1;
 
     new-instance v1, Lcom/google/android/gms/internal/ads/ob1;

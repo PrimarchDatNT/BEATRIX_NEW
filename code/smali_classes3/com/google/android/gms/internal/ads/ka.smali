@@ -30,17 +30,14 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     new-instance v0, Ljava/lang/Object;
 
     invoke-direct {v0}, Ljava/lang/Object;-><init>()V
 
     iput-object v0, p0, Lcom/google/android/gms/internal/ads/ka;->a:Ljava/lang/Object;
 
-    .line 3
     new-instance v0, Ljava/lang/Object;
 
     invoke-direct {v0}, Ljava/lang/Object;-><init>()V
@@ -53,7 +50,6 @@
 .method private static c(Landroid/content/Context;)Landroid/content/Context;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Landroid/content/Context;->getApplicationContext()Landroid/content/Context;
 
     move-result-object v0
@@ -71,28 +67,23 @@
 .method public final a(Landroid/content/Context;Lcom/google/android/gms/internal/ads/zzbbd;)Lcom/google/android/gms/internal/ads/ta;
     .locals 3
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/ka;->b:Ljava/lang/Object;
 
     monitor-enter v0
 
-    .line 2
     :try_start_0
     iget-object v1, p0, Lcom/google/android/gms/internal/ads/ka;->d:Lcom/google/android/gms/internal/ads/ta;
 
     if-nez v1, :cond_0
 
-    .line 3
     new-instance v1, Lcom/google/android/gms/internal/ads/ta;
 
-    .line 4
     invoke-static {p1}, Lcom/google/android/gms/internal/ads/ka;->c(Landroid/content/Context;)Landroid/content/Context;
 
     move-result-object p1
 
     sget-object v2, Lcom/google/android/gms/internal/ads/v1;->b:Lcom/google/android/gms/internal/ads/y0;
 
-    .line 5
     invoke-virtual {v2}, Lcom/google/android/gms/internal/ads/y0;->a()Ljava/lang/Object;
 
     move-result-object v2
@@ -103,7 +94,6 @@
 
     iput-object v1, p0, Lcom/google/android/gms/internal/ads/ka;->d:Lcom/google/android/gms/internal/ads/ta;
 
-    .line 6
     :cond_0
     iget-object p1, p0, Lcom/google/android/gms/internal/ads/ka;->d:Lcom/google/android/gms/internal/ads/ta;
 
@@ -114,7 +104,6 @@
     :catchall_0
     move-exception p1
 
-    .line 7
     monitor-exit v0
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
@@ -125,28 +114,23 @@
 .method public final b(Landroid/content/Context;Lcom/google/android/gms/internal/ads/zzbbd;)Lcom/google/android/gms/internal/ads/ta;
     .locals 4
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/ka;->a:Ljava/lang/Object;
 
     monitor-enter v0
 
-    .line 2
     :try_start_0
     iget-object v1, p0, Lcom/google/android/gms/internal/ads/ka;->c:Lcom/google/android/gms/internal/ads/ta;
 
     if-nez v1, :cond_0
 
-    .line 3
     new-instance v1, Lcom/google/android/gms/internal/ads/ta;
 
-    .line 4
     invoke-static {p1}, Lcom/google/android/gms/internal/ads/ka;->c(Landroid/content/Context;)Landroid/content/Context;
 
     move-result-object p1
 
     sget-object v2, Lcom/google/android/gms/internal/ads/w;->a:Lcom/google/android/gms/internal/ads/h;
 
-    .line 5
     invoke-static {}, Lcom/google/android/gms/internal/ads/zm2;->e()Lcom/google/android/gms/internal/ads/s;
 
     move-result-object v3
@@ -155,14 +139,12 @@
 
     move-result-object v2
 
-    .line 6
     check-cast v2, Ljava/lang/String;
 
     invoke-direct {v1, p1, p2, v2}, Lcom/google/android/gms/internal/ads/ta;-><init>(Landroid/content/Context;Lcom/google/android/gms/internal/ads/zzbbd;Ljava/lang/String;)V
 
     iput-object v1, p0, Lcom/google/android/gms/internal/ads/ka;->c:Lcom/google/android/gms/internal/ads/ta;
 
-    .line 7
     :cond_0
     iget-object p1, p0, Lcom/google/android/gms/internal/ads/ka;->c:Lcom/google/android/gms/internal/ads/ta;
 
@@ -173,7 +155,6 @@
     :catchall_0
     move-exception p1
 
-    .line 8
     monitor-exit v0
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0

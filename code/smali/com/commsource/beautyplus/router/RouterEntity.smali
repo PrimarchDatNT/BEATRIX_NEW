@@ -109,10 +109,8 @@
 .method public constructor <init>()V
     .locals 2
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     new-instance v0, Ljava/util/HashMap;
 
     const/16 v1, 0x8
@@ -121,7 +119,6 @@
 
     iput-object v0, p0, Lcom/commsource/beautyplus/router/RouterEntity;->parameterMap:Ljava/util/HashMap;
 
-    .line 3
     new-instance v0, Ljava/util/HashMap;
 
     invoke-direct {v0, v1}, Ljava/util/HashMap;-><init>(I)V
@@ -142,10 +139,8 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 11
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 12
     new-instance v0, Ljava/util/HashMap;
 
     const/16 v1, 0x8
@@ -154,25 +149,21 @@
 
     iput-object v0, p0, Lcom/commsource/beautyplus/router/RouterEntity;->parameterMap:Ljava/util/HashMap;
 
-    .line 13
     new-instance v0, Ljava/util/HashMap;
 
     invoke-direct {v0, v1}, Ljava/util/HashMap;-><init>(I)V
 
     iput-object v0, p0, Lcom/commsource/beautyplus/router/RouterEntity;->extraInfo:Ljava/util/HashMap;
 
-    .line 14
     :try_start_0
     iput-object p1, p0, Lcom/commsource/beautyplus/router/RouterEntity;->uri:Landroid/net/Uri;
 
-    .line 15
     invoke-virtual {p1}, Landroid/net/Uri;->toString()Ljava/lang/String;
 
     move-result-object p1
 
     iput-object p1, p0, Lcom/commsource/beautyplus/router/RouterEntity;->uriString:Ljava/lang/String;
 
-    .line 16
     invoke-virtual {p0}, Lcom/commsource/beautyplus/router/RouterEntity;->parse()V
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
@@ -182,7 +173,6 @@
     :catch_0
     move-exception p1
 
-    .line 17
     invoke-static {p1}, Lcom/meitu/library/util/Debug/Debug;->a0(Ljava/lang/Throwable;)V
 
     :goto_0
@@ -196,10 +186,8 @@
         .end annotation
     .end param
 
-    .line 4
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 5
     new-instance v0, Ljava/util/HashMap;
 
     const/16 v1, 0x8
@@ -208,25 +196,21 @@
 
     iput-object v0, p0, Lcom/commsource/beautyplus/router/RouterEntity;->parameterMap:Ljava/util/HashMap;
 
-    .line 6
     new-instance v0, Ljava/util/HashMap;
 
     invoke-direct {v0, v1}, Ljava/util/HashMap;-><init>(I)V
 
     iput-object v0, p0, Lcom/commsource/beautyplus/router/RouterEntity;->extraInfo:Ljava/util/HashMap;
 
-    .line 7
     :try_start_0
     iput-object p1, p0, Lcom/commsource/beautyplus/router/RouterEntity;->uriString:Ljava/lang/String;
 
-    .line 8
     invoke-static {p1}, Landroid/net/Uri;->parse(Ljava/lang/String;)Landroid/net/Uri;
 
     move-result-object p1
 
     iput-object p1, p0, Lcom/commsource/beautyplus/router/RouterEntity;->uri:Landroid/net/Uri;
 
-    .line 9
     invoke-virtual {p0}, Lcom/commsource/beautyplus/router/RouterEntity;->parse()V
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
@@ -236,7 +220,6 @@
     :catch_0
     move-exception p1
 
-    .line 10
     invoke-static {p1}, Lcom/meitu/library/util/Debug/Debug;->a0(Ljava/lang/Throwable;)V
 
     :goto_0
@@ -256,7 +239,6 @@
 
     const/4 p2, -0x1
 
-    .line 1
     :cond_0
     invoke-virtual {p0, p1, p2}, Lcom/commsource/beautyplus/router/RouterEntity;->getParameterInt(Ljava/lang/String;I)I
 
@@ -292,12 +274,10 @@
 
     invoke-static {p2, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/beautyplus/router/RouterEntity;->extraInfo:Ljava/util/HashMap;
 
     invoke-interface {v1, p1, p2}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -322,14 +302,12 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-static {p2}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v1
 
     if-nez v1, :cond_1
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/beautyplus/router/RouterEntity;->parameterMap:Ljava/util/HashMap;
 
     if-nez p2, :cond_0
@@ -339,7 +317,6 @@
     :cond_0
     invoke-interface {v1, p1, p2}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 3
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -373,7 +350,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 2
     invoke-virtual {p0}, Lcom/commsource/beautyplus/router/RouterEntity;->getExtraInfo()Ljava/util/HashMap;
 
     move-result-object v1
@@ -413,7 +389,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/beautyplus/router/RouterEntity;->extraInfo:Ljava/util/HashMap;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -430,7 +405,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/beautyplus/router/RouterEntity;->host:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -447,7 +421,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/beautyplus/router/RouterEntity;->lastPathSegment:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -472,7 +445,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/beautyplus/router/RouterEntity;->parameterMap:Ljava/util/HashMap;
 
     invoke-virtual {v1, p1}, Ljava/util/HashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
@@ -501,7 +473,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-virtual {p0, p1}, Lcom/commsource/beautyplus/router/RouterEntity;->getParameter(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p1
@@ -510,7 +481,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 2
     :try_start_0
     invoke-static {p1}, Ljava/lang/Boolean;->parseBoolean(Ljava/lang/String;)Z
 
@@ -518,13 +488,11 @@
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
-    .line 3
     :catch_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
 
-    .line 4
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -546,14 +514,12 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-virtual {p0, p1}, Lcom/commsource/beautyplus/router/RouterEntity;->getParameter(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p1
 
     if-eqz p1, :cond_0
 
-    .line 2
     :try_start_0
     invoke-static {p1}, Ljava/lang/Integer;->parseInt(Ljava/lang/String;)I
 
@@ -561,13 +527,11 @@
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
-    .line 3
     :catch_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p2
 
-    .line 4
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -593,7 +557,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/beautyplus/router/RouterEntity;->parameterMap:Ljava/util/HashMap;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -610,7 +573,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/beautyplus/router/RouterEntity;->path:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -627,7 +589,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/beautyplus/router/RouterEntity;->scheme:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -644,7 +605,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/beautyplus/router/RouterEntity;->uri:Landroid/net/Uri;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -661,7 +621,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/beautyplus/router/RouterEntity;->uriString:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -676,47 +635,40 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/beautyplus/router/RouterEntity;->uri:Landroid/net/Uri;
 
     if-eqz v1, :cond_1
 
-    .line 2
     invoke-virtual {v1}, Landroid/net/Uri;->getHost()Ljava/lang/String;
 
     move-result-object v2
 
     iput-object v2, p0, Lcom/commsource/beautyplus/router/RouterEntity;->host:Ljava/lang/String;
 
-    .line 3
     invoke-virtual {v1}, Landroid/net/Uri;->getPath()Ljava/lang/String;
 
     move-result-object v2
 
     iput-object v2, p0, Lcom/commsource/beautyplus/router/RouterEntity;->path:Ljava/lang/String;
 
-    .line 4
     invoke-virtual {v1}, Landroid/net/Uri;->getLastPathSegment()Ljava/lang/String;
 
     move-result-object v2
 
     iput-object v2, p0, Lcom/commsource/beautyplus/router/RouterEntity;->lastPathSegment:Ljava/lang/String;
 
-    .line 5
     invoke-virtual {v1}, Landroid/net/Uri;->getScheme()Ljava/lang/String;
 
     move-result-object v2
 
     iput-object v2, p0, Lcom/commsource/beautyplus/router/RouterEntity;->scheme:Ljava/lang/String;
 
-    .line 6
     invoke-virtual {v1}, Landroid/net/Uri;->getQueryParameterNames()Ljava/util/Set;
 
     move-result-object v2
 
     if-eqz v2, :cond_1
 
-    .line 7
     invoke-interface {v2}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v2
@@ -735,14 +687,12 @@
 
     check-cast v3, Ljava/lang/String;
 
-    .line 8
     invoke-virtual {v1, v3}, Landroid/net/Uri;->getQueryParameter(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v4
 
     if-eqz v4, :cond_0
 
-    .line 9
     iget-object v5, p0, Lcom/commsource/beautyplus/router/RouterEntity;->parameterMap:Ljava/util/HashMap;
 
     const-string v6, "key"
@@ -757,7 +707,6 @@
 
     goto :goto_0
 
-    .line 10
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -779,12 +728,10 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/beautyplus/router/RouterEntity;->parameterMap:Ljava/util/HashMap;
 
     invoke-virtual {v1, p1}, Ljava/util/HashMap;->remove(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -814,7 +761,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/beautyplus/router/RouterEntity;->extraInfo:Ljava/util/HashMap;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -833,7 +779,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/beautyplus/router/RouterEntity;->host:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -852,7 +797,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/beautyplus/router/RouterEntity;->lastPathSegment:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -884,7 +828,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/beautyplus/router/RouterEntity;->parameterMap:Ljava/util/HashMap;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -903,7 +846,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/beautyplus/router/RouterEntity;->path:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -922,7 +864,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/beautyplus/router/RouterEntity;->scheme:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -941,7 +882,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/beautyplus/router/RouterEntity;->uri:Landroid/net/Uri;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -960,7 +900,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/beautyplus/router/RouterEntity;->uriString:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

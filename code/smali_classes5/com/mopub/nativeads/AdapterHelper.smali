@@ -35,12 +35,10 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const-string v0, "Context cannot be null."
 
-    .line 2
     invoke-static {p1, v0}, Lcom/mopub/common/Preconditions;->checkNotNull(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/4 v0, 0x1
@@ -59,7 +57,6 @@
     :goto_0
     const-string v3, "start position must be non-negative"
 
-    .line 3
     invoke-static {v2, v3}, Lcom/mopub/common/Preconditions;->checkArgument(ZLjava/lang/String;)V
 
     const/4 v2, 0x2
@@ -74,27 +71,22 @@
     :goto_1
     const-string v1, "interval must be at least 2"
 
-    .line 4
     invoke-static {v0, v1}, Lcom/mopub/common/Preconditions;->checkArgument(ZLjava/lang/String;)V
 
-    .line 5
     new-instance v0, Ljava/lang/ref/WeakReference;
 
     invoke-direct {v0, p1}, Ljava/lang/ref/WeakReference;-><init>(Ljava/lang/Object;)V
 
     iput-object v0, p0, Lcom/mopub/nativeads/AdapterHelper;->mContext:Ljava/lang/ref/WeakReference;
 
-    .line 6
     invoke-virtual {p1}, Landroid/content/Context;->getApplicationContext()Landroid/content/Context;
 
     move-result-object p1
 
     iput-object p1, p0, Lcom/mopub/nativeads/AdapterHelper;->mApplicationContext:Landroid/content/Context;
 
-    .line 7
     iput p2, p0, Lcom/mopub/nativeads/AdapterHelper;->mStart:I
 
-    .line 8
     iput p3, p0, Lcom/mopub/nativeads/AdapterHelper;->mInterval:I
 
     return-void
@@ -103,7 +95,6 @@
 .method private numberOfAdsSeenUpToPosition(I)I
     .locals 4
 
-    .line 1
     iget v0, p0, Lcom/mopub/nativeads/AdapterHelper;->mStart:I
 
     if-gt p1, v0, :cond_0
@@ -117,7 +108,6 @@
 
     int-to-double v0, p1
 
-    .line 2
     iget p1, p0, Lcom/mopub/nativeads/AdapterHelper;->mInterval:I
 
     int-to-double v2, p1
@@ -138,7 +128,6 @@
 .method private numberOfAdsThatCouldFitWithContent(I)I
     .locals 4
 
-    .line 1
     iget v0, p0, Lcom/mopub/nativeads/AdapterHelper;->mStart:I
 
     if-gt p1, v0, :cond_0
@@ -147,7 +136,6 @@
 
     return p1
 
-    .line 2
     :cond_0
     iget v1, p0, Lcom/mopub/nativeads/AdapterHelper;->mInterval:I
 
@@ -155,14 +143,12 @@
 
     sub-int v2, p1, v0
 
-    .line 3
     rem-int/2addr v2, v1
 
     if-nez v2, :cond_1
 
     sub-int/2addr p1, v0
 
-    .line 4
     div-int/2addr p1, v1
 
     return p1
@@ -176,7 +162,6 @@
 
     div-double/2addr v2, v0
 
-    .line 5
     invoke-static {v2, v3}, Ljava/lang/Math;->floor(D)D
 
     move-result-wide v0
@@ -198,7 +183,6 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/nativeads/AdapterHelper;->mContext:Ljava/lang/ref/WeakReference;
 
     invoke-virtual {v0}, Ljava/lang/ref/WeakReference;->clear()V
@@ -225,7 +209,6 @@
 
     const/4 v0, 0x0
 
-    .line 5
     invoke-virtual {p0, p1, p2, p3, v0}, Lcom/mopub/nativeads/AdapterHelper;->getAdView(Landroid/view/View;Landroid/view/ViewGroup;Lcom/mopub/nativeads/NativeAd;Lcom/mopub/nativeads/ViewBinder;)Landroid/view/View;
 
     move-result-object p1
@@ -254,7 +237,6 @@
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
-    .line 1
     iget-object p4, p0, Lcom/mopub/nativeads/AdapterHelper;->mContext:Ljava/lang/ref/WeakReference;
 
     invoke-virtual {p4}, Ljava/lang/ref/WeakReference;->get()Ljava/lang/Object;
@@ -265,7 +247,6 @@
 
     if-nez p4, :cond_0
 
-    .line 2
     sget-object p1, Lcom/mopub/common/logging/MoPubLog$SdkLogEvent;->CUSTOM:Lcom/mopub/common/logging/MoPubLog$SdkLogEvent;
 
     const/4 p2, 0x1
@@ -280,7 +261,6 @@
 
     invoke-static {p1, p2}, Lcom/mopub/common/logging/MoPubLog;->log(Lcom/mopub/common/logging/MoPubLog$MPLogEventType;[Ljava/lang/Object;)V
 
-    .line 3
     new-instance p1, Landroid/view/View;
 
     iget-object p2, p0, Lcom/mopub/nativeads/AdapterHelper;->mApplicationContext:Landroid/content/Context;
@@ -289,7 +269,6 @@
 
     return-object p1
 
-    .line 4
     :cond_0
     invoke-static {p1, p2, p4, p3}, Lcom/mopub/nativeads/NativeAdViewHelper;->getAdView(Landroid/view/View;Landroid/view/ViewGroup;Landroid/content/Context;Lcom/mopub/nativeads/NativeAd;)Landroid/view/View;
 
@@ -301,7 +280,6 @@
 .method public isAdPosition(I)Z
     .locals 2
 
-    .line 1
     iget v0, p0, Lcom/mopub/nativeads/AdapterHelper;->mStart:I
 
     const/4 v1, 0x0
@@ -313,7 +291,6 @@
     :cond_0
     sub-int/2addr p1, v0
 
-    .line 2
     iget v0, p0, Lcom/mopub/nativeads/AdapterHelper;->mInterval:I
 
     rem-int/2addr p1, v0
@@ -329,7 +306,6 @@
 .method public shiftedCount(I)I
     .locals 1
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/mopub/nativeads/AdapterHelper;->numberOfAdsThatCouldFitWithContent(I)I
 
     move-result v0
@@ -342,7 +318,6 @@
 .method public shiftedPosition(I)I
     .locals 1
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/mopub/nativeads/AdapterHelper;->numberOfAdsSeenUpToPosition(I)I
 
     move-result v0

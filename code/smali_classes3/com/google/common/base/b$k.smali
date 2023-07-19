@@ -24,7 +24,6 @@
 .method constructor <init>(CC)V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Lcom/google/common/base/b$i;-><init>()V
 
     if-lt p2, p1, :cond_0
@@ -36,14 +35,11 @@
     :cond_0
     const/4 v0, 0x0
 
-    .line 2
     :goto_0
     invoke-static {v0}, Lcom/google/common/base/t;->d(Z)V
 
-    .line 3
     iput-char p1, p0, Lcom/google/common/base/b$k;->b:C
 
-    .line 4
     iput-char p2, p0, Lcom/google/common/base/b$k;->c:C
 
     return-void
@@ -54,7 +50,6 @@
 .method public B(C)Z
     .locals 1
 
-    .line 1
     iget-char v0, p0, Lcom/google/common/base/b$k;->b:C
 
     if-gt v0, p1, :cond_0
@@ -79,7 +74,6 @@
     .annotation build Lf/f/e/a/c;
     .end annotation
 
-    .line 1
     iget-char v0, p0, Lcom/google/common/base/b$k;->b:C
 
     iget-char v1, p0, Lcom/google/common/base/b$k;->c:C
@@ -94,7 +88,6 @@
 .method public toString()Ljava/lang/String;
     .locals 2
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -105,7 +98,6 @@
 
     iget-char v1, p0, Lcom/google/common/base/b$k;->b:C
 
-    .line 2
     invoke-static {v1}, Lcom/google/common/base/b;->a(C)Ljava/lang/String;
 
     move-result-object v1
@@ -118,7 +110,6 @@
 
     iget-char v1, p0, Lcom/google/common/base/b$k;->c:C
 
-    .line 3
     invoke-static {v1}, Lcom/google/common/base/b;->a(C)Ljava/lang/String;
 
     move-result-object v1

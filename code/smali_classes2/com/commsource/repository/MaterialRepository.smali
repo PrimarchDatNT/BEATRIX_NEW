@@ -37,14 +37,12 @@
 
     invoke-static {p2, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-direct {p0, p1, p2}, Lcom/commsource/repository/VersionController;-><init>(ILjava/lang/String;)V
 
     iput p1, p0, Lcom/commsource/repository/MaterialRepository;->h:I
 
     iput-object p2, p0, Lcom/commsource/repository/MaterialRepository;->i:Ljava/lang/String;
 
-    .line 2
     sget-object p1, Lcom/commsource/repository/MaterialRepository$db$2;->INSTANCE:Lcom/commsource/repository/MaterialRepository$db$2;
 
     invoke-static {p1}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
@@ -61,7 +59,6 @@
 .method public b()V
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/commsource/repository/XRepository;->d:Lcom/commsource/repository/XRepository;
 
     invoke-virtual {v0}, Lcom/commsource/repository/XRepository;->f()Lcom/commsource/repository/c;
@@ -76,7 +73,6 @@
 .method public c()Z
     .locals 1
 
-    .line 1
     invoke-static {p0}, Lcom/commsource/repository/e$a;->a(Lcom/commsource/repository/e;)Z
 
     move-result v0
@@ -87,7 +83,6 @@
 .method public d()V
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/commsource/repository/XRepository;->d:Lcom/commsource/repository/XRepository;
 
     invoke-virtual {v0}, Lcom/commsource/repository/XRepository;->f()Lcom/commsource/repository/c;
@@ -118,7 +113,6 @@
 .method public final n()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lcom/commsource/repository/MaterialRepository;->h:I
 
     return v0
@@ -129,7 +123,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/repository/MaterialRepository;->i:Ljava/lang/String;
 
     return-object v0

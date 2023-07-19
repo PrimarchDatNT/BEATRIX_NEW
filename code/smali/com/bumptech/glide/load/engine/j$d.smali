@@ -24,13 +24,10 @@
 .method constructor <init>(Lcom/bumptech/glide/request/h;Ljava/util/concurrent/Executor;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/bumptech/glide/load/engine/j$d;->a:Lcom/bumptech/glide/request/h;
 
-    .line 3
     iput-object p2, p0, Lcom/bumptech/glide/load/engine/j$d;->b:Ljava/util/concurrent/Executor;
 
     return-void
@@ -41,15 +38,12 @@
 .method public equals(Ljava/lang/Object;)Z
     .locals 1
 
-    .line 1
     instance-of v0, p1, Lcom/bumptech/glide/load/engine/j$d;
 
     if-eqz v0, :cond_0
 
-    .line 2
     check-cast p1, Lcom/bumptech/glide/load/engine/j$d;
 
-    .line 3
     iget-object v0, p0, Lcom/bumptech/glide/load/engine/j$d;->a:Lcom/bumptech/glide/request/h;
 
     iget-object p1, p1, Lcom/bumptech/glide/load/engine/j$d;->a:Lcom/bumptech/glide/request/h;
@@ -69,7 +63,6 @@
 .method public hashCode()I
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/bumptech/glide/load/engine/j$d;->a:Lcom/bumptech/glide/request/h;
 
     invoke-virtual {v0}, Ljava/lang/Object;->hashCode()I

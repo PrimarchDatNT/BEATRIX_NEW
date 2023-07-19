@@ -26,7 +26,6 @@
 .method constructor <init>(Lcom/meitu/global/billing/net/HttpConstant$a;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/global/billing/net/HttpConstant$a$a;->a:Lcom/meitu/global/billing/net/HttpConstant$a;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V

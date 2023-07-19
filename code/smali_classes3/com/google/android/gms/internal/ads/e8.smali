@@ -11,10 +11,8 @@
 .method public constructor <init>(Lcom/google/android/gms/ads/instream/a$a;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/google/android/gms/internal/ads/z7;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/google/android/gms/internal/ads/e8;->b:Lcom/google/android/gms/ads/instream/a$a;
 
     return-void
@@ -25,7 +23,6 @@
 .method public final K3(Lcom/google/android/gms/internal/ads/q7;)V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/e8;->b:Lcom/google/android/gms/ads/instream/a$a;
 
     new-instance v1, Lcom/google/android/gms/internal/ads/c8;
@@ -40,7 +37,6 @@
 .method public final ba(I)V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/e8;->b:Lcom/google/android/gms/ads/instream/a$a;
 
     invoke-virtual {v0, p1}, Lcom/google/android/gms/ads/instream/a$a;->a(I)V

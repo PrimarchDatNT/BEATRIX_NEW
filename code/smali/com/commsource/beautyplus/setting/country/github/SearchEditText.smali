@@ -48,10 +48,8 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-direct {p0, p1, v0}, Lcom/commsource/beautyplus/setting/country/github/SearchEditText;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
-    .line 2
     invoke-direct {p0}, Lcom/commsource/beautyplus/setting/country/github/SearchEditText;->a()V
 
     return-void
@@ -62,13 +60,10 @@
 
     const v0, 0x101006e
 
-    .line 3
     invoke-direct {p0, p1, p2, v0}, Lcom/commsource/beautyplus/setting/country/github/SearchEditText;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
-    .line 4
     invoke-direct {p0, p1, p2}, Lcom/commsource/beautyplus/setting/country/github/SearchEditText;->b(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
-    .line 5
     invoke-direct {p0}, Lcom/commsource/beautyplus/setting/country/github/SearchEditText;->a()V
 
     return-void
@@ -77,21 +72,16 @@
 .method public constructor <init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
     .locals 0
 
-    .line 6
     invoke-direct {p0, p1, p2, p3}, Landroid/widget/EditText;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
     const/4 p3, 0x0
 
-    .line 7
     iput-boolean p3, p0, Lcom/commsource/beautyplus/setting/country/github/SearchEditText;->a:Z
 
-    .line 8
     iput-boolean p3, p0, Lcom/commsource/beautyplus/setting/country/github/SearchEditText;->b:Z
 
-    .line 9
     invoke-direct {p0, p1, p2}, Lcom/commsource/beautyplus/setting/country/github/SearchEditText;->b(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
-    .line 10
     invoke-direct {p0}, Lcom/commsource/beautyplus/setting/country/github/SearchEditText;->a()V
 
     return-void
@@ -104,16 +94,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0, p0}, Landroid/widget/EditText;->setOnFocusChangeListener(Landroid/view/View$OnFocusChangeListener;)V
 
-    .line 2
     invoke-virtual {p0, p0}, Landroid/widget/EditText;->setOnKeyListener(Landroid/view/View$OnKeyListener;)V
 
-    .line 3
     invoke-virtual {p0, p0}, Landroid/widget/EditText;->addTextChangedListener(Landroid/text/TextWatcher;)V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -126,7 +112,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/res/provider/ResSTYLEABLE;->O1:[I
 
     invoke-virtual {p1, p2, v1}, Landroid/content/Context;->obtainStyledAttributes(Landroid/util/AttributeSet;[I)Landroid/content/res/TypedArray;
@@ -137,17 +122,14 @@
 
     const/4 p2, 0x0
 
-    .line 2
     invoke-virtual {p1, p2}, Landroid/content/res/TypedArray;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 
     move-result-object p2
 
     iput-object p2, p0, Lcom/commsource/beautyplus/setting/country/github/SearchEditText;->p:Landroid/graphics/drawable/Drawable;
 
-    .line 3
     invoke-virtual {p1}, Landroid/content/res/TypedArray;->recycle()V
 
-    .line 4
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -163,7 +145,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Landroid/widget/EditText;->length()I
 
     move-result v0
@@ -174,18 +155,15 @@
 
     const/4 v0, 0x0
 
-    .line 2
     iput-object v0, p0, Lcom/commsource/beautyplus/setting/country/github/SearchEditText;->g:Landroid/graphics/drawable/Drawable;
 
     goto :goto_0
 
-    .line 3
     :cond_0
     iget-object v0, p0, Lcom/commsource/beautyplus/setting/country/github/SearchEditText;->p:Landroid/graphics/drawable/Drawable;
 
     iput-object v0, p0, Lcom/commsource/beautyplus/setting/country/github/SearchEditText;->g:Landroid/graphics/drawable/Drawable;
 
-    .line 4
     :goto_0
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -199,7 +177,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -212,12 +189,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/beautyplus/setting/country/github/SearchEditText;->a:Z
 
     if-eqz v1, :cond_1
 
-    .line 2
     invoke-virtual {p0}, Landroid/widget/EditText;->length()I
 
     move-result v1
@@ -228,10 +203,8 @@
 
     if-ge v1, v2, :cond_0
 
-    .line 3
     iput-object v3, p0, Lcom/commsource/beautyplus/setting/country/github/SearchEditText;->g:Landroid/graphics/drawable/Drawable;
 
-    .line 4
     :cond_0
     iget-object v1, p0, Lcom/commsource/beautyplus/setting/country/github/SearchEditText;->f:Landroid/graphics/drawable/Drawable;
 
@@ -239,31 +212,26 @@
 
     invoke-virtual {p0, v1, v3, v2, v3}, Landroid/widget/EditText;->setCompoundDrawablesWithIntrinsicBounds(Landroid/graphics/drawable/Drawable;Landroid/graphics/drawable/Drawable;Landroid/graphics/drawable/Drawable;Landroid/graphics/drawable/Drawable;)V
 
-    .line 5
     invoke-super {p0, p1}, Landroid/widget/EditText;->onDraw(Landroid/graphics/Canvas;)V
 
     goto :goto_0
 
-    .line 6
     :cond_1
     iget-object v1, p0, Lcom/commsource/beautyplus/setting/country/github/SearchEditText;->d:[Landroid/graphics/drawable/Drawable;
 
     if-nez v1, :cond_2
 
-    .line 7
     invoke-virtual {p0}, Landroid/widget/EditText;->getCompoundDrawables()[Landroid/graphics/drawable/Drawable;
 
     move-result-object v1
 
     iput-object v1, p0, Lcom/commsource/beautyplus/setting/country/github/SearchEditText;->d:[Landroid/graphics/drawable/Drawable;
 
-    .line 8
     :cond_2
     iget-object v1, p0, Lcom/commsource/beautyplus/setting/country/github/SearchEditText;->f:Landroid/graphics/drawable/Drawable;
 
     if-nez v1, :cond_3
 
-    .line 9
     iget-object v1, p0, Lcom/commsource/beautyplus/setting/country/github/SearchEditText;->d:[Landroid/graphics/drawable/Drawable;
 
     const/4 v2, 0x0
@@ -272,13 +240,11 @@
 
     iput-object v1, p0, Lcom/commsource/beautyplus/setting/country/github/SearchEditText;->f:Landroid/graphics/drawable/Drawable;
 
-    .line 10
     :cond_3
     iget-object v1, p0, Lcom/commsource/beautyplus/setting/country/github/SearchEditText;->f:Landroid/graphics/drawable/Drawable;
 
     if-eqz v1, :cond_4
 
-    .line 11
     invoke-virtual {p0}, Landroid/widget/EditText;->getPaint()Landroid/text/TextPaint;
 
     move-result-object v1
@@ -295,12 +261,10 @@
 
     move-result v1
 
-    .line 12
     invoke-virtual {p0}, Landroid/widget/EditText;->getCompoundDrawablePadding()I
 
     move-result v2
 
-    .line 13
     iget-object v3, p0, Lcom/commsource/beautyplus/setting/country/github/SearchEditText;->f:Landroid/graphics/drawable/Drawable;
 
     invoke-virtual {v3}, Landroid/graphics/drawable/Drawable;->getIntrinsicWidth()I
@@ -315,7 +279,6 @@
 
     add-float/2addr v1, v2
 
-    .line 14
     invoke-virtual {p0}, Landroid/widget/EditText;->getWidth()I
 
     move-result v2
@@ -348,11 +311,9 @@
 
     invoke-virtual {p1, v2, v1}, Landroid/graphics/Canvas;->translate(FF)V
 
-    .line 15
     :cond_4
     invoke-super {p0, p1}, Landroid/widget/EditText;->onDraw(Landroid/graphics/Canvas;)V
 
-    .line 16
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -366,7 +327,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v0, p0, Lcom/commsource/beautyplus/setting/country/github/SearchEditText;->b:Z
 
     if-nez v0, :cond_0
@@ -385,10 +345,8 @@
 
     if-eqz v0, :cond_0
 
-    .line 2
     iput-boolean p2, p0, Lcom/commsource/beautyplus/setting/country/github/SearchEditText;->a:Z
 
-    .line 3
     :cond_0
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -415,13 +373,11 @@
     :cond_0
     const/4 p2, 0x0
 
-    .line 1
     :goto_0
     iput-boolean p2, p0, Lcom/commsource/beautyplus/setting/country/github/SearchEditText;->b:Z
 
     if-eqz p2, :cond_2
 
-    .line 2
     iget-object p2, p0, Lcom/commsource/beautyplus/setting/country/github/SearchEditText;->c:Lcom/commsource/beautyplus/setting/country/github/SearchEditText$a;
 
     if-eqz p2, :cond_2
@@ -432,7 +388,6 @@
 
     if-nez p2, :cond_2
 
-    .line 3
     invoke-virtual {p1}, Landroid/view/View;->getContext()Landroid/content/Context;
 
     move-result-object p2
@@ -445,21 +400,18 @@
 
     check-cast p2, Landroid/view/inputmethod/InputMethodManager;
 
-    .line 4
     invoke-virtual {p2}, Landroid/view/inputmethod/InputMethodManager;->isActive()Z
 
     move-result p3
 
     if-eqz p3, :cond_1
 
-    .line 5
     invoke-virtual {p1}, Landroid/view/View;->getApplicationWindowToken()Landroid/os/IBinder;
 
     move-result-object p3
 
     invoke-virtual {p2, p3, v1}, Landroid/view/inputmethod/InputMethodManager;->hideSoftInputFromWindow(Landroid/os/IBinder;I)Z
 
-    .line 6
     :cond_1
     iget-object p2, p0, Lcom/commsource/beautyplus/setting/country/github/SearchEditText;->c:Lcom/commsource/beautyplus/setting/country/github/SearchEditText$a;
 
@@ -473,7 +425,6 @@
 
     invoke-interface {p2, p1, p3}, Lcom/commsource/beautyplus/setting/country/github/SearchEditText$a;->a(Landroid/view/View;Ljava/lang/String;)V
 
-    .line 7
     :cond_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -487,7 +438,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -500,7 +450,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/beautyplus/setting/country/github/SearchEditText;->g:Landroid/graphics/drawable/Drawable;
 
     if-eqz v1, :cond_1
@@ -513,7 +462,6 @@
 
     if-ne v1, v2, :cond_1
 
-    .line 2
     invoke-virtual {p1}, Landroid/view/MotionEvent;->getRawX()F
 
     move-result v1
@@ -522,7 +470,6 @@
 
     iput v1, p0, Lcom/commsource/beautyplus/setting/country/github/SearchEditText;->J:I
 
-    .line 3
     invoke-virtual {p1}, Landroid/view/MotionEvent;->getRawY()F
 
     move-result v1
@@ -531,25 +478,21 @@
 
     iput v1, p0, Lcom/commsource/beautyplus/setting/country/github/SearchEditText;->K:I
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/beautyplus/setting/country/github/SearchEditText;->L:Landroid/graphics/Rect;
 
     if-nez v1, :cond_0
 
-    .line 5
     new-instance v1, Landroid/graphics/Rect;
 
     invoke-direct {v1}, Landroid/graphics/Rect;-><init>()V
 
     iput-object v1, p0, Lcom/commsource/beautyplus/setting/country/github/SearchEditText;->L:Landroid/graphics/Rect;
 
-    .line 6
     :cond_0
     iget-object v1, p0, Lcom/commsource/beautyplus/setting/country/github/SearchEditText;->L:Landroid/graphics/Rect;
 
     invoke-virtual {p0, v1}, Landroid/widget/EditText;->getGlobalVisibleRect(Landroid/graphics/Rect;)Z
 
-    .line 7
     iget-object v1, p0, Lcom/commsource/beautyplus/setting/country/github/SearchEditText;->L:Landroid/graphics/Rect;
 
     iget v2, v1, Landroid/graphics/Rect;->right:I
@@ -564,7 +507,6 @@
 
     iput v2, v1, Landroid/graphics/Rect;->left:I
 
-    .line 8
     iget-object v1, p0, Lcom/commsource/beautyplus/setting/country/github/SearchEditText;->L:Landroid/graphics/Rect;
 
     iget v2, p0, Lcom/commsource/beautyplus/setting/country/github/SearchEditText;->J:I
@@ -579,10 +521,8 @@
 
     const-string v1, ""
 
-    .line 9
     invoke-virtual {p0, v1}, Landroid/widget/EditText;->setText(Ljava/lang/CharSequence;)V
 
-    .line 10
     :cond_1
     invoke-super {p0, p1}, Landroid/widget/EditText;->onTouchEvent(Landroid/view/MotionEvent;)Z
 
@@ -600,10 +540,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/beautyplus/setting/country/github/SearchEditText;->c:Lcom/commsource/beautyplus/setting/country/github/SearchEditText$a;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

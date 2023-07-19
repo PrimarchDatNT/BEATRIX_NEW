@@ -55,7 +55,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     iput-object p1, p0, Lcotlin/collections/i;->a:[Ljava/lang/Object;
@@ -106,7 +105,6 @@
 .method public b()I
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcotlin/collections/i;->a:[Ljava/lang/Object;
 
     array-length v0, v0
@@ -125,7 +123,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcotlin/collections/i;->a:[Ljava/lang/Object;
 
     return-object v0
@@ -146,7 +143,6 @@
 .method public contains(Ljava/lang/Object;)Z
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcotlin/collections/i;->a:[Ljava/lang/Object;
 
     invoke-static {v0, p1}, Lcotlin/collections/k;->P7([Ljava/lang/Object;Ljava/lang/Object;)Z
@@ -176,7 +172,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-interface {p1}, Ljava/util/Collection;->isEmpty()Z
 
     move-result v0
@@ -187,7 +182,6 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     invoke-interface {p1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
@@ -204,7 +198,6 @@
 
     move-result-object v0
 
-    .line 3
     invoke-virtual {p0, v0}, Lcotlin/collections/i;->contains(Ljava/lang/Object;)Z
 
     move-result v0
@@ -221,7 +214,6 @@
 .method public final e()Z
     .locals 1
 
-    .line 1
     iget-boolean v0, p0, Lcotlin/collections/i;->b:Z
 
     return v0
@@ -230,7 +222,6 @@
 .method public isEmpty()Z
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcotlin/collections/i;->a:[Ljava/lang/Object;
 
     array-length v0, v0
@@ -261,7 +252,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcotlin/collections/i;->a:[Ljava/lang/Object;
 
     invoke-static {v0}, Lcotlin/jvm/internal/h;->a([Ljava/lang/Object;)Ljava/util/Iterator;
@@ -328,7 +318,6 @@
 .method public final bridge size()I
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcotlin/collections/i;->b()I
 
     move-result v0
@@ -341,7 +330,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcotlin/collections/i;->a:[Ljava/lang/Object;
 
     iget-boolean v1, p0, Lcotlin/collections/i;->b:Z

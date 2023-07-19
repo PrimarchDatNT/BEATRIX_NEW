@@ -53,7 +53,6 @@
 .method static constructor <clinit>()V
     .locals 16
 
-    .line 1
     new-instance v0, Lcom/mopub/common/util/Drawables;
 
     const-string v1, "BACKGROUND"
@@ -66,7 +65,6 @@
 
     sput-object v0, Lcom/mopub/common/util/Drawables;->BACKGROUND:Lcom/mopub/common/util/Drawables;
 
-    .line 2
     new-instance v1, Lcom/mopub/common/util/Drawables;
 
     const-string v3, "DEFAULT_VIDEO_POSTER"
@@ -79,7 +77,6 @@
 
     sput-object v1, Lcom/mopub/common/util/Drawables;->DEFAULT_VIDEO_POSTER:Lcom/mopub/common/util/Drawables;
 
-    .line 3
     new-instance v3, Lcom/mopub/common/util/Drawables;
 
     const-string v5, "LEFT_ARROW"
@@ -92,7 +89,6 @@
 
     sput-object v3, Lcom/mopub/common/util/Drawables;->LEFT_ARROW:Lcom/mopub/common/util/Drawables;
 
-    .line 4
     new-instance v5, Lcom/mopub/common/util/Drawables;
 
     const-string v7, "UNLEFT_ARROW"
@@ -105,7 +101,6 @@
 
     sput-object v5, Lcom/mopub/common/util/Drawables;->UNLEFT_ARROW:Lcom/mopub/common/util/Drawables;
 
-    .line 5
     new-instance v7, Lcom/mopub/common/util/Drawables;
 
     const-string v9, "RIGHT_ARROW"
@@ -118,7 +113,6 @@
 
     sput-object v7, Lcom/mopub/common/util/Drawables;->RIGHT_ARROW:Lcom/mopub/common/util/Drawables;
 
-    .line 6
     new-instance v9, Lcom/mopub/common/util/Drawables;
 
     const-string v11, "UNRIGHT_ARROW"
@@ -131,7 +125,6 @@
 
     sput-object v9, Lcom/mopub/common/util/Drawables;->UNRIGHT_ARROW:Lcom/mopub/common/util/Drawables;
 
-    .line 7
     new-instance v11, Lcom/mopub/common/util/Drawables;
 
     const-string v13, "REFRESH"
@@ -144,7 +137,6 @@
 
     sput-object v11, Lcom/mopub/common/util/Drawables;->REFRESH:Lcom/mopub/common/util/Drawables;
 
-    .line 8
     new-instance v13, Lcom/mopub/common/util/Drawables;
 
     const-string v15, "CLOSE"
@@ -157,7 +149,6 @@
 
     sput-object v13, Lcom/mopub/common/util/Drawables;->CLOSE:Lcom/mopub/common/util/Drawables;
 
-    .line 9
     new-instance v12, Lcom/mopub/common/util/Drawables;
 
     const-string v15, "THATCHED_BACKGROUND"
@@ -170,7 +161,6 @@
 
     sput-object v12, Lcom/mopub/common/util/Drawables;->THATCHED_BACKGROUND:Lcom/mopub/common/util/Drawables;
 
-    .line 10
     new-instance v10, Lcom/mopub/common/util/Drawables;
 
     const-string v15, "NATIVE_PRIVACY_INFORMATION_ICON"
@@ -183,7 +173,6 @@
 
     sput-object v10, Lcom/mopub/common/util/Drawables;->NATIVE_PRIVACY_INFORMATION_ICON:Lcom/mopub/common/util/Drawables;
 
-    .line 11
     new-instance v8, Lcom/mopub/common/util/Drawables;
 
     const-string v15, "NATIVE_MUTED"
@@ -196,7 +185,6 @@
 
     sput-object v8, Lcom/mopub/common/util/Drawables;->NATIVE_MUTED:Lcom/mopub/common/util/Drawables;
 
-    .line 12
     new-instance v6, Lcom/mopub/common/util/Drawables;
 
     const-string v15, "NATIVE_UNMUTED"
@@ -209,7 +197,6 @@
 
     sput-object v6, Lcom/mopub/common/util/Drawables;->NATIVE_UNMUTED:Lcom/mopub/common/util/Drawables;
 
-    .line 13
     new-instance v4, Lcom/mopub/common/util/Drawables;
 
     const-string v15, "NATIVE_PLAY"
@@ -276,7 +263,6 @@
 
     aput-object v4, v2, v14
 
-    .line 14
     sput-object v2, Lcom/mopub/common/util/Drawables;->$VALUES:[Lcom/mopub/common/util/Drawables;
 
     return-void
@@ -292,10 +278,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 2
     iput-object p3, p0, Lcom/mopub/common/util/Drawables;->encodedString:Ljava/lang/String;
 
     return-void
@@ -304,7 +288,6 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/mopub/common/util/Drawables;
     .locals 1
 
-    .line 1
     const-class v0, Lcom/mopub/common/util/Drawables;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -319,7 +302,6 @@
 .method public static values()[Lcom/mopub/common/util/Drawables;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/mopub/common/util/Drawables;->$VALUES:[Lcom/mopub/common/util/Drawables;
 
     invoke-virtual {v0}, [Lcom/mopub/common/util/Drawables;->clone()Ljava/lang/Object;
@@ -338,7 +320,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     iput-object v0, p0, Lcom/mopub/common/util/Drawables;->cachedBitmap:Landroid/graphics/Bitmap;
 
     return-void
@@ -347,12 +328,10 @@
 .method public createDrawable(Landroid/content/Context;)Landroid/graphics/drawable/Drawable;
     .locals 3
 
-    .line 1
     invoke-virtual {p0}, Lcom/mopub/common/util/Drawables;->getBitmap()Landroid/graphics/Bitmap;
 
     move-result-object v0
 
-    .line 2
     new-instance v1, Landroid/graphics/drawable/BitmapDrawable;
 
     invoke-virtual {p1}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
@@ -361,7 +340,6 @@
 
     invoke-direct {v1, v2, v0}, Landroid/graphics/drawable/BitmapDrawable;-><init>(Landroid/content/res/Resources;Landroid/graphics/Bitmap;)V
 
-    .line 3
     invoke-virtual {p1}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
 
     move-result-object v0
@@ -370,7 +348,6 @@
 
     move-result-object v0
 
-    .line 4
     iget v0, v0, Landroid/util/DisplayMetrics;->xdpi:F
 
     invoke-static {v0, p1}, Lcom/mopub/common/util/Dips;->asIntPixels(FLandroid/content/Context;)I
@@ -385,12 +362,10 @@
 .method public getBitmap()Landroid/graphics/Bitmap;
     .locals 3
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/common/util/Drawables;->cachedBitmap:Landroid/graphics/Bitmap;
 
     if-nez v0, :cond_0
 
-    .line 2
     iget-object v0, p0, Lcom/mopub/common/util/Drawables;->encodedString:Ljava/lang/String;
 
     const/4 v1, 0x0
@@ -399,7 +374,6 @@
 
     move-result-object v0
 
-    .line 3
     array-length v2, v0
 
     invoke-static {v0, v1, v2}, Landroid/graphics/BitmapFactory;->decodeByteArray([BII)Landroid/graphics/Bitmap;
@@ -408,7 +382,6 @@
 
     iput-object v0, p0, Lcom/mopub/common/util/Drawables;->cachedBitmap:Landroid/graphics/Bitmap;
 
-    .line 4
     :cond_0
     iget-object v0, p0, Lcom/mopub/common/util/Drawables;->cachedBitmap:Landroid/graphics/Bitmap;
 

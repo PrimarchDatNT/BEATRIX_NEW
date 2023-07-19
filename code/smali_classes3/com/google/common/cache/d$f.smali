@@ -21,7 +21,6 @@
 .method constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -38,7 +37,6 @@
 
     if-eqz p3, :cond_0
 
-    .line 1
     invoke-virtual {p3}, Ljava/lang/String;->isEmpty()Z
 
     move-result v2
@@ -57,7 +55,6 @@
 
     invoke-static {v2, v3, p2}, Lcom/google/common/base/t;->u(ZLjava/lang/String;Ljava/lang/Object;)V
 
-    .line 2
     :try_start_0
     invoke-static {p3}, Ljava/lang/Integer;->parseInt(Ljava/lang/String;)I
 
@@ -72,7 +69,6 @@
     :catch_0
     move-exception p1
 
-    .line 3
     new-instance v2, Ljava/lang/IllegalArgumentException;
 
     const/4 v3, 0x2
@@ -85,7 +81,6 @@
 
     const-string p2, "key %s value set to %s, must be integer"
 
-    .line 4
     invoke-static {p2, v3}, Lcom/google/common/cache/d;->a(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object p2

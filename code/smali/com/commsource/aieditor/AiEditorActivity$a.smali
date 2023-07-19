@@ -34,7 +34,6 @@
 .method constructor <init>(Lcom/commsource/aieditor/AiEditorActivity;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/aieditor/AiEditorActivity$a;->a:Lcom/commsource/aieditor/AiEditorActivity;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -51,7 +50,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/aieditor/AiEditorActivity$a;->a:Lcom/commsource/aieditor/AiEditorActivity;
 
     invoke-static {v1}, Lcom/commsource/aieditor/AiEditorActivity;->L0(Lcom/commsource/aieditor/AiEditorActivity;)Lcom/commsource/beautyplus/f0/c;
@@ -64,7 +62,6 @@
 
     invoke-virtual {v1, v2}, Landroid/widget/FrameLayout;->setVisibility(I)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/aieditor/AiEditorActivity$a;->a:Lcom/commsource/aieditor/AiEditorActivity;
 
     invoke-static {v1}, Lcom/commsource/aieditor/AiEditorActivity;->L0(Lcom/commsource/aieditor/AiEditorActivity;)Lcom/commsource/beautyplus/f0/c;
@@ -77,7 +74,6 @@
 
     invoke-virtual {v1, v3}, Landroid/widget/LinearLayout;->setVisibility(I)V
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/aieditor/AiEditorActivity$a;->a:Lcom/commsource/aieditor/AiEditorActivity;
 
     invoke-static {v1}, Lcom/commsource/aieditor/AiEditorActivity;->L0(Lcom/commsource/aieditor/AiEditorActivity;)Lcom/commsource/beautyplus/f0/c;
@@ -100,7 +96,6 @@
     :goto_0
     invoke-virtual {v1, v2}, Landroid/widget/TextView;->setVisibility(I)V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -113,7 +108,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Ljava/lang/Boolean;
 
     invoke-virtual {p0, p1}, Lcom/commsource/aieditor/AiEditorActivity$a;->a(Ljava/lang/Boolean;)V

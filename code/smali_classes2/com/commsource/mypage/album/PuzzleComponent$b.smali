@@ -33,7 +33,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/mypage/album/PuzzleComponent$b;->c:Lcom/commsource/mypage/album/PuzzleComponent;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -50,12 +49,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/mypage/album/PuzzleComponent$b;->a:Z
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -63,18 +60,14 @@
     :cond_0
     const/4 v1, 0x1
 
-    .line 3
     iput-boolean v1, p0, Lcom/commsource/mypage/album/PuzzleComponent$b;->a:Z
 
-    .line 4
     iget-object v2, p0, Lcom/commsource/mypage/album/PuzzleComponent$b;->b:Landroid/view/animation/TranslateAnimation;
 
     if-nez v2, :cond_1
 
-    .line 5
     new-instance v2, Landroid/view/animation/TranslateAnimation;
 
-    .line 6
     iget-object v3, p0, Lcom/commsource/mypage/album/PuzzleComponent$b;->c:Lcom/commsource/mypage/album/PuzzleComponent;
 
     invoke-virtual {v3}, Lcom/commsource/mypage/album/BaseAlbumComponent;->c()Lcom/commsource/mypage/album/BpAlbumActivity;
@@ -101,28 +94,22 @@
 
     const/4 v4, 0x0
 
-    .line 7
     invoke-direct {v2, v4, v3, v4, v4}, Landroid/view/animation/TranslateAnimation;-><init>(FFFF)V
 
     const-wide/16 v3, 0xc8
 
-    .line 8
     invoke-virtual {v2, v3, v4}, Landroid/view/animation/TranslateAnimation;->setDuration(J)V
 
-    .line 9
     invoke-virtual {v2, v1}, Landroid/view/animation/TranslateAnimation;->setFillAfter(Z)V
 
-    .line 10
     new-instance v1, Lcom/commsource/mypage/album/PuzzleComponent$b$a;
 
     invoke-direct {v1, p0}, Lcom/commsource/mypage/album/PuzzleComponent$b$a;-><init>(Lcom/commsource/mypage/album/PuzzleComponent$b;)V
 
     invoke-virtual {v2, v1}, Landroid/view/animation/TranslateAnimation;->setAnimationListener(Landroid/view/animation/Animation$AnimationListener;)V
 
-    .line 11
     iput-object v2, p0, Lcom/commsource/mypage/album/PuzzleComponent$b;->b:Landroid/view/animation/TranslateAnimation;
 
-    .line 12
     :cond_1
     iget-object v1, p0, Lcom/commsource/mypage/album/PuzzleComponent$b;->c:Lcom/commsource/mypage/album/PuzzleComponent;
 
@@ -140,7 +127,6 @@
 
     invoke-virtual {v1, v2}, Landroid/widget/LinearLayout;->startAnimation(Landroid/view/animation/Animation;)V
 
-    .line 13
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

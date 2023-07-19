@@ -54,7 +54,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/billing/activity/ProActivity$p;->a:Lcom/commsource/billing/activity/ProActivity;
 
     invoke-static {v0}, Lcom/commsource/billing/activity/ProActivity;->P0(Lcom/commsource/billing/activity/ProActivity;)Lcom/commsource/billing/activity/SubscribeViewModel;
@@ -67,19 +66,16 @@
 
     if-eqz v0, :cond_0
 
-    .line 2
     iget-object v0, p0, Lcom/commsource/billing/activity/ProActivity$p;->a:Lcom/commsource/billing/activity/ProActivity;
 
     const/4 v1, -0x1
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->setResult(I)V
 
-    .line 3
     iget-object v0, p0, Lcom/commsource/billing/activity/ProActivity$p;->a:Lcom/commsource/billing/activity/ProActivity;
 
     invoke-static {v0}, Lcom/commsource/billing/activity/ProActivity;->S0(Lcom/commsource/billing/activity/ProActivity;)V
 
-    .line 4
     :cond_0
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -93,7 +89,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Ljava/lang/Boolean;
 
     invoke-virtual {p0, p1}, Lcom/commsource/billing/activity/ProActivity$p;->a(Ljava/lang/Boolean;)V

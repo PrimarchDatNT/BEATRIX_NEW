@@ -149,89 +149,66 @@
 .method public constructor <init>()V
     .locals 5
 
-    .line 1
     invoke-direct {p0}, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineOption;-><init>()V
 
     const-wide/16 v0, 0x0
 
-    .line 2
     iput-wide v0, p0, Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/MTFaceOption;->mNativeInstance:J
 
     const/4 v2, 0x2
 
-    .line 3
     iput v2, p0, Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/MTFaceOption;->mode:I
 
     const/4 v2, 0x0
 
-    .line 4
     iput v2, p0, Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/MTFaceOption;->minimalFace:F
 
     const/4 v3, 0x0
 
-    .line 5
     iput v3, p0, Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/MTFaceOption;->maxFaceNum:I
 
-    .line 6
     iput v3, p0, Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/MTFaceOption;->frIntervalFrame:I
 
-    .line 7
     iput v3, p0, Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/MTFaceOption;->fdIntervalFrame:I
 
     const/4 v4, 0x1
 
-    .line 8
     iput-boolean v4, p0, Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/MTFaceOption;->asyncFd:Z
 
-    .line 9
     iput-boolean v4, p0, Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/MTFaceOption;->asyncFr:Z
 
-    .line 10
     iput v2, p0, Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/MTFaceOption;->faceSmoothWeight:F
 
-    .line 11
     iput-boolean v4, p0, Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/MTFaceOption;->faceQualityFilter:Z
 
-    .line 12
     iput v4, p0, Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/MTFaceOption;->faceQualityFilterMode:I
 
-    .line 13
     iput v2, p0, Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/MTFaceOption;->killThreshold:F
 
     const/high16 v4, 0x3e800000    # 0.25f
 
-    .line 14
     iput v4, p0, Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/MTFaceOption;->eyeCloseThreshold:F
 
-    .line 15
     iput-boolean v3, p0, Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/MTFaceOption;->faceActionIndependent:Z
 
-    .line 16
     iput v3, p0, Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/MTFaceOption;->glassIntervalFrame:I
 
-    .line 17
     iput v2, p0, Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/MTFaceOption;->fastMinimalFace:F
 
-    .line 18
     iput v3, p0, Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/MTFaceOption;->fastFdInterval:I
 
-    .line 19
     iput-boolean v3, p0, Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/MTFaceOption;->meshGeneration:Z
 
-    .line 20
     iput-boolean v3, p0, Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/MTFaceOption;->faceNormalGeneration:Z
 
-    .line 21
     iput-boolean v3, p0, Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/MTFaceOption;->verticeNormalGeneration:Z
 
-    .line 22
     iput-boolean v3, p0, Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/MTFaceOption;->tangentGeneration:Z
 
     cmp-long v2, v0, v0
 
     if-nez v2, :cond_0
 
-    .line 23
     new-instance v0, Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/MTFaceOption$1;
 
     invoke-direct {v0, p0}, Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/MTFaceOption$1;-><init>(Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/MTFaceOption;)V
@@ -249,7 +226,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-wide p1, p0, Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/MTFaceOption;->mNativeInstance:J
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -264,7 +240,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/MTFaceOption;->nativeCreateInstance()J
 
     move-result-wide v1
@@ -371,85 +346,62 @@
 
     const-wide/16 v1, 0x0
 
-    .line 1
     iput-wide v1, p0, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineOption;->option:J
 
-    .line 2
     iget-wide v1, p0, Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/MTFaceOption;->mNativeInstance:J
 
     invoke-static {v1, v2}, Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/MTFaceOption;->nativeClearOption(J)V
 
     const/4 v1, 0x0
 
-    .line 3
     iput v1, p0, Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/MTFaceOption;->minimalFace:F
 
     const/4 v2, 0x0
 
-    .line 4
     iput v2, p0, Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/MTFaceOption;->maxFaceNum:I
 
-    .line 5
     iput v2, p0, Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/MTFaceOption;->frIntervalFrame:I
 
-    .line 6
     iput v2, p0, Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/MTFaceOption;->fdIntervalFrame:I
 
     const/4 v3, 0x1
 
-    .line 7
     iput-boolean v3, p0, Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/MTFaceOption;->asyncFd:Z
 
-    .line 8
     iput-boolean v3, p0, Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/MTFaceOption;->asyncFr:Z
 
-    .line 9
     iput v1, p0, Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/MTFaceOption;->faceSmoothWeight:F
 
-    .line 10
     iput-boolean v3, p0, Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/MTFaceOption;->faceQualityFilter:Z
 
-    .line 11
     iput v3, p0, Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/MTFaceOption;->faceQualityFilterMode:I
 
-    .line 12
     iput v1, p0, Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/MTFaceOption;->killThreshold:F
 
     const/4 v3, 0x0
 
-    .line 13
     iput-object v3, p0, Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/MTFaceOption;->fdfaFaceDatas:Ljava/util/ArrayList;
 
     const/high16 v3, 0x3e800000    # 0.25f
 
-    .line 14
     iput v3, p0, Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/MTFaceOption;->eyeCloseThreshold:F
 
-    .line 15
     iput-boolean v2, p0, Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/MTFaceOption;->faceActionIndependent:Z
 
-    .line 16
     iput v2, p0, Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/MTFaceOption;->glassIntervalFrame:I
 
-    .line 17
     iput v1, p0, Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/MTFaceOption;->fastMinimalFace:F
 
-    .line 18
     iput v2, p0, Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/MTFaceOption;->fastFdInterval:I
 
-    .line 19
     iput-boolean v2, p0, Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/MTFaceOption;->meshGeneration:Z
 
-    .line 20
     iput-boolean v2, p0, Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/MTFaceOption;->faceNormalGeneration:Z
 
-    .line 21
     iput-boolean v2, p0, Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/MTFaceOption;->verticeNormalGeneration:Z
 
-    .line 22
     iput-boolean v2, p0, Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/MTFaceOption;->tangentGeneration:Z
 
-    .line 23
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -462,7 +414,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const/4 v0, 0x0
@@ -482,7 +433,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     :try_start_0
     iget-wide v1, p0, Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/MTFaceOption;->mNativeInstance:J
 
@@ -490,10 +440,8 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 2
     invoke-super {p0}, Ljava/lang/Object;->finalize()V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -501,10 +449,8 @@
     :catchall_0
     move-exception v1
 
-    .line 4
     invoke-super {p0}, Ljava/lang/Object;->finalize()V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     throw v1
@@ -517,7 +463,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/MTFaceOption;->mNativeInstance:J
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -532,21 +477,18 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/MTFaceOption;->mNativeInstance:J
 
     iget v3, p0, Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/MTFaceOption;->mode:I
 
     invoke-static {v1, v2, v3}, Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/MTFaceOption;->nativeSetMode(JI)V
 
-    .line 2
     iget-wide v1, p0, Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/MTFaceOption;->mNativeInstance:J
 
     iget-wide v3, p0, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineOption;->option:J
 
     invoke-static {v1, v2, v3, v4}, Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/MTFaceOption;->nativeSetOption(JJ)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -559,112 +501,90 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 4
     iget-wide v1, p0, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineOption;->option:J
 
     invoke-static {p1, p2, v1, v2}, Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/MTFaceOption;->nativeEnableDetectFace(JJ)V
 
-    .line 5
     iget v1, p0, Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/MTFaceOption;->minimalFace:F
 
     invoke-static {p1, p2, v1}, Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/MTFaceOption;->nativeSetMinimalFace(JF)V
 
-    .line 6
     iget v1, p0, Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/MTFaceOption;->maxFaceNum:I
 
     invoke-static {p1, p2, v1}, Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/MTFaceOption;->nativeSetMaxFaceNum(JI)V
 
-    .line 7
     iget v1, p0, Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/MTFaceOption;->frIntervalFrame:I
 
     invoke-static {p1, p2, v1}, Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/MTFaceOption;->nativeSetFrIntervalFrame(JI)V
 
-    .line 8
     iget v1, p0, Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/MTFaceOption;->fdIntervalFrame:I
 
     invoke-static {p1, p2, v1}, Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/MTFaceOption;->nativeSetFdIntervalFrame(JI)V
 
-    .line 9
     iget-boolean v1, p0, Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/MTFaceOption;->asyncFd:Z
 
     invoke-static {p1, p2, v1}, Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/MTFaceOption;->nativeSetAsyncFd(JZ)V
 
-    .line 10
     iget-boolean v1, p0, Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/MTFaceOption;->asyncFr:Z
 
     invoke-static {p1, p2, v1}, Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/MTFaceOption;->nativeSetAsyncFr(JZ)V
 
-    .line 11
     iget v1, p0, Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/MTFaceOption;->faceSmoothWeight:F
 
     invoke-static {p1, p2, v1}, Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/MTFaceOption;->nativeSetFaceSmoothWeight(JF)V
 
-    .line 12
     iget-boolean v1, p0, Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/MTFaceOption;->faceQualityFilter:Z
 
     invoke-static {p1, p2, v1}, Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/MTFaceOption;->nativeSetFaceQualityFilter(JZ)V
 
-    .line 13
     iget v1, p0, Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/MTFaceOption;->faceQualityFilterMode:I
 
     invoke-static {p1, p2, v1}, Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/MTFaceOption;->nativeSetFaceQualityFilterMode(JI)V
 
-    .line 14
     iget v1, p0, Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/MTFaceOption;->killThreshold:F
 
     invoke-static {p1, p2, v1}, Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/MTFaceOption;->nativeSetKillThreshold(JF)V
 
-    .line 15
     iget-object v1, p0, Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/MTFaceOption;->fdfaFaceDatas:Ljava/util/ArrayList;
 
     invoke-static {p1, p2, v1}, Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/MTFaceOption;->nativeSetFdFaFaceData(JLjava/util/ArrayList;)V
 
-    .line 16
     iget v1, p0, Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/MTFaceOption;->eyeCloseThreshold:F
 
     invoke-static {p1, p2, v1}, Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/MTFaceOption;->nativeSetEyeCloseThreshold(JF)V
 
-    .line 17
     iget-boolean v1, p0, Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/MTFaceOption;->faceActionIndependent:Z
 
     invoke-static {p1, p2, v1}, Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/MTFaceOption;->nativeSetFaceActionIndependent(JZ)V
 
-    .line 18
     iget v1, p0, Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/MTFaceOption;->glassIntervalFrame:I
 
     invoke-static {p1, p2, v1}, Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/MTFaceOption;->nativeSetGlassIntervalFrame(JI)V
 
-    .line 19
     iget v1, p0, Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/MTFaceOption;->fastMinimalFace:F
 
     invoke-static {p1, p2, v1}, Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/MTFaceOption;->nativeSetFastMinimalFace(JF)V
 
-    .line 20
     iget v1, p0, Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/MTFaceOption;->fastFdInterval:I
 
     invoke-static {p1, p2, v1}, Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/MTFaceOption;->nativeSetFastFdInterval(JI)V
 
-    .line 21
     iget-boolean v1, p0, Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/MTFaceOption;->meshGeneration:Z
 
     invoke-static {p1, p2, v1}, Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/MTFaceOption;->nativeSetMeshGeneration(JZ)V
 
-    .line 22
     iget-boolean v1, p0, Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/MTFaceOption;->faceNormalGeneration:Z
 
     invoke-static {p1, p2, v1}, Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/MTFaceOption;->nativeSetFaceNormalGeneration(JZ)V
 
-    .line 23
     iget-boolean v1, p0, Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/MTFaceOption;->verticeNormalGeneration:Z
 
     invoke-static {p1, p2, v1}, Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/MTFaceOption;->nativeSetVerticeNormalGeneration(JZ)V
 
-    .line 24
     iget-boolean v1, p0, Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/MTFaceOption;->tangentGeneration:Z
 
     invoke-static {p1, p2, v1}, Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/MTFaceOption;->nativeSetTangentGeneration(JZ)V
 
-    .line 25
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

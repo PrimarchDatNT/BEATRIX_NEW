@@ -29,7 +29,6 @@
 .method constructor <init>(Lcom/commsource/beautymain/widget/gesturewidget/RealtimeFilterImageView;FLandroid/graphics/Bitmap;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/beautymain/widget/gesturewidget/RealtimeFilterImageView$a;->c:Lcom/commsource/beautymain/widget/gesturewidget/RealtimeFilterImageView;
 
     iput p2, p0, Lcom/commsource/beautymain/widget/gesturewidget/RealtimeFilterImageView$a;->a:F
@@ -50,7 +49,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p1}, Landroid/animation/ValueAnimator;->getAnimatedValue()Ljava/lang/Object;
 
     move-result-object v1
@@ -61,7 +59,6 @@
 
     move-result v1
 
-    .line 2
     iget-object v2, p0, Lcom/commsource/beautymain/widget/gesturewidget/RealtimeFilterImageView$a;->c:Lcom/commsource/beautymain/widget/gesturewidget/RealtimeFilterImageView;
 
     invoke-static {v2}, Lcom/commsource/beautymain/widget/gesturewidget/RealtimeFilterImageView;->g0(Lcom/commsource/beautymain/widget/gesturewidget/RealtimeFilterImageView;)Landroid/graphics/Paint;
@@ -70,7 +67,6 @@
 
     invoke-virtual {v2, v1}, Landroid/graphics/Paint;->setAlpha(I)V
 
-    .line 3
     invoke-virtual {p1}, Landroid/animation/ValueAnimator;->getAnimatedFraction()F
 
     move-result p1
@@ -81,7 +77,6 @@
 
     if-nez p1, :cond_0
 
-    .line 4
     iget-object p1, p0, Lcom/commsource/beautymain/widget/gesturewidget/RealtimeFilterImageView$a;->c:Lcom/commsource/beautymain/widget/gesturewidget/RealtimeFilterImageView;
 
     invoke-static {p1}, Lcom/commsource/beautymain/widget/gesturewidget/RealtimeFilterImageView;->i0(Lcom/commsource/beautymain/widget/gesturewidget/RealtimeFilterImageView;)Landroid/graphics/Paint;
@@ -98,7 +93,6 @@
 
     invoke-virtual {p1, v1}, Landroid/graphics/Paint;->setAlpha(I)V
 
-    .line 5
     iget-object p1, p0, Lcom/commsource/beautymain/widget/gesturewidget/RealtimeFilterImageView$a;->c:Lcom/commsource/beautymain/widget/gesturewidget/RealtimeFilterImageView;
 
     invoke-static {p1}, Lcom/commsource/beautymain/widget/gesturewidget/RealtimeFilterImageView;->j0(Lcom/commsource/beautymain/widget/gesturewidget/RealtimeFilterImageView;)Landroid/graphics/Bitmap;
@@ -107,20 +101,17 @@
 
     invoke-virtual {p1}, Landroid/graphics/Bitmap;->recycle()V
 
-    .line 6
     iget-object p1, p0, Lcom/commsource/beautymain/widget/gesturewidget/RealtimeFilterImageView$a;->c:Lcom/commsource/beautymain/widget/gesturewidget/RealtimeFilterImageView;
 
     iget-object v1, p0, Lcom/commsource/beautymain/widget/gesturewidget/RealtimeFilterImageView$a;->b:Landroid/graphics/Bitmap;
 
     invoke-virtual {p1, v1}, Lcom/commsource/beautymain/widget/gesturewidget/RealtimeFilterImageView;->setFilterBitmap(Landroid/graphics/Bitmap;)V
 
-    .line 7
     :cond_0
     iget-object p1, p0, Lcom/commsource/beautymain/widget/gesturewidget/RealtimeFilterImageView$a;->c:Lcom/commsource/beautymain/widget/gesturewidget/RealtimeFilterImageView;
 
     invoke-virtual {p1}, Landroid/widget/ImageView;->invalidate()V
 
-    .line 8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

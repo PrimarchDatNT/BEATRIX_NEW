@@ -57,7 +57,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/function/RelightFragment$g;->a:Lcom/commsource/studio/function/RelightFragment;
 
     invoke-static {v1}, Lcom/commsource/studio/function/RelightFragment;->z1(Lcom/commsource/studio/function/RelightFragment;)Landroid/app/Activity;
@@ -82,19 +81,16 @@
 
     if-nez v1, :cond_0
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/function/RelightFragment$g;->a:Lcom/commsource/studio/function/RelightFragment;
 
     invoke-static {v1}, Lcom/commsource/studio/function/RelightFragment;->H1(Lcom/commsource/studio/function/RelightFragment;)V
 
-    .line 3
     sget-object v1, Lcom/commsource/beautymain/utils/RelightModelHelper;->b:Lcom/commsource/beautymain/utils/RelightModelHelper;
 
     invoke-virtual {v1}, Lcom/commsource/beautymain/utils/RelightModelHelper;->a()V
 
     goto :goto_0
 
-    .line 4
     :cond_0
     new-instance v1, Lcom/commsource/widget/dialog/s0/t$a;
 
@@ -116,7 +112,6 @@
 
     move-result-object v1
 
-    .line 5
     iget-object v2, p0, Lcom/commsource/studio/function/RelightFragment$g;->a:Lcom/commsource/studio/function/RelightFragment;
 
     invoke-static {v2}, Lcom/commsource/studio/function/RelightFragment;->z1(Lcom/commsource/studio/function/RelightFragment;)Landroid/app/Activity;
@@ -135,12 +130,10 @@
 
     const/4 v2, 0x1
 
-    .line 6
     invoke-virtual {v1, v2}, Lcom/commsource/widget/dialog/s0/t$a;->p(Z)Lcom/commsource/widget/dialog/s0/t$a;
 
     move-result-object v1
 
-    .line 7
     new-instance v2, Lcom/commsource/studio/function/RelightFragment$g$a;
 
     invoke-direct {v2, p0}, Lcom/commsource/studio/function/RelightFragment$g$a;-><init>(Lcom/commsource/studio/function/RelightFragment$g;)V
@@ -149,19 +142,15 @@
 
     move-result-object v1
 
-    .line 8
     invoke-virtual {v1}, Lcom/commsource/widget/dialog/s0/t$a;->a()Lcom/commsource/widget/dialog/s0/t;
 
     move-result-object v1
 
-    .line 9
     invoke-virtual {v1}, Lf/d/a;->F()V
 
-    .line 10
     :goto_0
     invoke-virtual {p1}, Lcom/commsource/widget/dialog/i0;->dismiss()V
 
-    .line 11
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

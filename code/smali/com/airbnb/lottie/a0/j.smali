@@ -52,10 +52,8 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     new-instance v0, Lcom/airbnb/lottie/a0/b;
 
     invoke-direct {v0}, Lcom/airbnb/lottie/a0/b;-><init>()V
@@ -64,7 +62,6 @@
 
     const/4 v0, 0x0
 
-    .line 3
     iput-object v0, p0, Lcom/airbnb/lottie/a0/j;->c:Ljava/lang/Object;
 
     return-void
@@ -82,10 +79,8 @@
         }
     .end annotation
 
-    .line 4
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 5
     new-instance v0, Lcom/airbnb/lottie/a0/b;
 
     invoke-direct {v0}, Lcom/airbnb/lottie/a0/b;-><init>()V
@@ -94,10 +89,8 @@
 
     const/4 v0, 0x0
 
-    .line 6
     iput-object v0, p0, Lcom/airbnb/lottie/a0/j;->c:Ljava/lang/Object;
 
-    .line 7
     iput-object p1, p0, Lcom/airbnb/lottie/a0/j;->c:Ljava/lang/Object;
 
     return-void
@@ -118,7 +111,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object p1, p0, Lcom/airbnb/lottie/a0/j;->c:Ljava/lang/Object;
 
     return-object p1
@@ -141,7 +133,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/airbnb/lottie/a0/j;->a:Lcom/airbnb/lottie/a0/b;
 
     move v1, p1
@@ -158,12 +149,10 @@
 
     move v7, p7
 
-    .line 2
     invoke-virtual/range {v0 .. v7}, Lcom/airbnb/lottie/a0/b;->h(FFLjava/lang/Object;Ljava/lang/Object;FFF)Lcom/airbnb/lottie/a0/b;
 
     move-result-object p1
 
-    .line 3
     invoke-virtual {p0, p1}, Lcom/airbnb/lottie/a0/j;->a(Lcom/airbnb/lottie/a0/b;)Ljava/lang/Object;
 
     move-result-object p1
@@ -191,7 +180,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/airbnb/lottie/a0/j;->b:Lcom/airbnb/lottie/w/c/a;
 
     return-void
@@ -209,15 +197,12 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/airbnb/lottie/a0/j;->c:Ljava/lang/Object;
 
-    .line 2
     iget-object p1, p0, Lcom/airbnb/lottie/a0/j;->b:Lcom/airbnb/lottie/w/c/a;
 
     if-eqz p1, :cond_0
 
-    .line 3
     invoke-virtual {p1}, Lcom/airbnb/lottie/w/c/a;->k()V
 
     :cond_0

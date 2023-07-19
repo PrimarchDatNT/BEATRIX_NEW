@@ -12,7 +12,6 @@
 
     const-string v0, "com.google.android.gms.ads.internal.query.IUpdateUrlsCallback"
 
-    .line 1
     invoke-direct {p0, v0}, Lcom/google/android/gms/internal/ads/l82;-><init>(Ljava/lang/String;)V
 
     return-void
@@ -30,22 +29,18 @@
     :cond_0
     const-string v0, "com.google.android.gms.ads.internal.query.IUpdateUrlsCallback"
 
-    .line 1
     invoke-interface {p0, v0}, Landroid/os/IBinder;->queryLocalInterface(Ljava/lang/String;)Landroid/os/IInterface;
 
     move-result-object v0
 
-    .line 2
     instance-of v1, v0, Lcom/google/android/gms/internal/ads/bg;
 
     if-eqz v1, :cond_1
 
-    .line 3
     check-cast v0, Lcom/google/android/gms/internal/ads/bg;
 
     return-object v0
 
-    .line 4
     :cond_1
     new-instance v0, Lcom/google/android/gms/internal/ads/eg;
 
@@ -76,18 +71,15 @@
 
     return p1
 
-    .line 1
     :cond_0
     invoke-virtual {p2}, Landroid/os/Parcel;->readString()Ljava/lang/String;
 
     move-result-object p1
 
-    .line 2
     invoke-interface {p0, p1}, Lcom/google/android/gms/internal/ads/bg;->d0(Ljava/lang/String;)V
 
     goto :goto_0
 
-    .line 3
     :cond_1
     sget-object p1, Landroid/net/Uri;->CREATOR:Landroid/os/Parcelable$Creator;
 
@@ -95,10 +87,8 @@
 
     move-result-object p1
 
-    .line 4
     invoke-interface {p0, p1}, Lcom/google/android/gms/internal/ads/bg;->F(Ljava/util/List;)V
 
-    .line 5
     :goto_0
     invoke-virtual {p3}, Landroid/os/Parcel;->writeNoException()V
 

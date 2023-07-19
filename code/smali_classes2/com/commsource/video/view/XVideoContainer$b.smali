@@ -42,7 +42,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/video/view/XVideoContainer$b;->a:Lcom/commsource/video/view/XVideoRenderView;
 
     invoke-virtual {v1}, Lcom/commsource/video/view/XVideoRenderView;->getPlayer()Lcom/commsource/video/decoder/a;
@@ -51,7 +50,6 @@
 
     invoke-interface {v1}, Lcom/commsource/video/decoder/b;->reset()V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/video/view/XVideoContainer$b;->a:Lcom/commsource/video/view/XVideoRenderView;
 
     invoke-virtual {v1}, Lcom/commsource/video/view/XVideoRenderView;->getPlayer()Lcom/commsource/video/decoder/a;
@@ -60,7 +58,6 @@
 
     invoke-interface {v1}, Lcom/commsource/video/decoder/b;->destroy()V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

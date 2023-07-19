@@ -26,7 +26,6 @@
 .method constructor <init>(Lcom/google/common/reflect/l$c;Ljava/lang/reflect/TypeVariable;Lcom/google/common/reflect/l$c;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/common/reflect/l$c$a;->d:Lcom/google/common/reflect/l$c;
 
     iput-object p2, p0, Lcom/google/common/reflect/l$c$a;->b:Ljava/lang/reflect/TypeVariable;
@@ -53,7 +52,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-interface {p1}, Ljava/lang/reflect/TypeVariable;->getGenericDeclaration()Ljava/lang/reflect/GenericDeclaration;
 
     move-result-object v0
@@ -72,7 +70,6 @@
 
     return-object p1
 
-    .line 2
     :cond_0
     iget-object v0, p0, Lcom/google/common/reflect/l$c$a;->c:Lcom/google/common/reflect/l$c;
 

@@ -24,7 +24,6 @@
 .method constructor <init>(Lbolts/r$b;Lbolts/p;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lbolts/r$b$b;->b:Lbolts/r$b;
 
     iput-object p2, p0, Lbolts/r$b$b;->a:Lbolts/p;
@@ -41,7 +40,6 @@
     .annotation runtime Landroid/webkit/JavascriptInterface;
     .end annotation
 
-    .line 1
     :try_start_0
     iget-object v0, p0, Lbolts/r$b$b;->a:Lbolts/p;
 
@@ -58,7 +56,6 @@
     :catch_0
     move-exception p1
 
-    .line 2
     iget-object v0, p0, Lbolts/r$b$b;->a:Lbolts/p;
 
     invoke-virtual {v0, p1}, Lbolts/p;->f(Ljava/lang/Exception;)Z

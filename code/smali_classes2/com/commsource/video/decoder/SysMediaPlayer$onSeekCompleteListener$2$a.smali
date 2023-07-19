@@ -42,7 +42,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/video/decoder/SysMediaPlayer$onSeekCompleteListener$2$a;->a:Lcom/commsource/video/decoder/SysMediaPlayer$onSeekCompleteListener$2;
 
     iget-object v0, v0, Lcom/commsource/video/decoder/SysMediaPlayer$onSeekCompleteListener$2;->this$0:Lcom/commsource/video/decoder/SysMediaPlayer;
@@ -65,7 +64,6 @@
 
     check-cast v0, Lcotlin/t1;
 
-    .line 2
     :cond_0
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

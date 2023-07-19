@@ -30,7 +30,6 @@
 .method constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -41,7 +40,6 @@
 .method public bridge synthetic a(Ljava/lang/Object;)Z
     .locals 0
 
-    .line 1
     check-cast p1, Lio/grpc/ManagedChannelProvider;
 
     invoke-virtual {p0, p1}, Lio/grpc/ManagedChannelProvider$a;->d(Lio/grpc/ManagedChannelProvider;)Z
@@ -54,7 +52,6 @@
 .method public bridge synthetic b(Ljava/lang/Object;)I
     .locals 0
 
-    .line 1
     check-cast p1, Lio/grpc/ManagedChannelProvider;
 
     invoke-virtual {p0, p1}, Lio/grpc/ManagedChannelProvider$a;->c(Lio/grpc/ManagedChannelProvider;)I
@@ -67,7 +64,6 @@
 .method public c(Lio/grpc/ManagedChannelProvider;)I
     .locals 0
 
-    .line 1
     invoke-virtual {p1}, Lio/grpc/ManagedChannelProvider;->d()I
 
     move-result p1
@@ -78,7 +74,6 @@
 .method public d(Lio/grpc/ManagedChannelProvider;)Z
     .locals 0
 
-    .line 1
     invoke-virtual {p1}, Lio/grpc/ManagedChannelProvider;->c()Z
 
     move-result p1

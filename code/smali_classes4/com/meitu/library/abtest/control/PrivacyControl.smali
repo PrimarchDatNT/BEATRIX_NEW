@@ -37,7 +37,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/meitu/library/abtest/control/PrivacyControl;
 
     const-string v2, "C_ADVERTISING_ID"
@@ -50,7 +49,6 @@
 
     sput-object v1, Lcom/meitu/library/abtest/control/PrivacyControl;->C_ADVERTISING_ID:Lcom/meitu/library/abtest/control/PrivacyControl;
 
-    .line 2
     new-instance v2, Lcom/meitu/library/abtest/control/PrivacyControl;
 
     const-string v4, "C_IMEI"
@@ -63,7 +61,6 @@
 
     sput-object v2, Lcom/meitu/library/abtest/control/PrivacyControl;->C_IMEI:Lcom/meitu/library/abtest/control/PrivacyControl;
 
-    .line 3
     new-instance v4, Lcom/meitu/library/abtest/control/PrivacyControl;
 
     const-string v6, "C_ANDROID_ID"
@@ -76,7 +73,6 @@
 
     sput-object v4, Lcom/meitu/library/abtest/control/PrivacyControl;->C_ANDROID_ID:Lcom/meitu/library/abtest/control/PrivacyControl;
 
-    .line 4
     new-instance v6, Lcom/meitu/library/abtest/control/PrivacyControl;
 
     const-string v8, "C_GID"
@@ -101,7 +97,6 @@
 
     aput-object v6, v8, v9
 
-    .line 5
     sput-object v8, Lcom/meitu/library/abtest/control/PrivacyControl;->$VALUES:[Lcom/meitu/library/abtest/control/PrivacyControl;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -119,10 +114,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 2
     iput-object p3, p0, Lcom/meitu/library/abtest/control/PrivacyControl;->name:Ljava/lang/String;
 
     return-void
@@ -135,7 +128,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/meitu/library/abtest/control/PrivacyControl;->C_ADVERTISING_ID:Lcom/meitu/library/abtest/control/PrivacyControl;
 
     invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
@@ -146,7 +138,6 @@
 
     aput-boolean v2, p0, v1
 
-    .line 2
     sget-object v1, Lcom/meitu/library/abtest/control/PrivacyControl;->C_IMEI:Lcom/meitu/library/abtest/control/PrivacyControl;
 
     invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
@@ -155,7 +146,6 @@
 
     aput-boolean v2, p0, v1
 
-    .line 3
     sget-object v1, Lcom/meitu/library/abtest/control/PrivacyControl;->C_ANDROID_ID:Lcom/meitu/library/abtest/control/PrivacyControl;
 
     invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
@@ -164,7 +154,6 @@
 
     aput-boolean v2, p0, v1
 
-    .line 4
     sget-object v1, Lcom/meitu/library/abtest/control/PrivacyControl;->C_GID:Lcom/meitu/library/abtest/control/PrivacyControl;
 
     invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
@@ -173,7 +162,6 @@
 
     aput-boolean v2, p0, v1
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -186,7 +174,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     const-class v1, Lcom/meitu/library/abtest/control/PrivacyControl;
 
     invoke-static {v1, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -207,7 +194,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/meitu/library/abtest/control/PrivacyControl;->$VALUES:[Lcom/meitu/library/abtest/control/PrivacyControl;
 
     invoke-virtual {v1}, [Lcom/meitu/library/abtest/control/PrivacyControl;->clone()Ljava/lang/Object;
@@ -230,7 +216,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/library/abtest/control/PrivacyControl;->name:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

@@ -25,7 +25,6 @@
 .method constructor <init>(Lf/k/j0/c;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lf/k/j0/c$a;->a:Lf/k/j0/c;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -42,7 +41,6 @@
 
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lf/k/j0/c$a;->a:Lf/k/j0/c;
 
     invoke-static {v0}, Lf/k/j0/c;->B(Lf/k/j0/c;)Lcom/meitu/shortcut/core/j$b;
@@ -57,7 +55,6 @@
 
     invoke-virtual {v0, v1}, Landroidx/core/content/pm/ShortcutInfoCompat$Builder;->setShortLabel(Ljava/lang/CharSequence;)Landroidx/core/content/pm/ShortcutInfoCompat$Builder;
 
-    .line 2
     iget-object v0, p0, Lf/k/j0/c$a;->a:Lf/k/j0/c;
 
     invoke-static {v0}, Lf/k/j0/c;->B(Lf/k/j0/c;)Lcom/meitu/shortcut/core/j$b;
@@ -80,14 +77,12 @@
 
     invoke-static {v0, v1, p1, v2}, Lf/k/j0/c;->D(Lf/k/j0/c;Landroidx/core/content/pm/ShortcutInfoCompat;Landroid/content/Context;Lcom/meitu/shortcut/core/f;)V
 
-    .line 3
     iget-object p1, p0, Lf/k/j0/c$a;->a:Lf/k/j0/c;
 
     const/4 v0, 0x0
 
     invoke-static {p1, v0}, Lf/k/j0/c;->A(Lf/k/j0/c;Ljava/lang/CharSequence;)Ljava/lang/CharSequence;
 
-    .line 4
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

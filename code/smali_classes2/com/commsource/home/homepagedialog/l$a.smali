@@ -42,7 +42,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Landroid/content/Intent;
 
     iget-object v2, p0, Lcom/commsource/home/homepagedialog/l$a;->a:Lcom/commsource/home/homepagedialog/l;
@@ -57,10 +56,8 @@
 
     const-string v2, "IS_TERMS_OF_SERVICE_OR_USER_PROTOCOL"
 
-    .line 2
     invoke-virtual {v1, v2, p1}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Z)Landroid/content/Intent;
 
-    .line 3
     iget-object p1, p0, Lcom/commsource/home/homepagedialog/l$a;->a:Lcom/commsource/home/homepagedialog/l;
 
     invoke-virtual {p1}, Lcom/commsource/home/homepagedialog/l;->l()Lcom/commsource/beautyplus/BaseActivity;
@@ -69,7 +66,6 @@
 
     invoke-virtual {p1, v1}, Landroid/app/Activity;->startActivity(Landroid/content/Intent;)V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

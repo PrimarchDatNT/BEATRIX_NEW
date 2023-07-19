@@ -27,12 +27,10 @@
 .method constructor <init>(Lcom/mopub/mobileads/RewardedAdsLoaders;Ljava/lang/String;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/mopub/mobileads/RewardedAdsLoaders$RewardedAdRequestListener;->this$0:Lcom/mopub/mobileads/RewardedAdsLoaders;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p2, p0, Lcom/mopub/mobileads/RewardedAdsLoaders$RewardedAdRequestListener;->adUnitId:Ljava/lang/String;
 
     return-void
@@ -47,7 +45,6 @@
         .end annotation
     .end param
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/mobileads/RewardedAdsLoaders$RewardedAdRequestListener;->this$0:Lcom/mopub/mobileads/RewardedAdsLoaders;
 
     invoke-static {v0}, Lcom/mopub/mobileads/RewardedAdsLoaders;->access$000(Lcom/mopub/mobileads/RewardedAdsLoaders;)Lcom/mopub/mobileads/MoPubRewardedAdManager;
@@ -68,7 +65,6 @@
         .end annotation
     .end param
 
-    .line 2
     iget-object v0, p0, Lcom/mopub/mobileads/RewardedAdsLoaders$RewardedAdRequestListener;->this$0:Lcom/mopub/mobileads/RewardedAdsLoaders;
 
     invoke-static {v0}, Lcom/mopub/mobileads/RewardedAdsLoaders;->access$000(Lcom/mopub/mobileads/RewardedAdsLoaders;)Lcom/mopub/mobileads/MoPubRewardedAdManager;
@@ -87,7 +83,6 @@
         .end annotation
     .end param
 
-    .line 1
     check-cast p1, Lcom/mopub/network/AdResponse;
 
     invoke-virtual {p0, p1}, Lcom/mopub/mobileads/RewardedAdsLoaders$RewardedAdRequestListener;->onResponse(Lcom/mopub/network/AdResponse;)V

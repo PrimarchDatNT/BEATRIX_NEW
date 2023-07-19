@@ -74,7 +74,6 @@
 
     const/4 v0, 0x0
 
-    .line 2
     invoke-direct {p0, v0}, Lkshark/z;-><init>(Lcotlin/jvm/internal/u;)V
 
     iput-object p1, p0, Lkshark/LibraryLeakReferenceMatcher;->a:Lkshark/ReferencePattern;
@@ -100,7 +99,6 @@
 
     if-eqz p4, :cond_1
 
-    .line 1
     sget-object p3, Lkshark/LibraryLeakReferenceMatcher$1;->INSTANCE:Lkshark/LibraryLeakReferenceMatcher$1;
 
     :cond_1
@@ -149,7 +147,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lkshark/LibraryLeakReferenceMatcher;->a:Lkshark/ReferencePattern;
 
     return-object v0
@@ -315,7 +312,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lkshark/LibraryLeakReferenceMatcher;->b:Ljava/lang/String;
 
     return-object v0
@@ -336,7 +332,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lkshark/LibraryLeakReferenceMatcher;->c:Lcotlin/jvm/u/l;
 
     return-object v0
@@ -402,7 +397,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V

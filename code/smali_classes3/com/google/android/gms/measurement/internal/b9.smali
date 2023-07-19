@@ -16,7 +16,6 @@
 .method constructor <init>(Lcom/google/android/gms/measurement/internal/w8;Lcom/google/android/gms/measurement/internal/g4;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/android/gms/measurement/internal/b9;->b:Lcom/google/android/gms/measurement/internal/w8;
 
     iput-object p2, p0, Lcom/google/android/gms/measurement/internal/b9;->a:Lcom/google/android/gms/measurement/internal/g4;
@@ -31,12 +30,10 @@
 .method public final run()V
     .locals 3
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/measurement/internal/b9;->b:Lcom/google/android/gms/measurement/internal/w8;
 
     monitor-enter v0
 
-    .line 2
     :try_start_0
     iget-object v1, p0, Lcom/google/android/gms/measurement/internal/b9;->b:Lcom/google/android/gms/measurement/internal/w8;
 
@@ -44,7 +41,6 @@
 
     invoke-static {v1, v2}, Lcom/google/android/gms/measurement/internal/w8;->c(Lcom/google/android/gms/measurement/internal/w8;Z)Z
 
-    .line 3
     iget-object v1, p0, Lcom/google/android/gms/measurement/internal/b9;->b:Lcom/google/android/gms/measurement/internal/w8;
 
     iget-object v1, v1, Lcom/google/android/gms/measurement/internal/w8;->c:Lcom/google/android/gms/measurement/internal/d8;
@@ -55,7 +51,6 @@
 
     if-nez v1, :cond_0
 
-    .line 4
     iget-object v1, p0, Lcom/google/android/gms/measurement/internal/b9;->b:Lcom/google/android/gms/measurement/internal/w8;
 
     iget-object v1, v1, Lcom/google/android/gms/measurement/internal/w8;->c:Lcom/google/android/gms/measurement/internal/d8;
@@ -72,7 +67,6 @@
 
     invoke-virtual {v1, v2}, Lcom/google/android/gms/measurement/internal/q4;->a(Ljava/lang/String;)V
 
-    .line 5
     iget-object v1, p0, Lcom/google/android/gms/measurement/internal/b9;->b:Lcom/google/android/gms/measurement/internal/w8;
 
     iget-object v1, v1, Lcom/google/android/gms/measurement/internal/w8;->c:Lcom/google/android/gms/measurement/internal/d8;
@@ -81,7 +75,6 @@
 
     invoke-virtual {v1, v2}, Lcom/google/android/gms/measurement/internal/d8;->K(Lcom/google/android/gms/measurement/internal/g4;)V
 
-    .line 6
     :cond_0
     monitor-exit v0
 

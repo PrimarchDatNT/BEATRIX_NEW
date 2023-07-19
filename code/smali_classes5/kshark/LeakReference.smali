@@ -45,7 +45,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -66,10 +65,8 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     new-instance v0, Lkshark/LeakTraceReference;
 
-    .line 2
     iget-object v1, p0, Lkshark/LeakReference;->type:Lkshark/LeakTraceElement$Type;
 
     if-nez v1, :cond_0
@@ -101,7 +98,6 @@
 
     if-ne v1, v2, :cond_1
 
-    .line 3
     sget-object v1, Lkshark/LeakTraceReference$ReferenceType;->ARRAY_ENTRY:Lkshark/LeakTraceReference$ReferenceType;
 
     goto :goto_0
@@ -113,23 +109,19 @@
 
     throw p1
 
-    .line 4
     :cond_2
     sget-object v1, Lkshark/LeakTraceReference$ReferenceType;->LOCAL:Lkshark/LeakTraceReference$ReferenceType;
 
     goto :goto_0
 
-    .line 5
     :cond_3
     sget-object v1, Lkshark/LeakTraceReference$ReferenceType;->STATIC_FIELD:Lkshark/LeakTraceReference$ReferenceType;
 
     goto :goto_0
 
-    .line 6
     :cond_4
     sget-object v1, Lkshark/LeakTraceReference$ReferenceType;->INSTANCE_FIELD:Lkshark/LeakTraceReference$ReferenceType;
 
-    .line 7
     :goto_0
     iget-object v2, p0, Lkshark/LeakReference;->name:Ljava/lang/String;
 
@@ -140,7 +132,6 @@
     :cond_5
     const-string v3, ""
 
-    .line 8
     invoke-direct {v0, p1, v1, v2, v3}, Lkshark/LeakTraceReference;-><init>(Lkshark/LeakTraceObject;Lkshark/LeakTraceReference$ReferenceType;Ljava/lang/String;Ljava/lang/String;)V
 
     return-object v0

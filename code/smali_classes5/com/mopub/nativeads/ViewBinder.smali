@@ -51,66 +51,56 @@
         .end annotation
     .end param
 
-    .line 2
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 3
     invoke-static {p1}, Lcom/mopub/nativeads/ViewBinder$Builder;->access$100(Lcom/mopub/nativeads/ViewBinder$Builder;)I
 
     move-result v0
 
     iput v0, p0, Lcom/mopub/nativeads/ViewBinder;->layoutId:I
 
-    .line 4
     invoke-static {p1}, Lcom/mopub/nativeads/ViewBinder$Builder;->access$200(Lcom/mopub/nativeads/ViewBinder$Builder;)I
 
     move-result v0
 
     iput v0, p0, Lcom/mopub/nativeads/ViewBinder;->titleId:I
 
-    .line 5
     invoke-static {p1}, Lcom/mopub/nativeads/ViewBinder$Builder;->access$300(Lcom/mopub/nativeads/ViewBinder$Builder;)I
 
     move-result v0
 
     iput v0, p0, Lcom/mopub/nativeads/ViewBinder;->textId:I
 
-    .line 6
     invoke-static {p1}, Lcom/mopub/nativeads/ViewBinder$Builder;->access$400(Lcom/mopub/nativeads/ViewBinder$Builder;)I
 
     move-result v0
 
     iput v0, p0, Lcom/mopub/nativeads/ViewBinder;->callToActionId:I
 
-    .line 7
     invoke-static {p1}, Lcom/mopub/nativeads/ViewBinder$Builder;->access$500(Lcom/mopub/nativeads/ViewBinder$Builder;)I
 
     move-result v0
 
     iput v0, p0, Lcom/mopub/nativeads/ViewBinder;->mainImageId:I
 
-    .line 8
     invoke-static {p1}, Lcom/mopub/nativeads/ViewBinder$Builder;->access$600(Lcom/mopub/nativeads/ViewBinder$Builder;)I
 
     move-result v0
 
     iput v0, p0, Lcom/mopub/nativeads/ViewBinder;->iconImageId:I
 
-    .line 9
     invoke-static {p1}, Lcom/mopub/nativeads/ViewBinder$Builder;->access$700(Lcom/mopub/nativeads/ViewBinder$Builder;)I
 
     move-result v0
 
     iput v0, p0, Lcom/mopub/nativeads/ViewBinder;->privacyInformationIconImageId:I
 
-    .line 10
     invoke-static {p1}, Lcom/mopub/nativeads/ViewBinder$Builder;->access$800(Lcom/mopub/nativeads/ViewBinder$Builder;)I
 
     move-result v0
 
     iput v0, p0, Lcom/mopub/nativeads/ViewBinder;->sponsoredTextId:I
 
-    .line 11
     invoke-static {p1}, Lcom/mopub/nativeads/ViewBinder$Builder;->access$900(Lcom/mopub/nativeads/ViewBinder$Builder;)Ljava/util/Map;
 
     move-result-object p1
@@ -123,7 +113,6 @@
 .method synthetic constructor <init>(Lcom/mopub/nativeads/ViewBinder$Builder;Lcom/mopub/nativeads/ViewBinder$1;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/mopub/nativeads/ViewBinder;-><init>(Lcom/mopub/nativeads/ViewBinder$Builder;)V
 
     return-void

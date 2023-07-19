@@ -26,7 +26,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     new-instance v0, Lcotlinx/coroutines/y2$a;
 
     invoke-direct {v0, p0}, Lcotlinx/coroutines/y2$a;-><init>(Lcotlin/jvm/u/a;)V

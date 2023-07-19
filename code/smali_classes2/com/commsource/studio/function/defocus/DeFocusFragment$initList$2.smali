@@ -55,7 +55,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Lcom/commsource/material/ImageSegmentExecutor$ProgressEntity;
 
     invoke-virtual {p0, p1}, Lcom/commsource/studio/function/defocus/DeFocusFragment$initList$2;->invoke(Lcom/commsource/material/ImageSegmentExecutor$ProgressEntity;)V
@@ -80,7 +79,6 @@
 
     if-eqz p1, :cond_5
 
-    .line 2
     invoke-virtual {p1}, Lcom/commsource/material/ImageSegmentExecutor$ProgressEntity;->getModel()Lcom/commsource/material/download/SegmentModel;
 
     move-result-object v1
@@ -111,7 +109,6 @@
     :goto_1
     if-eqz p1, :cond_5
 
-    .line 3
     iget-object p1, p0, Lcom/commsource/studio/function/defocus/DeFocusFragment$initList$2;->this$0:Lcom/commsource/studio/function/defocus/DeFocusFragment;
 
     invoke-static {p1}, Lcom/commsource/studio/function/defocus/DeFocusFragment;->F1(Lcom/commsource/studio/function/defocus/DeFocusFragment;)Lcom/commsource/beautymain/data/SoftFocusEntity;
@@ -122,7 +119,6 @@
 
     iput v3, p1, Lcom/commsource/beautymain/data/SoftFocusEntity;->downloadState:I
 
-    .line 4
     :cond_2
     iget-object p1, p0, Lcom/commsource/studio/function/defocus/DeFocusFragment$initList$2;->this$0:Lcom/commsource/studio/function/defocus/DeFocusFragment;
 
@@ -134,13 +130,11 @@
 
     invoke-virtual {p1}, Landroid/app/Dialog;->dismiss()V
 
-    .line 5
     :cond_3
     iget-object p1, p0, Lcom/commsource/studio/function/defocus/DeFocusFragment$initList$2;->this$0:Lcom/commsource/studio/function/defocus/DeFocusFragment;
 
     invoke-static {p1, v2}, Lcom/commsource/studio/function/defocus/DeFocusFragment;->O1(Lcom/commsource/studio/function/defocus/DeFocusFragment;Lcom/commsource/comic/widget/c;)V
 
-    .line 6
     iget-object p1, p0, Lcom/commsource/studio/function/defocus/DeFocusFragment$initList$2;->this$0:Lcom/commsource/studio/function/defocus/DeFocusFragment;
 
     invoke-static {p1}, Lcom/commsource/studio/function/defocus/DeFocusFragment;->I1(Lcom/commsource/studio/function/defocus/DeFocusFragment;)Z
@@ -149,7 +143,6 @@
 
     if-eqz p1, :cond_5
 
-    .line 7
     iget-object p1, p0, Lcom/commsource/studio/function/defocus/DeFocusFragment$initList$2;->this$0:Lcom/commsource/studio/function/defocus/DeFocusFragment;
 
     invoke-virtual {p1}, Lcom/commsource/studio/function/defocus/DeFocusFragment;->W1()Lcom/commsource/studio/effect/f;
@@ -162,7 +155,6 @@
 
     if-nez p1, :cond_4
 
-    .line 8
     iget-object p1, p0, Lcom/commsource/studio/function/defocus/DeFocusFragment$initList$2;->this$0:Lcom/commsource/studio/function/defocus/DeFocusFragment;
 
     invoke-virtual {p1}, Lcom/commsource/studio/function/defocus/DeFocusFragment;->W1()Lcom/commsource/studio/effect/f;
@@ -177,7 +169,6 @@
 
     invoke-virtual {p1, v1}, Lcom/commsource/studio/effect/f;->x(Lcom/commsource/beautymain/data/SoftFocusEntity;)V
 
-    .line 9
     iget-object p1, p0, Lcom/commsource/studio/function/defocus/DeFocusFragment$initList$2;->this$0:Lcom/commsource/studio/function/defocus/DeFocusFragment;
 
     invoke-virtual {p1}, Lcom/commsource/studio/function/BaseSubFragment;->r0()Lcom/commsource/studio/ImageStudioViewModel;
@@ -192,14 +183,12 @@
 
     invoke-virtual {p1, v1}, Landroidx/lifecycle/MutableLiveData;->postValue(Ljava/lang/Object;)V
 
-    .line 10
     iget-object p1, p0, Lcom/commsource/studio/function/defocus/DeFocusFragment$initList$2;->this$0:Lcom/commsource/studio/function/defocus/DeFocusFragment;
 
     invoke-static {p1}, Lcom/commsource/studio/function/defocus/DeFocusFragment;->H1(Lcom/commsource/studio/function/defocus/DeFocusFragment;)V
 
     goto :goto_2
 
-    .line 11
     :cond_4
     iget-object p1, p0, Lcom/commsource/studio/function/defocus/DeFocusFragment$initList$2;->this$0:Lcom/commsource/studio/function/defocus/DeFocusFragment;
 
@@ -209,12 +198,10 @@
 
     if-eqz p1, :cond_5
 
-    .line 12
     iget-object v1, p0, Lcom/commsource/studio/function/defocus/DeFocusFragment$initList$2;->this$0:Lcom/commsource/studio/function/defocus/DeFocusFragment;
 
     invoke-static {v1, p1}, Lcom/commsource/studio/function/defocus/DeFocusFragment;->J1(Lcom/commsource/studio/function/defocus/DeFocusFragment;Lcom/commsource/beautymain/data/SoftFocusEntity;)V
 
-    .line 13
     :cond_5
     :goto_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

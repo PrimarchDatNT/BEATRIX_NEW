@@ -38,10 +38,8 @@
 .method public constructor <init>()V
     .locals 2
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     new-instance v0, Ljava/util/concurrent/ConcurrentHashMap;
 
     const/16 v1, 0x10
@@ -50,7 +48,6 @@
 
     iput-object v0, p0, Lcom/commsource/camera/newrender/renderproxy/n;->a:Ljava/util/Map;
 
-    .line 3
     new-instance v0, Lcom/commsource/camera/newrender/renderproxy/n$b;
 
     const/4 v1, 0x0
@@ -61,12 +58,10 @@
 
     const/4 v0, 0x0
 
-    .line 4
     iput-boolean v0, p0, Lcom/commsource/camera/newrender/renderproxy/n;->c:Z
 
     const/4 v0, 0x1
 
-    .line 5
     iput-boolean v0, p0, Lcom/commsource/camera/newrender/renderproxy/n;->f:Z
 
     return-void
@@ -75,7 +70,6 @@
 .method static synthetic a(Lcom/commsource/camera/newrender/renderproxy/n;)Z
     .locals 0
 
-    .line 1
     iget-boolean p0, p0, Lcom/commsource/camera/newrender/renderproxy/n;->f:Z
 
     return p0
@@ -84,7 +78,6 @@
 .method static synthetic b(Lcom/commsource/camera/newrender/renderproxy/n;)Z
     .locals 0
 
-    .line 1
     iget-boolean p0, p0, Lcom/commsource/camera/newrender/renderproxy/n;->e:Z
 
     return p0
@@ -93,7 +86,6 @@
 .method private d(Ljava/lang/Class;Z)Lcom/commsource/camera/d1/g/o;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/camera/newrender/renderproxy/n;->a:Ljava/util/Map;
 
     invoke-interface {v0, p1}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
@@ -106,12 +98,10 @@
 
     if-eqz p2, :cond_0
 
-    .line 2
     new-instance v0, Lcom/commsource/camera/d1/g/o;
 
     invoke-direct {v0}, Lcom/commsource/camera/d1/g/o;-><init>()V
 
-    .line 3
     iget-object p2, p0, Lcom/commsource/camera/newrender/renderproxy/n;->a:Ljava/util/Map;
 
     invoke-interface {p2, p1, v0}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
@@ -136,14 +126,12 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-direct {p0, p1, v0}, Lcom/commsource/camera/newrender/renderproxy/n;->d(Ljava/lang/Class;Z)Lcom/commsource/camera/d1/g/o;
 
     move-result-object p1
 
     if-eqz p1, :cond_0
 
-    .line 2
     invoke-virtual {p1}, Lcom/commsource/camera/d1/g/o;->a()Ljava/lang/Object;
 
     move-result-object p1
@@ -160,7 +148,6 @@
 .method public e()Lcom/meitu/library/n/a/m/c$b;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/camera/newrender/renderproxy/n;->b:Lcom/commsource/camera/newrender/renderproxy/n$b;
 
     return-object v0
@@ -169,7 +156,6 @@
 .method public f()Z
     .locals 1
 
-    .line 1
     iget-boolean v0, p0, Lcom/commsource/camera/newrender/renderproxy/n;->c:Z
 
     return v0
@@ -180,14 +166,12 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-direct {p0, p1, v0}, Lcom/commsource/camera/newrender/renderproxy/n;->d(Ljava/lang/Class;Z)Lcom/commsource/camera/d1/g/o;
 
     move-result-object p1
 
     if-eqz p1, :cond_0
 
-    .line 2
     invoke-virtual {p1}, Lcom/commsource/camera/d1/g/o;->b()Z
 
     move-result p1
@@ -212,7 +196,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     iget-boolean p1, p1, Lcom/meitu/library/renderarch/arch/data/b/d;->a:Z
 
     iput-boolean p1, p0, Lcom/commsource/camera/newrender/renderproxy/n;->e:Z
@@ -236,17 +219,14 @@
         .end annotation
     .end param
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/camera/newrender/renderproxy/n;->d:Lcom/commsource/camera/d1/b;
 
     if-nez v0, :cond_0
 
-    .line 2
     invoke-interface {p1}, Ljava/lang/Runnable;->run()V
 
     goto :goto_0
 
-    .line 3
     :cond_0
     invoke-interface {v0, p1}, Lcom/commsource/camera/d1/b;->g(Ljava/lang/Runnable;)V
 
@@ -261,17 +241,14 @@
         .end annotation
     .end param
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/camera/newrender/renderproxy/n;->d:Lcom/commsource/camera/d1/b;
 
     if-nez v0, :cond_0
 
-    .line 2
     invoke-interface {p1}, Ljava/lang/Runnable;->run()V
 
     goto :goto_0
 
-    .line 3
     :cond_0
     invoke-interface {v0, p1}, Lcom/commsource/camera/d1/b;->n(Ljava/lang/Runnable;)V
 
@@ -282,7 +259,6 @@
 .method public o(Lcom/commsource/camera/d1/b;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/camera/newrender/renderproxy/n;->d:Lcom/commsource/camera/d1/b;
 
     return-void
@@ -291,7 +267,6 @@
 .method public p(Z)V
     .locals 0
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/camera/newrender/renderproxy/n;->c:Z
 
     return-void
@@ -302,14 +277,12 @@
 
     const/4 v0, 0x1
 
-    .line 1
     invoke-direct {p0, p2, v0}, Lcom/commsource/camera/newrender/renderproxy/n;->d(Ljava/lang/Class;Z)Lcom/commsource/camera/d1/g/o;
 
     move-result-object p2
 
     if-eqz p2, :cond_0
 
-    .line 2
     invoke-virtual {p2, p1}, Lcom/commsource/camera/d1/g/o;->d(Z)V
 
     :cond_0
@@ -319,7 +292,6 @@
 .method public r(Z)V
     .locals 0
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/camera/newrender/renderproxy/n;->f:Z
 
     return-void
@@ -339,14 +311,12 @@
 
     const/4 v0, 0x1
 
-    .line 1
     invoke-direct {p0, p2, v0}, Lcom/commsource/camera/newrender/renderproxy/n;->d(Ljava/lang/Class;Z)Lcom/commsource/camera/d1/g/o;
 
     move-result-object p2
 
     if-eqz p2, :cond_0
 
-    .line 2
     invoke-virtual {p2, p1}, Lcom/commsource/camera/d1/g/o;->c(Ljava/lang/Object;)V
 
     :cond_0

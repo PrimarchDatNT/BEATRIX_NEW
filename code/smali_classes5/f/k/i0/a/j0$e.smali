@@ -22,7 +22,6 @@
 .method constructor <init>(Lf/k/i0/a/j0;Landroidx/room/RoomDatabase;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lf/k/i0/a/j0$e;->a:Lf/k/i0/a/j0;
 
     invoke-direct {p0, p2}, Landroidx/room/SharedSQLiteStatement;-><init>(Landroidx/room/RoomDatabase;)V
@@ -39,7 +38,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const-string v0, "UPDATE MONTAGE_GROUP_ENTITY SET group_is_new_man = ? WHERE category_id = ?"

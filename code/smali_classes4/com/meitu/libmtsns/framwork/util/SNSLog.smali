@@ -29,10 +29,8 @@
 
     const-string v1, "LibSNS"
 
-    .line 1
     sput-object v1, Lcom/meitu/libmtsns/framwork/util/SNSLog;->a:Ljava/lang/String;
 
-    .line 2
     sget-object v1, Lcom/meitu/libmtsns/framwork/util/SNSLog$DebugLevel;->ERROR:Lcom/meitu/libmtsns/framwork/util/SNSLog$DebugLevel;
 
     sput-object v1, Lcom/meitu/libmtsns/framwork/util/SNSLog;->b:Lcom/meitu/libmtsns/framwork/util/SNSLog$DebugLevel;
@@ -45,7 +43,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -58,7 +55,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/meitu/libmtsns/framwork/util/SNSLog;->b:Lcom/meitu/libmtsns/framwork/util/SNSLog$DebugLevel;
 
     sget-object v2, Lcom/meitu/libmtsns/framwork/util/SNSLog$DebugLevel;->DEBUG:Lcom/meitu/libmtsns/framwork/util/SNSLog$DebugLevel;
@@ -69,20 +65,16 @@
 
     if-eqz v1, :cond_0
 
-    .line 2
     sget-object v1, Lcom/meitu/libmtsns/framwork/util/SNSLog;->a:Ljava/lang/String;
 
     invoke-static {v1, p0}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 3
     sget-object v1, Lcom/meitu/libmtsns/framwork/util/SNSLog;->c:Lcom/meitu/libmtsns/framwork/util/c;
 
     if-eqz v1, :cond_0
 
-    .line 4
     invoke-interface {v1, p0}, Lcom/meitu/libmtsns/framwork/util/c;->a(Ljava/lang/String;)V
 
-    .line 5
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -96,7 +88,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/meitu/libmtsns/framwork/util/SNSLog;->b:Lcom/meitu/libmtsns/framwork/util/SNSLog$DebugLevel;
 
     sget-object v2, Lcom/meitu/libmtsns/framwork/util/SNSLog$DebugLevel;->ERROR:Lcom/meitu/libmtsns/framwork/util/SNSLog$DebugLevel;
@@ -107,20 +98,16 @@
 
     if-eqz v1, :cond_0
 
-    .line 2
     sget-object v1, Lcom/meitu/libmtsns/framwork/util/SNSLog;->a:Ljava/lang/String;
 
     invoke-static {v1, p0}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 3
     sget-object v1, Lcom/meitu/libmtsns/framwork/util/SNSLog;->c:Lcom/meitu/libmtsns/framwork/util/c;
 
     if-eqz v1, :cond_0
 
-    .line 4
     invoke-interface {v1, p0}, Lcom/meitu/libmtsns/framwork/util/c;->d(Ljava/lang/String;)V
 
-    .line 5
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -134,7 +121,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/meitu/libmtsns/framwork/util/SNSLog;->b:Lcom/meitu/libmtsns/framwork/util/SNSLog$DebugLevel;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -149,7 +135,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/meitu/libmtsns/framwork/util/SNSLog;->a:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -164,7 +149,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/meitu/libmtsns/framwork/util/SNSLog;->b:Lcom/meitu/libmtsns/framwork/util/SNSLog$DebugLevel;
 
     sget-object v2, Lcom/meitu/libmtsns/framwork/util/SNSLog$DebugLevel;->INFO:Lcom/meitu/libmtsns/framwork/util/SNSLog$DebugLevel;
@@ -175,20 +159,16 @@
 
     if-eqz v1, :cond_0
 
-    .line 2
     sget-object v1, Lcom/meitu/libmtsns/framwork/util/SNSLog;->a:Ljava/lang/String;
 
     invoke-static {v1, p0}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 3
     sget-object v1, Lcom/meitu/libmtsns/framwork/util/SNSLog;->c:Lcom/meitu/libmtsns/framwork/util/c;
 
     if-eqz v1, :cond_0
 
-    .line 4
     invoke-interface {v1, p0}, Lcom/meitu/libmtsns/framwork/util/c;->b(Ljava/lang/String;)V
 
-    .line 5
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -202,7 +182,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/meitu/libmtsns/framwork/util/SNSLog$a;->a:[I
 
     invoke-virtual {p0}, Ljava/lang/Enum;->ordinal()I
@@ -213,57 +192,45 @@
 
     packed-switch p0, :pswitch_data_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 3
     :pswitch_0
     invoke-static {p1}, Lcom/meitu/libmtsns/framwork/util/SNSLog;->b(Ljava/lang/String;)V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 5
     :pswitch_1
     invoke-static {p1}, Lcom/meitu/libmtsns/framwork/util/SNSLog;->k(Ljava/lang/String;)V
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 7
     :pswitch_2
     invoke-static {p1}, Lcom/meitu/libmtsns/framwork/util/SNSLog;->a(Ljava/lang/String;)V
 
-    .line 8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 9
     :pswitch_3
     invoke-static {p1}, Lcom/meitu/libmtsns/framwork/util/SNSLog;->e(Ljava/lang/String;)V
 
-    .line 10
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 11
     :pswitch_4
     invoke-static {p1}, Lcom/meitu/libmtsns/framwork/util/SNSLog;->j(Ljava/lang/String;)V
 
-    .line 12
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 13
     :pswitch_5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -289,15 +256,12 @@
 
     if-eqz p0, :cond_0
 
-    .line 1
     sput-object p0, Lcom/meitu/libmtsns/framwork/util/SNSLog;->b:Lcom/meitu/libmtsns/framwork/util/SNSLog$DebugLevel;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 3
     :cond_0
     new-instance p0, Ljava/lang/IllegalArgumentException;
 
@@ -317,10 +281,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sput-object p0, Lcom/meitu/libmtsns/framwork/util/SNSLog;->c:Lcom/meitu/libmtsns/framwork/util/c;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -333,10 +295,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sput-object p0, Lcom/meitu/libmtsns/framwork/util/SNSLog;->a:Ljava/lang/String;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -349,7 +309,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/meitu/libmtsns/framwork/util/SNSLog;->b:Lcom/meitu/libmtsns/framwork/util/SNSLog$DebugLevel;
 
     sget-object v2, Lcom/meitu/libmtsns/framwork/util/SNSLog$DebugLevel;->VERBOSE:Lcom/meitu/libmtsns/framwork/util/SNSLog$DebugLevel;
@@ -360,20 +319,16 @@
 
     if-eqz v1, :cond_0
 
-    .line 2
     sget-object v1, Lcom/meitu/libmtsns/framwork/util/SNSLog;->a:Ljava/lang/String;
 
     invoke-static {v1, p0}, Landroid/util/Log;->v(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 3
     sget-object v1, Lcom/meitu/libmtsns/framwork/util/SNSLog;->c:Lcom/meitu/libmtsns/framwork/util/c;
 
     if-eqz v1, :cond_0
 
-    .line 4
     invoke-interface {v1, p0}, Lcom/meitu/libmtsns/framwork/util/c;->e(Ljava/lang/String;)V
 
-    .line 5
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -387,7 +342,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/meitu/libmtsns/framwork/util/SNSLog;->b:Lcom/meitu/libmtsns/framwork/util/SNSLog$DebugLevel;
 
     sget-object v2, Lcom/meitu/libmtsns/framwork/util/SNSLog$DebugLevel;->WARNING:Lcom/meitu/libmtsns/framwork/util/SNSLog$DebugLevel;
@@ -398,20 +352,16 @@
 
     if-eqz v1, :cond_0
 
-    .line 2
     sget-object v1, Lcom/meitu/libmtsns/framwork/util/SNSLog;->a:Ljava/lang/String;
 
     invoke-static {v1, p0}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 3
     sget-object v1, Lcom/meitu/libmtsns/framwork/util/SNSLog;->c:Lcom/meitu/libmtsns/framwork/util/c;
 
     if-eqz v1, :cond_0
 
-    .line 4
     invoke-interface {v1, p0}, Lcom/meitu/libmtsns/framwork/util/c;->c(Ljava/lang/String;)V
 
-    .line 5
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

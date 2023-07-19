@@ -25,7 +25,6 @@
         }
     .end annotation
 
-    .line 1
     :try_start_0
     invoke-static {p0}, Lcom/google/android/gms/internal/ads/yp;->c(Landroid/content/Context;)Lcom/google/android/gms/dynamite/DynamiteModule;
 
@@ -46,7 +45,6 @@
     :catch_0
     move-exception p0
 
-    .line 2
     new-instance p1, Lcom/google/android/gms/internal/ads/zzbbb;
 
     invoke-direct {p1, p0}, Lcom/google/android/gms/internal/ads/zzbbb;-><init>(Ljava/lang/Throwable;)V
@@ -62,7 +60,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p0}, Lcom/google/android/gms/internal/ads/yp;->c(Landroid/content/Context;)Lcom/google/android/gms/dynamite/DynamiteModule;
 
     move-result-object p0
@@ -82,7 +79,6 @@
         }
     .end annotation
 
-    .line 1
     :try_start_0
     sget-object v0, Lcom/google/android/gms/dynamite/DynamiteModule;->i:Lcom/google/android/gms/dynamite/DynamiteModule$a;
 
@@ -99,7 +95,6 @@
     :catch_0
     move-exception p0
 
-    .line 2
     new-instance v0, Lcom/google/android/gms/internal/ads/zzbbb;
 
     invoke-direct {v0, p0}, Lcom/google/android/gms/internal/ads/zzbbb;-><init>(Ljava/lang/Throwable;)V

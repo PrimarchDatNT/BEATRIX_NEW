@@ -21,7 +21,6 @@
 .method constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -34,7 +33,6 @@
 
     if-eqz p3, :cond_1
 
-    .line 1
     array-length v0, p3
 
     if-nez v0, :cond_0
@@ -46,7 +44,6 @@
 
     move-result-object p2
 
-    .line 2
     :cond_1
     :goto_0
     invoke-static {p1, p2}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;)I
@@ -59,7 +56,6 @@
 
     if-eqz p3, :cond_1
 
-    .line 1
     array-length v0, p3
 
     if-nez v0, :cond_0
@@ -71,7 +67,6 @@
 
     move-result-object p2
 
-    .line 2
     :cond_1
     :goto_0
     invoke-static {p1, p2}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;)I
@@ -84,7 +79,6 @@
 
     if-eqz p4, :cond_1
 
-    .line 1
     array-length v0, p4
 
     if-nez v0, :cond_0
@@ -102,7 +96,6 @@
 
     const-string p3, ""
 
-    .line 2
     :cond_2
     new-instance p4, Ljava/lang/StringBuilder;
 
@@ -124,7 +117,6 @@
 
     move-result-object p2
 
-    .line 3
     invoke-static {p1, p2}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
 
     return-void
@@ -135,7 +127,6 @@
 
     if-eqz p3, :cond_1
 
-    .line 1
     array-length v0, p3
 
     if-nez v0, :cond_0
@@ -147,7 +138,6 @@
 
     move-result-object p2
 
-    .line 2
     :cond_1
     :goto_0
     invoke-static {p1, p2}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
@@ -160,7 +150,6 @@
 
     if-eqz p3, :cond_1
 
-    .line 1
     array-length v0, p3
 
     if-nez v0, :cond_0
@@ -172,7 +161,6 @@
 
     move-result-object p2
 
-    .line 2
     :cond_1
     :goto_0
     invoke-static {p1, p2}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
@@ -185,7 +173,6 @@
 
     if-eqz p3, :cond_1
 
-    .line 1
     array-length v0, p3
 
     if-nez v0, :cond_0
@@ -197,7 +184,6 @@
 
     move-result-object p2
 
-    .line 2
     :cond_1
     :goto_0
     invoke-static {p1, p2}, Landroid/util/Log;->v(Ljava/lang/String;Ljava/lang/String;)I

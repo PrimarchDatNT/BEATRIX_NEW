@@ -47,7 +47,6 @@
         version = "1.3"
     .end annotation
 
-    .line 1
     invoke-static {p0}, Lcotlin/collections/c1;->e(I)Ljava/util/Set;
 
     move-result-object p0
@@ -93,7 +92,6 @@
         version = "1.3"
     .end annotation
 
-    .line 1
     invoke-static {}, Lcotlin/collections/c1;->d()Ljava/util/Set;
 
     move-result-object v0
@@ -122,7 +120,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     sget-object v0, Lcotlin/collections/EmptySet;->INSTANCE:Lcotlin/collections/EmptySet;
 
     return-object v0
@@ -147,7 +144,6 @@
         version = "1.1"
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/util/HashSet;
 
     invoke-direct {v0}, Ljava/util/HashSet;-><init>()V
@@ -178,7 +174,6 @@
 
     invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     new-instance v0, Ljava/util/HashSet;
 
     array-length v1, p0
@@ -217,7 +212,6 @@
         version = "1.1"
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/util/LinkedHashSet;
 
     invoke-direct {v0}, Ljava/util/LinkedHashSet;-><init>()V
@@ -248,7 +242,6 @@
 
     invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     new-instance v0, Ljava/util/LinkedHashSet;
 
     array-length v1, p0
@@ -287,7 +280,6 @@
         version = "1.1"
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/util/LinkedHashSet;
 
     invoke-direct {v0}, Ljava/util/LinkedHashSet;-><init>()V
@@ -318,7 +310,6 @@
 
     invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     new-instance v0, Ljava/util/LinkedHashSet;
 
     array-length v1, p0
@@ -363,7 +354,6 @@
 
     invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-interface {p0}, Ljava/util/Set;->size()I
 
     move-result v0
@@ -376,7 +366,6 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     invoke-interface {p0}, Ljava/util/Set;->iterator()Ljava/util/Iterator;
 
@@ -392,7 +381,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_1
     invoke-static {}, Lcotlin/collections/b1;->k()Ljava/util/Set;
 
@@ -423,7 +411,6 @@
 
     goto :goto_0
 
-    .line 1
     :cond_0
     invoke-static {}, Lcotlin/collections/b1;->k()Ljava/util/Set;
 
@@ -448,7 +435,6 @@
     .annotation build Lcotlin/internal/f;
     .end annotation
 
-    .line 1
     invoke-static {}, Lcotlin/collections/b1;->k()Ljava/util/Set;
 
     move-result-object v0
@@ -479,7 +465,6 @@
 
     invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     array-length v0, p0
 
     if-lez v0, :cond_0
@@ -524,7 +509,6 @@
 
     if-eqz p0, :cond_0
 
-    .line 1
     invoke-static {p0}, Lcotlin/collections/b1;->f(Ljava/lang/Object;)Ljava/util/Set;
 
     move-result-object p0
@@ -567,7 +551,6 @@
 
     invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     new-instance v0, Ljava/util/LinkedHashSet;
 
     invoke-direct {v0}, Ljava/util/LinkedHashSet;-><init>()V

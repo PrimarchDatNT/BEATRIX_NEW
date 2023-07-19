@@ -22,7 +22,6 @@
 .method private constructor <init>(Lcom/commsource/beautyplus/start/StartUpAdvertActivity;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/beautyplus/start/StartUpAdvertActivity$c;->a:Lcom/commsource/beautyplus/start/StartUpAdvertActivity;
 
     invoke-direct {p0}, Landroid/content/BroadcastReceiver;-><init>()V
@@ -33,7 +32,6 @@
 .method synthetic constructor <init>(Lcom/commsource/beautyplus/start/StartUpAdvertActivity;Lcom/commsource/beautyplus/start/StartUpAdvertActivity$a;)V
     .locals 0
 
-    .line 2
     invoke-direct {p0, p1}, Lcom/commsource/beautyplus/start/StartUpAdvertActivity$c;-><init>(Lcom/commsource/beautyplus/start/StartUpAdvertActivity;)V
 
     return-void
@@ -48,12 +46,10 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p2, p0, Lcom/commsource/beautyplus/start/StartUpAdvertActivity$c;->a:Lcom/commsource/beautyplus/start/StartUpAdvertActivity;
 
     invoke-virtual {p2}, Lcom/commsource/beautyplus/start/StartUpAdvertActivity;->finish()V
 
-    .line 2
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

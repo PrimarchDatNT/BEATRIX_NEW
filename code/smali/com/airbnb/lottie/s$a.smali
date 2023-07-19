@@ -36,7 +36,6 @@
 .method constructor <init>(Lcom/airbnb/lottie/s;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/airbnb/lottie/s$a;->a:Lcom/airbnb/lottie/s;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -62,7 +61,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object p1, p1, Landroidx/core/util/Pair;->second:Ljava/lang/Object;
 
     check-cast p1, Ljava/lang/Float;
@@ -71,7 +69,6 @@
 
     move-result p1
 
-    .line 2
     iget-object p2, p2, Landroidx/core/util/Pair;->second:Ljava/lang/Object;
 
     check-cast p2, Ljava/lang/Float;
@@ -106,7 +103,6 @@
 .method public bridge synthetic compare(Ljava/lang/Object;Ljava/lang/Object;)I
     .locals 0
 
-    .line 1
     check-cast p1, Landroidx/core/util/Pair;
 
     check-cast p2, Landroidx/core/util/Pair;

@@ -25,7 +25,6 @@
 .method constructor <init>(Lio/grpc/okhttp/e;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lio/grpc/okhttp/e$a;->a:Lio/grpc/okhttp/e;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -40,10 +39,8 @@
 
     const-string v0, "OkHttpClientStream$Sink.cancel"
 
-    .line 1
     invoke-static {v0}, Li/b/c;->l(Ljava/lang/String;)V
 
-    .line 2
     :try_start_0
     iget-object v0, p0, Lio/grpc/okhttp/e$a;->a:Lio/grpc/okhttp/e;
 
@@ -59,7 +56,6 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_1
 
-    .line 3
     :try_start_1
     iget-object v1, p0, Lio/grpc/okhttp/e$a;->a:Lio/grpc/okhttp/e;
 
@@ -73,14 +69,12 @@
 
     invoke-static {v1, p1, v2, v3}, Lio/grpc/okhttp/e$b;->b0(Lio/grpc/okhttp/e$b;Lio/grpc/Status;ZLio/grpc/y0;)V
 
-    .line 4
     monitor-exit v0
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
     const-string p1, "OkHttpClientStream$Sink.cancel"
 
-    .line 5
     invoke-static {p1}, Li/b/c;->n(Ljava/lang/String;)V
 
     return-void
@@ -88,7 +82,6 @@
     :catchall_0
     move-exception p1
 
-    .line 6
     :try_start_2
     monitor-exit v0
     :try_end_2
@@ -104,7 +97,6 @@
 
     const-string v0, "OkHttpClientStream$Sink.cancel"
 
-    .line 7
     invoke-static {v0}, Li/b/c;->n(Ljava/lang/String;)V
 
     throw p1
@@ -115,19 +107,16 @@
 
     const-string v0, "OkHttpClientStream$Sink.writeFrame"
 
-    .line 1
     invoke-static {v0}, Li/b/c;->l(Ljava/lang/String;)V
 
     if-nez p1, :cond_0
 
-    .line 2
     invoke-static {}, Lio/grpc/okhttp/e;->S()Lokio/Buffer;
 
     move-result-object p1
 
     goto :goto_0
 
-    .line 3
     :cond_0
     check-cast p1, Lio/grpc/okhttp/r;
 
@@ -135,7 +124,6 @@
 
     move-result-object p1
 
-    .line 4
     invoke-virtual {p1}, Lokio/Buffer;->size()J
 
     move-result-wide v0
@@ -144,12 +132,10 @@
 
     if-lez v1, :cond_1
 
-    .line 5
     iget-object v0, p0, Lio/grpc/okhttp/e$a;->a:Lio/grpc/okhttp/e;
 
     invoke-static {v0, v1}, Lio/grpc/okhttp/e;->T(Lio/grpc/okhttp/e;I)V
 
-    .line 6
     :cond_1
     :goto_0
     :try_start_0
@@ -167,7 +153,6 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_1
 
-    .line 7
     :try_start_1
     iget-object v1, p0, Lio/grpc/okhttp/e$a;->a:Lio/grpc/okhttp/e;
 
@@ -177,7 +162,6 @@
 
     invoke-static {v1, p1, p2, p3}, Lio/grpc/okhttp/e$b;->a0(Lio/grpc/okhttp/e$b;Lokio/Buffer;ZZ)V
 
-    .line 8
     iget-object p1, p0, Lio/grpc/okhttp/e$a;->a:Lio/grpc/okhttp/e;
 
     invoke-static {p1}, Lio/grpc/okhttp/e;->U(Lio/grpc/okhttp/e;)Lio/grpc/internal/g3;
@@ -186,14 +170,12 @@
 
     invoke-virtual {p1, p4}, Lio/grpc/internal/g3;->f(I)V
 
-    .line 9
     monitor-exit v0
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
     const-string p1, "OkHttpClientStream$Sink.writeFrame"
 
-    .line 10
     invoke-static {p1}, Li/b/c;->n(Ljava/lang/String;)V
 
     return-void
@@ -201,7 +183,6 @@
     :catchall_0
     move-exception p1
 
-    .line 11
     :try_start_2
     monitor-exit v0
     :try_end_2
@@ -217,7 +198,6 @@
 
     const-string p2, "OkHttpClientStream$Sink.writeFrame"
 
-    .line 12
     invoke-static {p2}, Li/b/c;->n(Ljava/lang/String;)V
 
     throw p1
@@ -228,10 +208,8 @@
 
     const-string v0, "OkHttpClientStream$Sink.writeHeaders"
 
-    .line 1
     invoke-static {v0}, Li/b/c;->l(Ljava/lang/String;)V
 
-    .line 2
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -258,14 +236,12 @@
 
     if-eqz p2, :cond_0
 
-    .line 3
     iget-object v1, p0, Lio/grpc/okhttp/e$a;->a:Lio/grpc/okhttp/e;
 
     const/4 v2, 0x1
 
     invoke-static {v1, v2}, Lio/grpc/okhttp/e;->L(Lio/grpc/okhttp/e;Z)Z
 
-    .line 4
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -290,7 +266,6 @@
 
     move-result-object v0
 
-    .line 5
     :cond_0
     :try_start_0
     iget-object p2, p0, Lio/grpc/okhttp/e$a;->a:Lio/grpc/okhttp/e;
@@ -307,7 +282,6 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_1
 
-    .line 6
     :try_start_1
     iget-object v1, p0, Lio/grpc/okhttp/e$a;->a:Lio/grpc/okhttp/e;
 
@@ -317,14 +291,12 @@
 
     invoke-static {v1, p1, v0}, Lio/grpc/okhttp/e$b;->Z(Lio/grpc/okhttp/e$b;Lio/grpc/y0;Ljava/lang/String;)V
 
-    .line 7
     monitor-exit p2
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
     const-string p1, "OkHttpClientStream$Sink.writeHeaders"
 
-    .line 8
     invoke-static {p1}, Li/b/c;->n(Ljava/lang/String;)V
 
     return-void
@@ -332,7 +304,6 @@
     :catchall_0
     move-exception p1
 
-    .line 9
     :try_start_2
     monitor-exit p2
     :try_end_2
@@ -348,7 +319,6 @@
 
     const-string p2, "OkHttpClientStream$Sink.writeHeaders"
 
-    .line 10
     invoke-static {p2}, Li/b/c;->n(Ljava/lang/String;)V
 
     throw p1

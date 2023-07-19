@@ -25,7 +25,6 @@
 .method static constructor <clinit>()V
     .locals 2
 
-    .line 1
     new-instance v0, Lcom/mopub/common/CESettingsCacheService;
 
     invoke-direct {v0}, Lcom/mopub/common/CESettingsCacheService;-><init>()V
@@ -36,7 +35,6 @@
 
     const/4 v1, 0x1
 
-    .line 2
     invoke-static {v0, v1, v0}, Lcotlinx/coroutines/f3;->c(Lcotlinx/coroutines/c2;ILjava/lang/Object;)Lcotlinx/coroutines/y;
 
     move-result-object v0
@@ -51,7 +49,6 @@
 
     const-string v0, "mopub-ce-cache"
 
-    .line 1
     invoke-direct {p0, v0}, Lcom/mopub/common/CacheService;-><init>(Ljava/lang/String;)V
 
     return-void
@@ -68,7 +65,6 @@
     .annotation runtime Lcotlin/jvm/k;
     .end annotation
 
-    .line 1
     sget-object v0, Lcom/mopub/common/CESettingsCacheService;->INSTANCE:Lcom/mopub/common/CESettingsCacheService;
 
     invoke-virtual {v0}, Lcom/mopub/common/CacheService;->clearAndNullCache()V
@@ -106,7 +102,6 @@
 
     if-nez p2, :cond_0
 
-    .line 1
     sget-object p0, Lcom/mopub/common/logging/MoPubLog$SdkLogEvent;->CUSTOM:Lcom/mopub/common/logging/MoPubLog$SdkLogEvent;
 
     const/4 p2, 0x1
@@ -123,24 +118,19 @@
 
     const/4 p0, 0x0
 
-    .line 2
     invoke-interface {p1, p0}, Lcom/mopub/common/CESettingsCacheService$CESettingsCacheListener;->onSettingsReceived(Lcom/mopub/mobileads/CreativeExperienceSettings;)V
 
     return-void
 
-    .line 3
     :cond_0
     new-instance v0, Lcom/mopub/common/CESettingsCacheService$getCESettings$cacheListener$1;
 
     invoke-direct {v0, p0, p1}, Lcom/mopub/common/CESettingsCacheService$getCESettings$cacheListener$1;-><init>(Ljava/lang/String;Lcom/mopub/common/CESettingsCacheService$CESettingsCacheListener;)V
 
-    .line 4
     sget-object p1, Lcom/mopub/common/CESettingsCacheService;->INSTANCE:Lcom/mopub/common/CESettingsCacheService;
 
-    .line 5
     sget-object v1, Lcom/mopub/common/CESettingsCacheService;->supervisorJob:Lcotlinx/coroutines/y;
 
-    .line 6
     invoke-virtual {p1, p0, v0, v1, p2}, Lcom/mopub/common/CacheService;->getFromDiskCacheAsync(Ljava/lang/String;Lcom/mopub/common/CacheService$DiskLruCacheListener;Lcotlinx/coroutines/y;Landroid/content/Context;)V
 
     return-void
@@ -176,7 +166,6 @@
 
     if-nez p2, :cond_0
 
-    .line 1
     sget-object p0, Lcom/mopub/common/logging/MoPubLog$SdkLogEvent;->CUSTOM:Lcom/mopub/common/logging/MoPubLog$SdkLogEvent;
 
     const/4 p2, 0x1
@@ -193,24 +182,19 @@
 
     const-string p0, "0"
 
-    .line 2
     invoke-interface {p1, p0}, Lcom/mopub/common/CESettingsCacheService$CESettingsCacheListener;->onHashReceived(Ljava/lang/String;)V
 
     return-void
 
-    .line 3
     :cond_0
     new-instance v0, Lcom/mopub/common/CESettingsCacheService$getCESettingsHash$cacheListener$1;
 
     invoke-direct {v0, p0, p1}, Lcom/mopub/common/CESettingsCacheService$getCESettingsHash$cacheListener$1;-><init>(Ljava/lang/String;Lcom/mopub/common/CESettingsCacheService$CESettingsCacheListener;)V
 
-    .line 4
     sget-object p1, Lcom/mopub/common/CESettingsCacheService;->INSTANCE:Lcom/mopub/common/CESettingsCacheService;
 
-    .line 5
     sget-object v1, Lcom/mopub/common/CESettingsCacheService;->supervisorJob:Lcotlinx/coroutines/y;
 
-    .line 6
     invoke-virtual {p1, p0, v0, v1, p2}, Lcom/mopub/common/CacheService;->getFromDiskCacheAsync(Ljava/lang/String;Lcom/mopub/common/CacheService$DiskLruCacheListener;Lcotlinx/coroutines/y;Landroid/content/Context;)V
 
     return-void
@@ -246,7 +230,6 @@
 
     if-nez p2, :cond_0
 
-    .line 1
     sget-object p0, Lcom/mopub/common/logging/MoPubLog$SdkLogEvent;->CUSTOM:Lcom/mopub/common/logging/MoPubLog$SdkLogEvent;
 
     const/4 p1, 0x1
@@ -263,25 +246,21 @@
 
     return-void
 
-    .line 2
     :cond_0
     sget-object v1, Lcom/mopub/common/CESettingsCacheService;->INSTANCE:Lcom/mopub/common/CESettingsCacheService;
 
-    .line 3
     invoke-virtual {p1}, Lcom/mopub/mobileads/CreativeExperienceSettings;->toByteArray()[B
 
     move-result-object v3
 
     const/4 v4, 0x0
 
-    .line 4
     sget-object v5, Lcom/mopub/common/CESettingsCacheService;->supervisorJob:Lcotlinx/coroutines/y;
 
     move-object v2, p0
 
     move-object v6, p2
 
-    .line 5
     invoke-virtual/range {v1 .. v6}, Lcom/mopub/common/CacheService;->putToDiskCacheAsync(Ljava/lang/String;[BLcom/mopub/common/CacheService$DiskLruCacheListener;Lcotlinx/coroutines/y;Landroid/content/Context;)V
 
     return-void

@@ -54,7 +54,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/commsource/camera/xcamera/cover/bottomFunction/BottomFunction;
 
     const-class v2, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/x0;
@@ -67,7 +66,6 @@
 
     sput-object v1, Lcom/commsource/camera/xcamera/cover/bottomFunction/BottomFunction;->AR:Lcom/commsource/camera/xcamera/cover/bottomFunction/BottomFunction;
 
-    .line 2
     new-instance v2, Lcom/commsource/camera/xcamera/cover/bottomFunction/BottomFunction;
 
     const-class v3, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/d1/a0;
@@ -80,7 +78,6 @@
 
     sput-object v2, Lcom/commsource/camera/xcamera/cover/bottomFunction/BottomFunction;->AR_SEARCH:Lcom/commsource/camera/xcamera/cover/bottomFunction/BottomFunction;
 
-    .line 3
     new-instance v3, Lcom/commsource/camera/xcamera/cover/bottomFunction/BottomFunction;
 
     const-class v5, Lcom/commsource/beautyplus/armaterial/i;
@@ -93,7 +90,6 @@
 
     sput-object v3, Lcom/commsource/camera/xcamera/cover/bottomFunction/BottomFunction;->AR_GIPHY:Lcom/commsource/camera/xcamera/cover/bottomFunction/BottomFunction;
 
-    .line 4
     new-instance v5, Lcom/commsource/camera/xcamera/cover/bottomFunction/BottomFunction;
 
     const-class v7, Lcom/commsource/camera/montage/b0;
@@ -106,7 +102,6 @@
 
     sput-object v5, Lcom/commsource/camera/xcamera/cover/bottomFunction/BottomFunction;->MONTAGE_DRESS:Lcom/commsource/camera/xcamera/cover/bottomFunction/BottomFunction;
 
-    .line 5
     new-instance v7, Lcom/commsource/camera/xcamera/cover/bottomFunction/BottomFunction;
 
     const-class v9, Lcom/commsource/camera/montage/t;
@@ -119,7 +114,6 @@
 
     sput-object v7, Lcom/commsource/camera/xcamera/cover/bottomFunction/BottomFunction;->MONTAGE_ADJUST:Lcom/commsource/camera/xcamera/cover/bottomFunction/BottomFunction;
 
-    .line 6
     new-instance v9, Lcom/commsource/camera/xcamera/cover/bottomFunction/BottomFunction;
 
     const-class v11, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/EffectFragment;
@@ -148,12 +142,10 @@
 
     aput-object v9, v11, v14
 
-    .line 7
     sput-object v11, Lcom/commsource/camera/xcamera/cover/bottomFunction/BottomFunction;->$VALUES:[Lcom/commsource/camera/xcamera/cover/bottomFunction/BottomFunction;
 
     const-wide/16 v1, 0x15e
 
-    .line 8
     sput-wide v1, Lcom/commsource/camera/xcamera/cover/bottomFunction/BottomFunction;->BOTTOM_DURATION:J
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -174,13 +166,10 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 2
     iput-object p3, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/BottomFunction;->tag:Ljava/lang/String;
 
-    .line 3
     iput-object p4, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/BottomFunction;->fgClass:Ljava/lang/Class;
 
     return-void
@@ -193,7 +182,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     const-class v1, Lcom/commsource/camera/xcamera/cover/bottomFunction/BottomFunction;
 
     invoke-static {v1, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -214,7 +202,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/camera/xcamera/cover/bottomFunction/BottomFunction;->$VALUES:[Lcom/commsource/camera/xcamera/cover/bottomFunction/BottomFunction;
 
     invoke-virtual {v1}, [Lcom/commsource/camera/xcamera/cover/bottomFunction/BottomFunction;->clone()Ljava/lang/Object;
@@ -246,7 +233,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/BottomFunction;->fgClass:Ljava/lang/Class;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -261,7 +247,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/BottomFunction;->tag:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -285,10 +270,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/BottomFunction;->fgClass:Ljava/lang/Class;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -301,10 +284,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/BottomFunction;->tag:Ljava/lang/String;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

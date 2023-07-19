@@ -94,7 +94,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/meitu/mtmvcore/backend/android/surfaceview/MTTextureView$h;
 
     const/4 v2, 0x0
@@ -111,17 +110,14 @@
 .method public constructor <init>(Landroid/content/Context;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1}, Landroid/view/TextureView;-><init>(Landroid/content/Context;)V
 
-    .line 2
     new-instance p1, Ljava/lang/ref/WeakReference;
 
     invoke-direct {p1, p0}, Ljava/lang/ref/WeakReference;-><init>(Ljava/lang/Object;)V
 
     iput-object p1, p0, Lcom/meitu/mtmvcore/backend/android/surfaceview/MTTextureView;->a:Ljava/lang/ref/WeakReference;
 
-    .line 3
     invoke-direct {p0}, Lcom/meitu/mtmvcore/backend/android/surfaceview/MTTextureView;->k()V
 
     return-void
@@ -130,17 +126,14 @@
 .method public constructor <init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
     .locals 0
 
-    .line 4
     invoke-direct {p0, p1, p2}, Landroid/view/TextureView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
-    .line 5
     new-instance p1, Ljava/lang/ref/WeakReference;
 
     invoke-direct {p1, p0}, Ljava/lang/ref/WeakReference;-><init>(Ljava/lang/Object;)V
 
     iput-object p1, p0, Lcom/meitu/mtmvcore/backend/android/surfaceview/MTTextureView;->a:Ljava/lang/ref/WeakReference;
 
-    .line 6
     invoke-direct {p0}, Lcom/meitu/mtmvcore/backend/android/surfaceview/MTTextureView;->k()V
 
     return-void
@@ -153,7 +146,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/meitu/mtmvcore/backend/android/surfaceview/MTTextureView;->c:Landroid/opengl/GLSurfaceView$Renderer;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -168,7 +160,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget p0, p0, Lcom/meitu/mtmvcore/backend/android/surfaceview/MTTextureView;->L:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -183,7 +174,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/meitu/mtmvcore/backend/android/surfaceview/MTTextureView;->f:Landroid/opengl/GLSurfaceView$EGLConfigChooser;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -198,7 +188,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/meitu/mtmvcore/backend/android/surfaceview/MTTextureView;->g:Landroid/opengl/GLSurfaceView$EGLContextFactory;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -213,7 +202,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/meitu/mtmvcore/backend/android/surfaceview/MTTextureView;->p:Landroid/opengl/GLSurfaceView$EGLWindowSurfaceFactory;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -228,7 +216,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/meitu/mtmvcore/backend/android/surfaceview/MTTextureView;->J:Landroid/opengl/GLSurfaceView$GLWrapper;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -243,7 +230,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget p0, p0, Lcom/meitu/mtmvcore/backend/android/surfaceview/MTTextureView;->K:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -258,7 +244,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/meitu/mtmvcore/backend/android/surfaceview/MTTextureView;->c0:Lcom/meitu/mtmvcore/backend/android/surfaceview/MTTextureView$h;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -273,7 +258,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean p0, p0, Lcom/meitu/mtmvcore/backend/android/surfaceview/MTTextureView;->M:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -288,17 +272,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/mtmvcore/backend/android/surfaceview/MTTextureView;->b:Lcom/meitu/mtmvcore/backend/android/surfaceview/MTTextureView$g;
 
     if-nez v1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 3
     :cond_0
     new-instance v1, Ljava/lang/IllegalStateException;
 
@@ -318,10 +299,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0, p0}, Landroid/view/TextureView;->setSurfaceTextureListener(Landroid/view/TextureView$SurfaceTextureListener;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -341,22 +320,18 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     :try_start_0
     iget-object v1, p0, Lcom/meitu/mtmvcore/backend/android/surfaceview/MTTextureView;->b:Lcom/meitu/mtmvcore/backend/android/surfaceview/MTTextureView$g;
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-virtual {v1}, Lcom/meitu/mtmvcore/backend/android/surfaceview/MTTextureView$g;->k()V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 3
     :cond_0
     invoke-super {p0}, Ljava/lang/Object;->finalize()V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -364,10 +339,8 @@
     :catchall_0
     move-exception v1
 
-    .line 5
     invoke-super {p0}, Ljava/lang/Object;->finalize()V
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     throw v1
@@ -380,7 +353,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/mtmvcore/backend/android/surfaceview/MTTextureView;->K:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -395,7 +367,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/meitu/mtmvcore/backend/android/surfaceview/MTTextureView;->M:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -410,7 +381,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/mtmvcore/backend/android/surfaceview/MTTextureView;->b:Lcom/meitu/mtmvcore/backend/android/surfaceview/MTTextureView$g;
 
     invoke-virtual {v1}, Lcom/meitu/mtmvcore/backend/android/surfaceview/MTTextureView$g;->c()I
@@ -429,12 +399,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/mtmvcore/backend/android/surfaceview/MTTextureView;->b:Lcom/meitu/mtmvcore/backend/android/surfaceview/MTTextureView$g;
 
     invoke-virtual {v1}, Lcom/meitu/mtmvcore/backend/android/surfaceview/MTTextureView$g;->e()V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -447,12 +415,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/mtmvcore/backend/android/surfaceview/MTTextureView;->b:Lcom/meitu/mtmvcore/backend/android/surfaceview/MTTextureView$g;
 
     invoke-virtual {v1}, Lcom/meitu/mtmvcore/backend/android/surfaceview/MTTextureView$g;->g()V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -465,12 +431,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/mtmvcore/backend/android/surfaceview/MTTextureView;->b:Lcom/meitu/mtmvcore/backend/android/surfaceview/MTTextureView$g;
 
     invoke-virtual {v1, p1}, Lcom/meitu/mtmvcore/backend/android/surfaceview/MTTextureView$g;->i(Ljava/lang/Runnable;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -483,12 +447,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/mtmvcore/backend/android/surfaceview/MTTextureView;->b:Lcom/meitu/mtmvcore/backend/android/surfaceview/MTTextureView$g;
 
     invoke-virtual {v1}, Lcom/meitu/mtmvcore/backend/android/surfaceview/MTTextureView$g;->m()V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -501,10 +463,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0}, Landroid/view/TextureView;->onAttachedToWindow()V
 
-    .line 2
     iget-boolean v1, p0, Lcom/meitu/mtmvcore/backend/android/surfaceview/MTTextureView;->d:Z
 
     if-eqz v1, :cond_2
@@ -513,14 +473,12 @@
 
     if-eqz v1, :cond_2
 
-    .line 3
     iget-object v1, p0, Lcom/meitu/mtmvcore/backend/android/surfaceview/MTTextureView;->b:Lcom/meitu/mtmvcore/backend/android/surfaceview/MTTextureView$g;
 
     const/4 v2, 0x1
 
     if-eqz v1, :cond_0
 
-    .line 4
     invoke-virtual {v1}, Lcom/meitu/mtmvcore/backend/android/surfaceview/MTTextureView$g;->c()I
 
     move-result v1
@@ -530,7 +488,6 @@
     :cond_0
     const/4 v1, 0x1
 
-    .line 5
     :goto_0
     new-instance v3, Lcom/meitu/mtmvcore/backend/android/surfaceview/MTTextureView$g;
 
@@ -542,10 +499,8 @@
 
     if-eq v1, v2, :cond_1
 
-    .line 6
     invoke-virtual {v3, v1}, Lcom/meitu/mtmvcore/backend/android/surfaceview/MTTextureView$g;->o(I)V
 
-    .line 7
     :cond_1
     iget-object v1, p0, Lcom/meitu/mtmvcore/backend/android/surfaceview/MTTextureView;->b:Lcom/meitu/mtmvcore/backend/android/surfaceview/MTTextureView$g;
 
@@ -554,10 +509,8 @@
     :cond_2
     const/4 v1, 0x0
 
-    .line 8
     iput-boolean v1, p0, Lcom/meitu/mtmvcore/backend/android/surfaceview/MTTextureView;->d:Z
 
-    .line 9
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -570,24 +523,19 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/mtmvcore/backend/android/surfaceview/MTTextureView;->b:Lcom/meitu/mtmvcore/backend/android/surfaceview/MTTextureView$g;
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-virtual {v1}, Lcom/meitu/mtmvcore/backend/android/surfaceview/MTTextureView$g;->k()V
 
     :cond_0
     const/4 v1, 0x1
 
-    .line 3
     iput-boolean v1, p0, Lcom/meitu/mtmvcore/backend/android/surfaceview/MTTextureView;->d:Z
 
-    .line 4
     invoke-super {p0}, Landroid/view/TextureView;->onDetachedFromWindow()V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -600,7 +548,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -625,12 +572,10 @@
 
     invoke-static {v2, v1}, Lcom/meitu/debug/Logger;->b(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 2
     sget-boolean v1, Lcom/meitu/utils/system/SystemUtils;->j:Z
 
     if-eqz v1, :cond_0
 
-    .line 3
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -651,18 +596,15 @@
 
     invoke-static {v2, p1}, Lcom/meitu/debug/Logger;->b(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 4
     :cond_0
     iget-object p1, p0, Lcom/meitu/mtmvcore/backend/android/surfaceview/MTTextureView;->b:Lcom/meitu/mtmvcore/backend/android/surfaceview/MTTextureView$g;
 
     invoke-virtual {p1}, Lcom/meitu/mtmvcore/backend/android/surfaceview/MTTextureView$g;->r()V
 
-    .line 5
     iget-object p1, p0, Lcom/meitu/mtmvcore/backend/android/surfaceview/MTTextureView;->b:Lcom/meitu/mtmvcore/backend/android/surfaceview/MTTextureView$g;
 
     invoke-virtual {p1, p2, p3}, Lcom/meitu/mtmvcore/backend/android/surfaceview/MTTextureView$g;->h(II)V
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -679,17 +621,14 @@
 
     const-string v2, "before-onSurfaceTextureDestroyed"
 
-    .line 1
     invoke-static {v1, v2}, Lcom/meitu/debug/Logger;->b(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 2
     sget-boolean v2, Lcom/meitu/utils/system/SystemUtils;->j:Z
 
     const-string v3, "surface:"
 
     if-eqz v2, :cond_0
 
-    .line 3
     new-instance v4, Ljava/lang/StringBuilder;
 
     invoke-direct {v4}, Ljava/lang/StringBuilder;-><init>()V
@@ -708,7 +647,6 @@
 
     invoke-static {v1, v4}, Lcom/meitu/debug/Logger;->b(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 4
     :cond_0
     iget-object v4, p0, Lcom/meitu/mtmvcore/backend/android/surfaceview/MTTextureView;->b:Lcom/meitu/mtmvcore/backend/android/surfaceview/MTTextureView$g;
 
@@ -716,12 +654,10 @@
 
     const-string v4, "after-onSurfaceTextureDestroyed"
 
-    .line 5
     invoke-static {v1, v4}, Lcom/meitu/debug/Logger;->b(Ljava/lang/String;Ljava/lang/String;)V
 
     if-eqz v2, :cond_1
 
-    .line 6
     new-instance v2, Ljava/lang/StringBuilder;
 
     invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
@@ -743,7 +679,6 @@
     :cond_1
     const/4 p1, 0x1
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
@@ -756,7 +691,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -781,12 +715,10 @@
 
     invoke-static {v2, v1}, Lcom/meitu/debug/Logger;->b(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 2
     sget-boolean v1, Lcom/meitu/utils/system/SystemUtils;->j:Z
 
     if-eqz v1, :cond_0
 
-    .line 3
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -807,13 +739,11 @@
 
     invoke-static {v2, p1}, Lcom/meitu/debug/Logger;->b(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 4
     :cond_0
     iget-object p1, p0, Lcom/meitu/mtmvcore/backend/android/surfaceview/MTTextureView;->b:Lcom/meitu/mtmvcore/backend/android/surfaceview/MTTextureView$g;
 
     invoke-virtual {p1, p2, p3}, Lcom/meitu/mtmvcore/backend/android/surfaceview/MTTextureView$g;->h(II)V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -826,10 +756,8 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/meitu/mtmvcore/backend/android/surfaceview/MTTextureView;->o()V
 
-    .line 2
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -842,7 +770,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v9, Lcom/meitu/mtmvcore/backend/android/surfaceview/MTTextureView$c;
 
     move-object v1, v9
@@ -867,7 +794,6 @@
 
     invoke-virtual {p0, v9}, Lcom/meitu/mtmvcore/backend/android/surfaceview/MTTextureView;->setEGLConfigChooser(Landroid/opengl/GLSurfaceView$EGLConfigChooser;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -880,12 +806,10 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p2, p0, Lcom/meitu/mtmvcore/backend/android/surfaceview/MTTextureView;->b:Lcom/meitu/mtmvcore/backend/android/surfaceview/MTTextureView$g;
 
     invoke-virtual {p2, p3, p4}, Lcom/meitu/mtmvcore/backend/android/surfaceview/MTTextureView$g;->h(II)V
 
-    .line 2
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -898,12 +822,10 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcom/meitu/mtmvcore/backend/android/surfaceview/MTTextureView;->b:Lcom/meitu/mtmvcore/backend/android/surfaceview/MTTextureView$g;
 
     invoke-virtual {v0}, Lcom/meitu/mtmvcore/backend/android/surfaceview/MTTextureView$g;->r()V
 
-    .line 2
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -916,12 +838,10 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcom/meitu/mtmvcore/backend/android/surfaceview/MTTextureView;->b:Lcom/meitu/mtmvcore/backend/android/surfaceview/MTTextureView$g;
 
     invoke-virtual {v0}, Lcom/meitu/mtmvcore/backend/android/surfaceview/MTTextureView$g;->s()V
 
-    .line 2
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -934,10 +854,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/meitu/mtmvcore/backend/android/surfaceview/MTTextureView;->K:I
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -950,13 +868,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/meitu/mtmvcore/backend/android/surfaceview/MTTextureView;->j()V
 
-    .line 2
     iput-object p1, p0, Lcom/meitu/mtmvcore/backend/android/surfaceview/MTTextureView;->f:Landroid/opengl/GLSurfaceView$EGLConfigChooser;
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -969,14 +884,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 4
     new-instance v1, Lcom/meitu/mtmvcore/backend/android/surfaceview/MTTextureView$j;
 
     invoke-direct {v1, p0, p1}, Lcom/meitu/mtmvcore/backend/android/surfaceview/MTTextureView$j;-><init>(Lcom/meitu/mtmvcore/backend/android/surfaceview/MTTextureView;Z)V
 
     invoke-virtual {p0, v1}, Lcom/meitu/mtmvcore/backend/android/surfaceview/MTTextureView;->setEGLConfigChooser(Landroid/opengl/GLSurfaceView$EGLConfigChooser;)V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -989,13 +902,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/meitu/mtmvcore/backend/android/surfaceview/MTTextureView;->j()V
 
-    .line 2
     iput p1, p0, Lcom/meitu/mtmvcore/backend/android/surfaceview/MTTextureView;->L:I
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1008,13 +918,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/meitu/mtmvcore/backend/android/surfaceview/MTTextureView;->j()V
 
-    .line 2
     iput-object p1, p0, Lcom/meitu/mtmvcore/backend/android/surfaceview/MTTextureView;->g:Landroid/opengl/GLSurfaceView$EGLContextFactory;
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1027,13 +934,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/meitu/mtmvcore/backend/android/surfaceview/MTTextureView;->j()V
 
-    .line 2
     iput-object p1, p0, Lcom/meitu/mtmvcore/backend/android/surfaceview/MTTextureView;->p:Landroid/opengl/GLSurfaceView$EGLWindowSurfaceFactory;
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1046,10 +950,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/mtmvcore/backend/android/surfaceview/MTTextureView;->J:Landroid/opengl/GLSurfaceView$GLWrapper;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1062,10 +964,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/meitu/mtmvcore/backend/android/surfaceview/MTTextureView;->M:Z
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1078,12 +978,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/mtmvcore/backend/android/surfaceview/MTTextureView;->b:Lcom/meitu/mtmvcore/backend/android/surfaceview/MTTextureView$g;
 
     invoke-virtual {v1, p1}, Lcom/meitu/mtmvcore/backend/android/surfaceview/MTTextureView$g;->o(I)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1096,15 +994,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/meitu/mtmvcore/backend/android/surfaceview/MTTextureView;->j()V
 
-    .line 2
     iget-object v1, p0, Lcom/meitu/mtmvcore/backend/android/surfaceview/MTTextureView;->f:Landroid/opengl/GLSurfaceView$EGLConfigChooser;
 
     if-nez v1, :cond_0
 
-    .line 3
     new-instance v1, Lcom/meitu/mtmvcore/backend/android/surfaceview/MTTextureView$j;
 
     const/4 v2, 0x1
@@ -1113,7 +1008,6 @@
 
     iput-object v1, p0, Lcom/meitu/mtmvcore/backend/android/surfaceview/MTTextureView;->f:Landroid/opengl/GLSurfaceView$EGLConfigChooser;
 
-    .line 4
     :cond_0
     iget-object v1, p0, Lcom/meitu/mtmvcore/backend/android/surfaceview/MTTextureView;->g:Landroid/opengl/GLSurfaceView$EGLContextFactory;
 
@@ -1121,31 +1015,26 @@
 
     if-nez v1, :cond_1
 
-    .line 5
     new-instance v1, Lcom/meitu/mtmvcore/backend/android/surfaceview/MTTextureView$d;
 
     invoke-direct {v1, p0, v2}, Lcom/meitu/mtmvcore/backend/android/surfaceview/MTTextureView$d;-><init>(Lcom/meitu/mtmvcore/backend/android/surfaceview/MTTextureView;Lcom/meitu/mtmvcore/backend/android/surfaceview/MTTextureView$a;)V
 
     iput-object v1, p0, Lcom/meitu/mtmvcore/backend/android/surfaceview/MTTextureView;->g:Landroid/opengl/GLSurfaceView$EGLContextFactory;
 
-    .line 6
     :cond_1
     iget-object v1, p0, Lcom/meitu/mtmvcore/backend/android/surfaceview/MTTextureView;->p:Landroid/opengl/GLSurfaceView$EGLWindowSurfaceFactory;
 
     if-nez v1, :cond_2
 
-    .line 7
     new-instance v1, Lcom/meitu/mtmvcore/backend/android/surfaceview/MTTextureView$e;
 
     invoke-direct {v1, v2}, Lcom/meitu/mtmvcore/backend/android/surfaceview/MTTextureView$e;-><init>(Lcom/meitu/mtmvcore/backend/android/surfaceview/MTTextureView$a;)V
 
     iput-object v1, p0, Lcom/meitu/mtmvcore/backend/android/surfaceview/MTTextureView;->p:Landroid/opengl/GLSurfaceView$EGLWindowSurfaceFactory;
 
-    .line 8
     :cond_2
     iput-object p1, p0, Lcom/meitu/mtmvcore/backend/android/surfaceview/MTTextureView;->c:Landroid/opengl/GLSurfaceView$Renderer;
 
-    .line 9
     new-instance p1, Lcom/meitu/mtmvcore/backend/android/surfaceview/MTTextureView$g;
 
     iget-object v1, p0, Lcom/meitu/mtmvcore/backend/android/surfaceview/MTTextureView;->a:Ljava/lang/ref/WeakReference;
@@ -1154,10 +1043,8 @@
 
     iput-object p1, p0, Lcom/meitu/mtmvcore/backend/android/surfaceview/MTTextureView;->b:Lcom/meitu/mtmvcore/backend/android/surfaceview/MTTextureView$g;
 
-    .line 10
     invoke-virtual {p1}, Ljava/lang/Thread;->start()V
 
-    .line 11
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

@@ -27,7 +27,6 @@
 .method constructor <init>(Lcom/appsflyer/AFValidateInAppPurchase;Ljava/util/Map;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/appsflyer/AFValidateInAppPurchase$5;->$$b:Lcom/appsflyer/AFValidateInAppPurchase;
 
     iput-object p2, p0, Lcom/appsflyer/AFValidateInAppPurchase$5;->values:Ljava/util/Map;
@@ -42,7 +41,6 @@
 .method public final run()V
     .locals 4
 
-    .line 1
     iget-object v0, p0, Lcom/appsflyer/AFValidateInAppPurchase$5;->$$b:Lcom/appsflyer/AFValidateInAppPurchase;
 
     iget-object v1, p0, Lcom/appsflyer/AFValidateInAppPurchase$5;->values:Ljava/util/Map;

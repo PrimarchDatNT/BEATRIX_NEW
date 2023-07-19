@@ -61,7 +61,6 @@
 
     const-string v1, "permissionResult"
 
-    .line 1
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-interface {p1}, Ljava/util/Collection;->isEmpty()Z
@@ -92,7 +91,6 @@
 
     const/16 p1, 0x14
 
-    .line 2
     invoke-static {p1}, Lcom/commsource/util/w1;->b(I)Z
 
     move-result p1
@@ -101,33 +99,28 @@
 
     sget p1, Lcom/res/provider/ResSTRING;->unable_to_save:I
 
-    .line 3
     invoke-static {p1}, Lcom/meitu/library/p/d/b;->l(I)Ljava/lang/String;
 
     move-result-object v1
 
     sget p1, Lcom/res/provider/ResSTRING;->unable_to_save_explain:I
 
-    .line 4
     invoke-static {p1}, Lcom/meitu/library/p/d/b;->l(I)Ljava/lang/String;
 
     move-result-object v2
 
     sget p1, Lcom/res/provider/ResSTRING;->clean_now:I
 
-    .line 5
     invoke-static {p1}, Lcom/meitu/library/p/d/b;->l(I)Ljava/lang/String;
 
     move-result-object v3
 
-    .line 6
     new-instance v4, Lcom/commsource/studio/ImageStudioViewModel$onClickSave$1$a;
 
     invoke-direct {v4, p0}, Lcom/commsource/studio/ImageStudioViewModel$onClickSave$1$a;-><init>(Lcom/commsource/studio/ImageStudioViewModel$onClickSave$1;)V
 
     sget p1, Lcom/res/provider/ResSTRING;->unable_to_save_later:I
 
-    .line 7
     invoke-static {p1}, Lcom/meitu/library/p/d/b;->l(I)Ljava/lang/String;
 
     move-result-object v5
@@ -136,7 +129,6 @@
 
     const/4 v7, 0x1
 
-    .line 8
     invoke-static/range {v1 .. v7}, Lcom/commsource/widget/dialog/s0/t;->u0(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lcom/commsource/widget/dialog/s0/y;Ljava/lang/String;Lcom/commsource/widget/dialog/s0/x;Z)V
 
     const-string p1, "save_storage_alert_imp"
@@ -145,15 +137,12 @@
 
     const-string v2, "\u4eba\u50cf\u7f8e\u989c"
 
-    .line 9
     invoke-static {p1, v1, v2}, Lcom/commsource/statistics/i;->r(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 10
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 11
     :cond_0
     iget-object p1, p0, Lcom/commsource/studio/ImageStudioViewModel$onClickSave$1;->a:Lcom/commsource/studio/ImageStudioViewModel;
 
@@ -199,7 +188,6 @@
 
     goto :goto_0
 
-    .line 12
     :cond_1
     iget-object p1, p0, Lcom/commsource/studio/ImageStudioViewModel$onClickSave$1;->a:Lcom/commsource/studio/ImageStudioViewModel;
 
@@ -207,7 +195,6 @@
 
     goto :goto_1
 
-    .line 13
     :cond_2
     :goto_0
     iget-object p1, p0, Lcom/commsource/studio/ImageStudioViewModel$onClickSave$1;->a:Lcom/commsource/studio/ImageStudioViewModel;
@@ -222,7 +209,6 @@
 
     invoke-static {p1, v1, v2, v3}, Lcom/commsource/studio/ImageStudioViewModel;->F(Lcom/commsource/studio/ImageStudioViewModel;Landroidx/fragment/app/FragmentActivity;ZLcotlin/jvm/u/a;)V
 
-    .line 14
     :cond_3
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

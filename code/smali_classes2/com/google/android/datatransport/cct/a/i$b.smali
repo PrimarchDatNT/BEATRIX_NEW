@@ -24,7 +24,6 @@
 .method constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/google/android/datatransport/cct/a/zzt$a;-><init>()V
 
     return-void
@@ -39,7 +38,6 @@
         .end annotation
     .end param
 
-    .line 1
     iput-object p1, p0, Lcom/google/android/datatransport/cct/a/i$b;->b:Lcom/google/android/datatransport/cct/a/zzt$zzb;
 
     return-object p0
@@ -52,7 +50,6 @@
         .end annotation
     .end param
 
-    .line 1
     iput-object p1, p0, Lcom/google/android/datatransport/cct/a/i$b;->a:Lcom/google/android/datatransport/cct/a/zzt$zzc;
 
     return-object p0
@@ -61,7 +58,6 @@
 .method public c()Lcom/google/android/datatransport/cct/a/zzt;
     .locals 4
 
-    .line 1
     new-instance v0, Lcom/google/android/datatransport/cct/a/i;
 
     iget-object v1, p0, Lcom/google/android/datatransport/cct/a/i$b;->a:Lcom/google/android/datatransport/cct/a/zzt$zzc;

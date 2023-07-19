@@ -18,7 +18,6 @@
 
     move-object v3, p3
 
-    .line 1
     invoke-direct/range {v0 .. v5}, Lcom/google/android/gms/internal/firebase_auth/zzlb;-><init>(Ljava/lang/String;ILcom/google/android/gms/internal/firebase_auth/zzle;ILcom/google/android/gms/internal/firebase_auth/n7;)V
 
     return-void

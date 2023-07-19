@@ -68,7 +68,6 @@
 
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/commsource/util/k1;->f()Lokhttp3/Headers;
 
     move-result-object v0

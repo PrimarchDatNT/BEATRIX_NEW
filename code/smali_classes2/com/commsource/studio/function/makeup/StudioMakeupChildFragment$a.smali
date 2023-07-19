@@ -20,7 +20,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -29,7 +28,6 @@
 .method public synthetic constructor <init>(Lcotlin/jvm/internal/u;)V
     .locals 0
 
-    .line 2
     invoke-direct {p0}, Lcom/commsource/studio/function/makeup/StudioMakeupChildFragment$a;-><init>()V
 
     return-void
@@ -46,7 +44,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/commsource/studio/function/makeup/StudioMakeupChildFragment;
 
     invoke-direct {v1}, Lcom/commsource/studio/function/makeup/StudioMakeupChildFragment;-><init>()V

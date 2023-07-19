@@ -31,7 +31,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/beautyplus/onboarding/StepButton$a;->a:Lcom/commsource/beautyplus/onboarding/StepButton;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -56,7 +55,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -77,7 +75,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -106,7 +103,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -119,7 +115,6 @@
 
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/beautyplus/onboarding/StepButton$a;->a:Lcom/commsource/beautyplus/onboarding/StepButton;
 
     invoke-static {v0}, Lcom/commsource/beautyplus/onboarding/StepButton;->f(Lcom/commsource/beautyplus/onboarding/StepButton;)Lcom/commsource/camera/f1/n;
@@ -150,12 +145,10 @@
 
     invoke-static {v0, p1}, Lcom/commsource/beautyplus/onboarding/StepButton;->i(Lcom/commsource/beautyplus/onboarding/StepButton;F)V
 
-    .line 2
     iget-object p1, p0, Lcom/commsource/beautyplus/onboarding/StepButton$a;->a:Lcom/commsource/beautyplus/onboarding/StepButton;
 
     invoke-virtual {p1}, Landroid/view/View;->invalidate()V
 
-    .line 3
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

@@ -45,7 +45,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/CameraGestureCover$c;->a:Lcom/commsource/camera/xcamera/cover/CameraGestureCover;
 
     invoke-static {v1}, Lcom/commsource/camera/xcamera/cover/CameraGestureCover;->E(Lcom/commsource/camera/xcamera/cover/CameraGestureCover;)Lcom/commsource/camera/xcamera/cover/bottomFunction/b;
@@ -60,10 +59,8 @@
 
     if-eqz v1, :cond_3
 
-    .line 2
     iget v3, v1, Lcom/commsource/camera/xcamera/cover/bottomFunction/b$b;->a:I
 
-    .line 3
     iget-object v4, p0, Lcom/commsource/camera/xcamera/cover/CameraGestureCover$c;->a:Lcom/commsource/camera/xcamera/cover/CameraGestureCover;
 
     invoke-static {v4}, Lcom/commsource/camera/xcamera/cover/CameraGestureCover;->H(Lcom/commsource/camera/xcamera/cover/CameraGestureCover;)Lcom/commsource/camera/xcamera/cover/CameraConfigViewModel;
@@ -78,19 +75,16 @@
 
     if-eqz v4, :cond_0
 
-    .line 4
     iget v3, v1, Lcom/commsource/camera/xcamera/cover/bottomFunction/b$b;->a:I
 
     iget v4, v1, Lcom/commsource/camera/xcamera/cover/bottomFunction/b$b;->j:I
 
     sub-int/2addr v3, v4
 
-    .line 5
     iget v1, v1, Lcom/commsource/camera/xcamera/cover/bottomFunction/b$b;->b:I
 
     goto :goto_0
 
-    .line 6
     :cond_0
     iget-object v4, p0, Lcom/commsource/camera/xcamera/cover/CameraGestureCover$c;->a:Lcom/commsource/camera/xcamera/cover/CameraGestureCover;
 
@@ -104,14 +98,12 @@
 
     if-eqz v4, :cond_1
 
-    .line 7
     iget v3, v1, Lcom/commsource/camera/xcamera/cover/bottomFunction/b$b;->a:I
 
     iget v1, v1, Lcom/commsource/camera/xcamera/cover/bottomFunction/b$b;->k:I
 
     sub-int/2addr v3, v1
 
-    .line 8
     invoke-static {}, Lcom/meitu/library/p/f/i;->V()Z
 
     move-result v1
@@ -129,7 +121,6 @@
     :cond_1
     const/4 v1, 0x0
 
-    .line 9
     :goto_0
     invoke-virtual {p2, v5}, Landroid/view/MotionEvent;->getY(I)F
 
@@ -151,13 +142,11 @@
 
     if-lez v1, :cond_3
 
-    .line 10
     :cond_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v2
 
-    .line 11
     :cond_3
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/CameraGestureCover$c;->a:Lcom/commsource/camera/xcamera/cover/CameraGestureCover;
 
@@ -171,7 +160,6 @@
 
     if-eqz v1, :cond_7
 
-    .line 12
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/CameraGestureCover$c;->a:Lcom/commsource/camera/xcamera/cover/CameraGestureCover;
 
     invoke-static {v1}, Lcom/commsource/camera/xcamera/cover/CameraGestureCover;->F(Lcom/commsource/camera/xcamera/cover/CameraGestureCover;)Lcom/commsource/camera/xcamera/BpCameraViewModel;
@@ -190,7 +178,6 @@
 
     if-eqz v1, :cond_5
 
-    .line 13
     invoke-static {p2, v5}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {p2}, Landroid/view/MotionEvent;->getAction()I
@@ -201,7 +188,6 @@
 
     goto :goto_1
 
-    .line 14
     :cond_4
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/CameraGestureCover$c;->a:Lcom/commsource/camera/xcamera/cover/CameraGestureCover;
 
@@ -219,7 +205,6 @@
 
     invoke-virtual {v1, v6}, Landroidx/lifecycle/MutableLiveData;->setValue(Ljava/lang/Object;)V
 
-    .line 15
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/CameraGestureCover$c;->a:Lcom/commsource/camera/xcamera/cover/CameraGestureCover;
 
     invoke-static {v1}, Lcom/commsource/camera/xcamera/cover/CameraGestureCover;->F(Lcom/commsource/camera/xcamera/cover/CameraGestureCover;)Lcom/commsource/camera/xcamera/BpCameraViewModel;
@@ -232,7 +217,6 @@
 
     if-eqz v1, :cond_5
 
-    .line 16
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/CameraGestureCover$c;->a:Lcom/commsource/camera/xcamera/cover/CameraGestureCover;
 
     invoke-static {v1}, Lcom/commsource/camera/xcamera/cover/CameraGestureCover;->F(Lcom/commsource/camera/xcamera/cover/CameraGestureCover;)Lcom/commsource/camera/xcamera/BpCameraViewModel;
@@ -241,7 +225,6 @@
 
     invoke-virtual {v1}, Lcom/commsource/camera/xcamera/BpCameraViewModel;->H1()V
 
-    .line 17
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/CameraGestureCover$c;->a:Lcom/commsource/camera/xcamera/cover/CameraGestureCover;
 
     invoke-static {v1}, Lcom/commsource/camera/xcamera/cover/CameraGestureCover;->C(Lcom/commsource/camera/xcamera/cover/CameraGestureCover;)Lcom/commsource/beautyplus/armaterial/ArGiphyMaterialViewModel;
@@ -256,7 +239,6 @@
 
     invoke-virtual {v1, p1}, Landroidx/lifecycle/MutableLiveData;->setValue(Ljava/lang/Object;)V
 
-    .line 18
     :cond_5
     :goto_1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/CameraGestureCover$c;->a:Lcom/commsource/camera/xcamera/cover/CameraGestureCover;
@@ -267,7 +249,6 @@
 
     invoke-virtual {v1, p2}, Lcom/commsource/camera/xcamera/BpCameraViewModel;->u2(Landroid/view/MotionEvent;)Z
 
-    .line 19
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/CameraGestureCover$c;->a:Lcom/commsource/camera/xcamera/cover/CameraGestureCover;
 
     invoke-static {v1}, Lcom/commsource/camera/xcamera/cover/CameraGestureCover;->F(Lcom/commsource/camera/xcamera/cover/CameraGestureCover;)Lcom/commsource/camera/xcamera/BpCameraViewModel;
@@ -280,7 +261,6 @@
 
     if-eqz v1, :cond_7
 
-    .line 20
     invoke-static {p2, v5}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {p2}, Landroid/view/MotionEvent;->getAction()I
@@ -295,7 +275,6 @@
 
     goto :goto_2
 
-    .line 21
     :cond_6
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/CameraGestureCover$c;->a:Lcom/commsource/camera/xcamera/cover/CameraGestureCover;
 
@@ -311,7 +290,6 @@
 
     invoke-virtual {v1, p1}, Landroidx/lifecycle/MutableLiveData;->setValue(Ljava/lang/Object;)V
 
-    .line 22
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/CameraGestureCover$c;->a:Lcom/commsource/camera/xcamera/cover/CameraGestureCover;
 
     invoke-static {p1}, Lcom/commsource/camera/xcamera/cover/CameraGestureCover;->F(Lcom/commsource/camera/xcamera/cover/CameraGestureCover;)Lcom/commsource/camera/xcamera/BpCameraViewModel;
@@ -322,7 +300,6 @@
 
     move-result p1
 
-    .line 23
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/CameraGestureCover$c;->a:Lcom/commsource/camera/xcamera/cover/CameraGestureCover;
 
     invoke-static {v1}, Lcom/commsource/camera/xcamera/cover/CameraGestureCover;->C(Lcom/commsource/camera/xcamera/cover/CameraGestureCover;)Lcom/commsource/beautyplus/armaterial/ArGiphyMaterialViewModel;
@@ -341,7 +318,6 @@
 
     invoke-virtual {v1, v3}, Landroidx/lifecycle/MutableLiveData;->setValue(Ljava/lang/Object;)V
 
-    .line 24
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/CameraGestureCover$c;->a:Lcom/commsource/camera/xcamera/cover/CameraGestureCover;
 
     invoke-static {v1}, Lcom/commsource/camera/xcamera/cover/CameraGestureCover;->F(Lcom/commsource/camera/xcamera/cover/CameraGestureCover;)Lcom/commsource/camera/xcamera/BpCameraViewModel;
@@ -350,13 +326,11 @@
 
     invoke-virtual {v1, p1, p2}, Lcom/commsource/camera/xcamera/BpCameraViewModel;->I1(ZLandroid/view/MotionEvent;)V
 
-    .line 25
     :goto_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v2
 
-    .line 26
     :cond_7
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/CameraGestureCover$c;->a:Lcom/commsource/camera/xcamera/cover/CameraGestureCover;
 
@@ -366,7 +340,6 @@
 
     invoke-virtual {p1, p2}, Lcom/commsource/beautymain/widget/gesturewidget/e;->I(Landroid/view/MotionEvent;)Z
 
-    .line 27
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/CameraGestureCover$c;->a:Lcom/commsource/camera/xcamera/cover/CameraGestureCover;
 
     invoke-static {p1}, Lcom/commsource/camera/xcamera/cover/CameraGestureCover;->D(Lcom/commsource/camera/xcamera/cover/CameraGestureCover;)Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/c1;
@@ -379,7 +352,6 @@
 
     if-nez p1, :cond_b
 
-    .line 28
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/CameraGestureCover$c;->a:Lcom/commsource/camera/xcamera/cover/CameraGestureCover;
 
     invoke-static {p1}, Lcom/commsource/camera/xcamera/cover/CameraGestureCover;->G(Lcom/commsource/camera/xcamera/cover/CameraGestureCover;)Lcom/commsource/camera/xcamera/cover/CameraCaptureViewModel;
@@ -392,12 +364,10 @@
 
     if-eqz p1, :cond_8
 
-    .line 29
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v2
 
-    .line 30
     :cond_8
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/CameraGestureCover$c;->a:Lcom/commsource/camera/xcamera/cover/CameraGestureCover;
 
@@ -411,12 +381,10 @@
 
     if-eqz p1, :cond_9
 
-    .line 31
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v2
 
-    .line 32
     :cond_9
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/CameraGestureCover$c;->a:Lcom/commsource/camera/xcamera/cover/CameraGestureCover;
 
@@ -430,12 +398,10 @@
 
     if-eqz p1, :cond_a
 
-    .line 33
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v2
 
-    .line 34
     :cond_a
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/CameraGestureCover$c;->a:Lcom/commsource/camera/xcamera/cover/CameraGestureCover;
 
@@ -451,7 +417,6 @@
 
     invoke-virtual {p1, p2}, Lcom/commsource/camera/xcamera/cover/CoverContainer;->j(Landroid/view/MotionEvent;)Z
 
-    .line 35
     :cond_b
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/CameraGestureCover$c;->a:Lcom/commsource/camera/xcamera/cover/CameraGestureCover;
 
@@ -477,12 +442,10 @@
 
     if-nez p1, :cond_c
 
-    .line 36
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v2
 
-    .line 37
     :cond_c
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/CameraGestureCover$c;->a:Lcom/commsource/camera/xcamera/cover/CameraGestureCover;
 

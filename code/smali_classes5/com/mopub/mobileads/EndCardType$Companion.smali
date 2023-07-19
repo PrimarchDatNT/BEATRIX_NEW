@@ -19,7 +19,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -28,7 +27,6 @@
 .method public synthetic constructor <init>(Lcotlin/jvm/internal/u;)V
     .locals 0
 
-    .line 2
     invoke-direct {p0}, Lcom/mopub/mobileads/EndCardType$Companion;-><init>()V
 
     return-void
@@ -52,7 +50,6 @@
 
     goto :goto_0
 
-    .line 1
     :cond_0
     sget-object v0, Lcom/mopub/mobileads/EndCardType$Companion$WhenMappings;->$EnumSwitchMapping$0:[I
 
@@ -83,25 +80,21 @@
 
     goto :goto_1
 
-    .line 2
     :cond_1
     sget-object p1, Lcom/mopub/mobileads/EndCardType;->NONE:Lcom/mopub/mobileads/EndCardType;
 
     goto :goto_1
 
-    .line 3
     :cond_2
     sget-object p1, Lcom/mopub/mobileads/EndCardType;->STATIC:Lcom/mopub/mobileads/EndCardType;
 
     goto :goto_1
 
-    .line 4
     :cond_3
     sget-object p1, Lcom/mopub/mobileads/EndCardType;->STATIC:Lcom/mopub/mobileads/EndCardType;
 
     goto :goto_1
 
-    .line 5
     :cond_4
     sget-object p1, Lcom/mopub/mobileads/EndCardType;->INTERACTIVE:Lcom/mopub/mobileads/EndCardType;
 

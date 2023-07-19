@@ -50,41 +50,32 @@
 .method public constructor <init>(Lcom/meitu/media/encoder/Muxer;)V
     .locals 1
 
-    .line 14
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/4 v0, 0x3
 
-    .line 15
     iput v0, p0, Lcom/meitu/media/encoder/b$a;->j:I
 
     const/16 v0, 0x1e
 
-    .line 16
     iput v0, p0, Lcom/meitu/media/encoder/b$a;->k:I
 
     const/4 v0, 0x0
 
-    .line 17
     iput-boolean v0, p0, Lcom/meitu/media/encoder/b$a;->l:Z
 
     const/4 v0, 0x0
 
-    .line 18
     iput-object v0, p0, Lcom/meitu/media/encoder/b$a;->m:Ljava/lang/String;
 
-    .line 19
     iput-object v0, p0, Lcom/meitu/media/encoder/b$a;->n:Ljava/lang/String;
 
     const/high16 v0, 0x3f800000    # 1.0f
 
-    .line 20
     iput v0, p0, Lcom/meitu/media/encoder/b$a;->o:F
 
-    .line 21
     invoke-direct {p0}, Lcom/meitu/media/encoder/b$a;->c()V
 
-    .line 22
     invoke-static {p1}, Lcom/meitu/common/base/a;->i(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -93,7 +84,6 @@
 
     iput-object p1, p0, Lcom/meitu/media/encoder/b$a;->h:Lcom/meitu/media/encoder/Muxer;
 
-    .line 23
     new-instance p1, Ljava/io/File;
 
     iget-object v0, p0, Lcom/meitu/media/encoder/b$a;->h:Lcom/meitu/media/encoder/Muxer;
@@ -118,7 +108,6 @@
 
     const/4 v0, 0x2
 
-    .line 13
     invoke-direct {p0, p1, v0}, Lcom/meitu/media/encoder/b$a;-><init>(Ljava/lang/String;I)V
 
     return-void
@@ -127,43 +116,34 @@
 .method public constructor <init>(Ljava/lang/String;I)V
     .locals 2
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/4 v0, 0x3
 
-    .line 2
     iput v0, p0, Lcom/meitu/media/encoder/b$a;->j:I
 
     const/16 v0, 0x1e
 
-    .line 3
     iput v0, p0, Lcom/meitu/media/encoder/b$a;->k:I
 
     const/4 v0, 0x0
 
-    .line 4
     iput-boolean v0, p0, Lcom/meitu/media/encoder/b$a;->l:Z
 
     const/4 v0, 0x0
 
-    .line 5
     iput-object v0, p0, Lcom/meitu/media/encoder/b$a;->m:Ljava/lang/String;
 
-    .line 6
     iput-object v0, p0, Lcom/meitu/media/encoder/b$a;->n:Ljava/lang/String;
 
     const/high16 v0, 0x3f800000    # 1.0f
 
-    .line 7
     iput v0, p0, Lcom/meitu/media/encoder/b$a;->o:F
 
-    .line 8
     invoke-direct {p0}, Lcom/meitu/media/encoder/b$a;->c()V
 
     const-string v0, ".m3u8"
 
-    .line 9
     invoke-virtual {p1, v0}, Ljava/lang/String;->contains(Ljava/lang/CharSequence;)Z
 
     move-result v0
@@ -175,14 +155,12 @@
     :cond_0
     const-string v0, ".mp4"
 
-    .line 10
     invoke-virtual {p1, v0}, Ljava/lang/String;->contains(Ljava/lang/CharSequence;)Z
 
     move-result v0
 
     if-eqz v0, :cond_1
 
-    .line 11
     sget-object v0, Lcom/meitu/media/encoder/Muxer$FORMAT;->MPEG4:Lcom/meitu/media/encoder/Muxer$FORMAT;
 
     invoke-static {p1, v0, p2}, Lcom/meitu/media/encoder/e;->o(Ljava/lang/String;Lcom/meitu/media/encoder/Muxer$FORMAT;I)Lcom/meitu/media/encoder/e;
@@ -194,7 +172,6 @@
     :goto_0
     return-void
 
-    .line 12
     :cond_1
     new-instance p2, Ljava/lang/RuntimeException;
 
@@ -224,22 +201,18 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/io/File;
 
     invoke-direct {v1, p1}, Ljava/io/File;-><init>(Ljava/lang/String;)V
 
-    .line 2
     invoke-virtual {v1}, Ljava/io/File;->getName()Ljava/lang/String;
 
     move-result-object p1
 
-    .line 3
     invoke-static {}, Ljava/util/UUID;->randomUUID()Ljava/util/UUID;
 
     move-result-object v2
 
-    .line 4
     new-instance v3, Ljava/io/File;
 
     invoke-virtual {v1}, Ljava/io/File;->getParent()Ljava/lang/String;
@@ -252,13 +225,10 @@
 
     invoke-direct {v3, v1, v2}, Ljava/io/File;-><init>(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 5
     iput-object v3, p0, Lcom/meitu/media/encoder/b$a;->i:Ljava/io/File;
 
-    .line 6
     invoke-virtual {v3}, Ljava/io/File;->mkdirs()Z
 
-    .line 7
     new-instance v1, Ljava/io/File;
 
     invoke-direct {v1, v3, p1}, Ljava/io/File;-><init>(Ljava/io/File;Ljava/lang/String;)V
@@ -281,20 +251,16 @@
 
     const/4 v1, 0x2
 
-    .line 1
     iput v1, p0, Lcom/meitu/media/encoder/b$a;->a:I
 
     const/16 v2, 0x500
 
-    .line 2
     iput v2, p0, Lcom/meitu/media/encoder/b$a;->b:I
 
     const/16 v2, 0x2d0
 
-    .line 3
     iput v2, p0, Lcom/meitu/media/encoder/b$a;->c:I
 
-    .line 4
     invoke-static {}, Lcom/meitu/media/mtmvcore/MTMVConfig;->getVideoOutputBitrate()J
 
     move-result-wide v2
@@ -305,15 +271,12 @@
 
     const/4 v2, 0x3
 
-    .line 5
     iput v2, p0, Lcom/meitu/media/encoder/b$a;->j:I
 
     const v2, 0xac44
 
-    .line 6
     iput v2, p0, Lcom/meitu/media/encoder/b$a;->e:I
 
-    .line 7
     invoke-static {}, Lcom/meitu/media/mtmvcore/MTMVConfig;->getAudioOutputBitrate()J
 
     move-result-wide v2
@@ -322,10 +285,8 @@
 
     iput v3, p0, Lcom/meitu/media/encoder/b$a;->f:I
 
-    .line 8
     iput v1, p0, Lcom/meitu/media/encoder/b$a;->g:I
 
-    .line 9
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -340,7 +301,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v12, Lcom/meitu/media/encoder/b;
 
     iget-object v2, p0, Lcom/meitu/media/encoder/b$a;->h:Lcom/meitu/media/encoder/Muxer;
@@ -367,37 +327,30 @@
 
     invoke-direct/range {v1 .. v11}, Lcom/meitu/media/encoder/b;-><init>(Lcom/meitu/media/encoder/Muxer;IIIIIIIII)V
 
-    .line 2
     iget-object v1, p0, Lcom/meitu/media/encoder/b$a;->i:Ljava/io/File;
 
     invoke-virtual {v12, v1}, Lcom/meitu/media/encoder/b;->r(Ljava/io/File;)V
 
-    .line 3
     iget-boolean v1, p0, Lcom/meitu/media/encoder/b$a;->l:Z
 
     invoke-virtual {v12, v1}, Lcom/meitu/media/encoder/b;->t(Z)V
 
-    .line 4
     iget-boolean v1, p0, Lcom/meitu/media/encoder/b$a;->l:Z
 
     if-eqz v1, :cond_0
 
-    .line 5
     iget-object v1, p0, Lcom/meitu/media/encoder/b$a;->m:Ljava/lang/String;
 
     invoke-virtual {v12, v1}, Lcom/meitu/media/encoder/b;->q(Ljava/lang/String;)V
 
-    .line 6
     iget-object v1, p0, Lcom/meitu/media/encoder/b$a;->n:Ljava/lang/String;
 
     invoke-virtual {v12, v1}, Lcom/meitu/media/encoder/b;->u(Ljava/lang/String;)V
 
-    .line 7
     iget v1, p0, Lcom/meitu/media/encoder/b$a;->o:F
 
     invoke-virtual {v12, v1}, Lcom/meitu/media/encoder/b;->s(F)V
 
-    .line 8
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -411,10 +364,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/meitu/media/encoder/b$a;->f:I
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
@@ -438,15 +389,12 @@
     :cond_0
     const/4 v1, 0x0
 
-    .line 1
     :cond_1
     :goto_0
     invoke-static {v1}, Lcom/meitu/common/base/a;->d(Z)V
 
-    .line 2
     iput p1, p0, Lcom/meitu/media/encoder/b$a;->g:I
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
@@ -459,10 +407,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/meitu/media/encoder/b$a;->e:I
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
@@ -475,12 +421,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/media/encoder/b$a;->m:Ljava/lang/String;
 
     if-eqz p1, :cond_0
 
-    .line 2
     invoke-virtual {p1}, Ljava/lang/String;->length()I
 
     move-result p1
@@ -489,10 +433,8 @@
 
     const/4 p1, 0x1
 
-    .line 3
     iput-boolean p1, p0, Lcom/meitu/media/encoder/b$a;->l:Z
 
-    .line 4
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -506,10 +448,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/meitu/media/encoder/b$a;->j:I
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
@@ -522,7 +462,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/common/base/a;->i(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -531,7 +470,6 @@
 
     iput-object p1, p0, Lcom/meitu/media/encoder/b$a;->h:Lcom/meitu/media/encoder/Muxer;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
@@ -544,10 +482,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/meitu/media/encoder/b$a;->o:F
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
@@ -560,10 +496,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/meitu/media/encoder/b$a;->d:I
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
@@ -576,10 +510,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/meitu/media/encoder/b$a;->a:I
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
@@ -592,10 +524,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/meitu/media/encoder/b$a;->k:I
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
@@ -608,15 +538,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/meitu/media/encoder/b$a;->b:I
 
-    .line 2
     iput p2, p0, Lcom/meitu/media/encoder/b$a;->c:I
 
     add-int/lit8 v1, p1, 0xf
 
-    .line 3
     div-int/lit8 v1, v1, 0x10
 
     mul-int/lit8 v1, v1, 0x10
@@ -625,14 +552,12 @@
 
     add-int/lit8 v1, p2, 0xf
 
-    .line 4
     div-int/lit8 v1, v1, 0x10
 
     mul-int/lit8 v1, v1, 0x10
 
     iput v1, p0, Lcom/meitu/media/encoder/b$a;->c:I
 
-    .line 5
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -671,7 +596,6 @@
 
     invoke-static {p2, p1}, Lcom/meitu/debug/Logger;->b(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
@@ -684,12 +608,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/media/encoder/b$a;->n:Ljava/lang/String;
 
     if-eqz p1, :cond_0
 
-    .line 2
     invoke-virtual {p1}, Ljava/lang/String;->length()I
 
     move-result p1
@@ -698,10 +620,8 @@
 
     const/4 p1, 0x1
 
-    .line 3
     iput-boolean p1, p0, Lcom/meitu/media/encoder/b$a;->l:Z
 
-    .line 4
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

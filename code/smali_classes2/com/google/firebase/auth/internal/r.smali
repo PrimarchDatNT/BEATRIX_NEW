@@ -10,7 +10,6 @@
 .method static constructor <clinit>()V
     .locals 3
 
-    .line 1
     new-instance v0, Lcom/google/android/gms/common/m/a;
 
     const/4 v1, 0x0
@@ -29,7 +28,6 @@
 .method public static a(Ljava/lang/String;)Lcom/google/firebase/auth/g;
     .locals 4
 
-    .line 1
     :try_start_0
     invoke-static {p0}, Lcom/google/firebase/auth/internal/q;->c(Ljava/lang/String;)Ljava/util/Map;
 
@@ -42,7 +40,6 @@
     :catch_0
     move-exception v0
 
-    .line 2
     sget-object v1, Lcom/google/firebase/auth/internal/r;->a:Lcom/google/android/gms/common/m/a;
 
     const/4 v2, 0x0
@@ -53,10 +50,8 @@
 
     invoke-virtual {v1, v3, v0, v2}, Lcom/google/android/gms/common/m/a;->b(Ljava/lang/String;Ljava/lang/Throwable;[Ljava/lang/Object;)V
 
-    .line 3
     sget-object v0, Ljava/util/Collections;->EMPTY_MAP:Ljava/util/Map;
 
-    .line 4
     :goto_0
     new-instance v1, Lcom/google/firebase/auth/g;
 

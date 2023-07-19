@@ -54,7 +54,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/window/ArTextEditCover$a;->a:Lcom/commsource/camera/xcamera/cover/window/ArTextEditCover;
 
     invoke-virtual {v1}, Lcom/commsource/camera/xcamera/cover/window/ArTextEditCover;->F()Lcom/commsource/camera/i0;
@@ -65,7 +64,6 @@
 
     invoke-virtual {v1}, Lcom/commsource/camera/i0;->A()V
 
-    .line 2
     :cond_0
     new-instance v1, Lcom/commsource/camera/xcamera/cover/window/ArTextEditCover$a$a;
 
@@ -75,7 +73,6 @@
 
     invoke-static {v1, v2, v3}, Lcom/commsource/util/g2;->l(Ljava/lang/Runnable;J)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -88,7 +85,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Lcom/meitu/template/bean/ArMaterial;
 
     invoke-virtual {p0, p1}, Lcom/commsource/camera/xcamera/cover/window/ArTextEditCover$a;->a(Lcom/meitu/template/bean/ArMaterial;)V

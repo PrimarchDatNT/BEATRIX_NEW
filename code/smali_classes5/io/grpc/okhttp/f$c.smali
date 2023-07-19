@@ -25,7 +25,6 @@
 .method constructor <init>(Lio/grpc/okhttp/f;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lio/grpc/okhttp/f$c;->a:Lio/grpc/okhttp/f;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -38,17 +37,14 @@
 .method public run()V
     .locals 4
 
-    .line 1
     iget-object v0, p0, Lio/grpc/okhttp/f$c;->a:Lio/grpc/okhttp/f;
 
     iget-object v0, v0, Lio/grpc/okhttp/f;->V:Ljava/lang/Runnable;
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-interface {v0}, Ljava/lang/Runnable;->run()V
 
-    .line 3
     :cond_0
     iget-object v0, p0, Lio/grpc/okhttp/f$c;->a:Lio/grpc/okhttp/f;
 
@@ -68,7 +64,6 @@
 
     invoke-static {v0, v1}, Lio/grpc/okhttp/f;->K(Lio/grpc/okhttp/f;Lio/grpc/okhttp/f$f;)Lio/grpc/okhttp/f$f;
 
-    .line 4
     iget-object v0, p0, Lio/grpc/okhttp/f$c;->a:Lio/grpc/okhttp/f;
 
     invoke-static {v0}, Lio/grpc/okhttp/f;->N(Lio/grpc/okhttp/f;)Ljava/util/concurrent/Executor;
@@ -83,7 +78,6 @@
 
     invoke-interface {v0, v1}, Ljava/util/concurrent/Executor;->execute(Ljava/lang/Runnable;)V
 
-    .line 5
     iget-object v0, p0, Lio/grpc/okhttp/f$c;->a:Lio/grpc/okhttp/f;
 
     invoke-static {v0}, Lio/grpc/okhttp/f;->k(Lio/grpc/okhttp/f;)Ljava/lang/Object;
@@ -92,7 +86,6 @@
 
     monitor-enter v0
 
-    .line 6
     :try_start_0
     iget-object v1, p0, Lio/grpc/okhttp/f$c;->a:Lio/grpc/okhttp/f;
 
@@ -100,17 +93,14 @@
 
     invoke-static {v1, v2}, Lio/grpc/okhttp/f;->O(Lio/grpc/okhttp/f;I)I
 
-    .line 7
     iget-object v1, p0, Lio/grpc/okhttp/f$c;->a:Lio/grpc/okhttp/f;
 
     invoke-static {v1}, Lio/grpc/okhttp/f;->P(Lio/grpc/okhttp/f;)Z
 
-    .line 8
     monitor-exit v0
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 9
     iget-object v0, p0, Lio/grpc/okhttp/f$c;->a:Lio/grpc/okhttp/f;
 
     iget-object v0, v0, Lio/grpc/okhttp/f;->W:Lcom/google/common/util/concurrent/v0;
@@ -124,7 +114,6 @@
     :catchall_0
     move-exception v1
 
-    .line 10
     :try_start_1
     monitor-exit v0
     :try_end_1

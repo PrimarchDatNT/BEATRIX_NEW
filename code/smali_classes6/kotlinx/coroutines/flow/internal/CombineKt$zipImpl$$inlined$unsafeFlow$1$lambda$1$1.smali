@@ -70,7 +70,6 @@
         .end annotation
     .end param
 
-    .line 1
     iget-object p1, p0, Lcotlinx/coroutines/flow/internal/CombineKt$zipImpl$$inlined$unsafeFlow$1$lambda$1$1;->$first:Lcotlinx/coroutines/channels/y;
 
     invoke-interface {p1}, Lcotlinx/coroutines/channels/y;->l()Z

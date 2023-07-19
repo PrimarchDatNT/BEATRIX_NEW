@@ -27,12 +27,10 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/google/firebase/crashlytics/internal/common/w$a;->a:Lcom/google/firebase/crashlytics/internal/common/e0;
 
     invoke-direct {p0}, Lorg/json/JSONObject;-><init>()V
 
-    .line 2
     invoke-virtual {p1}, Lcom/google/firebase/crashlytics/internal/common/e0;->b()Ljava/lang/String;
 
     move-result-object p1

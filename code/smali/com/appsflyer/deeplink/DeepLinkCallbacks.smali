@@ -7,7 +7,6 @@
 .method static $$b(Lcom/appsflyer/deeplink/DeepLinkResult;)V
     .locals 2
 
-    .line 1
     invoke-static {}, Lcom/appsflyer/AFDeepLinkManager;->getInstance()Lcom/appsflyer/AFDeepLinkManager;
 
     move-result-object v0
@@ -16,7 +15,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 2
     new-instance v0, Ljava/lang/StringBuilder;
 
     const-string v1, "[DDL] Calling onDeepLinking with:\n"
@@ -35,7 +33,6 @@
 
     invoke-static {v0}, Lcom/appsflyer/AFLogger;->afDebugLog(Ljava/lang/String;)V
 
-    .line 3
     :try_start_0
     invoke-static {}, Lcom/appsflyer/AFDeepLinkManager;->getInstance()Lcom/appsflyer/AFDeepLinkManager;
 
@@ -52,7 +49,6 @@
     :catchall_0
     move-exception p0
 
-    .line 4
     invoke-virtual {p0}, Ljava/lang/Throwable;->getLocalizedMessage()Ljava/lang/String;
 
     move-result-object v0
@@ -64,7 +60,6 @@
     :cond_0
     const-string p0, "[DDL] skipping, no callback registered"
 
-    .line 5
     invoke-static {p0}, Lcom/appsflyer/AFLogger;->afDebugLog(Ljava/lang/String;)V
 
     return-void
@@ -73,7 +68,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -91,12 +85,10 @@
         }
     .end annotation
 
-    .line 1
     sget-object v0, Lcom/appsflyer/AppsFlyerLibCore;->conversionDataListener:Lcom/appsflyer/AppsFlyerConversionListener;
 
     if-eqz v0, :cond_0
 
-    .line 2
     :try_start_0
     new-instance v0, Ljava/lang/StringBuilder;
 
@@ -116,7 +108,6 @@
 
     invoke-static {v0}, Lcom/appsflyer/AFLogger;->afDebugLog(Ljava/lang/String;)V
 
-    .line 3
     sget-object v0, Lcom/appsflyer/AppsFlyerLibCore;->conversionDataListener:Lcom/appsflyer/AppsFlyerConversionListener;
 
     invoke-interface {v0, p0}, Lcom/appsflyer/AppsFlyerConversionListener;->onAppOpenAttribution(Ljava/util/Map;)V
@@ -128,7 +119,6 @@
     :catchall_0
     move-exception p0
 
-    .line 4
     invoke-virtual {p0}, Ljava/lang/Throwable;->getLocalizedMessage()Ljava/lang/String;
 
     move-result-object v0
@@ -142,7 +132,6 @@
 .method public static onDeepLinkingError(Ljava/lang/String;)V
     .locals 2
 
-    .line 1
     invoke-static {}, Lcom/appsflyer/AFDeepLinkManager;->getInstance()Lcom/appsflyer/AFDeepLinkManager;
 
     move-result-object v0
@@ -151,7 +140,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-static {p0}, Ljava/lang/String;->valueOf(Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object p0
@@ -164,7 +152,6 @@
 
     invoke-static {p0}, Lcom/appsflyer/AFLogger;->afDebugLog(Ljava/lang/String;)V
 
-    .line 3
     new-instance p0, Lcom/appsflyer/deeplink/DeepLinkResult;
 
     const/4 v0, 0x0
@@ -177,7 +164,6 @@
 
     return-void
 
-    .line 4
     :cond_0
     sget-object v0, Lcom/appsflyer/AppsFlyerLibCore;->conversionDataListener:Lcom/appsflyer/AppsFlyerConversionListener;
 
@@ -186,7 +172,6 @@
     :try_start_0
     const-string v0, "Calling onAppOpenAttributionFailure with: "
 
-    .line 5
     invoke-static {p0}, Ljava/lang/String;->valueOf(Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object v1
@@ -197,7 +182,6 @@
 
     invoke-static {v0}, Lcom/appsflyer/AFLogger;->afDebugLog(Ljava/lang/String;)V
 
-    .line 6
     sget-object v0, Lcom/appsflyer/AppsFlyerLibCore;->conversionDataListener:Lcom/appsflyer/AppsFlyerConversionListener;
 
     invoke-interface {v0, p0}, Lcom/appsflyer/AppsFlyerConversionListener;->onAttributionFailure(Ljava/lang/String;)V
@@ -209,7 +193,6 @@
     :catchall_0
     move-exception p0
 
-    .line 7
     invoke-virtual {p0}, Ljava/lang/Throwable;->getLocalizedMessage()Ljava/lang/String;
 
     move-result-object v0
@@ -232,7 +215,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {}, Lcom/appsflyer/AFDeepLinkManager;->getInstance()Lcom/appsflyer/AFDeepLinkManager;
 
     move-result-object v0
@@ -243,13 +225,11 @@
 
     const/4 v0, 0x0
 
-    .line 2
     :try_start_0
     invoke-static {p0}, Lcom/appsflyer/deeplink/DeepLink;->values(Ljava/util/Map;)Lcom/appsflyer/deeplink/DeepLink;
 
     move-result-object p0
 
-    .line 3
     iget-object v1, p0, Lcom/appsflyer/deeplink/DeepLink;->$$b:Lorg/json/JSONObject;
 
     const-string v2, "is_deferred"
@@ -261,7 +241,6 @@
     .catch Lorg/json/JSONException; {:try_start_0 .. :try_end_0} :catch_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 4
     new-instance v1, Lcom/appsflyer/deeplink/DeepLinkResult;
 
     invoke-direct {v1, p0, v0}, Lcom/appsflyer/deeplink/DeepLinkResult;-><init>(Lcom/appsflyer/deeplink/DeepLink;Lcom/appsflyer/deeplink/DeepLinkResult$Error;)V
@@ -284,15 +263,12 @@
 
     const/4 v2, 0x1
 
-    .line 5
     invoke-static {v1, p0, v2}, Lcom/appsflyer/AFLogger;->afErrorLog(Ljava/lang/String;Ljava/lang/Throwable;Z)V
 
-    .line 6
     sget-object p0, Lcom/appsflyer/deeplink/DeepLinkResult$Error;->UNEXPECTED:Lcom/appsflyer/deeplink/DeepLinkResult$Error;
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
-    .line 7
     new-instance v1, Lcom/appsflyer/deeplink/DeepLinkResult;
 
     invoke-direct {v1, v0, p0}, Lcom/appsflyer/deeplink/DeepLinkResult;-><init>(Lcom/appsflyer/deeplink/DeepLink;Lcom/appsflyer/deeplink/DeepLinkResult$Error;)V
@@ -306,10 +282,8 @@
 
     invoke-static {v1}, Lcom/appsflyer/deeplink/DeepLinkCallbacks;->$$b(Lcom/appsflyer/deeplink/DeepLinkResult;)V
 
-    .line 8
     throw p0
 
-    .line 9
     :cond_0
     invoke-static {p0}, Lcom/appsflyer/deeplink/DeepLinkCallbacks;->onAppOpenAttribution(Ljava/util/Map;)V
 

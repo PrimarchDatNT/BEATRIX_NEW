@@ -58,7 +58,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/puzzle/patchedworld/frame/PuzzleActivity$f;->a:Lcom/commsource/puzzle/patchedworld/frame/PuzzleActivity;
 
     invoke-static {v1}, Lcom/commsource/puzzle/patchedworld/frame/PuzzleActivity;->S0(Lcom/commsource/puzzle/patchedworld/frame/PuzzleActivity;)Lcom/commsource/puzzle/patchedworld/u/a;
@@ -67,7 +66,6 @@
 
     if-eqz v1, :cond_0
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/puzzle/patchedworld/frame/PuzzleActivity$f;->a:Lcom/commsource/puzzle/patchedworld/frame/PuzzleActivity;
 
     invoke-static {v1}, Lcom/commsource/puzzle/patchedworld/frame/PuzzleActivity;->S0(Lcom/commsource/puzzle/patchedworld/frame/PuzzleActivity;)Lcom/commsource/puzzle/patchedworld/u/a;
@@ -82,7 +80,6 @@
 
     invoke-virtual {v1, p1, v2, v3}, Lcom/commsource/puzzle/patchedworld/u/a;->n(Lcom/commsource/puzzle/patchedworld/t/a;ZLcom/commsource/puzzle/patchedworld/u/a$g;)V
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -96,7 +93,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Lcom/commsource/puzzle/patchedworld/t/a;
 
     invoke-virtual {p0, p1}, Lcom/commsource/puzzle/patchedworld/frame/PuzzleActivity$f;->a(Lcom/commsource/puzzle/patchedworld/t/a;)V

@@ -57,7 +57,6 @@
 
     if-eqz p1, :cond_3
 
-    .line 1
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
     move-result-object v1
@@ -66,14 +65,12 @@
 
     move-result v1
 
-    .line 2
     invoke-virtual {p1}, Lcom/meitu/template/bean/ArMaterial;->isVersionNoSupport()Z
 
     move-result v2
 
     if-eqz v2, :cond_0
 
-    .line 3
     iget-object p1, p0, Lcom/commsource/studio/function/ar/StudioArFragment$d;->a:Lcom/commsource/studio/function/ar/StudioArFragment;
 
     invoke-virtual {p1}, Lcom/commsource/beautyplus/i0/a;->q()Landroidx/fragment/app/FragmentActivity;
@@ -82,12 +79,10 @@
 
     invoke-static {p1}, Lcom/commsource/widget/dialog/s0/t;->f0(Landroid/content/Context;)V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 5
     :cond_0
     invoke-virtual {p1}, Lcom/meitu/template/bean/ArMaterial;->isDownload()Z
 
@@ -95,7 +90,6 @@
 
     if-eqz v2, :cond_1
 
-    .line 6
     iget-object v1, p0, Lcom/commsource/studio/function/ar/StudioArFragment$d;->a:Lcom/commsource/studio/function/ar/StudioArFragment;
 
     invoke-virtual {v1}, Lcom/commsource/studio/function/ar/StudioArFragment;->C1()Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/c1;
@@ -106,7 +100,6 @@
 
     goto :goto_0
 
-    .line 7
     :cond_1
     invoke-virtual {p1}, Lcom/meitu/template/bean/ArMaterial;->isDownLoading()Z
 
@@ -116,7 +109,6 @@
 
     if-nez v1, :cond_2
 
-    .line 8
     iget-object p1, p0, Lcom/commsource/studio/function/ar/StudioArFragment$d;->a:Lcom/commsource/studio/function/ar/StudioArFragment;
 
     invoke-virtual {p1}, Lcom/commsource/beautyplus/i0/a;->q()Landroidx/fragment/app/FragmentActivity;
@@ -125,12 +117,10 @@
 
     invoke-static {p1}, Lcom/commsource/widget/dialog/s0/t;->Y(Landroid/content/Context;)V
 
-    .line 9
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 10
     :cond_2
     iget-object v1, p0, Lcom/commsource/studio/function/ar/StudioArFragment$d;->a:Lcom/commsource/studio/function/ar/StudioArFragment;
 
@@ -140,7 +130,6 @@
 
     invoke-virtual {v1, p1}, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/c1;->J0(Lcom/meitu/template/bean/ArMaterial;)V
 
-    .line 11
     :cond_3
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -155,7 +144,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Lcom/meitu/template/bean/ArMaterial;
 
     invoke-virtual {p0, p1}, Lcom/commsource/studio/function/ar/StudioArFragment$d;->a(Lcom/meitu/template/bean/ArMaterial;)V

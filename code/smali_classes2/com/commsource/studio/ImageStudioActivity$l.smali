@@ -42,12 +42,10 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/studio/ImageStudioActivity$l;->a:Lcom/commsource/studio/ImageStudioActivity;
 
     invoke-static {v0}, Lcom/commsource/util/w0;->x(Landroid/content/Context;)V
 
-    .line 2
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

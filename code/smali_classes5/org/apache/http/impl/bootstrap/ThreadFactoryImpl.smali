@@ -20,7 +20,6 @@
 
     const/4 v0, 0x0
 
-    .line 5
     invoke-direct {p0, p1, v0}, Lorg/apache/http/impl/bootstrap/ThreadFactoryImpl;-><init>(Ljava/lang/String;Ljava/lang/ThreadGroup;)V
 
     return-void
@@ -29,16 +28,12 @@
 .method constructor <init>(Ljava/lang/String;Ljava/lang/ThreadGroup;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lorg/apache/http/impl/bootstrap/ThreadFactoryImpl;->namePrefix:Ljava/lang/String;
 
-    .line 3
     iput-object p2, p0, Lorg/apache/http/impl/bootstrap/ThreadFactoryImpl;->group:Ljava/lang/ThreadGroup;
 
-    .line 4
     new-instance p1, Ljava/util/concurrent/atomic/AtomicLong;
 
     invoke-direct {p1}, Ljava/util/concurrent/atomic/AtomicLong;-><init>()V
@@ -53,7 +48,6 @@
 .method public newThread(Ljava/lang/Runnable;)Ljava/lang/Thread;
     .locals 5
 
-    .line 1
     new-instance v0, Ljava/lang/Thread;
 
     iget-object v1, p0, Lorg/apache/http/impl/bootstrap/ThreadFactoryImpl;->group:Ljava/lang/ThreadGroup;

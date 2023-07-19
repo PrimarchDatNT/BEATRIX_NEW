@@ -11,7 +11,6 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/google/firebase/iid/t0;->a:Ljava/util/concurrent/Executor;
 
     sput-object v0, Lcom/google/firebase/iid/u0;->a:Ljava/util/concurrent/Executor;
@@ -22,7 +21,6 @@
 .method static a()Ljava/util/concurrent/Executor;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/google/firebase/iid/u0;->a:Ljava/util/concurrent/Executor;
 
     return-object v0
@@ -31,7 +29,6 @@
 .method static b()Ljava/util/concurrent/ExecutorService;
     .locals 9
 
-    .line 1
     new-instance v8, Ljava/util/concurrent/ThreadPoolExecutor;
 
     sget-object v5, Ljava/util/concurrent/TimeUnit;->SECONDS:Ljava/util/concurrent/TimeUnit;

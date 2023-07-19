@@ -36,7 +36,6 @@
 .method private constructor <init>(Lcom/google/common/collect/StandardRowSortedTable;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/common/collect/StandardRowSortedTable$b;->f:Lcom/google/common/collect/StandardRowSortedTable;
 
     invoke-direct {p0, p1}, Lcom/google/common/collect/StandardTable$h;-><init>(Lcom/google/common/collect/StandardTable;)V
@@ -47,7 +46,6 @@
 .method synthetic constructor <init>(Lcom/google/common/collect/StandardRowSortedTable;Lcom/google/common/collect/StandardRowSortedTable$a;)V
     .locals 0
 
-    .line 2
     invoke-direct {p0, p1}, Lcom/google/common/collect/StandardRowSortedTable$b;-><init>(Lcom/google/common/collect/StandardRowSortedTable;)V
 
     return-void
@@ -58,7 +56,6 @@
 .method bridge synthetic b()Ljava/util/Set;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/collect/StandardRowSortedTable$b;->f()Ljava/util/SortedSet;
 
     move-result-object v0
@@ -76,7 +73,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/StandardRowSortedTable$b;->f:Lcom/google/common/collect/StandardRowSortedTable;
 
     invoke-static {v0}, Lcom/google/common/collect/StandardRowSortedTable;->access$100(Lcom/google/common/collect/StandardRowSortedTable;)Ljava/util/SortedMap;
@@ -100,7 +96,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/google/common/collect/Maps$e0;
 
     invoke-direct {v0, p0}, Lcom/google/common/collect/Maps$e0;-><init>(Ljava/util/SortedMap;)V
@@ -116,7 +111,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/StandardRowSortedTable$b;->f:Lcom/google/common/collect/StandardRowSortedTable;
 
     invoke-static {v0}, Lcom/google/common/collect/StandardRowSortedTable;->access$100(Lcom/google/common/collect/StandardRowSortedTable;)Ljava/util/SortedMap;
@@ -140,7 +134,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-super {p0}, Lcom/google/common/collect/Maps$n0;->keySet()Ljava/util/Set;
 
     move-result-object v0
@@ -162,10 +155,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p1}, Lcom/google/common/base/t;->E(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 2
     new-instance v0, Lcom/google/common/collect/StandardRowSortedTable;
 
     iget-object v1, p0, Lcom/google/common/collect/StandardRowSortedTable$b;->f:Lcom/google/common/collect/StandardRowSortedTable;
@@ -184,7 +175,6 @@
 
     invoke-direct {v0, p1, v1}, Lcom/google/common/collect/StandardRowSortedTable;-><init>(Ljava/util/SortedMap;Lcom/google/common/base/z;)V
 
-    .line 3
     invoke-virtual {v0}, Lcom/google/common/collect/StandardRowSortedTable;->rowMap()Ljava/util/SortedMap;
 
     move-result-object p1
@@ -195,7 +185,6 @@
 .method public bridge synthetic keySet()Ljava/util/Set;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/collect/StandardRowSortedTable$b;->g()Ljava/util/SortedSet;
 
     move-result-object v0
@@ -211,7 +200,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/StandardRowSortedTable$b;->f:Lcom/google/common/collect/StandardRowSortedTable;
 
     invoke-static {v0}, Lcom/google/common/collect/StandardRowSortedTable;->access$100(Lcom/google/common/collect/StandardRowSortedTable;)Ljava/util/SortedMap;
@@ -237,13 +225,10 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p1}, Lcom/google/common/base/t;->E(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 2
     invoke-static {p2}, Lcom/google/common/base/t;->E(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 3
     new-instance v0, Lcom/google/common/collect/StandardRowSortedTable;
 
     iget-object v1, p0, Lcom/google/common/collect/StandardRowSortedTable$b;->f:Lcom/google/common/collect/StandardRowSortedTable;
@@ -262,7 +247,6 @@
 
     invoke-direct {v0, p1, p2}, Lcom/google/common/collect/StandardRowSortedTable;-><init>(Ljava/util/SortedMap;Lcom/google/common/base/z;)V
 
-    .line 4
     invoke-virtual {v0}, Lcom/google/common/collect/StandardRowSortedTable;->rowMap()Ljava/util/SortedMap;
 
     move-result-object p1
@@ -282,10 +266,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p1}, Lcom/google/common/base/t;->E(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 2
     new-instance v0, Lcom/google/common/collect/StandardRowSortedTable;
 
     iget-object v1, p0, Lcom/google/common/collect/StandardRowSortedTable$b;->f:Lcom/google/common/collect/StandardRowSortedTable;
@@ -304,7 +286,6 @@
 
     invoke-direct {v0, p1, v1}, Lcom/google/common/collect/StandardRowSortedTable;-><init>(Ljava/util/SortedMap;Lcom/google/common/base/z;)V
 
-    .line 3
     invoke-virtual {v0}, Lcom/google/common/collect/StandardRowSortedTable;->rowMap()Ljava/util/SortedMap;
 
     move-result-object p1

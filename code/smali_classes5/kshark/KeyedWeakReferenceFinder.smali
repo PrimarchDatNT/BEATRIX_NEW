@@ -18,7 +18,6 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
     new-instance v0, Lkshark/KeyedWeakReferenceFinder;
 
     invoke-direct {v0}, Lkshark/KeyedWeakReferenceFinder;-><init>()V
@@ -31,7 +30,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -63,12 +61,10 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-virtual {p0, p1}, Lkshark/KeyedWeakReferenceFinder;->b(Lkshark/i;)Ljava/util/List;
 
     move-result-object p1
 
-    .line 2
     new-instance v0, Ljava/util/ArrayList;
 
     const/16 v1, 0xa
@@ -79,7 +75,6 @@
 
     invoke-direct {v0, v1}, Ljava/util/ArrayList;-><init>(I)V
 
-    .line 3
     invoke-interface {p1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object p1
@@ -95,10 +90,8 @@
 
     move-result-object v1
 
-    .line 4
     check-cast v1, Lkshark/internal/e;
 
-    .line 5
     invoke-virtual {v1}, Lkshark/internal/e;->d()Lkshark/b0$i;
 
     move-result-object v1
@@ -147,7 +140,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-interface {p1}, Lkshark/i;->getContext()Lkshark/e;
 
     move-result-object v0

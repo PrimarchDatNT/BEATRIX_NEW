@@ -17,7 +17,6 @@
 
     const-string v0, "http.agent"
 
-    .line 1
     invoke-static {v0}, Ljava/lang/System;->getProperty(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
@@ -30,7 +29,6 @@
 .method private constructor <init>(Ljava/net/URL;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1}, Ljava/net/HttpURLConnection;-><init>(Ljava/net/URL;)V
 
     return-void
@@ -51,13 +49,11 @@
         }
     .end annotation
 
-    .line 1
     :try_start_0
     new-instance v0, Ljava/net/URL;
 
     invoke-direct {v0, p0}, Ljava/net/URL;-><init>(Ljava/lang/String;)V
 
-    .line 2
     new-instance v9, Ljava/net/URI;
 
     invoke-virtual {v0}, Ljava/net/URL;->getProtocol()Ljava/lang/String;
@@ -76,7 +72,6 @@
 
     move-result v5
 
-    .line 3
     invoke-virtual {v0}, Ljava/net/URL;->getPath()Ljava/lang/String;
 
     move-result-object v6
@@ -100,7 +95,6 @@
     :catch_0
     move-exception v0
 
-    .line 4
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -117,7 +111,6 @@
 
     invoke-static {p0}, Lf/q/b/g;->e(Ljava/lang/String;)V
 
-    .line 5
     throw v0
 .end method
 
@@ -133,17 +126,14 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p0}, Lcom/sdk/imp/base/i;->a(Ljava/lang/Object;)V
 
-    .line 2
     invoke-static {p0}, Lcom/sdk/imp/base/mraid/h;->c(Ljava/lang/String;)Z
 
     move-result v0
 
     if-nez v0, :cond_0
 
-    .line 3
     :try_start_0
     invoke-static {p0}, Lcom/sdk/imp/base/mraid/h;->e(Ljava/lang/String;)Ljava/lang/String;
 
@@ -151,20 +141,17 @@
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
-    .line 4
     :catch_0
     new-instance v0, Ljava/net/URL;
 
     invoke-direct {v0, p0}, Ljava/net/URL;-><init>(Ljava/lang/String;)V
 
-    .line 5
     invoke-virtual {v0}, Ljava/net/URL;->openConnection()Ljava/net/URLConnection;
 
     move-result-object p0
 
     check-cast p0, Ljava/net/HttpURLConnection;
 
-    .line 6
     sget-object v0, Lcom/sdk/imp/base/mraid/h;->c:Ljava/lang/String;
 
     const-string v1, "User-Agent"
@@ -173,15 +160,12 @@
 
     const/16 v0, 0x2710
 
-    .line 7
     invoke-virtual {p0, v0}, Ljava/net/HttpURLConnection;->setConnectTimeout(I)V
 
-    .line 8
     invoke-virtual {p0, v0}, Ljava/net/HttpURLConnection;->setReadTimeout(I)V
 
     return-object p0
 
-    .line 9
     :cond_0
     new-instance v0, Ljava/lang/IllegalArgumentException;
 
@@ -214,7 +198,6 @@
     :try_start_0
     const-string v0, "UTF-8"
 
-    .line 1
     invoke-static {p0, v0}, Ljava/net/URLDecoder;->decode(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
     :try_end_0
     .catch Ljava/io/UnsupportedEncodingException; {:try_start_0 .. :try_end_0} :catch_0
@@ -223,7 +206,6 @@
 
     return p0
 
-    .line 2
     :catch_0
     new-instance v0, Ljava/lang/StringBuilder;
 
@@ -253,7 +235,6 @@
         .end annotation
     .end param
 
-    .line 1
     :try_start_0
     new-instance v0, Ljava/net/URI;
 
@@ -286,31 +267,26 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p0}, Lcom/sdk/imp/base/i;->a(Ljava/lang/Object;)V
 
-    .line 2
     invoke-static {p0}, Lcom/sdk/imp/base/mraid/h;->c(Ljava/lang/String;)Z
 
     move-result v0
 
     if-nez v0, :cond_1
 
-    .line 3
     invoke-static {p0}, Lcom/sdk/imp/base/mraid/h;->d(Ljava/lang/String;)Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
-    .line 4
     invoke-static {p0}, Lcom/sdk/imp/base/mraid/h;->a(Ljava/lang/String;)Ljava/net/URI;
 
     move-result-object p0
 
     goto :goto_0
 
-    .line 5
     :cond_0
     new-instance v0, Ljava/net/URI;
 
@@ -318,7 +294,6 @@
 
     move-object p0, v0
 
-    .line 6
     :goto_0
     invoke-virtual {p0}, Ljava/net/URI;->toURL()Ljava/net/URL;
 
@@ -330,7 +305,6 @@
 
     return-object p0
 
-    .line 7
     :cond_1
     new-instance v0, Ljava/io/UnsupportedEncodingException;
 

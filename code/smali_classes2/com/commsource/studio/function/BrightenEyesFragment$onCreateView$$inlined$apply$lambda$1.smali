@@ -55,7 +55,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Ljava/lang/Boolean;
 
     invoke-virtual {p1}, Ljava/lang/Boolean;->booleanValue()Z
@@ -88,7 +87,6 @@
 
     invoke-static {p2, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 2
     iget-object p2, p0, Lcom/commsource/studio/function/BrightenEyesFragment$onCreateView$$inlined$apply$lambda$1;->this$0:Lcom/commsource/studio/function/BrightenEyesFragment;
 
     invoke-static {p2}, Lcom/commsource/studio/function/BrightenEyesFragment;->z1(Lcom/commsource/studio/function/BrightenEyesFragment;)Lcom/commsource/studio/function/automanual/AutoManualStackLogic;
@@ -103,7 +101,6 @@
 
     invoke-static {p2, p1, v1, v2, v3}, Lcom/commsource/studio/function/automanual/AutoManualStackLogic;->k(Lcom/commsource/studio/function/automanual/AutoManualStackLogic;ZZILjava/lang/Object;)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

@@ -66,7 +66,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/studio/function/TeethCorrectFragment$changeTeethCorrectStrength$$inlined$let$lambda$1;->invoke()V
 
     sget-object v1, Lcotlin/t1;->a:Lcotlin/t1;
@@ -83,7 +82,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/function/TeethCorrectFragment$changeTeethCorrectStrength$$inlined$let$lambda$1;->$processor:Lcom/commsource/studio/processor/MultiFaceEffectProcessor;
 
     invoke-virtual {v1}, Lcom/commsource/studio/processor/m;->J()Lcom/commsource/camera/newrender/renderproxy/n;
@@ -92,12 +90,10 @@
 
     check-cast v1, Lcom/commsource/studio/r0/d0;
 
-    .line 3
     iget v2, p0, Lcom/commsource/studio/function/TeethCorrectFragment$changeTeethCorrectStrength$$inlined$let$lambda$1;->$strength$inlined:I
 
     invoke-virtual {v1, v2}, Lcom/commsource/studio/r0/d0;->C(I)V
 
-    .line 4
     iget-object v2, p0, Lcom/commsource/studio/function/TeethCorrectFragment$changeTeethCorrectStrength$$inlined$let$lambda$1;->this$0:Lcom/commsource/studio/function/TeethCorrectFragment;
 
     invoke-virtual {v2}, Lcom/commsource/studio/function/TeethCorrectFragment;->F1()Lcom/commsource/studio/effect/x;
@@ -118,12 +114,10 @@
 
     invoke-virtual {v2, v3, v4}, Lcom/commsource/studio/effect/x;->w(II)V
 
-    .line 5
     iget-boolean v2, p0, Lcom/commsource/studio/function/TeethCorrectFragment$changeTeethCorrectStrength$$inlined$let$lambda$1;->$isMultiFace$inlined:Z
 
     if-eqz v2, :cond_1
 
-    .line 6
     iget-object v2, p0, Lcom/commsource/studio/function/TeethCorrectFragment$changeTeethCorrectStrength$$inlined$let$lambda$1;->$processor:Lcom/commsource/studio/processor/MultiFaceEffectProcessor;
 
     invoke-virtual {v2}, Lcom/commsource/studio/processor/MultiFaceEffectProcessor;->L()Lcom/commsource/easyeditor/utils/opengl/f;
@@ -154,7 +148,6 @@
 
     goto :goto_1
 
-    .line 7
     :cond_1
     iget-object v2, p0, Lcom/commsource/studio/function/TeethCorrectFragment$changeTeethCorrectStrength$$inlined$let$lambda$1;->$processor:Lcom/commsource/studio/processor/MultiFaceEffectProcessor;
 
@@ -168,7 +161,6 @@
 
     invoke-virtual {v1, v2, v3}, Lcom/commsource/studio/r0/d0;->y(Lcom/commsource/easyeditor/utils/opengl/f;Lcom/commsource/easyeditor/utils/opengl/f;)V
 
-    .line 8
     :cond_2
     :goto_1
     iget-object v1, p0, Lcom/commsource/studio/function/TeethCorrectFragment$changeTeethCorrectStrength$$inlined$let$lambda$1;->$processor:Lcom/commsource/studio/processor/MultiFaceEffectProcessor;
@@ -181,7 +173,6 @@
 
     invoke-static {v1, v2, v4, v3, v4}, Lcom/commsource/studio/processor/BaseEffectProcessor;->z(Lcom/commsource/studio/processor/BaseEffectProcessor;ZLcotlin/jvm/u/a;ILjava/lang/Object;)V
 
-    .line 9
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

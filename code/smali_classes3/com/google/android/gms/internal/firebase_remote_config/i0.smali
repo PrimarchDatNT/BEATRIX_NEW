@@ -12,7 +12,6 @@
 .method static constructor <clinit>()V
     .locals 5
 
-    .line 1
     invoke-static {}, Lcom/google/android/gms/internal/firebase_remote_config/zzfl;->values()[Lcom/google/android/gms/internal/firebase_remote_config/zzfl;
 
     move-result-object v0
@@ -164,7 +163,6 @@
     :try_end_8
     .catch Ljava/lang/NoSuchFieldError; {:try_start_8 .. :try_end_8} :catch_8
 
-    .line 2
     :catch_8
     invoke-static {}, Lcom/google/android/gms/internal/firebase_remote_config/zzbg;->values()[Lcom/google/android/gms/internal/firebase_remote_config/zzbg;
 

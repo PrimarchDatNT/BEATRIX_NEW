@@ -55,20 +55,16 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 2
     new-instance v1, Lcom/commsource/widget/h1/e;
 
-    .line 3
     iget-object v2, p0, Lcom/commsource/studio/formula/FormulaFragment$recentChildAdapter$2;->this$0:Lcom/commsource/studio/formula/FormulaFragment;
 
     invoke-static {v2}, Lcom/commsource/studio/formula/FormulaFragment;->a0(Lcom/commsource/studio/formula/FormulaFragment;)Landroid/app/Activity;
 
     move-result-object v2
 
-    .line 4
     invoke-direct {v1, v2}, Lcom/commsource/widget/h1/e;-><init>(Landroid/content/Context;)V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
@@ -81,7 +77,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/studio/formula/FormulaFragment$recentChildAdapter$2;->invoke()Lcom/commsource/widget/h1/e;
 
     move-result-object v1

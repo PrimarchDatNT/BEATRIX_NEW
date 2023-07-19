@@ -62,18 +62,14 @@
     .annotation runtime Ljava/lang/SafeVarargs;
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/google/android/gms/internal/ads/sr1;->a:Ljava/lang/Class;
 
-    .line 3
     new-instance p1, Ljava/util/HashMap;
 
     invoke-direct {p1}, Ljava/util/HashMap;-><init>()V
 
-    .line 4
     array-length v0, p2
 
     const/4 v1, 0x0
@@ -85,7 +81,6 @@
 
     aget-object v3, p2, v2
 
-    .line 5
     invoke-virtual {v3}, Lcom/google/android/gms/internal/ads/ur1;->b()Ljava/lang/Class;
 
     move-result-object v4
@@ -96,12 +91,10 @@
 
     if-eqz v4, :cond_1
 
-    .line 6
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
     const-string p2, "KeyTypeManager constructed with duplicate factories for primitive "
 
-    .line 7
     invoke-virtual {v3}, Lcom/google/android/gms/internal/ads/ur1;->b()Ljava/lang/Class;
 
     move-result-object v0
@@ -138,7 +131,6 @@
 
     throw p1
 
-    .line 8
     :cond_1
     invoke-virtual {v3}, Lcom/google/android/gms/internal/ads/ur1;->b()Ljava/lang/Class;
 
@@ -150,13 +142,11 @@
 
     goto :goto_0
 
-    .line 9
     :cond_2
     array-length v0, p2
 
     if-lez v0, :cond_3
 
-    .line 10
     aget-object p2, p2, v1
 
     invoke-virtual {p2}, Lcom/google/android/gms/internal/ads/ur1;->b()Ljava/lang/Class;
@@ -167,13 +157,11 @@
 
     goto :goto_2
 
-    .line 11
     :cond_3
     const-class p2, Ljava/lang/Void;
 
     iput-object p2, p0, Lcom/google/android/gms/internal/ads/sr1;->c:Ljava/lang/Class;
 
-    .line 12
     :goto_2
     invoke-static {p1}, Ljava/util/Collections;->unmodifiableMap(Ljava/util/Map;)Ljava/util/Map;
 
@@ -207,10 +195,8 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/sr1;->b:Ljava/util/Map;
 
-    .line 2
     invoke-interface {v0, p2}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v0
@@ -219,18 +205,15 @@
 
     if-eqz v0, :cond_0
 
-    .line 3
     invoke-virtual {v0, p1}, Lcom/google/android/gms/internal/ads/ur1;->a(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
 
     return-object p1
 
-    .line 4
     :cond_0
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
-    .line 5
     invoke-virtual {p2}, Ljava/lang/Class;->getCanonicalName()Ljava/lang/String;
 
     move-result-object p2
@@ -278,7 +261,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/sr1;->a:Ljava/lang/Class;
 
     return-object v0
@@ -298,7 +280,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/sr1;->b:Ljava/util/Map;
 
     invoke-interface {v0}, Ljava/util/Map;->keySet()Ljava/util/Set;
@@ -318,7 +299,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/sr1;->c:Ljava/lang/Class;
 
     return-object v0
@@ -334,7 +314,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/lang/UnsupportedOperationException;
 
     const-string v1, "Creating keys is not supported."

@@ -27,7 +27,6 @@
 
     invoke-static {}, Lcom/meitu/libmtsns/framwork/util/e;->a()V
 
-    .line 1
     new-instance v1, Lcom/meitu/libmtsns/framwork/util/e$b;
 
     const/4 v2, 0x0
@@ -44,7 +43,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -57,7 +55,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v9, Ln/a/b/c/e;
 
     const-class v1, Lcom/meitu/libmtsns/framwork/util/e;
@@ -108,18 +105,15 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
     move-result-object p0
 
-    .line 2
     :goto_0
     const-class v1, Ljava/lang/Object;
 
     if-eq p0, v1, :cond_0
 
-    .line 3
     :try_start_0
     invoke-virtual {p0, p1}, Ljava/lang/Class;->getDeclaredField(Ljava/lang/String;)Ljava/lang/reflect/Field;
 
@@ -127,12 +121,10 @@
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
 
-    .line 5
     :catch_0
     invoke-virtual {p0}, Ljava/lang/Class;->getSuperclass()Ljava/lang/Class;
 
@@ -143,7 +135,6 @@
     :cond_0
     const/4 p0, 0x0
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
@@ -167,7 +158,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
     move-result-object p0
@@ -177,7 +167,6 @@
 
     if-eq p0, v1, :cond_0
 
-    .line 2
     :try_start_0
     invoke-virtual {p0, p1, p2}, Ljava/lang/Class;->getDeclaredMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
 
@@ -185,12 +174,10 @@
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
 
-    .line 4
     :catch_0
     invoke-virtual {p0}, Ljava/lang/Class;->getSuperclass()Ljava/lang/Class;
 
@@ -201,7 +188,6 @@
     :cond_0
     const/4 p0, 0x0
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
@@ -214,14 +200,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p0, p1}, Lcom/meitu/libmtsns/framwork/util/e;->b(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/reflect/Field;
 
     move-result-object p1
 
     if-nez p1, :cond_0
 
-    .line 2
     sget-object p0, Lcom/meitu/libmtsns/framwork/util/e;->a:Lcom/meitu/libmtsns/framwork/util/e$b;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -231,10 +215,8 @@
     :cond_0
     const/4 v1, 0x1
 
-    .line 3
     invoke-virtual {p1, v1}, Ljava/lang/reflect/Field;->setAccessible(Z)V
 
-    .line 4
     :try_start_0
     invoke-virtual {p1, p0}, Ljava/lang/reflect/Field;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
@@ -249,12 +231,10 @@
     :catch_0
     move-exception p0
 
-    .line 5
     invoke-virtual {p0}, Ljava/lang/Exception;->printStackTrace()V
 
     const/4 p0, 0x0
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
@@ -280,14 +260,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p0, p1, p2}, Lcom/meitu/libmtsns/framwork/util/e;->c(Ljava/lang/Object;Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
 
     move-result-object p1
 
     if-nez p1, :cond_0
 
-    .line 2
     sget-object p0, Lcom/meitu/libmtsns/framwork/util/e;->a:Lcom/meitu/libmtsns/framwork/util/e$b;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -299,11 +277,9 @@
 
     const/4 v1, 0x1
 
-    .line 3
     :try_start_0
     invoke-virtual {p1, v1}, Ljava/lang/reflect/Method;->setAccessible(Z)V
 
-    .line 4
     sget-object v2, Lcom/meitu/libmtsns/framwork/util/e;->b:Lorg/aspectj/lang/c$b;
 
     invoke-static {v2, p2, p1, p0, p3}, Ln/a/b/c/e;->G(Lorg/aspectj/lang/c$b;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Lorg/aspectj/lang/c;
@@ -357,7 +333,6 @@
     :catch_0
     move-exception p0
 
-    .line 5
     invoke-virtual {p0}, Ljava/lang/reflect/InvocationTargetException;->printStackTrace()V
 
     goto :goto_0
@@ -365,7 +340,6 @@
     :catch_1
     move-exception p0
 
-    .line 6
     invoke-virtual {p0}, Ljava/lang/IllegalAccessException;->printStackTrace()V
 
     goto :goto_0
@@ -373,10 +347,8 @@
     :catch_2
     move-exception p0
 
-    .line 7
     invoke-virtual {p0}, Ljava/lang/IllegalArgumentException;->printStackTrace()V
 
-    .line 8
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -390,7 +362,6 @@
 
     invoke-static {p3}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0, p1, p2}, Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p0
@@ -407,7 +378,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/meitu/libmtsns/framwork/util/e;->a:Lcom/meitu/libmtsns/framwork/util/e$b;
 
     if-ne v1, p0, :cond_0
@@ -432,14 +402,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p0, p1}, Lcom/meitu/libmtsns/framwork/util/e;->b(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/reflect/Field;
 
     move-result-object p1
 
     if-nez p1, :cond_0
 
-    .line 2
     sget-object p0, Lcom/meitu/libmtsns/framwork/util/e;->a:Lcom/meitu/libmtsns/framwork/util/e$b;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -449,10 +417,8 @@
     :cond_0
     const/4 v1, 0x1
 
-    .line 3
     invoke-virtual {p1, v1}, Ljava/lang/reflect/Field;->setAccessible(Z)V
 
-    .line 4
     :try_start_0
     invoke-virtual {p1, p0, p2}, Ljava/lang/reflect/Field;->set(Ljava/lang/Object;Ljava/lang/Object;)V
     :try_end_0
@@ -464,7 +430,6 @@
     :catch_0
     move-exception p0
 
-    .line 5
     invoke-virtual {p0}, Ljava/lang/IllegalAccessException;->printStackTrace()V
 
     goto :goto_0
@@ -472,13 +437,11 @@
     :catch_1
     move-exception p0
 
-    .line 6
     invoke-virtual {p0}, Ljava/lang/IllegalArgumentException;->printStackTrace()V
 
     :goto_0
     const/4 p0, 0x0
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0

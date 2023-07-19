@@ -31,7 +31,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/library/appcia/diskspace/DiskSpaceOfficer$c;->a:Lcom/meitu/library/appcia/diskspace/DiskSpaceOfficer;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -60,10 +59,8 @@
 
     const-string v3, "can\'t get the app size now!"
 
-    .line 1
     invoke-static {v2, p1, v3, v1}, Lcom/meitu/library/appcia/f/d/a;->l(Ljava/lang/String;Ljava/lang/Throwable;Ljava/lang/String;[Ljava/lang/Object;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -89,22 +86,18 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/library/appcia/diskspace/DiskSpaceOfficer$c;->a:Lcom/meitu/library/appcia/diskspace/DiskSpaceOfficer;
 
     invoke-static {v1, p1, p2}, Lcom/meitu/library/appcia/diskspace/DiskSpaceOfficer;->n(Lcom/meitu/library/appcia/diskspace/DiskSpaceOfficer;J)V
 
-    .line 2
     iget-object p1, p0, Lcom/meitu/library/appcia/diskspace/DiskSpaceOfficer$c;->a:Lcom/meitu/library/appcia/diskspace/DiskSpaceOfficer;
 
     invoke-static {p1, p3, p4}, Lcom/meitu/library/appcia/diskspace/DiskSpaceOfficer;->p(Lcom/meitu/library/appcia/diskspace/DiskSpaceOfficer;J)V
 
-    .line 3
     iget-object p1, p0, Lcom/meitu/library/appcia/diskspace/DiskSpaceOfficer$c;->a:Lcom/meitu/library/appcia/diskspace/DiskSpaceOfficer;
 
     invoke-static {p1, p5, p6}, Lcom/meitu/library/appcia/diskspace/DiskSpaceOfficer;->o(Lcom/meitu/library/appcia/diskspace/DiskSpaceOfficer;J)V
 
-    .line 4
     iget-object p1, p0, Lcom/meitu/library/appcia/diskspace/DiskSpaceOfficer$c;->a:Lcom/meitu/library/appcia/diskspace/DiskSpaceOfficer;
 
     if-nez p7, :cond_0
@@ -114,7 +107,6 @@
     :cond_0
     invoke-static {p1, p7}, Lcom/meitu/library/appcia/diskspace/DiskSpaceOfficer;->t(Lcom/meitu/library/appcia/diskspace/DiskSpaceOfficer;Ljava/util/HashMap;)V
 
-    .line 5
     iget-object p1, p0, Lcom/meitu/library/appcia/diskspace/DiskSpaceOfficer$c;->a:Lcom/meitu/library/appcia/diskspace/DiskSpaceOfficer;
 
     invoke-static {}, Lcom/meitu/library/appcia/diskspace/DiskSpaceOfficer;->i()I
@@ -123,7 +115,6 @@
 
     invoke-static {p1, p2}, Lcom/meitu/library/appcia/diskspace/DiskSpaceOfficer;->w(Lcom/meitu/library/appcia/diskspace/DiskSpaceOfficer;I)V
 
-    .line 6
     iget-object p1, p0, Lcom/meitu/library/appcia/diskspace/DiskSpaceOfficer$c;->a:Lcom/meitu/library/appcia/diskspace/DiskSpaceOfficer;
 
     invoke-static {p1}, Lcom/meitu/library/appcia/diskspace/DiskSpaceOfficer;->k(Lcom/meitu/library/appcia/diskspace/DiskSpaceOfficer;)Ljava/util/concurrent/atomic/AtomicBoolean;
@@ -134,7 +125,6 @@
 
     invoke-virtual {p1, p2}, Ljava/util/concurrent/atomic/AtomicBoolean;->set(Z)V
 
-    .line 7
     iget-object p1, p0, Lcom/meitu/library/appcia/diskspace/DiskSpaceOfficer$c;->a:Lcom/meitu/library/appcia/diskspace/DiskSpaceOfficer;
 
     invoke-static {p1}, Lcom/meitu/library/appcia/diskspace/DiskSpaceOfficer;->h(Lcom/meitu/library/appcia/diskspace/DiskSpaceOfficer;)Lcom/meitu/library/appcia/f/e/d;
@@ -145,7 +135,6 @@
 
     invoke-interface {p1}, Lcom/meitu/library/appcia/f/e/d;->a()V
 
-    .line 8
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

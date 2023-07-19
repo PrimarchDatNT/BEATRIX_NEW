@@ -61,10 +61,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Lcom/google/common/collect/c;-><init>()V
 
-    .line 2
     invoke-static {p1}, Lcom/google/common/base/t;->E(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -73,7 +71,6 @@
 
     iput-object p1, p0, Lcom/google/common/collect/Multimaps$e;->a:Lcom/google/common/collect/l1;
 
-    .line 3
     invoke-static {p2}, Lcom/google/common/base/t;->E(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -99,19 +96,16 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/Multimaps$e;->b:Lcom/google/common/collect/Maps$r;
 
     invoke-static {v0, p1}, Lcom/google/common/collect/Maps;->n(Lcom/google/common/collect/Maps$r;Ljava/lang/Object;)Lcom/google/common/base/n;
 
     move-result-object p1
 
-    .line 2
     instance-of v0, p2, Ljava/util/List;
 
     if-eqz v0, :cond_0
 
-    .line 3
     check-cast p2, Ljava/util/List;
 
     invoke-static {p2, p1}, Lcom/google/common/collect/Lists;->D(Ljava/util/List;Lcom/google/common/base/n;)Ljava/util/List;
@@ -120,7 +114,6 @@
 
     return-object p1
 
-    .line 4
     :cond_0
     invoke-static {p2, p1}, Lcom/google/common/collect/n;->n(Ljava/util/Collection;Lcom/google/common/base/n;)Ljava/util/Collection;
 
@@ -132,7 +125,6 @@
 .method public clear()V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/Multimaps$e;->a:Lcom/google/common/collect/l1;
 
     invoke-interface {v0}, Lcom/google/common/collect/l1;->clear()V
@@ -143,7 +135,6 @@
 .method public containsKey(Ljava/lang/Object;)Z
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/Multimaps$e;->a:Lcom/google/common/collect/l1;
 
     invoke-interface {v0, p1}, Lcom/google/common/collect/l1;->containsKey(Ljava/lang/Object;)Z
@@ -165,10 +156,8 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/Multimaps$e;->a:Lcom/google/common/collect/l1;
 
-    .line 2
     invoke-interface {v0}, Lcom/google/common/collect/l1;->asMap()Ljava/util/Map;
 
     move-result-object v0
@@ -177,7 +166,6 @@
 
     invoke-direct {v1, p0}, Lcom/google/common/collect/Multimaps$e$a;-><init>(Lcom/google/common/collect/Multimaps$e;)V
 
-    .line 3
     invoke-static {v0, v1}, Lcom/google/common/collect/Maps;->x0(Ljava/util/Map;Lcom/google/common/collect/Maps$r;)Ljava/util/Map;
 
     move-result-object v0
@@ -196,7 +184,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/google/common/collect/c$a;
 
     invoke-direct {v0, p0}, Lcom/google/common/collect/c$a;-><init>(Lcom/google/common/collect/c;)V
@@ -214,7 +201,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/Multimaps$e;->a:Lcom/google/common/collect/l1;
 
     invoke-interface {v0}, Lcom/google/common/collect/l1;->keySet()Ljava/util/Set;
@@ -234,7 +220,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/Multimaps$e;->a:Lcom/google/common/collect/l1;
 
     invoke-interface {v0}, Lcom/google/common/collect/l1;->keys()Lcom/google/common/collect/m1;
@@ -254,10 +239,8 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/Multimaps$e;->a:Lcom/google/common/collect/l1;
 
-    .line 2
     invoke-interface {v0}, Lcom/google/common/collect/l1;->entries()Ljava/util/Collection;
 
     move-result-object v0
@@ -268,7 +251,6 @@
 
     move-result-object v1
 
-    .line 3
     invoke-static {v0, v1}, Lcom/google/common/collect/n;->n(Ljava/util/Collection;Lcom/google/common/base/n;)Ljava/util/Collection;
 
     move-result-object v0
@@ -287,10 +269,8 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/Multimaps$e;->a:Lcom/google/common/collect/l1;
 
-    .line 2
     invoke-interface {v0}, Lcom/google/common/collect/l1;->entries()Ljava/util/Collection;
 
     move-result-object v0
@@ -305,7 +285,6 @@
 
     move-result-object v1
 
-    .line 3
     invoke-static {v0, v1}, Lcom/google/common/collect/Iterators;->c0(Ljava/util/Iterator;Lcom/google/common/base/n;)Ljava/util/Iterator;
 
     move-result-object v0
@@ -323,7 +302,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/Multimaps$e;->a:Lcom/google/common/collect/l1;
 
     invoke-interface {v0, p1}, Lcom/google/common/collect/l1;->get(Ljava/lang/Object;)Ljava/util/Collection;
@@ -340,7 +318,6 @@
 .method public isEmpty()Z
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/Multimaps$e;->a:Lcom/google/common/collect/l1;
 
     invoke-interface {v0}, Lcom/google/common/collect/l1;->isEmpty()Z
@@ -358,7 +335,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance p1, Ljava/lang/UnsupportedOperationException;
 
     invoke-direct {p1}, Ljava/lang/UnsupportedOperationException;-><init>()V
@@ -376,7 +352,6 @@
         }
     .end annotation
 
-    .line 2
     new-instance p1, Ljava/lang/UnsupportedOperationException;
 
     invoke-direct {p1}, Ljava/lang/UnsupportedOperationException;-><init>()V
@@ -394,7 +369,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance p1, Ljava/lang/UnsupportedOperationException;
 
     invoke-direct {p1}, Ljava/lang/UnsupportedOperationException;-><init>()V
@@ -405,7 +379,6 @@
 .method public remove(Ljava/lang/Object;Ljava/lang/Object;)Z
     .locals 0
 
-    .line 1
     invoke-virtual {p0, p1}, Lcom/google/common/collect/Multimaps$e;->get(Ljava/lang/Object;)Ljava/util/Collection;
 
     move-result-object p1
@@ -429,7 +402,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/Multimaps$e;->a:Lcom/google/common/collect/l1;
 
     invoke-interface {v0, p1}, Lcom/google/common/collect/l1;->removeAll(Ljava/lang/Object;)Ljava/util/Collection;
@@ -455,7 +427,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance p1, Ljava/lang/UnsupportedOperationException;
 
     invoke-direct {p1}, Ljava/lang/UnsupportedOperationException;-><init>()V
@@ -466,7 +437,6 @@
 .method public size()I
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/Multimaps$e;->a:Lcom/google/common/collect/l1;
 
     invoke-interface {v0}, Lcom/google/common/collect/l1;->size()I

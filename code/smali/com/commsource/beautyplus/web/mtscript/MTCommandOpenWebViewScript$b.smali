@@ -38,7 +38,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/beautyplus/web/mtscript/MTCommandOpenWebViewScript$b;->c:Lcom/commsource/beautyplus/web/mtscript/MTCommandOpenWebViewScript;
 
     invoke-direct {p0, p1, p2}, Lcom/meitu/webview/mtscript/i$c;-><init>(Lcom/meitu/webview/mtscript/i;Ljava/lang/Class;)V
@@ -55,7 +54,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Lcom/commsource/beautyplus/web/mtscript/MTCommandOpenWebViewScript$Model;
 
     invoke-virtual {p0, p1}, Lcom/commsource/beautyplus/web/mtscript/MTCommandOpenWebViewScript$b;->d(Lcom/commsource/beautyplus/web/mtscript/MTCommandOpenWebViewScript$Model;)V
@@ -78,7 +76,6 @@
 
     if-eqz p1, :cond_1
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/beautyplus/web/mtscript/MTCommandOpenWebViewScript$b;->c:Lcom/commsource/beautyplus/web/mtscript/MTCommandOpenWebViewScript;
 
     invoke-static {v1}, Lcom/commsource/beautyplus/web/mtscript/MTCommandOpenWebViewScript;->I(Lcom/commsource/beautyplus/web/mtscript/MTCommandOpenWebViewScript;)Lf/k/o0/c/c;
@@ -89,7 +86,6 @@
 
     if-eqz v1, :cond_1
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/beautyplus/web/mtscript/MTCommandOpenWebViewScript$b;->c:Lcom/commsource/beautyplus/web/mtscript/MTCommandOpenWebViewScript;
 
     invoke-static {v1}, Lcom/commsource/beautyplus/web/mtscript/MTCommandOpenWebViewScript;->I(Lcom/commsource/beautyplus/web/mtscript/MTCommandOpenWebViewScript;)Lf/k/o0/c/c;
@@ -100,7 +96,6 @@
 
     check-cast v1, Lcom/commsource/beautyplus/web/p$c;
 
-    .line 3
     invoke-virtual {p1}, Lcom/commsource/beautyplus/web/mtscript/MTCommandOpenWebViewScript$Model;->getTitle()Ljava/lang/String;
 
     move-result-object v2
@@ -123,7 +118,6 @@
 
     move-result-object p1
 
-    .line 4
     invoke-virtual {v1, v2, v3, v4, p1}, Lcom/commsource/beautyplus/web/p$c;->q(Ljava/lang/String;Ljava/lang/String;ZLjava/lang/String;)V
 
     goto :goto_0
@@ -139,7 +133,6 @@
 
     throw p1
 
-    .line 5
     :cond_1
     :goto_0
     iget-object p1, p0, Lcom/commsource/beautyplus/web/mtscript/MTCommandOpenWebViewScript$b;->c:Lcom/commsource/beautyplus/web/mtscript/MTCommandOpenWebViewScript;
@@ -150,7 +143,6 @@
 
     invoke-virtual {p1, v1}, Lcom/meitu/webview/mtscript/i;->k(Ljava/lang/String;)V
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

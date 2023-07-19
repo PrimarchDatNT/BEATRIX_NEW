@@ -13,13 +13,10 @@
 .method public constructor <init>(Ljava/lang/String;Ljava/lang/String;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/google/android/gms/internal/ads/yk2;->a:Ljava/lang/String;
 
-    .line 3
     iput-object p2, p0, Lcom/google/android/gms/internal/ads/yk2;->b:Ljava/lang/String;
 
     return-void
@@ -30,7 +27,6 @@
 .method public final a()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/yk2;->a:Ljava/lang/String;
 
     return-object v0
@@ -39,7 +35,6 @@
 .method public final b()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/yk2;->b:Ljava/lang/String;
 
     return-object v0
@@ -59,7 +54,6 @@
 
     if-eqz p1, :cond_2
 
-    .line 1
     const-class v2, Lcom/google/android/gms/internal/ads/yk2;
 
     invoke-virtual {p1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
@@ -70,11 +64,9 @@
 
     goto :goto_0
 
-    .line 2
     :cond_1
     check-cast p1, Lcom/google/android/gms/internal/ads/yk2;
 
-    .line 3
     iget-object v2, p0, Lcom/google/android/gms/internal/ads/yk2;->a:Ljava/lang/String;
 
     iget-object v3, p1, Lcom/google/android/gms/internal/ads/yk2;->a:Ljava/lang/String;
@@ -105,7 +97,6 @@
 .method public final hashCode()I
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/yk2;->a:Ljava/lang/String;
 
     invoke-virtual {v0}, Ljava/lang/String;->hashCode()I
@@ -114,7 +105,6 @@
 
     mul-int/lit8 v0, v0, 0x1f
 
-    .line 2
     iget-object v1, p0, Lcom/google/android/gms/internal/ads/yk2;->b:Ljava/lang/String;
 
     invoke-virtual {v1}, Ljava/lang/String;->hashCode()I
@@ -129,7 +119,6 @@
 .method public final toString()Ljava/lang/String;
     .locals 4
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/yk2;->a:Ljava/lang/String;
 
     iget-object v1, p0, Lcom/google/android/gms/internal/ads/yk2;->b:Ljava/lang/String;

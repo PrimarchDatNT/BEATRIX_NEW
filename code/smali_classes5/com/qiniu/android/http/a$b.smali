@@ -25,7 +25,6 @@
 .method constructor <init>(Lcom/qiniu/android/http/a;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/qiniu/android/http/a$b;->a:Lcom/qiniu/android/http/a;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -43,34 +42,28 @@
         }
     .end annotation
 
-    .line 1
     invoke-interface {p1}, Lokhttp3/Interceptor$Chain;->request()Lokhttp3/Request;
 
     move-result-object v0
 
-    .line 2
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v1
 
-    .line 3
     invoke-interface {p1, v0}, Lokhttp3/Interceptor$Chain;->proceed(Lokhttp3/Request;)Lokhttp3/Response;
 
     move-result-object v3
 
-    .line 4
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v4
 
-    .line 5
     invoke-virtual {v0}, Lokhttp3/Request;->tag()Ljava/lang/Object;
 
     move-result-object v0
 
     check-cast v0, Lcom/qiniu/android/http/a$j;
 
-    .line 6
     :try_start_0
     invoke-interface {p1}, Lokhttp3/Interceptor$Chain;->connection()Lokhttp3/Connection;
 
@@ -95,18 +88,15 @@
     :catch_0
     move-exception p1
 
-    .line 7
     invoke-virtual {p1}, Ljava/lang/Exception;->printStackTrace()V
 
     const-string p1, ""
 
-    .line 8
     :goto_0
     iput-object p1, v0, Lcom/qiniu/android/http/a$j;->a:Ljava/lang/String;
 
     sub-long/2addr v4, v1
 
-    .line 9
     iput-wide v4, v0, Lcom/qiniu/android/http/a$j;->b:J
 
     return-object v3

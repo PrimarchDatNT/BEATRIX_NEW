@@ -46,7 +46,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcotlin/collections/CollectionsKt___CollectionsKt$b;->a:Ljava/lang/Iterable;
 
     iput-object p2, p0, Lcotlin/collections/CollectionsKt___CollectionsKt$b;->b:Lcotlin/jvm/u/l;
@@ -66,7 +65,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcotlin/collections/CollectionsKt___CollectionsKt$b;->b:Lcotlin/jvm/u/l;
 
     invoke-interface {v0, p1}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
@@ -89,7 +87,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcotlin/collections/CollectionsKt___CollectionsKt$b;->a:Ljava/lang/Iterable;
 
     invoke-interface {v0}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;

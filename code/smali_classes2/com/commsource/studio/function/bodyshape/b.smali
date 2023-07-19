@@ -40,10 +40,8 @@
 
     sget v0, Lcom/res/provider/ResLAYOUT;->item_studio_sub_effect:I
 
-    .line 1
     invoke-direct {p0, p1, p2, v0}, Lcom/commsource/widget/h1/f;-><init>(Landroid/content/Context;Landroid/view/ViewGroup;I)V
 
-    .line 2
     iget-object p1, p0, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->itemView:Landroid/view/View;
 
     invoke-static {p1}, Lcom/commsource/beautyplus/f0/wj;->a(Landroid/view/View;)Lcom/commsource/beautyplus/f0/wj;
@@ -87,10 +85,8 @@
 
     invoke-static {p2, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-super {p0, p1, p2, p3}, Lcom/commsource/widget/h1/f;->k(ILcom/commsource/widget/h1/d;Ljava/util/List;)V
 
-    .line 2
     invoke-virtual {p2}, Lcom/commsource/widget/h1/d;->b()Ljava/lang/Object;
 
     move-result-object p1
@@ -101,7 +97,6 @@
 
     move-result-object p1
 
-    .line 3
     iget-object p3, p0, Lcom/commsource/studio/function/bodyshape/b;->p:Lcom/commsource/beautyplus/f0/wj;
 
     iget-object p3, p3, Lcom/commsource/beautyplus/f0/wj;->a:Lcom/commsource/widget/IconFrontView;
@@ -112,7 +107,6 @@
 
     invoke-virtual {p3, v1}, Landroid/widget/TextView;->setText(I)V
 
-    .line 4
     invoke-virtual {p2}, Lcom/commsource/widget/h1/d;->g()Z
 
     move-result p3
@@ -135,7 +129,6 @@
 
     if-nez p3, :cond_0
 
-    .line 5
     iget-object p3, p0, Lcom/commsource/studio/function/bodyshape/b;->p:Lcom/commsource/beautyplus/f0/wj;
 
     iget-object p3, p3, Lcom/commsource/beautyplus/f0/wj;->a:Lcom/commsource/widget/IconFrontView;
@@ -144,7 +137,6 @@
 
     invoke-virtual {p3, v5}, Landroid/widget/TextView;->setTextColor(I)V
 
-    .line 6
     iget-object p3, p0, Lcom/commsource/studio/function/bodyshape/b;->p:Lcom/commsource/beautyplus/f0/wj;
 
     iget-object p3, p3, Lcom/commsource/beautyplus/f0/wj;->b:Landroid/widget/TextView;
@@ -153,7 +145,6 @@
 
     goto :goto_0
 
-    .line 7
     :cond_0
     invoke-virtual {p2}, Lcom/commsource/widget/h1/d;->b()Ljava/lang/Object;
 
@@ -167,7 +158,6 @@
 
     if-eqz p3, :cond_1
 
-    .line 8
     iget-object p3, p0, Lcom/commsource/studio/function/bodyshape/b;->p:Lcom/commsource/beautyplus/f0/wj;
 
     iget-object p3, p3, Lcom/commsource/beautyplus/f0/wj;->a:Lcom/commsource/widget/IconFrontView;
@@ -180,7 +170,6 @@
 
     invoke-virtual {p3, v6}, Landroid/widget/TextView;->setTextColor(I)V
 
-    .line 9
     iget-object p3, p0, Lcom/commsource/studio/function/bodyshape/b;->p:Lcom/commsource/beautyplus/f0/wj;
 
     iget-object p3, p3, Lcom/commsource/beautyplus/f0/wj;->b:Landroid/widget/TextView;
@@ -193,7 +182,6 @@
 
     goto :goto_0
 
-    .line 10
     :cond_1
     iget-object p3, p0, Lcom/commsource/studio/function/bodyshape/b;->p:Lcom/commsource/beautyplus/f0/wj;
 
@@ -203,14 +191,12 @@
 
     invoke-virtual {p3, v5}, Landroid/widget/TextView;->setTextColor(I)V
 
-    .line 11
     iget-object p3, p0, Lcom/commsource/studio/function/bodyshape/b;->p:Lcom/commsource/beautyplus/f0/wj;
 
     iget-object p3, p3, Lcom/commsource/beautyplus/f0/wj;->b:Landroid/widget/TextView;
 
     invoke-virtual {p3, v5}, Landroid/widget/TextView;->setTextColor(I)V
 
-    .line 12
     :goto_0
     invoke-virtual {p2}, Lcom/commsource/widget/h1/d;->b()Ljava/lang/Object;
 
@@ -230,7 +216,6 @@
 
     if-nez p3, :cond_2
 
-    .line 13
     iget-object p3, p0, Lcom/commsource/studio/function/bodyshape/b;->p:Lcom/commsource/beautyplus/f0/wj;
 
     iget-object p3, p3, Lcom/commsource/beautyplus/f0/wj;->c:Landroid/view/View;
@@ -241,7 +226,6 @@
 
     goto :goto_1
 
-    .line 14
     :cond_2
     iget-object p3, p0, Lcom/commsource/studio/function/bodyshape/b;->p:Lcom/commsource/beautyplus/f0/wj;
 
@@ -251,14 +235,12 @@
 
     invoke-static {p3}, Lcom/commsource/util/l0;->v0(Landroid/view/View;)V
 
-    .line 15
     invoke-virtual {p2}, Lcom/commsource/widget/h1/d;->g()Z
 
     move-result p3
 
     if-eqz p3, :cond_3
 
-    .line 16
     iget-object p3, p0, Lcom/commsource/studio/function/bodyshape/b;->p:Lcom/commsource/beautyplus/f0/wj;
 
     iget-object p3, p3, Lcom/commsource/beautyplus/f0/wj;->c:Landroid/view/View;
@@ -271,7 +253,6 @@
 
     goto :goto_1
 
-    .line 17
     :cond_3
     iget-object p3, p0, Lcom/commsource/studio/function/bodyshape/b;->p:Lcom/commsource/beautyplus/f0/wj;
 
@@ -283,7 +264,6 @@
 
     invoke-static {p3, v1}, Lcom/commsource/util/l0;->X(Landroid/view/View;I)V
 
-    .line 18
     :goto_1
     iget-object p3, p0, Lcom/commsource/studio/function/bodyshape/b;->p:Lcom/commsource/beautyplus/f0/wj;
 
@@ -303,7 +283,6 @@
 
     invoke-virtual {p3, p1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 19
     iget-object p1, p0, Lcom/commsource/studio/function/bodyshape/b;->p:Lcom/commsource/beautyplus/f0/wj;
 
     const-string p3, "viewBinding"
@@ -330,7 +309,6 @@
 
     invoke-virtual {p1, v2}, Landroid/view/View;->setClickable(Z)V
 
-    .line 20
     iget-object p1, p0, Lcom/commsource/studio/function/bodyshape/b;->p:Lcom/commsource/beautyplus/f0/wj;
 
     invoke-static {p1, p3}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
@@ -353,7 +331,6 @@
 
     invoke-virtual {p1, p2}, Landroid/view/View;->setFocusable(Z)V
 
-    .line 21
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -366,7 +343,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/function/bodyshape/b;->p:Lcom/commsource/beautyplus/f0/wj;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

@@ -18,7 +18,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -43,7 +42,6 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    .line 1
     invoke-static {p0}, Lcom/mopub/mobileads/MoPubRewardedAdManager;->getGlobalMediationSettings(Ljava/lang/Class;)Lcom/mopub/common/MediationSettings;
 
     move-result-object p0
@@ -76,7 +74,6 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    .line 1
     invoke-static {p0, p1}, Lcom/mopub/mobileads/MoPubRewardedAdManager;->getInstanceMediationSettings(Ljava/lang/Class;Ljava/lang/String;)Lcom/mopub/common/MediationSettings;
 
     move-result-object p0
@@ -93,7 +90,6 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    .line 1
     invoke-static {p0, p1}, Lcom/mopub/mobileads/MoPubRewardedAdManager;->init(Landroid/app/Activity;[Lcom/mopub/common/MediationSettings;)V
 
     return-void
@@ -108,7 +104,6 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    .line 1
     invoke-static {p0}, Lcom/mopub/mobileads/MoPubRewardedVideos;->setRewardedVideoListener(Lcom/mopub/mobileads/MoPubRewardedVideoListener;)V
 
     return-void
@@ -123,7 +118,6 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    .line 1
     invoke-static {p0}, Lcom/mopub/mobileads/MoPubRewardedAdManager;->updateActivity(Landroid/app/Activity;)V
 
     return-void

@@ -17,10 +17,8 @@
 .method public constructor <init>(Lcom/commsource/easyeditor/entity/FaceEffectEnum;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/commsource/easyeditor/entity/f;->a:Lcom/commsource/easyeditor/entity/FaceEffectEnum;
 
     return-void
@@ -29,24 +27,20 @@
 .method public constructor <init>(Lcom/commsource/easyeditor/entity/f;)V
     .locals 1
 
-    .line 3
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 4
     invoke-virtual {p1}, Lcom/commsource/easyeditor/entity/f;->c()Lcom/commsource/easyeditor/entity/FaceEffectEnum;
 
     move-result-object v0
 
     iput-object v0, p0, Lcom/commsource/easyeditor/entity/f;->a:Lcom/commsource/easyeditor/entity/FaceEffectEnum;
 
-    .line 5
     invoke-virtual {p1}, Lcom/commsource/easyeditor/entity/f;->a()F
 
     move-result v0
 
     iput v0, p0, Lcom/commsource/easyeditor/entity/f;->b:F
 
-    .line 6
     invoke-virtual {p1}, Lcom/commsource/easyeditor/entity/f;->d()I
 
     move-result p1
@@ -65,7 +59,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/easyeditor/entity/f;->b:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -80,7 +73,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -117,7 +109,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/easyeditor/entity/f;->a:Lcom/commsource/easyeditor/entity/FaceEffectEnum;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -132,7 +123,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/easyeditor/entity/f;->c:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -147,7 +137,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/easyeditor/entity/f;->d:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -166,12 +155,10 @@
 
     if-ne p0, p1, :cond_0
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
 
-    .line 2
     :cond_0
     instance-of v2, p1, Lcom/commsource/easyeditor/entity/f;
 
@@ -179,16 +166,13 @@
 
     if-nez v2, :cond_1
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v3
 
-    .line 4
     :cond_1
     check-cast p1, Lcom/commsource/easyeditor/entity/f;
 
-    .line 5
     iget v2, p1, Lcom/commsource/easyeditor/entity/f;->b:F
 
     iget v4, p0, Lcom/commsource/easyeditor/entity/f;->b:F
@@ -229,10 +213,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/easyeditor/entity/f;->b:F
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -245,10 +227,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/easyeditor/entity/f;->d:Z
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -261,10 +241,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/easyeditor/entity/f;->c:I
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -281,7 +259,6 @@
 
     new-array v1, v1, [Ljava/lang/Object;
 
-    .line 1
     iget-object v2, p0, Lcom/commsource/easyeditor/entity/f;->a:Lcom/commsource/easyeditor/entity/FaceEffectEnum;
 
     const/4 v3, 0x0

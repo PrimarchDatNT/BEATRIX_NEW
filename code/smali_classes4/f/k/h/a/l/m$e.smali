@@ -27,7 +27,6 @@
 .method constructor <init>(Lf/k/h/a/l/m;Ljava/lang/Runnable;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lf/k/h/a/l/m$e;->b:Lf/k/h/a/l/m;
 
     iput-object p2, p0, Lf/k/h/a/l/m$e;->a:Ljava/lang/Runnable;
@@ -46,7 +45,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p1}, Lcom/android/billingclient/api/h;->b()I
 
     move-result v1
@@ -65,7 +63,6 @@
     :goto_0
     invoke-static {v1}, Lf/k/h/a/l/v;->u(Z)V
 
-    .line 2
     invoke-static {}, Lf/k/h/a/l/m;->s()Ljava/lang/String;
 
     move-result-object v1
@@ -90,7 +87,6 @@
 
     invoke-static {v1, v3}, Lf/k/h/a/c;->d(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 3
     iget-object v1, p0, Lf/k/h/a/l/m$e;->b:Lf/k/h/a/l/m;
 
     invoke-virtual {p1}, Lcom/android/billingclient/api/h;->b()I
@@ -99,24 +95,20 @@
 
     invoke-virtual {v1, v3}, Lf/k/h/a/l/l;->n(I)V
 
-    .line 4
     invoke-virtual {p1}, Lcom/android/billingclient/api/h;->b()I
 
     move-result v1
 
     if-nez v1, :cond_1
 
-    .line 5
     iget-object v1, p0, Lf/k/h/a/l/m$e;->b:Lf/k/h/a/l/m;
 
     invoke-static {v1, v2}, Lf/k/h/a/l/m;->w(Lf/k/h/a/l/m;Z)Z
 
-    .line 6
     iget-object v1, p0, Lf/k/h/a/l/m$e;->a:Ljava/lang/Runnable;
 
     if-eqz v1, :cond_2
 
-    .line 7
     invoke-interface {v1}, Ljava/lang/Runnable;->run()V
 
     goto :goto_1
@@ -124,28 +116,24 @@
     :cond_1
     const/4 v1, 0x3
 
-    .line 8
     invoke-virtual {p1}, Lcom/android/billingclient/api/h;->b()I
 
     move-result v2
 
     if-ne v1, v2, :cond_2
 
-    .line 9
     invoke-static {}, Lf/k/h/a/l/v;->r()Lf/k/h/a/l/o;
 
     move-result-object v1
 
     invoke-interface {v1}, Lf/k/h/a/l/o;->clear()V
 
-    .line 10
     invoke-static {}, Lf/k/h/a/l/v;->r()Lf/k/h/a/l/o;
 
     move-result-object v1
 
     invoke-interface {v1}, Lf/k/h/a/l/o;->e()V
 
-    .line 11
     :cond_2
     :goto_1
     iget-object v1, p0, Lf/k/h/a/l/m$e;->b:Lf/k/h/a/l/m;
@@ -156,7 +144,6 @@
 
     invoke-static {v1, p1}, Lf/k/h/a/l/m;->x(Lf/k/h/a/l/m;I)I
 
-    .line 12
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -169,14 +156,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lf/k/h/a/l/m$e;->b:Lf/k/h/a/l/m;
 
     const/4 v2, 0x0
 
     invoke-static {v1, v2}, Lf/k/h/a/l/m;->w(Lf/k/h/a/l/m;Z)Z
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

@@ -27,7 +27,6 @@
 .method constructor <init>(Ljava/util/Collection;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/android/gms/tasks/l0;->a:Ljava/util/Collection;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -49,17 +48,14 @@
         }
     .end annotation
 
-    .line 1
     new-instance p1, Ljava/util/ArrayList;
 
     invoke-direct {p1}, Ljava/util/ArrayList;-><init>()V
 
-    .line 2
     iget-object v0, p0, Lcom/google/android/gms/tasks/l0;->a:Ljava/util/Collection;
 
     invoke-interface {p1, v0}, Ljava/util/List;->addAll(Ljava/util/Collection;)Z
 
-    .line 3
     invoke-static {p1}, Lcom/google/android/gms/tasks/n;->g(Ljava/lang/Object;)Lcom/google/android/gms/tasks/k;
 
     move-result-object p1

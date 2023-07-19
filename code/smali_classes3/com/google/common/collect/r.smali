@@ -40,10 +40,8 @@
         }
     .end annotation
 
-    .line 4
     invoke-direct {p0}, Lcom/google/common/collect/AbstractIterator;-><init>()V
 
-    .line 5
     invoke-static {p1}, Lcom/google/common/base/t;->E(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -63,10 +61,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Lcom/google/common/collect/AbstractIterator;-><init>()V
 
-    .line 2
     new-instance v0, Ljava/util/ArrayDeque;
 
     array-length v1, p1
@@ -75,7 +71,6 @@
 
     iput-object v0, p0, Lcom/google/common/collect/r;->c:Ljava/util/Queue;
 
-    .line 3
     invoke-static {v0, p1}, Ljava/util/Collections;->addAll(Ljava/util/Collection;[Ljava/lang/Object;)Z
 
     return-void
@@ -91,7 +86,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/r;->c:Ljava/util/Queue;
 
     invoke-interface {v0}, Ljava/util/Queue;->isEmpty()Z

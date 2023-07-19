@@ -16,7 +16,6 @@
 .method constructor <init>(Ljava/lang/String;Ljava/lang/Float;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1, p2}, Lcom/google/android/gms/common/l/a;-><init>(Ljava/lang/String;Ljava/lang/Object;)V
 
     return-void
@@ -27,7 +26,6 @@
 .method protected final synthetic k(Ljava/lang/String;)Ljava/lang/Object;
     .locals 2
 
-    .line 1
     iget-object p1, p0, Lcom/google/android/gms/common/l/a;->a:Ljava/lang/String;
 
     iget-object v0, p0, Lcom/google/android/gms/common/l/a;->b:Ljava/lang/Object;

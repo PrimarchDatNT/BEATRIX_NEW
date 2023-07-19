@@ -35,7 +35,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -52,7 +51,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v1
@@ -61,15 +59,12 @@
 
     const/4 p0, 0x2
 
-    .line 2
     invoke-interface {p2, p0, p1}, Lcom/commsource/mypage/album/y$f;->a(ILjava/lang/String;)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 4
     :cond_0
     new-instance v1, Lcom/commsource/mypage/album/y$a;
 
@@ -79,7 +74,6 @@
 
     invoke-static {v1}, Lcom/commsource/util/c2;->e(Lcom/commsource/util/u2/a;)V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -96,7 +90,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v1
@@ -105,15 +98,12 @@
 
     const/4 p1, 0x2
 
-    .line 2
     invoke-interface {p3, p1, p0}, Lcom/commsource/mypage/album/y$f;->a(ILjava/lang/String;)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 4
     :cond_0
     new-instance v7, Lcom/commsource/mypage/album/y$b;
 
@@ -133,7 +123,6 @@
 
     invoke-static {v7}, Lcom/commsource/util/c2;->e(Lcom/commsource/util/u2/a;)V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -150,7 +139,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v1
@@ -169,15 +157,12 @@
 
     move-object v4, p1
 
-    .line 2
     invoke-interface/range {v2 .. v7}, Lcom/commsource/mypage/album/y$g;->a(ILjava/lang/String;Lcom/meitu/core/types/FaceData;II)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 4
     :cond_0
     new-instance v1, Lcom/commsource/mypage/album/y$c;
 
@@ -187,7 +172,6 @@
 
     invoke-static {v1}, Lcom/commsource/util/c2;->e(Lcom/commsource/util/u2/a;)V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -213,7 +197,6 @@
 
     if-ne p1, v1, :cond_4
 
-    .line 1
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v1
@@ -226,7 +209,6 @@
 
     sget p1, Lcom/res/provider/ResSTRING;->my_work_date_today:I
 
-    .line 2
     invoke-virtual {p0, p1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
     move-result-object p0
@@ -235,7 +217,6 @@
 
     return-object p0
 
-    .line 3
     :cond_0
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
@@ -253,7 +234,6 @@
 
     sget p1, Lcom/res/provider/ResSTRING;->my_work_date_yesterday:I
 
-    .line 4
     invoke-virtual {p0, p1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
     move-result-object p0
@@ -262,7 +242,6 @@
 
     return-object p0
 
-    .line 5
     :cond_1
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
@@ -276,7 +255,6 @@
 
     if-gez p1, :cond_2
 
-    .line 6
     new-instance p0, Ljava/text/SimpleDateFormat;
 
     const-string p1, "EEEE"
@@ -295,7 +273,6 @@
 
     return-object p0
 
-    .line 7
     :cond_2
     invoke-static {p0}, Lcom/commsource/util/b1;->n(Landroid/content/Context;)Z
 
@@ -303,7 +280,6 @@
 
     if-eqz p1, :cond_3
 
-    .line 8
     new-instance p0, Ljava/text/SimpleDateFormat;
 
     const-string p1, "MM"
@@ -318,7 +294,6 @@
 
     move-result-object p0
 
-    .line 9
     new-instance p1, Ljava/text/SimpleDateFormat;
 
     const-string v1, "dd"
@@ -333,7 +308,6 @@
 
     move-result-object p1
 
-    .line 10
     new-instance p2, Ljava/lang/StringBuilder;
 
     invoke-direct {p2}, Ljava/lang/StringBuilder;-><init>()V
@@ -356,13 +330,11 @@
 
     goto :goto_0
 
-    .line 11
     :cond_3
     new-instance p1, Ljava/text/SimpleDateFormat;
 
     sget v1, Lcom/res/provider/ResSTRING;->my_work_date_format:I
 
-    .line 12
     invoke-virtual {p0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
     move-result-object p0
@@ -377,34 +349,28 @@
 
     move-result-object p0
 
-    .line 13
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
 
-    .line 14
     :cond_4
     invoke-static {}, Ljava/util/Calendar;->getInstance()Ljava/util/Calendar;
 
     move-result-object p0
 
-    .line 15
     invoke-virtual {p0, p2, p3}, Ljava/util/Calendar;->setTimeInMillis(J)V
 
-    .line 16
     invoke-virtual {p0, v1}, Ljava/util/Calendar;->get(I)I
 
     move-result v2
 
-    .line 17
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v3
 
     invoke-virtual {p0, v3, v4}, Ljava/util/Calendar;->setTimeInMillis(J)V
 
-    .line 18
     invoke-virtual {p0, v1}, Ljava/util/Calendar;->get(I)I
 
     move-result p0
@@ -415,7 +381,6 @@
 
     if-eq p1, p0, :cond_5
 
-    .line 19
     new-instance p0, Ljava/text/SimpleDateFormat;
 
     const-string p1, "MMMM yyyy"
@@ -434,7 +399,6 @@
 
     return-object p0
 
-    .line 20
     :cond_5
     new-instance p0, Ljava/text/SimpleDateFormat;
 
@@ -475,7 +439,6 @@
 
     mul-long p0, p0, v1
 
-    .line 1
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -497,7 +460,6 @@
 
     const-wide/16 v1, 0x3e8
 
-    .line 1
     div-long/2addr p0, v1
 
     :cond_0
@@ -513,7 +475,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/cloudalbum/bean/CAImageInfo;->f()J
 
     move-result-wide v1
@@ -526,7 +487,6 @@
 
     if-nez v5, :cond_0
 
-    .line 2
     invoke-virtual {p0}, Lcom/commsource/cloudalbum/bean/CAImageInfo;->j()Ljava/lang/String;
 
     move-result-object p0
@@ -545,7 +505,6 @@
 
     return p0
 
-    .line 3
     :cond_0
     invoke-virtual {p0}, Lcom/commsource/cloudalbum/bean/CAImageInfo;->f()J
 
@@ -589,7 +548,6 @@
 
     if-eqz p0, :cond_1
 
-    .line 1
     invoke-interface {p0}, Ljava/util/List;->isEmpty()Z
 
     move-result v1
@@ -598,18 +556,15 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     sget-object v1, Lcom/commsource/mypage/album/o;->a:Lcom/commsource/mypage/album/o;
 
     invoke-static {p0, v1}, Ljava/util/Collections;->sort(Ljava/util/List;Ljava/util/Comparator;)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 4
     :cond_1
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

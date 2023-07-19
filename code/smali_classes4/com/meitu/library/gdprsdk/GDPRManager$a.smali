@@ -21,7 +21,6 @@
 .method constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -36,14 +35,12 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
 
     const/16 v1, 0x18
 
     if-lt v0, v1, :cond_0
 
-    .line 2
     invoke-static {}, Landroid/os/LocaleList;->getDefault()Landroid/os/LocaleList;
 
     move-result-object v0
@@ -56,13 +53,11 @@
 
     goto :goto_0
 
-    .line 3
     :cond_0
     invoke-static {}, Ljava/util/Locale;->getDefault()Ljava/util/Locale;
 
     move-result-object v0
 
-    .line 4
     :goto_0
     sget-object v1, Lcom/meitu/library/gdprsdk/GDPRManager;->f:Ljava/util/List;
 

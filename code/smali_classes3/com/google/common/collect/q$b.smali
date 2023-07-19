@@ -24,10 +24,8 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-direct {p0, v0}, Lcom/google/common/collect/q;-><init>(Lcom/google/common/collect/q$a;)V
 
-    .line 2
     iput p1, p0, Lcom/google/common/collect/q$b;->d:I
 
     return-void
@@ -116,7 +114,6 @@
 .method public m()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lcom/google/common/collect/q$b;->d:I
 
     return v0

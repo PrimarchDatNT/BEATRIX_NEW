@@ -24,7 +24,6 @@
 .method constructor <init>(Lcom/commsource/puzzle/patchedworld/u/a;Ljava/lang/String;Lcom/commsource/puzzle/patchedworld/t/a;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/puzzle/patchedworld/u/a$c;->p:Lcom/commsource/puzzle/patchedworld/u/a;
 
     iput-object p3, p0, Lcom/commsource/puzzle/patchedworld/u/a$c;->g:Lcom/commsource/puzzle/patchedworld/t/a;
@@ -45,7 +44,6 @@
 
     const-wide/16 v1, 0x32
 
-    .line 1
     :try_start_0
     invoke-static {v1, v2}, Ljava/lang/Thread;->sleep(J)V
     :try_end_0
@@ -56,7 +54,6 @@
     :catch_0
     move-exception v1
 
-    .line 2
     invoke-virtual {v1}, Ljava/lang/InterruptedException;->toString()Ljava/lang/String;
 
     move-result-object v1
@@ -65,7 +62,6 @@
 
     invoke-static {v2, v1}, Lcom/meitu/library/util/Debug/Debug;->n(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 3
     :goto_0
     :try_start_1
     iget-object v1, p0, Lcom/commsource/puzzle/patchedworld/u/a$c;->g:Lcom/commsource/puzzle/patchedworld/t/a;
@@ -78,12 +74,10 @@
 
     if-nez v1, :cond_0
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 5
     :cond_0
     :try_start_2
     iget-object v2, p0, Lcom/commsource/puzzle/patchedworld/u/a$c;->p:Lcom/commsource/puzzle/patchedworld/u/a;
@@ -92,7 +86,6 @@
 
     const/4 v3, 0x1
 
-    .line 6
     invoke-static {v2, v1, v3}, Lcom/commsource/puzzle/patchedworld/u/a;->g(Lcom/commsource/puzzle/patchedworld/u/a;Lcom/commsource/puzzle/patchedworld/o;Z)Z
 
     move-result v2
@@ -101,17 +94,14 @@
 
     if-nez v2, :cond_1
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 8
     :cond_1
     :try_start_3
     invoke-virtual {v1}, Lcom/commsource/puzzle/patchedworld/o;->u()V
 
-    .line 9
     iget-object v2, p0, Lcom/commsource/puzzle/patchedworld/u/a$c;->p:Lcom/commsource/puzzle/patchedworld/u/a;
 
     invoke-static {v2}, Lcom/commsource/puzzle/patchedworld/u/a;->h(Lcom/commsource/puzzle/patchedworld/u/a;)Lcom/commsource/puzzle/patchedworld/PatchedWorldView;
@@ -124,10 +114,8 @@
 
     if-eqz v1, :cond_2
 
-    .line 10
     invoke-virtual {v1}, Lcom/commsource/puzzle/patchedworld/o;->B()V
 
-    .line 11
     :cond_2
     new-instance v1, Lcom/commsource/puzzle/patchedworld/u/a$c$a;
 
@@ -142,10 +130,8 @@
     :catch_1
     move-exception v1
 
-    .line 12
     invoke-static {v1}, Lcom/meitu/library/util/Debug/Debug;->q(Ljava/lang/Throwable;)V
 
-    .line 13
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

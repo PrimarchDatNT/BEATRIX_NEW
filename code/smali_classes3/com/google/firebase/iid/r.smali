@@ -35,23 +35,18 @@
 .method constructor <init>(IILandroid/os/Bundle;)V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     new-instance v0, Lcom/google/android/gms/tasks/l;
 
     invoke-direct {v0}, Lcom/google/android/gms/tasks/l;-><init>()V
 
     iput-object v0, p0, Lcom/google/firebase/iid/r;->b:Lcom/google/android/gms/tasks/l;
 
-    .line 3
     iput p1, p0, Lcom/google/firebase/iid/r;->a:I
 
-    .line 4
     iput p2, p0, Lcom/google/firebase/iid/r;->c:I
 
-    .line 5
     iput-object p3, p0, Lcom/google/firebase/iid/r;->d:Landroid/os/Bundle;
 
     return-void
@@ -69,14 +64,12 @@
 
     const/4 v1, 0x3
 
-    .line 1
     invoke-static {v0, v1}, Landroid/util/Log;->isLoggable(Ljava/lang/String;I)Z
 
     move-result v1
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-static {p0}, Ljava/lang/String;->valueOf(Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object v1
@@ -127,7 +120,6 @@
 
     invoke-static {v0, v1}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 3
     :cond_0
     iget-object v0, p0, Lcom/google/firebase/iid/r;->b:Lcom/google/android/gms/tasks/l;
 
@@ -148,14 +140,12 @@
 
     const/4 v1, 0x3
 
-    .line 1
     invoke-static {v0, v1}, Landroid/util/Log;->isLoggable(Ljava/lang/String;I)Z
 
     move-result v1
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-static {p0}, Ljava/lang/String;->valueOf(Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object v1
@@ -206,7 +196,6 @@
 
     invoke-static {v0, v1}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 3
     :cond_0
     iget-object v0, p0, Lcom/google/firebase/iid/r;->b:Lcom/google/android/gms/tasks/l;
 
@@ -221,7 +210,6 @@
 .method public toString()Ljava/lang/String;
     .locals 5
 
-    .line 1
     iget v0, p0, Lcom/google/firebase/iid/r;->c:I
 
     iget v1, p0, Lcom/google/firebase/iid/r;->a:I

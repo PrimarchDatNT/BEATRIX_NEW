@@ -54,7 +54,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/idcard/IDCardConfirmCover$b;->a:Lcom/commsource/camera/xcamera/idcard/IDCardConfirmCover;
 
     invoke-virtual {v1}, Lcom/commsource/camera/xcamera/cover/AbsCover;->A()Landroidx/databinding/ViewDataBinding;
@@ -71,12 +70,10 @@
 
     invoke-virtual {v1, p1}, Landroid/widget/ImageView;->setImageBitmap(Landroid/graphics/Bitmap;)V
 
-    .line 2
     new-instance p1, Lcom/meitu/library/hwanalytics/spm/e/a;
 
     invoke-direct {p1}, Lcom/meitu/library/hwanalytics/spm/e/a;-><init>()V
 
-    .line 3
     const-class v1, Lcom/commsource/camera/xcamera/idcard/IDCardConfirmCover;
 
     invoke-virtual {v1}, Ljava/lang/Class;->getSimpleName()Ljava/lang/String;
@@ -85,12 +82,10 @@
 
     invoke-virtual {p1, v1}, Lcom/meitu/library/hwanalytics/spm/e/a;->s(Ljava/lang/String;)V
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/camera/xcamera/idcard/IDCardConfirmCover$b;->a:Lcom/commsource/camera/xcamera/idcard/IDCardConfirmCover;
 
     invoke-virtual {p1, v1}, Lcom/meitu/library/hwanalytics/spm/e/a;->t(Ljava/lang/Object;)V
 
-    .line 5
     sget-object v1, Lcom/meitu/library/hwanalytics/spm/SPMManager;->h:Lcom/meitu/library/hwanalytics/spm/SPMManager$a;
 
     invoke-virtual {v1}, Lcom/meitu/library/hwanalytics/spm/SPMManager$a;->a()Lcom/meitu/library/hwanalytics/spm/SPMManager;
@@ -99,7 +94,6 @@
 
     invoke-virtual {v1, p1}, Lcom/meitu/library/hwanalytics/spm/SPMManager;->p(Lcom/meitu/library/hwanalytics/spm/e/a;)V
 
-    .line 6
     iget-object p1, p0, Lcom/commsource/camera/xcamera/idcard/IDCardConfirmCover$b;->a:Lcom/commsource/camera/xcamera/idcard/IDCardConfirmCover;
 
     invoke-virtual {p1}, Lcom/commsource/camera/xcamera/cover/AbsCover;->A()Landroidx/databinding/ViewDataBinding;
@@ -116,7 +110,6 @@
 
     invoke-static {p1}, Lcom/commsource/util/l0;->v0(Landroid/view/View;)V
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -129,7 +122,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Lcom/commsource/camera/xcamera/bean/c;
 
     invoke-virtual {p0, p1}, Lcom/commsource/camera/xcamera/idcard/IDCardConfirmCover$b;->a(Lcom/commsource/camera/xcamera/bean/c;)V

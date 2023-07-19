@@ -70,7 +70,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Ljava/lang/Number;
 
     invoke-virtual {p1}, Ljava/lang/Number;->intValue()I
@@ -93,21 +92,18 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 2
     sget-object v1, Lcom/commsource/studio/sticker/StickerConfig;->F:Lcom/commsource/studio/sticker/StickerConfig;
 
     invoke-virtual {v1}, Lcom/commsource/studio/sticker/StickerConfig;->T()Ljava/util/ArrayList;
 
     move-result-object v2
 
-    .line 3
     invoke-virtual {v2}, Ljava/util/ArrayList;->isEmpty()Z
 
     move-result v3
 
     if-eqz v3, :cond_0
 
-    .line 4
     sget-object v1, Lcom/commsource/studio/sticker/StickerManager;->p:Lcom/commsource/studio/sticker/StickerManager;
 
     invoke-static {v1}, Lcom/commsource/studio/sticker/StickerManager;->n(Lcom/commsource/studio/sticker/StickerManager;)Ljava/util/ArrayList;
@@ -124,7 +120,6 @@
 
     if-nez v2, :cond_1
 
-    .line 5
     invoke-static {v1}, Lcom/commsource/studio/sticker/StickerManager;->n(Lcom/commsource/studio/sticker/StickerManager;)Ljava/util/ArrayList;
 
     move-result-object v1
@@ -137,7 +132,6 @@
 
     goto :goto_0
 
-    .line 6
     :cond_0
     invoke-static {p1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -151,17 +145,14 @@
 
     const/4 v3, 0x0
 
-    .line 7
     invoke-static {p1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object p1
 
     invoke-virtual {v2, v3, p1}, Ljava/util/ArrayList;->add(ILjava/lang/Object;)V
 
-    .line 8
     invoke-virtual {v1, v2}, Lcom/commsource/studio/sticker/StickerConfig;->m0(Ljava/util/List;)V
 
-    .line 9
     :cond_1
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

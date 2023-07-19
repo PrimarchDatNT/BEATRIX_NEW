@@ -85,7 +85,6 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
     new-instance v0, Lcom/google/android/gms/internal/ads/g92;
 
     invoke-direct {v0}, Lcom/google/android/gms/internal/ads/g92;-><init>()V
@@ -98,87 +97,74 @@
 .method constructor <init>(Landroid/os/Parcel;)V
     .locals 4
 
-    .line 29
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 30
     invoke-virtual {p1}, Landroid/os/Parcel;->readString()Ljava/lang/String;
 
     move-result-object v0
 
     iput-object v0, p0, Lcom/google/android/gms/internal/ads/zzhq;->a:Ljava/lang/String;
 
-    .line 31
     invoke-virtual {p1}, Landroid/os/Parcel;->readString()Ljava/lang/String;
 
     move-result-object v0
 
     iput-object v0, p0, Lcom/google/android/gms/internal/ads/zzhq;->f:Ljava/lang/String;
 
-    .line 32
     invoke-virtual {p1}, Landroid/os/Parcel;->readString()Ljava/lang/String;
 
     move-result-object v0
 
     iput-object v0, p0, Lcom/google/android/gms/internal/ads/zzhq;->g:Ljava/lang/String;
 
-    .line 33
     invoke-virtual {p1}, Landroid/os/Parcel;->readString()Ljava/lang/String;
 
     move-result-object v0
 
     iput-object v0, p0, Lcom/google/android/gms/internal/ads/zzhq;->c:Ljava/lang/String;
 
-    .line 34
     invoke-virtual {p1}, Landroid/os/Parcel;->readInt()I
 
     move-result v0
 
     iput v0, p0, Lcom/google/android/gms/internal/ads/zzhq;->b:I
 
-    .line 35
     invoke-virtual {p1}, Landroid/os/Parcel;->readInt()I
 
     move-result v0
 
     iput v0, p0, Lcom/google/android/gms/internal/ads/zzhq;->p:I
 
-    .line 36
     invoke-virtual {p1}, Landroid/os/Parcel;->readInt()I
 
     move-result v0
 
     iput v0, p0, Lcom/google/android/gms/internal/ads/zzhq;->L:I
 
-    .line 37
     invoke-virtual {p1}, Landroid/os/Parcel;->readInt()I
 
     move-result v0
 
     iput v0, p0, Lcom/google/android/gms/internal/ads/zzhq;->M:I
 
-    .line 38
     invoke-virtual {p1}, Landroid/os/Parcel;->readFloat()F
 
     move-result v0
 
     iput v0, p0, Lcom/google/android/gms/internal/ads/zzhq;->N:F
 
-    .line 39
     invoke-virtual {p1}, Landroid/os/Parcel;->readInt()I
 
     move-result v0
 
     iput v0, p0, Lcom/google/android/gms/internal/ads/zzhq;->O:I
 
-    .line 40
     invoke-virtual {p1}, Landroid/os/Parcel;->readFloat()F
 
     move-result v0
 
     iput v0, p0, Lcom/google/android/gms/internal/ads/zzhq;->P:F
 
-    .line 41
     invoke-virtual {p1}, Landroid/os/Parcel;->readInt()I
 
     move-result v0
@@ -197,7 +183,6 @@
     :goto_0
     if-eqz v0, :cond_1
 
-    .line 42
     invoke-virtual {p1}, Landroid/os/Parcel;->createByteArray()[B
 
     move-result-object v0
@@ -210,14 +195,12 @@
     :goto_1
     iput-object v0, p0, Lcom/google/android/gms/internal/ads/zzhq;->R:[B
 
-    .line 43
     invoke-virtual {p1}, Landroid/os/Parcel;->readInt()I
 
     move-result v0
 
     iput v0, p0, Lcom/google/android/gms/internal/ads/zzhq;->Q:I
 
-    .line 44
     const-class v0, Lcom/google/android/gms/internal/ads/zzpt;
 
     invoke-virtual {v0}, Ljava/lang/Class;->getClassLoader()Ljava/lang/ClassLoader;
@@ -232,75 +215,64 @@
 
     iput-object v0, p0, Lcom/google/android/gms/internal/ads/zzhq;->S:Lcom/google/android/gms/internal/ads/zzpt;
 
-    .line 45
     invoke-virtual {p1}, Landroid/os/Parcel;->readInt()I
 
     move-result v0
 
     iput v0, p0, Lcom/google/android/gms/internal/ads/zzhq;->T:I
 
-    .line 46
     invoke-virtual {p1}, Landroid/os/Parcel;->readInt()I
 
     move-result v0
 
     iput v0, p0, Lcom/google/android/gms/internal/ads/zzhq;->U:I
 
-    .line 47
     invoke-virtual {p1}, Landroid/os/Parcel;->readInt()I
 
     move-result v0
 
     iput v0, p0, Lcom/google/android/gms/internal/ads/zzhq;->V:I
 
-    .line 48
     invoke-virtual {p1}, Landroid/os/Parcel;->readInt()I
 
     move-result v0
 
     iput v0, p0, Lcom/google/android/gms/internal/ads/zzhq;->W:I
 
-    .line 49
     invoke-virtual {p1}, Landroid/os/Parcel;->readInt()I
 
     move-result v0
 
     iput v0, p0, Lcom/google/android/gms/internal/ads/zzhq;->X:I
 
-    .line 50
     invoke-virtual {p1}, Landroid/os/Parcel;->readInt()I
 
     move-result v0
 
     iput v0, p0, Lcom/google/android/gms/internal/ads/zzhq;->Z:I
 
-    .line 51
     invoke-virtual {p1}, Landroid/os/Parcel;->readString()Ljava/lang/String;
 
     move-result-object v0
 
     iput-object v0, p0, Lcom/google/android/gms/internal/ads/zzhq;->a0:Ljava/lang/String;
 
-    .line 52
     invoke-virtual {p1}, Landroid/os/Parcel;->readInt()I
 
     move-result v0
 
     iput v0, p0, Lcom/google/android/gms/internal/ads/zzhq;->b0:I
 
-    .line 53
     invoke-virtual {p1}, Landroid/os/Parcel;->readLong()J
 
     move-result-wide v2
 
     iput-wide v2, p0, Lcom/google/android/gms/internal/ads/zzhq;->Y:J
 
-    .line 54
     invoke-virtual {p1}, Landroid/os/Parcel;->readInt()I
 
     move-result v0
 
-    .line 55
     new-instance v2, Ljava/util/ArrayList;
 
     invoke-direct {v2, v0}, Ljava/util/ArrayList;-><init>(I)V
@@ -310,7 +282,6 @@
     :goto_2
     if-ge v1, v0, :cond_2
 
-    .line 56
     iget-object v2, p0, Lcom/google/android/gms/internal/ads/zzhq;->J:Ljava/util/List;
 
     invoke-virtual {p1}, Landroid/os/Parcel;->createByteArray()[B
@@ -323,7 +294,6 @@
 
     goto :goto_2
 
-    .line 57
     :cond_2
     const-class v0, Lcom/google/android/gms/internal/ads/zzjl;
 
@@ -339,7 +309,6 @@
 
     iput-object v0, p0, Lcom/google/android/gms/internal/ads/zzhq;->K:Lcom/google/android/gms/internal/ads/zzjl;
 
-    .line 58
     const-class v0, Lcom/google/android/gms/internal/ads/zzme;
 
     invoke-virtual {v0}, Ljava/lang/Class;->getClassLoader()Ljava/lang/ClassLoader;
@@ -381,127 +350,102 @@
 
     move-object v0, p0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     move-object v1, p1
 
-    .line 2
     iput-object v1, v0, Lcom/google/android/gms/internal/ads/zzhq;->a:Ljava/lang/String;
 
     move-object v1, p2
 
-    .line 3
     iput-object v1, v0, Lcom/google/android/gms/internal/ads/zzhq;->f:Ljava/lang/String;
 
     move-object v1, p3
 
-    .line 4
     iput-object v1, v0, Lcom/google/android/gms/internal/ads/zzhq;->g:Ljava/lang/String;
 
     move-object v1, p4
 
-    .line 5
     iput-object v1, v0, Lcom/google/android/gms/internal/ads/zzhq;->c:Ljava/lang/String;
 
     move v1, p5
 
-    .line 6
     iput v1, v0, Lcom/google/android/gms/internal/ads/zzhq;->b:I
 
     move v1, p6
 
-    .line 7
     iput v1, v0, Lcom/google/android/gms/internal/ads/zzhq;->p:I
 
     move v1, p7
 
-    .line 8
     iput v1, v0, Lcom/google/android/gms/internal/ads/zzhq;->L:I
 
     move v1, p8
 
-    .line 9
     iput v1, v0, Lcom/google/android/gms/internal/ads/zzhq;->M:I
 
     move v1, p9
 
-    .line 10
     iput v1, v0, Lcom/google/android/gms/internal/ads/zzhq;->N:F
 
     move v1, p10
 
-    .line 11
     iput v1, v0, Lcom/google/android/gms/internal/ads/zzhq;->O:I
 
     move v1, p11
 
-    .line 12
     iput v1, v0, Lcom/google/android/gms/internal/ads/zzhq;->P:F
 
     move-object v1, p12
 
-    .line 13
     iput-object v1, v0, Lcom/google/android/gms/internal/ads/zzhq;->R:[B
 
     move/from16 v1, p13
 
-    .line 14
     iput v1, v0, Lcom/google/android/gms/internal/ads/zzhq;->Q:I
 
     move-object/from16 v1, p14
 
-    .line 15
     iput-object v1, v0, Lcom/google/android/gms/internal/ads/zzhq;->S:Lcom/google/android/gms/internal/ads/zzpt;
 
     move/from16 v1, p15
 
-    .line 16
     iput v1, v0, Lcom/google/android/gms/internal/ads/zzhq;->T:I
 
     move/from16 v1, p16
 
-    .line 17
     iput v1, v0, Lcom/google/android/gms/internal/ads/zzhq;->U:I
 
     move/from16 v1, p17
 
-    .line 18
     iput v1, v0, Lcom/google/android/gms/internal/ads/zzhq;->V:I
 
     move/from16 v1, p18
 
-    .line 19
     iput v1, v0, Lcom/google/android/gms/internal/ads/zzhq;->W:I
 
     move/from16 v1, p19
 
-    .line 20
     iput v1, v0, Lcom/google/android/gms/internal/ads/zzhq;->X:I
 
     move/from16 v1, p20
 
-    .line 21
     iput v1, v0, Lcom/google/android/gms/internal/ads/zzhq;->Z:I
 
     move-object/from16 v1, p21
 
-    .line 22
     iput-object v1, v0, Lcom/google/android/gms/internal/ads/zzhq;->a0:Ljava/lang/String;
 
     move/from16 v1, p22
 
-    .line 23
     iput v1, v0, Lcom/google/android/gms/internal/ads/zzhq;->b0:I
 
     move-wide/from16 v1, p23
 
-    .line 24
     iput-wide v1, v0, Lcom/google/android/gms/internal/ads/zzhq;->Y:J
 
     if-nez p25, :cond_0
 
-    .line 25
     invoke-static {}, Ljava/util/Collections;->emptyList()Ljava/util/List;
 
     move-result-object v1
@@ -511,18 +455,15 @@
     :cond_0
     move-object/from16 v1, p25
 
-    .line 26
     :goto_0
     iput-object v1, v0, Lcom/google/android/gms/internal/ads/zzhq;->J:Ljava/util/List;
 
     move-object/from16 v1, p26
 
-    .line 27
     iput-object v1, v0, Lcom/google/android/gms/internal/ads/zzhq;->K:Lcom/google/android/gms/internal/ads/zzjl;
 
     move-object/from16 v1, p27
 
-    .line 28
     iput-object v1, v0, Lcom/google/android/gms/internal/ads/zzhq;->d:Lcom/google/android/gms/internal/ads/zzme;
 
     return-void
@@ -533,7 +474,6 @@
 
     move-object/from16 v3, p1
 
-    .line 1
     new-instance v28, Lcom/google/android/gms/internal/ads/zzhq;
 
     move-object/from16 v0, v28
@@ -635,7 +575,6 @@
 
     move-object/from16 v26, p14
 
-    .line 1
     new-instance v28, Lcom/google/android/gms/internal/ads/zzhq;
 
     move-object/from16 v0, v28
@@ -712,7 +651,6 @@
 
     move-object/from16 v21, p11
 
-    .line 1
     new-instance v28, Lcom/google/android/gms/internal/ads/zzhq;
 
     move-object/from16 v0, v28
@@ -797,7 +735,6 @@
 
     move-object/from16 v11, p10
 
-    .line 1
     invoke-static/range {v0 .. v11}, Lcom/google/android/gms/internal/ads/zzhq;->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;IIIIILjava/util/List;Lcom/google/android/gms/internal/ads/zzjl;ILjava/lang/String;)Lcom/google/android/gms/internal/ads/zzhq;
 
     move-result-object v0
@@ -838,7 +775,6 @@
 
     move-object/from16 v25, p10
 
-    .line 1
     new-instance v28, Lcom/google/android/gms/internal/ads/zzhq;
 
     move-object/from16 v0, v28
@@ -889,7 +825,6 @@
 .method public static i(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;IILjava/lang/String;Lcom/google/android/gms/internal/ads/zzjl;)Lcom/google/android/gms/internal/ads/zzhq;
     .locals 11
 
-    .line 1
     invoke-static {}, Ljava/util/Collections;->emptyList()Ljava/util/List;
 
     move-result-object v10
@@ -912,7 +847,6 @@
 
     move-object/from16 v7, p6
 
-    .line 2
     invoke-static/range {v0 .. v10}, Lcom/google/android/gms/internal/ads/zzhq;->g(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;IILjava/lang/String;ILcom/google/android/gms/internal/ads/zzjl;JLjava/util/List;)Lcom/google/android/gms/internal/ads/zzhq;
 
     move-result-object v0
@@ -929,7 +863,6 @@
 
     move-object/from16 v26, p4
 
-    .line 1
     new-instance v28, Lcom/google/android/gms/internal/ads/zzhq;
 
     move-object/from16 v0, v28
@@ -1013,7 +946,6 @@
 
     move-object/from16 v26, p6
 
-    .line 1
     new-instance v28, Lcom/google/android/gms/internal/ads/zzhq;
 
     move-object/from16 v0, v28
@@ -1075,7 +1007,6 @@
 
     if-eq p2, v0, :cond_0
 
-    .line 1
     invoke-virtual {p0, p1, p2}, Landroid/media/MediaFormat;->setInteger(Ljava/lang/String;I)V
 
     :cond_0
@@ -1091,7 +1022,6 @@
 
     move-object/from16 v27, p1
 
-    .line 1
     new-instance v29, Lcom/google/android/gms/internal/ads/zzhq;
 
     move-object/from16 v1, v29
@@ -1188,7 +1118,6 @@
 
     move-object/from16 v28, p1
 
-    .line 1
     new-instance v29, Lcom/google/android/gms/internal/ads/zzhq;
 
     move-object/from16 v1, v29
@@ -1300,7 +1229,6 @@
 
     if-eqz p1, :cond_5
 
-    .line 1
     const-class v2, Lcom/google/android/gms/internal/ads/zzhq;
 
     invoke-virtual {p1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
@@ -1311,11 +1239,9 @@
 
     goto/16 :goto_1
 
-    .line 2
     :cond_1
     check-cast p1, Lcom/google/android/gms/internal/ads/zzhq;
 
-    .line 3
     iget v2, p0, Lcom/google/android/gms/internal/ads/zzhq;->b:I
 
     iget v3, p1, Lcom/google/android/gms/internal/ads/zzhq;->b:I
@@ -1416,7 +1342,6 @@
 
     iget-object v3, p1, Lcom/google/android/gms/internal/ads/zzhq;->a:Ljava/lang/String;
 
-    .line 4
     invoke-static {v2, v3}, Lcom/google/android/gms/internal/ads/pg2;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v2
@@ -1427,7 +1352,6 @@
 
     iget-object v3, p1, Lcom/google/android/gms/internal/ads/zzhq;->a0:Ljava/lang/String;
 
-    .line 5
     invoke-static {v2, v3}, Lcom/google/android/gms/internal/ads/pg2;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v2
@@ -1444,7 +1368,6 @@
 
     iget-object v3, p1, Lcom/google/android/gms/internal/ads/zzhq;->f:Ljava/lang/String;
 
-    .line 6
     invoke-static {v2, v3}, Lcom/google/android/gms/internal/ads/pg2;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v2
@@ -1455,7 +1378,6 @@
 
     iget-object v3, p1, Lcom/google/android/gms/internal/ads/zzhq;->g:Ljava/lang/String;
 
-    .line 7
     invoke-static {v2, v3}, Lcom/google/android/gms/internal/ads/pg2;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v2
@@ -1466,7 +1388,6 @@
 
     iget-object v3, p1, Lcom/google/android/gms/internal/ads/zzhq;->c:Ljava/lang/String;
 
-    .line 8
     invoke-static {v2, v3}, Lcom/google/android/gms/internal/ads/pg2;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v2
@@ -1477,7 +1398,6 @@
 
     iget-object v3, p1, Lcom/google/android/gms/internal/ads/zzhq;->K:Lcom/google/android/gms/internal/ads/zzjl;
 
-    .line 9
     invoke-static {v2, v3}, Lcom/google/android/gms/internal/ads/pg2;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v2
@@ -1488,7 +1408,6 @@
 
     iget-object v3, p1, Lcom/google/android/gms/internal/ads/zzhq;->d:Lcom/google/android/gms/internal/ads/zzme;
 
-    .line 10
     invoke-static {v2, v3}, Lcom/google/android/gms/internal/ads/pg2;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v2
@@ -1499,7 +1418,6 @@
 
     iget-object v3, p1, Lcom/google/android/gms/internal/ads/zzhq;->S:Lcom/google/android/gms/internal/ads/zzpt;
 
-    .line 11
     invoke-static {v2, v3}, Lcom/google/android/gms/internal/ads/pg2;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v2
@@ -1510,7 +1428,6 @@
 
     iget-object v3, p1, Lcom/google/android/gms/internal/ads/zzhq;->R:[B
 
-    .line 12
     invoke-static {v2, v3}, Ljava/util/Arrays;->equals([B[B)Z
 
     move-result v2
@@ -1519,7 +1436,6 @@
 
     iget-object v2, p0, Lcom/google/android/gms/internal/ads/zzhq;->J:Ljava/util/List;
 
-    .line 13
     invoke-interface {v2}, Ljava/util/List;->size()I
 
     move-result v2
@@ -1537,7 +1453,6 @@
     :cond_2
     const/4 v2, 0x0
 
-    .line 14
     :goto_0
     iget-object v3, p0, Lcom/google/android/gms/internal/ads/zzhq;->J:Ljava/util/List;
 
@@ -1547,7 +1462,6 @@
 
     if-ge v2, v3, :cond_4
 
-    .line 15
     iget-object v3, p0, Lcom/google/android/gms/internal/ads/zzhq;->J:Ljava/util/List;
 
     invoke-interface {v3, v2}, Ljava/util/List;->get(I)Ljava/lang/Object;
@@ -1588,12 +1502,10 @@
 .method public final hashCode()I
     .locals 3
 
-    .line 1
     iget v0, p0, Lcom/google/android/gms/internal/ads/zzhq;->c0:I
 
     if-nez v0, :cond_7
 
-    .line 2
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/zzhq;->a:Ljava/lang/String;
 
     const/4 v1, 0x0
@@ -1614,7 +1526,6 @@
 
     mul-int/lit8 v0, v0, 0x1f
 
-    .line 3
     iget-object v2, p0, Lcom/google/android/gms/internal/ads/zzhq;->f:Ljava/lang/String;
 
     if-nez v2, :cond_1
@@ -1633,7 +1544,6 @@
 
     mul-int/lit8 v0, v0, 0x1f
 
-    .line 4
     iget-object v2, p0, Lcom/google/android/gms/internal/ads/zzhq;->g:Ljava/lang/String;
 
     if-nez v2, :cond_2
@@ -1652,7 +1562,6 @@
 
     mul-int/lit8 v0, v0, 0x1f
 
-    .line 5
     iget-object v2, p0, Lcom/google/android/gms/internal/ads/zzhq;->c:Ljava/lang/String;
 
     if-nez v2, :cond_3
@@ -1671,42 +1580,36 @@
 
     mul-int/lit8 v0, v0, 0x1f
 
-    .line 6
     iget v2, p0, Lcom/google/android/gms/internal/ads/zzhq;->b:I
 
     add-int/2addr v0, v2
 
     mul-int/lit8 v0, v0, 0x1f
 
-    .line 7
     iget v2, p0, Lcom/google/android/gms/internal/ads/zzhq;->L:I
 
     add-int/2addr v0, v2
 
     mul-int/lit8 v0, v0, 0x1f
 
-    .line 8
     iget v2, p0, Lcom/google/android/gms/internal/ads/zzhq;->M:I
 
     add-int/2addr v0, v2
 
     mul-int/lit8 v0, v0, 0x1f
 
-    .line 9
     iget v2, p0, Lcom/google/android/gms/internal/ads/zzhq;->T:I
 
     add-int/2addr v0, v2
 
     mul-int/lit8 v0, v0, 0x1f
 
-    .line 10
     iget v2, p0, Lcom/google/android/gms/internal/ads/zzhq;->U:I
 
     add-int/2addr v0, v2
 
     mul-int/lit8 v0, v0, 0x1f
 
-    .line 11
     iget-object v2, p0, Lcom/google/android/gms/internal/ads/zzhq;->a0:Ljava/lang/String;
 
     if-nez v2, :cond_4
@@ -1725,14 +1628,12 @@
 
     mul-int/lit8 v0, v0, 0x1f
 
-    .line 12
     iget v2, p0, Lcom/google/android/gms/internal/ads/zzhq;->b0:I
 
     add-int/2addr v0, v2
 
     mul-int/lit8 v0, v0, 0x1f
 
-    .line 13
     iget-object v2, p0, Lcom/google/android/gms/internal/ads/zzhq;->K:Lcom/google/android/gms/internal/ads/zzjl;
 
     if-nez v2, :cond_5
@@ -1751,7 +1652,6 @@
 
     mul-int/lit8 v0, v0, 0x1f
 
-    .line 14
     iget-object v2, p0, Lcom/google/android/gms/internal/ads/zzhq;->d:Lcom/google/android/gms/internal/ads/zzme;
 
     if-nez v2, :cond_6
@@ -1766,10 +1666,8 @@
     :goto_6
     add-int/2addr v0, v1
 
-    .line 15
     iput v0, p0, Lcom/google/android/gms/internal/ads/zzhq;->c0:I
 
-    .line 16
     :cond_7
     iget v0, p0, Lcom/google/android/gms/internal/ads/zzhq;->c0:I
 
@@ -1785,7 +1683,6 @@
 
     move/from16 v20, p2
 
-    .line 1
     new-instance v29, Lcom/google/android/gms/internal/ads/zzhq;
 
     move-object/from16 v1, v29
@@ -1878,7 +1775,6 @@
 
     move-wide/from16 v24, p1
 
-    .line 1
     new-instance v29, Lcom/google/android/gms/internal/ads/zzhq;
 
     move-object/from16 v1, v29
@@ -1967,7 +1863,6 @@
 .method public final p()I
     .locals 3
 
-    .line 1
     iget v0, p0, Lcom/google/android/gms/internal/ads/zzhq;->L:I
 
     const/4 v1, -0x1
@@ -2002,29 +1897,24 @@
         value = 0x10
     .end annotation
 
-    .line 1
     new-instance v0, Landroid/media/MediaFormat;
 
     invoke-direct {v0}, Landroid/media/MediaFormat;-><init>()V
 
-    .line 2
     iget-object v1, p0, Lcom/google/android/gms/internal/ads/zzhq;->g:Ljava/lang/String;
 
     const-string v2, "mime"
 
     invoke-virtual {v0, v2, v1}, Landroid/media/MediaFormat;->setString(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 3
     iget-object v1, p0, Lcom/google/android/gms/internal/ads/zzhq;->a0:Ljava/lang/String;
 
     if-eqz v1, :cond_0
 
     const-string v2, "language"
 
-    .line 4
     invoke-virtual {v0, v2, v1}, Landroid/media/MediaFormat;->setString(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 5
     :cond_0
     iget v1, p0, Lcom/google/android/gms/internal/ads/zzhq;->p:I
 
@@ -2032,21 +1922,18 @@
 
     invoke-static {v0, v2, v1}, Lcom/google/android/gms/internal/ads/zzhq;->l(Landroid/media/MediaFormat;Ljava/lang/String;I)V
 
-    .line 6
     iget v1, p0, Lcom/google/android/gms/internal/ads/zzhq;->L:I
 
     const-string v2, "width"
 
     invoke-static {v0, v2, v1}, Lcom/google/android/gms/internal/ads/zzhq;->l(Landroid/media/MediaFormat;Ljava/lang/String;I)V
 
-    .line 7
     iget v1, p0, Lcom/google/android/gms/internal/ads/zzhq;->M:I
 
     const-string v2, "height"
 
     invoke-static {v0, v2, v1}, Lcom/google/android/gms/internal/ads/zzhq;->l(Landroid/media/MediaFormat;Ljava/lang/String;I)V
 
-    .line 8
     iget v1, p0, Lcom/google/android/gms/internal/ads/zzhq;->N:F
 
     const/high16 v2, -0x40800000    # -1.0f
@@ -2057,10 +1944,8 @@
 
     const-string v2, "frame-rate"
 
-    .line 9
     invoke-virtual {v0, v2, v1}, Landroid/media/MediaFormat;->setFloat(Ljava/lang/String;F)V
 
-    .line 10
     :cond_1
     iget v1, p0, Lcom/google/android/gms/internal/ads/zzhq;->O:I
 
@@ -2068,28 +1953,24 @@
 
     invoke-static {v0, v2, v1}, Lcom/google/android/gms/internal/ads/zzhq;->l(Landroid/media/MediaFormat;Ljava/lang/String;I)V
 
-    .line 11
     iget v1, p0, Lcom/google/android/gms/internal/ads/zzhq;->T:I
 
     const-string v2, "channel-count"
 
     invoke-static {v0, v2, v1}, Lcom/google/android/gms/internal/ads/zzhq;->l(Landroid/media/MediaFormat;Ljava/lang/String;I)V
 
-    .line 12
     iget v1, p0, Lcom/google/android/gms/internal/ads/zzhq;->U:I
 
     const-string v2, "sample-rate"
 
     invoke-static {v0, v2, v1}, Lcom/google/android/gms/internal/ads/zzhq;->l(Landroid/media/MediaFormat;Ljava/lang/String;I)V
 
-    .line 13
     iget v1, p0, Lcom/google/android/gms/internal/ads/zzhq;->W:I
 
     const-string v2, "encoder-delay"
 
     invoke-static {v0, v2, v1}, Lcom/google/android/gms/internal/ads/zzhq;->l(Landroid/media/MediaFormat;Ljava/lang/String;I)V
 
-    .line 14
     iget v1, p0, Lcom/google/android/gms/internal/ads/zzhq;->X:I
 
     const-string v2, "encoder-padding"
@@ -2098,7 +1979,6 @@
 
     const/4 v1, 0x0
 
-    .line 15
     :goto_0
     iget-object v2, p0, Lcom/google/android/gms/internal/ads/zzhq;->J:Ljava/util/List;
 
@@ -2110,7 +1990,6 @@
 
     const/16 v2, 0xf
 
-    .line 16
     new-instance v3, Ljava/lang/StringBuilder;
 
     invoke-direct {v3, v2}, Ljava/lang/StringBuilder;-><init>(I)V
@@ -2143,39 +2022,33 @@
 
     goto :goto_0
 
-    .line 17
     :cond_2
     iget-object v1, p0, Lcom/google/android/gms/internal/ads/zzhq;->S:Lcom/google/android/gms/internal/ads/zzpt;
 
     if-eqz v1, :cond_3
 
-    .line 18
     iget v2, v1, Lcom/google/android/gms/internal/ads/zzpt;->c:I
 
     const-string v3, "color-transfer"
 
     invoke-static {v0, v3, v2}, Lcom/google/android/gms/internal/ads/zzhq;->l(Landroid/media/MediaFormat;Ljava/lang/String;I)V
 
-    .line 19
     iget v2, v1, Lcom/google/android/gms/internal/ads/zzpt;->a:I
 
     const-string v3, "color-standard"
 
     invoke-static {v0, v3, v2}, Lcom/google/android/gms/internal/ads/zzhq;->l(Landroid/media/MediaFormat;Ljava/lang/String;I)V
 
-    .line 20
     iget v2, v1, Lcom/google/android/gms/internal/ads/zzpt;->b:I
 
     const-string v3, "color-range"
 
     invoke-static {v0, v3, v2}, Lcom/google/android/gms/internal/ads/zzhq;->l(Landroid/media/MediaFormat;Ljava/lang/String;I)V
 
-    .line 21
     iget-object v1, v1, Lcom/google/android/gms/internal/ads/zzpt;->d:[B
 
     if-eqz v1, :cond_3
 
-    .line 22
     invoke-static {v1}, Ljava/nio/ByteBuffer;->wrap([B)Ljava/nio/ByteBuffer;
 
     move-result-object v1
@@ -2195,7 +2068,6 @@
 
     move/from16 v7, p1
 
-    .line 1
     new-instance v29, Lcom/google/android/gms/internal/ads/zzhq;
 
     move-object/from16 v1, v29
@@ -2290,7 +2162,6 @@
 .method public final toString()Ljava/lang/String;
     .locals 12
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/zzhq;->a:Ljava/lang/String;
 
     iget-object v1, p0, Lcom/google/android/gms/internal/ads/zzhq;->f:Ljava/lang/String;
@@ -2417,62 +2288,50 @@
 .method public final writeToParcel(Landroid/os/Parcel;I)V
     .locals 4
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/zzhq;->a:Ljava/lang/String;
 
     invoke-virtual {p1, v0}, Landroid/os/Parcel;->writeString(Ljava/lang/String;)V
 
-    .line 2
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/zzhq;->f:Ljava/lang/String;
 
     invoke-virtual {p1, v0}, Landroid/os/Parcel;->writeString(Ljava/lang/String;)V
 
-    .line 3
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/zzhq;->g:Ljava/lang/String;
 
     invoke-virtual {p1, v0}, Landroid/os/Parcel;->writeString(Ljava/lang/String;)V
 
-    .line 4
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/zzhq;->c:Ljava/lang/String;
 
     invoke-virtual {p1, v0}, Landroid/os/Parcel;->writeString(Ljava/lang/String;)V
 
-    .line 5
     iget v0, p0, Lcom/google/android/gms/internal/ads/zzhq;->b:I
 
     invoke-virtual {p1, v0}, Landroid/os/Parcel;->writeInt(I)V
 
-    .line 6
     iget v0, p0, Lcom/google/android/gms/internal/ads/zzhq;->p:I
 
     invoke-virtual {p1, v0}, Landroid/os/Parcel;->writeInt(I)V
 
-    .line 7
     iget v0, p0, Lcom/google/android/gms/internal/ads/zzhq;->L:I
 
     invoke-virtual {p1, v0}, Landroid/os/Parcel;->writeInt(I)V
 
-    .line 8
     iget v0, p0, Lcom/google/android/gms/internal/ads/zzhq;->M:I
 
     invoke-virtual {p1, v0}, Landroid/os/Parcel;->writeInt(I)V
 
-    .line 9
     iget v0, p0, Lcom/google/android/gms/internal/ads/zzhq;->N:F
 
     invoke-virtual {p1, v0}, Landroid/os/Parcel;->writeFloat(F)V
 
-    .line 10
     iget v0, p0, Lcom/google/android/gms/internal/ads/zzhq;->O:I
 
     invoke-virtual {p1, v0}, Landroid/os/Parcel;->writeInt(I)V
 
-    .line 11
     iget v0, p0, Lcom/google/android/gms/internal/ads/zzhq;->P:F
 
     invoke-virtual {p1, v0}, Landroid/os/Parcel;->writeFloat(F)V
 
-    .line 12
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/zzhq;->R:[B
 
     const/4 v1, 0x0
@@ -2489,78 +2348,63 @@
     :goto_0
     invoke-virtual {p1, v0}, Landroid/os/Parcel;->writeInt(I)V
 
-    .line 13
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/zzhq;->R:[B
 
     if-eqz v0, :cond_1
 
-    .line 14
     invoke-virtual {p1, v0}, Landroid/os/Parcel;->writeByteArray([B)V
 
-    .line 15
     :cond_1
     iget v0, p0, Lcom/google/android/gms/internal/ads/zzhq;->Q:I
 
     invoke-virtual {p1, v0}, Landroid/os/Parcel;->writeInt(I)V
 
-    .line 16
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/zzhq;->S:Lcom/google/android/gms/internal/ads/zzpt;
 
     invoke-virtual {p1, v0, p2}, Landroid/os/Parcel;->writeParcelable(Landroid/os/Parcelable;I)V
 
-    .line 17
     iget p2, p0, Lcom/google/android/gms/internal/ads/zzhq;->T:I
 
     invoke-virtual {p1, p2}, Landroid/os/Parcel;->writeInt(I)V
 
-    .line 18
     iget p2, p0, Lcom/google/android/gms/internal/ads/zzhq;->U:I
 
     invoke-virtual {p1, p2}, Landroid/os/Parcel;->writeInt(I)V
 
-    .line 19
     iget p2, p0, Lcom/google/android/gms/internal/ads/zzhq;->V:I
 
     invoke-virtual {p1, p2}, Landroid/os/Parcel;->writeInt(I)V
 
-    .line 20
     iget p2, p0, Lcom/google/android/gms/internal/ads/zzhq;->W:I
 
     invoke-virtual {p1, p2}, Landroid/os/Parcel;->writeInt(I)V
 
-    .line 21
     iget p2, p0, Lcom/google/android/gms/internal/ads/zzhq;->X:I
 
     invoke-virtual {p1, p2}, Landroid/os/Parcel;->writeInt(I)V
 
-    .line 22
     iget p2, p0, Lcom/google/android/gms/internal/ads/zzhq;->Z:I
 
     invoke-virtual {p1, p2}, Landroid/os/Parcel;->writeInt(I)V
 
-    .line 23
     iget-object p2, p0, Lcom/google/android/gms/internal/ads/zzhq;->a0:Ljava/lang/String;
 
     invoke-virtual {p1, p2}, Landroid/os/Parcel;->writeString(Ljava/lang/String;)V
 
-    .line 24
     iget p2, p0, Lcom/google/android/gms/internal/ads/zzhq;->b0:I
 
     invoke-virtual {p1, p2}, Landroid/os/Parcel;->writeInt(I)V
 
-    .line 25
     iget-wide v2, p0, Lcom/google/android/gms/internal/ads/zzhq;->Y:J
 
     invoke-virtual {p1, v2, v3}, Landroid/os/Parcel;->writeLong(J)V
 
-    .line 26
     iget-object p2, p0, Lcom/google/android/gms/internal/ads/zzhq;->J:Ljava/util/List;
 
     invoke-interface {p2}, Ljava/util/List;->size()I
 
     move-result p2
 
-    .line 27
     invoke-virtual {p1, p2}, Landroid/os/Parcel;->writeInt(I)V
 
     const/4 v0, 0x0
@@ -2568,7 +2412,6 @@
     :goto_1
     if-ge v0, p2, :cond_2
 
-    .line 28
     iget-object v2, p0, Lcom/google/android/gms/internal/ads/zzhq;->J:Ljava/util/List;
 
     invoke-interface {v2, v0}, Ljava/util/List;->get(I)Ljava/lang/Object;
@@ -2583,13 +2426,11 @@
 
     goto :goto_1
 
-    .line 29
     :cond_2
     iget-object p2, p0, Lcom/google/android/gms/internal/ads/zzhq;->K:Lcom/google/android/gms/internal/ads/zzjl;
 
     invoke-virtual {p1, p2, v1}, Landroid/os/Parcel;->writeParcelable(Landroid/os/Parcelable;I)V
 
-    .line 30
     iget-object p2, p0, Lcom/google/android/gms/internal/ads/zzhq;->d:Lcom/google/android/gms/internal/ads/zzme;
 
     invoke-virtual {p1, p2, v1}, Landroid/os/Parcel;->writeParcelable(Landroid/os/Parcelable;I)V

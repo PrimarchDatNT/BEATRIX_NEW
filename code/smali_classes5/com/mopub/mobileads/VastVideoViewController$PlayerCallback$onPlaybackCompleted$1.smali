@@ -38,7 +38,6 @@
 
     check-cast v0, Lcom/mopub/mobileads/VastVideoViewController;
 
-    .line 1
     invoke-virtual {v0}, Lcom/mopub/mobileads/VastVideoViewController;->getIconView()Landroid/view/View;
 
     move-result-object v0
@@ -57,7 +56,6 @@
 
     check-cast v0, Lcom/mopub/mobileads/VastVideoViewController;
 
-    .line 1
     check-cast p1, Landroid/view/View;
 
     invoke-virtual {v0, p1}, Lcom/mopub/mobileads/VastVideoViewController;->setIconView(Landroid/view/View;)V

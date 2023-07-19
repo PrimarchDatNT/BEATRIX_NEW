@@ -41,7 +41,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -60,7 +59,6 @@
 
     goto/16 :goto_0
 
-    .line 1
     :pswitch_0
     new-instance p0, Ljava/lang/StringBuilder;
 
@@ -78,7 +76,6 @@
 
     goto/16 :goto_0
 
-    .line 2
     :pswitch_1
     new-instance p0, Ljava/lang/StringBuilder;
 
@@ -96,7 +93,6 @@
 
     goto/16 :goto_0
 
-    .line 3
     :pswitch_2
     new-instance p0, Ljava/lang/StringBuilder;
 
@@ -114,7 +110,6 @@
 
     goto/16 :goto_0
 
-    .line 4
     :pswitch_3
     new-instance p0, Ljava/lang/StringBuilder;
 
@@ -132,7 +127,6 @@
 
     goto/16 :goto_0
 
-    .line 5
     :pswitch_4
     new-instance p0, Ljava/lang/StringBuilder;
 
@@ -150,7 +144,6 @@
 
     goto/16 :goto_0
 
-    .line 6
     :pswitch_5
     new-instance p0, Ljava/lang/StringBuilder;
 
@@ -168,7 +161,6 @@
 
     goto :goto_0
 
-    .line 7
     :pswitch_6
     new-instance p0, Ljava/lang/StringBuilder;
 
@@ -186,7 +178,6 @@
 
     goto :goto_0
 
-    .line 8
     :pswitch_7
     new-instance p0, Ljava/lang/StringBuilder;
 
@@ -204,7 +195,6 @@
 
     goto :goto_0
 
-    .line 9
     :pswitch_8
     new-instance p0, Ljava/lang/StringBuilder;
 
@@ -222,7 +212,6 @@
 
     goto :goto_0
 
-    .line 10
     :pswitch_9
     new-instance p0, Ljava/lang/StringBuilder;
 
@@ -240,7 +229,6 @@
 
     goto :goto_0
 
-    .line 11
     :pswitch_a
     new-instance p0, Ljava/lang/StringBuilder;
 
@@ -258,7 +246,6 @@
 
     goto :goto_0
 
-    .line 12
     :pswitch_b
     new-instance p0, Ljava/lang/StringBuilder;
 
@@ -274,7 +261,6 @@
 
     move-result-object v1
 
-    .line 13
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

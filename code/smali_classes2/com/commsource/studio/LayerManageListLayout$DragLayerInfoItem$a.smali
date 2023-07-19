@@ -23,7 +23,6 @@
 .method constructor <init>(Lcom/commsource/studio/d0;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/LayerManageListLayout$DragLayerInfoItem$a;->a:Lcom/commsource/studio/d0;
 
     invoke-direct {p0}, Landroid/animation/AnimatorListenerAdapter;-><init>()V
@@ -48,7 +47,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object p1, p0, Lcom/commsource/studio/LayerManageListLayout$DragLayerInfoItem$a;->a:Lcom/commsource/studio/d0;
 
     invoke-virtual {p1}, Lcom/commsource/studio/d0;->g()Landroid/view/ViewGroup;
@@ -63,7 +61,6 @@
 
     invoke-virtual {p1, v1}, Landroid/view/ViewPropertyAnimator;->setListener(Landroid/animation/Animator$AnimatorListener;)Landroid/view/ViewPropertyAnimator;
 
-    .line 2
     iget-object p1, p0, Lcom/commsource/studio/LayerManageListLayout$DragLayerInfoItem$a;->a:Lcom/commsource/studio/d0;
 
     invoke-virtual {p1}, Lcom/commsource/studio/d0;->g()Landroid/view/ViewGroup;
@@ -78,7 +75,6 @@
 
     invoke-virtual {p1, v1}, Landroid/view/ViewGroup;->setElevation(F)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

@@ -31,7 +31,6 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
     new-instance v0, Lcom/google/android/gms/internal/measurement/zzcw;
 
     invoke-direct {v0}, Lcom/google/android/gms/internal/measurement/zzcw;-><init>()V
@@ -44,7 +43,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/google/android/gms/internal/measurement/zzcy;-><init>()V
 
     return-void
@@ -103,7 +101,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/lang/IllegalStateException;
 
     const-string v1, "Optional.get() cannot be called on an absent value"

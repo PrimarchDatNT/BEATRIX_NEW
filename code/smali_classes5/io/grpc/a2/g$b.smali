@@ -31,12 +31,10 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-direct {p0, v0}, Lio/grpc/a2/g$e;-><init>(Lio/grpc/a2/g$a;)V
 
     const-string v0, "status"
 
-    .line 2
     invoke-static {p1, v0}, Lcom/google/common/base/t;->F(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -53,7 +51,6 @@
 .method public a(Lio/grpc/t0$f;)Lio/grpc/t0$e;
     .locals 0
 
-    .line 1
     iget-object p1, p0, Lio/grpc/a2/g$b;->a:Lio/grpc/Status;
 
     invoke-virtual {p1}, Lio/grpc/Status;->r()Z
@@ -82,7 +79,6 @@
 .method c(Lio/grpc/a2/g$e;)Z
     .locals 2
 
-    .line 1
     instance-of v0, p1, Lio/grpc/a2/g$b;
 
     if-eqz v0, :cond_1
@@ -101,7 +97,6 @@
 
     iget-object v0, p0, Lio/grpc/a2/g$b;->a:Lio/grpc/Status;
 
-    .line 2
     invoke-virtual {v0}, Lio/grpc/Status;->r()Z
 
     move-result v0
@@ -131,7 +126,6 @@
 .method public toString()Ljava/lang/String;
     .locals 3
 
-    .line 1
     const-class v0, Lio/grpc/a2/g$b;
 
     invoke-static {v0}, Lcom/google/common/base/p;->b(Ljava/lang/Class;)Lcom/google/common/base/p$b;

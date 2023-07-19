@@ -30,7 +30,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     const-class v1, Lf/k/h/a/l/x/f;
 
     invoke-virtual {v1}, Ljava/lang/Class;->getSimpleName()Ljava/lang/String;
@@ -47,10 +46,8 @@
 .method public constructor <init>(Lf/k/h/a/l/q;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lf/k/h/a/l/x/f;->a:Lf/k/h/a/l/q;
 
     return-void
@@ -63,7 +60,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lf/k/h/a/l/x/f;->b:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -80,7 +76,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lf/k/h/a/l/x/f;->b:Ljava/lang/String;
 
     new-instance v2, Ljava/lang/StringBuilder;
@@ -103,12 +98,10 @@
 
     invoke-static {v1, v2}, Lf/k/h/a/c;->d(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 2
     iget-object v1, p0, Lf/k/h/a/l/x/f;->a:Lf/k/h/a/l/q;
 
     invoke-interface {v1, p1, p2}, Lf/k/h/a/l/q;->e(Lcom/meitu/global/billing/purchase/data/MTGPurchase;Lf/k/h/a/l/y/c;)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -121,7 +114,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lf/k/h/a/l/x/f;->b:Ljava/lang/String;
 
     new-instance v2, Ljava/lang/StringBuilder;
@@ -146,7 +138,6 @@
 
     if-eqz p3, :cond_0
 
-    .line 2
     iget-object v1, p0, Lf/k/h/a/l/x/f;->a:Lf/k/h/a/l/q;
 
     new-instance v2, Lf/k/h/a/l/x/f$a;
@@ -155,12 +146,10 @@
 
     invoke-interface {v1, v2}, Lf/k/h/a/l/y/a;->d(Lf/k/h/a/l/y/b;)V
 
-    .line 3
     iget-object p3, p0, Lf/k/h/a/l/x/f;->a:Lf/k/h/a/l/q;
 
     invoke-interface {p3, p1, p2}, Lf/k/h/a/l/q;->i(Landroid/app/Activity;Lcom/meitu/global/billing/product/data/Product;)V
 
-    .line 4
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

@@ -22,7 +22,6 @@
 .method constructor <init>(Lcom/commsource/widget/infiniteview/LoopLayoutManager;Landroid/content/Context;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/widget/infiniteview/LoopLayoutManager$a;->a:Lcom/commsource/widget/infiniteview/LoopLayoutManager;
 
     invoke-direct {p0, p2}, Landroidx/recyclerview/widget/LinearSmoothScroller;-><init>(Landroid/content/Context;)V
@@ -39,7 +38,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget p1, p1, Landroid/util/DisplayMetrics;->density:F
 
     const/high16 v1, 0x3f000000    # 0.5f
@@ -60,7 +58,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/widget/infiniteview/LoopLayoutManager$a;->a:Lcom/commsource/widget/infiniteview/LoopLayoutManager;
 
     invoke-virtual {v1, p1}, Lcom/commsource/widget/infiniteview/LoopLayoutManager;->computeScrollVectorForPosition(I)Landroid/graphics/PointF;

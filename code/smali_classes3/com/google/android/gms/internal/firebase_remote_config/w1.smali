@@ -6,10 +6,8 @@
 .method static constructor <clinit>()V
     .locals 4
 
-    .line 1
     sget-object v0, Lcom/google/android/gms/internal/firebase_remote_config/z;->a:Ljava/lang/Integer;
 
-    .line 2
     invoke-virtual {v0}, Ljava/lang/Integer;->intValue()I
 
     move-result v0
@@ -22,7 +20,6 @@
 
     sget-object v0, Lcom/google/android/gms/internal/firebase_remote_config/z;->b:Ljava/lang/Integer;
 
-    .line 3
     invoke-virtual {v0}, Ljava/lang/Integer;->intValue()I
 
     move-result v0
@@ -49,7 +46,6 @@
 
     return-void
 
-    .line 4
     :cond_1
     new-instance v0, Ljava/lang/IllegalStateException;
 
@@ -67,7 +63,6 @@
 .method constructor <init>(Lcom/google/android/gms/internal/firebase_remote_config/v1;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/google/android/gms/internal/firebase_remote_config/d9;-><init>(Lcom/google/android/gms/internal/firebase_remote_config/p8;)V
 
     return-void
@@ -91,7 +86,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-super {p0, p1}, Lcom/google/android/gms/internal/firebase_remote_config/y1;->b(Lcom/google/android/gms/internal/firebase_remote_config/y3;)V
 
     return-void

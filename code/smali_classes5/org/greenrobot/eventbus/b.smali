@@ -18,13 +18,10 @@
 .method constructor <init>(Lorg/greenrobot/eventbus/c;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lorg/greenrobot/eventbus/b;->b:Lorg/greenrobot/eventbus/c;
 
-    .line 3
     new-instance p1, Lorg/greenrobot/eventbus/i;
 
     invoke-direct {p1}, Lorg/greenrobot/eventbus/i;-><init>()V
@@ -39,31 +36,25 @@
 .method public a(Lorg/greenrobot/eventbus/n;Ljava/lang/Object;)V
     .locals 0
 
-    .line 1
     invoke-static {p1, p2}, Lorg/greenrobot/eventbus/h;->a(Lorg/greenrobot/eventbus/n;Ljava/lang/Object;)Lorg/greenrobot/eventbus/h;
 
     move-result-object p1
 
-    .line 2
     monitor-enter p0
 
-    .line 3
     :try_start_0
     iget-object p2, p0, Lorg/greenrobot/eventbus/b;->a:Lorg/greenrobot/eventbus/i;
 
     invoke-virtual {p2, p1}, Lorg/greenrobot/eventbus/i;->a(Lorg/greenrobot/eventbus/h;)V
 
-    .line 4
     iget-boolean p1, p0, Lorg/greenrobot/eventbus/b;->c:Z
 
     if-nez p1, :cond_0
 
     const/4 p1, 0x1
 
-    .line 5
     iput-boolean p1, p0, Lorg/greenrobot/eventbus/b;->c:Z
 
-    .line 6
     iget-object p1, p0, Lorg/greenrobot/eventbus/b;->b:Lorg/greenrobot/eventbus/c;
 
     invoke-virtual {p1}, Lorg/greenrobot/eventbus/c;->h()Ljava/util/concurrent/ExecutorService;
@@ -72,7 +63,6 @@
 
     invoke-interface {p1, p0}, Ljava/util/concurrent/ExecutorService;->execute(Ljava/lang/Runnable;)V
 
-    .line 7
     :cond_0
     monitor-exit p0
 
@@ -94,7 +84,6 @@
     :goto_0
     const/4 v0, 0x0
 
-    .line 1
     :try_start_0
     iget-object v1, p0, Lorg/greenrobot/eventbus/b;->a:Lorg/greenrobot/eventbus/i;
 
@@ -106,13 +95,11 @@
 
     if-nez v1, :cond_1
 
-    .line 2
     monitor-enter p0
     :try_end_0
     .catch Ljava/lang/InterruptedException; {:try_start_0 .. :try_end_0} :catch_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_1
 
-    .line 3
     :try_start_1
     iget-object v1, p0, Lorg/greenrobot/eventbus/b;->a:Lorg/greenrobot/eventbus/i;
 
@@ -122,20 +109,16 @@
 
     if-nez v1, :cond_0
 
-    .line 4
     iput-boolean v0, p0, Lorg/greenrobot/eventbus/b;->c:Z
 
-    .line 5
     monitor-exit p0
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
-    .line 6
     iput-boolean v0, p0, Lorg/greenrobot/eventbus/b;->c:Z
 
     return-void
 
-    .line 7
     :cond_0
     :try_start_2
     monitor-exit p0
@@ -152,7 +135,6 @@
     :try_start_3
     throw v1
 
-    .line 8
     :cond_1
     :goto_1
     iget-object v2, p0, Lorg/greenrobot/eventbus/b;->b:Lorg/greenrobot/eventbus/c;
@@ -175,7 +157,6 @@
     :try_start_4
     const-string v2, "Event"
 
-    .line 9
     new-instance v3, Ljava/lang/StringBuilder;
 
     invoke-direct {v3}, Ljava/lang/StringBuilder;-><init>()V
@@ -202,7 +183,6 @@
     :try_end_4
     .catchall {:try_start_4 .. :try_end_4} :catchall_1
 
-    .line 10
     iput-boolean v0, p0, Lorg/greenrobot/eventbus/b;->c:Z
 
     return-void

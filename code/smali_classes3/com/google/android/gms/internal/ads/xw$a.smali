@@ -34,7 +34,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -43,7 +42,6 @@
 .method static synthetic a(Lcom/google/android/gms/internal/ads/xw$a;)Lcom/google/android/gms/internal/ads/zzbbd;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lcom/google/android/gms/internal/ads/xw$a;->a:Lcom/google/android/gms/internal/ads/zzbbd;
 
     return-object p0
@@ -52,7 +50,6 @@
 .method static synthetic c(Lcom/google/android/gms/internal/ads/xw$a;)Landroid/content/Context;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lcom/google/android/gms/internal/ads/xw$a;->b:Landroid/content/Context;
 
     return-object p0
@@ -61,7 +58,6 @@
 .method static synthetic e(Lcom/google/android/gms/internal/ads/xw$a;)Ljava/lang/ref/WeakReference;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lcom/google/android/gms/internal/ads/xw$a;->c:Ljava/lang/ref/WeakReference;
 
     return-object p0
@@ -72,7 +68,6 @@
 .method public final b(Lcom/google/android/gms/internal/ads/zzbbd;)Lcom/google/android/gms/internal/ads/xw$a;
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/android/gms/internal/ads/xw$a;->a:Lcom/google/android/gms/internal/ads/zzbbd;
 
     return-object p0
@@ -81,14 +76,12 @@
 .method public final d(Landroid/content/Context;)Lcom/google/android/gms/internal/ads/xw$a;
     .locals 1
 
-    .line 1
     new-instance v0, Ljava/lang/ref/WeakReference;
 
     invoke-direct {v0, p1}, Ljava/lang/ref/WeakReference;-><init>(Ljava/lang/Object;)V
 
     iput-object v0, p0, Lcom/google/android/gms/internal/ads/xw$a;->c:Ljava/lang/ref/WeakReference;
 
-    .line 2
     invoke-virtual {p1}, Landroid/content/Context;->getApplicationContext()Landroid/content/Context;
 
     move-result-object v0

@@ -48,34 +48,26 @@
 .method public constructor <init>(Landroid/content/Context;Landroid/widget/FrameLayout;Landroid/widget/TextView;Landroid/view/View;)V
     .locals 2
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/4 v0, 0x1
 
-    .line 2
     iput-boolean v0, p0, Lcom/commsource/helpcapture/m0;->O:Z
 
-    .line 3
     new-instance v0, Lcom/commsource/helpcapture/f0;
 
     invoke-direct {v0, p0}, Lcom/commsource/helpcapture/f0;-><init>(Lcom/commsource/helpcapture/m0;)V
 
     iput-object v0, p0, Lcom/commsource/helpcapture/m0;->T:Ljava/lang/Runnable;
 
-    .line 4
     iput-object p1, p0, Lcom/commsource/helpcapture/m0;->a:Landroid/content/Context;
 
-    .line 5
     iput-object p2, p0, Lcom/commsource/helpcapture/m0;->b:Landroid/widget/FrameLayout;
 
-    .line 6
     iput-object p3, p0, Lcom/commsource/helpcapture/m0;->c:Landroid/widget/TextView;
 
-    .line 7
     iput-object p4, p0, Lcom/commsource/helpcapture/m0;->d:Landroid/view/View;
 
-    .line 8
     invoke-static {}, Lcom/meitu/library/p/f/i;->z()I
 
     move-result p1
@@ -84,7 +76,6 @@
 
     const/high16 p1, 0x42780000    # 62.0f
 
-    .line 9
     invoke-static {p1}, Lcom/meitu/library/p/f/i;->d(F)I
 
     move-result p1
@@ -93,7 +84,6 @@
 
     const/high16 p1, 0x42140000    # 37.0f
 
-    .line 10
     invoke-static {p1}, Lcom/meitu/library/p/f/i;->d(F)I
 
     move-result p1
@@ -102,14 +92,12 @@
 
     const/high16 p1, 0x41940000    # 18.5f
 
-    .line 11
     invoke-static {p1}, Lcom/meitu/library/p/f/i;->d(F)I
 
     move-result p1
 
     iput p1, p0, Lcom/commsource/helpcapture/m0;->M:I
 
-    .line 12
     new-instance p1, Landroid/animation/ValueAnimator;
 
     invoke-direct {p1}, Landroid/animation/ValueAnimator;-><init>()V
@@ -118,10 +106,8 @@
 
     const-wide/16 v0, 0x12c
 
-    .line 13
     invoke-virtual {p1, v0, v1}, Landroid/animation/ValueAnimator;->setDuration(J)Landroid/animation/ValueAnimator;
 
-    .line 14
     iget-object p1, p0, Lcom/commsource/helpcapture/m0;->g:Landroid/animation/ValueAnimator;
 
     new-instance p4, Lcom/commsource/helpcapture/b0;
@@ -130,21 +116,18 @@
 
     invoke-virtual {p1, p4}, Landroid/animation/ValueAnimator;->addUpdateListener(Landroid/animation/ValueAnimator$AnimatorUpdateListener;)V
 
-    .line 15
     new-instance p1, Landroid/animation/ValueAnimator;
 
     invoke-direct {p1}, Landroid/animation/ValueAnimator;-><init>()V
 
     iput-object p1, p0, Lcom/commsource/helpcapture/m0;->f:Landroid/animation/ValueAnimator;
 
-    .line 16
     new-instance p4, Landroid/view/animation/AccelerateDecelerateInterpolator;
 
     invoke-direct {p4}, Landroid/view/animation/AccelerateDecelerateInterpolator;-><init>()V
 
     invoke-virtual {p1, p4}, Landroid/animation/ValueAnimator;->setInterpolator(Landroid/animation/TimeInterpolator;)V
 
-    .line 17
     iget-object p1, p0, Lcom/commsource/helpcapture/m0;->f:Landroid/animation/ValueAnimator;
 
     new-instance p4, Lcom/commsource/helpcapture/g0;
@@ -153,7 +136,6 @@
 
     invoke-virtual {p1, p4}, Landroid/animation/ValueAnimator;->addUpdateListener(Landroid/animation/ValueAnimator$AnimatorUpdateListener;)V
 
-    .line 18
     iget-object p1, p0, Lcom/commsource/helpcapture/m0;->f:Landroid/animation/ValueAnimator;
 
     invoke-virtual {p1, v0, v1}, Landroid/animation/ValueAnimator;->setDuration(J)Landroid/animation/ValueAnimator;
@@ -168,7 +150,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/helpcapture/m0;->d:Landroid/view/View;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -183,7 +164,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/helpcapture/m0;->L:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -198,7 +178,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/commsource/helpcapture/m0;->t(Z)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -213,7 +192,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/helpcapture/m0;->p:I
 
     int-to-float v1, v1
@@ -228,7 +206,6 @@
 
     sub-float/2addr v1, v2
 
-    .line 2
     invoke-virtual {p1}, Landroid/widget/FrameLayout;->getX()F
 
     move-result v2
@@ -251,7 +228,6 @@
 
     int-to-float v2, v4
 
-    .line 3
     invoke-virtual {p2}, Landroid/animation/ValueAnimator;->getAnimatedValue()Ljava/lang/Object;
 
     move-result-object p2
@@ -273,10 +249,8 @@
     :cond_0
     const/4 p2, 0x0
 
-    .line 4
     invoke-virtual {p1, p2}, Landroid/widget/FrameLayout;->setX(F)V
 
-    .line 5
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -294,7 +268,6 @@
 
     invoke-static {v2}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual/range {p3 .. p3}, Landroid/animation/ValueAnimator;->getAnimatedValue()Ljava/lang/Object;
 
     move-result-object v3
@@ -305,25 +278,20 @@
 
     move-result v3
 
-    .line 2
     invoke-virtual/range {p1 .. p1}, Landroid/widget/TextView;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
 
     move-result-object v4
 
-    .line 3
     iput v3, v4, Landroid/view/ViewGroup$LayoutParams;->width:I
 
     move-object/from16 v5, p1
 
-    .line 4
     invoke-virtual {v5, v4}, Landroid/widget/TextView;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
 
-    .line 5
     iget v4, v0, Lcom/commsource/helpcapture/m0;->M:I
 
     if-ge v3, v4, :cond_1
 
-    .line 6
     iget-boolean v4, v0, Lcom/commsource/helpcapture/m0;->S:Z
 
     const/4 v6, 0x6
@@ -346,7 +314,6 @@
 
     if-eqz v4, :cond_0
 
-    .line 7
     invoke-virtual/range {p2 .. p2}, Landroid/widget/FrameLayout;->getBackground()Landroid/graphics/drawable/Drawable;
 
     move-result-object v4
@@ -355,7 +322,6 @@
 
     new-array v13, v13, [F
 
-    .line 8
     iget v15, v0, Lcom/commsource/helpcapture/m0;->M:I
 
     int-to-float v2, v15
@@ -428,12 +394,10 @@
 
     invoke-virtual {v4, v13}, Landroid/graphics/drawable/GradientDrawable;->setCornerRadii([F)V
 
-    .line 9
     invoke-virtual {v1, v4}, Landroid/widget/FrameLayout;->setBackground(Landroid/graphics/drawable/Drawable;)V
 
     goto :goto_0
 
-    .line 10
     :cond_0
     invoke-virtual/range {p2 .. p2}, Landroid/widget/FrameLayout;->getBackground()Landroid/graphics/drawable/Drawable;
 
@@ -443,7 +407,6 @@
 
     new-array v4, v13, [F
 
-    .line 11
     iget v5, v0, Lcom/commsource/helpcapture/m0;->M:I
 
     int-to-float v13, v5
@@ -516,14 +479,12 @@
 
     invoke-virtual {v2, v4}, Landroid/graphics/drawable/GradientDrawable;->setCornerRadii([F)V
 
-    .line 12
     invoke-virtual {v1, v2}, Landroid/widget/FrameLayout;->setBackground(Landroid/graphics/drawable/Drawable;)V
 
     :cond_1
     :goto_0
     const/16 v1, 0x524f
 
-    .line 13
     invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -536,7 +497,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/helpcapture/m0;->g:Landroid/animation/ValueAnimator;
 
     const/4 v2, 0x2
@@ -547,7 +507,6 @@
 
     invoke-virtual {v1, v3}, Landroid/animation/ValueAnimator;->setFloatValues([F)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/helpcapture/m0;->f:Landroid/animation/ValueAnimator;
 
     new-array v3, v2, [I
@@ -566,14 +525,12 @@
 
     invoke-virtual {v1, v3}, Landroid/animation/ValueAnimator;->setIntValues([I)V
 
-    .line 3
     new-instance v1, Landroid/animation/AnimatorSet;
 
     invoke-direct {v1}, Landroid/animation/AnimatorSet;-><init>()V
 
     new-array v2, v2, [Landroid/animation/Animator;
 
-    .line 4
     iget-object v3, p0, Lcom/commsource/helpcapture/m0;->g:Landroid/animation/ValueAnimator;
 
     aput-object v3, v2, v5
@@ -586,13 +543,10 @@
 
     const-wide/16 v2, 0x12c
 
-    .line 5
     invoke-virtual {v1, v2, v3}, Landroid/animation/AnimatorSet;->setDuration(J)Landroid/animation/AnimatorSet;
 
-    .line 6
     invoke-virtual {v1}, Landroid/animation/AnimatorSet;->start()V
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -619,7 +573,6 @@
 
     if-eqz v2, :cond_1
 
-    .line 1
     iget v2, p0, Lcom/commsource/helpcapture/m0;->J:I
 
     iget v3, p0, Lcom/commsource/helpcapture/m0;->N:I
@@ -650,7 +603,6 @@
 
     sub-float/2addr v1, p1
 
-    .line 2
     iget-object v2, p0, Lcom/commsource/helpcapture/m0;->b:Landroid/widget/FrameLayout;
 
     invoke-virtual {p2}, Landroid/animation/ValueAnimator;->getAnimatedValue()Ljava/lang/Object;
@@ -674,7 +626,6 @@
     :cond_0
     sub-float/2addr v1, p1
 
-    .line 3
     iget-object v2, p0, Lcom/commsource/helpcapture/m0;->b:Landroid/widget/FrameLayout;
 
     invoke-virtual {p2}, Landroid/animation/ValueAnimator;->getAnimatedValue()Ljava/lang/Object;
@@ -693,7 +644,6 @@
 
     invoke-virtual {v2, p1}, Landroid/widget/FrameLayout;->setX(F)V
 
-    .line 4
     :cond_1
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -708,15 +658,12 @@
 
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p1}, Lcom/commsource/widget/dialog/i0;->dismiss()V
 
     const/4 p1, 0x0
 
-    .line 2
     invoke-virtual {p0, p1}, Lcom/commsource/helpcapture/m0;->d(Z)V
 
-    .line 3
     new-instance p1, Ljava/util/HashMap;
 
     const/4 v0, 0x2
@@ -727,15 +674,12 @@
 
     const-string v1, "Handover_Mode"
 
-    .line 4
     invoke-interface {p1, v0, v1}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "feature_shortcut_popup_try"
 
-    .line 5
     invoke-static {v0, p1}, Lcom/commsource/statistics/i;->s(Ljava/lang/String;Ljava/util/Map;)V
 
-    .line 6
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -748,14 +692,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Ljava/lang/Boolean;->booleanValue()Z
 
     move-result p0
 
     if-eqz p0, :cond_0
 
-    .line 2
     new-instance p0, Ljava/util/HashMap;
 
     const/4 v1, 0x2
@@ -766,15 +708,12 @@
 
     const-string v2, "Handover_Mode"
 
-    .line 3
     invoke-interface {p0, v1, v2}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v1, "feature_shortcut_popup_close"
 
-    .line 4
     invoke-static {v1, p0}, Lcom/commsource/statistics/i;->s(Ljava/lang/String;Ljava/util/Map;)V
 
-    .line 5
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -788,7 +727,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/helpcapture/m0;->p:I
 
     if-lez v1, :cond_2
@@ -797,7 +735,6 @@
 
     if-lez v2, :cond_2
 
-    .line 2
     iget-object v2, p0, Lcom/commsource/helpcapture/m0;->b:Landroid/widget/FrameLayout;
 
     if-nez p1, :cond_0
@@ -832,7 +769,6 @@
     :goto_0
     invoke-virtual {v2, v1}, Landroid/widget/FrameLayout;->setX(F)V
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/helpcapture/m0;->b:Landroid/widget/FrameLayout;
 
     iget v2, p0, Lcom/commsource/helpcapture/m0;->L:I
@@ -861,7 +797,6 @@
 
     invoke-virtual {v1, v2}, Landroid/widget/FrameLayout;->setY(F)V
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/helpcapture/m0;->b:Landroid/widget/FrameLayout;
 
     invoke-virtual {v1}, Landroid/widget/FrameLayout;->getBackground()Landroid/graphics/drawable/Drawable;
@@ -876,7 +811,6 @@
 
     const/4 v3, 0x0
 
-    .line 5
     iget v4, p0, Lcom/commsource/helpcapture/m0;->M:I
 
     int-to-float v5, v4
@@ -923,7 +857,6 @@
 
     if-eqz p1, :cond_1
 
-    .line 6
     iget-object p1, p0, Lcom/commsource/helpcapture/m0;->b:Landroid/widget/FrameLayout;
 
     iget-object v1, p0, Lcom/commsource/helpcapture/m0;->T:Ljava/lang/Runnable;
@@ -934,7 +867,6 @@
 
     goto :goto_1
 
-    .line 7
     :cond_1
     iget-object p1, p0, Lcom/commsource/helpcapture/m0;->c:Landroid/widget/TextView;
 
@@ -942,17 +874,14 @@
 
     move-result-object p1
 
-    .line 8
     iget v1, p0, Lcom/commsource/helpcapture/m0;->M:I
 
     iput v1, p1, Landroid/view/ViewGroup$LayoutParams;->width:I
 
-    .line 9
     iget-object v1, p0, Lcom/commsource/helpcapture/m0;->c:Landroid/widget/TextView;
 
     invoke-virtual {v1, p1}, Landroid/widget/TextView;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
 
-    .line 10
     :cond_2
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -969,15 +898,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/commsource/autocamera/k0;
 
     invoke-direct {v1}, Lcom/commsource/autocamera/k0;-><init>()V
 
-    .line 2
     invoke-virtual {v1}, Lf/d/a;->F()V
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/helpcapture/m0;->a:Landroid/content/Context;
 
     sget v2, Lcom/res/provider/ResSTRING;->hand_over_model:I
@@ -994,7 +920,6 @@
 
     invoke-static {v1, v4, v2, v5, v3}, Lcom/meitu/shortcut/core/h;->b(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;ILjava/lang/Class;)V
 
-    .line 4
     new-instance v1, Ljava/util/HashMap;
 
     const/4 v2, 0x2
@@ -1013,22 +938,18 @@
     :goto_0
     const-string v2, "\u89e6\u53d1\u65b9\u5f0f"
 
-    .line 5
     invoke-interface {v1, v2, p1}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string p1, "feature"
 
     const-string v2, "Handover_Mode"
 
-    .line 6
     invoke-interface {v1, p1, v2}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string p1, "feature_shortcut_creat_suc"
 
-    .line 7
     invoke-static {p1, v1}, Lcom/commsource/statistics/i;->s(Ljava/lang/String;Ljava/util/Map;)V
 
-    .line 8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1041,7 +962,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/helpcapture/m0;->c:Landroid/widget/TextView;
 
     invoke-virtual {v1}, Landroid/widget/TextView;->getWidth()I
@@ -1060,19 +980,16 @@
 
     new-array v1, v1, [I
 
-    .line 2
     iget-object v2, p0, Lcom/commsource/helpcapture/m0;->b:Landroid/widget/FrameLayout;
 
     invoke-virtual {v2, v1}, Landroid/widget/FrameLayout;->getLocationInWindow([I)V
 
     const/4 v2, 0x0
 
-    .line 3
     aget v2, v1, v2
 
     int-to-float v2, v2
 
-    .line 4
     iget-object v3, p0, Lcom/commsource/helpcapture/m0;->b:Landroid/widget/FrameLayout;
 
     invoke-virtual {v3}, Landroid/widget/FrameLayout;->getWidth()I
@@ -1081,19 +998,16 @@
 
     const/4 v4, 0x1
 
-    .line 5
     aget v1, v1, v4
 
     int-to-float v1, v1
 
-    .line 6
     iget-object v4, p0, Lcom/commsource/helpcapture/m0;->b:Landroid/widget/FrameLayout;
 
     invoke-virtual {v4}, Landroid/widget/FrameLayout;->getHeight()I
 
     move-result v4
 
-    .line 7
     invoke-virtual {p1}, Landroid/view/MotionEvent;->getX()F
 
     move-result v5
@@ -1137,28 +1051,24 @@
     :cond_0
     iget-object p1, p0, Lcom/commsource/helpcapture/m0;->f:Landroid/animation/ValueAnimator;
 
-    .line 8
     invoke-virtual {p1}, Landroid/animation/ValueAnimator;->isRunning()Z
 
     move-result p1
 
     if-nez p1, :cond_1
 
-    .line 9
     iget-object p1, p0, Lcom/commsource/helpcapture/m0;->b:Landroid/widget/FrameLayout;
 
     iget-object v1, p0, Lcom/commsource/helpcapture/m0;->T:Ljava/lang/Runnable;
 
     invoke-virtual {p1, v1}, Landroid/widget/FrameLayout;->removeCallbacks(Ljava/lang/Runnable;)Z
 
-    .line 10
     iget-object p1, p0, Lcom/commsource/helpcapture/m0;->b:Landroid/widget/FrameLayout;
 
     iget-object v1, p0, Lcom/commsource/helpcapture/m0;->T:Ljava/lang/Runnable;
 
     invoke-virtual {p1, v1}, Landroid/widget/FrameLayout;->post(Ljava/lang/Runnable;)Z
 
-    .line 11
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1177,36 +1087,30 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/helpcapture/m0;->b:Landroid/widget/FrameLayout;
 
     const/4 v2, 0x0
 
     invoke-virtual {v1, v2}, Landroid/widget/FrameLayout;->setVisibility(I)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/helpcapture/m0;->b:Landroid/widget/FrameLayout;
 
     invoke-virtual {v1, p0}, Landroid/widget/FrameLayout;->setOnTouchListener(Landroid/view/View$OnTouchListener;)V
 
-    .line 3
     invoke-static {v2, v2}, Landroid/view/View$MeasureSpec;->makeMeasureSpec(II)I
 
     move-result v1
 
     const/high16 v3, 0x40000000    # 2.0f
 
-    .line 4
     invoke-static {v2, v3}, Landroid/view/View$MeasureSpec;->makeMeasureSpec(II)I
 
     move-result v2
 
-    .line 5
     iget-object v3, p0, Lcom/commsource/helpcapture/m0;->c:Landroid/widget/TextView;
 
     invoke-virtual {v3, v1, v2}, Landroid/widget/TextView;->measure(II)V
 
-    .line 6
     iget-object v1, p0, Lcom/commsource/helpcapture/m0;->c:Landroid/widget/TextView;
 
     invoke-virtual {v1}, Landroid/widget/TextView;->getMeasuredWidth()I
@@ -1215,7 +1119,6 @@
 
     iput v1, p0, Lcom/commsource/helpcapture/m0;->p:I
 
-    .line 7
     iget-object v1, p0, Lcom/commsource/helpcapture/m0;->d:Landroid/view/View;
 
     invoke-virtual {v1}, Landroid/view/View;->getViewTreeObserver()Landroid/view/ViewTreeObserver;
@@ -1228,7 +1131,6 @@
 
     invoke-virtual {v1, v2}, Landroid/view/ViewTreeObserver;->addOnGlobalLayoutListener(Landroid/view/ViewTreeObserver$OnGlobalLayoutListener;)V
 
-    .line 8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1273,17 +1175,14 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p2}, Landroid/view/MotionEvent;->getX()F
 
     move-result v0
 
-    .line 2
     invoke-virtual {p2}, Landroid/view/MotionEvent;->getY()F
 
     move-result v1
 
-    .line 3
     invoke-virtual {p2}, Landroid/view/MotionEvent;->getAction()I
 
     move-result p2
@@ -1306,7 +1205,6 @@
 
     goto/16 :goto_4
 
-    .line 4
     :cond_0
     iget p2, p0, Lcom/commsource/helpcapture/m0;->Q:F
 
@@ -1334,11 +1232,9 @@
 
     if-lez p2, :cond_2
 
-    .line 5
     :cond_1
     iput-boolean v3, p0, Lcom/commsource/helpcapture/m0;->O:Z
 
-    .line 6
     :cond_2
     iget-boolean p2, p0, Lcom/commsource/helpcapture/m0;->O:Z
 
@@ -1354,28 +1250,24 @@
 
     if-eq p2, v5, :cond_c
 
-    .line 7
     iget-object p2, p0, Lcom/commsource/helpcapture/m0;->b:Landroid/widget/FrameLayout;
 
     invoke-virtual {p2}, Landroid/widget/FrameLayout;->getX()F
 
     move-result p2
 
-    .line 8
     iget-object v5, p0, Lcom/commsource/helpcapture/m0;->b:Landroid/widget/FrameLayout;
 
     invoke-virtual {v5}, Landroid/widget/FrameLayout;->getY()F
 
     move-result v5
 
-    .line 9
     iget v6, p0, Lcom/commsource/helpcapture/m0;->Q:F
 
     sub-float/2addr v0, v6
 
     add-float/2addr p2, v0
 
-    .line 10
     iget v0, p0, Lcom/commsource/helpcapture/m0;->R:F
 
     sub-float/2addr v1, v0
@@ -1392,7 +1284,6 @@
 
     goto :goto_0
 
-    .line 11
     :cond_3
     iget v0, p0, Lcom/commsource/helpcapture/m0;->J:I
 
@@ -1410,7 +1301,6 @@
 
     int-to-float p2, v0
 
-    .line 12
     :cond_4
     :goto_0
     iget v0, p0, Lcom/commsource/helpcapture/m0;->K:I
@@ -1426,7 +1316,6 @@
 
     goto :goto_2
 
-    .line 13
     :cond_5
     iget v0, p0, Lcom/commsource/helpcapture/m0;->L:I
 
@@ -1444,19 +1333,16 @@
 
     goto :goto_1
 
-    .line 14
     :cond_6
     :goto_2
     iget-object v0, p0, Lcom/commsource/helpcapture/m0;->b:Landroid/widget/FrameLayout;
 
     invoke-virtual {v0, p2}, Landroid/widget/FrameLayout;->setX(F)V
 
-    .line 15
     iget-object p2, p0, Lcom/commsource/helpcapture/m0;->b:Landroid/widget/FrameLayout;
 
     invoke-virtual {p2, v5}, Landroid/widget/FrameLayout;->setY(F)V
 
-    .line 16
     iget-object p2, p0, Lcom/commsource/helpcapture/m0;->f:Landroid/animation/ValueAnimator;
 
     invoke-virtual {p2}, Landroid/animation/ValueAnimator;->isRunning()Z
@@ -1465,7 +1351,6 @@
 
     if-nez p2, :cond_c
 
-    .line 17
     iget-object p2, p0, Lcom/commsource/helpcapture/m0;->c:Landroid/widget/TextView;
 
     invoke-virtual {p2}, Landroid/widget/TextView;->getWidth()I
@@ -1474,7 +1359,6 @@
 
     if-lez p2, :cond_c
 
-    .line 18
     iget-object p2, p0, Lcom/commsource/helpcapture/m0;->f:Landroid/animation/ValueAnimator;
 
     new-array v0, v4, [I
@@ -1491,14 +1375,12 @@
 
     invoke-virtual {p2, v0}, Landroid/animation/ValueAnimator;->setIntValues([I)V
 
-    .line 19
     iget-object p2, p0, Lcom/commsource/helpcapture/m0;->f:Landroid/animation/ValueAnimator;
 
     invoke-virtual {p2}, Landroid/animation/ValueAnimator;->start()V
 
     goto/16 :goto_4
 
-    .line 20
     :cond_7
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
@@ -1518,7 +1400,6 @@
 
     if-eqz p2, :cond_9
 
-    .line 21
     iget-object p2, p0, Lcom/commsource/helpcapture/m0;->f:Landroid/animation/ValueAnimator;
 
     invoke-virtual {p2}, Landroid/animation/ValueAnimator;->isRunning()Z
@@ -1527,37 +1408,31 @@
 
     if-nez p2, :cond_9
 
-    .line 22
     iget-object p2, p0, Lcom/commsource/helpcapture/m0;->c:Landroid/widget/TextView;
 
     invoke-virtual {p2}, Landroid/widget/TextView;->getWidth()I
 
     move-result p2
 
-    .line 23
     iget-object v0, p0, Lcom/commsource/helpcapture/m0;->b:Landroid/widget/FrameLayout;
 
     iget-object v1, p0, Lcom/commsource/helpcapture/m0;->T:Ljava/lang/Runnable;
 
     invoke-virtual {v0, v1}, Landroid/widget/FrameLayout;->removeCallbacks(Ljava/lang/Runnable;)Z
 
-    .line 24
     iget v0, p0, Lcom/commsource/helpcapture/m0;->p:I
 
     if-ne p2, v0, :cond_8
 
-    .line 25
     invoke-virtual {p0, v2}, Lcom/commsource/helpcapture/m0;->d(Z)V
 
     goto :goto_3
 
-    .line 26
     :cond_8
     new-instance v0, Landroid/animation/AnimatorSet;
 
     invoke-direct {v0}, Landroid/animation/AnimatorSet;-><init>()V
 
-    .line 27
     iget-object v1, p0, Lcom/commsource/helpcapture/m0;->f:Landroid/animation/ValueAnimator;
 
     new-array v5, v4, [I
@@ -1570,7 +1445,6 @@
 
     invoke-virtual {v1, v5}, Landroid/animation/ValueAnimator;->setIntValues([I)V
 
-    .line 28
     iget-object p2, p0, Lcom/commsource/helpcapture/m0;->g:Landroid/animation/ValueAnimator;
 
     new-array v1, v4, [F
@@ -1581,7 +1455,6 @@
 
     new-array p2, v4, [Landroid/animation/Animator;
 
-    .line 29
     iget-object v1, p0, Lcom/commsource/helpcapture/m0;->f:Landroid/animation/ValueAnimator;
 
     aput-object v1, p2, v3
@@ -1594,13 +1467,10 @@
 
     const-wide/16 v5, 0x12c
 
-    .line 30
     invoke-virtual {v0, v5, v6}, Landroid/animation/AnimatorSet;->setDuration(J)Landroid/animation/AnimatorSet;
 
-    .line 31
     invoke-virtual {v0}, Landroid/animation/AnimatorSet;->start()V
 
-    .line 32
     :goto_3
     new-instance p2, Ljava/util/HashMap;
 
@@ -1610,15 +1480,12 @@
 
     const-string v1, "Handover_Mode"
 
-    .line 33
     invoke-interface {p2, v0, v1}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "feature_shortcut_clk"
 
-    .line 34
     invoke-static {v0, p2}, Lcom/commsource/statistics/i;->s(Ljava/lang/String;Ljava/util/Map;)V
 
-    .line 35
     :cond_9
     iget-boolean p2, p0, Lcom/commsource/helpcapture/m0;->O:Z
 
@@ -1634,16 +1501,13 @@
 
     if-eq p2, v0, :cond_a
 
-    .line 36
     invoke-virtual {p0}, Lcom/commsource/helpcapture/m0;->r()V
 
-    .line 37
     :cond_a
     iput-boolean v2, p0, Lcom/commsource/helpcapture/m0;->O:Z
 
     goto :goto_4
 
-    .line 38
     :cond_b
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
@@ -1651,13 +1515,10 @@
 
     iput-wide v3, p0, Lcom/commsource/helpcapture/m0;->P:J
 
-    .line 39
     iput v0, p0, Lcom/commsource/helpcapture/m0;->Q:F
 
-    .line 40
     iput v1, p0, Lcom/commsource/helpcapture/m0;->R:F
 
-    .line 41
     :cond_c
     :goto_4
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1688,19 +1549,16 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/helpcapture/m0;->b:Landroid/widget/FrameLayout;
 
     invoke-virtual {v1}, Landroid/widget/FrameLayout;->getX()F
 
     move-result v1
 
-    .line 2
     iget-object v2, p0, Lcom/commsource/helpcapture/m0;->b:Landroid/widget/FrameLayout;
 
     invoke-virtual {v2}, Landroid/widget/FrameLayout;->getY()F
 
-    .line 3
     iget-object v2, p0, Lcom/commsource/helpcapture/m0;->c:Landroid/widget/TextView;
 
     invoke-virtual {v2}, Landroid/widget/TextView;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
@@ -1709,7 +1567,6 @@
 
     check-cast v2, Landroid/widget/FrameLayout$LayoutParams;
 
-    .line 4
     iget-object v3, p0, Lcom/commsource/helpcapture/m0;->b:Landroid/widget/FrameLayout;
 
     sget v4, Lcom/res/provider/ResID;->iv_shortcut_enter:I
@@ -1718,14 +1575,12 @@
 
     move-result-object v3
 
-    .line 5
     invoke-virtual {v3}, Landroid/view/View;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
 
     move-result-object v4
 
     check-cast v4, Landroid/widget/FrameLayout$LayoutParams;
 
-    .line 6
     iget v5, p0, Lcom/commsource/helpcapture/m0;->J:I
 
     iget v6, p0, Lcom/commsource/helpcapture/m0;->N:I
@@ -1752,24 +1607,18 @@
 
     const/4 v5, 0x3
 
-    .line 7
     iput v5, v4, Landroid/widget/FrameLayout$LayoutParams;->gravity:I
 
-    .line 8
     iget v10, p0, Lcom/commsource/helpcapture/m0;->M:I
 
     iput v10, v2, Landroid/widget/FrameLayout$LayoutParams;->leftMargin:I
 
-    .line 9
     iput v9, v2, Landroid/widget/FrameLayout$LayoutParams;->rightMargin:I
 
-    .line 10
     iput v5, v2, Landroid/widget/FrameLayout$LayoutParams;->gravity:I
 
-    .line 11
     iput-boolean v9, p0, Lcom/commsource/helpcapture/m0;->S:Z
 
-    .line 12
     iget-object v5, p0, Lcom/commsource/helpcapture/m0;->c:Landroid/widget/TextView;
 
     invoke-static {v6}, Lcom/meitu/library/p/f/i;->d(F)I
@@ -1787,24 +1636,18 @@
     :cond_0
     const/4 v5, 0x5
 
-    .line 13
     iput v5, v4, Landroid/widget/FrameLayout$LayoutParams;->gravity:I
 
-    .line 14
     iput v9, v2, Landroid/widget/FrameLayout$LayoutParams;->leftMargin:I
 
-    .line 15
     iget v10, p0, Lcom/commsource/helpcapture/m0;->M:I
 
     iput v10, v2, Landroid/widget/FrameLayout$LayoutParams;->rightMargin:I
 
-    .line 16
     iput v5, v2, Landroid/widget/FrameLayout$LayoutParams;->gravity:I
 
-    .line 17
     iput-boolean v8, p0, Lcom/commsource/helpcapture/m0;->S:Z
 
-    .line 18
     iget-object v5, p0, Lcom/commsource/helpcapture/m0;->c:Landroid/widget/TextView;
 
     invoke-static {v7}, Lcom/meitu/library/p/f/i;->d(F)I
@@ -1817,16 +1660,13 @@
 
     invoke-virtual {v5, v7, v9, v6, v9}, Landroid/widget/TextView;->setPadding(IIII)V
 
-    .line 19
     :goto_0
     invoke-virtual {v3, v4}, Landroid/view/View;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
 
-    .line 20
     iget-object v3, p0, Lcom/commsource/helpcapture/m0;->c:Landroid/widget/TextView;
 
     invoke-virtual {v3, v2}, Landroid/widget/TextView;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
 
-    .line 21
     iget-object v2, p0, Lcom/commsource/helpcapture/m0;->f:Landroid/animation/ValueAnimator;
 
     const/4 v3, 0x2
@@ -1841,28 +1681,24 @@
 
     invoke-virtual {v2, v4}, Landroid/animation/ValueAnimator;->setIntValues([I)V
 
-    .line 22
     iget-object v2, p0, Lcom/commsource/helpcapture/m0;->f:Landroid/animation/ValueAnimator;
 
     invoke-virtual {v2}, Landroid/animation/ValueAnimator;->start()V
 
     new-array v2, v3, [F
 
-    .line 23
     fill-array-data v2, :array_0
 
     invoke-static {v2}, Landroid/animation/ValueAnimator;->ofFloat([F)Landroid/animation/ValueAnimator;
 
     move-result-object v2
 
-    .line 24
     new-instance v3, Landroid/view/animation/AccelerateDecelerateInterpolator;
 
     invoke-direct {v3}, Landroid/view/animation/AccelerateDecelerateInterpolator;-><init>()V
 
     invoke-virtual {v2, v3}, Landroid/animation/ValueAnimator;->setInterpolator(Landroid/animation/TimeInterpolator;)V
 
-    .line 25
     new-instance v3, Lcom/commsource/helpcapture/d0;
 
     invoke-direct {v3, p0, v1}, Lcom/commsource/helpcapture/d0;-><init>(Lcom/commsource/helpcapture/m0;F)V
@@ -1871,13 +1707,10 @@
 
     const-wide/16 v3, 0xc8
 
-    .line 26
     invoke-virtual {v2, v3, v4}, Landroid/animation/ValueAnimator;->setDuration(J)Landroid/animation/ValueAnimator;
 
-    .line 27
     invoke-virtual {v2}, Landroid/animation/ValueAnimator;->start()V
 
-    .line 28
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1898,12 +1731,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/commsource/autocamera/l0;
 
     invoke-direct {v1}, Lcom/commsource/autocamera/l0;-><init>()V
 
-    .line 2
     new-instance v2, Landroid/os/Bundle;
 
     invoke-direct {v2}, Landroid/os/Bundle;-><init>()V
@@ -1912,28 +1743,22 @@
 
     const-string v4, "https://beautyplus-aws.meitudata.com/image/012810d3aee09cce9d767fe5bf75defe.jpg"
 
-    .line 3
     invoke-virtual {v2, v3, v4}, Landroid/os/Bundle;->putString(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 4
     invoke-virtual {v1, v2}, Landroidx/fragment/app/Fragment;->setArguments(Landroid/os/Bundle;)V
 
-    .line 5
     new-instance v2, Lcom/commsource/helpcapture/e0;
 
     invoke-direct {v2, p0, v1}, Lcom/commsource/helpcapture/e0;-><init>(Lcom/commsource/helpcapture/m0;Lcom/commsource/autocamera/l0;)V
 
     invoke-virtual {v1, v2}, Lcom/commsource/autocamera/l0;->Q(Landroid/view/View$OnClickListener;)V
 
-    .line 6
     sget-object v2, Lcom/commsource/helpcapture/c0;->a:Lcom/commsource/helpcapture/c0;
 
     invoke-virtual {v1, v2}, Lcom/commsource/autocamera/l0;->P(Lcom/commsource/util/common/d;)V
 
-    .line 7
     invoke-virtual {v1}, Lf/d/a;->F()V
 
-    .line 8
     new-instance v1, Ljava/util/HashMap;
 
     const/4 v2, 0x2
@@ -1944,15 +1769,12 @@
 
     const-string v3, "Handover_Mode"
 
-    .line 9
     invoke-interface {v1, v2, v3}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v2, "feature_shortcut_popup_imp"
 
-    .line 10
     invoke-static {v2, v1}, Lcom/commsource/statistics/i;->s(Ljava/lang/String;Ljava/util/Map;)V
 
-    .line 11
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

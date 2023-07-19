@@ -48,7 +48,6 @@
 
     invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v2, v0, Lcom/commsource/studio/gesture/LayerSelectComponent$n$a;->b:Ljava/util/Map$Entry;
 
     invoke-interface {v2}, Ljava/util/Map$Entry;->getValue()Ljava/lang/Object;
@@ -61,14 +60,12 @@
 
     new-array v3, v3, [I
 
-    .line 2
     invoke-virtual {v2}, Lcom/commsource/studio/d0;->g()Landroid/view/ViewGroup;
 
     move-result-object v2
 
     invoke-virtual {v2, v3}, Landroid/view/ViewGroup;->getLocationInWindow([I)V
 
-    .line 3
     iget-object v2, v0, Lcom/commsource/studio/gesture/LayerSelectComponent$n$a;->a:Lcom/commsource/studio/gesture/LayerSelectComponent$n;
 
     iget-object v2, v2, Lcom/commsource/studio/gesture/LayerSelectComponent$n;->a:Lcom/commsource/studio/gesture/LayerSelectComponent;
@@ -81,19 +78,16 @@
 
     const/high16 v2, 0x42800000    # 64.0f
 
-    .line 4
     invoke-static {v2}, Lcom/meitu/library/p/f/i;->d(F)I
 
     move-result v2
 
     const/high16 v5, 0x42340000    # 45.0f
 
-    .line 5
     invoke-static {v5}, Lcom/meitu/library/p/f/i;->d(F)I
 
     move-result v5
 
-    .line 6
     iget-object v6, v0, Lcom/commsource/studio/gesture/LayerSelectComponent$n$a;->a:Lcom/commsource/studio/gesture/LayerSelectComponent$n;
 
     iget-object v6, v6, Lcom/commsource/studio/gesture/LayerSelectComponent$n;->a:Lcom/commsource/studio/gesture/LayerSelectComponent;
@@ -120,7 +114,6 @@
 
     add-int/2addr v6, v7
 
-    .line 7
     iget-object v7, v0, Lcom/commsource/studio/gesture/LayerSelectComponent$n$a;->a:Lcom/commsource/studio/gesture/LayerSelectComponent$n;
 
     iget-object v7, v7, Lcom/commsource/studio/gesture/LayerSelectComponent$n;->a:Lcom/commsource/studio/gesture/LayerSelectComponent;
@@ -143,7 +136,6 @@
 
     check-cast v7, Landroid/widget/FrameLayout$LayoutParams;
 
-    .line 8
     aget v9, v3, v4
 
     sub-int/2addr v9, v6
@@ -174,7 +166,6 @@
     :goto_0
     if-eqz v5, :cond_1
 
-    .line 9
     aget v3, v3, v4
 
     add-int/2addr v3, v2
@@ -187,7 +178,6 @@
 
     iput v3, v7, Landroid/widget/FrameLayout$LayoutParams;->topMargin:I
 
-    .line 10
     :cond_1
     iget-object v2, v0, Lcom/commsource/studio/gesture/LayerSelectComponent$n$a;->a:Lcom/commsource/studio/gesture/LayerSelectComponent$n;
 
@@ -217,7 +207,6 @@
     :goto_1
     invoke-virtual {v2, v4}, Landroid/widget/ImageView;->setVisibility(I)V
 
-    .line 11
     iget-object v2, v0, Lcom/commsource/studio/gesture/LayerSelectComponent$n$a;->a:Lcom/commsource/studio/gesture/LayerSelectComponent$n;
 
     iget-object v2, v2, Lcom/commsource/studio/gesture/LayerSelectComponent$n;->a:Lcom/commsource/studio/gesture/LayerSelectComponent;
@@ -239,7 +228,6 @@
     :cond_3
     invoke-virtual {v2, v10}, Landroid/widget/ImageView;->setVisibility(I)V
 
-    .line 12
     iget-object v2, v0, Lcom/commsource/studio/gesture/LayerSelectComponent$n$a;->a:Lcom/commsource/studio/gesture/LayerSelectComponent$n;
 
     iget-object v2, v2, Lcom/commsource/studio/gesture/LayerSelectComponent$n;->a:Lcom/commsource/studio/gesture/LayerSelectComponent;
@@ -254,7 +242,6 @@
 
     invoke-virtual {v2, v7}, Landroid/widget/LinearLayout;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
 
-    .line 13
     iget-object v2, v0, Lcom/commsource/studio/gesture/LayerSelectComponent$n$a;->a:Lcom/commsource/studio/gesture/LayerSelectComponent$n;
 
     iget-object v2, v2, Lcom/commsource/studio/gesture/LayerSelectComponent$n;->a:Lcom/commsource/studio/gesture/LayerSelectComponent;
@@ -281,12 +268,10 @@
 
     invoke-static/range {v9 .. v16}, Lcom/commsource/util/l0;->f(Landroid/view/View;FZJLcotlin/jvm/u/a;ILjava/lang/Object;)V
 
-    .line 14
     invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 15
     :cond_4
     new-instance v2, Lcotlin/TypeCastException;
 

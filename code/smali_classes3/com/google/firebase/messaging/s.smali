@@ -36,12 +36,10 @@
 .method public final a(Lcom/google/firebase/components/g;)Ljava/lang/Object;
     .locals 8
 
-    .line 1
     new-instance v7, Lcom/google/firebase/messaging/FirebaseMessaging;
 
     const-class v0, Lcom/google/firebase/d;
 
-    .line 2
     invoke-interface {p1, v0}, Lcom/google/firebase/components/g;->a(Ljava/lang/Class;)Ljava/lang/Object;
 
     move-result-object v0
@@ -52,7 +50,6 @@
 
     const-class v0, Lcom/google/firebase/iid/FirebaseInstanceId;
 
-    .line 3
     invoke-interface {p1, v0}, Lcom/google/firebase/components/g;->a(Ljava/lang/Class;)Ljava/lang/Object;
 
     move-result-object v0
@@ -63,7 +60,6 @@
 
     const-class v0, Lcom/google/firebase/y/i;
 
-    .line 4
     invoke-interface {p1, v0}, Lcom/google/firebase/components/g;->a(Ljava/lang/Class;)Ljava/lang/Object;
 
     move-result-object v0
@@ -74,7 +70,6 @@
 
     const-class v0, Lcom/google/firebase/heartbeatinfo/HeartBeatInfo;
 
-    .line 5
     invoke-interface {p1, v0}, Lcom/google/firebase/components/g;->a(Ljava/lang/Class;)Ljava/lang/Object;
 
     move-result-object v0
@@ -85,7 +80,6 @@
 
     const-class v0, Lcom/google/firebase/installations/j;
 
-    .line 6
     invoke-interface {p1, v0}, Lcom/google/firebase/components/g;->a(Ljava/lang/Class;)Ljava/lang/Object;
 
     move-result-object v0
@@ -96,7 +90,6 @@
 
     const-class v0, Lcom/google/android/datatransport/h;
 
-    .line 7
     invoke-interface {p1, v0}, Lcom/google/firebase/components/g;->a(Ljava/lang/Class;)Ljava/lang/Object;
 
     move-result-object p1
@@ -105,10 +98,8 @@
 
     if-eqz p1, :cond_0
 
-    .line 8
     sget-object v0, Lcom/google/android/datatransport/cct/a;->h:Lcom/google/android/datatransport/cct/a;
 
-    .line 9
     invoke-virtual {v0}, Lcom/google/android/datatransport/cct/a;->a()Ljava/util/Set;
 
     move-result-object v0
@@ -125,7 +116,6 @@
 
     if-nez v0, :cond_1
 
-    .line 10
     :cond_0
     new-instance p1, Lcom/google/firebase/messaging/FirebaseMessagingRegistrar$b;
 
@@ -136,7 +126,6 @@
 
     move-object v0, v7
 
-    .line 11
     invoke-direct/range {v0 .. v6}, Lcom/google/firebase/messaging/FirebaseMessaging;-><init>(Lcom/google/firebase/d;Lcom/google/firebase/iid/FirebaseInstanceId;Lcom/google/firebase/y/i;Lcom/google/firebase/heartbeatinfo/HeartBeatInfo;Lcom/google/firebase/installations/j;Lcom/google/android/datatransport/h;)V
 
     return-object v7

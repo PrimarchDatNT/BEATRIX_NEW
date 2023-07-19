@@ -28,7 +28,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/meitu/library/camera/s/k/g;
 
     const/4 v2, 0x0
@@ -49,7 +48,6 @@
 
     const-string v0, "ratio"
 
-    .line 1
     invoke-direct {p0, v0}, Lcom/meitu/library/camera/s/k/b;-><init>(Ljava/lang/String;)V
 
     return-void
@@ -60,16 +58,12 @@
 
     const-string v0, "ratio"
 
-    .line 2
     invoke-direct {p0, v0}, Lcom/meitu/library/camera/s/k/b;-><init>(Ljava/lang/String;)V
 
-    .line 3
     iput p1, p0, Lcom/meitu/library/camera/s/k/g;->k:I
 
-    .line 4
     iput p2, p0, Lcom/meitu/library/camera/s/k/g;->l:I
 
-    .line 5
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -98,16 +92,12 @@
 
     const-string v0, "ratio"
 
-    .line 6
     invoke-direct {p0, v0, p1, p2}, Lcom/meitu/library/camera/s/k/b;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 7
     iput p3, p0, Lcom/meitu/library/camera/s/k/g;->k:I
 
-    .line 8
     iput p4, p0, Lcom/meitu/library/camera/s/k/g;->l:I
 
-    .line 9
     new-instance p1, Ljava/lang/StringBuilder;
 
     invoke-direct {p1}, Ljava/lang/StringBuilder;-><init>()V
@@ -138,7 +128,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/meitu/library/camera/s/k/g;
 
     sget-object v2, Lcom/meitu/library/camera/s/k/g;->n:Lcom/meitu/library/camera/s/k/g;
@@ -163,7 +152,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/library/camera/s/k/g;->l:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -178,7 +166,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/library/camera/s/k/g;->k:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -193,7 +180,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/library/camera/s/k/g;->k:I
 
     int-to-float v1, v1
@@ -220,7 +206,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -267,7 +252,6 @@
 
     if-nez p1, :cond_0
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
@@ -277,12 +261,10 @@
 
     if-ne p0, p1, :cond_1
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v2
 
-    .line 3
     :cond_1
     invoke-super {p0, p1}, Lcom/meitu/library/camera/s/k/b;->equals(Ljava/lang/Object;)Z
 
@@ -290,27 +272,22 @@
 
     if-nez v3, :cond_2
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
 
-    .line 5
     :cond_2
     instance-of v3, p1, Lcom/meitu/library/camera/s/k/g;
 
     if-nez v3, :cond_3
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
 
-    .line 7
     :cond_3
     check-cast p1, Lcom/meitu/library/camera/s/k/g;
 
-    .line 8
     invoke-virtual {p0}, Lcom/meitu/library/camera/s/k/b;->z()Ljava/lang/String;
 
     move-result-object v3
@@ -325,7 +302,6 @@
 
     if-eqz v3, :cond_4
 
-    .line 9
     invoke-virtual {p0}, Lcom/meitu/library/camera/s/k/b;->y()Ljava/lang/String;
 
     move-result-object v3
@@ -354,7 +330,6 @@
 
     const/4 v1, 0x1
 
-    .line 10
     :cond_4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -368,7 +343,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/library/camera/s/k/g;->j:Ljava/lang/String;
 
     invoke-virtual {v1}, Ljava/lang/String;->hashCode()I

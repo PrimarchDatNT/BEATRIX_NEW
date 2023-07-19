@@ -42,7 +42,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/widget/CameraCaptureView$k;->a:Lcom/commsource/camera/xcamera/widget/CameraCaptureView;
 
     invoke-virtual {v1}, Lcom/commsource/camera/xcamera/widget/CameraCaptureView;->getVideoRecordListener()Lcom/commsource/camera/xcamera/widget/CameraCaptureView$d;
@@ -51,14 +50,12 @@
 
     if-eqz v1, :cond_1
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/camera/xcamera/widget/CameraCaptureView$k;->a:Lcom/commsource/camera/xcamera/widget/CameraCaptureView;
 
     const/4 v2, 0x1
 
     invoke-virtual {v1, v2}, Lcom/commsource/camera/xcamera/widget/CameraCaptureView;->setCanStartRecording(Z)V
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/camera/xcamera/widget/CameraCaptureView$k;->a:Lcom/commsource/camera/xcamera/widget/CameraCaptureView;
 
     invoke-virtual {v1}, Lcom/commsource/camera/xcamera/widget/CameraCaptureView;->getVideoRecordListener()Lcom/commsource/camera/xcamera/widget/CameraCaptureView$d;
@@ -74,7 +71,6 @@
 
     invoke-interface {v1, v3, v2}, Lcom/commsource/camera/xcamera/widget/CameraCaptureView$d;->b(ZZ)Z
 
-    .line 4
     :cond_1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/widget/CameraCaptureView$k;->a:Lcom/commsource/camera/xcamera/widget/CameraCaptureView;
 
@@ -84,7 +80,6 @@
 
     invoke-virtual {v1}, Lcom/commsource/camera/f1/l;->a()V
 
-    .line 5
     iget-object v1, p0, Lcom/commsource/camera/xcamera/widget/CameraCaptureView$k;->a:Lcom/commsource/camera/xcamera/widget/CameraCaptureView;
 
     invoke-static {v1}, Lcom/commsource/camera/xcamera/widget/CameraCaptureView;->n(Lcom/commsource/camera/xcamera/widget/CameraCaptureView;)Lcom/commsource/camera/f1/l;
@@ -93,7 +88,6 @@
 
     invoke-virtual {v1}, Lcom/commsource/camera/f1/l;->j()V
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

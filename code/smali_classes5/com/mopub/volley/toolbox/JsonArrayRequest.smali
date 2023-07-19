@@ -43,7 +43,6 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     invoke-virtual {p3}, Lorg/json/JSONArray;->toString()Ljava/lang/String;
 
@@ -62,7 +61,6 @@
 
     move-object v5, p5
 
-    .line 3
     invoke-direct/range {v0 .. v5}, Lcom/mopub/volley/toolbox/JsonRequest;-><init>(ILjava/lang/String;Ljava/lang/String;Lcom/mopub/volley/Response$Listener;Lcom/mopub/volley/Response$ErrorListener;)V
 
     return-void
@@ -98,7 +96,6 @@
 
     move-object v5, p3
 
-    .line 1
     invoke-direct/range {v0 .. v5}, Lcom/mopub/volley/toolbox/JsonRequest;-><init>(ILjava/lang/String;Ljava/lang/String;Lcom/mopub/volley/Response$Listener;Lcom/mopub/volley/Response$ErrorListener;)V
 
     return-void
@@ -119,7 +116,6 @@
         }
     .end annotation
 
-    .line 1
     :try_start_0
     new-instance v0, Ljava/lang/String;
 
@@ -129,24 +125,20 @@
 
     const-string v3, "utf-8"
 
-    .line 2
     invoke-static {v2, v3}, Lcom/mopub/volley/toolbox/HttpHeaderParser;->parseCharset(Ljava/util/Map;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v2
 
     invoke-direct {v0, v1, v2}, Ljava/lang/String;-><init>([BLjava/lang/String;)V
 
-    .line 3
     new-instance v1, Lorg/json/JSONArray;
 
     invoke-direct {v1, v0}, Lorg/json/JSONArray;-><init>(Ljava/lang/String;)V
 
-    .line 4
     invoke-static {p1}, Lcom/mopub/volley/toolbox/HttpHeaderParser;->parseCacheHeaders(Lcom/mopub/volley/NetworkResponse;)Lcom/mopub/volley/Cache$Entry;
 
     move-result-object p1
 
-    .line 5
     invoke-static {v1, p1}, Lcom/mopub/volley/Response;->success(Ljava/lang/Object;Lcom/mopub/volley/Cache$Entry;)Lcom/mopub/volley/Response;
 
     move-result-object p1
@@ -159,7 +151,6 @@
     :catch_0
     move-exception p1
 
-    .line 6
     new-instance v0, Lcom/mopub/volley/ParseError;
 
     invoke-direct {v0, p1}, Lcom/mopub/volley/ParseError;-><init>(Ljava/lang/Throwable;)V
@@ -173,7 +164,6 @@
     :catch_1
     move-exception p1
 
-    .line 7
     new-instance v0, Lcom/mopub/volley/ParseError;
 
     invoke-direct {v0, p1}, Lcom/mopub/volley/ParseError;-><init>(Ljava/lang/Throwable;)V

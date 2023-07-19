@@ -68,7 +68,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/meitu/library/analytics/sdk/content/PrivacyControl;
 
     const-string v2, "C_GPS"
@@ -81,7 +80,6 @@
 
     sput-object v1, Lcom/meitu/library/analytics/sdk/content/PrivacyControl;->C_GPS:Lcom/meitu/library/analytics/sdk/content/PrivacyControl;
 
-    .line 2
     new-instance v2, Lcom/meitu/library/analytics/sdk/content/PrivacyControl;
 
     const-string v4, "C_ADVERTISING_ID"
@@ -94,7 +92,6 @@
 
     sput-object v2, Lcom/meitu/library/analytics/sdk/content/PrivacyControl;->C_ADVERTISING_ID:Lcom/meitu/library/analytics/sdk/content/PrivacyControl;
 
-    .line 3
     new-instance v4, Lcom/meitu/library/analytics/sdk/content/PrivacyControl;
 
     const-string v6, "C_HARDWARE_SERIAL_NUMBER"
@@ -107,7 +104,6 @@
 
     sput-object v4, Lcom/meitu/library/analytics/sdk/content/PrivacyControl;->C_HARDWARE_SERIAL_NUMBER:Lcom/meitu/library/analytics/sdk/content/PrivacyControl;
 
-    .line 4
     new-instance v6, Lcom/meitu/library/analytics/sdk/content/PrivacyControl;
 
     const-string v8, "C_IMSI"
@@ -120,7 +116,6 @@
 
     sput-object v6, Lcom/meitu/library/analytics/sdk/content/PrivacyControl;->C_IMSI:Lcom/meitu/library/analytics/sdk/content/PrivacyControl;
 
-    .line 5
     new-instance v8, Lcom/meitu/library/analytics/sdk/content/PrivacyControl;
 
     const-string v10, "C_BSSID"
@@ -133,7 +128,6 @@
 
     sput-object v8, Lcom/meitu/library/analytics/sdk/content/PrivacyControl;->C_BSSID:Lcom/meitu/library/analytics/sdk/content/PrivacyControl;
 
-    .line 6
     new-instance v10, Lcom/meitu/library/analytics/sdk/content/PrivacyControl;
 
     const-string v12, "C_IMEI"
@@ -146,7 +140,6 @@
 
     sput-object v10, Lcom/meitu/library/analytics/sdk/content/PrivacyControl;->C_IMEI:Lcom/meitu/library/analytics/sdk/content/PrivacyControl;
 
-    .line 7
     new-instance v12, Lcom/meitu/library/analytics/sdk/content/PrivacyControl;
 
     const-string v14, "C_GID"
@@ -159,7 +152,6 @@
 
     sput-object v12, Lcom/meitu/library/analytics/sdk/content/PrivacyControl;->C_GID:Lcom/meitu/library/analytics/sdk/content/PrivacyControl;
 
-    .line 8
     new-instance v0, Lcom/meitu/library/analytics/sdk/content/PrivacyControl;
 
     const-string v14, "C_GID_STATUS"
@@ -172,7 +164,6 @@
 
     sput-object v0, Lcom/meitu/library/analytics/sdk/content/PrivacyControl;->C_GID_STATUS:Lcom/meitu/library/analytics/sdk/content/PrivacyControl;
 
-    .line 9
     new-instance v13, Lcom/meitu/library/analytics/sdk/content/PrivacyControl;
 
     const-string v14, "C_ICCID"
@@ -185,7 +176,6 @@
 
     sput-object v13, Lcom/meitu/library/analytics/sdk/content/PrivacyControl;->C_ICCID:Lcom/meitu/library/analytics/sdk/content/PrivacyControl;
 
-    .line 10
     new-instance v11, Lcom/meitu/library/analytics/sdk/content/PrivacyControl;
 
     const-string v14, "C_MAC_ADDR"
@@ -198,7 +188,6 @@
 
     sput-object v11, Lcom/meitu/library/analytics/sdk/content/PrivacyControl;->C_MAC_ADDR:Lcom/meitu/library/analytics/sdk/content/PrivacyControl;
 
-    .line 11
     new-instance v9, Lcom/meitu/library/analytics/sdk/content/PrivacyControl;
 
     const-string v14, "C_ANDROID_ID"
@@ -211,7 +200,6 @@
 
     sput-object v9, Lcom/meitu/library/analytics/sdk/content/PrivacyControl;->C_ANDROID_ID:Lcom/meitu/library/analytics/sdk/content/PrivacyControl;
 
-    .line 12
     new-instance v7, Lcom/meitu/library/analytics/sdk/content/PrivacyControl;
 
     const-string v14, "C_APP_LIST"
@@ -224,7 +212,6 @@
 
     sput-object v7, Lcom/meitu/library/analytics/sdk/content/PrivacyControl;->C_APP_LIST:Lcom/meitu/library/analytics/sdk/content/PrivacyControl;
 
-    .line 13
     new-instance v5, Lcom/meitu/library/analytics/sdk/content/PrivacyControl;
 
     const-string v14, "C_RUNNING_APP_PROCESS"
@@ -237,7 +224,6 @@
 
     sput-object v5, Lcom/meitu/library/analytics/sdk/content/PrivacyControl;->C_RUNNING_APP_PROCESS:Lcom/meitu/library/analytics/sdk/content/PrivacyControl;
 
-    .line 14
     new-instance v3, Lcom/meitu/library/analytics/sdk/content/PrivacyControl;
 
     const-string v14, "C_MSA_IDS"
@@ -252,7 +238,6 @@
 
     sput-object v3, Lcom/meitu/library/analytics/sdk/content/PrivacyControl;->C_MSA_IDS:Lcom/meitu/library/analytics/sdk/content/PrivacyControl;
 
-    .line 15
     new-instance v5, Lcom/meitu/library/analytics/sdk/content/PrivacyControl;
 
     const-string v14, "C_PSEUDO_UNIQUE_ID"
@@ -267,7 +252,6 @@
 
     sput-object v5, Lcom/meitu/library/analytics/sdk/content/PrivacyControl;->C_PSEUDO_UNIQUE_ID:Lcom/meitu/library/analytics/sdk/content/PrivacyControl;
 
-    .line 16
     new-instance v3, Lcom/meitu/library/analytics/sdk/content/PrivacyControl;
 
     const-string v14, "C_NETWORK_TYPE"
@@ -282,7 +266,6 @@
 
     sput-object v3, Lcom/meitu/library/analytics/sdk/content/PrivacyControl;->C_NETWORK_TYPE:Lcom/meitu/library/analytics/sdk/content/PrivacyControl;
 
-    .line 17
     new-instance v5, Lcom/meitu/library/analytics/sdk/content/PrivacyControl;
 
     const-string v14, "C_TIMEZONE"
@@ -297,7 +280,6 @@
 
     sput-object v5, Lcom/meitu/library/analytics/sdk/content/PrivacyControl;->C_TIMEZONE:Lcom/meitu/library/analytics/sdk/content/PrivacyControl;
 
-    .line 18
     new-instance v3, Lcom/meitu/library/analytics/sdk/content/PrivacyControl;
 
     const-string v14, "C_HARDWARE_ACCESSORIES"
@@ -386,7 +368,6 @@
 
     aput-object v3, v5, v15
 
-    .line 19
     sput-object v5, Lcom/meitu/library/analytics/sdk/content/PrivacyControl;->$VALUES:[Lcom/meitu/library/analytics/sdk/content/PrivacyControl;
 
     const v0, 0xd6d4
@@ -406,10 +387,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 2
     iput-object p3, p0, Lcom/meitu/library/analytics/sdk/content/PrivacyControl;->name:Ljava/lang/String;
 
     return-void
@@ -422,7 +401,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/meitu/library/analytics/sdk/content/PrivacyControl;->C_GPS:Lcom/meitu/library/analytics/sdk/content/PrivacyControl;
 
     invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
@@ -433,7 +411,6 @@
 
     aput-boolean v2, p0, v1
 
-    .line 2
     sget-object v1, Lcom/meitu/library/analytics/sdk/content/PrivacyControl;->C_ADVERTISING_ID:Lcom/meitu/library/analytics/sdk/content/PrivacyControl;
 
     invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
@@ -442,7 +419,6 @@
 
     aput-boolean v2, p0, v1
 
-    .line 3
     sget-object v1, Lcom/meitu/library/analytics/sdk/content/PrivacyControl;->C_HARDWARE_SERIAL_NUMBER:Lcom/meitu/library/analytics/sdk/content/PrivacyControl;
 
     invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
@@ -451,7 +427,6 @@
 
     aput-boolean v2, p0, v1
 
-    .line 4
     sget-object v1, Lcom/meitu/library/analytics/sdk/content/PrivacyControl;->C_IMSI:Lcom/meitu/library/analytics/sdk/content/PrivacyControl;
 
     invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
@@ -460,7 +435,6 @@
 
     aput-boolean v2, p0, v1
 
-    .line 5
     sget-object v1, Lcom/meitu/library/analytics/sdk/content/PrivacyControl;->C_BSSID:Lcom/meitu/library/analytics/sdk/content/PrivacyControl;
 
     invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
@@ -469,7 +443,6 @@
 
     aput-boolean v2, p0, v1
 
-    .line 6
     sget-object v1, Lcom/meitu/library/analytics/sdk/content/PrivacyControl;->C_IMEI:Lcom/meitu/library/analytics/sdk/content/PrivacyControl;
 
     invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
@@ -478,7 +451,6 @@
 
     aput-boolean v2, p0, v1
 
-    .line 7
     sget-object v1, Lcom/meitu/library/analytics/sdk/content/PrivacyControl;->C_GID:Lcom/meitu/library/analytics/sdk/content/PrivacyControl;
 
     invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
@@ -487,7 +459,6 @@
 
     aput-boolean v2, p0, v1
 
-    .line 8
     sget-object v1, Lcom/meitu/library/analytics/sdk/content/PrivacyControl;->C_GID_STATUS:Lcom/meitu/library/analytics/sdk/content/PrivacyControl;
 
     invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
@@ -496,7 +467,6 @@
 
     aput-boolean v2, p0, v1
 
-    .line 9
     sget-object v1, Lcom/meitu/library/analytics/sdk/content/PrivacyControl;->C_ICCID:Lcom/meitu/library/analytics/sdk/content/PrivacyControl;
 
     invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
@@ -505,7 +475,6 @@
 
     aput-boolean v2, p0, v1
 
-    .line 10
     sget-object v1, Lcom/meitu/library/analytics/sdk/content/PrivacyControl;->C_MAC_ADDR:Lcom/meitu/library/analytics/sdk/content/PrivacyControl;
 
     invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
@@ -514,7 +483,6 @@
 
     aput-boolean v2, p0, v1
 
-    .line 11
     sget-object v1, Lcom/meitu/library/analytics/sdk/content/PrivacyControl;->C_ANDROID_ID:Lcom/meitu/library/analytics/sdk/content/PrivacyControl;
 
     invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
@@ -523,7 +491,6 @@
 
     aput-boolean v2, p0, v1
 
-    .line 12
     sget-object v1, Lcom/meitu/library/analytics/sdk/content/PrivacyControl;->C_APP_LIST:Lcom/meitu/library/analytics/sdk/content/PrivacyControl;
 
     invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
@@ -532,7 +499,6 @@
 
     aput-boolean v2, p0, v1
 
-    .line 13
     sget-object v1, Lcom/meitu/library/analytics/sdk/content/PrivacyControl;->C_RUNNING_APP_PROCESS:Lcom/meitu/library/analytics/sdk/content/PrivacyControl;
 
     invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
@@ -541,7 +507,6 @@
 
     aput-boolean v2, p0, v1
 
-    .line 14
     sget-object v1, Lcom/meitu/library/analytics/sdk/content/PrivacyControl;->C_MSA_IDS:Lcom/meitu/library/analytics/sdk/content/PrivacyControl;
 
     invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
@@ -550,7 +515,6 @@
 
     aput-boolean v2, p0, v1
 
-    .line 15
     sget-object v1, Lcom/meitu/library/analytics/sdk/content/PrivacyControl;->C_PSEUDO_UNIQUE_ID:Lcom/meitu/library/analytics/sdk/content/PrivacyControl;
 
     invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
@@ -559,7 +523,6 @@
 
     aput-boolean v2, p0, v1
 
-    .line 16
     sget-object v1, Lcom/meitu/library/analytics/sdk/content/PrivacyControl;->C_NETWORK_TYPE:Lcom/meitu/library/analytics/sdk/content/PrivacyControl;
 
     invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
@@ -568,7 +531,6 @@
 
     aput-boolean v2, p0, v1
 
-    .line 17
     sget-object v1, Lcom/meitu/library/analytics/sdk/content/PrivacyControl;->C_TIMEZONE:Lcom/meitu/library/analytics/sdk/content/PrivacyControl;
 
     invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
@@ -577,7 +539,6 @@
 
     aput-boolean v2, p0, v1
 
-    .line 18
     sget-object v1, Lcom/meitu/library/analytics/sdk/content/PrivacyControl;->C_HARDWARE_ACCESSORIES:Lcom/meitu/library/analytics/sdk/content/PrivacyControl;
 
     invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
@@ -586,7 +547,6 @@
 
     aput-boolean v2, p0, v1
 
-    .line 19
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -599,7 +559,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     const-class v1, Lcom/meitu/library/analytics/sdk/content/PrivacyControl;
 
     invoke-static {v1, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -620,7 +579,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/meitu/library/analytics/sdk/content/PrivacyControl;->$VALUES:[Lcom/meitu/library/analytics/sdk/content/PrivacyControl;
 
     invoke-virtual {v1}, [Lcom/meitu/library/analytics/sdk/content/PrivacyControl;->clone()Ljava/lang/Object;
@@ -643,7 +601,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/library/analytics/sdk/content/PrivacyControl;->name:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

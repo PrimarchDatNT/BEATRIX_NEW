@@ -25,7 +25,6 @@
 .method constructor <init>(Lcom/meitu/library/analytics/y/c/k;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/library/analytics/y/c/k$a;->a:Lcom/meitu/library/analytics/y/c/k;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -42,19 +41,16 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/meitu/library/analytics/sdk/content/f;->S()Lcom/meitu/library/analytics/sdk/content/f;
 
     move-result-object v1
 
     if-nez v1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 3
     :cond_0
     iget-object v2, p0, Lcom/meitu/library/analytics/y/c/k$a;->a:Lcom/meitu/library/analytics/y/c/k;
 
@@ -64,7 +60,6 @@
 
     monitor-enter v2
 
-    .line 4
     :try_start_0
     iget-object v3, p0, Lcom/meitu/library/analytics/y/c/k$a;->a:Lcom/meitu/library/analytics/y/c/k;
 
@@ -92,7 +87,6 @@
     :goto_0
     invoke-interface {v3, v4, v5}, Lcom/meitu/library/analytics/y/o/p$a;->a(Ljava/lang/String;Ljava/lang/String;)Lcom/meitu/library/analytics/y/o/p$a;
 
-    .line 5
     iget-object v3, p0, Lcom/meitu/library/analytics/y/c/k$a;->a:Lcom/meitu/library/analytics/y/c/k;
 
     invoke-static {v3}, Lcom/meitu/library/analytics/y/c/k;->c(Lcom/meitu/library/analytics/y/c/k;)Lcom/meitu/library/analytics/y/o/p$a;
@@ -119,7 +113,6 @@
     :goto_1
     invoke-interface {v3, v4, v5}, Lcom/meitu/library/analytics/y/o/p$a;->a(Ljava/lang/String;Ljava/lang/String;)Lcom/meitu/library/analytics/y/o/p$a;
 
-    .line 6
     iget-object v3, p0, Lcom/meitu/library/analytics/y/c/k$a;->a:Lcom/meitu/library/analytics/y/c/k;
 
     invoke-static {v3}, Lcom/meitu/library/analytics/y/c/k;->c(Lcom/meitu/library/analytics/y/c/k;)Lcom/meitu/library/analytics/y/o/p$a;
@@ -146,7 +139,6 @@
     :goto_2
     invoke-interface {v3, v4, v5}, Lcom/meitu/library/analytics/y/o/p$a;->a(Ljava/lang/String;Ljava/lang/String;)Lcom/meitu/library/analytics/y/o/p$a;
 
-    .line 7
     iget-object v3, p0, Lcom/meitu/library/analytics/y/c/k$a;->a:Lcom/meitu/library/analytics/y/c/k;
 
     invoke-static {v3}, Lcom/meitu/library/analytics/y/c/k;->c(Lcom/meitu/library/analytics/y/c/k;)Lcom/meitu/library/analytics/y/o/p$a;
@@ -173,7 +165,6 @@
     :goto_3
     invoke-interface {v3, v4, v5}, Lcom/meitu/library/analytics/y/o/p$a;->a(Ljava/lang/String;Ljava/lang/String;)Lcom/meitu/library/analytics/y/o/p$a;
 
-    .line 8
     iget-object v3, p0, Lcom/meitu/library/analytics/y/c/k$a;->a:Lcom/meitu/library/analytics/y/c/k;
 
     invoke-static {v3}, Lcom/meitu/library/analytics/y/c/k;->c(Lcom/meitu/library/analytics/y/c/k;)Lcom/meitu/library/analytics/y/o/p$a;
@@ -198,7 +189,6 @@
     :goto_4
     invoke-interface {v3, v4, v5}, Lcom/meitu/library/analytics/y/o/p$a;->a(Ljava/lang/String;Ljava/lang/String;)Lcom/meitu/library/analytics/y/o/p$a;
 
-    .line 9
     invoke-static {}, Lcom/meitu/library/analytics/sdk/content/PrivacyControl;->values()[Lcom/meitu/library/analytics/sdk/content/PrivacyControl;
 
     move-result-object v3
@@ -207,13 +197,11 @@
 
     const/4 v5, 0x0
 
-    .line 10
     :goto_5
     array-length v6, v3
 
     if-ge v5, v6, :cond_7
 
-    .line 11
     iget-object v6, p0, Lcom/meitu/library/analytics/y/c/k$a;->a:Lcom/meitu/library/analytics/y/c/k;
 
     invoke-static {v6}, Lcom/meitu/library/analytics/y/c/k;->c(Lcom/meitu/library/analytics/y/c/k;)Lcom/meitu/library/analytics/y/o/p$a;
@@ -248,19 +236,16 @@
 
     goto :goto_5
 
-    .line 12
     :cond_7
     invoke-static {}, Lcom/meitu/library/analytics/sdk/content/SensitiveData;->values()[Lcom/meitu/library/analytics/sdk/content/SensitiveData;
 
     move-result-object v3
 
-    .line 13
     :goto_7
     array-length v5, v3
 
     if-ge v4, v5, :cond_8
 
-    .line 14
     iget-object v5, p0, Lcom/meitu/library/analytics/y/c/k$a;->a:Lcom/meitu/library/analytics/y/c/k;
 
     invoke-static {v5}, Lcom/meitu/library/analytics/y/c/k;->c(Lcom/meitu/library/analytics/y/c/k;)Lcom/meitu/library/analytics/y/o/p$a;
@@ -293,13 +278,11 @@
 
     goto :goto_7
 
-    .line 15
     :cond_8
     monitor-exit v2
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_1
 
-    .line 16
     iget-object v2, p0, Lcom/meitu/library/analytics/y/c/k$a;->a:Lcom/meitu/library/analytics/y/c/k;
 
     invoke-static {v2}, Lcom/meitu/library/analytics/y/c/k;->e(Lcom/meitu/library/analytics/y/c/k;)Lcom/meitu/library/analytics/y/o/p$a;
@@ -308,7 +291,6 @@
 
     monitor-enter v3
 
-    .line 17
     :try_start_1
     iget-object v2, p0, Lcom/meitu/library/analytics/y/c/k$a;->a:Lcom/meitu/library/analytics/y/c/k;
 
@@ -353,13 +335,11 @@
     :catch_0
     move-exception v2
 
-    .line 18
     :try_start_2
     invoke-virtual {v2}, Ljava/lang/Exception;->printStackTrace()V
     :try_end_2
     .catchall {:try_start_2 .. :try_end_2} :catchall_0
 
-    .line 19
     :goto_9
     :try_start_3
     iget-object v2, p0, Lcom/meitu/library/analytics/y/c/k$a;->a:Lcom/meitu/library/analytics/y/c/k;
@@ -400,13 +380,11 @@
     :catch_1
     move-exception v2
 
-    .line 20
     :try_start_4
     invoke-virtual {v2}, Ljava/lang/Exception;->printStackTrace()V
     :try_end_4
     .catchall {:try_start_4 .. :try_end_4} :catchall_0
 
-    .line 21
     :goto_b
     :try_start_5
     iget-object v2, p0, Lcom/meitu/library/analytics/y/c/k$a;->a:Lcom/meitu/library/analytics/y/c/k;
@@ -447,13 +425,11 @@
     :catch_2
     move-exception v2
 
-    .line 22
     :try_start_6
     invoke-virtual {v2}, Ljava/lang/Exception;->printStackTrace()V
     :try_end_6
     .catchall {:try_start_6 .. :try_end_6} :catchall_0
 
-    .line 23
     :goto_d
     :try_start_7
     iget-object v2, p0, Lcom/meitu/library/analytics/y/c/k$a;->a:Lcom/meitu/library/analytics/y/c/k;
@@ -494,20 +470,16 @@
     :catch_3
     move-exception v1
 
-    .line 24
     :try_start_8
     invoke-virtual {v1}, Ljava/lang/Exception;->printStackTrace()V
 
-    .line 25
     :goto_f
     monitor-exit v3
     :try_end_8
     .catchall {:try_start_8 .. :try_end_8} :catchall_0
 
-    .line 26
     iget-object v1, p0, Lcom/meitu/library/analytics/y/c/k$a;->a:Lcom/meitu/library/analytics/y/c/k;
 
-    .line 27
     invoke-static {v1}, Lcom/meitu/library/analytics/y/c/k;->c(Lcom/meitu/library/analytics/y/c/k;)Lcom/meitu/library/analytics/y/o/p$a;
 
     move-result-object v1
@@ -518,7 +490,6 @@
 
     iget-object v2, p0, Lcom/meitu/library/analytics/y/c/k$a;->a:Lcom/meitu/library/analytics/y/c/k;
 
-    .line 28
     invoke-static {v2}, Lcom/meitu/library/analytics/y/c/k;->e(Lcom/meitu/library/analytics/y/c/k;)Lcom/meitu/library/analytics/y/o/p$a;
 
     move-result-object v2
@@ -527,15 +498,12 @@
 
     move-result-object v2
 
-    .line 29
     invoke-static {v1, v2}, Lcom/meitu/library/analytics/sdk/db/h;->A(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 30
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 31
     :goto_10
     :try_start_9
     monitor-exit v3
@@ -549,7 +517,6 @@
     :catchall_1
     move-exception v1
 
-    .line 32
     :try_start_a
     monitor-exit v2
     :try_end_a

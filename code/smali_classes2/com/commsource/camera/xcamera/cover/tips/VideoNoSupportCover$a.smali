@@ -58,7 +58,6 @@
 
     goto :goto_0
 
-    .line 1
     :cond_0
     invoke-virtual {p1}, Ljava/lang/Integer;->intValue()I
 
@@ -68,12 +67,10 @@
 
     if-ne p1, v1, :cond_1
 
-    .line 2
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/tips/VideoNoSupportCover$a;->a:Lcom/commsource/camera/xcamera/cover/tips/VideoNoSupportCover;
 
     invoke-virtual {p1}, Lcom/commsource/camera/xcamera/cover/AbsLazyCover;->z()V
 
-    .line 3
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/tips/VideoNoSupportCover$a;->a:Lcom/commsource/camera/xcamera/cover/tips/VideoNoSupportCover;
 
     invoke-virtual {p1}, Lcom/commsource/camera/xcamera/cover/AbsLazyCover;->A()Landroidx/databinding/ViewDataBinding;
@@ -92,7 +89,6 @@
 
     goto :goto_1
 
-    .line 4
     :cond_1
     :goto_0
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/tips/VideoNoSupportCover$a;->a:Lcom/commsource/camera/xcamera/cover/tips/VideoNoSupportCover;
@@ -111,7 +107,6 @@
 
     invoke-static {p1}, Lcom/commsource/util/l0;->w(Landroid/view/View;)V
 
-    .line 5
     :cond_2
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -126,7 +121,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Ljava/lang/Integer;
 
     invoke-virtual {p0, p1}, Lcom/commsource/camera/xcamera/cover/tips/VideoNoSupportCover$a;->a(Ljava/lang/Integer;)V

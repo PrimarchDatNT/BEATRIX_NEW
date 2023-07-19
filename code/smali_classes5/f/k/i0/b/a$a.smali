@@ -24,7 +24,6 @@
 .method constructor <init>(Lf/k/i0/b/a;Ljava/lang/String;Ljava/util/Set;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lf/k/i0/b/a$a;->p:Lf/k/i0/b/a;
 
     iput-object p3, p0, Lf/k/i0/b/a$a;->g:Ljava/util/Set;
@@ -43,18 +42,15 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lf/k/i0/b/a;->a()Ljava/lang/Object;
 
     move-result-object v1
 
     monitor-enter v1
 
-    .line 2
     :try_start_0
     iget-object v2, p0, Lf/k/i0/b/a$a;->p:Lf/k/i0/b/a;
 
-    .line 3
     invoke-static {v2}, Lf/k/i0/b/a;->b(Lf/k/i0/b/a;)Lf/k/i0/a/d;
 
     move-result-object v2
@@ -67,7 +63,6 @@
 
     if-eqz v2, :cond_0
 
-    .line 4
     invoke-interface {v2}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
     move-result-object v2
@@ -85,7 +80,6 @@
 
     check-cast v3, Lcom/meitu/template/bean/ArMaterialGroup;
 
-    .line 5
     iget-object v4, p0, Lf/k/i0/b/a$a;->p:Lf/k/i0/b/a;
 
     invoke-static {v4}, Lf/k/i0/b/a;->b(Lf/k/i0/b/a;)Lf/k/i0/a/d;
@@ -96,13 +90,11 @@
 
     goto :goto_0
 
-    .line 6
     :cond_0
     monitor-exit v1
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -110,7 +102,6 @@
     :catchall_0
     move-exception v2
 
-    .line 8
     :try_start_1
     monitor-exit v1
     :try_end_1

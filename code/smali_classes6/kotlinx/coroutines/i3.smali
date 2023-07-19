@@ -25,14 +25,12 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
     new-instance v0, Lcotlinx/coroutines/i3;
 
     invoke-direct {v0}, Lcotlinx/coroutines/i3;-><init>()V
 
     sput-object v0, Lcotlinx/coroutines/i3;->b:Lcotlinx/coroutines/i3;
 
-    .line 2
     new-instance v0, Ljava/lang/ThreadLocal;
 
     invoke-direct {v0}, Ljava/lang/ThreadLocal;-><init>()V
@@ -45,7 +43,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -58,7 +55,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     sget-object v0, Lcotlinx/coroutines/i3;->a:Ljava/lang/ThreadLocal;
 
     invoke-virtual {v0}, Ljava/lang/ThreadLocal;->get()Ljava/lang/Object;
@@ -75,7 +71,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     sget-object v0, Lcotlinx/coroutines/i3;->a:Ljava/lang/ThreadLocal;
 
     invoke-virtual {v0}, Ljava/lang/ThreadLocal;->get()Ljava/lang/Object;
@@ -102,7 +97,6 @@
 .method public final c()V
     .locals 2
 
-    .line 1
     sget-object v0, Lcotlinx/coroutines/i3;->a:Ljava/lang/ThreadLocal;
 
     const/4 v1, 0x0
@@ -119,7 +113,6 @@
         .end annotation
     .end param
 
-    .line 1
     sget-object v0, Lcotlinx/coroutines/i3;->a:Ljava/lang/ThreadLocal;
 
     invoke-virtual {v0, p1}, Ljava/lang/ThreadLocal;->set(Ljava/lang/Object;)V

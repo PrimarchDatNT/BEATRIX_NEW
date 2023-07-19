@@ -19,7 +19,6 @@
 .method constructor <init>(II)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1, p2}, Landroidx/room/migration/Migration;-><init>(II)V
 
     return-void
@@ -44,15 +43,12 @@
 
     const-string v1, "CREATE TABLE IF NOT EXISTS `DECORATIONGROUP` (\'_id\' TEXT NOT NULL,`NAME` TEXT , `ICON` TEXT, `IS_AVAILABLE` INTEGER NOT NULL, `SORT` INTEGER NOT NULL, PRIMARY KEY(`_id`))"
 
-    .line 1
     invoke-interface {p1, v1}, Landroidx/sqlite/db/SupportSQLiteDatabase;->execSQL(Ljava/lang/String;)V
 
     const-string v1, "CREATE TABLE IF NOT EXISTS `DECORATION` (\'_id\' TEXT NOT NULL,`DOWNLOAD_TYPE` INTEGER NOT NULL, `NAME` TEXT, `ICON` TEXT,`IS_AVAILABLE` INTEGER NOT NULL,`STATUS` INTEGER NOT NULL,`FILE` TEXT,`MATERIAL_MD5` TEXT, `SORT` INTEGER NOT NULL,`IS_RED` INTEGER NOT NULL,`CATEGORY_ID` TEXT,`IS_FEATURED` INTEGER NOT NULL,`IS_RECENT` INTEGER NOT NULL,`LOCAL_PATH` TEXT, PRIMARY KEY(`_id`))"
 
-    .line 2
     invoke-interface {p1, v1}, Landroidx/sqlite/db/SupportSQLiteDatabase;->execSQL(Ljava/lang/String;)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

@@ -21,7 +21,6 @@
 .method static constructor <clinit>()V
     .locals 2
 
-    .line 1
     const-class v0, Lcom/google/android/gms/internal/ads/ko1;
 
     invoke-virtual {v0}, Ljava/lang/Class;->getName()Ljava/lang/String;
@@ -34,14 +33,12 @@
 
     sput-object v0, Lcom/google/android/gms/internal/ads/ko1;->a:Ljava/util/logging/Logger;
 
-    .line 2
     new-instance v0, Lcom/google/android/gms/internal/ads/ko1$a;
 
     const/4 v1, 0x0
 
     invoke-direct {v0, v1}, Lcom/google/android/gms/internal/ads/ko1$a;-><init>(Lcom/google/android/gms/internal/ads/jo1;)V
 
-    .line 3
     sput-object v0, Lcom/google/android/gms/internal/ads/ko1;->b:Lcom/google/android/gms/internal/ads/ho1;
 
     return-void
@@ -50,7 +47,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -63,7 +59,6 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-static {p0}, Lcom/google/android/gms/internal/ads/ko1;->b(Ljava/lang/String;)Z
 
     move-result v0
@@ -85,7 +80,6 @@
 
     if-eqz p0, :cond_1
 
-    .line 1
     invoke-virtual {p0}, Ljava/lang/String;->isEmpty()Z
 
     move-result p0

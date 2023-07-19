@@ -16,7 +16,6 @@
 .method constructor <init>(Lcom/google/android/gms/internal/ads/he2;I)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/android/gms/internal/ads/je2;->b:Lcom/google/android/gms/internal/ads/he2;
 
     iput p2, p0, Lcom/google/android/gms/internal/ads/je2;->a:I
@@ -31,7 +30,6 @@
 .method public final b(Lcom/google/android/gms/internal/ads/p92;Ljava/lang/Object;)V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/je2;->b:Lcom/google/android/gms/internal/ads/he2;
 
     iget v1, p0, Lcom/google/android/gms/internal/ads/je2;->a:I

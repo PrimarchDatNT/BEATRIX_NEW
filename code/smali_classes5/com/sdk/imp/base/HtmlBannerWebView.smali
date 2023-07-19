@@ -23,18 +23,14 @@
 .method public constructor <init>(Landroid/content/Context;)V
     .locals 1
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/sdk/imp/base/BaseHtmlWebView;-><init>(Landroid/content/Context;)V
 
     const/4 v0, 0x0
 
-    .line 2
     iput-boolean v0, p0, Lcom/sdk/imp/base/HtmlBannerWebView;->f:Z
 
-    .line 3
     iput-object p1, p0, Lcom/sdk/imp/base/HtmlBannerWebView;->p:Landroid/content/Context;
 
-    .line 4
     new-instance p1, Lcom/sdk/imp/base/e;
 
     invoke-direct {p1, p0}, Lcom/sdk/imp/base/e;-><init>(Lcom/sdk/imp/base/HtmlBannerWebView;)V
@@ -49,10 +45,8 @@
 .method public l(Lcom/sdk/imp/base/b$a;)V
     .locals 2
 
-    .line 1
     invoke-super {p0}, Lcom/sdk/imp/base/BaseHtmlWebView;->i()V
 
-    .line 2
     new-instance v0, Lcom/sdk/imp/base/f;
 
     new-instance v1, Lcom/sdk/imp/base/HtmlBannerWebView$a;
@@ -71,7 +65,6 @@
 .method public m()Z
     .locals 1
 
-    .line 1
     iget-boolean v0, p0, Lcom/sdk/imp/base/HtmlBannerWebView;->f:Z
 
     return v0
@@ -85,20 +78,16 @@
 
     const-string v1, "onAttachedToWindow= "
 
-    .line 1
     invoke-static {v0, v1}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 2
     iget-object v0, p0, Lcom/sdk/imp/base/HtmlBannerWebView;->g:Lcom/sdk/imp/base/e;
 
     if-eqz v0, :cond_0
 
     const/4 v1, 0x1
 
-    .line 3
     invoke-virtual {v0, v1}, Lcom/sdk/imp/base/e;->c(Z)V
 
-    .line 4
     :cond_0
     invoke-super {p0}, Landroid/webkit/WebView;->onAttachedToWindow()V
     :try_end_0
@@ -114,7 +103,6 @@
     :try_start_0
     const-string v0, "HtmlBannerBridge"
 
-    .line 1
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -131,15 +119,12 @@
 
     invoke-static {v0, v1}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 2
     iget-object v0, p0, Lcom/sdk/imp/base/HtmlBannerWebView;->g:Lcom/sdk/imp/base/e;
 
     if-eqz v0, :cond_0
 
-    .line 3
     invoke-virtual {v0, p1}, Lcom/sdk/imp/base/e;->b(Z)V
 
-    .line 4
     :cond_0
     invoke-super {p0, p1}, Landroid/webkit/WebView;->onWindowFocusChanged(Z)V
     :try_end_0
@@ -152,7 +137,6 @@
 .method public setIsImgLoadSuccess(Z)V
     .locals 0
 
-    .line 1
     iput-boolean p1, p0, Lcom/sdk/imp/base/HtmlBannerWebView;->f:Z
 
     return-void

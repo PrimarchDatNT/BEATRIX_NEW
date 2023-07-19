@@ -30,7 +30,6 @@
 .method constructor <init>(Ljava/lang/Throwable;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/common/base/a0$a;->a:Ljava/lang/Throwable;
 
     invoke-direct {p0}, Ljava/util/AbstractList;-><init>()V
@@ -43,7 +42,6 @@
 .method public b(I)Ljava/lang/StackTraceElement;
     .locals 5
 
-    .line 1
     invoke-static {}, Lcom/google/common/base/a0;->a()Ljava/lang/reflect/Method;
 
     move-result-object v0
@@ -82,7 +80,6 @@
 .method public bridge synthetic get(I)Ljava/lang/Object;
     .locals 0
 
-    .line 1
     invoke-virtual {p0, p1}, Lcom/google/common/base/a0$a;->b(I)Ljava/lang/StackTraceElement;
 
     move-result-object p1
@@ -93,7 +90,6 @@
 .method public size()I
     .locals 5
 
-    .line 1
     invoke-static {}, Lcom/google/common/base/a0;->d()Ljava/lang/reflect/Method;
 
     move-result-object v0

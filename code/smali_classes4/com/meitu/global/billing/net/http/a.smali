@@ -53,7 +53,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -64,7 +63,6 @@
 .method A()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/meitu/global/billing/net/http/a;->h:Ljava/lang/String;
 
     invoke-static {v0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
@@ -73,7 +71,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-virtual {p0}, Lcom/meitu/global/billing/net/http/a;->m()Ljava/lang/String;
 
     move-result-object v0
@@ -84,10 +81,8 @@
 
     const-string v0, ""
 
-    .line 3
     iput-object v0, p0, Lcom/meitu/global/billing/net/http/a;->h:Ljava/lang/String;
 
-    .line 4
     :cond_0
     iget-object v0, p0, Lcom/meitu/global/billing/net/http/a;->h:Ljava/lang/String;
 
@@ -97,7 +92,6 @@
 .method B()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/meitu/global/billing/net/http/a;->g:Ljava/lang/String;
 
     invoke-static {v0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
@@ -106,7 +100,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-virtual {p0}, Lcom/meitu/global/billing/net/http/a;->n()Ljava/lang/String;
 
     move-result-object v0
@@ -117,10 +110,8 @@
 
     const-string v0, ""
 
-    .line 3
     iput-object v0, p0, Lcom/meitu/global/billing/net/http/a;->g:Ljava/lang/String;
 
-    .line 4
     :cond_0
     iget-object v0, p0, Lcom/meitu/global/billing/net/http/a;->g:Ljava/lang/String;
 
@@ -188,7 +179,6 @@
 .method o()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/meitu/global/billing/net/http/a;->l:Ljava/lang/String;
 
     invoke-static {v0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
@@ -197,7 +187,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-virtual {p0}, Lcom/meitu/global/billing/net/http/a;->a()Ljava/lang/String;
 
     move-result-object v0
@@ -208,10 +197,8 @@
 
     const-string v0, ""
 
-    .line 3
     iput-object v0, p0, Lcom/meitu/global/billing/net/http/a;->l:Ljava/lang/String;
 
-    .line 4
     :cond_0
     iget-object v0, p0, Lcom/meitu/global/billing/net/http/a;->l:Ljava/lang/String;
 
@@ -221,7 +208,6 @@
 .method p()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/meitu/global/billing/net/http/a;->a:Ljava/lang/String;
 
     invoke-static {v0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
@@ -230,7 +216,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-virtual {p0}, Lcom/meitu/global/billing/net/http/a;->b()Ljava/lang/String;
 
     move-result-object v0
@@ -241,10 +226,8 @@
 
     const-string v0, ""
 
-    .line 3
     iput-object v0, p0, Lcom/meitu/global/billing/net/http/a;->a:Ljava/lang/String;
 
-    .line 4
     :cond_0
     iget-object v0, p0, Lcom/meitu/global/billing/net/http/a;->a:Ljava/lang/String;
 
@@ -254,7 +237,6 @@
 .method q()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/meitu/global/billing/net/http/a;->d:Ljava/lang/String;
 
     invoke-static {v0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
@@ -263,7 +245,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-virtual {p0}, Lcom/meitu/global/billing/net/http/a;->c()Ljava/lang/String;
 
     move-result-object v0
@@ -274,10 +255,8 @@
 
     const-string v0, ""
 
-    .line 3
     iput-object v0, p0, Lcom/meitu/global/billing/net/http/a;->d:Ljava/lang/String;
 
-    .line 4
     :cond_0
     iget-object v0, p0, Lcom/meitu/global/billing/net/http/a;->d:Ljava/lang/String;
 
@@ -287,7 +266,6 @@
 .method r()Ljava/lang/String;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/meitu/global/billing/net/http/a;->d()Ljava/lang/String;
 
     move-result-object v0
@@ -303,7 +281,6 @@
 .method s()Ljava/lang/String;
     .locals 3
 
-    .line 1
     iget-object v0, p0, Lcom/meitu/global/billing/net/http/a;->c:Ljava/lang/String;
 
     invoke-static {v0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
@@ -312,7 +289,6 @@
 
     if-eqz v0, :cond_1
 
-    .line 2
     invoke-static {}, Lf/k/h/a/m/d;->a()Landroid/content/Context;
 
     move-result-object v0
@@ -325,12 +301,10 @@
 
     if-nez v0, :cond_0
 
-    .line 3
     iput-object v1, p0, Lcom/meitu/global/billing/net/http/a;->c:Ljava/lang/String;
 
     goto :goto_0
 
-    .line 4
     :cond_0
     new-instance v2, Ljava/lang/StringBuilder;
 
@@ -346,7 +320,6 @@
 
     iput-object v0, p0, Lcom/meitu/global/billing/net/http/a;->c:Ljava/lang/String;
 
-    .line 5
     :cond_1
     :goto_0
     iget-object v0, p0, Lcom/meitu/global/billing/net/http/a;->c:Ljava/lang/String;
@@ -357,7 +330,6 @@
 .method t()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/meitu/global/billing/net/http/a;->b:Ljava/lang/String;
 
     invoke-static {v0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
@@ -366,7 +338,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-static {}, Lf/k/h/a/m/d;->a()Landroid/content/Context;
 
     move-result-object v0
@@ -381,10 +352,8 @@
 
     const-string v0, ""
 
-    .line 3
     iput-object v0, p0, Lcom/meitu/global/billing/net/http/a;->b:Ljava/lang/String;
 
-    .line 4
     :cond_0
     iget-object v0, p0, Lcom/meitu/global/billing/net/http/a;->b:Ljava/lang/String;
 
@@ -394,7 +363,6 @@
 .method u()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/meitu/global/billing/net/http/a;->j:Ljava/lang/String;
 
     invoke-static {v0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
@@ -403,7 +371,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-virtual {p0}, Lcom/meitu/global/billing/net/http/a;->e()Ljava/lang/String;
 
     move-result-object v0
@@ -414,10 +381,8 @@
 
     const-string v0, ""
 
-    .line 3
     iput-object v0, p0, Lcom/meitu/global/billing/net/http/a;->j:Ljava/lang/String;
 
-    .line 4
     :cond_0
     iget-object v0, p0, Lcom/meitu/global/billing/net/http/a;->j:Ljava/lang/String;
 
@@ -427,7 +392,6 @@
 .method v()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/meitu/global/billing/net/http/a;->e:Ljava/lang/String;
 
     invoke-static {v0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
@@ -436,7 +400,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-virtual {p0}, Lcom/meitu/global/billing/net/http/a;->h()Ljava/lang/String;
 
     move-result-object v0
@@ -447,10 +410,8 @@
 
     const-string v0, ""
 
-    .line 3
     iput-object v0, p0, Lcom/meitu/global/billing/net/http/a;->e:Ljava/lang/String;
 
-    .line 4
     :cond_0
     iget-object v0, p0, Lcom/meitu/global/billing/net/http/a;->e:Ljava/lang/String;
 
@@ -460,7 +421,6 @@
 .method w()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/meitu/global/billing/net/http/a;->k:Ljava/lang/String;
 
     invoke-static {v0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
@@ -469,7 +429,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-virtual {p0}, Lcom/meitu/global/billing/net/http/a;->i()Ljava/lang/String;
 
     move-result-object v0
@@ -480,10 +439,8 @@
 
     const-string v0, ""
 
-    .line 3
     iput-object v0, p0, Lcom/meitu/global/billing/net/http/a;->k:Ljava/lang/String;
 
-    .line 4
     :cond_0
     iget-object v0, p0, Lcom/meitu/global/billing/net/http/a;->k:Ljava/lang/String;
 
@@ -493,7 +450,6 @@
 .method x()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/meitu/global/billing/net/http/a;->i:Ljava/lang/String;
 
     invoke-static {v0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
@@ -502,7 +458,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-virtual {p0}, Lcom/meitu/global/billing/net/http/a;->j()Ljava/lang/String;
 
     move-result-object v0
@@ -513,10 +468,8 @@
 
     const-string v0, ""
 
-    .line 3
     iput-object v0, p0, Lcom/meitu/global/billing/net/http/a;->i:Ljava/lang/String;
 
-    .line 4
     :cond_0
     iget-object v0, p0, Lcom/meitu/global/billing/net/http/a;->i:Ljava/lang/String;
 
@@ -526,7 +479,6 @@
 .method y()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/meitu/global/billing/net/http/a;->f:Ljava/lang/String;
 
     invoke-static {v0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
@@ -535,7 +487,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-virtual {p0}, Lcom/meitu/global/billing/net/http/a;->k()Ljava/lang/String;
 
     move-result-object v0
@@ -546,10 +497,8 @@
 
     const-string v0, ""
 
-    .line 3
     iput-object v0, p0, Lcom/meitu/global/billing/net/http/a;->f:Ljava/lang/String;
 
-    .line 4
     :cond_0
     iget-object v0, p0, Lcom/meitu/global/billing/net/http/a;->f:Ljava/lang/String;
 
@@ -559,7 +508,6 @@
 .method z()Lcom/meitu/global/billing/net/http/NetConstants$ServerType;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/meitu/global/billing/net/http/a;->l()Lcom/meitu/global/billing/net/http/NetConstants$ServerType;
 
     move-result-object v0

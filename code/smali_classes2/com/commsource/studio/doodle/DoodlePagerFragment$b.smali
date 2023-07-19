@@ -55,7 +55,6 @@
 
     const-string p1, "item"
 
-    .line 1
     invoke-static {p3, p1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {p3}, Lcom/commsource/widget/h1/d;->b()Ljava/lang/Object;
@@ -66,7 +65,6 @@
 
     check-cast p1, Lcom/commsource/studio/doodle/DoodleMaterial;
 
-    .line 2
     sget-object p3, Lcom/commsource/studio/doodle/NewDoodleRepository;->y:Lcom/commsource/studio/doodle/NewDoodleRepository;
 
     invoke-virtual {p1}, Lcom/commsource/studio/doodle/DoodleMaterial;->getId()Ljava/lang/String;
@@ -79,7 +77,6 @@
 
     if-eqz v0, :cond_1
 
-    .line 3
     invoke-virtual {v0}, Lcom/commsource/studio/doodle/DoodleMaterial;->getCollectState()I
 
     move-result v1
@@ -90,28 +87,23 @@
 
     const/4 v1, 0x0
 
-    .line 4
     invoke-virtual {v0, v1}, Lcom/commsource/studio/doodle/DoodleMaterial;->setCollectState(I)V
 
     const-wide/16 v1, 0x0
 
-    .line 5
     invoke-virtual {v0, v1, v2}, Lcom/commsource/studio/doodle/DoodleMaterial;->setCollectTime(J)V
 
     goto :goto_0
 
-    .line 6
     :cond_0
     invoke-virtual {v0, v2}, Lcom/commsource/studio/doodle/DoodleMaterial;->setCollectState(I)V
 
-    .line 7
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v1
 
     invoke-virtual {v0, v1, v2}, Lcom/commsource/studio/doodle/DoodleMaterial;->setCollectTime(J)V
 
-    .line 8
     :goto_0
     invoke-virtual {v0}, Lcom/commsource/studio/doodle/DoodleMaterial;->getCollectState()I
 
@@ -119,30 +111,25 @@
 
     invoke-virtual {p1, v1}, Lcom/commsource/studio/doodle/DoodleMaterial;->setCollectState(I)V
 
-    .line 9
     invoke-virtual {v0}, Lcom/commsource/studio/doodle/DoodleMaterial;->getCollectTime()J
 
     move-result-wide v1
 
     invoke-virtual {p1, v1, v2}, Lcom/commsource/studio/doodle/DoodleMaterial;->setCollectTime(J)V
 
-    .line 10
     invoke-virtual {p3, v0}, Lcom/commsource/studio/doodle/NewDoodleRepository;->i0(Lcom/commsource/studio/doodle/DoodleMaterial;)V
 
     :cond_1
     const/16 p3, 0x8
 
-    .line 11
     invoke-static {p3}, Lcom/commsource/util/j2;->c(I)V
 
-    .line 12
     iget-object p3, p0, Lcom/commsource/studio/doodle/DoodlePagerFragment$b;->a:Lcom/commsource/studio/doodle/DoodlePagerFragment;
 
     invoke-static {p3, p1}, Lcom/commsource/studio/doodle/DoodlePagerFragment;->z(Lcom/commsource/studio/doodle/DoodlePagerFragment;Lcom/commsource/studio/doodle/DoodleMaterial;)V
 
     goto :goto_1
 
-    .line 13
     :cond_2
     new-instance p1, Lcotlin/TypeCastException;
 
@@ -154,7 +141,6 @@
 
     throw p1
 
-    .line 14
     :cond_3
     :goto_1
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->a(I)V

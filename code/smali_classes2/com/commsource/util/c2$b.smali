@@ -22,7 +22,6 @@
 .method constructor <init>(Ljava/lang/String;Ljava/lang/Runnable;)V
     .locals 0
 
-    .line 1
     iput-object p2, p0, Lcom/commsource/util/c2$b;->g:Ljava/lang/Runnable;
 
     invoke-direct {p0, p1}, Lcom/commsource/util/u2/a;-><init>(Ljava/lang/String;)V
@@ -39,15 +38,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/util/c2$b;->g:Ljava/lang/Runnable;
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-interface {v1}, Ljava/lang/Runnable;->run()V
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

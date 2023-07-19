@@ -46,10 +46,8 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Lcom/meitu/core/MTFilterLibrary;-><init>()V
 
-    .line 2
     new-instance v0, Lcom/meitu/parse/FilterData$a;
 
     invoke-direct {v0, p0}, Lcom/meitu/parse/FilterData$a;-><init>(Lcom/meitu/parse/FilterData;)V
@@ -62,90 +60,76 @@
 .method public constructor <init>(J)V
     .locals 1
 
-    .line 3
     invoke-direct {p0}, Lcom/meitu/core/MTFilterLibrary;-><init>()V
 
-    .line 4
     iput-wide p1, p0, Lcom/meitu/parse/FilterData;->nativeInstance:J
 
-    .line 5
     invoke-direct {p0, p1, p2}, Lcom/meitu/parse/FilterData;->nGetFilterAlpha(J)F
 
     move-result v0
 
     iput v0, p0, Lcom/meitu/parse/FilterData;->filterAlpha:F
 
-    .line 6
     invoke-direct {p0, p1, p2}, Lcom/meitu/parse/FilterData;->nGetMaleFilterAlpha(J)F
 
     move-result v0
 
     iput v0, p0, Lcom/meitu/parse/FilterData;->maleFilterAlpha:F
 
-    .line 7
     invoke-direct {p0, p1, p2}, Lcom/meitu/parse/FilterData;->nGetDarkAlpha(J)F
 
     move-result v0
 
     iput v0, p0, Lcom/meitu/parse/FilterData;->darkAlpha:F
 
-    .line 8
     invoke-direct {p0, p1, p2}, Lcom/meitu/parse/FilterData;->nGetSkinAlpha(J)F
 
     move-result v0
 
     iput v0, p0, Lcom/meitu/parse/FilterData;->skinAlpha:F
 
-    .line 9
     invoke-direct {p0, p1, p2}, Lcom/meitu/parse/FilterData;->nGetFuseAlpha(J)F
 
     move-result v0
 
     iput v0, p0, Lcom/meitu/parse/FilterData;->fuseAlpha:F
 
-    .line 10
     invoke-direct {p0, p1, p2}, Lcom/meitu/parse/FilterData;->nGetWhiteAlpha(J)F
 
     move-result v0
 
     iput v0, p0, Lcom/meitu/parse/FilterData;->whiteAlpha:F
 
-    .line 11
     invoke-direct {p0, p1, p2}, Lcom/meitu/parse/FilterData;->nGetBlurAlongAlpha(J)F
 
     move-result v0
 
     iput v0, p0, Lcom/meitu/parse/FilterData;->blurAlongAlpha:F
 
-    .line 12
     invoke-direct {p0, p1, p2}, Lcom/meitu/parse/FilterData;->isNeedFaceData(J)Z
 
     move-result v0
 
     iput-boolean v0, p0, Lcom/meitu/parse/FilterData;->needFaceData:Z
 
-    .line 13
     invoke-direct {p0, p1, p2}, Lcom/meitu/parse/FilterData;->isNeedBodyMask(J)Z
 
     move-result v0
 
     iput-boolean v0, p0, Lcom/meitu/parse/FilterData;->needBodyMask:Z
 
-    .line 14
     invoke-direct {p0, p1, p2}, Lcom/meitu/parse/FilterData;->isNeedHairMask(J)Z
 
     move-result v0
 
     iput-boolean v0, p0, Lcom/meitu/parse/FilterData;->needHairMask:Z
 
-    .line 15
     invoke-direct {p0, p1, p2}, Lcom/meitu/parse/FilterData;->nGetFilterID(J)I
 
     move-result v0
 
     iput v0, p0, Lcom/meitu/parse/FilterData;->filterID:I
 
-    .line 16
     sget-object v0, Landroid/os/Build;->MODEL:Ljava/lang/String;
 
     invoke-direct {p0, p1, p2, v0}, Lcom/meitu/parse/FilterData;->nSetPhoneType(JLjava/lang/String;)V
@@ -160,7 +144,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/meitu/parse/FilterData;->nCreate()J
 
     move-result-wide v1
@@ -275,12 +258,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/parse/FilterData;->nativeInstance:J
 
     invoke-direct {p0, v1, v2, p1, p2}, Lcom/meitu/parse/FilterData;->nChangeInputTextureValue(JLjava/lang/String;Ljava/lang/String;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -293,7 +274,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v2, p0, Lcom/meitu/parse/FilterData;->nativeInstance:J
 
     move-object v1, p0
@@ -306,7 +286,6 @@
 
     invoke-direct/range {v1 .. v6}, Lcom/meitu/parse/FilterData;->nChangeUniformValue(JILjava/lang/String;[F)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -324,7 +303,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     :try_start_0
     iget-wide v1, p0, Lcom/meitu/parse/FilterData;->nativeInstance:J
 
@@ -332,10 +310,8 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 2
     invoke-super {p0}, Ljava/lang/Object;->finalize()V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -343,10 +319,8 @@
     :catchall_0
     move-exception v1
 
-    .line 4
     invoke-super {p0}, Ljava/lang/Object;->finalize()V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     throw v1
@@ -359,7 +333,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/parse/FilterData;->nativeInstance:J
 
     invoke-direct {p0, v1, v2}, Lcom/meitu/parse/FilterData;->nGetBlurAlongAlpha(J)F
@@ -368,7 +341,6 @@
 
     iput v1, p0, Lcom/meitu/parse/FilterData;->blurAlongAlpha:F
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
@@ -381,7 +353,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/parse/FilterData;->nativeInstance:J
 
     invoke-direct {p0, v1, v2}, Lcom/meitu/parse/FilterData;->nGetDarkAlpha(J)F
@@ -390,7 +361,6 @@
 
     iput v1, p0, Lcom/meitu/parse/FilterData;->darkAlpha:F
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
@@ -403,7 +373,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/parse/FilterData;->nativeInstance:J
 
     invoke-direct {p0, v1, v2}, Lcom/meitu/parse/FilterData;->nGetDarkStyle(J)Ljava/lang/String;
@@ -412,7 +381,6 @@
 
     iput-object v1, p0, Lcom/meitu/parse/FilterData;->darkStyle:Ljava/lang/String;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
@@ -425,7 +393,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/parse/FilterData;->nativeInstance:J
 
     invoke-direct {p0, v1, v2}, Lcom/meitu/parse/FilterData;->nGetDegreeValue(J)F
@@ -434,7 +401,6 @@
 
     iput v1, p0, Lcom/meitu/parse/FilterData;->degreeValue:F
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
@@ -447,7 +413,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/parse/FilterData;->nativeInstance:J
 
     invoke-direct {p0, v1, v2}, Lcom/meitu/parse/FilterData;->nGetFilterAlpha(J)F
@@ -456,7 +421,6 @@
 
     iput v1, p0, Lcom/meitu/parse/FilterData;->filterAlpha:F
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
@@ -469,7 +433,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/parse/FilterData;->nativeInstance:J
 
     invoke-direct {p0, v1, v2}, Lcom/meitu/parse/FilterData;->nGetFilterID(J)I
@@ -478,7 +441,6 @@
 
     iput v1, p0, Lcom/meitu/parse/FilterData;->filterID:I
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
@@ -491,7 +453,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/parse/FilterData;->nativeInstance:J
 
     invoke-direct {p0, v1, v2}, Lcom/meitu/parse/FilterData;->nGetFuseAlpha(J)F
@@ -500,7 +461,6 @@
 
     iput v1, p0, Lcom/meitu/parse/FilterData;->fuseAlpha:F
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
@@ -513,7 +473,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/parse/FilterData;->nativeInstance:J
 
     invoke-direct {p0, v1, v2}, Lcom/meitu/parse/FilterData;->nGetMaleFilterAlpha(J)F
@@ -522,7 +481,6 @@
 
     iput v1, p0, Lcom/meitu/parse/FilterData;->filterAlpha:F
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
@@ -535,7 +493,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/parse/FilterData;->nativeInstance:J
 
     invoke-direct {p0, v1, v2}, Lcom/meitu/parse/FilterData;->nGetSkinAlpha(J)F
@@ -544,7 +501,6 @@
 
     iput v1, p0, Lcom/meitu/parse/FilterData;->skinAlpha:F
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
@@ -557,7 +513,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/parse/FilterData;->nativeInstance:J
 
     invoke-direct {p0, v1, v2}, Lcom/meitu/parse/FilterData;->nGetSubbrushDetail(J)F
@@ -566,7 +521,6 @@
 
     iput v1, p0, Lcom/meitu/parse/FilterData;->detailValue:F
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
@@ -579,7 +533,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/parse/FilterData;->nativeInstance:J
 
     invoke-direct {p0, v1, v2}, Lcom/meitu/parse/FilterData;->nGetSubbrushLight(J)F
@@ -588,7 +541,6 @@
 
     iput v1, p0, Lcom/meitu/parse/FilterData;->lightValue:F
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
@@ -601,7 +553,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/parse/FilterData;->nativeInstance:J
 
     invoke-direct {p0, v1, v2}, Lcom/meitu/parse/FilterData;->nGetWhiteAlpha(J)F
@@ -610,7 +561,6 @@
 
     iput v1, p0, Lcom/meitu/parse/FilterData;->whiteAlpha:F
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
@@ -623,7 +573,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/parse/FilterData;->nativeInstance:J
 
     invoke-direct {p0, v1, v2}, Lcom/meitu/parse/FilterData;->isNeedBodyMask(J)Z
@@ -632,7 +581,6 @@
 
     iput-boolean v1, p0, Lcom/meitu/parse/FilterData;->needBodyMask:Z
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
@@ -645,7 +593,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/parse/FilterData;->nativeInstance:J
 
     invoke-direct {p0, v1, v2}, Lcom/meitu/parse/FilterData;->isNeedFaceData(J)Z
@@ -654,7 +601,6 @@
 
     iput-boolean v1, p0, Lcom/meitu/parse/FilterData;->needFaceData:Z
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
@@ -667,7 +613,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/parse/FilterData;->nativeInstance:J
 
     invoke-direct {p0, v1, v2}, Lcom/meitu/parse/FilterData;->isNeedHairMask(J)Z
@@ -676,7 +621,6 @@
 
     iput-boolean v1, p0, Lcom/meitu/parse/FilterData;->needHairMask:Z
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
@@ -689,15 +633,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/parse/FilterData;->nativeInstance:J
 
     invoke-direct {p0, v1, v2, p1}, Lcom/meitu/parse/FilterData;->nSetBlurAlongAlpha(JF)V
 
-    .line 2
     iput p1, p0, Lcom/meitu/parse/FilterData;->blurAlongAlpha:F
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -710,15 +651,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/parse/FilterData;->nativeInstance:J
 
     invoke-direct {p0, v1, v2, p1}, Lcom/meitu/parse/FilterData;->nSetDarkAlpha(JF)V
 
-    .line 2
     iput p1, p0, Lcom/meitu/parse/FilterData;->darkAlpha:F
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -731,12 +669,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/parse/FilterData;->darkStyle:Ljava/lang/String;
 
     if-nez p1, :cond_0
 
-    .line 2
     iget-wide v1, p0, Lcom/meitu/parse/FilterData;->nativeInstance:J
 
     const-string p1, ""
@@ -745,13 +681,11 @@
 
     goto :goto_0
 
-    .line 3
     :cond_0
     iget-wide v1, p0, Lcom/meitu/parse/FilterData;->nativeInstance:J
 
     invoke-direct {p0, v1, v2, p1}, Lcom/meitu/parse/FilterData;->nSetDarkStyle(JLjava/lang/String;)V
 
-    .line 4
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -765,12 +699,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/parse/FilterData;->nativeInstance:J
 
     invoke-direct {p0, v1, v2, p1}, Lcom/meitu/parse/FilterData;->nSetDegreeValue(JF)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -783,15 +715,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/parse/FilterData;->nativeInstance:J
 
     invoke-direct {p0, v1, v2, p1}, Lcom/meitu/parse/FilterData;->nSetFilterAlpha(JF)V
 
-    .line 2
     iput p1, p0, Lcom/meitu/parse/FilterData;->filterAlpha:F
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -804,15 +733,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/parse/FilterData;->nativeInstance:J
 
     invoke-direct {p0, v1, v2, p1}, Lcom/meitu/parse/FilterData;->nSetFilterID(JI)V
 
-    .line 2
     iput p1, p0, Lcom/meitu/parse/FilterData;->filterID:I
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -825,22 +751,18 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/meitu/parse/FilterData;->fuseAlpha:F
 
-    .line 2
     iget-wide v1, p0, Lcom/meitu/parse/FilterData;->nativeInstance:J
 
     invoke-direct {p0, v1, v2, p1}, Lcom/meitu/parse/FilterData;->nSetFuseAlpha(JF)V
 
-    .line 3
     iget-wide v1, p0, Lcom/meitu/parse/FilterData;->nativeInstance:J
 
     iget p1, p0, Lcom/meitu/parse/FilterData;->skinAlpha:F
 
     invoke-direct {p0, v1, v2, p1}, Lcom/meitu/parse/FilterData;->nSetSkinAlpha(JF)V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -853,15 +775,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/parse/FilterData;->nativeInstance:J
 
     invoke-direct {p0, v1, v2, p1}, Lcom/meitu/parse/FilterData;->nSetMaleFilterAlpha(JF)V
 
-    .line 2
     iput p1, p0, Lcom/meitu/parse/FilterData;->filterAlpha:F
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -874,15 +793,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/meitu/parse/FilterData;->skinAlpha:F
 
-    .line 2
     iget-wide v1, p0, Lcom/meitu/parse/FilterData;->nativeInstance:J
 
     invoke-direct {p0, v1, v2, p1}, Lcom/meitu/parse/FilterData;->nSetSkinAlpha(JF)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -895,15 +811,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/meitu/parse/FilterData;->detailValue:F
 
-    .line 2
     iget-wide v1, p0, Lcom/meitu/parse/FilterData;->nativeInstance:J
 
     invoke-direct {p0, v1, v2, p1}, Lcom/meitu/parse/FilterData;->nSetSubbrushDetail(JF)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -916,15 +829,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/meitu/parse/FilterData;->lightValue:F
 
-    .line 2
     iget-wide v1, p0, Lcom/meitu/parse/FilterData;->nativeInstance:J
 
     invoke-direct {p0, v1, v2, p1}, Lcom/meitu/parse/FilterData;->nSetSubbrushLight(JF)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -937,15 +847,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/meitu/parse/FilterData;->whiteAlpha:F
 
-    .line 2
     iget-wide v1, p0, Lcom/meitu/parse/FilterData;->nativeInstance:J
 
     invoke-direct {p0, v1, v2, p1}, Lcom/meitu/parse/FilterData;->nSetWhiteAlpha(JF)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

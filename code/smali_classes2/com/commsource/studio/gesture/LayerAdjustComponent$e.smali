@@ -31,29 +31,24 @@
 .method constructor <init>(Ljava/util/List;[I)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/gesture/LayerAdjustComponent$e;->b:Ljava/util/List;
 
     iput-object p2, p0, Lcom/commsource/studio/gesture/LayerAdjustComponent$e;->c:[I
 
     invoke-direct {p0}, Landroidx/recyclerview/widget/RecyclerView$ItemDecoration;-><init>()V
 
-    .line 2
     new-instance p1, Landroid/graphics/Paint;
 
     invoke-direct {p1}, Landroid/graphics/Paint;-><init>()V
 
     const/high16 p2, 0x1a000000
 
-    .line 3
     invoke-virtual {p1, p2}, Landroid/graphics/Paint;->setColor(I)V
 
-    .line 4
     sget-object p2, Landroid/graphics/Paint$Style;->FILL:Landroid/graphics/Paint$Style;
 
     invoke-virtual {p1, p2}, Landroid/graphics/Paint;->setStyle(Landroid/graphics/Paint$Style;)V
 
-    .line 5
     iput-object p1, p0, Lcom/commsource/studio/gesture/LayerAdjustComponent$e;->a:Landroid/graphics/Paint;
 
     return-void
@@ -70,7 +65,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/gesture/LayerAdjustComponent$e;->a:Landroid/graphics/Paint;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -117,12 +111,10 @@
 
     invoke-static {p4, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-virtual {p3, p2}, Landroidx/recyclerview/widget/RecyclerView;->getChildAdapterPosition(Landroid/view/View;)I
 
     move-result p2
 
-    .line 2
     iget-object p3, p0, Lcom/commsource/studio/gesture/LayerAdjustComponent$e;->b:Ljava/util/List;
 
     invoke-interface {p3, p2}, Ljava/util/List;->get(I)Ljava/lang/Object;
@@ -148,7 +140,6 @@
     :cond_0
     const/4 p3, 0x0
 
-    .line 3
     :goto_0
     iget-object p4, p0, Lcom/commsource/studio/gesture/LayerAdjustComponent$e;->c:[I
 
@@ -171,11 +162,9 @@
 
     move-result p2
 
-    .line 4
     :goto_1
     invoke-virtual {p1, v2, v2, p3, p2}, Landroid/graphics/Rect;->set(IIII)V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -220,10 +209,8 @@
 
     invoke-static {v4, v3}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-virtual/range {p1 .. p1}, Landroid/graphics/Canvas;->save()I
 
-    .line 2
     invoke-virtual/range {p2 .. p2}, Landroid/view/ViewGroup;->getChildCount()I
 
     move-result v3
@@ -235,12 +222,10 @@
     :goto_0
     if-ge v11, v3, :cond_2
 
-    .line 3
     invoke-virtual {v1, v11}, Landroid/view/ViewGroup;->getChildAt(I)Landroid/view/View;
 
     move-result-object v12
 
-    .line 4
     iget-object v4, v0, Lcom/commsource/studio/gesture/LayerAdjustComponent$e;->b:Ljava/util/List;
 
     invoke-interface {v4, v11}, Ljava/util/List;->get(I)Ljava/lang/Object;
@@ -257,7 +242,6 @@
 
     if-ne v4, v5, :cond_0
 
-    .line 5
     invoke-static {v12, v14}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v12}, Landroid/view/View;->getRight()I
@@ -266,14 +250,12 @@
 
     int-to-float v5, v4
 
-    .line 6
     invoke-virtual {v12}, Landroid/view/View;->getTop()I
 
     move-result v4
 
     int-to-float v6, v4
 
-    .line 7
     invoke-virtual {v12}, Landroid/view/View;->getRight()I
 
     move-result v4
@@ -286,22 +268,18 @@
 
     add-float/2addr v7, v4
 
-    .line 8
     invoke-virtual {v12}, Landroid/view/View;->getBottom()I
 
     move-result v4
 
     int-to-float v8, v4
 
-    .line 9
     iget-object v9, v0, Lcom/commsource/studio/gesture/LayerAdjustComponent$e;->a:Landroid/graphics/Paint;
 
     move-object/from16 v4, p1
 
-    .line 10
     invoke-virtual/range {v4 .. v9}, Landroid/graphics/Canvas;->drawRect(FFFFLandroid/graphics/Paint;)V
 
-    .line 11
     :cond_0
     invoke-static {v12, v14}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
@@ -311,21 +289,18 @@
 
     int-to-float v5, v4
 
-    .line 12
     invoke-virtual {v12}, Landroid/view/View;->getBottom()I
 
     move-result v4
 
     int-to-float v6, v4
 
-    .line 13
     invoke-virtual {v12}, Landroid/view/View;->getRight()I
 
     move-result v4
 
     int-to-float v7, v4
 
-    .line 14
     invoke-virtual {v12}, Landroid/view/View;->getBottom()I
 
     move-result v4
@@ -342,14 +317,12 @@
 
     const/4 v8, 0x4
 
-    .line 15
     invoke-static {v8}, Lcom/commsource/util/l0;->p(I)F
 
     move-result v8
 
     goto :goto_1
 
-    .line 16
     :cond_1
     invoke-static {v13}, Lcom/commsource/util/l0;->o(F)F
 
@@ -358,23 +331,19 @@
     :goto_1
     add-float/2addr v8, v4
 
-    .line 17
     iget-object v9, v0, Lcom/commsource/studio/gesture/LayerAdjustComponent$e;->a:Landroid/graphics/Paint;
 
     move-object/from16 v4, p1
 
-    .line 18
     invoke-virtual/range {v4 .. v9}, Landroid/graphics/Canvas;->drawRect(FFFFLandroid/graphics/Paint;)V
 
     add-int/lit8 v11, v11, 0x1
 
     goto :goto_0
 
-    .line 19
     :cond_2
     invoke-virtual/range {p1 .. p1}, Landroid/graphics/Canvas;->restore()V
 
-    .line 20
     invoke-static {v2}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

@@ -74,7 +74,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Ljava/util/List;
 
     invoke-virtual {p0, p1}, Lcom/meitu/library/hwanalytics/firebase/FirebaseManager$recoveryProperties$1;->invoke(Ljava/util/List;)V
@@ -109,7 +108,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 2
     invoke-interface {p1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object p1
@@ -128,12 +126,10 @@
 
     check-cast v1, Ljava/lang/String;
 
-    .line 3
     new-instance v2, Lorg/json/JSONObject;
 
     invoke-direct {v2, v1}, Lorg/json/JSONObject;-><init>(Ljava/lang/String;)V
 
-    .line 4
     invoke-virtual {v2}, Lorg/json/JSONObject;->keys()Ljava/util/Iterator;
 
     move-result-object v1
@@ -144,7 +140,6 @@
 
     check-cast v1, Ljava/lang/String;
 
-    .line 5
     sget-object v3, Lcom/meitu/library/hwanalytics/firebase/FirebaseManager;->b:Lcom/meitu/library/hwanalytics/firebase/FirebaseManager;
 
     invoke-virtual {v3}, Lcom/meitu/library/hwanalytics/firebase/FirebaseManager;->c()Lcom/google/firebase/analytics/FirebaseAnalytics;
@@ -161,7 +156,6 @@
 
     goto :goto_0
 
-    .line 6
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

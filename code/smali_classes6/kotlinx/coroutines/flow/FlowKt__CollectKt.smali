@@ -33,7 +33,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     sget-object v0, Lcotlinx/coroutines/flow/internal/h;->a:Lcotlinx/coroutines/flow/internal/h;
 
     invoke-interface {p0, v0, p1}, Lcotlinx/coroutines/flow/d;->a(Lcotlinx/coroutines/flow/e;Lcotlin/coroutines/c;)Ljava/lang/Object;
@@ -94,7 +93,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     new-instance v0, Lcotlinx/coroutines/flow/FlowKt__CollectKt$collect$3;
 
     invoke-direct {v0, p1}, Lcotlinx/coroutines/flow/FlowKt__CollectKt$collect$3;-><init>(Lcotlin/jvm/u/p;)V
@@ -134,7 +132,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     new-instance v0, Lcotlinx/coroutines/flow/FlowKt__CollectKt$collect$3;
 
     invoke-direct {v0, p1}, Lcotlinx/coroutines/flow/FlowKt__CollectKt$collect$3;-><init>(Lcotlin/jvm/u/p;)V
@@ -203,7 +200,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     new-instance v0, Lcotlinx/coroutines/flow/FlowKt__CollectKt$collectIndexed$2;
 
     invoke-direct {v0, p1}, Lcotlinx/coroutines/flow/FlowKt__CollectKt$collectIndexed$2;-><init>(Lcotlin/jvm/u/q;)V
@@ -246,7 +242,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     new-instance v0, Lcotlinx/coroutines/flow/FlowKt__CollectKt$collectIndexed$2;
 
     invoke-direct {v0, p1}, Lcotlinx/coroutines/flow/FlowKt__CollectKt$collectIndexed$2;-><init>(Lcotlin/jvm/u/q;)V
@@ -313,7 +308,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     invoke-static {p0, p1}, Lcotlinx/coroutines/flow/f;->U0(Lcotlinx/coroutines/flow/d;Lcotlin/jvm/u/p;)Lcotlinx/coroutines/flow/d;
 
     move-result-object p0
@@ -336,7 +330,6 @@
 
     return-object p0
 
-    .line 2
     :cond_0
     sget-object p0, Lcotlin/t1;->a:Lcotlin/t1;
 
@@ -383,7 +376,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     invoke-interface {p1, p0, p2}, Lcotlinx/coroutines/flow/d;->a(Lcotlinx/coroutines/flow/e;Lcotlin/coroutines/c;)Ljava/lang/Object;
 
     move-result-object p0
@@ -427,7 +419,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-static {v0}, Lcotlin/jvm/internal/c0;->e(I)V
 
     invoke-interface {p1, p0, p2}, Lcotlinx/coroutines/flow/d;->a(Lcotlinx/coroutines/flow/e;Lcotlin/coroutines/c;)Ljava/lang/Object;
@@ -474,7 +465,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     new-instance v3, Lcotlinx/coroutines/flow/FlowKt__CollectKt$launchIn$1;
 
     const/4 v0, 0x0

@@ -40,7 +40,6 @@
 .method public constructor <init>(Lcom/meitu/mtmvcore/application/MTMVCoreApplication;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/mtmvcore/application/MTMVCoreApplication$u;->a:Lcom/meitu/mtmvcore/application/MTMVCoreApplication;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V

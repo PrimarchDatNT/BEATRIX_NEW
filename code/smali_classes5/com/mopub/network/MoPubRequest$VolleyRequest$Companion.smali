@@ -19,7 +19,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -28,7 +27,6 @@
 .method public synthetic constructor <init>(Lcotlin/jvm/internal/u;)V
     .locals 0
 
-    .line 2
     invoke-direct {p0}, Lcom/mopub/network/MoPubRequest$VolleyRequest$Companion;-><init>()V
 
     return-void
@@ -49,7 +47,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     sget-object v0, Lcom/mopub/network/MoPubRequest$VolleyRequest$Companion$WhenMappings;->$EnumSwitchMapping$0:[I
 
     invoke-virtual {p1}, Ljava/lang/Enum;->ordinal()I
@@ -68,7 +65,6 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     new-instance p1, Lcotlin/NoWhenBranchMatchedException;
 

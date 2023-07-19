@@ -18,7 +18,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/SecurityManager;-><init>()V
 
     return-void
@@ -27,7 +26,6 @@
 .method synthetic constructor <init>(Lorg/slf4j/helpers/i$a;)V
     .locals 0
 
-    .line 2
     invoke-direct {p0}, Lorg/slf4j/helpers/i$b;-><init>()V
 
     return-void
@@ -45,7 +43,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-super {p0}, Ljava/lang/SecurityManager;->getClassContext()[Ljava/lang/Class;
 
     move-result-object v0

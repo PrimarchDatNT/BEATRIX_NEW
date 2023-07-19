@@ -42,14 +42,12 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/video/decoder/SysMediaPlayer$onBufferingUpdateListener$2$a;->a:Lcom/commsource/video/decoder/SysMediaPlayer$onBufferingUpdateListener$2;
 
     iget-object v0, v0, Lcom/commsource/video/decoder/SysMediaPlayer$onBufferingUpdateListener$2;->this$0:Lcom/commsource/video/decoder/SysMediaPlayer;
 
     invoke-virtual {v0, p2}, Lcom/commsource/video/decoder/a;->f(I)V
 
-    .line 2
     iget-object p2, p0, Lcom/commsource/video/decoder/SysMediaPlayer$onBufferingUpdateListener$2$a;->a:Lcom/commsource/video/decoder/SysMediaPlayer$onBufferingUpdateListener$2;
 
     iget-object p2, p2, Lcom/commsource/video/decoder/SysMediaPlayer$onBufferingUpdateListener$2;->this$0:Lcom/commsource/video/decoder/SysMediaPlayer;
@@ -78,7 +76,6 @@
 
     check-cast p2, Lcotlin/t1;
 
-    .line 3
     :cond_0
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

@@ -61,79 +61,62 @@
 .method public constructor <init>()V
     .locals 6
 
-    .line 1
     invoke-direct {p0}, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineOption;-><init>()V
 
     const-wide/16 v0, 0x0
 
-    .line 2
     iput-wide v0, p0, Lcom/meitu/mtlab/MTAiInterface/MTBodyModule/MTBodyOption;->mNativeInstance:J
 
     const/4 v2, 0x1
 
-    .line 3
     iput-boolean v2, p0, Lcom/meitu/mtlab/MTAiInterface/MTBodyModule/MTBodyOption;->useMultiThread:Z
 
     const/4 v3, 0x5
 
-    .line 4
     iput v3, p0, Lcom/meitu/mtlab/MTAiInterface/MTBodyModule/MTBodyOption;->humanMaxNum:I
 
     const/4 v4, 0x0
 
-    .line 5
     iput-boolean v4, p0, Lcom/meitu/mtlab/MTAiInterface/MTBodyModule/MTBodyOption;->unloadBoxModel:Z
 
-    .line 6
     iput-boolean v4, p0, Lcom/meitu/mtlab/MTAiInterface/MTBodyModule/MTBodyOption;->useVideoModelForImage:Z
 
-    .line 7
     iput-boolean v4, p0, Lcom/meitu/mtlab/MTAiInterface/MTBodyModule/MTBodyOption;->contour_detect_per_frame:Z
 
     const/high16 v5, 0x40000000    # 2.0f
 
-    .line 8
     iput v5, p0, Lcom/meitu/mtlab/MTAiInterface/MTBodyModule/MTBodyOption;->smooth_sigma:F
 
-    .line 9
     iput v3, p0, Lcom/meitu/mtlab/MTAiInterface/MTBodyModule/MTBodyOption;->smooth_frames:I
 
-    .line 10
     iput v4, p0, Lcom/meitu/mtlab/MTAiInterface/MTBodyModule/MTBodyOption;->smooth_type:I
 
     const v3, 0x3f666666    # 0.9f
 
-    .line 11
     iput v3, p0, Lcom/meitu/mtlab/MTAiInterface/MTBodyModule/MTBodyOption;->boundScore:F
 
     const v3, 0x3e4ccccd    # 0.2f
 
-    .line 12
     iput v3, p0, Lcom/meitu/mtlab/MTAiInterface/MTBodyModule/MTBodyOption;->pointsScore:F
 
     const/16 v3, 0x19
 
-    .line 13
     iput v3, p0, Lcom/meitu/mtlab/MTAiInterface/MTBodyModule/MTBodyOption;->pointsNum:I
 
     const/4 v3, 0x0
 
-    .line 14
     iput-object v3, p0, Lcom/meitu/mtlab/MTAiInterface/MTBodyModule/MTBodyOption;->box:[F
 
     const v3, 0x3f7d70a4    # 0.99f
 
-    .line 15
     iput v3, p0, Lcom/meitu/mtlab/MTAiInterface/MTBodyModule/MTBodyOption;->humanBoundScore:F
 
-    .line 16
     iput-boolean v2, p0, Lcom/meitu/mtlab/MTAiInterface/MTBodyModule/MTBodyOption;->aiFilterContour:Z
 
     cmp-long v2, v0, v0
 
     if-nez v2, :cond_0
 
-    .line 17
     new-instance v0, Lcom/meitu/mtlab/MTAiInterface/MTBodyModule/MTBodyOption$1;
 
     invoke-direct {v0, p0}, Lcom/meitu/mtlab/MTAiInterface/MTBodyModule/MTBodyOption$1;-><init>(Lcom/meitu/mtlab/MTAiInterface/MTBodyModule/MTBodyOption;)V
@@ -151,7 +134,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-wide p1, p0, Lcom/meitu/mtlab/MTAiInterface/MTBodyModule/MTBodyOption;->mNativeInstance:J
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -166,7 +148,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/meitu/mtlab/MTAiInterface/MTBodyModule/MTBodyOption;->nativeCreateInstance()J
 
     move-result-wide v1
@@ -232,75 +213,58 @@
 
     const/4 v1, 0x1
 
-    .line 1
     iput-boolean v1, p0, Lcom/meitu/mtlab/MTAiInterface/MTBodyModule/MTBodyOption;->useMultiThread:Z
 
     const-wide/16 v2, 0x0
 
-    .line 2
     iput-wide v2, p0, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineOption;->option:J
 
-    .line 3
     iget-wide v2, p0, Lcom/meitu/mtlab/MTAiInterface/MTBodyModule/MTBodyOption;->mNativeInstance:J
 
     invoke-static {v2, v3}, Lcom/meitu/mtlab/MTAiInterface/MTBodyModule/MTBodyOption;->nativeClearOption(J)V
 
     const/high16 v2, 0x40000000    # 2.0f
 
-    .line 4
     iput v2, p0, Lcom/meitu/mtlab/MTAiInterface/MTBodyModule/MTBodyOption;->smooth_sigma:F
 
     const/4 v2, 0x5
 
-    .line 5
     iput v2, p0, Lcom/meitu/mtlab/MTAiInterface/MTBodyModule/MTBodyOption;->smooth_frames:I
 
     const/4 v3, 0x0
 
-    .line 6
     iput v3, p0, Lcom/meitu/mtlab/MTAiInterface/MTBodyModule/MTBodyOption;->smooth_type:I
 
     const v4, 0x3f666666    # 0.9f
 
-    .line 7
     iput v4, p0, Lcom/meitu/mtlab/MTAiInterface/MTBodyModule/MTBodyOption;->boundScore:F
 
     const v4, 0x3e4ccccd    # 0.2f
 
-    .line 8
     iput v4, p0, Lcom/meitu/mtlab/MTAiInterface/MTBodyModule/MTBodyOption;->pointsScore:F
 
     const/16 v4, 0x19
 
-    .line 9
     iput v4, p0, Lcom/meitu/mtlab/MTAiInterface/MTBodyModule/MTBodyOption;->pointsNum:I
 
     const/4 v4, 0x0
 
-    .line 10
     iput-object v4, p0, Lcom/meitu/mtlab/MTAiInterface/MTBodyModule/MTBodyOption;->box:[F
 
     const v4, 0x3f7d70a4    # 0.99f
 
-    .line 11
     iput v4, p0, Lcom/meitu/mtlab/MTAiInterface/MTBodyModule/MTBodyOption;->humanBoundScore:F
 
-    .line 12
     iput v2, p0, Lcom/meitu/mtlab/MTAiInterface/MTBodyModule/MTBodyOption;->humanMaxNum:I
 
-    .line 13
     iput-boolean v3, p0, Lcom/meitu/mtlab/MTAiInterface/MTBodyModule/MTBodyOption;->unloadBoxModel:Z
 
-    .line 14
     iput-boolean v3, p0, Lcom/meitu/mtlab/MTAiInterface/MTBodyModule/MTBodyOption;->useVideoModelForImage:Z
 
-    .line 15
     iput-boolean v3, p0, Lcom/meitu/mtlab/MTAiInterface/MTBodyModule/MTBodyOption;->contour_detect_per_frame:Z
 
-    .line 16
     iput-boolean v1, p0, Lcom/meitu/mtlab/MTAiInterface/MTBodyModule/MTBodyOption;->aiFilterContour:Z
 
-    .line 17
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -313,7 +277,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const/4 v0, 0x3
@@ -333,7 +296,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     :try_start_0
     iget-wide v1, p0, Lcom/meitu/mtlab/MTAiInterface/MTBodyModule/MTBodyOption;->mNativeInstance:J
 
@@ -341,10 +303,8 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 2
     invoke-super {p0}, Ljava/lang/Object;->finalize()V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -352,10 +312,8 @@
     :catchall_0
     move-exception v1
 
-    .line 4
     invoke-super {p0}, Ljava/lang/Object;->finalize()V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     throw v1
@@ -368,7 +326,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/mtlab/MTAiInterface/MTBodyModule/MTBodyOption;->mNativeInstance:J
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -383,49 +340,42 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/mtlab/MTAiInterface/MTBodyModule/MTBodyOption;->mNativeInstance:J
 
     iget-boolean v3, p0, Lcom/meitu/mtlab/MTAiInterface/MTBodyModule/MTBodyOption;->useMultiThread:Z
 
     invoke-static {v1, v2, v3}, Lcom/meitu/mtlab/MTAiInterface/MTBodyModule/MTBodyOption;->nativeSetUseMultiThread(JZ)V
 
-    .line 2
     iget-wide v1, p0, Lcom/meitu/mtlab/MTAiInterface/MTBodyModule/MTBodyOption;->mNativeInstance:J
 
     iget-wide v3, p0, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineOption;->option:J
 
     invoke-static {v1, v2, v3, v4}, Lcom/meitu/mtlab/MTAiInterface/MTBodyModule/MTBodyOption;->nativeSetOption(JJ)V
 
-    .line 3
     iget-wide v1, p0, Lcom/meitu/mtlab/MTAiInterface/MTBodyModule/MTBodyOption;->mNativeInstance:J
 
     iget v3, p0, Lcom/meitu/mtlab/MTAiInterface/MTBodyModule/MTBodyOption;->humanMaxNum:I
 
     invoke-static {v1, v2, v3}, Lcom/meitu/mtlab/MTAiInterface/MTBodyModule/MTBodyOption;->nativeSetHumanMaxNum(JI)V
 
-    .line 4
     iget-wide v1, p0, Lcom/meitu/mtlab/MTAiInterface/MTBodyModule/MTBodyOption;->mNativeInstance:J
 
     iget-boolean v3, p0, Lcom/meitu/mtlab/MTAiInterface/MTBodyModule/MTBodyOption;->unloadBoxModel:Z
 
     invoke-static {v1, v2, v3}, Lcom/meitu/mtlab/MTAiInterface/MTBodyModule/MTBodyOption;->nativeSetUnloadBoxModel(JZ)V
 
-    .line 5
     iget-wide v1, p0, Lcom/meitu/mtlab/MTAiInterface/MTBodyModule/MTBodyOption;->mNativeInstance:J
 
     iget-boolean v3, p0, Lcom/meitu/mtlab/MTAiInterface/MTBodyModule/MTBodyOption;->useVideoModelForImage:Z
 
     invoke-static {v1, v2, v3}, Lcom/meitu/mtlab/MTAiInterface/MTBodyModule/MTBodyOption;->nativeSetUseVideoModelForImage(JZ)V
 
-    .line 6
     iget-wide v1, p0, Lcom/meitu/mtlab/MTAiInterface/MTBodyModule/MTBodyOption;->mNativeInstance:J
 
     iget-boolean v3, p0, Lcom/meitu/mtlab/MTAiInterface/MTBodyModule/MTBodyOption;->contour_detect_per_frame:Z
 
     invoke-static {v1, v2, v3}, Lcom/meitu/mtlab/MTAiInterface/MTBodyModule/MTBodyOption;->nativeSetContourDetectPerFrame(JZ)V
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -438,12 +388,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 8
     iget-wide v1, p0, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineOption;->option:J
 
     invoke-static {p1, p2, v1, v2}, Lcom/meitu/mtlab/MTAiInterface/MTBodyModule/MTBodyOption;->nativeEnableDetectBody(JJ)V
 
-    .line 9
     iget v1, p0, Lcom/meitu/mtlab/MTAiInterface/MTBodyModule/MTBodyOption;->smooth_sigma:F
 
     iget v2, p0, Lcom/meitu/mtlab/MTAiInterface/MTBodyModule/MTBodyOption;->smooth_frames:I
@@ -452,7 +400,6 @@
 
     invoke-static {p1, p2, v1, v2, v3}, Lcom/meitu/mtlab/MTAiInterface/MTBodyModule/MTBodyOption;->nativeSetSmoothParam(JFII)V
 
-    .line 10
     iget v1, p0, Lcom/meitu/mtlab/MTAiInterface/MTBodyModule/MTBodyOption;->boundScore:F
 
     iget v2, p0, Lcom/meitu/mtlab/MTAiInterface/MTBodyModule/MTBodyOption;->pointsScore:F
@@ -461,22 +408,18 @@
 
     invoke-static {p1, p2, v1, v2, v3}, Lcom/meitu/mtlab/MTAiInterface/MTBodyModule/MTBodyOption;->nativeSetContourThreshold(JFFI)V
 
-    .line 11
     iget-object v1, p0, Lcom/meitu/mtlab/MTAiInterface/MTBodyModule/MTBodyOption;->box:[F
 
     invoke-static {p1, p2, v1}, Lcom/meitu/mtlab/MTAiInterface/MTBodyModule/MTBodyOption;->nativeSetBox(J[F)V
 
-    .line 12
     iget v1, p0, Lcom/meitu/mtlab/MTAiInterface/MTBodyModule/MTBodyOption;->humanBoundScore:F
 
     invoke-static {p1, p2, v1}, Lcom/meitu/mtlab/MTAiInterface/MTBodyModule/MTBodyOption;->nativeSetHumanBoundScore(JF)V
 
-    .line 13
     iget-boolean v1, p0, Lcom/meitu/mtlab/MTAiInterface/MTBodyModule/MTBodyOption;->aiFilterContour:Z
 
     invoke-static {p1, p2, v1}, Lcom/meitu/mtlab/MTAiInterface/MTBodyModule/MTBodyOption;->nativeSetAiFilterContour(JZ)V
 
-    .line 14
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

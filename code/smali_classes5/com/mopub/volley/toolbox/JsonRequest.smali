@@ -62,7 +62,6 @@
 
     const-string v1, "application/json; charset=%s"
 
-    .line 1
     invoke-static {v1, v0}, Ljava/lang/String;->format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object v0
@@ -94,20 +93,16 @@
         }
     .end annotation
 
-    .line 2
     invoke-direct {p0, p1, p2, p5}, Lcom/mopub/volley/Request;-><init>(ILjava/lang/String;Lcom/mopub/volley/Response$ErrorListener;)V
 
-    .line 3
     new-instance p1, Ljava/lang/Object;
 
     invoke-direct {p1}, Ljava/lang/Object;-><init>()V
 
     iput-object p1, p0, Lcom/mopub/volley/toolbox/JsonRequest;->mLock:Ljava/lang/Object;
 
-    .line 4
     iput-object p4, p0, Lcom/mopub/volley/toolbox/JsonRequest;->mListener:Lcom/mopub/volley/Response$Listener;
 
-    .line 5
     iput-object p3, p0, Lcom/mopub/volley/toolbox/JsonRequest;->mRequestBody:Ljava/lang/String;
 
     return-void
@@ -142,7 +137,6 @@
 
     move-object v5, p4
 
-    .line 1
     invoke-direct/range {v0 .. v5}, Lcom/mopub/volley/toolbox/JsonRequest;-><init>(ILjava/lang/String;Ljava/lang/String;Lcom/mopub/volley/Response$Listener;Lcom/mopub/volley/Response$ErrorListener;)V
 
     return-void
@@ -153,21 +147,17 @@
 .method public cancel()V
     .locals 2
 
-    .line 1
     invoke-super {p0}, Lcom/mopub/volley/Request;->cancel()V
 
-    .line 2
     iget-object v0, p0, Lcom/mopub/volley/toolbox/JsonRequest;->mLock:Ljava/lang/Object;
 
     monitor-enter v0
 
     const/4 v1, 0x0
 
-    .line 3
     :try_start_0
     iput-object v1, p0, Lcom/mopub/volley/toolbox/JsonRequest;->mListener:Lcom/mopub/volley/Response$Listener;
 
-    .line 4
     monitor-exit v0
 
     return-void
@@ -190,23 +180,19 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/volley/toolbox/JsonRequest;->mLock:Ljava/lang/Object;
 
     monitor-enter v0
 
-    .line 2
     :try_start_0
     iget-object v1, p0, Lcom/mopub/volley/toolbox/JsonRequest;->mListener:Lcom/mopub/volley/Response$Listener;
 
-    .line 3
     monitor-exit v0
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
     if-eqz v1, :cond_0
 
-    .line 4
     invoke-interface {v1, p1}, Lcom/mopub/volley/Response$Listener;->onResponse(Ljava/lang/Object;)V
 
     :cond_0
@@ -215,7 +201,6 @@
     :catchall_0
     move-exception p1
 
-    .line 5
     :try_start_1
     monitor-exit v0
     :try_end_1
@@ -231,7 +216,6 @@
 
     const/4 v1, 0x0
 
-    .line 1
     :try_start_0
     iget-object v2, p0, Lcom/mopub/volley/toolbox/JsonRequest;->mRequestBody:Ljava/lang/String;
 
@@ -256,7 +240,6 @@
 
     const/4 v3, 0x0
 
-    .line 2
     iget-object v4, p0, Lcom/mopub/volley/toolbox/JsonRequest;->mRequestBody:Ljava/lang/String;
 
     aput-object v4, v2, v3
@@ -275,7 +258,6 @@
 .method public getBodyContentType()Ljava/lang/String;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/mopub/volley/toolbox/JsonRequest;->PROTOCOL_CONTENT_TYPE:Ljava/lang/String;
 
     return-object v0
@@ -286,7 +268,6 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/mopub/volley/toolbox/JsonRequest;->getBody()[B
 
     move-result-object v0
@@ -299,7 +280,6 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/mopub/volley/toolbox/JsonRequest;->getBodyContentType()Ljava/lang/String;
 
     move-result-object v0

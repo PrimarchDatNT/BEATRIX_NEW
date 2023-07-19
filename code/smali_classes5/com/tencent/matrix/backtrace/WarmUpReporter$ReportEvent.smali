@@ -44,7 +44,6 @@
 .method static constructor <clinit>()V
     .locals 15
 
-    .line 1
     new-instance v0, Lcom/tencent/matrix/backtrace/WarmUpReporter$ReportEvent;
 
     const-string v1, "WarmedUp"
@@ -55,7 +54,6 @@
 
     sput-object v0, Lcom/tencent/matrix/backtrace/WarmUpReporter$ReportEvent;->WarmedUp:Lcom/tencent/matrix/backtrace/WarmUpReporter$ReportEvent;
 
-    .line 2
     new-instance v1, Lcom/tencent/matrix/backtrace/WarmUpReporter$ReportEvent;
 
     const-string v3, "CleanedUp"
@@ -66,7 +64,6 @@
 
     sput-object v1, Lcom/tencent/matrix/backtrace/WarmUpReporter$ReportEvent;->CleanedUp:Lcom/tencent/matrix/backtrace/WarmUpReporter$ReportEvent;
 
-    .line 3
     new-instance v3, Lcom/tencent/matrix/backtrace/WarmUpReporter$ReportEvent;
 
     const-string v5, "WarmUpThreadBlocked"
@@ -77,7 +74,6 @@
 
     sput-object v3, Lcom/tencent/matrix/backtrace/WarmUpReporter$ReportEvent;->WarmUpThreadBlocked:Lcom/tencent/matrix/backtrace/WarmUpReporter$ReportEvent;
 
-    .line 4
     new-instance v5, Lcom/tencent/matrix/backtrace/WarmUpReporter$ReportEvent;
 
     const-string v7, "WarmUpFailed"
@@ -88,7 +84,6 @@
 
     sput-object v5, Lcom/tencent/matrix/backtrace/WarmUpReporter$ReportEvent;->WarmUpFailed:Lcom/tencent/matrix/backtrace/WarmUpReporter$ReportEvent;
 
-    .line 5
     new-instance v7, Lcom/tencent/matrix/backtrace/WarmUpReporter$ReportEvent;
 
     const-string v9, "WarmUpDuration"
@@ -99,7 +94,6 @@
 
     sput-object v7, Lcom/tencent/matrix/backtrace/WarmUpReporter$ReportEvent;->WarmUpDuration:Lcom/tencent/matrix/backtrace/WarmUpReporter$ReportEvent;
 
-    .line 6
     new-instance v9, Lcom/tencent/matrix/backtrace/WarmUpReporter$ReportEvent;
 
     const-string v11, "ConsumeRequestDuration"
@@ -110,7 +104,6 @@
 
     sput-object v9, Lcom/tencent/matrix/backtrace/WarmUpReporter$ReportEvent;->ConsumeRequestDuration:Lcom/tencent/matrix/backtrace/WarmUpReporter$ReportEvent;
 
-    .line 7
     new-instance v11, Lcom/tencent/matrix/backtrace/WarmUpReporter$ReportEvent;
 
     const-string v13, "DiskUsage"
@@ -139,7 +132,6 @@
 
     aput-object v11, v13, v14
 
-    .line 8
     sput-object v13, Lcom/tencent/matrix/backtrace/WarmUpReporter$ReportEvent;->$VALUES:[Lcom/tencent/matrix/backtrace/WarmUpReporter$ReportEvent;
 
     return-void
@@ -153,7 +145,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
     return-void
@@ -162,7 +153,6 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/tencent/matrix/backtrace/WarmUpReporter$ReportEvent;
     .locals 1
 
-    .line 1
     const-class v0, Lcom/tencent/matrix/backtrace/WarmUpReporter$ReportEvent;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -177,7 +167,6 @@
 .method public static values()[Lcom/tencent/matrix/backtrace/WarmUpReporter$ReportEvent;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/tencent/matrix/backtrace/WarmUpReporter$ReportEvent;->$VALUES:[Lcom/tencent/matrix/backtrace/WarmUpReporter$ReportEvent;
 
     invoke-virtual {v0}, [Lcom/tencent/matrix/backtrace/WarmUpReporter$ReportEvent;->clone()Ljava/lang/Object;

@@ -51,7 +51,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/util/p2/b;-><init>()V
 
     iput-object p1, p0, Lcom/commsource/util/delegate/process/i;->a:Ljava/lang/String;
@@ -72,7 +71,6 @@
 
     if-ne p1, p2, :cond_0
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/util/delegate/process/i;->e()V
 
     :cond_0
@@ -92,7 +90,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     :try_start_0
     new-instance v0, Landroid/content/Intent;
 
@@ -100,12 +97,10 @@
 
     const-string v1, "android.intent.action.SEND"
 
-    .line 2
     invoke-virtual {v0, v1}, Landroid/content/Intent;->setAction(Ljava/lang/String;)Landroid/content/Intent;
 
     const-string v1, "android.intent.extra.STREAM"
 
-    .line 3
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
     move-result-object v2
@@ -116,24 +111,20 @@
 
     move-result-object v2
 
-    .line 4
     invoke-virtual {v0, v1, v2}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Landroid/os/Parcelable;)Landroid/content/Intent;
 
     const-string v1, "image/*"
 
-    .line 5
     invoke-virtual {v0, v1}, Landroid/content/Intent;->setType(Ljava/lang/String;)Landroid/content/Intent;
 
     const/4 v1, 0x0
 
-    .line 6
     invoke-static {v0, v1}, Landroid/content/Intent;->createChooser(Landroid/content/Intent;Ljava/lang/CharSequence;)Landroid/content/Intent;
 
     move-result-object v0
 
     const/16 v1, 0x3e8
 
-    .line 7
     invoke-virtual {p1, v0, v1}, Landroidx/fragment/app/Fragment;->startActivityForResult(Landroid/content/Intent;I)V
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
@@ -147,7 +138,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/util/delegate/process/i;->a:Ljava/lang/String;
 
     return-object v0

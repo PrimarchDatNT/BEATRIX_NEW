@@ -27,7 +27,6 @@
 .method constructor <init>(Lf/k/m/f/c;Lcom/meitu/ipstore/core/a$c;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lf/k/m/f/c$d;->g:Lf/k/m/f/c;
 
     iput-object p2, p0, Lf/k/m/f/c$d;->f:Lcom/meitu/ipstore/core/a$c;
@@ -52,7 +51,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/util/ArrayList;
 
     invoke-direct {v1}, Ljava/util/ArrayList;-><init>()V
@@ -61,7 +59,6 @@
 
     const/4 v2, 0x0
 
-    .line 2
     :goto_0
     invoke-interface {p1}, Ljava/util/List;->size()I
 
@@ -69,7 +66,6 @@
 
     if-ge v2, v3, :cond_2
 
-    .line 3
     invoke-interface {p1, v2}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object v3
@@ -78,7 +74,6 @@
 
     goto :goto_1
 
-    .line 4
     :cond_0
     invoke-interface {p1, v2}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
@@ -90,7 +85,6 @@
 
     move-result-object v3
 
-    .line 5
     iget-object v4, p0, Lf/k/m/f/c$d;->g:Lf/k/m/f/c;
 
     invoke-static {v4, v3}, Lf/k/m/f/c;->c(Lf/k/m/f/c;Ljava/lang/String;)Z
@@ -99,7 +93,6 @@
 
     if-eqz v4, :cond_1
 
-    .line 6
     iget-object v4, p0, Lf/k/m/f/c$d;->g:Lf/k/m/f/c;
 
     invoke-static {v4, v3}, Lf/k/m/f/c;->a(Lf/k/m/f/c;Ljava/lang/String;)Ljava/lang/String;
@@ -114,20 +107,17 @@
 
     goto :goto_0
 
-    .line 7
     :cond_2
     iget-object p1, p0, Lf/k/m/f/c$d;->f:Lcom/meitu/ipstore/core/a$c;
 
     if-eqz p1, :cond_3
 
-    .line 8
     new-instance p1, Lf/k/m/f/c$d$a;
 
     invoke-direct {p1, p0, v1}, Lf/k/m/f/c$d$a;-><init>(Lf/k/m/f/c$d;Ljava/util/List;)V
 
     invoke-static {p1}, Lf/k/m/j/j;->i(Ljava/lang/Runnable;)V
 
-    .line 9
     :cond_3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -141,19 +131,16 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lf/k/m/f/c$d;->f:Lcom/meitu/ipstore/core/a$c;
 
     if-eqz v1, :cond_0
 
-    .line 2
     new-instance v1, Lf/k/m/f/c$d$b;
 
     invoke-direct {v1, p0, p1, p2}, Lf/k/m/f/c$d$b;-><init>(Lf/k/m/f/c$d;ILjava/lang/String;)V
 
     invoke-static {v1}, Lf/k/m/j/j;->i(Ljava/lang/Runnable;)V
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -169,14 +156,12 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget v0, Lcom/meitu/ipstore/web/scripts/b;->i:I
 
     const-string v1, "can\'t connect to google play"
 
     invoke-direct {p0, v0, v1}, Lf/k/m/f/c$d;->p(ILjava/lang/String;)V
 
-    .line 2
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -191,17 +176,14 @@
 
     const-string v1, "query failed"
 
-    .line 1
     invoke-static {v1, p1}, Lf/k/m/j/e;->f(Ljava/lang/String;Ljava/lang/Throwable;)V
 
-    .line 2
     sget p1, Lcom/meitu/ipstore/web/scripts/b;->h:I
 
     const-string v1, "search fail!"
 
     invoke-direct {p0, p1, v1}, Lf/k/m/f/c$d;->p(ILjava/lang/String;)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -218,7 +200,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget v1, Lcom/meitu/ipstore/web/scripts/b;->h:I
 
     if-eqz p1, :cond_0
@@ -235,7 +216,6 @@
     :goto_0
     invoke-direct {p0, v1, p1}, Lf/k/m/f/c$d;->p(ILjava/lang/String;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -256,10 +236,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0, p1}, Lf/k/m/f/c$d;->o(Ljava/util/List;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

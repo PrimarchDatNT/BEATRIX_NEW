@@ -42,7 +42,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/home/banner/HomeSlideShowModuleVH$b;->a:Lcom/commsource/home/banner/HomeSlideShowModuleVH;
 
     iget-object v1, v1, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->itemView:Landroid/view/View;
@@ -79,7 +78,6 @@
 
     rem-int/2addr v1, v4
 
-    .line 2
     iget-object v4, p0, Lcom/commsource/home/banner/HomeSlideShowModuleVH$b;->a:Lcom/commsource/home/banner/HomeSlideShowModuleVH;
 
     iget-object v4, v4, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->itemView:Landroid/view/View;
@@ -96,7 +94,6 @@
 
     invoke-virtual {v2, v1}, Landroidx/recyclerview/widget/RecyclerView;->smoothScrollToPosition(I)V
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/home/banner/HomeSlideShowModuleVH$b;->a:Lcom/commsource/home/banner/HomeSlideShowModuleVH;
 
     invoke-virtual {v1}, Lcom/commsource/home/banner/HomeSlideShowModuleVH;->L()Lcom/commsource/widget/h1/e;
@@ -125,7 +122,6 @@
 
     if-eqz v1, :cond_0
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/home/banner/HomeSlideShowModuleVH$b;->a:Lcom/commsource/home/banner/HomeSlideShowModuleVH;
 
     invoke-static {v1}, Lcom/commsource/home/banner/HomeSlideShowModuleVH;->C(Lcom/commsource/home/banner/HomeSlideShowModuleVH;)Ljava/lang/Runnable;
@@ -136,7 +132,6 @@
 
     invoke-static {v1, v2, v3}, Lcom/commsource/util/g2;->l(Ljava/lang/Runnable;J)V
 
-    .line 5
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

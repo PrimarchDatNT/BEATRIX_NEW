@@ -26,14 +26,12 @@
 .method static constructor <clinit>()V
     .locals 2
 
-    .line 1
     new-instance v0, Lcom/google/common/collect/q$a;
 
     invoke-direct {v0}, Lcom/google/common/collect/q$a;-><init>()V
 
     sput-object v0, Lcom/google/common/collect/q;->a:Lcom/google/common/collect/q;
 
-    .line 2
     new-instance v0, Lcom/google/common/collect/q$b;
 
     const/4 v1, -0x1
@@ -42,7 +40,6 @@
 
     sput-object v0, Lcom/google/common/collect/q;->b:Lcom/google/common/collect/q;
 
-    .line 3
     new-instance v0, Lcom/google/common/collect/q$b;
 
     const/4 v1, 0x1
@@ -57,7 +54,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 2
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -66,7 +62,6 @@
 .method synthetic constructor <init>(Lcom/google/common/collect/q$a;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/google/common/collect/q;-><init>()V
 
     return-void
@@ -75,7 +70,6 @@
 .method static synthetic a()Lcom/google/common/collect/q;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/google/common/collect/q;->b:Lcom/google/common/collect/q;
 
     return-object v0
@@ -84,7 +78,6 @@
 .method static synthetic b()Lcom/google/common/collect/q;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/google/common/collect/q;->c:Lcom/google/common/collect/q;
 
     return-object v0
@@ -93,7 +86,6 @@
 .method static synthetic c()Lcom/google/common/collect/q;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/google/common/collect/q;->a:Lcom/google/common/collect/q;
 
     return-object v0
@@ -102,7 +94,6 @@
 .method public static n()Lcom/google/common/collect/q;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/google/common/collect/q;->a:Lcom/google/common/collect/q;
 
     return-object v0
@@ -127,7 +118,6 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    .line 1
     invoke-virtual {p1}, Ljava/lang/Boolean;->booleanValue()Z
 
     move-result p1

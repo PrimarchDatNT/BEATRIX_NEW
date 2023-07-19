@@ -19,7 +19,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/meitu/global/billing/net/http/b;-><init>()V
 
     return-void
@@ -37,7 +36,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/meitu/global/billing/net/http/f$a;
 
     invoke-direct {v0, p0, p1}, Lcom/meitu/global/billing/net/http/f$a;-><init>(Lcom/meitu/global/billing/net/http/f;Lcom/meitu/global/billing/net/DataModel;)V

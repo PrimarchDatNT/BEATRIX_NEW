@@ -20,24 +20,19 @@
 .method public constructor <init>(I)V
     .locals 2
 
-    .line 1
     invoke-direct {p0}, Lcom/google/android/gms/internal/ads/oi2;-><init>()V
 
-    .line 2
     div-int/lit8 v0, p1, 0x8
 
-    .line 3
     rem-int/lit8 v1, p1, 0x8
 
     if-lez v1, :cond_0
 
     add-int/lit8 v0, v0, 0x1
 
-    .line 4
     :cond_0
     iput v0, p0, Lcom/google/android/gms/internal/ads/zi2;->d:I
 
-    .line 5
     iput p1, p0, Lcom/google/android/gms/internal/ads/zi2;->e:I
 
     return-void
@@ -48,12 +43,10 @@
 .method public final a(Ljava/lang/String;)[B
     .locals 9
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/oi2;->a:Ljava/lang/Object;
 
     monitor-enter v0
 
-    .line 2
     :try_start_0
     invoke-virtual {p0}, Lcom/google/android/gms/internal/ads/oi2;->b()Ljava/security/MessageDigest;
 
@@ -67,16 +60,13 @@
 
     new-array p1, v2, [B
 
-    .line 3
     monitor-exit v0
 
     return-object p1
 
-    .line 4
     :cond_0
     invoke-virtual {v1}, Ljava/security/MessageDigest;->reset()V
 
-    .line 5
     iget-object v1, p0, Lcom/google/android/gms/internal/ads/zi2;->c:Ljava/security/MessageDigest;
 
     const-string v3, "UTF-8"
@@ -91,14 +81,12 @@
 
     invoke-virtual {v1, p1}, Ljava/security/MessageDigest;->update([B)V
 
-    .line 6
     iget-object p1, p0, Lcom/google/android/gms/internal/ads/zi2;->c:Ljava/security/MessageDigest;
 
     invoke-virtual {p1}, Ljava/security/MessageDigest;->digest()[B
 
     move-result-object p1
 
-    .line 7
     array-length v1, p1
 
     iget v3, p0, Lcom/google/android/gms/internal/ads/zi2;->d:I
@@ -113,10 +101,8 @@
     :goto_0
     new-array v1, v3, [B
 
-    .line 8
     invoke-static {p1, v2, v1, v2, v3}, Ljava/lang/System;->arraycopy(Ljava/lang/Object;ILjava/lang/Object;II)V
 
-    .line 9
     iget p1, p0, Lcom/google/android/gms/internal/ads/zi2;->e:I
 
     const/16 v4, 0x8
@@ -134,7 +120,6 @@
 
     shl-long/2addr v5, v4
 
-    .line 10
     :cond_2
     aget-byte p1, v1, v2
 
@@ -148,7 +133,6 @@
 
     goto :goto_1
 
-    .line 11
     :cond_3
     iget p1, p0, Lcom/google/android/gms/internal/ads/zi2;->e:I
 
@@ -158,7 +142,6 @@
 
     ushr-long v2, v5, p1
 
-    .line 12
     iget p1, p0, Lcom/google/android/gms/internal/ads/zi2;->d:I
 
     add-int/lit8 p1, p1, -0x1
@@ -174,7 +157,6 @@
 
     int-to-byte v5, v6
 
-    .line 13
     aput-byte v5, v1, p1
 
     ushr-long/2addr v2, v4
@@ -183,7 +165,6 @@
 
     goto :goto_2
 
-    .line 14
     :cond_4
     monitor-exit v0
 
@@ -192,7 +173,6 @@
     :catchall_0
     move-exception p1
 
-    .line 15
     monitor-exit v0
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0

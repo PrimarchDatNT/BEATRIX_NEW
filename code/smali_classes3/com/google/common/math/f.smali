@@ -15,7 +15,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -28,7 +27,6 @@
 
     return-void
 
-    .line 1
     :cond_0
     new-instance p0, Ljava/lang/ArithmeticException;
 
@@ -64,7 +62,6 @@
 
     return-void
 
-    .line 1
     :cond_0
     new-instance p0, Ljava/lang/ArithmeticException;
 
@@ -110,7 +107,6 @@
 
     return-void
 
-    .line 1
     :cond_0
     new-instance p0, Ljava/lang/ArithmeticException;
 
@@ -164,7 +160,6 @@
 
     return-wide p1
 
-    .line 1
     :cond_0
     new-instance v0, Ljava/lang/IllegalArgumentException;
 
@@ -204,7 +199,6 @@
 
     return p1
 
-    .line 1
     :cond_0
     new-instance v0, Ljava/lang/IllegalArgumentException;
 
@@ -248,7 +242,6 @@
 
     return-wide p1
 
-    .line 1
     :cond_0
     new-instance v0, Ljava/lang/IllegalArgumentException;
 
@@ -284,7 +277,6 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-virtual {p1}, Ljava/math/BigInteger;->signum()I
 
     move-result v0
@@ -293,7 +285,6 @@
 
     return-object p1
 
-    .line 2
     :cond_0
     new-instance v0, Ljava/lang/IllegalArgumentException;
 
@@ -333,7 +324,6 @@
 
     return p1
 
-    .line 1
     :cond_0
     new-instance v0, Ljava/lang/IllegalArgumentException;
 
@@ -377,7 +367,6 @@
 
     return-wide p1
 
-    .line 1
     :cond_0
     new-instance v0, Ljava/lang/IllegalArgumentException;
 
@@ -413,7 +402,6 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-virtual {p1}, Ljava/math/BigInteger;->signum()I
 
     move-result v0
@@ -422,7 +410,6 @@
 
     return-object p1
 
-    .line 2
     :cond_0
     new-instance v0, Ljava/lang/IllegalArgumentException;
 
@@ -458,7 +445,6 @@
 
     return-void
 
-    .line 1
     :cond_0
     new-instance p0, Ljava/lang/ArithmeticException;
 

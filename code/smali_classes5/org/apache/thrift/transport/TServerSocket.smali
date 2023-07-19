@@ -25,7 +25,6 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
     const-class v0, Lorg/apache/thrift/transport/TServerSocket;
 
     invoke-virtual {v0}, Ljava/lang/Class;->getName()Ljava/lang/String;
@@ -51,7 +50,6 @@
 
     const/4 v0, 0x0
 
-    .line 3
     invoke-direct {p0, p1, v0}, Lorg/apache/thrift/transport/TServerSocket;-><init>(II)V
 
     return-void
@@ -65,7 +63,6 @@
         }
     .end annotation
 
-    .line 4
     new-instance v0, Ljava/net/InetSocketAddress;
 
     invoke-direct {v0, p1}, Ljava/net/InetSocketAddress;-><init>(I)V
@@ -85,7 +82,6 @@
 
     const/4 v0, 0x0
 
-    .line 5
     invoke-direct {p0, p1, v0}, Lorg/apache/thrift/transport/TServerSocket;-><init>(Ljava/net/InetSocketAddress;I)V
 
     return-void
@@ -99,7 +95,6 @@
         }
     .end annotation
 
-    .line 6
     new-instance v0, Lorg/apache/thrift/transport/TServerSocket$ServerSocketTransportArgs;
 
     invoke-direct {v0}, Lorg/apache/thrift/transport/TServerSocket$ServerSocketTransportArgs;-><init>()V
@@ -131,7 +126,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-direct {p0, p1, v0}, Lorg/apache/thrift/transport/TServerSocket;-><init>(Ljava/net/ServerSocket;I)V
 
     return-void
@@ -145,7 +139,6 @@
         }
     .end annotation
 
-    .line 2
     new-instance v0, Lorg/apache/thrift/transport/TServerSocket$ServerSocketTransportArgs;
 
     invoke-direct {v0}, Lorg/apache/thrift/transport/TServerSocket$ServerSocketTransportArgs;-><init>()V
@@ -173,35 +166,28 @@
         }
     .end annotation
 
-    .line 7
     invoke-direct {p0}, Lorg/apache/thrift/transport/TServerTransport;-><init>()V
 
     const/4 v0, 0x0
 
-    .line 8
     iput-object v0, p0, Lorg/apache/thrift/transport/TServerSocket;->serverSocket_:Ljava/net/ServerSocket;
 
     const/4 v0, 0x0
 
-    .line 9
     iput v0, p0, Lorg/apache/thrift/transport/TServerSocket;->clientTimeout_:I
 
-    .line 10
     iget v0, p1, Lorg/apache/thrift/transport/TServerTransport$AbstractServerTransportArgs;->clientTimeout:I
 
     iput v0, p0, Lorg/apache/thrift/transport/TServerSocket;->clientTimeout_:I
 
-    .line 11
     iget-object v0, p1, Lorg/apache/thrift/transport/TServerSocket$ServerSocketTransportArgs;->serverSocket:Ljava/net/ServerSocket;
 
     if-eqz v0, :cond_0
 
-    .line 12
     iput-object v0, p0, Lorg/apache/thrift/transport/TServerSocket;->serverSocket_:Ljava/net/ServerSocket;
 
     return-void
 
-    .line 13
     :cond_0
     :try_start_0
     new-instance v0, Ljava/net/ServerSocket;
@@ -212,10 +198,8 @@
 
     const/4 v1, 0x1
 
-    .line 14
     invoke-virtual {v0, v1}, Ljava/net/ServerSocket;->setReuseAddress(Z)V
 
-    .line 15
     iget-object v0, p0, Lorg/apache/thrift/transport/TServerSocket;->serverSocket_:Ljava/net/ServerSocket;
 
     iget-object v1, p1, Lorg/apache/thrift/transport/TServerTransport$AbstractServerTransportArgs;->bindAddr:Ljava/net/InetSocketAddress;
@@ -231,10 +215,8 @@
     :catch_0
     move-exception v0
 
-    .line 16
     invoke-virtual {p0}, Lorg/apache/thrift/transport/TServerSocket;->close()V
 
-    .line 17
     new-instance v1, Lorg/apache/thrift/transport/TTransportException;
 
     new-instance v2, Ljava/lang/StringBuilder;
@@ -276,23 +258,19 @@
         }
     .end annotation
 
-    .line 2
     iget-object v0, p0, Lorg/apache/thrift/transport/TServerSocket;->serverSocket_:Ljava/net/ServerSocket;
 
     if-eqz v0, :cond_0
 
-    .line 3
     :try_start_0
     invoke-virtual {v0}, Ljava/net/ServerSocket;->accept()Ljava/net/Socket;
 
     move-result-object v0
 
-    .line 4
     new-instance v1, Lorg/apache/thrift/transport/TSocket;
 
     invoke-direct {v1, v0}, Lorg/apache/thrift/transport/TSocket;-><init>(Ljava/net/Socket;)V
 
-    .line 5
     iget v0, p0, Lorg/apache/thrift/transport/TServerSocket;->clientTimeout_:I
 
     invoke-virtual {v1, v0}, Lorg/apache/thrift/transport/TSocket;->setTimeout(I)V
@@ -304,14 +282,12 @@
     :catch_0
     move-exception v0
 
-    .line 6
     new-instance v1, Lorg/apache/thrift/transport/TTransportException;
 
     invoke-direct {v1, v0}, Lorg/apache/thrift/transport/TTransportException;-><init>(Ljava/lang/Throwable;)V
 
     throw v1
 
-    .line 7
     :cond_0
     new-instance v0, Lorg/apache/thrift/transport/TTransportException;
 
@@ -332,7 +308,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lorg/apache/thrift/transport/TServerSocket;->acceptImpl()Lorg/apache/thrift/transport/TSocket;
 
     move-result-object v0
@@ -343,12 +318,10 @@
 .method public close()V
     .locals 3
 
-    .line 1
     iget-object v0, p0, Lorg/apache/thrift/transport/TServerSocket;->serverSocket_:Ljava/net/ServerSocket;
 
     if-eqz v0, :cond_0
 
-    .line 2
     :try_start_0
     invoke-virtual {v0}, Ljava/net/ServerSocket;->close()V
     :try_end_0
@@ -359,7 +332,6 @@
     :catch_0
     move-exception v0
 
-    .line 3
     sget-object v1, Lorg/apache/thrift/transport/TServerSocket;->LOGGER:Lorg/slf4j/c;
 
     const-string v2, "Could not close server socket."
@@ -369,7 +341,6 @@
     :goto_0
     const/4 v0, 0x0
 
-    .line 4
     iput-object v0, p0, Lorg/apache/thrift/transport/TServerSocket;->serverSocket_:Ljava/net/ServerSocket;
 
     :cond_0
@@ -379,7 +350,6 @@
 .method public getServerSocket()Ljava/net/ServerSocket;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lorg/apache/thrift/transport/TServerSocket;->serverSocket_:Ljava/net/ServerSocket;
 
     return-object v0
@@ -388,7 +358,6 @@
 .method public interrupt()V
     .locals 0
 
-    .line 1
     invoke-virtual {p0}, Lorg/apache/thrift/transport/TServerSocket;->close()V
 
     return-void
@@ -402,14 +371,12 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lorg/apache/thrift/transport/TServerSocket;->serverSocket_:Ljava/net/ServerSocket;
 
     if-eqz v0, :cond_0
 
     const/4 v1, 0x0
 
-    .line 2
     :try_start_0
     invoke-virtual {v0, v1}, Ljava/net/ServerSocket;->setSoTimeout(I)V
     :try_end_0
@@ -420,7 +387,6 @@
     :catch_0
     move-exception v0
 
-    .line 3
     sget-object v1, Lorg/apache/thrift/transport/TServerSocket;->LOGGER:Lorg/slf4j/c;
 
     const-string v2, "Could not set socket timeout."

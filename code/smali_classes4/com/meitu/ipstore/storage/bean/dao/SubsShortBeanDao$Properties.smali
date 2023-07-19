@@ -36,7 +36,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v7, Lorg/greenrobot/greendao/h;
 
     sget-object v8, Ljava/lang/Long;->TYPE:Ljava/lang/Class;
@@ -57,7 +56,6 @@
 
     sput-object v7, Lcom/meitu/ipstore/storage/bean/dao/SubsShortBeanDao$Properties;->EndTime:Lorg/greenrobot/greendao/h;
 
-    .line 2
     new-instance v7, Lorg/greenrobot/greendao/h;
 
     const/4 v2, 0x1
@@ -72,7 +70,6 @@
 
     sput-object v7, Lcom/meitu/ipstore/storage/bean/dao/SubsShortBeanDao$Properties;->StartTime:Lorg/greenrobot/greendao/h;
 
-    .line 3
     new-instance v1, Lorg/greenrobot/greendao/h;
 
     const-class v11, Ljava/lang/String;
@@ -91,7 +88,6 @@
 
     sput-object v1, Lcom/meitu/ipstore/storage/bean/dao/SubsShortBeanDao$Properties;->SubId:Lorg/greenrobot/greendao/h;
 
-    .line 4
     new-instance v1, Lorg/greenrobot/greendao/h;
 
     const-class v4, Ljava/lang/String;
@@ -110,7 +106,6 @@
 
     sput-object v1, Lcom/meitu/ipstore/storage/bean/dao/SubsShortBeanDao$Properties;->Version:Lorg/greenrobot/greendao/h;
 
-    .line 5
     new-instance v1, Lorg/greenrobot/greendao/h;
 
     const-class v10, Ljava/lang/String;
@@ -129,7 +124,6 @@
 
     sput-object v1, Lcom/meitu/ipstore/storage/bean/dao/SubsShortBeanDao$Properties;->MaterialIds:Lorg/greenrobot/greendao/h;
 
-    .line 6
     new-instance v1, Lorg/greenrobot/greendao/h;
 
     const-class v4, Ljava/lang/String;
@@ -154,7 +148,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void

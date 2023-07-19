@@ -44,7 +44,6 @@
 
     const-string v1, "it"
 
-    .line 1
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {p1}, Landroid/animation/ValueAnimator;->getAnimatedValue()Ljava/lang/Object;
@@ -59,7 +58,6 @@
 
     move-result p1
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/sticker/m$b;->a:Lcom/commsource/studio/sticker/m;
 
     invoke-virtual {v1}, Lcom/commsource/studio/sticker/m;->f()Lcom/commsource/beautyplus/f0/km;
@@ -74,12 +72,10 @@
 
     invoke-virtual {v1, p1}, Landroid/widget/FrameLayout;->setAlpha(F)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 4
     :cond_0
     new-instance p1, Lcotlin/TypeCastException;
 

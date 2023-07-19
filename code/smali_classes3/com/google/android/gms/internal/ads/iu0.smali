@@ -36,10 +36,8 @@
 .method public final d(Ljava/lang/Object;)Lcom/google/android/gms/internal/ads/rq1;
     .locals 0
 
-    .line 1
     check-cast p1, Ljava/util/concurrent/ExecutionException;
 
-    .line 2
     invoke-virtual {p1}, Ljava/util/concurrent/ExecutionException;->getCause()Ljava/lang/Throwable;
 
     move-result-object p1

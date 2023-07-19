@@ -12,7 +12,6 @@
 
     const-string v0, "com.google.android.gms.ads.internal.overlay.client.IAdOverlay"
 
-    .line 1
     invoke-direct {p0, v0}, Lcom/google/android/gms/internal/ads/l82;-><init>(Ljava/lang/String;)V
 
     return-void
@@ -30,22 +29,18 @@
     :cond_0
     const-string v0, "com.google.android.gms.ads.internal.overlay.client.IAdOverlay"
 
-    .line 1
     invoke-interface {p0, v0}, Landroid/os/IBinder;->queryLocalInterface(Ljava/lang/String;)Landroid/os/IInterface;
 
     move-result-object v0
 
-    .line 2
     instance-of v1, v0, Lcom/google/android/gms/internal/ads/kf;
 
     if-eqz v1, :cond_1
 
-    .line 3
     check-cast v0, Lcom/google/android/gms/internal/ads/kf;
 
     return-object v0
 
-    .line 4
     :cond_1
     new-instance v0, Lcom/google/android/gms/internal/ads/mf;
 
@@ -70,7 +65,6 @@
 
     return p1
 
-    .line 1
     :pswitch_0
     invoke-virtual {p2}, Landroid/os/Parcel;->readStrongBinder()Landroid/os/IBinder;
 
@@ -80,26 +74,21 @@
 
     move-result-object p1
 
-    .line 2
     invoke-interface {p0, p1}, Lcom/google/android/gms/internal/ads/kf;->L4(Lcom/google/android/gms/dynamic/d;)V
 
-    .line 3
     invoke-virtual {p3}, Landroid/os/Parcel;->writeNoException()V
 
     goto/16 :goto_0
 
-    .line 4
     :pswitch_1
     invoke-virtual {p2}, Landroid/os/Parcel;->readInt()I
 
     move-result p1
 
-    .line 5
     invoke-virtual {p2}, Landroid/os/Parcel;->readInt()I
 
     move-result p4
 
-    .line 6
     sget-object v0, Landroid/content/Intent;->CREATOR:Landroid/os/Parcelable$Creator;
 
     invoke-static {p2, v0}, Lcom/google/android/gms/internal/ads/o82;->b(Landroid/os/Parcel;Landroid/os/Parcelable$Creator;)Landroid/os/Parcelable;
@@ -108,65 +97,51 @@
 
     check-cast p2, Landroid/content/Intent;
 
-    .line 7
     invoke-interface {p0, p1, p4, p2}, Lcom/google/android/gms/internal/ads/kf;->onActivityResult(IILandroid/content/Intent;)V
 
-    .line 8
     invoke-virtual {p3}, Landroid/os/Parcel;->writeNoException()V
 
     goto :goto_0
 
-    .line 9
     :pswitch_2
     invoke-interface {p0}, Lcom/google/android/gms/internal/ads/kf;->xa()Z
 
     move-result p1
 
-    .line 10
     invoke-virtual {p3}, Landroid/os/Parcel;->writeNoException()V
 
-    .line 11
     invoke-static {p3, p1}, Lcom/google/android/gms/internal/ads/o82;->a(Landroid/os/Parcel;Z)V
 
     goto :goto_0
 
-    .line 12
     :pswitch_3
     invoke-interface {p0}, Lcom/google/android/gms/internal/ads/kf;->C0()V
 
-    .line 13
     invoke-virtual {p3}, Landroid/os/Parcel;->writeNoException()V
 
     goto :goto_0
 
-    .line 14
     :pswitch_4
     invoke-interface {p0}, Lcom/google/android/gms/internal/ads/kf;->Z2()V
 
-    .line 15
     invoke-virtual {p3}, Landroid/os/Parcel;->writeNoException()V
 
     goto :goto_0
 
-    .line 16
     :pswitch_5
     invoke-interface {p0}, Lcom/google/android/gms/internal/ads/kf;->onDestroy()V
 
-    .line 17
     invoke-virtual {p3}, Landroid/os/Parcel;->writeNoException()V
 
     goto :goto_0
 
-    .line 18
     :pswitch_6
     invoke-interface {p0}, Lcom/google/android/gms/internal/ads/kf;->onStop()V
 
-    .line 19
     invoke-virtual {p3}, Landroid/os/Parcel;->writeNoException()V
 
     goto :goto_0
 
-    .line 20
     :pswitch_7
     sget-object p1, Landroid/os/Bundle;->CREATOR:Landroid/os/Parcelable$Creator;
 
@@ -176,54 +151,42 @@
 
     check-cast p1, Landroid/os/Bundle;
 
-    .line 21
     invoke-interface {p0, p1}, Lcom/google/android/gms/internal/ads/kf;->T(Landroid/os/Bundle;)V
 
-    .line 22
     invoke-virtual {p3}, Landroid/os/Parcel;->writeNoException()V
 
-    .line 23
     invoke-static {p3, p1}, Lcom/google/android/gms/internal/ads/o82;->g(Landroid/os/Parcel;Landroid/os/Parcelable;)V
 
     goto :goto_0
 
-    .line 24
     :pswitch_8
     invoke-interface {p0}, Lcom/google/android/gms/internal/ads/kf;->onPause()V
 
-    .line 25
     invoke-virtual {p3}, Landroid/os/Parcel;->writeNoException()V
 
     goto :goto_0
 
-    .line 26
     :pswitch_9
     invoke-interface {p0}, Lcom/google/android/gms/internal/ads/kf;->onResume()V
 
-    .line 27
     invoke-virtual {p3}, Landroid/os/Parcel;->writeNoException()V
 
     goto :goto_0
 
-    .line 28
     :pswitch_a
     invoke-interface {p0}, Lcom/google/android/gms/internal/ads/kf;->onStart()V
 
-    .line 29
     invoke-virtual {p3}, Landroid/os/Parcel;->writeNoException()V
 
     goto :goto_0
 
-    .line 30
     :pswitch_b
     invoke-interface {p0}, Lcom/google/android/gms/internal/ads/kf;->H4()V
 
-    .line 31
     invoke-virtual {p3}, Landroid/os/Parcel;->writeNoException()V
 
     goto :goto_0
 
-    .line 32
     :pswitch_c
     sget-object p1, Landroid/os/Bundle;->CREATOR:Landroid/os/Parcelable$Creator;
 
@@ -233,10 +196,8 @@
 
     check-cast p1, Landroid/os/Bundle;
 
-    .line 33
     invoke-interface {p0, p1}, Lcom/google/android/gms/internal/ads/kf;->M(Landroid/os/Bundle;)V
 
-    .line 34
     invoke-virtual {p3}, Landroid/os/Parcel;->writeNoException()V
 
     :goto_0

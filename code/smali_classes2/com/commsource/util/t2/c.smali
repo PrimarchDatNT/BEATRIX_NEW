@@ -19,7 +19,6 @@
 .method public constructor <init>(ZF)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     iput-boolean p1, p0, Lcom/commsource/util/t2/c;->a:Z
@@ -54,7 +53,6 @@
 
     invoke-static {p2, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/util/t2/c;->b:F
 
     const/4 v2, 0x0
@@ -63,7 +61,6 @@
 
     if-nez v1, :cond_1
 
-    .line 2
     iget-boolean v1, p0, Lcom/commsource/util/t2/c;->a:Z
 
     const/4 v2, 0x2
@@ -74,7 +71,6 @@
 
     int-to-float v1, v3
 
-    .line 3
     invoke-virtual {p1}, Landroid/graphics/Rect;->exactCenterY()F
 
     move-result p1
@@ -110,7 +106,6 @@
     :cond_0
     int-to-float v1, v3
 
-    .line 4
     invoke-virtual {p1}, Landroid/graphics/Rect;->exactCenterX()F
 
     move-result p1
@@ -143,7 +138,6 @@
 
     return v1
 
-    .line 5
     :cond_1
     iget-boolean v1, p0, Lcom/commsource/util/t2/c;->a:Z
 
@@ -175,14 +169,12 @@
 
     move-result p1
 
-    .line 6
     iget p2, p0, Lcom/commsource/util/t2/c;->b:F
 
     cmpl-float v1, p1, p2
 
     if-lez v1, :cond_3
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v2
@@ -190,12 +182,10 @@
     :cond_3
     sub-float/2addr p1, p2
 
-    .line 8
     invoke-static {p1}, Ljava/lang/Math;->abs(F)F
 
     move-result p1
 
-    .line 9
     iget p2, p0, Lcom/commsource/util/t2/c;->b:F
 
     div-float/2addr p1, p2
@@ -212,7 +202,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/util/t2/c;->b:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -227,7 +216,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/util/t2/c;->a:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

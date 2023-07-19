@@ -49,21 +49,18 @@
 .method static constructor <clinit>()V
     .locals 4
 
-    .line 1
     new-instance v0, Lcom/google/android/gms/common/api/a$g;
 
     invoke-direct {v0}, Lcom/google/android/gms/common/api/a$g;-><init>()V
 
     sput-object v0, Lcom/google/firebase/appindexing/internal/g;->L:Lcom/google/android/gms/common/api/a$g;
 
-    .line 2
     new-instance v1, Lcom/google/firebase/appindexing/internal/h;
 
     invoke-direct {v1}, Lcom/google/firebase/appindexing/internal/h;-><init>()V
 
     sput-object v1, Lcom/google/firebase/appindexing/internal/g;->M:Lcom/google/android/gms/common/api/a$a;
 
-    .line 3
     new-instance v2, Lcom/google/android/gms/common/api/a;
 
     const-string v3, "AppIndexing.API"
@@ -92,7 +89,6 @@
 
     move-object v6, p5
 
-    .line 1
     invoke-direct/range {v0 .. v6}, Lcom/google/android/gms/common/internal/k;-><init>(Landroid/content/Context;Landroid/os/Looper;ILcom/google/android/gms/common/internal/f;Lcom/google/android/gms/common/api/i$b;Lcom/google/android/gms/common/api/i$c;)V
 
     return-void
@@ -128,22 +124,18 @@
     :cond_0
     const-string v0, "com.google.firebase.appindexing.internal.IAppIndexingService"
 
-    .line 1
     invoke-interface {p1, v0}, Landroid/os/IBinder;->queryLocalInterface(Ljava/lang/String;)Landroid/os/IInterface;
 
     move-result-object v0
 
-    .line 2
     instance-of v1, v0, Lcom/google/firebase/appindexing/internal/u;
 
     if-eqz v1, :cond_1
 
-    .line 3
     check-cast v0, Lcom/google/firebase/appindexing/internal/u;
 
     return-object v0
 
-    .line 4
     :cond_1
     new-instance v0, Lcom/google/firebase/appindexing/internal/v;
 

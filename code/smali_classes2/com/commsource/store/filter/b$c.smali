@@ -43,7 +43,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/store/filter/b$c;->a:Lcom/commsource/store/filter/b;
 
     invoke-static {v0}, Lcom/commsource/store/filter/b;->B(Lcom/commsource/store/filter/b;)Lcom/meitu/template/bean/j;
@@ -52,7 +51,6 @@
 
     if-eqz v0, :cond_6
 
-    .line 2
     invoke-virtual {v0}, Lcom/meitu/template/bean/j;->j()I
 
     move-result v1
@@ -71,7 +69,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_0
     invoke-virtual {v0}, Lcom/meitu/template/bean/j;->j()I
 
@@ -81,7 +78,6 @@
 
     if-ne v0, v1, :cond_6
 
-    .line 4
     iget-object v0, p0, Lcom/commsource/store/filter/b$c;->a:Lcom/commsource/store/filter/b;
 
     invoke-static {v0}, Lcom/commsource/store/filter/b;->B(Lcom/commsource/store/filter/b;)Lcom/meitu/template/bean/j;
@@ -92,7 +88,6 @@
 
     goto/16 :goto_3
 
-    .line 5
     :cond_1
     :goto_0
     iget-object v0, p0, Lcom/commsource/store/filter/b$c;->a:Lcom/commsource/store/filter/b;
@@ -105,7 +100,6 @@
 
     invoke-virtual {v0, v1}, Lcom/commsource/store/filter/FilterStoreViewModel;->I(I)V
 
-    .line 6
     iget-object v0, p0, Lcom/commsource/store/filter/b$c;->a:Lcom/commsource/store/filter/b;
 
     invoke-static {v0}, Lcom/commsource/store/filter/b;->B(Lcom/commsource/store/filter/b;)Lcom/meitu/template/bean/j;
@@ -150,7 +144,6 @@
 
     if-ne v0, v3, :cond_6
 
-    .line 7
     iget-object v0, p0, Lcom/commsource/store/filter/b$c;->a:Lcom/commsource/store/filter/b;
 
     invoke-static {v0}, Lcom/commsource/store/filter/b;->B(Lcom/commsource/store/filter/b;)Lcom/meitu/template/bean/j;
@@ -178,7 +171,6 @@
     :cond_3
     move-object v0, v1
 
-    .line 8
     :goto_2
     invoke-static {v0}, Lcom/commsource/camera/f1/f;->b(Lcom/meitu/template/bean/Filter;)Z
 
@@ -186,7 +178,6 @@
 
     if-eqz v3, :cond_5
 
-    .line 9
     iget-object v3, p0, Lcom/commsource/store/filter/b$c;->a:Lcom/commsource/store/filter/b;
 
     invoke-static {v3}, Lcom/commsource/store/filter/b;->A(Lcom/commsource/store/filter/b;)Lcom/commsource/store/filter/FilterStoreViewModel;
@@ -220,7 +211,6 @@
 
     goto :goto_3
 
-    .line 10
     :cond_5
     iget-object v0, p0, Lcom/commsource/store/filter/b$c;->a:Lcom/commsource/store/filter/b;
 
@@ -238,7 +228,6 @@
 
     invoke-virtual {v0, v1}, Landroidx/lifecycle/MutableLiveData;->setValue(Ljava/lang/Object;)V
 
-    .line 11
     :cond_6
     :goto_3
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V

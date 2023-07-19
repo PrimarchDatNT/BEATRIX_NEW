@@ -41,7 +41,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-direct {p0, p1, p2, v0}, Lcom/qiniu/android/dns/a;-><init>(Lcom/qiniu/android/dns/NetworkInfo;[Lcom/qiniu/android/dns/c;Lcom/qiniu/android/dns/d;)V
 
     return-void
@@ -50,10 +49,8 @@
 .method public constructor <init>(Lcom/qiniu/android/dns/NetworkInfo;[Lcom/qiniu/android/dns/c;Lcom/qiniu/android/dns/d;)V
     .locals 2
 
-    .line 2
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 3
     new-instance v0, Lcom/qiniu/android/dns/local/e;
 
     invoke-direct {v0}, Lcom/qiniu/android/dns/local/e;-><init>()V
@@ -62,23 +59,19 @@
 
     const/4 v0, 0x0
 
-    .line 4
     iput-object v0, p0, Lcom/qiniu/android/dns/a;->e:Lcom/qiniu/android/dns/NetworkInfo;
 
     const/4 v1, 0x0
 
-    .line 5
     iput v1, p0, Lcom/qiniu/android/dns/a;->f:I
 
     if-nez p1, :cond_0
 
-    .line 6
     sget-object p1, Lcom/qiniu/android/dns/NetworkInfo;->l:Lcom/qiniu/android/dns/NetworkInfo;
 
     :cond_0
     iput-object p1, p0, Lcom/qiniu/android/dns/a;->e:Lcom/qiniu/android/dns/NetworkInfo;
 
-    .line 7
     invoke-virtual {p2}, [Lcom/qiniu/android/dns/c;->clone()Ljava/lang/Object;
 
     move-result-object p1
@@ -87,7 +80,6 @@
 
     iput-object p1, p0, Lcom/qiniu/android/dns/a;->a:[Lcom/qiniu/android/dns/c;
 
-    .line 8
     new-instance p1, Lcom/qiniu/android/dns/util/b;
 
     invoke-direct {p1}, Lcom/qiniu/android/dns/util/b;-><init>()V
@@ -96,7 +88,6 @@
 
     if-nez p3, :cond_1
 
-    .line 9
     new-instance p3, Lcom/qiniu/android/dns/a$b;
 
     invoke-direct {p3, v0}, Lcom/qiniu/android/dns/a$b;-><init>(Lcom/qiniu/android/dns/a$a;)V
@@ -110,18 +101,15 @@
 .method private a()V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/qiniu/android/dns/a;->b:Lcom/qiniu/android/dns/util/b;
 
     monitor-enter v0
 
-    .line 2
     :try_start_0
     iget-object v1, p0, Lcom/qiniu/android/dns/a;->b:Lcom/qiniu/android/dns/util/b;
 
     invoke-virtual {v1}, Lcom/qiniu/android/dns/util/b;->a()V
 
-    .line 3
     monitor-exit v0
 
     return-void
@@ -144,12 +132,10 @@
         }
     .end annotation
 
-    .line 1
     iget-boolean v0, p1, Lcom/qiniu/android/dns/b;->d:Z
 
     if-eqz v0, :cond_0
 
-    .line 2
     iget-object v0, p0, Lcom/qiniu/android/dns/a;->c:Lcom/qiniu/android/dns/local/e;
 
     iget-object v1, p0, Lcom/qiniu/android/dns/a;->e:Lcom/qiniu/android/dns/NetworkInfo;
@@ -160,20 +146,17 @@
 
     if-eqz v0, :cond_0
 
-    .line 3
     array-length v1, v0
 
     if-eqz v1, :cond_0
 
     return-object v0
 
-    .line 4
     :cond_0
     iget-object v0, p0, Lcom/qiniu/android/dns/a;->b:Lcom/qiniu/android/dns/util/b;
 
     monitor-enter v0
 
-    .line 5
     :try_start_0
     iget-object v1, p0, Lcom/qiniu/android/dns/a;->e:Lcom/qiniu/android/dns/NetworkInfo;
 
@@ -195,23 +178,19 @@
 
     if-eqz v1, :cond_2
 
-    .line 6
     iget-object v1, p0, Lcom/qiniu/android/dns/a;->b:Lcom/qiniu/android/dns/util/b;
 
     invoke-virtual {v1}, Lcom/qiniu/android/dns/util/b;->a()V
 
-    .line 7
     iget-object v1, p0, Lcom/qiniu/android/dns/a;->a:[Lcom/qiniu/android/dns/c;
 
     monitor-enter v1
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_3
 
-    .line 8
     :try_start_1
     iput v3, p0, Lcom/qiniu/android/dns/a;->f:I
 
-    .line 9
     monitor-exit v1
 
     :cond_1
@@ -229,7 +208,6 @@
     :try_start_2
     throw p1
 
-    .line 10
     :cond_2
     iget-object v1, p0, Lcom/qiniu/android/dns/a;->b:Lcom/qiniu/android/dns/util/b;
 
@@ -243,12 +221,10 @@
 
     if-eqz v1, :cond_3
 
-    .line 11
     array-length v4, v1
 
     if-eqz v4, :cond_3
 
-    .line 12
     aget-object v4, v1, v3
 
     invoke-virtual {v4}, Lcom/qiniu/android/dns/g;->c()Z
@@ -257,7 +233,6 @@
 
     if-nez v4, :cond_1
 
-    .line 13
     invoke-static {v1}, Lcom/qiniu/android/dns/a;->i([Lcom/qiniu/android/dns/g;)[Ljava/lang/String;
 
     move-result-object p1
@@ -266,19 +241,16 @@
 
     return-object p1
 
-    .line 14
     :cond_3
     :goto_0
     monitor-exit v0
     :try_end_2
     .catchall {:try_start_2 .. :try_end_2} :catchall_3
 
-    .line 15
     iget v0, p0, Lcom/qiniu/android/dns/a;->f:I
 
     const/4 v4, 0x0
 
-    .line 16
     :goto_1
     iget-object v5, p0, Lcom/qiniu/android/dns/a;->a:[Lcom/qiniu/android/dns/c;
 
@@ -288,20 +260,16 @@
 
     add-int v6, v0, v4
 
-    .line 17
     array-length v5, v5
 
     rem-int/2addr v6, v5
 
-    .line 18
     iget-object v5, p0, Lcom/qiniu/android/dns/a;->e:Lcom/qiniu/android/dns/NetworkInfo;
 
-    .line 19
     invoke-static {}, Lcom/qiniu/android/dns/e;->a()Ljava/lang/String;
 
     move-result-object v7
 
-    .line 20
     :try_start_3
     iget-object v8, p0, Lcom/qiniu/android/dns/a;->a:[Lcom/qiniu/android/dns/c;
 
@@ -321,16 +289,13 @@
     :catch_0
     move-exception v2
 
-    .line 21
     invoke-virtual {v2}, Ljava/io/IOException;->printStackTrace()V
 
-    .line 22
     :goto_2
     invoke-static {}, Lcom/qiniu/android/dns/e;->a()Ljava/lang/String;
 
     move-result-object v6
 
-    .line 23
     iget-object v8, p0, Lcom/qiniu/android/dns/a;->e:Lcom/qiniu/android/dns/NetworkInfo;
 
     if-ne v8, v5, :cond_6
@@ -348,25 +313,21 @@
 
     if-eqz v5, :cond_6
 
-    .line 24
     iget-object v5, p0, Lcom/qiniu/android/dns/a;->a:[Lcom/qiniu/android/dns/c;
 
     monitor-enter v5
 
-    .line 25
     :try_start_4
     iget v6, p0, Lcom/qiniu/android/dns/a;->f:I
 
     if-ne v6, v0, :cond_5
 
-    .line 26
     iget v6, p0, Lcom/qiniu/android/dns/a;->f:I
 
     add-int/lit8 v6, v6, 0x1
 
     iput v6, p0, Lcom/qiniu/android/dns/a;->f:I
 
-    .line 27
     iget v6, p0, Lcom/qiniu/android/dns/a;->f:I
 
     iget-object v7, p0, Lcom/qiniu/android/dns/a;->a:[Lcom/qiniu/android/dns/c;
@@ -375,10 +336,8 @@
 
     if-ne v6, v7, :cond_5
 
-    .line 28
     iput v3, p0, Lcom/qiniu/android/dns/a;->f:I
 
-    .line 29
     :cond_5
     monitor-exit v5
 
@@ -402,30 +361,25 @@
     :cond_6
     if-eqz v1, :cond_9
 
-    .line 30
     array-length v0, v1
 
     if-nez v0, :cond_7
 
     goto :goto_4
 
-    .line 31
     :cond_7
     invoke-static {v1}, Lcom/qiniu/android/dns/a;->j([Lcom/qiniu/android/dns/g;)[Lcom/qiniu/android/dns/g;
 
     move-result-object v0
 
-    .line 32
     array-length v1, v0
 
     if-eqz v1, :cond_8
 
-    .line 33
     iget-object v1, p0, Lcom/qiniu/android/dns/a;->b:Lcom/qiniu/android/dns/util/b;
 
     monitor-enter v1
 
-    .line 34
     :try_start_5
     iget-object v2, p0, Lcom/qiniu/android/dns/a;->b:Lcom/qiniu/android/dns/util/b;
 
@@ -433,12 +387,10 @@
 
     invoke-virtual {v2, p1, v0}, Lcom/qiniu/android/dns/util/b;->d(Ljava/lang/Object;Ljava/lang/Object;)Lcom/qiniu/android/dns/util/b;
 
-    .line 35
     monitor-exit v1
     :try_end_5
     .catchall {:try_start_5 .. :try_end_5} :catchall_2
 
-    .line 36
     invoke-static {v0}, Lcom/qiniu/android/dns/a;->i([Lcom/qiniu/android/dns/g;)[Ljava/lang/String;
 
     move-result-object p1
@@ -448,7 +400,6 @@
     :catchall_2
     move-exception p1
 
-    .line 37
     :try_start_6
     monitor-exit v1
     :try_end_6
@@ -456,7 +407,6 @@
 
     throw p1
 
-    .line 38
     :cond_8
     new-instance p1, Ljava/net/UnknownHostException;
 
@@ -466,14 +416,12 @@
 
     throw p1
 
-    .line 39
     :cond_9
     :goto_4
     iget-boolean v0, p1, Lcom/qiniu/android/dns/b;->d:Z
 
     if-nez v0, :cond_a
 
-    .line 40
     iget-object v0, p0, Lcom/qiniu/android/dns/a;->c:Lcom/qiniu/android/dns/local/e;
 
     iget-object v1, p0, Lcom/qiniu/android/dns/a;->e:Lcom/qiniu/android/dns/NetworkInfo;
@@ -484,7 +432,6 @@
 
     if-eqz v0, :cond_a
 
-    .line 41
     array-length v1, v0
 
     if-eqz v1, :cond_a
@@ -494,10 +441,8 @@
     :cond_a
     if-eqz v2, :cond_b
 
-    .line 42
     throw v2
 
-    .line 43
     :cond_b
     new-instance v0, Ljava/net/UnknownHostException;
 
@@ -510,7 +455,6 @@
     :catchall_3
     move-exception p1
 
-    .line 44
     :try_start_7
     monitor-exit v0
     :try_end_7
@@ -526,14 +470,12 @@
 
     if-eqz p0, :cond_3
 
-    .line 1
     array-length v1, p0
 
     if-nez v1, :cond_0
 
     goto :goto_1
 
-    .line 2
     :cond_0
     new-instance v1, Ljava/util/ArrayList;
 
@@ -541,7 +483,6 @@
 
     invoke-direct {v1, v2}, Ljava/util/ArrayList;-><init>(I)V
 
-    .line 3
     array-length v2, p0
 
     const/4 v3, 0x0
@@ -551,7 +492,6 @@
 
     aget-object v4, p0, v3
 
-    .line 4
     iget-object v4, v4, Lcom/qiniu/android/dns/g;->a:Ljava/lang/String;
 
     invoke-virtual {v1, v4}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
@@ -560,7 +500,6 @@
 
     goto :goto_0
 
-    .line 5
     :cond_1
     invoke-virtual {v1}, Ljava/util/ArrayList;->size()I
 
@@ -570,7 +509,6 @@
 
     return-object v0
 
-    .line 6
     :cond_2
     invoke-virtual {v1}, Ljava/util/ArrayList;->size()I
 
@@ -594,14 +532,12 @@
 .method private static j([Lcom/qiniu/android/dns/g;)[Lcom/qiniu/android/dns/g;
     .locals 6
 
-    .line 1
     new-instance v0, Ljava/util/ArrayList;
 
     array-length v1, p0
 
     invoke-direct {v0, v1}, Ljava/util/ArrayList;-><init>(I)V
 
-    .line 2
     array-length v1, p0
 
     const/4 v2, 0x0
@@ -613,14 +549,12 @@
 
     if-eqz v3, :cond_0
 
-    .line 3
     iget v4, v3, Lcom/qiniu/android/dns/g;->b:I
 
     const/4 v5, 0x1
 
     if-ne v4, v5, :cond_0
 
-    .line 4
     invoke-virtual {v0, v3}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
     :cond_0
@@ -628,7 +562,6 @@
 
     goto :goto_0
 
-    .line 5
     :cond_1
     invoke-virtual {v0}, Ljava/util/ArrayList;->size()I
 
@@ -652,7 +585,6 @@
 
     if-eqz p0, :cond_5
 
-    .line 1
     invoke-virtual {p0}, Ljava/lang/String;->length()I
 
     move-result v1
@@ -674,7 +606,6 @@
     :cond_0
     const-string v1, "-"
 
-    .line 2
     invoke-virtual {p0, v1}, Ljava/lang/String;->contains(Ljava/lang/CharSequence;)Z
 
     move-result v1
@@ -686,7 +617,6 @@
     :cond_1
     const/16 v1, 0x2e
 
-    .line 3
     :try_start_0
     invoke-virtual {p0, v1}, Ljava/lang/String;->indexOf(I)I
 
@@ -698,7 +628,6 @@
 
     if-eq v2, v3, :cond_2
 
-    .line 4
     invoke-virtual {p0, v0, v2}, Ljava/lang/String;->substring(II)Ljava/lang/String;
 
     move-result-object v5
@@ -716,14 +645,12 @@
 
     add-int/2addr v2, v5
 
-    .line 5
     invoke-virtual {p0, v1, v2}, Ljava/lang/String;->indexOf(II)I
 
     move-result v6
 
     if-eq v6, v3, :cond_3
 
-    .line 6
     invoke-virtual {p0, v2, v6}, Ljava/lang/String;->substring(II)Ljava/lang/String;
 
     move-result-object v2
@@ -739,14 +666,12 @@
     :cond_3
     add-int/2addr v6, v5
 
-    .line 7
     invoke-virtual {p0, v1, v6}, Ljava/lang/String;->indexOf(II)I
 
     move-result v2
 
     if-eq v2, v3, :cond_4
 
-    .line 8
     invoke-virtual {p0, v6, v2}, Ljava/lang/String;->substring(II)Ljava/lang/String;
 
     move-result-object v3
@@ -759,7 +684,6 @@
 
     add-int/2addr v2, v5
 
-    .line 9
     invoke-virtual {p0}, Ljava/lang/String;->length()I
 
     move-result v3
@@ -776,7 +700,6 @@
 
     if-le v2, v4, :cond_4
 
-    .line 10
     invoke-virtual {p0}, Ljava/lang/String;->length()I
 
     move-result v2
@@ -805,29 +728,24 @@
 .method public b(Lcom/qiniu/android/dns/NetworkInfo;)V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Lcom/qiniu/android/dns/a;->a()V
 
     if-nez p1, :cond_0
 
-    .line 2
     sget-object p1, Lcom/qiniu/android/dns/NetworkInfo;->l:Lcom/qiniu/android/dns/NetworkInfo;
 
     :cond_0
     iput-object p1, p0, Lcom/qiniu/android/dns/a;->e:Lcom/qiniu/android/dns/NetworkInfo;
 
-    .line 3
     iget-object p1, p0, Lcom/qiniu/android/dns/a;->a:[Lcom/qiniu/android/dns/c;
 
     monitor-enter p1
 
     const/4 v0, 0x0
 
-    .line 4
     :try_start_0
     iput v0, p0, Lcom/qiniu/android/dns/a;->f:I
 
-    .line 5
     monitor-exit p1
 
     return-void
@@ -845,7 +763,6 @@
 .method public c(Ljava/lang/String;Ljava/lang/String;)Lcom/qiniu/android/dns/a;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/qiniu/android/dns/a;->c:Lcom/qiniu/android/dns/local/e;
 
     invoke-virtual {v0, p1, p2}, Lcom/qiniu/android/dns/local/e;->c(Ljava/lang/String;Ljava/lang/String;)Lcom/qiniu/android/dns/local/e;
@@ -856,7 +773,6 @@
 .method public d(Ljava/lang/String;Ljava/lang/String;I)Lcom/qiniu/android/dns/a;
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/qiniu/android/dns/a;->c:Lcom/qiniu/android/dns/local/e;
 
     new-instance v1, Lcom/qiniu/android/dns/local/e$a;
@@ -878,7 +794,6 @@
 
     if-eqz p1, :cond_4
 
-    .line 1
     iget-object v0, p1, Lcom/qiniu/android/dns/b;->a:Ljava/lang/String;
 
     if-eqz v0, :cond_3
@@ -893,7 +808,6 @@
 
     if-eqz v0, :cond_3
 
-    .line 2
     iget-object v0, p1, Lcom/qiniu/android/dns/b;->a:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/qiniu/android/dns/a;->k(Ljava/lang/String;)Z
@@ -908,14 +822,12 @@
 
     const/4 v1, 0x0
 
-    .line 3
     iget-object p1, p1, Lcom/qiniu/android/dns/b;->a:Ljava/lang/String;
 
     aput-object p1, v0, v1
 
     return-object v0
 
-    .line 4
     :cond_0
     invoke-direct {p0, p1}, Lcom/qiniu/android/dns/a;->h(Lcom/qiniu/android/dns/b;)[Ljava/lang/String;
 
@@ -923,14 +835,12 @@
 
     if-eqz p1, :cond_2
 
-    .line 5
     array-length v0, p1
 
     if-gt v0, v1, :cond_1
 
     goto :goto_0
 
-    .line 6
     :cond_1
     iget-object v0, p0, Lcom/qiniu/android/dns/a;->d:Lcom/qiniu/android/dns/d;
 
@@ -942,7 +852,6 @@
     :goto_0
     return-object p1
 
-    .line 7
     :cond_3
     new-instance v0, Ljava/io/IOException;
 
@@ -966,7 +875,6 @@
 
     throw v0
 
-    .line 8
     :cond_4
     new-instance p1, Ljava/io/IOException;
 
@@ -985,7 +893,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/qiniu/android/dns/b;
 
     invoke-direct {v0, p1}, Lcom/qiniu/android/dns/b;-><init>(Ljava/lang/String;)V
@@ -1005,25 +912,21 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0, p1}, Lcom/qiniu/android/dns/a;->e(Lcom/qiniu/android/dns/b;)[Ljava/lang/String;
 
     move-result-object p1
 
-    .line 2
     array-length v0, p1
 
     new-array v0, v0, [Ljava/net/InetAddress;
 
     const/4 v1, 0x0
 
-    .line 3
     :goto_0
     array-length v2, p1
 
     if-ge v1, v2, :cond_0
 
-    .line 4
     aget-object v2, p1, v1
 
     invoke-static {v2}, Ljava/net/InetAddress;->getByName(Ljava/lang/String;)Ljava/net/InetAddress;

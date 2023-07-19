@@ -31,12 +31,10 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/studio/effect/t;-><init>()V
 
     const/4 v0, 0x1
 
-    .line 2
     iput-boolean v0, p0, Lcom/commsource/studio/effect/k;->f:Z
 
     return-void
@@ -49,7 +47,6 @@
     .annotation build Landroidx/annotation/WorkerThread;
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/studio/effect/t;->e()Ljava/lang/String;
 
     move-result-object v0
@@ -60,7 +57,6 @@
 
     if-nez v0, :cond_0
 
-    .line 2
     invoke-virtual {p0}, Lcom/commsource/studio/effect/t;->e()Ljava/lang/String;
 
     move-result-object v0
@@ -79,7 +75,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/studio/effect/k;->e:Ljava/lang/ref/WeakReference;
 
     if-eqz v0, :cond_0
@@ -100,7 +95,6 @@
 
     goto :goto_1
 
-    .line 2
     :cond_1
     invoke-virtual {p0}, Lcom/commsource/studio/effect/t;->e()Ljava/lang/String;
 
@@ -117,7 +111,6 @@
 .method public final k()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lcom/commsource/studio/effect/k;->h:I
 
     return v0
@@ -137,7 +130,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/studio/effect/k;->e:Ljava/lang/ref/WeakReference;
 
     return-object v0
@@ -146,7 +138,6 @@
 .method public final m()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lcom/commsource/studio/effect/k;->g:I
 
     return v0
@@ -155,7 +146,6 @@
 .method public final n()Z
     .locals 1
 
-    .line 1
     iget-boolean v0, p0, Lcom/commsource/studio/effect/k;->f:Z
 
     return v0
@@ -164,7 +154,6 @@
 .method public final o(I)V
     .locals 0
 
-    .line 1
     iput p1, p0, Lcom/commsource/studio/effect/k;->h:I
 
     return-void
@@ -185,7 +174,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/effect/k;->e:Ljava/lang/ref/WeakReference;
 
     return-void
@@ -194,7 +182,6 @@
 .method public final q(I)V
     .locals 0
 
-    .line 1
     iput p1, p0, Lcom/commsource/studio/effect/k;->g:I
 
     return-void
@@ -203,7 +190,6 @@
 .method public final r(Z)V
     .locals 0
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/studio/effect/k;->f:Z
 
     return-void

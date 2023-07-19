@@ -33,7 +33,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/meitu/library/gid/base/Switcher;
 
     const-string v2, "NETWORK"
@@ -50,7 +49,6 @@
 
     aput-object v1, v2, v3
 
-    .line 2
     sput-object v2, Lcom/meitu/library/gid/base/Switcher;->$VALUES:[Lcom/meitu/library/gid/base/Switcher;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -68,13 +66,10 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 2
     iput-object p3, p0, Lcom/meitu/library/gid/base/Switcher;->mName:Ljava/lang/String;
 
-    .line 3
     iput-boolean p4, p0, Lcom/meitu/library/gid/base/Switcher;->cloudControlOnly:Z
 
     return-void
@@ -87,7 +82,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     const-class v1, Lcom/meitu/library/gid/base/Switcher;
 
     invoke-static {v1, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -108,7 +102,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/meitu/library/gid/base/Switcher;->$VALUES:[Lcom/meitu/library/gid/base/Switcher;
 
     invoke-virtual {v1}, [Lcom/meitu/library/gid/base/Switcher;->clone()Ljava/lang/Object;
@@ -131,7 +124,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/library/gid/base/Switcher;->mName:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -146,7 +138,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/meitu/library/gid/base/Switcher;->cloudControlOnly:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

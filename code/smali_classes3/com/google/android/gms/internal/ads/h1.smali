@@ -73,7 +73,6 @@
 
     const-wide/16 v1, 0x1
 
-    .line 1
     invoke-static {v0, v1, v2}, Lcom/google/android/gms/internal/ads/y0;->c(Ljava/lang/String;J)Lcom/google/android/gms/internal/ads/y0;
 
     move-result-object v0
@@ -84,7 +83,6 @@
 
     const/4 v3, 0x1
 
-    .line 2
     invoke-static {v0, v3}, Lcom/google/android/gms/internal/ads/y0;->d(Ljava/lang/String;Z)Lcom/google/android/gms/internal/ads/y0;
 
     move-result-object v0
@@ -95,7 +93,6 @@
 
     const-wide/16 v3, 0xa
 
-    .line 3
     invoke-static {v0, v3, v4}, Lcom/google/android/gms/internal/ads/y0;->c(Ljava/lang/String;J)Lcom/google/android/gms/internal/ads/y0;
 
     move-result-object v0
@@ -104,7 +101,6 @@
 
     const-string v0, "gads:content_length_weight"
 
-    .line 4
     invoke-static {v0, v1, v2}, Lcom/google/android/gms/internal/ads/y0;->c(Ljava/lang/String;J)Lcom/google/android/gms/internal/ads/y0;
 
     move-result-object v0
@@ -115,7 +111,6 @@
 
     const-wide/16 v1, 0xb
 
-    .line 5
     invoke-static {v0, v1, v2}, Lcom/google/android/gms/internal/ads/y0;->c(Ljava/lang/String;J)Lcom/google/android/gms/internal/ads/y0;
 
     move-result-object v0
@@ -124,7 +119,6 @@
 
     const-string v0, "gads:sleep_sec"
 
-    .line 6
     invoke-static {v0, v3, v4}, Lcom/google/android/gms/internal/ads/y0;->c(Ljava/lang/String;J)Lcom/google/android/gms/internal/ads/y0;
 
     move-result-object v0

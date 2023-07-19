@@ -7,7 +7,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -22,13 +21,11 @@
 
     return-object v0
 
-    .line 1
     :cond_0
     new-instance v1, Ljava/io/File;
 
     invoke-direct {v1, p0}, Ljava/io/File;-><init>(Ljava/lang/String;)V
 
-    .line 2
     invoke-virtual {v1}, Ljava/io/File;->exists()Z
 
     move-result p0
@@ -41,7 +38,6 @@
 
     if-nez p0, :cond_2
 
-    .line 3
     :cond_1
     invoke-virtual {v1}, Ljava/io/File;->mkdirs()Z
 
@@ -71,7 +67,6 @@
 
     return p0
 
-    .line 1
     :cond_0
     invoke-virtual {p0}, Ljava/io/File;->length()J
 

@@ -16,12 +16,10 @@
 .method public constructor <init>(Lcom/google/android/gms/internal/ads/td2;I)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/android/gms/internal/ads/yd2;->b:Lcom/google/android/gms/internal/ads/td2;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput p2, p0, Lcom/google/android/gms/internal/ads/yd2;->a:I
 
     return-void
@@ -30,7 +28,6 @@
 .method static synthetic a(Lcom/google/android/gms/internal/ads/yd2;)I
     .locals 0
 
-    .line 1
     iget p0, p0, Lcom/google/android/gms/internal/ads/yd2;->a:I
 
     return p0
@@ -41,7 +38,6 @@
 .method public final isReady()Z
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/yd2;->b:Lcom/google/android/gms/internal/ads/td2;
 
     iget v1, p0, Lcom/google/android/gms/internal/ads/yd2;->a:I
@@ -61,7 +57,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/yd2;->b:Lcom/google/android/gms/internal/ads/td2;
 
     invoke-virtual {v0}, Lcom/google/android/gms/internal/ads/td2;->F()V
@@ -72,7 +67,6 @@
 .method public final u(Lcom/google/android/gms/internal/ads/h92;Lcom/google/android/gms/internal/ads/wa2;Z)I
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/yd2;->b:Lcom/google/android/gms/internal/ads/td2;
 
     iget v1, p0, Lcom/google/android/gms/internal/ads/yd2;->a:I
@@ -87,7 +81,6 @@
 .method public final v(J)V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/yd2;->b:Lcom/google/android/gms/internal/ads/td2;
 
     iget v1, p0, Lcom/google/android/gms/internal/ads/yd2;->a:I

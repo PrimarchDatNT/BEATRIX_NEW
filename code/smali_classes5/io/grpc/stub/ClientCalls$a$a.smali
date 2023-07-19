@@ -31,14 +31,12 @@
 .method constructor <init>(Lio/grpc/stub/ClientCalls$a;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lio/grpc/stub/ClientCalls$a$a;->b:Lio/grpc/stub/ClientCalls$a;
 
     invoke-direct {p0}, Lio/grpc/h$a;-><init>()V
 
     const/4 p1, 0x0
 
-    .line 2
     iput-boolean p1, p0, Lio/grpc/stub/ClientCalls$a$a;->a:Z
 
     return-void
@@ -49,7 +47,6 @@
 .method public a(Lio/grpc/Status;Lio/grpc/y0;)V
     .locals 3
 
-    .line 1
     iget-boolean v0, p0, Lio/grpc/stub/ClientCalls$a$a;->a:Z
 
     const/4 v1, 0x1
@@ -60,14 +57,12 @@
 
     invoke-static {v0, v2}, Lcom/google/common/base/t;->h0(ZLjava/lang/Object;)V
 
-    .line 2
     invoke-virtual {p1}, Lio/grpc/Status;->r()Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
-    .line 3
     iget-object p1, p0, Lio/grpc/stub/ClientCalls$a$a;->b:Lio/grpc/stub/ClientCalls$a;
 
     invoke-static {p1}, Lio/grpc/stub/ClientCalls$a;->a(Lio/grpc/stub/ClientCalls$a;)Ljava/util/concurrent/BlockingQueue;
@@ -80,7 +75,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_0
     iget-object v0, p0, Lio/grpc/stub/ClientCalls$a$a;->b:Lio/grpc/stub/ClientCalls$a;
 
@@ -94,7 +88,6 @@
 
     invoke-interface {v0, p1}, Ljava/util/concurrent/BlockingQueue;->add(Ljava/lang/Object;)Z
 
-    .line 5
     :goto_0
     iput-boolean v1, p0, Lio/grpc/stub/ClientCalls$a$a;->a:Z
 
@@ -115,7 +108,6 @@
         }
     .end annotation
 
-    .line 1
     iget-boolean v0, p0, Lio/grpc/stub/ClientCalls$a$a;->a:Z
 
     xor-int/lit8 v0, v0, 0x1
@@ -124,7 +116,6 @@
 
     invoke-static {v0, v1}, Lcom/google/common/base/t;->h0(ZLjava/lang/Object;)V
 
-    .line 2
     iget-object v0, p0, Lio/grpc/stub/ClientCalls$a$a;->b:Lio/grpc/stub/ClientCalls$a;
 
     invoke-static {v0}, Lio/grpc/stub/ClientCalls$a;->a(Lio/grpc/stub/ClientCalls$a;)Ljava/util/concurrent/BlockingQueue;

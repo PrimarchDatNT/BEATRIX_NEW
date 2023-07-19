@@ -18,25 +18,20 @@
 .method public constructor <init>(Ljava/util/logging/Logger;Ljava/util/logging/Level;I)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/io/ByteArrayOutputStream;-><init>()V
 
-    .line 2
     invoke-static {p1}, Lcom/google/android/gms/internal/firebase_remote_config/s2;->a(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
 
-    .line 3
     check-cast p1, Ljava/util/logging/Logger;
 
     iput-object p1, p0, Lcom/google/android/gms/internal/firebase_remote_config/z0;->f:Ljava/util/logging/Logger;
 
-    .line 4
     invoke-static {p2}, Lcom/google/android/gms/internal/firebase_remote_config/s2;->a(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
 
-    .line 5
     check-cast p1, Ljava/util/logging/Level;
 
     iput-object p1, p0, Lcom/google/android/gms/internal/firebase_remote_config/z0;->d:Ljava/util/logging/Level;
@@ -53,12 +48,10 @@
     :goto_0
     if-eqz p1, :cond_1
 
-    .line 6
     iput p3, p0, Lcom/google/android/gms/internal/firebase_remote_config/z0;->b:I
 
     return-void
 
-    .line 7
     :cond_1
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -76,12 +69,10 @@
 
     const-string p1, "1 byte"
 
-    .line 1
     invoke-virtual {p0, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     return-void
 
-    .line 2
     :cond_0
     invoke-static {}, Ljava/text/NumberFormat;->getInstance()Ljava/text/NumberFormat;
 
@@ -114,30 +105,25 @@
 
     monitor-enter p0
 
-    .line 1
     :try_start_0
     iget-boolean v0, p0, Lcom/google/android/gms/internal/firebase_remote_config/z0;->c:Z
 
     if-nez v0, :cond_2
 
-    .line 2
     iget v0, p0, Lcom/google/android/gms/internal/firebase_remote_config/z0;->a:I
 
     if-eqz v0, :cond_1
 
-    .line 3
     new-instance v0, Ljava/lang/StringBuilder;
 
     const-string v1, "Total: "
 
     invoke-direct {v0, v1}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
-    .line 4
     iget v1, p0, Lcom/google/android/gms/internal/firebase_remote_config/z0;->a:I
 
     invoke-static {v0, v1}, Lcom/google/android/gms/internal/firebase_remote_config/z0;->a(Ljava/lang/StringBuilder;I)V
 
-    .line 5
     iget v1, p0, Ljava/io/ByteArrayOutputStream;->count:I
 
     if-eqz v1, :cond_0
@@ -148,20 +134,16 @@
 
     const-string v1, " (logging first "
 
-    .line 6
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 7
     iget v1, p0, Ljava/io/ByteArrayOutputStream;->count:I
 
     invoke-static {v0, v1}, Lcom/google/android/gms/internal/firebase_remote_config/z0;->a(Ljava/lang/StringBuilder;I)V
 
     const-string v1, ")"
 
-    .line 8
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 9
     :cond_0
     iget-object v1, p0, Lcom/google/android/gms/internal/firebase_remote_config/z0;->f:Ljava/util/logging/Logger;
 
@@ -177,12 +159,10 @@
 
     invoke-virtual {v1, v2, v3, v4, v0}, Ljava/util/logging/Logger;->logp(Ljava/util/logging/Level;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 10
     iget v0, p0, Ljava/io/ByteArrayOutputStream;->count:I
 
     if-eqz v0, :cond_1
 
-    .line 11
     iget-object v0, p0, Lcom/google/android/gms/internal/firebase_remote_config/z0;->f:Ljava/util/logging/Logger;
 
     iget-object v1, p0, Lcom/google/android/gms/internal/firebase_remote_config/z0;->d:Ljava/util/logging/Level;
@@ -193,7 +173,6 @@
 
     const-string v4, "UTF-8"
 
-    .line 12
     invoke-virtual {p0, v4}, Ljava/io/ByteArrayOutputStream;->toString(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v4
@@ -206,18 +185,15 @@
 
     move-result-object v4
 
-    .line 13
     invoke-virtual {v0, v1, v2, v3, v4}, Ljava/util/logging/Logger;->logp(Ljava/util/logging/Level;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     :cond_1
     const/4 v0, 0x1
 
-    .line 14
     iput-boolean v0, p0, Lcom/google/android/gms/internal/firebase_remote_config/z0;->c:Z
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 15
     :cond_2
     monitor-exit p0
 
@@ -236,7 +212,6 @@
 
     monitor-enter p0
 
-    .line 1
     :try_start_0
     iget-boolean v0, p0, Lcom/google/android/gms/internal/firebase_remote_config/z0;->c:Z
 
@@ -244,32 +219,27 @@
 
     if-eqz v0, :cond_1
 
-    .line 2
     iget v0, p0, Lcom/google/android/gms/internal/firebase_remote_config/z0;->a:I
 
     add-int/lit8 v0, v0, 0x1
 
     iput v0, p0, Lcom/google/android/gms/internal/firebase_remote_config/z0;->a:I
 
-    .line 3
     iget v0, p0, Ljava/io/ByteArrayOutputStream;->count:I
 
     iget v1, p0, Lcom/google/android/gms/internal/firebase_remote_config/z0;->b:I
 
     if-ge v0, v1, :cond_0
 
-    .line 4
     invoke-super {p0, p1}, Ljava/io/ByteArrayOutputStream;->write(I)V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 5
     :cond_0
     monitor-exit p0
 
     return-void
 
-    .line 6
     :cond_1
     :try_start_1
     new-instance p1, Ljava/lang/IllegalArgumentException;
@@ -293,7 +263,6 @@
 
     monitor-enter p0
 
-    .line 7
     :try_start_0
     iget-boolean v0, p0, Lcom/google/android/gms/internal/firebase_remote_config/z0;->c:Z
 
@@ -301,14 +270,12 @@
 
     if-eqz v0, :cond_2
 
-    .line 8
     iget v0, p0, Lcom/google/android/gms/internal/firebase_remote_config/z0;->a:I
 
     add-int/2addr v0, p3
 
     iput v0, p0, Lcom/google/android/gms/internal/firebase_remote_config/z0;->a:I
 
-    .line 9
     iget v0, p0, Ljava/io/ByteArrayOutputStream;->count:I
 
     iget v1, p0, Lcom/google/android/gms/internal/firebase_remote_config/z0;->b:I
@@ -323,19 +290,16 @@
 
     add-int/2addr p3, v1
 
-    .line 10
     :cond_0
     invoke-super {p0, p1, p2, p3}, Ljava/io/ByteArrayOutputStream;->write([BII)V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 11
     :cond_1
     monitor-exit p0
 
     return-void
 
-    .line 12
     :cond_2
     :try_start_1
     new-instance p1, Ljava/lang/IllegalArgumentException;

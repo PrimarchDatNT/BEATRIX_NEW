@@ -43,10 +43,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/puzzle/StitchComponent$StitchContainer$a;->a:Lcom/commsource/puzzle/StitchComponent$StitchContainer;
 
-    .line 2
     invoke-virtual {v1}, Landroid/view/ViewGroup;->getChildCount()I
 
     move-result v2
@@ -58,7 +56,6 @@
     :goto_0
     if-ge v4, v2, :cond_0
 
-    .line 3
     invoke-virtual {v1, v4}, Landroid/view/ViewGroup;->getChildAt(I)Landroid/view/View;
 
     move-result-object v5
@@ -67,7 +64,6 @@
 
     invoke-static {v5, v6}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 4
     iget-object v6, p0, Lcom/commsource/puzzle/StitchComponent$StitchContainer$a;->a:Lcom/commsource/puzzle/StitchComponent$StitchContainer;
 
     iget-object v6, v6, Lcom/commsource/puzzle/StitchComponent$StitchContainer;->M:Lcom/commsource/puzzle/StitchComponent;
@@ -80,42 +76,36 @@
 
     move-result-object v6
 
-    .line 5
     invoke-virtual {v5}, Landroid/view/View;->getLeft()I
 
     move-result v7
 
     int-to-float v7, v7
 
-    .line 6
     invoke-virtual {v5}, Landroid/view/View;->getTop()I
 
     move-result v8
 
     int-to-float v8, v8
 
-    .line 7
     invoke-virtual {v5}, Landroid/view/View;->getRight()I
 
     move-result v9
 
     int-to-float v9, v9
 
-    .line 8
     invoke-virtual {v5}, Landroid/view/View;->getBottom()I
 
     move-result v5
 
     int-to-float v5, v5
 
-    .line 9
     invoke-virtual {v6, v7, v8, v9, v5}, Landroid/graphics/RectF;->set(FFFF)V
 
     add-int/lit8 v4, v4, 0x1
 
     goto :goto_0
 
-    .line 10
     :cond_0
     iget-object v1, p0, Lcom/commsource/puzzle/StitchComponent$StitchContainer$a;->a:Lcom/commsource/puzzle/StitchComponent$StitchContainer;
 
@@ -149,7 +139,6 @@
 
     invoke-virtual {v1, v2, v4, v5, v6}, Landroid/graphics/Rect;->set(IIII)V
 
-    .line 11
     iget-object v1, p0, Lcom/commsource/puzzle/StitchComponent$StitchContainer$a;->a:Lcom/commsource/puzzle/StitchComponent$StitchContainer;
 
     invoke-virtual {v1}, Lcom/commsource/puzzle/StitchComponent$StitchContainer;->x()Z
@@ -162,7 +151,6 @@
 
     if-eqz v1, :cond_1
 
-    .line 12
     iget-object v1, p0, Lcom/commsource/puzzle/StitchComponent$StitchContainer$a;->a:Lcom/commsource/puzzle/StitchComponent$StitchContainer;
 
     invoke-virtual {v1}, Lcom/commsource/puzzle/StitchComponent$StitchContainer;->t()I
@@ -173,7 +161,6 @@
 
     goto :goto_1
 
-    .line 13
     :cond_1
     iget-object v1, p0, Lcom/commsource/puzzle/StitchComponent$StitchContainer$a;->a:Lcom/commsource/puzzle/StitchComponent$StitchContainer;
 
@@ -193,7 +180,6 @@
 
     invoke-static {v1, v5, v3, v4, v2}, Lcom/commsource/puzzle/StitchComponent$StitchContainer;->K(Lcom/commsource/puzzle/StitchComponent$StitchContainer;IZILjava/lang/Object;)V
 
-    .line 14
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

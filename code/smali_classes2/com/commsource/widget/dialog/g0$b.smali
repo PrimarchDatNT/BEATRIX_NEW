@@ -25,7 +25,6 @@
 .method constructor <init>(Lcom/commsource/widget/dialog/g0;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/widget/dialog/g0$b;->a:Lcom/commsource/widget/dialog/g0;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -42,12 +41,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/widget/dialog/g0$b;->a:Lcom/commsource/widget/dialog/g0;
 
     invoke-static {v1}, Lcom/commsource/widget/dialog/g0;->D(Lcom/commsource/widget/dialog/g0;)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/widget/dialog/g0$b;->a:Lcom/commsource/widget/dialog/g0;
 
     invoke-static {v1}, Lcom/commsource/widget/dialog/g0;->A(Lcom/commsource/widget/dialog/g0;)Lcom/commsource/beautyplus/f0/c5;
@@ -60,7 +57,6 @@
 
     invoke-virtual {v1, v2}, Landroid/widget/ImageView;->setVisibility(I)V
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/widget/dialog/g0$b;->a:Lcom/commsource/widget/dialog/g0;
 
     invoke-static {v1}, Lcom/commsource/widget/dialog/g0;->A(Lcom/commsource/widget/dialog/g0;)Lcom/commsource/beautyplus/f0/c5;
@@ -77,7 +73,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/widget/BeautyBlingView;->setOnAnimatorEndListener(Lcom/commsource/widget/BeautyBlingView$b;)V
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/widget/dialog/g0$b;->a:Lcom/commsource/widget/dialog/g0;
 
     invoke-static {v1}, Lcom/commsource/widget/dialog/g0;->A(Lcom/commsource/widget/dialog/g0;)Lcom/commsource/beautyplus/f0/c5;
@@ -88,7 +83,6 @@
 
     invoke-virtual {v1}, Lcom/commsource/widget/BeautyBlingView;->n()V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

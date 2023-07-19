@@ -20,7 +20,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-direct {p0, p1, p2, v0}, Lcom/google/common/reflect/Types$JavaVersion;-><init>(Ljava/lang/String;ILcom/google/common/reflect/Types$a;)V
 
     return-void
@@ -31,7 +30,6 @@
 .method newArrayType(Ljava/lang/reflect/Type;)Ljava/lang/reflect/GenericArrayType;
     .locals 1
 
-    .line 2
     new-instance v0, Lcom/google/common/reflect/Types$GenericArrayTypeImpl;
 
     invoke-direct {v0, p1}, Lcom/google/common/reflect/Types$GenericArrayTypeImpl;-><init>(Ljava/lang/reflect/Type;)V
@@ -42,7 +40,6 @@
 .method bridge synthetic newArrayType(Ljava/lang/reflect/Type;)Ljava/lang/reflect/Type;
     .locals 0
 
-    .line 1
     invoke-virtual {p0, p1}, Lcom/google/common/reflect/Types$JavaVersion$1;->newArrayType(Ljava/lang/reflect/Type;)Ljava/lang/reflect/GenericArrayType;
 
     move-result-object p1
@@ -53,27 +50,22 @@
 .method usedInGenericType(Ljava/lang/reflect/Type;)Ljava/lang/reflect/Type;
     .locals 2
 
-    .line 1
     invoke-static {p1}, Lcom/google/common/base/t;->E(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 2
     instance-of v0, p1, Ljava/lang/Class;
 
     if-eqz v0, :cond_0
 
-    .line 3
     move-object v0, p1
 
     check-cast v0, Ljava/lang/Class;
 
-    .line 4
     invoke-virtual {v0}, Ljava/lang/Class;->isArray()Z
 
     move-result v1
 
     if-eqz v1, :cond_0
 
-    .line 5
     new-instance p1, Lcom/google/common/reflect/Types$GenericArrayTypeImpl;
 
     invoke-virtual {v0}, Ljava/lang/Class;->getComponentType()Ljava/lang/Class;

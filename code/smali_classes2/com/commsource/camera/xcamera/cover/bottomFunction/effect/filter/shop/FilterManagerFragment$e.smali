@@ -71,7 +71,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p2, Lcom/meitu/template/bean/Filter;
 
     invoke-virtual {p0, p1, p2}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/FilterManagerFragment$e;->b(Lcom/commsource/widget/h1/d;Lcom/meitu/template/bean/Filter;)V
@@ -114,7 +113,6 @@
 
     invoke-static {p2, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-virtual {p2}, Lcom/meitu/template/bean/Filter;->getFilterId()I
 
     move-result p2
@@ -123,20 +121,17 @@
 
     if-ne p2, v1, :cond_0
 
-    .line 2
     const-class p2, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/b;
 
     invoke-virtual {p1, p2}, Lcom/commsource/widget/h1/d;->m(Ljava/lang/Class;)V
 
     goto :goto_0
 
-    .line 3
     :cond_0
     const-class p2, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/FilterManagerViewHolder;
 
     invoke-virtual {p1, p2}, Lcom/commsource/widget/h1/d;->m(Ljava/lang/Class;)V
 
-    .line 4
     :goto_0
     invoke-virtual {p1}, Lcom/commsource/widget/h1/d;->e()Ljava/lang/Class;
 
@@ -144,14 +139,12 @@
 
     if-eqz p2, :cond_1
 
-    .line 5
     invoke-virtual {p2}, Ljava/lang/Class;->hashCode()I
 
     move-result p2
 
     invoke-virtual {p1, p2}, Lcom/commsource/widget/h1/d;->j(I)V
 
-    .line 6
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

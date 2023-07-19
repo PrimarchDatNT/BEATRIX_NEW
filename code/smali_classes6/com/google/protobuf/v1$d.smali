@@ -48,14 +48,12 @@
 .method private constructor <init>(Lcom/google/protobuf/v1;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/protobuf/v1$d;->d:Lcom/google/protobuf/v1;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/4 p1, -0x1
 
-    .line 2
     iput p1, p0, Lcom/google/protobuf/v1$d;->a:I
 
     return-void
@@ -64,7 +62,6 @@
 .method synthetic constructor <init>(Lcom/google/protobuf/v1;Lcom/google/protobuf/v1$a;)V
     .locals 0
 
-    .line 3
     invoke-direct {p0, p1}, Lcom/google/protobuf/v1$d;-><init>(Lcom/google/protobuf/v1;)V
 
     return-void
@@ -81,12 +78,10 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/protobuf/v1$d;->c:Ljava/util/Iterator;
 
     if-nez v0, :cond_0
 
-    .line 2
     iget-object v0, p0, Lcom/google/protobuf/v1$d;->d:Lcom/google/protobuf/v1;
 
     invoke-static {v0}, Lcom/google/protobuf/v1;->d(Lcom/google/protobuf/v1;)Ljava/util/Map;
@@ -103,7 +98,6 @@
 
     iput-object v0, p0, Lcom/google/protobuf/v1$d;->c:Ljava/util/Iterator;
 
-    .line 3
     :cond_0
     iget-object v0, p0, Lcom/google/protobuf/v1$d;->c:Ljava/util/Iterator;
 
@@ -124,10 +118,8 @@
 
     const/4 v0, 0x1
 
-    .line 1
     iput-boolean v0, p0, Lcom/google/protobuf/v1$d;->b:Z
 
-    .line 2
     iget v1, p0, Lcom/google/protobuf/v1$d;->a:I
 
     add-int/2addr v1, v0
@@ -146,7 +138,6 @@
 
     if-ge v1, v0, :cond_0
 
-    .line 3
     iget-object v0, p0, Lcom/google/protobuf/v1$d;->d:Lcom/google/protobuf/v1;
 
     invoke-static {v0}, Lcom/google/protobuf/v1;->b(Lcom/google/protobuf/v1;)Ljava/util/List;
@@ -163,7 +154,6 @@
 
     return-object v0
 
-    .line 4
     :cond_0
     invoke-direct {p0}, Lcom/google/protobuf/v1$d;->a()Ljava/util/Iterator;
 
@@ -181,7 +171,6 @@
 .method public hasNext()Z
     .locals 3
 
-    .line 1
     iget v0, p0, Lcom/google/protobuf/v1$d;->a:I
 
     const/4 v1, 0x1
@@ -200,7 +189,6 @@
 
     if-lt v0, v2, :cond_1
 
-    .line 2
     invoke-direct {p0}, Lcom/google/protobuf/v1$d;->a()Ljava/util/Iterator;
 
     move-result-object v0
@@ -224,7 +212,6 @@
 .method public bridge synthetic next()Ljava/lang/Object;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/protobuf/v1$d;->b()Ljava/util/Map$Entry;
 
     move-result-object v0
@@ -235,22 +222,18 @@
 .method public remove()V
     .locals 3
 
-    .line 1
     iget-boolean v0, p0, Lcom/google/protobuf/v1$d;->b:Z
 
     if-eqz v0, :cond_1
 
     const/4 v0, 0x0
 
-    .line 2
     iput-boolean v0, p0, Lcom/google/protobuf/v1$d;->b:Z
 
-    .line 3
     iget-object v0, p0, Lcom/google/protobuf/v1$d;->d:Lcom/google/protobuf/v1;
 
     invoke-static {v0}, Lcom/google/protobuf/v1;->a(Lcom/google/protobuf/v1;)V
 
-    .line 4
     iget v0, p0, Lcom/google/protobuf/v1$d;->a:I
 
     iget-object v1, p0, Lcom/google/protobuf/v1$d;->d:Lcom/google/protobuf/v1;
@@ -265,7 +248,6 @@
 
     if-ge v0, v1, :cond_0
 
-    .line 5
     iget-object v0, p0, Lcom/google/protobuf/v1$d;->d:Lcom/google/protobuf/v1;
 
     iget v1, p0, Lcom/google/protobuf/v1$d;->a:I
@@ -278,7 +260,6 @@
 
     goto :goto_0
 
-    .line 6
     :cond_0
     invoke-direct {p0}, Lcom/google/protobuf/v1$d;->a()Ljava/util/Iterator;
 
@@ -289,7 +270,6 @@
     :goto_0
     return-void
 
-    .line 7
     :cond_1
     new-instance v0, Ljava/lang/IllegalStateException;
 

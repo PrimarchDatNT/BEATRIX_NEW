@@ -32,7 +32,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmTransaction$a;->a:Lcom/commsource/camera/xcamera/cover/confirm/ConfirmTransaction;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -49,7 +48,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmTransaction$a;->a:Lcom/commsource/camera/xcamera/cover/confirm/ConfirmTransaction;
 
     invoke-virtual {v1}, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmTransaction;->F()Lcom/commsource/beautyplus/m0/a;
@@ -58,7 +56,6 @@
 
     invoke-virtual {v1}, Lcom/commsource/beautyplus/m0/a;->g()V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmTransaction$a;->a:Lcom/commsource/camera/xcamera/cover/confirm/ConfirmTransaction;
 
     invoke-virtual {v1}, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmTransaction;->G()Landroid/app/Dialog;
@@ -107,16 +104,13 @@
     :goto_1
     if-eqz v1, :cond_2
 
-    .line 3
     invoke-virtual {v1}, Landroid/app/Dialog;->dismiss()V
 
     :cond_2
     sget v1, Lcom/res/provider/ResSTRING;->alert_auto_reply:I
 
-    .line 4
     invoke-static {v1}, Lf/k/c/c/f;->r(I)V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -129,10 +123,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/commsource/util/w0;->n()V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -151,7 +143,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     new-instance v1, Lcom/commsource/util/p2/c;
 
     iget-object v2, p0, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmTransaction$a;->a:Lcom/commsource/camera/xcamera/cover/confirm/ConfirmTransaction;
@@ -172,7 +163,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/util/p2/c;->c(Lcom/commsource/util/p2/b;)V
 
-    .line 2
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

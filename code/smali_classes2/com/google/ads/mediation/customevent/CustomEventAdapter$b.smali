@@ -32,15 +32,12 @@
 .method public constructor <init>(Lcom/google/ads/mediation/customevent/CustomEventAdapter;Lcom/google/ads/mediation/customevent/CustomEventAdapter;Lcom/google/ads/mediation/e;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/ads/mediation/customevent/CustomEventAdapter$b;->c:Lcom/google/ads/mediation/customevent/CustomEventAdapter;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p2, p0, Lcom/google/ads/mediation/customevent/CustomEventAdapter$b;->a:Lcom/google/ads/mediation/customevent/CustomEventAdapter;
 
-    .line 3
     iput-object p3, p0, Lcom/google/ads/mediation/customevent/CustomEventAdapter$b;->b:Lcom/google/ads/mediation/e;
 
     return-void
@@ -53,10 +50,8 @@
 
     const-string v0, "Custom event adapter called onLeaveApplication."
 
-    .line 1
     invoke-static {v0}, Lcom/google/android/gms/internal/ads/aq;->f(Ljava/lang/String;)V
 
-    .line 2
     iget-object v0, p0, Lcom/google/ads/mediation/customevent/CustomEventAdapter$b;->b:Lcom/google/ads/mediation/e;
 
     iget-object v1, p0, Lcom/google/ads/mediation/customevent/CustomEventAdapter$b;->a:Lcom/google/ads/mediation/customevent/CustomEventAdapter;
@@ -71,10 +66,8 @@
 
     const-string v0, "Custom event adapter called onFailedToReceiveAd."
 
-    .line 1
     invoke-static {v0}, Lcom/google/android/gms/internal/ads/aq;->f(Ljava/lang/String;)V
 
-    .line 2
     iget-object v0, p0, Lcom/google/ads/mediation/customevent/CustomEventAdapter$b;->b:Lcom/google/ads/mediation/e;
 
     iget-object v1, p0, Lcom/google/ads/mediation/customevent/CustomEventAdapter$b;->a:Lcom/google/ads/mediation/customevent/CustomEventAdapter;
@@ -91,10 +84,8 @@
 
     const-string v0, "Custom event adapter called onDismissScreen."
 
-    .line 1
     invoke-static {v0}, Lcom/google/android/gms/internal/ads/aq;->f(Ljava/lang/String;)V
 
-    .line 2
     iget-object v0, p0, Lcom/google/ads/mediation/customevent/CustomEventAdapter$b;->b:Lcom/google/ads/mediation/e;
 
     iget-object v1, p0, Lcom/google/ads/mediation/customevent/CustomEventAdapter$b;->a:Lcom/google/ads/mediation/customevent/CustomEventAdapter;
@@ -109,10 +100,8 @@
 
     const-string v0, "Custom event adapter called onPresentScreen."
 
-    .line 1
     invoke-static {v0}, Lcom/google/android/gms/internal/ads/aq;->f(Ljava/lang/String;)V
 
-    .line 2
     iget-object v0, p0, Lcom/google/ads/mediation/customevent/CustomEventAdapter$b;->b:Lcom/google/ads/mediation/e;
 
     iget-object v1, p0, Lcom/google/ads/mediation/customevent/CustomEventAdapter$b;->a:Lcom/google/ads/mediation/customevent/CustomEventAdapter;
@@ -127,10 +116,8 @@
 
     const-string v0, "Custom event adapter called onReceivedAd."
 
-    .line 1
     invoke-static {v0}, Lcom/google/android/gms/internal/ads/aq;->f(Ljava/lang/String;)V
 
-    .line 2
     iget-object v0, p0, Lcom/google/ads/mediation/customevent/CustomEventAdapter$b;->b:Lcom/google/ads/mediation/e;
 
     iget-object v1, p0, Lcom/google/ads/mediation/customevent/CustomEventAdapter$b;->c:Lcom/google/ads/mediation/customevent/CustomEventAdapter;

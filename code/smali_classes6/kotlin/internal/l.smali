@@ -20,7 +20,6 @@
 .method static constructor <clinit>()V
     .locals 12
 
-    .line 1
     const-class v0, Lcotlin/internal/k;
 
     invoke-static {}, Lcotlin/internal/l;->c()I
@@ -44,7 +43,6 @@
     :try_start_0
     const-string v7, "kotlin.internal.jdk8.JDK8PlatformImplementations"
 
-    .line 2
     invoke-static {v7}, Ljava/lang/Class;->forName(Ljava/lang/String;)Ljava/lang/Class;
 
     move-result-object v7
@@ -127,7 +125,6 @@
     :try_start_3
     const-string v7, "kotlin.internal.JRE8PlatformImplementations"
 
-    .line 3
     invoke-static {v7}, Ljava/lang/Class;->forName(Ljava/lang/String;)Ljava/lang/Class;
 
     move-result-object v7
@@ -217,7 +214,6 @@
     :try_start_6
     const-string v1, "kotlin.internal.q.a"
 
-    .line 4
     invoke-static {v1}, Ljava/lang/Class;->forName(Ljava/lang/String;)Ljava/lang/Class;
 
     move-result-object v1
@@ -302,7 +298,6 @@
     :try_start_9
     const-string v1, "kotlin.internal.JRE7PlatformImplementations"
 
-    .line 5
     invoke-static {v1}, Ljava/lang/Class;->forName(Ljava/lang/String;)Ljava/lang/Class;
 
     move-result-object v1
@@ -383,14 +378,12 @@
     :try_end_b
     .catch Ljava/lang/ClassNotFoundException; {:try_start_b .. :try_end_b} :catch_7
 
-    .line 6
     :catch_7
     :cond_5
     new-instance v7, Lcotlin/internal/k;
 
     invoke-direct {v7}, Lcotlin/internal/k;-><init>()V
 
-    .line 7
     :goto_4
     sput-object v7, Lcotlin/internal/l;->a:Lcotlin/internal/k;
 
@@ -406,7 +399,6 @@
         version = "1.2"
     .end annotation
 
-    .line 1
     sget-object v0, Lcotlin/t;->g:Lcotlin/t;
 
     invoke-virtual {v0, p0, p1, p2}, Lcotlin/t;->o(III)Z
@@ -435,7 +427,6 @@
 
     const/4 v1, 0x1
 
-    .line 1
     :try_start_0
     invoke-static {v1, v0}, Lcotlin/jvm/internal/f0;->y(ILjava/lang/String;)V
     :try_end_0
@@ -446,7 +437,6 @@
     :catch_0
     move-exception v1
 
-    .line 2
     invoke-virtual {p0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
     move-result-object p0
@@ -457,7 +447,6 @@
 
     const/4 v2, 0x4
 
-    .line 3
     invoke-static {v2, v0}, Lcotlin/jvm/internal/f0;->y(ILjava/lang/String;)V
 
     const-class v0, Ljava/lang/Object;
@@ -466,7 +455,6 @@
 
     move-result-object v0
 
-    .line 4
     new-instance v2, Ljava/lang/ClassCastException;
 
     new-instance v3, Ljava/lang/StringBuilder;
@@ -507,7 +495,6 @@
 
     const-string v0, "java.specification.version"
 
-    .line 1
     invoke-static {v0}, Ljava/lang/System;->getProperty(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
@@ -528,7 +515,6 @@
 
     move-object v1, v0
 
-    .line 2
     invoke-static/range {v1 .. v6}, Lcotlin/text/m;->m3(Ljava/lang/CharSequence;CIZILjava/lang/Object;)I
 
     move-result v8
@@ -537,7 +523,6 @@
 
     if-gez v8, :cond_0
 
-    .line 3
     :try_start_0
     invoke-static {v0}, Ljava/lang/Integer;->parseInt(Ljava/lang/String;)I
 
@@ -565,14 +550,12 @@
 
     move v3, v10
 
-    .line 4
     invoke-static/range {v1 .. v6}, Lcotlin/text/m;->m3(Ljava/lang/CharSequence;CIZILjava/lang/Object;)I
 
     move-result v1
 
     if-gez v1, :cond_1
 
-    .line 5
     invoke-virtual {v0}, Ljava/lang/String;->length()I
 
     move-result v1
@@ -582,7 +565,6 @@
 
     const-string v3, "null cannot be cast to non-null type java.lang.String"
 
-    .line 6
     invoke-static {v0, v3}, Ljava/util/Objects;->requireNonNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
 
     invoke-virtual {v0, v2, v8}, Ljava/lang/String;->substring(II)Ljava/lang/String;
@@ -593,7 +575,6 @@
 
     invoke-static {v2, v4}, Lcotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 7
     invoke-static {v0, v3}, Ljava/util/Objects;->requireNonNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
 
     invoke-virtual {v0, v10, v1}, Ljava/lang/String;->substring(II)Ljava/lang/String;
@@ -602,7 +583,6 @@
 
     invoke-static {v0, v4}, Lcotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 8
     :try_start_1
     invoke-static {v2}, Ljava/lang/Integer;->parseInt(Ljava/lang/String;)I
 

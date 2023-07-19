@@ -35,7 +35,6 @@
 .method constructor <init>(Lcom/google/common/graph/Traverser$b;Ljava/lang/Iterable;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/common/graph/Traverser$b$a;->b:Lcom/google/common/graph/Traverser$b;
 
     iput-object p2, p0, Lcom/google/common/graph/Traverser$b$a;->a:Ljava/lang/Iterable;
@@ -57,7 +56,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/google/common/graph/Traverser$b$d;
 
     iget-object v1, p0, Lcom/google/common/graph/Traverser$b$a;->b:Lcom/google/common/graph/Traverser$b;

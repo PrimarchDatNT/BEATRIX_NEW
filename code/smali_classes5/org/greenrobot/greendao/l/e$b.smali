@@ -41,7 +41,6 @@
         }
     .end annotation
 
-    .line 2
     invoke-direct {p0, p1, p2, p3}, Lorg/greenrobot/greendao/l/b;-><init>(Lorg/greenrobot/greendao/a;Ljava/lang/String;[Ljava/lang/String;)V
 
     return-void
@@ -50,7 +49,6 @@
 .method synthetic constructor <init>(Lorg/greenrobot/greendao/a;Ljava/lang/String;[Ljava/lang/String;Lorg/greenrobot/greendao/l/e$a;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1, p2, p3}, Lorg/greenrobot/greendao/l/e$b;-><init>(Lorg/greenrobot/greendao/a;Ljava/lang/String;[Ljava/lang/String;)V
 
     return-void
@@ -61,7 +59,6 @@
 .method protected bridge synthetic a()Lorg/greenrobot/greendao/l/a;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lorg/greenrobot/greendao/l/e$b;->e()Lorg/greenrobot/greendao/l/e;
 
     move-result-object v0
@@ -79,7 +76,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v6, Lorg/greenrobot/greendao/l/e;
 
     iget-object v2, p0, Lorg/greenrobot/greendao/l/b;->b:Lorg/greenrobot/greendao/a;

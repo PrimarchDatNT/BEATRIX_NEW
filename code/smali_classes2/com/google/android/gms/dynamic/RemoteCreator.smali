@@ -40,10 +40,8 @@
     .annotation build Lcom/google/android/gms/common/annotation/a;
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/google/android/gms/dynamic/RemoteCreator;->a:Ljava/lang/String;
 
     return-void
@@ -83,27 +81,22 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/dynamic/RemoteCreator;->b:Ljava/lang/Object;
 
     if-nez v0, :cond_1
 
-    .line 2
     invoke-static {p1}, Lcom/google/android/gms/common/internal/b0;->k(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 3
     invoke-static {p1}, Lcom/google/android/gms/common/f;->getRemoteContext(Landroid/content/Context;)Landroid/content/Context;
 
     move-result-object p1
 
     if-eqz p1, :cond_0
 
-    .line 4
     invoke-virtual {p1}, Landroid/content/Context;->getClassLoader()Ljava/lang/ClassLoader;
 
     move-result-object p1
 
-    .line 5
     :try_start_0
     iget-object v0, p0, Lcom/google/android/gms/dynamic/RemoteCreator;->a:Ljava/lang/String;
 
@@ -111,14 +104,12 @@
 
     move-result-object p1
 
-    .line 6
     invoke-virtual {p1}, Ljava/lang/Class;->newInstance()Ljava/lang/Object;
 
     move-result-object p1
 
     check-cast p1, Landroid/os/IBinder;
 
-    .line 7
     invoke-virtual {p0, p1}, Lcom/google/android/gms/dynamic/RemoteCreator;->a(Landroid/os/IBinder;)Ljava/lang/Object;
 
     move-result-object p1
@@ -134,7 +125,6 @@
     :catch_0
     move-exception p1
 
-    .line 8
     new-instance v0, Lcom/google/android/gms/dynamic/RemoteCreator$RemoteCreatorException;
 
     const-string v1, "Could not access creator."
@@ -146,7 +136,6 @@
     :catch_1
     move-exception p1
 
-    .line 9
     new-instance v0, Lcom/google/android/gms/dynamic/RemoteCreator$RemoteCreatorException;
 
     const-string v1, "Could not instantiate creator."
@@ -158,7 +147,6 @@
     :catch_2
     move-exception p1
 
-    .line 10
     new-instance v0, Lcom/google/android/gms/dynamic/RemoteCreator$RemoteCreatorException;
 
     const-string v1, "Could not load creator class."
@@ -167,7 +155,6 @@
 
     throw v0
 
-    .line 11
     :cond_0
     new-instance p1, Lcom/google/android/gms/dynamic/RemoteCreator$RemoteCreatorException;
 
@@ -177,7 +164,6 @@
 
     throw p1
 
-    .line 12
     :cond_1
     :goto_0
     iget-object p1, p0, Lcom/google/android/gms/dynamic/RemoteCreator;->b:Ljava/lang/Object;

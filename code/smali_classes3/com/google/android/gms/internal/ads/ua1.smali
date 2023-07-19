@@ -31,19 +31,14 @@
 .method public constructor <init>(Lcom/google/android/gms/internal/ads/am;Landroid/content/Context;Ljava/util/concurrent/ScheduledExecutorService;Ljava/util/concurrent/Executor;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/google/android/gms/internal/ads/ua1;->a:Lcom/google/android/gms/internal/ads/am;
 
-    .line 3
     iput-object p2, p0, Lcom/google/android/gms/internal/ads/ua1;->b:Landroid/content/Context;
 
-    .line 4
     iput-object p3, p0, Lcom/google/android/gms/internal/ads/ua1;->c:Ljava/util/concurrent/ScheduledExecutorService;
 
-    .line 5
     iput-object p4, p0, Lcom/google/android/gms/internal/ads/ua1;->d:Ljava/util/concurrent/Executor;
 
     return-void
@@ -62,10 +57,8 @@
         }
     .end annotation
 
-    .line 1
     sget-object v0, Lcom/google/android/gms/internal/ads/w;->y0:Lcom/google/android/gms/internal/ads/h;
 
-    .line 2
     invoke-static {}, Lcom/google/android/gms/internal/ads/zm2;->e()Lcom/google/android/gms/internal/ads/s;
 
     move-result-object v1
@@ -74,7 +67,6 @@
 
     move-result-object v0
 
-    .line 3
     check-cast v0, Ljava/lang/Boolean;
 
     invoke-virtual {v0}, Ljava/lang/Boolean;->booleanValue()Z
@@ -83,7 +75,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 4
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/ua1;->a:Lcom/google/android/gms/internal/ads/am;
 
     iget-object v1, p0, Lcom/google/android/gms/internal/ads/ua1;->b:Landroid/content/Context;
@@ -100,14 +91,12 @@
 
     iget-object v2, p0, Lcom/google/android/gms/internal/ads/ua1;->d:Ljava/util/concurrent/Executor;
 
-    .line 5
     invoke-virtual {v0, v1, v2}, Lcom/google/android/gms/internal/ads/bq1;->D(Lcom/google/android/gms/internal/ads/ao1;Ljava/util/concurrent/Executor;)Lcom/google/android/gms/internal/ads/bq1;
 
     move-result-object v0
 
     sget-object v1, Lcom/google/android/gms/internal/ads/w;->z0:Lcom/google/android/gms/internal/ads/h;
 
-    .line 6
     invoke-static {}, Lcom/google/android/gms/internal/ads/zm2;->e()Lcom/google/android/gms/internal/ads/s;
 
     move-result-object v2
@@ -116,7 +105,6 @@
 
     move-result-object v1
 
-    .line 7
     check-cast v1, Ljava/lang/Long;
 
     invoke-virtual {v1}, Ljava/lang/Long;->longValue()J
@@ -127,7 +115,6 @@
 
     iget-object v4, p0, Lcom/google/android/gms/internal/ads/ua1;->c:Ljava/util/concurrent/ScheduledExecutorService;
 
-    .line 8
     invoke-virtual {v0, v1, v2, v3, v4}, Lcom/google/android/gms/internal/ads/bq1;->C(JLjava/util/concurrent/TimeUnit;Ljava/util/concurrent/ScheduledExecutorService;)Lcom/google/android/gms/internal/ads/bq1;
 
     move-result-object v0
@@ -140,14 +127,12 @@
 
     iget-object v3, p0, Lcom/google/android/gms/internal/ads/ua1;->d:Ljava/util/concurrent/Executor;
 
-    .line 9
     invoke-virtual {v0, v1, v2, v3}, Lcom/google/android/gms/internal/ads/bq1;->E(Ljava/lang/Class;Lcom/google/android/gms/internal/ads/ao1;Ljava/util/concurrent/Executor;)Lcom/google/android/gms/internal/ads/bq1;
 
     move-result-object v0
 
     return-object v0
 
-    .line 10
     :cond_0
     new-instance v0, Ljava/lang/Exception;
 
@@ -165,7 +150,6 @@
 .method final synthetic b(Ljava/lang/Throwable;)Lcom/google/android/gms/internal/ads/ra1;
     .locals 2
 
-    .line 1
     invoke-static {}, Lcom/google/android/gms/internal/ads/zm2;->a()Lcom/google/android/gms/internal/ads/pp;
 
     iget-object p1, p0, Lcom/google/android/gms/internal/ads/ua1;->b:Landroid/content/Context;
@@ -174,7 +158,6 @@
 
     move-result-object p1
 
-    .line 2
     new-instance v0, Lcom/google/android/gms/internal/ads/ra1;
 
     const/4 v1, 0x0

@@ -104,14 +104,12 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
     new-instance v0, Lcom/google/logging/type/a;
 
     invoke-direct {v0}, Lcom/google/logging/type/a;-><init>()V
 
     sput-object v0, Lcom/google/logging/type/a;->k0:Lcom/google/logging/type/a;
 
-    .line 2
     invoke-virtual {v0}, Lcom/google/protobuf/GeneratedMessageLite;->ug()V
 
     return-void
@@ -120,30 +118,22 @@
 .method private constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Lcom/google/protobuf/GeneratedMessageLite;-><init>()V
 
     const-string v0, ""
 
-    .line 2
     iput-object v0, p0, Lcom/google/logging/type/a;->f:Ljava/lang/String;
 
-    .line 3
     iput-object v0, p0, Lcom/google/logging/type/a;->g:Ljava/lang/String;
 
-    .line 4
     iput-object v0, p0, Lcom/google/logging/type/a;->L:Ljava/lang/String;
 
-    .line 5
     iput-object v0, p0, Lcom/google/logging/type/a;->M:Ljava/lang/String;
 
-    .line 6
     iput-object v0, p0, Lcom/google/logging/type/a;->N:Ljava/lang/String;
 
-    .line 7
     iput-object v0, p0, Lcom/google/logging/type/a;->O:Ljava/lang/String;
 
-    .line 8
     iput-object v0, p0, Lcom/google/logging/type/a;->U:Ljava/lang/String;
 
     return-void
@@ -152,7 +142,6 @@
 .method static synthetic Ah(Lcom/google/logging/type/a;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/google/logging/type/a;->Ph()V
 
     return-void
@@ -161,10 +150,8 @@
 .method private Ai(Ljava/lang/String;)V
     .locals 0
 
-    .line 1
     invoke-static {p1}, Ljava/util/Objects;->requireNonNull(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 2
     iput-object p1, p0, Lcom/google/logging/type/a;->O:Ljava/lang/String;
 
     return-void
@@ -173,7 +160,6 @@
 .method static synthetic Bh(Lcom/google/logging/type/a;Z)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/google/logging/type/a;->vi(Z)V
 
     return-void
@@ -182,13 +168,10 @@
 .method private Bi(Lcom/google/protobuf/ByteString;)V
     .locals 0
 
-    .line 1
     invoke-static {p1}, Ljava/util/Objects;->requireNonNull(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 2
     invoke-static {p1}, Lcom/google/protobuf/a;->M0(Lcom/google/protobuf/ByteString;)V
 
-    .line 3
     invoke-virtual {p1}, Lcom/google/protobuf/ByteString;->toStringUtf8()Ljava/lang/String;
 
     move-result-object p1
@@ -201,7 +184,6 @@
 .method static synthetic Ch(Lcom/google/logging/type/a;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/google/logging/type/a;->Rh()V
 
     return-void
@@ -210,10 +192,8 @@
 .method private Ci(Ljava/lang/String;)V
     .locals 0
 
-    .line 1
     invoke-static {p1}, Ljava/util/Objects;->requireNonNull(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 2
     iput-object p1, p0, Lcom/google/logging/type/a;->M:Ljava/lang/String;
 
     return-void
@@ -222,7 +202,6 @@
 .method static synthetic Dh(Lcom/google/logging/type/a;J)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1, p2}, Lcom/google/logging/type/a;->si(J)V
 
     return-void
@@ -231,13 +210,10 @@
 .method private Di(Lcom/google/protobuf/ByteString;)V
     .locals 0
 
-    .line 1
     invoke-static {p1}, Ljava/util/Objects;->requireNonNull(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 2
     invoke-static {p1}, Lcom/google/protobuf/a;->M0(Lcom/google/protobuf/ByteString;)V
 
-    .line 3
     invoke-virtual {p1}, Lcom/google/protobuf/ByteString;->toStringUtf8()Ljava/lang/String;
 
     move-result-object p1
@@ -250,7 +226,6 @@
 .method static synthetic Eh(Lcom/google/logging/type/a;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/google/logging/type/a;->Oh()V
 
     return-void
@@ -259,10 +234,8 @@
 .method private Ei(Ljava/lang/String;)V
     .locals 0
 
-    .line 1
     invoke-static {p1}, Ljava/util/Objects;->requireNonNull(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 2
     iput-object p1, p0, Lcom/google/logging/type/a;->f:Ljava/lang/String;
 
     return-void
@@ -271,7 +244,6 @@
 .method static synthetic Fh(Lcom/google/logging/type/a;Ljava/lang/String;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/google/logging/type/a;->yi(Ljava/lang/String;)V
 
     return-void
@@ -280,13 +252,10 @@
 .method private Fi(Lcom/google/protobuf/ByteString;)V
     .locals 0
 
-    .line 1
     invoke-static {p1}, Ljava/util/Objects;->requireNonNull(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 2
     invoke-static {p1}, Lcom/google/protobuf/a;->M0(Lcom/google/protobuf/ByteString;)V
 
-    .line 3
     invoke-virtual {p1}, Lcom/google/protobuf/ByteString;->toStringUtf8()Ljava/lang/String;
 
     move-result-object p1
@@ -299,7 +268,6 @@
 .method static synthetic Gh(Lcom/google/logging/type/a;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/google/logging/type/a;->Th()V
 
     return-void
@@ -308,7 +276,6 @@
 .method private Gi(J)V
     .locals 0
 
-    .line 1
     iput-wide p1, p0, Lcom/google/logging/type/a;->p:J
 
     return-void
@@ -317,7 +284,6 @@
 .method static synthetic Hh(Lcom/google/logging/type/a;Lcom/google/protobuf/ByteString;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/google/logging/type/a;->zi(Lcom/google/protobuf/ByteString;)V
 
     return-void
@@ -326,10 +292,8 @@
 .method private Hi(Ljava/lang/String;)V
     .locals 0
 
-    .line 1
     invoke-static {p1}, Ljava/util/Objects;->requireNonNull(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 2
     iput-object p1, p0, Lcom/google/logging/type/a;->g:Ljava/lang/String;
 
     return-void
@@ -338,7 +302,6 @@
 .method static synthetic Ih(Lcom/google/logging/type/a;Ljava/lang/String;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/google/logging/type/a;->Hi(Ljava/lang/String;)V
 
     return-void
@@ -347,13 +310,10 @@
 .method private Ii(Lcom/google/protobuf/ByteString;)V
     .locals 0
 
-    .line 1
     invoke-static {p1}, Ljava/util/Objects;->requireNonNull(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 2
     invoke-static {p1}, Lcom/google/protobuf/a;->M0(Lcom/google/protobuf/ByteString;)V
 
-    .line 3
     invoke-virtual {p1}, Lcom/google/protobuf/ByteString;->toStringUtf8()Ljava/lang/String;
 
     move-result-object p1
@@ -366,7 +326,6 @@
 .method static synthetic Jh(Lcom/google/logging/type/a;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/google/logging/type/a;->Yh()V
 
     return-void
@@ -375,7 +334,6 @@
 .method private Ji(J)V
     .locals 0
 
-    .line 1
     iput-wide p1, p0, Lcom/google/logging/type/a;->K:J
 
     return-void
@@ -384,7 +342,6 @@
 .method static synthetic Kh(Lcom/google/logging/type/a;Lcom/google/protobuf/ByteString;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/google/logging/type/a;->Ii(Lcom/google/protobuf/ByteString;)V
 
     return-void
@@ -393,10 +350,8 @@
 .method private Ki(Ljava/lang/String;)V
     .locals 0
 
-    .line 1
     invoke-static {p1}, Ljava/util/Objects;->requireNonNull(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 2
     iput-object p1, p0, Lcom/google/logging/type/a;->N:Ljava/lang/String;
 
     return-void
@@ -405,7 +360,6 @@
 .method static synthetic Lh(Lcom/google/logging/type/a;J)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1, p2}, Lcom/google/logging/type/a;->Gi(J)V
 
     return-void
@@ -414,13 +368,10 @@
 .method private Li(Lcom/google/protobuf/ByteString;)V
     .locals 0
 
-    .line 1
     invoke-static {p1}, Ljava/util/Objects;->requireNonNull(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 2
     invoke-static {p1}, Lcom/google/protobuf/a;->M0(Lcom/google/protobuf/ByteString;)V
 
-    .line 3
     invoke-virtual {p1}, Lcom/google/protobuf/ByteString;->toStringUtf8()Ljava/lang/String;
 
     move-result-object p1
@@ -433,7 +384,6 @@
 .method static synthetic Mh(Lcom/google/logging/type/a;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/google/logging/type/a;->Xh()V
 
     return-void
@@ -442,7 +392,6 @@
 .method private Mi(I)V
     .locals 0
 
-    .line 1
     iput p1, p0, Lcom/google/logging/type/a;->J:I
 
     return-void
@@ -451,7 +400,6 @@
 .method static synthetic Nh(Lcom/google/logging/type/a;I)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/google/logging/type/a;->Mi(I)V
 
     return-void
@@ -460,10 +408,8 @@
 .method private Ni(Ljava/lang/String;)V
     .locals 0
 
-    .line 1
     invoke-static {p1}, Ljava/util/Objects;->requireNonNull(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 2
     iput-object p1, p0, Lcom/google/logging/type/a;->L:Ljava/lang/String;
 
     return-void
@@ -474,7 +420,6 @@
 
     const-wide/16 v0, 0x0
 
-    .line 1
     iput-wide v0, p0, Lcom/google/logging/type/a;->T:J
 
     return-void
@@ -483,13 +428,10 @@
 .method private Oi(Lcom/google/protobuf/ByteString;)V
     .locals 0
 
-    .line 1
     invoke-static {p1}, Ljava/util/Objects;->requireNonNull(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 2
     invoke-static {p1}, Lcom/google/protobuf/a;->M0(Lcom/google/protobuf/ByteString;)V
 
-    .line 3
     invoke-virtual {p1}, Lcom/google/protobuf/ByteString;->toStringUtf8()Ljava/lang/String;
 
     move-result-object p1
@@ -504,7 +446,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     iput-boolean v0, p0, Lcom/google/logging/type/a;->R:Z
 
     return-void
@@ -515,7 +456,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     iput-boolean v0, p0, Lcom/google/logging/type/a;->Q:Z
 
     return-void
@@ -526,7 +466,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     iput-boolean v0, p0, Lcom/google/logging/type/a;->S:Z
 
     return-void
@@ -537,7 +476,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     iput-object v0, p0, Lcom/google/logging/type/a;->P:Lcom/google/protobuf/u;
 
     return-void
@@ -546,7 +484,6 @@
 .method private Th()V
     .locals 1
 
-    .line 1
     invoke-static {}, Lcom/google/logging/type/a;->di()Lcom/google/logging/type/a;
 
     move-result-object v0
@@ -563,7 +500,6 @@
 .method private Uh()V
     .locals 1
 
-    .line 1
     invoke-static {}, Lcom/google/logging/type/a;->di()Lcom/google/logging/type/a;
 
     move-result-object v0
@@ -580,7 +516,6 @@
 .method private Vh()V
     .locals 1
 
-    .line 1
     invoke-static {}, Lcom/google/logging/type/a;->di()Lcom/google/logging/type/a;
 
     move-result-object v0
@@ -597,7 +532,6 @@
 .method private Wh()V
     .locals 1
 
-    .line 1
     invoke-static {}, Lcom/google/logging/type/a;->di()Lcom/google/logging/type/a;
 
     move-result-object v0
@@ -616,7 +550,6 @@
 
     const-wide/16 v0, 0x0
 
-    .line 1
     iput-wide v0, p0, Lcom/google/logging/type/a;->p:J
 
     return-void
@@ -625,7 +558,6 @@
 .method private Yh()V
     .locals 1
 
-    .line 1
     invoke-static {}, Lcom/google/logging/type/a;->di()Lcom/google/logging/type/a;
 
     move-result-object v0
@@ -644,7 +576,6 @@
 
     const-wide/16 v0, 0x0
 
-    .line 1
     iput-wide v0, p0, Lcom/google/logging/type/a;->K:J
 
     return-void
@@ -653,7 +584,6 @@
 .method static synthetic ah()Lcom/google/logging/type/a;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/google/logging/type/a;->k0:Lcom/google/logging/type/a;
 
     return-object v0
@@ -662,7 +592,6 @@
 .method private ai()V
     .locals 1
 
-    .line 1
     invoke-static {}, Lcom/google/logging/type/a;->di()Lcom/google/logging/type/a;
 
     move-result-object v0
@@ -679,7 +608,6 @@
 .method static synthetic bh(Lcom/google/logging/type/a;Ljava/lang/String;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/google/logging/type/a;->Ei(Ljava/lang/String;)V
 
     return-void
@@ -690,7 +618,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     iput v0, p0, Lcom/google/logging/type/a;->J:I
 
     return-void
@@ -699,7 +626,6 @@
 .method static synthetic ch(Lcom/google/logging/type/a;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/google/logging/type/a;->bi()V
 
     return-void
@@ -708,7 +634,6 @@
 .method private ci()V
     .locals 1
 
-    .line 1
     invoke-static {}, Lcom/google/logging/type/a;->di()Lcom/google/logging/type/a;
 
     move-result-object v0
@@ -725,7 +650,6 @@
 .method static synthetic dh(Lcom/google/logging/type/a;J)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1, p2}, Lcom/google/logging/type/a;->Ji(J)V
 
     return-void
@@ -734,7 +658,6 @@
 .method public static di()Lcom/google/logging/type/a;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/google/logging/type/a;->k0:Lcom/google/logging/type/a;
 
     return-object v0
@@ -743,7 +666,6 @@
 .method static synthetic eh(Lcom/google/logging/type/a;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/google/logging/type/a;->Zh()V
 
     return-void
@@ -752,22 +674,18 @@
 .method private ei(Lcom/google/protobuf/u;)V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/google/logging/type/a;->P:Lcom/google/protobuf/u;
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-static {}, Lcom/google/protobuf/u;->hh()Lcom/google/protobuf/u;
 
     move-result-object v1
 
     if-eq v0, v1, :cond_0
 
-    .line 3
     iget-object v0, p0, Lcom/google/logging/type/a;->P:Lcom/google/protobuf/u;
 
-    .line 4
     invoke-static {v0}, Lcom/google/protobuf/u;->jh(Lcom/google/protobuf/u;)Lcom/google/protobuf/u$b;
 
     move-result-object v0
@@ -788,7 +706,6 @@
 
     goto :goto_0
 
-    .line 5
     :cond_0
     iput-object p1, p0, Lcom/google/logging/type/a;->P:Lcom/google/protobuf/u;
 
@@ -799,7 +716,6 @@
 .method static synthetic fh(Lcom/google/logging/type/a;Ljava/lang/String;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/google/logging/type/a;->Ni(Ljava/lang/String;)V
 
     return-void
@@ -808,7 +724,6 @@
 .method public static fi()Lcom/google/logging/type/a$b;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/google/logging/type/a;->k0:Lcom/google/logging/type/a;
 
     invoke-virtual {v0}, Lcom/google/protobuf/GeneratedMessageLite;->Yg()Lcom/google/protobuf/GeneratedMessageLite$b;
@@ -823,7 +738,6 @@
 .method static synthetic gh(Lcom/google/logging/type/a;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/google/logging/type/a;->ci()V
 
     return-void
@@ -832,7 +746,6 @@
 .method public static gi(Lcom/google/logging/type/a;)Lcom/google/logging/type/a$b;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/google/logging/type/a;->k0:Lcom/google/logging/type/a;
 
     invoke-virtual {v0}, Lcom/google/protobuf/GeneratedMessageLite;->Yg()Lcom/google/protobuf/GeneratedMessageLite$b;
@@ -853,7 +766,6 @@
 .method static synthetic hh(Lcom/google/logging/type/a;Lcom/google/protobuf/ByteString;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/google/logging/type/a;->Oi(Lcom/google/protobuf/ByteString;)V
 
     return-void
@@ -867,7 +779,6 @@
         }
     .end annotation
 
-    .line 1
     sget-object v0, Lcom/google/logging/type/a;->k0:Lcom/google/logging/type/a;
 
     invoke-static {v0, p0}, Lcom/google/protobuf/GeneratedMessageLite;->Ig(Lcom/google/protobuf/GeneratedMessageLite;Ljava/io/InputStream;)Lcom/google/protobuf/GeneratedMessageLite;
@@ -882,7 +793,6 @@
 .method static synthetic ih(Lcom/google/logging/type/a;Ljava/lang/String;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/google/logging/type/a;->Ci(Ljava/lang/String;)V
 
     return-void
@@ -896,7 +806,6 @@
         }
     .end annotation
 
-    .line 1
     sget-object v0, Lcom/google/logging/type/a;->k0:Lcom/google/logging/type/a;
 
     invoke-static {v0, p0, p1}, Lcom/google/protobuf/GeneratedMessageLite;->Jg(Lcom/google/protobuf/GeneratedMessageLite;Ljava/io/InputStream;Lcom/google/protobuf/j0;)Lcom/google/protobuf/GeneratedMessageLite;
@@ -911,7 +820,6 @@
 .method static synthetic jh(Lcom/google/logging/type/a;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/google/logging/type/a;->Vh()V
 
     return-void
@@ -925,7 +833,6 @@
         }
     .end annotation
 
-    .line 1
     sget-object v0, Lcom/google/logging/type/a;->k0:Lcom/google/logging/type/a;
 
     invoke-static {v0, p0}, Lcom/google/protobuf/GeneratedMessageLite;->Kg(Lcom/google/protobuf/GeneratedMessageLite;Lcom/google/protobuf/ByteString;)Lcom/google/protobuf/GeneratedMessageLite;
@@ -940,7 +847,6 @@
 .method static synthetic kh(Lcom/google/logging/type/a;Lcom/google/protobuf/ByteString;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/google/logging/type/a;->Di(Lcom/google/protobuf/ByteString;)V
 
     return-void
@@ -954,7 +860,6 @@
         }
     .end annotation
 
-    .line 1
     sget-object v0, Lcom/google/logging/type/a;->k0:Lcom/google/logging/type/a;
 
     invoke-static {v0, p0, p1}, Lcom/google/protobuf/GeneratedMessageLite;->Lg(Lcom/google/protobuf/GeneratedMessageLite;Lcom/google/protobuf/ByteString;Lcom/google/protobuf/j0;)Lcom/google/protobuf/GeneratedMessageLite;
@@ -969,7 +874,6 @@
 .method static synthetic lh(Lcom/google/logging/type/a;Ljava/lang/String;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/google/logging/type/a;->Ki(Ljava/lang/String;)V
 
     return-void
@@ -983,7 +887,6 @@
         }
     .end annotation
 
-    .line 1
     sget-object v0, Lcom/google/logging/type/a;->k0:Lcom/google/logging/type/a;
 
     invoke-static {v0, p0}, Lcom/google/protobuf/GeneratedMessageLite;->Mg(Lcom/google/protobuf/GeneratedMessageLite;Lcom/google/protobuf/q;)Lcom/google/protobuf/GeneratedMessageLite;
@@ -998,7 +901,6 @@
 .method static synthetic mh(Lcom/google/logging/type/a;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/google/logging/type/a;->Wh()V
 
     return-void
@@ -1012,7 +914,6 @@
         }
     .end annotation
 
-    .line 1
     sget-object v0, Lcom/google/logging/type/a;->k0:Lcom/google/logging/type/a;
 
     invoke-static {v0, p0, p1}, Lcom/google/protobuf/GeneratedMessageLite;->Ng(Lcom/google/protobuf/GeneratedMessageLite;Lcom/google/protobuf/q;Lcom/google/protobuf/j0;)Lcom/google/protobuf/GeneratedMessageLite;
@@ -1027,7 +928,6 @@
 .method static synthetic nh(Lcom/google/logging/type/a;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/google/logging/type/a;->ai()V
 
     return-void
@@ -1041,7 +941,6 @@
         }
     .end annotation
 
-    .line 1
     sget-object v0, Lcom/google/logging/type/a;->k0:Lcom/google/logging/type/a;
 
     invoke-static {v0, p0}, Lcom/google/protobuf/GeneratedMessageLite;->Og(Lcom/google/protobuf/GeneratedMessageLite;Ljava/io/InputStream;)Lcom/google/protobuf/GeneratedMessageLite;
@@ -1056,7 +955,6 @@
 .method static synthetic oh(Lcom/google/logging/type/a;Lcom/google/protobuf/ByteString;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/google/logging/type/a;->Li(Lcom/google/protobuf/ByteString;)V
 
     return-void
@@ -1070,7 +968,6 @@
         }
     .end annotation
 
-    .line 1
     sget-object v0, Lcom/google/logging/type/a;->k0:Lcom/google/logging/type/a;
 
     invoke-static {v0, p0, p1}, Lcom/google/protobuf/GeneratedMessageLite;->Pg(Lcom/google/protobuf/GeneratedMessageLite;Ljava/io/InputStream;Lcom/google/protobuf/j0;)Lcom/google/protobuf/GeneratedMessageLite;
@@ -1085,7 +982,6 @@
 .method static synthetic ph(Lcom/google/logging/type/a;Ljava/lang/String;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/google/logging/type/a;->Ai(Ljava/lang/String;)V
 
     return-void
@@ -1099,7 +995,6 @@
         }
     .end annotation
 
-    .line 1
     sget-object v0, Lcom/google/logging/type/a;->k0:Lcom/google/logging/type/a;
 
     invoke-static {v0, p0}, Lcom/google/protobuf/GeneratedMessageLite;->Qg(Lcom/google/protobuf/GeneratedMessageLite;[B)Lcom/google/protobuf/GeneratedMessageLite;
@@ -1114,7 +1009,6 @@
 .method static synthetic qh(Lcom/google/logging/type/a;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/google/logging/type/a;->Uh()V
 
     return-void
@@ -1128,7 +1022,6 @@
         }
     .end annotation
 
-    .line 1
     sget-object v0, Lcom/google/logging/type/a;->k0:Lcom/google/logging/type/a;
 
     invoke-static {v0, p0, p1}, Lcom/google/protobuf/GeneratedMessageLite;->Rg(Lcom/google/protobuf/GeneratedMessageLite;[BLcom/google/protobuf/j0;)Lcom/google/protobuf/GeneratedMessageLite;
@@ -1143,7 +1036,6 @@
 .method static synthetic rh(Lcom/google/logging/type/a;Lcom/google/protobuf/ByteString;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/google/logging/type/a;->Bi(Lcom/google/protobuf/ByteString;)V
 
     return-void
@@ -1160,7 +1052,6 @@
         }
     .end annotation
 
-    .line 1
     sget-object v0, Lcom/google/logging/type/a;->k0:Lcom/google/logging/type/a;
 
     invoke-virtual {v0}, Lcom/google/protobuf/GeneratedMessageLite;->Qf()Lcom/google/protobuf/s1;
@@ -1173,7 +1064,6 @@
 .method static synthetic sh(Lcom/google/logging/type/a;Lcom/google/protobuf/u;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/google/logging/type/a;->xi(Lcom/google/protobuf/u;)V
 
     return-void
@@ -1182,7 +1072,6 @@
 .method private si(J)V
     .locals 0
 
-    .line 1
     iput-wide p1, p0, Lcom/google/logging/type/a;->T:J
 
     return-void
@@ -1191,7 +1080,6 @@
 .method static synthetic th(Lcom/google/logging/type/a;Lcom/google/protobuf/u$b;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/google/logging/type/a;->wi(Lcom/google/protobuf/u$b;)V
 
     return-void
@@ -1200,7 +1088,6 @@
 .method private ti(Z)V
     .locals 0
 
-    .line 1
     iput-boolean p1, p0, Lcom/google/logging/type/a;->R:Z
 
     return-void
@@ -1209,7 +1096,6 @@
 .method static synthetic uh(Lcom/google/logging/type/a;Lcom/google/protobuf/u;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/google/logging/type/a;->ei(Lcom/google/protobuf/u;)V
 
     return-void
@@ -1218,7 +1104,6 @@
 .method private ui(Z)V
     .locals 0
 
-    .line 1
     iput-boolean p1, p0, Lcom/google/logging/type/a;->Q:Z
 
     return-void
@@ -1227,7 +1112,6 @@
 .method static synthetic vh(Lcom/google/logging/type/a;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/google/logging/type/a;->Sh()V
 
     return-void
@@ -1236,7 +1120,6 @@
 .method private vi(Z)V
     .locals 0
 
-    .line 1
     iput-boolean p1, p0, Lcom/google/logging/type/a;->S:Z
 
     return-void
@@ -1245,7 +1128,6 @@
 .method static synthetic wh(Lcom/google/logging/type/a;Z)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/google/logging/type/a;->ui(Z)V
 
     return-void
@@ -1254,7 +1136,6 @@
 .method private wi(Lcom/google/protobuf/u$b;)V
     .locals 0
 
-    .line 1
     invoke-virtual {p1}, Lcom/google/protobuf/GeneratedMessageLite$b;->Hg()Lcom/google/protobuf/GeneratedMessageLite;
 
     move-result-object p1
@@ -1269,7 +1150,6 @@
 .method static synthetic xh(Lcom/google/logging/type/a;Lcom/google/protobuf/ByteString;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/google/logging/type/a;->Fi(Lcom/google/protobuf/ByteString;)V
 
     return-void
@@ -1278,10 +1158,8 @@
 .method private xi(Lcom/google/protobuf/u;)V
     .locals 0
 
-    .line 1
     invoke-static {p1}, Ljava/util/Objects;->requireNonNull(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 2
     iput-object p1, p0, Lcom/google/logging/type/a;->P:Lcom/google/protobuf/u;
 
     return-void
@@ -1290,7 +1168,6 @@
 .method static synthetic yh(Lcom/google/logging/type/a;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/google/logging/type/a;->Qh()V
 
     return-void
@@ -1299,10 +1176,8 @@
 .method private yi(Ljava/lang/String;)V
     .locals 0
 
-    .line 1
     invoke-static {p1}, Ljava/util/Objects;->requireNonNull(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 2
     iput-object p1, p0, Lcom/google/logging/type/a;->U:Ljava/lang/String;
 
     return-void
@@ -1311,7 +1186,6 @@
 .method static synthetic zh(Lcom/google/logging/type/a;Z)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/google/logging/type/a;->ti(Z)V
 
     return-void
@@ -1320,13 +1194,10 @@
 .method private zi(Lcom/google/protobuf/ByteString;)V
     .locals 0
 
-    .line 1
     invoke-static {p1}, Ljava/util/Objects;->requireNonNull(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 2
     invoke-static {p1}, Lcom/google/protobuf/a;->M0(Lcom/google/protobuf/ByteString;)V
 
-    .line 3
     invoke-virtual {p1}, Lcom/google/protobuf/ByteString;->toStringUtf8()Ljava/lang/String;
 
     move-result-object p1
@@ -1341,7 +1212,6 @@
 .method public A6()Lcom/google/protobuf/ByteString;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/logging/type/a;->g:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/google/protobuf/ByteString;->copyFromUtf8(Ljava/lang/String;)Lcom/google/protobuf/ByteString;
@@ -1354,7 +1224,6 @@
 .method public C1()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/logging/type/a;->L:Ljava/lang/String;
 
     return-object v0
@@ -1363,7 +1232,6 @@
 .method public C4()Z
     .locals 1
 
-    .line 1
     iget-boolean v0, p0, Lcom/google/logging/type/a;->S:Z
 
     return v0
@@ -1372,7 +1240,6 @@
 .method public Cf()Lcom/google/protobuf/ByteString;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/logging/type/a;->O:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/google/protobuf/ByteString;->copyFromUtf8(Ljava/lang/String;)Lcom/google/protobuf/ByteString;
@@ -1385,7 +1252,6 @@
 .method public N8()Lcom/google/protobuf/ByteString;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/logging/type/a;->f:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/google/protobuf/ByteString;->copyFromUtf8(Ljava/lang/String;)Lcom/google/protobuf/ByteString;
@@ -1398,7 +1264,6 @@
 .method public Qb()Lcom/google/protobuf/ByteString;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/logging/type/a;->M:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/google/protobuf/ByteString;->copyFromUtf8(Ljava/lang/String;)Lcom/google/protobuf/ByteString;
@@ -1411,7 +1276,6 @@
 .method protected final S6(Lcom/google/protobuf/GeneratedMessageLite$MethodToInvoke;Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
     .locals 12
 
-    .line 1
     sget-object v0, Lcom/google/logging/type/a$a;->a:[I
 
     invoke-virtual {p1}, Ljava/lang/Enum;->ordinal()I
@@ -1428,14 +1292,12 @@
 
     packed-switch p1, :pswitch_data_0
 
-    .line 2
     new-instance p1, Ljava/lang/UnsupportedOperationException;
 
     invoke-direct {p1}, Ljava/lang/UnsupportedOperationException;-><init>()V
 
     throw p1
 
-    .line 3
     :pswitch_0
     sget-object p1, Lcom/google/logging/type/a;->l0:Lcom/google/protobuf/s1;
 
@@ -1445,13 +1307,11 @@
 
     monitor-enter p1
 
-    .line 4
     :try_start_0
     sget-object p2, Lcom/google/logging/type/a;->l0:Lcom/google/protobuf/s1;
 
     if-nez p2, :cond_0
 
-    .line 5
     new-instance p2, Lcom/google/protobuf/GeneratedMessageLite$c;
 
     sget-object p3, Lcom/google/logging/type/a;->k0:Lcom/google/logging/type/a;
@@ -1460,7 +1320,6 @@
 
     sput-object p2, Lcom/google/logging/type/a;->l0:Lcom/google/protobuf/s1;
 
-    .line 6
     :cond_0
     monitor-exit p1
 
@@ -1475,25 +1334,21 @@
 
     throw p2
 
-    .line 7
     :cond_1
     :goto_0
     sget-object p1, Lcom/google/logging/type/a;->l0:Lcom/google/protobuf/s1;
 
     return-object p1
 
-    .line 8
     :pswitch_1
     check-cast p2, Lcom/google/protobuf/q;
 
-    .line 9
     check-cast p3, Lcom/google/protobuf/j0;
 
     :cond_2
     :goto_1
     if-nez v1, :cond_4
 
-    .line 10
     :try_start_1
     invoke-virtual {p2}, Lcom/google/protobuf/q;->X()I
 
@@ -1501,31 +1356,26 @@
 
     sparse-switch p1, :sswitch_data_0
 
-    .line 11
     invoke-virtual {p2, p1}, Lcom/google/protobuf/q;->g0(I)Z
 
     move-result p1
 
     goto/16 :goto_4
 
-    .line 12
     :sswitch_0
     invoke-virtual {p2}, Lcom/google/protobuf/q;->W()Ljava/lang/String;
 
     move-result-object p1
 
-    .line 13
     iput-object p1, p0, Lcom/google/logging/type/a;->U:Ljava/lang/String;
 
     goto :goto_1
 
-    .line 14
     :sswitch_1
     iget-object p1, p0, Lcom/google/logging/type/a;->P:Lcom/google/protobuf/u;
 
     if-eqz p1, :cond_3
 
-    .line 15
     invoke-virtual {p1}, Lcom/google/protobuf/GeneratedMessageLite;->Yg()Lcom/google/protobuf/GeneratedMessageLite$b;
 
     move-result-object p1
@@ -1537,7 +1387,6 @@
     :cond_3
     move-object p1, v0
 
-    .line 16
     :goto_2
     invoke-static {}, Lcom/google/protobuf/u;->uh()Lcom/google/protobuf/s1;
 
@@ -1553,10 +1402,8 @@
 
     if-eqz p1, :cond_2
 
-    .line 17
     invoke-virtual {p1, v3}, Lcom/google/protobuf/GeneratedMessageLite$b;->Pg(Lcom/google/protobuf/GeneratedMessageLite;)Lcom/google/protobuf/GeneratedMessageLite$b;
 
-    .line 18
     invoke-virtual {p1}, Lcom/google/protobuf/GeneratedMessageLite$b;->Ig()Lcom/google/protobuf/GeneratedMessageLite;
 
     move-result-object p1
@@ -1567,18 +1414,15 @@
 
     goto :goto_1
 
-    .line 19
     :sswitch_2
     invoke-virtual {p2}, Lcom/google/protobuf/q;->W()Ljava/lang/String;
 
     move-result-object p1
 
-    .line 20
     iput-object p1, p0, Lcom/google/logging/type/a;->N:Ljava/lang/String;
 
     goto :goto_1
 
-    .line 21
     :sswitch_3
     invoke-virtual {p2}, Lcom/google/protobuf/q;->E()J
 
@@ -1588,7 +1432,6 @@
 
     goto :goto_1
 
-    .line 22
     :sswitch_4
     invoke-virtual {p2}, Lcom/google/protobuf/q;->s()Z
 
@@ -1598,7 +1441,6 @@
 
     goto :goto_1
 
-    .line 23
     :sswitch_5
     invoke-virtual {p2}, Lcom/google/protobuf/q;->s()Z
 
@@ -1608,7 +1450,6 @@
 
     goto :goto_1
 
-    .line 24
     :sswitch_6
     invoke-virtual {p2}, Lcom/google/protobuf/q;->s()Z
 
@@ -1618,40 +1459,33 @@
 
     goto :goto_1
 
-    .line 25
     :sswitch_7
     invoke-virtual {p2}, Lcom/google/protobuf/q;->W()Ljava/lang/String;
 
     move-result-object p1
 
-    .line 26
     iput-object p1, p0, Lcom/google/logging/type/a;->O:Ljava/lang/String;
 
     goto :goto_1
 
-    .line 27
     :sswitch_8
     invoke-virtual {p2}, Lcom/google/protobuf/q;->W()Ljava/lang/String;
 
     move-result-object p1
 
-    .line 28
     iput-object p1, p0, Lcom/google/logging/type/a;->M:Ljava/lang/String;
 
     goto :goto_1
 
-    .line 29
     :sswitch_9
     invoke-virtual {p2}, Lcom/google/protobuf/q;->W()Ljava/lang/String;
 
     move-result-object p1
 
-    .line 30
     iput-object p1, p0, Lcom/google/logging/type/a;->L:Ljava/lang/String;
 
     goto :goto_1
 
-    .line 31
     :sswitch_a
     invoke-virtual {p2}, Lcom/google/protobuf/q;->E()J
 
@@ -1661,7 +1495,6 @@
 
     goto :goto_1
 
-    .line 32
     :sswitch_b
     invoke-virtual {p2}, Lcom/google/protobuf/q;->D()I
 
@@ -1671,7 +1504,6 @@
 
     goto/16 :goto_1
 
-    .line 33
     :sswitch_c
     invoke-virtual {p2}, Lcom/google/protobuf/q;->E()J
 
@@ -1681,24 +1513,20 @@
 
     goto/16 :goto_1
 
-    .line 34
     :sswitch_d
     invoke-virtual {p2}, Lcom/google/protobuf/q;->W()Ljava/lang/String;
 
     move-result-object p1
 
-    .line 35
     iput-object p1, p0, Lcom/google/logging/type/a;->g:Ljava/lang/String;
 
     goto/16 :goto_1
 
-    .line 36
     :sswitch_e
     invoke-virtual {p2}, Lcom/google/protobuf/q;->W()Ljava/lang/String;
 
     move-result-object p1
 
-    .line 37
     iput-object p1, p0, Lcom/google/logging/type/a;->f:Ljava/lang/String;
     :try_end_1
     .catch Lcom/google/protobuf/InvalidProtocolBufferException; {:try_start_1 .. :try_end_1} :catch_1
@@ -1726,13 +1554,11 @@
     :catch_0
     move-exception p1
 
-    .line 38
     :try_start_2
     new-instance p2, Ljava/lang/RuntimeException;
 
     new-instance p3, Lcom/google/protobuf/InvalidProtocolBufferException;
 
-    .line 39
     invoke-virtual {p1}, Ljava/io/IOException;->getMessage()Ljava/lang/String;
 
     move-result-object p1
@@ -1750,7 +1576,6 @@
     :catch_1
     move-exception p1
 
-    .line 40
     new-instance p2, Ljava/lang/RuntimeException;
 
     invoke-virtual {p1, p0}, Lcom/google/protobuf/InvalidProtocolBufferException;->setUnfinishedMessage(Lcom/google/protobuf/i1;)Lcom/google/protobuf/InvalidProtocolBufferException;
@@ -1763,25 +1588,20 @@
     :try_end_2
     .catchall {:try_start_2 .. :try_end_2} :catchall_1
 
-    .line 41
     :goto_5
     throw p1
 
-    .line 42
     :cond_4
     :pswitch_2
     sget-object p1, Lcom/google/logging/type/a;->k0:Lcom/google/logging/type/a;
 
     return-object p1
 
-    .line 43
     :pswitch_3
     check-cast p2, Lcom/google/protobuf/GeneratedMessageLite$k;
 
-    .line 44
     check-cast p3, Lcom/google/logging/type/a;
 
-    .line 45
     iget-object p1, p0, Lcom/google/logging/type/a;->f:Ljava/lang/String;
 
     invoke-virtual {p1}, Ljava/lang/String;->isEmpty()Z
@@ -1794,7 +1614,6 @@
 
     iget-object v3, p3, Lcom/google/logging/type/a;->f:Ljava/lang/String;
 
-    .line 46
     invoke-virtual {v3}, Ljava/lang/String;->isEmpty()Z
 
     move-result v3
@@ -1803,14 +1622,12 @@
 
     iget-object v4, p3, Lcom/google/logging/type/a;->f:Ljava/lang/String;
 
-    .line 47
     invoke-interface {p2, p1, v0, v3, v4}, Lcom/google/protobuf/GeneratedMessageLite$k;->t(ZLjava/lang/String;ZLjava/lang/String;)Ljava/lang/String;
 
     move-result-object p1
 
     iput-object p1, p0, Lcom/google/logging/type/a;->f:Ljava/lang/String;
 
-    .line 48
     iget-object p1, p0, Lcom/google/logging/type/a;->g:Ljava/lang/String;
 
     invoke-virtual {p1}, Ljava/lang/String;->isEmpty()Z
@@ -1823,7 +1640,6 @@
 
     iget-object v3, p3, Lcom/google/logging/type/a;->g:Ljava/lang/String;
 
-    .line 49
     invoke-virtual {v3}, Ljava/lang/String;->isEmpty()Z
 
     move-result v3
@@ -1832,14 +1648,12 @@
 
     iget-object v4, p3, Lcom/google/logging/type/a;->g:Ljava/lang/String;
 
-    .line 50
     invoke-interface {p2, p1, v0, v3, v4}, Lcom/google/protobuf/GeneratedMessageLite$k;->t(ZLjava/lang/String;ZLjava/lang/String;)Ljava/lang/String;
 
     move-result-object p1
 
     iput-object p1, p0, Lcom/google/logging/type/a;->g:Ljava/lang/String;
 
-    .line 51
     iget-wide v5, p0, Lcom/google/logging/type/a;->p:J
 
     const-wide/16 v10, 0x0
@@ -1878,7 +1692,6 @@
 
     iput-wide v3, p0, Lcom/google/logging/type/a;->p:J
 
-    .line 52
     iget p1, p0, Lcom/google/logging/type/a;->J:I
 
     if-eqz p1, :cond_7
@@ -1909,7 +1722,6 @@
 
     iput p1, p0, Lcom/google/logging/type/a;->J:I
 
-    .line 53
     iget-wide v5, p0, Lcom/google/logging/type/a;->K:J
 
     cmp-long p1, v5, v10
@@ -1946,7 +1758,6 @@
 
     iput-wide v3, p0, Lcom/google/logging/type/a;->K:J
 
-    .line 54
     iget-object p1, p0, Lcom/google/logging/type/a;->L:Ljava/lang/String;
 
     invoke-virtual {p1}, Ljava/lang/String;->isEmpty()Z
@@ -1959,7 +1770,6 @@
 
     iget-object v3, p3, Lcom/google/logging/type/a;->L:Ljava/lang/String;
 
-    .line 55
     invoke-virtual {v3}, Ljava/lang/String;->isEmpty()Z
 
     move-result v3
@@ -1968,14 +1778,12 @@
 
     iget-object v4, p3, Lcom/google/logging/type/a;->L:Ljava/lang/String;
 
-    .line 56
     invoke-interface {p2, p1, v0, v3, v4}, Lcom/google/protobuf/GeneratedMessageLite$k;->t(ZLjava/lang/String;ZLjava/lang/String;)Ljava/lang/String;
 
     move-result-object p1
 
     iput-object p1, p0, Lcom/google/logging/type/a;->L:Ljava/lang/String;
 
-    .line 57
     iget-object p1, p0, Lcom/google/logging/type/a;->M:Ljava/lang/String;
 
     invoke-virtual {p1}, Ljava/lang/String;->isEmpty()Z
@@ -1988,7 +1796,6 @@
 
     iget-object v3, p3, Lcom/google/logging/type/a;->M:Ljava/lang/String;
 
-    .line 58
     invoke-virtual {v3}, Ljava/lang/String;->isEmpty()Z
 
     move-result v3
@@ -1997,14 +1804,12 @@
 
     iget-object v4, p3, Lcom/google/logging/type/a;->M:Ljava/lang/String;
 
-    .line 59
     invoke-interface {p2, p1, v0, v3, v4}, Lcom/google/protobuf/GeneratedMessageLite$k;->t(ZLjava/lang/String;ZLjava/lang/String;)Ljava/lang/String;
 
     move-result-object p1
 
     iput-object p1, p0, Lcom/google/logging/type/a;->M:Ljava/lang/String;
 
-    .line 60
     iget-object p1, p0, Lcom/google/logging/type/a;->N:Ljava/lang/String;
 
     invoke-virtual {p1}, Ljava/lang/String;->isEmpty()Z
@@ -2017,7 +1822,6 @@
 
     iget-object v3, p3, Lcom/google/logging/type/a;->N:Ljava/lang/String;
 
-    .line 61
     invoke-virtual {v3}, Ljava/lang/String;->isEmpty()Z
 
     move-result v3
@@ -2026,14 +1830,12 @@
 
     iget-object v4, p3, Lcom/google/logging/type/a;->N:Ljava/lang/String;
 
-    .line 62
     invoke-interface {p2, p1, v0, v3, v4}, Lcom/google/protobuf/GeneratedMessageLite$k;->t(ZLjava/lang/String;ZLjava/lang/String;)Ljava/lang/String;
 
     move-result-object p1
 
     iput-object p1, p0, Lcom/google/logging/type/a;->N:Ljava/lang/String;
 
-    .line 63
     iget-object p1, p0, Lcom/google/logging/type/a;->O:Ljava/lang/String;
 
     invoke-virtual {p1}, Ljava/lang/String;->isEmpty()Z
@@ -2046,7 +1848,6 @@
 
     iget-object v3, p3, Lcom/google/logging/type/a;->O:Ljava/lang/String;
 
-    .line 64
     invoke-virtual {v3}, Ljava/lang/String;->isEmpty()Z
 
     move-result v3
@@ -2055,14 +1856,12 @@
 
     iget-object v4, p3, Lcom/google/logging/type/a;->O:Ljava/lang/String;
 
-    .line 65
     invoke-interface {p2, p1, v0, v3, v4}, Lcom/google/protobuf/GeneratedMessageLite$k;->t(ZLjava/lang/String;ZLjava/lang/String;)Ljava/lang/String;
 
     move-result-object p1
 
     iput-object p1, p0, Lcom/google/logging/type/a;->O:Ljava/lang/String;
 
-    .line 66
     iget-object p1, p0, Lcom/google/logging/type/a;->P:Lcom/google/protobuf/u;
 
     iget-object v0, p3, Lcom/google/logging/type/a;->P:Lcom/google/protobuf/u;
@@ -2075,7 +1874,6 @@
 
     iput-object p1, p0, Lcom/google/logging/type/a;->P:Lcom/google/protobuf/u;
 
-    .line 67
     iget-boolean p1, p0, Lcom/google/logging/type/a;->Q:Z
 
     iget-boolean v0, p3, Lcom/google/logging/type/a;->Q:Z
@@ -2086,7 +1884,6 @@
 
     iput-boolean p1, p0, Lcom/google/logging/type/a;->Q:Z
 
-    .line 68
     iget-boolean p1, p0, Lcom/google/logging/type/a;->R:Z
 
     iget-boolean v0, p3, Lcom/google/logging/type/a;->R:Z
@@ -2097,7 +1894,6 @@
 
     iput-boolean p1, p0, Lcom/google/logging/type/a;->R:Z
 
-    .line 69
     iget-boolean p1, p0, Lcom/google/logging/type/a;->S:Z
 
     iget-boolean v0, p3, Lcom/google/logging/type/a;->S:Z
@@ -2108,7 +1904,6 @@
 
     iput-boolean p1, p0, Lcom/google/logging/type/a;->S:Z
 
-    .line 70
     iget-wide v5, p0, Lcom/google/logging/type/a;->T:J
 
     cmp-long p1, v5, v10
@@ -2145,7 +1940,6 @@
 
     iput-wide v0, p0, Lcom/google/logging/type/a;->T:J
 
-    .line 71
     iget-object p1, p0, Lcom/google/logging/type/a;->U:Ljava/lang/String;
 
     invoke-virtual {p1}, Ljava/lang/String;->isEmpty()Z
@@ -2158,7 +1952,6 @@
 
     iget-object v1, p3, Lcom/google/logging/type/a;->U:Ljava/lang/String;
 
-    .line 72
     invoke-virtual {v1}, Ljava/lang/String;->isEmpty()Z
 
     move-result v1
@@ -2167,19 +1960,16 @@
 
     iget-object p3, p3, Lcom/google/logging/type/a;->U:Ljava/lang/String;
 
-    .line 73
     invoke-interface {p2, p1, v0, v1, p3}, Lcom/google/protobuf/GeneratedMessageLite$k;->t(ZLjava/lang/String;ZLjava/lang/String;)Ljava/lang/String;
 
     move-result-object p1
 
     iput-object p1, p0, Lcom/google/logging/type/a;->U:Ljava/lang/String;
 
-    .line 74
     sget-object p1, Lcom/google/protobuf/GeneratedMessageLite$j;->a:Lcom/google/protobuf/GeneratedMessageLite$j;
 
     return-object p0
 
-    .line 75
     :pswitch_4
     new-instance p1, Lcom/google/logging/type/a$b;
 
@@ -2190,13 +1980,11 @@
     :pswitch_5
     return-object v0
 
-    .line 76
     :pswitch_6
     sget-object p1, Lcom/google/logging/type/a;->k0:Lcom/google/logging/type/a;
 
     return-object p1
 
-    .line 77
     :pswitch_7
     new-instance p1, Lcom/google/logging/type/a;
 
@@ -2240,7 +2028,6 @@
 .method public U5()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/logging/type/a;->M:Ljava/lang/String;
 
     return-object v0
@@ -2249,7 +2036,6 @@
 .method public Uc()Z
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/logging/type/a;->P:Lcom/google/protobuf/u;
 
     if-eqz v0, :cond_0
@@ -2268,7 +2054,6 @@
 .method public Y6()I
     .locals 6
 
-    .line 1
     iget v0, p0, Lcom/google/protobuf/GeneratedMessageLite;->c:I
 
     const/4 v1, -0x1
@@ -2280,7 +2065,6 @@
     :cond_0
     const/4 v0, 0x0
 
-    .line 2
     iget-object v1, p0, Lcom/google/logging/type/a;->f:Ljava/lang/String;
 
     invoke-virtual {v1}, Ljava/lang/String;->isEmpty()Z
@@ -2291,7 +2075,6 @@
 
     const/4 v1, 0x1
 
-    .line 3
     invoke-virtual {p0}, Lcom/google/logging/type/a;->e4()Ljava/lang/String;
 
     move-result-object v2
@@ -2302,7 +2085,6 @@
 
     add-int/2addr v0, v1
 
-    .line 4
     :cond_1
     iget-object v1, p0, Lcom/google/logging/type/a;->g:Ljava/lang/String;
 
@@ -2314,7 +2096,6 @@
 
     const/4 v1, 0x2
 
-    .line 5
     invoke-virtual {p0}, Lcom/google/logging/type/a;->kd()Ljava/lang/String;
 
     move-result-object v2
@@ -2325,7 +2106,6 @@
 
     add-int/2addr v0, v1
 
-    .line 6
     :cond_2
     iget-wide v1, p0, Lcom/google/logging/type/a;->p:J
 
@@ -2337,14 +2117,12 @@
 
     const/4 v5, 0x3
 
-    .line 7
     invoke-static {v5, v1, v2}, Lcom/google/protobuf/CodedOutputStream;->E(IJ)I
 
     move-result v1
 
     add-int/2addr v0, v1
 
-    .line 8
     :cond_3
     iget v1, p0, Lcom/google/logging/type/a;->J:I
 
@@ -2352,14 +2130,12 @@
 
     const/4 v2, 0x4
 
-    .line 9
     invoke-static {v2, v1}, Lcom/google/protobuf/CodedOutputStream;->C(II)I
 
     move-result v1
 
     add-int/2addr v0, v1
 
-    .line 10
     :cond_4
     iget-wide v1, p0, Lcom/google/logging/type/a;->K:J
 
@@ -2369,14 +2145,12 @@
 
     const/4 v5, 0x5
 
-    .line 11
     invoke-static {v5, v1, v2}, Lcom/google/protobuf/CodedOutputStream;->E(IJ)I
 
     move-result v1
 
     add-int/2addr v0, v1
 
-    .line 12
     :cond_5
     iget-object v1, p0, Lcom/google/logging/type/a;->L:Ljava/lang/String;
 
@@ -2388,7 +2162,6 @@
 
     const/4 v1, 0x6
 
-    .line 13
     invoke-virtual {p0}, Lcom/google/logging/type/a;->C1()Ljava/lang/String;
 
     move-result-object v2
@@ -2399,7 +2172,6 @@
 
     add-int/2addr v0, v1
 
-    .line 14
     :cond_6
     iget-object v1, p0, Lcom/google/logging/type/a;->M:Ljava/lang/String;
 
@@ -2411,7 +2183,6 @@
 
     const/4 v1, 0x7
 
-    .line 15
     invoke-virtual {p0}, Lcom/google/logging/type/a;->U5()Ljava/lang/String;
 
     move-result-object v2
@@ -2422,7 +2193,6 @@
 
     add-int/2addr v0, v1
 
-    .line 16
     :cond_7
     iget-object v1, p0, Lcom/google/logging/type/a;->O:Ljava/lang/String;
 
@@ -2434,7 +2204,6 @@
 
     const/16 v1, 0x8
 
-    .line 17
     invoke-virtual {p0}, Lcom/google/logging/type/a;->ge()Ljava/lang/String;
 
     move-result-object v2
@@ -2445,7 +2214,6 @@
 
     add-int/2addr v0, v1
 
-    .line 18
     :cond_8
     iget-boolean v1, p0, Lcom/google/logging/type/a;->R:Z
 
@@ -2453,14 +2221,12 @@
 
     const/16 v2, 0x9
 
-    .line 19
     invoke-static {v2, v1}, Lcom/google/protobuf/CodedOutputStream;->i(IZ)I
 
     move-result v1
 
     add-int/2addr v0, v1
 
-    .line 20
     :cond_9
     iget-boolean v1, p0, Lcom/google/logging/type/a;->S:Z
 
@@ -2468,14 +2234,12 @@
 
     const/16 v2, 0xa
 
-    .line 21
     invoke-static {v2, v1}, Lcom/google/protobuf/CodedOutputStream;->i(IZ)I
 
     move-result v1
 
     add-int/2addr v0, v1
 
-    .line 22
     :cond_a
     iget-boolean v1, p0, Lcom/google/logging/type/a;->Q:Z
 
@@ -2483,14 +2247,12 @@
 
     const/16 v2, 0xb
 
-    .line 23
     invoke-static {v2, v1}, Lcom/google/protobuf/CodedOutputStream;->i(IZ)I
 
     move-result v1
 
     add-int/2addr v0, v1
 
-    .line 24
     :cond_b
     iget-wide v1, p0, Lcom/google/logging/type/a;->T:J
 
@@ -2500,14 +2262,12 @@
 
     const/16 v3, 0xc
 
-    .line 25
     invoke-static {v3, v1, v2}, Lcom/google/protobuf/CodedOutputStream;->E(IJ)I
 
     move-result v1
 
     add-int/2addr v0, v1
 
-    .line 26
     :cond_c
     iget-object v1, p0, Lcom/google/logging/type/a;->N:Ljava/lang/String;
 
@@ -2519,7 +2279,6 @@
 
     const/16 v1, 0xd
 
-    .line 27
     invoke-virtual {p0}, Lcom/google/logging/type/a;->o8()Ljava/lang/String;
 
     move-result-object v2
@@ -2530,7 +2289,6 @@
 
     add-int/2addr v0, v1
 
-    .line 28
     :cond_d
     iget-object v1, p0, Lcom/google/logging/type/a;->P:Lcom/google/protobuf/u;
 
@@ -2538,7 +2296,6 @@
 
     const/16 v1, 0xe
 
-    .line 29
     invoke-virtual {p0}, Lcom/google/logging/type/a;->h1()Lcom/google/protobuf/u;
 
     move-result-object v2
@@ -2549,7 +2306,6 @@
 
     add-int/2addr v0, v1
 
-    .line 30
     :cond_e
     iget-object v1, p0, Lcom/google/logging/type/a;->U:Ljava/lang/String;
 
@@ -2561,7 +2317,6 @@
 
     const/16 v1, 0xf
 
-    .line 31
     invoke-virtual {p0}, Lcom/google/logging/type/a;->getProtocol()Ljava/lang/String;
 
     move-result-object v2
@@ -2572,7 +2327,6 @@
 
     add-int/2addr v0, v1
 
-    .line 32
     :cond_f
     iput v0, p0, Lcom/google/protobuf/GeneratedMessageLite;->c:I
 
@@ -2582,7 +2336,6 @@
 .method public d9()Z
     .locals 1
 
-    .line 1
     iget-boolean v0, p0, Lcom/google/logging/type/a;->Q:Z
 
     return v0
@@ -2591,7 +2344,6 @@
 .method public e4()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/logging/type/a;->f:Ljava/lang/String;
 
     return-object v0
@@ -2600,7 +2352,6 @@
 .method public ge()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/logging/type/a;->O:Ljava/lang/String;
 
     return-object v0
@@ -2609,7 +2360,6 @@
 .method public getProtocol()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/logging/type/a;->U:Ljava/lang/String;
 
     return-object v0
@@ -2618,7 +2368,6 @@
 .method public getStatus()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lcom/google/logging/type/a;->J:I
 
     return v0
@@ -2627,7 +2376,6 @@
 .method public h1()Lcom/google/protobuf/u;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/logging/type/a;->P:Lcom/google/protobuf/u;
 
     if-nez v0, :cond_0
@@ -2643,7 +2391,6 @@
 .method public je()J
     .locals 2
 
-    .line 1
     iget-wide v0, p0, Lcom/google/logging/type/a;->T:J
 
     return-wide v0
@@ -2652,7 +2399,6 @@
 .method public ka()J
     .locals 2
 
-    .line 1
     iget-wide v0, p0, Lcom/google/logging/type/a;->p:J
 
     return-wide v0
@@ -2661,7 +2407,6 @@
 .method public kd()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/logging/type/a;->g:Ljava/lang/String;
 
     return-object v0
@@ -2670,7 +2415,6 @@
 .method public o8()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/logging/type/a;->N:Ljava/lang/String;
 
     return-object v0
@@ -2679,7 +2423,6 @@
 .method public r6()Lcom/google/protobuf/ByteString;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/logging/type/a;->L:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/google/protobuf/ByteString;->copyFromUtf8(Ljava/lang/String;)Lcom/google/protobuf/ByteString;
@@ -2692,7 +2435,6 @@
 .method public s9()Lcom/google/protobuf/ByteString;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/logging/type/a;->U:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/google/protobuf/ByteString;->copyFromUtf8(Ljava/lang/String;)Lcom/google/protobuf/ByteString;
@@ -2705,7 +2447,6 @@
 .method public t8()Z
     .locals 1
 
-    .line 1
     iget-boolean v0, p0, Lcom/google/logging/type/a;->R:Z
 
     return v0
@@ -2714,7 +2455,6 @@
 .method public z7()J
     .locals 2
 
-    .line 1
     iget-wide v0, p0, Lcom/google/logging/type/a;->K:J
 
     return-wide v0
@@ -2723,7 +2463,6 @@
 .method public z8()Lcom/google/protobuf/ByteString;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/logging/type/a;->N:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/google/protobuf/ByteString;->copyFromUtf8(Ljava/lang/String;)Lcom/google/protobuf/ByteString;
@@ -2741,7 +2480,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/logging/type/a;->f:Ljava/lang/String;
 
     invoke-virtual {v0}, Ljava/lang/String;->isEmpty()Z
@@ -2752,14 +2490,12 @@
 
     const/4 v0, 0x1
 
-    .line 2
     invoke-virtual {p0}, Lcom/google/logging/type/a;->e4()Ljava/lang/String;
 
     move-result-object v1
 
     invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/CodedOutputStream;->o1(ILjava/lang/String;)V
 
-    .line 3
     :cond_0
     iget-object v0, p0, Lcom/google/logging/type/a;->g:Ljava/lang/String;
 
@@ -2771,14 +2507,12 @@
 
     const/4 v0, 0x2
 
-    .line 4
     invoke-virtual {p0}, Lcom/google/logging/type/a;->kd()Ljava/lang/String;
 
     move-result-object v1
 
     invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/CodedOutputStream;->o1(ILjava/lang/String;)V
 
-    .line 5
     :cond_1
     iget-wide v0, p0, Lcom/google/logging/type/a;->p:J
 
@@ -2790,10 +2524,8 @@
 
     const/4 v4, 0x3
 
-    .line 6
     invoke-virtual {p1, v4, v0, v1}, Lcom/google/protobuf/CodedOutputStream;->Q0(IJ)V
 
-    .line 7
     :cond_2
     iget v0, p0, Lcom/google/logging/type/a;->J:I
 
@@ -2801,10 +2533,8 @@
 
     const/4 v1, 0x4
 
-    .line 8
     invoke-virtual {p1, v1, v0}, Lcom/google/protobuf/CodedOutputStream;->O0(II)V
 
-    .line 9
     :cond_3
     iget-wide v0, p0, Lcom/google/logging/type/a;->K:J
 
@@ -2814,10 +2544,8 @@
 
     const/4 v4, 0x5
 
-    .line 10
     invoke-virtual {p1, v4, v0, v1}, Lcom/google/protobuf/CodedOutputStream;->Q0(IJ)V
 
-    .line 11
     :cond_4
     iget-object v0, p0, Lcom/google/logging/type/a;->L:Ljava/lang/String;
 
@@ -2829,14 +2557,12 @@
 
     const/4 v0, 0x6
 
-    .line 12
     invoke-virtual {p0}, Lcom/google/logging/type/a;->C1()Ljava/lang/String;
 
     move-result-object v1
 
     invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/CodedOutputStream;->o1(ILjava/lang/String;)V
 
-    .line 13
     :cond_5
     iget-object v0, p0, Lcom/google/logging/type/a;->M:Ljava/lang/String;
 
@@ -2848,14 +2574,12 @@
 
     const/4 v0, 0x7
 
-    .line 14
     invoke-virtual {p0}, Lcom/google/logging/type/a;->U5()Ljava/lang/String;
 
     move-result-object v1
 
     invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/CodedOutputStream;->o1(ILjava/lang/String;)V
 
-    .line 15
     :cond_6
     iget-object v0, p0, Lcom/google/logging/type/a;->O:Ljava/lang/String;
 
@@ -2867,14 +2591,12 @@
 
     const/16 v0, 0x8
 
-    .line 16
     invoke-virtual {p0}, Lcom/google/logging/type/a;->ge()Ljava/lang/String;
 
     move-result-object v1
 
     invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/CodedOutputStream;->o1(ILjava/lang/String;)V
 
-    .line 17
     :cond_7
     iget-boolean v0, p0, Lcom/google/logging/type/a;->R:Z
 
@@ -2882,10 +2604,8 @@
 
     const/16 v1, 0x9
 
-    .line 18
     invoke-virtual {p1, v1, v0}, Lcom/google/protobuf/CodedOutputStream;->t0(IZ)V
 
-    .line 19
     :cond_8
     iget-boolean v0, p0, Lcom/google/logging/type/a;->S:Z
 
@@ -2893,10 +2613,8 @@
 
     const/16 v1, 0xa
 
-    .line 20
     invoke-virtual {p1, v1, v0}, Lcom/google/protobuf/CodedOutputStream;->t0(IZ)V
 
-    .line 21
     :cond_9
     iget-boolean v0, p0, Lcom/google/logging/type/a;->Q:Z
 
@@ -2904,10 +2622,8 @@
 
     const/16 v1, 0xb
 
-    .line 22
     invoke-virtual {p1, v1, v0}, Lcom/google/protobuf/CodedOutputStream;->t0(IZ)V
 
-    .line 23
     :cond_a
     iget-wide v0, p0, Lcom/google/logging/type/a;->T:J
 
@@ -2917,10 +2633,8 @@
 
     const/16 v2, 0xc
 
-    .line 24
     invoke-virtual {p1, v2, v0, v1}, Lcom/google/protobuf/CodedOutputStream;->Q0(IJ)V
 
-    .line 25
     :cond_b
     iget-object v0, p0, Lcom/google/logging/type/a;->N:Ljava/lang/String;
 
@@ -2932,14 +2646,12 @@
 
     const/16 v0, 0xd
 
-    .line 26
     invoke-virtual {p0}, Lcom/google/logging/type/a;->o8()Ljava/lang/String;
 
     move-result-object v1
 
     invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/CodedOutputStream;->o1(ILjava/lang/String;)V
 
-    .line 27
     :cond_c
     iget-object v0, p0, Lcom/google/logging/type/a;->P:Lcom/google/protobuf/u;
 
@@ -2947,14 +2659,12 @@
 
     const/16 v0, 0xe
 
-    .line 28
     invoke-virtual {p0}, Lcom/google/logging/type/a;->h1()Lcom/google/protobuf/u;
 
     move-result-object v1
 
     invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/CodedOutputStream;->S0(ILcom/google/protobuf/i1;)V
 
-    .line 29
     :cond_d
     iget-object v0, p0, Lcom/google/logging/type/a;->U:Ljava/lang/String;
 
@@ -2966,7 +2676,6 @@
 
     const/16 v0, 0xf
 
-    .line 30
     invoke-virtual {p0}, Lcom/google/logging/type/a;->getProtocol()Ljava/lang/String;
 
     move-result-object v1

@@ -25,7 +25,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -36,7 +35,6 @@
 .method public bridge synthetic a(Ljava/lang/Object;Ljava/io/File;Lcom/bumptech/glide/load/f;)Z
     .locals 0
 
-    .line 1
     check-cast p1, Lcom/bumptech/glide/load/engine/s;
 
     invoke-virtual {p0, p1, p2, p3}, Lcom/bumptech/glide/integration/webp/decoder/l;->c(Lcom/bumptech/glide/load/engine/s;Ljava/io/File;Lcom/bumptech/glide/load/f;)Z
@@ -49,7 +47,6 @@
 .method public b(Lcom/bumptech/glide/load/f;)Lcom/bumptech/glide/load/EncodeStrategy;
     .locals 0
 
-    .line 1
     sget-object p1, Lcom/bumptech/glide/load/EncodeStrategy;->SOURCE:Lcom/bumptech/glide/load/EncodeStrategy;
 
     return-object p1
@@ -69,14 +66,12 @@
         }
     .end annotation
 
-    .line 1
     invoke-interface {p1}, Lcom/bumptech/glide/load/engine/s;->get()Ljava/lang/Object;
 
     move-result-object p1
 
     check-cast p1, Lcom/bumptech/glide/integration/webp/decoder/k;
 
-    .line 2
     :try_start_0
     invoke-virtual {p1}, Lcom/bumptech/glide/integration/webp/decoder/k;->c()Ljava/nio/ByteBuffer;
 
@@ -97,7 +92,6 @@
 
     const-string p3, "WebpEncoder"
 
-    .line 3
     invoke-static {p3, p2}, Landroid/util/Log;->isLoggable(Ljava/lang/String;I)Z
 
     move-result p2
@@ -106,7 +100,6 @@
 
     const-string p2, "Failed to encode WebP drawable data"
 
-    .line 4
     invoke-static {p3, p2, p1}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
 
     :cond_0

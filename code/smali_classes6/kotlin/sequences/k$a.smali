@@ -56,12 +56,10 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcotlin/sequences/k$a;->c:Lcotlin/sequences/k;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     invoke-static {p1}, Lcotlin/sequences/k;->c(Lcotlin/sequences/k;)Lcotlin/sequences/m;
 
     move-result-object p1
@@ -80,7 +78,6 @@
 .method public final a()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lcotlin/sequences/k$a;->b:I
 
     return v0
@@ -99,7 +96,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcotlin/sequences/k$a;->a:Ljava/util/Iterator;
 
     return-object v0
@@ -118,7 +114,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     new-instance v0, Lcotlin/collections/i0;
 
     iget v1, p0, Lcotlin/sequences/k$a;->b:I
@@ -146,7 +141,6 @@
 .method public final d(I)V
     .locals 0
 
-    .line 1
     iput p1, p0, Lcotlin/sequences/k$a;->b:I
 
     return-void
@@ -155,7 +149,6 @@
 .method public hasNext()Z
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcotlin/sequences/k$a;->a:Ljava/util/Iterator;
 
     invoke-interface {v0}, Ljava/util/Iterator;->hasNext()Z
@@ -168,7 +161,6 @@
 .method public bridge synthetic next()Ljava/lang/Object;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcotlin/sequences/k$a;->c()Lcotlin/collections/i0;
 
     move-result-object v0

@@ -34,7 +34,6 @@
 .method constructor <init>(Lcom/commsource/beautyplus/m0/a;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/beautyplus/m0/a$a;->a:Lcom/commsource/beautyplus/m0/a;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -55,10 +54,8 @@
 
     const-string/jumbo v1, "\u622a\u53d6\u56fe\u7247\u5931\u8d25"
 
-    .line 1
     invoke-static {v0, v1}, Lcom/meitu/library/util/Debug/Debug;->e(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 2
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -75,10 +72,8 @@
 
     const-string/jumbo v2, "\u622a\u53d6\u56fe\u7247\u6210\u529f"
 
-    .line 1
     invoke-static {v1, v2}, Lcom/meitu/library/util/Debug/Debug;->e(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/beautyplus/m0/a$a;->a:Lcom/commsource/beautyplus/m0/a;
 
     invoke-virtual {p1}, Lcom/commsource/beautyplus/j0/c/a$b;->a()Ljava/lang/String;
@@ -87,7 +82,6 @@
 
     invoke-static {v1, p1}, Lcom/commsource/beautyplus/m0/a;->b(Lcom/commsource/beautyplus/m0/a;Ljava/lang/String;)Ljava/lang/String;
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -100,7 +94,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Lcom/commsource/beautyplus/j0/c/a$b;
 
     invoke-virtual {p0, p1}, Lcom/commsource/beautyplus/m0/a$a;->b(Lcom/commsource/beautyplus/j0/c/a$b;)V

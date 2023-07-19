@@ -23,10 +23,8 @@
 .method private constructor <init>(Lcom/commsource/beautyplus/base/b/c;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/commsource/beautyplus/base/b/b;->a:Lcom/commsource/beautyplus/base/b/c;
 
     return-void
@@ -39,7 +37,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0, p1, p2}, Lcom/commsource/beautyplus/base/b/b;->d(Ljava/lang/Integer;Lcom/commsource/beautyplus/base/b/a$c;)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -54,23 +51,19 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/beautyplus/base/b/b;->b:Lcom/commsource/beautyplus/base/b/b;
 
     if-nez v1, :cond_1
 
-    .line 2
     const-class v1, Lcom/commsource/beautyplus/base/b/b;
 
     monitor-enter v1
 
-    .line 3
     :try_start_0
     sget-object v2, Lcom/commsource/beautyplus/base/b/b;->b:Lcom/commsource/beautyplus/base/b/b;
 
     if-nez v2, :cond_0
 
-    .line 4
     new-instance v2, Lcom/commsource/beautyplus/base/b/b;
 
     new-instance v3, Lcom/commsource/util/c2;
@@ -81,7 +74,6 @@
 
     sput-object v2, Lcom/commsource/beautyplus/base/b/b;->b:Lcom/commsource/beautyplus/base/b/b;
 
-    .line 5
     :cond_0
     monitor-exit v1
 
@@ -98,7 +90,6 @@
 
     throw v2
 
-    .line 6
     :cond_1
     :goto_0
     sget-object v1, Lcom/commsource/beautyplus/base/b/b;->b:Lcom/commsource/beautyplus/base/b/b;
@@ -125,12 +116,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/beautyplus/base/b/b;->a:Lcom/commsource/beautyplus/base/b/c;
 
     invoke-interface {v1, p1, p2}, Lcom/commsource/beautyplus/base/b/c;->a(Ljava/lang/Integer;Lcom/commsource/beautyplus/base/b/a$c;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -158,17 +147,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p1, p2}, Lcom/commsource/beautyplus/base/b/a;->e(Lcom/commsource/beautyplus/base/b/a$a;)V
 
-    .line 2
     new-instance p2, Lcom/commsource/beautyplus/base/b/b$b;
 
     invoke-direct {p2, p3, p0}, Lcom/commsource/beautyplus/base/b/b$b;-><init>(Lcom/commsource/beautyplus/base/b/a$c;Lcom/commsource/beautyplus/base/b/b;)V
 
     invoke-virtual {p1, p2}, Lcom/commsource/beautyplus/base/b/a;->f(Lcom/commsource/beautyplus/base/b/a$c;)V
 
-    .line 3
     iget-object p2, p0, Lcom/commsource/beautyplus/base/b/b;->a:Lcom/commsource/beautyplus/base/b/c;
 
     new-instance p3, Lcom/commsource/beautyplus/base/b/b$a;
@@ -199,7 +185,6 @@
 
     invoke-interface {p2, p3}, Lcom/commsource/beautyplus/base/b/c;->b(Lcom/commsource/util/u2/a;)V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -221,12 +206,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/beautyplus/base/b/b;->a:Lcom/commsource/beautyplus/base/b/c;
 
     invoke-interface {v1, p1, p2}, Lcom/commsource/beautyplus/base/b/c;->c(Lcom/commsource/beautyplus/base/b/a$b;Lcom/commsource/beautyplus/base/b/a$c;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

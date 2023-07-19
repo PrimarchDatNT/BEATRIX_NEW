@@ -888,223 +888,152 @@
     .annotation build Landroidx/room/Ignore;
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Lcom/meitu/template/bean/BaseBean;-><init>()V
 
     const/4 v0, 0x0
 
-    .line 2
     iput v0, p0, Lcom/meitu/template/bean/ArMaterial;->number:I
 
     const/4 v1, -0x1
 
-    .line 3
     iput v1, p0, Lcom/meitu/template/bean/ArMaterial;->sort:I
 
-    .line 4
     iput v0, p0, Lcom/meitu/template/bean/ArMaterial;->versionControl:I
 
-    .line 5
     iput v0, p0, Lcom/meitu/template/bean/ArMaterial;->isHot:I
 
-    .line 6
     iput v1, p0, Lcom/meitu/template/bean/ArMaterial;->hotSort:I
 
     const-wide/16 v2, 0x0
 
-    .line 7
     iput-wide v2, p0, Lcom/meitu/template/bean/ArMaterial;->hotEndTime:J
 
-    .line 8
     iput v0, p0, Lcom/meitu/template/bean/ArMaterial;->interactive:I
 
-    .line 9
     iput v0, p0, Lcom/meitu/template/bean/ArMaterial;->autoDownload:I
 
-    .line 10
     iput-wide v2, p0, Lcom/meitu/template/bean/ArMaterial;->isNew:J
 
-    .line 11
     iput v1, p0, Lcom/meitu/template/bean/ArMaterial;->newSort:I
 
-    .line 12
     iput-wide v2, p0, Lcom/meitu/template/bean/ArMaterial;->redTime:J
 
-    .line 13
     iput-wide v2, p0, Lcom/meitu/template/bean/ArMaterial;->newEndTime:J
 
-    .line 14
     iput-wide v2, p0, Lcom/meitu/template/bean/ArMaterial;->endTime:J
 
-    .line 15
     iput v0, p0, Lcom/meitu/template/bean/ArMaterial;->weight:I
 
-    .line 16
     iput v0, p0, Lcom/meitu/template/bean/ArMaterial;->afterWeight:I
 
-    .line 17
     iput v0, p0, Lcom/meitu/template/bean/ArMaterial;->bgmFlag:I
 
-    .line 18
     iput v0, p0, Lcom/meitu/template/bean/ArMaterial;->dbgEnable:I
 
-    .line 19
     iput v0, p0, Lcom/meitu/template/bean/ArMaterial;->is3D:I
 
-    .line 20
     iput v0, p0, Lcom/meitu/template/bean/ArMaterial;->featuredSort:I
 
-    .line 21
     iput v0, p0, Lcom/meitu/template/bean/ArMaterial;->isFeatured:I
 
-    .line 22
     iput v0, p0, Lcom/meitu/template/bean/ArMaterial;->isCollected:I
 
-    .line 23
     iput v0, p0, Lcom/meitu/template/bean/ArMaterial;->isDownload:I
 
-    .line 24
     iput v0, p0, Lcom/meitu/template/bean/ArMaterial;->isDownloading:I
 
-    .line 25
     iput-wide v2, p0, Lcom/meitu/template/bean/ArMaterial;->downloadTime:J
 
-    .line 26
     iput v0, p0, Lcom/meitu/template/bean/ArMaterial;->isHideRed:I
 
-    .line 27
     iput v0, p0, Lcom/meitu/template/bean/ArMaterial;->groupNumber:I
 
-    .line 28
     iput v0, p0, Lcom/meitu/template/bean/ArMaterial;->isBgDownload:I
 
-    .line 29
     iput v0, p0, Lcom/meitu/template/bean/ArMaterial;->isBgDownloading:I
 
-    .line 30
     iput v0, p0, Lcom/meitu/template/bean/ArMaterial;->is3DDownload:I
 
-    .line 31
     iput v0, p0, Lcom/meitu/template/bean/ArMaterial;->is3DDownloading:I
 
-    .line 32
     iput-wide v2, p0, Lcom/meitu/template/bean/ArMaterial;->endUseTime:J
 
-    .line 33
     iput v0, p0, Lcom/meitu/template/bean/ArMaterial;->isDyeHair:I
 
-    .line 34
     iput v0, p0, Lcom/meitu/template/bean/ArMaterial;->isDyeHairDownload:I
 
-    .line 35
     iput v0, p0, Lcom/meitu/template/bean/ArMaterial;->isDyeHairDownloading:I
 
-    .line 36
     iput-wide v2, p0, Lcom/meitu/template/bean/ArMaterial;->collectionTime:J
 
-    .line 37
     iput v0, p0, Lcom/meitu/template/bean/ArMaterial;->isHumanPosture:I
 
-    .line 38
     iput v0, p0, Lcom/meitu/template/bean/ArMaterial;->isHumanDownload:I
 
-    .line 39
     iput v0, p0, Lcom/meitu/template/bean/ArMaterial;->isHumanDownloading:I
 
-    .line 40
     iput v0, p0, Lcom/meitu/template/bean/ArMaterial;->isSwitching:I
 
-    .line 41
     iput v0, p0, Lcom/meitu/template/bean/ArMaterial;->isPhysical:I
 
-    .line 42
     iput v0, p0, Lcom/meitu/template/bean/ArMaterial;->isTouch:I
 
-    .line 43
     iput v1, p0, Lcom/meitu/template/bean/ArMaterial;->regionHotSort:I
 
-    .line 44
     iput v0, p0, Lcom/meitu/template/bean/ArMaterial;->isAnimalDownload:I
 
-    .line 45
     iput v0, p0, Lcom/meitu/template/bean/ArMaterial;->isPet:I
 
-    .line 46
     iput v0, p0, Lcom/meitu/template/bean/ArMaterial;->enableText:I
 
-    .line 47
     iput v0, p0, Lcom/meitu/template/bean/ArMaterial;->isAfterShare:I
 
-    .line 48
     iput v0, p0, Lcom/meitu/template/bean/ArMaterial;->isShareLock:I
 
-    .line 49
     iput v0, p0, Lcom/meitu/template/bean/ArMaterial;->isSkeletal:I
 
-    .line 50
     iput v0, p0, Lcom/meitu/template/bean/ArMaterial;->isSkeletalDownload:I
 
-    .line 51
     iput v0, p0, Lcom/meitu/template/bean/ArMaterial;->isFace3dV2:I
 
-    .line 52
     iput v0, p0, Lcom/meitu/template/bean/ArMaterial;->isNeckLockPoint:I
 
-    .line 53
     iput v0, p0, Lcom/meitu/template/bean/ArMaterial;->isNeckLockDownloaded:I
 
-    .line 54
     iput v0, p0, Lcom/meitu/template/bean/ArMaterial;->isFace3dV2Download:I
 
-    .line 55
     iput v0, p0, Lcom/meitu/template/bean/ArMaterial;->arCoreType:I
 
-    .line 56
     iput v1, p0, Lcom/meitu/template/bean/ArMaterial;->makeLevel:I
 
-    .line 57
     iput v1, p0, Lcom/meitu/template/bean/ArMaterial;->beautyLevel:I
 
-    .line 58
     iput v0, p0, Lcom/meitu/template/bean/ArMaterial;->locations:I
 
-    .line 59
     iput v0, p0, Lcom/meitu/template/bean/ArMaterial;->isHandPose:I
 
-    .line 60
     iput v0, p0, Lcom/meitu/template/bean/ArMaterial;->isNeedWaterMark:I
 
-    .line 61
     iput v0, p0, Lcom/meitu/template/bean/ArMaterial;->ipStoreId:I
 
-    .line 62
     iput v0, p0, Lcom/meitu/template/bean/ArMaterial;->isLockCamera:I
 
-    .line 63
     iput-boolean v0, p0, Lcom/meitu/template/bean/ArMaterial;->isShowPaidIcon:Z
 
-    .line 64
     iput v0, p0, Lcom/meitu/template/bean/ArMaterial;->arMaterialPaidInfoNumber:I
 
-    .line 65
     iput v0, p0, Lcom/meitu/template/bean/ArMaterial;->downloadProgress:I
 
-    .line 66
     iput-boolean v0, p0, Lcom/meitu/template/bean/ArMaterial;->isTravelArUsed:Z
 
-    .line 67
     iput v0, p0, Lcom/meitu/template/bean/ArMaterial;->currentArIndex:I
 
-    .line 68
     iput v0, p0, Lcom/meitu/template/bean/ArMaterial;->rankValue:I
 
-    .line 69
     iput-boolean v0, p0, Lcom/meitu/template/bean/ArMaterial;->changeMakeAndBeautyLevel:Z
 
-    .line 70
     iput v0, p0, Lcom/meitu/template/bean/ArMaterial;->clickGroupNumber:I
 
-    .line 71
     iput v0, p0, Lcom/meitu/template/bean/ArMaterial;->clickPosition:I
 
     return-void
@@ -1115,226 +1044,154 @@
     .annotation build Landroidx/room/Ignore;
     .end annotation
 
-    .line 226
     invoke-direct {p0}, Lcom/meitu/template/bean/BaseBean;-><init>()V
 
     const/4 v0, 0x0
 
-    .line 227
     iput v0, p0, Lcom/meitu/template/bean/ArMaterial;->number:I
 
     const/4 v1, -0x1
 
-    .line 228
     iput v1, p0, Lcom/meitu/template/bean/ArMaterial;->sort:I
 
-    .line 229
     iput v0, p0, Lcom/meitu/template/bean/ArMaterial;->versionControl:I
 
-    .line 230
     iput v0, p0, Lcom/meitu/template/bean/ArMaterial;->isHot:I
 
-    .line 231
     iput v1, p0, Lcom/meitu/template/bean/ArMaterial;->hotSort:I
 
     const-wide/16 v2, 0x0
 
-    .line 232
     iput-wide v2, p0, Lcom/meitu/template/bean/ArMaterial;->hotEndTime:J
 
-    .line 233
     iput v0, p0, Lcom/meitu/template/bean/ArMaterial;->interactive:I
 
-    .line 234
     iput v0, p0, Lcom/meitu/template/bean/ArMaterial;->autoDownload:I
 
-    .line 235
     iput-wide v2, p0, Lcom/meitu/template/bean/ArMaterial;->isNew:J
 
-    .line 236
     iput v1, p0, Lcom/meitu/template/bean/ArMaterial;->newSort:I
 
-    .line 237
     iput-wide v2, p0, Lcom/meitu/template/bean/ArMaterial;->redTime:J
 
-    .line 238
     iput-wide v2, p0, Lcom/meitu/template/bean/ArMaterial;->newEndTime:J
 
-    .line 239
     iput-wide v2, p0, Lcom/meitu/template/bean/ArMaterial;->endTime:J
 
-    .line 240
     iput v0, p0, Lcom/meitu/template/bean/ArMaterial;->weight:I
 
-    .line 241
     iput v0, p0, Lcom/meitu/template/bean/ArMaterial;->afterWeight:I
 
-    .line 242
     iput v0, p0, Lcom/meitu/template/bean/ArMaterial;->bgmFlag:I
 
-    .line 243
     iput v0, p0, Lcom/meitu/template/bean/ArMaterial;->dbgEnable:I
 
-    .line 244
     iput v0, p0, Lcom/meitu/template/bean/ArMaterial;->is3D:I
 
-    .line 245
     iput v0, p0, Lcom/meitu/template/bean/ArMaterial;->featuredSort:I
 
-    .line 246
     iput v0, p0, Lcom/meitu/template/bean/ArMaterial;->isFeatured:I
 
-    .line 247
     iput v0, p0, Lcom/meitu/template/bean/ArMaterial;->isCollected:I
 
-    .line 248
     iput v0, p0, Lcom/meitu/template/bean/ArMaterial;->isDownload:I
 
-    .line 249
     iput v0, p0, Lcom/meitu/template/bean/ArMaterial;->isDownloading:I
 
-    .line 250
     iput-wide v2, p0, Lcom/meitu/template/bean/ArMaterial;->downloadTime:J
 
-    .line 251
     iput v0, p0, Lcom/meitu/template/bean/ArMaterial;->isHideRed:I
 
-    .line 252
     iput v0, p0, Lcom/meitu/template/bean/ArMaterial;->groupNumber:I
 
-    .line 253
     iput v0, p0, Lcom/meitu/template/bean/ArMaterial;->isBgDownload:I
 
-    .line 254
     iput v0, p0, Lcom/meitu/template/bean/ArMaterial;->isBgDownloading:I
 
-    .line 255
     iput v0, p0, Lcom/meitu/template/bean/ArMaterial;->is3DDownload:I
 
-    .line 256
     iput v0, p0, Lcom/meitu/template/bean/ArMaterial;->is3DDownloading:I
 
-    .line 257
     iput-wide v2, p0, Lcom/meitu/template/bean/ArMaterial;->endUseTime:J
 
-    .line 258
     iput v0, p0, Lcom/meitu/template/bean/ArMaterial;->isDyeHair:I
 
-    .line 259
     iput v0, p0, Lcom/meitu/template/bean/ArMaterial;->isDyeHairDownload:I
 
-    .line 260
     iput v0, p0, Lcom/meitu/template/bean/ArMaterial;->isDyeHairDownloading:I
 
-    .line 261
     iput-wide v2, p0, Lcom/meitu/template/bean/ArMaterial;->collectionTime:J
 
-    .line 262
     iput v0, p0, Lcom/meitu/template/bean/ArMaterial;->isHumanPosture:I
 
-    .line 263
     iput v0, p0, Lcom/meitu/template/bean/ArMaterial;->isHumanDownload:I
 
-    .line 264
     iput v0, p0, Lcom/meitu/template/bean/ArMaterial;->isHumanDownloading:I
 
-    .line 265
     iput v0, p0, Lcom/meitu/template/bean/ArMaterial;->isSwitching:I
 
-    .line 266
     iput v0, p0, Lcom/meitu/template/bean/ArMaterial;->isPhysical:I
 
-    .line 267
     iput v0, p0, Lcom/meitu/template/bean/ArMaterial;->isTouch:I
 
-    .line 268
     iput v1, p0, Lcom/meitu/template/bean/ArMaterial;->regionHotSort:I
 
-    .line 269
     iput v0, p0, Lcom/meitu/template/bean/ArMaterial;->isAnimalDownload:I
 
-    .line 270
     iput v0, p0, Lcom/meitu/template/bean/ArMaterial;->isPet:I
 
-    .line 271
     iput v0, p0, Lcom/meitu/template/bean/ArMaterial;->enableText:I
 
-    .line 272
     iput v0, p0, Lcom/meitu/template/bean/ArMaterial;->isAfterShare:I
 
-    .line 273
     iput v0, p0, Lcom/meitu/template/bean/ArMaterial;->isShareLock:I
 
-    .line 274
     iput v0, p0, Lcom/meitu/template/bean/ArMaterial;->isSkeletal:I
 
-    .line 275
     iput v0, p0, Lcom/meitu/template/bean/ArMaterial;->isSkeletalDownload:I
 
-    .line 276
     iput v0, p0, Lcom/meitu/template/bean/ArMaterial;->isFace3dV2:I
 
-    .line 277
     iput v0, p0, Lcom/meitu/template/bean/ArMaterial;->isNeckLockPoint:I
 
-    .line 278
     iput v0, p0, Lcom/meitu/template/bean/ArMaterial;->isNeckLockDownloaded:I
 
-    .line 279
     iput v0, p0, Lcom/meitu/template/bean/ArMaterial;->isFace3dV2Download:I
 
-    .line 280
     iput v0, p0, Lcom/meitu/template/bean/ArMaterial;->arCoreType:I
 
-    .line 281
     iput v1, p0, Lcom/meitu/template/bean/ArMaterial;->makeLevel:I
 
-    .line 282
     iput v1, p0, Lcom/meitu/template/bean/ArMaterial;->beautyLevel:I
 
-    .line 283
     iput v0, p0, Lcom/meitu/template/bean/ArMaterial;->locations:I
 
-    .line 284
     iput v0, p0, Lcom/meitu/template/bean/ArMaterial;->isHandPose:I
 
-    .line 285
     iput v0, p0, Lcom/meitu/template/bean/ArMaterial;->isNeedWaterMark:I
 
-    .line 286
     iput v0, p0, Lcom/meitu/template/bean/ArMaterial;->ipStoreId:I
 
-    .line 287
     iput v0, p0, Lcom/meitu/template/bean/ArMaterial;->isLockCamera:I
 
-    .line 288
     iput-boolean v0, p0, Lcom/meitu/template/bean/ArMaterial;->isShowPaidIcon:Z
 
-    .line 289
     iput v0, p0, Lcom/meitu/template/bean/ArMaterial;->arMaterialPaidInfoNumber:I
 
-    .line 290
     iput v0, p0, Lcom/meitu/template/bean/ArMaterial;->downloadProgress:I
 
-    .line 291
     iput-boolean v0, p0, Lcom/meitu/template/bean/ArMaterial;->isTravelArUsed:Z
 
-    .line 292
     iput v0, p0, Lcom/meitu/template/bean/ArMaterial;->currentArIndex:I
 
-    .line 293
     iput v0, p0, Lcom/meitu/template/bean/ArMaterial;->rankValue:I
 
-    .line 294
     iput-boolean v0, p0, Lcom/meitu/template/bean/ArMaterial;->changeMakeAndBeautyLevel:Z
 
-    .line 295
     iput v0, p0, Lcom/meitu/template/bean/ArMaterial;->clickGroupNumber:I
 
-    .line 296
     iput v0, p0, Lcom/meitu/template/bean/ArMaterial;->clickPosition:I
 
-    .line 297
     iput-object p1, p0, Lcom/meitu/template/bean/ArMaterial;->id:Ljava/lang/Long;
 
     return-void
@@ -1345,638 +1202,484 @@
 
     move-object v0, p0
 
-    .line 72
     invoke-direct {p0}, Lcom/meitu/template/bean/BaseBean;-><init>()V
 
     const/4 v1, 0x0
 
-    .line 73
     iput v1, v0, Lcom/meitu/template/bean/ArMaterial;->number:I
 
     const/4 v2, -0x1
 
-    .line 74
     iput v2, v0, Lcom/meitu/template/bean/ArMaterial;->sort:I
 
-    .line 75
     iput v1, v0, Lcom/meitu/template/bean/ArMaterial;->versionControl:I
 
-    .line 76
     iput v1, v0, Lcom/meitu/template/bean/ArMaterial;->isHot:I
 
-    .line 77
     iput v2, v0, Lcom/meitu/template/bean/ArMaterial;->hotSort:I
 
     const-wide/16 v3, 0x0
 
-    .line 78
     iput-wide v3, v0, Lcom/meitu/template/bean/ArMaterial;->hotEndTime:J
 
-    .line 79
     iput v1, v0, Lcom/meitu/template/bean/ArMaterial;->interactive:I
 
-    .line 80
     iput v1, v0, Lcom/meitu/template/bean/ArMaterial;->autoDownload:I
 
-    .line 81
     iput-wide v3, v0, Lcom/meitu/template/bean/ArMaterial;->isNew:J
 
-    .line 82
     iput v2, v0, Lcom/meitu/template/bean/ArMaterial;->newSort:I
 
-    .line 83
     iput-wide v3, v0, Lcom/meitu/template/bean/ArMaterial;->redTime:J
 
-    .line 84
     iput-wide v3, v0, Lcom/meitu/template/bean/ArMaterial;->newEndTime:J
 
-    .line 85
     iput-wide v3, v0, Lcom/meitu/template/bean/ArMaterial;->endTime:J
 
-    .line 86
     iput v1, v0, Lcom/meitu/template/bean/ArMaterial;->weight:I
 
-    .line 87
     iput v1, v0, Lcom/meitu/template/bean/ArMaterial;->afterWeight:I
 
-    .line 88
     iput v1, v0, Lcom/meitu/template/bean/ArMaterial;->bgmFlag:I
 
-    .line 89
     iput v1, v0, Lcom/meitu/template/bean/ArMaterial;->dbgEnable:I
 
-    .line 90
     iput v1, v0, Lcom/meitu/template/bean/ArMaterial;->is3D:I
 
-    .line 91
     iput v1, v0, Lcom/meitu/template/bean/ArMaterial;->featuredSort:I
 
-    .line 92
     iput v1, v0, Lcom/meitu/template/bean/ArMaterial;->isFeatured:I
 
-    .line 93
     iput v1, v0, Lcom/meitu/template/bean/ArMaterial;->isCollected:I
 
-    .line 94
     iput v1, v0, Lcom/meitu/template/bean/ArMaterial;->isDownload:I
 
-    .line 95
     iput v1, v0, Lcom/meitu/template/bean/ArMaterial;->isDownloading:I
 
-    .line 96
     iput-wide v3, v0, Lcom/meitu/template/bean/ArMaterial;->downloadTime:J
 
-    .line 97
     iput v1, v0, Lcom/meitu/template/bean/ArMaterial;->isHideRed:I
 
-    .line 98
     iput v1, v0, Lcom/meitu/template/bean/ArMaterial;->groupNumber:I
 
-    .line 99
     iput v1, v0, Lcom/meitu/template/bean/ArMaterial;->isBgDownload:I
 
-    .line 100
     iput v1, v0, Lcom/meitu/template/bean/ArMaterial;->isBgDownloading:I
 
-    .line 101
     iput v1, v0, Lcom/meitu/template/bean/ArMaterial;->is3DDownload:I
 
-    .line 102
     iput v1, v0, Lcom/meitu/template/bean/ArMaterial;->is3DDownloading:I
 
-    .line 103
     iput-wide v3, v0, Lcom/meitu/template/bean/ArMaterial;->endUseTime:J
 
-    .line 104
     iput v1, v0, Lcom/meitu/template/bean/ArMaterial;->isDyeHair:I
 
-    .line 105
     iput v1, v0, Lcom/meitu/template/bean/ArMaterial;->isDyeHairDownload:I
 
-    .line 106
     iput v1, v0, Lcom/meitu/template/bean/ArMaterial;->isDyeHairDownloading:I
 
-    .line 107
     iput-wide v3, v0, Lcom/meitu/template/bean/ArMaterial;->collectionTime:J
 
-    .line 108
     iput v1, v0, Lcom/meitu/template/bean/ArMaterial;->isHumanPosture:I
 
-    .line 109
     iput v1, v0, Lcom/meitu/template/bean/ArMaterial;->isHumanDownload:I
 
-    .line 110
     iput v1, v0, Lcom/meitu/template/bean/ArMaterial;->isHumanDownloading:I
 
-    .line 111
     iput v1, v0, Lcom/meitu/template/bean/ArMaterial;->isSwitching:I
 
-    .line 112
     iput v1, v0, Lcom/meitu/template/bean/ArMaterial;->isPhysical:I
 
-    .line 113
     iput v1, v0, Lcom/meitu/template/bean/ArMaterial;->isTouch:I
 
-    .line 114
     iput v2, v0, Lcom/meitu/template/bean/ArMaterial;->regionHotSort:I
 
-    .line 115
     iput v1, v0, Lcom/meitu/template/bean/ArMaterial;->isAnimalDownload:I
 
-    .line 116
     iput v1, v0, Lcom/meitu/template/bean/ArMaterial;->isPet:I
 
-    .line 117
     iput v1, v0, Lcom/meitu/template/bean/ArMaterial;->enableText:I
 
-    .line 118
     iput v1, v0, Lcom/meitu/template/bean/ArMaterial;->isAfterShare:I
 
-    .line 119
     iput v1, v0, Lcom/meitu/template/bean/ArMaterial;->isShareLock:I
 
-    .line 120
     iput v1, v0, Lcom/meitu/template/bean/ArMaterial;->isSkeletal:I
 
-    .line 121
     iput v1, v0, Lcom/meitu/template/bean/ArMaterial;->isSkeletalDownload:I
 
-    .line 122
     iput v1, v0, Lcom/meitu/template/bean/ArMaterial;->isFace3dV2:I
 
-    .line 123
     iput v1, v0, Lcom/meitu/template/bean/ArMaterial;->isNeckLockPoint:I
 
-    .line 124
     iput v1, v0, Lcom/meitu/template/bean/ArMaterial;->isNeckLockDownloaded:I
 
-    .line 125
     iput v1, v0, Lcom/meitu/template/bean/ArMaterial;->isFace3dV2Download:I
 
-    .line 126
     iput v1, v0, Lcom/meitu/template/bean/ArMaterial;->arCoreType:I
 
-    .line 127
     iput v2, v0, Lcom/meitu/template/bean/ArMaterial;->makeLevel:I
 
-    .line 128
     iput v2, v0, Lcom/meitu/template/bean/ArMaterial;->beautyLevel:I
 
-    .line 129
     iput v1, v0, Lcom/meitu/template/bean/ArMaterial;->locations:I
 
-    .line 130
     iput v1, v0, Lcom/meitu/template/bean/ArMaterial;->isHandPose:I
 
-    .line 131
     iput v1, v0, Lcom/meitu/template/bean/ArMaterial;->isNeedWaterMark:I
 
-    .line 132
     iput v1, v0, Lcom/meitu/template/bean/ArMaterial;->ipStoreId:I
 
-    .line 133
     iput v1, v0, Lcom/meitu/template/bean/ArMaterial;->isLockCamera:I
 
-    .line 134
     iput-boolean v1, v0, Lcom/meitu/template/bean/ArMaterial;->isShowPaidIcon:Z
 
-    .line 135
     iput v1, v0, Lcom/meitu/template/bean/ArMaterial;->arMaterialPaidInfoNumber:I
 
-    .line 136
     iput v1, v0, Lcom/meitu/template/bean/ArMaterial;->downloadProgress:I
 
-    .line 137
     iput-boolean v1, v0, Lcom/meitu/template/bean/ArMaterial;->isTravelArUsed:Z
 
-    .line 138
     iput v1, v0, Lcom/meitu/template/bean/ArMaterial;->currentArIndex:I
 
-    .line 139
     iput v1, v0, Lcom/meitu/template/bean/ArMaterial;->rankValue:I
 
-    .line 140
     iput-boolean v1, v0, Lcom/meitu/template/bean/ArMaterial;->changeMakeAndBeautyLevel:Z
 
-    .line 141
     iput v1, v0, Lcom/meitu/template/bean/ArMaterial;->clickGroupNumber:I
 
-    .line 142
     iput v1, v0, Lcom/meitu/template/bean/ArMaterial;->clickPosition:I
 
     move-object v1, p1
 
-    .line 143
     iput-object v1, v0, Lcom/meitu/template/bean/ArMaterial;->id:Ljava/lang/Long;
 
     move v1, p2
 
-    .line 144
     iput v1, v0, Lcom/meitu/template/bean/ArMaterial;->number:I
 
     move v1, p3
 
-    .line 145
     iput v1, v0, Lcom/meitu/template/bean/ArMaterial;->sort:I
 
     move v1, p4
 
-    .line 146
     iput v1, v0, Lcom/meitu/template/bean/ArMaterial;->versionControl:I
 
     move-object v1, p5
 
-    .line 147
     iput-object v1, v0, Lcom/meitu/template/bean/ArMaterial;->minVersion:Ljava/lang/String;
 
     move-object v1, p6
 
-    .line 148
     iput-object v1, v0, Lcom/meitu/template/bean/ArMaterial;->maxVersion:Ljava/lang/String;
 
     move-object v1, p7
 
-    .line 149
     iput-object v1, v0, Lcom/meitu/template/bean/ArMaterial;->fileUrl:Ljava/lang/String;
 
     move-object v1, p8
 
-    .line 150
     iput-object v1, v0, Lcom/meitu/template/bean/ArMaterial;->fileSize:Ljava/lang/String;
 
     move-object v1, p9
 
-    .line 151
     iput-object v1, v0, Lcom/meitu/template/bean/ArMaterial;->thumbnail:Ljava/lang/String;
 
     move-object v1, p10
 
-    .line 152
     iput-object v1, v0, Lcom/meitu/template/bean/ArMaterial;->previewUrl:Ljava/lang/String;
 
     move/from16 v1, p11
 
-    .line 153
     iput v1, v0, Lcom/meitu/template/bean/ArMaterial;->isHot:I
 
     move/from16 v1, p12
 
-    .line 154
     iput v1, v0, Lcom/meitu/template/bean/ArMaterial;->hotSort:I
 
     move-wide/from16 v1, p13
 
-    .line 155
     iput-wide v1, v0, Lcom/meitu/template/bean/ArMaterial;->hotEndTime:J
 
     move/from16 v1, p15
 
-    .line 156
     iput v1, v0, Lcom/meitu/template/bean/ArMaterial;->interactive:I
 
     move/from16 v1, p16
 
-    .line 157
     iput v1, v0, Lcom/meitu/template/bean/ArMaterial;->autoDownload:I
 
     move-wide/from16 v1, p17
 
-    .line 158
     iput-wide v1, v0, Lcom/meitu/template/bean/ArMaterial;->isNew:J
 
     move/from16 v1, p19
 
-    .line 159
     iput v1, v0, Lcom/meitu/template/bean/ArMaterial;->newSort:I
 
     move-wide/from16 v1, p20
 
-    .line 160
     iput-wide v1, v0, Lcom/meitu/template/bean/ArMaterial;->redTime:J
 
     move-wide/from16 v1, p22
 
-    .line 161
     iput-wide v1, v0, Lcom/meitu/template/bean/ArMaterial;->newEndTime:J
 
     move-wide/from16 v1, p24
 
-    .line 162
     iput-wide v1, v0, Lcom/meitu/template/bean/ArMaterial;->endTime:J
 
     move/from16 v1, p26
 
-    .line 163
     iput v1, v0, Lcom/meitu/template/bean/ArMaterial;->weight:I
 
     move/from16 v1, p27
 
-    .line 164
     iput v1, v0, Lcom/meitu/template/bean/ArMaterial;->afterWeight:I
 
     move-object/from16 v1, p28
 
-    .line 165
     iput-object v1, v0, Lcom/meitu/template/bean/ArMaterial;->title:Ljava/lang/String;
 
     move/from16 v1, p29
 
-    .line 166
     iput v1, v0, Lcom/meitu/template/bean/ArMaterial;->bgmFlag:I
 
     move/from16 v1, p30
 
-    .line 167
     iput v1, v0, Lcom/meitu/template/bean/ArMaterial;->dbgEnable:I
 
     move-object/from16 v1, p31
 
-    .line 168
     iput-object v1, v0, Lcom/meitu/template/bean/ArMaterial;->dbgUrl:Ljava/lang/String;
 
     move-object/from16 v1, p32
 
-    .line 169
     iput-object v1, v0, Lcom/meitu/template/bean/ArMaterial;->dbgNumber:Ljava/lang/String;
 
     move/from16 v1, p33
 
-    .line 170
     iput v1, v0, Lcom/meitu/template/bean/ArMaterial;->is3D:I
 
     move/from16 v1, p34
 
-    .line 171
     iput v1, v0, Lcom/meitu/template/bean/ArMaterial;->featuredSort:I
 
     move/from16 v1, p35
 
-    .line 172
     iput v1, v0, Lcom/meitu/template/bean/ArMaterial;->isFeatured:I
 
     move/from16 v1, p36
 
-    .line 173
     iput v1, v0, Lcom/meitu/template/bean/ArMaterial;->isCollected:I
 
     move/from16 v1, p37
 
-    .line 174
     iput v1, v0, Lcom/meitu/template/bean/ArMaterial;->isDownload:I
 
     move/from16 v1, p38
 
-    .line 175
     iput v1, v0, Lcom/meitu/template/bean/ArMaterial;->isDownloading:I
 
     move-wide/from16 v1, p39
 
-    .line 176
     iput-wide v1, v0, Lcom/meitu/template/bean/ArMaterial;->downloadTime:J
 
     move/from16 v1, p41
 
-    .line 177
     iput v1, v0, Lcom/meitu/template/bean/ArMaterial;->isHideRed:I
 
     move/from16 v1, p42
 
-    .line 178
     iput v1, v0, Lcom/meitu/template/bean/ArMaterial;->groupNumber:I
 
     move/from16 v1, p43
 
-    .line 179
     iput v1, v0, Lcom/meitu/template/bean/ArMaterial;->isBgDownload:I
 
     move/from16 v1, p44
 
-    .line 180
     iput v1, v0, Lcom/meitu/template/bean/ArMaterial;->isBgDownloading:I
 
     move/from16 v1, p45
 
-    .line 181
     iput v1, v0, Lcom/meitu/template/bean/ArMaterial;->is3DDownload:I
 
     move/from16 v1, p46
 
-    .line 182
     iput v1, v0, Lcom/meitu/template/bean/ArMaterial;->is3DDownloading:I
 
     move-wide/from16 v1, p47
 
-    .line 183
     iput-wide v1, v0, Lcom/meitu/template/bean/ArMaterial;->endUseTime:J
 
     move/from16 v1, p49
 
-    .line 184
     iput v1, v0, Lcom/meitu/template/bean/ArMaterial;->isDyeHair:I
 
     move/from16 v1, p50
 
-    .line 185
     iput v1, v0, Lcom/meitu/template/bean/ArMaterial;->isDyeHairDownload:I
 
     move/from16 v1, p51
 
-    .line 186
     iput v1, v0, Lcom/meitu/template/bean/ArMaterial;->isDyeHairDownloading:I
 
     move-wide/from16 v1, p52
 
-    .line 187
     iput-wide v1, v0, Lcom/meitu/template/bean/ArMaterial;->collectionTime:J
 
     move/from16 v1, p54
 
-    .line 188
     iput v1, v0, Lcom/meitu/template/bean/ArMaterial;->isHumanPosture:I
 
     move/from16 v1, p55
 
-    .line 189
     iput v1, v0, Lcom/meitu/template/bean/ArMaterial;->isHumanDownload:I
 
     move/from16 v1, p56
 
-    .line 190
     iput v1, v0, Lcom/meitu/template/bean/ArMaterial;->isHumanDownloading:I
 
     move-object/from16 v1, p57
 
-    .line 191
     iput-object v1, v0, Lcom/meitu/template/bean/ArMaterial;->arOnlineText:Ljava/lang/String;
 
     move/from16 v1, p58
 
-    .line 192
     iput v1, v0, Lcom/meitu/template/bean/ArMaterial;->isSwitching:I
 
     move/from16 v1, p59
 
-    .line 193
     iput v1, v0, Lcom/meitu/template/bean/ArMaterial;->isPhysical:I
 
     move/from16 v1, p60
 
-    .line 194
     iput v1, v0, Lcom/meitu/template/bean/ArMaterial;->isTouch:I
 
     move/from16 v1, p61
 
-    .line 195
     iput v1, v0, Lcom/meitu/template/bean/ArMaterial;->regionHotSort:I
 
     move/from16 v1, p62
 
-    .line 196
     iput v1, v0, Lcom/meitu/template/bean/ArMaterial;->isAnimalDownload:I
 
     move/from16 v1, p63
 
-    .line 197
     iput v1, v0, Lcom/meitu/template/bean/ArMaterial;->isPet:I
 
     move-object/from16 v1, p64
 
-    .line 198
     iput-object v1, v0, Lcom/meitu/template/bean/ArMaterial;->redirectTo:Ljava/lang/String;
 
     move/from16 v1, p65
 
-    .line 199
     iput v1, v0, Lcom/meitu/template/bean/ArMaterial;->enableText:I
 
     move/from16 v1, p66
 
-    .line 200
     iput v1, v0, Lcom/meitu/template/bean/ArMaterial;->isAfterShare:I
 
     move/from16 v1, p67
 
-    .line 201
     iput v1, v0, Lcom/meitu/template/bean/ArMaterial;->isShareLock:I
 
     move/from16 v1, p68
 
-    .line 202
     iput v1, v0, Lcom/meitu/template/bean/ArMaterial;->isSkeletal:I
 
     move/from16 v1, p69
 
-    .line 203
     iput v1, v0, Lcom/meitu/template/bean/ArMaterial;->isSkeletalDownload:I
 
     move/from16 v1, p70
 
-    .line 204
     iput v1, v0, Lcom/meitu/template/bean/ArMaterial;->isFace3dV2:I
 
     move/from16 v1, p71
 
-    .line 205
     iput v1, v0, Lcom/meitu/template/bean/ArMaterial;->isNeckLockPoint:I
 
     move/from16 v1, p72
 
-    .line 206
     iput v1, v0, Lcom/meitu/template/bean/ArMaterial;->isNeckLockDownloaded:I
 
     move/from16 v1, p73
 
-    .line 207
     iput v1, v0, Lcom/meitu/template/bean/ArMaterial;->isFace3dV2Download:I
 
     move/from16 v1, p74
 
-    .line 208
     iput v1, v0, Lcom/meitu/template/bean/ArMaterial;->arCoreType:I
 
     move/from16 v1, p75
 
-    .line 209
     iput v1, v0, Lcom/meitu/template/bean/ArMaterial;->makeLevel:I
 
     move/from16 v1, p76
 
-    .line 210
     iput v1, v0, Lcom/meitu/template/bean/ArMaterial;->beautyLevel:I
 
     move-object/from16 v1, p77
 
-    .line 211
     iput-object v1, v0, Lcom/meitu/template/bean/ArMaterial;->arHelpTitle:Ljava/lang/String;
 
     move/from16 v1, p78
 
-    .line 212
     iput v1, v0, Lcom/meitu/template/bean/ArMaterial;->arHelpRule:I
 
     move-object/from16 v1, p79
 
-    .line 213
     iput-object v1, v0, Lcom/meitu/template/bean/ArMaterial;->arHelpUrl:Ljava/lang/String;
 
     move/from16 v1, p80
 
-    .line 214
     iput v1, v0, Lcom/meitu/template/bean/ArMaterial;->arHelpIsDown:I
 
     move/from16 v1, p81
 
-    .line 215
     iput v1, v0, Lcom/meitu/template/bean/ArMaterial;->arTipType:I
 
     move-object/from16 v1, p82
 
-    .line 216
     iput-object v1, v0, Lcom/meitu/template/bean/ArMaterial;->ipColorCode:Ljava/lang/String;
 
     move/from16 v1, p83
 
-    .line 217
     iput v1, v0, Lcom/meitu/template/bean/ArMaterial;->locations:I
 
     move/from16 v1, p84
 
-    .line 218
     iput v1, v0, Lcom/meitu/template/bean/ArMaterial;->isHandPose:I
 
     move/from16 v1, p85
 
-    .line 219
     iput v1, v0, Lcom/meitu/template/bean/ArMaterial;->isNeedWaterMark:I
 
     move/from16 v1, p86
 
-    .line 220
     iput v1, v0, Lcom/meitu/template/bean/ArMaterial;->ipStoreId:I
 
     move-object/from16 v1, p87
 
-    .line 221
     iput-object v1, v0, Lcom/meitu/template/bean/ArMaterial;->arCoreIcon:Ljava/lang/String;
 
     move/from16 v1, p88
 
-    .line 222
     iput v1, v0, Lcom/meitu/template/bean/ArMaterial;->allowModelLevel:I
 
     move-object/from16 v1, p89
 
-    .line 223
     iput-object v1, v0, Lcom/meitu/template/bean/ArMaterial;->limitSpecificModelString:Ljava/lang/String;
 
     move/from16 v1, p90
 
-    .line 224
     iput v1, v0, Lcom/meitu/template/bean/ArMaterial;->showArCoreIcon:I
 
     move/from16 v1, p91
 
-    .line 225
     iput v1, v0, Lcom/meitu/template/bean/ArMaterial;->isLockCamera:I
 
     return-void
@@ -1991,7 +1694,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/template/bean/ArMaterial;->afterWeight:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2006,7 +1708,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/template/bean/ArMaterial;->allowModelLevel:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2021,7 +1722,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/template/bean/ArMaterial;->arCoreIcon:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2036,7 +1736,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/template/bean/ArMaterial;->arCoreType:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2051,7 +1750,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/template/bean/ArMaterial;->arHelpIsDown:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2066,7 +1764,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/template/bean/ArMaterial;->arHelpRule:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2081,7 +1778,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/template/bean/ArMaterial;->arHelpTitle:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2096,7 +1792,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/template/bean/ArMaterial;->arHelpUrl:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2111,7 +1806,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/template/bean/ArMaterial;->arMaterialInfo:Lcom/commsource/camera/xcamera/bean/a;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2126,7 +1820,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/template/bean/ArMaterial;->arMaterialPaidInfo:Lcom/meitu/template/bean/ArMaterialPaidInfo;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2141,7 +1834,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/template/bean/ArMaterial;->arMaterialPaidInfoNumber:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2156,7 +1848,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/template/bean/ArMaterial;->arOnlineText:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2171,7 +1862,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/template/bean/ArMaterial;->arTipType:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2186,7 +1876,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/template/bean/ArMaterial;->autoDownload:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2201,7 +1890,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/template/bean/ArMaterial;->beautyLevel:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2216,7 +1904,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/template/bean/ArMaterial;->bgmFlag:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2231,7 +1918,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/template/bean/ArMaterial;->clickGroupNumber:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2246,7 +1932,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/template/bean/ArMaterial;->clickPosition:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2261,7 +1946,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/template/bean/ArMaterial;->collectionTime:J
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2276,7 +1960,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/template/bean/ArMaterial;->currentArIndex:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2291,7 +1974,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/template/bean/ArMaterial;->dbgEnable:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2306,7 +1988,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/template/bean/ArMaterial;->dbgNumber:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2321,7 +2002,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/template/bean/ArMaterial;->dbgUrl:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2336,7 +2016,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/template/bean/ArMaterial;->downloadProgress:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2351,7 +2030,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/template/bean/ArMaterial;->downloadTime:J
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2366,7 +2044,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/template/bean/ArMaterial;->enableText:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2381,7 +2058,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/template/bean/ArMaterial;->endTime:J
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2396,7 +2072,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/template/bean/ArMaterial;->endUseTime:J
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2411,7 +2086,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/template/bean/ArMaterial;->featuredSort:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2426,7 +2100,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/template/bean/ArMaterial;->fileSize:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2441,7 +2114,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/template/bean/ArMaterial;->fileUrl:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2456,7 +2128,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/template/bean/ArMaterial;->groupNumber:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2479,7 +2150,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/template/bean/ArMaterial;->hashTagArray:Ljava/util/List;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2494,7 +2164,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/template/bean/ArMaterial;->hashTags:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2509,7 +2178,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/template/bean/ArMaterial;->hotEndTime:J
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2524,7 +2192,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/template/bean/ArMaterial;->hotSort:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2539,7 +2206,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/template/bean/ArMaterial;->id:Ljava/lang/Long;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2554,7 +2220,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/template/bean/ArMaterial;->interactive:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2569,7 +2234,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/template/bean/ArMaterial;->ipColorCode:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2584,7 +2248,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/template/bean/ArMaterial;->ipStoreId:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2599,7 +2262,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/template/bean/ArMaterial;->is3D:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2614,7 +2276,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/template/bean/ArMaterial;->is3DDownload:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2629,7 +2290,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/template/bean/ArMaterial;->is3DDownloading:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2644,7 +2304,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/template/bean/ArMaterial;->isAfterShare:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2659,7 +2318,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/template/bean/ArMaterial;->isAnimalDownload:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2674,7 +2332,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/template/bean/ArMaterial;->isBgDownload:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2689,7 +2346,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/template/bean/ArMaterial;->isBgDownloading:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2704,7 +2360,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/template/bean/ArMaterial;->isCollected:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2719,7 +2374,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/template/bean/ArMaterial;->isDownload:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2734,7 +2388,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/template/bean/ArMaterial;->isDownloading:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2749,7 +2402,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/template/bean/ArMaterial;->isDyeHair:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2764,7 +2416,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/template/bean/ArMaterial;->isDyeHairDownload:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2779,7 +2430,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/template/bean/ArMaterial;->isDyeHairDownloading:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2794,7 +2444,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/template/bean/ArMaterial;->isFace3dV2:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2809,7 +2458,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/template/bean/ArMaterial;->isFace3dV2Download:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2824,7 +2472,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/template/bean/ArMaterial;->isFeatured:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2839,7 +2486,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/template/bean/ArMaterial;->isHandPose:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2854,7 +2500,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/template/bean/ArMaterial;->isHideRed:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2869,7 +2514,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/template/bean/ArMaterial;->isHot:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2884,7 +2528,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/template/bean/ArMaterial;->isHumanDownload:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2899,7 +2542,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/template/bean/ArMaterial;->isHumanDownloading:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2914,7 +2556,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/template/bean/ArMaterial;->isHumanPosture:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2931,7 +2572,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/template/bean/ArMaterial;->isLockCamera:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2946,7 +2586,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/template/bean/ArMaterial;->isNeckLockDownloaded:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2961,7 +2600,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/template/bean/ArMaterial;->isNeckLockPoint:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2976,7 +2614,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/template/bean/ArMaterial;->isNeedWaterMark:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2991,7 +2628,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/template/bean/ArMaterial;->isNew:J
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -3006,7 +2642,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/template/bean/ArMaterial;->isPet:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -3021,7 +2656,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/template/bean/ArMaterial;->isPhysical:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -3036,7 +2670,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/template/bean/ArMaterial;->isShareLock:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -3051,7 +2684,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/template/bean/ArMaterial;->isSkeletal:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -3066,7 +2698,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/template/bean/ArMaterial;->isSkeletalDownload:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -3081,7 +2712,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/template/bean/ArMaterial;->isSwitching:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -3098,7 +2728,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/template/bean/ArMaterial;->isTouch:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -3121,7 +2750,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/template/bean/ArMaterial;->limitSpecificModelLists:Ljava/util/List;
 
     if-nez v1, :cond_0
@@ -3134,19 +2762,16 @@
 
     if-nez v1, :cond_0
 
-    .line 2
     iget-object v1, p0, Lcom/meitu/template/bean/ArMaterial;->limitSpecificModelString:Ljava/lang/String;
 
     new-instance v2, Lcom/meitu/template/bean/ArMaterial$a;
 
     invoke-direct {v2, p0}, Lcom/meitu/template/bean/ArMaterial$a;-><init>(Lcom/meitu/template/bean/ArMaterial;)V
 
-    .line 3
     invoke-virtual {v2}, Lcom/google/gson/reflect/TypeToken;->getType()Ljava/lang/reflect/Type;
 
     move-result-object v2
 
-    .line 4
     invoke-static {v1, v2}, Lcom/meitu/webview/utils/c;->a(Ljava/lang/String;Ljava/lang/reflect/Type;)Ljava/lang/Object;
 
     move-result-object v1
@@ -3155,7 +2780,6 @@
 
     iput-object v1, p0, Lcom/meitu/template/bean/ArMaterial;->limitSpecificModelLists:Ljava/util/List;
 
-    .line 5
     :cond_0
     iget-object v1, p0, Lcom/meitu/template/bean/ArMaterial;->limitSpecificModelLists:Ljava/util/List;
 
@@ -3171,7 +2795,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/template/bean/ArMaterial;->limitSpecificModelString:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -3186,7 +2809,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/template/bean/ArMaterial;->locations:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -3201,7 +2823,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/template/bean/ArMaterial;->makeLevel:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -3216,7 +2837,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/template/bean/ArMaterial;->maxVersion:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -3231,7 +2851,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/template/bean/ArMaterial;->minVersion:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -3246,7 +2865,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/template/bean/ArMaterial;->newAr:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -3261,7 +2879,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/template/bean/ArMaterial;->newEndTime:J
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -3276,7 +2893,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/template/bean/ArMaterial;->newSort:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -3291,7 +2907,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/template/bean/ArMaterial;->number:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -3306,7 +2921,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/template/bean/ArMaterial;->paidType:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -3321,7 +2935,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/template/bean/ArMaterial;->previewUrl:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -3336,7 +2949,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/template/bean/ArMaterial;->rankValue:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -3351,14 +2963,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/meitu/template/bean/ArMaterial;->isChangeMakeAndBeautyLevel()Z
 
     move-result v1
 
     if-eqz v1, :cond_1
 
-    .line 2
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
     move-result-object v1
@@ -3377,7 +2987,6 @@
 
     float-to-int p1, p1
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
@@ -3391,12 +3000,10 @@
 
     float-to-int p1, p1
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
 
-    .line 5
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -3410,7 +3017,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/template/bean/ArMaterial;->redTime:J
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -3425,7 +3031,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/template/bean/ArMaterial;->redirectTo:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -3440,7 +3045,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/template/bean/ArMaterial;->regionHotSort:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -3455,7 +3059,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/template/bean/ArMaterial;->requestArVideoGuideResult:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -3470,7 +3073,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/template/bean/ArMaterial;->showArCoreIcon:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -3485,7 +3087,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/meitu/template/bean/ArMaterial;->isShowPaidIcon:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -3500,7 +3101,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/template/bean/ArMaterial;->sort:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -3515,7 +3115,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -3544,7 +3143,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/template/bean/ArMaterial;->thumbnail:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -3559,7 +3157,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/template/bean/ArMaterial;->title:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -3574,12 +3171,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/template/bean/ArMaterial;->arMaterialInfo:Lcom/commsource/camera/xcamera/bean/a;
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-virtual {v1}, Lcom/commsource/camera/xcamera/bean/a;->k()I
 
     move-result v1
@@ -3591,7 +3186,6 @@
     :cond_0
     const/4 v1, 0x0
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
@@ -3604,7 +3198,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/template/bean/ArMaterial;->versionControl:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -3619,7 +3212,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/template/bean/ArMaterial;->weight:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -3634,7 +3226,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/template/bean/ArMaterial;->autoDownload:I
 
     const/4 v2, 0x1
@@ -3659,7 +3250,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/meitu/template/bean/ArMaterial;->getIsBgDownload()I
 
     move-result v1
@@ -3686,7 +3276,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/meitu/template/bean/ArMaterial;->getBgmFlag()I
 
     move-result v1
@@ -3713,7 +3302,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/meitu/template/bean/ArMaterial;->changeMakeAndBeautyLevel:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -3728,7 +3316,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/meitu/template/bean/ArMaterial;->getArMaterialInfo()Lcom/commsource/camera/xcamera/bean/a;
 
     move-result-object v1
@@ -3761,7 +3348,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/meitu/template/bean/ArMaterial;->getDbgEnable()I
 
     move-result v1
@@ -3788,7 +3374,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/template/bean/ArMaterial;->isDownloading:I
 
     if-lez v1, :cond_0
@@ -3813,14 +3398,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/template/bean/ArMaterial;->isDownload:I
 
     const/4 v2, 0x1
 
     if-ne v1, v2, :cond_8
 
-    .line 2
     invoke-virtual {p0}, Lcom/meitu/template/bean/ArMaterial;->getIs3D()I
 
     move-result v1
@@ -3833,7 +3416,6 @@
 
     if-eqz v1, :cond_8
 
-    .line 3
     :cond_0
     invoke-virtual {p0}, Lcom/meitu/template/bean/ArMaterial;->getIsPet()I
 
@@ -3847,7 +3429,6 @@
 
     if-eqz v1, :cond_8
 
-    .line 4
     :cond_1
     invoke-virtual {p0}, Lcom/meitu/template/bean/ArMaterial;->getIsHumanPosture()I
 
@@ -3861,7 +3442,6 @@
 
     if-eqz v1, :cond_8
 
-    .line 5
     :cond_2
     invoke-virtual {p0}, Lcom/meitu/template/bean/ArMaterial;->getIsSkeletal()I
 
@@ -3875,7 +3455,6 @@
 
     if-eqz v1, :cond_8
 
-    .line 6
     :cond_3
     invoke-virtual {p0}, Lcom/meitu/template/bean/ArMaterial;->getIsFace3dV2()I
 
@@ -3889,7 +3468,6 @@
 
     if-eqz v1, :cond_8
 
-    .line 7
     :cond_4
     invoke-virtual {p0}, Lcom/meitu/template/bean/ArMaterial;->getIsNeckLockPoint()I
 
@@ -3903,7 +3481,6 @@
 
     if-eqz v1, :cond_8
 
-    .line 8
     :cond_5
     invoke-virtual {p0}, Lcom/meitu/template/bean/ArMaterial;->getIsHandPose()I
 
@@ -3917,7 +3494,6 @@
 
     if-eqz v1, :cond_8
 
-    .line 9
     :cond_6
     invoke-virtual {p0}, Lcom/meitu/template/bean/ArMaterial;->getArHelpUrl()Ljava/lang/String;
 
@@ -3935,7 +3511,6 @@
 
     if-ne v1, v2, :cond_8
 
-    .line 10
     :cond_7
     invoke-virtual {p0}, Lcom/meitu/template/bean/ArMaterial;->getRedirectTo()Ljava/lang/String;
 
@@ -3952,7 +3527,6 @@
     :cond_8
     const/4 v2, 0x0
 
-    .line 11
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -3966,7 +3540,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/meitu/template/bean/ArMaterial;->getGroupNumber()I
 
     move-result v1
@@ -3977,12 +3550,10 @@
 
     if-ne v1, v3, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v2
 
-    .line 3
     :cond_0
     iget-object v1, p0, Lcom/meitu/template/bean/ArMaterial;->arMaterialInfo:Lcom/commsource/camera/xcamera/bean/a;
 
@@ -3998,7 +3569,6 @@
 
     iget-object v1, p0, Lcom/meitu/template/bean/ArMaterial;->arMaterialInfo:Lcom/commsource/camera/xcamera/bean/a;
 
-    .line 4
     invoke-virtual {v1}, Lcom/commsource/camera/xcamera/bean/a;->b()[Lf/k/v/b;
 
     move-result-object v1
@@ -4011,7 +3581,6 @@
 
     if-eq v1, v4, :cond_2
 
-    .line 5
     iget-object v1, p0, Lcom/meitu/template/bean/ArMaterial;->arMaterialInfo:Lcom/commsource/camera/xcamera/bean/a;
 
     invoke-virtual {v1}, Lcom/commsource/camera/xcamera/bean/a;->b()[Lf/k/v/b;
@@ -4031,7 +3600,6 @@
 
     return v2
 
-    .line 6
     :cond_2
     iget-object v1, p0, Lcom/meitu/template/bean/ArMaterial;->arMaterialInfo:Lcom/commsource/camera/xcamera/bean/a;
 
@@ -4058,7 +3626,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/template/bean/ArMaterial;->arMaterialInfo:Lcom/commsource/camera/xcamera/bean/a;
 
     const/4 v2, 0x0
@@ -4073,7 +3640,6 @@
 
     iget-object v1, p0, Lcom/meitu/template/bean/ArMaterial;->arMaterialInfo:Lcom/commsource/camera/xcamera/bean/a;
 
-    .line 2
     invoke-virtual {v1}, Lcom/commsource/camera/xcamera/bean/a;->b()[Lf/k/v/b;
 
     move-result-object v1
@@ -4086,7 +3652,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_0
     iget-object v1, p0, Lcom/meitu/template/bean/ArMaterial;->arMaterialInfo:Lcom/commsource/camera/xcamera/bean/a;
 
@@ -4109,7 +3674,6 @@
 
     return v2
 
-    .line 4
     :cond_2
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -4124,7 +3688,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/template/bean/ArMaterial;->arMaterialInfo:Lcom/commsource/camera/xcamera/bean/a;
 
     const/4 v2, 0x0
@@ -4139,7 +3702,6 @@
 
     iget-object v1, p0, Lcom/meitu/template/bean/ArMaterial;->arMaterialInfo:Lcom/commsource/camera/xcamera/bean/a;
 
-    .line 2
     invoke-virtual {v1}, Lcom/commsource/camera/xcamera/bean/a;->b()[Lf/k/v/b;
 
     move-result-object v1
@@ -4152,7 +3714,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_0
     iget-object v1, p0, Lcom/meitu/template/bean/ArMaterial;->arMaterialInfo:Lcom/commsource/camera/xcamera/bean/a;
 
@@ -4175,7 +3736,6 @@
 
     return v2
 
-    .line 4
     :cond_2
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -4190,7 +3750,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/meitu/template/bean/ArMaterial;->hasCheckPopArVideoGuide:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -4205,7 +3764,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/meitu/template/bean/ArMaterial;->getIsHumanPosture()I
 
     move-result v1
@@ -4232,14 +3790,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/template/bean/ArMaterial;->arMaterialPaidInfo:Lcom/meitu/template/bean/ArMaterialPaidInfo;
 
     if-eqz v1, :cond_1
 
     iget v1, p0, Lcom/meitu/template/bean/ArMaterial;->number:I
 
-    .line 2
     invoke-static {v1}, Lcom/commsource/camera/g0;->i(I)Z
 
     move-result v1
@@ -4260,7 +3816,6 @@
     :cond_1
     const/4 v1, 0x0
 
-    .line 3
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -4274,24 +3829,20 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/meitu/template/bean/ArMaterial;->getLimitSpecificModelLists()Ljava/util/List;
 
     move-result-object v1
 
     if-eqz v1, :cond_1
 
-    .line 2
     invoke-interface {v1}, Ljava/util/List;->isEmpty()Z
 
     move-result v2
 
     if-nez v2, :cond_1
 
-    .line 3
     sget-object v2, Landroid/os/Build;->MODEL:Ljava/lang/String;
 
-    .line 4
     invoke-interface {v1}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
     move-result-object v1
@@ -4309,7 +3860,6 @@
 
     check-cast v3, Ljava/lang/String;
 
-    .line 5
     invoke-virtual {v3, v2}, Ljava/lang/String;->equalsIgnoreCase(Ljava/lang/String;)Z
 
     move-result v3
@@ -4318,7 +3868,6 @@
 
     const/4 v1, 0x1
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
@@ -4326,7 +3875,6 @@
     :cond_1
     const/4 v1, 0x0
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
@@ -4339,7 +3887,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/meitu/template/bean/ArMaterial;->getGroupNumber()I
 
     move-result v1
@@ -4352,12 +3899,10 @@
 
     if-nez v1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v2
 
-    .line 3
     :cond_0
     iget-object v1, p0, Lcom/meitu/template/bean/ArMaterial;->arMaterialPaidInfo:Lcom/meitu/template/bean/ArMaterialPaidInfo;
 
@@ -4369,7 +3914,6 @@
 
     if-nez v1, :cond_2
 
-    .line 4
     invoke-static {}, Lcom/commsource/material/h;->o()Lcom/commsource/material/h;
 
     move-result-object v1
@@ -4384,7 +3928,6 @@
 
     if-nez v1, :cond_2
 
-    .line 5
     invoke-static {}, Lcom/meitu/template/feedback/util/e;->R()Z
 
     move-result v1
@@ -4393,7 +3936,6 @@
 
     iget v1, p0, Lcom/meitu/template/bean/ArMaterial;->number:I
 
-    .line 6
     invoke-static {v1}, Lcom/commsource/camera/g0;->i(I)Z
 
     move-result v1
@@ -4417,7 +3959,6 @@
     :goto_0
     if-nez v1, :cond_3
 
-    .line 7
     invoke-static {}, Lcom/commsource/camera/z0/e;->x()Lcom/commsource/camera/z0/e;
 
     move-result-object v3
@@ -4430,7 +3971,6 @@
 
     if-eqz v3, :cond_3
 
-    .line 8
     new-instance v3, Ljava/lang/StringBuilder;
 
     invoke-direct {v3}, Ljava/lang/StringBuilder;-><init>()V
@@ -4454,7 +3994,6 @@
     :cond_3
     if-eqz v1, :cond_4
 
-    .line 9
     iget v3, p0, Lcom/meitu/template/bean/ArMaterial;->number:I
 
     invoke-static {v3}, Lcom/commsource/camera/g0;->h(I)Z
@@ -4475,7 +4014,6 @@
 
     if-eqz v3, :cond_4
 
-    .line 10
     invoke-static {}, Lcom/commsource/camera/z0/e;->F()Z
 
     move-result v3
@@ -4487,7 +4025,6 @@
     :cond_4
     move v2, v1
 
-    .line 11
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -4501,7 +4038,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/template/bean/ArMaterial;->isLockCamera:I
 
     const/4 v2, 0x1
@@ -4526,7 +4062,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/template/bean/ArMaterial;->arCoreType:I
 
     const/4 v2, 0x4
@@ -4541,7 +4076,6 @@
 
     if-nez v1, :cond_0
 
-    .line 2
     invoke-static {}, Lcom/commsource/widget/i0;->b()Z
 
     move-result v1
@@ -4555,7 +4089,6 @@
     :cond_0
     const/4 v1, 0x0
 
-    .line 3
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -4569,7 +4102,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/template/bean/ArMaterial;->groupNumber:I
 
     const/4 v2, 0x6
@@ -4596,7 +4128,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/template/bean/ArMaterial;->redirectTo:Ljava/lang/String;
 
     invoke-static {v1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
@@ -4617,7 +4148,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/template/bean/ArMaterial;->isShareLock:I
 
     const/4 v2, 0x1
@@ -4642,7 +4172,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/z0;->E()Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/z0;
 
     move-result-object v1
@@ -4663,7 +4192,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/template/bean/ArMaterial;->arMaterialInfo:Lcom/commsource/camera/xcamera/bean/a;
 
     const/4 v2, 0x1
@@ -4680,7 +4208,6 @@
 
     iget-object v1, p0, Lcom/meitu/template/bean/ArMaterial;->arMaterialInfo:Lcom/commsource/camera/xcamera/bean/a;
 
-    .line 2
     invoke-virtual {v1}, Lcom/commsource/camera/xcamera/bean/a;->b()[Lf/k/v/b;
 
     move-result-object v1
@@ -4693,7 +4220,6 @@
 
     goto :goto_1
 
-    .line 3
     :cond_0
     iget-object v1, p0, Lcom/meitu/template/bean/ArMaterial;->arMaterialInfo:Lcom/commsource/camera/xcamera/bean/a;
 
@@ -4717,7 +4243,6 @@
 
     return v2
 
-    .line 4
     :cond_2
     :goto_1
     iget v1, p0, Lcom/meitu/template/bean/ArMaterial;->beautyLevel:I
@@ -4744,7 +4269,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/template/bean/ArMaterial;->arMaterialInfo:Lcom/commsource/camera/xcamera/bean/a;
 
     const/4 v2, 0x1
@@ -4761,7 +4285,6 @@
 
     iget-object v1, p0, Lcom/meitu/template/bean/ArMaterial;->arMaterialInfo:Lcom/commsource/camera/xcamera/bean/a;
 
-    .line 2
     invoke-virtual {v1}, Lcom/commsource/camera/xcamera/bean/a;->b()[Lf/k/v/b;
 
     move-result-object v1
@@ -4772,7 +4295,6 @@
 
     if-ltz v1, :cond_1
 
-    .line 3
     iget-object v1, p0, Lcom/meitu/template/bean/ArMaterial;->arMaterialInfo:Lcom/commsource/camera/xcamera/bean/a;
 
     invoke-virtual {v1}, Lcom/commsource/camera/xcamera/bean/a;->b()[Lf/k/v/b;
@@ -4795,7 +4317,6 @@
 
     return v2
 
-    .line 4
     :cond_1
     iget v1, p0, Lcom/meitu/template/bean/ArMaterial;->makeLevel:I
 
@@ -4821,7 +4342,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/template/bean/ArMaterial;->arTipType:I
 
     const/4 v2, 0x1
@@ -4850,7 +4370,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/meitu/template/bean/ArMaterial;->isSubscriberAr()Z
 
     move-result v1
@@ -4869,7 +4388,6 @@
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-virtual {v1}, Lcom/meitu/template/bean/ArMaterialPaidInfo;->isPaid()Z
 
     move-result v1
@@ -4897,7 +4415,6 @@
     :goto_1
     xor-int/2addr v1, v2
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
@@ -4910,7 +4427,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/template/bean/ArMaterial;->isSwitching:I
 
     const/4 v2, 0x1
@@ -4935,7 +4451,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/meitu/template/bean/ArMaterial;->getGroupNumber()I
 
     move-result v1
@@ -4954,12 +4469,10 @@
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v2
 
-    .line 3
     :cond_0
     iget v1, p0, Lcom/meitu/template/bean/ArMaterial;->number:I
 
@@ -4981,19 +4494,16 @@
 
     if-eqz v1, :cond_1
 
-    .line 4
     invoke-static {}, Lcom/commsource/camera/z0/e;->F()Z
 
     move-result v1
 
     if-eqz v1, :cond_1
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v2
 
-    .line 6
     :cond_1
     iget-object v1, p0, Lcom/meitu/template/bean/ArMaterial;->arMaterialPaidInfo:Lcom/meitu/template/bean/ArMaterialPaidInfo;
 
@@ -5013,7 +4523,6 @@
 
     iget v1, p0, Lcom/meitu/template/bean/ArMaterial;->number:I
 
-    .line 7
     invoke-static {v1}, Lcom/commsource/camera/g0;->i(I)Z
 
     move-result v1
@@ -5029,7 +4538,6 @@
     :cond_2
     const/4 v2, 0x1
 
-    .line 8
     :cond_3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -5043,7 +4551,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/meitu/template/bean/ArMaterial;->getIsPhysical()I
 
     move-result v1
@@ -5070,7 +4577,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/meitu/template/bean/ArMaterial;->getRedTime()J
 
     move-result-wide v1
@@ -5113,7 +4619,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/meitu/template/bean/ArMaterial;->getNumber()I
 
     move-result v1
@@ -5140,7 +4645,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/template/bean/ArMaterial;->isAfterShare:I
 
     const/4 v2, 0x1
@@ -5165,7 +4669,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/meitu/template/bean/ArMaterial;->getGroupNumber()I
 
     move-result v1
@@ -5178,12 +4681,10 @@
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v2
 
-    .line 3
     :cond_0
     iget-object v1, p0, Lcom/meitu/template/bean/ArMaterial;->arMaterialPaidInfo:Lcom/meitu/template/bean/ArMaterialPaidInfo;
 
@@ -5191,12 +4692,10 @@
 
     if-eqz v1, :cond_1
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v3
 
-    .line 5
     :cond_1
     iget-object v1, p0, Lcom/meitu/template/bean/ArMaterial;->paidType:Ljava/lang/String;
 
@@ -5208,19 +4707,16 @@
 
     if-eqz v1, :cond_4
 
-    .line 6
     invoke-static {}, Lf/d/i/e;->B1()Z
 
     move-result v1
 
     if-eqz v1, :cond_2
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v3
 
-    .line 8
     :cond_2
     iget-object v1, p0, Lcom/meitu/template/bean/ArMaterial;->newAr:Ljava/lang/String;
 
@@ -5230,18 +4726,15 @@
 
     if-eqz v1, :cond_3
 
-    .line 9
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v3
 
-    .line 10
     :cond_3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v2
 
-    .line 11
     :cond_4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -5255,7 +4748,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/template/bean/ArMaterial;->enableText:I
 
     const/4 v2, 0x1
@@ -5280,7 +4772,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/template/bean/ArMaterial;->arMaterialInfo:Lcom/commsource/camera/xcamera/bean/a;
 
     const/4 v2, 0x0
@@ -5297,7 +4788,6 @@
 
     iget-object v1, p0, Lcom/meitu/template/bean/ArMaterial;->arMaterialInfo:Lcom/commsource/camera/xcamera/bean/a;
 
-    .line 2
     invoke-virtual {v1}, Lcom/commsource/camera/xcamera/bean/a;->b()[Lf/k/v/b;
 
     move-result-object v1
@@ -5312,7 +4802,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_0
     iget-object v1, p0, Lcom/meitu/template/bean/ArMaterial;->arMaterialInfo:Lcom/commsource/camera/xcamera/bean/a;
 
@@ -5333,7 +4822,6 @@
 
     return v2
 
-    .line 4
     :cond_2
     :goto_0
     iget v1, p0, Lcom/meitu/template/bean/ArMaterial;->isTouch:I
@@ -5355,7 +4843,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/meitu/template/bean/ArMaterial;->isTravelArUsed:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -5372,7 +4859,6 @@
 
     const/4 v1, 0x1
 
-    .line 1
     :try_start_0
     invoke-virtual {p0}, Lcom/meitu/template/bean/ArMaterial;->getMinVersion()Ljava/lang/String;
 
@@ -5384,7 +4870,6 @@
 
     if-nez v2, :cond_0
 
-    .line 2
     invoke-static {}, Lcom/meitu/library/p/d/a;->e()I
 
     move-result v2
@@ -5412,13 +4897,11 @@
     :cond_0
     const/4 v1, 0x0
 
-    .line 3
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
 
-    .line 4
     :catch_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -5434,7 +4917,6 @@
 
     const/4 v1, 0x0
 
-    .line 1
     :try_start_0
     invoke-virtual {p0}, Lcom/meitu/template/bean/ArMaterial;->getMinVersion()Ljava/lang/String;
 
@@ -5448,7 +4930,6 @@
 
     if-nez v2, :cond_0
 
-    .line 2
     invoke-static {}, Lcom/meitu/library/p/d/a;->e()I
 
     move-result v2
@@ -5474,13 +4955,11 @@
     :cond_0
     const/4 v1, 0x1
 
-    .line 3
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
 
-    .line 4
     :catch_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -5494,7 +4973,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/meitu/template/bean/ArMaterial;->isBgDownload()Z
 
     move-result v1
@@ -5527,7 +5005,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p0}, Lcom/commsource/beautyplus/util/h;->G(Lcom/meitu/template/bean/ArMaterial;)Z
 
     move-result v1
@@ -5548,7 +5025,6 @@
 
     if-eqz v1, :cond_7
 
-    .line 2
     :cond_0
     invoke-virtual {p0}, Lcom/meitu/template/bean/ArMaterial;->getIsPet()I
 
@@ -5562,7 +5038,6 @@
 
     if-eqz v1, :cond_7
 
-    .line 3
     :cond_1
     invoke-virtual {p0}, Lcom/meitu/template/bean/ArMaterial;->getIsHumanPosture()I
 
@@ -5576,7 +5051,6 @@
 
     if-eqz v1, :cond_7
 
-    .line 4
     :cond_2
     invoke-virtual {p0}, Lcom/meitu/template/bean/ArMaterial;->getIsSkeletal()I
 
@@ -5590,7 +5064,6 @@
 
     if-eqz v1, :cond_7
 
-    .line 5
     :cond_3
     invoke-virtual {p0}, Lcom/meitu/template/bean/ArMaterial;->getIsFace3dV2()I
 
@@ -5604,7 +5077,6 @@
 
     if-eqz v1, :cond_7
 
-    .line 6
     :cond_4
     invoke-virtual {p0}, Lcom/meitu/template/bean/ArMaterial;->getIsNeckLockPoint()I
 
@@ -5618,7 +5090,6 @@
 
     if-eqz v1, :cond_7
 
-    .line 7
     :cond_5
     invoke-virtual {p0}, Lcom/meitu/template/bean/ArMaterial;->getIsHandPose()I
 
@@ -5632,7 +5103,6 @@
 
     if-eqz v1, :cond_7
 
-    .line 8
     :cond_6
     invoke-virtual {p0}, Lcom/meitu/template/bean/ArMaterial;->getArHelpUrl()Ljava/lang/String;
 
@@ -5666,7 +5136,6 @@
     :cond_8
     const/4 v2, 0x0
 
-    .line 9
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -5680,10 +5149,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/meitu/template/bean/ArMaterial;->afterWeight:I
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -5696,10 +5163,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/template/bean/ArMaterial;->arCoreIcon:Ljava/lang/String;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -5712,10 +5177,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/meitu/template/bean/ArMaterial;->arCoreType:I
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -5728,10 +5191,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/meitu/template/bean/ArMaterial;->arHelpIsDown:I
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -5744,10 +5205,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/meitu/template/bean/ArMaterial;->arHelpRule:I
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -5760,10 +5219,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/template/bean/ArMaterial;->arHelpTitle:Ljava/lang/String;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -5776,10 +5233,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/template/bean/ArMaterial;->arHelpUrl:Ljava/lang/String;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -5792,10 +5247,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/template/bean/ArMaterial;->arMaterialInfo:Lcom/commsource/camera/xcamera/bean/a;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -5808,10 +5261,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/template/bean/ArMaterial;->arMaterialPaidInfo:Lcom/meitu/template/bean/ArMaterialPaidInfo;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -5824,10 +5275,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/meitu/template/bean/ArMaterial;->arMaterialPaidInfoNumber:I
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -5840,10 +5289,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/template/bean/ArMaterial;->arOnlineText:Ljava/lang/String;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -5856,10 +5303,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/meitu/template/bean/ArMaterial;->arTipType:I
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -5872,10 +5317,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/meitu/template/bean/ArMaterial;->autoDownload:I
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -5888,10 +5331,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/meitu/template/bean/ArMaterial;->beautyLevel:I
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -5904,10 +5345,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/meitu/template/bean/ArMaterial;->bgmFlag:I
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -5920,10 +5359,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/meitu/template/bean/ArMaterial;->changeMakeAndBeautyLevel:Z
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -5936,10 +5373,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/meitu/template/bean/ArMaterial;->clickGroupNumber:I
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -5952,10 +5387,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/meitu/template/bean/ArMaterial;->clickPosition:I
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -5968,10 +5401,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-wide p1, p0, Lcom/meitu/template/bean/ArMaterial;->collectionTime:J
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -5984,10 +5415,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/meitu/template/bean/ArMaterial;->currentArIndex:I
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -6000,10 +5429,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/meitu/template/bean/ArMaterial;->dbgEnable:I
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -6016,10 +5443,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/template/bean/ArMaterial;->dbgNumber:Ljava/lang/String;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -6032,10 +5457,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/template/bean/ArMaterial;->dbgUrl:Ljava/lang/String;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -6048,10 +5471,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/meitu/template/bean/ArMaterial;->downloadProgress:I
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -6064,10 +5485,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-wide p1, p0, Lcom/meitu/template/bean/ArMaterial;->downloadTime:J
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -6080,10 +5499,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/meitu/template/bean/ArMaterial;->enableText:I
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -6096,10 +5513,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-wide p1, p0, Lcom/meitu/template/bean/ArMaterial;->endTime:J
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -6112,10 +5527,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-wide p1, p0, Lcom/meitu/template/bean/ArMaterial;->endUseTime:J
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -6128,10 +5541,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/meitu/template/bean/ArMaterial;->featuredSort:I
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -6144,10 +5555,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/template/bean/ArMaterial;->fileSize:Ljava/lang/String;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -6160,10 +5569,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/template/bean/ArMaterial;->fileUrl:Ljava/lang/String;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -6176,10 +5583,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/meitu/template/bean/ArMaterial;->groupNumber:I
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -6192,10 +5597,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/meitu/template/bean/ArMaterial;->hasCheckPopArVideoGuide:Z
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -6216,10 +5619,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/template/bean/ArMaterial;->hashTagArray:Ljava/util/List;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -6232,10 +5633,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/template/bean/ArMaterial;->hashTags:Ljava/lang/String;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -6248,10 +5647,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-wide p1, p0, Lcom/meitu/template/bean/ArMaterial;->hotEndTime:J
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -6264,10 +5661,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/meitu/template/bean/ArMaterial;->hotSort:I
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -6280,10 +5675,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/template/bean/ArMaterial;->id:Ljava/lang/Long;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -6296,10 +5689,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/meitu/template/bean/ArMaterial;->interactive:I
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -6312,10 +5703,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/template/bean/ArMaterial;->ipColorCode:Ljava/lang/String;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -6328,10 +5717,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/meitu/template/bean/ArMaterial;->ipStoreId:I
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -6344,10 +5731,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/meitu/template/bean/ArMaterial;->is3D:I
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -6360,10 +5745,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/meitu/template/bean/ArMaterial;->is3DDownload:I
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -6376,10 +5759,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/meitu/template/bean/ArMaterial;->is3DDownloading:I
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -6392,10 +5773,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/meitu/template/bean/ArMaterial;->isAfterShare:I
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -6408,10 +5787,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/meitu/template/bean/ArMaterial;->isAnimalDownload:I
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -6424,10 +5801,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/meitu/template/bean/ArMaterial;->isBgDownload:I
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -6440,10 +5815,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/meitu/template/bean/ArMaterial;->isBgDownloading:I
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -6456,10 +5829,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/meitu/template/bean/ArMaterial;->isCollected:I
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -6472,10 +5843,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/meitu/template/bean/ArMaterial;->isDownload:I
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -6488,10 +5857,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/meitu/template/bean/ArMaterial;->isDownloading:I
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -6504,10 +5871,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/meitu/template/bean/ArMaterial;->isDyeHair:I
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -6520,10 +5885,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/meitu/template/bean/ArMaterial;->isDyeHairDownload:I
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -6536,10 +5899,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/meitu/template/bean/ArMaterial;->isDyeHairDownloading:I
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -6552,10 +5913,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/meitu/template/bean/ArMaterial;->isFace3dV2:I
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -6568,10 +5927,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/meitu/template/bean/ArMaterial;->isFace3dV2Download:I
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -6584,10 +5941,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/meitu/template/bean/ArMaterial;->isFeatured:I
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -6600,10 +5955,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/meitu/template/bean/ArMaterial;->isHandPose:I
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -6616,10 +5969,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/meitu/template/bean/ArMaterial;->isHideRed:I
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -6632,10 +5983,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/meitu/template/bean/ArMaterial;->isHot:I
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -6648,10 +5997,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/meitu/template/bean/ArMaterial;->isHumanDownload:I
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -6664,10 +6011,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/meitu/template/bean/ArMaterial;->isHumanDownloading:I
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -6680,10 +6025,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/meitu/template/bean/ArMaterial;->isHumanPosture:I
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -6696,10 +6039,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/meitu/template/bean/ArMaterial;->isLockCamera:I
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -6712,10 +6053,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/meitu/template/bean/ArMaterial;->isNeckLockDownloaded:I
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -6728,10 +6067,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/meitu/template/bean/ArMaterial;->isNeckLockPoint:I
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -6744,10 +6081,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/meitu/template/bean/ArMaterial;->isNeedWaterMark:I
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -6760,10 +6095,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-wide p1, p0, Lcom/meitu/template/bean/ArMaterial;->isNew:J
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -6776,10 +6109,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/meitu/template/bean/ArMaterial;->isPet:I
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -6792,10 +6123,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/meitu/template/bean/ArMaterial;->isPhysical:I
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -6808,10 +6137,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/meitu/template/bean/ArMaterial;->isShareLock:I
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -6824,10 +6151,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/meitu/template/bean/ArMaterial;->isSkeletal:I
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -6840,10 +6165,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/meitu/template/bean/ArMaterial;->isSkeletalDownload:I
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -6856,10 +6179,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/meitu/template/bean/ArMaterial;->isSwitching:I
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -6872,10 +6193,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/meitu/template/bean/ArMaterial;->isTouch:I
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -6888,10 +6207,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/meitu/template/bean/ArMaterial;->locations:I
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -6904,10 +6221,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/meitu/template/bean/ArMaterial;->makeLevel:I
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -6920,10 +6235,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/template/bean/ArMaterial;->maxVersion:Ljava/lang/String;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -6936,10 +6249,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/template/bean/ArMaterial;->minVersion:Ljava/lang/String;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -6956,7 +6267,6 @@
 
     const/4 p1, 0x1
 
-    .line 1
     iput p1, p0, Lcom/meitu/template/bean/ArMaterial;->isShareLock:I
 
     goto :goto_0
@@ -6964,10 +6274,8 @@
     :cond_0
     const/4 p1, 0x0
 
-    .line 2
     iput p1, p0, Lcom/meitu/template/bean/ArMaterial;->isShareLock:I
 
-    .line 3
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -6981,10 +6289,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/template/bean/ArMaterial;->newAr:Ljava/lang/String;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -6997,10 +6303,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-wide p1, p0, Lcom/meitu/template/bean/ArMaterial;->newEndTime:J
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -7013,10 +6317,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/meitu/template/bean/ArMaterial;->newSort:I
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -7029,10 +6331,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/meitu/template/bean/ArMaterial;->number:I
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -7045,10 +6345,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/template/bean/ArMaterial;->paidType:Ljava/lang/String;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -7061,10 +6359,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/template/bean/ArMaterial;->previewUrl:Ljava/lang/String;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -7077,10 +6373,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/meitu/template/bean/ArMaterial;->rankValue:I
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -7093,10 +6387,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-wide p1, p0, Lcom/meitu/template/bean/ArMaterial;->redTime:J
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -7109,10 +6401,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/template/bean/ArMaterial;->redirectTo:Ljava/lang/String;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -7125,10 +6415,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/meitu/template/bean/ArMaterial;->regionHotSort:I
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -7141,10 +6429,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/template/bean/ArMaterial;->requestArVideoGuideResult:Ljava/lang/String;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -7161,7 +6447,6 @@
 
     const/4 p1, 0x1
 
-    .line 1
     iput p1, p0, Lcom/meitu/template/bean/ArMaterial;->isAfterShare:I
 
     goto :goto_0
@@ -7169,10 +6454,8 @@
     :cond_0
     const/4 p1, 0x0
 
-    .line 2
     iput p1, p0, Lcom/meitu/template/bean/ArMaterial;->isAfterShare:I
 
-    .line 3
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -7186,10 +6469,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/meitu/template/bean/ArMaterial;->showArCoreIcon:I
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -7202,10 +6483,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/meitu/template/bean/ArMaterial;->isShowPaidIcon:Z
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -7218,10 +6497,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/meitu/template/bean/ArMaterial;->sort:I
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -7234,10 +6511,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/template/bean/ArMaterial;->thumbnail:Ljava/lang/String;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -7250,10 +6525,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/template/bean/ArMaterial;->title:Ljava/lang/String;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -7266,10 +6539,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/meitu/template/bean/ArMaterial;->isTravelArUsed:Z
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -7282,10 +6553,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/meitu/template/bean/ArMaterial;->versionControl:I
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -7298,10 +6567,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/meitu/template/bean/ArMaterial;->weight:I
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -7314,7 +6581,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/commsource/camera/ardata/f;->b()[I
 
     move-result-object v1
@@ -7330,12 +6596,10 @@
 
     aget v5, v1, v4
 
-    .line 2
     iget v6, p0, Lcom/meitu/template/bean/ArMaterial;->number:I
 
     if-ne v5, v6, :cond_0
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const/4 v0, 0x1
@@ -7347,7 +6611,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -7361,7 +6624,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/template/bean/ArMaterial;->isSkeletal:I
 
     const/4 v2, 0x1
@@ -7374,7 +6636,6 @@
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v2
@@ -7382,7 +6643,6 @@
     :cond_0
     const/4 v1, 0x0
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
@@ -7395,7 +6655,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/commsource/camera/ardata/f;->b()[I
 
     move-result-object v1
@@ -7411,12 +6670,10 @@
 
     aget v5, v1, v4
 
-    .line 2
     iget v6, p0, Lcom/meitu/template/bean/ArMaterial;->number:I
 
     if-ne v5, v6, :cond_0
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const/4 v0, 0x1
@@ -7428,7 +6685,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -7442,7 +6698,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/template/bean/ArMaterial;->number:I
 
     int-to-long v1, v1
@@ -7453,19 +6708,16 @@
 
     iput-object v1, p0, Lcom/meitu/template/bean/ArMaterial;->id:Ljava/lang/Long;
 
-    .line 2
     iget-object v1, p0, Lcom/meitu/template/bean/ArMaterial;->languageInfo:Lcom/meitu/template/bean/ArMaterial$LanguageJsonBean;
 
     if-eqz v1, :cond_0
 
-    .line 3
     invoke-static {v1}, Lcom/meitu/template/bean/ArMaterial$LanguageJsonBean;->access$000(Lcom/meitu/template/bean/ArMaterial$LanguageJsonBean;)I
 
     move-result v1
 
     invoke-virtual {p0, v1}, Lcom/meitu/template/bean/ArMaterial;->setMakeLevel(I)V
 
-    .line 4
     :cond_0
     iget v1, p0, Lcom/meitu/template/bean/ArMaterial;->isDyeHair:I
 
@@ -7475,25 +6727,21 @@
 
     const/4 v1, 0x0
 
-    .line 5
     invoke-virtual {p0, v1}, Lcom/meitu/template/bean/ArMaterial;->setDbgEnable(I)V
 
     goto :goto_0
 
-    .line 6
     :cond_1
     iget-object v1, p0, Lcom/meitu/template/bean/ArMaterial;->dbgInfo:Lcom/meitu/template/bean/ArMaterial$BgmJsonBean;
 
     if-eqz v1, :cond_2
 
-    .line 7
     invoke-static {v1}, Lcom/meitu/template/bean/ArMaterial$BgmJsonBean;->access$100(Lcom/meitu/template/bean/ArMaterial$BgmJsonBean;)I
 
     move-result v1
 
     invoke-virtual {p0, v1}, Lcom/meitu/template/bean/ArMaterial;->setDbgEnable(I)V
 
-    .line 8
     iget-object v1, p0, Lcom/meitu/template/bean/ArMaterial;->dbgInfo:Lcom/meitu/template/bean/ArMaterial$BgmJsonBean;
 
     invoke-static {v1}, Lcom/meitu/template/bean/ArMaterial$BgmJsonBean;->access$200(Lcom/meitu/template/bean/ArMaterial$BgmJsonBean;)Ljava/lang/String;
@@ -7502,7 +6750,6 @@
 
     invoke-virtual {p0, v1}, Lcom/meitu/template/bean/ArMaterial;->setDbgUrl(Ljava/lang/String;)V
 
-    .line 9
     iget-object v1, p0, Lcom/meitu/template/bean/ArMaterial;->dbgInfo:Lcom/meitu/template/bean/ArMaterial$BgmJsonBean;
 
     invoke-static {v1}, Lcom/meitu/template/bean/ArMaterial$BgmJsonBean;->access$300(Lcom/meitu/template/bean/ArMaterial$BgmJsonBean;)I
@@ -7515,21 +6762,18 @@
 
     invoke-virtual {p0, v1}, Lcom/meitu/template/bean/ArMaterial;->setDbgNumber(Ljava/lang/String;)V
 
-    .line 10
     :cond_2
     :goto_0
     iget-object v1, p0, Lcom/meitu/template/bean/ArMaterial;->arHelpTip:Lcom/meitu/template/bean/ArMaterial$ArHelpTip;
 
     if-eqz v1, :cond_3
 
-    .line 11
     invoke-static {v1}, Lcom/meitu/template/bean/ArMaterial$ArHelpTip;->access$400(Lcom/meitu/template/bean/ArMaterial$ArHelpTip;)Ljava/lang/String;
 
     move-result-object v1
 
     invoke-virtual {p0, v1}, Lcom/meitu/template/bean/ArMaterial;->setArHelpTitle(Ljava/lang/String;)V
 
-    .line 12
     iget-object v1, p0, Lcom/meitu/template/bean/ArMaterial;->arHelpTip:Lcom/meitu/template/bean/ArMaterial$ArHelpTip;
 
     invoke-static {v1}, Lcom/meitu/template/bean/ArMaterial$ArHelpTip;->access$500(Lcom/meitu/template/bean/ArMaterial$ArHelpTip;)I
@@ -7538,7 +6782,6 @@
 
     invoke-virtual {p0, v1}, Lcom/meitu/template/bean/ArMaterial;->setArHelpRule(I)V
 
-    .line 13
     iget-object v1, p0, Lcom/meitu/template/bean/ArMaterial;->arHelpTip:Lcom/meitu/template/bean/ArMaterial$ArHelpTip;
 
     invoke-static {v1}, Lcom/meitu/template/bean/ArMaterial$ArHelpTip;->access$600(Lcom/meitu/template/bean/ArMaterial$ArHelpTip;)Ljava/lang/String;
@@ -7547,13 +6790,11 @@
 
     invoke-virtual {p0, v1}, Lcom/meitu/template/bean/ArMaterial;->setArHelpUrl(Ljava/lang/String;)V
 
-    .line 14
     :cond_3
     iget-object v1, p0, Lcom/meitu/template/bean/ArMaterial;->limitSpecificModelLists:Ljava/util/List;
 
     if-eqz v1, :cond_4
 
-    .line 15
     invoke-static {}, Lcom/meitu/webview/utils/c;->b()Lcom/google/gson/Gson;
 
     move-result-object v1
@@ -7566,7 +6807,6 @@
 
     iput-object v1, p0, Lcom/meitu/template/bean/ArMaterial;->limitSpecificModelString:Ljava/lang/String;
 
-    .line 16
     :cond_4
     iget-object v1, p0, Lcom/meitu/template/bean/ArMaterial;->hashTagArray:Ljava/util/List;
 
@@ -7578,12 +6818,10 @@
 
     if-lez v1, :cond_6
 
-    .line 17
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
 
-    .line 18
     iget-object v2, p0, Lcom/meitu/template/bean/ArMaterial;->hashTagArray:Ljava/util/List;
 
     invoke-interface {v2}, Ljava/util/List;->iterator()Ljava/util/Iterator;
@@ -7605,7 +6843,6 @@
 
     const-string v4, "#"
 
-    .line 19
     invoke-virtual {v1, v4}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     invoke-virtual {v1, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
@@ -7616,7 +6853,6 @@
 
     goto :goto_1
 
-    .line 20
     :cond_5
     invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
@@ -7624,7 +6860,6 @@
 
     iput-object v1, p0, Lcom/meitu/template/bean/ArMaterial;->hashTags:Ljava/lang/String;
 
-    .line 21
     :cond_6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -7638,7 +6873,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/meitu/template/bean/ArMaterial;->getDbgEnable()I
 
     move-result v1

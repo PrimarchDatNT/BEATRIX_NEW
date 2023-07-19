@@ -61,7 +61,6 @@
 .method public bridge synthetic invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
     .locals 0
 
-    .line 1
     check-cast p1, Lkshark/v;
 
     check-cast p2, Lkshark/HeapObject$HeapInstance;
@@ -92,7 +91,6 @@
 
     invoke-static {p2, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 2
     sget-object v0, Lkshark/AndroidObjectInspectors;->VIEW:Lkshark/AndroidObjectInspectors;
 
     const-string v1, "android.widget.Editor"

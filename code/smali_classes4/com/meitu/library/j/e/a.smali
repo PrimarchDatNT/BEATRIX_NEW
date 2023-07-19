@@ -25,15 +25,12 @@
 .method public constructor <init>(Lcom/meitu/library/gid/base/u;)V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     invoke-virtual {p1}, Lcom/meitu/library/gid/base/u;->w()Lcom/meitu/library/gid/base/s0/f;
 
     move-result-object p1
 
-    .line 3
     sget-object v0, Lcom/meitu/library/gid/base/s0/c;->h:Lcom/meitu/library/gid/base/s0/c;
 
     invoke-virtual {p1, v0}, Lcom/meitu/library/gid/base/s0/f;->h(Lcom/meitu/library/gid/base/s0/c;)Ljava/lang/Object;
@@ -44,7 +41,6 @@
 
     iput-object v0, p0, Lcom/meitu/library/j/e/a;->a:Ljava/lang/String;
 
-    .line 4
     sget-object v0, Lcom/meitu/library/gid/base/s0/c;->i:Lcom/meitu/library/gid/base/s0/c;
 
     invoke-virtual {p1, v0}, Lcom/meitu/library/gid/base/s0/f;->h(Lcom/meitu/library/gid/base/s0/c;)Ljava/lang/Object;
@@ -55,7 +51,6 @@
 
     iput-object v0, p0, Lcom/meitu/library/j/e/a;->b:Ljava/lang/String;
 
-    .line 5
     sget-object v0, Lcom/meitu/library/gid/base/s0/c;->j:Lcom/meitu/library/gid/base/s0/c;
 
     invoke-virtual {p1, v0}, Lcom/meitu/library/gid/base/s0/f;->h(Lcom/meitu/library/gid/base/s0/c;)Ljava/lang/Object;
@@ -66,7 +61,6 @@
 
     iput-object v0, p0, Lcom/meitu/library/j/e/a;->c:Ljava/lang/String;
 
-    .line 6
     sget-object v0, Lcom/meitu/library/gid/base/s0/c;->k:Lcom/meitu/library/gid/base/s0/c;
 
     invoke-virtual {p1, v0}, Lcom/meitu/library/gid/base/s0/f;->h(Lcom/meitu/library/gid/base/s0/c;)Ljava/lang/Object;
@@ -77,14 +71,12 @@
 
     iput-object v0, p0, Lcom/meitu/library/j/e/a;->e:Ljava/lang/String;
 
-    .line 7
     invoke-static {}, Lcom/meitu/library/j/f/a;->n()Ljava/lang/String;
 
     move-result-object v0
 
     iput-object v0, p0, Lcom/meitu/library/j/e/a;->d:Ljava/lang/String;
 
-    .line 8
     sget-object v0, Lcom/meitu/library/gid/base/s0/c;->x:Lcom/meitu/library/gid/base/s0/c;
 
     invoke-virtual {p1, v0}, Lcom/meitu/library/gid/base/s0/f;->h(Lcom/meitu/library/gid/base/s0/c;)Ljava/lang/Object;
@@ -95,7 +87,6 @@
 
     iput-object v0, p0, Lcom/meitu/library/j/e/a;->f:Ljava/lang/String;
 
-    .line 9
     sget-object v0, Lcom/meitu/library/gid/base/s0/c;->y:Lcom/meitu/library/gid/base/s0/c;
 
     invoke-virtual {p1, v0}, Lcom/meitu/library/gid/base/s0/f;->h(Lcom/meitu/library/gid/base/s0/c;)Ljava/lang/Object;
@@ -106,7 +97,6 @@
 
     iput-object v0, p0, Lcom/meitu/library/j/e/a;->g:Ljava/lang/String;
 
-    .line 10
     sget-object v0, Lcom/meitu/library/gid/base/s0/c;->z:Lcom/meitu/library/gid/base/s0/c;
 
     invoke-virtual {p1, v0}, Lcom/meitu/library/gid/base/s0/f;->h(Lcom/meitu/library/gid/base/s0/c;)Ljava/lang/Object;
@@ -131,7 +121,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V

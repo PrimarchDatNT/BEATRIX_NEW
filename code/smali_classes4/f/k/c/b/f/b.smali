@@ -30,10 +30,8 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     new-instance v0, Landroidx/collection/SparseArrayCompat;
 
     invoke-direct {v0}, Landroidx/collection/SparseArrayCompat;-><init>()V
@@ -61,7 +59,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lf/k/c/b/f/b;->a:Landroidx/collection/SparseArrayCompat;
 
     invoke-virtual {v1, p1}, Landroidx/collection/SparseArrayCompat;->get(I)Ljava/lang/Object;
@@ -70,17 +67,14 @@
 
     if-nez v1, :cond_0
 
-    .line 2
     iget-object v1, p0, Lf/k/c/b/f/b;->a:Landroidx/collection/SparseArrayCompat;
 
     invoke-virtual {v1, p1, p2}, Landroidx/collection/SparseArrayCompat;->put(ILjava/lang/Object;)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
 
-    .line 4
     :cond_0
     new-instance p2, Ljava/lang/IllegalArgumentException;
 
@@ -100,7 +94,6 @@
 
     iget-object v2, p0, Lf/k/c/b/f/b;->a:Landroidx/collection/SparseArrayCompat;
 
-    .line 5
     invoke-virtual {v2, p1}, Landroidx/collection/SparseArrayCompat;->get(I)Ljava/lang/Object;
 
     move-result-object p1
@@ -134,7 +127,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lf/k/c/b/f/b;->a:Landroidx/collection/SparseArrayCompat;
 
     invoke-virtual {v1}, Landroidx/collection/SparseArrayCompat;->size()I
@@ -143,12 +135,10 @@
 
     if-eqz p1, :cond_0
 
-    .line 2
     iget-object v2, p0, Lf/k/c/b/f/b;->a:Landroidx/collection/SparseArrayCompat;
 
     invoke-virtual {v2, v1, p1}, Landroidx/collection/SparseArrayCompat;->put(ILjava/lang/Object;)V
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -169,7 +159,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lf/k/c/b/f/b;->a:Landroidx/collection/SparseArrayCompat;
 
     invoke-virtual {v1}, Landroidx/collection/SparseArrayCompat;->size()I
@@ -181,7 +170,6 @@
     :goto_0
     if-ge v2, v1, :cond_1
 
-    .line 2
     iget-object v3, p0, Lf/k/c/b/f/b;->a:Landroidx/collection/SparseArrayCompat;
 
     invoke-virtual {v3, v2}, Landroidx/collection/SparseArrayCompat;->valueAt(I)Ljava/lang/Object;
@@ -190,17 +178,14 @@
 
     check-cast v3, Lf/k/c/b/f/a;
 
-    .line 3
     invoke-interface {v3, p2, p3}, Lf/k/c/b/f/a;->b(Ljava/lang/Object;I)Z
 
     move-result v4
 
     if-eqz v4, :cond_0
 
-    .line 4
     invoke-interface {v3, p1, p2, p3}, Lf/k/c/b/f/a;->c(Lf/k/c/b/f/c;Ljava/lang/Object;I)V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -210,7 +195,6 @@
 
     goto :goto_0
 
-    .line 6
     :cond_1
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -246,7 +230,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lf/k/c/b/f/b;->a:Landroidx/collection/SparseArrayCompat;
 
     invoke-virtual {v1, p1}, Landroidx/collection/SparseArrayCompat;->get(I)Ljava/lang/Object;
@@ -267,7 +250,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lf/k/c/b/f/b;->a:Landroidx/collection/SparseArrayCompat;
 
     invoke-virtual {v1}, Landroidx/collection/SparseArrayCompat;->size()I
@@ -286,7 +268,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0, p1}, Lf/k/c/b/f/b;->d(I)Lf/k/c/b/f/a;
 
     move-result-object p1
@@ -307,7 +288,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lf/k/c/b/f/b;->a:Landroidx/collection/SparseArrayCompat;
 
     invoke-virtual {v1, p1}, Landroidx/collection/SparseArrayCompat;->indexOfValue(Ljava/lang/Object;)I
@@ -331,7 +311,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lf/k/c/b/f/b;->a:Landroidx/collection/SparseArrayCompat;
 
     invoke-virtual {v1}, Landroidx/collection/SparseArrayCompat;->size()I
@@ -343,7 +322,6 @@
     :goto_0
     if-ltz v1, :cond_1
 
-    .line 2
     iget-object v2, p0, Lf/k/c/b/f/b;->a:Landroidx/collection/SparseArrayCompat;
 
     invoke-virtual {v2, v1}, Landroidx/collection/SparseArrayCompat;->valueAt(I)Ljava/lang/Object;
@@ -352,14 +330,12 @@
 
     check-cast v2, Lf/k/c/b/f/a;
 
-    .line 3
     invoke-interface {v2, p1, p2}, Lf/k/c/b/f/a;->b(Ljava/lang/Object;I)Z
 
     move-result v2
 
     if-eqz v2, :cond_0
 
-    .line 4
     iget-object p1, p0, Lf/k/c/b/f/b;->a:Landroidx/collection/SparseArrayCompat;
 
     invoke-virtual {p1, v1}, Landroidx/collection/SparseArrayCompat;->keyAt(I)I
@@ -375,7 +351,6 @@
 
     goto :goto_0
 
-    .line 5
     :cond_1
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -418,7 +393,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lf/k/c/b/f/b;->a:Landroidx/collection/SparseArrayCompat;
 
     invoke-virtual {v1, p1}, Landroidx/collection/SparseArrayCompat;->indexOfKey(I)I
@@ -427,12 +401,10 @@
 
     if-ltz p1, :cond_0
 
-    .line 2
     iget-object v1, p0, Lf/k/c/b/f/b;->a:Landroidx/collection/SparseArrayCompat;
 
     invoke-virtual {v1, p1}, Landroidx/collection/SparseArrayCompat;->removeAt(I)V
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -457,7 +429,6 @@
 
     if-eqz p1, :cond_1
 
-    .line 1
     iget-object v1, p0, Lf/k/c/b/f/b;->a:Landroidx/collection/SparseArrayCompat;
 
     invoke-virtual {v1, p1}, Landroidx/collection/SparseArrayCompat;->indexOfValue(Ljava/lang/Object;)I
@@ -466,18 +437,15 @@
 
     if-ltz p1, :cond_0
 
-    .line 2
     iget-object v1, p0, Lf/k/c/b/f/b;->a:Landroidx/collection/SparseArrayCompat;
 
     invoke-virtual {v1, p1}, Landroidx/collection/SparseArrayCompat;->removeAt(I)V
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
 
-    .line 4
     :cond_1
     new-instance p1, Ljava/lang/NullPointerException;
 

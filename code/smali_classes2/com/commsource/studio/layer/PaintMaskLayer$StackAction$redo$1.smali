@@ -54,7 +54,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/studio/layer/PaintMaskLayer$StackAction$redo$1;->invoke()V
 
     sget-object v1, Lcotlin/t1;->a:Lcotlin/t1;
@@ -71,7 +70,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/layer/PaintMaskLayer$StackAction$redo$1;->this$0:Lcom/commsource/studio/layer/PaintMaskLayer$StackAction;
 
     iget-object v1, v1, Lcom/commsource/studio/layer/PaintMaskLayer$StackAction;->a:Lcom/commsource/studio/layer/PaintMaskLayer;
@@ -88,7 +86,6 @@
 
     if-eqz v1, :cond_0
 
-    .line 3
     iget-object v2, p0, Lcom/commsource/studio/layer/PaintMaskLayer$StackAction$redo$1;->this$0:Lcom/commsource/studio/layer/PaintMaskLayer$StackAction;
 
     iget-object v2, v2, Lcom/commsource/studio/layer/PaintMaskLayer$StackAction;->a:Lcom/commsource/studio/layer/PaintMaskLayer;
@@ -99,7 +96,6 @@
 
     invoke-virtual {v2, v1}, Lcom/commsource/beautymain/widget/gesturewidget/g;->i(Landroid/graphics/Bitmap;)V
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/studio/layer/PaintMaskLayer$StackAction$redo$1;->this$0:Lcom/commsource/studio/layer/PaintMaskLayer$StackAction;
 
     iget-object v1, v1, Lcom/commsource/studio/layer/PaintMaskLayer$StackAction;->a:Lcom/commsource/studio/layer/PaintMaskLayer;
@@ -110,7 +106,6 @@
 
     invoke-virtual {v1}, Landroid/view/View;->postInvalidate()V
 
-    .line 5
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

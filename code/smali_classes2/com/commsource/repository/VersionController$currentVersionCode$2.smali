@@ -53,7 +53,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/repository/VersionController$currentVersionCode$2;->this$0:Lcom/commsource/repository/VersionController;
 
     invoke-static {v1}, Lcom/commsource/repository/VersionController;->e(Lcom/commsource/repository/VersionController;)Lcom/commsource/util/common/l;
@@ -84,7 +83,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/repository/VersionController$currentVersionCode$2;->invoke()I
 
     move-result v1

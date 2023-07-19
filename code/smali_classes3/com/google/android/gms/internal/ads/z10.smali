@@ -15,10 +15,8 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/google/android/gms/internal/ads/z10;->a:Landroid/view/ViewGroup;
 
     return-void
@@ -31,7 +29,6 @@
     .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/z10;->a:Landroid/view/ViewGroup;
 
     return-object v0

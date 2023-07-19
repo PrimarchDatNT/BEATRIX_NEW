@@ -27,7 +27,6 @@
 .method constructor <init>(Lio/grpc/internal/f1;Lcom/google/common/util/concurrent/v0;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lio/grpc/internal/f1$j;->b:Lio/grpc/internal/f1;
 
     iput-object p2, p0, Lio/grpc/internal/f1$j;->a:Lcom/google/common/util/concurrent/v0;
@@ -42,12 +41,10 @@
 .method public run()V
     .locals 4
 
-    .line 1
     new-instance v0, Lio/grpc/InternalChannelz$b$a;
 
     invoke-direct {v0}, Lio/grpc/InternalChannelz$b$a;-><init>()V
 
-    .line 2
     iget-object v1, p0, Lio/grpc/internal/f1$j;->b:Lio/grpc/internal/f1;
 
     invoke-static {v1}, Lio/grpc/internal/f1;->M(Lio/grpc/internal/f1;)Lio/grpc/internal/f1$m;
@@ -58,7 +55,6 @@
 
     move-result-object v1
 
-    .line 3
     new-instance v2, Ljava/util/ArrayList;
 
     iget-object v3, p0, Lio/grpc/internal/f1$j;->b:Lio/grpc/internal/f1;
@@ -69,7 +65,6 @@
 
     invoke-direct {v2, v3}, Ljava/util/ArrayList;-><init>(Ljava/util/Collection;)V
 
-    .line 4
     invoke-virtual {v1}, Ljava/lang/Object;->toString()Ljava/lang/String;
 
     move-result-object v1
@@ -86,10 +81,8 @@
 
     invoke-virtual {v1, v3}, Lio/grpc/InternalChannelz$b$a;->h(Lio/grpc/ConnectivityState;)Lio/grpc/InternalChannelz$b$a;
 
-    .line 5
     invoke-virtual {v0, v2}, Lio/grpc/InternalChannelz$b$a;->g(Ljava/util/List;)Lio/grpc/InternalChannelz$b$a;
 
-    .line 6
     iget-object v1, p0, Lio/grpc/internal/f1$j;->b:Lio/grpc/internal/f1;
 
     invoke-static {v1}, Lio/grpc/internal/f1;->B(Lio/grpc/internal/f1;)Lio/grpc/internal/r;
@@ -98,7 +91,6 @@
 
     invoke-virtual {v1, v0}, Lio/grpc/internal/r;->d(Lio/grpc/InternalChannelz$b$a;)V
 
-    .line 7
     iget-object v1, p0, Lio/grpc/internal/f1$j;->b:Lio/grpc/internal/f1;
 
     invoke-static {v1}, Lio/grpc/internal/f1;->C(Lio/grpc/internal/f1;)Lio/grpc/internal/ChannelTracer;
@@ -107,7 +99,6 @@
 
     invoke-virtual {v1, v0}, Lio/grpc/internal/ChannelTracer;->g(Lio/grpc/InternalChannelz$b$a;)V
 
-    .line 8
     iget-object v1, p0, Lio/grpc/internal/f1$j;->a:Lcom/google/common/util/concurrent/v0;
 
     invoke-virtual {v0}, Lio/grpc/InternalChannelz$b$a;->a()Lio/grpc/InternalChannelz$b;

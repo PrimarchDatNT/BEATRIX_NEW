@@ -40,14 +40,12 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     iput-object p1, p0, Lcom/commsource/sharelink/b;->f:Landroidx/fragment/app/FragmentActivity;
 
     const-string p1, ""
 
-    .line 2
     iput-object p1, p0, Lcom/commsource/sharelink/b;->d:Ljava/lang/String;
 
     return-void
@@ -78,7 +76,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/sharelink/ShareDialog;->f0:Lcom/commsource/sharelink/ShareDialog$a;
 
     invoke-virtual {v1, p0}, Lcom/commsource/sharelink/ShareDialog$a;->a(Lcom/commsource/sharelink/b;)Lcom/commsource/sharelink/ShareDialog;
@@ -108,12 +105,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/util/ArrayList;
 
     invoke-direct {v1}, Ljava/util/ArrayList;-><init>()V
 
-    .line 2
     invoke-virtual {p0}, Lcom/commsource/sharelink/b;->i()Z
 
     move-result v2
@@ -136,7 +131,6 @@
 
     if-eqz v2, :cond_0
 
-    .line 3
     new-instance v2, Lcom/commsource/sharelink/d;
 
     invoke-static {v4}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
@@ -149,7 +143,6 @@
 
     invoke-virtual {v1, v2}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    .line 4
     new-instance v2, Lcom/commsource/sharelink/d;
 
     invoke-static {v7}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
@@ -164,7 +157,6 @@
 
     goto/16 :goto_0
 
-    .line 5
     :cond_0
     invoke-virtual {p0}, Lcom/commsource/sharelink/b;->j()Z
 
@@ -172,7 +164,6 @@
 
     if-eqz v2, :cond_1
 
-    .line 6
     new-instance v2, Lcom/commsource/sharelink/d;
 
     sget v3, Lcom/res/provider/ResSTRING;->edit_share_icon_camera:I
@@ -193,7 +184,6 @@
 
     invoke-virtual {v1, v2}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    .line 7
     new-instance v2, Lcom/commsource/sharelink/d;
 
     invoke-static {v7}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
@@ -208,7 +198,6 @@
 
     goto :goto_0
 
-    .line 8
     :cond_1
     invoke-virtual {p0}, Lcom/commsource/sharelink/b;->l()Z
 
@@ -216,7 +205,6 @@
 
     if-eqz v2, :cond_2
 
-    .line 9
     new-instance v2, Lcom/commsource/sharelink/d;
 
     sget v3, Lcom/res/provider/ResSTRING;->t_continue_collage:I
@@ -233,7 +221,6 @@
 
     invoke-virtual {v1, v2}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    .line 10
     new-instance v2, Lcom/commsource/sharelink/d;
 
     sget v3, Lcom/res/provider/ResSTRING;->home_new_pic_edit:I
@@ -252,7 +239,6 @@
 
     goto :goto_0
 
-    .line 11
     :cond_2
     invoke-virtual {p0}, Lcom/commsource/sharelink/b;->k()Z
 
@@ -260,7 +246,6 @@
 
     if-eqz v2, :cond_3
 
-    .line 12
     new-instance v2, Lcom/commsource/sharelink/d;
 
     invoke-static {v4}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
@@ -275,7 +260,6 @@
 
     invoke-virtual {v1, v2}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    .line 13
     new-instance v2, Lcom/commsource/sharelink/d;
 
     invoke-static {v7}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
@@ -288,7 +272,6 @@
 
     invoke-virtual {v1, v2}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    .line 14
     :cond_3
     :goto_0
     new-instance v2, Lcom/commsource/sharelink/d;
@@ -311,7 +294,6 @@
 
     invoke-virtual {v1, v2}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    .line 15
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
@@ -326,7 +308,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/sharelink/b;->f:Landroidx/fragment/app/FragmentActivity;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -341,7 +322,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/sharelink/b;->e:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -358,7 +338,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/sharelink/b;->b:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -375,7 +354,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/sharelink/b;->a:Lcom/commsource/sharelink/a;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -392,7 +370,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/sharelink/b;->d:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -407,7 +384,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/sharelink/b;->e:I
 
     const/4 v2, 0x5
@@ -434,7 +410,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/sharelink/b;->e:I
 
     if-nez v1, :cond_0
@@ -459,7 +434,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/sharelink/b;->e:I
 
     const/4 v2, 0x1
@@ -484,7 +458,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/sharelink/b;->e:I
 
     const/4 v2, 0x3
@@ -511,7 +484,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/sharelink/b;->c:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -526,7 +498,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/sharelink/b;->e:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -545,7 +516,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/sharelink/b;->b:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -560,7 +530,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/sharelink/b;->c:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -579,7 +548,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/sharelink/b;->a:Lcom/commsource/sharelink/a;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -602,7 +570,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/sharelink/b;->d:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

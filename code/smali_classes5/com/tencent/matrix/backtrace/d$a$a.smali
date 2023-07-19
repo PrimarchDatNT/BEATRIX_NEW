@@ -27,7 +27,6 @@
 .method constructor <init>(Lcom/tencent/matrix/backtrace/d$a;Lcom/tencent/matrix/backtrace/e;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/tencent/matrix/backtrace/d$a$a;->b:Lcom/tencent/matrix/backtrace/d$a;
 
     iput-object p2, p0, Lcom/tencent/matrix/backtrace/d$a$a;->a:Lcom/tencent/matrix/backtrace/e;
@@ -42,12 +41,10 @@
 .method public accept(Ljava/io/File;)Z
     .locals 4
 
-    .line 1
     invoke-virtual {p1}, Ljava/io/File;->getAbsolutePath()Ljava/lang/String;
 
     move-result-object v0
 
-    .line 2
     invoke-virtual {p1}, Ljava/io/File;->exists()Z
 
     move-result p1
@@ -60,7 +57,6 @@
 
     iget-object p1, p1, Lcom/tencent/matrix/backtrace/d$a;->b:Lcom/tencent/matrix/backtrace/d;
 
-    .line 3
     invoke-static {p1, v0, v1}, Lcom/tencent/matrix/backtrace/d;->d(Lcom/tencent/matrix/backtrace/d;Ljava/lang/String;I)Z
 
     move-result p1
@@ -69,7 +65,6 @@
 
     const-string p1, ".so"
 
-    .line 4
     invoke-virtual {v0, p1}, Ljava/lang/String;->endsWith(Ljava/lang/String;)Z
 
     move-result p1
@@ -78,7 +73,6 @@
 
     const-string p1, ".odex"
 
-    .line 5
     invoke-virtual {v0, p1}, Ljava/lang/String;->endsWith(Ljava/lang/String;)Z
 
     move-result p1
@@ -87,7 +81,6 @@
 
     const-string p1, ".oat"
 
-    .line 6
     invoke-virtual {v0, p1}, Ljava/lang/String;->endsWith(Ljava/lang/String;)Z
 
     move-result p1
@@ -96,7 +89,6 @@
 
     const-string p1, ".dex"
 
-    .line 7
     invoke-virtual {v0, p1}, Ljava/lang/String;->endsWith(Ljava/lang/String;)Z
 
     move-result p1
@@ -114,10 +106,8 @@
 
     const-string v3, "Warming up so %s"
 
-    .line 8
     invoke-static {v2, v3, p1}, Lcom/tencent/matrix/util/b;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
-    .line 9
     iget-object p1, p0, Lcom/tencent/matrix/backtrace/d$a$a;->a:Lcom/tencent/matrix/backtrace/e;
 
     invoke-interface {p1, v0, v1}, Lcom/tencent/matrix/backtrace/e;->a(Ljava/lang/String;I)Z
@@ -126,7 +116,6 @@
 
     if-nez p1, :cond_1
 
-    .line 10
     iget-object p1, p0, Lcom/tencent/matrix/backtrace/d$a$a;->b:Lcom/tencent/matrix/backtrace/d$a;
 
     iget-object p1, p1, Lcom/tencent/matrix/backtrace/d$a;->b:Lcom/tencent/matrix/backtrace/d;

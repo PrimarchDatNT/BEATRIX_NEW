@@ -9,7 +9,6 @@
 
     const-string v0, "Firebase-Messaging-Rpc-Task"
 
-    .line 1
     invoke-static {v0}, Lcom/google/firebase/messaging/n;->b(Ljava/lang/String;)Ljava/util/concurrent/Executor;
 
     move-result-object v0
@@ -20,7 +19,6 @@
 .method private static b(Ljava/lang/String;)Ljava/util/concurrent/Executor;
     .locals 9
 
-    .line 1
     new-instance v8, Ljava/util/concurrent/ThreadPoolExecutor;
 
     sget-object v5, Ljava/util/concurrent/TimeUnit;->SECONDS:Ljava/util/concurrent/TimeUnit;
@@ -51,7 +49,6 @@
 
     const-string v0, "Firebase-Messaging-Trigger-Topics-Io"
 
-    .line 1
     invoke-static {v0}, Lcom/google/firebase/messaging/n;->b(Ljava/lang/String;)Ljava/util/concurrent/Executor;
 
     move-result-object v0

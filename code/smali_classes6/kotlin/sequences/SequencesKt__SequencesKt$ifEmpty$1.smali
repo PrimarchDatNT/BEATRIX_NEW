@@ -148,7 +148,6 @@
 
     move-result-object v0
 
-    .line 1
     iget v1, p0, Lcotlin/sequences/SequencesKt__SequencesKt$ifEmpty$1;->label:I
 
     const/4 v2, 0x2
@@ -163,7 +162,6 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     new-instance p1, Ljava/lang/IllegalStateException;
 
@@ -173,7 +171,6 @@
 
     throw p1
 
-    .line 3
     :cond_1
     :goto_0
     invoke-static {p1}, Lcotlin/r0;->n(Ljava/lang/Object;)V
@@ -187,21 +184,18 @@
 
     check-cast p1, Lcotlin/sequences/o;
 
-    .line 4
     iget-object v1, p0, Lcotlin/sequences/SequencesKt__SequencesKt$ifEmpty$1;->$this_ifEmpty:Lcotlin/sequences/m;
 
     invoke-interface {v1}, Lcotlin/sequences/m;->iterator()Ljava/util/Iterator;
 
     move-result-object v1
 
-    .line 5
     invoke-interface {v1}, Ljava/util/Iterator;->hasNext()Z
 
     move-result v4
 
     if-eqz v4, :cond_3
 
-    .line 6
     iput v3, p0, Lcotlin/sequences/SequencesKt__SequencesKt$ifEmpty$1;->label:I
 
     invoke-virtual {p1, v1, p0}, Lcotlin/sequences/o;->e(Ljava/util/Iterator;Lcotlin/coroutines/c;)Ljava/lang/Object;
@@ -212,7 +206,6 @@
 
     return-object v0
 
-    .line 7
     :cond_3
     iget-object v1, p0, Lcotlin/sequences/SequencesKt__SequencesKt$ifEmpty$1;->$defaultValue:Lcotlin/jvm/u/a;
 
@@ -232,7 +225,6 @@
 
     return-object v0
 
-    .line 8
     :cond_4
     :goto_1
     sget-object p1, Lcotlin/t1;->a:Lcotlin/t1;

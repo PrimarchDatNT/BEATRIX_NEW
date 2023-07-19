@@ -27,7 +27,6 @@
 .method constructor <init>(Lcom/commsource/camera/render/MTGifRenderProxy;Ljava/lang/String;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/camera/render/MTGifRenderProxy$a;->b:Lcom/commsource/camera/render/MTGifRenderProxy;
 
     iput-object p2, p0, Lcom/commsource/camera/render/MTGifRenderProxy$a;->a:Ljava/lang/String;
@@ -46,12 +45,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/render/MTGifRenderProxy$a;->b:Lcom/commsource/camera/render/MTGifRenderProxy;
 
     invoke-static {v1}, Lcom/commsource/camera/render/MTGifRenderProxy;->a0(Lcom/commsource/camera/render/MTGifRenderProxy;)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/camera/render/MTGifRenderProxy$a;->b:Lcom/commsource/camera/render/MTGifRenderProxy;
 
     invoke-static {v1}, Lcom/commsource/camera/render/MTGifRenderProxy;->h1(Lcom/commsource/camera/render/MTGifRenderProxy;)Z
@@ -60,12 +57,10 @@
 
     if-nez v1, :cond_0
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 4
     :cond_0
     iget-object v1, p0, Lcom/commsource/camera/render/MTGifRenderProxy$a;->b:Lcom/commsource/camera/render/MTGifRenderProxy;
 
@@ -77,7 +72,6 @@
 
     invoke-static {v1, v2, v3}, Lcom/commsource/camera/render/MTGifRenderProxy;->q0(JLjava/lang/String;)V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

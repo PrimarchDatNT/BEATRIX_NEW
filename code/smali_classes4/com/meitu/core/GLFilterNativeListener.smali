@@ -41,7 +41,6 @@
 
     const/4 v1, 0x1
 
-    .line 1
     sput-boolean v1, Lcom/meitu/core/GLFilterNativeListener;->needCallBack:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -52,12 +51,10 @@
 .method private constructor <init>()V
     .locals 1
 
-    .line 2
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/4 v0, 0x0
 
-    .line 3
     iput-object v0, p0, Lcom/meitu/core/GLFilterNativeListener;->mFilterListenerErrorCallback:Lcom/meitu/core/GLFilterNativeListener$GLFilterListenerErrorCallback;
 
     return-void
@@ -66,7 +63,6 @@
 .method synthetic constructor <init>(Lcom/meitu/core/GLFilterNativeListener$1;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/meitu/core/GLFilterNativeListener;-><init>()V
 
     return-void
@@ -79,7 +75,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-boolean v1, Lcom/meitu/core/GLFilterNativeListener;->needCallBack:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -94,7 +89,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/meitu/core/GLFilterNativeListener$NativeListenerHolder;->access$100()Lcom/meitu/core/GLFilterNativeListener;
 
     move-result-object v1
@@ -111,7 +105,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-boolean v1, Lcom/meitu/core/GLFilterNativeListener;->needCallBack:Z
 
     const-string v2, "filterGl"
@@ -120,15 +113,12 @@
 
     const-string p1, "Please set setNeedCallBack First"
 
-    .line 2
     invoke-static {v2, p1}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 4
     :cond_0
     iget-object v1, p0, Lcom/meitu/core/GLFilterNativeListener;->mFilterListenerErrorCallback:Lcom/meitu/core/GLFilterNativeListener$GLFilterListenerErrorCallback;
 
@@ -136,7 +126,6 @@
 
     if-eqz p1, :cond_2
 
-    .line 5
     invoke-interface {v1, p1, p2, p3}, Lcom/meitu/core/GLFilterNativeListener$GLFilterListenerErrorCallback;->filterListenerErrorCall(IILjava/lang/String;)V
 
     goto :goto_0
@@ -144,10 +133,8 @@
     :cond_1
     const-string p1, "Please set FilterListenerErrorCallback First"
 
-    .line 6
     invoke-static {v2, p1}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 7
     :cond_2
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -162,14 +149,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/meitu/core/GLFilterNativeListener;->instance()Lcom/meitu/core/GLFilterNativeListener;
 
     move-result-object v1
 
     invoke-direct {v1, p0, p1, p2}, Lcom/meitu/core/GLFilterNativeListener;->onErrorCallBack(IILjava/lang/String;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -186,10 +171,8 @@
 
     const/4 v1, 0x0
 
-    .line 1
     iput-object v1, p0, Lcom/meitu/core/GLFilterNativeListener;->mFilterListenerErrorCallback:Lcom/meitu/core/GLFilterNativeListener$GLFilterListenerErrorCallback;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -202,10 +185,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/core/GLFilterNativeListener;->mFilterListenerErrorCallback:Lcom/meitu/core/GLFilterNativeListener$GLFilterListenerErrorCallback;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -218,10 +199,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sput-boolean p1, Lcom/meitu/core/GLFilterNativeListener;->needCallBack:Z
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

@@ -58,22 +58,16 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/google/protobuf/GeneratedMessageLite$g;->a:Lcom/google/protobuf/z0$d;
 
-    .line 3
     iput p2, p0, Lcom/google/protobuf/GeneratedMessageLite$g;->b:I
 
-    .line 4
     iput-object p3, p0, Lcom/google/protobuf/GeneratedMessageLite$g;->c:Lcom/google/protobuf/WireFormat$FieldType;
 
-    .line 5
     iput-boolean p4, p0, Lcom/google/protobuf/GeneratedMessageLite$g;->d:Z
 
-    .line 6
     iput-boolean p5, p0, Lcom/google/protobuf/GeneratedMessageLite$g;->f:Z
 
     return-void
@@ -84,7 +78,6 @@
 .method public Q(Lcom/google/protobuf/i1$a;Lcom/google/protobuf/i1;)Lcom/google/protobuf/i1$a;
     .locals 0
 
-    .line 1
     check-cast p1, Lcom/google/protobuf/GeneratedMessageLite$b;
 
     check-cast p2, Lcom/google/protobuf/GeneratedMessageLite;
@@ -106,7 +99,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/protobuf/GeneratedMessageLite$g;->a:Lcom/google/protobuf/z0$d;
 
     return-object v0
@@ -115,7 +107,6 @@
 .method public a(Lcom/google/protobuf/GeneratedMessageLite$g;)I
     .locals 1
 
-    .line 1
     iget v0, p0, Lcom/google/protobuf/GeneratedMessageLite$g;->b:I
 
     iget p1, p1, Lcom/google/protobuf/GeneratedMessageLite$g;->b:I
@@ -128,7 +119,6 @@
 .method public bridge synthetic compareTo(Ljava/lang/Object;)I
     .locals 0
 
-    .line 1
     check-cast p1, Lcom/google/protobuf/GeneratedMessageLite$g;
 
     invoke-virtual {p0, p1}, Lcom/google/protobuf/GeneratedMessageLite$g;->a(Lcom/google/protobuf/GeneratedMessageLite$g;)I
@@ -141,7 +131,6 @@
 .method public getNumber()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lcom/google/protobuf/GeneratedMessageLite$g;->b:I
 
     return v0
@@ -150,7 +139,6 @@
 .method public k1()Lcom/google/protobuf/WireFormat$JavaType;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/protobuf/GeneratedMessageLite$g;->c:Lcom/google/protobuf/WireFormat$FieldType;
 
     invoke-virtual {v0}, Lcom/google/protobuf/WireFormat$FieldType;->getJavaType()Lcom/google/protobuf/WireFormat$JavaType;
@@ -163,7 +151,6 @@
 .method public l1()Z
     .locals 1
 
-    .line 1
     iget-boolean v0, p0, Lcom/google/protobuf/GeneratedMessageLite$g;->f:Z
 
     return v0
@@ -172,7 +159,6 @@
 .method public w0()Z
     .locals 1
 
-    .line 1
     iget-boolean v0, p0, Lcom/google/protobuf/GeneratedMessageLite$g;->d:Z
 
     return v0
@@ -181,7 +167,6 @@
 .method public y0()Lcom/google/protobuf/WireFormat$FieldType;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/protobuf/GeneratedMessageLite$g;->c:Lcom/google/protobuf/WireFormat$FieldType;
 
     return-object v0

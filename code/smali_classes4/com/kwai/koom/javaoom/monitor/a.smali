@@ -18,7 +18,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -69,7 +68,6 @@
 .method public valueType()Lcom/kwai/koom/javaoom/monitor/ThresholdValueType;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/kwai/koom/javaoom/monitor/ThresholdValueType;->COUNT:Lcom/kwai/koom/javaoom/monitor/ThresholdValueType;
 
     return-object v0

@@ -51,7 +51,6 @@
 
     invoke-static {}, Lcom/meitu/utils/system/SystemUtils;->a()V
 
-    .line 1
     const-class v1, Lcom/meitu/utils/system/SystemUtils;
 
     invoke-virtual {v1}, Ljava/lang/Class;->getSimpleName()Ljava/lang/String;
@@ -60,7 +59,6 @@
 
     sput-object v1, Lcom/meitu/utils/system/SystemUtils;->a:Ljava/lang/String;
 
-    .line 2
     sget v1, Landroid/os/Build$VERSION;->SDK_INT:I
 
     const/4 v2, 0x1
@@ -92,7 +90,6 @@
     :cond_1
     const/4 v4, 0x0
 
-    .line 3
     :goto_1
     sput-boolean v4, Lcom/meitu/utils/system/SystemUtils;->c:Z
 
@@ -107,7 +104,6 @@
     :cond_2
     const/4 v4, 0x0
 
-    .line 4
     :goto_2
     sput-boolean v4, Lcom/meitu/utils/system/SystemUtils;->d:Z
 
@@ -122,7 +118,6 @@
     :cond_3
     const/4 v4, 0x0
 
-    .line 5
     :goto_3
     sput-boolean v4, Lcom/meitu/utils/system/SystemUtils;->e:Z
 
@@ -137,7 +132,6 @@
     :cond_4
     const/4 v4, 0x0
 
-    .line 6
     :goto_4
     sput-boolean v4, Lcom/meitu/utils/system/SystemUtils;->f:Z
 
@@ -152,7 +146,6 @@
     :cond_5
     const/4 v4, 0x0
 
-    .line 7
     :goto_5
     sput-boolean v4, Lcom/meitu/utils/system/SystemUtils;->g:Z
 
@@ -167,7 +160,6 @@
     :cond_6
     const/4 v4, 0x0
 
-    .line 8
     :goto_6
     sput-boolean v4, Lcom/meitu/utils/system/SystemUtils;->h:Z
 
@@ -182,7 +174,6 @@
     :cond_7
     const/4 v4, 0x0
 
-    .line 9
     :goto_7
     sput-boolean v4, Lcom/meitu/utils/system/SystemUtils;->i:Z
 
@@ -195,7 +186,6 @@
     :cond_8
     const/4 v2, 0x0
 
-    .line 10
     :goto_8
     sput-boolean v2, Lcom/meitu/utils/system/SystemUtils;->j:Z
 
@@ -207,7 +197,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -220,7 +209,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v9, Ln/a/b/c/e;
 
     const-class v1, Lcom/meitu/utils/system/SystemUtils;
@@ -276,12 +264,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Landroid/content/Context;->getPackageManager()Landroid/content/pm/PackageManager;
 
     move-result-object v1
 
-    .line 2
     invoke-static {p0}, Lcom/meitu/utils/system/SystemUtils;->d(Landroid/content/Context;)Ljava/lang/String;
 
     move-result-object p0
@@ -306,7 +292,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     :try_start_0
     invoke-virtual {p0}, Landroid/content/Context;->getPackageManager()Landroid/content/pm/PackageManager;
 
@@ -331,14 +316,12 @@
     :catch_0
     move-exception p0
 
-    .line 2
     sget-object v1, Lcom/meitu/utils/system/SystemUtils;->a:Ljava/lang/String;
 
     invoke-static {v1, p0}, Lcom/meitu/debug/Logger;->l(Ljava/lang/String;Ljava/lang/Throwable;)V
 
     const/4 p0, 0x0
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
@@ -351,7 +334,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Landroid/content/Context;->getPackageName()Ljava/lang/String;
 
     move-result-object p0
@@ -368,7 +350,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p0}, Lcom/meitu/utils/system/SystemUtils;->c(Landroid/content/Context;)Landroid/content/pm/PackageInfo;
 
     move-result-object p0
@@ -387,7 +368,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p0}, Lcom/meitu/utils/system/SystemUtils;->c(Landroid/content/Context;)Landroid/content/pm/PackageInfo;
 
     move-result-object p0
@@ -408,7 +388,6 @@
 
     const/4 v1, 0x0
 
-    .line 1
     :try_start_0
     const-class v2, Landroid/content/pm/PackageManager;
 
@@ -430,7 +409,6 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     invoke-virtual {p0}, Landroid/content/Context;->getPackageManager()Landroid/content/pm/PackageManager;
 
@@ -495,7 +473,6 @@
 
     return v1
 
-    .line 3
     :catchall_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -509,7 +486,6 @@
 
     invoke-static {p3}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0, p1, p2}, Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p0
@@ -526,7 +502,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget v1, Landroid/os/Build$VERSION;->SDK_INT:I
 
     if-lt v1, p0, :cond_0
@@ -553,7 +528,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget v1, Landroid/os/Build$VERSION;->SDK_INT:I
 
     if-lt v1, p0, :cond_0
@@ -578,7 +552,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget v1, Landroid/os/Build$VERSION;->SDK_INT:I
 
     if-gt v1, p0, :cond_0
@@ -605,7 +578,6 @@
 
     const-string v1, "com.google.android.tv"
 
-    .line 1
     invoke-static {p0, v1}, Lcom/meitu/utils/system/SystemUtils;->g(Landroid/content/Context;Ljava/lang/String;)Z
 
     move-result p0

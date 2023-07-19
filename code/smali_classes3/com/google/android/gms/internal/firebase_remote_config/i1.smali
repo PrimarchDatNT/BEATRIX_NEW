@@ -10,7 +10,6 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
     new-instance v0, Lcom/google/android/gms/internal/firebase_remote_config/h1;
 
     invoke-direct {v0}, Lcom/google/android/gms/internal/firebase_remote_config/h1;-><init>()V

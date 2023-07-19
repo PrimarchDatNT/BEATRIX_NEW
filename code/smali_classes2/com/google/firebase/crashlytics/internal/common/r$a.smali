@@ -27,7 +27,6 @@
 .method constructor <init>(Ljava/lang/String;Ljava/util/concurrent/atomic/AtomicLong;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/firebase/crashlytics/internal/common/r$a;->a:Ljava/lang/String;
 
     iput-object p2, p0, Lcom/google/firebase/crashlytics/internal/common/r$a;->b:Ljava/util/concurrent/atomic/AtomicLong;
@@ -42,7 +41,6 @@
 .method public newThread(Ljava/lang/Runnable;)Ljava/lang/Thread;
     .locals 3
 
-    .line 1
     invoke-static {}, Ljava/util/concurrent/Executors;->defaultThreadFactory()Ljava/util/concurrent/ThreadFactory;
 
     move-result-object v0
@@ -51,12 +49,10 @@
 
     invoke-direct {v1, p0, p1}, Lcom/google/firebase/crashlytics/internal/common/r$a$a;-><init>(Lcom/google/firebase/crashlytics/internal/common/r$a;Ljava/lang/Runnable;)V
 
-    .line 2
     invoke-interface {v0, v1}, Ljava/util/concurrent/ThreadFactory;->newThread(Ljava/lang/Runnable;)Ljava/lang/Thread;
 
     move-result-object p1
 
-    .line 3
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V

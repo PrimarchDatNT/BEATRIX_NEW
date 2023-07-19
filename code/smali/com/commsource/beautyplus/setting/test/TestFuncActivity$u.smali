@@ -42,27 +42,22 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/beautyplus/setting/test/TestFuncActivity$u;->a:Lcom/commsource/beautyplus/setting/test/TestFuncActivity;
 
     invoke-static {v0}, Lcom/commsource/beautyplus/setting/test/TestFuncActivity;->N0(Lcom/commsource/beautyplus/setting/test/TestFuncActivity;)Lcom/commsource/beautyplus/setting/test/TestFuncViewModel;
 
     move-result-object v0
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/beautyplus/setting/test/TestFuncActivity$u;->a:Lcom/commsource/beautyplus/setting/test/TestFuncActivity;
 
-    .line 3
     new-instance v2, Lcom/commsource/beautyplus/setting/test/TestFuncActivity$u$a;
 
     invoke-direct {v2}, Lcom/commsource/beautyplus/setting/test/TestFuncActivity$u$a;-><init>()V
 
     const-string v3, "com.commsource.beautyplus.unlock_remover"
 
-    .line 4
     invoke-virtual {v0, v1, v3, v2}, Lcom/commsource/beautyplus/setting/test/TestFuncViewModel;->I(Landroid/app/Activity;Ljava/lang/String;Lcom/commsource/billing/pro/e;)V
 
-    .line 5
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

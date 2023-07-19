@@ -18,7 +18,6 @@
 .method public constructor <init>(I)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1}, Ljava/io/ByteArrayOutputStream;-><init>(I)V
 
     return-void
@@ -33,7 +32,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Ljava/io/ByteArrayOutputStream;->buf:[B
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -51,7 +49,6 @@
     :try_start_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Ljava/io/ByteArrayOutputStream;->count:I
 
     iget-object v2, p0, Ljava/io/ByteArrayOutputStream;->buf:[B
@@ -68,7 +65,6 @@
 
     return-object v2
 
-    .line 2
     :cond_0
     :try_start_1
     invoke-super {p0}, Ljava/io/ByteArrayOutputStream;->toByteArray()[B

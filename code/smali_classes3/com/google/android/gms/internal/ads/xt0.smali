@@ -13,15 +13,12 @@
 .method public constructor <init>(Landroid/content/Context;)V
     .locals 2
 
-    .line 1
     invoke-direct {p0}, Lcom/google/android/gms/internal/ads/pt0;-><init>()V
 
-    .line 2
     sget v0, Lcom/google/android/gms/internal/ads/yt0;->a:I
 
     iput v0, p0, Lcom/google/android/gms/internal/ads/xt0;->J:I
 
-    .line 3
     invoke-static {}, Lcom/google/android/gms/ads/internal/p;->q()Lcom/google/android/gms/internal/ads/bp;
 
     move-result-object v0
@@ -30,7 +27,6 @@
 
     move-result-object v0
 
-    .line 4
     new-instance v1, Lcom/google/android/gms/internal/ads/vg;
 
     invoke-direct {v1, p1, v0, p0, p0}, Lcom/google/android/gms/internal/ads/vg;-><init>(Landroid/content/Context;Landroid/os/Looper;Lcom/google/android/gms/common/internal/e$a;Lcom/google/android/gms/common/internal/e$b;)V
@@ -51,10 +47,8 @@
 
     const-string p1, "Cannot connect to remote service, fallback to local instance."
 
-    .line 1
     invoke-static {p1}, Lcom/google/android/gms/internal/ads/aq;->f(Ljava/lang/String;)V
 
-    .line 2
     iget-object p1, p0, Lcom/google/android/gms/internal/ads/pt0;->a:Lcom/google/android/gms/internal/ads/lq;
 
     new-instance v0, Lcom/google/android/gms/internal/ads/zzcop;
@@ -81,12 +75,10 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/pt0;->b:Ljava/lang/Object;
 
     monitor-enter v0
 
-    .line 2
     :try_start_0
     iget v1, p0, Lcom/google/android/gms/internal/ads/xt0;->J:I
 
@@ -98,7 +90,6 @@
 
     if-eq v1, v2, :cond_0
 
-    .line 3
     new-instance p1, Lcom/google/android/gms/internal/ads/zzcop;
 
     sget v1, Lcom/google/android/gms/internal/ads/bi1;->b:I
@@ -113,20 +104,17 @@
 
     return-object p1
 
-    .line 4
     :cond_0
     iget-boolean v1, p0, Lcom/google/android/gms/internal/ads/pt0;->c:Z
 
     if-eqz v1, :cond_1
 
-    .line 5
     iget-object p1, p0, Lcom/google/android/gms/internal/ads/pt0;->a:Lcom/google/android/gms/internal/ads/lq;
 
     monitor-exit v0
 
     return-object p1
 
-    .line 6
     :cond_1
     sget v1, Lcom/google/android/gms/internal/ads/yt0;->c:I
 
@@ -134,31 +122,24 @@
 
     const/4 v1, 0x1
 
-    .line 7
     iput-boolean v1, p0, Lcom/google/android/gms/internal/ads/pt0;->c:Z
 
-    .line 8
     iput-object p1, p0, Lcom/google/android/gms/internal/ads/xt0;->p:Ljava/lang/String;
 
-    .line 9
     iget-object p1, p0, Lcom/google/android/gms/internal/ads/pt0;->g:Lcom/google/android/gms/internal/ads/vg;
 
     invoke-virtual {p1}, Lcom/google/android/gms/common/internal/e;->x()V
 
-    .line 10
     iget-object p1, p0, Lcom/google/android/gms/internal/ads/pt0;->a:Lcom/google/android/gms/internal/ads/lq;
 
     new-instance v1, Lcom/google/android/gms/internal/ads/zt0;
 
     invoke-direct {v1, p0}, Lcom/google/android/gms/internal/ads/zt0;-><init>(Lcom/google/android/gms/internal/ads/xt0;)V
 
-    .line 11
     sget-object v2, Lcom/google/android/gms/internal/ads/dq;->f:Lcom/google/android/gms/internal/ads/uq1;
 
-    .line 12
     invoke-virtual {p1, v1, v2}, Lcom/google/android/gms/internal/ads/lq;->addListener(Ljava/lang/Runnable;Ljava/util/concurrent/Executor;)V
 
-    .line 13
     iget-object p1, p0, Lcom/google/android/gms/internal/ads/pt0;->a:Lcom/google/android/gms/internal/ads/lq;
 
     monitor-exit v0
@@ -168,7 +149,6 @@
     :catchall_0
     move-exception p1
 
-    .line 14
     monitor-exit v0
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
@@ -189,12 +169,10 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/pt0;->b:Ljava/lang/Object;
 
     monitor-enter v0
 
-    .line 2
     :try_start_0
     iget v1, p0, Lcom/google/android/gms/internal/ads/xt0;->J:I
 
@@ -206,7 +184,6 @@
 
     if-eq v1, v2, :cond_0
 
-    .line 3
     new-instance p1, Lcom/google/android/gms/internal/ads/zzcop;
 
     sget v1, Lcom/google/android/gms/internal/ads/bi1;->b:I
@@ -221,20 +198,17 @@
 
     return-object p1
 
-    .line 4
     :cond_0
     iget-boolean v1, p0, Lcom/google/android/gms/internal/ads/pt0;->c:Z
 
     if-eqz v1, :cond_1
 
-    .line 5
     iget-object p1, p0, Lcom/google/android/gms/internal/ads/pt0;->a:Lcom/google/android/gms/internal/ads/lq;
 
     monitor-exit v0
 
     return-object p1
 
-    .line 6
     :cond_1
     sget v1, Lcom/google/android/gms/internal/ads/yt0;->b:I
 
@@ -242,31 +216,24 @@
 
     const/4 v1, 0x1
 
-    .line 7
     iput-boolean v1, p0, Lcom/google/android/gms/internal/ads/pt0;->c:Z
 
-    .line 8
     iput-object p1, p0, Lcom/google/android/gms/internal/ads/pt0;->f:Lcom/google/android/gms/internal/ads/zzasm;
 
-    .line 9
     iget-object p1, p0, Lcom/google/android/gms/internal/ads/pt0;->g:Lcom/google/android/gms/internal/ads/vg;
 
     invoke-virtual {p1}, Lcom/google/android/gms/common/internal/e;->x()V
 
-    .line 10
     iget-object p1, p0, Lcom/google/android/gms/internal/ads/pt0;->a:Lcom/google/android/gms/internal/ads/lq;
 
     new-instance v1, Lcom/google/android/gms/internal/ads/wt0;
 
     invoke-direct {v1, p0}, Lcom/google/android/gms/internal/ads/wt0;-><init>(Lcom/google/android/gms/internal/ads/xt0;)V
 
-    .line 11
     sget-object v2, Lcom/google/android/gms/internal/ads/dq;->f:Lcom/google/android/gms/internal/ads/uq1;
 
-    .line 12
     invoke-virtual {p1, v1, v2}, Lcom/google/android/gms/internal/ads/lq;->addListener(Ljava/lang/Runnable;Ljava/util/concurrent/Executor;)V
 
-    .line 13
     iget-object p1, p0, Lcom/google/android/gms/internal/ads/pt0;->a:Lcom/google/android/gms/internal/ads/lq;
 
     monitor-exit v0
@@ -276,7 +243,6 @@
     :catchall_0
     move-exception p1
 
-    .line 14
     monitor-exit v0
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
@@ -291,12 +257,10 @@
         .end annotation
     .end param
 
-    .line 1
     iget-object p1, p0, Lcom/google/android/gms/internal/ads/pt0;->b:Ljava/lang/Object;
 
     monitor-enter p1
 
-    .line 2
     :try_start_0
     iget-boolean v0, p0, Lcom/google/android/gms/internal/ads/pt0;->d:Z
 
@@ -304,12 +268,10 @@
 
     const/4 v0, 0x1
 
-    .line 3
     iput-boolean v0, p0, Lcom/google/android/gms/internal/ads/pt0;->d:Z
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_1
 
-    .line 4
     :try_start_1
     iget v0, p0, Lcom/google/android/gms/internal/ads/xt0;->J:I
 
@@ -317,10 +279,8 @@
 
     if-ne v0, v1, :cond_0
 
-    .line 5
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/pt0;->g:Lcom/google/android/gms/internal/ads/vg;
 
-    .line 6
     invoke-virtual {v0}, Lcom/google/android/gms/internal/ads/vg;->k0()Lcom/google/android/gms/internal/ads/yg;
 
     move-result-object v0
@@ -331,18 +291,15 @@
 
     invoke-direct {v2, p0}, Lcom/google/android/gms/internal/ads/tt0;-><init>(Lcom/google/android/gms/internal/ads/pt0;)V
 
-    .line 7
     invoke-interface {v0, v1, v2}, Lcom/google/android/gms/internal/ads/yg;->e2(Lcom/google/android/gms/internal/ads/zzasm;Lcom/google/android/gms/internal/ads/gh;)V
 
     goto :goto_0
 
-    .line 8
     :cond_0
     sget v1, Lcom/google/android/gms/internal/ads/yt0;->c:I
 
     if-ne v0, v1, :cond_1
 
-    .line 9
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/pt0;->g:Lcom/google/android/gms/internal/ads/vg;
 
     invoke-virtual {v0}, Lcom/google/android/gms/internal/ads/vg;->k0()Lcom/google/android/gms/internal/ads/yg;
@@ -359,7 +316,6 @@
 
     goto :goto_0
 
-    .line 10
     :cond_1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/pt0;->a:Lcom/google/android/gms/internal/ads/lq;
 
@@ -380,7 +336,6 @@
     :catchall_0
     move-exception v0
 
-    .line 11
     :try_start_2
     invoke-static {}, Lcom/google/android/gms/ads/internal/p;->g()Lcom/google/android/gms/internal/ads/em;
 
@@ -388,10 +343,8 @@
 
     const-string v2, "RemoteUrlAndCacheKeyClientTask.onConnected"
 
-    .line 12
     invoke-virtual {v1, v0, v2}, Lcom/google/android/gms/internal/ads/em;->e(Ljava/lang/Throwable;Ljava/lang/String;)V
 
-    .line 13
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/pt0;->a:Lcom/google/android/gms/internal/ads/lq;
 
     new-instance v1, Lcom/google/android/gms/internal/ads/zzcop;
@@ -404,7 +357,6 @@
 
     goto :goto_0
 
-    .line 14
     :catch_0
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/pt0;->a:Lcom/google/android/gms/internal/ads/lq;
 
@@ -416,7 +368,6 @@
 
     invoke-virtual {v0, v1}, Lcom/google/android/gms/internal/ads/lq;->c(Ljava/lang/Throwable;)Z
 
-    .line 15
     :cond_2
     :goto_0
     monitor-exit p1

@@ -33,7 +33,6 @@
 .method static constructor <clinit>()V
     .locals 10
 
-    .line 1
     new-instance v0, Lcom/squareup/okhttp/TlsVersion;
 
     const-string v1, "TLS_1_2"
@@ -46,7 +45,6 @@
 
     sput-object v0, Lcom/squareup/okhttp/TlsVersion;->TLS_1_2:Lcom/squareup/okhttp/TlsVersion;
 
-    .line 2
     new-instance v1, Lcom/squareup/okhttp/TlsVersion;
 
     const-string v3, "TLS_1_1"
@@ -59,7 +57,6 @@
 
     sput-object v1, Lcom/squareup/okhttp/TlsVersion;->TLS_1_1:Lcom/squareup/okhttp/TlsVersion;
 
-    .line 3
     new-instance v3, Lcom/squareup/okhttp/TlsVersion;
 
     const-string v5, "TLS_1_0"
@@ -72,7 +69,6 @@
 
     sput-object v3, Lcom/squareup/okhttp/TlsVersion;->TLS_1_0:Lcom/squareup/okhttp/TlsVersion;
 
-    .line 4
     new-instance v5, Lcom/squareup/okhttp/TlsVersion;
 
     const-string v7, "SSL_3_0"
@@ -97,7 +93,6 @@
 
     aput-object v5, v7, v8
 
-    .line 5
     sput-object v7, Lcom/squareup/okhttp/TlsVersion;->$VALUES:[Lcom/squareup/okhttp/TlsVersion;
 
     return-void
@@ -113,10 +108,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 2
     iput-object p3, p0, Lcom/squareup/okhttp/TlsVersion;->javaName:Ljava/lang/String;
 
     return-void
@@ -125,7 +118,6 @@
 .method public static forJavaName(Ljava/lang/String;)Lcom/squareup/okhttp/TlsVersion;
     .locals 3
 
-    .line 1
     invoke-virtual {p0}, Ljava/lang/String;->hashCode()I
 
     invoke-virtual {p0}, Ljava/lang/String;->hashCode()I
@@ -203,7 +195,6 @@
     :goto_0
     packed-switch v1, :pswitch_data_0
 
-    .line 2
     new-instance v0, Ljava/lang/IllegalArgumentException;
 
     new-instance v1, Ljava/lang/StringBuilder;
@@ -224,25 +215,21 @@
 
     throw v0
 
-    .line 3
     :pswitch_0
     sget-object p0, Lcom/squareup/okhttp/TlsVersion;->TLS_1_0:Lcom/squareup/okhttp/TlsVersion;
 
     return-object p0
 
-    .line 4
     :pswitch_1
     sget-object p0, Lcom/squareup/okhttp/TlsVersion;->SSL_3_0:Lcom/squareup/okhttp/TlsVersion;
 
     return-object p0
 
-    .line 5
     :pswitch_2
     sget-object p0, Lcom/squareup/okhttp/TlsVersion;->TLS_1_2:Lcom/squareup/okhttp/TlsVersion;
 
     return-object p0
 
-    .line 6
     :pswitch_3
     sget-object p0, Lcom/squareup/okhttp/TlsVersion;->TLS_1_1:Lcom/squareup/okhttp/TlsVersion;
 
@@ -270,7 +257,6 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/squareup/okhttp/TlsVersion;
     .locals 1
 
-    .line 1
     const-class v0, Lcom/squareup/okhttp/TlsVersion;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -285,7 +271,6 @@
 .method public static values()[Lcom/squareup/okhttp/TlsVersion;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/squareup/okhttp/TlsVersion;->$VALUES:[Lcom/squareup/okhttp/TlsVersion;
 
     invoke-virtual {v0}, [Lcom/squareup/okhttp/TlsVersion;->clone()Ljava/lang/Object;
@@ -302,7 +287,6 @@
 .method public javaName()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/squareup/okhttp/TlsVersion;->javaName:Ljava/lang/String;
 
     return-object v0

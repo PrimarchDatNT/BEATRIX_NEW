@@ -25,7 +25,6 @@
 .method constructor <init>(Lcom/mopub/mobileads/MoPubRewardedVideoListener;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/mopub/mobileads/MoPubRewardedVideos$1;->val$listener:Lcom/mopub/mobileads/MoPubRewardedVideoListener;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -42,7 +41,6 @@
         .end annotation
     .end param
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/mobileads/MoPubRewardedVideos$1;->val$listener:Lcom/mopub/mobileads/MoPubRewardedVideoListener;
 
     invoke-interface {v0, p1}, Lcom/mopub/mobileads/MoPubRewardedVideoListener;->onRewardedVideoClicked(Ljava/lang/String;)V
@@ -57,7 +55,6 @@
         .end annotation
     .end param
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/mobileads/MoPubRewardedVideos$1;->val$listener:Lcom/mopub/mobileads/MoPubRewardedVideoListener;
 
     invoke-interface {v0, p1}, Lcom/mopub/mobileads/MoPubRewardedVideoListener;->onRewardedVideoClosed(Ljava/lang/String;)V
@@ -86,7 +83,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/mobileads/MoPubRewardedVideos$1;->val$listener:Lcom/mopub/mobileads/MoPubRewardedVideoListener;
 
     invoke-interface {v0, p1, p2}, Lcom/mopub/mobileads/MoPubRewardedVideoListener;->onRewardedVideoCompleted(Ljava/util/Set;Lcom/mopub/common/MoPubReward;)V
@@ -105,7 +101,6 @@
         .end annotation
     .end param
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/mobileads/MoPubRewardedVideos$1;->val$listener:Lcom/mopub/mobileads/MoPubRewardedVideoListener;
 
     invoke-interface {v0, p1, p2}, Lcom/mopub/mobileads/MoPubRewardedVideoListener;->onRewardedVideoLoadFailure(Ljava/lang/String;Lcom/mopub/mobileads/MoPubErrorCode;)V
@@ -120,7 +115,6 @@
         .end annotation
     .end param
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/mobileads/MoPubRewardedVideos$1;->val$listener:Lcom/mopub/mobileads/MoPubRewardedVideoListener;
 
     invoke-interface {v0, p1}, Lcom/mopub/mobileads/MoPubRewardedVideoListener;->onRewardedVideoLoadSuccess(Ljava/lang/String;)V
@@ -139,7 +133,6 @@
         .end annotation
     .end param
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/mobileads/MoPubRewardedVideos$1;->val$listener:Lcom/mopub/mobileads/MoPubRewardedVideoListener;
 
     invoke-interface {v0, p1, p2}, Lcom/mopub/mobileads/MoPubRewardedVideoListener;->onRewardedVideoPlaybackError(Ljava/lang/String;Lcom/mopub/mobileads/MoPubErrorCode;)V
@@ -154,7 +147,6 @@
         .end annotation
     .end param
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/mobileads/MoPubRewardedVideos$1;->val$listener:Lcom/mopub/mobileads/MoPubRewardedVideoListener;
 
     invoke-interface {v0, p1}, Lcom/mopub/mobileads/MoPubRewardedVideoListener;->onRewardedVideoStarted(Ljava/lang/String;)V

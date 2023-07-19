@@ -54,7 +54,6 @@
 
     sput-object v1, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/FragmentBuilder;->d:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/FragmentBuilder$a;
 
-    .line 1
     sget-object v1, Lcotlin/LazyThreadSafetyMode;->SYNCHRONIZED:Lcotlin/LazyThreadSafetyMode;
 
     sget-object v2, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/FragmentBuilder$Companion$instance$2;->INSTANCE:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/FragmentBuilder$Companion$instance$2;
@@ -73,10 +72,8 @@
 .method public constructor <init>()V
     .locals 2
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     new-instance v0, Ljava/util/HashMap;
 
     const/16 v1, 0x8
@@ -95,7 +92,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/FragmentBuilder;->c:Lcotlin/w;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -123,7 +119,6 @@
 
     sget p3, Lcom/res/provider/ResANIM;->beauty_bottom_menu_down:I
 
-    .line 1
     :cond_1
     invoke-virtual {p0, p1, p2, p3}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/FragmentBuilder;->b(Ljava/lang/Class;II)V
 
@@ -152,7 +147,6 @@
 
     sget p3, Lcom/res/provider/ResANIM;->beauty_bottom_menu_down:I
 
-    .line 1
     :cond_1
     invoke-virtual {p0, p1, p2, p3}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/FragmentBuilder;->d(Ljava/lang/Class;II)Z
 
@@ -183,7 +177,6 @@
 
     sget p4, Lcom/res/provider/ResANIM;->beauty_bottom_menu_down:I
 
-    .line 1
     :cond_1
     invoke-virtual {p0, p1, p2, p3, p4}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/FragmentBuilder;->f(Landroid/view/View;Ljava/lang/Class;II)Lcom/commsource/beautyplus/i0/a;
 
@@ -237,7 +230,6 @@
 
     move-object v3, p3
 
-    .line 1
     invoke-virtual/range {v0 .. v5}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/FragmentBuilder;->g(Landroid/view/View;Ljava/lang/Class;Landroid/os/Bundle;II)Lcom/commsource/beautyplus/i0/a;
 
     move-result-object p0
@@ -290,7 +282,6 @@
 
     move-object v3, p3
 
-    .line 1
     invoke-virtual/range {v0 .. v5}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/FragmentBuilder;->h(Landroidx/fragment/app/FragmentActivity;ILjava/lang/Class;II)Lcom/commsource/beautyplus/i0/a;
 
     move-result-object p0
@@ -326,7 +317,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/FragmentBuilder;->a:Ljava/util/HashMap;
 
     invoke-virtual {p1}, Ljava/lang/Class;->getSimpleName()Ljava/lang/String;
@@ -355,14 +345,12 @@
     :goto_0
     if-eqz v1, :cond_1
 
-    .line 2
     invoke-virtual {v1}, Landroid/app/Activity;->isFinishing()Z
 
     move-result v2
 
     if-nez v2, :cond_1
 
-    .line 3
     invoke-virtual {v1}, Landroidx/fragment/app/FragmentActivity;->getSupportFragmentManager()Landroidx/fragment/app/FragmentManager;
 
     move-result-object v2
@@ -377,30 +365,24 @@
 
     if-eqz p1, :cond_1
 
-    .line 4
     invoke-virtual {v1}, Landroidx/fragment/app/FragmentActivity;->getSupportFragmentManager()Landroidx/fragment/app/FragmentManager;
 
     move-result-object v1
 
-    .line 5
     invoke-virtual {v1}, Landroidx/fragment/app/FragmentManager;->beginTransaction()Landroidx/fragment/app/FragmentTransaction;
 
     move-result-object v1
 
-    .line 6
     invoke-virtual {v1, p2, p3}, Landroidx/fragment/app/FragmentTransaction;->setCustomAnimations(II)Landroidx/fragment/app/FragmentTransaction;
 
     move-result-object p2
 
-    .line 7
     invoke-virtual {p2, p1}, Landroidx/fragment/app/FragmentTransaction;->hide(Landroidx/fragment/app/Fragment;)Landroidx/fragment/app/FragmentTransaction;
 
     move-result-object p1
 
-    .line 8
     invoke-virtual {p1}, Landroidx/fragment/app/FragmentTransaction;->commitNowAllowingStateLoss()V
 
-    .line 9
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -431,7 +413,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/FragmentBuilder;->a:Ljava/util/HashMap;
 
     invoke-virtual {p1}, Ljava/lang/Class;->getSimpleName()Ljava/lang/String;
@@ -462,14 +443,12 @@
 
     if-eqz v1, :cond_1
 
-    .line 2
     invoke-virtual {v1}, Landroid/app/Activity;->isFinishing()Z
 
     move-result v3
 
     if-nez v3, :cond_1
 
-    .line 3
     invoke-virtual {v1}, Landroidx/fragment/app/FragmentActivity;->getSupportFragmentManager()Landroidx/fragment/app/FragmentManager;
 
     move-result-object v3
@@ -484,34 +463,28 @@
 
     if-eqz v3, :cond_1
 
-    .line 4
     invoke-virtual {v1}, Landroidx/fragment/app/FragmentActivity;->getSupportFragmentManager()Landroidx/fragment/app/FragmentManager;
 
     move-result-object v1
 
-    .line 5
     invoke-virtual {v1}, Landroidx/fragment/app/FragmentManager;->beginTransaction()Landroidx/fragment/app/FragmentTransaction;
 
     move-result-object v1
 
-    .line 6
     invoke-virtual {v1, p2, p3}, Landroidx/fragment/app/FragmentTransaction;->setCustomAnimations(II)Landroidx/fragment/app/FragmentTransaction;
 
     move-result-object p2
 
-    .line 7
     invoke-virtual {p2, v3}, Landroidx/fragment/app/FragmentTransaction;->remove(Landroidx/fragment/app/Fragment;)Landroidx/fragment/app/FragmentTransaction;
 
     move-result-object p2
 
-    .line 8
     invoke-virtual {p2}, Landroidx/fragment/app/FragmentTransaction;->commitNowAllowingStateLoss()V
 
     const/4 p2, 0x1
 
     const/4 v2, 0x1
 
-    .line 9
     :cond_1
     iget-object p2, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/FragmentBuilder;->a:Ljava/util/HashMap;
 
@@ -521,7 +494,6 @@
 
     invoke-virtual {p2, p1}, Ljava/util/HashMap;->remove(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 10
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v2
@@ -563,7 +535,6 @@
 
     invoke-static {p2, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     :try_start_0
     invoke-virtual {p1}, Landroid/view/View;->getContext()Landroid/content/Context;
 
@@ -573,7 +544,6 @@
 
     check-cast v1, Landroidx/fragment/app/FragmentActivity;
 
-    .line 2
     iget-object v2, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/FragmentBuilder;->a:Ljava/util/HashMap;
 
     invoke-virtual {p2}, Ljava/lang/Class;->getSimpleName()Ljava/lang/String;
@@ -590,7 +560,6 @@
 
     invoke-interface {v2, v3, v4}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 3
     invoke-virtual {p2}, Ljava/lang/Class;->newInstance()Ljava/lang/Object;
 
     move-result-object v2
@@ -599,12 +568,10 @@
 
     check-cast v2, Lcom/commsource/beautyplus/i0/a;
 
-    .line 4
     invoke-virtual {v1}, Landroidx/fragment/app/FragmentActivity;->getSupportFragmentManager()Landroidx/fragment/app/FragmentManager;
 
     move-result-object v1
 
-    .line 5
     invoke-virtual {v1}, Landroidx/fragment/app/FragmentManager;->beginTransaction()Landroidx/fragment/app/FragmentTransaction;
 
     move-result-object v1
@@ -621,25 +588,20 @@
 
     move-result-object p1
 
-    .line 6
     invoke-virtual {p1, p3, p4}, Landroidx/fragment/app/FragmentTransaction;->setCustomAnimations(II)Landroidx/fragment/app/FragmentTransaction;
 
     move-result-object p1
 
-    .line 7
     invoke-virtual {p1, v2}, Landroidx/fragment/app/FragmentTransaction;->show(Landroidx/fragment/app/Fragment;)Landroidx/fragment/app/FragmentTransaction;
 
     move-result-object p1
 
-    .line 8
     invoke-virtual {p1}, Landroidx/fragment/app/FragmentTransaction;->commitNowAllowingStateLoss()V
 
-    .line 9
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v2
 
-    .line 10
     :cond_0
     new-instance p1, Lcotlin/TypeCastException;
 
@@ -651,7 +613,6 @@
 
     throw p1
 
-    .line 11
     :cond_1
     new-instance p1, Lcotlin/TypeCastException;
 
@@ -668,7 +629,6 @@
     :catch_0
     const/4 p1, 0x0
 
-    .line 12
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p1
@@ -720,7 +680,6 @@
 
     invoke-static {p3, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     :try_start_0
     invoke-virtual {p1}, Landroid/view/View;->getContext()Landroid/content/Context;
 
@@ -730,7 +689,6 @@
 
     check-cast v1, Landroidx/fragment/app/FragmentActivity;
 
-    .line 2
     iget-object v2, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/FragmentBuilder;->a:Ljava/util/HashMap;
 
     invoke-virtual {p2}, Ljava/lang/Class;->getSimpleName()Ljava/lang/String;
@@ -747,7 +705,6 @@
 
     invoke-interface {v2, v3, v4}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 3
     invoke-virtual {p2}, Ljava/lang/Class;->newInstance()Ljava/lang/Object;
 
     move-result-object v2
@@ -756,15 +713,12 @@
 
     check-cast v2, Lcom/commsource/beautyplus/i0/a;
 
-    .line 4
     invoke-virtual {v2, p3}, Landroidx/fragment/app/Fragment;->setArguments(Landroid/os/Bundle;)V
 
-    .line 5
     invoke-virtual {v1}, Landroidx/fragment/app/FragmentActivity;->getSupportFragmentManager()Landroidx/fragment/app/FragmentManager;
 
     move-result-object p3
 
-    .line 6
     invoke-virtual {p3}, Landroidx/fragment/app/FragmentManager;->beginTransaction()Landroidx/fragment/app/FragmentTransaction;
 
     move-result-object p3
@@ -781,25 +735,20 @@
 
     move-result-object p1
 
-    .line 7
     invoke-virtual {p1, p4, p5}, Landroidx/fragment/app/FragmentTransaction;->setCustomAnimations(II)Landroidx/fragment/app/FragmentTransaction;
 
     move-result-object p1
 
-    .line 8
     invoke-virtual {p1, v2}, Landroidx/fragment/app/FragmentTransaction;->show(Landroidx/fragment/app/Fragment;)Landroidx/fragment/app/FragmentTransaction;
 
     move-result-object p1
 
-    .line 9
     invoke-virtual {p1}, Landroidx/fragment/app/FragmentTransaction;->commitNowAllowingStateLoss()V
 
-    .line 10
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v2
 
-    .line 11
     :cond_0
     new-instance p1, Lcotlin/TypeCastException;
 
@@ -811,7 +760,6 @@
 
     throw p1
 
-    .line 12
     :cond_1
     new-instance p1, Lcotlin/TypeCastException;
 
@@ -828,7 +776,6 @@
     :catch_0
     const/4 p1, 0x0
 
-    .line 13
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p1
@@ -871,7 +818,6 @@
 
     invoke-static {p3, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     :try_start_0
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/FragmentBuilder;->a:Ljava/util/HashMap;
 
@@ -889,7 +835,6 @@
 
     invoke-interface {v1, v2, v3}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 2
     invoke-virtual {p1}, Landroidx/fragment/app/FragmentActivity;->getSupportFragmentManager()Landroidx/fragment/app/FragmentManager;
 
     move-result-object v1
@@ -904,7 +849,6 @@
 
     if-nez v1, :cond_1
 
-    .line 3
     invoke-virtual {p3}, Ljava/lang/Class;->newInstance()Ljava/lang/Object;
 
     move-result-object v1
@@ -926,7 +870,6 @@
 
     throw p1
 
-    .line 4
     :cond_1
     :goto_0
     invoke-virtual {p1}, Landroidx/fragment/app/FragmentActivity;->getSupportFragmentManager()Landroidx/fragment/app/FragmentManager;
@@ -941,35 +884,29 @@
 
     invoke-static {p1, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 5
     invoke-virtual {v1}, Landroidx/fragment/app/Fragment;->isAdded()Z
 
     move-result v2
 
     if-nez v2, :cond_2
 
-    .line 6
     invoke-virtual {p3}, Ljava/lang/Class;->getSimpleName()Ljava/lang/String;
 
     move-result-object p3
 
     invoke-virtual {p1, p2, v1, p3}, Landroidx/fragment/app/FragmentTransaction;->add(ILandroidx/fragment/app/Fragment;Ljava/lang/String;)Landroidx/fragment/app/FragmentTransaction;
 
-    .line 7
     :cond_2
     invoke-virtual {p1, p4, p5}, Landroidx/fragment/app/FragmentTransaction;->setCustomAnimations(II)Landroidx/fragment/app/FragmentTransaction;
 
     move-result-object p1
 
-    .line 8
     invoke-virtual {p1, v1}, Landroidx/fragment/app/FragmentTransaction;->show(Landroidx/fragment/app/Fragment;)Landroidx/fragment/app/FragmentTransaction;
 
     move-result-object p1
 
-    .line 9
     invoke-virtual {p1}, Landroidx/fragment/app/FragmentTransaction;->commitNowAllowingStateLoss()V
 
-    .line 10
     check-cast v1, Lcom/commsource/beautyplus/i0/a;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -981,7 +918,6 @@
     :catch_0
     const/4 p1, 0x0
 
-    .line 11
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p1

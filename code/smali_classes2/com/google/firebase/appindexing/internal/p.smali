@@ -12,7 +12,6 @@
 .method constructor <init>(Lcom/google/firebase/appindexing/internal/o;Lcom/google/android/gms/tasks/l;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/firebase/appindexing/internal/p;->c:Lcom/google/firebase/appindexing/internal/o;
 
     iput-object p2, p0, Lcom/google/firebase/appindexing/internal/p;->b:Lcom/google/android/gms/tasks/l;
@@ -32,7 +31,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/appindexing/internal/p;->b:Lcom/google/android/gms/tasks/l;
 
     const/4 v1, 0x0
@@ -43,14 +41,12 @@
 
     if-eqz v0, :cond_1
 
-    .line 2
     invoke-virtual {p1}, Lcom/google/android/gms/common/api/Status;->V()Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
-    .line 3
     iget-object p1, p0, Lcom/google/firebase/appindexing/internal/p;->c:Lcom/google/firebase/appindexing/internal/o;
 
     iget-object p1, p1, Lcom/google/firebase/appindexing/internal/o;->c:Lcom/google/firebase/appindexing/internal/m;
@@ -63,7 +59,6 @@
 
     return-void
 
-    .line 4
     :cond_0
     iget-object v0, p0, Lcom/google/firebase/appindexing/internal/p;->c:Lcom/google/firebase/appindexing/internal/o;
 
@@ -75,12 +70,10 @@
 
     const-string v1, "Indexing error, please try again."
 
-    .line 5
     invoke-static {p1, v1}, Lcom/google/firebase/appindexing/internal/e;->a(Lcom/google/android/gms/common/api/Status;Ljava/lang/String;)Lcom/google/firebase/appindexing/FirebaseAppIndexingException;
 
     move-result-object p1
 
-    .line 6
     invoke-virtual {v0, p1}, Lcom/google/android/gms/tasks/l;->b(Ljava/lang/Exception;)V
 
     :cond_1

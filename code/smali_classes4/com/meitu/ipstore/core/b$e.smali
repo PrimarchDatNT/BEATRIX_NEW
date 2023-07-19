@@ -46,15 +46,12 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/ipstore/core/b$e;->c:Lcom/meitu/ipstore/core/b;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p2, p0, Lcom/meitu/ipstore/core/b$e;->a:Lcom/meitu/ipstore/core/a$a;
 
-    .line 3
     iput-object p3, p0, Lcom/meitu/ipstore/core/b$e;->b:Ljava/lang/ref/WeakReference;
 
     return-void
@@ -67,7 +64,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/meitu/ipstore/core/b$e;->b:Ljava/lang/ref/WeakReference;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -84,15 +80,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/ipstore/core/b$e;->a:Lcom/meitu/ipstore/core/a$a;
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-interface {v1, p1, p2, p3}, Lcom/meitu/ipstore/core/a$a;->a(Ljava/lang/String;ILjava/lang/String;)V
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -106,15 +99,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/ipstore/core/b$e;->a:Lcom/meitu/ipstore/core/a$a;
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-interface {v1, p1}, Lcom/meitu/ipstore/core/a$a;->b(Ljava/lang/String;)V
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -128,15 +118,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/ipstore/core/b$e;->a:Lcom/meitu/ipstore/core/a$a;
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-interface {v1, p1}, Lcom/meitu/ipstore/core/a$a;->c(Ljava/lang/String;)V
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -150,15 +137,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/ipstore/core/b$e;->a:Lcom/meitu/ipstore/core/a$a;
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-interface {v1, p1}, Lcom/meitu/ipstore/core/a$a;->f(Ljava/lang/String;)V
 
-    .line 3
     :cond_0
     invoke-static {}, Lf/k/m/b;->i()Lf/k/m/b;
 
@@ -170,12 +154,10 @@
 
     if-nez v1, :cond_1
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 5
     :cond_1
     new-instance v2, Lcom/meitu/ipstore/core/b$e$a;
 
@@ -183,7 +165,6 @@
 
     invoke-static {v2}, Lf/k/m/j/j;->g(Ljava/lang/Runnable;)V
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

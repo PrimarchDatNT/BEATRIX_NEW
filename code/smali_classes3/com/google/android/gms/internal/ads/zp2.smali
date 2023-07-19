@@ -11,7 +11,6 @@
 .method private constructor <init>(Lcom/google/android/gms/internal/ads/xp2;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/android/gms/internal/ads/zp2;->b:Lcom/google/android/gms/internal/ads/xp2;
 
     invoke-direct {p0}, Lcom/google/android/gms/internal/ads/gn2;-><init>()V
@@ -22,7 +21,6 @@
 .method synthetic constructor <init>(Lcom/google/android/gms/internal/ads/xp2;Lcom/google/android/gms/internal/ads/aq2;)V
     .locals 0
 
-    .line 2
     invoke-direct {p0, p1}, Lcom/google/android/gms/internal/ads/zp2;-><init>(Lcom/google/android/gms/internal/ads/xp2;)V
 
     return-void
@@ -53,7 +51,6 @@
 
     const/4 v0, 0x1
 
-    .line 1
     invoke-virtual {p0, p1, v0}, Lcom/google/android/gms/internal/ads/zp2;->x4(Lcom/google/android/gms/internal/ads/zzve;I)V
 
     return-void
@@ -95,10 +92,8 @@
 
     const-string p1, "This app is using a lightweight version of the Google Mobile Ads SDK that requires the latest Google Play services to be installed, but Google Play services is either missing or out of date."
 
-    .line 1
     invoke-static {p1}, Lcom/google/android/gms/internal/ads/aq;->g(Ljava/lang/String;)V
 
-    .line 2
     sget-object p1, Lcom/google/android/gms/internal/ads/pp;->b:Landroid/os/Handler;
 
     new-instance p2, Lcom/google/android/gms/internal/ads/cq2;

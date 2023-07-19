@@ -54,17 +54,14 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     invoke-static {}, Ljava/util/Collections;->emptyList()Ljava/util/List;
 
     move-result-object v0
 
     iput-object v0, p0, Lio/grpc/InternalChannelz$b$a;->h:Ljava/util/List;
 
-    .line 3
     invoke-static {}, Ljava/util/Collections;->emptyList()Ljava/util/List;
 
     move-result-object v0
@@ -81,7 +78,6 @@
 
     move-object/from16 v0, p0
 
-    .line 1
     new-instance v16, Lio/grpc/InternalChannelz$b;
 
     iget-object v2, v0, Lio/grpc/InternalChannelz$b$a;->a:Ljava/lang/String;
@@ -114,7 +110,6 @@
 .method public b(J)Lio/grpc/InternalChannelz$b$a;
     .locals 0
 
-    .line 1
     iput-wide p1, p0, Lio/grpc/InternalChannelz$b$a;->f:J
 
     return-object p0
@@ -123,7 +118,6 @@
 .method public c(J)Lio/grpc/InternalChannelz$b$a;
     .locals 0
 
-    .line 1
     iput-wide p1, p0, Lio/grpc/InternalChannelz$b$a;->d:J
 
     return-object p0
@@ -132,7 +126,6 @@
 .method public d(J)Lio/grpc/InternalChannelz$b$a;
     .locals 0
 
-    .line 1
     iput-wide p1, p0, Lio/grpc/InternalChannelz$b$a;->e:J
 
     return-object p0
@@ -141,7 +134,6 @@
 .method public e(Lio/grpc/InternalChannelz$ChannelTrace;)Lio/grpc/InternalChannelz$b$a;
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lio/grpc/InternalChannelz$b$a;->c:Lio/grpc/InternalChannelz$ChannelTrace;
 
     return-object p0
@@ -150,7 +142,6 @@
 .method public f(J)Lio/grpc/InternalChannelz$b$a;
     .locals 0
 
-    .line 1
     iput-wide p1, p0, Lio/grpc/InternalChannelz$b$a;->g:J
 
     return-object p0
@@ -168,7 +159,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lio/grpc/InternalChannelz$b$a;->h:Ljava/util/List;
 
     invoke-interface {v0}, Ljava/util/List;->isEmpty()Z
@@ -177,7 +167,6 @@
 
     invoke-static {v0}, Lcom/google/common/base/t;->g0(Z)V
 
-    .line 2
     invoke-static {p1}, Lcom/google/common/base/t;->E(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -196,7 +185,6 @@
 .method public h(Lio/grpc/ConnectivityState;)Lio/grpc/InternalChannelz$b$a;
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lio/grpc/InternalChannelz$b$a;->b:Lio/grpc/ConnectivityState;
 
     return-object p0
@@ -214,7 +202,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lio/grpc/InternalChannelz$b$a;->i:Ljava/util/List;
 
     invoke-interface {v0}, Ljava/util/List;->isEmpty()Z
@@ -223,7 +210,6 @@
 
     invoke-static {v0}, Lcom/google/common/base/t;->g0(Z)V
 
-    .line 2
     invoke-static {p1}, Lcom/google/common/base/t;->E(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -242,7 +228,6 @@
 .method public j(Ljava/lang/String;)Lio/grpc/InternalChannelz$b$a;
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lio/grpc/InternalChannelz$b$a;->a:Ljava/lang/String;
 
     return-object p0

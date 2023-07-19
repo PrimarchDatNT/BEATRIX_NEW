@@ -12,7 +12,6 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-static {}, Lcom/google/android/gms/common/d;->v()Lcom/google/android/gms/common/d;
 
     move-result-object v0
@@ -29,20 +28,16 @@
         .end annotation
     .end param
 
-    .line 2
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 3
     new-instance v0, Landroid/util/SparseIntArray;
 
     invoke-direct {v0}, Landroid/util/SparseIntArray;-><init>()V
 
     iput-object v0, p0, Lcom/google/android/gms/common/internal/o;->a:Landroid/util/SparseIntArray;
 
-    .line 4
     invoke-static {p1}, Lcom/google/android/gms/common/internal/b0;->k(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 5
     iput-object p1, p0, Lcom/google/android/gms/common/internal/o;->b:Lcom/google/android/gms/common/e;
 
     return-void
@@ -53,7 +48,6 @@
 .method public a()V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/common/internal/o;->a:Landroid/util/SparseIntArray;
 
     invoke-virtual {v0}, Landroid/util/SparseIntArray;->clear()V
@@ -72,13 +66,10 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-static {p1}, Lcom/google/android/gms/common/internal/b0;->k(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 2
     invoke-static {p2}, Lcom/google/android/gms/common/internal/b0;->k(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 3
     invoke-interface {p2}, Lcom/google/android/gms/common/api/a$f;->i()Z
 
     move-result v0
@@ -89,13 +80,11 @@
 
     return v1
 
-    .line 4
     :cond_0
     invoke-interface {p2}, Lcom/google/android/gms/common/api/a$f;->t()I
 
     move-result p2
 
-    .line 5
     iget-object v0, p0, Lcom/google/android/gms/common/internal/o;->a:Landroid/util/SparseIntArray;
 
     const/4 v2, -0x1
@@ -111,7 +100,6 @@
     :cond_1
     const/4 v3, 0x0
 
-    .line 6
     :goto_0
     iget-object v4, p0, Lcom/google/android/gms/common/internal/o;->a:Landroid/util/SparseIntArray;
 
@@ -121,7 +109,6 @@
 
     if-ge v3, v4, :cond_3
 
-    .line 7
     iget-object v4, p0, Lcom/google/android/gms/common/internal/o;->a:Landroid/util/SparseIntArray;
 
     invoke-virtual {v4, v3}, Landroid/util/SparseIntArray;->keyAt(I)I
@@ -130,7 +117,6 @@
 
     if-le v4, p2, :cond_2
 
-    .line 8
     iget-object v5, p0, Lcom/google/android/gms/common/internal/o;->a:Landroid/util/SparseIntArray;
 
     invoke-virtual {v5, v4}, Landroid/util/SparseIntArray;->get(I)I
@@ -152,14 +138,12 @@
     :goto_1
     if-ne v1, v2, :cond_4
 
-    .line 9
     iget-object v0, p0, Lcom/google/android/gms/common/internal/o;->b:Lcom/google/android/gms/common/e;
 
     invoke-virtual {v0, p1, p2}, Lcom/google/android/gms/common/e;->k(Landroid/content/Context;I)I
 
     move-result v1
 
-    .line 10
     :cond_4
     iget-object p1, p0, Lcom/google/android/gms/common/internal/o;->a:Landroid/util/SparseIntArray;
 

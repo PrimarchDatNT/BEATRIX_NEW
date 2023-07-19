@@ -37,10 +37,8 @@
 
     const-string v0, "Method is not supported by connectionless client. APIs supporting connectionless client must not call this method."
 
-    .line 1
     invoke-direct {p0, v0}, Lcom/google/android/gms/common/api/internal/g0;-><init>(Ljava/lang/String;)V
 
-    .line 2
     iput-object p1, p0, Lcom/google/android/gms/common/api/internal/q1;->f:Lcom/google/android/gms/common/api/h;
 
     return-void
@@ -78,7 +76,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/common/api/internal/q1;->f:Lcom/google/android/gms/common/api/h;
 
     invoke-virtual {v0, p1}, Lcom/google/android/gms/common/api/h;->f(Lcom/google/android/gms/common/api/internal/d$a;)Lcom/google/android/gms/common/api/internal/d$a;
@@ -106,7 +103,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/common/api/internal/q1;->f:Lcom/google/android/gms/common/api/h;
 
     invoke-virtual {v0, p1}, Lcom/google/android/gms/common/api/h;->k(Lcom/google/android/gms/common/api/internal/d$a;)Lcom/google/android/gms/common/api/internal/d$a;
@@ -119,7 +115,6 @@
 .method public final q()Landroid/content/Context;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/common/api/internal/q1;->f:Lcom/google/android/gms/common/api/h;
 
     invoke-virtual {v0}, Lcom/google/android/gms/common/api/h;->o()Landroid/content/Context;
@@ -132,7 +127,6 @@
 .method public final r()Landroid/os/Looper;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/common/api/internal/q1;->f:Lcom/google/android/gms/common/api/h;
 
     invoke-virtual {v0}, Lcom/google/android/gms/common/api/h;->q()Landroid/os/Looper;

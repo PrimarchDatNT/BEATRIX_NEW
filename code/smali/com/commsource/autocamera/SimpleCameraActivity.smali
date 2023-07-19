@@ -38,7 +38,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/beautyplus/BaseActivity;-><init>()V
 
     return-void
@@ -47,7 +46,6 @@
 .method private P0(Landroid/os/Bundle;)V
     .locals 3
 
-    .line 1
     :try_start_0
     invoke-virtual {p0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
@@ -59,7 +57,6 @@
 
     check-cast v0, Ljava/lang/reflect/ParameterizedType;
 
-    .line 2
     invoke-interface {v0}, Ljava/lang/reflect/ParameterizedType;->getActualTypeArguments()[Ljava/lang/reflect/Type;
 
     move-result-object v0
@@ -70,7 +67,6 @@
 
     check-cast v0, Ljava/lang/Class;
 
-    .line 3
     invoke-static {p0}, Landroidx/lifecycle/ViewModelProviders;->of(Landroidx/fragment/app/FragmentActivity;)Landroidx/lifecycle/ViewModelProvider;
 
     move-result-object v1
@@ -90,21 +86,17 @@
     :catch_0
     move-exception v0
 
-    .line 4
     invoke-virtual {v0}, Ljava/lang/Exception;->printStackTrace()V
 
-    .line 5
     :goto_0
     invoke-virtual {p0}, Landroidx/activity/ComponentActivity;->getLifecycle()Landroidx/lifecycle/Lifecycle;
 
     move-result-object v0
 
-    .line 6
     iget-object v1, p0, Lcom/commsource/autocamera/SimpleCameraActivity;->N:Lcom/commsource/autocamera/SimpleCameraViewModel;
 
     invoke-virtual {v0, v1}, Landroidx/lifecycle/Lifecycle;->addObserver(Landroidx/lifecycle/LifecycleObserver;)V
 
-    .line 7
     iget-object v0, p0, Lcom/commsource/autocamera/SimpleCameraActivity;->N:Lcom/commsource/autocamera/SimpleCameraViewModel;
 
     invoke-virtual {p0}, Lcom/commsource/autocamera/SimpleCameraActivity;->R0()Z
@@ -113,7 +105,6 @@
 
     invoke-virtual {v0, p0, v1}, Lcom/commsource/autocamera/SimpleCameraViewModel;->x0(Landroid/app/Activity;Z)V
 
-    .line 8
     iget-object v0, p0, Lcom/commsource/autocamera/SimpleCameraActivity;->N:Lcom/commsource/autocamera/SimpleCameraViewModel;
 
     invoke-virtual {p0}, Lcom/commsource/autocamera/SimpleCameraActivity;->M0()I
@@ -126,12 +117,10 @@
 
     invoke-virtual {v0, p0, v1, v2}, Lcom/commsource/autocamera/SimpleCameraViewModel;->m0(Landroid/app/Activity;II)V
 
-    .line 9
     iget-object v0, p0, Lcom/commsource/autocamera/SimpleCameraActivity;->N:Lcom/commsource/autocamera/SimpleCameraViewModel;
 
     invoke-virtual {v0, p1}, Lcom/commsource/autocamera/SimpleCameraViewModel;->s0(Landroid/os/Bundle;)V
 
-    .line 10
     iget-object p1, p0, Lcom/commsource/autocamera/SimpleCameraActivity;->N:Lcom/commsource/autocamera/SimpleCameraViewModel;
 
     invoke-virtual {p1}, Lcom/commsource/autocamera/SimpleCameraViewModel;->V()I
@@ -149,7 +138,6 @@
     :cond_0
     const p1, 0x3faaaaab
 
-    .line 11
     :goto_1
     iget-object v0, p0, Lcom/commsource/autocamera/SimpleCameraActivity;->O:Landroidx/databinding/ViewDataBinding;
 
@@ -163,7 +151,6 @@
 
     invoke-virtual {v0, v1}, Landroid/view/View;->post(Ljava/lang/Runnable;)Z
 
-    .line 12
     iget-object p1, p0, Lcom/commsource/autocamera/SimpleCameraActivity;->N:Lcom/commsource/autocamera/SimpleCameraViewModel;
 
     invoke-virtual {p1}, Lcom/commsource/autocamera/SimpleCameraViewModel;->f0()Landroidx/lifecycle/MutableLiveData;
@@ -182,7 +169,6 @@
 .method private synthetic S0(F)V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/autocamera/SimpleCameraActivity;->O:Landroidx/databinding/ViewDataBinding;
 
     invoke-virtual {v0}, Landroidx/databinding/ViewDataBinding;->getRoot()Landroid/view/View;
@@ -195,7 +181,6 @@
 
     int-to-float v0, v0
 
-    .line 2
     invoke-static {}, Lcom/meitu/library/p/f/i;->z()I
 
     move-result v1
@@ -208,7 +193,6 @@
 
     float-to-int p1, v0
 
-    .line 3
     iget-object v0, p0, Lcom/commsource/autocamera/SimpleCameraActivity;->N:Lcom/commsource/autocamera/SimpleCameraViewModel;
 
     invoke-virtual {v0}, Lcom/commsource/autocamera/SimpleCameraViewModel;->V()I
@@ -225,7 +209,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     invoke-virtual {p1}, Ljava/lang/Integer;->intValue()I
 
     move-result p1
@@ -303,19 +286,16 @@
 
     goto :goto_0
 
-    .line 1
     :pswitch_0
     invoke-static {p0}, Lcom/commsource/widget/dialog/s0/t;->a0(Landroid/app/Activity;)V
 
     goto :goto_0
 
-    .line 2
     :pswitch_1
     invoke-static {p0}, Lcom/commsource/widget/dialog/s0/t;->W(Landroid/app/Activity;)V
 
     goto :goto_0
 
-    .line 3
     :pswitch_2
     filled-new-array {v1, v0}, [Ljava/lang/String;
 
@@ -325,7 +305,6 @@
 
     goto :goto_0
 
-    .line 4
     :pswitch_3
     filled-new-array {v0}, [Ljava/lang/String;
 
@@ -335,7 +314,6 @@
 
     goto :goto_0
 
-    .line 5
     :pswitch_4
     filled-new-array {v1}, [Ljava/lang/String;
 
@@ -362,10 +340,8 @@
 .method protected onCreate(Landroid/os/Bundle;)V
     .locals 1
 
-    .line 1
     invoke-super {p0, p1}, Lcom/commsource/beautyplus/BaseActivity;->onCreate(Landroid/os/Bundle;)V
 
-    .line 2
     invoke-virtual {p0}, Lcom/commsource/autocamera/SimpleCameraActivity;->N0()I
 
     move-result v0
@@ -376,13 +352,10 @@
 
     iput-object v0, p0, Lcom/commsource/autocamera/SimpleCameraActivity;->O:Landroidx/databinding/ViewDataBinding;
 
-    .line 3
     invoke-virtual {p0}, Lcom/commsource/autocamera/SimpleCameraActivity;->O0()V
 
-    .line 4
     invoke-direct {p0, p1}, Lcom/commsource/autocamera/SimpleCameraActivity;->P0(Landroid/os/Bundle;)V
 
-    .line 5
     invoke-virtual {p0}, Lcom/commsource/autocamera/SimpleCameraActivity;->W0()V
 
     return-void
@@ -391,10 +364,8 @@
 .method protected onDestroy()V
     .locals 1
 
-    .line 1
     invoke-super {p0}, Landroidx/appcompat/app/AppCompatActivity;->onDestroy()V
 
-    .line 2
     iget-object v0, p0, Lcom/commsource/autocamera/SimpleCameraActivity;->N:Lcom/commsource/autocamera/SimpleCameraViewModel;
 
     invoke-virtual {v0}, Lcom/commsource/autocamera/SimpleCameraViewModel;->onDestroy()V
@@ -405,12 +376,10 @@
 .method protected onPause()V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/autocamera/SimpleCameraActivity;->N:Lcom/commsource/autocamera/SimpleCameraViewModel;
 
     invoke-virtual {v0}, Lcom/commsource/autocamera/SimpleCameraViewModel;->t0()V
 
-    .line 2
     invoke-super {p0}, Lcom/commsource/beautyplus/BaseActivity;->onPause()V
 
     return-void
@@ -427,7 +396,6 @@
         .end annotation
     .end param
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/autocamera/SimpleCameraActivity;->N:Lcom/commsource/autocamera/SimpleCameraViewModel;
 
     invoke-virtual {v0, p0, p1, p2, p3}, Lcom/commsource/autocamera/SimpleCameraViewModel;->u0(Landroid/app/Activity;I[Ljava/lang/String;[I)V
@@ -438,17 +406,14 @@
 .method protected onResume()V
     .locals 1
 
-    .line 1
     invoke-super {p0}, Lcom/commsource/beautyplus/BaseActivity;->onResume()V
 
-    .line 2
     invoke-virtual {p0}, Lcom/commsource/autocamera/SimpleCameraActivity;->Q0()Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
-    .line 3
     iget-object v0, p0, Lcom/commsource/autocamera/SimpleCameraActivity;->N:Lcom/commsource/autocamera/SimpleCameraViewModel;
 
     invoke-virtual {v0}, Lcom/commsource/autocamera/SimpleCameraViewModel;->onResume()V
@@ -460,10 +425,8 @@
 .method protected onStart()V
     .locals 1
 
-    .line 1
     invoke-super {p0}, Lcom/commsource/beautyplus/BaseActivity;->onStart()V
 
-    .line 2
     iget-object v0, p0, Lcom/commsource/autocamera/SimpleCameraActivity;->N:Lcom/commsource/autocamera/SimpleCameraViewModel;
 
     invoke-virtual {v0}, Lcom/commsource/autocamera/SimpleCameraViewModel;->v0()V
@@ -474,10 +437,8 @@
 .method protected onStop()V
     .locals 1
 
-    .line 1
     invoke-super {p0}, Lcom/commsource/beautyplus/BaseActivity;->onStop()V
 
-    .line 2
     iget-object v0, p0, Lcom/commsource/autocamera/SimpleCameraActivity;->N:Lcom/commsource/autocamera/SimpleCameraViewModel;
 
     invoke-virtual {v0}, Lcom/commsource/autocamera/SimpleCameraViewModel;->onStop()V

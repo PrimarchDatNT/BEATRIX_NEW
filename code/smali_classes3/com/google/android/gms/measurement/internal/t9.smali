@@ -13,13 +13,10 @@
 .method public constructor <init>(Lcom/google/android/gms/common/util/g;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     invoke-static {p1}, Lcom/google/android/gms/common/internal/b0;->k(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 3
     iput-object p1, p0, Lcom/google/android/gms/measurement/internal/t9;->a:Lcom/google/android/gms/common/util/g;
 
     return-void
@@ -30,7 +27,6 @@
 .method public final a()V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/measurement/internal/t9;->a:Lcom/google/android/gms/common/util/g;
 
     invoke-interface {v0}, Lcom/google/android/gms/common/util/g;->elapsedRealtime()J
@@ -45,7 +41,6 @@
 .method public final b(J)Z
     .locals 4
 
-    .line 1
     iget-wide p1, p0, Lcom/google/android/gms/measurement/internal/t9;->b:J
 
     const/4 v0, 0x1
@@ -58,7 +53,6 @@
 
     return v0
 
-    .line 2
     :cond_0
     iget-object p1, p0, Lcom/google/android/gms/measurement/internal/t9;->a:Lcom/google/android/gms/common/util/g;
 
@@ -89,7 +83,6 @@
 
     const-wide/16 v0, 0x0
 
-    .line 1
     iput-wide v0, p0, Lcom/google/android/gms/measurement/internal/t9;->b:J
 
     return-void

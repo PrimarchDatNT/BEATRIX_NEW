@@ -46,7 +46,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1, p2}, Lcom/google/common/collect/Multimaps$e;-><init>(Lcom/google/common/collect/l1;Lcom/google/common/collect/Maps$r;)V
 
     return-void
@@ -57,7 +56,6 @@
 .method bridge synthetic a(Ljava/lang/Object;Ljava/util/Collection;)Ljava/util/Collection;
     .locals 0
 
-    .line 1
     invoke-virtual {p0, p1, p2}, Lcom/google/common/collect/Multimaps$d;->b(Ljava/lang/Object;Ljava/util/Collection;)Ljava/util/List;
 
     move-result-object p1
@@ -77,7 +75,6 @@
         }
     .end annotation
 
-    .line 1
     check-cast p2, Ljava/util/List;
 
     iget-object v0, p0, Lcom/google/common/collect/Multimaps$e;->b:Lcom/google/common/collect/Maps$r;
@@ -96,7 +93,6 @@
 .method public bridge synthetic get(Ljava/lang/Object;)Ljava/util/Collection;
     .locals 0
 
-    .line 1
     invoke-virtual {p0, p1}, Lcom/google/common/collect/Multimaps$d;->get(Ljava/lang/Object;)Ljava/util/List;
 
     move-result-object p1
@@ -114,7 +110,6 @@
         }
     .end annotation
 
-    .line 2
     iget-object v0, p0, Lcom/google/common/collect/Multimaps$e;->a:Lcom/google/common/collect/l1;
 
     invoke-interface {v0, p1}, Lcom/google/common/collect/l1;->get(Ljava/lang/Object;)Ljava/util/Collection;
@@ -131,7 +126,6 @@
 .method public bridge synthetic removeAll(Ljava/lang/Object;)Ljava/util/Collection;
     .locals 0
 
-    .line 1
     invoke-virtual {p0, p1}, Lcom/google/common/collect/Multimaps$d;->removeAll(Ljava/lang/Object;)Ljava/util/List;
 
     move-result-object p1
@@ -151,7 +145,6 @@
         }
     .end annotation
 
-    .line 2
     iget-object v0, p0, Lcom/google/common/collect/Multimaps$e;->a:Lcom/google/common/collect/l1;
 
     invoke-interface {v0, p1}, Lcom/google/common/collect/l1;->removeAll(Ljava/lang/Object;)Ljava/util/Collection;
@@ -168,7 +161,6 @@
 .method public bridge synthetic replaceValues(Ljava/lang/Object;Ljava/lang/Iterable;)Ljava/util/Collection;
     .locals 0
 
-    .line 1
     invoke-virtual {p0, p1, p2}, Lcom/google/common/collect/Multimaps$d;->replaceValues(Ljava/lang/Object;Ljava/lang/Iterable;)Ljava/util/List;
 
     move-result-object p1
@@ -188,7 +180,6 @@
         }
     .end annotation
 
-    .line 2
     new-instance p1, Ljava/lang/UnsupportedOperationException;
 
     invoke-direct {p1}, Ljava/lang/UnsupportedOperationException;-><init>()V

@@ -40,12 +40,10 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
     sget-object v0, Lio/grpc/Status;->z:Lio/grpc/y0$i;
 
     sput-object v0, Lio/grpc/q0;->a:Lio/grpc/y0$i;
 
-    .line 2
     sget-object v0, Lio/grpc/Status;->x:Lio/grpc/y0$i;
 
     sput-object v0, Lio/grpc/q0;->b:Lio/grpc/y0$i;
@@ -56,7 +54,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void

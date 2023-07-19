@@ -25,10 +25,8 @@
 .method public constructor <init>(Ljava/lang/String;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/google/android/gms/internal/ads/l81;->a:Ljava/lang/String;
 
     return-void
@@ -47,7 +45,6 @@
 
     const-string v0, "rewarded"
 
-    .line 1
     invoke-interface {p0, v0}, Ljava/util/Set;->contains(Ljava/lang/Object;)Z
 
     move-result v0
@@ -56,7 +53,6 @@
 
     const-string v0, "interstitial"
 
-    .line 2
     invoke-interface {p0, v0}, Ljava/util/Set;->contains(Ljava/lang/Object;)Z
 
     move-result v0
@@ -65,7 +61,6 @@
 
     const-string v0, "native"
 
-    .line 3
     invoke-interface {p0, v0}, Ljava/util/Set;->contains(Ljava/lang/Object;)Z
 
     move-result v0
@@ -74,7 +69,6 @@
 
     const-string v0, "banner"
 
-    .line 4
     invoke-interface {p0, v0}, Ljava/util/Set;->contains(Ljava/lang/Object;)Z
 
     move-result p0
@@ -98,7 +92,6 @@
 .method static synthetic c(Ljava/util/Set;)Z
     .locals 0
 
-    .line 1
     invoke-static {p0}, Lcom/google/android/gms/internal/ads/l81;->a(Ljava/util/Set;)Z
 
     move-result p0
@@ -111,10 +104,8 @@
 .method public final synthetic b(Ljava/lang/Object;)V
     .locals 2
 
-    .line 1
     check-cast p1, Landroid/os/Bundle;
 
-    .line 2
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/l81;->a:Ljava/lang/String;
 
     const-string v1, "omid_v"

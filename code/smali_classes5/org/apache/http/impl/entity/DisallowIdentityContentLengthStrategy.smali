@@ -23,7 +23,6 @@
 .method static constructor <clinit>()V
     .locals 3
 
-    .line 1
     new-instance v0, Lorg/apache/http/impl/entity/DisallowIdentityContentLengthStrategy;
 
     new-instance v1, Lorg/apache/http/impl/entity/LaxContentLengthStrategy;
@@ -42,10 +41,8 @@
 .method public constructor <init>(Lorg/apache/http/entity/ContentLengthStrategy;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lorg/apache/http/impl/entity/DisallowIdentityContentLengthStrategy;->contentLengthStrategy:Lorg/apache/http/entity/ContentLengthStrategy;
 
     return-void
@@ -61,7 +58,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lorg/apache/http/impl/entity/DisallowIdentityContentLengthStrategy;->contentLengthStrategy:Lorg/apache/http/entity/ContentLengthStrategy;
 
     invoke-interface {v0, p1}, Lorg/apache/http/entity/ContentLengthStrategy;->determineLength(Lorg/apache/http/HttpMessage;)J
@@ -76,7 +72,6 @@
 
     return-wide v0
 
-    .line 2
     :cond_0
     new-instance p1, Lorg/apache/http/ProtocolException;
 

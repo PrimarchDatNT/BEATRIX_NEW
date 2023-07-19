@@ -53,7 +53,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/studio/function/SegmentFragment$startOnlineSegment$$inlined$apply$lambda$1;->invoke()V
 
     sget-object v1, Lcotlin/t1;->a:Lcotlin/t1;
@@ -70,7 +69,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/function/SegmentFragment$startOnlineSegment$$inlined$apply$lambda$1;->this$0:Lcom/commsource/studio/function/SegmentFragment;
 
     invoke-static {v1}, Lcom/commsource/studio/function/SegmentFragment;->z1(Lcom/commsource/studio/function/SegmentFragment;)Lcom/commsource/studio/function/c;
@@ -79,7 +77,6 @@
 
     invoke-virtual {v1}, Lcom/commsource/studio/function/c;->A()V
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/studio/function/SegmentFragment$startOnlineSegment$$inlined$apply$lambda$1;->this$0:Lcom/commsource/studio/function/SegmentFragment;
 
     invoke-virtual {v1}, Lcom/commsource/studio/function/SegmentFragment;->V1()Lcom/commsource/widget/dialog/h0;
@@ -90,7 +87,6 @@
 
     invoke-virtual {v1}, Lcom/commsource/widget/dialog/i0;->dismiss()V
 
-    .line 4
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

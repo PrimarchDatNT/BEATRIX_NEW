@@ -25,7 +25,6 @@
 .method constructor <init>(Lcom/mopub/common/privacy/ConsentDialogActivity;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/mopub/common/privacy/ConsentDialogActivity$1;->this$0:Lcom/mopub/common/privacy/ConsentDialogActivity;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -38,7 +37,6 @@
 .method public onCloseClick()V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/common/privacy/ConsentDialogActivity$1;->this$0:Lcom/mopub/common/privacy/ConsentDialogActivity;
 
     invoke-virtual {v0}, Landroid/app/Activity;->finish()V
@@ -49,12 +47,10 @@
 .method public onConsentClick(Lcom/mopub/common/privacy/ConsentStatus;)V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/common/privacy/ConsentDialogActivity$1;->this$0:Lcom/mopub/common/privacy/ConsentDialogActivity;
 
     invoke-static {v0, p1}, Lcom/mopub/common/privacy/ConsentDialogActivity;->access$000(Lcom/mopub/common/privacy/ConsentDialogActivity;Lcom/mopub/common/privacy/ConsentStatus;)V
 
-    .line 2
     iget-object p1, p0, Lcom/mopub/common/privacy/ConsentDialogActivity$1;->this$0:Lcom/mopub/common/privacy/ConsentDialogActivity;
 
     const/4 v0, 0x0

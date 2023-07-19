@@ -15,7 +15,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -28,7 +27,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lf/k/h/a/b;->b()Lf/k/h/a/g;
 
     move-result-object v1
@@ -41,7 +39,6 @@
 
     invoke-interface {v1, p1, p0}, Lf/k/h/a/g;->b(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -54,7 +51,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lf/k/h/a/b;->b()Lf/k/h/a/g;
 
     move-result-object v1
@@ -67,7 +63,6 @@
 
     invoke-interface {v1, p1, p0}, Lf/k/h/a/g;->a(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -112,7 +107,6 @@
 
     aput-object v2, v1, p0
 
-    .line 1
     invoke-static {v1}, Lf/k/h/a/m/i;->a([Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p0
@@ -129,7 +123,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lf/k/h/a/b;->b()Lf/k/h/a/g;
 
     move-result-object v1
@@ -142,7 +135,6 @@
 
     invoke-interface {v1, p1, p0}, Lf/k/h/a/g;->c(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -155,7 +147,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lf/k/h/a/b;->b()Lf/k/h/a/g;
 
     move-result-object v1
@@ -168,7 +159,6 @@
 
     invoke-interface {v1, p1, p0}, Lf/k/h/a/g;->d(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

@@ -91,10 +91,8 @@
         }
     .end annotation
 
-    .line 2
     invoke-direct {p0}, Lcom/google/common/collect/e;-><init>()V
 
-    .line 3
     invoke-static {p1}, Lcom/google/common/base/t;->E(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -103,7 +101,6 @@
 
     iput-object p1, p0, Lcom/google/common/collect/TreeRangeSet$e;->a:Lcom/google/common/collect/Range;
 
-    .line 4
     invoke-static {p2}, Lcom/google/common/base/t;->E(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -112,7 +109,6 @@
 
     iput-object p1, p0, Lcom/google/common/collect/TreeRangeSet$e;->b:Lcom/google/common/collect/Range;
 
-    .line 5
     invoke-static {p3}, Lcom/google/common/base/t;->E(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -121,7 +117,6 @@
 
     iput-object p1, p0, Lcom/google/common/collect/TreeRangeSet$e;->c:Ljava/util/NavigableMap;
 
-    .line 6
     new-instance p1, Lcom/google/common/collect/TreeRangeSet$d;
 
     invoke-direct {p1, p3}, Lcom/google/common/collect/TreeRangeSet$d;-><init>(Ljava/util/NavigableMap;)V
@@ -134,7 +129,6 @@
 .method synthetic constructor <init>(Lcom/google/common/collect/Range;Lcom/google/common/collect/Range;Ljava/util/NavigableMap;Lcom/google/common/collect/TreeRangeSet$a;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1, p2, p3}, Lcom/google/common/collect/TreeRangeSet$e;-><init>(Lcom/google/common/collect/Range;Lcom/google/common/collect/Range;Ljava/util/NavigableMap;)V
 
     return-void
@@ -143,7 +137,6 @@
 .method static synthetic c(Lcom/google/common/collect/TreeRangeSet$e;)Lcom/google/common/collect/Range;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lcom/google/common/collect/TreeRangeSet$e;->b:Lcom/google/common/collect/Range;
 
     return-object p0
@@ -152,7 +145,6 @@
 .method static synthetic d(Lcom/google/common/collect/TreeRangeSet$e;)Lcom/google/common/collect/Range;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lcom/google/common/collect/TreeRangeSet$e;->a:Lcom/google/common/collect/Range;
 
     return-object p0
@@ -174,7 +166,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/TreeRangeSet$e;->a:Lcom/google/common/collect/Range;
 
     invoke-virtual {p1, v0}, Lcom/google/common/collect/Range;->isConnected(Lcom/google/common/collect/Range;)Z
@@ -183,20 +174,17 @@
 
     if-nez v0, :cond_0
 
-    .line 2
     invoke-static {}, Lcom/google/common/collect/ImmutableSortedMap;->of()Lcom/google/common/collect/ImmutableSortedMap;
 
     move-result-object p1
 
     return-object p1
 
-    .line 3
     :cond_0
     new-instance v0, Lcom/google/common/collect/TreeRangeSet$e;
 
     iget-object v1, p0, Lcom/google/common/collect/TreeRangeSet$e;->a:Lcom/google/common/collect/Range;
 
-    .line 4
     invoke-virtual {v1, p1}, Lcom/google/common/collect/Range;->intersection(Lcom/google/common/collect/Range;)Lcom/google/common/collect/Range;
 
     move-result-object p1
@@ -226,7 +214,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/TreeRangeSet$e;->b:Lcom/google/common/collect/Range;
 
     invoke-virtual {v0}, Lcom/google/common/collect/Range;->isEmpty()Z
@@ -235,14 +222,12 @@
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-static {}, Lcom/google/common/collect/Iterators;->u()Lcom/google/common/collect/l2;
 
     move-result-object v0
 
     return-object v0
 
-    .line 3
     :cond_0
     iget-object v0, p0, Lcom/google/common/collect/TreeRangeSet$e;->a:Lcom/google/common/collect/Range;
 
@@ -258,14 +243,12 @@
 
     if-eqz v0, :cond_1
 
-    .line 4
     invoke-static {}, Lcom/google/common/collect/Iterators;->u()Lcom/google/common/collect/l2;
 
     move-result-object v0
 
     return-object v0
 
-    .line 5
     :cond_1
     iget-object v0, p0, Lcom/google/common/collect/TreeRangeSet$e;->a:Lcom/google/common/collect/Range;
 
@@ -283,14 +266,12 @@
 
     if-eqz v0, :cond_2
 
-    .line 6
     iget-object v0, p0, Lcom/google/common/collect/TreeRangeSet$e;->d:Ljava/util/NavigableMap;
 
     iget-object v2, p0, Lcom/google/common/collect/TreeRangeSet$e;->b:Lcom/google/common/collect/Range;
 
     iget-object v2, v2, Lcom/google/common/collect/Range;->lowerBound:Lcom/google/common/collect/Cut;
 
-    .line 7
     invoke-interface {v0, v2, v1}, Ljava/util/NavigableMap;->tailMap(Ljava/lang/Object;Z)Ljava/util/NavigableMap;
 
     move-result-object v0
@@ -305,7 +286,6 @@
 
     goto :goto_0
 
-    .line 8
     :cond_2
     iget-object v0, p0, Lcom/google/common/collect/TreeRangeSet$e;->c:Ljava/util/NavigableMap;
 
@@ -313,14 +293,12 @@
 
     iget-object v2, v2, Lcom/google/common/collect/Range;->lowerBound:Lcom/google/common/collect/Cut;
 
-    .line 9
     invoke-virtual {v2}, Lcom/google/common/collect/Cut;->endpoint()Ljava/lang/Comparable;
 
     move-result-object v2
 
     iget-object v3, p0, Lcom/google/common/collect/TreeRangeSet$e;->a:Lcom/google/common/collect/Range;
 
-    .line 10
     invoke-virtual {v3}, Lcom/google/common/collect/Range;->lowerBoundType()Lcom/google/common/collect/BoundType;
 
     move-result-object v3
@@ -331,23 +309,19 @@
 
     const/4 v1, 0x1
 
-    .line 11
     :cond_3
     invoke-interface {v0, v2, v1}, Ljava/util/NavigableMap;->tailMap(Ljava/lang/Object;Z)Ljava/util/NavigableMap;
 
     move-result-object v0
 
-    .line 12
     invoke-interface {v0}, Ljava/util/NavigableMap;->values()Ljava/util/Collection;
 
     move-result-object v0
 
-    .line 13
     invoke-interface {v0}, Ljava/util/Collection;->iterator()Ljava/util/Iterator;
 
     move-result-object v0
 
-    .line 14
     :goto_0
     invoke-static {}, Lcom/google/common/collect/Ordering;->natural()Lcom/google/common/collect/Ordering;
 
@@ -361,7 +335,6 @@
 
     iget-object v3, v3, Lcom/google/common/collect/Range;->upperBound:Lcom/google/common/collect/Cut;
 
-    .line 15
     invoke-static {v3}, Lcom/google/common/collect/Cut;->belowValue(Ljava/lang/Comparable;)Lcom/google/common/collect/Cut;
 
     move-result-object v3
@@ -372,7 +345,6 @@
 
     check-cast v1, Lcom/google/common/collect/Cut;
 
-    .line 16
     new-instance v2, Lcom/google/common/collect/TreeRangeSet$e$a;
 
     invoke-direct {v2, p0, v0, v1}, Lcom/google/common/collect/TreeRangeSet$e$a;-><init>(Lcom/google/common/collect/TreeRangeSet$e;Ljava/util/Iterator;Lcom/google/common/collect/Cut;)V
@@ -394,7 +366,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/TreeRangeSet$e;->b:Lcom/google/common/collect/Range;
 
     invoke-virtual {v0}, Lcom/google/common/collect/Range;->isEmpty()Z
@@ -403,14 +374,12 @@
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-static {}, Lcom/google/common/collect/Iterators;->u()Lcom/google/common/collect/l2;
 
     move-result-object v0
 
     return-object v0
 
-    .line 3
     :cond_0
     invoke-static {}, Lcom/google/common/collect/Ordering;->natural()Lcom/google/common/collect/Ordering;
 
@@ -424,7 +393,6 @@
 
     iget-object v2, v2, Lcom/google/common/collect/Range;->upperBound:Lcom/google/common/collect/Cut;
 
-    .line 4
     invoke-static {v2}, Lcom/google/common/collect/Cut;->belowValue(Ljava/lang/Comparable;)Lcom/google/common/collect/Cut;
 
     move-result-object v2
@@ -435,15 +403,12 @@
 
     check-cast v0, Lcom/google/common/collect/Cut;
 
-    .line 5
     iget-object v1, p0, Lcom/google/common/collect/TreeRangeSet$e;->c:Ljava/util/NavigableMap;
 
-    .line 6
     invoke-virtual {v0}, Lcom/google/common/collect/Cut;->endpoint()Ljava/lang/Comparable;
 
     move-result-object v2
 
-    .line 7
     invoke-virtual {v0}, Lcom/google/common/collect/Cut;->typeAsUpperBound()Lcom/google/common/collect/BoundType;
 
     move-result-object v0
@@ -459,28 +424,23 @@
     :cond_1
     const/4 v0, 0x0
 
-    .line 8
     :goto_0
     invoke-interface {v1, v2, v0}, Ljava/util/NavigableMap;->headMap(Ljava/lang/Object;Z)Ljava/util/NavigableMap;
 
     move-result-object v0
 
-    .line 9
     invoke-interface {v0}, Ljava/util/NavigableMap;->descendingMap()Ljava/util/NavigableMap;
 
     move-result-object v0
 
-    .line 10
     invoke-interface {v0}, Ljava/util/NavigableMap;->values()Ljava/util/Collection;
 
     move-result-object v0
 
-    .line 11
     invoke-interface {v0}, Ljava/util/Collection;->iterator()Ljava/util/Iterator;
 
     move-result-object v0
 
-    .line 12
     new-instance v1, Lcom/google/common/collect/TreeRangeSet$e$b;
 
     invoke-direct {v1, p0, v0}, Lcom/google/common/collect/TreeRangeSet$e$b;-><init>(Lcom/google/common/collect/TreeRangeSet$e;Ljava/util/Iterator;)V
@@ -500,7 +460,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {}, Lcom/google/common/collect/Ordering;->natural()Lcom/google/common/collect/Ordering;
 
     move-result-object v0
@@ -515,7 +474,6 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-virtual {p0, p1}, Lcom/google/common/collect/TreeRangeSet$e;->e(Ljava/lang/Object;)Lcom/google/common/collect/Range;
 
     move-result-object p1
@@ -552,18 +510,15 @@
     .annotation runtime Ln/b/a/a/a/g;
     .end annotation
 
-    .line 1
     instance-of v0, p1, Lcom/google/common/collect/Cut;
 
     const/4 v1, 0x0
 
     if-eqz v0, :cond_2
 
-    .line 2
     :try_start_0
     check-cast p1, Lcom/google/common/collect/Cut;
 
-    .line 3
     iget-object v0, p0, Lcom/google/common/collect/TreeRangeSet$e;->a:Lcom/google/common/collect/Range;
 
     invoke-virtual {v0, p1}, Lcom/google/common/collect/Range;->contains(Ljava/lang/Comparable;)Z
@@ -576,7 +531,6 @@
 
     iget-object v0, v0, Lcom/google/common/collect/Range;->lowerBound:Lcom/google/common/collect/Cut;
 
-    .line 4
     invoke-virtual {p1, v0}, Lcom/google/common/collect/Cut;->compareTo(Lcom/google/common/collect/Cut;)I
 
     move-result v0
@@ -587,7 +541,6 @@
 
     iget-object v0, v0, Lcom/google/common/collect/Range;->upperBound:Lcom/google/common/collect/Cut;
 
-    .line 5
     invoke-virtual {p1, v0}, Lcom/google/common/collect/Cut;->compareTo(Lcom/google/common/collect/Cut;)I
 
     move-result v0
@@ -596,7 +549,6 @@
 
     goto :goto_0
 
-    .line 6
     :cond_0
     iget-object v0, p0, Lcom/google/common/collect/TreeRangeSet$e;->b:Lcom/google/common/collect/Range;
 
@@ -608,7 +560,6 @@
 
     if-eqz v0, :cond_1
 
-    .line 7
     iget-object v0, p0, Lcom/google/common/collect/TreeRangeSet$e;->c:Ljava/util/NavigableMap;
 
     invoke-interface {v0, p1}, Ljava/util/NavigableMap;->floorEntry(Ljava/lang/Object;)Ljava/util/Map$Entry;
@@ -623,7 +574,6 @@
 
     if-eqz p1, :cond_2
 
-    .line 8
     iget-object v0, p1, Lcom/google/common/collect/Range;->upperBound:Lcom/google/common/collect/Cut;
 
     iget-object v2, p0, Lcom/google/common/collect/TreeRangeSet$e;->b:Lcom/google/common/collect/Range;
@@ -636,7 +586,6 @@
 
     if-lez v0, :cond_2
 
-    .line 9
     iget-object v0, p0, Lcom/google/common/collect/TreeRangeSet$e;->b:Lcom/google/common/collect/Range;
 
     invoke-virtual {p1, v0}, Lcom/google/common/collect/Range;->intersection(Lcom/google/common/collect/Range;)Lcom/google/common/collect/Range;
@@ -645,7 +594,6 @@
 
     return-object p1
 
-    .line 10
     :cond_1
     iget-object v0, p0, Lcom/google/common/collect/TreeRangeSet$e;->c:Ljava/util/NavigableMap;
 
@@ -657,7 +605,6 @@
 
     if-eqz p1, :cond_2
 
-    .line 11
     iget-object v0, p0, Lcom/google/common/collect/TreeRangeSet$e;->b:Lcom/google/common/collect/Range;
 
     invoke-virtual {p1, v0}, Lcom/google/common/collect/Range;->intersection(Lcom/google/common/collect/Range;)Lcom/google/common/collect/Range;
@@ -689,7 +636,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p2}, Lcom/google/common/collect/BoundType;->forBoolean(Z)Lcom/google/common/collect/BoundType;
 
     move-result-object p2
@@ -722,22 +668,18 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p2}, Lcom/google/common/collect/BoundType;->forBoolean(Z)Lcom/google/common/collect/BoundType;
 
     move-result-object p2
 
-    .line 2
     invoke-static {p4}, Lcom/google/common/collect/BoundType;->forBoolean(Z)Lcom/google/common/collect/BoundType;
 
     move-result-object p4
 
-    .line 3
     invoke-static {p1, p2, p3, p4}, Lcom/google/common/collect/Range;->range(Ljava/lang/Comparable;Lcom/google/common/collect/BoundType;Ljava/lang/Comparable;Lcom/google/common/collect/BoundType;)Lcom/google/common/collect/Range;
 
     move-result-object p1
 
-    .line 4
     invoke-direct {p0, p1}, Lcom/google/common/collect/TreeRangeSet$e;->h(Lcom/google/common/collect/Range;)Ljava/util/NavigableMap;
 
     move-result-object p1
@@ -754,7 +696,6 @@
     .annotation runtime Ln/b/a/a/a/g;
     .end annotation
 
-    .line 1
     invoke-virtual {p0, p1}, Lcom/google/common/collect/TreeRangeSet$e;->e(Ljava/lang/Object;)Lcom/google/common/collect/Range;
 
     move-result-object p1
@@ -765,7 +706,6 @@
 .method public bridge synthetic headMap(Ljava/lang/Object;Z)Ljava/util/NavigableMap;
     .locals 0
 
-    .line 1
     check-cast p1, Lcom/google/common/collect/Cut;
 
     invoke-virtual {p0, p1, p2}, Lcom/google/common/collect/TreeRangeSet$e;->f(Lcom/google/common/collect/Cut;Z)Ljava/util/NavigableMap;
@@ -790,7 +730,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p2}, Lcom/google/common/collect/BoundType;->forBoolean(Z)Lcom/google/common/collect/BoundType;
 
     move-result-object p2
@@ -809,7 +748,6 @@
 .method public size()I
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/collect/TreeRangeSet$e;->a()Ljava/util/Iterator;
 
     move-result-object v0
@@ -824,7 +762,6 @@
 .method public bridge synthetic subMap(Ljava/lang/Object;ZLjava/lang/Object;Z)Ljava/util/NavigableMap;
     .locals 0
 
-    .line 1
     check-cast p1, Lcom/google/common/collect/Cut;
 
     check-cast p3, Lcom/google/common/collect/Cut;
@@ -839,7 +776,6 @@
 .method public bridge synthetic tailMap(Ljava/lang/Object;Z)Ljava/util/NavigableMap;
     .locals 0
 
-    .line 1
     check-cast p1, Lcom/google/common/collect/Cut;
 
     invoke-virtual {p0, p1, p2}, Lcom/google/common/collect/TreeRangeSet$e;->i(Lcom/google/common/collect/Cut;Z)Ljava/util/NavigableMap;

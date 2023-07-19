@@ -52,14 +52,12 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-direct {p0}, Lf/d/a;-><init>()V
 
     iput-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/e;->Y:Landroid/view/View;
 
     iput-boolean p2, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/e;->Z:Z
 
-    .line 2
     new-instance p1, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/e$c;
 
     invoke-direct {p1, p0}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/e$c;-><init>(Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/e;)V
@@ -85,7 +83,6 @@
 
     const/4 p2, 0x1
 
-    .line 3
     :cond_1
     invoke-direct {p0, p1, p2}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/e;-><init>(Landroid/view/View;Z)V
 
@@ -99,7 +96,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lf/d/a;->W:Landroidx/databinding/ViewDataBinding;
 
     check-cast p0, Lcom/commsource/beautyplus/f0/s5;
@@ -116,7 +112,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lf/d/a;->W:Landroidx/databinding/ViewDataBinding;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -133,7 +128,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lf/d/a;->W:Landroidx/databinding/ViewDataBinding;
 
     check-cast v1, Lcom/commsource/beautyplus/f0/s5;
@@ -152,7 +146,6 @@
 
     invoke-virtual {v1, v2}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 2
     iget-object v1, p0, Lf/d/a;->W:Landroidx/databinding/ViewDataBinding;
 
     check-cast v1, Lcom/commsource/beautyplus/f0/s5;
@@ -175,7 +168,6 @@
 
     invoke-virtual {v1, v2, v3}, Lcom/commsource/widget/GuideMaskView;->n(Landroid/view/View;Landroid/view/Window;)V
 
-    .line 3
     iget-object v1, p0, Lf/d/a;->W:Landroidx/databinding/ViewDataBinding;
 
     check-cast v1, Lcom/commsource/beautyplus/f0/s5;
@@ -188,12 +180,10 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/widget/GuideMaskView;->setOnClipListener(Lcom/commsource/widget/GuideMaskView$b;)V
 
-    .line 4
     iget-boolean v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/e;->Z:Z
 
     if-eqz v1, :cond_0
 
-    .line 5
     iget-object v1, p0, Lf/d/a;->W:Landroidx/databinding/ViewDataBinding;
 
     check-cast v1, Lcom/commsource/beautyplus/f0/s5;
@@ -204,7 +194,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/widget/GuideMaskView;->setOval(Z)V
 
-    .line 6
     iget-object v1, p0, Lf/d/a;->W:Landroidx/databinding/ViewDataBinding;
 
     check-cast v1, Lcom/commsource/beautyplus/f0/s5;
@@ -221,7 +210,6 @@
 
     goto :goto_0
 
-    .line 7
     :cond_0
     iget-object v1, p0, Lf/d/a;->W:Landroidx/databinding/ViewDataBinding;
 
@@ -237,7 +225,6 @@
 
     invoke-virtual {v1, v3}, Lcom/commsource/widget/GuideMaskView;->setOffsetX(F)V
 
-    .line 8
     iget-object v1, p0, Lf/d/a;->W:Landroidx/databinding/ViewDataBinding;
 
     check-cast v1, Lcom/commsource/beautyplus/f0/s5;
@@ -250,7 +237,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/widget/GuideMaskView;->setOffsetY(F)V
 
-    .line 9
     :goto_0
     iget-object v1, p0, Lf/d/a;->W:Landroidx/databinding/ViewDataBinding;
 
@@ -264,14 +250,12 @@
 
     invoke-virtual {v1, v2}, Landroid/widget/FrameLayout;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 10
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/e;->X:Ljava/lang/Runnable;
 
     const-wide/16 v2, 0x1388
 
     invoke-static {v1, v2, v3}, Lcom/commsource/util/g2;->l(Ljava/lang/Runnable;J)V
 
-    .line 11
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -284,7 +268,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     sget v0, Lcom/res/provider/ResSTYLE;->guideDialogAnimations:I
@@ -299,7 +282,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     sget v0, Lcom/res/provider/ResSTYLE;->guideDialog:I
@@ -314,7 +296,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     sget v0, Lcom/res/provider/ResLAYOUT;->dialog_filter_shop:I
@@ -413,7 +394,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/e;->X:Ljava/lang/Runnable;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -430,7 +410,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/e;->Y:Landroid/view/View;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -445,7 +424,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/e;->Z:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

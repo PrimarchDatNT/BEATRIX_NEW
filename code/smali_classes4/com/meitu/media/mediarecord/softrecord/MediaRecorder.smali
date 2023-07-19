@@ -37,10 +37,8 @@
 
     const/4 v1, 0x0
 
-    .line 1
     sput-boolean v1, Lcom/meitu/media/mediarecord/softrecord/MediaRecorder;->e:Z
 
-    .line 2
     new-instance v1, Landroid/os/Handler;
 
     invoke-static {}, Landroid/os/Looper;->getMainLooper()Landroid/os/Looper;
@@ -51,10 +49,8 @@
 
     sput-object v1, Lcom/meitu/media/mediarecord/softrecord/MediaRecorder;->f:Landroid/os/Handler;
 
-    .line 3
     invoke-static {}, Lf/k/r/a;->a()V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -63,7 +59,6 @@
 .method public constructor <init>()V
     .locals 3
 
-    .line 4
     invoke-static {}, Lcom/meitu/media/mediarecord/softrecord/MTMediaRecorderJNI;->new_MediaRecorder()J
 
     move-result-wide v0
@@ -78,13 +73,10 @@
 .method protected constructor <init>(JZ)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-boolean p3, p0, Lcom/meitu/media/mediarecord/softrecord/MediaRecorder;->b:Z
 
-    .line 3
     iput-wide p1, p0, Lcom/meitu/media/mediarecord/softrecord/MediaRecorder;->a:J
 
     return-void
@@ -103,7 +95,6 @@
 
     goto :goto_0
 
-    .line 1
     :cond_0
     iget-wide v1, p0, Lcom/meitu/media/mediarecord/softrecord/MediaRecorder;->a:J
 
@@ -125,7 +116,6 @@
     :try_start_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/media/mediarecord/softrecord/MediaRecorder;->a:J
 
     const-wide/16 v3, 0x0
@@ -134,24 +124,19 @@
 
     if-eqz v5, :cond_1
 
-    .line 2
     iget-boolean v5, p0, Lcom/meitu/media/mediarecord/softrecord/MediaRecorder;->b:Z
 
     if-eqz v5, :cond_0
 
     const/4 v5, 0x0
 
-    .line 3
     iput-boolean v5, p0, Lcom/meitu/media/mediarecord/softrecord/MediaRecorder;->b:Z
 
-    .line 4
     invoke-static {v1, v2}, Lcom/meitu/media/mediarecord/softrecord/MTMediaRecorderJNI;->delete_MediaRecorder(J)V
 
-    .line 5
     :cond_0
     iput-wide v3, p0, Lcom/meitu/media/mediarecord/softrecord/MediaRecorder;->a:J
 
-    .line 6
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
     :try_end_0
@@ -176,7 +161,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/media/mediarecord/softrecord/MediaRecorder;->c:Lcom/meitu/media/mediarecord/softrecord/MediaRecorder$e;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -191,7 +175,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/media/mediarecord/softrecord/MediaRecorder;->a:J
 
     invoke-static {v1, v2, p0}, Lcom/meitu/media/mediarecord/softrecord/MTMediaRecorderJNI;->MediaRecorder_getProgressListener(JLcom/meitu/media/mediarecord/softrecord/MediaRecorder;)J
@@ -208,7 +191,6 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     new-instance v3, Lcom/meitu/media/mediarecord/softrecord/MediaRecorderStateListener;
 
@@ -235,10 +217,8 @@
 
     const-string v2, "Init MediaRecord"
 
-    .line 1
     invoke-static {v1, v2}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 2
     iget-wide v1, p0, Lcom/meitu/media/mediarecord/softrecord/MediaRecorder;->a:J
 
     invoke-static {v1, v2, p0}, Lcom/meitu/media/mediarecord/softrecord/MTMediaRecorderJNI;->MediaRecorder_init(JLcom/meitu/media/mediarecord/softrecord/MediaRecorder;)I
@@ -261,10 +241,8 @@
 
     const-string v2, "MediaRecord prepare"
 
-    .line 1
     invoke-static {v1, v2}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 2
     iget-wide v1, p0, Lcom/meitu/media/mediarecord/softrecord/MediaRecorder;->a:J
 
     invoke-static {v1, v2, p0}, Lcom/meitu/media/mediarecord/softrecord/MTMediaRecorderJNI;->MediaRecorder_prepare(JLcom/meitu/media/mediarecord/softrecord/MediaRecorder;)I
@@ -283,10 +261,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/meitu/media/mediarecord/softrecord/MediaRecorder;->a()V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -299,7 +275,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/media/mediarecord/softrecord/MediaRecorder;->a:J
 
     invoke-static {v1, v2, p0}, Lcom/meitu/media/mediarecord/softrecord/MTMediaRecorderJNI;->MediaRecorder_release(JLcom/meitu/media/mediarecord/softrecord/MediaRecorder;)I
@@ -318,7 +293,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/media/mediarecord/softrecord/MediaRecorder;->a:J
 
     move-object v3, p0
@@ -347,7 +321,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/media/mediarecord/softrecord/MediaRecorder;->a:J
 
     move-object v3, p0
@@ -374,7 +347,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/media/mediarecord/softrecord/MediaRecorder;->a:J
 
     move-object v3, p0
@@ -401,7 +373,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/media/mediarecord/softrecord/MediaRecorder;->a:J
 
     invoke-static {v1, v2, p0, p1}, Lcom/meitu/media/mediarecord/softrecord/MTMediaRecorderJNI;->MediaRecorder_setKeyFrameInterval(JLcom/meitu/media/mediarecord/softrecord/MediaRecorder;I)I
@@ -420,7 +391,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/media/mediarecord/softrecord/MediaRecorder;->a:J
 
     invoke-static {v1, v2, p0, p1}, Lcom/meitu/media/mediarecord/softrecord/MTMediaRecorderJNI;->MediaRecorder_setLogLevel(JLcom/meitu/media/mediarecord/softrecord/MediaRecorder;I)I
@@ -439,7 +409,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/media/mediarecord/softrecord/MediaRecorder;->a:J
 
     move-object v3, p0
@@ -466,7 +435,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/media/mediarecord/softrecord/MediaRecorder;->a:J
 
     invoke-static {v1, v2, p0, p1, p2}, Lcom/meitu/media/mediarecord/softrecord/MTMediaRecorderJNI;->MediaRecorder_setOutVideoParam(JLcom/meitu/media/mediarecord/softrecord/MediaRecorder;II)I
@@ -485,7 +453,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/media/mediarecord/softrecord/MediaRecorder;->a:J
 
     invoke-static {v1, v2, p0, p1}, Lcom/meitu/media/mediarecord/softrecord/MTMediaRecorderJNI;->MediaRecorder_setVideoBitRate(JLcom/meitu/media/mediarecord/softrecord/MediaRecorder;I)I
@@ -504,7 +471,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/media/mediarecord/softrecord/MediaRecorder;->a:J
 
     invoke-static {v1, v2, p0, p1}, Lcom/meitu/media/mediarecord/softrecord/MTMediaRecorderJNI;->MediaRecorder_setRecordFile(JLcom/meitu/media/mediarecord/softrecord/MediaRecorder;Ljava/lang/String;)I
@@ -525,23 +491,19 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-boolean v1, Lcom/meitu/media/mediarecord/softrecord/MediaRecorder;->e:Z
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 3
     :cond_0
     const-class v1, Lcom/meitu/media/mediarecord/softrecord/MediaRecorder;
 
     monitor-enter v1
 
-    .line 4
     :try_start_0
     invoke-virtual {p0}, Lcom/meitu/media/mediarecord/softrecord/MediaRecorder;->c()Lcom/meitu/media/mediarecord/softrecord/MediaRecorder$e;
 
@@ -553,10 +515,8 @@
 
     const-string p2, "_postInfo getListener() == null return"
 
-    .line 5
     invoke-static {p1, p2}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 6
     monitor-exit v1
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
@@ -565,7 +525,6 @@
 
     return-void
 
-    .line 7
     :cond_1
     :try_start_1
     new-instance v2, Ljava/lang/ref/WeakReference;
@@ -576,14 +535,12 @@
 
     invoke-direct {v2, v3}, Ljava/lang/ref/WeakReference;-><init>(Ljava/lang/Object;)V
 
-    .line 8
     monitor-exit v1
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
     const-string v1, "MediaRecorder"
 
-    .line 9
     new-instance v3, Ljava/lang/StringBuilder;
 
     invoke-direct {v3}, Ljava/lang/StringBuilder;-><init>()V
@@ -604,14 +561,12 @@
 
     if-ne p1, v1, :cond_2
 
-    .line 10
     invoke-virtual {v2}, Ljava/lang/ref/WeakReference;->get()Ljava/lang/Object;
 
     move-result-object p1
 
     if-eqz p1, :cond_5
 
-    .line 11
     sget-object p1, Lcom/meitu/media/mediarecord/softrecord/MediaRecorder;->f:Landroid/os/Handler;
 
     new-instance p2, Lcom/meitu/media/mediarecord/softrecord/MediaRecorder$a;
@@ -627,14 +582,12 @@
 
     if-ne p1, v1, :cond_3
 
-    .line 12
     invoke-virtual {v2}, Ljava/lang/ref/WeakReference;->get()Ljava/lang/Object;
 
     move-result-object p1
 
     if-eqz p1, :cond_5
 
-    .line 13
     sget-object p1, Lcom/meitu/media/mediarecord/softrecord/MediaRecorder;->f:Landroid/os/Handler;
 
     new-instance v1, Lcom/meitu/media/mediarecord/softrecord/MediaRecorder$b;
@@ -650,14 +603,12 @@
 
     if-ne p1, p2, :cond_4
 
-    .line 14
     invoke-virtual {v2}, Ljava/lang/ref/WeakReference;->get()Ljava/lang/Object;
 
     move-result-object p1
 
     if-eqz p1, :cond_5
 
-    .line 15
     sget-object p1, Lcom/meitu/media/mediarecord/softrecord/MediaRecorder;->f:Landroid/os/Handler;
 
     new-instance p2, Lcom/meitu/media/mediarecord/softrecord/MediaRecorder$c;
@@ -673,14 +624,12 @@
 
     if-ne p1, p2, :cond_5
 
-    .line 16
     invoke-virtual {v2}, Ljava/lang/ref/WeakReference;->get()Ljava/lang/Object;
 
     move-result-object p1
 
     if-eqz p1, :cond_5
 
-    .line 17
     sget-object p1, Lcom/meitu/media/mediarecord/softrecord/MediaRecorder;->f:Landroid/os/Handler;
 
     new-instance p2, Lcom/meitu/media/mediarecord/softrecord/MediaRecorder$d;
@@ -689,7 +638,6 @@
 
     invoke-virtual {p1, p2}, Landroid/os/Handler;->post(Ljava/lang/Runnable;)Z
 
-    .line 18
     :cond_5
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -699,7 +647,6 @@
     :catchall_0
     move-exception p1
 
-    .line 19
     :try_start_2
     monitor-exit v1
     :try_end_2
@@ -717,7 +664,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -736,7 +682,6 @@
 
     invoke-static {v2, v1}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 2
     iget-wide v1, p0, Lcom/meitu/media/mediarecord/softrecord/MediaRecorder;->a:J
 
     invoke-static {v1, v2, p0, p1}, Lcom/meitu/media/mediarecord/softrecord/MTMediaRecorderJNI;->MediaRecorder_setRecordPitch(JLcom/meitu/media/mediarecord/softrecord/MediaRecorder;F)I
@@ -755,7 +700,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/media/mediarecord/softrecord/MediaRecorder;->a:J
 
     invoke-static {v1, v2, p0, p1}, Lcom/meitu/media/mediarecord/softrecord/MTMediaRecorderJNI;->MediaRecorder_setRecordQuality(JLcom/meitu/media/mediarecord/softrecord/MediaRecorder;F)I
@@ -774,7 +718,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/media/mediarecord/softrecord/MediaRecorder;->a:J
 
     invoke-static {v1, v2, p0, p1}, Lcom/meitu/media/mediarecord/softrecord/MTMediaRecorderJNI;->MediaRecorder_setRecordRate(JLcom/meitu/media/mediarecord/softrecord/MediaRecorder;F)I
@@ -793,10 +736,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/media/mediarecord/softrecord/MediaRecorder;->c:Lcom/meitu/media/mediarecord/softrecord/MediaRecorder$e;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -809,7 +750,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/media/mediarecord/softrecord/MediaRecorder;->a:J
 
     invoke-static {v1, v2, p0, p1}, Lcom/meitu/media/mediarecord/softrecord/MTMediaRecorderJNI;->MediaRecorder_setVideoRotate(JLcom/meitu/media/mediarecord/softrecord/MediaRecorder;I)I
@@ -832,10 +772,8 @@
 
     const-string v2, "Start record"
 
-    .line 1
     invoke-static {v1, v2}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 2
     iget-wide v1, p0, Lcom/meitu/media/mediarecord/softrecord/MediaRecorder;->a:J
 
     invoke-static {v1, v2, p0}, Lcom/meitu/media/mediarecord/softrecord/MTMediaRecorderJNI;->MediaRecorder_start(JLcom/meitu/media/mediarecord/softrecord/MediaRecorder;)I
@@ -854,7 +792,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/media/mediarecord/softrecord/MediaRecorder;->a:J
 
     invoke-static {v1, v2, p0}, Lcom/meitu/media/mediarecord/softrecord/MTMediaRecorderJNI;->MediaRecorder_stop(JLcom/meitu/media/mediarecord/softrecord/MediaRecorder;)I
@@ -873,7 +810,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -904,7 +840,6 @@
 
     move-object v1, p0
 
-    .line 2
     iget-wide v3, v1, Lcom/meitu/media/mediarecord/softrecord/MediaRecorder;->a:J
 
     move-object v5, p0

@@ -27,7 +27,6 @@
 .method constructor <init>(Ljava/util/concurrent/ScheduledFuture;Lbolts/p;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lbolts/o$h;->a:Ljava/util/concurrent/ScheduledFuture;
 
     iput-object p2, p0, Lbolts/o$h;->b:Lbolts/p;
@@ -42,14 +41,12 @@
 .method public run()V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lbolts/o$h;->a:Ljava/util/concurrent/ScheduledFuture;
 
     const/4 v1, 0x1
 
     invoke-interface {v0, v1}, Ljava/util/concurrent/ScheduledFuture;->cancel(Z)Z
 
-    .line 2
     iget-object v0, p0, Lbolts/o$h;->b:Lbolts/p;
 
     invoke-virtual {v0}, Lbolts/p;->e()Z

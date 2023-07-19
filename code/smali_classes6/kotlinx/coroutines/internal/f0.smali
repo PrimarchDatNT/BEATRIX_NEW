@@ -14,7 +14,6 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
     invoke-static {}, Ljava/lang/Runtime;->getRuntime()Ljava/lang/Runtime;
 
     move-result-object v0
@@ -31,7 +30,6 @@
 .method public static final a()I
     .locals 1
 
-    .line 1
     sget v0, Lcotlinx/coroutines/internal/f0;->a:I
 
     return v0
@@ -46,7 +44,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     :try_start_0
     invoke-static {p0}, Ljava/lang/System;->getProperty(Ljava/lang/String;)Ljava/lang/String;
 

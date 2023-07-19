@@ -29,10 +29,8 @@
 .method public constructor <init>(Lcom/bumptech/glide/load/engine/bitmap_recycle/b;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/bumptech/glide/load/k/t;->a:Lcom/bumptech/glide/load/engine/bitmap_recycle/b;
 
     return-void
@@ -55,7 +53,6 @@
         .end annotation
     .end param
 
-    .line 1
     check-cast p1, Ljava/io/InputStream;
 
     invoke-virtual {p0, p1, p2, p3}, Lcom/bumptech/glide/load/k/t;->c(Ljava/io/InputStream;Ljava/io/File;Lcom/bumptech/glide/load/f;)Z
@@ -82,7 +79,6 @@
 
     const-string p3, "StreamEncoder"
 
-    .line 1
     iget-object v0, p0, Lcom/bumptech/glide/load/k/t;->a:Lcom/bumptech/glide/load/engine/bitmap_recycle/b;
 
     const-class v1, [B
@@ -99,7 +95,6 @@
 
     const/4 v2, 0x0
 
-    .line 2
     :try_start_0
     new-instance v3, Ljava/io/FileOutputStream;
 
@@ -108,7 +103,6 @@
     .catch Ljava/io/IOException; {:try_start_0 .. :try_end_0} :catch_1
     .catchall {:try_start_0 .. :try_end_0} :catchall_1
 
-    .line 3
     :goto_0
     :try_start_1
     invoke-virtual {p1, v0}, Ljava/io/InputStream;->read([B)I
@@ -119,12 +113,10 @@
 
     if-eq p2, v2, :cond_0
 
-    .line 4
     invoke-virtual {v3, v0, v1, p2}, Ljava/io/OutputStream;->write([BII)V
 
     goto :goto_0
 
-    .line 5
     :cond_0
     invoke-virtual {v3}, Ljava/io/OutputStream;->close()V
     :try_end_1
@@ -133,7 +125,6 @@
 
     const/4 v1, 0x1
 
-    .line 6
     :try_start_2
     invoke-virtual {v3}, Ljava/io/OutputStream;->close()V
     :try_end_2
@@ -166,7 +157,6 @@
     :goto_1
     const/4 p2, 0x3
 
-    .line 7
     :try_start_3
     invoke-static {p3, p2}, Landroid/util/Log;->isLoggable(Ljava/lang/String;I)Z
 
@@ -176,7 +166,6 @@
 
     const-string p2, "Failed to encode data onto the OutputStream"
 
-    .line 8
     invoke-static {p3, p2, p1}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
     :try_end_3
     .catchall {:try_start_3 .. :try_end_3} :catchall_1
@@ -184,13 +173,11 @@
     :cond_1
     if-eqz v2, :cond_2
 
-    .line 9
     :try_start_4
     invoke-virtual {v2}, Ljava/io/OutputStream;->close()V
     :try_end_4
     .catch Ljava/io/IOException; {:try_start_4 .. :try_end_4} :catch_2
 
-    .line 10
     :catch_2
     :cond_2
     :goto_2
@@ -203,13 +190,11 @@
     :goto_3
     if-eqz v2, :cond_3
 
-    .line 11
     :try_start_5
     invoke-virtual {v2}, Ljava/io/OutputStream;->close()V
     :try_end_5
     .catch Ljava/io/IOException; {:try_start_5 .. :try_end_5} :catch_3
 
-    .line 12
     :catch_3
     :cond_3
     iget-object p2, p0, Lcom/bumptech/glide/load/k/t;->a:Lcom/bumptech/glide/load/engine/bitmap_recycle/b;

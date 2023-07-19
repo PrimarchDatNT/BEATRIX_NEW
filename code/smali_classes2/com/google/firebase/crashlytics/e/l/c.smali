@@ -16,7 +16,6 @@
 
     const/4 v0, 0x1
 
-    .line 1
     invoke-direct {p0, v0}, Lcom/google/firebase/crashlytics/e/l/c;-><init>(I)V
 
     return-void
@@ -25,10 +24,8 @@
 .method public constructor <init>(I)V
     .locals 0
 
-    .line 2
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 3
     iput p1, p0, Lcom/google/firebase/crashlytics/e/l/c;->a:I
 
     return-void
@@ -41,7 +38,6 @@
 
     add-int v1, p2, v0
 
-    .line 1
     array-length v2, p0
 
     const/4 v3, 0x0
@@ -58,7 +54,6 @@
 
     add-int v2, p1, v1
 
-    .line 2
     aget-object v2, p0, v2
 
     add-int v4, p2, v1
@@ -87,12 +82,10 @@
 .method private static c([Ljava/lang/StackTraceElement;I)[Ljava/lang/StackTraceElement;
     .locals 10
 
-    .line 1
     new-instance v0, Ljava/util/HashMap;
 
     invoke-direct {v0}, Ljava/util/HashMap;-><init>()V
 
-    .line 2
     array-length v1, p0
 
     new-array v1, v1, [Ljava/lang/StackTraceElement;
@@ -107,16 +100,13 @@
 
     const/4 v6, 0x1
 
-    .line 3
     :goto_0
     array-length v7, p0
 
     if-ge v4, v7, :cond_3
 
-    .line 4
     aget-object v7, p0, v4
 
-    .line 5
     invoke-interface {v0, v7}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v8
@@ -125,7 +115,6 @@
 
     if-eqz v8, :cond_2
 
-    .line 6
     invoke-virtual {v8}, Ljava/lang/Integer;->intValue()I
 
     move-result v9
@@ -138,7 +127,6 @@
 
     goto :goto_1
 
-    .line 7
     :cond_0
     invoke-virtual {v8}, Ljava/lang/Integer;->intValue()I
 
@@ -148,7 +136,6 @@
 
     if-ge v6, p1, :cond_1
 
-    .line 8
     invoke-static {p0, v4, v1, v5, v8}, Ljava/lang/System;->arraycopy(Ljava/lang/Object;ILjava/lang/Object;II)V
 
     add-int/2addr v5, v8
@@ -162,7 +149,6 @@
 
     goto :goto_2
 
-    .line 9
     :cond_2
     :goto_1
     aget-object v6, p0, v4
@@ -175,7 +161,6 @@
 
     const/4 v6, 0x1
 
-    .line 10
     :goto_2
     invoke-static {v4}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -187,11 +172,9 @@
 
     goto :goto_0
 
-    .line 11
     :cond_3
     new-array p0, v5, [Ljava/lang/StackTraceElement;
 
-    .line 12
     invoke-static {v1, v2, p0, v2, v5}, Ljava/lang/System;->arraycopy(Ljava/lang/Object;ILjava/lang/Object;II)V
 
     return-object p0
@@ -202,14 +185,12 @@
 .method public a([Ljava/lang/StackTraceElement;)[Ljava/lang/StackTraceElement;
     .locals 3
 
-    .line 1
     iget v0, p0, Lcom/google/firebase/crashlytics/e/l/c;->a:I
 
     invoke-static {p1, v0}, Lcom/google/firebase/crashlytics/e/l/c;->c([Ljava/lang/StackTraceElement;I)[Ljava/lang/StackTraceElement;
 
     move-result-object v0
 
-    .line 2
     array-length v1, v0
 
     array-length v2, p1

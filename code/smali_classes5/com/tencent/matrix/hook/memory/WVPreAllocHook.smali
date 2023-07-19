@@ -11,7 +11,6 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
     new-instance v0, Lcom/tencent/matrix/hook/memory/WVPreAllocHook;
 
     invoke-direct {v0}, Lcom/tencent/matrix/hook/memory/WVPreAllocHook;-><init>()V
@@ -24,7 +23,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/tencent/matrix/hook/AbsHook;-><init>()V
 
     return-void
@@ -56,7 +54,6 @@
 .method protected d(Z)Z
     .locals 2
 
-    .line 1
     sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
 
     invoke-virtual {p0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;

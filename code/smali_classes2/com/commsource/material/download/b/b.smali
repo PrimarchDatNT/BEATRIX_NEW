@@ -78,12 +78,10 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     iput-object p1, p0, Lcom/commsource/material/download/b/b;->d:Lcom/commsource/material/download/b/b$b;
 
-    .line 2
     new-instance p1, Ljava/util/concurrent/ConcurrentHashMap;
 
     invoke-direct {p1}, Ljava/util/concurrent/ConcurrentHashMap;-><init>()V
@@ -100,7 +98,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/material/download/b/b;->b:Ljava/util/concurrent/ConcurrentHashMap;
 
     invoke-virtual {v1}, Ljava/util/concurrent/ConcurrentHashMap;->values()Ljava/util/Collection;
@@ -111,7 +108,6 @@
 
     invoke-static {v1, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 2
     invoke-interface {v1}, Ljava/util/Collection;->isEmpty()Z
 
     move-result v2
@@ -120,12 +116,10 @@
 
     if-eqz v2, :cond_0
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v3
 
-    .line 4
     :cond_0
     invoke-interface {v1}, Ljava/util/Collection;->iterator()Ljava/util/Iterator;
 
@@ -161,7 +155,6 @@
     :cond_1
     if-nez v2, :cond_2
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v3
@@ -171,7 +164,6 @@
 
     div-float/2addr v4, v1
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v4
@@ -202,14 +194,12 @@
 
     invoke-static {p2, p1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object p1, p0, Lcom/commsource/material/download/b/b;->a:Lcom/commsource/material/download/b/c;
 
     if-eqz p1, :cond_0
 
     invoke-interface {p1, p2}, Lcom/commsource/material/download/b/c;->onError(Ljava/lang/Exception;)V
 
-    .line 2
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -239,7 +229,6 @@
 
     invoke-static {p2, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object p2, p0, Lcom/commsource/material/download/b/b;->b:Ljava/util/concurrent/ConcurrentHashMap;
 
     invoke-virtual {p1}, Lcom/commsource/material/DownloadTask;->i()Ljava/lang/String;
@@ -254,7 +243,6 @@
 
     invoke-interface {p2, p1, v1}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 2
     invoke-direct {p0}, Lcom/commsource/material/download/b/b;->f()F
 
     move-result p1
@@ -269,20 +257,17 @@
 
     if-ne p1, p2, :cond_1
 
-    .line 3
     iget-object p1, p0, Lcom/commsource/material/download/b/b;->a:Lcom/commsource/material/download/b/c;
 
     if-eqz p1, :cond_1
 
     if-nez p1, :cond_0
 
-    .line 4
     invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_0
     invoke-interface {p1}, Lcom/commsource/material/download/b/c;->onSuccess()V
 
-    .line 5
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -304,7 +289,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/material/download/b/b;->b:Ljava/util/concurrent/ConcurrentHashMap;
 
     invoke-virtual {p1}, Lcom/commsource/material/DownloadTask;->i()Ljava/lang/String;
@@ -319,7 +303,6 @@
 
     invoke-interface {v1, p1, v2}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -340,7 +323,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -361,7 +343,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/material/download/b/b;->b:Ljava/util/concurrent/ConcurrentHashMap;
 
     invoke-virtual {p1}, Lcom/commsource/material/DownloadTask;->i()Ljava/lang/String;
@@ -380,7 +361,6 @@
 
     invoke-interface {v1, p1, p2}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 2
     invoke-direct {p0}, Lcom/commsource/material/download/b/b;->f()F
 
     move-result p1
@@ -393,24 +373,20 @@
 
     float-to-int p1, p1
 
-    .line 3
     iget p2, p0, Lcom/commsource/material/download/b/b;->c:I
 
     if-eq p1, p2, :cond_0
 
     if-le p1, p2, :cond_0
 
-    .line 4
     iput p1, p0, Lcom/commsource/material/download/b/b;->c:I
 
-    .line 5
     iget-object p2, p0, Lcom/commsource/material/download/b/b;->a:Lcom/commsource/material/download/b/c;
 
     if-eqz p2, :cond_0
 
     invoke-interface {p2, p1}, Lcom/commsource/material/download/b/c;->a(I)V
 
-    .line 6
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -424,14 +400,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/material/download/b/b;->d:Lcom/commsource/material/download/b/b$b;
 
     invoke-virtual {v1}, Lcom/commsource/material/download/b/b$b;->f()Ljava/util/List;
 
     move-result-object v1
 
-    .line 2
     invoke-interface {v1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v1
@@ -449,7 +423,6 @@
 
     check-cast v2, Lcotlin/Triple;
 
-    .line 3
     invoke-virtual {v2}, Lcotlin/Triple;->getThird()Ljava/lang/Object;
 
     move-result-object v3
@@ -472,7 +445,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_0
     iget-object v1, p0, Lcom/commsource/material/download/b/b;->d:Lcom/commsource/material/download/b/b$b;
 
@@ -480,7 +452,6 @@
 
     move-result-object v1
 
-    .line 5
     invoke-interface {v1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v1
@@ -498,7 +469,6 @@
 
     check-cast v2, Lcotlin/Triple;
 
-    .line 6
     invoke-virtual {v2}, Lcotlin/Triple;->getThird()Ljava/lang/Object;
 
     move-result-object v2
@@ -509,7 +479,6 @@
 
     goto :goto_1
 
-    .line 7
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -529,10 +498,8 @@
 
     const/4 v1, 0x0
 
-    .line 1
     invoke-virtual {p0, v1, p1}, Lcom/commsource/material/download/b/b;->i(ZLcom/commsource/material/download/b/c;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -551,7 +518,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     invoke-static {}, Lcom/commsource/beautyplus/k;->d()Lcom/commsource/beautyplus/k;
 
     move-result-object p1
@@ -566,7 +532,6 @@
 
     if-eqz p1, :cond_1
 
-    .line 2
     new-instance v1, Lcom/commsource/comic/widget/c;
 
     sget v2, Lcom/res/provider/ResSTYLE;->updateDialog:I
@@ -575,44 +540,37 @@
 
     sget v2, Lcom/res/provider/ResSTRING;->downloading:I
 
-    .line 3
     invoke-static {v2}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
 
     move-result-object v2
 
     invoke-virtual {v1, v2}, Lcom/commsource/comic/widget/c;->k(Ljava/lang/String;)V
 
-    .line 4
     new-instance v2, Lcom/commsource/material/download/b/b$c;
 
     invoke-direct {v2, p0, p1}, Lcom/commsource/material/download/b/b$c;-><init>(Lcom/commsource/material/download/b/b;Landroid/app/Activity;)V
 
     invoke-virtual {v1, v2}, Lcom/commsource/comic/widget/c;->i(Landroid/content/DialogInterface$OnCancelListener;)V
 
-    .line 5
     new-instance v2, Lcom/commsource/material/download/b/b$d;
 
     invoke-direct {v2, p0}, Lcom/commsource/material/download/b/b$d;-><init>(Lcom/commsource/material/download/b/b;)V
 
     invoke-virtual {v1, v2}, Lcom/commsource/widget/dialog/l0;->setOnDismissListener(Landroid/content/DialogInterface$OnDismissListener;)V
 
-    .line 6
     new-instance v2, Lcom/commsource/material/download/b/b$e;
 
     invoke-direct {v2, p2, v1, p1}, Lcom/commsource/material/download/b/b$e;-><init>(Lcom/commsource/material/download/b/c;Lcom/commsource/comic/widget/c;Landroid/app/Activity;)V
 
     iput-object v2, p0, Lcom/commsource/material/download/b/b;->a:Lcom/commsource/material/download/b/c;
 
-    .line 7
     invoke-virtual {v1}, Landroid/app/Dialog;->show()V
 
     goto :goto_0
 
-    .line 8
     :cond_0
     iput-object p2, p0, Lcom/commsource/material/download/b/b;->a:Lcom/commsource/material/download/b/c;
 
-    .line 9
     :cond_1
     :goto_0
     new-instance p1, Lcom/commsource/material/download/b/b$f;
@@ -623,7 +581,6 @@
 
     invoke-static {p1}, Lcom/commsource/util/c2;->e(Lcom/commsource/util/u2/a;)V
 
-    .line 10
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -638,7 +595,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/material/download/b/b;->d:Lcom/commsource/material/download/b/b$b;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -655,7 +611,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/material/download/b/b;->a:Lcom/commsource/material/download/b/c;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -670,7 +625,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/material/download/b/b;->d:Lcom/commsource/material/download/b/b$b;
 
     invoke-virtual {v1}, Lcom/commsource/material/download/b/b$b;->f()Ljava/util/List;
@@ -693,7 +647,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/material/download/b/b;->d:Lcom/commsource/material/download/b/b$b;
 
     invoke-virtual {v1}, Lcom/commsource/material/download/b/b$b;->f()Ljava/util/List;
@@ -718,14 +671,12 @@
 
     check-cast v2, Lcotlin/Triple;
 
-    .line 2
     invoke-virtual {v2}, Lcotlin/Triple;->getThird()Ljava/lang/Object;
 
     move-result-object v3
 
     check-cast v3, Lcom/commsource/material/d;
 
-    .line 3
     invoke-virtual {v2}, Lcotlin/Triple;->getFirst()Ljava/lang/Object;
 
     move-result-object v4
@@ -744,7 +695,6 @@
 
     if-nez v3, :cond_3
 
-    .line 4
     iget-object v3, p0, Lcom/commsource/material/download/b/b;->b:Ljava/util/concurrent/ConcurrentHashMap;
 
     invoke-virtual {v2}, Lcotlin/Triple;->getFirst()Ljava/lang/Object;
@@ -763,7 +713,6 @@
 
     invoke-virtual {v3, v5, v4}, Ljava/util/concurrent/ConcurrentHashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 5
     invoke-virtual {v2}, Lcotlin/Triple;->getSecond()Ljava/lang/Object;
 
     move-result-object v3
@@ -772,7 +721,6 @@
 
     if-eqz v3, :cond_1
 
-    .line 6
     invoke-virtual {v2}, Lcotlin/Triple;->getFirst()Ljava/lang/Object;
 
     move-result-object v4
@@ -781,7 +729,6 @@
 
     invoke-virtual {v4, v3}, Lcom/commsource/material/download/c/c;->s(Lcom/commsource/material/b;)V
 
-    .line 7
     :cond_1
     invoke-virtual {v2}, Lcotlin/Triple;->getFirst()Ljava/lang/Object;
 
@@ -791,7 +738,6 @@
 
     invoke-virtual {v3, p0}, Lcom/commsource/material/download/c/c;->s(Lcom/commsource/material/b;)V
 
-    .line 8
     iget-object v3, p0, Lcom/commsource/material/download/b/b;->d:Lcom/commsource/material/download/b/b$b;
 
     invoke-virtual {v3}, Lcom/commsource/material/download/b/b$b;->g()Z
@@ -800,7 +746,6 @@
 
     if-eqz v3, :cond_2
 
-    .line 9
     invoke-virtual {v2}, Lcotlin/Triple;->getThird()Ljava/lang/Object;
 
     move-result-object v3
@@ -817,7 +762,6 @@
 
     goto :goto_0
 
-    .line 10
     :cond_2
     invoke-virtual {v2}, Lcotlin/Triple;->getThird()Ljava/lang/Object;
 
@@ -835,7 +779,6 @@
 
     goto :goto_0
 
-    .line 11
     :cond_3
     instance-of v5, v3, Lcom/commsource/material/download/c/c;
 
@@ -851,10 +794,8 @@
 
     if-eqz v3, :cond_8
 
-    .line 12
     check-cast v3, Lcom/commsource/material/download/c/c;
 
-    .line 13
     instance-of v5, v3, Lcom/commsource/material/download/c/d;
 
     if-eqz v5, :cond_6
@@ -867,7 +808,6 @@
 
     if-eqz v5, :cond_6
 
-    .line 14
     move-object v5, v3
 
     check-cast v5, Lcom/commsource/material/download/c/d;
@@ -899,7 +839,6 @@
 
     throw v1
 
-    .line 15
     :cond_6
     :goto_2
     iget-object v5, p0, Lcom/commsource/material/download/b/b;->b:Ljava/util/concurrent/ConcurrentHashMap;
@@ -920,7 +859,6 @@
 
     invoke-interface {v5, v6, v4}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 16
     invoke-virtual {v2}, Lcotlin/Triple;->getSecond()Ljava/lang/Object;
 
     move-result-object v2
@@ -929,16 +867,13 @@
 
     if-eqz v2, :cond_7
 
-    .line 17
     invoke-virtual {v3, v2}, Lcom/commsource/material/download/c/c;->s(Lcom/commsource/material/b;)V
 
-    .line 18
     :cond_7
     invoke-virtual {v3, p0}, Lcom/commsource/material/download/c/c;->s(Lcom/commsource/material/b;)V
 
     goto/16 :goto_0
 
-    .line 19
     :cond_8
     new-instance v1, Lcotlin/TypeCastException;
 
@@ -950,7 +885,6 @@
 
     throw v1
 
-    .line 20
     :cond_9
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -968,7 +902,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/material/download/b/b;->a:Lcom/commsource/material/download/b/c;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

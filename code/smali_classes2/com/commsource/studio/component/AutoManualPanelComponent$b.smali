@@ -46,7 +46,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/component/AutoManualPanelComponent$b;->a:Lcom/commsource/studio/component/AutoManualPanelComponent;
 
     invoke-static {v1}, Lcom/commsource/studio/component/AutoManualPanelComponent;->f(Lcom/commsource/studio/component/AutoManualPanelComponent;)Lcom/commsource/studio/component/AutoManualComponent$b;
@@ -65,7 +64,6 @@
 
     invoke-virtual {v1, v2, v3}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

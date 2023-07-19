@@ -53,13 +53,10 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/google/android/gms/common/api/internal/l$a;->a:Ljava/lang/Object;
 
-    .line 3
     iput-object p2, p0, Lcom/google/android/gms/common/api/internal/l$a;->b:Ljava/lang/String;
 
     return-void
@@ -76,7 +73,6 @@
 
     return v0
 
-    .line 1
     :cond_0
     instance-of v1, p1, Lcom/google/android/gms/common/api/internal/l$a;
 
@@ -86,11 +82,9 @@
 
     return v2
 
-    .line 2
     :cond_1
     check-cast p1, Lcom/google/android/gms/common/api/internal/l$a;
 
-    .line 3
     iget-object v1, p0, Lcom/google/android/gms/common/api/internal/l$a;->a:Ljava/lang/Object;
 
     iget-object v3, p1, Lcom/google/android/gms/common/api/internal/l$a;->a:Ljava/lang/Object;
@@ -116,7 +110,6 @@
 .method public final hashCode()I
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/common/api/internal/l$a;->a:Ljava/lang/Object;
 
     invoke-static {v0}, Ljava/lang/System;->identityHashCode(Ljava/lang/Object;)I
@@ -125,7 +118,6 @@
 
     mul-int/lit8 v0, v0, 0x1f
 
-    .line 2
     iget-object v1, p0, Lcom/google/android/gms/common/api/internal/l$a;->b:Ljava/lang/String;
 
     invoke-virtual {v1}, Ljava/lang/String;->hashCode()I

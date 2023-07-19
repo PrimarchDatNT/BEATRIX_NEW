@@ -24,7 +24,6 @@
 .method constructor <init>(Lcom/commsource/camera/beauty/h;Ljava/lang/String;Lcom/commsource/camera/beauty/h$c;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/camera/beauty/h$b;->e:Lcom/commsource/camera/beauty/h;
 
     iput-object p3, p0, Lcom/commsource/camera/beauty/h$b;->d:Lcom/commsource/camera/beauty/h$c;
@@ -43,15 +42,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/beauty/h$b;->d:Lcom/commsource/camera/beauty/h$c;
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-interface {v1}, Lcom/commsource/camera/beauty/h$c;->a()V
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

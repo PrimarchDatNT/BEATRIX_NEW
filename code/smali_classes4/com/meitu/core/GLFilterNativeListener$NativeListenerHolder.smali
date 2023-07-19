@@ -26,7 +26,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/meitu/core/GLFilterNativeListener;
 
     const/4 v2, 0x0
@@ -43,7 +42,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -56,7 +54,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/meitu/core/GLFilterNativeListener$NativeListenerHolder;->listenerInstance:Lcom/meitu/core/GLFilterNativeListener;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

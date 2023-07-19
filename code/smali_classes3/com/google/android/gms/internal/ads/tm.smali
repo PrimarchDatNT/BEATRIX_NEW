@@ -11,10 +11,8 @@
 .method constructor <init>(Landroid/content/Context;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/google/android/gms/internal/ads/om;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/google/android/gms/internal/ads/tm;->d:Landroid/content/Context;
 
     return-void
@@ -25,7 +23,6 @@
 .method public final b()V
     .locals 3
 
-    .line 1
     :try_start_0
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/tm;->d:Landroid/content/Context;
 
@@ -61,18 +58,15 @@
     :goto_0
     const-string v1, "Fail to get isAdIdFakeForDebugLogging"
 
-    .line 2
     invoke-static {v1, v0}, Lcom/google/android/gms/internal/ads/aq;->c(Ljava/lang/String;Ljava/lang/Throwable;)V
 
     const/4 v0, 0x0
 
-    .line 3
     :goto_1
     invoke-static {v0}, Lcom/google/android/gms/internal/ads/tp;->l(Z)V
 
     const/16 v1, 0x2b
 
-    .line 4
     new-instance v2, Ljava/lang/StringBuilder;
 
     invoke-direct {v2, v1}, Ljava/lang/StringBuilder;-><init>(I)V

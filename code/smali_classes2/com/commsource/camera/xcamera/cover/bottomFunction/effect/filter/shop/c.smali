@@ -23,17 +23,14 @@
 .method public constructor <init>()V
     .locals 2
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const-wide/16 v0, 0xc8
 
-    .line 2
     iput-wide v0, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/c;->a:J
 
     const/high16 v0, 0x3f800000    # 1.0f
 
-    .line 3
     iput v0, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/c;->d:F
 
     return-void
@@ -46,7 +43,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/c;->b:Landroid/animation/ValueAnimator;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -61,7 +57,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/c;->a:J
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -76,7 +71,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget p0, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/c;->e:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -91,7 +85,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget p0, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/c;->d:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -106,7 +99,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget p0, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/c;->c:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -121,7 +113,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/c;->b:Landroid/animation/ValueAnimator;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -136,7 +127,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-wide p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/c;->a:J
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -151,7 +141,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/c;->e:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -166,7 +155,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/c;->d:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -181,7 +169,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/c;->c:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -206,7 +193,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p0}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/c;->a(Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/c;)Landroid/animation/ValueAnimator;
 
     move-result-object v1
@@ -227,7 +213,6 @@
 
     if-ne v1, v2, :cond_0
 
-    .line 2
     invoke-static {p0}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/c;->a(Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/c;)Landroid/animation/ValueAnimator;
 
     move-result-object v1
@@ -236,7 +221,6 @@
 
     invoke-virtual {v1}, Landroid/animation/ValueAnimator;->cancel()V
 
-    .line 3
     :cond_0
     invoke-static {p0}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/c;->c(Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/c;)F
 
@@ -253,11 +237,9 @@
     :cond_1
     const/4 p1, 0x0
 
-    .line 4
     :goto_0
     invoke-static {p0, p1}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/c;->i(Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/c;F)V
 
-    .line 5
     invoke-static {p0}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/c;->e(Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/c;)F
 
     move-result p1
@@ -270,7 +252,6 @@
 
     if-nez p1, :cond_2
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -282,7 +263,6 @@
 
     const/4 v1, 0x0
 
-    .line 7
     invoke-static {p0}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/c;->e(Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/c;)F
 
     move-result v3
@@ -309,7 +289,6 @@
 
     invoke-static {p0, p1}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/c;->f(Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/c;Landroid/animation/ValueAnimator;)V
 
-    .line 8
     invoke-static {p0}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/c;->a(Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/c;)Landroid/animation/ValueAnimator;
 
     move-result-object p1
@@ -322,7 +301,6 @@
 
     invoke-virtual {p1, v1}, Landroid/animation/ValueAnimator;->addUpdateListener(Landroid/animation/ValueAnimator$AnimatorUpdateListener;)V
 
-    .line 9
     :cond_3
     invoke-static {p0}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/c;->a(Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/c;)Landroid/animation/ValueAnimator;
 
@@ -332,7 +310,6 @@
 
     invoke-virtual {p1}, Landroid/animation/ValueAnimator;->start()V
 
-    .line 10
     :cond_4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -366,7 +343,6 @@
 
     invoke-static {p2, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-static {p0}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/c;->a(Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/c;)Landroid/animation/ValueAnimator;
 
     move-result-object v1
@@ -387,7 +363,6 @@
 
     if-ne v1, v2, :cond_0
 
-    .line 2
     invoke-static {p0}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/c;->a(Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/c;)Landroid/animation/ValueAnimator;
 
     move-result-object v1
@@ -396,7 +371,6 @@
 
     invoke-virtual {v1}, Landroid/animation/ValueAnimator;->cancel()V
 
-    .line 3
     :cond_0
     invoke-static {p0}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/c;->c(Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/c;)F
 
@@ -413,11 +387,9 @@
     :cond_1
     const/4 p1, 0x0
 
-    .line 4
     :goto_0
     invoke-static {p0, p1}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/c;->i(Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/c;F)V
 
-    .line 5
     invoke-static {p0}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/c;->e(Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/c;)F
 
     move-result p1
@@ -439,7 +411,6 @@
 
     const/4 v1, 0x0
 
-    .line 6
     invoke-static {p0}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/c;->e(Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/c;)F
 
     move-result v3
@@ -466,7 +437,6 @@
 
     invoke-static {p0, p1}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/c;->f(Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/c;Landroid/animation/ValueAnimator;)V
 
-    .line 7
     invoke-static {p0}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/c;->a(Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/c;)Landroid/animation/ValueAnimator;
 
     move-result-object p1
@@ -479,7 +449,6 @@
 
     invoke-virtual {p1, v1}, Landroid/animation/ValueAnimator;->addUpdateListener(Landroid/animation/ValueAnimator$AnimatorUpdateListener;)V
 
-    .line 8
     :cond_3
     invoke-static {p0}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/c;->a(Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/c;)Landroid/animation/ValueAnimator;
 
@@ -489,7 +458,6 @@
 
     invoke-virtual {p1}, Landroid/animation/ValueAnimator;->start()V
 
-    .line 9
     :cond_4
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -504,14 +472,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/c;->b:Landroid/animation/ValueAnimator;
 
     if-eqz v1, :cond_0
 
     invoke-virtual {v1}, Landroid/animation/ValueAnimator;->cancel()V
 
-    .line 2
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -525,7 +491,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/c;->b:Landroid/animation/ValueAnimator;
 
     if-eqz v1, :cond_0
@@ -564,17 +529,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-wide p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/c;->a:J
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/c;->b:Landroid/animation/ValueAnimator;
 
     if-eqz v1, :cond_0
 
     invoke-virtual {v1, p1, p2}, Landroid/animation/ValueAnimator;->setDuration(J)Landroid/animation/ValueAnimator;
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -594,28 +556,21 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     iput v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/c;->c:F
 
-    .line 2
     iput v2, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/c;->d:F
 
-    .line 3
     iput v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/c;->e:F
 
     goto :goto_0
 
-    .line 4
     :cond_0
     iput v2, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/c;->c:F
 
-    .line 5
     iput v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/c;->d:F
 
-    .line 6
     iput v2, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/c;->e:F
 
-    .line 7
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

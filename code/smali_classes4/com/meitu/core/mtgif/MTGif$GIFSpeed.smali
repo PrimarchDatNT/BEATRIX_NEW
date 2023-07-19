@@ -48,7 +48,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/meitu/core/mtgif/MTGif$GIFSpeed;
 
     const-string v2, "Speed_VerySlow"
@@ -61,7 +60,6 @@
 
     sput-object v1, Lcom/meitu/core/mtgif/MTGif$GIFSpeed;->Speed_VerySlow:Lcom/meitu/core/mtgif/MTGif$GIFSpeed;
 
-    .line 2
     new-instance v2, Lcom/meitu/core/mtgif/MTGif$GIFSpeed;
 
     const-string v5, "Speed_Slow"
@@ -72,7 +70,6 @@
 
     sput-object v2, Lcom/meitu/core/mtgif/MTGif$GIFSpeed;->Speed_Slow:Lcom/meitu/core/mtgif/MTGif$GIFSpeed;
 
-    .line 3
     new-instance v5, Lcom/meitu/core/mtgif/MTGif$GIFSpeed;
 
     const-string v7, "Speed_Normal"
@@ -81,7 +78,6 @@
 
     sput-object v5, Lcom/meitu/core/mtgif/MTGif$GIFSpeed;->Speed_Normal:Lcom/meitu/core/mtgif/MTGif$GIFSpeed;
 
-    .line 4
     new-instance v7, Lcom/meitu/core/mtgif/MTGif$GIFSpeed;
 
     const-string v8, "Speed_Fast"
@@ -94,7 +90,6 @@
 
     sput-object v7, Lcom/meitu/core/mtgif/MTGif$GIFSpeed;->Speed_Fast:Lcom/meitu/core/mtgif/MTGif$GIFSpeed;
 
-    .line 5
     new-instance v8, Lcom/meitu/core/mtgif/MTGif$GIFSpeed;
 
     const-string v10, "Speed_VeryFast"
@@ -121,7 +116,6 @@
 
     aput-object v8, v10, v11
 
-    .line 6
     sput-object v10, Lcom/meitu/core/mtgif/MTGif$GIFSpeed;->$VALUES:[Lcom/meitu/core/mtgif/MTGif$GIFSpeed;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -137,7 +131,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
     iput p3, p0, Lcom/meitu/core/mtgif/MTGif$GIFSpeed;->value:I
@@ -152,7 +145,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     const-class v1, Lcom/meitu/core/mtgif/MTGif$GIFSpeed;
 
     invoke-static {v1, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -173,7 +165,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/meitu/core/mtgif/MTGif$GIFSpeed;->$VALUES:[Lcom/meitu/core/mtgif/MTGif$GIFSpeed;
 
     invoke-virtual {v1}, [Lcom/meitu/core/mtgif/MTGif$GIFSpeed;->clone()Ljava/lang/Object;

@@ -27,12 +27,10 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/home/homepagedialog/d;-><init>()V
 
     iput-object p1, p0, Lcom/commsource/home/homepagedialog/k;->d:Lcom/commsource/beautyplus/BaseActivity;
 
-    .line 2
     invoke-direct {p0}, Lcom/commsource/home/homepagedialog/k;->j()Lcom/commsource/beautyplus/permission/b;
 
     move-result-object p1
@@ -49,17 +47,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/util/ArrayList;
 
     invoke-direct {v1}, Ljava/util/ArrayList;-><init>()V
 
-    .line 2
     new-instance v2, Lcom/commsource/beautyplus/permission/PermissionBean;
 
     sget v3, Lcom/res/provider/ResSTRING;->permission_item1_title:I
 
-    .line 3
     invoke-static {v3}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
 
     move-result-object v3
@@ -72,17 +67,14 @@
 
     sget v5, Lcom/res/provider/ResDRAWABLE;->common_permission_sdcard_icon:I
 
-    .line 4
     invoke-direct {v2, v5, v3, v4}, Lcom/commsource/beautyplus/permission/PermissionBean;-><init>(ILjava/lang/String;Ljava/lang/String;)V
 
     invoke-interface {v1, v2}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
-    .line 5
     new-instance v2, Lcom/commsource/beautyplus/permission/PermissionBean;
 
     sget v3, Lcom/res/provider/ResSTRING;->permission_item2_title:I
 
-    .line 6
     invoke-static {v3}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
 
     move-result-object v3
@@ -95,17 +87,14 @@
 
     sget v5, Lcom/res/provider/ResDRAWABLE;->common_permission_read_icon:I
 
-    .line 7
     invoke-direct {v2, v5, v3, v4}, Lcom/commsource/beautyplus/permission/PermissionBean;-><init>(ILjava/lang/String;Ljava/lang/String;)V
 
     invoke-interface {v1, v2}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
-    .line 8
     new-instance v2, Lcom/commsource/beautyplus/permission/PermissionBean;
 
     sget v3, Lcom/res/provider/ResSTRING;->permission_item3_title:I
 
-    .line 9
     invoke-static {v3}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
 
     move-result-object v3
@@ -118,17 +107,14 @@
 
     sget v5, Lcom/res/provider/ResDRAWABLE;->common_permission_camera_icon:I
 
-    .line 10
     invoke-direct {v2, v5, v3, v4}, Lcom/commsource/beautyplus/permission/PermissionBean;-><init>(ILjava/lang/String;Ljava/lang/String;)V
 
     invoke-interface {v1, v2}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
-    .line 11
     new-instance v2, Lcom/commsource/beautyplus/permission/PermissionBean;
 
     sget v3, Lcom/res/provider/ResSTRING;->permission_item4_title:I
 
-    .line 12
     invoke-static {v3}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
 
     move-result-object v3
@@ -141,12 +127,10 @@
 
     sget v5, Lcom/res/provider/ResDRAWABLE;->common_permission_audio_icon:I
 
-    .line 13
     invoke-direct {v2, v5, v3, v4}, Lcom/commsource/beautyplus/permission/PermissionBean;-><init>(ILjava/lang/String;Ljava/lang/String;)V
 
     invoke-interface {v1, v2}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
-    .line 14
     new-instance v2, Lcom/commsource/beautyplus/permission/b$a;
 
     iget-object v3, p0, Lcom/commsource/home/homepagedialog/k;->d:Lcom/commsource/beautyplus/BaseActivity;
@@ -155,42 +139,34 @@
 
     sget v3, Lcom/res/provider/ResSTRING;->tips:I
 
-    .line 15
     invoke-virtual {v2, v3}, Lcom/commsource/beautyplus/permission/b$a;->k(I)Lcom/commsource/beautyplus/permission/b$a;
 
     sget v3, Lcom/res/provider/ResSTRING;->permission_alert_subtitle:I
 
-    .line 16
     invoke-virtual {v2, v3}, Lcom/commsource/beautyplus/permission/b$a;->j(I)Lcom/commsource/beautyplus/permission/b$a;
 
     const/4 v3, 0x0
 
-    .line 17
     invoke-virtual {v2, v3}, Lcom/commsource/beautyplus/permission/b$a;->f(Z)Lcom/commsource/beautyplus/permission/b$a;
 
-    .line 18
     invoke-virtual {v2, v1}, Lcom/commsource/beautyplus/permission/b$a;->h(Ljava/util/List;)Lcom/commsource/beautyplus/permission/b$a;
 
     const/4 v1, 0x1
 
-    .line 19
     invoke-virtual {v2, v1}, Lcom/commsource/beautyplus/permission/b$a;->e(Z)Lcom/commsource/beautyplus/permission/b$a;
 
-    .line 20
     new-instance v1, Lcom/commsource/home/homepagedialog/k$a;
 
     invoke-direct {v1, p0}, Lcom/commsource/home/homepagedialog/k$a;-><init>(Lcom/commsource/home/homepagedialog/k;)V
 
     invoke-virtual {v2, v1}, Lcom/commsource/beautyplus/permission/b$a;->g(Landroid/content/DialogInterface$OnDismissListener;)Lcom/commsource/beautyplus/permission/b$a;
 
-    .line 21
     sget-object v1, Lcom/commsource/home/homepagedialog/k$b;->a:Lcom/commsource/home/homepagedialog/k$b;
 
     sget v3, Lcom/res/provider/ResSTRING;->permission_btn_text:I
 
     invoke-virtual {v2, v3, v1}, Lcom/commsource/beautyplus/permission/b$a;->i(ILandroid/content/DialogInterface$OnClickListener;)Lcom/commsource/beautyplus/permission/b$a;
 
-    .line 22
     invoke-virtual {v2}, Lcom/commsource/beautyplus/permission/b$a;->b()Lcom/commsource/beautyplus/permission/b;
 
     move-result-object v1
@@ -213,7 +189,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const/4 v0, 0x3
@@ -228,7 +203,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
     move-result-object v1
@@ -239,7 +213,6 @@
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-static {}, Lcom/commsource/util/q1;->d()Z
 
     move-result v1
@@ -266,7 +239,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/home/homepagedialog/k;->c:Lcom/commsource/beautyplus/permission/b;
 
     invoke-virtual {v1}, Landroid/app/Dialog;->isShowing()Z
@@ -285,7 +257,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/home/homepagedialog/k;->d:Lcom/commsource/beautyplus/BaseActivity;
 
     invoke-static {v1}, Lcom/commsource/util/x;->D(Landroid/content/Context;)Z
@@ -294,12 +265,10 @@
 
     if-nez v1, :cond_0
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/home/homepagedialog/k;->c:Lcom/commsource/beautyplus/permission/b;
 
     invoke-virtual {v1}, Lcom/commsource/beautyplus/permission/b;->show()V
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -315,7 +284,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/home/homepagedialog/k;->d:Lcom/commsource/beautyplus/BaseActivity;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

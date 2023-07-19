@@ -61,7 +61,6 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
     invoke-static {}, Lcom/google/firebase/components/m;->a()Lcom/google/firebase/u/a;
 
     move-result-object v0
@@ -85,43 +84,36 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Lcom/google/firebase/components/a;-><init>()V
 
-    .line 2
     new-instance v0, Ljava/util/HashMap;
 
     invoke-direct {v0}, Ljava/util/HashMap;-><init>()V
 
     iput-object v0, p0, Lcom/google/firebase/components/n;->a:Ljava/util/Map;
 
-    .line 3
     new-instance v0, Ljava/util/HashMap;
 
     invoke-direct {v0}, Ljava/util/HashMap;-><init>()V
 
     iput-object v0, p0, Lcom/google/firebase/components/n;->b:Ljava/util/Map;
 
-    .line 4
     new-instance v0, Ljava/util/HashMap;
 
     invoke-direct {v0}, Ljava/util/HashMap;-><init>()V
 
     iput-object v0, p0, Lcom/google/firebase/components/n;->c:Ljava/util/Map;
 
-    .line 5
     new-instance v0, Lcom/google/firebase/components/r;
 
     invoke-direct {v0, p1}, Lcom/google/firebase/components/r;-><init>(Ljava/util/concurrent/Executor;)V
 
     iput-object v0, p0, Lcom/google/firebase/components/n;->d:Lcom/google/firebase/components/r;
 
-    .line 6
     new-instance p1, Ljava/util/ArrayList;
 
     invoke-direct {p1}, Ljava/util/ArrayList;-><init>()V
 
-    .line 7
     const-class v1, Lcom/google/firebase/components/r;
 
     const/4 v2, 0x2
@@ -146,7 +138,6 @@
 
     invoke-interface {p1, v0}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
-    .line 8
     invoke-interface {p2}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object p2
@@ -164,7 +155,6 @@
 
     check-cast v0, Lcom/google/firebase/components/j;
 
-    .line 9
     invoke-interface {v0}, Lcom/google/firebase/components/j;->getComponents()Ljava/util/List;
 
     move-result-object v0
@@ -173,7 +163,6 @@
 
     goto :goto_0
 
-    .line 10
     :cond_0
     array-length p2, p3
 
@@ -184,7 +173,6 @@
 
     if-eqz v0, :cond_1
 
-    .line 11
     invoke-interface {p1, v0}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
     :cond_1
@@ -192,11 +180,9 @@
 
     goto :goto_1
 
-    .line 12
     :cond_2
     invoke-static {p1}, Lcom/google/firebase/components/o;->a(Ljava/util/List;)V
 
-    .line 13
     invoke-interface {p1}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
     move-result-object p1
@@ -214,7 +200,6 @@
 
     check-cast p2, Lcom/google/firebase/components/f;
 
-    .line 14
     new-instance p3, Lcom/google/firebase/components/s;
 
     invoke-static {p0, p2}, Lcom/google/firebase/components/k;->a(Lcom/google/firebase/components/n;Lcom/google/firebase/components/f;)Lcom/google/firebase/u/a;
@@ -223,18 +208,15 @@
 
     invoke-direct {p3, v0}, Lcom/google/firebase/components/s;-><init>(Lcom/google/firebase/u/a;)V
 
-    .line 15
     iget-object v0, p0, Lcom/google/firebase/components/n;->a:Ljava/util/Map;
 
     invoke-interface {v0, p2, p3}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     goto :goto_2
 
-    .line 16
     :cond_3
     invoke-direct {p0}, Lcom/google/firebase/components/n;->i()V
 
-    .line 17
     invoke-direct {p0}, Lcom/google/firebase/components/n;->j()V
 
     return-void
@@ -243,7 +225,6 @@
 .method static synthetic g(Lcom/google/firebase/components/n;Lcom/google/firebase/components/f;)Ljava/lang/Object;
     .locals 2
 
-    .line 1
     invoke-virtual {p1}, Lcom/google/firebase/components/f;->d()Lcom/google/firebase/components/i;
 
     move-result-object v0
@@ -262,12 +243,10 @@
 .method static synthetic h(Ljava/util/Set;)Ljava/util/Set;
     .locals 2
 
-    .line 1
     new-instance v0, Ljava/util/HashSet;
 
     invoke-direct {v0}, Ljava/util/HashSet;-><init>()V
 
-    .line 2
     invoke-interface {p0}, Ljava/util/Set;->iterator()Ljava/util/Iterator;
 
     move-result-object p0
@@ -285,7 +264,6 @@
 
     check-cast v1, Lcom/google/firebase/components/s;
 
-    .line 3
     invoke-virtual {v1}, Lcom/google/firebase/components/s;->get()Ljava/lang/Object;
 
     move-result-object v1
@@ -294,7 +272,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_0
     invoke-static {v0}, Ljava/util/Collections;->unmodifiableSet(Ljava/util/Set;)Ljava/util/Set;
 
@@ -306,7 +283,6 @@
 .method private i()V
     .locals 5
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/components/n;->a:Ljava/util/Map;
 
     invoke-interface {v0}, Ljava/util/Map;->entrySet()Ljava/util/Set;
@@ -331,14 +307,12 @@
 
     check-cast v1, Ljava/util/Map$Entry;
 
-    .line 2
     invoke-interface {v1}, Ljava/util/Map$Entry;->getKey()Ljava/lang/Object;
 
     move-result-object v2
 
     check-cast v2, Lcom/google/firebase/components/f;
 
-    .line 3
     invoke-virtual {v2}, Lcom/google/firebase/components/f;->l()Z
 
     move-result v3
@@ -347,7 +321,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_1
     invoke-interface {v1}, Ljava/util/Map$Entry;->getValue()Ljava/lang/Object;
 
@@ -355,7 +328,6 @@
 
     check-cast v1, Lcom/google/firebase/components/s;
 
-    .line 5
     invoke-virtual {v2}, Lcom/google/firebase/components/f;->e()Ljava/util/Set;
 
     move-result-object v2
@@ -377,14 +349,12 @@
 
     check-cast v3, Ljava/lang/Class;
 
-    .line 6
     iget-object v4, p0, Lcom/google/firebase/components/n;->b:Ljava/util/Map;
 
     invoke-interface {v4, v3, v1}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     goto :goto_1
 
-    .line 7
     :cond_2
     invoke-direct {p0}, Lcom/google/firebase/components/n;->k()V
 
@@ -394,12 +364,10 @@
 .method private j()V
     .locals 6
 
-    .line 1
     new-instance v0, Ljava/util/HashMap;
 
     invoke-direct {v0}, Ljava/util/HashMap;-><init>()V
 
-    .line 2
     iget-object v1, p0, Lcom/google/firebase/components/n;->a:Ljava/util/Map;
 
     invoke-interface {v1}, Ljava/util/Map;->entrySet()Ljava/util/Set;
@@ -424,14 +392,12 @@
 
     check-cast v2, Ljava/util/Map$Entry;
 
-    .line 3
     invoke-interface {v2}, Ljava/util/Map$Entry;->getKey()Ljava/lang/Object;
 
     move-result-object v3
 
     check-cast v3, Lcom/google/firebase/components/f;
 
-    .line 4
     invoke-virtual {v3}, Lcom/google/firebase/components/f;->l()Z
 
     move-result v4
@@ -440,7 +406,6 @@
 
     goto :goto_0
 
-    .line 5
     :cond_1
     invoke-interface {v2}, Ljava/util/Map$Entry;->getValue()Ljava/lang/Object;
 
@@ -448,7 +413,6 @@
 
     check-cast v2, Lcom/google/firebase/components/s;
 
-    .line 6
     invoke-virtual {v3}, Lcom/google/firebase/components/f;->e()Ljava/util/Set;
 
     move-result-object v3
@@ -470,21 +434,18 @@
 
     check-cast v4, Ljava/lang/Class;
 
-    .line 7
     invoke-interface {v0, v4}, Ljava/util/Map;->containsKey(Ljava/lang/Object;)Z
 
     move-result v5
 
     if-nez v5, :cond_2
 
-    .line 8
     new-instance v5, Ljava/util/HashSet;
 
     invoke-direct {v5}, Ljava/util/HashSet;-><init>()V
 
     invoke-interface {v0, v4, v5}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 9
     :cond_2
     invoke-interface {v0, v4}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
@@ -496,7 +457,6 @@
 
     goto :goto_1
 
-    .line 10
     :cond_3
     invoke-interface {v0}, Ljava/util/Map;->entrySet()Ljava/util/Set;
 
@@ -519,17 +479,14 @@
 
     check-cast v1, Ljava/util/Map$Entry;
 
-    .line 11
     invoke-interface {v1}, Ljava/util/Map$Entry;->getValue()Ljava/lang/Object;
 
     move-result-object v2
 
     check-cast v2, Ljava/util/Set;
 
-    .line 12
     iget-object v3, p0, Lcom/google/firebase/components/n;->c:Ljava/util/Map;
 
-    .line 13
     invoke-interface {v1}, Ljava/util/Map$Entry;->getKey()Ljava/lang/Object;
 
     move-result-object v1
@@ -544,7 +501,6 @@
 
     invoke-direct {v4, v2}, Lcom/google/firebase/components/s;-><init>(Lcom/google/firebase/u/a;)V
 
-    .line 14
     invoke-interface {v3, v1, v4}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     goto :goto_2
@@ -556,7 +512,6 @@
 .method private k()V
     .locals 6
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/components/n;->a:Ljava/util/Map;
 
     invoke-interface {v0}, Ljava/util/Map;->keySet()Ljava/util/Set;
@@ -580,7 +535,6 @@
 
     check-cast v1, Lcom/google/firebase/components/f;
 
-    .line 2
     invoke-virtual {v1}, Lcom/google/firebase/components/f;->c()Ljava/util/Set;
 
     move-result-object v2
@@ -603,7 +557,6 @@
 
     check-cast v3, Lcom/google/firebase/components/p;
 
-    .line 3
     invoke-virtual {v3}, Lcom/google/firebase/components/p;->c()Z
 
     move-result v4
@@ -624,7 +577,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_2
     new-instance v0, Lcom/google/firebase/components/MissingDependencyException;
 
@@ -638,7 +590,6 @@
 
     const/4 v1, 0x1
 
-    .line 5
     invoke-virtual {v3}, Lcom/google/firebase/components/p;->a()Ljava/lang/Class;
 
     move-result-object v3
@@ -647,7 +598,6 @@
 
     const-string v1, "Unsatisfied dependency for component %s: %s"
 
-    .line 6
     invoke-static {v1, v2}, Ljava/lang/String;->format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object v1
@@ -665,7 +615,6 @@
 .method public bridge synthetic a(Ljava/lang/Class;)Ljava/lang/Object;
     .locals 0
 
-    .line 1
     invoke-super {p0, p1}, Lcom/google/firebase/components/a;->a(Ljava/lang/Class;)Ljava/lang/Object;
 
     move-result-object p1
@@ -688,7 +637,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/components/n;->c:Ljava/util/Map;
 
     invoke-interface {v0, p1}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
@@ -701,7 +649,6 @@
 
     return-object p1
 
-    .line 2
     :cond_0
     sget-object p1, Lcom/google/firebase/components/n;->e:Lcom/google/firebase/u/a;
 
@@ -711,7 +658,6 @@
 .method public bridge synthetic c(Ljava/lang/Class;)Ljava/util/Set;
     .locals 0
 
-    .line 1
     invoke-super {p0, p1}, Lcom/google/firebase/components/a;->c(Ljava/lang/Class;)Ljava/util/Set;
 
     move-result-object p1
@@ -735,10 +681,8 @@
 
     const-string v0, "Null interface requested."
 
-    .line 1
     invoke-static {p1, v0}, Lcom/google/firebase/components/t;->c(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
 
-    .line 2
     iget-object v0, p0, Lcom/google/firebase/components/n;->b:Ljava/util/Map;
 
     invoke-interface {v0, p1}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
@@ -761,7 +705,6 @@
     .annotation build Landroidx/annotation/VisibleForTesting;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/components/n;->a:Ljava/util/Map;
 
     invoke-interface {v0}, Ljava/util/Map;->values()Ljava/util/Collection;
@@ -785,7 +728,6 @@
 
     check-cast v1, Lcom/google/firebase/components/s;
 
-    .line 2
     invoke-virtual {v1}, Lcom/google/firebase/components/s;->get()Ljava/lang/Object;
 
     goto :goto_0
@@ -797,7 +739,6 @@
 .method public f(Z)V
     .locals 4
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/components/n;->a:Ljava/util/Map;
 
     invoke-interface {v0}, Ljava/util/Map;->entrySet()Ljava/util/Set;
@@ -822,21 +763,18 @@
 
     check-cast v1, Ljava/util/Map$Entry;
 
-    .line 2
     invoke-interface {v1}, Ljava/util/Map$Entry;->getKey()Ljava/lang/Object;
 
     move-result-object v2
 
     check-cast v2, Lcom/google/firebase/components/f;
 
-    .line 3
     invoke-interface {v1}, Ljava/util/Map$Entry;->getValue()Ljava/lang/Object;
 
     move-result-object v1
 
     check-cast v1, Lcom/google/firebase/components/s;
 
-    .line 4
     invoke-virtual {v2}, Lcom/google/firebase/components/f;->i()Z
 
     move-result v3
@@ -851,13 +789,11 @@
 
     if-eqz p1, :cond_0
 
-    .line 5
     :cond_1
     invoke-virtual {v1}, Lcom/google/firebase/components/s;->get()Ljava/lang/Object;
 
     goto :goto_0
 
-    .line 6
     :cond_2
     iget-object p1, p0, Lcom/google/firebase/components/n;->d:Lcom/google/firebase/components/r;
 

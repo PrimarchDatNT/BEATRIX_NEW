@@ -17,7 +17,6 @@
 .method public constructor <init>(Landroid/content/Context;Ljava/lang/String;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1, p2}, Lcom/commsource/util/common/l;-><init>(Landroid/content/Context;Ljava/lang/String;)V
 
     return-void
@@ -30,23 +29,19 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lf/d/i/c;->q:Lf/d/i/c;
 
     if-nez v1, :cond_1
 
-    .line 2
     const-class v1, Lf/d/i/c;
 
     monitor-enter v1
 
-    .line 3
     :try_start_0
     sget-object v2, Lf/d/i/c;->q:Lf/d/i/c;
 
     if-nez v2, :cond_0
 
-    .line 4
     new-instance v2, Lf/d/i/c;
 
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
@@ -59,7 +54,6 @@
 
     sput-object v2, Lf/d/i/c;->q:Lf/d/i/c;
 
-    .line 5
     :cond_0
     monitor-exit v1
 
@@ -76,7 +70,6 @@
 
     throw v2
 
-    .line 6
     :cond_1
     :goto_0
     sget-object v1, Lf/d/i/c;->q:Lf/d/i/c;
@@ -93,7 +86,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lf/d/i/c;->K()Lf/d/i/c;
 
     move-result-object v1
@@ -118,7 +110,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lf/d/i/c;->K()Lf/d/i/c;
 
     move-result-object v1
@@ -127,7 +118,6 @@
 
     invoke-virtual {v1, v2, p0}, Lcom/commsource/util/common/l;->I(Ljava/lang/String;Z)Z
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -146,7 +136,6 @@
 
     const/4 v2, 0x0
 
-    .line 1
     invoke-virtual {p0, v1, v2}, Lcom/commsource/util/common/l;->t(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v1
@@ -165,10 +154,8 @@
 
     const-string v1, "mini_order_list_json"
 
-    .line 1
     invoke-virtual {p0, v1, p1}, Lcom/commsource/util/common/l;->H(Ljava/lang/String;Ljava/lang/String;)Z
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

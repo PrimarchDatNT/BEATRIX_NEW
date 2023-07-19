@@ -41,7 +41,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcotlinx/coroutines/channels/c$g;->a:Lcotlinx/coroutines/channels/c;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -79,7 +78,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcotlinx/coroutines/channels/c$g;->a:Lcotlinx/coroutines/channels/c;
 
     invoke-static {v0, p1, p2, p3}, Lcotlinx/coroutines/channels/c;->e(Lcotlinx/coroutines/channels/c;Lcotlinx/coroutines/selects/f;Ljava/lang/Object;Lcotlin/jvm/u/p;)V

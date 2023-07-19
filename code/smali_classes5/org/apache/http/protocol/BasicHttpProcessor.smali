@@ -43,17 +43,14 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
 
     iput-object v0, p0, Lorg/apache/http/protocol/BasicHttpProcessor;->requestInterceptors:Ljava/util/List;
 
-    .line 3
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
@@ -68,7 +65,6 @@
 .method public final addInterceptor(Lorg/apache/http/HttpRequestInterceptor;)V
     .locals 0
 
-    .line 1
     invoke-virtual {p0, p1}, Lorg/apache/http/protocol/BasicHttpProcessor;->addRequestInterceptor(Lorg/apache/http/HttpRequestInterceptor;)V
 
     return-void
@@ -77,7 +73,6 @@
 .method public final addInterceptor(Lorg/apache/http/HttpRequestInterceptor;I)V
     .locals 0
 
-    .line 2
     invoke-virtual {p0, p1, p2}, Lorg/apache/http/protocol/BasicHttpProcessor;->addRequestInterceptor(Lorg/apache/http/HttpRequestInterceptor;I)V
 
     return-void
@@ -86,7 +81,6 @@
 .method public final addInterceptor(Lorg/apache/http/HttpResponseInterceptor;)V
     .locals 0
 
-    .line 3
     invoke-virtual {p0, p1}, Lorg/apache/http/protocol/BasicHttpProcessor;->addResponseInterceptor(Lorg/apache/http/HttpResponseInterceptor;)V
 
     return-void
@@ -95,7 +89,6 @@
 .method public final addInterceptor(Lorg/apache/http/HttpResponseInterceptor;I)V
     .locals 0
 
-    .line 4
     invoke-virtual {p0, p1, p2}, Lorg/apache/http/protocol/BasicHttpProcessor;->addResponseInterceptor(Lorg/apache/http/HttpResponseInterceptor;I)V
 
     return-void
@@ -108,7 +101,6 @@
 
     return-void
 
-    .line 1
     :cond_0
     iget-object v0, p0, Lorg/apache/http/protocol/BasicHttpProcessor;->requestInterceptors:Ljava/util/List;
 
@@ -124,7 +116,6 @@
 
     return-void
 
-    .line 2
     :cond_0
     iget-object v0, p0, Lorg/apache/http/protocol/BasicHttpProcessor;->requestInterceptors:Ljava/util/List;
 
@@ -140,7 +131,6 @@
 
     return-void
 
-    .line 2
     :cond_0
     iget-object v0, p0, Lorg/apache/http/protocol/BasicHttpProcessor;->responseInterceptors:Ljava/util/List;
 
@@ -156,7 +146,6 @@
 
     return-void
 
-    .line 1
     :cond_0
     iget-object v0, p0, Lorg/apache/http/protocol/BasicHttpProcessor;->responseInterceptors:Ljava/util/List;
 
@@ -168,10 +157,8 @@
 .method public clearInterceptors()V
     .locals 0
 
-    .line 1
     invoke-virtual {p0}, Lorg/apache/http/protocol/BasicHttpProcessor;->clearRequestInterceptors()V
 
-    .line 2
     invoke-virtual {p0}, Lorg/apache/http/protocol/BasicHttpProcessor;->clearResponseInterceptors()V
 
     return-void
@@ -180,7 +167,6 @@
 .method public clearRequestInterceptors()V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lorg/apache/http/protocol/BasicHttpProcessor;->requestInterceptors:Ljava/util/List;
 
     invoke-interface {v0}, Ljava/util/List;->clear()V
@@ -191,7 +177,6 @@
 .method public clearResponseInterceptors()V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lorg/apache/http/protocol/BasicHttpProcessor;->responseInterceptors:Ljava/util/List;
 
     invoke-interface {v0}, Ljava/util/List;->clear()V
@@ -207,14 +192,12 @@
         }
     .end annotation
 
-    .line 1
     invoke-super {p0}, Ljava/lang/Object;->clone()Ljava/lang/Object;
 
     move-result-object v0
 
     check-cast v0, Lorg/apache/http/protocol/BasicHttpProcessor;
 
-    .line 2
     invoke-virtual {p0, v0}, Lorg/apache/http/protocol/BasicHttpProcessor;->copyInterceptors(Lorg/apache/http/protocol/BasicHttpProcessor;)V
 
     return-object v0
@@ -223,12 +206,10 @@
 .method public copy()Lorg/apache/http/protocol/BasicHttpProcessor;
     .locals 1
 
-    .line 1
     new-instance v0, Lorg/apache/http/protocol/BasicHttpProcessor;
 
     invoke-direct {v0}, Lorg/apache/http/protocol/BasicHttpProcessor;-><init>()V
 
-    .line 2
     invoke-virtual {p0, v0}, Lorg/apache/http/protocol/BasicHttpProcessor;->copyInterceptors(Lorg/apache/http/protocol/BasicHttpProcessor;)V
 
     return-object v0
@@ -237,24 +218,20 @@
 .method protected copyInterceptors(Lorg/apache/http/protocol/BasicHttpProcessor;)V
     .locals 2
 
-    .line 1
     iget-object v0, p1, Lorg/apache/http/protocol/BasicHttpProcessor;->requestInterceptors:Ljava/util/List;
 
     invoke-interface {v0}, Ljava/util/List;->clear()V
 
-    .line 2
     iget-object v0, p1, Lorg/apache/http/protocol/BasicHttpProcessor;->requestInterceptors:Ljava/util/List;
 
     iget-object v1, p0, Lorg/apache/http/protocol/BasicHttpProcessor;->requestInterceptors:Ljava/util/List;
 
     invoke-interface {v0, v1}, Ljava/util/List;->addAll(Ljava/util/Collection;)Z
 
-    .line 3
     iget-object v0, p1, Lorg/apache/http/protocol/BasicHttpProcessor;->responseInterceptors:Ljava/util/List;
 
     invoke-interface {v0}, Ljava/util/List;->clear()V
 
-    .line 4
     iget-object p1, p1, Lorg/apache/http/protocol/BasicHttpProcessor;->responseInterceptors:Ljava/util/List;
 
     iget-object v0, p0, Lorg/apache/http/protocol/BasicHttpProcessor;->responseInterceptors:Ljava/util/List;
@@ -269,7 +246,6 @@
 
     if-ltz p1, :cond_1
 
-    .line 1
     iget-object v0, p0, Lorg/apache/http/protocol/BasicHttpProcessor;->requestInterceptors:Ljava/util/List;
 
     invoke-interface {v0}, Ljava/util/List;->size()I
@@ -280,7 +256,6 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     iget-object v0, p0, Lorg/apache/http/protocol/BasicHttpProcessor;->requestInterceptors:Ljava/util/List;
 
@@ -302,7 +277,6 @@
 .method public getRequestInterceptorCount()I
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lorg/apache/http/protocol/BasicHttpProcessor;->requestInterceptors:Ljava/util/List;
 
     invoke-interface {v0}, Ljava/util/List;->size()I
@@ -317,7 +291,6 @@
 
     if-ltz p1, :cond_1
 
-    .line 1
     iget-object v0, p0, Lorg/apache/http/protocol/BasicHttpProcessor;->responseInterceptors:Ljava/util/List;
 
     invoke-interface {v0}, Ljava/util/List;->size()I
@@ -328,7 +301,6 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     iget-object v0, p0, Lorg/apache/http/protocol/BasicHttpProcessor;->responseInterceptors:Ljava/util/List;
 
@@ -350,7 +322,6 @@
 .method public getResponseInterceptorCount()I
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lorg/apache/http/protocol/BasicHttpProcessor;->responseInterceptors:Ljava/util/List;
 
     invoke-interface {v0}, Ljava/util/List;->size()I
@@ -369,7 +340,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lorg/apache/http/protocol/BasicHttpProcessor;->requestInterceptors:Ljava/util/List;
 
     invoke-interface {v0}, Ljava/util/List;->iterator()Ljava/util/Iterator;
@@ -389,7 +359,6 @@
 
     check-cast v1, Lorg/apache/http/HttpRequestInterceptor;
 
-    .line 2
     invoke-interface {v1, p1, p2}, Lorg/apache/http/HttpRequestInterceptor;->process(Lorg/apache/http/HttpRequest;Lorg/apache/http/protocol/HttpContext;)V
 
     goto :goto_0
@@ -407,7 +376,6 @@
         }
     .end annotation
 
-    .line 3
     iget-object v0, p0, Lorg/apache/http/protocol/BasicHttpProcessor;->responseInterceptors:Ljava/util/List;
 
     invoke-interface {v0}, Ljava/util/List;->iterator()Ljava/util/Iterator;
@@ -427,7 +395,6 @@
 
     check-cast v1, Lorg/apache/http/HttpResponseInterceptor;
 
-    .line 4
     invoke-interface {v1, p1, p2}, Lorg/apache/http/HttpResponseInterceptor;->process(Lorg/apache/http/HttpResponse;Lorg/apache/http/protocol/HttpContext;)V
 
     goto :goto_0
@@ -448,14 +415,12 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lorg/apache/http/protocol/BasicHttpProcessor;->requestInterceptors:Ljava/util/List;
 
     invoke-interface {v0}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
     move-result-object v0
 
-    .line 2
     :cond_0
     :goto_0
     invoke-interface {v0}, Ljava/util/Iterator;->hasNext()Z
@@ -464,12 +429,10 @@
 
     if-eqz v1, :cond_1
 
-    .line 3
     invoke-interface {v0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
     move-result-object v1
 
-    .line 4
     invoke-virtual {v1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
     move-result-object v1
@@ -480,7 +443,6 @@
 
     if-eqz v1, :cond_0
 
-    .line 5
     invoke-interface {v0}, Ljava/util/Iterator;->remove()V
 
     goto :goto_0
@@ -501,14 +463,12 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lorg/apache/http/protocol/BasicHttpProcessor;->responseInterceptors:Ljava/util/List;
 
     invoke-interface {v0}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
     move-result-object v0
 
-    .line 2
     :cond_0
     :goto_0
     invoke-interface {v0}, Ljava/util/Iterator;->hasNext()Z
@@ -517,12 +477,10 @@
 
     if-eqz v1, :cond_1
 
-    .line 3
     invoke-interface {v0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
     move-result-object v1
 
-    .line 4
     invoke-virtual {v1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
     move-result-object v1
@@ -533,7 +491,6 @@
 
     if-eqz v1, :cond_0
 
-    .line 5
     invoke-interface {v0}, Ljava/util/Iterator;->remove()V
 
     goto :goto_0
@@ -554,20 +511,16 @@
 
     const-string v0, "Inteceptor list"
 
-    .line 1
     invoke-static {p1, v0}, Lorg/apache/http/util/Args;->notNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
 
-    .line 2
     iget-object v0, p0, Lorg/apache/http/protocol/BasicHttpProcessor;->requestInterceptors:Ljava/util/List;
 
     invoke-interface {v0}, Ljava/util/List;->clear()V
 
-    .line 3
     iget-object v0, p0, Lorg/apache/http/protocol/BasicHttpProcessor;->responseInterceptors:Ljava/util/List;
 
     invoke-interface {v0}, Ljava/util/List;->clear()V
 
-    .line 4
     invoke-interface {p1}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
     move-result-object p1
@@ -584,25 +537,21 @@
 
     move-result-object v0
 
-    .line 5
     instance-of v1, v0, Lorg/apache/http/HttpRequestInterceptor;
 
     if-eqz v1, :cond_1
 
-    .line 6
     move-object v1, v0
 
     check-cast v1, Lorg/apache/http/HttpRequestInterceptor;
 
     invoke-virtual {p0, v1}, Lorg/apache/http/protocol/BasicHttpProcessor;->addInterceptor(Lorg/apache/http/HttpRequestInterceptor;)V
 
-    .line 7
     :cond_1
     instance-of v1, v0, Lorg/apache/http/HttpResponseInterceptor;
 
     if-eqz v1, :cond_0
 
-    .line 8
     check-cast v0, Lorg/apache/http/HttpResponseInterceptor;
 
     invoke-virtual {p0, v0}, Lorg/apache/http/protocol/BasicHttpProcessor;->addInterceptor(Lorg/apache/http/HttpResponseInterceptor;)V

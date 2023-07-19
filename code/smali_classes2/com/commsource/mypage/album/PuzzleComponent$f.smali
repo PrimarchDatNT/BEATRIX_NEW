@@ -54,7 +54,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/mypage/album/PuzzleComponent$f;->a:Lcom/commsource/mypage/album/PuzzleComponent;
 
     invoke-static {v1}, Lcom/commsource/mypage/album/PuzzleComponent;->g(Lcom/commsource/mypage/album/PuzzleComponent;)Z
@@ -65,7 +64,6 @@
 
     const-string v1, "isBalck"
 
-    .line 2
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {p1}, Ljava/lang/Boolean;->booleanValue()Z
@@ -80,7 +78,6 @@
 
     if-eqz p1, :cond_1
 
-    .line 3
     iget-object p1, p0, Lcom/commsource/mypage/album/PuzzleComponent$f;->a:Lcom/commsource/mypage/album/PuzzleComponent;
 
     invoke-virtual {p1}, Lcom/commsource/mypage/album/BaseAlbumComponent;->c()Lcom/commsource/mypage/album/BpAlbumActivity;
@@ -97,7 +94,6 @@
 
     invoke-static {p1}, Lcom/commsource/util/l0;->w(Landroid/view/View;)V
 
-    .line 4
     iget-object p1, p0, Lcom/commsource/mypage/album/PuzzleComponent$f;->a:Lcom/commsource/mypage/album/PuzzleComponent;
 
     invoke-static {p1}, Lcom/commsource/mypage/album/PuzzleComponent;->f(Lcom/commsource/mypage/album/PuzzleComponent;)Lcom/commsource/mypage/m0/d;
@@ -114,7 +110,6 @@
 
     invoke-virtual {p1, v3, v2}, Lcom/commsource/mypage/m0/d;->g(Landroid/content/Context;Z)V
 
-    .line 5
     :cond_0
     iget-object p1, p0, Lcom/commsource/mypage/album/PuzzleComponent$f;->a:Lcom/commsource/mypage/album/PuzzleComponent;
 
@@ -134,7 +129,6 @@
 
     goto :goto_0
 
-    .line 6
     :cond_1
     iget-object p1, p0, Lcom/commsource/mypage/album/PuzzleComponent$f;->a:Lcom/commsource/mypage/album/PuzzleComponent;
 
@@ -152,7 +146,6 @@
 
     invoke-static {p1}, Lcom/commsource/util/l0;->v0(Landroid/view/View;)V
 
-    .line 7
     iget-object p1, p0, Lcom/commsource/mypage/album/PuzzleComponent$f;->a:Lcom/commsource/mypage/album/PuzzleComponent;
 
     invoke-static {p1}, Lcom/commsource/mypage/album/PuzzleComponent;->f(Lcom/commsource/mypage/album/PuzzleComponent;)Lcom/commsource/mypage/m0/d;
@@ -169,7 +162,6 @@
 
     invoke-virtual {p1, v3, v2}, Lcom/commsource/mypage/m0/d;->n(Landroid/content/Context;Z)V
 
-    .line 8
     :cond_2
     iget-object p1, p0, Lcom/commsource/mypage/album/PuzzleComponent$f;->a:Lcom/commsource/mypage/album/PuzzleComponent;
 
@@ -187,7 +179,6 @@
 
     invoke-static {p1}, Lcom/commsource/util/l0;->v0(Landroid/view/View;)V
 
-    .line 9
     :cond_3
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -202,7 +193,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Ljava/lang/Boolean;
 
     invoke-virtual {p0, p1}, Lcom/commsource/mypage/album/PuzzleComponent$f;->a(Ljava/lang/Boolean;)V

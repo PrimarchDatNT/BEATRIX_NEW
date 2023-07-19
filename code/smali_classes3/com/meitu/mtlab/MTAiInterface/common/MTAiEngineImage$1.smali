@@ -37,7 +37,6 @@
 .method constructor <init>(Ljava/nio/ByteBuffer;Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineImage;IIIII)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineImage$1;->val$buffer:Ljava/nio/ByteBuffer;
 
     iput-object p2, p0, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineImage$1;->val$image:Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineImage;
@@ -66,7 +65,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineImage$1;->val$buffer:Ljava/nio/ByteBuffer;
 
     invoke-virtual {v1}, Ljava/nio/ByteBuffer;->isDirect()Z
@@ -75,7 +73,6 @@
 
     if-eqz v1, :cond_0
 
-    .line 2
     iget-object v1, p0, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineImage$1;->val$image:Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineImage;
 
     iget v2, p0, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineImage$1;->val$width:I
@@ -98,7 +95,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_0
     iget-object v1, p0, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineImage$1;->val$image:Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineImage;
 
@@ -124,7 +120,6 @@
 
     invoke-static {v1, v2, v3}, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineImage;->access$002(Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineImage;J)J
 
-    .line 4
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

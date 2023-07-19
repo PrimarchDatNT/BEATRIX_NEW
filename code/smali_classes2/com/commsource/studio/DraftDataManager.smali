@@ -72,17 +72,14 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     new-instance v0, Ljava/lang/Object;
 
     invoke-direct {v0}, Ljava/lang/Object;-><init>()V
 
     iput-object v0, p0, Lcom/commsource/studio/DraftDataManager;->b:Ljava/lang/Object;
 
-    .line 3
     new-instance v0, Ljava/util/LinkedList;
 
     invoke-direct {v0}, Ljava/util/LinkedList;-><init>()V
@@ -99,7 +96,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/studio/DraftDataManager;->b:Ljava/lang/Object;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -114,7 +110,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/studio/DraftDataManager;->f:Ljava/util/LinkedList;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -129,7 +124,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/commsource/studio/DraftDataManager;->m(Lcom/commsource/studio/DraftDataManager$DraftData;)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -144,7 +138,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/commsource/studio/DraftDataManager;->n(Lcom/commsource/studio/DraftDataManager$DraftData;)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -159,7 +152,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/commsource/studio/DraftDataManager;->q(Ljava/lang/String;)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -185,17 +177,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/util/HashMap;
 
     invoke-direct {v1}, Ljava/util/HashMap;-><init>()V
 
-    .line 2
     invoke-virtual {p1}, Lcom/commsource/studio/bean/PictureLayerInfo;->getImageResults()Ljava/util/LinkedList;
 
     move-result-object p1
 
-    .line 3
     invoke-interface {p1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object p1
@@ -214,7 +203,6 @@
 
     check-cast v2, Lcom/commsource/studio/effect/k;
 
-    .line 4
     instance-of v3, v2, Lcom/commsource/studio/effect/bodyshape/b;
 
     const-string v4, "\u662f"
@@ -223,12 +211,10 @@
 
     const-string v2, "\u662f\u5426\u5851\u5f62"
 
-    .line 5
     invoke-interface {v1, v2, v4}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     goto :goto_0
 
-    .line 6
     :cond_1
     instance-of v3, v2, Lcom/commsource/studio/effect/f;
 
@@ -236,7 +222,6 @@
 
     if-eqz v3, :cond_2
 
-    .line 7
     sget-object v2, Lcom/commsource/studio/sub/SubModuleEnum;->DeFocus:Lcom/commsource/studio/sub/SubModuleEnum;
 
     invoke-virtual {v2}, Lcom/commsource/studio/sub/SubModuleEnum;->getStatisticName()Ljava/lang/String;
@@ -247,7 +232,6 @@
 
     goto :goto_0
 
-    .line 8
     :cond_2
     instance-of v3, v2, Lcom/commsource/studio/effect/p;
 
@@ -255,18 +239,15 @@
 
     const-string v2, "\u9a6c\u8d5b\u514b"
 
-    .line 9
     invoke-interface {v1, v2, v5}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     goto :goto_0
 
-    .line 10
     :cond_3
     instance-of v3, v2, Lcom/commsource/studio/effect/q;
 
     if-eqz v3, :cond_4
 
-    .line 11
     check-cast v2, Lcom/commsource/studio/effect/q;
 
     invoke-virtual {v2}, Lcom/commsource/studio/effect/q;->s()Lcom/commsource/studio/function/t/c;
@@ -275,7 +256,6 @@
 
     if-eqz v2, :cond_0
 
-    .line 12
     invoke-virtual {v2}, Lcom/commsource/studio/function/t/c;->b()Ljava/lang/String;
 
     move-result-object v3
@@ -284,7 +264,6 @@
 
     invoke-interface {v1, v4, v3}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 13
     invoke-virtual {v2}, Lcom/commsource/studio/function/t/c;->c()I
 
     move-result v2
@@ -299,7 +278,6 @@
 
     goto :goto_0
 
-    .line 14
     :cond_4
     instance-of v3, v2, Lcom/commsource/studio/effect/remold/b;
 
@@ -307,18 +285,15 @@
 
     const-string v2, "\u662f\u5426\u5e94\u7528\u9762\u90e8\u91cd\u5851"
 
-    .line 15
     invoke-interface {v1, v2, v4}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     goto :goto_0
 
-    .line 16
     :cond_5
     instance-of v3, v2, Lcom/commsource/studio/effect/m;
 
     if-eqz v3, :cond_6
 
-    .line 17
     sget-object v3, Lcom/commsource/studio/effect/m;->m:Lcom/commsource/studio/effect/m$a;
 
     check-cast v2, Lcom/commsource/studio/effect/m;
@@ -331,13 +306,11 @@
 
     goto :goto_0
 
-    .line 18
     :cond_6
     instance-of v3, v2, Lcom/commsource/studio/effect/x;
 
     if-eqz v3, :cond_8
 
-    .line 19
     check-cast v2, Lcom/commsource/studio/effect/x;
 
     invoke-virtual {v2}, Lcom/commsource/studio/effect/x;->v()I
@@ -362,13 +335,11 @@
 
     goto/16 :goto_0
 
-    .line 20
     :cond_8
     instance-of v3, v2, Lcom/commsource/studio/effect/c;
 
     if-eqz v3, :cond_9
 
-    .line 21
     check-cast v2, Lcom/commsource/studio/effect/c;
 
     invoke-virtual {v2}, Lcom/commsource/studio/effect/c;->D()Lcom/commsource/studio/sub/SubModuleEnum;
@@ -387,7 +358,6 @@
 
     goto/16 :goto_0
 
-    .line 22
     :pswitch_0
     sget-object v3, Lcom/commsource/studio/effect/c;->p:Lcom/commsource/studio/effect/c$a;
 
@@ -404,7 +374,6 @@
     :pswitch_1
     const-string v2, "\u6d88\u9664\u7b14"
 
-    .line 23
     invoke-interface {v1, v2, v5}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     goto/16 :goto_0
@@ -412,12 +381,10 @@
     :pswitch_2
     const-string v2, "\u589e\u5f3a"
 
-    .line 24
     invoke-interface {v1, v2, v5}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     goto/16 :goto_0
 
-    .line 25
     :pswitch_3
     sget-object v3, Lcom/commsource/studio/effect/c;->p:Lcom/commsource/studio/effect/c$a;
 
@@ -434,7 +401,6 @@
     :pswitch_4
     const-string v2, "\u662f\u5426\u5e94\u7528\u6253\u5149"
 
-    .line 26
     invoke-interface {v1, v2, v4}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     goto/16 :goto_0
@@ -442,10 +408,8 @@
     :pswitch_5
     const-string v3, "\u662f\u5426\u5e94\u7528\u795b\u76b1"
 
-    .line 27
     invoke-interface {v1, v3, v4}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 28
     sget-object v3, Lcom/commsource/studio/effect/c;->p:Lcom/commsource/studio/effect/c$a;
 
     invoke-virtual {v3, v2}, Lcom/commsource/studio/effect/c$a;->b(Lcom/commsource/studio/effect/c;)Ljava/lang/String;
@@ -456,7 +420,6 @@
 
     invoke-interface {v1, v5, v4}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 29
     invoke-virtual {v3, v2}, Lcom/commsource/studio/effect/c$a;->a(Lcom/commsource/studio/effect/c;)Ljava/lang/String;
 
     move-result-object v2
@@ -467,7 +430,6 @@
 
     goto/16 :goto_0
 
-    .line 30
     :pswitch_6
     sget-object v3, Lcom/commsource/studio/effect/c;->p:Lcom/commsource/studio/effect/c$a;
 
@@ -481,7 +443,6 @@
 
     goto/16 :goto_0
 
-    .line 31
     :pswitch_7
     sget-object v3, Lcom/commsource/studio/effect/c;->p:Lcom/commsource/studio/effect/c$a;
 
@@ -493,7 +454,6 @@
 
     invoke-interface {v1, v5, v4}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 32
     invoke-virtual {v3, v2}, Lcom/commsource/studio/effect/c$a;->b(Lcom/commsource/studio/effect/c;)Ljava/lang/String;
 
     move-result-object v2
@@ -504,7 +464,6 @@
 
     goto/16 :goto_0
 
-    .line 33
     :pswitch_8
     sget-object v3, Lcom/commsource/studio/effect/c;->p:Lcom/commsource/studio/effect/c$a;
 
@@ -516,7 +475,6 @@
 
     invoke-interface {v1, v5, v4}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 34
     invoke-virtual {v3, v2}, Lcom/commsource/studio/effect/c$a;->b(Lcom/commsource/studio/effect/c;)Ljava/lang/String;
 
     move-result-object v2
@@ -527,7 +485,6 @@
 
     goto/16 :goto_0
 
-    .line 35
     :pswitch_9
     sget-object v3, Lcom/commsource/studio/effect/c;->p:Lcom/commsource/studio/effect/c$a;
 
@@ -539,7 +496,6 @@
 
     invoke-interface {v1, v5, v4}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 36
     invoke-virtual {v3, v2}, Lcom/commsource/studio/effect/c$a;->b(Lcom/commsource/studio/effect/c;)Ljava/lang/String;
 
     move-result-object v2
@@ -550,7 +506,6 @@
 
     goto/16 :goto_0
 
-    .line 37
     :pswitch_a
     sget-object v3, Lcom/commsource/studio/effect/c;->p:Lcom/commsource/studio/effect/c$a;
 
@@ -562,7 +517,6 @@
 
     invoke-interface {v1, v5, v4}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 38
     invoke-virtual {v3, v2}, Lcom/commsource/studio/effect/c$a;->b(Lcom/commsource/studio/effect/c;)Ljava/lang/String;
 
     move-result-object v2
@@ -573,7 +527,6 @@
 
     goto/16 :goto_0
 
-    .line 39
     :pswitch_b
     sget-object v3, Lcom/commsource/studio/effect/c;->p:Lcom/commsource/studio/effect/c$a;
 
@@ -587,7 +540,6 @@
 
     goto/16 :goto_0
 
-    .line 40
     :pswitch_c
     sget-object v3, Lcom/commsource/studio/effect/c;->p:Lcom/commsource/studio/effect/c$a;
 
@@ -599,7 +551,6 @@
 
     invoke-interface {v1, v5, v4}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 41
     invoke-virtual {v3, v2}, Lcom/commsource/studio/effect/c$a;->b(Lcom/commsource/studio/effect/c;)Ljava/lang/String;
 
     move-result-object v2
@@ -610,7 +561,6 @@
 
     goto/16 :goto_0
 
-    .line 42
     :pswitch_d
     sget-object v3, Lcom/commsource/studio/effect/c;->p:Lcom/commsource/studio/effect/c$a;
 
@@ -622,7 +572,6 @@
 
     invoke-interface {v1, v5, v4}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 43
     invoke-virtual {v3, v2}, Lcom/commsource/studio/effect/c$a;->b(Lcom/commsource/studio/effect/c;)Ljava/lang/String;
 
     move-result-object v2
@@ -633,7 +582,6 @@
 
     goto/16 :goto_0
 
-    .line 44
     :pswitch_e
     sget-object v3, Lcom/commsource/studio/effect/c;->p:Lcom/commsource/studio/effect/c$a;
 
@@ -645,7 +593,6 @@
 
     invoke-interface {v1, v5, v4}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 45
     invoke-virtual {v3, v2}, Lcom/commsource/studio/effect/c$a;->b(Lcom/commsource/studio/effect/c;)Ljava/lang/String;
 
     move-result-object v2
@@ -656,7 +603,6 @@
 
     goto/16 :goto_0
 
-    .line 46
     :pswitch_f
     sget-object v3, Lcom/commsource/studio/effect/c;->p:Lcom/commsource/studio/effect/c$a;
 
@@ -670,7 +616,6 @@
 
     goto/16 :goto_0
 
-    .line 47
     :pswitch_10
     sget-object v3, Lcom/commsource/studio/effect/c;->p:Lcom/commsource/studio/effect/c$a;
 
@@ -682,7 +627,6 @@
 
     invoke-interface {v1, v5, v4}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 48
     invoke-virtual {v3, v2}, Lcom/commsource/studio/effect/c$a;->b(Lcom/commsource/studio/effect/c;)Ljava/lang/String;
 
     move-result-object v2
@@ -693,7 +637,6 @@
 
     goto/16 :goto_0
 
-    .line 49
     :pswitch_11
     sget-object v3, Lcom/commsource/studio/effect/c;->p:Lcom/commsource/studio/effect/c$a;
 
@@ -707,7 +650,6 @@
 
     goto/16 :goto_0
 
-    .line 50
     :cond_9
     instance-of v3, v2, Lcom/commsource/studio/effect/g;
 
@@ -715,12 +657,10 @@
 
     const-string v2, "\u8272\u6563"
 
-    .line 51
     invoke-interface {v1, v2, v5}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     goto/16 :goto_0
 
-    .line 52
     :cond_a
     instance-of v3, v2, Lcom/commsource/studio/effect/v;
 
@@ -728,18 +668,15 @@
 
     const-string v2, "is_cutout"
 
-    .line 53
     invoke-interface {v1, v2, v5}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     goto/16 :goto_0
 
-    .line 54
     :cond_b
     instance-of v3, v2, Lcom/commsource/studio/effect/w;
 
     if-eqz v3, :cond_0
 
-    .line 55
     check-cast v2, Lcom/commsource/studio/effect/w;
 
     invoke-virtual {v2}, Lcom/commsource/studio/effect/w;->s()Lcom/commsource/studio/bean/f;
@@ -756,12 +693,10 @@
 
     const-string v3, "style_id"
 
-    .line 56
     invoke-interface {v1, v3, v2}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     goto/16 :goto_0
 
-    .line 57
     :cond_c
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -801,7 +736,6 @@
 
     invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     :try_start_0
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
@@ -813,7 +747,6 @@
 
     move-result-object v2
 
-    .line 2
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
     move-result-object v3
@@ -826,12 +759,10 @@
 
     const/4 v3, 0x0
 
-    .line 3
     invoke-virtual {v2, v0, v3}, Landroid/content/pm/PackageManager;->getPackageInfo(Ljava/lang/String;I)Landroid/content/pm/PackageInfo;
 
     move-result-object v0
 
-    .line 4
     iget v0, v0, Landroid/content/pm/PackageInfo;->versionCode:I
 
     invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -843,7 +774,6 @@
     :catch_0
     const/4 v0, 0x1
 
-    .line 5
     invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v0
@@ -856,7 +786,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
     move-result-object v1
@@ -867,20 +796,17 @@
 
     move-result-object v1
 
-    .line 2
     invoke-static {v1}, Lcom/meitu/library/p/g/b;->y(Ljava/lang/String;)Z
 
     move-result v2
 
     if-nez v2, :cond_0
 
-    .line 3
     invoke-static {v1}, Lcom/meitu/library/p/g/b;->g(Ljava/lang/String;)Ljava/io/File;
 
     :cond_0
     const-string v2, "dirName"
 
-    .line 4
     invoke-static {v1, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -895,7 +821,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p1}, Lcom/google/gson/JsonElement;->getAsJsonObject()Lcom/google/gson/JsonObject;
 
     move-result-object v1
@@ -906,7 +831,6 @@
 
     move-result-object v1
 
-    .line 2
     invoke-static {v1, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v1}, Lcom/google/gson/JsonElement;->getAsInt()I
@@ -939,12 +863,10 @@
 
     if-eq v1, v2, :cond_0
 
-    .line 3
     invoke-static {}, Lcom/commsource/util/z0;->b()Lcom/google/gson/Gson;
 
     move-result-object v1
 
-    .line 4
     invoke-virtual {p1}, Lcom/google/gson/JsonElement;->toString()Ljava/lang/String;
 
     move-result-object p1
@@ -959,7 +881,6 @@
 
     check-cast v1, Lcom/commsource/studio/bean/PictureLayerInfo;
 
-    .line 5
     invoke-virtual {v1}, Lcom/commsource/studio/bean/FocusLayerInfo;->getDrawMatrixBox()Lcom/commsource/studio/MatrixBox;
 
     move-result-object v2
@@ -978,7 +899,6 @@
 
     invoke-virtual {v2, v4}, Landroid/graphics/Matrix;->setValues([F)V
 
-    .line 6
     invoke-virtual {v1}, Lcom/commsource/studio/bean/FocusLayerInfo;->getBitmapMatrixBox()Lcom/commsource/studio/MatrixBox;
 
     move-result-object v2
@@ -997,14 +917,12 @@
 
     invoke-virtual {v2, v1}, Landroid/graphics/Matrix;->setValues([F)V
 
-    .line 7
     invoke-static {p1, v3}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     check-cast p1, Lcom/commsource/studio/bean/BaseLayerInfo;
 
     goto/16 :goto_1
 
-    .line 8
     :cond_0
     invoke-static {}, Lcom/commsource/util/z0;->b()Lcom/google/gson/Gson;
 
@@ -1020,12 +938,10 @@
 
     move-result-object p1
 
-    .line 9
     move-object v1, p1
 
     check-cast v1, Lcom/commsource/studio/bean/GroupLayerInfo;
 
-    .line 10
     invoke-virtual {v1}, Lcom/commsource/studio/bean/FocusLayerInfo;->getDrawMatrixBox()Lcom/commsource/studio/MatrixBox;
 
     move-result-object v2
@@ -1044,14 +960,12 @@
 
     invoke-virtual {v2, v3}, Landroid/graphics/Matrix;->setValues([F)V
 
-    .line 11
     new-instance v2, Ljava/util/ArrayList;
 
     invoke-direct {v2}, Ljava/util/ArrayList;-><init>()V
 
     invoke-virtual {v1, v2}, Lcom/commsource/studio/bean/GroupLayerInfo;->setSubLayerInfos(Ljava/util/ArrayList;)V
 
-    .line 12
     new-instance v2, Lcom/google/gson/JsonParser;
 
     invoke-direct {v2}, Lcom/google/gson/JsonParser;-><init>()V
@@ -1076,7 +990,6 @@
 
     invoke-static {v2, v3}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 13
     invoke-interface {v2}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v2
@@ -1097,7 +1010,6 @@
 
     const-string v4, "it"
 
-    .line 14
     invoke-static {v3, v4}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v3}, Lcom/google/gson/JsonElement;->getAsJsonObject()Lcom/google/gson/JsonObject;
@@ -1118,12 +1030,10 @@
 
     move-result-object v4
 
-    .line 15
     invoke-static {}, Lcom/commsource/util/z0;->b()Lcom/google/gson/Gson;
 
     move-result-object v5
 
-    .line 16
     invoke-virtual {v3}, Lcom/google/gson/JsonElement;->getAsJsonObject()Lcom/google/gson/JsonObject;
 
     move-result-object v3
@@ -1138,29 +1048,24 @@
 
     move-result-object v3
 
-    .line 17
     const-class v6, Lcom/commsource/studio/MatrixBox;
 
-    .line 18
     invoke-virtual {v5, v3, v6}, Lcom/google/gson/Gson;->fromJson(Ljava/lang/String;Ljava/lang/Class;)Ljava/lang/Object;
 
     move-result-object v3
 
     check-cast v3, Lcom/commsource/studio/MatrixBox;
 
-    .line 19
     instance-of v5, v4, Lcom/commsource/studio/bean/FocusLayerInfo;
 
     if-eqz v5, :cond_1
 
-    .line 20
     move-object v5, v4
 
     check-cast v5, Lcom/commsource/studio/bean/FocusLayerInfo;
 
     invoke-virtual {v5, v1}, Lcom/commsource/studio/bean/FocusLayerInfo;->setGroupLayerInfo(Lcom/commsource/studio/bean/GroupLayerInfo;)V
 
-    .line 21
     invoke-virtual {v5}, Lcom/commsource/studio/bean/FocusLayerInfo;->getDrawMatrixBox()Lcom/commsource/studio/MatrixBox;
 
     move-result-object v6
@@ -1179,7 +1084,6 @@
 
     invoke-virtual {v6, v5}, Landroid/graphics/Matrix;->setValues([F)V
 
-    .line 22
     invoke-virtual {v3}, Lcom/commsource/studio/MatrixBox;->getMatrix()Landroid/graphics/Matrix;
 
     move-result-object v5
@@ -1190,7 +1094,6 @@
 
     invoke-virtual {v5, v6}, Landroid/graphics/Matrix;->setValues([F)V
 
-    .line 23
     invoke-virtual {v1}, Lcom/commsource/studio/bean/GroupLayerInfo;->getSubLayerInfos()Ljava/util/ArrayList;
 
     move-result-object v5
@@ -1206,20 +1109,17 @@
     :cond_2
     const-string v1, "GsonUtils.getInstance().\u2026  }\n                    }"
 
-    .line 24
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     check-cast p1, Lcom/commsource/studio/bean/BaseLayerInfo;
 
     goto/16 :goto_1
 
-    .line 25
     :cond_3
     invoke-static {}, Lcom/commsource/util/z0;->b()Lcom/google/gson/Gson;
 
     move-result-object v1
 
-    .line 26
     invoke-virtual {p1}, Lcom/google/gson/JsonElement;->toString()Ljava/lang/String;
 
     move-result-object p1
@@ -1234,7 +1134,6 @@
 
     check-cast v1, Lcom/commsource/studio/bean/FilterLayerInfo;
 
-    .line 27
     sget-object v2, Lcom/commsource/beautyfilter/NewBeautyFilterManager;->q:Lcom/commsource/beautyfilter/NewBeautyFilterManager$a;
 
     invoke-virtual {v2}, Lcom/commsource/beautyfilter/NewBeautyFilterManager$a;->b()Lcom/commsource/beautyfilter/NewBeautyFilterManager;
@@ -1255,7 +1154,6 @@
 
     if-eqz v2, :cond_4
 
-    .line 28
     invoke-virtual {v1}, Lcom/commsource/studio/bean/FilterLayerInfo;->getFilter()Lcom/meitu/template/bean/Filter;
 
     move-result-object v3
@@ -1266,7 +1164,6 @@
 
     invoke-virtual {v2, v3}, Lcom/meitu/template/bean/Filter;->setUserAlpha(I)V
 
-    .line 29
     invoke-virtual {v1}, Lcom/commsource/studio/bean/FilterLayerInfo;->getFilter()Lcom/meitu/template/bean/Filter;
 
     move-result-object v3
@@ -1277,20 +1174,17 @@
 
     invoke-virtual {v2, v3}, Lcom/meitu/template/bean/Filter;->setAlphaInBeauty(I)V
 
-    .line 30
     invoke-virtual {v1, v2}, Lcom/commsource/studio/bean/FilterLayerInfo;->setFilter(Lcom/meitu/template/bean/Filter;)V
 
     :cond_4
     const-string v1, "GsonUtils.getInstance()\n\u2026  }\n                    }"
 
-    .line 31
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     check-cast p1, Lcom/commsource/studio/bean/BaseLayerInfo;
 
     goto/16 :goto_1
 
-    .line 32
     :cond_5
     invoke-static {}, Lcom/commsource/util/z0;->b()Lcom/google/gson/Gson;
 
@@ -1306,12 +1200,10 @@
 
     move-result-object p1
 
-    .line 33
     move-object v1, p1
 
     check-cast v1, Lcom/commsource/studio/bean/TextLayerInfo;
 
-    .line 34
     invoke-virtual {v1}, Lcom/commsource/studio/bean/FocusLayerInfo;->getDrawMatrixBox()Lcom/commsource/studio/MatrixBox;
 
     move-result-object v2
@@ -1332,20 +1224,17 @@
 
     const-string v1, "GsonUtils.getInstance().\u2026at)\n                    }"
 
-    .line 35
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     check-cast p1, Lcom/commsource/studio/bean/BaseLayerInfo;
 
     goto :goto_1
 
-    .line 36
     :cond_6
     invoke-static {}, Lcom/commsource/util/z0;->b()Lcom/google/gson/Gson;
 
     move-result-object v1
 
-    .line 37
     invoke-virtual {p1}, Lcom/google/gson/JsonElement;->toString()Ljava/lang/String;
 
     move-result-object p1
@@ -1360,7 +1249,6 @@
 
     check-cast v1, Lcom/commsource/studio/bean/DoodleLayerInfo;
 
-    .line 38
     invoke-virtual {v1}, Lcom/commsource/studio/bean/FocusLayerInfo;->getDrawMatrixBox()Lcom/commsource/studio/MatrixBox;
 
     move-result-object v2
@@ -1379,20 +1267,17 @@
 
     invoke-virtual {v2, v1}, Landroid/graphics/Matrix;->setValues([F)V
 
-    .line 39
     invoke-static {p1, v3}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     check-cast p1, Lcom/commsource/studio/bean/BaseLayerInfo;
 
     goto :goto_1
 
-    .line 40
     :cond_7
     invoke-static {}, Lcom/commsource/util/z0;->b()Lcom/google/gson/Gson;
 
     move-result-object v1
 
-    .line 41
     invoke-virtual {p1}, Lcom/google/gson/JsonElement;->toString()Ljava/lang/String;
 
     move-result-object p1
@@ -1407,7 +1292,6 @@
 
     check-cast v1, Lcom/commsource/studio/bean/StickerLayerInfo;
 
-    .line 42
     invoke-virtual {v1}, Lcom/commsource/studio/bean/FocusLayerInfo;->getDrawMatrixBox()Lcom/commsource/studio/MatrixBox;
 
     move-result-object v2
@@ -1428,14 +1312,12 @@
 
     const-string v1, "(GsonUtils.getInstance()\u2026at)\n                    }"
 
-    .line 43
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     check-cast p1, Lcom/commsource/studio/bean/BaseLayerInfo;
 
     goto :goto_1
 
-    .line 44
     :cond_8
     invoke-static {}, Lcom/commsource/util/z0;->b()Lcom/google/gson/Gson;
 
@@ -1457,7 +1339,6 @@
 
     check-cast p1, Lcom/commsource/studio/bean/BaseLayerInfo;
 
-    .line 45
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1471,14 +1352,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/util/ArrayList;
 
     invoke-direct {v1}, Ljava/util/ArrayList;-><init>()V
 
     const-string v2, "layerInfos"
 
-    .line 2
     invoke-virtual {p1, v2}, Lcom/google/gson/JsonObject;->get(Ljava/lang/String;)Lcom/google/gson/JsonElement;
 
     move-result-object v2
@@ -1491,14 +1370,12 @@
 
     move-result-object v2
 
-    .line 3
     new-instance v3, Ljava/util/HashMap;
 
     invoke-direct {v3}, Ljava/util/HashMap;-><init>()V
 
     const-string v4, "extraInfo"
 
-    .line 4
     invoke-virtual {p1, v4}, Lcom/google/gson/JsonObject;->get(Ljava/lang/String;)Lcom/google/gson/JsonElement;
 
     move-result-object p1
@@ -1515,7 +1392,6 @@
 
     invoke-static {p1, v4}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 5
     invoke-interface {p1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object p1
@@ -1533,7 +1409,6 @@
 
     check-cast v4, Ljava/util/Map$Entry;
 
-    .line 6
     invoke-interface {v4}, Ljava/util/Map$Entry;->getKey()Ljava/lang/Object;
 
     move-result-object v5
@@ -1559,7 +1434,6 @@
     :cond_0
     const/4 p1, 0x0
 
-    .line 7
     invoke-virtual {v2}, Lcom/google/gson/JsonArray;->size()I
 
     move-result v4
@@ -1567,7 +1441,6 @@
     :goto_1
     if-ge p1, v4, :cond_1
 
-    .line 8
     invoke-virtual {v2, p1}, Lcom/google/gson/JsonArray;->get(I)Lcom/google/gson/JsonElement;
 
     move-result-object v5
@@ -1586,21 +1459,17 @@
 
     goto :goto_1
 
-    .line 9
     :cond_1
     new-instance p1, Lcom/commsource/studio/bean/Step;
 
     invoke-direct {p1, v1}, Lcom/commsource/studio/bean/Step;-><init>(Ljava/util/List;)V
 
-    .line 10
     invoke-virtual {p1, v3}, Lcom/commsource/studio/bean/Step;->setExtraInfo(Ljava/util/Map;)Lcom/commsource/studio/bean/Step;
 
-    .line 11
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p1
 
-    .line 12
     :cond_2
     new-instance p1, Lcotlin/TypeCastException;
 
@@ -1620,7 +1489,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p1}, Lcom/commsource/studio/DraftDataManager$DraftData;->getCurStep()Lcom/commsource/studio/bean/Step;
 
     move-result-object v1
@@ -1629,12 +1497,10 @@
 
     move-result-object v1
 
-    .line 2
     new-instance v2, Ljava/util/ArrayList;
 
     invoke-direct {v2}, Ljava/util/ArrayList;-><init>()V
 
-    .line 3
     invoke-interface {v1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v1
@@ -1659,7 +1525,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_1
     invoke-interface {v2}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
@@ -1679,14 +1544,12 @@
 
     check-cast v2, Lcom/commsource/studio/bean/PictureLayerInfo;
 
-    .line 5
     invoke-virtual {v2}, Lcom/commsource/studio/bean/PictureLayerInfo;->getDraftRecordMap()Ljava/util/HashMap;
 
     move-result-object v3
 
     if-nez v3, :cond_2
 
-    .line 6
     invoke-direct {p0, v2}, Lcom/commsource/studio/DraftDataManager;->g(Lcom/commsource/studio/bean/PictureLayerInfo;)Ljava/util/HashMap;
 
     move-result-object v3
@@ -1695,13 +1558,11 @@
 
     goto :goto_1
 
-    .line 7
     :cond_3
     invoke-virtual {p1}, Lcom/commsource/studio/DraftDataManager$DraftData;->getFwSteps()Ljava/util/List;
 
     move-result-object v1
 
-    .line 8
     invoke-interface {v1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v1
@@ -1719,17 +1580,14 @@
 
     check-cast v2, Lcom/commsource/studio/bean/Step;
 
-    .line 9
     invoke-virtual {v2}, Lcom/commsource/studio/bean/Step;->getLayerInfos()Ljava/util/ArrayList;
 
     move-result-object v2
 
-    .line 10
     new-instance v3, Ljava/util/ArrayList;
 
     invoke-direct {v3}, Ljava/util/ArrayList;-><init>()V
 
-    .line 11
     invoke-interface {v2}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v2
@@ -1754,7 +1612,6 @@
 
     goto :goto_2
 
-    .line 12
     :cond_6
     invoke-interface {v3}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
@@ -1774,14 +1631,12 @@
 
     check-cast v3, Lcom/commsource/studio/bean/PictureLayerInfo;
 
-    .line 13
     invoke-virtual {v3}, Lcom/commsource/studio/bean/PictureLayerInfo;->getDraftRecordMap()Ljava/util/HashMap;
 
     move-result-object v4
 
     if-nez v4, :cond_7
 
-    .line 14
     invoke-direct {p0, v3}, Lcom/commsource/studio/DraftDataManager;->g(Lcom/commsource/studio/bean/PictureLayerInfo;)Ljava/util/HashMap;
 
     move-result-object v4
@@ -1790,13 +1645,11 @@
 
     goto :goto_3
 
-    .line 15
     :cond_8
     invoke-virtual {p1}, Lcom/commsource/studio/DraftDataManager$DraftData;->getBkSteps()Ljava/util/List;
 
     move-result-object p1
 
-    .line 16
     invoke-interface {p1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object p1
@@ -1814,17 +1667,14 @@
 
     check-cast v1, Lcom/commsource/studio/bean/Step;
 
-    .line 17
     invoke-virtual {v1}, Lcom/commsource/studio/bean/Step;->getLayerInfos()Ljava/util/ArrayList;
 
     move-result-object v1
 
-    .line 18
     new-instance v2, Ljava/util/ArrayList;
 
     invoke-direct {v2}, Ljava/util/ArrayList;-><init>()V
 
-    .line 19
     invoke-interface {v1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v1
@@ -1849,7 +1699,6 @@
 
     goto :goto_4
 
-    .line 20
     :cond_b
     invoke-interface {v2}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
@@ -1869,14 +1718,12 @@
 
     check-cast v2, Lcom/commsource/studio/bean/PictureLayerInfo;
 
-    .line 21
     invoke-virtual {v2}, Lcom/commsource/studio/bean/PictureLayerInfo;->getDraftRecordMap()Ljava/util/HashMap;
 
     move-result-object v3
 
     if-nez v3, :cond_c
 
-    .line 22
     invoke-direct {p0, v2}, Lcom/commsource/studio/DraftDataManager;->g(Lcom/commsource/studio/bean/PictureLayerInfo;)Ljava/util/HashMap;
 
     move-result-object v3
@@ -1885,7 +1732,6 @@
 
     goto :goto_5
 
-    .line 23
     :cond_d
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1899,7 +1745,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p1}, Lcom/commsource/studio/DraftDataManager$DraftData;->getCurStep()Lcom/commsource/studio/bean/Step;
 
     move-result-object v1
@@ -1908,12 +1753,10 @@
 
     move-result-object v1
 
-    .line 2
     new-instance v2, Ljava/util/ArrayList;
 
     invoke-direct {v2}, Ljava/util/ArrayList;-><init>()V
 
-    .line 3
     invoke-interface {v1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v1
@@ -1938,7 +1781,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_1
     invoke-interface {v2}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
@@ -1958,14 +1800,12 @@
 
     check-cast v2, Lcom/commsource/studio/bean/GroupLayerInfo;
 
-    .line 5
     invoke-virtual {v2}, Lcom/commsource/studio/bean/GroupLayerInfo;->getSerializeString()Ljava/lang/String;
 
     move-result-object v3
 
     if-nez v3, :cond_2
 
-    .line 6
     invoke-static {}, Lcom/commsource/util/z0;->b()Lcom/google/gson/Gson;
 
     move-result-object v3
@@ -1982,13 +1822,11 @@
 
     goto :goto_1
 
-    .line 7
     :cond_3
     invoke-virtual {p1}, Lcom/commsource/studio/DraftDataManager$DraftData;->getFwSteps()Ljava/util/List;
 
     move-result-object v1
 
-    .line 8
     invoke-interface {v1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v1
@@ -2006,17 +1844,14 @@
 
     check-cast v2, Lcom/commsource/studio/bean/Step;
 
-    .line 9
     invoke-virtual {v2}, Lcom/commsource/studio/bean/Step;->getLayerInfos()Ljava/util/ArrayList;
 
     move-result-object v2
 
-    .line 10
     new-instance v3, Ljava/util/ArrayList;
 
     invoke-direct {v3}, Ljava/util/ArrayList;-><init>()V
 
-    .line 11
     invoke-interface {v2}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v2
@@ -2041,7 +1876,6 @@
 
     goto :goto_2
 
-    .line 12
     :cond_6
     invoke-interface {v3}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
@@ -2061,14 +1895,12 @@
 
     check-cast v3, Lcom/commsource/studio/bean/GroupLayerInfo;
 
-    .line 13
     invoke-virtual {v3}, Lcom/commsource/studio/bean/GroupLayerInfo;->getSerializeString()Ljava/lang/String;
 
     move-result-object v4
 
     if-nez v4, :cond_7
 
-    .line 14
     invoke-static {}, Lcom/commsource/util/z0;->b()Lcom/google/gson/Gson;
 
     move-result-object v4
@@ -2085,13 +1917,11 @@
 
     goto :goto_3
 
-    .line 15
     :cond_8
     invoke-virtual {p1}, Lcom/commsource/studio/DraftDataManager$DraftData;->getBkSteps()Ljava/util/List;
 
     move-result-object p1
 
-    .line 16
     invoke-interface {p1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object p1
@@ -2109,17 +1939,14 @@
 
     check-cast v1, Lcom/commsource/studio/bean/Step;
 
-    .line 17
     invoke-virtual {v1}, Lcom/commsource/studio/bean/Step;->getLayerInfos()Ljava/util/ArrayList;
 
     move-result-object v1
 
-    .line 18
     new-instance v2, Ljava/util/ArrayList;
 
     invoke-direct {v2}, Ljava/util/ArrayList;-><init>()V
 
-    .line 19
     invoke-interface {v1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v1
@@ -2144,7 +1971,6 @@
 
     goto :goto_4
 
-    .line 20
     :cond_b
     invoke-interface {v2}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
@@ -2164,14 +1990,12 @@
 
     check-cast v2, Lcom/commsource/studio/bean/GroupLayerInfo;
 
-    .line 21
     invoke-virtual {v2}, Lcom/commsource/studio/bean/GroupLayerInfo;->getSerializeString()Ljava/lang/String;
 
     move-result-object v3
 
     if-nez v3, :cond_c
 
-    .line 22
     invoke-static {}, Lcom/commsource/util/z0;->b()Lcom/google/gson/Gson;
 
     move-result-object v3
@@ -2188,7 +2012,6 @@
 
     goto :goto_5
 
-    .line 23
     :cond_d
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -2204,7 +2027,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/DraftDataManager;->a:Lf/i/a/a;
 
     if-eqz v1, :cond_0
@@ -2217,7 +2039,6 @@
 
     if-ne v1, v2, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2227,7 +2048,6 @@
 
     const/4 v2, 0x0
 
-    .line 3
     :try_start_0
     iget-object v3, p0, Lcom/commsource/studio/DraftDataManager;->a:Lf/i/a/a;
 
@@ -2250,7 +2070,6 @@
     :goto_0
     if-eqz v3, :cond_2
 
-    .line 4
     :try_start_1
     invoke-virtual {v3, v1}, Lf/i/a/a$c;->i(I)Ljava/io/OutputStream;
 
@@ -2269,7 +2088,6 @@
     :goto_1
     if-eqz v2, :cond_4
 
-    .line 5
     sget-object v4, Lcotlin/text/d;->a:Ljava/nio/charset/Charset;
 
     if-eqz p1, :cond_3
@@ -2301,7 +2119,6 @@
     :goto_2
     if-eqz v3, :cond_5
 
-    .line 6
     invoke-virtual {v3}, Lf/i/a/a$c;->f()V
     :try_end_1
     .catch Ljava/lang/Exception; {:try_start_1 .. :try_end_1} :catch_0
@@ -2310,7 +2127,6 @@
     :cond_5
     if-eqz v2, :cond_8
 
-    .line 7
     invoke-virtual {v2}, Ljava/io/OutputStream;->close()V
 
     goto :goto_6
@@ -2326,7 +2142,6 @@
     :goto_3
     if-eqz v2, :cond_7
 
-    .line 8
     :try_start_2
     invoke-virtual {v2}, Lf/i/a/a$c;->a()V
     :try_end_2
@@ -2344,7 +2159,6 @@
     :goto_4
     if-eqz v2, :cond_6
 
-    .line 9
     invoke-virtual {v2}, Ljava/io/OutputStream;->close()V
 
     :cond_6
@@ -2358,12 +2172,10 @@
 
     invoke-virtual {p1}, Ljava/io/OutputStream;->close()V
 
-    .line 10
     :cond_8
     :goto_6
     iput-boolean v1, p0, Lcom/commsource/studio/DraftDataManager;->e:Z
 
-    .line 11
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2383,7 +2195,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/DraftDataManager;->a:Lf/i/a/a;
 
     const/4 v2, 0x0
@@ -2400,7 +2211,6 @@
 
     if-eqz v1, :cond_3
 
-    .line 2
     :try_start_0
     invoke-virtual {v1, v2}, Lf/i/a/a$e;->b(I)Ljava/io/InputStream;
 
@@ -2411,7 +2221,6 @@
 
     if-eqz v1, :cond_0
 
-    .line 3
     :try_start_1
     invoke-static {v1}, Lcotlin/io/a;->p(Ljava/io/InputStream;)[B
 
@@ -2447,7 +2256,6 @@
 
     if-eqz v1, :cond_4
 
-    .line 4
     :goto_1
     invoke-virtual {v1}, Ljava/io/InputStream;->close()V
 
@@ -2463,7 +2271,6 @@
 
     move-object v7, v1
 
-    .line 5
     :catch_2
     :goto_2
     :try_start_3
@@ -2488,7 +2295,6 @@
     :goto_3
     if-eqz v3, :cond_2
 
-    .line 6
     invoke-virtual {v3}, Ljava/io/InputStream;->close()V
 
     :cond_2
@@ -2503,7 +2309,6 @@
     :goto_4
     if-eqz v7, :cond_7
 
-    .line 7
     new-instance v1, Lcom/google/gson/JsonParser;
 
     invoke-direct {v1}, Lcom/google/gson/JsonParser;-><init>()V
@@ -2522,7 +2327,6 @@
 
     const-string v3, "curStep"
 
-    .line 8
     invoke-virtual {v1, v3}, Lcom/google/gson/JsonObject;->get(Ljava/lang/String;)Lcom/google/gson/JsonElement;
 
     move-result-object v3
@@ -2543,14 +2347,12 @@
 
     move-result-object v3
 
-    .line 9
     new-instance v4, Ljava/util/ArrayList;
 
     invoke-direct {v4}, Ljava/util/ArrayList;-><init>()V
 
     const-string v5, "bkSteps"
 
-    .line 10
     invoke-virtual {v1, v5}, Lcom/google/gson/JsonObject;->get(Ljava/lang/String;)Lcom/google/gson/JsonElement;
 
     move-result-object v5
@@ -2563,7 +2365,6 @@
 
     move-result-object v5
 
-    .line 11
     invoke-virtual {v5}, Lcom/google/gson/JsonArray;->size()I
 
     move-result v6
@@ -2573,7 +2374,6 @@
     :goto_5
     if-ge v7, v6, :cond_5
 
-    .line 12
     invoke-virtual {v5, v7}, Lcom/google/gson/JsonArray;->get(I)Lcom/google/gson/JsonElement;
 
     move-result-object v8
@@ -2600,7 +2400,6 @@
 
     goto :goto_5
 
-    .line 13
     :cond_5
     new-instance v5, Ljava/util/ArrayList;
 
@@ -2608,7 +2407,6 @@
 
     const-string v6, "fwSteps"
 
-    .line 14
     invoke-virtual {v1, v6}, Lcom/google/gson/JsonObject;->get(Ljava/lang/String;)Lcom/google/gson/JsonElement;
 
     move-result-object v1
@@ -2621,7 +2419,6 @@
 
     move-result-object v1
 
-    .line 15
     invoke-virtual {v1}, Lcom/google/gson/JsonArray;->size()I
 
     move-result v6
@@ -2629,7 +2426,6 @@
     :goto_6
     if-ge v2, v6, :cond_6
 
-    .line 16
     invoke-virtual {v1, v2}, Lcom/google/gson/JsonArray;->get(I)Lcom/google/gson/JsonElement;
 
     move-result-object v7
@@ -2656,7 +2452,6 @@
 
     goto :goto_6
 
-    .line 17
     :cond_6
     new-instance v1, Lcom/commsource/studio/DraftDataManager$DraftData;
 
@@ -2666,7 +2461,6 @@
 
     return-object v1
 
-    .line 18
     :cond_7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -2680,17 +2474,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/studio/DraftDataManager;->g:Z
 
     if-nez v1, :cond_1
 
     const/4 v1, 0x1
 
-    .line 2
     iput-boolean v1, p0, Lcom/commsource/studio/DraftDataManager;->g:Z
 
-    .line 3
     :try_start_0
     new-instance v2, Ljava/io/File;
 
@@ -2719,13 +2510,11 @@
     :catch_0
     nop
 
-    .line 4
     :goto_0
     iget-object v1, p0, Lcom/commsource/studio/DraftDataManager;->a:Lf/i/a/a;
 
     if-eqz v1, :cond_1
 
-    .line 5
     new-instance v1, Landroid/os/HandlerThread;
 
     const-string v2, "DraftData-Save"
@@ -2736,16 +2525,13 @@
 
     if-eqz v1, :cond_0
 
-    .line 6
     invoke-virtual {v1}, Landroid/os/HandlerThread;->start()V
 
-    .line 7
     :cond_0
     iget-object v1, p0, Lcom/commsource/studio/DraftDataManager;->c:Landroid/os/HandlerThread;
 
     if-eqz v1, :cond_1
 
-    .line 8
     new-instance v2, Lcom/commsource/studio/DraftDataManager$b;
 
     invoke-virtual {v1}, Landroid/os/HandlerThread;->getLooper()Landroid/os/Looper;
@@ -2760,7 +2546,6 @@
 
     iput-object v2, p0, Lcom/commsource/studio/DraftDataManager;->d:Landroid/os/Handler;
 
-    .line 9
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -2774,14 +2559,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/DraftDataManager;->c:Landroid/os/HandlerThread;
 
     if-eqz v1, :cond_0
 
     invoke-virtual {v1}, Landroid/os/HandlerThread;->quit()Z
 
-    .line 2
     :cond_0
     iget-object v1, p0, Lcom/commsource/studio/DraftDataManager;->a:Lf/i/a/a;
 
@@ -2789,7 +2572,6 @@
 
     invoke-virtual {v1}, Lf/i/a/a;->close()V
 
-    .line 3
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -2811,12 +2593,10 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/DraftDataManager;->b:Ljava/lang/Object;
 
     monitor-enter v1
 
-    .line 2
     :try_start_0
     iget-object v2, p0, Lcom/commsource/studio/DraftDataManager;->f:Ljava/util/LinkedList;
 
@@ -2826,18 +2606,15 @@
 
     if-lez v2, :cond_0
 
-    .line 3
     iget-object v2, p0, Lcom/commsource/studio/DraftDataManager;->f:Ljava/util/LinkedList;
 
     invoke-virtual {v2}, Ljava/util/LinkedList;->removeFirst()Ljava/lang/Object;
 
-    .line 4
     :cond_0
     iget-object v2, p0, Lcom/commsource/studio/DraftDataManager;->f:Ljava/util/LinkedList;
 
     invoke-virtual {v2, p1}, Ljava/util/LinkedList;->addLast(Ljava/lang/Object;)V
 
-    .line 5
     iget-object p1, p0, Lcom/commsource/studio/DraftDataManager;->d:Landroid/os/Handler;
 
     if-eqz p1, :cond_1
@@ -2848,11 +2625,9 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 6
     :cond_1
     monitor-exit v1
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2860,7 +2635,6 @@
     :catchall_0
     move-exception p1
 
-    .line 8
     monitor-exit v1
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

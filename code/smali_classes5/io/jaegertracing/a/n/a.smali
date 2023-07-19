@@ -29,13 +29,10 @@
 .method public constructor <init>(Z)V
     .locals 3
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-boolean p1, p0, Lio/jaegertracing/a/n/a;->a:Z
 
-    .line 3
     new-instance v0, Ljava/util/HashMap;
 
     invoke-direct {v0}, Ljava/util/HashMap;-><init>()V
@@ -44,10 +41,8 @@
 
     const-string v2, "const"
 
-    .line 4
     invoke-interface {v0, v1, v2}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 5
     invoke-static {p1}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
 
     move-result-object p1
@@ -56,7 +51,6 @@
 
     invoke-interface {v0, v1, p1}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 6
     invoke-static {v0}, Ljava/util/Collections;->unmodifiableMap(Ljava/util/Map;)Ljava/util/Map;
 
     move-result-object p1
@@ -71,7 +65,6 @@
 .method public a(Ljava/lang/String;J)Lio/jaegertracing/a/n/h;
     .locals 0
 
-    .line 1
     iget-boolean p1, p0, Lio/jaegertracing/a/n/a;->a:Z
 
     iget-object p2, p0, Lio/jaegertracing/a/n/a;->b:Ljava/util/Map;
@@ -98,7 +91,6 @@
 
     return v0
 
-    .line 1
     :cond_0
     instance-of v1, p1, Lio/jaegertracing/a/n/a;
 
@@ -106,7 +98,6 @@
 
     if-eqz v1, :cond_2
 
-    .line 2
     iget-boolean v1, p0, Lio/jaegertracing/a/n/a;->a:Z
 
     check-cast p1, Lio/jaegertracing/a/n/a;
@@ -130,7 +121,6 @@
 .method public toString()Ljava/lang/String;
     .locals 2
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V

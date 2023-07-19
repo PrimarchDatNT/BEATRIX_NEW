@@ -22,7 +22,6 @@
 .method constructor <init>(Lcom/commsource/mypage/g0;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/mypage/g0$g;->a:Lcom/commsource/mypage/g0;
 
     invoke-direct {p0}, Landroidx/viewpager/widget/ViewPager$SimpleOnPageChangeListener;-><init>()V
@@ -39,14 +38,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0, p1}, Landroidx/viewpager/widget/ViewPager$SimpleOnPageChangeListener;->onPageScrollStateChanged(I)V
 
     const/4 v1, 0x2
 
     if-ne p1, v1, :cond_0
 
-    .line 2
     iget-object p1, p0, Lcom/commsource/mypage/g0$g;->a:Lcom/commsource/mypage/g0;
 
     invoke-static {p1}, Lcom/commsource/mypage/g0;->E(Lcom/commsource/mypage/g0;)Lcom/commsource/mypage/album/BpAlbumViewModel;
@@ -55,7 +52,6 @@
 
     invoke-virtual {p1}, Lcom/commsource/mypage/album/BpAlbumViewModel;->U()V
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -69,14 +65,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/mypage/g0$g;->a:Lcom/commsource/mypage/g0;
 
     const/4 v2, 0x1
 
     invoke-static {v1, p1, v2}, Lcom/commsource/mypage/g0;->D(Lcom/commsource/mypage/g0;IZ)V
 
-    .line 2
     iget-object p1, p0, Lcom/commsource/mypage/g0$g;->a:Lcom/commsource/mypage/g0;
 
     invoke-static {p1}, Lcom/commsource/mypage/g0;->F(Lcom/commsource/mypage/g0;)Lcom/commsource/cloudalbum/bean/CAImageInfo;
@@ -85,7 +79,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 3
     new-instance p1, Ljava/lang/StringBuilder;
 
     invoke-direct {p1}, Ljava/lang/StringBuilder;-><init>()V
@@ -116,7 +109,6 @@
 
     iget-object v1, p0, Lcom/commsource/mypage/g0$g;->a:Lcom/commsource/mypage/g0;
 
-    .line 4
     invoke-static {v1}, Lcom/commsource/mypage/g0;->F(Lcom/commsource/mypage/g0;)Lcom/commsource/cloudalbum/bean/CAImageInfo;
 
     move-result-object v1
@@ -133,10 +125,8 @@
 
     const-string v1, "MyWorkBigPhotoFragment"
 
-    .line 5
     invoke-static {v1, p1}, Lcom/meitu/library/util/Debug/Debug;->P(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 6
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

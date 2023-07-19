@@ -21,10 +21,8 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/airbnb/lottie/network/a;->a:Ljava/net/HttpURLConnection;
 
     return-void
@@ -38,7 +36,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/io/BufferedReader;
 
     new-instance v1, Ljava/io/InputStreamReader;
@@ -51,12 +48,10 @@
 
     invoke-direct {v0, v1}, Ljava/io/BufferedReader;-><init>(Ljava/io/Reader;)V
 
-    .line 2
     new-instance p1, Ljava/lang/StringBuilder;
 
     invoke-direct {p1}, Ljava/lang/StringBuilder;-><init>()V
 
-    .line 3
     :goto_0
     :try_start_0
     invoke-virtual {v0}, Ljava/io/BufferedReader;->readLine()Ljava/lang/String;
@@ -65,7 +60,6 @@
 
     if-eqz v1, :cond_0
 
-    .line 4
     invoke-virtual {p1, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     const/16 v1, 0xa
@@ -77,14 +71,12 @@
 
     goto :goto_0
 
-    .line 5
     :cond_0
     :try_start_1
     invoke-virtual {v0}, Ljava/io/BufferedReader;->close()V
     :try_end_1
     .catch Ljava/lang/Exception; {:try_start_1 .. :try_end_1} :catch_0
 
-    .line 6
     :catch_0
     invoke-virtual {p1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
@@ -100,20 +92,17 @@
     :catch_1
     move-exception p1
 
-    .line 7
     :try_start_2
     throw p1
     :try_end_2
     .catchall {:try_start_2 .. :try_end_2} :catchall_0
 
-    .line 8
     :goto_1
     :try_start_3
     invoke-virtual {v0}, Ljava/io/BufferedReader;->close()V
     :try_end_3
     .catch Ljava/lang/Exception; {:try_start_3 .. :try_end_3} :catch_2
 
-    .line 9
     :catch_2
     throw p1
 .end method
@@ -131,7 +120,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/airbnb/lottie/network/a;->a:Ljava/net/HttpURLConnection;
 
     invoke-virtual {v0}, Ljava/net/HttpURLConnection;->getInputStream()Ljava/io/InputStream;
@@ -144,7 +132,6 @@
 .method public close()V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/airbnb/lottie/network/a;->a:Ljava/net/HttpURLConnection;
 
     invoke-virtual {v0}, Ljava/net/HttpURLConnection;->disconnect()V
@@ -157,7 +144,6 @@
     .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
-    .line 1
     :try_start_0
     invoke-virtual {p0}, Lcom/airbnb/lottie/network/a;->isSuccessful()Z
 
@@ -169,7 +155,6 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     new-instance v0, Ljava/lang/StringBuilder;
 
@@ -225,10 +210,8 @@
 
     const-string v1, "get error failed "
 
-    .line 3
     invoke-static {v1, v0}, Lcom/airbnb/lottie/z/d;->f(Ljava/lang/String;Ljava/lang/Throwable;)V
 
-    .line 4
     invoke-virtual {v0}, Ljava/io/IOException;->getMessage()Ljava/lang/String;
 
     move-result-object v0
@@ -241,7 +224,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     :try_start_0
     iget-object v1, p0, Lcom/airbnb/lottie/network/a;->a:Ljava/net/HttpURLConnection;
 
@@ -269,7 +251,6 @@
     .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/airbnb/lottie/network/a;->a:Ljava/net/HttpURLConnection;
 
     invoke-virtual {v0}, Ljava/net/HttpURLConnection;->getContentType()Ljava/lang/String;

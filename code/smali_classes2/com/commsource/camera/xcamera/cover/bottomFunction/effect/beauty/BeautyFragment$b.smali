@@ -42,7 +42,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/beauty/BeautyFragment$b;->a:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/beauty/BeautyFragment;
 
     invoke-static {v0}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/beauty/BeautyFragment;->D(Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/beauty/BeautyFragment;)Lcom/commsource/camera/xcamera/cover/CameraCaptureViewModel;
@@ -68,7 +67,6 @@
     :cond_0
     const-string v0, "movie_beauty_reset_clk"
 
-    .line 2
     invoke-static {v0}, Lcom/commsource/statistics/i;->p(Ljava/lang/String;)V
 
     goto :goto_0
@@ -76,7 +74,6 @@
     :cond_1
     const-string v0, "selfievidio_beauty_reset_clk"
 
-    .line 3
     invoke-static {v0}, Lcom/commsource/statistics/i;->p(Ljava/lang/String;)V
 
     goto :goto_0
@@ -84,10 +81,8 @@
     :cond_2
     const-string v0, "selfie_beauty_reset_clk"
 
-    .line 4
     invoke-static {v0}, Lcom/commsource/statistics/i;->p(Ljava/lang/String;)V
 
-    .line 5
     :goto_0
     new-instance v0, Lcom/commsource/widget/dialog/s0/t$a;
 
@@ -95,7 +90,6 @@
 
     sget v1, Lcom/res/provider/ResSTRING;->sure_to_reset_beauty:I
 
-    .line 6
     invoke-static {v1}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
 
     move-result-object v1
@@ -106,7 +100,6 @@
 
     sget v1, Lcom/res/provider/ResSTRING;->cancel:I
 
-    .line 7
     invoke-static {v1}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
 
     move-result-object v1
@@ -117,7 +110,6 @@
 
     sget v1, Lcom/res/provider/ResSTRING;->dialog_confirm:I
 
-    .line 8
     invoke-static {v1}, Lcom/commsource/util/u1;->i(I)Ljava/lang/String;
 
     move-result-object v1
@@ -128,12 +120,10 @@
 
     const/4 v1, 0x1
 
-    .line 9
     invoke-virtual {v0, v1}, Lcom/commsource/widget/dialog/s0/t$a;->p(Z)Lcom/commsource/widget/dialog/s0/t$a;
 
     move-result-object v0
 
-    .line 10
     new-instance v1, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/beauty/BeautyFragment$b$a;
 
     invoke-direct {v1, p0}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/beauty/BeautyFragment$b$a;-><init>(Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/beauty/BeautyFragment$b;)V
@@ -142,15 +132,12 @@
 
     move-result-object v0
 
-    .line 11
     invoke-virtual {v0}, Lcom/commsource/widget/dialog/s0/t$a;->a()Lcom/commsource/widget/dialog/s0/t;
 
     move-result-object v0
 
-    .line 12
     invoke-virtual {v0}, Lf/d/a;->F()V
 
-    .line 13
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

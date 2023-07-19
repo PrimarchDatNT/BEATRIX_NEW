@@ -23,7 +23,6 @@
 
     const/4 v0, 0x1
 
-    .line 1
     :try_start_0
     invoke-static {}, Lf/f/b/b/h/c/m;->a()Ljava/lang/Integer;
 
@@ -33,7 +32,6 @@
 
     if-eqz v1, :cond_0
 
-    .line 2
     :try_start_1
     invoke-virtual {v1}, Ljava/lang/Integer;->intValue()I
 
@@ -43,7 +41,6 @@
 
     if-lt v2, v3, :cond_0
 
-    .line 3
     new-instance v2, Lf/f/b/b/h/c/s;
 
     invoke-direct {v2}, Lf/f/b/b/h/c/s;-><init>()V
@@ -53,7 +50,6 @@
     :cond_0
     const-string v2, "com.google.devtools.build.android.desugar.runtime.twr_disable_mimic"
 
-    .line 4
     invoke-static {v2}, Ljava/lang/Boolean;->getBoolean(Ljava/lang/String;)Z
 
     move-result v2
@@ -62,14 +58,12 @@
 
     if-eqz v2, :cond_1
 
-    .line 5
     new-instance v2, Lf/f/b/b/h/c/q;
 
     invoke-direct {v2}, Lf/f/b/b/h/c/q;-><init>()V
 
     goto :goto_1
 
-    .line 6
     :cond_1
     new-instance v2, Lf/f/b/b/h/c/m$a;
 
@@ -89,13 +83,11 @@
 
     const/4 v1, 0x0
 
-    .line 7
     :goto_0
     sget-object v3, Ljava/lang/System;->err:Ljava/io/PrintStream;
 
     const-class v4, Lf/f/b/b/h/c/m$a;
 
-    .line 8
     invoke-virtual {v4}, Ljava/lang/Class;->getName()Ljava/lang/String;
 
     move-result-object v4
@@ -128,20 +120,16 @@
 
     move-result-object v4
 
-    .line 9
     invoke-virtual {v3, v4}, Ljava/io/PrintStream;->println(Ljava/lang/String;)V
 
-    .line 10
     sget-object v3, Ljava/lang/System;->err:Ljava/io/PrintStream;
 
     invoke-virtual {v2, v3}, Ljava/lang/Throwable;->printStackTrace(Ljava/io/PrintStream;)V
 
-    .line 11
     new-instance v2, Lf/f/b/b/h/c/m$a;
 
     invoke-direct {v2}, Lf/f/b/b/h/c/m$a;-><init>()V
 
-    .line 12
     :goto_1
     sput-object v2, Lf/f/b/b/h/c/m;->a:Lf/f/b/b/h/c/p;
 
@@ -149,7 +137,6 @@
 
     goto :goto_2
 
-    .line 13
     :cond_2
     invoke-virtual {v1}, Ljava/lang/Integer;->intValue()I
 
@@ -169,19 +156,16 @@
     :try_start_0
     const-string v1, "android.os.Build$VERSION"
 
-    .line 1
     invoke-static {v1}, Ljava/lang/Class;->forName(Ljava/lang/String;)Ljava/lang/Class;
 
     move-result-object v1
 
     const-string v2, "SDK_INT"
 
-    .line 2
     invoke-virtual {v1, v2}, Ljava/lang/Class;->getField(Ljava/lang/String;)Ljava/lang/reflect/Field;
 
     move-result-object v1
 
-    .line 3
     invoke-virtual {v1, v0}, Ljava/lang/reflect/Field;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v1
@@ -195,14 +179,12 @@
     :catch_0
     move-exception v1
 
-    .line 4
     sget-object v2, Ljava/lang/System;->err:Ljava/io/PrintStream;
 
     const-string v3, "Failed to retrieve value from android.os.Build$VERSION.SDK_INT due to the following exception."
 
     invoke-virtual {v2, v3}, Ljava/io/PrintStream;->println(Ljava/lang/String;)V
 
-    .line 5
     sget-object v2, Ljava/lang/System;->err:Ljava/io/PrintStream;
 
     invoke-virtual {v1, v2}, Ljava/lang/Exception;->printStackTrace(Ljava/io/PrintStream;)V
@@ -213,7 +195,6 @@
 .method public static b(Ljava/lang/Throwable;Ljava/lang/Throwable;)V
     .locals 1
 
-    .line 1
     sget-object v0, Lf/f/b/b/h/c/m;->a:Lf/f/b/b/h/c/p;
 
     invoke-virtual {v0, p0, p1}, Lf/f/b/b/h/c/p;->a(Ljava/lang/Throwable;Ljava/lang/Throwable;)V

@@ -54,7 +54,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/studio/function/MaskFragment$onClickConfirm$1;->invoke()V
 
     sget-object v1, Lcotlin/t1;->a:Lcotlin/t1;
@@ -71,7 +70,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/function/MaskFragment$onClickConfirm$1;->this$0:Lcom/commsource/studio/function/MaskFragment;
 
     invoke-virtual {v1}, Lcom/commsource/studio/function/BaseSubFragment;->r0()Lcom/commsource/studio/ImageStudioViewModel;
@@ -114,15 +112,12 @@
 
     if-eqz v1, :cond_1
 
-    .line 3
     check-cast v1, Lcom/commsource/editengine/node/b;
 
     const/4 v2, 0x1
 
-    .line 4
     invoke-static {v1, v3, v2, v3}, Lcom/commsource/editengine/node/b;->K(Lcom/commsource/editengine/node/b;Lcom/commsource/easyeditor/utils/opengl/f;ILjava/lang/Object;)V
 
-    .line 5
     iget-object v1, p0, Lcom/commsource/studio/function/MaskFragment$onClickConfirm$1;->this$0:Lcom/commsource/studio/function/MaskFragment;
 
     invoke-virtual {v1}, Lcom/commsource/studio/function/BaseSubFragment;->r0()Lcom/commsource/studio/ImageStudioViewModel;
@@ -141,7 +136,6 @@
 
     invoke-static/range {v2 .. v7}, Lcom/commsource/studio/ImageStudioViewModel;->M(Lcom/commsource/studio/ImageStudioViewModel;Ljava/lang/String;ZLcotlin/jvm/u/a;ILjava/lang/Object;)V
 
-    .line 6
     new-instance v1, Lcom/commsource/studio/function/MaskFragment$onClickConfirm$1$a;
 
     invoke-direct {v1, p0}, Lcom/commsource/studio/function/MaskFragment$onClickConfirm$1$a;-><init>(Lcom/commsource/studio/function/MaskFragment$onClickConfirm$1;)V
@@ -150,7 +144,6 @@
 
     goto :goto_1
 
-    .line 7
     :cond_1
     new-instance v1, Lcotlin/TypeCastException;
 
@@ -162,7 +155,6 @@
 
     throw v1
 
-    .line 8
     :cond_2
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

@@ -40,7 +40,6 @@
 
     invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     new-instance v0, Lcotlin/collections/v$a;
 
     invoke-direct {v0, p0}, Lcotlin/collections/v$a;-><init>(Ljava/util/Enumeration;)V

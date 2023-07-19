@@ -42,7 +42,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/function/defocus/DeFocusFragment$c;->a:Lcom/commsource/studio/function/defocus/DeFocusFragment;
 
     invoke-static {v1}, Lcom/commsource/studio/function/defocus/DeFocusFragment;->G1(Lcom/commsource/studio/function/defocus/DeFocusFragment;)V

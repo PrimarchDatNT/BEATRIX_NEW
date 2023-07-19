@@ -34,7 +34,6 @@
 .method constructor <init>(Lcom/google/firebase/crashlytics/internal/common/i;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/firebase/crashlytics/internal/common/i$e;->a:Lcom/google/firebase/crashlytics/internal/common/i;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -52,7 +51,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/crashlytics/internal/common/i$e;->a:Lcom/google/firebase/crashlytics/internal/common/i;
 
     invoke-static {v0}, Lcom/google/firebase/crashlytics/internal/common/i;->u(Lcom/google/firebase/crashlytics/internal/common/i;)V
@@ -70,7 +68,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/firebase/crashlytics/internal/common/i$e;->a()Ljava/lang/Void;
 
     move-result-object v0

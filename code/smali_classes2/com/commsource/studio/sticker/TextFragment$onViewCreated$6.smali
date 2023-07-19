@@ -54,7 +54,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/sticker/TextFragment$onViewCreated$6;->a:Lcom/commsource/studio/sticker/TextFragment;
 
     invoke-virtual {v1}, Lcom/commsource/beautyplus/i0/a;->c()Z
@@ -63,7 +62,6 @@
 
     if-eqz v1, :cond_2
 
-    .line 2
     invoke-virtual {p1}, Ljava/lang/Boolean;->booleanValue()Z
 
     move-result p1
@@ -72,7 +70,6 @@
 
     if-nez p1, :cond_0
 
-    .line 3
     iget-object p1, p0, Lcom/commsource/studio/sticker/TextFragment$onViewCreated$6;->a:Lcom/commsource/studio/sticker/TextFragment;
 
     invoke-static {p1}, Lcom/commsource/studio/sticker/TextFragment;->U(Lcom/commsource/studio/sticker/TextFragment;)Lcom/commsource/beautyplus/f0/cc;
@@ -99,7 +96,6 @@
 
     goto :goto_1
 
-    .line 4
     :cond_0
     iget-object p1, p0, Lcom/commsource/studio/sticker/TextFragment$onViewCreated$6;->a:Lcom/commsource/studio/sticker/TextFragment;
 
@@ -153,7 +149,6 @@
 
     invoke-static/range {v2 .. v9}, Lcom/commsource/util/l0;->f(Landroid/view/View;FZJLcotlin/jvm/u/a;ILjava/lang/Object;)V
 
-    .line 5
     :cond_2
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -168,7 +163,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Ljava/lang/Boolean;
 
     invoke-virtual {p0, p1}, Lcom/commsource/studio/sticker/TextFragment$onViewCreated$6;->a(Ljava/lang/Boolean;)V

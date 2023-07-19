@@ -60,7 +60,6 @@
 .method public bridge synthetic invoke(Ljava/lang/Object;)Ljava/lang/Object;
     .locals 0
 
-    .line 1
     check-cast p1, Lkshark/h;
 
     invoke-virtual {p0, p1}, Lkshark/internal/PathFinder$visitInstance$fieldNamesAndValues$1;->invoke(Lkshark/h;)Z
@@ -85,7 +84,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 2
     invoke-virtual {p1}, Lkshark/h;->c()Lkshark/j;
 
     move-result-object p1

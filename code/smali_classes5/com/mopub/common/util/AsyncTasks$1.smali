@@ -27,7 +27,6 @@
 .method constructor <init>(Landroid/os/AsyncTask;[Ljava/lang/Object;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/mopub/common/util/AsyncTasks$1;->val$asyncTask:Landroid/os/AsyncTask;
 
     iput-object p2, p0, Lcom/mopub/common/util/AsyncTasks$1;->val$params:[Ljava/lang/Object;
@@ -42,7 +41,6 @@
 .method public run()V
     .locals 3
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/common/util/AsyncTasks$1;->val$asyncTask:Landroid/os/AsyncTask;
 
     invoke-static {}, Lcom/mopub/common/util/AsyncTasks;->access$000()Ljava/util/concurrent/Executor;

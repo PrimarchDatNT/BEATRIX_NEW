@@ -144,7 +144,6 @@
 
     invoke-static {}, Lcotlin/coroutines/intrinsics/a;->h()Ljava/lang/Object;
 
-    .line 1
     iget v0, p0, Lcotlinx/coroutines/flow/FlowKt__DelayKt$sample$2$invokeSuspend$$inlined$select$lambda$1;->label:I
 
     if-nez v0, :cond_1
@@ -155,7 +154,6 @@
 
     if-nez p1, :cond_0
 
-    .line 2
     iget-object p1, p0, Lcotlinx/coroutines/flow/FlowKt__DelayKt$sample$2$invokeSuspend$$inlined$select$lambda$1;->$ticker$inlined:Lcotlinx/coroutines/channels/y;
 
     new-instance v0, Lcotlinx/coroutines/flow/internal/ChildCancelledException;
@@ -164,7 +162,6 @@
 
     invoke-interface {p1, v0}, Lcotlinx/coroutines/channels/y;->d(Ljava/util/concurrent/CancellationException;)V
 
-    .line 3
     iget-object p1, p0, Lcotlinx/coroutines/flow/FlowKt__DelayKt$sample$2$invokeSuspend$$inlined$select$lambda$1;->$lastValue$inlined:Lcotlin/jvm/internal/Ref$ObjectRef;
 
     sget-object v0, Lcotlinx/coroutines/flow/internal/i;->b:Lcotlinx/coroutines/internal/c0;
@@ -173,13 +170,11 @@
 
     goto :goto_0
 
-    .line 4
     :cond_0
     iget-object v0, p0, Lcotlinx/coroutines/flow/FlowKt__DelayKt$sample$2$invokeSuspend$$inlined$select$lambda$1;->$lastValue$inlined:Lcotlin/jvm/internal/Ref$ObjectRef;
 
     iput-object p1, v0, Lcotlin/jvm/internal/Ref$ObjectRef;->element:Ljava/lang/Object;
 
-    .line 5
     :goto_0
     sget-object p1, Lcotlin/t1;->a:Lcotlin/t1;
 

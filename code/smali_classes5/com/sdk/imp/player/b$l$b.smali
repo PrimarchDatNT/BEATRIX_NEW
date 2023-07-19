@@ -27,7 +27,6 @@
 .method constructor <init>(Lcom/sdk/imp/player/b$l;I)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/sdk/imp/player/b$l$b;->b:Lcom/sdk/imp/player/b$l;
 
     iput p2, p0, Lcom/sdk/imp/player/b$l$b;->a:I
@@ -42,7 +41,6 @@
 .method public run()V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/sdk/imp/player/b$l$b;->b:Lcom/sdk/imp/player/b$l;
 
     iget v1, p0, Lcom/sdk/imp/player/b$l$b;->a:I

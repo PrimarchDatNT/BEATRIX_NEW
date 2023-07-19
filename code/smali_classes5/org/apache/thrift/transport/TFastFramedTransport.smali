@@ -39,7 +39,6 @@
 
     const/high16 v1, 0xfa0000
 
-    .line 1
     invoke-direct {p0, p1, v0, v1}, Lorg/apache/thrift/transport/TFastFramedTransport;-><init>(Lorg/apache/thrift/transport/TTransport;II)V
 
     return-void
@@ -50,7 +49,6 @@
 
     const/high16 v0, 0xfa0000
 
-    .line 2
     invoke-direct {p0, p1, p2, v0}, Lorg/apache/thrift/transport/TFastFramedTransport;-><init>(Lorg/apache/thrift/transport/TTransport;II)V
 
     return-void
@@ -59,26 +57,20 @@
 .method public constructor <init>(Lorg/apache/thrift/transport/TTransport;II)V
     .locals 2
 
-    .line 3
     invoke-direct {p0}, Lorg/apache/thrift/transport/TTransport;-><init>()V
 
     const/4 v0, 0x4
 
     new-array v0, v0, [B
 
-    .line 4
     iput-object v0, p0, Lorg/apache/thrift/transport/TFastFramedTransport;->i32buf:[B
 
-    .line 5
     iput-object p1, p0, Lorg/apache/thrift/transport/TFastFramedTransport;->underlying:Lorg/apache/thrift/transport/TTransport;
 
-    .line 6
     iput p3, p0, Lorg/apache/thrift/transport/TFastFramedTransport;->maxLength:I
 
-    .line 7
     iput p2, p0, Lorg/apache/thrift/transport/TFastFramedTransport;->initialBufferCapacity:I
 
-    .line 8
     new-instance p1, Lorg/apache/thrift/transport/AutoExpandingBufferWriteTransport;
 
     const-wide/high16 v0, 0x3ff8000000000000L    # 1.5
@@ -87,7 +79,6 @@
 
     iput-object p1, p0, Lorg/apache/thrift/transport/TFastFramedTransport;->writeBuffer:Lorg/apache/thrift/transport/AutoExpandingBufferWriteTransport;
 
-    .line 9
     new-instance p1, Lorg/apache/thrift/transport/AutoExpandingBufferReadTransport;
 
     invoke-direct {p1, p2, v0, v1}, Lorg/apache/thrift/transport/AutoExpandingBufferReadTransport;-><init>(ID)V
@@ -105,7 +96,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lorg/apache/thrift/transport/TFastFramedTransport;->underlying:Lorg/apache/thrift/transport/TTransport;
 
     iget-object v1, p0, Lorg/apache/thrift/transport/TFastFramedTransport;->i32buf:[B
@@ -116,7 +106,6 @@
 
     invoke-virtual {v0, v1, v2, v3}, Lorg/apache/thrift/transport/TTransport;->readAll([BII)I
 
-    .line 2
     iget-object v0, p0, Lorg/apache/thrift/transport/TFastFramedTransport;->i32buf:[B
 
     invoke-static {v0}, Lorg/apache/thrift/transport/TFramedTransport;->decodeFrameSize([B)I
@@ -129,12 +118,10 @@
 
     if-ltz v0, :cond_1
 
-    .line 3
     iget v3, p0, Lorg/apache/thrift/transport/TFastFramedTransport;->maxLength:I
 
     if-gt v0, v3, :cond_0
 
-    .line 4
     iget-object v1, p0, Lorg/apache/thrift/transport/TFastFramedTransport;->readBuffer:Lorg/apache/thrift/transport/AutoExpandingBufferReadTransport;
 
     iget-object v2, p0, Lorg/apache/thrift/transport/TFastFramedTransport;->underlying:Lorg/apache/thrift/transport/TTransport;
@@ -143,11 +130,9 @@
 
     return-void
 
-    .line 5
     :cond_0
     invoke-virtual {p0}, Lorg/apache/thrift/transport/TFastFramedTransport;->close()V
 
-    .line 6
     new-instance v3, Lorg/apache/thrift/transport/TTransportException;
 
     new-instance v4, Ljava/lang/StringBuilder;
@@ -178,11 +163,9 @@
 
     throw v3
 
-    .line 7
     :cond_1
     invoke-virtual {p0}, Lorg/apache/thrift/transport/TFastFramedTransport;->close()V
 
-    .line 8
     new-instance v3, Lorg/apache/thrift/transport/TTransportException;
 
     new-instance v4, Ljava/lang/StringBuilder;
@@ -211,7 +194,6 @@
 .method public clear()V
     .locals 4
 
-    .line 1
     new-instance v0, Lorg/apache/thrift/transport/AutoExpandingBufferReadTransport;
 
     iget v1, p0, Lorg/apache/thrift/transport/TFastFramedTransport;->initialBufferCapacity:I
@@ -228,7 +210,6 @@
 .method public close()V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lorg/apache/thrift/transport/TFastFramedTransport;->underlying:Lorg/apache/thrift/transport/TTransport;
 
     invoke-virtual {v0}, Lorg/apache/thrift/transport/TTransport;->close()V
@@ -239,7 +220,6 @@
 .method public consumeBuffer(I)V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lorg/apache/thrift/transport/TFastFramedTransport;->readBuffer:Lorg/apache/thrift/transport/AutoExpandingBufferReadTransport;
 
     invoke-virtual {v0, p1}, Lorg/apache/thrift/transport/AutoExpandingBufferReadTransport;->consumeBuffer(I)V
@@ -255,19 +235,16 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lorg/apache/thrift/transport/TFastFramedTransport;->writeBuffer:Lorg/apache/thrift/transport/AutoExpandingBufferWriteTransport;
 
     invoke-virtual {v0}, Lorg/apache/thrift/transport/AutoExpandingBufferWriteTransport;->getPos()I
 
     move-result v0
 
-    .line 2
     iget-object v1, p0, Lorg/apache/thrift/transport/TFastFramedTransport;->i32buf:[B
 
     invoke-static {v0, v1}, Lorg/apache/thrift/transport/TFramedTransport;->encodeFrameSize(I[B)V
 
-    .line 3
     iget-object v1, p0, Lorg/apache/thrift/transport/TFastFramedTransport;->underlying:Lorg/apache/thrift/transport/TTransport;
 
     iget-object v2, p0, Lorg/apache/thrift/transport/TFastFramedTransport;->i32buf:[B
@@ -278,7 +255,6 @@
 
     invoke-virtual {v1, v2, v3, v4}, Lorg/apache/thrift/transport/TTransport;->write([BII)V
 
-    .line 4
     iget-object v1, p0, Lorg/apache/thrift/transport/TFastFramedTransport;->underlying:Lorg/apache/thrift/transport/TTransport;
 
     iget-object v2, p0, Lorg/apache/thrift/transport/TFastFramedTransport;->writeBuffer:Lorg/apache/thrift/transport/AutoExpandingBufferWriteTransport;
@@ -293,12 +269,10 @@
 
     invoke-virtual {v1, v2, v3, v0}, Lorg/apache/thrift/transport/TTransport;->write([BII)V
 
-    .line 5
     iget-object v0, p0, Lorg/apache/thrift/transport/TFastFramedTransport;->writeBuffer:Lorg/apache/thrift/transport/AutoExpandingBufferWriteTransport;
 
     invoke-virtual {v0}, Lorg/apache/thrift/transport/AutoExpandingBufferWriteTransport;->reset()V
 
-    .line 6
     iget-object v0, p0, Lorg/apache/thrift/transport/TFastFramedTransport;->underlying:Lorg/apache/thrift/transport/TTransport;
 
     invoke-virtual {v0}, Lorg/apache/thrift/transport/TTransport;->flush()V
@@ -309,7 +283,6 @@
 .method public getBuffer()[B
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lorg/apache/thrift/transport/TFastFramedTransport;->readBuffer:Lorg/apache/thrift/transport/AutoExpandingBufferReadTransport;
 
     invoke-virtual {v0}, Lorg/apache/thrift/transport/AutoExpandingBufferReadTransport;->getBuffer()[B
@@ -322,7 +295,6 @@
 .method public getBufferPosition()I
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lorg/apache/thrift/transport/TFastFramedTransport;->readBuffer:Lorg/apache/thrift/transport/AutoExpandingBufferReadTransport;
 
     invoke-virtual {v0}, Lorg/apache/thrift/transport/AutoExpandingBufferReadTransport;->getBufferPosition()I
@@ -335,7 +307,6 @@
 .method public getBytesRemainingInBuffer()I
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lorg/apache/thrift/transport/TFastFramedTransport;->readBuffer:Lorg/apache/thrift/transport/AutoExpandingBufferReadTransport;
 
     invoke-virtual {v0}, Lorg/apache/thrift/transport/AutoExpandingBufferReadTransport;->getBytesRemainingInBuffer()I
@@ -348,7 +319,6 @@
 .method public isOpen()Z
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lorg/apache/thrift/transport/TFastFramedTransport;->underlying:Lorg/apache/thrift/transport/TTransport;
 
     invoke-virtual {v0}, Lorg/apache/thrift/transport/TTransport;->isOpen()Z
@@ -366,7 +336,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lorg/apache/thrift/transport/TFastFramedTransport;->underlying:Lorg/apache/thrift/transport/TTransport;
 
     invoke-virtual {v0}, Lorg/apache/thrift/transport/TTransport;->open()V
@@ -382,7 +351,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lorg/apache/thrift/transport/TFastFramedTransport;->readBuffer:Lorg/apache/thrift/transport/AutoExpandingBufferReadTransport;
 
     invoke-virtual {v0, p1, p2, p3}, Lorg/apache/thrift/transport/AutoExpandingBufferReadTransport;->read([BII)I
@@ -393,11 +361,9 @@
 
     return v0
 
-    .line 2
     :cond_0
     invoke-direct {p0}, Lorg/apache/thrift/transport/TFastFramedTransport;->readFrame()V
 
-    .line 3
     iget-object v0, p0, Lorg/apache/thrift/transport/TFastFramedTransport;->readBuffer:Lorg/apache/thrift/transport/AutoExpandingBufferReadTransport;
 
     invoke-virtual {v0, p1, p2, p3}, Lorg/apache/thrift/transport/AutoExpandingBufferReadTransport;->read([BII)I
@@ -415,7 +381,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lorg/apache/thrift/transport/TFastFramedTransport;->writeBuffer:Lorg/apache/thrift/transport/AutoExpandingBufferWriteTransport;
 
     invoke-virtual {v0, p1, p2, p3}, Lorg/apache/thrift/transport/AutoExpandingBufferWriteTransport;->write([BII)V

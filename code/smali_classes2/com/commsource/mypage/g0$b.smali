@@ -25,7 +25,6 @@
 .method constructor <init>(Lcom/commsource/mypage/g0;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/mypage/g0$b;->a:Lcom/commsource/mypage/g0;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -42,7 +41,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/mypage/g0$b;->a:Lcom/commsource/mypage/g0;
 
     invoke-static {v1}, Lcom/commsource/mypage/g0;->E(Lcom/commsource/mypage/g0;)Lcom/commsource/mypage/album/BpAlbumViewModel;
@@ -61,12 +59,10 @@
 
     const-string v1, "group_photo_swipe"
 
-    .line 2
     invoke-static {v1}, Lcom/commsource/statistics/i;->p(Ljava/lang/String;)V
 
     goto :goto_0
 
-    .line 3
     :cond_0
     iget-object v1, p0, Lcom/commsource/mypage/g0$b;->a:Lcom/commsource/mypage/g0;
 
@@ -86,10 +82,8 @@
 
     const-string v1, "handover_swipe"
 
-    .line 4
     invoke-static {v1}, Lcom/commsource/statistics/i;->p(Ljava/lang/String;)V
 
-    .line 5
     :cond_1
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -104,14 +98,12 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/mypage/g0$b;->a:Lcom/commsource/mypage/g0;
 
     const/4 v1, 0x0
 
     invoke-static {v0, p2, v1}, Lcom/commsource/mypage/g0;->D(Lcom/commsource/mypage/g0;IZ)V
 
-    .line 2
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

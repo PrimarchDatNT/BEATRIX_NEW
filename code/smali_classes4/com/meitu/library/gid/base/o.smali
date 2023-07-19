@@ -37,7 +37,6 @@
 
     const/4 v1, 0x0
 
-    .line 1
     sput-boolean v1, Lcom/meitu/library/gid/base/o;->a:Z
 
     if-eqz v1, :cond_0
@@ -49,7 +48,6 @@
     :cond_0
     const-string v1, "gid"
 
-    .line 2
     :goto_0
     sput-object v1, Lcom/meitu/library/gid/base/o;->f:Ljava/lang/String;
 
@@ -61,7 +59,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void

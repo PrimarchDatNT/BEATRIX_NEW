@@ -55,7 +55,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 2
     new-instance v1, Lcom/commsource/store/XDownloadButton$Executer;
 
     iget-object v2, p0, Lcom/commsource/store/XDownloadButton$executer$2;->this$0:Lcom/commsource/store/XDownloadButton;
@@ -74,7 +73,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/store/XDownloadButton$executer$2;->invoke()Lcom/commsource/store/XDownloadButton$Executer;
 
     move-result-object v1

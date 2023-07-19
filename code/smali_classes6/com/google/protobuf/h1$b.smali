@@ -60,19 +60,14 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/google/protobuf/h1$b;->a:Lcom/google/protobuf/WireFormat$FieldType;
 
-    .line 3
     iput-object p2, p0, Lcom/google/protobuf/h1$b;->b:Ljava/lang/Object;
 
-    .line 4
     iput-object p3, p0, Lcom/google/protobuf/h1$b;->c:Lcom/google/protobuf/WireFormat$FieldType;
 
-    .line 5
     iput-object p4, p0, Lcom/google/protobuf/h1$b;->d:Ljava/lang/Object;
 
     return-void

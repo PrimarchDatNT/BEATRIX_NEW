@@ -21,34 +21,28 @@
 .method private constructor <init>()V
     .locals 2
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const-string v0, "HttpManager"
 
-    .line 2
     iput-object v0, p0, Lcom/meitu/global/billing/net/s;->a:Ljava/lang/String;
 
-    .line 3
     new-instance v0, Lcom/meitu/global/billing/net/n;
 
     invoke-direct {v0}, Lcom/meitu/global/billing/net/n;-><init>()V
 
     iput-object v0, p0, Lcom/meitu/global/billing/net/s;->b:Lcom/meitu/global/billing/net/n;
 
-    .line 4
     const-class v0, Lcom/meitu/global/billing/net/OkHttpDataFetcher;
 
     invoke-static {v0}, Lcom/meitu/global/billing/net/r;->d(Ljava/lang/Class;)V
 
-    .line 5
     const-class v0, Lcom/google/gson/JsonObject;
 
     const-class v1, Lcom/meitu/global/billing/net/u;
 
     invoke-virtual {p0, v0, v1}, Lcom/meitu/global/billing/net/s;->v(Ljava/lang/Class;Ljava/lang/Class;)V
 
-    .line 6
     new-instance v0, Landroid/os/HandlerThread;
 
     const-string v1, "HttpThread"
@@ -57,10 +51,8 @@
 
     iput-object v0, p0, Lcom/meitu/global/billing/net/s;->c:Landroid/os/HandlerThread;
 
-    .line 7
     invoke-virtual {v0}, Landroid/os/HandlerThread;->start()V
 
-    .line 8
     new-instance v0, Landroid/os/Handler;
 
     iget-object v1, p0, Lcom/meitu/global/billing/net/s;->c:Landroid/os/HandlerThread;
@@ -96,10 +88,8 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     invoke-interface {p1, p2}, Lcom/meitu/global/billing/net/i;->a(Lcom/meitu/global/billing/net/DataModel;)V
 
-    .line 2
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -113,30 +103,25 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/meitu/global/billing/net/s;->e:Lcom/meitu/global/billing/net/s;
 
     if-nez v1, :cond_1
 
-    .line 2
     const-class v1, Lcom/meitu/global/billing/net/s;
 
     monitor-enter v1
 
-    .line 3
     :try_start_0
     sget-object v2, Lcom/meitu/global/billing/net/s;->e:Lcom/meitu/global/billing/net/s;
 
     if-nez v2, :cond_0
 
-    .line 4
     new-instance v2, Lcom/meitu/global/billing/net/s;
 
     invoke-direct {v2}, Lcom/meitu/global/billing/net/s;-><init>()V
 
     sput-object v2, Lcom/meitu/global/billing/net/s;->e:Lcom/meitu/global/billing/net/s;
 
-    .line 5
     :cond_0
     monitor-exit v1
 
@@ -153,7 +138,6 @@
 
     throw v2
 
-    .line 6
     :cond_1
     :goto_0
     sget-object v1, Lcom/meitu/global/billing/net/s;->e:Lcom/meitu/global/billing/net/s;
@@ -188,13 +172,11 @@
 
     if-eqz p4, :cond_0
 
-    .line 1
     :try_start_0
     invoke-virtual {p4}, Lokhttp3/ResponseBody;->string()Ljava/lang/String;
 
     move-result-object p2
 
-    .line 2
     iget-object p3, p0, Lcom/meitu/global/billing/net/s;->a:Ljava/lang/String;
 
     new-instance p4, Ljava/lang/StringBuilder;
@@ -221,7 +203,6 @@
 
     invoke-static {p3, p4}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 3
     iget-object p3, p0, Lcom/meitu/global/billing/net/s;->b:Lcom/meitu/global/billing/net/n;
 
     const-class p4, Lcom/google/gson/JsonObject;
@@ -230,12 +211,10 @@
 
     move-result-object p3
 
-    .line 4
     invoke-interface {p3, p1, p2}, Lcom/meitu/global/billing/net/m;->a(Lcom/meitu/global/billing/net/DataModel;Ljava/lang/String;)V
 
     goto :goto_0
 
-    .line 5
     :cond_0
     invoke-virtual {p3}, Lcom/meitu/global/billing/net/HttpConstant$ErrorMsg;->errorMsg()Ljava/lang/String;
 
@@ -251,7 +230,6 @@
     :catch_0
     move-exception p2
 
-    .line 6
     iget-object p3, p0, Lcom/meitu/global/billing/net/s;->a:Ljava/lang/String;
 
     new-instance p4, Ljava/lang/StringBuilder;
@@ -274,7 +252,6 @@
 
     invoke-static {p3, p4, p2}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
 
-    .line 7
     sget-object p2, Lcom/meitu/global/billing/net/HttpConstant$ErrorMsg;->INNER_ERROR:Lcom/meitu/global/billing/net/HttpConstant$ErrorMsg;
 
     invoke-virtual {p2}, Lcom/meitu/global/billing/net/HttpConstant$ErrorMsg;->errorMsg()Ljava/lang/String;
@@ -288,7 +265,6 @@
     :catch_1
     move-exception p2
 
-    .line 8
     iget-object p3, p0, Lcom/meitu/global/billing/net/s;->a:Ljava/lang/String;
 
     new-instance p4, Ljava/lang/StringBuilder;
@@ -311,7 +287,6 @@
 
     invoke-static {p3, p4, p2}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
 
-    .line 9
     sget-object p2, Lcom/meitu/global/billing/net/HttpConstant$ErrorMsg;->IO_ERROR:Lcom/meitu/global/billing/net/HttpConstant$ErrorMsg;
 
     invoke-virtual {p2}, Lcom/meitu/global/billing/net/HttpConstant$ErrorMsg;->errorMsg()Ljava/lang/String;
@@ -320,7 +295,6 @@
 
     iput-object p2, p1, Lcom/meitu/global/billing/net/DataModel;->c:Ljava/lang/String;
 
-    .line 10
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -334,7 +308,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     const-class v1, Lcom/meitu/global/billing/net/OkHttpDataFetcher;
 
     invoke-static {v1}, Lcom/meitu/global/billing/net/r;->a(Ljava/lang/Class;)Lcom/meitu/global/billing/net/k;
@@ -363,15 +336,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p1}, Lcom/meitu/global/billing/net/http/e$b;->g()Lcom/meitu/global/billing/net/q;
 
     move-result-object p1
 
-    .line 2
     iget-object v1, p1, Lcom/meitu/global/billing/net/DataModel;->b:Ljava/lang/String;
 
-    .line 3
     iget-object v2, p0, Lcom/meitu/global/billing/net/s;->a:Ljava/lang/String;
 
     new-instance v3, Ljava/lang/StringBuilder;
@@ -390,7 +360,6 @@
 
     invoke-static {v2, v3}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 4
     const-class v2, Lcom/meitu/global/billing/net/OkHttpDataFetcher;
 
     invoke-static {v2}, Lcom/meitu/global/billing/net/r;->a(Ljava/lang/Class;)Lcom/meitu/global/billing/net/k;
@@ -407,7 +376,6 @@
 
     invoke-virtual {v2, v1, v3, v4}, Lcom/meitu/global/billing/net/OkHttpDataFetcher;->b(Ljava/lang/String;Ljava/util/Map;Lcom/meitu/global/billing/net/v;)V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -420,15 +388,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p1}, Lcom/meitu/global/billing/net/http/e$b;->h()Lcom/meitu/global/billing/net/w;
 
     move-result-object p1
 
-    .line 2
     iget-object v1, p1, Lcom/meitu/global/billing/net/DataModel;->b:Ljava/lang/String;
 
-    .line 3
     iget-object v2, p0, Lcom/meitu/global/billing/net/s;->a:Ljava/lang/String;
 
     new-instance v3, Ljava/lang/StringBuilder;
@@ -447,7 +412,6 @@
 
     invoke-static {v2, v3}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 4
     const-class v2, Lcom/meitu/global/billing/net/OkHttpDataFetcher;
 
     invoke-static {v2}, Lcom/meitu/global/billing/net/r;->a(Ljava/lang/Class;)Lcom/meitu/global/billing/net/k;
@@ -466,7 +430,6 @@
 
     invoke-virtual {v2, v1, v3, v4, v5}, Lcom/meitu/global/billing/net/OkHttpDataFetcher;->a(Ljava/lang/String;Ljava/util/Map;Ljava/util/Map;Lcom/meitu/global/billing/net/v;)V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -479,7 +442,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     const-class v1, Lcom/meitu/global/billing/net/OkHttpDataFetcher;
 
     invoke-static {v1}, Lcom/meitu/global/billing/net/r;->a(Ljava/lang/Class;)Lcom/meitu/global/billing/net/k;
@@ -516,7 +478,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0, p2, p3, p4, p5}, Lcom/meitu/global/billing/net/s;->c(Lcom/meitu/global/billing/net/DataModel;ZLcom/meitu/global/billing/net/HttpConstant$ErrorMsg;Lokhttp3/ResponseBody;)Lcom/meitu/global/billing/net/DataModel;
 
     move-result-object p2
@@ -535,7 +496,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0, p2, p3, p4, p5}, Lcom/meitu/global/billing/net/s;->c(Lcom/meitu/global/billing/net/DataModel;ZLcom/meitu/global/billing/net/HttpConstant$ErrorMsg;Lokhttp3/ResponseBody;)Lcom/meitu/global/billing/net/DataModel;
 
     move-result-object p2
@@ -554,7 +514,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0, p2, p3, p4, p5}, Lcom/meitu/global/billing/net/s;->c(Lcom/meitu/global/billing/net/DataModel;ZLcom/meitu/global/billing/net/HttpConstant$ErrorMsg;Lokhttp3/ResponseBody;)Lcom/meitu/global/billing/net/DataModel;
 
     move-result-object p2
@@ -575,7 +534,6 @@
 
     if-eqz p2, :cond_0
 
-    .line 1
     iget-object p2, p0, Lcom/meitu/global/billing/net/p;->h:Ljava/lang/String;
 
     iget-object p0, p0, Lcom/meitu/global/billing/net/p;->i:Ljava/lang/String;
@@ -591,10 +549,8 @@
 
     const-string p2, ""
 
-    .line 2
     invoke-interface {p1, p0, p3, p2}, Lcom/meitu/global/billing/net/o;->b(ZLcom/meitu/global/billing/net/HttpConstant$ErrorMsg;Ljava/lang/String;)V
 
-    .line 3
     :cond_1
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -611,10 +567,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p1, Lcom/meitu/global/billing/net/DataModel;->b:Ljava/lang/String;
 
-    .line 2
     iget-object v2, p0, Lcom/meitu/global/billing/net/s;->a:Ljava/lang/String;
 
     new-instance v3, Ljava/lang/StringBuilder;
@@ -633,7 +587,6 @@
 
     invoke-static {v2, v3}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 3
     iget-object v2, p0, Lcom/meitu/global/billing/net/s;->d:Landroid/os/Handler;
 
     new-instance v3, Lcom/meitu/global/billing/net/e;
@@ -642,7 +595,6 @@
 
     invoke-virtual {v2, v3}, Landroid/os/Handler;->post(Ljava/lang/Runnable;)Z
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -666,7 +618,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/global/billing/net/s;->d:Landroid/os/Handler;
 
     new-instance v2, Lcom/meitu/global/billing/net/a;
@@ -675,7 +626,6 @@
 
     invoke-virtual {v1, v2}, Landroid/os/Handler;->post(Ljava/lang/Runnable;)Z
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -699,7 +649,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/global/billing/net/s;->d:Landroid/os/Handler;
 
     new-instance v2, Lcom/meitu/global/billing/net/f;
@@ -708,7 +657,6 @@
 
     invoke-virtual {v1, v2}, Landroid/os/Handler;->post(Ljava/lang/Runnable;)Z
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -732,10 +680,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p1, Lcom/meitu/global/billing/net/DataModel;->b:Ljava/lang/String;
 
-    .line 2
     iget-object v2, p0, Lcom/meitu/global/billing/net/s;->a:Ljava/lang/String;
 
     new-instance v3, Ljava/lang/StringBuilder;
@@ -754,7 +700,6 @@
 
     invoke-static {v2, v3}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 3
     iget-object v2, p0, Lcom/meitu/global/billing/net/s;->d:Landroid/os/Handler;
 
     new-instance v3, Lcom/meitu/global/billing/net/h;
@@ -763,7 +708,6 @@
 
     invoke-virtual {v2, v3}, Landroid/os/Handler;->post(Ljava/lang/Runnable;)Z
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -837,12 +781,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/global/billing/net/s;->b:Lcom/meitu/global/billing/net/n;
 
     invoke-virtual {v1, p1, p2}, Lcom/meitu/global/billing/net/n;->b(Ljava/lang/Class;Ljava/lang/Class;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -868,12 +810,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/global/billing/net/s;->b:Lcom/meitu/global/billing/net/n;
 
     invoke-virtual {v1, p1, p2}, Lcom/meitu/global/billing/net/n;->c(Ljava/lang/Class;Ljava/lang/Class;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

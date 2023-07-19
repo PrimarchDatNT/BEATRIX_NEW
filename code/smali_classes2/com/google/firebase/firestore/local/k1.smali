@@ -34,16 +34,12 @@
 .method constructor <init>(Lcom/google/firebase/firestore/local/n1;Lcom/google/firebase/firestore/local/i;Lcom/google/firebase/firestore/m0/g;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/google/firebase/firestore/local/k1;->a:Lcom/google/firebase/firestore/local/n1;
 
-    .line 3
     iput-object p2, p0, Lcom/google/firebase/firestore/local/k1;->b:Lcom/google/firebase/firestore/local/i;
 
-    .line 4
     invoke-virtual {p3}, Lcom/google/firebase/firestore/m0/g;->b()Z
 
     move-result p1
@@ -62,7 +58,6 @@
     :goto_0
     iput-object p1, p0, Lcom/google/firebase/firestore/local/k1;->c:Ljava/lang/String;
 
-    .line 5
     sget-object p1, Lcom/google/firebase/firestore/remote/c0;->s:Lcom/google/protobuf/ByteString;
 
     iput-object p1, p0, Lcom/google/firebase/firestore/local/k1;->e:Lcom/google/protobuf/ByteString;
@@ -77,7 +72,6 @@
 
     const/4 v1, 0x1
 
-    .line 1
     :try_start_0
     array-length v2, p2
 
@@ -85,28 +79,23 @@
 
     if-ge v2, v3, :cond_0
 
-    .line 2
     iget-object p1, p0, Lcom/google/firebase/firestore/local/k1;->b:Lcom/google/firebase/firestore/local/i;
 
-    .line 3
     invoke-static {p2}, Lcom/google/firebase/firestore/proto/n;->fi([B)Lcom/google/firebase/firestore/proto/n;
 
     move-result-object p2
 
-    .line 4
     invoke-virtual {p1, p2}, Lcom/google/firebase/firestore/local/i;->c(Lcom/google/firebase/firestore/proto/n;)Lcom/google/firebase/firestore/model/n/f;
 
     move-result-object p1
 
     return-object p1
 
-    .line 5
     :cond_0
     new-instance v2, Lcom/google/firebase/firestore/local/k1$a;
 
     invoke-direct {v2, p2}, Lcom/google/firebase/firestore/local/k1$a;-><init>([B)V
 
-    .line 6
     :goto_0
     invoke-static {v2}, Lcom/google/firebase/firestore/local/k1$a;->b(Lcom/google/firebase/firestore/local/k1$a;)Z
 
@@ -114,7 +103,6 @@
 
     if-eqz p2, :cond_1
 
-    .line 7
     invoke-virtual {v2}, Lcom/google/firebase/firestore/local/k1$a;->d()I
 
     move-result p2
@@ -123,7 +111,6 @@
 
     add-int/2addr p2, v1
 
-    .line 8
     iget-object v4, p0, Lcom/google/firebase/firestore/local/k1;->a:Lcom/google/firebase/firestore/local/n1;
 
     const-string v5, "SELECT SUBSTR(mutations, ?, ?) FROM mutations WHERE uid = ? AND batch_id = ?"
@@ -136,7 +123,6 @@
 
     new-array v5, v5, [Ljava/lang/Object;
 
-    .line 9
     invoke-static {p2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object p2
@@ -167,26 +153,21 @@
 
     move-result-object p2
 
-    .line 10
     invoke-virtual {p2, v2}, Lcom/google/firebase/firestore/local/n1$d;->b(Lcom/google/firebase/firestore/util/m;)I
 
     goto :goto_0
 
-    .line 11
     :cond_1
     invoke-virtual {v2}, Lcom/google/firebase/firestore/local/k1$a;->e()Lcom/google/protobuf/ByteString;
 
     move-result-object p1
 
-    .line 12
     iget-object p2, p0, Lcom/google/firebase/firestore/local/k1;->b:Lcom/google/firebase/firestore/local/i;
 
-    .line 13
     invoke-static {p1}, Lcom/google/firebase/firestore/proto/n;->Zh(Lcom/google/protobuf/ByteString;)Lcom/google/firebase/firestore/proto/n;
 
     move-result-object p1
 
-    .line 14
     invoke-virtual {p2, p1}, Lcom/google/firebase/firestore/local/i;->c(Lcom/google/firebase/firestore/proto/n;)Lcom/google/firebase/firestore/model/n/f;
 
     move-result-object p1
@@ -204,7 +185,6 @@
 
     const-string p1, "MutationBatch failed to parse: %s"
 
-    .line 15
     invoke-static {p1, p2}, Lcom/google/firebase/firestore/util/b;->a(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/AssertionError;
 
     move-result-object p1
@@ -217,7 +197,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-interface {p2, v0}, Landroid/database/Cursor;->getInt(I)I
 
     move-result v0
@@ -242,7 +221,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-interface {p2, v0}, Landroid/database/Cursor;->getInt(I)I
 
     move-result v0
@@ -267,12 +245,10 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-interface {p3, v0}, Landroid/database/Cursor;->getInt(I)I
 
     move-result v0
 
-    .line 2
     invoke-static {v0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v1
@@ -283,7 +259,6 @@
 
     if-nez v1, :cond_0
 
-    .line 3
     invoke-static {v0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v1
@@ -292,7 +267,6 @@
 
     const/4 p1, 0x1
 
-    .line 4
     invoke-interface {p3, p1}, Landroid/database/Cursor;->getBlob(I)[B
 
     move-result-object p1
@@ -310,7 +284,6 @@
 .method static synthetic e(Lcom/google/firebase/firestore/model/n/f;Lcom/google/firebase/firestore/model/n/f;)I
     .locals 0
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/firebase/firestore/model/n/f;->e()I
 
     move-result p0
@@ -331,12 +304,10 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-interface {p3, v0}, Landroid/database/Cursor;->getInt(I)I
 
     move-result v0
 
-    .line 2
     invoke-interface {p1}, Ljava/util/List;->size()I
 
     move-result v1
@@ -347,7 +318,6 @@
 
     sub-int/2addr v1, v2
 
-    .line 3
     invoke-interface {p1, v1}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object v1
@@ -362,7 +332,6 @@
 
     return-void
 
-    .line 4
     :cond_0
     invoke-interface {p3, v2}, Landroid/database/Cursor;->getString(I)Ljava/lang/String;
 
@@ -372,7 +341,6 @@
 
     move-result-object v1
 
-    .line 5
     invoke-virtual {v1}, Lcom/google/firebase/firestore/model/a;->D()I
 
     move-result v1
@@ -384,7 +352,6 @@
     :cond_1
     const/4 p2, 0x2
 
-    .line 6
     invoke-interface {p3, p2}, Landroid/database/Cursor;->getBlob(I)[B
 
     move-result-object p2
@@ -403,7 +370,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-interface {p1, v0}, Landroid/database/Cursor;->getInt(I)I
 
     move-result v0
@@ -426,7 +392,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-interface {p1, v0}, Landroid/database/Cursor;->getString(I)Ljava/lang/String;
 
     move-result-object p1
@@ -439,7 +404,6 @@
 .method static synthetic i(Lcom/google/firebase/firestore/local/k1;Landroid/database/Cursor;)V
     .locals 2
 
-    .line 1
     iget v0, p0, Lcom/google/firebase/firestore/local/k1;->d:I
 
     const/4 v1, 0x0
@@ -462,7 +426,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-interface {p2, v0}, Landroid/database/Cursor;->getBlob(I)[B
 
     move-result-object p2
@@ -479,7 +442,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-interface {p1, v0}, Landroid/database/Cursor;->getString(I)Ljava/lang/String;
 
     move-result-object p1
@@ -488,7 +450,6 @@
 
     move-result-object p1
 
-    .line 2
     invoke-interface {p0, p1}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
     return-void
@@ -499,7 +460,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-interface {p1, v0}, Landroid/database/Cursor;->getBlob(I)[B
 
     move-result-object p1
@@ -516,12 +476,10 @@
 .method private m()V
     .locals 6
 
-    .line 1
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
 
-    .line 2
     iget-object v1, p0, Lcom/google/firebase/firestore/local/k1;->a:Lcom/google/firebase/firestore/local/n1;
 
     const-string v2, "SELECT uid FROM mutation_queues"
@@ -538,10 +496,8 @@
 
     const/4 v1, 0x0
 
-    .line 3
     iput v1, p0, Lcom/google/firebase/firestore/local/k1;->d:I
 
-    .line 4
     invoke-interface {v0}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
     move-result-object v0
@@ -561,7 +517,6 @@
 
     check-cast v2, Ljava/lang/String;
 
-    .line 5
     iget-object v4, p0, Lcom/google/firebase/firestore/local/k1;->a:Lcom/google/firebase/firestore/local/n1;
 
     const-string v5, "SELECT MAX(batch_id) FROM mutations WHERE uid = ?"
@@ -574,7 +529,6 @@
 
     aput-object v2, v3, v1
 
-    .line 6
     invoke-virtual {v4, v3}, Lcom/google/firebase/firestore/local/n1$d;->a([Ljava/lang/Object;)Lcom/google/firebase/firestore/local/n1$d;
 
     move-result-object v2
@@ -583,12 +537,10 @@
 
     move-result-object v3
 
-    .line 7
     invoke-virtual {v2, v3}, Lcom/google/firebase/firestore/local/n1$d;->d(Lcom/google/firebase/firestore/util/m;)V
 
     goto :goto_0
 
-    .line 8
     :cond_0
     iget v0, p0, Lcom/google/firebase/firestore/local/k1;->d:I
 
@@ -602,7 +554,6 @@
 .method private n()V
     .locals 4
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/firestore/local/k1;->a:Lcom/google/firebase/firestore/local/n1;
 
     const/4 v1, 0x3
@@ -617,7 +568,6 @@
 
     const/4 v2, -0x1
 
-    .line 2
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v2
@@ -628,7 +578,6 @@
 
     iget-object v2, p0, Lcom/google/firebase/firestore/local/k1;->e:Lcom/google/protobuf/ByteString;
 
-    .line 3
     invoke-virtual {v2}, Lcom/google/protobuf/ByteString;->toByteArray()[B
 
     move-result-object v2
@@ -639,7 +588,6 @@
 
     const-string v2, "INSERT OR REPLACE INTO mutation_queues (uid, last_acknowledged_batch_id, last_stream_token) VALUES (?, ?, ?)"
 
-    .line 4
     invoke-virtual {v0, v2, v1}, Lcom/google/firebase/firestore/local/n1;->q(Ljava/lang/String;[Ljava/lang/Object;)V
 
     return-void
@@ -650,7 +598,6 @@
 .method public N1()Lcom/google/protobuf/ByteString;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/firestore/local/k1;->e:Lcom/google/protobuf/ByteString;
 
     return-object v0
@@ -659,7 +606,6 @@
 .method public O1()V
     .locals 6
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/firebase/firestore/local/k1;->isEmpty()Z
 
     move-result v0
@@ -668,13 +614,11 @@
 
     return-void
 
-    .line 2
     :cond_0
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
 
-    .line 3
     iget-object v1, p0, Lcom/google/firebase/firestore/local/k1;->a:Lcom/google/firebase/firestore/local/n1;
 
     const-string v2, "SELECT path FROM document_mutations WHERE uid = ?"
@@ -693,7 +637,6 @@
 
     aput-object v4, v3, v5
 
-    .line 4
     invoke-virtual {v1, v3}, Lcom/google/firebase/firestore/local/n1$d;->a([Ljava/lang/Object;)Lcom/google/firebase/firestore/local/n1$d;
 
     move-result-object v1
@@ -702,10 +645,8 @@
 
     move-result-object v3
 
-    .line 5
     invoke-virtual {v1, v3}, Lcom/google/firebase/firestore/local/n1$d;->d(Lcom/google/firebase/firestore/util/m;)V
 
-    .line 6
     invoke-interface {v0}, Ljava/util/List;->isEmpty()Z
 
     move-result v1
@@ -716,7 +657,6 @@
 
     const-string v0, "Document leak -- detected dangling mutation references when queue is empty. Dangling keys: %s"
 
-    .line 7
     invoke-static {v1, v0, v2}, Lcom/google/firebase/firestore/util/b;->d(ZLjava/lang/String;[Ljava/lang/Object;)V
 
     return-void
@@ -736,12 +676,10 @@
         }
     .end annotation
 
-    .line 1
     new-instance v4, Ljava/util/ArrayList;
 
     invoke-direct {v4}, Ljava/util/ArrayList;-><init>()V
 
-    .line 2
     invoke-interface {p1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object p1
@@ -759,7 +697,6 @@
 
     check-cast v0, Lcom/google/firebase/firestore/model/e;
 
-    .line 3
     invoke-virtual {v0}, Lcom/google/firebase/firestore/model/e;->s()Lcom/google/firebase/firestore/model/k;
 
     move-result-object v0
@@ -772,7 +709,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_0
     new-instance p1, Lcom/google/firebase/firestore/local/n1$b;
 
@@ -786,7 +722,6 @@
 
     const v3, 0xf4240
 
-    .line 5
     invoke-static {v3}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v3
@@ -811,17 +746,14 @@
 
     invoke-direct/range {v0 .. v5}, Lcom/google/firebase/firestore/local/n1$b;-><init>(Lcom/google/firebase/firestore/local/n1;Ljava/lang/String;Ljava/util/List;Ljava/util/List;Ljava/lang/String;)V
 
-    .line 6
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
 
-    .line 7
     new-instance v1, Ljava/util/HashSet;
 
     invoke-direct {v1}, Ljava/util/HashSet;-><init>()V
 
-    .line 8
     :goto_1
     invoke-virtual {p1}, Lcom/google/firebase/firestore/local/n1$b;->b()Z
 
@@ -829,7 +761,6 @@
 
     if-eqz v2, :cond_1
 
-    .line 9
     invoke-virtual {p1}, Lcom/google/firebase/firestore/local/n1$b;->c()Lcom/google/firebase/firestore/local/n1$d;
 
     move-result-object v2
@@ -838,12 +769,10 @@
 
     move-result-object v3
 
-    .line 10
     invoke-virtual {v2, v3}, Lcom/google/firebase/firestore/local/n1$d;->d(Lcom/google/firebase/firestore/util/m;)V
 
     goto :goto_1
 
-    .line 11
     :cond_1
     invoke-virtual {p1}, Lcom/google/firebase/firestore/local/n1$b;->a()I
 
@@ -851,7 +780,6 @@
 
     if-le p1, v6, :cond_2
 
-    .line 12
     invoke-static {}, Lcom/google/firebase/firestore/local/j1;->a()Ljava/util/Comparator;
 
     move-result-object p1
@@ -871,7 +799,6 @@
 
     add-int/2addr p1, v0
 
-    .line 1
     iget-object v1, p0, Lcom/google/firebase/firestore/local/k1;->a:Lcom/google/firebase/firestore/local/n1;
 
     const-string v2, "SELECT batch_id, SUBSTR(mutations, 1, ?) FROM mutations WHERE uid = ? AND batch_id >= ? ORDER BY batch_id ASC LIMIT 1"
@@ -886,7 +813,6 @@
 
     const v3, 0xf4240
 
-    .line 2
     invoke-static {v3}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v3
@@ -915,7 +841,6 @@
 
     move-result-object v0
 
-    .line 3
     invoke-virtual {p1, v0}, Lcom/google/firebase/firestore/local/n1$d;->c(Lcom/google/common/base/n;)Ljava/lang/Object;
 
     move-result-object p1
@@ -930,7 +855,6 @@
     .annotation runtime Ljavax/annotation/j;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/firestore/local/k1;->a:Lcom/google/firebase/firestore/local/n1;
 
     const-string v1, "SELECT SUBSTR(mutations, 1, ?) FROM mutations WHERE uid = ? AND batch_id = ?"
@@ -945,7 +869,6 @@
 
     const v2, 0xf4240
 
-    .line 2
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v2
@@ -976,7 +899,6 @@
 
     move-result-object p1
 
-    .line 3
     invoke-virtual {v0, p1}, Lcom/google/firebase/firestore/local/n1$d;->c(Lcom/google/common/base/n;)Ljava/lang/Object;
 
     move-result-object p1
@@ -989,7 +911,6 @@
 .method public S1(Lcom/google/firebase/firestore/model/n/f;Lcom/google/protobuf/ByteString;)V
     .locals 0
 
-    .line 1
     invoke-static {p2}, Lcom/google/common/base/t;->E(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -998,7 +919,6 @@
 
     iput-object p1, p0, Lcom/google/firebase/firestore/local/k1;->e:Lcom/google/protobuf/ByteString;
 
-    .line 2
     invoke-direct {p0}, Lcom/google/firebase/firestore/local/k1;->n()V
 
     return-void
@@ -1020,27 +940,22 @@
         }
     .end annotation
 
-    .line 1
     iget v0, p0, Lcom/google/firebase/firestore/local/k1;->d:I
 
     add-int/lit8 v1, v0, 0x1
 
-    .line 2
     iput v1, p0, Lcom/google/firebase/firestore/local/k1;->d:I
 
-    .line 3
     new-instance v1, Lcom/google/firebase/firestore/model/n/f;
 
     invoke-direct {v1, v0, p1, p2, p3}, Lcom/google/firebase/firestore/model/n/f;-><init>(ILcom/google/firebase/Timestamp;Ljava/util/List;Ljava/util/List;)V
 
-    .line 4
     iget-object p1, p0, Lcom/google/firebase/firestore/local/k1;->b:Lcom/google/firebase/firestore/local/i;
 
     invoke-virtual {p1, v1}, Lcom/google/firebase/firestore/local/i;->i(Lcom/google/firebase/firestore/model/n/f;)Lcom/google/firebase/firestore/proto/n;
 
     move-result-object p1
 
-    .line 5
     iget-object p2, p0, Lcom/google/firebase/firestore/local/k1;->a:Lcom/google/firebase/firestore/local/n1;
 
     const/4 v2, 0x3
@@ -1053,7 +968,6 @@
 
     aput-object v4, v3, v5
 
-    .line 6
     invoke-static {v0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v4
@@ -1062,7 +976,6 @@
 
     aput-object v4, v3, v6
 
-    .line 7
     invoke-interface {p1}, Lcom/google/protobuf/i1;->P()[B
 
     move-result-object p1
@@ -1073,25 +986,20 @@
 
     const-string p1, "INSERT INTO mutations (uid, batch_id, mutations) VALUES (?, ?, ?)"
 
-    .line 8
     invoke-virtual {p2, p1, v3}, Lcom/google/firebase/firestore/local/n1;->q(Ljava/lang/String;[Ljava/lang/Object;)V
 
-    .line 9
     new-instance p1, Ljava/util/HashSet;
 
     invoke-direct {p1}, Ljava/util/HashSet;-><init>()V
 
-    .line 10
     iget-object p2, p0, Lcom/google/firebase/firestore/local/k1;->a:Lcom/google/firebase/firestore/local/n1;
 
     const-string v3, "INSERT INTO document_mutations (uid, path, batch_id) VALUES (?, ?, ?)"
 
-    .line 11
     invoke-virtual {p2, v3}, Lcom/google/firebase/firestore/local/n1;->y(Ljava/lang/String;)Landroid/database/sqlite/SQLiteStatement;
 
     move-result-object p2
 
-    .line 12
     invoke-interface {p3}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
     move-result-object p3
@@ -1109,12 +1017,10 @@
 
     check-cast v3, Lcom/google/firebase/firestore/model/n/e;
 
-    .line 13
     invoke-virtual {v3}, Lcom/google/firebase/firestore/model/n/e;->d()Lcom/google/firebase/firestore/model/e;
 
     move-result-object v3
 
-    .line 14
     invoke-interface {p1, v3}, Ljava/util/Set;->add(Ljava/lang/Object;)Z
 
     move-result v7
@@ -1123,7 +1029,6 @@
 
     goto :goto_0
 
-    .line 15
     :cond_0
     invoke-virtual {v3}, Lcom/google/firebase/firestore/model/e;->s()Lcom/google/firebase/firestore/model/k;
 
@@ -1133,7 +1038,6 @@
 
     move-result-object v7
 
-    .line 16
     iget-object v8, p0, Lcom/google/firebase/firestore/local/k1;->a:Lcom/google/firebase/firestore/local/n1;
 
     new-array v9, v2, [Ljava/lang/Object;
@@ -1152,7 +1056,6 @@
 
     invoke-virtual {v8, p2, v9}, Lcom/google/firebase/firestore/local/n1;->p(Landroid/database/sqlite/SQLiteStatement;[Ljava/lang/Object;)I
 
-    .line 17
     iget-object v7, p0, Lcom/google/firebase/firestore/local/k1;->a:Lcom/google/firebase/firestore/local/n1;
 
     invoke-virtual {v7}, Lcom/google/firebase/firestore/local/n1;->a()Lcom/google/firebase/firestore/local/f;
@@ -1190,7 +1093,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p1}, Lcom/google/firebase/firestore/model/e;->s()Lcom/google/firebase/firestore/model/k;
 
     move-result-object p1
@@ -1199,12 +1101,10 @@
 
     move-result-object p1
 
-    .line 2
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
 
-    .line 3
     iget-object v1, p0, Lcom/google/firebase/firestore/local/k1;->a:Lcom/google/firebase/firestore/local/n1;
 
     const-string v2, "SELECT m.batch_id, SUBSTR(m.mutations, 1, ?) FROM document_mutations dm, mutations m WHERE dm.uid = ? AND dm.path = ? AND dm.uid = m.uid AND dm.batch_id = m.batch_id ORDER BY dm.batch_id"
@@ -1219,7 +1119,6 @@
 
     const v3, 0xf4240
 
-    .line 4
     invoke-static {v3}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v3
@@ -1246,7 +1145,6 @@
 
     move-result-object v1
 
-    .line 5
     invoke-virtual {p1, v1}, Lcom/google/firebase/firestore/local/n1$d;->d(Lcom/google/firebase/firestore/util/m;)V
 
     return-object v0
@@ -1255,7 +1153,6 @@
 .method public V1(Lcom/google/protobuf/ByteString;)V
     .locals 0
 
-    .line 1
     invoke-static {p1}, Lcom/google/common/base/t;->E(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -1264,7 +1161,6 @@
 
     iput-object p1, p0, Lcom/google/firebase/firestore/local/k1;->e:Lcom/google/protobuf/ByteString;
 
-    .line 2
     invoke-direct {p0}, Lcom/google/firebase/firestore/local/k1;->n()V
 
     return-void
@@ -1273,32 +1169,26 @@
 .method public W1(Lcom/google/firebase/firestore/model/n/f;)V
     .locals 10
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/firestore/local/k1;->a:Lcom/google/firebase/firestore/local/n1;
 
     const-string v1, "DELETE FROM mutations WHERE uid = ? AND batch_id = ?"
 
-    .line 2
     invoke-virtual {v0, v1}, Lcom/google/firebase/firestore/local/n1;->y(Ljava/lang/String;)Landroid/database/sqlite/SQLiteStatement;
 
     move-result-object v0
 
-    .line 3
     iget-object v1, p0, Lcom/google/firebase/firestore/local/k1;->a:Lcom/google/firebase/firestore/local/n1;
 
     const-string v2, "DELETE FROM document_mutations WHERE uid = ? AND path = ? AND batch_id = ?"
 
-    .line 4
     invoke-virtual {v1, v2}, Lcom/google/firebase/firestore/local/n1;->y(Ljava/lang/String;)Landroid/database/sqlite/SQLiteStatement;
 
     move-result-object v1
 
-    .line 5
     invoke-virtual {p1}, Lcom/google/firebase/firestore/model/n/f;->e()I
 
     move-result v2
 
-    .line 6
     iget-object v3, p0, Lcom/google/firebase/firestore/local/k1;->a:Lcom/google/firebase/firestore/local/n1;
 
     const/4 v4, 0x2
@@ -1335,7 +1225,6 @@
     :goto_0
     new-array v3, v4, [Ljava/lang/Object;
 
-    .line 7
     iget-object v5, p0, Lcom/google/firebase/firestore/local/k1;->c:Ljava/lang/String;
 
     aput-object v5, v3, v7
@@ -1354,7 +1243,6 @@
 
     invoke-static {v0, v5, v3}, Lcom/google/firebase/firestore/util/b;->d(ZLjava/lang/String;[Ljava/lang/Object;)V
 
-    .line 8
     invoke-virtual {p1}, Lcom/google/firebase/firestore/model/n/f;->h()Ljava/util/List;
 
     move-result-object p1
@@ -1376,12 +1264,10 @@
 
     check-cast v0, Lcom/google/firebase/firestore/model/n/e;
 
-    .line 9
     invoke-virtual {v0}, Lcom/google/firebase/firestore/model/n/e;->d()Lcom/google/firebase/firestore/model/e;
 
     move-result-object v0
 
-    .line 10
     invoke-virtual {v0}, Lcom/google/firebase/firestore/model/e;->s()Lcom/google/firebase/firestore/model/k;
 
     move-result-object v3
@@ -1390,7 +1276,6 @@
 
     move-result-object v3
 
-    .line 11
     iget-object v5, p0, Lcom/google/firebase/firestore/local/k1;->a:Lcom/google/firebase/firestore/local/n1;
 
     const/4 v6, 0x3
@@ -1411,7 +1296,6 @@
 
     invoke-virtual {v5, v1, v6}, Lcom/google/firebase/firestore/local/n1;->p(Landroid/database/sqlite/SQLiteStatement;[Ljava/lang/Object;)I
 
-    .line 12
     iget-object v3, p0, Lcom/google/firebase/firestore/local/k1;->a:Lcom/google/firebase/firestore/local/n1;
 
     invoke-virtual {v3}, Lcom/google/firebase/firestore/local/n1;->v()Lcom/google/firebase/firestore/local/y0;
@@ -1439,7 +1323,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p1}, Lcom/google/firebase/firestore/core/e0;->s()Z
 
     move-result v0
@@ -1454,37 +1337,30 @@
 
     const-string v4, "CollectionGroup queries should be handled in LocalDocumentsView"
 
-    .line 2
     invoke-static {v0, v4, v3}, Lcom/google/firebase/firestore/util/b;->d(ZLjava/lang/String;[Ljava/lang/Object;)V
 
-    .line 3
     invoke-virtual {p1}, Lcom/google/firebase/firestore/core/e0;->n()Lcom/google/firebase/firestore/model/k;
 
     move-result-object p1
 
-    .line 4
     invoke-virtual {p1}, Lcom/google/firebase/firestore/model/a;->D()I
 
     move-result v0
 
     add-int/2addr v0, v1
 
-    .line 5
     invoke-static {p1}, Lcom/google/firebase/firestore/local/d;->d(Lcom/google/firebase/firestore/model/a;)Ljava/lang/String;
 
     move-result-object p1
 
-    .line 6
     invoke-static {p1}, Lcom/google/firebase/firestore/local/d;->g(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v3
 
-    .line 7
     new-instance v4, Ljava/util/ArrayList;
 
     invoke-direct {v4}, Ljava/util/ArrayList;-><init>()V
 
-    .line 8
     iget-object v5, p0, Lcom/google/firebase/firestore/local/k1;->a:Lcom/google/firebase/firestore/local/n1;
 
     const-string v6, "SELECT dm.batch_id, dm.path, SUBSTR(m.mutations, 1, ?) FROM document_mutations dm, mutations m WHERE dm.uid = ? AND dm.path >= ? AND dm.path < ? AND dm.uid = m.uid AND dm.batch_id = m.batch_id ORDER BY dm.batch_id"
@@ -1499,7 +1375,6 @@
 
     const v7, 0xf4240
 
-    .line 9
     invoke-static {v7}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v7
@@ -1526,7 +1401,6 @@
 
     move-result-object v0
 
-    .line 10
     invoke-virtual {p1, v0}, Lcom/google/firebase/firestore/local/n1$d;->d(Lcom/google/firebase/firestore/util/m;)V
 
     return-object v4
@@ -1543,12 +1417,10 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
 
-    .line 2
     iget-object v1, p0, Lcom/google/firebase/firestore/local/k1;->a:Lcom/google/firebase/firestore/local/n1;
 
     const-string v2, "SELECT batch_id, SUBSTR(mutations, 1, ?) FROM mutations WHERE uid = ? ORDER BY batch_id ASC"
@@ -1563,7 +1435,6 @@
 
     const v3, 0xf4240
 
-    .line 3
     invoke-static {v3}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v3
@@ -1586,7 +1457,6 @@
 
     move-result-object v2
 
-    .line 4
     invoke-virtual {v1, v2}, Lcom/google/firebase/firestore/local/n1$d;->d(Lcom/google/firebase/firestore/util/m;)V
 
     return-object v0
@@ -1595,7 +1465,6 @@
 .method public isEmpty()Z
     .locals 4
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/firestore/local/k1;->a:Lcom/google/firebase/firestore/local/n1;
 
     const-string v1, "SELECT batch_id FROM mutations WHERE uid = ? LIMIT 1"
@@ -1628,15 +1497,12 @@
 .method public start()V
     .locals 4
 
-    .line 1
     invoke-direct {p0}, Lcom/google/firebase/firestore/local/k1;->m()V
 
-    .line 2
     iget-object v0, p0, Lcom/google/firebase/firestore/local/k1;->a:Lcom/google/firebase/firestore/local/n1;
 
     const-string v1, "SELECT last_stream_token FROM mutation_queues WHERE uid = ?"
 
-    .line 3
     invoke-virtual {v0, v1}, Lcom/google/firebase/firestore/local/n1;->z(Ljava/lang/String;)Lcom/google/firebase/firestore/local/n1$d;
 
     move-result-object v0
@@ -1651,7 +1517,6 @@
 
     aput-object v2, v1, v3
 
-    .line 4
     invoke-virtual {v0, v1}, Lcom/google/firebase/firestore/local/n1$d;->a([Ljava/lang/Object;)Lcom/google/firebase/firestore/local/n1$d;
 
     move-result-object v0
@@ -1660,14 +1525,12 @@
 
     move-result-object v1
 
-    .line 5
     invoke-virtual {v0, v1}, Lcom/google/firebase/firestore/local/n1$d;->b(Lcom/google/firebase/firestore/util/m;)I
 
     move-result v0
 
     if-nez v0, :cond_0
 
-    .line 6
     invoke-direct {p0}, Lcom/google/firebase/firestore/local/k1;->n()V
 
     :cond_0

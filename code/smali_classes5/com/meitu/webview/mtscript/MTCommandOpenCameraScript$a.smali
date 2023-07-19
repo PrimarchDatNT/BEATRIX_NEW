@@ -35,7 +35,6 @@
 .method constructor <init>(Ljava/lang/String;Landroid/webkit/WebView;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/webview/mtscript/MTCommandOpenCameraScript$a;->a:Ljava/lang/String;
 
     iput-object p2, p0, Lcom/meitu/webview/mtscript/MTCommandOpenCameraScript$a;->b:Landroid/webkit/WebView;
@@ -54,7 +53,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcom/meitu/webview/mtscript/MTCommandOpenCameraScript$a;->a:Ljava/lang/String;
 
     invoke-static {v0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
@@ -63,23 +61,19 @@
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-static {}, Lcom/meitu/webview/mtscript/MTCommandOpenCameraScript;->I()Ljava/lang/String;
 
     move-result-object v0
 
     const/4 v1, 0x0
 
-    .line 3
     invoke-static {v1}, Lcom/meitu/webview/mtscript/MTCommandOpenCameraScript;->J(Ljava/lang/String;)Ljava/lang/String;
 
     goto :goto_0
 
-    .line 4
     :cond_0
     iget-object v0, p0, Lcom/meitu/webview/mtscript/MTCommandOpenCameraScript$a;->a:Ljava/lang/String;
 
-    .line 5
     :goto_0
     invoke-static {}, Lcom/meitu/webview/mtscript/MTCommandOpenCameraScript;->K()Ljava/lang/String;
 
@@ -111,7 +105,6 @@
 
     const/4 v1, 0x0
 
-    .line 1
     invoke-static {v1}, Lcom/meitu/webview/mtscript/MTCommandOpenCameraScript;->N(I)I
 
     move-result v2
@@ -120,20 +113,16 @@
 
     const-string v2, "0"
 
-    .line 2
     invoke-static {v2}, Lcom/meitu/webview/mtscript/MTCommandOpenCameraScript;->L(Ljava/lang/String;)Ljava/lang/String;
 
-    .line 3
     iget-object v2, p0, Lcom/meitu/webview/mtscript/MTCommandOpenCameraScript$a;->b:Landroid/webkit/WebView;
 
     if-eqz v2, :cond_0
 
-    .line 4
     aget-object v1, p1, v1
 
     invoke-virtual {v2, v1}, Landroid/webkit/WebView;->loadUrl(Ljava/lang/String;)V
 
-    .line 5
     iget-object v1, p0, Lcom/meitu/webview/mtscript/MTCommandOpenCameraScript$a;->b:Landroid/webkit/WebView;
 
     const/4 v2, 0x1
@@ -142,7 +131,6 @@
 
     invoke-virtual {v1, p1}, Landroid/webkit/WebView;->loadUrl(Ljava/lang/String;)V
 
-    .line 6
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -156,7 +144,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, [Ljava/lang/Void;
 
     invoke-virtual {p0, p1}, Lcom/meitu/webview/mtscript/MTCommandOpenCameraScript$a;->a([Ljava/lang/Void;)[Ljava/lang/String;
@@ -175,7 +162,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, [Ljava/lang/String;
 
     invoke-virtual {p0, p1}, Lcom/meitu/webview/mtscript/MTCommandOpenCameraScript$a;->b([Ljava/lang/String;)V

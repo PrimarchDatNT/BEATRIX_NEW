@@ -46,7 +46,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     const-class v1, Lcom/commsource/puzzle/patchedworld/q;
 
     invoke-virtual {v1}, Ljava/lang/Class;->getSimpleName()Ljava/lang/String;
@@ -57,7 +56,6 @@
 
     const/high16 v1, 0x40200000    # 2.5f
 
-    .line 2
     invoke-static {v1}, Lcom/meitu/library/p/f/i;->d(F)I
 
     move-result v1
@@ -68,7 +66,6 @@
 
     const/high16 v1, 0x40000000    # 2.0f
 
-    .line 3
     invoke-static {v1}, Lcom/meitu/library/p/f/i;->d(F)I
 
     move-result v1
@@ -85,10 +82,8 @@
 .method public constructor <init>()V
     .locals 4
 
-    .line 1
     invoke-direct {p0}, Landroid/graphics/drawable/Drawable;-><init>()V
 
-    .line 2
     sget v0, Lcom/commsource/puzzle/patchedworld/q;->N:F
 
     sget v1, Lcom/commsource/puzzle/patchedworld/q;->O:F
@@ -105,17 +100,14 @@
 
     sub-float/2addr v0, v2
 
-    .line 3
     iput v0, p0, Lcom/commsource/puzzle/patchedworld/q;->J:F
 
-    .line 4
     new-instance v0, Landroid/graphics/Rect;
 
     invoke-direct {v0}, Landroid/graphics/Rect;-><init>()V
 
     iput-object v0, p0, Lcom/commsource/puzzle/patchedworld/q;->K:Landroid/graphics/Rect;
 
-    .line 5
     new-instance v0, Landroid/graphics/Paint;
 
     invoke-direct {v0}, Landroid/graphics/Paint;-><init>()V
@@ -124,46 +116,38 @@
 
     const/4 v2, 0x1
 
-    .line 6
     invoke-virtual {v0, v2}, Landroid/graphics/Paint;->setAntiAlias(Z)V
 
-    .line 7
     iget-object v0, p0, Lcom/commsource/puzzle/patchedworld/q;->f:Landroid/graphics/Paint;
 
     sget-object v3, Landroid/graphics/Paint$Style;->STROKE:Landroid/graphics/Paint$Style;
 
     invoke-virtual {v0, v3}, Landroid/graphics/Paint;->setStyle(Landroid/graphics/Paint$Style;)V
 
-    .line 8
     iget-object v0, p0, Lcom/commsource/puzzle/patchedworld/q;->f:Landroid/graphics/Paint;
 
     const/high16 v3, -0x10000
 
     invoke-virtual {v0, v3}, Landroid/graphics/Paint;->setColor(I)V
 
-    .line 9
     iget-object v0, p0, Lcom/commsource/puzzle/patchedworld/q;->f:Landroid/graphics/Paint;
 
     invoke-virtual {v0, v1}, Landroid/graphics/Paint;->setStrokeWidth(F)V
 
-    .line 10
     new-instance v0, Landroid/graphics/Paint;
 
     invoke-direct {v0}, Landroid/graphics/Paint;-><init>()V
 
     iput-object v0, p0, Lcom/commsource/puzzle/patchedworld/q;->g:Landroid/graphics/Paint;
 
-    .line 11
     invoke-virtual {v0, v2}, Landroid/graphics/Paint;->setAntiAlias(Z)V
 
-    .line 12
     iget-object v0, p0, Lcom/commsource/puzzle/patchedworld/q;->g:Landroid/graphics/Paint;
 
     sget-object v1, Landroid/graphics/Paint$Style;->FILL:Landroid/graphics/Paint$Style;
 
     invoke-virtual {v0, v1}, Landroid/graphics/Paint;->setStyle(Landroid/graphics/Paint$Style;)V
 
-    .line 13
     iget-object v0, p0, Lcom/commsource/puzzle/patchedworld/q;->g:Landroid/graphics/Paint;
 
     invoke-virtual {v0, v3}, Landroid/graphics/Paint;->setColor(I)V
@@ -188,10 +172,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual/range {p0 .. p6}, Lcom/commsource/puzzle/patchedworld/q;->b(Landroid/graphics/Canvas;Landroid/graphics/Rect;ZZZZ)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -216,12 +198,10 @@
 
     invoke-static {v2}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v3, v0, Lcom/commsource/puzzle/patchedworld/q;->K:Landroid/graphics/Rect;
 
     invoke-virtual {v3, p2}, Landroid/graphics/Rect;->set(Landroid/graphics/Rect;)V
 
-    .line 2
     iget-object v3, v0, Lcom/commsource/puzzle/patchedworld/q;->f:Landroid/graphics/Paint;
 
     invoke-virtual {v3}, Landroid/graphics/Paint;->getStrokeWidth()F
@@ -234,12 +214,10 @@
 
     float-to-int v3, v3
 
-    .line 3
     iget-object v4, v0, Lcom/commsource/puzzle/patchedworld/q;->K:Landroid/graphics/Rect;
 
     invoke-virtual {v4, v3, v3}, Landroid/graphics/Rect;->inset(II)V
 
-    .line 4
     iget-object v3, v0, Lcom/commsource/puzzle/patchedworld/q;->K:Landroid/graphics/Rect;
 
     iget-object v4, v0, Lcom/commsource/puzzle/patchedworld/q;->f:Landroid/graphics/Paint;
@@ -252,7 +230,6 @@
 
     if-eqz p3, :cond_0
 
-    .line 5
     invoke-virtual {p2}, Landroid/graphics/Rect;->height()I
 
     move-result v4
@@ -263,7 +240,6 @@
 
     float-to-int v4, v4
 
-    .line 6
     iget v5, v1, Landroid/graphics/Rect;->left:I
 
     int-to-float v6, v5
@@ -299,7 +275,6 @@
     :cond_0
     if-eqz p4, :cond_1
 
-    .line 7
     invoke-virtual {p2}, Landroid/graphics/Rect;->width()I
 
     move-result v4
@@ -310,7 +285,6 @@
 
     float-to-int v4, v4
 
-    .line 8
     iget v5, v1, Landroid/graphics/Rect;->left:I
 
     add-int/2addr v5, v4
@@ -346,7 +320,6 @@
     :cond_1
     if-eqz p5, :cond_2
 
-    .line 9
     invoke-virtual {p2}, Landroid/graphics/Rect;->height()I
 
     move-result v4
@@ -357,7 +330,6 @@
 
     float-to-int v4, v4
 
-    .line 10
     iget v5, v1, Landroid/graphics/Rect;->right:I
 
     int-to-float v6, v5
@@ -393,7 +365,6 @@
     :cond_2
     if-eqz p6, :cond_3
 
-    .line 11
     invoke-virtual {p2}, Landroid/graphics/Rect;->width()I
 
     move-result v4
@@ -404,7 +375,6 @@
 
     float-to-int v3, v4
 
-    .line 12
     iget v4, v1, Landroid/graphics/Rect;->left:I
 
     add-int/2addr v4, v3
@@ -445,7 +415,6 @@
 
     invoke-virtual/range {p1 .. p6}, Landroid/graphics/Canvas;->drawRect(FFFFLandroid/graphics/Paint;)V
 
-    .line 13
     :cond_3
     invoke-static {v2}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -459,19 +428,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/puzzle/patchedworld/q;->a:Z
 
-    .line 2
     iput-boolean p2, p0, Lcom/commsource/puzzle/patchedworld/q;->b:Z
 
-    .line 3
     iput-boolean p3, p0, Lcom/commsource/puzzle/patchedworld/q;->c:Z
 
-    .line 4
     iput-boolean p4, p0, Lcom/commsource/puzzle/patchedworld/q;->d:Z
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -484,10 +448,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/puzzle/patchedworld/q;->p:F
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
@@ -504,7 +466,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p1}, Landroid/graphics/Canvas;->getClipBounds()Landroid/graphics/Rect;
 
     move-result-object v3
@@ -523,7 +484,6 @@
 
     invoke-virtual/range {v1 .. v7}, Lcom/commsource/puzzle/patchedworld/q;->b(Landroid/graphics/Canvas;Landroid/graphics/Rect;ZZZZ)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -536,10 +496,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/puzzle/patchedworld/q;->J:F
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
@@ -552,17 +510,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/puzzle/patchedworld/q;->f:Landroid/graphics/Paint;
 
     invoke-virtual {v1, p1}, Landroid/graphics/Paint;->setColor(I)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/puzzle/patchedworld/q;->g:Landroid/graphics/Paint;
 
     invoke-virtual {v1, p1}, Landroid/graphics/Paint;->setColor(I)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
@@ -575,12 +530,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/puzzle/patchedworld/q;->f:Landroid/graphics/Paint;
 
     invoke-virtual {v1, p1}, Landroid/graphics/Paint;->setStrokeWidth(F)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
@@ -593,7 +546,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const/4 v0, -0x3
@@ -608,7 +560,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -621,7 +572,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

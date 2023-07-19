@@ -25,7 +25,6 @@
 .method constructor <init>(Lcom/spotxchange/v4/c;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/spotxchange/v4/c$b;->a:Lcom/spotxchange/v4/c;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -38,7 +37,6 @@
 .method public run()V
     .locals 5
 
-    .line 1
     :try_start_0
     iget-object v0, p0, Lcom/spotxchange/v4/c$b;->a:Lcom/spotxchange/v4/c;
 
@@ -46,17 +44,14 @@
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-virtual {v0}, Landroid/app/Activity;->finish()V
 
-    .line 3
     iget-object v0, p0, Lcom/spotxchange/v4/c$b;->a:Lcom/spotxchange/v4/c;
 
     const/4 v1, 0x0
 
     iput-object v1, v0, Lcom/spotxchange/v4/SpotXAdPlayer;->d:Landroid/app/Activity;
 
-    .line 4
     :cond_0
     iget-object v0, p0, Lcom/spotxchange/v4/c$b;->a:Lcom/spotxchange/v4/c;
 
@@ -66,14 +61,12 @@
 
     move-result-object v0
 
-    .line 5
     invoke-virtual {v0}, Landroid/view/View;->getParent()Landroid/view/ViewParent;
 
     move-result-object v1
 
     check-cast v1, Landroid/view/ViewGroup;
 
-    .line 6
     iget-object v2, p0, Lcom/spotxchange/v4/c$b;->a:Lcom/spotxchange/v4/c;
 
     iget-object v3, v2, Lcom/spotxchange/v4/c;->q:Lcom/spotxchange/internal/view/SpotXContainerView;
@@ -85,21 +78,16 @@
     :cond_1
     const/4 v4, 0x1
 
-    .line 7
     iput-boolean v4, v3, Lcom/spotxchange/internal/view/SpotXContainerView;->a:Z
 
-    .line 8
     iput-boolean v4, v3, Lcom/spotxchange/internal/view/SpotXContainerView;->b:Z
 
     if-eqz v1, :cond_2
 
-    .line 9
     invoke-virtual {v2}, Lf/r/c/c/b;->h()V
 
-    .line 10
     invoke-virtual {v1, v0}, Landroid/view/ViewGroup;->removeView(Landroid/view/View;)V
 
-    .line 11
     :cond_2
     iget-object v1, p0, Lcom/spotxchange/v4/c$b;->a:Lcom/spotxchange/v4/c;
 
@@ -107,7 +95,6 @@
 
     invoke-virtual {v1, v0}, Landroid/widget/FrameLayout;->addView(Landroid/view/View;)V
 
-    .line 12
     new-instance v1, Landroid/widget/FrameLayout$LayoutParams;
 
     const/4 v2, -0x1
@@ -123,7 +110,6 @@
     :catch_0
     move-exception v0
 
-    .line 13
     invoke-virtual {v0}, Ljava/lang/Exception;->getMessage()Ljava/lang/String;
 
     move-result-object v0

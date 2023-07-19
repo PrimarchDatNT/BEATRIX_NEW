@@ -35,7 +35,6 @@
 .method constructor <init>(Lcom/google/firebase/crashlytics/internal/common/i;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;I)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/firebase/crashlytics/internal/common/i$i;->f:Lcom/google/firebase/crashlytics/internal/common/i;
 
     iput-object p2, p0, Lcom/google/firebase/crashlytics/internal/common/i$i;->a:Ljava/lang/String;
@@ -63,7 +62,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v1, p0, Lcom/google/firebase/crashlytics/internal/common/i$i;->a:Ljava/lang/String;
 
     iget-object v2, p0, Lcom/google/firebase/crashlytics/internal/common/i$i;->b:Ljava/lang/String;
@@ -76,14 +74,12 @@
 
     iget-object v0, p0, Lcom/google/firebase/crashlytics/internal/common/i$i;->f:Lcom/google/firebase/crashlytics/internal/common/i;
 
-    .line 2
     invoke-static {v0}, Lcom/google/firebase/crashlytics/internal/common/i;->m(Lcom/google/firebase/crashlytics/internal/common/i;)Ljava/lang/String;
 
     move-result-object v6
 
     move-object v0, p1
 
-    .line 3
     invoke-static/range {v0 .. v6}, Lcom/google/firebase/crashlytics/internal/proto/c;->r(Lcom/google/firebase/crashlytics/internal/proto/CodedOutputStream;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ILjava/lang/String;)V
 
     return-void

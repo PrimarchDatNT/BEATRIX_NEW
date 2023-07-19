@@ -48,19 +48,16 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/commsource/studio/layer/d;-><init>(Landroid/content/Context;)V
 
     const/high16 p1, 0x3f800000    # 1.0f
 
-    .line 2
     iput p1, p0, Lcom/commsource/studio/layer/p;->O:F
 
     const/4 p1, 0x2
 
     new-array p1, p1, [F
 
-    .line 3
     fill-array-data p1, :array_0
 
     iput-object p1, p0, Lcom/commsource/studio/layer/p;->Q:[F
@@ -83,7 +80,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/studio/layer/p;->q0()V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -98,13 +94,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/studio/layer/p;->x0()V
 
-    .line 2
     invoke-direct {p0}, Lcom/commsource/studio/layer/p;->w0()V
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/studio/layer/p;->N:Lcotlin/jvm/u/q;
 
     if-eqz v1, :cond_0
@@ -129,7 +122,6 @@
 
     check-cast v1, Lcotlin/t1;
 
-    .line 4
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -143,7 +135,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/layer/p;->Q:[F
 
     const/4 v2, 0x0
@@ -158,12 +149,10 @@
 
     if-gez v3, :cond_0
 
-    .line 2
     aput v5, v1, v2
 
     goto :goto_0
 
-    .line 3
     :cond_0
     aget v3, v1, v2
 
@@ -171,26 +160,22 @@
 
     if-lez v3, :cond_1
 
-    .line 4
     aput v4, v1, v2
 
     :cond_1
     :goto_0
     const/4 v2, 0x1
 
-    .line 5
     aget v3, v1, v2
 
     cmpg-float v3, v3, v5
 
     if-gez v3, :cond_2
 
-    .line 6
     aput v5, v1, v2
 
     goto :goto_1
 
-    .line 7
     :cond_2
     aget v3, v1, v2
 
@@ -198,10 +183,8 @@
 
     if-lez v3, :cond_3
 
-    .line 8
     aput v4, v1, v2
 
-    .line 9
     :cond_3
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -216,7 +199,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/layer/p;->O:F
 
     const v2, 0x3f19999a    # 0.6f
@@ -225,7 +207,6 @@
 
     if-gez v3, :cond_0
 
-    .line 2
     iput v2, p0, Lcom/commsource/studio/layer/p;->O:F
 
     goto :goto_0
@@ -237,10 +218,8 @@
 
     if-lez v1, :cond_1
 
-    .line 3
     iput v2, p0, Lcom/commsource/studio/layer/p;->O:F
 
-    .line 4
     :cond_1
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -257,7 +236,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/studio/layer/p;->O:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -272,7 +250,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/studio/layer/p;->R:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -303,7 +280,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/layer/p;->N:Lcotlin/jvm/u/q;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -320,7 +296,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/commsource/studio/layer/p$a;
 
     invoke-direct {v1, p0}, Lcom/commsource/studio/layer/p$a;-><init>(Lcom/commsource/studio/layer/p;)V
@@ -339,7 +314,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Landroid/view/View;
 
     invoke-virtual {p0}, Lcom/commsource/studio/layer/BaseLayer;->A()Landroid/content/Context;
@@ -362,7 +336,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/layer/p;->Q:[F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -377,7 +350,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/layer/p;->P:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -392,7 +364,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/layer/p;->O:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -407,7 +378,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/studio/layer/p;->R:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -436,7 +406,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/layer/p;->N:Lcotlin/jvm/u/q;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -459,7 +428,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/layer/p;->Q:[F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -474,7 +442,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/studio/layer/p;->P:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

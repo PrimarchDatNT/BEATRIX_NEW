@@ -21,7 +21,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-direct {p0, v0}, Lorg/apache/http/protocol/ResponseContent;-><init>(Z)V
 
     return-void
@@ -30,10 +29,8 @@
 .method public constructor <init>(Z)V
     .locals 0
 
-    .line 2
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 3
     iput-boolean p1, p0, Lorg/apache/http/protocol/ResponseContent;->overwrite:Z
 
     return-void
@@ -52,10 +49,8 @@
 
     const-string p2, "HTTP response"
 
-    .line 1
     invoke-static {p1, p2}, Lorg/apache/http/util/Args;->notNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
 
-    .line 2
     iget-boolean p2, p0, Lorg/apache/http/protocol/ResponseContent;->overwrite:Z
 
     const-string v0, "Transfer-Encoding"
@@ -64,15 +59,12 @@
 
     if-eqz p2, :cond_0
 
-    .line 3
     invoke-interface {p1, v0}, Lorg/apache/http/HttpMessage;->removeHeaders(Ljava/lang/String;)V
 
-    .line 4
     invoke-interface {p1, v1}, Lorg/apache/http/HttpMessage;->removeHeaders(Ljava/lang/String;)V
 
     goto :goto_0
 
-    .line 5
     :cond_0
     invoke-interface {p1, v0}, Lorg/apache/http/HttpMessage;->containsHeader(Ljava/lang/String;)Z
 
@@ -80,14 +72,12 @@
 
     if-nez p2, :cond_7
 
-    .line 6
     invoke-interface {p1, v1}, Lorg/apache/http/HttpMessage;->containsHeader(Ljava/lang/String;)Z
 
     move-result p2
 
     if-nez p2, :cond_6
 
-    .line 7
     :goto_0
     invoke-interface {p1}, Lorg/apache/http/HttpResponse;->getStatusLine()Lorg/apache/http/StatusLine;
 
@@ -97,19 +87,16 @@
 
     move-result-object p2
 
-    .line 8
     invoke-interface {p1}, Lorg/apache/http/HttpResponse;->getEntity()Lorg/apache/http/HttpEntity;
 
     move-result-object v2
 
     if-eqz v2, :cond_4
 
-    .line 9
     invoke-interface {v2}, Lorg/apache/http/HttpEntity;->getContentLength()J
 
     move-result-wide v3
 
-    .line 10
     invoke-interface {v2}, Lorg/apache/http/HttpEntity;->isChunked()Z
 
     move-result v5
@@ -126,7 +113,6 @@
 
     const-string p2, "chunked"
 
-    .line 11
     invoke-interface {p1, v0, p2}, Lorg/apache/http/HttpMessage;->addHeader(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_1
@@ -138,7 +124,6 @@
 
     if-ltz p2, :cond_2
 
-    .line 12
     invoke-interface {v2}, Lorg/apache/http/HttpEntity;->getContentLength()J
 
     move-result-wide v3
@@ -149,7 +134,6 @@
 
     invoke-interface {p1, v1, p2}, Lorg/apache/http/HttpMessage;->addHeader(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 13
     :cond_2
     :goto_1
     invoke-interface {v2}, Lorg/apache/http/HttpEntity;->getContentType()Lorg/apache/http/Header;
@@ -166,14 +150,12 @@
 
     if-nez p2, :cond_3
 
-    .line 14
     invoke-interface {v2}, Lorg/apache/http/HttpEntity;->getContentType()Lorg/apache/http/Header;
 
     move-result-object p2
 
     invoke-interface {p1, p2}, Lorg/apache/http/HttpMessage;->addHeader(Lorg/apache/http/Header;)V
 
-    .line 15
     :cond_3
     invoke-interface {v2}, Lorg/apache/http/HttpEntity;->getContentEncoding()Lorg/apache/http/Header;
 
@@ -189,7 +171,6 @@
 
     if-nez p2, :cond_5
 
-    .line 16
     invoke-interface {v2}, Lorg/apache/http/HttpEntity;->getContentEncoding()Lorg/apache/http/Header;
 
     move-result-object p2
@@ -198,7 +179,6 @@
 
     goto :goto_2
 
-    .line 17
     :cond_4
     invoke-interface {p1}, Lorg/apache/http/HttpResponse;->getStatusLine()Lorg/apache/http/StatusLine;
 
@@ -222,14 +202,12 @@
 
     const-string p2, "0"
 
-    .line 18
     invoke-interface {p1, v1, p2}, Lorg/apache/http/HttpMessage;->addHeader(Ljava/lang/String;Ljava/lang/String;)V
 
     :cond_5
     :goto_2
     return-void
 
-    .line 19
     :cond_6
     new-instance p1, Lorg/apache/http/ProtocolException;
 
@@ -239,7 +217,6 @@
 
     throw p1
 
-    .line 20
     :cond_7
     new-instance p1, Lorg/apache/http/ProtocolException;
 

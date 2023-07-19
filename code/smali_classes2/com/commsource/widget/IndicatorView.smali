@@ -43,7 +43,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-direct {p0, p1, v0}, Lcom/commsource/widget/IndicatorView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
     return-void
@@ -66,7 +65,6 @@
 
     const/4 v0, 0x0
 
-    .line 2
     invoke-direct {p0, p1, p2, v0}, Lcom/commsource/widget/IndicatorView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
     return-void
@@ -87,12 +85,10 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 3
     invoke-direct {p0, p1, p2, p3}, Landroid/view/View;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
     const/high16 p1, 0x3fc00000    # 1.5f
 
-    .line 4
     invoke-static {p1}, Lcom/meitu/library/p/f/i;->b(F)F
 
     move-result p1
@@ -101,7 +97,6 @@
 
     const/high16 p1, 0x40a00000    # 5.0f
 
-    .line 5
     invoke-static {p1}, Lcom/meitu/library/p/f/i;->d(F)I
 
     move-result p1
@@ -112,17 +107,14 @@
 
     long-to-int p2, p1
 
-    .line 6
     iput p2, p0, Lcom/commsource/widget/IndicatorView;->d:I
 
     const-wide p1, 0xffffffffL
 
     long-to-int p2, p1
 
-    .line 7
     iput p2, p0, Lcom/commsource/widget/IndicatorView;->f:I
 
-    .line 8
     new-instance p1, Landroid/graphics/Paint;
 
     const/4 p2, 0x1
@@ -212,7 +204,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/widget/IndicatorView;->p:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -229,7 +220,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/widget/IndicatorView;->J:Landroid/graphics/Paint;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -244,7 +234,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/widget/IndicatorView;->d:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -259,7 +248,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/widget/IndicatorView;->c:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -274,7 +262,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/widget/IndicatorView;->b:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -289,7 +276,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/widget/IndicatorView;->f:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -304,7 +290,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/widget/IndicatorView;->g:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -319,7 +304,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/widget/IndicatorView;->a:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -338,20 +322,16 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0, p1}, Landroid/view/View;->onDraw(Landroid/graphics/Canvas;)V
 
-    .line 2
     iget v1, p0, Lcom/commsource/widget/IndicatorView;->p:I
 
     if-nez v1, :cond_0
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 4
     :cond_0
     invoke-virtual {p0}, Landroid/view/View;->getWidth()I
 
@@ -373,7 +353,6 @@
 
     add-float/2addr v1, v3
 
-    .line 5
     invoke-virtual {p0}, Landroid/view/View;->getHeight()I
 
     move-result v3
@@ -386,18 +365,15 @@
 
     const/4 v4, 0x0
 
-    .line 6
     iget v5, p0, Lcom/commsource/widget/IndicatorView;->p:I
 
     :goto_0
     if-ge v4, v5, :cond_3
 
-    .line 7
     iget v6, p0, Lcom/commsource/widget/IndicatorView;->g:I
 
     if-ne v6, v4, :cond_1
 
-    .line 8
     iget-object v6, p0, Lcom/commsource/widget/IndicatorView;->J:Landroid/graphics/Paint;
 
     iget v7, p0, Lcom/commsource/widget/IndicatorView;->f:I
@@ -406,7 +382,6 @@
 
     goto :goto_1
 
-    .line 9
     :cond_1
     iget-object v6, p0, Lcom/commsource/widget/IndicatorView;->J:Landroid/graphics/Paint;
 
@@ -417,7 +392,6 @@
     :goto_1
     if-eqz p1, :cond_2
 
-    .line 10
     iget v6, p0, Lcom/commsource/widget/IndicatorView;->b:F
 
     iget-object v7, p0, Lcom/commsource/widget/IndicatorView;->J:Landroid/graphics/Paint;
@@ -427,7 +401,6 @@
     :cond_2
     int-to-float v6, v2
 
-    .line 11
     iget v7, p0, Lcom/commsource/widget/IndicatorView;->b:F
 
     mul-float v6, v6, v7
@@ -444,7 +417,6 @@
 
     goto :goto_0
 
-    .line 12
     :cond_3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -458,15 +430,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Landroid/view/View;->invalidate()V
 
-    .line 2
     iput p1, p0, Lcom/commsource/widget/IndicatorView;->p:I
 
     int-to-float v1, p1
 
-    .line 3
     iget v2, p0, Lcom/commsource/widget/IndicatorView;->b:F
 
     mul-float v1, v1, v2
@@ -491,7 +460,6 @@
 
     invoke-virtual {p0, p1}, Lcom/commsource/widget/IndicatorView;->setTotalWidth(I)V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -512,7 +480,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/widget/IndicatorView;->J:Landroid/graphics/Paint;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -527,7 +494,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/widget/IndicatorView;->d:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -542,13 +508,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/widget/IndicatorView;->c:I
 
-    .line 2
     invoke-virtual {p0}, Landroid/view/View;->invalidate()V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -561,13 +524,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/widget/IndicatorView;->b:F
 
-    .line 2
     invoke-virtual {p0}, Landroid/view/View;->invalidate()V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -580,7 +540,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/widget/IndicatorView;->f:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -595,13 +554,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Landroid/view/View;->invalidate()V
 
-    .line 2
     iput p1, p0, Lcom/commsource/widget/IndicatorView;->g:I
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -614,13 +570,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/widget/IndicatorView;->a:I
 
-    .line 2
     invoke-virtual {p0}, Landroid/view/View;->invalidate()V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

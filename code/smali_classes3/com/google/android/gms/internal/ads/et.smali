@@ -14,10 +14,8 @@
 .method constructor <init>(Ljava/nio/ByteBuffer;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     invoke-virtual {p1}, Ljava/nio/ByteBuffer;->duplicate()Ljava/nio/ByteBuffer;
 
     move-result-object p1
@@ -37,7 +35,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/et;->a:Ljava/nio/ByteBuffer;
 
     invoke-virtual {v0}, Ljava/nio/ByteBuffer;->position()I
@@ -57,21 +54,18 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/et;->a:Ljava/nio/ByteBuffer;
 
     invoke-virtual {v0}, Ljava/nio/ByteBuffer;->position()I
 
     move-result v0
 
-    .line 2
     iget-object v1, p0, Lcom/google/android/gms/internal/ads/et;->a:Ljava/nio/ByteBuffer;
 
     long-to-int p2, p1
 
     invoke-virtual {v1, p2}, Ljava/nio/ByteBuffer;->position(I)Ljava/nio/Buffer;
 
-    .line 3
     iget-object p1, p0, Lcom/google/android/gms/internal/ads/et;->a:Ljava/nio/ByteBuffer;
 
     invoke-virtual {p1}, Ljava/nio/ByteBuffer;->slice()Ljava/nio/ByteBuffer;
@@ -80,10 +74,8 @@
 
     long-to-int p2, p3
 
-    .line 4
     invoke-virtual {p1, p2}, Ljava/nio/ByteBuffer;->limit(I)Ljava/nio/Buffer;
 
-    .line 5
     iget-object p2, p0, Lcom/google/android/gms/internal/ads/et;->a:Ljava/nio/ByteBuffer;
 
     invoke-virtual {p2, v0}, Ljava/nio/ByteBuffer;->position(I)Ljava/nio/Buffer;
@@ -110,7 +102,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/et;->a:Ljava/nio/ByteBuffer;
 
     long-to-int p2, p1
@@ -128,7 +119,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/et;->a:Ljava/nio/ByteBuffer;
 
     invoke-virtual {v0}, Ljava/nio/ByteBuffer;->remaining()I
@@ -147,7 +137,6 @@
 
     return p1
 
-    .line 2
     :cond_0
     invoke-virtual {p1}, Ljava/nio/ByteBuffer;->remaining()I
 
@@ -163,15 +152,12 @@
 
     move-result v0
 
-    .line 3
     new-array v1, v0, [B
 
-    .line 4
     iget-object v2, p0, Lcom/google/android/gms/internal/ads/et;->a:Ljava/nio/ByteBuffer;
 
     invoke-virtual {v2, v1}, Ljava/nio/ByteBuffer;->get([B)Ljava/nio/ByteBuffer;
 
-    .line 5
     invoke-virtual {p1, v1}, Ljava/nio/ByteBuffer;->put([B)Ljava/nio/ByteBuffer;
 
     return v0
@@ -185,7 +171,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/et;->a:Ljava/nio/ByteBuffer;
 
     invoke-virtual {v0}, Ljava/nio/ByteBuffer;->limit()I

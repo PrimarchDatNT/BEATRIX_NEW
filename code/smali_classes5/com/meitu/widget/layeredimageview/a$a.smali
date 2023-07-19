@@ -30,10 +30,8 @@
 .method constructor <init>(Lcom/meitu/widget/layeredimageview/a;)V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Landroid/os/Handler;-><init>()V
 
-    .line 2
     new-instance v0, Ljava/lang/ref/WeakReference;
 
     invoke-direct {v0, p1}, Ljava/lang/ref/WeakReference;-><init>(Ljava/lang/Object;)V
@@ -52,7 +50,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/widget/layeredimageview/a$a;->a:Ljava/lang/ref/WeakReference;
 
     invoke-virtual {v1}, Ljava/lang/ref/WeakReference;->get()Ljava/lang/Object;
@@ -63,7 +60,6 @@
 
     if-eqz v1, :cond_4
 
-    .line 2
     iget v2, p1, Landroid/os/Message;->what:I
 
     const/4 v3, 0x1
@@ -78,21 +74,18 @@
 
     if-ne v2, v4, :cond_1
 
-    .line 3
     invoke-static {v1}, Lcom/meitu/widget/layeredimageview/a;->b(Lcom/meitu/widget/layeredimageview/a;)Lcom/meitu/widget/layeredimageview/a$b;
 
     move-result-object p1
 
     if-eqz p1, :cond_4
 
-    .line 4
     invoke-static {v1}, Lcom/meitu/widget/layeredimageview/a;->d(Lcom/meitu/widget/layeredimageview/a;)Z
 
     move-result p1
 
     if-nez p1, :cond_0
 
-    .line 5
     invoke-static {v1}, Lcom/meitu/widget/layeredimageview/a;->b(Lcom/meitu/widget/layeredimageview/a;)Lcom/meitu/widget/layeredimageview/a$b;
 
     move-result-object p1
@@ -101,23 +94,19 @@
 
     move-result-object v2
 
-    .line 6
     invoke-static {v1}, Lcom/meitu/widget/layeredimageview/a;->e(Lcom/meitu/widget/layeredimageview/a;)Landroid/view/MotionEvent;
 
     move-result-object v1
 
-    .line 7
     invoke-interface {p1, v2, v1}, Lcom/meitu/widget/layeredimageview/a$b;->onSingleTap(Landroid/view/MotionEvent;Landroid/view/MotionEvent;)V
 
     goto :goto_0
 
-    .line 8
     :cond_0
     invoke-static {v1, v3}, Lcom/meitu/widget/layeredimageview/a;->f(Lcom/meitu/widget/layeredimageview/a;Z)Z
 
     goto :goto_0
 
-    .line 9
     :cond_1
     new-instance v1, Ljava/lang/RuntimeException;
 
@@ -141,13 +130,11 @@
 
     throw v1
 
-    .line 10
     :cond_2
     invoke-static {v1}, Lcom/meitu/widget/layeredimageview/a;->c(Lcom/meitu/widget/layeredimageview/a;)V
 
     goto :goto_0
 
-    .line 11
     :cond_3
     invoke-static {v1}, Lcom/meitu/widget/layeredimageview/a;->b(Lcom/meitu/widget/layeredimageview/a;)Lcom/meitu/widget/layeredimageview/a$b;
 
@@ -159,7 +146,6 @@
 
     invoke-interface {p1, v1}, Lcom/meitu/widget/layeredimageview/a$b;->onShowPress(Landroid/view/MotionEvent;)V
 
-    .line 12
     :cond_4
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

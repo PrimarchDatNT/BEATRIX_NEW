@@ -13,7 +13,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/meitu/core/MTFilterGLRender;-><init>()V
 
     return-void
@@ -28,10 +27,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0, p1}, Lcom/meitu/core/MTFilterGLRender;->setBodyTexture(I)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -50,7 +47,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/render/c;->a:Lcom/meitu/parse/FilterData;
 
     if-eqz v1, :cond_0
@@ -73,7 +69,6 @@
 
     const/4 v3, 0x0
 
-    .line 2
     aget v4, p1, v3
 
     const/high16 v5, 0x437f0000    # 255.0f
@@ -98,14 +93,12 @@
 
     aput p1, v2, v3
 
-    .line 3
     sget p1, Lcom/meitu/core/MTFilterType;->uvt_VECT3:I
 
     const-string v3, "color"
 
     invoke-virtual {p0, v1, v3, v2, p1}, Lcom/meitu/core/MTFilterGLRender;->changeUniformValue_floatArray(ILjava/lang/String;[FI)V
 
-    .line 4
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -125,7 +118,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/render/c;->a:Lcom/meitu/parse/FilterData;
 
     if-eqz v1, :cond_0
@@ -134,14 +126,12 @@
 
     if-eqz v1, :cond_0
 
-    .line 2
     sget v2, Lcom/meitu/core/MTFilterType;->uvt_FLOAT:I
 
     const-string v3, "size"
 
     invoke-virtual {p0, v1, v3, p1, v2}, Lcom/meitu/core/MTFilterGLRender;->changeUniformValue(ILjava/lang/String;FI)V
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -155,7 +145,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/render/c;->b:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -172,14 +161,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0, p1}, Lcom/meitu/core/MTFilterGLRender;->setFilterData(Lcom/meitu/parse/FilterData;)Z
 
     move-result v1
 
     if-eqz p1, :cond_0
 
-    .line 2
     iget-wide v2, p1, Lcom/meitu/parse/FilterData;->nativeInstance:J
 
     const-wide/16 v4, 0x0
@@ -188,17 +175,14 @@
 
     if-eqz v6, :cond_0
 
-    .line 3
     iput-object p1, p0, Lcom/meitu/render/c;->a:Lcom/meitu/parse/FilterData;
 
-    .line 4
     invoke-virtual {p1}, Lcom/meitu/parse/FilterData;->getFilterID()I
 
     move-result p1
 
     iput p1, p0, Lcom/meitu/render/c;->b:I
 
-    .line 5
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

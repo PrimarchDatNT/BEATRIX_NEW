@@ -11,7 +11,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -25,7 +24,6 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/io/File;
 
     invoke-virtual {p0}, Landroid/content/Context;->getApplicationInfo()Landroid/content/pm/ApplicationInfo;
@@ -38,7 +36,6 @@
 
     invoke-direct {v0, p0, v1}, Ljava/io/File;-><init>(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 2
     invoke-virtual {v0}, Ljava/io/File;->getParentFile()Ljava/io/File;
 
     move-result-object p0
@@ -49,17 +46,13 @@
 
     if-eqz p0, :cond_0
 
-    .line 3
     invoke-virtual {p0, v2, v1}, Ljava/io/File;->setExecutable(ZZ)Z
 
-    .line 4
     :cond_0
     invoke-virtual {v0, v2, v1}, Ljava/io/File;->setExecutable(ZZ)Z
 
-    .line 5
     invoke-interface {p1}, Landroid/content/SharedPreferences$Editor;->commit()Z
 
-    .line 6
     new-instance p0, Ljava/io/File;
 
     invoke-static {p2}, Ljava/lang/String;->valueOf(Ljava/lang/Object;)Ljava/lang/String;
@@ -74,7 +67,6 @@
 
     invoke-direct {p0, v0, p1}, Ljava/io/File;-><init>(Ljava/io/File;Ljava/lang/String;)V
 
-    .line 7
     invoke-virtual {p0, v2, v1}, Ljava/io/File;->setReadable(ZZ)Z
 
     return-void

@@ -45,7 +45,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-direct {p0, p1, v0}, Lcom/commsource/widget/CustomRecyclerView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
     return-void
@@ -60,7 +59,6 @@
 
     const/4 v0, 0x0
 
-    .line 2
     invoke-direct {p0, p1, p2, v0}, Lcom/commsource/widget/CustomRecyclerView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
     return-void
@@ -73,42 +71,32 @@
         .end annotation
     .end param
 
-    .line 3
     invoke-direct {p0, p1, p2, p3}, Landroidx/recyclerview/widget/RecyclerView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
     const p3, 0x3f5851ec    # 0.845f
 
-    .line 4
     iput p3, p0, Lcom/commsource/widget/CustomRecyclerView;->a:F
 
     const p3, 0x3e4ccccd    # 0.2f
 
-    .line 5
     iput p3, p0, Lcom/commsource/widget/CustomRecyclerView;->b:F
 
     const/4 p3, 0x0
 
-    .line 6
     iput p3, p0, Lcom/commsource/widget/CustomRecyclerView;->g:I
 
-    .line 7
     iput p3, p0, Lcom/commsource/widget/CustomRecyclerView;->p:I
 
     const/4 v0, 0x1
 
-    .line 8
     iput-boolean v0, p0, Lcom/commsource/widget/CustomRecyclerView;->J:Z
 
-    .line 9
     iput-boolean v0, p0, Lcom/commsource/widget/CustomRecyclerView;->K:Z
 
-    .line 10
     iput-boolean v0, p0, Lcom/commsource/widget/CustomRecyclerView;->M:Z
 
-    .line 11
     iput-boolean p3, p0, Lcom/commsource/widget/CustomRecyclerView;->N:Z
 
-    .line 12
     invoke-direct {p0, p1, p2}, Lcom/commsource/widget/CustomRecyclerView;->g(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
     return-void
@@ -121,21 +109,18 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Landroid/view/ViewGroup;->getChildCount()I
 
     move-result v1
 
     if-lez v1, :cond_1
 
-    .line 2
     iget-boolean v1, p0, Lcom/commsource/widget/CustomRecyclerView;->J:Z
 
     if-eqz v1, :cond_0
 
     iget v1, p0, Lcom/commsource/widget/CustomRecyclerView;->f:I
 
-    .line 3
     invoke-direct {p0, p1, v1}, Lcom/commsource/widget/CustomRecyclerView;->f(II)I
 
     move-result p1
@@ -149,7 +134,6 @@
 
     move-result p1
 
-    .line 4
     :goto_0
     iget v1, p0, Lcom/commsource/widget/CustomRecyclerView;->p:I
 
@@ -157,12 +141,10 @@
 
     const/4 p1, 0x0
 
-    .line 5
     invoke-static {v1, p1}, Ljava/lang/Math;->max(II)I
 
     move-result p1
 
-    .line 6
     invoke-virtual {p0}, Landroidx/recyclerview/widget/RecyclerView;->getLayoutManager()Landroidx/recyclerview/widget/RecyclerView$LayoutManager;
 
     move-result-object v1
@@ -177,10 +159,8 @@
 
     move-result p1
 
-    .line 7
     invoke-virtual {p0, p1}, Lcom/commsource/widget/CustomRecyclerView;->smoothScrollToPosition(I)V
 
-    .line 8
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -194,7 +174,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p1}, Landroid/view/View;->getLeft()I
 
     move-result v1
@@ -229,7 +208,6 @@
 
     mul-float v1, v1, v2
 
-    .line 2
     invoke-virtual {p1}, Landroid/view/View;->getWidth()I
 
     move-result p1
@@ -238,7 +216,6 @@
 
     div-float/2addr v1, p1
 
-    .line 3
     invoke-static {v1, v2}, Ljava/lang/Math;->min(FF)F
 
     move-result p1
@@ -255,7 +232,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p1}, Landroid/view/ViewGroup;->getChildCount()I
 
     move-result v1
@@ -267,19 +243,16 @@
     :goto_0
     if-ge v2, v1, :cond_1
 
-    .line 2
     invoke-virtual {p1, v2}, Landroid/view/ViewGroup;->getChildAt(I)Landroid/view/View;
 
     move-result-object v3
 
-    .line 3
     invoke-direct {p0, p1, v3}, Lcom/commsource/widget/CustomRecyclerView;->h(Landroidx/recyclerview/widget/RecyclerView;Landroid/view/View;)Z
 
     move-result v4
 
     if-eqz v4, :cond_0
 
-    .line 4
     invoke-virtual {p1, v3}, Landroidx/recyclerview/widget/RecyclerView;->getChildAdapterPosition(Landroid/view/View;)I
 
     move-result p1
@@ -293,7 +266,6 @@
 
     goto :goto_0
 
-    .line 5
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -311,7 +283,6 @@
 
     const/4 p1, 0x0
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
@@ -333,7 +304,6 @@
 
     int-to-double v4, v1
 
-    .line 2
     iget v1, p0, Lcom/commsource/widget/CustomRecyclerView;->d:I
 
     invoke-direct {p0, p1, v1}, Lcom/commsource/widget/CustomRecyclerView;->e(II)D
@@ -376,17 +346,14 @@
 
     div-double/2addr v1, p1
 
-    .line 1
     invoke-static {v1, v2}, Ljava/lang/Math;->abs(D)D
 
     move-result-wide p1
 
-    .line 2
     invoke-static {p1, p2, v3, v4}, Ljava/lang/Math;->min(DD)D
 
     move-result-wide p1
 
-    .line 3
     invoke-static {p1, p2, v3, v4}, Ljava/lang/Math;->pow(DD)D
 
     move-result-wide p1
@@ -412,7 +379,6 @@
     :cond_0
     const/4 p1, -0x1
 
-    .line 1
     :goto_0
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -426,19 +392,16 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Landroid/view/ViewConfiguration;->get(Landroid/content/Context;)Landroid/view/ViewConfiguration;
 
     move-result-object v1
 
-    .line 2
     invoke-virtual {v1}, Landroid/view/ViewConfiguration;->getScaledMinimumFlingVelocity()I
 
     move-result v2
 
     iput v2, p0, Lcom/commsource/widget/CustomRecyclerView;->c:I
 
-    .line 3
     invoke-virtual {v1}, Landroid/view/ViewConfiguration;->getScaledMaximumFlingVelocity()I
 
     move-result v1
@@ -447,7 +410,6 @@
 
     if-eqz p2, :cond_1
 
-    .line 4
     sget-object v1, Lcom/res/provider/ResSTYLEABLE;->f0:[I
 
     const/4 v2, 0x0
@@ -458,7 +420,6 @@
 
     const/4 p2, 0x1
 
-    .line 5
     invoke-virtual {p1, v2, p2}, Landroid/content/res/TypedArray;->getBoolean(IZ)Z
 
     move-result v1
@@ -469,7 +430,6 @@
 
     const v2, 0x3e4ccccd    # 0.2f
 
-    .line 6
     invoke-virtual {p1, v1, v2}, Landroid/content/res/TypedArray;->getFloat(IF)F
 
     move-result v1
@@ -480,7 +440,6 @@
 
     const v2, 0x3f5851ec    # 0.845f
 
-    .line 7
     invoke-virtual {p1, v1, v2}, Landroid/content/res/TypedArray;->getFloat(IF)F
 
     move-result v1
@@ -489,28 +448,23 @@
 
     const/4 v1, -0x1
 
-    .line 8
     invoke-virtual {p1, p2, v1}, Landroid/content/res/TypedArray;->getColor(II)I
 
     move-result v2
 
     if-eq v2, v1, :cond_0
 
-    .line 9
     new-instance v1, Landroid/graphics/Paint;
 
     invoke-direct {v1, p2}, Landroid/graphics/Paint;-><init>(I)V
 
     iput-object v1, p0, Lcom/commsource/widget/CustomRecyclerView;->L:Landroid/graphics/Paint;
 
-    .line 10
     invoke-virtual {v1, v2}, Landroid/graphics/Paint;->setColor(I)V
 
-    .line 11
     :cond_0
     invoke-virtual {p1}, Landroid/content/res/TypedArray;->recycle()V
 
-    .line 12
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -524,7 +478,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p1}, Landroid/view/ViewGroup;->getChildCount()I
 
     move-result v1
@@ -535,12 +488,10 @@
 
     new-array v4, v2, [I
 
-    .line 2
     invoke-virtual {p1, v3}, Landroid/view/ViewGroup;->getLocationOnScreen([I)V
 
     const/4 v5, 0x0
 
-    .line 3
     aget v3, v3, v5
 
     invoke-virtual {p1}, Landroid/view/ViewGroup;->getWidth()I
@@ -553,10 +504,8 @@
 
     if-lez v1, :cond_1
 
-    .line 4
     invoke-virtual {p2, v4}, Landroid/view/View;->getLocationOnScreen([I)V
 
-    .line 5
     aget p1, v4, v5
 
     if-gt p1, v3, :cond_0
@@ -578,7 +527,6 @@
 
     return v5
 
-    .line 6
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -592,7 +540,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Landroid/view/ViewGroup;->getChildCount()I
 
     move-result v1
@@ -601,7 +548,6 @@
 
     if-lez v1, :cond_1
 
-    .line 2
     invoke-virtual {p0}, Landroidx/recyclerview/widget/RecyclerView;->getLayoutManager()Landroidx/recyclerview/widget/RecyclerView$LayoutManager;
 
     move-result-object v1
@@ -612,7 +558,6 @@
 
     if-eqz p1, :cond_1
 
-    .line 3
     invoke-virtual {p1}, Landroid/view/View;->getLeft()I
 
     move-result v1
@@ -633,7 +578,6 @@
 
     div-float/2addr p1, v3
 
-    .line 4
     invoke-virtual {p0}, Landroid/view/ViewGroup;->getWidth()I
 
     move-result v4
@@ -661,7 +605,6 @@
 
     return v2
 
-    .line 5
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -677,19 +620,16 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/widget/CustomRecyclerView;->N:Z
 
     if-eqz v1, :cond_0
 
     const/4 p1, 0x1
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
 
-    .line 3
     :cond_0
     invoke-super {p0, p1}, Landroid/view/ViewGroup;->dispatchTouchEvent(Landroid/view/MotionEvent;)Z
 
@@ -711,24 +651,20 @@
 
     if-eqz p2, :cond_4
 
-    .line 1
     invoke-virtual {p2}, Landroid/view/View;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
 
     move-result-object v2
 
     check-cast v2, Landroidx/recyclerview/widget/RecyclerView$LayoutParams;
 
-    .line 2
     iget v2, v2, Landroid/view/ViewGroup$MarginLayoutParams;->width:I
 
     iput v2, p0, Lcom/commsource/widget/CustomRecyclerView;->f:I
 
-    .line 3
     invoke-direct {p0, p2}, Lcom/commsource/widget/CustomRecyclerView;->b(Landroid/view/View;)F
 
     move-result v2
 
-    .line 4
     iget-boolean v3, p0, Lcom/commsource/widget/CustomRecyclerView;->J:Z
 
     if-nez v3, :cond_2
@@ -741,12 +677,10 @@
 
     if-gez v7, :cond_2
 
-    .line 5
     invoke-direct {p0, p0}, Lcom/commsource/widget/CustomRecyclerView;->c(Landroidx/recyclerview/widget/RecyclerView;)I
 
     move-result v3
 
-    .line 6
     iget v4, p0, Lcom/commsource/widget/CustomRecyclerView;->p:I
 
     if-eq v3, v4, :cond_0
@@ -755,33 +689,26 @@
 
     if-nez v4, :cond_2
 
-    .line 7
     :cond_0
     iput-boolean v1, p0, Lcom/commsource/widget/CustomRecyclerView;->K:Z
 
-    .line 8
     iput v3, p0, Lcom/commsource/widget/CustomRecyclerView;->p:I
 
-    .line 9
     iget v1, p0, Lcom/commsource/widget/CustomRecyclerView;->g:I
 
     if-eq v1, v3, :cond_2
 
-    .line 10
     iget-object v4, p0, Lcom/commsource/widget/CustomRecyclerView;->O:Lcom/commsource/widget/CustomRecyclerView$a;
 
     if-eqz v4, :cond_1
 
-    .line 11
     invoke-interface {v4, v1, v3}, Lcom/commsource/widget/CustomRecyclerView$a;->b(II)V
 
-    .line 12
     :cond_1
     iget v1, p0, Lcom/commsource/widget/CustomRecyclerView;->p:I
 
     iput v1, p0, Lcom/commsource/widget/CustomRecyclerView;->g:I
 
-    .line 13
     :cond_2
     iget v1, p0, Lcom/commsource/widget/CustomRecyclerView;->a:F
 
@@ -793,7 +720,6 @@
 
     sub-float v1, v3, v1
 
-    .line 14
     iget v4, p0, Lcom/commsource/widget/CustomRecyclerView;->b:F
 
     sub-float v4, v3, v4
@@ -802,21 +728,16 @@
 
     sub-float/2addr v3, v4
 
-    .line 15
     invoke-virtual {p2, v1}, Landroid/view/View;->setScaleY(F)V
 
-    .line 16
     invoke-virtual {p2, v1}, Landroid/view/View;->setScaleX(F)V
 
-    .line 17
     invoke-virtual {p2, v3}, Landroid/view/View;->setAlpha(F)V
 
-    .line 18
     invoke-super {p0, p1, p2, p3, p4}, Landroidx/recyclerview/widget/RecyclerView;->drawChild(Landroid/graphics/Canvas;Landroid/view/View;J)Z
 
     move-result p3
 
-    .line 19
     iget-boolean p4, p0, Lcom/commsource/widget/CustomRecyclerView;->M:Z
 
     if-eqz p4, :cond_3
@@ -831,7 +752,6 @@
 
     if-gez p4, :cond_3
 
-    .line 20
     invoke-virtual {p2}, Landroid/view/View;->getLeft()I
 
     move-result p4
@@ -862,13 +782,11 @@
 
     invoke-virtual/range {v1 .. v6}, Landroid/graphics/Canvas;->drawRect(FFFFLandroid/graphics/Paint;)V
 
-    .line 21
     :cond_3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p3
 
-    .line 22
     :cond_4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -882,12 +800,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/widget/CustomRecyclerView;->J:Z
 
     if-nez v1, :cond_0
 
-    .line 2
     invoke-super {p0, p1, p2}, Landroidx/recyclerview/widget/RecyclerView;->fling(II)Z
 
     move-result p1
@@ -896,7 +812,6 @@
 
     return p1
 
-    .line 3
     :cond_0
     invoke-virtual {p0}, Landroidx/recyclerview/widget/RecyclerView;->getLayoutManager()Landroidx/recyclerview/widget/RecyclerView$LayoutManager;
 
@@ -906,12 +821,10 @@
 
     if-nez v1, :cond_1
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v2
 
-    .line 5
     :cond_1
     invoke-virtual {p0}, Landroidx/recyclerview/widget/RecyclerView;->getLayoutManager()Landroidx/recyclerview/widget/RecyclerView$LayoutManager;
 
@@ -921,7 +834,6 @@
 
     move-result v1
 
-    .line 6
     invoke-virtual {p0}, Landroidx/recyclerview/widget/RecyclerView;->getLayoutManager()Landroidx/recyclerview/widget/RecyclerView$LayoutManager;
 
     move-result-object v3
@@ -932,7 +844,6 @@
 
     if-eqz v1, :cond_2
 
-    .line 7
     invoke-static {p1}, Ljava/lang/Math;->abs(I)I
 
     move-result v4
@@ -947,7 +858,6 @@
     :cond_3
     if-eqz v3, :cond_4
 
-    .line 8
     invoke-static {p2}, Ljava/lang/Math;->abs(I)I
 
     move-result v4
@@ -964,7 +874,6 @@
 
     if-nez p2, :cond_6
 
-    .line 9
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v2
@@ -974,7 +883,6 @@
 
     int-to-float p2, p2
 
-    .line 10
     invoke-virtual {p0, v4, p2}, Landroidx/recyclerview/widget/RecyclerView;->dispatchNestedPreFling(FF)Z
 
     move-result v5
@@ -998,13 +906,11 @@
     :goto_0
     const/4 v1, 0x1
 
-    .line 11
     :goto_1
     invoke-virtual {p0, v4, p2, v1}, Landroidx/recyclerview/widget/RecyclerView;->dispatchNestedFling(FFZ)Z
 
     if-eqz v1, :cond_9
 
-    .line 12
     iget p2, p0, Lcom/commsource/widget/CustomRecyclerView;->d:I
 
     neg-int v1, p2
@@ -1017,15 +923,12 @@
 
     move-result p1
 
-    .line 13
     invoke-direct {p0, p1}, Lcom/commsource/widget/CustomRecyclerView;->a(I)V
 
-    .line 14
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v5
 
-    .line 15
     :cond_9
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1039,7 +942,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/widget/CustomRecyclerView;->p:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1054,26 +956,20 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/widget/CustomRecyclerView;->p:I
 
     if-eq v1, p1, :cond_0
 
     const/4 v1, 0x1
 
-    .line 2
     iput-boolean v1, p0, Lcom/commsource/widget/CustomRecyclerView;->K:Z
 
-    .line 3
     iput p1, p0, Lcom/commsource/widget/CustomRecyclerView;->p:I
 
-    .line 4
     iput-boolean p2, p0, Lcom/commsource/widget/CustomRecyclerView;->N:Z
 
-    .line 5
     invoke-virtual {p0, p1}, Lcom/commsource/widget/CustomRecyclerView;->smoothScrollToPosition(I)V
 
-    .line 6
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1087,24 +983,20 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0, p1}, Landroidx/recyclerview/widget/RecyclerView;->onScrollStateChanged(I)V
 
     if-nez p1, :cond_4
 
-    .line 2
     invoke-direct {p0, p0}, Lcom/commsource/widget/CustomRecyclerView;->c(Landroidx/recyclerview/widget/RecyclerView;)I
 
     move-result p1
 
     const/4 v1, 0x0
 
-    .line 3
     invoke-static {p1, v1}, Ljava/lang/Math;->max(II)I
 
     move-result p1
 
-    .line 4
     invoke-virtual {p0}, Landroidx/recyclerview/widget/RecyclerView;->getLayoutManager()Landroidx/recyclerview/widget/RecyclerView$LayoutManager;
 
     move-result-object v2
@@ -1119,12 +1011,10 @@
 
     move-result p1
 
-    .line 5
     invoke-direct {p0, p1}, Lcom/commsource/widget/CustomRecyclerView;->i(I)Z
 
     move-result v2
 
-    .line 6
     iget v3, p0, Lcom/commsource/widget/CustomRecyclerView;->p:I
 
     if-ne v3, p1, :cond_2
@@ -1133,21 +1023,17 @@
 
     goto :goto_0
 
-    .line 7
     :cond_0
     iget p1, p0, Lcom/commsource/widget/CustomRecyclerView;->g:I
 
     if-eq v3, p1, :cond_3
 
-    .line 8
     iget-object v2, p0, Lcom/commsource/widget/CustomRecyclerView;->O:Lcom/commsource/widget/CustomRecyclerView$a;
 
     if-eqz v2, :cond_1
 
-    .line 9
     invoke-interface {v2, p1, v3}, Lcom/commsource/widget/CustomRecyclerView$a;->b(II)V
 
-    .line 10
     :cond_1
     iget p1, p0, Lcom/commsource/widget/CustomRecyclerView;->p:I
 
@@ -1155,17 +1041,14 @@
 
     goto :goto_1
 
-    .line 11
     :cond_2
     :goto_0
     invoke-virtual {p0, p1}, Lcom/commsource/widget/CustomRecyclerView;->smoothScrollToPosition(I)V
 
-    .line 12
     :cond_3
     :goto_1
     iput-boolean v1, p0, Lcom/commsource/widget/CustomRecyclerView;->N:Z
 
-    .line 13
     :cond_4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1179,19 +1062,16 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/widget/CustomRecyclerView;->N:Z
 
     const/4 v2, 0x1
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v2
 
-    .line 3
     :cond_0
     invoke-virtual {p1}, Landroid/view/MotionEvent;->getAction()I
 
@@ -1207,7 +1087,6 @@
 
     if-ne v1, v3, :cond_4
 
-    .line 4
     :cond_1
     invoke-virtual {p0, v2}, Landroid/view/ViewGroup;->canScrollHorizontally(I)Z
 
@@ -1229,7 +1108,6 @@
 
     if-nez v1, :cond_3
 
-    .line 5
     :cond_2
     invoke-virtual {p0}, Landroid/view/ViewGroup;->getChildCount()I
 
@@ -1239,19 +1117,15 @@
 
     const/4 v1, 0x0
 
-    .line 6
     invoke-virtual {p0, v1}, Lcom/commsource/widget/CustomRecyclerView;->onScrollStateChanged(I)V
 
-    .line 7
     :cond_3
     iget-object v1, p0, Lcom/commsource/widget/CustomRecyclerView;->O:Lcom/commsource/widget/CustomRecyclerView$a;
 
     if-eqz v1, :cond_4
 
-    .line 8
     invoke-interface {v1}, Lcom/commsource/widget/CustomRecyclerView$a;->a()V
 
-    .line 9
     :cond_4
     invoke-super {p0, p1}, Landroidx/recyclerview/widget/RecyclerView;->onTouchEvent(Landroid/view/MotionEvent;)Z
 
@@ -1269,37 +1143,29 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0, p1}, Landroidx/recyclerview/widget/RecyclerView;->scrollToPosition(I)V
 
-    .line 2
     iput p1, p0, Lcom/commsource/widget/CustomRecyclerView;->p:I
 
     const/4 v1, 0x1
 
-    .line 3
     iput-boolean v1, p0, Lcom/commsource/widget/CustomRecyclerView;->K:Z
 
-    .line 4
     iget v1, p0, Lcom/commsource/widget/CustomRecyclerView;->g:I
 
     if-eq p1, v1, :cond_1
 
-    .line 5
     iget-object v2, p0, Lcom/commsource/widget/CustomRecyclerView;->O:Lcom/commsource/widget/CustomRecyclerView$a;
 
     if-eqz v2, :cond_0
 
-    .line 6
     invoke-interface {v2, v1, p1}, Lcom/commsource/widget/CustomRecyclerView$a;->b(II)V
 
-    .line 7
     :cond_0
     iget p1, p0, Lcom/commsource/widget/CustomRecyclerView;->p:I
 
     iput p1, p0, Lcom/commsource/widget/CustomRecyclerView;->g:I
 
-    .line 8
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1313,10 +1179,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/widget/CustomRecyclerView;->M:Z
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1329,10 +1193,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/widget/CustomRecyclerView;->O:Lcom/commsource/widget/CustomRecyclerView$a;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1345,13 +1207,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0, p1}, Landroidx/recyclerview/widget/RecyclerView;->smoothScrollToPosition(I)V
 
-    .line 2
     iput p1, p0, Lcom/commsource/widget/CustomRecyclerView;->p:I
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

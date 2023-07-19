@@ -30,7 +30,6 @@
 .method constructor <init>(Lcom/meitu/webview/mtscript/MTCommandSharePageInfoScript;Ljava/lang/Class;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/webview/mtscript/MTCommandSharePageInfoScript$a;->c:Lcom/meitu/webview/mtscript/MTCommandSharePageInfoScript;
 
     invoke-direct {p0, p1, p2}, Lcom/meitu/webview/mtscript/i$c;-><init>(Lcom/meitu/webview/mtscript/i;Ljava/lang/Class;)V
@@ -47,7 +46,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Lcom/meitu/webview/mtscript/MTCommandSharePageInfoScript$Model;
 
     invoke-virtual {p0, p1}, Lcom/meitu/webview/mtscript/MTCommandSharePageInfoScript$a;->d(Lcom/meitu/webview/mtscript/MTCommandSharePageInfoScript$Model;)V
@@ -64,19 +62,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v5, p1, Lcom/meitu/webview/mtscript/MTCommandSharePageInfoScript$Model;->description:Ljava/lang/String;
 
-    .line 2
     iget-object v3, p1, Lcom/meitu/webview/mtscript/MTCommandSharePageInfoScript$Model;->image:Ljava/lang/String;
 
-    .line 3
     iget-object v6, p1, Lcom/meitu/webview/mtscript/MTCommandSharePageInfoScript$Model;->link:Ljava/lang/String;
 
-    .line 4
     iget-object v4, p1, Lcom/meitu/webview/mtscript/MTCommandSharePageInfoScript$Model;->title:Ljava/lang/String;
 
-    .line 5
     new-instance p1, Ljava/lang/StringBuilder;
 
     invoke-direct {p1}, Ljava/lang/StringBuilder;-><init>()V
@@ -125,14 +118,12 @@
 
     invoke-static {v1, p1}, Lcom/meitu/webview/utils/g;->b(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 6
     iget-object p1, p0, Lcom/meitu/webview/mtscript/MTCommandSharePageInfoScript$a;->c:Lcom/meitu/webview/mtscript/MTCommandSharePageInfoScript;
 
     invoke-virtual {p1}, Lcom/meitu/webview/mtscript/i;->n()Landroid/app/Activity;
 
     move-result-object v2
 
-    .line 7
     iget-object p1, p0, Lcom/meitu/webview/mtscript/MTCommandSharePageInfoScript$a;->c:Lcom/meitu/webview/mtscript/MTCommandSharePageInfoScript;
 
     iget-object v1, p1, Lcom/meitu/webview/mtscript/i;->d:Lf/k/o0/c/c;
@@ -141,14 +132,12 @@
 
     if-eqz v2, :cond_0
 
-    .line 8
     new-instance v7, Lcom/meitu/webview/mtscript/MTCommandSharePageInfoScript$a$a;
 
     invoke-direct {v7, p0}, Lcom/meitu/webview/mtscript/MTCommandSharePageInfoScript$a$a;-><init>(Lcom/meitu/webview/mtscript/MTCommandSharePageInfoScript$a;)V
 
     invoke-interface/range {v1 .. v7}, Lf/k/o0/c/c;->d(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lf/k/o0/c/c$b;)V
 
-    .line 9
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

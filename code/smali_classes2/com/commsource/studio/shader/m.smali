@@ -43,7 +43,6 @@
 .method public constructor <init>(IIZ)V
     .locals 4
 
-    .line 1
     new-instance v0, Lcom/commsource/studio/shader/e;
 
     const/4 v1, 0x0
@@ -64,7 +63,6 @@
 
     iput-boolean p3, p0, Lcom/commsource/studio/shader/m;->m:Z
 
-    .line 2
     new-instance p1, Lcom/commsource/studio/t;
 
     invoke-direct {p1}, Lcom/commsource/studio/t;-><init>()V
@@ -73,12 +71,10 @@
 
     const/high16 p1, 0x40400000    # 3.0f
 
-    .line 3
     iput p1, p0, Lcom/commsource/studio/shader/m;->h:F
 
     const/high16 p1, 0x41200000    # 10.0f
 
-    .line 4
     iput p1, p0, Lcom/commsource/studio/shader/m;->i:F
 
     return-void
@@ -93,7 +89,6 @@
 
     const/4 p3, 0x0
 
-    .line 5
     :cond_0
     invoke-direct {p0, p1, p2, p3}, Lcom/commsource/studio/shader/m;-><init>(IIZ)V
 
@@ -107,7 +102,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/commsource/studio/shader/m;->n([S)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -128,7 +122,6 @@
 
     const/4 p3, 0x0
 
-    .line 1
     :cond_0
     invoke-virtual {p0, p1, p2, p3}, Lcom/commsource/studio/shader/m;->l(FFZ)V
 
@@ -144,10 +137,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/studio/shader/a;->g()V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/shader/m;->j:Lcom/commsource/easyeditor/utils/opengl/f;
 
     const-string v2, "maskFBO"
@@ -165,10 +156,8 @@
 
     const/16 v1, 0xbe2
 
-    .line 3
     invoke-static {v1}, Landroid/opengl/GLES20;->glEnable(I)V
 
-    .line 4
     iget-boolean v4, p0, Lcom/commsource/studio/shader/m;->g:Z
 
     const v5, 0x8006
@@ -177,22 +166,18 @@
 
     const v4, 0x800b
 
-    .line 5
     invoke-static {v4}, Landroid/opengl/GLES20;->glBlendEquation(I)V
 
     goto :goto_0
 
-    .line 6
     :cond_1
     invoke-static {v5}, Landroid/opengl/GLES20;->glBlendEquation(I)V
 
     :goto_0
     const/4 v4, 0x1
 
-    .line 7
     invoke-static {v4, v4}, Landroid/opengl/GLES20;->glBlendFunc(II)V
 
-    .line 8
     iget-object v4, p0, Lcom/commsource/studio/shader/m;->j:Lcom/commsource/easyeditor/utils/opengl/f;
 
     if-nez v4, :cond_2
@@ -215,7 +200,6 @@
 
     invoke-static {v6, v6, v4, v2}, Landroid/opengl/GLES20;->glViewport(IIII)V
 
-    .line 9
     array-length v2, p1
 
     mul-int/lit8 v2, v2, 0x2
@@ -224,7 +208,6 @@
 
     move-result-object v2
 
-    .line 10
     invoke-static {}, Ljava/nio/ByteOrder;->nativeOrder()Ljava/nio/ByteOrder;
 
     move-result-object v4
@@ -233,12 +216,10 @@
 
     move-result-object v2
 
-    .line 11
     invoke-virtual {v2}, Ljava/nio/ByteBuffer;->asShortBuffer()Ljava/nio/ShortBuffer;
 
     move-result-object v2
 
-    .line 12
     invoke-virtual {v2, p1}, Ljava/nio/ShortBuffer;->put([S)Ljava/nio/ShortBuffer;
 
     move-result-object v4
@@ -247,23 +228,18 @@
 
     const/4 v4, 0x4
 
-    .line 13
     array-length p1, p1
 
     const/16 v7, 0x1403
 
     invoke-static {v4, p1, v7, v2}, Landroid/opengl/GLES20;->glDrawElements(IIILjava/nio/Buffer;)V
 
-    .line 14
     invoke-static {v3, v6}, Landroid/opengl/GLES20;->glBindFramebuffer(II)V
 
-    .line 15
     invoke-static {v5}, Landroid/opengl/GLES20;->glBlendEquation(I)V
 
-    .line 16
     invoke-static {v1}, Landroid/opengl/GLES20;->glDisable(I)V
 
-    .line 17
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -276,7 +252,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/shader/m;->i:F
 
     iget v2, p0, Lcom/commsource/studio/shader/m;->l:I
@@ -297,7 +272,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/shader/m;->i:F
 
     iget v2, p0, Lcom/commsource/studio/shader/m;->k:I
@@ -320,7 +294,6 @@
 
     const/4 v1, 0x0
 
-    .line 1
     aget v2, p1, v1
 
     iget-object v3, p0, Lcom/commsource/studio/shader/m;->j:Lcom/commsource/easyeditor/utils/opengl/f;
@@ -352,7 +325,6 @@
 
     aput v2, p1, v1
 
-    .line 2
     aget v2, p1, v5
 
     iget-object v7, p0, Lcom/commsource/studio/shader/m;->j:Lcom/commsource/easyeditor/utils/opengl/f;
@@ -376,7 +348,6 @@
 
     aput v2, p1, v5
 
-    .line 3
     new-instance v2, Landroid/graphics/PointF;
 
     aget v1, p1, v1
@@ -399,7 +370,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/studio/shader/m;->l:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -422,7 +392,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/shader/m;->j:Lcom/commsource/easyeditor/utils/opengl/f;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -437,7 +406,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/studio/shader/m;->h:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -452,17 +420,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/studio/shader/m;->i:F
 
-    .line 2
     iget-boolean v1, p0, Lcom/commsource/studio/shader/m;->m:Z
 
     const/high16 v2, 0x3f800000    # 1.0f
 
     if-eqz v1, :cond_0
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/studio/shader/m;->e:Lcom/commsource/studio/t;
 
     const/high16 v3, 0x41a00000    # 20.0f
@@ -477,7 +442,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_0
     iget-object v1, p0, Lcom/commsource/studio/shader/m;->e:Lcom/commsource/studio/t;
 
@@ -491,7 +455,6 @@
 
     invoke-virtual {v1, p1}, Lcom/commsource/studio/t;->k(F)V
 
-    .line 5
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -505,7 +468,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/studio/shader/m;->k:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -520,10 +482,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0}, Lcom/commsource/studio/shader/a;->e()V
 
-    .line 2
     iget v1, p0, Lcom/commsource/studio/shader/m;->k:I
 
     iget v2, p0, Lcom/commsource/studio/shader/m;->l:I
@@ -538,7 +498,6 @@
 
     iput-object v1, p0, Lcom/commsource/studio/shader/m;->j:Lcom/commsource/easyeditor/utils/opengl/f;
 
-    .line 3
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
     move-result-object v1
@@ -569,7 +528,6 @@
 
     iput-object v1, p0, Lcom/commsource/studio/shader/m;->f:Lcom/commsource/easyeditor/utils/opengl/m;
 
-    .line 4
     invoke-virtual {p0}, Lcom/commsource/studio/shader/a;->c()Lcom/commsource/studio/shader/BaseShader;
 
     move-result-object v1
@@ -593,7 +551,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/studio/shader/l$a;->c(I)V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -606,10 +563,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0}, Lcom/commsource/studio/shader/a;->f()V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/shader/m;->j:Lcom/commsource/easyeditor/utils/opengl/f;
 
     if-nez v1, :cond_0
@@ -621,7 +576,6 @@
     :cond_0
     invoke-virtual {v1}, Lcom/commsource/easyeditor/utils/opengl/f;->k()V
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/studio/shader/m;->f:Lcom/commsource/easyeditor/utils/opengl/m;
 
     if-nez v1, :cond_1
@@ -633,7 +587,6 @@
     :cond_1
     invoke-virtual {v1}, Lcom/commsource/easyeditor/utils/opengl/f;->k()V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -648,7 +601,6 @@
 
     invoke-static {v10}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, v9, Lcom/commsource/studio/shader/m;->e:Lcom/commsource/studio/t;
 
     const/4 v1, 0x2
@@ -669,7 +621,6 @@
 
     if-eqz v0, :cond_5
 
-    .line 2
     new-instance v5, Lcotlin/jvm/internal/Ref$FloatRef;
 
     invoke-direct {v5}, Lcotlin/jvm/internal/Ref$FloatRef;-><init>()V
@@ -690,7 +641,6 @@
 
     if-eqz p3, :cond_1
 
-    .line 3
     iget-object v2, v9, Lcom/commsource/studio/shader/m;->e:Lcom/commsource/studio/t;
 
     invoke-virtual {v2}, Lcom/commsource/studio/t;->d()I
@@ -699,7 +649,6 @@
 
     if-ge v2, v1, :cond_1
 
-    .line 4
     iget-object v2, v9, Lcom/commsource/studio/shader/m;->e:Lcom/commsource/studio/t;
 
     invoke-virtual {v2}, Lcom/commsource/studio/t;->d()I
@@ -719,14 +668,12 @@
 
     aput p2, v11, v4
 
-    .line 5
     invoke-interface {v0, v11}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
     add-int/lit8 v8, v8, 0x1
 
     goto :goto_0
 
-    .line 6
     :cond_0
     iget v2, v5, Lcotlin/jvm/internal/Ref$FloatRef;->element:F
 
@@ -740,7 +687,6 @@
 
     iput v1, v5, Lcotlin/jvm/internal/Ref$FloatRef;->element:F
 
-    .line 7
     :cond_1
     invoke-interface {v0}, Ljava/util/List;->isEmpty()Z
 
@@ -750,7 +696,6 @@
 
     goto/16 :goto_2
 
-    .line 8
     :cond_2
     invoke-interface {v0}, Ljava/util/List;->size()I
 
@@ -760,7 +705,6 @@
 
     new-array v1, v1, [F
 
-    .line 9
     invoke-interface {v0}, Ljava/util/List;->size()I
 
     move-result v2
@@ -769,7 +713,6 @@
 
     new-array v2, v2, [F
 
-    .line 10
     invoke-interface {v0}, Ljava/util/List;->size()I
 
     move-result v4
@@ -778,7 +721,6 @@
 
     new-array v4, v4, [S
 
-    .line 11
     invoke-interface {v0}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v0
@@ -803,14 +745,12 @@
     :cond_3
     check-cast v8, [F
 
-    .line 12
     invoke-direct {v9, v8}, Lcom/commsource/studio/shader/m;->x([F)Landroid/graphics/PointF;
 
     move-result-object v8
 
     mul-int/lit8 v12, v3, 0x8
 
-    .line 13
     iget v13, v8, Landroid/graphics/PointF;->x:F
 
     invoke-direct/range {p0 .. p0}, Lcom/commsource/studio/shader/m;->u()F
@@ -823,7 +763,6 @@
 
     add-int/lit8 v13, v12, 0x1
 
-    .line 14
     invoke-direct/range {p0 .. p0}, Lcom/commsource/studio/shader/m;->r()F
 
     move-result v14
@@ -836,7 +775,6 @@
 
     add-int/lit8 v14, v12, 0x2
 
-    .line 15
     iget v15, v8, Landroid/graphics/PointF;->x:F
 
     invoke-direct/range {p0 .. p0}, Lcom/commsource/studio/shader/m;->u()F
@@ -849,7 +787,6 @@
 
     add-int/lit8 v15, v12, 0x3
 
-    .line 16
     invoke-direct/range {p0 .. p0}, Lcom/commsource/studio/shader/m;->r()F
 
     move-result v16
@@ -862,7 +799,6 @@
 
     add-int/lit8 v10, v12, 0x4
 
-    .line 17
     iget v6, v8, Landroid/graphics/PointF;->x:F
 
     invoke-direct/range {p0 .. p0}, Lcom/commsource/studio/shader/m;->u()F
@@ -875,7 +811,6 @@
 
     add-int/lit8 v6, v12, 0x5
 
-    .line 18
     iget v7, v8, Landroid/graphics/PointF;->y:F
 
     neg-float v7, v7
@@ -892,7 +827,6 @@
 
     move-object/from16 v18, v0
 
-    .line 19
     iget v0, v8, Landroid/graphics/PointF;->x:F
 
     invoke-direct/range {p0 .. p0}, Lcom/commsource/studio/shader/m;->u()F
@@ -905,7 +839,6 @@
 
     add-int/lit8 v0, v12, 0x7
 
-    .line 20
     iget v8, v8, Landroid/graphics/PointF;->y:F
 
     neg-float v8, v8
@@ -920,30 +853,22 @@
 
     const/4 v8, 0x0
 
-    .line 21
     aput v8, v2, v12
 
     const/high16 v12, 0x3f800000    # 1.0f
 
-    .line 22
     aput v12, v2, v13
 
-    .line 23
     aput v12, v2, v14
 
-    .line 24
     aput v12, v2, v15
 
-    .line 25
     aput v8, v2, v10
 
-    .line 26
     aput v8, v2, v6
 
-    .line 27
     aput v12, v2, v7
 
-    .line 28
     aput v8, v2, v0
 
     mul-int/lit8 v0, v3, 0x6
@@ -952,7 +877,6 @@
 
     int-to-short v6, v3
 
-    .line 29
     aput-short v6, v4, v0
 
     add-int/lit8 v6, v0, 0x1
@@ -961,7 +885,6 @@
 
     int-to-short v7, v7
 
-    .line 30
     aput-short v7, v4, v6
 
     add-int/lit8 v6, v0, 0x2
@@ -970,12 +893,10 @@
 
     int-to-short v8, v8
 
-    .line 31
     aput-short v8, v4, v6
 
     add-int/lit8 v6, v0, 0x3
 
-    .line 32
     aput-short v7, v4, v6
 
     add-int/lit8 v6, v0, 0x4
@@ -984,14 +905,12 @@
 
     int-to-short v3, v3
 
-    .line 33
     aput-short v3, v4, v6
 
     const/4 v3, 0x5
 
     add-int/2addr v0, v3
 
-    .line 34
     aput-short v8, v4, v0
 
     move v3, v11
@@ -1006,7 +925,6 @@
 
     goto/16 :goto_1
 
-    .line 35
     :cond_4
     invoke-virtual/range {p0 .. p0}, Lcom/commsource/studio/shader/a;->b()Lcom/commsource/easyeditor/utils/opengl/c;
 
@@ -1034,7 +952,6 @@
     :goto_2
     const/16 v0, 0x4874
 
-    .line 36
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1047,7 +964,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/shader/m;->l:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1064,7 +980,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/shader/m;->j:Lcom/commsource/easyeditor/utils/opengl/f;
 
     if-nez v1, :cond_0
@@ -1086,7 +1001,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/studio/shader/m;->m:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1101,7 +1015,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/shader/m;->h:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1116,7 +1029,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/shader/m;->i:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1131,7 +1043,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/shader/m;->k:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1146,7 +1057,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/studio/shader/m;->g:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1161,12 +1071,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/shader/m;->e:Lcom/commsource/studio/t;
 
     invoke-virtual {v1}, Lcom/commsource/studio/t;->c()V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1179,7 +1087,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/studio/shader/m;->g:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

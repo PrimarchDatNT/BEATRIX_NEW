@@ -42,7 +42,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/widget/dialog/delegate/d/d$a$a;->a:Lcom/commsource/widget/dialog/delegate/d/d$a;
 
     iget-object v0, v0, Lcom/commsource/widget/dialog/delegate/d/d$a;->b:Lcom/commsource/widget/dialog/delegate/d/c;
@@ -63,7 +62,6 @@
 
     check-cast v0, Lcotlin/t1;
 
-    .line 2
     :cond_0
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

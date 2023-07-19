@@ -33,14 +33,12 @@
 
     const/4 v1, 0x0
 
-    .line 1
     sput v1, Lcom/meitu/webview/mtscript/MTCommandOpenAlbumScript;->i:I
 
     sput v1, Lcom/meitu/webview/mtscript/MTCommandOpenAlbumScript;->j:I
 
     const-string v1, "0"
 
-    .line 2
     sput-object v1, Lcom/meitu/webview/mtscript/MTCommandOpenAlbumScript;->k:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -51,7 +49,6 @@
 .method public constructor <init>(Landroid/app/Activity;Lcom/meitu/webview/core/CommonWebView;Landroid/net/Uri;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1, p2, p3}, Lcom/meitu/webview/mtscript/i;-><init>(Landroid/app/Activity;Lcom/meitu/webview/core/CommonWebView;Landroid/net/Uri;)V
 
     return-void
@@ -64,7 +61,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/meitu/webview/mtscript/MTCommandOpenAlbumScript;->k:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -79,7 +75,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sput-object p0, Lcom/meitu/webview/mtscript/MTCommandOpenAlbumScript;->k:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -94,7 +89,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget v1, Lcom/meitu/webview/mtscript/MTCommandOpenAlbumScript;->i:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -109,7 +103,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sput p0, Lcom/meitu/webview/mtscript/MTCommandOpenAlbumScript;->i:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -124,7 +117,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget v1, Lcom/meitu/webview/mtscript/MTCommandOpenAlbumScript;->j:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -139,7 +131,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sput p0, Lcom/meitu/webview/mtscript/MTCommandOpenAlbumScript;->j:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -154,7 +145,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/meitu/webview/mtscript/MTCommandOpenAlbumScript;->P(Lcom/meitu/webview/mtscript/MTCommandOpenAlbumScript$Model;)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -169,42 +159,35 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p1, Lcom/meitu/webview/mtscript/MTCommandOpenAlbumScript$Model;->height:I
 
     sput v1, Lcom/meitu/webview/mtscript/MTCommandOpenAlbumScript;->j:I
 
-    .line 2
     iget v1, p1, Lcom/meitu/webview/mtscript/MTCommandOpenAlbumScript$Model;->width:I
 
     sput v1, Lcom/meitu/webview/mtscript/MTCommandOpenAlbumScript;->i:I
 
-    .line 3
     invoke-virtual {p0}, Lcom/meitu/webview/mtscript/i;->p()Ljava/lang/String;
 
     move-result-object v1
 
     sput-object v1, Lcom/meitu/webview/mtscript/MTCommandOpenAlbumScript;->k:Ljava/lang/String;
 
-    .line 4
     invoke-virtual {p0}, Lcom/meitu/webview/mtscript/i;->n()Landroid/app/Activity;
 
     move-result-object v1
 
     if-nez v1, :cond_0
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 6
     :cond_0
     iget-object v2, p0, Lcom/meitu/webview/mtscript/i;->d:Lf/k/o0/c/c;
 
     if-eqz v2, :cond_1
 
-    .line 7
     iget-object p1, p1, Lcom/meitu/webview/mtscript/MTCommandOpenAlbumScript$Model;->data:Ljava/util/HashMap;
 
     invoke-virtual {p0, p1}, Lcom/meitu/webview/mtscript/i;->H(Ljava/lang/Object;)Ljava/lang/String;
@@ -217,12 +200,10 @@
 
     if-eqz p1, :cond_1
 
-    .line 8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 9
     :cond_1
     new-instance p1, Landroid/content/Intent;
 
@@ -232,22 +213,18 @@
 
     const-string v2, "android.intent.category.OPENABLE"
 
-    .line 10
     invoke-virtual {p1, v2}, Landroid/content/Intent;->addCategory(Ljava/lang/String;)Landroid/content/Intent;
 
     const-string v2, "image/*"
 
-    .line 11
     invoke-virtual {p1, v2}, Landroid/content/Intent;->setType(Ljava/lang/String;)Landroid/content/Intent;
 
-    .line 12
     sget v2, Lf/k/o0/b$i;->a:I
 
     invoke-virtual {v1, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
     move-result-object v2
 
-    .line 13
     invoke-static {p1, v2}, Landroid/content/Intent;->createChooser(Landroid/content/Intent;Ljava/lang/CharSequence;)Landroid/content/Intent;
 
     move-result-object p1
@@ -256,7 +233,6 @@
 
     invoke-virtual {v1, p1, v2}, Landroid/app/Activity;->startActivityForResult(Landroid/content/Intent;I)V
 
-    .line 14
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -269,7 +245,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/meitu/webview/mtscript/MTCommandOpenAlbumScript;->k:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -284,7 +259,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Landroid/webkit/WebView;->getContext()Landroid/content/Context;
 
     move-result-object v1
@@ -293,10 +267,8 @@
 
     move-result-object p1
 
-    .line 2
     invoke-static {p0, p1}, Lcom/meitu/webview/mtscript/MTCommandOpenAlbumScript;->S(Landroid/webkit/WebView;Ljava/lang/String;)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -309,7 +281,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/meitu/webview/mtscript/MTCommandOpenAlbumScript$a;
 
     invoke-direct {v1, p1, p0}, Lcom/meitu/webview/mtscript/MTCommandOpenAlbumScript$a;-><init>(Ljava/lang/String;Landroid/webkit/WebView;)V
@@ -320,10 +291,8 @@
 
     new-array p1, p1, [Ljava/lang/Void;
 
-    .line 2
     invoke-virtual {v1, p0, p1}, Landroid/os/AsyncTask;->executeOnExecutor(Ljava/util/concurrent/Executor;[Ljava/lang/Object;)Landroid/os/AsyncTask;
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -338,7 +307,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const/4 v0, 0x1
@@ -353,7 +321,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/meitu/webview/mtscript/MTCommandOpenAlbumScript$b;
 
     const-class v2, Lcom/meitu/webview/mtscript/MTCommandOpenAlbumScript$Model;
@@ -362,7 +329,6 @@
 
     invoke-virtual {p0, v1}, Lcom/meitu/webview/mtscript/i;->E(Lcom/meitu/webview/mtscript/i$c;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const/4 v0, 0x1

@@ -7,7 +7,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -33,14 +32,12 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0, p1}, Lorg/json/JSONObject;->optJSONArray(Ljava/lang/String;)Lorg/json/JSONArray;
 
     move-result-object p0
 
     if-eqz p0, :cond_1
 
-    .line 2
     new-instance p1, Ljava/util/ArrayList;
 
     invoke-virtual {p0}, Lorg/json/JSONArray;->length()I
@@ -51,7 +48,6 @@
 
     const/4 v0, 0x0
 
-    .line 3
     :goto_0
     invoke-virtual {p0}, Lorg/json/JSONArray;->length()I
 
@@ -59,7 +55,6 @@
 
     if-ge v0, v1, :cond_0
 
-    .line 4
     invoke-virtual {p0, v0}, Lorg/json/JSONArray;->getString(I)Ljava/lang/String;
 
     move-result-object v1
@@ -70,7 +65,6 @@
 
     goto :goto_0
 
-    .line 5
     :cond_0
     invoke-static {p1}, Ljava/util/Collections;->unmodifiableList(Ljava/util/List;)Ljava/util/List;
 

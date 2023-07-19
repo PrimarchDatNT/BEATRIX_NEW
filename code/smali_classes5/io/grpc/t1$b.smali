@@ -34,17 +34,14 @@
 .method private constructor <init>(Ljava/lang/String;)V
     .locals 1
 
-    .line 2
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 3
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
 
     iput-object v0, p0, Lio/grpc/t1$b;->b:Ljava/util/List;
 
-    .line 4
     invoke-virtual {p0, p1}, Lio/grpc/t1$b;->h(Ljava/lang/String;)Lio/grpc/t1$b;
 
     return-void
@@ -53,7 +50,6 @@
 .method synthetic constructor <init>(Ljava/lang/String;Lio/grpc/t1$a;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1}, Lio/grpc/t1$b;-><init>(Ljava/lang/String;)V
 
     return-void
@@ -62,7 +58,6 @@
 .method static synthetic a(Lio/grpc/t1$b;Ljava/util/Collection;)Lio/grpc/t1$b;
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1}, Lio/grpc/t1$b;->e(Ljava/util/Collection;)Lio/grpc/t1$b;
 
     move-result-object p0
@@ -73,7 +68,6 @@
 .method static synthetic b(Lio/grpc/t1$b;)Ljava/lang/String;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lio/grpc/t1$b;->a:Ljava/lang/String;
 
     return-object p0
@@ -82,7 +76,6 @@
 .method static synthetic c(Lio/grpc/t1$b;)Ljava/util/List;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lio/grpc/t1$b;->b:Ljava/util/List;
 
     return-object p0
@@ -91,7 +84,6 @@
 .method static synthetic d(Lio/grpc/t1$b;)Ljava/lang/Object;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lio/grpc/t1$b;->c:Ljava/lang/Object;
 
     return-object p0
@@ -109,7 +101,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lio/grpc/t1$b;->b:Ljava/util/List;
 
     invoke-interface {v0, p1}, Ljava/util/List;->addAll(Ljava/util/Collection;)Z
@@ -130,7 +121,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lio/grpc/t1$b;->b:Ljava/util/List;
 
     const-string v1, "method"
@@ -147,7 +137,6 @@
 .method public g()Lio/grpc/t1;
     .locals 2
 
-    .line 1
     new-instance v0, Lio/grpc/t1;
 
     const/4 v1, 0x0
@@ -165,7 +154,6 @@
 
     const-string v0, "name"
 
-    .line 1
     invoke-static {p1, v0}, Lcom/google/common/base/t;->F(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -184,7 +172,6 @@
         .end annotation
     .end param
 
-    .line 1
     iput-object p1, p0, Lio/grpc/t1$b;->c:Ljava/lang/Object;
 
     return-object p0

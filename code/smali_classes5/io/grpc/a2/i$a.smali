@@ -31,7 +31,6 @@
 .method constructor <init>(Lio/grpc/a2/i;Lio/grpc/k1$a;Lio/grpc/k1;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lio/grpc/a2/i$a;->c:Lio/grpc/a2/i;
 
     iput-object p3, p0, Lio/grpc/a2/i$a;->b:Lio/grpc/k1;
@@ -44,19 +43,16 @@
 .method private g(Lio/grpc/StatusRuntimeException;)V
     .locals 2
 
-    .line 1
     invoke-virtual {p1}, Lio/grpc/StatusRuntimeException;->getTrailers()Lio/grpc/y0;
 
     move-result-object v0
 
     if-nez v0, :cond_0
 
-    .line 2
     new-instance v0, Lio/grpc/y0;
 
     invoke-direct {v0}, Lio/grpc/y0;-><init>()V
 
-    .line 3
     :cond_0
     iget-object v1, p0, Lio/grpc/a2/i$a;->b:Lio/grpc/k1;
 
@@ -74,7 +70,6 @@
 .method public a()V
     .locals 1
 
-    .line 1
     :try_start_0
     invoke-super {p0}, Lio/grpc/a0$a;->a()V
     :try_end_0
@@ -85,7 +80,6 @@
     :catch_0
     move-exception v0
 
-    .line 2
     invoke-direct {p0, v0}, Lio/grpc/a2/i$a;->g(Lio/grpc/StatusRuntimeException;)V
 
     :goto_0
@@ -95,7 +89,6 @@
 .method public b()V
     .locals 1
 
-    .line 1
     :try_start_0
     invoke-super {p0}, Lio/grpc/a0$a;->b()V
     :try_end_0
@@ -106,7 +99,6 @@
     :catch_0
     move-exception v0
 
-    .line 2
     invoke-direct {p0, v0}, Lio/grpc/a2/i$a;->g(Lio/grpc/StatusRuntimeException;)V
 
     :goto_0
@@ -116,7 +108,6 @@
 .method public c()V
     .locals 1
 
-    .line 1
     :try_start_0
     invoke-super {p0}, Lio/grpc/a0$a;->c()V
     :try_end_0
@@ -127,7 +118,6 @@
     :catch_0
     move-exception v0
 
-    .line 2
     invoke-direct {p0, v0}, Lio/grpc/a2/i$a;->g(Lio/grpc/StatusRuntimeException;)V
 
     :goto_0
@@ -142,7 +132,6 @@
         }
     .end annotation
 
-    .line 1
     :try_start_0
     invoke-super {p0, p1}, Lio/grpc/a0;->d(Ljava/lang/Object;)V
     :try_end_0
@@ -153,7 +142,6 @@
     :catch_0
     move-exception p1
 
-    .line 2
     invoke-direct {p0, p1}, Lio/grpc/a2/i$a;->g(Lio/grpc/StatusRuntimeException;)V
 
     :goto_0
@@ -163,7 +151,6 @@
 .method public e()V
     .locals 1
 
-    .line 1
     :try_start_0
     invoke-super {p0}, Lio/grpc/a0$a;->e()V
     :try_end_0
@@ -174,7 +161,6 @@
     :catch_0
     move-exception v0
 
-    .line 2
     invoke-direct {p0, v0}, Lio/grpc/a2/i$a;->g(Lio/grpc/StatusRuntimeException;)V
 
     :goto_0

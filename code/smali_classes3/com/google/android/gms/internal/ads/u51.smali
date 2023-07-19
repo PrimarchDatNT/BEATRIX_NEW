@@ -25,10 +25,8 @@
 .method public constructor <init>(Lcom/google/android/gms/internal/ads/zzvo;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/google/android/gms/internal/ads/u51;->a:Lcom/google/android/gms/internal/ads/zzvo;
 
     return-void
@@ -39,15 +37,12 @@
 .method public final synthetic b(Ljava/lang/Object;)V
     .locals 3
 
-    .line 1
     check-cast p1, Landroid/os/Bundle;
 
-    .line 2
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/u51;->a:Lcom/google/android/gms/internal/ads/zzvo;
 
     if-eqz v0, :cond_1
 
-    .line 3
     iget v0, v0, Lcom/google/android/gms/internal/ads/zzvo;->a:I
 
     const/4 v1, 0x1
@@ -58,7 +53,6 @@
 
     const-string v0, "p"
 
-    .line 4
     invoke-virtual {p1, v2, v0}, Landroid/os/Bundle;->putString(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
@@ -70,7 +64,6 @@
 
     const-string v0, "l"
 
-    .line 5
     invoke-virtual {p1, v2, v0}, Landroid/os/Bundle;->putString(Ljava/lang/String;Ljava/lang/String;)V
 
     :cond_1

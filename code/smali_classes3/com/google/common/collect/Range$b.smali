@@ -35,7 +35,6 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
     new-instance v0, Lcom/google/common/collect/Range$b;
 
     invoke-direct {v0}, Lcom/google/common/collect/Range$b;-><init>()V
@@ -48,7 +47,6 @@
 .method constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -59,7 +57,6 @@
 .method public a(Lcom/google/common/collect/Range;)Lcom/google/common/collect/Cut;
     .locals 0
 
-    .line 1
     iget-object p1, p1, Lcom/google/common/collect/Range;->lowerBound:Lcom/google/common/collect/Cut;
 
     return-object p1
@@ -68,7 +65,6 @@
 .method public bridge synthetic apply(Ljava/lang/Object;)Ljava/lang/Object;
     .locals 0
 
-    .line 1
     check-cast p1, Lcom/google/common/collect/Range;
 
     invoke-virtual {p0, p1}, Lcom/google/common/collect/Range$b;->a(Lcom/google/common/collect/Range;)Lcom/google/common/collect/Cut;

@@ -34,12 +34,10 @@
 .method public constructor <init>()V
     .locals 2
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const-wide/16 v0, 0x1
 
-    .line 2
     iput-wide v0, p0, Lcotlinx/coroutines/selects/i;->number:J
 
     return-void
@@ -50,7 +48,6 @@
 .method public final a()J
     .locals 2
 
-    .line 1
     sget-object v0, Lcotlinx/coroutines/selects/i;->a:Ljava/util/concurrent/atomic/AtomicLongFieldUpdater;
 
     invoke-virtual {v0, p0}, Ljava/util/concurrent/atomic/AtomicLongFieldUpdater;->incrementAndGet(Ljava/lang/Object;)J

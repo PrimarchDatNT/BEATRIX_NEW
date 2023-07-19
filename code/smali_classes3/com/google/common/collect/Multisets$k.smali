@@ -81,13 +81,10 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/google/common/collect/Multisets$k;->a:Lcom/google/common/collect/m1;
 
-    .line 3
     iput-object p2, p0, Lcom/google/common/collect/Multisets$k;->b:Ljava/util/Iterator;
 
     return-void
@@ -98,7 +95,6 @@
 .method public hasNext()Z
     .locals 1
 
-    .line 1
     iget v0, p0, Lcom/google/common/collect/Multisets$k;->d:I
 
     if-gtz v0, :cond_1
@@ -134,19 +130,16 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/collect/Multisets$k;->hasNext()Z
 
     move-result v0
 
     if-eqz v0, :cond_1
 
-    .line 2
     iget v0, p0, Lcom/google/common/collect/Multisets$k;->d:I
 
     if-nez v0, :cond_0
 
-    .line 3
     iget-object v0, p0, Lcom/google/common/collect/Multisets$k;->b:Ljava/util/Iterator;
 
     invoke-interface {v0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
@@ -157,7 +150,6 @@
 
     iput-object v0, p0, Lcom/google/common/collect/Multisets$k;->c:Lcom/google/common/collect/m1$a;
 
-    .line 4
     invoke-interface {v0}, Lcom/google/common/collect/m1$a;->getCount()I
 
     move-result v0
@@ -166,7 +158,6 @@
 
     iput v0, p0, Lcom/google/common/collect/Multisets$k;->f:I
 
-    .line 5
     :cond_0
     iget v0, p0, Lcom/google/common/collect/Multisets$k;->d:I
 
@@ -176,10 +167,8 @@
 
     iput v0, p0, Lcom/google/common/collect/Multisets$k;->d:I
 
-    .line 6
     iput-boolean v1, p0, Lcom/google/common/collect/Multisets$k;->g:Z
 
-    .line 7
     iget-object v0, p0, Lcom/google/common/collect/Multisets$k;->c:Lcom/google/common/collect/m1$a;
 
     invoke-interface {v0}, Lcom/google/common/collect/m1$a;->getElement()Ljava/lang/Object;
@@ -188,7 +177,6 @@
 
     return-object v0
 
-    .line 8
     :cond_1
     new-instance v0, Ljava/util/NoSuchElementException;
 
@@ -200,26 +188,22 @@
 .method public remove()V
     .locals 3
 
-    .line 1
     iget-boolean v0, p0, Lcom/google/common/collect/Multisets$k;->g:Z
 
     invoke-static {v0}, Lcom/google/common/collect/m;->e(Z)V
 
-    .line 2
     iget v0, p0, Lcom/google/common/collect/Multisets$k;->f:I
 
     const/4 v1, 0x1
 
     if-ne v0, v1, :cond_0
 
-    .line 3
     iget-object v0, p0, Lcom/google/common/collect/Multisets$k;->b:Ljava/util/Iterator;
 
     invoke-interface {v0}, Ljava/util/Iterator;->remove()V
 
     goto :goto_0
 
-    .line 4
     :cond_0
     iget-object v0, p0, Lcom/google/common/collect/Multisets$k;->a:Lcom/google/common/collect/m1;
 
@@ -231,7 +215,6 @@
 
     invoke-interface {v0, v2}, Lcom/google/common/collect/m1;->remove(Ljava/lang/Object;)Z
 
-    .line 5
     :goto_0
     iget v0, p0, Lcom/google/common/collect/Multisets$k;->f:I
 
@@ -241,7 +224,6 @@
 
     const/4 v0, 0x0
 
-    .line 6
     iput-boolean v0, p0, Lcom/google/common/collect/Multisets$k;->g:Z
 
     return-void

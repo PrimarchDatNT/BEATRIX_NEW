@@ -25,7 +25,6 @@
 .method constructor <init>(Lcom/google/android/gms/internal/ads/rv0;Lcom/google/android/gms/internal/ads/lk1;)V
     .locals 0
 
-    .line 1
     iput-object p2, p0, Lcom/google/android/gms/internal/ads/uv0;->a:Lcom/google/android/gms/internal/ads/lk1;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -38,7 +37,6 @@
 .method public final a(Ljava/lang/Throwable;)V
     .locals 2
 
-    .line 1
     invoke-virtual {p1}, Ljava/lang/Throwable;->getMessage()Ljava/lang/String;
 
     move-result-object p1
@@ -75,10 +73,8 @@
 .method public final synthetic onSuccess(Ljava/lang/Object;)V
     .locals 2
 
-    .line 1
     check-cast p1, Landroid/database/sqlite/SQLiteDatabase;
 
-    .line 2
     :try_start_0
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/uv0;->a:Lcom/google/android/gms/internal/ads/lk1;
 
@@ -93,7 +89,6 @@
 
     const-string v0, "Error executing function on offline signal database: "
 
-    .line 3
     invoke-virtual {p1}, Ljava/lang/Exception;->getMessage()Ljava/lang/String;
 
     move-result-object p1

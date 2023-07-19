@@ -28,7 +28,6 @@
 .method static constructor <clinit>()V
     .locals 6
 
-    .line 1
     new-instance v0, Lcom/google/android/gms/internal/firebase_auth/zzej;
 
     const-string v1, "REFRESH_TOKEN"
@@ -41,7 +40,6 @@
 
     sput-object v0, Lcom/google/android/gms/internal/firebase_auth/zzej;->zzrl:Lcom/google/android/gms/internal/firebase_auth/zzej;
 
-    .line 2
     new-instance v1, Lcom/google/android/gms/internal/firebase_auth/zzej;
 
     const-string v3, "AUTHORIZATION_CODE"
@@ -62,7 +60,6 @@
 
     aput-object v1, v3, v4
 
-    .line 3
     sput-object v3, Lcom/google/android/gms/internal/firebase_auth/zzej;->zzrn:[Lcom/google/android/gms/internal/firebase_auth/zzej;
 
     return-void
@@ -78,10 +75,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 2
     iput-object p3, p0, Lcom/google/android/gms/internal/firebase_auth/zzej;->value:Ljava/lang/String;
 
     return-void
@@ -90,7 +85,6 @@
 .method public static values()[Lcom/google/android/gms/internal/firebase_auth/zzej;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/google/android/gms/internal/firebase_auth/zzej;->zzrn:[Lcom/google/android/gms/internal/firebase_auth/zzej;
 
     invoke-virtual {v0}, [Lcom/google/android/gms/internal/firebase_auth/zzej;->clone()Ljava/lang/Object;
@@ -107,7 +101,6 @@
 .method public final toString()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/firebase_auth/zzej;->value:Ljava/lang/String;
 
     return-object v0

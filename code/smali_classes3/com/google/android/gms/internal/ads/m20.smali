@@ -44,13 +44,10 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/google/android/gms/internal/ads/m20;->a:Lcom/google/android/gms/internal/ads/h20;
 
-    .line 3
     iput-object p2, p0, Lcom/google/android/gms/internal/ads/m20;->b:Lcom/google/android/gms/internal/ads/d62;
 
     return-void
@@ -59,12 +56,10 @@
 .method public static a(Lcom/google/android/gms/internal/ads/h20;Ljava/lang/Object;)Lcom/google/android/gms/internal/ads/a20;
     .locals 0
 
-    .line 1
     check-cast p1, Lcom/google/android/gms/internal/ads/c20;
 
     const-string p0, "Cannot return null from a non-@Nullable @Provides method"
 
-    .line 2
     invoke-static {p1, p0}, Lcom/google/android/gms/internal/ads/a62;->b(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
 
     move-result-object p0
@@ -79,7 +74,6 @@
 .method public final synthetic get()Ljava/lang/Object;
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/m20;->a:Lcom/google/android/gms/internal/ads/h20;
 
     iget-object v1, p0, Lcom/google/android/gms/internal/ads/m20;->b:Lcom/google/android/gms/internal/ads/d62;

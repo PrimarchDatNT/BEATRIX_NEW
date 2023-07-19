@@ -30,7 +30,6 @@
 .method constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -41,7 +40,6 @@
 .method public bridge synthetic a(Ljava/lang/Object;)V
     .locals 0
 
-    .line 1
     check-cast p1, Lcom/google/common/util/concurrent/ServiceManager$c;
 
     invoke-virtual {p0, p1}, Lcom/google/common/util/concurrent/ServiceManager$b;->b(Lcom/google/common/util/concurrent/ServiceManager$c;)V
@@ -52,7 +50,6 @@
 .method public b(Lcom/google/common/util/concurrent/ServiceManager$c;)V
     .locals 0
 
-    .line 1
     invoke-virtual {p1}, Lcom/google/common/util/concurrent/ServiceManager$c;->c()V
 
     return-void

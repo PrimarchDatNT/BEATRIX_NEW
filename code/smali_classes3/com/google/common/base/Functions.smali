@@ -25,7 +25,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -51,7 +50,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/google/common/base/Functions$FunctionComposition;
 
     invoke-direct {v0, p0, p1}, Lcom/google/common/base/Functions$FunctionComposition;-><init>(Lcom/google/common/base/n;Lcom/google/common/base/n;)V
@@ -76,7 +74,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/google/common/base/Functions$ConstantFunction;
 
     invoke-direct {v0, p0}, Lcom/google/common/base/Functions$ConstantFunction;-><init>(Ljava/lang/Object;)V
@@ -100,7 +97,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/google/common/base/Functions$FunctionForMapNoDefault;
 
     invoke-direct {v0, p0}, Lcom/google/common/base/Functions$FunctionForMapNoDefault;-><init>(Ljava/util/Map;)V
@@ -128,7 +124,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/google/common/base/Functions$ForMapWithDefault;
 
     invoke-direct {v0, p0, p1}, Lcom/google/common/base/Functions$ForMapWithDefault;-><init>(Ljava/util/Map;Ljava/lang/Object;)V
@@ -152,7 +147,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/google/common/base/Functions$PredicateFunction;
 
     const/4 v1, 0x0
@@ -177,7 +171,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/google/common/base/Functions$SupplierFunction;
 
     const/4 v1, 0x0
@@ -199,7 +192,6 @@
         }
     .end annotation
 
-    .line 1
     sget-object v0, Lcom/google/common/base/Functions$IdentityFunction;->INSTANCE:Lcom/google/common/base/Functions$IdentityFunction;
 
     return-object v0
@@ -217,7 +209,6 @@
         }
     .end annotation
 
-    .line 1
     sget-object v0, Lcom/google/common/base/Functions$ToStringFunction;->INSTANCE:Lcom/google/common/base/Functions$ToStringFunction;
 
     return-object v0

@@ -31,7 +31,6 @@
 .method protected constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/util/AbstractList;-><init>()V
 
     return-void
@@ -66,7 +65,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0, p1}, Lcotlin/collections/e;->c(I)Ljava/lang/Object;
 
     move-result-object p1
@@ -85,7 +83,6 @@
 .method public final bridge size()I
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcotlin/collections/e;->b()I
 
     move-result v0

@@ -72,7 +72,6 @@
         }
     .end annotation
 
-    .line 3
     invoke-direct {p0, p2, p3, p4}, Lcotlinx/coroutines/flow/internal/ChannelFlowOperator;-><init>(Lcotlinx/coroutines/flow/d;Lcotlin/coroutines/CoroutineContext;I)V
 
     iput-object p1, p0, Lcotlinx/coroutines/flow/internal/ChannelFlowTransformLatest;->d:Lcotlin/jvm/u/q;
@@ -87,7 +86,6 @@
 
     if-eqz p6, :cond_0
 
-    .line 1
     sget-object p3, Lcotlin/coroutines/EmptyCoroutineContext;->INSTANCE:Lcotlin/coroutines/EmptyCoroutineContext;
 
     :cond_0
@@ -97,7 +95,6 @@
 
     const/4 p4, -0x2
 
-    .line 2
     :cond_1
     invoke-direct {p0, p1, p2, p3, p4}, Lcotlinx/coroutines/flow/internal/ChannelFlowTransformLatest;-><init>(Lcotlin/jvm/u/q;Lcotlinx/coroutines/flow/d;Lcotlin/coroutines/CoroutineContext;I)V
 
@@ -107,7 +104,6 @@
 .method public static final synthetic p(Lcotlinx/coroutines/flow/internal/ChannelFlowTransformLatest;)Lcotlin/jvm/u/q;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lcotlinx/coroutines/flow/internal/ChannelFlowTransformLatest;->d:Lcotlin/jvm/u/q;
 
     return-object p0
@@ -134,7 +130,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     new-instance v0, Lcotlinx/coroutines/flow/internal/ChannelFlowTransformLatest;
 
     iget-object v1, p0, Lcotlinx/coroutines/flow/internal/ChannelFlowTransformLatest;->d:Lcotlin/jvm/u/q;
@@ -172,7 +167,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     invoke-static {}, Lcotlinx/coroutines/p0;->b()Z
 
     move-result v0
@@ -200,7 +194,6 @@
 
     throw p1
 
-    .line 2
     :cond_1
     :goto_0
     new-instance v0, Lcotlinx/coroutines/flow/internal/ChannelFlowTransformLatest$flowCollect$3;
@@ -221,7 +214,6 @@
 
     return-object p1
 
-    .line 3
     :cond_2
     sget-object p1, Lcotlin/t1;->a:Lcotlin/t1;
 

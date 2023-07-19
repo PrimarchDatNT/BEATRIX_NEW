@@ -34,12 +34,10 @@
 .method private constructor <init>(Lio/grpc/internal/p1;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lio/grpc/internal/p1$b;->c:Lio/grpc/internal/p1;
 
     invoke-direct {p0}, Ljava/io/OutputStream;-><init>()V
 
-    .line 2
     new-instance p1, Ljava/util/ArrayList;
 
     invoke-direct {p1}, Ljava/util/ArrayList;-><init>()V
@@ -52,7 +50,6 @@
 .method synthetic constructor <init>(Lio/grpc/internal/p1;Lio/grpc/internal/p1$a;)V
     .locals 0
 
-    .line 3
     invoke-direct {p0, p1}, Lio/grpc/internal/p1$b;-><init>(Lio/grpc/internal/p1;)V
 
     return-void
@@ -61,7 +58,6 @@
 .method private Z()I
     .locals 3
 
-    .line 1
     iget-object v0, p0, Lio/grpc/internal/p1$b;->a:Ljava/util/List;
 
     invoke-interface {v0}, Ljava/util/List;->iterator()Ljava/util/Iterator;
@@ -83,7 +79,6 @@
 
     check-cast v2, Lio/grpc/internal/h3;
 
-    .line 2
     invoke-interface {v2}, Lio/grpc/internal/h3;->Z()I
 
     move-result v2
@@ -99,7 +94,6 @@
 .method static synthetic a(Lio/grpc/internal/p1$b;)I
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lio/grpc/internal/p1$b;->Z()I
 
     move-result p0
@@ -110,7 +104,6 @@
 .method static synthetic b(Lio/grpc/internal/p1$b;)Ljava/util/List;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lio/grpc/internal/p1$b;->a:Ljava/util/List;
 
     return-object p0
@@ -126,7 +119,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lio/grpc/internal/p1$b;->b:Lio/grpc/internal/h3;
 
     if-eqz v0, :cond_0
@@ -137,7 +129,6 @@
 
     if-lez v0, :cond_0
 
-    .line 2
     iget-object v0, p0, Lio/grpc/internal/p1$b;->b:Lio/grpc/internal/h3;
 
     int-to-byte p1, p1
@@ -157,7 +148,6 @@
 
     aput-byte p1, v1, v2
 
-    .line 3
     invoke-virtual {p0, v1, v2, v0}, Lio/grpc/internal/p1$b;->write([BII)V
 
     return-void
@@ -166,12 +156,10 @@
 .method public write([BII)V
     .locals 2
 
-    .line 4
     iget-object v0, p0, Lio/grpc/internal/p1$b;->b:Lio/grpc/internal/h3;
 
     if-nez v0, :cond_0
 
-    .line 5
     iget-object v0, p0, Lio/grpc/internal/p1$b;->c:Lio/grpc/internal/p1;
 
     invoke-static {v0}, Lio/grpc/internal/p1;->b(Lio/grpc/internal/p1;)Lio/grpc/internal/i3;
@@ -184,7 +172,6 @@
 
     iput-object v0, p0, Lio/grpc/internal/p1$b;->b:Lio/grpc/internal/h3;
 
-    .line 6
     iget-object v1, p0, Lio/grpc/internal/p1$b;->a:Ljava/util/List;
 
     invoke-interface {v1, v0}, Ljava/util/List;->add(Ljava/lang/Object;)Z
@@ -193,7 +180,6 @@
     :goto_0
     if-lez p3, :cond_2
 
-    .line 7
     iget-object v0, p0, Lio/grpc/internal/p1$b;->b:Lio/grpc/internal/h3;
 
     invoke-interface {v0}, Lio/grpc/internal/h3;->a()I
@@ -206,7 +192,6 @@
 
     if-nez v0, :cond_1
 
-    .line 8
     iget-object v0, p0, Lio/grpc/internal/p1$b;->b:Lio/grpc/internal/h3;
 
     invoke-interface {v0}, Lio/grpc/internal/h3;->Z()I
@@ -219,7 +204,6 @@
 
     move-result v0
 
-    .line 9
     iget-object v1, p0, Lio/grpc/internal/p1$b;->c:Lio/grpc/internal/p1;
 
     invoke-static {v1}, Lio/grpc/internal/p1;->b(Lio/grpc/internal/p1;)Lio/grpc/internal/i3;
@@ -232,14 +216,12 @@
 
     iput-object v0, p0, Lio/grpc/internal/p1$b;->b:Lio/grpc/internal/h3;
 
-    .line 10
     iget-object v1, p0, Lio/grpc/internal/p1$b;->a:Ljava/util/List;
 
     invoke-interface {v1, v0}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
     goto :goto_0
 
-    .line 11
     :cond_1
     iget-object v1, p0, Lio/grpc/internal/p1$b;->b:Lio/grpc/internal/h3;
 

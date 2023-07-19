@@ -13,7 +13,6 @@
 .method static constructor <clinit>()V
     .locals 0
 
-    .line 1
     invoke-static {}, Lcom/mopub/common/util/AsyncTasks;->init()V
 
     return-void
@@ -22,7 +21,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -31,7 +29,6 @@
 .method static synthetic access$000()Ljava/util/concurrent/Executor;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/mopub/common/util/AsyncTasks;->sExecutor:Ljava/util/concurrent/Executor;
 
     return-object v0
@@ -40,12 +37,10 @@
 .method private static init()V
     .locals 2
 
-    .line 1
     sget-object v0, Landroid/os/AsyncTask;->THREAD_POOL_EXECUTOR:Ljava/util/concurrent/Executor;
 
     sput-object v0, Lcom/mopub/common/util/AsyncTasks;->sExecutor:Ljava/util/concurrent/Executor;
 
-    .line 2
     new-instance v0, Landroid/os/Handler;
 
     invoke-static {}, Landroid/os/Looper;->getMainLooper()Landroid/os/Looper;
@@ -81,10 +76,8 @@
 
     const-string v0, "Unable to execute null AsyncTask."
 
-    .line 1
     invoke-static {p0, v0}, Lcom/mopub/common/Preconditions;->checkNotNull(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 2
     invoke-static {}, Landroid/os/Looper;->getMainLooper()Landroid/os/Looper;
 
     move-result-object v0
@@ -95,14 +88,12 @@
 
     if-ne v0, v1, :cond_0
 
-    .line 3
     sget-object v0, Lcom/mopub/common/util/AsyncTasks;->sExecutor:Ljava/util/concurrent/Executor;
 
     invoke-virtual {p0, v0, p1}, Landroid/os/AsyncTask;->executeOnExecutor(Ljava/util/concurrent/Executor;[Ljava/lang/Object;)Landroid/os/AsyncTask;
 
     goto :goto_0
 
-    .line 4
     :cond_0
     sget-object v0, Lcom/mopub/common/logging/MoPubLog$SdkLogEvent;->CUSTOM:Lcom/mopub/common/logging/MoPubLog$SdkLogEvent;
 
@@ -118,7 +109,6 @@
 
     invoke-static {v0, v1}, Lcom/mopub/common/logging/MoPubLog;->log(Lcom/mopub/common/logging/MoPubLog$MPLogEventType;[Ljava/lang/Object;)V
 
-    .line 5
     sget-object v0, Lcom/mopub/common/util/AsyncTasks;->sUiThreadHandler:Landroid/os/Handler;
 
     new-instance v1, Lcom/mopub/common/util/AsyncTasks$1;
@@ -136,7 +126,6 @@
     .annotation build Lcom/mopub/common/VisibleForTesting;
     .end annotation
 
-    .line 1
     sput-object p0, Lcom/mopub/common/util/AsyncTasks;->sExecutor:Ljava/util/concurrent/Executor;
 
     return-void

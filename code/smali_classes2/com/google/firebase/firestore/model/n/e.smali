@@ -13,13 +13,10 @@
 .method constructor <init>(Lcom/google/firebase/firestore/model/e;Lcom/google/firebase/firestore/model/n/k;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/google/firebase/firestore/model/n/e;->a:Lcom/google/firebase/firestore/model/e;
 
-    .line 3
     iput-object p2, p0, Lcom/google/firebase/firestore/model/n/e;->b:Lcom/google/firebase/firestore/model/n/k;
 
     return-void
@@ -32,19 +29,16 @@
         .end annotation
     .end param
 
-    .line 1
     instance-of v0, p0, Lcom/google/firebase/firestore/model/Document;
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-virtual {p0}, Lcom/google/firebase/firestore/model/i;->b()Lcom/google/firebase/firestore/model/l;
 
     move-result-object p0
 
     return-object p0
 
-    .line 3
     :cond_0
     sget-object p0, Lcom/google/firebase/firestore/model/l;->b:Lcom/google/firebase/firestore/model/l;
 
@@ -81,7 +75,6 @@
 .method public d()Lcom/google/firebase/firestore/model/e;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/firestore/model/n/e;->a:Lcom/google/firebase/firestore/model/e;
 
     return-object v0
@@ -90,7 +83,6 @@
 .method public f()Lcom/google/firebase/firestore/model/n/k;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/firestore/model/n/e;->b:Lcom/google/firebase/firestore/model/n/k;
 
     return-object v0
@@ -99,7 +91,6 @@
 .method g(Lcom/google/firebase/firestore/model/n/e;)Z
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/firestore/model/n/e;->a:Lcom/google/firebase/firestore/model/e;
 
     iget-object v1, p1, Lcom/google/firebase/firestore/model/n/e;->a:Lcom/google/firebase/firestore/model/e;
@@ -137,7 +128,6 @@
 .method i()I
     .locals 2
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/firebase/firestore/model/n/e;->d()Lcom/google/firebase/firestore/model/e;
 
     move-result-object v0
@@ -162,7 +152,6 @@
 .method j()Ljava/lang/String;
     .locals 2
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -199,7 +188,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     invoke-virtual {p1}, Lcom/google/firebase/firestore/model/i;->a()Lcom/google/firebase/firestore/model/e;
 
     move-result-object p1
@@ -218,7 +206,6 @@
 
     const-string v1, "Can only apply a mutation to a document with the same key"
 
-    .line 2
     invoke-static {p1, v1, v0}, Lcom/google/firebase/firestore/util/b;->d(ZLjava/lang/String;[Ljava/lang/Object;)V
 
     :cond_0

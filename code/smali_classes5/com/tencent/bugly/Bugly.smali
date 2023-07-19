@@ -29,14 +29,12 @@
 
     const-string v2, "BuglyBetaModule"
 
-    .line 1
     filled-new-array {v0, v1, v2}, [Ljava/lang/String;
 
     move-result-object v3
 
     sput-object v3, Lcom/tencent/bugly/Bugly;->b:[Ljava/lang/String;
 
-    .line 2
     filled-new-array {v1, v0, v2}, [Ljava/lang/String;
 
     move-result-object v0
@@ -49,7 +47,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -62,7 +59,6 @@
 
     monitor-enter v0
 
-    .line 1
     :try_start_0
     invoke-static {}, Lcom/tencent/bugly/crashreport/common/info/a;->b()Lcom/tencent/bugly/crashreport/common/info/a;
 
@@ -74,12 +70,10 @@
 
     if-nez v1, :cond_0
 
-    .line 2
     monitor-exit v0
 
     return-object v2
 
-    .line 3
     :cond_0
     :try_start_1
     iget-object v3, v1, Lcom/tencent/bugly/crashreport/common/info/a;->m:Ljava/lang/String;
@@ -90,14 +84,12 @@
 
     if-eqz v3, :cond_2
 
-    .line 4
     invoke-static {}, Lcom/tencent/bugly/proguard/p;->a()Lcom/tencent/bugly/proguard/p;
 
     move-result-object v3
 
     if-nez v3, :cond_1
 
-    .line 5
     iget-object v1, v1, Lcom/tencent/bugly/crashreport/common/info/a;->m:Ljava/lang/String;
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
@@ -111,7 +103,6 @@
 
     const/4 v5, 0x1
 
-    .line 6
     :try_start_2
     invoke-virtual {v3, v4, v2, v5}, Lcom/tencent/bugly/proguard/p;->a(ILcom/tencent/bugly/proguard/o;Z)Ljava/util/Map;
 
@@ -121,7 +112,6 @@
 
     const-string v3, "app_channel"
 
-    .line 7
     invoke-interface {v2, v3}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v2
@@ -130,7 +120,6 @@
 
     if-eqz v2, :cond_2
 
-    .line 8
     new-instance v1, Ljava/lang/String;
 
     invoke-direct {v1, v2}, Ljava/lang/String;-><init>([B)V
@@ -141,7 +130,6 @@
 
     return-object v1
 
-    .line 9
     :cond_2
     :try_start_3
     iget-object v1, v1, Lcom/tencent/bugly/crashreport/common/info/a;->m:Ljava/lang/String;
@@ -165,7 +153,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-static {p0, p1, p2, v0}, Lcom/tencent/bugly/Bugly;->init(Landroid/content/Context;Ljava/lang/String;ZLcom/tencent/bugly/BuglyStrategy;)V
 
     return-void
@@ -178,7 +165,6 @@
 
     monitor-enter v0
 
-    .line 2
     :try_start_0
     sget-boolean v1, Lcom/tencent/bugly/Bugly;->a:Z
     :try_end_0
@@ -186,7 +172,6 @@
 
     if-eqz v1, :cond_0
 
-    .line 3
     monitor-exit v0
 
     return-void
@@ -194,21 +179,17 @@
     :cond_0
     const/4 v1, 0x1
 
-    .line 4
     :try_start_1
     sput-boolean v1, Lcom/tencent/bugly/Bugly;->a:Z
 
-    .line 5
     invoke-static {p0}, Lcom/tencent/bugly/proguard/z;->a(Landroid/content/Context;)Landroid/content/Context;
 
     move-result-object p0
 
-    .line 6
     sput-object p0, Lcom/tencent/bugly/Bugly;->applicationContext:Landroid/content/Context;
 
     if-nez p0, :cond_1
 
-    .line 7
     sget-object p0, Lcom/tencent/bugly/proguard/x;->a:Ljava/lang/String;
 
     const-string p1, "init arg \'context\' should not be null!"
@@ -217,12 +198,10 @@
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_1
 
-    .line 8
     monitor-exit v0
 
     return-void
 
-    .line 9
     :cond_1
     :try_start_2
     invoke-static {}, Lcom/tencent/bugly/Bugly;->isDev()Z
@@ -231,12 +210,10 @@
 
     if-eqz p0, :cond_2
 
-    .line 10
     sget-object p0, Lcom/tencent/bugly/Bugly;->c:[Ljava/lang/String;
 
     sput-object p0, Lcom/tencent/bugly/Bugly;->b:[Ljava/lang/String;
 
-    .line 11
     :cond_2
     sget-object p0, Lcom/tencent/bugly/Bugly;->b:[Ljava/lang/String;
 
@@ -254,14 +231,12 @@
     :try_start_3
     const-string v4, "BuglyCrashModule"
 
-    .line 12
     invoke-virtual {v3, v4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v4
 
     if-eqz v4, :cond_3
 
-    .line 13
     invoke-static {}, Lcom/tencent/bugly/CrashModule;->getInstance()Lcom/tencent/bugly/CrashModule;
 
     move-result-object v3
@@ -273,7 +248,6 @@
     :cond_3
     const-string v4, "BuglyBetaModule"
 
-    .line 14
     invoke-virtual {v3, v4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v4
@@ -282,7 +256,6 @@
 
     const-string v4, "BuglyRqdModule"
 
-    .line 15
     invoke-virtual {v3, v4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v4
@@ -291,7 +264,6 @@
 
     const-string v4, "BuglyFeedbackModule"
 
-    .line 16
     invoke-virtual {v3, v4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
     :try_end_3
     .catchall {:try_start_3 .. :try_end_3} :catchall_0
@@ -301,7 +273,6 @@
     :catchall_0
     move-exception v3
 
-    .line 17
     :try_start_4
     invoke-static {v3}, Lcom/tencent/bugly/proguard/x;->b(Ljava/lang/Throwable;)Z
 
@@ -311,20 +282,17 @@
 
     goto :goto_0
 
-    .line 18
     :cond_5
     sget-boolean p0, Lcom/tencent/bugly/Bugly;->enable:Z
 
     sput-boolean p0, Lcom/tencent/bugly/b;->a:Z
 
-    .line 19
     sget-object p0, Lcom/tencent/bugly/Bugly;->applicationContext:Landroid/content/Context;
 
     invoke-static {p0, p1, p2, p3}, Lcom/tencent/bugly/b;->a(Landroid/content/Context;Ljava/lang/String;ZLcom/tencent/bugly/BuglyStrategy;)V
     :try_end_4
     .catchall {:try_start_4 .. :try_end_4} :catchall_1
 
-    .line 20
     monitor-exit v0
 
     return-void
@@ -340,7 +308,6 @@
 .method public static isDev()Z
     .locals 3
 
-    .line 1
     sget-object v0, Lcom/tencent/bugly/Bugly;->isDev:Ljava/lang/Boolean;
 
     if-nez v0, :cond_0
@@ -351,7 +318,6 @@
 
     const-string v2, ""
 
-    .line 2
     invoke-virtual {v0, v1, v2}, Ljava/lang/String;->replace(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)Ljava/lang/String;
 
     move-result-object v0
@@ -366,7 +332,6 @@
 
     sput-object v0, Lcom/tencent/bugly/Bugly;->isDev:Ljava/lang/Boolean;
 
-    .line 3
     :cond_0
     sget-object v0, Lcom/tencent/bugly/Bugly;->isDev:Ljava/lang/Boolean;
 

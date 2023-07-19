@@ -17,7 +17,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -30,25 +29,21 @@
 
     monitor-enter v0
 
-    .line 1
     :try_start_0
     sget-object v1, Lcom/tencent/matrix/backtrace/b;->a:Ljava/lang/String;
 
     if-nez v1, :cond_0
 
-    .line 2
     invoke-static {}, Landroid/os/Process;->myPid()I
 
     move-result v1
 
-    .line 3
     invoke-static {p0, v1}, Lcom/tencent/matrix/backtrace/b;->b(Landroid/content/Context;I)Ljava/lang/String;
 
     move-result-object p0
 
     sput-object p0, Lcom/tencent/matrix/backtrace/b;->a:Ljava/lang/String;
 
-    .line 4
     :cond_0
     sget-object p0, Lcom/tencent/matrix/backtrace/b;->a:Ljava/lang/String;
     :try_end_0
@@ -81,14 +76,12 @@
     :try_start_0
     const-string v1, "activity"
 
-    .line 1
     invoke-virtual {p0, v1}, Landroid/content/Context;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
 
     move-result-object p0
 
     check-cast p0, Landroid/app/ActivityManager;
 
-    .line 2
     invoke-virtual {p0}, Landroid/app/ActivityManager;->getRunningAppProcesses()Ljava/util/List;
 
     move-result-object p0
@@ -110,7 +103,6 @@
 
     check-cast v1, Landroid/app/ActivityManager$RunningAppProcessInfo;
 
-    .line 3
     iget v2, v1, Landroid/app/ActivityManager$RunningAppProcessInfo;->pid:I
 
     if-ne v2, p1, :cond_1
@@ -125,7 +117,6 @@
 
     if-nez v2, :cond_1
 
-    .line 4
     iget-object p0, v1, Landroid/app/ActivityManager$RunningAppProcessInfo;->processName:Ljava/lang/String;
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
@@ -140,7 +131,6 @@
 
     const/4 v2, 0x0
 
-    .line 5
     :try_start_1
     new-instance v3, Ljava/io/BufferedInputStream;
 
@@ -171,7 +161,6 @@
     .catch Ljava/lang/Exception; {:try_start_1 .. :try_end_1} :catch_4
     .catchall {:try_start_1 .. :try_end_1} :catchall_1
 
-    .line 6
     :try_start_2
     invoke-virtual {v3, v1}, Ljava/io/InputStream;->read([B)I
 
@@ -186,7 +175,6 @@
     :goto_0
     if-ge v4, p1, :cond_5
 
-    .line 7
     aget-byte v5, v1, v4
 
     if-gt v5, p0, :cond_4
@@ -206,7 +194,6 @@
     :goto_1
     move p1, v4
 
-    .line 8
     :cond_5
     new-instance p0, Ljava/lang/String;
 
@@ -215,7 +202,6 @@
     .catch Ljava/lang/Exception; {:try_start_2 .. :try_end_2} :catch_2
     .catchall {:try_start_2 .. :try_end_2} :catchall_0
 
-    .line 9
     :try_start_3
     invoke-virtual {v3}, Ljava/io/InputStream;->close()V
     :try_end_3
@@ -255,7 +241,6 @@
     :try_end_5
     .catch Ljava/lang/Exception; {:try_start_5 .. :try_end_5} :catch_3
 
-    .line 10
     :catch_3
     :cond_7
     throw p0
@@ -264,7 +249,6 @@
     :goto_3
     if-eqz v2, :cond_8
 
-    .line 11
     :try_start_6
     invoke-virtual {v2}, Ljava/io/InputStream;->close()V
     :try_end_6
@@ -279,12 +263,10 @@
 .method public static c(Landroid/content/Context;)Z
     .locals 1
 
-    .line 1
     invoke-static {p0}, Lcom/tencent/matrix/backtrace/b;->a(Landroid/content/Context;)Ljava/lang/String;
 
     move-result-object v0
 
-    .line 2
     invoke-virtual {p0}, Landroid/content/Context;->getPackageName()Ljava/lang/String;
 
     move-result-object p0

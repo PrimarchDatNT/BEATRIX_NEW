@@ -35,7 +35,6 @@
 
     invoke-static {p0, p1}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-interface {p2}, Lcotlin/reflect/c;->getName()Ljava/lang/String;
 
     move-result-object p1
@@ -75,7 +74,6 @@
 
     invoke-static {p0, p1}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-interface {p2}, Lcotlin/reflect/c;->getName()Ljava/lang/String;
 
     move-result-object p1
@@ -111,7 +109,6 @@
 
     invoke-static {p0, p1}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-interface {p2}, Lcotlin/reflect/c;->getName()Ljava/lang/String;
 
     move-result-object p1

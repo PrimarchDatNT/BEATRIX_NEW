@@ -26,18 +26,14 @@
 .method public constructor <init>(Landroid/content/Context;Lcom/meitu/library/n/a/o/e;)V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/4 v0, 0x0
 
-    .line 2
     iput-boolean v0, p0, Lcom/commsource/camera/render/MTGifRenderProxy$f;->a:Z
 
-    .line 3
     iput-object p1, p0, Lcom/commsource/camera/render/MTGifRenderProxy$f;->b:Landroid/content/Context;
 
-    .line 4
     iput-object p2, p0, Lcom/commsource/camera/render/MTGifRenderProxy$f;->c:Lcom/meitu/library/n/a/o/e;
 
     return-void
@@ -50,7 +46,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/camera/render/MTGifRenderProxy$f;->b:Landroid/content/Context;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -65,7 +60,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/camera/render/MTGifRenderProxy$f;->c:Lcom/meitu/library/n/a/o/e;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -80,7 +74,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean p0, p0, Lcom/commsource/camera/render/MTGifRenderProxy$f;->a:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -97,7 +90,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/commsource/camera/render/MTGifRenderProxy;
 
     const/4 v2, 0x0
@@ -116,10 +108,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/camera/render/MTGifRenderProxy$f;->a:Z
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0

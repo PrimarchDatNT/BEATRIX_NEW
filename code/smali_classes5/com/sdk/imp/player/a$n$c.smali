@@ -27,7 +27,6 @@
 .method constructor <init>(Lcom/sdk/imp/player/a$n;I)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/sdk/imp/player/a$n$c;->b:Lcom/sdk/imp/player/a$n;
 
     iput p2, p0, Lcom/sdk/imp/player/a$n$c;->a:I
@@ -42,14 +41,12 @@
 .method public run()V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/sdk/imp/player/a$n$c;->b:Lcom/sdk/imp/player/a$n;
 
     iget v1, p0, Lcom/sdk/imp/player/a$n$c;->a:I
 
     invoke-static {v0, v1}, Lcom/sdk/imp/player/a$n;->c(Lcom/sdk/imp/player/a$n;I)I
 
-    .line 2
     iget-object v0, p0, Lcom/sdk/imp/player/a$n$c;->b:Lcom/sdk/imp/player/a$n;
 
     invoke-virtual {v0}, Lcom/sdk/imp/player/a$n;->l()V

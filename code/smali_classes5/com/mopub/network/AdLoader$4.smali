@@ -27,7 +27,6 @@
 .method constructor <init>(Lcom/mopub/network/AdLoader;Lcom/mopub/network/AdResponse;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/mopub/network/AdLoader$4;->this$0:Lcom/mopub/network/AdLoader;
 
     iput-object p2, p0, Lcom/mopub/network/AdLoader$4;->val$adResponse:Lcom/mopub/network/AdResponse;
@@ -42,7 +41,6 @@
 .method public run()V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/network/AdLoader$4;->this$0:Lcom/mopub/network/AdLoader;
 
     iget-object v1, p0, Lcom/mopub/network/AdLoader$4;->val$adResponse:Lcom/mopub/network/AdResponse;

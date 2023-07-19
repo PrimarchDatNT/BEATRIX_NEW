@@ -7,7 +7,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -26,14 +25,12 @@
 
     if-eqz p2, :cond_0
 
-    .line 3
     invoke-virtual {p2}, Lcom/meitu/core/types/FaceData;->nativeInstance()J
 
     move-result-wide v1
 
     invoke-static {p0, p1, v1, v2, p3}, Lcom/meitu/core/processor/FaceNeckBrightnessProcessor;->nativeFaceNeckBrightness_bitmap(Landroid/graphics/Bitmap;Landroid/graphics/Bitmap;JI)Z
 
-    .line 4
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -55,7 +52,6 @@
 
     if-eqz p2, :cond_0
 
-    .line 1
     invoke-virtual {p0}, Lcom/meitu/core/types/NativeBitmap;->nativeInstance()J
 
     move-result-wide v1
@@ -70,7 +66,6 @@
 
     invoke-static/range {v1 .. v6}, Lcom/meitu/core/processor/FaceNeckBrightnessProcessor;->nativeFaceNeckBrightness(JLandroid/graphics/Bitmap;JI)Z
 
-    .line 2
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

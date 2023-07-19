@@ -24,7 +24,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Landroid/os/Handler;-><init>()V
 
     return-void
@@ -33,7 +32,6 @@
 .method public constructor <init>(Landroid/os/Handler$Callback;)V
     .locals 0
 
-    .line 2
     invoke-direct {p0, p1}, Landroid/os/Handler;-><init>(Landroid/os/Handler$Callback;)V
 
     return-void
@@ -42,7 +40,6 @@
 .method public constructor <init>(Landroid/os/Looper;)V
     .locals 0
 
-    .line 3
     invoke-direct {p0, p1}, Landroid/os/Handler;-><init>(Landroid/os/Looper;)V
 
     return-void
@@ -51,7 +48,6 @@
 .method public constructor <init>(Landroid/os/Looper;Landroid/os/Handler$Callback;)V
     .locals 0
 
-    .line 4
     invoke-direct {p0, p1, p2}, Landroid/os/Handler;-><init>(Landroid/os/Looper;Landroid/os/Handler$Callback;)V
 
     return-void
@@ -64,7 +60,6 @@
     .annotation build Landroidx/annotation/CallSuper;
     .end annotation
 
-    .line 1
     invoke-super {p0, p1}, Landroid/os/Handler;->dispatchMessage(Landroid/os/Message;)V
 
     return-void
@@ -73,7 +68,6 @@
 .method public b(Ljava/lang/Runnable;)Z
     .locals 0
 
-    .line 1
     invoke-virtual {p0, p1}, Landroid/os/Handler;->postAtFrontOfQueue(Ljava/lang/Runnable;)Z
 
     move-result p1
@@ -84,7 +78,6 @@
 .method public c(Landroid/os/Message;)Z
     .locals 0
 
-    .line 1
     invoke-virtual {p0, p1}, Landroid/os/Handler;->sendMessageAtFrontOfQueue(Landroid/os/Message;)Z
 
     move-result p1
@@ -95,7 +88,6 @@
 .method public final dispatchMessage(Landroid/os/Message;)V
     .locals 0
 
-    .line 1
     invoke-virtual {p0, p1}, Lf/f/b/b/i/a/a/a;->a(Landroid/os/Message;)V
 
     return-void
@@ -104,7 +96,6 @@
 .method public sendMessageAtTime(Landroid/os/Message;J)Z
     .locals 0
 
-    .line 1
     invoke-super {p0, p1, p2, p3}, Landroid/os/Handler;->sendMessageAtTime(Landroid/os/Message;J)Z
 
     move-result p1

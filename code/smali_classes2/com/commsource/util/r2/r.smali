@@ -25,7 +25,6 @@
 
     invoke-static {}, Lcom/commsource/util/r2/r;->d()V
 
-    .line 1
     const-class v1, Lcom/commsource/util/r2/r;
 
     invoke-virtual {v1}, Ljava/lang/Class;->getSimpleName()Ljava/lang/String;
@@ -42,7 +41,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/util/r2/a;-><init>()V
 
     return-void
@@ -55,7 +53,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v9, Ln/a/b/c/e;
 
     const-class v1, Lcom/commsource/util/r2/r;
@@ -106,7 +103,6 @@
 
     invoke-static {p0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p1, p2, p3}, Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -129,10 +125,8 @@
 
     const-string v1, "\u4e0d\u505a\u5904\u7406\u3002"
 
-    .line 1
     invoke-static {v0, v1}, Lcom/meitu/library/util/Debug/Debug;->e(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 2
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -148,7 +142,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0, p1}, Lcom/commsource/util/r2/r;->c(Landroid/view/Window;)Z
 
     move-result p1
@@ -157,12 +150,10 @@
 
     const/4 p1, 0x0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
 
-    .line 3
     :cond_0
     invoke-static {}, Lcom/meitu/library/p/f/i;->B()I
 
@@ -187,12 +178,10 @@
 
     if-nez p1, :cond_0
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
 
-    .line 2
     :cond_0
     invoke-virtual {p1}, Landroid/view/Window;->getContext()Landroid/content/Context;
 
@@ -205,7 +194,6 @@
     :try_start_0
     const-string v2, "android.util.FtFeature"
 
-    .line 3
     invoke-virtual {p1, v2}, Ljava/lang/ClassLoader;->loadClass(Ljava/lang/String;)Ljava/lang/Class;
 
     move-result-object p1
@@ -218,7 +206,6 @@
 
     new-array v4, v3, [Ljava/lang/Class;
 
-    .line 4
     sget-object v5, Ljava/lang/Integer;->TYPE:Ljava/lang/Class;
 
     aput-object v5, v4, v1
@@ -229,7 +216,6 @@
 
     iput-object p1, p0, Lcom/commsource/util/r2/r;->b:Ljava/lang/reflect/Method;
 
-    .line 5
     iget-object v2, p0, Lcom/commsource/util/r2/r;->a:Ljava/lang/Class;
 
     new-array v4, v3, [Ljava/lang/Object;
@@ -298,7 +284,6 @@
     .catch Ljava/lang/reflect/InvocationTargetException; {:try_start_0 .. :try_end_0} :catch_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1

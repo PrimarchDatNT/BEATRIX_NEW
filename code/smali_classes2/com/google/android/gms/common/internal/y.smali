@@ -30,7 +30,6 @@
 .method static constructor <clinit>()V
     .locals 3
 
-    .line 1
     new-instance v0, Lcom/google/android/gms/common/internal/n;
 
     const-string v1, "LibraryVersion"
@@ -41,7 +40,6 @@
 
     sput-object v0, Lcom/google/android/gms/common/internal/y;->b:Lcom/google/android/gms/common/internal/n;
 
-    .line 2
     new-instance v0, Lcom/google/android/gms/common/internal/y;
 
     invoke-direct {v0}, Lcom/google/android/gms/common/internal/y;-><init>()V
@@ -56,10 +54,8 @@
     .annotation build Lcom/google/android/gms/common/util/d0;
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     new-instance v0, Ljava/util/concurrent/ConcurrentHashMap;
 
     invoke-direct {v0}, Ljava/util/concurrent/ConcurrentHashMap;-><init>()V
@@ -74,7 +70,6 @@
     .annotation build Lcom/google/android/gms/common/annotation/a;
     .end annotation
 
-    .line 1
     sget-object v0, Lcom/google/android/gms/common/internal/y;->c:Lcom/google/android/gms/common/internal/y;
 
     return-object v0
@@ -97,10 +92,8 @@
 
     const-string v2, "Please provide a valid libraryName"
 
-    .line 1
     invoke-static {p1, v2}, Lcom/google/android/gms/common/internal/b0;->h(Ljava/lang/String;Ljava/lang/Object;)Ljava/lang/String;
 
-    .line 2
     iget-object v2, p0, Lcom/google/android/gms/common/internal/y;->a:Ljava/util/concurrent/ConcurrentHashMap;
 
     invoke-virtual {v2, p1}, Ljava/util/concurrent/ConcurrentHashMap;->containsKey(Ljava/lang/Object;)Z
@@ -109,7 +102,6 @@
 
     if-eqz v2, :cond_0
 
-    .line 3
     iget-object v0, p0, Lcom/google/android/gms/common/internal/y;->a:Ljava/util/concurrent/ConcurrentHashMap;
 
     invoke-virtual {v0, p1}, Ljava/util/concurrent/ConcurrentHashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
@@ -120,7 +112,6 @@
 
     return-object p1
 
-    .line 4
     :cond_0
     new-instance v2, Ljava/util/Properties;
 
@@ -139,12 +130,10 @@
 
     aput-object p1, v5, v6
 
-    .line 5
     invoke-static {v4, v5}, Ljava/lang/String;->format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object v4
 
-    .line 6
     const-class v5, Lcom/google/android/gms/common/internal/y;
 
     invoke-virtual {v5, v4}, Ljava/lang/Class;->getResourceAsStream(Ljava/lang/String;)Ljava/io/InputStream;
@@ -153,17 +142,14 @@
 
     if-eqz v4, :cond_1
 
-    .line 7
     invoke-virtual {v2, v4}, Ljava/util/Properties;->load(Ljava/io/InputStream;)V
 
     const-string v4, "version"
 
-    .line 8
     invoke-virtual {v2, v4, v3}, Ljava/util/Properties;->getProperty(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v3
 
-    .line 9
     sget-object v2, Lcom/google/android/gms/common/internal/y;->b:Lcom/google/android/gms/common/internal/n;
 
     invoke-static {p1}, Ljava/lang/String;->valueOf(Ljava/lang/Object;)Ljava/lang/String;
@@ -206,7 +192,6 @@
 
     goto :goto_2
 
-    .line 10
     :cond_1
     sget-object v2, Lcom/google/android/gms/common/internal/y;->b:Lcom/google/android/gms/common/internal/n;
 
@@ -241,7 +226,6 @@
     :catch_0
     move-exception v2
 
-    .line 11
     sget-object v4, Lcom/google/android/gms/common/internal/y;->b:Lcom/google/android/gms/common/internal/n;
 
     invoke-static {p1}, Ljava/lang/String;->valueOf(Ljava/lang/Object;)Ljava/lang/String;
@@ -273,7 +257,6 @@
     :goto_2
     if-nez v3, :cond_4
 
-    .line 12
     sget-object v0, Lcom/google/android/gms/common/internal/y;->b:Lcom/google/android/gms/common/internal/n;
 
     const-string v2, ".properties file is dropped during release process. Failure to read app version isexpected druing Google internal testing where locally-built libraries are used"
@@ -282,7 +265,6 @@
 
     const-string v3, "UNKNOWN"
 
-    .line 13
     :cond_4
     iget-object v0, p0, Lcom/google/android/gms/common/internal/y;->a:Ljava/util/concurrent/ConcurrentHashMap;
 

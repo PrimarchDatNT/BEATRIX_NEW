@@ -24,22 +24,18 @@
 .method private constructor <init>(Lcom/meitu/shortcut/core/j$b;)V
     .locals 1
 
-    .line 2
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/4 v0, 0x1
 
-    .line 3
     iput-boolean v0, p0, Lcom/meitu/shortcut/core/j;->b:Z
 
-    .line 4
     invoke-static {p1}, Lcom/meitu/shortcut/core/j$b;->a(Lcom/meitu/shortcut/core/j$b;)Landroidx/core/content/pm/ShortcutInfoCompat;
 
     move-result-object v0
 
     iput-object v0, p0, Lcom/meitu/shortcut/core/j;->a:Landroidx/core/content/pm/ShortcutInfoCompat;
 
-    .line 5
     invoke-static {p1}, Lcom/meitu/shortcut/core/j$b;->b(Lcom/meitu/shortcut/core/j$b;)Z
 
     move-result p1
@@ -52,7 +48,6 @@
 .method synthetic constructor <init>(Lcom/meitu/shortcut/core/j$b;Lcom/meitu/shortcut/core/j$a;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/meitu/shortcut/core/j;-><init>(Lcom/meitu/shortcut/core/j$b;)V
 
     return-void
@@ -69,7 +64,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/meitu/shortcut/core/j;->c()Landroidx/core/content/pm/ShortcutInfoCompat;
 
     move-result-object v1
@@ -92,7 +86,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/meitu/shortcut/core/j;->c()Landroidx/core/content/pm/ShortcutInfoCompat;
 
     move-result-object v1
@@ -115,7 +108,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/shortcut/core/j;->a:Landroidx/core/content/pm/ShortcutInfoCompat;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -130,7 +122,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/meitu/shortcut/core/j;->b:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

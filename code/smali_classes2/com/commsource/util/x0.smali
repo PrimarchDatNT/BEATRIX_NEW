@@ -7,7 +7,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -20,12 +19,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/google/android/gms/common/d;->v()Lcom/google/android/gms/common/d;
 
     move-result-object v1
 
-    .line 2
     invoke-virtual {v1, p0}, Lcom/google/android/gms/common/d;->j(Landroid/content/Context;)I
 
     move-result p0
@@ -39,7 +36,6 @@
     :cond_0
     const/4 p0, 0x1
 
-    .line 3
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

@@ -39,12 +39,10 @@
 .method public constructor <init>()V
     .locals 4
 
-    .line 1
     invoke-direct {p0}, Landroidx/recyclerview/widget/RecyclerView$ItemDecoration;-><init>()V
 
     const/high16 v0, 0x41800000    # 16.0f
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/p/f/i;->d(F)I
 
     move-result v0
@@ -53,7 +51,6 @@
 
     const/4 v0, 0x0
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/p/f/i;->d(F)I
 
     move-result v1
@@ -62,21 +59,18 @@
 
     const/high16 v1, 0x41900000    # 18.0f
 
-    .line 4
     invoke-static {v1}, Lcom/meitu/library/p/f/i;->d(F)I
 
     move-result v1
 
     iput v1, p0, Lcom/commsource/studio/function/style/f;->d:I
 
-    .line 5
     new-instance v1, Landroid/graphics/RectF;
 
     invoke-direct {v1}, Landroid/graphics/RectF;-><init>()V
 
     const/high16 v2, 0x40000000    # 2.0f
 
-    .line 6
     invoke-static {v2}, Lcom/meitu/library/p/f/i;->b(F)F
 
     move-result v2
@@ -89,10 +83,8 @@
 
     invoke-virtual {v1, v0, v0, v2, v3}, Landroid/graphics/RectF;->set(FFFF)V
 
-    .line 7
     iput-object v1, p0, Lcom/commsource/studio/function/style/f;->e:Landroid/graphics/RectF;
 
-    .line 8
     new-instance v0, Landroid/graphics/Paint;
 
     const/4 v1, 0x1
@@ -101,14 +93,12 @@
 
     sget v1, Lcom/res/provider/ResCOLOR;->Gray_Dashline:I
 
-    .line 9
     invoke-static {v1}, Lcom/commsource/util/u1;->b(I)I
 
     move-result v1
 
     invoke-virtual {v0, v1}, Landroid/graphics/Paint;->setColor(I)V
 
-    .line 10
     iput-object v0, p0, Lcom/commsource/studio/function/style/f;->f:Landroid/graphics/Paint;
 
     return-void
@@ -125,7 +115,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/function/style/f;->f:Landroid/graphics/Paint;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -142,7 +131,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/function/style/f;->e:Landroid/graphics/RectF;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -171,25 +159,20 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     new-instance v1, Ljava/util/ArrayList;
 
     invoke-direct {v1}, Ljava/util/ArrayList;-><init>()V
 
-    .line 2
     invoke-interface {v1, p1}, Ljava/util/List;->addAll(Ljava/util/Collection;)Z
 
-    .line 3
     invoke-static {p1}, Lcotlin/collections/s;->G(Ljava/util/List;)I
 
     move-result p1
 
     invoke-interface {v1, p1}, Ljava/util/List;->remove(I)Ljava/lang/Object;
 
-    .line 4
     iput-object v1, p0, Lcom/commsource/studio/function/style/f;->a:Ljava/util/List;
 
-    .line 5
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -235,12 +218,10 @@
 
     invoke-static {p4, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-virtual {p3, p2}, Landroidx/recyclerview/widget/RecyclerView;->getChildAdapterPosition(Landroid/view/View;)I
 
     move-result p2
 
-    .line 2
     invoke-virtual {p3}, Landroidx/recyclerview/widget/RecyclerView;->getAdapter()Landroidx/recyclerview/widget/RecyclerView$Adapter;
 
     move-result-object p3
@@ -258,7 +239,6 @@
     :cond_0
     const/4 p3, 0x0
 
-    .line 3
     :goto_0
     iget-object v1, p0, Lcom/commsource/studio/function/style/f;->a:Ljava/util/List;
 
@@ -276,19 +256,16 @@
 
     if-ne v1, v2, :cond_1
 
-    .line 4
     iget v1, p0, Lcom/commsource/studio/function/style/f;->d:I
 
     goto :goto_1
 
-    .line 5
     :cond_1
     iget v1, p0, Lcom/commsource/studio/function/style/f;->c:I
 
     :goto_1
     if-nez p2, :cond_2
 
-    .line 6
     iget p2, p0, Lcom/commsource/studio/function/style/f;->b:I
 
     invoke-virtual {p1, p2, p4, v1, p4}, Landroid/graphics/Rect;->set(IIII)V
@@ -300,18 +277,15 @@
 
     if-ne p2, p3, :cond_3
 
-    .line 7
     iget p2, p0, Lcom/commsource/studio/function/style/f;->b:I
 
     invoke-virtual {p1, p4, p4, p2, p4}, Landroid/graphics/Rect;->set(IIII)V
 
     goto :goto_2
 
-    .line 8
     :cond_3
     invoke-virtual {p1, p4, p4, v1, p4}, Landroid/graphics/Rect;->set(IIII)V
 
-    .line 9
     :goto_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -349,10 +323,8 @@
 
     invoke-static {p3, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-super {p0, p1, p2, p3}, Landroidx/recyclerview/widget/RecyclerView$ItemDecoration;->onDraw(Landroid/graphics/Canvas;Landroidx/recyclerview/widget/RecyclerView;Landroidx/recyclerview/widget/RecyclerView$State;)V
 
-    .line 2
     invoke-virtual {p2}, Landroid/view/ViewGroup;->getChildCount()I
 
     move-result p3
@@ -362,17 +334,14 @@
     :goto_0
     if-ge v1, p3, :cond_1
 
-    .line 3
     invoke-virtual {p2, v1}, Landroid/view/ViewGroup;->getChildAt(I)Landroid/view/View;
 
     move-result-object v2
 
-    .line 4
     invoke-virtual {p2, v2}, Landroidx/recyclerview/widget/RecyclerView;->getChildAdapterPosition(Landroid/view/View;)I
 
     move-result v3
 
-    .line 5
     iget-object v4, p0, Lcom/commsource/studio/function/style/f;->a:Ljava/util/List;
 
     if-eqz v4, :cond_0
@@ -391,7 +360,6 @@
 
     const-string v3, "child"
 
-    .line 6
     invoke-static {v2, v3}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v2}, Landroid/view/View;->getRight()I
@@ -406,7 +374,6 @@
 
     add-int/2addr v3, v4
 
-    .line 7
     invoke-virtual {v2}, Landroid/view/View;->getBottom()I
 
     move-result v4
@@ -433,14 +400,12 @@
 
     sub-int/2addr v4, v2
 
-    .line 8
     iget-object v2, p0, Lcom/commsource/studio/function/style/f;->e:Landroid/graphics/RectF;
 
     int-to-float v3, v3
 
     const/high16 v5, 0x3f800000    # 1.0f
 
-    .line 9
     invoke-static {v5}, Lcom/meitu/library/p/f/i;->b(F)F
 
     move-result v6
@@ -451,31 +416,26 @@
 
     const/high16 v7, 0x40e00000    # 7.0f
 
-    .line 10
     invoke-static {v7}, Lcom/meitu/library/p/f/i;->b(F)F
 
     move-result v8
 
     sub-float v8, v4, v8
 
-    .line 11
     invoke-static {v5}, Lcom/meitu/library/p/f/i;->b(F)F
 
     move-result v5
 
     add-float/2addr v3, v5
 
-    .line 12
     invoke-static {v7}, Lcom/meitu/library/p/f/i;->b(F)F
 
     move-result v5
 
     add-float/2addr v4, v5
 
-    .line 13
     invoke-virtual {v2, v6, v8, v3, v4}, Landroid/graphics/RectF;->set(FFFF)V
 
-    .line 14
     iget-object v2, p0, Lcom/commsource/studio/function/style/f;->e:Landroid/graphics/RectF;
 
     const/high16 v3, 0x40000000    # 2.0f
@@ -497,7 +457,6 @@
 
     goto :goto_0
 
-    .line 15
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

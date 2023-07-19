@@ -36,7 +36,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     new-instance v0, Lcotlin/io/h;
 
     invoke-direct {v0, p0, p1}, Lcotlin/io/h;-><init>(Ljava/io/File;Lcotlin/io/FileWalkDirection;)V
@@ -51,7 +50,6 @@
 
     if-eqz p2, :cond_0
 
-    .line 1
     sget-object p1, Lcotlin/io/FileWalkDirection;->TOP_DOWN:Lcotlin/io/FileWalkDirection;
 
     :cond_0
@@ -75,7 +73,6 @@
 
     invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     sget-object v0, Lcotlin/io/FileWalkDirection;->BOTTOM_UP:Lcotlin/io/FileWalkDirection;
 
     invoke-static {p0, v0}, Lcotlin/io/l;->J(Ljava/io/File;Lcotlin/io/FileWalkDirection;)Lcotlin/io/h;
@@ -98,7 +95,6 @@
 
     invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     sget-object v0, Lcotlin/io/FileWalkDirection;->TOP_DOWN:Lcotlin/io/FileWalkDirection;
 
     invoke-static {p0, v0}, Lcotlin/io/l;->J(Ljava/io/File;Lcotlin/io/FileWalkDirection;)Lcotlin/io/h;

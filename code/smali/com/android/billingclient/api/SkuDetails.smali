@@ -30,20 +30,16 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/android/billingclient/api/SkuDetails;->a:Ljava/lang/String;
 
-    .line 3
     new-instance v0, Lorg/json/JSONObject;
 
     invoke-direct {v0, p1}, Lorg/json/JSONObject;-><init>(Ljava/lang/String;)V
 
     iput-object v0, p0, Lcom/android/billingclient/api/SkuDetails;->b:Lorg/json/JSONObject;
 
-    .line 4
     invoke-virtual {p0}, Lcom/android/billingclient/api/SkuDetails;->n()Ljava/lang/String;
 
     move-result-object p1
@@ -54,7 +50,6 @@
 
     if-nez p1, :cond_1
 
-    .line 5
     invoke-virtual {p0}, Lcom/android/billingclient/api/SkuDetails;->q()Ljava/lang/String;
 
     move-result-object p1
@@ -67,7 +62,6 @@
 
     return-void
 
-    .line 6
     :cond_0
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -77,7 +71,6 @@
 
     throw p1
 
-    .line 7
     :cond_1
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -93,7 +86,6 @@
 .method public a()Ljava/lang/String;
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/android/billingclient/api/SkuDetails;->b:Lorg/json/JSONObject;
 
     const-string v1, "description"
@@ -108,7 +100,6 @@
 .method public b()Ljava/lang/String;
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/android/billingclient/api/SkuDetails;->b:Lorg/json/JSONObject;
 
     const-string v1, "freeTrialPeriod"
@@ -123,7 +114,6 @@
 .method public c()Ljava/lang/String;
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/android/billingclient/api/SkuDetails;->b:Lorg/json/JSONObject;
 
     const-string v1, "iconUrl"
@@ -138,7 +128,6 @@
 .method public d()Ljava/lang/String;
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/android/billingclient/api/SkuDetails;->b:Lorg/json/JSONObject;
 
     const-string v1, "introductoryPrice"
@@ -153,7 +142,6 @@
 .method public e()J
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/android/billingclient/api/SkuDetails;->b:Lorg/json/JSONObject;
 
     const-string v1, "introductoryPriceAmountMicros"
@@ -178,7 +166,6 @@
 
     return p1
 
-    .line 1
     :cond_0
     instance-of v0, p1, Lcom/android/billingclient/api/SkuDetails;
 
@@ -188,11 +175,9 @@
 
     return p1
 
-    .line 2
     :cond_1
     check-cast p1, Lcom/android/billingclient/api/SkuDetails;
 
-    .line 3
     iget-object v0, p0, Lcom/android/billingclient/api/SkuDetails;->a:Ljava/lang/String;
 
     iget-object p1, p1, Lcom/android/billingclient/api/SkuDetails;->a:Ljava/lang/String;
@@ -207,7 +192,6 @@
 .method public f()I
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/android/billingclient/api/SkuDetails;->b:Lorg/json/JSONObject;
 
     const-string v1, "introductoryPriceCycles"
@@ -222,7 +206,6 @@
 .method public g()Ljava/lang/String;
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/android/billingclient/api/SkuDetails;->b:Lorg/json/JSONObject;
 
     const-string v1, "introductoryPricePeriod"
@@ -237,7 +220,6 @@
 .method public h()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/android/billingclient/api/SkuDetails;->a:Ljava/lang/String;
 
     return-object v0
@@ -246,7 +228,6 @@
 .method public hashCode()I
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/android/billingclient/api/SkuDetails;->a:Ljava/lang/String;
 
     invoke-virtual {v0}, Ljava/lang/String;->hashCode()I
@@ -259,7 +240,6 @@
 .method public i()Ljava/lang/String;
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/android/billingclient/api/SkuDetails;->b:Lorg/json/JSONObject;
 
     const-string v1, "original_price"
@@ -270,7 +250,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 2
     iget-object v0, p0, Lcom/android/billingclient/api/SkuDetails;->b:Lorg/json/JSONObject;
 
     invoke-virtual {v0, v1}, Lorg/json/JSONObject;->optString(Ljava/lang/String;)Ljava/lang/String;
@@ -279,7 +258,6 @@
 
     return-object v0
 
-    .line 3
     :cond_0
     invoke-virtual {p0}, Lcom/android/billingclient/api/SkuDetails;->k()Ljava/lang/String;
 
@@ -291,7 +269,6 @@
 .method public j()J
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/android/billingclient/api/SkuDetails;->b:Lorg/json/JSONObject;
 
     const-string v1, "original_price_micros"
@@ -302,7 +279,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 2
     iget-object v0, p0, Lcom/android/billingclient/api/SkuDetails;->b:Lorg/json/JSONObject;
 
     invoke-virtual {v0, v1}, Lorg/json/JSONObject;->optLong(Ljava/lang/String;)J
@@ -311,7 +287,6 @@
 
     return-wide v0
 
-    .line 3
     :cond_0
     invoke-virtual {p0}, Lcom/android/billingclient/api/SkuDetails;->l()J
 
@@ -323,7 +298,6 @@
 .method public k()Ljava/lang/String;
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/android/billingclient/api/SkuDetails;->b:Lorg/json/JSONObject;
 
     const-string v1, "price"
@@ -338,7 +312,6 @@
 .method public l()J
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/android/billingclient/api/SkuDetails;->b:Lorg/json/JSONObject;
 
     const-string v1, "price_amount_micros"
@@ -353,7 +326,6 @@
 .method public m()Ljava/lang/String;
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/android/billingclient/api/SkuDetails;->b:Lorg/json/JSONObject;
 
     const-string v1, "price_currency_code"
@@ -368,7 +340,6 @@
 .method public n()Ljava/lang/String;
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/android/billingclient/api/SkuDetails;->b:Lorg/json/JSONObject;
 
     const-string v1, "productId"
@@ -383,7 +354,6 @@
 .method public o()Ljava/lang/String;
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/android/billingclient/api/SkuDetails;->b:Lorg/json/JSONObject;
 
     const-string/jumbo v1, "subscriptionPeriod"
@@ -398,7 +368,6 @@
 .method public p()Ljava/lang/String;
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/android/billingclient/api/SkuDetails;->b:Lorg/json/JSONObject;
 
     const-string/jumbo v1, "title"
@@ -413,7 +382,6 @@
 .method public q()Ljava/lang/String;
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/android/billingclient/api/SkuDetails;->b:Lorg/json/JSONObject;
 
     const-string/jumbo v1, "type"
@@ -428,7 +396,6 @@
 .method public final r()Ljava/lang/String;
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/android/billingclient/api/SkuDetails;->b:Lorg/json/JSONObject;
 
     const-string v1, "packageName"
@@ -443,7 +410,6 @@
 .method final s()Ljava/lang/String;
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/android/billingclient/api/SkuDetails;->b:Lorg/json/JSONObject;
 
     const-string/jumbo v1, "skuDetailsToken"
@@ -458,7 +424,6 @@
 .method public toString()Ljava/lang/String;
     .locals 3
 
-    .line 1
     iget-object v0, p0, Lcom/android/billingclient/api/SkuDetails;->a:Ljava/lang/String;
 
     invoke-static {v0}, Ljava/lang/String;->valueOf(Ljava/lang/Object;)Ljava/lang/String;

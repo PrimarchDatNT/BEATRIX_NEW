@@ -55,7 +55,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/studio/sub/StudioBeautyFilterFragment$i;->a:Lcom/commsource/studio/sub/StudioBeautyFilterFragment;
 
     invoke-virtual {v0}, Lcom/commsource/beautyplus/i0/a;->c()Z
@@ -64,12 +63,10 @@
 
     if-nez v0, :cond_0
 
-    .line 2
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 3
     :cond_0
     iget-object v0, p0, Lcom/commsource/studio/sub/StudioBeautyFilterFragment$i;->a:Lcom/commsource/studio/sub/StudioBeautyFilterFragment;
 
@@ -79,7 +76,6 @@
 
     invoke-virtual {v0}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->a1()V
 
-    .line 4
     iget-object v0, p0, Lcom/commsource/studio/sub/StudioBeautyFilterFragment$i;->a:Lcom/commsource/studio/sub/StudioBeautyFilterFragment;
 
     invoke-static {v0}, Lcom/commsource/studio/sub/StudioBeautyFilterFragment;->Y(Lcom/commsource/studio/sub/StudioBeautyFilterFragment;)Lcom/commsource/studio/sub/d;
@@ -92,7 +88,6 @@
 
     if-eqz v0, :cond_2
 
-    .line 5
     invoke-virtual {v0}, Lcom/commsource/studio/bean/FilterLayerInfo;->getFilter()Lcom/meitu/template/bean/Filter;
 
     move-result-object v1
@@ -103,7 +98,6 @@
 
     if-nez v1, :cond_1
 
-    .line 6
     iget-object v1, p0, Lcom/commsource/studio/sub/StudioBeautyFilterFragment$i;->a:Lcom/commsource/studio/sub/StudioBeautyFilterFragment;
 
     invoke-virtual {v1}, Lcom/commsource/studio/sub/BaseSubTabFragment;->L()Lcom/commsource/studio/ImageStudioViewModel;
@@ -118,7 +112,6 @@
 
     goto :goto_0
 
-    .line 7
     :cond_1
     new-instance v1, Ljava/util/HashMap;
 
@@ -126,7 +119,6 @@
 
     invoke-direct {v1, v2}, Ljava/util/HashMap;-><init>(I)V
 
-    .line 8
     invoke-virtual {v0}, Lcom/commsource/studio/bean/FilterLayerInfo;->getFilter()Lcom/meitu/template/bean/Filter;
 
     move-result-object v2
@@ -143,7 +135,6 @@
 
     invoke-interface {v1, v3, v2}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 9
     invoke-virtual {v0}, Lcom/commsource/studio/bean/FilterLayerInfo;->getAlpha()I
 
     move-result v0
@@ -158,28 +149,22 @@
 
     const-string v0, "beautyfilteryes"
 
-    .line 10
     invoke-static {v0, v1}, Lcom/commsource/statistics/i;->s(Ljava/lang/String;Ljava/util/Map;)V
 
-    .line 11
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
     move-result-object v1
 
-    .line 12
     invoke-static {v1, v0}, Lcom/commsource/statistics/c;->f(Landroid/content/Context;Ljava/lang/String;)V
 
-    .line 13
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
     move-result-object v0
 
     const-string v1, "Sub_related_event"
 
-    .line 14
     invoke-static {v0, v1}, Lcom/commsource/statistics/c;->f(Landroid/content/Context;Ljava/lang/String;)V
 
-    .line 15
     :cond_2
     :goto_0
     iget-object v0, p0, Lcom/commsource/studio/sub/StudioBeautyFilterFragment$i;->a:Lcom/commsource/studio/sub/StudioBeautyFilterFragment;
@@ -194,7 +179,6 @@
 
     invoke-static {v0, v1, v2, v1}, Lcom/commsource/studio/ImageStudioViewModel;->D1(Lcom/commsource/studio/ImageStudioViewModel;Ljava/util/Map;ILjava/lang/Object;)V
 
-    .line 16
     iget-object v0, p0, Lcom/commsource/studio/sub/StudioBeautyFilterFragment$i;->a:Lcom/commsource/studio/sub/StudioBeautyFilterFragment;
 
     invoke-virtual {v0}, Lcom/commsource/studio/sub/BaseSubTabFragment;->L()Lcom/commsource/studio/ImageStudioViewModel;
@@ -207,12 +191,10 @@
 
     invoke-static {v0, v1, v2, v1}, Lcom/commsource/studio/bean/a;->r0(Lcom/commsource/studio/bean/a;Ljava/lang/Boolean;ILjava/lang/Object;)V
 
-    .line 17
     iget-object v0, p0, Lcom/commsource/studio/sub/StudioBeautyFilterFragment$i;->a:Lcom/commsource/studio/sub/StudioBeautyFilterFragment;
 
     invoke-virtual {v0, v1}, Lcom/commsource/studio/sub/StudioBeautyFilterFragment;->q0(Lcom/commsource/studio/bean/BaseLayerInfo;)V
 
-    .line 18
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -225,7 +207,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Ljava/lang/Boolean;
 
     invoke-virtual {p0, p1}, Lcom/commsource/studio/sub/StudioBeautyFilterFragment$i;->a(Ljava/lang/Boolean;)V

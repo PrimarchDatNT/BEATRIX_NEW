@@ -62,12 +62,10 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const-string v0, "comparator"
 
-    .line 2
     invoke-static {p1, v0}, Lcom/google/common/base/t;->F(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -76,7 +74,6 @@
 
     iput-object p1, p0, Lcom/google/common/collect/g2;->b:Ljava/util/Comparator;
 
-    .line 3
     iput p2, p0, Lcom/google/common/collect/g2;->a:I
 
     const/4 p1, 0x1
@@ -95,7 +92,6 @@
     :goto_0
     const-string v2, "k (%s) must be >= 0"
 
-    .line 4
     invoke-static {v1, v2, p2}, Lcom/google/common/base/t;->k(ZLjava/lang/String;I)V
 
     const v1, 0x3fffffff    # 1.9999999f
@@ -110,12 +106,10 @@
     :goto_1
     const-string v1, "k (%s) must be <= Integer.MAX_VALUE / 2"
 
-    .line 5
     invoke-static {p1, v1, p2}, Lcom/google/common/base/t;->k(ZLjava/lang/String;I)V
 
     const/4 p1, 0x2
 
-    .line 6
     invoke-static {p2, p1}, Lcom/google/common/math/d;->d(II)I
 
     move-result p1
@@ -124,12 +118,10 @@
 
     iput-object p1, p0, Lcom/google/common/collect/g2;->c:[Ljava/lang/Object;
 
-    .line 7
     iput v0, p0, Lcom/google/common/collect/g2;->d:I
 
     const/4 p1, 0x0
 
-    .line 8
     iput-object p1, p0, Lcom/google/common/collect/g2;->e:Ljava/lang/Object;
 
     return-void
@@ -147,7 +139,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {}, Lcom/google/common/collect/Ordering;->natural()Lcom/google/common/collect/Ordering;
 
     move-result-object v0
@@ -173,7 +164,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/google/common/collect/g2;
 
     invoke-static {p1}, Lcom/google/common/collect/Ordering;->from(Ljava/util/Comparator;)Lcom/google/common/collect/Ordering;
@@ -201,7 +191,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {}, Lcom/google/common/collect/Ordering;->natural()Lcom/google/common/collect/Ordering;
 
     move-result-object v0
@@ -227,7 +216,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/google/common/collect/g2;
 
     invoke-direct {v0, p1, p0}, Lcom/google/common/collect/g2;-><init>(Ljava/util/Comparator;I)V
@@ -238,12 +226,10 @@
 .method private h(III)I
     .locals 3
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/g2;->c:[Ljava/lang/Object;
 
     aget-object v1, v0, p3
 
-    .line 2
     aget-object v2, v0, p2
 
     aput-object v2, v0, p3
@@ -253,7 +239,6 @@
     :goto_0
     if-ge p1, p2, :cond_1
 
-    .line 3
     iget-object v0, p0, Lcom/google/common/collect/g2;->b:Ljava/util/Comparator;
 
     iget-object v2, p0, Lcom/google/common/collect/g2;->c:[Ljava/lang/Object;
@@ -266,7 +251,6 @@
 
     if-gez v0, :cond_0
 
-    .line 4
     invoke-direct {p0, p3, p1}, Lcom/google/common/collect/g2;->i(II)V
 
     add-int/lit8 p3, p3, 0x1
@@ -276,7 +260,6 @@
 
     goto :goto_0
 
-    .line 5
     :cond_1
     iget-object p1, p0, Lcom/google/common/collect/g2;->c:[Ljava/lang/Object;
 
@@ -284,7 +267,6 @@
 
     aput-object v0, p1, p2
 
-    .line 6
     aput-object v1, p1, p3
 
     return p3
@@ -293,17 +275,14 @@
 .method private i(II)V
     .locals 3
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/g2;->c:[Ljava/lang/Object;
 
     aget-object v1, v0, p1
 
-    .line 2
     aget-object v2, v0, p2
 
     aput-object v2, v0, p1
 
-    .line 3
     aput-object v1, v0, p2
 
     return-void
@@ -312,7 +291,6 @@
 .method private k()V
     .locals 7
 
-    .line 1
     iget v0, p0, Lcom/google/common/collect/g2;->a:I
 
     mul-int/lit8 v0, v0, 0x2
@@ -321,7 +299,6 @@
 
     add-int/lit8 v1, v0, 0x0
 
-    .line 2
     sget-object v2, Ljava/math/RoundingMode;->CEILING:Ljava/math/RoundingMode;
 
     invoke-static {v1, v2}, Lcom/google/common/math/d;->p(ILjava/math/RoundingMode;)I
@@ -345,12 +322,10 @@
 
     ushr-int/lit8 v5, v5, 0x1
 
-    .line 3
     invoke-direct {p0, v2, v0, v5}, Lcom/google/common/collect/g2;->h(III)I
 
     move-result v5
 
-    .line 4
     iget v6, p0, Lcom/google/common/collect/g2;->a:I
 
     if-le v5, v6, :cond_1
@@ -366,7 +341,6 @@
 
     add-int/lit8 v2, v2, 0x1
 
-    .line 5
     invoke-static {v5, v2}, Ljava/lang/Math;->max(II)I
 
     move-result v2
@@ -378,20 +352,17 @@
 
     if-lt v3, v1, :cond_0
 
-    .line 6
     iget-object v1, p0, Lcom/google/common/collect/g2;->c:[Ljava/lang/Object;
 
     iget-object v3, p0, Lcom/google/common/collect/g2;->b:Ljava/util/Comparator;
 
     invoke-static {v1, v2, v0, v3}, Ljava/util/Arrays;->sort([Ljava/lang/Object;IILjava/util/Comparator;)V
 
-    .line 7
     :cond_2
     iget v0, p0, Lcom/google/common/collect/g2;->a:I
 
     iput v0, p0, Lcom/google/common/collect/g2;->d:I
 
-    .line 8
     iget-object v0, p0, Lcom/google/common/collect/g2;->c:[Ljava/lang/Object;
 
     aget-object v0, v0, v4
@@ -401,12 +372,10 @@
     :goto_1
     add-int/lit8 v4, v4, 0x1
 
-    .line 9
     iget v0, p0, Lcom/google/common/collect/g2;->a:I
 
     if-ge v4, v0, :cond_4
 
-    .line 10
     iget-object v0, p0, Lcom/google/common/collect/g2;->b:Ljava/util/Comparator;
 
     iget-object v1, p0, Lcom/google/common/collect/g2;->c:[Ljava/lang/Object;
@@ -421,7 +390,6 @@
 
     if-lez v0, :cond_3
 
-    .line 11
     iget-object v0, p0, Lcom/google/common/collect/g2;->c:[Ljava/lang/Object;
 
     aget-object v0, v0, v4
@@ -449,32 +417,27 @@
         }
     .end annotation
 
-    .line 1
     iget v0, p0, Lcom/google/common/collect/g2;->a:I
 
     if-nez v0, :cond_0
 
     return-void
 
-    .line 2
     :cond_0
     iget v1, p0, Lcom/google/common/collect/g2;->d:I
 
     if-nez v1, :cond_1
 
-    .line 3
     iget-object v0, p0, Lcom/google/common/collect/g2;->c:[Ljava/lang/Object;
 
     const/4 v1, 0x0
 
     aput-object p1, v0, v1
 
-    .line 4
     iput-object p1, p0, Lcom/google/common/collect/g2;->e:Ljava/lang/Object;
 
     const/4 p1, 0x1
 
-    .line 5
     iput p1, p0, Lcom/google/common/collect/g2;->d:I
 
     goto :goto_0
@@ -482,7 +445,6 @@
     :cond_1
     if-ge v1, v0, :cond_2
 
-    .line 6
     iget-object v0, p0, Lcom/google/common/collect/g2;->c:[Ljava/lang/Object;
 
     add-int/lit8 v2, v1, 0x1
@@ -491,7 +453,6 @@
 
     aput-object p1, v0, v1
 
-    .line 7
     iget-object v0, p0, Lcom/google/common/collect/g2;->b:Ljava/util/Comparator;
 
     iget-object v1, p0, Lcom/google/common/collect/g2;->e:Ljava/lang/Object;
@@ -502,12 +463,10 @@
 
     if-lez v0, :cond_3
 
-    .line 8
     iput-object p1, p0, Lcom/google/common/collect/g2;->e:Ljava/lang/Object;
 
     goto :goto_0
 
-    .line 9
     :cond_2
     iget-object v0, p0, Lcom/google/common/collect/g2;->b:Ljava/util/Comparator;
 
@@ -519,7 +478,6 @@
 
     if-gez v0, :cond_3
 
-    .line 10
     iget-object v0, p0, Lcom/google/common/collect/g2;->c:[Ljava/lang/Object;
 
     iget v1, p0, Lcom/google/common/collect/g2;->d:I
@@ -530,14 +488,12 @@
 
     aput-object p1, v0, v1
 
-    .line 11
     iget p1, p0, Lcom/google/common/collect/g2;->a:I
 
     mul-int/lit8 p1, p1, 0x2
 
     if-ne v2, p1, :cond_3
 
-    .line 12
     invoke-direct {p0}, Lcom/google/common/collect/g2;->k()V
 
     :cond_3
@@ -555,7 +511,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-interface {p1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object p1
@@ -575,7 +530,6 @@
         }
     .end annotation
 
-    .line 1
     :goto_0
     invoke-interface {p1}, Ljava/util/Iterator;->hasNext()Z
 
@@ -583,7 +537,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-interface {p1}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
     move-result-object v0
@@ -606,7 +559,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/g2;->c:[Ljava/lang/Object;
 
     iget v1, p0, Lcom/google/common/collect/g2;->d:I
@@ -617,14 +569,12 @@
 
     invoke-static {v0, v3, v1, v2}, Ljava/util/Arrays;->sort([Ljava/lang/Object;IILjava/util/Comparator;)V
 
-    .line 2
     iget v0, p0, Lcom/google/common/collect/g2;->d:I
 
     iget v1, p0, Lcom/google/common/collect/g2;->a:I
 
     if-le v0, v1, :cond_0
 
-    .line 3
     iget-object v0, p0, Lcom/google/common/collect/g2;->c:[Ljava/lang/Object;
 
     array-length v2, v0
@@ -633,12 +583,10 @@
 
     invoke-static {v0, v1, v2, v3}, Ljava/util/Arrays;->fill([Ljava/lang/Object;IILjava/lang/Object;)V
 
-    .line 4
     iget v0, p0, Lcom/google/common/collect/g2;->a:I
 
     iput v0, p0, Lcom/google/common/collect/g2;->d:I
 
-    .line 5
     iget-object v1, p0, Lcom/google/common/collect/g2;->c:[Ljava/lang/Object;
 
     add-int/lit8 v0, v0, -0x1
@@ -647,7 +595,6 @@
 
     iput-object v0, p0, Lcom/google/common/collect/g2;->e:Ljava/lang/Object;
 
-    .line 6
     :cond_0
     iget-object v0, p0, Lcom/google/common/collect/g2;->c:[Ljava/lang/Object;
 

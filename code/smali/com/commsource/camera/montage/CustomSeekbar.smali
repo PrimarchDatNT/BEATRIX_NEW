@@ -98,7 +98,6 @@
 
     const/high16 v1, 0x40000000    # 2.0f
 
-    .line 1
     invoke-static {v1}, Lcom/meitu/library/p/f/i;->d(F)I
 
     move-result v1
@@ -115,7 +114,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-direct {p0, p1, v0}, Lcom/commsource/camera/montage/CustomSeekbar;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
     return-void
@@ -130,7 +128,6 @@
 
     const/4 v0, 0x0
 
-    .line 2
     invoke-direct {p0, p1, p2, v0}, Lcom/commsource/camera/montage/CustomSeekbar;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
     return-void
@@ -143,24 +140,20 @@
         .end annotation
     .end param
 
-    .line 3
     invoke-direct {p0, p1, p2, p3}, Landroid/view/View;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
-    .line 4
     new-instance p3, Landroid/graphics/Rect;
 
     invoke-direct {p3}, Landroid/graphics/Rect;-><init>()V
 
     iput-object p3, p0, Lcom/commsource/camera/montage/CustomSeekbar;->d0:Landroid/graphics/Rect;
 
-    .line 5
     new-instance p3, Landroid/graphics/Rect;
 
     invoke-direct {p3}, Landroid/graphics/Rect;-><init>()V
 
     iput-object p3, p0, Lcom/commsource/camera/montage/CustomSeekbar;->g0:Landroid/graphics/Rect;
 
-    .line 6
     invoke-direct {p0, p1, p2}, Lcom/commsource/camera/montage/CustomSeekbar;->k(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
     return-void
@@ -173,7 +166,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean p0, p0, Lcom/commsource/camera/montage/CustomSeekbar;->c0:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -188,7 +180,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/commsource/camera/montage/CustomSeekbar;->l(Landroid/view/MotionEvent;)Z
 
     move-result p0
@@ -205,7 +196,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/camera/montage/CustomSeekbar;->b0:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -220,23 +210,19 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/montage/CustomSeekbar;->g:Landroid/graphics/drawable/Drawable;
 
     if-nez v1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 3
     :cond_0
     iget v2, p0, Lcom/commsource/camera/montage/CustomSeekbar;->m0:I
 
     if-nez v2, :cond_1
 
-    .line 4
     iget v2, p0, Lcom/commsource/camera/montage/CustomSeekbar;->S:I
 
     iget v3, p0, Lcom/commsource/camera/montage/CustomSeekbar;->R:I
@@ -267,14 +253,12 @@
 
     float-to-int v2, v2
 
-    .line 5
     iget v3, p0, Lcom/commsource/camera/montage/CustomSeekbar;->L:I
 
     div-int/lit8 v3, v3, 0x2
 
     sub-int v3, v2, v3
 
-    .line 6
     invoke-virtual {p0}, Landroid/view/View;->getHeight()I
 
     move-result v4
@@ -297,7 +281,6 @@
 
     add-int/2addr v2, v5
 
-    .line 7
     invoke-virtual {p0}, Landroid/view/View;->getHeight()I
 
     move-result v5
@@ -314,12 +297,10 @@
 
     add-int/2addr v5, v6
 
-    .line 8
     invoke-virtual {v1, v3, v4, v2, v5}, Landroid/graphics/drawable/Drawable;->setBounds(IIII)V
 
     goto :goto_0
 
-    .line 9
     :cond_1
     iget v2, p0, Lcom/commsource/camera/montage/CustomSeekbar;->S:I
 
@@ -349,7 +330,6 @@
 
     add-float/2addr v2, v3
 
-    .line 10
     invoke-virtual {p0}, Landroid/view/View;->getWidth()I
 
     move-result v3
@@ -374,7 +354,6 @@
 
     sub-int v4, v2, v4
 
-    .line 11
     invoke-virtual {p0}, Landroid/view/View;->getHeight()I
 
     move-result v5
@@ -397,10 +376,8 @@
 
     add-int/2addr v2, v6
 
-    .line 12
     invoke-virtual {v1, v3, v4, v5, v2}, Landroid/graphics/drawable/Drawable;->setBounds(IIII)V
 
-    .line 13
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -414,7 +391,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/camera/montage/CustomSeekbar;->l0:I
 
     const/4 v2, 0x1
@@ -425,7 +401,6 @@
 
     if-nez v1, :cond_0
 
-    .line 2
     iget v1, p0, Lcom/commsource/camera/montage/CustomSeekbar;->R:I
 
     iget v2, p0, Lcom/commsource/camera/montage/CustomSeekbar;->J:I
@@ -436,7 +411,6 @@
 
     iput v1, p0, Lcom/commsource/camera/montage/CustomSeekbar;->R:I
 
-    .line 3
     iget v1, p0, Lcom/commsource/camera/montage/CustomSeekbar;->S:I
 
     div-int/lit8 v2, v2, 0x2
@@ -445,13 +419,11 @@
 
     iput v1, p0, Lcom/commsource/camera/montage/CustomSeekbar;->S:I
 
-    .line 4
     :cond_0
     iget v1, p0, Lcom/commsource/camera/montage/CustomSeekbar;->m0:I
 
     if-nez v1, :cond_1
 
-    .line 5
     iget-object v1, p0, Lcom/commsource/camera/montage/CustomSeekbar;->d:Landroid/graphics/drawable/Drawable;
 
     iget v2, p0, Lcom/commsource/camera/montage/CustomSeekbar;->R:I
@@ -474,7 +446,6 @@
 
     iget v4, p0, Lcom/commsource/camera/montage/CustomSeekbar;->S:I
 
-    .line 6
     invoke-virtual {p0}, Landroid/view/View;->getHeight()I
 
     move-result v5
@@ -491,12 +462,10 @@
 
     add-int/2addr v5, v6
 
-    .line 7
     invoke-virtual {v1, v2, v3, v4, v5}, Landroid/graphics/drawable/Drawable;->setBounds(IIII)V
 
     goto :goto_0
 
-    .line 8
     :cond_1
     iget-object v1, p0, Lcom/commsource/camera/montage/CustomSeekbar;->d:Landroid/graphics/drawable/Drawable;
 
@@ -518,7 +487,6 @@
 
     iget v3, p0, Lcom/commsource/camera/montage/CustomSeekbar;->R:I
 
-    .line 9
     invoke-virtual {p0}, Landroid/view/View;->getWidth()I
 
     move-result v4
@@ -537,10 +505,8 @@
 
     iget v5, p0, Lcom/commsource/camera/montage/CustomSeekbar;->S:I
 
-    .line 10
     invoke-virtual {v1, v2, v3, v4, v5}, Landroid/graphics/drawable/Drawable;->setBounds(IIII)V
 
-    .line 11
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -554,7 +520,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/camera/montage/CustomSeekbar;->S:I
 
     iget v2, p0, Lcom/commsource/camera/montage/CustomSeekbar;->R:I
@@ -585,7 +550,6 @@
 
     sub-int/2addr v1, v2
 
-    .line 2
     iget v6, p0, Lcom/commsource/camera/montage/CustomSeekbar;->Q:I
 
     sub-int/2addr v6, v5
@@ -604,7 +568,6 @@
 
     add-float/2addr v1, v2
 
-    .line 3
     iget v2, p0, Lcom/commsource/camera/montage/CustomSeekbar;->m0:I
 
     if-nez v2, :cond_1
@@ -613,7 +576,6 @@
 
     if-gez v2, :cond_0
 
-    .line 4
     iget-object v2, p0, Lcom/commsource/camera/montage/CustomSeekbar;->c:Landroid/graphics/drawable/Drawable;
 
     float-to-int v3, v3
@@ -636,7 +598,6 @@
 
     float-to-int v1, v1
 
-    .line 5
     invoke-virtual {p0}, Landroid/view/View;->getHeight()I
 
     move-result v5
@@ -653,12 +614,10 @@
 
     add-int/2addr v5, v6
 
-    .line 6
     invoke-virtual {v2, v3, v4, v1, v5}, Landroid/graphics/drawable/Drawable;->setBounds(IIII)V
 
     goto :goto_0
 
-    .line 7
     :cond_0
     iget-object v2, p0, Lcom/commsource/camera/montage/CustomSeekbar;->c:Landroid/graphics/drawable/Drawable;
 
@@ -682,7 +641,6 @@
 
     float-to-int v3, v3
 
-    .line 8
     invoke-virtual {p0}, Landroid/view/View;->getHeight()I
 
     move-result v5
@@ -699,7 +657,6 @@
 
     add-int/2addr v5, v6
 
-    .line 9
     invoke-virtual {v2, v1, v4, v3, v5}, Landroid/graphics/drawable/Drawable;->setBounds(IIII)V
 
     goto :goto_0
@@ -709,7 +666,6 @@
 
     if-gez v2, :cond_2
 
-    .line 10
     iget-object v2, p0, Lcom/commsource/camera/montage/CustomSeekbar;->c:Landroid/graphics/drawable/Drawable;
 
     invoke-virtual {p0}, Landroid/view/View;->getWidth()I
@@ -730,7 +686,6 @@
 
     float-to-int v3, v3
 
-    .line 11
     invoke-virtual {p0}, Landroid/view/View;->getWidth()I
 
     move-result v5
@@ -749,12 +704,10 @@
 
     float-to-int v1, v1
 
-    .line 12
     invoke-virtual {v2, v4, v3, v5, v1}, Landroid/graphics/drawable/Drawable;->setBounds(IIII)V
 
     goto :goto_0
 
-    .line 13
     :cond_2
     iget-object v2, p0, Lcom/commsource/camera/montage/CustomSeekbar;->c:Landroid/graphics/drawable/Drawable;
 
@@ -776,7 +729,6 @@
 
     float-to-int v1, v1
 
-    .line 14
     invoke-virtual {p0}, Landroid/view/View;->getWidth()I
 
     move-result v5
@@ -795,10 +747,8 @@
 
     float-to-int v3, v3
 
-    .line 15
     invoke-virtual {v2, v4, v1, v5, v3}, Landroid/graphics/drawable/Drawable;->setBounds(IIII)V
 
-    .line 16
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -812,7 +762,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/camera/montage/CustomSeekbar;->S:I
 
     iget v2, p0, Lcom/commsource/camera/montage/CustomSeekbar;->R:I
@@ -841,7 +790,6 @@
 
     add-float/2addr v3, v4
 
-    .line 2
     iget v4, p0, Lcom/commsource/camera/montage/CustomSeekbar;->l0:I
 
     const/4 v5, 0x1
@@ -860,7 +808,6 @@
 
     if-nez v2, :cond_0
 
-    .line 3
     iget v1, p0, Lcom/commsource/camera/montage/CustomSeekbar;->J:I
 
     int-to-float v1, v1
@@ -878,7 +825,6 @@
 
     if-nez v1, :cond_1
 
-    .line 4
     iget v1, p0, Lcom/commsource/camera/montage/CustomSeekbar;->J:I
 
     int-to-float v1, v1
@@ -887,14 +833,12 @@
 
     sub-float/2addr v3, v1
 
-    .line 5
     :cond_1
     :goto_0
     iget v1, p0, Lcom/commsource/camera/montage/CustomSeekbar;->m0:I
 
     if-nez v1, :cond_2
 
-    .line 6
     iget-object v1, p0, Lcom/commsource/camera/montage/CustomSeekbar;->g0:Landroid/graphics/Rect;
 
     float-to-int v2, v3
@@ -927,7 +871,6 @@
 
     add-int/2addr v2, v5
 
-    .line 7
     invoke-virtual {p0}, Landroid/view/View;->getHeight()I
 
     move-result v5
@@ -944,12 +887,10 @@
 
     add-int/2addr v5, v6
 
-    .line 8
     invoke-virtual {v1, v3, v4, v2, v5}, Landroid/graphics/Rect;->set(IIII)V
 
     goto :goto_1
 
-    .line 9
     :cond_2
     iget-object v1, p0, Lcom/commsource/camera/montage/CustomSeekbar;->g0:Landroid/graphics/Rect;
 
@@ -977,7 +918,6 @@
 
     sub-int v4, v3, v4
 
-    .line 10
     invoke-virtual {p0}, Landroid/view/View;->getWidth()I
 
     move-result v5
@@ -1000,32 +940,26 @@
 
     add-int/2addr v3, v6
 
-    .line 11
     invoke-virtual {v1, v2, v4, v5, v3}, Landroid/graphics/Rect;->set(IIII)V
 
-    .line 12
     :goto_1
     iget-object v1, p0, Lcom/commsource/camera/montage/CustomSeekbar;->a:Landroid/graphics/drawable/Drawable;
 
     if-eqz v1, :cond_3
 
-    .line 13
     iget-object v2, p0, Lcom/commsource/camera/montage/CustomSeekbar;->g0:Landroid/graphics/Rect;
 
     invoke-virtual {v1, v2}, Landroid/graphics/drawable/Drawable;->setBounds(Landroid/graphics/Rect;)V
 
-    .line 14
     :cond_3
     iget-object v1, p0, Lcom/commsource/camera/montage/CustomSeekbar;->b:Landroid/graphics/drawable/Drawable;
 
     if-eqz v1, :cond_4
 
-    .line 15
     iget-object v2, p0, Lcom/commsource/camera/montage/CustomSeekbar;->g0:Landroid/graphics/Rect;
 
     invoke-virtual {v1, v2}, Landroid/graphics/drawable/Drawable;->setBounds(Landroid/graphics/Rect;)V
 
-    .line 16
     :cond_4
     iget-object v1, p0, Lcom/commsource/camera/montage/CustomSeekbar;->d0:Landroid/graphics/Rect;
 
@@ -1033,7 +967,6 @@
 
     invoke-virtual {v1, v2}, Landroid/graphics/Rect;->set(Landroid/graphics/Rect;)V
 
-    .line 17
     iget-object v1, p0, Lcom/commsource/camera/montage/CustomSeekbar;->d0:Landroid/graphics/Rect;
 
     sget v2, Lcom/commsource/camera/montage/CustomSeekbar;->o0:I
@@ -1044,7 +977,6 @@
 
     invoke-virtual {v1, v3, v2}, Landroid/graphics/Rect;->inset(II)V
 
-    .line 18
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1057,12 +989,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/camera/montage/CustomSeekbar;->m0:I
 
     if-nez v1, :cond_0
 
-    .line 2
     invoke-virtual {p0}, Landroid/view/View;->getPaddingTop()I
 
     move-result v1
@@ -1079,7 +1009,6 @@
 
     return v1
 
-    .line 3
     :cond_0
     invoke-virtual {p0}, Landroid/view/View;->getPaddingLeft()I
 
@@ -1105,7 +1034,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/camera/montage/CustomSeekbar;->O:I
 
     iget v2, p0, Lcom/commsource/camera/montage/CustomSeekbar;->P:I
@@ -1134,37 +1062,29 @@
     :cond_3
     move v2, p1
 
-    .line 2
     :goto_0
     iget p1, p0, Lcom/commsource/camera/montage/CustomSeekbar;->Q:I
 
     if-eq v2, p1, :cond_4
 
-    .line 3
     iput v2, p0, Lcom/commsource/camera/montage/CustomSeekbar;->Q:I
 
-    .line 4
     invoke-direct {p0}, Lcom/commsource/camera/montage/CustomSeekbar;->g()V
 
-    .line 5
     invoke-direct {p0}, Lcom/commsource/camera/montage/CustomSeekbar;->f()V
 
-    .line 6
     invoke-virtual {p0}, Landroid/view/View;->invalidate()V
 
-    .line 7
     iget-object p1, p0, Lcom/commsource/camera/montage/CustomSeekbar;->n0:Lcom/commsource/camera/montage/CustomSeekbar$a;
 
     if-eqz p1, :cond_5
 
-    .line 8
     iget v1, p0, Lcom/commsource/camera/montage/CustomSeekbar;->Q:I
 
     invoke-interface {p1, v1, p2}, Lcom/commsource/camera/montage/CustomSeekbar$a;->a(IZ)V
 
     if-eqz p3, :cond_5
 
-    .line 9
     iget-object p1, p0, Lcom/commsource/camera/montage/CustomSeekbar;->n0:Lcom/commsource/camera/montage/CustomSeekbar$a;
 
     iget p3, p0, Lcom/commsource/camera/montage/CustomSeekbar;->Q:I
@@ -1176,15 +1096,12 @@
     :cond_4
     if-eqz p3, :cond_5
 
-    .line 10
     iget-object p3, p0, Lcom/commsource/camera/montage/CustomSeekbar;->n0:Lcom/commsource/camera/montage/CustomSeekbar$a;
 
     if-eqz p3, :cond_5
 
-    .line 11
     invoke-interface {p3, p1, p2}, Lcom/commsource/camera/montage/CustomSeekbar$a;->b(IZ)V
 
-    .line 12
     :cond_5
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1199,17 +1116,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/montage/CustomSeekbar;->g:Landroid/graphics/drawable/Drawable;
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-virtual {v1}, Landroid/graphics/drawable/Drawable;->getBounds()Landroid/graphics/Rect;
 
     move-result-object v1
 
-    .line 3
     iget v2, v1, Landroid/graphics/Rect;->left:I
 
     iget v3, p0, Lcom/commsource/camera/montage/CustomSeekbar;->p:I
@@ -1242,12 +1156,10 @@
 
     invoke-virtual/range {v4 .. v9}, Landroid/graphics/Canvas;->drawRect(FFFFLandroid/graphics/Paint;)V
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/camera/montage/CustomSeekbar;->g:Landroid/graphics/drawable/Drawable;
 
     invoke-virtual {v1, p1}, Landroid/graphics/drawable/Drawable;->draw(Landroid/graphics/Canvas;)V
 
-    .line 5
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1261,15 +1173,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/montage/CustomSeekbar;->a:Landroid/graphics/drawable/Drawable;
 
     if-eqz v1, :cond_1
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/camera/montage/CustomSeekbar;->g0:Landroid/graphics/Rect;
 
-    .line 3
     iget v2, v1, Landroid/graphics/Rect;->left:I
 
     iget v3, p0, Lcom/commsource/camera/montage/CustomSeekbar;->p:I
@@ -1302,7 +1211,6 @@
 
     invoke-virtual/range {v4 .. v9}, Landroid/graphics/Canvas;->drawRect(FFFFLandroid/graphics/Paint;)V
 
-    .line 4
     iget v1, p0, Lcom/commsource/camera/montage/CustomSeekbar;->Q:I
 
     if-nez v1, :cond_0
@@ -1311,12 +1219,10 @@
 
     if-eqz v1, :cond_0
 
-    .line 5
     invoke-virtual {v1, p1}, Landroid/graphics/drawable/Drawable;->draw(Landroid/graphics/Canvas;)V
 
     goto :goto_0
 
-    .line 6
     :cond_0
     iget-object v1, p0, Lcom/commsource/camera/montage/CustomSeekbar;->a:Landroid/graphics/drawable/Drawable;
 
@@ -1324,11 +1230,9 @@
 
     goto :goto_0
 
-    .line 7
     :cond_1
     iget-object v1, p0, Lcom/commsource/camera/montage/CustomSeekbar;->g0:Landroid/graphics/Rect;
 
-    .line 8
     invoke-virtual {v1}, Landroid/graphics/Rect;->centerX()I
 
     move-result v2
@@ -1361,7 +1265,6 @@
 
     invoke-virtual {p1, v2, v3, v4, v6}, Landroid/graphics/Canvas;->drawCircle(FFFLandroid/graphics/Paint;)V
 
-    .line 9
     invoke-virtual {v1}, Landroid/graphics/Rect;->centerX()I
 
     move-result v2
@@ -1392,7 +1295,6 @@
 
     invoke-virtual {p1, v2, v3, v1, v4}, Landroid/graphics/Canvas;->drawCircle(FFFLandroid/graphics/Paint;)V
 
-    .line 10
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1410,7 +1312,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/res/provider/ResSTYLEABLE;->h0:[I
 
     invoke-virtual {p1, p2, v1}, Landroid/content/Context;->obtainStyledAttributes(Landroid/util/AttributeSet;[I)Landroid/content/res/TypedArray;
@@ -1419,7 +1320,6 @@
 
     const/16 v1, 0xd
 
-    .line 2
     invoke-virtual {p2, v1}, Landroid/content/res/TypedArray;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 
     move-result-object v1
@@ -1428,7 +1328,6 @@
 
     const/16 v1, 0x10
 
-    .line 3
     invoke-virtual {p2, v1}, Landroid/content/res/TypedArray;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 
     move-result-object v1
@@ -1437,7 +1336,6 @@
 
     const/16 v1, 0x8
 
-    .line 4
     invoke-virtual {p2, v1}, Landroid/content/res/TypedArray;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 
     move-result-object v1
@@ -1446,7 +1344,6 @@
 
     const/4 v1, 0x7
 
-    .line 5
     invoke-virtual {p2, v1}, Landroid/content/res/TypedArray;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 
     move-result-object v1
@@ -1455,7 +1352,6 @@
 
     const/4 v1, 0x3
 
-    .line 6
     invoke-virtual {p2, v1}, Landroid/content/res/TypedArray;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 
     move-result-object v1
@@ -1466,7 +1362,6 @@
 
     const/4 v2, 0x0
 
-    .line 7
     invoke-virtual {p2, v1, v2}, Landroid/content/res/TypedArray;->getDimensionPixelSize(II)I
 
     move-result v1
@@ -1475,7 +1370,6 @@
 
     const/16 v1, 0x13
 
-    .line 8
     invoke-virtual {p2, v1, v2}, Landroid/content/res/TypedArray;->getDimensionPixelSize(II)I
 
     move-result v1
@@ -1486,7 +1380,6 @@
 
     const/16 v3, -0xf
 
-    .line 9
     invoke-virtual {p2, v1, v3}, Landroid/content/res/TypedArray;->getDimensionPixelSize(II)I
 
     move-result v1
@@ -1495,7 +1388,6 @@
 
     const/16 v1, 0xb
 
-    .line 10
     invoke-virtual {p2, v1, v2}, Landroid/content/res/TypedArray;->getInt(II)I
 
     move-result v1
@@ -1506,7 +1398,6 @@
 
     const/16 v3, 0x64
 
-    .line 11
     invoke-virtual {p2, v1, v3}, Landroid/content/res/TypedArray;->getInt(II)I
 
     move-result v1
@@ -1515,7 +1406,6 @@
 
     const/16 v1, 0xa
 
-    .line 12
     invoke-virtual {p2, v1, v1}, Landroid/content/res/TypedArray;->getDimensionPixelSize(II)I
 
     move-result v3
@@ -1524,7 +1414,6 @@
 
     const/4 v3, 0x6
 
-    .line 13
     invoke-virtual {p2, v3, v1}, Landroid/content/res/TypedArray;->getDimensionPixelSize(II)I
 
     move-result v3
@@ -1533,7 +1422,6 @@
 
     const/4 v3, 0x4
 
-    .line 14
     invoke-virtual {p2, v3, v1}, Landroid/content/res/TypedArray;->getDimensionPixelSize(II)I
 
     move-result v1
@@ -1542,7 +1430,6 @@
 
     const/4 v1, 0x5
 
-    .line 15
     invoke-virtual {p2, v1, v2}, Landroid/content/res/TypedArray;->getInt(II)I
 
     move-result v1
@@ -1551,7 +1438,6 @@
 
     const/16 v1, 0xc
 
-    .line 16
     invoke-virtual {p2, v1, v2}, Landroid/content/res/TypedArray;->getColor(II)I
 
     move-result v1
@@ -1560,7 +1446,6 @@
 
     const/16 v1, 0x11
 
-    .line 17
     invoke-virtual {p2, v1, v2}, Landroid/content/res/TypedArray;->getColor(II)I
 
     move-result v1
@@ -1569,7 +1454,6 @@
 
     const/16 v1, 0x12
 
-    .line 18
     invoke-virtual {p2, v1, v2}, Landroid/content/res/TypedArray;->getDimensionPixelSize(II)I
 
     move-result v1
@@ -1578,14 +1462,12 @@
 
     const/4 v1, 0x2
 
-    .line 19
     invoke-virtual {p2, v1, v2}, Landroid/content/res/TypedArray;->getInt(II)I
 
     move-result v1
 
     iput v1, p0, Lcom/commsource/camera/montage/CustomSeekbar;->m0:I
 
-    .line 20
     invoke-virtual {p2, v2, v2}, Landroid/content/res/TypedArray;->getInt(II)I
 
     move-result v1
@@ -1594,24 +1476,20 @@
 
     const/4 v1, 0x1
 
-    .line 21
     invoke-virtual {p2, v1, v2}, Landroid/content/res/TypedArray;->getInt(II)I
 
     move-result v2
 
     iput v2, p0, Lcom/commsource/camera/montage/CustomSeekbar;->l0:I
 
-    .line 22
     invoke-virtual {p2}, Landroid/content/res/TypedArray;->recycle()V
 
-    .line 23
     new-instance p2, Landroid/graphics/Paint;
 
     invoke-direct {p2}, Landroid/graphics/Paint;-><init>()V
 
     iput-object p2, p0, Lcom/commsource/camera/montage/CustomSeekbar;->T:Landroid/graphics/Paint;
 
-    .line 24
     new-instance v2, Landroid/graphics/PorterDuffXfermode;
 
     sget-object v3, Landroid/graphics/PorterDuff$Mode;->CLEAR:Landroid/graphics/PorterDuff$Mode;
@@ -1620,7 +1498,6 @@
 
     invoke-virtual {p2, v2}, Landroid/graphics/Paint;->setXfermode(Landroid/graphics/Xfermode;)Landroid/graphics/Xfermode;
 
-    .line 25
     invoke-static {p1}, Landroid/view/ViewConfiguration;->get(Landroid/content/Context;)Landroid/view/ViewConfiguration;
 
     move-result-object p2
@@ -1631,7 +1508,6 @@
 
     iput p2, p0, Lcom/commsource/camera/montage/CustomSeekbar;->W:I
 
-    .line 26
     new-instance p2, Lcom/commsource/beautymain/widget/gesturewidget/e;
 
     new-instance v2, Lcom/commsource/camera/montage/CustomSeekbar$b;
@@ -1642,24 +1518,20 @@
 
     iput-object p2, p0, Lcom/commsource/camera/montage/CustomSeekbar;->a0:Lcom/commsource/beautymain/widget/gesturewidget/e;
 
-    .line 27
     iget-object p1, p0, Lcom/commsource/camera/montage/CustomSeekbar;->a:Landroid/graphics/drawable/Drawable;
 
     if-nez p1, :cond_0
 
-    .line 28
     new-instance p1, Landroid/graphics/Paint;
 
     invoke-direct {p1, v1}, Landroid/graphics/Paint;-><init>(I)V
 
     iput-object p1, p0, Lcom/commsource/camera/montage/CustomSeekbar;->e0:Landroid/graphics/Paint;
 
-    .line 29
     iget p2, p0, Lcom/commsource/camera/montage/CustomSeekbar;->h0:I
 
     invoke-virtual {p1, p2}, Landroid/graphics/Paint;->setColor(I)V
 
-    .line 30
     iget-object p1, p0, Lcom/commsource/camera/montage/CustomSeekbar;->e0:Landroid/graphics/Paint;
 
     iget p2, p0, Lcom/commsource/camera/montage/CustomSeekbar;->i0:I
@@ -1672,7 +1544,6 @@
 
     invoke-virtual {p1, p2, v3, v3, v2}, Landroid/graphics/Paint;->setShadowLayer(FFFI)V
 
-    .line 31
     new-instance p1, Landroid/graphics/Paint;
 
     invoke-direct {p1, v1}, Landroid/graphics/Paint;-><init>(I)V
@@ -1681,17 +1552,14 @@
 
     const/high16 p2, 0x33000000
 
-    .line 32
     invoke-virtual {p1, p2}, Landroid/graphics/Paint;->setColor(I)V
 
-    .line 33
     iget-object p1, p0, Lcom/commsource/camera/montage/CustomSeekbar;->f0:Landroid/graphics/Paint;
 
     sget-object p2, Landroid/graphics/Paint$Style;->STROKE:Landroid/graphics/Paint$Style;
 
     invoke-virtual {p1, p2}, Landroid/graphics/Paint;->setStyle(Landroid/graphics/Paint$Style;)V
 
-    .line 34
     iget-object p1, p0, Lcom/commsource/camera/montage/CustomSeekbar;->f0:Landroid/graphics/Paint;
 
     const/high16 p2, 0x3f000000    # 0.5f
@@ -1704,7 +1572,6 @@
 
     invoke-virtual {p1, p2}, Landroid/graphics/Paint;->setStrokeWidth(F)V
 
-    .line 35
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1718,7 +1585,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/montage/CustomSeekbar;->d0:Landroid/graphics/Rect;
 
     invoke-virtual {p1}, Landroid/view/MotionEvent;->getX()F
@@ -1751,7 +1617,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/camera/montage/CustomSeekbar;->Q:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1766,7 +1631,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/camera/montage/CustomSeekbar;->m0:I
 
     if-nez v1, :cond_0
@@ -1801,7 +1665,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/camera/montage/CustomSeekbar;->P:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1816,7 +1679,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Landroid/graphics/Point;
 
     iget v2, p0, Lcom/commsource/camera/montage/CustomSeekbar;->O:I
@@ -1837,7 +1699,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/camera/montage/CustomSeekbar;->O:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1852,7 +1713,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/camera/montage/CustomSeekbar;->J:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1867,18 +1727,15 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Landroid/view/View;->getParent()Landroid/view/ViewParent;
 
     move-result-object v1
 
-    .line 2
     :goto_0
     instance-of v2, v1, Landroid/view/ViewGroup;
 
     if-eqz v2, :cond_1
 
-    .line 3
     move-object v2, v1
 
     check-cast v2, Landroid/view/ViewGroup;
@@ -1891,12 +1748,10 @@
 
     const/4 v1, 0x1
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
 
-    .line 5
     :cond_0
     invoke-interface {v1}, Landroid/view/ViewParent;->getParent()Landroid/view/ViewParent;
 
@@ -1907,7 +1762,6 @@
     :cond_1
     const/4 v1, 0x0
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
@@ -1922,25 +1776,18 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/camera/montage/CustomSeekbar;->O:I
 
-    .line 2
     iput p2, p0, Lcom/commsource/camera/montage/CustomSeekbar;->P:I
 
-    .line 3
     invoke-direct {p0}, Lcom/commsource/camera/montage/CustomSeekbar;->d()V
 
-    .line 4
     invoke-direct {p0}, Lcom/commsource/camera/montage/CustomSeekbar;->g()V
 
-    .line 5
     invoke-direct {p0}, Lcom/commsource/camera/montage/CustomSeekbar;->f()V
 
-    .line 6
     invoke-virtual {p0}, Landroid/view/View;->invalidate()V
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1953,10 +1800,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0, p1}, Landroid/view/View;->onDraw(Landroid/graphics/Canvas;)V
 
-    .line 2
     invoke-virtual {p0}, Landroid/view/View;->getWidth()I
 
     move-result v1
@@ -1983,26 +1828,20 @@
 
     move-result v1
 
-    .line 3
     iget-object v2, p0, Lcom/commsource/camera/montage/CustomSeekbar;->d:Landroid/graphics/drawable/Drawable;
 
     invoke-virtual {v2, p1}, Landroid/graphics/drawable/Drawable;->draw(Landroid/graphics/Canvas;)V
 
-    .line 4
     iget-object v2, p0, Lcom/commsource/camera/montage/CustomSeekbar;->c:Landroid/graphics/drawable/Drawable;
 
     invoke-virtual {v2, p1}, Landroid/graphics/drawable/Drawable;->draw(Landroid/graphics/Canvas;)V
 
-    .line 5
     invoke-direct {p0, p1}, Lcom/commsource/camera/montage/CustomSeekbar;->i(Landroid/graphics/Canvas;)V
 
-    .line 6
     invoke-direct {p0, p1}, Lcom/commsource/camera/montage/CustomSeekbar;->j(Landroid/graphics/Canvas;)V
 
-    .line 7
     invoke-virtual {p1, v1}, Landroid/graphics/Canvas;->restoreToCount(I)V
 
-    .line 8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2015,15 +1854,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0, p1, p2, p3, p4}, Landroid/view/View;->onSizeChanged(IIII)V
 
-    .line 2
     iget p3, p0, Lcom/commsource/camera/montage/CustomSeekbar;->m0:I
 
     if-nez p3, :cond_0
 
-    .line 3
     iget p2, p0, Lcom/commsource/camera/montage/CustomSeekbar;->J:I
 
     div-int/lit8 p2, p2, 0x2
@@ -2046,7 +1882,6 @@
 
     sub-int/2addr p1, p2
 
-    .line 4
     invoke-virtual {p0}, Landroid/view/View;->getPaddingRight()I
 
     move-result p2
@@ -2057,7 +1892,6 @@
 
     goto :goto_0
 
-    .line 5
     :cond_0
     iget p1, p0, Lcom/commsource/camera/montage/CustomSeekbar;->K:I
 
@@ -2079,7 +1913,6 @@
 
     sub-int/2addr p2, p1
 
-    .line 6
     invoke-virtual {p0}, Landroid/view/View;->getPaddingBottom()I
 
     move-result p1
@@ -2088,20 +1921,15 @@
 
     iput p2, p0, Lcom/commsource/camera/montage/CustomSeekbar;->S:I
 
-    .line 7
     :goto_0
     invoke-direct {p0}, Lcom/commsource/camera/montage/CustomSeekbar;->e()V
 
-    .line 8
     invoke-direct {p0}, Lcom/commsource/camera/montage/CustomSeekbar;->d()V
 
-    .line 9
     invoke-direct {p0}, Lcom/commsource/camera/montage/CustomSeekbar;->g()V
 
-    .line 10
     invoke-direct {p0}, Lcom/commsource/camera/montage/CustomSeekbar;->f()V
 
-    .line 11
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2119,7 +1947,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p1}, Landroid/view/MotionEvent;->getPointerCount()I
 
     move-result v1
@@ -2138,18 +1965,15 @@
 
     goto/16 :goto_7
 
-    .line 2
     :cond_0
     iget-object v1, p0, Lcom/commsource/camera/montage/CustomSeekbar;->a0:Lcom/commsource/beautymain/widget/gesturewidget/e;
 
     invoke-virtual {v1, p1}, Lcom/commsource/beautymain/widget/gesturewidget/e;->I(Landroid/view/MotionEvent;)Z
 
-    .line 3
     iget v1, p0, Lcom/commsource/camera/montage/CustomSeekbar;->m0:I
 
     if-nez v1, :cond_1
 
-    .line 4
     invoke-virtual {p1}, Landroid/view/MotionEvent;->getX()F
 
     move-result v1
@@ -2174,7 +1998,6 @@
 
     goto :goto_0
 
-    .line 5
     :cond_1
     invoke-virtual {p1}, Landroid/view/MotionEvent;->getY()F
 
@@ -2211,7 +2034,6 @@
 
     float-to-int v4, v1
 
-    .line 6
     iget v5, p0, Lcom/commsource/camera/montage/CustomSeekbar;->N:I
 
     sub-int/2addr v4, v5
@@ -2224,12 +2046,10 @@
 
     if-gt v4, v5, :cond_2
 
-    .line 7
     iget v1, p0, Lcom/commsource/camera/montage/CustomSeekbar;->N:I
 
     int-to-float v1, v1
 
-    .line 8
     :cond_2
     invoke-virtual {p1}, Landroid/view/MotionEvent;->getAction()I
 
@@ -2249,27 +2069,22 @@
 
     goto/16 :goto_6
 
-    .line 9
     :cond_3
     iput-boolean v2, p0, Lcom/commsource/camera/montage/CustomSeekbar;->V:Z
 
-    .line 10
     iput-boolean v2, p0, Lcom/commsource/camera/montage/CustomSeekbar;->b0:Z
 
     goto/16 :goto_6
 
-    .line 11
     :cond_4
     iget-boolean v4, p0, Lcom/commsource/camera/montage/CustomSeekbar;->V:Z
 
     if-nez v4, :cond_8
 
-    .line 12
     iget v4, p0, Lcom/commsource/camera/montage/CustomSeekbar;->m0:I
 
     if-nez v4, :cond_6
 
-    .line 13
     invoke-virtual {p1}, Landroid/view/MotionEvent;->getX()F
 
     move-result p1
@@ -2302,7 +2117,6 @@
 
     goto :goto_3
 
-    .line 14
     :cond_6
     invoke-virtual {p1}, Landroid/view/MotionEvent;->getY()F
 
@@ -2334,13 +2148,11 @@
     :goto_2
     iput-boolean p1, p0, Lcom/commsource/camera/montage/CustomSeekbar;->V:Z
 
-    .line 15
     :goto_3
     iget-boolean p1, p0, Lcom/commsource/camera/montage/CustomSeekbar;->V:Z
 
     if-eqz p1, :cond_10
 
-    .line 16
     invoke-virtual {p0}, Landroid/view/View;->getParent()Landroid/view/ViewParent;
 
     move-result-object p1
@@ -2350,12 +2162,10 @@
     :cond_8
     float-to-int p1, v1
 
-    .line 17
     invoke-direct {p0, p1, v3, v2}, Lcom/commsource/camera/montage/CustomSeekbar;->h(IZZ)V
 
     goto :goto_6
 
-    .line 18
     :cond_9
     iget-boolean v4, p0, Lcom/commsource/camera/montage/CustomSeekbar;->b0:Z
 
@@ -2374,39 +2184,32 @@
     :cond_a
     float-to-int p1, v1
 
-    .line 19
     invoke-direct {p0, p1, v3, v3}, Lcom/commsource/camera/montage/CustomSeekbar;->h(IZZ)V
 
     goto :goto_4
 
-    .line 20
     :cond_b
     iget-object p1, p0, Lcom/commsource/camera/montage/CustomSeekbar;->n0:Lcom/commsource/camera/montage/CustomSeekbar$a;
 
     if-eqz p1, :cond_c
 
-    .line 21
     iget v1, p0, Lcom/commsource/camera/montage/CustomSeekbar;->Q:I
 
     invoke-interface {p1, v1, v3}, Lcom/commsource/camera/montage/CustomSeekbar$a;->b(IZ)V
 
-    .line 22
     :cond_c
     :goto_4
     iput-boolean v2, p0, Lcom/commsource/camera/montage/CustomSeekbar;->V:Z
 
-    .line 23
     iput-boolean v2, p0, Lcom/commsource/camera/montage/CustomSeekbar;->b0:Z
 
     goto :goto_6
 
-    .line 24
     :cond_d
     iget-object v4, p0, Lcom/commsource/camera/montage/CustomSeekbar;->n0:Lcom/commsource/camera/montage/CustomSeekbar$a;
 
     if-eqz v4, :cond_e
 
-    .line 25
     iget v5, p0, Lcom/commsource/camera/montage/CustomSeekbar;->Q:I
 
     invoke-interface {v4, v5}, Lcom/commsource/camera/montage/CustomSeekbar$a;->c(I)V
@@ -2414,17 +2217,14 @@
     :cond_e
     float-to-int v1, v1
 
-    .line 26
     invoke-direct {p0, v1, v3, v2}, Lcom/commsource/camera/montage/CustomSeekbar;->h(IZZ)V
 
-    .line 27
     invoke-direct {p0, p1}, Lcom/commsource/camera/montage/CustomSeekbar;->l(Landroid/view/MotionEvent;)Z
 
     move-result v1
 
     iput-boolean v1, p0, Lcom/commsource/camera/montage/CustomSeekbar;->c0:Z
 
-    .line 28
     iget v1, p0, Lcom/commsource/camera/montage/CustomSeekbar;->m0:I
 
     if-nez v1, :cond_f
@@ -2443,14 +2243,12 @@
     :goto_5
     iput p1, p0, Lcom/commsource/camera/montage/CustomSeekbar;->U:F
 
-    .line 29
     :cond_10
     :goto_6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v3
 
-    .line 30
     :cond_11
     :goto_7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2465,10 +2263,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/camera/montage/CustomSeekbar;->k0:I
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2481,10 +2277,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/camera/montage/CustomSeekbar;->n0:Lcom/commsource/camera/montage/CustomSeekbar$a;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2497,13 +2291,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/camera/montage/CustomSeekbar;->N:I
 
-    .line 2
     invoke-virtual {p0}, Landroid/view/View;->postInvalidate()V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2520,10 +2311,8 @@
 
     const/4 v1, 0x0
 
-    .line 1
     invoke-direct {p0, p1, v1, v1}, Lcom/commsource/camera/montage/CustomSeekbar;->h(IZZ)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2538,16 +2327,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/camera/montage/CustomSeekbar;->d:Landroid/graphics/drawable/Drawable;
 
-    .line 2
     invoke-direct {p0}, Lcom/commsource/camera/montage/CustomSeekbar;->e()V
 
-    .line 3
     invoke-virtual {p0}, Landroid/view/View;->invalidate()V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2560,16 +2345,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/camera/montage/CustomSeekbar;->c:Landroid/graphics/drawable/Drawable;
 
-    .line 2
     invoke-direct {p0}, Lcom/commsource/camera/montage/CustomSeekbar;->f()V
 
-    .line 3
     invoke-virtual {p0}, Landroid/view/View;->invalidate()V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2582,16 +2363,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/camera/montage/CustomSeekbar;->a:Landroid/graphics/drawable/Drawable;
 
-    .line 2
     invoke-direct {p0}, Lcom/commsource/camera/montage/CustomSeekbar;->g()V
 
-    .line 3
     invoke-virtual {p0}, Landroid/view/View;->invalidate()V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

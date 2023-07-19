@@ -21,12 +21,10 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-direct {p0}, Lcotlinx/coroutines/p1;-><init>()V
 
     iput-object p1, p0, Lcotlinx/coroutines/q1;->d:Ljava/util/concurrent/Executor;
 
-    .line 2
     invoke-virtual {p0}, Lcotlinx/coroutines/p1;->C()V
 
     return-void
@@ -39,7 +37,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcotlinx/coroutines/q1;->d:Ljava/util/concurrent/Executor;
 
     return-object v0

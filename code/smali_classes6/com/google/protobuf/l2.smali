@@ -48,14 +48,12 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
     new-instance v0, Lcom/google/protobuf/l2;
 
     invoke-direct {v0}, Lcom/google/protobuf/l2;-><init>()V
 
     sput-object v0, Lcom/google/protobuf/l2;->p:Lcom/google/protobuf/l2;
 
-    .line 2
     invoke-virtual {v0}, Lcom/google/protobuf/GeneratedMessageLite;->ug()V
 
     return-void
@@ -64,7 +62,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/google/protobuf/GeneratedMessageLite;-><init>()V
 
     return-void
@@ -73,7 +70,6 @@
 .method static synthetic ah()Lcom/google/protobuf/l2;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/google/protobuf/l2;->p:Lcom/google/protobuf/l2;
 
     return-object v0
@@ -82,7 +78,6 @@
 .method static synthetic bh(Lcom/google/protobuf/l2;I)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/google/protobuf/l2;->sh(I)V
 
     return-void
@@ -91,7 +86,6 @@
 .method static synthetic ch(Lcom/google/protobuf/l2;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/google/protobuf/l2;->dh()V
 
     return-void
@@ -102,7 +96,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     iput v0, p0, Lcom/google/protobuf/l2;->f:I
 
     return-void
@@ -111,7 +104,6 @@
 .method public static eh()Lcom/google/protobuf/l2;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/google/protobuf/l2;->p:Lcom/google/protobuf/l2;
 
     return-object v0
@@ -120,7 +112,6 @@
 .method public static fh()Lcom/google/protobuf/l2$b;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/google/protobuf/l2;->p:Lcom/google/protobuf/l2;
 
     invoke-virtual {v0}, Lcom/google/protobuf/GeneratedMessageLite;->Yg()Lcom/google/protobuf/GeneratedMessageLite$b;
@@ -135,7 +126,6 @@
 .method public static gh(Lcom/google/protobuf/l2;)Lcom/google/protobuf/l2$b;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/google/protobuf/l2;->p:Lcom/google/protobuf/l2;
 
     invoke-virtual {v0}, Lcom/google/protobuf/GeneratedMessageLite;->Yg()Lcom/google/protobuf/GeneratedMessageLite$b;
@@ -161,7 +151,6 @@
         }
     .end annotation
 
-    .line 1
     sget-object v0, Lcom/google/protobuf/l2;->p:Lcom/google/protobuf/l2;
 
     invoke-static {v0, p0}, Lcom/google/protobuf/GeneratedMessageLite;->Ig(Lcom/google/protobuf/GeneratedMessageLite;Ljava/io/InputStream;)Lcom/google/protobuf/GeneratedMessageLite;
@@ -181,7 +170,6 @@
         }
     .end annotation
 
-    .line 1
     sget-object v0, Lcom/google/protobuf/l2;->p:Lcom/google/protobuf/l2;
 
     invoke-static {v0, p0, p1}, Lcom/google/protobuf/GeneratedMessageLite;->Jg(Lcom/google/protobuf/GeneratedMessageLite;Ljava/io/InputStream;Lcom/google/protobuf/j0;)Lcom/google/protobuf/GeneratedMessageLite;
@@ -201,7 +189,6 @@
         }
     .end annotation
 
-    .line 1
     sget-object v0, Lcom/google/protobuf/l2;->p:Lcom/google/protobuf/l2;
 
     invoke-static {v0, p0}, Lcom/google/protobuf/GeneratedMessageLite;->Kg(Lcom/google/protobuf/GeneratedMessageLite;Lcom/google/protobuf/ByteString;)Lcom/google/protobuf/GeneratedMessageLite;
@@ -221,7 +208,6 @@
         }
     .end annotation
 
-    .line 1
     sget-object v0, Lcom/google/protobuf/l2;->p:Lcom/google/protobuf/l2;
 
     invoke-static {v0, p0, p1}, Lcom/google/protobuf/GeneratedMessageLite;->Lg(Lcom/google/protobuf/GeneratedMessageLite;Lcom/google/protobuf/ByteString;Lcom/google/protobuf/j0;)Lcom/google/protobuf/GeneratedMessageLite;
@@ -241,7 +227,6 @@
         }
     .end annotation
 
-    .line 1
     sget-object v0, Lcom/google/protobuf/l2;->p:Lcom/google/protobuf/l2;
 
     invoke-static {v0, p0}, Lcom/google/protobuf/GeneratedMessageLite;->Mg(Lcom/google/protobuf/GeneratedMessageLite;Lcom/google/protobuf/q;)Lcom/google/protobuf/GeneratedMessageLite;
@@ -261,7 +246,6 @@
         }
     .end annotation
 
-    .line 1
     sget-object v0, Lcom/google/protobuf/l2;->p:Lcom/google/protobuf/l2;
 
     invoke-static {v0, p0, p1}, Lcom/google/protobuf/GeneratedMessageLite;->Ng(Lcom/google/protobuf/GeneratedMessageLite;Lcom/google/protobuf/q;Lcom/google/protobuf/j0;)Lcom/google/protobuf/GeneratedMessageLite;
@@ -281,7 +265,6 @@
         }
     .end annotation
 
-    .line 1
     sget-object v0, Lcom/google/protobuf/l2;->p:Lcom/google/protobuf/l2;
 
     invoke-static {v0, p0}, Lcom/google/protobuf/GeneratedMessageLite;->Og(Lcom/google/protobuf/GeneratedMessageLite;Ljava/io/InputStream;)Lcom/google/protobuf/GeneratedMessageLite;
@@ -301,7 +284,6 @@
         }
     .end annotation
 
-    .line 1
     sget-object v0, Lcom/google/protobuf/l2;->p:Lcom/google/protobuf/l2;
 
     invoke-static {v0, p0, p1}, Lcom/google/protobuf/GeneratedMessageLite;->Pg(Lcom/google/protobuf/GeneratedMessageLite;Ljava/io/InputStream;Lcom/google/protobuf/j0;)Lcom/google/protobuf/GeneratedMessageLite;
@@ -321,7 +303,6 @@
         }
     .end annotation
 
-    .line 1
     sget-object v0, Lcom/google/protobuf/l2;->p:Lcom/google/protobuf/l2;
 
     invoke-static {v0, p0}, Lcom/google/protobuf/GeneratedMessageLite;->Qg(Lcom/google/protobuf/GeneratedMessageLite;[B)Lcom/google/protobuf/GeneratedMessageLite;
@@ -341,7 +322,6 @@
         }
     .end annotation
 
-    .line 1
     sget-object v0, Lcom/google/protobuf/l2;->p:Lcom/google/protobuf/l2;
 
     invoke-static {v0, p0, p1}, Lcom/google/protobuf/GeneratedMessageLite;->Rg(Lcom/google/protobuf/GeneratedMessageLite;[BLcom/google/protobuf/j0;)Lcom/google/protobuf/GeneratedMessageLite;
@@ -364,7 +344,6 @@
         }
     .end annotation
 
-    .line 1
     sget-object v0, Lcom/google/protobuf/l2;->p:Lcom/google/protobuf/l2;
 
     invoke-virtual {v0}, Lcom/google/protobuf/GeneratedMessageLite;->Qf()Lcom/google/protobuf/s1;
@@ -377,7 +356,6 @@
 .method private sh(I)V
     .locals 0
 
-    .line 1
     iput p1, p0, Lcom/google/protobuf/l2;->f:I
 
     return-void
@@ -388,7 +366,6 @@
 .method protected final S6(Lcom/google/protobuf/GeneratedMessageLite$MethodToInvoke;Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
     .locals 3
 
-    .line 1
     sget-object v0, Lcom/google/protobuf/l2$a;->a:[I
 
     invoke-virtual {p1}, Ljava/lang/Enum;->ordinal()I
@@ -405,14 +382,12 @@
 
     packed-switch p1, :pswitch_data_0
 
-    .line 2
     new-instance p1, Ljava/lang/UnsupportedOperationException;
 
     invoke-direct {p1}, Ljava/lang/UnsupportedOperationException;-><init>()V
 
     throw p1
 
-    .line 3
     :pswitch_0
     sget-object p1, Lcom/google/protobuf/l2;->J:Lcom/google/protobuf/s1;
 
@@ -422,13 +397,11 @@
 
     monitor-enter p1
 
-    .line 4
     :try_start_0
     sget-object p2, Lcom/google/protobuf/l2;->J:Lcom/google/protobuf/s1;
 
     if-nez p2, :cond_0
 
-    .line 5
     new-instance p2, Lcom/google/protobuf/GeneratedMessageLite$c;
 
     sget-object p3, Lcom/google/protobuf/l2;->p:Lcom/google/protobuf/l2;
@@ -437,7 +410,6 @@
 
     sput-object p2, Lcom/google/protobuf/l2;->J:Lcom/google/protobuf/s1;
 
-    .line 6
     :cond_0
     monitor-exit p1
 
@@ -452,25 +424,21 @@
 
     throw p2
 
-    .line 7
     :cond_1
     :goto_0
     sget-object p1, Lcom/google/protobuf/l2;->J:Lcom/google/protobuf/s1;
 
     return-object p1
 
-    .line 8
     :pswitch_1
     check-cast p2, Lcom/google/protobuf/q;
 
-    .line 9
     check-cast p3, Lcom/google/protobuf/j0;
 
     :cond_2
     :goto_1
     if-nez v1, :cond_5
 
-    .line 10
     :try_start_1
     invoke-virtual {p2}, Lcom/google/protobuf/q;->X()I
 
@@ -482,7 +450,6 @@
 
     if-eq p1, p3, :cond_3
 
-    .line 11
     invoke-virtual {p2, p1}, Lcom/google/protobuf/q;->g0(I)Z
 
     move-result p1
@@ -491,7 +458,6 @@
 
     goto :goto_2
 
-    .line 12
     :cond_3
     invoke-virtual {p2}, Lcom/google/protobuf/q;->Y()I
 
@@ -519,13 +485,11 @@
     :catch_0
     move-exception p1
 
-    .line 13
     :try_start_2
     new-instance p2, Ljava/lang/RuntimeException;
 
     new-instance p3, Lcom/google/protobuf/InvalidProtocolBufferException;
 
-    .line 14
     invoke-virtual {p1}, Ljava/io/IOException;->getMessage()Ljava/lang/String;
 
     move-result-object p1
@@ -543,7 +507,6 @@
     :catch_1
     move-exception p1
 
-    .line 15
     new-instance p2, Ljava/lang/RuntimeException;
 
     invoke-virtual {p1, p0}, Lcom/google/protobuf/InvalidProtocolBufferException;->setUnfinishedMessage(Lcom/google/protobuf/i1;)Lcom/google/protobuf/InvalidProtocolBufferException;
@@ -556,25 +519,20 @@
     :try_end_2
     .catchall {:try_start_2 .. :try_end_2} :catchall_1
 
-    .line 16
     :goto_3
     throw p1
 
-    .line 17
     :cond_5
     :pswitch_2
     sget-object p1, Lcom/google/protobuf/l2;->p:Lcom/google/protobuf/l2;
 
     return-object p1
 
-    .line 18
     :pswitch_3
     check-cast p2, Lcom/google/protobuf/GeneratedMessageLite$k;
 
-    .line 19
     check-cast p3, Lcom/google/protobuf/l2;
 
-    .line 20
     iget p1, p0, Lcom/google/protobuf/l2;->f:I
 
     if-eqz p1, :cond_6
@@ -600,12 +558,10 @@
 
     iput p1, p0, Lcom/google/protobuf/l2;->f:I
 
-    .line 21
     sget-object p1, Lcom/google/protobuf/GeneratedMessageLite$j;->a:Lcom/google/protobuf/GeneratedMessageLite$j;
 
     return-object p0
 
-    .line 22
     :pswitch_4
     new-instance p1, Lcom/google/protobuf/l2$b;
 
@@ -616,13 +572,11 @@
     :pswitch_5
     return-object v0
 
-    .line 23
     :pswitch_6
     sget-object p1, Lcom/google/protobuf/l2;->p:Lcom/google/protobuf/l2;
 
     return-object p1
 
-    .line 24
     :pswitch_7
     new-instance p1, Lcom/google/protobuf/l2;
 
@@ -646,7 +600,6 @@
 .method public Y6()I
     .locals 3
 
-    .line 1
     iget v0, p0, Lcom/google/protobuf/GeneratedMessageLite;->c:I
 
     const/4 v1, -0x1
@@ -658,21 +611,18 @@
     :cond_0
     const/4 v0, 0x0
 
-    .line 2
     iget v1, p0, Lcom/google/protobuf/l2;->f:I
 
     if-eqz v1, :cond_1
 
     const/4 v2, 0x1
 
-    .line 3
     invoke-static {v2, v1}, Lcom/google/protobuf/CodedOutputStream;->c0(II)I
 
     move-result v1
 
     add-int/2addr v0, v1
 
-    .line 4
     :cond_1
     iput v0, p0, Lcom/google/protobuf/GeneratedMessageLite;->c:I
 
@@ -682,7 +632,6 @@
 .method public getValue()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lcom/google/protobuf/l2;->f:I
 
     return v0
@@ -696,14 +645,12 @@
         }
     .end annotation
 
-    .line 1
     iget v0, p0, Lcom/google/protobuf/l2;->f:I
 
     if-eqz v0, :cond_0
 
     const/4 v1, 0x1
 
-    .line 2
     invoke-virtual {p1, v1, v0}, Lcom/google/protobuf/CodedOutputStream;->r1(II)V
 
     :cond_0

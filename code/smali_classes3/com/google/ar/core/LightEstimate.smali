@@ -21,20 +21,16 @@
 .method protected constructor <init>()V
     .locals 3
 
-    .line 5
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const-wide/16 v0, 0x0
 
-    .line 6
     iput-wide v0, p0, Lcom/google/ar/core/LightEstimate;->nativeHandle:J
 
     const/4 v2, 0x0
 
-    .line 7
     iput-object v2, p0, Lcom/google/ar/core/LightEstimate;->session:Lcom/google/ar/core/Session;
 
-    .line 8
     iput-wide v0, p0, Lcom/google/ar/core/LightEstimate;->nativeHandle:J
 
     return-void
@@ -43,18 +39,14 @@
 .method constructor <init>(Lcom/google/ar/core/Session;)V
     .locals 2
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const-wide/16 v0, 0x0
 
-    .line 2
     iput-wide v0, p0, Lcom/google/ar/core/LightEstimate;->nativeHandle:J
 
-    .line 3
     iput-object p1, p0, Lcom/google/ar/core/LightEstimate;->session:Lcom/google/ar/core/Session;
 
-    .line 4
     iget-wide v0, p1, Lcom/google/ar/core/Session;->nativeWrapperHandle:J
 
     invoke-static {v0, v1}, Lcom/google/ar/core/LightEstimate;->nativeCreateLightEstimate(J)J
@@ -69,20 +61,17 @@
 .method private convertNativeArImageCubemapToArray([J)[Lcom/google/ar/core/ArImage;
     .locals 6
 
-    .line 1
     array-length v0, p1
 
     new-array v0, v0, [Lcom/google/ar/core/ArImage;
 
     const/4 v1, 0x0
 
-    .line 2
     :goto_0
     array-length v2, p1
 
     if-ge v1, v2, :cond_0
 
-    .line 3
     new-instance v2, Lcom/google/ar/core/ArImage;
 
     iget-object v3, p0, Lcom/google/ar/core/LightEstimate;->session:Lcom/google/ar/core/Session;
@@ -91,7 +80,6 @@
 
     invoke-direct {v2, v3, v4, v5}, Lcom/google/ar/core/ArImage;-><init>(Lcom/google/ar/core/Session;J)V
 
-    .line 4
     aput-object v2, v0, v1
 
     add-int/lit8 v1, v1, 0x1
@@ -137,19 +125,16 @@
 .method public acquireEnvironmentalHdrCubeMap()[Lcom/google/ar/core/ArImage;
     .locals 4
 
-    .line 1
     iget-object v0, p0, Lcom/google/ar/core/LightEstimate;->session:Lcom/google/ar/core/Session;
 
     iget-wide v0, v0, Lcom/google/ar/core/Session;->nativeWrapperHandle:J
 
     iget-wide v2, p0, Lcom/google/ar/core/LightEstimate;->nativeHandle:J
 
-    .line 2
     invoke-direct {p0, v0, v1, v2, v3}, Lcom/google/ar/core/LightEstimate;->nativeAcquireEnvironmentalHdrCubeMap(JJ)[J
 
     move-result-object v0
 
-    .line 3
     invoke-direct {p0, v0}, Lcom/google/ar/core/LightEstimate;->convertNativeArImageCubemapToArray([J)[Lcom/google/ar/core/ArImage;
 
     move-result-object v0
@@ -165,7 +150,6 @@
         }
     .end annotation
 
-    .line 1
     iget-wide v0, p0, Lcom/google/ar/core/LightEstimate;->nativeHandle:J
 
     const-wide/16 v2, 0x0
@@ -174,10 +158,8 @@
 
     if-eqz v4, :cond_0
 
-    .line 2
     invoke-static {v0, v1}, Lcom/google/ar/core/LightEstimate;->nativeDestroyLightEstimate(J)V
 
-    .line 3
     :cond_0
     invoke-super {p0}, Ljava/lang/Object;->finalize()V
 
@@ -187,7 +169,6 @@
 .method public getColorCorrection([FI)V
     .locals 8
 
-    .line 1
     iget-object v0, p0, Lcom/google/ar/core/LightEstimate;->session:Lcom/google/ar/core/Session;
 
     iget-wide v2, v0, Lcom/google/ar/core/Session;->nativeWrapperHandle:J
@@ -212,7 +193,6 @@
 
     new-array v0, v0, [F
 
-    .line 1
     iget-object v1, p0, Lcom/google/ar/core/LightEstimate;->session:Lcom/google/ar/core/Session;
 
     iget-wide v2, v1, Lcom/google/ar/core/Session;->nativeWrapperHandle:J
@@ -235,7 +215,6 @@
 
     new-array v0, v0, [F
 
-    .line 1
     iget-object v1, p0, Lcom/google/ar/core/LightEstimate;->session:Lcom/google/ar/core/Session;
 
     iget-wide v2, v1, Lcom/google/ar/core/Session;->nativeWrapperHandle:J
@@ -258,7 +237,6 @@
 
     new-array v0, v0, [F
 
-    .line 1
     iget-object v1, p0, Lcom/google/ar/core/LightEstimate;->session:Lcom/google/ar/core/Session;
 
     iget-wide v2, v1, Lcom/google/ar/core/Session;->nativeWrapperHandle:J
@@ -277,7 +255,6 @@
 .method public getPixelIntensity()F
     .locals 4
 
-    .line 1
     iget-object v0, p0, Lcom/google/ar/core/LightEstimate;->session:Lcom/google/ar/core/Session;
 
     iget-wide v0, v0, Lcom/google/ar/core/Session;->nativeWrapperHandle:J
@@ -294,7 +271,6 @@
 .method public getState()Lcom/google/ar/core/LightEstimate$State;
     .locals 4
 
-    .line 1
     iget-object v0, p0, Lcom/google/ar/core/LightEstimate;->session:Lcom/google/ar/core/Session;
 
     iget-wide v0, v0, Lcom/google/ar/core/Session;->nativeWrapperHandle:J
@@ -315,7 +291,6 @@
 .method public getTimestamp()J
     .locals 4
 
-    .line 1
     iget-object v0, p0, Lcom/google/ar/core/LightEstimate;->session:Lcom/google/ar/core/Session;
 
     iget-wide v0, v0, Lcom/google/ar/core/Session;->nativeWrapperHandle:J

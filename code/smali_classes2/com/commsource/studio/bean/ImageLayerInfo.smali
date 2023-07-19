@@ -35,17 +35,14 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/studio/bean/FocusLayerInfo;-><init>()V
 
-    .line 2
     new-instance v0, Lcom/commsource/studio/i$e;
 
     invoke-direct {v0}, Lcom/commsource/studio/i$e;-><init>()V
 
     iput-object v0, p0, Lcom/commsource/studio/bean/ImageLayerInfo;->$$delegate_0:Lcom/commsource/studio/i$e;
 
-    .line 3
     new-instance v0, Lcom/commsource/studio/mixlayer/ImageStyleConfig;
 
     invoke-direct {v0}, Lcom/commsource/studio/mixlayer/ImageStyleConfig;-><init>()V
@@ -54,7 +51,6 @@
 
     const-string v0, ""
 
-    .line 4
     iput-object v0, p0, Lcom/commsource/studio/bean/ImageLayerInfo;->texturePath:Ljava/lang/String;
 
     return-void
@@ -65,7 +61,6 @@
 .method public bridge synthetic copy(Z)Lcom/commsource/studio/bean/BaseLayerInfo;
     .locals 0
 
-    .line 1
     invoke-virtual {p0, p1}, Lcom/commsource/studio/bean/ImageLayerInfo;->copy(Z)Lcom/commsource/studio/bean/FocusLayerInfo;
 
     move-result-object p1
@@ -78,7 +73,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 2
     invoke-super {p0, p1}, Lcom/commsource/studio/bean/FocusLayerInfo;->copy(Z)Lcom/commsource/studio/bean/FocusLayerInfo;
 
     move-result-object p1
@@ -87,7 +81,6 @@
 
     check-cast p1, Lcom/commsource/studio/bean/ImageLayerInfo;
 
-    .line 3
     iget-object v0, p1, Lcom/commsource/studio/bean/ImageLayerInfo;->imageStyleConfig:Lcom/commsource/studio/mixlayer/ImageStyleConfig;
 
     invoke-virtual {v0}, Lcom/commsource/studio/mixlayer/ImageStyleConfig;->copy()Lcom/commsource/studio/mixlayer/ImageStyleConfig;
@@ -98,7 +91,6 @@
 
     return-object p1
 
-    .line 4
     :cond_0
     new-instance p1, Lcotlin/TypeCastException;
 
@@ -114,7 +106,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/studio/bean/ImageLayerInfo;->imageStyleConfig:Lcom/commsource/studio/mixlayer/ImageStyleConfig;
 
     return-object v0
@@ -125,7 +116,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/studio/bean/ImageLayerInfo;->texturePath:Ljava/lang/String;
 
     return-object v0
@@ -136,7 +126,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/studio/bean/ImageLayerInfo;->tintColor:Ljava/lang/Integer;
 
     return-object v0
@@ -145,7 +134,6 @@
 .method public final getTintFormPick()Z
     .locals 1
 
-    .line 1
     iget-boolean v0, p0, Lcom/commsource/studio/bean/ImageLayerInfo;->tintFormPick:Z
 
     return v0
@@ -628,7 +616,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/bean/ImageLayerInfo;->imageStyleConfig:Lcom/commsource/studio/mixlayer/ImageStyleConfig;
 
     return-void
@@ -645,7 +632,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/bean/ImageLayerInfo;->texturePath:Ljava/lang/String;
 
     return-void
@@ -658,7 +644,6 @@
         .end annotation
     .end param
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/bean/ImageLayerInfo;->tintColor:Ljava/lang/Integer;
 
     return-void
@@ -667,7 +652,6 @@
 .method public final setTintFormPick(Z)V
     .locals 0
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/studio/bean/ImageLayerInfo;->tintFormPick:Z
 
     return-void

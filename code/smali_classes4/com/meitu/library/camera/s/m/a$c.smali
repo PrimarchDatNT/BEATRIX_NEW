@@ -36,7 +36,6 @@
 .method constructor <init>(Lcom/meitu/library/camera/s/m/a;J)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/library/camera/s/m/a$c;->b:Lcom/meitu/library/camera/s/m/a;
 
     iput-wide p2, p0, Lcom/meitu/library/camera/s/m/a$c;->a:J
@@ -67,14 +66,12 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/meitu/library/camera/s/n/d;->h()Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
-    .line 2
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -115,7 +112,6 @@
 
     invoke-static {v1, v0}, Lcom/meitu/library/camera/s/n/d;->d(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 3
     :cond_0
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

@@ -23,7 +23,6 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
     new-instance v0, Lorg/apache/http/impl/entity/StrictContentLengthStrategy;
 
     invoke-direct {v0}, Lorg/apache/http/impl/entity/StrictContentLengthStrategy;-><init>()V
@@ -38,7 +37,6 @@
 
     const/4 v0, -0x1
 
-    .line 3
     invoke-direct {p0, v0}, Lorg/apache/http/impl/entity/StrictContentLengthStrategy;-><init>(I)V
 
     return-void
@@ -47,10 +45,8 @@
 .method public constructor <init>(I)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput p1, p0, Lorg/apache/http/impl/entity/StrictContentLengthStrategy;->implicitLen:I
 
     return-void
@@ -68,33 +64,28 @@
 
     const-string v0, "HTTP message"
 
-    .line 1
     invoke-static {p1, v0}, Lorg/apache/http/util/Args;->notNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
 
     const-string v0, "Transfer-Encoding"
 
-    .line 2
     invoke-interface {p1, v0}, Lorg/apache/http/HttpMessage;->getFirstHeader(Ljava/lang/String;)Lorg/apache/http/Header;
 
     move-result-object v0
 
     if-eqz v0, :cond_3
 
-    .line 3
     invoke-interface {v0}, Lorg/apache/http/Header;->getValue()Ljava/lang/String;
 
     move-result-object v0
 
     const-string v1, "chunked"
 
-    .line 4
     invoke-virtual {v1, v0}, Ljava/lang/String;->equalsIgnoreCase(Ljava/lang/String;)Z
 
     move-result v1
 
     if-eqz v1, :cond_1
 
-    .line 5
     invoke-interface {p1}, Lorg/apache/http/HttpMessage;->getProtocolVersion()Lorg/apache/http/ProtocolVersion;
 
     move-result-object v0
@@ -111,7 +102,6 @@
 
     return-wide v0
 
-    .line 6
     :cond_0
     new-instance v0, Lorg/apache/http/ProtocolException;
 
@@ -140,7 +130,6 @@
     :cond_1
     const-string p1, "identity"
 
-    .line 7
     invoke-virtual {p1, v0}, Ljava/lang/String;->equalsIgnoreCase(Ljava/lang/String;)Z
 
     move-result p1
@@ -151,7 +140,6 @@
 
     return-wide v0
 
-    .line 8
     :cond_2
     new-instance p1, Lorg/apache/http/ProtocolException;
 
@@ -176,19 +164,16 @@
     :cond_3
     const-string v0, "Content-Length"
 
-    .line 9
     invoke-interface {p1, v0}, Lorg/apache/http/HttpMessage;->getFirstHeader(Ljava/lang/String;)Lorg/apache/http/Header;
 
     move-result-object p1
 
     if-eqz p1, :cond_5
 
-    .line 10
     invoke-interface {p1}, Lorg/apache/http/Header;->getValue()Ljava/lang/String;
 
     move-result-object p1
 
-    .line 11
     :try_start_0
     invoke-static {p1}, Ljava/lang/Long;->parseLong(Ljava/lang/String;)J
 
@@ -202,7 +187,6 @@
 
     return-wide v0
 
-    .line 12
     :cond_4
     new-instance v0, Lorg/apache/http/ProtocolException;
 
@@ -226,7 +210,6 @@
     :try_end_0
     .catch Ljava/lang/NumberFormatException; {:try_start_0 .. :try_end_0} :catch_0
 
-    .line 13
     :catch_0
     new-instance v0, Lorg/apache/http/ProtocolException;
 
@@ -248,7 +231,6 @@
 
     throw v0
 
-    .line 14
     :cond_5
     iget p1, p0, Lorg/apache/http/impl/entity/StrictContentLengthStrategy;->implicitLen:I
 

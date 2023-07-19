@@ -55,13 +55,10 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/google/android/gms/internal/ads/ms0;->a:Lcom/google/android/gms/internal/ads/d62;
 
-    .line 3
     iput-object p2, p0, Lcom/google/android/gms/internal/ads/ms0;->b:Lcom/google/android/gms/internal/ads/d62;
 
     return-void
@@ -82,7 +79,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/google/android/gms/internal/ads/ms0;
 
     invoke-direct {v0, p0, p1}, Lcom/google/android/gms/internal/ads/ms0;-><init>(Lcom/google/android/gms/internal/ads/d62;Lcom/google/android/gms/internal/ads/d62;)V
@@ -95,7 +91,6 @@
 .method public final synthetic get()Ljava/lang/Object;
     .locals 4
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/ms0;->a:Lcom/google/android/gms/internal/ads/d62;
 
     invoke-interface {v0}, Lcom/google/android/gms/internal/ads/d62;->get()Ljava/lang/Object;
@@ -112,7 +107,6 @@
 
     check-cast v1, Landroid/content/Context;
 
-    .line 2
     invoke-static {}, Lcom/google/android/gms/ads/internal/p;->e()Lcom/google/android/gms/internal/ads/hn;
 
     move-result-object v2
@@ -121,10 +115,8 @@
 
     move-result-object v1
 
-    .line 3
     sget-object v2, Lcom/google/android/gms/internal/ads/zzdor;->zzhgq:Lcom/google/android/gms/internal/ads/zzdor;
 
-    .line 4
     invoke-virtual {v0, v2}, Lcom/google/android/gms/internal/ads/qk1;->g(Ljava/lang/Object;)Lcom/google/android/gms/internal/ads/uk1;
 
     move-result-object v0
@@ -133,7 +125,6 @@
 
     invoke-direct {v2, v1}, Lcom/google/android/gms/internal/ads/is0;-><init>(Landroid/webkit/CookieManager;)V
 
-    .line 5
     invoke-virtual {v0, v2}, Lcom/google/android/gms/internal/ads/uk1;->c(Ljava/util/concurrent/Callable;)Lcom/google/android/gms/internal/ads/wk1;
 
     move-result-object v0
@@ -142,7 +133,6 @@
 
     const-wide/16 v2, 0x1
 
-    .line 6
     invoke-virtual {v0, v2, v3, v1}, Lcom/google/android/gms/internal/ads/wk1;->a(JLjava/util/concurrent/TimeUnit;)Lcom/google/android/gms/internal/ads/wk1;
 
     move-result-object v0
@@ -151,19 +141,16 @@
 
     sget-object v2, Lcom/google/android/gms/internal/ads/hs0;->a:Lcom/google/android/gms/internal/ads/lk1;
 
-    .line 7
     invoke-virtual {v0, v1, v2}, Lcom/google/android/gms/internal/ads/wk1;->d(Ljava/lang/Class;Lcom/google/android/gms/internal/ads/lk1;)Lcom/google/android/gms/internal/ads/wk1;
 
     move-result-object v0
 
-    .line 8
     invoke-virtual {v0}, Lcom/google/android/gms/internal/ads/wk1;->f()Lcom/google/android/gms/internal/ads/nk1;
 
     move-result-object v0
 
     const-string v1, "Cannot return null from a non-@Nullable @Provides method"
 
-    .line 9
     invoke-static {v0, v1}, Lcom/google/android/gms/internal/ads/a62;->b(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
 
     move-result-object v0

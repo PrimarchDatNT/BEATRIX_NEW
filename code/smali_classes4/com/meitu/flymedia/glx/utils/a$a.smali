@@ -58,7 +58,6 @@
 
     const/4 v0, 0x1
 
-    .line 1
     invoke-direct {p0, p1, v0}, Lcom/meitu/flymedia/glx/utils/a$a;-><init>(Lcom/meitu/flymedia/glx/utils/a;Z)V
 
     return-void
@@ -74,13 +73,10 @@
         }
     .end annotation
 
-    .line 2
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 3
     iput-object p1, p0, Lcom/meitu/flymedia/glx/utils/a$a;->a:Lcom/meitu/flymedia/glx/utils/a;
 
-    .line 4
     iput-boolean p2, p0, Lcom/meitu/flymedia/glx/utils/a$a;->b:Z
 
     return-void
@@ -102,12 +98,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/flymedia/glx/utils/a$a;->c:Lcom/meitu/flymedia/glx/utils/a$b;
 
     if-nez v1, :cond_0
 
-    .line 2
     new-instance v1, Lcom/meitu/flymedia/glx/utils/a$b;
 
     iget-object v2, p0, Lcom/meitu/flymedia/glx/utils/a$a;->a:Lcom/meitu/flymedia/glx/utils/a;
@@ -118,7 +112,6 @@
 
     iput-object v1, p0, Lcom/meitu/flymedia/glx/utils/a$a;->c:Lcom/meitu/flymedia/glx/utils/a$b;
 
-    .line 3
     new-instance v1, Lcom/meitu/flymedia/glx/utils/a$b;
 
     iget-object v2, p0, Lcom/meitu/flymedia/glx/utils/a$a;->a:Lcom/meitu/flymedia/glx/utils/a;
@@ -129,7 +122,6 @@
 
     iput-object v1, p0, Lcom/meitu/flymedia/glx/utils/a$a;->d:Lcom/meitu/flymedia/glx/utils/a$b;
 
-    .line 4
     :cond_0
     iget-object v1, p0, Lcom/meitu/flymedia/glx/utils/a$a;->c:Lcom/meitu/flymedia/glx/utils/a$b;
 
@@ -141,35 +133,27 @@
 
     if-nez v2, :cond_1
 
-    .line 5
     iput v4, v1, Lcom/meitu/flymedia/glx/utils/a$b;->c:I
 
-    .line 6
     iput-boolean v3, v1, Lcom/meitu/flymedia/glx/utils/a$b;->d:Z
 
-    .line 7
     iget-object v2, p0, Lcom/meitu/flymedia/glx/utils/a$a;->d:Lcom/meitu/flymedia/glx/utils/a$b;
 
     iput-boolean v4, v2, Lcom/meitu/flymedia/glx/utils/a$b;->d:Z
 
-    .line 8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
 
-    .line 9
     :cond_1
     iget-object v2, p0, Lcom/meitu/flymedia/glx/utils/a$a;->d:Lcom/meitu/flymedia/glx/utils/a$b;
 
     iput v4, v2, Lcom/meitu/flymedia/glx/utils/a$b;->c:I
 
-    .line 10
     iput-boolean v3, v2, Lcom/meitu/flymedia/glx/utils/a$b;->d:Z
 
-    .line 11
     iput-boolean v4, v1, Lcom/meitu/flymedia/glx/utils/a$b;->d:Z
 
-    .line 12
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v2

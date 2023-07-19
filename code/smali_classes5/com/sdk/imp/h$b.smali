@@ -25,7 +25,6 @@
 .method constructor <init>(Lcom/sdk/imp/h;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/sdk/imp/h$b;->a:Lcom/sdk/imp/h;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -38,7 +37,6 @@
 .method public onAnimationUpdate(Landroid/animation/ValueAnimator;)V
     .locals 1
 
-    .line 1
     invoke-virtual {p1}, Landroid/animation/ValueAnimator;->getAnimatedValue()Ljava/lang/Object;
 
     move-result-object p1
@@ -49,7 +47,6 @@
 
     move-result p1
 
-    .line 2
     iget-object v0, p0, Lcom/sdk/imp/h$b;->a:Lcom/sdk/imp/h;
 
     invoke-static {v0}, Lcom/sdk/imp/h;->j(Lcom/sdk/imp/h;)Landroid/widget/TextView;
@@ -58,7 +55,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 3
     iget-object v0, p0, Lcom/sdk/imp/h$b;->a:Lcom/sdk/imp/h;
 
     invoke-static {v0}, Lcom/sdk/imp/h;->j(Lcom/sdk/imp/h;)Landroid/widget/TextView;
@@ -69,7 +65,6 @@
 
     invoke-virtual {v0, p1}, Landroid/widget/TextView;->setRotation(F)V
 
-    .line 4
     iget-object p1, p0, Lcom/sdk/imp/h$b;->a:Lcom/sdk/imp/h;
 
     invoke-static {p1}, Lcom/sdk/imp/h;->j(Lcom/sdk/imp/h;)Landroid/widget/TextView;

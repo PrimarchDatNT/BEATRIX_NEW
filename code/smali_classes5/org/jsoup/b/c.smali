@@ -67,14 +67,12 @@
 
     const-string v20, "                    "
 
-    .line 1
     filled-new-array/range {v0 .. v20}, [Ljava/lang/String;
 
     move-result-object v0
 
     sput-object v0, Lorg/jsoup/b/c;->a:[Ljava/lang/String;
 
-    .line 2
     new-instance v0, Ljava/util/Stack;
 
     invoke-direct {v0}, Ljava/util/Stack;-><init>()V
@@ -87,7 +85,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -96,7 +93,6 @@
 .method public static a(Ljava/lang/StringBuilder;Ljava/lang/String;Z)V
     .locals 8
 
-    .line 1
     invoke-virtual {p1}, Ljava/lang/String;->length()I
 
     move-result v0
@@ -112,12 +108,10 @@
     :goto_0
     if-ge v2, v0, :cond_4
 
-    .line 2
     invoke-virtual {p1, v2}, Ljava/lang/String;->codePointAt(I)I
 
     move-result v5
 
-    .line 3
     invoke-static {v5}, Lorg/jsoup/b/c;->e(I)Z
 
     move-result v6
@@ -138,14 +132,12 @@
     :cond_1
     const/16 v4, 0x20
 
-    .line 4
     invoke-virtual {p0, v4}, Ljava/lang/StringBuilder;->append(C)Ljava/lang/StringBuilder;
 
     const/4 v4, 0x1
 
     goto :goto_1
 
-    .line 5
     :cond_2
     invoke-static {v5}, Lorg/jsoup/b/c;->g(I)Z
 
@@ -153,14 +145,12 @@
 
     if-nez v6, :cond_3
 
-    .line 6
     invoke-virtual {p0, v5}, Ljava/lang/StringBuilder;->appendCodePoint(I)Ljava/lang/StringBuilder;
 
     const/4 v3, 0x1
 
     const/4 v4, 0x0
 
-    .line 7
     :cond_3
     :goto_1
     invoke-static {v5}, Ljava/lang/Character;->charCount(I)I
@@ -178,12 +168,10 @@
 .method public static b()Ljava/lang/StringBuilder;
     .locals 3
 
-    .line 1
     sget-object v0, Lorg/jsoup/b/c;->b:Ljava/util/Stack;
 
     monitor-enter v0
 
-    .line 2
     :try_start_0
     invoke-virtual {v0}, Ljava/util/Stack;->empty()Z
 
@@ -191,7 +179,6 @@
 
     if-eqz v1, :cond_0
 
-    .line 3
     new-instance v1, Ljava/lang/StringBuilder;
 
     const/16 v2, 0x2000
@@ -200,7 +187,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_0
     invoke-virtual {v0}, Ljava/util/Stack;->pop()Ljava/lang/Object;
 
@@ -216,7 +202,6 @@
     :catchall_0
     move-exception v1
 
-    .line 5
     monitor-exit v0
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
@@ -227,7 +212,6 @@
 .method public static varargs c(Ljava/lang/String;[Ljava/lang/String;)Z
     .locals 4
 
-    .line 1
     array-length v0, p1
 
     const/4 v1, 0x0
@@ -237,7 +221,6 @@
     :goto_0
     if-ge v2, v0, :cond_1
 
-    .line 2
     aget-object v3, p1, v2
 
     invoke-virtual {v3, p0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -262,7 +245,6 @@
 .method public static d(Ljava/lang/String;[Ljava/lang/String;)Z
     .locals 0
 
-    .line 1
     invoke-static {p1, p0}, Ljava/util/Arrays;->binarySearch([Ljava/lang/Object;Ljava/lang/Object;)I
 
     move-result p0
@@ -329,7 +311,6 @@
 
     if-eqz p0, :cond_2
 
-    .line 1
     invoke-virtual {p0}, Ljava/lang/String;->length()I
 
     move-result v1
@@ -338,7 +319,6 @@
 
     goto :goto_1
 
-    .line 2
     :cond_0
     invoke-virtual {p0}, Ljava/lang/String;->length()I
 
@@ -351,7 +331,6 @@
     :goto_0
     if-ge v3, v1, :cond_2
 
-    .line 3
     invoke-virtual {p0, v3}, Ljava/lang/String;->codePointAt(I)I
 
     move-result v4
@@ -407,7 +386,6 @@
 
     if-eqz p0, :cond_3
 
-    .line 1
     invoke-virtual {p0}, Ljava/lang/String;->length()I
 
     move-result v1
@@ -416,7 +394,6 @@
 
     goto :goto_1
 
-    .line 2
     :cond_0
     invoke-virtual {p0}, Ljava/lang/String;->length()I
 
@@ -427,7 +404,6 @@
     :goto_0
     if-ge v2, v1, :cond_2
 
-    .line 3
     invoke-virtual {p0, v2}, Ljava/lang/String;->codePointAt(I)I
 
     move-result v3
@@ -496,7 +472,6 @@
 .method public static j(Ljava/util/Collection;Ljava/lang/String;)Ljava/lang/String;
     .locals 0
 
-    .line 1
     invoke-interface {p0}, Ljava/util/Collection;->iterator()Ljava/util/Iterator;
 
     move-result-object p0
@@ -511,7 +486,6 @@
 .method public static k(Ljava/util/Iterator;Ljava/lang/String;)Ljava/lang/String;
     .locals 2
 
-    .line 1
     invoke-interface {p0}, Ljava/util/Iterator;->hasNext()Z
 
     move-result v0
@@ -522,7 +496,6 @@
 
     return-object p0
 
-    .line 2
     :cond_0
     invoke-interface {p0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
@@ -532,7 +505,6 @@
 
     move-result-object v0
 
-    .line 3
     invoke-interface {p0}, Ljava/util/Iterator;->hasNext()Z
 
     move-result v1
@@ -541,7 +513,6 @@
 
     return-object v0
 
-    .line 4
     :cond_1
     invoke-static {}, Lorg/jsoup/b/c;->b()Ljava/lang/StringBuilder;
 
@@ -549,7 +520,6 @@
 
     invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 5
     :goto_0
     invoke-interface {p0}, Ljava/util/Iterator;->hasNext()Z
 
@@ -557,10 +527,8 @@
 
     if-eqz v0, :cond_2
 
-    .line 6
     invoke-virtual {v1, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 7
     invoke-interface {p0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
     move-result-object v0
@@ -569,7 +537,6 @@
 
     goto :goto_0
 
-    .line 8
     :cond_2
     invoke-static {v1}, Lorg/jsoup/b/c;->o(Ljava/lang/StringBuilder;)Ljava/lang/String;
 
@@ -581,7 +548,6 @@
 .method public static l([Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
     .locals 0
 
-    .line 1
     invoke-static {p0}, Ljava/util/Arrays;->asList([Ljava/lang/Object;)Ljava/util/List;
 
     move-result-object p0
@@ -596,17 +562,14 @@
 .method public static m(Ljava/lang/String;)Ljava/lang/String;
     .locals 2
 
-    .line 1
     invoke-static {}, Lorg/jsoup/b/c;->b()Ljava/lang/StringBuilder;
 
     move-result-object v0
 
     const/4 v1, 0x0
 
-    .line 2
     invoke-static {v0, p0, v1}, Lorg/jsoup/b/c;->a(Ljava/lang/StringBuilder;Ljava/lang/String;Z)V
 
-    .line 3
     invoke-static {v0}, Lorg/jsoup/b/c;->o(Ljava/lang/StringBuilder;)Ljava/lang/String;
 
     move-result-object p0
@@ -619,19 +582,16 @@
 
     if-ltz p0, :cond_2
 
-    .line 1
     sget-object v0, Lorg/jsoup/b/c;->a:[Ljava/lang/String;
 
     array-length v1, v0
 
     if-ge p0, v1, :cond_0
 
-    .line 2
     aget-object p0, v0, p0
 
     return-object p0
 
-    .line 3
     :cond_0
     new-array v0, p0, [C
 
@@ -642,14 +602,12 @@
 
     const/16 v2, 0x20
 
-    .line 4
     aput-char v2, v0, v1
 
     add-int/lit8 v1, v1, 0x1
 
     goto :goto_0
 
-    .line 5
     :cond_1
     invoke-static {v0}, Ljava/lang/String;->valueOf([C)Ljava/lang/String;
 
@@ -657,7 +615,6 @@
 
     return-object p0
 
-    .line 6
     :cond_2
     new-instance p0, Ljava/lang/IllegalArgumentException;
 
@@ -671,15 +628,12 @@
 .method public static o(Ljava/lang/StringBuilder;)Ljava/lang/String;
     .locals 4
 
-    .line 1
     invoke-static {p0}, Lorg/jsoup/helper/c;->j(Ljava/lang/Object;)V
 
-    .line 2
     invoke-virtual {p0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     move-result-object v0
 
-    .line 3
     invoke-virtual {p0}, Ljava/lang/StringBuilder;->length()I
 
     move-result v1
@@ -688,7 +642,6 @@
 
     if-le v1, v2, :cond_0
 
-    .line 4
     new-instance p0, Ljava/lang/StringBuilder;
 
     invoke-direct {p0, v2}, Ljava/lang/StringBuilder;-><init>(I)V
@@ -698,24 +651,20 @@
     :cond_0
     const/4 v1, 0x0
 
-    .line 5
     invoke-virtual {p0}, Ljava/lang/StringBuilder;->length()I
 
     move-result v2
 
     invoke-virtual {p0, v1, v2}, Ljava/lang/StringBuilder;->delete(II)Ljava/lang/StringBuilder;
 
-    .line 6
     :goto_0
     sget-object v1, Lorg/jsoup/b/c;->b:Ljava/util/Stack;
 
     monitor-enter v1
 
-    .line 7
     :try_start_0
     invoke-virtual {v1, p0}, Ljava/util/Stack;->push(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 8
     :goto_1
     sget-object p0, Lorg/jsoup/b/c;->b:Ljava/util/Stack;
 
@@ -727,12 +676,10 @@
 
     if-le v2, v3, :cond_1
 
-    .line 9
     invoke-virtual {p0}, Ljava/util/Stack;->pop()Ljava/lang/Object;
 
     goto :goto_1
 
-    .line 10
     :cond_1
     monitor-exit v1
 
@@ -751,7 +698,6 @@
 .method public static p(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
     .locals 1
 
-    .line 1
     :try_start_0
     new-instance v0, Ljava/net/URL;
 
@@ -759,7 +705,6 @@
     :try_end_0
     .catch Ljava/net/MalformedURLException; {:try_start_0 .. :try_end_0} :catch_0
 
-    .line 2
     :try_start_1
     invoke-static {v0, p1}, Lorg/jsoup/b/c;->q(Ljava/net/URL;Ljava/lang/String;)Ljava/net/URL;
 
@@ -771,13 +716,11 @@
 
     return-object p0
 
-    .line 3
     :catch_0
     new-instance p0, Ljava/net/URL;
 
     invoke-direct {p0, p1}, Ljava/net/URL;-><init>(Ljava/lang/String;)V
 
-    .line 4
     invoke-virtual {p0}, Ljava/net/URL;->toExternalForm()Ljava/lang/String;
 
     move-result-object p0
@@ -802,14 +745,12 @@
 
     const-string v0, "?"
 
-    .line 1
     invoke-virtual {p1, v0}, Ljava/lang/String;->startsWith(Ljava/lang/String;)Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
-    .line 2
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -829,7 +770,6 @@
     :cond_0
     const/16 v0, 0x2e
 
-    .line 3
     invoke-virtual {p1, v0}, Ljava/lang/String;->indexOf(I)I
 
     move-result v0
@@ -848,7 +788,6 @@
 
     if-eqz v0, :cond_1
 
-    .line 4
     new-instance v0, Ljava/net/URL;
 
     invoke-virtual {p0}, Ljava/net/URL;->getProtocol()Ljava/lang/String;
@@ -885,7 +824,6 @@
 
     move-object p0, v0
 
-    .line 5
     :cond_1
     new-instance v0, Ljava/net/URL;
 

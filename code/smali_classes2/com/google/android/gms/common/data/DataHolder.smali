@@ -92,14 +92,12 @@
 .method static constructor <clinit>()V
     .locals 3
 
-    .line 1
     new-instance v0, Lcom/google/android/gms/common/data/o;
 
     invoke-direct {v0}, Lcom/google/android/gms/common/data/o;-><init>()V
 
     sput-object v0, Lcom/google/android/gms/common/data/DataHolder;->CREATOR:Landroid/os/Parcelable$Creator;
 
-    .line 2
     new-instance v0, Lcom/google/android/gms/common/data/n;
 
     const/4 v1, 0x0
@@ -145,32 +143,24 @@
     .annotation build Lcom/google/android/gms/common/internal/safeparcel/SafeParcelable$b;
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Lcom/google/android/gms/common/internal/safeparcel/AbstractSafeParcelable;-><init>()V
 
     const/4 v0, 0x0
 
-    .line 2
     iput-boolean v0, p0, Lcom/google/android/gms/common/data/DataHolder;->K:Z
 
     const/4 v0, 0x1
 
-    .line 3
     iput-boolean v0, p0, Lcom/google/android/gms/common/data/DataHolder;->L:Z
 
-    .line 4
     iput p1, p0, Lcom/google/android/gms/common/data/DataHolder;->a:I
 
-    .line 5
     iput-object p2, p0, Lcom/google/android/gms/common/data/DataHolder;->b:[Ljava/lang/String;
 
-    .line 6
     iput-object p3, p0, Lcom/google/android/gms/common/data/DataHolder;->d:[Landroid/database/CursorWindow;
 
-    .line 7
     iput p4, p0, Lcom/google/android/gms/common/data/DataHolder;->f:I
 
-    .line 8
     iput-object p5, p0, Lcom/google/android/gms/common/data/DataHolder;->g:Landroid/os/Bundle;
 
     return-void
@@ -181,7 +171,6 @@
     .annotation build Lcom/google/android/gms/common/annotation/a;
     .end annotation
 
-    .line 19
     new-instance v0, Lcom/google/android/gms/common/o/a;
 
     invoke-direct {v0, p1}, Lcom/google/android/gms/common/o/a;-><init>(Landroid/database/Cursor;)V
@@ -194,7 +183,6 @@
 .method private constructor <init>(Lcom/google/android/gms/common/data/DataHolder$a;ILandroid/os/Bundle;)V
     .locals 1
 
-    .line 20
     invoke-static {p1}, Lcom/google/android/gms/common/data/DataHolder$a;->e(Lcom/google/android/gms/common/data/DataHolder$a;)[Ljava/lang/String;
 
     move-result-object p3
@@ -215,7 +203,6 @@
 .method private constructor <init>(Lcom/google/android/gms/common/data/DataHolder$a;ILandroid/os/Bundle;I)V
     .locals 1
 
-    .line 21
     invoke-static {p1}, Lcom/google/android/gms/common/data/DataHolder$a;->e(Lcom/google/android/gms/common/data/DataHolder$a;)[Ljava/lang/String;
 
     move-result-object p4
@@ -236,7 +223,6 @@
 
     const/4 p4, -0x1
 
-    .line 23
     invoke-direct {p0, p1, p2, p3, p4}, Lcom/google/android/gms/common/data/DataHolder;-><init>(Lcom/google/android/gms/common/data/DataHolder$a;ILandroid/os/Bundle;I)V
 
     return-void
@@ -247,7 +233,6 @@
 
     const/4 p3, 0x0
 
-    .line 22
     invoke-direct {p0, p1, p2, p3}, Lcom/google/android/gms/common/data/DataHolder;-><init>(Lcom/google/android/gms/common/data/DataHolder$a;ILandroid/os/Bundle;)V
 
     return-void
@@ -256,7 +241,6 @@
 .method private constructor <init>(Lcom/google/android/gms/common/o/a;ILandroid/os/Bundle;)V
     .locals 1
 
-    .line 18
     invoke-virtual {p1}, Landroid/database/CursorWrapper;->getColumnNames()[Ljava/lang/String;
 
     move-result-object v0
@@ -275,23 +259,18 @@
     .annotation build Lcom/google/android/gms/common/annotation/a;
     .end annotation
 
-    .line 9
     invoke-direct {p0}, Lcom/google/android/gms/common/internal/safeparcel/AbstractSafeParcelable;-><init>()V
 
     const/4 v0, 0x0
 
-    .line 10
     iput-boolean v0, p0, Lcom/google/android/gms/common/data/DataHolder;->K:Z
 
     const/4 v0, 0x1
 
-    .line 11
     iput-boolean v0, p0, Lcom/google/android/gms/common/data/DataHolder;->L:Z
 
-    .line 12
     iput v0, p0, Lcom/google/android/gms/common/data/DataHolder;->a:I
 
-    .line 13
     invoke-static {p1}, Lcom/google/android/gms/common/internal/b0;->k(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -300,7 +279,6 @@
 
     iput-object p1, p0, Lcom/google/android/gms/common/data/DataHolder;->b:[Ljava/lang/String;
 
-    .line 14
     invoke-static {p2}, Lcom/google/android/gms/common/internal/b0;->k(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -309,13 +287,10 @@
 
     iput-object p1, p0, Lcom/google/android/gms/common/data/DataHolder;->d:[Landroid/database/CursorWindow;
 
-    .line 15
     iput p3, p0, Lcom/google/android/gms/common/data/DataHolder;->f:I
 
-    .line 16
     iput-object p4, p0, Lcom/google/android/gms/common/data/DataHolder;->g:Landroid/os/Bundle;
 
-    .line 17
     invoke-virtual {p0}, Lcom/google/android/gms/common/data/DataHolder;->p1()V
 
     return-void
@@ -324,7 +299,6 @@
 .method private final W0(Ljava/lang/String;I)V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/common/data/DataHolder;->c:Landroid/os/Bundle;
 
     if-eqz v0, :cond_3
@@ -337,7 +311,6 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     invoke-virtual {p0}, Lcom/google/android/gms/common/data/DataHolder;->isClosed()Z
 
@@ -347,14 +320,12 @@
 
     if-ltz p2, :cond_1
 
-    .line 3
     iget p1, p0, Lcom/google/android/gms/common/data/DataHolder;->J:I
 
     if-ge p2, p1, :cond_1
 
     return-void
 
-    .line 4
     :cond_1
     new-instance p1, Landroid/database/CursorIndexOutOfBoundsException;
 
@@ -364,7 +335,6 @@
 
     throw p1
 
-    .line 5
     :cond_2
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -374,7 +344,6 @@
 
     throw p1
 
-    .line 6
     :cond_3
     :goto_0
     new-instance p2, Ljava/lang/IllegalArgumentException;
@@ -411,7 +380,6 @@
 .method private static f1(Lcom/google/android/gms/common/data/DataHolder$a;I)[Landroid/database/CursorWindow;
     .locals 13
 
-    .line 1
     invoke-static {p0}, Lcom/google/android/gms/common/data/DataHolder$a;->e(Lcom/google/android/gms/common/data/DataHolder$a;)[Ljava/lang/String;
 
     move-result-object v0
@@ -429,7 +397,6 @@
     :cond_0
     if-ltz p1, :cond_2
 
-    .line 2
     invoke-static {p0}, Lcom/google/android/gms/common/data/DataHolder$a;->f(Lcom/google/android/gms/common/data/DataHolder$a;)Ljava/util/ArrayList;
 
     move-result-object v0
@@ -442,7 +409,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_1
     invoke-static {p0}, Lcom/google/android/gms/common/data/DataHolder$a;->f(Lcom/google/android/gms/common/data/DataHolder$a;)Ljava/util/ArrayList;
 
@@ -454,33 +420,27 @@
 
     goto :goto_1
 
-    .line 4
     :cond_2
     :goto_0
     invoke-static {p0}, Lcom/google/android/gms/common/data/DataHolder$a;->f(Lcom/google/android/gms/common/data/DataHolder$a;)Ljava/util/ArrayList;
 
     move-result-object p1
 
-    .line 5
     :goto_1
     invoke-interface {p1}, Ljava/util/List;->size()I
 
     move-result v0
 
-    .line 6
     new-instance v2, Landroid/database/CursorWindow;
 
     invoke-direct {v2, v1}, Landroid/database/CursorWindow;-><init>(Z)V
 
-    .line 7
     new-instance v3, Ljava/util/ArrayList;
 
     invoke-direct {v3}, Ljava/util/ArrayList;-><init>()V
 
-    .line 8
     invoke-virtual {v3, v2}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    .line 9
     invoke-static {p0}, Lcom/google/android/gms/common/data/DataHolder$a;->e(Lcom/google/android/gms/common/data/DataHolder$a;)[Ljava/lang/String;
 
     move-result-object v4
@@ -496,7 +456,6 @@
     :goto_2
     if-ge v4, v0, :cond_11
 
-    .line 10
     :try_start_0
     invoke-virtual {v2}, Landroid/database/CursorWindow;->allocRow()Z
 
@@ -510,7 +469,6 @@
 
     const/16 v2, 0x48
 
-    .line 11
     :try_start_1
     new-instance v6, Ljava/lang/StringBuilder;
 
@@ -532,15 +490,12 @@
 
     invoke-static {v7, v2}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 12
     new-instance v2, Landroid/database/CursorWindow;
 
     invoke-direct {v2, v1}, Landroid/database/CursorWindow;-><init>(Z)V
 
-    .line 13
     invoke-virtual {v2, v4}, Landroid/database/CursorWindow;->setStartPosition(I)V
 
-    .line 14
     invoke-static {p0}, Lcom/google/android/gms/common/data/DataHolder$a;->e(Lcom/google/android/gms/common/data/DataHolder$a;)[Ljava/lang/String;
 
     move-result-object v6
@@ -549,10 +504,8 @@
 
     invoke-virtual {v2, v6}, Landroid/database/CursorWindow;->setNumColumns(I)Z
 
-    .line 15
     invoke-virtual {v3, v2}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    .line 16
     invoke-virtual {v2}, Landroid/database/CursorWindow;->allocRow()Z
 
     move-result v6
@@ -561,13 +514,10 @@
 
     const-string p0, "Unable to allocate row to hold data."
 
-    .line 17
     invoke-static {v7, p0}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 18
     invoke-virtual {v3, v2}, Ljava/util/ArrayList;->remove(Ljava/lang/Object;)Z
 
-    .line 19
     invoke-virtual {v3}, Ljava/util/ArrayList;->size()I
 
     move-result p0
@@ -582,7 +532,6 @@
 
     return-object p0
 
-    .line 20
     :cond_3
     invoke-interface {p1, v4}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
@@ -596,7 +545,6 @@
 
     const/4 v10, 0x1
 
-    .line 21
     :goto_3
     invoke-static {p0}, Lcom/google/android/gms/common/data/DataHolder$a;->e(Lcom/google/android/gms/common/data/DataHolder$a;)[Ljava/lang/String;
 
@@ -608,34 +556,29 @@
 
     if-eqz v10, :cond_d
 
-    .line 22
     invoke-static {p0}, Lcom/google/android/gms/common/data/DataHolder$a;->e(Lcom/google/android/gms/common/data/DataHolder$a;)[Ljava/lang/String;
 
     move-result-object v10
 
     aget-object v10, v10, v9
 
-    .line 23
     invoke-interface {v6, v10}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v11
 
     if-nez v11, :cond_4
 
-    .line 24
     invoke-virtual {v2, v4, v9}, Landroid/database/CursorWindow;->putNull(II)Z
 
     move-result v10
 
     goto/16 :goto_5
 
-    .line 25
     :cond_4
     instance-of v12, v11, Ljava/lang/String;
 
     if-eqz v12, :cond_5
 
-    .line 26
     check-cast v11, Ljava/lang/String;
 
     invoke-virtual {v2, v11, v4, v9}, Landroid/database/CursorWindow;->putString(Ljava/lang/String;II)Z
@@ -644,13 +587,11 @@
 
     goto :goto_5
 
-    .line 27
     :cond_5
     instance-of v12, v11, Ljava/lang/Long;
 
     if-eqz v12, :cond_6
 
-    .line 28
     check-cast v11, Ljava/lang/Long;
 
     invoke-virtual {v11}, Ljava/lang/Long;->longValue()J
@@ -663,13 +604,11 @@
 
     goto :goto_5
 
-    .line 29
     :cond_6
     instance-of v12, v11, Ljava/lang/Integer;
 
     if-eqz v12, :cond_7
 
-    .line 30
     check-cast v11, Ljava/lang/Integer;
 
     invoke-virtual {v11}, Ljava/lang/Integer;->intValue()I
@@ -684,13 +623,11 @@
 
     goto :goto_5
 
-    .line 31
     :cond_7
     instance-of v12, v11, Ljava/lang/Boolean;
 
     if-eqz v12, :cond_9
 
-    .line 32
     check-cast v11, Ljava/lang/Boolean;
 
     invoke-virtual {v11}, Ljava/lang/Boolean;->booleanValue()Z
@@ -706,7 +643,6 @@
     :cond_8
     const-wide/16 v10, 0x0
 
-    .line 33
     :goto_4
     invoke-virtual {v2, v10, v11, v4, v9}, Landroid/database/CursorWindow;->putLong(JII)Z
 
@@ -714,13 +650,11 @@
 
     goto :goto_5
 
-    .line 34
     :cond_9
     instance-of v12, v11, [B
 
     if-eqz v12, :cond_a
 
-    .line 35
     check-cast v11, [B
 
     invoke-virtual {v2, v11, v4, v9}, Landroid/database/CursorWindow;->putBlob([BII)Z
@@ -729,13 +663,11 @@
 
     goto :goto_5
 
-    .line 36
     :cond_a
     instance-of v12, v11, Ljava/lang/Double;
 
     if-eqz v12, :cond_b
 
-    .line 37
     check-cast v11, Ljava/lang/Double;
 
     invoke-virtual {v11}, Ljava/lang/Double;->doubleValue()D
@@ -748,13 +680,11 @@
 
     goto :goto_5
 
-    .line 38
     :cond_b
     instance-of v12, v11, Ljava/lang/Float;
 
     if-eqz v12, :cond_c
 
-    .line 39
     check-cast v11, Ljava/lang/Float;
 
     invoke-virtual {v11}, Ljava/lang/Float;->floatValue()F
@@ -772,7 +702,6 @@
 
     goto/16 :goto_3
 
-    .line 40
     :cond_c
     new-instance p0, Ljava/lang/IllegalArgumentException;
 
@@ -831,7 +760,6 @@
 
     const/16 v5, 0x4a
 
-    .line 41
     new-instance v6, Ljava/lang/StringBuilder;
 
     invoke-direct {v6, v5}, Ljava/lang/StringBuilder;-><init>(I)V
@@ -852,18 +780,14 @@
 
     invoke-static {v7, v5}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 42
     invoke-virtual {v2}, Landroid/database/CursorWindow;->freeLastRow()V
 
-    .line 43
     new-instance v2, Landroid/database/CursorWindow;
 
     invoke-direct {v2, v1}, Landroid/database/CursorWindow;-><init>(Z)V
 
-    .line 44
     invoke-virtual {v2, v4}, Landroid/database/CursorWindow;->setStartPosition(I)V
 
-    .line 45
     invoke-static {p0}, Lcom/google/android/gms/common/data/DataHolder$a;->e(Lcom/google/android/gms/common/data/DataHolder$a;)[Ljava/lang/String;
 
     move-result-object v5
@@ -872,7 +796,6 @@
 
     invoke-virtual {v2, v5}, Landroid/database/CursorWindow;->setNumColumns(I)Z
 
-    .line 46
     invoke-virtual {v3, v2}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
     add-int/lit8 v4, v4, -0x1
@@ -884,7 +807,6 @@
     :cond_e
     const-string p0, "Could not add the value to a new CursorWindow. The size of value may be larger than what a CursorWindow can handle."
 
-    .line 47
     new-instance p1, Lcom/google/android/gms/common/data/DataHolder$zaa;
 
     invoke-direct {p1, p0}, Lcom/google/android/gms/common/data/DataHolder$zaa;-><init>(Ljava/lang/String;)V
@@ -904,7 +826,6 @@
     :catch_0
     move-exception p0
 
-    .line 48
     invoke-virtual {v3}, Ljava/util/ArrayList;->size()I
 
     move-result p1
@@ -912,7 +833,6 @@
     :goto_7
     if-ge v1, p1, :cond_10
 
-    .line 49
     invoke-virtual {v3, v1}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
 
     move-result-object v0
@@ -925,11 +845,9 @@
 
     goto :goto_7
 
-    .line 50
     :cond_10
     throw p0
 
-    .line 51
     :cond_11
     invoke-virtual {v3}, Ljava/util/ArrayList;->size()I
 
@@ -949,18 +867,15 @@
 .method private static i1(Lcom/google/android/gms/common/o/a;)[Landroid/database/CursorWindow;
     .locals 6
 
-    .line 1
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
 
-    .line 2
     :try_start_0
     invoke-virtual {p0}, Landroid/database/CursorWrapper;->getCount()I
 
     move-result v1
 
-    .line 3
     invoke-virtual {p0}, Lcom/google/android/gms/common/o/a;->getWindow()Landroid/database/CursorWindow;
 
     move-result-object v2
@@ -971,23 +886,18 @@
 
     if-eqz v2, :cond_0
 
-    .line 4
     invoke-virtual {v2}, Landroid/database/CursorWindow;->getStartPosition()I
 
     move-result v5
 
     if-nez v5, :cond_0
 
-    .line 5
     invoke-virtual {v2}, Landroid/database/CursorWindow;->acquireReference()V
 
-    .line 6
     invoke-virtual {p0, v3}, Lcom/google/android/gms/common/o/a;->a(Landroid/database/CursorWindow;)V
 
-    .line 7
     invoke-virtual {v0, v2}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    .line 8
     invoke-virtual {v2}, Landroid/database/CursorWindow;->getNumRows()I
 
     move-result v2
@@ -1000,41 +910,33 @@
     :goto_0
     if-ge v2, v1, :cond_2
 
-    .line 9
     invoke-virtual {p0, v2}, Landroid/database/CursorWrapper;->moveToPosition(I)Z
 
     move-result v5
 
     if-eqz v5, :cond_2
 
-    .line 10
     invoke-virtual {p0}, Lcom/google/android/gms/common/o/a;->getWindow()Landroid/database/CursorWindow;
 
     move-result-object v5
 
     if-eqz v5, :cond_1
 
-    .line 11
     invoke-virtual {v5}, Landroid/database/CursorWindow;->acquireReference()V
 
-    .line 12
     invoke-virtual {p0, v3}, Lcom/google/android/gms/common/o/a;->a(Landroid/database/CursorWindow;)V
 
     goto :goto_1
 
-    .line 13
     :cond_1
     new-instance v5, Landroid/database/CursorWindow;
 
     invoke-direct {v5, v4}, Landroid/database/CursorWindow;-><init>(Z)V
 
-    .line 14
     invoke-virtual {v5, v2}, Landroid/database/CursorWindow;->setStartPosition(I)V
 
-    .line 15
     invoke-virtual {p0, v2, v5}, Lcom/google/android/gms/common/o/a;->fillWindow(ILandroid/database/CursorWindow;)V
 
-    .line 16
     :goto_1
     invoke-virtual {v5}, Landroid/database/CursorWindow;->getNumRows()I
 
@@ -1042,10 +944,8 @@
 
     if-eqz v2, :cond_2
 
-    .line 17
     invoke-virtual {v0, v5}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    .line 18
     invoke-virtual {v5}, Landroid/database/CursorWindow;->getStartPosition()I
 
     move-result v2
@@ -1060,11 +960,9 @@
 
     goto :goto_0
 
-    .line 19
     :cond_2
     invoke-virtual {p0}, Landroid/database/CursorWrapper;->close()V
 
-    .line 20
     invoke-virtual {v0}, Ljava/util/ArrayList;->size()I
 
     move-result p0
@@ -1082,7 +980,6 @@
     :catchall_0
     move-exception v0
 
-    .line 21
     invoke-virtual {p0}, Landroid/database/CursorWrapper;->close()V
 
     throw v0
@@ -1093,7 +990,6 @@
     .annotation build Lcom/google/android/gms/common/annotation/a;
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/google/android/gms/common/data/DataHolder$a;
 
     const/4 v1, 0x0
@@ -1108,7 +1004,6 @@
     .annotation build Lcom/google/android/gms/common/annotation/a;
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/google/android/gms/common/data/DataHolder;
 
     sget-object v1, Lcom/google/android/gms/common/data/DataHolder;->M:Lcom/google/android/gms/common/data/DataHolder$a;
@@ -1127,10 +1022,8 @@
     .annotation build Lcom/google/android/gms/common/annotation/a;
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1, p2}, Lcom/google/android/gms/common/data/DataHolder;->W0(Ljava/lang/String;I)V
 
-    .line 2
     iget-object v0, p0, Lcom/google/android/gms/common/data/DataHolder;->d:[Landroid/database/CursorWindow;
 
     aget-object p3, v0, p3
@@ -1149,7 +1042,6 @@
 
     move-result-object p1
 
-    .line 3
     invoke-virtual {p1}, Ljava/lang/Long;->longValue()J
 
     move-result-wide p1
@@ -1175,7 +1067,6 @@
     .annotation build Lcom/google/android/gms/common/annotation/a;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/common/data/DataHolder;->c:Landroid/os/Bundle;
 
     invoke-virtual {v0, p1}, Landroid/os/Bundle;->containsKey(Ljava/lang/String;)Z
@@ -1190,10 +1081,8 @@
     .annotation build Lcom/google/android/gms/common/annotation/a;
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1, p2}, Lcom/google/android/gms/common/data/DataHolder;->W0(Ljava/lang/String;I)V
 
-    .line 2
     iget-object v0, p0, Lcom/google/android/gms/common/data/DataHolder;->d:[Landroid/database/CursorWindow;
 
     aget-object p3, v0, p3
@@ -1216,10 +1105,8 @@
     .annotation build Lcom/google/android/gms/common/annotation/a;
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1, p2}, Lcom/google/android/gms/common/data/DataHolder;->W0(Ljava/lang/String;I)V
 
-    .line 2
     iget-object v0, p0, Lcom/google/android/gms/common/data/DataHolder;->d:[Landroid/database/CursorWindow;
 
     aget-object p3, v0, p3
@@ -1240,10 +1127,8 @@
 .method public final N0(Ljava/lang/String;II)F
     .locals 1
 
-    .line 1
     invoke-direct {p0, p1, p2}, Lcom/google/android/gms/common/data/DataHolder;->W0(Ljava/lang/String;I)V
 
-    .line 2
     iget-object v0, p0, Lcom/google/android/gms/common/data/DataHolder;->d:[Landroid/database/CursorWindow;
 
     aget-object p3, v0, p3
@@ -1266,10 +1151,8 @@
     .annotation build Lcom/google/android/gms/common/annotation/a;
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1, p2}, Lcom/google/android/gms/common/data/DataHolder;->W0(Ljava/lang/String;I)V
 
-    .line 2
     iget-object v0, p0, Lcom/google/android/gms/common/data/DataHolder;->d:[Landroid/database/CursorWindow;
 
     aget-object p3, v0, p3
@@ -1292,10 +1175,8 @@
     .annotation build Lcom/google/android/gms/common/annotation/a;
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1, p2}, Lcom/google/android/gms/common/data/DataHolder;->W0(Ljava/lang/String;I)V
 
-    .line 2
     iget-object v0, p0, Lcom/google/android/gms/common/data/DataHolder;->d:[Landroid/database/CursorWindow;
 
     aget-object p3, v0, p3
@@ -1316,10 +1197,8 @@
 .method public final Z0(Ljava/lang/String;IILandroid/database/CharArrayBuffer;)V
     .locals 1
 
-    .line 1
     invoke-direct {p0, p1, p2}, Lcom/google/android/gms/common/data/DataHolder;->W0(Ljava/lang/String;I)V
 
-    .line 2
     iget-object v0, p0, Lcom/google/android/gms/common/data/DataHolder;->d:[Landroid/database/CursorWindow;
 
     aget-object p3, v0, p3
@@ -1340,10 +1219,8 @@
     .annotation build Lcom/google/android/gms/common/annotation/a;
     .end annotation
 
-    .line 1
     monitor-enter p0
 
-    .line 2
     :try_start_0
     iget-boolean v0, p0, Lcom/google/android/gms/common/data/DataHolder;->K:Z
 
@@ -1351,12 +1228,10 @@
 
     const/4 v0, 0x1
 
-    .line 3
     iput-boolean v0, p0, Lcom/google/android/gms/common/data/DataHolder;->K:Z
 
     const/4 v0, 0x0
 
-    .line 4
     :goto_0
     iget-object v1, p0, Lcom/google/android/gms/common/data/DataHolder;->d:[Landroid/database/CursorWindow;
 
@@ -1364,7 +1239,6 @@
 
     if-ge v0, v2, :cond_0
 
-    .line 5
     aget-object v1, v1, v0
 
     invoke-virtual {v1}, Landroid/database/CursorWindow;->close()V
@@ -1373,7 +1247,6 @@
 
     goto :goto_0
 
-    .line 6
     :cond_0
     monitor-exit p0
 
@@ -1397,7 +1270,6 @@
         }
     .end annotation
 
-    .line 1
     :try_start_0
     iget-boolean v0, p0, Lcom/google/android/gms/common/data/DataHolder;->L:Z
 
@@ -1415,12 +1287,10 @@
 
     if-nez v0, :cond_0
 
-    .line 2
     invoke-virtual {p0}, Lcom/google/android/gms/common/data/DataHolder;->close()V
 
     const-string v0, "DataBuffer"
 
-    .line 3
     invoke-virtual {p0}, Ljava/lang/Object;->toString()Ljava/lang/String;
 
     move-result-object v1
@@ -1453,12 +1323,10 @@
 
     move-result-object v1
 
-    .line 4
     invoke-static {v0, v1}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 5
     :cond_0
     invoke-super {p0}, Ljava/lang/Object;->finalize()V
 
@@ -1467,7 +1335,6 @@
     :catchall_0
     move-exception v0
 
-    .line 6
     invoke-super {p0}, Ljava/lang/Object;->finalize()V
 
     throw v0
@@ -1478,7 +1345,6 @@
     .annotation build Lcom/google/android/gms/common/annotation/a;
     .end annotation
 
-    .line 1
     iget v0, p0, Lcom/google/android/gms/common/data/DataHolder;->J:I
 
     return v0
@@ -1489,7 +1355,6 @@
     .annotation build Lcom/google/android/gms/common/annotation/a;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/common/data/DataHolder;->g:Landroid/os/Bundle;
 
     return-object v0
@@ -1500,10 +1365,8 @@
     .annotation build Lcom/google/android/gms/common/annotation/a;
     .end annotation
 
-    .line 1
     monitor-enter p0
 
-    .line 2
     :try_start_0
     iget-boolean v0, p0, Lcom/google/android/gms/common/data/DataHolder;->K:Z
 
@@ -1514,7 +1377,6 @@
     :catchall_0
     move-exception v0
 
-    .line 3
     monitor-exit p0
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
@@ -1527,7 +1389,6 @@
     .annotation build Lcom/google/android/gms/common/annotation/a;
     .end annotation
 
-    .line 1
     iget v0, p0, Lcom/google/android/gms/common/data/DataHolder;->f:I
 
     return v0
@@ -1536,10 +1397,8 @@
 .method public final l1(Ljava/lang/String;II)D
     .locals 1
 
-    .line 1
     invoke-direct {p0, p1, p2}, Lcom/google/android/gms/common/data/DataHolder;->W0(Ljava/lang/String;I)V
 
-    .line 2
     iget-object v0, p0, Lcom/google/android/gms/common/data/DataHolder;->d:[Landroid/database/CursorWindow;
 
     aget-object p3, v0, p3
@@ -1560,7 +1419,6 @@
 .method public final p1()V
     .locals 4
 
-    .line 1
     new-instance v0, Landroid/os/Bundle;
 
     invoke-direct {v0}, Landroid/os/Bundle;-><init>()V
@@ -1571,7 +1429,6 @@
 
     const/4 v1, 0x0
 
-    .line 2
     :goto_0
     iget-object v2, p0, Lcom/google/android/gms/common/data/DataHolder;->b:[Ljava/lang/String;
 
@@ -1579,7 +1436,6 @@
 
     if-ge v1, v3, :cond_0
 
-    .line 3
     iget-object v3, p0, Lcom/google/android/gms/common/data/DataHolder;->c:Landroid/os/Bundle;
 
     aget-object v2, v2, v1
@@ -1590,7 +1446,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_0
     iget-object v1, p0, Lcom/google/android/gms/common/data/DataHolder;->d:[Landroid/database/CursorWindow;
 
@@ -1602,7 +1457,6 @@
 
     const/4 v1, 0x0
 
-    .line 5
     :goto_1
     iget-object v2, p0, Lcom/google/android/gms/common/data/DataHolder;->d:[Landroid/database/CursorWindow;
 
@@ -1610,12 +1464,10 @@
 
     if-ge v0, v3, :cond_1
 
-    .line 6
     iget-object v3, p0, Lcom/google/android/gms/common/data/DataHolder;->p:[I
 
     aput v1, v3, v0
 
-    .line 7
     aget-object v2, v2, v0
 
     invoke-virtual {v2}, Landroid/database/CursorWindow;->getStartPosition()I
@@ -1624,7 +1476,6 @@
 
     sub-int v2, v1, v2
 
-    .line 8
     iget-object v3, p0, Lcom/google/android/gms/common/data/DataHolder;->d:[Landroid/database/CursorWindow;
 
     aget-object v3, v3, v0
@@ -1641,7 +1492,6 @@
 
     goto :goto_1
 
-    .line 9
     :cond_1
     iput v1, p0, Lcom/google/android/gms/common/data/DataHolder;->J:I
 
@@ -1653,10 +1503,8 @@
     .annotation build Lcom/google/android/gms/common/annotation/a;
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1, p2}, Lcom/google/android/gms/common/data/DataHolder;->W0(Ljava/lang/String;I)V
 
-    .line 2
     iget-object v0, p0, Lcom/google/android/gms/common/data/DataHolder;->d:[Landroid/database/CursorWindow;
 
     aget-object p3, v0, p3
@@ -1677,64 +1525,52 @@
 .method public final writeToParcel(Landroid/os/Parcel;I)V
     .locals 5
 
-    .line 1
     invoke-static {p1}, Lcom/google/android/gms/common/internal/safeparcel/a;->a(Landroid/os/Parcel;)I
 
     move-result v0
 
-    .line 2
     iget-object v1, p0, Lcom/google/android/gms/common/data/DataHolder;->b:[Ljava/lang/String;
 
     const/4 v2, 0x1
 
     const/4 v3, 0x0
 
-    .line 3
     invoke-static {p1, v2, v1, v3}, Lcom/google/android/gms/common/internal/safeparcel/a;->Y(Landroid/os/Parcel;I[Ljava/lang/String;Z)V
 
-    .line 4
     iget-object v1, p0, Lcom/google/android/gms/common/data/DataHolder;->d:[Landroid/database/CursorWindow;
 
     const/4 v4, 0x2
 
-    .line 5
     invoke-static {p1, v4, v1, p2, v3}, Lcom/google/android/gms/common/internal/safeparcel/a;->b0(Landroid/os/Parcel;I[Landroid/os/Parcelable;IZ)V
 
-    .line 6
     invoke-virtual {p0}, Lcom/google/android/gms/common/data/DataHolder;->l0()I
 
     move-result v1
 
     const/4 v4, 0x3
 
-    .line 7
     invoke-static {p1, v4, v1}, Lcom/google/android/gms/common/internal/safeparcel/a;->F(Landroid/os/Parcel;II)V
 
-    .line 8
     invoke-virtual {p0}, Lcom/google/android/gms/common/data/DataHolder;->getMetadata()Landroid/os/Bundle;
 
     move-result-object v1
 
     const/4 v4, 0x4
 
-    .line 9
     invoke-static {p1, v4, v1, v3}, Lcom/google/android/gms/common/internal/safeparcel/a;->k(Landroid/os/Parcel;ILandroid/os/Bundle;Z)V
 
-    .line 10
     iget v1, p0, Lcom/google/android/gms/common/data/DataHolder;->a:I
 
     const/16 v3, 0x3e8
 
     invoke-static {p1, v3, v1}, Lcom/google/android/gms/common/internal/safeparcel/a;->F(Landroid/os/Parcel;II)V
 
-    .line 11
     invoke-static {p1, v0}, Lcom/google/android/gms/common/internal/safeparcel/a;->b(Landroid/os/Parcel;I)V
 
     and-int/lit8 p1, p2, 0x1
 
     if-eqz p1, :cond_0
 
-    .line 12
     invoke-virtual {p0}, Lcom/google/android/gms/common/data/DataHolder;->close()V
 
     :cond_0
@@ -1750,7 +1586,6 @@
 
     if-ltz p1, :cond_0
 
-    .line 1
     iget v1, p0, Lcom/google/android/gms/common/data/DataHolder;->J:I
 
     if-ge p1, v1, :cond_0
@@ -1765,7 +1600,6 @@
     :goto_0
     invoke-static {v1}, Lcom/google/android/gms/common/internal/b0;->q(Z)V
 
-    .line 2
     :goto_1
     iget-object v1, p0, Lcom/google/android/gms/common/data/DataHolder;->p:[I
 
@@ -1773,7 +1607,6 @@
 
     if-ge v0, v2, :cond_2
 
-    .line 3
     aget v2, v1, v0
 
     if-ge p1, v2, :cond_1
@@ -1787,7 +1620,6 @@
 
     goto :goto_1
 
-    .line 4
     :cond_2
     :goto_2
     array-length p1, v1

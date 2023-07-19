@@ -46,14 +46,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/puzzle/patchedworld/frame/PuzzleActivity$k$a;->a:Lcom/commsource/puzzle/patchedworld/frame/PuzzleActivity$k;
 
     iget-object v1, v1, Lcom/commsource/puzzle/patchedworld/frame/PuzzleActivity$k;->a:Lcom/commsource/puzzle/patchedworld/frame/PuzzleActivity;
 
     invoke-static {v1}, Lcom/commsource/puzzle/patchedworld/frame/PuzzleActivity;->R0(Lcom/commsource/puzzle/patchedworld/frame/PuzzleActivity;)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/puzzle/patchedworld/frame/PuzzleActivity$k$a;->b:Ljava/lang/String;
 
     invoke-static {v1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
@@ -62,7 +60,6 @@
 
     if-nez v1, :cond_0
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/puzzle/patchedworld/frame/PuzzleActivity$k$a;->a:Lcom/commsource/puzzle/patchedworld/frame/PuzzleActivity$k;
 
     iget-object v1, v1, Lcom/commsource/puzzle/patchedworld/frame/PuzzleActivity$k;->a:Lcom/commsource/puzzle/patchedworld/frame/PuzzleActivity;
@@ -75,7 +72,6 @@
 
     invoke-static {v1, v2}, Lcom/commsource/puzzle/patchedworld/frame/PuzzleActivity;->b1(Lcom/commsource/puzzle/patchedworld/frame/PuzzleActivity;Ljava/lang/String;)V
 
-    .line 4
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

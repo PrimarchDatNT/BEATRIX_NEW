@@ -45,7 +45,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/studio/processor/BaseEffectProcessor;-><init>()V
 
     return-void
@@ -60,14 +59,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/processor/k;->M:Lcom/meitu/core/processor/Light3DProcessor;
 
     if-eqz v1, :cond_0
 
     invoke-virtual {v1, p1, p2}, Lcom/meitu/core/processor/Light3DProcessor;->light3dChangeLightPos(FF)Z
 
-    .line 2
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -81,14 +78,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/processor/k;->M:Lcom/meitu/core/processor/Light3DProcessor;
 
     if-eqz v1, :cond_0
 
     invoke-virtual {v1, p1}, Lcom/meitu/core/processor/Light3DProcessor;->light3dChangeMixParam(F)V
 
-    .line 2
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -102,10 +97,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0}, Lcom/commsource/studio/processor/BaseEffectProcessor;->a()V
 
-    .line 2
     sget-object v1, Lcom/commsource/studio/processor/k;->N:Lcom/commsource/studio/processor/k$a;
 
     invoke-virtual {v1}, Lcom/commsource/studio/processor/k$a;->a()Ljava/lang/String;
@@ -118,7 +111,6 @@
 
     move-result-object v1
 
-    .line 3
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
     move-result-object v2
@@ -137,7 +129,6 @@
 
     goto/16 :goto_1
 
-    .line 4
     :cond_0
     invoke-static {}, Lcom/meitu/core/JNIConfig;->instance()Lcom/meitu/core/JNIConfig;
 
@@ -147,7 +138,6 @@
 
     move-result-object v3
 
-    .line 5
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
     move-result-object v4
@@ -168,17 +158,14 @@
 
     move-result-object v4
 
-    .line 6
     invoke-virtual {v2, v3, v4}, Lcom/meitu/core/JNIConfig;->ndkInit(Landroid/content/Context;Ljava/lang/String;)Z
 
-    .line 7
     invoke-static {}, Lcom/meitu/core/processor/Light3DProcessor;->instance()Lcom/meitu/core/processor/Light3DProcessor;
 
     move-result-object v2
 
     if-eqz v2, :cond_1
 
-    .line 8
     invoke-virtual {v2}, Lcom/meitu/core/processor/Light3DProcessor;->light3dInit()Z
 
     move-result v3
@@ -193,7 +180,6 @@
 
     if-eqz v1, :cond_2
 
-    .line 9
     sget-object v1, Lf/d/e/b/b;->b:Lf/d/e/b/b;
 
     invoke-virtual {p0}, Lcom/commsource/studio/processor/BaseEffectProcessor;->m()Lcom/commsource/studio/y;
@@ -214,17 +200,14 @@
 
     move-result-object v1
 
-    .line 10
     invoke-virtual {v2, v1}, Lcom/meitu/core/processor/Light3DProcessor;->light3dSetBodyMask(Landroid/graphics/Bitmap;)Z
 
-    .line 11
     invoke-virtual {p0}, Lcom/commsource/studio/processor/BaseEffectProcessor;->n()Lcom/commsource/easyeditor/utils/opengl/f;
 
     move-result-object v1
 
     iget v6, v1, Lcom/commsource/easyeditor/utils/opengl/f;->a:I
 
-    .line 12
     invoke-virtual {p0}, Lcom/commsource/studio/processor/BaseEffectProcessor;->e()Lcom/commsource/easyeditor/utils/opengl/f;
 
     move-result-object v1
@@ -243,7 +226,6 @@
 
     iget v9, v1, Lcom/commsource/easyeditor/utils/opengl/f;->d:I
 
-    .line 13
     invoke-virtual {p0}, Lcom/commsource/studio/processor/BaseEffectProcessor;->d()Lcom/commsource/studio/o;
 
     move-result-object v1
@@ -264,7 +246,6 @@
 
     move-object v5, v2
 
-    .line 14
     invoke-virtual/range {v5 .. v12}, Lcom/meitu/core/processor/Light3DProcessor;->light3dSetPicture(IIIIJI)Z
 
     const v1, 0x3f19999a    # 0.6f
@@ -273,7 +254,6 @@
 
     const v4, 0x3f0ccccd    # 0.55f
 
-    .line 15
     invoke-virtual {v2, v1, v3, v4}, Lcom/meitu/core/processor/Light3DProcessor;->light3dChangeNumber(FFF)Z
 
     goto :goto_0
@@ -281,17 +261,14 @@
     :cond_1
     const/4 v2, 0x0
 
-    .line 16
     :cond_2
     :goto_0
     iput-object v2, p0, Lcom/commsource/studio/processor/k;->M:Lcom/meitu/core/processor/Light3DProcessor;
 
-    .line 17
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 18
     :cond_3
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -306,17 +283,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0}, Lcom/commsource/studio/processor/BaseEffectProcessor;->c()V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/processor/k;->M:Lcom/meitu/core/processor/Light3DProcessor;
 
     if-eqz v1, :cond_0
 
     invoke-virtual {v1}, Lcom/meitu/core/processor/Light3DProcessor;->light3dRelease()V
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -338,14 +312,12 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object p1, p0, Lcom/commsource/studio/processor/k;->M:Lcom/meitu/core/processor/Light3DProcessor;
 
     if-eqz p1, :cond_0
 
     invoke-virtual {p1}, Lcom/meitu/core/processor/Light3DProcessor;->light3dDrawLight()Z
 
-    .line 2
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

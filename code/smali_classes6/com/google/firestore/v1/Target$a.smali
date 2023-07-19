@@ -28,7 +28,6 @@
 .method static constructor <clinit>()V
     .locals 5
 
-    .line 1
     invoke-static {}, Lcom/google/firestore/v1/Target$ResumeTypeCase;->values()[Lcom/google/firestore/v1/Target$ResumeTypeCase;
 
     move-result-object v0
@@ -84,7 +83,6 @@
     :try_end_2
     .catch Ljava/lang/NoSuchFieldError; {:try_start_2 .. :try_end_2} :catch_2
 
-    .line 2
     :catch_2
     invoke-static {}, Lcom/google/firestore/v1/Target$TargetTypeCase;->values()[Lcom/google/firestore/v1/Target$TargetTypeCase;
 
@@ -135,7 +133,6 @@
     :try_end_5
     .catch Ljava/lang/NoSuchFieldError; {:try_start_5 .. :try_end_5} :catch_5
 
-    .line 3
     :catch_5
     invoke-static {}, Lcom/google/firestore/v1/Target$QueryTarget$QueryTypeCase;->values()[Lcom/google/firestore/v1/Target$QueryTarget$QueryTypeCase;
 
@@ -172,7 +169,6 @@
     :try_end_7
     .catch Ljava/lang/NoSuchFieldError; {:try_start_7 .. :try_end_7} :catch_7
 
-    .line 4
     :catch_7
     invoke-static {}, Lcom/google/protobuf/GeneratedMessageLite$MethodToInvoke;->values()[Lcom/google/protobuf/GeneratedMessageLite$MethodToInvoke;
 

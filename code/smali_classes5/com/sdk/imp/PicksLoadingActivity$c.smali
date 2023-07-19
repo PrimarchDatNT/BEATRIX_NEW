@@ -27,13 +27,10 @@
 .method public constructor <init>(II)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput p1, p0, Lcom/sdk/imp/PicksLoadingActivity$c;->a:I
 
-    .line 3
     iput p2, p0, Lcom/sdk/imp/PicksLoadingActivity$c;->b:I
 
     return-void
@@ -44,7 +41,6 @@
 .method public run()V
     .locals 3
 
-    .line 1
     invoke-static {}, Lcom/sdk/imp/PicksLoadingActivity;->b()I
 
     move-result v0
@@ -55,7 +51,6 @@
 
     return-void
 
-    .line 2
     :cond_0
     invoke-static {}, Lcom/sdk/imp/PicksLoadingActivity;->b()I
 
@@ -67,14 +62,12 @@
 
     invoke-static {v0}, Lcom/sdk/imp/PicksLoadingActivity;->c(I)I
 
-    .line 3
     invoke-static {}, Lcom/sdk/imp/PicksLoadingActivity;->d()Landroid/widget/ProgressBar;
 
     move-result-object v0
 
     if-eqz v0, :cond_1
 
-    .line 4
     invoke-static {}, Lcom/sdk/imp/PicksLoadingActivity;->d()Landroid/widget/ProgressBar;
 
     move-result-object v0
@@ -85,7 +78,6 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/ProgressBar;->setProgress(I)V
 
-    .line 5
     :cond_1
     sget-object v0, Lcom/sdk/imp/PicksLoadingActivity;->J:Landroid/os/Handler;
 

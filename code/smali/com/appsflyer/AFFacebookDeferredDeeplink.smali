@@ -23,7 +23,6 @@
 .method constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -32,16 +31,12 @@
 .method public constructor <init>(Ljava/lang/String;JZ)V
     .locals 0
 
-    .line 2
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 3
     iput-object p1, p0, Lcom/appsflyer/AFFacebookDeferredDeeplink;->valueOf:Ljava/lang/String;
 
-    .line 4
     iput-wide p2, p0, Lcom/appsflyer/AFFacebookDeferredDeeplink;->AFDateFormat:J
 
-    .line 5
     iput-boolean p4, p0, Lcom/appsflyer/AFFacebookDeferredDeeplink;->$$a:Z
 
     return-void
@@ -52,7 +47,6 @@
 .method public final values()Z
     .locals 1
 
-    .line 1
     iget-boolean v0, p0, Lcom/appsflyer/AFFacebookDeferredDeeplink;->$$a:Z
 
     return v0

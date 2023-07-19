@@ -28,7 +28,6 @@
 
     iput-object p1, p0, Lcom/commsource/video/view/XVideoRenderView$render$2$a;->a:Lcom/commsource/video/view/XVideoRenderView$render$2;
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -51,21 +50,18 @@
 
     invoke-static {p1, p3}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object p3, p0, Lcom/commsource/video/view/XVideoRenderView$render$2$a;->a:Lcom/commsource/video/view/XVideoRenderView$render$2;
 
     iget-object p3, p3, Lcom/commsource/video/view/XVideoRenderView$render$2;->this$0:Lcom/commsource/video/view/XVideoRenderView;
 
     invoke-virtual {p3, p1}, Lcom/commsource/video/view/XVideoRenderView;->setRenderHolder(Lcom/commsource/video/render/c;)V
 
-    .line 2
     iget-object p1, p0, Lcom/commsource/video/view/XVideoRenderView$render$2$a;->a:Lcom/commsource/video/view/XVideoRenderView$render$2;
 
     iget-object p1, p1, Lcom/commsource/video/view/XVideoRenderView$render$2;->this$0:Lcom/commsource/video/view/XVideoRenderView;
 
     invoke-static {p1}, Lcom/commsource/video/view/XVideoRenderView;->c(Lcom/commsource/video/view/XVideoRenderView;)V
 
-    .line 3
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -86,7 +82,6 @@
 
     invoke-static {p1, p3}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -107,7 +102,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object p1, p0, Lcom/commsource/video/view/XVideoRenderView$render$2$a;->a:Lcom/commsource/video/view/XVideoRenderView$render$2;
 
     iget-object p1, p1, Lcom/commsource/video/view/XVideoRenderView$render$2;->this$0:Lcom/commsource/video/view/XVideoRenderView;
@@ -116,7 +110,6 @@
 
     invoke-virtual {p1, v1}, Lcom/commsource/video/view/XVideoRenderView;->setRenderHolder(Lcom/commsource/video/render/c;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

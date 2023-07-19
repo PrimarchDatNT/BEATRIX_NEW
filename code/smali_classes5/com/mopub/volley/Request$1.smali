@@ -29,7 +29,6 @@
 .method constructor <init>(Lcom/mopub/volley/Request;Ljava/lang/String;J)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/mopub/volley/Request$1;->this$0:Lcom/mopub/volley/Request;
 
     iput-object p2, p0, Lcom/mopub/volley/Request$1;->val$tag:Ljava/lang/String;
@@ -46,7 +45,6 @@
 .method public run()V
     .locals 4
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/volley/Request$1;->this$0:Lcom/mopub/volley/Request;
 
     invoke-static {v0}, Lcom/mopub/volley/Request;->access$000(Lcom/mopub/volley/Request;)Lcom/mopub/volley/VolleyLog$MarkerLog;
@@ -59,7 +57,6 @@
 
     invoke-virtual {v0, v1, v2, v3}, Lcom/mopub/volley/VolleyLog$MarkerLog;->add(Ljava/lang/String;J)V
 
-    .line 2
     iget-object v0, p0, Lcom/mopub/volley/Request$1;->this$0:Lcom/mopub/volley/Request;
 
     invoke-static {v0}, Lcom/mopub/volley/Request;->access$000(Lcom/mopub/volley/Request;)Lcom/mopub/volley/VolleyLog$MarkerLog;

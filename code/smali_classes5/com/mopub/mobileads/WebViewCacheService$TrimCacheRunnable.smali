@@ -21,7 +21,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -30,7 +29,6 @@
 .method synthetic constructor <init>(Lcom/mopub/mobileads/WebViewCacheService$1;)V
     .locals 0
 
-    .line 2
     invoke-direct {p0}, Lcom/mopub/mobileads/WebViewCacheService$TrimCacheRunnable;-><init>()V
 
     return-void
@@ -41,7 +39,6 @@
 .method public run()V
     .locals 0
 
-    .line 1
     invoke-static {}, Lcom/mopub/mobileads/WebViewCacheService;->trimCache()V
 
     return-void

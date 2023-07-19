@@ -27,7 +27,6 @@
 .method constructor <init>(Landroidx/recyclerview/widget/RecyclerView;I)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/widget/b1$a;->a:Landroidx/recyclerview/widget/RecyclerView;
 
     iput p2, p0, Lcom/commsource/widget/b1$a;->b:I
@@ -46,7 +45,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/widget/b1$a;->a:Landroidx/recyclerview/widget/RecyclerView;
 
     iget v2, p0, Lcom/commsource/widget/b1$a;->b:I
@@ -55,7 +53,6 @@
 
     invoke-virtual {v1, v2}, Landroidx/recyclerview/widget/RecyclerView;->smoothScrollToPosition(I)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

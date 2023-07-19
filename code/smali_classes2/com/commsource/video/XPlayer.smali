@@ -35,14 +35,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/commsource/video/XPlayer;
 
     invoke-direct {v1}, Lcom/commsource/video/XPlayer;-><init>()V
 
     sput-object v1, Lcom/commsource/video/XPlayer;->f:Lcom/commsource/video/XPlayer;
 
-    .line 2
     sget-object v1, Lcom/commsource/video/XPlayer$mediaQueue$2;->INSTANCE:Lcom/commsource/video/XPlayer$mediaQueue$2;
 
     invoke-static {v1}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
@@ -51,7 +49,6 @@
 
     sput-object v1, Lcom/commsource/video/XPlayer;->c:Lcotlin/w;
 
-    .line 3
     sget-object v1, Lcom/commsource/video/XPlayer$videoProxy$2;->INSTANCE:Lcom/commsource/video/XPlayer$videoProxy$2;
 
     invoke-static {v1}, Lcotlin/y;->c(Lcotlin/jvm/u/a;)Lcotlin/w;
@@ -68,7 +65,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -87,7 +83,6 @@
 
     const/4 p3, 0x0
 
-    .line 1
     :cond_0
     invoke-virtual {p0, p1, p2, p3}, Lcom/commsource/video/XPlayer;->c(Lcom/commsource/video/view/XVideoContainer;Lcom/commsource/video/view/XVideoContainer;Lcotlin/jvm/u/a;)V
 
@@ -107,7 +102,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/commsource/video/decoder/SysMediaPlayer;
 
     invoke-direct {v1}, Lcom/commsource/video/decoder/SysMediaPlayer;-><init>()V
@@ -128,18 +122,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/video/XPlayer;->e()Z
 
-    .line 2
     sput-object p1, Lcom/commsource/video/XPlayer;->e:Lcom/commsource/video/b;
 
     if-eqz p1, :cond_0
 
-    .line 3
     invoke-virtual {p1}, Lcom/commsource/video/b;->i()V
 
-    .line 4
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -183,19 +173,16 @@
 
     invoke-static {p2, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-virtual {p2, p1}, Lcom/commsource/video/view/XVideoContainer;->g(Lcom/commsource/video/view/XVideoContainer;)V
 
     if-eqz p3, :cond_0
 
-    .line 2
     invoke-interface {p3}, Lcotlin/jvm/u/a;->invoke()Ljava/lang/Object;
 
     move-result-object p1
 
     check-cast p1, Lcotlin/t1;
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -209,25 +196,21 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/video/XPlayer;->e:Lcom/commsource/video/b;
 
     if-eqz v1, :cond_1
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-virtual {v1}, Lcom/commsource/video/b;->j()V
 
     :cond_0
     const/4 v1, 0x0
 
-    .line 3
     sput-object v1, Lcom/commsource/video/XPlayer;->e:Lcom/commsource/video/b;
 
     const/4 v1, 0x1
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
@@ -235,7 +218,6 @@
     :cond_1
     const/4 v1, 0x0
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
@@ -280,7 +262,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/video/XPlayer;->h()Lcom/meitu/common/video/videocache/h;
 
     move-result-object v1
@@ -327,7 +308,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/video/XPlayer;->e:Lcom/commsource/video/b;
 
     if-eqz v1, :cond_0
@@ -360,14 +340,12 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/video/XPlayer;->f()Ljava/util/concurrent/ThreadPoolExecutor;
 
     move-result-object v1
 
     invoke-virtual {v1, p1}, Ljava/util/concurrent/ThreadPoolExecutor;->execute(Ljava/lang/Runnable;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

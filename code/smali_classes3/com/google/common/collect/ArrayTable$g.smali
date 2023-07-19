@@ -31,10 +31,8 @@
 .method constructor <init>(Lcom/google/common/collect/ArrayTable;I)V
     .locals 1
 
-    .line 1
     iput-object p1, p0, Lcom/google/common/collect/ArrayTable$g;->c:Lcom/google/common/collect/ArrayTable;
 
-    .line 2
     invoke-static {p1}, Lcom/google/common/collect/ArrayTable;->access$600(Lcom/google/common/collect/ArrayTable;)Lcom/google/common/collect/ImmutableMap;
 
     move-result-object p1
@@ -43,7 +41,6 @@
 
     invoke-direct {p0, p1, v0}, Lcom/google/common/collect/ArrayTable$d;-><init>(Lcom/google/common/collect/ImmutableMap;Lcom/google/common/collect/ArrayTable$a;)V
 
-    .line 3
     iput p2, p0, Lcom/google/common/collect/ArrayTable$g;->b:I
 
     return-void
@@ -67,7 +64,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/ArrayTable$g;->c:Lcom/google/common/collect/ArrayTable;
 
     iget v1, p0, Lcom/google/common/collect/ArrayTable$g;->b:I
@@ -87,7 +83,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/ArrayTable$g;->c:Lcom/google/common/collect/ArrayTable;
 
     iget v1, p0, Lcom/google/common/collect/ArrayTable$g;->b:I

@@ -17,10 +17,8 @@
 .method public constructor <init>(F)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lf/f/b/c/j/a;-><init>()V
 
-    .line 2
     iput p1, p0, Lf/f/b/c/j/b;->a:F
 
     return-void
@@ -31,7 +29,6 @@
 .method public a(FFLf/f/b/c/j/g;)V
     .locals 6
 
-    .line 1
     iget v0, p0, Lf/f/b/c/j/b;->a:F
 
     mul-float v0, v0, p2
@@ -42,7 +39,6 @@
 
     float-to-double v0, p1
 
-    .line 2
     invoke-static {v0, v1}, Ljava/lang/Math;->sin(D)D
 
     move-result-wide v2
@@ -59,7 +55,6 @@
 
     double-to-float v2, v2
 
-    .line 3
     invoke-static {v0, v1}, Ljava/lang/Math;->cos(D)D
 
     move-result-wide v0
@@ -74,7 +69,6 @@
 
     double-to-float p1, v0
 
-    .line 4
     invoke-virtual {p3, v2, p1}, Lf/f/b/c/j/g;->c(FF)V
 
     return-void

@@ -66,14 +66,12 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
     new-instance v0, Ljava/util/WeakHashMap;
 
     invoke-direct {v0}, Ljava/util/WeakHashMap;-><init>()V
 
     sput-object v0, Lcom/google/android/gms/internal/firebase_remote_config/q0;->e:Ljava/util/Map;
 
-    .line 2
     new-instance v0, Ljava/util/WeakHashMap;
 
     invoke-direct {v0}, Ljava/util/WeakHashMap;-><init>()V
@@ -93,20 +91,16 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     new-instance v0, Ljava/util/IdentityHashMap;
 
     invoke-direct {v0}, Ljava/util/IdentityHashMap;-><init>()V
 
     iput-object v0, p0, Lcom/google/android/gms/internal/firebase_remote_config/q0;->c:Ljava/util/IdentityHashMap;
 
-    .line 3
     iput-object p1, p0, Lcom/google/android/gms/internal/firebase_remote_config/q0;->a:Ljava/lang/Class;
 
-    .line 4
     iput-boolean p2, p0, Lcom/google/android/gms/internal/firebase_remote_config/q0;->b:Z
 
     const/4 v0, 0x0
@@ -115,7 +109,6 @@
 
     if-eqz p2, :cond_1
 
-    .line 5
     invoke-virtual {p1}, Ljava/lang/Class;->isEnum()Z
 
     move-result v2
@@ -164,7 +157,6 @@
 
     if-eqz v2, :cond_c
 
-    .line 6
     new-instance v2, Ljava/util/TreeSet;
 
     new-instance v3, Lcom/google/android/gms/internal/firebase_remote_config/p0;
@@ -173,7 +165,6 @@
 
     invoke-direct {v2, v3}, Ljava/util/TreeSet;-><init>(Ljava/util/Comparator;)V
 
-    .line 7
     invoke-virtual {p1}, Ljava/lang/Class;->getDeclaredFields()[Ljava/lang/reflect/Field;
 
     move-result-object v3
@@ -187,21 +178,18 @@
 
     aget-object v6, v3, v5
 
-    .line 8
     invoke-static {v6}, Lcom/google/android/gms/internal/firebase_remote_config/w0;->e(Ljava/lang/reflect/Field;)Lcom/google/android/gms/internal/firebase_remote_config/w0;
 
     move-result-object v7
 
     if-eqz v7, :cond_7
 
-    .line 9
     invoke-virtual {v7}, Lcom/google/android/gms/internal/firebase_remote_config/w0;->b()Ljava/lang/String;
 
     move-result-object v8
 
     if-eqz p2, :cond_2
 
-    .line 10
     sget-object v9, Ljava/util/Locale;->US:Ljava/util/Locale;
 
     invoke-virtual {v8, v9}, Ljava/lang/String;->toLowerCase(Ljava/util/Locale;)Ljava/lang/String;
@@ -212,7 +200,6 @@
 
     move-result-object v8
 
-    .line 11
     :cond_2
     iget-object v9, p0, Lcom/google/android/gms/internal/firebase_remote_config/q0;->c:Ljava/util/IdentityHashMap;
 
@@ -262,7 +249,6 @@
 
     goto :goto_5
 
-    .line 12
     :cond_5
     invoke-virtual {v9}, Lcom/google/android/gms/internal/firebase_remote_config/w0;->i()Ljava/lang/reflect/Field;
 
@@ -273,17 +259,14 @@
 
     if-eqz v10, :cond_6
 
-    .line 13
     iget-object v6, p0, Lcom/google/android/gms/internal/firebase_remote_config/q0;->c:Ljava/util/IdentityHashMap;
 
     invoke-virtual {v6, v8, v7}, Ljava/util/IdentityHashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 14
     invoke-virtual {v2, v8}, Ljava/util/TreeSet;->add(Ljava/lang/Object;)Z
 
     goto :goto_6
 
-    .line 15
     :cond_6
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -303,7 +286,6 @@
 
     goto :goto_2
 
-    .line 16
     :cond_8
     invoke-virtual {p1}, Ljava/lang/Class;->getSuperclass()Ljava/lang/Class;
 
@@ -311,17 +293,14 @@
 
     if-eqz p1, :cond_a
 
-    .line 17
     invoke-static {p1, p2}, Lcom/google/android/gms/internal/firebase_remote_config/q0;->b(Ljava/lang/Class;Z)Lcom/google/android/gms/internal/firebase_remote_config/q0;
 
     move-result-object p1
 
-    .line 18
     iget-object p2, p1, Lcom/google/android/gms/internal/firebase_remote_config/q0;->d:Ljava/util/List;
 
     invoke-virtual {v2, p2}, Ljava/util/TreeSet;->addAll(Ljava/util/Collection;)Z
 
-    .line 19
     iget-object p1, p1, Lcom/google/android/gms/internal/firebase_remote_config/q0;->c:Ljava/util/IdentityHashMap;
 
     invoke-virtual {p1}, Ljava/util/IdentityHashMap;->entrySet()Ljava/util/Set;
@@ -346,14 +325,12 @@
 
     check-cast p2, Ljava/util/Map$Entry;
 
-    .line 20
     invoke-interface {p2}, Ljava/util/Map$Entry;->getKey()Ljava/lang/Object;
 
     move-result-object v0
 
     check-cast v0, Ljava/lang/String;
 
-    .line 21
     iget-object v1, p0, Lcom/google/android/gms/internal/firebase_remote_config/q0;->c:Ljava/util/IdentityHashMap;
 
     invoke-virtual {v1, v0}, Ljava/util/IdentityHashMap;->containsKey(Ljava/lang/Object;)Z
@@ -362,7 +339,6 @@
 
     if-nez v1, :cond_9
 
-    .line 22
     iget-object v1, p0, Lcom/google/android/gms/internal/firebase_remote_config/q0;->c:Ljava/util/IdentityHashMap;
 
     invoke-interface {p2}, Ljava/util/Map$Entry;->getValue()Ljava/lang/Object;
@@ -375,7 +351,6 @@
 
     goto :goto_7
 
-    .line 23
     :cond_a
     invoke-virtual {v2}, Ljava/util/TreeSet;->isEmpty()Z
 
@@ -403,7 +378,6 @@
 
     return-void
 
-    .line 24
     :cond_c
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -436,7 +410,6 @@
     :cond_0
     if-eqz p1, :cond_1
 
-    .line 1
     sget-object v0, Lcom/google/android/gms/internal/firebase_remote_config/q0;->f:Ljava/util/Map;
 
     goto :goto_0
@@ -444,11 +417,9 @@
     :cond_1
     sget-object v0, Lcom/google/android/gms/internal/firebase_remote_config/q0;->e:Ljava/util/Map;
 
-    .line 2
     :goto_0
     monitor-enter v0
 
-    .line 3
     :try_start_0
     invoke-interface {v0, p0}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
@@ -458,15 +429,12 @@
 
     if-nez v1, :cond_2
 
-    .line 4
     new-instance v1, Lcom/google/android/gms/internal/firebase_remote_config/q0;
 
     invoke-direct {v1, p0, p1}, Lcom/google/android/gms/internal/firebase_remote_config/q0;-><init>(Ljava/lang/Class;Z)V
 
-    .line 5
     invoke-interface {v0, p0, v1}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 6
     :cond_2
     monitor-exit v0
 
@@ -495,7 +463,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-static {p0, v0}, Lcom/google/android/gms/internal/firebase_remote_config/q0;->b(Ljava/lang/Class;Z)Lcom/google/android/gms/internal/firebase_remote_config/q0;
 
     move-result-object p0
@@ -508,7 +475,6 @@
 .method public final a()Z
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/firebase_remote_config/q0;->a:Ljava/lang/Class;
 
     invoke-virtual {v0}, Ljava/lang/Class;->isEnum()Z
@@ -523,25 +489,21 @@
 
     if-eqz p1, :cond_1
 
-    .line 1
     iget-boolean v0, p0, Lcom/google/android/gms/internal/firebase_remote_config/q0;->b:Z
 
     if-eqz v0, :cond_0
 
-    .line 2
     sget-object v0, Ljava/util/Locale;->US:Ljava/util/Locale;
 
     invoke-virtual {p1, v0}, Ljava/lang/String;->toLowerCase(Ljava/util/Locale;)Ljava/lang/String;
 
     move-result-object p1
 
-    .line 3
     :cond_0
     invoke-virtual {p1}, Ljava/lang/String;->intern()Ljava/lang/String;
 
     move-result-object p1
 
-    .line 4
     :cond_1
     iget-object v0, p0, Lcom/google/android/gms/internal/firebase_remote_config/q0;->c:Ljava/util/IdentityHashMap;
 
@@ -557,7 +519,6 @@
 .method public final d()Z
     .locals 1
 
-    .line 1
     iget-boolean v0, p0, Lcom/google/android/gms/internal/firebase_remote_config/q0;->b:Z
 
     return v0
@@ -574,7 +535,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/firebase_remote_config/q0;->c:Ljava/util/IdentityHashMap;
 
     invoke-virtual {v0}, Ljava/util/IdentityHashMap;->values()Ljava/util/Collection;

@@ -21,7 +21,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-direct {p0, p1, v0}, Lcom/bumptech/glide/load/l/g/b;-><init>(Lcom/bumptech/glide/load/engine/bitmap_recycle/e;Lcom/bumptech/glide/load/engine/bitmap_recycle/b;)V
 
     return-void
@@ -34,13 +33,10 @@
         .end annotation
     .end param
 
-    .line 2
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 3
     iput-object p1, p0, Lcom/bumptech/glide/load/l/g/b;->a:Lcom/bumptech/glide/load/engine/bitmap_recycle/e;
 
-    .line 4
     iput-object p2, p0, Lcom/bumptech/glide/load/l/g/b;->b:Lcom/bumptech/glide/load/engine/bitmap_recycle/b;
 
     return-void
@@ -55,7 +51,6 @@
         .end annotation
     .end param
 
-    .line 1
     iget-object v0, p0, Lcom/bumptech/glide/load/l/g/b;->a:Lcom/bumptech/glide/load/engine/bitmap_recycle/e;
 
     invoke-interface {v0, p1}, Lcom/bumptech/glide/load/engine/bitmap_recycle/e;->d(Landroid/graphics/Bitmap;)V
@@ -68,17 +63,14 @@
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/bumptech/glide/load/l/g/b;->b:Lcom/bumptech/glide/load/engine/bitmap_recycle/b;
 
     if-nez v0, :cond_0
 
-    .line 2
     new-array p1, p1, [B
 
     return-object p1
 
-    .line 3
     :cond_0
     const-class v1, [B
 
@@ -100,7 +92,6 @@
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/bumptech/glide/load/l/g/b;->a:Lcom/bumptech/glide/load/engine/bitmap_recycle/e;
 
     invoke-interface {v0, p1, p2, p3}, Lcom/bumptech/glide/load/engine/bitmap_recycle/e;->g(IILandroid/graphics/Bitmap$Config;)Landroid/graphics/Bitmap;
@@ -115,17 +106,14 @@
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/bumptech/glide/load/l/g/b;->b:Lcom/bumptech/glide/load/engine/bitmap_recycle/b;
 
     if-nez v0, :cond_0
 
-    .line 2
     new-array p1, p1, [I
 
     return-object p1
 
-    .line 3
     :cond_0
     const-class v1, [I
 
@@ -145,14 +133,12 @@
         .end annotation
     .end param
 
-    .line 1
     iget-object v0, p0, Lcom/bumptech/glide/load/l/g/b;->b:Lcom/bumptech/glide/load/engine/bitmap_recycle/b;
 
     if-nez v0, :cond_0
 
     return-void
 
-    .line 2
     :cond_0
     invoke-interface {v0, p1}, Lcom/bumptech/glide/load/engine/bitmap_recycle/b;->put(Ljava/lang/Object;)V
 
@@ -166,14 +152,12 @@
         .end annotation
     .end param
 
-    .line 1
     iget-object v0, p0, Lcom/bumptech/glide/load/l/g/b;->b:Lcom/bumptech/glide/load/engine/bitmap_recycle/b;
 
     if-nez v0, :cond_0
 
     return-void
 
-    .line 2
     :cond_0
     invoke-interface {v0, p1}, Lcom/bumptech/glide/load/engine/bitmap_recycle/b;->put(Ljava/lang/Object;)V
 

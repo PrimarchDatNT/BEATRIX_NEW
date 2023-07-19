@@ -54,7 +54,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Ljava/lang/Boolean;
 
     invoke-virtual {p1}, Ljava/lang/Boolean;->booleanValue()Z
@@ -79,7 +78,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 2
     iget-object p1, p0, Lcom/commsource/video/view/XVideoRenderView$videoUiGroup$2$$special$$inlined$apply$lambda$5;->this$0:Lcom/commsource/video/view/XVideoRenderView$videoUiGroup$2;
 
     iget-object p1, p1, Lcom/commsource/video/view/XVideoRenderView$videoUiGroup$2;->this$0:Lcom/commsource/video/view/XVideoRenderView;
@@ -98,13 +96,11 @@
 
     goto :goto_0
 
-    .line 3
     :cond_0
     sget-object p1, Lcom/commsource/video/XPlayer;->f:Lcom/commsource/video/XPlayer;
 
     invoke-virtual {p1}, Lcom/commsource/video/XPlayer;->e()Z
 
-    .line 4
     :cond_1
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

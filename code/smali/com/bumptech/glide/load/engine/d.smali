@@ -52,16 +52,12 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/bumptech/glide/load/engine/d;->a:Lcom/bumptech/glide/load/a;
 
-    .line 3
     iput-object p2, p0, Lcom/bumptech/glide/load/engine/d;->b:Ljava/lang/Object;
 
-    .line 4
     iput-object p3, p0, Lcom/bumptech/glide/load/engine/d;->c:Lcom/bumptech/glide/load/f;
 
     return-void
@@ -76,7 +72,6 @@
         .end annotation
     .end param
 
-    .line 1
     iget-object v0, p0, Lcom/bumptech/glide/load/engine/d;->a:Lcom/bumptech/glide/load/a;
 
     iget-object v1, p0, Lcom/bumptech/glide/load/engine/d;->b:Ljava/lang/Object;

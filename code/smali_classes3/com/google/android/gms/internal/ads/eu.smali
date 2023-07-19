@@ -34,14 +34,12 @@
 .method public final run()V
     .locals 4
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/eu;->a:Lcom/google/android/gms/internal/ads/yr;
 
     iget-boolean v1, p0, Lcom/google/android/gms/internal/ads/eu;->b:Z
 
     iget-wide v2, p0, Lcom/google/android/gms/internal/ads/eu;->c:J
 
-    .line 2
     invoke-interface {v0, v1, v2, v3}, Lcom/google/android/gms/internal/ads/yr;->N(ZJ)V
 
     return-void

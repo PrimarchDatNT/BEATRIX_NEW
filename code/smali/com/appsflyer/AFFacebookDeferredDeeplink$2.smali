@@ -27,7 +27,6 @@
 .method constructor <init>(Ljava/lang/Class;Lcom/appsflyer/AFFacebookDeferredDeeplink$AppLinkFetchEvents;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/appsflyer/AFFacebookDeferredDeeplink$2;->$$b:Ljava/lang/Class;
 
     iput-object p2, p0, Lcom/appsflyer/AFFacebookDeferredDeeplink$2;->valueOf:Lcom/appsflyer/AFFacebookDeferredDeeplink$AppLinkFetchEvents;
@@ -47,7 +46,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p2}, Ljava/lang/reflect/Method;->getName()Ljava/lang/String;
 
     move-result-object p1
@@ -64,12 +62,10 @@
 
     const/4 p1, 0x0
 
-    .line 2
     aget-object v0, p3, p1
 
     if-eqz v0, :cond_2
 
-    .line 3
     iget-object v0, p0, Lcom/appsflyer/AFFacebookDeferredDeeplink$2;->$$b:Ljava/lang/Class;
 
     aget-object p3, p3, p1
@@ -78,7 +74,6 @@
 
     move-result-object p3
 
-    .line 4
     iget-object v0, p0, Lcom/appsflyer/AFFacebookDeferredDeeplink$2;->$$b:Ljava/lang/Class;
 
     new-array v1, p1, [Ljava/lang/Class;
@@ -89,7 +84,6 @@
 
     move-result-object v0
 
-    .line 5
     const-class v1, Landroid/os/Bundle;
 
     new-array p1, p1, [Ljava/lang/Object;
@@ -108,21 +102,18 @@
 
     const-string p3, "com.facebook.platform.APPLINK_NATIVE_URL"
 
-    .line 6
     invoke-virtual {p1, p3}, Landroid/os/Bundle;->getString(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p3
 
     const-string/jumbo v0, "target_url"
 
-    .line 7
     invoke-virtual {p1, v0}, Landroid/os/Bundle;->getString(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
 
     const-string v1, "extras"
 
-    .line 8
     invoke-virtual {p1, v1}, Landroid/os/Bundle;->getBundle(Ljava/lang/String;)Landroid/os/Bundle;
 
     move-result-object p1
@@ -131,7 +122,6 @@
 
     const-string v1, "deeplink_context"
 
-    .line 9
     invoke-virtual {p1, v1}, Landroid/os/Bundle;->getBundle(Ljava/lang/String;)Landroid/os/Bundle;
 
     move-result-object p1
@@ -140,7 +130,6 @@
 
     const-string v1, "promo_code"
 
-    .line 10
     invoke-virtual {p1, v1}, Landroid/os/Bundle;->getString(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p1
@@ -159,31 +148,26 @@
 
     move-object v0, p3
 
-    .line 11
     :goto_0
     iget-object v1, p0, Lcom/appsflyer/AFFacebookDeferredDeeplink$2;->valueOf:Lcom/appsflyer/AFFacebookDeferredDeeplink$AppLinkFetchEvents;
 
     if-eqz v1, :cond_3
 
-    .line 12
     invoke-interface {v1, p3, v0, p1}, Lcom/appsflyer/AFFacebookDeferredDeeplink$AppLinkFetchEvents;->onAppLinkFetchFinished(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_1
 
-    .line 13
     :cond_2
     iget-object p1, p0, Lcom/appsflyer/AFFacebookDeferredDeeplink$2;->valueOf:Lcom/appsflyer/AFFacebookDeferredDeeplink$AppLinkFetchEvents;
 
     if-eqz p1, :cond_3
 
-    .line 14
     invoke-interface {p1, p2, p2, p2}, Lcom/appsflyer/AFFacebookDeferredDeeplink$AppLinkFetchEvents;->onAppLinkFetchFinished(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     :cond_3
     :goto_1
     return-object p2
 
-    .line 15
     :cond_4
     iget-object p1, p0, Lcom/appsflyer/AFFacebookDeferredDeeplink$2;->valueOf:Lcom/appsflyer/AFFacebookDeferredDeeplink$AppLinkFetchEvents;
 
@@ -191,7 +175,6 @@
 
     const-string p3, "onDeferredAppLinkDataFetched invocation failed"
 
-    .line 16
     invoke-interface {p1, p3}, Lcom/appsflyer/AFFacebookDeferredDeeplink$AppLinkFetchEvents;->onAppLinkFetchFailed(Ljava/lang/String;)V
 
     :cond_5

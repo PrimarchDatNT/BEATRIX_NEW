@@ -7,7 +7,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -26,7 +25,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/meitu/library/analytics/sdk/content/f;->S()Lcom/meitu/library/analytics/sdk/content/f;
 
     move-result-object v1
@@ -35,12 +33,10 @@
 
     if-nez v1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v2
 
-    .line 3
     :cond_0
     sget-object v3, Lcom/meitu/library/analytics/sdk/content/Switcher;->LOCATION:Lcom/meitu/library/analytics/sdk/content/Switcher;
 
@@ -52,7 +48,6 @@
 
     sget-object v3, Lcom/meitu/library/analytics/sdk/content/PrivacyControl;->C_GPS:Lcom/meitu/library/analytics/sdk/content/PrivacyControl;
 
-    .line 4
     invoke-virtual {v1, v3}, Lcom/meitu/library/analytics/sdk/content/f;->b0(Lcom/meitu/library/analytics/sdk/content/PrivacyControl;)Z
 
     move-result v3
@@ -61,7 +56,6 @@
 
     goto :goto_2
 
-    .line 5
     :cond_1
     invoke-static {p0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
@@ -81,12 +75,10 @@
     :goto_0
     if-eqz p0, :cond_3
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0
 
-    .line 7
     :cond_3
     invoke-virtual {v1}, Lcom/meitu/library/analytics/sdk/content/f;->T()Z
 
@@ -94,12 +86,10 @@
 
     if-nez p0, :cond_4
 
-    .line 8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v2
 
-    .line 9
     :cond_4
     invoke-virtual {v1}, Lcom/meitu/library/analytics/sdk/content/f;->x()Landroid/content/Context;
 
@@ -107,7 +97,6 @@
 
     if-eqz p0, :cond_9
 
-    .line 10
     invoke-virtual {v1}, Lcom/meitu/library/analytics/sdk/content/f;->Y()Z
 
     move-result v1
@@ -119,7 +108,6 @@
     :cond_5
     const-string v1, "location"
 
-    .line 11
     invoke-virtual {p0, v1}, Landroid/content/Context;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
 
     move-result-object v1
@@ -128,7 +116,6 @@
 
     if-nez v1, :cond_6
 
-    .line 12
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v2
@@ -136,7 +123,6 @@
     :cond_6
     const-string v3, "android.permission.ACCESS_COARSE_LOCATION"
 
-    .line 13
     invoke-static {p0, v3}, Lcom/meitu/library/analytics/y/m/a;->c(Landroid/content/Context;Ljava/lang/String;)Z
 
     move-result v3
@@ -145,19 +131,16 @@
 
     const-string v3, "android.permission.ACCESS_FINE_LOCATION"
 
-    .line 14
     invoke-static {p0, v3}, Lcom/meitu/library/analytics/y/m/a;->c(Landroid/content/Context;Ljava/lang/String;)Z
 
     move-result p0
 
     if-nez p0, :cond_7
 
-    .line 15
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v2
 
-    .line 16
     :cond_7
     invoke-static {v1}, Lcom/meitu/library/analytics/y/c/i;->b(Landroid/location/LocationManager;)Landroid/location/Location;
 
@@ -165,12 +148,10 @@
 
     if-nez p0, :cond_8
 
-    .line 17
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v2
 
-    .line 18
     :cond_8
     new-instance v1, Lcom/meitu/library/analytics/y/f/b;
 
@@ -188,14 +169,12 @@
 
     return-object v1
 
-    .line 19
     :cond_9
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v2
 
-    .line 20
     :cond_a
     :goto_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -221,14 +200,12 @@
     :try_start_0
     const-string v1, "gps"
 
-    .line 1
     invoke-virtual {p0, v1}, Landroid/location/LocationManager;->getLastKnownLocation(Ljava/lang/String;)Landroid/location/Location;
 
     move-result-object v1
 
     const-string v2, "network"
 
-    .line 2
     invoke-virtual {p0, v2}, Landroid/location/LocationManager;->getLastKnownLocation(Ljava/lang/String;)Landroid/location/Location;
 
     move-result-object p0
@@ -237,7 +214,6 @@
 
     if-eqz v1, :cond_0
 
-    .line 3
     invoke-virtual {v1}, Landroid/location/Location;->getTime()J
 
     move-result-wide v4
@@ -250,7 +226,6 @@
     :goto_0
     if-eqz p0, :cond_1
 
-    .line 4
     invoke-virtual {p0}, Landroid/location/Location;->getTime()J
 
     move-result-wide v6
@@ -269,12 +244,10 @@
 
     if-gez v6, :cond_2
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
 
-    .line 6
     :cond_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -283,7 +256,6 @@
     :catch_0
     const/4 p0, 0x0
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p0

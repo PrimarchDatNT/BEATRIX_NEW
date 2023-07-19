@@ -16,7 +16,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -25,7 +24,6 @@
 .method public static get()J
     .locals 4
 
-    .line 1
     sget-object v0, Lcom/appsflyer/internal/Exlytics;->$$b:Landroid/app/Application;
 
     if-nez v0, :cond_0
@@ -34,7 +32,6 @@
 
     return-wide v0
 
-    .line 2
     :cond_0
     invoke-static {v0}, Lcom/appsflyer/AppsFlyerLibCore;->getSharedPreferences(Landroid/content/Context;)Landroid/content/SharedPreferences;
 
@@ -54,25 +51,21 @@
 .method public static increment()V
     .locals 5
 
-    .line 1
     sget-object v0, Lcom/appsflyer/internal/Exlytics;->$$b:Landroid/app/Application;
 
     if-nez v0, :cond_0
 
     return-void
 
-    .line 2
     :cond_0
     invoke-static {v0}, Lcom/appsflyer/AppsFlyerLibCore;->getSharedPreferences(Landroid/content/Context;)Landroid/content/SharedPreferences;
 
     move-result-object v0
 
-    .line 3
     invoke-interface {v0}, Landroid/content/SharedPreferences;->edit()Landroid/content/SharedPreferences$Editor;
 
     move-result-object v0
 
-    .line 4
     invoke-static {}, Lcom/appsflyer/internal/Exlytics;->get()J
 
     move-result-wide v1
@@ -87,7 +80,6 @@
 
     move-result-object v0
 
-    .line 5
     invoke-interface {v0}, Landroid/content/SharedPreferences$Editor;->apply()V
 
     return-void
@@ -100,7 +92,6 @@
         .end annotation
     .end param
 
-    .line 1
     sput-object p0, Lcom/appsflyer/internal/Exlytics;->$$b:Landroid/app/Application;
 
     return-void

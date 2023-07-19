@@ -25,7 +25,6 @@
 .method constructor <init>(Lcom/google/android/gms/common/api/internal/b0;Lcom/google/android/gms/tasks/l;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/android/gms/common/api/internal/d0;->b:Lcom/google/android/gms/common/api/internal/b0;
 
     iput-object p2, p0, Lcom/google/android/gms/common/api/internal/d0;->a:Lcom/google/android/gms/tasks/l;
@@ -51,7 +50,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object p1, p0, Lcom/google/android/gms/common/api/internal/d0;->b:Lcom/google/android/gms/common/api/internal/b0;
 
     invoke-static {p1}, Lcom/google/android/gms/common/api/internal/b0;->h(Lcom/google/android/gms/common/api/internal/b0;)Ljava/util/Map;

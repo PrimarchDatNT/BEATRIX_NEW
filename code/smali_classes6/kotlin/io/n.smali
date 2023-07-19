@@ -34,7 +34,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     iput-object p1, p0, Lcotlin/io/n;->a:Ljava/io/BufferedReader;
@@ -45,7 +44,6 @@
 .method public static final synthetic c(Lcotlin/io/n;)Ljava/io/BufferedReader;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lcotlin/io/n;->a:Ljava/io/BufferedReader;
 
     return-object p0
@@ -67,7 +65,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     new-instance v0, Lcotlin/io/n$a;
 
     invoke-direct {v0, p0}, Lcotlin/io/n$a;-><init>(Lcotlin/io/n;)V

@@ -43,17 +43,14 @@
 .method public constructor <init>()V
     .locals 4
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     new-instance v0, Lcom/commsource/studio/shader/n;
 
     invoke-direct {v0}, Lcom/commsource/studio/shader/n;-><init>()V
 
     iput-object v0, p0, Lcom/commsource/editengine/b;->b:Lcom/commsource/studio/shader/n;
 
-    .line 3
     new-instance v0, Lcom/commsource/studio/s;
 
     const/4 v1, 0x0
@@ -66,14 +63,12 @@
 
     iput-object v0, p0, Lcom/commsource/editengine/b;->c:Lcom/commsource/studio/s;
 
-    .line 4
     new-instance v0, Lcom/commsource/editengine/h;
 
     invoke-direct {v0}, Lcom/commsource/editengine/h;-><init>()V
 
     iput-object v0, p0, Lcom/commsource/editengine/b;->d:Lcom/commsource/editengine/h;
 
-    .line 5
     new-instance v0, Ljava/util/LinkedList;
 
     invoke-direct {v0}, Ljava/util/LinkedList;-><init>()V
@@ -100,7 +95,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -123,15 +117,12 @@
 
     invoke-static {v1, v2, v3, v4, v3}, Lcom/commsource/util/l0;->L(Ljava/lang/String;Ljava/lang/String;Lcom/meitu/library/util/Debug/Debug$DebugLevel;ILjava/lang/Object;)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/editengine/b;->e:Ljava/util/LinkedList;
 
     invoke-virtual {v1, p1}, Ljava/util/LinkedList;->add(Ljava/lang/Object;)Z
 
-    .line 3
     invoke-interface {p1}, Lcom/commsource/editengine/a;->a()V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -154,12 +145,10 @@
 
     const/4 p1, 0x0
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p1
 
-    .line 2
     :cond_0
     iget v1, p1, Lcom/commsource/easyeditor/utils/opengl/f;->c:I
 
@@ -169,7 +158,6 @@
 
     move-result-object v1
 
-    .line 3
     iget-object v2, p0, Lcom/commsource/editengine/b;->b:Lcom/commsource/studio/shader/n;
 
     const-string v3, "this"
@@ -178,7 +166,6 @@
 
     invoke-virtual {v2, p1, v1}, Lcom/commsource/studio/shader/n;->k(Lcom/commsource/easyeditor/utils/opengl/f;Lcom/commsource/easyeditor/utils/opengl/f;)V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
@@ -193,7 +180,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/editengine/b;->a:Lcom/commsource/easyeditor/utils/opengl/e;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -210,7 +196,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/editengine/b;->c:Lcom/commsource/studio/s;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -227,7 +212,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/editengine/b;->b:Lcom/commsource/studio/shader/n;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -244,7 +228,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/editengine/b;->d:Lcom/commsource/editengine/h;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -259,12 +242,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/editengine/b;->b:Lcom/commsource/studio/shader/n;
 
     invoke-virtual {v1}, Lcom/commsource/studio/shader/a;->e()V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -277,25 +258,20 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/editengine/b;->b:Lcom/commsource/studio/shader/n;
 
     invoke-virtual {v1}, Lcom/commsource/studio/shader/a;->f()V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/editengine/b;->c:Lcom/commsource/studio/s;
 
     invoke-virtual {v1}, Lcom/commsource/studio/s;->i()V
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/editengine/b;->d:Lcom/commsource/editengine/h;
 
     invoke-virtual {v1}, Lcom/commsource/editengine/h;->e()V
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/editengine/b;->e:Ljava/util/LinkedList;
 
-    .line 5
     invoke-interface {v1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v1
@@ -313,18 +289,15 @@
 
     check-cast v2, Lcom/commsource/editengine/a;
 
-    .line 6
     invoke-interface {v2}, Lcom/commsource/editengine/a;->c()V
 
     goto :goto_0
 
-    .line 7
     :cond_0
     iget-object v1, p0, Lcom/commsource/editengine/b;->e:Ljava/util/LinkedList;
 
     invoke-virtual {v1}, Ljava/util/LinkedList;->clear()V
 
-    .line 8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -341,7 +314,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -364,7 +336,6 @@
 
     invoke-static {v1, v2, v3, v4, v3}, Lcom/commsource/util/l0;->L(Ljava/lang/String;Ljava/lang/String;Lcom/meitu/library/util/Debug/Debug$DebugLevel;ILjava/lang/Object;)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/editengine/b;->e:Ljava/util/LinkedList;
 
     if-eqz v1, :cond_1
@@ -377,16 +348,13 @@
 
     if-eqz p1, :cond_0
 
-    .line 3
     invoke-interface {p1}, Lcom/commsource/editengine/a;->c()V
 
-    .line 4
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 5
     :cond_1
     new-instance p1, Ljava/lang/NullPointerException;
 
@@ -410,7 +378,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/editengine/b;->a:Lcom/commsource/easyeditor/utils/opengl/e;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

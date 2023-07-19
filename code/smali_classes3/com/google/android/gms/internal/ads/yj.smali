@@ -14,10 +14,8 @@
 .method public constructor <init>(Lcom/google/android/gms/internal/ads/zb;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/google/android/gms/internal/ads/yj;->a:Lcom/google/android/gms/internal/ads/zb;
 
     return-void
@@ -30,15 +28,12 @@
 
     const-string v0, "#008 Must be called on the main UI thread."
 
-    .line 1
     invoke-static {v0}, Lcom/google/android/gms/common/internal/b0;->f(Ljava/lang/String;)V
 
     const-string v0, "Adapter called onVideoComplete."
 
-    .line 2
     invoke-static {v0}, Lcom/google/android/gms/internal/ads/aq;->f(Ljava/lang/String;)V
 
-    .line 3
     :try_start_0
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/yj;->a:Lcom/google/android/gms/internal/ads/zb;
 
@@ -53,7 +48,6 @@
 
     const-string v1, "#007 Could not call remote method."
 
-    .line 4
     invoke-static {v1, v0}, Lcom/google/android/gms/internal/ads/aq;->e(Ljava/lang/String;Ljava/lang/Throwable;)V
 
     return-void
@@ -64,15 +58,12 @@
 
     const-string v0, "#008 Must be called on the main UI thread."
 
-    .line 1
     invoke-static {v0}, Lcom/google/android/gms/common/internal/b0;->f(Ljava/lang/String;)V
 
     const-string v0, "Adapter called onUserEarnedReward."
 
-    .line 2
     invoke-static {v0}, Lcom/google/android/gms/internal/ads/aq;->f(Ljava/lang/String;)V
 
-    .line 3
     :try_start_0
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/yj;->a:Lcom/google/android/gms/internal/ads/zb;
 
@@ -91,7 +82,6 @@
 
     const-string v0, "#007 Could not call remote method."
 
-    .line 4
     invoke-static {v0, p1}, Lcom/google/android/gms/internal/ads/aq;->e(Ljava/lang/String;Ljava/lang/Throwable;)V
 
     return-void
@@ -102,15 +92,12 @@
 
     const-string v0, "#008 Must be called on the main UI thread."
 
-    .line 1
     invoke-static {v0}, Lcom/google/android/gms/common/internal/b0;->f(Ljava/lang/String;)V
 
     const-string v0, "Adapter called onAdFailedToShow."
 
-    .line 2
     invoke-static {v0}, Lcom/google/android/gms/internal/ads/aq;->f(Ljava/lang/String;)V
 
-    .line 3
     invoke-static {p1}, Ljava/lang/String;->valueOf(Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object v0
@@ -137,7 +124,6 @@
     :goto_0
     invoke-static {v0}, Lcom/google/android/gms/internal/ads/aq;->i(Ljava/lang/String;)V
 
-    .line 4
     :try_start_0
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/yj;->a:Lcom/google/android/gms/internal/ads/zb;
 
@@ -152,7 +138,6 @@
 
     const-string v0, "#007 Could not call remote method."
 
-    .line 5
     invoke-static {v0, p1}, Lcom/google/android/gms/internal/ads/aq;->e(Ljava/lang/String;Ljava/lang/Throwable;)V
 
     return-void
@@ -163,15 +148,12 @@
 
     const-string v0, "#008 Must be called on the main UI thread."
 
-    .line 1
     invoke-static {v0}, Lcom/google/android/gms/common/internal/b0;->f(Ljava/lang/String;)V
 
     const-string v0, "Adapter called onAdOpened."
 
-    .line 2
     invoke-static {v0}, Lcom/google/android/gms/internal/ads/aq;->f(Ljava/lang/String;)V
 
-    .line 3
     :try_start_0
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/yj;->a:Lcom/google/android/gms/internal/ads/zb;
 
@@ -186,7 +168,6 @@
 
     const-string v1, "#007 Could not call remote method."
 
-    .line 4
     invoke-static {v1, v0}, Lcom/google/android/gms/internal/ads/aq;->e(Ljava/lang/String;Ljava/lang/Throwable;)V
 
     return-void
@@ -197,15 +178,12 @@
 
     const-string v0, "#008 Must be called on the main UI thread."
 
-    .line 1
     invoke-static {v0}, Lcom/google/android/gms/common/internal/b0;->f(Ljava/lang/String;)V
 
     const-string v0, "Adapter called onAdClosed."
 
-    .line 2
     invoke-static {v0}, Lcom/google/android/gms/internal/ads/aq;->f(Ljava/lang/String;)V
 
-    .line 3
     :try_start_0
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/yj;->a:Lcom/google/android/gms/internal/ads/zb;
 
@@ -220,7 +198,6 @@
 
     const-string v1, "#007 Could not call remote method."
 
-    .line 4
     invoke-static {v1, v0}, Lcom/google/android/gms/internal/ads/aq;->e(Ljava/lang/String;Ljava/lang/Throwable;)V
 
     return-void
@@ -231,15 +208,12 @@
 
     const-string v0, "#008 Must be called on the main UI thread."
 
-    .line 1
     invoke-static {v0}, Lcom/google/android/gms/common/internal/b0;->f(Ljava/lang/String;)V
 
     const-string v0, "Adapter called reportAdImpression."
 
-    .line 2
     invoke-static {v0}, Lcom/google/android/gms/internal/ads/aq;->f(Ljava/lang/String;)V
 
-    .line 3
     :try_start_0
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/yj;->a:Lcom/google/android/gms/internal/ads/zb;
 
@@ -254,7 +228,6 @@
 
     const-string v1, "#007 Could not call remote method."
 
-    .line 4
     invoke-static {v1, v0}, Lcom/google/android/gms/internal/ads/aq;->e(Ljava/lang/String;Ljava/lang/Throwable;)V
 
     return-void
@@ -265,15 +238,12 @@
 
     const-string v0, "#008 Must be called on the main UI thread."
 
-    .line 1
     invoke-static {v0}, Lcom/google/android/gms/common/internal/b0;->f(Ljava/lang/String;)V
 
     const-string v0, "Adapter called reportAdClicked."
 
-    .line 2
     invoke-static {v0}, Lcom/google/android/gms/internal/ads/aq;->f(Ljava/lang/String;)V
 
-    .line 3
     :try_start_0
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/yj;->a:Lcom/google/android/gms/internal/ads/zb;
 
@@ -288,7 +258,6 @@
 
     const-string v1, "#007 Could not call remote method."
 
-    .line 4
     invoke-static {v1, v0}, Lcom/google/android/gms/internal/ads/aq;->e(Ljava/lang/String;Ljava/lang/Throwable;)V
 
     return-void
@@ -299,15 +268,12 @@
 
     const-string v0, "#008 Must be called on the main UI thread."
 
-    .line 1
     invoke-static {v0}, Lcom/google/android/gms/common/internal/b0;->f(Ljava/lang/String;)V
 
     const-string v0, "Adapter called onVideoStart."
 
-    .line 2
     invoke-static {v0}, Lcom/google/android/gms/internal/ads/aq;->f(Ljava/lang/String;)V
 
-    .line 3
     :try_start_0
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/yj;->a:Lcom/google/android/gms/internal/ads/zb;
 
@@ -322,7 +288,6 @@
 
     const-string v1, "#007 Could not call remote method."
 
-    .line 4
     invoke-static {v1, v0}, Lcom/google/android/gms/internal/ads/aq;->e(Ljava/lang/String;Ljava/lang/Throwable;)V
 
     return-void

@@ -25,7 +25,6 @@
 .method constructor <init>(Lcom/commsource/beautyplus/location/LocationSearchActivity;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/beautyplus/location/LocationSearchActivity$a;->a:Lcom/commsource/beautyplus/location/LocationSearchActivity;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -42,7 +41,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/beautyplus/location/LocationSearchActivity$a;->a:Lcom/commsource/beautyplus/location/LocationSearchActivity;
 
     invoke-static {v1}, Lcom/commsource/beautyplus/location/LocationSearchActivity;->L0(Lcom/commsource/beautyplus/location/LocationSearchActivity;)Lcom/commsource/beautyplus/location/LocationSearchViewModel;
@@ -55,7 +53,6 @@
 
     invoke-virtual {v1, p1}, Lcom/commsource/beautyplus/location/LocationSearchViewModel;->L(Ljava/lang/String;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -68,7 +65,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -81,7 +77,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

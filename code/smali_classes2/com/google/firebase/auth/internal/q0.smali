@@ -13,7 +13,6 @@
 .method constructor <init>(Lcom/google/firebase/auth/internal/r0;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/firebase/auth/internal/q0;->a:Lcom/google/firebase/auth/internal/r0;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -26,12 +25,10 @@
 .method public final a(Ljava/lang/Exception;)V
     .locals 2
 
-    .line 1
     instance-of p1, p1, Lcom/google/firebase/FirebaseNetworkException;
 
     if-eqz p1, :cond_0
 
-    .line 2
     invoke-static {}, Lcom/google/firebase/auth/internal/o0;->d()Lcom/google/android/gms/common/m/a;
 
     move-result-object p1
@@ -44,7 +41,6 @@
 
     invoke-virtual {p1, v1, v0}, Lcom/google/android/gms/common/m/a;->g(Ljava/lang/String;[Ljava/lang/Object;)V
 
-    .line 3
     iget-object p1, p0, Lcom/google/firebase/auth/internal/q0;->a:Lcom/google/firebase/auth/internal/r0;
 
     iget-object p1, p1, Lcom/google/firebase/auth/internal/r0;->b:Lcom/google/firebase/auth/internal/o0;

@@ -24,10 +24,8 @@
 .method private constructor <init>()V
     .locals 2
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     new-instance v0, Landroid/util/LruCache;
 
     const/16 v1, 0xa
@@ -46,25 +44,21 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     const-class v1, Lf/k/k/r;
 
     monitor-enter v1
 
-    .line 2
     :try_start_0
     sget-object v2, Lf/k/k/r;->b:Lf/k/k/r;
 
     if-nez v2, :cond_0
 
-    .line 3
     new-instance v2, Lf/k/k/r;
 
     invoke-direct {v2}, Lf/k/k/r;-><init>()V
 
     sput-object v2, Lf/k/k/r;->b:Lf/k/k/r;
 
-    .line 4
     :cond_0
     sget-object v2, Lf/k/k/r;->b:Lf/k/k/r;
 
@@ -79,7 +73,6 @@
     :catchall_0
     move-exception v2
 
-    .line 5
     :try_start_1
     monitor-exit v1
     :try_end_1
@@ -108,7 +101,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lf/k/k/r;->a:Landroid/util/LruCache;
 
     invoke-virtual {p1}, Ljava/lang/Class;->getSimpleName()Ljava/lang/String;
@@ -121,18 +113,15 @@
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
 
-    .line 3
     :cond_0
     invoke-static {p1}, Lf/k/k/q;->a(Ljava/lang/Class;)Ljava/lang/Object;
 
     move-result-object v1
 
-    .line 4
     iget-object v2, p0, Lf/k/k/r;->a:Landroid/util/LruCache;
 
     invoke-virtual {p1}, Ljava/lang/Class;->getSimpleName()Ljava/lang/String;
@@ -141,7 +130,6 @@
 
     invoke-virtual {v2, p1, v1}, Landroid/util/LruCache;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1

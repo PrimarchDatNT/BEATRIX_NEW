@@ -29,7 +29,6 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
     new-instance v0, Lio/grpc/j$b;
 
     invoke-direct {v0}, Lio/grpc/j$b;-><init>()V
@@ -42,7 +41,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -51,7 +49,6 @@
 .method static synthetic a()Lio/grpc/h;
     .locals 1
 
-    .line 1
     sget-object v0, Lio/grpc/j;->a:Lio/grpc/h;
 
     return-object v0
@@ -73,10 +70,8 @@
 
     const-string v0, "channel"
 
-    .line 1
     invoke-static {p0, v0}, Lcom/google/common/base/t;->F(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 2
     invoke-interface {p1}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
     move-result-object p1
@@ -94,7 +89,6 @@
 
     check-cast v0, Lio/grpc/i;
 
-    .line 3
     new-instance v1, Lio/grpc/j$d;
 
     const/4 v2, 0x0
@@ -112,7 +106,6 @@
 .method public static varargs c(Lio/grpc/g;[Lio/grpc/i;)Lio/grpc/g;
     .locals 0
 
-    .line 1
     invoke-static {p1}, Ljava/util/Arrays;->asList([Ljava/lang/Object;)Ljava/util/List;
 
     move-result-object p1
@@ -138,15 +131,12 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0, p1}, Ljava/util/ArrayList;-><init>(Ljava/util/Collection;)V
 
-    .line 2
     invoke-static {v0}, Ljava/util/Collections;->reverse(Ljava/util/List;)V
 
-    .line 3
     invoke-static {p0, v0}, Lio/grpc/j;->b(Lio/grpc/g;Ljava/util/List;)Lio/grpc/g;
 
     move-result-object p0
@@ -157,7 +147,6 @@
 .method public static varargs e(Lio/grpc/g;[Lio/grpc/i;)Lio/grpc/g;
     .locals 0
 
-    .line 1
     invoke-static {p1}, Ljava/util/Arrays;->asList([Ljava/lang/Object;)Ljava/util/List;
 
     move-result-object p1
@@ -187,7 +176,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lio/grpc/j$a;
 
     invoke-direct {v0, p1, p2, p0}, Lio/grpc/j$a;-><init>(Lio/grpc/MethodDescriptor$c;Lio/grpc/MethodDescriptor$c;Lio/grpc/i;)V

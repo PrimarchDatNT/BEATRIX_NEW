@@ -21,7 +21,6 @@
 .method constructor <init>(Lcom/google/android/gms/internal/ads/w9;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -32,15 +31,12 @@
 .method public final synthetic a(Ljava/lang/Object;)V
     .locals 1
 
-    .line 1
     check-cast p1, Lcom/google/android/gms/internal/ads/ia;
 
     const-string v0, "Ending javascript session."
 
-    .line 2
     invoke-static {v0}, Lcom/google/android/gms/internal/ads/sm;->m(Ljava/lang/String;)V
 
-    .line 3
     check-cast p1, Lcom/google/android/gms/internal/ads/ha;
 
     invoke-interface {p1}, Lcom/google/android/gms/internal/ads/ha;->l0()V

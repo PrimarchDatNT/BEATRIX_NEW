@@ -27,13 +27,10 @@
 .method public constructor <init>(II)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput p1, p0, Lcom/mopub/nativeads/IntInterval;->start:I
 
-    .line 3
     iput p2, p0, Lcom/mopub/nativeads/IntInterval;->length:I
 
     return-void
@@ -48,14 +45,12 @@
         .end annotation
     .end param
 
-    .line 2
     iget v0, p0, Lcom/mopub/nativeads/IntInterval;->start:I
 
     iget v1, p1, Lcom/mopub/nativeads/IntInterval;->start:I
 
     if-ne v0, v1, :cond_0
 
-    .line 3
     iget v0, p0, Lcom/mopub/nativeads/IntInterval;->length:I
 
     iget p1, p1, Lcom/mopub/nativeads/IntInterval;->length:I
@@ -77,7 +72,6 @@
         .end annotation
     .end param
 
-    .line 1
     check-cast p1, Lcom/mopub/nativeads/IntInterval;
 
     invoke-virtual {p0, p1}, Lcom/mopub/nativeads/IntInterval;->compareTo(Lcom/mopub/nativeads/IntInterval;)I
@@ -90,7 +84,6 @@
 .method public equals(II)Z
     .locals 1
 
-    .line 1
     iget v0, p0, Lcom/mopub/nativeads/IntInterval;->start:I
 
     if-ne v0, p1, :cond_0
@@ -119,7 +112,6 @@
 
     return v0
 
-    .line 2
     :cond_0
     instance-of v1, p1, Lcom/mopub/nativeads/IntInterval;
 
@@ -129,11 +121,9 @@
 
     return v2
 
-    .line 3
     :cond_1
     check-cast p1, Lcom/mopub/nativeads/IntInterval;
 
-    .line 4
     iget v1, p0, Lcom/mopub/nativeads/IntInterval;->start:I
 
     iget v3, p1, Lcom/mopub/nativeads/IntInterval;->start:I
@@ -158,7 +148,6 @@
 .method public getLength()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lcom/mopub/nativeads/IntInterval;->length:I
 
     return v0
@@ -167,7 +156,6 @@
 .method public getStart()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lcom/mopub/nativeads/IntInterval;->start:I
 
     return v0
@@ -176,7 +164,6 @@
 .method public hashCode()I
     .locals 2
 
-    .line 1
     iget v0, p0, Lcom/mopub/nativeads/IntInterval;->start:I
 
     const/16 v1, 0x383
@@ -185,7 +172,6 @@
 
     mul-int/lit8 v1, v1, 0x1f
 
-    .line 2
     iget v0, p0, Lcom/mopub/nativeads/IntInterval;->length:I
 
     add-int/2addr v1, v0
@@ -196,7 +182,6 @@
 .method public setLength(I)V
     .locals 0
 
-    .line 1
     iput p1, p0, Lcom/mopub/nativeads/IntInterval;->length:I
 
     return-void
@@ -205,7 +190,6 @@
 .method public setStart(I)V
     .locals 0
 
-    .line 1
     iput p1, p0, Lcom/mopub/nativeads/IntInterval;->start:I
 
     return-void
@@ -214,7 +198,6 @@
 .method public toString()Ljava/lang/String;
     .locals 2
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V

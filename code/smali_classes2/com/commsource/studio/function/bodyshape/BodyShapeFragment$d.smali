@@ -54,7 +54,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/function/bodyshape/BodyShapeFragment$d;->a:Lcom/commsource/studio/function/bodyshape/BodyShapeFragment;
 
     invoke-static {v1}, Lcom/commsource/studio/function/bodyshape/BodyShapeFragment;->C1(Lcom/commsource/studio/function/bodyshape/BodyShapeFragment;)Lcom/commsource/beautyplus/f0/ib;
@@ -69,7 +68,6 @@
 
     if-eqz v1, :cond_0
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/function/bodyshape/BodyShapeFragment$d;->a:Lcom/commsource/studio/function/bodyshape/BodyShapeFragment;
 
     invoke-static {v1}, Lcom/commsource/studio/function/bodyshape/BodyShapeFragment;->C1(Lcom/commsource/studio/function/bodyshape/BodyShapeFragment;)Lcom/commsource/beautyplus/f0/ib;
@@ -88,7 +86,6 @@
 
     invoke-virtual {v1, p1}, Lcom/commsource/studio/function/bodyshape/ImageStretchView;->setShowOrigin(Z)V
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -102,7 +99,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Ljava/lang/Boolean;
 
     invoke-virtual {p0, p1}, Lcom/commsource/studio/function/bodyshape/BodyShapeFragment$d;->a(Ljava/lang/Boolean;)V

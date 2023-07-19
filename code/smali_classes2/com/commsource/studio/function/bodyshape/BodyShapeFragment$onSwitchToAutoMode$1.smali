@@ -58,7 +58,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/studio/function/bodyshape/BodyShapeFragment$onSwitchToAutoMode$1;->invoke()V
 
     sget-object v1, Lcotlin/t1;->a:Lcotlin/t1;
@@ -75,14 +74,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/function/bodyshape/BodyShapeFragment$onSwitchToAutoMode$1;->$manualBitmap:Landroid/graphics/Bitmap;
 
     const/4 v2, 0x0
 
     if-eqz v1, :cond_8
 
-    .line 3
     iget-object v3, p0, Lcom/commsource/studio/function/bodyshape/BodyShapeFragment$onSwitchToAutoMode$1;->this$0:Lcom/commsource/studio/function/bodyshape/BodyShapeFragment;
 
     invoke-virtual {v3}, Lcom/commsource/studio/function/BaseSubFragment;->s0()Lcom/commsource/easyeditor/utils/opengl/f;
@@ -93,7 +90,6 @@
 
     invoke-virtual {v3, v1}, Lcom/commsource/easyeditor/utils/opengl/f;->i(Landroid/graphics/Bitmap;)V
 
-    .line 4
     :cond_0
     iget-object v3, p0, Lcom/commsource/studio/function/bodyshape/BodyShapeFragment$onSwitchToAutoMode$1;->this$0:Lcom/commsource/studio/function/bodyshape/BodyShapeFragment;
 
@@ -111,7 +107,6 @@
 
     invoke-virtual {v3, v1}, Lcom/commsource/easyeditor/utils/opengl/f;->i(Landroid/graphics/Bitmap;)V
 
-    .line 5
     :cond_1
     iget-object v3, p0, Lcom/commsource/studio/function/bodyshape/BodyShapeFragment$onSwitchToAutoMode$1;->this$0:Lcom/commsource/studio/function/bodyshape/BodyShapeFragment;
 
@@ -127,18 +122,15 @@
 
     invoke-virtual {v3, v4}, Lcom/commsource/studio/processor/BaseEffectProcessor;->F(Lcom/commsource/studio/y;)V
 
-    .line 6
     :cond_2
     invoke-static {v1}, Lf/d/e/b/a;->a(Landroid/graphics/Bitmap;)Lcom/commsource/camera/d1/g/f;
 
     move-result-object v3
 
-    .line 7
     invoke-static {v1}, Lf/d/e/b/a;->g(Landroid/graphics/Bitmap;)Lcom/commsource/camera/d1/g/q;
 
     move-result-object v4
 
-    .line 8
     iget-object v5, p0, Lcom/commsource/studio/function/bodyshape/BodyShapeFragment$onSwitchToAutoMode$1;->this$0:Lcom/commsource/studio/function/bodyshape/BodyShapeFragment;
 
     invoke-static {v5}, Lcom/commsource/studio/function/bodyshape/BodyShapeFragment;->A1(Lcom/commsource/studio/function/bodyshape/BodyShapeFragment;)Lcom/commsource/studio/function/bodyshape/a;
@@ -147,7 +139,6 @@
 
     if-eqz v5, :cond_3
 
-    .line 9
     iget-object v6, p0, Lcom/commsource/studio/function/bodyshape/BodyShapeFragment$onSwitchToAutoMode$1;->this$0:Lcom/commsource/studio/function/bodyshape/BodyShapeFragment;
 
     invoke-virtual {v6}, Lcom/commsource/studio/function/BaseSubFragment;->r0()Lcom/commsource/studio/ImageStudioViewModel;
@@ -162,13 +153,10 @@
 
     move-result-object v6
 
-    .line 10
     const-class v7, Lcom/commsource/camera/d1/g/j;
 
-    .line 11
     invoke-virtual {v5, v6, v7}, Lcom/commsource/studio/function/bodyshape/a;->S(Ljava/lang/Object;Ljava/lang/Class;)V
 
-    .line 12
     :cond_3
     iget-object v5, p0, Lcom/commsource/studio/function/bodyshape/BodyShapeFragment$onSwitchToAutoMode$1;->this$0:Lcom/commsource/studio/function/bodyshape/BodyShapeFragment;
 
@@ -178,7 +166,6 @@
 
     if-eqz v5, :cond_4
 
-    .line 13
     iget-object v6, p0, Lcom/commsource/studio/function/bodyshape/BodyShapeFragment$onSwitchToAutoMode$1;->this$0:Lcom/commsource/studio/function/bodyshape/BodyShapeFragment;
 
     invoke-virtual {v6}, Lcom/commsource/studio/function/BaseSubFragment;->r0()Lcom/commsource/studio/ImageStudioViewModel;
@@ -193,16 +180,12 @@
 
     const-string v6, "bodyResult.apply {\n     \u2026his\n                    }"
 
-    .line 14
     invoke-static {v3, v6}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 15
     const-class v6, Lcom/commsource/camera/d1/g/f;
 
-    .line 16
     invoke-virtual {v5, v3, v6}, Lcom/commsource/studio/function/bodyshape/a;->S(Ljava/lang/Object;Ljava/lang/Class;)V
 
-    .line 17
     :cond_4
     iget-object v3, p0, Lcom/commsource/studio/function/bodyshape/BodyShapeFragment$onSwitchToAutoMode$1;->this$0:Lcom/commsource/studio/function/bodyshape/BodyShapeFragment;
 
@@ -212,7 +195,6 @@
 
     if-eqz v3, :cond_5
 
-    .line 18
     iget-object v5, p0, Lcom/commsource/studio/function/bodyshape/BodyShapeFragment$onSwitchToAutoMode$1;->this$0:Lcom/commsource/studio/function/bodyshape/BodyShapeFragment;
 
     invoke-virtual {v5}, Lcom/commsource/studio/function/BaseSubFragment;->r0()Lcom/commsource/studio/ImageStudioViewModel;
@@ -229,13 +211,10 @@
 
     invoke-static {v4, v5}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 19
     const-class v5, Lcom/commsource/camera/d1/g/q;
 
-    .line 20
     invoke-virtual {v3, v4, v5}, Lcom/commsource/studio/function/bodyshape/a;->S(Ljava/lang/Object;Ljava/lang/Class;)V
 
-    .line 21
     :cond_5
     iget-object v3, p0, Lcom/commsource/studio/function/bodyshape/BodyShapeFragment$onSwitchToAutoMode$1;->this$0:Lcom/commsource/studio/function/bodyshape/BodyShapeFragment;
 
@@ -249,7 +228,6 @@
 
     invoke-direct {v4}, Lcom/commsource/camera/d1/g/g;-><init>()V
 
-    .line 22
     sget-object v5, Lf/d/e/b/b;->b:Lf/d/e/b/b;
 
     invoke-static {v1}, Lcom/meitu/core/types/NativeBitmap;->createBitmap(Landroid/graphics/Bitmap;)Lcom/meitu/core/types/NativeBitmap;
@@ -260,14 +238,12 @@
 
     move-result-object v1
 
-    .line 23
     invoke-virtual {v5, v1}, Lf/d/e/b/b;->l(Lcom/meitu/mtlab/MTAiInterface/MTSegmentModule/MTSegment;)I
 
     move-result v1
 
     invoke-virtual {v4, v1}, Lcom/commsource/camera/d1/g/g;->h(I)V
 
-    .line 24
     iget-object v1, p0, Lcom/commsource/studio/function/bodyshape/BodyShapeFragment$onSwitchToAutoMode$1;->this$0:Lcom/commsource/studio/function/bodyshape/BodyShapeFragment;
 
     invoke-virtual {v1}, Lcom/commsource/studio/function/BaseSubFragment;->r0()Lcom/commsource/studio/ImageStudioViewModel;
@@ -288,7 +264,6 @@
 
     invoke-virtual {v4, v1}, Lcom/commsource/camera/d1/g/g;->i(I)V
 
-    .line 25
     iget-object v1, p0, Lcom/commsource/studio/function/bodyshape/BodyShapeFragment$onSwitchToAutoMode$1;->this$0:Lcom/commsource/studio/function/bodyshape/BodyShapeFragment;
 
     invoke-virtual {v1}, Lcom/commsource/studio/function/BaseSubFragment;->r0()Lcom/commsource/studio/ImageStudioViewModel;
@@ -309,7 +284,6 @@
 
     invoke-virtual {v4, v1}, Lcom/commsource/camera/d1/g/g;->f(I)V
 
-    .line 26
     iget-object v1, p0, Lcom/commsource/studio/function/bodyshape/BodyShapeFragment$onSwitchToAutoMode$1;->this$0:Lcom/commsource/studio/function/bodyshape/BodyShapeFragment;
 
     invoke-virtual {v1}, Lcom/commsource/studio/function/BaseSubFragment;->r0()Lcom/commsource/studio/ImageStudioViewModel;
@@ -322,19 +296,15 @@
 
     invoke-virtual {v1, v4}, Lcom/commsource/studio/o;->u(Lcom/commsource/camera/d1/g/g;)V
 
-    .line 27
     const-class v1, Lcom/commsource/camera/d1/g/g;
 
-    .line 28
     invoke-virtual {v3, v4, v1}, Lcom/commsource/studio/function/bodyshape/a;->S(Ljava/lang/Object;Ljava/lang/Class;)V
 
-    .line 29
     :cond_6
     invoke-static {}, Lcom/commsource/studio/effect/bodyshape/BodyShapeEnum;->values()[Lcom/commsource/studio/effect/bodyshape/BodyShapeEnum;
 
     move-result-object v1
 
-    .line 30
     array-length v3, v1
 
     const/4 v4, 0x0
@@ -344,7 +314,6 @@
 
     aget-object v5, v1, v4
 
-    .line 31
     iget-object v6, p0, Lcom/commsource/studio/function/bodyshape/BodyShapeFragment$onSwitchToAutoMode$1;->this$0:Lcom/commsource/studio/function/bodyshape/BodyShapeFragment;
 
     invoke-static {v6}, Lcom/commsource/studio/function/bodyshape/BodyShapeFragment;->A1(Lcom/commsource/studio/function/bodyshape/BodyShapeFragment;)Lcom/commsource/studio/function/bodyshape/a;
@@ -362,7 +331,6 @@
 
     goto :goto_0
 
-    .line 32
     :cond_8
     iget-object v1, p0, Lcom/commsource/studio/function/bodyshape/BodyShapeFragment$onSwitchToAutoMode$1;->this$0:Lcom/commsource/studio/function/bodyshape/BodyShapeFragment;
 
@@ -378,7 +346,6 @@
 
     invoke-static {v1, v2, v4, v3, v4}, Lcom/commsource/studio/processor/BaseEffectProcessor;->z(Lcom/commsource/studio/processor/BaseEffectProcessor;ZLcotlin/jvm/u/a;ILjava/lang/Object;)V
 
-    .line 33
     :cond_9
     new-instance v1, Lcom/commsource/studio/function/bodyshape/BodyShapeFragment$onSwitchToAutoMode$1$a;
 
@@ -386,7 +353,6 @@
 
     invoke-static {v1}, Lcom/commsource/util/g2;->k(Ljava/lang/Runnable;)V
 
-    .line 34
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

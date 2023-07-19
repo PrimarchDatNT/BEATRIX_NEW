@@ -62,7 +62,6 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-direct {p0}, Lcotlinx/coroutines/ExecutorCoroutineDispatcher;-><init>()V
 
     iput-object p1, p0, Lcotlinx/coroutines/scheduling/e;->d:Lcotlinx/coroutines/scheduling/c;
@@ -71,7 +70,6 @@
 
     iput p3, p0, Lcotlinx/coroutines/scheduling/e;->g:I
 
-    .line 2
     new-instance p1, Ljava/util/concurrent/ConcurrentLinkedQueue;
 
     invoke-direct {p1}, Ljava/util/concurrent/ConcurrentLinkedQueue;-><init>()V
@@ -80,7 +78,6 @@
 
     const/4 p1, 0x0
 
-    .line 3
     iput p1, p0, Lcotlinx/coroutines/scheduling/e;->inFlightTasks:I
 
     return-void
@@ -89,7 +86,6 @@
 .method private final C(Ljava/lang/Runnable;Z)V
     .locals 3
 
-    .line 1
     :goto_0
     sget-object v0, Lcotlinx/coroutines/scheduling/e;->p:Ljava/util/concurrent/atomic/AtomicIntegerFieldUpdater;
 
@@ -97,25 +93,21 @@
 
     move-result v1
 
-    .line 2
     iget v2, p0, Lcotlinx/coroutines/scheduling/e;->f:I
 
     if-gt v1, v2, :cond_0
 
-    .line 3
     iget-object v0, p0, Lcotlinx/coroutines/scheduling/e;->d:Lcotlinx/coroutines/scheduling/c;
 
     invoke-virtual {v0, p1, p0, p2}, Lcotlinx/coroutines/scheduling/c;->J(Ljava/lang/Runnable;Lcotlinx/coroutines/scheduling/i;Z)V
 
     return-void
 
-    .line 4
     :cond_0
     iget-object v1, p0, Lcotlinx/coroutines/scheduling/e;->c:Ljava/util/concurrent/ConcurrentLinkedQueue;
 
     invoke-virtual {v1, p1}, Ljava/util/concurrent/ConcurrentLinkedQueue;->add(Ljava/lang/Object;)Z
 
-    .line 5
     invoke-virtual {v0, p0}, Ljava/util/concurrent/atomic/AtomicIntegerFieldUpdater;->decrementAndGet(Ljava/lang/Object;)I
 
     move-result p1
@@ -126,7 +118,6 @@
 
     return-void
 
-    .line 6
     :cond_1
     iget-object p1, p0, Lcotlinx/coroutines/scheduling/e;->c:Ljava/util/concurrent/ConcurrentLinkedQueue;
 
@@ -159,7 +150,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcotlinx/coroutines/scheduling/e;->d:Lcotlinx/coroutines/scheduling/c;
 
     return-object v0
@@ -168,7 +158,6 @@
 .method public final G()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lcotlinx/coroutines/scheduling/e;->f:I
 
     return v0
@@ -177,7 +166,6 @@
 .method public close()V
     .locals 2
 
-    .line 1
     new-instance v0, Ljava/lang/IllegalStateException;
 
     const-string v1, "Close cannot be invoked on LimitingBlockingDispatcher"
@@ -200,7 +188,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-direct {p0, p1, v0}, Lcotlinx/coroutines/scheduling/e;->C(Ljava/lang/Runnable;Z)V
 
     return-void
@@ -209,7 +196,6 @@
 .method public i()V
     .locals 3
 
-    .line 1
     iget-object v0, p0, Lcotlinx/coroutines/scheduling/e;->c:Ljava/util/concurrent/ConcurrentLinkedQueue;
 
     invoke-virtual {v0}, Ljava/util/concurrent/ConcurrentLinkedQueue;->poll()Ljava/lang/Object;
@@ -222,20 +208,17 @@
 
     if-eqz v0, :cond_0
 
-    .line 2
     iget-object v2, p0, Lcotlinx/coroutines/scheduling/e;->d:Lcotlinx/coroutines/scheduling/c;
 
     invoke-virtual {v2, v0, p0, v1}, Lcotlinx/coroutines/scheduling/c;->J(Ljava/lang/Runnable;Lcotlinx/coroutines/scheduling/i;Z)V
 
     return-void
 
-    .line 3
     :cond_0
     sget-object v0, Lcotlinx/coroutines/scheduling/e;->p:Ljava/util/concurrent/atomic/AtomicIntegerFieldUpdater;
 
     invoke-virtual {v0, p0}, Ljava/util/concurrent/atomic/AtomicIntegerFieldUpdater;->decrementAndGet(Ljava/lang/Object;)I
 
-    .line 4
     iget-object v0, p0, Lcotlinx/coroutines/scheduling/e;->c:Ljava/util/concurrent/ConcurrentLinkedQueue;
 
     invoke-virtual {v0}, Ljava/util/concurrent/ConcurrentLinkedQueue;->poll()Ljava/lang/Object;
@@ -246,7 +229,6 @@
 
     if-eqz v0, :cond_1
 
-    .line 5
     invoke-direct {p0, v0, v1}, Lcotlinx/coroutines/scheduling/e;->C(Ljava/lang/Runnable;Z)V
 
     :cond_1
@@ -256,7 +238,6 @@
 .method public k()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lcotlinx/coroutines/scheduling/e;->g:I
 
     return v0
@@ -267,7 +248,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -310,7 +290,6 @@
 
     const/4 p1, 0x0
 
-    .line 1
     invoke-direct {p0, p2, p1}, Lcotlinx/coroutines/scheduling/e;->C(Ljava/lang/Runnable;Z)V
 
     return-void
@@ -329,7 +308,6 @@
 
     const/4 p1, 0x1
 
-    .line 1
     invoke-direct {p0, p2, p1}, Lcotlinx/coroutines/scheduling/e;->C(Ljava/lang/Runnable;Z)V
 
     return-void

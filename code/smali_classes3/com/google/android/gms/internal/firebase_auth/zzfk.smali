@@ -47,7 +47,6 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
     new-instance v0, Lcom/google/android/gms/internal/firebase_auth/m2;
 
     invoke-direct {v0}, Lcom/google/android/gms/internal/firebase_auth/m2;-><init>()V
@@ -62,7 +61,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-direct {p0, v0}, Lcom/google/android/gms/internal/firebase_auth/zzfk;-><init>(Ljava/util/List;)V
 
     return-void
@@ -92,15 +90,12 @@
         }
     .end annotation
 
-    .line 7
     invoke-direct {p0}, Lcom/google/android/gms/common/internal/safeparcel/AbstractSafeParcelable;-><init>()V
 
-    .line 8
     iput p1, p0, Lcom/google/android/gms/internal/firebase_auth/zzfk;->a:I
 
     if-eqz p2, :cond_2
 
-    .line 9
     invoke-interface {p2}, Ljava/util/List;->isEmpty()Z
 
     move-result p1
@@ -112,7 +107,6 @@
     :cond_0
     const/4 p1, 0x0
 
-    .line 10
     :goto_0
     invoke-interface {p2}, Ljava/util/List;->size()I
 
@@ -120,7 +114,6 @@
 
     if-ge p1, v0, :cond_1
 
-    .line 11
     invoke-interface {p2, p1}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object v0
@@ -137,7 +130,6 @@
 
     goto :goto_0
 
-    .line 12
     :cond_1
     invoke-static {p2}, Ljava/util/Collections;->unmodifiableList(Ljava/util/List;)Ljava/util/List;
 
@@ -147,7 +139,6 @@
 
     return-void
 
-    .line 13
     :cond_2
     :goto_1
     invoke-static {}, Ljava/util/Collections;->emptyList()Ljava/util/List;
@@ -174,15 +165,12 @@
         }
     .end annotation
 
-    .line 2
     invoke-direct {p0}, Lcom/google/android/gms/common/internal/safeparcel/AbstractSafeParcelable;-><init>()V
 
     const/4 v0, 0x1
 
-    .line 3
     iput v0, p0, Lcom/google/android/gms/internal/firebase_auth/zzfk;->a:I
 
-    .line 4
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
@@ -191,14 +179,12 @@
 
     if-eqz p1, :cond_0
 
-    .line 5
     invoke-interface {p1}, Ljava/util/List;->isEmpty()Z
 
     move-result v0
 
     if-nez v0, :cond_0
 
-    .line 6
     iget-object v0, p0, Lcom/google/android/gms/internal/firebase_auth/zzfk;->b:Ljava/util/List;
 
     invoke-interface {v0, p1}, Ljava/util/List;->addAll(Ljava/util/Collection;)Z
@@ -210,7 +196,6 @@
 .method public static A()Lcom/google/android/gms/internal/firebase_auth/zzfk;
     .locals 2
 
-    .line 1
     new-instance v0, Lcom/google/android/gms/internal/firebase_auth/zzfk;
 
     const/4 v1, 0x0
@@ -225,7 +210,6 @@
 
     if-eqz p0, :cond_0
 
-    .line 1
     iget-object p0, p0, Lcom/google/android/gms/internal/firebase_auth/zzfk;->b:Ljava/util/List;
 
     goto :goto_0
@@ -233,7 +217,6 @@
     :cond_0
     const/4 p0, 0x0
 
-    .line 2
     :goto_0
     new-instance v0, Lcom/google/android/gms/internal/firebase_auth/zzfk;
 
@@ -247,29 +230,24 @@
 .method public final writeToParcel(Landroid/os/Parcel;I)V
     .locals 3
 
-    .line 1
     invoke-static {p1}, Lcom/google/android/gms/common/internal/safeparcel/a;->a(Landroid/os/Parcel;)I
 
     move-result p2
 
-    .line 2
     iget v0, p0, Lcom/google/android/gms/internal/firebase_auth/zzfk;->a:I
 
     const/4 v1, 0x1
 
     invoke-static {p1, v1, v0}, Lcom/google/android/gms/common/internal/safeparcel/a;->F(Landroid/os/Parcel;II)V
 
-    .line 3
     iget-object v0, p0, Lcom/google/android/gms/internal/firebase_auth/zzfk;->b:Ljava/util/List;
 
     const/4 v1, 0x2
 
     const/4 v2, 0x0
 
-    .line 4
     invoke-static {p1, v1, v0, v2}, Lcom/google/android/gms/common/internal/safeparcel/a;->Z(Landroid/os/Parcel;ILjava/util/List;Z)V
 
-    .line 5
     invoke-static {p1, p2}, Lcom/google/android/gms/common/internal/safeparcel/a;->b(Landroid/os/Parcel;I)V
 
     return-void
@@ -286,7 +264,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/firebase_auth/zzfk;->b:Ljava/util/List;
 
     return-object v0

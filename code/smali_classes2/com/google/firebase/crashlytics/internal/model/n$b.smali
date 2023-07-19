@@ -38,7 +38,6 @@
 .method constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/google/firebase/crashlytics/internal/model/CrashlyticsReport$e$d$a$b$c$a;-><init>()V
 
     return-void
@@ -49,14 +48,12 @@
 .method public a()Lcom/google/firebase/crashlytics/internal/model/CrashlyticsReport$e$d$a$b$c;
     .locals 9
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/crashlytics/internal/model/n$b;->a:Ljava/lang/String;
 
     const-string v1, ""
 
     if-nez v0, :cond_0
 
-    .line 2
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -71,13 +68,11 @@
 
     move-result-object v1
 
-    .line 3
     :cond_0
     iget-object v0, p0, Lcom/google/firebase/crashlytics/internal/model/n$b;->c:Lcom/google/firebase/crashlytics/internal/model/v;
 
     if-nez v0, :cond_1
 
-    .line 4
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -92,13 +87,11 @@
 
     move-result-object v1
 
-    .line 5
     :cond_1
     iget-object v0, p0, Lcom/google/firebase/crashlytics/internal/model/n$b;->e:Ljava/lang/Integer;
 
     if-nez v0, :cond_2
 
-    .line 6
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -113,7 +106,6 @@
 
     move-result-object v1
 
-    .line 7
     :cond_2
     invoke-virtual {v1}, Ljava/lang/String;->isEmpty()Z
 
@@ -121,7 +113,6 @@
 
     if-eqz v0, :cond_3
 
-    .line 8
     new-instance v0, Lcom/google/firebase/crashlytics/internal/model/n;
 
     iget-object v3, p0, Lcom/google/firebase/crashlytics/internal/model/n$b;->a:Ljava/lang/String;
@@ -134,7 +125,6 @@
 
     iget-object v1, p0, Lcom/google/firebase/crashlytics/internal/model/n$b;->e:Ljava/lang/Integer;
 
-    .line 9
     invoke-virtual {v1}, Ljava/lang/Integer;->intValue()I
 
     move-result v7
@@ -147,7 +137,6 @@
 
     return-object v0
 
-    .line 10
     :cond_3
     new-instance v0, Ljava/lang/IllegalStateException;
 
@@ -173,7 +162,6 @@
 .method public b(Lcom/google/firebase/crashlytics/internal/model/CrashlyticsReport$e$d$a$b$c;)Lcom/google/firebase/crashlytics/internal/model/CrashlyticsReport$e$d$a$b$c$a;
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/firebase/crashlytics/internal/model/n$b;->d:Lcom/google/firebase/crashlytics/internal/model/CrashlyticsReport$e$d$a$b$c;
 
     return-object p0
@@ -193,10 +181,8 @@
 
     const-string v0, "Null frames"
 
-    .line 1
     invoke-static {p1, v0}, Ljava/util/Objects;->requireNonNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
 
-    .line 2
     iput-object p1, p0, Lcom/google/firebase/crashlytics/internal/model/n$b;->c:Lcom/google/firebase/crashlytics/internal/model/v;
 
     return-object p0
@@ -205,7 +191,6 @@
 .method public d(I)Lcom/google/firebase/crashlytics/internal/model/CrashlyticsReport$e$d$a$b$c$a;
     .locals 0
 
-    .line 1
     invoke-static {p1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object p1
@@ -218,7 +203,6 @@
 .method public e(Ljava/lang/String;)Lcom/google/firebase/crashlytics/internal/model/CrashlyticsReport$e$d$a$b$c$a;
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/firebase/crashlytics/internal/model/n$b;->b:Ljava/lang/String;
 
     return-object p0
@@ -229,10 +213,8 @@
 
     const-string v0, "Null type"
 
-    .line 1
     invoke-static {p1, v0}, Ljava/util/Objects;->requireNonNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
 
-    .line 2
     iput-object p1, p0, Lcom/google/firebase/crashlytics/internal/model/n$b;->a:Ljava/lang/String;
 
     return-object p0

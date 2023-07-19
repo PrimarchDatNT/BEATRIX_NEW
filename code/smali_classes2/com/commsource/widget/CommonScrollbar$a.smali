@@ -22,7 +22,6 @@
 .method constructor <init>(Lcom/commsource/widget/CommonScrollbar;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/widget/CommonScrollbar$a;->a:Lcom/commsource/widget/CommonScrollbar;
 
     invoke-direct {p0}, Lcom/commsource/beautymain/widget/gesturewidget/e$c;-><init>()V
@@ -39,7 +38,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/widget/CommonScrollbar$a;->a:Lcom/commsource/widget/CommonScrollbar;
 
     invoke-virtual {p1}, Landroid/view/MotionEvent;->getY()F
@@ -54,7 +52,6 @@
 
     if-nez v1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v2
@@ -62,7 +59,6 @@
     :cond_0
     const/4 v1, 0x0
 
-    .line 3
     invoke-virtual {p1}, Landroid/view/MotionEvent;->getY()F
 
     move-result p1
@@ -87,7 +83,6 @@
 
     move-result p1
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/widget/CommonScrollbar$a;->a:Lcom/commsource/widget/CommonScrollbar;
 
     invoke-virtual {v1}, Landroid/view/View;->getHeight()I
@@ -130,7 +125,6 @@
 
     sub-float/2addr p1, v1
 
-    .line 5
     iget-object v1, p0, Lcom/commsource/widget/CommonScrollbar$a;->a:Lcom/commsource/widget/CommonScrollbar;
 
     invoke-static {v1}, Lcom/commsource/widget/CommonScrollbar;->h(Lcom/commsource/widget/CommonScrollbar;)Landroidx/recyclerview/widget/RecyclerView;
@@ -143,7 +137,6 @@
 
     const/4 p1, 0x1
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
@@ -156,7 +149,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p2}, Landroid/view/MotionEvent;->getY()F
 
     move-result p2
@@ -183,7 +175,6 @@
 
     move-result p2
 
-    .line 2
     iget-object p3, p0, Lcom/commsource/widget/CommonScrollbar$a;->a:Lcom/commsource/widget/CommonScrollbar;
 
     invoke-virtual {p3}, Landroid/view/View;->getHeight()I
@@ -226,7 +217,6 @@
 
     sub-float/2addr p2, p3
 
-    .line 3
     iget-object p3, p0, Lcom/commsource/widget/CommonScrollbar$a;->a:Lcom/commsource/widget/CommonScrollbar;
 
     invoke-static {p3}, Lcom/commsource/widget/CommonScrollbar;->h(Lcom/commsource/widget/CommonScrollbar;)Landroidx/recyclerview/widget/RecyclerView;
@@ -239,7 +229,6 @@
 
     invoke-virtual {p3, p4, p2}, Landroidx/recyclerview/widget/RecyclerView;->scrollBy(II)V
 
-    .line 4
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const/4 p1, 0x1

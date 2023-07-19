@@ -21,7 +21,6 @@
 .method public constructor <init>(Lcom/google/android/gms/internal/ads/yi2;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -32,12 +31,10 @@
 .method public final synthetic compare(Ljava/lang/Object;Ljava/lang/Object;)I
     .locals 4
 
-    .line 1
     check-cast p1, Lcom/google/android/gms/internal/ads/pi2;
 
     check-cast p2, Lcom/google/android/gms/internal/ads/pi2;
 
-    .line 2
     invoke-virtual {p1}, Lcom/google/android/gms/internal/ads/pi2;->b()F
 
     move-result v0
@@ -54,7 +51,6 @@
 
     return v2
 
-    .line 3
     :cond_0
     invoke-virtual {p1}, Lcom/google/android/gms/internal/ads/pi2;->b()F
 
@@ -72,7 +68,6 @@
 
     return v3
 
-    .line 4
     :cond_1
     invoke-virtual {p1}, Lcom/google/android/gms/internal/ads/pi2;->a()F
 
@@ -88,7 +83,6 @@
 
     return v2
 
-    .line 5
     :cond_2
     invoke-virtual {p1}, Lcom/google/android/gms/internal/ads/pi2;->a()F
 
@@ -104,7 +98,6 @@
 
     return v3
 
-    .line 6
     :cond_3
     invoke-virtual {p1}, Lcom/google/android/gms/internal/ads/pi2;->d()F
 
@@ -128,7 +121,6 @@
 
     mul-float v0, v0, v1
 
-    .line 7
     invoke-virtual {p2}, Lcom/google/android/gms/internal/ads/pi2;->d()F
 
     move-result p1

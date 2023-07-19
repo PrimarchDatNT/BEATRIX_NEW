@@ -23,7 +23,6 @@
 .method static constructor <clinit>()V
     .locals 3
 
-    .line 1
     :try_start_0
     sget-object v0, Lorg/slf4j/impl/StaticMDCBinder;->SINGLETON:Lorg/slf4j/impl/StaticMDCBinder;
 
@@ -43,7 +42,6 @@
 
     const-string v1, "MDC binding unsuccessful."
 
-    .line 2
     invoke-static {v1, v0}, Lorg/slf4j/helpers/i;->c(Ljava/lang/String;Ljava/lang/Throwable;)V
 
     goto :goto_0
@@ -51,14 +49,12 @@
     :catch_1
     move-exception v0
 
-    .line 3
     new-instance v1, Lorg/slf4j/helpers/f;
 
     invoke-direct {v1}, Lorg/slf4j/helpers/f;-><init>()V
 
     sput-object v1, Lorg/slf4j/e;->c:Lorg/slf4j/g/c;
 
-    .line 4
     invoke-virtual {v0}, Ljava/lang/NoClassDefFoundError;->getMessage()Ljava/lang/String;
 
     move-result-object v1
@@ -67,7 +63,6 @@
 
     const-string v2, "StaticMDCBinder"
 
-    .line 5
     invoke-virtual {v1, v2}, Ljava/lang/String;->indexOf(Ljava/lang/String;)I
 
     move-result v1
@@ -78,23 +73,19 @@
 
     const-string v0, "Failed to load class \"org.slf4j.impl.StaticMDCBinder\"."
 
-    .line 6
     invoke-static {v0}, Lorg/slf4j/helpers/i;->b(Ljava/lang/String;)V
 
     const-string v0, "Defaulting to no-operation MDCAdapter implementation."
 
-    .line 7
     invoke-static {v0}, Lorg/slf4j/helpers/i;->b(Ljava/lang/String;)V
 
     const-string v0, "See http://www.slf4j.org/codes.html#no_static_mdc_binder for further details."
 
-    .line 8
     invoke-static {v0}, Lorg/slf4j/helpers/i;->b(Ljava/lang/String;)V
 
     :goto_0
     return-void
 
-    .line 9
     :cond_0
     throw v0
 .end method
@@ -102,7 +93,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -111,17 +101,14 @@
 .method public static a()V
     .locals 2
 
-    .line 1
     sget-object v0, Lorg/slf4j/e;->c:Lorg/slf4j/g/c;
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-interface {v0}, Lorg/slf4j/g/c;->clear()V
 
     return-void
 
-    .line 3
     :cond_0
     new-instance v0, Ljava/lang/IllegalStateException;
 
@@ -142,19 +129,16 @@
 
     if-eqz p0, :cond_1
 
-    .line 1
     sget-object v0, Lorg/slf4j/e;->c:Lorg/slf4j/g/c;
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-interface {v0, p0}, Lorg/slf4j/g/c;->get(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p0
 
     return-object p0
 
-    .line 3
     :cond_0
     new-instance p0, Ljava/lang/IllegalStateException;
 
@@ -164,7 +148,6 @@
 
     throw p0
 
-    .line 4
     :cond_1
     new-instance p0, Ljava/lang/IllegalArgumentException;
 
@@ -187,19 +170,16 @@
         }
     .end annotation
 
-    .line 1
     sget-object v0, Lorg/slf4j/e;->c:Lorg/slf4j/g/c;
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-interface {v0}, Lorg/slf4j/g/c;->b()Ljava/util/Map;
 
     move-result-object v0
 
     return-object v0
 
-    .line 3
     :cond_0
     new-instance v0, Ljava/lang/IllegalStateException;
 
@@ -213,7 +193,6 @@
 .method public static d()Lorg/slf4j/g/c;
     .locals 1
 
-    .line 1
     sget-object v0, Lorg/slf4j/e;->c:Lorg/slf4j/g/c;
 
     return-object v0
@@ -229,17 +208,14 @@
 
     if-eqz p0, :cond_1
 
-    .line 1
     sget-object v0, Lorg/slf4j/e;->c:Lorg/slf4j/g/c;
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-interface {v0, p0, p1}, Lorg/slf4j/g/c;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 
-    .line 3
     :cond_0
     new-instance p0, Ljava/lang/IllegalStateException;
 
@@ -249,7 +225,6 @@
 
     throw p0
 
-    .line 4
     :cond_1
     new-instance p0, Ljava/lang/IllegalArgumentException;
 
@@ -268,10 +243,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p0, p1}, Lorg/slf4j/e;->e(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 2
     new-instance p1, Lorg/slf4j/e$b;
 
     const/4 v0, 0x0
@@ -291,17 +264,14 @@
 
     if-eqz p0, :cond_1
 
-    .line 1
     sget-object v0, Lorg/slf4j/e;->c:Lorg/slf4j/g/c;
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-interface {v0, p0}, Lorg/slf4j/g/c;->remove(Ljava/lang/String;)V
 
     return-void
 
-    .line 3
     :cond_0
     new-instance p0, Ljava/lang/IllegalStateException;
 
@@ -311,7 +281,6 @@
 
     throw p0
 
-    .line 4
     :cond_1
     new-instance p0, Ljava/lang/IllegalArgumentException;
 
@@ -334,17 +303,14 @@
         }
     .end annotation
 
-    .line 1
     sget-object v0, Lorg/slf4j/e;->c:Lorg/slf4j/g/c;
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-interface {v0, p0}, Lorg/slf4j/g/c;->c(Ljava/util/Map;)V
 
     return-void
 
-    .line 3
     :cond_0
     new-instance p0, Ljava/lang/IllegalStateException;
 

@@ -29,7 +29,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/bumptech/glide/request/k/a;-><init>(Lcom/bumptech/glide/request/k/g;)V
 
     return-void
@@ -46,7 +45,6 @@
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
-    .line 1
     check-cast p1, Landroid/graphics/Bitmap;
 
     invoke-virtual {p0, p1}, Lcom/bumptech/glide/request/k/b;->c(Landroid/graphics/Bitmap;)Landroid/graphics/Bitmap;

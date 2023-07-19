@@ -26,16 +26,12 @@
 .method constructor <init>(Landroid/graphics/drawable/Drawable$ConstantState;II)V
     .locals 0
 
-    .line 2
     invoke-direct {p0}, Landroid/graphics/drawable/Drawable$ConstantState;-><init>()V
 
-    .line 3
     iput-object p1, p0, Lcom/bumptech/glide/request/j/i$a;->a:Landroid/graphics/drawable/Drawable$ConstantState;
 
-    .line 4
     iput p2, p0, Lcom/bumptech/glide/request/j/i$a;->b:I
 
-    .line 5
     iput p3, p0, Lcom/bumptech/glide/request/j/i$a;->c:I
 
     return-void
@@ -44,7 +40,6 @@
 .method constructor <init>(Lcom/bumptech/glide/request/j/i$a;)V
     .locals 2
 
-    .line 1
     iget-object v0, p1, Lcom/bumptech/glide/request/j/i$a;->a:Landroid/graphics/drawable/Drawable$ConstantState;
 
     iget v1, p1, Lcom/bumptech/glide/request/j/i$a;->b:I
@@ -71,7 +66,6 @@
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/bumptech/glide/request/j/i;
 
     iget-object v1, p0, Lcom/bumptech/glide/request/j/i$a;->a:Landroid/graphics/drawable/Drawable$ConstantState;
@@ -90,7 +84,6 @@
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
-    .line 2
     new-instance v0, Lcom/bumptech/glide/request/j/i;
 
     iget-object v1, p0, Lcom/bumptech/glide/request/j/i$a;->a:Landroid/graphics/drawable/Drawable$ConstantState;

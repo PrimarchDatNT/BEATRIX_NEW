@@ -73,22 +73,16 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/google/firebase/firestore/remote/s;->a:Lcom/google/firebase/firestore/model/l;
 
-    .line 3
     iput-object p2, p0, Lcom/google/firebase/firestore/remote/s;->b:Ljava/util/Map;
 
-    .line 4
     iput-object p3, p0, Lcom/google/firebase/firestore/remote/s;->c:Ljava/util/Set;
 
-    .line 5
     iput-object p4, p0, Lcom/google/firebase/firestore/remote/s;->d:Ljava/util/Map;
 
-    .line 6
     iput-object p5, p0, Lcom/google/firebase/firestore/remote/s;->e:Ljava/util/Set;
 
     return-void
@@ -108,7 +102,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/firestore/remote/s;->d:Ljava/util/Map;
 
     return-object v0
@@ -125,7 +118,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/firestore/remote/s;->e:Ljava/util/Set;
 
     return-object v0
@@ -134,7 +126,6 @@
 .method public c()Lcom/google/firebase/firestore/model/l;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/firestore/remote/s;->a:Lcom/google/firebase/firestore/model/l;
 
     return-object v0
@@ -152,7 +143,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/firestore/remote/s;->b:Ljava/util/Map;
 
     return-object v0
@@ -169,7 +159,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/firestore/remote/s;->c:Ljava/util/Set;
 
     return-object v0
@@ -178,7 +167,6 @@
 .method public toString()Ljava/lang/String;
     .locals 2
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V

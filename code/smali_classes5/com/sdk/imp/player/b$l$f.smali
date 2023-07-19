@@ -25,7 +25,6 @@
 .method constructor <init>(Lcom/sdk/imp/player/b$l;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/sdk/imp/player/b$l$f;->a:Lcom/sdk/imp/player/b$l;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -38,7 +37,6 @@
 .method public run()V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/sdk/imp/player/b$l$f;->a:Lcom/sdk/imp/player/b$l;
 
     invoke-static {v0}, Lcom/sdk/imp/player/b$l;->i(Lcom/sdk/imp/player/b$l;)I
@@ -51,7 +49,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-virtual {v0}, Lcom/sdk/imp/player/b$k;->b()Z
 
     :cond_0

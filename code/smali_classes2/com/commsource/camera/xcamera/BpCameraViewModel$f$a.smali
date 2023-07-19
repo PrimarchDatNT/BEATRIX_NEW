@@ -42,7 +42,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/BpCameraViewModel$f$a;->a:Lcom/commsource/camera/xcamera/BpCameraViewModel$f;
 
     iget-object v1, v1, Lcom/commsource/camera/xcamera/BpCameraViewModel$f;->c:Lcotlin/jvm/u/a;
@@ -55,7 +54,6 @@
 
     check-cast v1, Lcotlin/t1;
 
-    .line 2
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

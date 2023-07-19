@@ -33,7 +33,6 @@
 .method constructor <init>(Lcom/meitu/core/realtimesegment/MTRealtimeSegmentGPU;Ljava/lang/String;Ljava/lang/String;Landroid/content/res/AssetManager;Landroid/content/Context;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/core/realtimesegment/MTRealtimeSegmentGPU$2;->this$0:Lcom/meitu/core/realtimesegment/MTRealtimeSegmentGPU;
 
     iput-object p2, p0, Lcom/meitu/core/realtimesegment/MTRealtimeSegmentGPU$2;->val$model_file:Ljava/lang/String;
@@ -58,7 +57,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     :try_start_0
     iget-object v1, p0, Lcom/meitu/core/realtimesegment/MTRealtimeSegmentGPU$2;->this$0:Lcom/meitu/core/realtimesegment/MTRealtimeSegmentGPU;
 
@@ -78,13 +76,11 @@
 
     goto :goto_0
 
-    .line 2
     :catch_0
     iget-object v1, p0, Lcom/meitu/core/realtimesegment/MTRealtimeSegmentGPU$2;->val$context:Landroid/content/Context;
 
     invoke-static {v1}, Lcom/meitu/core/realtimesegment/MTRealtimeSegmentGPU;->access$100(Landroid/content/Context;)V
 
-    .line 3
     iget-object v1, p0, Lcom/meitu/core/realtimesegment/MTRealtimeSegmentGPU$2;->this$0:Lcom/meitu/core/realtimesegment/MTRealtimeSegmentGPU;
 
     iget-object v2, p0, Lcom/meitu/core/realtimesegment/MTRealtimeSegmentGPU$2;->val$model_file:Ljava/lang/String;
@@ -99,7 +95,6 @@
 
     iput-wide v2, v1, Lcom/meitu/core/realtimesegment/MTRealtimeSegmentGPU;->mNativeInstance:J
 
-    .line 4
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

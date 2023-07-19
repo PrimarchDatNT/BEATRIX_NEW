@@ -61,12 +61,10 @@
 
     if-nez p1, :cond_0
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 2
     :cond_0
     invoke-virtual {p1}, Lf/d/d/o$c;->c()I
 
@@ -78,7 +76,6 @@
 
     if-nez v1, :cond_5
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/studio/function/AIBeautyFragment$onPictureTransformComplete$1$1;->a:Lcom/commsource/studio/function/AIBeautyFragment$onPictureTransformComplete$1;
 
     iget-object v1, v1, Lcom/commsource/studio/function/AIBeautyFragment$onPictureTransformComplete$1;->this$0:Lcom/commsource/studio/function/AIBeautyFragment;
@@ -89,7 +86,6 @@
 
     if-eqz v1, :cond_1
 
-    .line 4
     invoke-static {}, Lf/d/d/p;->M()I
 
     move-result v4
@@ -102,13 +98,11 @@
 
     goto :goto_0
 
-    .line 5
     :cond_1
     invoke-static {}, Lf/d/d/p;->M()I
 
     move-result v1
 
-    .line 6
     :goto_0
     iget-object v4, p0, Lcom/commsource/studio/function/AIBeautyFragment$onPictureTransformComplete$1$1;->a:Lcom/commsource/studio/function/AIBeautyFragment$onPictureTransformComplete$1;
 
@@ -124,7 +118,6 @@
 
     invoke-static {v4, v1, v5, v2, v6}, Lcom/commsource/studio/effect/c;->I(Lcom/commsource/studio/effect/c;IIILjava/lang/Object;)V
 
-    .line 7
     iget-object v1, p0, Lcom/commsource/studio/function/AIBeautyFragment$onPictureTransformComplete$1$1;->a:Lcom/commsource/studio/function/AIBeautyFragment$onPictureTransformComplete$1;
 
     iget-object v1, v1, Lcom/commsource/studio/function/AIBeautyFragment$onPictureTransformComplete$1;->this$0:Lcom/commsource/studio/function/AIBeautyFragment;
@@ -151,7 +144,6 @@
 
     invoke-virtual {v1, v2, v4}, Lcom/commsource/widget/XSeekBar;->t(IZ)V
 
-    .line 8
     iget-object v1, p0, Lcom/commsource/studio/function/AIBeautyFragment$onPictureTransformComplete$1$1;->a:Lcom/commsource/studio/function/AIBeautyFragment$onPictureTransformComplete$1;
 
     iget-object v1, v1, Lcom/commsource/studio/function/AIBeautyFragment$onPictureTransformComplete$1;->this$0:Lcom/commsource/studio/function/AIBeautyFragment;
@@ -162,7 +154,6 @@
 
     if-eqz v1, :cond_2
 
-    .line 9
     iget-object v2, p0, Lcom/commsource/studio/function/AIBeautyFragment$onPictureTransformComplete$1$1;->a:Lcom/commsource/studio/function/AIBeautyFragment$onPictureTransformComplete$1;
 
     iget-object v2, v2, Lcom/commsource/studio/function/AIBeautyFragment$onPictureTransformComplete$1;->this$0:Lcom/commsource/studio/function/AIBeautyFragment;
@@ -173,7 +164,6 @@
 
     invoke-virtual {v2, v4}, Lcom/commsource/studio/function/BaseSubFragment;->Y0(Lcotlin/jvm/u/a;)V
 
-    .line 10
     :cond_2
     iget-object v1, p0, Lcom/commsource/studio/function/AIBeautyFragment$onPictureTransformComplete$1$1;->a:Lcom/commsource/studio/function/AIBeautyFragment$onPictureTransformComplete$1;
 
@@ -193,7 +183,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/studio/layer/EffectTranslateLayer;->J0(Landroid/graphics/Bitmap;)V
 
-    .line 11
     iget-object v1, p0, Lcom/commsource/studio/function/AIBeautyFragment$onPictureTransformComplete$1$1;->a:Lcom/commsource/studio/function/AIBeautyFragment$onPictureTransformComplete$1;
 
     iget-object v1, v1, Lcom/commsource/studio/function/AIBeautyFragment$onPictureTransformComplete$1;->this$0:Lcom/commsource/studio/function/AIBeautyFragment;
@@ -212,7 +201,6 @@
 
     invoke-virtual {v1, p1}, Lcom/commsource/studio/layer/EffectTranslateLayer;->I0(Landroid/graphics/Bitmap;)V
 
-    .line 12
     iget-object p1, p0, Lcom/commsource/studio/function/AIBeautyFragment$onPictureTransformComplete$1$1;->a:Lcom/commsource/studio/function/AIBeautyFragment$onPictureTransformComplete$1;
 
     iget-object p1, p1, Lcom/commsource/studio/function/AIBeautyFragment$onPictureTransformComplete$1;->this$0:Lcom/commsource/studio/function/AIBeautyFragment;
@@ -241,7 +229,6 @@
 
     invoke-virtual {p1, v1}, Lcom/commsource/studio/layer/EffectTranslateLayer;->H0(F)V
 
-    .line 13
     iget-object p1, p0, Lcom/commsource/studio/function/AIBeautyFragment$onPictureTransformComplete$1$1;->a:Lcom/commsource/studio/function/AIBeautyFragment$onPictureTransformComplete$1;
 
     iget-object p1, p1, Lcom/commsource/studio/function/AIBeautyFragment$onPictureTransformComplete$1;->this$0:Lcom/commsource/studio/function/AIBeautyFragment;
@@ -252,7 +239,6 @@
 
     invoke-virtual {p1}, Lcom/commsource/studio/layer/EffectTranslateLayer;->K0()V
 
-    .line 14
     invoke-static {}, Lf/d/i/o;->o0()Z
 
     move-result p1
@@ -275,7 +261,6 @@
 
     goto :goto_1
 
-    .line 15
     :cond_3
     iget-object p1, p0, Lcom/commsource/studio/function/AIBeautyFragment$onPictureTransformComplete$1$1;->a:Lcom/commsource/studio/function/AIBeautyFragment$onPictureTransformComplete$1;
 
@@ -297,7 +282,6 @@
 
     goto :goto_2
 
-    .line 16
     :cond_4
     :goto_1
     iget-object p1, p0, Lcom/commsource/studio/function/AIBeautyFragment$onPictureTransformComplete$1$1;->a:Lcom/commsource/studio/function/AIBeautyFragment$onPictureTransformComplete$1;
@@ -320,7 +304,6 @@
 
     goto :goto_2
 
-    .line 17
     :cond_5
     invoke-virtual {p1}, Lf/d/d/o$c;->c()I
 
@@ -342,7 +325,6 @@
 
     if-ne p1, v2, :cond_7
 
-    .line 18
     :cond_6
     iget-object p1, p0, Lcom/commsource/studio/function/AIBeautyFragment$onPictureTransformComplete$1$1;->a:Lcom/commsource/studio/function/AIBeautyFragment$onPictureTransformComplete$1;
 
@@ -350,7 +332,6 @@
 
     invoke-virtual {p1}, Lcom/commsource/studio/function/AIBeautyFragment;->I0()V
 
-    .line 19
     :cond_7
     :goto_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -365,7 +346,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Lf/d/d/o$c;
 
     invoke-virtual {p0, p1}, Lcom/commsource/studio/function/AIBeautyFragment$onPictureTransformComplete$1$1;->a(Lf/d/d/o$c;)V

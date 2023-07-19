@@ -52,10 +52,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/google/common/util/concurrent/TimeoutFuture$b;->a:Lcom/google/common/util/concurrent/TimeoutFuture;
 
     return-void
@@ -66,14 +64,12 @@
 .method public run()V
     .locals 10
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/util/concurrent/TimeoutFuture$b;->a:Lcom/google/common/util/concurrent/TimeoutFuture;
 
     if-nez v0, :cond_0
 
     return-void
 
-    .line 2
     :cond_0
     invoke-static {v0}, Lcom/google/common/util/concurrent/TimeoutFuture;->O(Lcom/google/common/util/concurrent/TimeoutFuture;)Lcom/google/common/util/concurrent/g0;
 
@@ -86,17 +82,14 @@
     :cond_1
     const/4 v2, 0x0
 
-    .line 3
     iput-object v2, p0, Lcom/google/common/util/concurrent/TimeoutFuture$b;->a:Lcom/google/common/util/concurrent/TimeoutFuture;
 
-    .line 4
     invoke-interface {v1}, Ljava/util/concurrent/Future;->isDone()Z
 
     move-result v3
 
     if-eqz v3, :cond_2
 
-    .line 5
     invoke-virtual {v0, v1}, Lcom/google/common/util/concurrent/AbstractFuture;->E(Lcom/google/common/util/concurrent/g0;)Z
 
     goto :goto_0
@@ -104,13 +97,11 @@
     :cond_2
     const/4 v3, 0x1
 
-    .line 6
     :try_start_0
     invoke-static {v0}, Lcom/google/common/util/concurrent/TimeoutFuture;->P(Lcom/google/common/util/concurrent/TimeoutFuture;)Ljava/util/concurrent/ScheduledFuture;
 
     move-result-object v4
 
-    .line 7
     invoke-static {v0, v2}, Lcom/google/common/util/concurrent/TimeoutFuture;->Q(Lcom/google/common/util/concurrent/TimeoutFuture;Ljava/util/concurrent/ScheduledFuture;)Ljava/util/concurrent/ScheduledFuture;
 
     const-string v5, "Timed out"
@@ -119,7 +110,6 @@
 
     if-eqz v4, :cond_3
 
-    .line 8
     :try_start_1
     sget-object v6, Ljava/util/concurrent/TimeUnit;->MILLISECONDS:Ljava/util/concurrent/TimeUnit;
 
@@ -137,7 +127,6 @@
 
     if-lez v4, :cond_3
 
-    .line 9
     new-instance v4, Ljava/lang/StringBuilder;
 
     invoke-direct {v4}, Ljava/lang/StringBuilder;-><init>()V
@@ -160,7 +149,6 @@
 
     move-object v5, v4
 
-    .line 10
     :cond_3
     new-instance v4, Ljava/lang/StringBuilder;
 
@@ -180,7 +168,6 @@
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
-    .line 11
     :try_start_2
     new-instance v5, Lcom/google/common/util/concurrent/TimeoutFuture$TimeoutFutureException;
 
@@ -190,7 +177,6 @@
     :try_end_2
     .catchall {:try_start_2 .. :try_end_2} :catchall_1
 
-    .line 12
     invoke-interface {v1, v3}, Ljava/util/concurrent/Future;->cancel(Z)Z
 
     :goto_0
@@ -199,7 +185,6 @@
     :catchall_0
     move-exception v4
 
-    .line 13
     :try_start_3
     new-instance v6, Lcom/google/common/util/concurrent/TimeoutFuture$TimeoutFutureException;
 
@@ -207,7 +192,6 @@
 
     invoke-virtual {v0, v6}, Lcom/google/common/util/concurrent/AbstractFuture;->D(Ljava/lang/Throwable;)Z
 
-    .line 14
     throw v4
     :try_end_3
     .catchall {:try_start_3 .. :try_end_3} :catchall_1
@@ -215,9 +199,7 @@
     :catchall_1
     move-exception v0
 
-    .line 15
     invoke-interface {v1, v3}, Ljava/util/concurrent/Future;->cancel(Z)Z
 
-    .line 16
     throw v0
 .end method

@@ -28,7 +28,6 @@
 .method public constructor <init>(Lcotlin/jvm/u/l;Lcotlin/coroutines/c;Lcotlin/coroutines/c;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcotlin/coroutines/intrinsics/IntrinsicsKt__IntrinsicsJvmKt$createCoroutineFromSuspendFunction$1;->$block:Lcotlin/jvm/u/l;
 
     iput-object p2, p0, Lcotlin/coroutines/intrinsics/IntrinsicsKt__IntrinsicsJvmKt$createCoroutineFromSuspendFunction$1;->$completion:Lcotlin/coroutines/c;
@@ -49,7 +48,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     iget v0, p0, Lcotlin/coroutines/intrinsics/IntrinsicsKt__IntrinsicsJvmKt$createCoroutineFromSuspendFunction$1;->label:I
 
     const/4 v1, 0x1
@@ -60,15 +58,12 @@
 
     const/4 v0, 0x2
 
-    .line 2
     iput v0, p0, Lcotlin/coroutines/intrinsics/IntrinsicsKt__IntrinsicsJvmKt$createCoroutineFromSuspendFunction$1;->label:I
 
-    .line 3
     invoke-static {p1}, Lcotlin/r0;->n(Ljava/lang/Object;)V
 
     goto :goto_0
 
-    .line 4
     :cond_0
     new-instance p1, Ljava/lang/IllegalStateException;
 
@@ -82,14 +77,11 @@
 
     throw p1
 
-    .line 5
     :cond_1
     iput v1, p0, Lcotlin/coroutines/intrinsics/IntrinsicsKt__IntrinsicsJvmKt$createCoroutineFromSuspendFunction$1;->label:I
 
-    .line 6
     invoke-static {p1}, Lcotlin/r0;->n(Ljava/lang/Object;)V
 
-    .line 7
     iget-object p1, p0, Lcotlin/coroutines/intrinsics/IntrinsicsKt__IntrinsicsJvmKt$createCoroutineFromSuspendFunction$1;->$block:Lcotlin/jvm/u/l;
 
     invoke-interface {p1, p0}, Lcotlin/jvm/u/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;

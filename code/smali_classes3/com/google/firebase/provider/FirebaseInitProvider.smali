@@ -16,7 +16,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Landroid/content/ContentProvider;-><init>()V
 
     return-void
@@ -31,10 +30,8 @@
 
     const-string v0, "FirebaseInitProvider ProviderInfo cannot be null."
 
-    .line 1
     invoke-static {p0, v0}, Lcom/google/android/gms/common/internal/b0;->l(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 2
     iget-object p0, p0, Landroid/content/pm/ProviderInfo;->authority:Ljava/lang/String;
 
     const-string v0, "com.google.firebase.firebaseinitprovider"
@@ -47,7 +44,6 @@
 
     return-void
 
-    .line 3
     :cond_0
     new-instance p0, Ljava/lang/IllegalStateException;
 
@@ -71,10 +67,8 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-static {p2}, Lcom/google/firebase/provider/FirebaseInitProvider;->a(Landroid/content/pm/ProviderInfo;)V
 
-    .line 2
     invoke-super {p0, p1, p2}, Landroid/content/ContentProvider;->attachInfo(Landroid/content/Context;Landroid/content/pm/ProviderInfo;)V
 
     return-void
@@ -135,7 +129,6 @@
 .method public onCreate()Z
     .locals 2
 
-    .line 1
     invoke-virtual {p0}, Landroid/content/ContentProvider;->getContext()Landroid/content/Context;
 
     move-result-object v0
@@ -150,7 +143,6 @@
 
     const-string v0, "FirebaseApp initialization unsuccessful"
 
-    .line 2
     invoke-static {v1, v0}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;)I
 
     goto :goto_0
@@ -158,7 +150,6 @@
     :cond_0
     const-string v0, "FirebaseApp initialization successful"
 
-    .line 3
     invoke-static {v1, v0}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;)I
 
     :goto_0

@@ -79,7 +79,6 @@
 .method static constructor <clinit>()V
     .locals 16
 
-    .line 1
     new-instance v0, Lorg/apache/thrift/protocol/TStruct;
 
     const-string v1, "SamplingStrategyResponse"
@@ -88,7 +87,6 @@
 
     sput-object v0, Lio/jaegertracing/thrift/sampling_manager/SamplingStrategyResponse;->STRUCT_DESC:Lorg/apache/thrift/protocol/TStruct;
 
-    .line 2
     new-instance v0, Lorg/apache/thrift/protocol/TField;
 
     const-string v1, "strategyType"
@@ -101,7 +99,6 @@
 
     sput-object v0, Lio/jaegertracing/thrift/sampling_manager/SamplingStrategyResponse;->STRATEGY_TYPE_FIELD_DESC:Lorg/apache/thrift/protocol/TField;
 
-    .line 3
     new-instance v0, Lorg/apache/thrift/protocol/TField;
 
     const-string v2, "probabilisticSampling"
@@ -114,7 +111,6 @@
 
     sput-object v0, Lio/jaegertracing/thrift/sampling_manager/SamplingStrategyResponse;->PROBABILISTIC_SAMPLING_FIELD_DESC:Lorg/apache/thrift/protocol/TField;
 
-    .line 4
     new-instance v0, Lorg/apache/thrift/protocol/TField;
 
     const-string v6, "rateLimitingSampling"
@@ -125,7 +121,6 @@
 
     sput-object v0, Lio/jaegertracing/thrift/sampling_manager/SamplingStrategyResponse;->RATE_LIMITING_SAMPLING_FIELD_DESC:Lorg/apache/thrift/protocol/TField;
 
-    .line 5
     new-instance v0, Lorg/apache/thrift/protocol/TField;
 
     const-string v8, "operationSampling"
@@ -136,7 +131,6 @@
 
     sput-object v0, Lio/jaegertracing/thrift/sampling_manager/SamplingStrategyResponse;->OPERATION_SAMPLING_FIELD_DESC:Lorg/apache/thrift/protocol/TField;
 
-    .line 6
     new-instance v0, Lio/jaegertracing/thrift/sampling_manager/SamplingStrategyResponse$c;
 
     const/4 v9, 0x0
@@ -145,7 +139,6 @@
 
     sput-object v0, Lio/jaegertracing/thrift/sampling_manager/SamplingStrategyResponse;->STANDARD_SCHEME_FACTORY:Lorg/apache/thrift/scheme/SchemeFactory;
 
-    .line 7
     new-instance v0, Lio/jaegertracing/thrift/sampling_manager/SamplingStrategyResponse$e;
 
     invoke-direct {v0, v9}, Lio/jaegertracing/thrift/sampling_manager/SamplingStrategyResponse$e;-><init>(Lio/jaegertracing/thrift/sampling_manager/SamplingStrategyResponse$a;)V
@@ -154,7 +147,6 @@
 
     new-array v0, v7, [Lio/jaegertracing/thrift/sampling_manager/SamplingStrategyResponse$_Fields;
 
-    .line 8
     sget-object v7, Lio/jaegertracing/thrift/sampling_manager/SamplingStrategyResponse$_Fields;->PROBABILISTIC_SAMPLING:Lio/jaegertracing/thrift/sampling_manager/SamplingStrategyResponse$_Fields;
 
     const/4 v9, 0x0
@@ -171,14 +163,12 @@
 
     sput-object v0, Lio/jaegertracing/thrift/sampling_manager/SamplingStrategyResponse;->optionals:[Lio/jaegertracing/thrift/sampling_manager/SamplingStrategyResponse$_Fields;
 
-    .line 9
     new-instance v0, Ljava/util/EnumMap;
 
     const-class v11, Lio/jaegertracing/thrift/sampling_manager/SamplingStrategyResponse$_Fields;
 
     invoke-direct {v0, v11}, Ljava/util/EnumMap;-><init>(Ljava/lang/Class;)V
 
-    .line 10
     sget-object v11, Lio/jaegertracing/thrift/sampling_manager/SamplingStrategyResponse$_Fields;->STRATEGY_TYPE:Lio/jaegertracing/thrift/sampling_manager/SamplingStrategyResponse$_Fields;
 
     new-instance v12, Lorg/apache/thrift/meta_data/FieldMetaData;
@@ -195,7 +185,6 @@
 
     invoke-interface {v0, v11, v12}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 11
     new-instance v1, Lorg/apache/thrift/meta_data/FieldMetaData;
 
     new-instance v3, Lorg/apache/thrift/meta_data/StructMetaData;
@@ -208,7 +197,6 @@
 
     invoke-interface {v0, v7, v1}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 12
     new-instance v1, Lorg/apache/thrift/meta_data/FieldMetaData;
 
     new-instance v2, Lorg/apache/thrift/meta_data/StructMetaData;
@@ -221,7 +209,6 @@
 
     invoke-interface {v0, v9, v1}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 13
     new-instance v1, Lorg/apache/thrift/meta_data/FieldMetaData;
 
     new-instance v2, Lorg/apache/thrift/meta_data/StructMetaData;
@@ -234,14 +221,12 @@
 
     invoke-interface {v0, v10, v1}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 14
     invoke-static {v0}, Ljava/util/Collections;->unmodifiableMap(Ljava/util/Map;)Ljava/util/Map;
 
     move-result-object v0
 
     sput-object v0, Lio/jaegertracing/thrift/sampling_manager/SamplingStrategyResponse;->metaDataMap:Ljava/util/Map;
 
-    .line 15
     const-class v1, Lio/jaegertracing/thrift/sampling_manager/SamplingStrategyResponse;
 
     invoke-static {v1, v0}, Lorg/apache/thrift/meta_data/FieldMetaData;->addStructMetaDataMap(Ljava/lang/Class;Ljava/util/Map;)V
@@ -252,7 +237,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -261,22 +245,18 @@
 .method public constructor <init>(Lio/jaegertracing/thrift/sampling_manager/SamplingStrategyResponse;)V
     .locals 2
 
-    .line 4
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 5
     invoke-virtual {p1}, Lio/jaegertracing/thrift/sampling_manager/SamplingStrategyResponse;->isSetStrategyType()Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
-    .line 6
     iget-object v0, p1, Lio/jaegertracing/thrift/sampling_manager/SamplingStrategyResponse;->strategyType:Lio/jaegertracing/thrift/sampling_manager/SamplingStrategyType;
 
     iput-object v0, p0, Lio/jaegertracing/thrift/sampling_manager/SamplingStrategyResponse;->strategyType:Lio/jaegertracing/thrift/sampling_manager/SamplingStrategyType;
 
-    .line 7
     :cond_0
     invoke-virtual {p1}, Lio/jaegertracing/thrift/sampling_manager/SamplingStrategyResponse;->isSetProbabilisticSampling()Z
 
@@ -284,7 +264,6 @@
 
     if-eqz v0, :cond_1
 
-    .line 8
     new-instance v0, Lio/jaegertracing/thrift/sampling_manager/ProbabilisticSamplingStrategy;
 
     iget-object v1, p1, Lio/jaegertracing/thrift/sampling_manager/SamplingStrategyResponse;->probabilisticSampling:Lio/jaegertracing/thrift/sampling_manager/ProbabilisticSamplingStrategy;
@@ -293,7 +272,6 @@
 
     iput-object v0, p0, Lio/jaegertracing/thrift/sampling_manager/SamplingStrategyResponse;->probabilisticSampling:Lio/jaegertracing/thrift/sampling_manager/ProbabilisticSamplingStrategy;
 
-    .line 9
     :cond_1
     invoke-virtual {p1}, Lio/jaegertracing/thrift/sampling_manager/SamplingStrategyResponse;->isSetRateLimitingSampling()Z
 
@@ -301,7 +279,6 @@
 
     if-eqz v0, :cond_2
 
-    .line 10
     new-instance v0, Lio/jaegertracing/thrift/sampling_manager/RateLimitingSamplingStrategy;
 
     iget-object v1, p1, Lio/jaegertracing/thrift/sampling_manager/SamplingStrategyResponse;->rateLimitingSampling:Lio/jaegertracing/thrift/sampling_manager/RateLimitingSamplingStrategy;
@@ -310,7 +287,6 @@
 
     iput-object v0, p0, Lio/jaegertracing/thrift/sampling_manager/SamplingStrategyResponse;->rateLimitingSampling:Lio/jaegertracing/thrift/sampling_manager/RateLimitingSamplingStrategy;
 
-    .line 11
     :cond_2
     invoke-virtual {p1}, Lio/jaegertracing/thrift/sampling_manager/SamplingStrategyResponse;->isSetOperationSampling()Z
 
@@ -318,7 +294,6 @@
 
     if-eqz v0, :cond_3
 
-    .line 12
     new-instance v0, Lio/jaegertracing/thrift/sampling_manager/PerOperationSamplingStrategies;
 
     iget-object p1, p1, Lio/jaegertracing/thrift/sampling_manager/SamplingStrategyResponse;->operationSampling:Lio/jaegertracing/thrift/sampling_manager/PerOperationSamplingStrategies;
@@ -334,10 +309,8 @@
 .method public constructor <init>(Lio/jaegertracing/thrift/sampling_manager/SamplingStrategyType;)V
     .locals 0
 
-    .line 2
     invoke-direct {p0}, Lio/jaegertracing/thrift/sampling_manager/SamplingStrategyResponse;-><init>()V
 
-    .line 3
     iput-object p1, p0, Lio/jaegertracing/thrift/sampling_manager/SamplingStrategyResponse;->strategyType:Lio/jaegertracing/thrift/sampling_manager/SamplingStrategyType;
 
     return-void
@@ -346,7 +319,6 @@
 .method static synthetic access$300()Lorg/apache/thrift/protocol/TStruct;
     .locals 1
 
-    .line 1
     sget-object v0, Lio/jaegertracing/thrift/sampling_manager/SamplingStrategyResponse;->STRUCT_DESC:Lorg/apache/thrift/protocol/TStruct;
 
     return-object v0
@@ -355,7 +327,6 @@
 .method static synthetic access$400()Lorg/apache/thrift/protocol/TField;
     .locals 1
 
-    .line 1
     sget-object v0, Lio/jaegertracing/thrift/sampling_manager/SamplingStrategyResponse;->STRATEGY_TYPE_FIELD_DESC:Lorg/apache/thrift/protocol/TField;
 
     return-object v0
@@ -364,7 +335,6 @@
 .method static synthetic access$500()Lorg/apache/thrift/protocol/TField;
     .locals 1
 
-    .line 1
     sget-object v0, Lio/jaegertracing/thrift/sampling_manager/SamplingStrategyResponse;->PROBABILISTIC_SAMPLING_FIELD_DESC:Lorg/apache/thrift/protocol/TField;
 
     return-object v0
@@ -373,7 +343,6 @@
 .method static synthetic access$600()Lorg/apache/thrift/protocol/TField;
     .locals 1
 
-    .line 1
     sget-object v0, Lio/jaegertracing/thrift/sampling_manager/SamplingStrategyResponse;->RATE_LIMITING_SAMPLING_FIELD_DESC:Lorg/apache/thrift/protocol/TField;
 
     return-object v0
@@ -382,7 +351,6 @@
 .method static synthetic access$700()Lorg/apache/thrift/protocol/TField;
     .locals 1
 
-    .line 1
     sget-object v0, Lio/jaegertracing/thrift/sampling_manager/SamplingStrategyResponse;->OPERATION_SAMPLING_FIELD_DESC:Lorg/apache/thrift/protocol/TField;
 
     return-object v0
@@ -397,7 +365,6 @@
         }
     .end annotation
 
-    .line 1
     :try_start_0
     new-instance v0, Lorg/apache/thrift/protocol/TCompactProtocol;
 
@@ -416,7 +383,6 @@
     :catch_0
     move-exception p1
 
-    .line 2
     new-instance v0, Ljava/io/IOException;
 
     invoke-direct {v0, p1}, Ljava/io/IOException;-><init>(Ljava/lang/Throwable;)V
@@ -436,7 +402,6 @@
         }
     .end annotation
 
-    .line 1
     const-class v0, Lorg/apache/thrift/scheme/StandardScheme;
 
     invoke-virtual {p0}, Lorg/apache/thrift/protocol/TProtocol;->getScheme()Ljava/lang/Class;
@@ -472,7 +437,6 @@
         }
     .end annotation
 
-    .line 1
     :try_start_0
     new-instance v0, Lorg/apache/thrift/protocol/TCompactProtocol;
 
@@ -491,7 +455,6 @@
     :catch_0
     move-exception p1
 
-    .line 2
     new-instance v0, Ljava/io/IOException;
 
     invoke-direct {v0, p1}, Ljava/io/IOException;-><init>(Ljava/lang/Throwable;)V
@@ -506,16 +469,12 @@
 
     const/4 v0, 0x0
 
-    .line 1
     iput-object v0, p0, Lio/jaegertracing/thrift/sampling_manager/SamplingStrategyResponse;->strategyType:Lio/jaegertracing/thrift/sampling_manager/SamplingStrategyType;
 
-    .line 2
     iput-object v0, p0, Lio/jaegertracing/thrift/sampling_manager/SamplingStrategyResponse;->probabilisticSampling:Lio/jaegertracing/thrift/sampling_manager/ProbabilisticSamplingStrategy;
 
-    .line 3
     iput-object v0, p0, Lio/jaegertracing/thrift/sampling_manager/SamplingStrategyResponse;->rateLimitingSampling:Lio/jaegertracing/thrift/sampling_manager/RateLimitingSamplingStrategy;
 
-    .line 4
     iput-object v0, p0, Lio/jaegertracing/thrift/sampling_manager/SamplingStrategyResponse;->operationSampling:Lio/jaegertracing/thrift/sampling_manager/PerOperationSamplingStrategies;
 
     return-void
@@ -524,7 +483,6 @@
 .method public compareTo(Lio/jaegertracing/thrift/sampling_manager/SamplingStrategyResponse;)I
     .locals 2
 
-    .line 2
     invoke-virtual {p0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
     move-result-object v0
@@ -539,7 +497,6 @@
 
     if-nez v0, :cond_0
 
-    .line 3
     invoke-virtual {p0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
     move-result-object v0
@@ -562,7 +519,6 @@
 
     return p1
 
-    .line 4
     :cond_0
     invoke-virtual {p0}, Lio/jaegertracing/thrift/sampling_manager/SamplingStrategyResponse;->isSetStrategyType()Z
 
@@ -588,7 +544,6 @@
 
     return v0
 
-    .line 5
     :cond_1
     invoke-virtual {p0}, Lio/jaegertracing/thrift/sampling_manager/SamplingStrategyResponse;->isSetStrategyType()Z
 
@@ -596,7 +551,6 @@
 
     if-eqz v0, :cond_2
 
-    .line 6
     iget-object v0, p0, Lio/jaegertracing/thrift/sampling_manager/SamplingStrategyResponse;->strategyType:Lio/jaegertracing/thrift/sampling_manager/SamplingStrategyType;
 
     iget-object v1, p1, Lio/jaegertracing/thrift/sampling_manager/SamplingStrategyResponse;->strategyType:Lio/jaegertracing/thrift/sampling_manager/SamplingStrategyType;
@@ -609,7 +563,6 @@
 
     return v0
 
-    .line 7
     :cond_2
     invoke-virtual {p0}, Lio/jaegertracing/thrift/sampling_manager/SamplingStrategyResponse;->isSetProbabilisticSampling()Z
 
@@ -635,7 +588,6 @@
 
     return v0
 
-    .line 8
     :cond_3
     invoke-virtual {p0}, Lio/jaegertracing/thrift/sampling_manager/SamplingStrategyResponse;->isSetProbabilisticSampling()Z
 
@@ -643,7 +595,6 @@
 
     if-eqz v0, :cond_4
 
-    .line 9
     iget-object v0, p0, Lio/jaegertracing/thrift/sampling_manager/SamplingStrategyResponse;->probabilisticSampling:Lio/jaegertracing/thrift/sampling_manager/ProbabilisticSamplingStrategy;
 
     iget-object v1, p1, Lio/jaegertracing/thrift/sampling_manager/SamplingStrategyResponse;->probabilisticSampling:Lio/jaegertracing/thrift/sampling_manager/ProbabilisticSamplingStrategy;
@@ -656,7 +607,6 @@
 
     return v0
 
-    .line 10
     :cond_4
     invoke-virtual {p0}, Lio/jaegertracing/thrift/sampling_manager/SamplingStrategyResponse;->isSetRateLimitingSampling()Z
 
@@ -682,7 +632,6 @@
 
     return v0
 
-    .line 11
     :cond_5
     invoke-virtual {p0}, Lio/jaegertracing/thrift/sampling_manager/SamplingStrategyResponse;->isSetRateLimitingSampling()Z
 
@@ -690,7 +639,6 @@
 
     if-eqz v0, :cond_6
 
-    .line 12
     iget-object v0, p0, Lio/jaegertracing/thrift/sampling_manager/SamplingStrategyResponse;->rateLimitingSampling:Lio/jaegertracing/thrift/sampling_manager/RateLimitingSamplingStrategy;
 
     iget-object v1, p1, Lio/jaegertracing/thrift/sampling_manager/SamplingStrategyResponse;->rateLimitingSampling:Lio/jaegertracing/thrift/sampling_manager/RateLimitingSamplingStrategy;
@@ -703,7 +651,6 @@
 
     return v0
 
-    .line 13
     :cond_6
     invoke-virtual {p0}, Lio/jaegertracing/thrift/sampling_manager/SamplingStrategyResponse;->isSetOperationSampling()Z
 
@@ -729,7 +676,6 @@
 
     return v0
 
-    .line 14
     :cond_7
     invoke-virtual {p0}, Lio/jaegertracing/thrift/sampling_manager/SamplingStrategyResponse;->isSetOperationSampling()Z
 
@@ -737,7 +683,6 @@
 
     if-eqz v0, :cond_8
 
-    .line 15
     iget-object v0, p0, Lio/jaegertracing/thrift/sampling_manager/SamplingStrategyResponse;->operationSampling:Lio/jaegertracing/thrift/sampling_manager/PerOperationSamplingStrategies;
 
     iget-object p1, p1, Lio/jaegertracing/thrift/sampling_manager/SamplingStrategyResponse;->operationSampling:Lio/jaegertracing/thrift/sampling_manager/PerOperationSamplingStrategies;
@@ -759,7 +704,6 @@
 .method public bridge synthetic compareTo(Ljava/lang/Object;)I
     .locals 0
 
-    .line 1
     check-cast p1, Lio/jaegertracing/thrift/sampling_manager/SamplingStrategyResponse;
 
     invoke-virtual {p0, p1}, Lio/jaegertracing/thrift/sampling_manager/SamplingStrategyResponse;->compareTo(Lio/jaegertracing/thrift/sampling_manager/SamplingStrategyResponse;)I
@@ -772,7 +716,6 @@
 .method public deepCopy()Lio/jaegertracing/thrift/sampling_manager/SamplingStrategyResponse;
     .locals 1
 
-    .line 2
     new-instance v0, Lio/jaegertracing/thrift/sampling_manager/SamplingStrategyResponse;
 
     invoke-direct {v0, p0}, Lio/jaegertracing/thrift/sampling_manager/SamplingStrategyResponse;-><init>(Lio/jaegertracing/thrift/sampling_manager/SamplingStrategyResponse;)V
@@ -783,7 +726,6 @@
 .method public bridge synthetic deepCopy()Lorg/apache/thrift/TBase;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lio/jaegertracing/thrift/sampling_manager/SamplingStrategyResponse;->deepCopy()Lio/jaegertracing/thrift/sampling_manager/SamplingStrategyResponse;
 
     move-result-object v0
@@ -807,13 +749,11 @@
 
     return v1
 
-    .line 3
     :cond_1
     invoke-virtual {p0}, Lio/jaegertracing/thrift/sampling_manager/SamplingStrategyResponse;->isSetStrategyType()Z
 
     move-result v2
 
-    .line 4
     invoke-virtual {p1}, Lio/jaegertracing/thrift/sampling_manager/SamplingStrategyResponse;->isSetStrategyType()Z
 
     move-result v3
@@ -829,7 +769,6 @@
 
     goto :goto_0
 
-    .line 5
     :cond_3
     iget-object v2, p0, Lio/jaegertracing/thrift/sampling_manager/SamplingStrategyResponse;->strategyType:Lio/jaegertracing/thrift/sampling_manager/SamplingStrategyType;
 
@@ -843,13 +782,11 @@
 
     return v0
 
-    .line 6
     :cond_4
     invoke-virtual {p0}, Lio/jaegertracing/thrift/sampling_manager/SamplingStrategyResponse;->isSetProbabilisticSampling()Z
 
     move-result v2
 
-    .line 7
     invoke-virtual {p1}, Lio/jaegertracing/thrift/sampling_manager/SamplingStrategyResponse;->isSetProbabilisticSampling()Z
 
     move-result v3
@@ -865,7 +802,6 @@
 
     goto :goto_0
 
-    .line 8
     :cond_6
     iget-object v2, p0, Lio/jaegertracing/thrift/sampling_manager/SamplingStrategyResponse;->probabilisticSampling:Lio/jaegertracing/thrift/sampling_manager/ProbabilisticSamplingStrategy;
 
@@ -879,13 +815,11 @@
 
     return v0
 
-    .line 9
     :cond_7
     invoke-virtual {p0}, Lio/jaegertracing/thrift/sampling_manager/SamplingStrategyResponse;->isSetRateLimitingSampling()Z
 
     move-result v2
 
-    .line 10
     invoke-virtual {p1}, Lio/jaegertracing/thrift/sampling_manager/SamplingStrategyResponse;->isSetRateLimitingSampling()Z
 
     move-result v3
@@ -901,7 +835,6 @@
 
     goto :goto_0
 
-    .line 11
     :cond_9
     iget-object v2, p0, Lio/jaegertracing/thrift/sampling_manager/SamplingStrategyResponse;->rateLimitingSampling:Lio/jaegertracing/thrift/sampling_manager/RateLimitingSamplingStrategy;
 
@@ -915,13 +848,11 @@
 
     return v0
 
-    .line 12
     :cond_a
     invoke-virtual {p0}, Lio/jaegertracing/thrift/sampling_manager/SamplingStrategyResponse;->isSetOperationSampling()Z
 
     move-result v2
 
-    .line 13
     invoke-virtual {p1}, Lio/jaegertracing/thrift/sampling_manager/SamplingStrategyResponse;->isSetOperationSampling()Z
 
     move-result v3
@@ -937,7 +868,6 @@
 
     goto :goto_0
 
-    .line 14
     :cond_c
     iget-object v2, p0, Lio/jaegertracing/thrift/sampling_manager/SamplingStrategyResponse;->operationSampling:Lio/jaegertracing/thrift/sampling_manager/PerOperationSamplingStrategies;
 
@@ -968,13 +898,11 @@
 
     return v0
 
-    .line 1
     :cond_0
     instance-of v1, p1, Lio/jaegertracing/thrift/sampling_manager/SamplingStrategyResponse;
 
     if-eqz v1, :cond_1
 
-    .line 2
     check-cast p1, Lio/jaegertracing/thrift/sampling_manager/SamplingStrategyResponse;
 
     invoke-virtual {p0, p1}, Lio/jaegertracing/thrift/sampling_manager/SamplingStrategyResponse;->equals(Lio/jaegertracing/thrift/sampling_manager/SamplingStrategyResponse;)Z
@@ -990,7 +918,6 @@
 .method public fieldForId(I)Lio/jaegertracing/thrift/sampling_manager/SamplingStrategyResponse$_Fields;
     .locals 0
 
-    .line 2
     invoke-static {p1}, Lio/jaegertracing/thrift/sampling_manager/SamplingStrategyResponse$_Fields;->findByThriftId(I)Lio/jaegertracing/thrift/sampling_manager/SamplingStrategyResponse$_Fields;
 
     move-result-object p1
@@ -1001,7 +928,6 @@
 .method public bridge synthetic fieldForId(I)Lorg/apache/thrift/TFieldIdEnum;
     .locals 0
 
-    .line 1
     invoke-virtual {p0, p1}, Lio/jaegertracing/thrift/sampling_manager/SamplingStrategyResponse;->fieldForId(I)Lio/jaegertracing/thrift/sampling_manager/SamplingStrategyResponse$_Fields;
 
     move-result-object p1
@@ -1012,7 +938,6 @@
 .method public getFieldValue(Lio/jaegertracing/thrift/sampling_manager/SamplingStrategyResponse$_Fields;)Ljava/lang/Object;
     .locals 1
 
-    .line 2
     sget-object v0, Lio/jaegertracing/thrift/sampling_manager/SamplingStrategyResponse$a;->a:[I
 
     invoke-virtual {p1}, Ljava/lang/Enum;->ordinal()I
@@ -1037,14 +962,12 @@
 
     if-ne p1, v0, :cond_0
 
-    .line 3
     invoke-virtual {p0}, Lio/jaegertracing/thrift/sampling_manager/SamplingStrategyResponse;->getOperationSampling()Lio/jaegertracing/thrift/sampling_manager/PerOperationSamplingStrategies;
 
     move-result-object p1
 
     return-object p1
 
-    .line 4
     :cond_0
     new-instance p1, Ljava/lang/IllegalStateException;
 
@@ -1052,7 +975,6 @@
 
     throw p1
 
-    .line 5
     :cond_1
     invoke-virtual {p0}, Lio/jaegertracing/thrift/sampling_manager/SamplingStrategyResponse;->getRateLimitingSampling()Lio/jaegertracing/thrift/sampling_manager/RateLimitingSamplingStrategy;
 
@@ -1060,7 +982,6 @@
 
     return-object p1
 
-    .line 6
     :cond_2
     invoke-virtual {p0}, Lio/jaegertracing/thrift/sampling_manager/SamplingStrategyResponse;->getProbabilisticSampling()Lio/jaegertracing/thrift/sampling_manager/ProbabilisticSamplingStrategy;
 
@@ -1068,7 +989,6 @@
 
     return-object p1
 
-    .line 7
     :cond_3
     invoke-virtual {p0}, Lio/jaegertracing/thrift/sampling_manager/SamplingStrategyResponse;->getStrategyType()Lio/jaegertracing/thrift/sampling_manager/SamplingStrategyType;
 
@@ -1080,7 +1000,6 @@
 .method public bridge synthetic getFieldValue(Lorg/apache/thrift/TFieldIdEnum;)Ljava/lang/Object;
     .locals 0
 
-    .line 1
     check-cast p1, Lio/jaegertracing/thrift/sampling_manager/SamplingStrategyResponse$_Fields;
 
     invoke-virtual {p0, p1}, Lio/jaegertracing/thrift/sampling_manager/SamplingStrategyResponse;->getFieldValue(Lio/jaegertracing/thrift/sampling_manager/SamplingStrategyResponse$_Fields;)Ljava/lang/Object;
@@ -1093,7 +1012,6 @@
 .method public getOperationSampling()Lio/jaegertracing/thrift/sampling_manager/PerOperationSamplingStrategies;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lio/jaegertracing/thrift/sampling_manager/SamplingStrategyResponse;->operationSampling:Lio/jaegertracing/thrift/sampling_manager/PerOperationSamplingStrategies;
 
     return-object v0
@@ -1102,7 +1020,6 @@
 .method public getProbabilisticSampling()Lio/jaegertracing/thrift/sampling_manager/ProbabilisticSamplingStrategy;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lio/jaegertracing/thrift/sampling_manager/SamplingStrategyResponse;->probabilisticSampling:Lio/jaegertracing/thrift/sampling_manager/ProbabilisticSamplingStrategy;
 
     return-object v0
@@ -1111,7 +1028,6 @@
 .method public getRateLimitingSampling()Lio/jaegertracing/thrift/sampling_manager/RateLimitingSamplingStrategy;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lio/jaegertracing/thrift/sampling_manager/SamplingStrategyResponse;->rateLimitingSampling:Lio/jaegertracing/thrift/sampling_manager/RateLimitingSamplingStrategy;
 
     return-object v0
@@ -1120,7 +1036,6 @@
 .method public getStrategyType()Lio/jaegertracing/thrift/sampling_manager/SamplingStrategyType;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lio/jaegertracing/thrift/sampling_manager/SamplingStrategyResponse;->strategyType:Lio/jaegertracing/thrift/sampling_manager/SamplingStrategyType;
 
     return-object v0
@@ -1129,7 +1044,6 @@
 .method public hashCode()I
     .locals 5
 
-    .line 1
     invoke-virtual {p0}, Lio/jaegertracing/thrift/sampling_manager/SamplingStrategyResponse;->isSetStrategyType()Z
 
     move-result v0
@@ -1152,7 +1066,6 @@
 
     add-int/2addr v0, v3
 
-    .line 2
     invoke-virtual {p0}, Lio/jaegertracing/thrift/sampling_manager/SamplingStrategyResponse;->isSetStrategyType()Z
 
     move-result v4
@@ -1161,7 +1074,6 @@
 
     mul-int/lit16 v0, v0, 0x1fff
 
-    .line 3
     iget-object v4, p0, Lio/jaegertracing/thrift/sampling_manager/SamplingStrategyResponse;->strategyType:Lio/jaegertracing/thrift/sampling_manager/SamplingStrategyType;
 
     invoke-virtual {v4}, Lio/jaegertracing/thrift/sampling_manager/SamplingStrategyType;->getValue()I
@@ -1173,7 +1085,6 @@
     :cond_1
     mul-int/lit16 v0, v0, 0x1fff
 
-    .line 4
     invoke-virtual {p0}, Lio/jaegertracing/thrift/sampling_manager/SamplingStrategyResponse;->isSetProbabilisticSampling()Z
 
     move-result v4
@@ -1190,7 +1101,6 @@
     :goto_1
     add-int/2addr v0, v4
 
-    .line 5
     invoke-virtual {p0}, Lio/jaegertracing/thrift/sampling_manager/SamplingStrategyResponse;->isSetProbabilisticSampling()Z
 
     move-result v4
@@ -1199,7 +1109,6 @@
 
     mul-int/lit16 v0, v0, 0x1fff
 
-    .line 6
     iget-object v4, p0, Lio/jaegertracing/thrift/sampling_manager/SamplingStrategyResponse;->probabilisticSampling:Lio/jaegertracing/thrift/sampling_manager/ProbabilisticSamplingStrategy;
 
     invoke-virtual {v4}, Lio/jaegertracing/thrift/sampling_manager/ProbabilisticSamplingStrategy;->hashCode()I
@@ -1211,7 +1120,6 @@
     :cond_3
     mul-int/lit16 v0, v0, 0x1fff
 
-    .line 7
     invoke-virtual {p0}, Lio/jaegertracing/thrift/sampling_manager/SamplingStrategyResponse;->isSetRateLimitingSampling()Z
 
     move-result v4
@@ -1228,7 +1136,6 @@
     :goto_2
     add-int/2addr v0, v4
 
-    .line 8
     invoke-virtual {p0}, Lio/jaegertracing/thrift/sampling_manager/SamplingStrategyResponse;->isSetRateLimitingSampling()Z
 
     move-result v4
@@ -1237,7 +1144,6 @@
 
     mul-int/lit16 v0, v0, 0x1fff
 
-    .line 9
     iget-object v4, p0, Lio/jaegertracing/thrift/sampling_manager/SamplingStrategyResponse;->rateLimitingSampling:Lio/jaegertracing/thrift/sampling_manager/RateLimitingSamplingStrategy;
 
     invoke-virtual {v4}, Lio/jaegertracing/thrift/sampling_manager/RateLimitingSamplingStrategy;->hashCode()I
@@ -1249,7 +1155,6 @@
     :cond_5
     mul-int/lit16 v0, v0, 0x1fff
 
-    .line 10
     invoke-virtual {p0}, Lio/jaegertracing/thrift/sampling_manager/SamplingStrategyResponse;->isSetOperationSampling()Z
 
     move-result v3
@@ -1264,7 +1169,6 @@
     :goto_3
     add-int/2addr v0, v1
 
-    .line 11
     invoke-virtual {p0}, Lio/jaegertracing/thrift/sampling_manager/SamplingStrategyResponse;->isSetOperationSampling()Z
 
     move-result v1
@@ -1273,7 +1177,6 @@
 
     mul-int/lit16 v0, v0, 0x1fff
 
-    .line 12
     iget-object v1, p0, Lio/jaegertracing/thrift/sampling_manager/SamplingStrategyResponse;->operationSampling:Lio/jaegertracing/thrift/sampling_manager/PerOperationSamplingStrategies;
 
     invoke-virtual {v1}, Lio/jaegertracing/thrift/sampling_manager/PerOperationSamplingStrategies;->hashCode()I
@@ -1291,7 +1194,6 @@
 
     if-eqz p1, :cond_4
 
-    .line 2
     sget-object v0, Lio/jaegertracing/thrift/sampling_manager/SamplingStrategyResponse$a;->a:[I
 
     invoke-virtual {p1}, Ljava/lang/Enum;->ordinal()I
@@ -1316,14 +1218,12 @@
 
     if-ne p1, v0, :cond_0
 
-    .line 3
     invoke-virtual {p0}, Lio/jaegertracing/thrift/sampling_manager/SamplingStrategyResponse;->isSetOperationSampling()Z
 
     move-result p1
 
     return p1
 
-    .line 4
     :cond_0
     new-instance p1, Ljava/lang/IllegalStateException;
 
@@ -1331,7 +1231,6 @@
 
     throw p1
 
-    .line 5
     :cond_1
     invoke-virtual {p0}, Lio/jaegertracing/thrift/sampling_manager/SamplingStrategyResponse;->isSetRateLimitingSampling()Z
 
@@ -1339,7 +1238,6 @@
 
     return p1
 
-    .line 6
     :cond_2
     invoke-virtual {p0}, Lio/jaegertracing/thrift/sampling_manager/SamplingStrategyResponse;->isSetProbabilisticSampling()Z
 
@@ -1347,7 +1245,6 @@
 
     return p1
 
-    .line 7
     :cond_3
     invoke-virtual {p0}, Lio/jaegertracing/thrift/sampling_manager/SamplingStrategyResponse;->isSetStrategyType()Z
 
@@ -1355,7 +1252,6 @@
 
     return p1
 
-    .line 8
     :cond_4
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -1367,7 +1263,6 @@
 .method public bridge synthetic isSet(Lorg/apache/thrift/TFieldIdEnum;)Z
     .locals 0
 
-    .line 1
     check-cast p1, Lio/jaegertracing/thrift/sampling_manager/SamplingStrategyResponse$_Fields;
 
     invoke-virtual {p0, p1}, Lio/jaegertracing/thrift/sampling_manager/SamplingStrategyResponse;->isSet(Lio/jaegertracing/thrift/sampling_manager/SamplingStrategyResponse$_Fields;)Z
@@ -1380,7 +1275,6 @@
 .method public isSetOperationSampling()Z
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lio/jaegertracing/thrift/sampling_manager/SamplingStrategyResponse;->operationSampling:Lio/jaegertracing/thrift/sampling_manager/PerOperationSamplingStrategies;
 
     if-eqz v0, :cond_0
@@ -1399,7 +1293,6 @@
 .method public isSetProbabilisticSampling()Z
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lio/jaegertracing/thrift/sampling_manager/SamplingStrategyResponse;->probabilisticSampling:Lio/jaegertracing/thrift/sampling_manager/ProbabilisticSamplingStrategy;
 
     if-eqz v0, :cond_0
@@ -1418,7 +1311,6 @@
 .method public isSetRateLimitingSampling()Z
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lio/jaegertracing/thrift/sampling_manager/SamplingStrategyResponse;->rateLimitingSampling:Lio/jaegertracing/thrift/sampling_manager/RateLimitingSamplingStrategy;
 
     if-eqz v0, :cond_0
@@ -1437,7 +1329,6 @@
 .method public isSetStrategyType()Z
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lio/jaegertracing/thrift/sampling_manager/SamplingStrategyResponse;->strategyType:Lio/jaegertracing/thrift/sampling_manager/SamplingStrategyType;
 
     if-eqz v0, :cond_0
@@ -1461,7 +1352,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p1}, Lio/jaegertracing/thrift/sampling_manager/SamplingStrategyResponse;->scheme(Lorg/apache/thrift/protocol/TProtocol;)Lorg/apache/thrift/scheme/IScheme;
 
     move-result-object v0
@@ -1474,7 +1364,6 @@
 .method public setFieldValue(Lio/jaegertracing/thrift/sampling_manager/SamplingStrategyResponse$_Fields;Ljava/lang/Object;)V
     .locals 1
 
-    .line 2
     sget-object v0, Lio/jaegertracing/thrift/sampling_manager/SamplingStrategyResponse$a;->a:[I
 
     invoke-virtual {p1}, Ljava/lang/Enum;->ordinal()I
@@ -1504,12 +1393,10 @@
     :cond_0
     if-nez p2, :cond_1
 
-    .line 3
     invoke-virtual {p0}, Lio/jaegertracing/thrift/sampling_manager/SamplingStrategyResponse;->unsetOperationSampling()V
 
     goto :goto_0
 
-    .line 4
     :cond_1
     check-cast p2, Lio/jaegertracing/thrift/sampling_manager/PerOperationSamplingStrategies;
 
@@ -1520,12 +1407,10 @@
     :cond_2
     if-nez p2, :cond_3
 
-    .line 5
     invoke-virtual {p0}, Lio/jaegertracing/thrift/sampling_manager/SamplingStrategyResponse;->unsetRateLimitingSampling()V
 
     goto :goto_0
 
-    .line 6
     :cond_3
     check-cast p2, Lio/jaegertracing/thrift/sampling_manager/RateLimitingSamplingStrategy;
 
@@ -1536,12 +1421,10 @@
     :cond_4
     if-nez p2, :cond_5
 
-    .line 7
     invoke-virtual {p0}, Lio/jaegertracing/thrift/sampling_manager/SamplingStrategyResponse;->unsetProbabilisticSampling()V
 
     goto :goto_0
 
-    .line 8
     :cond_5
     check-cast p2, Lio/jaegertracing/thrift/sampling_manager/ProbabilisticSamplingStrategy;
 
@@ -1552,12 +1435,10 @@
     :cond_6
     if-nez p2, :cond_7
 
-    .line 9
     invoke-virtual {p0}, Lio/jaegertracing/thrift/sampling_manager/SamplingStrategyResponse;->unsetStrategyType()V
 
     goto :goto_0
 
-    .line 10
     :cond_7
     check-cast p2, Lio/jaegertracing/thrift/sampling_manager/SamplingStrategyType;
 
@@ -1570,7 +1451,6 @@
 .method public bridge synthetic setFieldValue(Lorg/apache/thrift/TFieldIdEnum;Ljava/lang/Object;)V
     .locals 0
 
-    .line 1
     check-cast p1, Lio/jaegertracing/thrift/sampling_manager/SamplingStrategyResponse$_Fields;
 
     invoke-virtual {p0, p1, p2}, Lio/jaegertracing/thrift/sampling_manager/SamplingStrategyResponse;->setFieldValue(Lio/jaegertracing/thrift/sampling_manager/SamplingStrategyResponse$_Fields;Ljava/lang/Object;)V
@@ -1581,7 +1461,6 @@
 .method public setOperationSampling(Lio/jaegertracing/thrift/sampling_manager/PerOperationSamplingStrategies;)Lio/jaegertracing/thrift/sampling_manager/SamplingStrategyResponse;
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lio/jaegertracing/thrift/sampling_manager/SamplingStrategyResponse;->operationSampling:Lio/jaegertracing/thrift/sampling_manager/PerOperationSamplingStrategies;
 
     return-object p0
@@ -1594,7 +1473,6 @@
 
     const/4 p1, 0x0
 
-    .line 1
     iput-object p1, p0, Lio/jaegertracing/thrift/sampling_manager/SamplingStrategyResponse;->operationSampling:Lio/jaegertracing/thrift/sampling_manager/PerOperationSamplingStrategies;
 
     :cond_0
@@ -1604,7 +1482,6 @@
 .method public setProbabilisticSampling(Lio/jaegertracing/thrift/sampling_manager/ProbabilisticSamplingStrategy;)Lio/jaegertracing/thrift/sampling_manager/SamplingStrategyResponse;
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lio/jaegertracing/thrift/sampling_manager/SamplingStrategyResponse;->probabilisticSampling:Lio/jaegertracing/thrift/sampling_manager/ProbabilisticSamplingStrategy;
 
     return-object p0
@@ -1617,7 +1494,6 @@
 
     const/4 p1, 0x0
 
-    .line 1
     iput-object p1, p0, Lio/jaegertracing/thrift/sampling_manager/SamplingStrategyResponse;->probabilisticSampling:Lio/jaegertracing/thrift/sampling_manager/ProbabilisticSamplingStrategy;
 
     :cond_0
@@ -1627,7 +1503,6 @@
 .method public setRateLimitingSampling(Lio/jaegertracing/thrift/sampling_manager/RateLimitingSamplingStrategy;)Lio/jaegertracing/thrift/sampling_manager/SamplingStrategyResponse;
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lio/jaegertracing/thrift/sampling_manager/SamplingStrategyResponse;->rateLimitingSampling:Lio/jaegertracing/thrift/sampling_manager/RateLimitingSamplingStrategy;
 
     return-object p0
@@ -1640,7 +1515,6 @@
 
     const/4 p1, 0x0
 
-    .line 1
     iput-object p1, p0, Lio/jaegertracing/thrift/sampling_manager/SamplingStrategyResponse;->rateLimitingSampling:Lio/jaegertracing/thrift/sampling_manager/RateLimitingSamplingStrategy;
 
     :cond_0
@@ -1650,7 +1524,6 @@
 .method public setStrategyType(Lio/jaegertracing/thrift/sampling_manager/SamplingStrategyType;)Lio/jaegertracing/thrift/sampling_manager/SamplingStrategyResponse;
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lio/jaegertracing/thrift/sampling_manager/SamplingStrategyResponse;->strategyType:Lio/jaegertracing/thrift/sampling_manager/SamplingStrategyType;
 
     return-object p0
@@ -1663,7 +1536,6 @@
 
     const/4 p1, 0x0
 
-    .line 1
     iput-object p1, p0, Lio/jaegertracing/thrift/sampling_manager/SamplingStrategyResponse;->strategyType:Lio/jaegertracing/thrift/sampling_manager/SamplingStrategyType;
 
     :cond_0
@@ -1673,7 +1545,6 @@
 .method public toString()Ljava/lang/String;
     .locals 4
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     const-string v1, "SamplingStrategyResponse("
@@ -1682,26 +1553,21 @@
 
     const-string v1, "strategyType:"
 
-    .line 2
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 3
     iget-object v1, p0, Lio/jaegertracing/thrift/sampling_manager/SamplingStrategyResponse;->strategyType:Lio/jaegertracing/thrift/sampling_manager/SamplingStrategyType;
 
     const-string v2, "null"
 
     if-nez v1, :cond_0
 
-    .line 4
     invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     goto :goto_0
 
-    .line 5
     :cond_0
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
 
-    .line 6
     :goto_0
     invoke-virtual {p0}, Lio/jaegertracing/thrift/sampling_manager/SamplingStrategyResponse;->isSetProbabilisticSampling()Z
 
@@ -1711,29 +1577,23 @@
 
     if-eqz v1, :cond_2
 
-    .line 7
     invoke-virtual {v0, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     const-string v1, "probabilisticSampling:"
 
-    .line 8
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 9
     iget-object v1, p0, Lio/jaegertracing/thrift/sampling_manager/SamplingStrategyResponse;->probabilisticSampling:Lio/jaegertracing/thrift/sampling_manager/ProbabilisticSamplingStrategy;
 
     if-nez v1, :cond_1
 
-    .line 10
     invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     goto :goto_1
 
-    .line 11
     :cond_1
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
 
-    .line 12
     :cond_2
     :goto_1
     invoke-virtual {p0}, Lio/jaegertracing/thrift/sampling_manager/SamplingStrategyResponse;->isSetRateLimitingSampling()Z
@@ -1742,29 +1602,23 @@
 
     if-eqz v1, :cond_4
 
-    .line 13
     invoke-virtual {v0, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     const-string v1, "rateLimitingSampling:"
 
-    .line 14
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 15
     iget-object v1, p0, Lio/jaegertracing/thrift/sampling_manager/SamplingStrategyResponse;->rateLimitingSampling:Lio/jaegertracing/thrift/sampling_manager/RateLimitingSamplingStrategy;
 
     if-nez v1, :cond_3
 
-    .line 16
     invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     goto :goto_2
 
-    .line 17
     :cond_3
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
 
-    .line 18
     :cond_4
     :goto_2
     invoke-virtual {p0}, Lio/jaegertracing/thrift/sampling_manager/SamplingStrategyResponse;->isSetOperationSampling()Z
@@ -1773,25 +1627,20 @@
 
     if-eqz v1, :cond_6
 
-    .line 19
     invoke-virtual {v0, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     const-string v1, "operationSampling:"
 
-    .line 20
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 21
     iget-object v1, p0, Lio/jaegertracing/thrift/sampling_manager/SamplingStrategyResponse;->operationSampling:Lio/jaegertracing/thrift/sampling_manager/PerOperationSamplingStrategies;
 
     if-nez v1, :cond_5
 
-    .line 22
     invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     goto :goto_3
 
-    .line 23
     :cond_5
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
 
@@ -1799,10 +1648,8 @@
     :goto_3
     const-string v1, ")"
 
-    .line 24
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 25
     invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     move-result-object v0
@@ -1815,7 +1662,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     iput-object v0, p0, Lio/jaegertracing/thrift/sampling_manager/SamplingStrategyResponse;->operationSampling:Lio/jaegertracing/thrift/sampling_manager/PerOperationSamplingStrategies;
 
     return-void
@@ -1826,7 +1672,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     iput-object v0, p0, Lio/jaegertracing/thrift/sampling_manager/SamplingStrategyResponse;->probabilisticSampling:Lio/jaegertracing/thrift/sampling_manager/ProbabilisticSamplingStrategy;
 
     return-void
@@ -1837,7 +1682,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     iput-object v0, p0, Lio/jaegertracing/thrift/sampling_manager/SamplingStrategyResponse;->rateLimitingSampling:Lio/jaegertracing/thrift/sampling_manager/RateLimitingSamplingStrategy;
 
     return-void
@@ -1848,7 +1692,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     iput-object v0, p0, Lio/jaegertracing/thrift/sampling_manager/SamplingStrategyResponse;->strategyType:Lio/jaegertracing/thrift/sampling_manager/SamplingStrategyType;
 
     return-void
@@ -1862,41 +1705,33 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lio/jaegertracing/thrift/sampling_manager/SamplingStrategyResponse;->strategyType:Lio/jaegertracing/thrift/sampling_manager/SamplingStrategyType;
 
     if-eqz v0, :cond_3
 
-    .line 2
     iget-object v0, p0, Lio/jaegertracing/thrift/sampling_manager/SamplingStrategyResponse;->probabilisticSampling:Lio/jaegertracing/thrift/sampling_manager/ProbabilisticSamplingStrategy;
 
     if-eqz v0, :cond_0
 
-    .line 3
     invoke-virtual {v0}, Lio/jaegertracing/thrift/sampling_manager/ProbabilisticSamplingStrategy;->validate()V
 
-    .line 4
     :cond_0
     iget-object v0, p0, Lio/jaegertracing/thrift/sampling_manager/SamplingStrategyResponse;->rateLimitingSampling:Lio/jaegertracing/thrift/sampling_manager/RateLimitingSamplingStrategy;
 
     if-eqz v0, :cond_1
 
-    .line 5
     invoke-virtual {v0}, Lio/jaegertracing/thrift/sampling_manager/RateLimitingSamplingStrategy;->validate()V
 
-    .line 6
     :cond_1
     iget-object v0, p0, Lio/jaegertracing/thrift/sampling_manager/SamplingStrategyResponse;->operationSampling:Lio/jaegertracing/thrift/sampling_manager/PerOperationSamplingStrategies;
 
     if-eqz v0, :cond_2
 
-    .line 7
     invoke-virtual {v0}, Lio/jaegertracing/thrift/sampling_manager/PerOperationSamplingStrategies;->validate()V
 
     :cond_2
     return-void
 
-    .line 8
     :cond_3
     new-instance v0, Lorg/apache/thrift/protocol/TProtocolException;
 
@@ -1931,7 +1766,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p1}, Lio/jaegertracing/thrift/sampling_manager/SamplingStrategyResponse;->scheme(Lorg/apache/thrift/protocol/TProtocol;)Lorg/apache/thrift/scheme/IScheme;
 
     move-result-object v0

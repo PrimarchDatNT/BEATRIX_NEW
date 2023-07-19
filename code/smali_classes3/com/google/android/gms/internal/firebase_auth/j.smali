@@ -10,7 +10,6 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
     new-instance v0, Lcom/google/android/gms/internal/firebase_auth/j;
 
     invoke-direct {v0}, Lcom/google/android/gms/internal/firebase_auth/j;-><init>()V
@@ -25,7 +24,6 @@
 
     const-string v0, "CharMatcher.none()"
 
-    .line 1
     invoke-direct {p0, v0}, Lcom/google/android/gms/internal/firebase_auth/g;-><init>(Ljava/lang/String;)V
 
     return-void
@@ -36,14 +34,12 @@
 .method public final a(Ljava/lang/CharSequence;I)I
     .locals 1
 
-    .line 1
     invoke-interface {p1}, Ljava/lang/CharSequence;->length()I
 
     move-result p1
 
     const-string v0, "index"
 
-    .line 2
     invoke-static {p2, p1, v0}, Lcom/google/android/gms/internal/firebase_auth/k;->d(IILjava/lang/String;)I
 
     const/4 p1, -0x1

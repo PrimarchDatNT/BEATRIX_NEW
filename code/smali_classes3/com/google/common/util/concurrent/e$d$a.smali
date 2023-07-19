@@ -26,7 +26,6 @@
 .method constructor <init>(JJLjava/util/concurrent/TimeUnit;)V
     .locals 0
 
-    .line 1
     iput-wide p1, p0, Lcom/google/common/util/concurrent/e$d$a;->a:J
 
     iput-wide p3, p0, Lcom/google/common/util/concurrent/e$d$a;->b:J
@@ -56,7 +55,6 @@
         }
     .end annotation
 
-    .line 1
     iget-wide v2, p0, Lcom/google/common/util/concurrent/e$d$a;->a:J
 
     iget-wide v4, p0, Lcom/google/common/util/concurrent/e$d$a;->b:J

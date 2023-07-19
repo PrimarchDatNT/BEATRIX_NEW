@@ -21,7 +21,6 @@
 .method public static a(Lcom/google/android/gms/internal/ads/te0;)Lcom/google/android/gms/internal/ads/xf0;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/android/gms/internal/ads/te0;->c()Lcom/google/android/gms/internal/ads/xf0;
 
     move-result-object p0
@@ -42,7 +41,6 @@
 .method public final synthetic get()Ljava/lang/Object;
     .locals 1
 
-    .line 1
     new-instance v0, Ljava/lang/NoSuchMethodError;
 
     invoke-direct {v0}, Ljava/lang/NoSuchMethodError;-><init>()V

@@ -59,7 +59,6 @@
 .method public constructor <init>(III)V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     if-eqz p3, :cond_1
@@ -68,22 +67,18 @@
 
     if-eq p3, v0, :cond_0
 
-    .line 2
     iput p1, p0, Lcotlin/g2/i;->a:I
 
-    .line 3
     invoke-static {p1, p2, p3}, Lcotlin/internal/m;->c(III)I
 
     move-result p1
 
     iput p1, p0, Lcotlin/g2/i;->b:I
 
-    .line 4
     iput p3, p0, Lcotlin/g2/i;->c:I
 
     return-void
 
-    .line 5
     :cond_0
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -93,7 +88,6 @@
 
     throw p1
 
-    .line 6
     :cond_1
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -109,7 +103,6 @@
 .method public final c()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lcotlin/g2/i;->a:I
 
     return v0
@@ -118,7 +111,6 @@
 .method public final e()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lcotlin/g2/i;->b:I
 
     return v0
@@ -131,7 +123,6 @@
         .end annotation
     .end param
 
-    .line 1
     instance-of v0, p1, Lcotlin/g2/i;
 
     if-eqz v0, :cond_2
@@ -188,7 +179,6 @@
 .method public final h()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lcotlin/g2/i;->c:I
 
     return v0
@@ -197,7 +187,6 @@
 .method public hashCode()I
     .locals 2
 
-    .line 1
     invoke-virtual {p0}, Lcotlin/g2/i;->isEmpty()Z
 
     move-result v0
@@ -232,7 +221,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     new-instance v0, Lcotlin/g2/j;
 
     iget v1, p0, Lcotlin/g2/i;->a:I
@@ -249,7 +237,6 @@
 .method public isEmpty()Z
     .locals 4
 
-    .line 1
     iget v0, p0, Lcotlin/g2/i;->c:I
 
     const/4 v1, 0x1
@@ -285,7 +272,6 @@
 .method public bridge synthetic iterator()Ljava/util/Iterator;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcotlin/g2/i;->i()Lcotlin/collections/l0;
 
     move-result-object v0
@@ -298,7 +284,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget v0, p0, Lcotlin/g2/i;->c:I
 
     const-string v1, " step "

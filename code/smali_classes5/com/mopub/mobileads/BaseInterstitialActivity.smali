@@ -21,7 +21,6 @@
 .method constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Landroid/app/Activity;-><init>()V
 
     return-void
@@ -35,7 +34,6 @@
     :try_start_0
     const-string v0, "com_mopub_ad_data"
 
-    .line 1
     invoke-virtual {p0, v0}, Landroid/content/Intent;->getParcelableExtra(Ljava/lang/String;)Landroid/os/Parcelable;
 
     move-result-object p0
@@ -60,7 +58,6 @@
 .method getBroadcastIdentifier()J
     .locals 2
 
-    .line 1
     iget-wide v0, p0, Lcom/mopub/mobileads/BaseInterstitialActivity;->mBroadcastIdentifier:J
 
     return-wide v0
@@ -71,7 +68,6 @@
     .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/mobileads/BaseInterstitialActivity;->mCloseableLayout:Lcom/mopub/common/CloseableLayout;
 
     return-object v0
@@ -80,14 +76,12 @@
 .method protected hideInterstitialCloseButton()V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/mobileads/BaseInterstitialActivity;->mCloseableLayout:Lcom/mopub/common/CloseableLayout;
 
     if-eqz v0, :cond_0
 
     const/4 v1, 0x0
 
-    .line 2
     invoke-virtual {v0, v1}, Lcom/mopub/common/CloseableLayout;->setCloseVisible(Z)V
 
     :cond_0
@@ -97,10 +91,8 @@
 .method protected onCreate(Landroid/os/Bundle;)V
     .locals 3
 
-    .line 1
     invoke-super {p0, p1}, Landroid/app/Activity;->onCreate(Landroid/os/Bundle;)V
 
-    .line 2
     invoke-virtual {p0}, Landroid/app/Activity;->getIntent()Landroid/content/Intent;
 
     move-result-object p1
@@ -111,7 +103,6 @@
 
     if-nez p1, :cond_0
 
-    .line 3
     sget-object p1, Lcom/mopub/common/logging/MoPubLog$SdkLogEvent;->CUSTOM:Lcom/mopub/common/logging/MoPubLog$SdkLogEvent;
 
     new-array v1, v1, [Ljava/lang/Object;
@@ -122,12 +113,10 @@
 
     invoke-static {p1, v1}, Lcom/mopub/common/logging/MoPubLog;->log(Lcom/mopub/common/logging/MoPubLog$MPLogEventType;[Ljava/lang/Object;)V
 
-    .line 4
     invoke-virtual {p0}, Landroid/app/Activity;->finish()V
 
     return-void
 
-    .line 5
     :cond_0
     invoke-static {p1}, Lcom/mopub/mobileads/BaseInterstitialActivity;->getAdDataFromIntent(Landroid/content/Intent;)Lcom/mopub/mobileads/AdData;
 
@@ -137,7 +126,6 @@
 
     if-nez p1, :cond_1
 
-    .line 6
     sget-object p1, Lcom/mopub/common/logging/MoPubLog$SdkLogEvent;->CUSTOM:Lcom/mopub/common/logging/MoPubLog$SdkLogEvent;
 
     new-array v1, v1, [Ljava/lang/Object;
@@ -148,12 +136,10 @@
 
     invoke-static {p1, v1}, Lcom/mopub/common/logging/MoPubLog;->log(Lcom/mopub/common/logging/MoPubLog$MPLogEventType;[Ljava/lang/Object;)V
 
-    .line 7
     invoke-virtual {p0}, Landroid/app/Activity;->finish()V
 
     return-void
 
-    .line 8
     :cond_1
     invoke-virtual {p1}, Lcom/mopub/mobileads/AdData;->getBroadcastIdentifier()J
 
@@ -161,12 +147,10 @@
 
     iput-wide v0, p0, Lcom/mopub/mobileads/BaseInterstitialActivity;->mBroadcastIdentifier:J
 
-    .line 9
     invoke-virtual {p0}, Lcom/mopub/mobileads/BaseInterstitialActivity;->getAdView()Landroid/view/View;
 
     move-result-object p1
 
-    .line 10
     new-instance v0, Lcom/mopub/common/CloseableLayout;
 
     const/4 v1, 0x0
@@ -175,14 +159,12 @@
 
     iput-object v0, p0, Lcom/mopub/mobileads/BaseInterstitialActivity;->mCloseableLayout:Lcom/mopub/common/CloseableLayout;
 
-    .line 11
     new-instance v1, Lcom/mopub/mobileads/BaseInterstitialActivity$1;
 
     invoke-direct {v1, p0}, Lcom/mopub/mobileads/BaseInterstitialActivity$1;-><init>(Lcom/mopub/mobileads/BaseInterstitialActivity;)V
 
     invoke-virtual {v0, v1}, Lcom/mopub/common/CloseableLayout;->setOnCloseListener(Lcom/mopub/common/CloseableLayout$OnCloseListener;)V
 
-    .line 12
     iget-object v0, p0, Lcom/mopub/mobileads/BaseInterstitialActivity;->mCloseableLayout:Lcom/mopub/common/CloseableLayout;
 
     new-instance v1, Landroid/widget/FrameLayout$LayoutParams;
@@ -193,7 +175,6 @@
 
     invoke-virtual {v0, p1, v1}, Landroid/widget/FrameLayout;->addView(Landroid/view/View;Landroid/view/ViewGroup$LayoutParams;)V
 
-    .line 13
     iget-object p1, p0, Lcom/mopub/mobileads/BaseInterstitialActivity;->mCloseableLayout:Lcom/mopub/common/CloseableLayout;
 
     invoke-virtual {p0, p1}, Landroid/app/Activity;->setContentView(Landroid/view/View;)V
@@ -204,15 +185,12 @@
 .method protected onDestroy()V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/mobileads/BaseInterstitialActivity;->mCloseableLayout:Lcom/mopub/common/CloseableLayout;
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-virtual {v0}, Lcom/mopub/common/CloseableLayout;->removeAllViews()V
 
-    .line 3
     :cond_0
     invoke-super {p0}, Landroid/app/Activity;->onDestroy()V
 
@@ -222,10 +200,8 @@
 .method protected onStart()V
     .locals 0
 
-    .line 1
     invoke-super {p0}, Landroid/app/Activity;->onStart()V
 
-    .line 2
     invoke-static {p0}, Lcom/mopub/common/util/Utils;->hideNavigationBar(Landroid/app/Activity;)V
 
     return-void
@@ -234,14 +210,12 @@
 .method protected showInterstitialCloseButton()V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/mobileads/BaseInterstitialActivity;->mCloseableLayout:Lcom/mopub/common/CloseableLayout;
 
     if-eqz v0, :cond_0
 
     const/4 v1, 0x1
 
-    .line 2
     invoke-virtual {v0, v1}, Lcom/mopub/common/CloseableLayout;->setCloseVisible(Z)V
 
     :cond_0

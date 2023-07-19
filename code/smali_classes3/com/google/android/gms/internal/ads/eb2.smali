@@ -24,22 +24,16 @@
 .method public constructor <init>([I[J[J[J)V
     .locals 2
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/google/android/gms/internal/ads/eb2;->b:[I
 
-    .line 3
     iput-object p2, p0, Lcom/google/android/gms/internal/ads/eb2;->c:[J
 
-    .line 4
     iput-object p3, p0, Lcom/google/android/gms/internal/ads/eb2;->d:[J
 
-    .line 5
     iput-object p4, p0, Lcom/google/android/gms/internal/ads/eb2;->e:[J
 
-    .line 6
     array-length p1, p1
 
     iput p1, p0, Lcom/google/android/gms/internal/ads/eb2;->a:I
@@ -48,7 +42,6 @@
 
     add-int/lit8 p2, p1, -0x1
 
-    .line 7
     aget-wide p2, p3, p2
 
     add-int/lit8 p1, p1, -0x1
@@ -64,7 +57,6 @@
     :cond_0
     const-wide/16 p1, 0x0
 
-    .line 8
     iput-wide p1, p0, Lcom/google/android/gms/internal/ads/eb2;->f:J
 
     return-void
@@ -75,10 +67,8 @@
 .method public final e(J)J
     .locals 3
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/eb2;->c:[J
 
-    .line 2
     iget-object v1, p0, Lcom/google/android/gms/internal/ads/eb2;->e:[J
 
     const/4 v2, 0x1
@@ -87,7 +77,6 @@
 
     move-result p1
 
-    .line 3
     aget-wide p1, v0, p1
 
     return-wide p1
@@ -96,7 +85,6 @@
 .method public final getDurationUs()J
     .locals 2
 
-    .line 1
     iget-wide v0, p0, Lcom/google/android/gms/internal/ads/eb2;->f:J
 
     return-wide v0

@@ -96,14 +96,12 @@
 .method static constructor <clinit>()V
     .locals 2
 
-    .line 1
     new-instance v0, Ljava/lang/Object;
 
     invoke-direct {v0}, Ljava/lang/Object;-><init>()V
 
     sput-object v0, Lcom/google/firebase/d;->l:Ljava/lang/Object;
 
-    .line 2
     new-instance v0, Lcom/google/firebase/d$d;
 
     const/4 v1, 0x0
@@ -112,7 +110,6 @@
 
     sput-object v0, Lcom/google/firebase/d;->m:Ljava/util/concurrent/Executor;
 
-    .line 3
     new-instance v0, Landroidx/collection/ArrayMap;
 
     invoke-direct {v0}, Landroidx/collection/ArrayMap;-><init>()V
@@ -125,10 +122,8 @@
 .method protected constructor <init>(Landroid/content/Context;Ljava/lang/String;Lcom/google/firebase/l;)V
     .locals 6
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     new-instance v0, Ljava/util/concurrent/atomic/AtomicBoolean;
 
     const/4 v1, 0x0
@@ -137,28 +132,24 @@
 
     iput-object v0, p0, Lcom/google/firebase/d;->e:Ljava/util/concurrent/atomic/AtomicBoolean;
 
-    .line 3
     new-instance v0, Ljava/util/concurrent/atomic/AtomicBoolean;
 
     invoke-direct {v0}, Ljava/util/concurrent/atomic/AtomicBoolean;-><init>()V
 
     iput-object v0, p0, Lcom/google/firebase/d;->f:Ljava/util/concurrent/atomic/AtomicBoolean;
 
-    .line 4
     new-instance v0, Ljava/util/concurrent/CopyOnWriteArrayList;
 
     invoke-direct {v0}, Ljava/util/concurrent/CopyOnWriteArrayList;-><init>()V
 
     iput-object v0, p0, Lcom/google/firebase/d;->h:Ljava/util/List;
 
-    .line 5
     new-instance v0, Ljava/util/concurrent/CopyOnWriteArrayList;
 
     invoke-direct {v0}, Ljava/util/concurrent/CopyOnWriteArrayList;-><init>()V
 
     iput-object v0, p0, Lcom/google/firebase/d;->i:Ljava/util/List;
 
-    .line 6
     invoke-static {p1}, Lcom/google/android/gms/common/internal/b0;->k(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v0
@@ -167,14 +158,12 @@
 
     iput-object v0, p0, Lcom/google/firebase/d;->a:Landroid/content/Context;
 
-    .line 7
     invoke-static {p2}, Lcom/google/android/gms/common/internal/b0;->g(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p2
 
     iput-object p2, p0, Lcom/google/firebase/d;->b:Ljava/lang/String;
 
-    .line 8
     invoke-static {p3}, Lcom/google/android/gms/common/internal/b0;->k(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p2
@@ -183,27 +172,22 @@
 
     iput-object p2, p0, Lcom/google/firebase/d;->c:Lcom/google/firebase/l;
 
-    .line 9
     const-class p2, Lcom/google/firebase/components/ComponentDiscoveryService;
 
-    .line 10
     invoke-static {p1, p2}, Lcom/google/firebase/components/h;->b(Landroid/content/Context;Ljava/lang/Class;)Lcom/google/firebase/components/h;
 
     move-result-object p2
 
-    .line 11
     invoke-virtual {p2}, Lcom/google/firebase/components/h;->a()Ljava/util/List;
 
     move-result-object p2
 
-    .line 12
     new-instance v0, Lcom/google/firebase/FirebaseCommonRegistrar;
 
     invoke-direct {v0}, Lcom/google/firebase/FirebaseCommonRegistrar;-><init>()V
 
     invoke-interface {p2, v0}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
-    .line 13
     new-instance v0, Lcom/google/firebase/components/n;
 
     sget-object v2, Lcom/google/firebase/d;->m:Ljava/util/concurrent/Executor;
@@ -216,7 +200,6 @@
 
     new-array v5, v1, [Ljava/lang/Class;
 
-    .line 14
     invoke-static {p1, v4, v5}, Lcom/google/firebase/components/f;->q(Ljava/lang/Object;Ljava/lang/Class;[Ljava/lang/Class;)Lcom/google/firebase/components/f;
 
     move-result-object v4
@@ -227,7 +210,6 @@
 
     new-array v5, v1, [Ljava/lang/Class;
 
-    .line 15
     invoke-static {p0, v4, v5}, Lcom/google/firebase/components/f;->q(Ljava/lang/Object;Ljava/lang/Class;[Ljava/lang/Class;)Lcom/google/firebase/components/f;
 
     move-result-object v4
@@ -240,7 +222,6 @@
 
     new-array v1, v1, [Ljava/lang/Class;
 
-    .line 16
     invoke-static {p3, v4, v1}, Lcom/google/firebase/components/f;->q(Ljava/lang/Object;Ljava/lang/Class;[Ljava/lang/Class;)Lcom/google/firebase/components/f;
 
     move-result-object p3
@@ -253,7 +234,6 @@
 
     iput-object v0, p0, Lcom/google/firebase/d;->d:Lcom/google/firebase/components/n;
 
-    .line 17
     new-instance p2, Lcom/google/firebase/components/s;
 
     invoke-static {p0, p1}, Lcom/google/firebase/c;->a(Lcom/google/firebase/d;Landroid/content/Context;)Lcom/google/firebase/u/a;
@@ -270,10 +250,8 @@
 .method static synthetic A(Lcom/google/firebase/d;Landroid/content/Context;)Lcom/google/firebase/v/a;
     .locals 3
 
-    .line 1
     new-instance v0, Lcom/google/firebase/v/a;
 
-    .line 2
     invoke-virtual {p0}, Lcom/google/firebase/d;->r()Ljava/lang/String;
 
     move-result-object v1
@@ -282,7 +260,6 @@
 
     const-class v2, Lcom/google/firebase/p/c;
 
-    .line 3
     invoke-virtual {p0, v2}, Lcom/google/firebase/components/n;->a(Ljava/lang/Class;)Ljava/lang/Object;
 
     move-result-object p0
@@ -301,7 +278,6 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-virtual {p0}, Ljava/lang/String;->trim()Ljava/lang/String;
 
     move-result-object p0
@@ -316,10 +292,8 @@
 
     const-string v1, "Notifying background state change listeners."
 
-    .line 1
     invoke-static {v0, v1}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 2
     iget-object v0, p0, Lcom/google/firebase/d;->h:Ljava/util/List;
 
     invoke-interface {v0}, Ljava/util/List;->iterator()Ljava/util/Iterator;
@@ -339,7 +313,6 @@
 
     check-cast v1, Lcom/google/firebase/d$b;
 
-    .line 3
     invoke-interface {v1, p1}, Lcom/google/firebase/d$b;->a(Z)V
 
     goto :goto_0
@@ -351,7 +324,6 @@
 .method private D()V
     .locals 4
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/d;->i:Ljava/util/List;
 
     invoke-interface {v0}, Ljava/util/List;->iterator()Ljava/util/Iterator;
@@ -371,7 +343,6 @@
 
     check-cast v1, Lcom/google/firebase/e;
 
-    .line 2
     iget-object v2, p0, Lcom/google/firebase/d;->b:Ljava/lang/String;
 
     iget-object v3, p0, Lcom/google/firebase/d;->c:Lcom/google/firebase/l;
@@ -387,7 +358,6 @@
 .method static synthetic a()Ljava/lang/Object;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/google/firebase/d;->l:Ljava/lang/Object;
 
     return-object v0
@@ -396,7 +366,6 @@
 .method static synthetic b(Lcom/google/firebase/d;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/google/firebase/d;->t()V
 
     return-void
@@ -405,7 +374,6 @@
 .method static synthetic c(Lcom/google/firebase/d;)Ljava/util/concurrent/atomic/AtomicBoolean;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lcom/google/firebase/d;->e:Ljava/util/concurrent/atomic/AtomicBoolean;
 
     return-object p0
@@ -414,7 +382,6 @@
 .method static synthetic d(Lcom/google/firebase/d;Z)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/google/firebase/d;->C(Z)V
 
     return-void
@@ -423,7 +390,6 @@
 .method private g()V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/d;->f:Ljava/util/concurrent/atomic/AtomicBoolean;
 
     invoke-virtual {v0}, Ljava/util/concurrent/atomic/AtomicBoolean;->get()Z
@@ -444,18 +410,15 @@
     .annotation build Landroidx/annotation/VisibleForTesting;
     .end annotation
 
-    .line 1
     sget-object v0, Lcom/google/firebase/d;->l:Ljava/lang/Object;
 
     monitor-enter v0
 
-    .line 2
     :try_start_0
     sget-object v1, Lcom/google/firebase/d;->n:Ljava/util/Map;
 
     invoke-interface {v1}, Ljava/util/Map;->clear()V
 
-    .line 3
     monitor-exit v0
 
     return-void
@@ -481,17 +444,14 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
 
-    .line 2
     sget-object v1, Lcom/google/firebase/d;->l:Ljava/lang/Object;
 
     monitor-enter v1
 
-    .line 3
     :try_start_0
     sget-object v2, Lcom/google/firebase/d;->n:Ljava/util/Map;
 
@@ -516,7 +476,6 @@
 
     check-cast v3, Lcom/google/firebase/d;
 
-    .line 4
     invoke-virtual {v3}, Lcom/google/firebase/d;->p()Ljava/lang/String;
 
     move-result-object v3
@@ -525,13 +484,11 @@
 
     goto :goto_0
 
-    .line 5
     :cond_0
     monitor-exit v1
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 6
     invoke-static {v0}, Ljava/util/Collections;->sort(Ljava/util/List;)V
 
     return-object v0
@@ -539,7 +496,6 @@
     :catchall_0
     move-exception v0
 
-    .line 7
     :try_start_1
     monitor-exit v1
     :try_end_1
@@ -568,12 +524,10 @@
         }
     .end annotation
 
-    .line 1
     sget-object p0, Lcom/google/firebase/d;->l:Ljava/lang/Object;
 
     monitor-enter p0
 
-    .line 2
     :try_start_0
     new-instance v0, Ljava/util/ArrayList;
 
@@ -592,7 +546,6 @@
     :catchall_0
     move-exception v0
 
-    .line 3
     monitor-exit p0
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
@@ -605,12 +558,10 @@
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
-    .line 1
     sget-object v0, Lcom/google/firebase/d;->l:Ljava/lang/Object;
 
     monitor-enter v0
 
-    .line 2
     :try_start_0
     sget-object v1, Lcom/google/firebase/d;->n:Ljava/util/Map;
 
@@ -624,12 +575,10 @@
 
     if-eqz v1, :cond_0
 
-    .line 3
     monitor-exit v0
 
     return-object v1
 
-    .line 4
     :cond_0
     new-instance v1, Ljava/lang/IllegalStateException;
 
@@ -641,7 +590,6 @@
 
     invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 5
     invoke-static {}, Lcom/google/android/gms/common/util/x;->a()Ljava/lang/String;
 
     move-result-object v3
@@ -663,7 +611,6 @@
     :catchall_0
     move-exception v1
 
-    .line 6
     monitor-exit v0
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
@@ -680,12 +627,10 @@
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
-    .line 1
     sget-object v0, Lcom/google/firebase/d;->l:Ljava/lang/Object;
 
     monitor-enter v0
 
-    .line 2
     :try_start_0
     sget-object v1, Lcom/google/firebase/d;->n:Ljava/util/Map;
 
@@ -701,18 +646,15 @@
 
     if-eqz v1, :cond_0
 
-    .line 3
     monitor-exit v0
 
     return-object v1
 
-    .line 4
     :cond_0
     invoke-static {}, Lcom/google/firebase/d;->k()Ljava/util/List;
 
     move-result-object v1
 
-    .line 5
     invoke-interface {v1}, Ljava/util/List;->isEmpty()Z
 
     move-result v2
@@ -723,7 +665,6 @@
 
     goto :goto_0
 
-    .line 6
     :cond_1
     new-instance v2, Ljava/lang/StringBuilder;
 
@@ -735,7 +676,6 @@
 
     const-string v3, ", "
 
-    .line 7
     invoke-static {v3, v1}, Landroid/text/TextUtils;->join(Ljava/lang/CharSequence;Ljava/lang/Iterable;)Ljava/lang/String;
 
     move-result-object v1
@@ -761,12 +701,10 @@
 
     aput-object v1, v3, p0
 
-    .line 8
     invoke-static {v2, v3}, Ljava/lang/String;->format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object p0
 
-    .line 9
     new-instance v1, Ljava/lang/IllegalStateException;
 
     invoke-direct {v1, p0}, Ljava/lang/IllegalStateException;-><init>(Ljava/lang/String;)V
@@ -776,7 +714,6 @@
     :catchall_0
     move-exception p0
 
-    .line 10
     monitor-exit v0
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
@@ -789,7 +726,6 @@
     .annotation build Lcom/google/android/gms/common/annotation/a;
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -812,7 +748,6 @@
 
     invoke-virtual {v0, p0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 2
     invoke-virtual {p1}, Lcom/google/firebase/l;->j()Ljava/lang/String;
 
     move-result-object p0
@@ -841,7 +776,6 @@
 .method private t()V
     .locals 3
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/d;->a:Landroid/content/Context;
 
     invoke-static {v0}, Landroidx/core/os/UserManagerCompat;->isUserUnlocked(Landroid/content/Context;)Z
@@ -854,7 +788,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 2
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -863,7 +796,6 @@
 
     invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 3
     invoke-virtual {p0}, Lcom/google/firebase/d;->p()Ljava/lang/String;
 
     move-result-object v2
@@ -874,17 +806,14 @@
 
     move-result-object v0
 
-    .line 4
     invoke-static {v1, v0}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 5
     iget-object v0, p0, Lcom/google/firebase/d;->a:Landroid/content/Context;
 
     invoke-static {v0}, Lcom/google/firebase/d$e;->a(Landroid/content/Context;)V
 
     goto :goto_0
 
-    .line 6
     :cond_0
     new-instance v0, Ljava/lang/StringBuilder;
 
@@ -906,7 +835,6 @@
 
     invoke-static {v1, v0}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 7
     iget-object v0, p0, Lcom/google/firebase/d;->d:Lcom/google/firebase/components/n;
 
     invoke-virtual {p0}, Lcom/google/firebase/d;->z()Z
@@ -928,12 +856,10 @@
     .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
-    .line 1
     sget-object v0, Lcom/google/firebase/d;->l:Ljava/lang/Object;
 
     monitor-enter v0
 
-    .line 2
     :try_start_0
     sget-object v1, Lcom/google/firebase/d;->n:Ljava/util/Map;
 
@@ -945,7 +871,6 @@
 
     if-eqz v1, :cond_0
 
-    .line 3
     invoke-static {}, Lcom/google/firebase/d;->n()Lcom/google/firebase/d;
 
     move-result-object p0
@@ -954,7 +879,6 @@
 
     return-object p0
 
-    .line 4
     :cond_0
     invoke-static {p0}, Lcom/google/firebase/l;->h(Landroid/content/Context;)Lcom/google/firebase/l;
 
@@ -966,17 +890,14 @@
 
     const-string v1, "Default FirebaseApp failed to initialize because no default options were found. This usually means that com.google.gms:google-services was not applied to your gradle project."
 
-    .line 5
     invoke-static {p0, v1}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;)I
 
     const/4 p0, 0x0
 
-    .line 6
     monitor-exit v0
 
     return-object p0
 
-    .line 7
     :cond_1
     invoke-static {p0, v1}, Lcom/google/firebase/d;->w(Landroid/content/Context;Lcom/google/firebase/l;)Lcom/google/firebase/d;
 
@@ -989,7 +910,6 @@
     :catchall_0
     move-exception p0
 
-    .line 8
     monitor-exit v0
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
@@ -1012,7 +932,6 @@
 
     const-string v0, "[DEFAULT]"
 
-    .line 1
     invoke-static {p0, p1, v0}, Lcom/google/firebase/d;->x(Landroid/content/Context;Lcom/google/firebase/l;Ljava/lang/String;)Lcom/google/firebase/d;
 
     move-result-object p0
@@ -1037,15 +956,12 @@
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
-    .line 1
     invoke-static {p0}, Lcom/google/firebase/d$c;->b(Landroid/content/Context;)V
 
-    .line 2
     invoke-static {p2}, Lcom/google/firebase/d;->B(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p2
 
-    .line 3
     invoke-virtual {p0}, Landroid/content/Context;->getApplicationContext()Landroid/content/Context;
 
     move-result-object v0
@@ -1054,23 +970,19 @@
 
     goto :goto_0
 
-    .line 4
     :cond_0
     invoke-virtual {p0}, Landroid/content/Context;->getApplicationContext()Landroid/content/Context;
 
     move-result-object p0
 
-    .line 5
     :goto_0
     sget-object v0, Lcom/google/firebase/d;->l:Ljava/lang/Object;
 
     monitor-enter v0
 
-    .line 6
     :try_start_0
     sget-object v1, Lcom/google/firebase/d;->n:Ljava/util/Map;
 
-    .line 7
     invoke-interface {v1, p2}, Ljava/util/Map;->containsKey(Ljava/lang/Object;)Z
 
     move-result v2
@@ -1103,28 +1015,22 @@
 
     move-result-object v3
 
-    .line 8
     invoke-static {v2, v3}, Lcom/google/android/gms/common/internal/b0;->r(ZLjava/lang/Object;)V
 
     const-string v2, "Application context cannot be null."
 
-    .line 9
     invoke-static {p0, v2}, Lcom/google/android/gms/common/internal/b0;->l(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 10
     new-instance v2, Lcom/google/firebase/d;
 
     invoke-direct {v2, p0, p2, p1}, Lcom/google/firebase/d;-><init>(Landroid/content/Context;Ljava/lang/String;Lcom/google/firebase/l;)V
 
-    .line 11
     invoke-interface {v1, p2, v2}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 12
     monitor-exit v0
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 13
     invoke-direct {v2}, Lcom/google/firebase/d;->t()V
 
     return-object v2
@@ -1132,7 +1038,6 @@
     :catchall_0
     move-exception p0
 
-    .line 14
     :try_start_1
     monitor-exit v0
     :try_end_1
@@ -1148,10 +1053,8 @@
     .annotation build Lcom/google/android/gms/common/annotation/a;
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Lcom/google/firebase/d;->g()V
 
-    .line 2
     iget-object v0, p0, Lcom/google/firebase/d;->h:Ljava/util/List;
 
     invoke-interface {v0, p1}, Ljava/util/List;->remove(Ljava/lang/Object;)Z
@@ -1168,13 +1071,10 @@
     .annotation build Lcom/google/android/gms/common/annotation/a;
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Lcom/google/firebase/d;->g()V
 
-    .line 2
     invoke-static {p1}, Lcom/google/android/gms/common/internal/b0;->k(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 3
     iget-object v0, p0, Lcom/google/firebase/d;->i:Ljava/util/List;
 
     invoke-interface {v0, p1}, Ljava/util/List;->remove(Ljava/lang/Object;)Z
@@ -1185,22 +1085,18 @@
 .method public G(Z)V
     .locals 2
 
-    .line 1
     invoke-direct {p0}, Lcom/google/firebase/d;->g()V
 
-    .line 2
     iget-object v0, p0, Lcom/google/firebase/d;->e:Ljava/util/concurrent/atomic/AtomicBoolean;
 
     xor-int/lit8 v1, p1, 0x1
 
-    .line 3
     invoke-virtual {v0, v1, p1}, Ljava/util/concurrent/atomic/AtomicBoolean;->compareAndSet(ZZ)Z
 
     move-result v0
 
     if-eqz v0, :cond_1
 
-    .line 4
     invoke-static {}, Lcom/google/android/gms/common/api/internal/c;->b()Lcom/google/android/gms/common/api/internal/c;
 
     move-result-object v0
@@ -1215,7 +1111,6 @@
 
     const/4 p1, 0x1
 
-    .line 5
     invoke-direct {p0, p1}, Lcom/google/firebase/d;->C(Z)V
 
     goto :goto_0
@@ -1227,7 +1122,6 @@
 
     const/4 p1, 0x0
 
-    .line 6
     invoke-direct {p0, p1}, Lcom/google/firebase/d;->C(Z)V
 
     :cond_1
@@ -1240,10 +1134,8 @@
     .annotation build Lcom/google/android/gms/common/annotation/a;
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Lcom/google/firebase/d;->g()V
 
-    .line 2
     iget-object v0, p0, Lcom/google/firebase/d;->g:Lcom/google/firebase/components/s;
 
     invoke-virtual {v0}, Lcom/google/firebase/components/s;->get()Ljava/lang/Object;
@@ -1265,7 +1157,6 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    .line 1
     invoke-static {p1}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
 
     move-result-object p1
@@ -1280,10 +1171,8 @@
     .annotation build Lcom/google/android/gms/common/annotation/a;
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Lcom/google/firebase/d;->g()V
 
-    .line 2
     iget-object v0, p0, Lcom/google/firebase/d;->e:Ljava/util/concurrent/atomic/AtomicBoolean;
 
     invoke-virtual {v0}, Ljava/util/concurrent/atomic/AtomicBoolean;->get()Z
@@ -1292,7 +1181,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 3
     invoke-static {}, Lcom/google/android/gms/common/api/internal/c;->b()Lcom/google/android/gms/common/api/internal/c;
 
     move-result-object v0
@@ -1305,10 +1193,8 @@
 
     const/4 v0, 0x1
 
-    .line 4
     invoke-interface {p1, v0}, Lcom/google/firebase/d$b;->a(Z)V
 
-    .line 5
     :cond_0
     iget-object v0, p0, Lcom/google/firebase/d;->h:Ljava/util/List;
 
@@ -1320,7 +1206,6 @@
 .method public equals(Ljava/lang/Object;)Z
     .locals 1
 
-    .line 1
     instance-of v0, p1, Lcom/google/firebase/d;
 
     if-nez v0, :cond_0
@@ -1329,7 +1214,6 @@
 
     return p1
 
-    .line 2
     :cond_0
     iget-object v0, p0, Lcom/google/firebase/d;->b:Ljava/lang/String;
 
@@ -1355,13 +1239,10 @@
     .annotation build Lcom/google/android/gms/common/annotation/a;
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Lcom/google/firebase/d;->g()V
 
-    .line 2
     invoke-static {p1}, Lcom/google/android/gms/common/internal/b0;->k(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 3
     iget-object v0, p0, Lcom/google/firebase/d;->i:Ljava/util/List;
 
     invoke-interface {v0, p1}, Ljava/util/List;->add(Ljava/lang/Object;)Z
@@ -1372,7 +1253,6 @@
 .method public hashCode()I
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/d;->b:Ljava/lang/String;
 
     invoke-virtual {v0}, Ljava/lang/String;->hashCode()I
@@ -1385,7 +1265,6 @@
 .method public i()V
     .locals 3
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/d;->f:Ljava/util/concurrent/atomic/AtomicBoolean;
 
     const/4 v1, 0x0
@@ -1400,13 +1279,11 @@
 
     return-void
 
-    .line 2
     :cond_0
     sget-object v0, Lcom/google/firebase/d;->l:Ljava/lang/Object;
 
     monitor-enter v0
 
-    .line 3
     :try_start_0
     sget-object v1, Lcom/google/firebase/d;->n:Ljava/util/Map;
 
@@ -1414,12 +1291,10 @@
 
     invoke-interface {v1, v2}, Ljava/util/Map;->remove(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 4
     monitor-exit v0
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 5
     invoke-direct {p0}, Lcom/google/firebase/d;->D()V
 
     return-void
@@ -1427,7 +1302,6 @@
     :catchall_0
     move-exception v1
 
-    .line 6
     :try_start_1
     monitor-exit v0
     :try_end_1
@@ -1451,10 +1325,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Lcom/google/firebase/d;->g()V
 
-    .line 2
     iget-object v0, p0, Lcom/google/firebase/d;->d:Lcom/google/firebase/components/n;
 
     invoke-virtual {v0, p1}, Lcom/google/firebase/components/n;->a(Ljava/lang/Class;)Ljava/lang/Object;
@@ -1469,10 +1341,8 @@
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Lcom/google/firebase/d;->g()V
 
-    .line 2
     iget-object v0, p0, Lcom/google/firebase/d;->a:Landroid/content/Context;
 
     return-object v0
@@ -1483,10 +1353,8 @@
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Lcom/google/firebase/d;->g()V
 
-    .line 2
     iget-object v0, p0, Lcom/google/firebase/d;->b:Ljava/lang/String;
 
     return-object v0
@@ -1497,10 +1365,8 @@
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Lcom/google/firebase/d;->g()V
 
-    .line 2
     iget-object v0, p0, Lcom/google/firebase/d;->c:Lcom/google/firebase/l;
 
     return-object v0
@@ -1511,7 +1377,6 @@
     .annotation build Lcom/google/android/gms/common/annotation/a;
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -1538,7 +1403,6 @@
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 2
     invoke-virtual {p0}, Lcom/google/firebase/d;->q()Lcom/google/firebase/l;
 
     move-result-object v1
@@ -1555,7 +1419,6 @@
 
     move-result-object v1
 
-    .line 3
     invoke-static {v1}, Lcom/google/android/gms/common/util/c;->f([B)Ljava/lang/String;
 
     move-result-object v1
@@ -1572,7 +1435,6 @@
 .method public toString()Ljava/lang/String;
     .locals 3
 
-    .line 1
     invoke-static {p0}, Lcom/google/android/gms/common/internal/z;->c(Ljava/lang/Object;)Lcom/google/android/gms/common/internal/z$a;
 
     move-result-object v0
@@ -1611,7 +1473,6 @@
     .annotation build Landroidx/annotation/VisibleForTesting;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/d;->d:Lcom/google/firebase/components/n;
 
     invoke-virtual {v0}, Lcom/google/firebase/components/n;->e()V
@@ -1624,10 +1485,8 @@
     .annotation build Lcom/google/android/gms/common/annotation/a;
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Lcom/google/firebase/d;->g()V
 
-    .line 2
     iget-object v0, p0, Lcom/google/firebase/d;->g:Lcom/google/firebase/components/s;
 
     invoke-virtual {v0}, Lcom/google/firebase/components/s;->get()Ljava/lang/Object;
@@ -1651,7 +1510,6 @@
     .annotation build Lcom/google/android/gms/common/annotation/a;
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/firebase/d;->p()Ljava/lang/String;
 
     move-result-object v0

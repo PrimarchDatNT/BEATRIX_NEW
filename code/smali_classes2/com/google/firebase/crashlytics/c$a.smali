@@ -42,7 +42,6 @@
 .method constructor <init>(Lcom/google/firebase/crashlytics/e/e;Ljava/util/concurrent/ExecutorService;Lcom/google/firebase/crashlytics/internal/settings/c;ZLcom/google/firebase/crashlytics/internal/common/j;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/firebase/crashlytics/c$a;->a:Lcom/google/firebase/crashlytics/e/e;
 
     iput-object p2, p0, Lcom/google/firebase/crashlytics/c$a;->b:Ljava/util/concurrent/ExecutorService;
@@ -68,7 +67,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/crashlytics/c$a;->a:Lcom/google/firebase/crashlytics/e/e;
 
     iget-object v1, p0, Lcom/google/firebase/crashlytics/c$a;->b:Ljava/util/concurrent/ExecutorService;
@@ -77,12 +75,10 @@
 
     invoke-virtual {v0, v1, v2}, Lcom/google/firebase/crashlytics/e/e;->c(Ljava/util/concurrent/Executor;Lcom/google/firebase/crashlytics/internal/settings/c;)V
 
-    .line 2
     iget-boolean v0, p0, Lcom/google/firebase/crashlytics/c$a;->d:Z
 
     if-eqz v0, :cond_0
 
-    .line 3
     iget-object v0, p0, Lcom/google/firebase/crashlytics/c$a;->f:Lcom/google/firebase/crashlytics/internal/common/j;
 
     iget-object v1, p0, Lcom/google/firebase/crashlytics/c$a;->c:Lcom/google/firebase/crashlytics/internal/settings/c;
@@ -103,7 +99,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/firebase/crashlytics/c$a;->a()Ljava/lang/Void;
 
     move-result-object v0

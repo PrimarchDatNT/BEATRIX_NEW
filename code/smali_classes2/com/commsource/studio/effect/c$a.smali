@@ -19,7 +19,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -28,7 +27,6 @@
 .method public synthetic constructor <init>(Lcotlin/jvm/internal/u;)V
     .locals 0
 
-    .line 2
     invoke-direct {p0}, Lcom/commsource/studio/effect/c$a;-><init>()V
 
     return-void
@@ -53,7 +51,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-virtual {p1}, Lcom/commsource/studio/effect/c;->x()Landroid/util/SparseIntArray;
 
     move-result-object v1
@@ -69,7 +66,6 @@
     :goto_0
     if-ge v3, v1, :cond_1
 
-    .line 2
     invoke-virtual {p1}, Lcom/commsource/studio/effect/c;->x()Landroid/util/SparseIntArray;
 
     move-result-object v4
@@ -80,7 +76,6 @@
 
     if-eqz v4, :cond_0
 
-    .line 3
     invoke-static {v4}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
 
     move-result-object p1
@@ -94,7 +89,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_1
     invoke-static {p1}, Lcom/commsource/studio/effect/c;->s(Lcom/commsource/studio/effect/c;)Landroid/util/SparseIntArray;
 
@@ -107,7 +101,6 @@
     :goto_1
     if-ge v2, v1, :cond_3
 
-    .line 5
     invoke-static {p1}, Lcom/commsource/studio/effect/c;->s(Lcom/commsource/studio/effect/c;)Landroid/util/SparseIntArray;
 
     move-result-object v3
@@ -118,7 +111,6 @@
 
     if-eqz v3, :cond_2
 
-    .line 6
     invoke-static {v3}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
 
     move-result-object p1
@@ -132,7 +124,6 @@
 
     goto :goto_1
 
-    .line 7
     :cond_3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -158,14 +149,12 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-virtual {p1}, Lcom/commsource/studio/effect/c;->E()Z
 
     move-result v1
 
     if-eqz v1, :cond_1
 
-    .line 2
     invoke-virtual {p1}, Lcom/commsource/studio/effect/c;->A()Z
 
     move-result p1
@@ -181,7 +170,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_1
     invoke-virtual {p1}, Lcom/commsource/studio/effect/c;->A()Z
 
@@ -196,7 +184,6 @@
     :cond_2
     const-string p1, "\u672a\u4f7f\u7528"
 
-    .line 4
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

@@ -26,7 +26,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -43,7 +42,6 @@
         value = "https://github.com/grpc/grpc-java/issues/1779"
     .end annotation
 
-    .line 1
     sget-object v0, Lio/grpc/a;->b:Lio/grpc/a;
 
     return-object v0

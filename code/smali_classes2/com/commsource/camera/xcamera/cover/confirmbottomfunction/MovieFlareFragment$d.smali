@@ -28,7 +28,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/MovieFlareFragment$d;->a:Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/MovieFlareFragment;
 
     invoke-direct {p0}, Landroidx/recyclerview/widget/RecyclerView$ItemDecoration;-><init>()V
@@ -77,10 +76,8 @@
 
     invoke-static {p4, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-super {p0, p1, p2, p3, p4}, Landroidx/recyclerview/widget/RecyclerView$ItemDecoration;->getItemOffsets(Landroid/graphics/Rect;Landroid/view/View;Landroidx/recyclerview/widget/RecyclerView;Landroidx/recyclerview/widget/RecyclerView$State;)V
 
-    .line 2
     invoke-virtual {p3, p2}, Landroidx/recyclerview/widget/RecyclerView;->getChildAdapterPosition(Landroid/view/View;)I
 
     move-result p2
@@ -95,7 +92,6 @@
 
     if-eq p2, v1, :cond_0
 
-    .line 3
     iget-object p2, p0, Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/MovieFlareFragment$d;->a:Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/MovieFlareFragment;
 
     invoke-virtual {p2}, Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/MovieFlareFragment;->L()F
@@ -108,7 +104,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_0
     invoke-static {p3}, Lcom/commsource/util/l0;->n(I)I
 
@@ -118,7 +113,6 @@
 
     goto :goto_0
 
-    .line 5
     :cond_1
     invoke-static {p3}, Lcom/commsource/util/l0;->n(I)I
 
@@ -134,7 +128,6 @@
 
     invoke-virtual {p1, p2, p4, p3, p4}, Landroid/graphics/Rect;->set(IIII)V
 
-    .line 6
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

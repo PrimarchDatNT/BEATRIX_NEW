@@ -7,7 +7,6 @@
 .method public constructor <init>(Landroid/content/Context;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/mopub/common/AdUrlGenerator;-><init>(Landroid/content/Context;)V
 
     return-void
@@ -20,30 +19,24 @@
 
     const-string v0, "/m/ad"
 
-    .line 1
     invoke-virtual {p0, p1, v0}, Lcom/mopub/common/BaseUrlGenerator;->initUrlString(Ljava/lang/String;Ljava/lang/String;)V
 
     const-string p1, "6"
 
-    .line 2
     invoke-virtual {p0, p1}, Lcom/mopub/common/BaseUrlGenerator;->setApiVersion(Ljava/lang/String;)V
 
-    .line 3
     iget-object p1, p0, Lcom/mopub/common/AdUrlGenerator;->mContext:Landroid/content/Context;
 
     invoke-static {p1}, Lcom/mopub/common/ClientMetadata;->getInstance(Landroid/content/Context;)Lcom/mopub/common/ClientMetadata;
 
     move-result-object p1
 
-    .line 4
     invoke-virtual {p0, p1}, Lcom/mopub/common/AdUrlGenerator;->addBaseParams(Lcom/mopub/common/ClientMetadata;)V
 
     const/4 p1, 0x1
 
-    .line 5
     invoke-virtual {p0, p1}, Lcom/mopub/common/AdUrlGenerator;->setMraidFlag(Z)V
 
-    .line 6
     invoke-virtual {p0}, Lcom/mopub/common/BaseUrlGenerator;->getFinalUrlString()Ljava/lang/String;
 
     move-result-object p1

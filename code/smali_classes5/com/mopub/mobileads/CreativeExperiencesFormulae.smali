@@ -18,7 +18,6 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
     new-instance v0, Lcom/mopub/mobileads/CreativeExperiencesFormulae;
 
     invoke-direct {v0}, Lcom/mopub/mobileads/CreativeExperiencesFormulae;-><init>()V
@@ -31,7 +30,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -54,7 +52,6 @@
 
     invoke-static {p5, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     sget-object v0, Lcom/mopub/mobileads/CreativeExperiencesFormulae;->INSTANCE:Lcom/mopub/mobileads/CreativeExperiencesFormulae;
 
     move-object v1, v0
@@ -73,7 +70,6 @@
 
     move-result v7
 
-    .line 2
     invoke-virtual/range {v1 .. v6}, Lcom/mopub/mobileads/CreativeExperiencesFormulae;->getTimeUntilNextActionSecs(ZZLcom/mopub/mobileads/EndCardType;ILcom/mopub/mobileads/CreativeExperienceSettings;)I
 
     move-result p3
@@ -82,7 +78,6 @@
 
     if-eqz p2, :cond_0
 
-    .line 3
     sget-object p1, Lcom/mopub/mobileads/EndCardType;->NONE:Lcom/mopub/mobileads/EndCardType;
 
     if-ne p2, p1, :cond_1
@@ -97,12 +92,10 @@
 
     if-eqz p2, :cond_2
 
-    .line 4
     sget-object p1, Lcom/mopub/mobileads/EndCardType;->NONE:Lcom/mopub/mobileads/EndCardType;
 
     if-ne p2, p1, :cond_3
 
-    .line 5
     :cond_2
     invoke-static {p3, v7}, Ljava/lang/Math;->max(II)I
 
@@ -118,7 +111,6 @@
     :cond_4
     sub-int/2addr v7, p4
 
-    .line 6
     invoke-static {v7, p3}, Ljava/lang/Math;->max(II)I
 
     move-result p0
@@ -147,7 +139,6 @@
 
     if-nez p2, :cond_0
 
-    .line 1
     invoke-virtual {p5}, Lcom/mopub/mobileads/CreativeExperienceSettings;->getMaxAdExperienceTimeSecs()I
 
     move-result p1
@@ -159,7 +150,6 @@
 
     goto :goto_0
 
-    .line 2
     :cond_1
     sget-object p1, Lcom/mopub/mobileads/CreativeExperiencesFormulae$WhenMappings;->$EnumSwitchMapping$0:[I
 
@@ -182,7 +172,6 @@
 
     goto :goto_1
 
-    .line 3
     :cond_2
     invoke-virtual {p5}, Lcom/mopub/mobileads/CreativeExperienceSettings;->getEndCardDurations()Lcom/mopub/mobileads/EndCardDurations;
 
@@ -194,7 +183,6 @@
 
     goto :goto_1
 
-    .line 4
     :cond_3
     invoke-virtual {p5}, Lcom/mopub/mobileads/CreativeExperienceSettings;->getEndCardDurations()Lcom/mopub/mobileads/EndCardDurations;
 
@@ -207,12 +195,10 @@
     :goto_1
     add-int/2addr p4, p1
 
-    .line 5
     invoke-virtual {p5}, Lcom/mopub/mobileads/CreativeExperienceSettings;->getMaxAdExperienceTimeSecs()I
 
     move-result p1
 
-    .line 6
     invoke-static {p4, p1}, Ljava/lang/Math;->min(II)I
 
     move-result p1
@@ -241,12 +227,10 @@
 
     if-eqz p1, :cond_3
 
-    .line 1
     invoke-virtual {p5}, Lcom/mopub/mobileads/CreativeExperienceSettings;->getVastSkipThresholds()Ljava/util/List;
 
     move-result-object p1
 
-    .line 2
     new-instance p2, Lcom/mopub/mobileads/CreativeExperiencesFormulae$getTimeUntilNextActionSecs$$inlined$sortedByDescending$1;
 
     invoke-direct {p2}, Lcom/mopub/mobileads/CreativeExperiencesFormulae$getTimeUntilNextActionSecs$$inlined$sortedByDescending$1;-><init>()V
@@ -255,7 +239,6 @@
 
     move-result-object p1
 
-    .line 3
     invoke-interface {p1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object p1
@@ -275,7 +258,6 @@
 
     check-cast p3, Lcom/mopub/mobileads/VastSkipThreshold;
 
-    .line 4
     invoke-virtual {p3}, Lcom/mopub/mobileads/VastSkipThreshold;->getSkipMinSecs()I
 
     move-result p3
@@ -297,7 +279,6 @@
     :cond_2
     const/4 p2, 0x0
 
-    .line 5
     :goto_1
     check-cast p2, Lcom/mopub/mobileads/VastSkipThreshold;
 
@@ -307,7 +288,6 @@
 
     move-result p1
 
-    .line 6
     invoke-static {p1, p4}, Ljava/lang/Math;->min(II)I
 
     move-result p4
@@ -321,7 +301,6 @@
 
     goto :goto_2
 
-    .line 7
     :cond_4
     sget-object p1, Lcom/mopub/mobileads/CreativeExperiencesFormulae$WhenMappings;->$EnumSwitchMapping$1:[I
 
@@ -342,7 +321,6 @@
 
     goto :goto_3
 
-    .line 8
     :cond_5
     invoke-virtual {p5}, Lcom/mopub/mobileads/CreativeExperienceSettings;->getEndCardDurations()Lcom/mopub/mobileads/EndCardDurations;
 
@@ -354,7 +332,6 @@
 
     goto :goto_3
 
-    .line 9
     :cond_6
     invoke-virtual {p5}, Lcom/mopub/mobileads/CreativeExperienceSettings;->getEndCardDurations()Lcom/mopub/mobileads/EndCardDurations;
 
@@ -366,7 +343,6 @@
 
     goto :goto_3
 
-    .line 10
     :cond_7
     invoke-virtual {p5}, Lcom/mopub/mobileads/CreativeExperienceSettings;->getMainAdConfig()Lcom/mopub/mobileads/CreativeExperienceAdConfig;
 

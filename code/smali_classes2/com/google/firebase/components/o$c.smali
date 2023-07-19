@@ -38,13 +38,10 @@
         }
     .end annotation
 
-    .line 2
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 3
     iput-object p1, p0, Lcom/google/firebase/components/o$c;->a:Ljava/lang/Class;
 
-    .line 4
     iput-boolean p2, p0, Lcom/google/firebase/components/o$c;->b:Z
 
     return-void
@@ -53,7 +50,6 @@
 .method synthetic constructor <init>(Ljava/lang/Class;ZLcom/google/firebase/components/o$a;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1, p2}, Lcom/google/firebase/components/o$c;-><init>(Ljava/lang/Class;Z)V
 
     return-void
@@ -62,7 +58,6 @@
 .method static synthetic a(Lcom/google/firebase/components/o$c;)Z
     .locals 0
 
-    .line 1
     iget-boolean p0, p0, Lcom/google/firebase/components/o$c;->b:Z
 
     return p0
@@ -73,17 +68,14 @@
 .method public equals(Ljava/lang/Object;)Z
     .locals 3
 
-    .line 1
     instance-of v0, p1, Lcom/google/firebase/components/o$c;
 
     const/4 v1, 0x0
 
     if-eqz v0, :cond_0
 
-    .line 2
     check-cast p1, Lcom/google/firebase/components/o$c;
 
-    .line 3
     iget-object v0, p1, Lcom/google/firebase/components/o$c;->a:Ljava/lang/Class;
 
     iget-object v2, p0, Lcom/google/firebase/components/o$c;->a:Ljava/lang/Class;
@@ -109,7 +101,6 @@
 .method public hashCode()I
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/components/o$c;->a:Ljava/lang/Class;
 
     invoke-virtual {v0}, Ljava/lang/Object;->hashCode()I
@@ -122,7 +113,6 @@
 
     mul-int v0, v0, v1
 
-    .line 2
     iget-boolean v1, p0, Lcom/google/firebase/components/o$c;->b:Z
 
     invoke-static {v1}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;

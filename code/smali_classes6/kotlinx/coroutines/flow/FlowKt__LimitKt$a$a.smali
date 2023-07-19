@@ -45,7 +45,6 @@
 
     iput-object p3, p0, Lcotlinx/coroutines/flow/FlowKt__LimitKt$a$a;->c:Lcotlinx/coroutines/flow/FlowKt__LimitKt$a;
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -62,7 +61,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcotlinx/coroutines/flow/FlowKt__LimitKt$a$a;->b:Lcotlin/jvm/internal/Ref$IntRef;
 
     iget v1, v0, Lcotlin/jvm/internal/Ref$IntRef;->element:I
@@ -92,7 +90,6 @@
 
     iput v1, v0, Lcotlin/jvm/internal/Ref$IntRef;->element:I
 
-    .line 2
     :cond_1
     sget-object p1, Lcotlin/t1;->a:Lcotlin/t1;
 

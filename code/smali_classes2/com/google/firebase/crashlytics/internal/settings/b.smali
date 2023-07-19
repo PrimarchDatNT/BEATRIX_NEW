@@ -10,7 +10,6 @@
 .method constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -26,28 +25,24 @@
 
     const-string v0, "status"
 
-    .line 1
     invoke-virtual {p0, v0}, Lorg/json/JSONObject;->getString(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v2
 
     const-string v0, "url"
 
-    .line 2
     invoke-virtual {p0, v0}, Lorg/json/JSONObject;->getString(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v3
 
     const-string v0, "reports_url"
 
-    .line 3
     invoke-virtual {p0, v0}, Lorg/json/JSONObject;->getString(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v4
 
     const-string v0, "ndk_reports_url"
 
-    .line 4
     invoke-virtual {p0, v0}, Lorg/json/JSONObject;->getString(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v5
@@ -56,12 +51,10 @@
 
     const/4 v1, 0x0
 
-    .line 5
     invoke-virtual {p0, v0, v1}, Lorg/json/JSONObject;->optBoolean(Ljava/lang/String;Z)Z
 
     move-result v6
 
-    .line 6
     new-instance p0, Lcom/google/firebase/crashlytics/internal/settings/i/b;
 
     move-object v1, p0
@@ -78,12 +71,10 @@
 
     const/4 v1, 0x1
 
-    .line 1
     invoke-virtual {p0, v0, v1}, Lorg/json/JSONObject;->optBoolean(Ljava/lang/String;Z)Z
 
     move-result p0
 
-    .line 2
     new-instance v0, Lcom/google/firebase/crashlytics/internal/settings/i/c;
 
     invoke-direct {v0, p0}, Lcom/google/firebase/crashlytics/internal/settings/i/c;-><init>(Z)V
@@ -98,12 +89,10 @@
 
     const/16 v1, 0x8
 
-    .line 1
     invoke-virtual {p0, v0, v1}, Lorg/json/JSONObject;->optInt(Ljava/lang/String;I)I
 
     move-result p0
 
-    .line 2
     new-instance v0, Lcom/google/firebase/crashlytics/internal/settings/i/d;
 
     const/4 v1, 0x4
@@ -116,29 +105,24 @@
 .method static f(Lcom/google/firebase/crashlytics/internal/common/p;)Lcom/google/firebase/crashlytics/internal/settings/i/e;
     .locals 9
 
-    .line 1
     new-instance v0, Lorg/json/JSONObject;
 
     invoke-direct {v0}, Lorg/json/JSONObject;-><init>()V
 
-    .line 2
     invoke-static {v0}, Lcom/google/firebase/crashlytics/internal/settings/b;->e(Lorg/json/JSONObject;)Lcom/google/firebase/crashlytics/internal/settings/i/d;
 
     move-result-object v5
 
-    .line 3
     invoke-static {v0}, Lcom/google/firebase/crashlytics/internal/settings/b;->d(Lorg/json/JSONObject;)Lcom/google/firebase/crashlytics/internal/settings/i/c;
 
     move-result-object v6
 
     const-wide/16 v1, 0xe10
 
-    .line 4
     invoke-static {p0, v1, v2, v0}, Lcom/google/firebase/crashlytics/internal/settings/b;->g(Lcom/google/firebase/crashlytics/internal/common/p;JLorg/json/JSONObject;)J
 
     move-result-wide v2
 
-    .line 5
     new-instance p0, Lcom/google/firebase/crashlytics/internal/settings/i/f;
 
     const/4 v4, 0x0
@@ -159,21 +143,18 @@
 
     const-string v0, "expires_at"
 
-    .line 1
     invoke-virtual {p3, v0}, Lorg/json/JSONObject;->has(Ljava/lang/String;)Z
 
     move-result v1
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-virtual {p3, v0}, Lorg/json/JSONObject;->optLong(Ljava/lang/String;)J
 
     move-result-wide p0
 
     goto :goto_0
 
-    .line 3
     :cond_0
     invoke-interface {p0}, Lcom/google/firebase/crashlytics/internal/common/p;->a()J
 
@@ -197,7 +178,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lorg/json/JSONObject;
 
     invoke-direct {v0}, Lorg/json/JSONObject;-><init>()V
@@ -206,7 +186,6 @@
 
     const-string v2, "status"
 
-    .line 2
     invoke-virtual {v0, v2, v1}, Lorg/json/JSONObject;->put(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;
 
     move-result-object v0
@@ -215,7 +194,6 @@
 
     const-string v2, "url"
 
-    .line 3
     invoke-virtual {v0, v2, v1}, Lorg/json/JSONObject;->put(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;
 
     move-result-object v0
@@ -224,7 +202,6 @@
 
     const-string v2, "reports_url"
 
-    .line 4
     invoke-virtual {v0, v2, v1}, Lorg/json/JSONObject;->put(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;
 
     move-result-object v0
@@ -233,7 +210,6 @@
 
     const-string v2, "ndk_reports_url"
 
-    .line 5
     invoke-virtual {v0, v2, v1}, Lorg/json/JSONObject;->put(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;
 
     move-result-object v0
@@ -242,7 +218,6 @@
 
     const-string v1, "update_required"
 
-    .line 6
     invoke-virtual {v0, v1, p1}, Lorg/json/JSONObject;->put(Ljava/lang/String;Z)Lorg/json/JSONObject;
 
     move-result-object p1
@@ -258,7 +233,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lorg/json/JSONObject;
 
     invoke-direct {v0}, Lorg/json/JSONObject;-><init>()V
@@ -267,7 +241,6 @@
 
     const-string v1, "collect_reports"
 
-    .line 2
     invoke-virtual {v0, v1, p1}, Lorg/json/JSONObject;->put(Ljava/lang/String;Z)Lorg/json/JSONObject;
 
     move-result-object p1
@@ -283,7 +256,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lorg/json/JSONObject;
 
     invoke-direct {v0}, Lorg/json/JSONObject;-><init>()V
@@ -292,7 +264,6 @@
 
     const-string v2, "max_custom_exception_events"
 
-    .line 2
     invoke-virtual {v0, v2, v1}, Lorg/json/JSONObject;->put(Ljava/lang/String;I)Lorg/json/JSONObject;
 
     move-result-object v0
@@ -301,7 +272,6 @@
 
     const-string v1, "max_complete_sessions_count"
 
-    .line 3
     invoke-virtual {v0, v1, p1}, Lorg/json/JSONObject;->put(Ljava/lang/String;I)Lorg/json/JSONObject;
 
     move-result-object p1
@@ -319,7 +289,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lorg/json/JSONObject;
 
     invoke-direct {v0}, Lorg/json/JSONObject;-><init>()V
@@ -328,7 +297,6 @@
 
     const-string v3, "expires_at"
 
-    .line 2
     invoke-virtual {v0, v3, v1, v2}, Lorg/json/JSONObject;->put(Ljava/lang/String;J)Lorg/json/JSONObject;
 
     move-result-object v0
@@ -337,7 +305,6 @@
 
     const-string v2, "cache_duration"
 
-    .line 3
     invoke-virtual {v0, v2, v1}, Lorg/json/JSONObject;->put(Ljava/lang/String;I)Lorg/json/JSONObject;
 
     move-result-object v0
@@ -346,14 +313,12 @@
 
     const-string v2, "settings_version"
 
-    .line 4
     invoke-virtual {v0, v2, v1}, Lorg/json/JSONObject;->put(Ljava/lang/String;I)Lorg/json/JSONObject;
 
     move-result-object v0
 
     iget-object v1, p1, Lcom/google/firebase/crashlytics/internal/settings/i/f;->c:Lcom/google/firebase/crashlytics/internal/settings/i/c;
 
-    .line 5
     invoke-direct {p0, v1}, Lcom/google/firebase/crashlytics/internal/settings/b;->i(Lcom/google/firebase/crashlytics/internal/settings/i/c;)Lorg/json/JSONObject;
 
     move-result-object v1
@@ -366,7 +331,6 @@
 
     iget-object v1, p1, Lcom/google/firebase/crashlytics/internal/settings/i/f;->a:Lcom/google/firebase/crashlytics/internal/settings/i/b;
 
-    .line 6
     invoke-direct {p0, v1}, Lcom/google/firebase/crashlytics/internal/settings/b;->h(Lcom/google/firebase/crashlytics/internal/settings/i/b;)Lorg/json/JSONObject;
 
     move-result-object v1
@@ -379,7 +343,6 @@
 
     iget-object p1, p1, Lcom/google/firebase/crashlytics/internal/settings/i/f;->b:Lcom/google/firebase/crashlytics/internal/settings/i/d;
 
-    .line 7
     invoke-direct {p0, p1}, Lcom/google/firebase/crashlytics/internal/settings/b;->j(Lcom/google/firebase/crashlytics/internal/settings/i/d;)Lorg/json/JSONObject;
 
     move-result-object p1
@@ -405,7 +368,6 @@
 
     const/4 v1, 0x0
 
-    .line 1
     invoke-virtual {p2, v0, v1}, Lorg/json/JSONObject;->optInt(Ljava/lang/String;I)I
 
     move-result v8
@@ -414,14 +376,12 @@
 
     const/16 v1, 0xe10
 
-    .line 2
     invoke-virtual {p2, v0, v1}, Lorg/json/JSONObject;->optInt(Ljava/lang/String;I)I
 
     move-result v9
 
     const-string v0, "app"
 
-    .line 3
     invoke-virtual {p2, v0}, Lorg/json/JSONObject;->getJSONObject(Ljava/lang/String;)Lorg/json/JSONObject;
 
     move-result-object v0
@@ -432,7 +392,6 @@
 
     const-string v0, "session"
 
-    .line 4
     invoke-virtual {p2, v0}, Lorg/json/JSONObject;->getJSONObject(Ljava/lang/String;)Lorg/json/JSONObject;
 
     move-result-object v0
@@ -443,7 +402,6 @@
 
     const-string v0, "features"
 
-    .line 5
     invoke-virtual {p2, v0}, Lorg/json/JSONObject;->getJSONObject(Ljava/lang/String;)Lorg/json/JSONObject;
 
     move-result-object v0
@@ -454,12 +412,10 @@
 
     int-to-long v0, v9
 
-    .line 6
     invoke-static {p1, v0, v1, p2}, Lcom/google/firebase/crashlytics/internal/settings/b;->g(Lcom/google/firebase/crashlytics/internal/common/p;JLorg/json/JSONObject;)J
 
     move-result-wide v3
 
-    .line 7
     new-instance p1, Lcom/google/firebase/crashlytics/internal/settings/i/f;
 
     move-object v2, p1

@@ -25,7 +25,6 @@
 .method constructor <init>(Lcom/spotxchange/v4/adapters/gma/SpotXRewarded;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/spotxchange/v4/adapters/gma/SpotXRewarded$c;->a:Lcom/spotxchange/v4/adapters/gma/SpotXRewarded;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -38,7 +37,6 @@
 .method public run()V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/spotxchange/v4/adapters/gma/SpotXRewarded$c;->a:Lcom/spotxchange/v4/adapters/gma/SpotXRewarded;
 
     invoke-static {v0}, Lcom/spotxchange/v4/adapters/gma/SpotXRewarded;->a(Lcom/spotxchange/v4/adapters/gma/SpotXRewarded;)Lcom/google/android/gms/ads/reward/mediation/a;

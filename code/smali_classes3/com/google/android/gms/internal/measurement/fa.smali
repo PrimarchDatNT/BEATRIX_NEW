@@ -72,12 +72,10 @@
 .method static constructor <clinit>()V
     .locals 4
 
-    .line 1
     new-instance v0, Lcom/google/android/gms/internal/measurement/s1;
 
     const-string v1, "com.google.android.gms.measurement"
 
-    .line 2
     invoke-static {v1}, Lcom/google/android/gms/internal/measurement/n1;->a(Ljava/lang/String;)Landroid/net/Uri;
 
     move-result-object v1
@@ -88,7 +86,6 @@
 
     const/4 v2, 0x1
 
-    .line 3
     invoke-virtual {v0, v1, v2}, Lcom/google/android/gms/internal/measurement/s1;->d(Ljava/lang/String;Z)Lcom/google/android/gms/internal/measurement/m1;
 
     move-result-object v1
@@ -97,7 +94,6 @@
 
     const-string v1, "measurement.sdk.collection.last_deep_link_referrer2"
 
-    .line 4
     invoke-virtual {v0, v1, v2}, Lcom/google/android/gms/internal/measurement/s1;->d(Ljava/lang/String;Z)Lcom/google/android/gms/internal/measurement/m1;
 
     move-result-object v1
@@ -108,7 +104,6 @@
 
     const/4 v3, 0x0
 
-    .line 5
     invoke-virtual {v0, v1, v3}, Lcom/google/android/gms/internal/measurement/s1;->d(Ljava/lang/String;Z)Lcom/google/android/gms/internal/measurement/m1;
 
     move-result-object v1
@@ -117,7 +112,6 @@
 
     const-string v1, "measurement.sdk.collection.last_gclid_from_referrer2"
 
-    .line 6
     invoke-virtual {v0, v1, v3}, Lcom/google/android/gms/internal/measurement/s1;->d(Ljava/lang/String;Z)Lcom/google/android/gms/internal/measurement/m1;
 
     move-result-object v1
@@ -126,7 +120,6 @@
 
     const-string v1, "measurement.sdk.collection.worker_thread_referrer"
 
-    .line 7
     invoke-virtual {v0, v1, v2}, Lcom/google/android/gms/internal/measurement/s1;->d(Ljava/lang/String;Z)Lcom/google/android/gms/internal/measurement/m1;
 
     move-result-object v1
@@ -137,7 +130,6 @@
 
     const-wide/16 v2, 0x0
 
-    .line 8
     invoke-virtual {v0, v1, v2, v3}, Lcom/google/android/gms/internal/measurement/s1;->b(Ljava/lang/String;J)Lcom/google/android/gms/internal/measurement/m1;
 
     move-result-object v0
@@ -150,7 +142,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -161,7 +152,6 @@
 .method public final a()Z
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/google/android/gms/internal/measurement/fa;->e:Lcom/google/android/gms/internal/measurement/m1;
 
     invoke-virtual {v0}, Lcom/google/android/gms/internal/measurement/m1;->n()Ljava/lang/Object;
@@ -180,7 +170,6 @@
 .method public final b()Z
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/google/android/gms/internal/measurement/fa;->c:Lcom/google/android/gms/internal/measurement/m1;
 
     invoke-virtual {v0}, Lcom/google/android/gms/internal/measurement/m1;->n()Ljava/lang/Object;
@@ -199,7 +188,6 @@
 .method public final c()Z
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/google/android/gms/internal/measurement/fa;->d:Lcom/google/android/gms/internal/measurement/m1;
 
     invoke-virtual {v0}, Lcom/google/android/gms/internal/measurement/m1;->n()Ljava/lang/Object;
@@ -218,7 +206,6 @@
 .method public final d()Z
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/google/android/gms/internal/measurement/fa;->a:Lcom/google/android/gms/internal/measurement/m1;
 
     invoke-virtual {v0}, Lcom/google/android/gms/internal/measurement/m1;->n()Ljava/lang/Object;
@@ -237,7 +224,6 @@
 .method public final e()Z
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/google/android/gms/internal/measurement/fa;->b:Lcom/google/android/gms/internal/measurement/m1;
 
     invoke-virtual {v0}, Lcom/google/android/gms/internal/measurement/m1;->n()Ljava/lang/Object;

@@ -34,7 +34,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lio/grpc/internal/j$a$a;->c:Lio/grpc/internal/j$a;
 
     iput-object p2, p0, Lio/grpc/internal/j$a$a;->a:Li/b/b;
@@ -53,15 +52,12 @@
 
     const-string v0, "AbstractStream.request"
 
-    .line 1
     invoke-static {v0}, Li/b/c;->l(Ljava/lang/String;)V
 
-    .line 2
     iget-object v1, p0, Lio/grpc/internal/j$a$a;->a:Li/b/b;
 
     invoke-static {v1}, Li/b/c;->i(Li/b/b;)V
 
-    .line 3
     :try_start_0
     iget-object v1, p0, Lio/grpc/internal/j$a$a;->c:Lio/grpc/internal/j$a;
 
@@ -80,7 +76,6 @@
     :catchall_0
     move-exception v1
 
-    .line 4
     :try_start_1
     iget-object v2, p0, Lio/grpc/internal/j$a$a;->c:Lio/grpc/internal/j$a;
 
@@ -88,7 +83,6 @@
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_1
 
-    .line 5
     :goto_0
     invoke-static {v0}, Li/b/c;->n(Ljava/lang/String;)V
 

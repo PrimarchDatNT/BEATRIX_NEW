@@ -51,7 +51,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/editengine/d$b;->a:Lcom/commsource/editengine/d;
 
     invoke-static {v1}, Lcom/commsource/editengine/d;->d(Lcom/commsource/editengine/d;)Ljava/util/LinkedList;
@@ -60,20 +59,16 @@
 
     invoke-virtual {v1}, Ljava/util/LinkedList;->clear()V
 
-    .line 2
     new-instance v1, Ljava/util/HashMap;
 
     invoke-direct {v1}, Ljava/util/HashMap;-><init>()V
 
-    .line 3
     new-instance v2, Ljava/util/LinkedList;
 
     invoke-direct {v2}, Ljava/util/LinkedList;-><init>()V
 
-    .line 4
     iget-object v3, p0, Lcom/commsource/editengine/d$b;->b:Ljava/util/List;
 
-    .line 5
     invoke-interface {v3}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v3
@@ -92,19 +87,16 @@
 
     check-cast v4, Lcom/commsource/studio/bean/BaseLayerInfo;
 
-    .line 6
     instance-of v5, v4, Lcom/commsource/studio/bean/GroupLayerInfo;
 
     if-eqz v5, :cond_1
 
-    .line 7
     check-cast v4, Lcom/commsource/studio/bean/GroupLayerInfo;
 
     invoke-virtual {v4}, Lcom/commsource/studio/bean/GroupLayerInfo;->getSubLayerInfos()Ljava/util/ArrayList;
 
     move-result-object v4
 
-    .line 8
     invoke-interface {v4}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v4
@@ -122,7 +114,6 @@
 
     check-cast v5, Lcotlin/Pair;
 
-    .line 9
     invoke-virtual {v5}, Lcotlin/Pair;->getFirst()Ljava/lang/Object;
 
     move-result-object v5
@@ -131,13 +122,11 @@
 
     goto :goto_1
 
-    .line 10
     :cond_1
     invoke-virtual {v2, v4}, Ljava/util/LinkedList;->add(Ljava/lang/Object;)Z
 
     goto :goto_0
 
-    .line 11
     :cond_2
     invoke-interface {v2}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
@@ -157,7 +146,6 @@
 
     check-cast v3, Lcom/commsource/studio/bean/BaseLayerInfo;
 
-    .line 12
     iget-object v4, p0, Lcom/commsource/editengine/d$b;->a:Lcom/commsource/editengine/d;
 
     invoke-static {v4, v3}, Lcom/commsource/editengine/d;->b(Lcom/commsource/editengine/d;Lcom/commsource/studio/bean/BaseLayerInfo;)Lcom/commsource/editengine/i;
@@ -166,14 +154,12 @@
 
     if-eqz v4, :cond_3
 
-    .line 13
     invoke-virtual {v3}, Lcom/commsource/studio/bean/BaseLayerInfo;->getParentKey()Ljava/lang/String;
 
     move-result-object v5
 
     invoke-interface {v1, v5, v4}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 14
     iget-object v5, p0, Lcom/commsource/editengine/d$b;->a:Lcom/commsource/editengine/d;
 
     invoke-static {v5}, Lcom/commsource/editengine/d;->d(Lcom/commsource/editengine/d;)Ljava/util/LinkedList;
@@ -182,12 +168,10 @@
 
     invoke-virtual {v5, v4}, Ljava/util/LinkedList;->add(Ljava/lang/Object;)Z
 
-    .line 15
     invoke-virtual {v3, v4}, Lcom/commsource/studio/bean/BaseLayerInfo;->setLayerNode(Lcom/commsource/editengine/i;)V
 
     goto :goto_2
 
-    .line 16
     :cond_4
     iget-object v2, p0, Lcom/commsource/editengine/d$b;->a:Lcom/commsource/editengine/d;
 
@@ -195,7 +179,6 @@
 
     move-result-object v2
 
-    .line 17
     invoke-interface {v2}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v2
@@ -215,17 +198,14 @@
 
     const/4 v4, 0x0
 
-    .line 18
     invoke-virtual {v3, v4}, Lcom/commsource/editengine/i;->i(Z)V
 
-    .line 19
     iget-boolean v4, p0, Lcom/commsource/editengine/d$b;->c:Z
 
     invoke-virtual {v3, v4}, Lcom/commsource/editengine/i;->g(Z)V
 
     goto :goto_3
 
-    .line 20
     :cond_5
     iget-object v2, p0, Lcom/commsource/editengine/d$b;->a:Lcom/commsource/editengine/d;
 
@@ -241,7 +221,6 @@
 
     invoke-static {v2, v3}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 21
     invoke-interface {v2}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v2
@@ -259,7 +238,6 @@
 
     check-cast v3, Ljava/util/Map$Entry;
 
-    .line 22
     invoke-interface {v3}, Ljava/util/Map$Entry;->getValue()Ljava/lang/Object;
 
     move-result-object v3
@@ -270,7 +248,6 @@
 
     goto :goto_4
 
-    .line 23
     :cond_6
     iget-object v2, p0, Lcom/commsource/editengine/d$b;->a:Lcom/commsource/editengine/d;
 
@@ -280,7 +257,6 @@
 
     invoke-virtual {v2}, Ljava/util/HashMap;->clear()V
 
-    .line 24
     iget-object v2, p0, Lcom/commsource/editengine/d$b;->a:Lcom/commsource/editengine/d;
 
     invoke-static {v2}, Lcom/commsource/editengine/d;->e(Lcom/commsource/editengine/d;)Ljava/util/HashMap;
@@ -289,12 +265,10 @@
 
     invoke-virtual {v2, v1}, Ljava/util/HashMap;->putAll(Ljava/util/Map;)V
 
-    .line 25
     iget-object v1, p0, Lcom/commsource/editengine/d$b;->a:Lcom/commsource/editengine/d;
 
     invoke-static {v1}, Lcom/commsource/editengine/d;->f(Lcom/commsource/editengine/d;)V
 
-    .line 26
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

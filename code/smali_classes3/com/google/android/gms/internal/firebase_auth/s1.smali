@@ -33,7 +33,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-direct {p0, p1, v0}, Lcom/google/android/gms/internal/firebase_auth/s1;-><init>(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
@@ -46,10 +45,8 @@
         .end annotation
     .end param
 
-    .line 2
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 3
     sget-object p2, Lcom/google/android/gms/internal/firebase_auth/zzej;->zzrl:Lcom/google/android/gms/internal/firebase_auth/zzej;
 
     invoke-virtual {p2}, Lcom/google/android/gms/internal/firebase_auth/zzej;->toString()Ljava/lang/String;
@@ -58,7 +55,6 @@
 
     iput-object p2, p0, Lcom/google/android/gms/internal/firebase_auth/s1;->a:Ljava/lang/String;
 
-    .line 4
     invoke-static {p1}, Lcom/google/android/gms/common/internal/b0;->g(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p1
@@ -67,7 +63,6 @@
 
     const/4 p1, 0x0
 
-    .line 5
     iput-object p1, p0, Lcom/google/android/gms/internal/firebase_auth/s1;->c:Ljava/lang/String;
 
     return-void
@@ -78,7 +73,6 @@
 .method public final synthetic q()Lcom/google/android/gms/internal/firebase_auth/s5;
     .locals 2
 
-    .line 1
     invoke-static {}, Lcom/google/android/gms/internal/firebase_auth/q7$a;->y()Lcom/google/android/gms/internal/firebase_auth/q7$a$a;
 
     move-result-object v0
@@ -95,7 +89,6 @@
 
     move-result-object v0
 
-    .line 2
     invoke-virtual {v0}, Lcom/google/android/gms/internal/firebase_auth/k4$a;->Za()Lcom/google/android/gms/internal/firebase_auth/s5;
 
     move-result-object v0

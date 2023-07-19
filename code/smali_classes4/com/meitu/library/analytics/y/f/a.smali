@@ -35,34 +35,24 @@
 .method private constructor <init>(Ljava/lang/String;IIJJJJLjava/lang/String;Ljava/lang/String;)V
     .locals 0
 
-    .line 2
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 3
     iput-object p1, p0, Lcom/meitu/library/analytics/y/f/a;->a:Ljava/lang/String;
 
-    .line 4
     iput p2, p0, Lcom/meitu/library/analytics/y/f/a;->b:I
 
-    .line 5
     iput p3, p0, Lcom/meitu/library/analytics/y/f/a;->c:I
 
-    .line 6
     iput-wide p4, p0, Lcom/meitu/library/analytics/y/f/a;->d:J
 
-    .line 7
     iput-wide p6, p0, Lcom/meitu/library/analytics/y/f/a;->e:J
 
-    .line 8
     iput-wide p8, p0, Lcom/meitu/library/analytics/y/f/a;->f:J
 
-    .line 9
     iput-wide p10, p0, Lcom/meitu/library/analytics/y/f/a;->g:J
 
-    .line 10
     iput-object p12, p0, Lcom/meitu/library/analytics/y/f/a;->h:Ljava/lang/String;
 
-    .line 11
     iput-object p13, p0, Lcom/meitu/library/analytics/y/f/a;->i:Ljava/lang/String;
 
     return-void
@@ -71,7 +61,6 @@
 .method synthetic constructor <init>(Ljava/lang/String;IIJJJJLjava/lang/String;Ljava/lang/String;Lcom/meitu/library/analytics/y/f/a$a;)V
     .locals 0
 
-    .line 1
     invoke-direct/range {p0 .. p13}, Lcom/meitu/library/analytics/y/f/a;-><init>(Ljava/lang/String;IIJJJJLjava/lang/String;Ljava/lang/String;)V
 
     return-void
@@ -86,7 +75,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/library/analytics/y/f/a;->i:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -101,7 +89,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/library/analytics/y/f/a;->e:J
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -116,7 +103,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/library/analytics/y/f/a;->a:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -131,7 +117,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/library/analytics/y/f/a;->c:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -146,7 +131,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/library/analytics/y/f/a;->b:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -161,7 +145,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/library/analytics/y/f/a;->h:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -176,7 +159,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/library/analytics/y/f/a;->d:J
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -191,7 +173,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/library/analytics/y/f/a;->g:J
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -206,7 +187,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lcom/meitu/library/analytics/y/f/a;->f:J
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -221,24 +201,20 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
 
     const-string v2, "EventInfo "
 
-    .line 2
     invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     const/16 v2, 0x5b
 
-    .line 3
     invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(C)Ljava/lang/StringBuilder;
 
     const-string v2, "eventId="
 
-    .line 4
     invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     iget-object v2, p0, Lcom/meitu/library/analytics/y/f/a;->a:Ljava/lang/String;
@@ -251,7 +227,6 @@
 
     const-string v3, "eventType="
 
-    .line 5
     invoke-virtual {v1, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     iget v3, p0, Lcom/meitu/library/analytics/y/f/a;->b:I
@@ -262,7 +237,6 @@
 
     const-string v3, "eventSource="
 
-    .line 6
     invoke-virtual {v1, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     iget v3, p0, Lcom/meitu/library/analytics/y/f/a;->c:I
@@ -273,7 +247,6 @@
 
     const-string v3, "time="
 
-    .line 7
     invoke-virtual {v1, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     iget-wide v3, p0, Lcom/meitu/library/analytics/y/f/a;->d:J
@@ -284,7 +257,6 @@
 
     const-string v3, "duration="
 
-    .line 8
     invoke-virtual {v1, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     iget-wide v3, p0, Lcom/meitu/library/analytics/y/f/a;->e:J
@@ -295,7 +267,6 @@
 
     const-string v3, "usingTime="
 
-    .line 9
     invoke-virtual {v1, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     iget-wide v3, p0, Lcom/meitu/library/analytics/y/f/a;->f:J
@@ -306,7 +277,6 @@
 
     const-string v3, "usingDuration="
 
-    .line 10
     invoke-virtual {v1, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     iget-wide v3, p0, Lcom/meitu/library/analytics/y/f/a;->g:J
@@ -317,7 +287,6 @@
 
     const-string v3, "params="
 
-    .line 11
     invoke-virtual {v1, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     iget-object v3, p0, Lcom/meitu/library/analytics/y/f/a;->h:Ljava/lang/String;
@@ -328,7 +297,6 @@
 
     const-string v2, "deviceInfo="
 
-    .line 12
     invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     iget-object v2, p0, Lcom/meitu/library/analytics/y/f/a;->i:Ljava/lang/String;
@@ -337,15 +305,12 @@
 
     const/16 v2, 0x5d
 
-    .line 13
     invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(C)Ljava/lang/StringBuilder;
 
-    .line 14
     invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     move-result-object v1
 
-    .line 15
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1

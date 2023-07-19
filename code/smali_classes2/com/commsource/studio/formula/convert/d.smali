@@ -28,14 +28,12 @@
 .method public constructor <init>()V
     .locals 3
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/4 v0, 0x7
 
     new-array v0, v0, [Lcom/commsource/studio/formula/convert/b;
 
-    .line 2
     new-instance v1, Lcom/commsource/studio/formula/convert/a;
 
     invoke-direct {v1, p0}, Lcom/commsource/studio/formula/convert/a;-><init>(Lcom/commsource/studio/formula/convert/d;)V
@@ -44,7 +42,6 @@
 
     aput-object v1, v0, v2
 
-    .line 3
     new-instance v1, Lcom/commsource/studio/formula/convert/e;
 
     invoke-direct {v1, p0}, Lcom/commsource/studio/formula/convert/e;-><init>(Lcom/commsource/studio/formula/convert/d;)V
@@ -53,7 +50,6 @@
 
     aput-object v1, v0, v2
 
-    .line 4
     new-instance v1, Lcom/commsource/studio/formula/convert/j;
 
     invoke-direct {v1, p0}, Lcom/commsource/studio/formula/convert/j;-><init>(Lcom/commsource/studio/formula/convert/d;)V
@@ -62,7 +58,6 @@
 
     aput-object v1, v0, v2
 
-    .line 5
     new-instance v1, Lcom/commsource/studio/formula/convert/c;
 
     invoke-direct {v1, p0}, Lcom/commsource/studio/formula/convert/c;-><init>(Lcom/commsource/studio/formula/convert/d;)V
@@ -71,7 +66,6 @@
 
     aput-object v1, v0, v2
 
-    .line 6
     new-instance v1, Lcom/commsource/studio/formula/convert/i;
 
     invoke-direct {v1, p0}, Lcom/commsource/studio/formula/convert/i;-><init>(Lcom/commsource/studio/formula/convert/d;)V
@@ -80,7 +74,6 @@
 
     aput-object v1, v0, v2
 
-    .line 7
     new-instance v1, Lcom/commsource/studio/formula/convert/k;
 
     invoke-direct {v1, p0}, Lcom/commsource/studio/formula/convert/k;-><init>(Lcom/commsource/studio/formula/convert/d;)V
@@ -89,7 +82,6 @@
 
     aput-object v1, v0, v2
 
-    .line 8
     new-instance v1, Lcom/commsource/studio/formula/convert/h;
 
     invoke-direct {v1, p0}, Lcom/commsource/studio/formula/convert/h;-><init>(Lcom/commsource/studio/formula/convert/d;)V
@@ -98,7 +90,6 @@
 
     aput-object v1, v0, v2
 
-    .line 9
     invoke-static {v0}, Lcotlin/collections/s;->r([Ljava/lang/Object;)Ljava/util/ArrayList;
 
     move-result-object v0
@@ -132,12 +123,10 @@
 
     invoke-static {v0, v2}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     new-instance v2, Lcom/commsource/material/download/b/b$b;
 
     invoke-direct {v2}, Lcom/commsource/material/download/b/b$b;-><init>()V
 
-    .line 2
     sget-object v3, Lcom/commsource/studio/formula/c;->v:Lcom/commsource/studio/formula/c;
 
     invoke-virtual/range {p1 .. p1}, Lcom/commsource/studio/formula/convert/g;->j()Lcom/commsource/studio/formula/JsFormula;
@@ -148,7 +137,6 @@
 
     move-result-object v7
 
-    .line 3
     invoke-static {v7}, Lcom/meitu/library/p/g/b;->y(Ljava/lang/String;)Z
 
     move-result v3
@@ -165,7 +153,6 @@
 
     if-nez v3, :cond_0
 
-    .line 4
     new-instance v4, Lcom/commsource/material/download/c/d;
 
     invoke-virtual/range {p1 .. p1}, Lcom/commsource/studio/formula/convert/g;->j()Lcom/commsource/studio/formula/JsFormula;
@@ -188,7 +175,6 @@
 
     invoke-direct/range {v5 .. v11}, Lcom/commsource/material/download/c/d;-><init>(Ljava/lang/String;Ljava/lang/String;ZLjava/lang/String;ILcotlin/jvm/internal/u;)V
 
-    .line 5
     sget-object v3, Lcom/commsource/material/c;->m:Lcom/commsource/material/c;
 
     invoke-virtual {v3}, Lcom/commsource/material/c;->b()Lcom/commsource/material/d;
@@ -203,10 +189,8 @@
 
     move-object v3, v2
 
-    .line 6
     invoke-static/range {v3 .. v8}, Lcom/commsource/material/download/b/b$b;->b(Lcom/commsource/material/download/b/b$b;Lcom/commsource/material/download/c/c;Lcom/commsource/material/d;Lcom/commsource/material/download/b/c;ILjava/lang/Object;)Lcom/commsource/material/download/b/b$b;
 
-    .line 7
     :cond_0
     invoke-virtual/range {p1 .. p1}, Lcom/commsource/studio/formula/convert/g;->j()Lcom/commsource/studio/formula/JsFormula;
 
@@ -218,7 +202,6 @@
 
     if-eqz v3, :cond_9
 
-    .line 8
     invoke-interface {v3}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v9
@@ -237,7 +220,6 @@
 
     check-cast v3, Lcom/commsource/studio/formula/convert/FormulaProduct;
 
-    .line 9
     invoke-virtual {v3}, Lcom/commsource/studio/formula/convert/FormulaProduct;->getType()I
 
     move-result v4
@@ -272,7 +254,6 @@
 
     goto :goto_0
 
-    .line 10
     :cond_2
     sget-object v4, Lcom/commsource/studio/sticker/StickerManager;->p:Lcom/commsource/studio/sticker/StickerManager;
 
@@ -290,43 +271,36 @@
 
     if-eqz v3, :cond_1
 
-    .line 11
     invoke-virtual {v3}, Lcom/meitu/template/bean/Sticker;->needDownload()Z
 
     move-result v5
 
     if-eqz v5, :cond_1
 
-    .line 12
     invoke-virtual {v4, v3}, Lcom/commsource/studio/sticker/StickerManager;->T(Lcom/meitu/template/bean/Sticker;)Lcom/commsource/material/download/c/d;
 
     move-result-object v5
 
-    .line 13
     sget-object v6, Lcom/commsource/material/c;->m:Lcom/commsource/material/c;
 
     invoke-virtual {v6}, Lcom/commsource/material/c;->j()Lcom/commsource/material/d;
 
     move-result-object v6
 
-    .line 14
     sget-object v7, Lcom/commsource/studio/k;->V:Lcom/commsource/studio/k;
 
     invoke-virtual {v7}, Lcom/commsource/studio/k;->b()I
 
     move-result v7
 
-    .line 15
     invoke-virtual {v4, v3, v7}, Lcom/commsource/studio/sticker/StickerManager;->M(Lcom/meitu/template/bean/Sticker;I)Lcom/commsource/material/download/b/c;
 
     move-result-object v3
 
-    .line 16
     invoke-virtual {v2, v5, v6, v3}, Lcom/commsource/material/download/b/b$b;->a(Lcom/commsource/material/download/c/c;Lcom/commsource/material/d;Lcom/commsource/material/download/b/c;)Lcom/commsource/material/download/b/b$b;
 
     goto :goto_0
 
-    .line 17
     :cond_3
     sget-object v4, Lcom/commsource/studio/formula/c;->v:Lcom/commsource/studio/formula/c;
 
@@ -334,14 +308,12 @@
 
     move-result-object v12
 
-    .line 18
     invoke-static {v12}, Lcom/meitu/library/p/g/b;->y(Ljava/lang/String;)Z
 
     move-result v4
 
     if-nez v4, :cond_1
 
-    .line 19
     new-instance v4, Lcom/commsource/material/download/c/d;
 
     invoke-virtual {v3}, Lcom/commsource/studio/formula/convert/FormulaProduct;->getAsset_url()Ljava/lang/String;
@@ -360,7 +332,6 @@
 
     invoke-direct/range {v10 .. v16}, Lcom/commsource/material/download/c/d;-><init>(Ljava/lang/String;Ljava/lang/String;ZLjava/lang/String;ILcotlin/jvm/internal/u;)V
 
-    .line 20
     sget-object v3, Lcom/commsource/material/c;->m:Lcom/commsource/material/c;
 
     invoke-virtual {v3}, Lcom/commsource/material/c;->b()Lcom/commsource/material/d;
@@ -375,12 +346,10 @@
 
     move-object v3, v2
 
-    .line 21
     invoke-static/range {v3 .. v8}, Lcom/commsource/material/download/b/b$b;->b(Lcom/commsource/material/download/b/b$b;Lcom/commsource/material/download/c/c;Lcom/commsource/material/d;Lcom/commsource/material/download/b/c;ILjava/lang/Object;)Lcom/commsource/material/download/b/b$b;
 
     goto/16 :goto_0
 
-    .line 22
     :cond_4
     sget-object v4, Lcom/commsource/repository/child/TextTemplateRepository;->s:Lcom/commsource/repository/child/TextTemplateRepository;
 
@@ -394,36 +363,30 @@
 
     if-eqz v3, :cond_1
 
-    .line 23
     invoke-virtual {v3}, Lcom/commsource/studio/text/TextTemplateMaterial;->needDownload()Z
 
     move-result v5
 
     if-eqz v5, :cond_1
 
-    .line 24
     invoke-virtual {v4, v3}, Lcom/commsource/repository/child/TextTemplateRepository;->E(Lcom/commsource/studio/text/TextTemplateMaterial;)Lcom/commsource/material/download/c/d;
 
     move-result-object v5
 
-    .line 25
     sget-object v6, Lcom/commsource/material/c;->m:Lcom/commsource/material/c;
 
     invoke-virtual {v6}, Lcom/commsource/material/c;->l()Lcom/commsource/material/d;
 
     move-result-object v6
 
-    .line 26
     invoke-virtual {v4, v3}, Lcom/commsource/repository/child/TextTemplateRepository;->A(Lcom/commsource/studio/text/TextTemplateMaterial;)Lcom/commsource/material/download/b/c;
 
     move-result-object v3
 
-    .line 27
     invoke-virtual {v2, v5, v6, v3}, Lcom/commsource/material/download/b/b$b;->a(Lcom/commsource/material/download/c/c;Lcom/commsource/material/d;Lcom/commsource/material/download/b/c;)Lcom/commsource/material/download/b/b$b;
 
     goto/16 :goto_0
 
-    .line 28
     :cond_5
     sget-object v4, Lcom/commsource/repository/child/TextFontRepository;->v:Lcom/commsource/repository/child/TextFontRepository;
 
@@ -437,36 +400,30 @@
 
     if-eqz v3, :cond_1
 
-    .line 29
     invoke-virtual {v3}, Lcom/commsource/studio/text/TextFontMaterial;->needDownload()Z
 
     move-result v5
 
     if-eqz v5, :cond_1
 
-    .line 30
     invoke-virtual {v4, v3}, Lcom/commsource/repository/child/TextFontRepository;->H(Lcom/commsource/studio/text/TextFontMaterial;)Lcom/commsource/material/download/c/d;
 
     move-result-object v5
 
-    .line 31
     sget-object v6, Lcom/commsource/material/c;->m:Lcom/commsource/material/c;
 
     invoke-virtual {v6}, Lcom/commsource/material/c;->k()Lcom/commsource/material/d;
 
     move-result-object v6
 
-    .line 32
     invoke-virtual {v4, v3}, Lcom/commsource/repository/child/TextFontRepository;->B(Lcom/commsource/studio/text/TextFontMaterial;)Lcom/commsource/material/download/b/c;
 
     move-result-object v3
 
-    .line 33
     invoke-virtual {v2, v5, v6, v3}, Lcom/commsource/material/download/b/b$b;->a(Lcom/commsource/material/download/c/c;Lcom/commsource/material/d;Lcom/commsource/material/download/b/c;)Lcom/commsource/material/download/b/b$b;
 
     goto/16 :goto_0
 
-    .line 34
     :cond_6
     sget-object v4, Lcom/commsource/beautyfilter/NewBeautyFilterManager;->q:Lcom/commsource/beautyfilter/NewBeautyFilterManager$a;
 
@@ -488,14 +445,12 @@
 
     if-eqz v3, :cond_1
 
-    .line 35
     invoke-virtual {v3}, Lcom/meitu/template/bean/Filter;->isDownloaded()Z
 
     move-result v5
 
     if-nez v5, :cond_1
 
-    .line 36
     invoke-virtual {v4}, Lcom/commsource/beautyfilter/NewBeautyFilterManager$a;->b()Lcom/commsource/beautyfilter/NewBeautyFilterManager;
 
     move-result-object v5
@@ -504,14 +459,12 @@
 
     move-result-object v5
 
-    .line 37
     sget-object v6, Lcom/commsource/material/c;->m:Lcom/commsource/material/c;
 
     invoke-virtual {v6}, Lcom/commsource/material/c;->e()Lcom/commsource/material/d;
 
     move-result-object v6
 
-    .line 38
     invoke-virtual {v4}, Lcom/commsource/beautyfilter/NewBeautyFilterManager$a;->b()Lcom/commsource/beautyfilter/NewBeautyFilterManager;
 
     move-result-object v4
@@ -524,12 +477,10 @@
 
     move-result-object v3
 
-    .line 39
     invoke-virtual {v2, v5, v6, v3}, Lcom/commsource/material/download/b/b$b;->a(Lcom/commsource/material/download/c/c;Lcom/commsource/material/d;Lcom/commsource/material/download/b/c;)Lcom/commsource/material/download/b/b$b;
 
     goto/16 :goto_0
 
-    .line 40
     :cond_7
     sget-object v4, Lcom/commsource/repository/child/TextureRepository;->s:Lcom/commsource/repository/child/TextureRepository;
 
@@ -543,36 +494,30 @@
 
     if-eqz v3, :cond_1
 
-    .line 41
     invoke-virtual {v3}, Lcom/commsource/studio/function/background/TextureMaterial;->needDownload()Z
 
     move-result v5
 
     if-eqz v5, :cond_1
 
-    .line 42
     invoke-virtual {v4, v3}, Lcom/commsource/repository/child/TextureRepository;->C(Lcom/commsource/studio/function/background/TextureMaterial;)Lcom/commsource/material/download/c/d;
 
     move-result-object v5
 
-    .line 43
     sget-object v6, Lcom/commsource/material/c;->m:Lcom/commsource/material/c;
 
     invoke-virtual {v6}, Lcom/commsource/material/c;->m()Lcom/commsource/material/d;
 
     move-result-object v6
 
-    .line 44
     invoke-virtual {v4, v3}, Lcom/commsource/repository/child/TextureRepository;->A(Lcom/commsource/studio/function/background/TextureMaterial;)Lcom/commsource/material/download/b/c;
 
     move-result-object v3
 
-    .line 45
     invoke-virtual {v2, v5, v6, v3}, Lcom/commsource/material/download/b/b$b;->a(Lcom/commsource/material/download/c/c;Lcom/commsource/material/d;Lcom/commsource/material/download/b/c;)Lcom/commsource/material/download/b/b$b;
 
     goto/16 :goto_0
 
-    .line 46
     :cond_8
     sget-object v4, Lcom/commsource/repository/child/GradientRepository;->s:Lcom/commsource/repository/child/GradientRepository;
 
@@ -586,36 +531,30 @@
 
     if-eqz v3, :cond_1
 
-    .line 47
     invoke-virtual {v3}, Lcom/commsource/studio/function/background/GradientMaterial;->needDownload()Z
 
     move-result v5
 
     if-eqz v5, :cond_1
 
-    .line 48
     invoke-virtual {v4, v3}, Lcom/commsource/repository/child/GradientRepository;->H(Lcom/commsource/studio/function/background/GradientMaterial;)Lcom/commsource/material/download/c/d;
 
     move-result-object v5
 
-    .line 49
     sget-object v6, Lcom/commsource/material/c;->m:Lcom/commsource/material/c;
 
     invoke-virtual {v6}, Lcom/commsource/material/c;->f()Lcom/commsource/material/d;
 
     move-result-object v6
 
-    .line 50
     invoke-virtual {v4, v3}, Lcom/commsource/repository/child/GradientRepository;->B(Lcom/commsource/studio/function/background/GradientMaterial;)Lcom/commsource/material/download/b/c;
 
     move-result-object v3
 
-    .line 51
     invoke-virtual {v2, v5, v6, v3}, Lcom/commsource/material/download/b/b$b;->a(Lcom/commsource/material/download/c/c;Lcom/commsource/material/d;Lcom/commsource/material/download/b/c;)Lcom/commsource/material/download/b/b$b;
 
     goto/16 :goto_0
 
-    .line 52
     :cond_9
     invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -660,7 +599,6 @@
 
     if-eqz p2, :cond_0
 
-    .line 1
     invoke-virtual {p2}, Lcom/commsource/studio/formula/convert/Formula;->getDatas()Ljava/util/List;
 
     move-result-object p2
@@ -676,7 +614,6 @@
     :cond_0
     const/4 p1, 0x0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p1
@@ -723,12 +660,10 @@
 
     if-eqz p2, :cond_5
 
-    .line 1
     new-instance v2, Ljava/util/concurrent/CopyOnWriteArrayList;
 
     invoke-direct {v2}, Ljava/util/concurrent/CopyOnWriteArrayList;-><init>()V
 
-    .line 2
     invoke-interface {p2}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object p2
@@ -747,7 +682,6 @@
 
     check-cast v3, Lcom/commsource/studio/formula/convert/FormulaLayer;
 
-    .line 3
     iget-object v4, p0, Lcom/commsource/studio/formula/convert/d;->a:Ljava/util/ArrayList;
 
     invoke-interface {v4}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
@@ -807,21 +741,17 @@
 
     if-eqz v3, :cond_0
 
-    .line 4
     invoke-virtual {v3, v6}, Lcom/commsource/studio/bean/BaseLayerInfo;->setFromFormula(Z)V
 
-    .line 5
     invoke-virtual {v2, v3}, Ljava/util/concurrent/CopyOnWriteArrayList;->add(Ljava/lang/Object;)Z
 
     goto :goto_0
 
-    .line 6
     :cond_4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v2
 
-    .line 7
     :cond_5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -850,7 +780,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -876,7 +805,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/formula/convert/d;->a:Ljava/util/ArrayList;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

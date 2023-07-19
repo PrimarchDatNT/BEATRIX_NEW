@@ -25,12 +25,10 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     iput-object p1, p0, Lcotlinx/coroutines/internal/m0;->c:Lcotlin/coroutines/CoroutineContext;
 
-    .line 2
     new-array p1, p2, [Ljava/lang/Object;
 
     iput-object p1, p0, Lcotlinx/coroutines/internal/m0;->a:[Ljava/lang/Object;
@@ -47,7 +45,6 @@
         .end annotation
     .end param
 
-    .line 1
     iget-object v0, p0, Lcotlinx/coroutines/internal/m0;->a:[Ljava/lang/Object;
 
     iget v1, p0, Lcotlinx/coroutines/internal/m0;->b:I
@@ -66,7 +63,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcotlinx/coroutines/internal/m0;->c:Lcotlin/coroutines/CoroutineContext;
 
     return-object v0
@@ -77,7 +73,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     iput v0, p0, Lcotlinx/coroutines/internal/m0;->b:I
 
     return-void
@@ -88,7 +83,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcotlinx/coroutines/internal/m0;->a:[Ljava/lang/Object;
 
     iget v1, p0, Lcotlinx/coroutines/internal/m0;->b:I

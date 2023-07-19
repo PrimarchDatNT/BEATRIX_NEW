@@ -57,7 +57,6 @@
 
     if-nez p1, :cond_1
 
-    .line 1
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/tips/ArHelperCover$d;->a:Lcom/commsource/camera/xcamera/cover/tips/ArHelperCover;
 
     invoke-virtual {p1}, Lcom/commsource/camera/xcamera/cover/AbsLazyCover;->A()Landroidx/databinding/ViewDataBinding;
@@ -66,12 +65,10 @@
 
     if-nez p1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 3
     :cond_0
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/tips/ArHelperCover$d;->a:Lcom/commsource/camera/xcamera/cover/tips/ArHelperCover;
 
@@ -81,7 +78,6 @@
 
     goto/16 :goto_3
 
-    .line 4
     :cond_1
     invoke-virtual {p1}, Lcom/meitu/template/bean/ArMaterial;->getArHelpUrl()Ljava/lang/String;
 
@@ -117,12 +113,10 @@
     :goto_0
     if-eqz v1, :cond_8
 
-    .line 5
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/tips/ArHelperCover$d;->a:Lcom/commsource/camera/xcamera/cover/tips/ArHelperCover;
 
     invoke-virtual {v1}, Lcom/commsource/camera/xcamera/cover/AbsLazyCover;->z()V
 
-    .line 6
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/tips/ArHelperCover$d;->a:Lcom/commsource/camera/xcamera/cover/tips/ArHelperCover;
 
     invoke-virtual {v1}, Lcom/commsource/camera/xcamera/cover/AbsLazyCover;->A()Landroidx/databinding/ViewDataBinding;
@@ -139,7 +133,6 @@
 
     invoke-static {v1}, Lcom/commsource/util/l0;->v0(Landroid/view/View;)V
 
-    .line 7
     :cond_3
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/tips/ArHelperCover$d;->a:Lcom/commsource/camera/xcamera/cover/tips/ArHelperCover;
 
@@ -157,7 +150,6 @@
 
     invoke-virtual {v1}, Landroid/widget/ImageView;->clearAnimation()V
 
-    .line 8
     :cond_4
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/tips/ArHelperCover$d;->a:Lcom/commsource/camera/xcamera/cover/tips/ArHelperCover;
 
@@ -179,7 +171,6 @@
 
     if-eqz v1, :cond_6
 
-    .line 9
     invoke-interface {v1}, Ljava/lang/CharSequence;->length()I
 
     move-result v4
@@ -191,7 +182,6 @@
     :cond_5
     if-nez v3, :cond_6
 
-    .line 10
     iget-object v3, p0, Lcom/commsource/camera/xcamera/cover/tips/ArHelperCover$d;->a:Lcom/commsource/camera/xcamera/cover/tips/ArHelperCover;
 
     invoke-virtual {v3}, Lcom/commsource/camera/xcamera/cover/AbsLazyCover;->A()Landroidx/databinding/ViewDataBinding;
@@ -230,7 +220,6 @@
 
     invoke-virtual {v3, v1, v4}, Lcom/airbnb/lottie/LottieAnimationView;->L(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 11
     :cond_6
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/tips/ArHelperCover$d;->a:Lcom/commsource/camera/xcamera/cover/tips/ArHelperCover;
 
@@ -250,7 +239,6 @@
 
     invoke-static {v1}, Lcom/commsource/util/l0;->v0(Landroid/view/View;)V
 
-    .line 12
     :cond_7
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/tips/ArHelperCover$d;->a:Lcom/commsource/camera/xcamera/cover/tips/ArHelperCover;
 
@@ -270,7 +258,6 @@
 
     goto :goto_1
 
-    .line 13
     :cond_8
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/tips/ArHelperCover$d;->a:Lcom/commsource/camera/xcamera/cover/tips/ArHelperCover;
 
@@ -288,7 +275,6 @@
 
     invoke-virtual {v1}, Lcom/airbnb/lottie/LottieAnimationView;->k()V
 
-    .line 14
     :cond_9
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/tips/ArHelperCover$d;->a:Lcom/commsource/camera/xcamera/cover/tips/ArHelperCover;
 
@@ -308,7 +294,6 @@
 
     invoke-virtual {v1, v3}, Landroid/widget/ImageView;->setVisibility(I)V
 
-    .line 15
     :cond_a
     :goto_1
     invoke-virtual {p1}, Lcom/meitu/template/bean/ArMaterial;->getArHelpTitle()Ljava/lang/String;
@@ -321,12 +306,10 @@
 
     if-nez v1, :cond_c
 
-    .line 16
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/tips/ArHelperCover$d;->a:Lcom/commsource/camera/xcamera/cover/tips/ArHelperCover;
 
     invoke-virtual {v1}, Lcom/commsource/camera/xcamera/cover/AbsLazyCover;->z()V
 
-    .line 17
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/tips/ArHelperCover$d;->a:Lcom/commsource/camera/xcamera/cover/tips/ArHelperCover;
 
     invoke-virtual {v1}, Lcom/commsource/camera/xcamera/cover/AbsLazyCover;->A()Landroidx/databinding/ViewDataBinding;
@@ -343,7 +326,6 @@
 
     invoke-static {v1}, Lcom/commsource/util/l0;->v0(Landroid/view/View;)V
 
-    .line 18
     :cond_b
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/tips/ArHelperCover$d;->a:Lcom/commsource/camera/xcamera/cover/tips/ArHelperCover;
 
@@ -365,7 +347,6 @@
 
     goto :goto_2
 
-    .line 19
     :cond_c
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/tips/ArHelperCover$d;->a:Lcom/commsource/camera/xcamera/cover/tips/ArHelperCover;
 
@@ -383,7 +364,6 @@
 
     invoke-static {v1}, Lcom/commsource/util/l0;->w(Landroid/view/View;)V
 
-    .line 20
     :cond_d
     :goto_2
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/tips/ArHelperCover$d;->a:Lcom/commsource/camera/xcamera/cover/tips/ArHelperCover;
@@ -406,7 +386,6 @@
 
     invoke-virtual {v1, v3}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 21
     :cond_e
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/tips/ArHelperCover$d;->a:Lcom/commsource/camera/xcamera/cover/tips/ArHelperCover;
 
@@ -418,19 +397,16 @@
 
     invoke-virtual {v1, v3}, Landroid/os/Handler;->removeCallbacksAndMessages(Ljava/lang/Object;)V
 
-    .line 22
     invoke-virtual {p1}, Lcom/meitu/template/bean/ArMaterial;->getArHelpRule()I
 
     move-result p1
 
     if-ne p1, v2, :cond_f
 
-    .line 23
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/tips/ArHelperCover$d;->a:Lcom/commsource/camera/xcamera/cover/tips/ArHelperCover;
 
     invoke-virtual {p1, v2}, Lcom/commsource/camera/xcamera/cover/tips/ArHelperCover;->J(I)V
 
-    .line 24
     :cond_f
     :goto_3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -445,7 +421,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Lcom/meitu/template/bean/ArMaterial;
 
     invoke-virtual {p0, p1}, Lcom/commsource/camera/xcamera/cover/tips/ArHelperCover$d;->a(Lcom/meitu/template/bean/ArMaterial;)V

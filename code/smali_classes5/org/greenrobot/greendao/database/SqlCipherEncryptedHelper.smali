@@ -16,15 +16,12 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-direct {p0, p2, p3, v0, p4}, Lnet/sqlcipher/database/SQLiteOpenHelper;-><init>(Landroid/content/Context;Ljava/lang/String;Lnet/sqlcipher/database/SQLiteDatabase$CursorFactory;I)V
 
-    .line 2
     iput-object p1, p0, Lorg/greenrobot/greendao/database/SqlCipherEncryptedHelper;->delegate:Lorg/greenrobot/greendao/database/b;
 
     if-eqz p5, :cond_0
 
-    .line 3
     invoke-static {p2}, Lnet/sqlcipher/database/SQLiteDatabase;->loadLibs(Landroid/content/Context;)V
 
     :cond_0
@@ -34,7 +31,6 @@
 .method private wrap(Lnet/sqlcipher/database/SQLiteDatabase;)Lorg/greenrobot/greendao/database/a;
     .locals 1
 
-    .line 1
     new-instance v0, Lorg/greenrobot/greendao/database/d;
 
     invoke-direct {v0, p1}, Lorg/greenrobot/greendao/database/d;-><init>(Lnet/sqlcipher/database/SQLiteDatabase;)V
@@ -47,7 +43,6 @@
 .method public getEncryptedReadableDb(Ljava/lang/String;)Lorg/greenrobot/greendao/database/a;
     .locals 0
 
-    .line 1
     invoke-virtual {p0, p1}, Lorg/greenrobot/greendao/database/SqlCipherEncryptedHelper;->getReadableDatabase(Ljava/lang/String;)Lnet/sqlcipher/database/SQLiteDatabase;
 
     move-result-object p1
@@ -62,7 +57,6 @@
 .method public getEncryptedReadableDb([C)Lorg/greenrobot/greendao/database/a;
     .locals 0
 
-    .line 2
     invoke-virtual {p0, p1}, Lorg/greenrobot/greendao/database/SqlCipherEncryptedHelper;->getReadableDatabase([C)Lnet/sqlcipher/database/SQLiteDatabase;
 
     move-result-object p1
@@ -77,7 +71,6 @@
 .method public getEncryptedWritableDb(Ljava/lang/String;)Lorg/greenrobot/greendao/database/a;
     .locals 0
 
-    .line 1
     invoke-virtual {p0, p1}, Lorg/greenrobot/greendao/database/SqlCipherEncryptedHelper;->getWritableDatabase(Ljava/lang/String;)Lnet/sqlcipher/database/SQLiteDatabase;
 
     move-result-object p1
@@ -92,7 +85,6 @@
 .method public getEncryptedWritableDb([C)Lorg/greenrobot/greendao/database/a;
     .locals 0
 
-    .line 2
     invoke-virtual {p0, p1}, Lorg/greenrobot/greendao/database/SqlCipherEncryptedHelper;->getWritableDatabase([C)Lnet/sqlcipher/database/SQLiteDatabase;
 
     move-result-object p1
@@ -107,7 +99,6 @@
 .method public onCreate(Lnet/sqlcipher/database/SQLiteDatabase;)V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lorg/greenrobot/greendao/database/SqlCipherEncryptedHelper;->delegate:Lorg/greenrobot/greendao/database/b;
 
     invoke-direct {p0, p1}, Lorg/greenrobot/greendao/database/SqlCipherEncryptedHelper;->wrap(Lnet/sqlcipher/database/SQLiteDatabase;)Lorg/greenrobot/greendao/database/a;
@@ -122,7 +113,6 @@
 .method public onOpen(Lnet/sqlcipher/database/SQLiteDatabase;)V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lorg/greenrobot/greendao/database/SqlCipherEncryptedHelper;->delegate:Lorg/greenrobot/greendao/database/b;
 
     invoke-direct {p0, p1}, Lorg/greenrobot/greendao/database/SqlCipherEncryptedHelper;->wrap(Lnet/sqlcipher/database/SQLiteDatabase;)Lorg/greenrobot/greendao/database/a;
@@ -137,7 +127,6 @@
 .method public onUpgrade(Lnet/sqlcipher/database/SQLiteDatabase;II)V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lorg/greenrobot/greendao/database/SqlCipherEncryptedHelper;->delegate:Lorg/greenrobot/greendao/database/b;
 
     invoke-direct {p0, p1}, Lorg/greenrobot/greendao/database/SqlCipherEncryptedHelper;->wrap(Lnet/sqlcipher/database/SQLiteDatabase;)Lorg/greenrobot/greendao/database/a;

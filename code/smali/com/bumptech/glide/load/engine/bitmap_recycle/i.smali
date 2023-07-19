@@ -24,7 +24,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -43,7 +42,6 @@
 .method public bridge synthetic b(Ljava/lang/Object;)I
     .locals 0
 
-    .line 1
     check-cast p1, [I
 
     invoke-virtual {p0, p1}, Lcom/bumptech/glide/load/engine/bitmap_recycle/i;->c([I)I
@@ -56,7 +54,6 @@
 .method public c([I)I
     .locals 0
 
-    .line 1
     array-length p1, p1
 
     return p1
@@ -65,7 +62,6 @@
 .method public d(I)[I
     .locals 0
 
-    .line 1
     new-array p1, p1, [I
 
     return-object p1
@@ -82,7 +78,6 @@
 .method public bridge synthetic newArray(I)Ljava/lang/Object;
     .locals 0
 
-    .line 1
     invoke-virtual {p0, p1}, Lcom/bumptech/glide/load/engine/bitmap_recycle/i;->d(I)[I
 
     move-result-object p1

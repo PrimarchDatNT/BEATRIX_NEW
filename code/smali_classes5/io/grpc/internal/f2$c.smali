@@ -25,7 +25,6 @@
 .method private constructor <init>(Lio/grpc/internal/f2;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lio/grpc/internal/f2$c;->a:Lio/grpc/internal/f2;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -36,7 +35,6 @@
 .method synthetic constructor <init>(Lio/grpc/internal/f2;Lio/grpc/internal/f2$a;)V
     .locals 0
 
-    .line 2
     invoke-direct {p0, p1}, Lio/grpc/internal/f2$c;-><init>(Lio/grpc/internal/f2;)V
 
     return-void
@@ -45,7 +43,6 @@
 .method static synthetic a(Lio/grpc/internal/f2$c;)Z
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lio/grpc/internal/f2$c;->b()Z
 
     move-result p0
@@ -56,7 +53,6 @@
 .method private b()Z
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lio/grpc/internal/f2$c;->a:Lio/grpc/internal/f2;
 
     invoke-static {v0}, Lio/grpc/internal/f2;->b(Lio/grpc/internal/f2;)Z
@@ -71,7 +67,6 @@
 .method public run()V
     .locals 4
 
-    .line 1
     iget-object v0, p0, Lio/grpc/internal/f2$c;->a:Lio/grpc/internal/f2;
 
     invoke-static {v0}, Lio/grpc/internal/f2;->a(Lio/grpc/internal/f2;)Ljava/util/concurrent/Executor;

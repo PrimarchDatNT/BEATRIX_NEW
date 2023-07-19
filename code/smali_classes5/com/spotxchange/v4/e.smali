@@ -19,12 +19,10 @@
 .method protected constructor <init>(Ljava/lang/String;)V
     .locals 2
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/4 v0, 0x0
 
-    .line 2
     iput-object v0, p0, Lcom/spotxchange/v4/e;->c:Ljava/lang/String;
 
     const-string v0, ""
@@ -33,7 +31,6 @@
 
     if-eqz p1, :cond_1
 
-    .line 3
     invoke-virtual {p1}, Ljava/lang/String;->length()I
 
     move-result v0
@@ -44,7 +41,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_0
     iput-object p1, p0, Lcom/spotxchange/v4/e;->a:Ljava/lang/String;
 
@@ -54,10 +50,8 @@
     :goto_0
     const-string p1, "apikey-default"
 
-    .line 5
     iput-object p1, p0, Lcom/spotxchange/v4/e;->a:Ljava/lang/String;
 
-    .line 6
     sget-object p1, Lcom/spotxchange/v4/a;->d:Ljava/lang/String;
 
     const-string v0, "SpotXRequest"
@@ -97,7 +91,6 @@
 .method public d()Ljava/lang/Object;
     .locals 1
 
-    .line 1
     sget-object v0, Lorg/json/JSONObject;->NULL:Ljava/lang/Object;
 
     return-object v0

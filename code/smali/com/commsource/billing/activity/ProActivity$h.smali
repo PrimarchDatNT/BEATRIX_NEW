@@ -42,12 +42,10 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/billing/activity/ProActivity$h;->a:Lcom/commsource/billing/activity/ProActivity;
 
     invoke-static {v0}, Lcom/commsource/billing/activity/ProActivity;->T0(Lcom/commsource/billing/activity/ProActivity;)V
 
-    .line 2
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

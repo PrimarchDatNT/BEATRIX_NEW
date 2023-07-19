@@ -46,12 +46,10 @@
 
     sget v0, Lcom/res/provider/ResLAYOUT;->item_filter_shop_tag:I
 
-    .line 1
     invoke-direct {p0, p1, p2, v0}, Lcom/commsource/widget/h1/f;-><init>(Landroid/content/Context;Landroid/view/ViewGroup;I)V
 
     iput-object p1, p0, Lcom/commsource/store/e;->J:Landroid/content/Context;
 
-    .line 2
     iget-object p1, p0, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->itemView:Landroid/view/View;
 
     invoke-static {p1}, Lcom/commsource/beautyplus/f0/cf;->a(Landroid/view/View;)Lcom/commsource/beautyplus/f0/cf;
@@ -64,7 +62,6 @@
 
     iput-object p1, p0, Lcom/commsource/store/e;->p:Lcom/commsource/beautyplus/f0/cf;
 
-    .line 3
     invoke-virtual {p1}, Landroidx/databinding/ViewDataBinding;->executePendingBindings()V
 
     return-void
@@ -102,15 +99,12 @@
 
     invoke-static {p2, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-super {p0, p1, p2, p3}, Lcom/commsource/widget/h1/f;->k(ILcom/commsource/widget/h1/d;Ljava/util/List;)V
 
-    .line 2
     iget-object p1, p0, Lcom/commsource/store/e;->p:Lcom/commsource/beautyplus/f0/cf;
 
     invoke-virtual {p1, p0}, Lcom/commsource/beautyplus/f0/cf;->i(Lcom/commsource/store/e;)V
 
-    .line 3
     invoke-virtual {p2}, Lcom/commsource/widget/h1/d;->b()Ljava/lang/Object;
 
     move-result-object p1
@@ -123,7 +117,6 @@
 
     if-eqz p1, :cond_2
 
-    .line 4
     iget-object v2, p0, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->itemView:Landroid/view/View;
 
     invoke-static {v2, v1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
@@ -146,7 +139,6 @@
 
     invoke-virtual {v2, v4}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 5
     invoke-interface {p1}, Lcom/commsource/store/c;->getTagId()Ljava/lang/String;
 
     move-result-object v2
@@ -167,7 +159,6 @@
 
     if-eqz v2, :cond_0
 
-    .line 6
     iget-object p1, p0, Lcom/commsource/store/e;->p:Lcom/commsource/beautyplus/f0/cf;
 
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/cf;->a:Lcom/commsource/widget/BoldTextView;
@@ -178,7 +169,6 @@
 
     invoke-virtual {p1, v6, v6, v2, v6}, Landroid/widget/TextView;->setPadding(IIII)V
 
-    .line 7
     iget-object p1, p0, Lcom/commsource/store/e;->p:Lcom/commsource/beautyplus/f0/cf;
 
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/cf;->b:Landroid/widget/ImageView;
@@ -187,7 +177,6 @@
 
     invoke-static {p1}, Lcom/commsource/util/l0;->v0(Landroid/view/View;)V
 
-    .line 8
     iget-object p1, p0, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->itemView:Landroid/view/View;
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
@@ -202,7 +191,6 @@
 
     goto :goto_0
 
-    .line 9
     :cond_0
     invoke-interface {p1}, Lcom/commsource/store/c;->getTagId()Ljava/lang/String;
 
@@ -216,7 +204,6 @@
 
     if-eqz p1, :cond_1
 
-    .line 10
     iget-object p1, p0, Lcom/commsource/store/e;->p:Lcom/commsource/beautyplus/f0/cf;
 
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/cf;->a:Lcom/commsource/widget/BoldTextView;
@@ -235,12 +222,10 @@
 
     sget p1, Lcom/res/provider/ResDRAWABLE;->all_icon_hot:I
 
-    .line 11
     invoke-static {p1}, Lcom/commsource/util/u1;->g(I)Landroid/graphics/drawable/Drawable;
 
     move-result-object p1
 
-    .line 12
     iget-object v2, p0, Lcom/commsource/store/e;->p:Lcom/commsource/beautyplus/f0/cf;
 
     iget-object v2, v2, Lcom/commsource/beautyplus/f0/cf;->b:Landroid/widget/ImageView;
@@ -249,7 +234,6 @@
 
     invoke-static {v2}, Lcom/commsource/util/l0;->w(Landroid/view/View;)V
 
-    .line 13
     iget-object v2, p0, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->itemView:Landroid/view/View;
 
     invoke-static {v2, v1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
@@ -264,7 +248,6 @@
 
     goto :goto_0
 
-    .line 14
     :cond_1
     iget-object p1, p0, Lcom/commsource/store/e;->p:Lcom/commsource/beautyplus/f0/cf;
 
@@ -274,7 +257,6 @@
 
     invoke-static {p1}, Lcom/commsource/util/l0;->w(Landroid/view/View;)V
 
-    .line 15
     iget-object p1, p0, Lcom/commsource/store/e;->p:Lcom/commsource/beautyplus/f0/cf;
 
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/cf;->a:Lcom/commsource/widget/BoldTextView;
@@ -289,7 +271,6 @@
 
     invoke-virtual {p1, v2, v6, v4, v6}, Landroid/widget/TextView;->setPadding(IIII)V
 
-    .line 16
     iget-object p1, p0, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->itemView:Landroid/view/View;
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
@@ -302,7 +283,6 @@
 
     invoke-virtual {p1, v7, v7, v7, v7}, Landroid/widget/TextView;->setCompoundDrawables(Landroid/graphics/drawable/Drawable;Landroid/graphics/drawable/Drawable;Landroid/graphics/drawable/Drawable;Landroid/graphics/drawable/Drawable;)V
 
-    .line 17
     :cond_2
     :goto_0
     iget-object p1, p0, Lcom/commsource/store/e;->p:Lcom/commsource/beautyplus/f0/cf;
@@ -325,14 +305,12 @@
 
     invoke-virtual {p1, p3}, Landroid/widget/LinearLayout;->setBackgroundDrawable(Landroid/graphics/drawable/Drawable;)V
 
-    .line 18
     invoke-virtual {p2}, Lcom/commsource/widget/h1/d;->g()Z
 
     move-result p1
 
     if-eqz p1, :cond_3
 
-    .line 19
     iget-object p1, p0, Lcom/commsource/store/e;->p:Lcom/commsource/beautyplus/f0/cf;
 
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/cf;->a:Lcom/commsource/widget/BoldTextView;
@@ -341,7 +319,6 @@
 
     invoke-virtual {p1, p2}, Lcom/commsource/widget/BoldTextView;->setStrokeWidth(F)V
 
-    .line 20
     iget-object p1, p0, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->itemView:Landroid/view/View;
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
@@ -364,7 +341,6 @@
 
     goto :goto_1
 
-    .line 21
     :cond_3
     iget-object p1, p0, Lcom/commsource/store/e;->p:Lcom/commsource/beautyplus/f0/cf;
 
@@ -374,7 +350,6 @@
 
     invoke-virtual {p1, p2}, Lcom/commsource/widget/BoldTextView;->setStrokeWidth(F)V
 
-    .line 22
     iget-object p1, p0, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->itemView:Landroid/view/View;
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
@@ -395,7 +370,6 @@
 
     invoke-virtual {p1, p2}, Landroid/widget/TextView;->setTextColor(I)V
 
-    .line 23
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -409,7 +383,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/widget/h1/f;->c()Lcom/commsource/widget/h1/d;
 
     move-result-object v1
@@ -426,7 +399,6 @@
 
     sget v1, Lcom/res/provider/ResCOLOR;->Primary_C:I
 
-    .line 2
     invoke-static {v1}, Lcom/commsource/util/l0;->P(I)I
 
     move-result v1
@@ -436,12 +408,10 @@
     :cond_0
     sget v1, Lcom/res/provider/ResCOLOR;->Gray_Background:I
 
-    .line 3
     invoke-static {v1}, Lcom/commsource/util/l0;->P(I)I
 
     move-result v1
 
-    .line 4
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -457,7 +427,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/store/e;->J:Landroid/content/Context;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

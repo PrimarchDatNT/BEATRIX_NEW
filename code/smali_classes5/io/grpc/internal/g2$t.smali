@@ -41,10 +41,8 @@
 .method constructor <init>(Ljava/lang/Object;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lio/grpc/internal/g2$t;->a:Ljava/lang/Object;
 
     return-void
@@ -58,7 +56,6 @@
         value = "lock"
     .end annotation
 
-    .line 1
     iget-boolean v0, p0, Lio/grpc/internal/g2$t;->c:Z
 
     return v0
@@ -83,10 +80,8 @@
 
     const/4 v0, 0x1
 
-    .line 1
     iput-boolean v0, p0, Lio/grpc/internal/g2$t;->c:Z
 
-    .line 2
     iget-object v0, p0, Lio/grpc/internal/g2$t;->b:Ljava/util/concurrent/Future;
 
     return-object v0
@@ -102,21 +97,17 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lio/grpc/internal/g2$t;->a:Ljava/lang/Object;
 
     monitor-enter v0
 
-    .line 2
     :try_start_0
     iget-boolean v1, p0, Lio/grpc/internal/g2$t;->c:Z
 
     if-nez v1, :cond_0
 
-    .line 3
     iput-object p1, p0, Lio/grpc/internal/g2$t;->b:Ljava/util/concurrent/Future;
 
-    .line 4
     :cond_0
     monitor-exit v0
 

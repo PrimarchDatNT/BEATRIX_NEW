@@ -30,22 +30,18 @@
 .method public final call()Ljava/lang/Object;
     .locals 4
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/vu0;->a:Lcom/google/android/gms/internal/ads/rq1;
 
     iget-object v1, p0, Lcom/google/android/gms/internal/ads/vu0;->b:Lcom/google/android/gms/internal/ads/rq1;
 
-    .line 2
     new-instance v2, Lcom/google/android/gms/internal/ads/ev0;
 
-    .line 3
     invoke-interface {v0}, Ljava/util/concurrent/Future;->get()Ljava/lang/Object;
 
     move-result-object v0
 
     check-cast v0, Lcom/google/android/gms/internal/ads/lv0;
 
-    .line 4
     invoke-interface {v1}, Ljava/util/concurrent/Future;->get()Ljava/lang/Object;
 
     move-result-object v3
@@ -54,7 +50,6 @@
 
     iget-object v3, v3, Lcom/google/android/gms/internal/ads/fv0;->b:Lorg/json/JSONObject;
 
-    .line 5
     invoke-interface {v1}, Ljava/util/concurrent/Future;->get()Ljava/lang/Object;
 
     move-result-object v1

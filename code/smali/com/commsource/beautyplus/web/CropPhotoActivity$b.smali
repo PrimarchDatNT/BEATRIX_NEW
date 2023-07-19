@@ -29,7 +29,6 @@
 
     iput-object p3, p0, Lcom/commsource/beautyplus/web/CropPhotoActivity$b;->p:Lcom/commsource/beautyplus/web/CropPhotoActivity;
 
-    .line 1
     invoke-direct {p0, p2}, Lcom/commsource/util/u2/a;-><init>(Ljava/lang/String;)V
 
     return-void
@@ -44,7 +43,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/beautyplus/web/CropPhotoActivity$b;->p:Lcom/commsource/beautyplus/web/CropPhotoActivity;
 
     invoke-static {v1}, Lcom/commsource/beautyplus/web/CropPhotoActivity;->O0(Lcom/commsource/beautyplus/web/CropPhotoActivity;)Landroid/graphics/Bitmap;
@@ -72,7 +70,6 @@
 
     goto :goto_0
 
-    .line 2
     :cond_1
     iget-object v1, p0, Lcom/commsource/beautyplus/web/CropPhotoActivity$b;->p:Lcom/commsource/beautyplus/web/CropPhotoActivity;
 
@@ -84,7 +81,6 @@
 
     move-result-object v1
 
-    .line 3
     iget-object v2, p0, Lcom/commsource/beautyplus/web/CropPhotoActivity$b;->g:Lcom/commsource/beautyplus/f0/o;
 
     iget-object v2, v2, Lcom/commsource/beautyplus/f0/o;->b:Lcom/commsource/beautymain/widget/EditCropView;
@@ -103,14 +99,12 @@
 
     if-eqz v2, :cond_2
 
-    .line 4
     invoke-static {}, Lcom/commsource/beautyplus/util/v;->a()Ljava/lang/String;
 
     move-result-object v2
 
     const-string v3, "nativeBitmap"
 
-    .line 5
     invoke-static {v1, v3}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v1}, Lcom/meitu/core/types/NativeBitmap;->getImage()Landroid/graphics/Bitmap;
@@ -123,23 +117,19 @@
 
     invoke-static {v3, v2, v4, v5}, Lcom/commsource/util/common/e;->D(Landroid/graphics/Bitmap;Ljava/lang/String;ILandroid/graphics/Bitmap$CompressFormat;)Z
 
-    .line 6
     invoke-virtual {v1}, Lcom/meitu/core/types/NativeBitmap;->recycle()V
 
-    .line 7
     new-instance v1, Lcom/commsource/beautyplus/web/CropPhotoActivity$b$b;
 
     invoke-direct {v1, p0, v2}, Lcom/commsource/beautyplus/web/CropPhotoActivity$b$b;-><init>(Lcom/commsource/beautyplus/web/CropPhotoActivity$b;Ljava/lang/String;)V
 
     invoke-static {v1}, Lcom/commsource/util/g2;->k(Ljava/lang/Runnable;)V
 
-    .line 8
     :cond_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 9
     :cond_3
     :goto_0
     new-instance v1, Lcom/commsource/beautyplus/web/CropPhotoActivity$b$a;
@@ -148,7 +138,6 @@
 
     invoke-static {v1}, Lcom/commsource/util/g2;->k(Ljava/lang/Runnable;)V
 
-    .line 10
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

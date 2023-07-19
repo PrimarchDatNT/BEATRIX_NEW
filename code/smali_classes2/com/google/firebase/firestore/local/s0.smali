@@ -13,13 +13,10 @@
 .method constructor <init>(Lcom/google/firebase/firestore/local/n1;Lcom/google/firebase/firestore/m0/g;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/google/firebase/firestore/local/s0;->a:Lcom/google/firebase/firestore/local/n1;
 
-    .line 3
     invoke-virtual {p2}, Lcom/google/firebase/firestore/m0/g;->b()Z
 
     move-result p1
@@ -46,7 +43,6 @@
 .method public a(Lcom/google/firebase/firestore/model/h;Lcom/google/firebase/firestore/model/value/e;Lcom/google/firebase/firestore/model/e;)V
     .locals 0
 
-    .line 1
     new-instance p1, Ljava/lang/RuntimeException;
 
     const-string p2, "Not yet implemented."
@@ -59,7 +55,6 @@
 .method public b(Lcom/google/firebase/firestore/model/k;Lcom/google/firebase/firestore/core/z;)Lcom/google/firebase/firestore/local/e;
     .locals 0
 
-    .line 1
     new-instance p1, Ljava/lang/RuntimeException;
 
     const-string p2, "Not yet implemented."
@@ -72,7 +67,6 @@
 .method public c(Lcom/google/firebase/firestore/model/h;Lcom/google/firebase/firestore/model/value/e;Lcom/google/firebase/firestore/model/e;)V
     .locals 0
 
-    .line 1
     new-instance p1, Ljava/lang/RuntimeException;
 
     const-string p2, "Not yet implemented."

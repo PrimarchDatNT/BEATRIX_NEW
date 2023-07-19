@@ -16,7 +16,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -42,7 +41,6 @@
 
     new-array v0, v0, [Lio/grpc/i;
 
-    .line 1
     invoke-static {p1}, Lio/grpc/stub/e;->c(Lio/grpc/y0;)Lio/grpc/i;
 
     move-result-object p1
@@ -82,7 +80,6 @@
 
     new-array v0, v0, [Lio/grpc/i;
 
-    .line 1
     invoke-static {p1, p2}, Lio/grpc/stub/e;->d(Ljava/util/concurrent/atomic/AtomicReference;Ljava/util/concurrent/atomic/AtomicReference;)Lio/grpc/i;
 
     move-result-object p1
@@ -91,7 +88,6 @@
 
     aput-object p1, v0, p2
 
-    .line 2
     invoke-virtual {p0, v0}, Lio/grpc/stub/a;->j([Lio/grpc/i;)Lio/grpc/stub/a;
 
     move-result-object p0
@@ -102,7 +98,6 @@
 .method public static c(Lio/grpc/y0;)Lio/grpc/i;
     .locals 1
 
-    .line 1
     new-instance v0, Lio/grpc/stub/e$a;
 
     invoke-direct {v0, p0}, Lio/grpc/stub/e$a;-><init>(Lio/grpc/y0;)V
@@ -125,7 +120,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lio/grpc/stub/e$b;
 
     invoke-direct {v0, p0, p1}, Lio/grpc/stub/e$b;-><init>(Ljava/util/concurrent/atomic/AtomicReference;Ljava/util/concurrent/atomic/AtomicReference;)V

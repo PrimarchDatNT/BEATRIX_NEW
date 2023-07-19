@@ -47,7 +47,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Lcotlinx/coroutines/channels/b0;-><init>()V
 
     iput-object p1, p0, Lcotlinx/coroutines/channels/c$a;->d:Ljava/lang/Object;
@@ -68,7 +67,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcotlinx/coroutines/channels/c$a;->d:Ljava/lang/Object;
 
     return-object v0
@@ -100,7 +98,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     sget-object v0, Lcotlinx/coroutines/o;->d:Lcotlinx/coroutines/internal/c0;
 
     if-eqz p1, :cond_0
@@ -116,7 +113,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V

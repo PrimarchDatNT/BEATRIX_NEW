@@ -107,7 +107,6 @@
 
     sput-object v1, Lcom/commsource/beautyplus/c0/a;->u:Lcom/commsource/beautyplus/c0/a$a;
 
-    .line 1
     new-instance v1, Ljava/util/concurrent/ConcurrentHashMap;
 
     const/16 v2, 0x10
@@ -116,14 +115,12 @@
 
     sput-object v1, Lcom/commsource/beautyplus/c0/a;->r:Ljava/util/Map;
 
-    .line 2
     new-instance v1, Ljava/util/concurrent/ConcurrentHashMap;
 
     invoke-direct {v1, v2}, Ljava/util/concurrent/ConcurrentHashMap;-><init>(I)V
 
     sput-object v1, Lcom/commsource/beautyplus/c0/a;->s:Ljava/util/Map;
 
-    .line 3
     new-instance v1, Ljava/util/concurrent/ConcurrentHashMap;
 
     invoke-direct {v1, v2}, Ljava/util/concurrent/ConcurrentHashMap;-><init>(I)V
@@ -151,7 +148,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -164,7 +160,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/commsource/beautyplus/c0/a;->o(Lorg/aspectj/lang/e;)Ljava/lang/Object;
 
     move-result-object p0
@@ -181,7 +176,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct/range {p0 .. p5}, Lcom/commsource/beautyplus/c0/a;->q(Lorg/aspectj/lang/e;ZLjava/lang/Object;ZZ)Ljava/lang/Object;
 
     move-result-object p0
@@ -198,7 +192,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0, p1, p2}, Lcom/commsource/beautyplus/c0/a;->s(Lorg/aspectj/lang/e;I)Ljava/lang/Object;
 
     move-result-object p0
@@ -215,7 +208,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/commsource/beautyplus/c0/a;->t(Lorg/aspectj/lang/e;)Z
 
     move-result p0
@@ -232,7 +224,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/commsource/beautyplus/c0/a;
 
     invoke-direct {v1}, Lcom/commsource/beautyplus/c0/a;-><init>()V
@@ -253,7 +244,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     :try_start_0
     invoke-interface {p1}, Lorg/aspectj/lang/c;->i()[Ljava/lang/Object;
 
@@ -272,13 +262,11 @@
     :catchall_0
     move-exception p1
 
-    .line 2
     invoke-virtual {p1}, Ljava/lang/Throwable;->printStackTrace()V
 
     :cond_0
     const/4 p1, 0x0
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p1
@@ -293,12 +281,10 @@
 
     if-nez p1, :cond_0
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p3
 
-    .line 2
     :cond_0
     :try_start_0
     invoke-virtual {p1}, Ljava/lang/Object;->toString()Ljava/lang/String;
@@ -322,7 +308,6 @@
     :cond_1
     if-eqz p5, :cond_2
 
-    .line 3
     :try_start_1
     invoke-direct {p0, v1}, Lcom/commsource/beautyplus/c0/a;->v(Ljava/lang/String;)Z
 
@@ -330,7 +315,6 @@
 
     if-nez p5, :cond_2
 
-    .line 4
     sget-object p5, Lcom/commsource/beautyplus/c0/a;->s:Ljava/util/Map;
 
     invoke-static {p2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -341,7 +325,6 @@
 
     goto :goto_0
 
-    .line 5
     :cond_2
     sget-object p5, Lcom/commsource/beautyplus/c0/a;->r:Ljava/util/Map;
 
@@ -352,7 +335,6 @@
     :goto_0
     if-nez v3, :cond_7
 
-    .line 6
     sget-object p5, Lcom/commsource/beautyplus/c0/a;->s:Ljava/util/Map;
 
     invoke-interface {p5, v1}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
@@ -363,7 +345,6 @@
 
     if-eqz v4, :cond_3
 
-    .line 7
     invoke-virtual {v4}, Ljava/lang/Integer;->intValue()I
 
     move-result p2
@@ -375,13 +356,11 @@
 
     if-eqz p4, :cond_5
 
-    .line 8
     :cond_4
     invoke-direct {p0, p1}, Lcom/commsource/beautyplus/c0/a;->o(Lorg/aspectj/lang/e;)Ljava/lang/Object;
 
     move-result-object p1
 
-    .line 9
     new-instance v3, Ljava/lang/StringBuilder;
 
     invoke-direct {v3}, Ljava/lang/StringBuilder;-><init>()V
@@ -407,12 +386,10 @@
 
     if-eqz v3, :cond_6
 
-    .line 10
     sget-object p1, Lcom/commsource/beautyplus/c0/a;->r:Ljava/util/Map;
 
     invoke-interface {p1, v1, v3}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 11
     sget-object p1, Lcom/commsource/beautyplus/c0/a;->t:Ljava/util/Map;
 
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
@@ -430,7 +407,6 @@
 
     add-int/lit8 p2, p2, 0x1
 
-    .line 12
     invoke-static {p2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object p1
@@ -439,7 +415,6 @@
 
     goto :goto_1
 
-    .line 13
     :cond_7
     new-instance p1, Ljava/lang/StringBuilder;
 
@@ -459,14 +434,12 @@
 
     invoke-static {v2, p1}, Lcom/meitu/library/util/Debug/Debug;->e(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 14
     :cond_8
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v3
 
-    .line 15
     :cond_9
     new-instance p1, Ljava/lang/StringBuilder;
 
@@ -491,10 +464,8 @@
     :catchall_0
     move-exception p1
 
-    .line 16
     invoke-virtual {p1}, Ljava/lang/Throwable;->printStackTrace()V
 
-    .line 17
     :goto_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -508,7 +479,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/beautyplus/c0/a;->w:Lcom/commsource/beautyplus/c0/a;
 
     if-eqz v1, :cond_0
@@ -540,7 +510,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     invoke-interface {p1}, Lorg/aspectj/lang/c;->i()[Ljava/lang/Object;
 
     move-result-object v1
@@ -555,7 +524,6 @@
 
     if-le v1, p2, :cond_0
 
-    .line 2
     invoke-interface {p1}, Lorg/aspectj/lang/c;->i()[Ljava/lang/Object;
 
     move-result-object p1
@@ -567,7 +535,6 @@
     :cond_0
     const/4 p1, 0x0
 
-    .line 3
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -587,7 +554,6 @@
 
     if-eqz p1, :cond_1
 
-    .line 1
     invoke-interface {p1}, Lorg/aspectj/lang/c;->i()[Ljava/lang/Object;
 
     move-result-object v3
@@ -633,7 +599,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/beautyplus/c0/a;->w:Lcom/commsource/beautyplus/c0/a;
 
     if-eqz v1, :cond_0
@@ -660,7 +625,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     sget-object v1, Lcom/commsource/beautyplus/c0/a;->t:Ljava/util/Map;
 
     invoke-interface {v1, p1}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
@@ -671,7 +635,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 2
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v1
@@ -690,7 +653,6 @@
 
     const/4 p1, 0x1
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
@@ -698,7 +660,6 @@
     :cond_0
     const/4 p1, 0x0
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
@@ -727,10 +688,8 @@
 
     const-string v1, "Appsflyer fetch huawei adid: return null always"
 
-    .line 1
     invoke-static {v0, v1}, Lcom/meitu/library/util/Debug/Debug;->e(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 2
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const/4 p1, 0x0
@@ -757,12 +716,10 @@
 
     const/4 v1, 0x1
 
-    .line 1
     invoke-static {p0, p1, v1}, Lcom/commsource/beautyplus/c0/a;->c(Lcom/commsource/beautyplus/c0/a;Lorg/aspectj/lang/e;I)Ljava/lang/Object;
 
     move-result-object v1
 
-    .line 2
     instance-of v2, v1, Ljava/lang/String;
 
     if-eqz v2, :cond_0
@@ -787,20 +744,17 @@
 
     move-object v3, p1
 
-    .line 3
     invoke-static/range {v2 .. v7}, Lcom/commsource/beautyplus/c0/a;->b(Lcom/commsource/beautyplus/c0/a;Lorg/aspectj/lang/e;ZLjava/lang/Object;ZZ)Ljava/lang/Object;
 
     move-result-object p1
 
     goto :goto_0
 
-    .line 4
     :cond_0
     invoke-static {p0, p1}, Lcom/commsource/beautyplus/c0/a;->a(Lcom/commsource/beautyplus/c0/a;Lorg/aspectj/lang/e;)Ljava/lang/Object;
 
     move-result-object p1
 
-    .line 5
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -826,7 +780,6 @@
 
     const/4 v1, 0x0
 
-    .line 1
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v5
@@ -869,12 +822,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lf/d/i/e;->T1()Z
 
     move-result v3
 
-    .line 2
     new-instance v4, Ljava/util/ArrayList;
 
     invoke-direct {v4}, Ljava/util/ArrayList;-><init>()V
@@ -887,7 +838,6 @@
 
     move-object v2, p1
 
-    .line 3
     invoke-direct/range {v1 .. v6}, Lcom/commsource/beautyplus/c0/a;->q(Lorg/aspectj/lang/e;ZLjava/lang/Object;ZZ)Ljava/lang/Object;
 
     move-result-object p1
@@ -914,12 +864,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lf/d/i/e;->T1()Z
 
     move-result v3
 
-    .line 2
     new-instance v4, Ljava/util/ArrayList;
 
     invoke-direct {v4}, Ljava/util/ArrayList;-><init>()V
@@ -932,7 +880,6 @@
 
     move-object v2, p1
 
-    .line 3
     invoke-direct/range {v1 .. v6}, Lcom/commsource/beautyplus/c0/a;->q(Lorg/aspectj/lang/e;ZLjava/lang/Object;ZZ)Ljava/lang/Object;
 
     move-result-object p1
@@ -963,20 +910,16 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-interface {p1}, Lorg/aspectj/lang/c;->J1()Ljava/lang/Object;
 
     move-result-object v1
 
-    .line 2
     instance-of v2, v1, Ljava/lang/reflect/Method;
 
     if-eqz v2, :cond_4
 
-    .line 3
     check-cast v1, Ljava/lang/reflect/Method;
 
-    .line 4
     invoke-virtual {v1}, Ljava/lang/reflect/Method;->getName()Ljava/lang/String;
 
     move-result-object v1
@@ -1007,19 +950,16 @@
     :cond_1
     const-string v2, "getInstalledApplications"
 
-    .line 5
     invoke-virtual {v1, v2}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v1
 
     if-eqz v1, :cond_4
 
-    .line 6
     invoke-static {}, Lf/d/i/e;->T1()Z
 
     move-result v4
 
-    .line 7
     new-instance v5, Ljava/util/ArrayList;
 
     invoke-direct {v5}, Ljava/util/ArrayList;-><init>()V
@@ -1032,7 +972,6 @@
 
     move-object v3, p1
 
-    .line 8
     invoke-direct/range {v2 .. v7}, Lcom/commsource/beautyplus/c0/a;->q(Lorg/aspectj/lang/e;ZLjava/lang/Object;ZZ)Ljava/lang/Object;
 
     move-result-object p1
@@ -1044,19 +983,16 @@
     :cond_2
     const-string v2, "getInstalledPackages"
 
-    .line 9
     invoke-virtual {v1, v2}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v1
 
     if-eqz v1, :cond_4
 
-    .line 10
     invoke-static {}, Lf/d/i/e;->T1()Z
 
     move-result v4
 
-    .line 11
     new-instance v5, Ljava/util/ArrayList;
 
     invoke-direct {v5}, Ljava/util/ArrayList;-><init>()V
@@ -1069,7 +1005,6 @@
 
     move-object v3, p1
 
-    .line 12
     invoke-direct/range {v2 .. v7}, Lcom/commsource/beautyplus/c0/a;->q(Lorg/aspectj/lang/e;ZLjava/lang/Object;ZZ)Ljava/lang/Object;
 
     move-result-object p1
@@ -1081,19 +1016,16 @@
     :cond_3
     const-string v2, "queryBroadcastReceivers"
 
-    .line 13
     invoke-virtual {v1, v2}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v1
 
     if-eqz v1, :cond_4
 
-    .line 14
     invoke-static {}, Lf/d/i/e;->T1()Z
 
     move-result v4
 
-    .line 15
     new-instance v5, Ljava/util/ArrayList;
 
     invoke-direct {v5}, Ljava/util/ArrayList;-><init>()V
@@ -1106,7 +1038,6 @@
 
     move-object v3, p1
 
-    .line 16
     invoke-direct/range {v2 .. v7}, Lcom/commsource/beautyplus/c0/a;->q(Lorg/aspectj/lang/e;ZLjava/lang/Object;ZZ)Ljava/lang/Object;
 
     move-result-object p1
@@ -1115,7 +1046,6 @@
 
     return-object p1
 
-    .line 17
     :cond_4
     :goto_0
     invoke-direct {p0, p1}, Lcom/commsource/beautyplus/c0/a;->o(Lorg/aspectj/lang/e;)Ljava/lang/Object;
@@ -1144,7 +1074,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p0, p1}, Lcom/commsource/beautyplus/c0/a;->d(Lcom/commsource/beautyplus/c0/a;Lorg/aspectj/lang/e;)Z
 
     move-result v5
@@ -1187,12 +1116,10 @@
 
     const/4 v1, 0x1
 
-    .line 1
     invoke-static {p0, p1, v1}, Lcom/commsource/beautyplus/c0/a;->c(Lcom/commsource/beautyplus/c0/a;Lorg/aspectj/lang/e;I)Ljava/lang/Object;
 
     move-result-object v1
 
-    .line 2
     instance-of v2, v1, Ljava/lang/String;
 
     if-eqz v2, :cond_0
@@ -1217,20 +1144,17 @@
 
     move-object v3, p1
 
-    .line 3
     invoke-static/range {v2 .. v7}, Lcom/commsource/beautyplus/c0/a;->b(Lcom/commsource/beautyplus/c0/a;Lorg/aspectj/lang/e;ZLjava/lang/Object;ZZ)Ljava/lang/Object;
 
     move-result-object p1
 
     goto :goto_0
 
-    .line 4
     :cond_0
     invoke-static {p0, p1}, Lcom/commsource/beautyplus/c0/a;->a(Lcom/commsource/beautyplus/c0/a;Lorg/aspectj/lang/e;)Ljava/lang/Object;
 
     move-result-object p1
 
-    .line 5
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1254,12 +1178,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lf/d/i/e;->T1()Z
 
     move-result v3
 
-    .line 2
     new-instance v4, Ljava/util/ArrayList;
 
     invoke-direct {v4}, Ljava/util/ArrayList;-><init>()V
@@ -1272,7 +1194,6 @@
 
     move-object v2, p1
 
-    .line 3
     invoke-direct/range {v1 .. v6}, Lcom/commsource/beautyplus/c0/a;->q(Lorg/aspectj/lang/e;ZLjava/lang/Object;ZZ)Ljava/lang/Object;
 
     move-result-object p1
@@ -1298,7 +1219,6 @@
 
     invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v2, Ljava/lang/StringBuilder;
 
     invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
@@ -1345,7 +1265,6 @@
 
     if-eqz p1, :cond_7
 
-    .line 2
     invoke-interface {p1}, Lorg/aspectj/lang/c;->i()[Ljava/lang/Object;
 
     move-result-object p1
@@ -1354,7 +1273,6 @@
 
     const/4 v4, 0x0
 
-    .line 3
     :try_start_0
     invoke-static {p1, v4}, Lcotlin/collections/k;->ke([Ljava/lang/Object;I)Ljava/lang/Object;
 
@@ -1371,7 +1289,6 @@
 
     if-eqz p1, :cond_2
 
-    .line 4
     invoke-virtual {p1}, Landroid/webkit/WebView;->getParent()Landroid/view/ViewParent;
 
     move-result-object v4
@@ -1396,18 +1313,15 @@
 
     if-eqz v3, :cond_4
 
-    .line 5
     invoke-virtual {v3, p1}, Landroid/view/ViewGroup;->removeView(Landroid/view/View;)V
 
     :cond_4
     if-eqz p1, :cond_5
 
-    .line 6
     invoke-virtual {p1}, Landroid/webkit/WebView;->destroy()V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 7
     :cond_5
     invoke-static {}, Lcom/commsource/beautyplus/k;->d()Lcom/commsource/beautyplus/k;
 
@@ -1443,7 +1357,6 @@
 
     goto :goto_3
 
-    .line 8
     :cond_6
     :goto_4
     invoke-static {}, Lcom/commsource/beautyplus/q;->b()Lcom/commsource/beautyplus/q;
@@ -1452,7 +1365,6 @@
 
     iput-boolean v2, p1, Lcom/commsource/beautyplus/q;->k:Z
 
-    .line 9
     :cond_7
     invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

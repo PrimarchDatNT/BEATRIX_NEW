@@ -22,10 +22,8 @@
 .method constructor <init>(Lcom/google/common/hash/p;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/io/OutputStream;-><init>()V
 
-    .line 2
     invoke-static {p1}, Lcom/google/common/base/t;->E(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -42,7 +40,6 @@
 .method public toString()Ljava/lang/String;
     .locals 2
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -69,7 +66,6 @@
 .method public write(I)V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/hash/Funnels$a;->a:Lcom/google/common/hash/p;
 
     int-to-byte p1, p1
@@ -82,7 +78,6 @@
 .method public write([B)V
     .locals 1
 
-    .line 2
     iget-object v0, p0, Lcom/google/common/hash/Funnels$a;->a:Lcom/google/common/hash/p;
 
     invoke-interface {v0, p1}, Lcom/google/common/hash/p;->a([B)Lcom/google/common/hash/p;
@@ -93,7 +88,6 @@
 .method public write([BII)V
     .locals 1
 
-    .line 3
     iget-object v0, p0, Lcom/google/common/hash/Funnels$a;->a:Lcom/google/common/hash/p;
 
     invoke-interface {v0, p1, p2, p3}, Lcom/google/common/hash/p;->g([BII)Lcom/google/common/hash/p;

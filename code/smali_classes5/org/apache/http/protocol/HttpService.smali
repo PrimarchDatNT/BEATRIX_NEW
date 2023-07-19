@@ -34,36 +34,26 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    .line 5
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/4 v0, 0x0
 
-    .line 6
     iput-object v0, p0, Lorg/apache/http/protocol/HttpService;->params:Lorg/apache/http/params/HttpParams;
 
-    .line 7
     iput-object v0, p0, Lorg/apache/http/protocol/HttpService;->processor:Lorg/apache/http/protocol/HttpProcessor;
 
-    .line 8
     iput-object v0, p0, Lorg/apache/http/protocol/HttpService;->handlerMapper:Lorg/apache/http/protocol/HttpRequestHandlerMapper;
 
-    .line 9
     iput-object v0, p0, Lorg/apache/http/protocol/HttpService;->connStrategy:Lorg/apache/http/ConnectionReuseStrategy;
 
-    .line 10
     iput-object v0, p0, Lorg/apache/http/protocol/HttpService;->responseFactory:Lorg/apache/http/HttpResponseFactory;
 
-    .line 11
     iput-object v0, p0, Lorg/apache/http/protocol/HttpService;->expectationVerifier:Lorg/apache/http/protocol/HttpExpectationVerifier;
 
-    .line 12
     invoke-virtual {p0, p1}, Lorg/apache/http/protocol/HttpService;->setHttpProcessor(Lorg/apache/http/protocol/HttpProcessor;)V
 
-    .line 13
     invoke-virtual {p0, p2}, Lorg/apache/http/protocol/HttpService;->setConnReuseStrategy(Lorg/apache/http/ConnectionReuseStrategy;)V
 
-    .line 14
     invoke-virtual {p0, p3}, Lorg/apache/http/protocol/HttpService;->setResponseFactory(Lorg/apache/http/HttpResponseFactory;)V
 
     return-void
@@ -84,7 +74,6 @@
 
     move-object v4, p4
 
-    .line 27
     invoke-direct/range {v0 .. v5}, Lorg/apache/http/protocol/HttpService;-><init>(Lorg/apache/http/protocol/HttpProcessor;Lorg/apache/http/ConnectionReuseStrategy;Lorg/apache/http/HttpResponseFactory;Lorg/apache/http/protocol/HttpRequestHandlerMapper;Lorg/apache/http/protocol/HttpExpectationVerifier;)V
 
     return-void
@@ -93,32 +82,24 @@
 .method public constructor <init>(Lorg/apache/http/protocol/HttpProcessor;Lorg/apache/http/ConnectionReuseStrategy;Lorg/apache/http/HttpResponseFactory;Lorg/apache/http/protocol/HttpRequestHandlerMapper;Lorg/apache/http/protocol/HttpExpectationVerifier;)V
     .locals 1
 
-    .line 15
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/4 v0, 0x0
 
-    .line 16
     iput-object v0, p0, Lorg/apache/http/protocol/HttpService;->params:Lorg/apache/http/params/HttpParams;
 
-    .line 17
     iput-object v0, p0, Lorg/apache/http/protocol/HttpService;->processor:Lorg/apache/http/protocol/HttpProcessor;
 
-    .line 18
     iput-object v0, p0, Lorg/apache/http/protocol/HttpService;->handlerMapper:Lorg/apache/http/protocol/HttpRequestHandlerMapper;
 
-    .line 19
     iput-object v0, p0, Lorg/apache/http/protocol/HttpService;->connStrategy:Lorg/apache/http/ConnectionReuseStrategy;
 
-    .line 20
     iput-object v0, p0, Lorg/apache/http/protocol/HttpService;->responseFactory:Lorg/apache/http/HttpResponseFactory;
 
-    .line 21
     iput-object v0, p0, Lorg/apache/http/protocol/HttpService;->expectationVerifier:Lorg/apache/http/protocol/HttpExpectationVerifier;
 
     const-string v0, "HTTP processor"
 
-    .line 22
     invoke-static {p1, v0}, Lorg/apache/http/util/Args;->notNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
 
     move-result-object p1
@@ -131,7 +112,6 @@
 
     goto :goto_0
 
-    .line 23
     :cond_0
     sget-object p2, Lorg/apache/http/impl/DefaultConnectionReuseStrategy;->INSTANCE:Lorg/apache/http/impl/DefaultConnectionReuseStrategy;
 
@@ -142,17 +122,14 @@
 
     goto :goto_1
 
-    .line 24
     :cond_1
     sget-object p3, Lorg/apache/http/impl/DefaultHttpResponseFactory;->INSTANCE:Lorg/apache/http/impl/DefaultHttpResponseFactory;
 
     :goto_1
     iput-object p3, p0, Lorg/apache/http/protocol/HttpService;->responseFactory:Lorg/apache/http/HttpResponseFactory;
 
-    .line 25
     iput-object p4, p0, Lorg/apache/http/protocol/HttpService;->handlerMapper:Lorg/apache/http/protocol/HttpRequestHandlerMapper;
 
-    .line 26
     iput-object p5, p0, Lorg/apache/http/protocol/HttpService;->expectationVerifier:Lorg/apache/http/protocol/HttpExpectationVerifier;
 
     return-void
@@ -163,7 +140,6 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    .line 3
     new-instance v4, Lorg/apache/http/protocol/HttpService$HttpRequestHandlerResolverAdapter;
 
     invoke-direct {v4, p4}, Lorg/apache/http/protocol/HttpService$HttpRequestHandlerResolverAdapter;-><init>(Lorg/apache/http/protocol/HttpRequestHandlerResolver;)V
@@ -180,7 +156,6 @@
 
     invoke-direct/range {v0 .. v5}, Lorg/apache/http/protocol/HttpService;-><init>(Lorg/apache/http/protocol/HttpProcessor;Lorg/apache/http/ConnectionReuseStrategy;Lorg/apache/http/HttpResponseFactory;Lorg/apache/http/protocol/HttpRequestHandlerMapper;Lorg/apache/http/protocol/HttpExpectationVerifier;)V
 
-    .line 4
     iput-object p5, p0, Lorg/apache/http/protocol/HttpService;->params:Lorg/apache/http/params/HttpParams;
 
     return-void
@@ -191,7 +166,6 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    .line 1
     new-instance v4, Lorg/apache/http/protocol/HttpService$HttpRequestHandlerResolverAdapter;
 
     invoke-direct {v4, p4}, Lorg/apache/http/protocol/HttpService$HttpRequestHandlerResolverAdapter;-><init>(Lorg/apache/http/protocol/HttpRequestHandlerResolver;)V
@@ -208,7 +182,6 @@
 
     invoke-direct/range {v0 .. v5}, Lorg/apache/http/protocol/HttpService;-><init>(Lorg/apache/http/protocol/HttpProcessor;Lorg/apache/http/ConnectionReuseStrategy;Lorg/apache/http/HttpResponseFactory;Lorg/apache/http/protocol/HttpRequestHandlerMapper;Lorg/apache/http/protocol/HttpExpectationVerifier;)V
 
-    .line 2
     iput-object p6, p0, Lorg/apache/http/protocol/HttpService;->params:Lorg/apache/http/params/HttpParams;
 
     return-void
@@ -229,7 +202,6 @@
 
     move-object v4, p2
 
-    .line 28
     invoke-direct/range {v0 .. v5}, Lorg/apache/http/protocol/HttpService;-><init>(Lorg/apache/http/protocol/HttpProcessor;Lorg/apache/http/ConnectionReuseStrategy;Lorg/apache/http/HttpResponseFactory;Lorg/apache/http/protocol/HttpRequestHandlerMapper;Lorg/apache/http/protocol/HttpExpectationVerifier;)V
 
     return-void
@@ -242,7 +214,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     invoke-interface {p1}, Lorg/apache/http/HttpRequest;->getRequestLine()Lorg/apache/http/RequestLine;
 
     move-result-object p1
@@ -261,7 +232,6 @@
 
     return v0
 
-    .line 2
     :cond_0
     invoke-interface {p2}, Lorg/apache/http/HttpResponse;->getStatusLine()Lorg/apache/http/StatusLine;
 
@@ -304,12 +274,10 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lorg/apache/http/protocol/HttpService;->handlerMapper:Lorg/apache/http/protocol/HttpRequestHandlerMapper;
 
     if-eqz v0, :cond_0
 
-    .line 2
     iget-object v0, p0, Lorg/apache/http/protocol/HttpService;->handlerMapper:Lorg/apache/http/protocol/HttpRequestHandlerMapper;
 
     invoke-interface {v0, p1}, Lorg/apache/http/protocol/HttpRequestHandlerMapper;->lookup(Lorg/apache/http/HttpRequest;)Lorg/apache/http/protocol/HttpRequestHandler;
@@ -324,7 +292,6 @@
     :goto_0
     if-eqz v0, :cond_1
 
-    .line 3
     invoke-interface {v0, p1, p2, p3}, Lorg/apache/http/protocol/HttpRequestHandler;->handle(Lorg/apache/http/HttpRequest;Lorg/apache/http/HttpResponse;Lorg/apache/http/protocol/HttpContext;)V
 
     goto :goto_1
@@ -332,7 +299,6 @@
     :cond_1
     const/16 p1, 0x1f5
 
-    .line 4
     invoke-interface {p2, p1}, Lorg/apache/http/HttpResponse;->setStatusCode(I)V
 
     :goto_1
@@ -344,7 +310,6 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lorg/apache/http/protocol/HttpService;->params:Lorg/apache/http/params/HttpParams;
 
     return-object v0
@@ -353,19 +318,16 @@
 .method protected handleException(Lorg/apache/http/HttpException;Lorg/apache/http/HttpResponse;)V
     .locals 1
 
-    .line 1
     instance-of v0, p1, Lorg/apache/http/MethodNotSupportedException;
 
     if-eqz v0, :cond_0
 
     const/16 v0, 0x1f5
 
-    .line 2
     invoke-interface {p2, v0}, Lorg/apache/http/HttpResponse;->setStatusCode(I)V
 
     goto :goto_0
 
-    .line 3
     :cond_0
     instance-of v0, p1, Lorg/apache/http/UnsupportedHttpVersionException;
 
@@ -373,12 +335,10 @@
 
     const/16 v0, 0x1f9
 
-    .line 4
     invoke-interface {p2, v0}, Lorg/apache/http/HttpResponse;->setStatusCode(I)V
 
     goto :goto_0
 
-    .line 5
     :cond_1
     instance-of v0, p1, Lorg/apache/http/ProtocolException;
 
@@ -386,7 +346,6 @@
 
     const/16 v0, 0x190
 
-    .line 6
     invoke-interface {p2, v0}, Lorg/apache/http/HttpResponse;->setStatusCode(I)V
 
     goto :goto_0
@@ -394,10 +353,8 @@
     :cond_2
     const/16 v0, 0x1f4
 
-    .line 7
     invoke-interface {p2, v0}, Lorg/apache/http/HttpResponse;->setStatusCode(I)V
 
-    .line 8
     :goto_0
     invoke-virtual {p1}, Ljava/lang/Exception;->getMessage()Ljava/lang/String;
 
@@ -405,28 +362,23 @@
 
     if-nez v0, :cond_3
 
-    .line 9
     invoke-virtual {p1}, Ljava/lang/Exception;->toString()Ljava/lang/String;
 
     move-result-object v0
 
-    .line 10
     :cond_3
     invoke-static {v0}, Lorg/apache/http/util/EncodingUtils;->getAsciiBytes(Ljava/lang/String;)[B
 
     move-result-object p1
 
-    .line 11
     new-instance v0, Lorg/apache/http/entity/ByteArrayEntity;
 
     invoke-direct {v0, p1}, Lorg/apache/http/entity/ByteArrayEntity;-><init>([B)V
 
     const-string p1, "text/plain; charset=US-ASCII"
 
-    .line 12
     invoke-virtual {v0, p1}, Lorg/apache/http/entity/AbstractHttpEntity;->setContentType(Ljava/lang/String;)V
 
-    .line 13
     invoke-interface {p2, v0}, Lorg/apache/http/HttpResponse;->setEntity(Lorg/apache/http/HttpEntity;)V
 
     return-void
@@ -443,14 +395,12 @@
 
     const-string v0, "http.connection"
 
-    .line 1
     invoke-interface {p2, v0, p1}, Lorg/apache/http/protocol/HttpContext;->setAttribute(Ljava/lang/String;Ljava/lang/Object;)V
 
     const/16 v0, 0x1f4
 
     const/4 v1, 0x0
 
-    .line 2
     :try_start_0
     invoke-interface {p1}, Lorg/apache/http/HttpServerConnection;->receiveRequestHeader()Lorg/apache/http/HttpRequest;
 
@@ -458,7 +408,6 @@
     :try_end_0
     .catch Lorg/apache/http/HttpException; {:try_start_0 .. :try_end_0} :catch_2
 
-    .line 3
     :try_start_1
     instance-of v3, v2, Lorg/apache/http/HttpEntityEnclosingRequest;
 
@@ -466,7 +415,6 @@
 
     if-eqz v3, :cond_3
 
-    .line 4
     move-object v3, v2
 
     check-cast v3, Lorg/apache/http/HttpEntityEnclosingRequest;
@@ -477,7 +425,6 @@
 
     if-eqz v3, :cond_2
 
-    .line 5
     iget-object v3, p0, Lorg/apache/http/protocol/HttpService;->responseFactory:Lorg/apache/http/HttpResponseFactory;
 
     sget-object v5, Lorg/apache/http/HttpVersion;->HTTP_1_1:Lorg/apache/http/HttpVersion;
@@ -488,14 +435,12 @@
 
     move-result-object v3
 
-    .line 6
     iget-object v5, p0, Lorg/apache/http/protocol/HttpService;->expectationVerifier:Lorg/apache/http/protocol/HttpExpectationVerifier;
     :try_end_1
     .catch Lorg/apache/http/HttpException; {:try_start_1 .. :try_end_1} :catch_1
 
     if-eqz v5, :cond_0
 
-    .line 7
     :try_start_2
     iget-object v5, p0, Lorg/apache/http/protocol/HttpService;->expectationVerifier:Lorg/apache/http/protocol/HttpExpectationVerifier;
 
@@ -508,7 +453,6 @@
     :catch_0
     move-exception v3
 
-    .line 8
     :try_start_3
     iget-object v5, p0, Lorg/apache/http/protocol/HttpService;->responseFactory:Lorg/apache/http/HttpResponseFactory;
 
@@ -518,12 +462,10 @@
 
     move-result-object v5
 
-    .line 9
     invoke-virtual {p0, v3, v5}, Lorg/apache/http/protocol/HttpService;->handleException(Lorg/apache/http/HttpException;Lorg/apache/http/HttpResponse;)V
 
     move-object v3, v5
 
-    .line 10
     :cond_0
     :goto_0
     invoke-interface {v3}, Lorg/apache/http/HttpResponse;->getStatusLine()Lorg/apache/http/StatusLine;
@@ -536,13 +478,10 @@
 
     if-ge v5, v4, :cond_1
 
-    .line 11
     invoke-interface {p1, v3}, Lorg/apache/http/HttpServerConnection;->sendResponseHeader(Lorg/apache/http/HttpResponse;)V
 
-    .line 12
     invoke-interface {p1}, Lorg/apache/http/HttpServerConnection;->flush()V
 
-    .line 13
     move-object v3, v2
 
     check-cast v3, Lorg/apache/http/HttpEntityEnclosingRequest;
@@ -556,7 +495,6 @@
 
     goto :goto_1
 
-    .line 14
     :cond_2
     move-object v3, v2
 
@@ -568,12 +506,10 @@
     :goto_1
     const-string v3, "http.request"
 
-    .line 15
     invoke-interface {p2, v3, v2}, Lorg/apache/http/protocol/HttpContext;->setAttribute(Ljava/lang/String;Ljava/lang/Object;)V
 
     if-nez v1, :cond_4
 
-    .line 16
     iget-object v1, p0, Lorg/apache/http/protocol/HttpService;->responseFactory:Lorg/apache/http/HttpResponseFactory;
 
     sget-object v3, Lorg/apache/http/HttpVersion;->HTTP_1_1:Lorg/apache/http/HttpVersion;
@@ -582,21 +518,17 @@
 
     move-result-object v1
 
-    .line 17
     iget-object v3, p0, Lorg/apache/http/protocol/HttpService;->processor:Lorg/apache/http/protocol/HttpProcessor;
 
     invoke-interface {v3, v2, p2}, Lorg/apache/http/HttpRequestInterceptor;->process(Lorg/apache/http/HttpRequest;Lorg/apache/http/protocol/HttpContext;)V
 
-    .line 18
     invoke-virtual {p0, v2, v1, p2}, Lorg/apache/http/protocol/HttpService;->doService(Lorg/apache/http/HttpRequest;Lorg/apache/http/HttpResponse;Lorg/apache/http/protocol/HttpContext;)V
 
-    .line 19
     :cond_4
     instance-of v3, v2, Lorg/apache/http/HttpEntityEnclosingRequest;
 
     if-eqz v3, :cond_5
 
-    .line 20
     move-object v3, v2
 
     check-cast v3, Lorg/apache/http/HttpEntityEnclosingRequest;
@@ -605,7 +537,6 @@
 
     move-result-object v3
 
-    .line 21
     invoke-static {v3}, Lorg/apache/http/util/EntityUtils;->consume(Lorg/apache/http/HttpEntity;)V
     :try_end_3
     .catch Lorg/apache/http/HttpException; {:try_start_3 .. :try_end_3} :catch_1
@@ -626,7 +557,6 @@
 
     move-object v1, v7
 
-    .line 22
     :goto_2
     iget-object v3, p0, Lorg/apache/http/protocol/HttpService;->responseFactory:Lorg/apache/http/HttpResponseFactory;
 
@@ -636,7 +566,6 @@
 
     move-result-object v0
 
-    .line 23
     invoke-virtual {p0, v1, v0}, Lorg/apache/http/protocol/HttpService;->handleException(Lorg/apache/http/HttpException;Lorg/apache/http/HttpResponse;)V
 
     move-object v1, v0
@@ -645,32 +574,25 @@
     :goto_3
     const-string v0, "http.response"
 
-    .line 24
     invoke-interface {p2, v0, v1}, Lorg/apache/http/protocol/HttpContext;->setAttribute(Ljava/lang/String;Ljava/lang/Object;)V
 
-    .line 25
     iget-object v0, p0, Lorg/apache/http/protocol/HttpService;->processor:Lorg/apache/http/protocol/HttpProcessor;
 
     invoke-interface {v0, v1, p2}, Lorg/apache/http/HttpResponseInterceptor;->process(Lorg/apache/http/HttpResponse;Lorg/apache/http/protocol/HttpContext;)V
 
-    .line 26
     invoke-interface {p1, v1}, Lorg/apache/http/HttpServerConnection;->sendResponseHeader(Lorg/apache/http/HttpResponse;)V
 
-    .line 27
     invoke-direct {p0, v2, v1}, Lorg/apache/http/protocol/HttpService;->canResponseHaveBody(Lorg/apache/http/HttpRequest;Lorg/apache/http/HttpResponse;)Z
 
     move-result v0
 
     if-eqz v0, :cond_6
 
-    .line 28
     invoke-interface {p1, v1}, Lorg/apache/http/HttpServerConnection;->sendResponseEntity(Lorg/apache/http/HttpResponse;)V
 
-    .line 29
     :cond_6
     invoke-interface {p1}, Lorg/apache/http/HttpServerConnection;->flush()V
 
-    .line 30
     iget-object v0, p0, Lorg/apache/http/protocol/HttpService;->connStrategy:Lorg/apache/http/ConnectionReuseStrategy;
 
     invoke-interface {v0, v1, p2}, Lorg/apache/http/ConnectionReuseStrategy;->keepAlive(Lorg/apache/http/HttpResponse;Lorg/apache/http/protocol/HttpContext;)Z
@@ -679,7 +601,6 @@
 
     if-nez p2, :cond_7
 
-    .line 31
     invoke-interface {p1}, Lorg/apache/http/HttpConnection;->close()V
 
     :cond_7
@@ -693,10 +614,8 @@
 
     const-string v0, "Connection reuse strategy"
 
-    .line 1
     invoke-static {p1, v0}, Lorg/apache/http/util/Args;->notNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
 
-    .line 2
     iput-object p1, p0, Lorg/apache/http/protocol/HttpService;->connStrategy:Lorg/apache/http/ConnectionReuseStrategy;
 
     return-void
@@ -707,7 +626,6 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lorg/apache/http/protocol/HttpService;->expectationVerifier:Lorg/apache/http/protocol/HttpExpectationVerifier;
 
     return-void
@@ -718,7 +636,6 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    .line 1
     new-instance v0, Lorg/apache/http/protocol/HttpService$HttpRequestHandlerResolverAdapter;
 
     invoke-direct {v0, p1}, Lorg/apache/http/protocol/HttpService$HttpRequestHandlerResolverAdapter;-><init>(Lorg/apache/http/protocol/HttpRequestHandlerResolver;)V
@@ -735,10 +652,8 @@
 
     const-string v0, "HTTP processor"
 
-    .line 1
     invoke-static {p1, v0}, Lorg/apache/http/util/Args;->notNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
 
-    .line 2
     iput-object p1, p0, Lorg/apache/http/protocol/HttpService;->processor:Lorg/apache/http/protocol/HttpProcessor;
 
     return-void
@@ -749,7 +664,6 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lorg/apache/http/protocol/HttpService;->params:Lorg/apache/http/params/HttpParams;
 
     return-void
@@ -762,10 +676,8 @@
 
     const-string v0, "Response factory"
 
-    .line 1
     invoke-static {p1, v0}, Lorg/apache/http/util/Args;->notNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
 
-    .line 2
     iput-object p1, p0, Lorg/apache/http/protocol/HttpService;->responseFactory:Lorg/apache/http/HttpResponseFactory;
 
     return-void

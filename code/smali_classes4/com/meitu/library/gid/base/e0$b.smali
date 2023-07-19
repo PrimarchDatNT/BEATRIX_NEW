@@ -29,7 +29,6 @@
 .method constructor <init>(Lcom/meitu/library/gid/base/e0;Z[Lcom/meitu/library/gid/base/Switcher;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/library/gid/base/e0$b;->c:Lcom/meitu/library/gid/base/e0;
 
     iput-boolean p2, p0, Lcom/meitu/library/gid/base/e0$b;->a:Z
@@ -50,17 +49,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/library/gid/base/e0$b;->c:Lcom/meitu/library/gid/base/e0;
 
     invoke-static {v1}, Lcom/meitu/library/gid/base/e0;->k(Lcom/meitu/library/gid/base/e0;)V
 
-    .line 2
     iget-object v1, p0, Lcom/meitu/library/gid/base/e0$b;->c:Lcom/meitu/library/gid/base/e0;
 
     invoke-static {v1}, Lcom/meitu/library/gid/base/e0;->i(Lcom/meitu/library/gid/base/e0;)V
 
-    .line 3
     iget-object v1, p0, Lcom/meitu/library/gid/base/e0$b;->c:Lcom/meitu/library/gid/base/e0;
 
     iget-boolean v2, p0, Lcom/meitu/library/gid/base/e0$b;->a:Z
@@ -73,19 +69,16 @@
 
     if-eqz v1, :cond_0
 
-    .line 4
     iget-object v1, p0, Lcom/meitu/library/gid/base/e0$b;->c:Lcom/meitu/library/gid/base/e0;
 
     invoke-virtual {v1}, Lcom/meitu/library/gid/base/e0;->t()V
 
-    .line 5
     iget-object v1, p0, Lcom/meitu/library/gid/base/e0$b;->c:Lcom/meitu/library/gid/base/e0;
 
     iget-object v2, p0, Lcom/meitu/library/gid/base/e0$b;->b:[Lcom/meitu/library/gid/base/Switcher;
 
     invoke-static {v1, v2}, Lcom/meitu/library/gid/base/e0;->j(Lcom/meitu/library/gid/base/e0;[Lcom/meitu/library/gid/base/Switcher;)V
 
-    .line 6
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

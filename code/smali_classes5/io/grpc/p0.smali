@@ -18,7 +18,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -44,7 +43,6 @@
     .annotation build Lf/f/e/a/d;
     .end annotation
 
-    .line 1
     invoke-static {p0, p1}, Lio/grpc/u1;->b(Ljava/lang/Class;Ljava/lang/Iterable;)Ljava/lang/Iterable;
 
     move-result-object p0
@@ -71,7 +69,6 @@
     .annotation build Lf/f/e/a/d;
     .end annotation
 
-    .line 1
     invoke-static {p0, p1}, Lio/grpc/u1;->c(Ljava/lang/Class;Ljava/lang/ClassLoader;)Ljava/lang/Iterable;
 
     move-result-object p0
@@ -82,7 +79,6 @@
 .method public static c(Ljava/lang/ClassLoader;)Z
     .locals 0
 
-    .line 1
     invoke-static {p0}, Lio/grpc/u1;->d(Ljava/lang/ClassLoader;)Z
 
     move-result p0
@@ -108,7 +104,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p0, p1, p2, p3}, Lio/grpc/u1;->e(Ljava/lang/Class;Ljava/lang/Iterable;Ljava/lang/ClassLoader;Lio/grpc/u1$b;)Ljava/lang/Object;
 
     move-result-object p0
@@ -136,7 +131,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p0, p1, p2, p3}, Lio/grpc/u1;->f(Ljava/lang/Class;Ljava/lang/Iterable;Ljava/lang/ClassLoader;Lio/grpc/u1$b;)Ljava/util/List;
 
     move-result-object p0

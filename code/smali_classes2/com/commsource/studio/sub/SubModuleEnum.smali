@@ -275,7 +275,6 @@
 
     new-instance v12, Lcom/commsource/studio/sub/SubModuleEnum;
 
-    .line 1
     const-class v9, Lcom/commsource/studio/function/composition/CropRotateFragment;
 
     const-string v3, "Crop"
@@ -296,7 +295,6 @@
 
     move-object v2, v12
 
-    .line 2
     invoke-direct/range {v2 .. v11}, Lcom/commsource/studio/sub/SubModuleEnum;-><init>(Ljava/lang/String;IIIIILjava/lang/Class;Ljava/lang/String;Ljava/lang/String;)V
 
     sput-object v12, Lcom/commsource/studio/sub/SubModuleEnum;->Crop:Lcom/commsource/studio/sub/SubModuleEnum;
@@ -327,7 +325,6 @@
 
     move-object v13, v3
 
-    .line 3
     invoke-direct/range {v13 .. v22}, Lcom/commsource/studio/sub/SubModuleEnum;-><init>(Ljava/lang/String;IIIIILjava/lang/Class;Ljava/lang/String;Ljava/lang/String;)V
 
     sput-object v3, Lcom/commsource/studio/sub/SubModuleEnum;->Brightness:Lcom/commsource/studio/sub/SubModuleEnum;
@@ -358,7 +355,6 @@
 
     move-object v5, v15
 
-    .line 4
     invoke-direct/range {v5 .. v14}, Lcom/commsource/studio/sub/SubModuleEnum;-><init>(Ljava/lang/String;IIIIILjava/lang/Class;Ljava/lang/String;Ljava/lang/String;)V
 
     sput-object v15, Lcom/commsource/studio/sub/SubModuleEnum;->Contrast:Lcom/commsource/studio/sub/SubModuleEnum;
@@ -389,7 +385,6 @@
 
     move-object/from16 v16, v6
 
-    .line 5
     invoke-direct/range {v16 .. v25}, Lcom/commsource/studio/sub/SubModuleEnum;-><init>(Ljava/lang/String;IIIIILjava/lang/Class;Ljava/lang/String;Ljava/lang/String;)V
 
     sput-object v6, Lcom/commsource/studio/sub/SubModuleEnum;->Definition:Lcom/commsource/studio/sub/SubModuleEnum;
@@ -418,7 +413,6 @@
 
     move-object/from16 v16, v8
 
-    .line 6
     invoke-direct/range {v16 .. v25}, Lcom/commsource/studio/sub/SubModuleEnum;-><init>(Ljava/lang/String;IIIIILjava/lang/Class;Ljava/lang/String;Ljava/lang/String;)V
 
     sput-object v8, Lcom/commsource/studio/sub/SubModuleEnum;->Saturation:Lcom/commsource/studio/sub/SubModuleEnum;
@@ -447,7 +441,6 @@
 
     move-object/from16 v16, v10
 
-    .line 7
     invoke-direct/range {v16 .. v25}, Lcom/commsource/studio/sub/SubModuleEnum;-><init>(Ljava/lang/String;IIIIILjava/lang/Class;Ljava/lang/String;Ljava/lang/String;)V
 
     sput-object v10, Lcom/commsource/studio/sub/SubModuleEnum;->ColorTemperature:Lcom/commsource/studio/sub/SubModuleEnum;
@@ -474,7 +467,6 @@
 
     move-object/from16 v16, v12
 
-    .line 8
     invoke-direct/range {v16 .. v25}, Lcom/commsource/studio/sub/SubModuleEnum;-><init>(Ljava/lang/String;IIIIILjava/lang/Class;Ljava/lang/String;Ljava/lang/String;)V
 
     sput-object v12, Lcom/commsource/studio/sub/SubModuleEnum;->Halation:Lcom/commsource/studio/sub/SubModuleEnum;
@@ -501,7 +493,6 @@
 
     move-object/from16 v16, v14
 
-    .line 9
     invoke-direct/range {v16 .. v25}, Lcom/commsource/studio/sub/SubModuleEnum;-><init>(Ljava/lang/String;IIIIILjava/lang/Class;Ljava/lang/String;Ljava/lang/String;)V
 
     sput-object v14, Lcom/commsource/studio/sub/SubModuleEnum;->FillLight:Lcom/commsource/studio/sub/SubModuleEnum;
@@ -530,7 +521,6 @@
 
     move-object/from16 v17, v27
 
-    .line 10
     invoke-direct/range {v17 .. v26}, Lcom/commsource/studio/sub/SubModuleEnum;-><init>(Ljava/lang/String;IIIIILjava/lang/Class;Ljava/lang/String;Ljava/lang/String;)V
 
     sput-object v27, Lcom/commsource/studio/sub/SubModuleEnum;->FadeColor:Lcom/commsource/studio/sub/SubModuleEnum;
@@ -541,7 +531,6 @@
 
     new-instance v18, Lcom/commsource/studio/sub/SubModuleEnum;
 
-    .line 11
     const-class v35, Lcom/commsource/studio/function/defocus/DeFocusFragment;
 
     const-string v29, "DeFocus"
@@ -562,7 +551,6 @@
 
     move-object/from16 v28, v18
 
-    .line 12
     invoke-direct/range {v28 .. v37}, Lcom/commsource/studio/sub/SubModuleEnum;-><init>(Ljava/lang/String;IIIIILjava/lang/Class;Ljava/lang/String;Ljava/lang/String;)V
 
     sput-object v18, Lcom/commsource/studio/sub/SubModuleEnum;->DeFocus:Lcom/commsource/studio/sub/SubModuleEnum;
@@ -573,7 +561,6 @@
 
     new-instance v18, Lcom/commsource/studio/sub/SubModuleEnum;
 
-    .line 13
     const-class v35, Lcom/commsource/studio/function/k;
 
     const-string v29, "OneKeyBeauty"
@@ -592,7 +579,6 @@
 
     move-object/from16 v28, v18
 
-    .line 14
     invoke-direct/range {v28 .. v37}, Lcom/commsource/studio/sub/SubModuleEnum;-><init>(Ljava/lang/String;IIIIILjava/lang/Class;Ljava/lang/String;Ljava/lang/String;)V
 
     sput-object v18, Lcom/commsource/studio/sub/SubModuleEnum;->OneKeyBeauty:Lcom/commsource/studio/sub/SubModuleEnum;
@@ -603,7 +589,6 @@
 
     new-instance v18, Lcom/commsource/studio/sub/SubModuleEnum;
 
-    .line 15
     const-class v35, Lcom/commsource/studio/function/SmoothFragment;
 
     const-string v29, "Smooth"
@@ -622,7 +607,6 @@
 
     move-object/from16 v28, v18
 
-    .line 16
     invoke-direct/range {v28 .. v37}, Lcom/commsource/studio/sub/SubModuleEnum;-><init>(Ljava/lang/String;IIIIILjava/lang/Class;Ljava/lang/String;Ljava/lang/String;)V
 
     sput-object v18, Lcom/commsource/studio/sub/SubModuleEnum;->Smooth:Lcom/commsource/studio/sub/SubModuleEnum;
@@ -633,7 +617,6 @@
 
     new-instance v18, Lcom/commsource/studio/sub/SubModuleEnum;
 
-    .line 17
     const-class v35, Lcom/commsource/studio/function/EvenlyFragment;
 
     const-string v29, "Evenly"
@@ -652,7 +635,6 @@
 
     move-object/from16 v28, v18
 
-    .line 18
     invoke-direct/range {v28 .. v37}, Lcom/commsource/studio/sub/SubModuleEnum;-><init>(Ljava/lang/String;IIIIILjava/lang/Class;Ljava/lang/String;Ljava/lang/String;)V
 
     sput-object v18, Lcom/commsource/studio/sub/SubModuleEnum;->Evenly:Lcom/commsource/studio/sub/SubModuleEnum;
@@ -663,7 +645,6 @@
 
     new-instance v22, Lcom/commsource/studio/sub/SubModuleEnum;
 
-    .line 19
     const-class v35, Lcom/commsource/studio/function/CleanOilFragment;
 
     const-string v29, "CleanOil"
@@ -682,7 +663,6 @@
 
     move-object/from16 v28, v22
 
-    .line 20
     invoke-direct/range {v28 .. v37}, Lcom/commsource/studio/sub/SubModuleEnum;-><init>(Ljava/lang/String;IIIIILjava/lang/Class;Ljava/lang/String;Ljava/lang/String;)V
 
     sput-object v22, Lcom/commsource/studio/sub/SubModuleEnum;->CleanOil:Lcom/commsource/studio/sub/SubModuleEnum;
@@ -693,7 +673,6 @@
 
     new-instance v22, Lcom/commsource/studio/sub/SubModuleEnum;
 
-    .line 21
     const-class v35, Lcom/commsource/studio/function/NewSkinColorFragment;
 
     const-string v29, "Tones"
@@ -712,7 +691,6 @@
 
     move-object/from16 v28, v22
 
-    .line 22
     invoke-direct/range {v28 .. v37}, Lcom/commsource/studio/sub/SubModuleEnum;-><init>(Ljava/lang/String;IIIIILjava/lang/Class;Ljava/lang/String;Ljava/lang/String;)V
 
     sput-object v22, Lcom/commsource/studio/sub/SubModuleEnum;->Tones:Lcom/commsource/studio/sub/SubModuleEnum;
@@ -723,7 +701,6 @@
 
     new-instance v22, Lcom/commsource/studio/sub/SubModuleEnum;
 
-    .line 23
     const-class v35, Lcom/commsource/studio/function/AcneFragment;
 
     const-string v29, "Acne"
@@ -742,7 +719,6 @@
 
     move-object/from16 v28, v22
 
-    .line 24
     invoke-direct/range {v28 .. v37}, Lcom/commsource/studio/sub/SubModuleEnum;-><init>(Ljava/lang/String;IIIIILjava/lang/Class;Ljava/lang/String;Ljava/lang/String;)V
 
     sput-object v22, Lcom/commsource/studio/sub/SubModuleEnum;->Acne:Lcom/commsource/studio/sub/SubModuleEnum;
@@ -753,7 +729,6 @@
 
     new-instance v22, Lcom/commsource/studio/sub/SubModuleEnum;
 
-    .line 25
     const-class v35, Lcom/commsource/studio/function/SlimFragment;
 
     const-string v29, "Slim"
@@ -772,7 +747,6 @@
 
     move-object/from16 v28, v22
 
-    .line 26
     invoke-direct/range {v28 .. v37}, Lcom/commsource/studio/sub/SubModuleEnum;-><init>(Ljava/lang/String;IIIIILjava/lang/Class;Ljava/lang/String;Ljava/lang/String;)V
 
     sput-object v22, Lcom/commsource/studio/sub/SubModuleEnum;->Slim:Lcom/commsource/studio/sub/SubModuleEnum;
@@ -783,7 +757,6 @@
 
     new-instance v22, Lcom/commsource/studio/sub/SubModuleEnum;
 
-    .line 27
     const-class v35, Lcom/commsource/studio/function/g;
 
     const-string v29, "Countouring"
@@ -802,7 +775,6 @@
 
     move-object/from16 v28, v22
 
-    .line 28
     invoke-direct/range {v28 .. v37}, Lcom/commsource/studio/sub/SubModuleEnum;-><init>(Ljava/lang/String;IIIIILjava/lang/Class;Ljava/lang/String;Ljava/lang/String;)V
 
     sput-object v22, Lcom/commsource/studio/sub/SubModuleEnum;->Countouring:Lcom/commsource/studio/sub/SubModuleEnum;
@@ -813,7 +785,6 @@
 
     new-instance v23, Lcom/commsource/studio/sub/SubModuleEnum;
 
-    .line 29
     const-class v35, Lcom/commsource/studio/function/EyeEnlargeFragment;
 
     const-string v29, "EyeEnlarge"
@@ -832,7 +803,6 @@
 
     move-object/from16 v28, v23
 
-    .line 30
     invoke-direct/range {v28 .. v37}, Lcom/commsource/studio/sub/SubModuleEnum;-><init>(Ljava/lang/String;IIIIILjava/lang/Class;Ljava/lang/String;Ljava/lang/String;)V
 
     sput-object v23, Lcom/commsource/studio/sub/SubModuleEnum;->EyeEnlarge:Lcom/commsource/studio/sub/SubModuleEnum;
@@ -843,7 +813,6 @@
 
     new-instance v23, Lcom/commsource/studio/sub/SubModuleEnum;
 
-    .line 31
     const-class v35, Lcom/commsource/studio/function/BrightenEyesFragment;
 
     const-string v29, "EyeBrightness"
@@ -862,7 +831,6 @@
 
     move-object/from16 v28, v23
 
-    .line 32
     invoke-direct/range {v28 .. v37}, Lcom/commsource/studio/sub/SubModuleEnum;-><init>(Ljava/lang/String;IIIIILjava/lang/Class;Ljava/lang/String;Ljava/lang/String;)V
 
     sput-object v23, Lcom/commsource/studio/sub/SubModuleEnum;->EyeBrightness:Lcom/commsource/studio/sub/SubModuleEnum;
@@ -873,7 +841,6 @@
 
     new-instance v23, Lcom/commsource/studio/sub/SubModuleEnum;
 
-    .line 33
     const-class v35, Lcom/commsource/studio/function/DarkCircleFragment;
 
     const-string v29, "DarkCircles"
@@ -892,7 +859,6 @@
 
     move-object/from16 v28, v23
 
-    .line 34
     invoke-direct/range {v28 .. v37}, Lcom/commsource/studio/sub/SubModuleEnum;-><init>(Ljava/lang/String;IIIIILjava/lang/Class;Ljava/lang/String;Ljava/lang/String;)V
 
     sput-object v23, Lcom/commsource/studio/sub/SubModuleEnum;->DarkCircles:Lcom/commsource/studio/sub/SubModuleEnum;
@@ -903,7 +869,6 @@
 
     new-instance v23, Lcom/commsource/studio/sub/SubModuleEnum;
 
-    .line 35
     const-class v35, Lcom/commsource/studio/function/TeethCorrectFragment;
 
     const-string v29, "TeethCorrect"
@@ -922,7 +887,6 @@
 
     move-object/from16 v28, v23
 
-    .line 36
     invoke-direct/range {v28 .. v37}, Lcom/commsource/studio/sub/SubModuleEnum;-><init>(Ljava/lang/String;IIIIILjava/lang/Class;Ljava/lang/String;Ljava/lang/String;)V
 
     sput-object v23, Lcom/commsource/studio/sub/SubModuleEnum;->TeethCorrect:Lcom/commsource/studio/sub/SubModuleEnum;
@@ -933,7 +897,6 @@
 
     new-instance v24, Lcom/commsource/studio/sub/SubModuleEnum;
 
-    .line 37
     const-class v35, Lcom/commsource/studio/function/TeethWhiteFragment;
 
     const-string v29, "TeethWhiten"
@@ -952,7 +915,6 @@
 
     move-object/from16 v28, v24
 
-    .line 38
     invoke-direct/range {v28 .. v37}, Lcom/commsource/studio/sub/SubModuleEnum;-><init>(Ljava/lang/String;IIIIILjava/lang/Class;Ljava/lang/String;Ljava/lang/String;)V
 
     sput-object v24, Lcom/commsource/studio/sub/SubModuleEnum;->TeethWhiten:Lcom/commsource/studio/sub/SubModuleEnum;
@@ -963,7 +925,6 @@
 
     new-instance v24, Lcom/commsource/studio/sub/SubModuleEnum;
 
-    .line 39
     const-class v35, Lcom/commsource/studio/function/j;
 
     const-string v29, "NoseSwing"
@@ -982,7 +943,6 @@
 
     move-object/from16 v28, v24
 
-    .line 40
     invoke-direct/range {v28 .. v37}, Lcom/commsource/studio/sub/SubModuleEnum;-><init>(Ljava/lang/String;IIIIILjava/lang/Class;Ljava/lang/String;Ljava/lang/String;)V
 
     sput-object v24, Lcom/commsource/studio/sub/SubModuleEnum;->NoseSwing:Lcom/commsource/studio/sub/SubModuleEnum;
@@ -993,7 +953,6 @@
 
     new-instance v13, Lcom/commsource/studio/sub/SubModuleEnum;
 
-    .line 41
     const-class v35, Lcom/commsource/studio/function/RemoveWrinkleFragment;
 
     const-string v29, "RemoveWrinkle"
@@ -1012,7 +971,6 @@
 
     move-object/from16 v28, v13
 
-    .line 42
     invoke-direct/range {v28 .. v37}, Lcom/commsource/studio/sub/SubModuleEnum;-><init>(Ljava/lang/String;IIIIILjava/lang/Class;Ljava/lang/String;Ljava/lang/String;)V
 
     sput-object v13, Lcom/commsource/studio/sub/SubModuleEnum;->RemoveWrinkle:Lcom/commsource/studio/sub/SubModuleEnum;
@@ -1023,7 +981,6 @@
 
     new-instance v26, Lcom/commsource/studio/sub/SubModuleEnum;
 
-    .line 43
     const-class v35, Lcom/commsource/studio/function/s/b;
 
     const-string v29, "Remold"
@@ -1042,7 +999,6 @@
 
     move-object/from16 v28, v26
 
-    .line 44
     invoke-direct/range {v28 .. v37}, Lcom/commsource/studio/sub/SubModuleEnum;-><init>(Ljava/lang/String;IIIIILjava/lang/Class;Ljava/lang/String;Ljava/lang/String;)V
 
     sput-object v26, Lcom/commsource/studio/sub/SubModuleEnum;->Remold:Lcom/commsource/studio/sub/SubModuleEnum;
@@ -1053,7 +1009,6 @@
 
     new-instance v28, Lcom/commsource/studio/sub/SubModuleEnum;
 
-    .line 45
     const-class v36, Lcom/commsource/studio/function/RelightFragment;
 
     const-string v30, "Relight"
@@ -1074,7 +1029,6 @@
 
     move-object/from16 v29, v28
 
-    .line 46
     invoke-direct/range {v29 .. v38}, Lcom/commsource/studio/sub/SubModuleEnum;-><init>(Ljava/lang/String;IIIIILjava/lang/Class;Ljava/lang/String;Ljava/lang/String;)V
 
     sput-object v28, Lcom/commsource/studio/sub/SubModuleEnum;->Relight:Lcom/commsource/studio/sub/SubModuleEnum;
@@ -1085,7 +1039,6 @@
 
     new-instance v29, Lcom/commsource/studio/sub/SubModuleEnum;
 
-    .line 47
     const-class v37, Lcom/commsource/studio/function/AIBeautyFragment;
 
     const-string v31, "AiBeauty"
@@ -1106,7 +1059,6 @@
 
     move-object/from16 v30, v29
 
-    .line 48
     invoke-direct/range {v30 .. v39}, Lcom/commsource/studio/sub/SubModuleEnum;-><init>(Ljava/lang/String;IIIIILjava/lang/Class;Ljava/lang/String;Ljava/lang/String;)V
 
     sput-object v29, Lcom/commsource/studio/sub/SubModuleEnum;->AiBeauty:Lcom/commsource/studio/sub/SubModuleEnum;
@@ -1117,7 +1069,6 @@
 
     new-instance v30, Lcom/commsource/studio/sub/SubModuleEnum;
 
-    .line 49
     const-class v38, Lcom/commsource/studio/function/DispersionFragment;
 
     const-string v32, "Dispersion"
@@ -1138,7 +1089,6 @@
 
     move-object/from16 v31, v30
 
-    .line 50
     invoke-direct/range {v31 .. v40}, Lcom/commsource/studio/sub/SubModuleEnum;-><init>(Ljava/lang/String;IIIIILjava/lang/Class;Ljava/lang/String;Ljava/lang/String;)V
 
     sput-object v30, Lcom/commsource/studio/sub/SubModuleEnum;->Dispersion:Lcom/commsource/studio/sub/SubModuleEnum;
@@ -1149,7 +1099,6 @@
 
     new-instance v31, Lcom/commsource/studio/sub/SubModuleEnum;
 
-    .line 51
     const-class v39, Lcom/commsource/studio/function/makeup/StudioMakeupFragment;
 
     const-string v33, "Makeup"
@@ -1170,7 +1119,6 @@
 
     move-object/from16 v32, v31
 
-    .line 52
     invoke-direct/range {v32 .. v41}, Lcom/commsource/studio/sub/SubModuleEnum;-><init>(Ljava/lang/String;IIIIILjava/lang/Class;Ljava/lang/String;Ljava/lang/String;)V
 
     sput-object v31, Lcom/commsource/studio/sub/SubModuleEnum;->Makeup:Lcom/commsource/studio/sub/SubModuleEnum;
@@ -1181,7 +1129,6 @@
 
     new-instance v32, Lcom/commsource/studio/sub/SubModuleEnum;
 
-    .line 53
     const-class v40, Lcom/commsource/studio/function/a;
 
     const-string v34, "AiEnhance"
@@ -1202,7 +1149,6 @@
 
     move-object/from16 v33, v32
 
-    .line 54
     invoke-direct/range {v33 .. v42}, Lcom/commsource/studio/sub/SubModuleEnum;-><init>(Ljava/lang/String;IIIIILjava/lang/Class;Ljava/lang/String;Ljava/lang/String;)V
 
     sput-object v32, Lcom/commsource/studio/sub/SubModuleEnum;->AiEnhance:Lcom/commsource/studio/sub/SubModuleEnum;
@@ -1213,7 +1159,6 @@
 
     new-instance v33, Lcom/commsource/studio/sub/SubModuleEnum;
 
-    .line 55
     const-class v41, Lcom/commsource/studio/function/EliminateFragment;
 
     const-string v35, "EliminationPen"
@@ -1234,7 +1179,6 @@
 
     move-object/from16 v34, v33
 
-    .line 56
     invoke-direct/range {v34 .. v43}, Lcom/commsource/studio/sub/SubModuleEnum;-><init>(Ljava/lang/String;IIIIILjava/lang/Class;Ljava/lang/String;Ljava/lang/String;)V
 
     sput-object v33, Lcom/commsource/studio/sub/SubModuleEnum;->EliminationPen:Lcom/commsource/studio/sub/SubModuleEnum;
@@ -1245,7 +1189,6 @@
 
     new-instance v34, Lcom/commsource/studio/sub/SubModuleEnum;
 
-    .line 57
     const-class v42, Lcom/commsource/studio/function/MosaicFragment;
 
     const-string v36, "MosaicPen"
@@ -1266,7 +1209,6 @@
 
     move-object/from16 v35, v34
 
-    .line 58
     invoke-direct/range {v35 .. v44}, Lcom/commsource/studio/sub/SubModuleEnum;-><init>(Ljava/lang/String;IIIIILjava/lang/Class;Ljava/lang/String;Ljava/lang/String;)V
 
     sput-object v34, Lcom/commsource/studio/sub/SubModuleEnum;->MosaicPen:Lcom/commsource/studio/sub/SubModuleEnum;
@@ -1277,7 +1219,6 @@
 
     new-instance v34, Lcom/commsource/studio/sub/SubModuleEnum;
 
-    .line 59
     const-class v43, Lcom/commsource/studio/function/o;
 
     const-string v37, "Shrink"
@@ -1298,7 +1239,6 @@
 
     move-object/from16 v36, v34
 
-    .line 60
     invoke-direct/range {v36 .. v45}, Lcom/commsource/studio/sub/SubModuleEnum;-><init>(Ljava/lang/String;IIIIILjava/lang/Class;Ljava/lang/String;Ljava/lang/String;)V
 
     sput-object v34, Lcom/commsource/studio/sub/SubModuleEnum;->Shrink:Lcom/commsource/studio/sub/SubModuleEnum;
@@ -1327,7 +1267,6 @@
 
     move-object/from16 v36, v35
 
-    .line 61
     invoke-direct/range {v36 .. v45}, Lcom/commsource/studio/sub/SubModuleEnum;-><init>(Ljava/lang/String;IIIIILjava/lang/Class;Ljava/lang/String;Ljava/lang/String;)V
 
     sput-object v35, Lcom/commsource/studio/sub/SubModuleEnum;->Highlight:Lcom/commsource/studio/sub/SubModuleEnum;
@@ -1358,7 +1297,6 @@
 
     move-object/from16 v37, v36
 
-    .line 62
     invoke-direct/range {v37 .. v46}, Lcom/commsource/studio/sub/SubModuleEnum;-><init>(Ljava/lang/String;IIIIILjava/lang/Class;Ljava/lang/String;Ljava/lang/String;)V
 
     sput-object v36, Lcom/commsource/studio/sub/SubModuleEnum;->Shadow:Lcom/commsource/studio/sub/SubModuleEnum;
@@ -1389,7 +1327,6 @@
 
     move-object/from16 v38, v37
 
-    .line 63
     invoke-direct/range {v38 .. v47}, Lcom/commsource/studio/sub/SubModuleEnum;-><init>(Ljava/lang/String;IIIIILjava/lang/Class;Ljava/lang/String;Ljava/lang/String;)V
 
     sput-object v37, Lcom/commsource/studio/sub/SubModuleEnum;->Particle:Lcom/commsource/studio/sub/SubModuleEnum;
@@ -1400,7 +1337,6 @@
 
     new-instance v38, Lcom/commsource/studio/sub/SubModuleEnum;
 
-    .line 64
     const-class v46, Lcom/commsource/studio/function/bodyshape/BodyShapeFragment;
 
     const-string v40, "BodyShape"
@@ -1421,7 +1357,6 @@
 
     move-object/from16 v39, v38
 
-    .line 65
     invoke-direct/range {v39 .. v48}, Lcom/commsource/studio/sub/SubModuleEnum;-><init>(Ljava/lang/String;IIIIILjava/lang/Class;Ljava/lang/String;Ljava/lang/String;)V
 
     sput-object v38, Lcom/commsource/studio/sub/SubModuleEnum;->BodyShape:Lcom/commsource/studio/sub/SubModuleEnum;
@@ -1432,7 +1367,6 @@
 
     new-instance v11, Lcom/commsource/studio/sub/SubModuleEnum;
 
-    .line 66
     const-class v47, Lcom/commsource/studio/function/AdjustFragment;
 
     const-string v41, "Adjust"
@@ -1453,7 +1387,6 @@
 
     move-object/from16 v40, v11
 
-    .line 67
     invoke-direct/range {v40 .. v49}, Lcom/commsource/studio/sub/SubModuleEnum;-><init>(Ljava/lang/String;IIIIILjava/lang/Class;Ljava/lang/String;Ljava/lang/String;)V
 
     sput-object v11, Lcom/commsource/studio/sub/SubModuleEnum;->Adjust:Lcom/commsource/studio/sub/SubModuleEnum;
@@ -1464,7 +1397,6 @@
 
     new-instance v40, Lcom/commsource/studio/sub/SubModuleEnum;
 
-    .line 68
     const-class v48, Lcom/commsource/studio/sticker/EraserFragment;
 
     const-string v42, "Eraser"
@@ -1483,7 +1415,6 @@
 
     move-object/from16 v41, v40
 
-    .line 69
     invoke-direct/range {v41 .. v50}, Lcom/commsource/studio/sub/SubModuleEnum;-><init>(Ljava/lang/String;IIIIILjava/lang/Class;Ljava/lang/String;Ljava/lang/String;)V
 
     sput-object v40, Lcom/commsource/studio/sub/SubModuleEnum;->Eraser:Lcom/commsource/studio/sub/SubModuleEnum;
@@ -1494,7 +1425,6 @@
 
     new-instance v41, Lcom/commsource/studio/sub/SubModuleEnum;
 
-    .line 70
     const-class v49, Lcom/commsource/studio/function/l;
 
     const-string v43, "Opacity"
@@ -1513,7 +1443,6 @@
 
     move-object/from16 v42, v41
 
-    .line 71
     invoke-direct/range {v42 .. v51}, Lcom/commsource/studio/sub/SubModuleEnum;-><init>(Ljava/lang/String;IIIIILjava/lang/Class;Ljava/lang/String;Ljava/lang/String;)V
 
     sput-object v41, Lcom/commsource/studio/sub/SubModuleEnum;->Opacity:Lcom/commsource/studio/sub/SubModuleEnum;
@@ -1524,7 +1453,6 @@
 
     new-instance v42, Lcom/commsource/studio/sub/SubModuleEnum;
 
-    .line 72
     const-class v50, Lcom/commsource/studio/function/MaskFragment;
 
     const-string v44, "Mask"
@@ -1543,7 +1471,6 @@
 
     move-object/from16 v43, v42
 
-    .line 73
     invoke-direct/range {v43 .. v52}, Lcom/commsource/studio/sub/SubModuleEnum;-><init>(Ljava/lang/String;IIIIILjava/lang/Class;Ljava/lang/String;Ljava/lang/String;)V
 
     sput-object v42, Lcom/commsource/studio/sub/SubModuleEnum;->Mask:Lcom/commsource/studio/sub/SubModuleEnum;
@@ -1554,7 +1481,6 @@
 
     new-instance v9, Lcom/commsource/studio/sub/SubModuleEnum;
 
-    .line 74
     const-class v51, Lcom/commsource/studio/function/ar/StudioArFragment;
 
     const-string v45, "AR"
@@ -1575,7 +1501,6 @@
 
     move-object/from16 v44, v9
 
-    .line 75
     invoke-direct/range {v44 .. v53}, Lcom/commsource/studio/sub/SubModuleEnum;-><init>(Ljava/lang/String;IIIIILjava/lang/Class;Ljava/lang/String;Ljava/lang/String;)V
 
     sput-object v9, Lcom/commsource/studio/sub/SubModuleEnum;->AR:Lcom/commsource/studio/sub/SubModuleEnum;
@@ -1586,7 +1511,6 @@
 
     new-instance v43, Lcom/commsource/studio/sub/SubModuleEnum;
 
-    .line 76
     const-class v51, Lcom/commsource/studio/function/FlipFragment;
 
     const-string v45, "Flip"
@@ -1605,7 +1529,6 @@
 
     move-object/from16 v44, v43
 
-    .line 77
     invoke-direct/range {v44 .. v53}, Lcom/commsource/studio/sub/SubModuleEnum;-><init>(Ljava/lang/String;IIIIILjava/lang/Class;Ljava/lang/String;Ljava/lang/String;)V
 
     sput-object v43, Lcom/commsource/studio/sub/SubModuleEnum;->Flip:Lcom/commsource/studio/sub/SubModuleEnum;
@@ -1616,7 +1539,6 @@
 
     new-instance v7, Lcom/commsource/studio/sub/SubModuleEnum;
 
-    .line 78
     const-class v52, Lcom/commsource/studio/function/SegmentFragment;
 
     const-string v46, "Segment"
@@ -1637,7 +1559,6 @@
 
     move-object/from16 v45, v7
 
-    .line 79
     invoke-direct/range {v45 .. v54}, Lcom/commsource/studio/sub/SubModuleEnum;-><init>(Ljava/lang/String;IIIIILjava/lang/Class;Ljava/lang/String;Ljava/lang/String;)V
 
     sput-object v7, Lcom/commsource/studio/sub/SubModuleEnum;->Segment:Lcom/commsource/studio/sub/SubModuleEnum;
@@ -1648,7 +1569,6 @@
 
     new-instance v5, Lcom/commsource/studio/sub/SubModuleEnum;
 
-    .line 80
     const-class v53, Lcom/commsource/studio/function/StyleFragment;
 
     const-string v47, "Style"
@@ -1669,7 +1589,6 @@
 
     move-object/from16 v46, v5
 
-    .line 81
     invoke-direct/range {v46 .. v55}, Lcom/commsource/studio/sub/SubModuleEnum;-><init>(Ljava/lang/String;IIIIILjava/lang/Class;Ljava/lang/String;Ljava/lang/String;)V
 
     sput-object v5, Lcom/commsource/studio/sub/SubModuleEnum;->Style:Lcom/commsource/studio/sub/SubModuleEnum;
@@ -1680,7 +1599,6 @@
 
     new-instance v46, Lcom/commsource/studio/sub/SubModuleEnum;
 
-    .line 82
     const-class v54, Lcom/commsource/studio/mixlayer/ImageLayerStyleFragment;
 
     const-string v48, "ImageStyle"
@@ -1699,7 +1617,6 @@
 
     move-object/from16 v47, v46
 
-    .line 83
     invoke-direct/range {v47 .. v56}, Lcom/commsource/studio/sub/SubModuleEnum;-><init>(Ljava/lang/String;IIIIILjava/lang/Class;Ljava/lang/String;Ljava/lang/String;)V
 
     sput-object v46, Lcom/commsource/studio/sub/SubModuleEnum;->ImageStyle:Lcom/commsource/studio/sub/SubModuleEnum;
@@ -1748,7 +1665,6 @@
 
     aput-object v18, v1, v16
 
-    .line 84
     invoke-static {v1}, Lcotlin/collections/s;->r([Ljava/lang/Object;)Ljava/util/ArrayList;
 
     move-result-object v1
@@ -1783,7 +1699,6 @@
 
     aput-object v26, v0, v20
 
-    .line 85
     invoke-static {v0}, Lcotlin/collections/s;->r([Ljava/lang/Object;)Ljava/util/ArrayList;
 
     move-result-object v0
@@ -1830,21 +1745,18 @@
 
     aput-object v37, v0, v20
 
-    .line 86
     invoke-static {v0}, Lcotlin/collections/s;->r([Ljava/lang/Object;)Ljava/util/ArrayList;
 
     move-result-object v0
 
     sput-object v0, Lcom/commsource/studio/sub/SubModuleEnum;->adjustSubModules:Ljava/util/ArrayList;
 
-    .line 87
     new-instance v0, Ljava/util/HashMap;
 
     invoke-direct {v0, v1}, Ljava/util/HashMap;-><init>(I)V
 
     const v1, 0x12142
 
-    .line 88
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v1
@@ -1853,7 +1765,6 @@
 
     const v1, 0x12138
 
-    .line 89
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v1
@@ -1862,7 +1773,6 @@
 
     const v1, 0x12110
 
-    .line 90
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v1
@@ -1871,7 +1781,6 @@
 
     const v1, 0x12124
 
-    .line 91
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v1
@@ -1880,17 +1789,14 @@
 
     const v1, 0x124f8
 
-    .line 92
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v1
 
     invoke-virtual {v0, v13, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 93
     sget-object v1, Lcotlin/t1;->a:Lcotlin/t1;
 
-    .line 94
     sput-object v0, Lcom/commsource/studio/sub/SubModuleEnum;->newSubModuleEnum:Ljava/util/HashMap;
 
     const/4 v0, 0x4
@@ -1911,7 +1817,6 @@
 
     aput-object v46, v0, v3
 
-    .line 95
     invoke-static {v0}, Lcotlin/collections/s;->r([Ljava/lang/Object;)Ljava/util/ArrayList;
 
     move-result-object v0
@@ -1922,24 +1827,20 @@
 
     aput-object v29, v0, v2
 
-    .line 96
     invoke-static {v0}, Lcotlin/collections/s;->r([Ljava/lang/Object;)Ljava/util/ArrayList;
 
     move-result-object v0
 
     sput-object v0, Lcom/commsource/studio/sub/SubModuleEnum;->needNetWorkSubModules:Ljava/util/ArrayList;
 
-    .line 97
     new-instance v0, Landroid/util/SparseArray;
 
     invoke-direct {v0}, Landroid/util/SparseArray;-><init>()V
 
-    .line 98
     invoke-static {}, Lcom/commsource/studio/sub/SubModuleEnum;->values()[Lcom/commsource/studio/sub/SubModuleEnum;
 
     move-result-object v1
 
-    .line 99
     array-length v3, v1
 
     const/4 v4, 0x0
@@ -1949,7 +1850,6 @@
 
     aget-object v5, v1, v4
 
-    .line 100
     iget v6, v5, Lcom/commsource/studio/sub/SubModuleEnum;->id:I
 
     invoke-virtual {v0, v6, v5}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
@@ -1958,29 +1858,23 @@
 
     goto :goto_0
 
-    .line 101
     :cond_0
     sget-object v1, Lcotlin/t1;->a:Lcotlin/t1;
 
-    .line 102
     sput-object v0, Lcom/commsource/studio/sub/SubModuleEnum;->map:Landroid/util/SparseArray;
 
-    .line 103
     new-instance v0, Ljava/util/HashMap;
 
     invoke-direct {v0}, Ljava/util/HashMap;-><init>()V
 
-    .line 104
     invoke-static {}, Lcom/commsource/studio/sub/SubModuleEnum;->values()[Lcom/commsource/studio/sub/SubModuleEnum;
 
     move-result-object v1
 
-    .line 105
     new-instance v3, Ljava/util/ArrayList;
 
     invoke-direct {v3}, Ljava/util/ArrayList;-><init>()V
 
-    .line 106
     array-length v4, v1
 
     :goto_1
@@ -1988,7 +1882,6 @@
 
     aget-object v5, v1, v2
 
-    .line 107
     sget-object v6, Lcom/commsource/studio/sub/SubModuleEnum;->adjustSubModules:Ljava/util/ArrayList;
 
     invoke-virtual {v6, v5}, Ljava/util/ArrayList;->contains(Ljava/lang/Object;)Z
@@ -2008,7 +1901,6 @@
 
     goto :goto_1
 
-    .line 108
     :cond_2
     invoke-interface {v3}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
@@ -2027,18 +1919,15 @@
 
     check-cast v2, Lcom/commsource/studio/sub/SubModuleEnum;
 
-    .line 109
     iget-object v3, v2, Lcom/commsource/studio/sub/SubModuleEnum;->dictValue:Ljava/lang/String;
 
     invoke-virtual {v0, v3, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     goto :goto_2
 
-    .line 110
     :cond_3
     sget-object v1, Lcotlin/t1;->a:Lcotlin/t1;
 
-    .line 111
     sput-object v0, Lcom/commsource/studio/sub/SubModuleEnum;->dictMap:Ljava/util/HashMap;
 
     const v0, 0xa2ca
@@ -2063,7 +1952,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
     iput p3, p0, Lcom/commsource/studio/sub/SubModuleEnum;->id:I
@@ -2118,7 +2006,6 @@
 
     move-object/from16 v10, p9
 
-    .line 2
     invoke-direct/range {v1 .. v10}, Lcom/commsource/studio/sub/SubModuleEnum;-><init>(Ljava/lang/String;IIIIILjava/lang/Class;Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
@@ -2131,7 +2018,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/studio/sub/SubModuleEnum;->adjustSubModules:Ljava/util/ArrayList;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2146,7 +2032,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/studio/sub/SubModuleEnum;->dictMap:Ljava/util/HashMap;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2161,7 +2046,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/studio/sub/SubModuleEnum;->map:Landroid/util/SparseArray;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2176,7 +2060,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/studio/sub/SubModuleEnum;->needNetWorkSubModules:Ljava/util/ArrayList;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2191,7 +2074,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/studio/sub/SubModuleEnum;->newSubModuleEnum:Ljava/util/HashMap;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2206,7 +2088,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/studio/sub/SubModuleEnum;->noFaceDisableSubModules:Ljava/util/ArrayList;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2221,7 +2102,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/studio/sub/SubModuleEnum;->noPictureEffectModules:Ljava/util/ArrayList;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2236,7 +2116,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/studio/sub/SubModuleEnum;->paidSubModules:Ljava/util/ArrayList;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2295,7 +2174,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/sub/SubModuleEnum;->dictValue:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2310,7 +2188,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/sub/SubModuleEnum;->drawableRes:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2337,7 +2214,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/sub/SubModuleEnum;->fragmentClass:Ljava/lang/Class;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2352,7 +2228,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/sub/SubModuleEnum;->iconFontRes:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2367,7 +2242,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/sub/SubModuleEnum;->id:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2382,7 +2256,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/sub/SubModuleEnum;->moduleName:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2399,7 +2272,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/sub/SubModuleEnum;->statisticName:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2422,7 +2294,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/sub/SubModuleEnum;->dictValue:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2437,7 +2308,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/studio/sub/SubModuleEnum;->drawableRes:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2465,7 +2335,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/sub/SubModuleEnum;->fragmentClass:Ljava/lang/Class;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2480,7 +2349,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/studio/sub/SubModuleEnum;->iconFontRes:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2495,7 +2363,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/studio/sub/SubModuleEnum;->id:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2510,7 +2377,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/studio/sub/SubModuleEnum;->moduleName:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

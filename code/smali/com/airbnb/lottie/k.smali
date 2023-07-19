@@ -29,22 +29,16 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput p1, p0, Lcom/airbnb/lottie/k;->a:I
 
-    .line 3
     iput p2, p0, Lcom/airbnb/lottie/k;->b:I
 
-    .line 4
     iput-object p3, p0, Lcom/airbnb/lottie/k;->c:Ljava/lang/String;
 
-    .line 5
     iput-object p4, p0, Lcom/airbnb/lottie/k;->d:Ljava/lang/String;
 
-    .line 6
     iput-object p5, p0, Lcom/airbnb/lottie/k;->e:Ljava/lang/String;
 
     return-void
@@ -57,7 +51,6 @@
     .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/airbnb/lottie/k;->f:Landroid/graphics/Bitmap;
 
     return-object v0
@@ -66,7 +59,6 @@
 .method public b()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/airbnb/lottie/k;->e:Ljava/lang/String;
 
     return-object v0
@@ -75,7 +67,6 @@
 .method public c()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/airbnb/lottie/k;->d:Ljava/lang/String;
 
     return-object v0
@@ -84,7 +75,6 @@
 .method public d()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lcom/airbnb/lottie/k;->b:I
 
     return v0
@@ -93,7 +83,6 @@
 .method public e()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/airbnb/lottie/k;->c:Ljava/lang/String;
 
     return-object v0
@@ -102,7 +91,6 @@
 .method public f()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lcom/airbnb/lottie/k;->a:I
 
     return v0
@@ -111,7 +99,6 @@
 .method public g()Z
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/airbnb/lottie/k;->f:Landroid/graphics/Bitmap;
 
     if-nez v0, :cond_1
@@ -158,7 +145,6 @@
         .end annotation
     .end param
 
-    .line 1
     iput-object p1, p0, Lcom/airbnb/lottie/k;->f:Landroid/graphics/Bitmap;
 
     return-void

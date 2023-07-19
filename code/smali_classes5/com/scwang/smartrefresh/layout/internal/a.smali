@@ -15,18 +15,14 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Lcom/scwang/smartrefresh/layout/internal/b;-><init>()V
 
     const/4 v0, 0x0
 
-    .line 2
     iput v0, p0, Lcom/scwang/smartrefresh/layout/internal/a;->b:I
 
-    .line 3
     iput v0, p0, Lcom/scwang/smartrefresh/layout/internal/a;->c:I
 
-    .line 4
     new-instance v0, Landroid/graphics/Path;
 
     invoke-direct {v0}, Landroid/graphics/Path;-><init>()V
@@ -45,22 +41,18 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-virtual {p0}, Landroid/graphics/drawable/Drawable;->getBounds()Landroid/graphics/Rect;
 
     move-result-object v0
 
-    .line 2
     invoke-virtual {v0}, Landroid/graphics/Rect;->width()I
 
     move-result v1
 
-    .line 3
     invoke-virtual {v0}, Landroid/graphics/Rect;->height()I
 
     move-result v0
 
-    .line 4
     iget v2, p0, Lcom/scwang/smartrefresh/layout/internal/a;->b:I
 
     if-ne v2, v1, :cond_0
@@ -72,10 +64,8 @@
     :cond_0
     mul-int/lit8 v2, v1, 0x1e
 
-    .line 5
     div-int/lit16 v2, v2, 0xe1
 
-    .line 6
     iget-object v3, p0, Lcom/scwang/smartrefresh/layout/internal/a;->d:Landroid/graphics/Path;
 
     invoke-virtual {v3}, Landroid/graphics/Path;->reset()V
@@ -88,7 +78,6 @@
 
     div-float v3, v2, v3
 
-    .line 7
     iget-object v5, p0, Lcom/scwang/smartrefresh/layout/internal/a;->d:Landroid/graphics/Path;
 
     int-to-float v6, v1
@@ -101,7 +90,6 @@
 
     invoke-virtual {v5, v8, v9}, Landroid/graphics/Path;->moveTo(FF)V
 
-    .line 8
     iget-object v5, p0, Lcom/scwang/smartrefresh/layout/internal/a;->d:Landroid/graphics/Path;
 
     div-float v10, v9, v7
@@ -110,14 +98,12 @@
 
     invoke-virtual {v5, v11, v10}, Landroid/graphics/Path;->lineTo(FF)V
 
-    .line 9
     iget-object v5, p0, Lcom/scwang/smartrefresh/layout/internal/a;->d:Landroid/graphics/Path;
 
     sub-float v12, v10, v4
 
     invoke-virtual {v5, v4, v12}, Landroid/graphics/Path;->lineTo(FF)V
 
-    .line 10
     iget-object v5, p0, Lcom/scwang/smartrefresh/layout/internal/a;->d:Landroid/graphics/Path;
 
     div-float/2addr v2, v7
@@ -130,47 +116,38 @@
 
     invoke-virtual {v5, v7, v9}, Landroid/graphics/Path;->lineTo(FF)V
 
-    .line 11
     iget-object v3, p0, Lcom/scwang/smartrefresh/layout/internal/a;->d:Landroid/graphics/Path;
 
     invoke-virtual {v3, v7, v11}, Landroid/graphics/Path;->lineTo(FF)V
 
-    .line 12
     iget-object v3, p0, Lcom/scwang/smartrefresh/layout/internal/a;->d:Landroid/graphics/Path;
 
     add-float/2addr v8, v2
 
     invoke-virtual {v3, v8, v11}, Landroid/graphics/Path;->lineTo(FF)V
 
-    .line 13
     iget-object v2, p0, Lcom/scwang/smartrefresh/layout/internal/a;->d:Landroid/graphics/Path;
 
     invoke-virtual {v2, v8, v9}, Landroid/graphics/Path;->lineTo(FF)V
 
-    .line 14
     iget-object v2, p0, Lcom/scwang/smartrefresh/layout/internal/a;->d:Landroid/graphics/Path;
 
     sub-float v3, v6, v4
 
     invoke-virtual {v2, v3, v12}, Landroid/graphics/Path;->lineTo(FF)V
 
-    .line 15
     iget-object v2, p0, Lcom/scwang/smartrefresh/layout/internal/a;->d:Landroid/graphics/Path;
 
     invoke-virtual {v2, v6, v10}, Landroid/graphics/Path;->lineTo(FF)V
 
-    .line 16
     iget-object v2, p0, Lcom/scwang/smartrefresh/layout/internal/a;->d:Landroid/graphics/Path;
 
     invoke-virtual {v2}, Landroid/graphics/Path;->close()V
 
-    .line 17
     iput v1, p0, Lcom/scwang/smartrefresh/layout/internal/a;->b:I
 
-    .line 18
     iput v0, p0, Lcom/scwang/smartrefresh/layout/internal/a;->c:I
 
-    .line 19
     :cond_1
     iget-object v0, p0, Lcom/scwang/smartrefresh/layout/internal/a;->d:Landroid/graphics/Path;
 

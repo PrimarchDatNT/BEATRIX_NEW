@@ -25,7 +25,6 @@
 .method constructor <init>(Ljava/lang/CharSequence;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcotlin/text/StringsKt__StringsKt$a;->b:Ljava/lang/CharSequence;
 
     invoke-direct {p0}, Lcotlin/collections/r;-><init>()V
@@ -38,7 +37,6 @@
 .method public b()C
     .locals 3
 
-    .line 1
     iget-object v0, p0, Lcotlin/text/StringsKt__StringsKt$a;->b:Ljava/lang/CharSequence;
 
     iget v1, p0, Lcotlin/text/StringsKt__StringsKt$a;->a:I
@@ -57,7 +55,6 @@
 .method public hasNext()Z
     .locals 2
 
-    .line 1
     iget v0, p0, Lcotlin/text/StringsKt__StringsKt$a;->a:I
 
     iget-object v1, p0, Lcotlin/text/StringsKt__StringsKt$a;->b:Ljava/lang/CharSequence;

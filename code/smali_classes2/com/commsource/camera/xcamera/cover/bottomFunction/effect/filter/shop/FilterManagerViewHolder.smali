@@ -49,19 +49,16 @@
 
     sget v0, Lcom/res/provider/ResLAYOUT;->item_filter_manager:I
 
-    .line 1
     invoke-direct {p0, p1, p2, v0}, Lcom/commsource/widget/h1/f;-><init>(Landroid/content/Context;Landroid/view/ViewGroup;I)V
 
     const/high16 p2, 0x42300000    # 44.0f
 
-    .line 2
     invoke-static {p2}, Lcom/meitu/library/p/f/i;->b(F)F
 
     move-result p2
 
     iput p2, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/FilterManagerViewHolder;->p:F
 
-    .line 3
     new-instance p2, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/FilterManagerViewHolder$filterManagerViewModel$2;
 
     invoke-direct {p2, p1}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/FilterManagerViewHolder$filterManagerViewModel$2;-><init>(Landroid/content/Context;)V
@@ -72,7 +69,6 @@
 
     iput-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/FilterManagerViewHolder;->K:Lcotlin/w;
 
-    .line 4
     iget-object p1, p0, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->itemView:Landroid/view/View;
 
     invoke-static {p1}, Lcom/commsource/beautyplus/f0/ye;->a(Landroid/view/View;)Lcom/commsource/beautyplus/f0/ye;
@@ -81,14 +77,12 @@
 
     iput-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/FilterManagerViewHolder;->L:Lcom/commsource/beautyplus/f0/ye;
 
-    .line 5
     new-instance p2, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/c;
 
     invoke-direct {p2}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/c;-><init>()V
 
     iput-object p2, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/FilterManagerViewHolder;->M:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/c;
 
-    .line 6
     invoke-virtual {p1}, Landroidx/databinding/ViewDataBinding;->executePendingBindings()V
 
     return-void
@@ -101,7 +95,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/widget/h1/f;->f:Lcom/commsource/widget/h1/e;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -116,7 +109,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/FilterManagerViewHolder;->p:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -151,7 +143,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/widget/h1/f;->f:Lcom/commsource/widget/h1/e;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -166,7 +157,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/FilterManagerViewHolder;->D()Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/FilterManagerViewModel;
 
     move-result-object p0
@@ -183,7 +173,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget p0, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/FilterManagerViewHolder;->p:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -198,7 +187,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/FilterManagerViewHolder;->L:Lcom/commsource/beautyplus/f0/ye;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -215,7 +203,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/FilterManagerViewHolder;->M:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/c;
 
     invoke-virtual {p0}, Lcom/commsource/widget/h1/f;->c()Lcom/commsource/widget/h1/d;
@@ -242,7 +229,6 @@
 
     invoke-virtual {v1, v2, v3}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/c;->k(ZLcotlin/jvm/u/l;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -278,10 +264,8 @@
 
     invoke-static {p2, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-super {p0, p1, p2, p3}, Lcom/commsource/widget/h1/f;->k(ILcom/commsource/widget/h1/d;Ljava/util/List;)V
 
-    .line 2
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/FilterManagerViewHolder;->L:Lcom/commsource/beautyplus/f0/ye;
 
     const-string v1, "viewBinding"
@@ -296,7 +280,6 @@
 
     invoke-virtual {p1, v1}, Lcom/commsource/beautyplus/f0/ye;->i(Lcom/meitu/template/bean/Filter;)V
 
-    .line 3
     sget-object p1, Lcom/commsource/beautyfilter/NewBeautyFilterManager;->q:Lcom/commsource/beautyfilter/NewBeautyFilterManager$a;
 
     invoke-virtual {p1}, Lcom/commsource/beautyfilter/NewBeautyFilterManager$a;->b()Lcom/commsource/beautyfilter/NewBeautyFilterManager;
@@ -319,7 +302,6 @@
 
     iput-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/FilterManagerViewHolder;->J:Lcom/meitu/template/bean/j;
 
-    .line 4
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/FilterManagerViewHolder;->L:Lcom/commsource/beautyplus/f0/ye;
 
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/ye;->b:Landroid/widget/ImageView;
@@ -348,7 +330,6 @@
     :goto_0
     invoke-virtual {p1, v1}, Landroid/widget/ImageView;->setImageResource(I)V
 
-    .line 5
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/FilterManagerViewHolder;->L:Lcom/commsource/beautyplus/f0/ye;
 
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/ye;->d:Landroid/widget/TextView;
@@ -375,7 +356,6 @@
     :goto_1
     invoke-virtual {p1, v1}, Landroid/widget/TextView;->setBackgroundResource(I)V
 
-    .line 6
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/FilterManagerViewHolder;->L:Lcom/commsource/beautyplus/f0/ye;
 
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/ye;->p:Landroid/widget/TextView;
@@ -428,7 +408,6 @@
     :goto_4
     invoke-virtual {p1, v3}, Landroid/widget/TextView;->setVisibility(I)V
 
-    .line 7
     iget-object p1, p0, Lcom/commsource/widget/h1/f;->d:Landroid/content/Context;
 
     invoke-static {p1}, Lcom/commsource/util/u0;->i(Landroid/content/Context;)Lcom/commsource/util/u0$d;
@@ -453,7 +432,6 @@
 
     move-result-object p1
 
-    .line 8
     new-instance v3, Landroid/graphics/drawable/ColorDrawable;
 
     iget-object v5, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/FilterManagerViewHolder;->J:Lcom/meitu/template/bean/j;
@@ -486,14 +464,12 @@
 
     move-result-object p1
 
-    .line 9
     iget-object v3, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/FilterManagerViewHolder;->L:Lcom/commsource/beautyplus/f0/ye;
 
     iget-object v3, v3, Lcom/commsource/beautyplus/f0/ye;->f:Lcom/commsource/widget/CircleImageView;
 
     invoke-virtual {p1, v3}, Lcom/commsource/util/u0$d;->e(Landroid/widget/ImageView;)V
 
-    .line 10
     invoke-virtual {p2}, Lcom/commsource/widget/h1/d;->b()Ljava/lang/Object;
 
     move-result-object p1
@@ -514,7 +490,6 @@
 
     if-eqz p1, :cond_6
 
-    .line 11
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/FilterManagerViewHolder;->L:Lcom/commsource/beautyplus/f0/ye;
 
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/ye;->c:Landroidx/constraintlayout/widget/ConstraintLayout;
@@ -527,7 +502,6 @@
 
     invoke-virtual {p1, p3}, Landroid/view/ViewGroup;->setBackgroundColor(I)V
 
-    .line 12
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/FilterManagerViewHolder;->L:Lcom/commsource/beautyplus/f0/ye;
 
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/ye;->d:Landroid/widget/TextView;
@@ -550,7 +524,6 @@
 
     invoke-virtual {p1, p3}, Landroid/widget/TextView;->setTranslationX(F)V
 
-    .line 13
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/FilterManagerViewHolder;->L:Lcom/commsource/beautyplus/f0/ye;
 
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/ye;->c:Landroidx/constraintlayout/widget/ConstraintLayout;
@@ -563,7 +536,6 @@
 
     invoke-virtual {p1, p3}, Landroid/view/ViewGroup;->setTranslationX(F)V
 
-    .line 14
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/FilterManagerViewHolder;->L:Lcom/commsource/beautyplus/f0/ye;
 
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/ye;->b:Landroid/widget/ImageView;
@@ -572,7 +544,6 @@
 
     invoke-virtual {p1, v6}, Landroid/widget/ImageView;->setAlpha(F)V
 
-    .line 15
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/FilterManagerViewHolder;->M:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/c;
 
     invoke-virtual {p1, v2}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/c;->p(Z)V
@@ -582,12 +553,10 @@
     :cond_6
     if-eqz p3, :cond_7
 
-    .line 16
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/FilterManagerViewHolder;->C()V
 
     goto :goto_6
 
-    .line 17
     :cond_7
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/FilterManagerViewHolder;->L:Lcom/commsource/beautyplus/f0/ye;
 
@@ -601,7 +570,6 @@
 
     invoke-virtual {p1, p3}, Landroid/view/ViewGroup;->setBackgroundColor(I)V
 
-    .line 18
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/FilterManagerViewHolder;->L:Lcom/commsource/beautyplus/f0/ye;
 
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/ye;->d:Landroid/widget/TextView;
@@ -610,7 +578,6 @@
 
     invoke-virtual {p1, v6}, Landroid/widget/TextView;->setTranslationX(F)V
 
-    .line 19
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/FilterManagerViewHolder;->L:Lcom/commsource/beautyplus/f0/ye;
 
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/ye;->c:Landroidx/constraintlayout/widget/ConstraintLayout;
@@ -619,7 +586,6 @@
 
     invoke-virtual {p1, v6}, Landroid/view/ViewGroup;->setTranslationX(F)V
 
-    .line 20
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/FilterManagerViewHolder;->L:Lcom/commsource/beautyplus/f0/ye;
 
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/ye;->b:Landroid/widget/ImageView;
@@ -630,12 +596,10 @@
 
     invoke-virtual {p1, p3}, Landroid/widget/ImageView;->setAlpha(F)V
 
-    .line 21
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/FilterManagerViewHolder;->M:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/c;
 
     invoke-virtual {p1, v4}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/c;->p(Z)V
 
-    .line 22
     :goto_6
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/FilterManagerViewHolder;->L:Lcom/commsource/beautyplus/f0/ye;
 
@@ -647,7 +611,6 @@
 
     invoke-virtual {p1, p3}, Landroid/widget/TextView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 23
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/FilterManagerViewHolder;->L:Lcom/commsource/beautyplus/f0/ye;
 
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/ye;->a:Landroid/view/View;
@@ -658,7 +621,6 @@
 
     invoke-virtual {p1, p3}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 24
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/FilterManagerViewHolder;->L:Lcom/commsource/beautyplus/f0/ye;
 
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/ye;->c:Landroidx/constraintlayout/widget/ConstraintLayout;
@@ -669,7 +631,6 @@
 
     invoke-virtual {p1, p3}, Landroid/view/ViewGroup;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 25
     invoke-virtual {p2}, Lcom/commsource/widget/h1/d;->b()Ljava/lang/Object;
 
     move-result-object p1
@@ -688,7 +649,6 @@
 
     if-eqz p1, :cond_8
 
-    .line 26
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/FilterManagerViewHolder;->L:Lcom/commsource/beautyplus/f0/ye;
 
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/ye;->g:Landroid/widget/TextView;
@@ -697,7 +657,6 @@
 
     invoke-static {p1}, Lcom/commsource/util/l0;->v0(Landroid/view/View;)V
 
-    .line 27
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/FilterManagerViewHolder;->L:Lcom/commsource/beautyplus/f0/ye;
 
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/ye;->g:Landroid/widget/TextView;
@@ -716,7 +675,6 @@
 
     invoke-virtual {p1, p2}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 28
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/FilterManagerViewHolder;->L:Lcom/commsource/beautyplus/f0/ye;
 
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/ye;->p:Landroid/widget/TextView;
@@ -727,7 +685,6 @@
 
     goto :goto_7
 
-    .line 29
     :cond_8
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/FilterManagerViewHolder;->L:Lcom/commsource/beautyplus/f0/ye;
 
@@ -737,7 +694,6 @@
 
     invoke-static {p1}, Lcom/commsource/util/l0;->v0(Landroid/view/View;)V
 
-    .line 30
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/FilterManagerViewHolder;->L:Lcom/commsource/beautyplus/f0/ye;
 
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/ye;->g:Landroid/widget/TextView;
@@ -756,7 +712,6 @@
 
     invoke-virtual {p1, p3}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 31
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/FilterManagerViewHolder;->L:Lcom/commsource/beautyplus/f0/ye;
 
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/ye;->p:Landroid/widget/TextView;
@@ -775,7 +730,6 @@
 
     invoke-virtual {p1, p2}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 32
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/FilterManagerViewHolder;->L:Lcom/commsource/beautyplus/f0/ye;
 
     iget-object p1, p1, Lcom/commsource/beautyplus/f0/ye;->p:Landroid/widget/TextView;
@@ -784,7 +738,6 @@
 
     invoke-static {p1}, Lcom/commsource/util/l0;->v0(Landroid/view/View;)V
 
-    .line 33
     :goto_7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

@@ -91,7 +91,6 @@
 
     move-result-object v1
 
-    .line 1
     iget v2, v0, Lcotlinx/coroutines/flow/FlowKt__EmittersKt$invokeSafely$1;->label:I
 
     const/4 v3, 0x1
@@ -121,7 +120,6 @@
 
     goto :goto_1
 
-    .line 2
     :cond_1
     new-instance p0, Ljava/lang/IllegalStateException;
 
@@ -131,11 +129,9 @@
 
     throw p0
 
-    .line 3
     :cond_2
     invoke-static {p3}, Lcotlin/r0;->n(Ljava/lang/Object;)V
 
-    .line 4
     :try_start_1
     iput-object p0, v0, Lcotlinx/coroutines/flow/FlowKt__EmittersKt$invokeSafely$1;->L$0:Ljava/lang/Object;
 
@@ -155,7 +151,6 @@
 
     return-object v1
 
-    .line 5
     :cond_3
     :goto_1
     sget-object p0, Lcotlin/t1;->a:Lcotlin/t1;
@@ -167,10 +162,8 @@
 
     if-eqz p2, :cond_4
 
-    .line 6
     invoke-static {p0, p2}, Lcotlin/l;->a(Ljava/lang/Throwable;Ljava/lang/Throwable;)V
 
-    .line 7
     :cond_4
     throw p0
 .end method
@@ -215,7 +208,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     new-instance v0, Lcotlinx/coroutines/flow/FlowKt__EmittersKt$onCompletion$2;
 
     const/4 v1, 0x0
@@ -269,7 +261,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     new-instance v0, Lcotlinx/coroutines/flow/FlowKt__EmittersKt$onCompletion$$inlined$unsafeFlow$1;
 
     invoke-direct {v0, p0, p1}, Lcotlinx/coroutines/flow/FlowKt__EmittersKt$onCompletion$$inlined$unsafeFlow$1;-><init>(Lcotlinx/coroutines/flow/d;Lcotlin/jvm/u/q;)V
@@ -315,7 +306,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     new-instance v0, Lcotlinx/coroutines/flow/FlowKt__EmittersKt$onStart$$inlined$unsafeFlow$1;
 
     invoke-direct {v0, p0, p1}, Lcotlinx/coroutines/flow/FlowKt__EmittersKt$onStart$$inlined$unsafeFlow$1;-><init>(Lcotlinx/coroutines/flow/d;Lcotlin/jvm/u/p;)V
@@ -366,7 +356,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     new-instance v0, Lcotlinx/coroutines/flow/FlowKt__EmittersKt$transform$1;
 
     const/4 v1, 0x0
@@ -423,7 +412,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     new-instance v0, Lcotlinx/coroutines/flow/FlowKt__EmittersKt$unsafeTransform$$inlined$unsafeFlow$1;
 
     invoke-direct {v0, p0, p1}, Lcotlinx/coroutines/flow/FlowKt__EmittersKt$unsafeTransform$$inlined$unsafeFlow$1;-><init>(Lcotlinx/coroutines/flow/d;Lcotlin/jvm/u/q;)V

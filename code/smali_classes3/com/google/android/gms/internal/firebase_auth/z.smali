@@ -13,7 +13,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-interface {p0}, Ljava/util/Set;->iterator()Ljava/util/Iterator;
 
     move-result-object p0
@@ -35,7 +34,6 @@
 
     if-eqz v2, :cond_0
 
-    .line 2
     invoke-virtual {v2}, Ljava/lang/Object;->hashCode()I
 
     move-result v2
@@ -80,7 +78,6 @@
 
     return v0
 
-    .line 1
     :cond_0
     instance-of v1, p1, Ljava/util/Set;
 
@@ -88,10 +85,8 @@
 
     if-eqz v1, :cond_1
 
-    .line 2
     check-cast p1, Ljava/util/Set;
 
-    .line 3
     :try_start_0
     invoke-interface {p0}, Ljava/util/Set;->size()I
 

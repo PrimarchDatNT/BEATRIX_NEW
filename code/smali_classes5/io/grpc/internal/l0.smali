@@ -19,10 +19,8 @@
 .method constructor <init>(Lio/grpc/Status;Lio/grpc/internal/ClientStreamListener$RpcProgress;)V
     .locals 2
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     invoke-virtual {p1}, Lio/grpc/Status;->r()Z
 
     move-result v0
@@ -33,10 +31,8 @@
 
     invoke-static {v0, v1}, Lcom/google/common/base/t;->e(ZLjava/lang/Object;)V
 
-    .line 3
     iput-object p1, p0, Lio/grpc/internal/l0;->a:Lio/grpc/Status;
 
-    .line 4
     iput-object p2, p0, Lio/grpc/internal/l0;->b:Lio/grpc/internal/ClientStreamListener$RpcProgress;
 
     return-void
@@ -47,7 +43,6 @@
 .method public d()Lio/grpc/j0;
     .locals 2
 
-    .line 1
     new-instance v0, Ljava/lang/UnsupportedOperationException;
 
     const-string v1, "Not a real transport"
@@ -60,7 +55,6 @@
 .method public e(Lio/grpc/internal/v$a;Ljava/util/concurrent/Executor;)V
     .locals 1
 
-    .line 1
     new-instance v0, Lio/grpc/internal/l0$a;
 
     invoke-direct {v0, p0, p1}, Lio/grpc/internal/l0$a;-><init>(Lio/grpc/internal/l0;Lio/grpc/internal/v$a;)V
@@ -81,14 +75,12 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {}, Lcom/google/common/util/concurrent/v0;->G()Lcom/google/common/util/concurrent/v0;
 
     move-result-object v0
 
     const/4 v1, 0x0
 
-    .line 2
     invoke-virtual {v0, v1}, Lcom/google/common/util/concurrent/v0;->C(Ljava/lang/Object;)Z
 
     return-object v0
@@ -108,7 +100,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance p1, Lio/grpc/internal/k0;
 
     iget-object p2, p0, Lio/grpc/internal/l0;->a:Lio/grpc/Status;

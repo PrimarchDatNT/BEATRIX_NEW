@@ -27,13 +27,10 @@
 .method public constructor <init>(Lcom/google/android/gms/ads/identifier/AdvertisingIdClient$Info;Ljava/lang/String;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/google/android/gms/internal/ads/ra1;->a:Lcom/google/android/gms/ads/identifier/AdvertisingIdClient$Info;
 
-    .line 3
     iput-object p2, p0, Lcom/google/android/gms/internal/ads/ra1;->b:Ljava/lang/String;
 
     return-void
@@ -44,18 +41,15 @@
 .method public final synthetic b(Ljava/lang/Object;)V
     .locals 2
 
-    .line 1
     check-cast p1, Lorg/json/JSONObject;
 
     :try_start_0
     const-string v0, "pii"
 
-    .line 2
     invoke-static {p1, v0}, Lcom/google/android/gms/internal/ads/vo;->k(Lorg/json/JSONObject;Ljava/lang/String;)Lorg/json/JSONObject;
 
     move-result-object p1
 
-    .line 3
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/ra1;->a:Lcom/google/android/gms/ads/identifier/AdvertisingIdClient$Info;
 
     if-eqz v0, :cond_0
@@ -72,7 +66,6 @@
 
     const-string v0, "rdid"
 
-    .line 4
     iget-object v1, p0, Lcom/google/android/gms/internal/ads/ra1;->a:Lcom/google/android/gms/ads/identifier/AdvertisingIdClient$Info;
 
     invoke-virtual {v1}, Lcom/google/android/gms/ads/identifier/AdvertisingIdClient$Info;->getId()Ljava/lang/String;
@@ -83,7 +76,6 @@
 
     const-string v0, "is_lat"
 
-    .line 5
     iget-object v1, p0, Lcom/google/android/gms/internal/ads/ra1;->a:Lcom/google/android/gms/ads/identifier/AdvertisingIdClient$Info;
 
     invoke-virtual {v1}, Lcom/google/android/gms/ads/identifier/AdvertisingIdClient$Info;->isLimitAdTrackingEnabled()Z
@@ -96,7 +88,6 @@
 
     const-string v1, "adid"
 
-    .line 6
     invoke-virtual {p1, v0, v1}, Lorg/json/JSONObject;->put(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;
 
     return-void
@@ -104,7 +95,6 @@
     :cond_0
     const-string v0, "pdid"
 
-    .line 7
     iget-object v1, p0, Lcom/google/android/gms/internal/ads/ra1;->b:Ljava/lang/String;
 
     invoke-virtual {p1, v0, v1}, Lorg/json/JSONObject;->put(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;
@@ -113,7 +103,6 @@
 
     const-string v1, "ssaid"
 
-    .line 8
     invoke-virtual {p1, v0, v1}, Lorg/json/JSONObject;->put(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;
     :try_end_0
     .catch Lorg/json/JSONException; {:try_start_0 .. :try_end_0} :catch_0
@@ -125,7 +114,6 @@
 
     const-string v0, "Failed putting Ad ID."
 
-    .line 9
     invoke-static {v0, p1}, Lcom/google/android/gms/internal/ads/sm;->l(Ljava/lang/String;Ljava/lang/Throwable;)V
 
     return-void

@@ -42,7 +42,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/studio/function/FlipFragment$b;->a:Lcom/commsource/studio/function/FlipFragment;
 
     invoke-virtual {v0}, Lcom/commsource/studio/function/FlipFragment;->C1()Lcom/commsource/studio/effect/i;
@@ -65,7 +64,6 @@
 
     invoke-virtual {v0, v1}, Lcom/commsource/studio/effect/i;->z(Z)V
 
-    .line 2
     iget-object v0, p0, Lcom/commsource/studio/function/FlipFragment$b;->a:Lcom/commsource/studio/function/FlipFragment;
 
     invoke-static {v0}, Lcom/commsource/studio/function/FlipFragment;->z1(Lcom/commsource/studio/function/FlipFragment;)Lcom/commsource/studio/bean/FocusLayerInfo;
@@ -86,13 +84,11 @@
 
     invoke-virtual {v0, v1}, Lcom/commsource/studio/bean/FocusLayerInfo;->setFlipY(Z)V
 
-    .line 3
     :cond_0
     iget-object v0, p0, Lcom/commsource/studio/function/FlipFragment$b;->a:Lcom/commsource/studio/function/FlipFragment;
 
     invoke-static {v0}, Lcom/commsource/studio/function/FlipFragment;->B1(Lcom/commsource/studio/function/FlipFragment;)V
 
-    .line 4
     iget-object v0, p0, Lcom/commsource/studio/function/FlipFragment$b;->a:Lcom/commsource/studio/function/FlipFragment;
 
     invoke-static {v0}, Lcom/commsource/studio/function/FlipFragment;->z1(Lcom/commsource/studio/function/FlipFragment;)Lcom/commsource/studio/bean/FocusLayerInfo;
@@ -103,7 +99,6 @@
 
     invoke-virtual {v0}, Lcom/commsource/studio/bean/BaseLayerInfo;->updateLayerNode()V
 
-    .line 5
     :cond_1
     iget-object v0, p0, Lcom/commsource/studio/function/FlipFragment$b;->a:Lcom/commsource/studio/function/FlipFragment;
 
@@ -121,7 +116,6 @@
 
     invoke-static {v0, v2, v3, v1, v3}, Lcom/commsource/editengine/d;->u(Lcom/commsource/editengine/d;ZLcotlin/jvm/u/a;ILjava/lang/Object;)V
 
-    .line 6
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

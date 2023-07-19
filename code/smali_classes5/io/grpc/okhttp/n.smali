@@ -27,7 +27,6 @@
 .method static constructor <clinit>()V
     .locals 2
 
-    .line 1
     const-class v0, Lio/grpc/okhttp/n;
 
     invoke-virtual {v0}, Ljava/lang/Class;->getName()Ljava/lang/String;
@@ -40,14 +39,12 @@
 
     sput-object v1, Lio/grpc/okhttp/n;->b:Ljava/util/logging/Logger;
 
-    .line 2
     invoke-static {}, Lio/grpc/okhttp/internal/Platform;->g()Lio/grpc/okhttp/internal/Platform;
 
     move-result-object v1
 
     sput-object v1, Lio/grpc/okhttp/n;->c:Lio/grpc/okhttp/internal/Platform;
 
-    .line 3
     invoke-virtual {v0}, Ljava/lang/Class;->getClassLoader()Ljava/lang/ClassLoader;
 
     move-result-object v0
@@ -66,12 +63,10 @@
     .annotation build Lf/f/e/a/d;
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const-string v0, "platform"
 
-    .line 2
     invoke-static {p1, v0}, Lcom/google/common/base/t;->F(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -86,7 +81,6 @@
 .method static synthetic a()Ljava/util/logging/Logger;
     .locals 1
 
-    .line 1
     sget-object v0, Lio/grpc/okhttp/n;->b:Ljava/util/logging/Logger;
 
     return-object v0
@@ -95,7 +89,6 @@
 .method static synthetic b(Ljava/util/List;)[Ljava/lang/String;
     .locals 0
 
-    .line 1
     invoke-static {p0}, Lio/grpc/okhttp/n;->i(Ljava/util/List;)[Ljava/lang/String;
 
     move-result-object p0
@@ -111,7 +104,6 @@
     :try_start_0
     const-string v0, "com.android.org.conscrypt.OpenSSLSocketImpl"
 
-    .line 1
     invoke-virtual {p0, v0}, Ljava/lang/ClassLoader;->loadClass(Ljava/lang/String;)Ljava/lang/Class;
     :try_end_0
     .catch Ljava/lang/ClassNotFoundException; {:try_start_0 .. :try_end_0} :catch_0
@@ -121,7 +113,6 @@
     :catch_0
     move-exception v0
 
-    .line 2
     sget-object v1, Lio/grpc/okhttp/n;->b:Ljava/util/logging/Logger;
 
     sget-object v2, Ljava/util/logging/Level;->FINE:Ljava/util/logging/Level;
@@ -133,7 +124,6 @@
     :try_start_1
     const-string v0, "org.apache.harmony.xnet.provider.jsse.OpenSSLSocketImpl"
 
-    .line 3
     invoke-virtual {p0, v0}, Ljava/lang/ClassLoader;->loadClass(Ljava/lang/String;)Ljava/lang/Class;
     :try_end_1
     .catch Ljava/lang/ClassNotFoundException; {:try_start_1 .. :try_end_1} :catch_1
@@ -146,7 +136,6 @@
     :catch_1
     move-exception p0
 
-    .line 4
     sget-object v0, Lio/grpc/okhttp/n;->b:Ljava/util/logging/Logger;
 
     sget-object v1, Ljava/util/logging/Level;->FINE:Ljava/util/logging/Level;
@@ -160,7 +149,6 @@
     :goto_1
     if-eqz p0, :cond_0
 
-    .line 5
     new-instance p0, Lio/grpc/okhttp/n$a;
 
     sget-object v0, Lio/grpc/okhttp/n;->c:Lio/grpc/okhttp/internal/Platform;
@@ -169,7 +157,6 @@
 
     goto :goto_2
 
-    .line 6
     :cond_0
     new-instance p0, Lio/grpc/okhttp/n;
 
@@ -184,7 +171,6 @@
 .method public static e()Lio/grpc/okhttp/n;
     .locals 1
 
-    .line 1
     sget-object v0, Lio/grpc/okhttp/n;->d:Lio/grpc/okhttp/n;
 
     return-object v0
@@ -197,7 +183,6 @@
 
     const-string v0, "_"
 
-    .line 1
     invoke-virtual {p0, v0}, Ljava/lang/String;->contains(Ljava/lang/CharSequence;)Z
 
     move-result v0
@@ -208,7 +193,6 @@
 
     return v1
 
-    .line 2
     :cond_0
     :try_start_0
     invoke-static {p0}, Lio/grpc/internal/GrpcUtil;->d(Ljava/lang/String;)Ljava/lang/String;
@@ -235,12 +219,10 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
 
-    .line 2
     invoke-interface {p0}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
     move-result-object p0
@@ -258,7 +240,6 @@
 
     check-cast v1, Lio/grpc/okhttp/internal/Protocol;
 
-    .line 3
     invoke-virtual {v1}, Lio/grpc/okhttp/internal/Protocol;->toString()Ljava/lang/String;
 
     move-result-object v1
@@ -272,7 +253,6 @@
 
     new-array p0, p0, [Ljava/lang/String;
 
-    .line 4
     invoke-interface {v0, p0}, Ljava/util/List;->toArray([Ljava/lang/Object;)[Ljava/lang/Object;
 
     move-result-object p0
@@ -297,7 +277,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lio/grpc/okhttp/n;->a:Lio/grpc/okhttp/internal/Platform;
 
     invoke-virtual {v0, p1, p2, p3}, Lio/grpc/okhttp/internal/Platform;->d(Ljavax/net/ssl/SSLSocket;Ljava/lang/String;Ljava/util/List;)V
@@ -308,7 +287,6 @@
 .method public f(Ljavax/net/ssl/SSLSocket;)Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lio/grpc/okhttp/n;->a:Lio/grpc/okhttp/internal/Platform;
 
     invoke-virtual {v0, p1}, Lio/grpc/okhttp/internal/Platform;->k(Ljavax/net/ssl/SSLSocket;)Ljava/lang/String;
@@ -344,15 +322,12 @@
 
     if-eqz p3, :cond_0
 
-    .line 1
     invoke-virtual {p0, p1, p2, p3}, Lio/grpc/okhttp/n;->c(Ljavax/net/ssl/SSLSocket;Ljava/lang/String;Ljava/util/List;)V
 
-    .line 2
     :cond_0
     :try_start_0
     invoke-virtual {p1}, Ljavax/net/ssl/SSLSocket;->startHandshake()V
 
-    .line 3
     invoke-virtual {p0, p1}, Lio/grpc/okhttp/n;->f(Ljavax/net/ssl/SSLSocket;)Ljava/lang/String;
 
     move-result-object p2
@@ -361,14 +336,12 @@
 
     if-eqz p2, :cond_1
 
-    .line 4
     iget-object p3, p0, Lio/grpc/okhttp/n;->a:Lio/grpc/okhttp/internal/Platform;
 
     invoke-virtual {p3, p1}, Lio/grpc/okhttp/internal/Platform;->a(Ljavax/net/ssl/SSLSocket;)V
 
     return-object p2
 
-    .line 5
     :cond_1
     :try_start_1
     new-instance p2, Ljava/lang/RuntimeException;
@@ -396,7 +369,6 @@
     :catchall_0
     move-exception p2
 
-    .line 6
     iget-object p3, p0, Lio/grpc/okhttp/n;->a:Lio/grpc/okhttp/internal/Platform;
 
     invoke-virtual {p3, p1}, Lio/grpc/okhttp/internal/Platform;->a(Ljavax/net/ssl/SSLSocket;)V

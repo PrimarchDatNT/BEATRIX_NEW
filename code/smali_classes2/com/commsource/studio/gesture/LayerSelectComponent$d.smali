@@ -54,7 +54,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/studio/sub/SubTabEnum;->Beauty:Lcom/commsource/studio/sub/SubTabEnum;
 
     if-eq p1, v1, :cond_0
@@ -63,12 +62,10 @@
 
     if-eq p1, v1, :cond_0
 
-    .line 2
     iget-object p1, p0, Lcom/commsource/studio/gesture/LayerSelectComponent$d;->a:Lcom/commsource/studio/gesture/LayerSelectComponent;
 
     invoke-static {p1}, Lcom/commsource/studio/gesture/LayerSelectComponent;->g(Lcom/commsource/studio/gesture/LayerSelectComponent;)V
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -82,7 +79,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Lcom/commsource/studio/sub/SubTabEnum;
 
     invoke-virtual {p0, p1}, Lcom/commsource/studio/gesture/LayerSelectComponent$d;->a(Lcom/commsource/studio/sub/SubTabEnum;)V

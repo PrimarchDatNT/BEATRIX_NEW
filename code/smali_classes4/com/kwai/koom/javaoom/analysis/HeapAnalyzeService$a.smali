@@ -25,7 +25,6 @@
 .method constructor <init>(Lcom/kwai/koom/javaoom/analysis/g;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/kwai/koom/javaoom/analysis/HeapAnalyzeService$a;->a:Lcom/kwai/koom/javaoom/analysis/g;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -42,10 +41,8 @@
 
     const-string v1, "IPC call back, heap analysis failed"
 
-    .line 1
     invoke-static {v0, v1}, Lcom/kwai/koom/javaoom/common/e;->c(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 2
     iget-object v0, p0, Lcom/kwai/koom/javaoom/analysis/HeapAnalyzeService$a;->a:Lcom/kwai/koom/javaoom/analysis/g;
 
     invoke-interface {v0}, Lcom/kwai/koom/javaoom/analysis/g;->f()V
@@ -60,10 +57,8 @@
 
     const-string v1, "IPC call back, heap analysis success"
 
-    .line 1
     invoke-static {v0, v1}, Lcom/kwai/koom/javaoom/common/e;->c(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 2
     iget-object v0, p0, Lcom/kwai/koom/javaoom/analysis/HeapAnalyzeService$a;->a:Lcom/kwai/koom/javaoom/analysis/g;
 
     invoke-interface {v0}, Lcom/kwai/koom/javaoom/analysis/g;->d()V

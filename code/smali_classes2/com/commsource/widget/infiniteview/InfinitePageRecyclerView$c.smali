@@ -24,7 +24,6 @@
 .method constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/widget/infiniteview/InfiniteLayoutManager;-><init>()V
 
     return-void
@@ -43,12 +42,10 @@
 
     if-ne p3, v0, :cond_0
 
-    .line 1
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 2
     :cond_0
     new-instance v0, Lcom/commsource/widget/infiniteview/InfinitePageRecyclerView$c$a;
 
@@ -58,13 +55,10 @@
 
     invoke-direct {v0, p0, p1}, Lcom/commsource/widget/infiniteview/InfinitePageRecyclerView$c$a;-><init>(Lcom/commsource/widget/infiniteview/InfinitePageRecyclerView$c;Landroid/content/Context;)V
 
-    .line 3
     invoke-virtual {v0, p3}, Landroidx/recyclerview/widget/RecyclerView$SmoothScroller;->setTargetPosition(I)V
 
-    .line 4
     invoke-virtual {p0, v0}, Landroidx/recyclerview/widget/RecyclerView$LayoutManager;->startSmoothScroll(Landroidx/recyclerview/widget/RecyclerView$SmoothScroller;)V
 
-    .line 5
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

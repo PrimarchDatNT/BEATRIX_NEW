@@ -18,7 +18,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -47,7 +46,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {}, Lio/grpc/ManagedChannelProvider;->e()Lio/grpc/ManagedChannelProvider;
 
     move-result-object v0
@@ -71,7 +69,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {}, Lio/grpc/ManagedChannelProvider;->e()Lio/grpc/ManagedChannelProvider;
 
     move-result-object v0
@@ -107,7 +104,6 @@
         value = "https://github.com/grpc/grpc-java/issues/3982"
     .end annotation
 
-    .line 1
     new-instance p1, Ljava/lang/UnsupportedOperationException;
 
     invoke-direct {p1}, Ljava/lang/UnsupportedOperationException;-><init>()V
@@ -129,7 +125,6 @@
         value = "https://github.com/grpc/grpc-java/issues/5113"
     .end annotation
 
-    .line 1
     new-instance p1, Ljava/lang/UnsupportedOperationException;
 
     invoke-direct {p1}, Ljava/lang/UnsupportedOperationException;-><init>()V
@@ -149,7 +144,6 @@
         value = "https://github.com/grpc/grpc-java/issues/3982"
     .end annotation
 
-    .line 1
     new-instance p1, Ljava/lang/UnsupportedOperationException;
 
     invoke-direct {p1}, Ljava/lang/UnsupportedOperationException;-><init>()V
@@ -171,7 +165,6 @@
         value = "https://github.com/grpc/grpc-java/issues/4017"
     .end annotation
 
-    .line 1
     new-instance p1, Ljava/lang/UnsupportedOperationException;
 
     invoke-direct {p1}, Ljava/lang/UnsupportedOperationException;-><init>()V
@@ -187,7 +180,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/lang/UnsupportedOperationException;
 
     invoke-direct {v0}, Ljava/lang/UnsupportedOperationException;-><init>()V
@@ -207,7 +199,6 @@
         value = "https://github.com/grpc/grpc-java/issues/3713"
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/lang/UnsupportedOperationException;
 
     invoke-direct {v0}, Ljava/lang/UnsupportedOperationException;-><init>()V
@@ -270,7 +261,6 @@
         value = "https://github.com/grpc/grpc-java/issues/1771"
     .end annotation
 
-    .line 1
     new-instance p1, Ljava/lang/UnsupportedOperationException;
 
     invoke-direct {p1}, Ljava/lang/UnsupportedOperationException;-><init>()V
@@ -297,7 +287,6 @@
         value = "https://github.com/grpc/grpc-java/issues/5189"
     .end annotation
 
-    .line 1
     new-instance p1, Ljava/lang/UnsupportedOperationException;
 
     invoke-direct {p1}, Ljava/lang/UnsupportedOperationException;-><init>()V
@@ -325,7 +314,6 @@
         value = "https://github.com/grpc/grpc-java/issues/3982"
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/lang/UnsupportedOperationException;
 
     invoke-direct {v0}, Ljava/lang/UnsupportedOperationException;-><init>()V
@@ -345,7 +333,6 @@
         value = "https://github.com/grpc/grpc-java/issues/5189"
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/lang/UnsupportedOperationException;
 
     invoke-direct {v0}, Ljava/lang/UnsupportedOperationException;-><init>()V
@@ -365,7 +352,6 @@
         value = "https://github.com/grpc/grpc-java/issues/3399"
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/lang/UnsupportedOperationException;
 
     invoke-direct {v0}, Ljava/lang/UnsupportedOperationException;-><init>()V
@@ -385,7 +371,6 @@
         value = "https://github.com/grpc/grpc-java/issues/3982"
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/lang/UnsupportedOperationException;
 
     invoke-direct {v0}, Ljava/lang/UnsupportedOperationException;-><init>()V
@@ -448,7 +433,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance p1, Ljava/lang/UnsupportedOperationException;
 
     invoke-direct {p1}, Ljava/lang/UnsupportedOperationException;-><init>()V
@@ -466,7 +450,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance p1, Ljava/lang/UnsupportedOperationException;
 
     invoke-direct {p1}, Ljava/lang/UnsupportedOperationException;-><init>()V
@@ -482,7 +465,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance p1, Ljava/lang/UnsupportedOperationException;
 
     invoke-direct {p1}, Ljava/lang/UnsupportedOperationException;-><init>()V
@@ -502,7 +484,6 @@
         value = "https://github.com/grpc/grpc-java/issues/3982"
     .end annotation
 
-    .line 1
     new-instance p1, Ljava/lang/UnsupportedOperationException;
 
     invoke-direct {p1}, Ljava/lang/UnsupportedOperationException;-><init>()V
@@ -530,10 +511,8 @@
     :goto_0
     const-string v0, "bytes must be >= 0"
 
-    .line 1
     invoke-static {p1, v0}, Lcom/google/common/base/t;->e(ZLjava/lang/Object;)V
 
-    .line 2
     invoke-direct {p0}, Lio/grpc/x0;->F()Lio/grpc/x0;
 
     move-result-object p1
@@ -561,10 +540,8 @@
     :goto_0
     const-string v0, "maxInboundMetadataSize must be > 0"
 
-    .line 1
     invoke-static {p1, v0}, Lcom/google/common/base/t;->e(ZLjava/lang/Object;)V
 
-    .line 2
     invoke-direct {p0}, Lio/grpc/x0;->F()Lio/grpc/x0;
 
     move-result-object p1
@@ -584,7 +561,6 @@
         value = "https://github.com/grpc/grpc-java/issues/3982"
     .end annotation
 
-    .line 1
     new-instance p1, Ljava/lang/UnsupportedOperationException;
 
     invoke-direct {p1}, Ljava/lang/UnsupportedOperationException;-><init>()V
@@ -604,7 +580,6 @@
         value = "https://github.com/grpc/grpc-java/issues/4471"
     .end annotation
 
-    .line 1
     new-instance p1, Ljava/lang/UnsupportedOperationException;
 
     invoke-direct {p1}, Ljava/lang/UnsupportedOperationException;-><init>()V
@@ -643,7 +618,6 @@
         value = "https://github.com/grpc/grpc-java/issues/6279"
     .end annotation
 
-    .line 1
     new-instance p1, Ljava/lang/UnsupportedOperationException;
 
     invoke-direct {p1}, Ljava/lang/UnsupportedOperationException;-><init>()V

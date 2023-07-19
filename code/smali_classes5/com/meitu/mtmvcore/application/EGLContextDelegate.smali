@@ -21,33 +21,26 @@
 .method public constructor <init>(Ljavax/microedition/khronos/egl/EGL10;Ljavax/microedition/khronos/egl/EGLContext;Ljavax/microedition/khronos/egl/EGLConfig;)V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/meitu/mtmvcore/application/EGLContextDelegate;->a:Ljavax/microedition/khronos/egl/EGL10;
 
-    .line 3
     iput-object p3, p0, Lcom/meitu/mtmvcore/application/EGLContextDelegate;->b:Ljavax/microedition/khronos/egl/EGLConfig;
 
-    .line 4
     iput-object p2, p0, Lcom/meitu/mtmvcore/application/EGLContextDelegate;->d:Ljavax/microedition/khronos/egl/EGLContext;
 
-    .line 5
     invoke-interface {p1}, Ljavax/microedition/khronos/egl/EGL10;->eglGetCurrentContext()Ljavax/microedition/khronos/egl/EGLContext;
 
     move-result-object p2
 
     iput-object p2, p0, Lcom/meitu/mtmvcore/application/EGLContextDelegate;->c:Ljavax/microedition/khronos/egl/EGLContext;
 
-    .line 6
     invoke-interface {p1}, Ljavax/microedition/khronos/egl/EGL10;->eglGetCurrentDisplay()Ljavax/microedition/khronos/egl/EGLDisplay;
 
     move-result-object p2
 
     iput-object p2, p0, Lcom/meitu/mtmvcore/application/EGLContextDelegate;->e:Ljavax/microedition/khronos/egl/EGLDisplay;
 
-    .line 7
     iget-object p3, p0, Lcom/meitu/mtmvcore/application/EGLContextDelegate;->b:Ljavax/microedition/khronos/egl/EGLConfig;
 
     const/4 v0, 0x5
@@ -83,7 +76,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/mtmvcore/application/EGLContextDelegate;->a:Ljavax/microedition/khronos/egl/EGL10;
 
     iget-object v2, p0, Lcom/meitu/mtmvcore/application/EGLContextDelegate;->e:Ljavax/microedition/khronos/egl/EGLDisplay;
@@ -94,7 +86,6 @@
 
     invoke-interface {v1, v2, v3, v3, v4}, Ljavax/microedition/khronos/egl/EGL10;->eglMakeCurrent(Ljavax/microedition/khronos/egl/EGLDisplay;Ljavax/microedition/khronos/egl/EGLSurface;Ljavax/microedition/khronos/egl/EGLSurface;Ljavax/microedition/khronos/egl/EGLContext;)Z
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -107,7 +98,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -120,7 +110,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/mtmvcore/application/EGLContextDelegate;->a:Ljavax/microedition/khronos/egl/EGL10;
 
     iget-object v2, p0, Lcom/meitu/mtmvcore/application/EGLContextDelegate;->e:Ljavax/microedition/khronos/egl/EGLDisplay;
@@ -129,7 +118,6 @@
 
     invoke-interface {v1, v2, v3}, Ljavax/microedition/khronos/egl/EGL10;->eglDestroySurface(Ljavax/microedition/khronos/egl/EGLDisplay;Ljavax/microedition/khronos/egl/EGLSurface;)Z
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

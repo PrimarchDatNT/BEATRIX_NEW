@@ -24,7 +24,6 @@
 .method constructor <init>(Lcom/sdk/imp/base/UrlAction$8;Ljava/util/List;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/sdk/imp/base/UrlAction$8$a;->b:Lcom/sdk/imp/base/UrlAction$8;
 
     iput-object p2, p0, Lcom/sdk/imp/base/UrlAction$8$a;->a:Ljava/util/List;
@@ -39,7 +38,6 @@
 .method public run()V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/sdk/imp/base/UrlAction$8$a;->a:Ljava/util/List;
 
     invoke-interface {v0}, Ljava/util/List;->iterator()Ljava/util/Iterator;
@@ -59,7 +57,6 @@
 
     check-cast v1, Ljava/lang/String;
 
-    .line 2
     invoke-static {v1}, Lf/q/b/n;->v(Ljava/lang/String;)Lf/q/b/n$g;
 
     goto :goto_0

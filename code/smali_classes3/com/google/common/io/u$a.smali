@@ -22,7 +22,6 @@
 .method constructor <init>(Lcom/google/common/io/u;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/common/io/u$a;->c:Lcom/google/common/io/u;
 
     invoke-direct {p0}, Lcom/google/common/io/s;-><init>()V
@@ -35,7 +34,6 @@
 .method protected d(Ljava/lang/String;Ljava/lang/String;)V
     .locals 0
 
-    .line 1
     iget-object p2, p0, Lcom/google/common/io/u$a;->c:Lcom/google/common/io/u;
 
     invoke-static {p2}, Lcom/google/common/io/u;->a(Lcom/google/common/io/u;)Ljava/util/Queue;

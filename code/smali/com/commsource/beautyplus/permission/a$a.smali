@@ -28,15 +28,12 @@
 .method public constructor <init>(Lcom/commsource/beautyplus/permission/a;Landroid/view/View;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/beautyplus/permission/a$a;->d:Lcom/commsource/beautyplus/permission/a;
 
-    .line 2
     invoke-direct {p0, p2}, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;-><init>(Landroid/view/View;)V
 
     sget p1, Lcom/res/provider/ResID;->iv_permission_icon:I
 
-    .line 3
     invoke-virtual {p2, p1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object p1
@@ -47,7 +44,6 @@
 
     sget p1, Lcom/res/provider/ResID;->tv_permission_title:I
 
-    .line 4
     invoke-virtual {p2, p1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object p1
@@ -58,7 +54,6 @@
 
     sget p1, Lcom/res/provider/ResID;->tv_permission_content:I
 
-    .line 5
     invoke-virtual {p2, p1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object p1
@@ -77,7 +72,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/beautyplus/permission/a$a;->a:Landroid/widget/ImageView;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -92,7 +86,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/beautyplus/permission/a$a;->b:Landroid/widget/TextView;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -107,7 +100,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/beautyplus/permission/a$a;->c:Landroid/widget/TextView;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

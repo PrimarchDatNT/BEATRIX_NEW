@@ -27,7 +27,6 @@
 .method constructor <init>(Lcom/google/firebase/crashlytics/internal/common/j;Lcom/google/firebase/crashlytics/internal/settings/d;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/firebase/crashlytics/internal/common/j$c;->b:Lcom/google/firebase/crashlytics/internal/common/j;
 
     iput-object p2, p0, Lcom/google/firebase/crashlytics/internal/common/j$c;->a:Lcom/google/firebase/crashlytics/internal/settings/d;
@@ -42,7 +41,6 @@
 .method public run()V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/crashlytics/internal/common/j$c;->b:Lcom/google/firebase/crashlytics/internal/common/j;
 
     iget-object v1, p0, Lcom/google/firebase/crashlytics/internal/common/j$c;->a:Lcom/google/firebase/crashlytics/internal/settings/d;

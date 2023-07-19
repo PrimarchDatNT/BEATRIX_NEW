@@ -33,7 +33,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/material/download/b/b$f;->g:Lcom/commsource/material/download/b/b;
 
     iput-object p2, p0, Lcom/commsource/material/download/b/b$f;->p:Lcom/commsource/material/download/b/c;
@@ -52,20 +51,17 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/material/download/b/b$f;->p:Lcom/commsource/material/download/b/c;
 
     if-eqz v1, :cond_0
 
     invoke-interface {v1}, Lcom/commsource/material/download/b/c;->onStart()V
 
-    .line 2
     :cond_0
     iget-object v1, p0, Lcom/commsource/material/download/b/b$f;->g:Lcom/commsource/material/download/b/b;
 
     invoke-virtual {v1}, Lcom/commsource/material/download/b/b;->m()V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

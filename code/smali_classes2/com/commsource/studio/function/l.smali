@@ -36,10 +36,8 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/studio/function/BaseSubFragment;-><init>()V
 
-    .line 2
     sget-object v0, Lcom/commsource/studio/n0;->z:Lcom/commsource/studio/n0;
 
     invoke-virtual {v0}, Lcom/commsource/studio/n0;->t()I
@@ -50,7 +48,6 @@
 
     iput v0, p0, Lcom/commsource/studio/function/l;->c0:F
 
-    .line 3
     new-instance v0, Lcom/commsource/studio/effect/r;
 
     invoke-direct {v0}, Lcom/commsource/studio/effect/r;-><init>()V
@@ -59,7 +56,6 @@
 
     const/4 v0, 0x1
 
-    .line 4
     iput-boolean v0, p0, Lcom/commsource/studio/function/l;->f0:Z
 
     return-void
@@ -72,7 +68,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/function/l;->g0:Lcom/commsource/studio/bean/FocusLayerInfo;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -87,7 +82,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/function/l;->g0:Lcom/commsource/studio/bean/FocusLayerInfo;
 
     instance-of v2, v1, Lcom/commsource/studio/bean/GroupLayerInfo;
@@ -100,14 +94,12 @@
 
     if-eqz v1, :cond_3
 
-    .line 2
     check-cast v1, Lcom/commsource/studio/bean/GroupLayerInfo;
 
     invoke-virtual {v1}, Lcom/commsource/studio/bean/GroupLayerInfo;->getSubLayerInfos()Ljava/util/ArrayList;
 
     move-result-object v1
 
-    .line 3
     invoke-interface {v1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v1
@@ -134,7 +126,6 @@
     :cond_0
     check-cast v5, Lcotlin/Pair;
 
-    .line 4
     invoke-virtual {v5}, Lcotlin/Pair;->getFirst()Ljava/lang/Object;
 
     move-result-object v5
@@ -167,7 +158,6 @@
 
     if-eqz v2, :cond_1
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v3
@@ -177,13 +167,11 @@
 
     goto :goto_0
 
-    .line 6
     :cond_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v4
 
-    .line 7
     :cond_3
     new-instance v1, Lcotlin/TypeCastException;
 
@@ -198,7 +186,6 @@
     :cond_4
     if-eqz v1, :cond_6
 
-    .line 8
     invoke-virtual {v1}, Lcom/commsource/studio/bean/FocusLayerInfo;->getAlpha()F
 
     move-result v1
@@ -234,7 +221,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/function/l;->g0:Lcom/commsource/studio/bean/FocusLayerInfo;
 
     instance-of v2, v1, Lcom/commsource/studio/bean/GroupLayerInfo;
@@ -243,7 +229,6 @@
 
     if-eqz v1, :cond_1
 
-    .line 2
     check-cast v1, Lcom/commsource/studio/bean/GroupLayerInfo;
 
     invoke-virtual {v1}, Lcom/commsource/studio/bean/GroupLayerInfo;->getSubLayerInfos()Ljava/util/ArrayList;
@@ -252,7 +237,6 @@
 
     const/4 v2, 0x0
 
-    .line 3
     invoke-interface {v1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v1
@@ -277,7 +261,6 @@
     :cond_0
     check-cast v3, Lcotlin/Pair;
 
-    .line 4
     invoke-virtual {v3}, Lcotlin/Pair;->getFirst()Ljava/lang/Object;
 
     move-result-object v3
@@ -312,7 +295,6 @@
 
     goto :goto_0
 
-    .line 5
     :cond_1
     new-instance v1, Lcotlin/TypeCastException;
 
@@ -327,7 +309,6 @@
     :cond_2
     if-eqz v1, :cond_3
 
-    .line 6
     invoke-virtual {p0}, Lcom/commsource/studio/function/l;->B1()Lcom/commsource/studio/effect/r;
 
     move-result-object v2
@@ -338,7 +319,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/studio/bean/FocusLayerInfo;->setAlpha(F)V
 
-    .line 7
     :cond_3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -352,7 +332,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/studio/function/l;->g0:Lcom/commsource/studio/bean/FocusLayerInfo;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -371,7 +350,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/function/l;->e0:Lcom/commsource/studio/effect/r;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -394,7 +372,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/function/l;->e0:Lcom/commsource/studio/effect/r;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -411,10 +388,8 @@
 
     const-string v1, "transparency_yes"
 
-    .line 1
     invoke-static {v1}, Lcom/commsource/statistics/i;->p(Ljava/lang/String;)V
 
-    .line 2
     invoke-virtual {p0}, Lcom/commsource/studio/function/BaseSubFragment;->r0()Lcom/commsource/studio/ImageStudioViewModel;
 
     move-result-object v1
@@ -435,7 +410,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/studio/text/b;->X(Z)V
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/studio/function/l;->g0:Lcom/commsource/studio/bean/FocusLayerInfo;
 
     const/4 v3, 0x0
@@ -456,10 +430,8 @@
 
     if-eqz v1, :cond_1
 
-    .line 4
     check-cast v1, Lcom/commsource/studio/bean/PictureLayerInfo;
 
-    .line 5
     invoke-virtual {v1}, Lcom/commsource/studio/bean/PictureLayerInfo;->getImageResults()Ljava/util/LinkedList;
 
     move-result-object v1
@@ -472,7 +444,6 @@
 
     goto :goto_1
 
-    .line 6
     :cond_1
     new-instance v1, Lcotlin/TypeCastException;
 
@@ -484,7 +455,6 @@
 
     throw v1
 
-    .line 7
     :cond_2
     :goto_1
     invoke-direct {p0}, Lcom/commsource/studio/function/l;->C1()Z
@@ -495,18 +465,15 @@
 
     if-eqz v1, :cond_3
 
-    .line 8
     invoke-virtual {p0}, Lcom/commsource/studio/function/BaseSubFragment;->r0()Lcom/commsource/studio/ImageStudioViewModel;
 
     move-result-object v1
 
     invoke-static {v1, v3, v4, v3}, Lcom/commsource/studio/ImageStudioViewModel;->D1(Lcom/commsource/studio/ImageStudioViewModel;Ljava/util/Map;ILjava/lang/Object;)V
 
-    .line 9
     :cond_3
     invoke-static {p0, v2, v4, v3}, Lcom/commsource/studio/function/BaseSubFragment;->Z(Lcom/commsource/studio/function/BaseSubFragment;ZILjava/lang/Object;)V
 
-    .line 10
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -540,7 +507,6 @@
 
     invoke-static {p2, v0}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/studio/function/l;->d0:Lcom/commsource/beautyplus/f0/ab;
 
     if-nez v0, :cond_0
@@ -554,7 +520,6 @@
 
     invoke-super {p0, v0, p2}, Lcom/commsource/studio/function/BaseSubFragment;->I(Landroid/view/View;Lcotlin/jvm/u/a;)V
 
-    .line 2
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -567,7 +532,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/studio/function/BaseSubFragment;->r0()Lcom/commsource/studio/ImageStudioViewModel;
 
     move-result-object v1
@@ -588,7 +552,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/studio/text/b;->X(Z)V
 
-    .line 2
     invoke-direct {p0}, Lcom/commsource/studio/function/l;->C1()Z
 
     move-result v1
@@ -599,17 +562,14 @@
 
     if-eqz v1, :cond_1
 
-    .line 3
     invoke-direct {p0}, Lcom/commsource/studio/function/l;->D1()V
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/studio/function/l;->g0:Lcom/commsource/studio/bean/FocusLayerInfo;
 
     if-eqz v1, :cond_0
 
     invoke-virtual {v1}, Lcom/commsource/studio/bean/BaseLayerInfo;->updateLayerNode()V
 
-    .line 5
     :cond_0
     invoke-virtual {p0}, Lcom/commsource/studio/function/BaseSubFragment;->r0()Lcom/commsource/studio/ImageStudioViewModel;
 
@@ -623,11 +583,9 @@
 
     invoke-static {v1, v3, v4, v5, v4}, Lcom/commsource/editengine/d;->u(Lcom/commsource/editengine/d;ZLcotlin/jvm/u/a;ILjava/lang/Object;)V
 
-    .line 6
     :cond_1
     invoke-static {p0, v2, v3, v4}, Lcom/commsource/studio/function/BaseSubFragment;->Z(Lcom/commsource/studio/function/BaseSubFragment;ZILjava/lang/Object;)V
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -640,7 +598,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/studio/function/l;->B1()Lcom/commsource/studio/effect/r;
 
     move-result-object v1
@@ -657,7 +614,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Lcom/commsource/studio/effect/r;
 
     invoke-virtual {p0, p1}, Lcom/commsource/studio/function/l;->E1(Lcom/commsource/studio/effect/r;)V
@@ -674,7 +630,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/studio/function/l;->c0:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -689,7 +644,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/studio/function/l;->c0:F
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -724,10 +678,8 @@
 
     const/4 p3, 0x0
 
-    .line 1
     invoke-virtual {p0, p3}, Lcom/commsource/studio/function/BaseSubFragment;->q1(Z)V
 
-    .line 2
     invoke-static {p1}, Lcom/commsource/beautyplus/f0/ab;->d(Landroid/view/LayoutInflater;)Lcom/commsource/beautyplus/f0/ab;
 
     move-result-object p1
@@ -738,7 +690,6 @@
 
     iput-object p1, p0, Lcom/commsource/studio/function/l;->d0:Lcom/commsource/beautyplus/f0/ab;
 
-    .line 3
     invoke-virtual {p0}, Lcom/commsource/studio/function/BaseSubFragment;->r0()Lcom/commsource/studio/ImageStudioViewModel;
 
     move-result-object p1
@@ -755,7 +706,6 @@
 
     iput-object p1, p0, Lcom/commsource/studio/function/l;->g0:Lcom/commsource/studio/bean/FocusLayerInfo;
 
-    .line 4
     instance-of p3, p1, Lcom/commsource/studio/bean/GroupLayerInfo;
 
     const/16 v0, 0x64
@@ -766,14 +716,12 @@
 
     if-eqz p1, :cond_3
 
-    .line 5
     check-cast p1, Lcom/commsource/studio/bean/GroupLayerInfo;
 
     invoke-virtual {p1}, Lcom/commsource/studio/bean/GroupLayerInfo;->getSubLayerInfos()Ljava/util/ArrayList;
 
     move-result-object p1
 
-    .line 6
     invoke-interface {p1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object p1
@@ -791,7 +739,6 @@
 
     check-cast p3, Lcotlin/Pair;
 
-    .line 7
     invoke-virtual {p0}, Lcom/commsource/studio/function/l;->B1()Lcom/commsource/studio/effect/r;
 
     move-result-object v2
@@ -818,7 +765,6 @@
 
     goto :goto_0
 
-    .line 8
     :cond_0
     iget-object p1, p0, Lcom/commsource/studio/function/l;->d0:Lcom/commsource/beautyplus/f0/ab;
 
@@ -850,7 +796,6 @@
 
     goto :goto_2
 
-    .line 9
     :cond_3
     new-instance p1, Lcotlin/TypeCastException;
 
@@ -862,7 +807,6 @@
 
     throw p1
 
-    .line 10
     :cond_4
     invoke-virtual {p0}, Lcom/commsource/studio/function/l;->B1()Lcom/commsource/studio/effect/r;
 
@@ -884,7 +828,6 @@
     :goto_1
     invoke-virtual {p1, p3}, Lcom/commsource/studio/effect/r;->v(F)V
 
-    .line 11
     iget-object p1, p0, Lcom/commsource/studio/function/l;->d0:Lcom/commsource/beautyplus/f0/ab;
 
     if-nez p1, :cond_6
@@ -910,7 +853,6 @@
 
     invoke-virtual {p1, p3}, Lcom/commsource/widget/XSeekBar;->setProgress(I)V
 
-    .line 12
     :goto_2
     iget-object p1, p0, Lcom/commsource/studio/function/l;->d0:Lcom/commsource/beautyplus/f0/ab;
 
@@ -921,7 +863,6 @@
     :cond_7
     invoke-virtual {p1, p0}, Lcom/commsource/beautyplus/f0/ab;->i(Landroidx/fragment/app/Fragment;)V
 
-    .line 13
     iget-object p1, p0, Lcom/commsource/studio/function/l;->d0:Lcom/commsource/beautyplus/f0/ab;
 
     if-nez p1, :cond_8
@@ -937,7 +878,6 @@
 
     invoke-static {p1}, Lcom/commsource/util/l0;->w(Landroid/view/View;)V
 
-    .line 14
     iget-object p1, p0, Lcom/commsource/studio/function/l;->d0:Lcom/commsource/beautyplus/f0/ab;
 
     if-nez p1, :cond_9
@@ -953,7 +893,6 @@
 
     invoke-static {p1}, Lcom/commsource/util/l0;->w(Landroid/view/View;)V
 
-    .line 15
     iget-object p1, p0, Lcom/commsource/studio/function/l;->d0:Lcom/commsource/beautyplus/f0/ab;
 
     if-nez p1, :cond_a
@@ -1005,10 +944,8 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-super {p0, p1, p2}, Lcom/commsource/studio/function/BaseSubFragment;->onViewCreated(Landroid/view/View;Landroid/os/Bundle;)V
 
-    .line 2
     invoke-virtual {p0}, Lcom/commsource/studio/function/BaseSubFragment;->r0()Lcom/commsource/studio/ImageStudioViewModel;
 
     move-result-object p1
@@ -1029,7 +966,6 @@
 
     invoke-virtual {p1, p2}, Lcom/commsource/studio/text/b;->X(Z)V
 
-    .line 3
     iget-object p1, p0, Lcom/commsource/studio/function/l;->d0:Lcom/commsource/beautyplus/f0/ab;
 
     if-nez p1, :cond_0
@@ -1047,7 +983,6 @@
 
     invoke-virtual {p1, p2}, Lcom/commsource/widget/XSeekBar;->f(Lcom/commsource/widget/XSeekBar$b;)V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1060,7 +995,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/studio/function/l;->f0:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1075,7 +1009,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/studio/function/l;->f0:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

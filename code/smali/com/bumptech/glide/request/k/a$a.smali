@@ -51,12 +51,10 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/bumptech/glide/request/k/a$a;->b:Lcom/bumptech/glide/request/k/a;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p2, p0, Lcom/bumptech/glide/request/k/a$a;->a:Lcom/bumptech/glide/request/k/f;
 
     return-void
@@ -74,7 +72,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-interface {p2}, Lcom/bumptech/glide/request/k/f$a;->getView()Landroid/view/View;
 
     move-result-object v0
@@ -83,7 +80,6 @@
 
     move-result-object v0
 
-    .line 2
     new-instance v1, Landroid/graphics/drawable/BitmapDrawable;
 
     iget-object v2, p0, Lcom/bumptech/glide/request/k/a$a;->b:Lcom/bumptech/glide/request/k/a;
@@ -94,7 +90,6 @@
 
     invoke-direct {v1, v0, p1}, Landroid/graphics/drawable/BitmapDrawable;-><init>(Landroid/content/res/Resources;Landroid/graphics/Bitmap;)V
 
-    .line 3
     iget-object p1, p0, Lcom/bumptech/glide/request/k/a$a;->a:Lcom/bumptech/glide/request/k/f;
 
     invoke-interface {p1, v1, p2}, Lcom/bumptech/glide/request/k/f;->a(Ljava/lang/Object;Lcom/bumptech/glide/request/k/f$a;)Z

@@ -37,7 +37,6 @@
 .method static constructor <clinit>()V
     .locals 5
 
-    .line 1
     new-instance v0, Lcom/mopub/common/util/DeviceUtils$IP;
 
     const-string v1, "IPv4"
@@ -66,7 +65,6 @@
 
     aput-object v1, v3, v4
 
-    .line 2
     sput-object v3, Lcom/mopub/common/util/DeviceUtils$IP;->$VALUES:[Lcom/mopub/common/util/DeviceUtils$IP;
 
     return-void
@@ -80,7 +78,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
     return-void
@@ -89,7 +86,6 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/mopub/common/util/DeviceUtils$IP;
     .locals 1
 
-    .line 1
     const-class v0, Lcom/mopub/common/util/DeviceUtils$IP;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -104,7 +100,6 @@
 .method public static values()[Lcom/mopub/common/util/DeviceUtils$IP;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/mopub/common/util/DeviceUtils$IP;->$VALUES:[Lcom/mopub/common/util/DeviceUtils$IP;
 
     invoke-virtual {v0}, [Lcom/mopub/common/util/DeviceUtils$IP;->clone()Ljava/lang/Object;

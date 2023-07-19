@@ -52,10 +52,8 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     invoke-virtual {p1}, Lcom/commsource/widget/dialog/i0;->dismiss()V
 
-    .line 2
     :cond_0
     iget-object p1, p0, Lcom/commsource/home/homepagedialog/e$a;->a:Lcom/commsource/home/homepagedialog/e;
 
@@ -65,7 +63,6 @@
 
     invoke-static {p1}, Lcom/commsource/util/w0;->v(Landroid/content/Context;)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

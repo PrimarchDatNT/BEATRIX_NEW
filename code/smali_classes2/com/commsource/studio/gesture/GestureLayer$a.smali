@@ -29,7 +29,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/gesture/GestureLayer$a;->a:Lcom/commsource/studio/gesture/GestureLayer;
 
     invoke-direct {p0}, Lcom/commsource/studio/bean/c;-><init>()V
@@ -50,7 +49,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     instance-of v1, p1, Lcom/commsource/studio/bean/FocusLayerInfo;
 
     const/4 v2, 0x0
@@ -72,20 +70,17 @@
 
     move-object v2, p1
 
-    .line 2
     :cond_1
     iget-object p1, p0, Lcom/commsource/studio/gesture/GestureLayer$a;->a:Lcom/commsource/studio/gesture/GestureLayer;
 
     invoke-static {p1, v2}, Lcom/commsource/studio/gesture/GestureLayer;->o0(Lcom/commsource/studio/gesture/GestureLayer;Lcom/commsource/studio/bean/FocusLayerInfo;)V
 
-    .line 3
     iget-object p1, p0, Lcom/commsource/studio/gesture/GestureLayer$a;->a:Lcom/commsource/studio/gesture/GestureLayer;
 
     invoke-virtual {p1, v2}, Lcom/commsource/studio/gesture/GestureLayer;->V0(Lcom/commsource/studio/bean/FocusLayerInfo;)V
 
     if-eqz v2, :cond_2
 
-    .line 4
     invoke-virtual {v2}, Lcom/commsource/studio/bean/FocusLayerInfo;->getGroupLayerInfo()Lcom/commsource/studio/bean/GroupLayerInfo;
 
     move-result-object p1
@@ -94,13 +89,11 @@
 
     invoke-virtual {p1}, Lcom/commsource/studio/bean/GroupLayerInfo;->refreshGroupSizeAndPosition()V
 
-    .line 5
     :cond_2
     iget-object p1, p0, Lcom/commsource/studio/gesture/GestureLayer$a;->a:Lcom/commsource/studio/gesture/GestureLayer;
 
     invoke-virtual {p1}, Lcom/commsource/studio/gesture/GestureLayer;->S0()V
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -121,10 +114,8 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-super {p0, p1}, Lcom/commsource/studio/bean/c;->d(Lcom/commsource/studio/bean/BaseLayerInfo;)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/studio/gesture/GestureLayer$a;->a:Lcom/commsource/studio/gesture/GestureLayer;
 
     invoke-virtual {v1}, Lcom/commsource/studio/gesture/GestureLayer;->I0()Lcom/commsource/studio/bean/FocusLayerInfo;
@@ -155,7 +146,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 3
     iget-object p1, p0, Lcom/commsource/studio/gesture/GestureLayer$a;->a:Lcom/commsource/studio/gesture/GestureLayer;
 
     invoke-virtual {p1}, Lcom/commsource/studio/gesture/GestureLayer;->I0()Lcom/commsource/studio/bean/FocusLayerInfo;
@@ -164,12 +154,10 @@
 
     invoke-static {p1, v1}, Lcom/commsource/studio/gesture/GestureLayer;->o0(Lcom/commsource/studio/gesture/GestureLayer;Lcom/commsource/studio/bean/FocusLayerInfo;)V
 
-    .line 4
     iget-object p1, p0, Lcom/commsource/studio/gesture/GestureLayer$a;->a:Lcom/commsource/studio/gesture/GestureLayer;
 
     invoke-virtual {p1}, Lcom/commsource/studio/gesture/GestureLayer;->S0()V
 
-    .line 5
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -199,12 +187,10 @@
 
     invoke-static {p2, p1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object p1, p0, Lcom/commsource/studio/gesture/GestureLayer$a;->a:Lcom/commsource/studio/gesture/GestureLayer;
 
     invoke-static {p1, p2}, Lcom/commsource/studio/gesture/GestureLayer;->o0(Lcom/commsource/studio/gesture/GestureLayer;Lcom/commsource/studio/bean/FocusLayerInfo;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -233,12 +219,10 @@
 
     invoke-static {p2, p1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object p1, p0, Lcom/commsource/studio/gesture/GestureLayer$a;->a:Lcom/commsource/studio/gesture/GestureLayer;
 
     invoke-static {p1, p2}, Lcom/commsource/studio/gesture/GestureLayer;->o0(Lcom/commsource/studio/gesture/GestureLayer;Lcom/commsource/studio/bean/FocusLayerInfo;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

@@ -83,10 +83,8 @@
 .method public constructor <init>()V
     .locals 2
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     new-instance v0, Ljava/util/concurrent/atomic/AtomicReferenceArray;
 
     const/16 v1, 0x80
@@ -97,18 +95,14 @@
 
     const/4 v0, 0x0
 
-    .line 3
     iput-object v0, p0, Lcotlinx/coroutines/scheduling/m;->lastScheduledTask:Ljava/lang/Object;
 
     const/4 v0, 0x0
 
-    .line 4
     iput v0, p0, Lcotlinx/coroutines/scheduling/m;->producerIndex:I
 
-    .line 5
     iput v0, p0, Lcotlinx/coroutines/scheduling/m;->consumerIndex:I
 
-    .line 6
     iput v0, p0, Lcotlinx/coroutines/scheduling/m;->blockingTasksInBuffer:I
 
     return-void
@@ -123,7 +117,6 @@
 
     const/4 p2, 0x0
 
-    .line 1
     :cond_0
     invoke-virtual {p0, p1, p2}, Lcotlinx/coroutines/scheduling/m;->a(Lcotlinx/coroutines/scheduling/h;Z)Lcotlinx/coroutines/scheduling/h;
 
@@ -135,7 +128,6 @@
 .method private final c(Lcotlinx/coroutines/scheduling/h;)Lcotlinx/coroutines/scheduling/h;
     .locals 2
 
-    .line 1
     iget-object v0, p1, Lcotlinx/coroutines/scheduling/h;->b:Lcotlinx/coroutines/scheduling/i;
 
     invoke-interface {v0}, Lcotlinx/coroutines/scheduling/i;->k()I
@@ -154,12 +146,10 @@
     :goto_0
     if-eqz v1, :cond_1
 
-    .line 2
     sget-object v0, Lcotlinx/coroutines/scheduling/m;->e:Ljava/util/concurrent/atomic/AtomicIntegerFieldUpdater;
 
     invoke-virtual {v0, p0}, Ljava/util/concurrent/atomic/AtomicIntegerFieldUpdater;->incrementAndGet(Ljava/lang/Object;)I
 
-    .line 3
     :cond_1
     invoke-virtual {p0}, Lcotlinx/coroutines/scheduling/m;->e()I
 
@@ -171,13 +161,11 @@
 
     return-object p1
 
-    .line 4
     :cond_2
     iget v0, p0, Lcotlinx/coroutines/scheduling/m;->producerIndex:I
 
     and-int/2addr v0, v1
 
-    .line 5
     :goto_1
     iget-object v1, p0, Lcotlinx/coroutines/scheduling/m;->a:Ljava/util/concurrent/atomic/AtomicReferenceArray;
 
@@ -187,18 +175,15 @@
 
     if-eqz v1, :cond_3
 
-    .line 6
     invoke-static {}, Ljava/lang/Thread;->yield()V
 
     goto :goto_1
 
-    .line 7
     :cond_3
     iget-object v1, p0, Lcotlinx/coroutines/scheduling/m;->a:Ljava/util/concurrent/atomic/AtomicReferenceArray;
 
     invoke-virtual {v1, v0, p1}, Ljava/util/concurrent/atomic/AtomicReferenceArray;->lazySet(ILjava/lang/Object;)V
 
-    .line 8
     sget-object p1, Lcotlinx/coroutines/scheduling/m;->c:Ljava/util/concurrent/atomic/AtomicIntegerFieldUpdater;
 
     invoke-virtual {p1, p0}, Ljava/util/concurrent/atomic/AtomicIntegerFieldUpdater;->incrementAndGet(Ljava/lang/Object;)I
@@ -217,7 +202,6 @@
 
     if-eqz p1, :cond_3
 
-    .line 1
     iget-object p1, p1, Lcotlinx/coroutines/scheduling/h;->b:Lcotlinx/coroutines/scheduling/i;
 
     invoke-interface {p1}, Lcotlinx/coroutines/scheduling/i;->k()I
@@ -240,14 +224,12 @@
     :goto_0
     if-eqz p1, :cond_3
 
-    .line 2
     sget-object p1, Lcotlinx/coroutines/scheduling/m;->e:Ljava/util/concurrent/atomic/AtomicIntegerFieldUpdater;
 
     invoke-virtual {p1, p0}, Ljava/util/concurrent/atomic/AtomicIntegerFieldUpdater;->decrementAndGet(Ljava/lang/Object;)I
 
     move-result p1
 
-    .line 3
     invoke-static {}, Lcotlinx/coroutines/p0;->b()Z
 
     move-result v2
@@ -278,11 +260,9 @@
 .method private final i()Lcotlinx/coroutines/scheduling/h;
     .locals 5
 
-    .line 1
     :cond_0
     iget v0, p0, Lcotlinx/coroutines/scheduling/m;->consumerIndex:I
 
-    .line 2
     iget v1, p0, Lcotlinx/coroutines/scheduling/m;->producerIndex:I
 
     sub-int v1, v0, v1
@@ -296,7 +276,6 @@
     :cond_1
     and-int/lit8 v1, v0, 0x7f
 
-    .line 3
     sget-object v3, Lcotlinx/coroutines/scheduling/m;->d:Ljava/util/concurrent/atomic/AtomicIntegerFieldUpdater;
 
     add-int/lit8 v4, v0, 0x1
@@ -307,7 +286,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 4
     iget-object v0, p0, Lcotlinx/coroutines/scheduling/m;->a:Ljava/util/concurrent/atomic/AtomicReferenceArray;
 
     invoke-virtual {v0, v1, v2}, Ljava/util/concurrent/atomic/AtomicReferenceArray;->getAndSet(ILjava/lang/Object;)Ljava/lang/Object;
@@ -318,7 +296,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 5
     invoke-direct {p0, v0}, Lcotlinx/coroutines/scheduling/m;->d(Lcotlinx/coroutines/scheduling/h;)V
 
     return-object v0
@@ -327,14 +304,12 @@
 .method private final j(Lcotlinx/coroutines/scheduling/d;)Z
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Lcotlinx/coroutines/scheduling/m;->i()Lcotlinx/coroutines/scheduling/h;
 
     move-result-object v0
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-virtual {p1, v0}, Lcotlinx/coroutines/internal/o;->a(Ljava/lang/Object;)Z
 
     const/4 p1, 0x1
@@ -350,7 +325,6 @@
 .method private final m(Lcotlinx/coroutines/scheduling/m;Z)J
     .locals 7
 
-    .line 1
     :cond_0
     iget-object v0, p1, Lcotlinx/coroutines/scheduling/m;->lastScheduledTask:Ljava/lang/Object;
 
@@ -364,7 +338,6 @@
 
     if-eqz p2, :cond_2
 
-    .line 2
     iget-object v4, v0, Lcotlinx/coroutines/scheduling/h;->b:Lcotlinx/coroutines/scheduling/i;
 
     invoke-interface {v4}, Lcotlinx/coroutines/scheduling/i;->k()I
@@ -385,7 +358,6 @@
 
     return-wide v1
 
-    .line 3
     :cond_2
     sget-object v1, Lcotlinx/coroutines/scheduling/k;->g:Lcotlinx/coroutines/scheduling/l;
 
@@ -393,12 +365,10 @@
 
     move-result-wide v1
 
-    .line 4
     iget-wide v4, v0, Lcotlinx/coroutines/scheduling/h;->a:J
 
     sub-long/2addr v1, v4
 
-    .line 5
     sget-wide v4, Lcotlinx/coroutines/scheduling/k;->b:J
 
     cmp-long v6, v1, v4
@@ -409,7 +379,6 @@
 
     return-wide v4
 
-    .line 6
     :cond_3
     sget-object v1, Lcotlinx/coroutines/scheduling/m;->b:Ljava/util/concurrent/atomic/AtomicReferenceFieldUpdater;
 
@@ -423,7 +392,6 @@
 
     const/4 p1, 0x2
 
-    .line 7
     invoke-static {p0, v0, v3, p1, v2}, Lcotlinx/coroutines/scheduling/m;->b(Lcotlinx/coroutines/scheduling/m;Lcotlinx/coroutines/scheduling/h;ZILjava/lang/Object;)Lcotlinx/coroutines/scheduling/h;
 
     const-wide/16 p1, -0x1
@@ -447,14 +415,12 @@
 
     if-eqz p2, :cond_0
 
-    .line 1
     invoke-direct {p0, p1}, Lcotlinx/coroutines/scheduling/m;->c(Lcotlinx/coroutines/scheduling/h;)Lcotlinx/coroutines/scheduling/h;
 
     move-result-object p1
 
     return-object p1
 
-    .line 2
     :cond_0
     sget-object p2, Lcotlinx/coroutines/scheduling/m;->b:Ljava/util/concurrent/atomic/AtomicReferenceFieldUpdater;
 
@@ -466,7 +432,6 @@
 
     if-eqz p1, :cond_1
 
-    .line 3
     invoke-direct {p0, p1}, Lcotlinx/coroutines/scheduling/m;->c(Lcotlinx/coroutines/scheduling/h;)Lcotlinx/coroutines/scheduling/h;
 
     move-result-object p1
@@ -482,7 +447,6 @@
 .method public final e()I
     .locals 2
 
-    .line 1
     iget v0, p0, Lcotlinx/coroutines/scheduling/m;->producerIndex:I
 
     iget v1, p0, Lcotlinx/coroutines/scheduling/m;->consumerIndex:I
@@ -495,7 +459,6 @@
 .method public final f()I
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcotlinx/coroutines/scheduling/m;->lastScheduledTask:Ljava/lang/Object;
 
     if-eqz v0, :cond_0
@@ -524,7 +487,6 @@
         .end annotation
     .end param
 
-    .line 1
     sget-object v0, Lcotlinx/coroutines/scheduling/m;->b:Ljava/util/concurrent/atomic/AtomicReferenceFieldUpdater;
 
     const/4 v1, 0x0
@@ -539,7 +501,6 @@
 
     invoke-virtual {p1, v0}, Lcotlinx/coroutines/internal/o;->a(Ljava/lang/Object;)Z
 
-    .line 2
     :cond_0
     :goto_0
     invoke-direct {p0, p1}, Lcotlinx/coroutines/scheduling/m;->j(Lcotlinx/coroutines/scheduling/d;)Z
@@ -559,7 +520,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     sget-object v0, Lcotlinx/coroutines/scheduling/m;->b:Ljava/util/concurrent/atomic/AtomicReferenceFieldUpdater;
 
     const/4 v1, 0x0
@@ -590,7 +550,6 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-static {}, Lcotlinx/coroutines/p0;->b()Z
 
     move-result v0
@@ -626,15 +585,12 @@
 
     throw p1
 
-    .line 2
     :cond_2
     :goto_1
     iget v0, p1, Lcotlinx/coroutines/scheduling/m;->consumerIndex:I
 
-    .line 3
     iget v3, p1, Lcotlinx/coroutines/scheduling/m;->producerIndex:I
 
-    .line 4
     iget-object v4, p1, Lcotlinx/coroutines/scheduling/m;->a:Ljava/util/concurrent/atomic/AtomicReferenceArray;
 
     :goto_2
@@ -642,14 +598,12 @@
 
     and-int/lit8 v5, v0, 0x7f
 
-    .line 5
     iget v6, p1, Lcotlinx/coroutines/scheduling/m;->blockingTasksInBuffer:I
 
     if-nez v6, :cond_3
 
     goto :goto_4
 
-    .line 6
     :cond_3
     invoke-virtual {v4, v5}, Ljava/util/concurrent/atomic/AtomicReferenceArray;->get(I)Ljava/lang/Object;
 
@@ -659,7 +613,6 @@
 
     if-eqz v6, :cond_5
 
-    .line 7
     iget-object v7, v6, Lcotlinx/coroutines/scheduling/h;->b:Lcotlinx/coroutines/scheduling/i;
 
     invoke-interface {v7}, Lcotlinx/coroutines/scheduling/i;->k()I
@@ -680,21 +633,18 @@
 
     const/4 v7, 0x0
 
-    .line 8
     invoke-virtual {v4, v5, v6, v7}, Ljava/util/concurrent/atomic/AtomicReferenceArray;->compareAndSet(ILjava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v5
 
     if-eqz v5, :cond_5
 
-    .line 9
     sget-object v0, Lcotlinx/coroutines/scheduling/m;->e:Ljava/util/concurrent/atomic/AtomicIntegerFieldUpdater;
 
     invoke-virtual {v0, p1}, Ljava/util/concurrent/atomic/AtomicIntegerFieldUpdater;->decrementAndGet(Ljava/lang/Object;)I
 
     const/4 p1, 0x2
 
-    .line 10
     invoke-static {p0, v6, v1, p1, v7}, Lcotlinx/coroutines/scheduling/m;->b(Lcotlinx/coroutines/scheduling/m;Lcotlinx/coroutines/scheduling/h;ZILjava/lang/Object;)Lcotlinx/coroutines/scheduling/h;
 
     const-wide/16 v0, -0x1
@@ -706,7 +656,6 @@
 
     goto :goto_2
 
-    .line 11
     :cond_6
     :goto_4
     invoke-direct {p0, p1, v2}, Lcotlinx/coroutines/scheduling/m;->m(Lcotlinx/coroutines/scheduling/m;Z)J
@@ -723,7 +672,6 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-static {}, Lcotlinx/coroutines/p0;->b()Z
 
     move-result v0
@@ -759,7 +707,6 @@
 
     throw p1
 
-    .line 2
     :cond_2
     :goto_1
     invoke-direct {p1}, Lcotlinx/coroutines/scheduling/m;->i()Lcotlinx/coroutines/scheduling/h;
@@ -772,12 +719,10 @@
 
     const/4 v3, 0x0
 
-    .line 3
     invoke-static {p0, v0, v2, p1, v3}, Lcotlinx/coroutines/scheduling/m;->b(Lcotlinx/coroutines/scheduling/m;Lcotlinx/coroutines/scheduling/h;ZILjava/lang/Object;)Lcotlinx/coroutines/scheduling/h;
 
     move-result-object p1
 
-    .line 4
     invoke-static {}, Lcotlinx/coroutines/p0;->b()Z
 
     move-result v0
@@ -809,7 +754,6 @@
 
     return-wide v0
 
-    .line 5
     :cond_6
     invoke-direct {p0, p1, v2}, Lcotlinx/coroutines/scheduling/m;->m(Lcotlinx/coroutines/scheduling/m;Z)J
 

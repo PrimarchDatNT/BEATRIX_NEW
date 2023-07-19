@@ -41,10 +41,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/util/AbstractSet;-><init>()V
 
-    .line 2
     invoke-static {p1}, Lcom/google/common/base/t;->E(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -53,7 +51,6 @@
 
     iput-object p1, p0, Lcom/google/common/graph/a0;->a:Ljava/util/Map;
 
-    .line 3
     invoke-static {p2}, Lcom/google/common/base/t;->E(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -66,7 +63,6 @@
 .method static synthetic b(Lcom/google/common/graph/a0;)Ljava/lang/Object;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lcom/google/common/graph/a0;->b:Ljava/lang/Object;
 
     return-object p0
@@ -84,7 +80,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/graph/a0;->a:Ljava/util/Map;
 
     invoke-interface {v0}, Ljava/util/Map;->entrySet()Ljava/util/Set;
@@ -95,7 +90,6 @@
 
     move-result-object v0
 
-    .line 2
     new-instance v1, Lcom/google/common/graph/a0$a;
 
     invoke-direct {v1, p0, v0}, Lcom/google/common/graph/a0$a;-><init>(Lcom/google/common/graph/a0;Ljava/util/Iterator;)V
@@ -110,7 +104,6 @@
         .end annotation
     .end param
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/graph/a0;->b:Ljava/lang/Object;
 
     iget-object v1, p0, Lcom/google/common/graph/a0;->a:Ljava/util/Map;
@@ -129,7 +122,6 @@
 .method public bridge synthetic iterator()Ljava/util/Iterator;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/graph/a0;->c()Lcom/google/common/collect/l2;
 
     move-result-object v0

@@ -18,7 +18,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lorg/jsoup/select/c;-><init>()V
 
     return-void
@@ -29,7 +28,6 @@
 .method public a(Lorg/jsoup/nodes/Element;Lorg/jsoup/nodes/Element;)Z
     .locals 2
 
-    .line 1
     instance-of v0, p1, Lorg/jsoup/nodes/Document;
 
     const/4 v1, 0x0

@@ -63,33 +63,24 @@
 .method public constructor <init>(Lcom/meitu/mtlab/MTAiInterface/MeituAiEngine;ILcom/meitu/mtlab/MTAiInterface/common/MTAiEngineEnableOption;)V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/4 v0, 0x0
 
-    .line 2
     iput-boolean v0, p0, Lf/d/e/a/a;->e:Z
 
-    .line 3
     iput-boolean v0, p0, Lf/d/e/a/a;->f:Z
 
-    .line 4
     iput-boolean v0, p0, Lf/d/e/a/a;->g:Z
 
-    .line 5
     iput-boolean v0, p0, Lf/d/e/a/a;->h:Z
 
-    .line 6
     iput-boolean v0, p0, Lf/d/e/a/a;->i:Z
 
-    .line 7
     iput-object p1, p0, Lf/d/e/a/a;->a:Lcom/meitu/mtlab/MTAiInterface/MeituAiEngine;
 
-    .line 8
     iput p2, p0, Lf/d/e/a/a;->d:I
 
-    .line 9
     iput-object p3, p0, Lf/d/e/a/a;->c:Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineEnableOption;
 
     return-void

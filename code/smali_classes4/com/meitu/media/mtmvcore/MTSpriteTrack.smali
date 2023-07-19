@@ -12,7 +12,6 @@
 .method protected constructor <init>(J)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1, p2}, Lcom/meitu/media/mtmvcore/MTITrack;-><init>(J)V
 
     return-void
@@ -27,7 +26,6 @@
 
     if-eqz p0, :cond_1
 
-    .line 1
     invoke-virtual {p0}, Ljava/lang/String;->isEmpty()Z
 
     move-result v1
@@ -42,7 +40,6 @@
 
     if-nez v1, :cond_1
 
-    .line 2
     invoke-static {p0, p1, p2, p3, p4}, Lcom/meitu/media/mtmvcore/MTSpriteTrack;->createPictureTrack(Ljava/lang/String;JJ)J
 
     move-result-wide p0
@@ -57,7 +54,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_0
     new-instance p2, Lcom/meitu/media/mtmvcore/MTSpriteTrack;
 
@@ -70,7 +66,6 @@
 
     return-object p0
 
-    .line 4
     :cond_1
     new-instance p0, Ljava/lang/IllegalArgumentException;
 
@@ -92,7 +87,6 @@
 
     if-eqz p0, :cond_1
 
-    .line 1
     invoke-virtual {p0}, Ljava/lang/String;->isEmpty()Z
 
     move-result v1
@@ -107,7 +101,6 @@
 
     if-nez v1, :cond_1
 
-    .line 2
     invoke-static {p0}, Lcom/meitu/media/mtmvcore/MTSpriteTrack;->createTextTemplateTrack(Ljava/lang/String;)J
 
     move-result-wide v1
@@ -122,7 +115,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_0
     new-instance p0, Lcom/meitu/media/mtmvcore/MTSpriteTrack;
 
@@ -133,7 +125,6 @@
 
     return-object p0
 
-    .line 4
     :cond_1
     new-instance p0, Ljava/lang/IllegalArgumentException;
 
@@ -169,7 +160,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     invoke-virtual {p1}, Ljava/lang/String;->isEmpty()Z
 
     move-result v1
@@ -184,17 +174,14 @@
 
     if-nez v1, :cond_0
 
-    .line 2
     iget-wide v1, p0, Lcom/meitu/media/mtmvcore/MTITrack;->mNativeContext:J
 
     invoke-static {v1, v2, p1}, Lcom/meitu/media/mtmvcore/MTSpriteTrack;->updateTexture(JLjava/lang/String;)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 4
     :cond_0
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -216,7 +203,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 5
     invoke-virtual {p1}, Ljava/lang/String;->isEmpty()Z
 
     move-result v1
@@ -231,17 +217,14 @@
 
     if-nez v1, :cond_0
 
-    .line 6
     iget-wide v1, p0, Lcom/meitu/media/mtmvcore/MTITrack;->mNativeContext:J
 
     invoke-static {v1, v2, p1, p2, p3}, Lcom/meitu/media/mtmvcore/MTSpriteTrack;->updateTexture(JLjava/lang/String;II)V
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 8
     :cond_0
     new-instance p1, Ljava/lang/IllegalArgumentException;
 

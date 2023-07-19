@@ -29,7 +29,6 @@
 .method constructor <init>(Lcom/google/common/reflect/TypeToken$f;Lcom/google/common/reflect/TypeToken$f;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/common/reflect/TypeToken$f$c;->d:Lcom/google/common/reflect/TypeToken$f;
 
     invoke-direct {p0, p2}, Lcom/google/common/reflect/TypeToken$f$e;-><init>(Lcom/google/common/reflect/TypeToken$f;)V
@@ -51,12 +50,10 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {}, Lcom/google/common/collect/ImmutableList;->builder()Lcom/google/common/collect/ImmutableList$a;
 
     move-result-object v0
 
-    .line 2
     invoke-interface {p1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object p1
@@ -73,7 +70,6 @@
 
     move-result-object v1
 
-    .line 3
     invoke-virtual {p0, v1}, Lcom/google/common/reflect/TypeToken$f$e;->f(Ljava/lang/Object;)Ljava/lang/Class;
 
     move-result-object v2
@@ -84,12 +80,10 @@
 
     if-nez v2, :cond_0
 
-    .line 4
     invoke-virtual {v0, v1}, Lcom/google/common/collect/ImmutableList$a;->i(Ljava/lang/Object;)Lcom/google/common/collect/ImmutableList$a;
 
     goto :goto_0
 
-    .line 5
     :cond_1
     invoke-virtual {v0}, Lcom/google/common/collect/ImmutableList$a;->m()Lcom/google/common/collect/ImmutableList;
 
@@ -112,7 +106,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {}, Lcom/google/common/collect/ImmutableSet;->of()Lcom/google/common/collect/ImmutableSet;
 
     move-result-object p1

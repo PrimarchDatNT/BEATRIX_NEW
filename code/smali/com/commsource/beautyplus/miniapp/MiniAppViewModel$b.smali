@@ -29,7 +29,6 @@
 .method constructor <init>(Lcom/commsource/beautyplus/miniapp/MiniAppViewModel;II)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/beautyplus/miniapp/MiniAppViewModel$b;->c:Lcom/commsource/beautyplus/miniapp/MiniAppViewModel;
 
     iput p2, p0, Lcom/commsource/beautyplus/miniapp/MiniAppViewModel$b;->a:I
@@ -50,7 +49,6 @@
 
     sget v1, Lcom/res/provider/ResSTRING;->error_network:I
 
-    .line 1
     invoke-static {v1}, Lf/k/c/c/f;->r(I)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -67,7 +65,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/beautyplus/miniapp/MiniAppViewModel$b;->c:Lcom/commsource/beautyplus/miniapp/MiniAppViewModel;
 
     invoke-static {v1}, Lcom/commsource/beautyplus/miniapp/MiniAppViewModel;->B(Lcom/commsource/beautyplus/miniapp/MiniAppViewModel;)Landroidx/lifecycle/MutableLiveData;
@@ -96,7 +93,6 @@
 
     invoke-virtual {v1, p1}, Landroidx/lifecycle/MutableLiveData;->postValue(Ljava/lang/Object;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -109,7 +105,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/commsource/util/g2;->a()Landroid/os/Handler;
 
     move-result-object v0
@@ -124,10 +119,8 @@
 
     const-string/jumbo v2, "\u5931\u8d25"
 
-    .line 2
     invoke-static {v0, v1, v2}, Lcom/commsource/statistics/i;->r(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 3
     iget-object v0, p0, Lcom/commsource/beautyplus/miniapp/MiniAppViewModel$b;->c:Lcom/commsource/beautyplus/miniapp/MiniAppViewModel;
 
     invoke-static {v0}, Lcom/commsource/beautyplus/miniapp/MiniAppViewModel;->C(Lcom/commsource/beautyplus/miniapp/MiniAppViewModel;)Landroidx/lifecycle/MutableLiveData;
@@ -138,7 +131,6 @@
 
     invoke-virtual {v0, v1}, Landroidx/lifecycle/MutableLiveData;->postValue(Ljava/lang/Object;)V
 
-    .line 4
     iget-object v0, p0, Lcom/commsource/beautyplus/miniapp/MiniAppViewModel$b;->c:Lcom/commsource/beautyplus/miniapp/MiniAppViewModel;
 
     invoke-static {v0}, Lcom/commsource/beautyplus/miniapp/MiniAppViewModel;->B(Lcom/commsource/beautyplus/miniapp/MiniAppViewModel;)Landroidx/lifecycle/MutableLiveData;
@@ -167,7 +159,6 @@
 
     invoke-virtual {v0, v1}, Landroidx/lifecycle/MutableLiveData;->postValue(Ljava/lang/Object;)V
 
-    .line 5
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -180,7 +171,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -199,10 +189,8 @@
 
     const-string/jumbo v3, "\u6210\u529f"
 
-    .line 1
     invoke-static {v1, v2, v3}, Lcom/commsource/statistics/i;->r(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 2
     iget v1, p0, Lcom/commsource/beautyplus/miniapp/MiniAppViewModel$b;->b:I
 
     const/4 v2, 0x1
@@ -217,7 +205,6 @@
 
     if-eqz v1, :cond_1
 
-    .line 3
     :cond_0
     iget-object v1, p0, Lcom/commsource/beautyplus/miniapp/MiniAppViewModel$b;->c:Lcom/commsource/beautyplus/miniapp/MiniAppViewModel;
 
@@ -229,7 +216,6 @@
 
     invoke-virtual {v1, v3}, Landroidx/lifecycle/MutableLiveData;->postValue(Ljava/lang/Object;)V
 
-    .line 4
     :cond_1
     iget-object v1, p0, Lcom/commsource/beautyplus/miniapp/MiniAppViewModel$b;->c:Lcom/commsource/beautyplus/miniapp/MiniAppViewModel;
 
@@ -259,7 +245,6 @@
 
     invoke-virtual {v1, v2}, Landroidx/lifecycle/MutableLiveData;->postValue(Ljava/lang/Object;)V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

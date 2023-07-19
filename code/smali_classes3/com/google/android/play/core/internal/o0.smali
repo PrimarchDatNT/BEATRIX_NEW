@@ -16,7 +16,6 @@
 .method static constructor <clinit>()V
     .locals 0
 
-    .line 1
     invoke-static {}, Lcom/google/android/play/core/internal/o0;->b()V
 
     return-void
@@ -48,7 +47,6 @@
 
     aput-object p3, v1, v2
 
-    .line 1
     invoke-static {p0, p1, v1}, Lcom/google/android/play/core/internal/o0;->r(Ljava/lang/Object;Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
 
     move-result-object p3
@@ -137,7 +135,6 @@
 .method private static synthetic b()V
     .locals 11
 
-    .line 1
     new-instance v8, Ln/a/b/c/e;
 
     const-class v0, Lcom/google/android/play/core/internal/o0;
@@ -299,7 +296,6 @@
 
     aput-object p7, v1, p5
 
-    .line 1
     invoke-static {p0, p1, v1}, Lcom/google/android/play/core/internal/o0;->r(Ljava/lang/Object;Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
 
     move-result-object p7
@@ -404,7 +400,6 @@
     :try_start_0
     new-array v2, v1, [Ljava/lang/Class;
 
-    .line 1
     invoke-virtual {p0, v2}, Ljava/lang/Class;->getDeclaredConstructor([Ljava/lang/Class;)Ljava/lang/reflect/Constructor;
 
     move-result-object v2
@@ -468,7 +463,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/google/android/play/core/internal/j0;
 
     invoke-static {p0, p1}, Lcom/google/android/play/core/internal/o0;->t(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/reflect/Field;
@@ -495,7 +489,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/google/android/play/core/internal/j0;
 
     invoke-static {p0, p1}, Lcom/google/android/play/core/internal/o0;->t(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/reflect/Field;
@@ -536,7 +529,6 @@
 
     const-string p2, "isDexOptNeeded"
 
-    .line 1
     invoke-static {p0, p2, v1}, Lcom/google/android/play/core/internal/o0;->s(Ljava/lang/Class;Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
 
     move-result-object v1
@@ -653,7 +645,6 @@
 
     const-string p4, "optimizedPathFor"
 
-    .line 1
     invoke-static {p0, p4, v1}, Lcom/google/android/play/core/internal/o0;->s(Ljava/lang/Class;Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
 
     move-result-object v1
@@ -738,7 +729,6 @@
 .method public static i(Landroid/content/pm/PackageManager;Landroid/content/ComponentName;I)V
     .locals 10
 
-    .line 1
     invoke-virtual {p0, p1}, Landroid/content/pm/PackageManager;->getComponentEnabledSetting(Landroid/content/ComponentName;)I
 
     move-result v0
@@ -871,7 +861,6 @@
 
     return-void
 
-    .line 1
     :cond_0
     new-instance p0, Ljava/lang/IllegalStateException;
 
@@ -897,7 +886,6 @@
 .method static final synthetic k(Ljava/lang/reflect/Method;Ljava/lang/Object;[Ljava/lang/Object;Lorg/aspectj/lang/c;)Ljava/lang/Object;
     .locals 0
 
-    .line 1
     invoke-virtual {p0, p1, p2}, Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p0
@@ -908,7 +896,6 @@
 .method static final synthetic l(Ljava/lang/reflect/Method;Ljava/lang/Object;[Ljava/lang/Object;Lorg/aspectj/lang/c;)Ljava/lang/Object;
     .locals 0
 
-    .line 1
     invoke-virtual {p0, p1, p2}, Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p0
@@ -919,7 +906,6 @@
 .method static final synthetic m(Ljava/lang/reflect/Method;Ljava/lang/Object;[Ljava/lang/Object;Lorg/aspectj/lang/c;)Ljava/lang/Object;
     .locals 0
 
-    .line 1
     invoke-virtual {p0, p1, p2}, Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p0
@@ -930,7 +916,6 @@
 .method static final synthetic n(Ljava/lang/reflect/Method;Ljava/lang/Object;[Ljava/lang/Object;Lorg/aspectj/lang/c;)Ljava/lang/Object;
     .locals 0
 
-    .line 1
     invoke-virtual {p0, p1, p2}, Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p0
@@ -948,7 +933,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p0}, Ljava/util/Objects;->requireNonNull(Ljava/lang/Object;)Ljava/lang/Object;
 
     return-void
@@ -966,7 +950,6 @@
 
     const-string v0, "Cannot return null from a non-@Nullable @Provides method"
 
-    .line 1
     invoke-static {p0, v0}, Ljava/util/Objects;->requireNonNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
 
     return-void
@@ -984,7 +967,6 @@
 
     new-array v0, v0, [B
 
-    .line 1
     new-instance v1, Ljava/io/BufferedInputStream;
 
     const/16 v2, 0x1000
@@ -1400,7 +1382,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
     move-result-object p0
@@ -1434,7 +1415,6 @@
 
     if-eqz v0, :cond_1
 
-    .line 1
     :try_start_0
     invoke-virtual {v0, p1, p2}, Ljava/lang/Class;->getDeclaredMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
 
@@ -1495,7 +1475,6 @@
 .method private static t(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/reflect/Field;
     .locals 4
 
-    .line 1
     invoke-virtual {p0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
     move-result-object v0
@@ -1583,7 +1562,6 @@
 
     const/16 p4, 0x4000
 
-    .line 1
     :try_start_0
     invoke-static {p3, p4}, Ljava/lang/Math;->min(II)I
 
@@ -1658,7 +1636,6 @@
 
     if-gtz v2, :cond_3
 
-    .line 1
     :try_start_0
     new-instance v2, Lcom/google/android/play/core/internal/x0;
 

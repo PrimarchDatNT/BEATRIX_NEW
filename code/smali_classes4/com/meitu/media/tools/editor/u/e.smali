@@ -27,31 +27,24 @@
 .method public constructor <init>(Lcom/meitu/media/tools/editor/u/i;ZZ)V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Lcom/meitu/media/tools/editor/u/a;-><init>()V
 
-    .line 2
     sget-object v0, Landroid/opengl/EGL14;->EGL_NO_DISPLAY:Landroid/opengl/EGLDisplay;
 
     iput-object v0, p0, Lcom/meitu/media/tools/editor/u/e;->j:Landroid/opengl/EGLDisplay;
 
-    .line 3
     sget-object v0, Landroid/opengl/EGL14;->EGL_NO_CONTEXT:Landroid/opengl/EGLContext;
 
     iput-object v0, p0, Lcom/meitu/media/tools/editor/u/e;->k:Landroid/opengl/EGLContext;
 
-    .line 4
     sget-object v0, Landroid/opengl/EGL14;->EGL_NO_SURFACE:Landroid/opengl/EGLSurface;
 
     iput-object v0, p0, Lcom/meitu/media/tools/editor/u/e;->l:Landroid/opengl/EGLSurface;
 
-    .line 5
     iput-object p1, p0, Lcom/meitu/media/tools/editor/u/e;->m:Lcom/meitu/media/tools/editor/u/i;
 
-    .line 6
     invoke-virtual {p0, p2}, Lcom/meitu/media/tools/editor/u/a;->i(Z)V
 
-    .line 7
     invoke-virtual {p0, p3}, Lcom/meitu/media/tools/editor/u/a;->h(Z)V
 
     return-void
@@ -66,7 +59,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/media/tools/editor/u/e;->j:Landroid/opengl/EGLDisplay;
 
     iget-object v2, p0, Lcom/meitu/media/tools/editor/u/e;->l:Landroid/opengl/EGLSurface;
@@ -93,14 +85,12 @@
 
     const/4 v1, 0x0
 
-    .line 1
     invoke-static {v1}, Landroid/opengl/EGL14;->eglGetDisplay(I)Landroid/opengl/EGLDisplay;
 
     move-result-object v2
 
     iput-object v2, p0, Lcom/meitu/media/tools/editor/u/e;->j:Landroid/opengl/EGLDisplay;
 
-    .line 2
     sget-object v3, Landroid/opengl/EGL14;->EGL_NO_DISPLAY:Landroid/opengl/EGLDisplay;
 
     if-eq v2, v3, :cond_5
@@ -111,7 +101,6 @@
 
     const/4 v5, 0x1
 
-    .line 3
     invoke-static {v2, v4, v1, v4, v5}, Landroid/opengl/EGL14;->eglInitialize(Landroid/opengl/EGLDisplay;[II[II)Z
 
     move-result v2
@@ -126,7 +115,6 @@
 
     aput v2, v7, v1
 
-    .line 4
     iget v2, p0, Lcom/meitu/media/tools/editor/u/a;->b:I
 
     aput v2, v7, v5
@@ -197,7 +185,6 @@
 
     aput v4, v7, v8
 
-    .line 5
     iget-boolean v4, p0, Lcom/meitu/media/tools/editor/u/a;->i:Z
 
     if-eqz v4, :cond_0
@@ -213,7 +200,6 @@
 
     new-array v12, v5, [I
 
-    .line 6
     iget-object v6, p0, Lcom/meitu/media/tools/editor/u/e;->j:Landroid/opengl/EGLDisplay;
 
     const/4 v8, 0x0
@@ -234,10 +220,8 @@
 
     new-array v3, v3, [I
 
-    .line 7
     fill-array-data v3, :array_0
 
-    .line 8
     iget-object v4, p0, Lcom/meitu/media/tools/editor/u/e;->j:Landroid/opengl/EGLDisplay;
 
     aget-object v5, v2, v1
@@ -252,15 +236,12 @@
 
     const-string v3, "eglCreateContext"
 
-    .line 9
     invoke-virtual {p0, v3}, Lcom/meitu/media/tools/editor/u/e;->g(Ljava/lang/String;)V
 
-    .line 10
     iget-object v3, p0, Lcom/meitu/media/tools/editor/u/e;->k:Landroid/opengl/EGLContext;
 
     if-eqz v3, :cond_2
 
-    .line 11
     iget-object v3, p0, Lcom/meitu/media/tools/editor/u/e;->m:Lcom/meitu/media/tools/editor/u/i;
 
     invoke-virtual {v3}, Lcom/meitu/media/tools/editor/u/i;->c()Ljava/lang/Object;
@@ -277,20 +258,16 @@
 
     const-string v1, "eglCreatePbufferSurface"
 
-    .line 12
     invoke-virtual {p0, v1}, Lcom/meitu/media/tools/editor/u/e;->g(Ljava/lang/String;)V
 
-    .line 13
     iget-object v1, p0, Lcom/meitu/media/tools/editor/u/e;->l:Landroid/opengl/EGLSurface;
 
     if-eqz v1, :cond_1
 
-    .line 14
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 15
     :cond_1
     new-instance v1, Ljava/lang/RuntimeException;
 
@@ -302,7 +279,6 @@
 
     throw v1
 
-    .line 16
     :cond_2
     new-instance v1, Ljava/lang/RuntimeException;
 
@@ -314,7 +290,6 @@
 
     throw v1
 
-    .line 17
     :cond_3
     new-instance v1, Ljava/lang/RuntimeException;
 
@@ -329,10 +304,8 @@
     :cond_4
     const/4 v1, 0x0
 
-    .line 18
     iput-object v1, p0, Lcom/meitu/media/tools/editor/u/e;->j:Landroid/opengl/EGLDisplay;
 
-    .line 19
     new-instance v1, Ljava/lang/RuntimeException;
 
     const-string v2, "unable to initialize EGL14"
@@ -343,7 +316,6 @@
 
     throw v1
 
-    .line 20
     :cond_5
     new-instance v1, Ljava/lang/RuntimeException;
 
@@ -370,7 +342,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/media/tools/editor/u/e;->j:Landroid/opengl/EGLDisplay;
 
     iget-object v2, p0, Lcom/meitu/media/tools/editor/u/e;->l:Landroid/opengl/EGLSurface;
@@ -383,10 +354,8 @@
 
     const-string v2, "[GLContextAPI18]WARNING: swapBuffers() failed "
 
-    .line 2
     invoke-static {v2}, Lcom/meitu/media/tools/utils/debug/Logger;->i(Ljava/lang/String;)V
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -400,7 +369,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/media/tools/editor/u/e;->j:Landroid/opengl/EGLDisplay;
 
     iget-object v2, p0, Lcom/meitu/media/tools/editor/u/e;->l:Landroid/opengl/EGLSurface;
@@ -413,12 +381,10 @@
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 3
     :cond_0
     new-instance v1, Ljava/lang/RuntimeException;
 
@@ -438,59 +404,49 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/media/tools/editor/u/e;->j:Landroid/opengl/EGLDisplay;
 
     sget-object v2, Landroid/opengl/EGL14;->EGL_NO_DISPLAY:Landroid/opengl/EGLDisplay;
 
     if-eq v1, v2, :cond_0
 
-    .line 2
     sget-object v2, Landroid/opengl/EGL14;->EGL_NO_SURFACE:Landroid/opengl/EGLSurface;
 
     sget-object v3, Landroid/opengl/EGL14;->EGL_NO_CONTEXT:Landroid/opengl/EGLContext;
 
     invoke-static {v1, v2, v2, v3}, Landroid/opengl/EGL14;->eglMakeCurrent(Landroid/opengl/EGLDisplay;Landroid/opengl/EGLSurface;Landroid/opengl/EGLSurface;Landroid/opengl/EGLContext;)Z
 
-    .line 3
     iget-object v1, p0, Lcom/meitu/media/tools/editor/u/e;->j:Landroid/opengl/EGLDisplay;
 
     iget-object v2, p0, Lcom/meitu/media/tools/editor/u/e;->l:Landroid/opengl/EGLSurface;
 
     invoke-static {v1, v2}, Landroid/opengl/EGL14;->eglDestroySurface(Landroid/opengl/EGLDisplay;Landroid/opengl/EGLSurface;)Z
 
-    .line 4
     iget-object v1, p0, Lcom/meitu/media/tools/editor/u/e;->j:Landroid/opengl/EGLDisplay;
 
     iget-object v2, p0, Lcom/meitu/media/tools/editor/u/e;->k:Landroid/opengl/EGLContext;
 
     invoke-static {v1, v2}, Landroid/opengl/EGL14;->eglDestroyContext(Landroid/opengl/EGLDisplay;Landroid/opengl/EGLContext;)Z
 
-    .line 5
     invoke-static {}, Landroid/opengl/EGL14;->eglReleaseThread()Z
 
-    .line 6
     iget-object v1, p0, Lcom/meitu/media/tools/editor/u/e;->j:Landroid/opengl/EGLDisplay;
 
     invoke-static {v1}, Landroid/opengl/EGL14;->eglTerminate(Landroid/opengl/EGLDisplay;)Z
 
-    .line 7
     :cond_0
     sget-object v1, Landroid/opengl/EGL14;->EGL_NO_DISPLAY:Landroid/opengl/EGLDisplay;
 
     iput-object v1, p0, Lcom/meitu/media/tools/editor/u/e;->j:Landroid/opengl/EGLDisplay;
 
-    .line 8
     sget-object v1, Landroid/opengl/EGL14;->EGL_NO_CONTEXT:Landroid/opengl/EGLContext;
 
     iput-object v1, p0, Lcom/meitu/media/tools/editor/u/e;->k:Landroid/opengl/EGLContext;
 
-    .line 9
     sget-object v1, Landroid/opengl/EGL14;->EGL_NO_SURFACE:Landroid/opengl/EGLSurface;
 
     iput-object v1, p0, Lcom/meitu/media/tools/editor/u/e;->l:Landroid/opengl/EGLSurface;
 
-    .line 10
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -503,7 +459,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/media/tools/editor/u/e;->m:Lcom/meitu/media/tools/editor/u/i;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -518,7 +473,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Landroid/opengl/EGL14;->eglGetError()I
 
     move-result v1
@@ -527,12 +481,10 @@
 
     if-ne v1, v2, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 3
     :cond_0
     new-instance v2, Ljava/lang/RuntimeException;
 
@@ -570,7 +522,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     instance-of v1, p1, Landroid/view/Surface;
 
     if-nez v1, :cond_1
@@ -581,7 +532,6 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     new-instance p2, Ljava/lang/RuntimeException;
 
@@ -617,7 +567,6 @@
 
     aput v2, v1, v3
 
-    .line 3
     iget-object v2, p0, Lcom/meitu/media/tools/editor/u/e;->j:Landroid/opengl/EGLDisplay;
 
     invoke-static {v2, p2, p1, v1, v3}, Landroid/opengl/EGL14;->eglCreateWindowSurface(Landroid/opengl/EGLDisplay;Landroid/opengl/EGLConfig;Ljava/lang/Object;[II)Landroid/opengl/EGLSurface;
@@ -626,17 +575,14 @@
 
     const-string p2, "eglCreateWindowSurface"
 
-    .line 4
     invoke-virtual {p0, p2}, Lcom/meitu/media/tools/editor/u/e;->g(Ljava/lang/String;)V
 
     if-eqz p1, :cond_2
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p1
 
-    .line 6
     :cond_2
     new-instance p1, Ljava/lang/RuntimeException;
 

@@ -37,12 +37,10 @@
     .annotation build Lcom/google/android/gms/common/annotation/a;
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/google/android/gms/common/data/a;-><init>(Lcom/google/android/gms/common/data/DataHolder;)V
 
     const/4 p1, 0x0
 
-    .line 2
     iput-boolean p1, p0, Lcom/google/android/gms/common/data/i;->b:Z
 
     return-void
@@ -51,23 +49,19 @@
 .method private final h()V
     .locals 7
 
-    .line 1
     monitor-enter p0
 
-    .line 2
     :try_start_0
     iget-boolean v0, p0, Lcom/google/android/gms/common/data/i;->b:Z
 
     if-nez v0, :cond_3
 
-    .line 3
     iget-object v0, p0, Lcom/google/android/gms/common/data/a;->a:Lcom/google/android/gms/common/data/DataHolder;
 
     invoke-virtual {v0}, Lcom/google/android/gms/common/data/DataHolder;->getCount()I
 
     move-result v0
 
-    .line 4
     new-instance v1, Ljava/util/ArrayList;
 
     invoke-direct {v1}, Ljava/util/ArrayList;-><init>()V
@@ -80,26 +74,22 @@
 
     const/4 v3, 0x0
 
-    .line 5
     invoke-static {v3}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v4
 
     invoke-virtual {v1, v4}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    .line 6
     invoke-virtual {p0}, Lcom/google/android/gms/common/data/i;->e()Ljava/lang/String;
 
     move-result-object v1
 
-    .line 7
     iget-object v4, p0, Lcom/google/android/gms/common/data/a;->a:Lcom/google/android/gms/common/data/DataHolder;
 
     invoke-virtual {v4, v3}, Lcom/google/android/gms/common/data/DataHolder;->y0(I)I
 
     move-result v4
 
-    .line 8
     iget-object v5, p0, Lcom/google/android/gms/common/data/a;->a:Lcom/google/android/gms/common/data/DataHolder;
 
     invoke-virtual {v5, v1, v3, v4}, Lcom/google/android/gms/common/data/DataHolder;->w0(Ljava/lang/String;II)Ljava/lang/String;
@@ -111,14 +101,12 @@
     :goto_0
     if-ge v4, v0, :cond_2
 
-    .line 9
     iget-object v5, p0, Lcom/google/android/gms/common/data/a;->a:Lcom/google/android/gms/common/data/DataHolder;
 
     invoke-virtual {v5, v4}, Lcom/google/android/gms/common/data/DataHolder;->y0(I)I
 
     move-result v5
 
-    .line 10
     iget-object v6, p0, Lcom/google/android/gms/common/data/a;->a:Lcom/google/android/gms/common/data/DataHolder;
 
     invoke-virtual {v6, v1, v4, v5}, Lcom/google/android/gms/common/data/DataHolder;->w0(Ljava/lang/String;II)Ljava/lang/String;
@@ -127,14 +115,12 @@
 
     if-eqz v6, :cond_1
 
-    .line 11
     invoke-virtual {v6, v3}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v5
 
     if-nez v5, :cond_0
 
-    .line 12
     iget-object v3, p0, Lcom/google/android/gms/common/data/i;->c:Ljava/util/ArrayList;
 
     invoke-static {v4}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -150,7 +136,6 @@
 
     goto :goto_0
 
-    .line 13
     :cond_1
     new-instance v0, Ljava/lang/NullPointerException;
 
@@ -194,11 +179,9 @@
 
     throw v0
 
-    .line 14
     :cond_2
     iput-boolean v2, p0, Lcom/google/android/gms/common/data/i;->b:Z
 
-    .line 15
     :cond_3
     monitor-exit p0
 
@@ -219,7 +202,6 @@
 
     if-ltz p1, :cond_0
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/common/data/i;->c:Ljava/util/ArrayList;
 
     invoke-virtual {v0}, Ljava/util/ArrayList;->size()I
@@ -228,7 +210,6 @@
 
     if-ge p1, v0, :cond_0
 
-    .line 2
     iget-object v0, p0, Lcom/google/android/gms/common/data/i;->c:Ljava/util/ArrayList;
 
     invoke-virtual {v0, p1}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
@@ -243,7 +224,6 @@
 
     return p1
 
-    .line 3
     :cond_0
     new-instance v0, Ljava/lang/IllegalArgumentException;
 
@@ -311,10 +291,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Lcom/google/android/gms/common/data/i;->h()V
 
-    .line 2
     invoke-direct {p0, p1}, Lcom/google/android/gms/common/data/i;->i(I)I
 
     move-result v0
@@ -323,7 +301,6 @@
 
     if-ltz p1, :cond_3
 
-    .line 3
     iget-object v2, p0, Lcom/google/android/gms/common/data/i;->c:Ljava/util/ArrayList;
 
     invoke-virtual {v2}, Ljava/util/ArrayList;->size()I
@@ -334,7 +311,6 @@
 
     goto :goto_1
 
-    .line 4
     :cond_0
     iget-object v2, p0, Lcom/google/android/gms/common/data/i;->c:Ljava/util/ArrayList;
 
@@ -348,7 +324,6 @@
 
     if-ne p1, v2, :cond_1
 
-    .line 5
     iget-object v2, p0, Lcom/google/android/gms/common/data/a;->a:Lcom/google/android/gms/common/data/DataHolder;
 
     invoke-virtual {v2}, Lcom/google/android/gms/common/data/DataHolder;->getCount()I
@@ -369,7 +344,6 @@
 
     goto :goto_0
 
-    .line 6
     :cond_1
     iget-object v2, p0, Lcom/google/android/gms/common/data/i;->c:Ljava/util/ArrayList;
 
@@ -402,26 +376,22 @@
 
     if-ne v2, v3, :cond_2
 
-    .line 7
     invoke-direct {p0, p1}, Lcom/google/android/gms/common/data/i;->i(I)I
 
     move-result p1
 
-    .line 8
     iget-object v3, p0, Lcom/google/android/gms/common/data/a;->a:Lcom/google/android/gms/common/data/DataHolder;
 
     invoke-virtual {v3, p1}, Lcom/google/android/gms/common/data/DataHolder;->y0(I)I
 
     move-result v3
 
-    .line 9
     invoke-virtual {p0}, Lcom/google/android/gms/common/data/i;->b()Ljava/lang/String;
 
     move-result-object v4
 
     if-eqz v4, :cond_2
 
-    .line 10
     iget-object v5, p0, Lcom/google/android/gms/common/data/a;->a:Lcom/google/android/gms/common/data/DataHolder;
 
     invoke-virtual {v5, v4, p1, v3}, Lcom/google/android/gms/common/data/DataHolder;->w0(Ljava/lang/String;II)Ljava/lang/String;
@@ -435,7 +405,6 @@
     :cond_2
     move v1, v2
 
-    .line 11
     :cond_3
     :goto_1
     invoke-virtual {p0, v0, v1}, Lcom/google/android/gms/common/data/i;->c(II)Ljava/lang/Object;
@@ -450,10 +419,8 @@
     .annotation build Lcom/google/android/gms/common/annotation/a;
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Lcom/google/android/gms/common/data/i;->h()V
 
-    .line 2
     iget-object v0, p0, Lcom/google/android/gms/common/data/i;->c:Ljava/util/ArrayList;
 
     invoke-virtual {v0}, Ljava/util/ArrayList;->size()I

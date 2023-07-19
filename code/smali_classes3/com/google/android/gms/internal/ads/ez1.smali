@@ -37,12 +37,10 @@
 
     const-string v7, "^projects/%s/locations/%s/keyRings/%s/cryptoKeys/%s$"
 
-    .line 1
     invoke-static {v7, v1}, Ljava/lang/String;->format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object v1
 
-    .line 2
     invoke-static {v1, v5}, Ljava/util/regex/Pattern;->compile(Ljava/lang/String;I)Ljava/util/regex/Pattern;
 
     move-result-object v1
@@ -65,12 +63,10 @@
 
     const-string v0, "^projects/%s/locations/%s/keyRings/%s/cryptoKeys/%s/cryptoKeyVersions/%s$"
 
-    .line 3
     invoke-static {v0, v1}, Ljava/lang/String;->format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object v0
 
-    .line 4
     invoke-static {v0, v5}, Ljava/util/regex/Pattern;->compile(Ljava/lang/String;I)Ljava/util/regex/Pattern;
 
     move-result-object v0
@@ -98,7 +94,6 @@
 
     goto :goto_0
 
-    .line 1
     :cond_0
     new-instance v0, Ljava/security/InvalidAlgorithmParameterException;
 
@@ -110,7 +105,6 @@
 
     shl-int/lit8 p0, p0, 0x3
 
-    .line 2
     invoke-static {p0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object p0
@@ -119,7 +113,6 @@
 
     const-string p0, "invalid key size %d; only 128-bit and 256-bit AES keys are supported"
 
-    .line 3
     invoke-static {p0, v1}, Ljava/lang/String;->format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object p0
@@ -147,7 +140,6 @@
 
     return-void
 
-    .line 1
     :cond_0
     new-instance p1, Ljava/security/GeneralSecurityException;
 
@@ -155,7 +147,6 @@
 
     new-array v0, v0, [Ljava/lang/Object;
 
-    .line 2
     invoke-static {p0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object p0
@@ -174,7 +165,6 @@
 
     const-string p0, "key has version %d; only keys with version in range [0..%d] are supported"
 
-    .line 3
     invoke-static {p0, v0}, Ljava/lang/String;->format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object p0

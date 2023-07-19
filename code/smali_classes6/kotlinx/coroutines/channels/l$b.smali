@@ -40,7 +40,6 @@
 .method static constructor <clinit>()V
     .locals 4
 
-    .line 1
     new-instance v0, Lcotlinx/coroutines/channels/l$b;
 
     invoke-direct {v0}, Lcotlinx/coroutines/channels/l$b;-><init>()V
@@ -55,7 +54,6 @@
 
     const v3, 0x7ffffffe
 
-    .line 2
     invoke-static {v0, v1, v2, v3}, Lcotlinx/coroutines/internal/e0;->b(Ljava/lang/String;III)I
 
     move-result v0
@@ -68,7 +66,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -79,7 +76,6 @@
 .method public final a()I
     .locals 1
 
-    .line 1
     sget v0, Lcotlinx/coroutines/channels/l$b;->g:I
 
     return v0

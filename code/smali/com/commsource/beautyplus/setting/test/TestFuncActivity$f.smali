@@ -44,7 +44,6 @@
 
     if-eqz p2, :cond_0
 
-    .line 1
     new-instance p2, Lcom/commsource/util/q2/b;
 
     iget-object v0, p0, Lcom/commsource/beautyplus/setting/test/TestFuncActivity$f;->a:Lcom/commsource/beautyplus/setting/test/TestFuncActivity;
@@ -53,7 +52,6 @@
 
     const-string v0, "android.permission.READ_EXTERNAL_STORAGE"
 
-    .line 2
     filled-new-array {v0}, [Ljava/lang/String;
 
     move-result-object v0
@@ -62,7 +60,6 @@
 
     move-result-object p2
 
-    .line 3
     new-instance v0, Lcom/commsource/beautyplus/setting/test/TestFuncActivity$f$a;
 
     invoke-direct {v0, p0}, Lcom/commsource/beautyplus/setting/test/TestFuncActivity$f$a;-><init>(Lcom/commsource/beautyplus/setting/test/TestFuncActivity$f;)V
@@ -71,7 +68,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_0
     sget-object p2, Lcom/pixocial/uichecker/a;->a:Lcom/pixocial/uichecker/a;
 
@@ -79,10 +75,8 @@
 
     invoke-virtual {p2, v0}, Lcom/pixocial/uichecker/a;->a(Z)V
 
-    .line 5
     invoke-static {v0}, Lf/d/i/e;->c4(Z)V
 
-    .line 6
     :goto_0
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

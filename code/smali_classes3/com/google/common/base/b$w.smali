@@ -22,10 +22,8 @@
 .method constructor <init>(Lcom/google/common/base/b;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/google/common/base/b;-><init>()V
 
-    .line 2
     invoke-static {p1}, Lcom/google/common/base/t;->E(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -42,7 +40,6 @@
 .method public B(C)Z
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/base/b$w;->b:Lcom/google/common/base/b;
 
     invoke-virtual {v0, p1}, Lcom/google/common/base/b;->B(C)Z
@@ -57,7 +54,6 @@
 .method public C(Ljava/lang/CharSequence;)Z
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/base/b$w;->b:Lcom/google/common/base/b;
 
     invoke-virtual {v0, p1}, Lcom/google/common/base/b;->E(Ljava/lang/CharSequence;)Z
@@ -70,7 +66,6 @@
 .method public E(Ljava/lang/CharSequence;)Z
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/base/b$w;->b:Lcom/google/common/base/b;
 
     invoke-virtual {v0, p1}, Lcom/google/common/base/b;->C(Ljava/lang/CharSequence;)Z
@@ -83,7 +78,6 @@
 .method public F()Lcom/google/common/base/b;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/base/b$w;->b:Lcom/google/common/base/b;
 
     return-object v0
@@ -94,12 +88,10 @@
     .annotation build Lf/f/e/a/c;
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/util/BitSet;
 
     invoke-direct {v0}, Ljava/util/BitSet;-><init>()V
 
-    .line 2
     iget-object v1, p0, Lcom/google/common/base/b$w;->b:Lcom/google/common/base/b;
 
     invoke-virtual {v1, v0}, Lcom/google/common/base/b;->Q(Ljava/util/BitSet;)V
@@ -108,10 +100,8 @@
 
     const/high16 v2, 0x10000
 
-    .line 3
     invoke-virtual {v0, v1, v2}, Ljava/util/BitSet;->flip(II)V
 
-    .line 4
     invoke-virtual {p1, v0}, Ljava/util/BitSet;->or(Ljava/util/BitSet;)V
 
     return-void
@@ -122,7 +112,6 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    .line 1
     check-cast p1, Ljava/lang/Character;
 
     invoke-super {p0, p1}, Lcom/google/common/base/b;->e(Ljava/lang/Character;)Z
@@ -135,7 +124,6 @@
 .method public i(Ljava/lang/CharSequence;)I
     .locals 2
 
-    .line 1
     invoke-interface {p1}, Ljava/lang/CharSequence;->length()I
 
     move-result v0
@@ -154,7 +142,6 @@
 .method public toString()Ljava/lang/String;
     .locals 2
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V

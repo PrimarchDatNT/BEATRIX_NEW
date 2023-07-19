@@ -44,13 +44,10 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/google/android/gms/internal/ads/ds1;->a:Ljava/lang/Object;
 
-    .line 3
     array-length p1, p2
 
     invoke-static {p2, p1}, Ljava/util/Arrays;->copyOf([BI)[B
@@ -59,13 +56,10 @@
 
     iput-object p1, p0, Lcom/google/android/gms/internal/ads/ds1;->b:[B
 
-    .line 4
     iput-object p3, p0, Lcom/google/android/gms/internal/ads/ds1;->c:Lcom/google/android/gms/internal/ads/zzebg;
 
-    .line 5
     iput-object p4, p0, Lcom/google/android/gms/internal/ads/ds1;->d:Lcom/google/android/gms/internal/ads/zzebz;
 
-    .line 6
     iput p5, p0, Lcom/google/android/gms/internal/ads/ds1;->e:I
 
     return-void
@@ -81,7 +75,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/ds1;->a:Ljava/lang/Object;
 
     return-object v0
@@ -90,7 +83,6 @@
 .method public final b()Lcom/google/android/gms/internal/ads/zzebg;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/ds1;->c:Lcom/google/android/gms/internal/ads/zzebg;
 
     return-object v0
@@ -99,7 +91,6 @@
 .method public final c()Lcom/google/android/gms/internal/ads/zzebz;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/ds1;->d:Lcom/google/android/gms/internal/ads/zzebz;
 
     return-object v0
@@ -108,7 +99,6 @@
 .method public final d()[B
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/ds1;->b:[B
 
     if-nez v0, :cond_0
@@ -117,7 +107,6 @@
 
     return-object v0
 
-    .line 2
     :cond_0
     array-length v1, v0
 

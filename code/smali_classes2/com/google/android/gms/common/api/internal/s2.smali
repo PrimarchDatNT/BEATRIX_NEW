@@ -52,24 +52,20 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     new-instance v0, Ljava/lang/ref/WeakReference;
 
     invoke-direct {v0, p2}, Ljava/lang/ref/WeakReference;-><init>(Ljava/lang/Object;)V
 
     iput-object v0, p0, Lcom/google/android/gms/common/api/internal/s2;->b:Ljava/lang/ref/WeakReference;
 
-    .line 3
     new-instance p2, Ljava/lang/ref/WeakReference;
 
     invoke-direct {p2, p1}, Ljava/lang/ref/WeakReference;-><init>(Ljava/lang/Object;)V
 
     iput-object p2, p0, Lcom/google/android/gms/common/api/internal/s2;->a:Ljava/lang/ref/WeakReference;
 
-    .line 4
     new-instance p1, Ljava/lang/ref/WeakReference;
 
     invoke-direct {p1, p3}, Ljava/lang/ref/WeakReference;-><init>(Ljava/lang/Object;)V
@@ -84,7 +80,6 @@
 
     const/4 p2, 0x0
 
-    .line 5
     invoke-direct {p0, p1, p2, p3}, Lcom/google/android/gms/common/api/internal/s2;-><init>(Lcom/google/android/gms/common/api/internal/BasePendingResult;Lcom/google/android/gms/common/api/w;Landroid/os/IBinder;)V
 
     return-void
@@ -93,7 +88,6 @@
 .method private final b()V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/common/api/internal/s2;->a:Ljava/lang/ref/WeakReference;
 
     invoke-virtual {v0}, Ljava/lang/ref/WeakReference;->get()Ljava/lang/Object;
@@ -102,7 +96,6 @@
 
     check-cast v0, Lcom/google/android/gms/common/api/internal/BasePendingResult;
 
-    .line 2
     iget-object v1, p0, Lcom/google/android/gms/common/api/internal/s2;->b:Ljava/lang/ref/WeakReference;
 
     invoke-virtual {v1}, Ljava/lang/ref/WeakReference;->get()Ljava/lang/Object;
@@ -115,7 +108,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 3
     invoke-virtual {v0}, Lcom/google/android/gms/common/api/k;->k()Ljava/lang/Integer;
 
     move-result-object v0
@@ -126,7 +118,6 @@
 
     invoke-virtual {v1, v0}, Lcom/google/android/gms/common/api/w;->a(I)V
 
-    .line 4
     :cond_0
     iget-object v0, p0, Lcom/google/android/gms/common/api/internal/s2;->c:Ljava/lang/ref/WeakReference;
 
@@ -140,7 +131,6 @@
 
     const/4 v1, 0x0
 
-    .line 5
     :try_start_0
     invoke-interface {v0, p0, v1}, Landroid/os/IBinder;->unlinkToDeath(Landroid/os/IBinder$DeathRecipient;I)Z
     :try_end_0
@@ -163,7 +153,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Lcom/google/android/gms/common/api/internal/s2;->b()V
 
     return-void
@@ -172,7 +161,6 @@
 .method public final binderDied()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/google/android/gms/common/api/internal/s2;->b()V
 
     return-void

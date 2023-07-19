@@ -19,7 +19,6 @@
 .method constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lio/grpc/k1$a;-><init>()V
 
     return-void
@@ -30,7 +29,6 @@
 .method public a()V
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lio/grpc/f1;->f()Lio/grpc/k1$a;
 
     move-result-object v0
@@ -43,7 +41,6 @@
 .method public b()V
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lio/grpc/f1;->f()Lio/grpc/k1$a;
 
     move-result-object v0
@@ -56,7 +53,6 @@
 .method public c()V
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lio/grpc/f1;->f()Lio/grpc/k1$a;
 
     move-result-object v0
@@ -69,7 +65,6 @@
 .method public e()V
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lio/grpc/f1;->f()Lio/grpc/k1$a;
 
     move-result-object v0
@@ -92,7 +87,6 @@
 .method public toString()Ljava/lang/String;
     .locals 3
 
-    .line 1
     invoke-static {p0}, Lcom/google/common/base/p;->c(Ljava/lang/Object;)Lcom/google/common/base/p$b;
 
     move-result-object v0

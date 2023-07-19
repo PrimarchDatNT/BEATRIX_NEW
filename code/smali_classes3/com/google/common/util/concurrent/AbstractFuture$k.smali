@@ -34,7 +34,6 @@
 .method static constructor <clinit>()V
     .locals 2
 
-    .line 1
     new-instance v0, Lcom/google/common/util/concurrent/AbstractFuture$k;
 
     const/4 v1, 0x0
@@ -49,10 +48,8 @@
 .method constructor <init>()V
     .locals 2
 
-    .line 2
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 3
     invoke-static {}, Lcom/google/common/util/concurrent/AbstractFuture;->b()Lcom/google/common/util/concurrent/AbstractFuture$b;
 
     move-result-object v0
@@ -69,7 +66,6 @@
 .method constructor <init>(Z)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -80,7 +76,6 @@
 .method a(Lcom/google/common/util/concurrent/AbstractFuture$k;)V
     .locals 1
 
-    .line 1
     invoke-static {}, Lcom/google/common/util/concurrent/AbstractFuture;->b()Lcom/google/common/util/concurrent/AbstractFuture$b;
 
     move-result-object v0
@@ -93,17 +88,14 @@
 .method b()V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/util/concurrent/AbstractFuture$k;->a:Ljava/lang/Thread;
 
     if-eqz v0, :cond_0
 
     const/4 v1, 0x0
 
-    .line 2
     iput-object v1, p0, Lcom/google/common/util/concurrent/AbstractFuture$k;->a:Ljava/lang/Thread;
 
-    .line 3
     invoke-static {v0}, Ljava/util/concurrent/locks/LockSupport;->unpark(Ljava/lang/Thread;)V
 
     :cond_0

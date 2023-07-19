@@ -42,7 +42,6 @@
 
     if-eq p0, p1, :cond_0
 
-    .line 1
     sget-object v0, Lcotlin/internal/l;->a:Lcotlin/internal/k;
 
     invoke-virtual {v0, p0, p1}, Lcotlin/internal/k;->a(Ljava/lang/Throwable;Ljava/lang/Throwable;)V
@@ -64,7 +63,6 @@
 
     invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-virtual {p0}, Ljava/lang/Throwable;->getStackTrace()[Ljava/lang/StackTraceElement;
 
     move-result-object p0
@@ -104,7 +102,6 @@
 
     invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     sget-object v0, Lcotlin/internal/l;->a:Lcotlin/internal/k;
 
     invoke-virtual {v0, p0}, Lcotlin/internal/k;->d(Ljava/lang/Throwable;)Ljava/util/List;
@@ -130,7 +127,6 @@
 
     const-string v0, "null cannot be cast to non-null type java.lang.Throwable"
 
-    .line 1
     invoke-static {p0, v0}, Ljava/util/Objects;->requireNonNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
 
     invoke-virtual {p0}, Ljava/lang/Throwable;->printStackTrace()V
@@ -145,7 +141,6 @@
 
     const-string v0, "null cannot be cast to non-null type java.lang.Throwable"
 
-    .line 1
     invoke-static {p0, v0}, Ljava/util/Objects;->requireNonNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
 
     invoke-virtual {p0, p1}, Ljava/lang/Throwable;->printStackTrace(Ljava/io/PrintStream;)V
@@ -160,7 +155,6 @@
 
     const-string v0, "null cannot be cast to non-null type java.lang.Throwable"
 
-    .line 1
     invoke-static {p0, v0}, Ljava/util/Objects;->requireNonNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
 
     invoke-virtual {p0, p1}, Ljava/lang/Throwable;->printStackTrace(Ljava/io/PrintWriter;)V
@@ -185,23 +179,18 @@
 
     invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     new-instance v0, Ljava/io/StringWriter;
 
     invoke-direct {v0}, Ljava/io/StringWriter;-><init>()V
 
-    .line 2
     new-instance v1, Ljava/io/PrintWriter;
 
     invoke-direct {v1, v0}, Ljava/io/PrintWriter;-><init>(Ljava/io/Writer;)V
 
-    .line 3
     invoke-virtual {p0, v1}, Ljava/lang/Throwable;->printStackTrace(Ljava/io/PrintWriter;)V
 
-    .line 4
     invoke-virtual {v1}, Ljava/io/PrintWriter;->flush()V
 
-    .line 5
     invoke-virtual {v0}, Ljava/io/StringWriter;->toString()Ljava/lang/String;
 
     move-result-object p0

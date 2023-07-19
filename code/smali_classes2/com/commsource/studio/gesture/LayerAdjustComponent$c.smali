@@ -42,7 +42,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/studio/gesture/LayerAdjustComponent$c;->a:Lcom/commsource/studio/gesture/LayerAdjustComponent;
 
     invoke-static {v0}, Lcom/commsource/studio/gesture/LayerAdjustComponent;->d(Lcom/commsource/studio/gesture/LayerAdjustComponent;)Lcom/commsource/beautyplus/f0/kl;
@@ -61,7 +60,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 2
     iget-object v0, p0, Lcom/commsource/studio/gesture/LayerAdjustComponent$c;->a:Lcom/commsource/studio/gesture/LayerAdjustComponent;
 
     invoke-static {v0}, Lcom/commsource/studio/gesture/LayerAdjustComponent;->d(Lcom/commsource/studio/gesture/LayerAdjustComponent;)Lcom/commsource/beautyplus/f0/kl;
@@ -74,18 +72,15 @@
 
     invoke-static {v0}, Lcom/commsource/util/l0;->w(Landroid/view/View;)V
 
-    .line 3
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 4
     :cond_0
     iget-object v0, p0, Lcom/commsource/studio/gesture/LayerAdjustComponent$c;->a:Lcom/commsource/studio/gesture/LayerAdjustComponent;
 
     invoke-static {v0}, Lcom/commsource/studio/gesture/LayerAdjustComponent;->f(Lcom/commsource/studio/gesture/LayerAdjustComponent;)V
 
-    .line 5
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

@@ -52,29 +52,24 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/4 v0, 0x0
 
-    .line 2
     iput-boolean v0, p0, Lcom/airbnb/lottie/s;->a:Z
 
-    .line 3
     new-instance v0, Landroidx/collection/ArraySet;
 
     invoke-direct {v0}, Landroidx/collection/ArraySet;-><init>()V
 
     iput-object v0, p0, Lcom/airbnb/lottie/s;->b:Ljava/util/Set;
 
-    .line 4
     new-instance v0, Ljava/util/HashMap;
 
     invoke-direct {v0}, Ljava/util/HashMap;-><init>()V
 
     iput-object v0, p0, Lcom/airbnb/lottie/s;->c:Ljava/util/Map;
 
-    .line 5
     new-instance v0, Lcom/airbnb/lottie/s$a;
 
     invoke-direct {v0, p0}, Lcom/airbnb/lottie/s$a;-><init>(Lcom/airbnb/lottie/s;)V
@@ -89,7 +84,6 @@
 .method public a(Lcom/airbnb/lottie/s$b;)V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/airbnb/lottie/s;->b:Ljava/util/Set;
 
     invoke-interface {v0, p1}, Ljava/util/Set;->add(Ljava/lang/Object;)Z
@@ -100,7 +94,6 @@
 .method public b()V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/airbnb/lottie/s;->c:Ljava/util/Map;
 
     invoke-interface {v0}, Ljava/util/Map;->clear()V
@@ -121,19 +114,16 @@
         }
     .end annotation
 
-    .line 1
     iget-boolean v0, p0, Lcom/airbnb/lottie/s;->a:Z
 
     if-nez v0, :cond_0
 
-    .line 2
     invoke-static {}, Ljava/util/Collections;->emptyList()Ljava/util/List;
 
     move-result-object v0
 
     return-object v0
 
-    .line 3
     :cond_0
     new-instance v0, Ljava/util/ArrayList;
 
@@ -145,7 +135,6 @@
 
     invoke-direct {v0, v1}, Ljava/util/ArrayList;-><init>(I)V
 
-    .line 4
     iget-object v1, p0, Lcom/airbnb/lottie/s;->c:Ljava/util/Map;
 
     invoke-interface {v1}, Ljava/util/Map;->entrySet()Ljava/util/Set;
@@ -169,7 +158,6 @@
 
     check-cast v2, Ljava/util/Map$Entry;
 
-    .line 5
     new-instance v3, Landroidx/core/util/Pair;
 
     invoke-interface {v2}, Ljava/util/Map$Entry;->getKey()Ljava/lang/Object;
@@ -196,7 +184,6 @@
 
     goto :goto_0
 
-    .line 6
     :cond_1
     iget-object v1, p0, Lcom/airbnb/lottie/s;->d:Ljava/util/Comparator;
 
@@ -208,14 +195,12 @@
 .method public d()V
     .locals 7
 
-    .line 1
     iget-boolean v0, p0, Lcom/airbnb/lottie/s;->a:Z
 
     if-nez v0, :cond_0
 
     return-void
 
-    .line 2
     :cond_0
     invoke-virtual {p0}, Lcom/airbnb/lottie/s;->c()Ljava/util/List;
 
@@ -225,14 +210,12 @@
 
     const-string v2, "Render times:"
 
-    .line 3
     invoke-static {v1, v2}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
 
     const/4 v2, 0x0
 
     const/4 v3, 0x0
 
-    .line 4
     :goto_0
     invoke-interface {v0}, Ljava/util/List;->size()I
 
@@ -240,7 +223,6 @@
 
     if-ge v3, v4, :cond_1
 
-    .line 5
     invoke-interface {v0, v3}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object v4
@@ -251,7 +233,6 @@
 
     new-array v5, v5, [Ljava/lang/Object;
 
-    .line 6
     iget-object v6, v4, Landroidx/core/util/Pair;->first:Ljava/lang/Object;
 
     aput-object v6, v5, v2
@@ -281,14 +262,12 @@
 .method public e(Ljava/lang/String;F)V
     .locals 2
 
-    .line 1
     iget-boolean v0, p0, Lcom/airbnb/lottie/s;->a:Z
 
     if-nez v0, :cond_0
 
     return-void
 
-    .line 2
     :cond_0
     iget-object v0, p0, Lcom/airbnb/lottie/s;->c:Ljava/util/Map;
 
@@ -300,30 +279,25 @@
 
     if-nez v0, :cond_1
 
-    .line 3
     new-instance v0, Lcom/airbnb/lottie/z/f;
 
     invoke-direct {v0}, Lcom/airbnb/lottie/z/f;-><init>()V
 
-    .line 4
     iget-object v1, p0, Lcom/airbnb/lottie/s;->c:Ljava/util/Map;
 
     invoke-interface {v1, p1, v0}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 5
     :cond_1
     invoke-virtual {v0, p2}, Lcom/airbnb/lottie/z/f;->a(F)V
 
     const-string v0, "__container"
 
-    .line 6
     invoke-virtual {p1, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p1
 
     if-eqz p1, :cond_2
 
-    .line 7
     iget-object p1, p0, Lcom/airbnb/lottie/s;->b:Ljava/util/Set;
 
     invoke-interface {p1}, Ljava/util/Set;->iterator()Ljava/util/Iterator;
@@ -343,7 +317,6 @@
 
     check-cast v0, Lcom/airbnb/lottie/s$b;
 
-    .line 8
     invoke-interface {v0, p2}, Lcom/airbnb/lottie/s$b;->a(F)V
 
     goto :goto_0
@@ -355,7 +328,6 @@
 .method public f(Lcom/airbnb/lottie/s$b;)V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/airbnb/lottie/s;->b:Ljava/util/Set;
 
     invoke-interface {v0, p1}, Ljava/util/Set;->remove(Ljava/lang/Object;)Z
@@ -366,7 +338,6 @@
 .method g(Z)V
     .locals 0
 
-    .line 1
     iput-boolean p1, p0, Lcom/airbnb/lottie/s;->a:Z
 
     return-void

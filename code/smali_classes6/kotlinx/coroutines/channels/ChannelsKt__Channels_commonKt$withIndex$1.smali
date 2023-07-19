@@ -168,7 +168,6 @@
 
     move-result-object v0
 
-    .line 1
     iget v1, p0, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$withIndex$1;->label:I
 
     const/4 v2, 0x2
@@ -205,7 +204,6 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     new-instance p1, Ljava/lang/IllegalStateException;
 
@@ -215,7 +213,6 @@
 
     throw p1
 
-    .line 3
     :cond_1
     iget-object v1, p0, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$withIndex$1;->L$1:Ljava/lang/Object;
 
@@ -240,7 +237,6 @@
 
     const/4 v1, 0x0
 
-    .line 4
     iget-object v4, p0, Lcotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$withIndex$1;->$this_withIndex:Lcotlinx/coroutines/channels/y;
 
     invoke-interface {v4}, Lcotlinx/coroutines/channels/y;->iterator()Lcotlinx/coroutines/channels/ChannelIterator;
@@ -294,7 +290,6 @@
 
     move-result-object p1
 
-    .line 5
     new-instance v7, Lcotlin/collections/i0;
 
     add-int/lit8 v8, v4, 0x1
@@ -330,7 +325,6 @@
 
     goto :goto_0
 
-    .line 6
     :cond_5
     sget-object p1, Lcotlin/t1;->a:Lcotlin/t1;
 

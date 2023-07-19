@@ -54,7 +54,6 @@
         }
     .end annotation
 
-    .line 3
     invoke-direct {p0, p3, p4}, Lcotlinx/coroutines/flow/internal/ChannelFlow;-><init>(Lcotlin/coroutines/CoroutineContext;I)V
 
     iput-object p1, p0, Lcotlinx/coroutines/flow/internal/ChannelFlowMerge;->c:Lcotlinx/coroutines/flow/d;
@@ -71,7 +70,6 @@
 
     if-eqz p6, :cond_0
 
-    .line 1
     sget-object p3, Lcotlin/coroutines/EmptyCoroutineContext;->INSTANCE:Lcotlin/coroutines/EmptyCoroutineContext;
 
     :cond_0
@@ -81,7 +79,6 @@
 
     const/4 p4, -0x2
 
-    .line 2
     :cond_1
     invoke-direct {p0, p1, p2, p3, p4}, Lcotlinx/coroutines/flow/internal/ChannelFlowMerge;-><init>(Lcotlinx/coroutines/flow/d;ILcotlin/coroutines/CoroutineContext;I)V
 
@@ -95,7 +92,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -145,7 +141,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     iget v0, p0, Lcotlinx/coroutines/flow/internal/ChannelFlowMerge;->d:I
 
     const/4 v1, 0x0
@@ -158,12 +153,10 @@
 
     move-result-object v0
 
-    .line 2
     new-instance v1, Lcotlinx/coroutines/flow/internal/j;
 
     invoke-direct {v1, p1}, Lcotlinx/coroutines/flow/internal/j;-><init>(Lcotlinx/coroutines/channels/c0;)V
 
-    .line 3
     invoke-interface {p2}, Lcotlin/coroutines/c;->getContext()Lcotlin/coroutines/CoroutineContext;
 
     move-result-object v2
@@ -176,10 +169,8 @@
 
     check-cast v2, Lcotlinx/coroutines/c2;
 
-    .line 4
     iget-object v3, p0, Lcotlinx/coroutines/flow/internal/ChannelFlowMerge;->c:Lcotlinx/coroutines/flow/d;
 
-    .line 5
     new-instance v4, Lcotlinx/coroutines/flow/internal/ChannelFlowMerge$collectTo$$inlined$collect$1;
 
     invoke-direct {v4, v2, v0, p1, v1}, Lcotlinx/coroutines/flow/internal/ChannelFlowMerge$collectTo$$inlined$collect$1;-><init>(Lcotlinx/coroutines/c2;Lcotlinx/coroutines/sync/e;Lcotlinx/coroutines/channels/w;Lcotlinx/coroutines/flow/internal/j;)V
@@ -196,7 +187,6 @@
 
     return-object p1
 
-    .line 6
     :cond_0
     sget-object p1, Lcotlin/t1;->a:Lcotlin/t1;
 
@@ -222,7 +212,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     new-instance v0, Lcotlinx/coroutines/flow/internal/ChannelFlowMerge;
 
     iget-object v1, p0, Lcotlinx/coroutines/flow/internal/ChannelFlowMerge;->c:Lcotlinx/coroutines/flow/d;
@@ -253,7 +242,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcotlinx/coroutines/flow/internal/ChannelFlow;->a:Lcotlin/coroutines/CoroutineContext;
 
     iget v1, p0, Lcotlinx/coroutines/flow/internal/ChannelFlow;->b:I

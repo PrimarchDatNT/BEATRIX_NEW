@@ -57,10 +57,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lorg/apache/http/concurrent/BasicFuture;->callback:Lorg/apache/http/concurrent/FutureCallback;
 
     return-void
@@ -80,17 +78,14 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lorg/apache/http/concurrent/BasicFuture;->ex:Ljava/lang/Exception;
 
     if-nez v0, :cond_0
 
-    .line 2
     iget-object v0, p0, Lorg/apache/http/concurrent/BasicFuture;->result:Ljava/lang/Object;
 
     return-object v0
 
-    .line 3
     :cond_0
     new-instance v0, Ljava/util/concurrent/ExecutionException;
 
@@ -108,7 +103,6 @@
 
     const/4 v0, 0x1
 
-    .line 11
     invoke-virtual {p0, v0}, Lorg/apache/http/concurrent/BasicFuture;->cancel(Z)Z
 
     move-result v0
@@ -119,10 +113,8 @@
 .method public cancel(Z)Z
     .locals 1
 
-    .line 1
     monitor-enter p0
 
-    .line 2
     :try_start_0
     iget-boolean p1, p0, Lorg/apache/http/concurrent/BasicFuture;->completed:Z
 
@@ -130,7 +122,6 @@
 
     const/4 p1, 0x0
 
-    .line 3
     monitor-exit p0
 
     return p1
@@ -138,26 +129,20 @@
     :cond_0
     const/4 p1, 0x1
 
-    .line 4
     iput-boolean p1, p0, Lorg/apache/http/concurrent/BasicFuture;->completed:Z
 
-    .line 5
     iput-boolean p1, p0, Lorg/apache/http/concurrent/BasicFuture;->cancelled:Z
 
-    .line 6
     invoke-virtual {p0}, Ljava/lang/Object;->notifyAll()V
 
-    .line 7
     monitor-exit p0
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 8
     iget-object v0, p0, Lorg/apache/http/concurrent/BasicFuture;->callback:Lorg/apache/http/concurrent/FutureCallback;
 
     if-eqz v0, :cond_1
 
-    .line 9
     invoke-interface {v0}, Lorg/apache/http/concurrent/FutureCallback;->cancelled()V
 
     :cond_1
@@ -166,7 +151,6 @@
     :catchall_0
     move-exception p1
 
-    .line 10
     :try_start_1
     monitor-exit p0
     :try_end_1
@@ -183,10 +167,8 @@
         }
     .end annotation
 
-    .line 1
     monitor-enter p0
 
-    .line 2
     :try_start_0
     iget-boolean v0, p0, Lorg/apache/http/concurrent/BasicFuture;->completed:Z
 
@@ -194,7 +176,6 @@
 
     const/4 p1, 0x0
 
-    .line 3
     monitor-exit p0
 
     return p1
@@ -202,26 +183,20 @@
     :cond_0
     const/4 v0, 0x1
 
-    .line 4
     iput-boolean v0, p0, Lorg/apache/http/concurrent/BasicFuture;->completed:Z
 
-    .line 5
     iput-object p1, p0, Lorg/apache/http/concurrent/BasicFuture;->result:Ljava/lang/Object;
 
-    .line 6
     invoke-virtual {p0}, Ljava/lang/Object;->notifyAll()V
 
-    .line 7
     monitor-exit p0
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 8
     iget-object v1, p0, Lorg/apache/http/concurrent/BasicFuture;->callback:Lorg/apache/http/concurrent/FutureCallback;
 
     if-eqz v1, :cond_1
 
-    .line 9
     invoke-interface {v1, p1}, Lorg/apache/http/concurrent/FutureCallback;->completed(Ljava/lang/Object;)V
 
     :cond_1
@@ -230,7 +205,6 @@
     :catchall_0
     move-exception p1
 
-    .line 10
     :try_start_1
     monitor-exit p0
     :try_end_1
@@ -242,10 +216,8 @@
 .method public failed(Ljava/lang/Exception;)Z
     .locals 2
 
-    .line 1
     monitor-enter p0
 
-    .line 2
     :try_start_0
     iget-boolean v0, p0, Lorg/apache/http/concurrent/BasicFuture;->completed:Z
 
@@ -253,7 +225,6 @@
 
     const/4 p1, 0x0
 
-    .line 3
     monitor-exit p0
 
     return p1
@@ -261,26 +232,20 @@
     :cond_0
     const/4 v0, 0x1
 
-    .line 4
     iput-boolean v0, p0, Lorg/apache/http/concurrent/BasicFuture;->completed:Z
 
-    .line 5
     iput-object p1, p0, Lorg/apache/http/concurrent/BasicFuture;->ex:Ljava/lang/Exception;
 
-    .line 6
     invoke-virtual {p0}, Ljava/lang/Object;->notifyAll()V
 
-    .line 7
     monitor-exit p0
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 8
     iget-object v1, p0, Lorg/apache/http/concurrent/BasicFuture;->callback:Lorg/apache/http/concurrent/FutureCallback;
 
     if-eqz v1, :cond_1
 
-    .line 9
     invoke-interface {v1, p1}, Lorg/apache/http/concurrent/FutureCallback;->failed(Ljava/lang/Exception;)V
 
     :cond_1
@@ -289,7 +254,6 @@
     :catchall_0
     move-exception p1
 
-    .line 10
     :try_start_1
     monitor-exit p0
     :try_end_1
@@ -315,19 +279,16 @@
 
     monitor-enter p0
 
-    .line 1
     :goto_0
     :try_start_0
     iget-boolean v0, p0, Lorg/apache/http/concurrent/BasicFuture;->completed:Z
 
     if-nez v0, :cond_0
 
-    .line 2
     invoke-virtual {p0}, Ljava/lang/Object;->wait()V
 
     goto :goto_0
 
-    .line 3
     :cond_0
     invoke-direct {p0}, Lorg/apache/http/concurrent/BasicFuture;->getResult()Ljava/lang/Object;
 
@@ -370,10 +331,8 @@
     :try_start_0
     const-string v0, "Time unit"
 
-    .line 4
     invoke-static {p3, v0}, Lorg/apache/http/util/Args;->notNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
 
-    .line 5
     invoke-virtual {p3, p1, p2}, Ljava/util/concurrent/TimeUnit;->toMillis(J)J
 
     move-result-wide p1
@@ -388,19 +347,16 @@
 
     goto :goto_0
 
-    .line 6
     :cond_0
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v2
 
-    .line 7
     :goto_0
     iget-boolean v4, p0, Lorg/apache/http/concurrent/BasicFuture;->completed:Z
 
     if-eqz v4, :cond_1
 
-    .line 8
     invoke-direct {p0}, Lorg/apache/http/concurrent/BasicFuture;->getResult()Ljava/lang/Object;
 
     move-result-object p1
@@ -416,17 +372,14 @@
 
     move-wide v4, p1
 
-    .line 9
     :goto_1
     :try_start_1
     invoke-virtual {p0, v4, v5}, Ljava/lang/Object;->wait(J)V
 
-    .line 10
     iget-boolean p3, p0, Lorg/apache/http/concurrent/BasicFuture;->completed:Z
 
     if-eqz p3, :cond_2
 
-    .line 11
     invoke-direct {p0}, Lorg/apache/http/concurrent/BasicFuture;->getResult()Ljava/lang/Object;
 
     move-result-object p1
@@ -437,7 +390,6 @@
 
     return-object p1
 
-    .line 12
     :cond_2
     :try_start_2
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
@@ -454,7 +406,6 @@
 
     goto :goto_1
 
-    .line 13
     :cond_3
     new-instance p1, Ljava/util/concurrent/TimeoutException;
 
@@ -462,7 +413,6 @@
 
     throw p1
 
-    .line 14
     :cond_4
     new-instance p1, Ljava/util/concurrent/TimeoutException;
 
@@ -483,7 +433,6 @@
 .method public isCancelled()Z
     .locals 1
 
-    .line 1
     iget-boolean v0, p0, Lorg/apache/http/concurrent/BasicFuture;->cancelled:Z
 
     return v0
@@ -492,7 +441,6 @@
 .method public isDone()Z
     .locals 1
 
-    .line 1
     iget-boolean v0, p0, Lorg/apache/http/concurrent/BasicFuture;->completed:Z
 
     return v0

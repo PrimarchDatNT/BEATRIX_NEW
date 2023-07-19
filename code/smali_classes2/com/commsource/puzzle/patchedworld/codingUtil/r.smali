@@ -95,7 +95,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-direct {p0, v0}, Lcom/commsource/puzzle/patchedworld/codingUtil/r;-><init>(Landroid/view/View;)V
 
     return-void
@@ -108,17 +107,14 @@
         .end annotation
     .end param
 
-    .line 2
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 3
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
 
     iput-object v0, p0, Lcom/commsource/puzzle/patchedworld/codingUtil/r;->b:Ljava/util/List;
 
-    .line 4
     new-instance v0, Ljava/util/HashMap;
 
     const/4 v1, 0x4
@@ -127,7 +123,6 @@
 
     iput-object v0, p0, Lcom/commsource/puzzle/patchedworld/codingUtil/r;->c:Ljava/util/Map;
 
-    .line 5
     new-instance v0, Ljava/util/HashMap;
 
     invoke-direct {v0, v1}, Ljava/util/HashMap;-><init>(I)V
@@ -136,42 +131,32 @@
 
     const/4 v0, 0x1
 
-    .line 6
     iput-boolean v0, p0, Lcom/commsource/puzzle/patchedworld/codingUtil/r;->f:Z
 
     const/4 v1, 0x0
 
-    .line 7
     iput-boolean v1, p0, Lcom/commsource/puzzle/patchedworld/codingUtil/r;->g:Z
 
-    .line 8
     iput-boolean v1, p0, Lcom/commsource/puzzle/patchedworld/codingUtil/r;->h:Z
 
-    .line 9
     iput-boolean v1, p0, Lcom/commsource/puzzle/patchedworld/codingUtil/r;->i:Z
 
-    .line 10
     iput-boolean v1, p0, Lcom/commsource/puzzle/patchedworld/codingUtil/r;->j:Z
 
-    .line 11
     iput-boolean v1, p0, Lcom/commsource/puzzle/patchedworld/codingUtil/r;->k:Z
 
-    .line 12
     iput-boolean v0, p0, Lcom/commsource/puzzle/patchedworld/codingUtil/r;->l:Z
 
     const/4 v0, -0x1
 
-    .line 13
     iput v0, p0, Lcom/commsource/puzzle/patchedworld/codingUtil/r;->m:I
 
-    .line 14
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
 
     iput-object v0, p0, Lcom/commsource/puzzle/patchedworld/codingUtil/r;->a:Ljava/util/List;
 
-    .line 15
     new-instance v0, Ljava/lang/ref/WeakReference;
 
     if-eqz p1, :cond_0
@@ -196,7 +181,6 @@
 .method public a(Lcom/commsource/puzzle/patchedworld/codingUtil/r;)Lcom/commsource/puzzle/patchedworld/codingUtil/r;
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/puzzle/patchedworld/codingUtil/r;->b:Ljava/util/List;
 
     invoke-interface {v0}, Ljava/util/List;->iterator()Ljava/util/Iterator;
@@ -216,12 +200,10 @@
 
     check-cast v1, Lcom/commsource/puzzle/patchedworld/codingUtil/l;
 
-    .line 2
     invoke-virtual {p1, v1}, Lcom/commsource/puzzle/patchedworld/codingUtil/r;->c(Lcom/commsource/puzzle/patchedworld/codingUtil/l;)V
 
     goto :goto_0
 
-    .line 3
     :cond_0
     iget-object v0, p0, Lcom/commsource/puzzle/patchedworld/codingUtil/r;->a:Ljava/util/List;
 
@@ -229,7 +211,6 @@
 
     const/4 v0, 0x0
 
-    .line 4
     invoke-virtual {p1, v0}, Lcom/commsource/puzzle/patchedworld/codingUtil/r;->q(Z)V
 
     return-object p0
@@ -242,10 +223,8 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-virtual {p0, p1}, Lcom/commsource/puzzle/patchedworld/codingUtil/r;->c(Lcom/commsource/puzzle/patchedworld/codingUtil/l;)V
 
-    .line 2
     iget-object v0, p0, Lcom/commsource/puzzle/patchedworld/codingUtil/r;->a:Ljava/util/List;
 
     if-eqz v0, :cond_1
@@ -256,7 +235,6 @@
 
     if-nez v0, :cond_1
 
-    .line 3
     iget-object v0, p0, Lcom/commsource/puzzle/patchedworld/codingUtil/r;->a:Ljava/util/List;
 
     invoke-interface {v0}, Ljava/util/List;->size()I
@@ -268,7 +246,6 @@
     :goto_0
     if-ltz v0, :cond_1
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/puzzle/patchedworld/codingUtil/r;->a:Ljava/util/List;
 
     invoke-interface {v1, v0}, Ljava/util/List;->get(I)Ljava/lang/Object;
@@ -279,7 +256,6 @@
 
     if-eqz v1, :cond_0
 
-    .line 5
     invoke-virtual {v1, p1}, Lcom/commsource/puzzle/patchedworld/codingUtil/r;->c(Lcom/commsource/puzzle/patchedworld/codingUtil/l;)V
 
     :cond_0
@@ -298,19 +274,16 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-virtual {p0, p1}, Lcom/commsource/puzzle/patchedworld/codingUtil/r;->g(Lcom/commsource/puzzle/patchedworld/codingUtil/l;)Z
 
     move-result v0
 
     if-nez v0, :cond_2
 
-    .line 2
     iget-object v0, p0, Lcom/commsource/puzzle/patchedworld/codingUtil/r;->b:Ljava/util/List;
 
     invoke-interface {v0, p1}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
-    .line 3
     iget-object v0, p0, Lcom/commsource/puzzle/patchedworld/codingUtil/r;->e:Ljava/lang/ref/WeakReference;
 
     if-eqz v0, :cond_0
@@ -326,7 +299,6 @@
     :cond_0
     const/4 v0, 0x0
 
-    .line 4
     :goto_0
     iget-boolean v1, p0, Lcom/commsource/puzzle/patchedworld/codingUtil/r;->l:Z
 
@@ -334,7 +306,6 @@
 
     if-eqz v0, :cond_2
 
-    .line 5
     iget-object v1, p1, Lcom/commsource/puzzle/patchedworld/codingUtil/l;->a:Lcom/commsource/puzzle/patchedworld/codingUtil/l$c;
 
     invoke-virtual {v1}, Lcom/commsource/puzzle/patchedworld/codingUtil/l$c;->E()Z
@@ -343,7 +314,6 @@
 
     if-eqz v1, :cond_1
 
-    .line 6
     iget-object v1, p0, Lcom/commsource/puzzle/patchedworld/codingUtil/r;->d:Ljava/util/Map;
 
     new-instance v2, Lcom/commsource/puzzle/patchedworld/codingUtil/p;
@@ -352,7 +322,6 @@
 
     invoke-interface {v1, p1, v2}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 7
     :cond_1
     iget-object v1, p1, Lcom/commsource/puzzle/patchedworld/codingUtil/l;->a:Lcom/commsource/puzzle/patchedworld/codingUtil/l$c;
 
@@ -362,7 +331,6 @@
 
     if-eqz v1, :cond_2
 
-    .line 8
     iget-object v1, p0, Lcom/commsource/puzzle/patchedworld/codingUtil/r;->c:Ljava/util/Map;
 
     new-instance v2, Lcom/commsource/puzzle/patchedworld/codingUtil/v;
@@ -388,7 +356,6 @@
     .annotation build Landroidx/annotation/CallSuper;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/puzzle/patchedworld/codingUtil/r;->a:Ljava/util/List;
 
     if-eqz v0, :cond_1
@@ -399,7 +366,6 @@
 
     if-nez v0, :cond_1
 
-    .line 2
     iget-object v0, p0, Lcom/commsource/puzzle/patchedworld/codingUtil/r;->a:Ljava/util/List;
 
     invoke-interface {v0}, Ljava/util/List;->size()I
@@ -411,7 +377,6 @@
     :goto_0
     if-ltz v0, :cond_1
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/puzzle/patchedworld/codingUtil/r;->a:Ljava/util/List;
 
     invoke-interface {v1, v0}, Ljava/util/List;->get(I)Ljava/lang/Object;
@@ -422,7 +387,6 @@
 
     if-eqz v1, :cond_0
 
-    .line 4
     invoke-virtual {v1, p1, p2}, Lcom/commsource/puzzle/patchedworld/codingUtil/r;->d(Landroid/view/MotionEvent;Lcom/commsource/puzzle/patchedworld/codingUtil/q$b;)V
 
     :cond_0
@@ -467,21 +431,18 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p3, p0}, Ljava/lang/Class;->isInstance(Ljava/lang/Object;)Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-virtual {p0, p1, p2}, Lcom/commsource/puzzle/patchedworld/codingUtil/r;->e(Landroid/view/MotionEvent;Lcom/commsource/puzzle/patchedworld/codingUtil/q$b;)Z
 
     move-result p1
 
     return p1
 
-    .line 3
     :cond_0
     iget-object v0, p0, Lcom/commsource/puzzle/patchedworld/codingUtil/r;->a:Ljava/util/List;
 
@@ -502,14 +463,12 @@
 
     check-cast v1, Lcom/commsource/puzzle/patchedworld/codingUtil/r;
 
-    .line 4
     invoke-virtual {p3, v1}, Ljava/lang/Class;->isInstance(Ljava/lang/Object;)Z
 
     move-result v2
 
     if-eqz v2, :cond_1
 
-    .line 5
     invoke-virtual {v1, p1, p2}, Lcom/commsource/puzzle/patchedworld/codingUtil/r;->e(Landroid/view/MotionEvent;Lcom/commsource/puzzle/patchedworld/codingUtil/q$b;)Z
 
     move-result p1
@@ -525,7 +484,6 @@
 .method public g(Lcom/commsource/puzzle/patchedworld/codingUtil/l;)Z
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/puzzle/patchedworld/codingUtil/r;->b:Ljava/util/List;
 
     invoke-interface {v0, p1}, Ljava/util/List;->contains(Ljava/lang/Object;)Z
@@ -548,7 +506,6 @@
     .annotation build Landroidx/annotation/CallSuper;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/puzzle/patchedworld/codingUtil/r;->a:Ljava/util/List;
 
     const/4 v1, 0x0
@@ -561,7 +518,6 @@
 
     if-nez v0, :cond_1
 
-    .line 2
     iget-object v0, p0, Lcom/commsource/puzzle/patchedworld/codingUtil/r;->a:Ljava/util/List;
 
     invoke-interface {v0}, Ljava/util/List;->size()I
@@ -577,7 +533,6 @@
     :goto_0
     if-ltz v0, :cond_2
 
-    .line 3
     iget-object v4, p0, Lcom/commsource/puzzle/patchedworld/codingUtil/r;->a:Ljava/util/List;
 
     invoke-interface {v4, v0}, Ljava/util/List;->get(I)Ljava/lang/Object;
@@ -588,7 +543,6 @@
 
     if-eqz v4, :cond_0
 
-    .line 4
     invoke-virtual {v4, p1, p2}, Lcom/commsource/puzzle/patchedworld/codingUtil/r;->h(Landroid/view/MotionEvent;Lcom/commsource/puzzle/patchedworld/codingUtil/q$b;)Z
 
     move-result v4
@@ -605,7 +559,6 @@
     :cond_1
     const/4 v3, 0x0
 
-    .line 5
     :cond_2
     invoke-virtual {p1, v1}, Landroid/view/MotionEvent;->getPointerId(I)I
 
@@ -613,12 +566,10 @@
 
     iput p1, p0, Lcom/commsource/puzzle/patchedworld/codingUtil/r;->m:I
 
-    .line 6
     iget-boolean p1, p0, Lcom/commsource/puzzle/patchedworld/codingUtil/r;->f:Z
 
     if-eqz p1, :cond_3
 
-    .line 7
     invoke-virtual {p0}, Lcom/commsource/puzzle/patchedworld/codingUtil/r;->p()V
 
     :cond_3
@@ -655,7 +606,6 @@
         }
     .end annotation
 
-    .line 1
     iget-boolean p1, p0, Lcom/commsource/puzzle/patchedworld/codingUtil/r;->l:Z
 
     const/4 p2, 0x0
@@ -671,7 +621,6 @@
     :cond_0
     move-object p1, p2
 
-    .line 2
     :goto_0
     iget-object v0, p0, Lcom/commsource/puzzle/patchedworld/codingUtil/r;->b:Ljava/util/List;
 
@@ -693,10 +642,8 @@
 
     check-cast v1, Lcom/commsource/puzzle/patchedworld/codingUtil/l;
 
-    .line 3
     iget-object v2, v1, Lcom/commsource/puzzle/patchedworld/codingUtil/l;->a:Lcom/commsource/puzzle/patchedworld/codingUtil/l$c;
 
-    .line 4
     iget-boolean v3, p0, Lcom/commsource/puzzle/patchedworld/codingUtil/r;->l:Z
 
     const/4 v4, 0x1
@@ -726,7 +673,6 @@
     :cond_2
     const/4 v3, 0x0
 
-    .line 5
     :goto_2
     invoke-virtual {v2}, Lcom/commsource/puzzle/patchedworld/codingUtil/l$c;->C()Z
 
@@ -736,7 +682,6 @@
 
     if-eqz v3, :cond_3
 
-    .line 6
     new-instance v6, Landroid/animation/AnimatorSet;
 
     invoke-direct {v6}, Landroid/animation/AnimatorSet;-><init>()V
@@ -750,7 +695,6 @@
     :cond_3
     move-object v6, p2
 
-    .line 7
     :goto_3
     iget-object v7, v1, Lcom/commsource/puzzle/patchedworld/codingUtil/l;->b:Landroid/graphics/Matrix;
 
@@ -758,19 +702,16 @@
 
     move-result v7
 
-    .line 8
     invoke-virtual {v2}, Lcom/commsource/puzzle/patchedworld/codingUtil/l$c;->E()Z
 
     move-result v8
 
     if-eqz v8, :cond_5
 
-    .line 9
     invoke-virtual {v2}, Lcom/commsource/puzzle/patchedworld/codingUtil/l$c;->h()F
 
     move-result v8
 
-    .line 10
     invoke-virtual {v2}, Lcom/commsource/puzzle/patchedworld/codingUtil/l$c;->i()F
 
     move-result v9
@@ -800,7 +741,6 @@
 
     if-eqz v3, :cond_6
 
-    .line 11
     iget-object v9, p0, Lcom/commsource/puzzle/patchedworld/codingUtil/r;->d:Ljava/util/Map;
 
     invoke-interface {v9, v1}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
@@ -811,7 +751,6 @@
 
     if-eqz v9, :cond_6
 
-    .line 12
     invoke-virtual {v9, v8}, Lcom/commsource/puzzle/patchedworld/codingUtil/p;->b(F)Lcom/commsource/puzzle/patchedworld/codingUtil/p;
 
     move-result-object v9
@@ -830,10 +769,8 @@
 
     div-float/2addr v8, v7
 
-    .line 13
     invoke-virtual {v1, v8}, Lcom/commsource/puzzle/patchedworld/codingUtil/l;->d(F)V
 
-    .line 14
     :cond_7
     invoke-virtual {v1}, Lcom/commsource/puzzle/patchedworld/codingUtil/l;->n()V
 
@@ -842,7 +779,6 @@
     :cond_8
     move-object v9, p2
 
-    .line 15
     :goto_6
     invoke-virtual {v2}, Lcom/commsource/puzzle/patchedworld/codingUtil/l$c;->D()Z
 
@@ -856,10 +792,8 @@
 
     const/4 v10, 0x0
 
-    .line 16
     invoke-virtual {v2, v10, v10, v7}, Lcom/commsource/puzzle/patchedworld/codingUtil/l$c;->o(FF[F)V
 
-    .line 17
     aget v2, v7, v5
 
     cmpl-float v2, v2, v10
@@ -875,10 +809,8 @@
     :cond_9
     if-eqz v3, :cond_a
 
-    .line 18
     iget-object v2, p0, Lcom/commsource/puzzle/patchedworld/codingUtil/r;->c:Ljava/util/Map;
 
-    .line 19
     invoke-interface {v2, v1}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v2
@@ -887,12 +819,10 @@
 
     if-eqz v2, :cond_a
 
-    .line 20
     aget v3, v7, v5
 
     aget v10, v7, v4
 
-    .line 21
     invoke-virtual {v2, v3, v10}, Lcom/commsource/puzzle/patchedworld/codingUtil/v;->b(FF)Lcom/commsource/puzzle/patchedworld/codingUtil/v;
 
     move-result-object v2
@@ -909,7 +839,6 @@
     :goto_7
     if-nez v2, :cond_c
 
-    .line 22
     aget v3, v7, v5
 
     aget v7, v7, v4
@@ -931,7 +860,6 @@
 
     if-eqz v2, :cond_1
 
-    .line 23
     :cond_d
     invoke-interface {p1, v6}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
@@ -945,7 +873,6 @@
 
     aput-object v2, v1, v4
 
-    .line 24
     invoke-virtual {v6, v1}, Landroid/animation/AnimatorSet;->playTogether([Landroid/animation/Animator;)V
 
     goto :goto_9
@@ -953,16 +880,13 @@
     :cond_e
     if-nez v9, :cond_f
 
-    .line 25
     invoke-virtual {v6, v2}, Landroid/animation/AnimatorSet;->play(Landroid/animation/Animator;)Landroid/animation/AnimatorSet$Builder;
 
     goto :goto_9
 
-    .line 26
     :cond_f
     invoke-virtual {v6, v9}, Landroid/animation/AnimatorSet;->play(Landroid/animation/Animator;)Landroid/animation/AnimatorSet$Builder;
 
-    .line 27
     :goto_9
     invoke-virtual {v6}, Landroid/animation/AnimatorSet;->start()V
 
@@ -985,7 +909,6 @@
     .annotation build Landroidx/annotation/CallSuper;
     .end annotation
 
-    .line 1
     iget-boolean v0, p0, Lcom/commsource/puzzle/patchedworld/codingUtil/r;->k:Z
 
     if-eqz v0, :cond_0
@@ -994,12 +917,10 @@
 
     if-eqz v0, :cond_0
 
-    .line 2
     iget-boolean v0, p0, Lcom/commsource/puzzle/patchedworld/codingUtil/r;->j:Z
 
     invoke-virtual {p0, v0}, Lcom/commsource/puzzle/patchedworld/codingUtil/r;->o(Z)V
 
-    .line 3
     :cond_0
     iget-object v0, p0, Lcom/commsource/puzzle/patchedworld/codingUtil/r;->a:Ljava/util/List;
 
@@ -1013,7 +934,6 @@
 
     if-nez v0, :cond_2
 
-    .line 4
     iget-object v0, p0, Lcom/commsource/puzzle/patchedworld/codingUtil/r;->a:Ljava/util/List;
 
     invoke-interface {v0}, Ljava/util/List;->size()I
@@ -1027,7 +947,6 @@
     :goto_0
     if-ltz v0, :cond_2
 
-    .line 5
     iget-object v3, p0, Lcom/commsource/puzzle/patchedworld/codingUtil/r;->a:Ljava/util/List;
 
     invoke-interface {v3, v0}, Ljava/util/List;->get(I)Ljava/lang/Object;
@@ -1038,7 +957,6 @@
 
     if-eqz v3, :cond_1
 
-    .line 6
     invoke-virtual {v3, p1, p2}, Lcom/commsource/puzzle/patchedworld/codingUtil/r;->j(Landroid/view/MotionEvent;Lcom/commsource/puzzle/patchedworld/codingUtil/q$b;)Z
 
     move-result v3
@@ -1069,7 +987,6 @@
     .annotation build Landroidx/annotation/CallSuper;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/puzzle/patchedworld/codingUtil/r;->a:Ljava/util/List;
 
     if-eqz v0, :cond_1
@@ -1080,7 +997,6 @@
 
     if-nez v0, :cond_1
 
-    .line 2
     iget-object v0, p0, Lcom/commsource/puzzle/patchedworld/codingUtil/r;->a:Ljava/util/List;
 
     invoke-interface {v0}, Ljava/util/List;->size()I
@@ -1092,7 +1008,6 @@
     :goto_0
     if-ltz v0, :cond_1
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/puzzle/patchedworld/codingUtil/r;->a:Ljava/util/List;
 
     invoke-interface {v1, v0}, Ljava/util/List;->get(I)Ljava/lang/Object;
@@ -1103,7 +1018,6 @@
 
     if-eqz v1, :cond_0
 
-    .line 4
     invoke-virtual {v1, p1, p2}, Lcom/commsource/puzzle/patchedworld/codingUtil/r;->k(Landroid/view/MotionEvent;Lcom/commsource/puzzle/patchedworld/codingUtil/q$b;)V
 
     :cond_0
@@ -1128,7 +1042,6 @@
     .annotation build Landroidx/annotation/CallSuper;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/puzzle/patchedworld/codingUtil/r;->a:Ljava/util/List;
 
     if-eqz v0, :cond_1
@@ -1139,7 +1052,6 @@
 
     if-nez v0, :cond_1
 
-    .line 2
     iget-object v0, p0, Lcom/commsource/puzzle/patchedworld/codingUtil/r;->a:Ljava/util/List;
 
     invoke-interface {v0}, Ljava/util/List;->size()I
@@ -1151,7 +1063,6 @@
     :goto_0
     if-ltz v0, :cond_1
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/puzzle/patchedworld/codingUtil/r;->a:Ljava/util/List;
 
     invoke-interface {v1, v0}, Ljava/util/List;->get(I)Ljava/lang/Object;
@@ -1162,7 +1073,6 @@
 
     if-eqz v1, :cond_0
 
-    .line 4
     invoke-virtual {v1, p1, p2}, Lcom/commsource/puzzle/patchedworld/codingUtil/r;->l(Landroid/view/MotionEvent;Lcom/commsource/puzzle/patchedworld/codingUtil/q$b;)V
 
     :cond_0
@@ -1196,7 +1106,6 @@
         }
     .end annotation
 
-    .line 1
     iget-boolean v0, p0, Lcom/commsource/puzzle/patchedworld/codingUtil/r;->l:Z
 
     if-eqz v0, :cond_0
@@ -1241,7 +1150,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p1}, Landroid/view/MotionEvent;->getAction()I
 
     move-result v0
@@ -1272,25 +1180,21 @@
 
     goto :goto_1
 
-    .line 2
     :cond_0
     invoke-virtual {p0, p1, p2}, Lcom/commsource/puzzle/patchedworld/codingUtil/r;->l(Landroid/view/MotionEvent;Lcom/commsource/puzzle/patchedworld/codingUtil/q$b;)V
 
     goto :goto_1
 
-    .line 3
     :cond_1
     invoke-virtual {p0, p1, p2}, Lcom/commsource/puzzle/patchedworld/codingUtil/r;->k(Landroid/view/MotionEvent;Lcom/commsource/puzzle/patchedworld/codingUtil/q$b;)V
 
     goto :goto_1
 
-    .line 4
     :cond_2
     invoke-virtual {p0, p1, p2}, Lcom/commsource/puzzle/patchedworld/codingUtil/r;->j(Landroid/view/MotionEvent;Lcom/commsource/puzzle/patchedworld/codingUtil/q$b;)Z
 
     goto :goto_1
 
-    .line 5
     :cond_3
     iget-boolean v0, p0, Lcom/commsource/puzzle/patchedworld/codingUtil/r;->l:Z
 
@@ -1308,7 +1212,6 @@
 
     return-object p1
 
-    .line 6
     :cond_5
     invoke-virtual {p0, p1, p2}, Lcom/commsource/puzzle/patchedworld/codingUtil/r;->h(Landroid/view/MotionEvent;Lcom/commsource/puzzle/patchedworld/codingUtil/q$b;)Z
 
@@ -1321,7 +1224,6 @@
 .method public o(Z)V
     .locals 1
 
-    .line 1
     iget-object p1, p0, Lcom/commsource/puzzle/patchedworld/codingUtil/r;->b:Ljava/util/List;
 
     invoke-interface {p1}, Ljava/util/List;->iterator()Ljava/util/Iterator;
@@ -1344,7 +1246,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-virtual {v0}, Lcom/commsource/puzzle/patchedworld/codingUtil/l;->h()V
 
     goto :goto_0
@@ -1356,7 +1257,6 @@
 .method public p()V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/puzzle/patchedworld/codingUtil/r;->b:Ljava/util/List;
 
     invoke-interface {v0}, Ljava/util/List;->iterator()Ljava/util/Iterator;
@@ -1379,7 +1279,6 @@
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-virtual {v1}, Lcom/commsource/puzzle/patchedworld/codingUtil/l;->i()V
 
     goto :goto_0
@@ -1391,7 +1290,6 @@
 .method public q(Z)V
     .locals 0
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/puzzle/patchedworld/codingUtil/r;->f:Z
 
     return-void
@@ -1400,7 +1298,6 @@
 .method public r(Z)Lcom/commsource/puzzle/patchedworld/codingUtil/r;
     .locals 0
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/puzzle/patchedworld/codingUtil/r;->l:Z
 
     return-object p0
@@ -1411,7 +1308,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-virtual {p0, p1, v0, p2, v0}, Lcom/commsource/puzzle/patchedworld/codingUtil/r;->t(ZZZZ)V
 
     return-void
@@ -1420,16 +1316,12 @@
 .method public t(ZZZZ)V
     .locals 2
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/puzzle/patchedworld/codingUtil/r;->g:Z
 
-    .line 2
     iput-boolean p2, p0, Lcom/commsource/puzzle/patchedworld/codingUtil/r;->j:Z
 
-    .line 3
     iput-boolean p3, p0, Lcom/commsource/puzzle/patchedworld/codingUtil/r;->h:Z
 
-    .line 4
     iput-boolean p4, p0, Lcom/commsource/puzzle/patchedworld/codingUtil/r;->i:Z
 
     const/4 v0, 0x1
@@ -1451,11 +1343,9 @@
     :cond_2
     const/4 p1, 0x0
 
-    .line 5
     :goto_0
     iput-boolean p1, p0, Lcom/commsource/puzzle/patchedworld/codingUtil/r;->k:Z
 
-    .line 6
     iget-object p1, p0, Lcom/commsource/puzzle/patchedworld/codingUtil/r;->a:Ljava/util/List;
 
     if-eqz p1, :cond_4
@@ -1466,7 +1356,6 @@
 
     if-nez p1, :cond_4
 
-    .line 7
     iget-object p1, p0, Lcom/commsource/puzzle/patchedworld/codingUtil/r;->a:Ljava/util/List;
 
     invoke-interface {p1}, Ljava/util/List;->size()I
@@ -1478,7 +1367,6 @@
     :goto_1
     if-ltz p1, :cond_4
 
-    .line 8
     iget-object p2, p0, Lcom/commsource/puzzle/patchedworld/codingUtil/r;->a:Ljava/util/List;
 
     invoke-interface {p2, p1}, Ljava/util/List;->get(I)Ljava/lang/Object;
@@ -1489,7 +1377,6 @@
 
     if-eqz p2, :cond_3
 
-    .line 9
     iget-boolean p3, p0, Lcom/commsource/puzzle/patchedworld/codingUtil/r;->g:Z
 
     iget-boolean p4, p0, Lcom/commsource/puzzle/patchedworld/codingUtil/r;->j:Z

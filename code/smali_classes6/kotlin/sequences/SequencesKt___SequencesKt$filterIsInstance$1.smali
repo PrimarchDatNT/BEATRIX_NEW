@@ -83,7 +83,6 @@
 
     const-string v1, "R"
 
-    .line 1
     invoke-static {v0, v1}, Lcotlin/jvm/internal/f0;->y(ILjava/lang/String;)V
 
     instance-of p1, p1, Ljava/lang/Object;

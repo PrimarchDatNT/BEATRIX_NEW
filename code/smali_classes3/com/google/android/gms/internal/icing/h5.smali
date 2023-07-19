@@ -41,12 +41,10 @@
 .method static constructor <clinit>()V
     .locals 4
 
-    .line 1
     new-instance v0, Lcom/google/android/gms/internal/icing/q0;
 
     const-string v1, "com.google.android.gms.icing"
 
-    .line 2
     invoke-static {v1}, Landroid/net/Uri;->encode(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v1
@@ -79,14 +77,12 @@
 
     move-result-object v1
 
-    .line 3
     invoke-direct {v0, v1}, Lcom/google/android/gms/internal/icing/q0;-><init>(Landroid/net/Uri;)V
 
     const/4 v1, 0x1
 
     const-string v2, "enable_client_grant_slice_permission"
 
-    .line 4
     invoke-virtual {v0, v2, v1}, Lcom/google/android/gms/internal/icing/q0;->b(Ljava/lang/String;Z)Lcom/google/android/gms/internal/icing/n0;
 
     move-result-object v1
@@ -97,7 +93,6 @@
 
     const/4 v2, 0x0
 
-    .line 5
     invoke-virtual {v0, v1, v2}, Lcom/google/android/gms/internal/icing/q0;->b(Ljava/lang/String;Z)Lcom/google/android/gms/internal/icing/n0;
 
     move-result-object v1
@@ -106,7 +101,6 @@
 
     const-string v1, "enable_safe_index_cleanup"
 
-    .line 6
     invoke-virtual {v0, v1, v2}, Lcom/google/android/gms/internal/icing/q0;->b(Ljava/lang/String;Z)Lcom/google/android/gms/internal/icing/n0;
 
     move-result-object v0
@@ -119,7 +113,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -130,7 +123,6 @@
 .method public final e()Z
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/google/android/gms/internal/icing/h5;->a:Lcom/google/android/gms/internal/icing/n0;
 
     invoke-virtual {v0}, Lcom/google/android/gms/internal/icing/n0;->a()Ljava/lang/Object;

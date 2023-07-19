@@ -16,10 +16,8 @@
 .method public constructor <init>(Lcom/google/android/gms/internal/ads/wp2;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/google/android/gms/ads/x/b;->a:Lcom/google/android/gms/internal/ads/wp2;
 
     return-void
@@ -34,7 +32,6 @@
     .annotation build Lcom/google/android/gms/common/annotation/a;
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/google/android/gms/internal/ads/hg;
 
     if-nez p2, :cond_0
@@ -43,7 +40,6 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     invoke-virtual {p2}, Lcom/google/android/gms/ads/d;->k()Lcom/google/android/gms/internal/ads/kp2;
 
@@ -52,7 +48,6 @@
     :goto_0
     invoke-direct {v0, p0, p1, p2}, Lcom/google/android/gms/internal/ads/hg;-><init>(Landroid/content/Context;Lcom/google/android/gms/ads/AdFormat;Lcom/google/android/gms/internal/ads/kp2;)V
 
-    .line 3
     invoke-virtual {v0, p3}, Lcom/google/android/gms/internal/ads/hg;->a(Lcom/google/android/gms/ads/x/c;)V
 
     return-void
@@ -65,7 +60,6 @@
     .annotation build Lcom/google/android/gms/common/annotation/a;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/ads/x/b;->a:Lcom/google/android/gms/internal/ads/wp2;
 
     invoke-virtual {v0}, Lcom/google/android/gms/internal/ads/wp2;->a()Ljava/lang/String;
@@ -80,7 +74,6 @@
     .annotation build Lcom/google/android/gms/common/annotation/a;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/ads/x/b;->a:Lcom/google/android/gms/internal/ads/wp2;
 
     invoke-virtual {v0}, Lcom/google/android/gms/internal/ads/wp2;->b()Landroid/os/Bundle;
@@ -95,7 +88,6 @@
     .annotation build Lcom/google/android/gms/common/annotation/a;
     .end annotation
 
-    .line 1
     invoke-static {p0}, Lcom/google/android/gms/internal/ads/wp2;->c(Lcom/google/android/gms/ads/x/b;)Ljava/lang/String;
 
     move-result-object v0

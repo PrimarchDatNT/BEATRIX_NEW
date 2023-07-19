@@ -40,7 +40,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/meitu/core/openglEffect/MTDeformationEffect$Type;
 
     const-string v2, "MT_HORIZONTAL"
@@ -51,7 +50,6 @@
 
     sput-object v1, Lcom/meitu/core/openglEffect/MTDeformationEffect$Type;->MT_HORIZONTAL:Lcom/meitu/core/openglEffect/MTDeformationEffect$Type;
 
-    .line 2
     new-instance v2, Lcom/meitu/core/openglEffect/MTDeformationEffect$Type;
 
     const-string v4, "MT_VERTICAL"
@@ -62,7 +60,6 @@
 
     sput-object v2, Lcom/meitu/core/openglEffect/MTDeformationEffect$Type;->MT_VERTICAL:Lcom/meitu/core/openglEffect/MTDeformationEffect$Type;
 
-    .line 3
     new-instance v4, Lcom/meitu/core/openglEffect/MTDeformationEffect$Type;
 
     const-string v6, "MT_CENTER"
@@ -83,7 +80,6 @@
 
     aput-object v4, v6, v7
 
-    .line 4
     sput-object v6, Lcom/meitu/core/openglEffect/MTDeformationEffect$Type;->$VALUES:[Lcom/meitu/core/openglEffect/MTDeformationEffect$Type;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -99,7 +95,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
     return-void
@@ -112,7 +107,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     const-class v1, Lcom/meitu/core/openglEffect/MTDeformationEffect$Type;
 
     invoke-static {v1, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -133,7 +127,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/meitu/core/openglEffect/MTDeformationEffect$Type;->$VALUES:[Lcom/meitu/core/openglEffect/MTDeformationEffect$Type;
 
     invoke-virtual {v1}, [Lcom/meitu/core/openglEffect/MTDeformationEffect$Type;->clone()Ljava/lang/Object;

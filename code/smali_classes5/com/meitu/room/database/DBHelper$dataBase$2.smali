@@ -72,7 +72,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 2
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
     move-result-object v1
@@ -85,7 +84,6 @@
 
     move-result-object v1
 
-    .line 3
     invoke-virtual {v1}, Landroidx/room/RoomDatabase$Builder;->allowMainThreadQueries()Landroidx/room/RoomDatabase$Builder;
 
     move-result-object v1
@@ -107,7 +105,6 @@
 
     new-array v5, v2, [Landroidx/room/migration/Migration;
 
-    .line 4
     new-instance v6, Lcom/meitu/room/database/b;
 
     const/16 v7, 0x19
@@ -122,7 +119,6 @@
 
     goto :goto_0
 
-    .line 5
     :cond_0
     sget-object v3, Lcom/meitu/room/database/DBHelper;->c:Lcom/meitu/room/database/DBHelper;
 
@@ -130,7 +126,6 @@
 
     move-result-object v3
 
-    .line 6
     invoke-interface {v3}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v3
@@ -152,12 +147,10 @@
 
     aput-object v5, v6, v4
 
-    .line 7
     invoke-virtual {v1, v6}, Landroidx/room/RoomDatabase$Builder;->addMigrations([Landroidx/room/migration/Migration;)Landroidx/room/RoomDatabase$Builder;
 
     goto :goto_1
 
-    .line 8
     :cond_1
     invoke-virtual {v1}, Landroidx/room/RoomDatabase$Builder;->build()Landroidx/room/RoomDatabase;
 
@@ -177,7 +170,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/meitu/room/database/DBHelper$dataBase$2;->invoke()Lcom/meitu/room/database/MTBeautyplusDatabase;
 
     move-result-object v1

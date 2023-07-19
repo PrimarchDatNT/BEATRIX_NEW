@@ -62,7 +62,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p2, Lcom/commsource/studio/function/t/c;
 
     invoke-virtual {p0, p1, p2}, Lcom/commsource/studio/function/NewSkinColorFragment$b;->b(ILcom/commsource/studio/function/t/c;)Z
@@ -81,7 +80,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/studio/function/NewSkinColorFragment$b;->c:Lcom/commsource/studio/function/NewSkinColorFragment;
 
     const-string v1, "entity"
@@ -90,7 +88,6 @@
 
     invoke-static {v0, p2}, Lcom/commsource/studio/function/NewSkinColorFragment;->A1(Lcom/commsource/studio/function/NewSkinColorFragment;Lcom/commsource/studio/function/t/c;)V
 
-    .line 2
     iget-object v0, p0, Lcom/commsource/studio/function/NewSkinColorFragment$b;->a:Landroidx/recyclerview/widget/RecyclerView;
 
     invoke-virtual {v0}, Landroidx/recyclerview/widget/RecyclerView;->getAdapter()Landroidx/recyclerview/widget/RecyclerView$Adapter;
@@ -105,7 +102,6 @@
 
     invoke-virtual {v0, p2}, Lcom/commsource/widget/h1/e;->E(Ljava/lang/Object;)V
 
-    .line 3
     iget-object p2, p0, Lcom/commsource/studio/function/NewSkinColorFragment$b;->c:Lcom/commsource/studio/function/NewSkinColorFragment;
 
     invoke-static {p2}, Lcom/commsource/studio/function/NewSkinColorFragment;->C1(Lcom/commsource/studio/function/NewSkinColorFragment;)Lcom/commsource/beautyplus/f0/u9;
@@ -132,12 +128,10 @@
 
     const/4 p2, 0x0
 
-    .line 4
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p2
 
-    .line 5
     :cond_0
     new-instance p2, Lcotlin/TypeCastException;
 
@@ -147,7 +141,6 @@
 
     throw p2
 
-    .line 6
     :cond_1
     new-instance p2, Lcotlin/TypeCastException;
 

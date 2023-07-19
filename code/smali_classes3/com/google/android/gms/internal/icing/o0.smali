@@ -16,7 +16,6 @@
 .method final synthetic c(Ljava/lang/Object;)Ljava/lang/Object;
     .locals 0
 
-    .line 1
     new-instance p1, Ljava/lang/NoSuchMethodError;
 
     invoke-direct {p1}, Ljava/lang/NoSuchMethodError;-><init>()V

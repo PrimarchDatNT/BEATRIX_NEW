@@ -37,13 +37,10 @@
 .method public constructor <init>(Lcom/google/ads/mediation/AbstractAdViewAdapter;Lcom/google/android/gms/ads/mediation/k;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/google/android/gms/ads/b;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/google/ads/mediation/AbstractAdViewAdapter$c;->a:Lcom/google/ads/mediation/AbstractAdViewAdapter;
 
-    .line 3
     iput-object p2, p0, Lcom/google/ads/mediation/AbstractAdViewAdapter$c;->b:Lcom/google/android/gms/ads/mediation/k;
 
     return-void
@@ -54,7 +51,6 @@
 .method public final b(Ljava/lang/String;Ljava/lang/String;)V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/google/ads/mediation/AbstractAdViewAdapter$c;->b:Lcom/google/android/gms/ads/mediation/k;
 
     iget-object v1, p0, Lcom/google/ads/mediation/AbstractAdViewAdapter$c;->a:Lcom/google/ads/mediation/AbstractAdViewAdapter;
@@ -67,7 +63,6 @@
 .method public final onAdClicked()V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/google/ads/mediation/AbstractAdViewAdapter$c;->b:Lcom/google/android/gms/ads/mediation/k;
 
     iget-object v1, p0, Lcom/google/ads/mediation/AbstractAdViewAdapter$c;->a:Lcom/google/ads/mediation/AbstractAdViewAdapter;
@@ -80,7 +75,6 @@
 .method public final onAdClosed()V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/google/ads/mediation/AbstractAdViewAdapter$c;->b:Lcom/google/android/gms/ads/mediation/k;
 
     iget-object v1, p0, Lcom/google/ads/mediation/AbstractAdViewAdapter$c;->a:Lcom/google/ads/mediation/AbstractAdViewAdapter;
@@ -93,7 +87,6 @@
 .method public final onAdFailedToLoad(I)V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/google/ads/mediation/AbstractAdViewAdapter$c;->b:Lcom/google/android/gms/ads/mediation/k;
 
     iget-object v1, p0, Lcom/google/ads/mediation/AbstractAdViewAdapter$c;->a:Lcom/google/ads/mediation/AbstractAdViewAdapter;
@@ -106,7 +99,6 @@
 .method public final onAdLeftApplication()V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/google/ads/mediation/AbstractAdViewAdapter$c;->b:Lcom/google/android/gms/ads/mediation/k;
 
     iget-object v1, p0, Lcom/google/ads/mediation/AbstractAdViewAdapter$c;->a:Lcom/google/ads/mediation/AbstractAdViewAdapter;
@@ -119,7 +111,6 @@
 .method public final onAdLoaded()V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/google/ads/mediation/AbstractAdViewAdapter$c;->b:Lcom/google/android/gms/ads/mediation/k;
 
     iget-object v1, p0, Lcom/google/ads/mediation/AbstractAdViewAdapter$c;->a:Lcom/google/ads/mediation/AbstractAdViewAdapter;
@@ -132,7 +123,6 @@
 .method public final onAdOpened()V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/google/ads/mediation/AbstractAdViewAdapter$c;->b:Lcom/google/android/gms/ads/mediation/k;
 
     iget-object v1, p0, Lcom/google/ads/mediation/AbstractAdViewAdapter$c;->a:Lcom/google/ads/mediation/AbstractAdViewAdapter;

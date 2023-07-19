@@ -25,7 +25,6 @@
 .method constructor <init>(Lcom/meitu/media/encoder/a;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/media/encoder/a$c;->a:Lcom/meitu/media/encoder/a;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -42,7 +41,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/media/encoder/a$c;->a:Lcom/meitu/media/encoder/a;
 
     invoke-static {v1}, Lcom/meitu/media/encoder/a;->j(Lcom/meitu/media/encoder/a;)Z
@@ -51,7 +49,6 @@
 
     const-string v2, "AVEncoder"
 
-    .line 2
     new-instance v3, Ljava/lang/StringBuilder;
 
     invoke-direct {v3}, Ljava/lang/StringBuilder;-><init>()V
@@ -70,12 +67,10 @@
 
     if-eqz v1, :cond_0
 
-    .line 3
     iget-object v1, p0, Lcom/meitu/media/encoder/a$c;->a:Lcom/meitu/media/encoder/a;
 
     invoke-static {v1}, Lcom/meitu/media/encoder/a;->k(Lcom/meitu/media/encoder/a;)V
 
-    .line 4
     :cond_0
     iget-object v1, p0, Lcom/meitu/media/encoder/a$c;->a:Lcom/meitu/media/encoder/a;
 
@@ -85,7 +80,6 @@
 
     monitor-enter v1
 
-    .line 5
     :try_start_0
     iget-object v2, p0, Lcom/meitu/media/encoder/a$c;->a:Lcom/meitu/media/encoder/a;
 
@@ -93,7 +87,6 @@
 
     invoke-static {v2, v3}, Lcom/meitu/media/encoder/a;->B(Lcom/meitu/media/encoder/a;Z)Z
 
-    .line 6
     iget-object v2, p0, Lcom/meitu/media/encoder/a$c;->a:Lcom/meitu/media/encoder/a;
 
     invoke-static {v2}, Lcom/meitu/media/encoder/a;->x(Lcom/meitu/media/encoder/a;)Ljava/lang/Object;
@@ -102,12 +95,10 @@
 
     invoke-virtual {v2}, Ljava/lang/Object;->notify()V
 
-    .line 7
     monitor-exit v1
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -115,7 +106,6 @@
     :catchall_0
     move-exception v2
 
-    .line 9
     :try_start_1
     monitor-exit v1
     :try_end_1

@@ -66,7 +66,6 @@
 .method static constructor <clinit>()V
     .locals 17
 
-    .line 1
     new-instance v0, Lio/grpc/internal/GrpcUtil$Http2Error;
 
     sget-object v1, Lio/grpc/Status;->v:Lio/grpc/Status;
@@ -79,7 +78,6 @@
 
     sput-object v0, Lio/grpc/internal/GrpcUtil$Http2Error;->NO_ERROR:Lio/grpc/internal/GrpcUtil$Http2Error;
 
-    .line 2
     new-instance v2, Lio/grpc/internal/GrpcUtil$Http2Error;
 
     sget-object v4, Lio/grpc/Status;->u:Lio/grpc/Status;
@@ -92,7 +90,6 @@
 
     sput-object v2, Lio/grpc/internal/GrpcUtil$Http2Error;->PROTOCOL_ERROR:Lio/grpc/internal/GrpcUtil$Http2Error;
 
-    .line 3
     new-instance v5, Lio/grpc/internal/GrpcUtil$Http2Error;
 
     const-string v7, "INTERNAL_ERROR"
@@ -103,7 +100,6 @@
 
     sput-object v5, Lio/grpc/internal/GrpcUtil$Http2Error;->INTERNAL_ERROR:Lio/grpc/internal/GrpcUtil$Http2Error;
 
-    .line 4
     new-instance v7, Lio/grpc/internal/GrpcUtil$Http2Error;
 
     const-string v9, "FLOW_CONTROL_ERROR"
@@ -114,7 +110,6 @@
 
     sput-object v7, Lio/grpc/internal/GrpcUtil$Http2Error;->FLOW_CONTROL_ERROR:Lio/grpc/internal/GrpcUtil$Http2Error;
 
-    .line 5
     new-instance v9, Lio/grpc/internal/GrpcUtil$Http2Error;
 
     const-string v11, "SETTINGS_TIMEOUT"
@@ -125,7 +120,6 @@
 
     sput-object v9, Lio/grpc/internal/GrpcUtil$Http2Error;->SETTINGS_TIMEOUT:Lio/grpc/internal/GrpcUtil$Http2Error;
 
-    .line 6
     new-instance v11, Lio/grpc/internal/GrpcUtil$Http2Error;
 
     const-string v13, "STREAM_CLOSED"
@@ -136,7 +130,6 @@
 
     sput-object v11, Lio/grpc/internal/GrpcUtil$Http2Error;->STREAM_CLOSED:Lio/grpc/internal/GrpcUtil$Http2Error;
 
-    .line 7
     new-instance v13, Lio/grpc/internal/GrpcUtil$Http2Error;
 
     const-string v15, "FRAME_SIZE_ERROR"
@@ -147,7 +140,6 @@
 
     sput-object v13, Lio/grpc/internal/GrpcUtil$Http2Error;->FRAME_SIZE_ERROR:Lio/grpc/internal/GrpcUtil$Http2Error;
 
-    .line 8
     new-instance v15, Lio/grpc/internal/GrpcUtil$Http2Error;
 
     const-string v14, "REFUSED_STREAM"
@@ -158,7 +150,6 @@
 
     sput-object v15, Lio/grpc/internal/GrpcUtil$Http2Error;->REFUSED_STREAM:Lio/grpc/internal/GrpcUtil$Http2Error;
 
-    .line 9
     new-instance v1, Lio/grpc/internal/GrpcUtil$Http2Error;
 
     sget-object v14, Lio/grpc/Status;->h:Lio/grpc/Status;
@@ -171,7 +162,6 @@
 
     sput-object v1, Lio/grpc/internal/GrpcUtil$Http2Error;->CANCEL:Lio/grpc/internal/GrpcUtil$Http2Error;
 
-    .line 10
     new-instance v12, Lio/grpc/internal/GrpcUtil$Http2Error;
 
     const-string v14, "COMPRESSION_ERROR"
@@ -182,7 +172,6 @@
 
     sput-object v12, Lio/grpc/internal/GrpcUtil$Http2Error;->COMPRESSION_ERROR:Lio/grpc/internal/GrpcUtil$Http2Error;
 
-    .line 11
     new-instance v14, Lio/grpc/internal/GrpcUtil$Http2Error;
 
     const-string v10, "CONNECT_ERROR"
@@ -193,7 +182,6 @@
 
     sput-object v14, Lio/grpc/internal/GrpcUtil$Http2Error;->CONNECT_ERROR:Lio/grpc/internal/GrpcUtil$Http2Error;
 
-    .line 12
     new-instance v4, Lio/grpc/internal/GrpcUtil$Http2Error;
 
     sget-object v10, Lio/grpc/Status;->p:Lio/grpc/Status;
@@ -212,7 +200,6 @@
 
     sput-object v4, Lio/grpc/internal/GrpcUtil$Http2Error;->ENHANCE_YOUR_CALM:Lio/grpc/internal/GrpcUtil$Http2Error;
 
-    .line 13
     new-instance v8, Lio/grpc/internal/GrpcUtil$Http2Error;
 
     sget-object v10, Lio/grpc/Status;->n:Lio/grpc/Status;
@@ -231,7 +218,6 @@
 
     sput-object v8, Lio/grpc/internal/GrpcUtil$Http2Error;->INADEQUATE_SECURITY:Lio/grpc/internal/GrpcUtil$Http2Error;
 
-    .line 14
     new-instance v6, Lio/grpc/internal/GrpcUtil$Http2Error;
 
     sget-object v10, Lio/grpc/Status;->i:Lio/grpc/Status;
@@ -304,10 +290,8 @@
 
     aput-object v6, v3, v8
 
-    .line 15
     sput-object v3, Lio/grpc/internal/GrpcUtil$Http2Error;->$VALUES:[Lio/grpc/internal/GrpcUtil$Http2Error;
 
-    .line 16
     invoke-static {}, Lio/grpc/internal/GrpcUtil$Http2Error;->buildHttp2CodeMap()[Lio/grpc/internal/GrpcUtil$Http2Error;
 
     move-result-object v0
@@ -327,13 +311,10 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 2
     iput p3, p0, Lio/grpc/internal/GrpcUtil$Http2Error;->code:I
 
-    .line 3
     new-instance p1, Ljava/lang/StringBuilder;
 
     invoke-direct {p1}, Ljava/lang/StringBuilder;-><init>()V
@@ -364,12 +345,10 @@
 .method private static buildHttp2CodeMap()[Lio/grpc/internal/GrpcUtil$Http2Error;
     .locals 7
 
-    .line 1
     invoke-static {}, Lio/grpc/internal/GrpcUtil$Http2Error;->values()[Lio/grpc/internal/GrpcUtil$Http2Error;
 
     move-result-object v0
 
-    .line 2
     array-length v1, v0
 
     add-int/lit8 v1, v1, -0x1
@@ -384,10 +363,8 @@
 
     add-int/lit8 v2, v2, 0x1
 
-    .line 3
     new-array v1, v2, [Lio/grpc/internal/GrpcUtil$Http2Error;
 
-    .line 4
     array-length v2, v0
 
     const/4 v3, 0x0
@@ -397,14 +374,12 @@
 
     aget-object v4, v0, v3
 
-    .line 5
     invoke-virtual {v4}, Lio/grpc/internal/GrpcUtil$Http2Error;->code()J
 
     move-result-wide v5
 
     long-to-int v6, v5
 
-    .line 6
     aput-object v4, v1, v6
 
     add-int/lit8 v3, v3, 0x1
@@ -418,7 +393,6 @@
 .method public static forCode(J)Lio/grpc/internal/GrpcUtil$Http2Error;
     .locals 4
 
-    .line 1
     sget-object v0, Lio/grpc/internal/GrpcUtil$Http2Error;->codeMap:[Lio/grpc/internal/GrpcUtil$Http2Error;
 
     array-length v1, v0
@@ -440,7 +414,6 @@
     :cond_0
     long-to-int p1, p0
 
-    .line 2
     aget-object p0, v0, p1
 
     return-object p0
@@ -455,14 +428,12 @@
 .method public static statusForCode(J)Lio/grpc/Status;
     .locals 3
 
-    .line 1
     invoke-static {p0, p1}, Lio/grpc/internal/GrpcUtil$Http2Error;->forCode(J)Lio/grpc/internal/GrpcUtil$Http2Error;
 
     move-result-object v0
 
     if-nez v0, :cond_0
 
-    .line 2
     sget-object v0, Lio/grpc/internal/GrpcUtil$Http2Error;->INTERNAL_ERROR:Lio/grpc/internal/GrpcUtil$Http2Error;
 
     invoke-virtual {v0}, Lio/grpc/internal/GrpcUtil$Http2Error;->status()Lio/grpc/Status;
@@ -473,7 +444,6 @@
 
     move-result-object v0
 
-    .line 3
     invoke-virtual {v0}, Lio/grpc/Status$Code;->value()I
 
     move-result v0
@@ -496,14 +466,12 @@
 
     move-result-object p0
 
-    .line 4
     invoke-virtual {v0, p0}, Lio/grpc/Status;->u(Ljava/lang/String;)Lio/grpc/Status;
 
     move-result-object p0
 
     return-object p0
 
-    .line 5
     :cond_0
     invoke-virtual {v0}, Lio/grpc/internal/GrpcUtil$Http2Error;->status()Lio/grpc/Status;
 
@@ -515,7 +483,6 @@
 .method public static valueOf(Ljava/lang/String;)Lio/grpc/internal/GrpcUtil$Http2Error;
     .locals 1
 
-    .line 1
     const-class v0, Lio/grpc/internal/GrpcUtil$Http2Error;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -530,7 +497,6 @@
 .method public static values()[Lio/grpc/internal/GrpcUtil$Http2Error;
     .locals 1
 
-    .line 1
     sget-object v0, Lio/grpc/internal/GrpcUtil$Http2Error;->$VALUES:[Lio/grpc/internal/GrpcUtil$Http2Error;
 
     invoke-virtual {v0}, [Lio/grpc/internal/GrpcUtil$Http2Error;->clone()Ljava/lang/Object;
@@ -547,7 +513,6 @@
 .method public code()J
     .locals 2
 
-    .line 1
     iget v0, p0, Lio/grpc/internal/GrpcUtil$Http2Error;->code:I
 
     int-to-long v0, v0
@@ -558,7 +523,6 @@
 .method public status()Lio/grpc/Status;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lio/grpc/internal/GrpcUtil$Http2Error;->status:Lio/grpc/Status;
 
     return-object v0

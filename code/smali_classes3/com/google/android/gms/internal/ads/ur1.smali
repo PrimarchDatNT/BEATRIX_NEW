@@ -38,10 +38,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/google/android/gms/internal/ads/ur1;->a:Ljava/lang/Class;
 
     return-void
@@ -73,7 +71,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/ur1;->a:Ljava/lang/Class;
 
     return-object v0

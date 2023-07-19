@@ -10,7 +10,6 @@
 .method constructor <init>(Lcom/google/android/gms/internal/firebase_auth/m;Lcom/google/android/gms/internal/firebase_auth/n;Ljava/lang/CharSequence;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/android/gms/internal/firebase_auth/p;->J:Lcom/google/android/gms/internal/firebase_auth/m;
 
     invoke-direct {p0, p2, p3}, Lcom/google/android/gms/internal/firebase_auth/q;-><init>(Lcom/google/android/gms/internal/firebase_auth/n;Ljava/lang/CharSequence;)V
@@ -23,7 +22,6 @@
 .method final c(I)I
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/firebase_auth/p;->J:Lcom/google/android/gms/internal/firebase_auth/m;
 
     iget-object v0, v0, Lcom/google/android/gms/internal/firebase_auth/m;->a:Lcom/google/android/gms/internal/firebase_auth/f;

@@ -55,7 +55,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p2, Lcom/commsource/repository/child/makeup/e;
 
     invoke-virtual {p0, p1, p2}, Lcom/commsource/studio/function/makeup/StudioMakeupFragment$k;->b(ILcom/commsource/repository/child/makeup/e;)Z
@@ -78,7 +77,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/function/makeup/StudioMakeupFragment$k;->a:Lcom/commsource/studio/function/makeup/StudioMakeupFragment;
 
     invoke-virtual {v1}, Lcom/commsource/studio/function/makeup/StudioMakeupFragment;->V1()Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/i;
@@ -93,7 +91,6 @@
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v2
@@ -103,7 +100,6 @@
 
     if-eqz p2, :cond_3
 
-    .line 3
     invoke-virtual {p2}, Lcom/commsource/repository/child/makeup/e;->e()I
 
     move-result v3
@@ -150,7 +146,6 @@
     :goto_1
     if-eqz p2, :cond_3
 
-    .line 4
     iget-object p2, p0, Lcom/commsource/studio/function/makeup/StudioMakeupFragment$k;->a:Lcom/commsource/studio/function/makeup/StudioMakeupFragment;
 
     invoke-static {p2}, Lcom/commsource/studio/function/makeup/StudioMakeupFragment;->B1(Lcom/commsource/studio/function/makeup/StudioMakeupFragment;)Landroid/app/Activity;
@@ -167,13 +162,11 @@
 
     invoke-static {p2, v3}, Lf/k/c/c/f;->z(Ljava/lang/String;[Ljava/lang/Object;)V
 
-    .line 5
     :cond_3
     iget-object p2, p0, Lcom/commsource/studio/function/makeup/StudioMakeupFragment$k;->a:Lcom/commsource/studio/function/makeup/StudioMakeupFragment;
 
     invoke-static {p2, v1}, Lcom/commsource/studio/function/makeup/StudioMakeupFragment;->C1(Lcom/commsource/studio/function/makeup/StudioMakeupFragment;Z)V
 
-    .line 6
     iget-object p2, p0, Lcom/commsource/studio/function/makeup/StudioMakeupFragment$k;->a:Lcom/commsource/studio/function/makeup/StudioMakeupFragment;
 
     invoke-virtual {p2}, Lcom/commsource/studio/function/makeup/StudioMakeupFragment;->S1()Lcom/commsource/beautyplus/f0/qb;
@@ -184,7 +177,6 @@
 
     invoke-virtual {p2, p1, v1}, Landroidx/viewpager2/widget/ViewPager2;->setCurrentItem(IZ)V
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v2

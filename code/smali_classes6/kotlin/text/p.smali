@@ -20,7 +20,6 @@
     .annotation build Lcotlin/internal/f;
     .end annotation
 
-    .line 1
     new-instance v0, Lcotlin/text/Regex;
 
     invoke-direct {v0, p0}, Lcotlin/text/Regex;-><init>(Ljava/lang/String;)V
@@ -45,7 +44,6 @@
     .annotation build Lcotlin/internal/f;
     .end annotation
 
-    .line 1
     new-instance v0, Lcotlin/text/Regex;
 
     invoke-direct {v0, p0, p1}, Lcotlin/text/Regex;-><init>(Ljava/lang/String;Ljava/util/Set;)V
@@ -58,7 +56,6 @@
     .annotation build Lcotlin/internal/f;
     .end annotation
 
-    .line 1
     new-instance v0, Lcotlin/text/Regex;
 
     invoke-direct {v0, p0, p1}, Lcotlin/text/Regex;-><init>(Ljava/lang/String;Lcotlin/text/RegexOption;)V

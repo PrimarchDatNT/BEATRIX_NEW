@@ -26,10 +26,8 @@
 
     new-array v1, v0, [Ljava/lang/String;
 
-    .line 1
     invoke-direct {p0, v1, v0}, Landroid/database/MatrixCursor;-><init>([Ljava/lang/String;I)V
 
-    .line 2
     iput-object p1, p0, Lcom/meitu/library/MultiProcessSharedPreferences$b;->a:Landroid/os/Bundle;
 
     return-void
@@ -44,7 +42,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/library/MultiProcessSharedPreferences$b;->a:Landroid/os/Bundle;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -59,10 +56,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/library/MultiProcessSharedPreferences$b;->a:Landroid/os/Bundle;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p1

@@ -23,10 +23,8 @@
 .method constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     new-instance v0, Ljava/util/HashSet;
 
     invoke-direct {v0}, Ljava/util/HashSet;-><init>()V
@@ -39,30 +37,25 @@
 .method public static a()Lcom/google/firebase/y/d;
     .locals 2
 
-    .line 1
     sget-object v0, Lcom/google/firebase/y/d;->b:Lcom/google/firebase/y/d;
 
     if-nez v0, :cond_1
 
-    .line 2
     const-class v1, Lcom/google/firebase/y/d;
 
     monitor-enter v1
 
-    .line 3
     :try_start_0
     sget-object v0, Lcom/google/firebase/y/d;->b:Lcom/google/firebase/y/d;
 
     if-nez v0, :cond_0
 
-    .line 4
     new-instance v0, Lcom/google/firebase/y/d;
 
     invoke-direct {v0}, Lcom/google/firebase/y/d;-><init>()V
 
     sput-object v0, Lcom/google/firebase/y/d;->b:Lcom/google/firebase/y/d;
 
-    .line 5
     :cond_0
     monitor-exit v1
 
@@ -95,12 +88,10 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/y/d;->a:Ljava/util/Set;
 
     monitor-enter v0
 
-    .line 2
     :try_start_0
     iget-object v1, p0, Lcom/google/firebase/y/d;->a:Ljava/util/Set;
 
@@ -115,7 +106,6 @@
     :catchall_0
     move-exception v1
 
-    .line 3
     monitor-exit v0
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
@@ -126,12 +116,10 @@
 .method public c(Ljava/lang/String;Ljava/lang/String;)V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/y/d;->a:Ljava/util/Set;
 
     monitor-enter v0
 
-    .line 2
     :try_start_0
     iget-object v1, p0, Lcom/google/firebase/y/d;->a:Ljava/util/Set;
 
@@ -141,7 +129,6 @@
 
     invoke-interface {v1, p1}, Ljava/util/Set;->add(Ljava/lang/Object;)Z
 
-    .line 3
     monitor-exit v0
 
     return-void

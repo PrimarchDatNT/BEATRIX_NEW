@@ -7,7 +7,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/google/android/gms/internal/ads/ej;-><init>()V
 
     return-void
@@ -18,10 +17,8 @@
 
     const-string v0, "This app is using a lightweight version of the Google Mobile Ads SDK that requires the latest Google Play services to be installed, but Google Play services is either missing or out of date."
 
-    .line 1
     invoke-static {v0}, Lcom/google/android/gms/internal/ads/aq;->g(Ljava/lang/String;)V
 
-    .line 2
     sget-object v0, Lcom/google/android/gms/internal/ads/pp;->b:Landroid/os/Handler;
 
     new-instance v1, Lcom/google/android/gms/internal/ads/kq2;
@@ -76,7 +73,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p2}, Lcom/google/android/gms/internal/ads/hq2;->J5(Lcom/google/android/gms/internal/ads/nj;)V
 
     return-void
@@ -120,7 +116,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p2}, Lcom/google/android/gms/internal/ads/hq2;->J5(Lcom/google/android/gms/internal/ads/nj;)V
 
     return-void
@@ -155,7 +150,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Landroid/os/Bundle;
 
     invoke-direct {v0}, Landroid/os/Bundle;-><init>()V

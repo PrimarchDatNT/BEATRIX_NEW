@@ -30,12 +30,10 @@
 .method public final call()Ljava/lang/Object;
     .locals 6
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/kn;->a:Landroid/content/Context;
 
     iget-object v1, p0, Lcom/google/android/gms/internal/ads/kn;->b:Landroid/webkit/WebSettings;
 
-    .line 2
     invoke-virtual {v0}, Landroid/content/Context;->getCacheDir()Ljava/io/File;
 
     move-result-object v2
@@ -44,7 +42,6 @@
 
     if-eqz v2, :cond_0
 
-    .line 3
     invoke-virtual {v0}, Landroid/content/Context;->getCacheDir()Ljava/io/File;
 
     move-result-object v2
@@ -57,16 +54,13 @@
 
     const-wide/16 v4, 0x0
 
-    .line 4
     invoke-virtual {v1, v4, v5}, Landroid/webkit/WebSettings;->setAppCacheMaxSize(J)V
 
-    .line 5
     invoke-virtual {v1, v3}, Landroid/webkit/WebSettings;->setAppCacheEnabled(Z)V
 
     :cond_0
     const-string v2, "com.google.android.gms.ads.db"
 
-    .line 6
     invoke-virtual {v0, v2}, Landroid/content/Context;->getDatabasePath(Ljava/lang/String;)Ljava/io/File;
 
     move-result-object v0
@@ -77,27 +71,20 @@
 
     invoke-virtual {v1, v0}, Landroid/webkit/WebSettings;->setDatabasePath(Ljava/lang/String;)V
 
-    .line 7
     invoke-virtual {v1, v3}, Landroid/webkit/WebSettings;->setDatabaseEnabled(Z)V
 
-    .line 8
     invoke-virtual {v1, v3}, Landroid/webkit/WebSettings;->setDomStorageEnabled(Z)V
 
     const/4 v0, 0x0
 
-    .line 9
     invoke-virtual {v1, v0}, Landroid/webkit/WebSettings;->setDisplayZoomControls(Z)V
 
-    .line 10
     invoke-virtual {v1, v3}, Landroid/webkit/WebSettings;->setBuiltInZoomControls(Z)V
 
-    .line 11
     invoke-virtual {v1, v3}, Landroid/webkit/WebSettings;->setSupportZoom(Z)V
 
-    .line 12
     invoke-virtual {v1, v0}, Landroid/webkit/WebSettings;->setAllowContentAccess(Z)V
 
-    .line 13
     sget-object v0, Ljava/lang/Boolean;->TRUE:Ljava/lang/Boolean;
 
     return-object v0

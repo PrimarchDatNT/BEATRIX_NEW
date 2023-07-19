@@ -26,17 +26,14 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     new-instance v0, Landroid/os/Handler;
 
     invoke-direct {v0}, Landroid/os/Handler;-><init>()V
 
     iput-object v0, p0, Lcom/mopub/nativeads/ClientPositioningSource;->mHandler:Landroid/os/Handler;
 
-    .line 3
     invoke-static {p1}, Lcom/mopub/nativeads/MoPubNativeAdPositioning;->clone(Lcom/mopub/nativeads/MoPubNativeAdPositioning$MoPubClientPositioning;)Lcom/mopub/nativeads/MoPubNativeAdPositioning$MoPubClientPositioning;
 
     move-result-object p1
@@ -49,7 +46,6 @@
 .method static synthetic access$000(Lcom/mopub/nativeads/ClientPositioningSource;)Lcom/mopub/nativeads/MoPubNativeAdPositioning$MoPubClientPositioning;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lcom/mopub/nativeads/ClientPositioningSource;->mPositioning:Lcom/mopub/nativeads/MoPubNativeAdPositioning$MoPubClientPositioning;
 
     return-object p0
@@ -68,7 +64,6 @@
         .end annotation
     .end param
 
-    .line 1
     iget-object p1, p0, Lcom/mopub/nativeads/ClientPositioningSource;->mHandler:Landroid/os/Handler;
 
     new-instance v0, Lcom/mopub/nativeads/ClientPositioningSource$1;

@@ -25,7 +25,6 @@
 .method constructor <init>(Lcom/meitu/media/encoder/h;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/media/encoder/h$b;->a:Lcom/meitu/media/encoder/h;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -42,7 +41,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/media/encoder/h$b;->a:Lcom/meitu/media/encoder/h;
 
     iget-boolean v2, v1, Lcom/meitu/media/encoder/h;->e:Z
@@ -57,10 +55,8 @@
 
     const-string v1, "mRequestDestroyWindowSurface has been set to  true, mEglSurface will be set null later"
 
-    .line 2
     invoke-static {v3, v1}, Lcom/meitu/debug/Logger;->x(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 3
     :cond_0
     iget-object v1, p0, Lcom/meitu/media/encoder/h$b;->a:Lcom/meitu/media/encoder/h;
 
@@ -70,10 +66,8 @@
 
     const-string v1, "call onVideoShouldStart finish, set mRequestCreateWindowSurface: true"
 
-    .line 4
     invoke-static {v3, v1}, Lcom/meitu/debug/Logger;->x(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -86,7 +80,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/media/encoder/h$b;->a:Lcom/meitu/media/encoder/h;
 
     const/4 v2, 0x1
@@ -97,10 +90,8 @@
 
     const-string v2, "call onVideoShouldStop finish, set mRequestDestroyWindowSurface: true"
 
-    .line 2
     invoke-static {v1, v2}, Lcom/meitu/debug/Logger;->x(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

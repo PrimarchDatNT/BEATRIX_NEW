@@ -26,14 +26,12 @@
 .method public final b(Ljava/lang/Object;)V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/l51;->a:Ljava/util/ArrayList;
 
     check-cast p1, Landroid/os/Bundle;
 
     const-string v1, "ad_types"
 
-    .line 2
     invoke-virtual {p1, v1, v0}, Landroid/os/Bundle;->putStringArrayList(Ljava/lang/String;Ljava/util/ArrayList;)V
 
     return-void

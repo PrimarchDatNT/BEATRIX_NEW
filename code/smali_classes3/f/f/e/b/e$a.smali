@@ -24,13 +24,10 @@
 .method constructor <init>([[C)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lf/f/e/b/d;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lf/f/e/b/e$a;->c:[[C
 
-    .line 3
     array-length p1, p1
 
     iput p1, p0, Lf/f/e/b/e$a;->d:I
@@ -43,7 +40,6 @@
 .method public b(Ljava/lang/String;)Ljava/lang/String;
     .locals 5
 
-    .line 1
     invoke-virtual {p1}, Ljava/lang/String;->length()I
 
     move-result v0
@@ -53,12 +49,10 @@
     :goto_0
     if-ge v1, v0, :cond_1
 
-    .line 2
     invoke-virtual {p1, v1}, Ljava/lang/String;->charAt(I)C
 
     move-result v2
 
-    .line 3
     iget-object v3, p0, Lf/f/e/b/e$a;->c:[[C
 
     array-length v4, v3
@@ -69,7 +63,6 @@
 
     if-eqz v2, :cond_0
 
-    .line 4
     invoke-virtual {p0, p1, v1}, Lf/f/e/b/d;->d(Ljava/lang/String;I)Ljava/lang/String;
 
     move-result-object p1
@@ -88,7 +81,6 @@
 .method protected c(C)[C
     .locals 1
 
-    .line 1
     iget v0, p0, Lf/f/e/b/e$a;->d:I
 
     if-ge p1, v0, :cond_0

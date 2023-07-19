@@ -25,7 +25,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-direct {p0, v0}, Lkshark/b0;-><init>(Lcotlin/jvm/internal/u;)V
 
     iput-byte p1, p0, Lkshark/b0$b;->c:B
@@ -75,7 +74,6 @@
 .method public final d()B
     .locals 1
 
-    .line 1
     iget-byte v0, p0, Lkshark/b0$b;->c:B
 
     return v0

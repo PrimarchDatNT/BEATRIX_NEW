@@ -16,7 +16,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -36,45 +35,37 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0}, Ljava/lang/Object;->clone()Ljava/lang/Object;
 
     move-result-object v1
 
     check-cast v1, Lcom/meitu/mtlab/MTAiInterface/MTSkinBCCModule/MTSkinBCC;
 
-    .line 2
     iget-object v2, p0, Lcom/meitu/mtlab/MTAiInterface/MTSkinBCCModule/MTSkinBCC;->rectScores:[F
 
     const/4 v3, 0x0
 
     if-eqz v2, :cond_0
 
-    .line 3
     array-length v2, v2
 
     new-array v4, v2, [F
 
-    .line 4
     iget-object v5, v1, Lcom/meitu/mtlab/MTAiInterface/MTSkinBCCModule/MTSkinBCC;->rectScores:[F
 
     invoke-static {v5, v3, v4, v3, v2}, Ljava/lang/System;->arraycopy(Ljava/lang/Object;ILjava/lang/Object;II)V
 
-    .line 5
     iput-object v4, v1, Lcom/meitu/mtlab/MTAiInterface/MTSkinBCCModule/MTSkinBCC;->rectScores:[F
 
-    .line 6
     :cond_0
     iget-object v2, p0, Lcom/meitu/mtlab/MTAiInterface/MTSkinBCCModule/MTSkinBCC;->rects:[Landroid/graphics/RectF;
 
     if-eqz v2, :cond_2
 
-    .line 7
     array-length v2, v2
 
     new-array v2, v2, [Landroid/graphics/RectF;
 
-    .line 8
     :goto_0
     iget-object v4, p0, Lcom/meitu/mtlab/MTAiInterface/MTSkinBCCModule/MTSkinBCC;->rects:[Landroid/graphics/RectF;
 
@@ -82,7 +73,6 @@
 
     if-ge v3, v4, :cond_1
 
-    .line 9
     new-instance v4, Landroid/graphics/RectF;
 
     iget-object v5, p0, Lcom/meitu/mtlab/MTAiInterface/MTSkinBCCModule/MTSkinBCC;->rects:[Landroid/graphics/RectF;
@@ -97,11 +87,9 @@
 
     goto :goto_0
 
-    .line 10
     :cond_1
     iput-object v2, v1, Lcom/meitu/mtlab/MTAiInterface/MTSkinBCCModule/MTSkinBCC;->rects:[Landroid/graphics/RectF;
 
-    .line 11
     :cond_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

@@ -7,7 +7,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Landroid/content/BroadcastReceiver;-><init>()V
 
     return-void
@@ -22,7 +21,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p2}, Landroid/content/Intent;->getAction()Ljava/lang/String;
 
     move-result-object v1
@@ -39,12 +37,10 @@
 
     const-string v3, "extra_download_id"
 
-    .line 2
     invoke-virtual {p2, v3, v1, v2}, Landroid/content/Intent;->getLongExtra(Ljava/lang/String;J)J
 
     move-result-wide v1
 
-    .line 3
     sget-object p2, Lcom/meitu/webview/download/b;->b:Ljava/util/HashMap;
 
     if-eqz p2, :cond_1
@@ -59,7 +55,6 @@
 
     if-eqz p2, :cond_1
 
-    .line 4
     sget-object p2, Lcom/meitu/webview/download/b;->b:Ljava/util/HashMap;
 
     invoke-static {v1, v2}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
@@ -68,12 +63,10 @@
 
     invoke-virtual {p2, v3}, Ljava/util/HashMap;->remove(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 5
     sget-object p2, Lcom/meitu/webview/download/b;->c:Ljava/util/HashMap;
 
     if-eqz p2, :cond_1
 
-    .line 6
     invoke-static {v1, v2}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
 
     move-result-object v3
@@ -84,7 +77,6 @@
 
     check-cast p2, Ljava/lang/String;
 
-    .line 7
     sget-object v3, Lcom/meitu/webview/download/b;->c:Ljava/util/HashMap;
 
     invoke-static {v1, v2}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
@@ -95,23 +87,19 @@
 
     if-eqz p2, :cond_1
 
-    .line 8
     invoke-static {p2}, Lcom/meitu/webview/utils/g;->p(Ljava/lang/String;)Z
 
     move-result v1
 
     if-eqz v1, :cond_0
 
-    .line 9
     invoke-static {p2}, Lcom/meitu/library/p/d/a;->n(Ljava/lang/String;)V
 
     goto :goto_0
 
-    .line 10
     :cond_0
     invoke-static {p2}, Lcom/meitu/webview/utils/g;->t(Ljava/lang/String;)V
 
-    .line 11
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -136,7 +124,6 @@
 
     invoke-static {p1}, Lcom/meitu/webview/utils/g;->v(Ljava/lang/String;)V
 
-    .line 12
     :cond_1
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

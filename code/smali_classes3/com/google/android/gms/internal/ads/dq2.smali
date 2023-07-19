@@ -11,7 +11,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/google/android/gms/internal/ads/fo2;-><init>()V
 
     return-void
@@ -55,12 +54,10 @@
 .method final synthetic G5()V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/dq2;->b:Lcom/google/android/gms/internal/ads/l7;
 
     if-eqz v0, :cond_0
 
-    .line 2
     :try_start_0
     invoke-static {}, Ljava/util/Collections;->emptyList()Ljava/util/List;
 
@@ -77,7 +74,6 @@
 
     const-string v1, "Could not notify onComplete event."
 
-    .line 3
     invoke-static {v1, v0}, Lcom/google/android/gms/internal/ads/aq;->d(Ljava/lang/String;Ljava/lang/Throwable;)V
 
     :cond_0
@@ -114,7 +110,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {}, Ljava/util/Collections;->emptyList()Ljava/util/List;
 
     move-result-object v0
@@ -171,10 +166,8 @@
 
     const-string v0, "The initialization is not processed because MobileAdsSettingsManager is not created successfully."
 
-    .line 1
     invoke-static {v0}, Lcom/google/android/gms/internal/ads/aq;->g(Ljava/lang/String;)V
 
-    .line 2
     sget-object v0, Lcom/google/android/gms/internal/ads/pp;->b:Landroid/os/Handler;
 
     new-instance v1, Lcom/google/android/gms/internal/ads/gq2;
@@ -205,7 +198,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/google/android/gms/internal/ads/dq2;->b:Lcom/google/android/gms/internal/ads/l7;
 
     return-void

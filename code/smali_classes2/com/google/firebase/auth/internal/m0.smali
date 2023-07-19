@@ -12,7 +12,6 @@
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Ljava/lang/String;->hashCode()I
 
     invoke-virtual {p0}, Ljava/lang/String;->hashCode()I
@@ -1141,7 +1140,6 @@
 
     if-eqz p1, :cond_36
 
-    .line 2
     new-instance v0, Lcom/google/android/gms/common/api/Status;
 
     invoke-static {p0}, Ljava/lang/String;->valueOf(Ljava/lang/Object;)Ljava/lang/String;
@@ -1184,7 +1182,6 @@
 
     return-object v0
 
-    .line 3
     :cond_36
     new-instance p1, Lcom/google/android/gms/common/api/Status;
 
@@ -1192,7 +1189,6 @@
 
     return-object p1
 
-    .line 4
     :cond_37
     new-instance p0, Lcom/google/android/gms/common/api/Status;
 
@@ -1328,14 +1324,12 @@
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
-    .line 1
     invoke-static {p0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
-    .line 2
     new-instance p0, Lcom/google/android/gms/common/api/Status;
 
     const/16 v0, 0x445b
@@ -1349,14 +1343,12 @@
 
     const-string v1, ":"
 
-    .line 3
     invoke-virtual {p0, v1, v0}, Ljava/lang/String;->split(Ljava/lang/String;I)[Ljava/lang/String;
 
     move-result-object p0
 
     const/4 v0, 0x0
 
-    .line 4
     aget-object v1, p0, v0
 
     invoke-virtual {v1}, Ljava/lang/String;->trim()Ljava/lang/String;
@@ -1365,7 +1357,6 @@
 
     aput-object v1, p0, v0
 
-    .line 5
     array-length v1, p0
 
     const/4 v2, 0x1
@@ -1376,7 +1367,6 @@
 
     if-eqz v1, :cond_1
 
-    .line 6
     aget-object v1, p0, v2
 
     invoke-virtual {v1}, Ljava/lang/String;->trim()Ljava/lang/String;
@@ -1385,20 +1375,17 @@
 
     aput-object v1, p0, v2
 
-    .line 7
     :cond_1
     invoke-static {p0}, Ljava/util/Arrays;->asList([Ljava/lang/Object;)Ljava/util/List;
 
     move-result-object p0
 
-    .line 8
     invoke-interface {p0}, Ljava/util/List;->size()I
 
     move-result v1
 
     if-le v1, v2, :cond_2
 
-    .line 9
     invoke-interface {p0, v0}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object v0
@@ -1417,7 +1404,6 @@
 
     return-object p0
 
-    .line 10
     :cond_2
     invoke-interface {p0, v0}, Ljava/util/List;->get(I)Ljava/lang/Object;
 

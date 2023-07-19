@@ -56,7 +56,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 2
     new-instance v1, Lcom/commsource/widget/h1/e;
 
     iget-object v2, p0, Lcom/commsource/studio/mixlayer/ImageStyleSubFragment$colorAdapter$2;->this$0:Lcom/commsource/studio/mixlayer/ImageStyleSubFragment;
@@ -67,14 +66,12 @@
 
     invoke-direct {v1, v2}, Lcom/commsource/widget/h1/e;-><init>(Landroid/content/Context;)V
 
-    .line 3
     invoke-static {}, Lcom/commsource/widget/h1/c;->j()Lcom/commsource/widget/h1/c;
 
     move-result-object v2
 
     const-string v3, "1"
 
-    .line 4
     filled-new-array {v3}, [Ljava/lang/String;
 
     move-result-object v3
@@ -89,32 +86,26 @@
 
     move-result-object v2
 
-    .line 5
     sget-object v3, Lcom/commsource/studio/mixlayer/ImageStyleViewModel;->o0:Lcom/commsource/studio/mixlayer/ImageStyleViewModel$a;
 
     invoke-virtual {v3}, Lcom/commsource/studio/mixlayer/ImageStyleViewModel$a;->a()Ljava/util/ArrayList;
 
     move-result-object v3
 
-    .line 6
     const-class v4, Lcom/commsource/studio/mixlayer/c;
 
-    .line 7
     invoke-virtual {v2, v3, v4}, Lcom/commsource/widget/h1/c;->c(Ljava/util/List;Ljava/lang/Class;)Lcom/commsource/widget/h1/c;
 
     move-result-object v2
 
-    .line 8
     invoke-virtual {v2}, Lcom/commsource/widget/h1/c;->i()Ljava/util/List;
 
     move-result-object v2
 
     const/4 v3, 0x0
 
-    .line 9
     invoke-virtual {v1, v2, v3}, Lcom/commsource/widget/h1/e;->R(Ljava/util/List;Z)V
 
-    .line 10
     const-class v2, Ljava/lang/Integer;
 
     new-instance v3, Lcom/commsource/studio/mixlayer/ImageStyleSubFragment$colorAdapter$2$a;
@@ -123,7 +114,6 @@
 
     invoke-virtual {v1, v2, v3}, Lcom/commsource/widget/h1/e;->J(Ljava/lang/Class;Lcom/commsource/widget/h1/e$b;)V
 
-    .line 11
     const-class v2, Ljava/lang/String;
 
     new-instance v3, Lcom/commsource/studio/mixlayer/ImageStyleSubFragment$colorAdapter$2$b;
@@ -132,7 +122,6 @@
 
     invoke-virtual {v1, v2, v3}, Lcom/commsource/widget/h1/e;->J(Ljava/lang/Class;Lcom/commsource/widget/h1/e$b;)V
 
-    .line 12
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
@@ -145,7 +134,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/studio/mixlayer/ImageStyleSubFragment$colorAdapter$2;->invoke()Lcom/commsource/widget/h1/e;
 
     move-result-object v1

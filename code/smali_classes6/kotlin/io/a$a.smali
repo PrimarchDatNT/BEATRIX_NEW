@@ -29,14 +29,12 @@
 .method constructor <init>(Ljava/io/BufferedInputStream;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcotlin/io/a$a;->d:Ljava/io/BufferedInputStream;
 
     invoke-direct {p0}, Lcotlin/collections/q;-><init>()V
 
     const/4 p1, -0x1
 
-    .line 2
     iput p1, p0, Lcotlin/io/a$a;->a:I
 
     return-void
@@ -45,7 +43,6 @@
 .method private final e()V
     .locals 3
 
-    .line 1
     iget-boolean v0, p0, Lcotlin/io/a$a;->b:Z
 
     if-nez v0, :cond_1
@@ -54,7 +51,6 @@
 
     if-nez v0, :cond_1
 
-    .line 2
     iget-object v0, p0, Lcotlin/io/a$a;->d:Ljava/io/BufferedInputStream;
 
     invoke-virtual {v0}, Ljava/io/BufferedInputStream;->read()I
@@ -65,7 +61,6 @@
 
     const/4 v1, 0x1
 
-    .line 3
     iput-boolean v1, p0, Lcotlin/io/a$a;->b:Z
 
     const/4 v2, -0x1
@@ -77,7 +72,6 @@
     :cond_0
     const/4 v1, 0x0
 
-    .line 4
     :goto_0
     iput-boolean v1, p0, Lcotlin/io/a$a;->c:Z
 
@@ -90,7 +84,6 @@
 .method public final b()Z
     .locals 1
 
-    .line 1
     iget-boolean v0, p0, Lcotlin/io/a$a;->c:Z
 
     return v0
@@ -99,7 +92,6 @@
 .method public final c()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lcotlin/io/a$a;->a:I
 
     return v0
@@ -108,7 +100,6 @@
 .method public final d()Z
     .locals 1
 
-    .line 1
     iget-boolean v0, p0, Lcotlin/io/a$a;->b:Z
 
     return v0
@@ -117,7 +108,6 @@
 .method public final f(Z)V
     .locals 0
 
-    .line 1
     iput-boolean p1, p0, Lcotlin/io/a$a;->c:Z
 
     return-void
@@ -126,7 +116,6 @@
 .method public final g(I)V
     .locals 0
 
-    .line 1
     iput p1, p0, Lcotlin/io/a$a;->a:I
 
     return-void
@@ -135,27 +124,22 @@
 .method public h()B
     .locals 2
 
-    .line 1
     invoke-direct {p0}, Lcotlin/io/a$a;->e()V
 
-    .line 2
     iget-boolean v0, p0, Lcotlin/io/a$a;->c:Z
 
     if-nez v0, :cond_0
 
-    .line 3
     iget v0, p0, Lcotlin/io/a$a;->a:I
 
     int-to-byte v0, v0
 
     const/4 v1, 0x0
 
-    .line 4
     iput-boolean v1, p0, Lcotlin/io/a$a;->b:Z
 
     return v0
 
-    .line 5
     :cond_0
     new-instance v0, Ljava/util/NoSuchElementException;
 
@@ -169,10 +153,8 @@
 .method public hasNext()Z
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Lcotlin/io/a$a;->e()V
 
-    .line 2
     iget-boolean v0, p0, Lcotlin/io/a$a;->c:Z
 
     xor-int/lit8 v0, v0, 0x1
@@ -183,7 +165,6 @@
 .method public final i(Z)V
     .locals 0
 
-    .line 1
     iput-boolean p1, p0, Lcotlin/io/a$a;->b:Z
 
     return-void

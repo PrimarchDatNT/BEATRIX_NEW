@@ -11,10 +11,8 @@
 .method public constructor <init>(Ljava/lang/Object;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/meitu/media/tools/editor/u/b;-><init>()V
 
-    .line 2
     check-cast p1, Landroid/view/Surface;
 
     iput-object p1, p0, Lcom/meitu/media/tools/editor/u/i;->c:Landroid/view/Surface;
@@ -31,7 +29,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/media/tools/editor/u/i;->c:Landroid/view/Surface;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

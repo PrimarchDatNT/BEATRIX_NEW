@@ -30,13 +30,10 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/commsource/mypage/album/y$h;->a:Landroid/app/Activity;
 
-    .line 3
     iput-object p2, p0, Lcom/commsource/mypage/album/y$h;->b:Ljava/lang/Runnable;
 
     return-void
@@ -49,7 +46,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/mypage/album/y$h;->a:Landroid/app/Activity;
 
     if-eqz v0, :cond_0
@@ -60,12 +56,10 @@
 
     if-nez v0, :cond_0
 
-    .line 2
     iget-object v0, p0, Lcom/commsource/mypage/album/y$h;->a:Landroid/app/Activity;
 
     invoke-virtual {v0}, Landroid/app/Activity;->finish()V
 
-    .line 3
     :cond_0
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -79,7 +73,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/mypage/album/y$h;->a:Landroid/app/Activity;
 
     if-eqz v0, :cond_0
@@ -90,12 +83,10 @@
 
     if-nez v0, :cond_0
 
-    .line 2
     iget-object v0, p0, Lcom/commsource/mypage/album/y$h;->a:Landroid/app/Activity;
 
     invoke-virtual {v0}, Landroid/app/Activity;->finish()V
 
-    .line 3
     :cond_0
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -135,7 +126,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     array-length v0, p3
 
     const/4 v1, 0x0
@@ -146,14 +136,12 @@
 
     if-nez v0, :cond_0
 
-    .line 2
     iget-object p2, p0, Lcom/commsource/mypage/album/y$h;->b:Ljava/lang/Runnable;
 
     invoke-interface {p2}, Ljava/lang/Runnable;->run()V
 
     goto :goto_2
 
-    .line 3
     :cond_0
     iget-object v0, p0, Lcom/commsource/mypage/album/y$h;->a:Landroid/app/Activity;
 
@@ -169,13 +157,11 @@
 
     if-lt v0, v2, :cond_4
 
-    .line 4
     :goto_0
     array-length v0, p2
 
     if-ge v1, v0, :cond_6
 
-    .line 5
     aget v0, p3, v1
 
     const/4 v2, -0x1
@@ -188,14 +174,12 @@
 
     aget-object v2, p2, v1
 
-    .line 6
     invoke-static {v0, v2}, Landroidx/core/app/ActivityCompat;->shouldShowRequestPermissionRationale(Landroid/app/Activity;Ljava/lang/String;)Z
 
     move-result v0
 
     if-nez v0, :cond_1
 
-    .line 7
     aget-object v0, p2, v1
 
     invoke-virtual {v3, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -208,14 +192,12 @@
 
     if-eqz v0, :cond_3
 
-    .line 8
     iget-object v0, p0, Lcom/commsource/mypage/album/y$h;->a:Landroid/app/Activity;
 
     invoke-static {v0}, Lcom/commsource/widget/dialog/s0/t;->W(Landroid/app/Activity;)V
 
     goto :goto_1
 
-    .line 9
     :cond_1
     iget-boolean v0, p0, Lcom/commsource/mypage/album/y$h;->c:Z
 
@@ -223,7 +205,6 @@
 
     if-eqz v0, :cond_2
 
-    .line 10
     iget-object v0, p0, Lcom/commsource/mypage/album/y$h;->a:Landroid/app/Activity;
 
     filled-new-array {v3}, [Ljava/lang/String;
@@ -238,7 +219,6 @@
 
     goto :goto_1
 
-    .line 11
     :cond_2
     iget-object v0, p0, Lcom/commsource/mypage/album/y$h;->a:Landroid/app/Activity;
 
@@ -254,13 +234,11 @@
 
     goto :goto_0
 
-    .line 12
     :cond_4
     iget-boolean p2, p0, Lcom/commsource/mypage/album/y$h;->c:Z
 
     if-eqz p2, :cond_5
 
-    .line 13
     iget-object p2, p0, Lcom/commsource/mypage/album/y$h;->a:Landroid/app/Activity;
 
     new-instance p3, Lcom/commsource/mypage/album/n;
@@ -271,13 +249,11 @@
 
     goto :goto_2
 
-    .line 14
     :cond_5
     iget-object p2, p0, Lcom/commsource/mypage/album/y$h;->a:Landroid/app/Activity;
 
     invoke-static {p2}, Lcom/commsource/widget/dialog/s0/t;->a0(Landroid/app/Activity;)V
 
-    .line 15
     :cond_6
     :goto_2
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -292,10 +268,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/mypage/album/y$h;->c:Z
 
-    .line 2
     iget-object p1, p0, Lcom/commsource/mypage/album/y$h;->a:Landroid/app/Activity;
 
     const-string v1, "android.permission.WRITE_EXTERNAL_STORAGE"
@@ -306,7 +280,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 3
     iget-object p1, p0, Lcom/commsource/mypage/album/y$h;->a:Landroid/app/Activity;
 
     filled-new-array {v1}, [Ljava/lang/String;
@@ -319,13 +292,11 @@
 
     goto :goto_0
 
-    .line 4
     :cond_0
     iget-object p1, p0, Lcom/commsource/mypage/album/y$h;->b:Ljava/lang/Runnable;
 
     invoke-interface {p1}, Ljava/lang/Runnable;->run()V
 
-    .line 5
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

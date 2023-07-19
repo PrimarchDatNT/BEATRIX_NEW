@@ -26,7 +26,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lorg/apache/thrift/scheme/TupleScheme;-><init>()V
 
     return-void
@@ -35,7 +34,6 @@
 .method synthetic constructor <init>(Lio/jaegertracing/crossdock/thrift/ObservedSpan$a;)V
     .locals 0
 
-    .line 2
     invoke-direct {p0}, Lio/jaegertracing/crossdock/thrift/ObservedSpan$d;-><init>()V
 
     return-void
@@ -51,10 +49,8 @@
         }
     .end annotation
 
-    .line 1
     check-cast p1, Lorg/apache/thrift/protocol/TTupleProtocol;
 
-    .line 2
     invoke-virtual {p1}, Lorg/apache/thrift/protocol/TCompactProtocol;->readString()Ljava/lang/String;
 
     move-result-object v0
@@ -63,27 +59,22 @@
 
     const/4 v0, 0x1
 
-    .line 3
     invoke-virtual {p2, v0}, Lio/jaegertracing/crossdock/thrift/ObservedSpan;->setTraceIdIsSet(Z)V
 
-    .line 4
     invoke-virtual {p1}, Lorg/apache/thrift/protocol/TCompactProtocol;->readBool()Z
 
     move-result v1
 
     iput-boolean v1, p2, Lio/jaegertracing/crossdock/thrift/ObservedSpan;->sampled:Z
 
-    .line 5
     invoke-virtual {p2, v0}, Lio/jaegertracing/crossdock/thrift/ObservedSpan;->setSampledIsSet(Z)V
 
-    .line 6
     invoke-virtual {p1}, Lorg/apache/thrift/protocol/TCompactProtocol;->readString()Ljava/lang/String;
 
     move-result-object p1
 
     iput-object p1, p2, Lio/jaegertracing/crossdock/thrift/ObservedSpan;->baggage:Ljava/lang/String;
 
-    .line 7
     invoke-virtual {p2, v0}, Lio/jaegertracing/crossdock/thrift/ObservedSpan;->setBaggageIsSet(Z)V
 
     return-void
@@ -97,20 +88,16 @@
         }
     .end annotation
 
-    .line 1
     check-cast p1, Lorg/apache/thrift/protocol/TTupleProtocol;
 
-    .line 2
     iget-object v0, p2, Lio/jaegertracing/crossdock/thrift/ObservedSpan;->traceId:Ljava/lang/String;
 
     invoke-virtual {p1, v0}, Lorg/apache/thrift/protocol/TCompactProtocol;->writeString(Ljava/lang/String;)V
 
-    .line 3
     iget-boolean v0, p2, Lio/jaegertracing/crossdock/thrift/ObservedSpan;->sampled:Z
 
     invoke-virtual {p1, v0}, Lorg/apache/thrift/protocol/TCompactProtocol;->writeBool(Z)V
 
-    .line 4
     iget-object p2, p2, Lio/jaegertracing/crossdock/thrift/ObservedSpan;->baggage:Ljava/lang/String;
 
     invoke-virtual {p1, p2}, Lorg/apache/thrift/protocol/TCompactProtocol;->writeString(Ljava/lang/String;)V
@@ -126,7 +113,6 @@
         }
     .end annotation
 
-    .line 1
     check-cast p2, Lio/jaegertracing/crossdock/thrift/ObservedSpan;
 
     invoke-virtual {p0, p1, p2}, Lio/jaegertracing/crossdock/thrift/ObservedSpan$d;->a(Lorg/apache/thrift/protocol/TProtocol;Lio/jaegertracing/crossdock/thrift/ObservedSpan;)V
@@ -142,7 +128,6 @@
         }
     .end annotation
 
-    .line 1
     check-cast p2, Lio/jaegertracing/crossdock/thrift/ObservedSpan;
 
     invoke-virtual {p0, p1, p2}, Lio/jaegertracing/crossdock/thrift/ObservedSpan$d;->b(Lorg/apache/thrift/protocol/TProtocol;Lio/jaegertracing/crossdock/thrift/ObservedSpan;)V

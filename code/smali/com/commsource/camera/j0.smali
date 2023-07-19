@@ -17,10 +17,8 @@
 .method private constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     invoke-static {}, Lcom/commsource/util/d2;->a()Lcom/commsource/util/d2;
 
     move-result-object v0
@@ -37,30 +35,25 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/camera/j0;->c:Lcom/commsource/camera/j0;
 
     if-nez v1, :cond_1
 
-    .line 2
     const-class v1, Lcom/commsource/camera/j0;
 
     monitor-enter v1
 
-    .line 3
     :try_start_0
     sget-object v2, Lcom/commsource/camera/j0;->c:Lcom/commsource/camera/j0;
 
     if-nez v2, :cond_0
 
-    .line 4
     new-instance v2, Lcom/commsource/camera/j0;
 
     invoke-direct {v2}, Lcom/commsource/camera/j0;-><init>()V
 
     sput-object v2, Lcom/commsource/camera/j0;->c:Lcom/commsource/camera/j0;
 
-    .line 5
     :cond_0
     monitor-exit v1
 
@@ -77,7 +70,6 @@
 
     throw v2
 
-    .line 6
     :cond_1
     :goto_0
     sget-object v1, Lcom/commsource/camera/j0;->c:Lcom/commsource/camera/j0;
@@ -96,28 +88,24 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/commsource/util/x;->C()Z
 
     move-result v1
 
     if-eqz v1, :cond_0
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/camera/j0;->a:Lcom/commsource/util/d2;
 
     invoke-virtual {v1}, Lcom/commsource/util/d2;->f()J
 
     move-result-wide v1
 
-    .line 3
     iget-wide v3, p0, Lcom/commsource/camera/j0;->b:J
 
     add-long/2addr v3, v1
 
     iput-wide v3, p0, Lcom/commsource/camera/j0;->b:J
 
-    .line 4
     new-instance v3, Ljava/lang/StringBuilder;
 
     invoke-direct {v3}, Ljava/lang/StringBuilder;-><init>()V
@@ -150,7 +138,6 @@
 
     invoke-static {v1, p1}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 5
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -164,29 +151,24 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/commsource/util/x;->C()Z
 
     move-result v1
 
     if-eqz v1, :cond_0
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/camera/j0;->a:Lcom/commsource/util/d2;
 
     invoke-virtual {v1}, Lcom/commsource/util/d2;->d()V
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/camera/j0;->a:Lcom/commsource/util/d2;
 
     invoke-virtual {v1}, Lcom/commsource/util/d2;->e()V
 
     const-wide/16 v1, 0x0
 
-    .line 4
     iput-wide v1, p0, Lcom/commsource/camera/j0;->b:J
 
-    .line 5
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

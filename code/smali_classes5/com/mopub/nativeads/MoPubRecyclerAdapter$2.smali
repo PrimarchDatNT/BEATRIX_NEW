@@ -25,7 +25,6 @@
 .method constructor <init>(Lcom/mopub/nativeads/MoPubRecyclerAdapter;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/mopub/nativeads/MoPubRecyclerAdapter$2;->this$0:Lcom/mopub/nativeads/MoPubRecyclerAdapter;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -38,7 +37,6 @@
 .method public onAdLoaded(I)V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/nativeads/MoPubRecyclerAdapter$2;->this$0:Lcom/mopub/nativeads/MoPubRecyclerAdapter;
 
     invoke-virtual {v0, p1}, Lcom/mopub/nativeads/MoPubRecyclerAdapter;->handleAdLoaded(I)V
@@ -49,7 +47,6 @@
 .method public onAdRemoved(I)V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/mopub/nativeads/MoPubRecyclerAdapter$2;->this$0:Lcom/mopub/nativeads/MoPubRecyclerAdapter;
 
     invoke-virtual {v0, p1}, Lcom/mopub/nativeads/MoPubRecyclerAdapter;->handleAdRemoved(I)V

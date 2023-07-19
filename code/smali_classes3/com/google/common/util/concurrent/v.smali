@@ -35,7 +35,6 @@
 .method protected constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/google/common/collect/u0;-><init>()V
 
     return-void
@@ -56,7 +55,6 @@
 .method public cancel(Z)Z
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/util/concurrent/v;->J0()Ljava/util/concurrent/Future;
 
     move-result-object v0
@@ -71,7 +69,6 @@
 .method protected bridge synthetic delegate()Ljava/lang/Object;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/util/concurrent/v;->J0()Ljava/util/concurrent/Future;
 
     move-result-object v0
@@ -94,7 +91,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/util/concurrent/v;->J0()Ljava/util/concurrent/Future;
 
     move-result-object v0
@@ -124,7 +120,6 @@
         }
     .end annotation
 
-    .line 2
     invoke-virtual {p0}, Lcom/google/common/util/concurrent/v;->J0()Ljava/util/concurrent/Future;
 
     move-result-object v0
@@ -139,7 +134,6 @@
 .method public isCancelled()Z
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/util/concurrent/v;->J0()Ljava/util/concurrent/Future;
 
     move-result-object v0
@@ -154,7 +148,6 @@
 .method public isDone()Z
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/common/util/concurrent/v;->J0()Ljava/util/concurrent/Future;
 
     move-result-object v0

@@ -41,7 +41,6 @@
 
     iput-object p2, p0, Lcom/commsource/studio/sticker/StickerManager$a;->b:Landroid/util/SparseArray;
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -72,7 +71,6 @@
 
     goto :goto_1
 
-    .line 1
     :cond_0
     invoke-virtual {p1}, Lcom/meitu/template/bean/StickerGroup;->getLocalInsertTime()J
 
@@ -86,7 +84,6 @@
 
     if-nez v6, :cond_3
 
-    .line 2
     iget-object v2, p0, Lcom/commsource/studio/sticker/StickerManager$a;->b:Landroid/util/SparseArray;
 
     invoke-virtual {p1}, Lcom/meitu/template/bean/StickerGroup;->getCategoryId()I
@@ -99,7 +96,6 @@
 
     check-cast p1, Lcom/meitu/template/bean/m;
 
-    .line 3
     iget-object v2, p0, Lcom/commsource/studio/sticker/StickerManager$a;->b:Landroid/util/SparseArray;
 
     invoke-virtual {p2}, Lcom/meitu/template/bean/StickerGroup;->getCategoryId()I
@@ -118,7 +114,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_1
     invoke-virtual {p1}, Lcom/meitu/template/bean/m;->c()I
 
@@ -132,14 +127,12 @@
 
     move-result v1
 
-    .line 5
     :cond_2
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
 
-    .line 6
     :cond_3
     invoke-virtual {p1}, Lcom/meitu/template/bean/StickerGroup;->getLocalInsertTime()J
 
@@ -155,7 +148,6 @@
 
     const/4 p1, -0x1
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
@@ -163,12 +155,10 @@
     :cond_4
     const/4 p1, 0x1
 
-    .line 8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
 
-    .line 9
     :cond_5
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -183,7 +173,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Lcom/meitu/template/bean/StickerGroup;
 
     check-cast p2, Lcom/meitu/template/bean/StickerGroup;

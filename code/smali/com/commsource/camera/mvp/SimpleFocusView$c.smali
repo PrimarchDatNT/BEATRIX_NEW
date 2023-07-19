@@ -42,24 +42,20 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/mvp/SimpleFocusView$c;->a:Lcom/commsource/camera/mvp/SimpleFocusView;
 
     const/4 v2, 0x0
 
     invoke-static {v1, v2}, Lcom/commsource/camera/mvp/SimpleFocusView;->l(Lcom/commsource/camera/mvp/SimpleFocusView;Z)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/camera/mvp/SimpleFocusView$c;->a:Lcom/commsource/camera/mvp/SimpleFocusView;
 
     invoke-virtual {v1, v2}, Lcom/commsource/camera/mvp/SimpleFocusView;->setShouldShowFocusView(Z)V
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/camera/mvp/SimpleFocusView$c;->a:Lcom/commsource/camera/mvp/SimpleFocusView;
 
     invoke-virtual {v1}, Landroid/view/View;->postInvalidate()V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

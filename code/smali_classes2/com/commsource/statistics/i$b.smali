@@ -22,7 +22,6 @@
 .method constructor <init>(Ljava/lang/String;Landroid/content/Context;)V
     .locals 0
 
-    .line 1
     iput-object p2, p0, Lcom/commsource/statistics/i$b;->g:Landroid/content/Context;
 
     invoke-direct {p0, p1}, Lcom/commsource/util/u2/a;-><init>(Ljava/lang/String;)V
@@ -39,7 +38,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     :try_start_0
     iget-object v1, p0, Lcom/commsource/statistics/i$b;->g:Landroid/content/Context;
 
@@ -47,19 +45,16 @@
 
     move-result-object v1
 
-    .line 2
     invoke-virtual {v1}, Lcom/meitu/countrylocation/l/a$b;->a()Ljava/lang/String;
 
     move-result-object v2
 
-    .line 3
     invoke-static {v2}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v3
 
     if-nez v3, :cond_0
 
-    .line 4
     iget-object v3, p0, Lcom/commsource/statistics/i$b;->g:Landroid/content/Context;
 
     invoke-virtual {v1}, Lcom/meitu/countrylocation/l/a$b;->a()Ljava/lang/String;
@@ -68,17 +63,14 @@
 
     invoke-static {v3, v4}, Lf/d/i/e;->g2(Landroid/content/Context;Ljava/lang/String;)V
 
-    .line 5
     invoke-static {v2}, Lcom/meitu/library/analytics/o;->x(Ljava/lang/String;)V
 
-    .line 6
     sget-object v3, Lcom/commsource/statistics/o;->e:Lcom/commsource/statistics/o;
 
     invoke-virtual {v3, v2}, Lcom/commsource/statistics/o;->p(Ljava/lang/String;)V
 
     const-string v2, "AdId"
 
-    .line 7
     invoke-virtual {v1}, Lcom/meitu/countrylocation/l/a$b;->a()Ljava/lang/String;
 
     move-result-object v1
@@ -92,10 +84,8 @@
     :catch_0
     move-exception v1
 
-    .line 8
     invoke-static {v1}, Lcom/meitu/library/util/Debug/Debug;->a0(Ljava/lang/Throwable;)V
 
-    .line 9
     :cond_0
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

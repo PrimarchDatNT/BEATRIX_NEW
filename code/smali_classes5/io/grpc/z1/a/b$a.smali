@@ -63,7 +63,6 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
     new-instance v0, Ljava/lang/ThreadLocal;
 
     invoke-direct {v0}, Ljava/lang/ThreadLocal;-><init>()V
@@ -81,13 +80,10 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lio/grpc/z1/a/b$a;->b:Lcom/google/protobuf/i1;
 
-    .line 3
     invoke-interface {p1}, Lcom/google/protobuf/i1;->Qf()Lcom/google/protobuf/s1;
 
     move-result-object p1
@@ -113,7 +109,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lio/grpc/z1/a/b$a;->a:Lcom/google/protobuf/s1;
 
     sget-object v1, Lio/grpc/z1/a/b;->a:Lcom/google/protobuf/j0;
@@ -126,7 +121,6 @@
 
     const/4 v1, 0x0
 
-    .line 2
     :try_start_0
     invoke-virtual {p1, v1}, Lcom/google/protobuf/q;->c(I)V
     :try_end_0
@@ -137,10 +131,8 @@
     :catch_0
     move-exception p1
 
-    .line 3
     invoke-virtual {p1, v0}, Lcom/google/protobuf/InvalidProtocolBufferException;->setUnfinishedMessage(Lcom/google/protobuf/i1;)Lcom/google/protobuf/InvalidProtocolBufferException;
 
-    .line 4
     throw p1
 .end method
 
@@ -149,7 +141,6 @@
 .method public bridge synthetic a(Ljava/lang/Object;)Ljava/io/InputStream;
     .locals 0
 
-    .line 1
     check-cast p1, Lcom/google/protobuf/i1;
 
     invoke-virtual {p0, p1}, Lio/grpc/z1/a/b$a;->h(Lcom/google/protobuf/i1;)Ljava/io/InputStream;
@@ -169,7 +160,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lio/grpc/z1/a/b$a;->b:Lcom/google/protobuf/i1;
 
     invoke-virtual {v0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
@@ -182,7 +172,6 @@
 .method public bridge synthetic c(Ljava/io/InputStream;)Ljava/lang/Object;
     .locals 0
 
-    .line 1
     invoke-virtual {p0, p1}, Lio/grpc/z1/a/b$a;->f(Ljava/io/InputStream;)Lcom/google/protobuf/i1;
 
     move-result-object p1
@@ -193,7 +182,6 @@
 .method public bridge synthetic d()Ljava/lang/Object;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lio/grpc/z1/a/b$a;->e()Lcom/google/protobuf/i1;
 
     move-result-object v0
@@ -209,7 +197,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lio/grpc/z1/a/b$a;->b:Lcom/google/protobuf/i1;
 
     return-object v0
@@ -225,17 +212,14 @@
         }
     .end annotation
 
-    .line 1
     instance-of v0, p1, Lio/grpc/z1/a/a;
 
     if-eqz v0, :cond_0
 
-    .line 2
     move-object v0, p1
 
     check-cast v0, Lio/grpc/z1/a/a;
 
-    .line 3
     invoke-virtual {v0}, Lio/grpc/z1/a/a;->c()Lcom/google/protobuf/s1;
 
     move-result-object v0
@@ -244,7 +228,6 @@
 
     if-ne v0, v1, :cond_0
 
-    .line 4
     :try_start_0
     move-object v0, p1
 
@@ -262,13 +245,11 @@
     :cond_0
     const/4 v0, 0x0
 
-    .line 5
     :try_start_1
     instance-of v1, p1, Lio/grpc/s0;
 
     if-eqz v1, :cond_7
 
-    .line 6
     invoke-virtual {p1}, Ljava/io/InputStream;->available()I
 
     move-result v1
@@ -279,7 +260,6 @@
 
     if-gt v1, v2, :cond_6
 
-    .line 7
     sget-object v0, Lio/grpc/z1/a/b$a;->c:Ljava/lang/ThreadLocal;
 
     invoke-virtual {v0}, Ljava/lang/ThreadLocal;->get()Ljava/lang/Object;
@@ -302,11 +282,9 @@
 
     if-ge v3, v1, :cond_2
 
-    .line 8
     :cond_1
     new-array v2, v1, [B
 
-    .line 9
     new-instance v3, Ljava/lang/ref/WeakReference;
 
     invoke-direct {v3, v2}, Ljava/lang/ref/WeakReference;-><init>(Ljava/lang/Object;)V
@@ -321,7 +299,6 @@
 
     sub-int v3, v1, v0
 
-    .line 10
     invoke-virtual {p1, v2, v3, v0}, Ljava/io/InputStream;->read([BII)I
 
     move-result v3
@@ -343,7 +320,6 @@
 
     const/4 v0, 0x0
 
-    .line 11
     invoke-static {v2, v0, v1}, Lcom/google/protobuf/q;->o([BII)Lcom/google/protobuf/q;
 
     move-result-object v0
@@ -353,7 +329,6 @@
     :cond_5
     sub-int p1, v1, v0
 
-    .line 12
     new-instance v0, Ljava/lang/RuntimeException;
 
     new-instance v2, Ljava/lang/StringBuilder;
@@ -383,7 +358,6 @@
     :cond_6
     if-nez v1, :cond_7
 
-    .line 13
     iget-object p1, p0, Lio/grpc/z1/a/b$a;->b:Lcom/google/protobuf/i1;
     :try_end_1
     .catch Ljava/io/IOException; {:try_start_1 .. :try_end_1} :catch_2
@@ -394,7 +368,6 @@
     :goto_2
     if-nez v0, :cond_8
 
-    .line 14
     invoke-static {p1}, Lcom/google/protobuf/q;->k(Ljava/io/InputStream;)Lcom/google/protobuf/q;
 
     move-result-object v0
@@ -402,10 +375,8 @@
     :cond_8
     const p1, 0x7fffffff
 
-    .line 15
     invoke-virtual {v0, p1}, Lcom/google/protobuf/q;->f0(I)I
 
-    .line 16
     :try_start_2
     invoke-direct {p0, v0}, Lio/grpc/z1/a/b$a;->g(Lcom/google/protobuf/q;)Lcom/google/protobuf/i1;
 
@@ -418,7 +389,6 @@
     :catch_1
     move-exception p1
 
-    .line 17
     sget-object v0, Lio/grpc/Status;->u:Lio/grpc/Status;
 
     const-string v1, "Invalid protobuf byte sequence"
@@ -427,7 +397,6 @@
 
     move-result-object v0
 
-    .line 18
     invoke-virtual {v0, p1}, Lio/grpc/Status;->t(Ljava/lang/Throwable;)Lio/grpc/Status;
 
     move-result-object p1
@@ -441,7 +410,6 @@
     :catch_2
     move-exception p1
 
-    .line 19
     new-instance v0, Ljava/lang/RuntimeException;
 
     invoke-direct {v0, p1}, Ljava/lang/RuntimeException;-><init>(Ljava/lang/Throwable;)V
@@ -458,7 +426,6 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lio/grpc/z1/a/a;
 
     iget-object v1, p0, Lio/grpc/z1/a/b$a;->a:Lcom/google/protobuf/s1;

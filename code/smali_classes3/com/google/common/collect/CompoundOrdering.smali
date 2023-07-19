@@ -52,14 +52,12 @@
         }
     .end annotation
 
-    .line 3
     invoke-direct {p0}, Lcom/google/common/collect/Ordering;-><init>()V
 
     const/4 v0, 0x0
 
     new-array v0, v0, [Ljava/util/Comparator;
 
-    .line 4
     invoke-static {p1, v0}, Lcom/google/common/collect/h1;->R(Ljava/lang/Iterable;[Ljava/lang/Object;)[Ljava/lang/Object;
 
     move-result-object p1
@@ -83,7 +81,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Lcom/google/common/collect/Ordering;-><init>()V
 
     const/4 v0, 0x2
@@ -98,7 +95,6 @@
 
     aput-object p2, v0, p1
 
-    .line 2
     iput-object v0, p0, Lcom/google/common/collect/CompoundOrdering;->comparators:[Ljava/util/Comparator;
 
     return-void
@@ -118,7 +114,6 @@
 
     const/4 v1, 0x0
 
-    .line 1
     :goto_0
     iget-object v2, p0, Lcom/google/common/collect/CompoundOrdering;->comparators:[Ljava/util/Comparator;
 
@@ -126,7 +121,6 @@
 
     if-ge v1, v3, :cond_1
 
-    .line 2
     aget-object v2, v2, v1
 
     invoke-interface {v2, p1, p2}, Ljava/util/Comparator;->compare(Ljava/lang/Object;Ljava/lang/Object;)I
@@ -155,16 +149,13 @@
 
     return p1
 
-    .line 1
     :cond_0
     instance-of v0, p1, Lcom/google/common/collect/CompoundOrdering;
 
     if-eqz v0, :cond_1
 
-    .line 2
     check-cast p1, Lcom/google/common/collect/CompoundOrdering;
 
-    .line 3
     iget-object v0, p0, Lcom/google/common/collect/CompoundOrdering;->comparators:[Ljava/util/Comparator;
 
     iget-object p1, p1, Lcom/google/common/collect/CompoundOrdering;->comparators:[Ljava/util/Comparator;
@@ -184,7 +175,6 @@
 .method public hashCode()I
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/CompoundOrdering;->comparators:[Ljava/util/Comparator;
 
     invoke-static {v0}, Ljava/util/Arrays;->hashCode([Ljava/lang/Object;)I
@@ -197,7 +187,6 @@
 .method public toString()Ljava/lang/String;
     .locals 2
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V

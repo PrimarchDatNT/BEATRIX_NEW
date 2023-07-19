@@ -28,7 +28,6 @@
 .method static constructor <clinit>()V
     .locals 0
 
-    .line 1
     invoke-static {}, Lio/grpc/y1/a$b$d;->a()V
 
     return-void
@@ -37,14 +36,12 @@
 .method private constructor <init>(Lio/grpc/y1/a$b;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lio/grpc/y1/a$b$d;->b:Lio/grpc/y1/a$b;
 
     invoke-direct {p0}, Landroid/content/BroadcastReceiver;-><init>()V
 
     const/4 p1, 0x0
 
-    .line 2
     iput-boolean p1, p0, Lio/grpc/y1/a$b$d;->a:Z
 
     return-void
@@ -53,7 +50,6 @@
 .method synthetic constructor <init>(Lio/grpc/y1/a$b;Lio/grpc/y1/a$a;)V
     .locals 0
 
-    .line 3
     invoke-direct {p0, p1}, Lio/grpc/y1/a$b$d;-><init>(Lio/grpc/y1/a$b;)V
 
     return-void
@@ -62,7 +58,6 @@
 .method private static synthetic a()V
     .locals 9
 
-    .line 1
     new-instance v8, Ln/a/b/c/e;
 
     const-class v0, Lio/grpc/y1/a$b$d;
@@ -107,7 +102,6 @@
 .method static final synthetic b(Lio/grpc/y1/a$b$d;Landroid/net/ConnectivityManager;Lorg/aspectj/lang/c;)Landroid/net/NetworkInfo;
     .locals 0
 
-    .line 1
     invoke-virtual {p1}, Landroid/net/ConnectivityManager;->getActiveNetworkInfo()Landroid/net/NetworkInfo;
 
     move-result-object p0
@@ -122,14 +116,12 @@
 
     const-string p2, "connectivity"
 
-    .line 1
     invoke-virtual {p1, p2}, Landroid/content/Context;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
 
     move-result-object p1
 
     check-cast p1, Landroid/net/ConnectivityManager;
 
-    .line 2
     sget-object p2, Lio/grpc/y1/a$b$d;->c:Lorg/aspectj/lang/c$b;
 
     invoke-static {p2, p0, p1}, Ln/a/b/c/e;->E(Lorg/aspectj/lang/c$b;Ljava/lang/Object;Ljava/lang/Object;)Lorg/aspectj/lang/c;
@@ -172,12 +164,10 @@
 
     check-cast p1, Landroid/net/NetworkInfo;
 
-    .line 3
     iget-boolean p2, p0, Lio/grpc/y1/a$b$d;->a:Z
 
     if-eqz p1, :cond_0
 
-    .line 4
     invoke-virtual {p1}, Landroid/net/NetworkInfo;->isConnected()Z
 
     move-result p1
@@ -193,7 +183,6 @@
 
     if-nez p2, :cond_1
 
-    .line 5
     iget-object p1, p0, Lio/grpc/y1/a$b$d;->b:Lio/grpc/y1/a$b;
 
     invoke-static {p1}, Lio/grpc/y1/a$b;->v(Lio/grpc/y1/a$b;)Lio/grpc/w0;

@@ -15,7 +15,6 @@
 .method constructor <init>(Lcom/google/android/gms/common/api/internal/g$a;Lcom/google/android/gms/common/ConnectionResult;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/android/gms/common/api/internal/m1;->b:Lcom/google/android/gms/common/api/internal/g$a;
 
     iput-object p2, p0, Lcom/google/android/gms/common/api/internal/m1;->a:Lcom/google/android/gms/common/ConnectionResult;
@@ -30,7 +29,6 @@
 .method public final run()V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/common/api/internal/m1;->b:Lcom/google/android/gms/common/api/internal/g$a;
 
     iget-object v1, p0, Lcom/google/android/gms/common/api/internal/m1;->a:Lcom/google/android/gms/common/ConnectionResult;

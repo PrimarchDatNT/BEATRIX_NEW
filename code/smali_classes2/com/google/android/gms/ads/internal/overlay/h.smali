@@ -30,12 +30,10 @@
 .method public final run()V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/ads/internal/overlay/h;->a:Lcom/google/android/gms/ads/internal/overlay/i;
 
     iget-object v1, p0, Lcom/google/android/gms/ads/internal/overlay/h;->b:Landroid/graphics/drawable/Drawable;
 
-    .line 2
     iget-object v0, v0, Lcom/google/android/gms/ads/internal/overlay/i;->d:Lcom/google/android/gms/ads/internal/overlay/c;
 
     iget-object v0, v0, Lcom/google/android/gms/ads/internal/overlay/c;->b:Landroid/app/Activity;

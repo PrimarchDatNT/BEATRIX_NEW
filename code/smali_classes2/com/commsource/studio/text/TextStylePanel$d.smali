@@ -57,12 +57,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/studio/text/TextStylePanel$d;->a:Lcom/commsource/studio/text/TextStylePanel;
 
     invoke-static {v1, p1}, Lcom/commsource/studio/text/TextStylePanel;->c(Lcom/commsource/studio/text/TextStylePanel;[F)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -75,7 +73,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, [F
 
     invoke-virtual {p0, p1}, Lcom/commsource/studio/text/TextStylePanel$d;->a([F)V

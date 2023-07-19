@@ -59,20 +59,16 @@
 .method public constructor <init>(Lcom/meitu/media/tools/editor/Texture2dProgram$ProgramType;)V
     .locals 5
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/16 v0, 0x9
 
     new-array v1, v0, [F
 
-    .line 2
     iput-object v1, p0, Lcom/meitu/media/tools/editor/Texture2dProgram;->k:[F
 
-    .line 3
     iput-object p1, p0, Lcom/meitu/media/tools/editor/Texture2dProgram;->a:Lcom/meitu/media/tools/editor/Texture2dProgram$ProgramType;
 
-    .line 4
     sget-object v1, Lcom/meitu/media/tools/editor/Texture2dProgram$a;->a:[I
 
     invoke-virtual {p1}, Ljava/lang/Enum;->ordinal()I
@@ -101,12 +97,10 @@
 
     if-ne v1, v2, :cond_0
 
-    .line 5
     iput v4, p0, Lcom/meitu/media/tools/editor/Texture2dProgram;->j:I
 
     const-string v1, "#extension GL_OES_EGL_image_external : require\n#define KERNEL_SIZE 9\nprecision highp float;\nvarying vec2 vTextureCoord;\nuniform samplerExternalOES sTexture;\nuniform float uKernel[KERNEL_SIZE];\nuniform vec2 uTexOffset[KERNEL_SIZE];\nuniform float uColorAdjust;\nvoid main() {\n    int i = 0;\n    vec4 sum = vec4(0.0);\n    if (vTextureCoord.x < vTextureCoord.y - 0.005) {\n        for (i = 0; i < KERNEL_SIZE; i++) {\n            vec4 texc = texture2D(sTexture, vTextureCoord + uTexOffset[i]);\n            sum += texc * uKernel[i];\n        }\n    sum += uColorAdjust;\n    } else if (vTextureCoord.x > vTextureCoord.y + 0.005) {\n        sum = texture2D(sTexture, vTextureCoord);\n    } else {\n        sum.r = 1.0;\n    }\n    gl_FragColor = sum;\n}\n"
 
-    .line 6
     invoke-static {v3, v1}, Lcom/meitu/media/tools/editor/d;->e(Ljava/lang/String;Ljava/lang/String;)I
 
     move-result v1
@@ -115,7 +109,6 @@
 
     goto :goto_0
 
-    .line 7
     :cond_0
     new-instance v0, Ljava/lang/RuntimeException;
 
@@ -137,13 +130,11 @@
 
     throw v0
 
-    .line 8
     :cond_1
     iput v4, p0, Lcom/meitu/media/tools/editor/Texture2dProgram;->j:I
 
     const-string v1, "#extension GL_OES_EGL_image_external : require\nprecision mediump float;\nvarying vec2 vTextureCoord;\nuniform samplerExternalOES sTexture;\nvoid main() {\n    vec4 tc = texture2D(sTexture, vTextureCoord);\n    float color = tc.r * 0.3 + tc.g * 0.59 + tc.b * 0.11;\n    gl_FragColor = vec4(color, color, color, 1.0);\n}\n"
 
-    .line 9
     invoke-static {v3, v1}, Lcom/meitu/media/tools/editor/d;->e(Ljava/lang/String;Ljava/lang/String;)I
 
     move-result v1
@@ -152,13 +143,11 @@
 
     goto :goto_0
 
-    .line 10
     :cond_2
     iput v4, p0, Lcom/meitu/media/tools/editor/Texture2dProgram;->j:I
 
     const-string v1, "#extension GL_OES_EGL_image_external : require\nprecision mediump float;\nvarying vec2 vTextureCoord;\nuniform samplerExternalOES sTexture;\nvoid main() {\n    gl_FragColor = texture2D(sTexture, vTextureCoord);\n}\n"
 
-    .line 11
     invoke-static {v3, v1}, Lcom/meitu/media/tools/editor/d;->e(Ljava/lang/String;Ljava/lang/String;)I
 
     move-result v1
@@ -170,25 +159,21 @@
     :cond_3
     const/16 v1, 0xde1
 
-    .line 12
     iput v1, p0, Lcom/meitu/media/tools/editor/Texture2dProgram;->j:I
 
     const-string v1, "precision mediump float;\nvarying vec2 vTextureCoord;\nuniform sampler2D sTexture;\nvoid main() {\n    gl_FragColor = texture2D(sTexture, vTextureCoord);\n}\n"
 
-    .line 13
     invoke-static {v3, v1}, Lcom/meitu/media/tools/editor/d;->e(Ljava/lang/String;Ljava/lang/String;)I
 
     move-result v1
 
     iput v1, p0, Lcom/meitu/media/tools/editor/Texture2dProgram;->b:I
 
-    .line 14
     :goto_0
     iget v1, p0, Lcom/meitu/media/tools/editor/Texture2dProgram;->b:I
 
     if-eqz v1, :cond_5
 
-    .line 15
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -217,7 +202,6 @@
 
     invoke-static {p1}, Lcom/meitu/media/tools/utils/debug/Logger;->a(Ljava/lang/String;)V
 
-    .line 16
     iget p1, p0, Lcom/meitu/media/tools/editor/Texture2dProgram;->b:I
 
     const-string v1, "aPosition"
@@ -228,10 +212,8 @@
 
     iput p1, p0, Lcom/meitu/media/tools/editor/Texture2dProgram;->h:I
 
-    .line 17
     invoke-static {p1, v1}, Lcom/meitu/media/tools/editor/d;->b(ILjava/lang/String;)V
 
-    .line 18
     iget p1, p0, Lcom/meitu/media/tools/editor/Texture2dProgram;->b:I
 
     const-string v1, "aTextureCoord"
@@ -242,10 +224,8 @@
 
     iput p1, p0, Lcom/meitu/media/tools/editor/Texture2dProgram;->i:I
 
-    .line 19
     invoke-static {p1, v1}, Lcom/meitu/media/tools/editor/d;->b(ILjava/lang/String;)V
 
-    .line 20
     iget p1, p0, Lcom/meitu/media/tools/editor/Texture2dProgram;->b:I
 
     const-string v1, "uMVPMatrix"
@@ -256,10 +236,8 @@
 
     iput p1, p0, Lcom/meitu/media/tools/editor/Texture2dProgram;->c:I
 
-    .line 21
     invoke-static {p1, v1}, Lcom/meitu/media/tools/editor/d;->b(ILjava/lang/String;)V
 
-    .line 22
     iget p1, p0, Lcom/meitu/media/tools/editor/Texture2dProgram;->b:I
 
     const-string v1, "uTexMatrix"
@@ -270,10 +248,8 @@
 
     iput p1, p0, Lcom/meitu/media/tools/editor/Texture2dProgram;->d:I
 
-    .line 23
     invoke-static {p1, v1}, Lcom/meitu/media/tools/editor/d;->b(ILjava/lang/String;)V
 
-    .line 24
     iget p1, p0, Lcom/meitu/media/tools/editor/Texture2dProgram;->b:I
 
     const-string v1, "uKernel"
@@ -288,18 +264,14 @@
 
     const/4 p1, -0x1
 
-    .line 25
     iput p1, p0, Lcom/meitu/media/tools/editor/Texture2dProgram;->e:I
 
-    .line 26
     iput p1, p0, Lcom/meitu/media/tools/editor/Texture2dProgram;->f:I
 
-    .line 27
     iput p1, p0, Lcom/meitu/media/tools/editor/Texture2dProgram;->g:I
 
     goto :goto_1
 
-    .line 28
     :cond_4
     iget p1, p0, Lcom/meitu/media/tools/editor/Texture2dProgram;->b:I
 
@@ -311,10 +283,8 @@
 
     iput p1, p0, Lcom/meitu/media/tools/editor/Texture2dProgram;->f:I
 
-    .line 29
     invoke-static {p1, v1}, Lcom/meitu/media/tools/editor/d;->b(ILjava/lang/String;)V
 
-    .line 30
     iget p1, p0, Lcom/meitu/media/tools/editor/Texture2dProgram;->b:I
 
     const-string v1, "uColorAdjust"
@@ -325,12 +295,10 @@
 
     iput p1, p0, Lcom/meitu/media/tools/editor/Texture2dProgram;->g:I
 
-    .line 31
     invoke-static {p1, v1}, Lcom/meitu/media/tools/editor/d;->b(ILjava/lang/String;)V
 
     new-array p1, v0, [F
 
-    .line 32
     fill-array-data p1, :array_0
 
     const/4 v0, 0x0
@@ -339,13 +307,11 @@
 
     const/16 p1, 0x100
 
-    .line 33
     invoke-virtual {p0, p1, p1}, Lcom/meitu/media/tools/editor/Texture2dProgram;->k(II)V
 
     :goto_1
     return-void
 
-    .line 34
     :cond_5
     new-instance p1, Ljava/lang/RuntimeException;
 
@@ -384,23 +350,18 @@
 
     const/4 v3, 0x0
 
-    .line 1
     invoke-static {v1, v2, v3}, Landroid/opengl/GLES20;->glGenTextures(I[II)V
 
     const-string v1, "glGenTextures"
 
-    .line 2
     invoke-static {v1}, Lcom/meitu/media/tools/editor/d;->a(Ljava/lang/String;)V
 
-    .line 3
     aget v1, v2, v3
 
-    .line 4
     iget v2, p0, Lcom/meitu/media/tools/editor/Texture2dProgram;->j:I
 
     invoke-static {v2, v1}, Landroid/opengl/GLES20;->glBindTexture(II)V
 
-    .line 5
     new-instance v2, Ljava/lang/StringBuilder;
 
     invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
@@ -423,34 +384,28 @@
 
     const/high16 v4, 0x46180000    # 9728.0f
 
-    .line 6
     invoke-static {v2, v3, v4}, Landroid/opengl/GLES20;->glTexParameterf(IIF)V
 
     const/16 v3, 0x2800
 
     const v4, 0x46180400    # 9729.0f
 
-    .line 7
     invoke-static {v2, v3, v4}, Landroid/opengl/GLES20;->glTexParameterf(IIF)V
 
     const/16 v3, 0x2802
 
     const v4, 0x812f
 
-    .line 8
     invoke-static {v2, v3, v4}, Landroid/opengl/GLES20;->glTexParameteri(III)V
 
     const/16 v3, 0x2803
 
-    .line 9
     invoke-static {v2, v3, v4}, Landroid/opengl/GLES20;->glTexParameteri(III)V
 
     const-string v2, "glTexParameter"
 
-    .line 10
     invoke-static {v2}, Lcom/meitu/media/tools/editor/d;->a(Ljava/lang/String;)V
 
-    .line 11
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
@@ -469,23 +424,18 @@
 
     const/4 v3, 0x0
 
-    .line 1
     invoke-static {v1, v2, v3}, Landroid/opengl/GLES20;->glGenTextures(I[II)V
 
     const-string v1, "glGenTextures"
 
-    .line 2
     invoke-static {v1}, Lcom/meitu/media/tools/editor/d;->a(Ljava/lang/String;)V
 
-    .line 3
     aget v1, v2, v3
 
-    .line 4
     iget v2, p0, Lcom/meitu/media/tools/editor/Texture2dProgram;->j:I
 
     invoke-static {v2, v1}, Landroid/opengl/GLES20;->glBindTexture(II)V
 
-    .line 5
     new-instance v2, Ljava/lang/StringBuilder;
 
     invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
@@ -508,34 +458,28 @@
 
     const/high16 v4, 0x46180000    # 9728.0f
 
-    .line 6
     invoke-static {v2, v3, v4}, Landroid/opengl/GLES20;->glTexParameterf(IIF)V
 
     const/16 v3, 0x2800
 
     const v4, 0x46180400    # 9729.0f
 
-    .line 7
     invoke-static {v2, v3, v4}, Landroid/opengl/GLES20;->glTexParameterf(IIF)V
 
     const/16 v3, 0x2802
 
     const v4, 0x812f
 
-    .line 8
     invoke-static {v2, v3, v4}, Landroid/opengl/GLES20;->glTexParameteri(III)V
 
     const/16 v3, 0x2803
 
-    .line 9
     invoke-static {v2, v3, v4}, Landroid/opengl/GLES20;->glTexParameteri(III)V
 
     const-string v2, "glTexParameter"
 
-    .line 10
     invoke-static {v2}, Lcom/meitu/media/tools/editor/d;->a(Ljava/lang/String;)V
 
-    .line 11
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
@@ -552,56 +496,46 @@
 
     const-string v2, "draw start"
 
-    .line 1
     invoke-static {v2}, Lcom/meitu/media/tools/editor/d;->a(Ljava/lang/String;)V
 
     const/high16 v2, 0x3f800000    # 1.0f
 
     const/4 v3, 0x0
 
-    .line 2
     invoke-static {v2, v3, v3, v2}, Landroid/opengl/GLES20;->glClearColor(FFFF)V
 
     const/16 v2, 0x4000
 
-    .line 3
     invoke-static {v2}, Landroid/opengl/GLES20;->glClear(I)V
 
     const/16 v2, 0xbe2
 
-    .line 4
     invoke-static {v2}, Landroid/opengl/GLES20;->glEnable(I)V
 
     const/4 v3, 0x1
 
     const/4 v4, 0x0
 
-    .line 5
     invoke-static {v3, v4, v4, v3}, Landroid/opengl/GLES20;->glBlendFuncSeparate(IIII)V
 
-    .line 6
     iget v5, v0, Lcom/meitu/media/tools/editor/Texture2dProgram;->b:I
 
     invoke-static {v5}, Landroid/opengl/GLES20;->glUseProgram(I)V
 
     const-string v5, "glUseProgram"
 
-    .line 7
     invoke-static {v5}, Lcom/meitu/media/tools/editor/d;->a(Ljava/lang/String;)V
 
     const v5, 0x84c0
 
-    .line 8
     invoke-static {v5}, Landroid/opengl/GLES20;->glActiveTexture(I)V
 
-    .line 9
     iget v5, v0, Lcom/meitu/media/tools/editor/Texture2dProgram;->j:I
 
     move/from16 v6, p9
 
     invoke-static {v5, v6}, Landroid/opengl/GLES20;->glBindTexture(II)V
 
-    .line 10
     iget v5, v0, Lcom/meitu/media/tools/editor/Texture2dProgram;->c:I
 
     move-object v6, p1
@@ -610,30 +544,24 @@
 
     const-string v5, "glUniformMatrix4fv"
 
-    .line 11
     invoke-static {v5}, Lcom/meitu/media/tools/editor/d;->a(Ljava/lang/String;)V
 
-    .line 12
     iget v6, v0, Lcom/meitu/media/tools/editor/Texture2dProgram;->d:I
 
     move-object/from16 v7, p7
 
     invoke-static {v6, v3, v4, v7, v4}, Landroid/opengl/GLES20;->glUniformMatrix4fv(IIZ[FI)V
 
-    .line 13
     invoke-static {v5}, Lcom/meitu/media/tools/editor/d;->a(Ljava/lang/String;)V
 
-    .line 14
     iget v3, v0, Lcom/meitu/media/tools/editor/Texture2dProgram;->h:I
 
     invoke-static {v3}, Landroid/opengl/GLES20;->glEnableVertexAttribArray(I)V
 
     const-string v3, "glEnableVertexAttribArray"
 
-    .line 15
     invoke-static {v3}, Lcom/meitu/media/tools/editor/d;->a(Ljava/lang/String;)V
 
-    .line 16
     iget v5, v0, Lcom/meitu/media/tools/editor/Texture2dProgram;->h:I
 
     const/16 v7, 0x1406
@@ -650,18 +578,14 @@
 
     const-string v5, "glVertexAttribPointer"
 
-    .line 17
     invoke-static {v5}, Lcom/meitu/media/tools/editor/d;->a(Ljava/lang/String;)V
 
-    .line 18
     iget v6, v0, Lcom/meitu/media/tools/editor/Texture2dProgram;->i:I
 
     invoke-static {v6}, Landroid/opengl/GLES20;->glEnableVertexAttribArray(I)V
 
-    .line 19
     invoke-static {v3}, Lcom/meitu/media/tools/editor/d;->a(Ljava/lang/String;)V
 
-    .line 20
     iget v7, v0, Lcom/meitu/media/tools/editor/Texture2dProgram;->i:I
 
     const/4 v8, 0x2
@@ -676,29 +600,24 @@
 
     invoke-static/range {v7 .. v12}, Landroid/opengl/GLES20;->glVertexAttribPointer(IIIZILjava/nio/Buffer;)V
 
-    .line 21
     invoke-static {v5}, Lcom/meitu/media/tools/editor/d;->a(Ljava/lang/String;)V
 
-    .line 22
     iget v3, v0, Lcom/meitu/media/tools/editor/Texture2dProgram;->e:I
 
     if-ltz v3, :cond_0
 
-    .line 23
     iget-object v5, v0, Lcom/meitu/media/tools/editor/Texture2dProgram;->k:[F
 
     const/16 v6, 0x9
 
     invoke-static {v3, v6, v5, v4}, Landroid/opengl/GLES20;->glUniform1fv(II[FI)V
 
-    .line 24
     iget v3, v0, Lcom/meitu/media/tools/editor/Texture2dProgram;->f:I
 
     iget-object v5, v0, Lcom/meitu/media/tools/editor/Texture2dProgram;->l:[F
 
     invoke-static {v3, v6, v5, v4}, Landroid/opengl/GLES20;->glUniform2fv(II[FI)V
 
-    .line 25
     iget v3, v0, Lcom/meitu/media/tools/editor/Texture2dProgram;->g:I
 
     iget v5, v0, Lcom/meitu/media/tools/editor/Texture2dProgram;->m:F
@@ -712,36 +631,28 @@
 
     move/from16 v6, p4
 
-    .line 26
     invoke-static {v3, v5, v6}, Landroid/opengl/GLES20;->glDrawArrays(III)V
 
     const-string v3, "glDrawArrays"
 
-    .line 27
     invoke-static {v3}, Lcom/meitu/media/tools/editor/d;->a(Ljava/lang/String;)V
 
-    .line 28
     iget v3, v0, Lcom/meitu/media/tools/editor/Texture2dProgram;->h:I
 
     invoke-static {v3}, Landroid/opengl/GLES20;->glDisableVertexAttribArray(I)V
 
-    .line 29
     iget v3, v0, Lcom/meitu/media/tools/editor/Texture2dProgram;->i:I
 
     invoke-static {v3}, Landroid/opengl/GLES20;->glDisableVertexAttribArray(I)V
 
-    .line 30
     iget v3, v0, Lcom/meitu/media/tools/editor/Texture2dProgram;->j:I
 
     invoke-static {v3, v4}, Landroid/opengl/GLES20;->glBindTexture(II)V
 
-    .line 31
     invoke-static {v4}, Landroid/opengl/GLES20;->glUseProgram(I)V
 
-    .line 32
     invoke-static {v2}, Landroid/opengl/GLES20;->glDisable(I)V
 
-    .line 33
     invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -758,32 +669,26 @@
 
     const-string v2, "draw start"
 
-    .line 1
     invoke-static {v2}, Lcom/meitu/media/tools/editor/d;->a(Ljava/lang/String;)V
 
-    .line 2
     iget v2, v0, Lcom/meitu/media/tools/editor/Texture2dProgram;->b:I
 
     invoke-static {v2}, Landroid/opengl/GLES20;->glUseProgram(I)V
 
     const-string v2, "glUseProgram"
 
-    .line 3
     invoke-static {v2}, Lcom/meitu/media/tools/editor/d;->a(Ljava/lang/String;)V
 
     const v2, 0x84c0
 
-    .line 4
     invoke-static {v2}, Landroid/opengl/GLES20;->glActiveTexture(I)V
 
-    .line 5
     iget v2, v0, Lcom/meitu/media/tools/editor/Texture2dProgram;->j:I
 
     move/from16 v3, p9
 
     invoke-static {v2, v3}, Landroid/opengl/GLES20;->glBindTexture(II)V
 
-    .line 6
     iget v2, v0, Lcom/meitu/media/tools/editor/Texture2dProgram;->c:I
 
     const/4 v3, 0x1
@@ -796,30 +701,24 @@
 
     const-string v2, "glUniformMatrix4fv"
 
-    .line 7
     invoke-static {v2}, Lcom/meitu/media/tools/editor/d;->a(Ljava/lang/String;)V
 
-    .line 8
     iget v5, v0, Lcom/meitu/media/tools/editor/Texture2dProgram;->d:I
 
     move-object/from16 v6, p7
 
     invoke-static {v5, v3, v4, v6, v4}, Landroid/opengl/GLES20;->glUniformMatrix4fv(IIZ[FI)V
 
-    .line 9
     invoke-static {v2}, Lcom/meitu/media/tools/editor/d;->a(Ljava/lang/String;)V
 
-    .line 10
     iget v2, v0, Lcom/meitu/media/tools/editor/Texture2dProgram;->h:I
 
     invoke-static {v2}, Landroid/opengl/GLES20;->glEnableVertexAttribArray(I)V
 
     const-string v2, "glEnableVertexAttribArray"
 
-    .line 11
     invoke-static {v2}, Lcom/meitu/media/tools/editor/d;->a(Ljava/lang/String;)V
 
-    .line 12
     iget v5, v0, Lcom/meitu/media/tools/editor/Texture2dProgram;->h:I
 
     const/16 v7, 0x1406
@@ -836,18 +735,14 @@
 
     const-string v3, "glVertexAttribPointer"
 
-    .line 13
     invoke-static {v3}, Lcom/meitu/media/tools/editor/d;->a(Ljava/lang/String;)V
 
-    .line 14
     iget v5, v0, Lcom/meitu/media/tools/editor/Texture2dProgram;->i:I
 
     invoke-static {v5}, Landroid/opengl/GLES20;->glEnableVertexAttribArray(I)V
 
-    .line 15
     invoke-static {v2}, Lcom/meitu/media/tools/editor/d;->a(Ljava/lang/String;)V
 
-    .line 16
     iget v6, v0, Lcom/meitu/media/tools/editor/Texture2dProgram;->i:I
 
     const/4 v7, 0x2
@@ -862,29 +757,24 @@
 
     invoke-static/range {v6 .. v11}, Landroid/opengl/GLES20;->glVertexAttribPointer(IIIZILjava/nio/Buffer;)V
 
-    .line 17
     invoke-static {v3}, Lcom/meitu/media/tools/editor/d;->a(Ljava/lang/String;)V
 
-    .line 18
     iget v2, v0, Lcom/meitu/media/tools/editor/Texture2dProgram;->e:I
 
     if-ltz v2, :cond_0
 
-    .line 19
     iget-object v3, v0, Lcom/meitu/media/tools/editor/Texture2dProgram;->k:[F
 
     const/16 v5, 0x9
 
     invoke-static {v2, v5, v3, v4}, Landroid/opengl/GLES20;->glUniform1fv(II[FI)V
 
-    .line 20
     iget v2, v0, Lcom/meitu/media/tools/editor/Texture2dProgram;->f:I
 
     iget-object v3, v0, Lcom/meitu/media/tools/editor/Texture2dProgram;->l:[F
 
     invoke-static {v2, v5, v3, v4}, Landroid/opengl/GLES20;->glUniform2fv(II[FI)V
 
-    .line 21
     iget v2, v0, Lcom/meitu/media/tools/editor/Texture2dProgram;->g:I
 
     iget v3, v0, Lcom/meitu/media/tools/editor/Texture2dProgram;->m:F
@@ -898,33 +788,26 @@
 
     move/from16 v5, p4
 
-    .line 22
     invoke-static {v2, p3, v5}, Landroid/opengl/GLES20;->glDrawArrays(III)V
 
     const-string v2, "glDrawArrays"
 
-    .line 23
     invoke-static {v2}, Lcom/meitu/media/tools/editor/d;->a(Ljava/lang/String;)V
 
-    .line 24
     iget v2, v0, Lcom/meitu/media/tools/editor/Texture2dProgram;->h:I
 
     invoke-static {v2}, Landroid/opengl/GLES20;->glDisableVertexAttribArray(I)V
 
-    .line 25
     iget v2, v0, Lcom/meitu/media/tools/editor/Texture2dProgram;->i:I
 
     invoke-static {v2}, Landroid/opengl/GLES20;->glDisableVertexAttribArray(I)V
 
-    .line 26
     iget v2, v0, Lcom/meitu/media/tools/editor/Texture2dProgram;->j:I
 
     invoke-static {v2, v4}, Landroid/opengl/GLES20;->glBindTexture(II)V
 
-    .line 27
     invoke-static {v4}, Landroid/opengl/GLES20;->glUseProgram(I)V
 
-    .line 28
     invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -937,7 +820,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/meitu/media/tools/editor/Texture2dProgram;->a:Lcom/meitu/media/tools/editor/Texture2dProgram$ProgramType;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -952,7 +834,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/media/tools/editor/Texture2dProgram;->i:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -967,7 +848,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/media/tools/editor/Texture2dProgram;->h:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -982,7 +862,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/meitu/media/tools/editor/Texture2dProgram;->b:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -997,7 +876,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -1016,17 +894,14 @@
 
     invoke-static {v1}, Lcom/meitu/media/tools/utils/debug/Logger;->a(Ljava/lang/String;)V
 
-    .line 2
     iget v1, p0, Lcom/meitu/media/tools/editor/Texture2dProgram;->b:I
 
     invoke-static {v1}, Landroid/opengl/GLES20;->glDeleteProgram(I)V
 
     const/4 v1, -0x1
 
-    .line 3
     iput v1, p0, Lcom/meitu/media/tools/editor/Texture2dProgram;->b:I
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1039,29 +914,24 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     array-length v1, p1
 
     const/16 v2, 0x9
 
     if-ne v1, v2, :cond_0
 
-    .line 2
     iget-object v1, p0, Lcom/meitu/media/tools/editor/Texture2dProgram;->k:[F
 
     const/4 v3, 0x0
 
     invoke-static {p1, v3, v1, v3, v2}, Ljava/lang/System;->arraycopy(Ljava/lang/Object;ILjava/lang/Object;II)V
 
-    .line 3
     iput p2, p0, Lcom/meitu/media/tools/editor/Texture2dProgram;->m:F
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 5
     :cond_0
     new-instance p2, Ljava/lang/IllegalArgumentException;
 
@@ -1193,10 +1063,8 @@
 
     aput v1, p2, p1
 
-    .line 1
     iput-object p2, p0, Lcom/meitu/media/tools/editor/Texture2dProgram;->l:[F
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

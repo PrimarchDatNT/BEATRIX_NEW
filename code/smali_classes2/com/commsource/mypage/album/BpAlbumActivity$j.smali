@@ -42,7 +42,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/mypage/album/BpAlbumActivity$j;->a:Lcom/commsource/mypage/album/BpAlbumActivity;
 
     invoke-virtual {v1}, Lcom/commsource/mypage/album/BpAlbumActivity;->S0()Lcom/commsource/mypage/album/BpAlbumViewModel;
@@ -61,7 +60,6 @@
 
     invoke-static/range {v2 .. v7}, Lcom/commsource/mypage/album/BpAlbumViewModel;->Q(Lcom/commsource/mypage/album/BpAlbumViewModel;Ljava/lang/String;Ljava/lang/String;ZILjava/lang/Object;)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/mypage/album/BpAlbumActivity$j;->a:Lcom/commsource/mypage/album/BpAlbumActivity;
 
     invoke-virtual {v1}, Lcom/commsource/mypage/album/BpAlbumActivity;->S0()Lcom/commsource/mypage/album/BpAlbumViewModel;
@@ -82,7 +80,6 @@
 
     if-nez v1, :cond_0
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/mypage/album/BpAlbumActivity$j;->a:Lcom/commsource/mypage/album/BpAlbumActivity;
 
     invoke-virtual {v1}, Lcom/commsource/mypage/album/BpAlbumActivity;->S0()Lcom/commsource/mypage/album/BpAlbumViewModel;
@@ -103,7 +100,6 @@
 
     invoke-static {v1, v2}, Lf/k/c/c/f;->u(Ljava/lang/String;[Ljava/lang/Object;)V
 
-    .line 4
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

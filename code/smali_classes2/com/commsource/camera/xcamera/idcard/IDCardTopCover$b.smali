@@ -62,7 +62,6 @@
 
     goto :goto_0
 
-    .line 1
     :cond_0
     invoke-virtual {p1}, Ljava/lang/String;->hashCode()I
 
@@ -77,14 +76,12 @@
     :cond_1
     const-string v3, "FRONT_FACING"
 
-    .line 2
     invoke-virtual {p1, v3}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p1
 
     if-eqz p1, :cond_3
 
-    .line 3
     iget-object p1, p0, Lcom/commsource/camera/xcamera/idcard/IDCardTopCover$b;->a:Lcom/commsource/camera/xcamera/idcard/IDCardTopCover;
 
     invoke-virtual {p1}, Lcom/commsource/camera/xcamera/idcard/IDCardTopCover;->G()Lcom/commsource/camera/xcamera/cover/CameraConfigViewModel;
@@ -109,7 +106,6 @@
 
     if-eqz p1, :cond_2
 
-    .line 4
     iget-object p1, p0, Lcom/commsource/camera/xcamera/idcard/IDCardTopCover$b;->a:Lcom/commsource/camera/xcamera/idcard/IDCardTopCover;
 
     invoke-virtual {p1}, Lcom/commsource/camera/xcamera/cover/AbsCover;->A()Landroidx/databinding/ViewDataBinding;
@@ -132,7 +128,6 @@
 
     goto :goto_1
 
-    .line 5
     :cond_2
     iget-object p1, p0, Lcom/commsource/camera/xcamera/idcard/IDCardTopCover$b;->a:Lcom/commsource/camera/xcamera/idcard/IDCardTopCover;
 
@@ -154,7 +149,6 @@
 
     goto :goto_1
 
-    .line 6
     :cond_3
     :goto_0
     iget-object p1, p0, Lcom/commsource/camera/xcamera/idcard/IDCardTopCover$b;->a:Lcom/commsource/camera/xcamera/idcard/IDCardTopCover;
@@ -181,7 +175,6 @@
 
     if-eqz p1, :cond_4
 
-    .line 7
     iget-object p1, p0, Lcom/commsource/camera/xcamera/idcard/IDCardTopCover$b;->a:Lcom/commsource/camera/xcamera/idcard/IDCardTopCover;
 
     invoke-virtual {p1}, Lcom/commsource/camera/xcamera/cover/AbsCover;->A()Landroidx/databinding/ViewDataBinding;
@@ -204,7 +197,6 @@
 
     goto :goto_1
 
-    .line 8
     :cond_4
     iget-object p1, p0, Lcom/commsource/camera/xcamera/idcard/IDCardTopCover$b;->a:Lcom/commsource/camera/xcamera/idcard/IDCardTopCover;
 
@@ -224,7 +216,6 @@
 
     invoke-virtual {p1, v1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 9
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -238,7 +229,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Ljava/lang/String;
 
     invoke-virtual {p0, p1}, Lcom/commsource/camera/xcamera/idcard/IDCardTopCover$b;->a(Ljava/lang/String;)V

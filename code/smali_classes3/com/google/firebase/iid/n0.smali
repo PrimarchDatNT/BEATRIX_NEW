@@ -26,12 +26,10 @@
 .method public final b(Lcom/google/android/gms/tasks/k;)V
     .locals 1
 
-    .line 1
     iget-object p1, p0, Lcom/google/firebase/iid/n0;->a:Ljava/util/concurrent/ScheduledFuture;
 
     const/4 v0, 0x0
 
-    .line 2
     invoke-interface {p1, v0}, Ljava/util/concurrent/ScheduledFuture;->cancel(Z)Z
 
     return-void

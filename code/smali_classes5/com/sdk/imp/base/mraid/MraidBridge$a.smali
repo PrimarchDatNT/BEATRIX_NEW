@@ -22,7 +22,6 @@
 .method constructor <init>(Lcom/sdk/imp/base/mraid/MraidBridge;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/sdk/imp/base/mraid/MraidBridge$a;->a:Lcom/sdk/imp/base/mraid/MraidBridge;
 
     invoke-direct {p0}, Landroid/webkit/WebChromeClient;-><init>()V
@@ -39,7 +38,6 @@
         .end annotation
     .end param
 
-    .line 1
     iget-object v0, p0, Lcom/sdk/imp/base/mraid/MraidBridge$a;->a:Lcom/sdk/imp/base/mraid/MraidBridge;
 
     invoke-static {v0}, Lcom/sdk/imp/base/mraid/MraidBridge;->a(Lcom/sdk/imp/base/mraid/MraidBridge;)Lcom/sdk/imp/base/mraid/MraidBridge$h;
@@ -48,7 +46,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 2
     iget-object v0, p0, Lcom/sdk/imp/base/mraid/MraidBridge$a;->a:Lcom/sdk/imp/base/mraid/MraidBridge;
 
     invoke-static {v0}, Lcom/sdk/imp/base/mraid/MraidBridge;->a(Lcom/sdk/imp/base/mraid/MraidBridge;)Lcom/sdk/imp/base/mraid/MraidBridge$h;
@@ -61,7 +58,6 @@
 
     return p1
 
-    .line 3
     :cond_0
     invoke-super {p0, p1}, Landroid/webkit/WebChromeClient;->onConsoleMessage(Landroid/webkit/ConsoleMessage;)Z
 
@@ -73,7 +69,6 @@
 .method public onJsAlert(Landroid/webkit/WebView;Ljava/lang/String;Ljava/lang/String;Landroid/webkit/JsResult;)Z
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/sdk/imp/base/mraid/MraidBridge$a;->a:Lcom/sdk/imp/base/mraid/MraidBridge;
 
     invoke-static {v0}, Lcom/sdk/imp/base/mraid/MraidBridge;->a(Lcom/sdk/imp/base/mraid/MraidBridge;)Lcom/sdk/imp/base/mraid/MraidBridge$h;
@@ -82,7 +77,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 2
     iget-object p1, p0, Lcom/sdk/imp/base/mraid/MraidBridge$a;->a:Lcom/sdk/imp/base/mraid/MraidBridge;
 
     invoke-static {p1}, Lcom/sdk/imp/base/mraid/MraidBridge;->a(Lcom/sdk/imp/base/mraid/MraidBridge;)Lcom/sdk/imp/base/mraid/MraidBridge$h;
@@ -95,7 +89,6 @@
 
     return p1
 
-    .line 3
     :cond_0
     invoke-super {p0, p1, p2, p3, p4}, Landroid/webkit/WebChromeClient;->onJsAlert(Landroid/webkit/WebView;Ljava/lang/String;Ljava/lang/String;Landroid/webkit/JsResult;)Z
 
@@ -107,7 +100,6 @@
 .method public onShowCustomView(Landroid/view/View;Landroid/webkit/WebChromeClient$CustomViewCallback;)V
     .locals 0
 
-    .line 1
     invoke-super {p0, p1, p2}, Landroid/webkit/WebChromeClient;->onShowCustomView(Landroid/view/View;Landroid/webkit/WebChromeClient$CustomViewCallback;)V
 
     return-void

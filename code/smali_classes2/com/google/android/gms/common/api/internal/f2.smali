@@ -58,7 +58,6 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
     sget-object v0, Lf/f/b/b/l/b;->c:Lcom/google/android/gms/common/api/a$a;
 
     sput-object v0, Lcom/google/android/gms/common/api/internal/f2;->K:Lcom/google/android/gms/common/api/a$a;
@@ -75,7 +74,6 @@
     .annotation build Landroidx/annotation/WorkerThread;
     .end annotation
 
-    .line 1
     sget-object v0, Lcom/google/android/gms/common/api/internal/f2;->K:Lcom/google/android/gms/common/api/a$a;
 
     invoke-direct {p0, p1, p2, p3, v0}, Lcom/google/android/gms/common/api/internal/f2;-><init>(Landroid/content/Context;Landroid/os/Handler;Lcom/google/android/gms/common/internal/f;Lcom/google/android/gms/common/api/a$a;)V
@@ -106,18 +104,14 @@
         }
     .end annotation
 
-    .line 2
     invoke-direct {p0}, Lcom/google/android/gms/signin/internal/c;-><init>()V
 
-    .line 3
     iput-object p1, p0, Lcom/google/android/gms/common/api/internal/f2;->b:Landroid/content/Context;
 
-    .line 4
     iput-object p2, p0, Lcom/google/android/gms/common/api/internal/f2;->c:Landroid/os/Handler;
 
     const-string p1, "ClientSettings must not be null"
 
-    .line 5
     invoke-static {p3, p1}, Lcom/google/android/gms/common/internal/b0;->l(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -126,14 +120,12 @@
 
     iput-object p1, p0, Lcom/google/android/gms/common/api/internal/f2;->g:Lcom/google/android/gms/common/internal/f;
 
-    .line 6
     invoke-virtual {p3}, Lcom/google/android/gms/common/internal/f;->l()Ljava/util/Set;
 
     move-result-object p1
 
     iput-object p1, p0, Lcom/google/android/gms/common/api/internal/f2;->f:Ljava/util/Set;
 
-    .line 7
     iput-object p4, p0, Lcom/google/android/gms/common/api/internal/f2;->d:Lcom/google/android/gms/common/api/a$a;
 
     return-void
@@ -142,7 +134,6 @@
 .method static synthetic M1(Lcom/google/android/gms/common/api/internal/f2;)Lcom/google/android/gms/common/api/internal/i2;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lcom/google/android/gms/common/api/internal/f2;->J:Lcom/google/android/gms/common/api/internal/i2;
 
     return-object p0
@@ -153,36 +144,30 @@
     .annotation build Landroidx/annotation/WorkerThread;
     .end annotation
 
-    .line 1
     invoke-virtual {p1}, Lcom/google/android/gms/signin/internal/zaj;->y()Lcom/google/android/gms/common/ConnectionResult;
 
     move-result-object v0
 
-    .line 2
     invoke-virtual {v0}, Lcom/google/android/gms/common/ConnectionResult;->Q()Z
 
     move-result v1
 
     if-eqz v1, :cond_1
 
-    .line 3
     invoke-virtual {p1}, Lcom/google/android/gms/signin/internal/zaj;->z()Lcom/google/android/gms/common/internal/ResolveAccountResponse;
 
     move-result-object p1
 
-    .line 4
     invoke-virtual {p1}, Lcom/google/android/gms/common/internal/ResolveAccountResponse;->z()Lcom/google/android/gms/common/ConnectionResult;
 
     move-result-object v0
 
-    .line 5
     invoke-virtual {v0}, Lcom/google/android/gms/common/ConnectionResult;->Q()Z
 
     move-result v1
 
     if-nez v1, :cond_0
 
-    .line 6
     invoke-static {v0}, Ljava/lang/String;->valueOf(Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object p1
@@ -219,19 +204,16 @@
 
     invoke-static {v2, p1, v1}, Landroid/util/Log;->wtf(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
 
-    .line 7
     iget-object p1, p0, Lcom/google/android/gms/common/api/internal/f2;->J:Lcom/google/android/gms/common/api/internal/i2;
 
     invoke-interface {p1, v0}, Lcom/google/android/gms/common/api/internal/i2;->b(Lcom/google/android/gms/common/ConnectionResult;)V
 
-    .line 8
     iget-object p1, p0, Lcom/google/android/gms/common/api/internal/f2;->p:Lf/f/b/b/l/e;
 
     invoke-interface {p1}, Lcom/google/android/gms/common/api/a$f;->disconnect()V
 
     return-void
 
-    .line 9
     :cond_0
     iget-object v0, p0, Lcom/google/android/gms/common/api/internal/f2;->J:Lcom/google/android/gms/common/api/internal/i2;
 
@@ -245,13 +227,11 @@
 
     goto :goto_0
 
-    .line 10
     :cond_1
     iget-object p1, p0, Lcom/google/android/gms/common/api/internal/f2;->J:Lcom/google/android/gms/common/api/internal/i2;
 
     invoke-interface {p1, v0}, Lcom/google/android/gms/common/api/internal/i2;->b(Lcom/google/android/gms/common/ConnectionResult;)V
 
-    .line 11
     :goto_0
     iget-object p1, p0, Lcom/google/android/gms/common/api/internal/f2;->p:Lf/f/b/b/l/e;
 
@@ -263,7 +243,6 @@
 .method static synthetic Z1(Lcom/google/android/gms/common/api/internal/f2;Lcom/google/android/gms/signin/internal/zaj;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/google/android/gms/common/api/internal/f2;->O2(Lcom/google/android/gms/signin/internal/zaj;)V
 
     return-void
@@ -276,7 +255,6 @@
     .annotation build Landroidx/annotation/BinderThread;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/common/api/internal/f2;->c:Landroid/os/Handler;
 
     new-instance v1, Lcom/google/android/gms/common/api/internal/h2;
@@ -293,7 +271,6 @@
     .annotation build Landroidx/annotation/WorkerThread;
     .end annotation
 
-    .line 1
     iget-object p1, p0, Lcom/google/android/gms/common/api/internal/f2;->p:Lf/f/b/b/l/e;
 
     invoke-interface {p1}, Lcom/google/android/gms/common/api/a$f;->disconnect()V
@@ -310,7 +287,6 @@
     .annotation build Landroidx/annotation/WorkerThread;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/common/api/internal/f2;->J:Lcom/google/android/gms/common/api/internal/i2;
 
     invoke-interface {v0, p1}, Lcom/google/android/gms/common/api/internal/i2;->b(Lcom/google/android/gms/common/ConnectionResult;)V
@@ -323,15 +299,12 @@
     .annotation build Landroidx/annotation/WorkerThread;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/common/api/internal/f2;->p:Lf/f/b/b/l/e;
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-interface {v0}, Lcom/google/android/gms/common/api/a$f;->disconnect()V
 
-    .line 3
     :cond_0
     iget-object v0, p0, Lcom/google/android/gms/common/api/internal/f2;->g:Lcom/google/android/gms/common/internal/f;
 
@@ -345,21 +318,18 @@
 
     invoke-virtual {v0, v1}, Lcom/google/android/gms/common/internal/f;->p(Ljava/lang/Integer;)V
 
-    .line 4
     iget-object v2, p0, Lcom/google/android/gms/common/api/internal/f2;->d:Lcom/google/android/gms/common/api/a$a;
 
     iget-object v3, p0, Lcom/google/android/gms/common/api/internal/f2;->b:Landroid/content/Context;
 
     iget-object v0, p0, Lcom/google/android/gms/common/api/internal/f2;->c:Landroid/os/Handler;
 
-    .line 5
     invoke-virtual {v0}, Landroid/os/Handler;->getLooper()Landroid/os/Looper;
 
     move-result-object v4
 
     iget-object v5, p0, Lcom/google/android/gms/common/api/internal/f2;->g:Lcom/google/android/gms/common/internal/f;
 
-    .line 6
     invoke-virtual {v5}, Lcom/google/android/gms/common/internal/f;->m()Lf/f/b/b/l/a;
 
     move-result-object v6
@@ -368,7 +338,6 @@
 
     move-object v8, p0
 
-    .line 7
     invoke-virtual/range {v2 .. v8}, Lcom/google/android/gms/common/api/a$a;->c(Landroid/content/Context;Landroid/os/Looper;Lcom/google/android/gms/common/internal/f;Ljava/lang/Object;Lcom/google/android/gms/common/api/i$b;Lcom/google/android/gms/common/api/i$c;)Lcom/google/android/gms/common/api/a$f;
 
     move-result-object v0
@@ -377,10 +346,8 @@
 
     iput-object v0, p0, Lcom/google/android/gms/common/api/internal/f2;->p:Lf/f/b/b/l/e;
 
-    .line 8
     iput-object p1, p0, Lcom/google/android/gms/common/api/internal/f2;->J:Lcom/google/android/gms/common/api/internal/i2;
 
-    .line 9
     iget-object p1, p0, Lcom/google/android/gms/common/api/internal/f2;->f:Ljava/util/Set;
 
     if-eqz p1, :cond_2
@@ -393,7 +360,6 @@
 
     goto :goto_0
 
-    .line 10
     :cond_1
     iget-object p1, p0, Lcom/google/android/gms/common/api/internal/f2;->p:Lf/f/b/b/l/e;
 
@@ -401,7 +367,6 @@
 
     return-void
 
-    .line 11
     :cond_2
     :goto_0
     iget-object p1, p0, Lcom/google/android/gms/common/api/internal/f2;->c:Landroid/os/Handler;
@@ -418,7 +383,6 @@
 .method public final m2()Lf/f/b/b/l/e;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/common/api/internal/f2;->p:Lf/f/b/b/l/e;
 
     return-object v0
@@ -427,12 +391,10 @@
 .method public final n2()V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/common/api/internal/f2;->p:Lf/f/b/b/l/e;
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-interface {v0}, Lcom/google/android/gms/common/api/a$f;->disconnect()V
 
     :cond_0
@@ -448,7 +410,6 @@
     .annotation build Landroidx/annotation/WorkerThread;
     .end annotation
 
-    .line 1
     iget-object p1, p0, Lcom/google/android/gms/common/api/internal/f2;->p:Lf/f/b/b/l/e;
 
     invoke-interface {p1, p0}, Lf/f/b/b/l/e;->u(Lcom/google/android/gms/signin/internal/d;)V

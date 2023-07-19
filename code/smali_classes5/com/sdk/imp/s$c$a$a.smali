@@ -25,7 +25,6 @@
 .method constructor <init>(Lcom/sdk/imp/s$c$a;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/sdk/imp/s$c$a$a;->a:Lcom/sdk/imp/s$c$a;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -42,7 +41,6 @@
 
     if-ne p2, v0, :cond_0
 
-    .line 1
     invoke-static {p1}, Lf/q/b/h;->a(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p1

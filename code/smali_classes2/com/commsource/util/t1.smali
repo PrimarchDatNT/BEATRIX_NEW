@@ -18,7 +18,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/commsource/util/t1;
 
     invoke-direct {v1}, Lcom/commsource/util/t1;-><init>()V
@@ -33,7 +32,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -48,16 +46,12 @@
 
     invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v2, v0, Landroid/graphics/RectF;->left:F
 
-    .line 2
     iget v3, v0, Landroid/graphics/RectF;->top:F
 
-    .line 3
     iget v4, v0, Landroid/graphics/RectF;->right:F
 
-    .line 4
     iget v0, v0, Landroid/graphics/RectF;->bottom:F
 
     sub-float v5, p2, p4
@@ -198,7 +192,6 @@
     :cond_9
     const/4 v8, 0x1
 
-    .line 5
     :cond_a
     invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -230,7 +223,6 @@
 
     invoke-static {p2, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     array-length v1, p1
 
     const/4 v8, 0x1
@@ -239,7 +231,6 @@
 
     if-eq v1, v2, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v8
@@ -270,64 +261,50 @@
 
     if-eq v9, v3, :cond_1
 
-    .line 3
     aget v3, p1, v6
 
-    .line 4
     aget v4, p1, v2
 
-    .line 5
     aget v5, p1, v1
 
-    .line 6
     aget v6, p1, v8
 
     move-object v2, p0
 
     move-object v7, p2
 
-    .line 7
     invoke-direct/range {v2 .. v7}, Lcom/commsource/util/t1;->a(FFFFLandroid/graphics/RectF;)Z
 
     move-result v2
 
     goto :goto_1
 
-    .line 8
     :cond_1
     aget v3, p1, v5
 
-    .line 9
     aget v4, p1, v4
 
-    .line 10
     aget v5, p1, v6
 
-    .line 11
     aget v6, p1, v2
 
     move-object v2, p0
 
     move-object v7, p2
 
-    .line 12
     invoke-direct/range {v2 .. v7}, Lcom/commsource/util/t1;->a(FFFFLandroid/graphics/RectF;)Z
 
     move-result v2
 
     goto :goto_1
 
-    .line 13
     :cond_2
     aget v3, p1, v3
 
-    .line 14
     aget v6, p1, v2
 
-    .line 15
     aget v5, p1, v5
 
-    .line 16
     aget v7, p1, v4
 
     move-object v2, p0
@@ -338,24 +315,19 @@
 
     move-object v7, p2
 
-    .line 17
     invoke-direct/range {v2 .. v7}, Lcom/commsource/util/t1;->a(FFFFLandroid/graphics/RectF;)Z
 
     move-result v2
 
     goto :goto_1
 
-    .line 18
     :cond_3
     aget v4, p1, v1
 
-    .line 19
     aget v5, p1, v8
 
-    .line 20
     aget v6, p1, v3
 
-    .line 21
     aget v7, p1, v2
 
     move-object v2, p0
@@ -370,7 +342,6 @@
 
     move-object v7, p2
 
-    .line 22
     invoke-direct/range {v2 .. v7}, Lcom/commsource/util/t1;->a(FFFFLandroid/graphics/RectF;)Z
 
     move-result v2
@@ -378,7 +349,6 @@
     :goto_1
     if-eqz v2, :cond_4
 
-    .line 23
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v8
@@ -388,7 +358,6 @@
 
     goto :goto_0
 
-    .line 24
     :cond_5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

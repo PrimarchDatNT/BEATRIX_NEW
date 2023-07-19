@@ -33,14 +33,12 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     sget-object v0, Lcotlin/coroutines/EmptyCoroutineContext;->INSTANCE:Lcotlin/coroutines/EmptyCoroutineContext;
 
     if-ne p1, v0, :cond_0
 
     goto :goto_0
 
-    .line 2
     :cond_0
     sget-object v0, Lcotlin/coroutines/CoroutineContext$plus$1;->INSTANCE:Lcotlin/coroutines/CoroutineContext$plus$1;
 

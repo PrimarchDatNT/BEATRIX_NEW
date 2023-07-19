@@ -21,13 +21,10 @@
 .method public constructor <init>(Lcom/google/firebase/firestore/core/LimboDocumentChange$Type;Lcom/google/firebase/firestore/model/e;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/google/firebase/firestore/core/LimboDocumentChange;->a:Lcom/google/firebase/firestore/core/LimboDocumentChange$Type;
 
-    .line 3
     iput-object p2, p0, Lcom/google/firebase/firestore/core/LimboDocumentChange;->b:Lcom/google/firebase/firestore/model/e;
 
     return-void
@@ -38,7 +35,6 @@
 .method public a()Lcom/google/firebase/firestore/model/e;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/firestore/core/LimboDocumentChange;->b:Lcom/google/firebase/firestore/model/e;
 
     return-object v0
@@ -47,7 +43,6 @@
 .method public b()Lcom/google/firebase/firestore/core/LimboDocumentChange$Type;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/firestore/core/LimboDocumentChange;->a:Lcom/google/firebase/firestore/core/LimboDocumentChange$Type;
 
     return-object v0
@@ -56,7 +51,6 @@
 .method public equals(Ljava/lang/Object;)Z
     .locals 3
 
-    .line 1
     instance-of v0, p1, Lcom/google/firebase/firestore/core/LimboDocumentChange;
 
     const/4 v1, 0x0
@@ -65,11 +59,9 @@
 
     return v1
 
-    .line 2
     :cond_0
     check-cast p1, Lcom/google/firebase/firestore/core/LimboDocumentChange;
 
-    .line 3
     iget-object v0, p0, Lcom/google/firebase/firestore/core/LimboDocumentChange;->a:Lcom/google/firebase/firestore/core/LimboDocumentChange$Type;
 
     invoke-virtual {p1}, Lcom/google/firebase/firestore/core/LimboDocumentChange;->b()Lcom/google/firebase/firestore/core/LimboDocumentChange$Type;
@@ -103,7 +95,6 @@
 .method public hashCode()I
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/firestore/core/LimboDocumentChange;->a:Lcom/google/firebase/firestore/core/LimboDocumentChange$Type;
 
     invoke-virtual {v0}, Ljava/lang/Enum;->hashCode()I
@@ -116,7 +107,6 @@
 
     mul-int/lit8 v1, v1, 0x1f
 
-    .line 2
     iget-object v0, p0, Lcom/google/firebase/firestore/core/LimboDocumentChange;->b:Lcom/google/firebase/firestore/model/e;
 
     invoke-virtual {v0}, Lcom/google/firebase/firestore/model/e;->hashCode()I

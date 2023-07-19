@@ -21,7 +21,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -44,7 +43,6 @@
 
     goto :goto_0
 
-    .line 1
     :cond_0
     invoke-virtual {p1}, Lcom/commsource/beautyplus/setting/country/github/a;->b()Ljava/lang/String;
 
@@ -60,7 +58,6 @@
 
     move-result-object p1
 
-    .line 2
     invoke-virtual {p2}, Lcom/commsource/beautyplus/setting/country/github/a;->b()Ljava/lang/String;
 
     move-result-object p2
@@ -73,7 +70,6 @@
 
     move-result-object p2
 
-    .line 3
     invoke-virtual {p1, p2}, Ljava/lang/String;->compareTo(Ljava/lang/String;)I
 
     move-result p1
@@ -82,7 +78,6 @@
 
     return p1
 
-    .line 4
     :cond_1
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -97,7 +92,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Lcom/commsource/beautyplus/setting/country/github/a;
 
     check-cast p2, Lcom/commsource/beautyplus/setting/country/github/a;

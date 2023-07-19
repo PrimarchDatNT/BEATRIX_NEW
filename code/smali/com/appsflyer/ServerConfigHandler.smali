@@ -11,7 +11,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     :try_start_0
     new-instance v1, Lorg/json/JSONObject;
 
@@ -19,7 +18,6 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_1
 
-    .line 2
     :try_start_1
     invoke-static {}, Lcom/appsflyer/AppsFlyerProperties;->getInstance()Lcom/appsflyer/AppsFlyerProperties;
 
@@ -35,7 +33,6 @@
 
     const-string v2, "monitor"
 
-    .line 3
     invoke-virtual {v1, v2, v3}, Lorg/json/JSONObject;->optBoolean(Ljava/lang/String;Z)Z
 
     move-result v2
@@ -44,7 +41,6 @@
 
     if-nez p0, :cond_0
 
-    .line 4
     invoke-static {}, Lcom/appsflyer/internal/ad;->$$a()Lcom/appsflyer/internal/ad;
 
     move-result-object p0
@@ -53,7 +49,6 @@
 
     goto :goto_0
 
-    .line 5
     :cond_0
     invoke-static {}, Lcom/appsflyer/internal/ad;->$$a()Lcom/appsflyer/internal/ad;
 
@@ -61,7 +56,6 @@
 
     invoke-virtual {p0}, Lcom/appsflyer/internal/ad;->$$b()V
 
-    .line 6
     invoke-static {}, Lcom/appsflyer/internal/ad;->$$a()Lcom/appsflyer/internal/ad;
 
     move-result-object p0
@@ -71,7 +65,6 @@
     :goto_0
     const-string p0, "ol_id"
 
-    .line 7
     invoke-virtual {v1, p0}, Lorg/json/JSONObject;->has(Ljava/lang/String;)Z
 
     move-result p0
@@ -80,28 +73,24 @@
 
     const-string p0, "ol_scheme"
 
-    .line 8
     invoke-virtual {v1, p0, v0}, Lorg/json/JSONObject;->optString(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p0
 
     const-string v2, "ol_domain"
 
-    .line 9
     invoke-virtual {v1, v2, v0}, Lorg/json/JSONObject;->optString(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v2
 
     const-string v3, "ol_ver"
 
-    .line 10
     invoke-virtual {v1, v3, v0}, Lorg/json/JSONObject;->optString(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
 
     if-eqz p0, :cond_1
 
-    .line 11
     invoke-static {}, Lcom/appsflyer/AppsFlyerProperties;->getInstance()Lcom/appsflyer/AppsFlyerProperties;
 
     move-result-object v3
@@ -113,7 +102,6 @@
     :cond_1
     if-eqz v2, :cond_2
 
-    .line 12
     invoke-static {}, Lcom/appsflyer/AppsFlyerProperties;->getInstance()Lcom/appsflyer/AppsFlyerProperties;
 
     move-result-object p0
@@ -125,7 +113,6 @@
     :cond_2
     if-eqz v0, :cond_3
 
-    .line 13
     invoke-static {}, Lcom/appsflyer/AppsFlyerProperties;->getInstance()Lcom/appsflyer/AppsFlyerProperties;
 
     move-result-object p0
@@ -148,7 +135,6 @@
     :catchall_1
     move-exception p0
 
-    .line 14
     :goto_1
     invoke-virtual {p0}, Ljava/lang/Throwable;->getMessage()Ljava/lang/String;
 
@@ -156,14 +142,12 @@
 
     invoke-static {v1, p0}, Lcom/appsflyer/AFLogger;->afErrorLog(Ljava/lang/String;Ljava/lang/Throwable;)V
 
-    .line 15
     invoke-static {}, Lcom/appsflyer/internal/ad;->$$a()Lcom/appsflyer/internal/ad;
 
     move-result-object p0
 
     invoke-virtual {p0}, Lcom/appsflyer/internal/ad;->$$b()V
 
-    .line 16
     invoke-static {}, Lcom/appsflyer/internal/ad;->$$a()Lcom/appsflyer/internal/ad;
 
     move-result-object p0
@@ -180,7 +164,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -193,7 +176,6 @@
 
     new-array v0, v0, [Ljava/lang/Object;
 
-    .line 1
     invoke-static {}, Lcom/appsflyer/AppsFlyerLib;->getInstance()Lcom/appsflyer/AppsFlyerLib;
 
     move-result-object v1

@@ -28,7 +28,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/widget/title/XTitleBar$a;->a:Lcom/commsource/widget/title/XTitleBar;
 
     invoke-direct {p0}, Landroidx/recyclerview/widget/RecyclerView$OnScrollListener;-><init>()V
@@ -53,10 +52,8 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-super {p0, p1, p2, p3}, Landroidx/recyclerview/widget/RecyclerView$OnScrollListener;->onScrolled(Landroidx/recyclerview/widget/RecyclerView;II)V
 
-    .line 2
     invoke-virtual {p1}, Landroidx/recyclerview/widget/RecyclerView;->computeVerticalScrollOffset()I
 
     move-result p1
@@ -76,7 +73,6 @@
     :cond_0
     const/4 p1, 0x0
 
-    .line 3
     :goto_0
     iget-object p2, p0, Lcom/commsource/widget/title/XTitleBar$a;->a:Lcom/commsource/widget/title/XTitleBar;
 
@@ -86,18 +82,15 @@
 
     if-ne p2, p1, :cond_1
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 5
     :cond_1
     iget-object p2, p0, Lcom/commsource/widget/title/XTitleBar$a;->a:Lcom/commsource/widget/title/XTitleBar;
 
     invoke-virtual {p2, p1}, Lcom/commsource/widget/title/XTitleBar;->setScrollVisible(Z)V
 
-    .line 6
     iget-object p1, p0, Lcom/commsource/widget/title/XTitleBar$a;->a:Lcom/commsource/widget/title/XTitleBar;
 
     invoke-virtual {p1}, Lcom/commsource/widget/title/XTitleBar;->s()Z
@@ -106,7 +99,6 @@
 
     if-eqz p1, :cond_2
 
-    .line 7
     iget-object p1, p0, Lcom/commsource/widget/title/XTitleBar$a;->a:Lcom/commsource/widget/title/XTitleBar;
 
     invoke-static {p1}, Lcom/commsource/widget/title/XTitleBar;->d(Lcom/commsource/widget/title/XTitleBar;)Lcom/commsource/camera/f1/n;
@@ -119,7 +111,6 @@
 
     goto :goto_1
 
-    .line 8
     :cond_2
     iget-object p1, p0, Lcom/commsource/widget/title/XTitleBar$a;->a:Lcom/commsource/widget/title/XTitleBar;
 
@@ -131,7 +122,6 @@
 
     invoke-virtual {p1, p2}, Lcom/commsource/camera/f1/n;->i(F)V
 
-    .line 9
     :goto_1
     iget-object p1, p0, Lcom/commsource/widget/title/XTitleBar$a;->a:Lcom/commsource/widget/title/XTitleBar;
 
@@ -143,7 +133,6 @@
 
     invoke-virtual {p1, p2, p3}, Lcom/commsource/camera/f1/l;->b(J)Lcom/commsource/camera/f1/l;
 
-    .line 10
     iget-object p1, p0, Lcom/commsource/widget/title/XTitleBar$a;->a:Lcom/commsource/widget/title/XTitleBar;
 
     invoke-static {p1}, Lcom/commsource/widget/title/XTitleBar;->e(Lcom/commsource/widget/title/XTitleBar;)Lcom/commsource/camera/f1/l;
@@ -152,7 +141,6 @@
 
     invoke-virtual {p1}, Lcom/commsource/camera/f1/l;->a()V
 
-    .line 11
     iget-object p1, p0, Lcom/commsource/widget/title/XTitleBar$a;->a:Lcom/commsource/widget/title/XTitleBar;
 
     invoke-static {p1}, Lcom/commsource/widget/title/XTitleBar;->e(Lcom/commsource/widget/title/XTitleBar;)Lcom/commsource/camera/f1/l;
@@ -161,7 +149,6 @@
 
     invoke-virtual {p1}, Lcom/commsource/camera/f1/l;->j()V
 
-    .line 12
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

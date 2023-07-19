@@ -63,43 +63,30 @@
 .method private constructor <init>(Lorg/json/JSONObject;ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;IDJLjava/lang/String;Lf/n/a/c/j;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/qiniu/android/http/g;->o:Lorg/json/JSONObject;
 
-    .line 3
     iput p2, p0, Lcom/qiniu/android/http/g;->a:I
 
-    .line 4
     iput-object p3, p0, Lcom/qiniu/android/http/g;->b:Ljava/lang/String;
 
-    .line 5
     iput-object p4, p0, Lcom/qiniu/android/http/g;->c:Ljava/lang/String;
 
-    .line 6
     iput-object p5, p0, Lcom/qiniu/android/http/g;->d:Ljava/lang/String;
 
-    .line 7
     iput-object p6, p0, Lcom/qiniu/android/http/g;->g:Ljava/lang/String;
 
-    .line 8
     iput-object p7, p0, Lcom/qiniu/android/http/g;->j:Ljava/lang/String;
 
-    .line 9
     iput-wide p10, p0, Lcom/qiniu/android/http/g;->f:D
 
-    .line 10
     iput-object p14, p0, Lcom/qiniu/android/http/g;->e:Ljava/lang/String;
 
-    .line 11
     iput-object p8, p0, Lcom/qiniu/android/http/g;->h:Ljava/lang/String;
 
-    .line 12
     iput p9, p0, Lcom/qiniu/android/http/g;->i:I
 
-    .line 13
     invoke-static {}, Lcom/qiniu/android/http/i;->f()Lcom/qiniu/android/http/i;
 
     move-result-object p1
@@ -108,7 +95,6 @@
 
     iput-object p1, p0, Lcom/qiniu/android/http/g;->k:Ljava/lang/String;
 
-    .line 14
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide p1
@@ -119,10 +105,8 @@
 
     iput-wide p1, p0, Lcom/qiniu/android/http/g;->l:J
 
-    .line 15
     iput-wide p12, p0, Lcom/qiniu/android/http/g;->m:J
 
-    .line 16
     iput-object p15, p0, Lcom/qiniu/android/http/g;->n:Lf/n/a/c/j;
 
     return-void
@@ -157,7 +141,6 @@
 
     move-object v14, p0
 
-    .line 1
     invoke-static/range {v0 .. v14}, Lcom/qiniu/android/http/g;->b(Lorg/json/JSONObject;ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;IDJLjava/lang/String;Lf/n/a/c/j;)Lcom/qiniu/android/http/g;
 
     move-result-object p0
@@ -168,7 +151,6 @@
 .method public static b(Lorg/json/JSONObject;ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;IDJLjava/lang/String;Lf/n/a/c/j;)Lcom/qiniu/android/http/g;
     .locals 17
 
-    .line 1
     new-instance v15, Lcom/qiniu/android/http/g;
 
     move-object v0, v15
@@ -203,12 +185,10 @@
 
     invoke-direct/range {v0 .. v15}, Lcom/qiniu/android/http/g;-><init>(Lorg/json/JSONObject;ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;IDJLjava/lang/String;Lf/n/a/c/j;)V
 
-    .line 2
     sget-boolean v0, Lf/n/a/a/a;->a:Z
 
     if-eqz v0, :cond_0
 
-    .line 3
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -223,7 +203,6 @@
 
     invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
-    .line 4
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -240,7 +219,6 @@
 
     move-result-object v13
 
-    .line 5
     new-instance v0, Lcom/qiniu/android/http/g$a;
 
     move-object v5, v0
@@ -277,7 +255,6 @@
 .method public static c(Ljava/lang/Exception;Lf/n/a/c/j;)Lcom/qiniu/android/http/g;
     .locals 15
 
-    .line 1
     invoke-virtual {p0}, Ljava/lang/Exception;->getMessage()Ljava/lang/String;
 
     move-result-object v13
@@ -342,7 +319,6 @@
 
     move-object/from16 v14, p1
 
-    .line 1
     invoke-static/range {v0 .. v14}, Lcom/qiniu/android/http/g;->b(Lorg/json/JSONObject;ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;IDJLjava/lang/String;Lf/n/a/c/j;)Lcom/qiniu/android/http/g;
 
     move-result-object v0
@@ -379,7 +355,6 @@
 
     move-object v13, p0
 
-    .line 1
     invoke-static/range {v0 .. v14}, Lcom/qiniu/android/http/g;->b(Lorg/json/JSONObject;ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;IDJLjava/lang/String;Lf/n/a/c/j;)Lcom/qiniu/android/http/g;
 
     move-result-object p0
@@ -416,7 +391,6 @@
 
     move-object v14, p0
 
-    .line 1
     invoke-static/range {v0 .. v14}, Lcom/qiniu/android/http/g;->b(Lorg/json/JSONObject;ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;IDJLjava/lang/String;Lf/n/a/c/j;)Lcom/qiniu/android/http/g;
 
     move-result-object p0
@@ -429,7 +403,6 @@
 .method public d()Z
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/qiniu/android/http/g;->b:Ljava/lang/String;
 
     if-eqz v0, :cond_0
@@ -448,7 +421,6 @@
 .method public g()Z
     .locals 2
 
-    .line 1
     iget v0, p0, Lcom/qiniu/android/http/g;->a:I
 
     const/4 v1, -0x2
@@ -469,7 +441,6 @@
 .method public h()Z
     .locals 2
 
-    .line 1
     iget v0, p0, Lcom/qiniu/android/http/g;->a:I
 
     const/4 v1, -0x1
@@ -510,7 +481,6 @@
 .method public i()Z
     .locals 2
 
-    .line 1
     iget v0, p0, Lcom/qiniu/android/http/g;->a:I
 
     const/16 v1, 0x1f4
@@ -545,7 +515,6 @@
 .method public j()Z
     .locals 2
 
-    .line 1
     iget v0, p0, Lcom/qiniu/android/http/g;->a:I
 
     const/16 v1, 0xc8
@@ -581,7 +550,6 @@
 .method public k()Z
     .locals 2
 
-    .line 1
     iget v0, p0, Lcom/qiniu/android/http/g;->a:I
 
     const/16 v1, 0x1f4
@@ -616,7 +584,6 @@
 .method public l()Z
     .locals 2
 
-    .line 1
     invoke-virtual {p0}, Lcom/qiniu/android/http/g;->g()Z
 
     move-result v0
@@ -658,7 +625,6 @@
 .method public m()Z
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/qiniu/android/http/g;->h()Z
 
     move-result v0
@@ -689,7 +655,6 @@
 .method public toString()Ljava/lang/String;
     .locals 4
 
-    .line 1
     sget-object v0, Ljava/util/Locale;->ENGLISH:Ljava/util/Locale;
 
     const/16 v1, 0xe
@@ -710,7 +675,6 @@
 
     iget v2, p0, Lcom/qiniu/android/http/g;->a:I
 
-    .line 2
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v2
@@ -803,7 +767,6 @@
 
     const-string v2, "{ver:%s,ResponseInfo:%s,status:%d, reqId:%s, xlog:%s, xvia:%s, host:%s, path:%s, ip:%s, port:%d, duration:%f s, time:%d, sent:%d,error:%s}"
 
-    .line 3
     invoke-static {v0, v2, v1}, Ljava/lang/String;->format(Ljava/util/Locale;Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object v0

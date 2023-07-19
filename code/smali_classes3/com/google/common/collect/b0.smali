@@ -45,10 +45,8 @@
 .method protected constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     invoke-static {}, Lcom/google/common/base/Optional;->absent()Lcom/google/common/base/Optional;
 
     move-result-object v0
@@ -68,10 +66,8 @@
         }
     .end annotation
 
-    .line 3
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 4
     invoke-static {p1}, Lcom/google/common/base/t;->E(Ljava/lang/Object;)Ljava/lang/Object;
 
     if-eq p0, p1, :cond_0
@@ -81,7 +77,6 @@
     :cond_0
     const/4 p1, 0x0
 
-    .line 5
     :goto_0
     invoke-static {p1}, Lcom/google/common/base/Optional;->fromNullable(Ljava/lang/Object;)Lcom/google/common/base/Optional;
 
@@ -106,7 +101,6 @@
         }
     .end annotation
 
-    .line 1
     instance-of v0, p0, Lcom/google/common/collect/b0;
 
     if-eqz v0, :cond_0
@@ -141,7 +135,6 @@
     .annotation build Lf/f/e/a/a;
     .end annotation
 
-    .line 1
     invoke-static {p0}, Ljava/util/Arrays;->asList([Ljava/lang/Object;)Ljava/util/List;
 
     move-result-object p0
@@ -163,7 +156,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/collect/b0;->a:Lcom/google/common/base/Optional;
 
     invoke-virtual {v0, p0}, Lcom/google/common/base/Optional;->or(Ljava/lang/Object;)Ljava/lang/Object;
@@ -194,10 +186,8 @@
     .annotation build Lf/f/e/a/a;
     .end annotation
 
-    .line 1
     invoke-static {p0}, Lcom/google/common/base/t;->E(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 2
     new-instance v0, Lcom/google/common/collect/b0$b;
 
     invoke-direct {v0, p0}, Lcom/google/common/collect/b0$b;-><init>(Ljava/lang/Iterable;)V
@@ -236,7 +226,6 @@
 
     aput-object p1, v0, p0
 
-    .line 1
     invoke-static {v0}, Lcom/google/common/collect/b0;->o([Ljava/lang/Iterable;)Lcom/google/common/collect/b0;
 
     move-result-object p0
@@ -281,7 +270,6 @@
 
     aput-object p2, v0, p0
 
-    .line 1
     invoke-static {v0}, Lcom/google/common/collect/b0;->o([Ljava/lang/Iterable;)Lcom/google/common/collect/b0;
 
     move-result-object p0
@@ -332,7 +320,6 @@
 
     aput-object p3, v0, p0
 
-    .line 1
     invoke-static {v0}, Lcom/google/common/collect/b0;->o([Ljava/lang/Iterable;)Lcom/google/common/collect/b0;
 
     move-result-object p0
@@ -357,7 +344,6 @@
     .annotation build Lf/f/e/a/a;
     .end annotation
 
-    .line 1
     array-length v0, p0
 
     invoke-static {p0, v0}, Ljava/util/Arrays;->copyOf([Ljava/lang/Object;I)[Ljava/lang/Object;
@@ -388,7 +374,6 @@
     .annotation build Lf/f/e/a/a;
     .end annotation
 
-    .line 1
     invoke-static {}, Lcom/google/common/collect/ImmutableList;->of()Lcom/google/common/collect/ImmutableList;
 
     move-result-object v0
@@ -419,7 +404,6 @@
     .annotation build Lf/f/e/a/a;
     .end annotation
 
-    .line 1
     invoke-static {p0, p1}, Lcom/google/common/collect/Lists;->c(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/util/List;
 
     move-result-object p0
@@ -445,7 +429,6 @@
         }
     .end annotation
 
-    .line 1
     array-length v0, p0
 
     const/4 v1, 0x0
@@ -455,14 +438,12 @@
 
     aget-object v2, p0, v1
 
-    .line 2
     invoke-static {v2}, Lcom/google/common/base/t;->E(Ljava/lang/Object;)Ljava/lang/Object;
 
     add-int/lit8 v1, v1, 0x1
 
     goto :goto_0
 
-    .line 3
     :cond_0
     new-instance v0, Lcom/google/common/collect/b0$c;
 
@@ -492,7 +473,6 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    .line 1
     invoke-static {p0}, Lcom/google/common/base/t;->E(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p0
@@ -518,7 +498,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Lcom/google/common/collect/b0;->M()Ljava/lang/Iterable;
 
     move-result-object v0
@@ -540,7 +519,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Lcom/google/common/collect/b0;->M()Ljava/lang/Iterable;
 
     move-result-object v0
@@ -562,7 +540,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Lcom/google/common/collect/b0;->M()Ljava/lang/Iterable;
 
     move-result-object v0
@@ -586,7 +563,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p1}, Lcom/google/common/collect/Ordering;->from(Ljava/util/Comparator;)Lcom/google/common/collect/Ordering;
 
     move-result-object p1
@@ -614,7 +590,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Lcom/google/common/collect/b0;->M()Ljava/lang/Iterable;
 
     move-result-object v0
@@ -640,7 +615,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Lcom/google/common/collect/b0;->M()Ljava/lang/Iterable;
 
     move-result-object v0
@@ -672,7 +646,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0, p1}, Lcom/google/common/collect/b0;->J0(Lcom/google/common/base/n;)Lcom/google/common/collect/b0;
 
     move-result-object p1
@@ -698,7 +671,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Lcom/google/common/collect/b0;->M()Ljava/lang/Iterable;
 
     move-result-object v0
@@ -724,7 +696,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Lcom/google/common/collect/b0;->M()Ljava/lang/Iterable;
 
     move-result-object v0
@@ -741,7 +712,6 @@
     .annotation build Lf/f/e/a/a;
     .end annotation
 
-    .line 1
     invoke-virtual {p1, p0}, Lcom/google/common/base/o;->k(Ljava/lang/Iterable;)Ljava/lang/String;
 
     move-result-object p1
@@ -759,34 +729,28 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Lcom/google/common/collect/b0;->M()Ljava/lang/Iterable;
 
     move-result-object v0
 
-    .line 2
     instance-of v1, v0, Ljava/util/List;
 
     if-eqz v1, :cond_1
 
-    .line 3
     check-cast v0, Ljava/util/List;
 
-    .line 4
     invoke-interface {v0}, Ljava/util/List;->isEmpty()Z
 
     move-result v1
 
     if-eqz v1, :cond_0
 
-    .line 5
     invoke-static {}, Lcom/google/common/base/Optional;->absent()Lcom/google/common/base/Optional;
 
     move-result-object v0
 
     return-object v0
 
-    .line 6
     :cond_0
     invoke-interface {v0}, Ljava/util/List;->size()I
 
@@ -804,36 +768,30 @@
 
     return-object v0
 
-    .line 7
     :cond_1
     invoke-interface {v0}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v1
 
-    .line 8
     invoke-interface {v1}, Ljava/util/Iterator;->hasNext()Z
 
     move-result v2
 
     if-nez v2, :cond_2
 
-    .line 9
     invoke-static {}, Lcom/google/common/base/Optional;->absent()Lcom/google/common/base/Optional;
 
     move-result-object v0
 
     return-object v0
 
-    .line 10
     :cond_2
     instance-of v2, v0, Ljava/util/SortedSet;
 
     if-eqz v2, :cond_3
 
-    .line 11
     check-cast v0, Ljava/util/SortedSet;
 
-    .line 12
     invoke-interface {v0}, Ljava/util/SortedSet;->last()Ljava/lang/Object;
 
     move-result-object v0
@@ -844,20 +802,17 @@
 
     return-object v0
 
-    .line 13
     :cond_3
     invoke-interface {v1}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
     move-result-object v0
 
-    .line 14
     invoke-interface {v1}, Ljava/util/Iterator;->hasNext()Z
 
     move-result v2
 
     if-nez v2, :cond_3
 
-    .line 15
     invoke-static {v0}, Lcom/google/common/base/Optional;->of(Ljava/lang/Object;)Lcom/google/common/base/Optional;
 
     move-result-object v0
@@ -875,7 +830,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Lcom/google/common/collect/b0;->M()Ljava/lang/Iterable;
 
     move-result-object v0
@@ -897,7 +851,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Lcom/google/common/collect/b0;->M()Ljava/lang/Iterable;
 
     move-result-object v0
@@ -916,7 +869,6 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-direct {p0}, Lcom/google/common/collect/b0;->M()Ljava/lang/Iterable;
 
     move-result-object v0
@@ -943,7 +895,6 @@
     .annotation build Lf/f/e/a/a;
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Lcom/google/common/collect/b0;->M()Ljava/lang/Iterable;
 
     move-result-object v0
@@ -963,7 +914,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Lcom/google/common/collect/b0;->M()Ljava/lang/Iterable;
 
     move-result-object v0
@@ -988,7 +938,6 @@
     .annotation build Lf/f/e/a/a;
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Lcom/google/common/collect/b0;->M()Ljava/lang/Iterable;
 
     move-result-object v0
@@ -1007,7 +956,6 @@
 .method public final isEmpty()Z
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Lcom/google/common/collect/b0;->M()Ljava/lang/Iterable;
 
     move-result-object v0
@@ -1035,7 +983,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Lcom/google/common/collect/b0;->M()Ljava/lang/Iterable;
 
     move-result-object v0
@@ -1064,20 +1011,16 @@
     .annotation build Lf/f/f/a/a;
     .end annotation
 
-    .line 1
     invoke-static {p1}, Lcom/google/common/base/t;->E(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 2
     invoke-direct {p0}, Lcom/google/common/collect/b0;->M()Ljava/lang/Iterable;
 
     move-result-object v0
 
-    .line 3
     instance-of v1, v0, Ljava/util/Collection;
 
     if-eqz v1, :cond_0
 
-    .line 4
     invoke-static {v0}, Lcom/google/common/collect/n;->b(Ljava/lang/Iterable;)Ljava/util/Collection;
 
     move-result-object v0
@@ -1086,7 +1029,6 @@
 
     goto :goto_1
 
-    .line 5
     :cond_0
     invoke-interface {v0}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
@@ -1103,7 +1045,6 @@
 
     move-result-object v1
 
-    .line 6
     invoke-interface {p1, v1}, Ljava/util/Collection;->add(Ljava/lang/Object;)Z
 
     goto :goto_0
@@ -1123,7 +1064,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Lcom/google/common/collect/b0;->M()Ljava/lang/Iterable;
 
     move-result-object v0
@@ -1149,7 +1089,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Lcom/google/common/collect/b0;->M()Ljava/lang/Iterable;
 
     move-result-object v0
@@ -1177,7 +1116,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Lcom/google/common/collect/b0;->M()Ljava/lang/Iterable;
 
     move-result-object v0
@@ -1196,7 +1134,6 @@
 .method public final size()I
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Lcom/google/common/collect/b0;->M()Ljava/lang/Iterable;
 
     move-result-object v0
@@ -1211,7 +1148,6 @@
 .method public toString()Ljava/lang/String;
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Lcom/google/common/collect/b0;->M()Ljava/lang/Iterable;
 
     move-result-object v0
@@ -1240,7 +1176,6 @@
     .annotation build Lf/f/e/a/c;
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Lcom/google/common/collect/b0;->M()Ljava/lang/Iterable;
 
     move-result-object v0
@@ -1266,7 +1201,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Lcom/google/common/collect/b0;->M()Ljava/lang/Iterable;
 
     move-result-object v0
@@ -1275,7 +1209,6 @@
 
     move-result-object v0
 
-    .line 2
     invoke-interface {v0}, Ljava/util/Iterator;->hasNext()Z
 
     move-result v1
@@ -1314,7 +1247,6 @@
     .annotation build Lf/f/e/a/c;
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Lcom/google/common/collect/b0;->M()Ljava/lang/Iterable;
 
     move-result-object v0
@@ -1338,7 +1270,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Lcom/google/common/collect/b0;->M()Ljava/lang/Iterable;
 
     move-result-object v0
@@ -1360,7 +1291,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Lcom/google/common/collect/b0;->M()Ljava/lang/Iterable;
 
     move-result-object v0

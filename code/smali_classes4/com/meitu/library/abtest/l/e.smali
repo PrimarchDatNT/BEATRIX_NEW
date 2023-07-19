@@ -31,7 +31,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -44,14 +43,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/meitu/library/abtest/l/e;->b()Ljava/lang/String;
 
     move-result-object v1
 
     if-eqz v1, :cond_1
 
-    .line 2
     invoke-virtual {v1}, Ljava/lang/String;->length()I
 
     move-result v2
@@ -60,7 +57,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_0
     new-instance v2, Ljava/lang/StringBuilder;
 
@@ -88,7 +84,6 @@
     :goto_0
     const/4 v1, 0x0
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
@@ -103,7 +98,6 @@
 
     const/4 v1, 0x0
 
-    .line 1
     :try_start_0
     invoke-static {}, Lcom/meitu/library/abtest/l/e;->c()Z
 
@@ -129,10 +123,8 @@
     :catch_0
     move-exception v2
 
-    .line 2
     invoke-virtual {v2}, Ljava/lang/Exception;->printStackTrace()V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
@@ -148,7 +140,6 @@
     :try_start_0
     const-string v1, "mounted"
 
-    .line 1
     invoke-static {}, Landroid/os/Environment;->getExternalStorageState()Ljava/lang/String;
 
     move-result-object v2
@@ -166,12 +157,10 @@
     :catch_0
     move-exception v1
 
-    .line 2
     invoke-virtual {v1}, Ljava/lang/Exception;->printStackTrace()V
 
     const/4 v1, 0x0
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1

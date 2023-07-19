@@ -45,17 +45,14 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     new-instance v0, Lorg/jsoup/helper/b$d;
 
     invoke-direct {v0}, Lorg/jsoup/helper/b$d;-><init>()V
 
     iput-object v0, p0, Lorg/jsoup/helper/b;->a:Lorg/jsoup/Connection$c;
 
-    .line 3
     new-instance v0, Lorg/jsoup/helper/b$e;
 
     invoke-direct {v0}, Lorg/jsoup/helper/b$e;-><init>()V
@@ -68,7 +65,6 @@
 .method static synthetic F(Lorg/jsoup/Connection$c;)Z
     .locals 0
 
-    .line 1
     invoke-static {p0}, Lorg/jsoup/helper/b;->M(Lorg/jsoup/Connection$c;)Z
 
     move-result p0
@@ -79,7 +75,6 @@
 .method static synthetic G(Ljava/lang/String;)Ljava/lang/String;
     .locals 0
 
-    .line 1
     invoke-static {p0}, Lorg/jsoup/helper/b;->J(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p0
@@ -90,12 +85,10 @@
 .method public static H(Ljava/lang/String;)Lorg/jsoup/Connection;
     .locals 1
 
-    .line 1
     new-instance v0, Lorg/jsoup/helper/b;
 
     invoke-direct {v0}, Lorg/jsoup/helper/b;-><init>()V
 
-    .line 2
     invoke-interface {v0, p0}, Lorg/jsoup/Connection;->h(Ljava/lang/String;)Lorg/jsoup/Connection;
 
     return-object v0
@@ -104,12 +97,10 @@
 .method public static I(Ljava/net/URL;)Lorg/jsoup/Connection;
     .locals 1
 
-    .line 1
     new-instance v0, Lorg/jsoup/helper/b;
 
     invoke-direct {v0}, Lorg/jsoup/helper/b;-><init>()V
 
-    .line 2
     invoke-interface {v0, p0}, Lorg/jsoup/Connection;->j(Ljava/net/URL;)Lorg/jsoup/Connection;
 
     return-object v0
@@ -129,7 +120,6 @@
 
     const-string v1, "%22"
 
-    .line 1
     invoke-virtual {p0, v0, v1}, Ljava/lang/String;->replace(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)Ljava/lang/String;
 
     move-result-object p0
@@ -140,13 +130,11 @@
 .method private static K(Ljava/lang/String;)Ljava/lang/String;
     .locals 1
 
-    .line 1
     :try_start_0
     new-instance v0, Ljava/net/URL;
 
     invoke-direct {v0, p0}, Ljava/net/URL;-><init>(Ljava/lang/String;)V
 
-    .line 2
     invoke-static {v0}, Lorg/jsoup/helper/b;->L(Ljava/net/URL;)Ljava/net/URL;
 
     move-result-object v0
@@ -164,7 +152,6 @@
 .method static L(Ljava/net/URL;)Ljava/net/URL;
     .locals 3
 
-    .line 1
     :try_start_0
     invoke-virtual {p0}, Ljava/net/URL;->toExternalForm()Ljava/lang/String;
 
@@ -174,17 +161,14 @@
 
     const-string v2, "%20"
 
-    .line 2
     invoke-virtual {v0, v1, v2}, Ljava/lang/String;->replace(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)Ljava/lang/String;
 
     move-result-object v0
 
-    .line 3
     new-instance v1, Ljava/net/URI;
 
     invoke-direct {v1, v0}, Ljava/net/URI;-><init>(Ljava/lang/String;)V
 
-    .line 4
     new-instance v0, Ljava/net/URL;
 
     invoke-virtual {v1}, Ljava/net/URI;->toASCIIString()Ljava/lang/String;
@@ -205,7 +189,6 @@
 .method private static M(Lorg/jsoup/Connection$c;)Z
     .locals 1
 
-    .line 1
     invoke-interface {p0}, Lorg/jsoup/Connection$c;->x()Ljava/util/Collection;
 
     move-result-object p0
@@ -227,7 +210,6 @@
 
     check-cast v0, Lorg/jsoup/Connection$b;
 
-    .line 2
     invoke-interface {v0}, Lorg/jsoup/Connection$b;->e()Z
 
     move-result v0
@@ -249,7 +231,6 @@
 .method public A(Ljava/lang/String;Ljava/lang/String;Ljava/io/InputStream;)Lorg/jsoup/Connection;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lorg/jsoup/helper/b;->a:Lorg/jsoup/Connection$c;
 
     invoke-static {p1, p2, p3}, Lorg/jsoup/helper/b$c;->g(Ljava/lang/String;Ljava/lang/String;Ljava/io/InputStream;)Lorg/jsoup/helper/b$c;
@@ -264,7 +245,6 @@
 .method public B(Lorg/jsoup/Connection$d;)Lorg/jsoup/Connection;
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lorg/jsoup/helper/b;->b:Lorg/jsoup/Connection$d;
 
     return-object p0
@@ -275,10 +255,8 @@
 
     const-string v0, "Data key value pairs must not be null"
 
-    .line 1
     invoke-static {p1, v0}, Lorg/jsoup/helper/c;->k(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 2
     array-length v0, p1
 
     rem-int/lit8 v0, v0, 0x2
@@ -299,31 +277,25 @@
 
     invoke-static {v0, v2}, Lorg/jsoup/helper/c;->e(ZLjava/lang/String;)V
 
-    .line 3
     :goto_1
     array-length v0, p1
 
     if-ge v1, v0, :cond_1
 
-    .line 4
     aget-object v0, p1, v1
 
     add-int/lit8 v2, v1, 0x1
 
-    .line 5
     aget-object v2, p1, v2
 
     const-string v3, "Data key must not be empty"
 
-    .line 6
     invoke-static {v0, v3}, Lorg/jsoup/helper/c;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     const-string v3, "Data value must not be null"
 
-    .line 7
     invoke-static {v2, v3}, Lorg/jsoup/helper/c;->k(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 8
     iget-object v3, p0, Lorg/jsoup/helper/b;->a:Lorg/jsoup/Connection$c;
 
     invoke-static {v0, v2}, Lorg/jsoup/helper/b$c;->f(Ljava/lang/String;Ljava/lang/String;)Lorg/jsoup/helper/b$c;
@@ -345,10 +317,8 @@
 
     const-string v0, "Data key must not be empty"
 
-    .line 1
     invoke-static {p1, v0}, Lorg/jsoup/helper/c;->i(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 2
     invoke-virtual {p0}, Lorg/jsoup/helper/b;->request()Lorg/jsoup/Connection$c;
 
     move-result-object v0
@@ -374,7 +344,6 @@
 
     check-cast v1, Lorg/jsoup/Connection$b;
 
-    .line 3
     invoke-interface {v1}, Lorg/jsoup/Connection$b;->key()Ljava/lang/String;
 
     move-result-object v2
@@ -408,10 +377,8 @@
 
     const-string v0, "Data map must not be null"
 
-    .line 1
     invoke-static {p1, v0}, Lorg/jsoup/helper/c;->k(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 2
     invoke-interface {p1}, Ljava/util/Map;->entrySet()Ljava/util/Set;
 
     move-result-object p1
@@ -433,7 +400,6 @@
 
     check-cast v0, Ljava/util/Map$Entry;
 
-    .line 3
     iget-object v1, p0, Lorg/jsoup/helper/b;->a:Lorg/jsoup/Connection$c;
 
     invoke-interface {v0}, Ljava/util/Map$Entry;->getKey()Ljava/lang/Object;
@@ -463,7 +429,6 @@
 .method public a(Z)Lorg/jsoup/Connection;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lorg/jsoup/helper/b;->a:Lorg/jsoup/Connection$c;
 
     invoke-interface {v0, p1}, Lorg/jsoup/Connection$c;->a(Z)Lorg/jsoup/Connection$c;
@@ -474,7 +439,6 @@
 .method public b(Ljava/lang/String;)Lorg/jsoup/Connection;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lorg/jsoup/helper/b;->a:Lorg/jsoup/Connection$c;
 
     invoke-interface {v0, p1}, Lorg/jsoup/Connection$c;->b(Ljava/lang/String;)Lorg/jsoup/Connection$c;
@@ -485,7 +449,6 @@
 .method public c(Ljava/lang/String;Ljava/lang/String;)Lorg/jsoup/Connection;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lorg/jsoup/helper/b;->a:Lorg/jsoup/Connection$c;
 
     invoke-interface {v0, p1, p2}, Lorg/jsoup/Connection$a;->c(Ljava/lang/String;Ljava/lang/String;)Lorg/jsoup/Connection$a;
@@ -496,7 +459,6 @@
 .method public d(I)Lorg/jsoup/Connection;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lorg/jsoup/helper/b;->a:Lorg/jsoup/Connection$c;
 
     invoke-interface {v0, p1}, Lorg/jsoup/Connection$c;->d(I)Lorg/jsoup/Connection$c;
@@ -507,7 +469,6 @@
 .method public e(Ljavax/net/ssl/SSLSocketFactory;)Lorg/jsoup/Connection;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lorg/jsoup/helper/b;->a:Lorg/jsoup/Connection$c;
 
     invoke-interface {v0, p1}, Lorg/jsoup/Connection$c;->e(Ljavax/net/ssl/SSLSocketFactory;)V
@@ -523,7 +484,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lorg/jsoup/helper/b;->a:Lorg/jsoup/Connection$c;
 
     invoke-static {v0}, Lorg/jsoup/helper/b$e;->a0(Lorg/jsoup/Connection$c;)Lorg/jsoup/helper/b$e;
@@ -538,7 +498,6 @@
 .method public f(Ljava/lang/String;)Lorg/jsoup/Connection;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lorg/jsoup/helper/b;->a:Lorg/jsoup/Connection$c;
 
     invoke-interface {v0, p1}, Lorg/jsoup/Connection$c;->f(Ljava/lang/String;)Lorg/jsoup/Connection$c;
@@ -549,7 +508,6 @@
 .method public g(Ljava/net/Proxy;)Lorg/jsoup/Connection;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lorg/jsoup/helper/b;->a:Lorg/jsoup/Connection$c;
 
     invoke-interface {v0, p1}, Lorg/jsoup/Connection$c;->g(Ljava/net/Proxy;)Lorg/jsoup/Connection$c;
@@ -565,17 +523,14 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lorg/jsoup/helper/b;->a:Lorg/jsoup/Connection$c;
 
     sget-object v1, Lorg/jsoup/Connection$Method;->GET:Lorg/jsoup/Connection$Method;
 
     invoke-interface {v0, v1}, Lorg/jsoup/Connection$a;->l(Lorg/jsoup/Connection$Method;)Lorg/jsoup/Connection$a;
 
-    .line 2
     invoke-virtual {p0}, Lorg/jsoup/helper/b;->execute()Lorg/jsoup/Connection$d;
 
-    .line 3
     iget-object v0, p0, Lorg/jsoup/helper/b;->b:Lorg/jsoup/Connection$d;
 
     invoke-interface {v0}, Lorg/jsoup/Connection$d;->parse()Lorg/jsoup/nodes/Document;
@@ -590,10 +545,8 @@
 
     const-string v0, "Must supply a valid URL"
 
-    .line 1
     invoke-static {p1, v0}, Lorg/jsoup/helper/c;->i(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 2
     :try_start_0
     iget-object v0, p0, Lorg/jsoup/helper/b;->a:Lorg/jsoup/Connection$c;
 
@@ -614,7 +567,6 @@
     :catch_0
     move-exception v0
 
-    .line 3
     new-instance v1, Ljava/lang/IllegalArgumentException;
 
     new-instance v2, Ljava/lang/StringBuilder;
@@ -639,7 +591,6 @@
 .method public i(Lorg/jsoup/parser/e;)Lorg/jsoup/Connection;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lorg/jsoup/helper/b;->a:Lorg/jsoup/Connection$c;
 
     invoke-interface {v0, p1}, Lorg/jsoup/Connection$c;->i(Lorg/jsoup/parser/e;)Lorg/jsoup/Connection$c;
@@ -650,7 +601,6 @@
 .method public j(Ljava/net/URL;)Lorg/jsoup/Connection;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lorg/jsoup/helper/b;->a:Lorg/jsoup/Connection$c;
 
     invoke-interface {v0, p1}, Lorg/jsoup/Connection$a;->j(Ljava/net/URL;)Lorg/jsoup/Connection$a;
@@ -661,7 +611,6 @@
 .method public k(Ljava/lang/String;Ljava/lang/String;)Lorg/jsoup/Connection;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lorg/jsoup/helper/b;->a:Lorg/jsoup/Connection$c;
 
     invoke-interface {v0, p1, p2}, Lorg/jsoup/Connection$a;->k(Ljava/lang/String;Ljava/lang/String;)Lorg/jsoup/Connection$a;
@@ -672,7 +621,6 @@
 .method public l(Lorg/jsoup/Connection$Method;)Lorg/jsoup/Connection;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lorg/jsoup/helper/b;->a:Lorg/jsoup/Connection$c;
 
     invoke-interface {v0, p1}, Lorg/jsoup/Connection$a;->l(Lorg/jsoup/Connection$Method;)Lorg/jsoup/Connection$a;
@@ -683,7 +631,6 @@
 .method public m(Ljava/lang/String;I)Lorg/jsoup/Connection;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lorg/jsoup/helper/b;->a:Lorg/jsoup/Connection$c;
 
     invoke-interface {v0, p1, p2}, Lorg/jsoup/Connection$c;->m(Ljava/lang/String;I)Lorg/jsoup/Connection$c;
@@ -694,7 +641,6 @@
 .method public n(I)Lorg/jsoup/Connection;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lorg/jsoup/helper/b;->a:Lorg/jsoup/Connection$c;
 
     invoke-interface {v0, p1}, Lorg/jsoup/Connection$c;->n(I)Lorg/jsoup/Connection$c;
@@ -705,7 +651,6 @@
 .method public o(Z)Lorg/jsoup/Connection;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lorg/jsoup/helper/b;->a:Lorg/jsoup/Connection$c;
 
     invoke-interface {v0, p1}, Lorg/jsoup/Connection$c;->o(Z)Lorg/jsoup/Connection$c;
@@ -716,7 +661,6 @@
 .method public p(Z)Lorg/jsoup/Connection;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lorg/jsoup/helper/b;->a:Lorg/jsoup/Connection$c;
 
     invoke-interface {v0, p1}, Lorg/jsoup/Connection$c;->p(Z)Lorg/jsoup/Connection$c;
@@ -738,10 +682,8 @@
 
     const-string v0, "Data collection must not be null"
 
-    .line 1
     invoke-static {p1, v0}, Lorg/jsoup/helper/c;->k(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 2
     invoke-interface {p1}, Ljava/util/Collection;->iterator()Ljava/util/Iterator;
 
     move-result-object p1
@@ -759,7 +701,6 @@
 
     check-cast v0, Lorg/jsoup/Connection$b;
 
-    .line 3
     iget-object v1, p0, Lorg/jsoup/helper/b;->a:Lorg/jsoup/Connection$c;
 
     invoke-interface {v1, v0}, Lorg/jsoup/Connection$c;->y(Lorg/jsoup/Connection$b;)Lorg/jsoup/Connection$c;
@@ -785,10 +726,8 @@
 
     const-string v0, "Header map must not be null"
 
-    .line 1
     invoke-static {p1, v0}, Lorg/jsoup/helper/c;->k(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 2
     invoke-interface {p1}, Ljava/util/Map;->entrySet()Ljava/util/Set;
 
     move-result-object p1
@@ -810,7 +749,6 @@
 
     check-cast v0, Ljava/util/Map$Entry;
 
-    .line 3
     iget-object v1, p0, Lorg/jsoup/helper/b;->a:Lorg/jsoup/Connection$c;
 
     invoke-interface {v0}, Ljava/util/Map$Entry;->getKey()Ljava/lang/Object;
@@ -836,7 +774,6 @@
 .method public request()Lorg/jsoup/Connection$c;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lorg/jsoup/helper/b;->a:Lorg/jsoup/Connection$c;
 
     return-object v0
@@ -845,7 +782,6 @@
 .method public s(Ljava/lang/String;Ljava/lang/String;Ljava/io/InputStream;Ljava/lang/String;)Lorg/jsoup/Connection;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lorg/jsoup/helper/b;->a:Lorg/jsoup/Connection$c;
 
     invoke-static {p1, p2, p3}, Lorg/jsoup/helper/b$c;->g(Ljava/lang/String;Ljava/lang/String;Ljava/io/InputStream;)Lorg/jsoup/helper/b$c;
@@ -864,7 +800,6 @@
 .method public t(Ljava/lang/String;Ljava/lang/String;)Lorg/jsoup/Connection;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lorg/jsoup/helper/b;->a:Lorg/jsoup/Connection$c;
 
     invoke-static {p1, p2}, Lorg/jsoup/helper/b$c;->f(Ljava/lang/String;Ljava/lang/String;)Lorg/jsoup/helper/b$c;
@@ -884,17 +819,14 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lorg/jsoup/helper/b;->a:Lorg/jsoup/Connection$c;
 
     sget-object v1, Lorg/jsoup/Connection$Method;->POST:Lorg/jsoup/Connection$Method;
 
     invoke-interface {v0, v1}, Lorg/jsoup/Connection$a;->l(Lorg/jsoup/Connection$Method;)Lorg/jsoup/Connection$a;
 
-    .line 2
     invoke-virtual {p0}, Lorg/jsoup/helper/b;->execute()Lorg/jsoup/Connection$d;
 
-    .line 3
     iget-object v0, p0, Lorg/jsoup/helper/b;->b:Lorg/jsoup/Connection$d;
 
     invoke-interface {v0}, Lorg/jsoup/Connection$d;->parse()Lorg/jsoup/nodes/Document;
@@ -909,10 +841,8 @@
 
     const-string v0, "User agent must not be null"
 
-    .line 1
     invoke-static {p1, v0}, Lorg/jsoup/helper/c;->k(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 2
     iget-object v0, p0, Lorg/jsoup/helper/b;->a:Lorg/jsoup/Connection$c;
 
     const-string v1, "User-Agent"
@@ -925,7 +855,6 @@
 .method public w(Lorg/jsoup/Connection$c;)Lorg/jsoup/Connection;
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lorg/jsoup/helper/b;->a:Lorg/jsoup/Connection$c;
 
     return-object p0
@@ -934,7 +863,6 @@
 .method public x()Lorg/jsoup/Connection$d;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lorg/jsoup/helper/b;->b:Lorg/jsoup/Connection$d;
 
     return-object v0
@@ -945,10 +873,8 @@
 
     const-string v0, "Referrer must not be null"
 
-    .line 1
     invoke-static {p1, v0}, Lorg/jsoup/helper/c;->k(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 2
     iget-object v0, p0, Lorg/jsoup/helper/b;->a:Lorg/jsoup/Connection$c;
 
     const-string v1, "Referer"
@@ -973,10 +899,8 @@
 
     const-string v0, "Cookie map must not be null"
 
-    .line 1
     invoke-static {p1, v0}, Lorg/jsoup/helper/c;->k(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 2
     invoke-interface {p1}, Ljava/util/Map;->entrySet()Ljava/util/Set;
 
     move-result-object p1
@@ -998,7 +922,6 @@
 
     check-cast v0, Ljava/util/Map$Entry;
 
-    .line 3
     iget-object v1, p0, Lorg/jsoup/helper/b;->a:Lorg/jsoup/Connection$c;
 
     invoke-interface {v0}, Ljava/util/Map$Entry;->getKey()Ljava/lang/Object;

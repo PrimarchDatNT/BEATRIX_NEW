@@ -57,7 +57,6 @@
 .method static constructor <clinit>()V
     .locals 19
 
-    .line 1
     new-instance v0, Lcom/mopub/common/DefaultAdapterClasses;
 
     const-string v1, "AD_COLONY_ADAPTER_CONFIGURATION"
@@ -70,7 +69,6 @@
 
     sput-object v0, Lcom/mopub/common/DefaultAdapterClasses;->AD_COLONY_ADAPTER_CONFIGURATION:Lcom/mopub/common/DefaultAdapterClasses;
 
-    .line 2
     new-instance v1, Lcom/mopub/common/DefaultAdapterClasses;
 
     const-string v3, "APPLOVIN_ADAPTER_CONFIGURATION"
@@ -83,7 +81,6 @@
 
     sput-object v1, Lcom/mopub/common/DefaultAdapterClasses;->APPLOVIN_ADAPTER_CONFIGURATION:Lcom/mopub/common/DefaultAdapterClasses;
 
-    .line 3
     new-instance v3, Lcom/mopub/common/DefaultAdapterClasses;
 
     const-string v5, "CHARTBOOST_ADAPTER_CONFIGURATION"
@@ -96,7 +93,6 @@
 
     sput-object v3, Lcom/mopub/common/DefaultAdapterClasses;->CHARTBOOST_ADAPTER_CONFIGURATION:Lcom/mopub/common/DefaultAdapterClasses;
 
-    .line 4
     new-instance v5, Lcom/mopub/common/DefaultAdapterClasses;
 
     const-string v7, "FACEBOOK_ADAPTER_CONFIGURATION"
@@ -109,7 +105,6 @@
 
     sput-object v5, Lcom/mopub/common/DefaultAdapterClasses;->FACEBOOK_ADAPTER_CONFIGURATION:Lcom/mopub/common/DefaultAdapterClasses;
 
-    .line 5
     new-instance v7, Lcom/mopub/common/DefaultAdapterClasses;
 
     const-string v9, "INMOBI_ADAPTER_CONFIGURATION"
@@ -122,7 +117,6 @@
 
     sput-object v7, Lcom/mopub/common/DefaultAdapterClasses;->INMOBI_ADAPTER_CONFIGURATION:Lcom/mopub/common/DefaultAdapterClasses;
 
-    .line 6
     new-instance v9, Lcom/mopub/common/DefaultAdapterClasses;
 
     const-string v11, "FYBER_ADAPTER_CONFIGURATION"
@@ -135,7 +129,6 @@
 
     sput-object v9, Lcom/mopub/common/DefaultAdapterClasses;->FYBER_ADAPTER_CONFIGURATION:Lcom/mopub/common/DefaultAdapterClasses;
 
-    .line 7
     new-instance v11, Lcom/mopub/common/DefaultAdapterClasses;
 
     const-string v13, "IRON_SOURCE_ADAPTER_CONFIGURATION"
@@ -148,7 +141,6 @@
 
     sput-object v11, Lcom/mopub/common/DefaultAdapterClasses;->IRON_SOURCE_ADAPTER_CONFIGURATION:Lcom/mopub/common/DefaultAdapterClasses;
 
-    .line 8
     new-instance v13, Lcom/mopub/common/DefaultAdapterClasses;
 
     const-string v15, "MINTEGRAL_ADAPTER_CONFIGURATION"
@@ -161,7 +153,6 @@
 
     sput-object v13, Lcom/mopub/common/DefaultAdapterClasses;->MINTEGRAL_ADAPTER_CONFIGURATION:Lcom/mopub/common/DefaultAdapterClasses;
 
-    .line 9
     new-instance v12, Lcom/mopub/common/DefaultAdapterClasses;
 
     const-string v15, "GOOGLE_PLAY_SERVICES_ADAPTER_CONFIGURATION"
@@ -174,7 +165,6 @@
 
     sput-object v12, Lcom/mopub/common/DefaultAdapterClasses;->GOOGLE_PLAY_SERVICES_ADAPTER_CONFIGURATION:Lcom/mopub/common/DefaultAdapterClasses;
 
-    .line 10
     new-instance v10, Lcom/mopub/common/DefaultAdapterClasses;
 
     const-string v15, "OGURY_ADAPTER_CONFIGURATION"
@@ -187,7 +177,6 @@
 
     sput-object v10, Lcom/mopub/common/DefaultAdapterClasses;->OGURY_ADAPTER_CONFIGURATION:Lcom/mopub/common/DefaultAdapterClasses;
 
-    .line 11
     new-instance v8, Lcom/mopub/common/DefaultAdapterClasses;
 
     const-string v15, "TAPJOY_ADAPTER_CONFIGURATION"
@@ -200,7 +189,6 @@
 
     sput-object v8, Lcom/mopub/common/DefaultAdapterClasses;->TAPJOY_ADAPTER_CONFIGURATION:Lcom/mopub/common/DefaultAdapterClasses;
 
-    .line 12
     new-instance v6, Lcom/mopub/common/DefaultAdapterClasses;
 
     const-string v15, "UNITY_ADS_ADAPTER_CONFIGURATION"
@@ -213,7 +201,6 @@
 
     sput-object v6, Lcom/mopub/common/DefaultAdapterClasses;->UNITY_ADS_ADAPTER_CONFIGURATION:Lcom/mopub/common/DefaultAdapterClasses;
 
-    .line 13
     new-instance v4, Lcom/mopub/common/DefaultAdapterClasses;
 
     const-string v15, "VERIZON_ADAPTER_CONFIGURATION"
@@ -226,7 +213,6 @@
 
     sput-object v4, Lcom/mopub/common/DefaultAdapterClasses;->VERIZON_ADAPTER_CONFIGURATION:Lcom/mopub/common/DefaultAdapterClasses;
 
-    .line 14
     new-instance v2, Lcom/mopub/common/DefaultAdapterClasses;
 
     const-string v15, "VUNGLE_ADAPTER_CONFIGURATION"
@@ -241,7 +227,6 @@
 
     sput-object v2, Lcom/mopub/common/DefaultAdapterClasses;->VUNGLE_ADAPTER_CONFIGURATION:Lcom/mopub/common/DefaultAdapterClasses;
 
-    .line 15
     new-instance v4, Lcom/mopub/common/DefaultAdapterClasses;
 
     const-string v15, "PANGLE_ADAPTER_CONFIGURATION"
@@ -256,7 +241,6 @@
 
     sput-object v4, Lcom/mopub/common/DefaultAdapterClasses;->PANGLE_ADAPTER_CONFIGURATION:Lcom/mopub/common/DefaultAdapterClasses;
 
-    .line 16
     new-instance v2, Lcom/mopub/common/DefaultAdapterClasses;
 
     const-string v15, "SNAP_ADAPTER_CONFIGURATION"
@@ -337,7 +321,6 @@
 
     aput-object v2, v4, v14
 
-    .line 17
     sput-object v4, Lcom/mopub/common/DefaultAdapterClasses;->$VALUES:[Lcom/mopub/common/DefaultAdapterClasses;
 
     return-void
@@ -357,10 +340,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 2
     iput-object p3, p0, Lcom/mopub/common/DefaultAdapterClasses;->mClassName:Ljava/lang/String;
 
     return-void
@@ -377,12 +358,10 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/util/HashSet;
 
     invoke-direct {v0}, Ljava/util/HashSet;-><init>()V
 
-    .line 2
     invoke-static {}, Lcom/mopub/common/DefaultAdapterClasses;->values()[Lcom/mopub/common/DefaultAdapterClasses;
 
     move-result-object v1
@@ -396,7 +375,6 @@
 
     aget-object v4, v1, v3
 
-    .line 3
     iget-object v4, v4, Lcom/mopub/common/DefaultAdapterClasses;->mClassName:Ljava/lang/String;
 
     invoke-interface {v0, v4}, Ljava/util/Set;->add(Ljava/lang/Object;)Z
@@ -412,7 +390,6 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/mopub/common/DefaultAdapterClasses;
     .locals 1
 
-    .line 1
     const-class v0, Lcom/mopub/common/DefaultAdapterClasses;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -427,7 +404,6 @@
 .method public static values()[Lcom/mopub/common/DefaultAdapterClasses;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/mopub/common/DefaultAdapterClasses;->$VALUES:[Lcom/mopub/common/DefaultAdapterClasses;
 
     invoke-virtual {v0}, [Lcom/mopub/common/DefaultAdapterClasses;->clone()Ljava/lang/Object;

@@ -6,7 +6,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Landroid/graphics/drawable/Drawable$ConstantState;-><init>()V
 
     return-void
@@ -15,7 +14,6 @@
 .method synthetic constructor <init>(Lcom/google/android/gms/internal/base/f;)V
     .locals 0
 
-    .line 2
     invoke-direct {p0}, Lcom/google/android/gms/internal/base/h;-><init>()V
 
     return-void
@@ -34,7 +32,6 @@
 .method public final newDrawable()Landroid/graphics/drawable/Drawable;
     .locals 1
 
-    .line 1
     invoke-static {}, Lcom/google/android/gms/internal/base/g;->a()Lcom/google/android/gms/internal/base/g;
 
     move-result-object v0

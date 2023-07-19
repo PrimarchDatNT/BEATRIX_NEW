@@ -29,7 +29,6 @@
 .method constructor <init>(ZLandroid/app/Activity;I)V
     .locals 0
 
-    .line 1
     iput-boolean p1, p0, Lf/k/m/j/f$a;->a:Z
 
     iput-object p2, p0, Lf/k/m/j/f$a;->b:Landroid/app/Activity;
@@ -50,17 +49,14 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean p2, p0, Lf/k/m/j/f$a;->a:Z
 
     if-eqz p2, :cond_0
 
-    .line 2
     iget-object p2, p0, Lf/k/m/j/f$a;->b:Landroid/app/Activity;
 
     invoke-virtual {p2}, Landroid/app/Activity;->finish()V
 
-    .line 3
     :cond_0
     iget p2, p0, Lf/k/m/j/f$a;->c:I
 
@@ -70,7 +66,6 @@
 
     if-ne p2, v0, :cond_1
 
-    .line 4
     iget-object p2, p0, Lf/k/m/j/f$a;->b:Landroid/app/Activity;
 
     new-instance v0, Landroid/content/Intent;
@@ -83,7 +78,6 @@
 
     goto :goto_0
 
-    .line 5
     :cond_1
     sget p2, Landroid/os/Build$VERSION;->SDK_INT:I
 
@@ -91,7 +85,6 @@
 
     if-gt p2, v0, :cond_2
 
-    .line 6
     iget-object p2, p0, Lf/k/m/j/f$a;->b:Landroid/app/Activity;
 
     new-instance v0, Landroid/content/Intent;
@@ -104,7 +97,6 @@
 
     goto :goto_0
 
-    .line 7
     :cond_2
     iget-object p2, p0, Lf/k/m/j/f$a;->b:Landroid/app/Activity;
 
@@ -116,7 +108,6 @@
 
     invoke-virtual {p2, v0, v1}, Landroid/app/Activity;->startActivityForResult(Landroid/content/Intent;I)V
 
-    .line 8
     :goto_0
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

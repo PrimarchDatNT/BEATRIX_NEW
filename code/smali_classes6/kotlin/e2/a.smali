@@ -47,7 +47,6 @@
 .method static constructor <clinit>()V
     .locals 6
 
-    .line 1
     new-instance v0, Lcotlin/e2/a;
 
     invoke-direct {v0}, Lcotlin/e2/a;-><init>()V
@@ -56,7 +55,6 @@
 
     const-wide/high16 v0, 0x4000000000000000L    # 2.0
 
-    .line 2
     invoke-static {v0, v1}, Ljava/lang/Math;->log(D)D
 
     move-result-wide v0
@@ -65,21 +63,18 @@
 
     const-wide/high16 v0, 0x3ff0000000000000L    # 1.0
 
-    .line 3
     invoke-static {v0, v1}, Ljava/lang/Math;->ulp(D)D
 
     move-result-wide v0
 
     sput-wide v0, Lcotlin/e2/a;->b:D
 
-    .line 4
     invoke-static {v0, v1}, Ljava/lang/Math;->sqrt(D)D
 
     move-result-wide v0
 
     sput-wide v0, Lcotlin/e2/a;->c:D
 
-    .line 5
     invoke-static {v0, v1}, Ljava/lang/Math;->sqrt(D)D
 
     move-result-wide v2
@@ -92,12 +87,10 @@
 
     div-double v0, v4, v0
 
-    .line 6
     sput-wide v0, Lcotlin/e2/a;->e:D
 
     div-double/2addr v4, v2
 
-    .line 7
     sput-wide v4, Lcotlin/e2/a;->f:D
 
     return-void
@@ -106,7 +99,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void

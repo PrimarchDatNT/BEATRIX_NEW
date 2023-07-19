@@ -22,7 +22,6 @@
 .method constructor <init>(Lcom/sdk/imp/c;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/sdk/imp/c$a;->a:Lcom/sdk/imp/c;
 
     invoke-direct {p0}, Ljava/util/TimerTask;-><init>()V
@@ -35,12 +34,10 @@
 .method public run()V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/sdk/imp/c$a;->a:Lcom/sdk/imp/c;
 
     invoke-static {v0}, Lcom/sdk/imp/c;->c(Lcom/sdk/imp/c;)V
 
-    .line 2
     iget-object v0, p0, Lcom/sdk/imp/c$a;->a:Lcom/sdk/imp/c;
 
     invoke-static {v0}, Lcom/sdk/imp/c;->d(Lcom/sdk/imp/c;)Z
@@ -49,7 +46,6 @@
 
     if-nez v0, :cond_0
 
-    .line 3
     :try_start_0
     iget-object v0, p0, Lcom/sdk/imp/c$a;->a:Lcom/sdk/imp/c;
 
@@ -59,7 +55,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 4
     iget-object v0, p0, Lcom/sdk/imp/c$a;->a:Lcom/sdk/imp/c;
 
     invoke-static {v0}, Lcom/sdk/imp/c;->e(Lcom/sdk/imp/c;)Ljava/util/Timer;
@@ -68,7 +63,6 @@
 
     invoke-virtual {v0}, Ljava/util/Timer;->cancel()V
 
-    .line 5
     iget-object v0, p0, Lcom/sdk/imp/c$a;->a:Lcom/sdk/imp/c;
 
     invoke-static {v0}, Lcom/sdk/imp/c;->e(Lcom/sdk/imp/c;)Ljava/util/Timer;
@@ -77,7 +71,6 @@
 
     invoke-virtual {v0}, Ljava/util/Timer;->purge()I
 
-    .line 6
     iget-object v0, p0, Lcom/sdk/imp/c$a;->a:Lcom/sdk/imp/c;
 
     const/4 v1, 0x0
@@ -91,7 +84,6 @@
     :catch_0
     move-exception v0
 
-    .line 7
     invoke-virtual {v0}, Ljava/lang/Exception;->printStackTrace()V
 
     :cond_0

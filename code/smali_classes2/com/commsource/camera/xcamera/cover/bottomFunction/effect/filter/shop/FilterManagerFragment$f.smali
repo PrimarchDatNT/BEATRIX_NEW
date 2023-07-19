@@ -19,7 +19,6 @@
 .method constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Landroidx/recyclerview/widget/RecyclerView$ItemDecoration;-><init>()V
 
     return-void
@@ -68,19 +67,16 @@
 
     const/high16 p4, 0x41a00000    # 20.0f
 
-    .line 1
     invoke-static {p4}, Lcom/meitu/library/p/f/i;->d(F)I
 
     move-result p4
 
     const/high16 v1, 0x41200000    # 10.0f
 
-    .line 2
     invoke-static {v1}, Lcom/meitu/library/p/f/i;->d(F)I
 
     move-result v1
 
-    .line 3
     invoke-virtual {p3, p2}, Landroidx/recyclerview/widget/RecyclerView;->getChildAdapterPosition(Landroid/view/View;)I
 
     move-result p2
@@ -89,7 +85,6 @@
 
     if-nez p2, :cond_0
 
-    .line 4
     invoke-virtual {p1, v2, p4, v2, v1}, Landroid/graphics/Rect;->set(IIII)V
 
     goto :goto_0
@@ -97,7 +92,6 @@
     :cond_0
     if-lez p2, :cond_1
 
-    .line 5
     invoke-virtual {p3}, Landroidx/recyclerview/widget/RecyclerView;->getAdapter()Landroidx/recyclerview/widget/RecyclerView$Adapter;
 
     move-result-object p3
@@ -116,16 +110,13 @@
 
     if-ne p2, p3, :cond_1
 
-    .line 6
     invoke-virtual {p1, v2, p4, v2, v1}, Landroid/graphics/Rect;->set(IIII)V
 
     goto :goto_0
 
-    .line 7
     :cond_1
     invoke-virtual {p1, v2, v2, v2, v1}, Landroid/graphics/Rect;->set(IIII)V
 
-    .line 8
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

@@ -35,12 +35,10 @@
 .method public final a(Lcom/google/firebase/components/g;)Ljava/lang/Object;
     .locals 3
 
-    .line 1
     new-instance v0, Lcom/google/firebase/abt/component/a;
 
     const-class v1, Landroid/content/Context;
 
-    .line 2
     invoke-interface {p1, v1}, Lcom/google/firebase/components/g;->a(Ljava/lang/Class;)Ljava/lang/Object;
 
     move-result-object v1

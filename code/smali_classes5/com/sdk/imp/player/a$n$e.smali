@@ -27,7 +27,6 @@
 .method constructor <init>(Lcom/sdk/imp/player/a$n;I)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/sdk/imp/player/a$n$e;->b:Lcom/sdk/imp/player/a$n;
 
     iput p2, p0, Lcom/sdk/imp/player/a$n$e;->a:I
@@ -42,7 +41,6 @@
 .method public run()V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/sdk/imp/player/a$n$e;->b:Lcom/sdk/imp/player/a$n;
 
     iget v1, p0, Lcom/sdk/imp/player/a$n$e;->a:I
@@ -53,14 +51,12 @@
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-virtual {v0}, Lcom/sdk/imp/player/a$l;->d()Z
 
     move-result v1
 
     if-eqz v1, :cond_0
 
-    .line 3
     invoke-virtual {v0}, Lcom/sdk/imp/player/a$l;->b()Z
 
     :cond_0

@@ -25,7 +25,6 @@
 .method constructor <init>(Lcom/commsource/beautyplus/miniapp/MiniAppActivity;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/beautyplus/miniapp/MiniAppActivity$c;->a:Lcom/commsource/beautyplus/miniapp/MiniAppActivity;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -53,7 +52,6 @@
     :cond_0
     const/4 p1, 0x0
 
-    .line 1
     :goto_0
     iget-object v1, p0, Lcom/commsource/beautyplus/miniapp/MiniAppActivity$c;->a:Lcom/commsource/beautyplus/miniapp/MiniAppActivity;
 
@@ -63,7 +61,6 @@
 
     invoke-virtual {v1, v0}, Lcom/commsource/beautyplus/miniapp/MiniAppViewModel;->T(Z)V
 
-    .line 2
     iget-object v0, p0, Lcom/commsource/beautyplus/miniapp/MiniAppActivity$c;->a:Lcom/commsource/beautyplus/miniapp/MiniAppActivity;
 
     invoke-static {v0}, Lcom/commsource/beautyplus/miniapp/MiniAppActivity;->M0(Lcom/commsource/beautyplus/miniapp/MiniAppActivity;)Lcom/commsource/beautyplus/miniapp/MiniAppViewModel;
@@ -72,7 +69,6 @@
 
     invoke-virtual {v0, p1}, Lcom/commsource/beautyplus/miniapp/MiniAppViewModel;->U(Z)V
 
-    .line 3
     iget-object v0, p0, Lcom/commsource/beautyplus/miniapp/MiniAppActivity$c;->a:Lcom/commsource/beautyplus/miniapp/MiniAppActivity;
 
     invoke-static {v0}, Lcom/commsource/beautyplus/miniapp/MiniAppActivity;->M0(Lcom/commsource/beautyplus/miniapp/MiniAppActivity;)Lcom/commsource/beautyplus/miniapp/MiniAppViewModel;
@@ -95,10 +91,8 @@
 
     const-string/jumbo v1, "view"
 
-    .line 4
     invoke-static {v0, v1, p1}, Lcom/commsource/statistics/i;->r(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 5
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

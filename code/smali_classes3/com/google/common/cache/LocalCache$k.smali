@@ -56,7 +56,6 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-static {}, Lcom/google/common/cache/LocalCache;->R()Lcom/google/common/cache/LocalCache$s;
 
     move-result-object v0
@@ -76,24 +75,20 @@
         }
     .end annotation
 
-    .line 2
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 3
     invoke-static {}, Lcom/google/common/util/concurrent/v0;->G()Lcom/google/common/util/concurrent/v0;
 
     move-result-object v0
 
     iput-object v0, p0, Lcom/google/common/cache/LocalCache$k;->b:Lcom/google/common/util/concurrent/v0;
 
-    .line 4
     invoke-static {}, Lcom/google/common/base/x;->e()Lcom/google/common/base/x;
 
     move-result-object v0
 
     iput-object v0, p0, Lcom/google/common/cache/LocalCache$k;->c:Lcom/google/common/base/x;
 
-    .line 5
     iput-object p1, p0, Lcom/google/common/cache/LocalCache$k;->a:Lcom/google/common/cache/LocalCache$s;
 
     return-void
@@ -111,7 +106,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p1}, Lcom/google/common/util/concurrent/a0;->k(Ljava/lang/Throwable;)Lcom/google/common/util/concurrent/g0;
 
     move-result-object p1
@@ -150,12 +144,10 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     invoke-virtual {p0, p1}, Lcom/google/common/cache/LocalCache$k;->j(Ljava/lang/Object;)Z
 
     goto :goto_0
 
-    .line 2
     :cond_0
     invoke-static {}, Lcom/google/common/cache/LocalCache;->R()Lcom/google/common/cache/LocalCache$s;
 
@@ -170,7 +162,6 @@
 .method public c()I
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/cache/LocalCache$k;->a:Lcom/google/common/cache/LocalCache$s;
 
     invoke-interface {v0}, Lcom/google/common/cache/LocalCache$s;->c()I
@@ -215,7 +206,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/cache/LocalCache$k;->b:Lcom/google/common/util/concurrent/v0;
 
     invoke-static {v0}, Lcom/google/common/util/concurrent/c1;->d(Ljava/util/concurrent/Future;)Ljava/lang/Object;
@@ -228,7 +218,6 @@
 .method public f()J
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/cache/LocalCache$k;->c:Lcom/google/common/base/x;
 
     sget-object v1, Ljava/util/concurrent/TimeUnit;->NANOSECONDS:Ljava/util/concurrent/TimeUnit;
@@ -248,7 +237,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/cache/LocalCache$k;->a:Lcom/google/common/cache/LocalCache$s;
 
     invoke-interface {v0}, Lcom/google/common/cache/LocalCache$s;->get()Ljava/lang/Object;
@@ -268,7 +256,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/cache/LocalCache$k;->a:Lcom/google/common/cache/LocalCache$s;
 
     return-object v0
@@ -286,13 +273,11 @@
         }
     .end annotation
 
-    .line 1
     :try_start_0
     iget-object v0, p0, Lcom/google/common/cache/LocalCache$k;->c:Lcom/google/common/base/x;
 
     invoke-virtual {v0}, Lcom/google/common/base/x;->k()Lcom/google/common/base/x;
 
-    .line 2
     iget-object v0, p0, Lcom/google/common/cache/LocalCache$k;->a:Lcom/google/common/cache/LocalCache$s;
 
     invoke-interface {v0}, Lcom/google/common/cache/LocalCache$s;->get()Ljava/lang/Object;
@@ -301,12 +286,10 @@
 
     if-nez v0, :cond_1
 
-    .line 3
     invoke-virtual {p2, p1}, Lcom/google/common/cache/CacheLoader;->load(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
 
-    .line 4
     invoke-virtual {p0, p1}, Lcom/google/common/cache/LocalCache$k;->j(Ljava/lang/Object;)Z
 
     move-result p2
@@ -325,7 +308,6 @@
     :goto_0
     return-object p1
 
-    .line 5
     :cond_1
     invoke-virtual {p2, p1, v0}, Lcom/google/common/cache/CacheLoader;->reload(Ljava/lang/Object;Ljava/lang/Object;)Lcom/google/common/util/concurrent/g0;
 
@@ -335,25 +317,21 @@
 
     const/4 p1, 0x0
 
-    .line 6
     invoke-static {p1}, Lcom/google/common/util/concurrent/a0;->l(Ljava/lang/Object;)Lcom/google/common/util/concurrent/g0;
 
     move-result-object p1
 
     return-object p1
 
-    .line 7
     :cond_2
     new-instance p2, Lcom/google/common/cache/LocalCache$k$a;
 
     invoke-direct {p2, p0}, Lcom/google/common/cache/LocalCache$k$a;-><init>(Lcom/google/common/cache/LocalCache$k;)V
 
-    .line 8
     invoke-static {}, Lcom/google/common/util/concurrent/n0;->d()Ljava/util/concurrent/Executor;
 
     move-result-object v0
 
-    .line 9
     invoke-static {p1, p2, v0}, Lcom/google/common/util/concurrent/a0;->w(Lcom/google/common/util/concurrent/g0;Lcom/google/common/base/n;Ljava/util/concurrent/Executor;)Lcom/google/common/util/concurrent/g0;
 
     move-result-object p1
@@ -365,7 +343,6 @@
     :catchall_0
     move-exception p1
 
-    .line 10
     invoke-virtual {p0, p1}, Lcom/google/common/cache/LocalCache$k;->k(Ljava/lang/Throwable;)Z
 
     move-result p2
@@ -381,13 +358,11 @@
 
     move-result-object p2
 
-    .line 11
     :goto_1
     instance-of p1, p1, Ljava/lang/InterruptedException;
 
     if-eqz p1, :cond_4
 
-    .line 12
     invoke-static {}, Ljava/lang/Thread;->currentThread()Ljava/lang/Thread;
 
     move-result-object p1
@@ -401,7 +376,6 @@
 .method public isActive()Z
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/cache/LocalCache$k;->a:Lcom/google/common/cache/LocalCache$s;
 
     invoke-interface {v0}, Lcom/google/common/cache/LocalCache$s;->isActive()Z
@@ -431,7 +405,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/cache/LocalCache$k;->b:Lcom/google/common/util/concurrent/v0;
 
     invoke-virtual {v0, p1}, Lcom/google/common/util/concurrent/v0;->C(Ljava/lang/Object;)Z
@@ -444,7 +417,6 @@
 .method public k(Ljava/lang/Throwable;)Z
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/common/cache/LocalCache$k;->b:Lcom/google/common/util/concurrent/v0;
 
     invoke-virtual {v0, p1}, Lcom/google/common/util/concurrent/v0;->D(Ljava/lang/Throwable;)Z

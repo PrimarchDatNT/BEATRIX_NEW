@@ -41,17 +41,14 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/video/decoder/a;-><init>()V
 
-    .line 2
     new-instance v0, Landroid/media/MediaPlayer;
 
     invoke-direct {v0}, Landroid/media/MediaPlayer;-><init>()V
 
     iput-object v0, p0, Lcom/commsource/video/decoder/SysMediaPlayer;->n:Landroid/media/MediaPlayer;
 
-    .line 3
     new-instance v0, Lcom/commsource/video/decoder/SysMediaPlayer$onPrepareListener$2;
 
     invoke-direct {v0, p0}, Lcom/commsource/video/decoder/SysMediaPlayer$onPrepareListener$2;-><init>(Lcom/commsource/video/decoder/SysMediaPlayer;)V
@@ -62,7 +59,6 @@
 
     iput-object v0, p0, Lcom/commsource/video/decoder/SysMediaPlayer;->r:Lcotlin/w;
 
-    .line 4
     new-instance v0, Lcom/commsource/video/decoder/SysMediaPlayer$onVideoSizeChangedListener$2;
 
     invoke-direct {v0, p0}, Lcom/commsource/video/decoder/SysMediaPlayer$onVideoSizeChangedListener$2;-><init>(Lcom/commsource/video/decoder/SysMediaPlayer;)V
@@ -73,7 +69,6 @@
 
     iput-object v0, p0, Lcom/commsource/video/decoder/SysMediaPlayer;->s:Lcotlin/w;
 
-    .line 5
     new-instance v0, Lcom/commsource/video/decoder/SysMediaPlayer$onCompleteListener$2;
 
     invoke-direct {v0, p0}, Lcom/commsource/video/decoder/SysMediaPlayer$onCompleteListener$2;-><init>(Lcom/commsource/video/decoder/SysMediaPlayer;)V
@@ -84,7 +79,6 @@
 
     iput-object v0, p0, Lcom/commsource/video/decoder/SysMediaPlayer;->t:Lcotlin/w;
 
-    .line 6
     new-instance v0, Lcom/commsource/video/decoder/SysMediaPlayer$onErrorListener$2;
 
     invoke-direct {v0, p0}, Lcom/commsource/video/decoder/SysMediaPlayer$onErrorListener$2;-><init>(Lcom/commsource/video/decoder/SysMediaPlayer;)V
@@ -95,7 +89,6 @@
 
     iput-object v0, p0, Lcom/commsource/video/decoder/SysMediaPlayer;->u:Lcotlin/w;
 
-    .line 7
     new-instance v0, Lcom/commsource/video/decoder/SysMediaPlayer$onInfoListener$2;
 
     invoke-direct {v0, p0}, Lcom/commsource/video/decoder/SysMediaPlayer$onInfoListener$2;-><init>(Lcom/commsource/video/decoder/SysMediaPlayer;)V
@@ -106,7 +99,6 @@
 
     iput-object v0, p0, Lcom/commsource/video/decoder/SysMediaPlayer;->v:Lcotlin/w;
 
-    .line 8
     new-instance v0, Lcom/commsource/video/decoder/SysMediaPlayer$onSeekCompleteListener$2;
 
     invoke-direct {v0, p0}, Lcom/commsource/video/decoder/SysMediaPlayer$onSeekCompleteListener$2;-><init>(Lcom/commsource/video/decoder/SysMediaPlayer;)V
@@ -117,7 +109,6 @@
 
     iput-object v0, p0, Lcom/commsource/video/decoder/SysMediaPlayer;->w:Lcotlin/w;
 
-    .line 9
     new-instance v0, Lcom/commsource/video/decoder/SysMediaPlayer$onBufferingUpdateListener$2;
 
     invoke-direct {v0, p0}, Lcom/commsource/video/decoder/SysMediaPlayer$onBufferingUpdateListener$2;-><init>(Lcom/commsource/video/decoder/SysMediaPlayer;)V
@@ -138,7 +129,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/video/decoder/SysMediaPlayer;->T()Landroid/media/MediaPlayer$OnBufferingUpdateListener;
 
     move-result-object p0
@@ -155,7 +145,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/video/decoder/SysMediaPlayer;->U()Landroid/media/MediaPlayer$OnCompletionListener;
 
     move-result-object p0
@@ -172,7 +161,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/video/decoder/SysMediaPlayer;->V()Landroid/media/MediaPlayer$OnErrorListener;
 
     move-result-object p0
@@ -189,7 +177,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/video/decoder/SysMediaPlayer;->W()Landroid/media/MediaPlayer$OnInfoListener;
 
     move-result-object p0
@@ -206,7 +193,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/video/decoder/SysMediaPlayer;->X()Landroid/media/MediaPlayer$OnPreparedListener;
 
     move-result-object p0
@@ -223,7 +209,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/video/decoder/SysMediaPlayer;->Y()Landroid/media/MediaPlayer$OnSeekCompleteListener;
 
     move-result-object p0
@@ -240,7 +225,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/video/decoder/SysMediaPlayer;->Z()Landroid/media/MediaPlayer$OnVideoSizeChangedListener;
 
     move-result-object p0
@@ -415,7 +399,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/video/decoder/SysMediaPlayer;->o:Lcom/commsource/video/c;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -430,7 +413,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/video/decoder/SysMediaPlayer;->q:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -447,7 +429,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/video/decoder/SysMediaPlayer;->n:Landroid/media/MediaPlayer;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -462,13 +443,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/video/decoder/SysMediaPlayer;->p:I
 
-    .line 2
     invoke-virtual {p0}, Lcom/commsource/video/decoder/SysMediaPlayer;->start()V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -481,7 +459,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/video/decoder/SysMediaPlayer;->p:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -500,7 +477,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/commsource/video/decoder/SysMediaPlayer$setDisplay$1;
 
     invoke-direct {v1, p0, p1}, Lcom/commsource/video/decoder/SysMediaPlayer$setDisplay$1;-><init>(Lcom/commsource/video/decoder/SysMediaPlayer;Landroid/view/SurfaceHolder;)V
@@ -511,7 +487,6 @@
 
     invoke-static {p0, v1, p1, v2, p1}, Lcom/commsource/video/decoder/a;->t(Lcom/commsource/video/decoder/a;Lcotlin/jvm/u/a;Lcotlin/jvm/u/l;ILjava/lang/Object;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -524,7 +499,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -537,39 +511,32 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/video/decoder/SysMediaPlayer;->n:Landroid/media/MediaPlayer;
 
     const/4 v2, 0x0
 
     invoke-virtual {v1, v2}, Landroid/media/MediaPlayer;->setOnPreparedListener(Landroid/media/MediaPlayer$OnPreparedListener;)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/video/decoder/SysMediaPlayer;->n:Landroid/media/MediaPlayer;
 
     invoke-virtual {v1, v2}, Landroid/media/MediaPlayer;->setOnVideoSizeChangedListener(Landroid/media/MediaPlayer$OnVideoSizeChangedListener;)V
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/video/decoder/SysMediaPlayer;->n:Landroid/media/MediaPlayer;
 
     invoke-virtual {v1, v2}, Landroid/media/MediaPlayer;->setOnCompletionListener(Landroid/media/MediaPlayer$OnCompletionListener;)V
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/video/decoder/SysMediaPlayer;->n:Landroid/media/MediaPlayer;
 
     invoke-virtual {v1, v2}, Landroid/media/MediaPlayer;->setOnErrorListener(Landroid/media/MediaPlayer$OnErrorListener;)V
 
-    .line 5
     iget-object v1, p0, Lcom/commsource/video/decoder/SysMediaPlayer;->n:Landroid/media/MediaPlayer;
 
     invoke-virtual {v1, v2}, Landroid/media/MediaPlayer;->setOnInfoListener(Landroid/media/MediaPlayer$OnInfoListener;)V
 
-    .line 6
     iget-object v1, p0, Lcom/commsource/video/decoder/SysMediaPlayer;->n:Landroid/media/MediaPlayer;
 
     invoke-virtual {v1, v2}, Landroid/media/MediaPlayer;->setOnBufferingUpdateListener(Landroid/media/MediaPlayer$OnBufferingUpdateListener;)V
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -582,7 +549,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -599,7 +565,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/video/decoder/SysMediaPlayer;->o:Lcom/commsource/video/c;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -616,18 +581,14 @@
 
     const/4 v1, -0x2
 
-    .line 1
     invoke-virtual {p0, v1}, Lcom/commsource/video/decoder/a;->I(I)V
 
-    .line 2
     invoke-virtual {p0}, Lcom/commsource/video/decoder/SysMediaPlayer;->c0()V
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/video/decoder/SysMediaPlayer;->n:Landroid/media/MediaPlayer;
 
     invoke-virtual {v1}, Landroid/media/MediaPlayer;->release()V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -648,20 +609,16 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     new-instance v1, Lcom/commsource/video/decoder/SysMediaPlayer$setPlaySource$1;
 
     invoke-direct {v1, p0, p1}, Lcom/commsource/video/decoder/SysMediaPlayer$setPlaySource$1;-><init>(Lcom/commsource/video/decoder/SysMediaPlayer;Lcom/commsource/video/c;)V
 
-    .line 2
     new-instance p1, Lcom/commsource/video/decoder/SysMediaPlayer$setPlaySource$2;
 
     invoke-direct {p1, p0}, Lcom/commsource/video/decoder/SysMediaPlayer$setPlaySource$2;-><init>(Lcom/commsource/video/decoder/SysMediaPlayer;)V
 
-    .line 3
     invoke-virtual {p0, v1, p1}, Lcom/commsource/video/decoder/a;->s(Lcotlin/jvm/u/a;Lcotlin/jvm/u/l;)V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -674,7 +631,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/video/decoder/SysMediaPlayer;->q:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -689,7 +645,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/video/decoder/SysMediaPlayer;->p:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -704,7 +659,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -717,7 +671,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/video/decoder/a;->getState()I
 
     move-result v1
@@ -742,7 +695,6 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     iget-object v1, p0, Lcom/commsource/video/decoder/SysMediaPlayer;->n:Landroid/media/MediaPlayer;
 
@@ -750,7 +702,6 @@
 
     move-result v1
 
-    .line 3
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -764,7 +715,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/video/decoder/a;->getState()I
 
     move-result v1
@@ -779,7 +729,6 @@
 
     if-eq v1, v2, :cond_0
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/video/decoder/SysMediaPlayer;->n:Landroid/media/MediaPlayer;
 
     invoke-virtual {v1}, Landroid/media/MediaPlayer;->getDuration()I
@@ -791,7 +740,6 @@
     :cond_0
     const/4 v1, 0x0
 
-    .line 3
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -805,7 +753,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -818,7 +765,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/video/decoder/SysMediaPlayer;->n:Landroid/media/MediaPlayer;
 
     invoke-virtual {v1}, Landroid/media/MediaPlayer;->getVideoHeight()I
@@ -837,7 +783,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -850,7 +795,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/video/decoder/SysMediaPlayer;->n:Landroid/media/MediaPlayer;
 
     invoke-virtual {v1}, Landroid/media/MediaPlayer;->getVideoWidth()I
@@ -869,7 +813,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/video/decoder/a;->getState()I
 
     move-result v1
@@ -892,13 +835,11 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     iget-object v1, p0, Lcom/commsource/video/decoder/SysMediaPlayer;->n:Landroid/media/MediaPlayer;
 
     invoke-virtual {v1, p1}, Landroid/media/MediaPlayer;->seekTo(I)V
 
-    .line 3
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -912,12 +853,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/video/decoder/SysMediaPlayer;->n:Landroid/media/MediaPlayer;
 
     invoke-virtual {v1, p1, p2}, Landroid/media/MediaPlayer;->setVolume(FF)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -930,14 +869,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/video/decoder/SysMediaPlayer;->n:Landroid/media/MediaPlayer;
 
     const/4 v2, 0x1
 
     invoke-virtual {v1, v2}, Landroid/media/MediaPlayer;->setLooping(Z)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -950,14 +887,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/video/decoder/SysMediaPlayer;->n:Landroid/media/MediaPlayer;
 
     const/4 v2, 0x0
 
     invoke-virtual {v1, v2, v2}, Landroid/media/MediaPlayer;->setVolume(FF)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -970,7 +905,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/video/decoder/a;->getState()I
 
     move-result v1
@@ -1005,27 +939,21 @@
 
     const-string v1, "mediaPlayer.pause"
 
-    .line 2
     invoke-static {v1, v4, v6, v3, v6}, Lcom/commsource/util/l0;->L(Ljava/lang/String;Ljava/lang/String;Lcom/meitu/library/util/Debug/Debug$DebugLevel;ILjava/lang/Object;)V
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/video/decoder/SysMediaPlayer;->n:Landroid/media/MediaPlayer;
 
     invoke-virtual {v1}, Landroid/media/MediaPlayer;->pause()V
 
-    .line 4
     invoke-virtual {p0, v5}, Lcom/commsource/video/decoder/a;->I(I)V
 
     :cond_0
     const-string v1, "mTargetState\u76ee\u6807\u72b6\u6001\u4e3a pause"
 
-    .line 5
     invoke-static {v1, v4, v6, v3, v6}, Lcom/commsource/util/l0;->L(Ljava/lang/String;Ljava/lang/String;Lcom/meitu/library/util/Debug/Debug$DebugLevel;ILjava/lang/Object;)V
 
-    .line 6
     iput v5, p0, Lcom/commsource/video/decoder/SysMediaPlayer;->q:I
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1038,7 +966,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/video/decoder/a;->getState()I
 
     move-result v1
@@ -1077,28 +1004,23 @@
 
     const/4 v1, 0x0
 
-    .line 1
     :try_start_0
     iget-object v2, p0, Lcom/commsource/video/decoder/SysMediaPlayer;->n:Landroid/media/MediaPlayer;
 
     invoke-virtual {v2}, Landroid/media/MediaPlayer;->reset()V
 
-    .line 2
     invoke-virtual {p0, v1}, Lcom/commsource/video/decoder/a;->I(I)V
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
     goto :goto_0
 
-    .line 3
     :catch_0
     invoke-virtual {p0, v1}, Lcom/commsource/video/decoder/a;->I(I)V
 
-    .line 4
     :goto_0
     iput v1, p0, Lcom/commsource/video/decoder/SysMediaPlayer;->q:I
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1111,7 +1033,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/video/decoder/a;->getState()I
 
     move-result v1
@@ -1122,15 +1043,12 @@
 
     if-ne v1, v3, :cond_0
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/video/decoder/SysMediaPlayer;->n:Landroid/media/MediaPlayer;
 
     invoke-virtual {v1}, Landroid/media/MediaPlayer;->start()V
 
-    .line 3
     invoke-virtual {p0, v2}, Lcom/commsource/video/decoder/a;->I(I)V
 
-    .line 4
     invoke-virtual {p0}, Lcom/commsource/video/decoder/a;->w()Lcotlin/jvm/u/l;
 
     move-result-object v1
@@ -1151,11 +1069,9 @@
 
     check-cast v1, Lcotlin/t1;
 
-    .line 5
     :cond_0
     iput v2, p0, Lcom/commsource/video/decoder/SysMediaPlayer;->q:I
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1168,7 +1084,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/video/decoder/a;->getState()I
 
     move-result v1
@@ -1177,27 +1092,20 @@
 
     if-ne v1, v2, :cond_0
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/video/decoder/SysMediaPlayer;->o:Lcom/commsource/video/c;
 
     if-eqz v1, :cond_0
 
-    .line 3
     invoke-virtual {p0}, Lcom/commsource/video/decoder/SysMediaPlayer;->reset()V
 
-    .line 4
     invoke-virtual {p0, v1}, Lcom/commsource/video/decoder/SysMediaPlayer;->e(Lcom/commsource/video/c;)V
 
-    .line 5
     invoke-virtual {p0}, Lcom/commsource/video/decoder/SysMediaPlayer;->p()V
 
-    .line 6
     invoke-virtual {p0}, Lcom/commsource/video/decoder/SysMediaPlayer;->o()V
 
-    .line 7
     invoke-virtual {p0}, Lcom/commsource/video/decoder/SysMediaPlayer;->start()V
 
-    .line 8
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1215,7 +1123,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/commsource/video/decoder/SysMediaPlayer$setSurface$1;
 
     invoke-direct {v1, p0, p1}, Lcom/commsource/video/decoder/SysMediaPlayer$setSurface$1;-><init>(Lcom/commsource/video/decoder/SysMediaPlayer;Landroid/view/Surface;)V
@@ -1226,7 +1133,6 @@
 
     invoke-static {p0, v1, p1, v2, p1}, Lcom/commsource/video/decoder/a;->t(Lcom/commsource/video/decoder/a;Lcotlin/jvm/u/a;Lcotlin/jvm/u/l;ILjava/lang/Object;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1239,7 +1145,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/video/decoder/a;->getState()I
 
     move-result v1
@@ -1267,18 +1172,14 @@
     :cond_0
     const-string v1, "mediaPlayer.start"
 
-    .line 2
     invoke-static {v1, v3, v5, v4, v5}, Lcom/commsource/util/l0;->L(Ljava/lang/String;Ljava/lang/String;Lcom/meitu/library/util/Debug/Debug$DebugLevel;ILjava/lang/Object;)V
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/video/decoder/SysMediaPlayer;->n:Landroid/media/MediaPlayer;
 
     invoke-virtual {v1}, Landroid/media/MediaPlayer;->start()V
 
-    .line 4
     invoke-virtual {p0, v2}, Lcom/commsource/video/decoder/a;->I(I)V
 
-    .line 5
     invoke-virtual {p0}, Lcom/commsource/video/decoder/a;->w()Lcotlin/jvm/u/l;
 
     move-result-object v1
@@ -1303,13 +1204,10 @@
     :goto_0
     const-string v1, "mTargetState\u76ee\u6807\u72b6\u6001\u4e3a start"
 
-    .line 6
     invoke-static {v1, v3, v5, v4, v5}, Lcom/commsource/util/l0;->L(Ljava/lang/String;Ljava/lang/String;Lcom/meitu/library/util/Debug/Debug$DebugLevel;ILjava/lang/Object;)V
 
-    .line 7
     iput v2, p0, Lcom/commsource/video/decoder/SysMediaPlayer;->q:I
 
-    .line 8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1322,7 +1220,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/video/decoder/a;->getState()I
 
     move-result v1
@@ -1347,20 +1244,16 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     iget-object v1, p0, Lcom/commsource/video/decoder/SysMediaPlayer;->n:Landroid/media/MediaPlayer;
 
     invoke-virtual {v1}, Landroid/media/MediaPlayer;->stop()V
 
-    .line 3
     invoke-virtual {p0, v3}, Lcom/commsource/video/decoder/a;->I(I)V
 
-    .line 4
     :goto_0
     iput v3, p0, Lcom/commsource/video/decoder/SysMediaPlayer;->q:I
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

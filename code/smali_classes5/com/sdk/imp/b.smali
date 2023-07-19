@@ -7,7 +7,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -16,7 +15,6 @@
 .method public static a(Landroid/content/Context;Landroid/widget/ImageView;Ljava/lang/String;)V
     .locals 2
 
-    .line 1
     invoke-static {p2}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v0
@@ -30,7 +28,6 @@
     :cond_0
     const/4 v0, 0x0
 
-    .line 2
     new-instance v1, Lcom/sdk/imp/b$a;
 
     invoke-direct {v1, p1}, Lcom/sdk/imp/b$a;-><init>(Landroid/widget/ImageView;)V

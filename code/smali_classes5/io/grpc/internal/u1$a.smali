@@ -25,7 +25,6 @@
 .method constructor <init>(Lio/grpc/internal/u1;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lio/grpc/internal/u1$a;->a:Lio/grpc/internal/u1;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -50,12 +49,10 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p4}, Lio/grpc/Context;->b()Lio/grpc/Context;
 
     move-result-object v0
 
-    .line 2
     :try_start_0
     iget-object v1, p0, Lio/grpc/internal/u1$a;->a:Lio/grpc/internal/u1;
 
@@ -69,7 +66,6 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 3
     invoke-virtual {p4, v0}, Lio/grpc/Context;->i(Lio/grpc/Context;)V
 
     return-object p1

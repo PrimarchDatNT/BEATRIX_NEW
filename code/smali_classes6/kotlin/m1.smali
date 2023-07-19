@@ -21,7 +21,6 @@
 
     int-to-long v0, p0
 
-    .line 1
     invoke-static {v0, v1}, Lcotlin/j1;->s(J)J
 
     move-result-wide v0
@@ -41,7 +40,6 @@
         version = "1.3"
     .end annotation
 
-    .line 1
     invoke-static {p0, p1}, Lcotlin/v1;->b(D)J
 
     move-result-wide p0
@@ -63,7 +61,6 @@
 
     float-to-double v0, p0
 
-    .line 1
     invoke-static {v0, v1}, Lcotlin/v1;->b(D)J
 
     move-result-wide v0
@@ -85,7 +82,6 @@
 
     int-to-long v0, p0
 
-    .line 1
     invoke-static {v0, v1}, Lcotlin/j1;->s(J)J
 
     move-result-wide v0
@@ -105,7 +101,6 @@
         version = "1.3"
     .end annotation
 
-    .line 1
     invoke-static {p0, p1}, Lcotlin/j1;->s(J)J
 
     move-result-wide p0
@@ -127,7 +122,6 @@
 
     int-to-long v0, p0
 
-    .line 1
     invoke-static {v0, v1}, Lcotlin/j1;->s(J)J
 
     move-result-wide v0

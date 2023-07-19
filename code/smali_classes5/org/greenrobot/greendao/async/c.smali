@@ -15,13 +15,10 @@
 .method public constructor <init>(Lorg/greenrobot/greendao/c;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lorg/greenrobot/greendao/async/c;->a:Lorg/greenrobot/greendao/c;
 
-    .line 3
     new-instance p1, Lorg/greenrobot/greendao/async/a;
 
     invoke-direct {p1}, Lorg/greenrobot/greendao/async/a;-><init>()V
@@ -47,14 +44,12 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lorg/greenrobot/greendao/async/c;->a:Lorg/greenrobot/greendao/c;
 
     invoke-virtual {v0, p2}, Lorg/greenrobot/greendao/c;->f(Ljava/lang/Class;)Lorg/greenrobot/greendao/a;
 
     move-result-object v3
 
-    .line 2
     new-instance p2, Lorg/greenrobot/greendao/async/AsyncOperation;
 
     iget v0, p0, Lorg/greenrobot/greendao/async/c;->c:I
@@ -71,7 +66,6 @@
 
     invoke-direct/range {v1 .. v6}, Lorg/greenrobot/greendao/async/AsyncOperation;-><init>(Lorg/greenrobot/greendao/async/AsyncOperation$OperationType;Lorg/greenrobot/greendao/a;Lorg/greenrobot/greendao/database/a;Ljava/lang/Object;I)V
 
-    .line 3
     iget-object p1, p0, Lorg/greenrobot/greendao/async/c;->b:Lorg/greenrobot/greendao/async/a;
 
     invoke-virtual {p1, p2}, Lorg/greenrobot/greendao/async/a;->a(Lorg/greenrobot/greendao/async/AsyncOperation;)V
@@ -82,14 +76,12 @@
 .method private p(Lorg/greenrobot/greendao/async/AsyncOperation$OperationType;Ljava/lang/Object;I)Lorg/greenrobot/greendao/async/AsyncOperation;
     .locals 7
 
-    .line 1
     iget-object v0, p0, Lorg/greenrobot/greendao/async/c;->a:Lorg/greenrobot/greendao/c;
 
     invoke-virtual {v0}, Lorg/greenrobot/greendao/c;->g()Lorg/greenrobot/greendao/database/a;
 
     move-result-object v4
 
-    .line 2
     new-instance v0, Lorg/greenrobot/greendao/async/AsyncOperation;
 
     iget v1, p0, Lorg/greenrobot/greendao/async/c;->c:I
@@ -106,7 +98,6 @@
 
     invoke-direct/range {v1 .. v6}, Lorg/greenrobot/greendao/async/AsyncOperation;-><init>(Lorg/greenrobot/greendao/async/AsyncOperation$OperationType;Lorg/greenrobot/greendao/a;Lorg/greenrobot/greendao/database/a;Ljava/lang/Object;I)V
 
-    .line 3
     iget-object p1, p0, Lorg/greenrobot/greendao/async/c;->b:Lorg/greenrobot/greendao/async/a;
 
     invoke-virtual {p1, v0}, Lorg/greenrobot/greendao/async/a;->a(Lorg/greenrobot/greendao/async/AsyncOperation;)V
@@ -117,7 +108,6 @@
 .method private q(Lorg/greenrobot/greendao/async/AsyncOperation$OperationType;Ljava/lang/Object;I)Lorg/greenrobot/greendao/async/AsyncOperation;
     .locals 1
 
-    .line 1
     invoke-virtual {p2}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
     move-result-object v0
@@ -146,7 +136,6 @@
         }
     .end annotation
 
-    .line 1
     sget-object v0, Lorg/greenrobot/greendao/async/AsyncOperation$OperationType;->InsertInTxIterable:Lorg/greenrobot/greendao/async/AsyncOperation$OperationType;
 
     invoke-direct {p0, v0, p1, p2, p3}, Lorg/greenrobot/greendao/async/c;->o(Lorg/greenrobot/greendao/async/AsyncOperation$OperationType;Ljava/lang/Class;Ljava/lang/Object;I)Lorg/greenrobot/greendao/async/AsyncOperation;
@@ -171,7 +160,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-virtual {p0, p1, v0, p2}, Lorg/greenrobot/greendao/async/c;->y(Ljava/lang/Class;I[Ljava/lang/Object;)Lorg/greenrobot/greendao/async/AsyncOperation;
 
     move-result-object p1
@@ -184,7 +172,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-virtual {p0, p1, v0}, Lorg/greenrobot/greendao/async/c;->D(Ljava/lang/Object;I)Lorg/greenrobot/greendao/async/AsyncOperation;
 
     move-result-object p1
@@ -195,7 +182,6 @@
 .method public D(Ljava/lang/Object;I)Lorg/greenrobot/greendao/async/AsyncOperation;
     .locals 1
 
-    .line 1
     sget-object v0, Lorg/greenrobot/greendao/async/AsyncOperation$OperationType;->InsertOrReplace:Lorg/greenrobot/greendao/async/AsyncOperation$OperationType;
 
     invoke-direct {p0, v0, p1, p2}, Lorg/greenrobot/greendao/async/c;->q(Lorg/greenrobot/greendao/async/AsyncOperation$OperationType;Ljava/lang/Object;I)Lorg/greenrobot/greendao/async/AsyncOperation;
@@ -218,7 +204,6 @@
         }
     .end annotation
 
-    .line 1
     sget-object v0, Lorg/greenrobot/greendao/async/AsyncOperation$OperationType;->InsertOrReplaceInTxArray:Lorg/greenrobot/greendao/async/AsyncOperation$OperationType;
 
     invoke-direct {p0, v0, p1, p3, p2}, Lorg/greenrobot/greendao/async/c;->o(Lorg/greenrobot/greendao/async/AsyncOperation$OperationType;Ljava/lang/Class;Ljava/lang/Object;I)Lorg/greenrobot/greendao/async/AsyncOperation;
@@ -245,7 +230,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-virtual {p0, p1, p2, v0}, Lorg/greenrobot/greendao/async/c;->G(Ljava/lang/Class;Ljava/lang/Iterable;I)Lorg/greenrobot/greendao/async/AsyncOperation;
 
     move-result-object p1
@@ -268,7 +252,6 @@
         }
     .end annotation
 
-    .line 1
     sget-object v0, Lorg/greenrobot/greendao/async/AsyncOperation$OperationType;->InsertOrReplaceInTxIterable:Lorg/greenrobot/greendao/async/AsyncOperation$OperationType;
 
     invoke-direct {p0, v0, p1, p2, p3}, Lorg/greenrobot/greendao/async/c;->o(Lorg/greenrobot/greendao/async/AsyncOperation$OperationType;Ljava/lang/Class;Ljava/lang/Object;I)Lorg/greenrobot/greendao/async/AsyncOperation;
@@ -293,7 +276,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-virtual {p0, p1, v0, p2}, Lorg/greenrobot/greendao/async/c;->E(Ljava/lang/Class;I[Ljava/lang/Object;)Lorg/greenrobot/greendao/async/AsyncOperation;
 
     move-result-object p1
@@ -304,7 +286,6 @@
 .method public I()Z
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lorg/greenrobot/greendao/async/c;->b:Lorg/greenrobot/greendao/async/a;
 
     invoke-virtual {v0}, Lorg/greenrobot/greendao/async/a;->l()Z
@@ -329,7 +310,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-virtual {p0, p1, p2, v0}, Lorg/greenrobot/greendao/async/c;->K(Ljava/lang/Class;Ljava/lang/Object;I)Lorg/greenrobot/greendao/async/AsyncOperation;
 
     move-result-object p1
@@ -350,7 +330,6 @@
         }
     .end annotation
 
-    .line 1
     sget-object v0, Lorg/greenrobot/greendao/async/AsyncOperation$OperationType;->Load:Lorg/greenrobot/greendao/async/AsyncOperation$OperationType;
 
     invoke-direct {p0, v0, p1, p2, p3}, Lorg/greenrobot/greendao/async/c;->o(Lorg/greenrobot/greendao/async/AsyncOperation$OperationType;Ljava/lang/Class;Ljava/lang/Object;I)Lorg/greenrobot/greendao/async/AsyncOperation;
@@ -373,7 +352,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-virtual {p0, p1, v0}, Lorg/greenrobot/greendao/async/c;->M(Ljava/lang/Class;I)Lorg/greenrobot/greendao/async/AsyncOperation;
 
     move-result-object p1
@@ -392,7 +370,6 @@
         }
     .end annotation
 
-    .line 1
     sget-object v0, Lorg/greenrobot/greendao/async/AsyncOperation$OperationType;->LoadAll:Lorg/greenrobot/greendao/async/AsyncOperation$OperationType;
 
     const/4 v1, 0x0
@@ -417,7 +394,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-virtual {p0, p1, v0}, Lorg/greenrobot/greendao/async/c;->O(Lorg/greenrobot/greendao/l/j;I)Lorg/greenrobot/greendao/async/AsyncOperation;
 
     move-result-object p1
@@ -436,7 +412,6 @@
         }
     .end annotation
 
-    .line 1
     sget-object v0, Lorg/greenrobot/greendao/async/AsyncOperation$OperationType;->QueryList:Lorg/greenrobot/greendao/async/AsyncOperation$OperationType;
 
     invoke-direct {p0, v0, p1, p2}, Lorg/greenrobot/greendao/async/c;->p(Lorg/greenrobot/greendao/async/AsyncOperation$OperationType;Ljava/lang/Object;I)Lorg/greenrobot/greendao/async/AsyncOperation;
@@ -459,7 +434,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-virtual {p0, p1, v0}, Lorg/greenrobot/greendao/async/c;->Q(Lorg/greenrobot/greendao/l/j;I)Lorg/greenrobot/greendao/async/AsyncOperation;
 
     move-result-object p1
@@ -478,7 +452,6 @@
         }
     .end annotation
 
-    .line 1
     sget-object v0, Lorg/greenrobot/greendao/async/AsyncOperation$OperationType;->QueryUnique:Lorg/greenrobot/greendao/async/AsyncOperation$OperationType;
 
     invoke-direct {p0, v0, p1, p2}, Lorg/greenrobot/greendao/async/c;->p(Lorg/greenrobot/greendao/async/AsyncOperation$OperationType;Ljava/lang/Object;I)Lorg/greenrobot/greendao/async/AsyncOperation;
@@ -493,7 +466,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-virtual {p0, p1, v0}, Lorg/greenrobot/greendao/async/c;->S(Ljava/lang/Object;I)Lorg/greenrobot/greendao/async/AsyncOperation;
 
     move-result-object p1
@@ -504,7 +476,6 @@
 .method public S(Ljava/lang/Object;I)Lorg/greenrobot/greendao/async/AsyncOperation;
     .locals 1
 
-    .line 1
     sget-object v0, Lorg/greenrobot/greendao/async/AsyncOperation$OperationType;->Refresh:Lorg/greenrobot/greendao/async/AsyncOperation$OperationType;
 
     invoke-direct {p0, v0, p1, p2}, Lorg/greenrobot/greendao/async/c;->q(Lorg/greenrobot/greendao/async/AsyncOperation$OperationType;Ljava/lang/Object;I)Lorg/greenrobot/greendao/async/AsyncOperation;
@@ -519,7 +490,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-virtual {p0, p1, v0}, Lorg/greenrobot/greendao/async/c;->U(Ljava/lang/Runnable;I)Lorg/greenrobot/greendao/async/AsyncOperation;
 
     move-result-object p1
@@ -530,7 +500,6 @@
 .method public U(Ljava/lang/Runnable;I)Lorg/greenrobot/greendao/async/AsyncOperation;
     .locals 1
 
-    .line 1
     sget-object v0, Lorg/greenrobot/greendao/async/AsyncOperation$OperationType;->TransactionRunnable:Lorg/greenrobot/greendao/async/AsyncOperation$OperationType;
 
     invoke-direct {p0, v0, p1, p2}, Lorg/greenrobot/greendao/async/c;->p(Lorg/greenrobot/greendao/async/AsyncOperation$OperationType;Ljava/lang/Object;I)Lorg/greenrobot/greendao/async/AsyncOperation;
@@ -543,7 +512,6 @@
 .method public V(Lorg/greenrobot/greendao/async/b;)V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lorg/greenrobot/greendao/async/c;->b:Lorg/greenrobot/greendao/async/a;
 
     invoke-virtual {v0, p1}, Lorg/greenrobot/greendao/async/a;->n(Lorg/greenrobot/greendao/async/b;)V
@@ -554,7 +522,6 @@
 .method public W(Lorg/greenrobot/greendao/async/b;)V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lorg/greenrobot/greendao/async/c;->b:Lorg/greenrobot/greendao/async/a;
 
     invoke-virtual {v0, p1}, Lorg/greenrobot/greendao/async/a;->o(Lorg/greenrobot/greendao/async/b;)V
@@ -565,7 +532,6 @@
 .method public X(I)V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lorg/greenrobot/greendao/async/c;->b:Lorg/greenrobot/greendao/async/a;
 
     invoke-virtual {v0, p1}, Lorg/greenrobot/greendao/async/a;->p(I)V
@@ -576,7 +542,6 @@
 .method public Y(I)V
     .locals 0
 
-    .line 1
     iput p1, p0, Lorg/greenrobot/greendao/async/c;->c:I
 
     return-void
@@ -585,7 +550,6 @@
 .method public Z(I)V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lorg/greenrobot/greendao/async/c;->b:Lorg/greenrobot/greendao/async/a;
 
     invoke-virtual {v0, p1}, Lorg/greenrobot/greendao/async/a;->q(I)V
@@ -606,7 +570,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-virtual {p0, p1, v0}, Lorg/greenrobot/greendao/async/c;->b(Ljava/util/concurrent/Callable;I)Lorg/greenrobot/greendao/async/AsyncOperation;
 
     move-result-object p1
@@ -619,7 +582,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-virtual {p0, p1, v0}, Lorg/greenrobot/greendao/async/c;->b0(Ljava/lang/Object;I)Lorg/greenrobot/greendao/async/AsyncOperation;
 
     move-result-object p1
@@ -638,7 +600,6 @@
         }
     .end annotation
 
-    .line 1
     sget-object v0, Lorg/greenrobot/greendao/async/AsyncOperation$OperationType;->TransactionCallable:Lorg/greenrobot/greendao/async/AsyncOperation$OperationType;
 
     invoke-direct {p0, v0, p1, p2}, Lorg/greenrobot/greendao/async/c;->p(Lorg/greenrobot/greendao/async/AsyncOperation$OperationType;Ljava/lang/Object;I)Lorg/greenrobot/greendao/async/AsyncOperation;
@@ -651,7 +612,6 @@
 .method public b0(Ljava/lang/Object;I)Lorg/greenrobot/greendao/async/AsyncOperation;
     .locals 1
 
-    .line 1
     sget-object v0, Lorg/greenrobot/greendao/async/AsyncOperation$OperationType;->Update:Lorg/greenrobot/greendao/async/AsyncOperation$OperationType;
 
     invoke-direct {p0, v0, p1, p2}, Lorg/greenrobot/greendao/async/c;->q(Lorg/greenrobot/greendao/async/AsyncOperation$OperationType;Ljava/lang/Object;I)Lorg/greenrobot/greendao/async/AsyncOperation;
@@ -674,7 +634,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-virtual {p0, p1, v0}, Lorg/greenrobot/greendao/async/c;->d(Ljava/lang/Class;I)Lorg/greenrobot/greendao/async/AsyncOperation;
 
     move-result-object p1
@@ -695,7 +654,6 @@
         }
     .end annotation
 
-    .line 1
     sget-object v0, Lorg/greenrobot/greendao/async/AsyncOperation$OperationType;->UpdateInTxArray:Lorg/greenrobot/greendao/async/AsyncOperation$OperationType;
 
     invoke-direct {p0, v0, p1, p3, p2}, Lorg/greenrobot/greendao/async/c;->o(Lorg/greenrobot/greendao/async/AsyncOperation$OperationType;Ljava/lang/Class;Ljava/lang/Object;I)Lorg/greenrobot/greendao/async/AsyncOperation;
@@ -716,7 +674,6 @@
         }
     .end annotation
 
-    .line 1
     sget-object v0, Lorg/greenrobot/greendao/async/AsyncOperation$OperationType;->Count:Lorg/greenrobot/greendao/async/AsyncOperation$OperationType;
 
     const/4 v1, 0x0
@@ -745,7 +702,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-virtual {p0, p1, p2, v0}, Lorg/greenrobot/greendao/async/c;->e0(Ljava/lang/Class;Ljava/lang/Iterable;I)Lorg/greenrobot/greendao/async/AsyncOperation;
 
     move-result-object p1
@@ -758,7 +714,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-virtual {p0, p1, v0}, Lorg/greenrobot/greendao/async/c;->f(Ljava/lang/Object;I)Lorg/greenrobot/greendao/async/AsyncOperation;
 
     move-result-object p1
@@ -781,7 +736,6 @@
         }
     .end annotation
 
-    .line 1
     sget-object v0, Lorg/greenrobot/greendao/async/AsyncOperation$OperationType;->UpdateInTxIterable:Lorg/greenrobot/greendao/async/AsyncOperation$OperationType;
 
     invoke-direct {p0, v0, p1, p2, p3}, Lorg/greenrobot/greendao/async/c;->o(Lorg/greenrobot/greendao/async/AsyncOperation$OperationType;Ljava/lang/Class;Ljava/lang/Object;I)Lorg/greenrobot/greendao/async/AsyncOperation;
@@ -794,7 +748,6 @@
 .method public f(Ljava/lang/Object;I)Lorg/greenrobot/greendao/async/AsyncOperation;
     .locals 1
 
-    .line 1
     sget-object v0, Lorg/greenrobot/greendao/async/AsyncOperation$OperationType;->Delete:Lorg/greenrobot/greendao/async/AsyncOperation$OperationType;
 
     invoke-direct {p0, v0, p1, p2}, Lorg/greenrobot/greendao/async/c;->q(Lorg/greenrobot/greendao/async/AsyncOperation$OperationType;Ljava/lang/Object;I)Lorg/greenrobot/greendao/async/AsyncOperation;
@@ -819,7 +772,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-virtual {p0, p1, v0, p2}, Lorg/greenrobot/greendao/async/c;->c0(Ljava/lang/Class;I[Ljava/lang/Object;)Lorg/greenrobot/greendao/async/AsyncOperation;
 
     move-result-object p1
@@ -842,7 +794,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-virtual {p0, p1, v0}, Lorg/greenrobot/greendao/async/c;->h(Ljava/lang/Class;I)Lorg/greenrobot/greendao/async/AsyncOperation;
 
     move-result-object p1
@@ -853,7 +804,6 @@
 .method public g0()V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lorg/greenrobot/greendao/async/c;->b:Lorg/greenrobot/greendao/async/a;
 
     invoke-virtual {v0}, Lorg/greenrobot/greendao/async/a;->r()V
@@ -874,7 +824,6 @@
         }
     .end annotation
 
-    .line 1
     sget-object v0, Lorg/greenrobot/greendao/async/AsyncOperation$OperationType;->DeleteAll:Lorg/greenrobot/greendao/async/AsyncOperation$OperationType;
 
     const/4 v1, 0x0
@@ -889,7 +838,6 @@
 .method public h0(I)Z
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lorg/greenrobot/greendao/async/c;->b:Lorg/greenrobot/greendao/async/a;
 
     invoke-virtual {v0, p1}, Lorg/greenrobot/greendao/async/a;->s(I)Z
@@ -904,7 +852,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-virtual {p0, p1, v0}, Lorg/greenrobot/greendao/async/c;->j(Ljava/lang/Object;I)Lorg/greenrobot/greendao/async/AsyncOperation;
 
     move-result-object p1
@@ -915,7 +862,6 @@
 .method public j(Ljava/lang/Object;I)Lorg/greenrobot/greendao/async/AsyncOperation;
     .locals 1
 
-    .line 1
     sget-object v0, Lorg/greenrobot/greendao/async/AsyncOperation$OperationType;->DeleteByKey:Lorg/greenrobot/greendao/async/AsyncOperation$OperationType;
 
     invoke-direct {p0, v0, p1, p2}, Lorg/greenrobot/greendao/async/c;->q(Lorg/greenrobot/greendao/async/AsyncOperation$OperationType;Ljava/lang/Object;I)Lorg/greenrobot/greendao/async/AsyncOperation;
@@ -938,7 +884,6 @@
         }
     .end annotation
 
-    .line 1
     sget-object v0, Lorg/greenrobot/greendao/async/AsyncOperation$OperationType;->DeleteInTxArray:Lorg/greenrobot/greendao/async/AsyncOperation$OperationType;
 
     invoke-direct {p0, v0, p1, p3, p2}, Lorg/greenrobot/greendao/async/c;->o(Lorg/greenrobot/greendao/async/AsyncOperation$OperationType;Ljava/lang/Class;Ljava/lang/Object;I)Lorg/greenrobot/greendao/async/AsyncOperation;
@@ -965,7 +910,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-virtual {p0, p1, p2, v0}, Lorg/greenrobot/greendao/async/c;->m(Ljava/lang/Class;Ljava/lang/Iterable;I)Lorg/greenrobot/greendao/async/AsyncOperation;
 
     move-result-object p1
@@ -988,7 +932,6 @@
         }
     .end annotation
 
-    .line 1
     sget-object v0, Lorg/greenrobot/greendao/async/AsyncOperation$OperationType;->DeleteInTxIterable:Lorg/greenrobot/greendao/async/AsyncOperation$OperationType;
 
     invoke-direct {p0, v0, p1, p2, p3}, Lorg/greenrobot/greendao/async/c;->o(Lorg/greenrobot/greendao/async/AsyncOperation$OperationType;Ljava/lang/Class;Ljava/lang/Object;I)Lorg/greenrobot/greendao/async/AsyncOperation;
@@ -1013,7 +956,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-virtual {p0, p1, v0, p2}, Lorg/greenrobot/greendao/async/c;->k(Ljava/lang/Class;I[Ljava/lang/Object;)Lorg/greenrobot/greendao/async/AsyncOperation;
 
     move-result-object p1
@@ -1024,7 +966,6 @@
 .method public r()Lorg/greenrobot/greendao/async/b;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lorg/greenrobot/greendao/async/c;->b:Lorg/greenrobot/greendao/async/a;
 
     invoke-virtual {v0}, Lorg/greenrobot/greendao/async/a;->g()Lorg/greenrobot/greendao/async/b;
@@ -1037,7 +978,6 @@
 .method public s()Lorg/greenrobot/greendao/async/b;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lorg/greenrobot/greendao/async/c;->b:Lorg/greenrobot/greendao/async/a;
 
     invoke-virtual {v0}, Lorg/greenrobot/greendao/async/a;->h()Lorg/greenrobot/greendao/async/b;
@@ -1050,7 +990,6 @@
 .method public t()I
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lorg/greenrobot/greendao/async/c;->b:Lorg/greenrobot/greendao/async/a;
 
     invoke-virtual {v0}, Lorg/greenrobot/greendao/async/a;->i()I
@@ -1063,7 +1002,6 @@
 .method public u()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lorg/greenrobot/greendao/async/c;->c:I
 
     return v0
@@ -1072,7 +1010,6 @@
 .method public v()I
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lorg/greenrobot/greendao/async/c;->b:Lorg/greenrobot/greendao/async/a;
 
     invoke-virtual {v0}, Lorg/greenrobot/greendao/async/a;->j()I
@@ -1087,7 +1024,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-virtual {p0, p1, v0}, Lorg/greenrobot/greendao/async/c;->x(Ljava/lang/Object;I)Lorg/greenrobot/greendao/async/AsyncOperation;
 
     move-result-object p1
@@ -1098,7 +1034,6 @@
 .method public x(Ljava/lang/Object;I)Lorg/greenrobot/greendao/async/AsyncOperation;
     .locals 1
 
-    .line 1
     sget-object v0, Lorg/greenrobot/greendao/async/AsyncOperation$OperationType;->Insert:Lorg/greenrobot/greendao/async/AsyncOperation$OperationType;
 
     invoke-direct {p0, v0, p1, p2}, Lorg/greenrobot/greendao/async/c;->q(Lorg/greenrobot/greendao/async/AsyncOperation$OperationType;Ljava/lang/Object;I)Lorg/greenrobot/greendao/async/AsyncOperation;
@@ -1121,7 +1056,6 @@
         }
     .end annotation
 
-    .line 1
     sget-object v0, Lorg/greenrobot/greendao/async/AsyncOperation$OperationType;->InsertInTxArray:Lorg/greenrobot/greendao/async/AsyncOperation$OperationType;
 
     invoke-direct {p0, v0, p1, p3, p2}, Lorg/greenrobot/greendao/async/c;->o(Lorg/greenrobot/greendao/async/AsyncOperation$OperationType;Ljava/lang/Class;Ljava/lang/Object;I)Lorg/greenrobot/greendao/async/AsyncOperation;
@@ -1148,7 +1082,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-virtual {p0, p1, p2, v0}, Lorg/greenrobot/greendao/async/c;->A(Ljava/lang/Class;Ljava/lang/Iterable;I)Lorg/greenrobot/greendao/async/AsyncOperation;
 
     move-result-object p1

@@ -21,7 +21,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -39,14 +38,12 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    .line 1
     invoke-static {}, Lf/f/b/b/h/b/g;->b()Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-static {p0}, Lf/f/b/b/h/b/g;->a(Landroid/content/Context;)Landroid/content/Context;
 
     move-result-object p0
@@ -66,7 +63,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p0}, Lcom/google/android/gms/common/p/c;->a(Landroid/content/Context;)Lcom/google/android/gms/common/p/b;
 
     move-result-object p0
@@ -77,7 +73,6 @@
 
     move-result-object p0
 
-    .line 2
     iget-object p1, p0, Landroid/content/pm/PackageInfo;->signatures:[Landroid/content/pm/Signature;
 
     if-eqz p1, :cond_0
@@ -90,14 +85,12 @@
 
     const-string p1, "SHA1"
 
-    .line 3
     invoke-static {p1}, Lcom/google/android/gms/common/util/a;->c(Ljava/lang/String;)Ljava/security/MessageDigest;
 
     move-result-object p1
 
     if-eqz p1, :cond_0
 
-    .line 4
     iget-object p0, p0, Landroid/content/pm/PackageInfo;->signatures:[Landroid/content/pm/Signature;
 
     const/4 v0, 0x0
@@ -130,7 +123,6 @@
 
     if-ge v0, v1, :cond_1
 
-    .line 1
     :try_start_0
     invoke-static {p0}, Ljava/security/MessageDigest;->getInstance(Ljava/lang/String;)Ljava/security/MessageDigest;
 

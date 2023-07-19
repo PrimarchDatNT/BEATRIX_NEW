@@ -54,7 +54,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity$n;->a:Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity;
 
     invoke-static {v1}, Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity;->W0(Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity;)Z
@@ -63,14 +62,12 @@
 
     if-eqz v1, :cond_0
 
-    .line 2
     iget-object p1, p0, Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity$n;->a:Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity;
 
     invoke-static {p1}, Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity;->g1(Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity;)V
 
     goto :goto_0
 
-    .line 3
     :cond_0
     iget-object v1, p0, Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity$n;->a:Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity;
 
@@ -88,7 +85,6 @@
 
     invoke-virtual {v1, p1}, Lcom/commsource/beautyplus/onboarding/BoardingViewModel;->D(Z)V
 
-    .line 4
     iget-object p1, p0, Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity$n;->a:Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity;
 
     invoke-static {p1}, Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity;->Q0(Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity;)Lcom/commsource/beautyplus/onboarding/BoardingViewModel;
@@ -101,7 +97,6 @@
 
     if-eqz p1, :cond_1
 
-    .line 5
     iget-object v1, p0, Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity$n;->a:Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity;
 
     invoke-static {v1}, Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity;->P0(Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity;)Lcom/commsource/beautyplus/f0/s0;
@@ -116,7 +111,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/beautyplus/onboarding/ImageTransformationView;->setShowImage(Ljava/lang/String;)V
 
-    .line 6
     iget-object v1, p0, Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity$n;->a:Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity;
 
     invoke-static {v1}, Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity;->P0(Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity;)Lcom/commsource/beautyplus/f0/s0;
@@ -131,7 +125,6 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/beautyplus/onboarding/VideoTransformView;->p(Ljava/lang/String;)V
 
-    .line 7
     invoke-virtual {p1}, Lcom/commsource/beautyplus/onboarding/b/a;->d()Ljava/util/ArrayList;
 
     move-result-object v1
@@ -148,7 +141,6 @@
 
     check-cast v1, Lcom/commsource/beautyplus/onboarding/b/b;
 
-    .line 8
     iget-object v2, p0, Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity$n;->a:Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity;
 
     invoke-static {v2}, Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity;->P0(Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity;)Lcom/commsource/beautyplus/f0/s0;
@@ -167,7 +159,6 @@
 
     invoke-virtual {v2, v3, p1}, Lcom/commsource/beautyplus/onboarding/NewTextPageView;->j(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 9
     iget-object p1, p0, Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity$n;->a:Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity;
 
     invoke-static {p1}, Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity;->P0(Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity;)Lcom/commsource/beautyplus/f0/s0;
@@ -182,7 +173,6 @@
 
     invoke-virtual {p1, v1}, Lcom/commsource/beautyplus/onboarding/IconFontTransView;->setIconFontRes(I)V
 
-    .line 10
     :goto_0
     iget-object p1, p0, Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity$n;->a:Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity;
 
@@ -194,12 +184,10 @@
 
     invoke-virtual {p1, v1}, Lcom/commsource/billing/activity/SubscribeViewModel;->K0(Z)V
 
-    .line 11
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 12
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -213,7 +201,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Ljava/lang/Boolean;
 
     invoke-virtual {p0, p1}, Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity$n;->a(Ljava/lang/Boolean;)V

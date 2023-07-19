@@ -26,7 +26,6 @@
 .method public constructor <init>(Lorg/apache/thrift/transport/TServerTransport;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1}, Lorg/apache/thrift/server/TServer$AbstractServerArgs;-><init>(Lorg/apache/thrift/transport/TServerTransport;)V
 
     return-void

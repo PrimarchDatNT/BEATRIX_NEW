@@ -25,10 +25,8 @@
 .method public final a(Ljava/lang/Object;)Lcom/google/android/gms/tasks/k;
     .locals 0
 
-    .line 1
     iget-object p1, p0, Lcom/google/firebase/remoteconfig/m;->a:Lcom/google/firebase/remoteconfig/b;
 
-    .line 2
     invoke-virtual {p1}, Lcom/google/firebase/remoteconfig/b;->a()Lcom/google/android/gms/tasks/k;
 
     move-result-object p1

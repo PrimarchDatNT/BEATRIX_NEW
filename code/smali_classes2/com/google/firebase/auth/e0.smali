@@ -13,7 +13,6 @@
 .method constructor <init>(Lcom/google/firebase/auth/FirebaseAuth;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/firebase/auth/e0;->a:Lcom/google/firebase/auth/FirebaseAuth;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -26,7 +25,6 @@
 .method public final run()V
     .locals 3
 
-    .line 1
     iget-object v0, p0, Lcom/google/firebase/auth/e0;->a:Lcom/google/firebase/auth/FirebaseAuth;
 
     invoke-static {v0}, Lcom/google/firebase/auth/FirebaseAuth;->c0(Lcom/google/firebase/auth/FirebaseAuth;)Ljava/util/List;
@@ -50,7 +48,6 @@
 
     check-cast v1, Lcom/google/firebase/auth/FirebaseAuth$a;
 
-    .line 2
     iget-object v2, p0, Lcom/google/firebase/auth/e0;->a:Lcom/google/firebase/auth/FirebaseAuth;
 
     invoke-interface {v1, v2}, Lcom/google/firebase/auth/FirebaseAuth$a;->a(Lcom/google/firebase/auth/FirebaseAuth;)V

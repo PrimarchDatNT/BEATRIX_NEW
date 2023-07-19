@@ -67,31 +67,24 @@
 .method public constructor <init>(Landroid/content/Context;)V
     .locals 5
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     invoke-virtual {p1}, Landroid/content/Context;->getPackageManager()Landroid/content/pm/PackageManager;
 
     move-result-object v0
 
-    .line 3
     invoke-direct {p0, p1}, Lcom/google/android/gms/internal/ads/rh;->c(Landroid/content/Context;)V
 
-    .line 4
     invoke-direct {p0, p1}, Lcom/google/android/gms/internal/ads/rh;->e(Landroid/content/Context;)V
 
-    .line 5
     invoke-direct {p0, p1}, Lcom/google/android/gms/internal/ads/rh;->f(Landroid/content/Context;)V
 
-    .line 6
     invoke-static {}, Ljava/util/Locale;->getDefault()Ljava/util/Locale;
 
     move-result-object v1
 
     const-string v2, "geo:0,0?q=donuts"
 
-    .line 7
     invoke-static {v0, v2}, Lcom/google/android/gms/internal/ads/rh;->a(Landroid/content/pm/PackageManager;Ljava/lang/String;)Landroid/content/pm/ResolveInfo;
 
     move-result-object v2
@@ -114,7 +107,6 @@
 
     const-string v2, "http://www.google.com"
 
-    .line 8
     invoke-static {v0, v2}, Lcom/google/android/gms/internal/ads/rh;->a(Landroid/content/pm/PackageManager;Ljava/lang/String;)Landroid/content/pm/ResolveInfo;
 
     move-result-object v2
@@ -129,14 +121,12 @@
     :goto_1
     iput-boolean v3, p0, Lcom/google/android/gms/internal/ads/rh;->r:Z
 
-    .line 9
     invoke-virtual {v1}, Ljava/util/Locale;->getCountry()Ljava/lang/String;
 
     move-result-object v2
 
     iput-object v2, p0, Lcom/google/android/gms/internal/ads/rh;->s:Ljava/lang/String;
 
-    .line 10
     invoke-static {}, Lcom/google/android/gms/internal/ads/zm2;->a()Lcom/google/android/gms/internal/ads/pp;
 
     invoke-static {}, Lcom/google/android/gms/internal/ads/pp;->x()Z
@@ -145,42 +135,36 @@
 
     iput-boolean v2, p0, Lcom/google/android/gms/internal/ads/rh;->t:Z
 
-    .line 11
     invoke-static {p1}, Lcom/google/android/gms/common/util/l;->b(Landroid/content/Context;)Z
 
     move-result v2
 
     iput-boolean v2, p0, Lcom/google/android/gms/internal/ads/rh;->u:Z
 
-    .line 12
     invoke-static {p1}, Lcom/google/android/gms/common/util/l;->c(Landroid/content/Context;)Z
 
     move-result v2
 
     iput-boolean v2, p0, Lcom/google/android/gms/internal/ads/rh;->v:Z
 
-    .line 13
     invoke-virtual {v1}, Ljava/util/Locale;->getLanguage()Ljava/lang/String;
 
     move-result-object v1
 
     iput-object v1, p0, Lcom/google/android/gms/internal/ads/rh;->w:Ljava/lang/String;
 
-    .line 14
     invoke-static {p1, v0}, Lcom/google/android/gms/internal/ads/rh;->b(Landroid/content/Context;Landroid/content/pm/PackageManager;)Ljava/lang/String;
 
     move-result-object v0
 
     iput-object v0, p0, Lcom/google/android/gms/internal/ads/rh;->x:Ljava/lang/String;
 
-    .line 15
     invoke-static {p1}, Lcom/google/android/gms/internal/ads/rh;->g(Landroid/content/Context;)Ljava/lang/String;
 
     move-result-object v0
 
     iput-object v0, p0, Lcom/google/android/gms/internal/ads/rh;->B:Ljava/lang/String;
 
-    .line 16
     invoke-virtual {p1}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
 
     move-result-object p1
@@ -189,7 +173,6 @@
 
     return-void
 
-    .line 17
     :cond_2
     invoke-virtual {p1}, Landroid/content/res/Resources;->getDisplayMetrics()Landroid/util/DisplayMetrics;
 
@@ -199,18 +182,15 @@
 
     return-void
 
-    .line 18
     :cond_3
     iget v0, p1, Landroid/util/DisplayMetrics;->density:F
 
     iput v0, p0, Lcom/google/android/gms/internal/ads/rh;->y:F
 
-    .line 19
     iget v0, p1, Landroid/util/DisplayMetrics;->widthPixels:I
 
     iput v0, p0, Lcom/google/android/gms/internal/ads/rh;->z:I
 
-    .line 20
     iget p1, p1, Landroid/util/DisplayMetrics;->heightPixels:I
 
     iput p1, p0, Lcom/google/android/gms/internal/ads/rh;->A:I
@@ -221,36 +201,28 @@
 .method public constructor <init>(Landroid/content/Context;Lcom/google/android/gms/internal/ads/oh;)V
     .locals 1
 
-    .line 21
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 22
     invoke-direct {p0, p1}, Lcom/google/android/gms/internal/ads/rh;->c(Landroid/content/Context;)V
 
-    .line 23
     invoke-direct {p0, p1}, Lcom/google/android/gms/internal/ads/rh;->e(Landroid/content/Context;)V
 
-    .line 24
     invoke-direct {p0, p1}, Lcom/google/android/gms/internal/ads/rh;->f(Landroid/content/Context;)V
 
-    .line 25
     sget-object v0, Landroid/os/Build;->FINGERPRINT:Ljava/lang/String;
 
     iput-object v0, p0, Lcom/google/android/gms/internal/ads/rh;->o:Ljava/lang/String;
 
-    .line 26
     sget-object v0, Landroid/os/Build;->DEVICE:Ljava/lang/String;
 
     iput-object v0, p0, Lcom/google/android/gms/internal/ads/rh;->p:Ljava/lang/String;
 
-    .line 27
     invoke-static {}, Lcom/google/android/gms/common/util/v;->d()Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
-    .line 28
     invoke-static {p1}, Lcom/google/android/gms/internal/ads/t0;->a(Landroid/content/Context;)Z
 
     move-result p1
@@ -267,62 +239,50 @@
     :goto_0
     iput-boolean p1, p0, Lcom/google/android/gms/internal/ads/rh;->C:Z
 
-    .line 29
     iget-boolean p1, p2, Lcom/google/android/gms/internal/ads/oh;->b:Z
 
     iput-boolean p1, p0, Lcom/google/android/gms/internal/ads/rh;->q:Z
 
-    .line 30
     iget-boolean p1, p2, Lcom/google/android/gms/internal/ads/oh;->c:Z
 
     iput-boolean p1, p0, Lcom/google/android/gms/internal/ads/rh;->r:Z
 
-    .line 31
     iget-object p1, p2, Lcom/google/android/gms/internal/ads/oh;->e:Ljava/lang/String;
 
     iput-object p1, p0, Lcom/google/android/gms/internal/ads/rh;->s:Ljava/lang/String;
 
-    .line 32
     iget-boolean p1, p2, Lcom/google/android/gms/internal/ads/oh;->f:Z
 
     iput-boolean p1, p0, Lcom/google/android/gms/internal/ads/rh;->t:Z
 
-    .line 33
     iget-boolean p1, p2, Lcom/google/android/gms/internal/ads/oh;->g:Z
 
     iput-boolean p1, p0, Lcom/google/android/gms/internal/ads/rh;->u:Z
 
-    .line 34
     iget-boolean p1, p2, Lcom/google/android/gms/internal/ads/oh;->h:Z
 
     iput-boolean p1, p0, Lcom/google/android/gms/internal/ads/rh;->v:Z
 
-    .line 35
     iget-object p1, p2, Lcom/google/android/gms/internal/ads/oh;->k:Ljava/lang/String;
 
     iput-object p1, p0, Lcom/google/android/gms/internal/ads/rh;->w:Ljava/lang/String;
 
-    .line 36
     iget-object p1, p2, Lcom/google/android/gms/internal/ads/oh;->l:Ljava/lang/String;
 
     iput-object p1, p0, Lcom/google/android/gms/internal/ads/rh;->x:Ljava/lang/String;
 
-    .line 37
     iget-object p1, p2, Lcom/google/android/gms/internal/ads/oh;->m:Ljava/lang/String;
 
     iput-object p1, p0, Lcom/google/android/gms/internal/ads/rh;->B:Ljava/lang/String;
 
-    .line 38
     iget p1, p2, Lcom/google/android/gms/internal/ads/oh;->t:F
 
     iput p1, p0, Lcom/google/android/gms/internal/ads/rh;->y:F
 
-    .line 39
     iget p1, p2, Lcom/google/android/gms/internal/ads/oh;->u:I
 
     iput p1, p0, Lcom/google/android/gms/internal/ads/rh;->z:I
 
-    .line 40
     iget p1, p2, Lcom/google/android/gms/internal/ads/oh;->v:I
 
     iput p1, p0, Lcom/google/android/gms/internal/ads/rh;->A:I
@@ -333,7 +293,6 @@
 .method private static a(Landroid/content/pm/PackageManager;Ljava/lang/String;)Landroid/content/pm/ResolveInfo;
     .locals 2
 
-    .line 1
     :try_start_0
     new-instance v0, Landroid/content/Intent;
 
@@ -347,7 +306,6 @@
 
     const/high16 p1, 0x10000
 
-    .line 2
     invoke-virtual {p0, v0, p1}, Landroid/content/pm/PackageManager;->resolveActivity(Landroid/content/Intent;I)Landroid/content/pm/ResolveInfo;
 
     move-result-object p0
@@ -359,7 +317,6 @@
     :catchall_0
     move-exception p0
 
-    .line 3
     invoke-static {}, Lcom/google/android/gms/ads/internal/p;->g()Lcom/google/android/gms/internal/ads/em;
 
     move-result-object p1
@@ -378,7 +335,6 @@
 
     const-string v0, "market://details?id=com.google.android.gms.ads"
 
-    .line 1
     invoke-static {p1, v0}, Lcom/google/android/gms/internal/ads/rh;->a(Landroid/content/pm/PackageManager;Ljava/lang/String;)Landroid/content/pm/ResolveInfo;
 
     move-result-object p1
@@ -389,7 +345,6 @@
 
     return-object v0
 
-    .line 2
     :cond_0
     iget-object p1, p1, Landroid/content/pm/ResolveInfo;->activityInfo:Landroid/content/pm/ActivityInfo;
 
@@ -397,7 +352,6 @@
 
     return-object v0
 
-    .line 3
     :cond_1
     :try_start_0
     invoke-static {p0}, Lcom/google/android/gms/common/p/c;->a(Landroid/content/Context;)Lcom/google/android/gms/common/p/b;
@@ -414,7 +368,6 @@
 
     if-eqz p0, :cond_2
 
-    .line 4
     iget p0, p0, Landroid/content/pm/PackageInfo;->versionCode:I
 
     iget-object p1, p1, Landroid/content/pm/ActivityInfo;->packageName:Ljava/lang/String;
@@ -459,7 +412,6 @@
 
     const-string v0, "audio"
 
-    .line 1
     invoke-virtual {p1, v0}, Landroid/content/Context;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
 
     move-result-object p1
@@ -470,7 +422,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 2
     :try_start_0
     invoke-virtual {p1}, Landroid/media/AudioManager;->getMode()I
 
@@ -478,14 +429,12 @@
 
     iput v1, p0, Lcom/google/android/gms/internal/ads/rh;->a:I
 
-    .line 3
     invoke-virtual {p1}, Landroid/media/AudioManager;->isMusicActive()Z
 
     move-result v1
 
     iput-boolean v1, p0, Lcom/google/android/gms/internal/ads/rh;->b:Z
 
-    .line 4
     invoke-virtual {p1}, Landroid/media/AudioManager;->isSpeakerphoneOn()Z
 
     move-result v1
@@ -494,21 +443,18 @@
 
     const/4 v1, 0x3
 
-    .line 5
     invoke-virtual {p1, v1}, Landroid/media/AudioManager;->getStreamVolume(I)I
 
     move-result v1
 
     iput v1, p0, Lcom/google/android/gms/internal/ads/rh;->d:I
 
-    .line 6
     invoke-virtual {p1}, Landroid/media/AudioManager;->getRingerMode()I
 
     move-result v1
 
     iput v1, p0, Lcom/google/android/gms/internal/ads/rh;->e:I
 
-    .line 7
     invoke-virtual {p1, v0}, Landroid/media/AudioManager;->getStreamVolume(I)I
 
     move-result p1
@@ -522,7 +468,6 @@
     :catchall_0
     move-exception p1
 
-    .line 8
     invoke-static {}, Lcom/google/android/gms/ads/internal/p;->g()Lcom/google/android/gms/internal/ads/em;
 
     move-result-object v1
@@ -534,24 +479,18 @@
     :cond_0
     const/4 p1, -0x2
 
-    .line 9
     iput p1, p0, Lcom/google/android/gms/internal/ads/rh;->a:I
 
     const/4 p1, 0x0
 
-    .line 10
     iput-boolean p1, p0, Lcom/google/android/gms/internal/ads/rh;->b:Z
 
-    .line 11
     iput-boolean p1, p0, Lcom/google/android/gms/internal/ads/rh;->c:Z
 
-    .line 12
     iput p1, p0, Lcom/google/android/gms/internal/ads/rh;->d:I
 
-    .line 13
     iput v0, p0, Lcom/google/android/gms/internal/ads/rh;->e:I
 
-    .line 14
     iput p1, p0, Lcom/google/android/gms/internal/ads/rh;->f:I
 
     return-void
@@ -565,7 +504,6 @@
 
     const-string v0, "phone"
 
-    .line 1
     invoke-virtual {p1, v0}, Landroid/content/Context;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
 
     move-result-object v0
@@ -574,28 +512,24 @@
 
     const-string v1, "connectivity"
 
-    .line 2
     invoke-virtual {p1, v1}, Landroid/content/Context;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
 
     move-result-object v1
 
     check-cast v1, Landroid/net/ConnectivityManager;
 
-    .line 3
     invoke-virtual {v0}, Landroid/telephony/TelephonyManager;->getNetworkOperator()Ljava/lang/String;
 
     move-result-object v2
 
     iput-object v2, p0, Lcom/google/android/gms/internal/ads/rh;->g:Ljava/lang/String;
 
-    .line 4
     invoke-virtual {v0}, Landroid/telephony/TelephonyManager;->getNetworkType()I
 
     move-result v2
 
     iput v2, p0, Lcom/google/android/gms/internal/ads/rh;->i:I
 
-    .line 5
     invoke-virtual {v0}, Landroid/telephony/TelephonyManager;->getPhoneType()I
 
     move-result v0
@@ -604,46 +538,38 @@
 
     const/4 v0, -0x2
 
-    .line 6
     iput v0, p0, Lcom/google/android/gms/internal/ads/rh;->h:I
 
     const/4 v0, 0x0
 
-    .line 7
     iput-boolean v0, p0, Lcom/google/android/gms/internal/ads/rh;->k:Z
 
     const/4 v0, -0x1
 
-    .line 8
     iput v0, p0, Lcom/google/android/gms/internal/ads/rh;->l:I
 
-    .line 9
     invoke-static {}, Lcom/google/android/gms/ads/internal/p;->c()Lcom/google/android/gms/internal/ads/cn;
 
     const-string v2, "android.permission.ACCESS_NETWORK_STATE"
 
-    .line 10
     invoke-static {p1, v2}, Lcom/google/android/gms/internal/ads/cn;->l0(Landroid/content/Context;Ljava/lang/String;)Z
 
     move-result p1
 
     if-eqz p1, :cond_1
 
-    .line 11
     invoke-virtual {v1}, Landroid/net/ConnectivityManager;->getActiveNetworkInfo()Landroid/net/NetworkInfo;
 
     move-result-object p1
 
     if-eqz p1, :cond_0
 
-    .line 12
     invoke-virtual {p1}, Landroid/net/NetworkInfo;->getType()I
 
     move-result v0
 
     iput v0, p0, Lcom/google/android/gms/internal/ads/rh;->h:I
 
-    .line 13
     invoke-virtual {p1}, Landroid/net/NetworkInfo;->getDetailedState()Landroid/net/NetworkInfo$DetailedState;
 
     move-result-object p1
@@ -656,11 +582,9 @@
 
     goto :goto_0
 
-    .line 14
     :cond_0
     iput v0, p0, Lcom/google/android/gms/internal/ads/rh;->h:I
 
-    .line 15
     :goto_0
     invoke-virtual {v1}, Landroid/net/ConnectivityManager;->isActiveNetworkMetered()Z
 
@@ -675,7 +599,6 @@
 .method private final f(Landroid/content/Context;)V
     .locals 5
 
-    .line 1
     new-instance v0, Landroid/content/IntentFilter;
 
     const-string v1, "android.intent.action.BATTERY_CHANGED"
@@ -684,7 +607,6 @@
 
     const/4 v1, 0x0
 
-    .line 2
     invoke-virtual {p1, v1, v0}, Landroid/content/Context;->registerReceiver(Landroid/content/BroadcastReceiver;Landroid/content/IntentFilter;)Landroid/content/Intent;
 
     move-result-object p1
@@ -697,21 +619,18 @@
 
     const/4 v2, -0x1
 
-    .line 3
     invoke-virtual {p1, v1, v2}, Landroid/content/Intent;->getIntExtra(Ljava/lang/String;I)I
 
     move-result v1
 
     const-string v3, "level"
 
-    .line 4
     invoke-virtual {p1, v3, v2}, Landroid/content/Intent;->getIntExtra(Ljava/lang/String;I)I
 
     move-result v3
 
     const-string v4, "scale"
 
-    .line 5
     invoke-virtual {p1, v4, v2}, Landroid/content/Intent;->getIntExtra(Ljava/lang/String;I)I
 
     move-result p1
@@ -724,7 +643,6 @@
 
     float-to-double v2, v2
 
-    .line 6
     iput-wide v2, p0, Lcom/google/android/gms/internal/ads/rh;->m:D
 
     const/4 p1, 0x2
@@ -738,7 +656,6 @@
     :cond_0
     const/4 v0, 0x1
 
-    .line 7
     :cond_1
     iput-boolean v0, p0, Lcom/google/android/gms/internal/ads/rh;->n:Z
 
@@ -747,10 +664,8 @@
     :cond_2
     const-wide/high16 v1, -0x4010000000000000L    # -1.0
 
-    .line 8
     iput-wide v1, p0, Lcom/google/android/gms/internal/ads/rh;->m:D
 
-    .line 9
     iput-boolean v0, p0, Lcom/google/android/gms/internal/ads/rh;->n:Z
 
     return-void
@@ -761,7 +676,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     :try_start_0
     invoke-static {p0}, Lcom/google/android/gms/common/p/c;->a(Landroid/content/Context;)Lcom/google/android/gms/common/p/b;
 
@@ -771,14 +685,12 @@
 
     const/16 v2, 0x80
 
-    .line 2
     invoke-virtual {p0, v1, v2}, Lcom/google/android/gms/common/p/b;->e(Ljava/lang/String;I)Landroid/content/pm/PackageInfo;
 
     move-result-object p0
 
     if-eqz p0, :cond_0
 
-    .line 3
     iget v1, p0, Landroid/content/pm/PackageInfo;->versionCode:I
 
     iget-object p0, p0, Landroid/content/pm/PackageInfo;->packageName:Ljava/lang/String;
@@ -825,7 +737,6 @@
 
     move-object/from16 v0, p0
 
-    .line 1
     new-instance v32, Lcom/google/android/gms/internal/ads/oh;
 
     move-object/from16 v1, v32

@@ -30,7 +30,6 @@
 .method constructor <init>(Lcom/meitu/webview/mtscript/MTCommandCountScript;Ljava/lang/Class;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/meitu/webview/mtscript/MTCommandCountScript$a;->c:Lcom/meitu/webview/mtscript/MTCommandCountScript;
 
     invoke-direct {p0, p1, p2}, Lcom/meitu/webview/mtscript/i$c;-><init>(Lcom/meitu/webview/mtscript/i;Ljava/lang/Class;)V
@@ -47,7 +46,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Lcom/meitu/webview/mtscript/MTCommandCountScript$Model;
 
     invoke-virtual {p0, p1}, Lcom/meitu/webview/mtscript/MTCommandCountScript$a;->d(Lcom/meitu/webview/mtscript/MTCommandCountScript$Model;)V
@@ -66,7 +64,6 @@
 
     if-eqz p1, :cond_2
 
-    .line 1
     iget-object v1, p1, Lcom/meitu/webview/mtscript/MTCommandCountScript$Model;->eventId:Ljava/lang/String;
 
     invoke-static {v1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
@@ -75,7 +72,6 @@
 
     if-nez v1, :cond_2
 
-    .line 2
     iget-object v1, p0, Lcom/meitu/webview/mtscript/MTCommandCountScript$a;->c:Lcom/meitu/webview/mtscript/MTCommandCountScript;
 
     invoke-virtual {v1}, Lcom/meitu/webview/mtscript/i;->n()Landroid/app/Activity;
@@ -84,12 +80,10 @@
 
     if-nez v1, :cond_0
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 4
     :cond_0
     iget-object v2, p0, Lcom/meitu/webview/mtscript/MTCommandCountScript$a;->c:Lcom/meitu/webview/mtscript/MTCommandCountScript;
 
@@ -99,14 +93,12 @@
 
     if-eqz v2, :cond_1
 
-    .line 5
     invoke-virtual {v2}, Lcom/meitu/webview/core/CommonWebView;->getWebPageLogEventListener()Lf/k/o0/c/e;
 
     move-result-object v3
 
     if-eqz v3, :cond_1
 
-    .line 6
     invoke-virtual {v2}, Lcom/meitu/webview/core/CommonWebView;->getWebPageLogEventListener()Lf/k/o0/c/e;
 
     move-result-object v2
@@ -121,7 +113,6 @@
 
     goto :goto_0
 
-    .line 7
     :cond_1
     iget-object v2, p0, Lcom/meitu/webview/mtscript/MTCommandCountScript$a;->c:Lcom/meitu/webview/mtscript/MTCommandCountScript;
 
@@ -129,14 +120,12 @@
 
     if-eqz v2, :cond_2
 
-    .line 8
     iget-object v3, p1, Lcom/meitu/webview/mtscript/MTCommandCountScript$Model;->eventId:Ljava/lang/String;
 
     iget-object p1, p1, Lcom/meitu/webview/mtscript/MTCommandCountScript$Model;->attributes:Ljava/util/HashMap;
 
     invoke-interface {v2, v1, v3, p1}, Lf/k/o0/c/c;->h(Landroid/content/Context;Ljava/lang/String;Ljava/util/HashMap;)V
 
-    .line 9
     :cond_2
     :goto_0
     iget-object p1, p0, Lcom/meitu/webview/mtscript/MTCommandCountScript$a;->c:Lcom/meitu/webview/mtscript/MTCommandCountScript;
@@ -147,7 +136,6 @@
 
     invoke-virtual {p1, v1}, Lcom/meitu/webview/mtscript/i;->k(Ljava/lang/String;)V
 
-    .line 10
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

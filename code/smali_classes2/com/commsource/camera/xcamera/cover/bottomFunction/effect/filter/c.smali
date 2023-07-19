@@ -364,29 +364,24 @@
 
     invoke-static {v2, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-direct/range {p0 .. p1}, Landroidx/lifecycle/AndroidViewModel;-><init>(Landroid/app/Application;)V
 
     const/4 v1, 0x1
 
-    .line 2
     iput-boolean v1, v0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->a:Z
 
-    .line 3
     new-instance v1, Lcom/commsource/camera/xcamera/cover/e;
 
     invoke-direct {v1}, Lcom/commsource/camera/xcamera/cover/e;-><init>()V
 
     iput-object v1, v0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->b:Lcom/commsource/camera/xcamera/cover/e;
 
-    .line 4
     new-instance v1, Lcom/commsource/camera/xcamera/cover/e;
 
     invoke-direct {v1}, Lcom/commsource/camera/xcamera/cover/e;-><init>()V
 
     iput-object v1, v0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->c:Lcom/commsource/camera/xcamera/cover/e;
 
-    .line 5
     new-instance v1, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/FilterIndex;
 
     const/4 v3, 0x0
@@ -413,7 +408,6 @@
 
     iput-object v1, v0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->d:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/FilterIndex;
 
-    .line 6
     new-instance v1, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/f;
 
     const/4 v13, 0x0
@@ -444,35 +438,30 @@
 
     iput-object v1, v0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->e:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/f;
 
-    .line 7
     new-instance v1, Lcom/commsource/camera/xcamera/cover/e;
 
     invoke-direct {v1}, Lcom/commsource/camera/xcamera/cover/e;-><init>()V
 
     iput-object v1, v0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->f:Lcom/commsource/camera/xcamera/cover/e;
 
-    .line 8
     new-instance v1, Landroidx/lifecycle/MutableLiveData;
 
     invoke-direct {v1}, Landroidx/lifecycle/MutableLiveData;-><init>()V
 
     iput-object v1, v0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->g:Landroidx/lifecycle/MutableLiveData;
 
-    .line 9
     new-instance v1, Lcom/commsource/camera/xcamera/cover/e;
 
     invoke-direct {v1}, Lcom/commsource/camera/xcamera/cover/e;-><init>()V
 
     iput-object v1, v0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->h:Lcom/commsource/camera/xcamera/cover/e;
 
-    .line 10
     new-instance v1, Landroidx/lifecycle/MutableLiveData;
 
     invoke-direct {v1}, Landroidx/lifecycle/MutableLiveData;-><init>()V
 
     iput-object v1, v0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->i:Landroidx/lifecycle/MutableLiveData;
 
-    .line 11
     sget-object v1, Lcom/commsource/beautyfilter/NewBeautyFilterManager;->q:Lcom/commsource/beautyfilter/NewBeautyFilterManager$a;
 
     invoke-virtual {v1}, Lcom/commsource/beautyfilter/NewBeautyFilterManager$a;->b()Lcom/commsource/beautyfilter/NewBeautyFilterManager;
@@ -485,77 +474,66 @@
 
     iput-object v2, v0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->j:Lcom/commsource/beautyfilter/NoStickLiveData;
 
-    .line 12
     new-instance v2, Landroidx/lifecycle/MutableLiveData;
 
     invoke-direct {v2}, Landroidx/lifecycle/MutableLiveData;-><init>()V
 
     iput-object v2, v0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->k:Landroidx/lifecycle/MutableLiveData;
 
-    .line 13
     new-instance v2, Landroidx/lifecycle/MutableLiveData;
 
     invoke-direct {v2}, Landroidx/lifecycle/MutableLiveData;-><init>()V
 
     iput-object v2, v0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->l:Landroidx/lifecycle/MutableLiveData;
 
-    .line 14
     new-instance v2, Lcom/commsource/camera/xcamera/cover/e;
 
     invoke-direct {v2}, Lcom/commsource/camera/xcamera/cover/e;-><init>()V
 
     iput-object v2, v0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->m:Lcom/commsource/camera/xcamera/cover/e;
 
-    .line 15
     new-instance v2, Landroidx/lifecycle/MutableLiveData;
 
     invoke-direct {v2}, Landroidx/lifecycle/MutableLiveData;-><init>()V
 
     iput-object v2, v0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->n:Landroidx/lifecycle/MutableLiveData;
 
-    .line 16
     new-instance v2, Landroidx/lifecycle/MutableLiveData;
 
     invoke-direct {v2}, Landroidx/lifecycle/MutableLiveData;-><init>()V
 
     iput-object v2, v0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->o:Landroidx/lifecycle/MutableLiveData;
 
-    .line 17
     new-instance v2, Landroidx/lifecycle/MutableLiveData;
 
     invoke-direct {v2}, Landroidx/lifecycle/MutableLiveData;-><init>()V
 
     iput-object v2, v0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->p:Landroidx/lifecycle/MutableLiveData;
 
-    .line 18
     new-instance v2, Landroidx/lifecycle/MutableLiveData;
 
     invoke-direct {v2}, Landroidx/lifecycle/MutableLiveData;-><init>()V
 
     iput-object v2, v0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->q:Landroidx/lifecycle/MutableLiveData;
 
-    .line 19
     new-instance v2, Landroidx/lifecycle/MutableLiveData;
 
     invoke-direct {v2}, Landroidx/lifecycle/MutableLiveData;-><init>()V
 
     iput-object v2, v0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->r:Landroidx/lifecycle/MutableLiveData;
 
-    .line 20
     new-instance v2, Landroidx/lifecycle/MutableLiveData;
 
     invoke-direct {v2}, Landroidx/lifecycle/MutableLiveData;-><init>()V
 
     iput-object v2, v0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->s:Landroidx/lifecycle/MutableLiveData;
 
-    .line 21
     new-instance v2, Landroidx/lifecycle/MutableLiveData;
 
     invoke-direct {v2}, Landroidx/lifecycle/MutableLiveData;-><init>()V
 
     iput-object v2, v0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->t:Landroidx/lifecycle/MutableLiveData;
 
-    .line 22
     new-instance v2, Landroidx/lifecycle/MutableLiveData;
 
     invoke-direct {v2}, Landroidx/lifecycle/MutableLiveData;-><init>()V
@@ -564,17 +542,14 @@
 
     const/4 v2, -0x1
 
-    .line 23
     iput v2, v0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->v:I
 
-    .line 24
     new-instance v3, Lcom/commsource/camera/xcamera/cover/e;
 
     invoke-direct {v3}, Lcom/commsource/camera/xcamera/cover/e;-><init>()V
 
     iput-object v3, v0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->y:Lcom/commsource/camera/xcamera/cover/e;
 
-    .line 25
     invoke-virtual {v1}, Lcom/commsource/beautyfilter/NewBeautyFilterManager$a;->b()Lcom/commsource/beautyfilter/NewBeautyFilterManager;
 
     move-result-object v3
@@ -590,31 +565,26 @@
     :cond_0
     iput-object v3, v0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->B:Lcom/meitu/template/bean/Filter;
 
-    .line 26
     invoke-virtual {v1}, Lcom/commsource/beautyfilter/NewBeautyFilterManager$a;->b()Lcom/commsource/beautyfilter/NewBeautyFilterManager;
 
     move-result-object v1
 
     iput-object v1, v0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->C:Lcom/commsource/beautyfilter/NewBeautyFilterManager;
 
-    .line 27
     new-instance v1, Landroidx/lifecycle/MutableLiveData;
 
     invoke-direct {v1}, Landroidx/lifecycle/MutableLiveData;-><init>()V
 
     iput-object v1, v0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->D:Landroidx/lifecycle/MutableLiveData;
 
-    .line 28
     new-instance v1, Landroidx/lifecycle/MutableLiveData;
 
     invoke-direct {v1}, Landroidx/lifecycle/MutableLiveData;-><init>()V
 
     iput-object v1, v0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->E:Landroidx/lifecycle/MutableLiveData;
 
-    .line 29
     iput v2, v0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->F:I
 
-    .line 30
     new-instance v1, Landroid/util/SparseIntArray;
 
     invoke-direct {v1}, Landroid/util/SparseIntArray;-><init>()V
@@ -637,7 +607,6 @@
 
     const/4 p3, 0x1
 
-    .line 1
     :cond_0
     invoke-virtual {p0, p1, p2, p3}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->z(ILcom/meitu/template/bean/Filter;Z)Z
 
@@ -684,7 +653,6 @@
 
     move-object p4, v1
 
-    .line 1
     :cond_3
     invoke-virtual {p0, p1, p2, p3, p4}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->E(ILjava/util/List;Lcom/meitu/template/bean/Filter;Lcotlin/jvm/u/a;)Z
 
@@ -731,7 +699,6 @@
 
     move-object p4, v1
 
-    .line 1
     :cond_3
     invoke-virtual {p0, p1, p2, p3, p4}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->G(ILjava/util/List;Lcom/meitu/template/bean/Filter;Lcotlin/jvm/u/a;)Z
 
@@ -755,7 +722,6 @@
 
     const/4 p2, 0x1
 
-    .line 1
     :cond_0
     invoke-virtual {p0, p1, p2}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->L(ZZ)V
 
@@ -777,7 +743,6 @@
 
     const/4 p2, 0x1
 
-    .line 1
     :cond_0
     invoke-virtual {p0, p1, p2}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->b1(Lcom/commsource/beautyfilter/a;Z)V
 
@@ -793,24 +758,20 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->b:Lcom/commsource/camera/xcamera/cover/e;
 
     invoke-virtual {v1, p1}, Lcom/commsource/camera/xcamera/cover/e;->b(Z)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->c:Lcom/commsource/camera/xcamera/cover/e;
 
     invoke-virtual {v1, p1}, Lcom/commsource/camera/xcamera/cover/e;->b(Z)V
 
-    .line 3
     invoke-static {}, Lcom/commsource/util/g2;->b()Z
 
     move-result p1
 
     if-eqz p1, :cond_0
 
-    .line 4
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->b:Lcom/commsource/camera/xcamera/cover/e;
 
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->d:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/FilterIndex;
@@ -821,7 +782,6 @@
 
     invoke-virtual {p1, v1}, Landroidx/lifecycle/MutableLiveData;->setValue(Ljava/lang/Object;)V
 
-    .line 5
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->c:Lcom/commsource/camera/xcamera/cover/e;
 
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->d:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/FilterIndex;
@@ -830,7 +790,6 @@
 
     goto :goto_0
 
-    .line 6
     :cond_0
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->b:Lcom/commsource/camera/xcamera/cover/e;
 
@@ -842,14 +801,12 @@
 
     invoke-virtual {p1, v1}, Landroidx/lifecycle/MutableLiveData;->postValue(Ljava/lang/Object;)V
 
-    .line 7
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->c:Lcom/commsource/camera/xcamera/cover/e;
 
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->d:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/FilterIndex;
 
     invoke-virtual {p1, v1}, Landroidx/lifecycle/MutableLiveData;->postValue(Ljava/lang/Object;)V
 
-    .line 8
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -863,24 +820,20 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->f:Lcom/commsource/camera/xcamera/cover/e;
 
     invoke-virtual {v1, p1}, Lcom/commsource/camera/xcamera/cover/e;->b(Z)V
 
-    .line 2
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->e:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/f;
 
     invoke-virtual {p1}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/f;->a()V
 
-    .line 3
     invoke-static {}, Lcom/commsource/util/g2;->b()Z
 
     move-result p1
 
     if-eqz p1, :cond_0
 
-    .line 4
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->f:Lcom/commsource/camera/xcamera/cover/e;
 
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->e:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/f;
@@ -889,7 +842,6 @@
 
     goto :goto_0
 
-    .line 5
     :cond_0
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->f:Lcom/commsource/camera/xcamera/cover/e;
 
@@ -897,7 +849,6 @@
 
     invoke-virtual {p1, v1}, Landroidx/lifecycle/MutableLiveData;->postValue(Ljava/lang/Object;)V
 
-    .line 6
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -915,7 +866,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 1
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->d:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/FilterIndex;
 
     :cond_0
@@ -991,7 +941,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->w:Lcom/meitu/template/bean/ArMaterial;
 
     if-eqz v1, :cond_0
@@ -1022,18 +971,15 @@
 
     if-nez p1, :cond_0
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 2
     :cond_0
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->H:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/FilterIndex;
 
     if-eqz v1, :cond_2
 
-    .line 3
     invoke-virtual {p1}, Lcom/meitu/template/bean/Filter;->getFilterId()I
 
     move-result v2
@@ -1054,7 +1000,6 @@
 
     if-eqz v2, :cond_2
 
-    .line 4
     :cond_1
     invoke-virtual {v1}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/FilterIndex;->getSelectPosition()I
 
@@ -1064,7 +1009,6 @@
 
     invoke-virtual {p0, v1, p1, v2}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->z(ILcom/meitu/template/bean/Filter;Z)Z
 
-    .line 5
     :cond_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1082,7 +1026,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->b:Lcom/commsource/camera/xcamera/cover/e;
 
     invoke-virtual {v1}, Landroidx/lifecycle/LiveData;->getValue()Ljava/lang/Object;
@@ -1093,7 +1036,6 @@
 
     if-nez v1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v2
@@ -1101,7 +1043,6 @@
     :cond_0
     if-eqz p1, :cond_3
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->b:Lcom/commsource/camera/xcamera/cover/e;
 
     invoke-virtual {v1}, Landroidx/lifecycle/LiveData;->getValue()Ljava/lang/Object;
@@ -1142,12 +1083,10 @@
     :cond_2
     const/4 p1, 0x1
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
 
-    .line 5
     :cond_3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1163,14 +1102,12 @@
 
     const/4 v1, 0x1
 
-    .line 1
     invoke-virtual {p0, p1, v1}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->D(IZ)Lcom/meitu/template/bean/Filter;
 
     move-result-object v2
 
     if-eqz v2, :cond_2
 
-    .line 2
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->A0()Z
 
     move-result v3
@@ -1199,18 +1136,14 @@
     :goto_1
     if-eqz v2, :cond_2
 
-    .line 3
     invoke-virtual {v2, p1}, Lcom/meitu/template/bean/Filter;->setUserAlpha(I)V
 
-    .line 4
     invoke-virtual {v2, p1}, Lcom/meitu/template/bean/Filter;->setAlphaInCamera(I)V
 
-    .line 5
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->C:Lcom/commsource/beautyfilter/NewBeautyFilterManager;
 
     invoke-virtual {p1, v2}, Lcom/commsource/beautyfilter/NewBeautyFilterManager;->v0(Lcom/meitu/template/bean/Filter;)V
 
-    .line 6
     :cond_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1224,7 +1157,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->b:Lcom/commsource/camera/xcamera/cover/e;
 
     invoke-virtual {v1}, Landroidx/lifecycle/LiveData;->getValue()Ljava/lang/Object;
@@ -1263,7 +1195,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->b:Lcom/commsource/camera/xcamera/cover/e;
 
     invoke-virtual {v1}, Landroidx/lifecycle/LiveData;->getValue()Ljava/lang/Object;
@@ -1276,10 +1207,8 @@
 
     if-eqz p2, :cond_1
 
-    .line 2
     invoke-virtual {v1, p1}, Lcom/meitu/template/bean/Filter;->setUserAlpha(I)V
 
-    .line 3
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->k:Landroidx/lifecycle/MutableLiveData;
 
     invoke-virtual {p1, v1}, Landroidx/lifecycle/MutableLiveData;->setValue(Ljava/lang/Object;)V
@@ -1289,7 +1218,6 @@
     :cond_0
     const/4 v1, 0x0
 
-    .line 4
     :cond_1
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1304,7 +1232,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->x:Lcom/meitu/template/bean/LookMaterial;
 
     if-eqz v1, :cond_1
@@ -1372,7 +1299,6 @@
 
     if-eqz p2, :cond_6
 
-    .line 1
     invoke-interface {p2}, Ljava/util/Collection;->isEmpty()Z
 
     move-result v4
@@ -1398,7 +1324,6 @@
     :cond_1
     move v4, p1
 
-    .line 2
     :goto_1
     invoke-static {p2, v4}, Lcom/commsource/camera/f1/q;->c(Ljava/util/List;I)Z
 
@@ -1406,12 +1331,10 @@
 
     if-nez v5, :cond_2
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v2
 
-    .line 4
     :cond_2
     invoke-interface {p2}, Ljava/util/List;->size()I
 
@@ -1420,21 +1343,18 @@
     :goto_2
     if-ge v4, v5, :cond_6
 
-    .line 5
     invoke-interface {p2, v4}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object v6
 
     check-cast v6, Lcom/meitu/template/bean/Filter;
 
-    .line 6
     invoke-virtual {v6}, Lcom/meitu/template/bean/Filter;->isDownloaded()Z
 
     move-result v7
 
     if-eqz v7, :cond_5
 
-    .line 7
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->H0()Z
 
     move-result v7
@@ -1447,7 +1367,6 @@
 
     if-nez v7, :cond_5
 
-    .line 8
     :cond_3
     iget v7, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->v:I
 
@@ -1457,7 +1376,6 @@
 
     if-eqz v7, :cond_5
 
-    .line 9
     invoke-static {v6}, Lcom/commsource/camera/f1/f;->b(Lcom/meitu/template/bean/Filter;)Z
 
     move-result v7
@@ -1466,21 +1384,17 @@
 
     if-eqz p4, :cond_4
 
-    .line 10
     invoke-interface {p4}, Lcotlin/jvm/u/a;->invoke()Ljava/lang/Object;
 
     move-result-object p1
 
     check-cast p1, Lcotlin/t1;
 
-    .line 11
     :cond_4
     invoke-virtual {p0, v6, v2}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->Q0(Lcom/meitu/template/bean/Filter;Z)V
 
-    .line 12
     invoke-virtual {p0, v4, v6, v3}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->z(ILcom/meitu/template/bean/Filter;Z)Z
 
-    .line 13
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v3
@@ -1493,14 +1407,12 @@
     :cond_6
     if-eqz p3, :cond_9
 
-    .line 14
     invoke-virtual {p3}, Lcom/meitu/template/bean/Filter;->isDownloaded()Z
 
     move-result p2
 
     if-eqz p2, :cond_9
 
-    .line 15
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->H0()Z
 
     move-result p2
@@ -1513,7 +1425,6 @@
 
     if-nez p2, :cond_9
 
-    .line 16
     :cond_7
     iget p2, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->v:I
 
@@ -1523,7 +1434,6 @@
 
     if-eqz p2, :cond_9
 
-    .line 17
     invoke-static {p3}, Lcom/commsource/camera/f1/f;->b(Lcom/meitu/template/bean/Filter;)Z
 
     move-result p2
@@ -1532,26 +1442,21 @@
 
     if-eqz p4, :cond_8
 
-    .line 18
     invoke-interface {p4}, Lcotlin/jvm/u/a;->invoke()Ljava/lang/Object;
 
     move-result-object p2
 
     check-cast p2, Lcotlin/t1;
 
-    .line 19
     :cond_8
     invoke-virtual {p0, p3, v2}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->Q0(Lcom/meitu/template/bean/Filter;Z)V
 
-    .line 20
     invoke-virtual {p0, p1, p3, v3}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->z(ILcom/meitu/template/bean/Filter;Z)Z
 
-    .line 21
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v3
 
-    .line 22
     :cond_9
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1565,7 +1470,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->x:Lcom/meitu/template/bean/LookMaterial;
 
     if-eqz v1, :cond_1
@@ -1601,7 +1505,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->b:Lcom/commsource/camera/xcamera/cover/e;
 
     invoke-virtual {v1}, Landroidx/lifecycle/LiveData;->getValue()Ljava/lang/Object;
@@ -1681,7 +1584,6 @@
 
     if-eqz p2, :cond_6
 
-    .line 1
     invoke-interface {p2}, Ljava/util/Collection;->isEmpty()Z
 
     move-result v4
@@ -1700,7 +1602,6 @@
 
     if-ne p1, v1, :cond_1
 
-    .line 2
     invoke-interface {p2}, Ljava/util/List;->size()I
 
     move-result v4
@@ -1712,7 +1613,6 @@
     :cond_1
     move v4, p1
 
-    .line 3
     :goto_1
     invoke-static {p2, v4}, Lcom/commsource/camera/f1/q;->c(Ljava/util/List;I)Z
 
@@ -1720,7 +1620,6 @@
 
     if-nez v5, :cond_2
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v2
@@ -1729,21 +1628,18 @@
     :goto_2
     if-ltz v4, :cond_6
 
-    .line 5
     invoke-interface {p2, v4}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object v5
 
     check-cast v5, Lcom/meitu/template/bean/Filter;
 
-    .line 6
     invoke-virtual {v5}, Lcom/meitu/template/bean/Filter;->isDownloaded()Z
 
     move-result v6
 
     if-eqz v6, :cond_5
 
-    .line 7
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->H0()Z
 
     move-result v6
@@ -1756,7 +1652,6 @@
 
     if-nez v6, :cond_5
 
-    .line 8
     :cond_3
     iget v6, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->v:I
 
@@ -1766,7 +1661,6 @@
 
     if-eqz v6, :cond_5
 
-    .line 9
     invoke-static {v5}, Lcom/commsource/camera/f1/f;->b(Lcom/meitu/template/bean/Filter;)Z
 
     move-result v6
@@ -1775,21 +1669,17 @@
 
     if-eqz p4, :cond_4
 
-    .line 10
     invoke-interface {p4}, Lcotlin/jvm/u/a;->invoke()Ljava/lang/Object;
 
     move-result-object p1
 
     check-cast p1, Lcotlin/t1;
 
-    .line 11
     :cond_4
     invoke-virtual {p0, v5, v2}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->Q0(Lcom/meitu/template/bean/Filter;Z)V
 
-    .line 12
     invoke-virtual {p0, v4, v5, v3}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->z(ILcom/meitu/template/bean/Filter;Z)Z
 
-    .line 13
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v3
@@ -1802,14 +1692,12 @@
     :cond_6
     if-eqz p3, :cond_9
 
-    .line 14
     invoke-virtual {p3}, Lcom/meitu/template/bean/Filter;->isDownloaded()Z
 
     move-result p2
 
     if-eqz p2, :cond_9
 
-    .line 15
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->H0()Z
 
     move-result p2
@@ -1822,7 +1710,6 @@
 
     if-nez p2, :cond_9
 
-    .line 16
     :cond_7
     iget p2, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->v:I
 
@@ -1832,7 +1719,6 @@
 
     if-eqz p2, :cond_9
 
-    .line 17
     invoke-static {p3}, Lcom/commsource/camera/f1/f;->b(Lcom/meitu/template/bean/Filter;)Z
 
     move-result p2
@@ -1841,26 +1727,21 @@
 
     if-eqz p4, :cond_8
 
-    .line 18
     invoke-interface {p4}, Lcotlin/jvm/u/a;->invoke()Ljava/lang/Object;
 
     move-result-object p2
 
     check-cast p2, Lcotlin/t1;
 
-    .line 19
     :cond_8
     invoke-virtual {p0, p3, v2}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->Q0(Lcom/meitu/template/bean/Filter;Z)V
 
-    .line 20
     invoke-virtual {p0, p1, p3, v3}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->z(ILcom/meitu/template/bean/Filter;Z)Z
 
-    .line 21
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v3
 
-    .line 22
     :cond_9
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1874,7 +1755,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->b:Lcom/commsource/camera/xcamera/cover/e;
 
     invoke-virtual {v1}, Landroidx/lifecycle/LiveData;->getValue()Ljava/lang/Object;
@@ -1899,7 +1779,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->w:Lcom/meitu/template/bean/ArMaterial;
 
     const/4 v2, 0x1
@@ -1983,7 +1862,6 @@
 
     if-nez p1, :cond_0
 
-    .line 1
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->u:Landroidx/lifecycle/MutableLiveData;
 
     const/4 v2, 0x3
@@ -1994,12 +1872,10 @@
 
     invoke-virtual {p1, v2}, Landroidx/lifecycle/MutableLiveData;->postValue(Ljava/lang/Object;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
 
-    .line 3
     :cond_0
     invoke-virtual {p1}, Lcom/meitu/template/bean/Filter;->getDownloadState()I
 
@@ -2031,7 +1907,6 @@
 
     if-nez v2, :cond_1
 
-    .line 4
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->u:Landroidx/lifecycle/MutableLiveData;
 
     invoke-static {v3}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -2040,12 +1915,10 @@
 
     invoke-virtual {p1, v2}, Landroidx/lifecycle/MutableLiveData;->postValue(Ljava/lang/Object;)V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
 
-    .line 6
     :cond_1
     iget-object v2, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->C:Lcom/commsource/beautyfilter/NewBeautyFilterManager;
 
@@ -2067,13 +1940,11 @@
 
     goto :goto_0
 
-    .line 7
     :cond_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v3
 
-    .line 8
     :cond_3
     :goto_0
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->u:Landroidx/lifecycle/MutableLiveData;
@@ -2086,7 +1957,6 @@
 
     invoke-virtual {p1, v2}, Landroidx/lifecycle/MutableLiveData;->postValue(Ljava/lang/Object;)V
 
-    .line 9
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
@@ -2099,7 +1969,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->a:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2114,78 +1983,64 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->n:Landroidx/lifecycle/MutableLiveData;
 
     const/4 v2, 0x0
 
     invoke-virtual {v1, v2}, Landroidx/lifecycle/MutableLiveData;->setValue(Ljava/lang/Object;)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->t:Landroidx/lifecycle/MutableLiveData;
 
     invoke-virtual {v1, v2}, Landroidx/lifecycle/MutableLiveData;->setValue(Ljava/lang/Object;)V
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->s:Landroidx/lifecycle/MutableLiveData;
 
     invoke-virtual {v1, v2}, Landroidx/lifecycle/MutableLiveData;->setValue(Ljava/lang/Object;)V
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->o:Landroidx/lifecycle/MutableLiveData;
 
     invoke-virtual {v1, v2}, Landroidx/lifecycle/MutableLiveData;->setValue(Ljava/lang/Object;)V
 
-    .line 5
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->r:Landroidx/lifecycle/MutableLiveData;
 
     invoke-virtual {v1, v2}, Landroidx/lifecycle/MutableLiveData;->setValue(Ljava/lang/Object;)V
 
-    .line 6
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->p:Landroidx/lifecycle/MutableLiveData;
 
     invoke-virtual {v1, v2}, Landroidx/lifecycle/MutableLiveData;->setValue(Ljava/lang/Object;)V
 
-    .line 7
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->q:Landroidx/lifecycle/MutableLiveData;
 
     invoke-virtual {v1, v2}, Landroidx/lifecycle/MutableLiveData;->setValue(Ljava/lang/Object;)V
 
-    .line 8
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->y:Lcom/commsource/camera/xcamera/cover/e;
 
     invoke-virtual {v1, v2}, Landroidx/lifecycle/MutableLiveData;->setValue(Ljava/lang/Object;)V
 
-    .line 9
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->b:Lcom/commsource/camera/xcamera/cover/e;
 
     invoke-virtual {v1, v2}, Landroidx/lifecycle/MutableLiveData;->setValue(Ljava/lang/Object;)V
 
-    .line 10
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->d:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/FilterIndex;
 
     invoke-virtual {v1}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/FilterIndex;->clear()V
 
-    .line 11
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->c:Lcom/commsource/camera/xcamera/cover/e;
 
     iget-object v2, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->d:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/FilterIndex;
 
     invoke-virtual {v1, v2}, Landroidx/lifecycle/MutableLiveData;->setValue(Ljava/lang/Object;)V
 
-    .line 12
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->d:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/FilterIndex;
 
     const/4 v2, 0x0
 
     invoke-virtual {v1, v2}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/FilterIndex;->setFilterId(I)V
 
-    .line 13
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->G:Landroid/util/SparseIntArray;
 
     invoke-virtual {v1}, Landroid/util/SparseIntArray;->clear()V
 
-    .line 14
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2211,7 +2066,6 @@
     :cond_0
     const/4 p1, 0x0
 
-    .line 1
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -2229,7 +2083,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->d:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/FilterIndex;
 
     invoke-virtual {v1}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/FilterIndex;->getSelectPosition()I
@@ -2238,7 +2091,6 @@
 
     if-ne v1, p1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2248,10 +2100,8 @@
 
     const/4 v1, 0x1
 
-    .line 3
     invoke-virtual {p0, p2, v1}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->Q0(Lcom/meitu/template/bean/Filter;Z)V
 
-    .line 4
     invoke-virtual {p2}, Lcom/meitu/template/bean/Filter;->isDownloading()Z
 
     move-result v1
@@ -2260,7 +2110,6 @@
 
     goto/16 :goto_2
 
-    .line 5
     :cond_1
     invoke-virtual {p2}, Lcom/meitu/template/bean/Filter;->isDownloaded()Z
 
@@ -2268,7 +2117,6 @@
 
     if-eqz v1, :cond_2
 
-    .line 6
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->a1()V
 
     const/4 v5, 0x0
@@ -2283,12 +2131,10 @@
 
     move-object v4, p2
 
-    .line 7
     invoke-static/range {v2 .. v7}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->A(Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;ILcom/meitu/template/bean/Filter;ZILjava/lang/Object;)Z
 
     goto/16 :goto_2
 
-    .line 8
     :cond_2
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
@@ -2300,7 +2146,6 @@
 
     if-nez v1, :cond_3
 
-    .line 9
     invoke-static {}, Lcom/commsource/beautyplus/k;->d()Lcom/commsource/beautyplus/k;
 
     move-result-object p1
@@ -2315,12 +2160,10 @@
 
     invoke-static {p1}, Lcom/commsource/widget/dialog/s0/t;->Y(Landroid/content/Context;)V
 
-    .line 10
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 11
     :cond_3
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->e:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/f;
 
@@ -2330,7 +2173,6 @@
 
     if-eqz v1, :cond_6
 
-    .line 12
     new-instance v12, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/FilterIndex;
 
     const/4 v3, 0x0
@@ -2355,17 +2197,14 @@
 
     invoke-direct/range {v2 .. v11}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/FilterIndex;-><init>(IIIIILcom/meitu/template/bean/Filter;Lcom/commsource/beautyfilter/a;ILcotlin/jvm/internal/u;)V
 
-    .line 13
     invoke-virtual {p2}, Lcom/meitu/template/bean/Filter;->getFilterId()I
 
     move-result v2
 
     invoke-virtual {v12, v2}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/FilterIndex;->setFilterId(I)V
 
-    .line 14
     invoke-virtual {v12, p2}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/FilterIndex;->setFilter(Lcom/meitu/template/bean/Filter;)V
 
-    .line 15
     iget-object v2, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->e:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/f;
 
     invoke-virtual {v2, p1}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/f;->A(I)Z
@@ -2380,7 +2219,6 @@
 
     goto :goto_0
 
-    .line 16
     :cond_4
     iget-object v2, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->e:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/f;
 
@@ -2394,11 +2232,9 @@
 
     goto :goto_0
 
-    .line 17
     :cond_5
     invoke-virtual {v12, v3, v3, p1}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/FilterIndex;->setSelectPosition(III)V
 
-    .line 18
     :goto_0
     invoke-virtual {v1}, Lcom/commsource/beautyfilter/a;->a()I
 
@@ -2406,13 +2242,10 @@
 
     invoke-virtual {v12, p1}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/FilterIndex;->setCategoryIdWhenSelect(I)V
 
-    .line 19
     invoke-virtual {v12, v1}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/FilterIndex;->setCategoryInfo(Lcom/commsource/beautyfilter/a;)V
 
-    .line 20
     iput-object v12, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->H:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/FilterIndex;
 
-    .line 21
     :cond_6
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->C:Lcom/commsource/beautyfilter/NewBeautyFilterManager;
 
@@ -2432,7 +2265,6 @@
     :goto_1
     invoke-virtual {p1, p2, v1, v2}, Lcom/commsource/beautyfilter/NewBeautyFilterManager;->I(Lcom/meitu/template/bean/Filter;ZLjava/lang/String;)V
 
-    .line 22
     :cond_8
     :goto_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2447,7 +2279,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->h:Lcom/commsource/camera/xcamera/cover/e;
 
     invoke-virtual {v1}, Landroidx/lifecycle/LiveData;->getValue()Ljava/lang/Object;
@@ -2495,12 +2326,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->h:Lcom/commsource/camera/xcamera/cover/e;
 
     invoke-virtual {v1, p2}, Lcom/commsource/camera/xcamera/cover/e;->b(Z)V
 
-    .line 2
     iget-object p2, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->h:Lcom/commsource/camera/xcamera/cover/e;
 
     invoke-static {p1}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
@@ -2509,7 +2338,6 @@
 
     invoke-virtual {p2, p1}, Landroidx/lifecycle/MutableLiveData;->setValue(Ljava/lang/Object;)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2522,7 +2350,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->G:Landroid/util/SparseIntArray;
 
     const/4 v2, -0x1
@@ -2533,14 +2360,12 @@
 
     if-ne v1, v2, :cond_0
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->G:Landroid/util/SparseIntArray;
 
     const/4 v2, 0x1
 
     invoke-virtual {v1, p1, v2}, Landroid/util/SparseIntArray;->put(II)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v2
@@ -2548,7 +2373,6 @@
     :cond_0
     const/4 p1, 0x0
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
@@ -2561,7 +2385,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->A:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2576,17 +2399,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c$b;
 
     invoke-direct {v1, p0}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c$b;-><init>(Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;)V
 
-    .line 2
     iget-boolean v2, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->a:Z
 
     if-eqz v2, :cond_0
 
-    .line 3
     invoke-static {v1}, Lcom/commsource/util/g2;->j(Ljava/lang/Runnable;)V
 
     goto :goto_0
@@ -2594,10 +2414,8 @@
     :cond_0
     const-wide/16 v2, 0x1f4
 
-    .line 4
     invoke-static {v1, v2, v3}, Lcom/commsource/util/g2;->l(Ljava/lang/Runnable;J)V
 
-    .line 5
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -2619,12 +2437,10 @@
 
     invoke-static {p2, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     new-instance v1, Ljava/util/HashMap;
 
     invoke-direct {v1}, Ljava/util/HashMap;-><init>()V
 
-    .line 2
     iget-boolean v2, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->a:Z
 
     if-eqz v2, :cond_0
@@ -2641,7 +2457,6 @@
 
     invoke-interface {v1, v3, v2}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 3
     sget-object v2, Lcom/commsource/beautyfilter/NewBeautyFilterManager;->q:Lcom/commsource/beautyfilter/NewBeautyFilterManager$a;
 
     invoke-virtual {v2, p2}, Lcom/commsource/beautyfilter/NewBeautyFilterManager$a;->a(Lcom/meitu/template/bean/Filter;)Ljava/util/Map;
@@ -2654,7 +2469,6 @@
 
     const-string p1, "filter_favorite"
 
-    .line 4
     invoke-static {p1, v1}, Lcom/commsource/statistics/i;->s(Ljava/lang/String;Ljava/util/Map;)V
 
     goto :goto_1
@@ -2662,10 +2476,8 @@
     :cond_1
     const-string p1, "filter_favorite_remove"
 
-    .line 5
     invoke-static {p1, v1}, Lcom/commsource/statistics/i;->s(Ljava/lang/String;Ljava/util/Map;)V
 
-    .line 6
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -2679,7 +2491,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->e:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/f;
 
     invoke-virtual {v1, p1}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/f;->j(I)Lcom/meitu/template/bean/Filter;
@@ -2688,7 +2499,6 @@
 
     if-eqz p1, :cond_1
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->o:Landroidx/lifecycle/MutableLiveData;
 
     iget-object v2, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->e:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/f;
@@ -2715,7 +2525,6 @@
     :goto_0
     invoke-virtual {v1, p1}, Landroidx/lifecycle/MutableLiveData;->setValue(Ljava/lang/Object;)V
 
-    .line 3
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -2729,14 +2538,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->a:Z
 
     const-string v2, "\u6ee4\u955c\u5206\u7c7b"
 
     if-eqz v1, :cond_2
 
-    .line 2
     iget v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->v:I
 
     const/4 v3, 0x2
@@ -2747,7 +2554,6 @@
 
     if-eq v1, v3, :cond_0
 
-    .line 3
     invoke-static {p1}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
 
     move-result-object p1
@@ -2758,7 +2564,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_0
     invoke-static {p1}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
 
@@ -2770,7 +2575,6 @@
 
     goto :goto_0
 
-    .line 5
     :cond_1
     invoke-static {p1}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
 
@@ -2782,7 +2586,6 @@
 
     goto :goto_0
 
-    .line 6
     :cond_2
     invoke-static {p1}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
 
@@ -2792,7 +2595,6 @@
 
     invoke-static {v1, v2, p1}, Lcom/commsource/statistics/i;->r(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 7
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -2808,7 +2610,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->w:Lcom/meitu/template/bean/ArMaterial;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2823,12 +2624,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->a:Z
 
     if-eqz v1, :cond_3
 
-    .line 2
     iget v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->v:I
 
     const/4 v2, 0x2
@@ -2864,10 +2663,8 @@
     :goto_1
     const-string v2, "\u5217\u8868\u72b6\u6001"
 
-    .line 3
     invoke-static {v1, v2, p1}, Lcom/commsource/statistics/i;->r(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 4
     :cond_3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -2892,7 +2689,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->b:Lcom/commsource/camera/xcamera/cover/e;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2913,7 +2709,6 @@
 
     if-eqz p1, :cond_7
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->a:Z
 
     const-string v2, "\u662f"
@@ -2934,7 +2729,6 @@
 
     if-eqz v1, :cond_5
 
-    .line 2
     iget v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->v:I
 
     if-eqz v1, :cond_2
@@ -2949,7 +2743,6 @@
 
     goto :goto_3
 
-    .line 3
     :cond_0
     sget-object p2, Lcom/commsource/beautyfilter/NewBeautyFilterManager;->q:Lcom/commsource/beautyfilter/NewBeautyFilterManager$a;
 
@@ -2959,12 +2752,10 @@
 
     const-string p2, "movie_filterid_click"
 
-    .line 4
     invoke-static {p2, p1}, Lcom/commsource/statistics/i;->s(Ljava/lang/String;Ljava/util/Map;)V
 
     goto :goto_3
 
-    .line 5
     :cond_1
     sget-object p2, Lcom/commsource/beautyfilter/NewBeautyFilterManager;->q:Lcom/commsource/beautyfilter/NewBeautyFilterManager$a;
 
@@ -2974,12 +2765,10 @@
 
     const-string p2, "selfievideo_filter_click"
 
-    .line 6
     invoke-static {p2, p1}, Lcom/commsource/statistics/i;->s(Ljava/lang/String;Ljava/util/Map;)V
 
     goto :goto_3
 
-    .line 7
     :cond_2
     new-instance v1, Ljava/util/HashMap;
 
@@ -2992,25 +2781,21 @@
     :cond_3
     move-object v6, v7
 
-    .line 8
     :goto_0
     invoke-interface {v1, v8, v6}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 9
     invoke-virtual {p1}, Lcom/meitu/template/bean/Filter;->getFilterStatisticId()Ljava/lang/String;
 
     move-result-object p2
 
     invoke-interface {v1, v5, p2}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 10
     invoke-virtual {p1}, Lcom/meitu/template/bean/Filter;->getFilterStatisticCategoryId()Ljava/lang/String;
 
     move-result-object p1
 
     invoke-interface {v1, v4, p1}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 11
     iget-boolean p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->A:Z
 
     if-eqz p1, :cond_4
@@ -3025,12 +2810,10 @@
 
     const-string p1, "selfie_filter_click"
 
-    .line 12
     invoke-static {p1, v1}, Lcom/commsource/statistics/i;->s(Ljava/lang/String;Ljava/util/Map;)V
 
     goto :goto_3
 
-    .line 13
     :cond_5
     new-instance v1, Ljava/util/HashMap;
 
@@ -3043,33 +2826,27 @@
     :cond_6
     move-object v6, v7
 
-    .line 14
     :goto_2
     invoke-interface {v1, v8, v6}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 15
     invoke-virtual {p1}, Lcom/meitu/template/bean/Filter;->getFilterStatisticId()Ljava/lang/String;
 
     move-result-object p2
 
     invoke-interface {v1, v5, p2}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 16
     invoke-virtual {p1}, Lcom/meitu/template/bean/Filter;->getFilterStatisticCategoryId()Ljava/lang/String;
 
     move-result-object p1
 
     invoke-interface {v1, v4, p1}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 17
     invoke-interface {v1, v3, v2}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string p1, "beauty_filter_click"
 
-    .line 18
     invoke-static {p1, v1}, Lcom/commsource/statistics/i;->s(Ljava/lang/String;Ljava/util/Map;)V
 
-    .line 19
     :cond_7
     :goto_3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -3086,7 +2863,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->d:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/FilterIndex;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -3107,7 +2883,6 @@
 
     if-eqz p2, :cond_3
 
-    .line 1
     invoke-virtual {p2}, Lcom/meitu/template/bean/Filter;->getFilterId()I
 
     move-result v1
@@ -3130,7 +2905,6 @@
 
     if-eq v1, v2, :cond_3
 
-    .line 2
     invoke-virtual {p2}, Lcom/meitu/template/bean/Filter;->isDownloading()Z
 
     move-result v1
@@ -3139,7 +2913,6 @@
 
     goto :goto_1
 
-    .line 3
     :cond_0
     invoke-static {p2}, Lcom/commsource/camera/f1/f;->b(Lcom/meitu/template/bean/Filter;)Z
 
@@ -3147,7 +2920,6 @@
 
     if-eqz v1, :cond_2
 
-    .line 4
     invoke-static {p2}, Lcom/commsource/camera/f1/f;->g(Lcom/meitu/template/bean/Filter;)Z
 
     move-result v1
@@ -3158,34 +2930,28 @@
 
     const/4 v1, 0x0
 
-    .line 5
     invoke-virtual {p2, v1}, Lcom/meitu/template/bean/Filter;->setCollectedState(I)V
 
     goto :goto_0
 
-    .line 6
     :cond_1
     invoke-virtual {p2, v2}, Lcom/meitu/template/bean/Filter;->setCollectedState(I)V
 
-    .line 7
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v3
 
     invoke-virtual {p2, v3, v4}, Lcom/meitu/template/bean/Filter;->setCollectedTime(J)V
 
-    .line 8
     :goto_0
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->m:Lcom/commsource/camera/xcamera/cover/e;
 
     invoke-virtual {v1, v2}, Lcom/commsource/camera/xcamera/cover/e;->b(Z)V
 
-    .line 9
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->m:Lcom/commsource/camera/xcamera/cover/e;
 
     invoke-virtual {v1, p2}, Landroidx/lifecycle/MutableLiveData;->setValue(Ljava/lang/Object;)V
 
-    .line 10
     new-instance v1, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c$c;
 
     invoke-direct {v1, p0, p2, p1}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c$c;-><init>(Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;Lcom/meitu/template/bean/Filter;I)V
@@ -3196,7 +2962,6 @@
 
     goto :goto_1
 
-    .line 11
     :cond_2
     invoke-virtual {p2}, Lcom/meitu/template/bean/Filter;->isDownloaded()Z
 
@@ -3204,10 +2969,8 @@
 
     if-nez v1, :cond_3
 
-    .line 12
     invoke-virtual {p0, p1, p2}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->K(ILcom/meitu/template/bean/Filter;)V
 
-    .line 13
     :cond_3
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -3233,7 +2996,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->c:Lcom/commsource/camera/xcamera/cover/e;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -3248,7 +3010,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->d:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/FilterIndex;
 
     invoke-virtual {v1}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/FilterIndex;->getSelectPosition()I
@@ -3257,7 +3018,6 @@
 
     add-int/lit8 v3, v1, 0x1
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->e:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/f;
 
     invoke-virtual {v1}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/f;->c()Ljava/util/concurrent/CopyOnWriteArrayList;
@@ -3282,7 +3042,6 @@
 
     const/4 v3, 0x0
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->e:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/f;
 
     invoke-virtual {v1}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/f;->c()Ljava/util/concurrent/CopyOnWriteArrayList;
@@ -3301,7 +3060,6 @@
 
     invoke-static/range {v2 .. v8}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->F(Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;ILjava/util/List;Lcom/meitu/template/bean/Filter;Lcotlin/jvm/u/a;ILjava/lang/Object;)Z
 
-    .line 4
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -3317,7 +3075,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->x:Lcom/meitu/template/bean/LookMaterial;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -3336,7 +3093,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->w:Lcom/meitu/template/bean/ArMaterial;
 
     invoke-static {v1, p1}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
@@ -3345,7 +3101,6 @@
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -3355,10 +3110,8 @@
 
     if-nez p1, :cond_3
 
-    .line 3
     iput-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->w:Lcom/meitu/template/bean/ArMaterial;
 
-    .line 4
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->I:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/FilterIndex;
 
     if-nez p1, :cond_1
@@ -3392,15 +3145,12 @@
 
     move-object v2, p0
 
-    .line 5
     invoke-static/range {v2 .. v9}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->z0(Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/FilterIndex;ZZZZILjava/lang/Object;)V
 
-    .line 6
     iput-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->I:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/FilterIndex;
 
     goto/16 :goto_2
 
-    .line 7
     :cond_3
     iget-object v2, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->w:Lcom/meitu/template/bean/ArMaterial;
 
@@ -3408,26 +3158,21 @@
 
     if-nez v2, :cond_7
 
-    .line 8
     iput-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->w:Lcom/meitu/template/bean/ArMaterial;
 
-    .line 9
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->J:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/FilterIndex;
 
     if-eqz p1, :cond_4
 
     if-nez p1, :cond_5
 
-    .line 10
     invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     goto :goto_1
 
-    .line 11
     :cond_4
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->d:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/FilterIndex;
 
-    .line 12
     :cond_5
     :goto_1
     new-instance v2, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/FilterIndex;
@@ -3454,59 +3199,50 @@
 
     invoke-direct/range {v4 .. v13}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/FilterIndex;-><init>(IIIIILcom/meitu/template/bean/Filter;Lcom/commsource/beautyfilter/a;ILcotlin/jvm/internal/u;)V
 
-    .line 13
     invoke-virtual {p1}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/FilterIndex;->getFilterId()I
 
     move-result v4
 
     invoke-virtual {v2, v4}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/FilterIndex;->setFilterId(I)V
 
-    .line 14
     invoke-virtual {p1}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/FilterIndex;->getFilter()Lcom/meitu/template/bean/Filter;
 
     move-result-object v4
 
     invoke-virtual {v2, v4}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/FilterIndex;->setFilter(Lcom/meitu/template/bean/Filter;)V
 
-    .line 15
     invoke-virtual {p1}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/FilterIndex;->getCollectionIndex()I
 
     move-result v4
 
     invoke-virtual {v2, v4}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/FilterIndex;->setCollectionIndex(I)V
 
-    .line 16
     invoke-virtual {p1}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/FilterIndex;->getRecommendIndex()I
 
     move-result v4
 
     invoke-virtual {v2, v4}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/FilterIndex;->setRecommendIndex(I)V
 
-    .line 17
     invoke-virtual {p1}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/FilterIndex;->getIndex()I
 
     move-result v4
 
     invoke-virtual {v2, v4}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/FilterIndex;->setIndex(I)V
 
-    .line 18
     invoke-virtual {p1}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/FilterIndex;->getCategoryIdWhenSelect()I
 
     move-result v4
 
     invoke-virtual {v2, v4}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/FilterIndex;->setCategoryIdWhenSelect(I)V
 
-    .line 19
     invoke-virtual {p1}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/FilterIndex;->getCategoryInfo()Lcom/commsource/beautyfilter/a;
 
     move-result-object p1
 
     invoke-virtual {v2, p1}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/FilterIndex;->setCategoryInfo(Lcom/commsource/beautyfilter/a;)V
 
-    .line 20
     iput-object v2, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->I:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/FilterIndex;
 
-    .line 21
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->e:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/f;
 
     invoke-virtual {p1}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/f;->r()Lcom/meitu/template/bean/Filter;
@@ -3515,31 +3251,25 @@
 
     if-eqz p1, :cond_6
 
-    .line 22
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->e:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/f;
 
     invoke-virtual {p1, v1}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/f;->R(Lcom/meitu/template/bean/Filter;)V
 
-    .line 23
     invoke-direct {p0, v3}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->q1(Z)V
 
-    .line 24
     :cond_6
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->e:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/f;
 
     invoke-virtual {p1, v3}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/f;->F(Z)V
 
-    .line 25
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->d:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/FilterIndex;
 
     invoke-virtual {p1}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/FilterIndex;->clear()V
 
-    .line 26
     invoke-direct {p0, v3}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->o1(Z)V
 
     goto :goto_2
 
-    .line 27
     :cond_7
     iget-object v2, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->e:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/f;
 
@@ -3549,27 +3279,21 @@
 
     if-eqz v2, :cond_8
 
-    .line 28
     iget-object v2, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->e:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/f;
 
     invoke-virtual {v2, v1}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/f;->R(Lcom/meitu/template/bean/Filter;)V
 
-    .line 29
     invoke-direct {p0, v3}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->q1(Z)V
 
-    .line 30
     :cond_8
     iput-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->w:Lcom/meitu/template/bean/ArMaterial;
 
-    .line 31
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->d:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/FilterIndex;
 
     invoke-virtual {p1}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/FilterIndex;->clear()V
 
-    .line 32
     invoke-direct {p0, v3}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->o1(Z)V
 
-    .line 33
     :goto_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -3594,7 +3318,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->o:Landroidx/lifecycle/MutableLiveData;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -3609,7 +3332,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->v:I
 
     const/4 v1, 0x0
@@ -3628,7 +3350,6 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     iget-object v3, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->b:Lcom/commsource/camera/xcamera/cover/e;
 
@@ -3644,7 +3365,6 @@
 
     if-nez p1, :cond_3
 
-    .line 3
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->l:Landroidx/lifecycle/MutableLiveData;
 
     sget v3, Lcom/res/provider/ResSTRING;->unable_to_apply_special_filter:I
@@ -3655,10 +3375,8 @@
 
     invoke-virtual {p1, v3}, Landroidx/lifecycle/MutableLiveData;->setValue(Ljava/lang/Object;)V
 
-    .line 4
     invoke-virtual {p0, v2, v1}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->y(Lcom/meitu/template/bean/Filter;Z)V
 
-    .line 5
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
     move-result-object p1
@@ -3669,13 +3387,11 @@
 
     goto :goto_0
 
-    .line 6
     :cond_1
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->K:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/FilterIndex;
 
     if-eqz p1, :cond_3
 
-    .line 7
     iget-object v3, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->b:Lcom/commsource/camera/xcamera/cover/e;
 
     invoke-virtual {v3}, Landroidx/lifecycle/LiveData;->getValue()Ljava/lang/Object;
@@ -3684,18 +3400,15 @@
 
     if-nez v3, :cond_2
 
-    .line 8
     invoke-virtual {p1}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/FilterIndex;->getFilter()Lcom/meitu/template/bean/Filter;
 
     move-result-object p1
 
     invoke-virtual {p0, p1, v1}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->y(Lcom/meitu/template/bean/Filter;Z)V
 
-    .line 9
     :cond_2
     iput-object v2, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->K:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/FilterIndex;
 
-    .line 10
     :cond_3
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -3712,7 +3425,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->K:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/FilterIndex;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -3727,14 +3439,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c$d;
 
     invoke-direct {v1, p0}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c$d;-><init>(Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;)V
 
     invoke-static {v1}, Lcom/commsource/util/g2;->j(Ljava/lang/Runnable;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -3747,7 +3457,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->v:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -3762,7 +3471,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c$e;
 
     invoke-direct {v1, p0, p1, p2}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c$e;-><init>(Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;IZ)V
@@ -3771,7 +3479,6 @@
 
     invoke-static {v1, p1, p2}, Lcom/commsource/util/g2;->l(Ljava/lang/Runnable;J)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -3795,7 +3502,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->u:Landroidx/lifecycle/MutableLiveData;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -3818,7 +3524,6 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->e:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/f;
 
     invoke-virtual {p1}, Lcom/meitu/template/bean/Filter;->getFilterId()I
@@ -3833,7 +3538,6 @@
 
     if-nez v1, :cond_2
 
-    .line 2
     new-instance v1, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/FilterIndex;
 
     const/4 v4, 0x0
@@ -3858,14 +3562,12 @@
 
     invoke-direct/range {v3 .. v12}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/FilterIndex;-><init>(IIIIILcom/meitu/template/bean/Filter;Lcom/commsource/beautyfilter/a;ILcotlin/jvm/internal/u;)V
 
-    .line 3
     invoke-virtual {p1}, Lcom/meitu/template/bean/Filter;->getFilterId()I
 
     move-result v3
 
     invoke-virtual {v1, v3}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/FilterIndex;->setFilterId(I)V
 
-    .line 4
     invoke-virtual {p1}, Lcom/meitu/template/bean/Filter;->getFilterRecommend()I
 
     move-result v3
@@ -3884,12 +3586,10 @@
 
     if-eqz v3, :cond_1
 
-    .line 5
     invoke-virtual {v1, v4, v2, v4}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/FilterIndex;->setSelectPosition(III)V
 
     goto :goto_1
 
-    .line 6
     :cond_1
     invoke-virtual {v1, v4, v4, v2}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/FilterIndex;->setSelectPosition(III)V
 
@@ -3910,25 +3610,19 @@
 
     move-object v4, v1
 
-    .line 7
     invoke-static/range {v3 .. v10}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->z0(Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/FilterIndex;ZZZZILjava/lang/Object;)V
 
-    .line 8
     invoke-virtual {p0, p1, v2}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->Q0(Lcom/meitu/template/bean/Filter;Z)V
 
-    .line 9
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->N()V
 
     goto :goto_2
 
-    .line 10
     :cond_2
     invoke-virtual {p0, p1, v2}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->Q0(Lcom/meitu/template/bean/Filter;Z)V
 
-    .line 11
     invoke-virtual {p0, p1, v2}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->y(Lcom/meitu/template/bean/Filter;Z)V
 
-    .line 12
     :goto_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -3953,7 +3647,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->m:Lcom/commsource/camera/xcamera/cover/e;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -3972,7 +3665,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->x:Lcom/meitu/template/bean/LookMaterial;
 
     invoke-static {v1, p1}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
@@ -3981,7 +3673,6 @@
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -3991,7 +3682,6 @@
 
     if-eqz p1, :cond_7
 
-    .line 3
     invoke-virtual {p1}, Lcom/meitu/template/bean/LookMaterial;->isDefaultLook()Z
 
     move-result v2
@@ -4000,7 +3690,6 @@
 
     goto/16 :goto_1
 
-    .line 4
     :cond_1
     iget-object v2, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->x:Lcom/meitu/template/bean/LookMaterial;
 
@@ -4021,11 +3710,9 @@
 
     goto :goto_0
 
-    .line 5
     :cond_3
     iput-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->x:Lcom/meitu/template/bean/LookMaterial;
 
-    .line 6
     iget-object v2, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->e:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/f;
 
     invoke-virtual {p1}, Lcom/meitu/template/bean/LookMaterial;->getEffectBean()Lcom/meitu/template/bean/k;
@@ -4041,15 +3728,12 @@
     :cond_4
     invoke-virtual {v2, v1}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/f;->R(Lcom/meitu/template/bean/Filter;)V
 
-    .line 7
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->e:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/f;
 
     invoke-virtual {p1, v3}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/f;->F(Z)V
 
-    .line 8
     invoke-direct {p0, v3}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->q1(Z)V
 
-    .line 9
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->e:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/f;
 
     invoke-virtual {p1}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/f;->s()I
@@ -4066,12 +3750,10 @@
 
     goto/16 :goto_3
 
-    .line 10
     :cond_5
     :goto_0
     iput-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->x:Lcom/meitu/template/bean/LookMaterial;
 
-    .line 11
     new-instance v2, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/FilterIndex;
 
     const/4 v5, 0x0
@@ -4096,7 +3778,6 @@
 
     invoke-direct/range {v4 .. v13}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/FilterIndex;-><init>(IIIIILcom/meitu/template/bean/Filter;Lcom/commsource/beautyfilter/a;ILcotlin/jvm/internal/u;)V
 
-    .line 12
     iget-object v4, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->d:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/FilterIndex;
 
     invoke-virtual {v4}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/FilterIndex;->getFilterId()I
@@ -4105,7 +3786,6 @@
 
     invoke-virtual {v2, v4}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/FilterIndex;->setFilterId(I)V
 
-    .line 13
     iget-object v4, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->d:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/FilterIndex;
 
     invoke-virtual {v4}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/FilterIndex;->getFilter()Lcom/meitu/template/bean/Filter;
@@ -4114,7 +3794,6 @@
 
     invoke-virtual {v2, v4}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/FilterIndex;->setFilter(Lcom/meitu/template/bean/Filter;)V
 
-    .line 14
     iget-object v4, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->d:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/FilterIndex;
 
     invoke-virtual {v4}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/FilterIndex;->getCollectionIndex()I
@@ -4123,7 +3802,6 @@
 
     invoke-virtual {v2, v4}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/FilterIndex;->setCollectionIndex(I)V
 
-    .line 15
     iget-object v4, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->d:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/FilterIndex;
 
     invoke-virtual {v4}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/FilterIndex;->getRecommendIndex()I
@@ -4132,7 +3810,6 @@
 
     invoke-virtual {v2, v4}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/FilterIndex;->setRecommendIndex(I)V
 
-    .line 16
     iget-object v4, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->d:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/FilterIndex;
 
     invoke-virtual {v4}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/FilterIndex;->getIndex()I
@@ -4141,7 +3818,6 @@
 
     invoke-virtual {v2, v4}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/FilterIndex;->setIndex(I)V
 
-    .line 17
     iget-object v4, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->d:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/FilterIndex;
 
     invoke-virtual {v4}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/FilterIndex;->getCategoryIdWhenSelect()I
@@ -4150,7 +3826,6 @@
 
     invoke-virtual {v2, v4}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/FilterIndex;->setCategoryIdWhenSelect(I)V
 
-    .line 18
     iget-object v4, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->d:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/FilterIndex;
 
     invoke-virtual {v4}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/FilterIndex;->getCategoryInfo()Lcom/commsource/beautyfilter/a;
@@ -4159,10 +3834,8 @@
 
     invoke-virtual {v2, v4}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/FilterIndex;->setCategoryInfo(Lcom/commsource/beautyfilter/a;)V
 
-    .line 19
     iput-object v2, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->J:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/FilterIndex;
 
-    .line 20
     iget-object v2, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->e:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/f;
 
     invoke-virtual {p1}, Lcom/meitu/template/bean/LookMaterial;->getEffectBean()Lcom/meitu/template/bean/k;
@@ -4178,15 +3851,12 @@
     :cond_6
     invoke-virtual {v2, v1}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/f;->R(Lcom/meitu/template/bean/Filter;)V
 
-    .line 21
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->e:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/f;
 
     invoke-virtual {p1, v3}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/f;->F(Z)V
 
-    .line 22
     invoke-direct {p0, v3}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->q1(Z)V
 
-    .line 23
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->e:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/f;
 
     invoke-virtual {p1}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/f;->s()I
@@ -4203,17 +3873,14 @@
 
     goto :goto_3
 
-    .line 24
     :cond_7
     :goto_1
     iput-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->x:Lcom/meitu/template/bean/LookMaterial;
 
-    .line 25
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->e:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/f;
 
     invoke-virtual {p1, v1}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/f;->R(Lcom/meitu/template/bean/Filter;)V
 
-    .line 26
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->J:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/FilterIndex;
 
     if-nez p1, :cond_8
@@ -4245,13 +3912,10 @@
 
     move-object v2, p0
 
-    .line 27
     invoke-static/range {v2 .. v9}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->z0(Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/FilterIndex;ZZZZILjava/lang/Object;)V
 
-    .line 28
     iput-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->J:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/FilterIndex;
 
-    .line 29
     :goto_3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -4276,7 +3940,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->p:Landroidx/lifecycle/MutableLiveData;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -4291,7 +3954,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->b:Lcom/commsource/camera/xcamera/cover/e;
 
     invoke-virtual {v1}, Landroidx/lifecycle/LiveData;->getValue()Ljava/lang/Object;
@@ -4318,7 +3980,6 @@
 
     const/4 v3, 0x0
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->e:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/f;
 
     invoke-virtual {v1}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/f;->c()Ljava/util/concurrent/CopyOnWriteArrayList;
@@ -4337,12 +3998,10 @@
 
     invoke-static/range {v2 .. v8}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->H(Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;ILjava/util/List;Lcom/meitu/template/bean/Filter;Lcotlin/jvm/u/a;ILjava/lang/Object;)Z
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 4
     :cond_1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->d:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/FilterIndex;
 
@@ -4352,7 +4011,6 @@
 
     add-int/lit8 v3, v1, -0x1
 
-    .line 5
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->e:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/f;
 
     invoke-virtual {v1}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/f;->c()Ljava/util/concurrent/CopyOnWriteArrayList;
@@ -4377,7 +4035,6 @@
 
     const/4 v3, 0x0
 
-    .line 6
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->e:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/f;
 
     invoke-virtual {v1}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/f;->c()Ljava/util/concurrent/CopyOnWriteArrayList;
@@ -4396,7 +4053,6 @@
 
     invoke-static/range {v2 .. v8}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->H(Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;ILjava/util/List;Lcom/meitu/template/bean/Filter;Lcotlin/jvm/u/a;ILjava/lang/Object;)Z
 
-    .line 7
     :cond_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -4421,7 +4077,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->f:Lcom/commsource/camera/xcamera/cover/e;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -4438,10 +4093,8 @@
 
     const/4 v1, 0x0
 
-    .line 1
     iput-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->H:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/FilterIndex;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -4456,7 +4109,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->a:Z
 
     const/4 v2, 0x1
@@ -4489,7 +4141,6 @@
 
     invoke-direct/range {v4 .. v13}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/FilterIndex;-><init>(IIIIILcom/meitu/template/bean/Filter;Lcom/commsource/beautyfilter/a;ILcotlin/jvm/internal/u;)V
 
-    .line 2
     iget-object v4, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->e:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/f;
 
     invoke-virtual {v4}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/f;->p()Lcom/meitu/template/bean/Filter;
@@ -4500,18 +4151,14 @@
 
     const/4 v4, 0x0
 
-    .line 3
     invoke-virtual {v1, v4}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/FilterIndex;->setFilterId(I)V
 
-    .line 4
     invoke-virtual {v1, v3, v3, v2}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/FilterIndex;->setSelectPosition(III)V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
 
-    .line 6
     :cond_0
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->A0()Z
 
@@ -4547,7 +4194,6 @@
 
     return-object v1
 
-    .line 7
     :cond_1
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->D0()Z
 
@@ -4579,7 +4225,6 @@
 
     invoke-direct/range {v4 .. v13}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/FilterIndex;-><init>(IIIIILcom/meitu/template/bean/Filter;Lcom/commsource/beautyfilter/a;ILcotlin/jvm/internal/u;)V
 
-    .line 8
     iget-object v2, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->e:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/f;
 
     invoke-virtual {v2}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/f;->r()Lcom/meitu/template/bean/Filter;
@@ -4588,23 +4233,19 @@
 
     if-eqz v2, :cond_2
 
-    .line 9
     invoke-virtual {v2}, Lcom/meitu/template/bean/Filter;->getFilterId()I
 
     move-result v3
 
     invoke-virtual {v1, v3}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/FilterIndex;->setFilterId(I)V
 
-    .line 10
     invoke-virtual {v1, v2}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/FilterIndex;->setFilter(Lcom/meitu/template/bean/Filter;)V
 
-    .line 11
     :cond_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
 
-    .line 12
     :cond_3
     new-instance v1, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/FilterIndex;
 
@@ -4630,7 +4271,6 @@
 
     invoke-direct/range {v4 .. v13}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/FilterIndex;-><init>(IIIIILcom/meitu/template/bean/Filter;Lcom/commsource/beautyfilter/a;ILcotlin/jvm/internal/u;)V
 
-    .line 13
     iget-object v4, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->e:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/f;
 
     const/16 v5, 0x65
@@ -4641,13 +4281,10 @@
 
     invoke-virtual {v1, v4}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/FilterIndex;->setFilter(Lcom/meitu/template/bean/Filter;)V
 
-    .line 14
     invoke-virtual {v1, v5}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/FilterIndex;->setFilterId(I)V
 
-    .line 15
     invoke-virtual {v1, v3, v3, v2}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/FilterIndex;->setSelectPosition(III)V
 
-    .line 16
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
@@ -4664,7 +4301,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->y:Lcom/commsource/camera/xcamera/cover/e;
 
     invoke-virtual {v1}, Landroidx/lifecycle/LiveData;->getValue()Ljava/lang/Object;
@@ -4679,45 +4315,38 @@
 
     if-eqz v1, :cond_0
 
-    .line 2
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->n:Landroidx/lifecycle/MutableLiveData;
 
     sget-object p2, Ljava/lang/Boolean;->TRUE:Ljava/lang/Boolean;
 
     invoke-virtual {p1, p2}, Landroidx/lifecycle/MutableLiveData;->setValue(Ljava/lang/Object;)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 4
     :cond_0
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->y:Lcom/commsource/camera/xcamera/cover/e;
 
     invoke-virtual {v1, p2}, Lcom/commsource/camera/xcamera/cover/e;->b(Z)V
 
-    .line 5
     invoke-static {}, Lcom/commsource/util/g2;->b()Z
 
     move-result p2
 
     if-eqz p2, :cond_1
 
-    .line 6
     iget-object p2, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->y:Lcom/commsource/camera/xcamera/cover/e;
 
     invoke-virtual {p2, p1}, Landroidx/lifecycle/MutableLiveData;->setValue(Ljava/lang/Object;)V
 
     goto :goto_0
 
-    .line 7
     :cond_1
     iget-object p2, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->y:Lcom/commsource/camera/xcamera/cover/e;
 
     invoke-virtual {p2, p1}, Landroidx/lifecycle/MutableLiveData;->postValue(Ljava/lang/Object;)V
 
-    .line 8
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -4733,7 +4362,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->H:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/FilterIndex;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -4759,7 +4387,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->h:Lcom/commsource/camera/xcamera/cover/e;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -4778,7 +4405,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->w:Lcom/meitu/template/bean/ArMaterial;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -4804,7 +4430,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->k:Landroidx/lifecycle/MutableLiveData;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -4823,7 +4448,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->x:Lcom/meitu/template/bean/LookMaterial;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -4849,7 +4473,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->j:Lcom/commsource/beautyfilter/NoStickLiveData;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -4864,7 +4487,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->a:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -4881,7 +4503,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->G:Landroid/util/SparseIntArray;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -4900,7 +4521,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->K:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/FilterIndex;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -4926,7 +4546,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->n:Landroidx/lifecycle/MutableLiveData;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -4941,7 +4560,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->v:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -4968,7 +4586,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->i:Landroidx/lifecycle/MutableLiveData;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -4987,7 +4604,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->H:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/FilterIndex;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -5002,7 +4618,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->F:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -5017,7 +4632,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->A:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -5034,7 +4648,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->e:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/f;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -5049,7 +4662,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->F:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -5075,7 +4687,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->r:Landroidx/lifecycle/MutableLiveData;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -5094,7 +4705,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->I:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/FilterIndex;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -5111,7 +4721,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->B:Lcom/meitu/template/bean/Filter;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -5130,7 +4739,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->J:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/FilterIndex;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -5147,7 +4755,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->I:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/FilterIndex;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -5166,7 +4773,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->z:Lcom/commsource/beautyplus/router/RouterEntity;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -5183,7 +4789,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->J:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/FilterIndex;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -5200,7 +4805,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->z:Lcom/commsource/beautyplus/router/RouterEntity;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -5221,7 +4825,6 @@
 
     if-eqz p2, :cond_3
 
-    .line 1
     invoke-static {p2}, Lcom/commsource/camera/f1/f;->g(Lcom/meitu/template/bean/Filter;)Z
 
     move-result v1
@@ -5232,29 +4835,24 @@
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-virtual {p0, v2, p2}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->N0(ZLcom/meitu/template/bean/Filter;)V
 
     goto :goto_0
 
-    .line 3
     :cond_0
     invoke-virtual {p0, v3, p2}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->N0(ZLcom/meitu/template/bean/Filter;)V
 
-    .line 4
     :goto_0
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->C:Lcom/commsource/beautyfilter/NewBeautyFilterManager;
 
     invoke-virtual {v1, p2}, Lcom/commsource/beautyfilter/NewBeautyFilterManager;->v0(Lcom/meitu/template/bean/Filter;)V
 
-    .line 5
     iget-object p2, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->e:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/f;
 
     invoke-virtual {p2, p1}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/f;->A(I)Z
 
     move-result p2
 
-    .line 6
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->d:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/FilterIndex;
 
     invoke-virtual {v1}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/FilterIndex;->getSelectPosition()I
@@ -5273,7 +4871,6 @@
 
     if-eqz v2, :cond_2
 
-    .line 7
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->b0()Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/FilterIndex;
 
     move-result-object v4
@@ -5294,12 +4891,10 @@
 
     invoke-static/range {v3 .. v10}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->z0(Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/FilterIndex;ZZZZILjava/lang/Object;)V
 
-    .line 8
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->N()V
 
     goto :goto_2
 
-    .line 9
     :cond_2
     sget-object p2, Lcom/commsource/beautyfilter/NewBeautyFilterManager;->q:Lcom/commsource/beautyfilter/NewBeautyFilterManager$a;
 
@@ -5315,7 +4910,6 @@
 
     invoke-virtual {p2, v1}, Lcom/commsource/beautyfilter/NoStickLiveData;->setValue(Ljava/lang/Object;)V
 
-    .line 10
     :goto_2
     new-instance p2, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c$f;
 
@@ -5325,7 +4919,6 @@
 
     invoke-static {p2, v1, v2}, Lcom/commsource/util/g2;->l(Ljava/lang/Runnable;J)V
 
-    .line 11
     :cond_3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -5350,7 +4943,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->t:Landroidx/lifecycle/MutableLiveData;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -5376,7 +4968,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->q:Landroidx/lifecycle/MutableLiveData;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -5399,12 +4990,10 @@
 
     if-eqz p1, :cond_0
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->C:Lcom/commsource/beautyfilter/NewBeautyFilterManager;
 
     invoke-virtual {v1, p1}, Lcom/commsource/beautyfilter/NewBeautyFilterManager;->w0(Lcom/meitu/template/bean/Filter;)V
 
-    .line 2
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -5429,7 +5018,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->y:Lcom/commsource/camera/xcamera/cover/e;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -5455,7 +5043,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->s:Landroidx/lifecycle/MutableLiveData;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -5481,7 +5068,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->D:Landroidx/lifecycle/MutableLiveData;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -5507,7 +5093,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->g:Landroidx/lifecycle/MutableLiveData;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -5533,7 +5118,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->E:Landroidx/lifecycle/MutableLiveData;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -5559,7 +5143,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->l:Landroidx/lifecycle/MutableLiveData;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -5580,7 +5163,6 @@
 
     if-eqz p1, :cond_1
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->e:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/f;
 
     invoke-virtual {p1}, Lcom/meitu/template/bean/Filter;->getFilterId()I
@@ -5593,7 +5175,6 @@
 
     if-eqz v1, :cond_0
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->e:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/f;
 
     invoke-virtual {p1}, Lcom/meitu/template/bean/Filter;->getFilterId()I
@@ -5606,7 +5187,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_0
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->e:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/f;
 
@@ -5618,7 +5198,6 @@
 
     move-result v1
 
-    .line 4
     :goto_0
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -5632,7 +5211,6 @@
     :goto_1
     if-eqz v1, :cond_2
 
-    .line 5
     invoke-virtual {v1}, Ljava/lang/Integer;->intValue()I
 
     move-result v1
@@ -5645,7 +5223,6 @@
     :goto_2
     invoke-virtual {p0, v1, p1, p2}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->z(ILcom/meitu/template/bean/Filter;Z)Z
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -5670,7 +5247,6 @@
 
     invoke-static {v1, v3}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-virtual/range {p1 .. p1}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/FilterIndex;->getFilter()Lcom/meitu/template/bean/Filter;
 
     move-result-object v3
@@ -5694,7 +5270,6 @@
 
     goto :goto_0
 
-    .line 2
     :cond_1
     invoke-virtual/range {p1 .. p1}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/FilterIndex;->getFilterId()I
 
@@ -5711,25 +5286,21 @@
     :cond_2
     const/4 v3, -0x1
 
-    .line 3
     :goto_0
     invoke-virtual/range {p1 .. p1}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/FilterIndex;->isInCollections()Z
 
     move-result v5
 
-    .line 4
     invoke-virtual/range {p1 .. p1}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/FilterIndex;->isInRecommends()Z
 
     move-result v6
 
     if-eqz p2, :cond_a
 
-    .line 5
     new-instance v8, Ljava/util/ArrayList;
 
     invoke-direct {v8}, Ljava/util/ArrayList;-><init>()V
 
-    .line 6
     iget-object v9, v0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->C:Lcom/commsource/beautyfilter/NewBeautyFilterManager;
 
     invoke-virtual {v9}, Lcom/commsource/beautyfilter/NewBeautyFilterManager;->V()Ljava/util/List;
@@ -5738,17 +5309,14 @@
 
     invoke-virtual {v8, v9}, Ljava/util/ArrayList;->addAll(Ljava/util/Collection;)Z
 
-    .line 7
     new-instance v9, Ljava/util/ArrayList;
 
     invoke-direct {v9}, Ljava/util/ArrayList;-><init>()V
 
-    .line 8
     new-instance v10, Landroid/util/SparseArray;
 
     invoke-direct {v10}, Landroid/util/SparseArray;-><init>()V
 
-    .line 9
     invoke-virtual {v8}, Ljava/util/ArrayList;->iterator()Ljava/util/Iterator;
 
     move-result-object v11
@@ -5757,14 +5325,12 @@
 
     invoke-static {v11, v12}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 10
     new-instance v12, Ljava/util/ArrayList;
 
     invoke-direct {v12}, Ljava/util/ArrayList;-><init>()V
 
     const/4 v13, 0x0
 
-    .line 11
     :goto_1
     invoke-interface {v11}, Ljava/util/Iterator;->hasNext()Z
 
@@ -5772,7 +5338,6 @@
 
     if-eqz v14, :cond_8
 
-    .line 12
     invoke-interface {v11}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
     move-result-object v14
@@ -5783,7 +5348,6 @@
 
     check-cast v14, Lcom/commsource/beautyfilter/a;
 
-    .line 13
     invoke-virtual {v14}, Lcom/commsource/beautyfilter/a;->a()I
 
     move-result v15
@@ -5796,7 +5360,6 @@
 
     if-eq v15, v4, :cond_6
 
-    .line 14
     iget-object v15, v0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->C:Lcom/commsource/beautyfilter/NewBeautyFilterManager;
 
     invoke-virtual {v14}, Lcom/commsource/beautyfilter/a;->a()I
@@ -5813,7 +5376,6 @@
 
     if-eqz v2, :cond_4
 
-    .line 15
     invoke-interface {v2}, Ljava/util/Collection;->isEmpty()Z
 
     move-result v4
@@ -5829,7 +5391,6 @@
     :goto_2
     if-eqz v7, :cond_5
 
-    .line 16
     invoke-interface {v11}, Ljava/util/Iterator;->remove()V
 
     move/from16 v16, v5
@@ -5838,7 +5399,6 @@
 
     goto :goto_3
 
-    .line 17
     :cond_5
     invoke-interface {v2}, Ljava/util/List;->size()I
 
@@ -5846,7 +5406,6 @@
 
     add-int/2addr v4, v13
 
-    .line 18
     invoke-virtual {v14}, Lcom/commsource/beautyfilter/a;->a()I
 
     move-result v7
@@ -5869,14 +5428,12 @@
 
     invoke-virtual {v10, v7, v15}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
-    .line 19
     invoke-static {v4}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v5
 
     invoke-interface {v9, v5}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
-    .line 20
     invoke-virtual {v12, v2}, Ljava/util/ArrayList;->addAll(Ljava/util/Collection;)Z
 
     move v13, v4
@@ -5888,14 +5445,12 @@
 
     move/from16 v17, v6
 
-    .line 21
     iget-object v2, v0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->e:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/f;
 
     new-instance v4, Ljava/util/ArrayList;
 
     invoke-direct {v4}, Ljava/util/ArrayList;-><init>()V
 
-    .line 22
     iget-object v5, v0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->C:Lcom/commsource/beautyfilter/NewBeautyFilterManager;
 
     iget-boolean v6, v0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->a:Z
@@ -5908,10 +5463,8 @@
 
     invoke-virtual {v4, v5}, Ljava/util/ArrayList;->addAll(Ljava/util/Collection;)Z
 
-    .line 23
     invoke-virtual {v2, v4}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/f;->L(Ljava/util/List;)V
 
-    .line 24
     iget-object v2, v0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->e:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/f;
 
     invoke-virtual {v2, v14}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/f;->J(Lcom/commsource/beautyfilter/a;)V
@@ -5923,14 +5476,12 @@
 
     move/from16 v17, v6
 
-    .line 25
     iget-object v2, v0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->e:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/f;
 
     new-instance v4, Ljava/util/ArrayList;
 
     invoke-direct {v4}, Ljava/util/ArrayList;-><init>()V
 
-    .line 26
     iget-object v5, v0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->C:Lcom/commsource/beautyfilter/NewBeautyFilterManager;
 
     invoke-virtual {v5}, Lcom/commsource/beautyfilter/NewBeautyFilterManager;->b0()Ljava/util/List;
@@ -5939,10 +5490,8 @@
 
     invoke-virtual {v4, v5}, Ljava/util/ArrayList;->addAll(Ljava/util/Collection;)Z
 
-    .line 27
     invoke-virtual {v2, v4}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/f;->W(Ljava/util/List;)V
 
-    .line 28
     iget-object v2, v0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->e:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/f;
 
     invoke-virtual {v2, v14}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/f;->T(Lcom/commsource/beautyfilter/a;)V
@@ -5963,43 +5512,36 @@
 
     move/from16 v17, v6
 
-    .line 29
     iget-object v2, v0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->e:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/f;
 
     iget-object v4, v0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->B:Lcom/meitu/template/bean/Filter;
 
     invoke-virtual {v2, v4}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/f;->P(Lcom/meitu/template/bean/Filter;)V
 
-    .line 30
     iget-object v2, v0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->e:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/f;
 
     invoke-virtual {v2, v10}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/f;->I(Landroid/util/SparseArray;)V
 
-    .line 31
     iget-object v2, v0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->e:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/f;
 
     invoke-virtual {v2, v9}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/f;->N(Ljava/util/List;)V
 
-    .line 32
     iget-object v2, v0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->e:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/f;
 
     invoke-virtual {v2, v12}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/f;->M(Ljava/util/List;)V
 
-    .line 33
     invoke-static {}, Lcom/commsource/util/g2;->b()Z
 
     move-result v2
 
     if-eqz v2, :cond_9
 
-    .line 34
     iget-object v2, v0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->i:Landroidx/lifecycle/MutableLiveData;
 
     invoke-virtual {v2, v8}, Landroidx/lifecycle/MutableLiveData;->setValue(Ljava/lang/Object;)V
 
     goto :goto_4
 
-    .line 35
     :cond_9
     iget-object v2, v0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->i:Landroidx/lifecycle/MutableLiveData;
 
@@ -6012,7 +5554,6 @@
 
     move/from16 v17, v6
 
-    .line 36
     :goto_4
     iget-object v2, v0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->e:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/f;
 
@@ -6022,7 +5563,6 @@
 
     move/from16 v2, p3
 
-    .line 37
     invoke-direct {v0, v2}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->q1(Z)V
 
     const/4 v2, -0x1
@@ -6031,18 +5571,15 @@
 
     const/16 v2, 0x4466
 
-    .line 38
     invoke-static {v2}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 39
     :cond_b
     iget-object v2, v0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->d:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/FilterIndex;
 
     invoke-virtual {v2, v3}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/FilterIndex;->setFilterId(I)V
 
-    .line 40
     iget-object v2, v0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->d:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/FilterIndex;
 
     iget-object v4, v0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->e:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/f;
@@ -6053,7 +5590,6 @@
 
     invoke-virtual {v2, v4}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/FilterIndex;->setFilter(Lcom/meitu/template/bean/Filter;)V
 
-    .line 41
     iget-object v2, v0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->d:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/FilterIndex;
 
     invoke-static {v1, v2}, Lcotlin/jvm/internal/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
@@ -6076,17 +5612,14 @@
 
     if-nez v2, :cond_c
 
-    .line 42
     invoke-virtual/range {p0 .. p0}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->b0()Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/FilterIndex;
 
     move-result-object v2
 
-    .line 43
     invoke-virtual {v2}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/FilterIndex;->getFilterId()I
 
     move-result v3
 
-    .line 44
     iget-object v4, v0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->d:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/FilterIndex;
 
     iget-object v5, v0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->e:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/f;
@@ -6097,12 +5630,10 @@
 
     invoke-virtual {v4, v5}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/FilterIndex;->setFilter(Lcom/meitu/template/bean/Filter;)V
 
-    .line 45
     invoke-virtual {v2}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/FilterIndex;->isInCollections()Z
 
     move-result v5
 
-    .line 46
     invoke-virtual {v2}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/FilterIndex;->isInRecommends()Z
 
     move-result v6
@@ -6114,7 +5645,6 @@
 
     move/from16 v6, v17
 
-    .line 47
     :goto_5
     iget-object v2, v0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->d:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/FilterIndex;
 
@@ -6134,17 +5664,14 @@
 
     if-nez v1, :cond_d
 
-    .line 48
     invoke-virtual/range {p0 .. p0}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->b0()Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/FilterIndex;
 
     move-result-object v1
 
-    .line 49
     invoke-virtual {v1}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/FilterIndex;->getFilterId()I
 
     move-result v3
 
-    .line 50
     iget-object v2, v0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->d:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/FilterIndex;
 
     iget-object v4, v0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->e:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/f;
@@ -6155,12 +5682,10 @@
 
     invoke-virtual {v2, v4}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/FilterIndex;->setFilter(Lcom/meitu/template/bean/Filter;)V
 
-    .line 51
     invoke-virtual {v1}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/FilterIndex;->isInCollections()Z
 
     move-result v5
 
-    .line 52
     invoke-virtual {v1}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/FilterIndex;->isInRecommends()Z
 
     move-result v6
@@ -6168,7 +5693,6 @@
     :cond_d
     if-nez v3, :cond_e
 
-    .line 53
     iget-object v1, v0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->d:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/FilterIndex;
 
     const/4 v2, 0x0
@@ -6186,7 +5710,6 @@
 
     if-ne v3, v1, :cond_f
 
-    .line 54
     iget-object v1, v0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->d:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/FilterIndex;
 
     iget-object v2, v0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->e:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/f;
@@ -6202,14 +5725,12 @@
     :cond_f
     if-eqz v5, :cond_10
 
-    .line 55
     iget-object v1, v0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->e:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/f;
 
     invoke-virtual {v1, v3}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/f;->h(I)I
 
     move-result v1
 
-    .line 56
     iget-object v2, v0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->d:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/FilterIndex;
 
     invoke-virtual {v2, v1, v4, v4}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/FilterIndex;->setSelectPosition(III)V
@@ -6219,21 +5740,18 @@
     :cond_10
     if-eqz v6, :cond_11
 
-    .line 57
     iget-object v1, v0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->e:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/f;
 
     invoke-virtual {v1, v3}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/f;->v(I)I
 
     move-result v1
 
-    .line 58
     iget-object v2, v0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->d:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/FilterIndex;
 
     invoke-virtual {v2, v4, v1, v4}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/FilterIndex;->setSelectPosition(III)V
 
     goto :goto_6
 
-    .line 59
     :cond_11
     iget-object v1, v0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->d:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/FilterIndex;
 
@@ -6248,7 +5766,6 @@
     :goto_6
     if-eqz p5, :cond_12
 
-    .line 60
     iget-object v1, v0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->e:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/f;
 
     iget-object v2, v0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->d:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/FilterIndex;
@@ -6263,7 +5780,6 @@
 
     if-eqz v1, :cond_12
 
-    .line 61
     iget-object v2, v0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->d:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/FilterIndex;
 
     invoke-virtual {v1}, Lcom/commsource/beautyfilter/a;->a()I
@@ -6272,7 +5788,6 @@
 
     invoke-virtual {v2, v3}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/FilterIndex;->setCategoryIdWhenSelect(I)V
 
-    .line 62
     iget-object v2, v0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->d:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/FilterIndex;
 
     invoke-virtual {v2, v1}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/FilterIndex;->setCategoryInfo(Lcom/commsource/beautyfilter/a;)V
@@ -6280,12 +5795,10 @@
     :cond_12
     const/4 v1, 0x0
 
-    .line 63
     invoke-direct {v0, v1}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->o1(Z)V
 
     const/16 v1, 0x4466
 
-    .line 64
     invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -6308,7 +5821,6 @@
 
     if-eqz p2, :cond_1
 
-    .line 1
     invoke-virtual {p2}, Lcom/meitu/template/bean/Filter;->getFilterId()I
 
     move-result v3
@@ -6329,7 +5841,6 @@
     :goto_1
     if-eqz p2, :cond_2
 
-    .line 2
     invoke-virtual {p2}, Lcom/meitu/template/bean/Filter;->getFilterId()I
 
     move-result v4
@@ -6350,37 +5861,30 @@
 
     if-nez p2, :cond_3
 
-    .line 3
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->d:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/FilterIndex;
 
     invoke-virtual {p1, v5, v5, v5}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/FilterIndex;->setSelectPosition(III)V
 
-    .line 4
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->d:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/FilterIndex;
 
     invoke-virtual {p1, v5}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/FilterIndex;->setFilterId(I)V
 
-    .line 5
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->d:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/FilterIndex;
 
     const/4 p2, 0x0
 
     invoke-virtual {p1, p2}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/FilterIndex;->setFilter(Lcom/meitu/template/bean/Filter;)V
 
-    .line 6
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->d:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/FilterIndex;
 
     invoke-virtual {p1, p2}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/FilterIndex;->setCategoryInfo(Lcom/commsource/beautyfilter/a;)V
 
-    .line 7
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->d:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/FilterIndex;
 
     invoke-virtual {p1, v5}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/FilterIndex;->setCategoryIdWhenSelect(I)V
 
-    .line 8
     invoke-direct {p0, p3}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->o1(Z)V
 
-    .line 9
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v2
@@ -6390,7 +5894,6 @@
 
     if-nez v4, :cond_5
 
-    .line 10
     iget-object v3, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->C:Lcom/commsource/beautyfilter/NewBeautyFilterManager;
 
     invoke-virtual {p2}, Lcom/meitu/template/bean/Filter;->getGroupId()I
@@ -6409,7 +5912,6 @@
 
     if-eq v3, v1, :cond_5
 
-    .line 11
     :cond_4
     invoke-static {}, Lcom/commsource/beautyplus/k;->d()Lcom/commsource/beautyplus/k;
 
@@ -6425,12 +5927,10 @@
 
     invoke-static {p1}, Lcom/commsource/widget/dialog/s0/t;->f0(Landroid/content/Context;)V
 
-    .line 12
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v2
 
-    .line 13
     :cond_5
     iget v3, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->v:I
 
@@ -6440,7 +5940,6 @@
 
     if-nez v3, :cond_6
 
-    .line 14
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->l:Landroidx/lifecycle/MutableLiveData;
 
     sget p2, Lcom/res/provider/ResSTRING;->unable_to_apply_special_filter:I
@@ -6451,12 +5950,10 @@
 
     invoke-virtual {p1, p2}, Landroidx/lifecycle/MutableLiveData;->setValue(Ljava/lang/Object;)V
 
-    .line 15
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v2
 
-    .line 16
     :cond_6
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->H0()Z
 
@@ -6470,7 +5967,6 @@
 
     if-eqz v3, :cond_7
 
-    .line 17
     iget-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->l:Landroidx/lifecycle/MutableLiveData;
 
     sget p2, Lcom/res/provider/ResSTRING;->ar_no_support_filter:I
@@ -6481,21 +5977,17 @@
 
     invoke-virtual {p1, p2}, Landroidx/lifecycle/MutableLiveData;->setValue(Ljava/lang/Object;)V
 
-    .line 18
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v2
 
-    .line 19
     :cond_7
     invoke-virtual {p2}, Lcom/meitu/template/bean/Filter;->checkAlphaSafe()V
 
-    .line 20
     iget-object v2, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->d:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/FilterIndex;
 
     invoke-virtual {v2, p2}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/FilterIndex;->setFilter(Lcom/meitu/template/bean/Filter;)V
 
-    .line 21
     iget-object v2, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->d:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/FilterIndex;
 
     invoke-virtual {p2}, Lcom/meitu/template/bean/Filter;->getFilterId()I
@@ -6504,7 +5996,6 @@
 
     invoke-virtual {v2, v3}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/FilterIndex;->setFilterId(I)V
 
-    .line 22
     iget-object v2, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->d:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/FilterIndex;
 
     invoke-virtual {v2}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/FilterIndex;->getSelectPosition()I
@@ -6513,7 +6004,6 @@
 
     iput v2, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->F:I
 
-    .line 23
     iget-object v2, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->e:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/f;
 
     invoke-virtual {v2, p1}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/f;->A(I)Z
@@ -6528,7 +6018,6 @@
 
     goto :goto_3
 
-    .line 24
     :cond_8
     iget-object v2, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->e:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/f;
 
@@ -6544,13 +6033,11 @@
 
     goto :goto_3
 
-    .line 25
     :cond_9
     iget-object v2, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->d:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/FilterIndex;
 
     invoke-virtual {v2, v5, v5, p1}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/FilterIndex;->setSelectPosition(III)V
 
-    .line 26
     :goto_3
     iget-object v2, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->e:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/f;
 
@@ -6558,7 +6045,6 @@
 
     move-result-object p1
 
-    .line 27
     iget-object v2, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->d:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/FilterIndex;
 
     if-eqz p1, :cond_a
@@ -6570,12 +6056,10 @@
     :cond_a
     invoke-virtual {v2, v5}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/FilterIndex;->setCategoryIdWhenSelect(I)V
 
-    .line 28
     iget-object v2, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->d:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/FilterIndex;
 
     invoke-virtual {v2, p1}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/FilterIndex;->setCategoryInfo(Lcom/commsource/beautyfilter/a;)V
 
-    .line 29
     iget-boolean p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->a:Z
 
     if-eqz p1, :cond_b
@@ -6598,7 +6082,6 @@
 
     if-nez p1, :cond_b
 
-    .line 30
     new-instance p1, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c$a;
 
     const-string p2, ""
@@ -6607,11 +6090,9 @@
 
     invoke-static {p1}, Lcom/commsource/util/c2;->e(Lcom/commsource/util/u2/a;)V
 
-    .line 31
     :cond_b
     invoke-direct {p0, p3}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;->o1(Z)V
 
-    .line 32
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1

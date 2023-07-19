@@ -26,15 +26,12 @@
 .method public constructor <init>(Lcom/commsource/mypage/m0/d;II)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/mypage/m0/d$d;->c:Lcom/commsource/mypage/m0/d;
 
     invoke-direct {p0}, Landroidx/recyclerview/widget/RecyclerView$ItemDecoration;-><init>()V
 
-    .line 2
     iput p2, p0, Lcom/commsource/mypage/m0/d$d;->a:I
 
-    .line 3
     iput p3, p0, Lcom/commsource/mypage/m0/d$d;->b:I
 
     return-void
@@ -49,25 +46,21 @@
 
     invoke-static {p4}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p3, p2}, Landroidx/recyclerview/widget/RecyclerView;->getChildLayoutPosition(Landroid/view/View;)I
 
     move-result p2
 
     if-nez p2, :cond_0
 
-    .line 2
     iget p2, p0, Lcom/commsource/mypage/m0/d$d;->a:I
 
     iput p2, p1, Landroid/graphics/Rect;->left:I
 
-    .line 3
     :cond_0
     iget p2, p0, Lcom/commsource/mypage/m0/d$d;->b:I
 
     iput p2, p1, Landroid/graphics/Rect;->right:I
 
-    .line 4
     invoke-static {p4}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

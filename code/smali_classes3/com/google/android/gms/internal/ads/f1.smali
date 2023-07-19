@@ -23,7 +23,6 @@
 
     const-wide/32 v1, 0x493e0
 
-    .line 1
     invoke-static {v0, v1, v2}, Lcom/google/android/gms/internal/ads/y0;->c(Ljava/lang/String;J)Lcom/google/android/gms/internal/ads/y0;
 
     move-result-object v0

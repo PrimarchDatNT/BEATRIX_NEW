@@ -22,7 +22,6 @@
 .method constructor <init>(Lcom/mopub/mraid/MraidBridge;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/mopub/mraid/MraidBridge$4;->this$0:Lcom/mopub/mraid/MraidBridge;
 
     invoke-direct {p0}, Lcom/mopub/mraid/MraidWebViewClient;-><init>()V
@@ -43,17 +42,14 @@
         .end annotation
     .end param
 
-    .line 1
     instance-of p2, p1, Lcom/mopub/mobileads/BaseWebViewViewability;
 
     if-eqz p2, :cond_0
 
-    .line 2
     check-cast p1, Lcom/mopub/mobileads/BaseWebViewViewability;
 
     invoke-virtual {p1}, Lcom/mopub/mobileads/BaseWebViewViewability;->setPageLoaded()V
 
-    .line 3
     :cond_0
     iget-object p1, p0, Lcom/mopub/mraid/MraidBridge$4;->this$0:Lcom/mopub/mraid/MraidBridge;
 
@@ -77,7 +73,6 @@
         .end annotation
     .end param
 
-    .line 1
     sget-object v0, Lcom/mopub/common/logging/MoPubLog$SdkLogEvent;->CUSTOM:Lcom/mopub/common/logging/MoPubLog$SdkLogEvent;
 
     const/4 v1, 0x1
@@ -104,7 +99,6 @@
 
     invoke-static {v0, v1}, Lcom/mopub/common/logging/MoPubLog;->log(Lcom/mopub/common/logging/MoPubLog$MPLogEventType;[Ljava/lang/Object;)V
 
-    .line 2
     invoke-super {p0, p1, p2, p3, p4}, Landroid/webkit/WebViewClient;->onReceivedError(Landroid/webkit/WebView;ILjava/lang/String;Ljava/lang/String;)V
 
     return-void
@@ -124,7 +118,6 @@
         value = 0x1a
     .end annotation
 
-    .line 1
     iget-object p1, p0, Lcom/mopub/mraid/MraidBridge$4;->this$0:Lcom/mopub/mraid/MraidBridge;
 
     invoke-virtual {p1, p2}, Lcom/mopub/mraid/MraidBridge;->handleRenderProcessGone(Landroid/webkit/RenderProcessGoneDetail;)V
@@ -145,7 +138,6 @@
         .end annotation
     .end param
 
-    .line 1
     iget-object p1, p0, Lcom/mopub/mraid/MraidBridge$4;->this$0:Lcom/mopub/mraid/MraidBridge;
 
     invoke-virtual {p1, p2}, Lcom/mopub/mraid/MraidBridge;->handleShouldOverrideUrl(Ljava/lang/String;)Z

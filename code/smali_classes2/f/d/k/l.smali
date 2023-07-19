@@ -105,7 +105,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     const-class v1, Lf/d/k/l;
 
     invoke-virtual {v1}, Ljava/lang/Class;->getSimpleName()Ljava/lang/String;
@@ -122,10 +121,8 @@
 .method public constructor <init>()V
     .locals 2
 
-    .line 1
     invoke-direct {p0}, Landroidx/fragment/app/Fragment;-><init>()V
 
-    .line 2
     new-instance v0, Lcom/meitu/mtmvcore/backend/android/j;
 
     invoke-direct {v0}, Lcom/meitu/mtmvcore/backend/android/j;-><init>()V
@@ -134,18 +131,14 @@
 
     const/4 v0, 0x0
 
-    .line 3
     iput-object v0, p0, Lf/d/k/l;->f:Lcom/commsource/widget/s0;
 
     const/4 v1, 0x1
 
-    .line 4
     iput-boolean v1, p0, Lf/d/k/l;->N:Z
 
-    .line 5
     iput-boolean v1, p0, Lf/d/k/l;->T:Z
 
-    .line 6
     iput-object v0, p0, Lf/d/k/l;->X:Ljava/nio/ByteBuffer;
 
     return-void
@@ -158,7 +151,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lf/d/k/l;->c:Lf/d/k/m;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -173,7 +165,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lf/d/k/l$e;
 
     invoke-direct {v1, p0}, Lf/d/k/l$e;-><init>(Lf/d/k/l;)V
@@ -182,7 +173,6 @@
 
     invoke-virtual {p0, v1, v2}, Lf/d/k/l;->x0(Landroid/os/AsyncTask;Z)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -195,7 +185,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lf/d/k/l;->X:Ljava/nio/ByteBuffer;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -210,7 +199,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lf/d/k/l;->W:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -225,7 +213,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lf/d/k/l;->c:Lf/d/k/m;
 
     const/4 v2, 0x0
@@ -238,21 +225,18 @@
 
     if-eqz v1, :cond_0
 
-    .line 2
     iget-object v1, p0, Lf/d/k/l;->c:Lf/d/k/m;
 
     invoke-virtual {v1}, Lf/d/k/m;->s()Ljava/nio/ByteBuffer;
 
     move-result-object v1
 
-    .line 3
     sget-object v3, Lf/d/k/l;->Z:Ljava/lang/String;
 
     const-string v4, "saveVideoThumb"
 
     invoke-static {v3, v4}, Lcom/meitu/library/util/Debug/Debug;->e(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 4
     :try_start_0
     iget-object v4, p0, Lf/d/k/l;->b:Lcom/meitu/mtmvcore/application/MTMVCoreApplication;
 
@@ -262,25 +246,20 @@
 
     iget-object v5, p0, Lf/d/k/l;->b:Lcom/meitu/mtmvcore/application/MTMVCoreApplication;
 
-    .line 5
     invoke-virtual {v5}, Lcom/meitu/mtmvcore/application/MTMVCoreApplication;->getOutput_height()I
 
     move-result v5
 
     sget-object v6, Landroid/graphics/Bitmap$Config;->ARGB_8888:Landroid/graphics/Bitmap$Config;
 
-    .line 6
     invoke-static {v4, v5, v6}, Landroid/graphics/Bitmap;->createBitmap(IILandroid/graphics/Bitmap$Config;)Landroid/graphics/Bitmap;
 
     move-result-object v4
 
-    .line 7
     invoke-virtual {v1}, Ljava/nio/ByteBuffer;->rewind()Ljava/nio/Buffer;
 
-    .line 8
     invoke-virtual {v4, v1}, Landroid/graphics/Bitmap;->copyPixelsFromBuffer(Ljava/nio/Buffer;)V
 
-    .line 9
     invoke-static {}, Lcom/commsource/beautyplus/util/v;->b()Ljava/lang/String;
 
     move-result-object v1
@@ -296,7 +275,6 @@
     :try_start_1
     const-string v1, "saveVideoThumb success"
 
-    .line 10
     invoke-static {v3, v1}, Lcom/meitu/library/util/Debug/Debug;->z(Ljava/lang/String;Ljava/lang/String;)V
     :try_end_1
     .catch Ljava/lang/Exception; {:try_start_1 .. :try_end_1} :catch_0
@@ -315,17 +293,14 @@
     :catch_1
     move-exception v1
 
-    .line 11
     :goto_0
     invoke-static {v1}, Lcom/meitu/library/util/Debug/Debug;->a0(Ljava/lang/Throwable;)V
 
-    .line 12
     :goto_1
     iget-object v1, p0, Lf/d/k/l;->c:Lf/d/k/m;
 
     invoke-virtual {v1}, Lf/d/k/m;->O()V
 
-    .line 13
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -339,7 +314,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lf/d/k/l;->W:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -354,7 +328,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lf/d/k/l;->V:Ljava/lang/String;
 
     invoke-virtual {p0}, Lf/d/k/l;->W()J
@@ -379,20 +352,16 @@
 
     aput v4, v2, v5
 
-    .line 2
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
     move-result-object v4
 
-    .line 3
     invoke-static {v1, v3, v2, v4}, Lcom/commsource/puzzle/patchedworld/x/d/a;->c(Ljava/lang/String;I[ILandroid/content/Context;)Landroid/net/Uri;
 
     move-result-object v1
 
-    .line 4
     invoke-static {p1, v1}, Lcom/meitu/library/p/g/b;->e(Ljava/lang/String;Landroid/net/Uri;)V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -405,7 +374,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lf/d/k/l;->Q:Landroid/widget/ImageView;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -420,7 +388,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v1
@@ -437,7 +404,6 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     new-instance v1, Lf/d/k/l$d;
 
@@ -447,12 +413,10 @@
 
     invoke-static {v1}, Lcom/commsource/util/c2;->e(Lcom/commsource/util/u2/a;)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 4
     :cond_1
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -467,7 +431,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lf/d/k/l;->J:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -482,7 +445,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0, p1}, Lf/d/k/l;->D0(Ljava/lang/String;)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -497,7 +459,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lf/d/k/l;->Y:Ljava/util/ArrayList;
 
     if-eqz v1, :cond_3
@@ -510,7 +471,6 @@
 
     goto :goto_1
 
-    .line 2
     :cond_0
     iget-object v1, p0, Lf/d/k/l;->Y:Ljava/util/ArrayList;
 
@@ -532,7 +492,6 @@
 
     check-cast v2, Landroid/os/AsyncTask;
 
-    .line 3
     invoke-virtual {v2}, Landroid/os/AsyncTask;->isCancelled()Z
 
     move-result v3
@@ -541,12 +500,10 @@
 
     const/4 v3, 0x1
 
-    .line 4
     invoke-virtual {v2, v3}, Landroid/os/AsyncTask;->cancel(Z)Z
 
     goto :goto_0
 
-    .line 5
     :cond_2
     iget-object v1, p0, Lf/d/k/l;->Y:Ljava/util/ArrayList;
 
@@ -554,15 +511,12 @@
 
     const/4 v1, 0x0
 
-    .line 6
     iput-object v1, p0, Lf/d/k/l;->Y:Ljava/util/ArrayList;
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 8
     :cond_3
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -577,15 +531,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lf/d/k/l;->S:Lf/d/k/l$g;
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-interface {v1}, Lf/d/k/l$g;->f()V
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -599,14 +550,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lf/d/k/d;
 
     invoke-direct {v1, p0}, Lf/d/k/d;-><init>(Lf/d/k/l;)V
 
     invoke-static {v1}, Lcom/commsource/util/g2;->k(Ljava/lang/Runnable;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -619,15 +568,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lf/d/k/l;->S:Lf/d/k/l$g;
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-interface {v1}, Lf/d/k/l$g;->q()V
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -641,10 +587,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lf/d/k/l;->J0()V
 
-    .line 2
     invoke-static {}, Lcom/commsource/util/x;->C()Z
 
     move-result v1
@@ -653,10 +597,8 @@
 
     if-eqz v1, :cond_0
 
-    .line 3
     invoke-static {v2}, Lcom/meitu/media/mtmvcore/MTMVConfig;->setLogLevel(I)V
 
-    .line 4
     :cond_0
     invoke-virtual {p1}, Landroid/view/View;->getContext()Landroid/content/Context;
 
@@ -670,20 +612,16 @@
 
     const/4 v1, 0x1
 
-    .line 5
     invoke-static {v1}, Lcom/meitu/media/mtmvcore/MTMVConfig;->setEnableCleanCodecPools(Z)V
 
-    .line 6
     invoke-static {}, Lcom/meitu/mtmvcore/application/MTMVCoreApplication;->getInstance()Lcom/meitu/mtmvcore/application/MTMVCoreApplication;
 
     move-result-object v1
 
     iput-object v1, p0, Lf/d/k/l;->b:Lcom/meitu/mtmvcore/application/MTMVCoreApplication;
 
-    .line 7
     invoke-virtual {v1}, Lcom/meitu/mtmvcore/application/MTMVCoreApplication;->attemptInitAllResource()V
 
-    .line 8
     invoke-virtual {p1}, Landroid/view/View;->getContext()Landroid/content/Context;
 
     move-result-object v1
@@ -694,7 +632,6 @@
 
     invoke-static {v1}, Lcom/meitu/media/mtmvcore/MTMVConfig;->setAssetManager(Landroid/content/res/AssetManager;)V
 
-    .line 9
     iget v1, p0, Lf/d/k/l;->K:I
 
     iget v3, p0, Lf/d/k/l;->L:I
@@ -703,39 +640,32 @@
 
     const-wide/32 v3, 0x3d0900
 
-    .line 10
     invoke-static {v3, v4}, Lcom/meitu/media/mtmvcore/MTMVConfig;->setVideoOutputBitrate(J)V
 
-    .line 11
     iget-object v1, p0, Lf/d/k/l;->b:Lcom/meitu/mtmvcore/application/MTMVCoreApplication;
 
     const/16 v3, 0xec
 
     invoke-virtual {v1, v3, v3, v3}, Lcom/meitu/mtmvcore/application/MTMVCoreApplication;->setBackgroundColor(III)V
 
-    .line 12
     new-instance v1, Lcom/meitu/mtmvcore/backend/android/AndroidApplicationConfiguration;
 
     invoke-direct {v1}, Lcom/meitu/mtmvcore/backend/android/AndroidApplicationConfiguration;-><init>()V
 
-    .line 13
     sget-object v3, Lcom/meitu/mtmvcore/backend/android/AndroidApplicationConfiguration$GLViewType;->TextureView:Lcom/meitu/mtmvcore/backend/android/AndroidApplicationConfiguration$GLViewType;
 
     iput-object v3, v1, Lcom/meitu/mtmvcore/backend/android/AndroidApplicationConfiguration;->l:Lcom/meitu/mtmvcore/backend/android/AndroidApplicationConfiguration$GLViewType;
 
-    .line 14
     iget-object v3, p0, Lf/d/k/l;->a:Lcom/meitu/mtmvcore/backend/android/j;
 
     iget-object v4, p0, Lf/d/k/l;->b:Lcom/meitu/mtmvcore/application/MTMVCoreApplication;
 
-    .line 15
     invoke-virtual {v3, v4, v1, v4}, Lcom/meitu/mtmvcore/backend/android/j;->F(Lf/k/g/b/c;Lcom/meitu/mtmvcore/backend/android/AndroidApplicationConfiguration;Lcom/meitu/mtmvcore/backend/android/r/d;)Landroid/view/View;
 
     move-result-object v1
 
     sget v3, Lcom/res/provider/ResID;->content:I
 
-    .line 16
     :try_start_0
     invoke-virtual {p1, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -752,10 +682,8 @@
     :catch_0
     move-exception p1
 
-    .line 17
     invoke-virtual {p1}, Ljava/lang/Exception;->printStackTrace()V
 
-    .line 18
     :goto_0
     new-instance p1, Lf/d/k/m;
 
@@ -769,12 +697,10 @@
 
     iput-object p1, p0, Lf/d/k/l;->c:Lf/d/k/m;
 
-    .line 19
     iget-boolean v1, p0, Lf/d/k/l;->N:Z
 
     invoke-virtual {p1, v1}, Lf/d/k/m;->W(Z)V
 
-    .line 20
     iget-object p1, p0, Lf/d/k/l;->c:Lf/d/k/m;
 
     iget-boolean v1, p0, Lf/d/k/l;->T:Z
@@ -791,12 +717,10 @@
     :goto_1
     invoke-virtual {p1, v1}, Lf/d/k/m;->Y(F)V
 
-    .line 21
     iget-object p1, p0, Lf/d/k/l;->c:Lf/d/k/m;
 
     invoke-virtual {p1, p0}, Lf/d/k/m;->X(Lf/d/k/m$f;)V
 
-    .line 22
     iget-object p1, p0, Lf/d/k/l;->b:Lcom/meitu/mtmvcore/application/MTMVCoreApplication;
 
     new-instance v1, Lf/d/k/l$a;
@@ -805,7 +729,6 @@
 
     invoke-virtual {p1, v1}, Lcom/meitu/mtmvcore/application/MTMVCoreApplication;->setListener(Lcom/meitu/mtmvcore/application/MTMVCoreApplication$t;)V
 
-    .line 23
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -818,45 +741,38 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lf/d/k/l;->Z:Ljava/lang/String;
 
     const-string v2, "initMTMVTimeLine"
 
     invoke-static {v1, v2}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 2
     new-instance v1, Lcom/meitu/media/mtmvcore/MTMVTimeLine;
 
     invoke-direct {v1}, Lcom/meitu/media/mtmvcore/MTMVTimeLine;-><init>()V
 
     iput-object v1, p0, Lf/d/k/l;->d:Lcom/meitu/media/mtmvcore/MTMVTimeLine;
 
-    .line 3
     iget-object v1, p0, Lf/d/k/l;->P:Landroid/app/Activity;
 
     if-eqz v1, :cond_0
 
-    .line 4
     invoke-virtual {v1}, Landroid/app/Activity;->getApplicationContext()Landroid/content/Context;
 
     move-result-object v1
 
     goto :goto_0
 
-    .line 5
     :cond_0
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
     move-result-object v1
 
-    .line 6
     :goto_0
     invoke-static {v1}, Lcom/meitu/media/tools/editor/o;->b(Landroid/content/Context;)Lcom/meitu/media/tools/editor/f;
 
     move-result-object v1
 
-    .line 7
     iget-object v2, p0, Lf/d/k/l;->J:Ljava/lang/String;
 
     invoke-virtual {v1, v2}, Lcom/meitu/media/tools/editor/f;->open(Ljava/lang/String;)Z
@@ -865,13 +781,10 @@
 
     if-eqz v2, :cond_1
 
-    .line 8
     invoke-virtual {v1}, Lcom/meitu/media/tools/editor/f;->getShowWidth()I
 
-    .line 9
     invoke-virtual {v1}, Lcom/meitu/media/tools/editor/f;->getShowHeight()I
 
-    .line 10
     invoke-virtual {v1}, Lcom/meitu/media/tools/editor/f;->getVideoDuration()D
 
     move-result-wide v2
@@ -884,10 +797,8 @@
 
     iput-wide v2, p0, Lf/d/k/l;->M:J
 
-    .line 11
     invoke-virtual {v1}, Lcom/meitu/media/tools/editor/f;->close()V
 
-    .line 12
     iget-wide v1, p0, Lf/d/k/l;->M:J
 
     invoke-static {v1, v2}, Lcom/meitu/media/mtmvcore/MTMVGroup;->b(J)Lcom/meitu/media/mtmvcore/MTMVGroup;
@@ -896,7 +807,6 @@
 
     iput-object v1, p0, Lf/d/k/l;->g:Lcom/meitu/media/mtmvcore/MTMVGroup;
 
-    .line 13
     iget-object v2, p0, Lf/d/k/l;->J:Ljava/lang/String;
 
     const-wide/16 v3, 0x0
@@ -913,10 +823,8 @@
 
     const/high16 v2, 0x3f800000    # 1.0f
 
-    .line 14
     invoke-virtual {v1, v2}, Lcom/meitu/media/mtmvcore/MTITrack;->setVolume(F)V
 
-    .line 15
     iget-object v1, p0, Lf/d/k/l;->p:Lcom/meitu/media/mtmvcore/MTITrack;
 
     invoke-virtual {p1}, Lcom/meitu/mtmvcore/application/MTMVCoreApplication;->getOutput_width()I
@@ -933,7 +841,6 @@
 
     invoke-virtual {v1, v2, v3}, Lcom/meitu/media/mtmvcore/MTITrack;->setWidthAndHeight(FF)V
 
-    .line 16
     iget-object v1, p0, Lf/d/k/l;->p:Lcom/meitu/media/mtmvcore/MTITrack;
 
     invoke-virtual {p1}, Lcom/meitu/mtmvcore/application/MTMVCoreApplication;->getOutput_width()I
@@ -956,7 +863,6 @@
 
     invoke-virtual {v1, v2, p1}, Lcom/meitu/media/mtmvcore/MTITrack;->setCenter(FF)V
 
-    .line 17
     :try_start_0
     iget-object p1, p0, Lf/d/k/l;->g:Lcom/meitu/media/mtmvcore/MTMVGroup;
 
@@ -964,7 +870,6 @@
 
     invoke-virtual {p1, v1}, Lcom/meitu/media/mtmvcore/MTMVGroup;->c(Lcom/meitu/media/mtmvcore/MTITrack;)Z
 
-    .line 18
     iget-object p1, p0, Lf/d/k/l;->d:Lcom/meitu/media/mtmvcore/MTMVTimeLine;
 
     iget-object v1, p0, Lf/d/k/l;->g:Lcom/meitu/media/mtmvcore/MTMVGroup;
@@ -978,16 +883,13 @@
     :catch_0
     move-exception p1
 
-    .line 19
     invoke-static {p1}, Lcom/meitu/library/util/Debug/Debug;->a0(Ljava/lang/Throwable;)V
 
-    .line 20
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 21
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1001,19 +903,15 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lf/d/k/l;->R:Lf/d/k/m$f;
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-interface {v1}, Lf/d/k/m$f;->v()V
 
-    .line 3
     :cond_0
     invoke-direct {p0}, Lf/d/k/l;->J()V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1026,15 +924,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lf/d/k/l;->R:Lf/d/k/m$f;
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-interface {v1, p1, p2, p3, p4}, Lf/d/k/m$f;->c0(JJ)V
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1048,17 +943,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Landroidx/fragment/app/Fragment;->isVisible()Z
 
     move-result v1
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-virtual {p0}, Lf/d/k/l;->L0()V
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1072,27 +964,22 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lf/d/k/l;->b0()Z
 
     move-result v1
 
     if-nez v1, :cond_0
 
-    .line 2
     iget-object v1, p0, Lf/d/k/l;->Q:Landroid/widget/ImageView;
 
     const/16 v2, 0x8
 
     invoke-virtual {v1, v2}, Landroid/widget/ImageView;->setVisibility(I)V
 
-    .line 3
     invoke-direct {p0}, Lf/d/k/l;->A0()V
 
-    .line 4
     invoke-virtual {p0}, Lf/d/k/l;->I()V
 
-    .line 5
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1106,28 +993,24 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lf/d/k/l;->b0()Z
 
     move-result v1
 
     if-eqz v1, :cond_1
 
-    .line 2
     invoke-static {}, Lcom/commsource/beautyplus/util/v;->U()Z
 
     move-result v1
 
     if-eqz v1, :cond_0
 
-    .line 3
     invoke-static {}, Lcom/commsource/beautyplus/util/v;->n()Ljava/lang/String;
 
     move-result-object v1
 
     iput-object v1, p0, Lf/d/k/l;->W:Ljava/lang/String;
 
-    .line 4
     iget-object v2, p0, Lf/d/k/l;->c:Lf/d/k/m;
 
     iget-object v3, p0, Lf/d/k/l;->d:Lcom/meitu/media/mtmvcore/MTMVTimeLine;
@@ -1136,7 +1019,6 @@
 
     goto :goto_0
 
-    .line 5
     :cond_0
     iget-object v1, p0, Lf/d/k/l;->c:Lf/d/k/m;
 
@@ -1146,7 +1028,6 @@
 
     invoke-virtual {v1, v2, v3}, Lf/d/k/m;->K(Lcom/meitu/media/mtmvcore/MTMVTimeLine;Ljava/lang/String;)V
 
-    .line 6
     :cond_1
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1161,15 +1042,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lf/d/k/l;->R:Lf/d/k/m$f;
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-interface {v1}, Lf/d/k/m$f;->t()V
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1183,7 +1061,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lf/d/k/l;->b:Lcom/meitu/mtmvcore/application/MTMVCoreApplication;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1198,15 +1075,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lf/d/k/l;->R:Lf/d/k/m$f;
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-interface {v1, p1}, Lf/d/k/m$f;->n(I)V
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1220,7 +1094,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0, p1}, Lf/d/k/l;->Z(Lcom/meitu/mtmvcore/application/MTMVCoreApplication;)V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1235,15 +1108,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lf/d/k/l;->R:Lf/d/k/m$f;
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-interface {v1}, Lf/d/k/m$f;->y()V
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1257,7 +1127,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lf/d/k/l;->C0()Landroid/graphics/Bitmap;
 
     move-result-object p0
@@ -1274,45 +1143,36 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lf/d/k/l;
 
     invoke-direct {v1}, Lf/d/k/l;-><init>()V
 
-    .line 2
     new-instance v2, Landroid/os/Bundle;
 
     invoke-direct {v2}, Landroid/os/Bundle;-><init>()V
 
     const-string v3, "init_file_path"
 
-    .line 3
     invoke-virtual {v2, v3, p0}, Landroid/os/Bundle;->putString(Ljava/lang/String;Ljava/lang/String;)V
 
     const-string p0, "init_width"
 
-    .line 4
     invoke-virtual {v2, p0, p1}, Landroid/os/Bundle;->putInt(Ljava/lang/String;I)V
 
     const-string p0, "init_height"
 
-    .line 5
     invoke-virtual {v2, p0, p2}, Landroid/os/Bundle;->putInt(Ljava/lang/String;I)V
 
     const-string p0, "init_loop"
 
-    .line 6
     invoke-virtual {v2, p0, p3}, Landroid/os/Bundle;->putBoolean(Ljava/lang/String;Z)V
 
     const-string p0, "init_filter_config_name"
 
-    .line 7
     invoke-virtual {v2, p0, p4}, Landroid/os/Bundle;->putString(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 8
     invoke-virtual {v1, v2}, Landroidx/fragment/app/Fragment;->setArguments(Landroid/os/Bundle;)V
 
-    .line 9
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object v1
@@ -1325,19 +1185,16 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lf/d/k/l;->P:Landroid/app/Activity;
 
     if-nez v1, :cond_0
 
     if-eqz p1, :cond_0
 
-    .line 2
     check-cast p1, Landroid/app/Activity;
 
     iput-object p1, p0, Lf/d/k/l;->P:Landroid/app/Activity;
 
-    .line 3
     :cond_0
     :try_start_0
     iget-object p1, p0, Lf/d/k/l;->P:Landroid/app/Activity;
@@ -1348,14 +1205,12 @@
 
     iput-object v1, p0, Lf/d/k/l;->R:Lf/d/k/m$f;
 
-    .line 4
     check-cast p1, Lf/d/k/l$g;
 
     iput-object p1, p0, Lf/d/k/l;->S:Lf/d/k/l$g;
     :try_end_0
     .catch Ljava/lang/ClassCastException; {:try_start_0 .. :try_end_0} :catch_0
 
-    .line 5
     :catch_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1369,7 +1224,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lf/d/k/l;->K()V
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1384,7 +1238,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lf/d/k/l;->S:Lf/d/k/l$g;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1399,15 +1252,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lf/d/k/l;->c:Lf/d/k/m;
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-virtual {v1}, Lf/d/k/m;->L()V
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1421,7 +1271,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lf/d/k/l;->d:Lcom/meitu/media/mtmvcore/MTMVTimeLine;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1438,15 +1287,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lf/d/k/l;->d:Lcom/meitu/media/mtmvcore/MTMVTimeLine;
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-virtual {v1, p1}, Lcom/meitu/media/mtmvcore/MTMVTimeLine;->setBeautyArea(Z)V
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1460,17 +1306,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lf/d/k/l;->d:Lcom/meitu/media/mtmvcore/MTMVTimeLine;
 
     if-eqz v1, :cond_0
 
     const/4 v2, 0x1
 
-    .line 2
     invoke-virtual {v1, p1, v2}, Lcom/meitu/media/mtmvcore/MTMVTimeLine;->setDarkCornerFile(Ljava/lang/String;Z)V
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1484,15 +1327,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lf/d/k/l;->d:Lcom/meitu/media/mtmvcore/MTMVTimeLine;
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-virtual {v1, p1, p2}, Lcom/meitu/media/mtmvcore/MTMVTimeLine;->setEnableBeauty(ZI)V
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1506,20 +1346,16 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lf/d/k/l;->f:Lcom/commsource/widget/s0;
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-virtual {v1}, Landroid/app/Dialog;->dismiss()V
 
     const/4 v1, 0x0
 
-    .line 3
     iput-object v1, p0, Lf/d/k/l;->f:Lcom/commsource/widget/s0;
 
-    .line 4
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1533,19 +1369,16 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Landroidx/fragment/app/Fragment;->getView()Landroid/view/View;
 
     move-result-object v0
 
     if-nez v0, :cond_0
 
-    .line 2
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 3
     :cond_0
     invoke-virtual {p0}, Landroidx/fragment/app/Fragment;->getView()Landroid/view/View;
 
@@ -1573,10 +1406,8 @@
 
     neg-int p5, p5
 
-    .line 4
     invoke-virtual {v0, p2, p3, p4, p5}, Landroid/view/ViewGroup$MarginLayoutParams;->setMargins(IIII)V
 
-    .line 5
     invoke-virtual {p0}, Landroidx/fragment/app/Fragment;->getView()Landroid/view/View;
 
     move-result-object p2
@@ -1587,7 +1418,6 @@
 
     invoke-virtual {p2, v0}, Landroid/view/View;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
 
-    .line 6
     :cond_1
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1601,7 +1431,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lf/d/k/l;->P:Landroid/app/Activity;
 
     if-eqz v1, :cond_0
@@ -1612,7 +1441,6 @@
 
     if-nez v1, :cond_0
 
-    .line 2
     new-instance v1, Lcom/commsource/widget/s0$a;
 
     iget-object v2, p0, Lf/d/k/l;->P:Landroid/app/Activity;
@@ -1625,10 +1453,8 @@
 
     iput-object v1, p0, Lf/d/k/l;->f:Lcom/commsource/widget/s0;
 
-    .line 3
     invoke-virtual {v1}, Landroid/app/Dialog;->show()V
 
-    .line 4
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1642,15 +1468,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lf/d/k/l;->d:Lcom/meitu/media/mtmvcore/MTMVTimeLine;
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-virtual {v1, p1}, Lcom/meitu/media/mtmvcore/MTMVTimeLine;->setEnableSoftFocus(Z)V
 
-    .line 3
     iget-object p1, p0, Lf/d/k/l;->d:Lcom/meitu/media/mtmvcore/MTMVTimeLine;
 
     const/4 v1, 0x0
@@ -1659,7 +1482,6 @@
 
     invoke-virtual {p1, v2, v1}, Lcom/meitu/media/mtmvcore/MTMVTimeLine;->setSoftFocusMaskFile(Ljava/lang/String;Z)V
 
-    .line 4
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1673,17 +1495,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {}, Lcom/commsource/beautyplus/util/v;->b()Ljava/lang/String;
 
     move-result-object v1
 
-    .line 2
     new-instance v2, Ljava/io/File;
 
     invoke-direct {v2, v1}, Ljava/io/File;-><init>(Ljava/lang/String;)V
 
-    .line 3
     invoke-virtual {v2}, Ljava/io/File;->exists()Z
 
     move-result v2
@@ -1692,7 +1511,6 @@
 
     if-eqz v2, :cond_0
 
-    .line 4
     invoke-static {p0}, Lcom/commsource/util/u0;->j(Landroidx/fragment/app/Fragment;)Lcom/commsource/util/u0$d;
 
     move-result-object v2
@@ -1705,18 +1523,15 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/util/u0$d;->e(Landroid/widget/ImageView;)V
 
-    .line 5
     iget-object v1, p0, Lf/d/k/l;->Q:Landroid/widget/ImageView;
 
     invoke-virtual {v1, v3}, Landroid/widget/ImageView;->setVisibility(I)V
 
-    .line 6
     :cond_0
     iget-object v1, p0, Lf/d/k/l;->Q:Landroid/widget/ImageView;
 
     invoke-virtual {v1, v3}, Landroid/widget/ImageView;->setVisibility(I)V
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1729,15 +1544,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lf/d/k/l;->d:Lcom/meitu/media/mtmvcore/MTMVTimeLine;
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-virtual {v1, p1, p2}, Lcom/meitu/media/mtmvcore/MTMVTimeLine;->setEnableDarkCorner(ZF)V
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1751,14 +1563,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lf/d/k/f;
 
     invoke-direct {v1, p0}, Lf/d/k/f;-><init>(Lf/d/k/l;)V
 
     invoke-static {v1}, Lcom/commsource/util/g2;->k(Ljava/lang/Runnable;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1771,12 +1581,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lf/d/k/l;->c:Lf/d/k/m;
 
     if-eqz v1, :cond_1
 
-    .line 2
     iput-boolean p1, p0, Lf/d/k/l;->T:Z
 
     if-eqz p1, :cond_0
@@ -1788,11 +1596,9 @@
     :cond_0
     const/4 p1, 0x0
 
-    .line 3
     :goto_0
     invoke-virtual {v1, p1}, Lf/d/k/m;->Y(F)V
 
-    .line 4
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1806,61 +1612,50 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lf/d/k/l;->b0()Z
 
     move-result v1
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 3
     :cond_0
     iput-object p1, p0, Lf/d/k/l;->V:Ljava/lang/String;
 
     const-string v1, "\u70b9\u51fb\u4fdd\u5b58\u89c6\u9891"
 
-    .line 4
     invoke-static {v1}, Lcom/commsource/beautyplus/p;->a(Ljava/lang/String;)V
 
     const/16 v1, 0x32
 
-    .line 5
     invoke-static {v1}, Lcom/commsource/util/w1;->j(I)Z
 
     move-result v1
 
     if-eqz v1, :cond_3
 
-    .line 6
     invoke-direct {p0}, Lf/d/k/l;->K0()V
 
-    .line 7
     iget-object v1, p0, Lf/d/k/l;->c:Lf/d/k/m;
 
     invoke-virtual {v1}, Lf/d/k/m;->G()V
 
-    .line 8
     iget-boolean v1, p0, Lf/d/k/l;->T:Z
 
     if-eqz v1, :cond_1
 
-    .line 9
     invoke-direct {p0, p1}, Lf/d/k/l;->E0(Ljava/lang/String;)V
 
     goto :goto_0
 
-    .line 10
     :cond_1
     iget-object v1, p0, Lf/d/k/l;->X:Ljava/nio/ByteBuffer;
 
     if-nez v1, :cond_2
 
-    .line 11
     invoke-static {}, Lcom/meitu/media/mtmvcore/MTMVConfig;->getMVSizeWidth()I
 
     move-result v1
@@ -1879,14 +1674,12 @@
 
     sget-object v2, Ljava/nio/ByteOrder;->LITTLE_ENDIAN:Ljava/nio/ByteOrder;
 
-    .line 12
     invoke-virtual {v1, v2}, Ljava/nio/ByteBuffer;->order(Ljava/nio/ByteOrder;)Ljava/nio/ByteBuffer;
 
     move-result-object v1
 
     iput-object v1, p0, Lf/d/k/l;->X:Ljava/nio/ByteBuffer;
 
-    .line 13
     :cond_2
     iget-object v1, p0, Lf/d/k/l;->a:Lcom/meitu/mtmvcore/backend/android/j;
 
@@ -1901,10 +1694,8 @@
     :cond_3
     sget p1, Lcom/res/provider/ResSTRING;->sd_no_enough:I
 
-    .line 14
     invoke-static {p1}, Lf/k/c/c/f;->w(I)V
 
-    .line 15
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1918,12 +1709,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lf/d/k/l;->c:Lf/d/k/m;
 
     invoke-virtual {v1}, Lf/d/k/m;->G()V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1936,15 +1725,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lf/d/k/l;->R:Lf/d/k/m$f;
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-interface {v1}, Lf/d/k/m$f;->R()V
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1958,15 +1744,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lf/d/k/l;->R:Lf/d/k/m$f;
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-interface {v1, p1}, Lf/d/k/m$f;->S(Lcom/meitu/mtmvcore/application/MTMVPlayer;)V
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1980,12 +1763,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lf/d/k/l;->c:Lf/d/k/m;
 
     invoke-virtual {v1}, Lf/d/k/m;->Z()V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1998,12 +1779,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lf/d/k/l;->c:Lf/d/k/m;
 
     invoke-virtual {v1}, Lf/d/k/m;->b0()V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2016,7 +1795,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lf/d/k/l;->b:Lcom/meitu/mtmvcore/application/MTMVCoreApplication;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2031,7 +1809,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-wide v1, p0, Lf/d/k/l;->M:J
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2046,7 +1823,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lf/d/k/l;->T:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2061,7 +1837,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lf/d/k/l;->c:Lf/d/k/m;
 
     if-eqz v1, :cond_0
@@ -2074,7 +1849,6 @@
 
     iget-object v1, p0, Lf/d/k/l;->c:Lf/d/k/m;
 
-    .line 2
     invoke-virtual {v1}, Lf/d/k/m;->r()Lcom/meitu/mtmvcore/application/MTMVPlayer;
 
     move-result-object v1
@@ -2092,7 +1866,6 @@
     :cond_0
     const/4 v1, 0x0
 
-    .line 3
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -2106,7 +1879,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Landroidx/fragment/app/Fragment;->isResumed()Z
 
     move-result v1
@@ -2125,7 +1897,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lf/d/k/l;->c:Lf/d/k/m;
 
     if-eqz v1, :cond_0
@@ -2138,7 +1909,6 @@
 
     iget-object v1, p0, Lf/d/k/l;->c:Lf/d/k/m;
 
-    .line 2
     invoke-virtual {v1}, Lf/d/k/m;->r()Lcom/meitu/mtmvcore/application/MTMVPlayer;
 
     move-result-object v1
@@ -2156,7 +1926,6 @@
     :cond_0
     const/4 v1, 0x0
 
-    .line 3
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -2170,7 +1939,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v7, Lf/d/k/a;
 
     move-object v1, v7
@@ -2185,7 +1953,6 @@
 
     invoke-static {v7}, Lcom/commsource/util/g2;->k(Ljava/lang/Runnable;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2198,14 +1965,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lf/d/k/i;
 
     invoke-direct {v1, p0}, Lf/d/k/i;-><init>(Lf/d/k/l;)V
 
     invoke-static {v1}, Lcom/commsource/util/g2;->k(Ljava/lang/Runnable;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2234,7 +1999,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0}, Landroidx/fragment/app/Fragment;->getAllowEnterTransitionOverlap()Z
 
     move-result v1
@@ -2251,12 +2015,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lf/d/k/l;->c:Lf/d/k/m;
 
     if-eqz v1, :cond_1
 
-    .line 2
     iget-boolean v2, p0, Lf/d/k/l;->T:Z
 
     if-eqz v2, :cond_0
@@ -2271,7 +2033,6 @@
     :goto_0
     invoke-virtual {v1, v2}, Lf/d/k/m;->Y(F)V
 
-    .line 3
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -2297,10 +2058,8 @@
 
     const-string v2, "onVideoSaveError: "
 
-    .line 1
     invoke-static {v1, v2}, Lcom/meitu/library/util/Debug/Debug;->e(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2313,14 +2072,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lf/d/k/g;
 
     invoke-direct {v1, p0}, Lf/d/k/g;-><init>(Lf/d/k/l;)V
 
     invoke-static {v1}, Lcom/commsource/util/g2;->k(Ljava/lang/Runnable;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2341,14 +2098,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lf/d/k/j;
 
     invoke-direct {v1, p0, p1}, Lf/d/k/j;-><init>(Lf/d/k/l;I)V
 
     invoke-static {v1}, Lcom/commsource/util/g2;->k(Ljava/lang/Runnable;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2369,10 +2124,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lf/d/k/l;->U:Lcom/meitu/mtmvcore/backend/android/n;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2385,23 +2138,18 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 4
     invoke-super {p0, p1}, Landroidx/fragment/app/Fragment;->onAttach(Landroid/app/Activity;)V
 
-    .line 5
     invoke-direct {p0, p1}, Lf/d/k/l;->v0(Landroid/content/Context;)V
 
-    .line 6
     iget-object v1, p0, Lf/d/k/l;->a:Lcom/meitu/mtmvcore/backend/android/j;
 
     invoke-virtual {v1, p0, p1}, Lcom/meitu/mtmvcore/backend/android/j;->s(Landroidx/fragment/app/Fragment;Landroid/content/Context;)V
 
-    .line 7
     iget-object p1, p0, Lf/d/k/l;->a:Lcom/meitu/mtmvcore/backend/android/j;
 
     invoke-virtual {p1, p0}, Lcom/meitu/mtmvcore/backend/android/j;->u(Landroidx/fragment/app/Fragment;)V
 
-    .line 8
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2414,13 +2162,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0, p1}, Landroidx/fragment/app/Fragment;->onAttach(Landroid/content/Context;)V
 
-    .line 2
     invoke-direct {p0, p1}, Lf/d/k/l;->v0(Landroid/content/Context;)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2447,14 +2192,12 @@
 
     const/4 v1, 0x0
 
-    .line 1
     invoke-virtual {p1, v0, p2, v1}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
     move-result-object p1
 
     sget p2, Lcom/res/provider/ResID;->iv_video_thumb:I
 
-    .line 2
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object p2
@@ -2463,7 +2206,6 @@
 
     iput-object p2, p0, Lf/d/k/l;->Q:Landroid/widget/ImageView;
 
-    .line 3
     invoke-static {p3}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p1
@@ -2476,37 +2218,29 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0}, Landroidx/fragment/app/Fragment;->onDestroy()V
 
-    .line 2
     invoke-direct {p0}, Lf/d/k/l;->H()V
 
-    .line 3
     iget-object v1, p0, Lf/d/k/l;->a:Lcom/meitu/mtmvcore/backend/android/j;
 
     invoke-virtual {v1, p0}, Lcom/meitu/mtmvcore/backend/android/j;->K(Landroidx/fragment/app/Fragment;)V
 
-    .line 4
     iget-object v1, p0, Lf/d/k/l;->R:Lf/d/k/m$f;
 
     const/4 v2, 0x0
 
     if-eqz v1, :cond_0
 
-    .line 5
     iput-object v2, p0, Lf/d/k/l;->R:Lf/d/k/m$f;
 
-    .line 6
     :cond_0
     iget-object v1, p0, Lf/d/k/l;->S:Lf/d/k/l$g;
 
     if-eqz v1, :cond_1
 
-    .line 7
     iput-object v2, p0, Lf/d/k/l;->S:Lf/d/k/l$g;
 
-    .line 8
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -2520,20 +2254,16 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0}, Landroidx/fragment/app/Fragment;->onDetach()V
 
-    .line 2
     iget-object v1, p0, Lf/d/k/l;->a:Lcom/meitu/mtmvcore/backend/android/j;
 
     invoke-virtual {v1, p0}, Lcom/meitu/mtmvcore/backend/android/j;->q(Landroidx/fragment/app/Fragment;)V
 
-    .line 3
     iget-object v1, p0, Lf/d/k/l;->a:Lcom/meitu/mtmvcore/backend/android/j;
 
     invoke-virtual {v1}, Lcom/meitu/mtmvcore/backend/android/j;->E()V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2546,28 +2276,23 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lf/d/k/l;->b0()Z
 
     move-result v1
 
     if-nez v1, :cond_0
 
-    .line 2
     iget-object v1, p0, Lf/d/k/l;->c:Lf/d/k/m;
 
     invoke-virtual {v1}, Lf/d/k/m;->G()V
 
-    .line 3
     :cond_0
     iget-object v1, p0, Lf/d/k/l;->a:Lcom/meitu/mtmvcore/backend/android/j;
 
     invoke-virtual {v1, p0}, Lcom/meitu/mtmvcore/backend/android/j;->L(Landroidx/fragment/app/Fragment;)V
 
-    .line 4
     invoke-super {p0}, Landroidx/fragment/app/Fragment;->onPause()V
 
-    .line 5
     invoke-virtual {p0}, Landroidx/fragment/app/Fragment;->getActivity()Landroidx/fragment/app/FragmentActivity;
 
     move-result-object v1
@@ -2584,7 +2309,6 @@
 
     if-eqz v1, :cond_2
 
-    .line 6
     iget-object v1, p0, Lf/d/k/l;->b:Lcom/meitu/mtmvcore/application/MTMVCoreApplication;
 
     new-instance v2, Lf/d/k/l$b;
@@ -2593,21 +2317,17 @@
 
     invoke-virtual {v1, v2}, Lcom/meitu/mtmvcore/application/MTMVCoreApplication;->syncRunCallableInOffscreenThread(Ljava/util/concurrent/Callable;)V
 
-    .line 7
     iget-object v1, p0, Lf/d/k/l;->b:Lcom/meitu/mtmvcore/application/MTMVCoreApplication;
 
     if-eqz v1, :cond_1
 
     const/4 v2, 0x0
 
-    .line 8
     invoke-virtual {v1, v2}, Lcom/meitu/mtmvcore/application/MTMVCoreApplication;->setListener(Lcom/meitu/mtmvcore/application/MTMVCoreApplication$t;)V
 
-    .line 9
     :cond_1
     invoke-direct {p0}, Lf/d/k/l;->y0()V
 
-    .line 10
     :cond_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -2621,17 +2341,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0}, Landroidx/fragment/app/Fragment;->onResume()V
 
-    .line 2
     invoke-virtual {p0}, Lf/d/k/l;->b0()Z
 
     move-result v1
 
     if-nez v1, :cond_0
 
-    .line 3
     iget-object v1, p0, Lf/d/k/l;->S:Lf/d/k/l$g;
 
     if-eqz v1, :cond_0
@@ -2642,18 +2359,15 @@
 
     if-nez v1, :cond_0
 
-    .line 4
     iget-object v1, p0, Lf/d/k/l;->c:Lf/d/k/m;
 
     invoke-virtual {v1}, Lf/d/k/m;->Z()V
 
-    .line 5
     :cond_0
     iget-object v1, p0, Lf/d/k/l;->a:Lcom/meitu/mtmvcore/backend/android/j;
 
     invoke-virtual {v1, p0}, Lcom/meitu/mtmvcore/backend/android/j;->M(Landroidx/fragment/app/Fragment;)V
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2666,15 +2380,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lf/d/k/l;->R:Lf/d/k/m$f;
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-interface {v1}, Lf/d/k/m$f;->onVideoPause()V
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -2688,15 +2399,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lf/d/k/l;->R:Lf/d/k/m$f;
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-interface {v1}, Lf/d/k/m$f;->onVideoStart()V
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -2714,10 +2422,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0, p1, p2}, Landroidx/fragment/app/Fragment;->onViewCreated(Landroid/view/View;Landroid/os/Bundle;)V
 
-    .line 2
     invoke-virtual {p0}, Landroidx/fragment/app/Fragment;->getArguments()Landroid/os/Bundle;
 
     move-result-object p2
@@ -2730,7 +2436,6 @@
 
     iput-object p2, p0, Lf/d/k/l;->J:Ljava/lang/String;
 
-    .line 3
     invoke-virtual {p0}, Landroidx/fragment/app/Fragment;->getArguments()Landroid/os/Bundle;
 
     move-result-object p2
@@ -2745,7 +2450,6 @@
 
     iput p2, p0, Lf/d/k/l;->K:I
 
-    .line 4
     invoke-virtual {p0}, Landroidx/fragment/app/Fragment;->getArguments()Landroid/os/Bundle;
 
     move-result-object p2
@@ -2760,7 +2464,6 @@
 
     iput p2, p0, Lf/d/k/l;->L:I
 
-    .line 5
     invoke-virtual {p0}, Landroidx/fragment/app/Fragment;->getArguments()Landroid/os/Bundle;
 
     move-result-object p2
@@ -2773,7 +2476,6 @@
 
     iput-boolean p2, p0, Lf/d/k/l;->N:Z
 
-    .line 6
     invoke-virtual {p0}, Landroidx/fragment/app/Fragment;->getArguments()Landroid/os/Bundle;
 
     move-result-object p2
@@ -2786,7 +2488,6 @@
 
     iput-object p2, p0, Lf/d/k/l;->O:Ljava/lang/String;
 
-    .line 7
     sget-object p2, Lf/d/k/l;->Z:Ljava/lang/String;
 
     new-instance v1, Ljava/lang/StringBuilder;
@@ -2807,10 +2508,8 @@
 
     invoke-static {p2, v1}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 8
     invoke-direct {p0, p1}, Lf/d/k/l;->Y(Landroid/view/View;)V
 
-    .line 9
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2823,7 +2522,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lf/d/k/l;->U:Lcom/meitu/mtmvcore/backend/android/n;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -2854,14 +2552,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lf/d/k/h;
 
     invoke-direct {v1, p0}, Lf/d/k/h;-><init>(Lf/d/k/l;)V
 
     invoke-static {v1}, Lcom/commsource/util/g2;->k(Ljava/lang/Runnable;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2882,7 +2578,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lf/d/k/l;->W:Ljava/lang/String;
 
     invoke-static {v1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
@@ -2899,7 +2594,6 @@
 
     if-eqz v1, :cond_1
 
-    .line 2
     invoke-static {}, Landroid/os/Looper;->getMainLooper()Landroid/os/Looper;
 
     move-result-object v1
@@ -2910,7 +2604,6 @@
 
     if-ne v1, v2, :cond_0
 
-    .line 3
     new-instance v1, Lf/d/k/l$f;
 
     const-string v2, "saveVideo"
@@ -2921,32 +2614,26 @@
 
     goto :goto_0
 
-    .line 4
     :cond_0
     iget-object v1, p0, Lf/d/k/l;->W:Ljava/lang/String;
 
     invoke-direct {p0, v1}, Lf/d/k/l;->D0(Ljava/lang/String;)V
 
-    .line 5
     iget-object v1, p0, Lf/d/k/l;->W:Ljava/lang/String;
 
     invoke-static {v1}, Lcom/meitu/library/p/g/b;->m(Ljava/lang/String;)Z
 
     const/4 v1, 0x0
 
-    .line 6
     iput-object v1, p0, Lf/d/k/l;->W:Ljava/lang/String;
 
-    .line 7
     invoke-direct {p0}, Lf/d/k/l;->K()V
 
     goto :goto_0
 
-    .line 8
     :cond_1
     invoke-direct {p0}, Lf/d/k/l;->K()V
 
-    .line 9
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -2960,7 +2647,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lf/d/k/l;->c:Lf/d/k/m;
 
     iget-object v2, p0, Lf/d/k/l;->d:Lcom/meitu/media/mtmvcore/MTMVTimeLine;
@@ -2969,7 +2655,6 @@
 
     invoke-virtual {v1, v2, v3}, Lf/d/k/m;->J(Lcom/meitu/media/mtmvcore/MTMVTimeLine;Z)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -2998,25 +2683,21 @@
 
     if-eqz p2, :cond_1
 
-    .line 1
     iget-object p2, p0, Lf/d/k/l;->Y:Ljava/util/ArrayList;
 
     if-nez p2, :cond_0
 
-    .line 2
     new-instance p2, Ljava/util/ArrayList;
 
     invoke-direct {p2}, Ljava/util/ArrayList;-><init>()V
 
     iput-object p2, p0, Lf/d/k/l;->Y:Ljava/util/ArrayList;
 
-    .line 3
     :cond_0
     iget-object p2, p0, Lf/d/k/l;->Y:Ljava/util/ArrayList;
 
     invoke-virtual {p2, p1}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    .line 4
     :cond_1
     invoke-static {}, Lcom/commsource/util/c2;->i()Ljava/util/concurrent/ExecutorService;
 
@@ -3028,7 +2709,6 @@
 
     invoke-virtual {p1, p2, v1}, Landroid/os/AsyncTask;->executeOnExecutor(Ljava/util/concurrent/Executor;[Ljava/lang/Object;)Landroid/os/AsyncTask;
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -3041,14 +2721,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lf/d/k/e;
 
     invoke-direct {v1, p0}, Lf/d/k/e;-><init>(Lf/d/k/l;)V
 
     invoke-static {v1}, Lcom/commsource/util/g2;->k(Ljava/lang/Runnable;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -3061,33 +2739,26 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lf/d/k/l;->d:Lcom/meitu/media/mtmvcore/MTMVTimeLine;
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-virtual {v1}, Lcom/meitu/media/mtmvcore/MTMVTimeLine;->release()V
 
-    .line 3
     :cond_0
     iget-object v1, p0, Lf/d/k/l;->g:Lcom/meitu/media/mtmvcore/MTMVGroup;
 
     if-eqz v1, :cond_1
 
-    .line 4
     invoke-virtual {v1}, Lcom/meitu/media/mtmvcore/MTMVGroup;->g()V
 
-    .line 5
     :cond_1
     iget-object v1, p0, Lf/d/k/l;->p:Lcom/meitu/media/mtmvcore/MTITrack;
 
     if-eqz v1, :cond_2
 
-    .line 6
     invoke-virtual {v1}, Lcom/meitu/media/mtmvcore/MTITrack;->release()V
 
-    .line 7
     :cond_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

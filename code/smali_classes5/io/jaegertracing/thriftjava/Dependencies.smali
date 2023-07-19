@@ -73,7 +73,6 @@
 .method static constructor <clinit>()V
     .locals 10
 
-    .line 1
     new-instance v0, Lorg/apache/thrift/protocol/TStruct;
 
     const-string v1, "Dependencies"
@@ -82,7 +81,6 @@
 
     sput-object v0, Lio/jaegertracing/thriftjava/Dependencies;->STRUCT_DESC:Lorg/apache/thrift/protocol/TStruct;
 
-    .line 2
     new-instance v0, Lorg/apache/thrift/protocol/TField;
 
     const-string v1, "links"
@@ -95,7 +93,6 @@
 
     sput-object v0, Lio/jaegertracing/thriftjava/Dependencies;->LINKS_FIELD_DESC:Lorg/apache/thrift/protocol/TField;
 
-    .line 3
     new-instance v0, Lio/jaegertracing/thriftjava/Dependencies$c;
 
     const/4 v4, 0x0
@@ -104,21 +101,18 @@
 
     sput-object v0, Lio/jaegertracing/thriftjava/Dependencies;->STANDARD_SCHEME_FACTORY:Lorg/apache/thrift/scheme/SchemeFactory;
 
-    .line 4
     new-instance v0, Lio/jaegertracing/thriftjava/Dependencies$e;
 
     invoke-direct {v0, v4}, Lio/jaegertracing/thriftjava/Dependencies$e;-><init>(Lio/jaegertracing/thriftjava/Dependencies$a;)V
 
     sput-object v0, Lio/jaegertracing/thriftjava/Dependencies;->TUPLE_SCHEME_FACTORY:Lorg/apache/thrift/scheme/SchemeFactory;
 
-    .line 5
     new-instance v0, Ljava/util/EnumMap;
 
     const-class v4, Lio/jaegertracing/thriftjava/Dependencies$_Fields;
 
     invoke-direct {v0, v4}, Ljava/util/EnumMap;-><init>(Ljava/lang/Class;)V
 
-    .line 6
     sget-object v4, Lio/jaegertracing/thriftjava/Dependencies$_Fields;->LINKS:Lio/jaegertracing/thriftjava/Dependencies$_Fields;
 
     new-instance v5, Lorg/apache/thrift/meta_data/FieldMetaData;
@@ -139,14 +133,12 @@
 
     invoke-interface {v0, v4, v5}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 7
     invoke-static {v0}, Ljava/util/Collections;->unmodifiableMap(Ljava/util/Map;)Ljava/util/Map;
 
     move-result-object v0
 
     sput-object v0, Lio/jaegertracing/thriftjava/Dependencies;->metaDataMap:Ljava/util/Map;
 
-    .line 8
     const-class v1, Lio/jaegertracing/thriftjava/Dependencies;
 
     invoke-static {v1, v0}, Lorg/apache/thrift/meta_data/FieldMetaData;->addStructMetaDataMap(Ljava/lang/Class;Ljava/util/Map;)V
@@ -157,7 +149,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -166,17 +157,14 @@
 .method public constructor <init>(Lio/jaegertracing/thriftjava/Dependencies;)V
     .locals 3
 
-    .line 4
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 5
     invoke-virtual {p1}, Lio/jaegertracing/thriftjava/Dependencies;->isSetLinks()Z
 
     move-result v0
 
     if-eqz v0, :cond_1
 
-    .line 6
     new-instance v0, Ljava/util/ArrayList;
 
     iget-object v1, p1, Lio/jaegertracing/thriftjava/Dependencies;->links:Ljava/util/List;
@@ -187,7 +175,6 @@
 
     invoke-direct {v0, v1}, Ljava/util/ArrayList;-><init>(I)V
 
-    .line 7
     iget-object p1, p1, Lio/jaegertracing/thriftjava/Dependencies;->links:Ljava/util/List;
 
     invoke-interface {p1}, Ljava/util/List;->iterator()Ljava/util/Iterator;
@@ -207,7 +194,6 @@
 
     check-cast v1, Lio/jaegertracing/thriftjava/DependencyLink;
 
-    .line 8
     new-instance v2, Lio/jaegertracing/thriftjava/DependencyLink;
 
     invoke-direct {v2, v1}, Lio/jaegertracing/thriftjava/DependencyLink;-><init>(Lio/jaegertracing/thriftjava/DependencyLink;)V
@@ -216,7 +202,6 @@
 
     goto :goto_0
 
-    .line 9
     :cond_0
     iput-object v0, p0, Lio/jaegertracing/thriftjava/Dependencies;->links:Ljava/util/List;
 
@@ -235,10 +220,8 @@
         }
     .end annotation
 
-    .line 2
     invoke-direct {p0}, Lio/jaegertracing/thriftjava/Dependencies;-><init>()V
 
-    .line 3
     iput-object p1, p0, Lio/jaegertracing/thriftjava/Dependencies;->links:Ljava/util/List;
 
     return-void
@@ -247,7 +230,6 @@
 .method static synthetic access$300()Lorg/apache/thrift/protocol/TStruct;
     .locals 1
 
-    .line 1
     sget-object v0, Lio/jaegertracing/thriftjava/Dependencies;->STRUCT_DESC:Lorg/apache/thrift/protocol/TStruct;
 
     return-object v0
@@ -256,7 +238,6 @@
 .method static synthetic access$400()Lorg/apache/thrift/protocol/TField;
     .locals 1
 
-    .line 1
     sget-object v0, Lio/jaegertracing/thriftjava/Dependencies;->LINKS_FIELD_DESC:Lorg/apache/thrift/protocol/TField;
 
     return-object v0
@@ -271,7 +252,6 @@
         }
     .end annotation
 
-    .line 1
     :try_start_0
     new-instance v0, Lorg/apache/thrift/protocol/TCompactProtocol;
 
@@ -290,7 +270,6 @@
     :catch_0
     move-exception p1
 
-    .line 2
     new-instance v0, Ljava/io/IOException;
 
     invoke-direct {v0, p1}, Ljava/io/IOException;-><init>(Ljava/lang/Throwable;)V
@@ -310,7 +289,6 @@
         }
     .end annotation
 
-    .line 1
     const-class v0, Lorg/apache/thrift/scheme/StandardScheme;
 
     invoke-virtual {p0}, Lorg/apache/thrift/protocol/TProtocol;->getScheme()Ljava/lang/Class;
@@ -346,7 +324,6 @@
         }
     .end annotation
 
-    .line 1
     :try_start_0
     new-instance v0, Lorg/apache/thrift/protocol/TCompactProtocol;
 
@@ -365,7 +342,6 @@
     :catch_0
     move-exception p1
 
-    .line 2
     new-instance v0, Ljava/io/IOException;
 
     invoke-direct {v0, p1}, Ljava/io/IOException;-><init>(Ljava/lang/Throwable;)V
@@ -378,19 +354,16 @@
 .method public addToLinks(Lio/jaegertracing/thriftjava/DependencyLink;)V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lio/jaegertracing/thriftjava/Dependencies;->links:Ljava/util/List;
 
     if-nez v0, :cond_0
 
-    .line 2
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
 
     iput-object v0, p0, Lio/jaegertracing/thriftjava/Dependencies;->links:Ljava/util/List;
 
-    .line 3
     :cond_0
     iget-object v0, p0, Lio/jaegertracing/thriftjava/Dependencies;->links:Ljava/util/List;
 
@@ -404,7 +377,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     iput-object v0, p0, Lio/jaegertracing/thriftjava/Dependencies;->links:Ljava/util/List;
 
     return-void
@@ -413,7 +385,6 @@
 .method public compareTo(Lio/jaegertracing/thriftjava/Dependencies;)I
     .locals 2
 
-    .line 2
     invoke-virtual {p0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
     move-result-object v0
@@ -428,7 +399,6 @@
 
     if-nez v0, :cond_0
 
-    .line 3
     invoke-virtual {p0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
     move-result-object v0
@@ -451,7 +421,6 @@
 
     return p1
 
-    .line 4
     :cond_0
     invoke-virtual {p0}, Lio/jaegertracing/thriftjava/Dependencies;->isSetLinks()Z
 
@@ -477,7 +446,6 @@
 
     return v0
 
-    .line 5
     :cond_1
     invoke-virtual {p0}, Lio/jaegertracing/thriftjava/Dependencies;->isSetLinks()Z
 
@@ -485,7 +453,6 @@
 
     if-eqz v0, :cond_2
 
-    .line 6
     iget-object v0, p0, Lio/jaegertracing/thriftjava/Dependencies;->links:Ljava/util/List;
 
     iget-object p1, p1, Lio/jaegertracing/thriftjava/Dependencies;->links:Ljava/util/List;
@@ -507,7 +474,6 @@
 .method public bridge synthetic compareTo(Ljava/lang/Object;)I
     .locals 0
 
-    .line 1
     check-cast p1, Lio/jaegertracing/thriftjava/Dependencies;
 
     invoke-virtual {p0, p1}, Lio/jaegertracing/thriftjava/Dependencies;->compareTo(Lio/jaegertracing/thriftjava/Dependencies;)I
@@ -520,7 +486,6 @@
 .method public deepCopy()Lio/jaegertracing/thriftjava/Dependencies;
     .locals 1
 
-    .line 2
     new-instance v0, Lio/jaegertracing/thriftjava/Dependencies;
 
     invoke-direct {v0, p0}, Lio/jaegertracing/thriftjava/Dependencies;-><init>(Lio/jaegertracing/thriftjava/Dependencies;)V
@@ -531,7 +496,6 @@
 .method public bridge synthetic deepCopy()Lorg/apache/thrift/TBase;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lio/jaegertracing/thriftjava/Dependencies;->deepCopy()Lio/jaegertracing/thriftjava/Dependencies;
 
     move-result-object v0
@@ -555,13 +519,11 @@
 
     return v1
 
-    .line 3
     :cond_1
     invoke-virtual {p0}, Lio/jaegertracing/thriftjava/Dependencies;->isSetLinks()Z
 
     move-result v2
 
-    .line 4
     invoke-virtual {p1}, Lio/jaegertracing/thriftjava/Dependencies;->isSetLinks()Z
 
     move-result v3
@@ -577,7 +539,6 @@
 
     goto :goto_0
 
-    .line 5
     :cond_3
     iget-object v2, p0, Lio/jaegertracing/thriftjava/Dependencies;->links:Ljava/util/List;
 
@@ -608,13 +569,11 @@
 
     return v0
 
-    .line 1
     :cond_0
     instance-of v1, p1, Lio/jaegertracing/thriftjava/Dependencies;
 
     if-eqz v1, :cond_1
 
-    .line 2
     check-cast p1, Lio/jaegertracing/thriftjava/Dependencies;
 
     invoke-virtual {p0, p1}, Lio/jaegertracing/thriftjava/Dependencies;->equals(Lio/jaegertracing/thriftjava/Dependencies;)Z
@@ -630,7 +589,6 @@
 .method public fieldForId(I)Lio/jaegertracing/thriftjava/Dependencies$_Fields;
     .locals 0
 
-    .line 2
     invoke-static {p1}, Lio/jaegertracing/thriftjava/Dependencies$_Fields;->findByThriftId(I)Lio/jaegertracing/thriftjava/Dependencies$_Fields;
 
     move-result-object p1
@@ -641,7 +599,6 @@
 .method public bridge synthetic fieldForId(I)Lorg/apache/thrift/TFieldIdEnum;
     .locals 0
 
-    .line 1
     invoke-virtual {p0, p1}, Lio/jaegertracing/thriftjava/Dependencies;->fieldForId(I)Lio/jaegertracing/thriftjava/Dependencies$_Fields;
 
     move-result-object p1
@@ -652,7 +609,6 @@
 .method public getFieldValue(Lio/jaegertracing/thriftjava/Dependencies$_Fields;)Ljava/lang/Object;
     .locals 1
 
-    .line 2
     sget-object v0, Lio/jaegertracing/thriftjava/Dependencies$a;->a:[I
 
     invoke-virtual {p1}, Ljava/lang/Enum;->ordinal()I
@@ -665,14 +621,12 @@
 
     if-ne p1, v0, :cond_0
 
-    .line 3
     invoke-virtual {p0}, Lio/jaegertracing/thriftjava/Dependencies;->getLinks()Ljava/util/List;
 
     move-result-object p1
 
     return-object p1
 
-    .line 4
     :cond_0
     new-instance p1, Ljava/lang/IllegalStateException;
 
@@ -684,7 +638,6 @@
 .method public bridge synthetic getFieldValue(Lorg/apache/thrift/TFieldIdEnum;)Ljava/lang/Object;
     .locals 0
 
-    .line 1
     check-cast p1, Lio/jaegertracing/thriftjava/Dependencies$_Fields;
 
     invoke-virtual {p0, p1}, Lio/jaegertracing/thriftjava/Dependencies;->getFieldValue(Lio/jaegertracing/thriftjava/Dependencies$_Fields;)Ljava/lang/Object;
@@ -705,7 +658,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lio/jaegertracing/thriftjava/Dependencies;->links:Ljava/util/List;
 
     return-object v0
@@ -722,7 +674,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lio/jaegertracing/thriftjava/Dependencies;->links:Ljava/util/List;
 
     if-nez v0, :cond_0
@@ -743,7 +694,6 @@
 .method public getLinksSize()I
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lio/jaegertracing/thriftjava/Dependencies;->links:Ljava/util/List;
 
     if-nez v0, :cond_0
@@ -764,7 +714,6 @@
 .method public hashCode()I
     .locals 2
 
-    .line 1
     invoke-virtual {p0}, Lio/jaegertracing/thriftjava/Dependencies;->isSetLinks()Z
 
     move-result v0
@@ -783,7 +732,6 @@
 
     add-int/2addr v1, v0
 
-    .line 2
     invoke-virtual {p0}, Lio/jaegertracing/thriftjava/Dependencies;->isSetLinks()Z
 
     move-result v0
@@ -792,7 +740,6 @@
 
     mul-int/lit16 v1, v1, 0x1fff
 
-    .line 3
     iget-object v0, p0, Lio/jaegertracing/thriftjava/Dependencies;->links:Ljava/util/List;
 
     invoke-interface {v0}, Ljava/util/List;->hashCode()I
@@ -810,7 +757,6 @@
 
     if-eqz p1, :cond_1
 
-    .line 2
     sget-object v0, Lio/jaegertracing/thriftjava/Dependencies$a;->a:[I
 
     invoke-virtual {p1}, Ljava/lang/Enum;->ordinal()I
@@ -823,14 +769,12 @@
 
     if-ne p1, v0, :cond_0
 
-    .line 3
     invoke-virtual {p0}, Lio/jaegertracing/thriftjava/Dependencies;->isSetLinks()Z
 
     move-result p1
 
     return p1
 
-    .line 4
     :cond_0
     new-instance p1, Ljava/lang/IllegalStateException;
 
@@ -838,7 +782,6 @@
 
     throw p1
 
-    .line 5
     :cond_1
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
@@ -850,7 +793,6 @@
 .method public bridge synthetic isSet(Lorg/apache/thrift/TFieldIdEnum;)Z
     .locals 0
 
-    .line 1
     check-cast p1, Lio/jaegertracing/thriftjava/Dependencies$_Fields;
 
     invoke-virtual {p0, p1}, Lio/jaegertracing/thriftjava/Dependencies;->isSet(Lio/jaegertracing/thriftjava/Dependencies$_Fields;)Z
@@ -863,7 +805,6 @@
 .method public isSetLinks()Z
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lio/jaegertracing/thriftjava/Dependencies;->links:Ljava/util/List;
 
     if-eqz v0, :cond_0
@@ -887,7 +828,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p1}, Lio/jaegertracing/thriftjava/Dependencies;->scheme(Lorg/apache/thrift/protocol/TProtocol;)Lorg/apache/thrift/scheme/IScheme;
 
     move-result-object v0
@@ -900,7 +840,6 @@
 .method public setFieldValue(Lio/jaegertracing/thriftjava/Dependencies$_Fields;Ljava/lang/Object;)V
     .locals 1
 
-    .line 2
     sget-object v0, Lio/jaegertracing/thriftjava/Dependencies$a;->a:[I
 
     invoke-virtual {p1}, Ljava/lang/Enum;->ordinal()I
@@ -918,12 +857,10 @@
     :cond_0
     if-nez p2, :cond_1
 
-    .line 3
     invoke-virtual {p0}, Lio/jaegertracing/thriftjava/Dependencies;->unsetLinks()V
 
     goto :goto_0
 
-    .line 4
     :cond_1
     check-cast p2, Ljava/util/List;
 
@@ -936,7 +873,6 @@
 .method public bridge synthetic setFieldValue(Lorg/apache/thrift/TFieldIdEnum;Ljava/lang/Object;)V
     .locals 0
 
-    .line 1
     check-cast p1, Lio/jaegertracing/thriftjava/Dependencies$_Fields;
 
     invoke-virtual {p0, p1, p2}, Lio/jaegertracing/thriftjava/Dependencies;->setFieldValue(Lio/jaegertracing/thriftjava/Dependencies$_Fields;Ljava/lang/Object;)V
@@ -956,7 +892,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lio/jaegertracing/thriftjava/Dependencies;->links:Ljava/util/List;
 
     return-object p0
@@ -969,7 +904,6 @@
 
     const/4 p1, 0x0
 
-    .line 1
     iput-object p1, p0, Lio/jaegertracing/thriftjava/Dependencies;->links:Ljava/util/List;
 
     :cond_0
@@ -979,7 +913,6 @@
 .method public toString()Ljava/lang/String;
     .locals 2
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     const-string v1, "Dependencies("
@@ -988,32 +921,26 @@
 
     const-string v1, "links:"
 
-    .line 2
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 3
     iget-object v1, p0, Lio/jaegertracing/thriftjava/Dependencies;->links:Ljava/util/List;
 
     if-nez v1, :cond_0
 
     const-string v1, "null"
 
-    .line 4
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     goto :goto_0
 
-    .line 5
     :cond_0
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
 
     :goto_0
     const-string v1, ")"
 
-    .line 6
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 7
     invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     move-result-object v0
@@ -1026,7 +953,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     iput-object v0, p0, Lio/jaegertracing/thriftjava/Dependencies;->links:Ljava/util/List;
 
     return-void
@@ -1040,14 +966,12 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lio/jaegertracing/thriftjava/Dependencies;->links:Ljava/util/List;
 
     if-eqz v0, :cond_0
 
     return-void
 
-    .line 2
     :cond_0
     new-instance v0, Lorg/apache/thrift/protocol/TProtocolException;
 
@@ -1082,7 +1006,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p1}, Lio/jaegertracing/thriftjava/Dependencies;->scheme(Lorg/apache/thrift/protocol/TProtocol;)Lorg/apache/thrift/scheme/IScheme;
 
     move-result-object v0

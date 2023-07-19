@@ -65,31 +65,26 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     invoke-static {p0, p1}, Lcotlinx/coroutines/h0;->d(Lcotlinx/coroutines/m0;Lcotlin/coroutines/CoroutineContext;)Lcotlin/coroutines/CoroutineContext;
 
     move-result-object p0
 
-    .line 2
     invoke-static {p2}, Lcotlinx/coroutines/channels/j;->a(I)Lcotlinx/coroutines/channels/i;
 
     move-result-object p1
 
-    .line 3
     invoke-virtual {p3}, Lcotlinx/coroutines/CoroutineStart;->isLazy()Z
 
     move-result p2
 
     if-eqz p2, :cond_0
 
-    .line 4
     new-instance p2, Lcotlinx/coroutines/channels/t;
 
     invoke-direct {p2, p0, p1, p5}, Lcotlinx/coroutines/channels/t;-><init>(Lcotlin/coroutines/CoroutineContext;Lcotlinx/coroutines/channels/i;Lcotlin/jvm/u/p;)V
 
     goto :goto_0
 
-    .line 5
     :cond_0
     new-instance p2, Lcotlinx/coroutines/channels/k;
 
@@ -100,10 +95,8 @@
     :goto_0
     if-eqz p4, :cond_1
 
-    .line 6
     invoke-virtual {p2, p4}, Lcotlinx/coroutines/JobSupport;->z(Lcotlin/jvm/u/l;)Lcotlinx/coroutines/f1;
 
-    .line 7
     :cond_1
     invoke-virtual {p2, p3, p2, p5}, Lcotlinx/coroutines/a;->v1(Lcotlinx/coroutines/CoroutineStart;Ljava/lang/Object;Lcotlin/jvm/u/p;)V
 
@@ -137,7 +130,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     sget-object v0, Lcotlinx/coroutines/u1;->a:Lcotlinx/coroutines/u1;
 
     invoke-static {}, Lcotlinx/coroutines/c1;->h()Lcotlinx/coroutines/CoroutineDispatcher;
@@ -148,19 +140,16 @@
 
     move-result-object v0
 
-    .line 2
     new-instance v1, Lcotlinx/coroutines/channels/BroadcastKt$a;
 
     sget-object v2, Lcotlinx/coroutines/CoroutineExceptionHandler;->t:Lcotlinx/coroutines/CoroutineExceptionHandler$b;
 
     invoke-direct {v1, v2}, Lcotlinx/coroutines/channels/BroadcastKt$a;-><init>(Lcotlin/coroutines/CoroutineContext$b;)V
 
-    .line 3
     invoke-static {v0, v1}, Lcotlinx/coroutines/n0;->k(Lcotlinx/coroutines/m0;Lcotlin/coroutines/CoroutineContext;)Lcotlinx/coroutines/m0;
 
     move-result-object v3
 
-    .line 4
     invoke-static {p0}, Lcotlinx/coroutines/channels/o;->A(Lcotlinx/coroutines/channels/y;)Lcotlin/jvm/u/l;
 
     move-result-object v7
@@ -195,7 +184,6 @@
 
     if-eqz p7, :cond_0
 
-    .line 1
     sget-object p1, Lcotlin/coroutines/EmptyCoroutineContext;->INSTANCE:Lcotlin/coroutines/EmptyCoroutineContext;
 
     :cond_0
@@ -219,7 +207,6 @@
 
     if-eqz p1, :cond_2
 
-    .line 2
     sget-object p3, Lcotlinx/coroutines/CoroutineStart;->LAZY:Lcotlinx/coroutines/CoroutineStart;
 
     :cond_2
@@ -238,7 +225,6 @@
 
     move-object v5, p5
 
-    .line 3
     invoke-static/range {v0 .. v5}, Lcotlinx/coroutines/channels/BroadcastKt;->a(Lcotlinx/coroutines/m0;Lcotlin/coroutines/CoroutineContext;ILcotlinx/coroutines/CoroutineStart;Lcotlin/jvm/u/l;Lcotlin/jvm/u/p;)Lcotlinx/coroutines/channels/i;
 
     move-result-object p0
@@ -260,7 +246,6 @@
 
     if-eqz p3, :cond_1
 
-    .line 1
     sget-object p2, Lcotlinx/coroutines/CoroutineStart;->LAZY:Lcotlinx/coroutines/CoroutineStart;
 
     :cond_1

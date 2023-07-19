@@ -27,7 +27,6 @@
 .method constructor <init>(ZZ)V
     .locals 0
 
-    .line 1
     iput-boolean p1, p0, Lcom/sdk/api/a$a;->a:Z
 
     iput-boolean p2, p0, Lcom/sdk/api/a$a;->b:Z
@@ -42,7 +41,6 @@
 .method public run()V
     .locals 2
 
-    .line 1
     :try_start_0
     invoke-static {}, Lcom/sdk/api/a;->a()Landroid/content/Context;
 
@@ -52,7 +50,6 @@
 
     invoke-static {v0, v1}, Lcom/sdk/api/a;->t(Landroid/content/Context;Z)V
 
-    .line 2
     invoke-static {}, Lcom/sdk/api/a;->a()Landroid/content/Context;
 
     move-result-object v0
@@ -61,7 +58,6 @@
 
     invoke-static {v0, v1}, Lcom/sdk/api/a;->v(Landroid/content/Context;Z)V
 
-    .line 3
     invoke-static {}, Lcom/sdk/api/a;->a()Landroid/content/Context;
 
     move-result-object v0

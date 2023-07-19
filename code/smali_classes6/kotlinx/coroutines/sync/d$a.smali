@@ -55,7 +55,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1}, Lcotlinx/coroutines/sync/d$c;-><init>(Ljava/lang/Object;)V
 
     iput-object p2, p0, Lcotlinx/coroutines/sync/d$a;->f:Lcotlinx/coroutines/m;
@@ -72,7 +71,6 @@
         .end annotation
     .end param
 
-    .line 1
     iget-object v0, p0, Lcotlinx/coroutines/sync/d$a;->f:Lcotlinx/coroutines/m;
 
     invoke-interface {v0, p1}, Lcotlinx/coroutines/m;->Y(Ljava/lang/Object;)V
@@ -85,7 +83,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcotlinx/coroutines/sync/d$a;->f:Lcotlinx/coroutines/m;
 
     sget-object v1, Lcotlin/t1;->a:Lcotlin/t1;
@@ -106,7 +103,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V

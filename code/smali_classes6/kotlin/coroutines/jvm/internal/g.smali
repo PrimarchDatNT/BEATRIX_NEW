@@ -34,14 +34,12 @@
 .method static constructor <clinit>()V
     .locals 2
 
-    .line 1
     new-instance v0, Lcotlin/coroutines/jvm/internal/g;
 
     invoke-direct {v0}, Lcotlin/coroutines/jvm/internal/g;-><init>()V
 
     sput-object v0, Lcotlin/coroutines/jvm/internal/g;->c:Lcotlin/coroutines/jvm/internal/g;
 
-    .line 2
     new-instance v0, Lcotlin/coroutines/jvm/internal/g$a;
 
     const/4 v1, 0x0
@@ -56,7 +54,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -65,7 +62,6 @@
 .method private final a(Lcotlin/coroutines/jvm/internal/BaseContinuationImpl;)Lcotlin/coroutines/jvm/internal/g$a;
     .locals 5
 
-    .line 1
     :try_start_0
     const-class v0, Ljava/lang/Class;
 
@@ -79,7 +75,6 @@
 
     move-result-object v0
 
-    .line 2
     invoke-virtual {p1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
     move-result-object v1
@@ -98,12 +93,10 @@
 
     new-array v4, v2, [Ljava/lang/Class;
 
-    .line 3
     invoke-virtual {v1, v3, v4}, Ljava/lang/Class;->getDeclaredMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
 
     move-result-object v1
 
-    .line 4
     invoke-virtual {p1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
     move-result-object p1
@@ -122,12 +115,10 @@
 
     new-array v2, v2, [Ljava/lang/Class;
 
-    .line 5
     invoke-virtual {p1, v3, v2}, Ljava/lang/Class;->getDeclaredMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
 
     move-result-object p1
 
-    .line 6
     new-instance v2, Lcotlin/coroutines/jvm/internal/g$a;
 
     invoke-direct {v2, v0, v1, p1}, Lcotlin/coroutines/jvm/internal/g$a;-><init>(Ljava/lang/reflect/Method;Ljava/lang/reflect/Method;Ljava/lang/reflect/Method;)V
@@ -138,7 +129,6 @@
 
     return-object v2
 
-    .line 7
     :catch_0
     sget-object p1, Lcotlin/coroutines/jvm/internal/g;->a:Lcotlin/coroutines/jvm/internal/g$a;
 
@@ -162,7 +152,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     sget-object v0, Lcotlin/coroutines/jvm/internal/g;->b:Lcotlin/coroutines/jvm/internal/g$a;
 
     if-eqz v0, :cond_0
@@ -174,7 +163,6 @@
 
     move-result-object v0
 
-    .line 2
     :goto_0
     sget-object v1, Lcotlin/coroutines/jvm/internal/g;->a:Lcotlin/coroutines/jvm/internal/g$a;
 
@@ -184,7 +172,6 @@
 
     return-object v2
 
-    .line 3
     :cond_1
     iget-object v1, v0, Lcotlin/coroutines/jvm/internal/g$a;->a:Ljava/lang/reflect/Method;
 
@@ -204,7 +191,6 @@
 
     if-eqz p1, :cond_4
 
-    .line 4
     iget-object v1, v0, Lcotlin/coroutines/jvm/internal/g$a;->b:Ljava/lang/reflect/Method;
 
     if-eqz v1, :cond_4
@@ -217,7 +203,6 @@
 
     if-eqz p1, :cond_4
 
-    .line 5
     iget-object v0, v0, Lcotlin/coroutines/jvm/internal/g$a;->c:Ljava/lang/reflect/Method;
 
     if-eqz v0, :cond_2

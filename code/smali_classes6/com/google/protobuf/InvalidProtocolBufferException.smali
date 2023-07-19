@@ -15,7 +15,6 @@
 .method public constructor <init>(Ljava/io/IOException;)V
     .locals 1
 
-    .line 3
     invoke-virtual {p1}, Ljava/io/IOException;->getMessage()Ljava/lang/String;
 
     move-result-object v0
@@ -24,7 +23,6 @@
 
     const/4 p1, 0x0
 
-    .line 4
     iput-object p1, p0, Lcom/google/protobuf/InvalidProtocolBufferException;->unfinishedMessage:Lcom/google/protobuf/i1;
 
     return-void
@@ -33,12 +31,10 @@
 .method public constructor <init>(Ljava/lang/String;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1}, Ljava/io/IOException;-><init>(Ljava/lang/String;)V
 
     const/4 p1, 0x0
 
-    .line 2
     iput-object p1, p0, Lcom/google/protobuf/InvalidProtocolBufferException;->unfinishedMessage:Lcom/google/protobuf/i1;
 
     return-void
@@ -47,7 +43,6 @@
 .method static invalidEndTag()Lcom/google/protobuf/InvalidProtocolBufferException;
     .locals 2
 
-    .line 1
     new-instance v0, Lcom/google/protobuf/InvalidProtocolBufferException;
 
     const-string v1, "Protocol message end-group tag did not match expected tag."
@@ -60,7 +55,6 @@
 .method static invalidTag()Lcom/google/protobuf/InvalidProtocolBufferException;
     .locals 2
 
-    .line 1
     new-instance v0, Lcom/google/protobuf/InvalidProtocolBufferException;
 
     const-string v1, "Protocol message contained an invalid tag (zero)."
@@ -73,7 +67,6 @@
 .method static invalidUtf8()Lcom/google/protobuf/InvalidProtocolBufferException;
     .locals 2
 
-    .line 1
     new-instance v0, Lcom/google/protobuf/InvalidProtocolBufferException;
 
     const-string v1, "Protocol message had invalid UTF-8."
@@ -86,7 +79,6 @@
 .method static invalidWireType()Lcom/google/protobuf/InvalidProtocolBufferException;
     .locals 2
 
-    .line 1
     new-instance v0, Lcom/google/protobuf/InvalidProtocolBufferException;
 
     const-string v1, "Protocol message tag had invalid wire type."
@@ -99,7 +91,6 @@
 .method static malformedVarint()Lcom/google/protobuf/InvalidProtocolBufferException;
     .locals 2
 
-    .line 1
     new-instance v0, Lcom/google/protobuf/InvalidProtocolBufferException;
 
     const-string v1, "CodedInputStream encountered a malformed varint."
@@ -112,7 +103,6 @@
 .method static negativeSize()Lcom/google/protobuf/InvalidProtocolBufferException;
     .locals 2
 
-    .line 1
     new-instance v0, Lcom/google/protobuf/InvalidProtocolBufferException;
 
     const-string v1, "CodedInputStream encountered an embedded string or message which claimed to have negative size."
@@ -125,7 +115,6 @@
 .method static parseFailure()Lcom/google/protobuf/InvalidProtocolBufferException;
     .locals 2
 
-    .line 1
     new-instance v0, Lcom/google/protobuf/InvalidProtocolBufferException;
 
     const-string v1, "Failed to parse the message."
@@ -138,7 +127,6 @@
 .method static recursionLimitExceeded()Lcom/google/protobuf/InvalidProtocolBufferException;
     .locals 2
 
-    .line 1
     new-instance v0, Lcom/google/protobuf/InvalidProtocolBufferException;
 
     const-string v1, "Protocol message had too many levels of nesting.  May be malicious.  Use CodedInputStream.setRecursionLimit() to increase the depth limit."
@@ -151,7 +139,6 @@
 .method static sizeLimitExceeded()Lcom/google/protobuf/InvalidProtocolBufferException;
     .locals 2
 
-    .line 1
     new-instance v0, Lcom/google/protobuf/InvalidProtocolBufferException;
 
     const-string v1, "Protocol message was too large.  May be malicious.  Use CodedInputStream.setSizeLimit() to increase the size limit."
@@ -164,7 +151,6 @@
 .method static truncatedMessage()Lcom/google/protobuf/InvalidProtocolBufferException;
     .locals 2
 
-    .line 1
     new-instance v0, Lcom/google/protobuf/InvalidProtocolBufferException;
 
     const-string v1, "While parsing a protocol message, the input ended unexpectedly in the middle of a field.  This could mean either that the input has been truncated or that an embedded message misreported its own length."
@@ -179,7 +165,6 @@
 .method public getUnfinishedMessage()Lcom/google/protobuf/i1;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/google/protobuf/InvalidProtocolBufferException;->unfinishedMessage:Lcom/google/protobuf/i1;
 
     return-object v0
@@ -188,7 +173,6 @@
 .method public setUnfinishedMessage(Lcom/google/protobuf/i1;)Lcom/google/protobuf/InvalidProtocolBufferException;
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/protobuf/InvalidProtocolBufferException;->unfinishedMessage:Lcom/google/protobuf/i1;
 
     return-object p0
@@ -197,7 +181,6 @@
 .method public unwrapIOException()Ljava/io/IOException;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Ljava/io/IOException;->getCause()Ljava/lang/Throwable;
 
     move-result-object v0

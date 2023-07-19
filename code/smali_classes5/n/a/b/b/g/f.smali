@@ -10,7 +10,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -21,7 +20,6 @@
 .method public a()Ln/a/b/b/g/a;
     .locals 1
 
-    .line 1
     new-instance v0, Ln/a/b/b/g/b;
 
     invoke-direct {v0}, Ln/a/b/b/g/b;-><init>()V
@@ -32,7 +30,6 @@
 .method public b()Ln/a/b/b/g/c;
     .locals 1
 
-    .line 1
     new-instance v0, Ln/a/b/b/g/g;
 
     invoke-direct {v0}, Ln/a/b/b/g/g;-><init>()V

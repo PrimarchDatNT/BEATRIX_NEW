@@ -40,10 +40,8 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-direct {p0, p1}, Landroid/widget/RelativeLayout;-><init>(Landroid/content/Context;)V
 
-    .line 2
     new-instance p1, Ljava/util/HashMap;
 
     const/4 v0, 0x4
@@ -66,10 +64,8 @@
         .end annotation
     .end param
 
-    .line 3
     invoke-direct {p0, p1, p2}, Landroid/widget/RelativeLayout;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
-    .line 4
     new-instance p1, Ljava/util/HashMap;
 
     const/4 p2, 0x4
@@ -92,10 +88,8 @@
         .end annotation
     .end param
 
-    .line 5
     invoke-direct {p0, p1, p2, p3}, Landroid/widget/RelativeLayout;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
-    .line 6
     new-instance p1, Ljava/util/HashMap;
 
     const/4 p2, 0x4
@@ -114,17 +108,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/widget/mask/MaskContainer;->d:Lcom/commsource/widget/mask/MaskContainer$a;
 
     if-eqz v1, :cond_0
 
-    .line 2
     iget-object v2, p0, Lcom/commsource/widget/mask/MaskContainer;->a:Ljava/util/HashMap;
 
     invoke-interface {v1, v2}, Lcom/commsource/widget/mask/MaskContainer$a;->a(Ljava/util/Map;)V
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -138,10 +129,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sput-object p0, Lcom/commsource/widget/mask/MaskContainer;->d:Lcom/commsource/widget/mask/MaskContainer$a;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -156,7 +145,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/widget/mask/MaskContainer;->a:Ljava/util/HashMap;
 
     invoke-virtual {v1, p1}, Ljava/util/HashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
@@ -177,7 +165,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/widget/mask/MaskContainer;->a:Ljava/util/HashMap;
 
     invoke-virtual {v1}, Ljava/util/HashMap;->keySet()Ljava/util/Set;
@@ -201,12 +188,10 @@
 
     check-cast v2, Ljava/lang/String;
 
-    .line 2
     invoke-virtual {p0, v2}, Lcom/commsource/widget/mask/MaskContainer;->c(Ljava/lang/String;)V
 
     goto :goto_0
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -222,10 +207,8 @@
 
     const/4 v1, 0x0
 
-    .line 1
     iput-object v1, p0, Lcom/commsource/widget/mask/MaskContainer;->b:Ljava/lang/String;
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/widget/mask/MaskContainer;->a:Ljava/util/HashMap;
 
     invoke-virtual {v1, p1}, Ljava/util/HashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
@@ -236,14 +219,12 @@
 
     if-eqz p1, :cond_0
 
-    .line 3
     invoke-virtual {p1}, Lcom/commsource/widget/mask/a;->d()Landroid/view/ViewStub;
 
     move-result-object v1
 
     if-eqz v1, :cond_0
 
-    .line 4
     invoke-virtual {p1}, Lcom/commsource/widget/mask/a;->c()Landroid/view/View;
 
     move-result-object v1
@@ -254,7 +235,6 @@
 
     if-ltz v1, :cond_0
 
-    .line 5
     invoke-virtual {p1}, Lcom/commsource/widget/mask/a;->d()Landroid/view/ViewStub;
 
     move-result-object p1
@@ -263,7 +243,6 @@
 
     invoke-virtual {p1, v1}, Landroid/view/ViewStub;->setVisibility(I)V
 
-    .line 6
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -277,10 +256,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/widget/mask/MaskContainer;->b:Ljava/lang/String;
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/widget/mask/MaskContainer;->a:Ljava/util/HashMap;
 
     invoke-virtual {v1, p1}, Ljava/util/HashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
@@ -291,7 +268,6 @@
 
     if-eqz p1, :cond_1
 
-    .line 3
     invoke-virtual {p1}, Lcom/commsource/widget/mask/a;->d()Landroid/view/ViewStub;
 
     move-result-object v1
@@ -302,12 +278,10 @@
 
     if-gez v1, :cond_0
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/widget/mask/MaskContainer;->c:Lcom/commsource/widget/mask/e;
 
     invoke-virtual {p1, p0, v1}, Lcom/commsource/widget/mask/a;->f(Landroid/view/ViewGroup;Lcom/commsource/widget/mask/e;)V
 
-    .line 5
     :cond_0
     invoke-virtual {p1}, Lcom/commsource/widget/mask/a;->d()Landroid/view/ViewStub;
 
@@ -317,7 +291,6 @@
 
     invoke-virtual {p1, v1}, Landroid/view/ViewStub;->setVisibility(I)V
 
-    .line 6
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -331,7 +304,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/widget/mask/MaskContainer;->a:Ljava/util/HashMap;
 
     invoke-virtual {v1}, Ljava/util/HashMap;->keySet()Ljava/util/Set;
@@ -355,16 +327,13 @@
 
     check-cast v2, Ljava/lang/String;
 
-    .line 2
     invoke-virtual {p0, v2}, Lcom/commsource/widget/mask/MaskContainer;->c(Ljava/lang/String;)V
 
     goto :goto_0
 
-    .line 3
     :cond_0
     invoke-virtual {p0, p1}, Lcom/commsource/widget/mask/MaskContainer;->e(Ljava/lang/String;)V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -377,7 +346,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/widget/mask/MaskContainer;->b:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -392,19 +360,16 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/widget/mask/MaskContainer;->c:Lcom/commsource/widget/mask/e;
 
     if-nez v1, :cond_0
 
-    .line 2
     new-instance v1, Lcom/commsource/widget/mask/e;
 
     invoke-direct {v1}, Lcom/commsource/widget/mask/e;-><init>()V
 
     iput-object v1, p0, Lcom/commsource/widget/mask/MaskContainer;->c:Lcom/commsource/widget/mask/e;
 
-    .line 3
     :cond_0
     iget-object v1, p0, Lcom/commsource/widget/mask/MaskContainer;->c:Lcom/commsource/widget/mask/e;
 
@@ -420,13 +385,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0}, Landroid/widget/RelativeLayout;->onFinishInflate()V
 
-    .line 2
     invoke-direct {p0}, Lcom/commsource/widget/mask/MaskContainer;->d()V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

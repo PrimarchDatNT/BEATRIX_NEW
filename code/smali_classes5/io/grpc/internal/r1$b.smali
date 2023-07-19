@@ -25,7 +25,6 @@
 .method constructor <init>(Lio/grpc/internal/r1;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lio/grpc/internal/r1$b;->a:Lio/grpc/internal/r1;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -38,7 +37,6 @@
 .method public a(Z)V
     .locals 0
 
-    .line 1
     iget-object p1, p0, Lio/grpc/internal/r1$b;->a:Lio/grpc/internal/r1;
 
     invoke-static {p1}, Lio/grpc/internal/r1;->l(Lio/grpc/internal/r1;)Lio/grpc/internal/MessageDeframer;

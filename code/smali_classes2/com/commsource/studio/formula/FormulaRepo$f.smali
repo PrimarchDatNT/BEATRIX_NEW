@@ -58,7 +58,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/studio/formula/FormulaRepo;->x:Lcom/commsource/studio/formula/FormulaRepo;
 
     invoke-static {v1}, Lcom/commsource/studio/formula/FormulaRepo;->u(Lcom/commsource/studio/formula/FormulaRepo;)V
@@ -69,10 +68,8 @@
 
     const/4 v4, 0x0
 
-    .line 2
     invoke-static {v1, v2, v3, v4}, Lcom/commsource/studio/formula/FormulaRepo;->P(Lcom/commsource/studio/formula/FormulaRepo;ZILjava/lang/Object;)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

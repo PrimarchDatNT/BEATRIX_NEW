@@ -50,13 +50,10 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lio/grpc/t0$b$b;->a:Ljava/lang/String;
 
-    .line 3
     iput-object p2, p0, Lio/grpc/t0$b$b;->b:Ljava/lang/Object;
 
     return-void
@@ -65,7 +62,6 @@
 .method static synthetic a(Lio/grpc/t0$b$b;)Ljava/lang/Object;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lio/grpc/t0$b$b;->b:Ljava/lang/Object;
 
     return-object p0
@@ -87,10 +83,8 @@
 
     const-string v0, "debugString"
 
-    .line 1
     invoke-static {p0, v0}, Lcom/google/common/base/t;->F(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 2
     new-instance v0, Lio/grpc/t0$b$b;
 
     const/4 v1, 0x0
@@ -116,10 +110,8 @@
 
     const-string v0, "debugString"
 
-    .line 1
     invoke-static {p0, v0}, Lcom/google/common/base/t;->F(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 2
     new-instance v0, Lio/grpc/t0$b$b;
 
     invoke-direct {v0, p0, p1}, Lio/grpc/t0$b$b;-><init>(Ljava/lang/String;Ljava/lang/Object;)V
@@ -137,7 +129,6 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lio/grpc/t0$b$b;->b:Ljava/lang/Object;
 
     return-object v0
@@ -146,7 +137,6 @@
 .method public toString()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lio/grpc/t0$b$b;->a:Ljava/lang/String;
 
     return-object v0

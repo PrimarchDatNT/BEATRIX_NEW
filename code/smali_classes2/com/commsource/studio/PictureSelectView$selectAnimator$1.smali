@@ -28,7 +28,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/PictureSelectView$selectAnimator$1;->a:Lcom/commsource/studio/PictureSelectView;
 
     invoke-direct {p0}, Lcom/commsource/camera/f1/l$a;-><init>()V
@@ -49,10 +48,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0, p1}, Lcom/commsource/camera/f1/l$a;->b(Lcom/commsource/camera/f1/l;)V
 
-    .line 2
     iget-object p1, p0, Lcom/commsource/studio/PictureSelectView$selectAnimator$1;->a:Lcom/commsource/studio/PictureSelectView;
 
     invoke-virtual {p1}, Lcom/commsource/studio/PictureSelectView;->n()Z
@@ -61,7 +58,6 @@
 
     if-nez p1, :cond_0
 
-    .line 3
     iget-object p1, p0, Lcom/commsource/studio/PictureSelectView$selectAnimator$1;->a:Lcom/commsource/studio/PictureSelectView;
 
     invoke-virtual {p1}, Lcom/commsource/studio/PictureSelectView;->m()Z
@@ -70,14 +66,12 @@
 
     if-nez p1, :cond_0
 
-    .line 4
     sget-object p1, Lcom/commsource/studio/PictureSelectView;->c0:Lcom/commsource/studio/PictureSelectView$a;
 
     const/4 v1, 0x0
 
     invoke-virtual {p1, v1}, Lcom/commsource/studio/PictureSelectView$a;->b(Z)V
 
-    .line 5
     iget-object v2, p0, Lcom/commsource/studio/PictureSelectView$selectAnimator$1;->a:Lcom/commsource/studio/PictureSelectView;
 
     const/4 v3, 0x0
@@ -94,7 +88,6 @@
 
     invoke-static/range {v2 .. v8}, Lcom/commsource/util/l0;->d(Landroid/view/View;ZJLcotlin/jvm/u/a;ILjava/lang/Object;)V
 
-    .line 6
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -112,10 +105,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0, p1}, Lcom/commsource/camera/f1/l$a;->d(Lcom/commsource/camera/f1/l;)V
 
-    .line 2
     iget-object p1, p0, Lcom/commsource/studio/PictureSelectView$selectAnimator$1;->a:Lcom/commsource/studio/PictureSelectView;
 
     invoke-virtual {p1}, Lcom/commsource/studio/PictureSelectView;->n()Z
@@ -124,14 +115,12 @@
 
     if-nez p1, :cond_2
 
-    .line 3
     sget-object p1, Lcom/commsource/studio/PictureSelectView;->c0:Lcom/commsource/studio/PictureSelectView$a;
 
     const/4 v1, 0x0
 
     invoke-virtual {p1, v1}, Lcom/commsource/studio/PictureSelectView$a;->b(Z)V
 
-    .line 4
     iget-object p1, p0, Lcom/commsource/studio/PictureSelectView$selectAnimator$1;->a:Lcom/commsource/studio/PictureSelectView;
 
     invoke-virtual {p1}, Lcom/commsource/studio/PictureSelectView;->getStudioViewModel()Lcom/commsource/studio/ImageStudioViewModel;
@@ -156,7 +145,6 @@
 
     invoke-virtual {p1, v2}, Lcom/commsource/studio/layer/BaseLayer;->n0(Z)V
 
-    .line 5
     :cond_0
     iget-object p1, p0, Lcom/commsource/studio/PictureSelectView$selectAnimator$1;->a:Lcom/commsource/studio/PictureSelectView;
 
@@ -178,7 +166,6 @@
 
     invoke-static {p1, v1, v3, v2, v4}, Lcom/commsource/editengine/d;->u(Lcom/commsource/editengine/d;ZLcotlin/jvm/u/a;ILjava/lang/Object;)V
 
-    .line 6
     :cond_1
     iget-object p1, p0, Lcom/commsource/studio/PictureSelectView$selectAnimator$1;->a:Lcom/commsource/studio/PictureSelectView;
 
@@ -188,7 +175,6 @@
 
     if-eqz p1, :cond_2
 
-    .line 7
     iget-object v1, p0, Lcom/commsource/studio/PictureSelectView$selectAnimator$1;->a:Lcom/commsource/studio/PictureSelectView;
 
     const/4 v2, 0x0
@@ -205,7 +191,6 @@
 
     invoke-static/range {v1 .. v7}, Lcom/commsource/util/l0;->d(Landroid/view/View;ZJLcotlin/jvm/u/a;ILjava/lang/Object;)V
 
-    .line 8
     :cond_2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -219,7 +204,6 @@
 
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/studio/PictureSelectView$selectAnimator$1;->a:Lcom/commsource/studio/PictureSelectView;
 
     invoke-virtual {v0}, Lcom/commsource/studio/PictureSelectView;->getConfirmCenterYValuer()Lcom/commsource/camera/f1/n;
@@ -230,7 +214,6 @@
 
     move-result p1
 
-    .line 2
     iget-object v0, p0, Lcom/commsource/studio/PictureSelectView$selectAnimator$1;->a:Lcom/commsource/studio/PictureSelectView;
 
     invoke-virtual {v0}, Lcom/commsource/studio/PictureSelectView;->getCenterPoint()Landroid/graphics/Point;
@@ -241,12 +224,10 @@
 
     iput p1, v0, Landroid/graphics/Point;->y:I
 
-    .line 3
     iget-object p1, p0, Lcom/commsource/studio/PictureSelectView$selectAnimator$1;->a:Lcom/commsource/studio/PictureSelectView;
 
     invoke-virtual {p1}, Landroid/view/View;->invalidate()V
 
-    .line 4
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

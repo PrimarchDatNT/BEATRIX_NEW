@@ -48,22 +48,18 @@
 .method public constructor <init>(Landroid/content/Context;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/commsource/beautymain/widget/gesturewidget/GsensorImageView;-><init>(Landroid/content/Context;)V
 
     const/4 p1, 0x0
 
-    .line 2
     iput-boolean p1, p0, Lcom/commsource/beautymain/widget/gesturewidget/RealtimeFilterImageView;->Q1:Z
 
-    .line 3
     new-instance p1, Landroid/graphics/Matrix;
 
     invoke-direct {p1}, Landroid/graphics/Matrix;-><init>()V
 
     iput-object p1, p0, Lcom/commsource/beautymain/widget/gesturewidget/RealtimeFilterImageView;->U1:Landroid/graphics/Matrix;
 
-    .line 4
     invoke-direct {p0}, Lcom/commsource/beautymain/widget/gesturewidget/RealtimeFilterImageView;->l0()V
 
     return-void
@@ -72,22 +68,18 @@
 .method public constructor <init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
     .locals 0
 
-    .line 5
     invoke-direct {p0, p1, p2}, Lcom/commsource/beautymain/widget/gesturewidget/GsensorImageView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
     const/4 p1, 0x0
 
-    .line 6
     iput-boolean p1, p0, Lcom/commsource/beautymain/widget/gesturewidget/RealtimeFilterImageView;->Q1:Z
 
-    .line 7
     new-instance p1, Landroid/graphics/Matrix;
 
     invoke-direct {p1}, Landroid/graphics/Matrix;-><init>()V
 
     iput-object p1, p0, Lcom/commsource/beautymain/widget/gesturewidget/RealtimeFilterImageView;->U1:Landroid/graphics/Matrix;
 
-    .line 8
     invoke-direct {p0}, Lcom/commsource/beautymain/widget/gesturewidget/RealtimeFilterImageView;->l0()V
 
     return-void
@@ -96,22 +88,18 @@
 .method public constructor <init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
     .locals 0
 
-    .line 9
     invoke-direct {p0, p1, p2, p3}, Lcom/commsource/beautymain/widget/gesturewidget/GsensorImageView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
     const/4 p1, 0x0
 
-    .line 10
     iput-boolean p1, p0, Lcom/commsource/beautymain/widget/gesturewidget/RealtimeFilterImageView;->Q1:Z
 
-    .line 11
     new-instance p1, Landroid/graphics/Matrix;
 
     invoke-direct {p1}, Landroid/graphics/Matrix;-><init>()V
 
     iput-object p1, p0, Lcom/commsource/beautymain/widget/gesturewidget/RealtimeFilterImageView;->U1:Landroid/graphics/Matrix;
 
-    .line 12
     invoke-direct {p0}, Lcom/commsource/beautymain/widget/gesturewidget/RealtimeFilterImageView;->l0()V
 
     return-void
@@ -123,22 +111,18 @@
         value = 0x15
     .end annotation
 
-    .line 13
     invoke-direct {p0, p1, p2, p3, p4}, Lcom/commsource/beautymain/widget/gesturewidget/GsensorImageView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;II)V
 
     const/4 p1, 0x0
 
-    .line 14
     iput-boolean p1, p0, Lcom/commsource/beautymain/widget/gesturewidget/RealtimeFilterImageView;->Q1:Z
 
-    .line 15
     new-instance p1, Landroid/graphics/Matrix;
 
     invoke-direct {p1}, Landroid/graphics/Matrix;-><init>()V
 
     iput-object p1, p0, Lcom/commsource/beautymain/widget/gesturewidget/RealtimeFilterImageView;->U1:Landroid/graphics/Matrix;
 
-    .line 16
     invoke-direct {p0}, Lcom/commsource/beautymain/widget/gesturewidget/RealtimeFilterImageView;->l0()V
 
     return-void
@@ -151,7 +135,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/beautymain/widget/gesturewidget/RealtimeFilterImageView;->P1:Landroid/graphics/Paint;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -166,7 +149,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/commsource/beautymain/widget/gesturewidget/RealtimeFilterImageView;->k0(F)I
 
     move-result p0
@@ -183,7 +165,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/beautymain/widget/gesturewidget/RealtimeFilterImageView;->O1:Landroid/graphics/Paint;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -198,7 +179,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p0, p0, Lcom/commsource/beautymain/widget/gesturewidget/RealtimeFilterImageView;->M1:Landroid/graphics/Bitmap;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -240,7 +220,6 @@
 
     float-to-int p1, p1
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
@@ -253,7 +232,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Landroid/graphics/Paint;
 
     const/4 v2, 0x3
@@ -264,20 +242,16 @@
 
     const/16 v3, 0xff
 
-    .line 2
     invoke-virtual {v1, v3}, Landroid/graphics/Paint;->setAlpha(I)V
 
-    .line 3
     new-instance v1, Landroid/graphics/Paint;
 
     invoke-direct {v1, v2}, Landroid/graphics/Paint;-><init>(I)V
 
     iput-object v1, p0, Lcom/commsource/beautymain/widget/gesturewidget/RealtimeFilterImageView;->N1:Landroid/graphics/Paint;
 
-    .line 4
     invoke-virtual {v1, v3}, Landroid/graphics/Paint;->setAlpha(I)V
 
-    .line 5
     new-instance v1, Landroid/graphics/Paint;
 
     invoke-direct {v1, v2}, Landroid/graphics/Paint;-><init>(I)V
@@ -286,10 +260,8 @@
 
     const/4 v2, 0x0
 
-    .line 6
     invoke-virtual {v1, v2}, Landroid/graphics/Paint;->setAlpha(I)V
 
-    .line 7
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -302,7 +274,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->getCurrentScaleX()F
 
     move-result v1
@@ -343,7 +314,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/beautymain/widget/gesturewidget/RealtimeFilterImageView;->J1:Landroid/graphics/Bitmap;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -358,7 +328,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/beautymain/widget/gesturewidget/RealtimeFilterImageView;->N1:Landroid/graphics/Paint;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -373,7 +342,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/beautymain/widget/gesturewidget/RealtimeFilterImageView;->K1:Landroid/graphics/Bitmap;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -388,7 +356,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/beautymain/widget/gesturewidget/RealtimeFilterImageView;->O1:Landroid/graphics/Paint;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -403,7 +370,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/beautymain/widget/gesturewidget/RealtimeFilterImageView;->Q1:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -418,17 +384,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/beautymain/widget/gesturewidget/RealtimeFilterImageView;->J1:Landroid/graphics/Bitmap;
 
-    .line 2
     iput-object p1, p0, Lcom/commsource/beautymain/widget/gesturewidget/RealtimeFilterImageView;->J1:Landroid/graphics/Bitmap;
 
     if-eqz p2, :cond_0
 
     if-eqz v1, :cond_0
 
-    .line 3
     invoke-virtual {v1}, Landroid/graphics/Bitmap;->isRecycled()Z
 
     move-result p1
@@ -439,10 +402,8 @@
 
     if-eq v1, p1, :cond_0
 
-    .line 4
     invoke-virtual {v1}, Landroid/graphics/Bitmap;->recycle()V
 
-    .line 5
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -456,17 +417,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/beautymain/widget/gesturewidget/RealtimeFilterImageView;->K1:Landroid/graphics/Bitmap;
 
-    .line 2
     iput-object p1, p0, Lcom/commsource/beautymain/widget/gesturewidget/RealtimeFilterImageView;->K1:Landroid/graphics/Bitmap;
 
     if-eqz p2, :cond_0
 
     if-eqz v1, :cond_0
 
-    .line 3
     invoke-virtual {v1}, Landroid/graphics/Bitmap;->isRecycled()Z
 
     move-result p1
@@ -481,14 +439,11 @@
 
     if-eq v1, p1, :cond_0
 
-    .line 4
     invoke-virtual {v1}, Landroid/graphics/Bitmap;->recycle()V
 
-    .line 5
     :cond_0
     invoke-virtual {p0}, Landroid/widget/ImageView;->invalidate()V
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -501,25 +456,20 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0, p1}, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->onAnimationEnd(Landroid/animation/Animator;)V
 
-    .line 2
     invoke-direct {p0}, Lcom/commsource/beautymain/widget/gesturewidget/RealtimeFilterImageView;->m0()Z
 
     move-result p1
 
     if-eqz p1, :cond_0
 
-    .line 3
     iget-object p1, p0, Lcom/commsource/beautymain/widget/gesturewidget/RealtimeFilterImageView;->R1:Lcom/commsource/beautymain/widget/gesturewidget/RealtimeFilterImageView$b;
 
     if-eqz p1, :cond_0
 
-    .line 4
     invoke-interface {p1}, Lcom/commsource/beautymain/widget/gesturewidget/RealtimeFilterImageView$b;->a()V
 
-    .line 5
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -533,18 +483,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0}, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->onDetachedFromWindow()V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/beautymain/widget/gesturewidget/RealtimeFilterImageView;->T1:Lcom/commsource/beautymain/widget/gesturewidget/j;
 
     if-eqz v1, :cond_0
 
-    .line 3
     invoke-virtual {v1}, Lcom/commsource/beautymain/widget/gesturewidget/j;->m()V
 
-    .line 4
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -558,17 +504,14 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/beautymain/widget/gesturewidget/RealtimeFilterImageView;->Q1:Z
 
     if-eqz v1, :cond_0
 
-    .line 2
     invoke-super {p0, p1}, Landroid/widget/ImageView;->onDraw(Landroid/graphics/Canvas;)V
 
     goto :goto_0
 
-    .line 3
     :cond_0
     invoke-virtual {p0}, Landroid/widget/ImageView;->getImageMatrix()Landroid/graphics/Matrix;
 
@@ -576,7 +519,6 @@
 
     invoke-virtual {p1, v1}, Landroid/graphics/Canvas;->concat(Landroid/graphics/Matrix;)V
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/beautymain/widget/gesturewidget/RealtimeFilterImageView;->T1:Lcom/commsource/beautymain/widget/gesturewidget/j;
 
     if-eqz v1, :cond_1
@@ -587,17 +529,14 @@
 
     if-eqz v1, :cond_1
 
-    .line 5
     iget-object v1, p0, Lcom/commsource/beautymain/widget/gesturewidget/RealtimeFilterImageView;->T1:Lcom/commsource/beautymain/widget/gesturewidget/j;
 
     invoke-virtual {v1, p1}, Lcom/commsource/beautymain/widget/gesturewidget/j;->n(Landroid/graphics/Canvas;)V
 
-    .line 6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 7
     :cond_1
     iget-object v1, p0, Lcom/commsource/beautymain/widget/gesturewidget/RealtimeFilterImageView;->J1:Landroid/graphics/Bitmap;
 
@@ -609,7 +548,6 @@
 
     if-nez v1, :cond_2
 
-    .line 8
     iget-object v1, p0, Lcom/commsource/beautymain/widget/gesturewidget/RealtimeFilterImageView;->J1:Landroid/graphics/Bitmap;
 
     iget-object v2, p0, Lcom/commsource/beautymain/widget/gesturewidget/RealtimeFilterImageView;->U1:Landroid/graphics/Matrix;
@@ -618,7 +556,6 @@
 
     invoke-virtual {p1, v1, v2, v3}, Landroid/graphics/Canvas;->drawBitmap(Landroid/graphics/Bitmap;Landroid/graphics/Matrix;Landroid/graphics/Paint;)V
 
-    .line 9
     :cond_2
     iget-object v1, p0, Lcom/commsource/beautymain/widget/gesturewidget/RealtimeFilterImageView;->K1:Landroid/graphics/Bitmap;
 
@@ -630,7 +567,6 @@
 
     if-nez v1, :cond_3
 
-    .line 10
     iget-object v1, p0, Lcom/commsource/beautymain/widget/gesturewidget/RealtimeFilterImageView;->K1:Landroid/graphics/Bitmap;
 
     iget-object v2, p0, Lcom/commsource/beautymain/widget/gesturewidget/RealtimeFilterImageView;->U1:Landroid/graphics/Matrix;
@@ -639,7 +575,6 @@
 
     invoke-virtual {p1, v1, v2, v3}, Landroid/graphics/Canvas;->drawBitmap(Landroid/graphics/Bitmap;Landroid/graphics/Matrix;Landroid/graphics/Paint;)V
 
-    .line 11
     :cond_3
     iget-object v1, p0, Lcom/commsource/beautymain/widget/gesturewidget/RealtimeFilterImageView;->I1:Landroid/animation/ValueAnimator;
 
@@ -651,7 +586,6 @@
 
     if-eqz v1, :cond_4
 
-    .line 12
     iget-object v1, p0, Lcom/commsource/beautymain/widget/gesturewidget/RealtimeFilterImageView;->M1:Landroid/graphics/Bitmap;
 
     if-eqz v1, :cond_4
@@ -662,7 +596,6 @@
 
     if-nez v1, :cond_4
 
-    .line 13
     iget-object v1, p0, Lcom/commsource/beautymain/widget/gesturewidget/RealtimeFilterImageView;->M1:Landroid/graphics/Bitmap;
 
     iget-object v2, p0, Lcom/commsource/beautymain/widget/gesturewidget/RealtimeFilterImageView;->U1:Landroid/graphics/Matrix;
@@ -671,7 +604,6 @@
 
     invoke-virtual {p1, v1, v2, v3}, Landroid/graphics/Canvas;->drawBitmap(Landroid/graphics/Bitmap;Landroid/graphics/Matrix;Landroid/graphics/Paint;)V
 
-    .line 14
     :cond_4
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -688,12 +620,10 @@
 
     if-nez p1, :cond_0
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 2
     :cond_0
     invoke-virtual {p1}, Landroid/graphics/Bitmap;->getWidth()I
 
@@ -711,14 +641,12 @@
 
     iput-object v1, p0, Lcom/commsource/beautymain/widget/gesturewidget/RealtimeFilterImageView;->M1:Landroid/graphics/Bitmap;
 
-    .line 3
     new-instance v1, Landroid/graphics/Canvas;
 
     iget-object v2, p0, Lcom/commsource/beautymain/widget/gesturewidget/RealtimeFilterImageView;->M1:Landroid/graphics/Bitmap;
 
     invoke-direct {v1, v2}, Landroid/graphics/Canvas;-><init>(Landroid/graphics/Bitmap;)V
 
-    .line 4
     iget-object v2, p0, Lcom/commsource/beautymain/widget/gesturewidget/RealtimeFilterImageView;->J1:Landroid/graphics/Bitmap;
 
     iget-object v3, p0, Lcom/commsource/beautymain/widget/gesturewidget/RealtimeFilterImageView;->N1:Landroid/graphics/Paint;
@@ -727,28 +655,24 @@
 
     invoke-virtual {v1, v2, v4, v4, v3}, Landroid/graphics/Canvas;->drawBitmap(Landroid/graphics/Bitmap;FFLandroid/graphics/Paint;)V
 
-    .line 5
     new-instance v2, Landroid/graphics/Paint;
 
     const/4 v3, 0x3
 
     invoke-direct {v2, v3}, Landroid/graphics/Paint;-><init>(I)V
 
-    .line 6
     invoke-direct {p0, p2}, Lcom/commsource/beautymain/widget/gesturewidget/RealtimeFilterImageView;->k0(F)I
 
     move-result v3
 
     invoke-virtual {v2, v3}, Landroid/graphics/Paint;->setAlpha(I)V
 
-    .line 7
     invoke-virtual {v1, p1, v4, v4, v2}, Landroid/graphics/Canvas;->drawBitmap(Landroid/graphics/Bitmap;FFLandroid/graphics/Paint;)V
 
     const/4 v1, 0x2
 
     new-array v1, v1, [I
 
-    .line 8
     fill-array-data v1, :array_0
 
     invoke-static {v1}, Landroid/animation/ValueAnimator;->ofInt([I)Landroid/animation/ValueAnimator;
@@ -759,10 +683,8 @@
 
     const-wide/16 v2, 0x535
 
-    .line 9
     invoke-virtual {v1, v2, v3}, Landroid/animation/ValueAnimator;->setDuration(J)Landroid/animation/ValueAnimator;
 
-    .line 10
     iget-object v1, p0, Lcom/commsource/beautymain/widget/gesturewidget/RealtimeFilterImageView;->I1:Landroid/animation/ValueAnimator;
 
     new-instance v2, Landroid/view/animation/DecelerateInterpolator;
@@ -771,7 +693,6 @@
 
     invoke-virtual {v1, v2}, Landroid/animation/ValueAnimator;->setInterpolator(Landroid/animation/TimeInterpolator;)V
 
-    .line 11
     iget-object v1, p0, Lcom/commsource/beautymain/widget/gesturewidget/RealtimeFilterImageView;->I1:Landroid/animation/ValueAnimator;
 
     new-instance v2, Lcom/commsource/beautymain/widget/gesturewidget/RealtimeFilterImageView$a;
@@ -780,12 +701,10 @@
 
     invoke-virtual {v1, v2}, Landroid/animation/ValueAnimator;->addUpdateListener(Landroid/animation/ValueAnimator$AnimatorUpdateListener;)V
 
-    .line 12
     iget-object p1, p0, Lcom/commsource/beautymain/widget/gesturewidget/RealtimeFilterImageView;->I1:Landroid/animation/ValueAnimator;
 
     invoke-virtual {p1}, Landroid/animation/ValueAnimator;->start()V
 
-    .line 13
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -804,25 +723,21 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/beautymain/widget/gesturewidget/RealtimeFilterImageView;->T1:Lcom/commsource/beautymain/widget/gesturewidget/j;
 
     if-nez v1, :cond_0
 
-    .line 2
     new-instance v1, Lcom/commsource/beautymain/widget/gesturewidget/j;
 
     invoke-direct {v1, p0}, Lcom/commsource/beautymain/widget/gesturewidget/j;-><init>(Lcom/commsource/beautymain/widget/gesturewidget/RealtimeFilterImageView;)V
 
     iput-object v1, p0, Lcom/commsource/beautymain/widget/gesturewidget/RealtimeFilterImageView;->T1:Lcom/commsource/beautymain/widget/gesturewidget/j;
 
-    .line 3
     :cond_0
     iget-object v1, p0, Lcom/commsource/beautymain/widget/gesturewidget/RealtimeFilterImageView;->T1:Lcom/commsource/beautymain/widget/gesturewidget/j;
 
     invoke-virtual {v1, p1}, Lcom/commsource/beautymain/widget/gesturewidget/j;->o(Ljava/lang/Runnable;)V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -837,10 +752,8 @@
 
     const/4 v1, 0x1
 
-    .line 1
     invoke-virtual {p0, p1, v1}, Lcom/commsource/beautymain/widget/gesturewidget/RealtimeFilterImageView;->n0(Landroid/graphics/Bitmap;Z)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -853,20 +766,16 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/commsource/beautymain/widget/gesturewidget/RealtimeFilterImageView;->k0(F)I
 
     move-result p1
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/beautymain/widget/gesturewidget/RealtimeFilterImageView;->O1:Landroid/graphics/Paint;
 
     invoke-virtual {v1, p1}, Landroid/graphics/Paint;->setAlpha(I)V
 
-    .line 3
     invoke-virtual {p0}, Landroid/widget/ImageView;->invalidate()V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -881,10 +790,8 @@
 
     const/4 v1, 0x1
 
-    .line 1
     invoke-virtual {p0, p1, v1}, Lcom/commsource/beautymain/widget/gesturewidget/RealtimeFilterImageView;->o0(Landroid/graphics/Bitmap;Z)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -897,13 +804,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-super {p0, p1}, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->setImageBitmap(Landroid/graphics/Bitmap;)V
 
-    .line 2
     iput-object p1, p0, Lcom/commsource/beautymain/widget/gesturewidget/RealtimeFilterImageView;->L1:Landroid/graphics/Bitmap;
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -916,10 +820,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/beautymain/widget/gesturewidget/RealtimeFilterImageView;->R1:Lcom/commsource/beautymain/widget/gesturewidget/RealtimeFilterImageView$b;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -932,10 +834,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/beautymain/widget/gesturewidget/RealtimeFilterImageView;->S1:Lcom/commsource/beautymain/widget/gesturewidget/RealtimeFilterImageView$c;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -948,22 +848,17 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/beautymain/widget/gesturewidget/RealtimeFilterImageView;->Q1:Z
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/beautymain/widget/gesturewidget/RealtimeFilterImageView;->S1:Lcom/commsource/beautymain/widget/gesturewidget/RealtimeFilterImageView$c;
 
     if-eqz v1, :cond_0
 
-    .line 3
     invoke-interface {v1, p1}, Lcom/commsource/beautymain/widget/gesturewidget/RealtimeFilterImageView$c;->a(Z)V
 
-    .line 4
     :cond_0
     invoke-virtual {p0}, Landroid/widget/ImageView;->invalidate()V
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -976,10 +871,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/beautymain/widget/gesturewidget/RealtimeFilterImageView;->Q1:Z
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -992,28 +885,23 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-direct {p0}, Lcom/commsource/beautymain/widget/gesturewidget/RealtimeFilterImageView;->m0()Z
 
     move-result v1
 
     if-eqz v1, :cond_0
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/beautymain/widget/gesturewidget/RealtimeFilterImageView;->R1:Lcom/commsource/beautymain/widget/gesturewidget/RealtimeFilterImageView$b;
 
     if-eqz v1, :cond_1
 
-    .line 3
     invoke-interface {v1}, Lcom/commsource/beautymain/widget/gesturewidget/RealtimeFilterImageView$b;->a()V
 
     goto :goto_0
 
-    .line 4
     :cond_0
     invoke-super {p0}, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->v()V
 
-    .line 5
     :cond_1
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

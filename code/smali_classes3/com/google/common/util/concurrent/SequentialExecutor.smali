@@ -58,7 +58,6 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
     const-class v0, Lcom/google/common/util/concurrent/SequentialExecutor;
 
     invoke-virtual {v0}, Ljava/lang/Class;->getName()Ljava/lang/String;
@@ -77,27 +76,22 @@
 .method constructor <init>(Ljava/util/concurrent/Executor;)V
     .locals 2
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     new-instance v0, Ljava/util/ArrayDeque;
 
     invoke-direct {v0}, Ljava/util/ArrayDeque;-><init>()V
 
     iput-object v0, p0, Lcom/google/common/util/concurrent/SequentialExecutor;->b:Ljava/util/Deque;
 
-    .line 3
     sget-object v0, Lcom/google/common/util/concurrent/SequentialExecutor$WorkerRunningState;->IDLE:Lcom/google/common/util/concurrent/SequentialExecutor$WorkerRunningState;
 
     iput-object v0, p0, Lcom/google/common/util/concurrent/SequentialExecutor;->c:Lcom/google/common/util/concurrent/SequentialExecutor$WorkerRunningState;
 
     const-wide/16 v0, 0x0
 
-    .line 4
     iput-wide v0, p0, Lcom/google/common/util/concurrent/SequentialExecutor;->d:J
 
-    .line 5
     new-instance v0, Lcom/google/common/util/concurrent/SequentialExecutor$b;
 
     const/4 v1, 0x0
@@ -106,7 +100,6 @@
 
     iput-object v0, p0, Lcom/google/common/util/concurrent/SequentialExecutor;->f:Lcom/google/common/util/concurrent/SequentialExecutor$b;
 
-    .line 6
     invoke-static {p1}, Lcom/google/common/base/t;->E(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -121,7 +114,6 @@
 .method static synthetic a(Lcom/google/common/util/concurrent/SequentialExecutor;)Ljava/util/Deque;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lcom/google/common/util/concurrent/SequentialExecutor;->b:Ljava/util/Deque;
 
     return-object p0
@@ -130,7 +122,6 @@
 .method static synthetic b(Lcom/google/common/util/concurrent/SequentialExecutor;)Lcom/google/common/util/concurrent/SequentialExecutor$WorkerRunningState;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lcom/google/common/util/concurrent/SequentialExecutor;->c:Lcom/google/common/util/concurrent/SequentialExecutor$WorkerRunningState;
 
     return-object p0
@@ -139,7 +130,6 @@
 .method static synthetic c(Lcom/google/common/util/concurrent/SequentialExecutor;Lcom/google/common/util/concurrent/SequentialExecutor$WorkerRunningState;)Lcom/google/common/util/concurrent/SequentialExecutor$WorkerRunningState;
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/common/util/concurrent/SequentialExecutor;->c:Lcom/google/common/util/concurrent/SequentialExecutor$WorkerRunningState;
 
     return-object p1
@@ -148,7 +138,6 @@
 .method static synthetic d(Lcom/google/common/util/concurrent/SequentialExecutor;)J
     .locals 4
 
-    .line 1
     iget-wide v0, p0, Lcom/google/common/util/concurrent/SequentialExecutor;->d:J
 
     const-wide/16 v2, 0x1
@@ -163,7 +152,6 @@
 .method static synthetic e()Ljava/util/logging/Logger;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/google/common/util/concurrent/SequentialExecutor;->g:Ljava/util/logging/Logger;
 
     return-object v0
@@ -174,15 +162,12 @@
 .method public execute(Ljava/lang/Runnable;)V
     .locals 8
 
-    .line 1
     invoke-static {p1}, Lcom/google/common/base/t;->E(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 2
     iget-object v0, p0, Lcom/google/common/util/concurrent/SequentialExecutor;->b:Ljava/util/Deque;
 
     monitor-enter v0
 
-    .line 3
     :try_start_0
     iget-object v1, p0, Lcom/google/common/util/concurrent/SequentialExecutor;->c:Lcom/google/common/util/concurrent/SequentialExecutor$WorkerRunningState;
 
@@ -196,26 +181,21 @@
 
     goto :goto_3
 
-    .line 4
     :cond_0
     iget-wide v3, p0, Lcom/google/common/util/concurrent/SequentialExecutor;->d:J
 
-    .line 5
     new-instance v1, Lcom/google/common/util/concurrent/SequentialExecutor$a;
 
     invoke-direct {v1, p0, p1}, Lcom/google/common/util/concurrent/SequentialExecutor$a;-><init>(Lcom/google/common/util/concurrent/SequentialExecutor;Ljava/lang/Runnable;)V
 
-    .line 6
     iget-object p1, p0, Lcom/google/common/util/concurrent/SequentialExecutor;->b:Ljava/util/Deque;
 
     invoke-interface {p1, v1}, Ljava/util/Deque;->add(Ljava/lang/Object;)Z
 
-    .line 7
     sget-object p1, Lcom/google/common/util/concurrent/SequentialExecutor$WorkerRunningState;->QUEUING:Lcom/google/common/util/concurrent/SequentialExecutor$WorkerRunningState;
 
     iput-object p1, p0, Lcom/google/common/util/concurrent/SequentialExecutor;->c:Lcom/google/common/util/concurrent/SequentialExecutor$WorkerRunningState;
 
-    .line 8
     monitor-exit v0
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_2
@@ -224,7 +204,6 @@
 
     const/4 v5, 0x0
 
-    .line 9
     :try_start_1
     iget-object v6, p0, Lcom/google/common/util/concurrent/SequentialExecutor;->a:Ljava/util/concurrent/Executor;
 
@@ -235,7 +214,6 @@
     .catch Ljava/lang/RuntimeException; {:try_start_1 .. :try_end_1} :catch_1
     .catch Ljava/lang/Error; {:try_start_1 .. :try_end_1} :catch_0
 
-    .line 10
     iget-object v1, p0, Lcom/google/common/util/concurrent/SequentialExecutor;->c:Lcom/google/common/util/concurrent/SequentialExecutor$WorkerRunningState;
 
     if-eq v1, p1, :cond_1
@@ -250,13 +228,11 @@
 
     return-void
 
-    .line 11
     :cond_2
     iget-object v6, p0, Lcom/google/common/util/concurrent/SequentialExecutor;->b:Ljava/util/Deque;
 
     monitor-enter v6
 
-    .line 12
     :try_start_2
     iget-wide v0, p0, Lcom/google/common/util/concurrent/SequentialExecutor;->d:J
 
@@ -268,10 +244,8 @@
 
     if-ne v0, p1, :cond_3
 
-    .line 13
     iput-object v2, p0, Lcom/google/common/util/concurrent/SequentialExecutor;->c:Lcom/google/common/util/concurrent/SequentialExecutor$WorkerRunningState;
 
-    .line 14
     :cond_3
     monitor-exit v6
 
@@ -294,13 +268,11 @@
     :catch_1
     move-exception p1
 
-    .line 15
     :goto_1
     iget-object v2, p0, Lcom/google/common/util/concurrent/SequentialExecutor;->b:Ljava/util/Deque;
 
     monitor-enter v2
 
-    .line 16
     :try_start_3
     iget-object v3, p0, Lcom/google/common/util/concurrent/SequentialExecutor;->c:Lcom/google/common/util/concurrent/SequentialExecutor$WorkerRunningState;
 
@@ -315,7 +287,6 @@
     :cond_4
     iget-object v3, p0, Lcom/google/common/util/concurrent/SequentialExecutor;->b:Ljava/util/Deque;
 
-    .line 17
     invoke-interface {v3, v1}, Ljava/util/Deque;->removeLastOccurrence(Ljava/lang/Object;)Z
 
     move-result v1
@@ -327,7 +298,6 @@
     :cond_5
     const/4 v0, 0x0
 
-    .line 18
     :goto_2
     instance-of v1, p1, Ljava/util/concurrent/RejectedExecutionException;
 
@@ -335,26 +305,22 @@
 
     if-nez v0, :cond_6
 
-    .line 19
     monitor-exit v2
 
     return-void
 
-    .line 20
     :cond_6
     throw p1
 
     :catchall_1
     move-exception p1
 
-    .line 21
     monitor-exit v2
     :try_end_3
     .catchall {:try_start_3 .. :try_end_3} :catchall_1
 
     throw p1
 
-    .line 22
     :cond_7
     :goto_3
     :try_start_4
@@ -362,7 +328,6 @@
 
     invoke-interface {v1, p1}, Ljava/util/Deque;->add(Ljava/lang/Object;)Z
 
-    .line 23
     monitor-exit v0
 
     return-void
@@ -370,7 +335,6 @@
     :catchall_2
     move-exception p1
 
-    .line 24
     monitor-exit v0
     :try_end_4
     .catchall {:try_start_4 .. :try_end_4} :catchall_2
@@ -381,7 +345,6 @@
 .method public toString()Ljava/lang/String;
     .locals 2
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V

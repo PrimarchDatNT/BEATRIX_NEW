@@ -45,7 +45,6 @@
 
     invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-interface {p0}, Lcotlin/sequences/m;->iterator()Ljava/util/Iterator;
 
     move-result-object p0
@@ -71,7 +70,6 @@
 
     and-int/lit16 v1, v1, 0xff
 
-    .line 2
     invoke-static {v1}, Lcotlin/f1;->s(I)I
 
     move-result v1
@@ -118,7 +116,6 @@
 
     invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-interface {p0}, Lcotlin/sequences/m;->iterator()Ljava/util/Iterator;
 
     move-result-object p0
@@ -144,7 +141,6 @@
 
     add-int/2addr v0, v1
 
-    .line 2
     invoke-static {v0}, Lcotlin/f1;->s(I)I
 
     move-result v0
@@ -185,7 +181,6 @@
 
     invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-interface {p0}, Lcotlin/sequences/m;->iterator()Ljava/util/Iterator;
 
     move-result-object p0
@@ -211,7 +206,6 @@
 
     add-long/2addr v0, v2
 
-    .line 2
     invoke-static {v0, v1}, Lcotlin/j1;->s(J)J
 
     move-result-wide v0
@@ -252,7 +246,6 @@
 
     invoke-static {p0, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-interface {p0}, Lcotlin/sequences/m;->iterator()Ljava/util/Iterator;
 
     move-result-object p0
@@ -280,7 +273,6 @@
 
     and-int/2addr v1, v2
 
-    .line 2
     invoke-static {v1}, Lcotlin/f1;->s(I)I
 
     move-result v1

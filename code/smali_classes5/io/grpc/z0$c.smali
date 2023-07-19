@@ -38,17 +38,14 @@
 .method private constructor <init>(Lio/grpc/Status;)V
     .locals 2
 
-    .line 4
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/4 v0, 0x0
 
-    .line 5
     iput-object v0, p0, Lio/grpc/z0$c;->b:Ljava/lang/Object;
 
     const-string v0, "status"
 
-    .line 6
     invoke-static {p1, v0}, Lcom/google/common/base/t;->F(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v0
@@ -57,7 +54,6 @@
 
     iput-object v0, p0, Lio/grpc/z0$c;->a:Lio/grpc/Status;
 
-    .line 7
     invoke-virtual {p1}, Lio/grpc/Status;->r()Z
 
     move-result v0
@@ -74,12 +70,10 @@
 .method private constructor <init>(Ljava/lang/Object;)V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const-string v0, "config"
 
-    .line 2
     invoke-static {p1, v0}, Lcom/google/common/base/t;->F(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -88,7 +82,6 @@
 
     const/4 p1, 0x0
 
-    .line 3
     iput-object p1, p0, Lio/grpc/z0$c;->a:Lio/grpc/Status;
 
     return-void
@@ -97,7 +90,6 @@
 .method public static a(Ljava/lang/Object;)Lio/grpc/z0$c;
     .locals 1
 
-    .line 1
     new-instance v0, Lio/grpc/z0$c;
 
     invoke-direct {v0, p0}, Lio/grpc/z0$c;-><init>(Ljava/lang/Object;)V
@@ -108,7 +100,6 @@
 .method public static b(Lio/grpc/Status;)Lio/grpc/z0$c;
     .locals 1
 
-    .line 1
     new-instance v0, Lio/grpc/z0$c;
 
     invoke-direct {v0, p0}, Lio/grpc/z0$c;-><init>(Lio/grpc/Status;)V
@@ -123,7 +114,6 @@
     .annotation runtime Ljavax/annotation/j;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lio/grpc/z0$c;->b:Ljava/lang/Object;
 
     return-object v0
@@ -134,7 +124,6 @@
     .annotation runtime Ljavax/annotation/j;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lio/grpc/z0$c;->a:Lio/grpc/Status;
 
     return-object v0
@@ -154,7 +143,6 @@
 
     if-eqz p1, :cond_3
 
-    .line 1
     const-class v2, Lio/grpc/z0$c;
 
     invoke-virtual {p1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
@@ -165,11 +153,9 @@
 
     goto :goto_1
 
-    .line 2
     :cond_1
     check-cast p1, Lio/grpc/z0$c;
 
-    .line 3
     iget-object v2, p0, Lio/grpc/z0$c;->a:Lio/grpc/Status;
 
     iget-object v3, p1, Lio/grpc/z0$c;->a:Lio/grpc/Status;
@@ -210,7 +196,6 @@
 
     new-array v0, v0, [Ljava/lang/Object;
 
-    .line 1
     iget-object v1, p0, Lio/grpc/z0$c;->a:Lio/grpc/Status;
 
     const/4 v2, 0x0
@@ -233,12 +218,10 @@
 .method public toString()Ljava/lang/String;
     .locals 3
 
-    .line 1
     iget-object v0, p0, Lio/grpc/z0$c;->b:Ljava/lang/Object;
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-static {p0}, Lcom/google/common/base/p;->c(Ljava/lang/Object;)Lcom/google/common/base/p$b;
 
     move-result-object v0
@@ -247,19 +230,16 @@
 
     const-string v2, "config"
 
-    .line 3
     invoke-virtual {v0, v2, v1}, Lcom/google/common/base/p$b;->f(Ljava/lang/String;Ljava/lang/Object;)Lcom/google/common/base/p$b;
 
     move-result-object v0
 
-    .line 4
     invoke-virtual {v0}, Lcom/google/common/base/p$b;->toString()Ljava/lang/String;
 
     move-result-object v0
 
     return-object v0
 
-    .line 5
     :cond_0
     invoke-static {p0}, Lcom/google/common/base/p;->c(Ljava/lang/Object;)Lcom/google/common/base/p$b;
 
@@ -269,12 +249,10 @@
 
     const-string v2, "error"
 
-    .line 6
     invoke-virtual {v0, v2, v1}, Lcom/google/common/base/p$b;->f(Ljava/lang/String;Ljava/lang/Object;)Lcom/google/common/base/p$b;
 
     move-result-object v0
 
-    .line 7
     invoke-virtual {v0}, Lcom/google/common/base/p$b;->toString()Ljava/lang/String;
 
     move-result-object v0

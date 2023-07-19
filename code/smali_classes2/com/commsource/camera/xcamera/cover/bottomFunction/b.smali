@@ -89,77 +89,64 @@
         .end annotation
     .end param
 
-    .line 1
     invoke-direct {p0, p1}, Landroidx/lifecycle/AndroidViewModel;-><init>(Landroid/app/Application;)V
 
-    .line 2
     new-instance p1, Landroidx/lifecycle/MutableLiveData;
 
     invoke-direct {p1}, Landroidx/lifecycle/MutableLiveData;-><init>()V
 
     iput-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/b;->a:Landroidx/lifecycle/MutableLiveData;
 
-    .line 3
     new-instance p1, Landroidx/lifecycle/MutableLiveData;
 
     invoke-direct {p1}, Landroidx/lifecycle/MutableLiveData;-><init>()V
 
     iput-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/b;->b:Landroidx/lifecycle/MutableLiveData;
 
-    .line 4
     new-instance p1, Landroidx/lifecycle/MutableLiveData;
 
     invoke-direct {p1}, Landroidx/lifecycle/MutableLiveData;-><init>()V
 
     iput-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/b;->c:Landroidx/lifecycle/MutableLiveData;
 
-    .line 5
     new-instance p1, Landroidx/lifecycle/MutableLiveData;
 
     invoke-direct {p1}, Landroidx/lifecycle/MutableLiveData;-><init>()V
 
     iput-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/b;->d:Landroidx/lifecycle/MutableLiveData;
 
-    .line 6
     new-instance p1, Landroidx/lifecycle/MutableLiveData;
 
     invoke-direct {p1}, Landroidx/lifecycle/MutableLiveData;-><init>()V
 
     iput-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/b;->e:Landroidx/lifecycle/MutableLiveData;
 
-    .line 7
     new-instance p1, Landroidx/lifecycle/MutableLiveData;
 
     invoke-direct {p1}, Landroidx/lifecycle/MutableLiveData;-><init>()V
 
     iput-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/b;->f:Landroidx/lifecycle/MutableLiveData;
 
-    .line 8
     sget-object p1, Lcom/commsource/camera/xcamera/cover/bottomFunction/BottomFunction;->AR:Lcom/commsource/camera/xcamera/cover/bottomFunction/BottomFunction;
 
     iput-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/b;->g:Lcom/commsource/camera/xcamera/cover/bottomFunction/BottomFunction;
 
     const/4 p1, 0x0
 
-    .line 9
     iput-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/b;->h:Lcom/commsource/camera/xcamera/cover/bottomFunction/BottomFunction;
 
     const/4 p1, 0x0
 
-    .line 10
     iput-boolean p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/b;->i:Z
 
-    .line 11
     new-instance p1, Lcom/commsource/camera/xcamera/cover/bottomFunction/b$b;
 
     invoke-direct {p1}, Lcom/commsource/camera/xcamera/cover/bottomFunction/b$b;-><init>()V
 
     iput-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/b;->j:Lcom/commsource/camera/xcamera/cover/bottomFunction/b$b;
 
-    .line 12
     invoke-direct {p0}, Lcom/commsource/camera/xcamera/cover/bottomFunction/b;->I()V
 
-    .line 13
     invoke-static {}, Lcom/meitu/library/p/f/i;->x()I
 
     move-result p1
@@ -176,7 +163,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/b;->j:Lcom/commsource/camera/xcamera/cover/bottomFunction/b$b;
 
     sget-object v2, Lcom/commsource/camera/xcamera/cover/CameraConfigViewModel;->q:Lcom/commsource/camera/xcamera/cover/CameraConfigViewModel$a;
@@ -193,7 +179,6 @@
 
     iput v2, v1, Lcom/commsource/camera/xcamera/cover/bottomFunction/b$b;->b:I
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -208,7 +193,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/b;->j:Lcom/commsource/camera/xcamera/cover/bottomFunction/b$b;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -231,7 +215,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/b;->f:Landroidx/lifecycle/MutableLiveData;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -254,7 +237,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/b;->e:Landroidx/lifecycle/MutableLiveData;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -277,7 +259,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/b;->d:Landroidx/lifecycle/MutableLiveData;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -300,7 +281,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/b;->a:Landroidx/lifecycle/MutableLiveData;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -323,7 +303,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/b;->c:Landroidx/lifecycle/MutableLiveData;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -338,7 +317,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/bottomFunction/b;->z()Landroidx/lifecycle/MutableLiveData;
 
     move-result-object v1
@@ -369,15 +347,12 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {p1}, Lcom/commsource/camera/mvp/c;->c(I)V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/b;->j:Lcom/commsource/camera/xcamera/cover/bottomFunction/b$b;
 
     iput p1, v1, Lcom/commsource/camera/xcamera/cover/bottomFunction/b$b;->a:I
 
-    .line 3
     sget-object v1, Lcom/commsource/camera/xcamera/cover/CameraConfigViewModel;->q:Lcom/commsource/camera/xcamera/cover/CameraConfigViewModel$a;
 
     const/4 v2, 0x1
@@ -406,7 +381,6 @@
 
     const/high16 v4, 0x41400000    # 12.0f
 
-    .line 4
     invoke-static {v4}, Lcom/meitu/library/p/f/i;->d(F)I
 
     move-result v4
@@ -423,14 +397,12 @@
     :goto_0
     sput-boolean v2, Lcom/commsource/camera/xcamera/cover/bottomFunction/b$b;->l:Z
 
-    .line 5
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/b;->j:Lcom/commsource/camera/xcamera/cover/bottomFunction/b$b;
 
     iput v3, v1, Lcom/commsource/camera/xcamera/cover/bottomFunction/b$b;->i:I
 
     const/high16 v2, 0x42300000    # 44.0f
 
-    .line 6
     invoke-static {v2}, Lcom/meitu/library/p/f/i;->d(F)I
 
     move-result v2
@@ -445,10 +417,8 @@
 
     iput v2, v1, Lcom/commsource/camera/xcamera/cover/bottomFunction/b$b;->e:I
 
-    .line 7
     sput v3, Lcom/commsource/camera/mvp/c;->a:I
 
-    .line 8
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/b;->j:Lcom/commsource/camera/xcamera/cover/bottomFunction/b$b;
 
     const/high16 v2, 0x42c20000    # 97.0f
@@ -461,7 +431,6 @@
 
     sget v1, Lcom/res/provider/ResDIMEN;->camera_button_margin_bottom:I
 
-    .line 9
     invoke-static {v1}, Lcom/meitu/library/p/d/b;->e(I)F
 
     move-result v1
@@ -470,31 +439,26 @@
 
     const/high16 v2, 0x42aa0000    # 85.0f
 
-    .line 10
     invoke-static {v2}, Lcom/meitu/library/p/f/i;->d(F)I
 
     move-result v2
 
     const/high16 v4, 0x42480000    # 50.0f
 
-    .line 11
     invoke-static {v4}, Lcom/meitu/library/p/f/i;->d(F)I
 
     move-result v5
 
     const/high16 v6, 0x42200000    # 40.0f
 
-    .line 12
     invoke-static {v6}, Lcom/meitu/library/p/f/i;->d(F)I
 
     move-result v6
 
     const/high16 v7, 0x429c0000    # 78.0f
 
-    .line 13
     invoke-static {v7}, Lcom/meitu/library/p/f/i;->d(F)I
 
-    .line 14
     invoke-static {}, Lcom/meitu/library/p/f/i;->P()Z
 
     move-result v7
@@ -510,19 +474,16 @@
 
     sub-int v6, v4, v6
 
-    .line 15
     div-int/lit8 v6, v6, 0x2
 
     const/high16 v7, 0x41800000    # 16.0f
 
-    .line 16
     invoke-static {v7}, Lcom/meitu/library/p/f/i;->d(F)I
 
     move-result v7
 
     add-int/2addr v7, v3
 
-    .line 17
     sget v8, Lcom/commsource/camera/xcamera/cover/bottomFunction/b$b;->n:I
 
     const/high16 v9, 0x41b00000    # 22.0f
@@ -531,12 +492,10 @@
 
     if-le v7, v8, :cond_4
 
-    .line 18
     iget-object v8, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/b;->j:Lcom/commsource/camera/xcamera/cover/bottomFunction/b$b;
 
     iput v7, v8, Lcom/commsource/camera/xcamera/cover/bottomFunction/b$b;->f:I
 
-    .line 19
     invoke-static {}, Lcom/meitu/library/p/f/i;->P()Z
 
     move-result v8
@@ -551,7 +510,6 @@
 
     goto :goto_1
 
-    .line 20
     :cond_2
     invoke-static {v9}, Lcom/meitu/library/p/f/i;->d(F)I
 
@@ -559,14 +517,12 @@
 
     goto :goto_2
 
-    .line 21
     :cond_3
     :goto_1
     invoke-static {v10}, Lcom/meitu/library/p/f/i;->d(F)I
 
     move-result v8
 
-    .line 22
     :goto_2
     iget-object v9, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/b;->j:Lcom/commsource/camera/xcamera/cover/bottomFunction/b$b;
 
@@ -580,13 +536,11 @@
 
     goto :goto_5
 
-    .line 23
     :cond_4
     iget-object v7, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/b;->j:Lcom/commsource/camera/xcamera/cover/bottomFunction/b$b;
 
     iput v8, v7, Lcom/commsource/camera/xcamera/cover/bottomFunction/b$b;->f:I
 
-    .line 24
     invoke-static {}, Lcom/meitu/library/p/f/i;->P()Z
 
     move-result v7
@@ -601,7 +555,6 @@
 
     goto :goto_3
 
-    .line 25
     :cond_5
     invoke-static {v9}, Lcom/meitu/library/p/f/i;->d(F)I
 
@@ -609,7 +562,6 @@
 
     goto :goto_4
 
-    .line 26
     :cond_6
     :goto_3
     invoke-static {v10}, Lcom/meitu/library/p/f/i;->d(F)I
@@ -619,7 +571,6 @@
     :goto_4
     move v8, v7
 
-    .line 27
     iget-object v7, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/b;->j:Lcom/commsource/camera/xcamera/cover/bottomFunction/b$b;
 
     sget v9, Lcom/commsource/camera/xcamera/cover/bottomFunction/b$b;->n:I
@@ -632,7 +583,6 @@
 
     iput v9, v7, Lcom/commsource/camera/xcamera/cover/bottomFunction/b$b;->g:I
 
-    .line 28
     :goto_5
     iget-object v5, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/b;->j:Lcom/commsource/camera/xcamera/cover/bottomFunction/b$b;
 
@@ -646,7 +596,6 @@
 
     sub-int/2addr v2, v4
 
-    .line 29
     div-int/lit8 v2, v2, 0x2
 
     sub-int v1, v2, v8
@@ -657,7 +606,6 @@
 
     add-int/2addr v7, v2
 
-    .line 30
     invoke-static {}, Lcom/meitu/library/p/f/i;->P()Z
 
     move-result v1
@@ -682,7 +630,6 @@
 
     iput v7, v5, Lcom/commsource/camera/xcamera/cover/bottomFunction/b$b;->d:I
 
-    .line 31
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/b;->j:Lcom/commsource/camera/xcamera/cover/bottomFunction/b$b;
 
     invoke-static {}, Lcom/meitu/library/p/f/i;->z()I
@@ -699,15 +646,12 @@
 
     iput p1, v1, Lcom/commsource/camera/xcamera/cover/bottomFunction/b$b;->j:I
 
-    .line 32
     iput v3, v2, Lcom/commsource/camera/xcamera/cover/bottomFunction/b$b;->k:I
 
     add-int/2addr v6, v8
 
-    .line 33
     iput v6, v2, Lcom/commsource/camera/xcamera/cover/bottomFunction/b$b;->h:I
 
-    .line 34
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/bottomFunction/b;->B()Landroidx/lifecycle/MutableLiveData;
 
     move-result-object p1
@@ -716,7 +660,6 @@
 
     invoke-virtual {p1, v1}, Landroidx/lifecycle/MutableLiveData;->setValue(Ljava/lang/Object;)V
 
-    .line 35
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -729,7 +672,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/camera/xcamera/cover/bottomFunction/BottomFunction;->AR_GIPHY:Lcom/commsource/camera/xcamera/cover/bottomFunction/BottomFunction;
 
     invoke-virtual {p0, v1}, Lcom/commsource/camera/xcamera/cover/bottomFunction/b;->P(Lcom/commsource/camera/xcamera/cover/bottomFunction/BottomFunction;)Z
@@ -748,7 +690,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/bottomFunction/b;->N()Z
 
     move-result v1
@@ -791,7 +732,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/camera/xcamera/cover/bottomFunction/BottomFunction;->AR_SEARCH:Lcom/commsource/camera/xcamera/cover/bottomFunction/BottomFunction;
 
     invoke-virtual {p0, v1}, Lcom/commsource/camera/xcamera/cover/bottomFunction/b;->P(Lcom/commsource/camera/xcamera/cover/bottomFunction/BottomFunction;)Z
@@ -810,7 +750,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-boolean v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/b;->i:Z
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -825,7 +764,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/camera/xcamera/cover/bottomFunction/BottomFunction;->AR:Lcom/commsource/camera/xcamera/cover/bottomFunction/BottomFunction;
 
     invoke-virtual {p0, v1}, Lcom/commsource/camera/xcamera/cover/bottomFunction/b;->P(Lcom/commsource/camera/xcamera/cover/bottomFunction/BottomFunction;)Z
@@ -844,7 +782,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/commsource/camera/xcamera/cover/bottomFunction/BottomFunction;->MONTAGE_ADJUST:Lcom/commsource/camera/xcamera/cover/bottomFunction/BottomFunction;
 
     invoke-virtual {p0, v1}, Lcom/commsource/camera/xcamera/cover/bottomFunction/b;->P(Lcom/commsource/camera/xcamera/cover/bottomFunction/BottomFunction;)Z
@@ -885,7 +822,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/bottomFunction/b;->z()Landroidx/lifecycle/MutableLiveData;
 
     move-result-object v1
@@ -898,7 +834,6 @@
 
     const/4 p1, 0x1
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
@@ -906,7 +841,6 @@
     :cond_0
     const/4 p1, 0x0
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
@@ -919,10 +853,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-boolean p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/b;->i:Z
 
-    .line 2
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/bottomFunction/b;->C()Landroidx/lifecycle/MutableLiveData;
 
     move-result-object v1
@@ -933,7 +865,6 @@
 
     invoke-virtual {v1, p1}, Landroidx/lifecycle/MutableLiveData;->setValue(Ljava/lang/Object;)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -946,10 +877,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/b;->j:Lcom/commsource/camera/xcamera/cover/bottomFunction/b$b;
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -964,7 +893,6 @@
 
     if-eqz p1, :cond_1
 
-    .line 1
     sget-object v1, Lcom/commsource/camera/xcamera/cover/bottomFunction/b$a;->a:[I
 
     invoke-virtual {p1}, Ljava/lang/Enum;->ordinal()I
@@ -987,11 +915,9 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     iput-object p1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/b;->g:Lcom/commsource/camera/xcamera/cover/bottomFunction/BottomFunction;
 
-    .line 3
     :cond_1
     :goto_0
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/bottomFunction/b;->z()Landroidx/lifecycle/MutableLiveData;
@@ -1006,14 +932,12 @@
 
     iput-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/b;->h:Lcom/commsource/camera/xcamera/cover/bottomFunction/BottomFunction;
 
-    .line 4
     invoke-static {}, Lcom/commsource/util/g2;->b()Z
 
     move-result v1
 
     if-eqz v1, :cond_2
 
-    .line 5
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/bottomFunction/b;->z()Landroidx/lifecycle/MutableLiveData;
 
     move-result-object v1
@@ -1022,7 +946,6 @@
 
     goto :goto_1
 
-    .line 6
     :cond_2
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/bottomFunction/b;->z()Landroidx/lifecycle/MutableLiveData;
 
@@ -1030,7 +953,6 @@
 
     invoke-virtual {v1, p1}, Landroidx/lifecycle/MutableLiveData;->postValue(Ljava/lang/Object;)V
 
-    .line 7
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -1044,23 +966,19 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/b;->g:Lcom/commsource/camera/xcamera/cover/bottomFunction/BottomFunction;
 
     if-nez v1, :cond_0
 
-    .line 2
     sget-object v1, Lcom/commsource/camera/xcamera/cover/bottomFunction/BottomFunction;->AR:Lcom/commsource/camera/xcamera/cover/bottomFunction/BottomFunction;
 
     iput-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/b;->g:Lcom/commsource/camera/xcamera/cover/bottomFunction/BottomFunction;
 
-    .line 3
     :cond_0
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/b;->g:Lcom/commsource/camera/xcamera/cover/bottomFunction/BottomFunction;
 
     invoke-virtual {p0, v1}, Lcom/commsource/camera/xcamera/cover/bottomFunction/b;->S(Lcom/commsource/camera/xcamera/cover/bottomFunction/BottomFunction;)V
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -1073,12 +991,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/b;->j:Lcom/commsource/camera/xcamera/cover/bottomFunction/b$b;
 
     if-eqz v1, :cond_0
 
-    .line 2
     iget v1, v1, Lcom/commsource/camera/xcamera/cover/bottomFunction/b$b;->i:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -1088,7 +1004,6 @@
     :cond_0
     const/4 v1, 0x0
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
@@ -1109,7 +1024,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/b;->b:Landroidx/lifecycle/MutableLiveData;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V

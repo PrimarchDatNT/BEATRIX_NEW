@@ -35,7 +35,6 @@
 
     const/high16 v1, 0x43480000    # 200.0f
 
-    .line 1
     invoke-static {v1}, Lcom/meitu/library/p/f/i;->d(F)I
 
     move-result v1
@@ -52,7 +51,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-direct {p0, p1, v0, v0}, Lcom/commsource/easyeditor/widget/CenterScrollLayoutManager;-><init>(Landroid/content/Context;IZ)V
 
     return-void
@@ -61,17 +59,14 @@
 .method public constructor <init>(Landroid/content/Context;IZ)V
     .locals 0
 
-    .line 2
     invoke-direct {p0, p1, p2, p3}, Landroidx/recyclerview/widget/LinearLayoutManager;-><init>(Landroid/content/Context;IZ)V
 
-    .line 3
     sget p1, Lcom/commsource/easyeditor/widget/CenterScrollLayoutManager;->c:I
 
     iput p1, p0, Lcom/commsource/easyeditor/widget/CenterScrollLayoutManager;->a:I
 
     const/4 p1, 0x2
 
-    .line 4
     iput p1, p0, Lcom/commsource/easyeditor/widget/CenterScrollLayoutManager;->b:I
 
     return-void
@@ -84,7 +79,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget p0, p0, Lcom/commsource/easyeditor/widget/CenterScrollLayoutManager;->a:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -99,7 +93,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget p0, p0, Lcom/commsource/easyeditor/widget/CenterScrollLayoutManager;->b:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -116,7 +109,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p0, Lcom/commsource/easyeditor/widget/CenterScrollLayoutManager;->b:I
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -135,10 +127,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/easyeditor/widget/CenterScrollLayoutManager;->b:I
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -151,10 +141,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/easyeditor/widget/CenterScrollLayoutManager;->a:I
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -167,7 +155,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     :try_start_0
     invoke-super {p0, p1, p2}, Landroidx/recyclerview/widget/LinearLayoutManager;->onLayoutChildren(Landroidx/recyclerview/widget/RecyclerView$Recycler;Landroidx/recyclerview/widget/RecyclerView$State;)V
     :try_end_0
@@ -178,10 +165,8 @@
     :catch_0
     move-exception p1
 
-    .line 2
     invoke-static {p1}, Lcom/meitu/library/util/Debug/Debug;->q(Ljava/lang/Throwable;)V
 
-    .line 3
     :goto_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -197,7 +182,6 @@
 
     if-ltz p3, :cond_1
 
-    .line 1
     invoke-virtual {p0}, Landroidx/recyclerview/widget/RecyclerView$LayoutManager;->getItemCount()I
 
     move-result v0
@@ -206,7 +190,6 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     new-instance v0, Lcom/commsource/easyeditor/widget/CenterScrollLayoutManager$a;
 
@@ -216,18 +199,14 @@
 
     invoke-direct {v0, p0, p1}, Lcom/commsource/easyeditor/widget/CenterScrollLayoutManager$a;-><init>(Lcom/commsource/easyeditor/widget/CenterScrollLayoutManager;Landroid/content/Context;)V
 
-    .line 3
     invoke-virtual {v0, p3}, Landroidx/recyclerview/widget/RecyclerView$SmoothScroller;->setTargetPosition(I)V
 
-    .line 4
     invoke-virtual {p0, v0}, Landroidx/recyclerview/widget/RecyclerView$LayoutManager;->startSmoothScroll(Landroidx/recyclerview/widget/RecyclerView$SmoothScroller;)V
 
-    .line 5
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 6
     :cond_1
     :goto_0
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->a(I)V

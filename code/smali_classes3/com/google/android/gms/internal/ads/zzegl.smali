@@ -11,12 +11,10 @@
 .method public constructor <init>(Ljava/lang/String;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1}, Ljava/io/IOException;-><init>(Ljava/lang/String;)V
 
     const/4 p1, 0x0
 
-    .line 2
     iput-object p1, p0, Lcom/google/android/gms/internal/ads/zzegl;->zzifg:Lcom/google/android/gms/internal/ads/l22;
 
     return-void
@@ -25,7 +23,6 @@
 .method static zzbfu()Lcom/google/android/gms/internal/ads/zzegl;
     .locals 2
 
-    .line 1
     new-instance v0, Lcom/google/android/gms/internal/ads/zzegl;
 
     const-string v1, "While parsing a protocol message, the input ended unexpectedly in the middle of a field.  This could mean either that the input has been truncated or that an embedded message misreported its own length."
@@ -38,7 +35,6 @@
 .method static zzbfv()Lcom/google/android/gms/internal/ads/zzegl;
     .locals 2
 
-    .line 1
     new-instance v0, Lcom/google/android/gms/internal/ads/zzegl;
 
     const-string v1, "CodedInputStream encountered an embedded string or message which claimed to have negative size."
@@ -51,7 +47,6 @@
 .method static zzbfw()Lcom/google/android/gms/internal/ads/zzegl;
     .locals 2
 
-    .line 1
     new-instance v0, Lcom/google/android/gms/internal/ads/zzegl;
 
     const-string v1, "CodedInputStream encountered a malformed varint."
@@ -64,7 +59,6 @@
 .method static zzbfx()Lcom/google/android/gms/internal/ads/zzegl;
     .locals 2
 
-    .line 1
     new-instance v0, Lcom/google/android/gms/internal/ads/zzegl;
 
     const-string v1, "Protocol message contained an invalid tag (zero)."
@@ -77,7 +71,6 @@
 .method static zzbfy()Lcom/google/android/gms/internal/ads/zzegl;
     .locals 2
 
-    .line 1
     new-instance v0, Lcom/google/android/gms/internal/ads/zzegl;
 
     const-string v1, "Protocol message end-group tag did not match expected tag."
@@ -90,7 +83,6 @@
 .method static zzbfz()Lcom/google/android/gms/internal/ads/zzego;
     .locals 2
 
-    .line 1
     new-instance v0, Lcom/google/android/gms/internal/ads/zzego;
 
     const-string v1, "Protocol message tag had invalid wire type."
@@ -103,7 +95,6 @@
 .method static zzbga()Lcom/google/android/gms/internal/ads/zzegl;
     .locals 2
 
-    .line 1
     new-instance v0, Lcom/google/android/gms/internal/ads/zzegl;
 
     const-string v1, "Protocol message was too large.  May be malicious.  Use CodedInputStream.setSizeLimit() to increase the size limit."
@@ -116,7 +107,6 @@
 .method static zzbgb()Lcom/google/android/gms/internal/ads/zzegl;
     .locals 2
 
-    .line 1
     new-instance v0, Lcom/google/android/gms/internal/ads/zzegl;
 
     const-string v1, "Failed to parse the message."
@@ -129,7 +119,6 @@
 .method static zzbgc()Lcom/google/android/gms/internal/ads/zzegl;
     .locals 2
 
-    .line 1
     new-instance v0, Lcom/google/android/gms/internal/ads/zzegl;
 
     const-string v1, "Protocol message had invalid UTF-8."
@@ -144,7 +133,6 @@
 .method public final zzl(Lcom/google/android/gms/internal/ads/l22;)Lcom/google/android/gms/internal/ads/zzegl;
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/android/gms/internal/ads/zzegl;->zzifg:Lcom/google/android/gms/internal/ads/l22;
 
     return-object p0

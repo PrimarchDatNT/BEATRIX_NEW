@@ -29,16 +29,12 @@
 .method public constructor <init>(Lcom/google/android/gms/internal/ads/sf;Ljava/util/concurrent/ScheduledExecutorService;Landroid/content/Context;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/google/android/gms/internal/ads/ic1;->a:Lcom/google/android/gms/internal/ads/sf;
 
-    .line 3
     iput-object p2, p0, Lcom/google/android/gms/internal/ads/ic1;->b:Ljava/util/concurrent/ScheduledExecutorService;
 
-    .line 4
     iput-object p3, p0, Lcom/google/android/gms/internal/ads/ic1;->c:Landroid/content/Context;
 
     return-void
@@ -57,19 +53,16 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/ic1;->a:Lcom/google/android/gms/internal/ads/sf;
 
     iget-object v1, p0, Lcom/google/android/gms/internal/ads/ic1;->c:Landroid/content/Context;
 
-    .line 2
     invoke-interface {v0, v1}, Lcom/google/android/gms/internal/ads/sf;->a(Landroid/content/Context;)Lcom/google/android/gms/internal/ads/rq1;
 
     move-result-object v0
 
     sget-object v1, Lcom/google/android/gms/internal/ads/w;->w2:Lcom/google/android/gms/internal/ads/h;
 
-    .line 3
     invoke-static {}, Lcom/google/android/gms/internal/ads/zm2;->e()Lcom/google/android/gms/internal/ads/s;
 
     move-result-object v2
@@ -78,7 +71,6 @@
 
     move-result-object v1
 
-    .line 4
     check-cast v1, Ljava/lang/Long;
 
     invoke-virtual {v1}, Ljava/lang/Long;->longValue()J
@@ -89,12 +81,10 @@
 
     iget-object v4, p0, Lcom/google/android/gms/internal/ads/ic1;->b:Ljava/util/concurrent/ScheduledExecutorService;
 
-    .line 5
     invoke-static {v0, v1, v2, v3, v4}, Lcom/google/android/gms/internal/ads/jq1;->d(Lcom/google/android/gms/internal/ads/rq1;JLjava/util/concurrent/TimeUnit;Ljava/util/concurrent/ScheduledExecutorService;)Lcom/google/android/gms/internal/ads/rq1;
 
     move-result-object v0
 
-    .line 6
     sget-object v1, Lcom/google/android/gms/internal/ads/hc1;->a:Lcom/google/android/gms/internal/ads/ao1;
 
     sget-object v2, Lcom/google/android/gms/internal/ads/dq;->a:Lcom/google/android/gms/internal/ads/uq1;

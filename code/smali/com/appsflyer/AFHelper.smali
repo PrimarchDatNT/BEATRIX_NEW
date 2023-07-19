@@ -7,7 +7,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -25,12 +24,10 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lorg/json/JSONObject;
 
     invoke-direct {v0}, Lorg/json/JSONObject;-><init>()V
 
-    .line 2
     invoke-interface {p0}, Ljava/util/Map;->entrySet()Ljava/util/Set;
 
     move-result-object p0
@@ -52,7 +49,6 @@
 
     check-cast v1, Ljava/util/Map$Entry;
 
-    .line 3
     invoke-interface {v1}, Ljava/util/Map$Entry;->getValue()Ljava/lang/Object;
 
     move-result-object v2
@@ -61,7 +57,6 @@
 
     move-result-object v2
 
-    .line 4
     :try_start_0
     invoke-interface {v1}, Ljava/util/Map$Entry;->getKey()Ljava/lang/Object;
 
@@ -103,14 +98,12 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
 
     const/4 v1, 0x0
 
-    .line 2
     :goto_0
     invoke-virtual {p0}, Lorg/json/JSONArray;->length()I
 
@@ -118,17 +111,14 @@
 
     if-ge v1, v2, :cond_2
 
-    .line 3
     invoke-virtual {p0, v1}, Lorg/json/JSONArray;->get(I)Ljava/lang/Object;
 
     move-result-object v2
 
-    .line 4
     instance-of v3, v2, Lorg/json/JSONArray;
 
     if-eqz v3, :cond_0
 
-    .line 5
     check-cast v2, Lorg/json/JSONArray;
 
     invoke-static {v2}, Lcom/appsflyer/AFHelper;->toList(Lorg/json/JSONArray;)Ljava/util/List;
@@ -137,20 +127,17 @@
 
     goto :goto_1
 
-    .line 6
     :cond_0
     instance-of v3, v2, Lorg/json/JSONObject;
 
     if-eqz v3, :cond_1
 
-    .line 7
     check-cast v2, Lorg/json/JSONObject;
 
     invoke-static {v2}, Lcom/appsflyer/AFHelper;->toMap(Lorg/json/JSONObject;)Ljava/util/Map;
 
     move-result-object v2
 
-    .line 8
     :cond_1
     :goto_1
     invoke-interface {v0, v2}, Ljava/util/List;->add(Ljava/lang/Object;)Z
@@ -183,17 +170,14 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/util/HashMap;
 
     invoke-direct {v0}, Ljava/util/HashMap;-><init>()V
 
-    .line 2
     invoke-virtual {p0}, Lorg/json/JSONObject;->keys()Ljava/util/Iterator;
 
     move-result-object v1
 
-    .line 3
     :goto_0
     invoke-interface {v1}, Ljava/util/Iterator;->hasNext()Z
 
@@ -201,24 +185,20 @@
 
     if-eqz v2, :cond_2
 
-    .line 4
     invoke-interface {v1}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
     move-result-object v2
 
     check-cast v2, Ljava/lang/String;
 
-    .line 5
     invoke-virtual {p0, v2}, Lorg/json/JSONObject;->get(Ljava/lang/String;)Ljava/lang/Object;
 
     move-result-object v3
 
-    .line 6
     instance-of v4, v3, Lorg/json/JSONArray;
 
     if-eqz v4, :cond_0
 
-    .line 7
     check-cast v3, Lorg/json/JSONArray;
 
     invoke-static {v3}, Lcom/appsflyer/AFHelper;->toList(Lorg/json/JSONArray;)Ljava/util/List;
@@ -227,20 +207,17 @@
 
     goto :goto_1
 
-    .line 8
     :cond_0
     instance-of v4, v3, Lorg/json/JSONObject;
 
     if-eqz v4, :cond_1
 
-    .line 9
     check-cast v3, Lorg/json/JSONObject;
 
     invoke-static {v3}, Lcom/appsflyer/AFHelper;->toMap(Lorg/json/JSONObject;)Ljava/util/Map;
 
     move-result-object v3
 
-    .line 10
     :cond_1
     :goto_1
     invoke-interface {v0, v2, v3}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
@@ -256,12 +233,10 @@
 
     if-nez p0, :cond_0
 
-    .line 1
     sget-object p0, Lorg/json/JSONObject;->NULL:Ljava/lang/Object;
 
     return-object p0
 
-    .line 2
     :cond_0
     instance-of v0, p0, Lorg/json/JSONArray;
 
@@ -273,7 +248,6 @@
 
     goto/16 :goto_3
 
-    .line 3
     :cond_1
     sget-object v0, Lorg/json/JSONObject;->NULL:Ljava/lang/Object;
 
@@ -285,19 +259,16 @@
 
     return-object p0
 
-    .line 4
     :cond_2
     :try_start_0
     instance-of v0, p0, Ljava/util/Collection;
 
     if-eqz v0, :cond_4
 
-    .line 5
     new-instance v0, Lorg/json/JSONArray;
 
     invoke-direct {v0}, Lorg/json/JSONArray;-><init>()V
 
-    .line 6
     check-cast p0, Ljava/util/Collection;
 
     invoke-interface {p0}, Ljava/util/Collection;->iterator()Ljava/util/Iterator;
@@ -311,7 +282,6 @@
 
     if-eqz v1, :cond_3
 
-    .line 7
     invoke-interface {p0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
     move-result-object v1
@@ -327,7 +297,6 @@
     :cond_3
     return-object v0
 
-    .line 8
     :cond_4
     invoke-virtual {p0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
@@ -339,12 +308,10 @@
 
     if-eqz v0, :cond_6
 
-    .line 9
     invoke-static {p0}, Ljava/lang/reflect/Array;->getLength(Ljava/lang/Object;)I
 
     move-result v0
 
-    .line 10
     new-instance v1, Lorg/json/JSONArray;
 
     invoke-direct {v1}, Lorg/json/JSONArray;-><init>()V
@@ -354,7 +321,6 @@
     :goto_1
     if-ge v2, v0, :cond_5
 
-    .line 11
     invoke-static {p0, v2}, Ljava/lang/reflect/Array;->get(Ljava/lang/Object;I)Ljava/lang/Object;
 
     move-result-object v3
@@ -372,13 +338,11 @@
     :cond_5
     return-object v1
 
-    .line 12
     :cond_6
     instance-of v0, p0, Ljava/util/Map;
 
     if-eqz v0, :cond_7
 
-    .line 13
     check-cast p0, Ljava/util/Map;
 
     invoke-static {p0}, Lcom/appsflyer/AFHelper;->toJsonObject(Ljava/util/Map;)Lorg/json/JSONObject;
@@ -389,7 +353,6 @@
 
     return-object p0
 
-    .line 14
     :cond_7
     instance-of v0, p0, Ljava/lang/Boolean;
 
@@ -429,7 +392,6 @@
 
     goto :goto_2
 
-    .line 15
     :cond_8
     :try_start_1
     invoke-virtual {p0}, Ljava/lang/Object;->toString()Ljava/lang/String;
@@ -442,7 +404,6 @@
     :goto_2
     return-object p0
 
-    .line 16
     :catch_0
     sget-object p0, Lorg/json/JSONObject;->NULL:Ljava/lang/Object;
 

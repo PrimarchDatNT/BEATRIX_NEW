@@ -32,14 +32,12 @@
 .method constructor <init>(Lcom/commsource/easyeditor/widget/EditEffectsRecyclerView;)V
     .locals 1
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/easyeditor/widget/EditEffectsRecyclerView$b;->f:Lcom/commsource/easyeditor/widget/EditEffectsRecyclerView;
 
     invoke-direct {p0}, Landroidx/recyclerview/widget/RecyclerView$ItemDecoration;-><init>()V
 
     const/high16 p1, 0x42760000    # 61.5f
 
-    .line 2
     invoke-static {p1}, Lcom/meitu/library/p/f/i;->d(F)I
 
     move-result v0
@@ -48,21 +46,18 @@
 
     const/high16 v0, 0x41200000    # 10.0f
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/p/f/i;->d(F)I
 
     move-result v0
 
     iput v0, p0, Lcom/commsource/easyeditor/widget/EditEffectsRecyclerView$b;->b:I
 
-    .line 4
     invoke-static {p1}, Lcom/meitu/library/p/f/i;->d(F)I
 
     move-result p1
 
     iput p1, p0, Lcom/commsource/easyeditor/widget/EditEffectsRecyclerView$b;->c:I
 
-    .line 5
     new-instance p1, Landroid/graphics/Paint;
 
     invoke-direct {p1}, Landroid/graphics/Paint;-><init>()V
@@ -71,24 +66,20 @@
 
     const/4 v0, -0x1
 
-    .line 6
     invoke-virtual {p1, v0}, Landroid/graphics/Paint;->setColor(I)V
 
-    .line 7
     iget-object p1, p0, Lcom/commsource/easyeditor/widget/EditEffectsRecyclerView$b;->d:Landroid/graphics/Paint;
 
     sget-object v0, Landroid/graphics/Paint$Style;->STROKE:Landroid/graphics/Paint$Style;
 
     invoke-virtual {p1, v0}, Landroid/graphics/Paint;->setStyle(Landroid/graphics/Paint$Style;)V
 
-    .line 8
     iget-object p1, p0, Lcom/commsource/easyeditor/widget/EditEffectsRecyclerView$b;->d:Landroid/graphics/Paint;
 
     const/4 v0, 0x0
 
     invoke-virtual {p1, v0}, Landroid/graphics/Paint;->setAlpha(I)V
 
-    .line 9
     iget-object p1, p0, Lcom/commsource/easyeditor/widget/EditEffectsRecyclerView$b;->d:Landroid/graphics/Paint;
 
     const/high16 v0, 0x40000000    # 2.0f
@@ -113,7 +104,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/easyeditor/widget/EditEffectsRecyclerView$b;->d:Landroid/graphics/Paint;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -140,19 +130,16 @@
 
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object p3, p0, Lcom/commsource/easyeditor/widget/EditEffectsRecyclerView$b;->e:Landroid/graphics/RectF;
 
     if-nez p3, :cond_0
 
-    .line 2
     new-instance p3, Landroid/graphics/RectF;
 
     invoke-direct {p3}, Landroid/graphics/RectF;-><init>()V
 
     iput-object p3, p0, Lcom/commsource/easyeditor/widget/EditEffectsRecyclerView$b;->e:Landroid/graphics/RectF;
 
-    .line 3
     iget-object v0, p0, Lcom/commsource/easyeditor/widget/EditEffectsRecyclerView$b;->f:Lcom/commsource/easyeditor/widget/EditEffectsRecyclerView;
 
     invoke-virtual {v0}, Landroid/view/ViewGroup;->getWidth()I
@@ -171,7 +158,6 @@
 
     iput v0, p3, Landroid/graphics/RectF;->left:F
 
-    .line 4
     iget-object p3, p0, Lcom/commsource/easyeditor/widget/EditEffectsRecyclerView$b;->e:Landroid/graphics/RectF;
 
     iget-object v0, p0, Lcom/commsource/easyeditor/widget/EditEffectsRecyclerView$b;->f:Lcom/commsource/easyeditor/widget/EditEffectsRecyclerView;
@@ -190,7 +176,6 @@
 
     iput v0, p3, Landroid/graphics/RectF;->right:F
 
-    .line 5
     iget-object p3, p0, Lcom/commsource/easyeditor/widget/EditEffectsRecyclerView$b;->e:Landroid/graphics/RectF;
 
     iget-object v0, p0, Lcom/commsource/easyeditor/widget/EditEffectsRecyclerView$b;->f:Lcom/commsource/easyeditor/widget/EditEffectsRecyclerView;
@@ -209,7 +194,6 @@
 
     iput v0, p3, Landroid/graphics/RectF;->top:F
 
-    .line 6
     iget-object p3, p0, Lcom/commsource/easyeditor/widget/EditEffectsRecyclerView$b;->e:Landroid/graphics/RectF;
 
     iget-object v0, p0, Lcom/commsource/easyeditor/widget/EditEffectsRecyclerView$b;->f:Lcom/commsource/easyeditor/widget/EditEffectsRecyclerView;
@@ -228,7 +212,6 @@
 
     iput v0, p3, Landroid/graphics/RectF;->bottom:F
 
-    .line 7
     :cond_0
     iget-object p3, p0, Lcom/commsource/easyeditor/widget/EditEffectsRecyclerView$b;->d:Landroid/graphics/Paint;
 
@@ -238,7 +221,6 @@
 
     if-eqz p3, :cond_1
 
-    .line 8
     iget-object p3, p0, Lcom/commsource/easyeditor/widget/EditEffectsRecyclerView$b;->e:Landroid/graphics/RectF;
 
     iget v0, p0, Lcom/commsource/easyeditor/widget/EditEffectsRecyclerView$b;->b:I
@@ -251,7 +233,6 @@
 
     invoke-virtual {p1, p3, v1, v0, v2}, Landroid/graphics/Canvas;->drawRoundRect(Landroid/graphics/RectF;FFLandroid/graphics/Paint;)V
 
-    .line 9
     :cond_1
     invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

@@ -106,7 +106,6 @@
 
     move-object v3, p2
 
-    .line 4
     invoke-direct/range {v1 .. v9}, Lcotlin/io/h;-><init>(Ljava/io/File;Lcotlin/io/FileWalkDirection;Lcotlin/jvm/u/l;Lcotlin/jvm/u/l;Lcotlin/jvm/u/p;IILcotlin/jvm/internal/u;)V
 
     return-void
@@ -119,7 +118,6 @@
 
     if-eqz p3, :cond_0
 
-    .line 5
     sget-object p2, Lcotlin/io/FileWalkDirection;->TOP_DOWN:Lcotlin/io/FileWalkDirection;
 
     :cond_0
@@ -155,7 +153,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     iput-object p1, p0, Lcotlin/io/h;->a:Ljava/io/File;
@@ -180,7 +177,6 @@
 
     if-eqz p8, :cond_0
 
-    .line 2
     sget-object p2, Lcotlin/io/FileWalkDirection;->TOP_DOWN:Lcotlin/io/FileWalkDirection;
 
     :cond_0
@@ -210,7 +206,6 @@
 
     move-object v5, p5
 
-    .line 3
     invoke-direct/range {v0 .. v6}, Lcotlin/io/h;-><init>(Ljava/io/File;Lcotlin/io/FileWalkDirection;Lcotlin/jvm/u/l;Lcotlin/jvm/u/l;Lcotlin/jvm/u/p;I)V
 
     return-void
@@ -219,7 +214,6 @@
 .method public static final synthetic c(Lcotlin/io/h;)Lcotlin/io/FileWalkDirection;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lcotlin/io/h;->b:Lcotlin/io/FileWalkDirection;
 
     return-object p0
@@ -228,7 +222,6 @@
 .method public static final synthetic d(Lcotlin/io/h;)I
     .locals 0
 
-    .line 1
     iget p0, p0, Lcotlin/io/h;->f:I
 
     return p0
@@ -237,7 +230,6 @@
 .method public static final synthetic e(Lcotlin/io/h;)Lcotlin/jvm/u/l;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lcotlin/io/h;->c:Lcotlin/jvm/u/l;
 
     return-object p0
@@ -246,7 +238,6 @@
 .method public static final synthetic f(Lcotlin/io/h;)Lcotlin/jvm/u/p;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lcotlin/io/h;->e:Lcotlin/jvm/u/p;
 
     return-object p0
@@ -255,7 +246,6 @@
 .method public static final synthetic g(Lcotlin/io/h;)Lcotlin/jvm/u/l;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lcotlin/io/h;->d:Lcotlin/jvm/u/l;
 
     return-object p0
@@ -264,7 +254,6 @@
 .method public static final synthetic h(Lcotlin/io/h;)Ljava/io/File;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lcotlin/io/h;->a:Ljava/io/File;
 
     return-object p0
@@ -279,7 +268,6 @@
 
     if-lez p1, :cond_0
 
-    .line 1
     new-instance v7, Lcotlin/io/h;
 
     iget-object v1, p0, Lcotlin/io/h;->a:Ljava/io/File;
@@ -300,7 +288,6 @@
 
     return-object v7
 
-    .line 2
     :cond_0
     new-instance v0, Ljava/lang/IllegalArgumentException;
 
@@ -341,7 +328,6 @@
     .annotation build Ln/e/a/d;
     .end annotation
 
-    .line 1
     new-instance v0, Lcotlin/io/h$b;
 
     invoke-direct {v0, p0}, Lcotlin/io/h$b;-><init>(Lcotlin/io/h;)V
@@ -374,7 +360,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     new-instance v0, Lcotlin/io/h;
 
     iget-object v2, p0, Lcotlin/io/h;->a:Ljava/io/File;
@@ -423,7 +408,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     new-instance v0, Lcotlin/io/h;
 
     iget-object v2, p0, Lcotlin/io/h;->a:Ljava/io/File;
@@ -470,7 +454,6 @@
 
     invoke-static {p1, v0}, Lcotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     new-instance v0, Lcotlin/io/h;
 
     iget-object v2, p0, Lcotlin/io/h;->a:Ljava/io/File;

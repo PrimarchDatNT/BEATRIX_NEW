@@ -55,33 +55,26 @@
 .method private constructor <init>(Lio/jaegertracing/b/j;IIILio/jaegertracing/a/k/e;)V
     .locals 6
 
-    .line 2
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 3
     iput-object p1, p0, Lio/jaegertracing/a/m/e;->a:Lio/jaegertracing/b/j;
 
-    .line 4
     iput-object p5, p0, Lio/jaegertracing/a/m/e;->g:Lio/jaegertracing/a/k/e;
 
-    .line 5
     iput p4, p0, Lio/jaegertracing/a/m/e;->b:I
 
-    .line 6
     new-instance p1, Ljava/util/concurrent/ArrayBlockingQueue;
 
     invoke-direct {p1, p3}, Ljava/util/concurrent/ArrayBlockingQueue;-><init>(I)V
 
     iput-object p1, p0, Lio/jaegertracing/a/m/e;->c:Ljava/util/concurrent/BlockingQueue;
 
-    .line 7
     new-instance p1, Lio/jaegertracing/a/m/e$g;
 
     invoke-direct {p1, p0}, Lio/jaegertracing/a/m/e$g;-><init>(Lio/jaegertracing/a/m/e;)V
 
     iput-object p1, p0, Lio/jaegertracing/a/m/e;->f:Lio/jaegertracing/a/m/e$g;
 
-    .line 8
     new-instance p3, Ljava/lang/Thread;
 
     const-string p4, "jaeger.RemoteReporter-QueueProcessor"
@@ -92,13 +85,10 @@
 
     const/4 p1, 0x1
 
-    .line 9
     invoke-virtual {p3, p1}, Ljava/lang/Thread;->setDaemon(Z)V
 
-    .line 10
     invoke-virtual {p3}, Ljava/lang/Thread;->start()V
 
-    .line 11
     new-instance v0, Ljava/util/Timer;
 
     const-string p3, "jaeger.RemoteReporter-FlushTimer"
@@ -107,7 +97,6 @@
 
     iput-object v0, p0, Lio/jaegertracing/a/m/e;->d:Ljava/util/Timer;
 
-    .line 12
     new-instance v1, Lio/jaegertracing/a/m/e$a;
 
     invoke-direct {v1, p0}, Lio/jaegertracing/a/m/e$a;-><init>(Lio/jaegertracing/a/m/e;)V
@@ -124,7 +113,6 @@
 .method synthetic constructor <init>(Lio/jaegertracing/b/j;IIILio/jaegertracing/a/k/e;Lio/jaegertracing/a/m/e$a;)V
     .locals 0
 
-    .line 1
     invoke-direct/range {p0 .. p5}, Lio/jaegertracing/a/m/e;-><init>(Lio/jaegertracing/b/j;IIILio/jaegertracing/a/k/e;)V
 
     return-void
@@ -133,7 +121,6 @@
 .method static synthetic b(Lio/jaegertracing/a/m/e;)Lio/jaegertracing/b/j;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lio/jaegertracing/a/m/e;->a:Lio/jaegertracing/b/j;
 
     return-object p0
@@ -142,7 +129,6 @@
 .method static synthetic c(Lio/jaegertracing/a/m/e;)Lio/jaegertracing/a/m/e$g;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lio/jaegertracing/a/m/e;->f:Lio/jaegertracing/a/m/e$g;
 
     return-object p0
@@ -151,7 +137,6 @@
 .method static synthetic d(Lio/jaegertracing/a/m/e;)Lio/jaegertracing/a/k/e;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lio/jaegertracing/a/m/e;->g:Lio/jaegertracing/a/k/e;
 
     return-object p0
@@ -160,7 +145,6 @@
 .method static synthetic e(Lio/jaegertracing/a/m/e;)Ljava/util/concurrent/BlockingQueue;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lio/jaegertracing/a/m/e;->c:Ljava/util/concurrent/BlockingQueue;
 
     return-object p0
@@ -171,7 +155,6 @@
 .method public a(Lio/jaegertracing/a/c;)V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lio/jaegertracing/a/m/e;->c:Ljava/util/concurrent/BlockingQueue;
 
     new-instance v1, Lio/jaegertracing/a/m/e$b;
@@ -184,7 +167,6 @@
 
     if-nez p1, :cond_0
 
-    .line 2
     iget-object p1, p0, Lio/jaegertracing/a/m/e;->g:Lio/jaegertracing/a/k/e;
 
     iget-object p1, p1, Lio/jaegertracing/a/k/e;->k:Lio/jaegertracing/a/k/a;
@@ -200,7 +182,6 @@
 .method public close()V
     .locals 5
 
-    .line 1
     :try_start_0
     iget-object v0, p0, Lio/jaegertracing/a/m/e;->c:Ljava/util/concurrent/BlockingQueue;
 
@@ -214,14 +195,12 @@
 
     sget-object v4, Ljava/util/concurrent/TimeUnit;->MILLISECONDS:Ljava/util/concurrent/TimeUnit;
 
-    .line 2
     invoke-interface {v0, v1, v2, v3, v4}, Ljava/util/concurrent/BlockingQueue;->offer(Ljava/lang/Object;JLjava/util/concurrent/TimeUnit;)Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
-    .line 3
     iget-object v0, p0, Lio/jaegertracing/a/m/e;->e:Ljava/lang/Thread;
 
     const-wide/16 v1, 0x2710
@@ -233,13 +212,11 @@
     :cond_0
     const-string v0, "Unable to cleanly close RemoteReporter, command queue is full - probably the sender is stuck"
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/mtlab/e/c;->a(Ljava/lang/String;)V
     :try_end_0
     .catch Ljava/lang/InterruptedException; {:try_start_0 .. :try_end_0} :catch_1
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 5
     :goto_0
     :try_start_1
     iget-object v0, p0, Lio/jaegertracing/a/m/e;->a:Lio/jaegertracing/b/j;
@@ -248,7 +225,6 @@
 
     move-result v0
 
-    .line 6
     iget-object v1, p0, Lio/jaegertracing/a/m/e;->g:Lio/jaegertracing/a/k/e;
 
     iget-object v1, v1, Lio/jaegertracing/a/k/e;->i:Lio/jaegertracing/a/k/a;
@@ -264,7 +240,6 @@
     :catch_0
     move-exception v0
 
-    .line 7
     :goto_1
     iget-object v1, p0, Lio/jaegertracing/a/m/e;->g:Lio/jaegertracing/a/k/e;
 
@@ -278,7 +253,6 @@
 
     invoke-interface {v1, v2, v3}, Lio/jaegertracing/a/k/a;->a(J)V
 
-    .line 8
     :goto_2
     iget-object v0, p0, Lio/jaegertracing/a/m/e;->d:Ljava/util/Timer;
 
@@ -294,7 +268,6 @@
     :catch_1
     move-exception v0
 
-    .line 9
     :try_start_2
     new-instance v1, Ljava/lang/StringBuilder;
 
@@ -318,7 +291,6 @@
     :try_end_2
     .catchall {:try_start_2 .. :try_end_2} :catchall_0
 
-    .line 10
     :try_start_3
     iget-object v0, p0, Lio/jaegertracing/a/m/e;->a:Lio/jaegertracing/b/j;
 
@@ -326,7 +298,6 @@
 
     move-result v0
 
-    .line 11
     iget-object v1, p0, Lio/jaegertracing/a/m/e;->g:Lio/jaegertracing/a/k/e;
 
     iget-object v1, v1, Lio/jaegertracing/a/k/e;->i:Lio/jaegertracing/a/k/a;
@@ -347,7 +318,6 @@
     :goto_3
     return-void
 
-    .line 12
     :goto_4
     :try_start_4
     iget-object v1, p0, Lio/jaegertracing/a/m/e;->a:Lio/jaegertracing/b/j;
@@ -356,7 +326,6 @@
 
     move-result v1
 
-    .line 13
     iget-object v2, p0, Lio/jaegertracing/a/m/e;->g:Lio/jaegertracing/a/k/e;
 
     iget-object v2, v2, Lio/jaegertracing/a/k/e;->i:Lio/jaegertracing/a/k/a;
@@ -372,7 +341,6 @@
     :catch_3
     move-exception v1
 
-    .line 14
     iget-object v2, p0, Lio/jaegertracing/a/m/e;->g:Lio/jaegertracing/a/k/e;
 
     iget-object v2, v2, Lio/jaegertracing/a/k/e;->j:Lio/jaegertracing/a/k/a;
@@ -385,7 +353,6 @@
 
     invoke-interface {v2, v3, v4}, Lio/jaegertracing/a/k/a;->a(J)V
 
-    .line 15
     :goto_5
     iget-object v1, p0, Lio/jaegertracing/a/m/e;->d:Ljava/util/Timer;
 
@@ -397,7 +364,6 @@
 .method f()V
     .locals 3
 
-    .line 1
     iget-object v0, p0, Lio/jaegertracing/a/m/e;->g:Lio/jaegertracing/a/k/e;
 
     iget-object v0, v0, Lio/jaegertracing/a/k/e;->l:Lio/jaegertracing/a/k/b;
@@ -412,7 +378,6 @@
 
     invoke-interface {v0, v1, v2}, Lio/jaegertracing/a/k/b;->a(J)V
 
-    .line 2
     iget-object v0, p0, Lio/jaegertracing/a/m/e;->c:Ljava/util/concurrent/BlockingQueue;
 
     new-instance v1, Lio/jaegertracing/a/m/e$f;

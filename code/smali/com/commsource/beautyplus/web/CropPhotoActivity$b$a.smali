@@ -42,7 +42,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/beautyplus/web/CropPhotoActivity$b$a;->a:Lcom/commsource/beautyplus/web/CropPhotoActivity$b;
 
     iget-object v1, v1, Lcom/commsource/beautyplus/web/CropPhotoActivity$b;->p:Lcom/commsource/beautyplus/web/CropPhotoActivity;
@@ -51,10 +50,8 @@
 
     sget v1, Lcom/res/provider/ResSTRING;->save_image_failure:I
 
-    .line 2
     invoke-static {v1}, Lf/k/c/c/f;->w(I)V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

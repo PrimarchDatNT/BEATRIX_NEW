@@ -27,7 +27,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/meitu/library/hwanalytics/firebase/b;
 
     invoke-direct {v1}, Lcom/meitu/library/hwanalytics/firebase/b;-><init>()V
@@ -42,7 +41,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -57,12 +55,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/meitu/library/hwanalytics/firebase/b;->c:Landroid/database/sqlite/SQLiteDatabase;
 
     if-eqz v1, :cond_0
 
-    .line 2
     sget-object v2, Lcom/meitu/library/hwanalytics/firebase/b;->d:Ljava/util/concurrent/ExecutorService;
 
     if-eqz v2, :cond_0
@@ -73,7 +69,6 @@
 
     invoke-interface {v2, v3}, Ljava/util/concurrent/ExecutorService;->execute(Ljava/lang/Runnable;)V
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -95,12 +90,10 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     sget-object v1, Lcom/meitu/library/hwanalytics/firebase/b;->c:Landroid/database/sqlite/SQLiteDatabase;
 
     if-nez v1, :cond_0
 
-    .line 2
     new-instance v1, Lcom/meitu/library/hwanalytics/firebase/a;
 
     invoke-direct {v1, p1}, Lcom/meitu/library/hwanalytics/firebase/a;-><init>(Landroid/content/Context;)V
@@ -111,7 +104,6 @@
 
     sput-object p1, Lcom/meitu/library/hwanalytics/firebase/b;->c:Landroid/database/sqlite/SQLiteDatabase;
 
-    .line 3
     invoke-static {}, Ljava/util/concurrent/Executors;->newSingleThreadExecutor()Ljava/util/concurrent/ExecutorService;
 
     move-result-object p1
@@ -120,12 +112,10 @@
 
     if-eqz p1, :cond_0
 
-    .line 4
     sget-object v1, Lcom/meitu/library/hwanalytics/firebase/b$b;->a:Lcom/meitu/library/hwanalytics/firebase/b$b;
 
     invoke-interface {p1, v1}, Ljava/util/concurrent/ExecutorService;->execute(Ljava/lang/Runnable;)V
 
-    .line 5
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -147,20 +137,16 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     sget-object v2, Lcom/meitu/library/hwanalytics/firebase/b;->c:Landroid/database/sqlite/SQLiteDatabase;
 
     if-eqz v2, :cond_0
 
-    .line 2
     new-instance v3, Landroid/content/ContentValues;
 
     invoke-direct {v3}, Landroid/content/ContentValues;-><init>()V
 
-    .line 3
     invoke-virtual {v3, v1, p1}, Landroid/content/ContentValues;->put(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 4
     sget-object p1, Lcom/meitu/library/hwanalytics/firebase/b;->d:Ljava/util/concurrent/ExecutorService;
 
     if-eqz p1, :cond_0
@@ -171,7 +157,6 @@
 
     invoke-interface {p1, v1}, Ljava/util/concurrent/ExecutorService;->execute(Ljava/lang/Runnable;)V
 
-    .line 5
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -201,12 +186,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     sget-object v1, Lcom/meitu/library/hwanalytics/firebase/b;->c:Landroid/database/sqlite/SQLiteDatabase;
 
     if-eqz v1, :cond_0
 
-    .line 2
     sget-object v2, Lcom/meitu/library/hwanalytics/firebase/b;->d:Ljava/util/concurrent/ExecutorService;
 
     if-eqz v2, :cond_0
@@ -217,7 +200,6 @@
 
     invoke-interface {v2, v3}, Ljava/util/concurrent/ExecutorService;->execute(Ljava/lang/Runnable;)V
 
-    .line 3
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 

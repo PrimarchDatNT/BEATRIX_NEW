@@ -29,22 +29,18 @@
 .method public constructor <init>()V
     .locals 2
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/16 v0, 0x9
 
     new-array v1, v0, [F
 
-    .line 2
     iput-object v1, p0, Lf/f/b/c/b/g;->a:[F
 
     new-array v0, v0, [F
 
-    .line 3
     iput-object v0, p0, Lf/f/b/c/b/g;->b:[F
 
-    .line 4
     new-instance v0, Landroid/graphics/Matrix;
 
     invoke-direct {v0}, Landroid/graphics/Matrix;-><init>()V
@@ -59,12 +55,10 @@
 .method public a(FLandroid/graphics/Matrix;Landroid/graphics/Matrix;)Landroid/graphics/Matrix;
     .locals 3
 
-    .line 1
     iget-object v0, p0, Lf/f/b/c/b/g;->a:[F
 
     invoke-virtual {p2, v0}, Landroid/graphics/Matrix;->getValues([F)V
 
-    .line 2
     iget-object p2, p0, Lf/f/b/c/b/g;->b:[F
 
     invoke-virtual {p3, p2}, Landroid/graphics/Matrix;->getValues([F)V
@@ -76,7 +70,6 @@
 
     if-ge p2, p3, :cond_0
 
-    .line 3
     iget-object p3, p0, Lf/f/b/c/b/g;->b:[F
 
     aget v0, p3, p2
@@ -87,7 +80,6 @@
 
     sub-float/2addr v0, v2
 
-    .line 4
     aget v1, v1, p2
 
     mul-float v0, v0, p1
@@ -100,7 +92,6 @@
 
     goto :goto_0
 
-    .line 5
     :cond_0
     iget-object p1, p0, Lf/f/b/c/b/g;->c:Landroid/graphics/Matrix;
 
@@ -108,7 +99,6 @@
 
     invoke-virtual {p1, p2}, Landroid/graphics/Matrix;->setValues([F)V
 
-    .line 6
     iget-object p1, p0, Lf/f/b/c/b/g;->c:Landroid/graphics/Matrix;
 
     return-object p1
@@ -117,7 +107,6 @@
 .method public bridge synthetic evaluate(FLjava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
     .locals 0
 
-    .line 1
     check-cast p2, Landroid/graphics/Matrix;
 
     check-cast p3, Landroid/graphics/Matrix;

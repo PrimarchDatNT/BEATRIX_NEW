@@ -69,7 +69,6 @@
 
     if-eqz p3, :cond_0
 
-    .line 1
     invoke-virtual {p3}, Landroid/view/View;->getId()I
 
     move-result p3
@@ -90,7 +89,6 @@
 
     goto/16 :goto_4
 
-    .line 2
     :cond_1
     invoke-virtual {p3}, Ljava/lang/Integer;->intValue()I
 
@@ -100,7 +98,6 @@
 
     const-string p3, "item"
 
-    .line 3
     invoke-static {p2, p3}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {p2}, Lcom/commsource/widget/h1/d;->b()Ljava/lang/Object;
@@ -123,12 +120,10 @@
 
     if-eqz p3, :cond_9
 
-    .line 4
     move-object v1, p3
 
     check-cast v1, Lcom/meitu/template/bean/j;
 
-    .line 5
     invoke-virtual {v1}, Lcom/meitu/template/bean/j;->j()I
 
     move-result v2
@@ -151,7 +146,6 @@
 
     goto :goto_2
 
-    .line 6
     :cond_3
     invoke-virtual {v1}, Lcom/meitu/template/bean/j;->j()I
 
@@ -161,7 +155,6 @@
 
     if-ne p2, v0, :cond_a
 
-    .line 7
     invoke-virtual {v1}, Lcom/meitu/template/bean/j;->c()I
 
     move-result p2
@@ -178,7 +171,6 @@
 
     goto/16 :goto_4
 
-    .line 8
     :cond_4
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
@@ -190,13 +182,10 @@
 
     if-eqz p2, :cond_5
 
-    .line 9
     invoke-virtual {v1, v6}, Lcom/meitu/template/bean/j;->C(Z)V
 
-    .line 10
     invoke-virtual {v1, v4}, Lcom/meitu/template/bean/j;->I(I)V
 
-    .line 11
     sget-object p2, Lcom/commsource/beautyfilter/NewBeautyFilterManager;->q:Lcom/commsource/beautyfilter/NewBeautyFilterManager$a;
 
     invoke-virtual {p2}, Lcom/commsource/beautyfilter/NewBeautyFilterManager$a;->b()Lcom/commsource/beautyfilter/NewBeautyFilterManager;
@@ -207,7 +196,6 @@
 
     invoke-virtual {p2, v1, v5, v0}, Lcom/commsource/beautyfilter/NewBeautyFilterManager;->H(Lcom/meitu/template/bean/j;ZLjava/lang/String;)V
 
-    .line 12
     iget-object p2, p0, Lcom/commsource/store/filter/FilterChildStoreFragment$e;->a:Lcom/commsource/store/filter/FilterChildStoreFragment;
 
     invoke-virtual {p2}, Lcom/commsource/store/filter/FilterChildStoreFragment;->E()Lcom/commsource/widget/h1/e;
@@ -222,7 +210,6 @@
 
     goto :goto_4
 
-    .line 13
     :cond_5
     iget-object p2, p0, Lcom/commsource/store/filter/FilterChildStoreFragment$e;->a:Lcom/commsource/store/filter/FilterChildStoreFragment;
 
@@ -234,7 +221,6 @@
 
     goto :goto_4
 
-    .line 14
     :cond_6
     :goto_2
     iget-object p3, p0, Lcom/commsource/store/filter/FilterChildStoreFragment$e;->a:Lcom/commsource/store/filter/FilterChildStoreFragment;
@@ -245,7 +231,6 @@
 
     invoke-virtual {p3, v4}, Lcom/commsource/store/filter/FilterStoreViewModel;->I(I)V
 
-    .line 15
     iget-object p3, p0, Lcom/commsource/store/filter/FilterChildStoreFragment$e;->a:Lcom/commsource/store/filter/FilterChildStoreFragment;
 
     invoke-virtual {p3}, Lcom/commsource/store/filter/FilterChildStoreFragment;->D()Lcom/commsource/store/filter/FilterStoreViewModel;
@@ -305,7 +290,6 @@
 
     invoke-virtual {p3, v0}, Landroidx/lifecycle/MutableLiveData;->setValue(Ljava/lang/Object;)V
 
-    .line 16
     iget-object p3, p0, Lcom/commsource/store/filter/FilterChildStoreFragment$e;->a:Lcom/commsource/store/filter/FilterChildStoreFragment;
 
     invoke-virtual {p3}, Lcom/commsource/store/filter/FilterChildStoreFragment;->D()Lcom/commsource/store/filter/FilterStoreViewModel;
@@ -322,7 +306,6 @@
 
     goto :goto_4
 
-    .line 17
     :cond_9
     new-instance p2, Lcotlin/TypeCastException;
 
@@ -334,7 +317,6 @@
 
     throw p2
 
-    .line 18
     :cond_a
     :goto_4
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V

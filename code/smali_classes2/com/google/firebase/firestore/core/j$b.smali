@@ -34,10 +34,8 @@
 .method constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
@@ -50,7 +48,6 @@
 .method static synthetic a(Lcom/google/firebase/firestore/core/j$b;)Ljava/util/List;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lcom/google/firebase/firestore/core/j$b;->a:Ljava/util/List;
 
     return-object p0
@@ -59,7 +56,6 @@
 .method static synthetic b(Lcom/google/firebase/firestore/core/j$b;)Lcom/google/firebase/firestore/core/ViewSnapshot;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lcom/google/firebase/firestore/core/j$b;->b:Lcom/google/firebase/firestore/core/ViewSnapshot;
 
     return-object p0
@@ -68,7 +64,6 @@
 .method static synthetic c(Lcom/google/firebase/firestore/core/j$b;Lcom/google/firebase/firestore/core/ViewSnapshot;)Lcom/google/firebase/firestore/core/ViewSnapshot;
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/firebase/firestore/core/j$b;->b:Lcom/google/firebase/firestore/core/ViewSnapshot;
 
     return-object p1
@@ -77,7 +72,6 @@
 .method static synthetic d(Lcom/google/firebase/firestore/core/j$b;)I
     .locals 0
 
-    .line 1
     iget p0, p0, Lcom/google/firebase/firestore/core/j$b;->c:I
 
     return p0
@@ -86,7 +80,6 @@
 .method static synthetic e(Lcom/google/firebase/firestore/core/j$b;I)I
     .locals 0
 
-    .line 1
     iput p1, p0, Lcom/google/firebase/firestore/core/j$b;->c:I
 
     return p1

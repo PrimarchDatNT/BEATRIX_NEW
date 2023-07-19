@@ -27,12 +27,10 @@
 .method private constructor <init>(Lorg/apache/thrift/server/TThreadPoolServer;Lorg/apache/thrift/transport/TTransport;)V
     .locals 0
 
-    .line 2
     iput-object p1, p0, Lorg/apache/thrift/server/TThreadPoolServer$WorkerProcess;->this$0:Lorg/apache/thrift/server/TThreadPoolServer;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 3
     iput-object p2, p0, Lorg/apache/thrift/server/TThreadPoolServer$WorkerProcess;->client_:Lorg/apache/thrift/transport/TTransport;
 
     return-void
@@ -41,7 +39,6 @@
 .method synthetic constructor <init>(Lorg/apache/thrift/server/TThreadPoolServer;Lorg/apache/thrift/transport/TTransport;Lorg/apache/thrift/server/TThreadPoolServer$1;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1, p2}, Lorg/apache/thrift/server/TThreadPoolServer$WorkerProcess;-><init>(Lorg/apache/thrift/server/TThreadPoolServer;Lorg/apache/thrift/transport/TTransport;)V
 
     return-void
@@ -54,7 +51,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     :try_start_0
     iget-object v1, p0, Lorg/apache/thrift/server/TThreadPoolServer$WorkerProcess;->this$0:Lorg/apache/thrift/server/TThreadPoolServer;
 
@@ -66,7 +62,6 @@
 
     move-result-object v1
 
-    .line 2
     iget-object v2, p0, Lorg/apache/thrift/server/TThreadPoolServer$WorkerProcess;->this$0:Lorg/apache/thrift/server/TThreadPoolServer;
 
     iget-object v2, v2, Lorg/apache/thrift/server/TServer;->inputTransportFactory_:Lorg/apache/thrift/transport/TTransportFactory;
@@ -83,7 +78,6 @@
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_14
     .catchall {:try_start_0 .. :try_end_0} :catchall_5
 
-    .line 3
     :try_start_1
     iget-object v3, p0, Lorg/apache/thrift/server/TThreadPoolServer$WorkerProcess;->this$0:Lorg/apache/thrift/server/TThreadPoolServer;
 
@@ -101,7 +95,6 @@
     .catch Ljava/lang/Exception; {:try_start_1 .. :try_end_1} :catch_10
     .catchall {:try_start_1 .. :try_end_1} :catchall_4
 
-    .line 4
     :try_start_2
     iget-object v4, p0, Lorg/apache/thrift/server/TThreadPoolServer$WorkerProcess;->this$0:Lorg/apache/thrift/server/TThreadPoolServer;
 
@@ -117,7 +110,6 @@
     .catch Ljava/lang/Exception; {:try_start_2 .. :try_end_2} :catch_c
     .catchall {:try_start_2 .. :try_end_2} :catchall_3
 
-    .line 5
     :try_start_3
     iget-object v5, p0, Lorg/apache/thrift/server/TThreadPoolServer$WorkerProcess;->this$0:Lorg/apache/thrift/server/TThreadPoolServer;
 
@@ -133,7 +125,6 @@
     .catch Ljava/lang/Exception; {:try_start_3 .. :try_end_3} :catch_8
     .catchall {:try_start_3 .. :try_end_3} :catchall_2
 
-    .line 6
     :try_start_4
     iget-object v6, p0, Lorg/apache/thrift/server/TThreadPoolServer$WorkerProcess;->this$0:Lorg/apache/thrift/server/TThreadPoolServer;
 
@@ -149,7 +140,6 @@
 
     if-eqz v6, :cond_0
 
-    .line 7
     :try_start_5
     invoke-interface {v6, v4, v5}, Lorg/apache/thrift/server/TServerEventHandler;->createContext(Lorg/apache/thrift/protocol/TProtocol;Lorg/apache/thrift/protocol/TProtocol;)Lorg/apache/thrift/server/ServerContext;
 
@@ -214,10 +204,8 @@
     :goto_0
     if-eqz v6, :cond_1
 
-    .line 8
     invoke-interface {v6, v0, v2, v3}, Lorg/apache/thrift/server/TServerEventHandler;->processContext(Lorg/apache/thrift/server/ServerContext;Lorg/apache/thrift/transport/TTransport;Lorg/apache/thrift/transport/TTransport;)V
 
-    .line 9
     :cond_1
     iget-object v7, p0, Lorg/apache/thrift/server/TThreadPoolServer$WorkerProcess;->this$0:Lorg/apache/thrift/server/TThreadPoolServer;
 
@@ -240,22 +228,18 @@
     :cond_2
     if-eqz v6, :cond_3
 
-    .line 10
     invoke-interface {v6, v0, v4, v5}, Lorg/apache/thrift/server/TServerEventHandler;->deleteContext(Lorg/apache/thrift/server/ServerContext;Lorg/apache/thrift/protocol/TProtocol;Lorg/apache/thrift/protocol/TProtocol;)V
 
     :cond_3
     if-eqz v2, :cond_4
 
-    .line 11
     invoke-virtual {v2}, Lorg/apache/thrift/transport/TTransport;->close()V
 
     :cond_4
     if-eqz v3, :cond_5
 
-    .line 12
     invoke-virtual {v3}, Lorg/apache/thrift/transport/TTransport;->close()V
 
-    .line 13
     :cond_5
     iget-object v0, p0, Lorg/apache/thrift/server/TThreadPoolServer$WorkerProcess;->client_:Lorg/apache/thrift/transport/TTransport;
 
@@ -447,7 +431,6 @@
 
     move-object v1, v5
 
-    .line 14
     :goto_7
     :try_start_6
     invoke-static {}, Lorg/apache/thrift/server/TThreadPoolServer;->access$100()Lorg/slf4j/c;
@@ -462,22 +445,18 @@
 
     if-eqz v0, :cond_6
 
-    .line 15
     invoke-interface {v0, v1, v4, v5}, Lorg/apache/thrift/server/TServerEventHandler;->deleteContext(Lorg/apache/thrift/server/ServerContext;Lorg/apache/thrift/protocol/TProtocol;Lorg/apache/thrift/protocol/TProtocol;)V
 
     :cond_6
     if-eqz v2, :cond_7
 
-    .line 16
     invoke-virtual {v2}, Lorg/apache/thrift/transport/TTransport;->close()V
 
     :cond_7
     if-eqz v3, :cond_8
 
-    .line 17
     invoke-virtual {v3}, Lorg/apache/thrift/transport/TTransport;->close()V
 
-    .line 18
     :cond_8
     iget-object v0, p0, Lorg/apache/thrift/server/TThreadPoolServer$WorkerProcess;->client_:Lorg/apache/thrift/transport/TTransport;
 
@@ -507,7 +486,6 @@
 
     move-object v1, v5
 
-    .line 19
     :goto_b
     :try_start_7
     invoke-static {}, Lorg/apache/thrift/server/TThreadPoolServer;->access$100()Lorg/slf4j/c;
@@ -522,22 +500,18 @@
 
     if-eqz v0, :cond_9
 
-    .line 20
     invoke-interface {v0, v1, v4, v5}, Lorg/apache/thrift/server/TServerEventHandler;->deleteContext(Lorg/apache/thrift/server/ServerContext;Lorg/apache/thrift/protocol/TProtocol;Lorg/apache/thrift/protocol/TProtocol;)V
 
     :cond_9
     if-eqz v2, :cond_a
 
-    .line 21
     invoke-virtual {v2}, Lorg/apache/thrift/transport/TTransport;->close()V
 
     :cond_a
     if-eqz v3, :cond_b
 
-    .line 22
     invoke-virtual {v3}, Lorg/apache/thrift/transport/TTransport;->close()V
 
-    .line 23
     :cond_b
     iget-object v0, p0, Lorg/apache/thrift/server/TThreadPoolServer$WorkerProcess;->client_:Lorg/apache/thrift/transport/TTransport;
 
@@ -555,22 +529,18 @@
     :goto_c
     if-eqz v0, :cond_c
 
-    .line 24
     invoke-interface {v0, v1, v4, v5}, Lorg/apache/thrift/server/TServerEventHandler;->deleteContext(Lorg/apache/thrift/server/ServerContext;Lorg/apache/thrift/protocol/TProtocol;Lorg/apache/thrift/protocol/TProtocol;)V
 
     :cond_c
     if-eqz v2, :cond_d
 
-    .line 25
     invoke-virtual {v2}, Lorg/apache/thrift/transport/TTransport;->close()V
 
     :cond_d
     if-eqz v3, :cond_e
 
-    .line 26
     invoke-virtual {v3}, Lorg/apache/thrift/transport/TTransport;->close()V
 
-    .line 27
     :cond_e
     iget-object v0, p0, Lorg/apache/thrift/server/TThreadPoolServer$WorkerProcess;->client_:Lorg/apache/thrift/transport/TTransport;
 
@@ -580,7 +550,6 @@
 
     if-eqz v0, :cond_f
 
-    .line 28
     iget-object v0, p0, Lorg/apache/thrift/server/TThreadPoolServer$WorkerProcess;->client_:Lorg/apache/thrift/transport/TTransport;
 
     invoke-virtual {v0}, Lorg/apache/thrift/transport/TTransport;->close()V
@@ -604,22 +573,18 @@
     :goto_f
     if-eqz v0, :cond_10
 
-    .line 29
     invoke-interface {v0, v1, v4, v5}, Lorg/apache/thrift/server/TServerEventHandler;->deleteContext(Lorg/apache/thrift/server/ServerContext;Lorg/apache/thrift/protocol/TProtocol;Lorg/apache/thrift/protocol/TProtocol;)V
 
     :cond_10
     if-eqz v2, :cond_11
 
-    .line 30
     invoke-virtual {v2}, Lorg/apache/thrift/transport/TTransport;->close()V
 
     :cond_11
     if-eqz v3, :cond_12
 
-    .line 31
     invoke-virtual {v3}, Lorg/apache/thrift/transport/TTransport;->close()V
 
-    .line 32
     :cond_12
     iget-object v0, p0, Lorg/apache/thrift/server/TThreadPoolServer$WorkerProcess;->client_:Lorg/apache/thrift/transport/TTransport;
 
@@ -647,22 +612,18 @@
     :goto_12
     if-eqz v0, :cond_13
 
-    .line 33
     invoke-interface {v0, v1, v4, v5}, Lorg/apache/thrift/server/TServerEventHandler;->deleteContext(Lorg/apache/thrift/server/ServerContext;Lorg/apache/thrift/protocol/TProtocol;Lorg/apache/thrift/protocol/TProtocol;)V
 
     :cond_13
     if-eqz v2, :cond_14
 
-    .line 34
     invoke-virtual {v2}, Lorg/apache/thrift/transport/TTransport;->close()V
 
     :cond_14
     if-eqz v3, :cond_15
 
-    .line 35
     invoke-virtual {v3}, Lorg/apache/thrift/transport/TTransport;->close()V
 
-    .line 36
     :cond_15
     iget-object v0, p0, Lorg/apache/thrift/server/TThreadPoolServer$WorkerProcess;->client_:Lorg/apache/thrift/transport/TTransport;
 
@@ -672,7 +633,6 @@
 
     if-eqz v0, :cond_16
 
-    .line 37
     :goto_13
     iget-object v0, p0, Lorg/apache/thrift/server/TThreadPoolServer$WorkerProcess;->client_:Lorg/apache/thrift/transport/TTransport;
 

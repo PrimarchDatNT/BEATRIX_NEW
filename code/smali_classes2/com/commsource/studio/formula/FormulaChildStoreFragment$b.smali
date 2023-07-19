@@ -30,7 +30,6 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/studio/formula/FormulaChildStoreFragment$b;->p:Lcom/commsource/studio/formula/FormulaChildStoreFragment;
 
     invoke-direct {p0, p2}, Lcom/commsource/widget/h1/e;-><init>(Landroid/content/Context;)V
@@ -62,10 +61,8 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->q(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1
     invoke-super {p0, p1}, Lcom/commsource/widget/h1/e;->A(Lcom/commsource/widget/h1/f;)V
 
-    .line 2
     iget-object v1, p1, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->itemView:Landroid/view/View;
 
     const-string v2, "holder.itemView"
@@ -76,7 +73,6 @@
 
     move-result-object v1
 
-    .line 3
     instance-of v3, p1, Lcom/commsource/store/ProStoreViewHolder;
 
     if-eqz v3, :cond_0
@@ -85,7 +81,6 @@
 
     if-eqz v3, :cond_0
 
-    .line 4
     move-object v3, v1
 
     check-cast v3, Landroidx/recyclerview/widget/StaggeredGridLayoutManager$LayoutParams;
@@ -96,21 +91,18 @@
 
     const/16 v3, 0x4c
 
-    .line 5
     invoke-static {v3}, Lcom/commsource/util/l0;->n(I)I
 
     move-result v3
 
     iput v3, v1, Landroid/view/ViewGroup$LayoutParams;->height:I
 
-    .line 6
     iget-object p1, p1, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->itemView:Landroid/view/View;
 
     invoke-static {p1, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {p1, v1}, Landroid/view/View;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
 
-    .line 7
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -124,7 +116,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     check-cast p1, Lcom/commsource/widget/h1/f;
 
     invoke-virtual {p0, p1}, Lcom/commsource/studio/formula/FormulaChildStoreFragment$b;->A(Lcom/commsource/widget/h1/f;)V

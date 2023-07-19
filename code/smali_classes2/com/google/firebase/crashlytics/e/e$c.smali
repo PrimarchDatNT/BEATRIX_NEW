@@ -35,7 +35,6 @@
 .method constructor <init>(Lcom/google/firebase/crashlytics/e/e;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/firebase/crashlytics/e/e$c;->a:Lcom/google/firebase/crashlytics/e/e;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -67,14 +66,12 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p1}, Lcom/google/android/gms/tasks/k;->v()Z
 
     move-result v0
 
     if-nez v0, :cond_0
 
-    .line 2
     invoke-static {}, Lcom/google/firebase/crashlytics/e/b;->f()Lcom/google/firebase/crashlytics/e/b;
 
     move-result-object v0

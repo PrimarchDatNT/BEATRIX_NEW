@@ -23,7 +23,6 @@
 .method public constructor <init>(Landroid/app/Activity;Lcom/meitu/webview/core/CommonWebView;Landroid/net/Uri;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1, p2, p3}, Lcom/meitu/webview/mtscript/i;-><init>(Landroid/app/Activity;Lcom/meitu/webview/core/CommonWebView;Landroid/net/Uri;)V
 
     return-void
@@ -38,7 +37,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const/4 v0, 0x1
@@ -53,10 +51,8 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p1, Lcom/meitu/webview/mtscript/MTCommandOpenWebViewScript$Model;->url:Ljava/lang/String;
 
-    .line 2
     iget v2, p1, Lcom/meitu/webview/mtscript/MTCommandOpenWebViewScript$Model;->type:I
 
     const/4 v3, 0x2
@@ -76,7 +72,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_1
     invoke-virtual {p0}, Lcom/meitu/webview/mtscript/i;->n()Landroid/app/Activity;
 
@@ -84,7 +79,6 @@
 
     if-eqz v2, :cond_4
 
-    .line 4
     invoke-static {v1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v3
@@ -93,41 +87,34 @@
 
     goto :goto_0
 
-    .line 5
     :cond_2
     invoke-static {v1}, Landroid/net/Uri;->parse(Ljava/lang/String;)Landroid/net/Uri;
 
     move-result-object v1
 
-    .line 6
     new-instance v3, Landroid/content/Intent;
 
     const-string v4, "android.intent.action.VIEW"
 
     invoke-direct {v3, v4, v1}, Landroid/content/Intent;-><init>(Ljava/lang/String;Landroid/net/Uri;)V
 
-    .line 7
     invoke-virtual {v2, v3}, Landroid/app/Activity;->startActivity(Landroid/content/Intent;)V
 
     goto :goto_0
 
-    .line 8
     :cond_3
     new-instance v2, Lcom/meitu/webview/mtscript/k;
 
     invoke-direct {v2}, Lcom/meitu/webview/mtscript/k;-><init>()V
 
-    .line 9
     iget-boolean v3, p1, Lcom/meitu/webview/mtscript/MTCommandOpenWebViewScript$Model;->show_shareButton:Z
 
     iput-boolean v3, v2, Lcom/meitu/webview/mtscript/k;->a:Z
 
-    .line 10
     iget-boolean v3, p1, Lcom/meitu/webview/mtscript/MTCommandOpenWebViewScript$Model;->hideHeader:Z
 
     iput-boolean v3, v2, Lcom/meitu/webview/mtscript/k;->b:Z
 
-    .line 11
     iget-boolean v3, p1, Lcom/meitu/webview/mtscript/MTCommandOpenWebViewScript$Model;->islocal:Z
 
     iget-object v4, p1, Lcom/meitu/webview/mtscript/MTCommandOpenWebViewScript$Model;->data:Ljava/util/HashMap;
@@ -138,7 +125,6 @@
 
     invoke-virtual {p0, v3, v1, v4, v2}, Lcom/meitu/webview/mtscript/MTCommandOpenWebViewScript;->J(ZLjava/lang/String;Ljava/lang/String;Lcom/meitu/webview/mtscript/k;)V
 
-    .line 12
     :cond_4
     :goto_0
     iget-boolean v1, p1, Lcom/meitu/webview/mtscript/MTCommandOpenWebViewScript$Model;->islocal:Z
@@ -153,7 +139,6 @@
 
     if-nez p1, :cond_5
 
-    .line 13
     invoke-virtual {p0}, Lcom/meitu/webview/mtscript/i;->p()Ljava/lang/String;
 
     move-result-object p1
@@ -168,7 +153,6 @@
 
     goto :goto_1
 
-    .line 14
     :cond_5
     invoke-virtual {p0}, Lcom/meitu/webview/mtscript/i;->o()Ljava/lang/String;
 
@@ -176,7 +160,6 @@
 
     invoke-virtual {p0, p1}, Lcom/meitu/webview/mtscript/i;->k(Ljava/lang/String;)V
 
-    .line 15
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -190,12 +173,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     invoke-virtual {p0}, Lcom/meitu/webview/mtscript/i;->n()Landroid/app/Activity;
 
     move-result-object v2
 
-    .line 2
     iget-object v1, p0, Lcom/meitu/webview/mtscript/i;->d:Lf/k/o0/c/c;
 
     if-eqz v1, :cond_0
@@ -210,10 +191,8 @@
 
     move-object v6, p4
 
-    .line 3
     invoke-interface/range {v1 .. v6}, Lf/k/o0/c/c;->l(Landroid/content/Context;ZLjava/lang/String;Ljava/lang/String;Lcom/meitu/webview/mtscript/k;)V
 
-    .line 4
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -227,7 +206,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     new-instance v1, Lcom/meitu/webview/mtscript/MTCommandOpenWebViewScript$a;
 
     const-class v2, Lcom/meitu/webview/mtscript/MTCommandOpenWebViewScript$Model;
@@ -236,7 +214,6 @@
 
     invoke-virtual {p0, v1}, Lcom/meitu/webview/mtscript/i;->E(Lcom/meitu/webview/mtscript/i$c;)V
 
-    .line 2
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     const/4 v0, 0x1

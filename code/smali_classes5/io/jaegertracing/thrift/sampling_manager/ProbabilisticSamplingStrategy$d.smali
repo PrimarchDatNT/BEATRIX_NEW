@@ -26,7 +26,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lorg/apache/thrift/scheme/TupleScheme;-><init>()V
 
     return-void
@@ -35,7 +34,6 @@
 .method synthetic constructor <init>(Lio/jaegertracing/thrift/sampling_manager/ProbabilisticSamplingStrategy$a;)V
     .locals 0
 
-    .line 2
     invoke-direct {p0}, Lio/jaegertracing/thrift/sampling_manager/ProbabilisticSamplingStrategy$d;-><init>()V
 
     return-void
@@ -51,10 +49,8 @@
         }
     .end annotation
 
-    .line 1
     check-cast p1, Lorg/apache/thrift/protocol/TTupleProtocol;
 
-    .line 2
     invoke-virtual {p1}, Lorg/apache/thrift/protocol/TCompactProtocol;->readDouble()D
 
     move-result-wide v0
@@ -63,7 +59,6 @@
 
     const/4 p1, 0x1
 
-    .line 3
     invoke-virtual {p2, p1}, Lio/jaegertracing/thrift/sampling_manager/ProbabilisticSamplingStrategy;->setSamplingRateIsSet(Z)V
 
     return-void
@@ -77,10 +72,8 @@
         }
     .end annotation
 
-    .line 1
     check-cast p1, Lorg/apache/thrift/protocol/TTupleProtocol;
 
-    .line 2
     iget-wide v0, p2, Lio/jaegertracing/thrift/sampling_manager/ProbabilisticSamplingStrategy;->samplingRate:D
 
     invoke-virtual {p1, v0, v1}, Lorg/apache/thrift/protocol/TCompactProtocol;->writeDouble(D)V
@@ -96,7 +89,6 @@
         }
     .end annotation
 
-    .line 1
     check-cast p2, Lio/jaegertracing/thrift/sampling_manager/ProbabilisticSamplingStrategy;
 
     invoke-virtual {p0, p1, p2}, Lio/jaegertracing/thrift/sampling_manager/ProbabilisticSamplingStrategy$d;->a(Lorg/apache/thrift/protocol/TProtocol;Lio/jaegertracing/thrift/sampling_manager/ProbabilisticSamplingStrategy;)V
@@ -112,7 +104,6 @@
         }
     .end annotation
 
-    .line 1
     check-cast p2, Lio/jaegertracing/thrift/sampling_manager/ProbabilisticSamplingStrategy;
 
     invoke-virtual {p0, p1, p2}, Lio/jaegertracing/thrift/sampling_manager/ProbabilisticSamplingStrategy$d;->b(Lorg/apache/thrift/protocol/TProtocol;Lio/jaegertracing/thrift/sampling_manager/ProbabilisticSamplingStrategy;)V

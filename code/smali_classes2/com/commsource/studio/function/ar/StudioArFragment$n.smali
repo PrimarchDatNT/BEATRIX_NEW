@@ -43,7 +43,6 @@
 
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v0, p0, Lcom/commsource/studio/function/ar/StudioArFragment$n;->a:Lcom/commsource/studio/function/ar/StudioArFragment;
 
     invoke-virtual {v0}, Lcom/commsource/studio/function/ar/StudioArFragment;->C1()Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/c1;
@@ -72,7 +71,6 @@
 
     const-string v1, "it"
 
-    .line 2
     invoke-static {v0, v1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v0}, Lcom/meitu/template/bean/ArMaterial;->isDateSelectAr()Z
@@ -87,7 +85,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_0
     invoke-virtual {v0}, Lcom/meitu/template/bean/ArMaterial;->isTextEdit()Z
 
@@ -99,7 +96,6 @@
 
     invoke-static {v0}, Lcom/commsource/studio/function/ar/StudioArFragment;->A1(Lcom/commsource/studio/function/ar/StudioArFragment;)V
 
-    .line 4
     :cond_1
     :goto_0
     invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V

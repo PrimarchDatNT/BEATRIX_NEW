@@ -57,20 +57,16 @@
     .annotation build Lcom/mopub/common/VisibleForTesting;
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Landroid/os/AsyncTask;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/mopub/mobileads/VideoDownloader$VideoDownloaderTask;->mListener:Lcom/mopub/mobileads/VideoDownloader$VideoDownloaderListener;
 
-    .line 3
     new-instance p1, Ljava/lang/ref/WeakReference;
 
     invoke-direct {p1, p0}, Ljava/lang/ref/WeakReference;-><init>(Ljava/lang/Object;)V
 
     iput-object p1, p0, Lcom/mopub/mobileads/VideoDownloader$VideoDownloaderTask;->mWeakSelf:Ljava/lang/ref/WeakReference;
 
-    .line 4
     invoke-static {}, Lcom/mopub/mobileads/VideoDownloader;->access$000()Ljava/util/Deque;
 
     move-result-object v0
@@ -85,7 +81,6 @@
 .method protected varargs doInBackground([Ljava/lang/String;)Ljava/lang/Boolean;
     .locals 11
 
-    .line 2
     sget-object v0, Ljava/lang/Boolean;->FALSE:Ljava/lang/Boolean;
 
     const/4 v1, 0x1
@@ -104,7 +99,6 @@
 
     goto/16 :goto_3
 
-    .line 3
     :cond_0
     aget-object p1, p1, v2
 
@@ -112,7 +106,6 @@
 
     const/4 v4, 0x0
 
-    .line 4
     :try_start_0
     invoke-static {p1}, Lcom/mopub/common/MoPubHttpUrlConnection;->getHttpUrlConnection(Ljava/lang/String;)Ljava/net/HttpURLConnection;
 
@@ -121,7 +114,6 @@
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_2
     .catchall {:try_start_0 .. :try_end_0} :catchall_2
 
-    .line 5
     :try_start_1
     new-instance v6, Ljava/io/BufferedInputStream;
 
@@ -134,7 +126,6 @@
     .catch Ljava/lang/Exception; {:try_start_1 .. :try_end_1} :catch_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_1
 
-    .line 6
     :try_start_2
     invoke-virtual {v5}, Ljava/net/HttpURLConnection;->getResponseCode()I
 
@@ -150,7 +141,6 @@
 
     goto :goto_0
 
-    .line 7
     :cond_1
     invoke-virtual {v5}, Ljava/net/HttpURLConnection;->getContentLength()I
 
@@ -160,7 +150,6 @@
 
     if-le v4, v7, :cond_3
 
-    .line 8
     sget-object p1, Lcom/mopub/common/logging/MoPubLog$SdkLogEvent;->CUSTOM:Lcom/mopub/common/logging/MoPubLog$SdkLogEvent;
 
     new-array v8, v1, [Ljava/lang/Object;
@@ -169,21 +158,18 @@
 
     new-array v10, v3, [Ljava/lang/Object;
 
-    .line 9
     invoke-static {v4}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v4
 
     aput-object v4, v10, v2
 
-    .line 10
     invoke-static {v7}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v4
 
     aput-object v4, v10, v1
 
-    .line 11
     invoke-static {v9, v10}, Ljava/lang/String;->format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object v4
@@ -195,18 +181,15 @@
     .catch Ljava/lang/Exception; {:try_start_2 .. :try_end_2} :catch_0
     .catchall {:try_start_2 .. :try_end_2} :catchall_0
 
-    .line 12
     invoke-static {v6}, Lcom/mopub/common/util/Streams;->closeStream(Ljava/io/Closeable;)V
 
     if-eqz v5, :cond_2
 
-    .line 13
     invoke-virtual {v5}, Ljava/net/HttpURLConnection;->disconnect()V
 
     :cond_2
     return-object v0
 
-    .line 14
     :cond_3
     :try_start_3
     invoke-static {p1, v6}, Lcom/mopub/common/VideoCacheService;->put(Ljava/lang/String;Ljava/io/InputStream;)Z
@@ -220,18 +203,15 @@
     .catch Ljava/lang/Exception; {:try_start_3 .. :try_end_3} :catch_0
     .catchall {:try_start_3 .. :try_end_3} :catchall_0
 
-    .line 15
     invoke-static {v6}, Lcom/mopub/common/util/Streams;->closeStream(Ljava/io/Closeable;)V
 
     if-eqz v5, :cond_4
 
-    .line 16
     invoke-virtual {v5}, Ljava/net/HttpURLConnection;->disconnect()V
 
     :cond_4
     return-object p1
 
-    .line 17
     :cond_5
     :goto_0
     :try_start_4
@@ -260,12 +240,10 @@
     .catch Ljava/lang/Exception; {:try_start_4 .. :try_end_4} :catch_0
     .catchall {:try_start_4 .. :try_end_4} :catchall_0
 
-    .line 18
     invoke-static {v6}, Lcom/mopub/common/util/Streams;->closeStream(Ljava/io/Closeable;)V
 
     if-eqz v5, :cond_6
 
-    .line 19
     invoke-virtual {v5}, Ljava/net/HttpURLConnection;->disconnect()V
 
     :cond_6
@@ -307,7 +285,6 @@
 
     move-object v5, v4
 
-    .line 20
     :goto_1
     :try_start_5
     sget-object v6, Lcom/mopub/common/logging/MoPubLog$SdkLogEvent;->ERROR_WITH_THROWABLE:Lcom/mopub/common/logging/MoPubLog$SdkLogEvent;
@@ -324,30 +301,25 @@
     :try_end_5
     .catchall {:try_start_5 .. :try_end_5} :catchall_1
 
-    .line 21
     invoke-static {v4}, Lcom/mopub/common/util/Streams;->closeStream(Ljava/io/Closeable;)V
 
     if-eqz v5, :cond_7
 
-    .line 22
     invoke-virtual {v5}, Ljava/net/HttpURLConnection;->disconnect()V
 
     :cond_7
     return-object v0
 
-    .line 23
     :goto_2
     invoke-static {v4}, Lcom/mopub/common/util/Streams;->closeStream(Ljava/io/Closeable;)V
 
     if-eqz v5, :cond_8
 
-    .line 24
     invoke-virtual {v5}, Ljava/net/HttpURLConnection;->disconnect()V
 
     :cond_8
     throw p1
 
-    .line 25
     :cond_9
     :goto_3
     sget-object p1, Lcom/mopub/common/logging/MoPubLog$SdkLogEvent;->CUSTOM:Lcom/mopub/common/logging/MoPubLog$SdkLogEvent;
@@ -366,7 +338,6 @@
 .method protected bridge synthetic doInBackground([Ljava/lang/Object;)Ljava/lang/Object;
     .locals 0
 
-    .line 1
     check-cast p1, [Ljava/lang/String;
 
     invoke-virtual {p0, p1}, Lcom/mopub/mobileads/VideoDownloader$VideoDownloaderTask;->doInBackground([Ljava/lang/String;)Ljava/lang/Boolean;
@@ -379,7 +350,6 @@
 .method protected onCancelled()V
     .locals 4
 
-    .line 1
     sget-object v0, Lcom/mopub/common/logging/MoPubLog$SdkLogEvent;->CUSTOM:Lcom/mopub/common/logging/MoPubLog$SdkLogEvent;
 
     const/4 v1, 0x1
@@ -394,7 +364,6 @@
 
     invoke-static {v0, v1}, Lcom/mopub/common/logging/MoPubLog;->log(Lcom/mopub/common/logging/MoPubLog$MPLogEventType;[Ljava/lang/Object;)V
 
-    .line 2
     invoke-static {}, Lcom/mopub/mobileads/VideoDownloader;->access$000()Ljava/util/Deque;
 
     move-result-object v0
@@ -403,7 +372,6 @@
 
     invoke-interface {v0, v1}, Ljava/util/Deque;->remove(Ljava/lang/Object;)Z
 
-    .line 3
     iget-object v0, p0, Lcom/mopub/mobileads/VideoDownloader$VideoDownloaderTask;->mListener:Lcom/mopub/mobileads/VideoDownloader$VideoDownloaderListener;
 
     invoke-interface {v0, v3}, Lcom/mopub/mobileads/VideoDownloader$VideoDownloaderListener;->onComplete(Z)V
@@ -414,19 +382,16 @@
 .method protected onPostExecute(Ljava/lang/Boolean;)V
     .locals 2
 
-    .line 2
     invoke-virtual {p0}, Landroid/os/AsyncTask;->isCancelled()Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
-    .line 3
     invoke-virtual {p0}, Lcom/mopub/mobileads/VideoDownloader$VideoDownloaderTask;->onCancelled()V
 
     return-void
 
-    .line 4
     :cond_0
     invoke-static {}, Lcom/mopub/mobileads/VideoDownloader;->access$000()Ljava/util/Deque;
 
@@ -438,7 +403,6 @@
 
     if-nez p1, :cond_1
 
-    .line 5
     iget-object p1, p0, Lcom/mopub/mobileads/VideoDownloader$VideoDownloaderTask;->mListener:Lcom/mopub/mobileads/VideoDownloader$VideoDownloaderListener;
 
     const/4 v0, 0x0
@@ -447,7 +411,6 @@
 
     return-void
 
-    .line 6
     :cond_1
     iget-object v0, p0, Lcom/mopub/mobileads/VideoDownloader$VideoDownloaderTask;->mListener:Lcom/mopub/mobileads/VideoDownloader$VideoDownloaderListener;
 
@@ -463,7 +426,6 @@
 .method protected bridge synthetic onPostExecute(Ljava/lang/Object;)V
     .locals 0
 
-    .line 1
     check-cast p1, Ljava/lang/Boolean;
 
     invoke-virtual {p0, p1}, Lcom/mopub/mobileads/VideoDownloader$VideoDownloaderTask;->onPostExecute(Ljava/lang/Boolean;)V

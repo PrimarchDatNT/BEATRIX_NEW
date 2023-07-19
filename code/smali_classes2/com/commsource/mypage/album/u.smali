@@ -88,15 +88,12 @@
 .method public constructor <init>()V
     .locals 2
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/4 v0, 0x0
 
-    .line 2
     iput v0, p0, Lcom/commsource/mypage/album/u;->b:I
 
-    .line 3
     new-instance v0, Ljava/util/HashMap;
 
     const/16 v1, 0x10
@@ -105,21 +102,18 @@
 
     iput-object v0, p0, Lcom/commsource/mypage/album/u;->c:Ljava/util/Map;
 
-    .line 4
     new-instance v0, Ljava/util/HashMap;
 
     invoke-direct {v0, v1}, Ljava/util/HashMap;-><init>(I)V
 
     iput-object v0, p0, Lcom/commsource/mypage/album/u;->d:Ljava/util/Map;
 
-    .line 5
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
 
     iput-object v0, p0, Lcom/commsource/mypage/album/u;->f:Ljava/util/List;
 
-    .line 6
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
@@ -136,22 +130,18 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/mypage/album/u;->f:Ljava/util/List;
 
     invoke-interface {v1}, Ljava/util/List;->clear()V
 
-    .line 2
     iget-object v1, p0, Lcom/commsource/mypage/album/u;->g:Ljava/util/List;
 
     invoke-interface {v1}, Ljava/util/List;->clear()V
 
-    .line 3
     iget v1, p0, Lcom/commsource/mypage/album/u;->e:I
 
     if-nez v1, :cond_1
 
-    .line 4
     iget-object v1, p0, Lcom/commsource/mypage/album/u;->a:Ljava/util/List;
 
     if-eqz v1, :cond_0
@@ -162,20 +152,17 @@
 
     if-nez v1, :cond_0
 
-    .line 5
     iget-object v1, p0, Lcom/commsource/mypage/album/u;->g:Ljava/util/List;
 
     iget-object v2, p0, Lcom/commsource/mypage/album/u;->a:Ljava/util/List;
 
     invoke-interface {v1, v2}, Ljava/util/List;->addAll(Ljava/util/Collection;)Z
 
-    .line 6
     :cond_0
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
 
-    .line 7
     :cond_1
     iget-object v1, p0, Lcom/commsource/mypage/album/u;->a:Ljava/util/List;
 
@@ -189,7 +176,6 @@
 
     const/4 v1, 0x0
 
-    .line 8
     :goto_0
     iget-object v2, p0, Lcom/commsource/mypage/album/u;->a:Ljava/util/List;
 
@@ -199,7 +185,6 @@
 
     if-ge v1, v2, :cond_6
 
-    .line 9
     iget-object v2, p0, Lcom/commsource/mypage/album/u;->a:Ljava/util/List;
 
     invoke-interface {v2, v1}, Ljava/util/List;->get(I)Ljava/lang/Object;
@@ -208,12 +193,10 @@
 
     check-cast v2, Lcom/commsource/cloudalbum/bean/CAImageInfo;
 
-    .line 10
     invoke-static {}, Ljava/util/Calendar;->getInstance()Ljava/util/Calendar;
 
     move-result-object v3
 
-    .line 11
     invoke-virtual {v2}, Lcom/commsource/cloudalbum/bean/CAImageInfo;->f()J
 
     move-result-wide v4
@@ -224,7 +207,6 @@
 
     invoke-virtual {v3, v4, v5}, Ljava/util/Calendar;->setTimeInMillis(J)V
 
-    .line 12
     iget-object v4, p0, Lcom/commsource/mypage/album/u;->f:Ljava/util/List;
 
     invoke-interface {v4}, Ljava/util/List;->isEmpty()Z
@@ -237,12 +219,10 @@
 
     if-eqz v4, :cond_3
 
-    .line 13
     iget v4, p0, Lcom/commsource/mypage/album/u;->e:I
 
     if-ne v4, v5, :cond_2
 
-    .line 14
     new-instance v4, Lcom/commsource/mypage/album/u$a;
 
     iget-object v5, p0, Lcom/commsource/mypage/album/u;->f:Ljava/util/List;
@@ -255,17 +235,14 @@
 
     invoke-direct {v4, p0, v5, v3, v6}, Lcom/commsource/mypage/album/u$a;-><init>(Lcom/commsource/mypage/album/u;ILjava/util/Calendar;Z)V
 
-    .line 15
     iget-object v5, p0, Lcom/commsource/mypage/album/u;->f:Ljava/util/List;
 
     invoke-interface {v5, v4}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
-    .line 16
     iget-object v5, p0, Lcom/commsource/mypage/album/u;->g:Ljava/util/List;
 
     invoke-interface {v5, v4}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
-    .line 17
     :cond_2
     new-instance v4, Lcom/commsource/mypage/album/u$a;
 
@@ -279,24 +256,20 @@
 
     invoke-direct {v4, p0, v5, v3}, Lcom/commsource/mypage/album/u$a;-><init>(Lcom/commsource/mypage/album/u;ILjava/util/Calendar;)V
 
-    .line 18
     iget-object v3, p0, Lcom/commsource/mypage/album/u;->f:Ljava/util/List;
 
     invoke-interface {v3, v4}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
-    .line 19
     iget-object v3, p0, Lcom/commsource/mypage/album/u;->g:Ljava/util/List;
 
     invoke-interface {v3, v4}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
-    .line 20
     iget-object v3, p0, Lcom/commsource/mypage/album/u;->g:Ljava/util/List;
 
     invoke-interface {v3, v2}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
     goto :goto_1
 
-    .line 21
     :cond_3
     iget-object v4, p0, Lcom/commsource/mypage/album/u;->f:Ljava/util/List;
 
@@ -312,7 +285,6 @@
 
     check-cast v4, Lcom/commsource/mypage/album/u$a;
 
-    .line 22
     iget v7, p0, Lcom/commsource/mypage/album/u;->e:I
 
     invoke-direct {p0, v7, v4, v3}, Lcom/commsource/mypage/album/u;->i(ILcom/commsource/mypage/album/u$a;Ljava/util/Calendar;)Z
@@ -321,7 +293,6 @@
 
     if-nez v7, :cond_5
 
-    .line 23
     iget v7, p0, Lcom/commsource/mypage/album/u;->e:I
 
     if-ne v7, v5, :cond_4
@@ -334,7 +305,6 @@
 
     if-eq v4, v5, :cond_4
 
-    .line 24
     new-instance v4, Lcom/commsource/mypage/album/u$a;
 
     add-int/lit8 v5, v1, 0x1
@@ -349,17 +319,14 @@
 
     invoke-direct {v4, p0, v5, v3, v6}, Lcom/commsource/mypage/album/u$a;-><init>(Lcom/commsource/mypage/album/u;ILjava/util/Calendar;Z)V
 
-    .line 25
     iget-object v5, p0, Lcom/commsource/mypage/album/u;->f:Ljava/util/List;
 
     invoke-interface {v5, v4}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
-    .line 26
     iget-object v5, p0, Lcom/commsource/mypage/album/u;->g:Ljava/util/List;
 
     invoke-interface {v5, v4}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
-    .line 27
     :cond_4
     new-instance v4, Lcom/commsource/mypage/album/u$a;
 
@@ -375,17 +342,14 @@
 
     invoke-direct {v4, p0, v5, v3}, Lcom/commsource/mypage/album/u$a;-><init>(Lcom/commsource/mypage/album/u;ILjava/util/Calendar;)V
 
-    .line 28
     iget-object v3, p0, Lcom/commsource/mypage/album/u;->f:Ljava/util/List;
 
     invoke-interface {v3, v4}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
-    .line 29
     iget-object v3, p0, Lcom/commsource/mypage/album/u;->g:Ljava/util/List;
 
     invoke-interface {v3, v4}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
-    .line 30
     :cond_5
     iget-object v3, p0, Lcom/commsource/mypage/album/u;->g:Ljava/util/List;
 
@@ -396,7 +360,6 @@
 
     goto/16 :goto_0
 
-    .line 31
     :cond_6
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -414,7 +377,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget v1, p2, Lcom/commsource/mypage/album/u$a;->c:I
 
     const/4 v2, 0x1
@@ -427,7 +389,6 @@
 
     if-ne v1, v3, :cond_3
 
-    .line 2
     iget v1, p2, Lcom/commsource/mypage/album/u$a;->d:I
 
     const/4 v3, 0x2
@@ -446,7 +407,6 @@
 
     goto :goto_1
 
-    .line 3
     :cond_0
     iget p1, p2, Lcom/commsource/mypage/album/u$a;->e:I
 
@@ -468,14 +428,12 @@
 
     return v2
 
-    .line 4
     :cond_2
     :goto_1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v2
 
-    .line 5
     :cond_3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
@@ -491,7 +449,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/mypage/album/u;->g:Ljava/util/List;
 
     add-int/lit8 p1, p1, -0x1
@@ -500,12 +457,10 @@
 
     move-result-object p1
 
-    .line 2
     instance-of v1, p1, Lcom/commsource/cloudalbum/bean/CAImageInfo;
 
     if-eqz v1, :cond_0
 
-    .line 3
     iget-object v1, p0, Lcom/commsource/mypage/album/u;->a:Ljava/util/List;
 
     invoke-interface {v1, p1}, Ljava/util/List;->indexOf(Ljava/lang/Object;)I
@@ -519,7 +474,6 @@
     :cond_0
     const/4 p1, -0x1
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
@@ -532,7 +486,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/mypage/album/u;->g:Ljava/util/List;
 
     add-int/lit8 p1, p1, -0x1
@@ -541,12 +494,10 @@
 
     move-result-object p1
 
-    .line 2
     instance-of v1, p1, Lcom/commsource/mypage/album/u$a;
 
     if-eqz v1, :cond_0
 
-    .line 3
     check-cast p1, Lcom/commsource/mypage/album/u$a;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -556,7 +507,6 @@
     :cond_0
     const/4 p1, 0x0
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p1
@@ -569,7 +519,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/mypage/album/u;->g:Ljava/util/List;
 
     add-int/lit8 p1, p1, -0x1
@@ -578,12 +527,10 @@
 
     move-result-object p1
 
-    .line 2
     instance-of v1, p1, Lcom/commsource/cloudalbum/bean/CAImageInfo;
 
     if-eqz v1, :cond_0
 
-    .line 3
     check-cast p1, Lcom/commsource/cloudalbum/bean/CAImageInfo;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -593,7 +540,6 @@
     :cond_0
     const/4 p1, 0x0
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-object p1
@@ -614,7 +560,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/mypage/album/u;->a:Ljava/util/List;
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
@@ -629,7 +574,6 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iget-object v1, p0, Lcom/commsource/mypage/album/u;->g:Ljava/util/List;
 
     if-eqz v1, :cond_1
@@ -674,12 +618,10 @@
 
     if-nez p1, :cond_0
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
 
-    .line 2
     :cond_0
     iget-object v2, p0, Lcom/commsource/mypage/album/u;->g:Ljava/util/List;
 
@@ -689,14 +631,12 @@
 
     move-result-object p1
 
-    .line 3
     instance-of p1, p1, Lcom/commsource/mypage/album/u$a;
 
     if-eqz p1, :cond_1
 
     const/4 p1, 0x2
 
-    .line 4
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
@@ -704,7 +644,6 @@
     :cond_1
     const/4 p1, 0x0
 
-    .line 5
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return p1
@@ -721,12 +660,10 @@
 
     if-nez p1, :cond_0
 
-    .line 1
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return v1
 
-    .line 2
     :cond_0
     iget-object v2, p0, Lcom/commsource/mypage/album/u;->g:Ljava/util/List;
 
@@ -754,13 +691,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput p1, p0, Lcom/commsource/mypage/album/u;->e:I
 
-    .line 2
     invoke-direct {p0}, Lcom/commsource/mypage/album/u;->h()V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void
@@ -781,13 +715,10 @@
 
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
 
-    .line 1
     iput-object p1, p0, Lcom/commsource/mypage/album/u;->a:Ljava/util/List;
 
-    .line 2
     invoke-direct {p0}, Lcom/commsource/mypage/album/u;->h()V
 
-    .line 3
     invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
 
     return-void

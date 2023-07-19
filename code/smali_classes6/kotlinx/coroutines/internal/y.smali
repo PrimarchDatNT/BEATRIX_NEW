@@ -59,7 +59,6 @@
 
     const/4 v0, 0x1
 
-    .line 1
     invoke-direct {p0, p1, v0}, Lcotlinx/coroutines/a;-><init>(Lcotlin/coroutines/CoroutineContext;Z)V
 
     iput-object p2, p0, Lcotlinx/coroutines/internal/y;->d:Lcotlin/coroutines/c;
@@ -84,7 +83,6 @@
         .end annotation
     .end param
 
-    .line 1
     iget-object v0, p0, Lcotlinx/coroutines/internal/y;->d:Lcotlin/coroutines/c;
 
     invoke-static {v0}, Lcotlin/coroutines/intrinsics/a;->d(Lcotlin/coroutines/c;)Lcotlin/coroutines/c;
@@ -107,7 +105,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcotlinx/coroutines/internal/y;->d:Lcotlin/coroutines/c;
 
     check-cast v0, Lcotlin/coroutines/jvm/internal/c;
@@ -132,7 +129,6 @@
         .end annotation
     .end param
 
-    .line 1
     iget-object v0, p0, Lcotlinx/coroutines/internal/y;->d:Lcotlin/coroutines/c;
 
     invoke-static {p1, v0}, Lcotlinx/coroutines/a0;->a(Ljava/lang/Object;Lcotlin/coroutines/c;)Ljava/lang/Object;
@@ -149,7 +145,6 @@
     .annotation build Ln/e/a/e;
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcotlinx/coroutines/a;->c:Lcotlin/coroutines/CoroutineContext;
 
     sget-object v1, Lcotlinx/coroutines/c2;->u:Lcotlinx/coroutines/c2$b;
